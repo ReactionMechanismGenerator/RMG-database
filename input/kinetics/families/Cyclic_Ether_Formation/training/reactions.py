@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 name = "Cyclic_Ether_Formation/training"
-shortDesc = u"Kinetics used to train group additivity values"
+shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
-Put kinetic parameters for reactions to use as a training set for fitting
-group additivity values in this file.
+Put kinetic parameters for specific reactions in this file to use as a
+training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 0,
@@ -18,12 +18,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'J. W. Allen'"", ""'C. F. Goldsmith'"", ""'W. H. Green'""],
+        authors = ['J. W. Allen', 'C. F. Goldsmith', 'W. H. Green'],
         title = 'Automatic Estimation of Pressure-Dependent Rate Coefficients',
-        journal = ""'Phys. Chem. Chem. Phys.'"",
-        volume = ""'???'"",
-        pages = ""'???-???'"",
-        year = ""'2011 (accepted)'"",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '???',
+        pages = '???-???',
+        year = '2011 (accepted)',
     ),
     referenceType = "theory",
     rank = 10,

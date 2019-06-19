@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 name = "1,2_shiftC/training"
-shortDesc = u"Kinetics used to train group additivity values"
+shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
-Put kinetic parameters for reactions to use as a training set for fitting
-group additivity values in this file.
+Put kinetic parameters for specific reactions in this file to use as a
+training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 0,
@@ -65,12 +65,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.889e+11, 's^-1'), n=0.232, Ea=(29.338, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
-        journal = "'J. Phys. Chem. A'",
-        volume = "'109 (27)'",
-        pages = """'6114-6127'""",
-        year = "'2005'",
+        journal = 'J. Phys. Chem. A',
+        volume = '109 (27)',
+        pages = '6114-6127',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -89,12 +89,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.66e+11, 's^-1'), n=0.438, Ea=(22.58, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -112,12 +112,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.13e+12, 's^-1'), n=0.254, Ea=(68.75, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,

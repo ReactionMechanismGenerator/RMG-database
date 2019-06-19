@@ -1525,60 +1525,805 @@ Thermodynamics for HOOS:
 
 entry(
     index = 42,
-    label = "NH2NHN(S)",
-    molecule = 
+    label = "H2NN(S)",
+    molecule =
 """
-1 N u0 p1 c0 {2,S} {4,S} {5,S}
-2 N u0 p1 c0 {1,S} {3,S} {6,S}
-3 N u0 p2 c0 {2,S}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
+1 N u0 p0 c+1 {2,S} {3,S} {4,D}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 N u0 p2 c-1 {1,D}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9699,0.00187928,5.2548e-05,-1.04631e-07,6.53935e-11,40913.3,8.08867], Tmin=(10,'K'), Tmax=(500.934,'K')),
-            NASAPolynomial(coeffs=[2.84747,0.0168672,-1.03741e-05,3.12044e-09,-3.64782e-13,40950.2,11.9733], Tmin=(500.934,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(
+                coeffs = [4.03102, -0.0019749, 1.08994e-05, -2.27362e-10, -7.02557e-12, 35633.4, 4.05454],
+                Tmin = (10, 'K'),
+                Tmax = (562.69, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [1.7302, 0.00905511, -4.30653e-06, 9.67276e-10, -8.28241e-14, 35976.6, 14.5808],
+                Tmin = (562.69, 'K'),
+                Tmax = (3000, 'K'),
+            ),
         ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-        E0 = (340.164,'kJ/mol'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (128.874,'J/(mol*K)'),
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (296.282, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (83.1447, 'J/(mol*K)'),
     ),
-    shortDesc = u"""CCSD(T)-F12/cc-pVTZ//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
-u"""
-aug-SMILES: NN[N::]
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [NH2+]=[N-]
 
-calculated by alongd (xq1241, xc1104) at the CCSD(T)-F12/cc-pVTZ//B3LYP/6-311G(2d,d,p) level of theory
-frequencies calculated at B3LYP/6-311G(2d,d,p)
-rotor calculated at B3LYP/6-311G(2d,pd)
+    calculated by alongd (xq1334, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
 
-Thermodynamics for NH2NHN(S):
-    Enthalpy of formation (298 K)   =    84.392 kcal/mol
-    Entropy of formation (298 K)    =    65.190 cal/(mol*K)
-    =========== =========== =========== =========== ===========
-    Temperature Heat cap.   Enthalpy    Entropy     Free energy
-    (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
-    =========== =========== =========== =========== ===========
-           300      13.846      84.420      65.282      64.835
-           400      16.110      85.921      69.584      58.087
-           500      17.994      87.629      73.388      50.935
-           600      19.594      89.510      76.814      43.422
-           800      22.157      93.698      82.820      27.442
-          1000      24.038      98.328      87.978      10.350
-          1500      26.810     111.127      98.319     -36.352
-          2000      28.243     124.921     106.246     -87.571
-          2400      29.030     136.384     111.468    -131.141
-    =========== =========== =========== =========== ===========
-""",
+    Thermodynamics for H2NN(S):
+        Enthalpy of formation (298 K)   =    73.207 kcal/mol
+        Entropy of formation (298 K)    =    53.454 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300       8.657      73.225      53.512      57.171
+               400       9.520      74.132      56.116      51.685
+               500      10.534      75.134      58.347      45.960
+               600      11.548      76.238      60.359      40.023
+               800      13.273      78.727      63.927      27.586
+              1000      14.632      81.523      67.041      14.483
+              1500      16.829      89.449      73.438     -20.708
+              2000      17.939      98.172      78.449     -58.726
+              2400      18.442     105.456      81.768     -90.787
+        =========== =========== =========== =========== ===========
+    """,
 )
 
 entry(
     index = 43,
+    label = "H2NN(T)",
+    molecule =
+"""
+multiplicity 3
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u2 p1 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.04705, -0.00354577, 3.01414e-05, -4.15281e-08, 1.90485e-11, 43380.7, 5.31138],
+                Tmin = (10, 'K'),
+                Tmax = (653.103, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.60416, 0.00842517, -4.55014e-06, 1.23097e-09, -1.31549e-13, 43502.3, 11.1461],
+                Tmin = (653.103, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (360.693, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (83.1447, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: N[N]
+
+    calculated by alongd (xq1448, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+
+    Thermodynamics for H2NN(T):
+        Enthalpy of formation (298 K)   =    88.674 kcal/mol
+        Entropy of formation (298 K)    =    56.279 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300       9.398      88.692      56.342      71.790
+               400      10.495      89.687      59.195      66.009
+               500      11.544      90.790      61.652      59.964
+               600      12.458      91.991      63.839      53.687
+               800      13.927      94.636      67.634      40.529
+              1000      15.060      97.540      70.869      26.671
+              1500      16.877     105.573      77.358     -10.465
+              2000      17.879     114.283      82.363     -50.443
+              2400      18.418     121.547      85.673     -84.067
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 44,
+    label = "N2H2(T)",
+    molecule =
+"""
+multiplicity 3
+1 N u1 p1 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 N u1 p1 c0 {1,S} {4,S}
+4 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.05595, -0.00430189, 3.68637e-05, -5.32232e-08, 2.52157e-11, 44827.2, 5.88046],
+                Tmin = (10, 'K'),
+                Tmax = (654.983, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.6776, 0.00914612, -5.45436e-06, 1.57544e-09, -1.75989e-13, 44899.8, 11.1233],
+                Tmin = (654.983, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (372.719, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (78.9875, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [NH][NH]
+
+    calculated by alongd (xq1448, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotor: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for N2H2(T):
+        Enthalpy of formation (298 K)   =    91.564 kcal/mol
+        Entropy of formation (298 K)    =    57.475 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300       9.639      91.584      57.540      74.322
+               400      10.875      92.609      60.482      68.417
+               500      12.011      93.755      63.034      62.238
+               600      12.952      95.005      65.310      55.819
+               800      14.384      97.746      69.243      42.352
+              1000      15.438     100.734      72.572      28.162
+              1500      16.992     108.891      79.166      -9.858
+              2000      17.766     117.598      84.170     -50.742
+              2400      18.185     124.792      87.448     -85.083
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 45,
+    label = "NH3NH",
+    molecule =
+"""
+1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 N u0 p2 c-1 {1,S} {6,S}
+6 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.98502, 0.000725295, 2.40756e-05, -3.03906e-08, 1.24561e-11, 32805, 5.0309],
+                Tmin = (10, 'K'),
+                Tmax = (628.906, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.02176, 0.0132122, -5.70704e-06, 1.18047e-09, -9.40542e-14, 33051.9, 13.592],
+                Tmin = (628.906, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (272.75, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (128.874, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [NH3+][NH-]
+
+    calculated by alongd (xq1484, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotor: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NH3NH:
+        Enthalpy of formation (298 K)   =    67.929 kcal/mol
+        Entropy of formation (298 K)    =    57.183 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      11.227      67.951      57.258      50.774
+               400      12.919      69.158      60.718      44.871
+               500      14.599      70.535      63.783      38.643
+               600      16.171      72.074      66.585      32.123
+               800      18.888      75.589      71.623      18.291
+              1000      21.091      79.595      76.083       3.512
+              1500      24.854      91.171      85.419     -36.957
+              2000      26.940     104.171      92.884     -81.597
+              2400      27.934     115.160      97.890    -119.777
+        =========== =========== =========== =========== ===========
+
+    In agreement with the values reported in doi 10.1021/jp101640p
+    """,
+)
+
+entry(
+    index = 46,
+    label = "N3H5",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {4,S} {5,S}
+2 N u0 p1 c0 {1,S} {3,S} {6,S}
+3 N u0 p1 c0 {2,S} {7,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.90787, 0.00658287, 9.4825e-05, -2.61963e-07, 2.15681e-10, 22396.1, 6.78292],
+                Tmin = (10, 'K'),
+                Tmax = (420.43, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [4.47752, 0.0185703, -1.0048e-05, 2.81007e-09, -3.18669e-13, 22194.4, 2.69867],
+                Tmin = (420.43, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (186.21, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (174.604, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: NNN
+
+    calculated by alongd (xq1449, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for N3H5:
+        Enthalpy of formation (298 K)   =    48.238 kcal/mol
+        Entropy of formation (298 K)    =    66.239 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      18.066      48.274      66.360      28.366
+               400      20.804      50.225      71.952      21.444
+               500      23.016      52.418      76.837      13.999
+               600      24.975      54.819      81.210       6.093
+               800      28.241      60.155      88.862     -10.935
+              1000      30.784      66.068      95.449     -29.381
+              1500      34.966      82.610     108.806     -80.599
+              2000      37.375     100.744     119.223    -137.702
+              2400      38.638     115.963     126.156    -186.813
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 47,
+    label = "NH2NH2NH",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {7,S} {8,S}
+2 N u0 p0 c+1 {1,S} {3,S} {4,S} {5,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {2,S}
+5 N u0 p2 c-1 {2,S} {6,S}
+6 H u0 p0 c0 {5,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.96096, 0.00228708, 7.02891e-05, -1.26989e-07, 7.16093e-11, 40957.5, 7.58571],
+                Tmin = (10, 'K'),
+                Tmax = (551.473, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [1.83955, 0.0259417, -1.65382e-05, 5.15915e-09, -6.21174e-13, 41065.7, 15.4179],
+                Tmin = (551.473, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (340.524, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (174.604, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: N[NH2+][NH-]
+
+    calculated by alongd (xq1462, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NH2NH2NH:
+        Enthalpy of formation (298 K)   =    84.740 kcal/mol
+        Entropy of formation (298 K)    =    65.528 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      16.145      84.772      65.636      65.081
+               400      19.530      86.559      70.754      58.258
+               500      22.413      88.661      75.432      50.945
+               600      24.810      91.025      79.736      43.184
+               800      28.607      96.387      87.422      26.449
+              1000      31.360     102.399      94.118       8.281
+              1500      35.389     119.213     107.698     -42.335
+              2000      37.567     137.490     118.199     -98.909
+              2400      38.851     152.785     125.168    -147.617
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 48,
+    label = "nN3H4",
+    molecule =
+"""
+multiplicity 2
+1 N u1 p1 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 N u0 p1 c0 {1,S} {4,S} {5,S}
+4 N u0 p1 c0 {3,S} {6,S} {7,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.67804, 0.0335268, -0.000125195, 2.77593e-07, -2.16472e-10, 36762.7, 5.56865],
+                Tmin = (10, 'K'),
+                Tmax = (429.285, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.39183, 0.0184252, -1.03403e-05, 2.80841e-09, -2.9725e-13, 36951, 8.61436],
+                Tmin = (429.285, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (305.655, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (149.66, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [NH]NN
+
+    calculated by alongd (xq1455, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for nN3H4:
+        Enthalpy of formation (298 K)   =    76.882 kcal/mol
+        Entropy of formation (298 K)    =    65.532 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      16.315      76.915      65.641      57.223
+               400      18.445      78.651      70.620      50.403
+               500      20.571      80.604      74.969      43.119
+               600      22.441      82.756      78.888      35.423
+               800      25.497      87.564      85.783      18.938
+              1000      27.797      92.904      91.732       1.173
+              1500      31.274     107.781     103.748     -47.841
+              2000      32.973     123.887     113.003    -102.119
+              2400      33.810     137.253     119.093    -148.570
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 49,
+    label = "iN3H4",
+    molecule =
+"""
+multiplicity 2
+1 N u0 p1 c0 {2,S} {4,S} {5,S}
+2 N u1 p1 c0 {1,S} {3,S}
+3 N u0 p1 c0 {2,S} {6,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.9149, 0.00466504, 7.13855e-05, -1.37682e-07, 7.59162e-11, 32993.8, 6.51512],
+                Tmin = (10, 'K'),
+                Tmax = (640.546, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [5.01244, 0.0196699, -1.49395e-05, 5.4379e-09, -7.35158e-13, 32404.8, -1.79135],
+                Tmin = (640.546, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (274.287, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (149.66, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: N[N]N
+
+    calculated by alongd (xq1455, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for iN3H4:
+        Enthalpy of formation (298 K)   =    69.078 kcal/mol
+        Entropy of formation (298 K)    =    64.214 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      17.163      69.113      64.328      49.814
+               400      20.537      71.003      69.744      43.106
+               500      23.108      73.193      74.619      35.883
+               600      24.864      75.597      78.998      28.198
+               800      27.165      80.816      86.489      11.625
+              1000      28.706      86.413      92.728      -6.314
+              1500      30.870     101.369     104.827     -55.871
+              2000      32.461     117.200     113.924    -110.648
+              2400      33.686     130.439     119.955    -157.453
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 50,
+    label = "NH2NHN",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {5,S} {6,S}
+2 N u0 p0 c+1 {1,S} {3,S} {4,D}
+3 H u0 p0 c0 {2,S}
+4 N u0 p2 c-1 {2,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.98425, 0.000945858, 4.48683e-05, -7.82227e-08, 4.41117e-11, 41335.6, 7.16058],
+                Tmin = (10, 'K'),
+                Tmax = (459.105, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.01419, 0.0181272, -1.13225e-05, 3.45266e-09, -4.07496e-13, 41516.3, 15.1294],
+                Tmin = (459.105, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (343.677, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (128.874, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: N[NH+]=[N-]
+
+    calculated by alongd (xq1338, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NH2NHN:
+        Enthalpy of formation (298 K)   =    85.106 kcal/mol
+        Entropy of formation (298 K)    =    62.657 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      13.019      85.132      62.744      66.309
+               400      15.231      86.546      66.797      59.828
+               500      17.196      88.170      70.412      52.964
+               600      18.893      89.977      73.701      45.756
+               800      21.602      94.040      79.527      30.418
+              1000      23.576      98.568      84.571      13.997
+              1500      26.468     111.172      94.752     -30.956
+              2000      27.979     124.813     102.590     -80.368
+              2400      28.837     136.184     107.771    -122.466
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 51,
+    label = "NH2NNH",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {4,S} {5,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 N u0 p1 c0 {2,D} {6,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.8649, 0.0137824, -2.63045e-05, 6.74328e-08, -5.91398e-11, 26119.9, 5.29321],
+                Tmin = (10, 'K'),
+                Tmax = (443.414, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.68549, 0.0166314, -9.5884e-06, 2.67796e-09, -2.9115e-13, 26301, 10.8876],
+                Tmin = (443.414, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (217.17, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (128.874, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: NN=N
+
+    calculated by alongd (xq1339, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NH2NNH:
+    Enthalpy of formation (298 K)   =    55.158 kcal/mol
+    Entropy of formation (298 K)    =    61.065 cal/(mol*K)
+    =========== =========== =========== =========== ===========
+    Temperature Heat cap.   Enthalpy    Entropy     Free energy
+    (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+    =========== =========== =========== =========== ===========
+           300      13.859      55.186      61.158      36.839
+           400      15.840      56.671      65.415      30.504
+           500      17.727      58.351      69.157      23.772
+           600      19.382      60.208      72.539      16.685
+           800      22.070      64.366      78.501       1.565
+          1000      24.076      68.991      83.652     -14.662
+          1500      27.071      81.872      94.057     -59.214
+          2000      28.536      95.812     102.068    -108.324
+          2400      29.276     107.382     107.339    -150.232
+    =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 52,
+    label = "NHNHNH(S)",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {3,D}
+2 H u0 p0 c0 {1,S}
+3 N u0 p0 c+1 {1,D} {4,S} {5,S}
+4 H u0 p0 c0 {3,S}
+5 N u0 p2 c-1 {3,S} {6,S}
+6 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.02119, -0.00153801, 4.38047e-05, -5.90251e-08, 2.54386e-11, 36471.9, 6.58307],
+                Tmin = (10, 'K'),
+                Tmax = (679.56, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.955284, 0.0200944, -1.18604e-05, 3.34919e-09, -3.64709e-13, 36805.8, 19.5807],
+                Tmin = (679.56, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (303.247, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (124.717, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [NH]=[NH+][NH-]
+
+    calculated by alongd (xq1467, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NHNHNH(S):
+        Enthalpy of formation (298 K)   =    75.283 kcal/mol
+        Entropy of formation (298 K)    =    60.626 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      12.151      75.307      60.707      57.095
+               400      14.483      76.639      64.522      50.830
+               500      16.723      78.201      67.998      44.202
+               600      18.711      79.975      71.227      37.239
+               800      21.870      84.049      77.066      22.397
+              1000      24.192      88.668      82.209       6.459
+              1500      27.559     101.719      92.747     -37.401
+              2000      29.134     115.934     100.915     -85.895
+              2400      29.937     127.756     106.301    -127.366
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 53,
+    label = "cN3H3",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,S} {5,S}
+3 N u0 p1 c0 {1,S} {2,S} {6,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.1305, -0.00878148, 6.34349e-05, -7.80965e-08, 3.12888e-11, 48604, 6.52817],
+                Tmin = (10, 'K'),
+                Tmax = (777.26, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.570347, 0.0198195, -1.15986e-05, 3.27587e-09, -3.56856e-13, 48847, 20.8093],
+                Tmin = (777.26, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (404.145, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (133.032, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: N1NN1
+
+    calculated by alongd (xq1467, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+
+    Thermodynamics for cN3H3:
+        Enthalpy of formation (298 K)   =    99.093 kcal/mol
+        Entropy of formation (298 K)    =    58.886 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      10.632      99.114      58.957      81.427
+               400      13.057     100.297      62.343      75.360
+               500      15.484     101.725      65.520      68.965
+               600      17.655     103.385      68.541      62.261
+               800      20.933     107.266      74.100      47.986
+              1000      23.271     111.698      79.035      32.662
+              1500      26.732     124.310      89.215      -9.513
+              2000      28.441     138.144      97.163     -56.183
+              2400      29.361     149.712     102.434     -96.129
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 54,
+    label = "NH2NH2N",
+    molecule =
+"""
+multiplicity 2
+1 N u0 p1 c0 {2,S} {6,S} {7,S}
+2 N u0 p0 c+1 {1,S} {3,S} {4,S} {5,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {2,S}
+5 N u1 p2 c-1 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.98018, 0.00120723, 5.63907e-05, -9.9883e-08, 5.76657e-11, 63636.7, 7.66343],
+                Tmin = (10, 'K'),
+                Tmax = (446.623, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [1.67274, 0.0218841, -1.30907e-05, 3.88693e-09, -4.51603e-13, 63842.7, 16.9343],
+                Tmin = (446.623, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (529.098, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (157.975, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: N[NH2+][N-]
+
+    calculated by alongd (xq1456, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+
+    Thermodynamics for NH2NH2N:
+        Enthalpy of formation (298 K)   =   129.574 kcal/mol
+        Entropy of formation (298 K)    =    64.455 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      14.284     129.602      64.551     110.237
+               400      17.029     131.170      69.041     103.553
+               500      19.474     132.998      73.110      96.443
+               600      21.604     135.054      76.853      88.942
+               800      25.053     139.737      83.565      72.885
+              1000      27.625     145.017      89.445      55.572
+              1500      31.550     159.926     101.482       7.703
+              2000      33.678     176.275     110.874     -45.473
+              2400      34.859     189.995     117.124     -91.104
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 55,
     label = "N4H6",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -1593,41 +2338,811 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.4889,0.0587737,-0.000306151,8.66171e-07,-8.12383e-10,33175.8,8.41442], Tmin=(10,'K'), Tmax=(374.732,'K')),
-            NASAPolynomial(coeffs=[0.682102,0.0385376,-2.42183e-05,7.13449e-09,-8.02431e-13,33738.6,23.9032], Tmin=(374.732,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(
+                coeffs = [3.92525, 0.00488384, 9.02053e-05, -1.64564e-07, 9.61822e-11, 33964.7, 9.36706],
+                Tmin = (10, 'K'),
+                Tmax = (441.326, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.249974, 0.0381945, -2.30108e-05, 6.45746e-09, -6.95769e-13, 34289.1, 24.0919],
+                Tmin = (441.326, 'K'),
+                Tmax = (3000, 'K'),
+            ),
         ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-        E0 = (275.806,'kJ/mol'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (220.334,'J/(mol*K)'),
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (282.372, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (220.334, 'J/(mol*K)'),
     ),
-    shortDesc = u"""CCSD(T)-F12/cc-pVTZ//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
-u"""
-SMILES: NNNN
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: NNNN
 
-calculated by alongd (xq1240, xc1103) at the CCSD(T)-F12/cc-pVTZ//B3LYP/6-311G(2d,d,p) level of theory
-frequencies calculated at B3LYP/6-311G(2d,d,p)
-rotors calculated at B3LYP/6-311G(2d,pd)
+    calculated by alongd (xq1335, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
 
-Thermodynamics for N4H6:
-    Enthalpy of formation (298 K)   =    70.447 kcal/mol
-    Entropy of formation (298 K)    =    76.012 cal/(mol*K)
-    =========== =========== =========== =========== ===========
-    Temperature Heat cap.   Enthalpy    Entropy     Free energy
-    (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
-    =========== =========== =========== =========== ===========
-           300      20.615      70.488      76.150      47.643
-           400      25.155      72.775      82.697      39.696
-           500      29.287      75.502      88.765      31.120
-           600      32.835      78.613      94.427      21.957
-           800      38.426      85.770     104.683       2.024
-          1000      42.394      93.875     113.710     -19.835
-          1500      47.721     116.613     132.076     -81.501
-          2000      49.921     141.089     146.143    -151.198
-          2400      51.031     161.289     155.348    -211.545
-    =========== =========== =========== =========== ===========
+    Thermodynamics for N4H6:
+        Enthalpy of formation (298 K)   =    71.277 kcal/mol
+        Entropy of formation (298 K)    =    71.397 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      19.563      71.316      71.527      49.857
+               400      24.327      73.514      77.819      42.386
+               500      28.533      76.162      83.710      34.307
+               600      32.168      79.201      89.242      25.656
+               800      37.955      86.244      99.332       6.778
+              1000      42.119      94.275     108.276     -14.000
+              1500      47.770     116.970     126.602     -72.933
+              2000      49.925     141.475     140.686    -139.898
+              2400      50.790     161.631     149.871    -198.060
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 56,
+    label = "NH2NH2NNH2",
+    molecule =
+"""
+1  N u0 p1 c0 {2,S} {7,S} {8,S}
+2  N u0 p2 c-1 {1,S} {3,S}
+3  N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
+4  H u0 p0 c0 {3,S}
+5  H u0 p0 c0 {3,S}
+6  N u0 p1 c0 {3,S} {9,S} {10,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {6,S}
 """,
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.93231, 0.0039948, 0.000103213, -1.94027e-07, 1.12396e-10, 49902.3, 8.70296],
+                Tmin = (10, 'K'),
+                Tmax = (551.915, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [1.62997, 0.035551, -2.29642e-05, 7.20107e-09, -8.66502e-13, 49930, 16.3903],
+                Tmin = (551.915, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (414.884, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (228.648, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: N[N-][NH2+]N
+
+    calculated by alongd (xq1336, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NH2NH2NNH2:
+        Enthalpy of formation (298 K)   =   103.001 kcal/mol
+        Entropy of formation (298 K)    =    70.325 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      20.054     103.041      70.459      81.904
+               400      24.848     105.292      76.902      74.532
+               500      28.823     107.983      82.889      66.538
+               600      32.067     111.032      88.440      57.968
+               800      37.172     117.984      98.403      39.261
+              1000      40.840     125.805     107.115      18.690
+              1500      46.111     147.715     124.810     -39.501
+              2000      48.925     171.521     138.488    -105.456
+              2400      50.630     191.446     147.565    -162.711
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 57,
+    label = "NH2NHNH2NH",
+    molecule =
+"""
+1  N u0 p1 c0 {2,S} {8,S} {9,S}
+2  N u0 p1 c0 {1,S} {3,S} {10,S}
+3  N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
+4  H u0 p0 c0 {3,S}
+5  H u0 p0 c0 {3,S}
+6  N u0 p2 c-1 {3,S} {7,S}
+7  H u0 p0 c0 {6,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.94926, 0.00321392, 0.000103215, -2.04626e-07, 1.29246e-10, 52132.6, 8.68186],
+                Tmin = (10, 'K'),
+                Tmax = (483.527, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [1.45658, 0.033368, -1.99027e-05, 5.89899e-09, -6.84601e-13, 52262.2, 17.7439],
+                Tmin = (483.527, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (433.442, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (232.805, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: NN[NH2+][NH-]
+
+    calculated by alongd (xq1475, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+
+    Thermodynamics for NH2NHNH2NH:
+        Enthalpy of formation (298 K)   =   107.349 kcal/mol
+        Entropy of formation (298 K)    =    69.893 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      19.325     107.387      70.022      86.381
+               400      23.771     109.548      76.206      79.065
+               500      27.542     112.118      81.927      71.155
+               600      30.797     115.039      87.243      62.693
+               800      36.074     121.752      96.862      44.262
+              1000      40.015     129.380     105.357      24.023
+              1500      46.045     151.071     122.864     -33.225
+              2000      49.322     174.977     136.597     -98.216
+              2400      51.139     195.089     145.758    -154.731
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 58,
+    label = "1_N4(T)",
+    molecule =
+"""
+multiplicity 3
+1 N u0 p1 c0 {2,S} {3,D}
+2 N u0 p1 c0 {1,S} {4,D}
+3 N u1 p1 c0 {1,D}
+4 N u1 p1 c0 {2,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.87765, 0.0127008, 4.12966e-05, -3.26349e-07, 5.40082e-10, 77213.1, 8.16284],
+                Tmin = (10, 'K'),
+                Tmax = (243.876, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [4.84868, 0.00859309, -6.13284e-06, 2.02652e-09, -2.51366e-13, 77130.6, 4.12779],
+                Tmin = (243.876, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (641.996, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (83.1447, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+    u"""
+    SMILES: [N]=NN=[N]
+
+    calculated by alongd (xq1486, xc1121)
+    CBS-QB3, no rotors
+    """,
+)
+
+entry(
+    index = 59,
+    label = "2_N4H2",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {3,S} {5,S}
+2 N u0 p1 c0 {1,S} {3,S} {6,S}
+3 N u0 p0 c+1 {1,S} {2,S} {4,D}
+4 N u0 p2 c-1 {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.96213, 0.00218253, 5.48648e-05, -1.00893e-07, 5.66069e-11, 79968.7, 7.03098],
+                Tmin = (10, 'K'),
+                Tmax = (574.563, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.69923, 0.0196113, -1.31839e-05, 4.22616e-09, -5.15252e-13, 79971.3, 11.1833],
+                Tmin = (574.563, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (664.881, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (133.032, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+    u"""
+    SMILES: [N-]=[N+]1NN1
+
+    calculated by alongd (xq1486, xc1121)
+    CBS-QB3, no rotors
+    """,
+)
+
+entry(
+    index = 60,
+    label = "3_N4H3",
+    molecule =
+"""
+multiplicity 2
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,S} {5,S}
+3 N u0 p1 c0 {1,S} {2,S} {6,S}
+4 N u1 p1 c0 {1,S} {7,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.96213, 0.00218253, 5.48648e-05, -1.00893e-07, 5.66069e-11, 79968.7, 7.03098],
+                Tmin = (10, 'K'),
+                Tmax = (574.563, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.69923, 0.0196113, -1.31839e-05, 4.22616e-09, -5.15252e-13, 79971.3, 11.1833],
+                Tmin = (574.563, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (664.881, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (133.032, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+    u"""
+    SMILES: [NH]N1NN1
+
+    calculated by alongd (xq1486, xc1121)
+    CBS-QB3, no rotors
+    """,
+)
+
+entry(
+    index = 61,
+    label = "6_N4H2",
+    molecule =
+"""
+1 N u0 p0 c+1 {2,S} {3,S} {4,D}
+2 N u0 p1 c0 {1,S} {3,S} {5,S}
+3 N u0 p2 c-1 {1,S} {2,S}
+4 N u0 p1 c0 {1,D} {6,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.0794, -0.00809309, 0.000110362, -2.09319e-07, 1.28628e-10, 76642.8, 7.89803],
+                Tmin = (10, 'K'),
+                Tmax = (521.1, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.4603, 0.019495, -1.26886e-05, 3.93358e-09, -4.64754e-13, 76605.7, 12.679],
+                Tmin = (521.1, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (637.234, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (133.032, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+    u"""
+    SMILES: [N-]1N[N+]1=N
+
+    calculated by alongd (xq1486, xc1121)
+    CBS-QB3, no rotors
+    """,
+)
+
+entry(
+    index = 62,
+    label = "7_N4H",
+    molecule =
+"""
+multiplicity 2
+1 N u0 p1 c0 {2,S} {3,D}
+2 N u1 p1 c0 {1,S} {5,S}
+3 N u0 p0 c+1 {1,D} {4,D}
+4 N u0 p2 c-1 {3,D}
+5 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.9535, 0.00290272, 4.99533e-05, -1.09209e-07, 7.11534e-11, 64187.6, 8.18369],
+                Tmin = (10, 'K'),
+                Tmax = (518.727, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.84141, 0.0135306, -9.01275e-06, 2.8596e-09, -3.45858e-13, 64067.9, 7.38468],
+                Tmin = (518.727, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (533.672, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (108.088, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+    u"""
+    SMILES: [N-]=[N+]=N[NH]
+
+    calculated by alongd (xq1486, xc1121)
+    CBS-QB3, no rotors
+    """,
+)
+
+entry(
+    index = 63,
+    label = "8_N4H2",
+    molecule =
+"""
+multiplicity 3
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,S} {5,S}
+3 N u1 p1 c0 {1,S} {2,S}
+4 N u1 p1 c0 {1,S} {6,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.95142, 0.00273515, 5.84249e-05, -1.07974e-07, 5.95586e-11, 93095.5, 8.58962],
+                Tmin = (10, 'K'),
+                Tmax = (602.615, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.08061, 0.020234, -1.43016e-05, 4.75252e-09, -5.94121e-13, 92987.6, 10.5843],
+                Tmin = (602.615, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (774.018, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (133.032, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+    u"""
+    SMILES: [NH]N1[N]N1
+
+    calculated by alongd (xq1486, xc1121)
+    CBS-QB3, no rotors
+    """,
+)
+
+entry(
+    index = 64,
+    label = "9_N4H2",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,S} {4,S}
+3 N u0 p1 c0 {1,S} {2,S} {5,S}
+4 N u0 p1 c0 {1,S} {2,S} {6,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.13283, -0.0106176, 9.89851e-05, -1.5268e-07, 7.59726e-11, 79196.3, 6.92906],
+                Tmin = (10, 'K'),
+                Tmax = (644.77, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [1.7117, 0.0211454, -1.38598e-05, 4.27146e-09, -4.98478e-13, 79160.5, 14.8482],
+                Tmin = (644.77, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (658.482, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (133.032, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+    u"""
+    SMILES: N1N2N1N2
+
+    calculated by alongd (xq1486, xc1121)
+    CBS-QB3, no rotors
+    """,
+)
+
+entry(
+    index = 65,
+    label = "11_N4",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,S} {4,S}
+3 N u0 p1 c0 {1,S} {2,S} {4,S}
+4 N u0 p1 c0 {1,S} {2,S} {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.13283, -0.0106176, 9.89851e-05, -1.5268e-07, 7.59726e-11, 79196.3, 6.92906],
+                Tmin = (10, 'K'),
+                Tmax = (644.77, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [1.7117, 0.0211454, -1.38598e-05, 4.27146e-09, -4.98478e-13, 79160.5, 14.8482],
+                Tmin = (644.77, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (658.482, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (133.032, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc =
+    u"""
+    SMILES: N12N3N1N23
+
+    calculated by alongd (xq1486, xc1121)
+    CBS-QB3, no rotors
+    """,
+)
+
+entry(
+    index = 66,
+    label = "NH3NNH2",
+    molecule =
+"""
+1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
+2 N u0 p1 c0 {3,S} {7,S} {8,S}
+3 N u0 p2 c-1 {1,S} {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.90745, 0.00682728, 3.70177e-05, -6.71939e-08, 3.79399e-11, 41571.8, 7.25965],
+                Tmin = (10, 'K'),
+                Tmax = (457.914, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.22687, 0.0215076, -1.10709e-05, 2.81732e-09, -2.83072e-13, 41725.7, 14.0548],
+                Tmin = (457.914, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (345.625, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (178.761, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [NH3+][N-]N
+
+    calculated by alongd (xq1487, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotor: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NH3NNH2:
+        Enthalpy of formation (298 K)   =    85.949 kcal/mol
+        Entropy of formation (298 K)    =    64.944 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      15.461      85.980      65.047      66.466
+               400      18.346      87.672      69.895      59.714
+               500      20.960      89.640      74.275      52.502
+               600      23.286      91.854      78.307      44.870
+               800      27.173      96.916      85.561      28.468
+              1000      30.201     102.667      91.964      10.703
+              1500      35.082     119.119     105.239     -38.739
+              2000      37.693     137.375     115.725     -94.075
+              2400      39.012     152.731     122.721    -141.798
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 67,
+    label = "NH2NNH(T)",
+    molecule =
+"""
+multiplicity 3
+1 N u0 p1 c0 {2,S} {4,S} {5,S}
+2 N u1 p1 c0 {1,S} {3,S}
+3 N u1 p1 c0 {2,S} {6,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.92579, 0.0045666, 6.65762e-05, -1.4919e-07, 9.70639e-11, 53380.5, 6.75656],
+                Tmin = (10, 'K'),
+                Tmax = (535.446, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [4.50916, 0.0162684, -1.11949e-05, 3.65571e-09, -4.53348e-13, 53087.8, 2.15678],
+                Tmin = (535.446, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (443.806, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (124.717, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: N[N][NH]
+
+    calculated by alongd (xq1487, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotors: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NH2NNH(T):
+        Enthalpy of formation (298 K)   =   109.479 kcal/mol
+        Entropy of formation (298 K)    =    64.215 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      15.988     109.511      64.322      90.214
+               400      18.563     111.245      69.292      83.528
+               500      20.410     113.199      73.645      76.376
+               600      21.801     115.312      77.493      68.816
+               800      23.936     119.898      84.076      52.638
+              1000      25.406     124.842      89.585      35.257
+              1500      27.356     138.106     100.315     -12.367
+              2000      28.334     152.043     108.327     -64.612
+              2400      28.945     163.505     113.550    -109.015
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 68,
+    label = "N2(T)",
+    molecule =
+"""
+multiplicity 3
+1 N u1 p1 c0 {2,D}
+2 N u1 p1 c0 {1,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.50659, -0.000372835, 1.04511e-06, 1.55261e-09, -1.81005e-12, 85626.6, 4.37685],
+                Tmin = (10, 'K'),
+                Tmax = (658.073, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [2.88333, 0.00195625, -9.3733e-07, 1.91057e-10, -1.25972e-14, 85740.2, 7.36305],
+                Tmin = (658.073, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (711.942, 'kJ/mol'),
+        Cp0 = (29.1007, 'J/(mol*K)'),
+        CpInf = (37.4151, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [N]=[N]
+
+    calculated by alongd (xq1487, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+
+    Thermodynamics for N2(T):
+        Enthalpy of formation (298 K)   =   172.224 kcal/mol
+        Entropy of formation (298 K)    =    48.288 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300       6.987     172.238      48.335     157.737
+               400       7.110     172.942      50.361     152.798
+               500       7.278     173.661      51.965     147.679
+               600       7.472     174.399      53.308     142.414
+               800       7.832     175.931      55.509     131.523
+              1000       8.109     177.526      57.288     120.238
+              1500       8.525     181.699      60.666      90.699
+              2000       8.691     186.009      63.145      59.719
+              2400       8.749     189.498      64.735      34.133
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 69,
+    label = "NHNNHN",
+    molecule =
+"""
+1 N u0 p0 c+1 {2,S} {4,D} {5,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 N u0 p1 c0 {2,D} {6,S}
+4 N u0 p2 c-1 {1,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.94185, 0.00538891, 7.3383e-05, -2.62541e-07, 3.15541e-10, 62811.5, 7.81883],
+                Tmin = (10, 'K'),
+                Tmax = (210.149, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.32577, 0.0171153, -1.03169e-05, 2.98356e-09, -3.33183e-13, 62837.3, 9.82999],
+                Tmin = (210.149, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (522.252, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (133.032, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [N-]=[NH+]N=N
+
+    calculated by alongd (xq1487, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    species has no hindered rotors (scan at B3LYP of the two potential rotors broke the molecule)
+
+    Thermodynamics for NHNNHN:
+        Enthalpy of formation (298 K)   =   128.181 kcal/mol
+        Entropy of formation (298 K)    =    66.462 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      15.122     128.211      66.563     108.242
+               400      17.296     129.835      71.219     101.347
+               500      19.189     131.661      75.286      94.018
+               600      20.830     133.664      78.934      86.304
+               800      23.462     138.106      85.306      69.862
+              1000      25.386     143.001      90.759      52.242
+              1500      28.156     156.481     101.652       4.003
+              2000      29.463     170.919     109.950     -48.982
+              2400      30.141     182.846     115.385     -94.078
+        =========== =========== =========== =========== ===========
+    """,
+)
+
+entry(
+    index = 70,
+    label = "NH2NNN",
+    molecule =
+"""
+1 N u0 p1 c0 {2,S} {5,S} {6,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 N u0 p0 c+1 {2,D} {4,D}
+4 N u0 p2 c-1 {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.94242, 0.00380542, 6.38745e-05, -1.47842e-07, 1.0313e-10, 50916.6, 8.08248],
+                Tmin = (10, 'K'),
+                Tmax = (477.246, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.59595, 0.0172408, -1.14538e-05, 3.62347e-09, -4.35076e-13, 50829.8, 8.24117],
+                Tmin = (477.246, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (423.334, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (128.874, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+    u"""
+    SMILES: [N-]=[N+]=NN
+
+    calculated by alongd (xq1487, xc1120)
+    opt, freq: wB97x-D3/6-311++G(3df,3pd)
+    sp: CCSD(T)-F12a/aug-cc-pVTZ
+    rotor: B3LYP/6-311++G(3df,3pd)
+
+    Thermodynamics for NH2NNN:
+        Enthalpy of formation (298 K)   =   104.489 kcal/mol
+        Entropy of formation (298 K)    =    66.397 cal/(mol*K)
+        =========== =========== =========== =========== ===========
+        Temperature Heat cap.   Enthalpy    Entropy     Free energy
+        (K)         (cal/mol*K) (kcal/mol)  (cal/mol*K) (kcal/mol)
+        =========== =========== =========== =========== ===========
+               300      15.255     104.520      66.499      84.570
+               400      17.612     106.168      71.225      77.678
+               500      19.432     108.024      75.358      70.345
+               600      20.952     110.045      79.039      62.622
+               800      23.320     114.486      85.410      46.158
+              1000      24.982     119.326      90.803      28.522
+              1500      27.250     132.466     101.428     -19.676
+              2000      28.394     146.396     109.435     -72.474
+              2400      29.124     157.903     114.678    -117.324
+        =========== =========== =========== =========== ===========
+    """,
 )
 

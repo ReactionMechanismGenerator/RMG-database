@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 name = "Diels_alder_addition/training"
-shortDesc = u"Kinetics used to train group additivity values"
+shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
-Put kinetic parameters for reactions to use as a training set for fitting
-group additivity values in this file.
+Put kinetic parameters for specific reactions in this file to use as a
+training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 1,

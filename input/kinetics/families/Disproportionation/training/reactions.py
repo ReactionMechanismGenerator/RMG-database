@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 name = "Disproportionation/training"
-shortDesc = u"Kinetics used to train group additivity values"
+shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
-Put kinetic parameters for reactions to use as a training set for fitting
-group additivity values in this file.
+Put kinetic parameters for specific reactions in this file to use as a
+training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 0,
@@ -2763,7 +2763,7 @@ entry(
     label = "H2N + H3N2 <=> H3N + H2N2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (1.84e+06, 'cm^3/(mol*s)'),
+        A = (9.2e+05, 'cm^3/(mol*s)'),
         n = 1.94,
         Ea = (-4.8116, 'kJ/mol'),
         T0 = (1, 'K'),

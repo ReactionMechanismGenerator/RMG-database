@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 name = "H_Abstraction/training"
-shortDesc = u"Kinetics used to train group additivity values"
+shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
-Put kinetic parameters for reactions to use as a training set for fitting
-group additivity values in this file.
+Put kinetic parameters for specific reactions in this file to use as a
+training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 0,
@@ -1789,7 +1789,7 @@ The paper reports on two pathways to get to the same products, but only one is c
 
 entry(
     index = 63,
-    label = "N + H2 <=> NH_p + H_p",
+    label = "N + H2 <=> NH_p23 + H_p",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0, Ea=(25138, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
@@ -1802,7 +1802,7 @@ D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1990, 22(8), 843-861, doi: 10.10
 
 entry(
     index = 64,
-    label = "N2H4 + NO <=> N2H3 + HNO_p",
+    label = "N2H4_r12 + NO <=> N2H3_p1 + HNO_p",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (64.4, 'cm^3/(mol*s)'),
@@ -1845,7 +1845,7 @@ Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
 
 entry(
     index = 66,
-    label = "NH3_r + NO <=> NH2_p + HNO_p",
+    label = "NH3_r + NO <=> NH2_p1 + HNO_p",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (1.04e+07, 'cm^3/(mol*s)'),
@@ -1867,29 +1867,22 @@ calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
 
 entry(
     index = 67,
-    label = "NH2 + H2 <=> NH3 + H_p",
+    label = "NH2_r3 + H2 <=> NH3_p23 + H_p",
     degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (323000, 'cm^3/(mol*s)'),
-        n = 2.23,
-        Ea = (7168, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (5000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    kinetics = Arrhenius(A=(2.03e+04, 'cm^3/(mol*s)'), n=2.58163, Ea=(6538, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    rank = 1,
+    shortDesc = u"""HEAT""",
+    longDesc =
 u"""
-A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999, 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0
-k1_theo on p. 229
-calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
+T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
+calculations done at the HEAT-456QP level of theory
 """,
 )
 
 entry(
     index = 68,
-    label = "NH2 + CH4b <=> NH3 + CH3_p1",
+    label = "NH2_r3 + CH4b <=> NH3_p23 + CH3_p1",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (13600, 'cm^3/(mol*s)'),
@@ -1911,7 +1904,7 @@ calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
 
 entry(
     index = 69,
-    label = "NH2 + H2O <=> NH3 + OH_p1",
+    label = "NH2_r3 + H2O <=> NH3_p23 + OH_p1",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (2.62e+13, 'cm^3/(mol*s)'),
@@ -2382,7 +2375,7 @@ calculations done at the QCISD/6-311G(d,p) level
 
 entry(
     index = 91,
-    label = "NH2 + C2H6 <=> NH3 + C2H5b",
+    label = "NH2_r3 + C2H6 <=> NH3_p23 + C2H5b",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (3.46e+13, 'cm^3/(mol*s)'),
@@ -2404,7 +2397,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 92,
-    label = "NH2 + C3H8b <=> NH3 + CH2CH2CH3",
+    label = "NH2_r3 + C3H8b <=> NH3_p23 + CH2CH2CH3",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (1.37e+13, 'cm^3/(mol*s)'),
@@ -2426,7 +2419,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 93,
-    label = "NH2 + C3H8 <=> NH3 + CH3CHCH3",
+    label = "NH2_r3 + C3H8 <=> NH3_p23 + CH3CHCH3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.48e+13, 'cm^3/(mol*s)'),
@@ -2448,7 +2441,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 94,
-    label = "NH2 + C4H10 <=> NH3 + pC4H9",
+    label = "NH2_r3 + C4H10 <=> NH3_p23 + pC4H9",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (2.11e+13, 'cm^3/(mol*s)'),
@@ -2470,7 +2463,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 95,
-    label = "NH2 + C4H10b <=> NH3 + CH3CHCH2CH3",
+    label = "NH2_r3 + C4H10b <=> NH3_p23 + CH3CHCH2CH3",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (1.72e+13, 'cm^3/(mol*s)'),
@@ -2492,7 +2485,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 96,
-    label = "NH2 + iC4H10 <=> NH3 + ipC4H9",
+    label = "NH2_r3 + iC4H10 <=> NH3_p23 + ipC4H9",
     degeneracy = 9.0,
     kinetics = Arrhenius(
         A = (1.84e+13, 'cm^3/(mol*s)'),
@@ -2514,7 +2507,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 97,
-    label = "NH2 + iC4H10b <=> NH3 + tC4H9",
+    label = "NH2_r3 + iC4H10b <=> NH3_p23 + tC4H9",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.35e+13, 'cm^3/(mol*s)'),
@@ -2536,7 +2529,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 98,
-    label = "NH2 + C5H12 <=> NH3 + tC5H11",
+    label = "NH2_r3 + C5H12 <=> NH3_p23 + tC5H11",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.76e+12, 'cm^3/(mol*s)'),
@@ -2558,7 +2551,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 99,
-    label = "NH2 + C3H6-3 <=> NH3 + vC3H5",
+    label = "NH2_r3 + C3H6-3 <=> NH3_p23 + vC3H5",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.42e+13, 'cm^3/(mol*s)'),
@@ -2580,7 +2573,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 100,
-    label = "NH2 + C3H6 <=> NH3 + CH2CHCH2",
+    label = "NH2_r3 + C3H6 <=> NH3_p23 + CH2CHCH2",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (1.5e+13, 'cm^3/(mol*s)'),
@@ -2602,7 +2595,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 101,
-    label = "NH2 + C4H8-7 <=> NH3 + pC4H7",
+    label = "NH2_r3 + C4H8-7 <=> NH3_p23 + pC4H7",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (4.33e+13, 'cm^3/(mol*s)'),
@@ -2624,7 +2617,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 102,
-    label = "NH2 + C4H8-2 <=> NH3 + aC4H7",
+    label = "NH2_r3 + C4H8-2 <=> NH3_p23 + aC4H7",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (1.37e+13, 'cm^3/(mol*s)'),
@@ -2646,7 +2639,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 103,
-    label = "NH2 + C5H10-1 <=> NH3 + C5H9-1",
+    label = "NH2_r3 + C5H10-1 <=> NH3_p23 + C5H9-1",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (6.14e+12, 'cm^3/(mol*s)'),
@@ -2668,7 +2661,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 104,
-    label = "NH2 + C5H10-2 <=> NH3 + C5H9-2",
+    label = "NH2_r3 + C5H10-2 <=> NH3_p23 + C5H9-2",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (1.54e+13, 'cm^3/(mol*s)'),
@@ -2690,7 +2683,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 105,
-    label = "NH2 + C5H10-3 <=> NH3 + C5H9-3",
+    label = "NH2_r3 + C5H10-3 <=> NH3_p23 + C5H9-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.87e+12, 'cm^3/(mol*s)'),
@@ -2712,7 +2705,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 106,
-    label = "NH2 + C5H10-4 <=> NH3 + C5H9-4",
+    label = "NH2_r3 + C5H10-4 <=> NH3_p23 + C5H9-4",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (1.13e+13, 'cm^3/(mol*s)'),
@@ -2734,7 +2727,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 107,
-    label = "NH2 + C2H4 <=> NH3 + CHCH2",
+    label = "NH2_r3 + C2H4 <=> NH3_p23 + CHCH2",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (1.56e+13, 'cm^3/(mol*s)'),
@@ -2756,7 +2749,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 108,
-    label = "NH2 + C4H6 <=> NH3 + CHCCHCH3",
+    label = "NH2_r3 + C4H6 <=> NH3_p23 + CHCCHCH3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.62e+13, 'cm^3/(mol*s)'),
@@ -2778,7 +2771,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 109,
-    label = "NH2 + C4H6-2 <=> NH3 + C4H5-2",
+    label = "NH2_r3 + C4H6-2 <=> NH3_p23 + C4H5-2",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (9.94e+13, 'cm^3/(mol*s)'),
@@ -2800,7 +2793,7 @@ doi: 10.1021/acs.jpca.6b12890
 
 entry(
     index = 110,
-    label = "NH2 + C5H8 <=> NH3 + C5H7",
+    label = "NH2_r3 + C5H8 <=> NH3_p23 + C5H7",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.67e+14, 'cm^3/(mol*s)'),
@@ -2948,7 +2941,7 @@ doi: 10.1016/j.combustflame.2015.10.032
 
 entry(
     index = 117,
-    label = "CH3CH2NH2_1 + NH2 <=> CH2CH2NH2 + NH3",
+    label = "CH3CH2NH2_1 + NH2_r3 <=> CH2CH2NH2 + NH3_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (9.21e+12, 'cm^3/(mol*s)'),
@@ -2969,7 +2962,7 @@ doi: 10.1016/j.combustflame.2015.10.032
 
 entry(
     index = 118,
-    label = "CH3CH2NH2_2 + NH2 <=> CH3CHNH2 + NH3",
+    label = "CH3CH2NH2_2 + NH2_r3 <=> CH3CHNH2 + NH3_p23",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (8.01e+12, 'cm^3/(mol*s)'),
@@ -2990,7 +2983,7 @@ doi: 10.1016/j.combustflame.2015.10.032
 
 entry(
     index = 119,
-    label = "CH3CH2NH2_3 + NH2 <=> CH3CH2NH + NH3",
+    label = "CH3CH2NH2_3 + NH2_r3 <=> CH3CH2NH + NH3_p23",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (2.14e+12, 'cm^3/(mol*s)'),
@@ -3083,7 +3076,7 @@ doi: 10.1021/jp411141w
 
 entry(
     index = 123,
-    label = "N2H4 + H <=> N2H3 + H2",
+    label = "N2H4_r12 + H <=> N2H3_p1 + H2",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (1.48e+08, 'cm^3/(mol*s)'),
@@ -3103,7 +3096,7 @@ CBS-QB3
 
 entry(
     index = 124,
-    label = "N2H4 + CH3_r3 <=> N2H3 + CH4",
+    label = "N2H4_r12 + CH3_r3 <=> N2H3_p1 + CH4",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (17.7, 'cm^3/(mol*s)'),
@@ -3123,7 +3116,7 @@ CBS-QB3
 
 entry(
     index = 125,
-    label = "N2H4 + NH2 <=> N2H3 + NH3",
+    label = "N2H4_r12 + NH2_r3 <=> N2H3_p1 + NH3_p23",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (2590, 'cm^3/(mol*s)'),
@@ -3183,7 +3176,7 @@ CBS-QB3
 
 entry(
     index = 128,
-    label = "NH + CH4b <=> NH2b + CH3_p1",
+    label = "NH_r3 + CH4b <=> NH2_p23 + CH3_p1",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (9e+13, 'cm^3/(mol*s)', '*|/', 1.5),
@@ -3208,7 +3201,7 @@ DOI: 10.1002/bbpc.19940980615
 
 entry(
     index = 129,
-    label = "NH + C2H6 <=> NH2b + C2H5b",
+    label = "NH_r3 + C2H6 <=> NH2_p23 + C2H5b",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (7e+13, 'cm^3/(mol*s)', '*|/', 1.75),
@@ -3233,7 +3226,7 @@ DOI: 10.1002/bbpc.19940980615
 
 entry(
     index = 130,
-    label = "NH + HNCO <=> NH2b + NCO",
+    label = "NH_r3 + HNCO <=> NH2_p23 + NCO",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (6.26e+12, 'cm^3/(mol*s)'),
@@ -4239,12 +4232,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -4265,12 +4258,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -4940,12 +4933,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Narendrapurapu, B. S.'", "'Simmonett, A. C.'", "'Schaefer, H. F.'", "'Miller, J. A.'", "'Klippenstein, S. J.'"],
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
         title = 'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'115 (49)'",
-        pages = "'14209-14214'",
-        year = "'2011'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
     ),
     referenceType = "theory",
     rank = 4,
@@ -4966,12 +4959,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Narendrapurapu, B. S.'", "'Simmonett, A. C.'", "'Schaefer, H. F.'", "'Miller, J. A.'", "'Klippenstein, S. J.'"],
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
         title = 'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'115 (49)'",
-        pages = "'14209-14214'",
-        year = "'2011'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
     ),
     referenceType = "theory",
     rank = 4,
@@ -4992,12 +4985,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Narendrapurapu, B. S.'", "'Simmonett, A. C.'", "'Schaefer, H. F.'", "'Miller, J. A.'", "'Klippenstein, S. J.'"],
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
         title = 'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'115 (49)'",
-        pages = "'14209-14214'",
-        year = "'2011'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5018,12 +5011,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Narendrapurapu, B. S.'", "'Simmonett, A. C.'", "'Schaefer, H. F.'", "'Miller, J. A.'", "'Klippenstein, S. J.'"],
+        authors = ['Narendrapurapu, B. S.', 'Simmonett, A. C.', 'Schaefer, H. F.', 'Miller, J. A.', 'Klippenstein, S. J.'],
         title = 'Combustion Chemistry: Important Features of the C3H5 Potential Energy Surface, Including Allyl Radical, Propargyl + H2, Allene + H, and Eight Transition States',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'115 (49)'",
-        pages = "'14209-14214'",
-        year = "'2011'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '115 (49)',
+        pages = '14209-14214',
+        year = '2011',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5147,12 +5140,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Zador, J.'", "'Miller, J. A.'"],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = "'Proceedings of the Combustion Institute'",
-        volume = "'35 (1)'",
-        pages = "'181-188'",
-        year = "'2015'",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5173,12 +5166,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Zador, J.'", "'Miller, J. A.'"],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = "'Proceedings of the Combustion Institute'",
-        volume = "'35 (1)'",
-        pages = "'181-188'",
-        year = "'2015'",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5199,12 +5192,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5225,12 +5218,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5251,12 +5244,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5277,12 +5270,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5303,12 +5296,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5329,12 +5322,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5355,12 +5348,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5381,12 +5374,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5407,12 +5400,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5433,12 +5426,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5459,12 +5452,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5485,12 +5478,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5511,12 +5504,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5537,12 +5530,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5563,12 +5556,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5589,12 +5582,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5615,12 +5608,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5641,12 +5634,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Li, S.-H.'", "'Guo, J.-J.'", "'Li, R.'", "'Wang, F.'", "'Li, X.-Y.'"],
+        authors = ['Li, S.-H.', 'Guo, J.-J.', 'Li, R.', 'Wang, F.', 'Li, X.-Y.'],
         title = 'Theoretical Prediction of Rate Constants for Hydrogen Abstraction by OH, H, O, CH3, and HO2 Radicals from Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'120 (20)'",
-        pages = "'3424-3432'",
-        year = "'2016'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '120 (20)',
+        pages = '3424-3432',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 4,
@@ -5667,12 +5660,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = "'Physical Chemistry Chemical Physics'",
-        volume = "'19 (37)'",
-        pages = "'25401-25413'",
-        year = "'2017'",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -5693,12 +5686,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Violi, A.'", "'Truong, T. N.'", "'Sarofim, A. F.'"],
+        authors = ['Violi, A.', 'Truong, T. N.', 'Sarofim, A. F.'],
         title = 'Kinetics of Hydrogen Abstraction Reactions from Polycyclic Aromatic Hydrocarbons by H Atoms',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'108 (22)'",
-        pages = "'4846-4852'",
-        year = "'2004'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '108 (22)',
+        pages = '4846-4852',
+        year = '2004',
     ),
     referenceType = "theory",
     rank = 9,
@@ -5719,12 +5712,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Seta, T.'", "'Nakajima, M.'", "'Miyoshi, A.'"],
+        authors = ['Seta, T.', 'Nakajima, M.', 'Miyoshi, A.'],
         title = 'High-Temperature Reactions of OH Radicals with Benzene and Toluene',
-        journal = "'The Journal of Physical Chemistry A'",
-        volume = "'110 (15)'",
-        pages = "'5081-5090'",
-        year = "'2006'",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (15)',
+        pages = '5081-5090',
+        year = '2006',
     ),
     referenceType = "theory",
     rank = 1,
@@ -5745,12 +5738,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Mai, T. V. T.'", "'Ratkiewicz, A.'", "'Duong, M. v.'", "'Huynh, L. K.'"],
+        authors = ['Mai, T. V. T.', 'Ratkiewicz, A.', 'Duong, M. v.', 'Huynh, L. K.'],
         title = 'Direct ab initio study of the C6H6+CH3/C2H5=C6H5+CH4/C2H6 reactions',
-        journal = "'Chemical Physics Letters'",
-        volume = "'646'",
-        pages = "'102-109'",
-        year = "'2016'",
+        journal = 'Chemical Physics Letters',
+        volume = '646',
+        pages = '102-109',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -5771,12 +5764,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Mai, T. V. T.'", "'Ratkiewicz, A.'", "'Duong, M. v.'", "'Huynh, L. K.'"],
+        authors = ['Mai, T. V. T.', 'Ratkiewicz, A.', 'Duong, M. v.', 'Huynh, L. K.'],
         title = 'Direct ab initio study of the C6H6+CH3/C2H5=C6H5+CH4/C2H6 reactions',
-        journal = "'Chemical Physics Letters'",
-        volume = "'646'",
-        pages = "'102-109'",
-        year = "'2016'",
+        journal = 'Chemical Physics Letters',
+        volume = '646',
+        pages = '102-109',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -5797,12 +5790,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = "'Physical Chemistry Chemical Physics'",
-        volume = "'19 (37)'",
-        pages = "'25401-25413'",
-        year = "'2017'",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -5823,12 +5816,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = "'Physical Chemistry Chemical Physics'",
-        volume = "'19 (37)'",
-        pages = "'25401-25413'",
-        year = "'2017'",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -5849,12 +5842,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = "'Physical Chemistry Chemical Physics'",
-        volume = "'19 (37)'",
-        pages = "'25401-25413'",
-        year = "'2017'",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -5875,12 +5868,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = "'Physical Chemistry Chemical Physics'",
-        volume = "'19 (37)'",
-        pages = "'25401-25413'",
-        year = "'2017'",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -5901,12 +5894,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Semenikhin, A. S.'", "'Savchenkova, A. S.'", "'Chechet, I. V.'", "'Matveev, S. G.'", "'Liu, Z.'", "'Frenklach, M.'", "'Mebel, A. M.'"],
+        authors = ['Semenikhin, A. S.', 'Savchenkova, A. S.', 'Chechet, I. V.', 'Matveev, S. G.', 'Liu, Z.', 'Frenklach, M.', 'Mebel, A. M.'],
         title = 'Rate constants for H abstraction from benzo(a)pyrene and chrysene: a theoretical study',
-        journal = "'Physical Chemistry Chemical Physics'",
-        volume = "'19 (37)'",
-        pages = "'25401-25413'",
-        year = "'2017'",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (37)',
+        pages = '25401-25413',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -11755,7 +11748,7 @@ Converted to training reaction from rate rule: O/H/OneDe;S_rad/NonDeC
 
 entry(
     index = 483,
-    label = "NH2b + C2H6 <=> NH3_r + C2H5",
+    label = "NH2_p23 + C2H6 <=> NH3_r + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(
         A = (5.52e+06, 'cm^3/(mol*s)'),
@@ -11795,7 +11788,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_meth
 
 entry(
     index = 485,
-    label = "NH2b + C3H8 <=> NH3_r + C3H7",
+    label = "NH2_p23 + C3H8 <=> NH3_r + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.84e+06, 'cm^3/(mol*s)'),
@@ -11835,7 +11828,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 487,
-    label = "NH2b + iC4H10b <=> NH3_r + C4H9-4",
+    label = "NH2_p23 + iC4H10b <=> NH3_r + C4H9-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -11875,7 +11868,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 489,
-    label = "H + NH3_r <=> H2 + NH2b",
+    label = "H + NH3_r <=> H2 + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (7.2e+08, 'cm^3/(mol*s)'),
@@ -11915,7 +11908,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 491,
-    label = "NH3_r + O_rad <=> HO + NH2b",
+    label = "NH3_r + O_rad <=> HO + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (5.1e+08, 'cm^3/(mol*s)'),
@@ -11955,7 +11948,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 493,
-    label = "OH_p23 + NH3_r <=> H2O + NH2b",
+    label = "OH_p23 + NH3_r <=> H2O + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -11995,7 +11988,7 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_fused6_1;C_rad/
 
 entry(
     index = 495,
-    label = "CH3_p23 + NH3_r <=> CH4b + NH2b",
+    label = "CH3_p23 + NH3_r <=> CH4b + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2.43e+06, 'cm^3/(mol*s)'),
@@ -14535,29 +14528,22 @@ Converted to training reaction from rate rule: C/H2/NonDeC_5ring_beta6ring;Cd_ra
 
 entry(
     index = 622,
-    label = "H + NH3_r <=> H2 + NH2b",
+    label = "H + NH3_r <=> H2 + NH2_p23",
     degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (1.62e+06, 'cm^3/(mol*s)'),
-        n = 2.4,
-        Ea = (41.5053, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
+    kinetics = Arrhenius(A=(2.89e+06, 'cm^3/(mol*s)'), n=2.23036, Ea=(10407, 'cal/mol'), T0=(1, 'K'),
+                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    rank = 1,
+    shortDesc = u"""HEAT""",
     longDesc = 
 u"""
-Added by Beat Buesser, value for reaction: NH3 + H = NH2 + H2 (B&D #6) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Converted to training reaction from rate rule: NH3;H_rad
+T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
+calculations done at the HEAT-456QP level of theory
 """,
 )
 
 entry(
     index = 623,
-    label = "OH_p23 + NH3_r <=> H2O + NH2b",
+    label = "OH_p23 + NH3_r <=> H2O + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (1.5e+08, 'cm^3/(mol*s)'),
@@ -14579,7 +14565,7 @@ Converted to training reaction from rate rule: NH3;O_pri_rad
 
 entry(
     index = 624,
-    label = "NH3_r + O_rad <=> HO + NH2b",
+    label = "NH3_r + O_rad <=> HO + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2.82e+07, 'cm^3/(mol*s)'),
@@ -14601,7 +14587,7 @@ Converted to training reaction from rate rule: NH3;O_atom_triplet
 
 entry(
     index = 625,
-    label = "H + H2N <=> H2 + NH_p",
+    label = "H + NH2_r12 <=> H2 + NH_p23",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (9.6e+08, 'cm^3/(mol*s)'),
@@ -14621,7 +14607,7 @@ Added by Beat Buesser, value for reaction: NH2 + H = NH + H2 (B&D #9) in 'Gas-Ph
 
 entry(
     index = 626,
-    label = "H2N + O_rad <=> HO + NH_p",
+    label = "NH2_r12 + O_rad <=> HO + NH_p23",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1.4e+13, 'cm^3/(mol*s)'),
@@ -14641,7 +14627,7 @@ Added by Beat Buesser, value for reaction: NH2 + O = NH + OH (B&D #15d2) in 'Gas
 
 entry(
     index = 627,
-    label = "OH_p23 + H2N <=> H2O + NH_p",
+    label = "OH_p23 + NH2_r12 <=> H2O + NH_p23",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (4.8e+06, 'cm^3/(mol*s)'),
@@ -14661,7 +14647,7 @@ Added by Beat Buesser, value for reaction: NH2 + OH = NH + H2O (B&D #16b) in 'Ga
 
 entry(
     index = 628,
-    label = "H2N + NH2 <=> NH3_p + NH_p1",
+    label = "NH2_r12 + NH2_r3 <=> NH3_p23 + NH_p1",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (1e+14, 'cm^3/(mol*s)'),
@@ -14683,7 +14669,7 @@ Converted to training reaction from rate rule: NH2_rad_H;NH2_rad
 
 entry(
     index = 629,
-    label = "H2N + CH3_r3 <=> CH4p + NH_p1",
+    label = "NH2_r12 + CH3_r3 <=> CH4p + NH_p1",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (5.6e+06, 'cm^3/(mol*s)'),
@@ -14705,7 +14691,7 @@ Converted to training reaction from rate rule: NH2_rad_H;C_methyl
 
 entry(
     index = 630,
-    label = "NH2 + CH3 <=> NH3_p + CH2_p1",
+    label = "NH2_r3 + CH3 <=> NH3_p23 + CH2_p1",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (4.8e+06, 'cm^3/(mol*s)'),
@@ -14749,7 +14735,7 @@ Converted to training reaction from rate rule: OH_rad_H;N_atom_quartet
 
 entry(
     index = 632,
-    label = "HN + NH2 <=> NH3_p + N",
+    label = "HN + NH2_r3 <=> NH3_p23 + N",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -14925,7 +14911,7 @@ Converted to training reaction from rate rule: N3d/H/NonDeN;O_pri_rad
 
 entry(
     index = 640,
-    label = "NH2 + H2N2 <=> NH3_p + HN2",
+    label = "NH2_r3 + H2N2 <=> NH3_p23 + HN2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -14969,7 +14955,7 @@ Converted to training reaction from rate rule: N3d/H/NonDeN;C_methyl
 
 entry(
     index = 642,
-    label = "NH + H2N2 <=> H2N + HN2",
+    label = "NH_r3 + H2N2 <=> NH2_r12 + HN2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (4.8e+06, 'cm^3/(mol*s)'),
@@ -14991,7 +14977,7 @@ Converted to training reaction from rate rule: N3d/H/NonDeN;NH_triplet
 
 entry(
     index = 643,
-    label = "OH + H3N2 <=> H2O_p + H2N2-2",
+    label = "OH + N2H3_r12 <=> H2O_p + H2NN(S)_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3e+13, 'cm^3/(mol*s)'),
@@ -15013,7 +14999,7 @@ Converted to training reaction from rate rule: N3s_rad_H/H/NonDeN;O_pri_rad
 
 entry(
     index = 644,
-    label = "H3N2 + CH3_r3 <=> CH4p + H2N2-2",
+    label = "N2H3_r12 + CH3_r3 <=> CH4p + H2NN(S)_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3e+13, 'cm^3/(mol*s)'),
@@ -15035,7 +15021,7 @@ Converted to training reaction from rate rule: N3s_rad_H/H/NonDeN;C_methyl
 
 entry(
     index = 645,
-    label = "NH2 + H3N2 <=> NH3_p + H2N2-2",
+    label = "NH2_r3 + N2H3_r12 <=> NH3_p23 + H2NN(S)_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3e+13, 'cm^3/(mol*s)'),
@@ -15057,7 +15043,7 @@ Converted to training reaction from rate rule: N3s_rad_H/H/NonDeN;NH2_rad
 
 entry(
     index = 646,
-    label = "H + N2H4 <=> H2_p + H3N2-2",
+    label = "H + N2H4_r12 <=> H2_p + N2H3_r3",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (3.84e+09, 'cm^3/(mol*s)'),
@@ -15079,7 +15065,7 @@ Converted to training reaction from rate rule: N3s/H2/NonDeN;H_rad
 
 entry(
     index = 647,
-    label = "N2H4 + O_rad <=> HO + H3N2-2",
+    label = "N2H4_r12 + O_rad <=> HO + N2H3_r3",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (2.68e+09, 'cm^3/(mol*s)'),
@@ -15101,7 +15087,7 @@ Converted to training reaction from rate rule: N3s/H2/NonDeN;O_atom_triplet
 
 entry(
     index = 648,
-    label = "OH_p23 + N2H4 <=> H2O + H3N2-2",
+    label = "OH_p23 + N2H4_r12 <=> H2O + N2H3_r3",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (1.92e+07, 'cm^3/(mol*s)'),
@@ -15123,7 +15109,7 @@ Converted to training reaction from rate rule: N3s/H2/NonDeN;O_pri_rad
 
 entry(
     index = 649,
-    label = "CH3_p23 + N2H4 <=> CH4b + H3N2-2",
+    label = "CH3_p23 + N2H4_r12 <=> CH4b + N2H3_r3",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (1.32e+07, 'cm^3/(mol*s)'),
@@ -15145,7 +15131,7 @@ Converted to training reaction from rate rule: N3s/H2/NonDeN;C_methyl
 
 entry(
     index = 650,
-    label = "NH2b + N2H4 <=> NH3_r + H3N2-2",
+    label = "NH2_p23 + N2H4_r12 <=> NH3_r + N2H3_r3",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (1.48e+07, 'cm^3/(mol*s)'),
@@ -15233,7 +15219,7 @@ Converted to training reaction from rate rule: N3d/H/NonDeO;O_atom_triplet
 
 entry(
     index = 654,
-    label = "HNO_r + NH2 <=> NH3_p + NO_p",
+    label = "HNO_r + NH2_r3 <=> NH3_p23 + NO_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -15387,7 +15373,7 @@ Converted to training reaction from rate rule: O/H/OneDeN;C_methyl
 
 entry(
     index = 661,
-    label = "NH2 + CH3NO <=> NH3_p + CH2NO",
+    label = "NH2_r3 + CH3NO <=> NH3_p23 + CH2NO",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -15519,7 +15505,7 @@ Converted to training reaction from rate rule: C_methane;Ct_rad/N
 
 entry(
     index = 667,
-    label = "NH3_r + CN <=> HCN_r + NH2b",
+    label = "NH3_r + CN <=> HCN_r + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2.76e+13, 'cm^3/(mol*s)'),
@@ -15629,7 +15615,7 @@ Converted to training reaction from rate rule: N3d/H/NonDeC;C_methyl
 
 entry(
     index = 672,
-    label = "NH2 + CH3N <=> NH3_p + CH2N",
+    label = "NH2_r3 + CH3N <=> NH3_p23 + CH2N",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -15739,7 +15725,7 @@ Converted to training reaction from rate rule: Cd/H2/NonDeN;C_methyl
 
 entry(
     index = 677,
-    label = "NH2 + CH3N-2 <=> NH3_p + CH2N-2",
+    label = "NH2_r3 + CH3N-2 <=> NH3_p23 + CH2N-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -15849,7 +15835,7 @@ Converted to training reaction from rate rule: Cs/H3/NonDeN;C_methyl
 
 entry(
     index = 682,
-    label = "NH2 + CH5N <=> NH3_p + CH4N",
+    label = "NH2_r3 + CH5N <=> NH3_p23 + CH4N",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (8.4e+06, 'cm^3/(mol*s)'),
@@ -15959,7 +15945,7 @@ Converted to training reaction from rate rule: N3s/H2/NonDeC;C_methyl
 
 entry(
     index = 687,
-    label = "NH2 + CH5N-2 <=> NH3_p + CH4N-2",
+    label = "NH2_r3 + CH5N-2 <=> NH3_p23 + CH4N-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -16025,7 +16011,7 @@ Converted to training reaction from rate rule: C_methane;N3d_rad/OneDeCdd_O
 
 entry(
     index = 690,
-    label = "NH3_r + CNO <=> HNCO + NH2b",
+    label = "NH3_r + CNO <=> HNCO + NH2_p23",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (84000, 'cm^3/(mol*s)'),
@@ -16135,7 +16121,7 @@ Converted to training reaction from rate rule: O/H/OneDeC;C_methyl
 
 entry(
     index = 695,
-    label = "NH2 + C2H4O-2 <=> NH3_p + C2H3O-3",
+    label = "NH2_r3 + C2H4O-2 <=> NH3_p23 + C2H3O-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -16245,7 +16231,7 @@ Converted to training reaction from rate rule: N3d/H/CddO;C_methyl
 
 entry(
     index = 700,
-    label = "NH2 + HNCO <=> NH3_p + CNO",
+    label = "NH2_r3 + HNCO <=> NH3_p23 + CNO",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1e+12, 'cm^3/(mol*s)'),
@@ -16377,7 +16363,7 @@ Converted to training reaction from rate rule: Cs/H3/OneDeN;C_methyl
 
 entry(
     index = 706,
-    label = "NH2b + C2H5N <=> NH3_r + C2H4N-2",
+    label = "NH2_p23 + C2H5N <=> NH3_r + C2H4N-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (8.4e+06, 'cm^3/(mol*s)'),
@@ -16487,7 +16473,7 @@ Converted to training reaction from rate rule: N3s/H2/NonDeO;C_methyl
 
 entry(
     index = 711,
-    label = "NH2b + H3NO <=> NH3_r + H2NO",
+    label = "NH2_p23 + H3NO <=> NH3_r + H2NO",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -16619,7 +16605,7 @@ Converted to training reaction from rate rule: O/H/NonDeN;C_methyl
 
 entry(
     index = 717,
-    label = "NH2b + H3NO-2 <=> NH3_r + H2NO-2",
+    label = "NH2_p23 + H3NO-2 <=> NH3_r + H2NO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -16751,7 +16737,7 @@ Converted to training reaction from rate rule: N3s/H2/OneDeN;C_methyl
 
 entry(
     index = 723,
-    label = "NH2b + CH4N2 <=> NH3_r + CH3N2",
+    label = "NH2_p23 + CH4N2 <=> NH3_r + CH3N2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
         A = (3.6e+06, 'cm^3/(mol*s)'),
@@ -16795,7 +16781,7 @@ Converted to training reaction from rate rule: N3s/H2/OneDeN;O_rad/NonDeO
 
 entry(
     index = 725,
-    label = "HO2_r3 + N2H4 <=> H2O2 + H3N2-2",
+    label = "HO2_r3 + N2H4_r12 <=> H2O2 + N2H3_r3",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (116000, 'cm^3/(mol*s)'),
@@ -64010,7 +63996,7 @@ Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;C_methyl
     
 entry(
     index = 3078,
-    label = "HNO2 + NH2 <=> NH3_p + NO2_p",
+    label = "HNO2 + NH2_r3 <=> NH3_p23 + NO2_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
@@ -64028,3 +64014,110 @@ Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;NH2_rad
 """,
 )
 
+entry(
+    index = 3079,
+    label = "N2H3_r12 + NH2_r3 <=> H2NN(T)_p1 + NH3_p23",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.65e+00, 'cm^3/(mol*s)'), n=3.41, Ea=(-4.0, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K'),
+        comment = 'Fitted to 51 data points; dA = *|/ 1.13644, dn = +|- 0.0159552, dEa = +|- 0.120945 kJ/mol'),
+    rank = 3,
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+u"""
+Calculated by alongd (xq1453 f)
+opt, freq: wB97x-D3/6-311++G(3df,3pd)
+sp: CCSD(T)-F12a/aug-cc-pVTZ
+rotors: B3LYP/6-311++G(3df,3pd)
+""",
+)
+
+entry(
+    index = 3080,
+    label = "H2NN(T)_r3 + NH3_r <=> N2H3_p23 + NH2_p1",
+    degeneracy = 3,
+    kinetics = Arrhenius(A=(7.14e+00, 'cm^3/(mol*s)'), n=3.59, Ea=(81.1, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K'),
+        comment = 'Fitted to 51 data points; dA = *|/ 1.04766, dn = +|- 0.00580835, dEa = +|- 0.044029 kJ/mol'),
+    rank = 3,
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+u"""
+Calculated by alongd (xq1453 r)
+opt, freq: wB97x-D3/6-311++G(3df,3pd)
+sp: CCSD(T)-F12a/aug-cc-pVTZ
+rotors: B3LYP/6-311++G(3df,3pd)
+""",
+)
+
+entry(
+    index = 3081,
+    label = "N2H3_r3 + NH2_r12 <=> N2H4_p23 + NH_p1",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(2.31e-01, 'cm^3/(mol*s)'), n=3.93, Ea=(70.1, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K'),
+        comment = 'Fitted to 51 data points; dA = *|/ 1.2035, dn = +|- 0.0225658, dEa = +|- 0.225133 kJ/mol'),
+    rank = 3,
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+u"""
+Calculated by alongd (xq1330 f)
+opt, freq: wB97x-D3/6-311++G(3df,3pd)
+sp: CCSD(T)-F12a/aug-cc-pVTZ
+rotors: B3LYP/6-311++G(3df,3pd)
+""",
+)
+
+entry(
+    index = 3082,
+    label = "N2H4_r12 + NH_r3 <=> N2H3_p1 + NH2_p23",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(2.98e+01, 'cm^3/(mol*s)'), n=3.61, Ea=(24.3, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K'),
+        comment = 'Fitted to 51 data points; dA = *|/ 1.21122, dn = +|- 0.0233453, dEa = +|- 0.232911 kJ/mol'),
+    rank = 3,
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+u"""
+Calculated by alongd (xq1330 r)
+opt, freq: wB97x-D3/6-311++G(3df,3pd)
+sp: CCSD(T)-F12a/aug-cc-pVTZ
+rotors: B3LYP/6-311++G(3df,3pd)
+""",
+)
+
+entry(
+    index = 3083,
+    label = "NH2_r12 + N2H2(T)_r3 = NH_p1 + N2H3_p23",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(4.22e-01, 'cm^3/(mol*s)'), n=3.93, Ea=(70.1, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K'),
+        comment = 'Fitted to 51 data points; dA = *|/ 1.35051, dn = +|- 0.0366059, dEa = +|- 0.365208 kJ/mol'),
+    rank = 3,
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+u"""
+Calculated by alongd (xq1485 f)
+opt, freq: wB97x-D3/6-311++G(3df,3pd)
+sp: CCSD(T)-F12a/aug-cc-pVTZ
+rotors: B3LYP/6-311++G(3df,3pd)
+""",
+)
+
+entry(
+    index = 3084,
+    label = "NH_r3 + N2H3_r12b <=> NH2_p23 + N2H2(T)_p1",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(3.53e-01, 'cm^3/(mol*s)'), n=3.81, Ea=(40.0, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K'),
+        comment = 'Fitted to 51 data points; dA = *|/ 1.40215, dn = +|- 0.0411776, dEa = +|- 0.410819 kJ/mol'),
+    rank = 3,
+    shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
+    longDesc =
+u"""
+Calculated by alongd (xq1485 r)
+opt, freq: wB97x-D3/6-311++G(3df,3pd)
+sp: CCSD(T)-F12a/aug-cc-pVTZ
+rotors: B3LYP/6-311++G(3df,3pd)
+""",
+)

@@ -58,6 +58,8 @@ default = {
     'Intra_R_Add_Exo_scission',
     '1,2_shiftC',
     'XY_Addition_DoubleBond'
+    '1,2_NH3_elimination',
+    '1,3_NH3_elimination',
 }
 
 # Peroxide chemistry families that are likely relevant in liquid-phase
@@ -72,4 +74,22 @@ liquid_peroxide = {
     'Baeyer-Villiger_step1_cat',
     'Baeyer-Villiger_step2',
     'Baeyer-Villiger_step2_cat',
+}
+
+# Surface chemistry for heterogeneous catalysis.
+surface = {
+    'Surface_Adsorption_Single',
+    'Surface_Adsorption_vdW',
+    'Surface_Adsorption_Dissociative',
+    'Surface_Dissociation',
+    'Surface_Abstraction',
+}
+
+# Surface chemistry families that are under development and not yet working well.
+surface_development = {
+    'Surface_Adsorption_Double',
+    'Surface_Dissociation_vdW',
+    'Surface_Adsorption_Bidentate',
+    'Surface_Bidentate_Dissociation'
+    # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
 }

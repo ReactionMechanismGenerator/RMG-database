@@ -17452,15 +17452,183 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1202,
+    label = "Cb-naphthalene_Cb-naphthalene",
+    group = 
+"""
+1 *1 Cbf u0 {2,B} {3,B} {5,B}
+2 *2 Cbf u0 {1,B} {4,B} {6,B}
+3    [Cb,Cbf] u0 {1,B}
+4    [Cb,Cbf] u0 {2,B}
+5    [Cb,Cbf] u0 {1,B} {7,B}
+6    [Cb,Cbf] u0 {2,B} {8,B}
+7    [Cb,Cbf] u0 {5,B} {8,B}
+8    [Cb,Cbf] u0 {6,B} {7,B}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1203,
+    label = "Cb-indane_Cb-indane",
+    group = 
+"""
+1 *1 Cb u0 {2,B} {3,B} {5,[S,B]}
+2 *2 Cb u0 {1,B} {4,B} {6,[S,B]}
+3    [Cb,Cbf] u0 {1,B}
+4    [Cb,Cbf] u0 {2,B}
+5    C      u0 {1,[S,B]} {7,[S,D,T]}
+6    C      u0 {2,[S,B]} {7,[S,D,T]}
+7    C      u0 {5,[S,D,T]} {6,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1204,
+    label = "Cb-tetralin_Cb-tetralin",
+    group = 
+"""
+1 *1 [Cb,Cbf] u0 {2,B} {3,B} {5,[S,B]}
+2 *2 [Cb,Cbf] u0 {1,B} {4,B} {6,[S,B]}
+3    [Cb,Cbf] u0 {1,B}
+4    [Cb,Cbf] u0 {2,B}
+5    C      u0 {1,[S,B]} {7,[S,D,B]}
+6    C      u0 {2,[S,B]} {8,[S,D,B]}
+7    C      u0 {5,[S,D,B]} {8,[S,D,B]}
+8    C      u0 {6,[S,D,B]} {7,[S,D,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1205,
+    label = "Cds-CsH_Cds-CbH-indene",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S} {7,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S} {7,B}
+7    Cb u0 {3,S} {6,B}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1206,
+    label = "Cds-CsH_Cds-CbH-dihydronaphthalene",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S} {8,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S} {7,B}
+7    Cb u0 {6,B} {8,S}
+8    Cs u0 {7,S} {3,S}
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 1207,
+    label = "Cds-CsH_Cds-CbCs-dihydronaphthalene",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S} {8,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S} {7,B}
+7    Cb u0 {6,B} {8,S}
+8    Cs u0 {3,S} {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1208,
+    label = "Cb-H-Ortho_Cb-C-fused",
+    group = 
+"""
+1 *1 Cb       u0 {2,B} {3,S}
+2 *2 Cb       u0 {1,B} {4,S} {5,B}
+3    H        u0 {1,S}
+4    C        u0 {2,S}
+5    Cbf      u0 {2,B}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1209,
+    label = "Cb-H-Para_Cb-H-fused",
+    group = 
+"""
+1 *1 Cb       u0 {2,B} {7,S} {9,B}
+2 *2 Cb       u0 {1,B} {4,B} {6,S}
+3    Cb u0 {4,B} {5,S} {8,B}
+4    Cb u0 {2,B} {3,B}
+5    R!H      u0 {3,S}
+6    H        u0 {2,S}
+7    H        u0 {1,S}
+8    Cbf      u0 {3,B} {9,B} {10,B}
+9    Cbf      u0 {8,B} {1,B} {11,B}
+10   Cb       u0 {8,B}
+11   Cb       u0 {9,B}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1210,
+    label = "Cb-H_Cb-CbfH",
+    group = 
+"""
+1 *1 Cb u0 {2,B} {3,S}
+2 *2 Cb u0 {1,B} {4,S} {5,B}
+3    H  u0 {1,S}
+4    H  u0 {2,S}
+5    Cbf u0 {2,B}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1211,
+    label = "Cb-R!H_Cbf-R!H",
+    group = 
+"""
+1 *1 [Cb,Cbf] u0 {2,B} {3,B} {5,[S,B]}
+2 *2 Cbf u0 {1,B} {4,B} {6,[S,B]}
+3    [Cb,Cbf] u0 {1,B}
+4    [Cb,Cbf] u0 {2,B}
+5    R!H      u0 {1,[S,B]}
+6    R!H      u0 {2,[S,B]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
     L2: Cb_Cb
         L3: Cb-R!H_Cb
             L4: Cb-R!H_Cb-R!H
-                L5: Cb-indeneDe_Cb-indeneNde
-                L5: Cb-indeneNde_Cb-indene_De
+                L5: Cb-indane_Cb-indane
+                    L6: Cb-indeneDe_Cb-indeneNde
+                    L6: Cb-indeneNde_Cb-indene_De
                 L5: Cb-benzofuranNde_Cb-benzofuranDe
+                L5: Cb-tetralin_Cb-tetralin
+                    L6: Cb-naphthalene_Cb-naphthalene
+                L5: Cb-R!H_Cbf-R!H
             L4: Cb-R!H_Cb-H
                 L5: Cb-C-cyclic_Cb-H
                     L6: Cbf-Cb-cyclic_Cb-H
@@ -17471,10 +17639,13 @@ L1: R_R
                 L5: Cb-H_Cb-indeneNde
                 L5: Cb-H_Cbf-Cb
                 L5: Cb-H-Ortho_Cb-C
+                    L6: Cb-H-Ortho_Cb-C-fused
             L4: Cb-H_Cb-H
                 L5: Cb-H-Meta_Cb-H
                 L5: Cb-H-Para_Cb-H
+                    L6: Cb-H-Para_Cb-H-fused
                 L5: Cb-H_Cb-H_o_ketene
+                L5: Cb-H_Cb-CbfH
     L2: Cd_R
         L3: Cdd_Od
             L4: CO2
@@ -17725,6 +17896,8 @@ L1: R_R
                     L6: Cds-CsH_Cds-OneDeH
                         L7: Cds-CsH_Cds-CtH
                         L7: Cds-CsH_Cds-CbH
+                            L8: Cds-CsH_Cds-CbH-indene
+                            L8: Cds-CsH_Cds-CbH-dihydronaphthalene
                         L7: Cds-CsH_Cds-COH
                         L7: Cds-CsH_Cds-(Cd-Cd-Cd-Cd-Cd)H
                         L7: Cds-CsH_Cds-(Cd-Cd-Cd)H
@@ -17735,6 +17908,7 @@ L1: R_R
                     L6: Cds-CsH_Cds-OneDeCs
                         L7: Cds-CsH_Cds-CtCs
                         L7: Cds-CsH_Cds-CbCs
+                            L8: Cds-CsH_Cds-CbCs-dihydronaphthalene
                         L7: Cds-CsH_Cds-COCs
                         L7: Cds-CsH_Cds-CdCs
                         L7: Cds-CsH_Cds-C=SCs

@@ -2702,76 +2702,6 @@ u"""
 )
 
 entry(
-    index = 2001,
-    label = "C=CCJC=C-cyclohexadiene",
-    group =
-"""
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.140737,-0.726316,-1.615579,-2.344000,-27.807158,-3.672526,-4.955158],'cal/(mol*K)'),
-        H298 = (73.850211,'kcal/mol','+|-',2.4),
-        S298 = (-3.772368,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
-Based on CBS-QB3 calculations and group values for radical groups already present in the database, 01/2018, Lawrence Lai
-
-Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
-http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
-
-Model Species used include:
-CC1=C[CH]C=CC1
-CC1[CH]C=CCC=1
-C[C]1C=CCC=C1
-CC1C=C[CH]C=C1
-CCCCCCC1=C[CH]C=CC1
-CCCCCCC1[CH]C=CCC=1
-CCCCCC[C]1C=CCC=C1
-CCCCCCC1C=C[CH]C=C1
-CC1[CH]C(C)C=CC=1
-CC1C(C)[CH]C=CC=1
-CC1C=CC(C)[CH]C=1
-CC1(C)[CH]C=CC=C1
-C1=CC=C2CCCC2[CH]1
-C1=CC=C2CCC(C)C2[CH]1
-C1=CC=C2CCC(CC)C2[CH]1
-C1=CC=C2CCC(CCC)C2[CH]1
-C1CCCC2=CC=C[CH]C21
-CC1CCCC2=CC=C[CH]C21
-CCC1CCCC2=CC=C[CH]C21
-""",
-)
-
-entry(
-    index = 2002,
-    label = "CJC=CC=C-cyclohexadiene",
-    group =
-"""
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S}
-7   H u0 {1,S}
-""",
-    thermo = u'C=CCJC=C-cyclohexadiene',
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
-""",
-)
-
-entry(
     index = 25,
     label = "Allyl_S",
     group =
@@ -3226,26 +3156,6 @@ u"""
 )
 
 entry(
-    index = 2003,
-    label = "C=CCJ(C)C=C-cyclohexadiene",
-    group =
-"""
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   C u0 {1,S}
-""",
-    thermo = u'C=CCJC=C-cyclohexadiene',
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
-""",
-)
-
-entry(
     index = 30,
     label = "Tertalkyl",
     group =
@@ -3654,8 +3564,8 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+3   C u0 {1,S}
+4   C u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8852,6 +8762,1990 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 """,
 )
 
+entry(
+    index = 2011,
+    label = "Benzyl_S_Fused5",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cb u0 {1,S} {5,B}
+3   C  u0 {1,S} {6,[S,D,T]}
+4   H  u0 {1,S}
+5   Cb u0 {2,B} {6,S}
+6   C  u0 {5,S} {3,[S,D,T]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.054016,-0.574860,-1.161811,-1.586869,-2.403320,-3.150381,-4.416756],'cal/(mol*K)','+|-',[0.201190,0.201190,0.201190,0.201190,0.201190,0.201190,0.201190]),
+        H298 = (88.503762,'kcal/mol','+|-',0.737851),
+        S298 = (3.112531,'cal/(mol*K)','+|-',0.434935),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds Include
+C1=CC=C2CC[CH]C2=C1
+CC1C[CH]C2=CC=CC=C21
+CCC1C[CH]C2=CC=CC=C21
+CCCC1C[CH]C2=CC=CC=C21
+""",
+)
+
+entry(
+    index = 2012,
+    label = "Benzyl_S_Fused6",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cb u0 {1,S} {5,B}
+3   C  u0 {1,S} {7,[S,D,T,B]}
+4   H  u0 {1,S}
+5   Cb u0 {2,B} {6,S}
+6   C  u0 {5,S} {7,[S,D,T,B]}
+7   C  u0 {6,[S,D,T,B]} {3,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.881557,-1.191625,-1.649808,-2.003459,-2.505735,-3.094923,-4.341263],'cal/(mol*K)','+|-',[0.318445,0.318445,0.318445,0.318445,0.318445,0.318445,0.318445]),
+        H298 = (86.379670,'kcal/mol','+|-',1.148432),
+        S298 = (1.330626,'cal/(mol*K)','+|-',0.744626),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds Include
+C1=CC=C2CCC[CH]C2=C1
+CC1CC[CH]C2=CC=CC=C21
+CCC1CC[CH]C2=CC=CC=C21
+""",
+)
+
+entry(
+    index = 2013,
+    label = "Benzyl_T_Fused5",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cb u0 {1,S} {5,B}
+3   C  u0 {1,S} {6,[S,B,T]}
+4   C  u0 {1,S}
+5   Cb u0 {2,B} {6,S}
+6   C  u0 {5,S} {3,[S,B,T]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.457289,-1.562693,-2.227712,-2.429028,-2.809678,-3.487717,-4.252860],'cal/(mol*K)','+|-',[0.282803,0.282803,0.282803,0.282803,0.282803,0.282803,0.282803]),
+        H298 = (85.449826,'kcal/mol','+|-',1.022623),
+        S298 = (4.370664,'cal/(mol*K)','+|-',0.608769),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds Include
+CC1C[CH]C2=CC=CC=C21
+CCC1C[CH]C2=CC=CC=C21
+CCCC1C[CH]C2=CC=CC=C21
+""",
+)
+
+entry(
+    index = 2014,
+    label = "Benzyl_T_Fused6",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cb u0 {1,S} {5,B}
+3   C  u0 {1,S} {7,[S,D,T,B]}
+4   C  u0 {1,S}
+5   Cb u0 {2,B} {6,S}
+6   C  u0 {5,S} {7,[S,D,T,B]}
+7   C  u0 {6,[S,D,T,B]} {3,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.148032,-0.974235,-1.848643,-2.422838,-3.012068,-3.465264,-4.437082],'cal/(mol*K)','+|-',[0.514226,0.514226,0.514226,0.514226,0.514226,0.514226,0.514226]),
+        H298 = (84.719974,'kcal/mol','+|-',1.823766),
+        S298 = (1.702078,'cal/(mol*K)','+|-',1.175222),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds Include
+C[C]1CCCC2=CC=CC=C21
+CC[C]1CCCC2=CC=CC=C21
+""",
+)
+
+entry(
+    index = 2015,
+    label = "CJ-Cd-Benzene",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Cs u0 {1,S} {7,S}
+4   H  u0 {1,S}
+5   Cd u0 {2,D} {6,S}
+6   Cb u0 {7,B} {5,S}
+7   Cb u0 {6,B} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.038694,-0.486795,-1.266142,-1.943551,-2.846431,-3.509532,-4.609948],'cal/(mol*K)','+|-',[0.244001,0.244001,0.244001,0.244001,0.244001,0.244001,0.244001]),
+        H298 = (80.055693,'kcal/mol','+|-',0.913362),
+        S298 = (1.932508,'cal/(mol*K)','+|-',0.367823),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds Include
+C1=CC=C2C=C[CH]CC2=C1
+CC1[CH]C=CC2=CC=CC=C12
+CC1=C[CH]CC2=CC=CC=C12
+CCC1[CH]C=CC2=CC=CC=C12
+CCC1=C[CH]CC2=CC=CC=C12
+""",
+)
+
+entry(
+    index = 2020,
+    label = "Benzyl_S_dihydronaphthalene",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cb u0 {1,S} {5,B}
+3   C  u0 {1,S} {7,[S,D,B]}
+4   H  u0 {1,S}
+5   Cb u0 {2,B} {6,S}
+6   Cd  u0 {5,S} {7,D}
+7   Cd  u0 {6,D} {3,[S,D,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.762975,-1.091932,-1.454467,-1.908359,-2.748445,-3.446538,-4.576528],'cal/(mol*K)','+|-',[0.226952,0.226952,0.226952,0.226952,0.226952,0.226952,0.226952]),
+        H298 = (31.565243,'kcal/mol','+|-',0.869131),
+        S298 = (1.433096,'cal/(mol*K)','+|-',0.350884),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 07/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+C1=CC=C2C=CC[CH]C2=C1
+C[C]1CC=CC2=CC=CC=C12
+CC[C]1CC=CC2=CC=CC=C12
+""",
+)
+
+entry(
+    index = 2021,
+    label = "Benzyl_T_dihydronaphthalene",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cb u0 {1,S} {5,B}
+3   C  u0 {1,S} {7,[S,D,T,B]}
+4   C  u0 {1,S}
+5   Cb u0 {2,B} {6,S}
+6   Cd  u0 {5,S} {7,D}
+7   Cd  u0 {6,D} {3,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.264274,-0.237466,-0.864612,-1.638997,-2.840867,-3.590474,-4.678897],'cal/(mol*K)','+|-',[0.546927,0.546927,0.546927,0.546927,0.546927,0.546927,0.546927]),
+        H298 = (83.336835,'kcal/mol','+|-',2.015630),
+        S298 = (2.120448,'cal/(mol*K)','+|-',0.802466),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 07/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+CC1=CC[CH]C2=CC=CC=C12
+CCC1=CC[CH]C2=CC=CC=C12
+""",
+)
+
+
+entry(
+    index = 2022,
+    label = "Aromatic_pi_S_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S}
+7   H u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.013276,-1.289314,-2.312579,-2.921595,-3.398456,-3.676202,-4.864196],'cal/(mol*K)','+|-',[0.023461,0.023461,0.023461,0.023461,0.023461,0.023461,0.023461]),
+        H298 = (75.469224,'kcal/mol','+|-',0.139824),
+        S298 = (1.484606,'cal/(mol*K)','+|-',0.036353),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+CC1=CC=C[CH]C1
+CC1[CH]CC=CC=1
+CC1C=CC[CH]C=1
+CC1[CH]C=CC=C1
+""",
+)
+
+entry(
+    index = 2023,
+    label = "Aromatic_pi_S_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+""",
+    thermo = u'Aromatic_pi_S_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_1_3
+""",
+)
+
+entry(
+    index = 2024,
+    label = "Aromatic_pi_T_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+""",
+    thermo = u'Aromatic_pi_S_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_1_3
+""",
+)
+
+entry(
+    index = 2025,
+    label = "Aromatic_pi_T_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
+""",
+    thermo = u'Aromatic_pi_S_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_1_3
+""",
+)
+
+entry(
+    index = 2026,
+    label = "Aromatic_pi_S_(CH3_CH3_Ortho)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S} {8,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {5,S}
+9   C u0 {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.104911,-1.140650,-2.324049,-3.038951,-3.752012,-4.054814,-5.141931],'cal/(mol*K)','+|-',[0.061305,0.061305,0.061305,0.061305,0.061305,0.061305,0.061305]),
+        H298 = (75.544685,'kcal/mol','+|-',0.399656),
+        S298 = (2.790834,'cal/(mol*K)','+|-',0.079011),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+CC1=CC=C[CH]C1C
+CC1[CH]C(C)C=CC=1
+CC1C=CC(C)[CH]C=1
+CC1(C)[CH]C=CC=C1
+""",
+)
+
+entry(
+    index = 2027,
+    label = "Aromatic_pi_S_(CH3_CH3_Ortho)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {3,S}
+9   C u0 {4,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2028,
+    label = "Aromatic_pi_T_(CH3_CH3_Ortho)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S} {8,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2029,
+    label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_3_1",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D} {8,S}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {2,S}
+9   C u0 {6,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2030,
+    label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D} {8,S}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {2,S}
+9   C u0 {4,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2031,
+    label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_3_2",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {4,S}
+9   C u0 {6,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2032,
+    label = "Aromatic_pi_S_(CH3_CH3_Para)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {3,S}
+9   C u0 {6,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2033,
+    label = "Aromatic_pi_T_(CH3_CH3_Para)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2034,
+    label = "Aromatic_pi_S_(CH3_CH3_Sub)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {6,S}
+9   C u0 {6,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2035,
+    label = "Aromatic_pi_S_(CH3_CH3_Sub)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {8,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {4,S}
+9   C u0 {4,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2036,
+    label = "Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S} {8,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {5,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.453462,-1.202443,-2.436067,-2.956152,-3.471072,-3.948804,-5.034070],'cal/(mol*K)','+|-',[0.068504,0.068504,0.068504,0.068504,0.068504,0.068504,0.068504]),
+        H298 = (74.981951,'kcal/mol','+|-',0.417781),
+        S298 = (1.243621,'cal/(mol*K)','+|-',0.106961),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+CCC1[CH]C=CC=C1C
+CCC1[CH]C(C)=CC=C1
+CCC1[CH]C=C(C)C=C1
+CCC1(C)[CH]C=CC=C1
+""",
+)
+
+entry(
+    index = 2037,
+    label = "Aromatic_pi_S_(CH3_C2H5_Ortho)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {3,S}
+9   C u0 {4,S} {10,S}
+10  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2038,
+    label = "Aromatic_pi_T_(CH3_C2H5_Ortho)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S} {8,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S} {9,S}
+9   C u0 {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2039,
+    label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_1",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D} {8,S}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {2,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2040,
+    label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D} {8,S}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {2,S}
+9   C u0 {4,S} {10,S}
+10  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2041,
+    label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_2",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {4,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2042,
+    label = "Aromatic_pi_S_(CH3_C2H5_Para)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {3,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2043,
+    label = "Aromatic_pi_T_(CH3_C2H5_Para)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S} {9,S}
+9   C u0 {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2044,
+    label = "Aromatic_pi_S_(CH3_C2H5_Sub)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {6,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2045,
+    label = "Aromatic_pi_S_(CH3_C2H5_Sub)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {8,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {4,S}
+9   C u0 {4,S} {10,S}
+10  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+""",
+)
+
+entry(
+    index = 2046,
+    label = "Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S} {8,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {5,S}
+9   C u0 {6,S} {10,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.831072,-0.828879,-1.898878,-2.143234,-2.473595,-2.805725,-3.594795],'cal/(mol*K)','+|-',[0.208059,0.208059,0.208059,0.208059,0.208059,0.208059,0.208059]),
+        H298 = (74.133127,'kcal/mol','+|-',0.742606),
+        S298 = (-0.854817,'cal/(mol*K)','+|-',0.322012),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+
+""",
+)
+
+entry(
+    index = 2047,
+    label = "Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {3,S}
+9   C u0 {4,S} {10,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2048,
+    label = "Aromatic_pi_T_(CH3_Benzyl_Ortho)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S} {8,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S} {9,S}
+9   Cb u0 {8,S} {10,B} {14,B}
+10  Cb u0 {9,B} {11,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {9,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2049,
+    label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_1",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D} {8,S}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {2,S}
+9   C u0 {6,S} {10,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2050,
+    label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D} {8,S}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {2,S}
+9   C u0 {4,S} {10,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2051,
+    label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_2",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {4,S}
+9   C u0 {6,S} {10,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2052,
+    label = "Aromatic_pi_S_(CH3_Benzyl_Para)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {3,S}
+9   C u0 {6,S} {10,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2053,
+    label = "Aromatic_pi_T_(CH3_Benzyl_Para)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S} {9,S}
+9   Cb u0 {8,S} {10,B} {14,B}
+10  Cb u0 {9,B} {11,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {9,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2054,
+    label = "Aromatic_pi_S_(CH3_Benzyl_Sub)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {6,S}
+9   C u0 {6,S} {10,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2055,
+    label = "Aromatic_pi_S_(CH3_Benzyl_Sub)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {8,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {4,S}
+9   C u0 {4,S} {10,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2056,
+    label = "Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S} {8,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {5,S}
+9   Cs u0 {6,S} {10,S} {16,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+16  C u0 {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.677181,-0.360591,-1.618359,-2.065862,-2.453129,-2.747906,-3.506577],'cal/(mol*K)','+|-',[0.245046,0.245046,0.245046,0.245046,0.245046,0.245046,0.245046]),
+        H298 = (74.329439,'kcal/mol','+|-',0.850906),
+        S298 = (-3.587842,'cal/(mol*K)','+|-',0.338262),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+
+""",
+)
+
+entry(
+    index = 2057,
+    label = "Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {3,S}
+9   Cs u0 {4,S} {10,S} {16,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+16  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2058,
+    label = "Aromatic_pi_T_(CH3_EBenzyl_Ortho)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S} {8,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   Cs u0 {4,S} {9,S} {15,S}
+9   Cb u0 {8,S} {10,B} {14,B}
+10  Cb u0 {9,B} {11,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {9,B}
+15  C u0 {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2059,
+    label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_1",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D} {8,S}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {2,S}
+9   Cs u0 {6,S} {10,S} {16,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+16  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2060,
+    label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D} {8,S}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {2,S}
+9   Cs u0 {4,S} {10,S} {16,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+16  C  u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2061,
+    label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_2",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {4,S}
+9   Cs u0 {6,S} {10,S} {16,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+16  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2062,
+    label = "Aromatic_pi_S_(CH3_EBenzyl_Para)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {3,S}
+9   Cs u0 {6,S} {10,S} {16,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+16  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2063,
+    label = "Aromatic_pi_T_(CH3_EBenzyl_Para)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   Cs u0 {4,S} {9,S} {15,S}
+9   Cb u0 {8,S} {10,B} {14,B}
+10  Cb u0 {9,B} {11,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {9,B}
+15  C u0 {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2064,
+    label = "Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {6,S}
+9   Cs u0 {6,S} {10,S} {16,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+16  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2065,
+    label = "Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {8,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {4,S}
+9   Cs u0 {4,S} {10,S} {16,S}
+10  Cb u0 {9,S} {11,B} {15,B}
+11  Cb u0 {10,B} {12,B}
+12  Cb u0 {11,B} {13,B}
+13  Cb u0 {12,B} {14,B}
+14  Cb u0 {13,B} {15,B}
+15  Cb u0 {10,B} {14,B}
+16  C u0 {9,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+""",
+)
+
+entry(
+    index = 2066,
+    label = "Aromatic_pi_S_(fused5)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {3,S} {10,S}
+9   C u0 {4,S} {10,S}
+10  C u0 {9,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.748775,0.045256,-0.710099,-1.361654,-2.512352,-3.305985,-4.570903],'cal/(mol*K)','+|-',[0.098378,0.098378,0.098378,0.098378,0.098378,0.098378,0.098378]),
+        H298 = (74.482889,'kcal/mol','+|-',1.116279),
+        S298 = (0.780097,'cal/(mol*K)','+|-',0.163349),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+C1=CC=C2CCCC2[CH]1
+CC1CCC2=CC=C[CH]C21
+CCC1CCC2=CC=C[CH]C21
+CCCC1CCC2=CC=C[CH]C21
+""",
+)
+
+entry(
+    index = 2067,
+    label = "Aromatic_pi_S_(fused6)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S} {8,S}
+4   Cs u0 {3,S} {5,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {3,S} {11,S}
+9   C u0 {4,S} {10,S}
+10  C u0 {9,S} {11,S}
+11  C u0 {10,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.012840,-0.508381,-1.059941,-1.550087,-2.565312,-3.360037,-4.585983],'cal/(mol*K)','+|-',[0.129371,0.129371,0.129371,0.129371,0.129371,0.129371,0.129371]),
+        H298 = (73.734730,'kcal/mol','+|-',1.665621),
+        S298 = (0.399676,'cal/(mol*K)','+|-',0.285184),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+C1=CC=C2CCCCC2[CH]1
+CC1CCCC2=CC=C[CH]C21
+CCC1CCCC2=CC=C[CH]C21
+""",
+)
+
+entry(
+    index = 2068,
+    label = "Aromatic_pi_S_(fused5)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S} {8,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {5,S} {10,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S} {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(fused5)_1_4',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+C1=CC=C2CCCC2[CH]1
+CC1CCC2=CC=C[CH]C21
+CCC1CCC2=CC=C[CH]C21
+CCCC1CCC2=CC=C[CH]C21
+C1=CC=C2CCCCC2[CH]1
+CC1CCCC2=CC=C[CH]C21
+CCC1CCCC2=CC=C[CH]C21
+""",
+)
+
+entry(
+    index = 2069,
+    label = "Aromatic_pi_S_(fused6)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S} {8,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {5,S} {11,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S} {11,S}
+11  C u0 {10,S} {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(fused5)_1_4',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+C1=CC=C2CCCC2[CH]1
+CC1CCC2=CC=C[CH]C21
+CCC1CCC2=CC=C[CH]C21
+CCCC1CCC2=CC=C[CH]C21
+C1=CC=C2CCCCC2[CH]1
+CC1CCCC2=CC=C[CH]C21
+CCC1CCCC2=CC=C[CH]C21
+""",
+)
+
+entry(
+    index = 2070,
+    label = "Aromatic_pi_T_(fused5)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S}
+7   C u0 {1,S} {9,S}
+8   C u0 {6,S} {9,S}
+9   C u0 {8,S} {7,S}
+""",
+    thermo = u'Aromatic_pi_S_(fused5)_1_4',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+C1=CC=C2CCCC2[CH]1
+CC1CCC2=CC=C[CH]C21
+CCC1CCC2=CC=C[CH]C21
+CCCC1CCC2=CC=C[CH]C21
+C1=CC=C2CCCCC2[CH]1
+CC1CCCC2=CC=C[CH]C21
+CCC1CCCC2=CC=C[CH]C21
+""",
+)
+
+entry(
+    index = 2071,
+    label = "Aromatic_pi_T_(fused6)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S}
+7   C u0 {1,S} {10,S}
+8   C u0 {6,S} {9,S}
+9   C u0 {8,S} {10,S}
+10  C u0 {9,S} {7,S}
+""",
+    thermo = u'Aromatic_pi_S_(fused5)_1_4',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+C1=CC=C2CCCC2[CH]1
+CC1CCC2=CC=C[CH]C21
+CCC1CCC2=CC=C[CH]C21
+CCCC1CCC2=CC=C[CH]C21
+C1=CC=C2CCCCC2[CH]1
+CC1CCCC2=CC=C[CH]C21
+CCC1CCCC2=CC=C[CH]C21
+""",
+)
+
+entry(
+    index = 2072,
+    label = "Aromatic_pi_S_(s1_3_6_diene_1_4)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {6,S} {9,S}
+9   C u0 {6,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.481918,0.127981,-0.882314,-1.471559,-2.216403,-3.231953,-4.401823],'cal/(mol*K)','+|-',[0.704900,0.704900,0.704900,0.704900,0.704900,0.704900,0.704900]),
+        H298 = (70.660017,'kcal/mol','+|-',4.282018),
+        S298 = (-1.779364,'cal/(mol*K)','+|-',1.914852),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+CCCCC1CC12C=C[CH]C=C2
+""",
+)
+
+entry(
+    index = 2073,
+    label = "Aromatic_pi_S_(s1_3_6_diene_1_4)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {8,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {4,S} {9,S}
+9   C u0 {4,S} {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(s1_3_6_diene_1_4)_1_3
+""",
+)
+
+entry(
+    index = 2074,
+    label = "Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {6,S} {10,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.850106,2.023060,1.417340,0.955199,-0.252841,-1.611607,-3.214279],'cal/(mol*K)','+|-',[0.733897,0.733897,0.733897,0.733897,0.733897,0.733897,0.733897]),
+        H298 = (72.495609,'kcal/mol','+|-',4.455656),
+        S298 = (2.720001,'cal/(mol*K)','+|-',2.010984),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+CCCC1CCC12C=C[CH]C=C2
+""",
+)
+
+entry(
+    index = 2075,
+    label = "Aromatic_pi_S_(s1_4_6_diene_1_4)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {8,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {4,S} {10,S}
+9   C u0 {4,S} {10,S}
+10  C u0 {9,S} {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3
+""",
+)
+
+entry(
+    index = 2076,
+    label = "Aromatic_pi_S_(s1_5_6_diene_1_4)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {6,S} {11,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S} {11,S}
+11  C u0 {10,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.344733,-0.124290,-0.432103,-0.924571,-2.301224,-3.166951,-4.315021],'cal/(mol*K)','+|-',[0.781339,0.781339,0.781339,0.781339,0.781339,0.781339,0.781339]),
+        H298 = (73.495960,'kcal/mol','+|-',4.739542),
+        S298 = (-3.286795,'cal/(mol*K)','+|-',2.175866),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+CCC1CCCC12C=C[CH]C=C2
+""",
+)
+
+entry(
+    index = 2077,
+    label = "Aromatic_pi_S_(s1_5_6_diene_1_4)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {8,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {4,S} {11,S}
+9   C u0 {4,S} {10,S}
+10  C u0 {9,S} {11,S}
+11  C u0 {10,S} {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(s1_5_6_diene_1_4)_1_3
+""",
+)
+
+entry(
+    index = 2078,
+    label = "Aromatic_pi_S_(s1_6_6_diene_1_4)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {1,S} {8,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {6,S} {12,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S} {11,S}
+11  C u0 {10,S} {12,S}
+12  C u0 {11,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.226242,-0.404788,-1.081768,-1.652370,-2.569590,-3.273215,-4.647702],'cal/(mol*K)','+|-',[0.872202,0.872202,0.872202,0.872202,0.872202,0.872202,0.872202]),
+        H298 = (74.009743,'kcal/mol','+|-',5.285774),
+        S298 = (-1.205848,'cal/(mol*K)','+|-',2.522100),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Species used include:
+CC1CCCCC12C=C[CH]C=C2
+""",
+)
+
+entry(
+    index = 2079,
+    label = "Aromatic_pi_S_(s1_6_6_diene_1_4)_1_4",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S} {8,S} {9,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {1,S}
+7   H u0 {1,S}
+8   C u0 {4,S} {12,S}
+9   C u0 {4,S} {10,S}
+10  C u0 {9,S} {11,S}
+11  C u0 {10,S} {12,S}
+12  C u0 {11,S} {8,S}
+""",
+    thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+See Aromatic_pi_S_(s1_6_6_diene_1_4)_1_3
+""",
+)
+
+entry(
+    index = 2080,
+    label = "Benzyl_S_Fused7",
+    group =
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cb u0 {1,S} {5,B}
+3   C  u0 {1,S} {8,[S,D,T,B]}
+4   H  u0 {1,S}
+5   Cb u0 {2,B} {6,S}
+6   C  u0 {5,S} {7,[S,D,T,B]}
+7   C  u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8   C  u0 {7,[S,D,T,B]} {3,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.420000,-1.640000,-1.860000,-2.180000,-2.740000,-3.340000,-4.500000],'cal/(mol*K)','+|-',[1.479200,1.479200,1.479200,1.479200,1.479200,1.479200,1.479200]),
+        H298 = (92.100000,'kcal/mol','+|-',5.457800),
+        S298 = (4.720000,'cal/(mol*K)','+|-',4.205000),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CCCC[CH]C2=C1
+""",
+)
+
+entry(
+    index = 2081,
+    label = "Aromatic_pi_S_(fused7)_1_3",
+    group =
+"""
+1 * Cs u1 {2,S} {6,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S} {8,S}
+6   Cs u0 {5,S} {1,S} {9,S}
+7   H u0 {1,S}
+8   C u0 {5,S} {12,S}
+9   C u0 {6,S} {10,S}
+10  C u0 {9,S} {11,S}
+11  C u0 {10,S} {12,S}
+12  C u0 {11,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.084287,-0.439484,-1.009838,-1.616804,-2.484153,-3.292077,-4.579234],'cal/(mol*K)','+|-',[1.080010,1.080010,1.080010,1.080010,1.080010,1.080010,1.080010]),
+        H298 = (76.425234,'kcal/mol','+|-',4.190161),
+        S298 = (0.527688,'cal/(mol*K)','+|-',2.029750),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CCCCCC2[CH]1
+C1=CC=C2CCCCC(C)C2[CH]1
+""",
+)
+
+entry(
+    index = 2082,
+    label = "CJ-Cd-Benzene7",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {5,D}
+3   Cs u0 {1,S} {8,S}
+4   H  u0 {1,S}
+5   Cd u0 {2,D} {6,S}
+6   Cb u0 {7,B} {5,S}
+7   Cb u0 {6,B} {8,S}
+8   Cs u0 {3,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.300000,-0.500000,-1.000000,-1.500000,-2.500000,-3.300000,-4.500000],'cal/(mol*K)','+|-',[2.464200,2.464200,2.464200,2.464200,2.464200,2.464200,2.464200]),
+        H298 = (80.700000,'kcal/mol','+|-',7.325600),
+        S298 = (1.000000,'cal/(mol*K)','+|-',3.864200),
+    ),
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
+u""""
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CC[CH]C=CC2=C1
+""",
+)
+
 tree(
 """
 L1: Radical
@@ -8965,13 +10859,64 @@ L1: Radical
                             L8: cyclohexane
                     L6: Benzyl_S
                         L7: Indenyl
-                    L6: C=CCJC=C-cyclohexadiene
-                    L6: CJC=CC=C-cyclohexadiene
+                        L7: Benzyl_S_Fused5
+                        L7: Benzyl_S_Fused6
+                            L8: Benzyl_S_dihydronaphthalene
+                        L7: Benzyl_S_Fused7
                     L6: Allyl_S
+                        L7: Aromatic_pi_S_1_3
+                            L8: Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
+                                L9: Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
+                                    L10: Aromatic_pi_S_(fused5)_1_3
+                                    L10: Aromatic_pi_S_(fused6)_1_3
+                                    L10: Aromatic_pi_S_(fused7)_1_3
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3
+                            L8: Aromatic_pi_S_(CH3_CH3_Meta)_1_3_1
+                                L9: Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_1
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_1
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_1
+                            L8: Aromatic_pi_S_(CH3_CH3_Meta)_1_3_2
+                                L9: Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_2
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_2
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_2
+                            L8: Aromatic_pi_S_(CH3_CH3_Para)_1_3
+                                L9: Aromatic_pi_S_(CH3_C2H5_Para)_1_3
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Para)_1_3
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Para)_1_3
+                            L8: Aromatic_pi_S_(CH3_CH3_Sub)_1_3
+                                L9: Aromatic_pi_S_(s1_3_6_diene_1_4)_1_3
+                                L9: Aromatic_pi_S_(CH3_C2H5_Sub)_1_3
+                                    L10: Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3
+                                    L10: Aromatic_pi_S_(s1_5_6_diene_1_4)_1_3
+                                    L10: Aromatic_pi_S_(s1_6_6_diene_1_4)_1_3
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Sub)_1_3
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_3
+                        L7: CJ-Cd-Benzene
+                        L7: CJ-Cd-Benzene7
                         L7: cyclobutene-allyl
                         L7: cyclopentene-allyl
                         L7: cyclohexene-allyl
                     L6: C=CCJC=C
+                        L7: Aromatic_pi_S_1_4
+                            L8: Aromatic_pi_S_(CH3_CH3_Ortho)_1_4
+                                L9: Aromatic_pi_S_(CH3_C2H5_Ortho)_1_4
+                                    L10: Aromatic_pi_S_(fused5)_1_4
+                                    L10: Aromatic_pi_S_(fused6)_1_4
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_4
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_4
+                            L8: Aromatic_pi_S_(CH3_CH3_Meta)_1_4
+                                L9: Aromatic_pi_S_(CH3_C2H5_Meta)_1_4
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_4
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_4
+                            L8: Aromatic_pi_S_(CH3_CH3_Sub)_1_4
+                                L9: Aromatic_pi_S_(s1_3_6_diene_1_4)_1_4
+                                L9: Aromatic_pi_S_(CH3_C2H5_Sub)_1_4
+                                    L10: Aromatic_pi_S_(s1_4_6_diene_1_4)_1_4
+                                    L10: Aromatic_pi_S_(s1_5_6_diene_1_4)_1_4
+                                    L10: Aromatic_pi_S_(s1_6_6_diene_1_4)_1_4
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Sub)_1_4
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_4
                         L7: cyclopropenyl-allyl
                         L7: 1,3-cyclopentadiene-allyl
                         L7: C=CCJC=C=O
@@ -8982,7 +10927,6 @@ L1: Radical
                 L5: Cs_T
                     L6: CCJ(C)CO
                         L7: C2CJCOOH
-                    L6: C=CCJ(C)C=C-cyclohexadiene
                     L6: Tertalkyl
                         L7: bicyclo[1.1.0]butane-tertiary
                         L7: bicyclo[2.1.0]pentane-tertiary
@@ -8998,18 +10942,33 @@ L1: Radical
                         L7: bicyclo[4.2.0]octane-tertiary
                         L7: bicyclo[2.2.2]octane-C1
                     L6: Benzyl_T
+                        L7: Benzyl_T_Fused5
+                        L7: Benzyl_T_Fused6
+                            L8: Benzyl_T_dihydronaphthalene
                     L6: CCJ(C)C=C=O
                         L7: C=CCJ(C)C=C=O
                             L8: C=CCJ(C=C=O)C=C
                     L6: Allyl_T
+                        L7: Aromatic_pi_T_1_3
+                            L8: Aromatic_pi_T_(CH3_CH3_Ortho)_1_3
+                                L9: Aromatic_pi_T_(CH3_C2H5_Ortho)_1_3
+                                    L10: Aromatic_pi_T_(fused5)_1_3
+                                    L10: Aromatic_pi_T_(fused6)_1_3
+                                    L10: Aromatic_pi_T_(CH3_Benzyl_Ortho)_1_3
+                                        L11: Aromatic_pi_T_(CH3_EBenzyl_Ortho)_1_3
+                        L7: Aromatic_pi_T_1_4
+                            L8: Aromatic_pi_T_(CH3_CH3_Para)_1_4
+                                L9: Aromatic_pi_T_(CH3_C2H5_Para)_1_4
+                                    L10: Aromatic_pi_T_(CH3_Benzyl_Para)_1_4
+                                        L11: Aromatic_pi_T_(CH3_EBenzyl_Para)_1_4
                         L7: bicyclo[2.1.0]pent-2-ene-C1
                         L7: bicyclo[2.1.1]hex-2-ene-C1
+                        L7: bicyclo[2.2.0]hexa-2,5-diene-C1
+                        L7: C=CCJ(C)C=O
+                            L8: C=CCJ(C=O)C=C
                     L6: Tert_Propargyl
                     L6: C2CJCO
                         L7: C2CJCHO
-                    L6: bicyclo[2.2.0]hexa-2,5-diene-C1
-                    L6: C=CCJ(C)C=O
-                        L7: C=CCJ(C=O)C=C
                 L5: CsJO
                     L6: CsJOH
                     L6: CsJOC

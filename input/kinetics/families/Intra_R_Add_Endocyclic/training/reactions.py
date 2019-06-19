@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 name = "Intra_R_Add_Endocyclic/training"
-shortDesc = u"Kinetics used to train group additivity values"
+shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
-Put kinetic parameters for reactions to use as a training set for fitting
-group additivity values in this file.
+Put kinetic parameters for specific reactions in this file to use as a
+training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 0,
@@ -196,25 +196,27 @@ entry(
     kinetics = Arrhenius(
         A = (6.6e+07, 's^-1'),
         n = 1.08,
-        Ea = (30.4, 'kcal/mol', '+|-', 1),
+        Ea = (30.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -225,25 +227,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.02e+07, 's^-1'),
         n = 1.34,
-        Ea = (30.1, 'kcal/mol', '+|-', 1),
+        Ea = (30.1, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -254,25 +258,27 @@ entry(
     kinetics = Arrhenius(
         A = (1e+07, 's^-1'),
         n = 1.34,
-        Ea = (29.4, 'kcal/mol', '+|-', 1),
+        Ea = (29.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -283,25 +289,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.61e+08, 's^-1'),
         n = 0.96,
-        Ea = (29.4, 'kcal/mol', '+|-', 1),
+        Ea = (29.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling" Trans conformation of pentenyl.
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling" Trans conformation of pentenyl.
 """,
 )
 
@@ -312,25 +320,27 @@ entry(
     kinetics = Arrhenius(
         A = (2.01e+08, 's^-1'),
         n = 1.02,
-        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        Ea = (29.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -341,25 +351,27 @@ entry(
     kinetics = Arrhenius(
         A = (3.82e+08, 's^-1'),
         n = 0.91,
-        Ea = (30, 'kcal/mol', '+|-', 1),
+        Ea = (30, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -370,25 +382,27 @@ entry(
     kinetics = Arrhenius(
         A = (2.41e+08, 's^-1'),
         n = 0.96,
-        Ea = (29.3, 'kcal/mol', '+|-', 1),
+        Ea = (29.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -399,25 +413,27 @@ entry(
     kinetics = Arrhenius(
         A = (2.02e+06, 's^-1'),
         n = 1.58,
-        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        Ea = (29.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -428,25 +444,27 @@ entry(
     kinetics = Arrhenius(
         A = (2.71e+08, 's^-1'),
         n = 0.99,
-        Ea = (29.7, 'kcal/mol', '+|-', 1),
+        Ea = (29.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -457,25 +475,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.15e+07, 's^-1'),
         n = 1.24,
-        Ea = (30.9, 'kcal/mol', '+|-', 1),
+        Ea = (30.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -486,25 +506,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.65e+07, 's^-1'),
         n = 1.02,
-        Ea = (14.2, 'kcal/mol', '+|-', 1),
+        Ea = (14.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -515,25 +537,27 @@ entry(
     kinetics = Arrhenius(
         A = (4.64e+06, 's^-1'),
         n = 1.15,
-        Ea = (13.9, 'kcal/mol', '+|-', 1),
+        Ea = (13.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -544,25 +568,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.07e+06, 's^-1'),
         n = 1.38,
-        Ea = (12.2, 'kcal/mol', '+|-', 1),
+        Ea = (12.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -573,25 +599,27 @@ entry(
     kinetics = Arrhenius(
         A = (2.94e+07, 's^-1'),
         n = 0.93,
-        Ea = (13.9, 'kcal/mol', '+|-', 1),
+        Ea = (13.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling" Trans conformation of hexenyl.
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling" Trans conformation of hexenyl.
 """,
 )
 
@@ -602,25 +630,27 @@ entry(
     kinetics = Arrhenius(
         A = (6.65e+07, 's^-1'),
         n = 0.83,
-        Ea = (13.4, 'kcal/mol', '+|-', 1),
+        Ea = (13.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -631,25 +661,27 @@ entry(
     kinetics = Arrhenius(
         A = (7.25e+07, 's^-1'),
         n = 0.83,
-        Ea = (14.1, 'kcal/mol', '+|-', 1),
+        Ea = (14.1, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -660,25 +692,27 @@ entry(
     kinetics = Arrhenius(
         A = (2.23e+07, 's^-1'),
         n = 1,
-        Ea = (13.5, 'kcal/mol', '+|-', 1),
+        Ea = (13.5, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -689,25 +723,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.38e+08, 's^-1'),
         n = 0.75,
-        Ea = (12.6, 'kcal/mol', '+|-', 1),
+        Ea = (12.6, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -718,25 +754,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.6e+08, 's^-1'),
         n = 0.76,
-        Ea = (13.4, 'kcal/mol', '+|-', 1),
+        Ea = (13.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -747,25 +785,27 @@ entry(
     kinetics = Arrhenius(
         A = (4.9e+06, 's^-1'),
         n = 1.13,
-        Ea = (15.6, 'kcal/mol', '+|-', 1),
+        Ea = (15.6, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -776,25 +816,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.25e+06, 's^-1'),
         n = 1.08,
-        Ea = (6.7, 'kcal/mol', '+|-', 1),
+        Ea = (6.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -805,25 +847,27 @@ entry(
     kinetics = Arrhenius(
         A = (487000, 's^-1'),
         n = 1.17,
-        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        Ea = (6.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -834,25 +878,27 @@ entry(
     kinetics = Arrhenius(
         A = (33000, 's^-1'),
         n = 1.42,
-        Ea = (4.7, 'kcal/mol', '+|-', 1),
+        Ea = (4.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -863,25 +909,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.26e+06, 's^-1'),
         n = 1.02,
-        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        Ea = (6.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling" Trans conformation of heptenyl.
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling" Trans conformation of heptenyl.
 """,
 )
 
@@ -892,25 +940,27 @@ entry(
     kinetics = Arrhenius(
         A = (2.01e+06, 's^-1'),
         n = 1.05,
-        Ea = (5.8, 'kcal/mol', '+|-', 1),
+        Ea = (5.8, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -921,25 +971,27 @@ entry(
     kinetics = Arrhenius(
         A = (7.32e+06, 's^-1'),
         n = 0.84,
-        Ea = (5.9, 'kcal/mol', '+|-', 1),
+        Ea = (5.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -950,25 +1002,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.24e+07, 's^-1'),
         n = 0.79,
-        Ea = (6.2, 'kcal/mol', '+|-', 1),
+        Ea = (6.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -979,25 +1033,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.46e+06, 's^-1'),
         n = 1.02,
-        Ea = (6.1, 'kcal/mol', '+|-', 1),
+        Ea = (6.1, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1008,25 +1064,27 @@ entry(
     kinetics = Arrhenius(
         A = (1.19e+07, 's^-1'),
         n = 0.78,
-        Ea = (6.2, 'kcal/mol', '+|-', 1),
+        Ea = (6.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1037,25 +1095,27 @@ entry(
     kinetics = Arrhenius(
         A = (3.5e+07, 's^-1'),
         n = 0.7,
-        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        Ea = (6.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1066,25 +1126,27 @@ entry(
     kinetics = Arrhenius(
         A = (5.85e+07, 's^-1'),
         n = 0.63,
-        Ea = (6.3, 'kcal/mol', '+|-', 1),
+        Ea = (6.3, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1095,25 +1157,27 @@ entry(
     kinetics = Arrhenius(
         A = (344000, 's^-1'),
         n = 1.1,
-        Ea = (7.7, 'kcal/mol', '+|-', 1),
+        Ea = (7.7, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1124,25 +1188,27 @@ entry(
     kinetics = Arrhenius(
         A = (114000, 's^-1'),
         n = 1.2,
-        Ea = (6.5, 'kcal/mol', '+|-', 1),
+        Ea = (6.5, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1153,25 +1219,27 @@ entry(
     kinetics = Arrhenius(
         A = (21100, 's^-1'),
         n = 1.34,
-        Ea = (6.4, 'kcal/mol', '+|-', 1),
+        Ea = (6.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1179,23 +1247,30 @@ entry(
     index = 48,
     label = "C_CCCCCCJ(C)C <=> 3,3-dimethylcycloheptyl",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(554, 's^-1'), n=1.66, Ea=(4.9, 'kcal/mol', '+|-', 1), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (554, 's^-1'),
+        n = 1.66,
+        Ea = (4.9, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1206,25 +1281,27 @@ entry(
     kinetics = Arrhenius(
         A = (110000, 's^-1'),
         n = 1.18,
-        Ea = (6.5, 'kcal/mol', '+|-', 1),
+        Ea = (6.5, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1235,25 +1312,27 @@ entry(
     kinetics = Arrhenius(
         A = (185000, 's^-1'),
         n = 1.07,
-        Ea = (6.4, 'kcal/mol', '+|-', 1),
+        Ea = (6.4, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1264,25 +1343,27 @@ entry(
     kinetics = Arrhenius(
         A = (12200, 's^-1'),
         n = 1.36,
-        Ea = (8.5, 'kcal/mol', '+|-', 1),
+        Ea = (8.5, 'kcal/mol'),
         T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'K. Wang'"", ""'S. Villano'"", ""'A. Dean'""],
+        authors = ['K. Wang', 'S. Villano', 'A. Dean'],
         title = 'Reactivity-Structure-Based Rate Estimation Rules for Alkyl Radical H Atom Shift and Alkenyl Radical Cycloaddition Reactions',
-        journal = ""'J. Phys. Chem. A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7205-7221'"",
-        year = ""'2015'"",
+        journal = 'J. Phys. Chem. A',
+        volume = '119(28)',
+        pages = '7205-7221',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 5,
-    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/631G(d)""",
+    shortDesc = u"""CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
     longDesc = 
 u"""
 Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/631G(d)" using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
-coefficient computed TST with Eckart Tunnelling"
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
@@ -1292,12 +1373,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(324000, 's^-1'), n=1.64, Ea=(110.61, 'kJ/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'H. Ismail'"", ""'J. Park'"", ""'B. M. Wong'"", ""'W. H. Green'"", ""'M. C. Lin'""],
+        authors = ['H. Ismail', 'J. Park', 'B. M. Wong', 'W. H. Green', 'M. C. Lin'],
         title = 'A theoretical and experimental kinetic study of phenyl radical addition to butadiene',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'30(1)'"",
-        pages = ""'1049-1056'"",
-        year = ""'2005'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '30(1)',
+        pages = '1049-1056',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 9,
@@ -1315,12 +1396,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.57e+10, 's^-1'), n=0.43, Ea=(1.924, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1338,12 +1419,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.588e+10, 's^-1'), n=0.535, Ea=(9.58, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1361,12 +1442,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.53e+12, 's^-1'), n=0.189, Ea=(29.234, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1384,12 +1465,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.017e+13, 's^-1'), n=0.272, Ea=(49.677, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1407,12 +1488,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.69e+10, 's^-1'), n=0.239, Ea=(33.778, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1430,12 +1511,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.279e+13, 's^-1'), n=0.395, Ea=(53.699, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1453,12 +1534,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.161e+12, 's^-1'), n=0.277, Ea=(28.025, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1476,12 +1557,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.473e+12, 's^-1'), n=0.247, Ea=(55.262, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1514,12 +1595,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.998e+12, 's^-1'), n=0.237, Ea=(16.277, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1552,12 +1633,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.63e+12, 's^-1'), n=-0.455, Ea=(30.695, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1574,12 +1655,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.999e+07, 's^-1'), n=0.942, Ea=(10.168, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1596,12 +1677,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.258e+10, 's^-1'), n=0.51, Ea=(12.883, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1618,12 +1699,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.315e+10, 's^-1'), n=0.447, Ea=(22.628, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene',
-        journal = ""'Faraday Discussions'"",
-        volume = ""'195(0)'"",
-        pages = ""'637-670'"",
-        year = ""'2016'"",
+        journal = 'Faraday Discussions',
+        volume = '195(0)',
+        pages = '637-670',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1640,12 +1721,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.09e+08, 's^-1'), n=0.695, Ea=(6.499, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'A. Landera'"", ""'R. I. Kaiser'""],
+        authors = ['A. M. Mebel', 'A. Landera', 'R. I. Kaiser'],
         title = 'Formation Mechanisms of Naphthalene and Indene: From the Interstellar Medium to Combustion Flames',
-        journal = ""'Journal of Physical Chemistry A'"",
-        volume = ""'121(5)'"",
-        pages = ""'901-926'"",
-        year = ""'2017'"",
+        journal = 'Journal of Physical Chemistry A',
+        volume = '121(5)',
+        pages = '901-926',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1662,12 +1743,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.983e+12, 's^-1'), n=-0.321, Ea=(5.655, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'A. Landera'"", ""'R. I. Kaiser'""],
+        authors = ['A. M. Mebel', 'A. Landera', 'R. I. Kaiser'],
         title = 'Formation Mechanisms of Naphthalene and Indene: From the Interstellar Medium to Combustion Flames',
-        journal = ""'Journal of Physical Chemistry A'"",
-        volume = ""'121(5)'"",
-        pages = ""'901-926'"",
-        year = ""'2017'"",
+        journal = 'Journal of Physical Chemistry A',
+        volume = '121(5)',
+        pages = '901-926',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1684,12 +1765,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.323e+10, 's^-1'), n=0.901, Ea=(33.428, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'A. Landera'"", ""'R. I. Kaiser'""],
+        authors = ['A. M. Mebel', 'A. Landera', 'R. I. Kaiser'],
         title = 'Formation Mechanisms of Naphthalene and Indene: From the Interstellar Medium to Combustion Flames',
-        journal = ""'Journal of Physical Chemistry A'"",
-        volume = ""'121(5)'"",
-        pages = ""'901-926'"",
-        year = ""'2017'"",
+        journal = 'Journal of Physical Chemistry A',
+        volume = '121(5)',
+        pages = '901-926',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1706,12 +1787,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.899e+10, 's^-1'), n=0.97, Ea=(33.321, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'A. Landera'"", ""'R. I. Kaiser'""],
+        authors = ['A. M. Mebel', 'A. Landera', 'R. I. Kaiser'],
         title = 'Formation Mechanisms of Naphthalene and Indene: From the Interstellar Medium to Combustion Flames',
-        journal = ""'Journal of Physical Chemistry A'"",
-        volume = ""'121(5)'"",
-        pages = ""'901-926'"",
-        year = ""'2017'"",
+        journal = 'Journal of Physical Chemistry A',
+        volume = '121(5)',
+        pages = '901-926',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1728,12 +1809,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.258e+10, 's^-1'), n=0.21, Ea=(7.415, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'A. Landera'"", ""'R. I. Kaiser'""],
+        authors = ['A. M. Mebel', 'A. Landera', 'R. I. Kaiser'],
         title = 'Formation Mechanisms of Naphthalene and Indene: From the Interstellar Medium to Combustion Flames',
-        journal = ""'Journal of Physical Chemistry A'"",
-        volume = ""'121(5)'"",
-        pages = ""'901-926'"",
-        year = ""'2017'"",
+        journal = 'Journal of Physical Chemistry A',
+        volume = '121(5)',
+        pages = '901-926',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1750,12 +1831,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.041e+08, 's^-1'), n=0.7, Ea=(20.246, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Z. J. Buras'"", ""'E. E. Dames'"", ""'S. S. Merchant'"", ""'G. Liu'"", ""'R. M. I. Elsamra'"", ""'W. H. Green'""],
+        authors = ['Z. J. Buras', 'E. E. Dames', 'S. S. Merchant', 'G. Liu', 'R. M. I. Elsamra', 'W. H. Green'],
         title = 'Kinetics and Products of Vinyl + 1,3-Butadiene, a Potential Route to Benzene',
-        journal = ""'Journal of Physical Chemistry A'"",
-        volume = ""'119(28)'"",
-        pages = ""'7325-7338'"",
-        year = ""'2015'"",
+        journal = 'Journal of Physical Chemistry A',
+        volume = '119(28)',
+        pages = '7325-7338',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -1772,12 +1853,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.162e+09, 's^-1'), n=0.771, Ea=(31.613, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Z. J. Buras'"", ""'T.-C. Chu'"", ""'A. Jamal'"", ""'N. W. Yee'"", ""'J. E. Middaugh'"", ""'W. H. Green'""],
+        authors = ['Z. J. Buras', 'T.-C. Chu', 'A. Jamal', 'N. W. Yee', 'J. E. Middaugh', 'W. H. Green'],
         title = 'Phenyl radical + propene: a prototypical reaction surface for aromatic-catalyzed 1,2-hydrogen-migration and subsequent resonance-stabilized radical formation',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'20'"",
-        pages = ""'13191-13214 '"",
-        year = ""'2018'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '20',
+        pages = '13191-13214 ',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1794,12 +1875,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.066e+08, 's^-1'), n=0.949, Ea=(16.873, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Z. J. Buras'"", ""'T.-C. Chu'"", ""'A. Jamal'"", ""'N. W. Yee'"", ""'J. E. Middaugh'"", ""'W. H. Green'""],
+        authors = ['Z. J. Buras', 'T.-C. Chu', 'A. Jamal', 'N. W. Yee', 'J. E. Middaugh', 'W. H. Green'],
         title = 'Phenyl radical + propene: a prototypical reaction surface for aromatic-catalyzed 1,2-hydrogen-migration and subsequent resonance-stabilized radical formation',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'20'"",
-        pages = ""'13191-13214 '"",
-        year = ""'2018'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '20',
+        pages = '13191-13214 ',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1816,12 +1897,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.255e+12, 's^-1'), n=0.347, Ea=(57.413, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Z. J. Buras'"", ""'T.-C. Chu'"", ""'A. Jamal'"", ""'N. W. Yee'"", ""'J. E. Middaugh'"", ""'W. H. Green'""],
+        authors = ['Z. J. Buras', 'T.-C. Chu', 'A. Jamal', 'N. W. Yee', 'J. E. Middaugh', 'W. H. Green'],
         title = 'Phenyl radical + propene: a prototypical reaction surface for aromatic-catalyzed 1,2-hydrogen-migration and subsequent resonance-stabilized radical formation',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'20'"",
-        pages = ""'13191-13214 '"",
-        year = ""'2018'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '20',
+        pages = '13191-13214 ',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1838,12 +1919,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.21e+11, 's^-1'), n=0.34, Ea=(21.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1861,12 +1942,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.9e+10, 's^-1'), n=0.33, Ea=(6.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1884,12 +1965,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.926e+10, 's^-1'), n=0.198, Ea=(5.455, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Temperature- and pressure-dependent rate coefficients for the HACA pathways from benzene to naphthalene',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'36(1)'"",
-        pages = ""'919-926'"",
-        year = ""'2017'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36(1)',
+        pages = '919-926',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1907,12 +1988,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.953e+11, 's^-1'), n=0.387, Ea=(32.996, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Temperature- and pressure-dependent rate coefficients for the HACA pathways from benzene to naphthalene',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'36(1)'"",
-        pages = ""'919-926'"",
-        year = ""'2017'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36(1)',
+        pages = '919-926',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1930,12 +2011,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.076e+11, 's^-1'), n=0.228, Ea=(6.982, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. M. Mebel'"", ""'Y. Georgievskii'"", ""'A. W. Jasper'"", ""'S. J. Klippenstein'""],
+        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
         title = 'Temperature- and pressure-dependent rate coefficients for the HACA pathways from benzene to naphthalene',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'36(1)'"",
-        pages = ""'919-926'"",
-        year = ""'2017'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36(1)',
+        pages = '919-926',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 5,
@@ -1953,12 +2034,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.018e+12, 's^-1'), n=0.05, Ea=(5.961, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191-9200',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -1974,12 +2055,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.307e+12, 's^-1'), n=0.256, Ea=(36.797, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191-9200',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -1995,12 +2076,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.89e+11, 's^-1'), n=0.12, Ea=(9.6, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2018,12 +2099,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.73e+11, 's^-1'), n=0.31, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2041,12 +2122,12 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4.14e+11, 's^-1'), n=0.34, Ea=(11.9, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2064,12 +2145,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.79e+11, 's^-1'), n=0.33, Ea=(10.5, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2087,12 +2168,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.42e+11, 's^-1'), n=0.22, Ea=(4.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2110,12 +2191,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.89e+11, 's^-1'), n=0.29, Ea=(15.4, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2133,12 +2214,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.51e+11, 's^-1'), n=0.58, Ea=(29.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2156,12 +2237,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.39e+10, 's^-1'), n=0.91, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2179,12 +2260,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.25e+09, 's^-1'), n=0.76, Ea=(6.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2202,12 +2283,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.43e+11, 's^-1'), n=0.21, Ea=(8.5, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2225,12 +2306,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.76e+10, 's^-1'), n=0.78, Ea=(24.5, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2248,12 +2329,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.02e+11, 's^-1'), n=0.85, Ea=(46.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2271,12 +2352,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.29e+09, 's^-1'), n=1.04, Ea=(31.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2294,12 +2375,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.47e+10, 's^-1'), n=0.79, Ea=(29, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2317,12 +2398,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.69e+11, 's^-1'), n=0.22, Ea=(40, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2340,12 +2421,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.9e+10, 's^-1'), n=0.29, Ea=(21.1, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2363,12 +2444,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.19e+11, 's^-1'), n=0.08, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2386,12 +2467,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.27e+10, 's^-1'), n=1.01, Ea=(40.7, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2409,12 +2490,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.48e+11, 's^-1'), n=0.26, Ea=(7.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2432,12 +2513,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.43e+12, 's^-1'), n=0.31, Ea=(18.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2455,12 +2536,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11, 's^-1'), n=0.41, Ea=(32.4, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2478,12 +2559,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.16e+10, 's^-1'), n=0.2, Ea=(24.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2501,12 +2582,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.38e+09, 's^-1'), n=1.08, Ea=(42.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2524,12 +2605,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.51e+11, 's^-1'), n=0.28, Ea=(12.9, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2547,12 +2628,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.75e+11, 's^-1'), n=0.44, Ea=(18.7, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2570,12 +2651,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.69e+11, 's^-1'), n=0.24, Ea=(4.6, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2593,12 +2674,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.21e+11, 's^-1'), n=0.46, Ea=(16.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2616,12 +2697,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.52e+11, 's^-1'), n=0.16, Ea=(10, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2639,12 +2720,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.56e+11, 's^-1'), n=0.55, Ea=(26.5, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2662,12 +2743,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.77e+10, 's^-1'), n=0.87, Ea=(35, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2685,12 +2766,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.17e+10, 's^-1'), n=0.34, Ea=(31.2, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2708,12 +2789,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.37e+11, 's^-1'), n=0.73, Ea=(25.5, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2731,12 +2812,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.01e+11, 's^-1'), n=0.59, Ea=(21.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2754,12 +2835,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.56e+10, 's^-1'), n=1.17, Ea=(48.6, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2777,12 +2858,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.12e+11, 's^-1'), n=0.26, Ea=(22.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2800,12 +2881,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.98e+11, 's^-1'), n=0.06, Ea=(19.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2823,12 +2904,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.29e+12, 's^-1'), n=0.15, Ea=(2.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2846,12 +2927,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.58e+12, 's^-1'), n=0.31, Ea=(16, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2869,12 +2950,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.41e+11, 's^-1'), n=0.2, Ea=(46.8, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2892,12 +2973,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.18e+11, 's^-1'), n=0.82, Ea=(22.4, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2915,12 +2996,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.95e+10, 's^-1'), n=1.05, Ea=(39.9, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2938,12 +3019,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.81e+10, 's^-1'), n=0.91, Ea=(32, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2961,12 +3042,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.11e+10, 's^-1'), n=0.18, Ea=(66.6, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -2984,12 +3065,12 @@ entry(
     degeneracy = 7.0,
     kinetics = Arrhenius(A=(1.56e+13, 's^-1'), n=0, Ea=(43.5, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3007,12 +3088,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.51e+10, 's^-1'), n=0.25, Ea=(4.6, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3030,12 +3111,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+12, 's^-1'), n=0.39, Ea=(16, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3053,12 +3134,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.25e+11, 's^-1'), n=0.16, Ea=(9.81, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3074,12 +3155,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.51e+12, 's^-1'), n=0.26, Ea=(25.25, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3095,12 +3176,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.85e+11, 's^-1'), n=0.49, Ea=(3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'A. J. Vervust'"", ""'M. R. Djokic'"", ""'S. S. Merchant'"", ""'H.-H. Carstensen'"", ""'A. E. Long'"", ""'G. B. Marin'"", ""'W. H. Green'"", ""'K. M. Van Geem'""],
+        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
         title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = ""'Energy & Fuels'"",
-        volume = ""'32(3)'"",
-        pages = ""'3920-3934'"",
-        year = ""'2018'"",
+        journal = 'Energy & Fuels',
+        volume = '32(3)',
+        pages = '3920-3934',
+        year = '2018',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3118,12 +3199,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.605e+12, 's^-1'), n=0.275, Ea=(32.899, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3139,12 +3220,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.631e+12, 's^-1'), n=0.216, Ea=(46.951, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3160,12 +3241,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.403e+13, 's^-1'), n=0.233, Ea=(17.146, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3181,12 +3262,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.114e+13, 's^-1'), n=0.256, Ea=(8.237, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3202,12 +3283,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+12, 's^-1'), n=0.14, Ea=(0.3, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3223,12 +3304,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.24e+12, 's^-1'), n=0.31, Ea=(3.62, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3244,12 +3325,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.98e+12, 's^-1'), n=0.5, Ea=(61, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3265,12 +3346,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+13, 's^-1'), n=0.15, Ea=(19.35, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -16965,12 +17046,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.782e+11, 's^-1'), n=0.287, Ea=(41.261, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
-        journal = "'J. Phys. Chem. A'",
-        volume = "'109 (27)'",
-        pages = """'6114-6127'""",
-        year = "'2005'",
+        journal = 'J. Phys. Chem. A',
+        volume = '109 (27)',
+        pages = '6114-6127',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -16988,12 +17069,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.503e+11, 's^-1'), n=0.221, Ea=(57.88, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
-        journal = "'J. Phys. Chem. A'",
-        volume = "'109 (27)'",
-        pages = """'6114-6127'""",
-        year = "'2005'",
+        journal = 'J. Phys. Chem. A',
+        volume = '109 (27)',
+        pages = '6114-6127',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -17011,12 +17092,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.615e+11, 's^-1'), n=0.385, Ea=(34.263, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
-        journal = "'J. Phys. Chem. A'",
-        volume = "'109 (27)'",
-        pages = """'6114-6127'""",
-        year = "'2005'",
+        journal = 'J. Phys. Chem. A',
+        volume = '109 (27)',
+        pages = '6114-6127',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -17034,12 +17115,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.989e+11, 's^-1'), n=0.18, Ea=(18.94, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
-        journal = "'J. Phys. Chem. A'",
-        volume = "'109 (27)'",
-        pages = """'6114-6127'""",
-        year = "'2005'",
+        journal = 'J. Phys. Chem. A',
+        volume = '109 (27)',
+        pages = '6114-6127',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -17057,12 +17138,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.649e+12, 's^-1'), n=0.287, Ea=(12.162, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
-        journal = "'J. Phys. Chem. A'",
-        volume = "'109 (27)'",
-        pages = """'6114-6127'""",
-        year = "'2005'",
+        journal = 'J. Phys. Chem. A',
+        volume = '109 (27)',
+        pages = '6114-6127',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -17080,12 +17161,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.07e+10, 's^-1'), n=0.124, Ea=(31.24, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17103,12 +17184,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.72e+09, 's^-1'), n=0.186, Ea=(13.33, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17126,12 +17207,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.22e+12, 's^-1'), n=-0.622, Ea=(34.15, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17149,12 +17230,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.77e+12, 's^-1'), n=-0.453, Ea=(17.94, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17172,12 +17253,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.85e+11, 's^-1'), n=0.753, Ea=(40.27, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17195,12 +17276,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.48e+11, 's^-1'), n=0.677, Ea=(36.92, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17231,12 +17312,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.71e+11, 's^-1'), n=0.748, Ea=(41.35, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17254,12 +17335,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.58e+12, 's^-1'), n=-0.292, Ea=(15.35, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17277,12 +17358,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.87e+12, 's^-1'), n=0.55, Ea=(38.89, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -17294,3 +17375,94 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 """,
 )
 
+entry(
+    index = 840,
+    label = "C12H17-55 <=> C12H17-56",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A=(29023.5, 's^-1'),
+        n=1.19861,
+        Ea=(27.5998, 'kJ/mol'),
+        T0=(1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Sarah Khanniche', 'Lawrence Lai', 'William H. Green'],
+        title = 'Kinetics of Intramolecular Phenyl Migration and Fused Ring Formation in Hexylbenzene Radicals',
+        journal = 'J. Phys. Chem. A.',
+        volume = '122 (51)',
+        pages = '9778-9791',
+        year = '2018',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for rad4 <=> EthyltetralinRad
+Level of Theory: CBS-QB3 with 1-D Hindered Rotors at B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
+""",
+)
+
+entry(
+    index = 841,
+    label = "C12H17-57 <=> C12H17-58",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.4489e+10, 's^-1'),
+        n = 1.22276,
+        Ea = (57.6245, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Sarah Khanniche', 'Lawrence Lai', 'William H. Green'],
+        title = 'Kinetics of Intramolecular Phenyl Migration and Fused Ring Formation in Hexylbenzene Radicals',
+        journal = 'J. Phys. Chem. A.',
+        volume = '122 (51)',
+        pages = '9778-9791',
+        year = '2018',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for rad3 <=> PropylindaneRad
+Level of Theory: CBS-QB3 with 1-D Hindered Rotors at B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
+""",
+)
+
+entry(
+    index = 842,
+    label = "C12H17-59 <=> C12H17-60",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (17725.7, 's^-1'),
+        n = 1.16281,
+        Ea = (42.1994, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ['Lawrence Lai', 'Hao-Wei Pang', 'William H. Green'],
+        title = 'Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis',
+        journal = 'Energy And Fuels',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for rad5 <=> methylbenzocyclohepteneRad
+Level of Theory: CBS-QB3 with 1-D Hindered Rotors at B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2019/
+""",
+)

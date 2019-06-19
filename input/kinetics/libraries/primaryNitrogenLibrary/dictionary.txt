@@ -73,11 +73,25 @@ N2H2
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
 
-H2NN
+H2NN(S)
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 N u0 p2 c-1 {1,D}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
+
+H2NN(T)
+multiplicity 3
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u2 p1 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+
+N2H2(T)
+multiplicity 3
+1 N u1 p1 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 N u1 p1 c0 {1,S} {4,S}
+4 H u0 p0 c0 {3,S}
 
 N2H3
 multiplicity 2
@@ -94,6 +108,14 @@ N2H4
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {2,S}
+
+NH3NH
+1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 N u0 p2 c-1 {1,S} {6,S}
+6 H u0 p0 c0 {5,S}
 
 NO
 multiplicity 2
@@ -290,6 +312,95 @@ NH2NHONO
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
 8 H u0 p0 c0 {2,S}
+
+NH2NHN
+1 N u0 p1 c0 {2,S} {5,S} {6,S}
+2 N u0 p0 c+1 {1,S} {3,S} {4,D}
+3 H u0 p0 c0 {2,S}
+4 N u0 p2 c-1 {2,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+
+NH2NNH
+1 N u0 p1 c0 {2,S} {4,S} {5,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 N u0 p1 c0 {2,D} {6,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+
+NHNHNH
+1 N u0 p2 c-1 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 N u0 p0 c+1 {1,S} {4,S} {5,D}
+4 H u0 p0 c0 {3,S}
+5 N u0 p1 c0 {3,D} {6,S}
+6 H u0 p0 c0 {5,S}
+
+cN3H3
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,S} {5,S}
+3 N u0 p1 c0 {1,S} {2,S} {6,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+
+N3
+1 N u0 p1 c0 {2,S} {4,S} {5,S}
+2 N u0 p1 c0 {1,S} {3,S} {6,S}
+3 N u0 p1 c0 {2,S} {7,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+
+N3c
+1 N u0 p1 c0 {2,S} {7,S} {8,S}
+2 N u0 p0 c+1 {1,S} {3,S} {4,S} {5,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {2,S}
+5 N u0 p2 c-1 {2,S} {6,S}
+6 H u0 p0 c0 {5,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {1,S}
+
+N4
+1  N u0 p1 c0 {2,S} {5,S} {6,S}
+2  N u0 p1 c0 {1,S} {3,S} {7,S}
+3  N u0 p1 c0 {2,S} {4,S} {8,S}
+4  N u0 p1 c0 {3,S} {9,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+
+N4c23
+1  N u0 p1 c0 {2,S} {7,S} {8,S}
+2  N u0 p0 c+1 {1,S} {3,S} {4,S} {5,S}
+3  H u0 p0 c0 {2,S}
+4  H u0 p0 c0 {2,S}
+5  N u0 p2 c-1 {2,S} {6,S}
+6  N u0 p1 c0 {5,S} {9,S} {10,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {6,S}
+
+N4c12
+1  N u0 p2 c-1 {2,S} {3,S}
+2  H u0 p0 c0 {1,S}
+3  N u0 p0 c+1 {1,S} {4,S} {5,S} {6,S}
+4  H u0 p0 c0 {3,S}
+5  H u0 p0 c0 {3,S}
+6  N u0 p1 c0 {3,S} {7,S} {8,S}
+7  N u0 p1 c0 {6,S} {9,S} {10,S}
+8  H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {7,S}
+10 H u0 p0 c0 {7,S}
+
 
 C(T)
 multiplicity 3
@@ -748,4 +859,3 @@ C2H5ONO
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
-

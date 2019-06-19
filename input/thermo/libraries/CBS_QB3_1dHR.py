@@ -2,15 +2,14 @@
 # encoding: utf-8
 
 name = "CBS_QB3_1dHR"
-shortDesc = u"calculated thermo for butanol using CBS_QB3 with 1d hindered rotor"
+shortDesc = u"calculated thermo using CBS_QB3 with 1d hindered rotor"
 longDesc = u"""
-These calculations were done by MRH using CBS_QB3 with 1d hindered rotor
+These calculations were done by MRH (unless otherwise noted) using CBS_QB3 with 1d hindered rotor
 
-
-The species thermochemistry was calculated using CanTherm.  The CBS-QB3 method
-was used to calculate the ZPE and optimized geometry.  The frequencies were
+The species thermochemistry was calculated using CanTherm. The CBS-QB3 method
+was used to calculate the ZPE and optimized geometry. The frequencies were
 calculated using DFT, using the B3LYP/CBSB7 basis set, and then scaled by 0.99
-as suggested by Petersson et al.  The 1-d separable hindered rotor
+as suggested by Petersson et al. The 1-d separable hindered rotor
 approximation was used for all low-frequency internal rotor modes.
 Bond-additivity corrections were used to calculate the reported Hf298.
 
@@ -1415,6 +1414,90 @@ multiplicity 2
     longDesc = 
 u"""
 
+""",
+)
+entry(
+    index = 43,
+    label = "AIBN",
+    molecule =
+"""
+1  N u0 p1 c0 {2,D} {5,S}
+2  N u0 p1 c0 {1,D} {6,S}
+3  N u0 p1 c0 {11,T}
+4  N u0 p1 c0 {12,T}
+5  C u0 p0 c0 {1,S} {7,S} {8,S} {11,S}
+6  C u0 p0 c0 {2,S} {9,S} {10,S} {12,S}
+7  C u0 p0 c0 {5,S} {13,S} {14,S} {15,S}
+8  C u0 p0 c0 {5,S} {16,S} {17,S} {18,S}
+9  C u0 p0 c0 {6,S} {19,S} {20,S} {21,S}
+10 C u0 p0 c0 {6,S} {22,S} {23,S} {24,S}
+11 C u0 p0 c0 {3,T} {5,S}
+12 C u0 p0 c0 {4,T} {6,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {8,S}
+17 H u0 p0 c0 {8,S}
+18 H u0 p0 c0 {8,S}
+19 H u0 p0 c0 {9,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {9,S}
+22 H u0 p0 c0 {10,S}
+23 H u0 p0 c0 {10,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.57296,0.130115,-0.000234418,3.05419e-07,-1.68032e-10,32086.3,16.7784], Tmin=(10,'K'), Tmax=(504.597,'K')),
+            NASAPolynomial(coeffs=[7.66068,0.0784795,-4.73157e-05,1.38218e-08,-1.56338e-12,31716.8,-2.86081], Tmin=(504.597,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (266.702,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (557.07,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Composite method: cbs-qb3 (using a fine grid)
+Frequencies:      b3lyp/cbsb7
+Rotor scans:      b3lyp/cbsb7
+
+Bond corrections: {'N=N': 1, 'C-N': 2, 'C#N': 2, 'C-C': 6, 'C-H': 12}
+
+Pivots of considered 1D rotors: [1, 5] ,[2, 6] ,[5, 7] ,[5, 8] ,[6, 9] ,[6, 10]
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+N       0.43620300   -0.16213600    0.39977000
+N      -0.43609600    0.16200900   -0.39967300
+N       3.47047000   -1.53123100    0.03196200
+N      -3.46996200    1.53150000   -0.03036300
+C       1.77826200    0.47460500    0.12212700
+C      -1.77820800   -0.47465200   -0.12199900
+C       2.06997600    1.34762500    1.36001200
+C       1.86126100    1.27708200   -1.18253100
+C      -1.86100900   -1.27778400    1.18227200
+C      -2.07041800   -1.34697300   -1.36024900
+C       2.72158400   -0.65672400    0.08094100
+C      -2.72128800    0.65684600   -0.07998100
+H       3.08053300    1.75482400    1.30309300
+H       1.97462700    0.76131600    2.27429700
+H       1.35568300    2.17301000    1.39068400
+H       1.63043300    0.65189300   -2.04518700
+H       2.86999700    1.67776300   -1.29694300
+H       1.14801100    2.10104700   -1.15797500
+H      -1.14806900   -2.10199900    1.15698900
+H      -2.86984100   -1.67817400    1.29685000
+H      -1.62961800   -0.65314800    2.04517300
+H      -1.35626800   -2.17245900   -1.39156500
+H      -3.08102200   -1.75404500   -1.30325100
+H      -1.97523500   -0.76020200   -2.27425500
 """,
 )
 

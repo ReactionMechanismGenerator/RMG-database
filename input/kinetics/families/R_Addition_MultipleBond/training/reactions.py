@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 name = "R_Addition_MultipleBond/training"
-shortDesc = u"Kinetics used to train group additivity values"
+shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
-Put kinetic parameters for reactions to use as a training set for fitting
-group additivity values in this file.
+Put kinetic parameters for specific reactions in this file to use as a
+training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 0,
@@ -20,12 +20,12 @@ entry(
         Tmax = (493, 'K'),
     ),
     reference = Article(
-        authors = [""'Garcia Dominguez, J.A.'"", ""'Trotman-Dickenson, A.F.'""],
+        authors = ['Garcia Dominguez, J.A.', 'Trotman-Dickenson, A.F.'],
         title = 'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals',
-        journal = ""'J. Chem. Soc.'"",
-        pages = ""'940-944'"",
-        year = ""'1962'"",
-        url = ""'http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:1'"",
+        journal = 'J. Chem. Soc.',
+        pages = '940-944',
+        year = '1962',
+        url = 'http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:1',
     ),
     rank = 10,
     longDesc = 
@@ -50,12 +50,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'J. W. Allen'"", ""'C. F. Goldsmith'"", ""'W. H. Green'""],
+        authors = ['J. W. Allen', 'C. F. Goldsmith', 'W. H. Green'],
         title = 'Automatic Estimation of Pressure-Dependent Rate Coefficients',
-        journal = ""'Phys. Chem. Chem. Phys.'"",
-        volume = ""'???'"",
-        pages = ""'???-???'"",
-        year = ""'2011 (accepted)'"",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '???',
+        pages = '???-???',
+        year = '2011 (accepted)',
     ),
     referenceType = "theory",
     rank = 10,
@@ -103,12 +103,12 @@ entry(
         Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'Wang, K.'"", ""'Villano, S.M.'"", ""'Dean, A.M.'""],
+        authors = ['Wang, K.', 'Villano, S.M.', 'Dean, A.M.'],
         title = 'Reactions of allylic radicals that impact molecular weight growth kinetics',
-        journal = ""'PCCP'"",
-        pages = ""'6255-6273'"",
-        year = ""'2015'"",
-        url = ""'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G'"",
+        journal = 'PCCP',
+        pages = '6255-6273',
+        year = '2015',
+        url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
     longDesc = 
@@ -132,12 +132,12 @@ entry(
         Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'Wang, K.'"", ""'Villano, S.M.'"", ""'Dean, A.M.'""],
+        authors = ['Wang, K.', 'Villano, S.M.', 'Dean, A.M.'],
         title = 'Reactions of allylic radicals that impact molecular weight growth kinetics',
-        journal = ""'PCCP'"",
-        pages = ""'6255-6273'"",
-        year = ""'2015'"",
-        url = ""'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G'"",
+        journal = 'PCCP',
+        pages = '6255-6273',
+        year = '2015',
+        url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
     longDesc = 
@@ -161,12 +161,12 @@ entry(
         Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'Wang, K.'"", ""'Villano, S.M.'"", ""'Dean, A.M.'""],
+        authors = ['Wang, K.', 'Villano, S.M.', 'Dean, A.M.'],
         title = 'Reactions of allylic radicals that impact molecular weight growth kinetics',
-        journal = ""'PCCP'"",
-        pages = ""'6255-6273'"",
-        year = ""'2015'"",
-        url = ""'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G'"",
+        journal = 'PCCP',
+        pages = '6255-6273',
+        year = '2015',
+        url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
     longDesc = 
@@ -190,12 +190,12 @@ entry(
         Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'Wang, K.'"", ""'Villano, S.M.'"", ""'Dean, A.M.'""],
+        authors = ['Wang, K.', 'Villano, S.M.', 'Dean, A.M.'],
         title = 'Reactions of allylic radicals that impact molecular weight growth kinetics',
-        journal = ""'PCCP'"",
-        pages = ""'6255-6273'"",
-        year = ""'2015'"",
-        url = ""'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G'"",
+        journal = 'PCCP',
+        pages = '6255-6273',
+        year = '2015',
+        url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
     longDesc = 
@@ -219,12 +219,12 @@ entry(
         Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'Wang, K.'"", ""'Villano, S.M.'"", ""'Dean, A.M.'""],
+        authors = ['Wang, K.', 'Villano, S.M.', 'Dean, A.M.'],
         title = 'Reactions of allylic radicals that impact molecular weight growth kinetics',
-        journal = ""'PCCP'"",
-        pages = ""'6255-6273'"",
-        year = ""'2015'"",
-        url = ""'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G'"",
+        journal = 'PCCP',
+        pages = '6255-6273',
+        year = '2015',
+        url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
     longDesc = 
@@ -248,12 +248,12 @@ entry(
         Tmax = (2500, 'K'),
     ),
     reference = Article(
-        authors = [""'Wang, K.'"", ""'Villano, S.M.'"", ""'Dean, A.M.'""],
+        authors = ['Wang, K.', 'Villano, S.M.', 'Dean, A.M.'],
         title = 'Reactions of allylic radicals that impact molecular weight growth kinetics',
-        journal = ""'PCCP'"",
-        pages = ""'6255-6273'"",
-        year = ""'2015'"",
-        url = ""'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G'"",
+        journal = 'PCCP',
+        pages = '6255-6273',
+        year = '2015',
+        url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
     longDesc = 
@@ -529,12 +529,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -550,12 +550,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.16e+10, 's^-1'), n=1.24, Ea=(65.98, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -571,12 +571,12 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(42, 'cm^3/(mol*s)'), n=3.27, Ea=(11, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -1081,12 +1081,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191-9200',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -1107,12 +1107,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191-9200',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -1133,12 +1133,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191-9200',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -1159,12 +1159,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191-9200',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -1185,12 +1185,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Krasnoukhov, V. S.'"", ""'Porfiriev, D. P.'"", ""'Zavershinskiy, I. P.'"", ""'Azyazov, V. N.'"", ""'Mebel, A. M.'""],
+        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
         title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'121 (48)'"",
-        pages = ""'9191-9200'"",
-        year = ""'2017'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '121 (48)',
+        pages = '9191-9200',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3097,12 +3097,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Senosiain, J. P.'"", ""'Klippenstein, S. J.'"", ""'Miller, J. A.'""],
+        authors = ['Senosiain, J. P.', 'Klippenstein, S. J.', 'Miller, J. A.'],
         title = 'Pathways and Rate Coefficients for the Decomposition of Vinoxy and Acetyl Radicals',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'110 (17)'"",
-        pages = ""'5772-5781'"",
-        year = ""'2006'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (17)',
+        pages = '5772-5781',
+        year = '2006',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3123,12 +3123,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Senosiain, J. P.'"", ""'Klippenstein, S. J.'"", ""'Miller, J. A.'""],
+        authors = ['Senosiain, J. P.', 'Klippenstein, S. J.', 'Miller, J. A.'],
         title = 'Pathways and Rate Coefficients for the Decomposition of Vinoxy and Acetyl Radicals',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'110 (17)'"",
-        pages = ""'5772-5781'"",
-        year = ""'2006'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (17)',
+        pages = '5772-5781',
+        year = '2006',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3144,12 +3144,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.43e+15, 's^-1'), n=-0.15, Ea=(190834, 'J/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Senosiain, J. P.'"", ""'Klippenstein, S. J.'"", ""'Miller, J. A.'""],
+        authors = ['Senosiain, J. P.', 'Klippenstein, S. J.', 'Miller, J. A.'],
         title = 'Pathways and Rate Coefficients for the Decomposition of Vinoxy and Acetyl Radicals',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'110 (17)'"",
-        pages = ""'5772-5781'"",
-        year = ""'2006'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110 (17)',
+        pages = '5772-5781',
+        year = '2006',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3170,12 +3170,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Klippenstein, S. J.'"", ""'Miller, J. A.'""],
+        authors = ['Klippenstein, S. J.', 'Miller, J. A.'],
         title = 'The Addition of Hydrogen Atoms to Diacetylene and the Heats of Formation of i-C4H3 and n-C4H3',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'109 (19)'"",
-        pages = ""'4285-4295'"",
-        year = ""'2005'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '109 (19)',
+        pages = '4285-4295',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3197,12 +3197,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Klippenstein, S. J.'"", ""'Miller, J. A.'""],
+        authors = ['Klippenstein, S. J.', 'Miller, J. A.'],
         title = 'The Addition of Hydrogen Atoms to Diacetylene and the Heats of Formation of i-C4H3 and n-C4H3',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'109 (19)'"",
-        pages = ""'4285-4295'"",
-        year = ""'2005'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '109 (19)',
+        pages = '4285-4295',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3224,12 +3224,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3250,12 +3250,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3276,12 +3276,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3302,12 +3302,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3328,12 +3328,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3354,12 +3354,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3380,12 +3380,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3406,12 +3406,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3432,12 +3432,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3453,12 +3453,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.385e+09, 's^-1'), n=1.347, Ea=(37.909, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3474,12 +3474,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.905e+11, 's^-1'), n=0.877, Ea=(54.203, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3495,12 +3495,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.575e+11, 's^-1'), n=0.753, Ea=(57.151, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3516,12 +3516,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.976e+12, 's^-1'), n=0.79, Ea=(47.629, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3537,12 +3537,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.502e+09, 's^-1'), n=1.257, Ea=(39.226, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3558,12 +3558,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.898e+14, 's^-1'), n=0.366, Ea=(45.569, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3579,12 +3579,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.345e+09, 's^-1'), n=1.312, Ea=(45.774, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3600,12 +3600,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.727e+09, 's^-1'), n=1.411, Ea=(56.058, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3621,12 +3621,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.246e+09, 's^-1'), n=1.319, Ea=(35.573, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Ribeiro, J. M.'"", ""'Mebel, A. M.'""],
+        authors = ['Ribeiro, J. M.', 'Mebel, A. M.'],
         title = 'Reaction mechanism and product branching ratios of the CH + C3H4 reactions: a theoretical study',
-        journal = ""'Physical Chemistry Chemical Physics'"",
-        volume = ""'19 (22)'"",
-        pages = ""'14543-14554'"",
-        year = ""'2017'"",
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19 (22)',
+        pages = '14543-14554',
+        year = '2017',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3642,12 +3642,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.977e+09, 's^-1'), n=1.37, Ea=(41.408, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Zador, J.'"", ""'Miller, J. A.'""],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'35 (1)'"",
-        pages = ""'181-188'"",
-        year = ""'2015'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3663,12 +3663,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.022e+12, 's^-1'), n=0.577, Ea=(41.055, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'Zador, J.'"", ""'Miller, J. A.'""],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'35 (1)'"",
-        pages = ""'181-188'"",
-        year = ""'2015'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3689,12 +3689,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Zador, J.'"", ""'Miller, J. A.'""],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'35 (1)'"",
-        pages = ""'181-188'"",
-        year = ""'2015'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3715,12 +3715,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Zador, J.'"", ""'Miller, J. A.'""],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'35 (1)'"",
-        pages = ""'181-188'"",
-        year = ""'2015'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3741,12 +3741,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Zador, J.'"", ""'Miller, J. A.'""],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'35 (1)'"",
-        pages = ""'181-188'"",
-        year = ""'2015'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3767,12 +3767,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Zador, J.'"", ""'Miller, J. A.'""],
+        authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
-        journal = ""'Proceedings of the Combustion Institute'"",
-        volume = ""'35 (1)'"",
-        pages = ""'181-188'"",
-        year = ""'2015'"",
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '35 (1)',
+        pages = '181-188',
+        year = '2015',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3788,12 +3788,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.06e+10, 's^-1'), n=1.16, Ea=(26.18, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3809,12 +3809,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.02e+13, 's^-1'), n=0.34, Ea=(46.7, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
-        authors = [""'da Silva, G.'"", ""'Cole, J. A.'"", ""'Bozzelli, J. W.'""],
+        authors = ['da Silva, G.', 'Cole, J. A.', 'Bozzelli, J. W.'],
         title = 'Kinetics of the Cyclopentadienyl + Acetylene, Fulvenallene + H, and 1-Ethynylcyclopentadiene + H Reactions',
-        journal = ""'The Journal of Physical Chemistry A'"",
-        volume = ""'114 (6)'"",
-        pages = ""'2275-2283'"",
-        year = ""'2010'"",
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '114 (6)',
+        pages = '2275-2283',
+        year = '2010',
     ),
     referenceType = "theory",
     rank = 4,
@@ -3835,12 +3835,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Bao, J. L.'"", ""'Zheng, J.'"", ""'Truhlar, D. G.'""],
+        authors = ['Bao, J. L.', 'Zheng, J.', 'Truhlar, D. G.'],
         title = 'Kinetics of Hydrogen Radical Reactions with Toluene Including Chemical Activation Theory Employing System-Specific Quantum RRK Theory Calibrated by Variational Transition State Theory',
-        journal = ""'Journal of the American Chemical Society'"",
-        volume = ""'138 (8)'"",
-        pages = ""'2690-2704'"",
-        year = ""'2016'"",
+        journal = 'Journal of the American Chemical Society',
+        volume = '138 (8)',
+        pages = '2690-2704',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -3861,12 +3861,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = [""'Bao, J. L.'"", ""'Zheng, J.'"", ""'Truhlar, D. G.'""],
+        authors = ['Bao, J. L.', 'Zheng, J.', 'Truhlar, D. G.'],
         title = 'Kinetics of Hydrogen Radical Reactions with Toluene Including Chemical Activation Theory Employing System-Specific Quantum RRK Theory Calibrated by Variational Transition State Theory',
-        journal = ""'Journal of the American Chemical Society'"",
-        volume = ""'138 (8)'"",
-        pages = ""'2690-2704'"",
-        year = ""'2016'"",
+        journal = 'Journal of the American Chemical Society',
+        volume = '138 (8)',
+        pages = '2690-2704',
+        year = '2016',
     ),
     referenceType = "theory",
     rank = 5,
@@ -56994,12 +56994,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
-        journal = "'J. Phys. Chem. A'",
-        volume = "'109 (27)'",
-        pages = """'6114-6127'""",
-        year = "'2005'",
+        journal = 'J. Phys. Chem. A',
+        volume = '109 (27)',
+        pages = '6114-6127',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -57022,12 +57022,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'I. V. Tokmakov'", "'G. Kim'", "'V. V. Kislov'", "'A. M. Mebel'", "'M. C. Lin'"],
+        authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
-        journal = "'J. Phys. Chem. A'",
-        volume = "'109 (27)'",
-        pages = """'6114-6127'""",
-        year = "'2005'",
+        journal = 'J. Phys. Chem. A',
+        volume = '109 (27)',
+        pages = '6114-6127',
+        year = '2005',
     ),
     referenceType = "theory",
     rank = 5,
@@ -57050,12 +57050,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57078,12 +57078,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57106,12 +57106,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57134,12 +57134,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57162,12 +57162,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57190,12 +57190,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57218,12 +57218,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57246,12 +57246,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57274,12 +57274,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57302,12 +57302,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57330,12 +57330,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57358,12 +57358,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57386,12 +57386,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57414,12 +57414,12 @@ entry(
         T0 = (1, 'K'),
     ),
     reference = Article(
-        authors = ["'Gabriel da Silva'", "'Adam J. Trevittb'"],
+        authors = ['Gabriel da Silva', 'Adam J. Trevittb'],
         title = 'Chemically activated reactions on the C7H5 energy surface: propargyl+diacetylene, i-C5H3+acetylene, and n-C5H3+acetylene',
-        journal = "'Phys. Chem. Chem. Phys.'",
-        volume = "'13 (19)'",
-        pages = """'8940-8952'""",
-        year = "'2011'",
+        journal = 'Phys. Chem. Chem. Phys.',
+        volume = '13 (19)',
+        pages = '8940-8952',
+        year = '2011',
     ),
     referenceType = "theory",   
     rank = 5,
@@ -57431,3 +57431,553 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 """,
 )
 
+entry(
+    index = 2868,
+    label = "C12H16-1 + H <=> C12H17-63",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.11555e+07, 'cm^3/(mol*s)'),
+        n = 1.68908,
+        Ea = (2.8054, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethyltetralin + H <=> EthyltetralinRad
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2869,
+    label = "C12H16-2 + H <=> C12H17-64",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.05357e+08, 'cm^3/(mol*s)'),
+        n = 1.45722,
+        Ea = (22.2904, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Propylindane + H <=> PropylindaneRad
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2870,
+    label = "C12H14-3 + H <=> C12H15-74",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.11555e+07, 'cm^3/(mol*s)'),
+        n = 1.68908,
+        Ea = (2.8054, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for PropylindeneFar + HRad <=> PropylindeneRadFar
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2871,
+    label = "C12H14-4 + H <=> C12H15-75",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.49151e+09, 'cm^3/(mol*s)'),
+        n = 1.41481,
+        Ea = (8.0185, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for EthylDihydronaphthaleneFar + HRad <=> EthylDihydronaphthaleneRadFar
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2872,
+    label = "C12H14-5 + H <=> C12H15-76",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.09054e+09, 'cm^3/(mol*s)'),
+        n = 1.09894,
+        Ea = (14.5058, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for EthylDihydronaphthaleneNear + HRad <=> EthylDihydronaphthaleneRadNear
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2873,
+    label = "C12H12-5 + H <=> C12H13-53",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.15411e+09, 'cm^3/(mol*s)'),
+        n = 1.29523,
+        Ea = (13.7245, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadFar
+Level of Theory: CBS-QB3
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2874,
+    label = "C12H12-6 + H <=> C12H13-54",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.74269e+09, 'cm^3/(mol*s)'),
+        n = 1.2919,
+        Ea = (18.5634, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadFar2
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2875,
+    label = "C12H12-7 + H <=> C12H13-55",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.30484e+08, 'cm^3/(mol*s)'),
+        n = 1.57158,
+        Ea = (16.2141, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadNear
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2876,
+    label = "C12H12-8 + H <=> C12H13-56",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.84923e+08, 'cm^3/(mol*s)'),
+        n = 1.49476,
+        Ea = (14.68, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadNear2
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2877,
+    label = "C7H8-27 + C2H5 <=> C9H13-76",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1781.88, 'cm^3/(mol*s)'),
+        n = 2.58533,
+        Ea = (34.9048, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C(C)=CC=C1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2878,
+    label = "C7H8-13 + C2H5 <=> C9H13-77",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1048.1, 'cm^3/(mol*s)'),
+        n = 2.63245,
+        Ea = (32.101, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C=CC=C1C
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2879,
+    label = "C7H8-29 + C2H5 <=> C9H13-78",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (565.91, 'cm^3/(mol*s)'),
+        n = 2.65082,
+        Ea = (38.2927, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C=C(C)C=C1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2880,
+    label = "C7H8-5 + C2H5 <=> C9H13-79",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (22.0765, 'cm^3/(mol*s)'),
+        n = 2.98911,
+        Ea = (37.4992, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1(C)[CH]C=CC=C1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2881,
+    label = "C7H8-27 + C7H7-3 <=> C14H15-40",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (333.522, 'cm^3/(mol*s)'),
+        n = 2.81143,
+        Ea = (52.4195, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1[CH]C(C=CC=1)Cc1ccccc1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2882,
+    label = "C7H8-13 + C7H7-3 <=> C14H15-41",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (75.2016, 'cm^3/(mol*s)'),
+        n = 2.87538,
+        Ea = (47.3967, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1=CC=C[CH]C1Cc1ccccc1
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2883,
+    label = "C7H8-29 + C7H7-3 <=> C14H15-42",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (203.185, 'cm^3/(mol*s)'),
+        n = 2.7789,
+        Ea = (51.957, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1C=CC([CH]C=1)Cc1ccccc1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2884,
+    label = "C7H8-5 + C7H7-3 <=> C14H15-43",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.0143, 'cm^3/(mol*s)'),
+        n = 3.28044,
+        Ea = (49.7678, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1([CH]C=CC=C1)Cc1ccccc1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2885,
+    label = "C7H8-27 + C8H9 <=> C15H17-45",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (6.36177, 'cm^3/(mol*s)'),
+        n = 3.21235,
+        Ea = (47.2354, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1=CC=C[CH]C1C(C)c1ccccc1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2886,
+    label = "C7H8-13 + C8H9 <=> C15H17-46",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (9.9686, 'cm^3/(mol*s)'),
+        n = 3.05153,
+        Ea = (47.5686, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1[CH]C(C=CC=1)C(C)c1ccccc1
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2887,
+    label = "C7H8-29 + C8H9 <=> C15H17-47",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.8336, 'cm^3/(mol*s)'),
+        n = 3.1834,
+        Ea = (47.5562, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1C=CC([CH]C=1)C(C)c1ccccc1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2888,
+    label = "C7H8-5 + C8H9 <=> C15H17-48",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0289968, 'cm^3/(mol*s)'),
+        n = 3.67504,
+        Ea = (50.8048, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC(c1ccccc1)C1(C)[CH]C=CC=C1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2889,
+    label = "C6H5 + C8H10-7 <=> C14H15-44",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.05685, 'cm^3/(mol*s)'),
+        n = 3.09388,
+        Ea = (8.15269, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ['Lawrence Lai', 'Hao-Wei Pang', 'William H. Green'],
+        title = 'Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis',
+        journal = 'Energy And Fuels',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
+    longDesc = 
+u"""
+Location of calculations Pharos/home/laitcl/Gaussian/2019/
+Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
+Reaction: C1=CC=CC=[C]1 (Phenyl Radical) + CCC1C=CC=CC=1 (Ethylbenzene) <=> C1=CC=C(C=C1)C(CC)1C=CC=C[CH]1
+""",
+)
+
+entry(
+    index = 2890,
+    label = "C2H5 + C12H10-3 <=> C14H15-55",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (103.514, 'cm^3/(mol*s)'),
+        n = 2.90893,
+        Ea = (44.9425, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = Article(
+        authors = ['Lawrence Lai', 'Hao-Wei Pang', 'William H. Green'],
+        title = 'Formation of 2-Ring Aromatics in Hexylbenzene Pyrolysis',
+        journal = 'Energy And Fuels',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
+    longDesc = 
+u"""
+Location of calculations Pharos/home/laitcl/Gaussian/2019/
+Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
+Reaction: C[CH2] (Ethyl Radical) + C1=CC=C(C=C1)C1C=CC=CC=1 (Biphenyl) <=> C1=CC=C(C=C1)C(CC)1C=CC=C[CH]1
+""",
+)
+
+entry(
+    index = 2891,
+    label = "C6H6-2 + CH3 <=> C7H9-72",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (126531, 'cm^3/(mol*s)'),
+        n = 2.32659,
+        Ea = (42.0038, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
+    longDesc = 
+u"""
+Location of calculations Pharos/home/laitcl/Gaussian/2019/
+Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
+Reaction: Benzene + Methyl Radical <=> CC1[CH]C=CC=C1
+""",
+)
