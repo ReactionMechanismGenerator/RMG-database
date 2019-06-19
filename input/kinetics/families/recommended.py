@@ -57,7 +57,7 @@ default = {
     '6_membered_central_C-C_shift',
     'Intra_R_Add_Exo_scission',
     '1,2_shiftC',
-    'XY_Addition_DoubleBond'
+    'XY_Addition_DoubleBond',
     '1,2_NH3_elimination',
     '1,3_NH3_elimination',
 }
