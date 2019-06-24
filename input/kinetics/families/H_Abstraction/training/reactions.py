@@ -2036,7 +2036,7 @@ T > 830 K
 
 entry(
     index = 75,
-    label = "S_rad + HSS_r12 <=> SH_p1 + S2_p1",
+    label = "S_rad + HSS_r12 <=> SH_p23 + S2_p1",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.17e+06, 'cm^3/(mol*s)'),
