@@ -15967,7 +15967,7 @@ u"""
 """,
 )
 
- entry(
+entry(
      index = 767,
      label = "H + CH4O-2 <=> H2 + CH3O-2",
      degeneracy = 1.0,
