@@ -1240,24 +1240,6 @@ More information can be found on pharos ~laitcl/Gaussian/2017/Kinetics
 )
 
 entry(
-    index = 76,
-    label = "C9H11-1 <=> C8H8 + CH3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.59e+12, 's^-1'),
-        n = 0.733,
-        Ea = (35.918, 'kcal/mol'),
-        T0 = (1, 'K'),
-        comment = 'From 2012 Kislov',
-    ),
-    rank = 10,
-    longDesc = 
-u"""
-Originally from reaction library: From 2012 Kislov
-""",
-)
-
-entry(
     index = 77,
     label = "C9H11-3 <=> C2H4 + C7H7-3",
     degeneracy = 1.0,
@@ -1564,19 +1546,6 @@ Taken from entry: i10 <=> p4 + H
 )
 
 entry(
-    index = 97,
-    label = "C9H11-3 <=> C2H4 + C7H7-3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.39e+09, 's^-1'), n=1.1, Ea=(22.881, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
-u"""
-Taken from entry: i4 <=> benzyl + C2H4
-""",
-)
-
-entry(
     index = 98,
     label = "C7H8-5 + H <=> C7H9-9",
     degeneracy = 1.0,
@@ -1591,19 +1560,6 @@ entry(
     longDesc = 
 u"""
 Taken from entry: C6H5CH3 + H <=> ipso-(C7H9)
-""",
-)
-
-entry(
-    index = 99,
-    label = "C7H9-8 <=> C6H6-2 + CH3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.831e+11, 's^-1'), n=0.669, Ea=(19.862, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: 2001_Tokmakov_H_Toluene_to_CH3_Benzene_high_P""",
-    longDesc = 
-u"""
-Taken from entry: ipso-(C7H9) <=> C6H6 + CH3
 """,
 )
 
@@ -2786,37 +2742,6 @@ entry(
     longDesc = 
 u"""
 Taken from entry: benzene_1 + methyl_7 <=> C7H9_12
-""",
-)
-
-entry(
-    index = 178,
-    label = "C7H9-9 <=> C7H8-5 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.217e+10, 's^-1'), n=0.87, Ea=(25.199, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
-u"""
-Taken from entry: C7H9_12 <=> C7H8_17 + H_15
-""",
-)
-
-entry(
-    index = 179,
-    label = "C2H2 + C7H7-3 <=> C9H9-5",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (31630, 'cm^3/(mol*s)'),
-        n = 2.479,
-        Ea = (11.061, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
-u"""
-Taken from entry: C7H7_10 + ethyne_8 <=> C9H9_13
 """,
 )
 
@@ -44898,26 +44823,6 @@ Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CdCdCs
 )
 
 entry(
-    index = 2262,
-    label = "C2H2 + C7H7-3 <=> C9H9-5",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (65600, 'cm^3/(mol*s)'),
-        n = 2.41,
-        Ea = (44.9362, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CbHH
-""",
-)
-
-entry(
     index = 2263,
     label = "C2H2 + C8H9 <=> C10H11-50",
     degeneracy = 2.0,
@@ -45014,26 +44919,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CtCsCs
-""",
-)
-
-entry(
-    index = 2268,
-    label = "C2H2 + C2H3 <=> C4H5-8",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (91600, 'cm^3/(mol*s)'),
-        n = 2.41,
-        Ea = (12.301, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-H_Ct-H;CdsJ-H
 """,
 )
 
@@ -50598,26 +50483,6 @@ Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;HJ
 )
 
 entry(
-    index = 2547,
-    label = "H + C4H4 <=> C4H5-9",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.23e+08, 'cm^3/(mol*s)'),
-        n = 1.64,
-        Ea = (-0.8368, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Cds-HH_Cds-CtH;HJ
-""",
-)
-
-entry(
     index = 2548,
     label = "H + C5H6-3 <=> C5H7-15",
     degeneracy = 1.0,
@@ -52034,26 +51899,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;HJ
-""",
-)
-
-entry(
-    index = 2619,
-    label = "H + C4H4-4 <=> C4H5-11",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.49e+08, 'cm^3/(mol*s)'),
-        n = 1.64,
-        Ea = (10.9202, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Cds-CtH_Cds-HH;HJ
 """,
 )
 
@@ -53638,46 +53483,6 @@ Converted to training reaction from rate rule: Ct-H_Ct-Cs;HJ
 )
 
 entry(
-    index = 2699,
-    label = "H + C4H4-3 <=> C4H5-6",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.7e+08, 'cm^3/(mol*s)'),
-        n = 1.64,
-        Ea = (6.86176, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-H_Ct-Cd;HJ
-""",
-)
-
-entry(
-    index = 2700,
-    label = "H + C4H2 <=> C4H3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (8.48e+09, 'cm^3/(mol*s)'),
-        n = 1.64,
-        Ea = (6.19232, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-H_Ct-Ct;HJ
-""",
-)
-
-entry(
     index = 2701,
     label = "H + C3H4-4 <=> C3H5-5",
     degeneracy = 1.0,
@@ -53754,26 +53559,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;HJ
-""",
-)
-
-entry(
-    index = 2705,
-    label = "H + C4H4-2 <=> C4H5-7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.62e+08, 'cm^3/(mol*s)'),
-        n = 1.64,
-        Ea = (14.7277, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-Cd_Ct-H;HJ
 """,
 )
 
