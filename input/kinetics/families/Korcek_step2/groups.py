@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["C1(R)(H)(O(OC3(OH)(R'))C2)"], products=["C1(R)(O)(C2)", "C3(OH)(O)(R')"], ownReverse=False)
 
 reverse = "none"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*6'],
     ['BREAK_BOND', '*4', 1, '*5'],
@@ -47,3 +47,4 @@ tree(
 L1: C1(R)(H)(O(OC3(OH)(R'))C2)
 """
 )
+

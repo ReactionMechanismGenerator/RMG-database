@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2H4O <=> C2H4O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -28,7 +28,7 @@ Converted to training reaction from rate rule: R_ROSR;R1_doublebond;R2_doublebon
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C4H8O <=> C4H8O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -48,7 +48,7 @@ Converted to training reaction from rate rule: R_ROR;R1_doublebond_CH2;R2_double
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C2H4O <=> C2H4O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -68,7 +68,7 @@ Converted to training reaction from rate rule: R_ROR;R1_doublebond_CH2;R2_double
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "CH2OS <=> CH2OS",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -88,7 +88,7 @@ Converted to training reaction from rate rule: R_ROR;R1_doublebond_S;R2_doublebo
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C2H4OS <=> C2H4OS",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -108,7 +108,7 @@ Converted to training reaction from rate rule: R_ROR;R1_doublebond_S;R2_doublebo
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C3H6OS <=> C3H6OS",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -128,7 +128,7 @@ Converted to training reaction from rate rule: R_ROR;R1_doublebond_S;R2_doublebo
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C3H6O <=> C3H6O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -151,7 +151,7 @@ Converted to training reaction from rate rule: R_ROR;R1_doublebond_CH2;R2_double
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C3H6O <=> C3H6O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(

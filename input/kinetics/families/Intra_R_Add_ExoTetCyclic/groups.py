@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["R1_rad_R2_R3"], products=["R1_R2_Cycle", "R3_rad"], ownReverse=False)
 
 reverse = "Ring_Open_Rad_Addition"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*2', 1, '*3'],
     ['FORM_BOND', '*1', 1, '*2'],

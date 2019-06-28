@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C8H12 <=> C8H12-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -39,7 +39,7 @@ Converted to training reaction from rate rule: R6_SSSDS;C_rad_out_H/OneDe;Cpri_r
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C4H8 <=> C4H8-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -67,7 +67,7 @@ Converted to training reaction from rate rule: R4_SSS;C_rad_out_2H;Cpri_rad_out_
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C5H10 <=> C5H10-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -97,7 +97,7 @@ Converted to training reaction from rate rule: R5_SSSS;C_rad_out_2H;Cpri_rad_out
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C6H12 <=> C6H12-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -117,7 +117,7 @@ Converted to training reaction from rate rule: R6_SSSSS;C_rad_out_2H;Cpri_rad_ou
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CH2S2 <=> CH2S2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(

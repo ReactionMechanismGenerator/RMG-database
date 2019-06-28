@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "CH4O + C4H8 <=> C5H12O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -28,7 +28,7 @@ Converted to training reaction from rate rule: Cd/H2_Cd/Nd2;H_OCmethyl
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "CH4O + C3H6 <=> C4H10O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -48,7 +48,7 @@ Converted to training reaction from rate rule: Cd/H2_Cd/H/Nd;H_OCmethyl
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "CH4O + C2H4 <=> C3H8O",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -68,7 +68,7 @@ Converted to training reaction from rate rule: Cd/unsub_Cd/unsub;H_OCmethyl
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "H2O + C2H2O <=> C2H4O2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -88,7 +88,7 @@ Converted to training reaction from rate rule: cco_2H;H_OH
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "H2O + C3H4O <=> C3H6O2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -108,7 +108,7 @@ Converted to training reaction from rate rule: cco_HNd;H_OH
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "H2O + C4H6O <=> C4H8O2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -128,7 +128,7 @@ Converted to training reaction from rate rule: cco_Nd2;H_OH
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "H2O + C2H4 <=> C2H6O",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -148,7 +148,7 @@ Converted to training reaction from rate rule: Cd/unsub_Cd/unsub;H_OH
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "H2O + C3H6-2 <=> C3H8O-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -168,7 +168,7 @@ Converted to training reaction from rate rule: Cd/H/Nd_Cd/H2;H_OH
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "H2O + C3H6 <=> C3H8O-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -188,7 +188,7 @@ Converted to training reaction from rate rule: Cd/H2_Cd/H/Nd;H_OH
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "H2O + C4H8 <=> C4H10O-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -208,7 +208,7 @@ Converted to training reaction from rate rule: Cd/H2_Cd/Nd2;H_OH
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "H2O + CH2S <=> CH4OS",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -228,7 +228,7 @@ Converted to training reaction from rate rule: Sd_Cd/unsub;H_OH
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "H2O + C2H4S <=> C2H6OS",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -248,7 +248,7 @@ Converted to training reaction from rate rule: Sd_Cd/H/Nd;H_OH
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "H2O + C4H4S <=> C4H6OS",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -268,7 +268,7 @@ Converted to training reaction from rate rule: Thiophene2;H_OH
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "H2O + C4H4S-2 <=> C4H6OS-2",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -288,7 +288,7 @@ Converted to training reaction from rate rule: Thiophene3;H_OH
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "H2O + C7H6S <=> C7H8OS",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -308,7 +308,7 @@ Converted to training reaction from rate rule: Sd_Cd/H/Cb;H_OH
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "H2O + C3H6S <=> C3H8OS",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -328,7 +328,7 @@ Converted to training reaction from rate rule: Sd_Cd/CsCs;H_OH
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "H2O + C4H8-2 <=> C4H10O-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -347,7 +347,7 @@ Converted to training reaction from rate rule: Cd/Nd2_Cd/H2;H_OH
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "H2O + C4H6 <=> C4H8O",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -370,7 +370,7 @@ Converted to training reaction from rate rule: Cd/H/De_Cd/H2;H_OH
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "CH4O-2 + C2H4 <=> C3H8O-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -392,7 +392,7 @@ Converted to training reaction from rate rule: Cd/unsub_Cd/unsub;CH3OH
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "H2O + C2H4OS <=> C2H6O2S",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -412,7 +412,7 @@ Converted to training reaction from rate rule: Sd_Cd/CsOs;H_OH
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "H2O + COS <=> CH2O2S",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -432,7 +432,7 @@ Converted to training reaction from rate rule: Sd_Cdd/O2d;H_OH
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "H2O + C3H4S <=> C3H6OS",
     degeneracy = 2.0,
     kinetics = Arrhenius(

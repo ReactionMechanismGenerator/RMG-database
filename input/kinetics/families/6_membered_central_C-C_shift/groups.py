@@ -13,6 +13,7 @@ J. Phys. Chem. A 2003, 107, 7783-7799.
 template(reactants=["1_5_unsaturated_hexane"], products=["1_5_unsaturated_hexane"], ownReverse=True)
 
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*3', 1, '*4'],
     ['CHANGE_BOND', '*1', -1, '*2'],

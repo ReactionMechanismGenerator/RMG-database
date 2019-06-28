@@ -7,15 +7,14 @@ longDesc = u"""
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
-
 entry(
-    index = 1,
+    index = 0,
     label = "C2H5NO2 <=> C2H5ONO",
-    degeneracy = 1,
-    rank = 8,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+10, 's^-1'), n=1, Ea=(60660, 'cal/mol'), T0=(1, 'K')),
+    rank = 8,
     shortDesc = u"""From kinetic library NOx2018""",
-    longDesc =
+    longDesc = 
 u"""
 Ea calculation at B3LYP/6-31+G(d) is taken from:
 Q. Wang., D. Ng, M.S. Mannan, Ind. Eng. Chem. Res. 2009, 48(18), 8745-8751, doi: 10.1021/ie900849n
@@ -28,3 +27,4 @@ Volume 67, July 2018, Pages 31-68
 https://doi.org/10.1016/j.pecs.2018.01.002
 """,
 )
+

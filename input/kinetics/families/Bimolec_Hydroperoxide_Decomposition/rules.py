@@ -10,7 +10,7 @@ entry(
     index = 0,
     label = "ROOH;ROOH",
     kinetics = ArrheniusEP(
-        A = (1.096e5, 'm^3/(mol*s)'),
+        A = (109600, 'm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (96.1, 'kJ/mol'),
@@ -19,8 +19,5 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc =
-u"""
-
-""",
 )
+

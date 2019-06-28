@@ -12,8 +12,8 @@ This family consists of these three transitions only, and cannot be generalized 
 template(reactants=["singlet"], products=["triplet"], ownReverse=False)
 
 reverse = "None"
-
 reversible = False
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['GAIN_RADICAL', '*1', '1'],

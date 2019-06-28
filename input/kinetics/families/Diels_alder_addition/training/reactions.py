@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C4H6 + C2H4 <=> C6H10",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -28,7 +28,7 @@ Converted to training reaction from rate rule: diene_out;diene_in;ene
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C4H6-2 + C4H6 <=> C8H12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -55,7 +55,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C4H6-3 + C4H6 <=> C8H12-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -82,7 +82,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C5H8 + C4H6 <=> C9H14",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -107,7 +107,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C5H8-2 + C4H6 <=> C9H14-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -132,7 +132,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C5H8-3 + C2H4 <=> C7H12",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -157,7 +157,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_HN
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C2H4 + C5H8-4 <=> C7H12-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -184,7 +184,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_Nd
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C4H6-3 + C5H8-3 <=> C9H14-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -209,7 +209,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_HN
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "C4H6-2 + C5H8-4 <=> C9H14-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -234,7 +234,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_Nd
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C2H4 + C6H10-2 <=> C8H14",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -259,7 +259,7 @@ Converted to training reaction from rate rule: diene_monosubNd_monosubNd_out;die
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "C3H6 + C6H10-2 <=> C9H16",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -284,7 +284,7 @@ Converted to training reaction from rate rule: diene_monosubNd_monosubNd_out;die
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "C3H6-2 + C6H10-2 <=> C9H16-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -309,7 +309,7 @@ Converted to training reaction from rate rule: diene_monosubNd_monosubNd_out;die
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "C4H6-2 + C6H10-2 <=> C10H16",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -334,7 +334,7 @@ Converted to training reaction from rate rule: diene_monosubNd_monosubNd_out;die
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "C4H6-3 + C6H10-2 <=> C10H16-2",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -359,7 +359,7 @@ Converted to training reaction from rate rule: diene_monosubNd_monosubNd_out;die
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "C5H8 + C6H10-2 <=> C11H18",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -384,7 +384,7 @@ Converted to training reaction from rate rule: diene_monosubNd_monosubNd_out;die
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "C5H8-2 + C6H10-2 <=> C11H18-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -409,7 +409,7 @@ Converted to training reaction from rate rule: diene_monosubNd_monosubNd_out;die
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "C7H10 + C4H8 <=> C11H18-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -429,7 +429,7 @@ Converted to training reaction from rate rule: diene_5ring_Nd_Nd_out;diene_in_2H
 )
 
 entry(
-    index = 18,
+    index = 17,
     label = "C3H4 + C4H6 <=> C7H10-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -449,7 +449,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "C3H4-2 + C4H6 <=> C7H10-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(

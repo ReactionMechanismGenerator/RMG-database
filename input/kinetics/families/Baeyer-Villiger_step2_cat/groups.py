@@ -10,6 +10,7 @@ longDesc = u"""
 template(reactants=["criegee", "acid"], products=["ester", "alcohol", "acid2"], ownReverse=False)
 
 reverse = "none"
+reversible = True
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
@@ -25,9 +26,9 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "criegee",
-    group =
+    group = 
 """
 1 *1 C     u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 [C,H] u0 {1,S}
@@ -42,9 +43,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "acid",
-    group =
+    group = 
 """
 1     R u0 {2,S}
 2 *7  C u0 {1,S} {3,D} {4,S}
@@ -56,9 +57,9 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "6_membered_ring",
-    group =
+    group = 
 """
 1  *1 C     u0 {2,S} {3,S} {7,S} {8,S}
 2  *2 [C,H] u0 {1,S} {4,[S,D,T,B]}
@@ -85,7 +86,7 @@ L1: acid
 
 forbidden(
     label = "peracid_criegee",
-    group =
+    group = 
 """
 1  *1 C     u0 {2,S} {3,S} {4,S} {5,S}
 2  *2 [C,H] u0 {1,S}
@@ -99,7 +100,7 @@ forbidden(
 10 *4 H     u0 {4,S}
 """,
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
 This structure should react via Baeyer-Villiger_step2
 """,

@@ -10,6 +10,7 @@ longDesc = u"""
 template(reactants=["ROOH", "ROOH"], products=["ROOrad", "ROrad", "H2O"], ownReverse=False)
 
 reverse = "Peroxyl_alkoxy_association"
+reversible = True
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
@@ -20,9 +21,9 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "ROOH",
-    group =
+    group = 
 """
 1    R u0 {2,S}
 2 *1 O u0 {1,S} {3,S}
@@ -33,9 +34,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C_sec_OOH",
-    group =
+    group = 
 """
 1    C   u0 {2,S} {5,S} {6,S} {7,S}
 2 *1 O   u0 {1,S} {3,S}
@@ -49,9 +50,9 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "ringOOH",
-    group =
+    group = 
 """
 1     C   u0 {2,S} {5,S} {6,S} {10,S}
 2  *1 O   u0 {1,S} {3,S}
@@ -68,9 +69,9 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C_ter_OOH",
-    group =
+    group = 
 """
 1    C   u0 {2,S} {5,S} {6,S} {7,S}
 2 *1 O   u0 {1,S} {3,S}
@@ -84,9 +85,9 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "R/ringOOH",
-    group =
+    group = 
 """
 1     C   u0 {2,S} {5,S} {6,S} {10,S}
 2  *1 O   u0 {1,S} {3,S}
@@ -103,9 +104,9 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "R2/R/R_OOH",
-    group =
+    group = 
 """
 1    C   u0 {2,S} {5,S} {6,S} {7,S}
 2 *1 O   u0 {1,S} {3,S}
@@ -129,3 +130,4 @@ L1: ROOH
         L3: R2/R/R_OOH
 """
 )
+

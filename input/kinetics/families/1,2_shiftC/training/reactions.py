@@ -77,11 +77,10 @@ entry(
     longDesc = 
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
-The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
 where only 1500, 2000, 2500 K rates were reported.
 """,
 )
-
 
 entry(
     index = 5,
@@ -96,7 +95,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -119,7 +118,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""

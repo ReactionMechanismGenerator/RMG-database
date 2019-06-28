@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["1,3-butadiene_backbone"], products=["unsaturated_four_ring"], ownReverse=False)
 
 reverse = "Four_Ring_Open"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],

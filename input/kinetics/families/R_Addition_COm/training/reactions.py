@@ -166,7 +166,7 @@ Converted to training reaction from rate rule: COm;H_rad
 )
 
 entry(
-    index = 7,
+    index = 5,
     label = "C2H3 + CO <=> C3H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -205,7 +205,7 @@ Converted to training reaction from rate rule: COm;Cd_pri_rad
 )
 
 entry(
-    index = 8,
+    index = 6,
     label = "C6H5 + CO <=> C7H5O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -290,7 +290,7 @@ Converted to training reaction from rate rule: COm;Cb_rad
 )
 
 entry(
-    index = 9,
+    index = 7,
     label = "CH3O + CO <=> C2H3O2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -324,7 +324,7 @@ Converted to training reaction from rate rule: COm;O_rad/NonDe
 )
 
 entry(
-    index = 10,
+    index = 8,
     label = "C2H5 + CO <=> C3H5O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -352,7 +352,7 @@ Converted to training reaction from rate rule: COm;CH2CH3
 )
 
 entry(
-    index = 11,
+    index = 9,
     label = "C3H7 + CO <=> C4H7O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -380,7 +380,7 @@ Converted to training reaction from rate rule: COm;CH2CH2CH3
 )
 
 entry(
-    index = 12,
+    index = 10,
     label = "C3H7-2 + CO <=> C4H7O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -408,7 +408,7 @@ Converted to training reaction from rate rule: COm;CH(CH3)2
 )
 
 entry(
-    index = 13,
+    index = 11,
     label = "CH3S + CO <=> C2H3OS",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -428,7 +428,7 @@ Converted to training reaction from rate rule: COm;S_rad/NonDe
 )
 
 entry(
-    index = 14,
+    index = 12,
     label = "C5H5O + CO <=> C6H5O2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -450,7 +450,7 @@ entry(
     longDesc = 
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
-The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
 where only 1500, 2000, 2500 K rates were reported.
 """,
 )

@@ -10,6 +10,7 @@ longDesc = u"""
 template(reactants=["RCH(OOH)CH2C(O)R'", "R''C(O)OH"], products=["cyclic_peroxide", "RC(O)OH"], ownReverse=False)
 
 reverse = "cyclic_peroxide_ringopening"
+reversible = True
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
@@ -23,9 +24,9 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "RCH(OOH)CH2C(O)R'",
-    group =
+    group = 
 """
 1     C u0 {2,S} {4,S} {7,S} {9,S}
 2     C u0 {1,S} {3,S} {11,S} {12,S}
@@ -44,15 +45,15 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "R''C(O)OH",
-    group =
+    group = 
 """
-1  *5 C u0 {2,D} {3,S} {5,S}
-2  *6 O u0 {1,D}
-3  *7 O u0 {1,S}, {4,S}
-4  *8 H u0 {3,S}
-5     R u0 {1,S}
+1 *5 C u0 {2,D} {3,S} {5,S}
+2 *6 O u0 {1,D}
+3 *7 O u0 {1,S} {4,S}
+4 *8 H u0 {3,S}
+5    R u0 {1,S}
 """,
     kinetics = None,
 )
@@ -63,3 +64,4 @@ L1: RCH(OOH)CH2C(O)R'
 L1: R''C(O)OH
 """
 )
+

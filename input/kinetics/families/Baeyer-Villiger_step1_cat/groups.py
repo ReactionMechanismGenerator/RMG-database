@@ -10,6 +10,7 @@ longDesc = u"""
 template(reactants=["ketone", "hydroperoxide", "acid"], products=["criegee", "acid2"], ownReverse=False)
 
 reverse = "none"
+reversible = True
 
 recipe(actions=[
     ['BREAK_BOND', '*3', 1, '*4'],
@@ -19,13 +20,13 @@ recipe(actions=[
     ['CHANGE_BOND', '*5', 1, '*7'],
     ['FORM_BOND', '*1', 1, '*3'],
     ['FORM_BOND', '*2', 1, '*8'],
-    ['FORM_BOND', '*4', 1, '*6']
+    ['FORM_BOND', '*4', 1, '*6'],
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "ketone",
-    group =
+    group = 
 """
 1 *1 C     u0 {2,D} {3,S} {4,S}
 2 *2 O     u0 {1,D}
@@ -36,9 +37,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "hydroperoxide",
-    group =
+    group = 
 """
 1    R u0 {2,S}
 2    O u0 {1,S} {3,S}
@@ -49,9 +50,9 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "acid",
-    group =
+    group = 
 """
 1    R u0 {2,S}
 2 *5 C u0 {1,S} {3,D} {4,S}
@@ -63,25 +64,25 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "6_membered_ring",
-    group =
+    group = 
 """
-1 *1 C   u0 {2,D} {4,S} {8,S}
+1 *1 C   u0 {2,D} {3,S} {7,S}
 2 *2 O   u0 {1,D}
-4    C   u0 {1,S} {5,[S,D,T,B]}
+3    C   u0 {1,S} {4,[S,D,T,B]}
+4    R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
 5    R!H u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
 6    R!H u0 {5,[S,D,T,B]} {7,[S,D,T,B]}
-7    R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
-8    C   u0 {1,S} {7,[S,D,T,B]}
+7    C   u0 {1,S} {6,[S,D,T,B]}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "peracid",
-    group =
+    group = 
 """
 1    R u0 {2,S}
 2    C u0 {1,S} {3,D} {4,S}

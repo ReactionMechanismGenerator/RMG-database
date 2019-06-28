@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "CH2 + C2H4 <=> C3H6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -28,7 +28,7 @@ Converted to training reaction from rate rule: carbene;mb_db_unsub
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C2H4 + O <=> C2H4O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -50,7 +50,7 @@ Converted to training reaction from rate rule: o_atom_singlet;mb_db_unsub
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C3H6-2 + O <=> C3H6O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -72,7 +72,7 @@ Converted to training reaction from rate rule: o_atom_singlet;mb_db_monosub_Nd
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C4H8 + O <=> C4H8O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -97,7 +97,7 @@ Converted to training reaction from rate rule: o_atom_singlet;mb_db_onecdisub_Nd
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C4H8-2 + O <=> C4H8O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -121,7 +121,7 @@ Converted to training reaction from rate rule: o_atom_singlet;mb_db_twocdisub_Nd
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C6H12 + O <=> C6H12O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -145,7 +145,7 @@ Converted to training reaction from rate rule: o_atom_singlet;mb_db_tetrasub_Nd
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "CH2 + C2H2 <=> C3H4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -157,16 +157,17 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Polino et al. J. Phys. Chem. A 2013, 117, 12677−12692.""",
+    shortDesc = u"""Polino et al. J. Phys. Chem. A 2013, 117, 1267712692.
+""",
     longDesc = 
 u"""
 Daniela Polino, Stephen J. Klippenstein, Lawrence B. Harding, and Yuri Georgievskii,Predictive Theory for the Addition and Insertion Kinetics of 1CH2
-Reacting with Unsaturated Hydrocarbons, J. Phys. Chem. A 2013, 117, 12677−12692.
+Reacting with Unsaturated Hydrocarbons, J. Phys. Chem. A 2013, 117, 1267712692.
 """,
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "CH2 + C3H4-2 <=> C4H6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -186,7 +187,7 @@ Converted to training reaction from rate rule: carbene;mb_tb_monosub_Nd
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CH2 + C3H6-2 <=> C4H8-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -206,7 +207,7 @@ Converted to training reaction from rate rule: carbene;mb_db_monosub_Nd
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CH2 + C3H4-3 <=> C4H6-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -226,7 +227,7 @@ Converted to training reaction from rate rule: carbene;mb_db_dbSub
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CH2 + C4H6-3 <=> C5H8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -246,7 +247,7 @@ Converted to training reaction from rate rule: carbene;mb_tb_disub_twoNd
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CH2 + C4H6-4 <=> C5H8-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(

@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["RNO2"], products=["RONO"], ownReverse=False)
 
 reverse = "intra_ONO_NO2_migration"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],

@@ -13,8 +13,8 @@ J. Phys. Chem. A 2003, 107, 7783-7799.
 template(reactants=["1_3_hexadien_5_yne"], products=["unsaturated_singlet_carbene_cyclohexane"], ownReverse=False)
 
 reverse = "Concerted_Retro_Intra_Diels_alder_monocyclic_singlet_carbene_disproportionation"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],

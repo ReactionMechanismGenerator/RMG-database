@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "CH2O + C2H3O <=> C3H5O2",
     degeneracy = 1.0,
     kinetics = Arrhenius(

@@ -12,6 +12,7 @@ Could possibly be generalized to include  1,2-methyl shift from an Oxygen to Car
 template(reactants=["cCCJ"], products=["cCCJ"], ownReverse=True)
 
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -95,6 +96,20 @@ entry(
 
 entry(
     index = 6,
+    label = "cCs(-HC)CJ",
+    group = 
+"""
+1 *1 C  u0 c0 {2,S}
+2 *2 Cs u0 {1,S} {3,S} {4,S} {5,S}
+3 *3 C  u1 {2,S}
+4    H  u0 {2,S}
+5    C  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
     label = "cCs(-R!HR!H)CJ",
     group = 
 """
@@ -108,7 +123,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 8,
     label = "cCdCJ",
     group = 
 """
@@ -120,7 +135,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 9,
     label = "CdsJ",
     group = 
 """
@@ -131,7 +146,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 10,
     label = "CsJ",
     group = 
 """
@@ -143,7 +158,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 11,
     label = "CsJ-HH",
     group = 
 """
@@ -155,7 +170,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 12,
     label = "CsJ-CsH",
     group = 
 """
@@ -167,7 +182,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 13,
     label = "CsJ-CsCs",
     group = 
 """
@@ -179,7 +194,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 14,
     label = "CsJ-SsH",
     group = 
 """
@@ -191,7 +206,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 15,
     label = "CsJ-SsSs",
     group = 
 """
@@ -203,7 +218,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 16,
     label = "CsJ-CsSs",
     group = 
 """
@@ -215,7 +230,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 17,
     label = "CsJ-TwoDe",
     group = 
 """
@@ -227,7 +242,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 18,
     label = "CsJ-CdCd",
     group = 
 """
@@ -239,7 +254,7 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 19,
     label = "CsJ-OneDe",
     group = 
 """
@@ -251,7 +266,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 20,
     label = "CsJ-OneDeH",
     group = 
 """
@@ -263,7 +278,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 21,
     label = "CsJ-(CdCdCd)H",
     group = 
 """
@@ -277,7 +292,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 22,
     label = "CsJ-CdH",
     group = 
 """
@@ -289,7 +304,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 23,
     label = "CsJ-OneDeCs",
     group = 
 """
@@ -301,7 +316,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 24,
     label = "CsJ-CdCs",
     group = 
 """
@@ -313,7 +328,7 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 25,
     label = "CsJ-OneDeSs",
     group = 
 """
@@ -325,7 +340,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 26,
     label = "CsJ-CdSs",
     group = 
 """
@@ -337,7 +352,7 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 27,
     label = "CH3",
     group = 
 """
@@ -345,20 +360,6 @@ entry(
 2    H u0 {1,S}
 3    H u0 {1,S}
 4    H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 27,
-    label = "cCs(-HC)CJ",
-    group = 
-"""
-1 *1 C   u0 c0 {2,S}
-2 *2 Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3 *3 C   u1 {2,S}
-4    H   u0 {2,S}
-5    C   u0 {2,S}
 """,
     kinetics = None,
 )
@@ -418,5 +419,4 @@ L1: C
         L3: CO_O
 """
 )
-
 

@@ -20,7 +20,6 @@ atom labeling:
 template(reactants=["NNHNH2"], products=["NN", "NH3"], ownReverse=False)
 
 reverse = "1,2_NH3_addition"
-
 reversible = True
 
 recipe(actions=[
@@ -35,11 +34,11 @@ recipe(actions=[
 entry(
     index = 0,
     label = "NNHNH2",
-    group =
+    group = 
 """
 1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
-2 *2 N u0 px cx {1,S} {4,S} {3,[S,D]}
-3 *3 N u0 px cx {2,[S,D]}
+2 *2 N u0 {1,S} {3,[S,D]} {4,S}
+3 *3 N u0 {2,[S,D]}
 4 *4 H u0 p0 c0 {2,S}
 5    H u0 p0 c0 {1,S}
 6    H u0 p0 c0 {1,S}
@@ -50,10 +49,10 @@ entry(
 entry(
     index = 1,
     label = "non_charged",
-    group =
+    group = 
 """
 1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
-2 *2 N u0 p1 c0 {1,S} {4,S} {3,S}
+2 *2 N u0 p1 c0 {1,S} {3,S} {4,S}
 3 *3 N u0 p1 c0 {2,S}
 4 *4 H u0 p0 c0 {2,S}
 5    H u0 p0 c0 {1,S}
@@ -63,62 +62,62 @@ entry(
 )
 
 entry(
-    index = 1,
+    index = 2,
     label = "non_charged4",
-    group =
+    group = 
 """
 1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
-2 *2 N u0 p1 c0 {1,S} {4,S} {3,S}
+2 *2 N u0 p1 c0 {1,S} {3,S} {4,S}
 3 *3 N u0 p1 c0 {2,S} {7,S}
 4 *4 H u0 p0 c0 {2,S}
 5    H u0 p0 c0 {1,S}
 6    H u0 p0 c0 {1,S}
-7    N ux px cx {3,S}
+7    N ux {3,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 1,
+    index = 3,
     label = "charged",
-    group =
+    group = 
 """
-1 *1 N u0 p1 c0  {2,S} {5,S} {6,S}
-2 *2 N u0 p0 c+1 {1,S} {4,S} {3,[S,D]}
+1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
+2 *2 N u0 p0 c+1 {1,S} {3,[S,D]} {4,S}
 3 *3 N u0 p2 c-1 {2,[S,D]}
-4 *4 H u0 p0 c0  {2,S}
-5    H u0 p0 c0  {1,S}
-6    H u0 p0 c0  {1,S}
+4 *4 H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 1,
+    index = 4,
     label = "chargedS",
-    group =
+    group = 
 """
-1 *1 N u0 p1 c0  {2,S} {5,S} {6,S}
-2 *2 N u0 p0 c+1 {1,S} {4,S} {3,S}
+1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
+2 *2 N u0 p0 c+1 {1,S} {3,S} {4,S}
 3 *3 N u0 p2 c-1 {2,S}
-4 *4 H u0 p0 c0  {2,S}
-5    H u0 p0 c0  {1,S}
-6    H u0 p0 c0  {1,S}
+4 *4 H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 1,
+    index = 5,
     label = "chargedD",
-    group =
+    group = 
 """
-1 *1 N u0 p1 c0  {2,S} {5,S} {6,S}
-2 *2 N u0 p0 c+1 {1,S} {4,S} {3,D}
+1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
+2 *2 N u0 p0 c+1 {1,S} {3,D} {4,S}
 3 *3 N u0 p2 c-1 {2,D}
-4 *4 H u0 p0 c0  {2,S}
-5    H u0 p0 c0  {1,S}
-6    H u0 p0 c0  {1,S}
+4 *4 H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
 """,
     kinetics = None,
 )
@@ -133,3 +132,4 @@ L1: NNHNH2
         L3: chargedD
 """
 )
+

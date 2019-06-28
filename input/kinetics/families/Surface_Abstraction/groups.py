@@ -18,17 +18,19 @@ so k should be in (m2/mol/s)
 
 template(reactants=["Abstracting", "Donating"], products=["Abstracting", "Donating"], ownReverse=True)
 
+reversible = True
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*3', 1, '*4'],
     ['CHANGE_BOND', '*1', -1, '*2'],
-    ['CHANGE_BOND', '*3', +1, '*5'],
+    ['CHANGE_BOND', '*3', 1, '*5'],
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "Abstracting",
-    group =
+    group = 
 """
 1 *1 R!H ux {2,[D,T,Q]}
 2 *2 Xo  u0 {1,[D,T,Q]}
@@ -37,62 +39,62 @@ entry(
 )
 
 entry(
-    index = 2,
-    label="Donating",
-    group =
+    index = 1,
+    label = "Donating",
+    group = 
 """
 1 *4 R   ux {2,S}
 2 *3 R!H ux {1,S} {3,[S,D,T]}
-3 *5 Xo  u0       {2,[S,D,T]}
+3 *5 Xo  u0 {2,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2,
+    label = "R-H",
+    group = 
+"""
+1 *4 H   ux {2,S}
+2 *3 R!H ux {1,S} {3,[S,D,T]}
+3 *5 Xo  u0 {2,[S,D,T]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 3,
-    label="R-H",
-    group =
+    label = "R-O",
+    group = 
 """
-1 *4 H   ux {2,S}
+1 *4 O   ux {2,S}
 2 *3 R!H ux {1,S} {3,[S,D,T]}
-3 *5 Xo  u0       {2,[S,D,T]}
+3 *5 Xo  u0 {2,[S,D,T]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 4,
-    label="R-O",
-    group =
-"""
-1 *4 O   ux {2,S}
-2 *3 R!H ux {1,S} {3,[S,D,T]}
-3 *5 Xo  u0       {2,[S,D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 5,
-    label="R-OH",
-    group =
+    label = "R-OH",
+    group = 
 """
 1 *4 O   ux {2,S} {4,S}
 2 *3 R!H ux {1,S} {3,[S,D,T]}
-3 *5 Xo  u0       {2,[S,D,T]}
+3 *5 Xo  u0 {2,[S,D,T]}
 4    H   u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 6,
-    label="R-C",
-    group =
+    index = 5,
+    label = "R-C",
+    group = 
 """
 1 *4 C   ux {2,S}
 2 *3 R!H ux {1,S} {3,[S,D,T]}
-3 *5 Xo  u0       {2,[S,D,T]}
+3 *5 Xo  u0 {2,[S,D,T]}
 """,
     kinetics = None,
 )
@@ -107,3 +109,4 @@ L1: Donating
     L2: R-C
 """
 )
+

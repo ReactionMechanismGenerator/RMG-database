@@ -19,6 +19,7 @@ so k should be in (m4/mol2/s)
 template(reactants=["Combined", "VacantSite1", "VacantSite2"], products=["Adsorbate1", "Adsorbate2"], ownReverse=False)
 
 reverse = "Surface_Bidentate_Association"
+reversible = True
 
 recipe(actions=[
     ['FORM_BOND', '*2', 1, '*5'],
@@ -28,9 +29,9 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "Combined",
-    group =
+    group = 
 """
 1 *1 R!H u0 {2,[D,T]} {4,[S,D]}
 2 *2 R!H u0 {1,[D,T]} {3,S}
@@ -41,9 +42,9 @@ entry(
 )
 
 entry(
-    index = 2,
-    label="VacantSite1",
-    group =
+    index = 1,
+    label = "VacantSite1",
+    group = 
 """
 1 *5 Xv u0
 """,
@@ -52,21 +53,19 @@ entry(
 
 entry(
     index = 2,
-    label="VacantSite2",
-    group =
+    label = "VacantSite2",
+    group = 
 """
 1 *6 Xv u0
 """,
     kinetics = None,
 )
 
-
 tree(
 """
 L1: Combined
-
 L1: VacantSite1
-
 L1: VacantSite2
 """
 )
+

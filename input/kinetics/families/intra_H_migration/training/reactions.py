@@ -299,7 +299,7 @@ Taken from entry: product44 <=> product41
 )
 
 entry(
-    index = 19,
+    index = 18,
     label = "C5H5 <=> C5H5-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.15e+10, 's^-1'), n=0.98, Ea=(26.9, 'kcal/mol'), T0=(1, 'K')),
@@ -312,7 +312,7 @@ Taken from entry: prod_24 <=> CPDyl
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "C6H7 <=> C6H7-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.71e+10, 's^-1'), n=1.01, Ea=(27.8, 'kcal/mol'), T0=(1, 'K')),
@@ -325,7 +325,7 @@ Taken from entry: prod_26 <=> meCPDyl
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "C6H7-3 <=> C6H7-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+10, 's^-1'), n=1.01, Ea=(28.2, 'kcal/mol'), T0=(1, 'K')),
@@ -338,7 +338,7 @@ Taken from entry: prod_28 <=> meCPDyl
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "C6H7-5 <=> C6H7-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.24e+09, 's^-1'), n=1.12, Ea=(39.4, 'kcal/mol'), T0=(1, 'K')),
@@ -351,7 +351,7 @@ Taken from entry: prod_30 <=> prod_33
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "C10H11 <=> C10H11-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.107, 's^-1'), n=3.67, Ea=(29.6, 'kcal/mol'), T0=(1, 'K')),
@@ -364,7 +364,7 @@ Taken from entry: pdt14 <=> pdt20
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "C10H11-3 <=> C10H11-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(250000, 's^-1'), n=1.95, Ea=(24, 'kcal/mol'), T0=(1, 'K')),
@@ -377,7 +377,7 @@ Taken from entry: pdt18 <=> pdt25
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "C10H11-5 <=> C10H11-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.59e+08, 's^-1'), n=1.01, Ea=(26.4, 'kcal/mol'), T0=(1, 'K')),
@@ -390,7 +390,7 @@ Taken from entry: pdt16 <=> pdt20
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "C10H11-7 <=> C10H11-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.67e+09, 's^-1'), n=1.14, Ea=(22.4, 'kcal/mol'), T0=(1, 'K')),
@@ -403,7 +403,7 @@ Taken from entry: pdt28 <=> pdt29
 )
 
 entry(
-    index = 27,
+    index = 26,
     label = "C10H11-9 <=> C10H11-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.46e+07, 's^-1'), n=1.66, Ea=(31.6, 'kcal/mol'), T0=(1, 'K')),
@@ -416,7 +416,7 @@ Taken from entry: pdt28 <=> pdt23
 )
 
 entry(
-    index = 28,
+    index = 27,
     label = "C10H11-11 <=> C10H11-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.83e+08, 's^-1'), n=1.45, Ea=(31.9, 'kcal/mol'), T0=(1, 'K')),
@@ -429,7 +429,7 @@ Taken from entry: pdt10bis <=> pdt37
 )
 
 entry(
-    index = 29,
+    index = 28,
     label = "C10H11-13 <=> C10H11-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.36e+06, 's^-1'), n=1.7, Ea=(31.7, 'kcal/mol'), T0=(1, 'K')),
@@ -442,7 +442,7 @@ Taken from entry: adductd <=> pdt55
 )
 
 entry(
-    index = 30,
+    index = 29,
     label = "C10H11-15 <=> C10H11-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.78e+06, 's^-1'), n=1.75, Ea=(25.3, 'kcal/mol'), T0=(1, 'K')),
@@ -455,7 +455,7 @@ Taken from entry: pdt15 <=> pdt55
 )
 
 entry(
-    index = 31,
+    index = 30,
     label = "C10H11-17 <=> C10H11-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.04e+07, 's^-1'), n=1.61, Ea=(27.1, 'kcal/mol'), T0=(1, 'K')),
@@ -468,7 +468,7 @@ Taken from entry: pdt58 <=> pdt20
 )
 
 entry(
-    index = 32,
+    index = 31,
     label = "C6H7-8 <=> C6H7-7",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.107e+09, 's^-1'), n=0.879, Ea=(22.386, 'kcal/mol'), T0=(1, 'K')),
@@ -489,7 +489,7 @@ CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 )
 
 entry(
-    index = 33,
+    index = 32,
     label = "C9H11 <=> C9H11-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.68e-11, 's^-1'), n=6.833, Ea=(28.023, 'kcal/mol'), T0=(1, 'K')),
@@ -502,7 +502,7 @@ Taken from entry: i1 <=> i4
 )
 
 entry(
-    index = 34,
+    index = 33,
     label = "C9H11-3 <=> C9H11-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.842e-10, 's^-1'), n=6.38, Ea=(25.872, 'kcal/mol'), T0=(1, 'K')),
@@ -515,7 +515,7 @@ Taken from entry: i1 <=> i7
 )
 
 entry(
-    index = 35,
+    index = 34,
     label = "C9H11-5 <=> C9H11-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.414e-06, 's^-1'), n=5.188, Ea=(22.253, 'kcal/mol'), T0=(1, 'K')),
@@ -528,7 +528,7 @@ Taken from entry: i2 <=> i9
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "C9H11-7 <=> C9H11-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.478, 's^-1'), n=3.436, Ea=(23.671, 'kcal/mol'), T0=(1, 'K')),
@@ -541,7 +541,7 @@ Taken from entry: i1 <=> inew
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "C9H11-9 <=> C9H11-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(721.5, 's^-1'), n=2.46, Ea=(3.681, 'kcal/mol'), T0=(1, 'K')),
@@ -554,7 +554,7 @@ Taken from entry: inew <=> i4
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "C6H9 <=> C6H9-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.265e-07, 's^-1'), n=5.639, Ea=(24.541, 'kcal/mol'), T0=(1, 'K')),
@@ -567,7 +567,7 @@ Taken from entry: c5-C6H9 <=> c5-C6H9-3
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "C6H9-3 <=> C6H9-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.537e-16, 's^-1'), n=8.138, Ea=(14.583, 'kcal/mol'), T0=(1, 'K')),
@@ -580,7 +580,7 @@ Taken from entry: c5-C6H9 <=> c5-C6H9-2
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "C6H9-5 <=> C6H9-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.239e-08, 's^-1'), n=6.224, Ea=(24.481, 'kcal/mol'), T0=(1, 'K')),
@@ -593,7 +593,7 @@ Taken from entry: c5-C6H9-3 <=> c5-C6H9-2
 )
 
 entry(
-    index = 41,
+    index = 40,
     label = "C10H9 <=> C10H9-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(264300, 's^-1'), n=1.839, Ea=(33.509, 'kcal/mol'), T0=(1, 'K')),
@@ -606,7 +606,7 @@ Taken from entry: W1 <=> W4
 )
 
 entry(
-    index = 42,
+    index = 41,
     label = "C10H9-3 <=> C10H9-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(120000, 's^-1'), n=2.099, Ea=(35.296, 'kcal/mol'), T0=(1, 'K')),
@@ -619,7 +619,7 @@ Taken from entry: W1 <=> W16
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "C10H9-5 <=> C10H9-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.62e+09, 's^-1'), n=1.05, Ea=(31.179, 'kcal/mol'), T0=(1, 'K')),
@@ -632,7 +632,7 @@ Taken from entry: W3 <=> W7
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "C10H9-7 <=> C10H9-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.806e+09, 's^-1'), n=1.172, Ea=(51.258, 'kcal/mol'), T0=(1, 'K')),
@@ -645,7 +645,7 @@ Taken from entry: W3 <=> W20
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "C10H9-9 <=> C10H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.346e+08, 's^-1'), n=1.296, Ea=(39.967, 'kcal/mol'), T0=(1, 'K')),
@@ -658,7 +658,7 @@ Taken from entry: W5 <=> W6
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "C10H9-11 <=> C10H9-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(65110, 's^-1'), n=2.209, Ea=(29.053, 'kcal/mol'), T0=(1, 'K')),
@@ -671,7 +671,7 @@ Taken from entry: W9 <=> W7
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "C10H9-13 <=> C10H9-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.048e+09, 's^-1'), n=0.924, Ea=(30.972, 'kcal/mol'), T0=(1, 'K')),
@@ -684,7 +684,7 @@ Taken from entry: W9 <=> W10
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "C10H9-15 <=> C10H9-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.56e+08, 's^-1'), n=1.408, Ea=(41.295, 'kcal/mol'), T0=(1, 'K')),
@@ -697,7 +697,7 @@ Taken from entry: W10 <=> W20
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "C10H9-17 <=> C10H9-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.658e+09, 's^-1'), n=0.699, Ea=(7.063, 'kcal/mol'), T0=(1, 'K')),
@@ -710,7 +710,7 @@ Taken from entry: W7 <=> W20
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "C6H7-9 <=> C6H7-10",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.169e+11, 's^-1'), n=0.707, Ea=(27.741, 'kcal/mol'), T0=(1, 'K')),
@@ -731,7 +731,7 @@ CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 )
 
 entry(
-    index = 51,
+    index = 50,
     label = "C10H11-19 <=> C10H11-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.07e+06, 's^-1'), n=2, Ea=(26.1, 'kcal/mol'), T0=(1, 'K')),
@@ -744,7 +744,7 @@ Taken from entry: pdt21 <=> pdt27
 )
 
 entry(
-    index = 52,
+    index = 51,
     label = "C10H11-21 <=> C10H11-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.18e+07, 's^-1'), n=1.8, Ea=(15.8, 'kcal/mol'), T0=(1, 'K')),
@@ -757,7 +757,7 @@ Taken from entry: pdt16 <=> pdt33
 )
 
 entry(
-    index = 53,
+    index = 52,
     label = "C10H11-23 <=> C10H11-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.27e+06, 's^-1'), n=1.5, Ea=(33.7, 'kcal/mol'), T0=(1, 'K')),
@@ -770,7 +770,7 @@ Taken from entry: pdt33 <=> pdt20
 )
 
 entry(
-    index = 54,
+    index = 53,
     label = "C9H9 <=> C9H9-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.75e+11, 's^-1'), n=0.633, Ea=(46.955, 'kcal/mol'), T0=(1, 'K')),
@@ -783,7 +783,7 @@ Taken from entry: W1_2 <=> W5
 )
 
 entry(
-    index = 55,
+    index = 54,
     label = "C9H9-3 <=> C9H9-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(401300, 's^-1'), n=2.064, Ea=(37.093, 'kcal/mol'), T0=(1, 'K')),
@@ -796,7 +796,7 @@ Taken from entry: W1_2 <=> W8_9
 )
 
 entry(
-    index = 56,
+    index = 55,
     label = "C9H9-5 <=> C9H9-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.915e+06, 's^-1'), n=1.697, Ea=(19.915, 'kcal/mol'), T0=(1, 'K')),
@@ -809,7 +809,7 @@ Taken from entry: W3_4 <=> W13
 )
 
 entry(
-    index = 57,
+    index = 56,
     label = "C9H9-7 <=> C9H9-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(240, 's^-1'), n=2.932, Ea=(30.907, 'kcal/mol'), T0=(1, 'K')),
@@ -822,7 +822,7 @@ Taken from entry: W3_4 <=> W6
 )
 
 entry(
-    index = 58,
+    index = 57,
     label = "C9H9-9 <=> C9H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(53440, 's^-1'), n=2.305, Ea=(38.286, 'kcal/mol'), T0=(1, 'K')),
@@ -835,7 +835,7 @@ Taken from entry: W5 <=> W8_9
 )
 
 entry(
-    index = 59,
+    index = 58,
     label = "C9H9-11 <=> C9H9-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.166e+07, 's^-1'), n=1.625, Ea=(37.367, 'kcal/mol'), T0=(1, 'K')),
@@ -848,7 +848,7 @@ Taken from entry: W6 <=> W13
 )
 
 entry(
-    index = 60,
+    index = 59,
     label = "C9H9-13 <=> C9H9-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(420000, 's^-1'), n=2.094, Ea=(61.014, 'kcal/mol'), T0=(1, 'K')),
@@ -861,7 +861,7 @@ Taken from entry: W8_9 <=> W20
 )
 
 entry(
-    index = 61,
+    index = 60,
     label = "C9H9-15 <=> C9H9-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.5e+08, 's^-1'), n=0.835, Ea=(58.13, 'kcal/mol'), T0=(1, 'K')),
@@ -874,7 +874,7 @@ Taken from entry: W8_9 <=> W11
 )
 
 entry(
-    index = 62,
+    index = 61,
     label = "C9H9-17 <=> C9H9-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.45e+06, 's^-1'), n=1.572, Ea=(60.563, 'kcal/mol'), T0=(1, 'K')),
@@ -887,7 +887,7 @@ Taken from entry: W8_9 <=> W21
 )
 
 entry(
-    index = 63,
+    index = 62,
     label = "C9H9-19 <=> C9H9-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.286e+08, 's^-1'), n=1.323, Ea=(24.182, 'kcal/mol'), T0=(1, 'K')),
@@ -900,7 +900,7 @@ Taken from entry: W11 <=> W21
 )
 
 entry(
-    index = 64,
+    index = 63,
     label = "C9H9-21 <=> C9H9-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.37e+08, 's^-1'), n=1.713, Ea=(43.474, 'kcal/mol'), T0=(1, 'K')),
@@ -913,7 +913,7 @@ Taken from entry: W11 <=> W20
 )
 
 entry(
-    index = 65,
+    index = 64,
     label = "C9H9-23 <=> C9H9-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(59980, 's^-1'), n=1.941, Ea=(8.652, 'kcal/mol'), T0=(1, 'K')),
@@ -926,7 +926,7 @@ Taken from entry: W21 <=> W20
 )
 
 entry(
-    index = 66,
+    index = 65,
     label = "C10H9-19 <=> C10H9-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.964e+07, 's^-1'), n=1.633, Ea=(47.984, 'kcal/mol'), T0=(1, 'K')),
@@ -939,7 +939,7 @@ Taken from entry: W101 <=> W8
 )
 
 entry(
-    index = 67,
+    index = 66,
     label = "C10H9-21 <=> C10H9-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.193e+07, 's^-1'), n=1.425, Ea=(7.283, 'kcal/mol'), T0=(1, 'K')),
@@ -952,7 +952,7 @@ Taken from entry: W5 <=> W103
 )
 
 entry(
-    index = 68,
+    index = 67,
     label = "C10H9-23 <=> C10H9-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.09e+11, 's^-1'), n=0.703, Ea=(23.53, 'kcal/mol'), T0=(1, 'K')),
@@ -965,7 +965,7 @@ Taken from entry: W104 <=> W6
 )
 
 entry(
-    index = 69,
+    index = 68,
     label = "C10H9-25 <=> C10H9-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.423e+08, 's^-1'), n=1.522, Ea=(63.602, 'kcal/mol'), T0=(1, 'K')),
@@ -978,7 +978,7 @@ Taken from entry: W106 <=> W107
 )
 
 entry(
-    index = 70,
+    index = 69,
     label = "C10H9-27 <=> C10H9-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(68.8, 's^-1'), n=3.351, Ea=(60.931, 'kcal/mol'), T0=(1, 'K')),
@@ -991,7 +991,7 @@ Taken from entry: W106 <=> W108
 )
 
 entry(
-    index = 71,
+    index = 70,
     label = "C10H9-9 <=> C10H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.753e+08, 's^-1'), n=1.291, Ea=(40.177, 'kcal/mol'), T0=(1, 'K')),
@@ -1004,7 +1004,7 @@ Taken from entry: W112 <=> W118
 )
 
 entry(
-    index = 72,
+    index = 71,
     label = "C10H9-29 <=> C10H9-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.93e+07, 's^-1'), n=1.684, Ea=(33.806, 'kcal/mol'), T0=(1, 'K')),
@@ -1017,7 +1017,7 @@ Taken from entry: W6 <=> W118
 )
 
 entry(
-    index = 73,
+    index = 72,
     label = "C10H9-31 <=> C10H9-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.401e+08, 's^-1'), n=1.453, Ea=(42.614, 'kcal/mol'), T0=(1, 'K')),
@@ -1030,7 +1030,7 @@ Taken from entry: W115 <=> W117
 )
 
 entry(
-    index = 74,
+    index = 73,
     label = "C10H9-33 <=> C10H9-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.181e+10, 's^-1'), n=0.964, Ea=(32.063, 'kcal/mol'), T0=(1, 'K')),
@@ -1043,7 +1043,7 @@ Taken from entry: W102 <=> W119
 )
 
 entry(
-    index = 75,
+    index = 74,
     label = "C10H7 <=> C10H7-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.843e+08, 's^-1'), n=1.605, Ea=(56.952, 'kcal/mol'), T0=(1, 'K')),
@@ -1056,7 +1056,7 @@ Taken from entry: W2 <=> W4
 )
 
 entry(
-    index = 76,
+    index = 75,
     label = "C10H7-3 <=> C10H7-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(24735, 's^-1'), n=2.344, Ea=(38.798, 'kcal/mol'), T0=(1, 'K')),
@@ -1069,7 +1069,7 @@ Taken from entry: W3_6 <=> W5
 )
 
 entry(
-    index = 77,
+    index = 76,
     label = "C10H7-5 <=> C10H7-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(191.5, 's^-1'), n=3.05, Ea=(53.137, 'kcal/mol'), T0=(1, 'K')),
@@ -1082,7 +1082,7 @@ Taken from entry: W3_6 <=> W7
 )
 
 entry(
-    index = 78,
+    index = 77,
     label = "C8H7 <=> C8H7-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.445e+06, 's^-1'), n=1.735, Ea=(23.162, 'kcal/mol'), T0=(1, 'K')),
@@ -1095,7 +1095,7 @@ Taken from entry: W1 <=> W3
 )
 
 entry(
-    index = 79,
+    index = 78,
     label = "C7H7-9 <=> C7H7-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.712e+10, 's^-1'), n=0.722, Ea=(41.878, 'kcal/mol'), T0=(1, 'K')),
@@ -1108,7 +1108,7 @@ Taken from entry: C7H7_11 <=> C7H7_10
 )
 
 entry(
-    index = 80,
+    index = 79,
     label = "C9H9-25 <=> C9H9-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.527e+10, 's^-1'), n=0.853, Ea=(47.848, 'kcal/mol'), T0=(1, 'K')),
@@ -1121,7 +1121,7 @@ Taken from entry: C9H9_3 <=> C9H9_24
 )
 
 entry(
-    index = 81,
+    index = 80,
     label = "C9H9-27 <=> C9H9-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.438e+10, 's^-1'), n=0.625, Ea=(38.324, 'kcal/mol'), T0=(1, 'K')),
@@ -1134,7 +1134,7 @@ Taken from entry: C9H9_24 <=> C9H9_14
 )
 
 entry(
-    index = 82,
+    index = 81,
     label = "C9H9-29 <=> C9H9-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.231e+11, 's^-1'), n=0.765, Ea=(55.941, 'kcal/mol'), T0=(1, 'K')),
@@ -1147,7 +1147,7 @@ Taken from entry: C9H9_3 <=> C9H9_4
 )
 
 entry(
-    index = 83,
+    index = 82,
     label = "C9H9-31 <=> C9H9-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.677e+10, 's^-1'), n=0.839, Ea=(43.638, 'kcal/mol'), T0=(1, 'K')),
@@ -1160,7 +1160,7 @@ Taken from entry: C9H9_4 <=> C9H9_5
 )
 
 entry(
-    index = 84,
+    index = 83,
     label = "C:CC[CH2] <=> C:C[CH]C",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.72e+06, 's^-1'), n=1.99, Ea=(27.2, 'kcal/mol'), T0=(1, 'K')),
@@ -1185,7 +1185,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 85,
+    index = 84,
     label = "C:CCC[CH2] <=> C:C[CH]CC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(25000, 's^-1'), n=2.28, Ea=(28.5, 'kcal/mol'), T0=(1, 'K')),
@@ -1210,7 +1210,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 86,
+    index = 85,
     label = "C:CCCC[CH2] <=> C:C[CH]CCC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(42200, 's^-1'), n=1.93, Ea=(13.5, 'kcal/mol'), T0=(1, 'K')),
@@ -1235,7 +1235,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 87,
+    index = 86,
     label = "C:CCCCC[CH2] <=> C:C[CH]CCCC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(15400, 's^-1'), n=1.87, Ea=(7.3, 'kcal/mol'), T0=(1, 'K')),
@@ -1260,7 +1260,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 88,
+    index = 87,
     label = "C:CCCCCC[CH2] <=> C:C[CH]CCCCC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1160, 's^-1'), n=1.94, Ea=(6.6, 'kcal/mol'), T0=(1, 'K')),
@@ -1285,7 +1285,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 89,
+    index = 88,
     label = "C:C(C)C[CH2] <=> C:C([CH2])CC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(32400, 's^-1'), n=2.04, Ea=(19.7, 'kcal/mol'), T0=(1, 'K')),
@@ -1310,7 +1310,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 90,
+    index = 89,
     label = "C:C(C)CC[CH2] <=> C:C([CH2])CCC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(6900, 's^-1'), n=1.98, Ea=(10.2, 'kcal/mol'), T0=(1, 'K')),
@@ -1335,7 +1335,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 91,
+    index = 90,
     label = "C:C(C)CCC[CH2] <=> C:C([CH2])CCCC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(312, 's^-1'), n=2.1, Ea=(10.7, 'kcal/mol'), T0=(1, 'K')),
@@ -1360,7 +1360,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 92,
+    index = 91,
     label = "CC:CC[CH2] <=> [CH2]C:CCC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(121000, 's^-1'), n=1.9, Ea=(13.3, 'kcal/mol'), T0=(1, 'K')),
@@ -1386,7 +1386,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 93,
+    index = 92,
     label = "CC:CCC[CH2] <=> [CH2]C:CCCC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8010, 's^-1'), n=1.94, Ea=(13.3, 'kcal/mol'), T0=(1, 'K')),
@@ -1412,7 +1412,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 94,
+    index = 93,
     label = "C:C([CH2])CC:C <=> C:C(C)[CH]C:C",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(20800, 's^-1'), n=2.49, Ea=(43.1, 'kcal/mol'), T0=(1, 'K')),
@@ -1437,7 +1437,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 95,
+    index = 94,
     label = "C:CCC:C[CH2] <=> C:C[CH]C:CC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(256000, 's^-1'), n=2, Ea=(28.1, 'kcal/mol'), T0=(1, 'K')),
@@ -1462,7 +1462,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 96,
+    index = 95,
     label = "C:C([CH2])C:CC <=> C:C(C)C:C[CH2]",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4.44e+06, 's^-1'), n=1.64, Ea=(24, 'kcal/mol'), T0=(1, 'K')),
@@ -1487,7 +1487,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 97,
+    index = 96,
     label = "C:C(C)[CH2] <=> C:C([CH2])C",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(235500, 's^-1'), n=2.44, Ea=(51.6, 'kcal/mol'), T0=(1, 'K')),
@@ -1512,7 +1512,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 98,
+    index = 97,
     label = "C:C([CH2])CCC:C <=> C:C(C)C[CH]C:C",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(103200, 's^-1'), n=2.04, Ea=(25.3, 'kcal/mol'), T0=(1, 'K')),
@@ -1537,7 +1537,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 99,
+    index = 98,
     label = "C:C([CH2])CCCC:C <=> C:C(C)CC[CH]C:C",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(18840, 's^-1'), n=1.93, Ea=(16.2, 'kcal/mol'), T0=(1, 'K')),
@@ -1562,7 +1562,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 100,
+    index = 99,
     label = "C:C([CH2])CCCCC:C <=> C:C(C)CCC[CH]C:C",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(113.6, 's^-1'), n=2.07, Ea=(15.1, 'kcal/mol'), T0=(1, 'K')),
@@ -1587,7 +1587,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 101,
+    index = 100,
     label = "CC:C[CH2] <=> [CH2]C:CC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(800000, 's^-1'), n=1.81, Ea=(35.8, 'kcal/mol'), T0=(1, 'K')),
@@ -1612,7 +1612,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 102,
+    index = 101,
     label = "C:CCCC:C[CH2] <=> C:C[CH]CC:CC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(252000, 's^-1'), n=1.85, Ea=(21.1, 'kcal/mol'), T0=(1, 'K')),
@@ -1637,7 +1637,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 103,
+    index = 102,
     label = "C:CCCCC:C[CH2] <=> C:C[CH]CCC:CC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(10940, 's^-1'), n=1.94, Ea=(20.9, 'kcal/mol'), T0=(1, 'K')),
@@ -1662,7 +1662,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 104,
+    index = 103,
     label = "C:C([CH2])CC:CC <=> C:C(C)CC:C[CH2]",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(63300, 's^-1'), n=1.92, Ea=(21.3, 'kcal/mol'), T0=(1, 'K')),
@@ -1687,7 +1687,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 105,
+    index = 104,
     label = "C[CH2] <=> [CH2]C",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(7.05e+06, 's^-1'), n=1.81, Ea=(37.1, 'kcal/mol'), T0=(1, 'K')),
@@ -1712,7 +1712,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 106,
+    index = 105,
     label = "CCC[CH2]-1 <=> CC[CH]C",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.48e+07, 's^-1'), n=1.57, Ea=(35.3, 'kcal/mol'), T0=(1, 'K')),
@@ -1737,7 +1737,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 107,
+    index = 106,
     label = "CC[CH2] <=> [CH2]CC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(88500, 's^-1'), n=2.17, Ea=(35.4, 'kcal/mol'), T0=(1, 'K')),
@@ -1762,7 +1762,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 108,
+    index = 107,
     label = "CCCC[CH2] <=> CC[CH]CC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.064e+06, 's^-1'), n=1.93, Ea=(33.8, 'kcal/mol'), T0=(1, 'K')),
@@ -1787,7 +1787,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 109,
+    index = 108,
     label = "CCC[CH2]-2 <=> [CH2]CCC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(114000, 's^-1'), n=1.74, Ea=(19.8, 'kcal/mol'), T0=(1, 'K')),
@@ -1812,7 +1812,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 110,
+    index = 109,
     label = "CCCCCCC[CH2]-1 <=> CCCC[CH]CCC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(754000, 's^-1'), n=1.63, Ea=(17.9, 'kcal/mol'), T0=(1, 'K')),
@@ -1837,7 +1837,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 111,
+    index = 110,
     label = "CCCC[CH2]-2 <=> [CH2]CCCC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(68850, 's^-1'), n=1.68, Ea=(12.6, 'kcal/mol'), T0=(1, 'K')),
@@ -1862,7 +1862,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 112,
+    index = 111,
     label = "CCCCC[CH2]-1 <=> C[CH]CCCC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(262000, 's^-1'), n=1.62, Ea=(11.1, 'kcal/mol'), T0=(1, 'K')),
@@ -1887,7 +1887,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 113,
+    index = 112,
     label = "CCCCC[CH2]-2 <=> [CH2]CCCCC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3690, 's^-1'), n=1.79, Ea=(11.9, 'kcal/mol'), T0=(1, 'K')),
@@ -1912,7 +1912,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 114,
+    index = 113,
     label = "CCCCCC[CH2]-1 <=> C[CH]CCCCC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(25800, 's^-1'), n=1.67, Ea=(10.2, 'kcal/mol'), T0=(1, 'K')),
@@ -1937,7 +1937,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 115,
+    index = 114,
     label = "CCCCCC[CH2]-2 <=> [CH2]CCCCCC",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(64.2, 's^-1'), n=2.1, Ea=(15.1, 'kcal/mol'), T0=(1, 'K')),
@@ -1962,7 +1962,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 116,
+    index = 115,
     label = "CCCCCCC[CH2]-2 <=> C[CH]CCCCCC",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1062, 's^-1'), n=1.81, Ea=(13.2, 'kcal/mol'), T0=(1, 'K')),
@@ -1987,7 +1987,7 @@ Reported A factor from article is multiplied by degeneracy because article A-fac
 )
 
 entry(
-    index = 117,
+    index = 116,
     label = "C3H3O2 <=> C3H3O2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.427, 's^-1'), n=3.311, Ea=(30.765, 'kcal/mol'), T0=(1, 'K')),
@@ -2000,7 +2000,7 @@ Jim Chu's calculation
 )
 
 entry(
-    index = 118,
+    index = 117,
     label = "C4H5 <=> C4H5-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.992e-05, 's^-1'), n=4.805, Ea=(56.041, 'kcal/mol'), T0=(1, 'K')),
@@ -2021,7 +2021,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 119,
+    index = 118,
     label = "C4H5-3 <=> C4H5-4",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(606700, 's^-1'), n=2.347, Ea=(51.259, 'kcal/mol'), T0=(1, 'K')),
@@ -2042,7 +2042,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 120,
+    index = 119,
     label = "C4H5-5 <=> C4H5-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.471e+06, 's^-1'), n=1.841, Ea=(29.797, 'kcal/mol'), T0=(1, 'K')),
@@ -2063,7 +2063,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 121,
+    index = 120,
     label = "C4H5-7 <=> C4H5-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(481900, 's^-1'), n=2.375, Ea=(40.143, 'kcal/mol'), T0=(1, 'K')),
@@ -2084,7 +2084,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 122,
+    index = 121,
     label = "C4H5-2 <=> C4H5",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.005931, 's^-1'), n=4.271, Ea=(56.912, 'kcal/mol'), T0=(1, 'K')),
@@ -2105,7 +2105,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 123,
+    index = 122,
     label = "C4H5-4 <=> C4H5-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.63e+08, 's^-1'), n=1.73, Ea=(49.649, 'kcal/mol'), T0=(1, 'K')),
@@ -2126,7 +2126,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 124,
+    index = 123,
     label = "C4H5-6 <=> C4H5-5",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.11e+06, 's^-1'), n=1.95, Ea=(42.693, 'kcal/mol'), T0=(1, 'K')),
@@ -2147,7 +2147,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 125,
+    index = 124,
     label = "C4H5-8 <=> C4H5-7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.189e+07, 's^-1'), n=1.951, Ea=(50.732, 'kcal/mol'), T0=(1, 'K')),
@@ -2168,7 +2168,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 126,
+    index = 125,
     label = "C7H7-11 <=> C7H7-12",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(74200, 's^-1'), n=2.23, Ea=(10.59, 'kcal/mol'), T0=(1, 'K')),
@@ -2189,7 +2189,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 127,
+    index = 126,
     label = "C7H7-7 <=> C7H7-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(11700, 's^-1'), n=2.78, Ea=(62.71, 'kcal/mol'), T0=(1, 'K')),
@@ -2210,7 +2210,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 128,
+    index = 127,
     label = "C7H7-13 <=> C7H7-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.48e+06, 's^-1'), n=1.85, Ea=(26.83, 'kcal/mol'), T0=(1, 'K')),
@@ -2231,7 +2231,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 131,
+    index = 128,
     label = "C5H11 <=> C5H11-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2258,7 +2258,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_single;Cs_H_out
 )
 
 entry(
-    index = 132,
+    index = 129,
     label = "C6H13 <=> C6H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2283,7 +2283,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_single;Cs_H_out
 )
 
 entry(
-    index = 133,
+    index = 130,
     label = "CCCCC[CH2]-1 <=> C6H13-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2310,7 +2310,7 @@ Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_single;Cs_H_ou
 )
 
 entry(
-    index = 134,
+    index = 131,
     label = "C3H7O <=> C3H7O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -2333,7 +2333,7 @@ Converted to training reaction from rate rule: R4H_SSS;O_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 136,
+    index = 132,
     label = "C5H11O <=> C5H11O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2356,7 +2356,7 @@ Converted to training reaction from rate rule: R4H_SSS;O_rad_out;Cs_H_out_noH
 )
 
 entry(
-    index = 138,
+    index = 133,
     label = "C5H11O-3 <=> C5H11O-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2379,7 +2379,7 @@ Converted to training reaction from rate rule: R5H_SSSS;O_rad_out;Cs_H_out_1H
 )
 
 entry(
-    index = 139,
+    index = 134,
     label = "C6H13O <=> C6H13O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2402,7 +2402,7 @@ Converted to training reaction from rate rule: R5H_SSSS;O_rad_out;Cs_H_out_noH
 )
 
 entry(
-    index = 140,
+    index = 135,
     label = "C5H11O-5 <=> C5H11O-6",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -2425,7 +2425,7 @@ Converted to training reaction from rate rule: R6H_SSSSS;O_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 141,
+    index = 136,
     label = "C6H13O-3 <=> C6H13O-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2448,7 +2448,7 @@ Converted to training reaction from rate rule: R6H_SSSSS;O_rad_out;Cs_H_out_1H
 )
 
 entry(
-    index = 142,
+    index = 137,
     label = "C7H15O <=> C7H15O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2471,7 +2471,7 @@ Converted to training reaction from rate rule: R6H_SSSSS;O_rad_out;Cs_H_out_noH
 )
 
 entry(
-    index = 143,
+    index = 138,
     label = "C6H13O-5 <=> C6H13O-6",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -2494,7 +2494,7 @@ Converted to training reaction from rate rule: R7H;O_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 144,
+    index = 139,
     label = "C7H15O-3 <=> C7H15O-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2517,7 +2517,7 @@ Converted to training reaction from rate rule: R7H;O_rad_out;Cs_H_out_1H
 )
 
 entry(
-    index = 145,
+    index = 140,
     label = "C8H17O <=> C8H17O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2540,7 +2540,7 @@ Converted to training reaction from rate rule: R7H;O_rad_out;Cs_H_out_noH
 )
 
 entry(
-    index = 146,
+    index = 141,
     label = "C3H7-2 <=> C3H7",
     degeneracy = 6.0,
     kinetics = Arrhenius(
@@ -2562,7 +2562,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out
 )
 
 entry(
-    index = 147,
+    index = 142,
     label = "C3H7 <=> C3H7-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2582,7 +2582,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_H/Non
 )
 
 entry(
-    index = 148,
+    index = 143,
     label = "C4H9-3 <=> C4H9-4",
     degeneracy = 9.0,
     kinetics = Arrhenius(
@@ -2604,7 +2604,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2;Cs_H_out_2H
 )
 
 entry(
-    index = 149,
+    index = 144,
     label = "C4H9-4 <=> C4H9-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2626,7 +2626,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_Cs2
 )
 
 entry(
-    index = 150,
+    index = 145,
     label = "C5H11-3 <=> C5H11-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2648,7 +2648,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out
 )
 
 entry(
-    index = 151,
+    index = 146,
     label = "C5H11-4 <=> C5H11-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2670,7 +2670,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2;Cs_H_out_H/No
 )
 
 entry(
-    index = 152,
+    index = 147,
     label = "C3H5 <=> C3H5-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -2692,7 +2692,7 @@ Converted to training reaction from rate rule: R2H_S;Cd_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 153,
+    index = 148,
     label = "C3H5-2 <=> C3H5",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2714,7 +2714,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cd_H_out_doubl
 )
 
 entry(
-    index = 154,
+    index = 149,
     label = "C5H7 <=> C5H7-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2736,7 +2736,7 @@ Converted to training reaction from rate rule: R2H_S;Cd_rad_out;Cs_H_out_H/OneDe
 )
 
 entry(
-    index = 155,
+    index = 150,
     label = "C5H7-2 <=> C5H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2758,7 +2758,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/OneDe;Cd_H_out_
 )
 
 entry(
-    index = 156,
+    index = 151,
     label = "C6H9-7 <=> C6H9-8",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2780,7 +2780,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_OneDe/Cs;Cd_H_out
 )
 
 entry(
-    index = 157,
+    index = 152,
     label = "C4H7 <=> C:CC[CH2]",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -2802,7 +2802,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/OneDe;Cs_H_out_
 )
 
 entry(
-    index = 158,
+    index = 153,
     label = "C:CC[CH2] <=> C4H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2824,7 +2824,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_H/One
 )
 
 entry(
-    index = 159,
+    index = 154,
     label = "C5H9 <=> C5H9-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2846,7 +2846,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/OneDe;Cs_H_out_
 )
 
 entry(
-    index = 160,
+    index = 155,
     label = "C5H9-2 <=> C5H9",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2868,7 +2868,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out
 )
 
 entry(
-    index = 161,
+    index = 156,
     label = "C6H11 <=> C6H11-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2890,7 +2890,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/OneDe;Cs_H_out_
 )
 
 entry(
-    index = 162,
+    index = 157,
     label = "C6H11-2 <=> C6H11",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2912,7 +2912,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2;Cs_H_out_H/On
 )
 
 entry(
-    index = 163,
+    index = 158,
     label = "C5H9-3 <=> C5H9-4",
     degeneracy = 6.0,
     kinetics = Arrhenius(
@@ -2934,7 +2934,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_OneDe/Cs;Cs_H_out
 )
 
 entry(
-    index = 164,
+    index = 159,
     label = "C6H11-3 <=> C6H11-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -2956,7 +2956,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_OneDe/Cs;Cs_H_out
 )
 
 entry(
-    index = 165,
+    index = 160,
     label = "C7H13 <=> C7H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -2978,7 +2978,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_OneDe/Cs;Cs_H_out
 )
 
 entry(
-    index = 166,
+    index = 161,
     label = "C3H5-3 <=> C3H5-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3000,7 +3000,7 @@ Converted to training reaction from rate rule: R2H_D;Cd_rad_out_singleH;Cd_H_out
 )
 
 entry(
-    index = 167,
+    index = 162,
     label = "C3H5-4 <=> C3H5-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3022,7 +3022,7 @@ Converted to training reaction from rate rule: R2H_D;Cd_rad_out_singleNd;Cd_H_ou
 )
 
 entry(
-    index = 168,
+    index = 163,
     label = "C4H7-2 <=> C4H7-3",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -3044,7 +3044,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy3;Cs_H_out_
 )
 
 entry(
-    index = 169,
+    index = 164,
     label = "C4H7-3 <=> C4H7-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3066,7 +3066,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_Cs2_c
 )
 
 entry(
-    index = 170,
+    index = 165,
     label = "C5H9-5 <=> C5H9-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3088,7 +3088,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy3;Cs_H_out_
 )
 
 entry(
-    index = 171,
+    index = 166,
     label = "C5H9-6 <=> C5H9-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3110,7 +3110,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out
 )
 
 entry(
-    index = 172,
+    index = 167,
     label = "C6H11-5 <=> C6H11-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3132,7 +3132,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy3;Cs_H_out_
 )
 
 entry(
-    index = 173,
+    index = 168,
     label = "C6H11-6 <=> C6H11-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3154,7 +3154,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2_
 )
 
 entry(
-    index = 174,
+    index = 169,
     label = "C5H9-7 <=> C5H9-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3176,7 +3176,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_Cs2_c
 )
 
 entry(
-    index = 175,
+    index = 170,
     label = "C5H9-8 <=> C5H9-7",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -3198,7 +3198,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy4;Cs_H_out_
 )
 
 entry(
-    index = 176,
+    index = 171,
     label = "C6H11-7 <=> C6H11-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3220,7 +3220,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out
 )
 
 entry(
-    index = 177,
+    index = 172,
     label = "C6H11-8 <=> C6H11-7",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3242,7 +3242,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy4;Cs_H_out_
 )
 
 entry(
-    index = 178,
+    index = 173,
     label = "C7H13-3 <=> C7H13-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3264,7 +3264,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2_
 )
 
 entry(
-    index = 179,
+    index = 174,
     label = "C7H13-4 <=> C7H13-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3286,7 +3286,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy4;Cs_H_out_
 )
 
 entry(
-    index = 180,
+    index = 175,
     label = "C6H11-9 <=> C6H11-10",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -3308,7 +3308,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy5;Cs_H_out_
 )
 
 entry(
-    index = 181,
+    index = 176,
     label = "C6H11-10 <=> C6H11-9",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3330,7 +3330,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_Cs2_c
 )
 
 entry(
-    index = 182,
+    index = 177,
     label = "C7H13-5 <=> C7H13-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3352,7 +3352,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out
 )
 
 entry(
-    index = 183,
+    index = 178,
     label = "C7H13-6 <=> C7H13-5",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3374,7 +3374,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy5;Cs_H_out_
 )
 
 entry(
-    index = 184,
+    index = 179,
     label = "C8H15 <=> C8H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3396,7 +3396,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2_
 )
 
 entry(
-    index = 185,
+    index = 180,
     label = "C8H15-2 <=> C8H15",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3418,7 +3418,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2_cy5;Cs_H_out_
 )
 
 entry(
-    index = 186,
+    index = 181,
     label = "C4H9 <=> C4H9-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3442,7 +3442,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_H/No
 )
 
 entry(
-    index = 187,
+    index = 182,
     label = "C4H9-2 <=> C4H9",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3466,7 +3466,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cs_H_ou
 )
 
 entry(
-    index = 188,
+    index = 183,
     label = "C5H11-5 <=> C5H11-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3488,7 +3488,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_Cs2
 )
 
 entry(
-    index = 189,
+    index = 184,
     label = "C5H11-6 <=> C5H11-5",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -3510,7 +3510,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cs_H_out_2H
 )
 
 entry(
-    index = 190,
+    index = 185,
     label = "C6H13-4 <=> C6H13-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3532,7 +3532,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cs_H_ou
 )
 
 entry(
-    index = 191,
+    index = 186,
     label = "C6H13-5 <=> C6H13-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3554,7 +3554,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cs_H_out_H/N
 )
 
 entry(
-    index = 192,
+    index = 187,
     label = "C3H5-5 <=> C3H5-6",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -3576,7 +3576,7 @@ Converted to training reaction from rate rule: R3H_DS;Cd_rad_out_singleH;Cs_H_ou
 )
 
 entry(
-    index = 193,
+    index = 188,
     label = "C3H5-6 <=> C3H5-5",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -3598,7 +3598,7 @@ Converted to training reaction from rate rule: R3H_SD;C_rad_out_2H;Cd_H_out_sing
 )
 
 entry(
-    index = 194,
+    index = 189,
     label = "C4H7-4 <=> C4H7-5",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3620,7 +3620,7 @@ Converted to training reaction from rate rule: R3H_DS;Cd_rad_out_singleH;Cs_H_ou
 )
 
 entry(
-    index = 195,
+    index = 190,
     label = "C4H7-5 <=> C4H7-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3642,7 +3642,7 @@ Converted to training reaction from rate rule: R3H_SD;C_rad_out_H/NonDeC;Cd_H_ou
 )
 
 entry(
-    index = 196,
+    index = 191,
     label = "C5H9-9 <=> C5H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3664,7 +3664,7 @@ Converted to training reaction from rate rule: R3H_DS;Cd_rad_out_singleH;Cs_H_ou
 )
 
 entry(
-    index = 197,
+    index = 192,
     label = "C5H9-10 <=> C5H9-9",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3686,7 +3686,7 @@ Converted to training reaction from rate rule: R3H_SD;C_rad_out_Cs2;Cd_H_out_sin
 )
 
 entry(
-    index = 198,
+    index = 193,
     label = "C4H7-6 <=> C4H7-7",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3710,7 +3710,7 @@ Converted to training reaction from rate rule: R3H_DS;Cd_rad_out_singleNd;Cs_H_o
 )
 
 entry(
-    index = 199,
+    index = 194,
     label = "C4H7-7 <=> C4H7-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3734,7 +3734,7 @@ Converted to training reaction from rate rule: R3H_SD;C_rad_out_2H;Cd_H_out_sing
 )
 
 entry(
-    index = 200,
+    index = 195,
     label = "C5H9-11 <=> C5H9-12",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3756,7 +3756,7 @@ Converted to training reaction from rate rule: R3H_DS;Cd_rad_out_singleNd;Cs_H_o
 )
 
 entry(
-    index = 201,
+    index = 196,
     label = "C5H9-12 <=> C5H9-11",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3778,7 +3778,7 @@ Converted to training reaction from rate rule: R3H_SD;C_rad_out_H/NonDeC;Cd_H_ou
 )
 
 entry(
-    index = 202,
+    index = 197,
     label = "C6H11-11 <=> C6H11-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3800,7 +3800,7 @@ Converted to training reaction from rate rule: R3H_DS;Cd_rad_out_singleNd;Cs_H_o
 )
 
 entry(
-    index = 203,
+    index = 198,
     label = "C6H11-12 <=> C6H11-11",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3822,7 +3822,7 @@ Converted to training reaction from rate rule: R3H_SD;C_rad_out_Cs2;Cd_H_out_sin
 )
 
 entry(
-    index = 204,
+    index = 199,
     label = "C4H7-8 <=> C4H7-9",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -3844,7 +3844,7 @@ Converted to training reaction from rate rule: R3H_SS;Cd_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 205,
+    index = 200,
     label = "C4H7-9 <=> C4H7-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3866,7 +3866,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cd_H_out_doub
 )
 
 entry(
-    index = 206,
+    index = 201,
     label = "C5H9-13 <=> C5H9-14",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -3888,7 +3888,7 @@ Converted to training reaction from rate rule: R3H_SS;Cd_rad_out;Cs_H_out_H/NonD
 )
 
 entry(
-    index = 207,
+    index = 202,
     label = "C5H9-14 <=> C5H9-13",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3910,7 +3910,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cd_H_ou
 )
 
 entry(
-    index = 208,
+    index = 203,
     label = "C6H11-13 <=> C6H11-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3932,7 +3932,7 @@ Converted to training reaction from rate rule: R3H_SS;Cd_rad_out;Cs_H_out_Cs2
 )
 
 entry(
-    index = 209,
+    index = 204,
     label = "C6H11-14 <=> C6H11-13",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3954,7 +3954,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cd_H_out_dou
 )
 
 entry(
-    index = 210,
+    index = 205,
     label = "C5H9-15 <=> C5H9-16",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -3976,7 +3976,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_2H;Cs_H_out_
 )
 
 entry(
-    index = 211,
+    index = 206,
     label = "C5H9-16 <=> C5H9-15",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -3998,7 +3998,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_H/NonDeC;Cs_
 )
 
 entry(
-    index = 212,
+    index = 207,
     label = "C6H11-15 <=> C6H11-16",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4020,7 +4020,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_2H;Cs_H_out_
 )
 
 entry(
-    index = 213,
+    index = 208,
     label = "C6H11-16 <=> C6H11-15",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4042,7 +4042,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_Cs2;Cs_H_out
 )
 
 entry(
-    index = 214,
+    index = 209,
     label = "C7H13-7 <=> C7H13-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4064,7 +4064,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_H/NonDeC;Cs_
 )
 
 entry(
-    index = 215,
+    index = 210,
     label = "C7H13-8 <=> C7H13-7",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4086,7 +4086,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_Cs2;Cs_H_out
 )
 
 entry(
-    index = 216,
+    index = 211,
     label = "C5H9-17 <=> C:CCC[CH2]",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4108,7 +4108,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/OneDe;Cs_H_out
 )
 
 entry(
-    index = 217,
+    index = 212,
     label = "C:CCC[CH2] <=> C5H9-17",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4130,7 +4130,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_H/On
 )
 
 entry(
-    index = 218,
+    index = 213,
     label = "C6H11-17 <=> C6H11-18",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4152,7 +4152,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/OneDe;Cs_H_out
 )
 
 entry(
-    index = 219,
+    index = 214,
     label = "C6H11-18 <=> C6H11-17",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4174,7 +4174,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cs_H_ou
 )
 
 entry(
-    index = 220,
+    index = 215,
     label = "C7H13-9 <=> C7H13-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4196,7 +4196,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/OneDe;Cs_H_out
 )
 
 entry(
-    index = 221,
+    index = 216,
     label = "C7H13-10 <=> C7H13-9",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4218,7 +4218,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cs_H_out_H/O
 )
 
 entry(
-    index = 222,
+    index = 217,
     label = "C5H9-18 <=> C5H9-19",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4240,7 +4240,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy3;Cs_H_out
 )
 
 entry(
-    index = 223,
+    index = 218,
     label = "C5H9-19 <=> C5H9-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4262,7 +4262,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_
 )
 
 entry(
-    index = 224,
+    index = 219,
     label = "C6H11-19 <=> C6H11-20",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4284,7 +4284,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy3;Cs_H_out
 )
 
 entry(
-    index = 225,
+    index = 220,
     label = "C6H11-20 <=> C6H11-19",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4306,7 +4306,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cs_H_ou
 )
 
 entry(
-    index = 226,
+    index = 221,
     label = "C7H13-11 <=> C7H13-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4328,7 +4328,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy3;Cs_H_out
 )
 
 entry(
-    index = 227,
+    index = 222,
     label = "C7H13-12 <=> C7H13-11",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4350,7 +4350,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2
 )
 
 entry(
-    index = 228,
+    index = 223,
     label = "C6H11-21 <=> C6H11-22",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4372,7 +4372,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy4;Cs_H_out
 )
 
 entry(
-    index = 229,
+    index = 224,
     label = "C6H11-22 <=> C6H11-21",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4394,7 +4394,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_
 )
 
 entry(
-    index = 230,
+    index = 225,
     label = "C7H13-13 <=> C7H13-14",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4416,7 +4416,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy4;Cs_H_out
 )
 
 entry(
-    index = 231,
+    index = 226,
     label = "C7H13-14 <=> C7H13-13",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4438,7 +4438,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cs_H_ou
 )
 
 entry(
-    index = 232,
+    index = 227,
     label = "C8H15-3 <=> C8H15-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4460,7 +4460,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy4;Cs_H_out
 )
 
 entry(
-    index = 233,
+    index = 228,
     label = "C8H15-4 <=> C8H15-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4482,7 +4482,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2
 )
 
 entry(
-    index = 234,
+    index = 229,
     label = "C7H13-15 <=> C7H13-16",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4504,7 +4504,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy5;Cs_H_out
 )
 
 entry(
-    index = 235,
+    index = 230,
     label = "C7H13-16 <=> C7H13-15",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4526,7 +4526,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_
 )
 
 entry(
-    index = 236,
+    index = 231,
     label = "C8H15-5 <=> C8H15-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4548,7 +4548,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy5;Cs_H_out
 )
 
 entry(
-    index = 237,
+    index = 232,
     label = "C8H15-6 <=> C8H15-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4570,7 +4570,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cs_H_ou
 )
 
 entry(
-    index = 238,
+    index = 233,
     label = "C9H17 <=> C9H17-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4592,7 +4592,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2_cy5;Cs_H_out
 )
 
 entry(
-    index = 239,
+    index = 234,
     label = "C9H17-2 <=> C9H17",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4614,7 +4614,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2
 )
 
 entry(
-    index = 240,
+    index = 235,
     label = "CH3O2 <=> CH3O2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4636,7 +4636,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 241,
+    index = 236,
     label = "C2H5O2 <=> C2H5O2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4658,7 +4658,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_H/Non
 )
 
 entry(
-    index = 242,
+    index = 237,
     label = "C3H7O2 <=> C3H7O2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4680,7 +4680,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_H/(No
 )
 
 entry(
-    index = 243,
+    index = 238,
     label = "C4H9O2 <=> C4H9O2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4702,7 +4702,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_H/(No
 )
 
 entry(
-    index = 244,
+    index = 239,
     label = "C5H11O2 <=> C5H11O2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4724,7 +4724,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_H/(No
 )
 
 entry(
-    index = 245,
+    index = 240,
     label = "C3H7O2-3 <=> C3H7O2-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4746,7 +4746,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_Cs2
 )
 
 entry(
-    index = 246,
+    index = 241,
     label = "C2H5O2-3 <=> C2H5O2-4",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4768,7 +4768,7 @@ Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 247,
+    index = 242,
     label = "C3H7O2-5 <=> C3H7O2-6",
     degeneracy = 6.0,
     kinetics = Arrhenius(
@@ -4790,7 +4790,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_ou
 )
 
 entry(
-    index = 248,
+    index = 243,
     label = "C4H9O2-3 <=> C4H9O2-4",
     degeneracy = 9.0,
     kinetics = Arrhenius(
@@ -4812,7 +4812,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)CsCs;O_rad_out;Cs_H_
 )
 
 entry(
-    index = 249,
+    index = 244,
     label = "C3H7O2-7 <=> C3H7O2-8",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4831,7 +4831,7 @@ Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_H/
 )
 
 entry(
-    index = 250,
+    index = 245,
     label = "C4H9O2-5 <=> C4H9O2-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4850,7 +4850,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_ou
 )
 
 entry(
-    index = 251,
+    index = 246,
     label = "C5H11O2-3 <=> C5H11O2-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -4869,7 +4869,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)CsCs;O_rad_out;Cs_H_
 )
 
 entry(
-    index = 252,
+    index = 247,
     label = "C4H9O2-7 <=> C4H9O2-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4888,7 +4888,7 @@ Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_Cs
 )
 
 entry(
-    index = 253,
+    index = 248,
     label = "C5H11O2-5 <=> C5H11O2-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4907,7 +4907,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_ou
 )
 
 entry(
-    index = 254,
+    index = 249,
     label = "C6H13O2 <=> C6H13O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4926,7 +4926,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)CsCs;O_rad_out;Cs_H_
 )
 
 entry(
-    index = 255,
+    index = 250,
     label = "C3H7O2-9 <=> C3H7O2-10",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4948,7 +4948,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC;O_rad_out;Cs_H_out_2
 )
 
 entry(
-    index = 256,
+    index = 251,
     label = "C4H9O2-9 <=> C4H9O2-10",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4970,7 +4970,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC_C;O_rad_out;Cs_H_out
 )
 
 entry(
-    index = 257,
+    index = 252,
     label = "C5H11O2-7 <=> C5H11O2-8",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -4992,7 +4992,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC_CC;O_rad_out;Cs_H_ou
 )
 
 entry(
-    index = 258,
+    index = 253,
     label = "C4H9O2-11 <=> C4H9O2-12",
     degeneracy = 6.0,
     kinetics = Arrhenius(
@@ -5014,7 +5014,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCs(Cs/Cs);O_rad_out;Cs_
 )
 
 entry(
-    index = 259,
+    index = 254,
     label = "C5H11O2-9 <=> C5H11O2-10",
     degeneracy = 9.0,
     kinetics = Arrhenius(
@@ -5036,7 +5036,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCs(Cs/Cs/Cs);O_rad_out;
 )
 
 entry(
-    index = 260,
+    index = 255,
     label = "C4H9O2-13 <=> C4H9O2-14",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5058,7 +5058,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC;O_rad_out;Cs_H_out_H
 )
 
 entry(
-    index = 261,
+    index = 256,
     label = "C5H11O2-11 <=> C5H11O2-12",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5080,7 +5080,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC_C;O_rad_out;Cs_H_out
 )
 
 entry(
-    index = 262,
+    index = 257,
     label = "C5H11O2-13 <=> C5H11O2-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5102,7 +5102,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC;O_rad_out;Cs_H_out_C
 )
 
 entry(
-    index = 263,
+    index = 258,
     label = "C4H9O2-15 <=> C4H9O2-16",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -5124,7 +5124,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OO;O_rad_out;Cs_H_out_2
 )
 
 entry(
-    index = 264,
+    index = 259,
     label = "C5H11O2-15 <=> C5H11O2-16",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5147,7 +5147,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OO;O_rad_out;Cs_H_out_H
 )
 
 entry(
-    index = 265,
+    index = 260,
     label = "C6H13O2-3 <=> C6H13O2-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5170,7 +5170,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OO;O_rad_out;Cs_H_out_C
 )
 
 entry(
-    index = 266,
+    index = 261,
     label = "C5H11O2-17 <=> C5H11O2-18",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -5193,7 +5193,7 @@ Converted to training reaction from rate rule: R7H_OOCs4;O_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 267,
+    index = 262,
     label = "C6H13O2-5 <=> C6H13O2-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5216,7 +5216,7 @@ Converted to training reaction from rate rule: R7H_OOCs4;O_rad_out;Cs_H_out_H/No
 )
 
 entry(
-    index = 268,
+    index = 263,
     label = "C7H15O2 <=> C7H15O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5235,7 +5235,7 @@ Converted to training reaction from rate rule: R7H_OOCs4;O_rad_out;Cs_H_out_Cs2
 )
 
 entry(
-    index = 269,
+    index = 264,
     label = "CH3O3 <=> CH3O3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5257,7 +5257,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_H/Non
 )
 
 entry(
-    index = 270,
+    index = 265,
     label = "C2H5O3 <=> C2H5O3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5279,7 +5279,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_NDMus
 )
 
 entry(
-    index = 271,
+    index = 266,
     label = "C2H5O3-3 <=> C2H5O3-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5301,7 +5301,7 @@ Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_H/
 )
 
 entry(
-    index = 272,
+    index = 267,
     label = "C3H7O3 <=> C3H7O3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5323,7 +5323,7 @@ Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_ND
 )
 
 entry(
-    index = 273,
+    index = 268,
     label = "C3H7O3-3 <=> C3H7O3-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5343,7 +5343,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_ou
 )
 
 entry(
-    index = 274,
+    index = 269,
     label = "C4H9O3 <=> C4H9O3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5365,7 +5365,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_ou
 )
 
 entry(
-    index = 275,
+    index = 270,
     label = "C3H7O3-5 <=> C3H7O3-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5387,7 +5387,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC;O_rad_out;Cs_H_out_H
 )
 
 entry(
-    index = 276,
+    index = 271,
     label = "C4H9O3-3 <=> C4H9O3-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5409,7 +5409,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC;O_rad_out;Cs_H_out_N
 )
 
 entry(
-    index = 277,
+    index = 272,
     label = "C4H9O3-5 <=> C4H9O3-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5431,7 +5431,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC_C;O_rad_out;Cs_H_out
 )
 
 entry(
-    index = 278,
+    index = 273,
     label = "C5H11O3 <=> C5H11O3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5453,7 +5453,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC_C;O_rad_out;Cs_H_out
 )
 
 entry(
-    index = 279,
+    index = 274,
     label = "C4H9O3-7 <=> C4H9O3-8",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5475,7 +5475,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OO;O_rad_out;Cs_H_out_H
 )
 
 entry(
-    index = 280,
+    index = 275,
     label = "C5H11O3-3 <=> C5H11O3-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5497,7 +5497,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OO;O_rad_out;Cs_H_out_N
 )
 
 entry(
-    index = 281,
+    index = 276,
     label = "C5H11O3-5 <=> C5H11O3-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5519,7 +5519,7 @@ Converted to training reaction from rate rule: R7H_OOCs4;O_rad_out;Cs_H_out_H/No
 )
 
 entry(
-    index = 282,
+    index = 277,
     label = "C6H13O3 <=> C6H13O3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5541,7 +5541,7 @@ Converted to training reaction from rate rule: R7H_OOCs4;O_rad_out;Cs_H_out_NDMu
 )
 
 entry(
-    index = 283,
+    index = 278,
     label = "C5H7-3 <=> C5H7-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5563,7 +5563,7 @@ Converted to training reaction from rate rule: R4H_SDS;C_rad_out_2H;Cd_H_out_dou
 )
 
 entry(
-    index = 284,
+    index = 279,
     label = "C5H7-4 <=> C5H7-3",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -5585,7 +5585,7 @@ Converted to training reaction from rate rule: R4H_SDS;Cd_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 285,
+    index = 280,
     label = "C5H7-5 <=> C5H7-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5607,7 +5607,7 @@ Converted to training reaction from rate rule: R5H_SMSD;C_rad_out_2H;Cd_H_out_si
 )
 
 entry(
-    index = 286,
+    index = 281,
     label = "C5H7-6 <=> C5H7-5",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -5629,7 +5629,7 @@ Converted to training reaction from rate rule: R5H_DSMS;Cd_rad_out_singleH;Cs_H_
 )
 
 entry(
-    index = 287,
+    index = 282,
     label = "C5H7-7 <=> C5H7-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5651,7 +5651,7 @@ Converted to training reaction from rate rule: R3H_SD;C_rad_out_2H;Cd_H_out_sing
 )
 
 entry(
-    index = 288,
+    index = 283,
     label = "C5H7-8 <=> C5H7-7",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -5673,7 +5673,7 @@ Converted to training reaction from rate rule: R3H_DS;Cd_rad_out_singleDe;Cs_H_o
 )
 
 entry(
-    index = 289,
+    index = 284,
     label = "C4H7O <=> C4H7O-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5698,7 +5698,7 @@ Converted to training reaction from rate rule: R4H_SDS;O_rad_out;Cs_H_out_H/NonD
 )
 
 entry(
-    index = 290,
+    index = 285,
     label = "C4H7O-3 <=> C4H7O-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5734,7 +5734,7 @@ Converted to training reaction from rate rule: R5H_SSSD;O_rad_out;Cd_H_out_singl
 )
 
 entry(
-    index = 291,
+    index = 286,
     label = "C2H5O4 <=> C2H5O4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5756,7 +5756,7 @@ Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_OO
 )
 
 entry(
-    index = 292,
+    index = 287,
     label = "C3H7O4 <=> C3H7O4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5776,7 +5776,7 @@ Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_OO
 )
 
 entry(
-    index = 293,
+    index = 288,
     label = "C3H7O4-3 <=> C3H7O4-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5796,7 +5796,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_ou
 )
 
 entry(
-    index = 294,
+    index = 289,
     label = "C4H9O4 <=> C4H9O4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5818,7 +5818,7 @@ Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_ou
 )
 
 entry(
-    index = 295,
+    index = 290,
     label = "C3H7O4-5 <=> C3H7O4-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5840,7 +5840,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC;O_rad_out;Cs_H_out_O
 )
 
 entry(
-    index = 296,
+    index = 291,
     label = "C4H9O4-3 <=> C4H9O4-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5860,7 +5860,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC_C;O_rad_out;Cs_H_out
 )
 
 entry(
-    index = 297,
+    index = 292,
     label = "C5H11O4 <=> C5H11O4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5882,7 +5882,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCs(Cs/Cs/Cs);O_rad_out;
 )
 
 entry(
-    index = 298,
+    index = 293,
     label = "C4H9O4-5 <=> C4H9O4-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5902,7 +5902,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC;O_rad_out;Cs_H_out_O
 )
 
 entry(
-    index = 299,
+    index = 294,
     label = "C5H11O4-3 <=> C5H11O4-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5924,7 +5924,7 @@ Converted to training reaction from rate rule: R5H_SSSS_OCC_C;O_rad_out;Cs_H_out
 )
 
 entry(
-    index = 300,
+    index = 295,
     label = "C4H9O4-7 <=> C4H9O4-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5946,7 +5946,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OO;O_rad_out;Cs_H_out_O
 )
 
 entry(
-    index = 301,
+    index = 296,
     label = "C5H11O4-5 <=> C5H11O4-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -5966,7 +5966,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OO(Cs/Cs)Cs;O_rad_out;C
 )
 
 entry(
-    index = 302,
+    index = 297,
     label = "C5H11O-7 <=> C5H11O-8",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -5986,7 +5986,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OOCCC(Cs/Cs);O_rad_out;
 )
 
 entry(
-    index = 303,
+    index = 298,
     label = "C6H13O-7 <=> C6H13O-8",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -6006,7 +6006,7 @@ Converted to training reaction from rate rule: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs);O_rad
 )
 
 entry(
-    index = 304,
+    index = 299,
     label = "C5H11O4-7 <=> C5H11O4-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6028,7 +6028,7 @@ Converted to training reaction from rate rule: R7H_OOCs4;O_rad_out;Cs_H_out_OOH/
 )
 
 entry(
-    index = 305,
+    index = 300,
     label = "C6H13O-9 <=> C6H13O-10",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -6048,7 +6048,7 @@ Converted to training reaction from rate rule: R7H_OOCCCC(Cs/Cs);O_rad_out;Cs_H_
 )
 
 entry(
-    index = 306,
+    index = 301,
     label = "C4H9O-3 <=> C4H9O-4",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -6068,7 +6068,7 @@ Converted to training reaction from rate rule: R5H_CCC;O_rad_out;Cs_H_out_2H
 )
 
 entry(
-    index = 307,
+    index = 302,
     label = "C5H11O-3 <=> C5H11O-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6088,7 +6088,7 @@ Converted to training reaction from rate rule: R5H_CCC;O_rad_out;Cs_H_out_H/NonD
 )
 
 entry(
-    index = 309,
+    index = 303,
     label = "CH3S <=> CH3S-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6108,7 +6108,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;S_H_out
 )
 
 entry(
-    index = 310,
+    index = 304,
     label = "C2H5S <=> C2H5S-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6128,7 +6128,7 @@ Converted to training reaction from rate rule: R3H_SS_Cs;C_rad_out_2H;S_H_out
 )
 
 entry(
-    index = 311,
+    index = 305,
     label = "CH3S2 <=> CH3S2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6148,7 +6148,7 @@ Converted to training reaction from rate rule: R3H_SS_S;C_rad_out_2H;S_H_out
 )
 
 entry(
-    index = 312,
+    index = 306,
     label = "C3H7S <=> C3H7S-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6168,7 +6168,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_2H;S_H_out
 )
 
 entry(
-    index = 313,
+    index = 307,
     label = "C4H9S <=> C4H9S-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6188,7 +6188,7 @@ Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_2H;S_H_out
 )
 
 entry(
-    index = 314,
+    index = 308,
     label = "C5H11S <=> C5H11S-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6208,7 +6208,7 @@ Converted to training reaction from rate rule: R4H_SSS_CsS;C_rad_out_H/NonDeC;Cs
 )
 
 entry(
-    index = 315,
+    index = 309,
     label = "C6H13S <=> C6H13S-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6228,7 +6228,7 @@ Converted to training reaction from rate rule: R5H_SSSS_CsCsS;C_rad_out_H/NonDeC
 )
 
 entry(
-    index = 316,
+    index = 310,
     label = "C5H11S-3 <=> C5H11S-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6248,7 +6248,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_H/NonDeC;Cs_H_o
 )
 
 entry(
-    index = 317,
+    index = 311,
     label = "C6H13S-3 <=> C6H13S-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6268,7 +6268,7 @@ Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_H/NonDeC;Cs_H_
 )
 
 entry(
-    index = 318,
+    index = 312,
     label = "CH3OS <=> CH3OS",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6288,7 +6288,7 @@ Converted to training reaction from rate rule: R3H_SS;O_rad_out;S_H_out
 )
 
 entry(
-    index = 319,
+    index = 313,
     label = "C3H7O-3 <=> C3H7O-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6308,7 +6308,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;O_H_out
 )
 
 entry(
-    index = 320,
+    index = 314,
     label = "C4H7S <=> C4H7S-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6328,7 +6328,7 @@ Converted to training reaction from rate rule: R4H_SDS;C_rad_out_H/NonDeC;S_H_ou
 )
 
 entry(
-    index = 321,
+    index = 315,
     label = "C4H9O-5 <=> C4H9O-6",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -6348,7 +6348,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_H/NonDeO;Cs_H_o
 )
 
 entry(
-    index = 322,
+    index = 316,
     label = "C2H5O <=> C2H5O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6368,7 +6368,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;O_H_out
 )
 
 entry(
-    index = 323,
+    index = 317,
     label = "C4H9O-2 <=> C4H9O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6388,7 +6388,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_H/NonDeC;O_H_ou
 )
 
 entry(
-    index = 324,
+    index = 318,
     label = "C4H9O-6 <=> C4H9O-5",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6408,7 +6408,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_2H;Cs_H_out_H/N
 )
 
 entry(
-    index = 325,
+    index = 319,
     label = "C3H7O-5 <=> C3H7O-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6428,7 +6428,7 @@ Converted to training reaction from rate rule: R2H_S;O_rad_out;Cs_H_out_H/(NonDe
 )
 
 entry(
-    index = 326,
+    index = 320,
     label = "C4H9O <=> C4H9O-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6448,7 +6448,7 @@ Converted to training reaction from rate rule: R4H_SSS;O_rad_out;Cs_H_out_H/NonD
 )
 
 entry(
-    index = 327,
+    index = 321,
     label = "C4H9O-7 <=> C4H9O-8",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6468,7 +6468,7 @@ Converted to training reaction from rate rule: R3H_SS;O_rad_out;Cs_H_out_H/(NonD
 )
 
 entry(
-    index = 328,
+    index = 322,
     label = "CCC[CH2]-1 <=> C4H9-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6490,7 +6490,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_H/(No
 )
 
 entry(
-    index = 329,
+    index = 323,
     label = "C:CCCC[CH2] <=> C6H11-23",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6510,7 +6510,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_2H;Cs_H_out_H/O
 )
 
 entry(
-    index = 330,
+    index = 324,
     label = "C:CCCCC[CH2] <=> C7H13-17",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6530,7 +6530,7 @@ Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_2H;Cs_H_out_H/
 )
 
 entry(
-    index = 331,
+    index = 325,
     label = "C:CCCC:C[CH2] <=> C7H11",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6550,7 +6550,7 @@ Converted to training reaction from rate rule: R5H_SMSS;C_rad_out_2H;Cs_H_out_H/
 )
 
 entry(
-    index = 332,
+    index = 326,
     label = "C7H13-18 <=> C7H13-19",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6570,7 +6570,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_H/NonDeC;Cs_H_o
 )
 
 entry(
-    index = 333,
+    index = 327,
     label = "C:CCCCCC[CH2] <=> C8H15-7",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6590,7 +6590,7 @@ Converted to training reaction from rate rule: R6H_SSSSS;C_rad_out_2H;Cs_H_out_H
 )
 
 entry(
-    index = 334,
+    index = 328,
     label = "C7H13-20 <=> C7H13-21",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6610,7 +6610,7 @@ Converted to training reaction from rate rule: R4H_SDS;C_rad_out_H/NonDeC;Cs_H_o
 )
 
 entry(
-    index = 335,
+    index = 329,
     label = "CCCCCC[CH2]-1 <=> C7H15",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6632,7 +6632,7 @@ Converted to training reaction from rate rule: R6H_SSSSS;C_rad_out_single;Cs_H_o
 )
 
 entry(
-    index = 336,
+    index = 330,
     label = "C3H5O2 <=> C3H5O2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6652,7 +6652,7 @@ Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_H/Cd
 )
 
 entry(
-    index = 337,
+    index = 331,
     label = "C3H5O2-3 <=> C3H5O2-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6672,7 +6672,7 @@ Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cd_H_out_do
 )
 
 entry(
-    index = 338,
+    index = 332,
     label = "C3H7O-7 <=> C3H7O-8",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6692,7 +6692,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_H/(No
 )
 
 entry(
-    index = 339,
+    index = 333,
     label = "C3H7O-9 <=> C3H7O-10",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6712,7 +6712,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_H/No
 )
 
 entry(
-    index = 340,
+    index = 334,
     label = "C3H7O-2 <=> C3H7O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6732,7 +6732,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_2H;O_H_out
 )
 
 entry(
-    index = 341,
+    index = 335,
     label = "C3H7O-11 <=> C3H7O-12",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6752,7 +6752,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out
 )
 
 entry(
-    index = 342,
+    index = 336,
     label = "C3H7O-12 <=> C3H7O-11",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6772,7 +6772,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeO;Cs_H_out
 )
 
 entry(
-    index = 343,
+    index = 337,
     label = "C3H7O-10 <=> C3H7O-9",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -6792,7 +6792,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeO;Cs_H_ou
 )
 
 entry(
-    index = 344,
+    index = 338,
     label = "C4H9O-9 <=> C4H9O-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6812,7 +6812,7 @@ Converted to training reaction from rate rule: R3H_SS;O_rad_out;Cs_H_out_Cs2
 )
 
 entry(
-    index = 345,
+    index = 339,
     label = "CH3O <=> CH3O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6832,7 +6832,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;O_H_out
 )
 
 entry(
-    index = 346,
+    index = 340,
     label = "C2H5O-3 <=> C2H5O-4",
     degeneracy = 3.0,
     kinetics = Arrhenius(
@@ -6855,7 +6855,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeO;Cs_H_out
 )
 
 entry(
-    index = 347,
+    index = 341,
     label = "C2H5O-4 <=> C2H5O-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6878,7 +6878,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_H/Non
 )
 
 entry(
-    index = 348,
+    index = 342,
     label = "C2H5O-2 <=> C2H5O",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -6901,7 +6901,7 @@ Converted to training reaction from rate rule: R2H_S;O_rad_out;Cs_H_out_H/NonDeC
 )
 
 entry(
-    index = 349,
+    index = 343,
     label = "C7H11-2 <=> C7H11-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6923,7 +6923,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_CdCd
 )
 
 entry(
-    index = 353,
+    index = 344,
     label = "CCC[CH2]-2 <=> CCC[CH2]-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6950,7 +6950,7 @@ Converted to training reaction from rate rule: R4H_SSS;C_rad_out_single;Cs_H_out
 )
 
 entry(
-    index = 354,
+    index = 345,
     label = "CCCC[CH2]-2 <=> CCCC[CH2]-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6977,7 +6977,7 @@ Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_single;Cs_H_ou
 )
 
 entry(
-    index = 355,
+    index = 346,
     label = "C[CH2] <=> C[CH2]",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7001,7 +7001,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_2H
 )
 
 entry(
-    index = 356,
+    index = 347,
     label = "C6H13-6 <=> C6H13-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7025,7 +7025,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2
 )
 
 entry(
-    index = 357,
+    index = 348,
     label = "C4H9-6 <=> C4H9-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7049,7 +7049,7 @@ Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out
 )
 
 entry(
-    index = 358,
+    index = 349,
     label = "C2H3 <=> C2H3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7073,7 +7073,7 @@ Converted to training reaction from rate rule: R2H_D;Cd_rad_out_singleH;Cd_H_out
 )
 
 entry(
-    index = 359,
+    index = 350,
     label = "C4H7-10 <=> C4H7-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7097,7 +7097,7 @@ Converted to training reaction from rate rule: R2H_D;Cd_rad_out_singleNd;Cd_H_ou
 )
 
 entry(
-    index = 369,
+    index = 351,
     label = "C5H11-7 <=> C5H11-7",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7121,7 +7121,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;Cs_H_ou
 )
 
 entry(
-    index = 370,
+    index = 352,
     label = "C7H15-2 <=> C7H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7145,7 +7145,7 @@ Converted to training reaction from rate rule: R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2
 )
 
 entry(
-    index = 371,
+    index = 353,
     label = "C:C(C)[CH2] <=> C:C(C)[CH2]",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7169,7 +7169,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_2H;Cs_H_out_
 )
 
 entry(
-    index = 372,
+    index = 354,
     label = "C6H11-24 <=> C6H11-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7193,7 +7193,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_H/NonDeC;Cs_
 )
 
 entry(
-    index = 373,
+    index = 355,
     label = "C8H15-8 <=> C8H15-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7217,7 +7217,7 @@ Converted to training reaction from rate rule: R3H_SS_2Cd;C_rad_out_Cs2;Cs_H_out
 )
 
 entry(
-    index = 374,
+    index = 356,
     label = "CC[CH2] <=> CC[CH2]",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7241,7 +7241,7 @@ Converted to training reaction from rate rule: R3H_SS_12cy3;C_rad_out_H/NonDeC;C
 )
 
 entry(
-    index = 419,
+    index = 357,
     label = "CC:C[CH2] <=> CC:C[CH2]",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7263,7 +7263,7 @@ Converted to training reaction from rate rule: R4H_SMS;Y_rad_out;XH_out
 )
 
 entry(
-    index = 420,
+    index = 358,
     label = "CCCCC[CH2]-2 <=> CCCCC[CH2]-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7285,7 +7285,7 @@ Converted to training reaction from rate rule: R6H_SSSSS;C_rad_out_single;Cs_H_o
 )
 
 entry(
-    index = 421,
+    index = 359,
     label = "C7H5 <=> C7H5-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.48e+12, 's^-1'), n=0.539, Ea=(83.31, 'kcal/mol'), T0=(1, 'K')),
@@ -7297,7 +7297,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7308,7 +7308,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 422,
+    index = 360,
     label = "C7H5-3 <=> C7H5-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.87e+12, 's^-1'), n=0.286, Ea=(65.14, 'kcal/mol'), T0=(1, 'K')),
@@ -7320,7 +7320,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7331,7 +7331,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 423,
+    index = 361,
     label = "C7H5-5 <=> C7H5-6",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.67e+12, 's^-1'), n=0.258, Ea=(64.77, 'kcal/mol'), T0=(1, 'K')),
@@ -7343,7 +7343,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7354,7 +7354,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 424,
+    index = 362,
     label = "C7H5-7 <=> C7H5-8",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.04e+11, 's^-1'), n=0.627, Ea=(58.66, 'kcal/mol'), T0=(1, 'K')),
@@ -7366,7 +7366,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7377,7 +7377,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 425,
+    index = 363,
     label = "C7H5-9 <=> C7H5-10",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.66e+11, 's^-1'), n=0.441, Ea=(25.56, 'kcal/mol'), T0=(1, 'K')),
@@ -7389,7 +7389,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7400,7 +7400,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 426,
+    index = 364,
     label = "C7H5-2 <=> C7H5",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.11e+11, 's^-1'), n=0.576, Ea=(40.62, 'kcal/mol'), T0=(1, 'K')),
@@ -7412,7 +7412,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7423,7 +7423,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 427,
+    index = 365,
     label = "C7H5-4 <=> C7H5-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.39e+11, 's^-1'), n=0.459, Ea=(26.24, 'kcal/mol'), T0=(1, 'K')),
@@ -7435,7 +7435,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7446,7 +7446,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 428,
+    index = 366,
     label = "C7H5-6 <=> C7H5-5",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.11e+11, 's^-1'), n=0.472, Ea=(25.95, 'kcal/mol'), T0=(1, 'K')),
@@ -7458,7 +7458,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7467,8 +7467,9 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 1D-Hinder rotor is considered.
 """,
 )
+
 entry(
-    index = 429,
+    index = 367,
     label = "C7H5-8 <=> C7H5-7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.63e+12, 's^-1'), n=0.388, Ea=(94.61, 'kcal/mol'), T0=(1, 'K')),
@@ -7480,7 +7481,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7491,7 +7492,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 430,
+    index = 368,
     label = "C7H5-10 <=> C7H5-9",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.48e+12, 's^-1'), n=0.239, Ea=(65.78, 'kcal/mol'), T0=(1, 'K')),
@@ -7503,7 +7504,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -7514,7 +7515,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 431,
+    index = 369,
     label = "C6H5 <=> C6H5-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.208e+12, 's^-1'), n=1.135, Ea=(109.513, 'kcal/mol'), T0=(1, 'K')),

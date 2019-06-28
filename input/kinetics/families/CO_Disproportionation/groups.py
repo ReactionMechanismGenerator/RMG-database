@@ -17,8 +17,8 @@ R_rad(*1) + H(*4)C_rad(*3)=O(*2) <=> R(*1)H(*4) + [C-](*3)#[O+](*2)
 template(reactants=["Y_rad_birad_trirad_quadrad", "HCO_HCS"], products=["Y_H", "CO_CS"], ownReverse=False)
 
 reverse = "CO_Addition"
-
 reversible = True
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*3', 1, '*4'],

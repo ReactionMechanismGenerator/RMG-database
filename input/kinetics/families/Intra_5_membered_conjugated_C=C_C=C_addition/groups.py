@@ -13,8 +13,8 @@ J. Phys. Chem. A 2003, 107, 7783-7799.
 template(reactants=["C=C=C-C=C"], products=["C1-CJ2(S)-C=C-C-C1"], ownReverse=False)
 
 reverse = "5_membered_cyclic_conjugated_singlet_carbene_scission"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*5'],
     ['CHANGE_BOND', '*2', -1, '*3'],

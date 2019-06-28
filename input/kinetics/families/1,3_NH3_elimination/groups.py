@@ -20,7 +20,6 @@ atom labeling:
 template(reactants=["RHRNH2"], products=["RR", "NH3"], ownReverse=False)
 
 reverse = "1,3_NH3_addition"
-
 reversible = True
 
 recipe(actions=[
@@ -31,13 +30,13 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "RHRNH2",
-    group =
+    group = 
 """
 1 *1 N   u0 p1 c0 {2,S} {5,S} {6,S}
-2 *2 R!H u0 px c0 {1,S} {3,[S,D]}
-3 *3 R!H u0 px c0 {2,[S,D]} {4,S}
+2 *2 R!H u0 c0 {1,S} {3,[S,D]}
+3 *3 R!H u0 c0 {2,[S,D]} {4,S}
 4 *4 H   u0 p0 c0 {3,S}
 5    H   u0 p0 c0 {1,S}
 6    H   u0 p0 c0 {1,S}
@@ -46,9 +45,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "NHNNH2",
-    group =
+    group = 
 """
 1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 *2 N u0 p1 c0 {1,S} {3,[S,D]}
@@ -61,9 +60,9 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "NNHNNH2",
-    group =
+    group = 
 """
 1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 *2 N u0 p1 c0 {1,S} {3,S}
@@ -71,15 +70,15 @@ entry(
 4 *4 H u0 p0 c0 {3,S}
 5    H u0 p0 c0 {1,S}
 6    H u0 p0 c0 {1,S}
-7    N ux px cx {3,S}
+7    N ux {3,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "NHDNNH2",
-    group =
+    group = 
 """
 1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 *2 N u0 p1 c0 {1,S} {3,D}
@@ -92,9 +91,9 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CHCNH2",
-    group =
+    group = 
 """
 1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 *2 C u0 p0 c0 {1,S} {3,S}
@@ -115,3 +114,4 @@ L1: RHRNH2
     L2: CHCNH2
 """
 )
+

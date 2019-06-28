@@ -1891,30 +1891,8 @@ From kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP
 """,
 )
 
-#entry(
-#    index = 76,
-#    label = "C9H11-5 <=> C9H11-6",
-#    degeneracy = 1.0,
-#    kinetics = Arrhenius(A=(4.255e+12, 's^-1'), n=0.347, Ea=(57.413, 'kcal/mol'), T0=(1, 'K')),
-#    reference = Article(
-#        authors = ['Z. J. Buras', 'T.-C. Chu', 'A. Jamal', 'N. W. Yee', 'J. E. Middaugh', 'W. H. Green'],
-#        title = 'Phenyl radical + propene: a prototypical reaction surface for aromatic-catalyzed 1,2-hydrogen-migration and subsequent resonance-stabilized radical formation',
-#        journal = 'Physical Chemistry Chemical Physics',
-#        volume = '20',
-#        pages = '13191-13214 ',
-#        year = '2018',
-#    ),
-#    referenceType = "theory",
-#    rank = 5,
-#    longDesc = 
-#u"""
-#Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
-#From kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP
-#""",
-#)
-
 entry(
-    index = 77,
+    index = 76,
     label = "C7H9-7 <=> C7H9-8",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.21e+11, 's^-1'), n=0.34, Ea=(21.2, 'kcal/mol'), T0=(1, 'K')),
@@ -1937,7 +1915,7 @@ Taken from entry: prod_13 <=> prod_14
 )
 
 entry(
-    index = 78,
+    index = 77,
     label = "C7H9-9 <=> C7H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.9e+10, 's^-1'), n=0.33, Ea=(6.8, 'kcal/mol'), T0=(1, 'K')),
@@ -1960,7 +1938,7 @@ Taken from entry: prod_16 <=> prod_17
 )
 
 entry(
-    index = 79,
+    index = 78,
     label = "C10H7-3 <=> C10H7-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.926e+10, 's^-1'), n=0.198, Ea=(5.455, 'kcal/mol'), T0=(1, 'K')),
@@ -1983,7 +1961,7 @@ Taken from entry: W1 <=> W2
 )
 
 entry(
-    index = 80,
+    index = 79,
     label = "C10H9-28 <=> C10H9-27",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.953e+11, 's^-1'), n=0.387, Ea=(32.996, 'kcal/mol'), T0=(1, 'K')),
@@ -2006,7 +1984,7 @@ Taken from entry: W3 <=> W11
 )
 
 entry(
-    index = 81,
+    index = 80,
     label = "C10H9-29 <=> C10H9-30",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.076e+11, 's^-1'), n=0.228, Ea=(6.982, 'kcal/mol'), T0=(1, 'K')),
@@ -2029,7 +2007,7 @@ Taken from entry: W3 <=> W4
 )
 
 entry(
-    index = 82,
+    index = 81,
     label = "C6H7-8 <=> C6H7-7",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.018e+12, 's^-1'), n=0.05, Ea=(5.961, 'kcal/mol'), T0=(1, 'K')),
@@ -2050,7 +2028,7 @@ CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 )
 
 entry(
-    index = 83,
+    index = 82,
     label = "C6H7-10 <=> C6H7-9",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.307e+12, 's^-1'), n=0.256, Ea=(36.797, 'kcal/mol'), T0=(1, 'K')),
@@ -2071,7 +2049,7 @@ CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 )
 
 entry(
-    index = 84,
+    index = 83,
     label = "C10H9-31 <=> C10H9-32",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.89e+11, 's^-1'), n=0.12, Ea=(9.6, 'kcal/mol'), T0=(1, 'K')),
@@ -2094,7 +2072,7 @@ Taken from entry: adducta <=> prod1
 )
 
 entry(
-    index = 85,
+    index = 84,
     label = "C10H9-33 <=> C10H9-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.73e+11, 's^-1'), n=0.31, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
@@ -2117,7 +2095,7 @@ Taken from entry: prod1 <=> prod2
 )
 
 entry(
-    index = 86,
+    index = 85,
     label = "C10H9-35 <=> C10H9-36",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4.14e+11, 's^-1'), n=0.34, Ea=(11.9, 'kcal/mol'), T0=(1, 'K')),
@@ -2140,7 +2118,7 @@ Taken from entry: prod2 <=> prod3
 )
 
 entry(
-    index = 87,
+    index = 86,
     label = "C10H9-37 <=> C10H9-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.79e+11, 's^-1'), n=0.33, Ea=(10.5, 'kcal/mol'), T0=(1, 'K')),
@@ -2163,7 +2141,7 @@ Taken from entry: prod3 <=> prod4
 )
 
 entry(
-    index = 88,
+    index = 87,
     label = "C10H9-29 <=> C10H9-30",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.42e+11, 's^-1'), n=0.22, Ea=(4.8, 'kcal/mol'), T0=(1, 'K')),
@@ -2186,7 +2164,7 @@ Taken from entry: prod5 <=> prod4
 )
 
 entry(
-    index = 89,
+    index = 88,
     label = "C10H11-3 <=> C10H11-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.89e+11, 's^-1'), n=0.29, Ea=(15.4, 'kcal/mol'), T0=(1, 'K')),
@@ -2209,7 +2187,7 @@ Taken from entry: adductd <=> pdt7
 )
 
 entry(
-    index = 90,
+    index = 89,
     label = "C10H11-5 <=> C10H11-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.51e+11, 's^-1'), n=0.58, Ea=(29.1, 'kcal/mol'), T0=(1, 'K')),
@@ -2231,31 +2209,8 @@ Taken from entry: pdt7 <=> pdt8
 """,
 )
 
-#entry(
-#    index = 91,
-#    label = "C10H11-7 <=> C10H11-8",
-#    degeneracy = 1.0,
-#    kinetics = Arrhenius(A=(8.39e+10, 's^-1'), n=0.91, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
-#    reference = Article(
-#        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-#        title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-#        journal = 'Energy & Fuels',
-#        volume = '32(3)',
-#        pages = '3920-3934',
-#        year = '2018',
-#    ),
-#    referenceType = "theory",
-#    rank = 5,
-#    longDesc = 
-#u"""
-#Calculations done at CBS-QB3 level of theory
-#From kinetics library: C10H11
-#Taken from entry: pdt8 <=> pdt9
-#""",
-#)
-
 entry(
-    index = 92,
+    index = 90,
     label = "C10H11-9 <=> C10H11-10",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.25e+09, 's^-1'), n=0.76, Ea=(6.2, 'kcal/mol'), T0=(1, 'K')),
@@ -2278,7 +2233,7 @@ Taken from entry: pdt9 <=> pdt10bis
 )
 
 entry(
-    index = 93,
+    index = 91,
     label = "C10H11-11 <=> C10H11-12",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.43e+11, 's^-1'), n=0.21, Ea=(8.5, 'kcal/mol'), T0=(1, 'K')),
@@ -2301,7 +2256,7 @@ Taken from entry: adducte <=> pdt7
 )
 
 entry(
-    index = 94,
+    index = 92,
     label = "C10H11-13 <=> C10H11-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.76e+10, 's^-1'), n=0.78, Ea=(24.5, 'kcal/mol'), T0=(1, 'K')),
@@ -2324,7 +2279,7 @@ Taken from entry: pdt10bis <=> pdt12
 )
 
 entry(
-    index = 95,
+    index = 93,
     label = "C10H11-15 <=> C10H11-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.02e+11, 's^-1'), n=0.85, Ea=(46.1, 'kcal/mol'), T0=(1, 'K')),
@@ -2347,7 +2302,7 @@ Taken from entry: adductd <=> pdt14
 )
 
 entry(
-    index = 96,
+    index = 94,
     label = "C10H11-17 <=> C10H11-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.29e+09, 's^-1'), n=1.04, Ea=(31.2, 'kcal/mol'), T0=(1, 'K')),
@@ -2370,7 +2325,7 @@ Taken from entry: pdt15 <=> pdt16
 )
 
 entry(
-    index = 97,
+    index = 95,
     label = "C10H11-19 <=> C10H11-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.47e+10, 's^-1'), n=0.79, Ea=(29, 'kcal/mol'), T0=(1, 'K')),
@@ -2393,7 +2348,7 @@ Taken from entry: pdt17 <=> pdt18
 )
 
 entry(
-    index = 98,
+    index = 96,
     label = "C10H11-21 <=> C10H11-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.69e+11, 's^-1'), n=0.22, Ea=(40, 'kcal/mol'), T0=(1, 'K')),
@@ -2416,7 +2371,7 @@ Taken from entry: pdt18 <=> pdt19
 )
 
 entry(
-    index = 99,
+    index = 97,
     label = "C10H11-23 <=> C10H11-24",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.9e+10, 's^-1'), n=0.29, Ea=(21.1, 'kcal/mol'), T0=(1, 'K')),
@@ -2439,7 +2394,7 @@ Taken from entry: pdt20 <=> pdt21
 )
 
 entry(
-    index = 100,
+    index = 98,
     label = "C10H11-25 <=> C10H11-26",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.19e+11, 's^-1'), n=0.08, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
@@ -2461,31 +2416,8 @@ Taken from entry: pdt14 <=> pdt23
 """,
 )
 
-#entry(
-#    index = 101,
-#    label = "C10H11-27 <=> C10H11-28",
-#    degeneracy = 1.0,
-#    kinetics = Arrhenius(A=(1.27e+10, 's^-1'), n=1.01, Ea=(40.7, 'kcal/mol'), T0=(1, 'K')),
-#    reference = Article(
-#        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-#        title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-#        journal = 'Energy & Fuels',
-#        volume = '32(3)',
-#        pages = '3920-3934',
-#        year = '2018',
-#    ),
-#    referenceType = "theory",
-#    rank = 5,
-#    longDesc = 
-#u"""
-#Calculations done at CBS-QB3 level of theory
-#From kinetics library: C10H11
-#Taken from entry: pdt23 <=> pdt9
-#""",
-#)
-
 entry(
-    index = 102,
+    index = 99,
     label = "C10H11-29 <=> C10H11-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.48e+11, 's^-1'), n=0.26, Ea=(7.2, 'kcal/mol'), T0=(1, 'K')),
@@ -2508,7 +2440,7 @@ Taken from entry: pdt17 <=> pdt24
 )
 
 entry(
-    index = 103,
+    index = 100,
     label = "C10H11-31 <=> C10H11-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.43e+12, 's^-1'), n=0.31, Ea=(18.2, 'kcal/mol'), T0=(1, 'K')),
@@ -2531,7 +2463,7 @@ Taken from entry: pdt24 <=> pdt28
 )
 
 entry(
-    index = 104,
+    index = 101,
     label = "C10H11-33 <=> C10H11-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11, 's^-1'), n=0.41, Ea=(32.4, 'kcal/mol'), T0=(1, 'K')),
@@ -2554,7 +2486,7 @@ Taken from entry: pdt25 <=> pdt32
 )
 
 entry(
-    index = 105,
+    index = 102,
     label = "C10H11-35 <=> C10H11-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.16e+10, 's^-1'), n=0.2, Ea=(24.2, 'kcal/mol'), T0=(1, 'K')),
@@ -2577,7 +2509,7 @@ Taken from entry: pdt33 <=> pdt29
 )
 
 entry(
-    index = 106,
+    index = 103,
     label = "C10H11-37 <=> C10H11-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.38e+09, 's^-1'), n=1.08, Ea=(42.3, 'kcal/mol'), T0=(1, 'K')),
@@ -2600,7 +2532,7 @@ Taken from entry: pdt39 <=> pdt33
 )
 
 entry(
-    index = 107,
+    index = 104,
     label = "C10H11-39 <=> C10H11-40",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.51e+11, 's^-1'), n=0.28, Ea=(12.9, 'kcal/mol'), T0=(1, 'K')),
@@ -2623,7 +2555,7 @@ Taken from entry: pdt14 <=> pdt57
 )
 
 entry(
-    index = 108,
+    index = 105,
     label = "C10H11-41 <=> C10H11-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.75e+11, 's^-1'), n=0.44, Ea=(18.7, 'kcal/mol'), T0=(1, 'K')),
@@ -2646,7 +2578,7 @@ Taken from entry: pdt57 <=> pdt12
 )
 
 entry(
-    index = 109,
+    index = 106,
     label = "C7H9-11 <=> C7H9-12",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.69e+11, 's^-1'), n=0.24, Ea=(4.6, 'kcal/mol'), T0=(1, 'K')),
@@ -2669,7 +2601,7 @@ Taken from entry: addA <=> product1
 )
 
 entry(
-    index = 110,
+    index = 107,
     label = "C7H9-13 <=> C7H9-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.21e+11, 's^-1'), n=0.46, Ea=(16.2, 'kcal/mol'), T0=(1, 'K')),
@@ -2692,7 +2624,7 @@ Taken from entry: product1 <=> product2
 )
 
 entry(
-    index = 111,
+    index = 108,
     label = "C7H9-15 <=> C7H9-16",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.52e+11, 's^-1'), n=0.16, Ea=(10, 'kcal/mol'), T0=(1, 'K')),
@@ -2715,7 +2647,7 @@ Taken from entry: addB <=> product3
 )
 
 entry(
-    index = 112,
+    index = 109,
     label = "C7H9-17 <=> C7H9-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.56e+11, 's^-1'), n=0.55, Ea=(26.5, 'kcal/mol'), T0=(1, 'K')),
@@ -2738,7 +2670,7 @@ Taken from entry: product3 <=> product4
 )
 
 entry(
-    index = 113,
+    index = 110,
     label = "C7H9-19 <=> C7H9-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.77e+10, 's^-1'), n=0.87, Ea=(35, 'kcal/mol'), T0=(1, 'K')),
@@ -2761,7 +2693,7 @@ Taken from entry: addC <=> product16
 )
 
 entry(
-    index = 114,
+    index = 111,
     label = "C7H9-21 <=> C7H9-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.17e+10, 's^-1'), n=0.34, Ea=(31.2, 'kcal/mol'), T0=(1, 'K')),
@@ -2784,7 +2716,7 @@ Taken from entry: addC <=> product6
 )
 
 entry(
-    index = 115,
+    index = 112,
     label = "C7H9-23 <=> C7H9-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.37e+11, 's^-1'), n=0.73, Ea=(25.5, 'kcal/mol'), T0=(1, 'K')),
@@ -2807,7 +2739,7 @@ Taken from entry: product6 <=> product5
 )
 
 entry(
-    index = 116,
+    index = 113,
     label = "C7H9-25 <=> C7H9-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.01e+11, 's^-1'), n=0.59, Ea=(21.3, 'kcal/mol'), T0=(1, 'K')),
@@ -2830,7 +2762,7 @@ Taken from entry: product8 <=> product9
 )
 
 entry(
-    index = 117,
+    index = 114,
     label = "C7H9-27 <=> C7H9-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.56e+10, 's^-1'), n=1.17, Ea=(48.6, 'kcal/mol'), T0=(1, 'K')),
@@ -2853,7 +2785,7 @@ Taken from entry: product10 <=> product11
 )
 
 entry(
-    index = 118,
+    index = 115,
     label = "C7H9-29 <=> C7H9-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.12e+11, 's^-1'), n=0.26, Ea=(22.8, 'kcal/mol'), T0=(1, 'K')),
@@ -2876,7 +2808,7 @@ Taken from entry: product11 <=> product12
 )
 
 entry(
-    index = 119,
+    index = 116,
     label = "C7H9-31 <=> C7H9-32",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.98e+11, 's^-1'), n=0.06, Ea=(19.3, 'kcal/mol'), T0=(1, 'K')),
@@ -2899,7 +2831,7 @@ Taken from entry: addB <=> product17
 )
 
 entry(
-    index = 120,
+    index = 117,
     label = "C7H9-33 <=> C7H9-34",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.29e+12, 's^-1'), n=0.15, Ea=(2.8, 'kcal/mol'), T0=(1, 'K')),
@@ -2922,7 +2854,7 @@ Taken from entry: product18 <=> product19
 )
 
 entry(
-    index = 121,
+    index = 118,
     label = "C7H9-35 <=> C7H9-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.58e+12, 's^-1'), n=0.31, Ea=(16, 'kcal/mol'), T0=(1, 'K')),
@@ -2945,7 +2877,7 @@ Taken from entry: product19 <=> product20
 )
 
 entry(
-    index = 122,
+    index = 119,
     label = "C7H9-37 <=> C7H9-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.41e+11, 's^-1'), n=0.2, Ea=(46.8, 'kcal/mol'), T0=(1, 'K')),
@@ -2968,7 +2900,7 @@ Taken from entry: product21 <=> product23
 )
 
 entry(
-    index = 123,
+    index = 120,
     label = "C7H9-39 <=> C7H9-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.18e+11, 's^-1'), n=0.82, Ea=(22.4, 'kcal/mol'), T0=(1, 'K')),
@@ -2991,7 +2923,7 @@ Taken from entry: product23 <=> product24
 )
 
 entry(
-    index = 124,
+    index = 121,
     label = "C7H9-41 <=> C7H9-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.95e+10, 's^-1'), n=1.05, Ea=(39.9, 'kcal/mol'), T0=(1, 'K')),
@@ -3014,7 +2946,7 @@ Taken from entry: product25 <=> product26
 )
 
 entry(
-    index = 125,
+    index = 122,
     label = "C7H9-43 <=> C7H9-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.81e+10, 's^-1'), n=0.91, Ea=(32, 'kcal/mol'), T0=(1, 'K')),
@@ -3037,7 +2969,7 @@ Taken from entry: product26 <=> product11
 )
 
 entry(
-    index = 126,
+    index = 123,
     label = "C7H9-45 <=> C7H9-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.11e+10, 's^-1'), n=0.18, Ea=(66.6, 'kcal/mol'), T0=(1, 'K')),
@@ -3060,7 +2992,7 @@ Taken from entry: product22 <=> product29
 )
 
 entry(
-    index = 127,
+    index = 124,
     label = "C7H7 <=> C7H7-2",
     degeneracy = 7.0,
     kinetics = Arrhenius(A=(1.56e+13, 's^-1'), n=0, Ea=(43.5, 'kcal/mol'), T0=(1, 'K')),
@@ -3083,7 +3015,7 @@ Taken from entry: product33 <=> product34
 )
 
 entry(
-    index = 128,
+    index = 125,
     label = "C7H9-47 <=> C7H9-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.51e+10, 's^-1'), n=0.25, Ea=(4.6, 'kcal/mol'), T0=(1, 'K')),
@@ -3106,7 +3038,7 @@ Taken from entry: product35 <=> product36
 )
 
 entry(
-    index = 129,
+    index = 126,
     label = "C7H9-49 <=> C7H9-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4e+12, 's^-1'), n=0.39, Ea=(16, 'kcal/mol'), T0=(1, 'K')),
@@ -3129,7 +3061,7 @@ Taken from entry: product36 <=> product37
 )
 
 entry(
-    index = 130,
+    index = 127,
     label = "C7H7-3 <=> C7H7-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.25e+11, 's^-1'), n=0.16, Ea=(9.81, 'kcal/mol'), T0=(1, 'K')),
@@ -3150,7 +3082,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 131,
+    index = 128,
     label = "C7H7-5 <=> C7H7-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.51e+12, 's^-1'), n=0.26, Ea=(25.25, 'kcal/mol'), T0=(1, 'K')),
@@ -3171,7 +3103,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 132,
+    index = 129,
     label = "C7H7-7 <=> C7H7-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.85e+11, 's^-1'), n=0.49, Ea=(3, 'kcal/mol'), T0=(1, 'K')),
@@ -3194,7 +3126,7 @@ Taken from entry: product46 <=> BENZYL
 )
 
 entry(
-    index = 133,
+    index = 130,
     label = "C4H5 <=> C4H5-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.605e+12, 's^-1'), n=0.275, Ea=(32.899, 'kcal/mol'), T0=(1, 'K')),
@@ -3215,7 +3147,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 134,
+    index = 131,
     label = "C4H5-3 <=> C4H5-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.631e+12, 's^-1'), n=0.216, Ea=(46.951, 'kcal/mol'), T0=(1, 'K')),
@@ -3236,7 +3168,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 135,
+    index = 132,
     label = "C4H5-5 <=> C4H5-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.403e+13, 's^-1'), n=0.233, Ea=(17.146, 'kcal/mol'), T0=(1, 'K')),
@@ -3257,7 +3189,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 136,
+    index = 133,
     label = "C4H5-7 <=> C4H5-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.114e+13, 's^-1'), n=0.256, Ea=(8.237, 'kcal/mol'), T0=(1, 'K')),
@@ -3278,7 +3210,7 @@ CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 )
 
 entry(
-    index = 137,
+    index = 134,
     label = "C7H7-9 <=> C7H7-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.1e+12, 's^-1'), n=0.14, Ea=(0.3, 'kcal/mol'), T0=(1, 'K')),
@@ -3299,7 +3231,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 138,
+    index = 135,
     label = "C7H7-11 <=> C7H7-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.24e+12, 's^-1'), n=0.31, Ea=(3.62, 'kcal/mol'), T0=(1, 'K')),
@@ -3320,7 +3252,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 139,
+    index = 136,
     label = "C7H7-13 <=> C7H7-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.98e+12, 's^-1'), n=0.5, Ea=(61, 'kcal/mol'), T0=(1, 'K')),
@@ -3341,7 +3273,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 140,
+    index = 137,
     label = "C7H7-15 <=> C7H7-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.8e+13, 's^-1'), n=0.15, Ea=(19.35, 'kcal/mol'), T0=(1, 'K')),
@@ -3362,7 +3294,7 @@ G3SX//B3LYP/6-31G(2df,p)
 )
 
 entry(
-    index = 141,
+    index = 138,
     label = "C5H7-3 <=> C5H7-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3381,7 +3313,7 @@ Converted to training reaction from rate rule: R5_SD_D;doublebond_intra_pri_2H;r
 )
 
 entry(
-    index = 142,
+    index = 139,
     label = "C5H7-5 <=> C5H7-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3402,7 +3334,7 @@ Converted to training reaction from rate rule: R3_D;doublebond_intra_pri_HDe;rad
 )
 
 entry(
-    index = 143,
+    index = 140,
     label = "C3H3 <=> C3H3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3421,7 +3353,7 @@ Converted to training reaction from rate rule: R3_T;triplebond_intra_H;radadd_in
 )
 
 entry(
-    index = 144,
+    index = 141,
     label = "C5H7-3 <=> C5H7-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3441,7 +3373,7 @@ Converted to training reaction from rate rule: R5_SM;multiplebond_intra;radadd_i
 )
 
 entry(
-    index = 145,
+    index = 142,
     label = "C4H7S <=> C4H7S-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3461,7 +3393,7 @@ Converted to training reaction from rate rule: Cs-R5_SS_CS;thiyl_intra_H;radadd_
 )
 
 entry(
-    index = 146,
+    index = 143,
     label = "C6H7-11 <=> C6H7-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3481,7 +3413,7 @@ Converted to training reaction from rate rule: R6_SMM;multiplebond_intra;radadd_
 )
 
 entry(
-    index = 147,
+    index = 144,
     label = "C5H7S <=> C5H7S-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3501,7 +3433,7 @@ Converted to training reaction from rate rule: R5_SD_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 148,
+    index = 145,
     label = "C5H7 <=> C5H7-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3521,7 +3453,7 @@ Converted to training reaction from rate rule: R5_DS_D;doublebond_intra_pri_2H;r
 )
 
 entry(
-    index = 149,
+    index = 146,
     label = "C6H9-9 <=> C6H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3541,7 +3473,7 @@ Converted to training reaction from rate rule: R6_DSS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 151,
+    index = 147,
     label = "C6H9-9 <=> C6H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3561,7 +3493,7 @@ Converted to training reaction from rate rule: R6_MSR;multiplebond_intra;radadd_
 )
 
 entry(
-    index = 153,
+    index = 148,
     label = "C_CCCCCJC <=> 3-methylcyclohexyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3581,7 +3513,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 154,
+    index = 149,
     label = "C_CCCCCJ(C)C <=> 3,3-dimethylcyclohexyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3601,7 +3533,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 155,
+    index = 150,
     label = "C8H13 <=> C8H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3621,7 +3553,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 156,
+    index = 151,
     label = "C9H15 <=> C9H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3641,7 +3573,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 157,
+    index = 152,
     label = "C8H11 <=> C8H11-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3661,7 +3593,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 158,
+    index = 153,
     label = "C9H13 <=> C9H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3681,7 +3613,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 160,
+    index = 154,
     label = "CC_CCCCCJ <=> 2-methylcyclohexyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3701,7 +3633,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 161,
+    index = 155,
     label = "C8H15 <=> C8H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3721,7 +3653,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 162,
+    index = 156,
     label = "C9H17 <=> C9H17-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3741,7 +3673,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 163,
+    index = 157,
     label = "C9H15-3 <=> C9H15-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3761,7 +3693,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 164,
+    index = 158,
     label = "C10H17 <=> C10H17-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3781,7 +3713,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 165,
+    index = 159,
     label = "C9H13-3 <=> C9H13-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3801,7 +3733,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 166,
+    index = 160,
     label = "C10H15 <=> C10H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3821,7 +3753,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 168,
+    index = 161,
     label = "CC(C)_CCCCCJ <=> C8H15-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3841,7 +3773,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 169,
+    index = 162,
     label = "C9H17-3 <=> C9H17-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3861,7 +3793,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 170,
+    index = 163,
     label = "C10H19 <=> C10H19-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3881,7 +3813,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 171,
+    index = 164,
     label = "C10H17-3 <=> C10H17-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3901,7 +3833,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 172,
+    index = 165,
     label = "C11H19 <=> C11H19-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3921,7 +3853,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 173,
+    index = 166,
     label = "C10H15-3 <=> C10H15-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3941,7 +3873,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 174,
+    index = 167,
     label = "C11H17 <=> C11H17-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3961,7 +3893,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 176,
+    index = 168,
     label = "C8H13-3 <=> C8H13-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -3981,7 +3913,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 177,
+    index = 169,
     label = "C9H15-5 <=> C9H15-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4001,7 +3933,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 178,
+    index = 170,
     label = "C10H17-5 <=> C10H17-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4021,7 +3953,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 179,
+    index = 171,
     label = "C10H15-5 <=> C10H15-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4041,7 +3973,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 180,
+    index = 172,
     label = "C11H17-3 <=> C11H17-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4061,7 +3993,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 181,
+    index = 173,
     label = "C10H13 <=> C10H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4081,7 +4013,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 182,
+    index = 174,
     label = "C11H15 <=> C11H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4101,7 +4033,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 184,
+    index = 175,
     label = "C9H15-7 <=> C9H15-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4121,7 +4053,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 185,
+    index = 176,
     label = "C10H17-7 <=> C10H17-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4141,7 +4073,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 186,
+    index = 177,
     label = "C11H19-3 <=> C11H19-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4161,7 +4093,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 187,
+    index = 178,
     label = "C11H17-5 <=> C11H17-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4181,7 +4113,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 188,
+    index = 179,
     label = "C12H19 <=> C12H19-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4201,7 +4133,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 189,
+    index = 180,
     label = "C11H15-3 <=> C11H15-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4221,7 +4153,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 190,
+    index = 181,
     label = "C12H17 <=> C12H17-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4241,7 +4173,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 192,
+    index = 182,
     label = "C8H11-3 <=> C8H11-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4261,7 +4193,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 193,
+    index = 183,
     label = "C9H13-5 <=> C9H13-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4281,7 +4213,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 194,
+    index = 184,
     label = "C10H15-7 <=> C10H15-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4301,7 +4233,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 195,
+    index = 185,
     label = "C10H13-3 <=> C10H13-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4321,7 +4253,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 196,
+    index = 186,
     label = "C11H15-5 <=> C11H15-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4341,7 +4273,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 197,
+    index = 187,
     label = "C10H11-43 <=> C10H11-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4361,7 +4293,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 198,
+    index = 188,
     label = "C11H13 <=> C11H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4381,7 +4313,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 200,
+    index = 189,
     label = "C9H13-7 <=> C9H13-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4401,7 +4333,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 201,
+    index = 190,
     label = "C10H15-9 <=> C10H15-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4421,7 +4353,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 202,
+    index = 191,
     label = "C11H17-7 <=> C11H17-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4441,7 +4373,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 203,
+    index = 192,
     label = "C11H15-7 <=> C11H15-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4461,7 +4393,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 204,
+    index = 193,
     label = "C12H17-3 <=> C12H17-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4481,7 +4413,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 205,
+    index = 194,
     label = "C11H13-3 <=> C11H13-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4501,7 +4433,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 206,
+    index = 195,
     label = "C12H15 <=> C12H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4521,7 +4453,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 209,
+    index = 196,
     label = "C_CCCJC <=> 3-methylcyclobutyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4541,7 +4473,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;ra
 )
 
 entry(
-    index = 210,
+    index = 197,
     label = "C_CCCJ(C)C <=> 3,3-dimethylcyclobutyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4561,7 +4493,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;ra
 )
 
 entry(
-    index = 211,
+    index = 198,
     label = "C6H9-11 <=> C6H9-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4581,7 +4513,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;ra
 )
 
 entry(
-    index = 212,
+    index = 199,
     label = "C7H11-7 <=> C7H11-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4601,7 +4533,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;ra
 )
 
 entry(
-    index = 213,
+    index = 200,
     label = "C6H7-13 <=> C6H7-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4621,7 +4553,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;ra
 )
 
 entry(
-    index = 214,
+    index = 201,
     label = "C7H9-51 <=> C7H9-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4641,7 +4573,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;ra
 )
 
 entry(
-    index = 216,
+    index = 202,
     label = "CC_CCCJ <=> 2-methylcyclobutyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4661,7 +4593,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;r
 )
 
 entry(
-    index = 217,
+    index = 203,
     label = "C6H11 <=> C6H11-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4681,7 +4613,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;r
 )
 
 entry(
-    index = 218,
+    index = 204,
     label = "C7H13 <=> C7H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4701,7 +4633,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;r
 )
 
 entry(
-    index = 219,
+    index = 205,
     label = "C7H11-9 <=> C7H11-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4721,7 +4653,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;r
 )
 
 entry(
-    index = 220,
+    index = 206,
     label = "C8H13-5 <=> C8H13-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4741,7 +4673,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;r
 )
 
 entry(
-    index = 221,
+    index = 207,
     label = "C7H9-53 <=> C7H9-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4761,7 +4693,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;r
 )
 
 entry(
-    index = 222,
+    index = 208,
     label = "C8H11-5 <=> C8H11-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4781,7 +4713,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;r
 )
 
 entry(
-    index = 224,
+    index = 209,
     label = "CC(C)_CCCJ <=> C6H11-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4801,7 +4733,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;
 )
 
 entry(
-    index = 225,
+    index = 210,
     label = "C7H13-3 <=> C7H13-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4821,7 +4753,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;
 )
 
 entry(
-    index = 226,
+    index = 211,
     label = "C8H15-4 <=> C8H15-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4841,7 +4773,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;
 )
 
 entry(
-    index = 227,
+    index = 212,
     label = "C8H13-7 <=> C8H13-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4861,7 +4793,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;
 )
 
 entry(
-    index = 228,
+    index = 213,
     label = "C9H15-9 <=> C9H15-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4881,7 +4813,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;
 )
 
 entry(
-    index = 229,
+    index = 214,
     label = "C8H11-7 <=> C8H11-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4901,7 +4833,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;
 )
 
 entry(
-    index = 230,
+    index = 215,
     label = "C9H13-9 <=> C9H13-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4921,7 +4853,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;
 )
 
 entry(
-    index = 232,
+    index = 216,
     label = "C6H9-13 <=> C6H9-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4941,7 +4873,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;r
 )
 
 entry(
-    index = 233,
+    index = 217,
     label = "C7H11-11 <=> C7H11-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4961,7 +4893,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;r
 )
 
 entry(
-    index = 234,
+    index = 218,
     label = "C8H13-9 <=> C8H13-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -4981,7 +4913,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;r
 )
 
 entry(
-    index = 235,
+    index = 219,
     label = "C8H11-9 <=> C8H11-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5001,7 +4933,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;r
 )
 
 entry(
-    index = 236,
+    index = 220,
     label = "C9H13-11 <=> C9H13-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5021,7 +4953,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;r
 )
 
 entry(
-    index = 237,
+    index = 221,
     label = "C8H9 <=> C8H9-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5041,7 +4973,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;r
 )
 
 entry(
-    index = 238,
+    index = 222,
     label = "C9H11-7 <=> C9H11-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5061,7 +4993,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;r
 )
 
 entry(
-    index = 240,
+    index = 223,
     label = "C7H11-13 <=> C7H11-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5081,7 +5013,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;
 )
 
 entry(
-    index = 241,
+    index = 224,
     label = "C8H13-11 <=> C8H13-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5101,7 +5033,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;
 )
 
 entry(
-    index = 242,
+    index = 225,
     label = "C9H15-11 <=> C9H15-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5121,7 +5053,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;
 )
 
 entry(
-    index = 243,
+    index = 226,
     label = "C9H13-13 <=> C9H13-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5141,7 +5073,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;
 )
 
 entry(
-    index = 244,
+    index = 227,
     label = "C10H15-11 <=> C10H15-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5161,7 +5093,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;
 )
 
 entry(
-    index = 245,
+    index = 228,
     label = "C9H11-9 <=> C9H11-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5181,7 +5113,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;
 )
 
 entry(
-    index = 246,
+    index = 229,
     label = "C10H13-5 <=> C10H13-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5201,7 +5133,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;
 )
 
 entry(
-    index = 248,
+    index = 230,
     label = "C6H7-15 <=> C6H7-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5221,7 +5153,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;r
 )
 
 entry(
-    index = 249,
+    index = 231,
     label = "C7H9-55 <=> C7H9-56",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5241,7 +5173,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;r
 )
 
 entry(
-    index = 250,
+    index = 232,
     label = "C8H11-11 <=> C8H11-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5261,7 +5193,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;r
 )
 
 entry(
-    index = 251,
+    index = 233,
     label = "C8H9-3 <=> C8H9-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5281,7 +5213,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;r
 )
 
 entry(
-    index = 252,
+    index = 234,
     label = "C9H11-11 <=> C9H11-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5301,7 +5233,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;r
 )
 
 entry(
-    index = 253,
+    index = 235,
     label = "C8H7 <=> C8H7-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5321,7 +5253,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;r
 )
 
 entry(
-    index = 254,
+    index = 236,
     label = "C9H9-9 <=> C9H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5341,7 +5273,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;r
 )
 
 entry(
-    index = 256,
+    index = 237,
     label = "C7H9-57 <=> C7H9-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5361,7 +5293,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;
 )
 
 entry(
-    index = 257,
+    index = 238,
     label = "C8H11-13 <=> C8H11-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5381,7 +5313,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;
 )
 
 entry(
-    index = 258,
+    index = 239,
     label = "C9H13-15 <=> C9H13-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5401,7 +5333,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;
 )
 
 entry(
-    index = 259,
+    index = 240,
     label = "C9H11-13 <=> C9H11-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5421,7 +5353,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;
 )
 
 entry(
-    index = 260,
+    index = 241,
     label = "C10H13-7 <=> C10H13-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5441,7 +5373,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;
 )
 
 entry(
-    index = 261,
+    index = 242,
     label = "C9H9-11 <=> C9H9-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5461,7 +5393,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;
 )
 
 entry(
-    index = 262,
+    index = 243,
     label = "C10H11-45 <=> C10H11-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5481,7 +5413,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;
 )
 
 entry(
-    index = 265,
+    index = 244,
     label = "C_CCCCJC <=> 3-methylcyclopentyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5501,7 +5433,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;r
 )
 
 entry(
-    index = 266,
+    index = 245,
     label = "C_CCCCJ(C)C <=> 3,3-dimethylcyclopentyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5521,7 +5453,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;r
 )
 
 entry(
-    index = 267,
+    index = 246,
     label = "C7H11-15 <=> C7H11-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5541,7 +5473,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;r
 )
 
 entry(
-    index = 268,
+    index = 247,
     label = "C8H13-13 <=> C8H13-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5561,7 +5493,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;r
 )
 
 entry(
-    index = 269,
+    index = 248,
     label = "C7H9-59 <=> C7H9-60",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5581,7 +5513,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;r
 )
 
 entry(
-    index = 270,
+    index = 249,
     label = "C8H11-15 <=> C8H11-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5601,7 +5533,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;r
 )
 
 entry(
-    index = 272,
+    index = 250,
     label = "CC_CCCCJ <=> 2-methylcyclopentyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5621,7 +5553,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 273,
+    index = 251,
     label = "C7H13-5 <=> C7H13-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5641,7 +5573,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 274,
+    index = 252,
     label = "C8H15-6 <=> C8H15-7",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5661,7 +5593,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 275,
+    index = 253,
     label = "C8H13-15 <=> C8H13-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5681,7 +5613,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 276,
+    index = 254,
     label = "C9H15-13 <=> C9H15-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5701,7 +5633,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 277,
+    index = 255,
     label = "C8H11-17 <=> C8H11-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5721,7 +5653,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 278,
+    index = 256,
     label = "C9H13-17 <=> C9H13-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5741,7 +5673,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 280,
+    index = 257,
     label = "CC(C)_CCCCJ <=> C7H13-7",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5761,7 +5693,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd
 )
 
 entry(
-    index = 281,
+    index = 258,
     label = "C8H15-8 <=> C8H15-9",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5781,7 +5713,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd
 )
 
 entry(
-    index = 282,
+    index = 259,
     label = "C9H17-5 <=> C9H17-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5801,7 +5733,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd
 )
 
 entry(
-    index = 283,
+    index = 260,
     label = "C9H15-15 <=> C9H15-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5821,7 +5753,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd
 )
 
 entry(
-    index = 284,
+    index = 261,
     label = "C10H17-9 <=> C10H17-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5841,7 +5773,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd
 )
 
 entry(
-    index = 285,
+    index = 262,
     label = "C9H13-19 <=> C9H13-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5861,7 +5793,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd
 )
 
 entry(
-    index = 286,
+    index = 263,
     label = "C10H15-13 <=> C10H15-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5881,7 +5813,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd
 )
 
 entry(
-    index = 288,
+    index = 264,
     label = "C7H11-17 <=> C7H11-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5901,7 +5833,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;
 )
 
 entry(
-    index = 289,
+    index = 265,
     label = "C8H13-17 <=> C8H13-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5921,7 +5853,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;
 )
 
 entry(
-    index = 290,
+    index = 266,
     label = "C9H15-17 <=> C9H15-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5941,7 +5873,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;
 )
 
 entry(
-    index = 291,
+    index = 267,
     label = "C9H13-21 <=> C9H13-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5961,7 +5893,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;
 )
 
 entry(
-    index = 292,
+    index = 268,
     label = "C10H15-15 <=> C10H15-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -5981,7 +5913,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;
 )
 
 entry(
-    index = 293,
+    index = 269,
     label = "C9H11-15 <=> C9H11-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6001,7 +5933,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;
 )
 
 entry(
-    index = 294,
+    index = 270,
     label = "C10H13-9 <=> C10H13-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6021,7 +5953,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;
 )
 
 entry(
-    index = 296,
+    index = 271,
     label = "C8H13-19 <=> C8H13-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6041,7 +5973,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd
 )
 
 entry(
-    index = 297,
+    index = 272,
     label = "C9H15-19 <=> C9H15-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6061,7 +5993,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd
 )
 
 entry(
-    index = 298,
+    index = 273,
     label = "C10H17-11 <=> C10H17-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6081,7 +6013,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd
 )
 
 entry(
-    index = 299,
+    index = 274,
     label = "C10H15-17 <=> C10H15-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6101,7 +6033,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd
 )
 
 entry(
-    index = 300,
+    index = 275,
     label = "C11H17-9 <=> C11H17-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6121,7 +6053,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd
 )
 
 entry(
-    index = 301,
+    index = 276,
     label = "C10H13-11 <=> C10H13-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6141,7 +6073,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd
 )
 
 entry(
-    index = 302,
+    index = 277,
     label = "C11H15-9 <=> C11H15-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6161,7 +6093,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd
 )
 
 entry(
-    index = 304,
+    index = 278,
     label = "C7H9-61 <=> C7H9-62",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6181,7 +6113,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;
 )
 
 entry(
-    index = 305,
+    index = 279,
     label = "C8H11-19 <=> C8H11-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6201,7 +6133,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;
 )
 
 entry(
-    index = 306,
+    index = 280,
     label = "C9H13-23 <=> C9H13-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6221,7 +6153,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;
 )
 
 entry(
-    index = 307,
+    index = 281,
     label = "C9H11-17 <=> C9H11-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6241,7 +6173,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;
 )
 
 entry(
-    index = 308,
+    index = 282,
     label = "C10H13-13 <=> C10H13-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6261,7 +6193,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;
 )
 
 entry(
-    index = 309,
+    index = 283,
     label = "C9H9-13 <=> C9H9-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6281,7 +6213,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;
 )
 
 entry(
-    index = 310,
+    index = 284,
     label = "C10H11-47 <=> C10H11-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6301,7 +6233,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;
 )
 
 entry(
-    index = 312,
+    index = 285,
     label = "C8H11-21 <=> C8H11-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6321,7 +6253,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt
 )
 
 entry(
-    index = 313,
+    index = 286,
     label = "C9H13-25 <=> C9H13-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6341,7 +6273,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt
 )
 
 entry(
-    index = 314,
+    index = 287,
     label = "C10H15-19 <=> C10H15-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6361,7 +6293,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt
 )
 
 entry(
-    index = 315,
+    index = 288,
     label = "C10H13-15 <=> C10H13-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6381,7 +6313,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt
 )
 
 entry(
-    index = 316,
+    index = 289,
     label = "C11H15-11 <=> C11H15-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6401,7 +6333,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt
 )
 
 entry(
-    index = 317,
+    index = 290,
     label = "C10H11-49 <=> C10H11-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6421,7 +6353,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt
 )
 
 entry(
-    index = 318,
+    index = 291,
     label = "C11H13-5 <=> C11H13-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6441,7 +6373,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt
 )
 
 entry(
-    index = 320,
+    index = 292,
     label = "C6H9-7 <=> C6H9-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6461,7 +6393,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 321,
+    index = 293,
     label = "C7H11-19 <=> C7H11-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6481,7 +6413,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 322,
+    index = 294,
     label = "C8H13-21 <=> C8H13-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6501,7 +6433,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 323,
+    index = 295,
     label = "C8H11-23 <=> C8H11-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6521,7 +6453,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 324,
+    index = 296,
     label = "C9H13-27 <=> C9H13-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6541,7 +6473,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 325,
+    index = 297,
     label = "C8H9-5 <=> C8H9-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6561,7 +6493,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 326,
+    index = 298,
     label = "C9H11-19 <=> C9H11-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6581,7 +6513,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 328,
+    index = 299,
     label = "C7H11-21 <=> C7H11-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6601,7 +6533,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 329,
+    index = 300,
     label = "C8H13-23 <=> C8H13-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6621,7 +6553,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 330,
+    index = 301,
     label = "C9H15-21 <=> C9H15-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6641,7 +6573,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 331,
+    index = 302,
     label = "C9H13-29 <=> C9H13-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6661,7 +6593,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 332,
+    index = 303,
     label = "C10H15-21 <=> C10H15-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6681,7 +6613,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 333,
+    index = 304,
     label = "C9H11-21 <=> C9H11-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6701,7 +6633,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 334,
+    index = 305,
     label = "C10H13-17 <=> C10H13-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6721,7 +6653,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 336,
+    index = 306,
     label = "C8H13-25 <=> C8H13-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6741,7 +6673,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 337,
+    index = 307,
     label = "C9H15-23 <=> C9H15-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6761,7 +6693,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 338,
+    index = 308,
     label = "C10H17-13 <=> C10H17-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6781,7 +6713,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 339,
+    index = 309,
     label = "C10H15-23 <=> C10H15-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6801,7 +6733,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 340,
+    index = 310,
     label = "C11H17-11 <=> C11H17-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6821,7 +6753,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 341,
+    index = 311,
     label = "C10H13-19 <=> C10H13-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6841,7 +6773,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 342,
+    index = 312,
     label = "C11H15-13 <=> C11H15-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6861,7 +6793,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdN
 )
 
 entry(
-    index = 344,
+    index = 313,
     label = "C8H11-25 <=> C8H11-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6881,7 +6813,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 345,
+    index = 314,
     label = "C9H13-31 <=> C9H13-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6901,7 +6833,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 346,
+    index = 315,
     label = "C10H15-25 <=> C10H15-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6921,7 +6853,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 347,
+    index = 316,
     label = "C10H13-21 <=> C10H13-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6941,7 +6873,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 348,
+    index = 317,
     label = "C11H15-15 <=> C11H15-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6961,7 +6893,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 349,
+    index = 318,
     label = "C10H11-51 <=> C10H11-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -6981,7 +6913,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 350,
+    index = 319,
     label = "C11H13-7 <=> C11H13-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7001,7 +6933,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 352,
+    index = 320,
     label = "C9H13-33 <=> C9H13-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7021,7 +6953,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 353,
+    index = 321,
     label = "C10H15-27 <=> C10H15-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7041,7 +6973,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 354,
+    index = 322,
     label = "C11H17-13 <=> C11H17-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7061,7 +6993,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 355,
+    index = 323,
     label = "C11H15-17 <=> C11H15-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7081,7 +7013,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 356,
+    index = 324,
     label = "C12H17-5 <=> C12H17-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7101,7 +7033,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 357,
+    index = 325,
     label = "C11H13-9 <=> C11H13-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7121,7 +7053,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 358,
+    index = 326,
     label = "C12H15-3 <=> C12H15-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7141,7 +7073,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 360,
+    index = 327,
     label = "C8H9-7 <=> C8H9-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7161,7 +7093,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 361,
+    index = 328,
     label = "C9H11-23 <=> C9H11-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7181,7 +7113,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 362,
+    index = 329,
     label = "C10H13-23 <=> C10H13-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7201,7 +7133,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 363,
+    index = 330,
     label = "C10H11-53 <=> C10H11-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7221,7 +7153,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 364,
+    index = 331,
     label = "C11H13-11 <=> C11H13-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7241,7 +7173,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 365,
+    index = 332,
     label = "C10H9-40 <=> C10H9-41",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7261,7 +7193,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 366,
+    index = 333,
     label = "C11H11 <=> C11H11-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7281,7 +7213,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 368,
+    index = 334,
     label = "C9H11-25 <=> C9H11-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7301,7 +7233,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 369,
+    index = 335,
     label = "C10H13-25 <=> C10H13-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7321,7 +7253,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 370,
+    index = 336,
     label = "C11H15-19 <=> C11H15-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7341,7 +7273,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 371,
+    index = 337,
     label = "C11H13-13 <=> C11H13-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7361,7 +7293,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 372,
+    index = 338,
     label = "C12H15-5 <=> C12H15-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7381,7 +7313,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 373,
+    index = 339,
     label = "C11H11-3 <=> C11H11-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7401,7 +7333,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 374,
+    index = 340,
     label = "C12H13 <=> C12H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7421,7 +7353,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 376,
+    index = 341,
     label = "C_C(C)CCCCJ <=> 1-methylcyclohexyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7441,7 +7373,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 377,
+    index = 342,
     label = "C8H15-10 <=> C8H15-11",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7461,7 +7393,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 378,
+    index = 343,
     label = "C9H17-7 <=> C9H17-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7481,7 +7413,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 379,
+    index = 344,
     label = "C9H15-25 <=> C9H15-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7501,7 +7433,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 380,
+    index = 345,
     label = "C10H17-15 <=> C10H17-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7521,7 +7453,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 381,
+    index = 346,
     label = "C9H13-35 <=> C9H13-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7541,7 +7473,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 382,
+    index = 347,
     label = "C10H15-29 <=> C10H15-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7561,7 +7493,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 384,
+    index = 348,
     label = "C8H15-12 <=> C8H15-13",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7581,7 +7513,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 385,
+    index = 349,
     label = "C9H17-9 <=> C9H17-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7601,7 +7533,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 386,
+    index = 350,
     label = "C10H19-3 <=> C10H19-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7621,7 +7553,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 387,
+    index = 351,
     label = "C10H17-17 <=> C10H17-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7641,7 +7573,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 388,
+    index = 352,
     label = "C11H19-5 <=> C11H19-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7661,7 +7593,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 389,
+    index = 353,
     label = "C10H15-31 <=> C10H15-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7681,7 +7613,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 390,
+    index = 354,
     label = "C11H17-15 <=> C11H17-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7701,7 +7633,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 392,
+    index = 355,
     label = "C9H17-11 <=> C9H17-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7721,7 +7653,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 393,
+    index = 356,
     label = "C10H19-5 <=> C10H19-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7741,7 +7673,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 394,
+    index = 357,
     label = "C11H21 <=> C11H21-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7761,7 +7693,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 395,
+    index = 358,
     label = "C11H19-7 <=> C11H19-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7781,7 +7713,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 396,
+    index = 359,
     label = "C12H21 <=> C12H21-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7801,7 +7733,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 397,
+    index = 360,
     label = "C11H17-17 <=> C11H17-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7821,7 +7753,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 398,
+    index = 361,
     label = "C12H19-3 <=> C12H19-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7841,7 +7773,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 400,
+    index = 362,
     label = "C9H15-27 <=> C9H15-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7861,7 +7793,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 401,
+    index = 363,
     label = "C10H17-19 <=> C10H17-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7881,7 +7813,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 402,
+    index = 364,
     label = "C11H19-9 <=> C11H19-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7901,7 +7833,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 403,
+    index = 365,
     label = "C11H17-19 <=> C11H17-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7921,7 +7853,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 404,
+    index = 366,
     label = "C12H19-5 <=> C12H19-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7941,7 +7873,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 405,
+    index = 367,
     label = "C11H15-21 <=> C11H15-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7961,7 +7893,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 406,
+    index = 368,
     label = "C12H17-7 <=> C12H17-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -7981,7 +7913,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 408,
+    index = 369,
     label = "C10H17-21 <=> C10H17-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8001,7 +7933,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 409,
+    index = 370,
     label = "C11H19-11 <=> C11H19-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8021,7 +7953,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 410,
+    index = 371,
     label = "C12H21-3 <=> C12H21-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8041,7 +7973,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 411,
+    index = 372,
     label = "C12H19-7 <=> C12H19-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8061,7 +7993,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 412,
+    index = 373,
     label = "C13H21 <=> C13H21-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8081,7 +8013,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 413,
+    index = 374,
     label = "C12H17-9 <=> C12H17-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8101,7 +8033,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 414,
+    index = 375,
     label = "C13H19 <=> C13H19-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8121,7 +8053,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 416,
+    index = 376,
     label = "C9H13-37 <=> C9H13-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8141,7 +8073,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 417,
+    index = 377,
     label = "C10H15-33 <=> C10H15-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8161,7 +8093,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 418,
+    index = 378,
     label = "C11H17-21 <=> C11H17-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8181,7 +8113,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 419,
+    index = 379,
     label = "C11H15-23 <=> C11H15-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8201,7 +8133,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 420,
+    index = 380,
     label = "C12H17-11 <=> C12H17-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8221,7 +8153,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 421,
+    index = 381,
     label = "C11H13-15 <=> C11H13-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8241,7 +8173,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 422,
+    index = 382,
     label = "C12H15-7 <=> C12H15-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8261,7 +8193,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 424,
+    index = 383,
     label = "C10H15-35 <=> C10H15-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8281,7 +8213,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 425,
+    index = 384,
     label = "C11H17-23 <=> C11H17-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8301,7 +8233,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 426,
+    index = 385,
     label = "C12H19-9 <=> C12H19-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8321,7 +8253,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 427,
+    index = 386,
     label = "C12H17-13 <=> C12H17-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8341,7 +8273,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 428,
+    index = 387,
     label = "C13H19-3 <=> C13H19-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8361,7 +8293,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 429,
+    index = 388,
     label = "C12H15-9 <=> C12H15-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8381,7 +8313,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 430,
+    index = 389,
     label = "C13H17 <=> C13H17-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8401,7 +8333,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 432,
+    index = 390,
     label = "C_C(C)CCJ <=> 1-methylcyclobutyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8421,7 +8353,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;
 )
 
 entry(
-    index = 433,
+    index = 391,
     label = "C_C(C)CCJC <=> 1,3-dimethylcyclobutyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8441,7 +8373,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;
 )
 
 entry(
-    index = 434,
+    index = 392,
     label = "C7H13-8 <=> C7H13-9",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8461,7 +8393,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;
 )
 
 entry(
-    index = 435,
+    index = 393,
     label = "C7H11-23 <=> C7H11-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8481,7 +8413,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;
 )
 
 entry(
-    index = 436,
+    index = 394,
     label = "C8H13-27 <=> C8H13-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8501,7 +8433,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;
 )
 
 entry(
-    index = 437,
+    index = 395,
     label = "C7H9-63 <=> C7H9-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8521,7 +8453,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;
 )
 
 entry(
-    index = 438,
+    index = 396,
     label = "C8H11-27 <=> C8H11-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8541,7 +8473,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;
 )
 
 entry(
-    index = 440,
+    index = 397,
     label = "C6H11-4 <=> C6H11-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8561,7 +8493,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd
 )
 
 entry(
-    index = 441,
+    index = 398,
     label = "C7H13-10 <=> C7H13-11",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8581,7 +8513,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd
 )
 
 entry(
-    index = 442,
+    index = 399,
     label = "C8H15-14 <=> C8H15-15",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8601,7 +8533,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd
 )
 
 entry(
-    index = 443,
+    index = 400,
     label = "C8H13-29 <=> C8H13-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8621,7 +8553,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd
 )
 
 entry(
-    index = 444,
+    index = 401,
     label = "C9H15-29 <=> C9H15-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8641,7 +8573,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd
 )
 
 entry(
-    index = 445,
+    index = 402,
     label = "C8H11-29 <=> C8H11-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8661,7 +8593,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd
 )
 
 entry(
-    index = 446,
+    index = 403,
     label = "C9H13-39 <=> C9H13-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8681,7 +8613,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd
 )
 
 entry(
-    index = 448,
+    index = 404,
     label = "C7H13-12 <=> C7H13-13",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8701,7 +8633,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdN
 )
 
 entry(
-    index = 449,
+    index = 405,
     label = "C8H15-16 <=> C8H15-17",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8721,7 +8653,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdN
 )
 
 entry(
-    index = 450,
+    index = 406,
     label = "C9H17-13 <=> C9H17-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8741,7 +8673,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdN
 )
 
 entry(
-    index = 451,
+    index = 407,
     label = "C9H15-31 <=> C9H15-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8761,7 +8693,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdN
 )
 
 entry(
-    index = 452,
+    index = 408,
     label = "C10H17-23 <=> C10H17-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8781,7 +8713,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdN
 )
 
 entry(
-    index = 453,
+    index = 409,
     label = "C9H13-41 <=> C9H13-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8801,7 +8733,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdN
 )
 
 entry(
-    index = 454,
+    index = 410,
     label = "C10H15-37 <=> C10H15-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8821,7 +8753,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdN
 )
 
 entry(
-    index = 456,
+    index = 411,
     label = "C7H11-25 <=> C7H11-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8841,7 +8773,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd
 )
 
 entry(
-    index = 457,
+    index = 412,
     label = "C8H13-31 <=> C8H13-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8861,7 +8793,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd
 )
 
 entry(
-    index = 458,
+    index = 413,
     label = "C9H15-33 <=> C9H15-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8881,7 +8813,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd
 )
 
 entry(
-    index = 459,
+    index = 414,
     label = "C9H13-43 <=> C9H13-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8901,7 +8833,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd
 )
 
 entry(
-    index = 460,
+    index = 415,
     label = "C10H15-39 <=> C10H15-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8921,7 +8853,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd
 )
 
 entry(
-    index = 461,
+    index = 416,
     label = "C9H11-27 <=> C9H11-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8941,7 +8873,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd
 )
 
 entry(
-    index = 462,
+    index = 417,
     label = "C10H13-27 <=> C10H13-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8961,7 +8893,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd
 )
 
 entry(
-    index = 464,
+    index = 418,
     label = "C8H13-33 <=> C8H13-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -8981,7 +8913,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 465,
+    index = 419,
     label = "C9H15-35 <=> C9H15-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9001,7 +8933,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 466,
+    index = 420,
     label = "C10H17-25 <=> C10H17-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9021,7 +8953,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 467,
+    index = 421,
     label = "C10H15-41 <=> C10H15-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9041,7 +8973,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 468,
+    index = 422,
     label = "C11H17-25 <=> C11H17-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9061,7 +8993,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 469,
+    index = 423,
     label = "C10H13-29 <=> C10H13-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9081,7 +9013,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 470,
+    index = 424,
     label = "C11H15-25 <=> C11H15-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9101,7 +9033,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 472,
+    index = 425,
     label = "C7H9-65 <=> C7H9-66",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9121,7 +9053,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt
 )
 
 entry(
-    index = 473,
+    index = 426,
     label = "C8H11-31 <=> C8H11-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9141,7 +9073,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt
 )
 
 entry(
-    index = 474,
+    index = 427,
     label = "C9H13-45 <=> C9H13-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9161,7 +9093,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt
 )
 
 entry(
-    index = 475,
+    index = 428,
     label = "C9H11-29 <=> C9H11-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9181,7 +9113,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt
 )
 
 entry(
-    index = 476,
+    index = 429,
     label = "C10H13-31 <=> C10H13-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9201,7 +9133,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt
 )
 
 entry(
-    index = 477,
+    index = 430,
     label = "C9H9-15 <=> C9H9-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9221,7 +9153,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt
 )
 
 entry(
-    index = 478,
+    index = 431,
     label = "C10H11-55 <=> C10H11-56",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9241,7 +9173,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt
 )
 
 entry(
-    index = 480,
+    index = 432,
     label = "C8H11-33 <=> C8H11-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9261,7 +9193,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 481,
+    index = 433,
     label = "C9H13-47 <=> C9H13-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9281,7 +9213,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 482,
+    index = 434,
     label = "C10H15-43 <=> C10H15-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9301,7 +9233,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 483,
+    index = 435,
     label = "C10H13-33 <=> C10H13-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9321,7 +9253,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 484,
+    index = 436,
     label = "C11H15-27 <=> C11H15-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9341,7 +9273,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 485,
+    index = 437,
     label = "C10H11-57 <=> C10H11-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9361,7 +9293,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 486,
+    index = 438,
     label = "C11H13-17 <=> C11H13-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9381,7 +9313,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdC
 )
 
 entry(
-    index = 488,
+    index = 439,
     label = "C_C(C)CCCJ <=> 1-methylcyclopentyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9401,7 +9333,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H
 )
 
 entry(
-    index = 489,
+    index = 440,
     label = "C7H13-14 <=> C7H13-15",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9421,7 +9353,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H
 )
 
 entry(
-    index = 490,
+    index = 441,
     label = "C8H15-18 <=> C8H15-19",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9441,7 +9373,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H
 )
 
 entry(
-    index = 491,
+    index = 442,
     label = "C8H13-35 <=> C8H13-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9461,7 +9393,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H
 )
 
 entry(
-    index = 492,
+    index = 443,
     label = "C9H15-37 <=> C9H15-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9481,7 +9413,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H
 )
 
 entry(
-    index = 493,
+    index = 444,
     label = "C8H11-35 <=> C8H11-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9501,7 +9433,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H
 )
 
 entry(
-    index = 494,
+    index = 445,
     label = "C9H13-49 <=> C9H13-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9521,7 +9453,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H
 )
 
 entry(
-    index = 496,
+    index = 446,
     label = "C7H13-16 <=> C7H13-17",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9541,7 +9473,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HN
 )
 
 entry(
-    index = 497,
+    index = 447,
     label = "C8H15-20 <=> C8H15-21",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9561,7 +9493,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HN
 )
 
 entry(
-    index = 498,
+    index = 448,
     label = "C9H17-15 <=> C9H17-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9581,7 +9513,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HN
 )
 
 entry(
-    index = 499,
+    index = 449,
     label = "C9H15-39 <=> C9H15-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9601,7 +9533,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HN
 )
 
 entry(
-    index = 500,
+    index = 450,
     label = "C10H17-27 <=> C10H17-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9621,7 +9553,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HN
 )
 
 entry(
-    index = 501,
+    index = 451,
     label = "C9H13-51 <=> C9H13-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9641,7 +9573,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HN
 )
 
 entry(
-    index = 502,
+    index = 452,
     label = "C10H15-45 <=> C10H15-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9661,7 +9593,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HN
 )
 
 entry(
-    index = 504,
+    index = 453,
     label = "C8H15-22 <=> C8H15-23",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9681,7 +9613,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 505,
+    index = 454,
     label = "C9H17-17 <=> C9H17-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9701,7 +9633,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 506,
+    index = 455,
     label = "C10H19-7 <=> C10H19-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9721,7 +9653,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 507,
+    index = 456,
     label = "C10H17-29 <=> C10H17-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9741,7 +9673,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 508,
+    index = 457,
     label = "C11H19-13 <=> C11H19-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9761,7 +9693,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 509,
+    index = 458,
     label = "C10H15-47 <=> C10H15-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9781,7 +9713,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 510,
+    index = 459,
     label = "C11H17-27 <=> C11H17-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9801,7 +9733,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 512,
+    index = 460,
     label = "C8H13-37 <=> C8H13-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9821,7 +9753,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 513,
+    index = 461,
     label = "C9H15-41 <=> C9H15-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9841,7 +9773,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 514,
+    index = 462,
     label = "C10H17-31 <=> C10H17-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9861,7 +9793,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 515,
+    index = 463,
     label = "C10H15-49 <=> C10H15-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9881,7 +9813,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 516,
+    index = 464,
     label = "C11H17-29 <=> C11H17-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9901,7 +9833,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 517,
+    index = 465,
     label = "C10H13-35 <=> C10H13-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9921,7 +9853,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 518,
+    index = 466,
     label = "C11H15-29 <=> C11H15-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9941,7 +9873,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 520,
+    index = 467,
     label = "C9H15-43 <=> C9H15-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9961,7 +9893,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 521,
+    index = 468,
     label = "C10H17-33 <=> C10H17-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -9981,7 +9913,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 522,
+    index = 469,
     label = "C11H19-15 <=> C11H19-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10001,7 +9933,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 523,
+    index = 470,
     label = "C11H17-31 <=> C11H17-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10021,7 +9953,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 524,
+    index = 471,
     label = "C12H19-11 <=> C12H19-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10041,7 +9973,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 525,
+    index = 472,
     label = "C11H15-31 <=> C11H15-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10061,7 +9993,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 526,
+    index = 473,
     label = "C12H17-15 <=> C12H17-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10081,7 +10013,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 528,
+    index = 474,
     label = "C8H11-37 <=> C8H11-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10101,7 +10033,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 529,
+    index = 475,
     label = "C9H13-53 <=> C9H13-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10121,7 +10053,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 530,
+    index = 476,
     label = "C10H15-51 <=> C10H15-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10141,7 +10073,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 531,
+    index = 477,
     label = "C10H13-37 <=> C10H13-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10161,7 +10093,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 532,
+    index = 478,
     label = "C11H15-33 <=> C11H15-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10181,7 +10113,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 533,
+    index = 479,
     label = "C10H11-59 <=> C10H11-60",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10201,7 +10133,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 534,
+    index = 480,
     label = "C11H13-19 <=> C11H13-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10221,7 +10153,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HC
 )
 
 entry(
-    index = 536,
+    index = 481,
     label = "C9H13-55 <=> C9H13-56",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10241,7 +10173,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 537,
+    index = 482,
     label = "C10H15-53 <=> C10H15-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10261,7 +10193,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 538,
+    index = 483,
     label = "C11H17-33 <=> C11H17-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10281,7 +10213,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 539,
+    index = 484,
     label = "C11H15-35 <=> C11H15-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10301,7 +10233,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 540,
+    index = 485,
     label = "C12H17-17 <=> C12H17-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10321,7 +10253,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 541,
+    index = 486,
     label = "C11H13-21 <=> C11H13-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10341,7 +10273,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 542,
+    index = 487,
     label = "C12H15-11 <=> C12H15-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10361,7 +10293,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 544,
+    index = 488,
     label = "C7H11-27 <=> C7H11-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10381,7 +10313,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 545,
+    index = 489,
     label = "C8H13-39 <=> C8H13-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10401,7 +10333,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 546,
+    index = 490,
     label = "C9H15-45 <=> C9H15-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10421,7 +10353,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 547,
+    index = 491,
     label = "C9H13-57 <=> C9H13-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10441,7 +10373,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 548,
+    index = 492,
     label = "C10H15-55 <=> C10H15-56",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10461,7 +10393,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 549,
+    index = 493,
     label = "C9H11-31 <=> C9H11-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10481,7 +10413,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 550,
+    index = 494,
     label = "C10H13-39 <=> C10H13-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10501,7 +10433,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 552,
+    index = 495,
     label = "C8H13-41 <=> C8H13-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10521,7 +10453,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 553,
+    index = 496,
     label = "C9H15-47 <=> C9H15-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10541,7 +10473,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 554,
+    index = 497,
     label = "C10H17-35 <=> C10H17-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10561,7 +10493,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 555,
+    index = 498,
     label = "C10H15-57 <=> C10H15-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10581,7 +10513,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 556,
+    index = 499,
     label = "C11H17-35 <=> C11H17-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10601,7 +10533,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 557,
+    index = 500,
     label = "C10H13-41 <=> C10H13-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10621,7 +10553,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 558,
+    index = 501,
     label = "C11H15-37 <=> C11H15-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10641,7 +10573,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 560,
+    index = 502,
     label = "C9H15-49 <=> C9H15-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10661,7 +10593,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 561,
+    index = 503,
     label = "C10H17-37 <=> C10H17-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10681,7 +10613,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 562,
+    index = 504,
     label = "C11H19-17 <=> C11H19-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10701,7 +10633,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 563,
+    index = 505,
     label = "C11H17-37 <=> C11H17-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10721,7 +10653,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 564,
+    index = 506,
     label = "C12H19-13 <=> C12H19-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10741,7 +10673,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 565,
+    index = 507,
     label = "C11H15-39 <=> C11H15-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10761,7 +10693,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 566,
+    index = 508,
     label = "C12H17-19 <=> C12H17-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10781,7 +10713,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 568,
+    index = 509,
     label = "C9H13-59 <=> C9H13-60",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10801,7 +10733,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 569,
+    index = 510,
     label = "C10H15-59 <=> C10H15-60",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10821,7 +10753,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 570,
+    index = 511,
     label = "C11H17-39 <=> C11H17-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10841,7 +10773,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 571,
+    index = 512,
     label = "C11H15-41 <=> C11H15-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10861,7 +10793,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 572,
+    index = 513,
     label = "C12H17-21 <=> C12H17-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10881,7 +10813,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 573,
+    index = 514,
     label = "C11H13-23 <=> C11H13-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10901,7 +10833,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 574,
+    index = 515,
     label = "C12H15-13 <=> C12H15-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10921,7 +10853,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 576,
+    index = 516,
     label = "C10H15-61 <=> C10H15-62",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10941,7 +10873,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 577,
+    index = 517,
     label = "C11H17-41 <=> C11H17-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10961,7 +10893,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 578,
+    index = 518,
     label = "C12H19-15 <=> C12H19-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -10981,7 +10913,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 579,
+    index = 519,
     label = "C12H17-23 <=> C12H17-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11001,7 +10933,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 580,
+    index = 520,
     label = "C13H19-5 <=> C13H19-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11021,7 +10953,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 581,
+    index = 521,
     label = "C12H15-15 <=> C12H15-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11041,7 +10973,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 582,
+    index = 522,
     label = "C13H17-3 <=> C13H17-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11061,7 +10993,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 584,
+    index = 523,
     label = "C9H11-33 <=> C9H11-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11081,7 +11013,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 585,
+    index = 524,
     label = "C10H13-43 <=> C10H13-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11101,7 +11033,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 586,
+    index = 525,
     label = "C11H15-43 <=> C11H15-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11121,7 +11053,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 587,
+    index = 526,
     label = "C11H13-25 <=> C11H13-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11141,7 +11073,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 588,
+    index = 527,
     label = "C12H15-17 <=> C12H15-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11161,7 +11093,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 589,
+    index = 528,
     label = "C11H11-5 <=> C11H11-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11181,7 +11113,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 590,
+    index = 529,
     label = "C12H13-3 <=> C12H13-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11201,7 +11133,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 592,
+    index = 530,
     label = "C10H13-45 <=> C10H13-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11221,7 +11153,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 593,
+    index = 531,
     label = "C11H15-45 <=> C11H15-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11241,7 +11173,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 594,
+    index = 532,
     label = "C12H17-25 <=> C12H17-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11261,7 +11193,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 595,
+    index = 533,
     label = "C12H15-19 <=> C12H15-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11281,7 +11213,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 596,
+    index = 534,
     label = "C13H17-5 <=> C13H17-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11301,7 +11233,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 597,
+    index = 535,
     label = "C12H13-5 <=> C12H13-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11321,7 +11253,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 598,
+    index = 536,
     label = "C13H15 <=> C13H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11341,7 +11273,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 600,
+    index = 537,
     label = "C8H13-43 <=> C8H13-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11361,7 +11293,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 601,
+    index = 538,
     label = "C9H15-51 <=> C9H15-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11381,7 +11313,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 602,
+    index = 539,
     label = "C10H17-39 <=> C10H17-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11401,7 +11333,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 603,
+    index = 540,
     label = "C10H15-63 <=> C10H15-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11421,7 +11353,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 604,
+    index = 541,
     label = "C11H17-43 <=> C11H17-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11441,7 +11373,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 605,
+    index = 542,
     label = "C10H13-47 <=> C10H13-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11461,7 +11393,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 606,
+    index = 543,
     label = "C11H15-47 <=> C11H15-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11481,7 +11413,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 608,
+    index = 544,
     label = "C9H15-53 <=> C9H15-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11501,7 +11433,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 609,
+    index = 545,
     label = "C10H17-41 <=> C10H17-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11521,7 +11453,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 610,
+    index = 546,
     label = "C11H19-19 <=> C11H19-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11541,7 +11473,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 611,
+    index = 547,
     label = "C11H17-45 <=> C11H17-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11561,7 +11493,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 612,
+    index = 548,
     label = "C12H19-17 <=> C12H19-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11581,7 +11513,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 613,
+    index = 549,
     label = "C11H15-49 <=> C11H15-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11601,7 +11533,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 614,
+    index = 550,
     label = "C12H17-27 <=> C12H17-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11621,7 +11553,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 616,
+    index = 551,
     label = "C10H17-43 <=> C10H17-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11641,7 +11573,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 617,
+    index = 552,
     label = "C11H19-21 <=> C11H19-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11661,7 +11593,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 618,
+    index = 553,
     label = "C12H21-5 <=> C12H21-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11681,7 +11613,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 619,
+    index = 554,
     label = "C12H19-19 <=> C12H19-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11701,7 +11633,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 620,
+    index = 555,
     label = "C13H21-3 <=> C13H21-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11721,7 +11653,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 621,
+    index = 556,
     label = "C12H17-29 <=> C12H17-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11741,7 +11673,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 622,
+    index = 557,
     label = "C13H19-7 <=> C13H19-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11761,7 +11693,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 624,
+    index = 558,
     label = "C10H15-65 <=> C10H15-66",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11781,7 +11713,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 625,
+    index = 559,
     label = "C11H17-47 <=> C11H17-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11801,7 +11733,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 626,
+    index = 560,
     label = "C12H19-21 <=> C12H19-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11821,7 +11753,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 627,
+    index = 561,
     label = "C12H17-31 <=> C12H17-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11841,7 +11773,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 628,
+    index = 562,
     label = "C13H19-9 <=> C13H19-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11861,7 +11793,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 629,
+    index = 563,
     label = "C12H15-21 <=> C12H15-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11881,7 +11813,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 630,
+    index = 564,
     label = "C13H17-7 <=> C13H17-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11901,7 +11833,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 632,
+    index = 565,
     label = "C11H17-49 <=> C11H17-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11921,7 +11853,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 633,
+    index = 566,
     label = "C12H19-23 <=> C12H19-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11941,7 +11873,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 634,
+    index = 567,
     label = "C13H21-5 <=> C13H21-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11961,7 +11893,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 635,
+    index = 568,
     label = "C13H19-11 <=> C13H19-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -11981,7 +11913,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 636,
+    index = 569,
     label = "C14H21 <=> C14H21-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12001,7 +11933,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 637,
+    index = 570,
     label = "C13H17-9 <=> C13H17-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12021,7 +11953,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 638,
+    index = 571,
     label = "C14H19 <=> C14H19-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12041,7 +11973,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 640,
+    index = 572,
     label = "C10H13-49 <=> C10H13-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12061,7 +11993,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 641,
+    index = 573,
     label = "C11H15-51 <=> C11H15-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12081,7 +12013,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 642,
+    index = 574,
     label = "C12H17-33 <=> C12H17-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12101,7 +12033,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 643,
+    index = 575,
     label = "C12H15-23 <=> C12H15-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12121,7 +12053,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 644,
+    index = 576,
     label = "C13H17-11 <=> C13H17-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12141,7 +12073,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 645,
+    index = 577,
     label = "C12H13-7 <=> C12H13-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12161,7 +12093,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 646,
+    index = 578,
     label = "C13H15-3 <=> C13H15-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12181,7 +12113,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 648,
+    index = 579,
     label = "C11H15-53 <=> C11H15-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12201,7 +12133,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 649,
+    index = 580,
     label = "C12H17-35 <=> C12H17-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12221,7 +12153,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 650,
+    index = 581,
     label = "C13H19-13 <=> C13H19-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12241,7 +12173,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 651,
+    index = 582,
     label = "C13H17-13 <=> C13H17-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12261,7 +12193,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 652,
+    index = 583,
     label = "C14H19-3 <=> C14H19-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12281,7 +12213,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 653,
+    index = 584,
     label = "C13H15-5 <=> C13H15-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12301,7 +12233,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 654,
+    index = 585,
     label = "C14H17 <=> C14H17-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12321,7 +12253,7 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 656,
+    index = 586,
     label = "C6H9-15 <=> C6H9-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12341,7 +12273,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;
 )
 
 entry(
-    index = 657,
+    index = 587,
     label = "C7H11-29 <=> C7H11-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12361,7 +12293,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;
 )
 
 entry(
-    index = 658,
+    index = 588,
     label = "C8H13-45 <=> C8H13-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12381,7 +12313,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;
 )
 
 entry(
-    index = 659,
+    index = 589,
     label = "C8H11-39 <=> C8H11-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12401,7 +12333,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;
 )
 
 entry(
-    index = 660,
+    index = 590,
     label = "C9H13-61 <=> C9H13-62",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12421,7 +12353,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;
 )
 
 entry(
-    index = 661,
+    index = 591,
     label = "C8H9-9 <=> C8H9-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12441,7 +12373,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;
 )
 
 entry(
-    index = 662,
+    index = 592,
     label = "C9H11-35 <=> C9H11-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12461,7 +12393,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;
 )
 
 entry(
-    index = 664,
+    index = 593,
     label = "C7H11-31 <=> C7H11-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12481,7 +12413,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd
 )
 
 entry(
-    index = 665,
+    index = 594,
     label = "C8H13-47 <=> C8H13-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12501,7 +12433,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd
 )
 
 entry(
-    index = 666,
+    index = 595,
     label = "C9H15-55 <=> C9H15-56",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12521,7 +12453,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd
 )
 
 entry(
-    index = 667,
+    index = 596,
     label = "C9H13-63 <=> C9H13-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12541,7 +12473,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd
 )
 
 entry(
-    index = 668,
+    index = 597,
     label = "C10H15-67 <=> C10H15-68",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12561,7 +12493,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd
 )
 
 entry(
-    index = 669,
+    index = 598,
     label = "C9H11-37 <=> C9H11-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12581,7 +12513,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd
 )
 
 entry(
-    index = 670,
+    index = 599,
     label = "C10H13-51 <=> C10H13-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12601,7 +12533,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd
 )
 
 entry(
-    index = 672,
+    index = 600,
     label = "C8H13-49 <=> C8H13-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12621,7 +12553,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdN
 )
 
 entry(
-    index = 673,
+    index = 601,
     label = "C9H15-57 <=> C9H15-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12641,7 +12573,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdN
 )
 
 entry(
-    index = 674,
+    index = 602,
     label = "C10H17-45 <=> C10H17-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12661,7 +12593,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdN
 )
 
 entry(
-    index = 675,
+    index = 603,
     label = "C10H15-69 <=> C10H15-70",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12681,7 +12613,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdN
 )
 
 entry(
-    index = 676,
+    index = 604,
     label = "C11H17-51 <=> C11H17-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12701,7 +12633,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdN
 )
 
 entry(
-    index = 677,
+    index = 605,
     label = "C10H13-53 <=> C10H13-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12721,7 +12653,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdN
 )
 
 entry(
-    index = 678,
+    index = 606,
     label = "C11H15-55 <=> C11H15-56",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12741,7 +12673,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdN
 )
 
 entry(
-    index = 680,
+    index = 607,
     label = "C8H11-41 <=> C8H11-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12761,7 +12693,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd
 )
 
 entry(
-    index = 681,
+    index = 608,
     label = "C9H13-65 <=> C9H13-66",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12781,7 +12713,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd
 )
 
 entry(
-    index = 682,
+    index = 609,
     label = "C10H15-71 <=> C10H15-72",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12801,7 +12733,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd
 )
 
 entry(
-    index = 683,
+    index = 610,
     label = "C10H13-55 <=> C10H13-56",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12821,7 +12753,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd
 )
 
 entry(
-    index = 684,
+    index = 611,
     label = "C11H15-57 <=> C11H15-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12841,7 +12773,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd
 )
 
 entry(
-    index = 685,
+    index = 612,
     label = "C10H11-61 <=> C10H11-62",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12861,7 +12793,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd
 )
 
 entry(
-    index = 686,
+    index = 613,
     label = "C11H13-27 <=> C11H13-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12881,7 +12813,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd
 )
 
 entry(
-    index = 688,
+    index = 614,
     label = "C9H13-67 <=> C9H13-68",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12901,7 +12833,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 689,
+    index = 615,
     label = "C10H15-73 <=> C10H15-74",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12921,7 +12853,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 690,
+    index = 616,
     label = "C11H17-53 <=> C11H17-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12941,7 +12873,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 691,
+    index = 617,
     label = "C11H15-59 <=> C11H15-60",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12961,7 +12893,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 692,
+    index = 618,
     label = "C12H17-37 <=> C12H17-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -12981,7 +12913,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 693,
+    index = 619,
     label = "C11H13-29 <=> C11H13-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13001,7 +12933,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 694,
+    index = 620,
     label = "C12H15-25 <=> C12H15-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13021,7 +12953,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 696,
+    index = 621,
     label = "C8H9-11 <=> C8H9-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13041,7 +12973,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt
 )
 
 entry(
-    index = 697,
+    index = 622,
     label = "C9H11-39 <=> C9H11-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13061,7 +12993,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt
 )
 
 entry(
-    index = 698,
+    index = 623,
     label = "C10H13-57 <=> C10H13-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13081,7 +13013,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt
 )
 
 entry(
-    index = 699,
+    index = 624,
     label = "C10H11-63 <=> C10H11-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13101,7 +13033,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt
 )
 
 entry(
-    index = 700,
+    index = 625,
     label = "C11H13-31 <=> C11H13-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13121,7 +13053,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt
 )
 
 entry(
-    index = 701,
+    index = 626,
     label = "C10H9-42 <=> C10H9-43",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13141,7 +13073,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt
 )
 
 entry(
-    index = 702,
+    index = 627,
     label = "C11H11-7 <=> C11H11-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13161,7 +13093,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt
 )
 
 entry(
-    index = 704,
+    index = 628,
     label = "C9H11-41 <=> C9H11-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13181,7 +13113,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 705,
+    index = 629,
     label = "C10H13-59 <=> C10H13-60",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13201,7 +13133,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 706,
+    index = 630,
     label = "C11H15-61 <=> C11H15-62",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13221,7 +13153,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 707,
+    index = 631,
     label = "C11H13-33 <=> C11H13-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13241,7 +13173,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 708,
+    index = 632,
     label = "C12H15-27 <=> C12H15-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13261,7 +13193,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 709,
+    index = 633,
     label = "C11H11-9 <=> C11H11-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13281,7 +13213,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 710,
+    index = 634,
     label = "C12H13-9 <=> C12H13-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13301,7 +13233,7 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdC
 )
 
 entry(
-    index = 712,
+    index = 635,
     label = "C7H11-33 <=> C7H11-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13321,7 +13253,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H
 )
 
 entry(
-    index = 713,
+    index = 636,
     label = "C8H13-51 <=> C8H13-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13341,7 +13273,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H
 )
 
 entry(
-    index = 714,
+    index = 637,
     label = "C9H15-59 <=> C9H15-60",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13361,7 +13293,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H
 )
 
 entry(
-    index = 715,
+    index = 638,
     label = "C9H13-69 <=> C9H13-70",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13381,7 +13313,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H
 )
 
 entry(
-    index = 716,
+    index = 639,
     label = "C10H15-75 <=> C10H15-76",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13401,7 +13333,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H
 )
 
 entry(
-    index = 717,
+    index = 640,
     label = "C9H11-43 <=> C9H11-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13421,7 +13353,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H
 )
 
 entry(
-    index = 718,
+    index = 641,
     label = "C10H13-61 <=> C10H13-62",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13441,7 +13373,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H
 )
 
 entry(
-    index = 720,
+    index = 642,
     label = "C8H13-53 <=> C8H13-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13461,7 +13393,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HN
 )
 
 entry(
-    index = 721,
+    index = 643,
     label = "C9H15-61 <=> C9H15-62",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13481,7 +13413,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HN
 )
 
 entry(
-    index = 722,
+    index = 644,
     label = "C10H17-47 <=> C10H17-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13501,7 +13433,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HN
 )
 
 entry(
-    index = 723,
+    index = 645,
     label = "C10H15-77 <=> C10H15-78",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13521,7 +13453,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HN
 )
 
 entry(
-    index = 724,
+    index = 646,
     label = "C11H17-55 <=> C11H17-56",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13541,7 +13473,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HN
 )
 
 entry(
-    index = 725,
+    index = 647,
     label = "C10H13-63 <=> C10H13-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13561,7 +13493,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HN
 )
 
 entry(
-    index = 726,
+    index = 648,
     label = "C11H15-63 <=> C11H15-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13581,7 +13513,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HN
 )
 
 entry(
-    index = 728,
+    index = 649,
     label = "C9H15-63 <=> C9H15-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13601,7 +13533,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 729,
+    index = 650,
     label = "C10H17-49 <=> C10H17-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13621,7 +13553,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 730,
+    index = 651,
     label = "C11H19-23 <=> C11H19-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13641,7 +13573,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 731,
+    index = 652,
     label = "C11H17-57 <=> C11H17-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13661,7 +13593,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 732,
+    index = 653,
     label = "C12H19-25 <=> C12H19-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13681,7 +13613,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 733,
+    index = 654,
     label = "C11H15-65 <=> C11H15-66",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13701,7 +13633,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 734,
+    index = 655,
     label = "C12H17-39 <=> C12H17-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13721,7 +13653,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 736,
+    index = 656,
     label = "C9H13-71 <=> C9H13-72",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13741,7 +13673,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 737,
+    index = 657,
     label = "C10H15-79 <=> C10H15-80",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13761,7 +13693,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 738,
+    index = 658,
     label = "C11H17-59 <=> C11H17-60",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13781,7 +13713,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 739,
+    index = 659,
     label = "C11H15-67 <=> C11H15-68",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13801,7 +13733,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 740,
+    index = 660,
     label = "C12H17-41 <=> C12H17-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13821,7 +13753,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 741,
+    index = 661,
     label = "C11H13-35 <=> C11H13-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13841,7 +13773,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 742,
+    index = 662,
     label = "C12H15-29 <=> C12H15-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13861,7 +13793,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 744,
+    index = 663,
     label = "C10H15-81 <=> C10H15-82",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13881,7 +13813,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 745,
+    index = 664,
     label = "C11H17-61 <=> C11H17-62",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13901,7 +13833,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 746,
+    index = 665,
     label = "C12H19-27 <=> C12H19-28",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13921,7 +13853,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 747,
+    index = 666,
     label = "C12H17-43 <=> C12H17-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13941,7 +13873,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 748,
+    index = 667,
     label = "C13H19-15 <=> C13H19-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13961,7 +13893,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 749,
+    index = 668,
     label = "C12H15-31 <=> C12H15-32",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -13981,7 +13913,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 750,
+    index = 669,
     label = "C13H17-15 <=> C13H17-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14001,7 +13933,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 752,
+    index = 670,
     label = "C9H11-45 <=> C9H11-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14021,7 +13953,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 753,
+    index = 671,
     label = "C10H13-65 <=> C10H13-66",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14041,7 +13973,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 754,
+    index = 672,
     label = "C11H15-69 <=> C11H15-70",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14061,7 +13993,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 755,
+    index = 673,
     label = "C11H13-37 <=> C11H13-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14081,7 +14013,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 756,
+    index = 674,
     label = "C12H15-33 <=> C12H15-34",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14101,7 +14033,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 757,
+    index = 675,
     label = "C11H11-11 <=> C11H11-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14121,7 +14053,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 )
 
 entry(
-    index = 758,
+    index = 676,
     label = "C12H13-11 <=> C12H13-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14140,9 +14072,8 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HC
 """,
 )
 
-
 entry(
-    index = 760,
+    index = 677,
     label = "C10H13-67 <=> C10H13-68",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14162,7 +14093,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 761,
+    index = 678,
     label = "C11H15-71 <=> C11H15-72",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14182,7 +14113,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 762,
+    index = 679,
     label = "C12H17-45 <=> C12H17-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14202,7 +14133,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 763,
+    index = 680,
     label = "C12H15-35 <=> C12H15-36",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14222,7 +14153,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 764,
+    index = 681,
     label = "C13H17-17 <=> C13H17-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14242,7 +14173,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 765,
+    index = 682,
     label = "C12H13-13 <=> C12H13-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14262,7 +14193,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 766,
+    index = 683,
     label = "C13H15-7 <=> C13H15-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14282,7 +14213,7 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 768,
+    index = 684,
     label = "C8H11-43 <=> C8H11-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14302,7 +14233,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 769,
+    index = 685,
     label = "C9H13-73 <=> C9H13-74",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14322,7 +14253,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 770,
+    index = 686,
     label = "C10H15-83 <=> C10H15-84",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14342,7 +14273,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 771,
+    index = 687,
     label = "C10H13-69 <=> C10H13-70",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14362,7 +14293,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 772,
+    index = 688,
     label = "C11H15-73 <=> C11H15-74",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14382,7 +14313,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 773,
+    index = 689,
     label = "C10H11-65 <=> C10H11-66",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14402,7 +14333,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 774,
+    index = 690,
     label = "C11H13-39 <=> C11H13-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14422,7 +14353,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 776,
+    index = 691,
     label = "C9H13-75 <=> C9H13-76",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14442,7 +14373,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 777,
+    index = 692,
     label = "C10H15-85 <=> C10H15-86",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14462,7 +14393,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 778,
+    index = 693,
     label = "C11H17-63 <=> C11H17-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14482,7 +14413,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 779,
+    index = 694,
     label = "C11H15-75 <=> C11H15-76",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14502,7 +14433,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 780,
+    index = 695,
     label = "C12H17-47 <=> C12H17-48",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14522,7 +14453,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 781,
+    index = 696,
     label = "C11H13-41 <=> C11H13-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14542,7 +14473,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 782,
+    index = 697,
     label = "C12H15-37 <=> C12H15-38",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14562,7 +14493,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 784,
+    index = 698,
     label = "C10H15-87 <=> C10H15-88",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14582,7 +14513,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 785,
+    index = 699,
     label = "C11H17-65 <=> C11H17-66",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14602,7 +14533,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 786,
+    index = 700,
     label = "C12H19-29 <=> C12H19-30",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14622,7 +14553,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 787,
+    index = 701,
     label = "C12H17-49 <=> C12H17-50",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14642,7 +14573,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 788,
+    index = 702,
     label = "C13H19-17 <=> C13H19-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14662,7 +14593,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 789,
+    index = 703,
     label = "C12H15-39 <=> C12H15-40",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14682,7 +14613,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 790,
+    index = 704,
     label = "C13H17-19 <=> C13H17-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14702,7 +14633,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 792,
+    index = 705,
     label = "C10H13-71 <=> C10H13-72",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14722,7 +14653,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 793,
+    index = 706,
     label = "C11H15-77 <=> C11H15-78",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14742,7 +14673,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 794,
+    index = 707,
     label = "C12H17-51 <=> C12H17-52",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14762,7 +14693,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 795,
+    index = 708,
     label = "C12H15-41 <=> C12H15-42",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14782,7 +14713,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 796,
+    index = 709,
     label = "C13H17-21 <=> C13H17-22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14802,7 +14733,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 797,
+    index = 710,
     label = "C12H13-15 <=> C12H13-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14822,7 +14753,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 798,
+    index = 711,
     label = "C13H15-9 <=> C13H15-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14842,7 +14773,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 800,
+    index = 712,
     label = "C11H15-79 <=> C11H15-80",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14862,7 +14793,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 801,
+    index = 713,
     label = "C12H17-53 <=> C12H17-54",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14882,7 +14813,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 802,
+    index = 714,
     label = "C13H19-19 <=> C13H19-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14902,7 +14833,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 803,
+    index = 715,
     label = "C13H17-23 <=> C13H17-24",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14922,7 +14853,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 804,
+    index = 716,
     label = "C14H19-5 <=> C14H19-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14942,7 +14873,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 805,
+    index = 717,
     label = "C13H15-11 <=> C13H15-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14962,7 +14893,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 806,
+    index = 718,
     label = "C14H17-3 <=> C14H17-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -14982,7 +14913,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 808,
+    index = 719,
     label = "C10H11-67 <=> C10H11-68",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15002,7 +14933,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 809,
+    index = 720,
     label = "C11H13-43 <=> C11H13-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15022,7 +14953,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 810,
+    index = 721,
     label = "C12H15-43 <=> C12H15-44",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15042,7 +14973,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 811,
+    index = 722,
     label = "C12H13-17 <=> C12H13-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15062,7 +14993,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 812,
+    index = 723,
     label = "C13H15-13 <=> C13H15-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15082,7 +15013,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 813,
+    index = 724,
     label = "C12H11 <=> C12H11-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15102,7 +15033,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 814,
+    index = 725,
     label = "C13H13 <=> C13H13-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15122,7 +15053,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 816,
+    index = 726,
     label = "C11H13-45 <=> C11H13-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15142,7 +15073,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 817,
+    index = 727,
     label = "C12H15-45 <=> C12H15-46",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15162,7 +15093,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 818,
+    index = 728,
     label = "C13H17-25 <=> C13H17-26",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15182,7 +15113,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 819,
+    index = 729,
     label = "C13H15-15 <=> C13H15-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15202,7 +15133,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 820,
+    index = 730,
     label = "C14H17-5 <=> C14H17-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15222,7 +15153,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 821,
+    index = 731,
     label = "C13H13-3 <=> C13H13-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15242,7 +15173,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 822,
+    index = 732,
     label = "C14H15 <=> C14H15-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15262,7 +15193,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 823,
+    index = 733,
     label = "C6H7-17 <=> C6H7-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15282,7 +15213,7 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 824,
+    index = 734,
     label = "C9H13-77 <=> C9H13-78",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15302,7 +15233,7 @@ Converted to training reaction from rate rule: R9_SDSSSD;doublebond_intra_pri_2H
 )
 
 entry(
-    index = 825,
+    index = 735,
     label = "C6H5O2 <=> C6H5O2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.782e+11, 's^-1'), n=0.287, Ea=(41.261, 'kcal/mol'), T0=(1, 'K')),
@@ -15319,13 +15250,13 @@ entry(
     longDesc = 
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
-The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
 where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
 entry(
-    index = 826,
+    index = 736,
     label = "C6H5O2-3 <=> C6H5O2-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.503e+11, 's^-1'), n=0.221, Ea=(57.88, 'kcal/mol'), T0=(1, 'K')),
@@ -15342,13 +15273,13 @@ entry(
     longDesc = 
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
-The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
 where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
 entry(
-    index = 827,
+    index = 737,
     label = "C6H5O2-5 <=> C6H5O2-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.615e+11, 's^-1'), n=0.385, Ea=(34.263, 'kcal/mol'), T0=(1, 'K')),
@@ -15365,13 +15296,13 @@ entry(
     longDesc = 
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
-The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
 where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
 entry(
-    index = 828,
+    index = 738,
     label = "C6H5O2-7 <=> C6H5O2-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.989e+11, 's^-1'), n=0.18, Ea=(18.94, 'kcal/mol'), T0=(1, 'K')),
@@ -15388,13 +15319,13 @@ entry(
     longDesc = 
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
-The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
 where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
 entry(
-    index = 829,
+    index = 739,
     label = "C6H5O2-9 <=> C6H5O2-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.649e+12, 's^-1'), n=0.287, Ea=(12.162, 'kcal/mol'), T0=(1, 'K')),
@@ -15411,13 +15342,13 @@ entry(
     longDesc = 
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
-The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
 where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
 entry(
-    index = 830,
+    index = 740,
     label = "C7H5 <=> C7H5-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.07e+10, 's^-1'), n=0.124, Ea=(31.24, 'kcal/mol'), T0=(1, 'K')),
@@ -15429,7 +15360,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15440,7 +15371,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 831,
+    index = 741,
     label = "C7H5-3 <=> C7H5-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.72e+09, 's^-1'), n=0.186, Ea=(13.33, 'kcal/mol'), T0=(1, 'K')),
@@ -15452,7 +15383,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15463,7 +15394,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 832,
+    index = 742,
     label = "C7H5-5 <=> C7H5-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.22e+12, 's^-1'), n=-0.622, Ea=(34.15, 'kcal/mol'), T0=(1, 'K')),
@@ -15475,7 +15406,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15486,7 +15417,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 833,
+    index = 743,
     label = "C7H5-7 <=> C7H5-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.77e+12, 's^-1'), n=-0.453, Ea=(17.94, 'kcal/mol'), T0=(1, 'K')),
@@ -15498,7 +15429,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15509,7 +15440,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 834,
+    index = 744,
     label = "C7H5-9 <=> C7H5-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.85e+11, 's^-1'), n=0.753, Ea=(40.27, 'kcal/mol'), T0=(1, 'K')),
@@ -15521,7 +15452,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15532,7 +15463,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 835,
+    index = 745,
     label = "C7H5-11 <=> C7H5-12",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.48e+11, 's^-1'), n=0.677, Ea=(36.92, 'kcal/mol'), T0=(1, 'K')),
@@ -15544,7 +15475,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15555,7 +15486,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 836,
+    index = 746,
     label = "C7H5-13 <=> C7H5-14",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.04e+12, 's^-1'), n=0.67, Ea=(53.61, 'kcal/mol'), T0=(1, 'K')),
@@ -15568,7 +15499,7 @@ Original entry: W20 <=> W21
 )
 
 entry(
-    index = 837,
+    index = 747,
     label = "C7H5-15 <=> C7H5-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.71e+11, 's^-1'), n=0.748, Ea=(41.35, 'kcal/mol'), T0=(1, 'K')),
@@ -15580,7 +15511,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15591,7 +15522,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 838,
+    index = 748,
     label = "C7H5-17 <=> C7H5-18",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.58e+12, 's^-1'), n=-0.292, Ea=(15.35, 'kcal/mol'), T0=(1, 'K')),
@@ -15603,7 +15534,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15614,7 +15545,7 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 839,
+    index = 749,
     label = "C7H5-19 <=> C7H5-20",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.87e+12, 's^-1'), n=0.55, Ea=(38.89, 'kcal/mol'), T0=(1, 'K')),
@@ -15626,7 +15557,7 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
     longDesc = 
 u"""
@@ -15637,15 +15568,10 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 )
 
 entry(
-    index = 840,
+    index = 750,
     label = "C12H17-55 <=> C12H17-56",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A=(29023.5, 's^-1'),
-        n=1.19861,
-        Ea=(27.5998, 'kJ/mol'),
-        T0=(1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(29023.5, 's^-1'), n=1.19861, Ea=(27.5998, 'kJ/mol'), T0=(1, 'K')),
     reference = Article(
         authors = ['Sarah Khanniche', 'Lawrence Lai', 'William H. Green'],
         title = 'Kinetics of Intramolecular Phenyl Migration and Fused Ring Formation in Hexylbenzene Radicals',
@@ -15668,7 +15594,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
 )
 
 entry(
-    index = 841,
+    index = 751,
     label = "C12H17-57 <=> C12H17-58",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -15699,7 +15625,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
 )
 
 entry(
-    index = 842,
+    index = 752,
     label = "C12H17-59 <=> C12H17-60",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -15727,3 +15653,4 @@ Level of Theory: CBS-QB3 with 1-D Hindered Rotors at B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
 """,
 )
+

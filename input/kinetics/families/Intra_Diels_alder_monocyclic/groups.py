@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["1_3_5_unsaturated_hexane"], products=["unsaturated_cyclohexane"], ownReverse=False)
 
 reverse = "Intra_Retro_Diels_alder_monocyclic"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],

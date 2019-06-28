@@ -812,6 +812,22 @@ entry(
 
 entry(
     index = 58,
+    label = "R4H_DSD_fulvene",
+    group = 
+"""
+1 *1 R!H u1 {2,D} {6,S}
+2 *4 Cd  u0 {1,D} {3,S}
+3 *5 Cd  u0 {2,S} {4,D} {7,S}
+4 *2 R!H u0 {3,D} {5,S}
+5 *3 H   u0 {4,S}
+6    Cd  u0 {1,S} {7,D}
+7    Cd  u0 {3,S} {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 59,
     label = "R4H_TSD",
     group = 
 """
@@ -825,7 +841,7 @@ entry(
 )
 
 entry(
-    index = 59,
+    index = 60,
     label = "R4H_BSD",
     group = 
 """
@@ -839,7 +855,7 @@ entry(
 )
 
 entry(
-    index = 60,
+    index = 61,
     label = "R4H_RST",
     group = 
 """
@@ -853,7 +869,7 @@ entry(
 )
 
 entry(
-    index = 61,
+    index = 62,
     label = "R4H_SST",
     group = 
 """
@@ -867,7 +883,7 @@ entry(
 )
 
 entry(
-    index = 62,
+    index = 63,
     label = "R4H_DST",
     group = 
 """
@@ -881,7 +897,7 @@ entry(
 )
 
 entry(
-    index = 63,
+    index = 64,
     label = "R4H_TST",
     group = 
 """
@@ -895,7 +911,7 @@ entry(
 )
 
 entry(
-    index = 64,
+    index = 65,
     label = "R4H_BST",
     group = 
 """
@@ -909,7 +925,7 @@ entry(
 )
 
 entry(
-    index = 65,
+    index = 66,
     label = "R4H_RSB",
     group = 
 """
@@ -923,7 +939,7 @@ entry(
 )
 
 entry(
-    index = 66,
+    index = 67,
     label = "R4H_SSB",
     group = 
 """
@@ -937,7 +953,7 @@ entry(
 )
 
 entry(
-    index = 67,
+    index = 68,
     label = "R4H_DSB",
     group = 
 """
@@ -951,7 +967,7 @@ entry(
 )
 
 entry(
-    index = 68,
+    index = 69,
     label = "R4H_D(S)SB",
     group = 
 """
@@ -966,7 +982,7 @@ entry(
 )
 
 entry(
-    index = 69,
+    index = 70,
     label = "R4H_DSB_benzofulvenyl",
     group = 
 """
@@ -986,7 +1002,7 @@ entry(
 )
 
 entry(
-    index = 70,
+    index = 71,
     label = "R4H_TSB",
     group = 
 """
@@ -1000,7 +1016,7 @@ entry(
 )
 
 entry(
-    index = 71,
+    index = 72,
     label = "R4H_BSB",
     group = 
 """
@@ -1014,7 +1030,7 @@ entry(
 )
 
 entry(
-    index = 72,
+    index = 73,
     label = "R4H_SMS",
     group = 
 """
@@ -1028,7 +1044,7 @@ entry(
 )
 
 entry(
-    index = 73,
+    index = 74,
     label = "R4H_SDS",
     group = 
 """
@@ -1042,7 +1058,7 @@ entry(
 )
 
 entry(
-    index = 74,
+    index = 75,
     label = "R4H_STS",
     group = 
 """
@@ -1056,7 +1072,7 @@ entry(
 )
 
 entry(
-    index = 75,
+    index = 76,
     label = "R4H_SBS",
     group = 
 """
@@ -1070,7 +1086,7 @@ entry(
 )
 
 entry(
-    index = 76,
+    index = 77,
     label = "R4H_SMM",
     group = 
 """
@@ -1084,7 +1100,7 @@ entry(
 )
 
 entry(
-    index = 77,
+    index = 78,
     label = "R4H_SBB",
     group = 
 """
@@ -1098,7 +1114,7 @@ entry(
 )
 
 entry(
-    index = 78,
+    index = 79,
     label = "R4H_MMS",
     group = 
 """
@@ -1112,7 +1128,7 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 80,
     label = "R4H_BBS",
     group = 
 """
@@ -1126,7 +1142,7 @@ entry(
 )
 
 entry(
-    index = 80,
+    index = 81,
     label = "R4H_BBB",
     group = 
 """
@@ -1150,7 +1166,7 @@ entry(
 )
 
 entry(
-    index = 81,
+    index = 82,
     label = "R5Hall",
     group = 
 """
@@ -1165,7 +1181,7 @@ entry(
 )
 
 entry(
-    index = 82,
+    index = 83,
     label = "R5HJ_1",
     group = 
 """
@@ -1180,7 +1196,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 84,
     label = "R5HJ_2",
     group = 
 """
@@ -1195,7 +1211,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 85,
     label = "R5HJ_3",
     group = 
 """
@@ -1210,7 +1226,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 86,
     label = "R5H",
     group = 
 """
@@ -1225,7 +1241,7 @@ entry(
 )
 
 entry(
-    index = 86,
+    index = 87,
     label = "R5H_RSSR",
     group = 
 """
@@ -1240,7 +1256,7 @@ entry(
 )
 
 entry(
-    index = 87,
+    index = 88,
     label = "R5H_SSSR",
     group = 
 """
@@ -1255,7 +1271,7 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 89,
     label = "R5H_SSSS",
     group = 
 """
@@ -1270,7 +1286,7 @@ entry(
 )
 
 entry(
-    index = 89,
+    index = 90,
     label = "R5H_CCC",
     group = 
 """
@@ -1285,7 +1301,7 @@ entry(
 )
 
 entry(
-    index = 90,
+    index = 91,
     label = "R5H_CCC(Cd)",
     group = 
 """
@@ -1301,7 +1317,7 @@ entry(
 )
 
 entry(
-    index = 91,
+    index = 92,
     label = "R5H_C(Cd)CC",
     group = 
 """
@@ -1317,7 +1333,7 @@ entry(
 )
 
 entry(
-    index = 92,
+    index = 93,
     label = "R5H_CCC_O",
     group = 
 """
@@ -1333,7 +1349,7 @@ entry(
 )
 
 entry(
-    index = 93,
+    index = 94,
     label = "R5H_CC(O2d)CC",
     group = 
 """
@@ -1349,7 +1365,7 @@ entry(
 )
 
 entry(
-    index = 94,
+    index = 95,
     label = "R5H_CCC(O2d)C",
     group = 
 """
@@ -1365,7 +1381,7 @@ entry(
 )
 
 entry(
-    index = 95,
+    index = 96,
     label = "R5H_CCCC(O2d)",
     group = 
 """
@@ -1381,7 +1397,7 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 97,
     label = "R5H_SSSS_CsCsS",
     group = 
 """
@@ -1396,7 +1412,7 @@ entry(
 )
 
 entry(
-    index = 97,
+    index = 98,
     label = "R5H_SSSS_OCC",
     group = 
 """
@@ -1411,7 +1427,7 @@ entry(
 )
 
 entry(
-    index = 98,
+    index = 99,
     label = "R5H_SSSS_OCC_C",
     group = 
 """
@@ -1427,7 +1443,7 @@ entry(
 )
 
 entry(
-    index = 99,
+    index = 100,
     label = "R5H_SSSS_OCC_CC",
     group = 
 """
@@ -1444,7 +1460,7 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 101,
     label = "R5H_SSSS_OCs(Cs/Cs)",
     group = 
 """
@@ -1460,7 +1476,7 @@ entry(
 )
 
 entry(
-    index = 101,
+    index = 102,
     label = "R5H_SSSS_OCs(Cs/Cs/Cs)",
     group = 
 """
@@ -1477,7 +1493,7 @@ entry(
 )
 
 entry(
-    index = 102,
+    index = 103,
     label = "R5H_SSSD",
     group = 
 """
@@ -1492,7 +1508,7 @@ entry(
 )
 
 entry(
-    index = 103,
+    index = 104,
     label = "R5H_SSST",
     group = 
 """
@@ -1507,7 +1523,7 @@ entry(
 )
 
 entry(
-    index = 104,
+    index = 105,
     label = "R5H_SSSB",
     group = 
 """
@@ -1522,7 +1538,7 @@ entry(
 )
 
 entry(
-    index = 105,
+    index = 106,
     label = "R5H_DSSR",
     group = 
 """
@@ -1537,7 +1553,7 @@ entry(
 )
 
 entry(
-    index = 106,
+    index = 107,
     label = "R5H_DSSS",
     group = 
 """
@@ -1552,7 +1568,7 @@ entry(
 )
 
 entry(
-    index = 107,
+    index = 108,
     label = "R5H_DSSD",
     group = 
 """
@@ -1567,7 +1583,7 @@ entry(
 )
 
 entry(
-    index = 108,
+    index = 109,
     label = "R5H_DSST",
     group = 
 """
@@ -1582,7 +1598,7 @@ entry(
 )
 
 entry(
-    index = 109,
+    index = 110,
     label = "R5H_DSSB",
     group = 
 """
@@ -1597,7 +1613,7 @@ entry(
 )
 
 entry(
-    index = 110,
+    index = 111,
     label = "R5H_TSSR",
     group = 
 """
@@ -1612,7 +1628,7 @@ entry(
 )
 
 entry(
-    index = 111,
+    index = 112,
     label = "R5H_TSSS",
     group = 
 """
@@ -1627,7 +1643,7 @@ entry(
 )
 
 entry(
-    index = 112,
+    index = 113,
     label = "R5H_TSSD",
     group = 
 """
@@ -1642,7 +1658,7 @@ entry(
 )
 
 entry(
-    index = 113,
+    index = 114,
     label = "R5H_TSST",
     group = 
 """
@@ -1657,7 +1673,7 @@ entry(
 )
 
 entry(
-    index = 114,
+    index = 115,
     label = "R5H_TSSB",
     group = 
 """
@@ -1672,7 +1688,7 @@ entry(
 )
 
 entry(
-    index = 115,
+    index = 116,
     label = "R5H_BSSR",
     group = 
 """
@@ -1687,7 +1703,7 @@ entry(
 )
 
 entry(
-    index = 116,
+    index = 117,
     label = "R5H_BSSS",
     group = 
 """
@@ -1702,7 +1718,7 @@ entry(
 )
 
 entry(
-    index = 117,
+    index = 118,
     label = "R5H_BSSD",
     group = 
 """
@@ -1717,7 +1733,7 @@ entry(
 )
 
 entry(
-    index = 118,
+    index = 119,
     label = "R5H_BSST",
     group = 
 """
@@ -1732,7 +1748,7 @@ entry(
 )
 
 entry(
-    index = 119,
+    index = 120,
     label = "R5H_BSSB",
     group = 
 """
@@ -1747,7 +1763,7 @@ entry(
 )
 
 entry(
-    index = 120,
+    index = 121,
     label = "R5H_RSMS",
     group = 
 """
@@ -1762,7 +1778,7 @@ entry(
 )
 
 entry(
-    index = 121,
+    index = 122,
     label = "R5H_SSMS",
     group = 
 """
@@ -1777,7 +1793,7 @@ entry(
 )
 
 entry(
-    index = 122,
+    index = 123,
     label = "R5H_SS(D)MS",
     group = 
 """
@@ -1793,7 +1809,7 @@ entry(
 )
 
 entry(
-    index = 123,
+    index = 124,
     label = "R5H_DSMS",
     group = 
 """
@@ -1808,7 +1824,7 @@ entry(
 )
 
 entry(
-    index = 124,
+    index = 125,
     label = "R5H_TSMS",
     group = 
 """
@@ -1823,7 +1839,7 @@ entry(
 )
 
 entry(
-    index = 125,
+    index = 126,
     label = "R5H_BSMS",
     group = 
 """
@@ -1838,7 +1854,7 @@ entry(
 )
 
 entry(
-    index = 126,
+    index = 127,
     label = "R5H_SMSR",
     group = 
 """
@@ -1853,7 +1869,7 @@ entry(
 )
 
 entry(
-    index = 127,
+    index = 128,
     label = "R5H_SMSS",
     group = 
 """
@@ -1868,7 +1884,7 @@ entry(
 )
 
 entry(
-    index = 128,
+    index = 129,
     label = "R5H_SMSD",
     group = 
 """
@@ -1883,7 +1899,7 @@ entry(
 )
 
 entry(
-    index = 129,
+    index = 130,
     label = "R5H_SMST",
     group = 
 """
@@ -1898,7 +1914,7 @@ entry(
 )
 
 entry(
-    index = 130,
+    index = 131,
     label = "R5H_SMSB",
     group = 
 """
@@ -1913,7 +1929,7 @@ entry(
 )
 
 entry(
-    index = 131,
+    index = 132,
     label = "R5H_BBSR",
     group = 
 """
@@ -1928,7 +1944,7 @@ entry(
 )
 
 entry(
-    index = 132,
+    index = 133,
     label = "R5H_BBSS",
     group = 
 """
@@ -1943,7 +1959,7 @@ entry(
 )
 
 entry(
-    index = 133,
+    index = 134,
     label = "R5H_BBSD",
     group = 
 """
@@ -1958,7 +1974,7 @@ entry(
 )
 
 entry(
-    index = 134,
+    index = 135,
     label = "R5H_BBST",
     group = 
 """
@@ -1973,7 +1989,7 @@ entry(
 )
 
 entry(
-    index = 135,
+    index = 136,
     label = "R5H_BBSB",
     group = 
 """
@@ -1988,7 +2004,7 @@ entry(
 )
 
 entry(
-    index = 136,
+    index = 137,
     label = "R5H_RSBB",
     group = 
 """
@@ -2003,7 +2019,7 @@ entry(
 )
 
 entry(
-    index = 137,
+    index = 138,
     label = "R5H_SSBB",
     group = 
 """
@@ -2018,7 +2034,7 @@ entry(
 )
 
 entry(
-    index = 138,
+    index = 139,
     label = "R5H_DSBB",
     group = 
 """
@@ -2033,7 +2049,7 @@ entry(
 )
 
 entry(
-    index = 139,
+    index = 140,
     label = "R5H_TSBB",
     group = 
 """
@@ -2048,7 +2064,7 @@ entry(
 )
 
 entry(
-    index = 140,
+    index = 141,
     label = "R5H_BSBB",
     group = 
 """
@@ -2063,7 +2079,7 @@ entry(
 )
 
 entry(
-    index = 141,
+    index = 142,
     label = "R5H_SBBS",
     group = 
 """
@@ -2078,7 +2094,7 @@ entry(
 )
 
 entry(
-    index = 142,
+    index = 143,
     label = "R5H_SBBB",
     group = 
 """
@@ -2103,7 +2119,7 @@ entry(
 )
 
 entry(
-    index = 143,
+    index = 144,
     label = "R5H_BBBS",
     group = 
 """
@@ -2128,7 +2144,7 @@ entry(
 )
 
 entry(
-    index = 144,
+    index = 145,
     label = "R5H_BBBB",
     group = 
 """
@@ -2156,7 +2172,7 @@ entry(
 )
 
 entry(
-    index = 145,
+    index = 146,
     label = "R5H_SMMS",
     group = 
 """
@@ -2171,7 +2187,7 @@ entry(
 )
 
 entry(
-    index = 146,
+    index = 147,
     label = "R6Hall",
     group = 
 """
@@ -2187,7 +2203,7 @@ entry(
 )
 
 entry(
-    index = 147,
+    index = 148,
     label = "R6HJ_1",
     group = 
 """
@@ -2203,7 +2219,7 @@ entry(
 )
 
 entry(
-    index = 148,
+    index = 149,
     label = "R6HJ_2",
     group = 
 """
@@ -2219,7 +2235,7 @@ entry(
 )
 
 entry(
-    index = 149,
+    index = 150,
     label = "R6HJ_3",
     group = 
 """
@@ -2235,7 +2251,7 @@ entry(
 )
 
 entry(
-    index = 150,
+    index = 151,
     label = "R6HJ_4",
     group = 
 """
@@ -2251,7 +2267,7 @@ entry(
 )
 
 entry(
-    index = 151,
+    index = 152,
     label = "R6H",
     group = 
 """
@@ -2267,7 +2283,7 @@ entry(
 )
 
 entry(
-    index = 152,
+    index = 153,
     label = "R6H_RSSSR",
     group = 
 """
@@ -2283,7 +2299,7 @@ entry(
 )
 
 entry(
-    index = 153,
+    index = 154,
     label = "R6H_SSSSR",
     group = 
 """
@@ -2299,7 +2315,7 @@ entry(
 )
 
 entry(
-    index = 154,
+    index = 155,
     label = "R6H_SSSSS",
     group = 
 """
@@ -2315,7 +2331,7 @@ entry(
 )
 
 entry(
-    index = 155,
+    index = 156,
     label = "R6H_SSSS(Cd)S",
     group = 
 """
@@ -2332,7 +2348,7 @@ entry(
 )
 
 entry(
-    index = 156,
+    index = 157,
     label = "R6H_S(Cd)SSSS",
     group = 
 """
@@ -2349,7 +2365,7 @@ entry(
 )
 
 entry(
-    index = 157,
+    index = 158,
     label = "R6H_SSSSS_OO",
     group = 
 """
@@ -2365,7 +2381,7 @@ entry(
 )
 
 entry(
-    index = 158,
+    index = 159,
     label = "R6H_SSSSS_OO(Cs/Cs)Cs",
     group = 
 """
@@ -2382,7 +2398,7 @@ entry(
 )
 
 entry(
-    index = 159,
+    index = 160,
     label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)",
     group = 
 """
@@ -2400,7 +2416,7 @@ entry(
 )
 
 entry(
-    index = 160,
+    index = 161,
     label = "R6H_SSSSS_OOCCC(Cs/Cs)",
     group = 
 """
@@ -2417,7 +2433,7 @@ entry(
 )
 
 entry(
-    index = 161,
+    index = 162,
     label = "R6H_SSSSS_bicyclopentane",
     group = 
 """
@@ -2437,7 +2453,7 @@ entry(
 )
 
 entry(
-    index = 162,
+    index = 163,
     label = "R6H_SSSSD",
     group = 
 """
@@ -2453,7 +2469,7 @@ entry(
 )
 
 entry(
-    index = 163,
+    index = 164,
     label = "R6H_SSSST",
     group = 
 """
@@ -2469,7 +2485,7 @@ entry(
 )
 
 entry(
-    index = 164,
+    index = 165,
     label = "R6H_SSSSB",
     group = 
 """
@@ -2485,7 +2501,7 @@ entry(
 )
 
 entry(
-    index = 165,
+    index = 166,
     label = "R6H_DSSSR",
     group = 
 """
@@ -2501,7 +2517,7 @@ entry(
 )
 
 entry(
-    index = 166,
+    index = 167,
     label = "R6H_DSSSS",
     group = 
 """
@@ -2517,7 +2533,7 @@ entry(
 )
 
 entry(
-    index = 167,
+    index = 168,
     label = "R6H_DSSSD",
     group = 
 """
@@ -2533,7 +2549,7 @@ entry(
 )
 
 entry(
-    index = 168,
+    index = 169,
     label = "R6H_DSSST",
     group = 
 """
@@ -2549,7 +2565,7 @@ entry(
 )
 
 entry(
-    index = 169,
+    index = 170,
     label = "R6H_DSSSB",
     group = 
 """
@@ -2565,7 +2581,7 @@ entry(
 )
 
 entry(
-    index = 170,
+    index = 171,
     label = "R6H_TSSSR",
     group = 
 """
@@ -2581,7 +2597,7 @@ entry(
 )
 
 entry(
-    index = 171,
+    index = 172,
     label = "R6H_TSSSS",
     group = 
 """
@@ -2597,7 +2613,7 @@ entry(
 )
 
 entry(
-    index = 172,
+    index = 173,
     label = "R6H_TSSSD",
     group = 
 """
@@ -2613,7 +2629,7 @@ entry(
 )
 
 entry(
-    index = 173,
+    index = 174,
     label = "R6H_TSSST",
     group = 
 """
@@ -2629,7 +2645,7 @@ entry(
 )
 
 entry(
-    index = 174,
+    index = 175,
     label = "R6H_TSSSB",
     group = 
 """
@@ -2645,7 +2661,7 @@ entry(
 )
 
 entry(
-    index = 175,
+    index = 176,
     label = "R6H_BSSSR",
     group = 
 """
@@ -2661,7 +2677,7 @@ entry(
 )
 
 entry(
-    index = 176,
+    index = 177,
     label = "R6H_BSSSS",
     group = 
 """
@@ -2677,7 +2693,7 @@ entry(
 )
 
 entry(
-    index = 177,
+    index = 178,
     label = "R6H_BSSSD",
     group = 
 """
@@ -2693,7 +2709,7 @@ entry(
 )
 
 entry(
-    index = 178,
+    index = 179,
     label = "R6H_BSSST",
     group = 
 """
@@ -2709,7 +2725,7 @@ entry(
 )
 
 entry(
-    index = 179,
+    index = 180,
     label = "R6H_BSSSB",
     group = 
 """
@@ -2725,7 +2741,7 @@ entry(
 )
 
 entry(
-    index = 180,
+    index = 181,
     label = "R6H_RSSMS",
     group = 
 """
@@ -2741,7 +2757,7 @@ entry(
 )
 
 entry(
-    index = 181,
+    index = 182,
     label = "R6H_RS(Cd)SMS",
     group = 
 """
@@ -2758,7 +2774,7 @@ entry(
 )
 
 entry(
-    index = 182,
+    index = 183,
     label = "R6H_RSMSR",
     group = 
 """
@@ -2774,7 +2790,7 @@ entry(
 )
 
 entry(
-    index = 183,
+    index = 184,
     label = "R6H_SMSSR",
     group = 
 """
@@ -2790,7 +2806,7 @@ entry(
 )
 
 entry(
-    index = 184,
+    index = 185,
     label = "R6H_SMSMS",
     group = 
 """
@@ -2806,7 +2822,7 @@ entry(
 )
 
 entry(
-    index = 185,
+    index = 186,
     label = "R6H_BBSRS",
     group = 
 """
@@ -2822,7 +2838,7 @@ entry(
 )
 
 entry(
-    index = 186,
+    index = 187,
     label = "R6H_BBSSM",
     group = 
 """
@@ -2838,7 +2854,7 @@ entry(
 )
 
 entry(
-    index = 187,
+    index = 188,
     label = "R6H_BBSBB",
     group = 
 """
@@ -2854,7 +2870,7 @@ entry(
 )
 
 entry(
-    index = 188,
+    index = 189,
     label = "R6H_SBBSR",
     group = 
 """
@@ -2870,7 +2886,7 @@ entry(
 )
 
 entry(
-    index = 189,
+    index = 190,
     label = "R6H_RSBBS",
     group = 
 """
@@ -2886,7 +2902,7 @@ entry(
 )
 
 entry(
-    index = 190,
+    index = 191,
     label = "R6H_BBBSR",
     group = 
 """
@@ -2902,7 +2918,7 @@ entry(
 )
 
 entry(
-    index = 191,
+    index = 192,
     label = "R6H_SBBBS",
     group = 
 """
@@ -2918,7 +2934,7 @@ entry(
 )
 
 entry(
-    index = 192,
+    index = 193,
     label = "R6H_RSBBB",
     group = 
 """
@@ -2934,7 +2950,7 @@ entry(
 )
 
 entry(
-    index = 193,
+    index = 194,
     label = "R6H_SBBBB",
     group = 
 """
@@ -2950,7 +2966,7 @@ entry(
 )
 
 entry(
-    index = 194,
+    index = 195,
     label = "R6H_BBBBS",
     group = 
 """
@@ -2966,7 +2982,7 @@ entry(
 )
 
 entry(
-    index = 195,
+    index = 196,
     label = "R6H_BBBBB",
     group = 
 """
@@ -2982,7 +2998,7 @@ entry(
 )
 
 entry(
-    index = 196,
+    index = 197,
     label = "R7Hall",
     group = 
 """
@@ -2999,7 +3015,7 @@ entry(
 )
 
 entry(
-    index = 197,
+    index = 198,
     label = "R7HJ_1",
     group = 
 """
@@ -3016,7 +3032,7 @@ entry(
 )
 
 entry(
-    index = 198,
+    index = 199,
     label = "R7HJ_2",
     group = 
 """
@@ -3033,7 +3049,7 @@ entry(
 )
 
 entry(
-    index = 199,
+    index = 200,
     label = "R7HJ_3",
     group = 
 """
@@ -3050,7 +3066,7 @@ entry(
 )
 
 entry(
-    index = 200,
+    index = 201,
     label = "R7HJ_4",
     group = 
 """
@@ -3067,7 +3083,7 @@ entry(
 )
 
 entry(
-    index = 201,
+    index = 202,
     label = "R7HJ_5",
     group = 
 """
@@ -3084,7 +3100,7 @@ entry(
 )
 
 entry(
-    index = 202,
+    index = 203,
     label = "R7H",
     group = 
 """
@@ -3101,7 +3117,7 @@ entry(
 )
 
 entry(
-    index = 203,
+    index = 204,
     label = "R7H_OOCs4",
     group = 
 """
@@ -3118,7 +3134,7 @@ entry(
 )
 
 entry(
-    index = 204,
+    index = 205,
     label = "R7H_OOCCCC(Cs/Cs)",
     group = 
 """
@@ -3136,7 +3152,7 @@ entry(
 )
 
 entry(
-    index = 205,
+    index = 206,
     label = "R7H_SDSDSS",
     group = 
 """
@@ -3153,7 +3169,7 @@ entry(
 )
 
 entry(
-    index = 206,
+    index = 207,
     label = "R8Hall",
     group = 
 """
@@ -3171,7 +3187,7 @@ entry(
 )
 
 entry(
-    index = 207,
+    index = 208,
     label = "R8H",
     group = 
 """
@@ -3189,7 +3205,7 @@ entry(
 )
 
 entry(
-    index = 208,
+    index = 209,
     label = "R8H_SDSDSD",
     group = 
 """
@@ -3207,7 +3223,7 @@ entry(
 )
 
 entry(
-    index = 209,
+    index = 210,
     label = "O_rad_out",
     group = 
 """
@@ -3217,7 +3233,7 @@ entry(
 )
 
 entry(
-    index = 210,
+    index = 211,
     label = "S_rad_out",
     group = 
 """
@@ -3227,7 +3243,7 @@ entry(
 )
 
 entry(
-    index = 211,
+    index = 212,
     label = "Cd_rad_out",
     group = 
 """
@@ -3237,7 +3253,7 @@ entry(
 )
 
 entry(
-    index = 212,
+    index = 213,
     label = "Cd_rad_out_double",
     group = 
 """
@@ -3248,7 +3264,7 @@ entry(
 )
 
 entry(
-    index = 213,
+    index = 214,
     label = "Cd_rad_out_Cd",
     group = 
 """
@@ -3259,7 +3275,7 @@ entry(
 )
 
 entry(
-    index = 214,
+    index = 215,
     label = "Cd_rad_out_Cd_Cb",
     group = 
 """
@@ -3271,7 +3287,7 @@ entry(
 )
 
 entry(
-    index = 215,
+    index = 216,
     label = "Cd_rad_out_Cd_sec_ring",
     group = 
 """
@@ -3288,7 +3304,7 @@ entry(
 )
 
 entry(
-    index = 216,
+    index = 217,
     label = "Cd_rad_out_single",
     group = 
 """
@@ -3299,7 +3315,7 @@ entry(
 )
 
 entry(
-    index = 217,
+    index = 218,
     label = "Cd_rad_out_singleH",
     group = 
 """
@@ -3310,7 +3326,7 @@ entry(
 )
 
 entry(
-    index = 218,
+    index = 219,
     label = "Cd_rad_out_singleNd",
     group = 
 """
@@ -3321,7 +3337,7 @@ entry(
 )
 
 entry(
-    index = 219,
+    index = 220,
     label = "Cd_rad_out_Cs",
     group = 
 """
@@ -3332,7 +3348,7 @@ entry(
 )
 
 entry(
-    index = 220,
+    index = 221,
     label = "Cd_rad_out_singleDe",
     group = 
 """
@@ -3343,7 +3359,7 @@ entry(
 )
 
 entry(
-    index = 221,
+    index = 222,
     label = "Cd_rad_out_singleDe_Cb",
     group = 
 """
@@ -3354,7 +3370,7 @@ entry(
 )
 
 entry(
-    index = 222,
+    index = 223,
     label = "Cd_rad_out_singleDe_Ct",
     group = 
 """
@@ -3365,7 +3381,7 @@ entry(
 )
 
 entry(
-    index = 223,
+    index = 224,
     label = "Cd_rad_out_singleDe_Cd",
     group = 
 """
@@ -3376,7 +3392,7 @@ entry(
 )
 
 entry(
-    index = 224,
+    index = 225,
     label = "Ct_rad_out",
     group = 
 """
@@ -3386,7 +3402,7 @@ entry(
 )
 
 entry(
-    index = 225,
+    index = 226,
     label = "Cb_rad_out",
     group = 
 """
@@ -3396,7 +3412,7 @@ entry(
 )
 
 entry(
-    index = 226,
+    index = 227,
     label = "CO_rad_out",
     group = 
 """
@@ -3407,7 +3423,7 @@ entry(
 )
 
 entry(
-    index = 227,
+    index = 228,
     label = "CS_rad_out",
     group = 
 """
@@ -3417,7 +3433,7 @@ entry(
 )
 
 entry(
-    index = 228,
+    index = 229,
     label = "C_rad_out_single",
     group = 
 """
@@ -3429,7 +3445,7 @@ entry(
 )
 
 entry(
-    index = 229,
+    index = 230,
     label = "C_rad_out_2H",
     group = 
 """
@@ -3441,7 +3457,7 @@ entry(
 )
 
 entry(
-    index = 230,
+    index = 231,
     label = "C_rad_out_1H",
     group = 
 """
@@ -3453,7 +3469,7 @@ entry(
 )
 
 entry(
-    index = 231,
+    index = 232,
     label = "C_rad_out_H/NonDeC",
     group = 
 """
@@ -3465,7 +3481,7 @@ entry(
 )
 
 entry(
-    index = 232,
+    index = 233,
     label = "C_rad_out_H/Cyclopentadiene",
     group = 
 """
@@ -3481,7 +3497,7 @@ entry(
 )
 
 entry(
-    index = 233,
+    index = 234,
     label = "C_rad_out_H/NonDeO",
     group = 
 """
@@ -3493,7 +3509,7 @@ entry(
 )
 
 entry(
-    index = 234,
+    index = 235,
     label = "C_rad_out_H/NonDeS",
     group = 
 """
@@ -3505,7 +3521,7 @@ entry(
 )
 
 entry(
-    index = 235,
+    index = 236,
     label = "C_rad_out_H/OneDe",
     group = 
 """
@@ -3517,7 +3533,7 @@ entry(
 )
 
 entry(
-    index = 236,
+    index = 237,
     label = "C_rad_out_H/(Cd-Cd-Cd-Cd-Cd)",
     group = 
 """
@@ -3533,7 +3549,7 @@ entry(
 )
 
 entry(
-    index = 237,
+    index = 238,
     label = "C_rad_out_H/(Cd-Cd-Cd)",
     group = 
 """
@@ -3547,7 +3563,7 @@ entry(
 )
 
 entry(
-    index = 238,
+    index = 239,
     label = "C_rad_out_H/Cd",
     group = 
 """
@@ -3559,7 +3575,7 @@ entry(
 )
 
 entry(
-    index = 239,
+    index = 240,
     label = "C_rad_out_H/Cb",
     group = 
 """
@@ -3571,7 +3587,7 @@ entry(
 )
 
 entry(
-    index = 240,
+    index = 241,
     label = "C_rad_out_H/Ct",
     group = 
 """
@@ -3583,7 +3599,7 @@ entry(
 )
 
 entry(
-    index = 241,
+    index = 242,
     label = "C_rad_out_noH",
     group = 
 """
@@ -3595,7 +3611,7 @@ entry(
 )
 
 entry(
-    index = 242,
+    index = 243,
     label = "C_rad_out_NonDe",
     group = 
 """
@@ -3607,7 +3623,7 @@ entry(
 )
 
 entry(
-    index = 243,
+    index = 244,
     label = "C_rad_out_Cs2",
     group = 
 """
@@ -3619,7 +3635,7 @@ entry(
 )
 
 entry(
-    index = 244,
+    index = 245,
     label = "C_rad_out_Cs2_cy3",
     group = 
 """
@@ -3631,7 +3647,7 @@ entry(
 )
 
 entry(
-    index = 245,
+    index = 246,
     label = "C_rad_out_Cs2_cy4",
     group = 
 """
@@ -3644,7 +3660,7 @@ entry(
 )
 
 entry(
-    index = 246,
+    index = 247,
     label = "C_rad_out_Cs2_cy5",
     group = 
 """
@@ -3658,7 +3674,7 @@ entry(
 )
 
 entry(
-    index = 247,
+    index = 248,
     label = "C_rad_out_NDMustO",
     group = 
 """
@@ -3670,7 +3686,7 @@ entry(
 )
 
 entry(
-    index = 248,
+    index = 249,
     label = "C_rad_out_OneDe",
     group = 
 """
@@ -3682,7 +3698,7 @@ entry(
 )
 
 entry(
-    index = 249,
+    index = 250,
     label = "C_rad_out_OneDe/Cs",
     group = 
 """
@@ -3694,7 +3710,7 @@ entry(
 )
 
 entry(
-    index = 250,
+    index = 251,
     label = "C_rad_out_OneDe/O",
     group = 
 """
@@ -3706,7 +3722,7 @@ entry(
 )
 
 entry(
-    index = 251,
+    index = 252,
     label = "C_rad_out_OneDe/S",
     group = 
 """
@@ -3718,7 +3734,7 @@ entry(
 )
 
 entry(
-    index = 252,
+    index = 253,
     label = "C_rad_out_TwoDe",
     group = 
 """
@@ -3730,7 +3746,7 @@ entry(
 )
 
 entry(
-    index = 253,
+    index = 254,
     label = "C_rad_out_Cd/Cd",
     group = 
 """
@@ -3742,7 +3758,7 @@ entry(
 )
 
 entry(
-    index = 254,
+    index = 255,
     label = "C_rad_out_Cd/Cd_cyc5",
     group = 
 """
@@ -3756,7 +3772,7 @@ entry(
 )
 
 entry(
-    index = 255,
+    index = 256,
     label = "C_rad_out_Cd/Cd_cyc5_cyc6",
     group = 
 """
@@ -3774,7 +3790,7 @@ entry(
 )
 
 entry(
-    index = 256,
+    index = 257,
     label = "C_rad_out_Cd/Cb",
     group = 
 """
@@ -3786,7 +3802,7 @@ entry(
 )
 
 entry(
-    index = 257,
+    index = 258,
     label = "CO_H_out",
     group = 
 """
@@ -3797,7 +3813,7 @@ entry(
 )
 
 entry(
-    index = 258,
+    index = 259,
     label = "O_H_out",
     group = 
 """
@@ -3808,7 +3824,7 @@ entry(
 )
 
 entry(
-    index = 259,
+    index = 260,
     label = "Ct_H_out",
     group = 
 """
@@ -3819,7 +3835,7 @@ entry(
 )
 
 entry(
-    index = 260,
+    index = 261,
     label = "Cb_H_out",
     group = 
 """
@@ -3830,7 +3846,7 @@ entry(
 )
 
 entry(
-    index = 261,
+    index = 262,
     label = "S_H_out",
     group = 
 """
@@ -3841,7 +3857,7 @@ entry(
 )
 
 entry(
-    index = 262,
+    index = 263,
     label = "Cd_H_out_double",
     group = 
 """
@@ -3853,7 +3869,7 @@ entry(
 )
 
 entry(
-    index = 263,
+    index = 264,
     label = "Cd_H_out_doubleC",
     group = 
 """
@@ -3865,7 +3881,7 @@ entry(
 )
 
 entry(
-    index = 264,
+    index = 265,
     label = "Cd_H_out_double(Cd-Cd-Cd-Cd)",
     group = 
 """
@@ -3880,7 +3896,7 @@ entry(
 )
 
 entry(
-    index = 265,
+    index = 266,
     label = "Cd_H_out_single",
     group = 
 """
@@ -3892,7 +3908,7 @@ entry(
 )
 
 entry(
-    index = 266,
+    index = 267,
     label = "Cd_H_out_singleH",
     group = 
 """
@@ -3904,7 +3920,7 @@ entry(
 )
 
 entry(
-    index = 267,
+    index = 268,
     label = "Cd_H_out_singleNd",
     group = 
 """
@@ -3916,7 +3932,7 @@ entry(
 )
 
 entry(
-    index = 268,
+    index = 269,
     label = "Cd_H_out_singleDe",
     group = 
 """
@@ -3928,7 +3944,7 @@ entry(
 )
 
 entry(
-    index = 269,
+    index = 270,
     label = "Cd_H_out_Cb",
     group = 
 """
@@ -3940,7 +3956,7 @@ entry(
 )
 
 entry(
-    index = 270,
+    index = 271,
     label = "Cd_H_out_CdCb",
     group = 
 """
@@ -3954,7 +3970,7 @@ entry(
 )
 
 entry(
-    index = 271,
+    index = 272,
     label = "Cs_H_out",
     group = 
 """
@@ -3967,7 +3983,7 @@ entry(
 )
 
 entry(
-    index = 272,
+    index = 273,
     label = "Cs_H_out_OOH",
     group = 
 """
@@ -3981,7 +3997,7 @@ entry(
 )
 
 entry(
-    index = 273,
+    index = 274,
     label = "Cs_H_out_OOH/Cs",
     group = 
 """
@@ -3995,7 +4011,7 @@ entry(
 )
 
 entry(
-    index = 274,
+    index = 275,
     label = "Cs_H_out_OOH/H",
     group = 
 """
@@ -4009,7 +4025,7 @@ entry(
 )
 
 entry(
-    index = 275,
+    index = 276,
     label = "Cs_H_out_2H",
     group = 
 """
@@ -4022,7 +4038,7 @@ entry(
 )
 
 entry(
-    index = 276,
+    index = 277,
     label = "Cs_H_out_noH",
     group = 
 """
@@ -4035,7 +4051,7 @@ entry(
 )
 
 entry(
-    index = 277,
+    index = 278,
     label = "Cs_H_out_NonDe",
     group = 
 """
@@ -4048,7 +4064,7 @@ entry(
 )
 
 entry(
-    index = 278,
+    index = 279,
     label = "Cs_H_out_Cs2",
     group = 
 """
@@ -4061,7 +4077,7 @@ entry(
 )
 
 entry(
-    index = 279,
+    index = 280,
     label = "Cs_H_out_Cs2_cy3",
     group = 
 """
@@ -4074,7 +4090,7 @@ entry(
 )
 
 entry(
-    index = 280,
+    index = 281,
     label = "Cs_H_out_Cs2_cy4",
     group = 
 """
@@ -4088,7 +4104,7 @@ entry(
 )
 
 entry(
-    index = 281,
+    index = 282,
     label = "Cs_H_out_Cs2_cy5",
     group = 
 """
@@ -4103,7 +4119,7 @@ entry(
 )
 
 entry(
-    index = 282,
+    index = 283,
     label = "Cs_H_out_NDMustO",
     group = 
 """
@@ -4116,14 +4132,14 @@ entry(
 )
 
 entry(
-    index = 283,
+    index = 284,
     label = "Cs_H_out_OneDe",
     group = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
     kinetics = None,
 )
 
 entry(
-    index = 284,
+    index = 285,
     label = "Cs_H_out_Ct",
     group = 
 """
@@ -4138,7 +4154,7 @@ entry(
 )
 
 entry(
-    index = 285,
+    index = 286,
     label = "Cs_H_out_CO",
     group = 
 """
@@ -4153,7 +4169,7 @@ entry(
 )
 
 entry(
-    index = 286,
+    index = 287,
     label = "Cs_H_out_CS",
     group = 
 """
@@ -4168,7 +4184,7 @@ entry(
 )
 
 entry(
-    index = 287,
+    index = 288,
     label = "Cs_H_out_Cd",
     group = 
 """
@@ -4185,7 +4201,7 @@ entry(
 )
 
 entry(
-    index = 288,
+    index = 289,
     label = "Cs_H_out_(CdCdCd)",
     group = 
 """
@@ -4202,14 +4218,14 @@ entry(
 )
 
 entry(
-    index = 289,
+    index = 290,
     label = "Cs_H_out_TwoDe",
     group = "OR{Cs_H_out_CdCd, Cs_H_out_CdCt, Cs_H_out_CtCt, CPD}",
     kinetics = None,
 )
 
 entry(
-    index = 290,
+    index = 291,
     label = "Cs_H_out_CtCt",
     group = 
 """
@@ -4226,7 +4242,7 @@ entry(
 )
 
 entry(
-    index = 291,
+    index = 292,
     label = "Cs_H_out_CdCt",
     group = 
 """
@@ -4245,7 +4261,7 @@ entry(
 )
 
 entry(
-    index = 292,
+    index = 293,
     label = "Cs_H_out_CdCd",
     group = 
 """
@@ -4266,7 +4282,7 @@ entry(
 )
 
 entry(
-    index = 293,
+    index = 294,
     label = "CPD",
     group = 
 """
@@ -4281,7 +4297,7 @@ entry(
 )
 
 entry(
-    index = 294,
+    index = 295,
     label = "Cs_H_out_AromDe",
     group = 
 """
@@ -4294,7 +4310,7 @@ entry(
 )
 
 entry(
-    index = 295,
+    index = 296,
     label = "Cs_H_out_1H",
     group = 
 """
@@ -4307,7 +4323,7 @@ entry(
 )
 
 entry(
-    index = 296,
+    index = 297,
     label = "Cs_H_out_H/NonDeC",
     group = 
 """
@@ -4320,7 +4336,7 @@ entry(
 )
 
 entry(
-    index = 297,
+    index = 298,
     label = "Cs_H_out_H/(NonDeC/Cs)",
     group = 
 """
@@ -4334,7 +4350,7 @@ entry(
 )
 
 entry(
-    index = 298,
+    index = 299,
     label = "Cs_H_out_H/(NonDeC/Cs/Cs)",
     group = 
 """
@@ -4349,7 +4365,7 @@ entry(
 )
 
 entry(
-    index = 299,
+    index = 300,
     label = "Cs_H_out_H/(NonDeC/Cs/Cs/Cs)",
     group = 
 """
@@ -4365,7 +4381,7 @@ entry(
 )
 
 entry(
-    index = 300,
+    index = 301,
     label = "Cs_H_out_H/(NonDeC/O)",
     group = 
 """
@@ -4380,7 +4396,7 @@ entry(
 )
 
 entry(
-    index = 301,
+    index = 302,
     label = "Cs_H_out_H/NonDeO",
     group = 
 """
@@ -4393,7 +4409,7 @@ entry(
 )
 
 entry(
-    index = 302,
+    index = 303,
     label = "Cs_H_out_H/NonDeS",
     group = 
 """
@@ -4406,7 +4422,7 @@ entry(
 )
 
 entry(
-    index = 303,
+    index = 304,
     label = "Cs_H_out_H/OneDe",
     group = 
 """
@@ -4419,7 +4435,7 @@ entry(
 )
 
 entry(
-    index = 304,
+    index = 305,
     label = "Cs_H_out_H/Ct",
     group = 
 """
@@ -4434,7 +4450,7 @@ entry(
 )
 
 entry(
-    index = 305,
+    index = 306,
     label = "Cs_H_out_H/CO",
     group = 
 """
@@ -4449,7 +4465,7 @@ entry(
 )
 
 entry(
-    index = 306,
+    index = 307,
     label = "Cs_H_out_H/CS",
     group = 
 """
@@ -4464,7 +4480,7 @@ entry(
 )
 
 entry(
-    index = 307,
+    index = 308,
     label = "Cs_H_out_H/Cd",
     group = 
 """
@@ -4478,7 +4494,7 @@ entry(
 )
 
 entry(
-    index = 308,
+    index = 309,
     label = "Cs_H_out_H/(Cd-Cd-Cd)",
     group = 
 """
@@ -4493,7 +4509,7 @@ entry(
 )
 
 entry(
-    index = 309,
+    index = 310,
     label = "Cs_H_out_H/(Cd-Cd-Cd-Cd-Cd)",
     group = 
 """
@@ -4510,7 +4526,7 @@ entry(
 )
 
 entry(
-    index = 310,
+    index = 311,
     label = "Cs_H_out_H/Cd/C/Cb",
     group = 
 """
@@ -4527,7 +4543,7 @@ entry(
 )
 
 entry(
-    index = 311,
+    index = 312,
     label = "Cs_H_out_H/AromDe",
     group = 
 """
@@ -4535,22 +4551,6 @@ entry(
 2 *3 H  u0 {1,S}
 3    Cb u0 {1,S}
 4    H  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 312,
-    label = "R4H_DSD_fulvene",
-    group = 
-"""
-1 *1 R!H u1 {2,D} {6,S}
-2 *4 Cd  u0 {1,D} {3,S}
-3 *5 Cd  u0 {2,S} {4,D} {7,S}
-4 *2 R!H u0 {3,D} {5,S}
-5 *3 H   u0 {4,S}
-6    Cd  u0 {1,S} {7,D}
-7    Cd  u0 {3,S} {6,D}
 """,
     kinetics = None,
 )

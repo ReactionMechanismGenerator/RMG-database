@@ -2948,7 +2948,7 @@ Converted to training reaction from rate rule: S-HCs(CsHH);SsJ-Cs
 )
 
 entry(
-    index = 148,
+    index = 147,
     label = "CH4S + CH3-2 <=> CH4S-3 + CH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(

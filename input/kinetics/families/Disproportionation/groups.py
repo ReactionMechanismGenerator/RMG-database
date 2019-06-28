@@ -2767,7 +2767,7 @@ entry(
 entry(
     index = 221,
     label = "XH_b_Rrad",
-    group =
+    group = 
 """
 1 *2 R!H u0 {2,B} {3,S}
 2 *3 R!H u1 {1,B}
@@ -2779,7 +2779,7 @@ entry(
 entry(
     index = 222,
     label = "CH_b_Crad",
-    group =
+    group = 
 """
 1 *2 C u0 {2,B} {3,S}
 2 *3 C u1 {1,B}
@@ -2789,7 +2789,7 @@ entry(
 )
 
 entry(
-    index = 221,
+    index = 223,
     label = "XH_Rbirad",
     group = 
 """
@@ -2801,7 +2801,7 @@ entry(
 )
 
 entry(
-    index = 222,
+    index = 224,
     label = "XH_s_Rbirad",
     group = 
 """
@@ -2813,7 +2813,7 @@ entry(
 )
 
 entry(
-    index = 223,
+    index = 225,
     label = "CH_s_Rbirad",
     group = 
 """
@@ -2825,7 +2825,7 @@ entry(
 )
 
 entry(
-    index = 224,
+    index = 226,
     label = "NH_s_Rbirad",
     group = 
 """
@@ -2837,7 +2837,7 @@ entry(
 )
 
 entry(
-    index = 225,
+    index = 227,
     label = "N3H_s_Rbirad",
     group = 
 """
@@ -2849,7 +2849,7 @@ entry(
 )
 
 entry(
-    index = 226,
+    index = 228,
     label = "N3s/H2_s_Rbirad",
     group = 
 """
@@ -2862,7 +2862,7 @@ entry(
 )
 
 entry(
-    index = 227,
+    index = 229,
     label = "N3s/H2_s_Cbirad",
     group = 
 """
@@ -2875,7 +2875,7 @@ entry(
 )
 
 entry(
-    index = 228,
+    index = 230,
     label = "N3s/H2_s_Nbirad",
     group = 
 """
@@ -2888,7 +2888,7 @@ entry(
 )
 
 entry(
-    index = 229,
+    index = 231,
     label = "N3s/H/NonDe_s_Rbirad",
     group = 
 """
@@ -2901,7 +2901,7 @@ entry(
 )
 
 entry(
-    index = 230,
+    index = 232,
     label = "N3s/H/Deloc_s_Rbirad",
     group = 
 """
@@ -2914,7 +2914,7 @@ entry(
 )
 
 entry(
-    index = 231,
+    index = 233,
     label = "N5H_s_Rbirad",
     group = 
 """
@@ -2927,7 +2927,7 @@ entry(
 )
 
 entry(
-    index = 232,
+    index = 234,
     label = "XH_d_Rbirad",
     group = 
 """

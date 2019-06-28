@@ -22,8 +22,8 @@ ONRRR(T) + M <=> ONRRR(S) + M
 template(reactants=["N3sRRR", "O_atom_singlet"], products=["N3sRRRO"], ownReverse=False)
 
 reverse = "Bond_Dissociation"
-
 reversible = True
+
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
     ['FORM_BOND', '*1', 1, '*2'],

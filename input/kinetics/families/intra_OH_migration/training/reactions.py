@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2H5O2 <=> C2H5O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -28,7 +28,7 @@ Converted to training reaction from rate rule: R2OOH_S;C_rad_out_2H
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C3H7O2 <=> C3H7O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -48,7 +48,7 @@ Converted to training reaction from rate rule: R2OOH_S;C_rad_out_H/NonDeC
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C3H7O2-3 <=> C3H7O2-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -68,7 +68,7 @@ Converted to training reaction from rate rule: R3OOH_SS;C_rad_out_2H
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C4H9O2 <=> C4H9O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -88,7 +88,7 @@ Converted to training reaction from rate rule: R3OOH_SS;C_rad_out_H/NonDeC
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C5H11O2 <=> C5H11O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -108,7 +108,7 @@ Converted to training reaction from rate rule: R3OOH_SS;C_rad_out_Cs2
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C4H9O2-3 <=> C4H9O2-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -128,7 +128,7 @@ Converted to training reaction from rate rule: R4OOH_SSS;C_rad_out_2H
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "C5H11O2-3 <=> C5H11O2-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -148,7 +148,7 @@ Converted to training reaction from rate rule: R4OOH_SSS;C_rad_out_H/NonDeC
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C6H13O2 <=> C6H13O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(

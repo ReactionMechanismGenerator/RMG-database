@@ -19,15 +19,16 @@ so k should be in (m2/mol/s)
 template(reactants=["Adsorbate1", "Adsorbate2"], products=["Combined", "VacantSite"], ownReverse=False)
 
 reverse = "Surface_Bond_Fission"
+reversible = True
 
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*3'],
     ['CHANGE_BOND', '*1', -1, '*2'],
-    ['BREAK_BOND', '*3', 1, '*4']
+    ['BREAK_BOND', '*3', 1, '*4'],
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "Adsorbate1",
     group = 
 """
@@ -38,8 +39,8 @@ entry(
 )
 
 entry(
-    index = 2,
-    label="Adsorbate2",
+    index = 1,
+    label = "Adsorbate2",
     group = 
 """
 1 *3 R  ux {2,S}
@@ -48,11 +49,9 @@ entry(
     kinetics = None,
 )
 
-
 tree(
 """
 L1: Adsorbate1
-
 L1: Adsorbate2
 """
 )

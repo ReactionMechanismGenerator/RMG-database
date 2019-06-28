@@ -10,8 +10,8 @@ entry(
     index = 1,
     label = "RCH(OOH)CH2C(O)R';R''C(O)OH",
     kinetics = ArrheniusEP(
-        A = (6.3e5, 'cm^3/mol/s'),
-        n = 0.0,
+        A = (630000, 'cm^3/mol/s'),
+        n = 0,
         alpha = 0,
         E0 = (-1.3, 'kcal/mol'),
         Tmin = (300, 'K'),

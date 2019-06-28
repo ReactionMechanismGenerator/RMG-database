@@ -18,15 +18,16 @@ so k should be in (m3/mol/s). We will use sticking coefficients.
 template(reactants=["Adsorbate", "VacantSite"], products=["Adsorbed"], ownReverse=False)
 
 reverse = "Surface_Desorption_vdW"
+reversible = True
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 0, '*2']
+    ['FORM_BOND', '*1', 0, '*2'],
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "Adsorbate",
-    group =
+    group = 
 """
 1 *1 R u0
 """,
@@ -34,34 +35,32 @@ entry(
 )
 
 entry(
-    index = 2,
-    label="VacantSite",
-    group =
+    index = 1,
+    label = "VacantSite",
+    group = 
 """
 1 *2 Xv u0
 """,
     kinetics = None,
 )
 
-
-
 tree(
 """
 L1: Adsorbate
-
 L1: VacantSite
 """
 )
 
-
 forbidden(
     label = "radical",
-    group =
+    group = 
 """
 1 R u[1,2,3]
 """,
     shortDesc = u"""Radicals not allowed""",
-    longDesc =
+    longDesc = 
 u"""
+
 """,
 )
+

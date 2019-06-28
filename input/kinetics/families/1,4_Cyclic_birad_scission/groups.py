@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["RJJ"], products=["diene"], ownReverse=False)
 
 reverse = "none"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*2', 1, '*3'],
     ['LOSE_RADICAL', '*1', '1'],

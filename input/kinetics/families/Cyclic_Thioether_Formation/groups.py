@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["RnSS"], products=["RS", "SR"], ownReverse=False)
 
 reverse = "SH+CyclicThioether_Form_Alkyl-disulfide"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*2', 1, '*3'],
     ['FORM_BOND', '*1', 1, '*2'],

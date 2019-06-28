@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["RCH(OOH)CH2C(O)R'"], products=["cyclic_peroxide"], ownReverse=False)
 
 reverse = "cyclic_peroxide_ringopening"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],
@@ -45,3 +45,4 @@ tree(
 L1: RCH(OOH)CH2C(O)R'
 """
 )
+

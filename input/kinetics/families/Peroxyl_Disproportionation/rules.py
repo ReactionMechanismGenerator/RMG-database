@@ -14,13 +14,10 @@ entry(
         n = -1.61,
         alpha = 0,
         E0 = (1860, 'cal/mol'),
-        Tmin=(300, 'K'),
-        Tmax=(1500, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc =
-u"""
-
-""",
 )
+

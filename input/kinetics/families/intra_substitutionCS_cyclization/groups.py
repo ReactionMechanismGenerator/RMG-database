@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["XSYJ"], products=["SY", "XJ"], ownReverse=False)
 
 reverse = "Ring_Opening_bySradical"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],

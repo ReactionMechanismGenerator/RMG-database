@@ -10,6 +10,7 @@ longDesc = u"""
 template(reactants=["1_3_unsaturated_pentane_backbone"], products=["1_3_unsaturated_pentane_backbone"], ownReverse=True)
 
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*6'],
     ['FORM_BOND', '*2', 1, '*6'],
@@ -214,6 +215,19 @@ entry(
 
 entry(
     index = 13,
+    label = "CH2(CO)_1",
+    group = 
+"""
+1 *1 Cs u0 {2,S} {3,S} {4,S}
+2 *6 H  u0 {1,S}
+3    H  u0 {1,S}
+4    CO u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
     label = "CH(C)C_1",
     group = 
 """
@@ -226,7 +240,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 15,
     label = "CH(CJ)_1",
     group = 
 """
@@ -238,7 +252,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 16,
     label = "CH=C_1",
     group = 
 """
@@ -250,7 +264,33 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 17,
+    label = "CHOC_1",
+    group = 
+"""
+1 *1 Cs u0 {2,S} {3,S} {4,S}
+2 *6 H  u0 {1,S}
+3    O  u1 {1,S}
+4    C  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 18,
+    label = "CHO(CO)_1",
+    group = 
+"""
+1 *1 Cs u0 {2,S} {3,S} {4,S}
+2 *6 H  u0 {1,S}
+3    O  u1 {1,S}
+4    CO u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 19,
     label = "CdH2_2",
     group = 
 """
@@ -262,7 +302,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 20,
     label = "CdHC_2",
     group = 
 """
@@ -274,7 +314,19 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 21,
+    label = "CdHCO_2",
+    group = 
+"""
+1 *2 Cd u0 {2,S} {3,S}
+2    H  u0 {1,S}
+3    CO u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 22,
     label = "Cd(C)C_2",
     group = 
 """
@@ -286,7 +338,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 23,
     label = "CdCJ_2",
     group = 
 """
@@ -297,7 +349,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 24,
     label = "CddC_2",
     group = 
 """
@@ -308,7 +360,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 25,
     label = "CtH_2",
     group = 
 """
@@ -319,7 +371,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 26,
     label = "CtC_2",
     group = 
 """
@@ -330,45 +382,7 @@ entry(
 )
 
 entry(
-    index = 23,
-    label = "CHO(CO)_1",
-    group = 
-"""
-1 *1 Cs  u0 {2,S} {3,S} {4,S}
-2 *6 H   u0 {1,S}
-3    O   u1 {1,S}
-4    CO  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 24,
-    label = "CdHCO_2",
-    group = 
-"""
-1 *2 Cd  u0 {2,S} {3,S}
-2    H   u0 {1,S}
-3    CO  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 25,
-    label = "CH2(CO)_1",
-    group = 
-"""
-1 *1 Cs  u0 {2,S} {3,S} {4,S}
-2 *6 H   u0 {1,S}
-3    H   u0 {1,S}
-4    CO  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 26,
+    index = 27,
     label = "CdOC_2",
     group = 
 """
@@ -380,26 +394,13 @@ entry(
 )
 
 entry(
-    index = 27,
+    index = 28,
     label = "CdOCO_2",
     group = 
 """
-1 *2 Cd  u0 {2,S} {3,S}
-2    O   u1 {1,S}
-3    CO  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 28,
-    label = "CHOC_1",
-    group = 
-"""
-1 *1 Cs  u0 {2,S} {3,S} {4,S}
-2 *6 H   u0 {1,S}
-3    O   u1 {1,S}
-4    C   u0 {1,S}
+1 *2 Cd u0 {2,S} {3,S}
+2    O  u1 {1,S}
+3    CO u0 {1,S}
 """,
     kinetics = None,
 )

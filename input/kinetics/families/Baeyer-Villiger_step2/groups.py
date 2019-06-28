@@ -10,6 +10,7 @@ longDesc = u"""
 template(reactants=["criegee"], products=["ester", "acid"], ownReverse=False)
 
 reverse = "none"
+reversible = True
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
@@ -23,9 +24,9 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "criegee",
-    group =
+    group = 
 """
 1  *1 C     u0 {2,S} {3,S} {4,S} {5,S}
 2  *2 [C,H] u0 {1,S}
@@ -42,9 +43,9 @@ entry(
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "6_membered_ring",
-    group =
+    group = 
 """
 1  *1 C     u0 {2,S} {3,S} {7,S} {8,S}
 2  *2 [C,H] u0 {1,S} {4,[S,D,T,B]}

@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2H6 + CO <=> C3H6O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -31,7 +31,7 @@ Converted to training reaction from rate rule: CO;C_methyl_C_methyl
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "H2 + CO <=> CH2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -54,7 +54,7 @@ Converted to training reaction from rate rule: CO;H2
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "CH4 + CO <=> C2H4O",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -77,7 +77,7 @@ Converted to training reaction from rate rule: CO;C_methane
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C2H6-2 + CO <=> C3H6O-2",
     degeneracy = 6.0,
     kinetics = Arrhenius(
@@ -100,7 +100,7 @@ Converted to training reaction from rate rule: CO;C_pri/NonDeC
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "C3H8 + CO <=> C4H8O",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -123,7 +123,7 @@ Converted to training reaction from rate rule: CO;C/H2/NonDeC
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "C4H10 + CO <=> C5H10O",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -143,7 +143,7 @@ Converted to training reaction from rate rule: CO;C/H/Cs3
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "CH4O + CO <=> C2H4O2",
     degeneracy = 1.0,
     kinetics = Arrhenius(

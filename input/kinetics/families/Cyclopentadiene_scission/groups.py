@@ -12,8 +12,8 @@ scission)
 template(reactants=["CPD_backbone"], products=["conjugated_singlet_carbene"], ownReverse=False)
 
 reverse = "Intra_singlet_carbene_addition"
-
 reversible = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['CHANGE_BOND', '*2', -1, '*3'],

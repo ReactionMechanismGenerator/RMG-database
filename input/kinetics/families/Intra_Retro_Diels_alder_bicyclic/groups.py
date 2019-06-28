@@ -10,8 +10,8 @@ longDesc = u"""
 template(reactants=["cyclohexene"], products=["open"], ownReverse=False)
 
 reverse = "ringopening"
-
 reversible = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', 1, '*2'],
     ['CHANGE_BOND', '*3', 1, '*4'],

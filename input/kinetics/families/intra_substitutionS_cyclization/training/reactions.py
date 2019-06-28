@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "CH3S2 <=> CH2S2 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -28,7 +28,7 @@ Converted to training reaction from rate rule: XSR3J_S_Cs;SsJ;S-H
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C2H5S <=> C2H4S + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -48,7 +48,7 @@ Converted to training reaction from rate rule: XSR3J_S_Cs;CsJ-HH;S-H
 )
 
 entry(
-    index = 5,
+    index = 2,
     label = "C2H5S2 <=> CH2S2-2 + CH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -68,7 +68,7 @@ Converted to training reaction from rate rule: XSR3J_S_Ss;CsJ-HH;S-Cs(HHH)
 )
 
 entry(
-    index = 7,
+    index = 3,
     label = "C6H13S <=> C5H10S + CH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -88,7 +88,7 @@ Converted to training reaction from rate rule: XSR5J_SSS_CsRCs;CsJ-CsH;S-Cs(NonD
 )
 
 entry(
-    index = 8,
+    index = 4,
     label = "C7H15S <=> C6H12S + CH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(

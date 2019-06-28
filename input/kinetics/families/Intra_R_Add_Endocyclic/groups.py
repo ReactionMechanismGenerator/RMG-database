@@ -33,7 +33,7 @@ entry(
     label = "multiplebond_intra",
     group = 
 """
-1 *2 [Cd,Ct,Cb,Cbf,CO,CS,Cdd,N,O4dc,O4tc,S] u0    {2,[D,T,B]}
+1 *2 [Cd,Ct,Cb,Cbf,CO,CS,Cdd,N,O4dc,O4tc,S] u0 {2,[D,T,B]}
 2 *3 [Cd,Ct,Cb,Cbf,Cdd,N,O,S]               u0 c0 {1,[D,T,B]}
 """,
     kinetics = None,
@@ -653,6 +653,40 @@ entry(
 
 entry(
     index = 47,
+    label = "Rn2c6_alpha_short_O",
+    group = 
+"""
+1 *3 R!H u0 c0 r1 {2,[D,T,B]} {5,[S,D,T,B]}
+2 *2 R!H u0 r1 {1,[D,T,B]} {3,[S,D,T]} {8,[S,D,T,B]}
+3 *4 O   ux {2,[S,D,T]} {4,[S,D,T]}
+4 *1 R!H u1 r0 {3,[S,D,T]}
+5    R!H ux r1 {1,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux r1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux r1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux r1 {2,[S,D,T,B]} {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 48,
+    label = "Rn2c6_alpha_short_C",
+    group = 
+"""
+1 *3 R!H u0 c0 r1 {2,[D,T,B]} {5,[S,D,T,B]}
+2 *2 R!H u0 r1 {1,[D,T,B]} {3,[S,D,T,B]} {8,[S,D,T,B]}
+3 *4 C   ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+4 *1 R!H u1 r0 {3,[S,D,T,B]}
+5    R!H ux r1 {1,[S,D,T,B]} {6,[S,D,T,B]}
+6    R!H ux r1 {5,[S,D,T,B]} {7,[S,D,T,B]}
+7    R!H ux r1 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux r1 {2,[S,D,T,B]} {7,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 49,
     label = "Rn2c7_alpha_short",
     group = 
 """
@@ -670,7 +704,7 @@ entry(
 )
 
 entry(
-    index = 48,
+    index = 50,
     label = "Rn2c8_alpha_short",
     group = 
 """
@@ -689,7 +723,7 @@ entry(
 )
 
 entry(
-    index = 49,
+    index = 51,
     label = "Rn0c5_beta_long",
     group = 
 """
@@ -703,7 +737,7 @@ entry(
 )
 
 entry(
-    index = 50,
+    index = 52,
     label = "Rn1c3_alpha_long",
     group = 
 """
@@ -716,7 +750,7 @@ entry(
 )
 
 entry(
-    index = 51,
+    index = 53,
     label = "R4_linear",
     group = 
 """
@@ -729,7 +763,7 @@ entry(
 )
 
 entry(
-    index = 52,
+    index = 54,
     label = "R4_S",
     group = 
 """
@@ -742,7 +776,7 @@ entry(
 )
 
 entry(
-    index = 53,
+    index = 55,
     label = "R4_S_D",
     group = 
 """
@@ -755,7 +789,7 @@ entry(
 )
 
 entry(
-    index = 54,
+    index = 56,
     label = "R4_Cs_RR_D",
     group = 
 """
@@ -770,7 +804,7 @@ entry(
 )
 
 entry(
-    index = 55,
+    index = 57,
     label = "R4_Cs_HH_D",
     group = 
 """
@@ -785,7 +819,7 @@ entry(
 )
 
 entry(
-    index = 56,
+    index = 58,
     label = "R4_S_T",
     group = 
 """
@@ -798,7 +832,7 @@ entry(
 )
 
 entry(
-    index = 57,
+    index = 59,
     label = "R4_S_CO",
     group = 
 """
@@ -811,7 +845,7 @@ entry(
 )
 
 entry(
-    index = 58,
+    index = 60,
     label = "R4_S_CS",
     group = 
 """
@@ -824,7 +858,7 @@ entry(
 )
 
 entry(
-    index = 59,
+    index = 61,
     label = "R4_D",
     group = 
 """
@@ -837,7 +871,7 @@ entry(
 )
 
 entry(
-    index = 60,
+    index = 62,
     label = "R4_D_D",
     group = 
 """
@@ -850,7 +884,7 @@ entry(
 )
 
 entry(
-    index = 61,
+    index = 63,
     label = "R4_D_T",
     group = 
 """
@@ -863,7 +897,7 @@ entry(
 )
 
 entry(
-    index = 62,
+    index = 64,
     label = "R4_D_CO",
     group = 
 """
@@ -876,7 +910,7 @@ entry(
 )
 
 entry(
-    index = 63,
+    index = 65,
     label = "R4_D_CS",
     group = 
 """
@@ -889,7 +923,7 @@ entry(
 )
 
 entry(
-    index = 64,
+    index = 66,
     label = "R4_T",
     group = 
 """
@@ -902,7 +936,7 @@ entry(
 )
 
 entry(
-    index = 65,
+    index = 67,
     label = "R4_T_D",
     group = 
 """
@@ -915,7 +949,7 @@ entry(
 )
 
 entry(
-    index = 66,
+    index = 68,
     label = "R4_T_T",
     group = 
 """
@@ -928,7 +962,7 @@ entry(
 )
 
 entry(
-    index = 67,
+    index = 69,
     label = "R4_T_CO",
     group = 
 """
@@ -941,7 +975,7 @@ entry(
 )
 
 entry(
-    index = 68,
+    index = 70,
     label = "R4_T_CS",
     group = 
 """
@@ -954,7 +988,7 @@ entry(
 )
 
 entry(
-    index = 69,
+    index = 71,
     label = "R5",
     group = 
 """
@@ -972,21 +1006,21 @@ The ring being formed has 5 atoms in.
 )
 
 entry(
-    index = 70,
+    index = 72,
     label = "R5_cyclic",
     group = "OR{Rn0cx_delta, Rn1cx_gamma, Rn2cx_beta, Rn3cx_alpha, Rn0c6_beta_long, Rn1c4_alpha_long, Rn0c7_gamma_long, Rn1c5_beta_long, Rn2c3_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 71,
+    index = 73,
     label = "Rn0cx_delta",
     group = "OR{Rn0c8_delta, Rn0c10_delta_short}",
     kinetics = None,
 )
 
 entry(
-    index = 72,
+    index = 74,
     label = "Rn0c8_delta",
     group = 
 """
@@ -1003,7 +1037,7 @@ entry(
 )
 
 entry(
-    index = 73,
+    index = 75,
     label = "Rn0c10_delta_short",
     group = 
 """
@@ -1022,7 +1056,7 @@ entry(
 )
 
 entry(
-    index = 74,
+    index = 76,
     label = "Rn0c10_delta_short_SSDSDS",
     group = 
 """
@@ -1041,7 +1075,7 @@ entry(
 )
 
 entry(
-    index = 75,
+    index = 77,
     label = "Rn0c10_delta_short_SSDSDS_D",
     group = 
 """
@@ -1060,14 +1094,14 @@ entry(
 )
 
 entry(
-    index = 76,
+    index = 78,
     label = "Rn1cx_gamma",
     group = "OR{Rn1c6_gamma, Rn1c7_gamma_short, Rn1c8_gamma_short}",
     kinetics = None,
 )
 
 entry(
-    index = 77,
+    index = 79,
     label = "Rn1c6_gamma",
     group = 
 """
@@ -1083,7 +1117,7 @@ entry(
 )
 
 entry(
-    index = 78,
+    index = 80,
     label = "Rn1c7_gamma_short",
     group = 
 """
@@ -1100,7 +1134,7 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 81,
     label = "Rn1c8_gamma_short",
     group = 
 """
@@ -1118,14 +1152,14 @@ entry(
 )
 
 entry(
-    index = 80,
+    index = 82,
     label = "Rn2cx_beta",
     group = "OR{Rn2c4_beta, Rn2c5_beta_short, Rn2c6_beta_short, Rn2c7_beta_short, Rn2c8_beta_short}",
     kinetics = None,
 )
 
 entry(
-    index = 81,
+    index = 83,
     label = "Rn2c4_beta",
     group = 
 """
@@ -1140,7 +1174,7 @@ entry(
 )
 
 entry(
-    index = 82,
+    index = 84,
     label = "Rn2c5_beta_short",
     group = 
 """
@@ -1156,7 +1190,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 85,
     label = "Rn2c5_beta_short_SS",
     group = 
 """
@@ -1172,7 +1206,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 86,
     label = "Rn2c6_beta_short",
     group = 
 """
@@ -1189,7 +1223,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 87,
     label = "Rn2c7_beta_short",
     group = 
 """
@@ -1207,7 +1241,7 @@ entry(
 )
 
 entry(
-    index = 86,
+    index = 88,
     label = "Rn2c8_beta_short",
     group = 
 """
@@ -1226,14 +1260,14 @@ entry(
 )
 
 entry(
-    index = 87,
+    index = 89,
     label = "Rn3cx_alpha",
     group = "OR{Rn3c3_alpha_short, Rn3c4_alpha_short, Rn3c5_alpha_short, Rn3c6_alpha_short, Rn3c7_alpha_short, Rn3c8_alpha_short}",
     kinetics = None,
 )
 
 entry(
-    index = 88,
+    index = 90,
     label = "Rn3c3_alpha_short",
     group = 
 """
@@ -1248,7 +1282,7 @@ entry(
 )
 
 entry(
-    index = 89,
+    index = 91,
     label = "Rn3c4_alpha_short",
     group = 
 """
@@ -1264,7 +1298,7 @@ entry(
 )
 
 entry(
-    index = 90,
+    index = 92,
     label = "Rn3c5_alpha_short",
     group = 
 """
@@ -1281,7 +1315,7 @@ entry(
 )
 
 entry(
-    index = 91,
+    index = 93,
     label = "Rn3c6_alpha_short",
     group = 
 """
@@ -1299,7 +1333,7 @@ entry(
 )
 
 entry(
-    index = 92,
+    index = 94,
     label = "Rn3c6ben_alpha_short",
     group = 
 """
@@ -1317,7 +1351,7 @@ entry(
 )
 
 entry(
-    index = 93,
+    index = 95,
     label = "Rn3c6ben_alpha_short_MSS",
     group = 
 """
@@ -1335,7 +1369,7 @@ entry(
 )
 
 entry(
-    index = 94,
+    index = 96,
     label = "Rn3c6ben_alpha_short_SDS",
     group = 
 """
@@ -1353,7 +1387,7 @@ entry(
 )
 
 entry(
-    index = 95,
+    index = 97,
     label = "Rn3c7_alpha_short",
     group = 
 """
@@ -1372,7 +1406,7 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 98,
     label = "Rn3c8_alpha_short",
     group = 
 """
@@ -1392,7 +1426,7 @@ entry(
 )
 
 entry(
-    index = 97,
+    index = 99,
     label = "Rn0c6_beta_long",
     group = 
 """
@@ -1407,7 +1441,7 @@ entry(
 )
 
 entry(
-    index = 98,
+    index = 100,
     label = "Rn0c6_beta_long_SS",
     group = 
 """
@@ -1422,7 +1456,7 @@ entry(
 )
 
 entry(
-    index = 99,
+    index = 101,
     label = "Rn0c6_beta_long_SS_D",
     group = 
 """
@@ -1437,7 +1471,7 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 102,
     label = "Rn0c6_beta_long_SS_D_HH",
     group = 
 """
@@ -1454,7 +1488,7 @@ entry(
 )
 
 entry(
-    index = 101,
+    index = 103,
     label = "2-hydro-naphthalene",
     group = 
 """
@@ -1471,7 +1505,7 @@ entry(
 )
 
 entry(
-    index = 102,
+    index = 104,
     label = "Rn0c6_beta_long_SS_D_RH",
     group = 
 """
@@ -1488,7 +1522,7 @@ entry(
 )
 
 entry(
-    index = 103,
+    index = 105,
     label = "Rn0c6_beta_long_SS_D_RR",
     group = 
 """
@@ -1505,7 +1539,7 @@ entry(
 )
 
 entry(
-    index = 104,
+    index = 106,
     label = "Rn1c4_alpha_long",
     group = 
 """
@@ -1519,7 +1553,7 @@ entry(
 )
 
 entry(
-    index = 105,
+    index = 107,
     label = "Rn0c7_gamma_long",
     group = 
 """
@@ -1535,7 +1569,7 @@ entry(
 )
 
 entry(
-    index = 106,
+    index = 108,
     label = "Rn0c7_gamma_long_SSS",
     group = 
 """
@@ -1551,7 +1585,7 @@ entry(
 )
 
 entry(
-    index = 107,
+    index = 109,
     label = "Rn0c7_gamma_long_SSS_D",
     group = 
 """
@@ -1567,7 +1601,7 @@ entry(
 )
 
 entry(
-    index = 108,
+    index = 110,
     label = "Rn0c7_gamma_long_SDS",
     group = 
 """
@@ -1583,7 +1617,7 @@ entry(
 )
 
 entry(
-    index = 109,
+    index = 111,
     label = "Rn0c7_gamma_long_SDS_D",
     group = 
 """
@@ -1599,7 +1633,7 @@ entry(
 )
 
 entry(
-    index = 110,
+    index = 112,
     label = "Rn1c5_beta_long",
     group = 
 """
@@ -1614,7 +1648,7 @@ entry(
 )
 
 entry(
-    index = 111,
+    index = 113,
     label = "Rn2c3_alpha_long",
     group = 
 """
@@ -1628,7 +1662,7 @@ entry(
 )
 
 entry(
-    index = 112,
+    index = 114,
     label = "R5_linear",
     group = 
 """
@@ -1646,7 +1680,7 @@ The ring being formed has 5 atoms in.
 )
 
 entry(
-    index = 113,
+    index = 115,
     label = "R5_cyc5_beta",
     group = 
 """
@@ -1666,7 +1700,7 @@ The ring being formed has 5 atoms in.
 )
 
 entry(
-    index = 114,
+    index = 116,
     label = "R5_SS",
     group = 
 """
@@ -1685,7 +1719,7 @@ Starting at the radical site, the first two bonds are single, single.
 )
 
 entry(
-    index = 115,
+    index = 117,
     label = "R5_SS_D",
     group = 
 """
@@ -1705,7 +1739,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 116,
+    index = 118,
     label = "R5_CsCs_RR_D",
     group = 
 """
@@ -1729,7 +1763,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 117,
+    index = 119,
     label = "R5_CsCs_RH_D",
     group = 
 """
@@ -1753,7 +1787,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 118,
+    index = 120,
     label = "R5_CsCs_HH_D",
     group = 
 """
@@ -1777,7 +1811,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 119,
+    index = 121,
     label = "R5_SS_T",
     group = 
 """
@@ -1797,7 +1831,7 @@ The multiple bond being attacked is a triple bond (to another carbon).
 )
 
 entry(
-    index = 120,
+    index = 122,
     label = "R5_SS_CO",
     group = 
 """
@@ -1817,7 +1851,7 @@ The multiple bond being attacked is a C=O bond.
 )
 
 entry(
-    index = 121,
+    index = 123,
     label = "R5_SS_CS",
     group = 
 """
@@ -1831,7 +1865,7 @@ entry(
 )
 
 entry(
-    index = 122,
+    index = 124,
     label = "Cs-R5_SS_CS",
     group = 
 """
@@ -1846,7 +1880,7 @@ entry(
 )
 
 entry(
-    index = 123,
+    index = 125,
     label = "H2-R5_SS_CS",
     group = 
 """
@@ -1862,7 +1896,7 @@ entry(
 )
 
 entry(
-    index = 124,
+    index = 126,
     label = "R5_SM",
     group = 
 """
@@ -1876,7 +1910,7 @@ entry(
 )
 
 entry(
-    index = 125,
+    index = 127,
     label = "R5_SD",
     group = 
 """
@@ -1895,7 +1929,7 @@ Starting at the radical site, the first two bonds are single, then double. (The 
 )
 
 entry(
-    index = 126,
+    index = 128,
     label = "R5_SD_D",
     group = 
 """
@@ -1915,7 +1949,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 127,
+    index = 129,
     label = "R5_SD_T",
     group = 
 """
@@ -1935,7 +1969,7 @@ The multiple bond being attacked is a triple bond (to another carbon).
 )
 
 entry(
-    index = 128,
+    index = 130,
     label = "R5_SD_CO",
     group = 
 """
@@ -1955,7 +1989,7 @@ The multiple bond being attacked is a C=O bond.
 )
 
 entry(
-    index = 129,
+    index = 131,
     label = "R5_SD_CS",
     group = 
 """
@@ -1969,7 +2003,7 @@ entry(
 )
 
 entry(
-    index = 130,
+    index = 132,
     label = "R5_ST",
     group = 
 """
@@ -1988,7 +2022,7 @@ Starting at the radical site, the first two bonds are single, then triple. (The 
 )
 
 entry(
-    index = 131,
+    index = 133,
     label = "R5_ST_D",
     group = 
 """
@@ -2008,7 +2042,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 132,
+    index = 134,
     label = "R5_ST_T",
     group = 
 """
@@ -2028,7 +2062,7 @@ The multiple bond being attacked is a triple bond (to another carbon).
 )
 
 entry(
-    index = 133,
+    index = 135,
     label = "R5_ST_CO",
     group = 
 """
@@ -2048,7 +2082,7 @@ The multiple bond being attacked is a C=O bond.
 )
 
 entry(
-    index = 134,
+    index = 136,
     label = "R5_ST_CS",
     group = 
 """
@@ -2062,7 +2096,7 @@ entry(
 )
 
 entry(
-    index = 135,
+    index = 137,
     label = "R5_SB",
     group = 
 """
@@ -2076,7 +2110,7 @@ entry(
 )
 
 entry(
-    index = 136,
+    index = 138,
     label = "R5_MS",
     group = 
 """
@@ -2090,7 +2124,7 @@ entry(
 )
 
 entry(
-    index = 137,
+    index = 139,
     label = "R5_DS",
     group = 
 """
@@ -2109,7 +2143,7 @@ Starting at the radical site, the first two bonds are double, then single. (The 
 )
 
 entry(
-    index = 138,
+    index = 140,
     label = "R5_DS_D",
     group = 
 """
@@ -2129,7 +2163,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 139,
+    index = 141,
     label = "R5_DS_T",
     group = 
 """
@@ -2149,7 +2183,7 @@ The multiple bond being attacked is a triple bond (to another carbon).
 )
 
 entry(
-    index = 140,
+    index = 142,
     label = "R5_DS_CO",
     group = 
 """
@@ -2169,7 +2203,7 @@ The multiple bond being attacked is a C=O bond.
 )
 
 entry(
-    index = 141,
+    index = 143,
     label = "R5_DS_CS",
     group = 
 """
@@ -2183,7 +2217,7 @@ entry(
 )
 
 entry(
-    index = 142,
+    index = 144,
     label = "R5_TS",
     group = 
 """
@@ -2202,7 +2236,7 @@ Starting at the radical site, the first two bonds are triple, then single. (The 
 )
 
 entry(
-    index = 143,
+    index = 145,
     label = "R5_TS_D",
     group = 
 """
@@ -2222,7 +2256,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 144,
+    index = 146,
     label = "R5_TS_T",
     group = 
 """
@@ -2242,7 +2276,7 @@ The multiple bond being attacked is a triple bond (to another carbon).
 )
 
 entry(
-    index = 145,
+    index = 147,
     label = "R5_TS_CO",
     group = 
 """
@@ -2262,7 +2296,7 @@ The multiple bond being attacked is a C=O bond.
 )
 
 entry(
-    index = 146,
+    index = 148,
     label = "R5_BS",
     group = 
 """
@@ -2276,7 +2310,7 @@ entry(
 )
 
 entry(
-    index = 147,
+    index = 149,
     label = "R5_MM",
     group = 
 """
@@ -2290,14 +2324,14 @@ entry(
 )
 
 entry(
-    index = 148,
+    index = 150,
     label = "R6plus",
     group = "OR{R6, R7, R8, R9, R10, R11, R12, R13}",
     kinetics = None,
 )
 
 entry(
-    index = 149,
+    index = 151,
     label = "R6",
     group = 
 """
@@ -2312,21 +2346,21 @@ entry(
 )
 
 entry(
-    index = 150,
+    index = 152,
     label = "R6_cyclic",
     group = "OR{Rn0cx_epsilon, Rn1cx_delta, Rn2cx_gamma, Rn3cx_beta, Rn4cx_alpha, Rn0c7_beta_long, Rn1c5_alpha_long, Rn0c8_gamma_long, Rn1c6_beta_long, Rn2c4_alpha_long, Rn1c7_gamma_long, Rn2c5_beta_long, Rn3c3_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 151,
+    index = 153,
     label = "Rn0cx_epsilon",
     group = "OR{Rn0c10_epsilon}",
     kinetics = None,
 )
 
 entry(
-    index = 152,
+    index = 154,
     label = "Rn0c10_epsilon",
     group = 
 """
@@ -2345,7 +2379,7 @@ entry(
 )
 
 entry(
-    index = 153,
+    index = 155,
     label = "Rn0c10_epsilon_SDSDS",
     group = 
 """
@@ -2364,7 +2398,7 @@ entry(
 )
 
 entry(
-    index = 154,
+    index = 156,
     label = "Rn0c10_epsilon_SDSDS_D",
     group = 
 """
@@ -2383,14 +2417,14 @@ entry(
 )
 
 entry(
-    index = 155,
+    index = 157,
     label = "Rn1cx_delta",
     group = "OR{Rn1c8_delta}",
     kinetics = None,
 )
 
 entry(
-    index = 156,
+    index = 158,
     label = "Rn1c8_delta",
     group = 
 """
@@ -2408,14 +2442,14 @@ entry(
 )
 
 entry(
-    index = 157,
+    index = 159,
     label = "Rn2cx_gamma",
     group = "OR{Rn2c6_gamma, Rn2c7_gamma_short, Rn2c8_gamma_short}",
     kinetics = None,
 )
 
 entry(
-    index = 158,
+    index = 160,
     label = "Rn2c6_gamma",
     group = 
 """
@@ -2432,7 +2466,7 @@ entry(
 )
 
 entry(
-    index = 159,
+    index = 161,
     label = "Rn2c7_gamma_short",
     group = 
 """
@@ -2450,7 +2484,7 @@ entry(
 )
 
 entry(
-    index = 160,
+    index = 162,
     label = "Rn2c8_gamma_short",
     group = 
 """
@@ -2469,14 +2503,14 @@ entry(
 )
 
 entry(
-    index = 161,
+    index = 163,
     label = "Rn3cx_beta",
     group = "OR{Rn3c4_beta, Rn3c5_beta_short, Rn3c6_beta_short, Rn3c7_beta_short, Rn3c8_beta_short}",
     kinetics = None,
 )
 
 entry(
-    index = 162,
+    index = 164,
     label = "Rn3c4_beta",
     group = 
 """
@@ -2492,7 +2526,7 @@ entry(
 )
 
 entry(
-    index = 163,
+    index = 165,
     label = "Rn3c5_beta_short",
     group = 
 """
@@ -2509,7 +2543,7 @@ entry(
 )
 
 entry(
-    index = 164,
+    index = 166,
     label = "Rn3c6_beta_short",
     group = 
 """
@@ -2527,7 +2561,7 @@ entry(
 )
 
 entry(
-    index = 165,
+    index = 167,
     label = "Rn3c7_beta_short",
     group = 
 """
@@ -2546,7 +2580,7 @@ entry(
 )
 
 entry(
-    index = 166,
+    index = 168,
     label = "Rn3c8_beta_short",
     group = 
 """
@@ -2566,14 +2600,14 @@ entry(
 )
 
 entry(
-    index = 167,
+    index = 169,
     label = "Rn4cx_alpha",
     group = "OR{Rn4c3_alpha_short, Rn4c4_alpha_short, Rn4c5_alpha_short, Rn4c6_alpha_short, Rn4c7_alpha_short, Rn4c8_alpha_short}",
     kinetics = None,
 )
 
 entry(
-    index = 168,
+    index = 170,
     label = "Rn4c3_alpha_short",
     group = 
 """
@@ -2589,7 +2623,7 @@ entry(
 )
 
 entry(
-    index = 169,
+    index = 171,
     label = "Rn4c4_alpha_short",
     group = 
 """
@@ -2606,7 +2640,7 @@ entry(
 )
 
 entry(
-    index = 170,
+    index = 172,
     label = "Rn4c5_alpha_short",
     group = 
 """
@@ -2624,7 +2658,7 @@ entry(
 )
 
 entry(
-    index = 171,
+    index = 173,
     label = "Rn4c6_alpha_short",
     group = 
 """
@@ -2643,7 +2677,7 @@ entry(
 )
 
 entry(
-    index = 172,
+    index = 174,
     label = "Rn4c6ben_alpha_short",
     group = 
 """
@@ -2662,7 +2696,7 @@ entry(
 )
 
 entry(
-    index = 173,
+    index = 175,
     label = "Rn4c6ben_alpha_short_SDSS",
     group = 
 """
@@ -2681,7 +2715,7 @@ entry(
 )
 
 entry(
-    index = 174,
+    index = 176,
     label = "Rn4c6ben_alpha_short_DSDS",
     group = 
 """
@@ -2700,7 +2734,7 @@ entry(
 )
 
 entry(
-    index = 175,
+    index = 177,
     label = "Rn4c7_alpha_short",
     group = 
 """
@@ -2720,7 +2754,7 @@ entry(
 )
 
 entry(
-    index = 176,
+    index = 178,
     label = "Rn4c8_alpha_short",
     group = 
 """
@@ -2741,7 +2775,7 @@ entry(
 )
 
 entry(
-    index = 177,
+    index = 179,
     label = "Rn0c7_beta_long",
     group = 
 """
@@ -2757,7 +2791,7 @@ entry(
 )
 
 entry(
-    index = 178,
+    index = 180,
     label = "Rn0c7_beta_long_SS",
     group = 
 """
@@ -2773,7 +2807,7 @@ entry(
 )
 
 entry(
-    index = 179,
+    index = 181,
     label = "Rn0c7_beta_long_SS_D",
     group = 
 """
@@ -2789,7 +2823,7 @@ entry(
 )
 
 entry(
-    index = 180,
+    index = 182,
     label = "Rn1c5_alpha_long",
     group = 
 """
@@ -2804,7 +2838,7 @@ entry(
 )
 
 entry(
-    index = 181,
+    index = 183,
     label = "Rn1c5_alpha_long_indene",
     group = 
 """
@@ -2819,7 +2853,7 @@ entry(
 )
 
 entry(
-    index = 182,
+    index = 184,
     label = "Rn0c8_gamma_long",
     group = 
 """
@@ -2836,7 +2870,7 @@ entry(
 )
 
 entry(
-    index = 183,
+    index = 185,
     label = "Rn1c6_beta_long",
     group = 
 """
@@ -2852,7 +2886,7 @@ entry(
 )
 
 entry(
-    index = 184,
+    index = 186,
     label = "Rn2c4_alpha_long",
     group = 
 """
@@ -2867,7 +2901,7 @@ entry(
 )
 
 entry(
-    index = 185,
+    index = 187,
     label = "Rn1c7_gamma_long",
     group = 
 """
@@ -2884,7 +2918,7 @@ entry(
 )
 
 entry(
-    index = 186,
+    index = 188,
     label = "Rn2c5_beta_long",
     group = 
 """
@@ -2900,7 +2934,7 @@ entry(
 )
 
 entry(
-    index = 187,
+    index = 189,
     label = "Rn2c5_beta_long_SS",
     group = 
 """
@@ -2916,7 +2950,7 @@ entry(
 )
 
 entry(
-    index = 188,
+    index = 190,
     label = "Rn3c3_alpha_long",
     group = 
 """
@@ -2931,7 +2965,7 @@ entry(
 )
 
 entry(
-    index = 189,
+    index = 191,
     label = "R6_linear",
     group = 
 """
@@ -2946,7 +2980,7 @@ entry(
 )
 
 entry(
-    index = 190,
+    index = 192,
     label = "R6_RSR",
     group = 
 """
@@ -2961,7 +2995,7 @@ entry(
 )
 
 entry(
-    index = 191,
+    index = 193,
     label = "R6_SSR",
     group = 
 """
@@ -2976,7 +3010,7 @@ entry(
 )
 
 entry(
-    index = 192,
+    index = 194,
     label = "R6_SSS",
     group = 
 """
@@ -2991,7 +3025,7 @@ entry(
 )
 
 entry(
-    index = 193,
+    index = 195,
     label = "R6_SSS_D",
     group = 
 """
@@ -3006,7 +3040,7 @@ entry(
 )
 
 entry(
-    index = 194,
+    index = 196,
     label = "R6_CsCsCs_RR_D",
     group = 
 """
@@ -3033,7 +3067,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 195,
+    index = 197,
     label = "R6_CsCsCs_RH_D",
     group = 
 """
@@ -3060,7 +3094,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 196,
+    index = 198,
     label = "R6_CsCsCs_HH_D",
     group = 
 """
@@ -3087,7 +3121,7 @@ The multiple bond being attacked is a double bond (to another carbon).
 )
 
 entry(
-    index = 197,
+    index = 199,
     label = "R6_SSS_T",
     group = 
 """
@@ -3102,7 +3136,7 @@ entry(
 )
 
 entry(
-    index = 198,
+    index = 200,
     label = "R6_SSS_CO",
     group = 
 """
@@ -3117,7 +3151,7 @@ entry(
 )
 
 entry(
-    index = 199,
+    index = 201,
     label = "R6_SSM",
     group = 
 """
@@ -3132,7 +3166,7 @@ entry(
 )
 
 entry(
-    index = 200,
+    index = 202,
     label = "R6_SSM_D",
     group = 
 """
@@ -3147,7 +3181,7 @@ entry(
 )
 
 entry(
-    index = 201,
+    index = 203,
     label = "R6_SSM_T",
     group = 
 """
@@ -3162,7 +3196,7 @@ entry(
 )
 
 entry(
-    index = 202,
+    index = 204,
     label = "R6_SSM_CO",
     group = 
 """
@@ -3177,7 +3211,7 @@ entry(
 )
 
 entry(
-    index = 203,
+    index = 205,
     label = "R6_SSM_CS",
     group = 
 """
@@ -3192,7 +3226,7 @@ entry(
 )
 
 entry(
-    index = 204,
+    index = 206,
     label = "R6_MSR",
     group = 
 """
@@ -3207,7 +3241,7 @@ entry(
 )
 
 entry(
-    index = 205,
+    index = 207,
     label = "R6_DSR",
     group = 
 """
@@ -3222,7 +3256,7 @@ entry(
 )
 
 entry(
-    index = 206,
+    index = 208,
     label = "R6_DSS",
     group = 
 """
@@ -3237,7 +3271,7 @@ entry(
 )
 
 entry(
-    index = 207,
+    index = 209,
     label = "R6_DSS_D",
     group = 
 """
@@ -3252,7 +3286,7 @@ entry(
 )
 
 entry(
-    index = 208,
+    index = 210,
     label = "R6_DSS_T",
     group = 
 """
@@ -3267,7 +3301,7 @@ entry(
 )
 
 entry(
-    index = 209,
+    index = 211,
     label = "R6_DSS_CO",
     group = 
 """
@@ -3282,7 +3316,7 @@ entry(
 )
 
 entry(
-    index = 210,
+    index = 212,
     label = "R6_DSM",
     group = 
 """
@@ -3297,7 +3331,7 @@ entry(
 )
 
 entry(
-    index = 211,
+    index = 213,
     label = "R6_DSM_D",
     group = 
 """
@@ -3312,7 +3346,7 @@ entry(
 )
 
 entry(
-    index = 212,
+    index = 214,
     label = "R6_DSB_D",
     group = 
 """
@@ -3327,7 +3361,7 @@ entry(
 )
 
 entry(
-    index = 213,
+    index = 215,
     label = "R6_DSM_T",
     group = 
 """
@@ -3342,7 +3376,7 @@ entry(
 )
 
 entry(
-    index = 214,
+    index = 216,
     label = "R6_DSB_T",
     group = 
 """
@@ -3357,7 +3391,7 @@ entry(
 )
 
 entry(
-    index = 215,
+    index = 217,
     label = "R6_DSM_CO",
     group = 
 """
@@ -3372,7 +3406,7 @@ entry(
 )
 
 entry(
-    index = 216,
+    index = 218,
     label = "R6_DSM_CS",
     group = 
 """
@@ -3387,7 +3421,7 @@ entry(
 )
 
 entry(
-    index = 217,
+    index = 219,
     label = "R6_TSR",
     group = 
 """
@@ -3402,7 +3436,7 @@ entry(
 )
 
 entry(
-    index = 218,
+    index = 220,
     label = "R6_TSS",
     group = 
 """
@@ -3417,7 +3451,7 @@ entry(
 )
 
 entry(
-    index = 219,
+    index = 221,
     label = "R6_TSS_D",
     group = 
 """
@@ -3432,7 +3466,7 @@ entry(
 )
 
 entry(
-    index = 220,
+    index = 222,
     label = "R6_TSS_T",
     group = 
 """
@@ -3447,7 +3481,7 @@ entry(
 )
 
 entry(
-    index = 221,
+    index = 223,
     label = "R6_TSS_CO",
     group = 
 """
@@ -3462,7 +3496,7 @@ entry(
 )
 
 entry(
-    index = 222,
+    index = 224,
     label = "R6_TSS_CS",
     group = 
 """
@@ -3477,7 +3511,7 @@ entry(
 )
 
 entry(
-    index = 223,
+    index = 225,
     label = "R6_TSM",
     group = 
 """
@@ -3492,7 +3526,7 @@ entry(
 )
 
 entry(
-    index = 224,
+    index = 226,
     label = "R6_TSM_D",
     group = 
 """
@@ -3507,7 +3541,7 @@ entry(
 )
 
 entry(
-    index = 225,
+    index = 227,
     label = "R6_TSM_T",
     group = 
 """
@@ -3522,7 +3556,7 @@ entry(
 )
 
 entry(
-    index = 226,
+    index = 228,
     label = "R6_TSM_CO",
     group = 
 """
@@ -3537,7 +3571,7 @@ entry(
 )
 
 entry(
-    index = 227,
+    index = 229,
     label = "R6_TSM_CS",
     group = 
 """
@@ -3552,7 +3586,7 @@ entry(
 )
 
 entry(
-    index = 228,
+    index = 230,
     label = "R6_MSR_D",
     group = 
 """
@@ -3567,7 +3601,7 @@ entry(
 )
 
 entry(
-    index = 229,
+    index = 231,
     label = "R6_SMS",
     group = 
 """
@@ -3582,7 +3616,7 @@ entry(
 )
 
 entry(
-    index = 230,
+    index = 232,
     label = "R6_SMS_D",
     group = 
 """
@@ -3597,7 +3631,7 @@ entry(
 )
 
 entry(
-    index = 231,
+    index = 233,
     label = "R6_SMS(M)S_D",
     group = 
 """
@@ -3613,7 +3647,7 @@ entry(
 )
 
 entry(
-    index = 232,
+    index = 234,
     label = "R6_SDS_D",
     group = 
 """
@@ -3628,7 +3662,7 @@ entry(
 )
 
 entry(
-    index = 233,
+    index = 235,
     label = "R6_SBS_D",
     group = 
 """
@@ -3643,7 +3677,7 @@ entry(
 )
 
 entry(
-    index = 234,
+    index = 236,
     label = "R6_SMS_T",
     group = 
 """
@@ -3658,7 +3692,7 @@ entry(
 )
 
 entry(
-    index = 235,
+    index = 237,
     label = "R6_SMS_CO",
     group = 
 """
@@ -3673,7 +3707,7 @@ entry(
 )
 
 entry(
-    index = 236,
+    index = 238,
     label = "R6_SMM",
     group = 
 """
@@ -3688,7 +3722,7 @@ entry(
 )
 
 entry(
-    index = 237,
+    index = 239,
     label = "R7",
     group = 
 """
@@ -3704,21 +3738,21 @@ entry(
 )
 
 entry(
-    index = 238,
+    index = 240,
     label = "R7_cyclic",
     group = "OR{Rn2cx_delta, Rn3cx_gamma, Rn4cx_beta, Rn5cx_alpha, Rn0c8_beta_long, Rn1c6_alpha_long, Rn1c7_beta_long, Rn2c5_alpha_long, Rn0c10_delta_long, Rn1c8_gamma_long, Rn2c6_beta_long, Rn3c4_alpha_long, Rn2c7_gamma_long, Rn3c5_beta_long, Rn4c3_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 239,
+    index = 241,
     label = "Rn2cx_delta",
     group = "OR{Rn2c8_delta}",
     kinetics = None,
 )
 
 entry(
-    index = 240,
+    index = 242,
     label = "Rn2c8_delta",
     group = 
 """
@@ -3737,14 +3771,14 @@ entry(
 )
 
 entry(
-    index = 241,
+    index = 243,
     label = "Rn3cx_gamma",
     group = "OR{Rn3c6_gamma, Rn3c7_gamma_short, Rn3c8_gamma_short}",
     kinetics = None,
 )
 
 entry(
-    index = 242,
+    index = 244,
     label = "Rn3c6_gamma",
     group = 
 """
@@ -3762,7 +3796,7 @@ entry(
 )
 
 entry(
-    index = 243,
+    index = 245,
     label = "Rn3c7_gamma_short",
     group = 
 """
@@ -3781,7 +3815,7 @@ entry(
 )
 
 entry(
-    index = 244,
+    index = 246,
     label = "Rn3c8_gamma_short",
     group = 
 """
@@ -3801,14 +3835,14 @@ entry(
 )
 
 entry(
-    index = 245,
+    index = 247,
     label = "Rn4cx_beta",
     group = "OR{Rn4c4_beta, Rn4c5_beta_short, Rn4c6_beta_short, Rn4c7_beta_short, Rn4c8_beta_short}",
     kinetics = None,
 )
 
 entry(
-    index = 246,
+    index = 248,
     label = "Rn4c4_beta",
     group = 
 """
@@ -3825,7 +3859,7 @@ entry(
 )
 
 entry(
-    index = 247,
+    index = 249,
     label = "Rn4c5_beta_short",
     group = 
 """
@@ -3843,7 +3877,7 @@ entry(
 )
 
 entry(
-    index = 248,
+    index = 250,
     label = "Rn4c6_beta_short",
     group = 
 """
@@ -3862,7 +3896,7 @@ entry(
 )
 
 entry(
-    index = 249,
+    index = 251,
     label = "Rn4c7_beta_short",
     group = 
 """
@@ -3882,7 +3916,7 @@ entry(
 )
 
 entry(
-    index = 250,
+    index = 252,
     label = "Rn4c8_beta_short",
     group = 
 """
@@ -3903,14 +3937,14 @@ entry(
 )
 
 entry(
-    index = 251,
+    index = 253,
     label = "Rn5cx_alpha",
     group = "OR{Rn5c3_alpha_short, Rn5c4_alpha_short, Rn5c5_alpha_short, Rn5c6_alpha_short, Rn5c7_alpha_short, Rn5c8_alpha_short}",
     kinetics = None,
 )
 
 entry(
-    index = 252,
+    index = 254,
     label = "Rn5c3_alpha_short",
     group = 
 """
@@ -3927,7 +3961,7 @@ entry(
 )
 
 entry(
-    index = 253,
+    index = 255,
     label = "Rn5c4_alpha_short",
     group = 
 """
@@ -3945,7 +3979,7 @@ entry(
 )
 
 entry(
-    index = 254,
+    index = 256,
     label = "Rn5c5_alpha_short",
     group = 
 """
@@ -3964,7 +3998,7 @@ entry(
 )
 
 entry(
-    index = 255,
+    index = 257,
     label = "Rn5c6_alpha_short",
     group = 
 """
@@ -3984,7 +4018,7 @@ entry(
 )
 
 entry(
-    index = 256,
+    index = 258,
     label = "Rn5c7_alpha_short",
     group = 
 """
@@ -4005,7 +4039,7 @@ entry(
 )
 
 entry(
-    index = 257,
+    index = 259,
     label = "Rn5c8_alpha_short",
     group = 
 """
@@ -4027,7 +4061,7 @@ entry(
 )
 
 entry(
-    index = 258,
+    index = 260,
     label = "Rn0c8_beta_long",
     group = 
 """
@@ -4044,7 +4078,7 @@ entry(
 )
 
 entry(
-    index = 259,
+    index = 261,
     label = "Rn1c6_alpha_long",
     group = 
 """
@@ -4060,7 +4094,7 @@ entry(
 )
 
 entry(
-    index = 260,
+    index = 262,
     label = "Rn1c6_alpha_long_loop",
     group = 
 """
@@ -4079,7 +4113,7 @@ entry(
 )
 
 entry(
-    index = 261,
+    index = 263,
     label = "Rn1c7_beta_long",
     group = 
 """
@@ -4096,7 +4130,7 @@ entry(
 )
 
 entry(
-    index = 262,
+    index = 264,
     label = "Rn2c5_alpha_long",
     group = 
 """
@@ -4112,7 +4146,7 @@ entry(
 )
 
 entry(
-    index = 263,
+    index = 265,
     label = "Rn2c5_alpha_long_SS",
     group = 
 """
@@ -4128,7 +4162,7 @@ entry(
 )
 
 entry(
-    index = 264,
+    index = 266,
     label = "Rn2c5_alpha_long_DS",
     group = 
 """
@@ -4144,7 +4178,7 @@ entry(
 )
 
 entry(
-    index = 265,
+    index = 267,
     label = "Rn0c10_delta_long",
     group = 
 """
@@ -4163,7 +4197,7 @@ entry(
 )
 
 entry(
-    index = 266,
+    index = 268,
     label = "Rn0c10_delta_long_SSDS",
     group = 
 """
@@ -4182,7 +4216,7 @@ entry(
 )
 
 entry(
-    index = 267,
+    index = 269,
     label = "Rn0c10_delta_long_SSDS_D",
     group = 
 """
@@ -4201,7 +4235,7 @@ entry(
 )
 
 entry(
-    index = 268,
+    index = 270,
     label = "Rn1c8_gamma_long",
     group = 
 """
@@ -4219,7 +4253,7 @@ entry(
 )
 
 entry(
-    index = 269,
+    index = 271,
     label = "Rn2c6_beta_long",
     group = 
 """
@@ -4236,7 +4270,7 @@ entry(
 )
 
 entry(
-    index = 270,
+    index = 272,
     label = "Rn3c4_alpha_long",
     group = 
 """
@@ -4252,7 +4286,7 @@ entry(
 )
 
 entry(
-    index = 271,
+    index = 273,
     label = "Rn2c7_gamma_long",
     group = 
 """
@@ -4270,7 +4304,7 @@ entry(
 )
 
 entry(
-    index = 272,
+    index = 274,
     label = "Rn3c5_beta_long",
     group = 
 """
@@ -4287,7 +4321,7 @@ entry(
 )
 
 entry(
-    index = 273,
+    index = 275,
     label = "Rn4c3_alpha_long",
     group = 
 """
@@ -4303,7 +4337,7 @@ entry(
 )
 
 entry(
-    index = 274,
+    index = 276,
     label = "R7_linear",
     group = 
 """
@@ -4319,7 +4353,7 @@ entry(
 )
 
 entry(
-    index = 275,
+    index = 277,
     label = "R7_SDSD_D",
     group = 
 """
@@ -4335,7 +4369,7 @@ entry(
 )
 
 entry(
-    index = 276,
+    index = 278,
     label = "R8",
     group = 
 """
@@ -4352,14 +4386,14 @@ entry(
 )
 
 entry(
-    index = 277,
+    index = 279,
     label = "R8_cyclic",
     group = "OR{Rn1c7_alpha_long, Rn1c8_beta_long, Rn2c6_alpha_long, Rn2c7_beta_long, Rn3c5_alpha_long, Rn2c8_gamma_long, Rn3c6_beta_long, Rn4c4_alpha_long, Rn3c7_gamma_long, Rn4c5_beta_long, Rn5c3_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 278,
+    index = 280,
     label = "Rn1c7_alpha_long",
     group = 
 """
@@ -4376,7 +4410,7 @@ entry(
 )
 
 entry(
-    index = 279,
+    index = 281,
     label = "Rn1c8_beta_long",
     group = 
 """
@@ -4394,7 +4428,7 @@ entry(
 )
 
 entry(
-    index = 280,
+    index = 282,
     label = "Rn2c6_alpha_long",
     group = 
 """
@@ -4411,7 +4445,7 @@ entry(
 )
 
 entry(
-    index = 281,
+    index = 283,
     label = "Rn2c7_beta_long",
     group = 
 """
@@ -4429,7 +4463,7 @@ entry(
 )
 
 entry(
-    index = 282,
+    index = 284,
     label = "Rn3c5_alpha_long",
     group = 
 """
@@ -4446,7 +4480,7 @@ entry(
 )
 
 entry(
-    index = 283,
+    index = 285,
     label = "Rn2c8_gamma_long",
     group = 
 """
@@ -4465,7 +4499,7 @@ entry(
 )
 
 entry(
-    index = 284,
+    index = 286,
     label = "Rn3c6_beta_long",
     group = 
 """
@@ -4483,7 +4517,7 @@ entry(
 )
 
 entry(
-    index = 285,
+    index = 287,
     label = "Rn4c4_alpha_long",
     group = 
 """
@@ -4500,7 +4534,7 @@ entry(
 )
 
 entry(
-    index = 286,
+    index = 288,
     label = "Rn3c7_gamma_long",
     group = 
 """
@@ -4519,7 +4553,7 @@ entry(
 )
 
 entry(
-    index = 287,
+    index = 289,
     label = "Rn4c5_beta_long",
     group = 
 """
@@ -4537,7 +4571,7 @@ entry(
 )
 
 entry(
-    index = 288,
+    index = 290,
     label = "Rn5c3_alpha_long",
     group = 
 """
@@ -4554,7 +4588,7 @@ entry(
 )
 
 entry(
-    index = 289,
+    index = 291,
     label = "R8_linear",
     group = 
 """
@@ -4571,7 +4605,7 @@ entry(
 )
 
 entry(
-    index = 290,
+    index = 292,
     label = "R9",
     group = 
 """
@@ -4589,14 +4623,14 @@ entry(
 )
 
 entry(
-    index = 291,
+    index = 293,
     label = "R9_cyclic",
     group = "OR{Rn1c8_alpha_long, Rn2c7_alpha_long, Rn2c8_beta_long, Rn3c6_alpha_long, Rn3c7_beta_long, Rn3c8_gamma_long, Rn4c5_alpha_long, Rn4c6_beta_long, Rn5c4_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 292,
+    index = 294,
     label = "Rn1c8_alpha_long",
     group = 
 """
@@ -4614,7 +4648,7 @@ entry(
 )
 
 entry(
-    index = 293,
+    index = 295,
     label = "Rn2c7_alpha_long",
     group = 
 """
@@ -4632,7 +4666,7 @@ entry(
 )
 
 entry(
-    index = 294,
+    index = 296,
     label = "Rn2c8_beta_long",
     group = 
 """
@@ -4651,7 +4685,7 @@ entry(
 )
 
 entry(
-    index = 295,
+    index = 297,
     label = "Rn3c6_alpha_long",
     group = 
 """
@@ -4669,7 +4703,7 @@ entry(
 )
 
 entry(
-    index = 296,
+    index = 298,
     label = "Rn3c7_beta_long",
     group = 
 """
@@ -4688,7 +4722,7 @@ entry(
 )
 
 entry(
-    index = 297,
+    index = 299,
     label = "Rn3c8_gamma_long",
     group = 
 """
@@ -4708,7 +4742,7 @@ entry(
 )
 
 entry(
-    index = 298,
+    index = 300,
     label = "Rn4c5_alpha_long",
     group = 
 """
@@ -4726,7 +4760,7 @@ entry(
 )
 
 entry(
-    index = 299,
+    index = 301,
     label = "Rn4c6_beta_long",
     group = 
 """
@@ -4745,7 +4779,7 @@ entry(
 )
 
 entry(
-    index = 300,
+    index = 302,
     label = "Rn5c4_alpha_long",
     group = 
 """
@@ -4763,7 +4797,7 @@ entry(
 )
 
 entry(
-    index = 301,
+    index = 303,
     label = "R9_linear",
     group = 
 """
@@ -4781,7 +4815,7 @@ entry(
 )
 
 entry(
-    index = 302,
+    index = 304,
     label = "R9_SSSSSD",
     group = 
 """
@@ -4799,7 +4833,7 @@ entry(
 )
 
 entry(
-    index = 303,
+    index = 305,
     label = "R9_SDSSSD",
     group = 
 """
@@ -4817,7 +4851,7 @@ entry(
 )
 
 entry(
-    index = 304,
+    index = 306,
     label = "R10",
     group = 
 """
@@ -4836,14 +4870,14 @@ entry(
 )
 
 entry(
-    index = 305,
+    index = 307,
     label = "R10_cyclic",
     group = "OR{Rn2c8_alpha_long, Rn3c7_alpha_long, Rn3c8_beta_long, Rn4c6_alpha_long, Rn4c7_beta_long, Rn5c5_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 306,
+    index = 308,
     label = "Rn2c8_alpha_long",
     group = 
 """
@@ -4862,7 +4896,7 @@ entry(
 )
 
 entry(
-    index = 307,
+    index = 309,
     label = "Rn3c7_alpha_long",
     group = 
 """
@@ -4881,7 +4915,7 @@ entry(
 )
 
 entry(
-    index = 308,
+    index = 310,
     label = "Rn3c8_beta_long",
     group = 
 """
@@ -4901,7 +4935,7 @@ entry(
 )
 
 entry(
-    index = 309,
+    index = 311,
     label = "Rn4c6_alpha_long",
     group = 
 """
@@ -4920,7 +4954,7 @@ entry(
 )
 
 entry(
-    index = 310,
+    index = 312,
     label = "Rn4c6_alpha_long_SDSD",
     group = 
 """
@@ -4939,7 +4973,7 @@ entry(
 )
 
 entry(
-    index = 311,
+    index = 313,
     label = "Rn4c7_beta_long",
     group = 
 """
@@ -4959,7 +4993,7 @@ entry(
 )
 
 entry(
-    index = 312,
+    index = 314,
     label = "Rn5c5_alpha_long",
     group = 
 """
@@ -4978,7 +5012,7 @@ entry(
 )
 
 entry(
-    index = 313,
+    index = 315,
     label = "R10_linear",
     group = 
 """
@@ -4997,7 +5031,7 @@ entry(
 )
 
 entry(
-    index = 314,
+    index = 316,
     label = "R11",
     group = 
 """
@@ -5017,14 +5051,14 @@ entry(
 )
 
 entry(
-    index = 315,
+    index = 317,
     label = "R11_cyclic",
     group = "OR{Rn3c8_alpha_long, Rn4c7_alpha_long, Rn4c8_beta_long, Rn5c6_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 316,
+    index = 318,
     label = "Rn3c8_alpha_long",
     group = 
 """
@@ -5044,7 +5078,7 @@ entry(
 )
 
 entry(
-    index = 317,
+    index = 319,
     label = "Rn4c7_alpha_long",
     group = 
 """
@@ -5064,7 +5098,7 @@ entry(
 )
 
 entry(
-    index = 318,
+    index = 320,
     label = "Rn4c8_beta_long",
     group = 
 """
@@ -5085,7 +5119,7 @@ entry(
 )
 
 entry(
-    index = 319,
+    index = 321,
     label = "Rn5c6_alpha_long",
     group = 
 """
@@ -5105,7 +5139,7 @@ entry(
 )
 
 entry(
-    index = 320,
+    index = 322,
     label = "R11_linear",
     group = 
 """
@@ -5125,7 +5159,7 @@ entry(
 )
 
 entry(
-    index = 321,
+    index = 323,
     label = "R12",
     group = 
 """
@@ -5146,14 +5180,14 @@ entry(
 )
 
 entry(
-    index = 322,
+    index = 324,
     label = "R12_cyclic",
     group = "OR{Rn4c8_alpha_long, Rn5c7_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 323,
+    index = 325,
     label = "Rn4c8_alpha_long",
     group = 
 """
@@ -5174,7 +5208,7 @@ entry(
 )
 
 entry(
-    index = 324,
+    index = 326,
     label = "Rn5c7_alpha_long",
     group = 
 """
@@ -5195,7 +5229,7 @@ entry(
 )
 
 entry(
-    index = 325,
+    index = 327,
     label = "R12_linear",
     group = 
 """
@@ -5216,7 +5250,7 @@ entry(
 )
 
 entry(
-    index = 326,
+    index = 328,
     label = "R13",
     group = 
 """
@@ -5238,14 +5272,14 @@ entry(
 )
 
 entry(
-    index = 327,
+    index = 329,
     label = "R13_cyclic",
     group = "OR{Rn5c8_alpha_long}",
     kinetics = None,
 )
 
 entry(
-    index = 328,
+    index = 330,
     label = "Rn5c8_alpha_long",
     group = 
 """
@@ -5267,7 +5301,7 @@ entry(
 )
 
 entry(
-    index = 329,
+    index = 331,
     label = "R13_linear",
     group = 
 """
@@ -5289,7 +5323,7 @@ entry(
 )
 
 entry(
-    index = 330,
+    index = 332,
     label = "doublebond_intra",
     group = 
 """
@@ -5305,7 +5339,7 @@ so this is the most specific group that will match such a molecule.
 )
 
 entry(
-    index = 331,
+    index = 333,
     label = "doublebond_intra_CdCdd",
     group = 
 """
@@ -5316,7 +5350,7 @@ entry(
 )
 
 entry(
-    index = 332,
+    index = 334,
     label = "doublebond_intra_pri",
     group = 
 """
@@ -5328,7 +5362,7 @@ entry(
 )
 
 entry(
-    index = 333,
+    index = 335,
     label = "doublebond_intra_pri_2H",
     group = 
 """
@@ -5342,7 +5376,7 @@ entry(
 )
 
 entry(
-    index = 334,
+    index = 336,
     label = "doublebond_intra_pri_HNd",
     group = 
 """
@@ -5356,7 +5390,35 @@ entry(
 )
 
 entry(
-    index = 335,
+    index = 337,
+    label = "doublebond_intra_pri_HNd_Cs",
+    group = 
+"""
+1 *2 Cd u0 {2,D} {3,S}
+2 *3 Cd u0 c0 {1,D} {4,S} {5,S}
+3    H  u0 {1,S}
+4    H  u0 {2,S}
+5    Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 338,
+    label = "doublebond_intra_pri_HNd_O",
+    group = 
+"""
+1 *2 Cd u0 {2,D} {3,S}
+2 *3 Cd u0 c0 {1,D} {4,S} {5,S}
+3    H  u0 {1,S}
+4    H  u0 {2,S}
+5    O  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 339,
     label = "doublebond_intra_pri_HDe",
     group = 
 """
@@ -5370,7 +5432,7 @@ entry(
 )
 
 entry(
-    index = 336,
+    index = 340,
     label = "doublebond_intra_pri_HCd",
     group = 
 """
@@ -5384,7 +5446,7 @@ entry(
 )
 
 entry(
-    index = 337,
+    index = 341,
     label = "doublebond_intra_pri_HCt",
     group = 
 """
@@ -5398,7 +5460,21 @@ entry(
 )
 
 entry(
-    index = 338,
+    index = 342,
+    label = "doublebond_intra_pri_HCO",
+    group = 
+"""
+1 *2 Cd u0 {2,D} {3,S}
+2 *3 Cd u0 c0 {1,D} {4,S} {5,S}
+3    H  u0 {1,S}
+4    H  u0 {2,S}
+5    CO u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 343,
     label = "doublebond_intra_pri_NdNd",
     group = 
 """
@@ -5412,7 +5488,7 @@ entry(
 )
 
 entry(
-    index = 339,
+    index = 344,
     label = "doublebond_intra_pri_NdDe",
     group = 
 """
@@ -5426,7 +5502,7 @@ entry(
 )
 
 entry(
-    index = 340,
+    index = 345,
     label = "doublebond_intra_pri_NdCd",
     group = 
 """
@@ -5440,7 +5516,7 @@ entry(
 )
 
 entry(
-    index = 341,
+    index = 346,
     label = "doublebond_intra_pri_NdCt",
     group = 
 """
@@ -5454,7 +5530,7 @@ entry(
 )
 
 entry(
-    index = 342,
+    index = 347,
     label = "doublebond_intra_pri_DeDe",
     group = 
 """
@@ -5468,7 +5544,7 @@ entry(
 )
 
 entry(
-    index = 343,
+    index = 348,
     label = "doublebond_intra_secNd",
     group = 
 """
@@ -5480,7 +5556,7 @@ entry(
 )
 
 entry(
-    index = 344,
+    index = 349,
     label = "doublebond_intra_secNd_2H",
     group = 
 """
@@ -5494,7 +5570,7 @@ entry(
 )
 
 entry(
-    index = 345,
+    index = 350,
     label = "doublebond_intra_secNd_HNd",
     group = 
 """
@@ -5508,7 +5584,7 @@ entry(
 )
 
 entry(
-    index = 346,
+    index = 351,
     label = "doublebond_intra_secNd_HDe",
     group = 
 """
@@ -5522,7 +5598,7 @@ entry(
 )
 
 entry(
-    index = 347,
+    index = 352,
     label = "doublebond_intra_secNd_HCd",
     group = 
 """
@@ -5536,7 +5612,7 @@ entry(
 )
 
 entry(
-    index = 348,
+    index = 353,
     label = "doublebond_intra_secNd_HCt",
     group = 
 """
@@ -5550,7 +5626,7 @@ entry(
 )
 
 entry(
-    index = 349,
+    index = 354,
     label = "doublebond_intra_secNd_NdNd",
     group = 
 """
@@ -5564,7 +5640,7 @@ entry(
 )
 
 entry(
-    index = 350,
+    index = 355,
     label = "doublebond_intra_secNd_NdDe",
     group = 
 """
@@ -5578,7 +5654,7 @@ entry(
 )
 
 entry(
-    index = 351,
+    index = 356,
     label = "doublebond_intra_secNd_NdCd",
     group = 
 """
@@ -5592,7 +5668,7 @@ entry(
 )
 
 entry(
-    index = 352,
+    index = 357,
     label = "doublebond_intra_secNd_NdCt",
     group = 
 """
@@ -5606,7 +5682,7 @@ entry(
 )
 
 entry(
-    index = 353,
+    index = 358,
     label = "doublebond_intra_secNd_DeDe",
     group = 
 """
@@ -5620,7 +5696,7 @@ entry(
 )
 
 entry(
-    index = 354,
+    index = 359,
     label = "doublebond_intra_secDe",
     group = 
 """
@@ -5632,7 +5708,7 @@ entry(
 )
 
 entry(
-    index = 355,
+    index = 360,
     label = "doublebond_intra_secDe_2H",
     group = 
 """
@@ -5646,7 +5722,7 @@ entry(
 )
 
 entry(
-    index = 356,
+    index = 361,
     label = "doublebond_intra_secDe_HNd",
     group = 
 """
@@ -5660,7 +5736,7 @@ entry(
 )
 
 entry(
-    index = 357,
+    index = 362,
     label = "doublebond_intra_secDe_HDe",
     group = 
 """
@@ -5674,7 +5750,7 @@ entry(
 )
 
 entry(
-    index = 358,
+    index = 363,
     label = "doublebond_intra_secDe_HCd",
     group = 
 """
@@ -5688,7 +5764,7 @@ entry(
 )
 
 entry(
-    index = 359,
+    index = 364,
     label = "doublebond_intra_secDe_HCt",
     group = 
 """
@@ -5702,7 +5778,7 @@ entry(
 )
 
 entry(
-    index = 360,
+    index = 365,
     label = "doublebond_intra_secDe_NdNd",
     group = 
 """
@@ -5716,7 +5792,7 @@ entry(
 )
 
 entry(
-    index = 361,
+    index = 366,
     label = "doublebond_intra_secDe_NdDe",
     group = 
 """
@@ -5730,7 +5806,7 @@ entry(
 )
 
 entry(
-    index = 362,
+    index = 367,
     label = "doublebond_intra_secDe_NdCd",
     group = 
 """
@@ -5744,7 +5820,7 @@ entry(
 )
 
 entry(
-    index = 363,
+    index = 368,
     label = "doublebond_intra_secDe_NdCt",
     group = 
 """
@@ -5758,7 +5834,7 @@ entry(
 )
 
 entry(
-    index = 364,
+    index = 369,
     label = "doublebond_intra_secDe_DeDe",
     group = 
 """
@@ -5772,7 +5848,7 @@ entry(
 )
 
 entry(
-    index = 365,
+    index = 370,
     label = "triplebond_intra",
     group = 
 """
@@ -5783,7 +5859,7 @@ entry(
 )
 
 entry(
-    index = 366,
+    index = 371,
     label = "triplebond_intra_H",
     group = 
 """
@@ -5795,7 +5871,7 @@ entry(
 )
 
 entry(
-    index = 367,
+    index = 372,
     label = "triplebond_intra_Nd",
     group = 
 """
@@ -5807,7 +5883,7 @@ entry(
 )
 
 entry(
-    index = 368,
+    index = 373,
     label = "triplebond_intra_De",
     group = 
 """
@@ -5819,7 +5895,7 @@ entry(
 )
 
 entry(
-    index = 369,
+    index = 374,
     label = "benzenebond_intra",
     group = 
 """
@@ -5830,7 +5906,7 @@ entry(
 )
 
 entry(
-    index = 370,
+    index = 375,
     label = "benzenebond_intra_CbCb",
     group = 
 """
@@ -5841,7 +5917,7 @@ entry(
 )
 
 entry(
-    index = 371,
+    index = 376,
     label = "benzenebond_intra_CbCbH",
     group = 
 """
@@ -5853,7 +5929,7 @@ entry(
 )
 
 entry(
-    index = 372,
+    index = 377,
     label = "benzenebond_intra_CbCbf",
     group = 
 """
@@ -5864,7 +5940,7 @@ entry(
 )
 
 entry(
-    index = 373,
+    index = 378,
     label = "benzenebond_intra_CbfCb",
     group = 
 """
@@ -5875,7 +5951,7 @@ entry(
 )
 
 entry(
-    index = 374,
+    index = 379,
     label = "benzenebond_intra_CbfCbf",
     group = 
 """
@@ -5886,7 +5962,7 @@ entry(
 )
 
 entry(
-    index = 375,
+    index = 380,
     label = "carbonyl_intra",
     group = 
 """
@@ -5897,7 +5973,7 @@ entry(
 )
 
 entry(
-    index = 376,
+    index = 381,
     label = "carbonyl_intra_H",
     group = 
 """
@@ -5909,7 +5985,7 @@ entry(
 )
 
 entry(
-    index = 377,
+    index = 382,
     label = "carbonyl_intra_Nd",
     group = 
 """
@@ -5921,7 +5997,7 @@ entry(
 )
 
 entry(
-    index = 378,
+    index = 383,
     label = "carbonyl_intra_De",
     group = 
 """
@@ -5933,7 +6009,7 @@ entry(
 )
 
 entry(
-    index = 379,
+    index = 384,
     label = "thiyl_intra",
     group = 
 """
@@ -5944,7 +6020,7 @@ entry(
 )
 
 entry(
-    index = 380,
+    index = 385,
     label = "thiyl_intra_H",
     group = 
 """
@@ -5956,7 +6032,7 @@ entry(
 )
 
 entry(
-    index = 381,
+    index = 386,
     label = "thiyl_intra_Nd",
     group = 
 """
@@ -5968,7 +6044,7 @@ entry(
 )
 
 entry(
-    index = 382,
+    index = 387,
     label = "thiyl_intra_De",
     group = 
 """
@@ -5980,7 +6056,7 @@ entry(
 )
 
 entry(
-    index = 383,
+    index = 388,
     label = "radadd_intra_cs",
     group = 
 """
@@ -5990,7 +6066,7 @@ entry(
 )
 
 entry(
-    index = 384,
+    index = 389,
     label = "radadd_intra_cs2H",
     group = 
 """
@@ -6002,7 +6078,7 @@ entry(
 )
 
 entry(
-    index = 385,
+    index = 390,
     label = "radadd_intra_csHNd",
     group = 
 """
@@ -6014,7 +6090,31 @@ entry(
 )
 
 entry(
-    index = 386,
+    index = 391,
+    label = "radadd_intra_csHCs",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 392,
+    label = "radadd_intra_csHO",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    O  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 393,
     label = "radadd_intra_csHDe",
     group = 
 """
@@ -6026,7 +6126,7 @@ entry(
 )
 
 entry(
-    index = 387,
+    index = 394,
     label = "radadd_intra_csHCd",
     group = 
 """
@@ -6038,7 +6138,7 @@ entry(
 )
 
 entry(
-    index = 388,
+    index = 395,
     label = "radadd_intra_csH(CdCdCd)",
     group = 
 """
@@ -6052,7 +6152,7 @@ entry(
 )
 
 entry(
-    index = 389,
+    index = 396,
     label = "radadd_intra_csHCt",
     group = 
 """
@@ -6064,7 +6164,7 @@ entry(
 )
 
 entry(
-    index = 390,
+    index = 397,
     label = "radadd_intra_csHCb",
     group = 
 """
@@ -6076,7 +6176,19 @@ entry(
 )
 
 entry(
-    index = 391,
+    index = 398,
+    label = "radadd_intra_csHCO",
+    group = 
+"""
+1 *1 Cs u1 {2,S} {3,S}
+2    H  u0 {1,S}
+3    CO u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 399,
     label = "radadd_intra_csNdNd",
     group = 
 """
@@ -6088,7 +6200,7 @@ entry(
 )
 
 entry(
-    index = 392,
+    index = 400,
     label = "radadd_intra_csNdDe",
     group = 
 """
@@ -6100,7 +6212,7 @@ entry(
 )
 
 entry(
-    index = 393,
+    index = 401,
     label = "radadd_intra_csNdCd",
     group = 
 """
@@ -6112,7 +6224,7 @@ entry(
 )
 
 entry(
-    index = 394,
+    index = 402,
     label = "radadd_intra_csNdCt",
     group = 
 """
@@ -6124,7 +6236,7 @@ entry(
 )
 
 entry(
-    index = 395,
+    index = 403,
     label = "radadd_intra_csDeDe",
     group = 
 """
@@ -6136,7 +6248,7 @@ entry(
 )
 
 entry(
-    index = 396,
+    index = 404,
     label = "radadd_intra_O",
     group = 
 """
@@ -6146,7 +6258,7 @@ entry(
 )
 
 entry(
-    index = 397,
+    index = 405,
     label = "radadd_intra_S",
     group = 
 """
@@ -6156,7 +6268,7 @@ entry(
 )
 
 entry(
-    index = 398,
+    index = 406,
     label = "radadd_intra_Cb",
     group = 
 """
@@ -6166,7 +6278,7 @@ entry(
 )
 
 entry(
-    index = 399,
+    index = 407,
     label = "radadd_intra_cdsingle",
     group = 
 """
@@ -6177,7 +6289,7 @@ entry(
 )
 
 entry(
-    index = 400,
+    index = 408,
     label = "radadd_intra_cdsingleH",
     group = 
 """
@@ -6188,7 +6300,7 @@ entry(
 )
 
 entry(
-    index = 401,
+    index = 409,
     label = "radadd_intra_cdsingleNd",
     group = 
 """
@@ -6199,7 +6311,7 @@ entry(
 )
 
 entry(
-    index = 402,
+    index = 410,
     label = "radadd_intra_cdsingleDe",
     group = 
 """
@@ -6210,7 +6322,7 @@ entry(
 )
 
 entry(
-    index = 403,
+    index = 411,
     label = "radadd_intra_cdsingleDe_cb",
     group = 
 """
@@ -6221,7 +6333,7 @@ entry(
 )
 
 entry(
-    index = 404,
+    index = 412,
     label = "radadd_intra_cddouble",
     group = 
 """
@@ -6232,7 +6344,7 @@ entry(
 )
 
 entry(
-    index = 405,
+    index = 413,
     label = "radadd_intra_CO",
     group = 
 """
@@ -6243,124 +6355,12 @@ entry(
 )
 
 entry(
-    index = 406,
+    index = 414,
     label = "radadd_intra_Ct",
     group = 
 """
 1 *1 Ct u1 {2,T}
 2    Ct u0 {1,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 407,
-    label = "Rn2c6_alpha_short_O",
-    group = 
-"""
-1 *3 R!H u0 c0 r1 {2,[D,T,B]} {5,[S,D,T,B]}
-2 *2 R!H u0 r1 {1,[D,T,B]} {3,[S,D,T]} {8,[S,D,T,B]}
-3 *4 O   ux {2,[S,D,T]} {4,[S,D,T]}
-4 *1 R!H u1 r0 {3,[S,D,T]}
-5    R!H ux r1 {1,[S,D,T,B]} {6,[S,D,T,B]}
-6    R!H ux r1 {5,[S,D,T,B]} {7,[S,D,T,B]}
-7    R!H ux r1 {6,[S,D,T,B]} {8,[S,D,T,B]}
-8    R!H ux r1 {2,[S,D,T,B]} {7,[S,D,T,B]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 408,
-    label = "Rn2c6_alpha_short_C",
-    group = 
-"""
-1 *3 R!H u0 c0 r1 {2,[D,T,B]} {5,[S,D,T,B]}
-2 *2 R!H u0 r1 {1,[D,T,B]} {3,[S,D,T,B]} {8,[S,D,T,B]}
-3 *4 C   ux {2,[S,D,T,B]} {4,[S,D,T,B]}
-4 *1 R!H u1 r0 {3,[S,D,T,B]}
-5    R!H ux r1 {1,[S,D,T,B]} {6,[S,D,T,B]}
-6    R!H ux r1 {5,[S,D,T,B]} {7,[S,D,T,B]}
-7    R!H ux r1 {6,[S,D,T,B]} {8,[S,D,T,B]}
-8    R!H ux r1 {2,[S,D,T,B]} {7,[S,D,T,B]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 409,
-    label = "doublebond_intra_pri_HNd_Cs",
-    group = 
-"""
-1 *2 Cd       u0 {2,D} {3,S}
-2 *3 Cd       u0 c0 {1,D} {4,S} {5,S}
-3    H        u0 {1,S}
-4    H        u0 {2,S}
-5    Cs       u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 410,
-    label = "doublebond_intra_pri_HNd_O",
-    group = 
-"""
-1 *2 Cd       u0 {2,D} {3,S}
-2 *3 Cd       u0 c0 {1,D} {4,S} {5,S}
-3    H        u0 {1,S}
-4    H        u0 {2,S}
-5    O        u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 411,
-    label = "radadd_intra_csHCO",
-    group = 
-"""
-1 *1 Cs       u1 {2,S} {3,S}
-2    H        u0 {1,S}
-3    CO       u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 412,
-    label = "doublebond_intra_pri_HCO",
-    group = 
-"""
-1 *2 Cd        u0 {2,D} {3,S}
-2 *3 Cd        u0 c0 {1,D} {4,S} {5,S}
-3    H         u0 {1,S}
-4    H         u0 {2,S}
-5    CO        u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 413,
-    label = "radadd_intra_csHCs",
-    group = 
-"""
-1 *1 Cs       u1 {2,S} {3,S}
-2    H        u0 {1,S}
-3    Cs       u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 414,
-    label = "radadd_intra_csHO",
-    group = 
-"""
-1 *1 Cs       u1 {2,S} {3,S}
-2    H        u0 {1,S}
-3    O       u0 {1,S}
 """,
     kinetics = None,
 )
