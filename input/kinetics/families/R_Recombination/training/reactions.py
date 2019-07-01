@@ -152,39 +152,6 @@ Theoretical modeling of k0, k and Fc=0.38 exp(-T/4900K) led to consistency with 
 )
 
 entry(
-    index = 6,
-    label = "CH3NO2 <=> CH3 + NO2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.88e+24, 's^-1'),
-        n = -2.35,
-        Ea = (62398, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (500, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
-u"""
-R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi: 10.1021/jp401148q
-p. 7311
-calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
-The high pressure limit rate is giving here. A 1 atm rate is also available from the same source.
-
-Also available (experimental) from:
-P. Glarborg, A.B. Bendtsen, J.A. Miller
-Nitromethane Dissociation: Implications for the CH3 + NO2 Reaction
-International Journal of Chemical Kinetics Volume 31, Issue 9, pages 591-602, 1999
-DOI: 10.1002/(SICI)1097-4601(1999)31:9<591::AID-KIN1>3.0.CO;2-E
-    kinetics = Arrhenius(A=(1.8e+16, 's^-1'), n=0, Ea=(58500, 'cal/mol'), T0=(1, 'K')),
-
-Also appears in the Nitrogen_Glarborg_Zhang_et_al library (index 671)
-and in the Nitrogen_Glarborg_Gimenez_et_al library (index 953)
-""",
-)
-
-entry(
     index = 7,
     label = "CH3 + CH3 <=> C2H6",
     degeneracy = 1.0,
@@ -402,58 +369,6 @@ Taken from entry: R4 + H <=> C5H5CH3-5
 )
 
 entry(
-    index = 16,
-    label = "CH3ONO <=> CH3O + NO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (7.9e+22, 's^-1'),
-        n = -2.18,
-        Ea = (41930, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
-u"""
-R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi: 10.1021/jp401148q
-p. 7311
-calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
-The high pressure limit rate is giving here. A 1 atm rate is akso available from the same source.
-Reported rate was divided by 2 due to a 50% branching ratio (Fig. 7 in the manuscript).
-""",
-)
-
-entry(
-    index = 17,
-    label = "HSOO <=> SH + O2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.41e+18, 's^-1'),
-        n = -1.07,
-        Ea = (7750, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (200, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
-u"""
-A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328-11335 doi: 10.1021/jp9924070
-Table 7 on p. 11333
-calculations done at the QCISD(T)/6-311+G(3df,2p)//MP2=FULL/6-31G(d) level of theory
-
-Troe expression given, only k_inf taken here:
-kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(4.41e+18, 's^-1'), n=-1.07, Ea=(7750, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (2000, 'K')),
-        arrheniusLow = Arrhenius(A=(1.56e+23, 'cm^3/(mol*s)'), n=-2.82, Ea=(-7450, 'cal/mol'), T0=(1, 'K'), Tmin = (200, 'K'), Tmax = (2000, 'K')),
-        alpha=1, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
-""",
-)
-
-entry(
     index = 18,
     label = "OH + NO2-2 <=> HOONO",
     degeneracy = 2.0,
@@ -494,36 +409,6 @@ A low T (200-400 K) kinetics from a different source is:
         year = "2007",
         url = "http://kinetics.nist.gov/kinetics/Detail?id=2007WIL/POG154321:2",
     ),
-""",
-)
-
-entry(
-    index = 19,
-    label = "N2H4 <=> NH2 + NH2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.57e+21, 's^-1'),
-        n = -1.04,
-        Ea = (66565, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (700, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
-u"""
-P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
-p. 264
-Calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theoty
-Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
-Also available from [Klippenstein2009] in reverse:
-label = "NH2 + NH2 <=> N2H4",
-    kinetics = Troe(
-       arrheniusHigh = Arrhenius(A=(9.33e-10, 's^-1'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-       arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^3/(mol*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-       alpha=0.31, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
-Table 3, p. 10245, T range: 300-2500 K, calculated at the (CCSD(T) and CAS+1+2+QC level
 """,
 )
 
@@ -665,36 +550,6 @@ u"""
 P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
 (-R2)
 Calculated at the QCISD(T)/CBS//B3LYP/6-311++G(d,p) level
-""",
-)
-
-entry(
-    index = 26,
-    label = "HSSH <=> SH + SH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.59e+18, 's^-1'), n=-0.957, Ea=(267, 'kJ/mol'), T0=(1, 'K')),
-    rank = 4,
-    shortDesc = u"""Sendt2009b""",
-    longDesc = 
-u"""
-C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2009, 113, 8299-8306, doi: 10.1021/jp903185k
-Table 1, R2
-calculations done at the MRCI/aug-cc-pV(Q+d)Z//CASSCF/cc-pVTZ level of theory
-""",
-)
-
-entry(
-    index = 27,
-    label = "HSSH <=> HSS + H",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(4.7e+17, 's^-1'), n=-0.076, Ea=(310, 'kJ/mol'), T0=(1, 'K')),
-    rank = 4,
-    shortDesc = u"""Sendt2009b""",
-    longDesc = 
-u"""
-C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2009, 113, 8299-8306, doi: 10.1021/jp903185k
-Table 1, R3
-calculations done at the MRCI/aug-cc-pV(Q+d)Z//CASSCF/cc-pVTZ level of theory
 """,
 )
 
@@ -2800,26 +2655,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: SsJ-S2s;C_methyl
-""",
-)
-
-entry(
-    index = 100,
-    label = "CH3S + CH3S <=> C2H6S2",
-    degeneracy = 0.5,
-    kinetics = Arrhenius(
-        A = (5.3e+10, 'cm^3/(mol*s)'),
-        n = 1.21,
-        Ea = (-3.9748, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: SsJ-Cs;SsJ-Cs
 """,
 )
 
