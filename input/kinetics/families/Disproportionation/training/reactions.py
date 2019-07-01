@@ -2049,38 +2049,6 @@ Converted to training reaction from rate rule: Cd_pri_rad;O_Csrad
 )
 
 entry(
-    index = 64,
-    label = "CHO + CH3O <=> CH2O-3 + CH2O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.81e+14, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        Ea = (0, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: HCO + CH2OH --> CH2O + CH2O
-
-pg. 500: Discussion on evaluated data
-
-Entry 39,15 (b): CH2OH + HCO --> 2 CH2O
-
-Author estimates a disproportionation rate coefficient of 3x10^-11 cm3/molecule/s.
-
-No data available at the time.
-MRH 30-Aug-2009
-
-Converted to training reaction from rate rule: CO_pri_rad;O_Csrad
-""",
-)
-
-entry(
     index = 65,
     label = "HO + CH3O <=> H2O + CH2O",
     degeneracy = 1.0,
@@ -2955,30 +2923,6 @@ u"""
 Added by Beat Buesser, value for reaction: NH2O + HO2 = HNO + H2O2 (B&D #37h1) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
 Converted to training reaction from rate rule: O_rad/NonDeO;N3s/H2_s_Orad
-""",
-)
-
-entry(
-    index = 104,
-    label = "HO2-3 + H2NO-2 <=> H3NO + O2-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (29000, 'cm^3/(mol*s)'),
-        n = 2.69,
-        Ea = (-6.6944, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
-u"""
-Added by Beat Buesser, value for reaction: NH2O + HO2 = NH2OH + O2 (B&D #37h2) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Degeneracy not recalculated
-
-Converted to training reaction from rate rule: O_rad/NonDeN;O_Orad
 """,
 )
 
