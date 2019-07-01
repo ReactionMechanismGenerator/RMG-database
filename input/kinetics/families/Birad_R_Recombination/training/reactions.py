@@ -30,32 +30,6 @@ No stabilization at low pressures, only K3a_inf is given (k3a_low = 0)
 )
 
 entry(
-    index = 1,
-    label = "S + NO <=> SNO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.3e+14, 'cm^3/(mol*s)'),
-        n = 0.24,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (800, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Training reaction from kinetics library: N-S_interactions""",
-    longDesc = 
-u"""
-A. Goumri, D.D. Shao, P. Marshall, J. Chem. Phys., 2004, 121, 9999, doi: 10.1063/1.1806419
-Experimentally measured, and PES verified using CBS-QB3
-Originally a Troe expression was given, only k_inf is taken here
-kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0.24, Ea=(0, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (800, 'K')),
-        arrheniusLow = Arrhenius(A=(2.25e+15, 'cm^6/(mol^2*s)'), n=0, Ea=(-1868, 'cal/mol'), T0=(1, 'K'), Tmin = (300, 'K'), Tmax = (800, 'K')),
-        alpha=1, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
-""",
-)
-
-entry(
     index = 2,
     label = "NO2_p <=> NO + O",
     degeneracy = 1.0,
@@ -75,33 +49,6 @@ T range: 1350-2100 K
 M. Rohrig, E.L. Petersen, D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1997, 29(7), 483-493, doi: 10.1002/(SICI)1097-4601(1997)29:7<483::AID-KIN2>3.0.CO;2-Q
 Shock tube measurement
 Originally a Troe expression was given, only k_inf is taken here
-""",
-)
-
-entry(
-    index = 3,
-    label = "CH3CH2OO = CH3CH2O + O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.98e+15, 's^-1'),
-        n = -0.09,
-        Ea = (61600, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""CBS-Q//B3LYP/6-31G(d,p) calculation""",
-    longDesc = 
-u"""
-From Detailed Kinetics and Thermochemistry of C2H5+O2:  Reaction Kinetics of the 
-Chemically-Activated and Stabilized CH3CH2OO Adduct
-J. Phys. Chem. A 2002, 106,7276-7293
-Sheng, Bozzelli, Dean and Chang
-'enthalpy
-calculated at the CBS-Q//B3LYP/6-31G(d,p) and entropy and
-heat capacity values from frequencies and structures at B3LYP/
-6-31G(d,p) level of theory'
 """,
 )
 
