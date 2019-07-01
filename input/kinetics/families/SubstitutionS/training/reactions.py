@@ -2848,46 +2848,6 @@ Converted to training reaction from rate rule: S-HCs(CsOsH);HJ
 )
 
 entry(
-    index = 142,
-    label = "C2H6OS + CH3-2 <=> CH4S-3 + C2H5O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00296, 'cm^3/(mol*s)'),
-        n = 5.57,
-        Ea = (35.4385, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: S-HCs(CsOsH);CsJ-HHH
-""",
-)
-
-entry(
-    index = 143,
-    label = "C2H6OS + CH3-2 <=> CH4S-3 + C2H5O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (0.00296, 'cm^3/(mol*s)'),
-        n = 5.57,
-        Ea = (35.4385, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""based on 157""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: S-HCs(CsOsH);CJ
-""",
-)
-
-entry(
     index = 144,
     label = "HS-2 + C2H6OS <=> H2S2-4 + C2H5O",
     degeneracy = 1.0,
