@@ -53684,26 +53684,6 @@ Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;HJ
 )
 
 entry(
-    index = 2686,
-    label = "H + C6H2 <=> C6H3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.38e+10, 'cm^3/(mol*s)'),
-        n = 1.64,
-        Ea = (14.644, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;HJ
-""",
-)
-
-entry(
     index = 2687,
     label = "H + C3H4 <=> C3H5-6",
     degeneracy = 1.0,
@@ -55522,26 +55502,6 @@ Converted to training reaction from rate rule: Cds-CsH_Cds-HH;O_atom_triplet
 )
 
 entry(
-    index = 2778,
-    label = "C2H4S-3 + C2H3S <=> C4H7S2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.46, 'cm^3/(mol*s)'),
-        n = 3.08,
-        Ea = (-27.0705, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""CAC calc CBS-QB3, HO approx""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: Cds-SsH_Cds;SsJ-Cd
-""",
-)
-
-entry(
     index = 2779,
     label = "C4H7-2 + C2H4S <=> C6H11S",
     degeneracy = 1.0,
@@ -56182,28 +56142,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CdsJ=Cdd
-""",
-)
-
-entry(
-    index = 2810,
-    label = "CH2 + N2 <=> CH2N2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (3.2e+32, 'cm^3/(mol*s)'),
-        n = -7.07,
-        Ea = (83.5545, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
-u"""
-Added by Beat Buesser, value for reaction: CH2 + N2 = CH2NN (B&D #22a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
-
-Converted to training reaction from rate rule: N3t_N3t;CH2_triplet
 """,
 )
 
