@@ -11,8 +11,8 @@ the LLNL butanol model.
 template(reactants=["X_O", "Y_rad"], products=["X_rad", "Y_O"], ownReverse=True)
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['FORM_BOND', '*2', 'S', '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*2', 1, '*3'],
     ['GAIN_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*3', '1'],
 ])
