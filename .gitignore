@@ -9,7 +9,13 @@
 .pydevproject
 .settings/*
 
+# PyCharm project files
+.idea/*
+
 # C-Compiled scripts
 *.pyc
 
 *.ipynb_checkpoints
+
+# evaluate kinetics folder stuff
+testing/eval/*

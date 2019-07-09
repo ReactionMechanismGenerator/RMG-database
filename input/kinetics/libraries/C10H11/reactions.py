@@ -8,7 +8,7 @@ Calculated at the CBS-QB3 level
 
 Citation:
 
-Aäron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem, 
+Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem, 
 Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the 
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
@@ -354,7 +354,7 @@ entry(
 
 entry(
     index = 39,
-    label = "pdt14 <=> pdt33",
+    label = "pdt16 <=> pdt33",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.18e+07, 's^-1'), n=1.8, Ea=(15.8, 'kcal/mol'), T0=(1, 'K')),
     longDesc = 

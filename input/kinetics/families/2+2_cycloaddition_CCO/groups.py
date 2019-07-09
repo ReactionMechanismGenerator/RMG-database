@@ -11,304 +11,305 @@ template(reactants=["CCO", "doublebond"], products=["four_ring"], ownReverse=Fal
 
 reverse = "Four_Ring_Cleavage_CCO"
 
+reversible = True
 recipe(actions=[
-    ['CHANGE_BOND', '*1', '-1', '*2'],
-    ['CHANGE_BOND', '*3', '-1', '*4'],
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['FORM_BOND', '*2', 'S', '*4'],
+    ['CHANGE_BOND', '*1', -1, '*2'],
+    ['CHANGE_BOND', '*3', -1, '*4'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['FORM_BOND', '*2', 1, '*4'],
 ])
 
 entry(
-    index = 1,
+    index = 0,
     label = "CCO",
     group = 
 """
-1 *1 Cd  u0 {2,D}
-2 *2 Cdd u0 {1,D} {3,D}
-3    Od  u0 {2,D}
+1 *1 Cd        u0 {2,D}
+2 *2 Cdd       u0 {1,D} {3,D}
+3    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "doublebond",
     group = "OR{mb_CCO, mb_COC}",
     kinetics = None,
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "CCO_2H",
     group = 
 """
-1 *1 Cd  u0 {2,D} {3,S} {4,S}
-2 *2 Cdd u0 {1,D} {5,D}
-3    H   u0 {1,S}
-4    H   u0 {1,S}
-5    Od  u0 {2,D}
+1 *1 Cd        u0 {2,D} {3,S} {4,S}
+2 *2 Cdd       u0 {1,D} {5,D}
+3    H         u0 {1,S}
+4    H         u0 {1,S}
+5    [O2d,S2d] u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 3,
+    label = "CCO_HNd",
+    group = 
+"""
+1 *1 Cd        u0 {2,D} {3,S} {4,S}
+2 *2 Cdd       u0 {1,D} {5,D}
+3    H         u0 {1,S}
+4    [Cs,O,S]  u0 {1,S}
+5    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 4,
-    label = "CCO_HNd",
+    label = "CCO_HDe",
     group = 
 """
-1 *1 Cd     u0 {2,D} {3,S} {4,S}
-2 *2 Cdd    u0 {1,D} {5,D}
-3    H      u0 {1,S}
-4    [Cs,O] u0 {1,S}
-5    Od     u0 {2,D}
+1 *1 Cd               u0 {2,D} {3,S} {4,S}
+2 *2 Cdd              u0 {1,D} {5,D}
+3    H                u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [O2d,S2d]        u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 5,
-    label = "CCO_HDe",
+    label = "CCO_Nd2",
     group = 
 """
-1 *1 Cd            u0 {2,D} {3,S} {4,S}
-2 *2 Cdd           u0 {1,D} {5,D}
-3    H             u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    Od            u0 {2,D}
+1 *1 Cd        u0 {2,D} {3,S} {4,S}
+2 *2 Cdd       u0 {1,D} {5,D}
+3    [Cs,O,S]  u0 {1,S}
+4    [Cs,O,S]  u0 {1,S}
+5    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 6,
-    label = "CCO_Nd2",
+    label = "CCO_NdDe",
     group = 
 """
-1 *1 Cd     u0 {2,D} {3,S} {4,S}
-2 *2 Cdd    u0 {1,D} {5,D}
-3    [Cs,O] u0 {1,S}
-4    [Cs,O] u0 {1,S}
-5    Od     u0 {2,D}
+1 *1 Cd               u0 {2,D} {3,S} {4,S}
+2 *2 Cdd              u0 {1,D} {5,D}
+3    [Cs,O,S]         u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [O2d,S2d]        u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 7,
-    label = "CCO_NdDe",
+    label = "CCO_De2",
     group = 
 """
-1 *1 Cd            u0 {2,D} {3,S} {4,S}
-2 *2 Cdd           u0 {1,D} {5,D}
-3    [Cs,O]        u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    Od            u0 {2,D}
+1 *1 Cd               u0 {2,D} {3,S} {4,S}
+2 *2 Cdd              u0 {1,D} {5,D}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [O2d,S2d]        u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 8,
-    label = "CCO_De2",
+    label = "mb_CCO",
     group = 
 """
-1 *1 Cd            u0 {2,D} {3,S} {4,S}
-2 *2 Cdd           u0 {1,D} {5,D}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    Od            u0 {2,D}
+1 *3 Cd        u0 {2,D}
+2 *4 Cdd       u0 {1,D} {3,D}
+3    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 9,
-    label = "mb_CCO",
+    label = "mb_CCO_2H",
     group = 
 """
-1 *3 Cd  u0 {2,D}
-2 *4 Cdd u0 {1,D} {3,D}
-3    Od  u0 {2,D}
+1 *3 Cd        u0 {2,D} {3,S} {4,S}
+2 *4 Cdd       u0 {1,D} {5,D}
+3    H         u0 {1,S}
+4    H         u0 {1,S}
+5    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 10,
-    label = "mb_CCO_2H",
+    label = "mb_CCO_HNd",
     group = 
 """
-1 *3 Cd  u0 {2,D} {3,S} {4,S}
-2 *4 Cdd u0 {1,D} {5,D}
-3    H   u0 {1,S}
-4    H   u0 {1,S}
-5    Od  u0 {2,D}
+1 *3 Cd        u0 {2,D} {3,S} {4,S}
+2 *4 Cdd       u0 {1,D} {5,D}
+3    H         u0 {1,S}
+4    [Cs,O,S]  u0 {1,S}
+5    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 11,
-    label = "mb_CCO_HNd",
+    label = "mb_CCO_HDe",
     group = 
 """
-1 *3 Cd     u0 {2,D} {3,S} {4,S}
-2 *4 Cdd    u0 {1,D} {5,D}
-3    H      u0 {1,S}
-4    [Cs,O] u0 {1,S}
-5    Od     u0 {2,D}
+1 *3 Cd               u0 {2,D} {3,S} {4,S}
+2 *4 Cdd              u0 {1,D} {5,D}
+3    H                u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [O2d,S2d]        u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 12,
-    label = "mb_CCO_HDe",
+    label = "mb_CCO_Nd2",
     group = 
 """
-1 *3 Cd            u0 {2,D} {3,S} {4,S}
-2 *4 Cdd           u0 {1,D} {5,D}
-3    H             u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    Od            u0 {2,D}
+1 *3 Cd        u0 {2,D} {3,S} {4,S}
+2 *4 Cdd       u0 {1,D} {5,D}
+3    [Cs,O,S]  u0 {1,S}
+4    [Cs,O,S]  u0 {1,S}
+5    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 13,
-    label = "mb_CCO_Nd2",
+    label = "mb_CCO_NdDe",
     group = 
 """
-1 *3 Cd     u0 {2,D} {3,S} {4,S}
-2 *4 Cdd    u0 {1,D} {5,D}
-3    [Cs,O] u0 {1,S}
-4    [Cs,O] u0 {1,S}
-5    Od     u0 {2,D}
+1 *3 Cd               u0 {2,D} {3,S} {4,S}
+2 *4 Cdd              u0 {1,D} {5,D}
+3    [Cs,O,S]         u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [O2d,S2d]        u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 14,
-    label = "mb_CCO_NdDe",
+    label = "mb_CCO_De2",
     group = 
 """
-1 *3 Cd            u0 {2,D} {3,S} {4,S}
-2 *4 Cdd           u0 {1,D} {5,D}
-3    [Cs,O]        u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    Od            u0 {2,D}
+1 *3 Cd               u0 {2,D} {3,S} {4,S}
+2 *4 Cdd              u0 {1,D} {5,D}
+3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+5    [O2d,S2d]        u0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 15,
-    label = "mb_CCO_De2",
+    label = "mb_COC",
     group = 
 """
-1 *3 Cd            u0 {2,D} {3,S} {4,S}
-2 *4 Cdd           u0 {1,D} {5,D}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
-5    Od            u0 {2,D}
+1 *3 Cdd       u0 {2,D} {3,D}
+2 *4 Cd        u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 16,
-    label = "mb_COC",
+    label = "mb_COC_2H",
     group = 
 """
-1 *3 Cdd u0 {2,D} {3,D}
-2 *4 Cd  u0 {1,D}
-3    Od  u0 {1,D}
+1 *3 Cdd       u0 {2,D} {5,D}
+2 *4 Cd        u0 {1,D} {3,S} {4,S}
+3    H         u0 {2,S}
+4    H         u0 {2,S}
+5    [O2d,S2d] u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 17,
-    label = "mb_COC_2H",
+    label = "mb_COC_HNd",
     group = 
 """
-1 *3 Cdd u0 {2,D} {5,D}
-2 *4 Cd  u0 {1,D} {3,S} {4,S}
-3    H   u0 {2,S}
-4    H   u0 {2,S}
-5    Od  u0 {1,D}
+1 *3 Cdd       u0 {2,D} {5,D}
+2 *4 Cd        u0 {1,D} {3,S} {4,S}
+3    H         u0 {2,S}
+4    [Cs,O,S]  u0 {2,S}
+5    [O2d,S2d] u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 18,
-    label = "mb_COC_HNd",
+    label = "mb_COC_HDe",
     group = 
 """
-1 *3 Cdd    u0 {2,D} {5,D}
-2 *4 Cd     u0 {1,D} {3,S} {4,S}
-3    H      u0 {2,S}
-4    [Cs,O] u0 {2,S}
-5    Od     u0 {1,D}
+1 *3 Cdd              u0 {2,D} {5,D}
+2 *4 Cd               u0 {1,D} {3,S} {4,S}
+3    H                u0 {2,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+5    [O2d,S2d]        u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 19,
-    label = "mb_COC_HDe",
+    label = "mb_COC_Nd2",
     group = 
 """
-1 *3 Cdd           u0 {2,D} {5,D}
-2 *4 Cd            u0 {1,D} {3,S} {4,S}
-3    H             u0 {2,S}
-4    [Cd,Ct,Cb,CO] u0 {2,S}
-5    Od            u0 {1,D}
+1 *3 Cdd       u0 {2,D} {5,D}
+2 *4 Cd        u0 {1,D} {3,S} {4,S}
+3    [Cs,O,S]  u0 {2,S}
+4    [Cs,O,S]  u0 {2,S}
+5    [O2d,S2d] u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 20,
-    label = "mb_COC_Nd2",
+    label = "mb_COC_NdDe",
     group = 
 """
-1 *3 Cdd    u0 {2,D} {5,D}
-2 *4 Cd     u0 {1,D} {3,S} {4,S}
-3    [Cs,O] u0 {2,S}
-4    [Cs,O] u0 {2,S}
-5    Od     u0 {1,D}
+1 *3 Cdd              u0 {2,D} {5,D}
+2 *4 Cd               u0 {1,D} {3,S} {4,S}
+3    [Cs,O,S]         u0 {2,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+5    [O2d,S2d]        u0 {1,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 21,
-    label = "mb_COC_NdDe",
-    group = 
-"""
-1 *3 Cdd           u0 {2,D} {5,D}
-2 *4 Cd            u0 {1,D} {3,S} {4,S}
-3    [Cs,O]        u0 {2,S}
-4    [Cd,Ct,Cb,CO] u0 {2,S}
-5    Od            u0 {1,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 22,
     label = "mb_COC_De2",
     group = 
 """
-1 *3 Cdd           u0 {2,D} {5,D}
-2 *4 Cd            u0 {1,D} {3,S} {4,S}
-3    [Cd,Ct,Cb,CO] u0 {2,S}
-4    [Cd,Ct,Cb,CO] u0 {2,S}
-5    Od            u0 {1,D}
+1 *3 Cdd              u0 {2,D} {5,D}
+2 *4 Cd               u0 {1,D} {3,S} {4,S}
+3    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+4    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+5    [O2d,S2d]        u0 {1,D}
 """,
     kinetics = None,
 )

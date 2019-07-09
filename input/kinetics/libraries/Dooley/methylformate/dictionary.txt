@@ -472,8 +472,8 @@ multiplicity 2
 4 H u0 p0 c0 {1,S}
 
 C
-multiplicity 5
-1 C u4 p0 c0
+multiplicity 3
+1 C u2 p1 c0
 
 C2H4O2H
 multiplicity 2
@@ -804,8 +804,8 @@ multiplicity 2
 9 H u0 p0 c0 {3,S}
 
 CH
-multiplicity 4
-1 C u3 p0 c0 {2,S}
+multiplicity 2
+1 C u1 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 
 HOCH2O2

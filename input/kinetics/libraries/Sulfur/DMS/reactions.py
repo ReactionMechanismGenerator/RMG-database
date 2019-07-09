@@ -44,6 +44,7 @@ entry(
     index = 5,
     label = "CH3SSCH2J <=> CH3SCH2SJ",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.13e+11, 's^-1'), n=0.22, Ea=(31.93, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -51,6 +52,7 @@ entry(
     index = 6,
     label = "CH2S + CH3SJ <=> CH3SSCH2J",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (25500, 'cm^3/(mol*s)'),
         n = 2.77,
@@ -63,6 +65,7 @@ entry(
     index = 7,
     label = "CH2S + CH3SJ <=> CH3SCH2SJ",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (10900, 'cm^3/(mol*s)'),
         n = 2.79,
@@ -75,6 +78,7 @@ entry(
     index = 8,
     label = "CH3CH2SSCH2J <=> CH3CH2SCH2SJ",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.13e+11, 's^-1'), n=0.22, Ea=(31.93, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -82,6 +86,7 @@ entry(
     index = 9,
     label = "CH2S + CH3CH2SJ <=> CH3CH2SSCH2J",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(
         A = (25500, 'cm^3/(mol*s)'),
         n = 2.77,
@@ -106,6 +111,7 @@ entry(
     index = 11,
     label = "CS2H2(2) + CH3J <=> CH3SSCH2J",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3120, 'cm^3/(mol*s)'), n=2.72, Ea=(7.28, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -113,6 +119,7 @@ entry(
     index = 12,
     label = "CS2H2(2) + CH3J <=> CH3SCH2SJ",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(6180, 'cm^3/(mol*s)'), n=2.57, Ea=(-1.16, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -120,6 +127,7 @@ entry(
     index = 13,
     label = "CS2H2(2) + C2H5J <=> CH3CH2SSCH2J",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3120, 'cm^3/(mol*s)'), n=2.72, Ea=(7.28, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -127,6 +135,7 @@ entry(
     index = 14,
     label = "CS2H2(2) + C2H5J <=> CH3CH2SCH2SJ",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(6180, 'cm^3/(mol*s)'), n=2.57, Ea=(-1.16, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -134,6 +143,7 @@ entry(
     index = 15,
     label = "CS2H2JJ <=> CS2H2(2)",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.08e+10, 's^-1'), n=1, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -141,6 +151,7 @@ entry(
     index = 16,
     label = "CS2H(2)J <=> CS2H(1)J",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.08e+10, 's^-1'), n=1, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -148,6 +159,7 @@ entry(
     index = 17,
     label = "CS2H2JJ <=> HJ + CS2H(1)J",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(3.19e+09, 's^-1'), n=1.55, Ea=(36.55, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -155,6 +167,7 @@ entry(
     index = 18,
     label = "CS2H(1)J <=> CS2 + HJ",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.52e+08, 's^-1'), n=1.74, Ea=(30.56, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -197,6 +210,7 @@ entry(
     index = 24,
     label = "C2H3S2(1)J <=> C2H3S2(2)J",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e-21, 's^-1'), n=9.96, Ea=(19.14, 'kcal/mol'), T0=(1, 'K')),
 )
 
@@ -204,6 +218,7 @@ entry(
     index = 25,
     label = "C2H3S2(2)J <=> CS2 + CH3J",
     degeneracy = 1,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(2.22e+12, 's^-1'), n=0.67, Ea=(10.64, 'kcal/mol'), T0=(1, 'K')),
 )
 

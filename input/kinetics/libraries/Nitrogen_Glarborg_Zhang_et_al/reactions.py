@@ -6,7 +6,7 @@ shortDesc = u""
 longDesc = u"""
 Kuiwen Zhang, Lidong Zhang, Mingfeng Xie, Lili Ye, Feng Zhang, Peter Glarborg, Fei Qi
 An experimental and kinetic modeling study of premixed nitroethane flames at low pressure
-Proceedings of the Combustion Institute 34 (2013) 617–624
+Proceedings of the Combustion Institute 34 (2013) 617-624
 """
 entry(
     index = 1,
@@ -265,12 +265,12 @@ entry(
     kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(994, 'cal/mol'), T0=(1, 'K')),
 )
 
-entry(
-    index = 37,
-    label = "CHCHNO <=> C2H2 + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(890, 'cal/mol'), T0=(1, 'K')),
-)
+# entry(
+#     index = 37,
+#     label = "CHCHNO <=> C2H2 + NO",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(1e+14, 's^-1'), n=0, Ea=(890, 'cal/mol'), T0=(1, 'K')),
+# )
 
 entry(
     index = 38,
@@ -3440,7 +3440,7 @@ entry(
 
 entry(
     index = 470,
-    label = "HNOH + NH2 <=> H2NN + H2O",
+    label = "HNOH + NH2 <=> H2NN(S) + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (8.8e+16, 'cm^3/(mol*s)'),

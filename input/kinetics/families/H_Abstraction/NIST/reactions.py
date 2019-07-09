@@ -38348,7 +38348,7 @@ entry(
     label = "C6H12 + HO2 <=> H2O2 + C6H11",
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (0.0103, 'm^3/(mol*s)', '+|-', 0.00047),
+        A = (2.04e+07, 'm^3/(mol*s)', '*|/', 2.95),
         n = 0,
         Ea = (74.3, 'kJ/mol', '+|-', 4.9),
         T0 = (1, 'K'),
@@ -38386,7 +38386,7 @@ entry(
     label = "C6H12 + HO2 <=> H2O2 + C6H11",
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (0.112, 'm^3/(mol*s)'),
+        A = (1.58e+11, 'm^3/(mol*s)'),
         n = 2.5,
         Ea = (59.199, 'kJ/mol'),
         T0 = (1, 'K'),

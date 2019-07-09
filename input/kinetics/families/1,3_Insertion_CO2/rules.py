@@ -13,7 +13,7 @@ presumably matching the top level node.
 """
 entry(
     index = 571,
-    label = "CO2;RR'",
+    label = "CO2_CS2;RR'",
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
         n = 2,
@@ -24,80 +24,5 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-)
-
-entry(
-    index = 572,
-    label = "CO2_Cdd;H2",
-    kinetics = ArrheniusEP(
-        A = (1.51e+09, 'cm^3/(mol*s)'),
-        n = 1.23,
-        alpha = 0,
-        E0 = (73.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-)
-
-entry(
-    index = 573,
-    label = "CO2_Cdd;C_methane",
-    kinetics = ArrheniusEP(
-        A = (4530, 'cm^3/(mol*s)'),
-        n = 2.83,
-        alpha = 0,
-        E0 = (79.2, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-)
-
-entry(
-    index = 574,
-    label = "CO2_Cdd;C_pri/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (10900, 'cm^3/(mol*s)'),
-        n = 2.56,
-        alpha = 0,
-        E0 = (76.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-)
-
-entry(
-    index = 575,
-    label = "CO2_Cdd;C/H2/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (106000, 'cm^3/(mol*s)'),
-        n = 2.13,
-        alpha = 0,
-        E0 = (77, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-)
-
-entry(
-    index = 576,
-    label = "CO2_Od;C_methyl_C_pri",
-    kinetics = ArrheniusEP(
-        A = (73, 'cm^3/(mol*s)'),
-        n = 3.13,
-        alpha = 0,
-        E0 = (118, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Aaron Vandeputte calculation for methylpropanate using BMK/CBSB7""",
 )
 

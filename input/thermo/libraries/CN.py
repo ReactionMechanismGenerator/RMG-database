@@ -12,7 +12,7 @@ Table 46. Entropy of Gas - Organic Compounds
 Contains data for compounds with only carbon and nitrogen
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C2N2",
     molecule = 
 """

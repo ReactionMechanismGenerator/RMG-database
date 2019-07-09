@@ -17,7 +17,7 @@ entry(
         Tmin = (723, 'K'),
         Tmax = (786, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Quick et al. [107]""",
     longDesc = 
 u"""
@@ -26,19 +26,5 @@ u"""
 C2H4 + C2H4 --> cyclobutane, absolute value measured directly using thermal excitation technique 
 and mass spectrometry. Pressure  0.40 - 1.73 bar.
 """,
-)
-
-entry(
-    index = 6000,
-    label = "db_2H;mb_OC",
-    kinetics = ArrheniusEP(
-        A = (2.33e+06, 'cm^3/(mol*s)', '*|/', 5),
-        n = 1.65,
-        alpha = 0,
-        E0 = (54.15, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
 )
 

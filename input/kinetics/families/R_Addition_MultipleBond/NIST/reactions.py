@@ -4333,7 +4333,7 @@ entry(
         Ea = (100.6, 'kJ/mol'),
         T0 = (1, 'K'),
         Tmin = (400, 'K'),
-        Tmax = (400, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = Article(
         authors = ["Hoyermann, K.", "Olzmann, M.", "Seeba, J.", "Viskolcz, B."],

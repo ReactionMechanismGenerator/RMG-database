@@ -4,9 +4,9 @@
 name = "Nitrogen_Glarborg_Lucassen_et_al"
 shortDesc = u""
 longDesc = u"""
-Arnas Lucassen, Kuiwen Zhang, Julia Warkentin, Kai Moshammer, Peter Glarborg, Paul Marshall, Katharina Kohse-Höinghaus
+Arnas Lucassen, Kuiwen Zhang, Julia Warkentin, Kai Moshammer, Peter Glarborg, Paul Marshall, Katharina Kohse-Hoinghaus
 Fuel-nitrogen conversion in the combustion of small amines using dimethylamine and ethylamine as biomass-related model fuels
-Combustion and Flame 159 (2012) 2254–2279
+Combustion and Flame 159 (2012) 2254-2279
 """
 entry(
     index = 1,

@@ -2809,7 +2809,7 @@ entry(
         E = 0.0,
         L = 0.0,
         A = 0.0,
-        V = 0.0,
+        V = 18.99,
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2828,7 +2828,7 @@ entry(
         E = 0.0,
         L = 0.0,
         A = 0.0,
-        V = 0.0,
+        V = 8.51,
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2847,7 +2847,7 @@ entry(
         E = 0.0,
         L = 0.0,
         A = 0.0,
-        V = 0.0,
+        V = 6.75,
     ),
     shortDesc = u"""""",
     longDesc = 

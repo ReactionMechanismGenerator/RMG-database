@@ -17,6 +17,7 @@ LIBRARYNAME      the libraryname of the RMG-Py format kinetics library
 import argparse
 import os
 from rmgpy.data.rmg import RMGDatabase
+from rmgpy.data.kinetics.library import LibraryReaction
 from rmgpy.chemkin import saveChemkinFile, saveSpeciesDictionary
 from rmgpy.rmg.model import Species
 from rmgpy import settings
@@ -42,7 +43,14 @@ if __name__ == '__main__':
     for index, entry in kineticLibrary.entries.iteritems():
         reaction = entry.item
         reaction.kinetics = entry.data
-        reactionList.append(reaction)
+	library_reaction = LibraryReaction(index=reaction.index,
+                     reactants=reaction.reactants,
+                     products=reaction.products,
+                     reversible=reaction.reversible,
+                     kinetics=reaction.kinetics,
+                     library=libraryName
+                     )
+        reactionList.append(library_reaction)
 
     speciesList = []
     index = 0
@@ -50,7 +58,7 @@ if __name__ == '__main__':
     for spec in speciesDict.values():
         index = index + 1
         species = Species(molecule = spec.molecule)
-        species.generateThermoData(database)
+        species.getThermoData()
         species.index = index
         speciesList.append(species)
 

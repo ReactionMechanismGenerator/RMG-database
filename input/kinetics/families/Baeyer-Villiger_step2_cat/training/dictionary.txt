@@ -1,0 +1,105 @@
+acetone_methyl_criegee
+1     C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  *6 O u0 p2 c0 {1,S} {3,S}
+3  *5 O u0 p2 c0 {2,S} {4,S}
+4  *1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5  *3 O u0 p2 c0 {4,S} {11,S}
+6  *2 C u0 p0 c0 {4,S} {12,S} {13,S} {14,S}
+7     C u0 p0 c0 {4,S} {15,S} {16,S} {17,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {1,S}
+10    H u0 p0 c0 {1,S}
+11 *4 H u0 p0 c0 {5,S}
+12    H u0 p0 c0 {6,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {7,S}
+17    H u0 p0 c0 {7,S}
+
+cyclohexanone_methyl_criegee
+1     C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  *6 O u0 p2 c0 {1,S} {3,S}
+3  *5 O u0 p2 c0 {2,S} {4,S}
+4  *1 C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+5  *3 O u0 p2 c0 {4,S} {14,S}
+6  *2 C u0 p0 c0 {4,S} {7,S} {15,S} {16,S}
+7     C u0 p0 c0 {6,S} {8,S} {17,S} {18,S}
+8     C u0 p0 c0 {7,S} {9,S} {19,S} {20,S}
+9     C u0 p0 c0 {8,S} {10,S} {21,S} {22,S}
+10    C u0 p0 c0 {4,S} {9,S} {23,S} {24,S}
+11    H u0 p0 c0 {1,S}
+12    H u0 p0 c0 {1,S}
+13    H u0 p0 c0 {1,S}
+14 *4 H u0 p0 c0 {5,S}
+15    H u0 p0 c0 {6,S}
+16    H u0 p0 c0 {6,S}
+17    H u0 p0 c0 {7,S}
+18    H u0 p0 c0 {7,S}
+19    H u0 p0 c0 {8,S}
+20    H u0 p0 c0 {8,S}
+21    H u0 p0 c0 {9,S}
+22    H u0 p0 c0 {9,S}
+23    H u0 p0 c0 {10,S}
+24    H u0 p0 c0 {10,S}
+
+acetic_acid1
+1     C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 *7  C u0 p0 c0 {1,S} {3,D} {4,S}
+3 *8  O u0 p2 c0 {2,D}
+4 *9  O u0 p2 c0 {2,S} {8,S}
+5     H u0 p0 c0 {1,S}
+6     H u0 p0 c0 {1,S}
+7     H u0 p0 c0 {1,S}
+8 *10 H u0 p0 c0 {4,S}
+
+acetic_acid2
+1    C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 *7 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 *9 O u0 p2 c0 {2,D}
+4 *8 O u0 p2 c0 {2,S} {8,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
+7    H u0 p0 c0 {1,S}
+8 *4 H u0 p0 c0 {4,S}
+
+methyl_acetate
+1  *2 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  *5 O u0 p2 c0 {1,S} {3,S}
+3  *1 C u0 p0 c0 {2,S} {4,D} {5,S}
+4  *3 O u0 p2 c0 {3,D}
+5     C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+6     H u0 p0 c0 {1,S}
+7     H u0 p0 c0 {1,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {5,S}
+10    H u0 p0 c0 {5,S}
+11    H u0 p0 c0 {5,S}
+
+caprolactone
+1  *1 C u0 p0 c0 {2,D} {3,S} {8,S}
+2  *3 O u0 p2 c0 {1,D}
+3  *5 O u0 p2 c0 {1,S} {4,S}
+4  *2 C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+5     C u0 p0 c0 {4,S} {6,S} {11,S} {12,S}
+6     C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}
+7     C u0 p0 c0 {6,S} {8,S} {15,S} {16,S}
+8     C u0 p0 c0 {1,S} {7,S} {17,S} {18,S}
+9     H u0 p0 c0 {4,S}
+10    H u0 p0 c0 {4,S}
+11    H u0 p0 c0 {5,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {6,S}
+14    H u0 p0 c0 {6,S}
+15    H u0 p0 c0 {7,S}
+16    H u0 p0 c0 {7,S}
+17    H u0 p0 c0 {8,S}
+18    H u0 p0 c0 {8,S}
+
+methanol
+1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *6  O u0 p2 c0 {1,S} {6,S}
+3     H u0 p0 c0 {1,S}
+4     H u0 p0 c0 {1,S}
+5     H u0 p0 c0 {1,S}
+6 *10 H u0 p0 c0 {2,S}

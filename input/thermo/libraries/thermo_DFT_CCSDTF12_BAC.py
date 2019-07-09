@@ -4,10 +4,10 @@
 name = "thermo_DFT_CCSDTF12_BAC"
 shortDesc = u""
 longDesc = u"""
-work done by B. Buesser using DFT and CCSDTF12 using or deriving bond additvity corrections
+Done by B. Buesser using DFT and CCSDTF12 using or deriving bond additvity corrections, unless otherwise noted
 """
 entry(
-    index = 3,
+    index = 0,
     label = "CH2(S)",
     molecule = 
 """
@@ -29,7 +29,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 4,
+    index = 1,
     label = "CH2(T)",
     molecule = 
 """
@@ -52,7 +52,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 5,
+    index = 2,
     label = "CH3",
     molecule = 
 """
@@ -76,7 +76,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 6,
+    index = 3,
     label = "CH4",
     molecule = 
 """
@@ -100,7 +100,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 7,
+    index = 4,
     label = "OH",
     molecule = 
 """
@@ -123,7 +123,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC ===
 )
 
 entry(
-    index = 8,
+    index = 5,
     label = "H2O",
     molecule = 
 """
@@ -145,7 +145,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 9,
+    index = 6,
     label = "CO",
     molecule = 
 """
@@ -166,7 +166,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 10,
+    index = 7,
     label = "HCO",
     molecule = 
 """
@@ -189,7 +189,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 11,
+    index = 8,
     label = "CH2O",
     molecule = 
 """
@@ -212,14 +212,14 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 12,
+    index = 9,
     label = "HCOH(S)",
     molecule = 
 """
-1 C u0 p1 c0 {2,S} {3,S}
-2 O u0 p2 c0 {1,S} {4,S}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {2,S}
+1 O u0 p1 c+1 {2,D} {4,S}
+2 C u0 p1 c-1 {1,D} {3,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -235,7 +235,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 14,
+    index = 10,
     label = "CH3O",
     molecule = 
 """
@@ -260,7 +260,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 15,
+    index = 11,
     label = "CH2OH",
     molecule = 
 """
@@ -285,7 +285,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 16,
+    index = 12,
     label = "CH3OH",
     molecule = 
 """
@@ -310,7 +310,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 18,
+    index = 13,
     label = "HO2",
     molecule = 
 """
@@ -333,7 +333,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 19,
+    index = 14,
     label = "HOOH",
     molecule = 
 """
@@ -356,7 +356,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 20,
+    index = 15,
     label = "CO2",
     molecule = 
 """
@@ -378,7 +378,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 21,
+    index = 16,
     label = "HOCO",
     molecule = 
 """
@@ -402,7 +402,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 22,
+    index = 17,
     label = "formyloxy",
     molecule = 
 """
@@ -426,7 +426,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 23,
+    index = 18,
     label = "formic_acid",
     molecule = 
 """
@@ -450,7 +450,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 24,
+    index = 19,
     label = "CH3OO",
     molecule = 
 """
@@ -476,7 +476,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 26,
+    index = 20,
     label = "CH3OOH",
     molecule = 
 """
@@ -502,7 +502,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 35,
+    index = 21,
     label = "HC2",
     molecule = 
 """
@@ -525,7 +525,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 36,
+    index = 22,
     label = "C2H2",
     molecule = 
 """
@@ -548,7 +548,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 38,
+    index = 23,
     label = "H2CC(S)",
     molecule = 
 """
@@ -571,7 +571,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 40,
+    index = 24,
     label = "C2H3",
     molecule = 
 """
@@ -596,7 +596,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 41,
+    index = 25,
     label = "CCH3",
     molecule = 
 """
@@ -621,7 +621,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 42,
+    index = 26,
     label = "C2H4",
     molecule = 
 """
@@ -646,7 +646,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 44,
+    index = 27,
     label = "CHCH3(S)",
     molecule = 
 """
@@ -671,7 +671,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 46,
+    index = 28,
     label = "C2H5",
     molecule = 
 """
@@ -698,7 +698,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 47,
+    index = 29,
     label = "C2H6",
     molecule = 
 """
@@ -725,7 +725,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 49,
+    index = 30,
     label = "C2O(T)",
     molecule = 
 """
@@ -748,7 +748,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 50,
+    index = 31,
     label = "HCCO",
     molecule = 
 """
@@ -772,7 +772,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 220,
+    index = 32,
     label = "HCN",
     molecule = 
 """
@@ -794,7 +794,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 221,
+    index = 33,
     label = "HNC",
     molecule = 
 """
@@ -816,7 +816,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 222,
+    index = 34,
     label = "HNCO",
     molecule = 
 """
@@ -839,7 +839,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 223,
+    index = 35,
     label = "HOCN",
     molecule = 
 """
@@ -862,7 +862,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 224,
+    index = 36,
     label = "HCNO",
     molecule = 
 """
@@ -885,7 +885,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 225,
+    index = 37,
     label = "HONC",
     molecule = 
 """
@@ -908,7 +908,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 226,
+    index = 38,
     label = "HNCNJ",
     molecule = 
 """
@@ -932,7 +932,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 228,
+    index = 39,
     label = "CH_NO2_3",
     molecule = 
 """
@@ -962,7 +962,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 229,
+    index = 40,
     label = "CH2NJ",
     molecule = 
 """
@@ -986,7 +986,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 231,
+    index = 41,
     label = "HCNHJ_cis",
     molecule = 
 """
@@ -1010,7 +1010,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 233,
+    index = 42,
     label = "CH2NOJ",
     molecule = 
 """
@@ -1035,7 +1035,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 )
 
 entry(
-    index = 235,
+    index = 43,
     label = "CH2NO2J",
     molecule = 
 """
@@ -1061,7 +1061,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 )
 
 entry(
-    index = 238,
+    index = 44,
     label = "CH2NN",
     molecule = 
 """
@@ -1085,7 +1085,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 243,
+    index = 45,
     label = "CH2_NO2_2",
     molecule = 
 """
@@ -1113,7 +1113,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 244,
+    index = 46,
     label = "CH3NJJ",
     molecule = 
 """
@@ -1138,7 +1138,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 245,
+    index = 47,
     label = "CH3NO",
     molecule = 
 """
@@ -1163,7 +1163,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 248,
+    index = 48,
     label = "HOCHNH",
     molecule = 
 """
@@ -1188,7 +1188,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 249,
+    index = 49,
     label = "CH3NO2",
     molecule = 
 """
@@ -1214,7 +1214,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 250,
+    index = 50,
     label = "CH3ONO",
     molecule = 
 """
@@ -1240,7 +1240,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 251,
+    index = 51,
     label = "CH3ONO2",
     molecule = 
 """
@@ -1267,7 +1267,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 252,
+    index = 52,
     label = "CH3NNJ",
     molecule = 
 """
@@ -1293,7 +1293,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 253,
+    index = 53,
     label = "CH2NNHJ",
     molecule = 
 """
@@ -1319,7 +1319,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 254,
+    index = 54,
     label = "CH3NHJ",
     molecule = 
 """
@@ -1345,7 +1345,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 255,
+    index = 55,
     label = "CH2NH2J",
     molecule = 
 """
@@ -1371,7 +1371,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 259,
+    index = 56,
     label = "CH3NH2",
     molecule = 
 """
@@ -1397,7 +1397,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 263,
+    index = 57,
     label = "CH3NHNH2",
     molecule = 
 """
@@ -1425,7 +1425,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 264,
+    index = 58,
     label = "CNJ",
     molecule = 
 """
@@ -1447,7 +1447,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 265,
+    index = 59,
     label = "NCOJ",
     molecule = 
 """
@@ -1470,7 +1470,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 266,
+    index = 60,
     label = "CNNJJ",
     molecule = 
 """
@@ -1493,7 +1493,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 267,
+    index = 61,
     label = "NCNJJ",
     molecule = 
 """
@@ -1516,7 +1516,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 268,
+    index = 62,
     label = "C_NO2_4",
     molecule = 
 """
@@ -1548,7 +1548,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 269,
+    index = 63,
     label = "HCCNJJ",
     molecule = 
 """
@@ -1572,7 +1572,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 272,
+    index = 64,
     label = "CH2CNJ",
     molecule = 
 """
@@ -1597,7 +1597,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 273,
+    index = 65,
     label = "CH2NCJ",
     molecule = 
 """
@@ -1622,7 +1622,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 276,
+    index = 66,
     label = "CH3CN",
     molecule = 
 """
@@ -1647,7 +1647,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 277,
+    index = 67,
     label = "CH3NC",
     molecule = 
 """
@@ -1672,7 +1672,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 284,
+    index = 68,
     label = "C2H5NO2",
     molecule = 
 """
@@ -1701,7 +1701,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 286,
+    index = 69,
     label = "C2H5NNN",
     molecule = 
 """
@@ -1730,7 +1730,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 290,
+    index = 70,
     label = "CH3_2_NNO2",
     molecule = 
 """
@@ -1761,7 +1761,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, one rigid r
 )
 
 entry(
-    index = 291,
+    index = 71,
     label = "CH3NHCH3",
     molecule = 
 """
@@ -1790,7 +1790,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 295,
+    index = 72,
     label = "N_CH3_2_NH2",
     molecule = 
 """
@@ -1821,7 +1821,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 297,
+    index = 73,
     label = "NCCN",
     molecule = 
 """
@@ -1844,7 +1844,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 298,
+    index = 74,
     label = "NO2CCNO2",
     molecule = 
 """
@@ -1871,7 +1871,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 301,
+    index = 75,
     label = "HCCCN",
     molecule = 
 """
@@ -1895,7 +1895,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 314,
+    index = 76,
     label = "C3H7CN",
     molecule = 
 """
@@ -1926,7 +1926,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 316,
+    index = 77,
     label = "C4H9NO2",
     molecule = 
 """
@@ -1961,7 +1961,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 318,
+    index = 78,
     label = "HONO",
     molecule = 
 """
@@ -1984,7 +1984,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 319,
+    index = 79,
     label = "NO2OH",
     molecule = 
 """
@@ -2008,7 +2008,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 320,
+    index = 80,
     label = "NHJJ",
     molecule = 
 """
@@ -2030,7 +2030,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 321,
+    index = 81,
     label = "NH2J",
     molecule = 
 """
@@ -2053,7 +2053,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 322,
+    index = 82,
     label = "NH2OJ",
     molecule = 
 """
@@ -2077,7 +2077,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 323,
+    index = 83,
     label = "NH3",
     molecule = 
 """
@@ -2100,7 +2100,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 324,
+    index = 84,
     label = "NH2OH",
     molecule = 
 """
@@ -2124,7 +2124,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 325,
+    index = 85,
     label = "NOJ",
     molecule = 
 """
@@ -2146,7 +2146,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 326,
+    index = 86,
     label = "NO2J",
     molecule = 
 """
@@ -2169,7 +2169,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 327,
+    index = 87,
     label = "NO3J",
     molecule = 
 """
@@ -2193,7 +2193,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 328,
+    index = 88,
     label = "N2",
     molecule = 
 """
@@ -2214,7 +2214,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 329,
+    index = 89,
     label = "NNHJ",
     molecule = 
 """
@@ -2237,7 +2237,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 330,
+    index = 90,
     label = "HNNH",
     molecule = 
 """
@@ -2260,7 +2260,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 331,
+    index = 91,
     label = "NH2NO2",
     molecule = 
 """
@@ -2285,7 +2285,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 )
 
 entry(
-    index = 332,
+    index = 92,
     label = "NH2NHJ",
     molecule = 
 """
@@ -2310,7 +2310,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, rigid scan
 )
 
 entry(
-    index = 333,
+    index = 93,
     label = "NH2NH2",
     molecule = 
 """
@@ -2335,7 +2335,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 334,
+    index = 94,
     label = "N2O",
     molecule = 
 """
@@ -2357,7 +2357,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 335,
+    index = 95,
     label = "NO2NO",
     molecule = 
 """
@@ -2381,7 +2381,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 336,
+    index = 96,
     label = "NO2NO2",
     molecule = 
 """
@@ -2406,7 +2406,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 337,
+    index = 97,
     label = "NO2ONO2",
     molecule = 
 """
@@ -2432,7 +2432,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 338,
+    index = 98,
     label = "NNNJ",
     molecule = 
 """
@@ -2455,7 +2455,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 339,
+    index = 99,
     label = "HNNN",
     molecule = 
 """
@@ -2478,7 +2478,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 340,
+    index = 100,
     label = "NO2ONO",
     molecule = 
 """
@@ -2503,8 +2503,8 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 343,
-    label = "NNH2",
+    index = 101,
+    label = "NNH2(S)",
     molecule = 
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -2526,7 +2526,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 345,
+    index = 102,
     label = "HNOHJ",
     molecule = 
 """
@@ -2550,7 +2550,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 346,
+    index = 103,
     label = "NOHJJ",
     molecule = 
 """
@@ -2573,7 +2573,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 347,
+    index = 104,
     label = "HNO",
     molecule = 
 """
@@ -2595,7 +2595,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 348,
+    index = 105,
     label = "N_CH3_3",
     molecule = 
 """
@@ -2627,7 +2627,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 352,
+    index = 106,
     label = "CNOJ",
     molecule = 
 """
@@ -2650,7 +2650,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 353,
+    index = 107,
     label = "CH2NH",
     molecule = 
 """
@@ -2674,7 +2674,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 354,
+    index = 108,
     label = "ONNO_cis",
     molecule = 
 """
@@ -2697,7 +2697,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 355,
+    index = 109,
     label = "ONNOJJ_cis",
     molecule = 
 """
@@ -2721,7 +2721,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 )
 
 entry(
-    index = 356,
+    index = 110,
     label = "HCNN",
     molecule = 
 """
@@ -2745,7 +2745,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 357,
+    index = 111,
     label = "ONOONO",
     molecule = 
 """
@@ -2770,7 +2770,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no O-O roto
 )
 
 entry(
-    index = 358,
+    index = 112,
     label = "HNO2",
     molecule = 
 """
@@ -2793,7 +2793,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 359,
+    index = 113,
     label = "HNO2JJ",
     molecule = 
 """
@@ -2817,7 +2817,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, MOLPRO NoSy
 )
 
 entry(
-    index = 360,
+    index = 114,
     label = "ONOOH",
     molecule = 
 """
@@ -2841,7 +2841,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 361,
+    index = 115,
     label = "ONONO",
     molecule = 
 """
@@ -2865,7 +2865,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 363,
+    index = 116,
     label = "NO2OOH",
     molecule = 
 """
@@ -2890,7 +2890,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 364,
+    index = 117,
     label = "ONOOJ",
     molecule = 
 """
@@ -2914,7 +2914,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geomet
 )
 
 entry(
-    index = 365,
+    index = 118,
     label = "NO2OOJ",
     molecule = 
 """
@@ -2939,7 +2939,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geomet
 )
 
 entry(
-    index = 368,
+    index = 119,
     label = "HNOO",
     molecule = 
 """
@@ -2963,7 +2963,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 369,
+    index = 120,
     label = "NH2OOH",
     molecule = 
 """
@@ -2988,7 +2988,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, NH2 rotor r
 )
 
 entry(
-    index = 370,
+    index = 121,
     label = "CH3N(S)",
     molecule = 
 """
@@ -3012,7 +3012,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 371,
+    index = 122,
     label = "NH2OOJ",
     molecule = 
 """
@@ -3037,7 +3037,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 372,
+    index = 123,
     label = "NCNO",
     molecule = 
 """
@@ -3060,7 +3060,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 )
 
 entry(
-    index = 373,
+    index = 124,
     label = "HONNOH",
     molecule = 
 """
@@ -3085,7 +3085,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 374,
+    index = 125,
     label = "HNOHOH",
     molecule = 
 """
@@ -3110,7 +3110,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 376,
+    index = 126,
     label = "HNC(T)",
     molecule = 
 """
@@ -3133,7 +3133,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 377,
+    index = 127,
     label = "HNCJJ(S",
     molecule = 
 """
@@ -3155,7 +3155,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 378,
+    index = 128,
     label = "HCNOJJ",
     molecule = 
 """
@@ -3179,7 +3179,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 383,
+    index = 129,
     label = "NCCOJ",
     molecule = 
 """
@@ -3203,7 +3203,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 386,
+    index = 130,
     label = "HNNOH",
     molecule = 
 """
@@ -3227,7 +3227,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 389,
+    index = 131,
     label = "ONOONO2",
     molecule = 
 """
@@ -3253,7 +3253,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 392,
+    index = 132,
     label = "NO2OONO2",
     molecule = 
 """
@@ -3280,7 +3280,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 395,
+    index = 133,
     label = "CH3NNN",
     molecule = 
 """
@@ -3306,7 +3306,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 398,
+    index = 134,
     label = "HNNNH2",
     molecule = 
 """
@@ -3331,7 +3331,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 )
 
 entry(
-    index = 400,
+    index = 135,
     label = "NH2NHOJ",
     molecule = 
 """
@@ -3357,7 +3357,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 401,
+    index = 136,
     label = "CH3C_NO2_3",
     molecule = 
 """
@@ -3390,7 +3390,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 402,
+    index = 137,
     label = "CH3NONOCH3",
     molecule = 
 """
@@ -3421,7 +3421,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, not N=N rot
 )
 
 entry(
-    index = 403,
+    index = 138,
     label = "CH_NO2_2J",
     molecule = 
 """
@@ -3449,7 +3449,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 431,
+    index = 139,
     label = "NH2NO",
     molecule = 
 """
@@ -3473,7 +3473,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 432,
+    index = 140,
     label = "NNOJJ",
     molecule = 
 """
@@ -3496,25 +3496,267 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 )
 
 entry(
-    index = 434,
-    label = "NNH2(S)",
-    molecule = 
+    index = 141,
+    label = "cyanoisopropyl",
+    molecule =
 """
-1 N u0 p0 c+2 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 N u0 p3 c-2 {1,S}
+multiplicity 2
+1  N u0 p1 c0 {5,T}
+2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {3,S} {5,S}
+5  C u0 p0 c0 {1,T} {4,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.61,9.45,10.46,11.48,13.24,14.63,16.86],'cal/(mol*K)'),
-        H298 = (71.66,'kcal/mol'),
-        S298 = (52.09,'cal/(mol*K)'),
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59561,0.0433769,-0.000150104,3.758e-07,-3.18699e-10,21337.9,10.6486], Tmin=(10,'K'), Tmax=(420.268,'K')),
+            NASAPolynomial(coeffs=[1.30227,0.0361352,-2.05055e-05,5.63964e-09,-6.03973e-13,21787.4,22.7788], Tmin=(420.268,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (177.402,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
-level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Optimization:     wb97xd/6-311++g(d,p) (using a fine grid)
+Frequencies:      wb97xd/6-311++g(d,p)
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      b3lyp/6-311+g(d,p)
+
+Bond corrections: {'C#N': 1, 'C-C': 3, 'C-H': 6}
+
+1D rotors:
+pivots: [2, 4], dihedral: [6, 2, 4, 3], rotor symmetry: 3, max scan energy: 2.27 kJ/mol
+pivots: [3, 4], dihedral: [9, 3, 4, 2], rotor symmetry: 3, max scan energy: 2.27 kJ/mol
+
+External symmetry: 2, optical isomers: 2
+
+Geometry:
+N       2.24465000    0.00288700   -0.00395200
+C      -1.06286400    1.28810400    0.08614100
+C      -1.06016300   -1.28990600   -0.08427100
+C      -0.30986700   -0.00004000   -0.00017600
+C       1.08027800    0.00155300   -0.00223100
+H      -0.40232600    2.15369500    0.04243700
+H      -1.79151100    1.35912100   -0.72933900
+H      -1.63021700    1.33369300    1.02401500
+H      -0.39751600   -2.15398100   -0.04252600
+H      -1.78622800   -1.36259100    0.73336200
+H      -1.63018200   -1.33679700   -1.02046300
 """,
 )
 
+entry(
+    index = 142,
+    label = "cyanoisopropylOOH",
+    molecule =
+"""
+1  O u0 p2 c0 {2,S} {4,S}
+2  O u0 p2 c0 {1,S} {14,S}
+3  N u0 p1 c0 {7,T}
+4  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+6  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+7  C u0 p0 c0 {3,T} {4,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69904,0.0241458,0.000242618,-8.48082e-07,8.45693e-10,-7791.09,11.5584],Tmin=(10,'K'),Tmax=(357.267,'K'),),
+            NASAPolynomial(coeffs=[6.03838,0.0431102,-2.65938e-05,8.0486e-09,-9.47215e-13,-8246.43,-1.35299],Tmin=(357.267,'K'),Tmax=(3000,'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-64.7396, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (320.107, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Optimization:     wb97xd/6-311++g(d,p) (using a fine grid)
+Frequencies:      wb97xd/6-311++g(d,p)
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      b3lyp/6-311+g(d,p)
+
+Bond corrections: {'C-O': 1, 'H-O': 1, 'C#N': 1, 'C-H': 6, 'C-C': 3, 'O-O': 1}
+
+1D rotors:
+pivots: [1, 4], dihedral: [2, 1, 4, 5], rotor symmetry: 1, max scan energy: 24.14 kJ/mol
+pivots: [1, 2], dihedral: [4, 1, 2, 14], rotor symmetry: 1, max scan energy: 36.41 kJ/mol
+pivots: [4, 5], dihedral: [1, 4, 5, 8], rotor symmetry: 3, max scan energy: 11.66 kJ/mol
+pivots: [4, 6], dihedral: [1, 4, 6, 11], rotor symmetry: 3, max scan energy: 12.77 kJ/mol
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.02648700   -0.19743200    0.74293100
+O       1.85498100    0.74962100    0.08453600
+N      -1.49916600    1.87241100   -0.07890000
+C      -0.16600800   -0.39808900   -0.01625100
+C      -0.94394300   -1.43237200    0.79401300
+C       0.13694700   -0.87673800   -1.43338100
+C      -0.92155500    0.87834800   -0.05737800
+H      -1.90042000   -1.63533200    0.31006300
+H      -1.12711500   -1.07115500    1.80649300
+H      -0.36394700   -2.35551300    0.84037500
+H      -0.79518600   -1.04953600   -1.97516700
+H       0.69604000   -1.81257900   -1.37455900
+H       0.72914100   -0.13907900   -1.97306800
+H       1.71371600    1.54061300    0.61900900
+""",
+)
+
+entry(
+    index = 143,
+    label = "cyanoisopropane",
+    molecule =
+"""
+1  N u0 p1 c0 {5,T}
+2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+5  C u0 p0 c0 {1,T} {2,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91153,0.00781557,0.000180226,-5.88386e-07,6.55296e-10,2094.77,9.32227], Tmin=(10,'K'), Tmax=(226.564,'K')),
+            NASAPolynomial(coeffs=[2.18326,0.0383288,-2.17942e-05,6.07013e-09,-6.61958e-13,2173.08,15.0941], Tmin=(226.564,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (17.4281,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (274.378,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Optimization:     wb97xd/6-311++g(d,p) (using a fine grid)
+Frequencies:      wb97xd/6-311++g(d,p)
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      b3lyp/6-311+g(d,p)
+
+Bond corrections: {'C#N': 1, 'C-C': 3, 'C-H': 7}
+
+1D rotors:
+pivots: [2, 4], dihedral: [3, 2, 4, 10], rotor symmetry: 3, max scan energy: 13.19 kJ/mol
+pivots: [2, 3], dihedral: [4, 2, 3, 7], rotor symmetry: 3, max scan energy: 13.18 kJ/mol
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+N      -2.20312500    0.15910800    0.00000000
+C       0.35469500   -0.39904900    0.00000000
+C       1.01752500    0.14256700   -1.27321800
+C       1.01752500    0.14256700    1.27321800
+C      -1.08030100   -0.09186200    0.00000000
+H       0.43242300   -1.49152700    0.00000000
+H       0.54500800   -0.26089100   -2.17033700
+H       2.07327100   -0.13786000   -1.28141800
+H       0.95018100    1.23248900   -1.30888200
+H       0.54500800   -0.26089100    2.17033700
+H       2.07327100   -0.13786000    1.28141800
+H       0.95018100    1.23248900    1.30888200
+""",
+)
+
+entry(
+    index = 144,
+    label = "cyanoisopropylOO",
+    molecule =
+"""
+multiplicity 2
+1  O u0 p2 c0 {2,S} {4,S}
+2  O u1 p2 c0 {1,S}
+3  N u0 p1 c0 {7,T}
+4  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+6  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+7  C u0 p0 c0 {3,T} {4,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73277,0.0228798,0.000218553,-8.18582e-07,8.85419e-10,10803.4,12.6662], Tmin=(10,'K'), Tmax=(324.224,'K')),
+            NASAPolynomial(coeffs=[4.94043,0.0419159,-2.65147e-05,8.14503e-09,-9.65226e-13,10546.7,5.44954], Tmin=(324.224,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (89.8672,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (295.164,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b97-d3/6-311+g(d,p)
+Optimization:     wb97xd/6-311++g(d,p) (using a fine grid)
+Frequencies:      wb97xd/6-311++g(d,p)
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      b3lyp/6-311+g(d,p)
+
+Bond corrections: {'C-O': 1, 'C-C': 3, 'C#N': 1, 'O-O': 1, 'C-H': 6}
+
+1D rotors:
+pivots: [1, 4], dihedral: [2, 1, 4, 5], rotor symmetry: 1, max scan energy: 8.51 kJ/mol
+pivots: [4, 6], dihedral: [1, 4, 6, 11], rotor symmetry: 3, max scan energy: 13.22 kJ/mol
+pivots: [4, 5], dihedral: [1, 4, 5, 8], rotor symmetry: 3, max scan energy: 13.22 kJ/mol
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.76231100   -1.01654800   -0.00031900
+O      -2.03043700   -0.75204100   -0.00031000
+N       2.52595900   -0.66596100   -0.00011200
+C       0.06045200    0.21651900    0.00005100
+C      -0.22025700    1.00359100   -1.27386500
+C      -0.22032600    1.00287000    1.27439800
+C       1.43559100   -0.30406900   -0.00005400
+H      -0.02569500    0.39341200   -2.15673700
+H      -1.26432800    1.31841100   -1.27191100
+H       0.41994800    1.88678200   -1.30579400
+H      -0.02581700    0.39218200    2.15693000
+H       0.41988100    1.88603900    1.30686400
+H      -1.26439600    1.31769600    1.27256600
+""",
+)

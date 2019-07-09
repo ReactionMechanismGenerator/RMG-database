@@ -17,7 +17,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1, increase barrier and decreased A""",
 )
 
@@ -32,7 +32,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
 )
 
@@ -47,7 +47,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
 )
 
@@ -62,7 +62,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
 )
 
@@ -77,7 +77,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
 )
 
@@ -92,9 +92,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -113,9 +114,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -134,9 +136,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -155,9 +158,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -176,9 +180,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -197,9 +202,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -218,9 +224,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -239,9 +246,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -260,9 +268,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
@@ -281,12 +290,14 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    rank = 5,
+    rank = 10,
     shortDesc = u"""A.G. Vandeputte estimate""",
-    longDesc = """
+    longDesc = 
+u"""
 Estimates for intra disproportionation involving resonance stabilized rads, I just added some DGAV*s for H abstractions 
 Y_rad_De increases barrier with 12.5 kcal/mol, no effect on A
 XH_Rrad_De decreases barrier with 6.25 kcal/mol, decreases A by factor 3
 Resonanance corrections, 1 kcal/mol for C <-> Cd, 2 kcal/mol for Cd <-> Cd
 """,
 )
+

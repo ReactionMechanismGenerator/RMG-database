@@ -6,6 +6,7 @@ shortDesc = u""
 longDesc = u"""
 
 """
+
 entry(
     index = 1,
     label = "RNO2",

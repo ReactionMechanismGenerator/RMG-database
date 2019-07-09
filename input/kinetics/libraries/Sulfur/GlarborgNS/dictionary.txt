@@ -1,0 +1,80 @@
+SO
+multiplicity 3
+1 S u1 p2 c0 {2,S}
+2 O u1 p2 c0 {1,S}
+
+N
+multiplicity 4
+1 N u3 p1 c0
+
+S
+multiplicity 3
+1 S u2 p2 c0
+
+NO
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+
+SO2
+1 S u0 p1 c0 {2,D} {3,D}
+2 O u0 p2 c0 {1,D}
+3 O u0 p2 c0 {1,D}
+
+NO2
+multiplicity 2
+1 N u0 p1 c0 {2,D} {3,S}
+2 O u0 p2 c0 {1,D}
+3 O u1 p2 c0 {1,S}
+
+SO3
+1 S u0 p0 c0 {2,D} {3,D} {4,D}
+2 O u0 p2 c0 {1,D}
+3 O u0 p2 c0 {1,D}
+4 O u0 p2 c0 {1,D}
+
+NH
+multiplicity 3
+1 N u2 p1 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+HNO
+1 N u0 p1 c0 {2,D} {3,S}
+2 O u0 p2 c0 {1,D}
+3 H u0 p0 c0 {1,S}
+
+SNO
+multiplicity 2
+1 S u1 p2 c0 {2,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 O u0 p2 c0 {2,D}
+
+SH
+multiplicity 2
+1 S u1 p2 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+HSNO
+1 S u0 p2 c0 {2,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 O u0 p2 c0 {2,D}
+4 H u0 p0 c0 {1,S}
+
+NS
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 S u0 p2 c0 {1,D}
+
+O
+multiplicity 3
+1 O u2 p2 c0
+
+H
+multiplicity 2
+1 H u1 p0 c0
+
+OH
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+

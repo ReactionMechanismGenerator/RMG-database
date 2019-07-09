@@ -1,60 +1,104 @@
-# This file contains a dictionary of kinetics families.  The families
-# set to `True` are recommended by RMG and turned on by default by setting
-# kineticsFamilies = 'default' in the RMG input file. Families set to `False` 
-# are not turned on by default because the family is severely lacking in data.
-# These families should only be turned on with caution.
+# This file contains multiple sets of suggested kinetics families for various
+# systems of interest. They can be used by including the name of a set in the
+# kineticsFamilies part of the input file. Multiple sets can be specified at
+# the same time, and the union of them will be loaded. These sets can also be
+# specified along with individual families. Custom sets can be easily defined
+# in this file and immediately used in input files without any additional
+# changes.
 
-recommendedFamilies = {
-'1+2_Cycloaddition':True,
-'1,2-Birad_to_alkene':True,
-'1,2_Insertion_CO':True,
-'1,2_Insertion_carbene':True,
-'1,2_shiftS':True,
-'1,3_Insertion_CO2':True,
-'1,3_Insertion_ROR':True,
-'1,3_Insertion_RSR':True,
-'1,4_Cyclic_birad_scission':True,
-'1,4_Linear_birad_scission':True,
-'2+2_cycloaddition_CCO':True,
-'2+2_cycloaddition_CO':True,
-'2+2_cycloaddition_Cd':True,
-'Birad_recombination':True,
-'Cyclic_Ether_Formation':True,
-'Diels_alder_addition':True,
-'Disproportionation':True,
-'Fake_3products1':False,
-'Fake_3products2':False,
-'Fake_3products3':False,
-'Fake_Ketohydroperoxides':False,
-'Fake_O_Abstraction':False,
-'Fake_O2_Elimination':False,
-'HO2_Elimination_from_PeroxyRadical':True,
-'H_Abstraction':True,
-'H_shift_cyclopentadiene':True,
-'Intra_Diels_alder':True,
-'Intra_Disproportionation':True,
-'Intra_RH_Add_Endocyclic':False,
-'Intra_RH_Add_Exocyclic':False,
-'Intra_R_Add_Endocyclic':True,
-'Intra_R_Add_ExoTetCyclic':False,
-'Intra_R_Add_Exocyclic':True,
-'Korcek_step1':False,
-'Korcek_step2':False,
-'Oa_R_Recombination':True,
-'R_Addition_COm':True,
-'R_Addition_CSm':False,
-'R_Addition_MultipleBond':True,
-'R_Recombination':True,
-'SubstitutionS':False,
-'Substitution_O':False,
-'intra_H_migration':True,
-'intra_NO2_ONO_conversion':True,
-'intra_OH_migration':True,
-'intra_substitutionCS_cyclization':True,
-'intra_substitutionCS_isomerization':True,
-'intra_substitutionS_cyclization':True,
-'intra_substitutionS_isomerization':True,
-'ketoenol':True,
-'lone_electron_pair_bond':True,
+default = {
+    '1+2_Cycloaddition',
+    '1,2-Birad_to_alkene',
+    '1,2_Insertion_CO',
+    '1,2_Insertion_carbene',
+    '1,2_shiftS',
+    '1,3_Insertion_CO2',
+    '1,3_Insertion_ROR',
+    '1,3_Insertion_RSR',
+    '1,4_Cyclic_birad_scission',
+    '1,4_Linear_birad_scission',
+    '2+2_cycloaddition_CCO',
+    '2+2_cycloaddition_CO',
+    '2+2_cycloaddition_CS',
+    '2+2_cycloaddition_Cd',
+    'Birad_recombination',
+    'CO_Disproportionation',
+    'Birad_R_Recombination',
+    'Cyclic_Ether_Formation',
+    'Cyclic_Thioether_Formation',
+    'Diels_alder_addition',
+    'Disproportionation',
+    'HO2_Elimination_from_PeroxyRadical',
+    'H_Abstraction',
+    'Intra_Retro_Diels_alder_bicyclic',
+    'Intra_Disproportionation',
+    'Intra_R_Add_Endocyclic',
+    'Intra_R_Add_Exocyclic',
+    'R_Addition_COm',
+    'R_Addition_MultipleBond',
+    'R_Recombination',
+    'intra_H_migration',
+    'intra_NO2_ONO_conversion',
+    'intra_OH_migration',
+    'intra_substitutionCS_cyclization',
+    'intra_substitutionCS_isomerization',
+    'intra_substitutionS_cyclization',
+    'intra_substitutionS_isomerization',
+    'ketoenol',
+    'Singlet_Carbene_Intra_Disproportionation',
+    'Singlet_Val6_to_triplet',
+    'Intra_5_membered_conjugated_C=C_C=C_addition',
+    'Intra_Diels_alder_monocyclic',
+    'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH',
+    'Intra_2+2_cycloaddition_Cd',
+    'Intra_ene_reaction',
+    'Cyclopentadiene_scission',
+    '6_membered_central_C-C_shift',
+    'Intra_R_Add_Exo_scission',
+    '1,2_shiftC',
+    '1,2_NH3_elimination',
+    '1,3_NH3_elimination',
+}
 
+# Peroxide chemistry families that are likely relevant in liquid-phase
+# hydrocarbon oxidation systems
+liquid_peroxide = {
+    'Peroxyl_Disproportionation',
+    'Peroxyl_Termination',
+    'Bimolec_Hydroperoxide_Decomposition',
+    'Korcek_step1',
+    'Korcek_step1_cat',
+    'Korcek_step2',
+    'Baeyer-Villiger_step1_cat',
+    'Baeyer-Villiger_step2',
+    'Baeyer-Villiger_step2_cat',
+}
+
+# Surface chemistry for heterogeneous catalysis.
+surface = {
+    'Surface_Adsorption_Single',
+    'Surface_Adsorption_vdW',
+    'Surface_Adsorption_Dissociative',
+    'Surface_Dissociation',
+    'Surface_Abstraction',
+}
+
+# Surface chemistry families that are under development and not yet working well.
+surface_development = {
+    'Surface_Adsorption_Double',
+    'Surface_Dissociation_vdW',
+    'Surface_Adsorption_Bidentate',
+    'Surface_Bidentate_Dissociation'
+    # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
+}
+
+# Fake (non-elementary) reactions used for recognizing things in existing
+# CHEMKIN files using the importer project. 
+fake_for_importer = {
+    'Fake_3products1',
+    'Fake_3products2',
+    'Fake_3products3',
+    'Fake_Ketohydroperoxides',
+    'Fake_O_Abstraction',
+    'Fake_O2_Elimination',
 }

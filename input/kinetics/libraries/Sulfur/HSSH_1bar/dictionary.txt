@@ -1,0 +1,32 @@
+H
+multiplicity 2
+1 H u1 p0 c0
+
+H2
+1 H u0 p0 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+S2
+multiplicity 3
+1 S u1 p2 c0 {2,S}
+2 S u1 p2 c0 {1,S}
+
+S
+multiplicity 3
+1 S u2 p2 c0
+
+SH
+multiplicity 2
+1 S u1 p2 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+H2S
+1 S u0 p2 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+
+HSS
+multiplicity 2
+1 S u0 p2 c0 {2,S} {3,S}
+2 S u1 p2 c0 {1,S}
+3 H u0 p0 c0 {1,S}

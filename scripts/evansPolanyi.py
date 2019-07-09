@@ -34,13 +34,13 @@ def getReactionForEntry(entry, database):
     for molecule in entry.item.reactants:
         molecule.makeHydrogensExplicit()
         reactant = Species(molecule=[molecule], label=molecule.toSMILES())
-        reactant.generateResonanceIsomers()
+        reactant.generate_resonance_structures()
         reactant.thermo = generateThermoData(reactant, database)
         reaction.reactants.append(reactant)
     for molecule in entry.item.products:
         molecule.makeHydrogensExplicit()
         product = Species(molecule=[molecule], label=molecule.toSMILES())
-        product.generateResonanceIsomers()
+        product.generate_resonance_structures()
         product.thermo = generateThermoData(product, database)
         reaction.products.append(product)
     

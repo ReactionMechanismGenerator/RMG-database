@@ -55,7 +55,7 @@ reverseWeights = []
 
 def loadSpecies(adjlist):
     species = Species().fromAdjacencyList(adjlist)
-    species.molecule = species.molecule[0].generateResonanceIsomers()
+    species.molecule = species.molecule[0].generate_resonance_structures()
     species.thermo = getThermoData(species)
     species.molecule = [Molecule().fromAdjacencyList(adjlist)]
     return species

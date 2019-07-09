@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "C1(R)(H)(O[OC3(OH)(R')]C2)",
+    label = "C1(R)(H)(O(OC3(OH)(R'))C2)",
     kinetics = ArrheniusEP(
         A = (3e+09, 's^-1'),
         n = 1.38,

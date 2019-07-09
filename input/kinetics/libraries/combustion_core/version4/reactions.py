@@ -5,6 +5,7 @@ name = "combustion_core/version4"
 shortDesc = u""
 longDesc = u"""
 4th version of core combustion mechanisms developed at Leeds University
+http://mcm.leeds.ac.uk/MCM/
 """
 entry(
     index = 1,

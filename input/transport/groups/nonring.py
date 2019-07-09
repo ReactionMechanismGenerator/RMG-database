@@ -617,8 +617,8 @@ L1: R
         L3: CdH2R
         L3: CdR3
             L4: Ketone_Ccentered
-            L4: Acid_Ccentered
-            L4: Ester_Ccentered
+                L5: Acid_Ccentered
+                L5: Ester_Ccentered
         L3: CdHR2
             L4: Aldehyde_Ccentered
         L3: CddR2
@@ -632,9 +632,9 @@ L1: R
             L4: Ester_Ocentered1
         L3: Od
             L4: Ketone_Ocentered
+                L5: Acid_Ocentered2
+                L5: Ester_Ocentered2
             L4: Aldehyde_Ocentered
-            L4: Acid_Ocentered2
-            L4: Ester_Ocentered2
     L2: S_centered
         L3: Thiol
         L3: Thioether
