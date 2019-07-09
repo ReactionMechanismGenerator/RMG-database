@@ -14,9 +14,9 @@ reverse = "Fake_trimolecular1"
 
 recipe(actions=[
     ['GAIN_RADICAL', '*2', '1'],
-    ['BREAK_BOND', '*2', 'S', '*3'],
+    ['BREAK_BOND', '*2', 1, '*3'],
     ['CHANGE_BOND', '*3', '1', '*4'],
-    ['BREAK_BOND', '*4', 'S', '*5'],
+    ['BREAK_BOND', '*4', 1, '*5'],
     ['GAIN_RADICAL', '*5', '1'],
 ])
 

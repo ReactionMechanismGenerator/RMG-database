@@ -13,9 +13,9 @@ template(reactants=["X_OO", "Y_OO"], products=["P1", "P2", "P3"], ownReverse=Fal
 reverse = "Fake_bimolecular_O2_addition"
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 'S', '*3'],
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['BREAK_BOND', '*3', 'S', '*4'],
+    ['FORM_BOND', '*1', 1, '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['BREAK_BOND', '*3', 1, '*4'],
     ['GAIN_RADICAL', '*2', '1'],
     ['GAIN_RADICAL', '*4', '1'],
 ])

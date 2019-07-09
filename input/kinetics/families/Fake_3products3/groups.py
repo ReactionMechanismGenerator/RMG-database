@@ -14,12 +14,12 @@ template(reactants=["OjORROH"], products=["P1", "P2", "P3"], ownReverse=False)
 reverse = "Fake_trimolecular3"
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 'S', '*6'],
-    ['BREAK_BOND', '*1', 'S', '*2'],
-    ['CHANGE_BOND', '*2', '+1', '*3'],
-    ['BREAK_BOND', '*3', 'S', '*4'],
-    ['CHANGE_BOND', '*4', '+1', '*5'],
-    ['BREAK_BOND', '*5', 'S', '*6'],
+    ['FORM_BOND', '*1', 1, '*6'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*2', +1, '*3'],
+    ['BREAK_BOND', '*3', 1, '*4'],
+    ['CHANGE_BOND', '*4', +1, '*5'],
+    ['BREAK_BOND', '*5', 1, '*6'],
 ])
 
 entry(

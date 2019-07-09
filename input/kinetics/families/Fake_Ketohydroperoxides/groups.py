@@ -12,10 +12,10 @@ template(reactants=["jOOQOOH"], products=["HOOQ=O", "jOH"], ownReverse=False)
 reverse = "Keto-breaker"
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 'S', '*2'],
-    ['BREAK_BOND', '*4', 'S', '*5'],
-    ['BREAK_BOND', '*3', 'S', '*2'],
-    ['CHANGE_BOND', '*3', '1', '*4'],
+    ['FORM_BOND', '*1', 1, '*2'],
+    ['BREAK_BOND', '*4', 1, '*5'],
+    ['BREAK_BOND', '*3', 1, '*2'],
+    ['CHANGE_BOND', '*3', +1, '*4'],
     ['GAIN_RADICAL', '*5', '1'],
     ['LOSE_RADICAL', '*1', '1']
 ])
