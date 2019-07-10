@@ -1564,15 +1564,16 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 1611,
-    label = "Br_rad",
-    group =
-"""
-1 *3 Br u1
-""",
-    kinetics = None,
-)
+## Currently RMG does not have Br atom types
+# entry(
+#     index = 1611,
+#     label = "Br_rad",
+#     group =
+# """
+# 1 *3 Br u1
+# """,
+#     kinetics = None,
+# )
 
 entry(
     index = 162,
@@ -2245,7 +2246,6 @@ L1: Y_rad_birad_trirad_quadrad
         L3: H_rad
         L3: Cl_rad
         L3: F_rad
-        L3: Br_rad
         L3: Y_2centeradjbirad
         L3: O_rad
             L4: ROO_rad
