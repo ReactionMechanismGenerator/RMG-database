@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 name = "Cl_Abstraction/groups"
-shortDesc = u""
+shortDesc = u"Abstraction of a Chlorine atom"
 longDesc = u"""
 """
 
@@ -51,7 +51,12 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""NIST""",
+    shortDesc = u"""Baulch review via kinetics.NIST.gov 1981BAU/DUX """,
+    longDesc = u"""
+    NIST kinetics site 1981BAU/DUX (Baulch review)
+    Cl2 + H. -> HCl + Cl
+    T range 250-730 K
+    """,
 )
 
 
@@ -79,11 +84,16 @@ entry(
         n =2.10,
         alpha = 0,
         E0 = (1.14, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
+        Tmin = (220, 'K'),
+        Tmax = (2000, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""kinetics.nist.gov 2003WAN/LIU""",
+    longDesc = u"""
+    OH + Cl2 -> HOCl + Cl
+    T range 220-2000 K
+    Wang et al 2003, Ab initio calculations.
+    Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 
 entry(
@@ -98,7 +108,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 
 entry(
@@ -113,7 +123,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 
 entry(
@@ -128,7 +138,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 
 
@@ -145,7 +155,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 
 
@@ -161,7 +171,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 entry(
     index = 568,
@@ -175,7 +185,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 
 
@@ -191,7 +201,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 
 
@@ -208,7 +218,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 
 entry(
@@ -223,7 +233,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
 entry(
     index = 572,
@@ -237,5 +247,5 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    shortDesc = u"""Default""",
+    shortDesc = u"""Added by Fariba. See her thesis http://hdl.handle.net/2047/D20213055""",
 )
