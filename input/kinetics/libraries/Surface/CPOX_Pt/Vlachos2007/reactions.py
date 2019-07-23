@@ -7,7 +7,7 @@ longDesc = u"""
 test surface mechanism: based upon D.G. Vlachos' work:
 "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
 Mhadeshwar and Vlachos
-Ind. Eng. Chem. Res., 2007, 56, 5310-5324
+Ind. Eng. Chem. Res., 2007, 46, 5310-5324
 
 Note: The pre-exponential values are for surface coverage 2.72E-5 mol/m2 (same as in the Deutschmann 2006 mechanism). 
 The pre-exponenitals listed here are calculated as follows: A = A_from_paper/(surface coverage)^(n-1)*(300K)^b), where n is the
