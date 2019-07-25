@@ -64121,3 +64121,34 @@ sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
 """,
 )
+
+entry(
+    index = 3085,
+    label = "c12h26-2 + OH <=> H2O_p + c12h25-2",
+    degeneracy = 4,
+    kinetics = Arrhenius(A=(1.41e4, 'm^3/(mol*s)'), n=0.94, Ea=(2111.66, 'J/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K'),
+        comment = ''),
+    rank = 10,
+    shortDesc = u"""Jetsurf2.0""",
+    longDesc =
+u"""
+Jetsurf2.0, actual accuracy not checked so given rank 10
+""",
+)
+
+entry(
+    index = 3086,
+    label = "c12h26-1 + OH <=> H2O_p + c12h25-1",
+    degeneracy = 6,
+    kinetics = Arrhenius(A=(2.73e1, 'm^3/(mol*s)'), n=1.81, Ea=(3632.97, 'J/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K'),
+        comment = ''),
+    rank = 10,
+    shortDesc = u"""Jetsurf2.0""",
+    longDesc =
+u"""
+Jetsurf2.0, actual accuracy not checked so given rank 10
+""",
+)
+
