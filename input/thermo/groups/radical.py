@@ -7181,7 +7181,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-3.09,-4.17,-4.38,-4.16,-3.24,-2.43,-1.96],'cal/(mol*K)'),
-        H298 = (110.46,'kcal/mol'),
+        H298 = (104.33,'kcal/mol'),
         S298 = (1.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
