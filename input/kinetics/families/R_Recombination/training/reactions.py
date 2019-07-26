@@ -115,41 +115,6 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 5,
-    label = "NO + O2 <=> NO3",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (117000, 'm^3/(mol*s)', '*|/', -1),
-        n = 0,
-        Ea = (13.386, 'kJ/mol', '+|-', -0.001),
-        T0 = (1, 'K'),
-        Tmin = (473, 'K'),
-        Tmax = (703, 'K'),
-        Pmin = (1333, 'Pa'),
-        Pmax = (33600, 'Pa'),
-    ),
-    reference = Article(
-        authors = ['Ashmore, P.G.', 'Burnett, M.G.'],
-        title = 'Concurrent molecular and free radical mechanisms in the thermal decomposition of nitrogen dioxide',
-        journal = 'J. Chem. Soc. Faraday Trans. 2',
-        volume = '58',
-        pages = '253',
-        year = '1962',
-        url = 'http://kinetics.nist.gov/kinetics/Detail?id=1962ASH/BUR253:5',
-    ),
-    referenceType = "experiment",
-    rank = 10,
-    shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
-u"""
-Uncertainty: 3.0
-Bath gas: NO2
-Excitation technique: Thermal
-Analytical technique: Pressure measurement
-""",
-)
-
-entry(
     index = 6,
     label = "NO2 + NO3-2 <=> N2O5",
     degeneracy = 3.0,
@@ -461,27 +426,6 @@ Reported rate was divided by 2 due to a 50% branching ratio (Fig. 7 in the manus
 )
 
 entry(
-    index = 20,
-    label = "CN + NCN <=> NCNCN",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.01e+09, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-34691, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (2000, 'K'),
-        Tmax = (4000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
-u"""
-See Table 1 on p. 2397 in L.V Moskaleva, M.C. Lin, Proceedings of the Combustion Institute, 2000, 28(2), 2393-2401, doi: 10.1016/S0082-0784(00)80652-9
-Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
-""",
-)
-
-entry(
     index = 21,
     label = "HSOO <=> SH + O2",
     degeneracy = 1.0,
@@ -749,19 +693,6 @@ u"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2009, 113, 8299-8306, doi: 10.1021/jp903185k
 Table 1, R3
 calculations done at the MRCI/aug-cc-pV(Q+d)Z//CASSCF/cc-pVTZ level of theory
-""",
-)
-
-entry(
-    index = 32,
-    label = "C10H9 <=> C10H8 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.89e+16, 's^-1'), n=-0.28, Ea=(68.378, 'kcal/mol'), T0=(1, 'K')),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc =
-u"""
-Taken from entry: W111 <=> P114 + H
 """,
 )
 
@@ -3670,26 +3601,6 @@ The high-pressure limit kinetics was taken. Troe coefficients are:
     ),
 
 Converted to training reaction from rate rule: N5dc-OdOs;O_pri_rad
-""",
-)
-
-entry(
-    index = 140,
-    label = "H + SH <=> H2S-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.77e+15, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (1.79912, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""GA Jonas x 3 for spinorbit""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: H_rad;SsJ-H
 """,
 )
 
