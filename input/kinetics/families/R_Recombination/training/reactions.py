@@ -187,24 +187,6 @@ Theoretical modeling of k0, k and Fc=0.38 exp(-T/4900K) led to consistency with 
 )
 
 entry(
-    index = 7,
-    label = "C5H5 + C2H5 <=> C7H10",
-    degeneracy = 5.0,
-    kinetics = Arrhenius(
-        A = (8.34e+15, 'cm^3/(mol*s)'),
-        n = -0.7,
-        Ea = (-0.5, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
-u"""
-Taken from entry: ethyl + CPDyl <=> ethylCPD
-""",
-)
-
-entry(
     index = 8,
     label = "CH3NO2 <=> CH3 + NO2",
     degeneracy = 1.0,
@@ -303,32 +285,6 @@ S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
 Predictive theory for the combination kinetics of two alkyl radicals
 Phys. Chem. Chem. Phys., 2006, 8, 1133-1147
 doi: 10.1039/B515914H
-""",
-)
-
-entry(
-    index = 12,
-    label = "C5H5 + CH3 <=> C6H8",
-    degeneracy = 5.0,
-    kinetics = Arrhenius(
-        A = (1.623e+17, 'cm^3/(mol*s)'),
-        n = -1.07,
-        Ea = (0.002, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    reference = Article(
-        authors = ['Krasnoukhov, V. S.', 'Porfiriev, D. P.', 'Zavershinskiy, I. P.', 'Azyazov, V. N.', 'Mebel, A. M.'],
-        title = 'Kinetics of the CH3 + C5H5 Reaction: A Theoretical Study',
-        journal = 'The Journal of Physical Chemistry A',
-        volume = '121 (48)',
-        pages = '9191-9200',
-        year = '2017',
-    ),
-    referenceType = "theory",
-    rank = 4,
-    longDesc = 
-u"""
-CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
 )
 
@@ -803,7 +759,7 @@ entry(
     kinetics = Arrhenius(A=(1.89e+16, 's^-1'), n=-0.28, Ea=(68.378, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W111 <=> P114 + H
 """,
@@ -1139,32 +1095,6 @@ entry(
         A = (6.117e+14, 'cm^3/(mol*s)'),
         n = -0.152,
         Ea = (1.003, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    reference = Article(
-        authors = ['Huang, C.', 'Yang, B.', 'Zhang, F.'],
-        title = 'Initiation mechanism of 1,3-butadiene combustion and its effect on soot precursors',
-        journal = 'Combustion and Flame',
-        volume = '184',
-        pages = '167-175',
-        year = '2017',
-    ),
-    referenceType = "theory",
-    rank = 4,
-    longDesc = 
-u"""
-CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
-""",
-)
-
-entry(
-    index = 50,
-    label = "C4H5-2 + H <=> C4H6-3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.25e+14, 'cm^3/(mol*s)'),
-        n = -0.119,
-        Ea = (-1.012, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
     reference = Article(
@@ -3638,66 +3568,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: Cd_allenic;H_rad
-""",
-)
-
-entry(
-    index = 134,
-    label = "C5H5 + H <=> C5H6",
-    degeneracy = 5.0,
-    kinetics = Arrhenius(
-        A = (2.5e+15, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""From 2001 Roy IJCK high-P value""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: C_rad_cyclopentadiene;H_rad
-""",
-)
-
-entry(
-    index = 135,
-    label = "C5H5 + CH3 <=> C6H8",
-    degeneracy = 5.0,
-    kinetics = Arrhenius(
-        A = (4.17e+16, 'cm^3/(mol*s)'),
-        n = -0.7,
-        Ea = (2.092, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""Sharma J. Phys. Chem. A 113 8871 - 8882 (2009)""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: C_rad_cyclopentadiene;C_methyl
-""",
-)
-
-entry(
-    index = 136,
-    label = "C5H5 + C5H5 <=> C10H10-6",
-    degeneracy = 12.5,
-    kinetics = Arrhenius(
-        A = (6.25e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""A. G. Vandeputte estimated value""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: C_rad_cyclopentadiene;C_rad_cyclopentadiene
 """,
 )
 
