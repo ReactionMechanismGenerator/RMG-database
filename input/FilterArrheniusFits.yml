@@ -1,0 +1,2055 @@
+bimol:
+  1+2_Cycloaddition:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 43559042.40675177
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -2.7543688732685037
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.40342, dn = +|- 0.0445259, dEa =
+      +|- 0.242308 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.07076727660743279
+  1,2-Birad_to_alkene: null
+  1,2_Insertion_CO:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 1.2699999999964182e-07
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 223.25800000000015
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 6.59955e-15, dEa = +|-
+      3.59145e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 3.7000000000004354
+  1,2_Insertion_carbene:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 686581.1170504378
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -7.988323098506954
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.58228, dn = +|- 0.060286, dEa =
+      +|- 0.328074 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.3493617569186461
+  1,2_NH3_elimination:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 5.855866283726424e-32
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -10.043289919819216
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 482.734, dn = +|- 0.811859, dEa =
+      +|- 4.4181 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 13.28559765066102
+  1,2_shiftC: null
+  1,2_shiftS: null
+  1,3_Insertion_CO2:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 33.85759432998429
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 306.9082210741003
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 2.00465, dn = +|- 0.091371, dEa =
+      +|- 0.497238 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.7453616797013922
+  1,3_Insertion_ROR:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 4.859999999993687e-07
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 101.797
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 4.25755e-15, dEa = +|-
+      2.31694e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 3.5500000000001966
+  1,3_Insertion_RSR:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 2.4690357359342396e-15
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 137.72129344254668
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 2.94232, dn = +|- 0.141785, dEa =
+      +|- 0.771591 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 6.624640929249565
+  1,3_NH3_elimination:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 0.0005607764476445166
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 151.0850170477429
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 3.84536e-15, dEa = +|-
+      2.09263e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 5.760935808022477
+  1,4_Cyclic_birad_scission: null
+  1,4_Linear_birad_scission: null
+  2+2_cycloaddition_CCO: null
+  2+2_cycloaddition_CO:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 2.3189999999901101e-07
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 322.616
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 7.2623e-15, dEa = +|-
+      3.95212e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 3.4160000000006376
+  2+2_cycloaddition_CS: null
+  2+2_cycloaddition_Cd:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 4.659999999985626
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 226.564
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 4.88286e-15, dEa = +|-
+      2.65724e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.650000000000461
+  6_membered_central_C-C_shift: null
+  Baeyer-Villiger_step1_cat:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 5491274.098846226
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 42.6005926784072
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 9.13675e-16, dEa = +|-
+      4.97218e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.9908614735168378
+  Baeyer-Villiger_step2:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 1.322714855937457e-17
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 205.43084745238426
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 5.88015e-15, dEa = +|-
+      3.19996e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 6.696840192626392
+  Baeyer-Villiger_step2_cat:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 4.748579999994769e-09
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 83.3223
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 2.59357e-15, dEa = +|-
+      1.41141e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 4.242470000000168
+  Bimolec_Hydroperoxide_Decomposition:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 960.2549120774798
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 108.50996170795995
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 8.89907, dn = +|- 0.28719, dEa = +|-
+      1.56288 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.5754292264240357
+  Birad_R_Recombination:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 130000000.00001204
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 5.371709258900746e-14
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 3.3149e-15, dEa = +|-
+      1.80396e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.23999999999998742
+  Birad_recombination: null
+  CO_Disproportionation:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 207505.79026785513
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 135.69208763285928
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.30599, dn = +|- 0.0350734, dEa =
+      +|- 0.190868 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.6846265195655097
+  Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH: null
+  Cyclic_Ether_Formation:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 8.876966704335755e-05
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 25.580800940762032
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 3.18804, dn = +|- 0.152323, dEa =
+      +|- 0.828936 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 3.398724491105863
+  Cyclic_Thioether_Formation: null
+  Cyclopentadiene_scission: null
+  Diels_alder_addition:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 0.0008142331484564942
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 61.115356537590145
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 4.33877, dn = +|- 0.192812, dEa =
+      +|- 1.04928 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.043177775897449
+  Disproportionation:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 357.8077894492217
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 22.48682834822182
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 1.70666e-15, dEa = +|-
+      9.28759e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.2450868562531685
+  HO2_Elimination_from_PeroxyRadical:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 3.8294586362047743e-10
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 16.55193940432296
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 5.02783, dn = +|- 0.212177, dEa =
+      +|- 1.15466 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 4.585092773633778
+  H_Abstraction:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 9.314253735360558e-31
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -298.5756143921649
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 10353.2, dn = +|- 1.21462, dEa = +|-
+      6.60989 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 10.649356814324582
+  Intra_2+2_cycloaddition_Cd: null
+  Intra_5_membered_conjugated_C=C_C=C_addition: null
+  Intra_Diels_alder_monocyclic: null
+  Intra_Disproportionation: null
+  Intra_RH_Add_Endocyclic: null
+  Intra_RH_Add_Exocyclic: null
+  Intra_R_Add_Endocyclic: null
+  Intra_R_Add_ExoTetCyclic: null
+  Intra_R_Add_Exo_scission: null
+  Intra_R_Add_Exocyclic: null
+  Intra_Retro_Diels_alder_bicyclic: null
+  Intra_ene_reaction: null
+  Korcek_step1: null
+  Korcek_step1_cat: null
+  Korcek_step2: null
+  Peroxyl_Disproportionation:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 1100000.0000000512
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -4.184000000000008
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 6.48985e-16, dEa = +|-
+      3.53175e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -7.305504215402415e-15
+  Peroxyl_Termination:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 120000.00000000326
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -4.184000000000019
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 1.36171e-15, dEa = +|-
+      7.41038e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -3.91932399250512e-15
+  R_Addition_COm:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 1.8202326451608062
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 6.217868861810552
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 2.54916, dn = +|- 0.122941, dEa =
+      +|- 0.66904 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.871927869257047
+  R_Addition_CSm:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 11999999.999998646
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 10.292600000000007
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 1.36761e-15, dEa = +|-
+      7.44249e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.1100000000000185
+  R_Addition_MultipleBond:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 1.0725109840454623e-12
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -110.37793078369899
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 12.7472, dn = +|- 0.334403, dEa =
+      +|- 1.81981 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 5.703342787870448
+  R_Recombination:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 55302003467.228096
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -191.1137646225133
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 7.384e-15, dEa = +|- 4.01835e-14
+      kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.016304166324088622
+  Singlet_Carbene_Intra_Disproportionation: null
+  Singlet_Val6_to_triplet: null
+  SubstitutionS:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 0.09389464884944405
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -7.2928772929982575
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 5.37768, dn = +|- 0.221015, dEa =
+      +|- 1.20276 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.91346768483327
+  Substitution_O:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 1.5962449990896936e-07
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -85.76122892179548
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 3.49776e-15, dEa = +|-
+      1.90347e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 4.751605800930676
+  Surface_Abstraction: null
+  Surface_Adsorption_Bidentate: null
+  Surface_Adsorption_Dissociative: null
+  Surface_Adsorption_Double: null
+  Surface_Adsorption_Single: null
+  Surface_Adsorption_vdW: null
+  Surface_Bidentate_Dissociation: null
+  Surface_Dissociation: null
+  Surface_Dissociation_vdW: null
+  Surface_Recombination: null
+  intra_H_migration: null
+  intra_NO2_ONO_conversion: null
+  intra_OH_migration: null
+  intra_substitutionCS_cyclization: null
+  intra_substitutionCS_isomerization: null
+  intra_substitutionS_cyclization:
+    A:
+      class: ScalarQuantity
+      units: m^3/(mol*s)
+      value: 2960119.487847322
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -103.51692801246158
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 4.99328e-15, dEa = +|-
+      2.71732e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.2857274295511825
+  intra_substitutionS_isomerization: null
+  ketoenol: null
+  lone_electron_pair_bond: null
+class: FilterLimitFits
+unimol:
+  1+2_Cycloaddition:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 1.622407667331447e+25
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 362.47376932686336
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.06175, dn = +|- 0.00787198, dEa
+      = +|- 0.042839 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -2.7036709722485948
+  1,2-Birad_to_alkene:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 2.966704773554453e-20
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 71.04829003104464
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 16.8946, dn = +|- 0.371411, dEa =
+      +|- 2.0212 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 8.904077574533742
+  1,2_Insertion_CO:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 482930257.75293297
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 274.65192021655895
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 7.3602e-15, dEa = +|-
+      4.00539e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.5345468486024143
+  1,2_Insertion_carbene:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 4.93346588596606e+18
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 448.33762300182286
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.33243, dn = +|- 0.0377065, dEa =
+      +|- 0.205198 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.9652299839867214
+  1,2_NH3_elimination:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 716999999.9995792
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 48.200000000000024
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 2.5011e-15, dEa = +|-
+      1.36109e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 3.540000000000089
+  1,2_shiftC:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 2581862240256.622
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 38.439773933202
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 1.17331e-15, dEa = +|-
+      6.38513e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.2164143155509262
+  1,2_shiftS: null
+  1,3_Insertion_CO2:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 3174270.409963354
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 291.58919962349637
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 2.46324, dn = +|- 0.118436, dEa =
+      +|- 0.644526 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.467688280208341
+  1,3_Insertion_ROR:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 4709761.802135152
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 123.41371222237765
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 4.15116e-15, dEa = +|-
+      2.25905e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 3.180523068019505
+  1,3_Insertion_RSR:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 2334956495.495987
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 134.44631496368984
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 3.79054e-15, dEa = +|-
+      2.0628e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.56137388275457
+  1,3_NH3_elimination:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 4899999999.990662
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 142.2000000000001
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 3.10426e-15, dEa = +|-
+      1.68933e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.3400000000002894
+  1,4_Cyclic_birad_scission:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 1579207264007.3105
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 44.67373863003266
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 1.50276e-15, dEa = +|-
+      8.17794e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.11063123671283863
+  1,4_Linear_birad_scission: null
+  2+2_cycloaddition_CCO: null
+  2+2_cycloaddition_CO:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 13722118438.653696
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 51.38902222394015
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 1.54204e-15, dEa = +|-
+      8.39173e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.1159319396098903
+  2+2_cycloaddition_CS: null
+  2+2_cycloaddition_Cd:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 5804649307270840.0
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 253.338503022083
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 6.65833e-15, dEa = +|-
+      3.62344e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.08220474419154844
+  6_membered_central_C-C_shift:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 2961503439.8447185
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 69.94949717091404
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.13617, dn = +|- 0.0167725, dEa =
+      +|- 0.0912753 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.59700850493061
+  Baeyer-Villiger_step1_cat: null
+  Baeyer-Villiger_step2:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 17755857139.66583
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 92.33041531577148
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.53966, dn = +|- 0.0566987, dEa =
+      +|- 0.308552 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.8634684731695604
+  Baeyer-Villiger_step2_cat: null
+  Bimolec_Hydroperoxide_Decomposition: null
+  Birad_R_Recombination:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 2.6426872998645846e+24
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 207.5612031307283
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 5.66446e-15, dEa = +|-
+      3.08258e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -2.3812676766856744
+  Birad_recombination:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 3.646734160448013e+16
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 189.12148150618134
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 4.5402e-15, dEa = +|-
+      2.47076e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.33292107106113883
+  CO_Disproportionation: null
+  Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 5.095299599858282e+16
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 118.99536591985834
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 2.71132e-15, dEa = +|-
+      1.47549e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.5334854647093803
+  Cyclic_Ether_Formation:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 4.331226777536923e-09
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -7.300635920795906
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 22.3446, dn = +|- 0.408144, dEa =
+      +|- 2.2211 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 6.074846684152579
+  Cyclic_Thioether_Formation: null
+  Cyclopentadiene_scission:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 2.870058186379734e+17
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 95.78684813395387
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 2.45336e-15, dEa = +|-
+      1.33511e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -1.5043509094925525
+  Diels_alder_addition:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 3484358477054426.0
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 174.50490480245725
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 3.65996e-15, dEa = +|-
+      1.99174e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.1467446110241224
+  Disproportionation: null
+  HO2_Elimination_from_PeroxyRadical:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 3.694163934830527
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 100.11439551783604
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 7.09986, dn = +|- 0.257515, dEa =
+      +|- 1.40139 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 4.029985412159912
+  H_Abstraction: null
+  Intra_2+2_cycloaddition_Cd:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 167569967479.6709
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 172.41273038118098
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 4.42497e-15, dEa = +|-
+      2.40805e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.8390520972209574
+  Intra_5_membered_conjugated_C=C_C=C_addition:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 117291532504.72664
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 79.39058631689463
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 2.43285e-15, dEa = +|-
+      1.32395e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.8164890758353144
+  Intra_Diels_alder_monocyclic:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 558459156082.3212
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -3.587817664227357
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 1.96448e-15, dEa = +|-
+      1.06906e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.5847373992858059
+  Intra_Disproportionation:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 119917289.50220157
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 287.14184943824284
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 7.02831e-15, dEa = +|-
+      3.82478e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.3624358924675892
+  Intra_RH_Add_Endocyclic: null
+  Intra_RH_Add_Exocyclic: null
+  Intra_R_Add_Endocyclic:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 37210560830812.01
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -178.1397765322372
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 8.49421e-15, dEa = +|-
+      4.62252e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.10709399217832805
+  Intra_R_Add_ExoTetCyclic: null
+  Intra_R_Add_Exo_scission:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 488372311.03193223
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 52.80071420766277
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 1.76516e-15, dEa = +|-
+      9.60591e-15 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.8180152786888847
+  Intra_R_Add_Exocyclic:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 3592.2069256963186
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -101.87483515457922
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 3.38753, dn = +|- 0.160297, dEa =
+      +|- 0.872331 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.9110110392712856
+  Intra_Retro_Diels_alder_bicyclic: null
+  Intra_ene_reaction:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 74959562.92325965
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 38.73731689862098
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 2.15256, dn = +|- 0.100724, dEa =
+      +|- 0.548134 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.4602799318598056
+  Korcek_step1: null
+  Korcek_step1_cat: null
+  Korcek_step2: null
+  Peroxyl_Disproportionation: null
+  Peroxyl_Termination: null
+  R_Addition_COm:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 1453020.5831278968
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 1.464835926931587
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 5.06744, dn = +|- 0.213208, dEa =
+      +|- 1.16027 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.571100469314451
+  R_Addition_CSm:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 563716.4047187899
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 362.1492222257212
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 4.80204, dn = +|- 0.206141, dEa =
+      +|- 1.12181 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 4.577285318992754
+  R_Addition_MultipleBond:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 6.698525447352141e-41
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -80.60320999802234
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 23.0235, dn = +|- 0.412075, dEa =
+      +|- 2.2425 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 17.2501498053095
+  R_Recombination:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 7.186539858351351e-22
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -84.60197753296806
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 8519.36, dn = +|- 1.189, dEa = +|-
+      6.47051 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 10.388469803622913
+  Singlet_Carbene_Intra_Disproportionation:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 4.3343763595911666e-10
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -1.7958957115069576
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 11.6878, dn = +|- 0.323004, dEa =
+      +|- 1.75778 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 6.130021310389609
+  Singlet_Val6_to_triplet:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 4.5898006013232384e+17
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -17.259314260791697
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 7.12116e-15, dEa = +|-
+      3.87531e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.6227847915385397
+  SubstitutionS: null
+  Substitution_O: null
+  Surface_Abstraction: null
+  Surface_Adsorption_Bidentate: null
+  Surface_Adsorption_Dissociative: null
+  Surface_Adsorption_Double: null
+  Surface_Adsorption_Single: null
+  Surface_Adsorption_vdW: null
+  Surface_Bidentate_Dissociation: null
+  Surface_Dissociation: null
+  Surface_Dissociation_vdW: null
+  Surface_Recombination: null
+  intra_H_migration:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 505474.68817343307
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: -55.09148695769544
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 3.569e-15, dEa = +|- 1.94224e-14
+      kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.9505777663014234
+  intra_NO2_ONO_conversion:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 10447444285595.48
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 247.04985903012124
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 6.92729e-15, dEa = +|-
+      3.76981e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: -0.0721578738913506
+  intra_OH_migration:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 767085424.1445018
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 272.9313784351409
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.77987, dn = +|- 0.0757461, dEa =
+      +|- 0.412207 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 0.44515087696072864
+  intra_substitutionCS_cyclization: null
+  intra_substitutionCS_isomerization:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 6510463733.569279
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 234.3159937650803
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 5.38482e-15, dEa = +|-
+      2.9304e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.2578980444414487
+  intra_substitutionS_cyclization:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 851452.9297524951
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 41.70870617191173
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 8.35722, dn = +|- 0.278936, dEa =
+      +|- 1.51796 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 2.133776356087939
+  intra_substitutionS_isomerization:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 40114308.69741025
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 128.58099763452293
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1.99934, dn = +|- 0.0910226, dEa =
+      +|- 0.495342 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 1.7166803824148895
+  ketoenol:
+    A:
+      class: ScalarQuantity
+      units: s^-1
+      value: 103.99999999978994
+    Ea:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 82.04820000000001
+    T0:
+      class: ScalarQuantity
+      units: K
+      value: 1.0
+    Tmax:
+      class: ScalarQuantity
+      units: K
+      value: 2500.0
+    Tmin:
+      class: ScalarQuantity
+      units: K
+      value: 298.0
+    class: Arrhenius
+    comment: Fitted to 50 data points; dA = *|/ 1, dn = +|- 2.10663e-15, dEa = +|-
+      1.14642e-14 kJ/mol
+    n:
+      class: ScalarQuantity
+      value: 3.2100000000003055
+  lone_electron_pair_bond: null
