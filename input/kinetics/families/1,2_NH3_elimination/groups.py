@@ -37,12 +37,12 @@ entry(
     label = "NNHNH2",
     group =
 """
-1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
-2 *2 N u0 px cx {1,S} {4,S} {3,[S,D]}
-3 *3 N u0 px cx {2,[S,D]}
-4 *4 H u0 p0 c0 {2,S}
-5    H u0 p0 c0 {1,S}
-6    H u0 p0 c0 {1,S}
+1 *1 N u0 p1     c0 {2,S} {5,S} {6,S}
+2 *2 N u0 px     cx {1,S} {4,S} {3,[S,D]}
+3 *3 N u0 p[1,2] cx {2,[S,D]}
+4 *4 H u0 p0     c0 {2,S}
+5    H u0 p0     c0 {1,S}
+6    H u0 p0     c0 {1,S}
 """,
     kinetics = None,
 )
