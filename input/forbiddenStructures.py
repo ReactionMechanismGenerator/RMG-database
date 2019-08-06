@@ -440,3 +440,119 @@ u"""
 Geometry could not converge at wB97x-D3/6-311++G(3df,3pd) (alongd ref - xq1492)
 """,
 )
+
+entry(
+    label = "HON(S)",
+    species =
+"""
+1 O u0 p1 c+1 {2,D} {3,S}
+2 N u0 p2 c-1 {1,D}
+3 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    label = "HON(T)",
+    species =
+"""
+multiplicity 3
+1 O u0 p2 c0 {2,S} {3,S}
+2 N u2 p1 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    label = "HONH",
+    species =
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {4,S}
+2 N u1 p1 c0 {1,S} {3,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    label = "NH2O",
+    species =
+"""
+multiplicity 2
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 O u1 p2 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    label = "NH2OH",
+    species =
+"""
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    label = "NH2",
+    species =
+"""
+multiplicity 2
+1 N u1 p1 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
+    label = "NH3",
+    species =
+"""
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+
