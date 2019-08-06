@@ -759,9 +759,9 @@ multiplicity 2
 10 O u1 p2 c0 {4,S}
 
 HON
-1 O u0 p2 c0 {2,S} {3,S}
-2 H u0 p0 c0 {1,S}
-3 N u0 p2 c0 {1,S}
+1 O u0 p1 c+1 {2,D} {3,S}
+2 N u0 p2 c-1 {1,D}
+3 H u0 p0 c0 {1,S}
 
 H2CCCH
 multiplicity 2
