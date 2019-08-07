@@ -20,7 +20,7 @@ multiplicity 2
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([6.97,7.06,7.2,7.37,7.72,8,8.46],'cal/(mol*K)'),
         # H298 = (21.85,'kcal/mol'),
-        H298 = (24.0,'kcal/mol'),
+        H298 = (-25.0,'kcal/mol'),
         S298 = (49.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -33,6 +33,15 @@ From thermo_DFT_CCSDTF12_BAC:
         H298 = (21.85,'kcal/mol'),
         S298 = (49.02,'cal/(mol*K)'),
     ),
+
+H298 (NO)      =  21.85 kcal/mol
+H298 (H)       =  52.10 kcal/mol
+
+H298 (HNO)     =  25.34 kcal/mol
+
+H298 (NO + H)  =  73.95 kcal/mol
+
+H298 (HNO - H) = -26.76 kcal/mol
 """,
 )
 
