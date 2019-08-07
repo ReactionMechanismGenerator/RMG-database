@@ -49,16 +49,26 @@ est., same as IC3H7 + NO <=> C3H6 + HNO
 """,
 )
 
+# entry(
+#     index = 4,
+#     label = "H2 + NO + NO <=> HNO + HNO",
+#     kinetics = Arrhenius(A=(1e+15, 'cm^6/(mol^2*s)'), n=0, Ea=(11, 'kJ/mol'), T0=(1, 'K')),
+#     longDesc =
+# u"""
+# From D.W. Blaylock, Y-A. Zhu, W.H. Green, Top. Catal. 2011, 54, 828-844, doi: 10.1007/s11244-011-9704-z
+# Table 7, Reaction 1
+# Original dimensions were length/time, other than unit conversion (m to cm).
+# Multiplied by 1e+10 when converting to gas phase (n at 1 bar, 873 K = 1.4e-5 mol / cm^3).
+# """,
+# )
+
 entry(
     index = 4,
-    label = "H2 + NO + NO <=> HNO + HNO",
-    kinetics = Arrhenius(A=(1e+15, 'cm^6/(mol^2*s)'), n=0, Ea=(11, 'kJ/mol'), T0=(1, 'K')),
-    longDesc = 
+    label = "HNO + HNO <=> H2 + NO + NO",
+    kinetics = Arrhenius(A=(5e+15, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
+    longDesc =
 u"""
-From D.W. Blaylock, Y-A. Zhu, W.H. Green, Top. Catal. 2011, 54, 828-844, doi: 10.1007/s11244-011-9704-z
-Table 7, Reaction 1
-Original dimensions were length/time, other than unit conversion (m to cm).
-Multiplied by 1e+10 when converting to gas phase (n at 1 bar, 873 K = 1.4e-5 mol / cm^3).
+
 """,
 )
 
