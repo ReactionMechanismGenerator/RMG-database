@@ -30,7 +30,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -41,7 +41,7 @@ entry(
     kinetics = Arrhenius(A=(64000, 'cm^3/(mol*s)'), n=2.17, Ea=(7520, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -52,7 +52,7 @@ entry(
     kinetics = Arrhenius(A=(0.904, 'cm^3/(mol*s)'), n=3.65, Ea=(7154, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -63,7 +63,7 @@ entry(
     kinetics = Arrhenius(A=(3e+10, 'cm^3/(mol*s)'), n=0, Ea=(12900, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -95,7 +95,7 @@ entry(
     kinetics = Arrhenius(A=(5.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(16055, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Klippenstein_Glarborg2016
+Klippenstein_Glarborg2016
 """,
 )
 
@@ -106,7 +106,7 @@ entry(
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -117,7 +117,7 @@ entry(
     kinetics = Arrhenius(A=(1e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -128,7 +128,7 @@ entry(
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -160,7 +160,7 @@ entry(
     kinetics = Arrhenius(A=(9e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Klippenstein_Glarborg2016
+Klippenstein_Glarborg2016
 """,
 )
 
@@ -245,7 +245,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -281,13 +281,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 9 C2H5 + C3H7 <=> C3H8 + C2H4 in Disproportionation/training\nThis reaction matched rate rule [C_rad/H/NonDeC;Cmethyl_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 9 C2H5 + C3H7 <=> C3H8 + C2H4 in Disproportionation/training\nThis reaction matched rate_rule [C_rad/H/NonDeC;Cmethyl_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 9 C2H5 + C3H7 <=> C3H8 + C2H4 in Disproportionation/training
-This reaction matched rate rule [C_rad/H/NonDeC;Cmethyl_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [C_rad/H/NonDeC;Cmethyl_Csrad]
+Disproportionation
 """,
 )
 
@@ -302,15 +302,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nfamily: Disproportionation',
+        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 3.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -321,7 +321,7 @@ entry(
     kinetics = Arrhenius(A=(35, 'cm^3/(mol*s)'), n=3.44, Ea=(10384, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Klippenstein_Glarborg2016
+Klippenstein_Glarborg2016
 """,
 )
 
@@ -332,7 +332,7 @@ entry(
     kinetics = Arrhenius(A=(1.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Klippenstein_Glarborg2016
+Klippenstein_Glarborg2016
 """,
 )
 
@@ -343,7 +343,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(10400, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -354,7 +354,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(10400, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -415,7 +415,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Klippenstein_Glarborg2016
+Klippenstein_Glarborg2016
 """,
 )
 
@@ -426,7 +426,7 @@ entry(
     kinetics = Arrhenius(A=(4100, 'cm^3/(mol*s)'), n=3.156, Ea=(8755, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: Klippenstein_Glarborg2016
+Klippenstein_Glarborg2016
 """,
 )
 
@@ -448,7 +448,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: Klippenstein_Glarborg2016
+Klippenstein_Glarborg2016
 """,
 )
 
@@ -464,7 +464,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: BurkeH2O2inN2
+BurkeH2O2inN2
 """,
 )
 
@@ -475,7 +475,7 @@ entry(
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -486,7 +486,7 @@ entry(
     kinetics = Arrhenius(A=(1.3e+06, 'cm^3/(mol*s)'), n=2.4, Ea=(4471, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -497,7 +497,7 @@ entry(
     kinetics = Arrhenius(A=(349000, 'cm^3/(mol*s)'), n=2.69, Ea=(6450, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -586,7 +586,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -648,7 +648,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -733,7 +733,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -746,14 +746,14 @@ entry(
         n = -0.391667,
         Ea = (-0.0453267, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Estimated using template [Cs_rad;Cmethyl_Csrad] for rate rule [C_methyl;Cmethyl_Csrad]\nEuclidian distance = 1.0\nMultiplied by reaction path degeneracy 6.0\nfamily: Disproportionation',
+        comment = 'Estimated using template [Cs_rad;Cmethyl_Csrad] for rate_rule [C_methyl;Cmethyl_Csrad]\nEuclidian distance = 1.0\nMultiplied by reaction path degeneracy 6.0\nDisproportionation',
     ),
     longDesc = 
 u"""
-Estimated using template [Cs_rad;Cmethyl_Csrad] for rate rule [C_methyl;Cmethyl_Csrad]
+Estimated using template [Cs_rad;Cmethyl_Csrad] for rate_rule [C_methyl;Cmethyl_Csrad]
 Euclidian distance = 1.0
 Multiplied by reaction path degeneracy 6.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -768,15 +768,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nfamily: Disproportionation',
+        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 6.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -791,15 +791,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 9 used for C_rad/H/NonDeC;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H/NonDeC;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nfamily: Disproportionation',
+        comment = 'From training reaction 9 used for C_rad/H/NonDeC;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H/NonDeC;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 9 used for C_rad/H/NonDeC;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H/NonDeC;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H/NonDeC;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 6.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -814,13 +814,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 20 CH3 + C3H7-2 <=> CH4 + C3H6-2 in Disproportionation/training\nThis reaction matched rate rule [C_methyl;C/H2/Nd_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 20 CH3 + C3H7-2 <=> CH4 + C3H6-2 in Disproportionation/training\nThis reaction matched rate_rule [C_methyl;C/H2/Nd_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 20 CH3 + C3H7-2 <=> CH4 + C3H6-2 in Disproportionation/training
-This reaction matched rate rule [C_methyl;C/H2/Nd_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [C_methyl;C/H2/Nd_Csrad]
+Disproportionation
 """,
 )
 
@@ -835,13 +835,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 21 C3H7-2 + C2H5-2 <=> C2H6 + C3H6-2 in Disproportionation/training\nThis reaction matched rate rule [C_rad/H2/Cs;C/H2/Nd_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 21 C3H7-2 + C2H5-2 <=> C2H6 + C3H6-2 in Disproportionation/training\nThis reaction matched rate_rule [C_rad/H2/Cs;C/H2/Nd_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 21 C3H7-2 + C2H5-2 <=> C2H6 + C3H6-2 in Disproportionation/training
-This reaction matched rate rule [C_rad/H2/Cs;C/H2/Nd_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [C_rad/H2/Cs;C/H2/Nd_Csrad]
+Disproportionation
 """,
 )
 
@@ -857,13 +857,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training\nThis reaction matched rate rule [C_rad/H/NonDeC;C/H2/Nd_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training\nThis reaction matched rate_rule [C_rad/H/NonDeC;C/H2/Nd_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training
-This reaction matched rate rule [C_rad/H/NonDeC;C/H2/Nd_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [C_rad/H/NonDeC;C/H2/Nd_Csrad]
+Disproportionation
 """,
 )
 
@@ -879,13 +879,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training\nThis reaction matched rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training\nThis reaction matched rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training
-This reaction matched rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Disproportionation
 """,
 )
 
@@ -900,15 +900,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 21 used for C_rad/H2/Cs;C/H2/Nd_Csrad\nExact match found for rate rule [C_rad/H2/Cs;C/H2/Nd_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 2.0\nfamily: Disproportionation',
+        comment = 'From training reaction 21 used for C_rad/H2/Cs;C/H2/Nd_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;C/H2/Nd_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 2.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 21 used for C_rad/H2/Cs;C/H2/Nd_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;C/H2/Nd_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;C/H2/Nd_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 2.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -923,15 +923,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 4 used for H_rad;Cmethyl_Csrad\nExact match found for rate rule [H_rad;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nfamily: Disproportionation',
+        comment = 'From training reaction 4 used for H_rad;Cmethyl_Csrad\nExact match found for rate_rule [H_rad;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 4 used for H_rad;Cmethyl_Csrad
-Exact match found for rate rule [H_rad;Cmethyl_Csrad]
+Exact match found for rate_rule [H_rad;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 6.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -947,13 +947,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training\nThis reaction matched rate rule [C_rad/H/NonDeC;C/H2/Nd_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training\nThis reaction matched rate_rule [C_rad/H/NonDeC;C/H2/Nd_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training
-This reaction matched rate rule [C_rad/H/NonDeC;C/H2/Nd_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [C_rad/H/NonDeC;C/H2/Nd_Csrad]
+Disproportionation
 """,
 )
 
@@ -969,13 +969,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training\nThis reaction matched rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training\nThis reaction matched rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 27 C3H7-2 + C3H7 <=> C3H8 + C3H6-2 in Disproportionation/training
-This reaction matched rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Disproportionation
 """,
 )
 
@@ -990,13 +990,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 18 H + C3H7-2 <=> H2 + C3H6-2 in Disproportionation/training\nThis reaction matched rate rule [H_rad;C/H2/Nd_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 18 H + C3H7-2 <=> H2 + C3H6-2 in Disproportionation/training\nThis reaction matched rate_rule [H_rad;C/H2/Nd_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 18 H + C3H7-2 <=> H2 + C3H6-2 in Disproportionation/training
-This reaction matched rate rule [H_rad;C/H2/Nd_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [H_rad;C/H2/Nd_Csrad]
+Disproportionation
 """,
 )
 
@@ -1015,7 +1015,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1026,7 +1026,7 @@ entry(
     kinetics = Arrhenius(A=(7.94e+11, 'cm^3/(mol*s)'), n=0, Ea=(20500, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1037,7 +1037,7 @@ entry(
     kinetics = Arrhenius(A=(7.94e+11, 'cm^3/(mol*s)'), n=0, Ea=(16200, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1072,7 +1072,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1088,7 +1088,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1099,7 +1099,7 @@ entry(
     kinetics = Arrhenius(A=(2.21, 'cm^3/(mol*s)'), n=3.5, Ea=(5675, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1110,7 +1110,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(9800, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1121,7 +1121,7 @@ entry(
     kinetics = Arrhenius(A=(4e+11, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1136,13 +1136,13 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'Matched reaction 23 C3H5 + C3H7-2 <=> C3H6 + C3H6-2 in Disproportionation/training\nThis reaction matched rate rule [C_rad/H2/Cd;C/H2/Nd_Csrad]\nfamily: Disproportionation',
+        comment = 'Matched reaction 23 C3H5 + C3H7-2 <=> C3H6 + C3H6-2 in Disproportionation/training\nThis reaction matched rate_rule [C_rad/H2/Cd;C/H2/Nd_Csrad]\nDisproportionation',
     ),
     longDesc = 
 u"""
 Matched reaction 23 C3H5 + C3H7-2 <=> C3H6 + C3H6-2 in Disproportionation/training
-This reaction matched rate rule [C_rad/H2/Cd;C/H2/Nd_Csrad]
-family: Disproportionation
+This reaction matched rate_rule [C_rad/H2/Cd;C/H2/Nd_Csrad]
+Disproportionation
 """,
 )
 
@@ -1157,15 +1157,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 7 used for C_rad/H2/Cd;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cd;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 12.0\nfamily: Disproportionation',
+        comment = 'From training reaction 7 used for C_rad/H2/Cd;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cd;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 12.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 7 used for C_rad/H2/Cd;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cd;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cd;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 12.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1176,7 +1176,7 @@ entry(
     kinetics = Arrhenius(A=(8800, 'cm^3/(mol*s)'), n=2.48, Ea=(6130, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1187,7 +1187,7 @@ entry(
     kinetics = Arrhenius(A=(1420, 'cm^3/(mol*s)'), n=2.67, Ea=(6850, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1198,7 +1198,7 @@ entry(
     kinetics = Arrhenius(A=(3e+11, 's^-1'), n=0, Ea=(21100, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1217,7 +1217,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1228,7 +1228,7 @@ entry(
     kinetics = Arrhenius(A=(9.85e+95, 's^-1'), n=-23.11, Ea=(147600, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1244,7 +1244,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1255,7 +1255,7 @@ entry(
     kinetics = Arrhenius(A=(1.36, 'cm^3/(mol*s)'), n=3.65, Ea=(7154, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1266,7 +1266,7 @@ entry(
     kinetics = Arrhenius(A=(1.51e+12, 'cm^3/(mol*s)'), n=0, Ea=(10400, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1285,7 +1285,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1300,14 +1300,14 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
-        comment = 'Estimated using an average for rate rule [C/H2/Cs\\H3/Cs\\H3;C_rad/H2/Cs]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 2.0\nfamily: H_Abstraction',
+        comment = 'Estimated using an average for rate_rule [C/H2/Cs\\H3/Cs\\H3;C_rad/H2/Cs]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 2.0\nH_Abstraction',
     ),
     longDesc = 
 u"""
-Estimated using an average for rate rule [C/H2/Cs\H3/Cs\H3;C_rad/H2/Cs]
+Estimated using an average for rate_rule [C/H2/Cs\H3/Cs\H3;C_rad/H2/Cs]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 2.0
-family: H_Abstraction
+H_Abstraction
 """,
 )
 
@@ -1320,14 +1320,14 @@ entry(
         n = 4.81,
         Ea = (35.5222, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Estimated using template [C/H3/Cs;C_rad/H2/Cs] for rate rule [C/H3/Cs\\TwoNonDe;C_rad/H2/Cs]\nEuclidian distance = 1.0\nMultiplied by reaction path degeneracy 9.0\nfamily: H_Abstraction',
+        comment = 'Estimated using template [C/H3/Cs;C_rad/H2/Cs] for rate_rule [C/H3/Cs\\TwoNonDe;C_rad/H2/Cs]\nEuclidian distance = 1.0\nMultiplied by reaction path degeneracy 9.0\nH_Abstraction',
     ),
     longDesc = 
 u"""
-Estimated using template [C/H3/Cs;C_rad/H2/Cs] for rate rule [C/H3/Cs\TwoNonDe;C_rad/H2/Cs]
+Estimated using template [C/H3/Cs;C_rad/H2/Cs] for rate_rule [C/H3/Cs\TwoNonDe;C_rad/H2/Cs]
 Euclidian distance = 1.0
 Multiplied by reaction path degeneracy 9.0
-family: H_Abstraction
+H_Abstraction
 """,
 )
 
@@ -1342,15 +1342,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nfamily: Disproportionation',
+        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 3.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1365,15 +1365,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 21 used for C_rad/H2/Cs;C/H2/Nd_Csrad\nExact match found for rate rule [C_rad/H2/Cs;C/H2/Nd_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 2.0\nfamily: Disproportionation',
+        comment = 'From training reaction 21 used for C_rad/H2/Cs;C/H2/Nd_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;C/H2/Nd_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 2.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 21 used for C_rad/H2/Cs;C/H2/Nd_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;C/H2/Nd_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;C/H2/Nd_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 2.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1388,15 +1388,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nfamily: Disproportionation',
+        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 6.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1409,14 +1409,14 @@ entry(
         n = 4.545,
         Ea = (19.1, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Estimated using an average for rate rule [C/H3/Cd\\H_Cd\\H2;C_rad/H2/Cs]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nfamily: H_Abstraction',
+        comment = 'Estimated using an average for rate_rule [C/H3/Cd\\H_Cd\\H2;C_rad/H2/Cs]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nH_Abstraction',
     ),
     longDesc = 
 u"""
-Estimated using an average for rate rule [C/H3/Cd\H_Cd\H2;C_rad/H2/Cs]
+Estimated using an average for rate_rule [C/H3/Cd\H_Cd\H2;C_rad/H2/Cs]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 3.0
-family: H_Abstraction
+H_Abstraction
 """,
 )
 
@@ -1448,7 +1448,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(7800, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1464,7 +1464,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1493,7 +1493,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1504,7 +1504,7 @@ entry(
     kinetics = Arrhenius(A=(1890, 'cm^3/(mol*s)'), n=2.67, Ea=(6850, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1540,15 +1540,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 9 used for C_rad/H/NonDeC;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H/NonDeC;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nfamily: Disproportionation',
+        comment = 'From training reaction 9 used for C_rad/H/NonDeC;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H/NonDeC;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 9 used for C_rad/H/NonDeC;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H/NonDeC;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H/NonDeC;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 3.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1563,15 +1563,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nfamily: Disproportionation',
+        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 3.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1584,14 +1584,14 @@ entry(
         n = -0.391667,
         Ea = (-0.0453267, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Estimated using template [Cs_rad;Cmethyl_Csrad] for rate rule [C_methyl;Cmethyl_Csrad]\nEuclidian distance = 1.0\nMultiplied by reaction path degeneracy 3.0\nfamily: Disproportionation',
+        comment = 'Estimated using template [Cs_rad;Cmethyl_Csrad] for rate_rule [C_methyl;Cmethyl_Csrad]\nEuclidian distance = 1.0\nMultiplied by reaction path degeneracy 3.0\nDisproportionation',
     ),
     longDesc = 
 u"""
-Estimated using template [Cs_rad;Cmethyl_Csrad] for rate rule [C_methyl;Cmethyl_Csrad]
+Estimated using template [Cs_rad;Cmethyl_Csrad] for rate_rule [C_methyl;Cmethyl_Csrad]
 Euclidian distance = 1.0
 Multiplied by reaction path degeneracy 3.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1606,15 +1606,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nfamily: Disproportionation',
+        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 3.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1629,15 +1629,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 4 used for H_rad;Cmethyl_Csrad\nExact match found for rate rule [H_rad;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nfamily: Disproportionation',
+        comment = 'From training reaction 4 used for H_rad;Cmethyl_Csrad\nExact match found for rate_rule [H_rad;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 4 used for H_rad;Cmethyl_Csrad
-Exact match found for rate rule [H_rad;Cmethyl_Csrad]
+Exact match found for rate_rule [H_rad;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 3.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1652,15 +1652,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 7 used for C_rad/H2/Cd;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cd;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nfamily: Disproportionation',
+        comment = 'From training reaction 7 used for C_rad/H2/Cd;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cd;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 6.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 7 used for C_rad/H2/Cd;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cd;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cd;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 6.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1675,15 +1675,15 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
-        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nfamily: Disproportionation',
+        comment = 'From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad\nExact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]\nEuclidian distance = 0\nMultiplied by reaction path degeneracy 3.0\nDisproportionation',
     ),
     longDesc = 
 u"""
 From training reaction 6 used for C_rad/H2/Cs;Cmethyl_Csrad
-Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+Exact match found for rate_rule [C_rad/H2/Cs;Cmethyl_Csrad]
 Euclidian distance = 0
 Multiplied by reaction path degeneracy 3.0
-family: Disproportionation
+Disproportionation
 """,
 )
 
@@ -1701,7 +1701,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1712,7 +1712,7 @@ entry(
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
@@ -1732,7 +1732,7 @@ entry(
     ),
     longDesc = 
 u"""
-Originally from reaction library: CurranPentane
+CurranPentane
 """,
 )
 
