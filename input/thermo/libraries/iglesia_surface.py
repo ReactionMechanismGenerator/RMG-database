@@ -79,7 +79,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([13.18,15.06,16.8,18.35,20.93,22.93,26.1],'cal/(mol*K)'),
-        H298 = (13.66, 'kcal/mol'),
+        H298 = (13.69, 'kcal/mol'),
         S298 = (62.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -113,12 +113,74 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([17.3,21.3,24.8,28.0,32.9,36.5,42.1],'cal/(mol*K)'),
-        H298 = (7.43, 'kcal/mol'),
+        H298 = (6.84, 'kcal/mol'),
         S298 = (70.44,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc =
 u"""
 From NOx2018
+""",
+)
+
+entry(
+    index = 4,
+    label = "IC3H7NO",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {9,S}
+3  N u0 p1 c0 {2,S} {4,D}
+4  O u0 p2 c0 {3,D}
+5  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([23.58,28.38,32.80,36.68,42.84,47.44,54.66],'cal/(mol*K)'),
+        H298 = (20.34, 'kcal/mol'),
+        S298 = (79.55,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+From GAV
+""",
+)
+
+entry(
+    index = 5,
+    label = "NC3H7NO",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+3  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+4  N u0 p1 c0 {3,S} {5,D}
+5  O u0 p2 c0 {4,D}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([23.49,28.39,32.85,36.84,42.99,47.61,54.83],'cal/(mol*K)'),
+        H298 = (3.08, 'kcal/mol'),
+        S298 = (81.95,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+From GAV
 """,
 )
