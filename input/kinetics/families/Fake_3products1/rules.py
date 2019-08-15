@@ -12,7 +12,7 @@ entry(
 	index = 1,
 	label = "HOORRR",
 	kinetics = ArrheniusEP(
-		A = (1e13, 'cm^3/(mol*s)'),
+		A = (1e13, '1/s'),
 		n = 0,
 		alpha = 0,
 		E0 = (0.5, 'kcal/mol'),
@@ -22,7 +22,7 @@ entry(
 	reference = None,
 	referenceType = "",
 	rank = 0,
-	shortDesc = u"""Default""",
+	shortDesc = u"""Irrelevant, because not used to make kinetics""",
 	longDesc =
 u"""
 
