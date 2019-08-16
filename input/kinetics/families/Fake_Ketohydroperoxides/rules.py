@@ -12,7 +12,7 @@ entry(
 	index = 1,
 	label = "jOOQOOH",
 	kinetics = ArrheniusEP(
-		A = (10000000000000.0, 'cm^3/(mol*s)'),
+		A = (10000000000000.0, '1/s'),
 		n = 0,
 		alpha = 0,
 		E0 = (0.5, 'kcal/mol'),
@@ -22,7 +22,7 @@ entry(
 	reference = None,
 	referenceType = "",
 	rank = 0,
-	shortDesc = u"""Default""",
+	shortDesc = u"""Irrevelant as shouldn't be used for making kinetics""",
 	longDesc =
 u"""
 
