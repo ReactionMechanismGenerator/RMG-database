@@ -1,0 +1,45 @@
+Identifiers:
+  adjacency_list: |
+    1  N u0 p1 c0 {2,S} {13,S} {14,S}
+    2  C u0 p0 c0 {1,S} {3,D} {4,S}
+    3  C u0 p0 c0 {2,D} {5,S} {8,S}
+    4  C u0 p0 c0 {2,S} {7,D} {12,S}
+    5  C u0 p0 c0 {3,S} {6,D} {9,S}
+    6  C u0 p0 c0 {5,D} {7,S} {10,S}
+    7  C u0 p0 c0 {4,D} {6,S} {11,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {5,S}
+    10 H u0 p0 c0 {6,S}
+    11 H u0 p0 c0 {7,S}
+    12 H u0 p0 c0 {4,S}
+    13 H u0 p0 c0 {1,S}
+    14 H u0 p0 c0 {1,S}
+  formula: C6H7N
+  inchi: InChI=1S/C6H7N/c7-6-4-2-1-3-5-6/h1-5H,7H2
+  inchi_key: PAYRUJLWNCNPSJ-UHFFFAOYSA-N
+  label: Aniline
+  smiles: Nc1ccccc1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 93.12652889197832
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 403
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.88
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 87.03
+      class: ThermoData

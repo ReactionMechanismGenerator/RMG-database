@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 S u1 p0 c+1 {2,T}
+    2 C u0 p1 c-1 {1,T}
+  formula: CS
+  inchi: InChI=1S/CS/c1-2
+  inchi_key: DXHPZXWIPWDXHJ-UHFFFAOYSA-N
+  label: Carbon monosulfide
+  smiles: '[C-]#[S+]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 44.07570414389252
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 27
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 2.0
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 276.5
+      class: ThermoData

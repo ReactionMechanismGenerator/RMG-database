@@ -1,0 +1,41 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 N u0 p1 c0 {2,S} {3,S} {7,S}
+    2 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+    3 C u1 p0 c0 {1,S} {8,S} {9,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {2,S}
+    6 H u0 p0 c0 {2,S}
+    7 H u0 p0 c0 {1,S}
+    8 H u0 p0 c0 {3,S}
+    9 H u0 p0 c0 {3,S}
+  formula: C2H6N
+  inchi: InChI=1S/C2H6N/c1-3-2/h3H,1H2,2H3
+  inchi_key: AQIAIZBHFAKICS-UHFFFAOYSA-N
+  label: (Methylamino)methyl
+  smiles: CN[CH2]
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 44.07578447047131
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 185
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.97
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 151.1
+      class: ThermoData

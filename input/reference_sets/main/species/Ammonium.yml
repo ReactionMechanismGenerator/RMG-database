@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+    2 H u0 p0 c0 {1,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+    5 H u0 p0 c0 {1,S}
+  formula: H4N
+  inchi_key: QGZKDVFQNNGYKY-UHFFFAOYSA-O
+  label: Ammonium
+  smiles: '[NH4+]'
+Properties:
+  charge: 1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 18.03850207599818
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 20
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.21
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 631.73
+      class: ThermoData

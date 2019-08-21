@@ -1,0 +1,38 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {6,S} {7,S}
+    2 O u0 p3 c-1 {6,S}
+    3 O u0 p3 c-1 {7,S}
+    4 O u0 p2 c0 {6,D}
+    5 O u0 p2 c0 {7,D}
+    6 N u0 p0 c+1 {1,S} {2,S} {4,D}
+    7 N u0 p0 c+1 {1,S} {3,S} {5,D}
+  formula: N2O5
+  inchi: InChI=1S/N2O5/c3-1(4)7-2(5)6
+  inchi_key: ZWWCURLKEXEFQT-UHFFFAOYSA-N
+  label: Dinitrogen pentoxide
+  smiles: '[O-][N+](=O)O[N+](=O)[O-]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 108.01048549640865
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 390
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.35000000000000003
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 14.84
+      class: ThermoData

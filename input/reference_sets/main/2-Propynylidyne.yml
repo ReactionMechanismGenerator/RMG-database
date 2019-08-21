@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 4
+    1 C u0 p0 c0 {2,T} {4,S}
+    2 C u0 p0 c0 {1,T} {3,S}
+    3 C u3 p0 c0 {2,S}
+    4 H u0 p0 c0 {1,S}
+  formula: C3H
+  inchi: InChI=1S/C3H/c1-3-2/h1H
+  inchi_key: WWDRUPNDOSDMRD-UHFFFAOYSA-N
+  label: 2-Propynylidyne
+  smiles: '[C]C#C'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 37.040043346750195
+  multiplicity: 4
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 117
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.81
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 722.29
+      class: ThermoData

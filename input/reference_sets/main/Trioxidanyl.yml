@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 O u0 p2 c0 {2,S} {4,S}
+    2 O u0 p2 c0 {1,S} {3,S}
+    3 O u1 p2 c0 {2,S}
+    4 H u0 p0 c0 {1,S}
+  formula: HO3
+  inchi: InChI=1S/HO3/c1-3-2/h1H
+  inchi_key: WURFKUQACINBSI-UHFFFAOYSA-N
+  label: Trioxidanyl
+  smiles: '[O]OO'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 49.00614151702992
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 124
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.13
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 23.32
+      class: ThermoData

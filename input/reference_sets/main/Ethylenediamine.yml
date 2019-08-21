@@ -1,0 +1,43 @@
+Identifiers:
+  adjacency_list: |
+    1  N u0 p1 c0 {3,S} {9,S} {10,S}
+    2  N u0 p1 c0 {4,S} {11,S} {12,S}
+    3  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+    4  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+    5  H u0 p0 c0 {3,S}
+    6  H u0 p0 c0 {3,S}
+    7  H u0 p0 c0 {4,S}
+    8  H u0 p0 c0 {4,S}
+    9  H u0 p0 c0 {1,S}
+    10 H u0 p0 c0 {1,S}
+    11 H u0 p0 c0 {2,S}
+    12 H u0 p0 c0 {2,S}
+  formula: C2H8N2
+  inchi: InChI=1S/C2H8N2/c3-1-2-4/h1-4H2
+  inchi_key: PIICEJLVQHRZGT-UHFFFAOYSA-N
+  label: Ethylenediamine
+  smiles: NCCN
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 60.09840630150999
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 256
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.59
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -17.03
+      class: ThermoData

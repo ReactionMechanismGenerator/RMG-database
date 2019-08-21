@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 F u0 p3 c0 {3,S}
+    2 F u0 p3 c0 {4,S}
+    3 C u0 p0 c0 {1,S} {4,T}
+    4 C u0 p0 c0 {2,S} {3,T}
+  formula: C2F2
+  inchi: InChI=1S/C2F2/c3-1-2-4
+  inchi_key: BWTZYYGAOGUPFQ-UHFFFAOYSA-N
+  label: 1,2-Difluoroacetylene
+  smiles: FC#CF
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 62.018211534460576
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 197
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.66
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 5.59
+      class: ThermoData

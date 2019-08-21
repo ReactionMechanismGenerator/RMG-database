@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 S u0 p1 c0 {2,D} {3,D}
+    2 O u0 p2 c0 {1,D}
+    3 O u0 p2 c0 {1,D}
+  formula: O2S
+  inchi: InChI=1S/O2S/c1-3-2
+  inchi_key: RAHZWNYVWXNFOC-UHFFFAOYSA-N
+  label: Sulfur dioxide
+  smiles: O=S=O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 64.06380399883582
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 103
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.2
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -296.81
+      class: ThermoData

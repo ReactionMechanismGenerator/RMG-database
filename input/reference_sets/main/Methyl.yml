@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 C u1 p0 c0 {2,S} {3,S} {4,S}
+    2 H u0 p0 c0 {1,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+  formula: CH3
+  inchi: InChI=1S/CH3/h1H3
+  inchi_key: WCYWZMWISLQXQU-UHFFFAOYSA-N
+  label: Methyl
+  smiles: '[CH3]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 15.034521442196064
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 14
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.08
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 146.41400000000002
+      class: ThermoData

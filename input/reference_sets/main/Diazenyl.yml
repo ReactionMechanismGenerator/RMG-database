@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 N u0 p1 c0 {2,D} {3,S}
+    2 N u1 p1 c0 {1,D}
+    3 H u0 p0 c0 {1,S}
+  formula: HN2
+  inchi: InChI=1S/HN2/c1-2/h1H
+  inchi_key: NALBLJLOBICXRH-UHFFFAOYSA-N
+  label: Diazenyl
+  smiles: N=[N]
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 29.02142329463812
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 51
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.47000000000000003
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 249.25
+      class: ThermoData

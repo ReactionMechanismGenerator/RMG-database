@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    1 C u0 p0 c0 {2,S} {3,T}
+    2 C u0 p0 c0 {1,S} {4,T}
+    3 C u0 p0 c0 {1,T} {5,S}
+    4 C u0 p0 c0 {2,T} {6,S}
+    5 H u0 p0 c0 {3,S}
+    6 H u0 p0 c0 {4,S}
+  formula: C4H2
+  inchi: InChI=1S/C4H2/c1-3-4-2/h1-2H
+  inchi_key: LLCSWKVOHICRDD-UHFFFAOYSA-N
+  label: 1,3-Butadiyne
+  smiles: C#CC#C
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 50.05868454398676
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 213
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8200000000000001
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 460.07
+      class: ThermoData

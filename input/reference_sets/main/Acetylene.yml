@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 C u0 p0 c0 {2,T} {3,S}
+    2 C u0 p0 c0 {1,T} {4,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {2,S}
+  formula: C2H2
+  inchi: InChI=1S/C2H2/c1-2/h1-2H
+  inchi_key: HSFWRNGVRCDJHI-UHFFFAOYSA-N
+  label: Acetylene
+  smiles: C#C
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 26.037282394473127
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 57
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.13
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 228.27
+      class: ThermoData

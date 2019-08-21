@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 N u1 p1 c0 {2,D}
+    2 O u0 p2 c0 {1,D}
+  formula: 'NO'
+  inchi: InChI=1S/NO/c1-2
+  inchi_key: MWUXSHHQAYIFBG-UHFFFAOYSA-N
+  label: Nitric oxide
+  smiles: '[N]=O'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 30.00614205092924
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 25
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.065
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 91.12
+      class: ThermoData

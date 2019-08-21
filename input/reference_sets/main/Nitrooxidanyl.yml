@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 O u1 p2 c0 {4,S}
+    2 O u0 p3 c-1 {4,S}
+    3 O u0 p2 c0 {4,D}
+    4 N u0 p0 c+1 {1,S} {2,S} {3,D}
+  formula: NO3
+  inchi: InChI=1S/NO3/c2-1(3)4
+  inchi_key: YPJKMVATUPSWOH-UHFFFAOYSA-N
+  label: Nitrooxidanyl
+  smiles: '[O-][N+](=O)[O]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 62.00494298062935
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 193
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.19
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 74.13
+      class: ThermoData

@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {3,S}
+    2 Cl u0 p3 c0 {3,S}
+    3 S  u0 p0 c0 {1,S} {2,S} {4,D} {5,D}
+    4 O  u0 p2 c0 {3,D}
+    5 O  u0 p2 c0 {3,D}
+  formula: Cl2O2S
+  inchi: InChI=1S/Cl2O2S/c1-5(2,3)4
+  inchi_key: YBBRCQOCSYXUOC-UHFFFAOYSA-N
+  label: Sulfuryl chloride
+  smiles: ClS(=O)(=O)Cl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 134.96980828340864
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 270
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 2.1
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -354.8
+      class: ThermoData

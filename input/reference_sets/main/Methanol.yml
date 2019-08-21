@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+    2 O u0 p2 c0 {1,S} {6,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+    5 H u0 p0 c0 {1,S}
+    6 H u0 p0 c0 {2,S}
+  formula: CH4O
+  inchi: InChI=1S/CH4O/c1-2/h2H,1H3
+  inchi_key: OKKJLVBELUTLKV-UHFFFAOYSA-N
+  label: Methanol
+  smiles: CO
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 32.04186202952587
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 85
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.15
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -200.84
+      class: ThermoData

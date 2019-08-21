@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 Cl u0 p3 c0 {3,S}
+    2 O  u0 p2 c0 {3,D}
+    3 C  u1 p0 c0 {1,S} {2,D}
+  formula: CClO
+  inchi: InChI=1S/CClO/c2-1-3
+  inchi_key: DDKMFOUTRRODRE-UHFFFAOYSA-N
+  label: Chloroformyl
+  smiles: O=[C]Cl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 63.46310368189328
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 111
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.49
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -20.52
+      class: ThermoData

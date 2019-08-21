@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {2,D}
+    2 N u0 p1 c0 {1,D} {3,S}
+    3 H u0 p0 c0 {2,S}
+  formula: HNO
+  inchi: InChI=1S/HNO/c1-2/h1H
+  inchi_key: ODUCDPQEXGNKDN-UHFFFAOYSA-N
+  label: Nitrosyl hydride
+  smiles: N=O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 31.01408217340899
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 49
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.11
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 106.96000000000001
+      class: ThermoData

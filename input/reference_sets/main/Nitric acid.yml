@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {4,S} {5,S}
+    2 O u0 p3 c-1 {4,S}
+    3 O u0 p2 c0 {4,D}
+    4 N u0 p0 c+1 {1,S} {2,S} {3,D}
+    5 H u0 p0 c0 {1,S}
+  formula: HNO3
+  inchi: InChI=1S/HNO3/c2-1(3)4/h(H,2,3,4)
+  inchi_key: GRYLNZFGIOXLOG-UHFFFAOYSA-N
+  label: Nitric acid
+  smiles: '[O-][N+](=O)O'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 63.0128831031091
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 208
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.18
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -134.2
+      class: ThermoData

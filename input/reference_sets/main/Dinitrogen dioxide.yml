@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {3,D}
+    2 O u0 p2 c0 {4,D}
+    3 N u0 p1 c0 {1,D} {4,S}
+    4 N u0 p1 c0 {2,D} {3,S}
+  formula: N2O2
+  inchi: InChI=1S/N2O2/c3-1-2-4
+  inchi_key: AZLYZRGJCVQKKK-UHFFFAOYSA-N
+  label: Dinitrogen dioxide
+  smiles: O=NN=O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 60.01228410185848
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 195
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.14
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 171.12
+      class: ThermoData

@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 3
+    1 S u1 p2 c0 {2,S}
+    2 S u1 p2 c0 {1,S}
+  formula: S2
+  inchi: InChI=1S/S2/c1-2
+  inchi_key: MAHNFPMIPQKPPI-UHFFFAOYSA-N
+  label: Disulfur
+  smiles: '[S][S]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 64.13000613827143
+  multiplicity: 3
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 29
+is_ts: false
+reference_data:
+  NIST Chemistry WebBook:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.3
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 128.6
+      class: ThermoData

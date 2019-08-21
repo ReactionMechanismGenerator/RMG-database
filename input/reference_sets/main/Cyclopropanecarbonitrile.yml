@@ -1,0 +1,41 @@
+Identifiers:
+  adjacency_list: |
+    1  N u0 p1 c0 {5,T}
+    2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+    3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+    4  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+    5  C u0 p0 c0 {1,T} {2,S}
+    6  H u0 p0 c0 {2,S}
+    7  H u0 p0 c0 {3,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {4,S}
+  formula: C4H5N
+  inchi: InChI=1S/C4H5N/c5-3-4-1-2-4/h4H,1-2H2
+  inchi_key: AUQDITHEDVOTCU-UHFFFAOYSA-N
+  label: Cyclopropanecarbonitrile
+  smiles: N#CC1CC1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 67.08924649750519
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 284
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.7000000000000001
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 182.70000000000002
+      class: ThermoData

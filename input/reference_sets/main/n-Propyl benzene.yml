@@ -1,0 +1,52 @@
+Identifiers:
+  adjacency_list: |
+    1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
+    2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
+    3  C u0 p0 c0 {1,S} {14,S} {15,S} {16,S}
+    4  C u0 p0 c0 {2,S} {5,D} {6,S}
+    5  C u0 p0 c0 {4,D} {7,S} {17,S}
+    6  C u0 p0 c0 {4,S} {9,D} {21,S}
+    7  C u0 p0 c0 {5,S} {8,D} {18,S}
+    8  C u0 p0 c0 {7,D} {9,S} {19,S}
+    9  C u0 p0 c0 {6,D} {8,S} {20,S}
+    10 H u0 p0 c0 {1,S}
+    11 H u0 p0 c0 {1,S}
+    12 H u0 p0 c0 {2,S}
+    13 H u0 p0 c0 {2,S}
+    14 H u0 p0 c0 {3,S}
+    15 H u0 p0 c0 {3,S}
+    16 H u0 p0 c0 {3,S}
+    17 H u0 p0 c0 {5,S}
+    18 H u0 p0 c0 {7,S}
+    19 H u0 p0 c0 {8,S}
+    20 H u0 p0 c0 {9,S}
+    21 H u0 p0 c0 {6,S}
+  formula: C9H12
+  inchi: InChI=1S/C9H12/c1-2-6-9-7-4-3-5-8-9/h3-5,7-8H,2,6H2,1H3
+  inchi_key: ODLMAHJVESYWTB-UHFFFAOYSA-N
+  label: n-Propyl benzene
+  smiles: CCCC1=CC=CC=C1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 120.19159114256834
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 424
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.84
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 7.82
+      class: ThermoData

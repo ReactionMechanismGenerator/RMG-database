@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 O u1 p2 c0 {3,S}
+    2 O u0 p2 c0 {3,D}
+    3 N u0 p1 c0 {1,S} {2,D}
+  formula: NO2
+  inchi: InChI=1S/NO2/c2-1-3
+  inchi_key: JCXJVPUVTGWSNB-UHFFFAOYSA-N
+  label: Nitrogen dioxide
+  smiles: '[O]N=O'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 46.0055425157793
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 98
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.065
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 34.048
+      class: ThermoData

@@ -1,0 +1,40 @@
+Identifiers:
+  adjacency_list: |
+    1 S u0 p2 c0 {5,S} {6,S}
+    2 N u0 p1 c0 {4,S} {6,D}
+    3 N u0 p1 c0 {7,T}
+    4 C u0 p0 c0 {2,S} {5,D} {7,S}
+    5 C u0 p0 c0 {1,S} {4,D} {8,S}
+    6 C u0 p0 c0 {1,S} {2,D} {9,S}
+    7 C u0 p0 c0 {3,T} {4,S}
+    8 H u0 p0 c0 {5,S}
+    9 H u0 p0 c0 {6,S}
+  formula: C4H2N2S
+  inchi: InChI=1S/C4H2N2S/c5-1-4-2-7-3-6-4/h2-3H
+  inchi_key: PNAFRZGWUVQUKH-UHFFFAOYSA-N
+  label: 4-Thiazolecarbonitrile
+  smiles: c1scnc1C#N
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 110.13717078528083
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 392
+is_ts: false
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.3
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 293.8
+      class: ThermoData

@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {2,S} {5,S}
+    2 N u0 p1 c0 {1,S} {3,S} {4,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {1,S}
+  formula: H3NO
+  inchi: InChI=1S/H3NO/c1-2/h2H,1H2
+  inchi_key: AVXURJPOCDRRFD-UHFFFAOYSA-N
+  label: Hydroxylamine
+  smiles: 'NO'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 33.029962418368484
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 77
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.5
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -43.62
+      class: ThermoData

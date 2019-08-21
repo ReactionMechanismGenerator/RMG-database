@@ -1,0 +1,42 @@
+Identifiers:
+  adjacency_list: |
+    1  S u0 p2 c0 {2,S} {3,S}
+    2  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+    3  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+    4  C u0 p0 c0 {3,S} {5,D} {10,S}
+    5  C u0 p0 c0 {2,S} {4,D} {11,S}
+    6  H u0 p0 c0 {2,S}
+    7  H u0 p0 c0 {2,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {3,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {5,S}
+  formula: C4H6S
+  inchi: InChI=1S/C4H6S/c1-2-4-5-3-1/h1-2H,3-4H2
+  inchi_key: WURYWHAKEJHAOV-UHFFFAOYSA-N
+  label: 2,5-Dihydrothiophene
+  smiles: S1CC=CC1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 86.15544810304146
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 290
+is_ts: false
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.2
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 86.9
+      class: ThermoData

@@ -1,0 +1,44 @@
+Identifiers:
+  adjacency_list: |
+    1  O u0 p2 c0 {4,S} {6,S}
+    2  N u0 p1 c0 {3,S} {6,D}
+    3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+    4  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+    5  C u0 p0 c0 {6,S} {11,S} {12,S} {13,S}
+    6  C u0 p0 c0 {1,S} {2,D} {5,S}
+    7  H u0 p0 c0 {3,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {5,S}
+    12 H u0 p0 c0 {5,S}
+    13 H u0 p0 c0 {5,S}
+  formula: C4H7NO
+  inchi: InChI=1S/C4H7NO/c1-4-5-2-3-6-4/h2-3H2,1H3
+  inchi_key: GUXJXWKCUUWCLX-UHFFFAOYSA-N
+  label: 4,5-Dihydro-2-methyl-oxazole
+  smiles: CC1=NCCO1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 85.10452720731475
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 347
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.92
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -130.46
+      class: ThermoData

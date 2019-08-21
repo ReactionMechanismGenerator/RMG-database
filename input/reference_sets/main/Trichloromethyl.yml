@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 Cl u0 p3 c0 {4,S}
+    2 Cl u0 p3 c0 {4,S}
+    3 Cl u0 p3 c0 {4,S}
+    4 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  formula: CCl3
+  inchi: InChI=1S/CCl3/c2-1(3)4
+  inchi_key: ZBZJXHCVGLJWFG-UHFFFAOYSA-N
+  label: Trichloromethyl
+  smiles: Cl[C](Cl)Cl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 118.36970750161605
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 206
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.86
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 71.43
+      class: ThermoData

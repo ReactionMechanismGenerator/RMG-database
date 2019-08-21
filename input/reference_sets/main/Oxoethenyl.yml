@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 O u0 p2 c0 {3,D}
+    2 C u1 p0 c0 {3,D} {4,S}
+    3 C u0 p0 c0 {1,D} {2,D}
+    4 H u0 p0 c0 {2,S}
+  formula: C2HO
+  inchi: InChI=1S/C2HO/c1-2-3/h1H
+  inchi_key: QEJQAPYSVNHDJF-UHFFFAOYSA-N
+  label: Oxoethenyl
+  smiles: '[CH]=C=O'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 41.028742736843434
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 118
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.61
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 178.09
+      class: ThermoData

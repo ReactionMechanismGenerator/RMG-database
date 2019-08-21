@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 Cl u0 p3 c0 {2,S}
+    2 C  u1 p0 c0 {1,S} {3,S} {4,S}
+    3 H  u0 p0 c0 {2,S}
+    4 H  u0 p0 c0 {2,S}
+  formula: CH2Cl
+  inchi: InChI=1S/CH2Cl/c1-2/h1H2
+  inchi_key: WBLIXGSTEMXDSM-UHFFFAOYSA-N
+  label: Chloromethyl
+  smiles: '[CH2]Cl'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 49.47958346200272
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 68
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.87
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 115.39
+      class: ThermoData

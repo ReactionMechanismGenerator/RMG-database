@@ -1,0 +1,40 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+    2 C u0 p0 c0 {3,D} {7,S} {8,S}
+    3 C u1 p0 c0 {1,S} {2,D}
+    4 H u0 p0 c0 {1,S}
+    5 H u0 p0 c0 {1,S}
+    6 H u0 p0 c0 {1,S}
+    7 H u0 p0 c0 {2,S}
+    8 H u0 p0 c0 {2,S}
+  formula: C3H5
+  inchi: InChI=1S/C3H5/c1-3-2/h1H2,2H3
+  inchi_key: NMTZQIYQFZGXQT-UHFFFAOYSA-N
+  label: 1-Methylethenyl
+  smiles: C=[C]C
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 41.07180383666919
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 172
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.78
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 252.46
+      class: ThermoData

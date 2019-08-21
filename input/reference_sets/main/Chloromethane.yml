@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {2,S}
+    2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+    3 H  u0 p0 c0 {2,S}
+    4 H  u0 p0 c0 {2,S}
+    5 H  u0 p0 c0 {2,S}
+  formula: CH3Cl
+  inchi: InChI=1S/CH3Cl/c1-2/h1H3
+  inchi_key: NEHMKBQYUWJMIP-UHFFFAOYSA-N
+  label: Chloromethane
+  smiles: CCl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 50.487523584482474
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 81
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.25
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -82.10000000000001
+      class: ThermoData

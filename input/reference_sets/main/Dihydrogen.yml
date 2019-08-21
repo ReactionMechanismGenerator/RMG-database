@@ -1,0 +1,31 @@
+Identifiers:
+  adjacency_list: |
+    1 H u0 p0 c0 {2,S}
+    2 H u0 p0 c0 {1,S}
+  formula: H2
+  inchi: InChI=1S/H2/h1H
+  inchi_key: UFHFLCQGNIYNRP-UHFFFAOYSA-N
+  label: Dihydrogen
+  smiles: '[H][H]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 2.0158802449594986
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 0
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: 0.0
+      class: ThermoData

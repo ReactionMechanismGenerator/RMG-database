@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 S u0 p0 c0 {2,D} {3,D} {4,D}
+    2 O u0 p2 c0 {1,D}
+    3 O u0 p2 c0 {1,D}
+    4 O u0 p2 c0 {1,D}
+  formula: O3S
+  inchi: InChI=1S/O3S/c1-4(2)3
+  inchi_key: AKEJUJNQAAGONA-UHFFFAOYSA-N
+  label: Sulfur trioxide
+  smiles: O=S(=O)=O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 80.06320446368588
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 196
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.7000000000000001
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -395.90000000000003
+      class: ThermoData

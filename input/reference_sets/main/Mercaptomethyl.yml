@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 S u0 p2 c0 {2,S} {5,S}
+    2 C u1 p0 c0 {1,S} {3,S} {4,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {1,S}
+  formula: CH3S
+  inchi: InChI=1S/CH3S/c1-2/h2H,1H2
+  inchi_key: YYOGAOHWUDJBLM-UHFFFAOYSA-N
+  label: Mercaptomethyl
+  smiles: '[CH2]S'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 47.09952451133177
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 79
+is_ts: false
+reference_data:
+  Cioslowski:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.7
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 124.7
+      class: ThermoData

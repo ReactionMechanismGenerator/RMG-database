@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 3
+    1 F u0 p3 c0 {2,S}
+    2 C u2 p0 c0 {1,S} {3,S}
+    3 H u0 p0 c0 {2,S}
+  formula: CHF
+  inchi: InChI=1S/CHF/c1-2/h1H
+  inchi_key: YUCFVHQCAFKDQG-UHFFFAOYSA-N
+  label: Fluoromethylene
+  smiles: '[CH]F'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 32.01704588971004
+  multiplicity: 3
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 52
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.46
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 148.62
+      class: ThermoData

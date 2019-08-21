@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    1 S u0 p2 c0 {2,S} {6,S}
+    2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {2,S}
+    6 H u0 p0 c0 {1,S}
+  formula: CH4S
+  inchi: InChI=1S/CH4S/c1-2/h2H,1H3
+  inchi_key: LSDPWZHWYPCBBB-UHFFFAOYSA-N
+  label: Methanethiol
+  smiles: CS
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 48.107464633811524
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 91
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.59
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -22.84
+      class: ThermoData

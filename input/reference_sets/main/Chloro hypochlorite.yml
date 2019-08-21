@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {3,S}
+    2 Cl u0 p3 c0 {3,S}
+    3 O  u0 p2 c0 {1,S} {2,S}
+  formula: Cl2O
+  inchi: InChI=1S/Cl2O/c1-3-2
+  inchi_key: RCJVRSBWZCNNQT-UHFFFAOYSA-N
+  label: Chloro hypochlorite
+  smiles: ClOCl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 86.90540474942287
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 116
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.36
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 77.97
+      class: ThermoData

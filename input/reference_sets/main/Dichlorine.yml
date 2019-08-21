@@ -1,0 +1,31 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {2,S}
+    2 Cl u0 p3 c0 {1,S}
+  formula: Cl2
+  inchi: InChI=1S/Cl2/c1-2
+  inchi_key: KZBUYRJDOAKODT-UHFFFAOYSA-N
+  label: Dichlorine
+  smiles: '[Cl][Cl]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 70.90600428457283
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 36
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: 0.0
+      class: ThermoData

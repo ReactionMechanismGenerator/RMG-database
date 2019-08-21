@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p1 c0 {2,D} {4,S}
+    2 N u0 p0 c+1 {1,D} {3,D}
+    3 N u0 p2 c-1 {2,D}
+    4 H u0 p0 c0 {1,S}
+  formula: HN3
+  inchi: InChI=1S/HN3/c1-3-2/h1H
+  inchi_key: JUINSXZKUKVTMD-UHFFFAOYSA-N
+  label: Hydrazoic acid
+  smiles: '[N-]=[N+]=N'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 43.028164880717306
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 130
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.49
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 291.61
+      class: ThermoData

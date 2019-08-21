@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 F u0 p3 c0 {5,S}
+    2 F u0 p3 c0 {5,S}
+    3 F u0 p3 c0 {5,S}
+    4 F u0 p3 c0 {5,S}
+    5 C u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+  formula: CF4
+  inchi: InChI=1S/CF4/c2-1(3,4)5
+  inchi_key: TXEYQDLBPFQVAA-UHFFFAOYSA-N
+  label: Tetrafluoromethane
+  smiles: FC(F)(F)F
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 88.00431984465071
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 268
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.26
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -933.39
+      class: ThermoData

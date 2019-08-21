@@ -1,0 +1,33 @@
+Identifiers:
+  adjacency_list: |
+    1 F u0 p3 c0 {2,S}
+    2 H u0 p0 c0 {1,S}
+  formula: FH
+  inchi: InChI=1S/FH/h1H
+  inchi_key: KRHYYFGTRYWZRS-UHFFFAOYSA-N
+  label: Hydrogen fluoride
+  smiles: F
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 20.006344814953223
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 6
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.049
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -272.726
+      class: ThermoData

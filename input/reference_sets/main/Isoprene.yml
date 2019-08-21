@@ -1,0 +1,44 @@
+Identifiers:
+  adjacency_list: |
+    1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+    2  C u0 p0 c0 {1,S} {3,S} {4,D}
+    3  C u0 p0 c0 {2,S} {5,D} {9,S}
+    4  C u0 p0 c0 {2,D} {10,S} {11,S}
+    5  C u0 p0 c0 {3,D} {12,S} {13,S}
+    6  H u0 p0 c0 {1,S}
+    7  H u0 p0 c0 {1,S}
+    8  H u0 p0 c0 {1,S}
+    9  H u0 p0 c0 {3,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {4,S}
+    12 H u0 p0 c0 {5,S}
+    13 H u0 p0 c0 {5,S}
+  formula: C5H8
+  inchi: InChI=1S/C5H8/c1-4-5(2)3/h4H,1-2H2,3H3
+  inchi_key: RRHGJUQNOFWUDK-UHFFFAOYSA-N
+  label: Isoprene
+  smiles: C=CC(=C)C
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 68.11702635362207
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 292
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.7000000000000001
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 75.44
+      class: ThermoData

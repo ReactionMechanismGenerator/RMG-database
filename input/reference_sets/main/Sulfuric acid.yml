@@ -1,0 +1,38 @@
+Identifiers:
+  adjacency_list: |
+    1 S u0 p0 c0 {2,S} {3,S} {4,D} {5,D}
+    2 O u0 p2 c0 {1,S} {6,S}
+    3 O u0 p2 c0 {1,S} {7,S}
+    4 O u0 p2 c0 {1,D}
+    5 O u0 p2 c0 {1,D}
+    6 H u0 p0 c0 {2,S}
+    7 H u0 p0 c0 {3,S}
+  formula: H2O4S
+  inchi: InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)
+  inchi_key: QAOWNCQODCNURD-UHFFFAOYSA-N
+  label: Sulfuric acid
+  smiles: OS(=O)(=O)O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 98.07848517349544
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 276
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 2.0
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -732.73
+      class: ThermoData

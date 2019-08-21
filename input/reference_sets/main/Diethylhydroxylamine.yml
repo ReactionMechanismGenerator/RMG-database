@@ -1,0 +1,48 @@
+Identifiers:
+  adjacency_list: |
+    1  O u0 p2 c0 {2,S} {17,S}
+    2  N u0 p1 c0 {1,S} {3,S} {4,S}
+    3  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+    4  C u0 p0 c0 {2,S} {6,S} {9,S} {10,S}
+    5  C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+    6  C u0 p0 c0 {4,S} {14,S} {15,S} {16,S}
+    7  H u0 p0 c0 {3,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {5,S}
+    12 H u0 p0 c0 {5,S}
+    13 H u0 p0 c0 {5,S}
+    14 H u0 p0 c0 {6,S}
+    15 H u0 p0 c0 {6,S}
+    16 H u0 p0 c0 {6,S}
+    17 H u0 p0 c0 {1,S}
+  formula: C4H11NO
+  inchi: InChI=1S/C4H11NO/c1-3-5(6)4-2/h6H,3-4H2,1-2H3
+  inchi_key: FVCOIAYSJZGECG-UHFFFAOYSA-N
+  label: Diethylhydroxylamine
+  smiles: CCN(CC)O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 89.13628769723374
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 371
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.73
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -121.77
+      class: ThermoData

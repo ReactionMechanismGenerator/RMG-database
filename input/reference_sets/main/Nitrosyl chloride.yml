@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {3,S}
+    2 O  u0 p2 c0 {3,D}
+    3 N  u0 p1 c0 {1,S} {2,D}
+  formula: ClNO
+  inchi: InChI=1S/ClNO/c1-2-3
+  inchi_key: VPCDQGACGWYTMC-UHFFFAOYSA-N
+  label: Nitrosyl chloride
+  smiles: ClN=O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 65.45914419321565
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 114
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.067
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 52.548
+      class: ThermoData

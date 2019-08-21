@@ -1,0 +1,57 @@
+Identifiers:
+  adjacency_list: |
+    1  C u0 p0 c0 {5,S} {6,S} {9,S} {11,S}
+    2  C u0 p0 c0 {6,S} {7,S} {10,S} {12,S}
+    3  C u0 p0 c0 {5,S} {7,S} {8,S} {13,S}
+    4  C u0 p0 c0 {8,S} {9,S} {10,S} {14,S}
+    5  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
+    6  C u0 p0 c0 {1,S} {2,S} {17,S} {18,S}
+    7  C u0 p0 c0 {2,S} {3,S} {19,S} {20,S}
+    8  C u0 p0 c0 {3,S} {4,S} {21,S} {22,S}
+    9  C u0 p0 c0 {1,S} {4,S} {23,S} {24,S}
+    10 C u0 p0 c0 {2,S} {4,S} {25,S} {26,S}
+    11 H u0 p0 c0 {1,S}
+    12 H u0 p0 c0 {2,S}
+    13 H u0 p0 c0 {3,S}
+    14 H u0 p0 c0 {4,S}
+    15 H u0 p0 c0 {5,S}
+    16 H u0 p0 c0 {5,S}
+    17 H u0 p0 c0 {6,S}
+    18 H u0 p0 c0 {6,S}
+    19 H u0 p0 c0 {7,S}
+    20 H u0 p0 c0 {7,S}
+    21 H u0 p0 c0 {8,S}
+    22 H u0 p0 c0 {8,S}
+    23 H u0 p0 c0 {9,S}
+    24 H u0 p0 c0 {9,S}
+    25 H u0 p0 c0 {10,S}
+    26 H u0 p0 c0 {10,S}
+  formula: C10H16
+  inchi: InChI=1S/C10H16/c1-7-2-9-4-8(1)5-10(3-7)6-9/h7-10H,1-6H2
+  inchi_key: ORILYTVJVMAKLC-UHFFFAOYSA-N
+  label: Adamantane
+  smiles: C1C2CC3CC1CC(C2)C3
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 136.23405270724413
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 426
+is_ts: false
+reference_data:
+  Cioslowski:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.26
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -133.1
+      class: ThermoData

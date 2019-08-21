@@ -1,0 +1,38 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 3
+    1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+    2 C u2 p0 c0 {1,S} {6,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+    5 H u0 p0 c0 {1,S}
+    6 H u0 p0 c0 {2,S}
+  formula: C2H4
+  inchi: InChI=1S/C2H4/c1-2/h1H,2H3
+  inchi_key: UUFQTNFCRMXOAE-UHFFFAOYSA-N
+  label: Ethylidene
+  smiles: '[CH]C'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 28.053162639432628
+  multiplicity: 3
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 84
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.91
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 354.3
+      class: ThermoData

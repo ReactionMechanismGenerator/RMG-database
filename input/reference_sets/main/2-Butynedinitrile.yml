@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p1 c0 {5,T}
+    2 N u0 p1 c0 {6,T}
+    3 C u0 p0 c0 {4,T} {5,S}
+    4 C u0 p0 c0 {3,T} {6,S}
+    5 C u0 p0 c0 {1,T} {3,S}
+    6 C u0 p0 c0 {2,T} {4,S}
+  formula: C4N2
+  inchi: InChI=1S/C4N2/c5-3-1-2-4-6
+  inchi_key: ZEHZNAXXOOYTJM-UHFFFAOYSA-N
+  label: 2-Butynedinitrile
+  smiles: N#CC#CC#N
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 76.05628747118563
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 319
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 533.46
+      class: ThermoData

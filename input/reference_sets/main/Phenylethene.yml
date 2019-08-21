@@ -1,0 +1,47 @@
+Identifiers:
+  adjacency_list: |
+    1  C u0 p0 c0 {2,D} {3,S} {7,S}
+    2  C u0 p0 c0 {1,D} {5,S} {11,S}
+    3  C u0 p0 c0 {1,S} {6,D} {12,S}
+    4  C u0 p0 c0 {5,D} {6,S} {9,S}
+    5  C u0 p0 c0 {2,S} {4,D} {10,S}
+    6  C u0 p0 c0 {3,D} {4,S} {13,S}
+    7  C u0 p0 c0 {1,S} {8,D} {14,S}
+    8  C u0 p0 c0 {7,D} {15,S} {16,S}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {5,S}
+    11 H u0 p0 c0 {2,S}
+    12 H u0 p0 c0 {3,S}
+    13 H u0 p0 c0 {6,S}
+    14 H u0 p0 c0 {7,S}
+    15 H u0 p0 c0 {8,S}
+    16 H u0 p0 c0 {8,S}
+  formula: C8H8
+  inchi: InChI=1S/C8H8/c1-2-8-6-4-3-5-7-8/h2-7H,1H2
+  inchi_key: PPBRXRYQALVLMV-UHFFFAOYSA-N
+  label: Phenylethene
+  smiles: C=CC1=CC=CC=C1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 104.14912957789251
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 417
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.55
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 148.33
+      class: ThermoData

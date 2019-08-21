@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 O u0 p2 c0 {3,S} {4,S}
+    2 O u0 p2 c0 {3,D}
+    3 C u1 p0 c0 {1,S} {2,D}
+    4 H u0 p0 c0 {1,S}
+  formula: CHO2
+  inchi: InChI=1S/CHO2/c2-1-3/h(H,2,3)
+  inchi_key: ORTFAQDWJHRMNX-UHFFFAOYSA-N
+  label: Hydroxyformyl
+  smiles: O=[C]O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 45.01744212693667
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 120
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.5
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -184.16
+      class: ThermoData

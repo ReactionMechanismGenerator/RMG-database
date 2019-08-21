@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p2 c-1 {2,S} {3,S}
+    2 H u0 p0 c0 {1,S}
+    3 H u0 p0 c0 {1,S}
+  formula: H2N
+  inchi: InChI=1S/H2N/h1H2/q-1
+  inchi_key: HYGWNUKOUCZBND-UHFFFAOYSA-N
+  label: Azanide
+  smiles: '[NH2-]'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 16.022621831038684
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 12
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.33
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 112.02
+      class: ThermoData

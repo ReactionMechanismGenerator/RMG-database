@@ -1,0 +1,44 @@
+Identifiers:
+  adjacency_list: |
+    1  S u0 p0 c0 {2,S} {3,S} {4,D} {5,D}
+    2  O u0 p2 c0 {1,S} {6,S}
+    3  O u0 p2 c0 {1,S} {7,S}
+    4  O u0 p2 c0 {1,D}
+    5  O u0 p2 c0 {1,D}
+    6  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+    7  C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+    8  H u0 p0 c0 {6,S}
+    9  H u0 p0 c0 {6,S}
+    10 H u0 p0 c0 {6,S}
+    11 H u0 p0 c0 {7,S}
+    12 H u0 p0 c0 {7,S}
+    13 H u0 p0 c0 {7,S}
+  formula: C2H6O4S
+  inchi: InChI=1S/C2H6O4S/c1-5-7(3,4)6-2/h1-2H3
+  inchi_key: VAYGXNSJCAHWJZ-UHFFFAOYSA-N
+  label: Dimethyl sulfate
+  smiles: COS(=O)(=O)OC
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 126.13164781292807
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 400
+is_ts: false
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.9000000000000001
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -687.0
+      class: ThermoData

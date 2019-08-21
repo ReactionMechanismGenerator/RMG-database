@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 S u0 p2 c0 {3,D}
+    2 O u0 p2 c0 {3,D}
+    3 C u0 p0 c0 {1,D} {2,D}
+  formula: COS
+  inchi: InChI=1S/COS/c2-1-3
+  inchi_key: JJWKPURADFRFRB-UHFFFAOYSA-N
+  label: Carbonoxidesulfide
+  smiles: O=C=S
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 60.075104608742585
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 102
+is_ts: false
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.3
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -142.0
+      class: ThermoData

@@ -1,0 +1,47 @@
+Identifiers:
+  adjacency_list: |
+    1  O u0 p2 c0 {6,D}
+    2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+    3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+    4  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+    5  C u0 p0 c0 {6,S} {14,S} {15,S} {16,S}
+    6  C u0 p0 c0 {1,D} {2,S} {5,S}
+    7  H u0 p0 c0 {2,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {3,S}
+    10 H u0 p0 c0 {3,S}
+    11 H u0 p0 c0 {4,S}
+    12 H u0 p0 c0 {4,S}
+    13 H u0 p0 c0 {4,S}
+    14 H u0 p0 c0 {5,S}
+    15 H u0 p0 c0 {5,S}
+    16 H u0 p0 c0 {5,S}
+  formula: C5H10O
+  inchi: InChI=1S/C5H10O/c1-4(2)5(3)6/h4H,1-3H3
+  inchi_key: SYBYTAAJFKOIEJ-UHFFFAOYSA-N
+  label: 3-Methyl-2-butanone
+  smiles: CC(=O)C(C)C
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 86.13230706343163
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 358
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.87
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -262.57
+      class: ThermoData

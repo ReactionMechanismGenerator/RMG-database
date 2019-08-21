@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 4
+    1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+    2 C u3 p0 c0 {1,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+    5 H u0 p0 c0 {1,S}
+  formula: C2H3
+  inchi: InChI=1S/C2H3/c1-2/h1H3
+  inchi_key: ADLIKHXOGUAKPM-UHFFFAOYSA-N
+  label: Ethylidyne
+  smiles: '[C]C'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 27.04522251695288
+  multiplicity: 4
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 71
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.87
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 504.86
+      class: ThermoData

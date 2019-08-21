@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {2,D}
+    2 C u0 p0 c0 {1,D} {3,S} {4,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+  formula: CH2O
+  inchi: InChI=1S/CH2O/c1-2/h1H2
+  inchi_key: WSFSSNUMVMOOMR-UHFFFAOYSA-N
+  label: Formaldehyde
+  smiles: C=O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 30.02598178456637
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 59
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.098
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -109.186
+      class: ThermoData

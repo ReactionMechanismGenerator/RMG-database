@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {2,D}
+    2 N u0 p0 c+1 {1,D} {3,D}
+    3 N u0 p2 c-1 {2,D}
+  formula: N2O
+  inchi: InChI=1S/N2O/c1-2-3
+  inchi_key: GQPLMRYTRLFLPF-UHFFFAOYSA-N
+  label: Nitrous oxide
+  smiles: '[N-]=[N+]=O'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 44.01288363700843
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 101
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.097
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 82.562
+      class: ThermoData

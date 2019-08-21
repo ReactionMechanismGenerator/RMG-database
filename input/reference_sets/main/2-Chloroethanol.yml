@@ -1,0 +1,40 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {4,S}
+    2 O  u0 p2 c0 {3,S} {9,S}
+    3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+    4 C  u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+    5 H  u0 p0 c0 {3,S}
+    6 H  u0 p0 c0 {3,S}
+    7 H  u0 p0 c0 {4,S}
+    8 H  u0 p0 c0 {4,S}
+    9 H  u0 p0 c0 {2,S}
+  formula: C2H5ClO
+  inchi: InChI=1S/C2H5ClO/c3-1-2-4/h4H,1-2H2
+  inchi_key: SZIFAVKTNFCBPC-UHFFFAOYSA-N
+  label: 2-Chloroethanol
+  smiles: OCCCl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 80.51350536904884
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 232
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.63
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -266.76
+      class: ThermoData

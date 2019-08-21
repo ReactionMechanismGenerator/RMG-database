@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    1 F u0 p3 c0 {6,S}
+    2 F u0 p3 c0 {6,S}
+    3 F u0 p3 c0 {5,S}
+    4 F u0 p3 c0 {5,S}
+    5 C u0 p0 c0 {3,S} {4,S} {6,D}
+    6 C u0 p0 c0 {1,S} {2,S} {5,D}
+  formula: C2F4
+  inchi: InChI=1S/C2F4/c3-1(4)2(5)6
+  inchi_key: BFKJFAAPBSQJPD-UHFFFAOYSA-N
+  label: Tetrafluoroethylene
+  smiles: FC(F)=C(F)F
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 100.01502091940752
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 321
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.58
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -674.73
+      class: ThermoData

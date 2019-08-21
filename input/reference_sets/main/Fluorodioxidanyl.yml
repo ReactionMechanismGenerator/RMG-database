@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 F u0 p3 c0 {2,S}
+    2 O u0 p2 c0 {1,S} {3,S}
+    3 O u1 p2 c0 {2,S}
+  formula: FO2
+  inchi: InChI=1S/FO2/c1-3-2
+  inchi_key: GQRAHKRZRKCZPQ-UHFFFAOYSA-N
+  label: Fluorodioxidanyl
+  smiles: '[O]OF'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 50.99720562217359
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 107
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.26
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 25.09
+      class: ThermoData

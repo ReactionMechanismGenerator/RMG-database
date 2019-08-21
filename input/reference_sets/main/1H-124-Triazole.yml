@@ -1,0 +1,39 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p1 c0 {3,S} {4,S} {6,S}
+    2 N u0 p1 c0 {4,D} {5,S}
+    3 N u0 p1 c0 {1,S} {5,D}
+    4 C u0 p0 c0 {1,S} {2,D} {7,S}
+    5 C u0 p0 c0 {2,S} {3,D} {8,S}
+    6 H u0 p0 c0 {1,S}
+    7 H u0 p0 c0 {4,S}
+    8 H u0 p0 c0 {5,S}
+  formula: C2H3N3
+  inchi: InChI=1S/C2H3N3/c1-3-2-5-4-1/h1-2H,(H,3,4,5)
+  inchi_key: NSPMIYGKQJPBQR-UHFFFAOYSA-N
+  label: 1H-1,2,4-Triazole
+  smiles: c1ncn[nH]1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 69.06544727519042
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 278
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 192.70000000000002
+      class: ThermoData

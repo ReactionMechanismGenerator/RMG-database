@@ -1,0 +1,47 @@
+Identifiers:
+  adjacency_list: |
+    1  S u0 p2 c0 {2,S} {16,S}
+    2  C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+    3  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+    4  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
+    5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
+    6  C u0 p0 c0 {4,S} {5,S} {12,S} {13,S}
+    7  H u0 p0 c0 {2,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {3,S}
+    10 H u0 p0 c0 {5,S}
+    11 H u0 p0 c0 {5,S}
+    12 H u0 p0 c0 {6,S}
+    13 H u0 p0 c0 {6,S}
+    14 H u0 p0 c0 {4,S}
+    15 H u0 p0 c0 {4,S}
+    16 H u0 p0 c0 {1,S}
+  formula: C5H10S
+  inchi: InChI=1S/C5H10S/c6-5-3-1-2-4-5/h5-6H,1-4H2
+  inchi_key: WVDYBOADDMMFIY-UHFFFAOYSA-N
+  label: Cyclopentanethiol
+  smiles: SC1CCCC1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 102.19790966771728
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 364
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.75
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -47.78
+      class: ThermoData

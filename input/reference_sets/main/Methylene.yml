@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 3
+    1 C u2 p0 c0 {2,S} {3,S}
+    2 H u0 p0 c0 {1,S}
+    3 H u0 p0 c0 {1,S}
+  formula: CH2
+  inchi: InChI=1S/CH2/h1H2
+  inchi_key: HZVOZRGWRWCICA-UHFFFAOYSA-N
+  label: Methylene
+  smiles: '[CH2]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 14.026581319716314
+  multiplicity: 3
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 9
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.12
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 391.59000000000003
+      class: ThermoData

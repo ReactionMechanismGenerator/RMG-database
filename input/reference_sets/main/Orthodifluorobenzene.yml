@@ -1,0 +1,43 @@
+Identifiers:
+  adjacency_list: |
+    1  F u0 p3 c0 {3,S}
+    2  F u0 p3 c0 {8,S}
+    3  C u0 p0 c0 {1,S} {4,D} {8,S}
+    4  C u0 p0 c0 {3,D} {5,S} {9,S}
+    5  C u0 p0 c0 {4,S} {6,D} {10,S}
+    6  C u0 p0 c0 {5,D} {7,S} {11,S}
+    7  C u0 p0 c0 {6,S} {8,D} {12,S}
+    8  C u0 p0 c0 {2,S} {3,S} {7,D}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {5,S}
+    11 H u0 p0 c0 {6,S}
+    12 H u0 p0 c0 {7,S}
+  formula: C6H4F2
+  inchi: InChI=1S/C6H4F2/c7-5-3-1-2-4-6(5)8/h1-4H
+  inchi_key: GOYDNIKZWGIXJT-UHFFFAOYSA-N
+  label: Orthodifluorobenzene
+  smiles: FC1=CC=CC=C1F
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 114.09277632340684
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 414
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.92
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -283.0
+      class: ThermoData

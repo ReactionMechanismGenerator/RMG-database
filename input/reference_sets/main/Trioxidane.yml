@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {2,S} {3,S}
+    2 O u0 p2 c0 {1,S} {4,S}
+    3 O u0 p2 c0 {1,S} {5,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {3,S}
+  formula: H2O3
+  inchi: InChI=1S/H2O3/c1-3-2/h1-2H
+  inchi_key: JSPLKZUTYZBBKA-UHFFFAOYSA-N
+  label: Trioxidane
+  smiles: OOO
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 50.01408163950967
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 145
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.72
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -90.55
+      class: ThermoData

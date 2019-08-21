@@ -1,0 +1,40 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {2,S} {3,S}
+    2 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+    3 C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {2,S}
+    6 H u0 p0 c0 {2,S}
+    7 H u0 p0 c0 {3,S}
+    8 H u0 p0 c0 {3,S}
+    9 H u0 p0 c0 {3,S}
+  formula: C2H6O
+  inchi: InChI=1S/C2H6O/c1-3-2/h1-2H3
+  inchi_key: LCGLNKUTAGEVQW-UHFFFAOYSA-N
+  label: Dimethyl ether
+  smiles: COC
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 46.06844334924218
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 184
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.45
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -184.04
+      class: ThermoData

@@ -1,0 +1,49 @@
+Identifiers:
+  adjacency_list: |
+    1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+    2  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+    3  C u0 p0 c0 {1,S} {4,D} {5,S}
+    4  C u0 p0 c0 {3,D} {7,S} {16,S}
+    5  C u0 p0 c0 {3,S} {8,D} {17,S}
+    6  C u0 p0 c0 {7,D} {8,S} {14,S}
+    7  C u0 p0 c0 {4,S} {6,D} {15,S}
+    8  C u0 p0 c0 {5,D} {6,S} {18,S}
+    9  H u0 p0 c0 {1,S}
+    10 H u0 p0 c0 {1,S}
+    11 H u0 p0 c0 {2,S}
+    12 H u0 p0 c0 {2,S}
+    13 H u0 p0 c0 {2,S}
+    14 H u0 p0 c0 {6,S}
+    15 H u0 p0 c0 {7,S}
+    16 H u0 p0 c0 {4,S}
+    17 H u0 p0 c0 {5,S}
+    18 H u0 p0 c0 {8,S}
+  formula: C8H10
+  inchi: InChI=1S/C8H10/c1-2-8-6-4-3-5-7-8/h3-7H,2H2,1H3
+  inchi_key: YNQLUTRBYVCPMQ-UHFFFAOYSA-N
+  label: Ethylbenzene
+  smiles: CCC1=CC=CC=C1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 106.16500982285201
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 420
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.55
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 29.72
+      class: ThermoData

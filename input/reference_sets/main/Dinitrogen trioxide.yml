@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p3 c-1 {4,S}
+    2 O u0 p2 c0 {4,D}
+    3 O u0 p2 c0 {5,D}
+    4 N u0 p0 c+1 {1,S} {2,D} {5,S}
+    5 N u0 p1 c0 {3,D} {4,S}
+  formula: N2O3
+  inchi: InChI=1S/N2O3/c3-1-2(4)5
+  inchi_key: LZDSILRDTDCIQT-UHFFFAOYSA-N
+  label: Dinitrogen trioxide
+  smiles: O=N[N+](=O)[O-]
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 76.01168456670852
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 267
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.0
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 86.63
+      class: ThermoData

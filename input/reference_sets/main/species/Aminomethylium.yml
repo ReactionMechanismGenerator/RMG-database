@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p1 c0 {2,S} {5,S} {6,S}
+    2 C u0 p0 c+1 {1,S} {3,S} {4,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {1,S}
+    6 H u0 p0 c0 {1,S}
+  formula: CH4N
+  inchi: InChI=1S/CH4N/c1-2/h1-2H2/q+1
+  inchi_key: LEOYJZAFSUBIBE-UHFFFAOYSA-N
+  label: Aminomethylium
+  smiles: N[CH2+]
+Properties:
+  charge: 1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 30.049203150754995
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 87
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.66
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 751.58
+      class: ThermoData

@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 F u0 p3 c0 {3,S}
+    2 O u0 p2 c0 {3,D}
+    3 C u1 p0 c0 {1,S} {2,D}
+  formula: CFO
+  inchi: InChI=1S/CFO/c2-1-3
+  inchi_key: CJXGPJZUDUOZDX-UHFFFAOYSA-N
+  label: Fluoroformyl
+  smiles: O=[C]F
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 47.00850623208034
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 106
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.39
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -176.03
+      class: ThermoData

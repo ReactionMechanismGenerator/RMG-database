@@ -1,0 +1,33 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p1 c0 {2,T}
+    2 C u0 p1 c-1 {1,T}
+  formula: CN
+  inchi: InChI=1S/CN/c1-2/q-1
+  inchi_key: XFXPMWWXUTWYJX-UHFFFAOYSA-N
+  label: Cyanide
+  smiles: '[C-]#N'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 26.017442660836
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 24
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.095
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 67.25
+      class: ThermoData

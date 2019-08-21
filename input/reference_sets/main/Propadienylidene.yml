@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 3
+    1 C u0 p0 c0 {2,D} {4,S} {5,S}
+    2 C u0 p0 c0 {1,D} {3,D}
+    3 C u2 p0 c0 {2,D}
+    4 H u0 p0 c0 {1,S}
+    5 H u0 p0 c0 {1,S}
+  formula: C3H2
+  inchi: InChI=1S/C3H2/c1-3-2/h1H2
+  inchi_key: LPUFMQSFYARLPQ-UHFFFAOYSA-N
+  label: Propadienylidene
+  smiles: '[C]=C=C'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 38.04798346922994
+  multiplicity: 3
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 138
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.41000000000000003
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 555.57
+      class: ThermoData

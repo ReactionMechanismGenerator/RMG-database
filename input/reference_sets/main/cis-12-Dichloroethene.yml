@@ -1,0 +1,37 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {3,S}
+    2 Cl u0 p3 c0 {4,S}
+    3 C  u0 p0 c0 {1,S} {4,D} {5,S}
+    4 C  u0 p0 c0 {2,S} {3,D} {6,S}
+    5 H  u0 p0 c0 {3,S}
+    6 H  u0 p0 c0 {4,S}
+  formula: C2H2Cl2
+  inchi: InChI=1S/C2H2Cl2/c3-1-2-4/h1-2H
+  inchi_key: KFUSEUYYWQURPO-UHFFFAOYSA-N
+  label: cis-1,2-Dichloroethene
+  smiles: ClC=CCl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 96.94328667904595
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 218
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.56
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -2.54
+      class: ThermoData

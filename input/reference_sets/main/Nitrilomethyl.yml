@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 N u0 p1 c0 {2,T}
+    2 C u1 p0 c0 {1,T}
+  formula: CN
+  inchi: InChI=1S/CN/c1-2
+  inchi_key: JEVCWSUVFOYBFI-UHFFFAOYSA-N
+  label: Nitrilomethyl
+  smiles: '[C]#N'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 26.017442660836
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 23
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.15
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 439.99
+      class: ThermoData

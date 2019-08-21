@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p1 c0 {2,D} {3,S}
+    2 N u0 p1 c0 {1,D} {4,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {2,S}
+  formula: H2N2
+  inchi: InChI=1S/H2N2/c1-2/h1-2H
+  inchi_key: RAABOESOVLLHRU-UHFFFAOYSA-N
+  label: (E)-Diazene
+  smiles: N=N
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 30.029363417117867
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 67
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.44
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 199.95000000000002
+      class: ThermoData

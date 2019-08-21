@@ -1,0 +1,45 @@
+Identifiers:
+  adjacency_list: |
+    1  O u0 p2 c0 {7,S} {13,S}
+    2  O u0 p2 c0 {8,S} {14,S}
+    3  O u0 p2 c0 {7,D}
+    4  O u0 p2 c0 {8,D}
+    5  C u0 p0 c0 {6,S} {7,S} {9,S} {10,S}
+    6  C u0 p0 c0 {5,S} {8,S} {11,S} {12,S}
+    7  C u0 p0 c0 {1,S} {3,D} {5,S}
+    8  C u0 p0 c0 {2,S} {4,D} {6,S}
+    9  H u0 p0 c0 {5,S}
+    10 H u0 p0 c0 {5,S}
+    11 H u0 p0 c0 {6,S}
+    12 H u0 p0 c0 {6,S}
+    13 H u0 p0 c0 {1,S}
+    14 H u0 p0 c0 {2,S}
+  formula: C4H6O4
+  inchi: InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)
+  inchi_key: KDYFGRWQOYBRFD-UHFFFAOYSA-N
+  label: Succinic acid
+  smiles: O=C(O)CCC(=O)O
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 118.08804689330597
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 416
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.61
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -817.79
+      class: ThermoData

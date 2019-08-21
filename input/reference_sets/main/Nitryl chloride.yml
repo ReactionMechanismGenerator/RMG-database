@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {4,S}
+    2 O  u0 p3 c-1 {4,S}
+    3 O  u0 p2 c0 {4,D}
+    4 N  u0 p0 c+1 {1,S} {2,S} {3,D}
+  formula: ClNO2
+  inchi: InChI=1S/ClNO2/c1-2(3)4
+  inchi_key: HVZWVEKIQMJYIK-UHFFFAOYSA-N
+  label: Nitryl chloride
+  smiles: '[O-][N+](=O)Cl'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 81.4585446580657
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 202
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.0
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 12.5
+      class: ThermoData

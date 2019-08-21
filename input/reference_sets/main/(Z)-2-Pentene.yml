@@ -1,0 +1,46 @@
+Identifiers:
+  adjacency_list: |
+    1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+    2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+    3  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
+    4  C u0 p0 c0 {1,S} {5,D} {15,S}
+    5  C u0 p0 c0 {3,S} {4,D} {14,S}
+    6  H u0 p0 c0 {1,S}
+    7  H u0 p0 c0 {1,S}
+    8  H u0 p0 c0 {2,S}
+    9  H u0 p0 c0 {2,S}
+    10 H u0 p0 c0 {2,S}
+    11 H u0 p0 c0 {3,S}
+    12 H u0 p0 c0 {3,S}
+    13 H u0 p0 c0 {3,S}
+    14 H u0 p0 c0 {5,S}
+    15 H u0 p0 c0 {4,S}
+  formula: C5H10
+  inchi: InChI=1S/C5H10/c1-3-5-4-2/h3,5H,4H2,1-2H3
+  inchi_key: QMMOXUPEWRXHJS-UHFFFAOYSA-N
+  label: (Z)-2-Pentene
+  smiles: CC=CCC
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 70.13290659858157
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 302
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.84
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -26.3
+      class: ThermoData

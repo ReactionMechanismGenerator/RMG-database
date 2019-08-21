@@ -1,0 +1,47 @@
+Identifiers:
+  adjacency_list: |
+    1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+    2  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
+    3  C u0 p0 c0 {1,S} {6,S} {9,S} {10,S}
+    4  C u0 p0 c0 {5,S} {13,S} {14,S} {15,S}
+    5  C u0 p0 c0 {2,S} {4,S} {6,D}
+    6  C u0 p0 c0 {3,S} {5,D} {16,S}
+    7  H u0 p0 c0 {1,S}
+    8  H u0 p0 c0 {1,S}
+    9  H u0 p0 c0 {3,S}
+    10 H u0 p0 c0 {3,S}
+    11 H u0 p0 c0 {2,S}
+    12 H u0 p0 c0 {2,S}
+    13 H u0 p0 c0 {4,S}
+    14 H u0 p0 c0 {4,S}
+    15 H u0 p0 c0 {4,S}
+    16 H u0 p0 c0 {6,S}
+  formula: C6H10
+  inchi: InChI=1S/C6H10/c1-6-4-2-3-5-6/h4H,2-3,5H2,1H3
+  inchi_key: ATQUFXWBVZUTKO-UHFFFAOYSA-N
+  label: 1-Methylcyclopentene
+  smiles: CC1=CCCC1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 82.14360767333838
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 356
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.75
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -3.6
+      class: ThermoData

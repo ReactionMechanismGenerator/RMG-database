@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 N u0 p1 c0 {2,D} {4,S}
+    2 C u1 p0 c0 {1,D} {3,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {1,S}
+  formula: CH2N
+  inchi: InChI=1S/CH2N/c1-2/h1-2H
+  inchi_key: GNMFKYYLBRTFHL-UHFFFAOYSA-N
+  label: Iminomethyl
+  smiles: '[CH]=N'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 28.033322905795497
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 64
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.71
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 272.22
+      class: ThermoData

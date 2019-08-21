@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 S u1 p2 c0 {2,S}
+    2 H u0 p0 c0 {1,S}
+  formula: HS
+  inchi: InChI=1S/HS/h1H
+  inchi_key: PXQLVRUNWNTZOS-UHFFFAOYSA-N
+  label: Sulfanyl
+  smiles: '[SH]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 33.07294319161546
+  multiplicity: 2
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 5
+is_ts: false
+reference_data:
+  Third Millennium Ideal Gas and Condensed Phase Thermochemical Database for Combustion:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.52
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 141.87
+      class: ThermoData

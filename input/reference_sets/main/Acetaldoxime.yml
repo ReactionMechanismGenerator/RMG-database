@@ -1,0 +1,40 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {2,S} {9,S}
+    2 N u0 p1 c0 {1,S} {4,D}
+    3 C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+    4 C u0 p0 c0 {2,D} {3,S} {8,S}
+    5 H u0 p0 c0 {3,S}
+    6 H u0 p0 c0 {3,S}
+    7 H u0 p0 c0 {3,S}
+    8 H u0 p0 c0 {4,S}
+    9 H u0 p0 c0 {1,S}
+  formula: C2H5NO
+  inchi: InChI=1S/C2H5NO/c1-2-3-4/h2,4H,1H3
+  inchi_key: FZENGILVLUJGJX-UHFFFAOYSA-N
+  label: Acetaldoxime
+  smiles: CC=NO
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 59.067244812841615
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 230
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.29
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -22.55
+      class: ThermoData

@@ -1,0 +1,39 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {4,S}
+    2 Cl u0 p3 c0 {4,S}
+    3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+    4 C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+    5 H  u0 p0 c0 {3,S}
+    6 H  u0 p0 c0 {3,S}
+    7 H  u0 p0 c0 {3,S}
+    8 H  u0 p0 c0 {4,S}
+  formula: C2H4Cl2
+  inchi: InChI=1S/C2H4Cl2/c1-2(3)4/h2H,1H3
+  inchi_key: SCYULBFZEHDVBN-UHFFFAOYSA-N
+  label: 1,1-Dichloroethane
+  smiles: CC(Cl)Cl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 98.95916692400544
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 227
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.51
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -132.54
+      class: ThermoData

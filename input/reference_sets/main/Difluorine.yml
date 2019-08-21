@@ -1,0 +1,31 @@
+Identifiers:
+  adjacency_list: |
+    1 F u0 p3 c0 {2,S}
+    2 F u0 p3 c0 {1,S}
+  formula: F2
+  inchi: InChI=1S/F2/c1-2
+  inchi_key: PXGOKWXKJXAPGV-UHFFFAOYSA-N
+  label: Difluorine
+  smiles: FF
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 37.99680938494695
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 33
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: 0.0
+      class: ThermoData

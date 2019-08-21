@@ -1,0 +1,41 @@
+Identifiers:
+  adjacency_list: |
+    1  S u0 p2 c0 {4,S} {6,S}
+    2  S u0 p2 c0 {5,S} {6,S}
+    3  S u0 p2 c0 {6,D}
+    4  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+    5  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+    6  C u0 p0 c0 {1,S} {2,S} {3,D}
+    7  H u0 p0 c0 {4,S}
+    8  H u0 p0 c0 {4,S}
+    9  H u0 p0 c0 {5,S}
+    10 H u0 p0 c0 {5,S}
+  formula: C3H4S3
+  inchi: InChI=1S/C3H4S3/c4-3-5-1-2-6-3/h1-2H2
+  inchi_key: XCWPBWWTGHQKDR-UHFFFAOYSA-N
+  label: 1,3-Dithiane-2-thione
+  smiles: S=C1SCCS1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 136.25887292159658
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 328
+is_ts: false
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 2.0
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 93.8
+      class: ThermoData

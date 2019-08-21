@@ -1,0 +1,41 @@
+Identifiers:
+  adjacency_list: |
+    1  O u0 p2 c0 {4,S} {5,S}
+    2  O u0 p2 c0 {5,D}
+    3  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+    4  C u0 p0 c0 {1,S} {3,S} {6,D}
+    5  C u0 p0 c0 {1,S} {2,D} {3,S}
+    6  C u0 p0 c0 {4,D} {9,S} {10,S}
+    7  H u0 p0 c0 {3,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {6,S}
+    10 H u0 p0 c0 {6,S}
+  formula: C4H4O2
+  inchi: InChI=1S/C4H4O2/c1-3-2-4(5)6-3/h1-2H2
+  inchi_key: WASQWSOJHCZDFK-UHFFFAOYSA-N
+  label: 4-Methylene-2-oxetanone
+  smiles: C=C1CC(=O)O1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 84.07336571864637
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 324
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.54
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -190.25
+      class: ThermoData

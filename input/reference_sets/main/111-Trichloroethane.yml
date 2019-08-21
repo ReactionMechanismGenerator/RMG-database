@@ -1,0 +1,39 @@
+Identifiers:
+  adjacency_list: |
+    1 Cl u0 p3 c0 {5,S}
+    2 Cl u0 p3 c0 {5,S}
+    3 Cl u0 p3 c0 {5,S}
+    4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+    5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+    6 H  u0 p0 c0 {4,S}
+    7 H  u0 p0 c0 {4,S}
+    8 H  u0 p0 c0 {4,S}
+  formula: C2H3Cl3
+  inchi: InChI=1S/C2H3Cl3/c1-2(3,4)5/h1H3
+  inchi_key: UOCLXMDMGBRAIB-UHFFFAOYSA-N
+  label: 1,1,1-Trichloroethane
+  smiles: CC(Cl)(Cl)Cl
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 133.40422894381211
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 279
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.52
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -145.0
+      class: ThermoData

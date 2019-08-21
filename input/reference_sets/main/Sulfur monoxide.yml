@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 3
+    1 S u1 p2 c0 {2,S}
+    2 O u1 p2 c0 {1,S}
+  formula: OS
+  inchi: InChI=1S/OS/c1-2
+  inchi_key: XTQHKBHJIVJGKJ-UHFFFAOYSA-N
+  label: Sulfur monoxide
+  smiles: '[S][O]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 48.06440353398577
+  multiplicity: 3
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 28
+is_ts: false
+reference_data:
+  Thermochemistry and Kinetics of Sulfur-Containing Molecules and Radicals:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.5
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 5.0200000000000005
+      class: ThermoData

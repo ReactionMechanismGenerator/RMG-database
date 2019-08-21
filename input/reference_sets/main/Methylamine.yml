@@ -1,0 +1,38 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p1 c0 {2,S} {6,S} {7,S}
+    2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {2,S}
+    6 H u0 p0 c0 {1,S}
+    7 H u0 p0 c0 {1,S}
+  formula: CH5N
+  inchi: InChI=1S/CH5N/c1-2/h2H2,1H3
+  inchi_key: BAVYZALUXZFZLV-UHFFFAOYSA-N
+  label: Methylamine
+  smiles: CN
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 31.057143273234747
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 93
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.31
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -21.72
+      class: ThermoData

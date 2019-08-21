@@ -1,0 +1,38 @@
+Identifiers:
+  adjacency_list: |
+    1 S u0 p0 c0 {2,S} {3,S} {4,S} {5,S} {6,S} {7,S}
+    2 F u0 p3 c0 {1,S}
+    3 F u0 p3 c0 {1,S}
+    4 F u0 p3 c0 {1,S}
+    5 F u0 p3 c0 {1,S}
+    6 F u0 p3 c0 {1,S}
+    7 F u0 p3 c0 {1,S}
+  formula: F6S
+  inchi: InChI=1S/F6S/c1-7(2,3,4,5)6
+  inchi_key: SFZCNBIFKDRMGX-UHFFFAOYSA-N
+  label: Sulfur Hexafluoride
+  smiles: FS(F)(F)(F)(F)F
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 146.05543122397657
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 391
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -1220.47
+      class: ThermoData

@@ -1,0 +1,40 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {4,S} {5,S}
+    2 C u0 p0 c0 {3,S} {4,D} {6,S}
+    3 C u0 p0 c0 {2,S} {5,D} {7,S}
+    4 C u0 p0 c0 {1,S} {2,D} {8,S}
+    5 C u0 p0 c0 {1,S} {3,D} {9,S}
+    6 H u0 p0 c0 {2,S}
+    7 H u0 p0 c0 {3,S}
+    8 H u0 p0 c0 {4,S}
+    9 H u0 p0 c0 {5,S}
+  formula: C4H4O
+  inchi: InChI=1S/C4H4O/c1-2-4-5-3-1/h1-4H
+  inchi_key: YLQBMQCUIZJEEH-UHFFFAOYSA-N
+  label: Furan
+  smiles: C1=COC=C1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 68.07396525379632
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 280
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.4
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -34.7
+      class: ThermoData
