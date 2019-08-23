@@ -64240,3 +64240,286 @@ Calculated by Ryan Gillis at CBS-QB3 - Sept 2019
 """,
 )
 
+entry(
+    index = 3094,
+    label = "I_r3 + CH4b <=> HI_p23 + CH3_p1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.1e-17, 'cm^3/(molecule*s)'),
+        n = 2.53,
+        Ea = (135.9, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc =
+u"""
+HI + CH3 = I + CH4
+Arrhenius parameters calculated at the CCSD(T)/ANO-RCC-L(I)//MP2/cc-pVTZ level of theory
+K.Meciarova et al., Chem. Phys. Lett., 517,149-154, 2011
+https://doi.org/10.1016/j.cplett.2011.10.029
+""",
+)
+
+entry(
+    index= 3095,
+    label = "HI_r12 + CH3_r3 <=> CH4p + I_p1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.7e-19, 'cm^3/(molecule*s)'),
+        n = 2.38,
+        Ea = (-5.3, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc =
+u"""
+HI + CH3 = I + CH4
+Arrhenius parameters calculated at the CCSD(T)/ANO-RCC-L(I)//MP2/ cc-pVTZ level of theory
+K.Meciarova et al., Chem. Phys. Lett., 517,149-154, 2011
+https://doi.org/10.1016/j.cplett.2011.10.029
+""",
+)
+
+entry(
+    index = 3096,
+    label = "I_r3 + H2 <=> HI_p23 + H_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4e-16, 'cm^3/(molecule*s)'),
+        n = 1.93,
+        Ea = (128.2, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc = 
+u"""
+I + H2 => HI + H
+Arrhenius parameters calculated at the CCSD(T)/cc-pVQZ//MP2/cc-pVTZ level of theory
+S.Canneaux, B.Xerri, F.Louis and L.Cantrel, J. Phys. Chem. A, 114, 9270–9288, 2010,
+https://DOI: 10.1021/jp104163t
+""",
+)
+
+entry(
+    index = 3097,
+    label = "HI_r12 + H <=> H2_p + I_p1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.6e-16, 'cm^3/(molecule*s)'),
+        n = 1.68,
+        Ea = (-2.3, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc = 
+u"""
+HI + H => I + H2
+Arrhenius parameters calculated at the CCSD(T)/cc-pVQZ//MP2/cc-pVTZ level of theory
+S.Canneaux, B.Xerri, F.Louis and L.Cantrel, J. Phys. Chem. A, 114, 9270–9288, 2010,
+https://DOI: 10.1021/jp104163t
+""",
+)
+
+entry(
+    index = 3098,
+    label = "I_r3 + H2O <=> HI_p23 + OH_p1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.2e-17, 'cm^3/(molecule*s)'),
+        n = 2.26,
+        Ea = (181.2, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc = 
+u"""
+I + H2O => HI + OH
+Arrhenius parameters calculated at the CCSD(T)/cc-pVQZ//MP2/cc-pVTZ level of theory
+S.Canneaux, B.Xerri, F.Louis and L.Cantrel, J. Phys. Chem. A, 114, 9270–9288, 2010,
+https://DOI: 10.1021/jp104163t
+""",
+)
+
+entry(
+    index = 3099,
+    label = "HI_r12 + OH <=> H2O_p + I_p1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.2e-17, 'cm^3/(molecule*s)'),
+        n = 2.09,
+        Ea = (-7.9, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc = 
+u"""
+HI + OH => I + H2O
+Arrhenius parameters calculated at the CCSD(T)/cc-pVQZ//MP2/cc-pVTZ level of theory
+S.Canneaux, B.Xerri, F.Louis and L.Cantrel, J. Phys. Chem. A, 114, 9270–9288, 2010,
+https://DOI: 10.1021/jp104163t
+""",
+)
+
+entry(
+    index = 4000,
+    label = "I_r3 + HO <=> HI_p23 + O_rad_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.7e-16, 'cm^3/(molecule*s)'),
+        n = 1.7,
+        Ea = (124.4, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc = 
+u"""
+I + OH => HI + O
+Arrhenius parameters calculated at the CCSD(T)/cc-pVQZ//MP2/cc-pVTZ level of theory
+S.Canneaux, B.Xerri, F.Louis and L.Cantrel, J. Phys. Chem. A, 114, 9270–9288, 2010,
+https://DOI: 10.1021/jp104163t
+""",
+)
+
+entry(
+    index = 4001,
+    label = "HI_r12 + O_rad <=> OH_p23 + I_p1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.6e-16, 'cm^3/(molecule*s)'),
+        n = 1.5,
+        Ea = (4.9, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc =
+u"""
+HI + O => I + OH
+Arrhenius parameters calculated at the CCSD(T)/cc-pVQZ//MP2/cc-pVTZ level of theory
+S.Canneaux, B.Xerri, F.Louis and L.Cantrel, J. Phys. Chem. A, 114, 9270–9288, 2010,
+https://DOI: 10.1021/jp104163t
+""",
+)
+
+entry(
+    index = 4002,
+    label = "I_r3 + H2O2 <=> HI_p23 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.57e-24, 'cm^3/(molecule*s)'),
+        n = 3.59,
+        Ea = (73.83, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc = 
+u"""
+I + H2O2 <=> HI + HO2
+Arrhenius parameters calculated at the CCSD(T)/CBS(T,Q)//B3LYP/aug-cc-pVTZ level of theory + CVT/SCT
+C.Fortin et al., J. Phys. Chem. A, 122, 1053-1063, 2018
+""",
+)
+
+entry(
+    index = 4003,
+    label = "I_r3 + C3H6 <=> HI_p23 + vC3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.96e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (75.5, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (481, 'K'),
+        Tmax = (573, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc = 
+u"""
+I + C3H6 <=> HI + C3H5
+D. M. Golden, A. S. Rodgers and S. W. Benson, J. Am. Chem. Soc., 1966, 88, 3196-3198
+Experiment
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+)
+
+entry( 
+    index= 4004,
+    label = "I_r3 + C2H6 <=> HI_p23 + C2H5b",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.21e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (111, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (503, 'K'),
+        Tmax = (618, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Training reaction from kinetics library: Iodine-H_abstraction""",
+    longDesc = 
+u"""
+I + C2H6 <=> HI + C2H5
+Knox, J.H.; Musgrave, R.G., Trans. Faraday Soc., 63, 2201-2216, 1967
+Experiment
+Bath gas: C2H6
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+)
+
+entry(
+    index = 4005,
+    label = "HI_r12 + C6H5-2 <=> I_p1 + C6H6_p23",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.0E-12, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank=10,
+    reference = Article(
+        authors = [" A. Comandini, T. Malewicki and K. Brezinsky"],
+        title = u'Chemistry of Polycyclic Aromatic Hydrocarbons Formation from Phenyl Radical Pyrolysis and Reaction of Phenyl and Acetylene',
+        journal = " J. Phys. Chem. A",
+        volume = "116",
+        pages = """2409-2434""",
+        year = "2012",
+        url = "https://pubs.acs.org/doi/abs/10.1021/jp207461a""",
+    ),
+    referenceType = "An estimated temperature-independent rate constant for the reaction between C6H5 and HI",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+An estimated temperature-independent rate constant for the reaction between C6H5 and HI
+""",
+)
+
