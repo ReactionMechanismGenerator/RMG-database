@@ -37,6 +37,8 @@ jobs:
         - conda env create -q -f environment_linux.yml
         - source activate rmg_env
         - conda list
+        # Install Q2DTor
+        - git clone -b arkane https://github.com/mjohnson541/Q2DTor.git external/Q2DTor
         - make
       script:
         - make test-unittests
