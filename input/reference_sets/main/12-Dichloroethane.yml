@@ -22,7 +22,168 @@ Properties:
   multiplicity: 1
   symmetry_number: 2.0
 RMG_version: 2.4.1
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    conformer:
+      E0:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: -2622615.111289173
+      class: Conformer
+      coordinates:
+        class: ArrayQuantity
+        units: angstroms
+        value:
+          class: np_array
+          object:
+          - - -0.4888515996
+            - -0.5757086495
+            - 6.11815e-05
+          - - -2.1556517198
+            - 0.070373832
+            - -3.19193e-05
+          - - 0.4888515996
+            - 0.5757086495
+            - 6.11815e-05
+          - - 2.1556517198
+            - -0.070373832
+            - -3.19193e-05
+          - - -0.3736892347
+            - -1.1913629764
+            - 0.8874203689
+          - - -0.3736093123
+            - -1.1914244605
+            - -0.8872447834999998
+          - - 0.3736093123
+            - 1.1914244605
+            - -0.8872447834999998
+          - - 0.3736892347
+            - 1.1913629764
+            - 0.8874203689
+      mass:
+        class: ArrayQuantity
+        units: amu
+        value:
+          class: np_array
+          object:
+          - 12.000000000000005
+          - 34.968852682
+          - 12.000000000000005
+          - 34.968852682
+          - 1.00782503224
+          - 1.00782503224
+          - 1.00782503224
+          - 1.00782503224
+      modes:
+      - class: IdealGasTranslation
+        mass:
+          class: ScalarQuantity
+          units: amu
+          value: 97.96902000000003
+        quantum: false
+      - class: NonlinearRotor
+        inertia:
+          class: ArrayQuantity
+          units: amu*angstrom^2
+          value:
+            class: np_array
+            object:
+            - 17.183780708456315
+            - 334.47460582797027
+            - 345.31019371220987
+        quantum: false
+        rotationalConstant:
+          class: ArrayQuantity
+          units: cm^-1
+          value:
+            class: np_array
+            object:
+            - 0.9810197964789368
+            - 0.050400325643911066
+            - 0.04881879932973558
+        symmetry: 2
+      - class: HarmonicOscillator
+        frequencies:
+          class: ArrayQuantity
+          units: cm^-1
+          value:
+            class: np_array
+            object:
+            - 127.75
+            - 217.9
+            - 306.39
+            - 755.76
+            - 777.7
+            - 794.68
+            - 1009.36
+            - 1083.59
+            - 1142.63
+            - 1252.29
+            - 1292.7
+            - 1336.08
+            - 1485.89
+            - 1487.39
+            - 3114.31
+            - 3121.93
+            - 3166.85
+            - 3190.02
+        quantum: true
+      number:
+        class: ArrayQuantity
+        value:
+          class: np_array
+          object:
+          - 6.0
+          - 17.0
+          - 6.0
+          - 17.0
+          - 1.0
+          - 1.0
+          - 1.0
+          - 1.0
+      opticalIsomers: 1
+      spinMultiplicity: 1
+    thermo_data:
+      Cpdata:
+        class: ArrayQuantity
+        units: cal/(mol*K)
+        value:
+          class: np_array
+          object:
+          - 17.234353880928925
+          - 20.52909133088108
+          - 23.557186481910417
+          - 26.215265511174668
+          - 30.324092573315692
+          - 33.228264419867344
+          - 37.62565945698637
+          - 39.77614530887214
+          - 40.832660464739114
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -626816.4241534831
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 71.61746692194478
+      Tdata:
+        class: ArrayQuantity
+        units: K
+        value:
+          class: np_array
+          object:
+          - 300.0
+          - 400.0
+          - 500.0
+          - 600.0
+          - 800.0
+          - 1000.0
+          - 1500.0
+          - 2000.0
+          - 2400.0
+      class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
 index: 228
