@@ -1,11 +1,11 @@
 Identifiers:
   adjacency_list: |
-    1  O u0 p2 c0 {4,S} {6,S}
-    2  O u0 p2 c0 {4,S} {5,S}
-    3  O u0 p2 c0 {5,S} {6,S}
-    4  C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
-    5  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
-    6  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+    1  O u0 p2 c0 {4,S} {5,S}
+    2  O u0 p2 c0 {5,S} {6,S}
+    3  O u0 p2 c0 {4,S} {6,S}
+    4  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+    5  C u0 p0 c0 {1,S} {2,S} {9,S} {10,S}
+    6  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
     7  H u0 p0 c0 {4,S}
     8  H u0 p0 c0 {4,S}
     9  H u0 p0 c0 {5,S}
@@ -84,11 +84,11 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000005
+          - 12.000000000000009
           - 15.99491461957
-          - 12.000000000000005
+          - 12.000000000000009
           - 15.99491461957
-          - 12.000000000000005
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -109,9 +109,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 95.11080815699628
-            - 95.14381511595143
-            - 170.97861524885533
+            - 95.11080019548328
+            - 95.14380715167546
+            - 170.97860093661788
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -119,9 +119,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.17724199152552841
-            - 0.17718050335488608
-            - 0.0985949560347802
+            - 0.1772420063620603
+            - 0.17718051818627098
+            - 0.09859496428794416
         symmetry: 6
       - class: HarmonicOscillator
         frequencies:
@@ -199,7 +199,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -215540.49603728857
+        value: -215540.4960372885
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -222,6 +222,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 340
 is_ts: false
 reference_data:

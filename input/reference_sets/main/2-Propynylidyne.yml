@@ -1,10 +1,10 @@
 Identifiers:
   adjacency_list: |
     multiplicity 4
-    1 C u0 p0 c0 {2,T} {4,S}
-    2 C u0 p0 c0 {1,T} {3,S}
-    3 C u3 p0 c0 {2,S}
-    4 H u0 p0 c0 {1,S}
+    1 C u0 p0 c0 {2,T} {3,S}
+    2 C u0 p0 c0 {1,T} {4,S}
+    3 C u3 p0 c0 {1,S}
+    4 H u0 p0 c0 {2,S}
   formula: C3H
   inchi: InChI=1S/C3H/c1-3-2/h1H
   inchi_key: WWDRUPNDOSDMRD-UHFFFAOYSA-N
@@ -52,9 +52,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
       modes:
       - class: IdealGasTranslation
@@ -70,9 +70,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 2.8002849711650915e-05
-            - 44.88738076694864
-            - 44.887408769798355
+            - 2.8002847367594993e-05
+            - 44.8873770095264
+            - 44.88740501237376
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -80,9 +80,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 601996.9119905208
-            - 0.37555385868629393
-            - 0.3755536243983598
+            - 601996.9623823401
+            - 0.37555389012306994
+            - 0.3755536558351164
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -151,6 +151,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 117
 is_ts: false
 reference_data:

@@ -1,10 +1,10 @@
 Identifiers:
   adjacency_list: |
     1  S u0 p2 c0 {2,S} {3,S}
-    2  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
-    3  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
-    4  C u0 p0 c0 {3,S} {5,D} {10,S}
-    5  C u0 p0 c0 {2,S} {4,D} {11,S}
+    2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+    3  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
+    4  C u0 p0 c0 {2,S} {5,D} {10,S}
+    5  C u0 p0 c0 {3,S} {4,D} {11,S}
     6  H u0 p0 c0 {2,S}
     7  H u0 p0 c0 {2,S}
     8  H u0 p0 c0 {3,S}
@@ -79,11 +79,11 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
           - 31.9720711744
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -104,9 +104,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 75.6583737788656
-            - 104.79047200855847
-            - 174.17409603714603
+            - 75.65836744567235
+            - 104.79046323678244
+            - 174.17408145742203
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -114,9 +114,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.2228124688830875
-            - 0.16086986469506212
-            - 0.09678608608798679
+            - 0.22281248753422245
+            - 0.1608698781611198
+            - 0.09678609418973423
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -213,6 +213,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 290
 is_ts: false
 reference_data:

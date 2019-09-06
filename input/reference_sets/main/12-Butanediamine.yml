@@ -1,7 +1,7 @@
 Identifiers:
   adjacency_list: |
-    1  N u0 p1 c0 {3,S} {15,S} {16,S}
-    2  N u0 p1 c0 {5,S} {17,S} {18,S}
+    1  N u0 p1 c0 {3,S} {17,S} {18,S}
+    2  N u0 p1 c0 {5,S} {15,S} {16,S}
     3  C u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
     4  C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
     5  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -14,10 +14,10 @@ Identifiers:
     12 H u0 p0 c0 {6,S}
     13 H u0 p0 c0 {6,S}
     14 H u0 p0 c0 {6,S}
-    15 H u0 p0 c0 {1,S}
-    16 H u0 p0 c0 {1,S}
-    17 H u0 p0 c0 {2,S}
-    18 H u0 p0 c0 {2,S}
+    15 H u0 p0 c0 {2,S}
+    16 H u0 p0 c0 {2,S}
+    17 H u0 p0 c0 {1,S}
+    18 H u0 p0 c0 {1,S}
   formula: C4H12N2
   inchi: InChI=1S/C4H12N2/c1-2-4(6)3-5/h4H,2-3,5-6H2,1H3
   inchi_key: ULEAQRIQMIQDPJ-UHFFFAOYSA-N
@@ -107,11 +107,11 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 14.00307400443
-          - 12.000000000000005
+          - 12.000000000000009
           - 14.00307400443
           - 1.00782503224
           - 1.00782503224
@@ -139,9 +139,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 70.81412720382745
-            - 265.1161563612735
-            - 306.72875787011793
+            - 70.81412127613527
+            - 265.1161341689931
+            - 306.72873219453965
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -149,9 +149,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.23805460462467368
-            - 0.06358582322827816
-            - 0.0549594018193975
+            - 0.23805462455169382
+            - 0.06358582855090565
+            - 0.054959406419926485
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -276,6 +276,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 377
 is_ts: false
 reference_data:

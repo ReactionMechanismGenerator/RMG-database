@@ -1,16 +1,16 @@
 Identifiers:
   adjacency_list: |
     multiplicity 2
-    1  O u1 p2 c0 {5,S}
-    2  C u0 p0 c0 {3,D} {7,S} {8,S}
-    3  C u0 p0 c0 {2,D} {4,S} {9,S}
-    4  C u0 p0 c0 {3,S} {5,D} {10,S}
-    5  C u0 p0 c0 {1,S} {4,D} {6,S}
+    1  O u1 p2 c0 {2,S}
+    2  C u0 p0 c0 {1,S} {3,D} {7,S}
+    3  C u0 p0 c0 {2,D} {4,S} {8,S}
+    4  C u0 p0 c0 {3,S} {5,D} {9,S}
+    5  C u0 p0 c0 {4,D} {6,S} {10,S}
     6  C u0 p0 c0 {5,S} {7,D} {11,S}
     7  C u0 p0 c0 {2,S} {6,D} {12,S}
-    8  H u0 p0 c0 {2,S}
-    9  H u0 p0 c0 {3,S}
-    10 H u0 p0 c0 {4,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {5,S}
     11 H u0 p0 c0 {6,S}
     12 H u0 p0 c0 {7,S}
   formula: C6H5O
@@ -84,12 +84,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 15.99491461957
           - 1.00782503224
           - 1.00782503224
@@ -110,9 +110,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 91.08863003980319
-            - 179.19811530676301
-            - 270.2867453465662
+            - 91.08862241497772
+            - 179.1981003064896
+            - 270.28672272146736
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -120,9 +120,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.1850684223264987
-            - 0.0940725800854016
-            - 0.06236942559552211
+            - 0.18506843781816368
+            - 0.09407258796000753
+            - 0.062369430816327655
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -200,7 +200,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -192472.61782027158
+        value: -192472.61782027152
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -223,6 +223,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 394
 is_ts: false
 reference_data:
@@ -231,7 +232,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.9400000000000001
+        uncertainty: 0.9400000000000002
         uncertaintyType: +|-
         units: kJ/mol
         value: 56.08

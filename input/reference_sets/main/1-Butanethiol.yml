@@ -1,14 +1,14 @@
 Identifiers:
   adjacency_list: |
     1  S u0 p2 c0 {4,S} {15,S}
-    2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
-    3  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+    2  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+    3  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
     4  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
     5  C u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
-    6  H u0 p0 c0 {2,S}
-    7  H u0 p0 c0 {2,S}
-    8  H u0 p0 c0 {3,S}
-    9  H u0 p0 c0 {3,S}
+    6  H u0 p0 c0 {3,S}
+    7  H u0 p0 c0 {3,S}
+    8  H u0 p0 c0 {2,S}
+    9  H u0 p0 c0 {2,S}
     10 H u0 p0 c0 {4,S}
     11 H u0 p0 c0 {4,S}
     12 H u0 p0 c0 {5,S}
@@ -96,10 +96,10 @@ calculated_data:
           class: np_array
           object:
           - 31.9720711744
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 31.016387584510106
-            - 382.5785647301824
-            - 398.59526507063623
+            - 31.016384988197682
+            - 382.57853270538646
+            - 398.59523170511824
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -134,9 +134,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.5435071704406789
-            - 0.044063182330242465
-            - 0.04229259735526739
+            - 0.5435072159364522
+            - 0.044063186018673206
+            - 0.042292600895486414
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -249,6 +249,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 309
 is_ts: false
 reference_data:

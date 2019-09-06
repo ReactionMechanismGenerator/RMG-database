@@ -1,11 +1,11 @@
 Identifiers:
   adjacency_list: |
-    1 O u0 p3 c-1 {6,S}
-    2 O u0 p3 c-1 {5,S}
+    1 O u0 p3 c-1 {5,S}
+    2 O u0 p3 c-1 {6,S}
     3 O u0 p2 c0 {5,D}
     4 O u0 p2 c0 {6,D}
-    5 N u0 p0 c+1 {2,S} {3,D} {6,S}
-    6 N u0 p0 c+1 {1,S} {4,D} {5,S}
+    5 N u0 p0 c+1 {1,S} {3,D} {6,S}
+    6 N u0 p0 c+1 {2,S} {4,D} {5,S}
   formula: N2O4
   inchi: InChI=1S/N2O4/c3-1(4)2(5)6
   inchi_key: WFPZPJSADLPSON-UHFFFAOYSA-N
@@ -79,9 +79,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 75.9359576272023
-            - 130.50571572185024
-            - 206.44167334905256
+            - 75.93595127077315
+            - 130.50570479750868
+            - 206.44165606828184
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -89,9 +89,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.22199797803444882
-            - 0.12917157658655762
-            - 0.08165807213181
+            - 0.22199799661740455
+            - 0.12917158739922227
+            - 0.08165807896722514
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -168,6 +168,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 320
 is_ts: false
 reference_data:

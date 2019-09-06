@@ -1,12 +1,12 @@
 Identifiers:
   adjacency_list: |
     multiplicity 2
-    1  C u0 p0 c0 {2,S} {3,D} {8,S}
-    2  C u0 p0 c0 {1,S} {4,D} {7,S}
-    3  C u0 p0 c0 {1,D} {5,S} {9,S}
-    4  C u0 p0 c0 {2,D} {6,S} {10,S}
-    5  C u0 p0 c0 {3,S} {6,D} {11,S}
-    6  C u1 p0 c0 {4,S} {5,D}
+    1  C u0 p0 c0 {2,D} {3,S} {8,S}
+    2  C u0 p0 c0 {1,D} {4,S} {7,S}
+    3  C u0 p0 c0 {1,S} {5,D} {9,S}
+    4  C u0 p0 c0 {2,S} {6,D} {10,S}
+    5  C u0 p0 c0 {3,D} {6,S} {11,S}
+    6  C u1 p0 c0 {4,D} {5,S}
     7  H u0 p0 c0 {2,S}
     8  H u0 p0 c0 {1,S}
     9  H u0 p0 c0 {3,S}
@@ -80,12 +80,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -105,9 +105,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 79.44842227337399
-            - 89.28051403677162
-            - 168.72893631014557
+            - 79.44841562292427
+            - 89.28050656329947
+            - 168.72892218622374
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -115,9 +115,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.21218330800003926
-            - 0.18881644259356986
-            - 0.0999095319510697
+            - 0.21218332576143084
+            - 0.18881645839897326
+            - 0.09990954031427385
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -214,6 +214,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 329
 is_ts: false
 reference_data:

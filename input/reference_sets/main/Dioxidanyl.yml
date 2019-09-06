@@ -1,9 +1,9 @@
 Identifiers:
   adjacency_list: |
     multiplicity 2
-    1 O u0 p2 c0 {2,S} {3,S}
-    2 O u1 p2 c0 {1,S}
-    3 H u0 p0 c0 {1,S}
+    1 O u1 p2 c0 {2,S}
+    2 O u0 p2 c0 {1,S} {3,S}
+    3 H u0 p0 c0 {2,S}
   formula: HO2
   inchi: InChI=1S/HO2/c1-2/h1H
   inchi_key: OUUQCZGPVNCOIJ-UHFFFAOYSA-N
@@ -65,9 +65,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.8115925917679225
-            - 14.722190204553637
-            - 15.533782796321562
+            - 0.811592523831322
+            - 14.722188972192026
+            - 15.533781496023346
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -75,9 +75,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 20.771048459950688
-            - 1.1450489919722922
-            - 1.08522368790559
+            - 20.77105019864884
+            - 1.14504908782179
+            - 1.0852237787472452
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -142,6 +142,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 45
 is_ts: false
 reference_data:

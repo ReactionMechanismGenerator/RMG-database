@@ -104,12 +104,12 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -125,7 +125,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 98.07321000000003
+          value: 98.07321000000005
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -134,9 +134,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 119.53007998563277
-            - 200.32050802830292
-            - 285.7944658906612
+            - 119.53006998003713
+            - 200.32049125992125
+            - 285.7944419674457
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -144,9 +144,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.1410325254979729
-            - 0.08415328624749051
-            - 0.05898514864804226
+            - 0.14103253730349116
+            - 0.08415329329177446
+            - 0.05898515358555752
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -244,7 +244,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -194343.31085000042
+        value: -194343.31085000036
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -267,6 +267,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 406
 is_ts: false
 reference_data:

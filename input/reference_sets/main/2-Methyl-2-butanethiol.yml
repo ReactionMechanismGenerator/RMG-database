@@ -3,20 +3,20 @@ Identifiers:
     1  S u0 p2 c0 {2,S} {18,S}
     2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
     3  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-    4  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-    5  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-    6  C u0 p0 c0 {3,S} {15,S} {16,S} {17,S}
+    4  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+    5  C u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
+    6  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
     7  H u0 p0 c0 {3,S}
     8  H u0 p0 c0 {3,S}
-    9  H u0 p0 c0 {4,S}
-    10 H u0 p0 c0 {4,S}
-    11 H u0 p0 c0 {4,S}
-    12 H u0 p0 c0 {5,S}
-    13 H u0 p0 c0 {5,S}
-    14 H u0 p0 c0 {5,S}
-    15 H u0 p0 c0 {6,S}
-    16 H u0 p0 c0 {6,S}
-    17 H u0 p0 c0 {6,S}
+    9  H u0 p0 c0 {6,S}
+    10 H u0 p0 c0 {6,S}
+    11 H u0 p0 c0 {6,S}
+    12 H u0 p0 c0 {4,S}
+    13 H u0 p0 c0 {4,S}
+    14 H u0 p0 c0 {4,S}
+    15 H u0 p0 c0 {5,S}
+    16 H u0 p0 c0 {5,S}
+    17 H u0 p0 c0 {5,S}
     18 H u0 p0 c0 {1,S}
   formula: C5H12S
   inchi: InChI=1S/C5H12S/c1-4-5(2,3)6/h6H,4H2,1-3H3
@@ -107,12 +107,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 31.9720711744
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -130,7 +130,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 104.06603000000003
+          value: 104.06603000000004
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -139,9 +139,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 165.99708190282087
-            - 213.81610060807697
-            - 262.2464271231085
+            - 165.99706800757644
+            - 213.81608271000945
+            - 262.24640517104666
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -149,9 +149,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.10155376745247485
-            - 0.07884171961515835
-            - 0.06428163479014674
+            - 0.10155377595331429
+            - 0.07884172621482291
+            - 0.06428164017101906
         symmetry: 27
       - class: HarmonicOscillator
         frequencies:
@@ -276,6 +276,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 386
 is_ts: false
 reference_data:

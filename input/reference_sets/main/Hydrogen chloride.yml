@@ -50,18 +50,18 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 35.976680000000016
+          value: 35.97668000000002
         quantum: false
       - class: LinearRotor
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.6026450932723495
+          value: 1.6026449591185135
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 10.51862893669606
+          value: 10.518629817187035
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -123,6 +123,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 7
 is_ts: false
 reference_data:
@@ -131,7 +132,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.006200000000000001
+        uncertainty: 0.006200000000000002
         uncertaintyType: +|-
         units: kJ/mol
         value: -92.173

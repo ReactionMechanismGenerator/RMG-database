@@ -1,8 +1,8 @@
 Identifiers:
   adjacency_list: |
-    1 O u0 p2 c0 {2,D}
-    2 O u0 p1 c+1 {1,D} {3,S}
-    3 O u0 p3 c-1 {2,S}
+    1 O u0 p3 c-1 {2,S}
+    2 O u0 p1 c+1 {1,S} {3,D}
+    3 O u0 p2 c0 {2,D}
   formula: O3
   inchi: InChI=1S/O3/c1-3-2
   inchi_key: CBENFWSGALASAD-UHFFFAOYSA-N
@@ -64,9 +64,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 4.37995372624903
-            - 36.057989843461066
-            - 40.437943569710086
+            - 4.379953359612902
+            - 36.057986825127394
+            - 40.437940184740285
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -74,9 +74,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.848814418362652
-            - 0.46751438797705297
-            - 0.41687651658863406
+            - 3.8488147405383244
+            - 0.46751442711163993
+            - 0.4168765514844377
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -141,6 +141,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 96
 is_ts: false
 reference_data:

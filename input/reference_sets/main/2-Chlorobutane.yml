@@ -1,12 +1,12 @@
 Identifiers:
   adjacency_list: |
-    1  Cl u0 p3 c0 {2,S}
-    2  C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-    3  C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+    1  Cl u0 p3 c0 {3,S}
+    2  C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+    3  C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
     4  C  u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
     5  C  u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
     6  H  u0 p0 c0 {2,S}
-    7  H  u0 p0 c0 {3,S}
+    7  H  u0 p0 c0 {2,S}
     8  H  u0 p0 c0 {3,S}
     9  H  u0 p0 c0 {4,S}
     10 H  u0 p0 c0 {4,S}
@@ -91,11 +91,11 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 34.968852682
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -110,7 +110,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 92.03932000000003
+          value: 92.03932000000005
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -119,9 +119,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 109.30760609497499
-            - 160.7555504980686
-            - 249.33730662570034
+            - 109.30759694507977
+            - 160.75553704158102
+            - 249.33728575423208
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -129,9 +129,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.15422192156235925
-            - 0.1048649891161987
-            - 0.06760973430524296
+            - 0.15422193447193241
+            - 0.10486499789421312
+            - 0.06760973996470307
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -240,6 +240,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 301
 is_ts: false
 reference_data:

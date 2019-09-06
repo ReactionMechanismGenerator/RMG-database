@@ -2,16 +2,16 @@ Identifiers:
   adjacency_list: |
     1  O u0 p2 c0 {2,S} {13,S}
     2  C u0 p0 c0 {1,S} {3,D} {4,S}
-    3  C u0 p0 c0 {2,D} {6,S} {10,S}
-    4  C u0 p0 c0 {2,S} {7,D} {11,S}
-    5  C u0 p0 c0 {6,D} {7,S} {8,S}
-    6  C u0 p0 c0 {3,S} {5,D} {9,S}
-    7  C u0 p0 c0 {4,D} {5,S} {12,S}
-    8  H u0 p0 c0 {5,S}
-    9  H u0 p0 c0 {6,S}
-    10 H u0 p0 c0 {3,S}
-    11 H u0 p0 c0 {4,S}
-    12 H u0 p0 c0 {7,S}
+    3  C u0 p0 c0 {2,D} {5,S} {8,S}
+    4  C u0 p0 c0 {2,S} {7,D} {12,S}
+    5  C u0 p0 c0 {3,S} {6,D} {9,S}
+    6  C u0 p0 c0 {5,D} {7,S} {10,S}
+    7  C u0 p0 c0 {4,D} {6,S} {11,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {5,S}
+    10 H u0 p0 c0 {6,S}
+    11 H u0 p0 c0 {7,S}
+    12 H u0 p0 c0 {4,S}
     13 H u0 p0 c0 {1,S}
   formula: C6H6O
   inchi: InChI=1S/C6H6O/c7-6-4-2-1-3-5-6/h1-5,7H
@@ -34,7 +34,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -806977.6744130525
+        value: -806977.6744130527
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -87,12 +87,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 15.99491461957
           - 1.00782503224
           - 1.00782503224
@@ -114,9 +114,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 88.3950191243297
-            - 191.2767524899877
-            - 279.67177161431744
+            - 88.39501172498035
+            - 191.27673647863858
+            - 279.6717482036191
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.19070790662580023
-            - 0.08813213751227243
-            - 0.06027647680008292
+            - 0.1907079225895339
+            - 0.08813214488961715
+            - 0.06027648184569238
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -231,6 +231,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 398
 is_ts: false
 reference_data:

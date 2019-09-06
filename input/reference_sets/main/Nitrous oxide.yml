@@ -61,12 +61,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 39.5306904430422
+          value: 39.53068713401652
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.4264440834302607
+          value: 0.42644411912694397
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -108,7 +108,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -115888.17674254441
+        value: -115888.17674254438
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -131,6 +131,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 101
 is_ts: false
 reference_data:

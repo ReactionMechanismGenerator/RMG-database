@@ -1,11 +1,11 @@
 Identifiers:
   adjacency_list: |
-    1 F u0 p3 c0 {6,S}
-    2 F u0 p3 c0 {6,S}
-    3 F u0 p3 c0 {5,S}
-    4 F u0 p3 c0 {5,S}
-    5 C u0 p0 c0 {3,S} {4,S} {6,D}
-    6 C u0 p0 c0 {1,S} {2,S} {5,D}
+    1 F u0 p3 c0 {5,S}
+    2 F u0 p3 c0 {5,S}
+    3 F u0 p3 c0 {6,S}
+    4 F u0 p3 c0 {6,S}
+    5 C u0 p0 c0 {1,S} {2,S} {6,D}
+    6 C u0 p0 c0 {3,S} {4,S} {5,D}
   formula: C2F4
   inchi: InChI=1S/C2F4/c3-1(4)2(5)6
   inchi_key: BFKJFAAPBSQJPD-UHFFFAOYSA-N
@@ -59,8 +59,8 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 18.99840316274001
           - 18.99840316274001
           - 18.99840316274001
@@ -70,7 +70,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 99.99360000000003
+          value: 99.99360000000004
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -79,9 +79,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 91.74805234595303
-            - 155.92577299547648
-            - 247.67382814171452
+            - 91.74804466592879
+            - 155.9257599432788
+            - 247.67380740949238
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -89,9 +89,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.18373827696945194
-            - 0.10811316647336772
-            - 0.06806382886649961
+            - 0.18373829234977343
+            - 0.10811317552327983
+            - 0.06806383456397096
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -145,7 +145,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -298432.0605216038
+        value: -298432.0605216037
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -168,6 +168,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 321
 is_ts: false
 reference_data:

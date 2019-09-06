@@ -2,17 +2,17 @@ Identifiers:
   adjacency_list: |
     multiplicity 2
     1  C u0 p0 c0 {2,D} {3,S} {7,S}
-    2  C u0 p0 c0 {1,D} {5,S} {10,S}
-    3  C u0 p0 c0 {1,S} {6,D} {11,S}
-    4  C u0 p0 c0 {5,D} {6,S} {8,S}
-    5  C u0 p0 c0 {2,S} {4,D} {9,S}
-    6  C u0 p0 c0 {3,D} {4,S} {12,S}
+    2  C u0 p0 c0 {1,D} {4,S} {8,S}
+    3  C u0 p0 c0 {1,S} {6,D} {12,S}
+    4  C u0 p0 c0 {2,S} {5,D} {9,S}
+    5  C u0 p0 c0 {4,D} {6,S} {10,S}
+    6  C u0 p0 c0 {3,D} {5,S} {11,S}
     7  C u1 p0 c0 {1,S} {13,S} {14,S}
-    8  H u0 p0 c0 {4,S}
-    9  H u0 p0 c0 {5,S}
-    10 H u0 p0 c0 {2,S}
-    11 H u0 p0 c0 {3,S}
-    12 H u0 p0 c0 {6,S}
+    8  H u0 p0 c0 {2,S}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {5,S}
+    11 H u0 p0 c0 {6,S}
+    12 H u0 p0 c0 {3,S}
     13 H u0 p0 c0 {7,S}
     14 H u0 p0 c0 {7,S}
   formula: C7H7
@@ -92,13 +92,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -120,9 +120,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 90.35787327429789
-            - 184.96643352000595
-            - 275.3243095945887
+            - 90.35786571064241
+            - 184.96641803687956
+            - 275.3242865478066
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -130,9 +130,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.1865651375190524
-            - 0.09113885548063602
-            - 0.06122826232878282
+            - 0.18656515313600408
+            - 0.0911388631096664
+            - 0.06122826745406413
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -241,6 +241,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 401
 is_ts: false
 reference_data:
@@ -252,5 +253,5 @@ reference_data:
         uncertainty: 0.62
         uncertaintyType: +|-
         units: kJ/mol
-        value: 211.42000000000002
+        value: 211.42000000000007
       class: ThermoData

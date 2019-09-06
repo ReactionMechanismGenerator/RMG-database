@@ -33,7 +33,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -412363.5561021479
+        value: -412363.55610214797
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -83,10 +83,10 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -100,7 +100,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 56.062640000000016
+          value: 56.06264000000002
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -109,9 +109,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 46.902701056136614
-            - 46.902701056136614
-            - 78.90548902173961
+            - 46.902697130016435
+            - 46.902697130016435
+            - 78.90548241673763
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -119,9 +119,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.3594170202089649
-            - 0.3594170202089649
-            - 0.21364329988125377
+            - 0.3594170502949622
+            - 0.3594170502949622
+            - 0.213643317764858
         symmetry: 8
       - class: HarmonicOscillator
         frequencies:
@@ -199,7 +199,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -98554.08262589466
+        value: -98554.08262589463
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -222,6 +222,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 253
 is_ts: false
 reference_data:
@@ -230,7 +231,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.41000000000000003
+        uncertainty: 0.41000000000000014
         uncertaintyType: +|-
         units: kJ/mol
         value: 27.82

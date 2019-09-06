@@ -63,7 +63,7 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
           - 15.99491461957
           - 14.00307400443
           - 15.99491461957
@@ -75,7 +75,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 61.01638000000001
+          value: 61.01638000000002
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -84,9 +84,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 10.255195220545883
-            - 100.2020314656363
-            - 107.25542005414161
+            - 10.25519436210643
+            - 100.20202307794834
+            - 107.2554110760303
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -94,9 +94,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.6438135687144106
-            - 0.16823640006869245
-            - 0.15717274749228438
+            - 1.643813706314379
+            - 0.16823641415138638
+            - 0.15717276064886462
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -177,6 +177,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 220
 is_ts: false
 reference_data:

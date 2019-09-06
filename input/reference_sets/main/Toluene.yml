@@ -2,19 +2,19 @@ Identifiers:
   adjacency_list: |
     1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
     2  C u0 p0 c0 {1,S} {3,D} {4,S}
-    3  C u0 p0 c0 {2,D} {6,S} {13,S}
-    4  C u0 p0 c0 {2,S} {7,D} {14,S}
-    5  C u0 p0 c0 {6,D} {7,S} {11,S}
-    6  C u0 p0 c0 {3,S} {5,D} {12,S}
-    7  C u0 p0 c0 {4,D} {5,S} {15,S}
+    3  C u0 p0 c0 {2,D} {5,S} {11,S}
+    4  C u0 p0 c0 {2,S} {7,D} {15,S}
+    5  C u0 p0 c0 {3,S} {6,D} {12,S}
+    6  C u0 p0 c0 {5,D} {7,S} {13,S}
+    7  C u0 p0 c0 {4,D} {6,S} {14,S}
     8  H u0 p0 c0 {1,S}
     9  H u0 p0 c0 {1,S}
     10 H u0 p0 c0 {1,S}
-    11 H u0 p0 c0 {5,S}
-    12 H u0 p0 c0 {6,S}
-    13 H u0 p0 c0 {3,S}
-    14 H u0 p0 c0 {4,S}
-    15 H u0 p0 c0 {7,S}
+    11 H u0 p0 c0 {3,S}
+    12 H u0 p0 c0 {5,S}
+    13 H u0 p0 c0 {6,S}
+    14 H u0 p0 c0 {7,S}
+    15 H u0 p0 c0 {4,S}
   formula: C7H8
   inchi: InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
   inchi_key: YXFVVABEGXRONW-UHFFFAOYSA-N
@@ -95,13 +95,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 90.26850778001311
-            - 199.00877613983005
-            - 286.1613032218838
+            - 90.26850022383823
+            - 199.00875948125056
+            - 286.1612792679613
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -134,9 +134,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.18674983632642972
-            - 0.08470796806219126
-            - 0.05890953411082776
+            - 0.18674985195884208
+            - 0.08470797515290637
+            - 0.05890953904201351
         symmetry: 6
       - class: HarmonicOscillator
         frequencies:
@@ -249,6 +249,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 404
 is_ts: false
 reference_data:

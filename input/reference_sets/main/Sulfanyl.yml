@@ -57,12 +57,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.7603515422784246
+          value: 1.7603513949233347
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 9.576285559150104
+          value: 9.576286360759614
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -124,6 +124,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 5
 is_ts: false
 reference_data:

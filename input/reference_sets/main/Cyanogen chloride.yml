@@ -24,7 +24,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -1451891.0820972668
+        value: -1451891.0820972673
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -48,14 +48,14 @@ calculated_data:
           class: np_array
           object:
           - 34.968852682
-          - 12.000000000000005
+          - 12.000000000000009
           - 14.00307400443
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 60.97192000000001
+          value: 60.97192000000002
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -64,9 +64,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.6005699423301826e-06
-            - 84.18410180008004
-            - 84.18410740065
+            - 5.600569473518999e-06
+            - 84.18409475321718
+            - 84.18410035378668
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -74,9 +74,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3009984.5599526037
-            - 0.20024718079646323
-            - 0.20024716747449092
+            - 3009984.8119117003
+            - 0.20024719755870823
+            - 0.20024718423673482
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -141,6 +141,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 113
 is_ts: false
 reference_data:
@@ -149,7 +150,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.47000000000000003
+        uncertainty: 0.4700000000000001
         uncertaintyType: +|-
         units: kJ/mol
         value: 135.73

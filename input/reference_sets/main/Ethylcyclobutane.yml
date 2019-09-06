@@ -107,12 +107,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -139,9 +139,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 63.21791457480167
-            - 227.0228101896558
-            - 264.523221221194
+            - 63.217909282971455
+            - 227.02279118608416
+            - 264.5231990785468
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -149,9 +149,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.26665905015582175
-            - 0.0742552214875041
-            - 0.06372835237497794
+            - 0.26665907247725623
+            - 0.07425522770324311
+            - 0.06372835770953623
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -253,7 +253,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -147846.95398289015
+        value: -147846.9539828901
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -276,6 +276,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 374
 is_ts: false
 reference_data:
@@ -284,7 +285,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.7000000000000001
+        uncertainty: 0.7000000000000003
         uncertaintyType: +|-
         units: kJ/mol
         value: -27.7

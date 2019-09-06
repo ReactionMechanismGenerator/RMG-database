@@ -29,7 +29,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -8363411.373137572
+        value: -8363411.373137574
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -89,9 +89,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 760.166282366516
-            - 760.1906644477601
-            - 1391.4550131013966
+            - 760.1662187346968
+            - 760.1906008138999
+            - 1391.4548966258099
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -99,9 +99,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.022176238862986752
-            - 0.02217552759029829
-            - 0.012115108928872043
+            - 0.022176240719310264
+            - 0.02217552944656226
+            - 0.012115109943000796
         symmetry: 16
       - class: HarmonicOscillator
         frequencies:
@@ -186,6 +186,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 411
 is_ts: false
 reference_data:

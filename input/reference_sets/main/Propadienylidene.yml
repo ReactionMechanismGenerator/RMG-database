@@ -27,7 +27,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -302704.2320683263
+        value: -302704.2320683264
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -56,9 +56,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -75,9 +75,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.7305425087603725
-            - 47.13117630693398
-            - 48.861716015409385
+            - 1.7305423639005297
+            - 47.13117236168863
+            - 48.86171192530443
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -85,9 +85,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 9.741239506115342
-            - 0.3576746937858283
-            - 0.3450068975889457
+            - 9.741240321532782
+            - 0.35767472372597936
+            - 0.34500692646870385
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -137,7 +137,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -72345.04447580628
+        value: -72345.04447580625
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -160,6 +160,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 138
 is_ts: false
 reference_data:
@@ -168,7 +169,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.41000000000000003
+        uncertainty: 0.41000000000000014
         uncertaintyType: +|-
         units: kJ/mol
         value: 555.57

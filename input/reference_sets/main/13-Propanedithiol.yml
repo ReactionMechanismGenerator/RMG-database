@@ -88,9 +88,9 @@ calculated_data:
           class: np_array
           object:
           - 31.9720711744
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 31.9720711744
           - 1.00782503224
           - 1.00782503224
@@ -114,9 +114,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 95.99811765409953
-            - 318.74342254317634
-            - 358.87955699926425
+            - 95.99810961831182
+            - 318.74339586187745
+            - 358.87952695825936
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.1756037458368706
-            - 0.052887770730594426
-            - 0.04697294321889461
+            - 0.1756037605362686
+            - 0.052887775157711786
+            - 0.046972947150894936
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -231,6 +231,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 298
 is_ts: false
 reference_data:
@@ -242,5 +243,5 @@ reference_data:
         uncertainty: 1.17
         uncertaintyType: +|-
         units: kJ/mol
-        value: -29.830000000000002
+        value: -29.830000000000005
       class: ThermoData

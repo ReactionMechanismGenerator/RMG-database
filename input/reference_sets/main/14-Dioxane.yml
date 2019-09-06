@@ -1,11 +1,11 @@
 Identifiers:
   adjacency_list: |
-    1  O u0 p2 c0 {3,S} {6,S}
-    2  O u0 p2 c0 {4,S} {5,S}
-    3  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
-    4  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
-    5  C u0 p0 c0 {2,S} {6,S} {11,S} {12,S}
-    6  C u0 p0 c0 {1,S} {5,S} {13,S} {14,S}
+    1  O u0 p2 c0 {4,S} {5,S}
+    2  O u0 p2 c0 {3,S} {6,S}
+    3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+    4  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+    5  C u0 p0 c0 {1,S} {6,S} {11,S} {12,S}
+    6  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
     7  H u0 p0 c0 {3,S}
     8  H u0 p0 c0 {3,S}
     9  H u0 p0 c0 {4,S}
@@ -92,11 +92,11 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 15.99491461957
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -119,9 +119,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 98.66417936602674
-            - 107.01095797644389
-            - 182.82804070633526
+            - 98.66417110706898
+            - 107.01094901879596
+            - 182.8280254022089
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -129,9 +129,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.17085865571140724
-            - 0.15753180208945827
-            - 0.09220483350486593
+            - 0.17085867001360436
+            - 0.15753181527609417
+            - 0.09220484122312696
         symmetry: 4
       - class: HarmonicOscillator
         frequencies:
@@ -240,6 +240,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 350
 is_ts: false
 reference_data:

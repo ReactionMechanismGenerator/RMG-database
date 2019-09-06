@@ -43,7 +43,7 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
           - 15.99491461957
       modes:
       - class: IdealGasTranslation
@@ -56,12 +56,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 8.666117507958832
+          value: 8.666116782537518
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 1.9452343033505723
+          value: 1.9452344661817986
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -100,7 +100,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -71114.5868218117
+        value: -71114.58682181167
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -123,6 +123,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 21
 is_ts: false
 reference_data:
@@ -131,7 +132,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.026000000000000002
+        uncertainty: 0.02600000000000001
         uncertaintyType: +|-
         units: kJ/mol
         value: -110.522

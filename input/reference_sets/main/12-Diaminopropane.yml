@@ -1,7 +1,7 @@
 Identifiers:
   adjacency_list: |
-    1  N u0 p1 c0 {3,S} {12,S} {13,S}
-    2  N u0 p1 c0 {4,S} {14,S} {15,S}
+    1  N u0 p1 c0 {3,S} {14,S} {15,S}
+    2  N u0 p1 c0 {4,S} {12,S} {13,S}
     3  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
     4  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
     5  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -11,10 +11,10 @@ Identifiers:
     9  H u0 p0 c0 {5,S}
     10 H u0 p0 c0 {5,S}
     11 H u0 p0 c0 {5,S}
-    12 H u0 p0 c0 {1,S}
-    13 H u0 p0 c0 {1,S}
-    14 H u0 p0 c0 {2,S}
-    15 H u0 p0 c0 {2,S}
+    12 H u0 p0 c0 {2,S}
+    13 H u0 p0 c0 {2,S}
+    14 H u0 p0 c0 {1,S}
+    15 H u0 p0 c0 {1,S}
   formula: C3H10N2
   inchi: InChI=1S/C3H10N2/c1-3(5)2-4/h3H,2,4-5H2,1H3
   inchi_key: AOHJOMMDDJHIJH-UHFFFAOYSA-N
@@ -95,10 +95,10 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 14.00307400443
-          - 12.000000000000005
+          - 12.000000000000009
           - 14.00307400443
           - 1.00782503224
           - 1.00782503224
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 62.529741742852885
-            - 143.0121188367001
-            - 185.77599590516974
+            - 62.52973650862806
+            - 143.0121068654755
+            - 185.77598035427667
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -134,9 +134,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.26959377383443794
-            - 0.11787552824525002
-            - 0.09074169658578254
+            - 0.26959379640153164
+            - 0.11787553811234766
+            - 0.09074170418156764
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -249,6 +249,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 308
 is_ts: false
 reference_data:

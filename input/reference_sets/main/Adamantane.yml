@@ -47,7 +47,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -1025062.4885299576
+        value: -1025062.4885299578
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -139,16 +139,16 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -179,9 +179,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 297.3338689986984
-            - 297.39151006454483
-            - 297.41449480358824
+            - 297.3338441095453
+            - 297.3914851705668
+            - 297.41446990768617
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -189,9 +189,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.056695959697152055
-            - 0.056684970763589616
-            - 0.056680590044816834
+            - 0.05669596444304442
+            - 0.05668497550856211
+            - 0.056680594789422646
         symmetry: 8
       - class: HarmonicOscillator
         frequencies:
@@ -348,6 +348,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 426
 is_ts: false
 reference_data:

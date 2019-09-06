@@ -3,14 +3,14 @@ Identifiers:
     1  S u0 p2 c0 {3,S} {6,S}
     2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
     3  C u0 p0 c0 {1,S} {2,S} {4,D}
-    4  C u0 p0 c0 {3,D} {5,S} {11,S}
-    5  C u0 p0 c0 {4,S} {6,D} {10,S}
+    4  C u0 p0 c0 {3,D} {5,S} {10,S}
+    5  C u0 p0 c0 {4,S} {6,D} {11,S}
     6  C u0 p0 c0 {1,S} {5,D} {12,S}
     7  H u0 p0 c0 {2,S}
     8  H u0 p0 c0 {2,S}
     9  H u0 p0 c0 {2,S}
-    10 H u0 p0 c0 {5,S}
-    11 H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {5,S}
     12 H u0 p0 c0 {6,S}
   formula: C5H6S
   inchi: InChI=1S/C5H6S/c1-5-3-2-4-6-5/h2-4H,1H3
@@ -83,12 +83,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 31.9720711744
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -109,9 +109,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 94.45069418045857
-            - 161.28935762098192
-            - 252.6111197854896
+            - 94.45068627420221
+            - 161.28934411981058
+            - 252.61109863997777
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -119,9 +119,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.17848073219176258
-            - 0.10451792543536986
-            - 0.06673351936234449
+            - 0.17848074713198672
+            - 0.10451793418433235
+            - 0.0667335249484586
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -222,6 +222,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 342
 is_ts: false
 reference_data:

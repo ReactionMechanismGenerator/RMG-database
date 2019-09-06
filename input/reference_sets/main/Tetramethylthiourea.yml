@@ -1,12 +1,12 @@
 Identifiers:
   adjacency_list: |
     1  S u0 p2 c0 {8,D}
-    2  N u0 p1 c0 {4,S} {5,S} {8,S}
-    3  N u0 p1 c0 {6,S} {7,S} {8,S}
+    2  N u0 p1 c0 {4,S} {7,S} {8,S}
+    3  N u0 p1 c0 {5,S} {6,S} {8,S}
     4  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-    5  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+    5  C u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
     6  C u0 p0 c0 {3,S} {15,S} {16,S} {17,S}
-    7  C u0 p0 c0 {3,S} {18,S} {19,S} {20,S}
+    7  C u0 p0 c0 {2,S} {18,S} {19,S} {20,S}
     8  C u0 p0 c0 {1,D} {2,S} {3,S}
     9  H u0 p0 c0 {4,S}
     10 H u0 p0 c0 {4,S}
@@ -115,14 +115,14 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000005
+          - 12.000000000000009
           - 14.00307400443
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 31.9720711744
           - 14.00307400443
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -149,9 +149,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 251.60540583895047
-            - 303.10851865626114
-            - 502.03147166229473
+            - 251.6053847776248
+            - 303.108493283725
+            - 502.0314296383631
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -159,9 +159,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.06700026574205982
-            - 0.0556158207894705
-            - 0.03357882922664307
+            - 0.06700027135050267
+            - 0.055615825444946844
+            - 0.033578832037451996
         symmetry: 162
       - class: HarmonicOscillator
         frequencies:
@@ -294,6 +294,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 421
 is_ts: false
 reference_data:
@@ -302,7 +303,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 2.3000000000000003
+        uncertainty: 2.300000000000001
         uncertaintyType: +|-
         units: kJ/mol
         value: 44.9

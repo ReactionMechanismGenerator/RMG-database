@@ -1,10 +1,10 @@
 Identifiers:
   adjacency_list: |
     1  O u0 p2 c0 {4,S} {5,S}
-    2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
-    3  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-    4  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
-    5  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
+    2  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+    3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+    4  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+    5  C u0 p0 c0 {1,S} {2,S} {12,S} {13,S}
     6  H u0 p0 c0 {2,S}
     7  H u0 p0 c0 {2,S}
     8  H u0 p0 c0 {3,S}
@@ -88,10 +88,10 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
-          - 12.000000000000005
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
+          - 12.000000000000009
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -114,9 +114,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 70.75377826241387
-            - 71.64730439215313
-            - 125.15942005575673
+            - 70.75377233977335
+            - 71.64729839471754
+            - 125.15940957894162
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.2382576516384239
-            - 0.2352862985755924
-            - 0.13468925507835258
+            - 0.23825767158244068
+            - 0.2352863182708838
+            - 0.13468926635288977
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -231,6 +231,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-08-21 15:24
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 294
 is_ts: false
 reference_data:
@@ -242,5 +243,5 @@ reference_data:
         uncertainty: 0.8
         uncertaintyType: +|-
         units: kJ/mol
-        value: -184.20000000000002
+        value: -184.20000000000007
       class: ThermoData
