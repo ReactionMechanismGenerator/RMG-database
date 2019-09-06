@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 C u0 p0 c+1 {2,S} {3,S} {4,S}
+    2 H u0 p0 c0 {1,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+  formula: CH3
+  inchi: InChI=1S/CH3/h1H3/q+1
+  inchi_key: JUHDUIDUEUEQND-UHFFFAOYSA-N
+  label: Methylium
+  smiles: '[CH3+]'
+Properties:
+  charge: 1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 15.034521442196064
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 15
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.078
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 1095.291
+      class: ThermoData

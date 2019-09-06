@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p1 c+1 {2,S} {3,S} {4,S}
+    2 H u0 p0 c0 {1,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+  formula: H3O
+  inchi_key: XLYOFNOQVPJJNP-UHFFFAOYSA-O
+  label: Oxonium
+  smiles: '[OH3+]'
+Properties:
+  charge: 1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 19.023220832289304
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 17
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.17
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 599.09
+      class: ThermoData

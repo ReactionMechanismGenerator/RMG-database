@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p2 c-1 {2,D}
+    2 C u0 p0 c0 {1,D} {3,S} {4,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+  formula: CH2N
+  inchi: InChI=1S/CH2N/c1-2/h1H2/q-1
+  inchi_key: BUKKEXYZFWWAOA-UHFFFAOYSA-N
+  label: Methyleneamidogen anion
+  smiles: '[N-]=C'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 28.033322905795497
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 65
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.96
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 188.97
+      class: ThermoData

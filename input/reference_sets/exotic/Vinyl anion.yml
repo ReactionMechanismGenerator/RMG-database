@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 C u0 p0 c0 {2,D} {3,S} {4,S}
+    2 C u0 p1 c-1 {1,D} {5,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+    5 H u0 p0 c0 {2,S}
+  formula: C2H3
+  inchi: InChI=1S/C2H3/c1-2/h1H,2H2/q-1
+  inchi_key: IEARPTNIYZTWOZ-UHFFFAOYSA-N
+  label: Vinyl anion
+  smiles: '[C-]=C'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 27.04522251695288
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 70
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.87
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 232.59
+      class: ThermoData

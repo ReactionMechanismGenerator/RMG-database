@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p3 c-1 {2,S}
+    2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+    5 H u0 p0 c0 {2,S}
+  formula: CH3O
+  inchi: InChI=1S/CH3O/c1-2/h1H3/q-1
+  inchi_key: NBTOZLQBSIZIKS-UHFFFAOYSA-N
+  label: Methoxide
+  smiles: C[O-]
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 31.033921907046118
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 74
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.31
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -130.21
+      class: ThermoData

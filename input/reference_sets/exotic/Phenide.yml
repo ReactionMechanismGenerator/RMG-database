@@ -1,0 +1,42 @@
+Identifiers:
+  adjacency_list: |
+    1  C u0 p0 c0 {2,S} {3,D} {8,S}
+    2  C u0 p0 c0 {1,S} {4,D} {7,S}
+    3  C u0 p0 c0 {1,D} {5,S} {9,S}
+    4  C u0 p0 c0 {2,D} {6,S} {10,S}
+    5  C u0 p0 c0 {3,S} {6,D} {11,S}
+    6  C u0 p1 c-1 {4,S} {5,D}
+    7  H u0 p0 c0 {2,S}
+    8  H u0 p0 c0 {1,S}
+    9  H u0 p0 c0 {3,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {5,S}
+  formula: C6H5
+  inchi: InChI=1S/C6H5/c1-2-4-6-5-3-1/h1-5H/q-1
+  inchi_key: BJISZDCMBMQNIY-UHFFFAOYSA-N
+  label: Phenide
+  smiles: '[C-]1=CC=CC=C1'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 77.10390706093963
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 331
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.42
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: 231.01
+      class: ThermoData

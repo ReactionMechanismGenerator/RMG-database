@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p3 c-1 {4,S}
+    2 O u0 p3 c-1 {4,S}
+    3 O u0 p2 c0 {4,D}
+    4 N u0 p0 c+1 {1,S} {2,S} {3,D}
+  formula: NO3
+  inchi: InChI=1S/NO3/c2-1(3)4/q-1
+  inchi_key: NHNBFGGVMKEFGY-UHFFFAOYSA-N
+  label: Nitrate
+  smiles: '[O-][N+](=O)[O-]'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 62.00494298062935
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 192
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.62
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -306.77
+      class: ThermoData

@@ -1,0 +1,42 @@
+Identifiers:
+  adjacency_list: |
+    1  O u0 p3 c-1 {5,S}
+    2  C u0 p0 c0 {3,D} {7,S} {8,S}
+    3  C u0 p0 c0 {2,D} {4,S} {9,S}
+    4  C u0 p0 c0 {3,S} {5,D} {10,S}
+    5  C u0 p0 c0 {1,S} {4,D} {6,S}
+    6  C u0 p0 c0 {5,S} {7,D} {11,S}
+    7  C u0 p0 c0 {2,S} {6,D} {12,S}
+    8  H u0 p0 c0 {2,S}
+    9  H u0 p0 c0 {3,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {6,S}
+    12 H u0 p0 c0 {7,S}
+  formula: C6H5O
+  inchi_key: ISWSIDIOOBJBQZ-UHFFFAOYSA-M
+  label: Phenolate
+  smiles: '[O-]C1=CC=CC=C1'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 93.10330752578969
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 393
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.93
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -161.56
+      class: ThermoData

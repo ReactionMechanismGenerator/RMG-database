@@ -1,0 +1,33 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p3 c-1 {3,S}
+    2 O u0 p2 c0 {3,D}
+    3 N u0 p1 c0 {1,S} {2,D}
+  formula: NO2
+  inchi_key: IOVCWXUNBOPUCH-UHFFFAOYSA-M
+  label: Nitrite
+  smiles: '[O-]N=O'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 46.0055425157793
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 99
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.46
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -185.44
+      class: ThermoData

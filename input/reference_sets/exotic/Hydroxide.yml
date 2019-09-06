@@ -1,0 +1,32 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p3 c-1 {2,S}
+    2 H u0 p0 c0 {1,S}
+  formula: HO
+  inchi_key: XLYOFNOQVPJJNP-UHFFFAOYSA-M
+  label: Hydroxide
+  smiles: '[OH-]'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 17.007340587329804
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-08-21 15:24
+index: 3
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.027
+        uncertaintyType: +|-
+        units: kJ/mol
+        value: -139.066
+      class: ThermoData
