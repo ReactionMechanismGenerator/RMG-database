@@ -19,6 +19,7 @@ Properties:
     units: amu
     value: 47.033322371896176
   multiplicity: 2
+  symmetry_number: 3.0
 RMG_version: 2.4.1
 calculated_data: {}
 class: ReferenceSpecies
