@@ -1731,15 +1731,23 @@ Total Standard Deviation in ln(k): 11.5401827615
 entry(
     index = 115,
     label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R",
-    kinetics = ArrheniusBM(A=(1.55409e+91,'m^3/(mol*s)'), n=-24.7026, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
-    Total Standard Deviation in ln(k): 11.5401827615"""),
+    kinetics = Arrhenius(
+         A = (1.00000e+7,"m^3/(mol*s)"),
+        n = (0.00000,""),
+        Ea = (0,"J/mol"),
+        T0 = (1,"K"),
+    ),
     rank = 11,
-    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
-Total Standard Deviation in ln(k): 11.5401827615""",
+    shortDesc = u"""Approximately the collision limit""",
     longDesc = 
 u"""
-BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
-Total Standard Deviation in ln(k): 11.5401827615
+To address issue https://github.com/ReactionMechanismGenerator/RMG-database/issues/353
+in which it is suggested this rule was auto-generated using poor thermochemistry,
+and ended up much too fast, we have replaced it with the previous value for this reaction,
+https://rmg.mit.edu/database/kinetics/families/R_Recombination/training/40/
+Apparently taken from entry: C9H7_19 + H_15 <=> indene_25
+from kinetics library: kislovB
+This is pretty much the collision limit. (10^13 cm3/mol/s)
 """,
 )
 
