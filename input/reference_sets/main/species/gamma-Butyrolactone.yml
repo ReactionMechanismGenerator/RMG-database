@@ -1,0 +1,41 @@
+Identifiers:
+  adjacency_list: |
+    1  O u0 p2 c0 {5,S} {6,S}
+    2  O u0 p2 c0 {6,D}
+    3  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+    4  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+    5  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+    6  C u0 p0 c0 {1,S} {2,D} {4,S}
+    7  H u0 p0 c0 {3,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {5,S}
+    12 H u0 p0 c0 {5,S}
+  formula: C4H6O2
+  inchi: InChI=1S/C4H6O2/c5-4-2-1-3-6-4/h1-3H2
+  inchi_key: YEJRWHAVMIAJKC-UHFFFAOYSA-N
+  label: gamma-Butyrolactone
+  smiles: O=C1CCCO1
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 86.08924596360588
+  multiplicity: 1
+RMG_version: 2.4.1
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2019-09-07 12:38
+index: 338
+is_ts: false
+reference_data:
+  CCCBDB:
+    H298:
+      class: ScalarQuantity
+      uncertainty: 0.8
+      uncertaintyType: +|-
+      units: kJ/mol
+      value: -366.5
+    class: ThermoData
