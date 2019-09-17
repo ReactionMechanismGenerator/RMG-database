@@ -48,7 +48,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([8.09,8.42,8.87,9.37,10.34,11.11,12.35],'cal/(mol*K)'),
-        H298 = (-17.90, 'kcal/mol'),
+        H298 = (42.10, 'kcal/mol'),
         S298 = (52.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -79,7 +79,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([13.18,15.06,16.8,18.35,20.93,22.93,26.1],'cal/(mol*K)'),
-        H298 = (-26.31, 'kcal/mol'),
+        H298 = (33.69, 'kcal/mol'),
         S298 = (62.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -113,7 +113,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([17.3,21.3,24.8,28.0,32.9,36.5,42.1],'cal/(mol*K)'),
-        H298 = (-33.16, 'kcal/mol'),
+        H298 = (26.84, 'kcal/mol'),
         S298 = (70.44,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -144,7 +144,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([23.58,28.38,32.80,36.68,42.84,47.44,54.66],'cal/(mol*K)'),
-        H298 = (-19.66, 'kcal/mol'),
+        H298 = (40.34, 'kcal/mol'),
         S298 = (79.55,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -175,7 +175,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([23.49,28.39,32.85,36.84,42.99,47.61,54.83],'cal/(mol*K)'),
-        H298 = (-36.92, 'kcal/mol'),
+        H298 = (23.08, 'kcal/mol'),
         S298 = (81.95,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
