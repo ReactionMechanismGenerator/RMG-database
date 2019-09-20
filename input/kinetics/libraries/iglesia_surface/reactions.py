@@ -186,7 +186,7 @@ high barrier, 5 kcal? A like 12
 entry(
     index = 14,
     label = "HNO + HNO <=> H2 + NO + NO",
-    kinetics = Arrhenius(A=(2.0e+15, 'cm^3/(mol*s)'), n=0.0, Ea=(0.00, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.0e+15, 'cm^3/(mol*s)'), n=0.0, Ea=(15.80, 'kcal/mol'), T0=(1, 'K')),
     longDesc =
 u"""
 A = kB T / h * 100 (surface, not gas phase)
