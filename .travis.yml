@@ -34,11 +34,11 @@ jobs:
         # This is the RMG-database project, so need to fetch RMG-Py
         - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
         - cd RMG-Py
-        - conda env create -q -f environment_linux.yml
+        - conda env create -q -f environment.yml
         - source activate rmg_env
         - conda list
         # Install Q2DTor
-        - git clone -b arkane https://github.com/mjohnson541/Q2DTor.git external/Q2DTor
+        - git clone -b arkanepy3 https://github.com/mjohnson541/Q2DTor.git external/Q2DTor
         - make
       script:
         - make test-unittests
