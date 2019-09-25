@@ -4,7 +4,9 @@
 name = "Solvent Descriptors"
 shortDesc = u""
 longDesc = u"""
-
+Abraham solvent parameters (s_g, b_g, e_g, l_g, a_g, c_g) are from:
+Jalan, Amrit. (2014). Predictive kinetic modeling of low-temperature hydrocarbon oxidation (Doctoral dissertation).
+Cambridge, MA: Massachusetts Institute of Technology.
 """
 entry(
     index = 1,
