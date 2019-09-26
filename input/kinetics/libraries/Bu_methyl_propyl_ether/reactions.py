@@ -1644,3 +1644,58 @@ u"""
 Mark Nimlos CBS-QB3 HR
 """,
 )
+
+entry(
+    index = 87,
+    label = "HO2 + propanal <=> H2O2 + CC[C]=O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.340e-2,'cm^3/(mol*s)'),
+        n = 4.397,
+        Ea = (2.808, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 88,
+    label = "HO2 + propanal <=> H2O2 + C[CH]C=O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (4.921e-6,'cm^3/(mol*s)'),
+        n = 5.059,
+        Ea = (4.214, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
+entry(
+    index = 89,
+    label = "HO2 + propanal <=> H2O2 + [CH2]CC=O]",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (2.715e-6,'cm^3/(mol*s)'),
+        n = 5.318,
+        Ea = (8.947, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos G4 HR
+""",
+)
+
