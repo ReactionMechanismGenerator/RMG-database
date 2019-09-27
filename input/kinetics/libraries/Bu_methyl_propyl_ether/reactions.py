@@ -1683,7 +1683,7 @@ Mark Nimlos G4 HR
 
 entry(
     index = 89,
-    label = "HO2 + propanal <=> H2O2 + [CH2]CC=O]",
+    label = "HO2 + propanal <=> H2O2 + [CH2]CC=O",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (2.715e-6,'cm^3/(mol*s)'),
