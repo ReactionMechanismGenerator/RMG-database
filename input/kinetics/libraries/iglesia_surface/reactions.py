@@ -40,7 +40,7 @@ too high, 1e12, small Ea, 1 kcal
 entry(
     index = 3,
     label = "IC3H7 + NO <=> C3H6 + HNO",
-    kinetics = Arrhenius(A=(1.0e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(0.0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.0e+11, 'cm^3/(mol*s)'), n=0.0, Ea=(0.0, 'cal/mol'), T0=(1, 'K')),
     longDesc =
 u"""
 A too high, 1e13
@@ -52,7 +52,7 @@ if migrates on the surface, higher, calc gas kinetic theory of collision w surfa
 entry(
     index = 4,
     label = "NC3H7 + NO <=> C3H6 + HNO",
-    kinetics = Arrhenius(A=(1.0e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(0.0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.0e+11, 'cm^3/(mol*s)'), n=0.0, Ea=(0.0, 'cal/mol'), T0=(1, 'K')),
     longDesc =
 u"""
 
@@ -62,7 +62,7 @@ u"""
 entry(
     index = 5,
     label = "C2H5 + NO <=> C2H4 + HNO",
-    kinetics = Arrhenius(A=(1.0e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.0e+11, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     longDesc =
 u"""
 
@@ -186,10 +186,11 @@ high barrier, 5 kcal? A like 12
 entry(
     index = 14,
     label = "HNO + HNO <=> H2 + NO + NO",
-    kinetics = Arrhenius(A=(2.0e+15, 'cm^3/(mol*s)'), n=0.0, Ea=(15.80, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.0e+15, 'cm^3/(mol*s)'), n=0.0, Ea=(5.80, 'kcal/mol'), T0=(1, 'K')),
     longDesc =
 u"""
 A = kB T / h * 100 (surface, not gas phase)
 Ea = 2 * H(HNO) - automatically determined per BDE
 """,
 )
+
