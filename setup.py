@@ -32,7 +32,7 @@ try:
     from distutils.core import setup
     from distutils.extension import Extension
 except ImportError:
-    print 'The distutils package is required to build or install RMG Py.'
+    print('The distutils package is required to build or install RMG Py.')
 
 scripts = [
     'evansPolanyi.py',
