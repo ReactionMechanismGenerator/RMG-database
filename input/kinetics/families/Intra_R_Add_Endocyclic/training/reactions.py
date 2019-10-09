@@ -1804,28 +1804,6 @@ From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
 )
 
 entry(
-    index = 72,
-    label = "C10H9-29 <=> C10H9-30",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(6.258e+10, 's^-1'), n=0.21, Ea=(7.415, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['A. M. Mebel', 'A. Landera', 'R. I. Kaiser'],
-        title = 'Formation Mechanisms of Naphthalene and Indene: From the Interstellar Medium to Combustion Flames',
-        journal = 'Journal of Physical Chemistry A',
-        volume = '121(5)',
-        pages = '901-926',
-        year = '2017',
-    ),
-    referenceType = "theory",
-    rank = 5,
-    longDesc = 
-u"""
-Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
-From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
-""",
-)
-
-entry(
     index = 73,
     label = "C6H9-7 <=> C6H9-8",
     degeneracy = 1.0,
@@ -1874,28 +1852,6 @@ entry(
     label = "C9H11-3 <=> C9H11-4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.066e+08, 's^-1'), n=0.949, Ea=(16.873, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['Z. J. Buras', 'T.-C. Chu', 'A. Jamal', 'N. W. Yee', 'J. E. Middaugh', 'W. H. Green'],
-        title = 'Phenyl radical + propene: a prototypical reaction surface for aromatic-catalyzed 1,2-hydrogen-migration and subsequent resonance-stabilized radical formation',
-        journal = 'Physical Chemistry Chemical Physics',
-        volume = '20',
-        pages = '13191-13214 ',
-        year = '2018',
-    ),
-    referenceType = "theory",
-    rank = 5,
-    longDesc = 
-u"""
-Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
-From kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP
-""",
-)
-
-entry(
-    index = 76,
-    label = "C9H11-5 <=> C9H11-6",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.255e+12, 's^-1'), n=0.347, Ea=(57.413, 'kcal/mol'), T0=(1, 'K')),
     reference = Article(
         authors = ['Z. J. Buras', 'T.-C. Chu', 'A. Jamal', 'N. W. Yee', 'J. E. Middaugh', 'W. H. Green'],
         title = 'Phenyl radical + propene: a prototypical reaction surface for aromatic-catalyzed 1,2-hydrogen-migration and subsequent resonance-stabilized radical formation',
@@ -2002,29 +1958,6 @@ u"""
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP
 Taken from entry: W3 <=> W11
-""",
-)
-
-entry(
-    index = 81,
-    label = "C10H9-29 <=> C10H9-30",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.076e+11, 's^-1'), n=0.228, Ea=(6.982, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['A. M. Mebel', 'Y. Georgievskii', 'A. W. Jasper', 'S. J. Klippenstein'],
-        title = 'Temperature- and pressure-dependent rate coefficients for the HACA pathways from benzene to naphthalene',
-        journal = 'Proceedings of the Combustion Institute',
-        volume = '36(1)',
-        pages = '919-926',
-        year = '2017',
-    ),
-    referenceType = "theory",
-    rank = 5,
-    longDesc = 
-u"""
-Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
-From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP
-Taken from entry: W3 <=> W4
 """,
 )
 
@@ -2232,29 +2165,6 @@ Taken from entry: pdt7 <=> pdt8
 )
 
 entry(
-    index = 91,
-    label = "C10H11-7 <=> C10H11-8",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.39e+10, 's^-1'), n=0.91, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-        title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = 'Energy & Fuels',
-        volume = '32(3)',
-        pages = '3920-3934',
-        year = '2018',
-    ),
-    referenceType = "theory",
-    rank = 5,
-    longDesc = 
-u"""
-Calculations done at CBS-QB3 level of theory
-From kinetics library: C10H11
-Taken from entry: pdt8 <=> pdt9
-""",
-)
-
-entry(
     index = 92,
     label = "C10H11-9 <=> C10H11-10",
     degeneracy = 2.0,
@@ -2458,29 +2368,6 @@ u"""
 Calculations done at CBS-QB3 level of theory
 From kinetics library: C10H11
 Taken from entry: pdt14 <=> pdt23
-""",
-)
-
-entry(
-    index = 101,
-    label = "C10H11-27 <=> C10H11-28",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.27e+10, 's^-1'), n=1.01, Ea=(40.7, 'kcal/mol'), T0=(1, 'K')),
-    reference = Article(
-        authors = ['A. J. Vervust', 'M. R. Djokic', 'S. S. Merchant', 'H.-H. Carstensen', 'A. E. Long', 'G. B. Marin', 'W. H. Green', 'K. M. Van Geem'],
-        title = 'Detailed Experimental and Kinetic Modeling Study of Cyclopentadiene Pyrolysis in the Presence of Ethene',
-        journal = 'Energy & Fuels',
-        volume = '32(3)',
-        pages = '3920-3934',
-        year = '2018',
-    ),
-    referenceType = "theory",
-    rank = 5,
-    longDesc = 
-u"""
-Calculations done at CBS-QB3 level of theory
-From kinetics library: C10H11
-Taken from entry: pdt23 <=> pdt9
 """,
 )
 
@@ -3501,26 +3388,6 @@ Converted to training reaction from rate rule: R5_SD_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 148,
-    label = "C5H7 <=> C5H7-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.73e+10, 's^-1'),
-        n = 0.19,
-        Ea = (49.7896, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 6,
-    shortDesc = u"""BMK/cbsb7 + 1D-HR""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_DS_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 149,
     label = "C6H9-9 <=> C6H9-10",
     degeneracy = 1.0,
@@ -3541,26 +3408,6 @@ Converted to training reaction from rate rule: R6_DSS_D;doublebond_intra_pri_2H;
 )
 
 entry(
-    index = 150,
-    label = "C5H7 <=> C5H7-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.73e+10, 's^-1'),
-        n = 0.19,
-        Ea = (49.7896, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Guess, i.e. 821""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_MS;multiplebond_intra;radadd_intra_cdsingle
-""",
-)
-
-entry(
     index = 151,
     label = "C6H9-9 <=> C6H9-10",
     degeneracy = 1.0,
@@ -3577,26 +3424,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_MSR;multiplebond_intra;radadd_intra_cdsingle
-""",
-)
-
-entry(
-    index = 152,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.06e+08, 's^-1'),
-        n = 0.19,
-        Ea = (39.6643, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_cs2H
 """,
 )
 
@@ -3717,26 +3544,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 159,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.88e+09, 's^-1'),
-        n = 0.19,
-        Ea = (30.334, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH
 """,
 )
 
@@ -3881,26 +3688,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 167,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.05e+10, 's^-1'),
-        n = 0.19,
-        Ea = (31.7147, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 168,
     label = "CC(C)_CCCCCJ <=> C8H15-3",
     degeneracy = 1.0,
@@ -4037,26 +3824,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 175,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.67e+09, 's^-1'),
-        n = 0.19,
-        Ea = (39.0786, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -4201,26 +3968,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 183,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.8e+10, 's^-1'),
-        n = 0.19,
-        Ea = (34.8527, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 184,
     label = "C9H15-7 <=> C9H15-8",
     degeneracy = 1.0,
@@ -4357,26 +4104,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 191,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.48e+09, 's^-1'),
-        n = 0.19,
-        Ea = (45.4801, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -4521,26 +4248,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 199,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.71e+10, 's^-1'),
-        n = 0.19,
-        Ea = (33.1791, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_HCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 200,
     label = "C9H13-7 <=> C9H13-8",
     degeneracy = 1.0,
@@ -4681,46 +4388,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdC
 )
 
 entry(
-    index = 207,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.12e+09, 's^-1'),
-        n = 0.19,
-        Ea = (42.3002, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_pri_NdCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
-    index = 208,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.83e+10, 's^-1'),
-        n = 0.19,
-        Ea = (135.185, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;radadd_intra_cs2H
-""",
-)
-
-entry(
     index = 209,
     label = "C_CCCJC <=> 3-methylcyclobutyl",
     degeneracy = 1.0,
@@ -4837,26 +4504,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 215,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.91e+11, 's^-1'),
-        n = 0.19,
-        Ea = (125.897, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH
 """,
 )
 
@@ -5001,26 +4648,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;r
 )
 
 entry(
-    index = 223,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.82e+12, 's^-1'),
-        n = 0.19,
-        Ea = (127.277, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 224,
     label = "CC(C)_CCCJ <=> C6H11-3",
     degeneracy = 1.0,
@@ -5157,26 +4784,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 231,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.98e+11, 's^-1'),
-        n = 0.19,
-        Ea = (134.641, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -5321,26 +4928,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;r
 )
 
 entry(
-    index = 239,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.08e+12, 's^-1'),
-        n = 0.19,
-        Ea = (130.415, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 240,
     label = "C7H11-13 <=> C7H11-14",
     degeneracy = 1.0,
@@ -5477,26 +5064,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 247,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.87e+11, 's^-1'),
-        n = 0.19,
-        Ea = (141.043, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -5641,26 +5208,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;r
 )
 
 entry(
-    index = 255,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.81e+12, 's^-1'),
-        n = 0.19,
-        Ea = (128.742, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_HCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 256,
     label = "C7H9-57 <=> C7H9-58",
     degeneracy = 1.0,
@@ -5801,46 +5348,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;
 )
 
 entry(
-    index = 263,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.46e+11, 's^-1'),
-        n = 0.19,
-        Ea = (137.863, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_pri_NdCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
-    index = 264,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.86e+09, 's^-1'),
-        n = 0.19,
-        Ea = (67.9063, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;radadd_intra_cs2H
-""",
-)
-
-entry(
     index = 265,
     label = "C_CCCCJC <=> 3-methylcyclopentyl",
     degeneracy = 1.0,
@@ -5957,26 +5464,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 271,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (7.74e+10, 's^-1'),
-        n = 0.19,
-        Ea = (58.6178, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;radadd_intra_cdsingleH
 """,
 )
 
@@ -6121,26 +5608,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;
 )
 
 entry(
-    index = 279,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.84e+11, 's^-1'),
-        n = 0.19,
-        Ea = (59.9567, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 280,
     label = "CC(C)_CCCCJ <=> C7H13-7",
     degeneracy = 1.0,
@@ -6277,26 +5744,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 287,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.06e+11, 's^-1'),
-        n = 0.19,
-        Ea = (67.3624, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -6441,26 +5888,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;
 )
 
 entry(
-    index = 295,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.86e+11, 's^-1'),
-        n = 0.19,
-        Ea = (63.1366, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 296,
     label = "C8H13-19 <=> C8H13-20",
     degeneracy = 1.0,
@@ -6597,26 +6024,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 303,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.03e+11, 's^-1'),
-        n = 0.19,
-        Ea = (73.7221, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -6761,26 +6168,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;
 )
 
 entry(
-    index = 311,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (7.47e+11, 's^-1'),
-        n = 0.19,
-        Ea = (61.463, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_HCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 312,
     label = "C8H11-21 <=> C8H11-22",
     degeneracy = 1.0,
@@ -6917,26 +6304,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 319,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.53e+10, 's^-1'),
-        n = 0.19,
-        Ea = (70.5841, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_NdCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -7241,26 +6608,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd
 )
 
 entry(
-    index = 335,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.3e+12, 's^-1'),
-        n = 0.19,
-        Ea = (91.4622, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 336,
     label = "C8H13-25 <=> C8H13-26",
     degeneracy = 1.0,
@@ -7397,26 +6744,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 343,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.85e+11, 's^-1'),
-        n = 0.19,
-        Ea = (98.8261, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -7561,26 +6888,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd
 )
 
 entry(
-    index = 351,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (7.71e+11, 's^-1'),
-        n = 0.19,
-        Ea = (94.6421, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 352,
     label = "C9H13-33 <=> C9H13-34",
     degeneracy = 1.0,
@@ -7717,26 +7024,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 359,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.77e+11, 's^-1'),
-        n = 0.19,
-        Ea = (105.228, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -7881,26 +7168,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt
 )
 
 entry(
-    index = 367,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.01e+12, 's^-1'),
-        n = 0.19,
-        Ea = (92.9266, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_HCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 368,
     label = "C9H11-25 <=> C9H11-26",
     degeneracy = 1.0,
@@ -8037,26 +7304,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 375,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.76e+11, 's^-1'),
-        n = 0.19,
-        Ea = (102.09, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_pri_NdCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -8201,26 +7448,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2
 )
 
 entry(
-    index = 383,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.1e+09, 's^-1'),
-        n = 0.19,
-        Ea = (28.6604, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_2H;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 384,
     label = "C8H15-12 <=> C8H15-13",
     degeneracy = 1.0,
@@ -8357,26 +7584,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 391,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.82e+10, 's^-1'),
-        n = 0.19,
-        Ea = (29.9993, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_HNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -8521,26 +7728,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 399,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (8.34e+09, 's^-1'),
-        n = 0.19,
-        Ea = (37.405, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_NdNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 400,
     label = "C9H15-27 <=> C9H15-28",
     degeneracy = 1.0,
@@ -8677,26 +7864,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 407,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.26e+10, 's^-1'),
-        n = 0.19,
-        Ea = (33.1791, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_HCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -8841,26 +8008,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 415,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (8.1e+09, 's^-1'),
-        n = 0.19,
-        Ea = (43.7646, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_NdCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 416,
     label = "C9H13-37 <=> C9H13-38",
     degeneracy = 1.0,
@@ -8997,26 +8144,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 423,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.89e+10, 's^-1'),
-        n = 0.19,
-        Ea = (31.4637, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_HCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -9161,26 +8288,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_N
 )
 
 entry(
-    index = 431,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.15e+09, 's^-1'),
-        n = 0.19,
-        Ea = (40.6266, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secNd_NdCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 432,
     label = "C_C(C)CCJ <=> 1-methylcyclobutyl",
     degeneracy = 1.0,
@@ -9317,26 +8424,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 439,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.64e+11, 's^-1'),
-        n = 0.19,
-        Ea = (124.181, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_2H;radadd_intra_cdsingleH
 """,
 )
 
@@ -9481,26 +8568,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd
 )
 
 entry(
-    index = 447,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.28e+12, 's^-1'),
-        n = 0.19,
-        Ea = (125.562, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 448,
     label = "C7H13-12 <=> C7H13-13",
     degeneracy = 1.0,
@@ -9637,26 +8704,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 455,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.98e+11, 's^-1'),
-        n = 0.19,
-        Ea = (132.926, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -9801,26 +8848,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd
 )
 
 entry(
-    index = 463,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.35e+12, 's^-1'),
-        n = 0.19,
-        Ea = (128.742, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 464,
     label = "C8H13-33 <=> C8H13-34",
     degeneracy = 1.0,
@@ -9957,26 +8984,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 471,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.84e+11, 's^-1'),
-        n = 0.19,
-        Ea = (139.327, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -10121,26 +9128,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt
 )
 
 entry(
-    index = 479,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.51e+12, 's^-1'),
-        n = 0.19,
-        Ea = (127.026, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_HCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 480,
     label = "C8H11-33 <=> C8H11-34",
     degeneracy = 1.0,
@@ -10277,26 +9264,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 487,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.07e+11, 's^-1'),
-        n = 0.19,
-        Ea = (136.189, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secNd_NdCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -10441,26 +9408,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H
 )
 
 entry(
-    index = 495,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.68e+10, 's^-1'),
-        n = 0.19,
-        Ea = (56.9024, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_2H;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 496,
     label = "C7H13-16 <=> C7H13-17",
     degeneracy = 1.0,
@@ -10597,26 +9544,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 503,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.05e+11, 's^-1'),
-        n = 0.19,
-        Ea = (58.2831, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -10761,26 +9688,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 511,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.32e+11, 's^-1'),
-        n = 0.19,
-        Ea = (65.647, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_NdNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 512,
     label = "C8H13-37 <=> C8H13-38",
     degeneracy = 1.0,
@@ -10917,26 +9824,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 519,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.58e+11, 's^-1'),
-        n = 0.19,
-        Ea = (61.4211, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -11081,26 +9968,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 527,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.28e+11, 's^-1'),
-        n = 0.19,
-        Ea = (72.0485, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_NdCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 528,
     label = "C8H11-37 <=> C8H11-38",
     degeneracy = 1.0,
@@ -11237,26 +10104,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 535,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.34e+11, 's^-1'),
-        n = 0.19,
-        Ea = (59.7475, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_HCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -11401,26 +10248,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_Nd
 )
 
 entry(
-    index = 543,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (8.16e+10, 's^-1'),
-        n = 0.19,
-        Ea = (68.8686, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secNd_NdCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 544,
     label = "C7H11-27 <=> C7H11-28",
     degeneracy = 1.0,
@@ -11557,26 +10384,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 551,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.61e+11, 's^-1'),
-        n = 0.19,
-        Ea = (88.4079, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_2H;radadd_intra_cdsingleH
 """,
 )
 
@@ -11721,26 +10528,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 559,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.63e+12, 's^-1'),
-        n = 0.19,
-        Ea = (89.7886, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_HNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 560,
     label = "C9H15-49 <=> C9H15-50",
     degeneracy = 1.0,
@@ -11877,26 +10664,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 567,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.56e+11, 's^-1'),
-        n = 0.19,
-        Ea = (97.1525, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_NdNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -12041,26 +10808,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 575,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.64e+11, 's^-1'),
-        n = 0.19,
-        Ea = (92.9266, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_HCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 576,
     label = "C10H15-61 <=> C10H15-62",
     degeneracy = 1.0,
@@ -12197,26 +10944,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 583,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.46e+11, 's^-1'),
-        n = 0.19,
-        Ea = (103.554, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_NdCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -12361,26 +11088,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_H
 )
 
 entry(
-    index = 591,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.52e+12, 's^-1'),
-        n = 0.19,
-        Ea = (91.253, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_HCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 592,
     label = "C10H13-45 <=> C10H13-46",
     degeneracy = 1.0,
@@ -12517,26 +11224,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 599,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.2e+11, 's^-1'),
-        n = 0.19,
-        Ea = (100.374, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secNd_NdCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -12681,26 +11368,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2
 )
 
 entry(
-    index = 607,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.38e+09, 's^-1'),
-        n = 0.19,
-        Ea = (17.0289, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_2H;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 608,
     label = "C9H15-53 <=> C9H15-54",
     degeneracy = 1.0,
@@ -12837,26 +11504,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 615,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.99e+10, 's^-1'),
-        n = 0.19,
-        Ea = (18.4096, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_HNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -13001,26 +11648,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 623,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (8.71e+09, 's^-1'),
-        n = 0.19,
-        Ea = (25.7734, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_NdNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 624,
     label = "C10H15-65 <=> C10H15-66",
     degeneracy = 1.0,
@@ -13157,26 +11784,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 631,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.36e+10, 's^-1'),
-        n = 0.19,
-        Ea = (21.5894, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_HCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -13321,26 +11928,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 639,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (8.46e+09, 's^-1'),
-        n = 0.19,
-        Ea = (32.175, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_NdCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 640,
     label = "C10H13-49 <=> C10H13-50",
     degeneracy = 1.0,
@@ -13477,26 +12064,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 647,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.15e+10, 's^-1'),
-        n = 0.19,
-        Ea = (19.874, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_HCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -13641,26 +12208,6 @@ Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_N
 )
 
 entry(
-    index = 655,
-    label = "C_CCCCCJ <=> cyclohexyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.38e+09, 's^-1'),
-        n = 0.19,
-        Ea = (29.037, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_secDe_NdCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 656,
     label = "C6H9-15 <=> C6H9-16",
     degeneracy = 1.0,
@@ -13797,26 +12344,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 663,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.81e+11, 's^-1'),
-        n = 0.19,
-        Ea = (112.591, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_2H;radadd_intra_cdsingleH
 """,
 )
 
@@ -13961,26 +12488,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd
 )
 
 entry(
-    index = 671,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.38e+12, 's^-1'),
-        n = 0.19,
-        Ea = (113.972, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 672,
     label = "C8H13-49 <=> C8H13-50",
     degeneracy = 1.0,
@@ -14117,26 +12624,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 679,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.2e+11, 's^-1'),
-        n = 0.19,
-        Ea = (121.336, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -14281,26 +12768,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd
 )
 
 entry(
-    index = 687,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.41e+12, 's^-1'),
-        n = 0.19,
-        Ea = (117.11, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 688,
     label = "C9H13-67 <=> C9H13-68",
     degeneracy = 1.0,
@@ -14437,26 +12904,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 695,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.05e+11, 's^-1'),
-        n = 0.19,
-        Ea = (127.738, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -14601,26 +13048,6 @@ Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt
 )
 
 entry(
-    index = 703,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.67e+12, 's^-1'),
-        n = 0.19,
-        Ea = (115.437, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_HCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 704,
     label = "C9H11-41 <=> C9H11-42",
     degeneracy = 1.0,
@@ -14757,26 +13184,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 711,
-    label = "C_CCCJ <=> cyclobutyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.21e+11, 's^-1'),
-        n = 0.19,
-        Ea = (124.558, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R4_S_D;doublebond_intra_secDe_NdCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -14921,26 +13328,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H
 )
 
 entry(
-    index = 719,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.01e+11, 's^-1'),
-        n = 0.19,
-        Ea = (45.3127, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_2H;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 720,
     label = "C8H13-53 <=> C8H13-54",
     degeneracy = 1.0,
@@ -15077,26 +13464,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 727,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.32e+11, 's^-1'),
-        n = 0.19,
-        Ea = (46.6516, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -15241,26 +13608,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 735,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.38e+11, 's^-1'),
-        n = 0.19,
-        Ea = (54.0573, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_NdNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 736,
     label = "C9H13-71 <=> C9H13-72",
     degeneracy = 1.0,
@@ -15397,26 +13744,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 743,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.74e+11, 's^-1'),
-        n = 0.19,
-        Ea = (49.8314, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -15561,26 +13888,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 751,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.34e+11, 's^-1'),
-        n = 0.19,
-        Ea = (60.417, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_NdCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 752,
     label = "C9H11-45 <=> C9H11-46",
     degeneracy = 1.0,
@@ -15717,26 +14024,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 759,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.76e+11, 's^-1'),
-        n = 0.19,
-        Ea = (48.1578, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_HCt;radadd_intra_cdsingleH
 """,
 )
 
@@ -15881,26 +14168,6 @@ Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_Nd
 )
 
 entry(
-    index = 767,
-    label = "C_CCCCJ <=> cyclopentyl",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (8.53e+10, 's^-1'),
-        n = 0.19,
-        Ea = (57.279, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_secDe_NdCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 768,
     label = "C8H11-43 <=> C8H11-44",
     degeneracy = 1.0,
@@ -16037,26 +14304,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 775,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.72e+11, 's^-1'),
-        n = 0.19,
-        Ea = (76.8182, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_2H;radadd_intra_cdsingleH
 """,
 )
 
@@ -16201,26 +14448,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 783,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.7e+12, 's^-1'),
-        n = 0.19,
-        Ea = (78.1571, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_HNd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 784,
     label = "C10H15-87 <=> C10H15-88",
     degeneracy = 1.0,
@@ -16357,26 +14584,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 791,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.72e+11, 's^-1'),
-        n = 0.19,
-        Ea = (85.5628, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_NdNd;radadd_intra_cdsingleH
 """,
 )
 
@@ -16521,26 +14728,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 799,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.01e+12, 's^-1'),
-        n = 0.19,
-        Ea = (81.337, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_HCd;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 800,
     label = "C11H15-79 <=> C11H15-80",
     degeneracy = 1.0,
@@ -16677,26 +14864,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 807,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.62e+11, 's^-1'),
-        n = 0.19,
-        Ea = (91.9225, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_NdCd;radadd_intra_cdsingleH
 """,
 )
 
@@ -16841,26 +15008,6 @@ Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_H
 )
 
 entry(
-    index = 815,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.63e+12, 's^-1'),
-        n = 0.19,
-        Ea = (79.6215, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_HCt;radadd_intra_cdsingleH
-""",
-)
-
-entry(
     index = 816,
     label = "C11H13-45 <=> C11H13-46",
     degeneracy = 1.0,
@@ -16997,26 +15144,6 @@ entry(
     longDesc = 
 u"""
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_csNdCt
-""",
-)
-
-entry(
-    index = 823,
-    label = "C6H7-17 <=> C6H7-18",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.3e+11, 's^-1'),
-        n = 0.19,
-        Ea = (88.7845, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_secDe_NdCt;radadd_intra_cdsingleH
 """,
 )
 

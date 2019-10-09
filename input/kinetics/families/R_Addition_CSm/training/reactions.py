@@ -8,26 +8,6 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
-    label = "H + CS <=> CHS",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (20.92, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Default""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: CSm;Y_rad
-""",
-)
-
-entry(
     index = 2,
     label = "H + CS <=> CHS",
     degeneracy = 1.0,
