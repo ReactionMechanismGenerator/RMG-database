@@ -11,9 +11,9 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.7
   run:
-    - python
+    - python >=3.7
 
 about:
   home: http://github.com/ReactionMechanismGenerator/RMG-database
