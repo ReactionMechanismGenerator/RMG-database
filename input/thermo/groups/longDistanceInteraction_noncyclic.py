@@ -814,50 +814,6 @@ u"""
 )
 
 entry(
-    index = 23,
-    label = "SsCs",
-    group = 
-"""
-1 *1 S2s u0 {2,S}
-2 *2 Cs u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 24,
-    label = "S2s(Cs(CsHH)H)",
-    group = 
-"""
-1 *1 S2s u0 {2,S} {3,S}
-2 *2 Cs u0 {1,S} {4,S} {5,S} {6,S}
-3   H  u0 {1,S}
-4   H  u0 {2,S}
-5   H  u0 {2,S}
-6   Cs u0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.33,0.62,0.67,0.59,0.38,0.21,-0.01],'cal/(mol*K)'),
-        H298 = (-0.97,'kcal/mol'),
-        S298 = (-1.01,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""From old version - gauche.py""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
     index = 0,
     label = "int15",
     group = 
@@ -1601,8 +1557,6 @@ L1: R
                 L5: CdCs-SS
                 L5: CdCs-ST
                 L5: CdCs-SQ
-        L3: SsCs
-            L4: S2s(Cs(CsHH)H)
     L2: int15
         L3: CsCsCs
             L4: CsCsCs-TQ

@@ -33,8 +33,8 @@ entry(
     label = "multiplebond_intra",
     group = 
 """
-1 *2 [Cd,Ct,Cb,Cbf,CO,CS,Cdd,N,O4dc,O4tc,S] u0    {2,[D,T,B]}
-2 *3 [Cd,Ct,Cb,Cbf,Cdd,N,O,S]               u0 c0 {1,[D,T,B]}
+1 *2 R!H u0    {2,[D,T,B]}
+2 *3 R!H u0 c0 {1,[D,T,B]}
 """,
     kinetics = None,
 )
