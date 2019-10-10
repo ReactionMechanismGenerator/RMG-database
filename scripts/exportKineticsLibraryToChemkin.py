@@ -16,12 +16,14 @@ LIBRARYNAME      the libraryname of the RMG-Py format kinetics library
 """
 import argparse
 import os
+
+from rmgpy import settings
+
 from rmgpy.data.rmg import RMGDatabase
 from rmgpy.data.kinetics.library import LibraryReaction
-from rmgpy.chemkin import saveChemkinFile, saveSpeciesDictionary
+from rmgpy.chemkin import save_chemkin_file, save_species_dictionary
 from rmgpy.rmg.model import Species
-from rmgpy import settings
-    
+
 ################################################################################
 
 if __name__ == '__main__':
@@ -29,54 +31,54 @@ if __name__ == '__main__':
     parser.add_argument('library', metavar='LIBRARYNAME', type=str, nargs=1,
         help='the name of the kinetic library to be exported')    
     args = parser.parse_args()
-    libraryName = args.library[0]
+    library_name = args.library[0]
 
-    print 'Loading RMG-Py database...'
+    print('Loading RMG-Py database...')
     database = RMGDatabase()
-    database.load(settings['database.directory'], kineticsFamilies='all', kineticsDepositories='all')
+    database.load(settings['database.directory'], kinetics_families='all', kinetics_depositories='all')
     
 
-    print 'Loading {0} library'.format(libraryName)
-    kineticLibrary = database.kinetics.libraries[libraryName]
+    print('Loading {0} library'.format(library_name))
+    kinetic_library = database.kinetics.libraries[library_name]
     
-    reactionList = []    
-    for index, entry in kineticLibrary.entries.iteritems():
+    reaction_list = []    
+    for index, entry in kinetic_library.entries.items():
         reaction = entry.item
         reaction.kinetics = entry.data
-	library_reaction = LibraryReaction(index=reaction.index,
+        library_reaction = LibraryReaction(index=reaction.index,
                      reactants=reaction.reactants,
                      products=reaction.products,
                      reversible=reaction.reversible,
                      kinetics=reaction.kinetics,
-                     library=libraryName
+                     library=library_name
                      )
-        reactionList.append(library_reaction)
+        reaction_list.append(library_reaction)
 
-    speciesList = []
+    species_list = []
     index = 0
-    speciesDict = kineticLibrary.getSpecies(os.path.join(settings['database.directory'],'kinetics', 'libraries', libraryName, 'dictionary.txt'))
-    for spec in speciesDict.values():
+    species_dict = kinetic_library.get_species(os.path.join(settings['database.directory'],'kinetics', 'libraries', library_name, 'dictionary.txt'))
+    for spec in list(species_dict.values()):
         index = index + 1
         species = Species(molecule = spec.molecule)
-        species.getThermoData()
+        species.get_thermo_data()
         species.index = index
-        speciesList.append(species)
+        species_list.append(species)
 
-    for reaction in reactionList:
+    for reaction in reaction_list:
         for reactant in reaction.reactants:
-            for spec in speciesList:
-                if reactant.isIsomorphic(spec):
+            for spec in species_list:
+                if reactant.is_isomorphic(spec):
                     reactant.index = spec.index
                     spec.label = reactant.label
         for product in reaction.products:
-            for spec in speciesList:
-                if product.isIsomorphic(spec):
+            for spec in species_list:
+                if product.is_isomorphic(spec):
                     product.index = spec.index
                     spec.label = product.label
             
 
-    print 'Saving the chem.inp and species_dictionary.txt to local directory'
-    saveChemkinFile('chem.inp', speciesList, reactionList)
-    saveSpeciesDictionary('species_dictionary.txt', speciesList)
+    print('Saving the chem.inp and species_dictionary.txt to local directory')
+    save_chemkin_file('chem.inp', species_list, reaction_list)
+    save_species_dictionary('species_dictionary.txt', species_list)
     
 
