@@ -64,7 +64,7 @@ if __name__ == '__main__':
             )
         try:
     	    entry.longDesc = 'Originally from reaction library: ' + reaction.library + "\n" + reaction.kinetics.comment
-	except AttributeError:
+	    except AttributeError:
     	    entry.longDesc = reaction.kinetics.comment
         kineticsLibrary.entries[i+1] = entry
     
