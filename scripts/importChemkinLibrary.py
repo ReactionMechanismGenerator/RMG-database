@@ -13,7 +13,7 @@ import os
 from rmgpy.data.thermo import ThermoLibrary
 from rmgpy.data.kinetics import KineticsLibrary
 from rmgpy.data.base import Entry
-from rmgpy.chemkin import loadChemkinFile, getSpeciesIdentifier
+from rmgpy.chemkin import load_chemkin_file, get_species_identifier
 from rmgpy import settings
           
 if __name__ == '__main__':
@@ -31,11 +31,11 @@ if __name__ == '__main__':
     dictionaryPath = args.dictionaryPath[0]
     name = args.name[0]
         
-    speciesList, reactionList = loadChemkinFile(chemkinPath, dictionaryPath)
+    speciesList, reactionList = load_chemkin_file(chemkinPath, dictionaryPath)
     
     # Make full species identifier the species labels
     for species in speciesList:
-        species.label = getSpeciesIdentifier(species)
+        species.label = get_species_identifier(species)
         species.index = -1
     # load thermo library entries
     thermoLibrary = ThermoLibrary(name=name)
@@ -64,7 +64,7 @@ if __name__ == '__main__':
             )
         try:
     	    entry.longDesc = 'Originally from reaction library: ' + reaction.library + "\n" + reaction.kinetics.comment
-	    except AttributeError:
+        except AttributeError:
     	    entry.longDesc = reaction.kinetics.comment
         kineticsLibrary.entries[i+1] = entry
     
