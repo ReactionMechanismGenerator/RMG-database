@@ -9583,6 +9583,35 @@ symmetry number of 4 to give correct GAV entropy estimate.
 """,
 )
 
+entry(
+    index = 229,
+    label = "s4_6_6_barrelene",
+    group =
+"""
+1 * R!H u0 p0 c0 {3,S} {5,S} {8,S}
+2   R!H u0 p0 c0 {4,S} {6,S} {7,S}
+3   R!H u0 p0 c0 {1,S} {4,D}
+4   R!H u0 p0 c0 {2,S} {3,D}
+5   R!H u0 p0 c0 {1,S} {6,D}
+6   R!H u0 p0 c0 {2,S} {5,D}
+7   R!H u0 p0 c0 {2,S} {8,D}
+8   R!H u0 p0 c0 {1,S} {7,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-6.525, -4.619, -3.437, -2.596, -1.814, -1.708, -1.904],'cal/(mol*K)'),
+        H298 = (19.066,'kcal/mol'),
+        S298 = (49.625,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C1(C=C2)C=CC2C=C1. Mengjie Liu 10/14/19.
+Symmetry correction removed from calculated entropy using RMG estimated
+symmetry number of 4 to give correct GAV entropy estimate.
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -9960,6 +9989,7 @@ L1: PolycyclicRing
             L4: s3_6_7_diene_6_9-0
     L2: s4_6_6
         L3: s4_6_6_ane
+        L3: s4_6_6_barrelene
         L3: s4_6_6_ben_ben
             L4: s4_6_6_ben_ben_res1
             L4: s4_6_6_ben_ben_res2
