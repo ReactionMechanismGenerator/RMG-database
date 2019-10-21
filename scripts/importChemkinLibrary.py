@@ -25,13 +25,16 @@ if __name__ == '__main__':
         help='The path of the RMG dictionary file')     
     parser.add_argument('name', metavar='NAME', type=str, nargs=1,
         help='Name of the chemkin library to be saved') 
+    parser.add_argument('--no-readcomments', dest='readcomments', action='store_false',
+	help='Ignore reading reaction comments when loading non-RMG files')
     
     args = parser.parse_args()
     chemkinPath = args.chemkinPath[0]
     dictionaryPath = args.dictionaryPath[0]
     name = args.name[0]
+    readcomments = args.readcomments[0]
         
-    speciesList, reactionList = loadChemkinFile(chemkinPath, dictionaryPath)
+    speciesList, reactionList = loadChemkinFile(chemkinPath, dictionaryPath, read_comments=readcomments)
     
     # Make full species identifier the species labels
     for species in speciesList:
@@ -63,9 +66,9 @@ if __name__ == '__main__':
                 data = reaction.kinetics,
             )
         try:
-    	    entry.longDesc = 'Originally from reaction library: ' + reaction.library + "\n" + reaction.kinetics.comment
-	except AttributeError:
-    	    entry.longDesc = reaction.kinetics.comment
+            entry.longDesc = 'Originally from reaction library: ' + reaction.library + "\n" + reaction.kinetics.comment
+        except AttributeError:
+            entry.longDesc = reaction.kinetics.comment
         kineticsLibrary.entries[i+1] = entry
     
     # Mark as duplicates where there are mixed pressure dependent and non-pressure dependent duplicate kinetics
