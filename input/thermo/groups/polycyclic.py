@@ -9612,6 +9612,186 @@ symmetry number of 4 to give correct GAV entropy estimate.
 """,
 )
 
+entry(
+    index = 230,
+    label = "s2_s2_s3_6_6_5_ben_ene",
+    group =
+"""
+1    R!H u0 p0 c0 {2,S} {4,S}
+2    R!H u0 p0 c0 {1,S} {5,S}
+3    R!H u0 p0 c0 {4,S} {6,S}
+4  * R!H u0 p0 c0 {1,S} {3,S} {8,D}
+5    R!H u0 p0 c0 {2,S} {7,B} {9,B}
+6    R!H u0 p0 c0 {3,S} {7,B} {10,B}
+7    R!H u0 p0 c0 {5,B} {6,B} {8,S}
+8    R!H u0 p0 c0 {4,D} {7,S}
+9    R!H u0 p0 c0 {5,B} {11,B}
+10   R!H u0 p0 c0 {6,B} {11,B}
+11   R!H u0 p0 c0 {9,B} {10,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-6.450, -5.745, -5.424, -5.174, -4.423, -3.607, -2.536],'cal/(mol*K)'),
+        H298 = (132.105,'kcal/mol'),
+        S298 = (58.708,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C1=CC2=C3C=C(CC2)CC3=C1. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 231,
+    label = "s2_s2_s3_6_6_5_diene_diene",
+    group =
+"""
+1    R!H u0 p0 c0 {4,S} {6,S} {7,S}
+2    R!H u0 p0 c0 {4,S} {5,S}
+3  * R!H u0 p0 c0 {5,S} {8,S}
+4    R!H u0 p0 c0 {1,S} {2,S} {9,D}
+5    R!H u0 p0 c0 {2,S} {3,S} {7,D}
+6    R!H u0 p0 c0 {1,S} {8,D} {10,S}
+7    R!H u0 p0 c0 {1,S} {5,D}
+8    R!H u0 p0 c0 {3,S} {6,D}
+9    R!H u0 p0 c0 {4,D} {11,S}
+10   R!H u0 p0 c0 {6,S} {11,D}
+11   R!H u0 p0 c0 {9,S} {10,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-11.166, -12.168, -11.642, -10.223, -7.567, -5.820, -4.412],'cal/(mol*K)'),
+        H298 = (117.332,'kcal/mol'),
+        S298 = (83.403,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C1=CC2=CCC3=CC2C(=C1)C3. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 232,
+    label = "s2_s2_s2_6_5_5_diene_ene_ene1",
+    group =
+"""
+1  * R!H u0 p0 c0 {2,S} {3,S} {4,S}
+2    R!H u0 p0 c0 {1,S} {5,S} {7,S}
+3    R!H u0 p0 c0 {1,S} {6,S} {8,S}
+4    R!H u0 p0 c0 {1,S} {9,S} {10,D}
+5    R!H u0 p0 c0 {2,S} {6,D}
+6    R!H u0 p0 c0 {3,S} {5,D}
+7    R!H u0 p0 c0 {2,S} {11,D}
+8    R!H u0 p0 c0 {3,S} {9,D}
+9    R!H u0 p0 c0 {4,S} {8,D}
+10   R!H u0 p0 c0 {4,D} {11,S}
+11   R!H u0 p0 c0 {7,D} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-13.880, -13.484, -12.673, -11.404, -8.898, -6.838, -4.917],'cal/(mol*K)'),
+        H298 = (15.048,'kcal/mol'),
+        S298 = (90.457,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C1=CC2C=CC3C=CC(=C1)C23. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 233,
+    label = "s2_s2_s2_6_5_5_diene_ene_ene2",
+    group =
+"""
+1    R!H u0 p0 c0 {2,S} {3,S} {7,S}
+2  * R!H u0 p0 c0 {1,S} {4,S} {5,S}
+3    R!H u0 p0 c0 {1,S} {6,S}
+4    R!H u0 p0 c0 {2,S} {6,D} {9,S}
+5    R!H u0 p0 c0 {2,S} {8,S} {10,D}
+6    R!H u0 p0 c0 {3,S} {4,D}
+7    R!H u0 p0 c0 {1,S} {8,D}
+8    R!H u0 p0 c0 {5,S} {7,D}
+9    R!H u0 p0 c0 {4,S} {11,D}
+10   R!H u0 p0 c0 {5,D} {11,S}
+11   R!H u0 p0 c0 {9,D} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-14.117, -14.900, -14.467, -13.113, -10.292, -7.892, -5.481],'cal/(mol*K)'),
+        H298 = (20.095,'kcal/mol'),
+        S298 = (90.893,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C1=CC2=CCC3C=CC(=C1)C23. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 234,
+    label = "s2_s2_6_6_3_ben_ene",
+    group =
+"""
+1    R!H u0 p0 c0 {2,S} {3,S} {4,S}
+2    R!H u0 p0 c0 {1,S} {4,S}
+3    R!H u0 p0 c0 {1,S} {5,S}
+4  * R!H u0 p0 c0 {1,S} {2,S} {7,D}
+5    R!H u0 p0 c0 {3,S} {6,B} {8,B}
+6    R!H u0 p0 c0 {5,B} {7,S} {9,B}
+7    R!H u0 p0 c0 {4,D} {6,S}
+8    R!H u0 p0 c0 {5,B} {11,B}
+9    R!H u0 p0 c0 {6,B} {10,B}
+10   R!H u0 p0 c0 {9,B} {11,B}
+11   R!H u0 p0 c0 {8,B} {10,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-6.078, -6.636, -6.774, -6.170, -4.869, -3.677, -2.520],'cal/(mol*K)'),
+        H298 = (49.858,'kcal/mol'),
+        S298 = (57.209,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C1=CC2=C(C=C1)CC1CC1=C2. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 235,
+    label = "s2_s2_s4_6_6_6_5ene",
+    group =
+"""
+1    R!H u0 p0 c0 {2,S} {3,S} {5,S}
+2    R!H u0 p0 c0 {1,S} {6,D} {8,S}
+3    R!H u0 p0 c0 {1,S} {7,S} {9,D}
+4  * R!H u0 p0 c0 {6,S} {7,D} {10,S}
+5    R!H u0 p0 c0 {1,S} {10,D}
+6    R!H u0 p0 c0 {2,D} {4,S}
+7    R!H u0 p0 c0 {3,S} {4,D}
+8    R!H u0 p0 c0 {2,S} {11,D}
+9    R!H u0 p0 c0 {3,D} {11,S}
+10   R!H u0 p0 c0 {4,S} {5,D}
+11   R!H u0 p0 c0 {8,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-11.327, -11.768, -11.530, -10.808, -8.938, -7.248, -6.477],'cal/(mol*K)'),
+        H298 = (118.078,'kcal/mol'),
+        S298 = (93.217,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C1=CC2=CC3=CC(=C1)C2C=C3. Mengjie Liu 11/6/19.
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -9835,6 +10015,8 @@ L1: PolycyclicRing
         L3: s2_5_6_triene
             L4: s2_5_6_triene_0_2_6
             L4: s2_5_6_triene_0_2_7
+                L5: s2_s2_s2_6_5_5_diene_ene_ene1
+                L5: s2_s2_s2_6_5_5_diene_ene_ene2
             L4: s2_5_6_triene_0_3_7
             L4: s2_5_6_triene_1_3_5
             L4: s2_5_6_triene_1_3_6
@@ -9894,10 +10076,14 @@ L1: PolycyclicRing
             L4: s2_6_6_tetraene_0_2_5_7
             L4: s2_6_6_tetraene_0_2_6_8
             L4: s2_6_6_tetraene_0_3_6_8
+                L5: s2_s2_s3_6_6_5_diene_diene
+                L5: s2_s2_s4_6_6_6_5ene
             L4: s2_6_6_tetraene_1_3_6_8
         L3: s2_6_6_ben
         L3: s2_6_6_ben_ene
             L4: s2_6_6_ben_ene_1
+                L5: s2_s2_6_6_3_ben_ene
+                L5: s2_s2_s3_6_6_5_ben_ene
             L4: s2_6_6_ben_ene_2
         L3: s2_6_6_naphthalene
         L3: s2_s2_s3_6_6_6_ben_triene
