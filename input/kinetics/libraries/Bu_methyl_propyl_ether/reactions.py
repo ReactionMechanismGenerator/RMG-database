@@ -1906,3 +1906,60 @@ u"""
 estimate from Curran Pentane
 """,
 )
+
+# entry(  #unnusually slow compared to similar rates
+#     index = 97,
+#     label = "MPO + O2 <=> MPrO-1J + HO2",
+#     elementary_high_p = True,
+#     degeneracy = 3.0,
+#     kinetics = Arrhenius(
+#         A = (1.763e-2,'cm^3/(mol*s)'),
+#         n = 3.905,
+#         Ea = (47.548, 'kcal/mol'),
+#         T0 = (1, 'K'),
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     longDesc =
+# u"""
+# Mark Nimlos Calculation
+# """,
+# )
+
+entry( 
+    index = 98,
+    label = "MPO + CH3OO <=> MPrO-1J + CH3OOH",
+    elementary_high_p = True,
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (1.946e-4,'cm^3/(mol*s)'),
+        n = 4.820,
+        Ea = (10.017, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 99,
+    label = "HO2 + C[CH]C=O <=> H2O2 + C=CC=O",
+    elementary_high_p = True,
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (1.841e-2,'cm^3/(mol*s)'),
+        n = 3.264,
+        Ea = (-3.955, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
