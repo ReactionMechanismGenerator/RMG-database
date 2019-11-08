@@ -1963,3 +1963,22 @@ u"""
 Mark Nimlos Calculation
 """,
 )
+
+entry( 
+    index = 100,
+    label = "O2 + C[CH]C=O <=> HO2 + CC=C=O",
+    elementary_high_p = True,
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.910e-7,'cm^3/(mol*s)'),
+        n = 5.625,
+        Ea = (27.051, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
