@@ -1652,3 +1652,13 @@ CH4
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
+
+CC=C=O
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {8,S}
+3 C u0 p0 c0 {2,D} {4,D}
+4 O u0 p2 c0 {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
