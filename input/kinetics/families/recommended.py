@@ -58,6 +58,33 @@ default = {
     'Retroene',
 }
 
+# Families for pyrolysis of C/H systems
+ch_pyrolysis = {
+    '1+2_Cycloaddition',
+    '1,2_Insertion_carbene',
+    'Birad_R_Recombination',
+    'CO_Disproportionation',
+    'Diels_alder_addition',
+    'Disproportionation',
+    'H_Abstraction',
+    'intra_H_migration',
+    'Intra_R_Add_Endocyclic',
+    'Intra_R_Add_Exocyclic',
+    'Intra_R_Add_Exo_scission',
+    'Intra_Retro_Diels_alder_bicyclic',
+    'R_Addition_COm',
+    'R_Addition_MultipleBond',
+    'R_Recombination',
+    '6_membered_central_C-C_shift',
+    'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH',
+    'Cyclopentadiene_scission',
+    'Intra_2+2_cycloaddition_Cd',
+    'Intra_5_membered_conjugated_C=C_C=C_addition',
+    'Intra_Diels_alder_monocyclic',
+    'Intra_ene_reaction',
+    'Singlet_Carbene_Intra_Disproportionation',
+}
+
 # Peroxide chemistry families that are likely relevant in liquid-phase
 # hydrocarbon oxidation systems
 liquid_peroxide = {
