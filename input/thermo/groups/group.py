@@ -45216,6 +45216,24 @@ u"""
 )
 
 entry(
+    index = 1816,
+    label = "N3s-N3",
+    group =
+"""
+1 * N3s u0 {2,S}
+2   [N3s,N3sc,N3d,N3t,N3b] u0 {1,S}
+""",
+    thermo = u'N3s-N3sCsH',
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Currently points to N3s-N3sCsH. 
+This was r.west's guess of an appropriate surrogate,
+but it's not based on much evidence.
+""",
+)
+
+entry(
     index = 1811,
     label = "N3s-N3sHH",
     group = 
@@ -51679,21 +51697,22 @@ L1: R
                 L5: N3s-(CO)(CO)Cb
                 L5: N3s-(CtN3t)CsCs
                 L5: N3s-(CdCd)CsCs
-            L4: N3s-N3sHH
-            L4: N3s-N3dHH
-            L4: N3s-NCH
-                L5: N3s-N3sCsH
-                L5: N3s-N3sCbH
-                L5: N3s-CsH(N3dOd)
-                L5: N3s-CsH(N5dcOdOs)
-                L5: N3s-(CdCd)HN3s
-            L4: N3s-NCC
-                L5: N3s-NCsCs
-                    L6: N3s-CsCsN3s
-                    L6: N3s-CsCs(N3dOd)
-                    L6: N3s-CsCs(N5dcOdOs)
-                L5: N3s-NCdCs
-                    L6: N3s-(CdCd)CsN3s
+            L4: N3s-N3
+                L5: N3s-N3sHH
+                L5: N3s-N3dHH
+                L5: N3s-NCH
+                    L6: N3s-N3sCsH
+                    L6: N3s-N3sCbH
+                    L6: N3s-CsH(N3dOd)
+                    L6: N3s-CsH(N5dcOdOs)
+                    L6: N3s-(CdCd)HN3s
+                L5: N3s-NCC
+                    L6: N3s-NCsCs
+                        L7: N3s-CsCsN3s
+                        L7: N3s-CsCs(N3dOd)
+                        L7: N3s-CsCs(N5dcOdOs)
+                    L6: N3s-NCdCs
+                        L7: N3s-(CdCd)CsN3s
             L4: N3s-CsHOs
             L4: N3s-CsCsOs
             L4: N3s-OsHH
