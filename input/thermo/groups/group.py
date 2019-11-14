@@ -45217,19 +45217,20 @@ u"""
 
 entry(
     index = 1816,
-    label = "N3s-N3",
+    label = "N3s-N",
     group =
 """
 1 * N3s u0 {2,S}
-2   [N3s,N3sc,N3d,N3t,N3b] u0 {1,S}
+2   N   u0 {1,S}
 """,
     thermo = u'N3s-N3sCsH',
     shortDesc = u"""""",
     longDesc =
 u"""
-Currently points to N3s-N3sCsH. 
+Currently points to N3s-N3sCsH.
 This was r.west's guess of an appropriate surrogate,
 but it's not based on much evidence.
+In almost all the child nodes the N is an N3s but one (N3s-NCC) it is just 'N'
 """,
 )
 
@@ -51524,7 +51525,7 @@ L1: R
                 L5: N3s-(CO)(CO)Cb
                 L5: N3s-(CtN3t)CsCs
                 L5: N3s-(CdCd)CsCs
-            L4: N3s-N3
+            L4: N3s-N
                 L5: N3s-N3sHH
                 L5: N3s-N3dHH
                 L5: N3s-NCH
