@@ -19,7 +19,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    #rank = 3,
+    rank = 3,
     shortDesc = u"""Deutschmann Ni""",
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
@@ -39,7 +39,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    #rank = 3,
+    rank = 3,
     shortDesc = u"""Default""",
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
@@ -80,7 +80,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    #rank = 3,
+    rank = 3,
     shortDesc = u"""Default""",
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
@@ -89,3 +89,21 @@ Catalysts, 2015, 5, 871-904. Reaction R28
 """
 )
 
+entry(
+    index = 39,
+    label = "O* + HCO* <=> OH* + CO*",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A=(1.0e13, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea=(0., 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 39 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
+"""
+)
