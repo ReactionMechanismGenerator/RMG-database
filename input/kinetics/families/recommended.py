@@ -82,6 +82,7 @@ surface = {
     'Surface_Dissociation',
     'Surface_Abstraction',
     'Surface_EleyRideal_Addition_Multiple_Bond',
+    'Surface_Migration',
 }
 
 # Surface chemistry families that are under development and not yet working well.
