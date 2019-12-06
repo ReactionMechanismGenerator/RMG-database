@@ -32,6 +32,3 @@ DOI 10.1007/s10562-010-0477-y
 (actual value for E0 was 1.92 eV.)
     """
 )
-
-
-
