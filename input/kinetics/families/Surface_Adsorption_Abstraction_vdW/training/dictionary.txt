@@ -1,0 +1,27 @@
+HCOOH*
+1    O u0 p2 c0 {3,S} {5,S}
+2 *2 O u0 p2 c0 {3,D}
+3 *3 C u0 p0 c0 {1,S} {2,D} {4,S}
+4    H u0 p0 c0 {3,S}
+5    H u0 p0 c0 {1,S}
+6 *1 X u0 p0 c0
+
+HCO*
+1    O u0 p2 c0 {2,D}
+2 *4 C u0 p0 c0 {1,D} {3,S} {4,S}
+3 *5 H u0 p0 c0 {2,S}
+4 *6 X u0 p0 c0 {2,S}
+
+CH3O2*
+1    O u0 p2 c0 {3,S} {6,S}
+2 *2 O u0 p2 c0 {3,S} {7,S}
+3 *3 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 *5 H u0 p0 c0 {3,S}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {1,S}
+7 *1 X u0 p0 c0 {2,S}
+
+CO*
+1    O u0 p2 c0 {2,D}
+2 *4 C u0 p0 c0 {1,D} {3,D}
+3 *6 X u0 p0 c0 {2,D}
