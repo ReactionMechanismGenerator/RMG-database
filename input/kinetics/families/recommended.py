@@ -84,6 +84,7 @@ surface = {
     'Surface_EleyRideal_Addition_Multiple_Bond',
     'Surface_Migration',
     'Surface_Dissociation_Double_vdW',
+    'Surface_Addition_Single_vdW',
     'Surface_Dissociation_vdW',
 }
 
