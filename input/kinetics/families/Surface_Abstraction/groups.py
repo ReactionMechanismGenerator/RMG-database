@@ -18,6 +18,9 @@ so k should be in (m2/mol/s)
 
 template(reactants=["Abstracting", "Donating"], products=["Abstracting", "Donating"], ownReverse=True)
 
+reactantNum=2
+productNum=2
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*3', 1, '*4'],
