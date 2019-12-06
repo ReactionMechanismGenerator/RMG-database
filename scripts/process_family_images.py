@@ -64,7 +64,9 @@ def generate_family_pdf():
     database_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     fam_dir = os.path.join(database_directory, 'input', 'kinetics', 'families')
     dir_list = os.listdir(fam_dir)
+    dir_list.remove('__pycache__')
     fam_list = sorted([item for item in dir_list if os.path.isdir(os.path.join(fam_dir, item))])  # Only keep folders
+    print(fam_list)
 
     temp_dir = os.path.join(database_directory, 'temp')
     img_dir = os.path.join(temp_dir, 'images')
