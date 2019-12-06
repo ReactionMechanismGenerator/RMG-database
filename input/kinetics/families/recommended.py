@@ -86,6 +86,7 @@ surface = {
     'Surface_Dissociation_Double_vdW',
     'Surface_Addition_Single_vdW',
     'Surface_Dissociation_vdW',
+    'Surface_Abstraction_vdW',
 }
 
 # Surface chemistry families that are under development and not yet working well.
