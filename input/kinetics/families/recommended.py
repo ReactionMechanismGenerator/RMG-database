@@ -83,6 +83,7 @@ surface = {
     'Surface_Abstraction',
     'Surface_EleyRideal_Addition_Multiple_Bond',
     'Surface_Migration',
+    'Surface_Dissociation_Double_vdW',
     'Surface_Dissociation_vdW',
 }
 
