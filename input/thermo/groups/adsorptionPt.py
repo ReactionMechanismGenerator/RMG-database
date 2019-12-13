@@ -33,9 +33,11 @@ The group could well be defined as:
 
 but then it is identical with the R*vdW node, and the database tests
 do not like that. It should be OK, because things would check the
-tree in order, and if there *was* a bond it would match either 
+tree in order, and if there *was* a bond it would match either
 R*bidentate or R*single_chemisorbed and thus not R*vdW.
 """,
+    metal = "Pt",
+    facet = "111",
 )
 
 #entry(
@@ -61,7 +63,9 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 #   |
 #***********
 #
-#"""
+#""",
+#    metal = "Pt",
+#    facet = "111",
 #)
 
 ### This doesn't have a place in the tree, so I'm commenting it out. -- RHW
@@ -85,11 +89,13 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 #             DFT binding energy: -0.054 eV.
 #             Linear scaling parameters: ref_adatom_H = -2.479 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
 #             The two lowest frequencies, 14.0 and 24.4 cm-1, where replaced by the 2D gas model.
-
+#
 #   R-R
 #    :
 # ***********
-# """
+#""",
+#    metal = "Pt",
+#    facet = "111",
 # )
 
 entry(
@@ -117,7 +123,9 @@ entry(
  RO-R
    :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -145,7 +153,9 @@ entry(
    O
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -174,7 +184,9 @@ entry(
  RO-OR
    :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -201,7 +213,9 @@ entry(
    O--O
    |  |
 ***** *****
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -230,7 +244,9 @@ entry(
    O
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -255,7 +271,9 @@ entry(
    O
    ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -285,7 +303,9 @@ entry(
    O
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -316,7 +336,9 @@ entry(
    O
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -344,7 +366,9 @@ entry(
  R2N-R
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -370,7 +394,9 @@ entry(
    NR2
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -392,11 +418,13 @@ entry(
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.440 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.54193 eV, gamma_N(X) = 0.667.
-     
+
      NR
-    ||        
+    ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -421,7 +449,9 @@ entry(
     N
    |||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -451,7 +481,9 @@ entry(
  R2N-OR
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -479,7 +511,9 @@ entry(
   RN=O
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -507,7 +541,9 @@ entry(
  R-N-OR
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -535,7 +571,9 @@ entry(
    N
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -562,7 +600,9 @@ entry(
    N--O
   ||  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -591,7 +631,9 @@ entry(
    N
   ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -622,7 +664,9 @@ entry(
  R2N-NR2
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -650,7 +694,9 @@ entry(
  RN=NR
    :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 
@@ -659,7 +705,7 @@ entry(
 #    label = "(NN)*",
 #    group =
 #"""
-#1 X  u0 p0 c0 
+#1 X  u0 p0 c0
 #3 N  u0 p1 c0 {3,T}
 #4 N  u0 p1 c0 {2,T}
 #""",
@@ -676,7 +722,7 @@ entry(
 #            The two lowest frequencies, 6.3 and 24.2 cm-1, where replaced by the 2D gas model.
 #
 #  N#N
-#   : 
+#   :
 #***********
 #"""
 #)
@@ -707,7 +753,9 @@ entry(
  R-N-NR2
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -736,7 +784,9 @@ entry(
    N
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -766,7 +816,9 @@ entry(
    N
   ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -795,7 +847,9 @@ entry(
  RN--NR
   |  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -825,7 +879,9 @@ entry(
  R-N-CR3
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -848,14 +904,16 @@ entry(
     shortDesc=u"""Came from N-CH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.660 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.21342 eV, gamma_N(X) = 0.333.    
+            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.21342 eV, gamma_N(X) = 0.333.
 
    CR2
   ||
    N
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -886,7 +944,9 @@ entry(
    N
   ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 ### Leads to AtomTypeError: Unable to determine atom type for atom O-, which has 3 single bonds, 0 double bonds to C, 0 double bonds to O, 0 double bonds to S, 0 triple bonds, 0 benzene bonds, 0 lone pairs, and 2 charge.
@@ -915,7 +975,9 @@ entry(
 #  O-N=O
 #    |
 # ***********
-# """
+# """,
+#    metal = "Pt",
+#    facet = "111",
 # )
 
 entry(
@@ -940,7 +1002,9 @@ entry(
    C
  ||||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -967,7 +1031,9 @@ entry(
   C--C
   |  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -996,9 +1062,11 @@ entry(
   ||
 ***********
 
-Because the C atom bonded to the surface only has one ligand 
+Because the C atom bonded to the surface only has one ligand
 not two, it is not a child of the C=*R2 node
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1029,7 +1097,9 @@ entry(
    C
   |||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1057,7 +1127,9 @@ entry(
    C
   |||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1086,7 +1158,9 @@ entry(
  R-C--C-R
   ||  ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1113,7 +1187,9 @@ entry(
  R-C-R
   ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1144,7 +1220,9 @@ entry(
  R2C--CR2
    |  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1171,7 +1249,9 @@ entry(
    CR3
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1204,7 +1284,9 @@ entry(
  R3C-CR3
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1234,7 +1316,9 @@ entry(
   R3C-R
      :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1261,7 +1345,9 @@ entry(
   C==N
  ||  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1290,7 +1376,9 @@ entry(
     C
    ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1320,7 +1408,9 @@ entry(
    C
   |||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 
@@ -1350,7 +1440,9 @@ entry(
 #    C
 #   ||
 # ***********
-# """
+# """,
+#    metal = "Pt",
+#    facet = "111",
 # )
 
 entry(
@@ -1379,7 +1471,9 @@ entry(
    C
   |||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1409,7 +1503,9 @@ entry(
  R2C--CR
    |  ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1442,7 +1538,9 @@ entry(
  R-C-CR3
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1472,7 +1570,9 @@ entry(
  R2C=NR
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1504,7 +1604,9 @@ entry(
  R-C-NR2
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1532,7 +1634,9 @@ entry(
  R2C=O
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1563,7 +1667,9 @@ entry(
   R-C-OR
     |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1595,7 +1701,9 @@ entry(
  R3C-NR2
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1626,7 +1734,9 @@ entry(
  R3C-OR
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1654,7 +1764,9 @@ entry(
  RC--C
   |  ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1685,7 +1797,9 @@ entry(
    C-R
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1717,7 +1831,9 @@ entry(
    C-R
   ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1745,7 +1861,9 @@ entry(
  RC#N
    :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1775,7 +1893,9 @@ entry(
   C--N
  ||  ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1805,7 +1925,9 @@ entry(
    C-R
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1834,7 +1956,9 @@ entry(
  RC--NR
  ||  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1865,7 +1989,9 @@ entry(
    C-R
   ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1894,7 +2020,9 @@ entry(
    C=O
    |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1924,7 +2052,9 @@ entry(
   C--O
  ||  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1954,7 +2084,9 @@ entry(
    C-R
   ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -1966,7 +2098,7 @@ entry(
 2 C  ux {1,[S,D,T,Q]}
 """,
     thermo=u'C-*R3',
-    longDesc=u"""Thermo is currently for C-*R3.  Maybe should average all the children instead?"""
+    longDesc=u"""Thermo is currently for C-*R3.  Maybe should average all the children instead?""",
 )
 
 entry(
@@ -1978,7 +2110,7 @@ entry(
 2 N  ux {1,[S,D,T]}
 """,
     thermo=u'N-*R2',
-    longDesc=u"""Thermo is currently for N-*R2.  Maybe should average all the children instead?"""
+    longDesc=u"""Thermo is currently for N-*R2.  Maybe should average all the children instead?""",
 )
 
 entry(
@@ -1990,7 +2122,7 @@ entry(
 2 O  ux {1,[S,D]}
 """,
     thermo=u'O-*R',
-    longDesc=u"""Thermo is currently for O-*R.  Maybe should average all the children instead?"""
+    longDesc=u"""Thermo is currently for O-*R.  Maybe should average all the children instead?""",
 )
 
 entry(
@@ -2007,7 +2139,9 @@ entry(
         H298=(-41.61, 'kcal/mol'),
         S298=(-38.17, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Average of C-*R3, N-*R2 and O-*R thermo. """
+    shortDesc=u"""Average of C-*R3, N-*R2 and O-*R thermo. """,
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2021,7 +2155,7 @@ entry(
 4 C  u0 {2,[S,D]} {3,[S,D]}
 """,
     thermo=u'C-*R2C-*R2',
-    longDesc=u"""Thermo is currently for C-*R2C-*R2.  Maybe should average all the children instead?"""
+    longDesc=u"""Thermo is currently for C-*R2C-*R2.  Maybe should average all the children instead?""",
 )
 
 entry(
@@ -2035,7 +2169,7 @@ entry(
 4 N  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
     thermo=u'C=*RN-*R',
-    longDesc=u"""Thermo is currently for C=*RN-*R.  Maybe should average all the children instead?"""
+    longDesc=u"""Thermo is currently for C=*RN-*R.  Maybe should average all the children instead?""",
 )
 
 entry(
@@ -2062,7 +2196,7 @@ entry(
 4 N  u0 {2,[S,D]} {3,[S,D]}
 """,
     thermo=u'N-*RN-*R',
-    longDesc=u"""Thermo is currently for N-*RN-*R.  Maybe should average all the children instead?"""
+    longDesc=u"""Thermo is currently for N-*RN-*R.  Maybe should average all the children instead?""",
 )
 
 entry(
@@ -2081,7 +2215,9 @@ entry(
         H298=(-34.82, 'kcal/mol'),
         S298=(-43.39, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Average of C-*R2C-*R2, C=*RN-*R, C=*RO-* and N-*RN-*R thermo. """
+    shortDesc=u"""Average of C-*R2C-*R2, C=*RN-*R, C=*RO-* and N-*RN-*R thermo. """,
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2089,7 +2225,7 @@ entry(
     label = "R*vdW",
     group =
 """
-1 X  u0 
+1 X  u0
 2 R  u0
 """,
     thermo=ThermoData(
@@ -2098,7 +2234,9 @@ entry(
         H298=(6.47, 'kcal/mol'),
         S298=(-22.53, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Average of (CR4)*, (NR3)* and (OR2)* thermo. """
+    shortDesc=u"""Average of (CR4)*, (NR3)* and (OR2)* thermo. """,
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2112,7 +2250,9 @@ entry(
 4 O  u0 p2 c0 {2,[S,D]} {3,[S,D]}
 """,
     thermo=u'N=*O-*',
-    longDesc=u"""Is there really any way to do N*O* besides N=*O-* ?"""
+    longDesc=u"""Is there really any way to do N*O* besides N=*O-* ?""",
+    metal = "Pt",
+    facet = "111",
 )
 
 #entry(
@@ -2126,7 +2266,9 @@ entry(
 #4 O  u0 p2 c0 {2,S} {3,S}
 #""",
 #    thermo=u'O-*O-*',
-#    longDesc=u"""Is there really any way to do O*O* besides O-*O-* ?"""
+#    longDesc=u"""Is there really any way to do O*O* besides O-*O-* ?""",
+#    metal = "Pt",
+#    facet = "111",
 #)
 
 ###Have not been able to find any examples of when N is triple bonded to the surface and
@@ -2140,7 +2282,9 @@ entry(
 #2 N  u0 c+1 {1,T} {3,S}
 #3 R  u0 c0  {2,S}
 #""",
-#    thermo=u'N*'
+#    thermo=u'N*',
+#    metal = "Pt",
+#    facet = "111",
 #)
 
 entry(
@@ -2151,21 +2295,23 @@ entry(
 1 X  u0 p0 {2,T}
 2 N  u0 p1 {1,T}
 """,
-    thermo=u'N*'
+    thermo=u'N*',
 )
 entry(
     index = 80,
     label = "(CR3)*",
     group =
 """
-1 X   u0 
+1 X   u0
 2 C   u0 {3,D} {4,S} {5,S}
 3 R!H u0 {2,D}
 4 R   u0 {2,S}
 5 R   u0 {2,S}
 """,
     thermo=u'(CR2NR)*',
-    longDesc=u"""Perhaps should be an average?"""
+    longDesc=u"""Perhaps should be an average?""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2178,7 +2324,7 @@ entry(
 3 R!H u0 {2,T}
 4 R   u0 {2,S}
 """,
-    thermo=u'(CRN)*'
+    thermo=u'(CRN)*',
 )
 
 entry(
@@ -2193,7 +2339,9 @@ entry(
 5 R  u0 p0 c0 {2,S}
 """,
     thermo=u'(NR3)*',
-    longDesc=u"""Do we have data for this?"""
+    longDesc=u"""Do we have data for this?""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2201,13 +2349,15 @@ entry(
     label = "(NR2)*",
     group =
 """
-1 X   u0 
+1 X   u0
 2 N   u0 {3,D} {4,S}
 3 R!H u0 {2,D}
 4 R   u0 {2,S}
 """,
     thermo=u'(NRO)*',
-    longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?"""
+    longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2235,7 +2385,9 @@ entry(
  RN--N
   |  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2264,7 +2416,9 @@ entry(
   RC#CR
     :
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2293,7 +2447,9 @@ entry(
  R2C--N
    |  ||
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2323,7 +2479,9 @@ entry(
  R2C--NR
    |  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
@@ -2339,7 +2497,7 @@ entry(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.98, 0.54, 1.55, 2.21, 2.95, 3.32, 3.69], 'cal/(mol*K)'),
         H298=(-93.15, 'kcal/mol'),
-        S298=(-48.06, 'cal/(mol*K)'),          
+        S298=(-48.06, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from C=CH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
@@ -2352,15 +2510,17 @@ entry(
   ||
 ***********
 
-Because the C atom bonded to the surface only has one ligand 
+Because the C atom bonded to the surface only has one ligand
 not two, it is not a child of the C=*R2 node
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(
     index = 89,
     label = "C-*R2O-*",
-    group = 
+    group =
 """
 1 X  u0 p0 c0 {3,S}
 2 X  u0 p0 c0 {4,S}
@@ -2376,7 +2536,7 @@ entry(
         S298=(-41.48, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2CO-h bidentate, twice single-bonded on Pt(111)""",
-    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). 
+    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.236 eV.
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_O2 = -1.030 eV, psi = 1.96700 eV, gamma_C1(X) = 0.250, gamma_O2(X) = 0.500.
@@ -2384,7 +2544,9 @@ entry(
  R2C--O
    |  |
 ***********
-"""
+""",
+    metal = "Pt",
+    facet = "111",
 )
 
 
@@ -2475,5 +2637,5 @@ L1: R*
             L4: (NRNR)*
         L3: (OR2)*
             L4: (OROR)*
-"""
+""",
 )
