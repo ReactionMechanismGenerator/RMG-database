@@ -24,6 +24,8 @@ entry(
 ***********
 This node should be empty, ensuring that one of the nodes below is used.
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -47,6 +49,8 @@ entry(
 ********
 Data made up. Do not use!
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -75,6 +79,8 @@ The average loss in entropy is -16.7 J/mol-K, so call it -4. cal/mol-K
 This binds too strongly and won't desorb until ~2500K, so we're trying
 -2 kcal/mol and -15 cal/mol/K
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 
@@ -94,6 +100,8 @@ entry(
    x
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -111,6 +119,8 @@ entry(
    x
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 
@@ -135,6 +145,8 @@ entry(
    |||
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -159,6 +171,8 @@ entry(
    ||
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -186,6 +200,8 @@ entry(
    |
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -207,6 +223,8 @@ entry(
     :
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -226,6 +244,8 @@ entry(
     :
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -250,6 +270,8 @@ R--C--R
    || |
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -301,6 +323,8 @@ R2--C--R
     |  |
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -384,6 +408,8 @@ entry(
    |
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -408,6 +434,8 @@ entry(
    :
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 entry(
@@ -434,6 +462,8 @@ RO--C--R
     || |
 ***********
 """,
+    metal = "Ni",
+    facet = "111",
 )
 
 tree(
