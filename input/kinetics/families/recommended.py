@@ -81,6 +81,7 @@ surface = {
     'Surface_Adsorption_Dissociative',
     'Surface_Dissociation',
     'Surface_Abstraction',
+    'Surface_Dissociation_beta',
 }
 
 # Surface chemistry families that are under development and not yet working well.
