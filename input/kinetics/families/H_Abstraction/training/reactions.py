@@ -64240,3 +64240,59 @@ Calculated by Ryan Gillis at CBS-QB3 - Sept 2019
 """,
 )
 
+entry(
+    index = 3094,
+    label = "C6H5NH2_r_a + H <=> C6H5NH_p1 + H2_p",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.07e+03, 'cm^3/(mol*s)'), n=2.15, Ea=(19.27, 'kJ/mol'), T0=(1, 'K')),
+    rank = 7,
+    longDesc =
+u"""
+Lindstedt, R. P., Robinson, R. K., Allan, R., Filip, S.,
+Hydrogen Abstraction from the Amine Group of Aniline
+2013
+Table 2, k3
+A conference paper, no additional citation information
+link: https://www.researchgate.net/profile/Roger_Robinson/publication/321135074_HYDROGEN_ABSTRACTION_FROM_THE_AMINE_GROUP_OF_ANILINE/links/5a0f0c9d458515de032a26a8/HYDROGEN-ABSTRACTION-FROM-THE-AMINE-GROUP-OF-ANILINE.pdf
+
+VRC-TST, M06-2x/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 3095,
+    label = "C6H5NH2_r_a + O2 <=> C6H5NH_p1 + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.09e+03, 'cm^3/(mol*s)'), n=2.26, Ea=(141.48, 'kJ/mol'), T0=(1, 'K')),
+    rank = 7,
+    longDesc =
+u"""
+Lindstedt, R. P., Robinson, R. K., Allan, R., Filip, S.,
+Hydrogen Abstraction from the Amine Group of Aniline
+2013
+Table 2, k5
+A conference paper, no additional citation information
+link: https://www.researchgate.net/profile/Roger_Robinson/publication/321135074_HYDROGEN_ABSTRACTION_FROM_THE_AMINE_GROUP_OF_ANILINE/links/5a0f0c9d458515de032a26a8/HYDROGEN-ABSTRACTION-FROM-THE-AMINE-GROUP-OF-ANILINE.pdf
+
+VRC-TST, M06-2x/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 3096,
+    label = "C6H5NH2_r_a + CH3 <=> C6H5NH_p1 + CH4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(8.92e-02, 'cm^3/(mol*s)'), n=3.08, Ea=(19.78, 'kJ/mol'), T0=(1, 'K')),
+    rank = 7,
+    longDesc =
+u"""
+Lindstedt, R. P., Robinson, R. K., Allan, R., Filip, S.,
+Hydrogen Abstraction from the Amine Group of Aniline
+2013
+Table 2, k6
+A conference paper, no additional citation information
+link: https://www.researchgate.net/profile/Roger_Robinson/publication/321135074_HYDROGEN_ABSTRACTION_FROM_THE_AMINE_GROUP_OF_ANILINE/links/5a0f0c9d458515de032a26a8/HYDROGEN-ABSTRACTION-FROM-THE-AMINE-GROUP-OF-ANILINE.pdf
+
+VRC-TST, M06-2x/6-31G(2df,p)
+""",
+)
