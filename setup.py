@@ -37,13 +37,7 @@ except ImportError:
 scripts = [
     'evansPolanyi.py',
     'exportKineticsLibraryToChemkin.py',
-    'exportOldDatabase.py',
     'importChemkinLibrary.py',
-    'importJavaKineticsLibrary.py',
-    'importJavaThermoLibrary.py',
-    'importOldDatabase.py',
-    'kineticsGroups.py',
-    'kineticsTraining.py',
 ]
 
 scripts = ['scripts/' + scriptName for scriptName in scripts]
