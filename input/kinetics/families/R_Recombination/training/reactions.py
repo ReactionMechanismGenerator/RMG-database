@@ -3930,3 +3930,41 @@ VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtai
 E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
 """,
 )
+
+entry(
+    index = 145,
+    label = "C6H5NH2 <=> C6H5NH + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.35e+05, 's^-1'), n=2.68, Ea=(360.25, 'kJ/mol'), T0=(1, 'K')),
+    rank = 7,
+    longDesc =
+u"""
+Lindstedt, R. P., Robinson, R. K., Allan, R., Filip, S.,
+Hydrogen Abstraction from the Amine Group of Aniline
+2013
+Table 2, k2
+A conference paper, no additional citation information
+link: https://www.researchgate.net/profile/Roger_Robinson/publication/321135074_HYDROGEN_ABSTRACTION_FROM_THE_AMINE_GROUP_OF_ANILINE/links/5a0f0c9d458515de032a26a8/HYDROGEN-ABSTRACTION-FROM-THE-AMINE-GROUP-OF-ANILINE.pdf
+
+VRC-TST, M06-2x/6-31G(2df,p)
+""",
+)
+
+entry(
+    index = 146,
+    label = "C6H5NH2 <=> C6H5 + NH2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.12e+07, 's^-1'), n=2.61, Ea=(396.94, 'kJ/mol'), T0=(1, 'K')),
+    rank = 7,
+    longDesc =
+u"""
+Lindstedt, R. P., Robinson, R. K., Allan, R., Filip, S.,
+Hydrogen Abstraction from the Amine Group of Aniline
+2013
+Table 2, k2
+A conference paper, no additional citation information
+link: https://www.researchgate.net/profile/Roger_Robinson/publication/321135074_HYDROGEN_ABSTRACTION_FROM_THE_AMINE_GROUP_OF_ANILINE/links/5a0f0c9d458515de032a26a8/HYDROGEN-ABSTRACTION-FROM-THE-AMINE-GROUP-OF-ANILINE.pdf
+
+VRC-TST, M06-2x/6-31G(2df,p)
+""",
+)
