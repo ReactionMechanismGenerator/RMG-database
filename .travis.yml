@@ -11,7 +11,7 @@ env:
 stages:
   - test
   - name: deploy
-    if: branch = stable
+    if: branch = stable AND type = push
 
 before_install:
   - cd ..
