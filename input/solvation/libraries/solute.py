@@ -920,7 +920,7 @@ u"""
 
 entry(
     index = 49,
-    label = "2,3-dimetyhlbuta-1,3-diene",
+    label = "2,3-dimethylbuta-1,3-diene",
     molecule = "C=C(C)C(=C)C",
     solute = SoluteData(
         S = 0.23,
@@ -1282,7 +1282,7 @@ u"""
 entry(
     index = 68,
     label = "1,4-dioxane",
-    molecule = "CC1COCCO1",
+    molecule = "C1COCCO1",
     solute = SoluteData(
         S = 0.75,
         B = 0.64,
@@ -1947,7 +1947,7 @@ u"""
 entry(
     index = 103,
     label = "methyl acetate",
-    molecule = "CCC(=O)OC",
+    molecule = "COC(C)=O",
     solute = SoluteData(
         S = 0.64,
         B = 0.45,
@@ -2117,7 +2117,7 @@ u"""
 
 entry(
     index = 112,
-    label = "metyhl propanoate",
+    label = "methyl propanoate",
     molecule = "CCC(=O)OC",
     solute = SoluteData(
         S = 0.6,
@@ -2649,7 +2649,7 @@ u"""
 
 entry(
     index = 140,
-    label = "petan-2-ol",
+    label = "pentan-2-ol",
     molecule = "CCCC(C)O",
     solute = SoluteData(
         S = 0.36,

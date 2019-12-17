@@ -6206,3 +6206,39 @@ Singlet sulfur, thermo data copied from triplet sulfur, likely very incorrect.
 """,
 )
 
+entry(
+    index = 198,
+    label = "DMSO4H",
+    molecule = 
+"""
+multiplicity 2
+1  O u0 p2 c0 {2,D}
+2  S u0 p0 c0 {1,D} {3,S} {5,S} {6,S} {7,S}
+3  O u0 p2 c0 {2,S} {4,S}
+4  O u1 p2 c0 {3,S}
+5  O u0 p2 c0 {2,S} {8,S}
+6  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+7  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([37.13,42.12,46.36,50.03,55.88,60.17,66.54],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (-47.5,'kcal/mol','+|-',1),
+	S298 = (95.24,'cal/(mol*K)','+|-',1),
+    ),
+    shortDesc = u"""Calculated by RJG - cbs-qb3""",
+    longDesc = 
+u"""
+Calculated by Ryan Gillis - Sept 2019 cbs-qb3 
+""",
+)
+
+
+

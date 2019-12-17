@@ -996,15 +996,15 @@ entry(
 5   [Cd,N] u0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.91,-3.339,-2.739,-2.2,-1.51,-1.051,-62.52],'cal/(mol*K)'),
-        H298 = (26.9,'kcal/mol'),
-        S298 = (28.8887,'cal/(mol*K)'),
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([-3.862, -3.896, -3.629, -3.244, -2.480, -1.836, -1.085],'cal/(mol*K)'),
+        H298 = (29.371,'kcal/mol'),
+        S298 = (30.511,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
+    shortDesc = u"""Fitted from CBS-QB3 calculation""",
+    longDesc =
+u""""
+Fitted from CBS-QB3 calculation for C=C1CCC1. Mengjie Liu 9/9/19.
 """,
 )
 

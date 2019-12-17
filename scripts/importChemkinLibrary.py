@@ -10,52 +10,48 @@ appropriate kinetics/libraries and thermo/libraries folder under the user-specif
 import argparse
 import logging
 import os
-from rmgpy.data.thermo import ThermoLibrary
-from rmgpy.data.kinetics import KineticsLibrary
-from rmgpy.data.base import Entry
-from rmgpy.chemkin import loadChemkinFile, getSpeciesIdentifier
+
 from rmgpy import settings
-          
+from rmgpy.chemkin import load_chemkin_file
+from rmgpy.data.base import Entry
+from rmgpy.data.kinetics import KineticsLibrary
+from rmgpy.data.thermo import ThermoLibrary
+
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('chemkinPath', metavar='CHEMKIN', type=str, nargs=1,
+    parser.add_argument('chemkin_path', metavar='CHEMKIN', type=str, nargs=1,
         help='The path of the chemkin file')    
-    parser.add_argument('dictionaryPath', metavar='DICTIONARY', type=str, nargs=1,
+    parser.add_argument('dictionary_path', metavar='DICTIONARY', type=str, nargs=1,
         help='The path of the RMG dictionary file')     
     parser.add_argument('name', metavar='NAME', type=str, nargs=1,
         help='Name of the chemkin library to be saved') 
     
     args = parser.parse_args()
-    chemkinPath = args.chemkinPath[0]
-    dictionaryPath = args.dictionaryPath[0]
+    chemkin_path = args.chemkin_path[0]
+    dictionary_path = args.dictionary_path[0]
     name = args.name[0]
         
-    speciesList, reactionList = loadChemkinFile(chemkinPath, dictionaryPath)
+    species_list, reaction_list = load_chemkin_file(chemkin_path, dictionary_path)
     
-    # Make full species identifier the species labels
-    for species in speciesList:
-        species.label = getSpeciesIdentifier(species)
-        species.index = -1
-    # load thermo library entries
-    thermoLibrary = ThermoLibrary(name=name)
-    for i in range(len(speciesList)): 
-        species = speciesList[i]
+    thermo_library = ThermoLibrary(name=name)
+    for i in range(len(species_list)):
+        species = species_list[i]
         if species.thermo:
-            thermoLibrary.loadEntry(index = i + 1,
+            thermo_library.load_entry(index = i + 1,
                                     label = species.label,
-                                    molecule = species.molecule[0].toAdjacencyList(),
+                                    molecule = species.molecule[0].to_adjacency_list(),
                                     thermo = species.thermo,
-                                    shortDesc = species.thermo.comment
-           )                
+           )
         else:
-            logging.warning('Species {0} did not contain any thermo data and was omitted from the thermo library.'.format(str(species)))
+            logging.warning("""Species {0} did not contain any thermo data and was omitted from the thermo 
+                               library.""".format(str(species)))
                         
     # load kinetics library entries                    
-    kineticsLibrary = KineticsLibrary(name=name)
-    kineticsLibrary.entries = {}
-    for i in range(len(reactionList)):
-        reaction = reactionList[i]        
+    kinetics_library = KineticsLibrary(name=name)
+    kinetics_library.entries = {}
+    for i in range(len(reaction_list)):
+        reaction = reaction_list[i]
         entry = Entry(
                 index = i+1,
                 label = str(reaction),
@@ -63,24 +59,24 @@ if __name__ == '__main__':
                 data = reaction.kinetics,
             )
         try:
-    	    entry.longDesc = 'Originally from reaction library: ' + reaction.library + "\n" + reaction.kinetics.comment
-	except AttributeError:
-    	    entry.longDesc = reaction.kinetics.comment
-        kineticsLibrary.entries[i+1] = entry
+            entry.long_desc = 'Originally from reaction library: ' + reaction.library + "\n" + reaction.kinetics.comment
+        except AttributeError:
+            entry.long_desc = reaction.kinetics.comment
+        kinetics_library.entries[i+1] = entry
     
     # Mark as duplicates where there are mixed pressure dependent and non-pressure dependent duplicate kinetics
     # Even though CHEMKIN does not require a duplicate flag, RMG needs it.
-    # Using flag markDuplicates = True
-    kineticsLibrary.checkForDuplicates(markDuplicates=True)
-    kineticsLibrary.convertDuplicatesToMulti()
+    # Using flag mark_duplicates = True
+    kinetics_library.check_for_duplicates(mark_duplicates=True)
+    kinetics_library.convert_duplicates_to_multi()
 
     # Save in Py format
-    databaseDirectory = settings['database.directory']
+    database_directory = settings['database.directory']
     try:
-        os.makedirs(os.path.join(databaseDirectory, 'kinetics', 'libraries',name))
+        os.makedirs(os.path.join(database_directory, 'kinetics', 'libraries',name))
     except:
         pass
     
-    thermoLibrary.save(os.path.join(databaseDirectory, 'thermo' ,'libraries', name + '.py'))
-    kineticsLibrary.save(os.path.join(databaseDirectory, 'kinetics', 'libraries', name, 'reactions.py'))
-    kineticsLibrary.saveDictionary(os.path.join(databaseDirectory, 'kinetics', 'libraries', name, 'dictionary.txt'))
+    thermo_library.save(os.path.join(database_directory, 'thermo' ,'libraries', name + '.py'))
+    kinetics_library.save(os.path.join(database_directory, 'kinetics', 'libraries', name, 'reactions.py'))
+    kinetics_library.save_dictionary(os.path.join(database_directory, 'kinetics', 'libraries', name, 'dictionary.txt'))
