@@ -3607,7 +3607,7 @@ entry(
 3   S  u0 {1,S}
 4   H  u0 {1,S}
 """,
-    thermo = u'Cds-CdsSsH',
+    thermo = u'Cds-CdsSH',
     shortDesc = u"""""",
     longDesc = 
 u"""
