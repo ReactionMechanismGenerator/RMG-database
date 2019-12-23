@@ -26603,26 +26603,26 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {8,D}
-2  C u0 p0 c0 {1,S} {6,S} {7,D}
-3  C u0 p0 c0 {1,S} {5,D} {11,S}
-4  C u0 p0 c0 {5,S} {6,D} {12,S}
-5  C u0 p0 c0 {3,D} {4,S} {15,S}
-6  C u0 p0 c0 {2,S} {4,D} {16,S}
-7  C u0 p0 c0 {2,D} {9,S} {17,S}
-8  C u0 p0 c0 {1,D} {10,S} {20,S}
-9  C u0 p0 c0 {7,S} {10,D} {18,S}
-10 C u0 p0 c0 {8,S} {9,D} {19,S}
+1  C u0 p0 c0 {2,B} {3,B} {8,B}
+2  C u0 p0 c0 {1,B} {5,B} {7,B}
+3  C u0 p0 c0 {1,B} {6,B} {11,S}
+4  C u0 p0 c0 {5,B} {6,B} {12,S}
+5  C u0 p0 c0 {2,B} {4,B} {15,S}
+6  C u0 p0 c0 {3,B} {4,B} {20,S}
+7  C u0 p0 c0 {2,B} {9,B} {16,S}
+8  C u0 p0 c0 {1,B} {10,B} {19,S}
+9  C u0 p0 c0 {7,B} {10,B} {17,S}
+10 C u0 p0 c0 {8,B} {9,B} {18,S}
 11 C u0 p0 c0 {3,S} {13,D} {21,S}
 12 C u0 p0 c0 {4,S} {14,T}
 13 C u1 p0 c0 {11,D} {22,S}
 14 C u0 p0 c0 {12,T} {23,S}
 15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {7,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
-20 H u0 p0 c0 {8,S}
+16 H u0 p0 c0 {7,S}
+17 H u0 p0 c0 {9,S}
+18 H u0 p0 c0 {10,S}
+19 H u0 p0 c0 {8,S}
+20 H u0 p0 c0 {6,S}
 21 H u0 p0 c0 {11,S}
 22 H u0 p0 c0 {13,S}
 23 H u0 p0 c0 {14,S}
