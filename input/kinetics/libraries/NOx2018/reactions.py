@@ -915,13 +915,15 @@ entry(
     index = 62,
     label = "CH4 + CH2 <=> CH3 + CH3",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(4.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(10030, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(4.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius(A=(4.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+)
+
+entry(
+    index = 62,
+    label = "CH4 + CH2(S) <=> CH3 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    shortDesc = """The chemkin file reaction is CH4 + CH2(S) <=> CH3 + CH3""",
 )
 
 entry(
@@ -955,7 +957,6 @@ entry(
     index = 66,
     label = "CH3 + H <=> CH2 + H2",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(
         A = (1.2e+06, 'cm^3/(mol*s)'),
         n = 2.43,
@@ -968,7 +969,6 @@ entry(
     index = 67,
     label = "CH2(S) + H2 <=> CH3 + H",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(A=(7.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
@@ -990,7 +990,6 @@ entry(
     index = 70,
     label = "CH3 + OH <=> CH2 + H2O",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(A=(43000, 'cm^3/(mol*s)'), n=2.568, Ea=(3997, 'cal/mol'), T0=(1, 'K')),
 )
 
@@ -1046,7 +1045,6 @@ entry(
     index = 72,
     label = "CH3 + OH <=> CH2(S) + H2O",
     degeneracy = 1,
-    duplicate = True,
     kinetics = PDepArrhenius(
         pressures = ([0.001316, 0.013158, 0.131579, 1.31579, 13.1579, 131.579], 'atm'),
         arrhenius = [
@@ -1471,19 +1469,17 @@ entry(
 entry(
     index = 86,
     label = "CH3 + CH2 <=> C2H4 + H",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(
-                A = (1.2e+15, 'cm^3/(mol*s)'),
-                n = -0.3432,
-                Ea = (153, 'cal/mol'),
-                T0 = (1, 'K'),
-            ),
-            Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        ],
-    ),
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.2e+15,'cm^3/(mol*s)'), n=-0.3432, Ea=(153,'cal/mol'), T0=(1,'K')),
+    shortDesc = """The chemkin file reaction is CH3 + CH2 <=> C2H4 + H""",
+)
+
+entry(
+    index = 86,
+    label = "CH3 + CH2(S) <=> C2H4 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    shortDesc = """The chemkin file reaction is CH3 + CH2(S) <=> C2H4 + H""",
 )
 
 entry(
@@ -1616,13 +1612,15 @@ entry(
     index = 98,
     label = "CH2 + CO2 <=> CO + CH2O",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(1.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius(A=(1e+11, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
+)
+
+entry(
+    index = 98,
+    label = "CH2(S) + CO2 <=> CH2O + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    shortDesc = """The chemkin file reaction is CH2(S) + CO2 <=> CH2O + CO""",
 )
 
 entry(
@@ -12388,13 +12386,15 @@ entry(
     index = 869,
     label = "CH2 + NO <=> HCN + OH",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(3.9e+11, 'cm^3/(mol*s)'), n=0, Ea=(-378, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius(A=(3.9e+11, 'cm^3/(mol*s)'), n=0, Ea=(-378, 'cal/mol'), T0=(1, 'K')),
+)
+
+entry(
+    index = 869,
+    label = "CH2(S) + NO <=> HCN + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    shortDesc = """The chemkin file reaction is CH2(S) + NO <=> HCN + OH""",
 )
 
 entry(
@@ -15875,7 +15875,6 @@ entry(
     index = 1216,
     label = "CH3CHN + H <=> CH2CHN + H2",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(A=(9e+13, 'cm^3/(mol*s)'), n=0, Ea=(15100, 'cal/mol'), T0=(1, 'K')),
 )
 
@@ -15883,7 +15882,6 @@ entry(
     index = 1217,
     label = "CH2CHN(S) + H2 <=> CH3CHN + H",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(A=(7.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
@@ -16091,13 +16089,15 @@ entry(
     index = 1242,
     label = "CH2CHN + H <=> CH3 + HCN",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+)
+
+entry(
+    index = 1242,
+    label = "CH2CHN(S) + H <=> CH3 + HCN",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    shortDesc = """The chemkin file reaction is CH2CHN(S) + H <=> CH3 + HCN""",
 )
 
 entry(
