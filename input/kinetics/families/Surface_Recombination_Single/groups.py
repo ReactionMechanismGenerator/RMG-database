@@ -160,3 +160,18 @@ L1: Adsorbate2
     L2: C-*
 """
 )
+
+forbidden(
+    label = "surfacebond2",
+    group =
+"""
+1 *5 X ux {2,S} {3,S}
+2 *4 R ux {1,S}
+3    R ux {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+There should not be two species bonded to a single surface site.
+""",
+)
