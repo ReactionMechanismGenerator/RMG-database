@@ -34,7 +34,7 @@ entry(
     label = "Adsorbate1",
     group =
 """
-1 *1 X   ux p0 c0 {2,S}
+1 *1 Xo   ux p0 c0 {2,S}
 2 *2 R!H ux px cx {1,S} {3,[D,T]}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
@@ -46,7 +46,7 @@ entry(
     label="Adsorbate2",
     group =
 """
-1 *5 X ux px cx {2,S}
+1 *5 Xo ux px cx {2,S}
 2 *4 R ux px cx {1,S}
 """,
     kinetics = None,
@@ -57,7 +57,7 @@ entry(
     label = "C",
     group =
 """
-1 *1 X   ux p0 c0 {2,S}
+1 *1 Xo   ux p0 c0 {2,S}
 2 *2 C   ux px cx {1,S} {3,[D,T]}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
@@ -69,7 +69,7 @@ entry(
     label = "C=",
     group =
 """
-1 *1 X   ux p0 c0 {2,S}
+1 *1 Xo   ux p0 c0 {2,S}
 2 *2 C   u0 p0 c0 {1,S} {3,D}
 3 *3 R!H ux px cx {2,D}
 """,
@@ -82,7 +82,7 @@ entry(
     label = "C=O",
     group =
 """
-1 *1 X ux p0 c0 {2,S}
+1 *1 Xo ux p0 c0 {2,S}
 2 *2 C u0 p0 c0 {1,S} {3,D}
 3 *3 O ux px cx {2,D}
 """,
@@ -94,7 +94,7 @@ entry(
     label = "C=C",
     group =
 """
-1 *1 X ux p0 c0 {2,S}
+1 *1 Xo ux p0 c0 {2,S}
 2 *2 C u0 p0 c0 {1,S} {3,D}
 3 *3 C u0 p0 c0 {2,D}
 """,
@@ -106,7 +106,7 @@ entry(
     label = "C#",
     group =
 """
-1 *1 X ux p0 c0 {2,S}
+1 *1 Xo ux p0 c0 {2,S}
 2 *2 C u0 p0 c0 {1,S} {3,T}
 3 *3 C ux px cx {2,T}
 """,
@@ -118,7 +118,7 @@ entry(
     label="H-*",
     group =
 """
-1 *5 X u0 p0 c0 {2,S}
+1 *5 Xo u0 p0 c0 {2,S}
 2 *4 H u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -129,7 +129,7 @@ entry(
     label="O-*",
     group =
 """
-1 *5 X u0 p0 c0 {2,S}
+1 *5 Xo u0 p0 c0 {2,S}
 2 *4 O u0 p2 c0 {1,S}
 """,
     kinetics = None,
@@ -140,7 +140,7 @@ entry(
     label="C-*",
     group =
 """
-1 *5 X u0 p0 c0 {2,S}
+1 *5 Xo u0 p0 c0 {2,S}
 2 *4 C u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -159,19 +159,4 @@ L1: Adsorbate2
     L2: O-*
     L2: C-*
 """
-)
-
-forbidden(
-    label = "surfacebond2",
-    group =
-"""
-1 *5 X ux {2,S} {3,S}
-2 *4 R ux {1,S}
-3    R ux {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-There should not be two species bonded to a single surface site.
-""",
 )
