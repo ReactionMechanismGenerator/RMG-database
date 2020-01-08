@@ -80,8 +80,8 @@ calculated_data:
           object:
           - 8.0
           - 8.0
-      opticalIsomers: 1
-      spinMultiplicity: 3
+      optical_isomers: 1
+      spin_multiplicity: 3
     thermo_data:
       Cpdata:
         class: ArrayQuantity

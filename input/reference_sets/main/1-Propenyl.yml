@@ -143,8 +143,8 @@ calculated_data:
           - 1.0
           - 1.0
           - 1.0
-      opticalIsomers: 1
-      spinMultiplicity: 2
+      optical_isomers: 1
+      spin_multiplicity: 2
     thermo_data:
       Cpdata:
         class: ArrayQuantity
@@ -197,7 +197,7 @@ reference_data:
       H298:
         class: ScalarQuantity
         uncertainty: 0.79
-        uncertaintyType: +|-
+        uncertainty_type: +|-
         units: kJ/mol
         value: 267.2
       class: ThermoData
