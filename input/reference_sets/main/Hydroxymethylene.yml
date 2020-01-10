@@ -18,7 +18,7 @@ Properties:
     value: 30.02598178456637
   multiplicity: 3
   symmetry_number: 1.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -26,7 +26,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -300355.3911536701
+        value: 93.62357255146031
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -52,7 +52,7 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
+          - 12.000000000000005
           - 15.99491461957
           - 1.00782503224
           - 1.00782503224
@@ -70,9 +70,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.7334042549014974
-            - 13.738028901457904
-            - 15.471430356074666
+            - 1.733404400000903
+            - 13.73803005143767
+            - 15.471431651153603
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -80,9 +80,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 9.725157305735612
-            - 1.2270777106575697
-            - 1.0895973200518951
+            - 9.725156491664444
+            - 1.2270776079416394
+            - 1.0895972288441407
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -108,7 +108,7 @@ calculated_data:
           - 1.0
           - 1.0
       optical_isomers: 1
-      spin_multiplicity: 3
+      spin_multiplicity: 1
     thermo_data:
       Cpdata:
         class: ArrayQuantity
@@ -128,11 +128,11 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -71784.2580388969
+        value: 24.7798975805147
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
-        value: 55.91414180499808
+        value: 53.73097232292665
       Tdata:
         class: ArrayQuantity
         units: K

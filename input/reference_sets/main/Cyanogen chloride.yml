@@ -16,7 +16,7 @@ Properties:
     value: 61.47044480312241
   multiplicity: 1
   symmetry_number: 1.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -24,7 +24,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -1451891.0820972673
+        value: 117.66232201663794
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -48,14 +48,14 @@ calculated_data:
           class: np_array
           object:
           - 34.968852682
-          - 12.000000000000009
+          - 12.000000000000005
           - 14.00307400443
       modes:
       - class: IdealGasTranslation
         mass:
           class: ScalarQuantity
           units: amu
-          value: 60.97192000000002
+          value: 60.97192000000001
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -64,9 +64,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.600569473518999e-06
-            - 84.18409475321718
-            - 84.18410035378668
+            - 5.6005699423301826e-06
+            - 84.18410180008004
+            - 84.18410740065
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -74,9 +74,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3009984.8119117003
-            - 0.20024719755870823
-            - 0.20024718423673482
+            - 3009984.5599526037
+            - 0.20024718079646323
+            - 0.20024716747449092
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -118,7 +118,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -347007.68132761697
+        value: 30.73751064375492
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

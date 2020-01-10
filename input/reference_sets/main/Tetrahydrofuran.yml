@@ -26,7 +26,7 @@ Properties:
     value: 72.10572574371531
   multiplicity: 1
   symmetry_number: 2.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -34,7 +34,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -609930.7524663452
+        value: -202.70102176149783
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -88,10 +88,10 @@ calculated_data:
           class: np_array
           object:
           - 15.99491461957
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -114,9 +114,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 70.75377233977335
-            - 71.64729839471754
-            - 125.15940957894162
+            - 70.75377826241387
+            - 71.64730439215313
+            - 125.15942005575673
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.23825767158244068
-            - 0.2352863182708838
-            - 0.13468926635288977
+            - 0.2382576516384239
+            - 0.2352862985755924
+            - 0.13468925507835258
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -208,7 +208,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -145773.25686048117
+        value: -44.75508118294896
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -243,5 +243,5 @@ reference_data:
         uncertainty: 0.8
         uncertainty_type: +|-
         units: kJ/mol
-        value: -184.20000000000007
+        value: -184.20000000000013
       class: ThermoData

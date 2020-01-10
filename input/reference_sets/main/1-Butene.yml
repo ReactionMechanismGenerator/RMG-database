@@ -25,7 +25,7 @@ Properties:
     value: 56.106325278865256
   multiplicity: 1
   symmetry_number: 3.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -33,7 +33,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -412386.1155450857
+        value: -14.066587269444891
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -83,10 +83,10 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -100,7 +100,7 @@ calculated_data:
         mass:
           class: ScalarQuantity
           units: amu
-          value: 56.06264000000002
+          value: 56.062640000000016
         quantum: false
       - class: NonlinearRotor
         inertia:
@@ -109,9 +109,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 32.70342492871265
-            - 89.63401450846797
-            - 116.15804550800401
+            - 32.70342766624343
+            - 89.63402201153148
+            - 116.158055231335
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -119,9 +119,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.5154698350431177
-            - 0.18807178442014225
-            - 0.14512665893803198
+            - 0.5154697918942909
+            - 0.18807176867707384
+            - 0.14512664678980397
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -199,7 +199,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -98558.8648419002
+        value: 0.42028186083851365
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

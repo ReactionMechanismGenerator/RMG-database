@@ -19,7 +19,7 @@ Properties:
     value: 32.04186202952587
   multiplicity: 1
   symmetry_number: 3.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -27,7 +27,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -303675.4918991425
+        value: -208.31239393740316
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -59,7 +59,7 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
+          - 12.000000000000005
           - 15.99491461957
           - 1.00782503224
           - 1.00782503224
@@ -79,9 +79,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.925752775879984
-            - 20.352309850538045
-            - 21.083797429189634
+            - 3.9257531044959952
+            - 20.352311554184524
+            - 21.083799194067304
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -89,9 +89,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 4.29411377021054
-            - 0.828290703961685
-            - 0.7995537383607098
+            - 4.2941134107598815
+            - 0.8282906346273228
+            - 0.7995536714318547
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -145,7 +145,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -72577.47158054149
+        value: -47.07494927837835
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

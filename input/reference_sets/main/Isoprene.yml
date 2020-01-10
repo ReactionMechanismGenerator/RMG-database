@@ -26,7 +26,7 @@ Properties:
     value: 68.11702635362207
   multiplicity: 1
   symmetry_number: 3.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -34,7 +34,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -512384.32828952844
+        value: 62.568128758403475
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -87,11 +87,11 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -114,9 +114,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 58.76299790152496
-            - 119.80948799164048
-            - 175.4587372829731
+            - 58.7630028204445
+            - 119.80949802062558
+            - 175.45875197023275
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.2868748984113865
-            - 0.14070362319322077
-            - 0.0960774556707379
+            - 0.2868748743977304
+            - 0.1407036114152352
+            - 0.09607744762830898
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -208,7 +208,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -122458.56046592782
+        value: 19.187243987748936
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -240,7 +240,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.7000000000000003
+        uncertainty: 0.7000000000000005
         uncertainty_type: +|-
         units: kJ/mol
         value: 75.44

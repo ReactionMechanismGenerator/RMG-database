@@ -16,7 +16,7 @@ Properties:
     value: 33.07294319161546
   multiplicity: 2
   symmetry_number: 1.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -24,7 +24,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -1046808.1895402652
+        value: 129.59855951422935
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -57,12 +57,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 1.7603513949233347
+          value: 1.7603515422784246
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 9.576286360759614
+          value: 9.576285559150104
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -101,7 +101,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -250191.08926344008
+        value: 33.047471688854394
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

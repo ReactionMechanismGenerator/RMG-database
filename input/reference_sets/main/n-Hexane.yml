@@ -33,7 +33,7 @@ Properties:
     value: 86.17536816325737
   multiplicity: 1
   symmetry_number: 18.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -41,7 +41,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -621769.8627949272
+        value: -193.62457921919423
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -115,12 +115,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -149,9 +149,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 34.46008554835293
-            - 441.18933513146845
-            - 457.0398708354906
+            - 34.46008843292986
+            - 441.1893720624439
+            - 457.039909093279
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -159,9 +159,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.4891928962188612
-            - 0.03820951167898278
-            - 0.036884372959698125
+            - 0.48919285526961803
+            - 0.03820950848055003
+            - 0.03688436987218977
         symmetry: 18
       - class: HarmonicOscillator
         frequencies:
@@ -271,7 +271,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -148600.69230223558
+        value: -40.40592180824651
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

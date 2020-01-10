@@ -29,7 +29,7 @@ Properties:
     value: 82.14360767333838
   multiplicity: 1
   symmetry_number: 2.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -37,7 +37,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -615476.2753262637
+        value: 63.63333147706315
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -99,12 +99,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -129,9 +129,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 39.08860058205482
-            - 360.108412312993
-            - 369.69550074117984
+            - 39.08860385407442
+            - 360.1084424568653
+            - 369.6955316875658
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -139,9 +139,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.4312671418860582
-            - 0.046812649960247144
-            - 0.04559868599848164
+            - 0.43126710578565036
+            - 0.04681264604166492
+            - 0.045598682181517636
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -235,7 +235,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -147097.18552981253
+        value: 20.383461043297874
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

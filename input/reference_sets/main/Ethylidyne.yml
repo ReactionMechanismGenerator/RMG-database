@@ -19,7 +19,7 @@ Properties:
     value: 27.04522251695288
   multiplicity: 4
   symmetry_number: 3.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -27,7 +27,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -204194.83862551063
+        value: 482.1034639057657
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -56,8 +56,8 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -75,9 +75,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 3.1587575867662934
-            - 16.990430810106172
-            - 17.170805550855057
+            - 3.1587578511788474
+            - 16.99043223233725
+            - 17.1708069881849
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -85,9 +85,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 5.336790997819529
-            - 0.9921837322289269
-            - 0.981761106281297
+            - 5.336790551088692
+            - 0.9921836491754461
+            - 0.9817610241002708
         symmetry: 3
       - class: HarmonicOscillator
         frequencies:
@@ -117,7 +117,7 @@ calculated_data:
           - 1.0
           - 1.0
       optical_isomers: 1
-      spin_multiplicity: 4
+      spin_multiplicity: 2
     thermo_data:
       Cpdata:
         class: ArrayQuantity
@@ -137,11 +137,11 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -48801.147423880095
+        value: 117.81579060757812
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
-        value: 55.7634488232541
+        value: 54.386022239926035
       Tdata:
         class: ArrayQuantity
         units: K

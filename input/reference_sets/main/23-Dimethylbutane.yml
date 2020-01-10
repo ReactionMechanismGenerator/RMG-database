@@ -33,7 +33,7 @@ Properties:
     value: 86.17536816325737
   multiplicity: 1
   symmetry_number: 162.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -41,7 +41,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -621775.5765060195
+        value: -199.33829031149682
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -115,12 +115,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -149,9 +149,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 117.88093189343421
-            - 196.927554261474
-            - 223.24627398468024
+            - 117.88094176098416
+            - 196.92757074584048
+            - 223.24629267212805
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -159,9 +159,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.14300556317783433
-            - 0.08560320122071634
-            - 0.07551135681890624
+            - 0.14300555120715855
+            - 0.08560319405506384
+            - 0.07551135049801945
         symmetry: 162
       - class: HarmonicOscillator
         frequencies:
@@ -271,7 +271,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -148602.1217138541
+        value: -41.83533342688884
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

@@ -25,7 +25,7 @@ Properties:
     value: 77.10390706093963
   multiplicity: 2
   symmetry_number: 1.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -33,7 +33,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -607677.174304914
+        value: 317.32240536801515
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -80,12 +80,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -105,9 +105,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 79.44841562292427
-            - 89.28050656329947
-            - 168.72892218622374
+            - 79.44842227337399
+            - 89.28051403677162
+            - 168.72893631014557
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -115,9 +115,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.21218332576143084
-            - 0.18881645839897326
-            - 0.09990954031427385
+            - 0.21218330800003926
+            - 0.18881644259356986
+            - 0.0999095319510697
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -191,7 +191,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -145235.00699009513
+        value: 79.16526379638167
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

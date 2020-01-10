@@ -21,7 +21,7 @@ Properties:
     value: 69.06544727519042
   multiplicity: 1
   symmetry_number: 1.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -29,7 +29,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -635918.8845708782
+        value: 147.98676414658215
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -68,9 +68,9 @@ calculated_data:
           class: np_array
           object:
           - 14.00307400443
-          - 12.000000000000009
+          - 12.000000000000005
           - 14.00307400443
-          - 12.000000000000009
+          - 12.000000000000005
           - 14.00307400443
           - 1.00782503224
           - 1.00782503224
@@ -89,9 +89,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 48.790649099539685
-            - 50.640766421984594
-            - 99.43141552152429
+            - 48.79065318369613
+            - 50.640770661010215
+            - 99.43142384470634
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -99,9 +99,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.34550942372085675
-            - 0.33288653084109165
-            - 0.16954027019457707
+            - 0.3455093947990357
+            - 0.33288650297590483
+            - 0.1695402560027403
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -163,7 +163,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -151985.46211207152
+        value: 38.16870413897972
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -198,5 +198,5 @@ reference_data:
         uncertainty: 0.8
         uncertainty_type: +|-
         units: kJ/mol
-        value: 192.70000000000007
+        value: 192.70000000000013
       class: ThermoData

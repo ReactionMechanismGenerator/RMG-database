@@ -25,7 +25,7 @@ Properties:
     value: 96.1023117534131
   multiplicity: 1
   symmetry_number: 2.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -33,7 +33,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -870087.2241768978
+        value: -141.72887883996702
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -83,12 +83,12 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 18.99840316274001
           - 1.00782503224
           - 1.00782503224
@@ -109,9 +109,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 88.2099913118532
-            - 195.2513962274461
-            - 283.46138753929915
+            - 88.20999869571487
+            - 195.25141257150517
+            - 283.4614112672199
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -119,9 +119,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.19110793236279633
-            - 0.08633807173246145
-            - 0.059470636193832034
+            - 0.1911079163655788
+            - 0.08633806450529458
+            - 0.0594706312156781
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -199,7 +199,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -207952.0396738255
+        value: -30.0761704656118
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

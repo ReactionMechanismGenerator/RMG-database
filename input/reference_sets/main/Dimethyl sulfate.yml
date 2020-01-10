@@ -26,7 +26,7 @@ Properties:
     value: 126.13164781292807
   multiplicity: 1
   symmetry_number: 18.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -34,7 +34,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -2044762.4146692378
+        value: -705.509753988463
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -87,13 +87,13 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
+          - 12.000000000000005
           - 15.99491461957
           - 31.9720711744
           - 15.99491461957
           - 15.99491461957
           - 15.99491461957
-          - 12.000000000000009
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -114,9 +114,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 163.54442181917716
-            - 217.92685589901672
-            - 273.115791585036
+            - 163.54443550911608
+            - 217.92687414118785
+            - 273.11581444694997
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -124,9 +124,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.10307675960961313
-            - 0.07735452789334056
-            - 0.06172337731009518
+            - 0.10307675098128814
+            - 0.07735452141816605
+            - 0.06172337214336932
         symmetry: 18
       - class: HarmonicOscillator
         frequencies:
@@ -208,7 +208,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -488704.28137441055
+        value: -162.95610785960284
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -240,7 +240,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 1.9000000000000006
+        uncertainty: 1.900000000000001
         uncertainty_type: +|-
         units: kJ/mol
         value: -687.0

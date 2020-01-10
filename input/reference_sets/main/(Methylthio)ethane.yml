@@ -25,7 +25,7 @@ Properties:
     value: 76.16062727324416
   multiplicity: 1
   symmetry_number: 9.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -33,7 +33,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -1357812.8633308113
+        value: -86.9561231775072
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -83,10 +83,10 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
           - 31.9720711744
-          - 12.000000000000009
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
           - 1.00782503224
@@ -109,9 +109,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 52.27770646827419
-            - 127.6724999133838
-            - 156.958171720312
+            - 52.27771084432442
+            - 127.67251060056408
+            - 156.9581848589306
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -119,9 +119,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 0.3224630572417881
-            - 0.13203805882069455
-            - 0.10740204774675609
+            - 0.32246303024912687
+            - 0.132038047768084
+            - 0.10740203875637092
         symmetry: 9
       - class: HarmonicOscillator
         frequencies:
@@ -199,7 +199,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -324520.63064457115
+        value: -16.35071922846004
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
@@ -234,5 +234,5 @@ reference_data:
         uncertainty: 1.1
         uncertainty_type: +|-
         units: kJ/mol
-        value: -60.30000000000002
+        value: -60.30000000000003
       class: ThermoData

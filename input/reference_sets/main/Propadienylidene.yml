@@ -19,7 +19,7 @@ Properties:
     value: 38.04798346922994
   multiplicity: 3
   symmetry_number: 2.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -27,7 +27,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -302704.2320683264
+        value: 538.4750920690149
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -56,9 +56,9 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
-          - 12.000000000000009
-          - 12.000000000000009
+          - 12.000000000000005
+          - 12.000000000000005
+          - 12.000000000000005
           - 1.00782503224
           - 1.00782503224
       modes:
@@ -75,9 +75,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.7305423639005297
-            - 47.13117236168863
-            - 48.86171192530443
+            - 1.7305425087603725
+            - 47.13117630693398
+            - 48.861716015409385
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -85,9 +85,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 9.741240321532782
-            - 0.35767472372597936
-            - 0.34500692646870385
+            - 9.741239506115342
+            - 0.3576746937858283
+            - 0.3450068975889457
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -117,7 +117,7 @@ calculated_data:
           - 1.0
           - 1.0
       optical_isomers: 1
-      spin_multiplicity: 3
+      spin_multiplicity: 1
     thermo_data:
       Cpdata:
         class: ArrayQuantity
@@ -137,11 +137,11 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -72345.04447580625
+        value: 131.7019774430201
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
-        value: 60.93049014319924
+        value: 58.7473206611278
       Tdata:
         class: ArrayQuantity
         units: K

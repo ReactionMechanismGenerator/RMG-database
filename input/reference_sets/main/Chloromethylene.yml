@@ -17,7 +17,7 @@ Properties:
     value: 48.47164333952298
   multiplicity: 3
   symmetry_number: 1.0
-RMG_version: 2.4.1
+RMG_version: 3.0.0
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -25,7 +25,7 @@ calculated_data:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -1309415.8127373173
+        value: 305.37098958744
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -48,7 +48,7 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 12.000000000000009
+          - 12.000000000000005
           - 34.968852682
           - 1.00782503224
       modes:
@@ -65,9 +65,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 1.0580483837982626
-            - 27.646236706938144
-            - 28.704282290451676
+            - 1.0580484723651333
+            - 27.646239021142975
+            - 28.704284693223144
         quantum: false
         rotationalConstant:
           class: ArrayQuantity
@@ -75,9 +75,9 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 15.93275819091722
-            - 0.6097621615573405
-            - 0.5872862063844771
+            - 15.932756857221671
+            - 0.6097621105155138
+            - 0.5872861572240624
         symmetry: 1
       - class: HarmonicOscillator
         frequencies:
@@ -99,7 +99,7 @@ calculated_data:
           - 17.0
           - 1.0
       optical_isomers: 1
-      spin_multiplicity: 3
+      spin_multiplicity: 1
     thermo_data:
       Cpdata:
         class: ArrayQuantity
@@ -119,11 +119,11 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -312955.46943328885
+        value: 75.40621845703329
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
-        value: 58.21000378640256
+        value: 56.026834304331125
       Tdata:
         class: ArrayQuantity
         units: K
