@@ -222,6 +222,7 @@ calculated_data:
       class: ThermoData
 class: ReferenceSpecies
 datetime: 2019-09-07 12:38
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 338
 is_ts: false
 reference_data:
