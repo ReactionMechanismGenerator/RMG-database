@@ -1,0 +1,184 @@
+pbac:
+  b3lyp/6-311+g(3df,2p):
+    C#C: -1.5
+    C#N: 0.22
+    C-C: -1.89
+    C-H: 0.25
+    C-N: -0.44
+    C-O: -1.18
+    C-S: -2.35
+    C=C: -0.4
+    C=O: -0.01
+    N-H: 1.36
+    O-H: -1.09
+    O=S: -5.19
+    S-H: -0.52
+  b3lyp/6-311g(2d,d,p):
+    C#C: -1.5
+    C#N: 0.22
+    C-C: -1.89
+    C-H: 0.25
+    C-N: -0.44
+    C-O: -1.18
+    C-S: -2.35
+    C=C: -0.4
+    C=O: -0.01
+    N-H: 1.36
+    O-H: -1.09
+    O=S: -5.19
+    S-H: -0.52
+  b3lyp/6-31g(d,p):
+    C#C: -1.5
+    C#N: 0.22
+    C-C: -1.89
+    C-H: 0.25
+    C-N: -0.44
+    C-O: -1.18
+    C-S: -2.35
+    C=C: -0.4
+    C=O: -0.01
+    N-H: 1.36
+    O-H: -1.09
+    O=S: -5.19
+    S-H: -0.52
+  b3lyp/cbsb7:
+    # Identical corrections for 'b3lyp/cbsb7', 'b3lyp/6-311g(2d,d,p)', 'b3lyp/6-311+g(3df,2p)', 'b3lyp/6-31g(d,p)'
+    C#C: -1.5
+    C#N: 0.22
+    C-C: -1.89
+    C-H: 0.25
+    C-N: -0.44
+    C-O: -1.18
+    C-S: -2.35
+    C=C: -0.4
+    C=O: -0.01
+    N-H: 1.36
+    O-H: -1.09
+    O=S: -5.19
+    S-H: -0.52
+  cbs-qb3:
+    # Table IX: Petersson GA (1998) J. of Chemical Physics, DOI: 10.1063/1.477794
+    # Table 2: Ashcraft R (2007) J. Phys. Chem. B; DOI: 10.1021/jp073539t
+    C#C: -0.64
+    C#N: -0.89
+    C-C: -0.3
+    C-Cl: 1.29
+    C-F: 0.55
+    C-H: -0.11
+    C-N: -0.13
+    C-O: 0.33
+    C-S: 0.43
+    C=C: -0.08
+    C=O: 0.55
+    H-H: 1.1
+    N#N: -2.0
+    N-H: -0.42
+    N-N: -1.87
+    N-O: 0.35
+    N=N: -1.58
+    N=O: 1.11
+    O-H: 0.02
+    O=O: -0.2
+    O=S: -0.78
+    S-H: 0.0
+  cbs-qb3-paraskevas:
+    # NOTE: The Paraskevas corrections are inaccurate for non-oxygenated hydrocarbons,
+    # and may do poorly in combination with the Petersson corrections
+    # Table2: Paraskevas, PD (2013). Chemistry-A European J., DOI: 10.1002/chem.201301381
+    # Table IX: Petersson GA (1998) J. of Chemical Physics, DOI: 10.1063/1.477794
+    # Table 2: Ashcraft R (2007) J. Phys. Chem. B; DOI: 10.1021/jp073539t
+    C#C: -0.64
+    C#N: -0.89
+    C-C: -0.495
+    C-Cl: 1.29
+    C-F: 0.55
+    C-H: -0.045
+    C-N: -0.13
+    C-O: 0.378
+    C-S: 0.43
+    C=C: -0.825
+    C=O: 0.743
+    H-H: 1.1
+    N#N: -2.0
+    N-H: -0.42
+    N-N: -1.87
+    N-O: 0.35
+    N=N: -1.58
+    N=O: 1.11
+    O-H: -0.423
+    O=O: -0.2
+    O=S: -0.78
+    S-H: 0.0
+  ccsd(t)-f12/cc-pvdz-f12:
+    # 'S-H', 'C-S', 'C=S', 'S-S', 'O-S', 'O=S', 'O=S=O' taken from http://hdl.handle.net/1721.1/98155 (both for
+    # 'CCSD(T)-F12/cc-pVDZ-F12' and 'CCSD(T)-F12/cc-pVTZ-F12')
+    C#C: -3.13
+    C#N: -2.79
+    C-C: -0.68
+    C-H: -0.46
+    C-N: -0.67
+    C-O: -0.23
+    C-S: 0.42
+    C=C: -1.9
+    C=N: -1.46
+    C=O: -0.69
+    C=S: 0.51
+    N#N: -2.05
+    N-H: -0.69
+    N-N: -0.47
+    N-O: 0.74
+    N=N: -1.54
+    N=O: -0.51
+    N_O: -0.23
+    O-H: -0.51
+    O-O: -0.02
+    O-S: 0.23
+    O=S: -0.53
+    O=S=O: 1.95
+    S-H: 0.87
+    S-S: 0.86
+  ccsd(t)-f12/cc-pvqz-f12:
+    C#C: -1.66
+    C#N: -1.33
+    C-C: -0.26
+    C-H: -0.08
+    C-N: -0.2
+    C-O: 0.25
+    C=C: -1.01
+    C=N: -0.3
+    C=O: -0.03
+    N#N: -0.64
+    N-H: 0.06
+    N-N: -0.23
+    N-O: 1.01
+    N=N: -0.37
+    N=O: -0.26
+    N_O: -0.03
+    O-H: 0.07
+    O-O: 0.26
+  ccsd(t)-f12/cc-pvtz-f12:
+    C#C: -1.79
+    C#N: -1.41
+    C-C: -0.27
+    C-H: -0.09
+    C-N: -0.18
+    C-O: 0.14
+    C-S: 0.13
+    C=C: -1.03
+    C=N: -0.41
+    C=O: -0.19
+    C=S: -0.12
+    N#N: -0.76
+    N-H: -0.01
+    N-N: -0.21
+    N-O: 0.87
+    N=N: -0.44
+    N=O: -0.23
+    N_O: -0.09
+    O-H: -0.06
+    O-O: 0.16
+    O-S: 0.15
+    O=S: -2.61
+    O=S=O: 0.27
+    S-H: 0.52
+    S-S: 0.3

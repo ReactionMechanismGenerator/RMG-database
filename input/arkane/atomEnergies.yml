@@ -1,0 +1,371 @@
+# Spin orbit correction (SOC) in Hartrees
+# Values taken from ref 22 of http://dx.doi.org/10.1063/1.477794 and converted to Hartrees
+# Values in milli-Hartree are also available (with fewer significant figures) from table VII of
+# http://dx.doi.org/10.1063/1.473182
+# Iodine SOC calculated as a weighted average of the electronic spin splittings of the lowest energy state.
+# The splittings are obtained from Huber, K.P.; Herzberg, G., Molecular Spectra and Molecular Structure. IV.
+# Constants of Diatomic Molecules, Van Nostrand Reinhold Co., 1979
+SOC:
+  C: -0.000135
+  H: 0.0
+  I: -0.011547226
+  N: 0.0
+  O: -0.000355
+  P: 0.0
+  S: -0.000893
+
+# Atomic energies
+# All model chemistries here should be lower-case because the user input is changed to lower-case
+#
+# Note: If your model chemistry does not include spin orbit coupling, you should add the corrections
+# to the energies here
+#
+# * indicates that the grid size used in the [QChem] electronic
+# structure calculation utilized 75 radial points and 434 angular points
+# (i.e,, this is specified in the $rem section of the [qchem] input file as: XC_GRID 000075000434)
+atom_energies:
+  MRCI+Davidson/aug-cc-pV(T+d)Z:
+    # Calculated atomic energies (unfitted)
+    C: -37.78334774
+    H: -0.49982118
+    N: -54.51729444
+    O: -74.97883034
+    S: -397.6580584
+  b-ccsd(t)-f12/aug-cc-pvdz:
+    C: -37.783429495799
+    H: -0.499459066131
+    N: -54.520475581942
+    O: -74.987347215049
+  b-ccsd(t)-f12/aug-cc-pvqz:
+    C: -37.788300047059
+    H: -0.499949526073
+    N: -54.528189769291
+    O: -75.002234610563
+  b-ccsd(t)-f12/aug-cc-pvtz:
+    C: -37.786455700792
+    H: -0.499844820798
+    N: -54.5249273717
+    O: -74.996683829705
+  b-ccsd(t)-f12/cc-pcvdz-f12:
+    C: -37.837727033417
+    H: -0.499811124128
+    N: -54.578602780288
+    O: -75.04841931736699
+  b-ccsd(t)-f12/cc-pcvqz-f12:
+    C: -37.843769971592
+    H: -0.49999456
+    N: -54.587781507581
+    O: -75.065752706471
+  b-ccsd(t)-f12/cc-pcvtz-f12:
+    C: -37.842864156944
+    H: -0.499946213243
+    N: -54.586402551258
+    O: -75.063122632757
+  b-ccsd(t)-f12/cc-pvdz-f12:
+    C: -37.785544916465
+    H: -0.499811124128
+    N: -54.52326994219
+    O: -74.9910809185
+    S: -397.659048086033
+  b-ccsd(t)-f12/cc-pvqz-f12:
+    C: -37.78914150629
+    H: -0.499994558325
+    N: -54.529425753163
+    O: -75.00417548500499
+    S: -397.67503812693104
+  b-ccsd(t)-f12/cc-pvtz-f12:
+    C: -37.788368578503
+    H: -0.499946213243
+    N: -54.528135889213
+    O: -75.001449055506
+    S: -397.672638425929
+  b3lyp/6-311+g(3df,2p):
+    # Calculated atomic energies
+    C: -37.8576059934
+    H: -0.502155915123
+    N: -54.6007233609
+    O: -75.0912681284
+    P: -341.281730319
+    S: -398.13538285000004
+  b3lyp/6-31g(d,p):
+    # Fitted to small molecules
+    C: -37.850331697831
+    H: -0.500426155
+    O: -75.0535872748806
+    S: -398.100820107242
+  bmk/6-311g(2d,d,p):
+    C: -37.8288660027
+    H: -0.498618853119
+    N: -54.5697851544
+    O: -75.0518760278
+    P: -341.167615941
+    S: -398.002512915
+  bmk/cbsb7:
+    # 'bmk/cbsb7' and 'bmk/6-311g(2d,d,p)' have the same corrections
+    C: -37.8288660027
+    H: -0.498618853119
+    N: -54.5697851544
+    O: -75.0518760278
+    P: -341.167615941
+    S: -398.002512915
+  cbs-qb3:
+    # cbs-qb3 and cbs-qb3-paraskevas have the same corrections
+    C: -37.78552
+    H: -0.499818
+    N: -54.520543
+    O: -74.987979
+    P: -340.817186
+    S: -397.658253
+  cbs-qb3-paraskevas:
+    C: -37.78552
+    H: -0.499818
+    N: -54.520543
+    O: -74.987979
+    P: -340.817186
+    S: -397.658253
+  ccsd(t)-f12/aug-cc-pvdz:
+    # note that all atom corrections but S are fitted, the correction for S is calculated
+    C: -37.786829171716
+    H: -0.499459066131
+    N: -54.524279516472
+    O: -74.992452308083
+    S: -397.64962684240004
+  ccsd(t)-f12/aug-cc-pvqz:
+    C: -37.789522892348
+    H: -0.499949526073
+    N: -54.529569719016
+    O: -75.00438158661
+    S: -397.672107204994
+  ccsd(t)-f12/aug-cc-pvtz:
+    C: -37.788639810868
+    H: -0.499844820798
+    N: -54.527419359906
+    O: -75.000356429806
+    S: -397.667796000231
+  ccsd(t)-f12/cc-pcvdz-f12:
+    C: -37.841004118707
+    H: -0.499811124128
+    N: -54.582137180344
+    O: -75.05340054742099
+  ccsd(t)-f12/cc-pcvqz-f12:
+    C: -37.845028820561
+    H: -0.499994558325
+    N: -54.589137594139
+    O: -75.067767234737
+  ccsd(t)-f12/cc-pcvtz-f12:
+    C: -37.844797139972
+    H: -0.499946213243
+    N: -54.5885458319
+    O: -75.06635007234699
+  ccsd(t)-f12/cc-pvdz-f12:
+    # We are assuming that SOC is included in the Bond Energy Corrections
+    C: -37.788203485235
+    H: -0.499811124128
+    N: -54.526406291655
+    O: -74.995458316117
+    S: -397.663040369707
+  ccsd(t)-f12/cc-pvdz-f12_h-qz:
+    C: -37.788338485235
+    H: -0.499994558325
+    N: -54.526406291655
+    O: -74.995813316117
+  ccsd(t)-f12/cc-pvdz-f12_h-tz:
+    C: -37.788338485235
+    H: -0.499946213243
+    N: -54.526406291655
+    O: -74.995813316117
+  ccsd(t)-f12/cc-pvdz-f12_noscale:
+    C: -37.788016871511
+    H: -0.499811124128
+    N: -54.526026290887
+    O: -74.995106897699
+  ccsd(t)-f12/cc-pvqz-f12:
+    C: -37.789961656228
+    H: -0.499994558325
+    N: -54.530515226371
+    O: -75.005600062003
+    S: -397.676719774973
+  ccsd(t)-f12/cc-pvtz-f12:
+    C: -37.789862146471
+    H: -0.499946213243
+    N: -54.53000909621
+    O: -75.004127673424
+    S: -397.675447487865
+  ccsd(t)-f12/cc-pvtz-f12(-pp):
+    C: -37.789997146471
+    H: -0.499946213243
+    I: -294.829364886
+    N: -54.53000909621
+    O: -75.004482673424
+    S: -397.676340487865
+  ccsd(t)/aug-cc-pvtz(-pp):
+    # ccsd(t)/aug-cc-pvtz(-pp) atomic energies were fit to a set of 8 small molecules:
+    # CH4, CH3OH, H2S, H2O, SO2, HI, I2, CH3I
+    C: -37.77399197
+    H: -0.499821176024
+    I: -294.807391526
+    O: -74.96773992
+    S: -397.6470534
+  ccsd-f12/cc-pvdz-f12:
+    C: -37.786348495943
+    H: -0.499811124128
+    N: -54.524325513811
+    O: -74.992681577897
+  fci/cc-pvdz:
+    C: -37.789662
+  fci/cc-pvqz:
+    C: -37.787187110598
+  fci/cc-pvtz:
+    C: -37.781401669684
+  g03_pbepbe_6-311++g_d_p:
+    C: -37.7938738736
+    H: -0.499812273282
+    N: -54.5289567564
+    O: -75.0037146764
+  g3:
+    C: -37.827717
+    H: -0.501003
+    N: -54.564343
+    O: -75.030991
+    P: -341.116432
+    S: -397.96111
+  klip_1:
+    C: -37.79280091
+    H: -0.50003976
+    N: -54.53383153
+    O: -75.00970974
+  klip_2:
+    # Klip QCI(tz,qz)
+    C: -37.790739190000004
+    H: -0.50003976
+    N: -54.531694
+    O: -75.00750402
+  klip_2_cc:
+    # Klip CCSD(T)(tz,qz)
+    C: -37.79042943
+    H: -0.50003976
+    O: -75.00716655
+  klip_3:
+    # Klip QCI(dz,tz)
+    C: -37.79038675
+    H: -0.50005578
+    N: -54.5312814
+    O: -75.00392081
+  m06-2x/cc-pvtz:
+    C: -37.842603
+    H: -0.498135
+    N: -54.58678
+    O: -75.06459699999999
+    P: -341.246985
+    S: -398.10213300000004
+  m08so/mg3s*:
+    C: -37.824699874
+    H: -0.501732135
+    N: -54.5574039365
+    O: -75.0386481348
+    P: -341.2444299005
+    S: -398.0949242227
+  mp2_rmp2_pvdz:
+    C: -37.73806213
+    H: -0.4992784
+    N: -54.46141996
+    O: -74.89443754
+  mp2_rmp2_pvqz:
+    C: -37.76546715
+    H: -0.49994557
+    N: -54.50715868
+    O: -74.97550864
+  mp2_rmp2_pvtz:
+    C: -37.75846604
+    H: -0.49980981
+    N: -54.49615972
+    O: -74.9554248
+  wb97x-d/aug-cc-pvtz:
+    C: -37.842149
+    H: -0.502803
+    N: -54.585652
+    O: -75.068641
+
+# Atom energy corrections to reach gas-phase reference state
+# Experimental enthalpy of formation at 0 K, 1 bar for gas phase
+# See Gaussian thermo whitepaper at http://gaussian.com/thermo/
+# Note: These values are relatively old and some improvement may be possible by using newer values
+# (particularly for carbon).
+# However, care should be taken to ensure that they are compatible with the BAC values (if BACs are used)
+# He, Ne, K, Ca, Ti, Cu, Zn, Ge, Br, Kr, Rb, Ag, Cd, Sn, I, Xe, Cs, Hg, and Pb are taken from CODATA
+# Codata: Cox, J. D., Wagman, D. D., and Medvedev, V. A., CODATA Key Values for Thermodynamics, Hemisphere
+# Publishing Corp., New York, 1989. (http://www.science.uwaterloo.ca/~cchieh/cact/tools/thermodata.html)
+atom_hf:
+  Ag: 66.61
+  Al: 78.23
+  B: 136.2
+  Be: 76.48
+  Br: 25.26
+  C: 169.98
+  Ca: 41.014
+  Cd: 25.24
+  Cl: 28.59
+  Cs: 16.8
+  Cu: 79.16
+  F: 18.47
+  Ge: 87.1
+  H: 51.63
+  He: -1.481
+  Hg: 13.19
+  I: 24.04
+  K: 36.841
+  Kr: -1.481
+  Li: 37.69
+  Mg: 34.87
+  N: 112.53
+  Na: 25.69
+  Ne: -1.481
+  O: 58.99
+  P: 75.42
+  Pb: 15.17
+  Rb: 17.86
+  S: 65.66
+  Si: 106.6
+  Sn: 70.5
+  Ti: 111.2
+  Xe: -1.481
+  Zn: 29.685
+
+# Thermal contribution to enthalpy for the atoms reported by Gaussian thermo whitepaper
+# This will be subtracted from the corresponding value in atom_hf to produce an enthalpy used in calculating
+# the enthalpy of formation at 298 K
+atom_thermal:
+  Ag: 1.481
+  Al: 1.08
+  B: 0.29
+  Be: 0.46
+  Br: 1.481
+  C: 0.25
+  Ca: 1.481
+  Cd: 1.481
+  Cl: 1.1
+  Cs: 1.481
+  Cu: 1.481
+  F: 1.05
+  Ge: 1.768
+  H: 1.01
+  He: 1.481
+  Hg: 1.481
+  I: 1.481
+  K: 1.481
+  Kr: 1.481
+  Li: 1.1
+  Mg: 1.19
+  N: 1.04
+  Na: 1.54
+  Ne: 1.481
+  O: 1.04
+  P: 1.28
+  Pb: 1.481
+  Rb: 1.481
+  S: 1.05
+  Si: 0.76
+  Sn: 1.485
+  Ti: 1.802
+  Xe: 1.481
+  Zn: 1.481
