@@ -21,6 +21,3 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""Made up"""
 )
-
-
-

@@ -4,7 +4,9 @@
 name = "Surface_Adsorption_Dissociative/groups"
 shortDesc = u""
 longDesc = u"""
-Dissociative adsorption of a gas-phase species onto the surface. The single-bond in the gas-phase species is split; the resulting fragments each are singled bonded to the surface.
+Dissociative adsorption of a gas-phase species onto the surface. The single-bond
+in the gas-phase species is split; the resulting fragments each are singled
+bonded to the surface.
 
  *1-*2               *1      *2
              ---->    |       |
@@ -13,9 +15,12 @@ Dissociative adsorption of a gas-phase species onto the surface. The single-bond
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m2) * (mol/m3)
 so k should be in (m5/mol2/s). We will use sticking coefficients.
+
+For now, so there aren't duplicate reactions, the heavy atom will match *1
 """
 
-template(reactants=["Adsorbate", "VacantSite1", "VacantSite2"], products=["Adsorbed1", "Adsorbed2"], ownReverse=False)
+template(reactants=["Adsorbate", "VacantSite1", "VacantSite2"],
+         products=["Adsorbed1", "Adsorbed2"], ownReverse=False)
 
 reverse = "Surface_Desorption_Associative"
 
@@ -30,8 +35,8 @@ entry(
     label = "Adsorbate",
     group =
 """
-1 *1 R u0 {2,S}
-2 *2 R u0 {1,S}
+1 *1 R ux px cx {2,S}
+2 *2 R ux px cx {1,S}
 """,
     kinetics = None,
 )
@@ -56,10 +61,141 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 4,
+    label = "H2",
+    group =
+"""
+1 *1 H u0 p0 c0 {2,S}
+2 *2 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "O",
+    group =
+"""
+1 *1 O u0 p2 c0 {2,S}
+2 *2 R u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "O-H",
+    group =
+"""
+1 *1 O u0 p2 c0 {2,S}
+2 *2 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
+    label = "H2O",
+    group =
+"""
+1 *1 O u0 p2 c0 {2,S} {3,S}
+2 *2 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+# entry(
+#     index = 8,
+#     label = "O-O",
+#     group =
+# """
+# 1 *1 O u0 {2,S}
+# 2 *2 O u0 {1,S}
+# """,
+#     kinetics = None,
+# )
+
+entry(
+    index = 9,
+    label = "O-N",
+    group =
+"""
+1 *1 O u0 p2 c0 {2,S}
+2 *2 N u0 p1 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10,
+    label = "O-C",
+    group =
+"""
+1 *1 O u0 p2 c0 {2,S}
+2 *2 C u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "N",
+    group =
+"""
+1 *1 N u0 px cx {2,S}
+2 *2 R u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 12,
+    label = "N-C",
+    group =
+"""
+1 *1 N u0 p2 c0 {2,S}
+2 *2 C u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "N-H",
+    group =
+"""
+1 *1 N u0 p2 c0 {2,S}
+2 *2 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "C-H",
+    group =
+"""
+1 *1 C u0 p0 c0 {2,S}
+2 *2 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Adsorbate
-
+    L2: H2
+    L2: O
+        L3: O-H
+            L4: H2O
+        L3: O-N
+        L3: O-C
+    L2: N
+        L3: N-C
+        L3: N-H
+    L2: C-H
 L1: VacantSite1
 
 L1: VacantSite2
@@ -176,5 +312,89 @@ forbidden(
     longDesc =
 u"""
 The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
+""",
+)
+
+forbidden(
+    label = "N-O",
+    group =
+"""
+1 *2 O u0 {2,S}
+2 *1 N u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+O should not match to *2 with a less heavy atom
+""",
+)
+
+forbidden(
+    label = "C-O",
+    group =
+"""
+1 *2 O u0 {2,S}
+2 *1 C u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+O should not match to *2 with a less heavy atom
+""",
+)
+
+forbidden(
+    label = "H-O",
+    group =
+"""
+1 *2 O u0 {2,S}
+2 *1 H u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+O should not match to *2 with a less heavy atom
+""",
+)
+
+forbidden(
+    label = "C-N",
+    group =
+"""
+1 *2 N u0 {2,S}
+2 *1 C u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+N should not match to *2 with a less heavy atom
+""",
+)
+
+forbidden(
+    label = "H-N",
+    group =
+"""
+1 *2 N u0 {2,S}
+2 *1 H u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+N should not match to *2 with a less heavy atom
+""",
+)
+
+forbidden(
+    label = "H-C",
+    group =
+"""
+1 *2 C u0 {2,S}
+2 *1 H u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+C should not match to *2 with a less heavy atom
 """,
 )

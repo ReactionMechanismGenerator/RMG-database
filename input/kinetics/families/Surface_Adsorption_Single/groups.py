@@ -44,11 +44,32 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 3,
+    label = "N",
+    group =
+"""
+1 *1 N u1
+""",
+    kinetics = None,
+)
 
+entry(
+    index = 4,
+    label = "N=O",
+    group =
+"""
+1 *1 N u1 p1 c0 {2,D}
+2    O u0 p2 c0 {1,D}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: Adsorbate
+    L2: N
+        L3: N=O
 
 L1: VacantSite
 """
