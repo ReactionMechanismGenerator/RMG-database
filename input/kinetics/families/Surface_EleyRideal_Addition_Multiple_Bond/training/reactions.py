@@ -20,7 +20,8 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Default""",
-    longDesc = u"""E0 is Ea from Xu et al. Doi:10.1021/acscatal.7b03205"""
+    longDesc = u"""E0 is Ea from Xu et al. Doi:10.1021/acscatal.7b03205""",
+    metal = "Co",
 )
 
 entry(
@@ -35,7 +36,8 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Default""",
-    longDesc = u"""E0 is Ea from Xu et al. Doi:10.1021/acscatal.7b03205"""
+    longDesc = u"""E0 is Ea from Xu et al. Doi:10.1021/acscatal.7b03205""",
+    metal = "Co",
 )
 
 entry(
@@ -50,7 +52,8 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Default""",
-    longDesc = u"""E0 is Ea from Xu et al. Doi:10.1021/acscatal.7b03205"""
+    longDesc = u"""E0 is Ea from Xu et al. Doi:10.1021/acscatal.7b03205""",
+    metal = "Co",
 )
 
 entry(
@@ -65,5 +68,6 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Default""",
-    longDesc = u"""Same as *C6.  E0 is Ea from Xu et al. Doi:10.1021/acscatal.7b03205"""
+    longDesc = u"""Same as *C6.  E0 is Ea from Xu et al. Doi:10.1021/acscatal.7b03205""",
+    metal = "Co",
 )

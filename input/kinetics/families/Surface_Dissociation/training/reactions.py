@@ -25,7 +25,8 @@ entry(
     Experimental and microkinetic modeling of steady-state NO reduction by H2 on Pt/BaO/Al2O3 monolith catalysts
     Xu, Clayton, Balakotaiah, Harold et al.
     doi: 10.1016.j.apcatb.2007.08.008
-"""
+""",
+    metal = "Pt",
 )
 
 entry(
@@ -45,9 +46,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R4
-
-metal = 'Ni'
-"""
+""",
+    metal = "Ni",
 )
 
 entry(
@@ -66,7 +66,8 @@ entry(
     longDesc = u"""
 Reaction 10 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -88,7 +89,8 @@ entry(
     doi: 10.1016/j.ces.2011.07.007
 
     This is R9
-    """
+""",
+    metal = "Ni",
 )
 
 entry(
@@ -109,7 +111,8 @@ entry(
     doi: 10.1016/j.ces.2011.07.007
 
     This is R11
-    """
+""",
+    metal = "Ni",
 )
 
 entry(
@@ -129,9 +132,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R16
-
-metal = 'Ni'
-"""
+""",
+	metal = "Ni",
 )
 
 
@@ -152,9 +154,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R18
-
-metal = 'Ni'
-"""
+""",
+	metal = "Ni",
 )
 
 #Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R20.
@@ -175,9 +176,8 @@ metal = 'Ni'
 #"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 #Delgado et al
 #Catalysts, 2015, 5, 871-904. Reaction R19
-#
-# metal = 'Cu'
-#"""
+#""",
+#    metal = "Ni"
 #)
 
 entry(
@@ -197,9 +197,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R20
-
-metal = 'Ni'
-"""
+""",
+	metal = "Ni",
 )
 
 entry(
@@ -218,7 +217,8 @@ entry(
     longDesc = u"""
 Reaction 28 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -237,7 +237,8 @@ entry(
     longDesc = u"""
 Reaction 32 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -257,9 +258,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R32
-
-metal = 'Ni'
-"""
+""",
+	metal = "Ni",
 )
 
 entry(
@@ -278,7 +278,8 @@ entry(
     longDesc = u"""
 Reaction 15 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -295,9 +296,11 @@ entry(
     rank = 10,
     shortDesc = u"""Default""",
     longDesc = u"""
-Reaction 36 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
-and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+Delgado et al
+Catalysts, 2015, 5, 871-904. Reaction R4
+""",
+	metal = "Ni",
 )
 
 entry(
@@ -317,9 +320,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R8
-
-metal = 'Ni'
-"""
+""",
+	metal = "Ni",
 )
 
 entry(
@@ -338,5 +340,6 @@ entry(
     longDesc = u"""
 Reaction 26 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )

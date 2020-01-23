@@ -26,7 +26,8 @@ From Xu et al. Doi:10.1021/acscatal.7b03205
 
 Given Ea = 59.33 kJ/mol, and fwd rate of 1.22e4/s:
 A = 1.22e4/s / exp(-59.33 kJ/mol / R / 353 K) = 7.336e12/s
-"""
+""",
+    metal = "Co"
 )
 
 entry(
@@ -47,7 +48,8 @@ From Xu et al. Doi:10.1021/acscatal.7b03205
 
 Given Ea = 58.93 kJ/mol, and fwd rate of 1.40e4/s:
 A = 1.40e4/s / exp(-58.93 kJ/mol / R / 353 K) = 7.346e12/s
-"""
+""",
+    metal = "Co"
 )
 
 entry(
@@ -68,5 +70,6 @@ From Xu et al. Doi:10.1021/acscatal.7b03205
 
 Given Ea = 63.31 kJ/mol, and fwd rate of 3.14e3/s:
 A = 3.14e3/s / exp(-63.31 kJ/mol / R / 353 K) = 7.327e12/s
-"""
+""",
+    metal = "Co"
 )

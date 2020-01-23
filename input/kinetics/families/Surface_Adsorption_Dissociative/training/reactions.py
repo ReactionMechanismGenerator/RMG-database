@@ -25,7 +25,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904
-"""
+""",
+    metal = "Ni",
 )
 
 entry(
@@ -47,9 +48,8 @@ entry(
     doi: 10.1016.j.apcatb.2007.08.008
 
     This is R2
-
-    metal = 'Pt'
-"""
+""",
+    metal = "Pt",
 )
 
 # entry(
@@ -71,7 +71,6 @@ entry(
 #     doi: 10.1016.j.apcatb.2007.08.008
 #
 #     This is R6
-#
-#     metal = 'Pt'
-# """
+# """,
+#     metal = "Pt",
 # )

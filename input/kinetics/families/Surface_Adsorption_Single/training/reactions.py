@@ -26,6 +26,6 @@ entry(
     doi: 10.1039/b101968f
 
     This is R48
-    metal = Pt
-    """
+""",
+    metal = "Pt",
 )

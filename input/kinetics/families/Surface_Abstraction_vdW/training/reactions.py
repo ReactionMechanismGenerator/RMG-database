@@ -24,7 +24,8 @@ entry(
     longDesc = u"""
 Reaction 16 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -43,7 +44,8 @@ entry(
     longDesc = u"""
 Reaction 40 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -62,7 +64,8 @@ entry(
     longDesc = u"""
 Reaction 41 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -81,7 +84,8 @@ entry(
     longDesc = u"""
 Reaction 45 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -100,5 +104,6 @@ entry(
     longDesc = u"""
 Reaction 46 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )

@@ -23,7 +23,8 @@ entry(
     longDesc = u"""
 Reaction 43 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )
 
 entry(
@@ -41,5 +42,6 @@ entry(
     longDesc = u"""
 Reaction 44 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-"""
+""",
+    metal = "Cu",
 )

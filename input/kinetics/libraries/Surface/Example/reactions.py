@@ -21,7 +21,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""Made up""",
+	metal = "Ni",
 )
 
 
@@ -36,7 +37,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""Made up""",
+	metal = "Ni",
 )
 
 entry(
@@ -50,7 +52,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""Made up""",
+	metal = "Ni",
 )
 
 entry(
@@ -64,7 +67,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""Made up""",
+	metal = "Ni",
 )
 
 
@@ -79,7 +83,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""Made up""",
+	metal = "Ni",
 )
 
 
@@ -94,7 +99,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""Made up""",
+	metal = "Ni",
 )
 
 
@@ -110,7 +116,6 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""Made up""",
+	metal = "Ni",
 )
-
-
