@@ -30,7 +30,7 @@ Ea made up.
 CFG: I bumped the prefactor from E13 to E15. The Delgado mechanism has pre-exponential factors 
 on the order of 1E17 for H abstraction. This rule is specific for non-H abstraction. 
 There is no instance of non-H abstraction in Delgado, so I reduced it from 1E17 to 1E15. Completely arbitrary!
-    """
+    """,
 )
 
 entry(

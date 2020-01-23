@@ -23,7 +23,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R1"""
+    longDesc = u"""R1""",
+	metal = "Ni",
 )
 
 #skip R2 - reverse included
@@ -40,7 +41,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R3"""
+    longDesc = u"""R3""",
+	metal = "Ni",
 )
 
 #skip R4
@@ -61,7 +63,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R9 """
+    longDesc = u"""R9 """,
+	metal = "Ni",
 )
 
 #skip R10
@@ -82,7 +85,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R14. Deutschmann actually uses vdW CH4 as product, but we skip it and this reaction as the reverse of our adsorption step"""
+    longDesc = u"""R14. Deutschmann actually uses vdW CH4 as product, but we skip it and this reaction as the reverse of our adsorption step""",
+	metal = "Ni",
 )
 
 #skip R15
@@ -98,7 +102,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R16"""
+#    longDesc = u"""R16""",
+#	 metal = "Ni",
 #)
 
 #skip R17
@@ -114,7 +119,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R18"""
+#    longDesc = u"""R18""",
+#	 metal = "Ni",
 #)
 
 # moved to Surface_Dissociation/training
@@ -129,7 +135,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R19"""
+#    longDesc = u"""R19""",
+#	 metal = "Ni",
 #)
 
 #skip R20
@@ -148,7 +155,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R22. Deutschmann actually goes to vdW CH4, but we'll skip that. We input reverse direction"""
+    longDesc = u"""R22. Deutschmann actually goes to vdW CH4, but we'll skip that. We input reverse direction""",
+	metal = "Ni",
 )
 
 #skip R23
@@ -164,7 +172,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R24"""
+#    longDesc = u"""R24""",
+#	 metal = "Ni",
 #)
 
 #skip R25
@@ -180,7 +189,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R26"""
+#    longDesc = u"""R26""",
+#	 metal = "Ni",
 #)
 
 #moved R27 to Surface_Abstraction/training
@@ -195,7 +205,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R27"""
+#    longDesc = u"""R27""",
+#	 metal = "Ni",
 #)
 
 #skip R28
@@ -213,7 +224,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R30. Deutschmann actually goes to vdW H2O, but we'll skip that. We input reverse direction"""
+    longDesc = u"""R30. Deutschmann actually goes to vdW H2O, but we'll skip that. We input reverse direction""",
+	metal = "Ni",
 )
 
 #skip R31
@@ -229,7 +241,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R32"""
+#    longDesc = u"""R32""",
+#	 metal = "Ni",
 #)
 
 #since vdW is not yet functioning, we include this reaction in library
@@ -244,7 +257,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R33"""
+    longDesc = u"""R33""",
+	metal = "Ni",
 )
 
 #skip R34 vdW
@@ -263,7 +277,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R36"""
+    longDesc = u"""R36""",
+	metal = "Ni",
 )
 
 #skip R37
@@ -280,7 +295,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R38"""
+    longDesc = u"""R38""",
+	metal = "Ni",
 )
 
 #since vdW is not yet functioning, we include this reaction in library
@@ -295,7 +311,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R39 is used instead of R40 to avoid having CO2(s) as reactant"""
+    longDesc = u"""R39 is used instead of R40 to avoid having CO2(s) as reactant""",
+	metal = "Ni",
 )
 
 #skip R40
@@ -312,7 +329,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R41. Deutschmann actually uses vdW CO2, but we skip it and use reverse reaction"""
+    longDesc = u"""R41. Deutschmann actually uses vdW CO2, but we skip it and use reverse reaction""",
+	metal = "Ni",
 )
 
 
@@ -330,7 +348,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R44"""
+#    longDesc = u"""R44""",
+#	 metal = "Ni",
 #)
 
 #skip R45
@@ -347,7 +366,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R46"""
+    longDesc = u"""R46""",
+	metal = "Ni",
 )
 
 
@@ -364,7 +384,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R48"""
+#    longDesc = u"""R48""",
+#	 metal = "Ni",
 #)
 
 #skip R49
@@ -382,7 +403,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R50"""
+    longDesc = u"""R50""",
+	metal = "Ni",
 )
 
 #similar to R38. curious O-insertion
@@ -398,6 +420,6 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R52"""
+    longDesc = u"""R52""",
+	metal = "Ni",
 )
-
