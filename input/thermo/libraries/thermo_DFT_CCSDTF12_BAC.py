@@ -3760,3 +3760,202 @@ H       0.41988100    1.88603900    1.30686400
 H      -1.26439600    1.31769600    1.27256600
 """,
 )
+
+entry(
+    index = 145,
+    label = "cyanoisopropanol",
+    molecule =
+"""
+1  O u0 p2 c0 {3,S} {13,S}
+2  N u0 p1 c0 {6,T}
+3  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+5  C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+6  C u0 p0 c0 {2,T} {3,S}
+7  H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79905,0.0147559,0.000193632,-5.5562e-07,4.71803e-10,-17325,11.435],
+                           Tmin=(10,'K'), Tmax=(406.456,'K')),
+            NASAPolynomial(coeffs=[4.70095,0.0398378,-2.42495e-05,7.29483e-09,-8.56322e-13,-17678.8,4.44523],
+                           Tmin=(406.456,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-144.044,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (295.164,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Calculated by A. Grinberg Dana using ARC 1.1.0
+
+Conformers:       apfd/def2svp
+Optimization:     wb97xd/def2tzvp (using a fine grid)
+Frequencies:      wb97xd/def2tzvp
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      wb97xd/def2tzvp
+
+Bond corrections: {'H-O': 1, 'C-H': 6, 'C-O': 1, 'C#N': 1, 'C-C': 3}
+1D rotors:
+pivots: [3, 4], dihedral: [2, 3, 4, 7], rotor symmetry: 1, max scan energy: 9.40 kJ/mol
+pivots: [3, 5], dihedral: [2, 3, 5, 8], rotor symmetry: 3, max scan energy: 14.17 kJ/mol
+pivots: [3, 6], dihedral: [2, 3, 6, 11], rotor symmetry: 3, max scan energy: 15.56 kJ/mol
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+N       2.68045600   -0.50225400   -0.32595600
+C       1.57982700   -0.28284100   -0.08843700
+C       0.16234000    0.03467500    0.22573700
+O      -0.00746200    0.07786300    1.62802000
+C      -0.73064500   -1.09059200   -0.28132800
+C      -0.19527800    1.37449300   -0.41778200
+H       0.53821600    0.77896900    1.99217000
+H      -0.46331600   -2.02927600    0.20126400
+H      -0.63198700   -1.20316300   -1.36043400
+H      -1.76548300   -0.85004700   -0.03787000
+H      -0.07529900    1.33167600   -1.50044600
+H       0.44526200    2.17116500   -0.03559000
+H      -1.23294300    1.60944800   -0.18059000
+""",
+)
+
+entry(
+    index = 146,
+    label = "methanediol",
+    molecule =
+"""
+1 O u0 p2 c0 {3,S} {6,S}
+2 O u0 p2 c0 {3,S} {7,S}
+3 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 H u0 p0 c0 {3,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92739,0.00397483,6.56102e-05,-1.2376e-07,6.75141e-11,-48280.5,6.35739],
+                           Tmin=(10,'K'), Tmax=(639.758,'K')),
+            NASAPolynomial(coeffs=[4.46055,0.0193316,-1.42176e-05,5.09053e-09,-6.8174e-13,-48731.2,1.03399],
+                           Tmin=(639.758,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-401.461,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (149.66,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Calculated by A. Grinberg Dana using ARC 1.1.0
+
+Conformers:       apfd/def2svp
+Optimization:     wb97xd/def2tzvp (using a fine grid)
+Frequencies:      wb97xd/def2tzvp
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      wb97xd/def2tzvp
+
+Bond corrections: {'H-O': 2, 'C-H': 2, 'C-O': 2}
+1D rotors:
+pivots: [1, 2], dihedral: [4, 1, 2, 3], rotor symmetry: 1, max scan energy: 16.39 kJ/mol
+pivots: [2, 3], dihedral: [1, 2, 3, 7], rotor symmetry: 1, max scan energy: 16.39 kJ/mol
+
+External symmetry: 2, optical isomers: 2
+
+Geometry:
+O      -0.94490700   -0.51883200    0.46328300
+C       0.02452000    0.39447900    0.03976700
+O      -0.51773300    1.62734000   -0.33347400
+H      -1.54032300   -0.68571800   -0.27093200
+H       0.71714800    0.49105600    0.88040200
+H       0.56398300    0.03745500   -0.84184600
+H      -0.94684400    2.01079700    0.43481500
+""",
+)
+
+entry(
+    index = 147,
+    label = "iC3H6CNOO",
+    molecule =
+"""
+multiplicity 2
+1  O u1 p2 c0 {2,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  N u0 p1 c0 {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {5,D}
+5  C u0 p0 c0 {4,D} {6,S} {7,S}
+6  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+7  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
+8  H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {7,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.27201,0.0640735,-0.000120937,1.65836e-07,-9.26395e-11,67520.2,12.7741], Tmin=(10,'K'), Tmax=(537.94,'K')),
+            NASAPolynomial(coeffs=[4.9458,0.0404352,-2.38144e-05,6.79624e-09,-7.53272e-13,67502.1,7.24198], Tmin=(537.94,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (561.349,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (299.321,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Calculated by A. Grinberg Dana using ARC 1.1.0
+
+Conformers:       apfd/def2svp
+Optimization:     wb97xd/def2tzvp (using a fine grid)
+Frequencies:      wb97xd/def2tzvp
+Single point:     ccsd(t)-f12/cc-pvtz-f12
+Rotor scans:      wb97xd/def2tzvp
+
+! This species is predicted to be relatively stable by RMG's GAV (see RMG-Py/issues/1877),
+! where in fact it is very high in energy.
+! This species has a relatively shallow well, where a torsion mode about pivots 2-3 cause it to fall apart
+! into iC3H6C[N] and O2. THis mode was hence treated here a vibration instead of internal rotation.
+! Although calculated at a relatively high level, this entry primarily functions to alert RMG that the thermo is high
+! and that these species shouldn't normally be included in the core
+! (so a lower calculation level would have also been suffice).
+
+Bond corrections: {'C-H': 6, 'C=C': 1, 'O-O': 1, 'N-O': 1, 'C-C': 2, 'C=N': 1}
+
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: inconsistent scan
+pivots: [5, 6], dihedral: [4, 5, 6, 8], rotor symmetry: 3, max scan energy: 7.17 kJ/mol
+pivots: [5, 7], dihedral: [4, 5, 7, 11], rotor symmetry: 3, max scan energy: 7.18 kJ/mol
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       3.83074800   -0.34645300    0.64712600
+O       2.69031900   -0.49706800    0.13398900
+N       1.96702500   -1.67203000    0.77618000
+C       0.86544400   -1.77688000    0.24401100
+C      -0.32156500   -1.96182400   -0.26491600
+C      -1.52609800   -1.28157800    0.32022600
+C      -0.52134800   -2.86621400   -1.44736700
+H      -2.00435100   -0.65623400   -0.43740300
+H      -1.26981100   -0.65918200    1.17502100
+H      -2.25641100   -2.02992900    0.63733600
+H      -1.21885400   -3.66629500   -1.18794100
+H      -0.95961200   -2.30397000   -2.27536800
+H       0.41224500   -3.31201200   -1.78411800
+""",
+)
