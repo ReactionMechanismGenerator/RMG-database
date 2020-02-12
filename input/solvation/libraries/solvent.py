@@ -8,6 +8,9 @@ Abraham solvent parameters (s_g, b_g, e_g, l_g, a_g, c_g) are from:
 Jalan, Amrit. (2014). Predictive kinetic modeling of low-temperature hydrocarbon oxidation (Doctoral dissertation).
 Cambridge, MA: Massachusetts Institute of Technology.
 
+'name_in_coolprop' represents the solvent's name used in the external package CoolProp. CoolProp is used for
+fluid property calculation. If the solvent is not available in CoolProp, 'name_in_coolprop' is set to None.
+
 Reference legend:
 [Abraham2012] The hydrogen bond properties of water from 273 K to 573 K; equations for the prediction of gas-water partition coefficients Michael H. Abraham and William E. Acree Jr Phys. Chem. Chem. Phys., 2012,14, 7433–7440
 [Abraham2016] Equations for the Partition of Neutral Molecules, Ionsand Ionic Species from Water to Water–MethanolMixtures Michael H. Abraham and William E. Acree Jr J Solution Chem (2016) 45:861–874
@@ -40,6 +43,7 @@ entry(
         alpha = 0.353,
         beta = 0.38,
         eps = 80.4,
+        name_in_coolprop = "water",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -73,6 +77,7 @@ entry(
         alpha = 0.328,
         beta = 0.45,
         eps = 10.3,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -107,6 +112,7 @@ entry(
         alpha = 0,
         beta = 0.14,
         eps = 2.3,
+        name_in_coolprop = "benzene",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -140,6 +146,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        name_in_coolprop = "CycloHexane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -173,6 +180,7 @@ entry(
         alpha = 0,
         beta = 0.45,
         eps = 3.1,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -206,6 +214,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        name_in_coolprop = "Octane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -239,6 +248,7 @@ entry(
         alpha = 0.37,
         beta = 0.48,
         eps = 17.8,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -272,6 +282,7 @@ entry(
         alpha = 0,
         beta = 0.05,
         eps = 2.23,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -305,6 +316,7 @@ entry(
         alpha = 0.15,
         beta = 0.02,
         eps = 4.8,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -338,6 +350,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        name_in_coolprop = "decane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -371,6 +384,7 @@ entry(
         alpha = 0.1,
         beta = 0.105,
         eps = 10.7,
+        name_in_coolprop = "Dichloroethane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -404,6 +418,7 @@ entry(
         alpha = 0,
         beta = 0.73,
         eps = 36.7,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -437,6 +452,7 @@ entry(
         alpha = 0,
         beta = 0.88,
         eps = 46.7,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -471,6 +487,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        name_in_coolprop = "Dodecane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -504,6 +521,7 @@ entry(
         alpha = 0.37,
         beta = 0.48,
         eps = 24.3,
+        name_in_coolprop = "ethanol",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -537,6 +555,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 1.9,
+        name_in_coolprop = "Heptane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -570,6 +589,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.08,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -603,6 +623,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        name_in_coolprop = "Hexane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -636,6 +657,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 1.94,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -669,6 +691,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        name_in_coolprop = "nonane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -702,6 +725,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 1.8,
+        name_in_coolprop = "Pentane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -735,6 +759,7 @@ entry(
         alpha = 0,
         beta = 0.14,
         eps = 2.2,
+        name_in_coolprop = "toluene",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -768,6 +793,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        name_in_coolprop = "Undecane",
     ),
     shortDesc = u""" """,
     longDesc =
@@ -801,6 +827,7 @@ entry(
         alpha = 0.04,
         beta = 0.33,
         eps = 37.5,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -834,6 +861,7 @@ entry(
         alpha = 0,
         beta = 0.45,
         eps = 6.0,
+        name_in_coolprop = None,
     ),
     shortDesc = u""" """,
     longDesc =
@@ -872,6 +900,7 @@ entry(
         beta = None,
         # Dielectric constant
         eps = 33.0,
+        name_in_coolprop = "Methanol",
     ),
     shortDesc = u"""[Abraham2012], [Mohsen-Nia2012]""",
     longDesc =
@@ -911,6 +940,7 @@ entry(
         beta = None,
         # Dielectric constant
         eps = 50.22,
+        name_in_coolprop = None,
     ),
     shortDesc = u"""[Abraham2016], [Mohsen-Nia2012]""",
     longDesc =
@@ -950,6 +980,7 @@ entry(
         beta = None,
         # Dielectric constant
         eps = 60.61,
+        name_in_coolprop = None,
     ),
     shortDesc = u"""[JIRKAL2016], [Gagliardi2007]""",
     longDesc =
@@ -989,6 +1020,7 @@ entry(
         beta = None,
         # Dielectric constant
         eps = 51.05,
+        name_in_coolprop = None,
     ),
     shortDesc = u"""[JIRKAL2016], [Gagliardi2007]""",
     longDesc =
