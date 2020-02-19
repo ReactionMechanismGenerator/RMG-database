@@ -19,6 +19,9 @@ template(reactants=["Adsorbate", "VacantSite"], products=["Adsorbed"], ownRevers
 
 reverse = "Surface_Desorption_vdW"
 
+reactantNum=2
+productNum=1
+
 recipe(actions=[
     ['FORM_BOND', '*1', 0, '*2']
 ])

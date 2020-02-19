@@ -24,6 +24,9 @@ template(reactants=["Adsorbate", "VacantSite1", "VacantSite2"],
 
 reverse = "Surface_Desorption_Associative"
 
+reactantNum=3
+productNum=2
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],
