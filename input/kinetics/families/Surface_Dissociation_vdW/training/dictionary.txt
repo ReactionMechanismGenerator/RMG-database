@@ -81,7 +81,7 @@ CH2OH*
 5    H u0 p0 c0 {1,S}
 6 *3 X u0 p0 c0 {2,S}
 
-CH3OH*
+CH3OH_1*
 1    O u0 p2 c0 {2,S} {6,S}
 2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 *2 H u0 p0 c0 {2,S}
@@ -102,3 +102,20 @@ NH2_X
 2    H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
 4 *3 X u0 p0 c0 {1,S}
+
+CH3O*
+1    C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 *1 O u0 p2 c0 {1,S} {3,S}
+3 *3 X u0 p0 c0 {2,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
+
+CH3OH_2*
+1 *1 O u0 p2 c0 {2,S} {6,S}
+2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+6 *2 H u0 p0 c0 {1,S}
+7 *3 X u0 p0 c0

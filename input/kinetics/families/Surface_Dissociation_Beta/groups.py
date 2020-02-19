@@ -35,8 +35,8 @@ entry(
     label = "Adsorbate1",
     group =
 """
-1 *1 Xo   ux p0 c0 {2,S}
-2 *2 R!H ux px cx {1,S} {3,[D,T]}
+1 *1 Xo   ux p0 c0 {2,[S,D]}
+2 *2 R!H ux px cx {1,[S,D]} {3,[D,T]}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
     kinetics = None,
@@ -55,11 +55,11 @@ entry(
 
 entry(
     index = 3,
-    label = "C",
+    label = "*C",
     group =
 """
-1 *1 Xo   ux p0 c0 {2,S}
-2 *2 C   ux px cx {1,S} {3,[D,T]}
+1 *1 Xo   ux p0 c0 {2,[S,D]}
+2 *2 C   ux px cx {1,[S,D]} {3,[D,T]}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
     kinetics = None,
@@ -67,7 +67,7 @@ entry(
 
 entry(
     index = 4,
-    label = "C=",
+    label = "*-C=",
     group =
 """
 1 *1 Xo   ux p0 c0 {2,S}
@@ -80,7 +80,7 @@ entry(
 
 entry(
     index = 5,
-    label = "C=O",
+    label = "*-C=O",
     group =
 """
 1 *1 Xo ux p0 c0 {2,S}
@@ -92,7 +92,7 @@ entry(
 
 entry(
     index = 6,
-    label = "C=C",
+    label = "*-C=C",
     group =
 """
 1 *1 Xo ux p0 c0 {2,S}
@@ -104,7 +104,7 @@ entry(
 
 entry(
     index = 7,
-    label = "C#",
+    label = "*-C#",
     group =
 """
 1 *1 Xo ux p0 c0 {2,S}
@@ -147,14 +147,66 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 11,
+    label = "*-C",
+    group =
+"""
+1 *1 Xo  ux p0 c0 {2,S}
+2 *2 C   ux px cx {1,S} {3,[D,T]}
+3 *3 R!H ux px cx {2,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 12,
+    label = "*=C",
+    group =
+"""
+1 *1 Xo  ux p0 c0 {2,D}
+2 *2 C   ux px cx {1,D} {3,D}
+3 *3 R!H ux px cx {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "*=C=C",
+    group =
+"""
+1 *1 Xo ux p0 c0 {2,D}
+2 *2 C  ux px cx {1,D} {3,D}
+3 *3 C  ux px cx {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "*=C=O",
+    group =
+"""
+1 *1 Xo u0 p0 c0 {2,D}
+2 *2 C  u0 px c0 {1,D} {3,D}
+3 *3 O  u0 p2 c0 {2,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Adsorbate1
-    L2: C
-        L3: C=
-            L4: C=O
-            L4: C=C
-        L3: C#
+    L2: *C
+        L3: *-C
+            L4: *-C=
+                L5: *-C=O
+                L5: *-C=C
+            L4: *-C#
+        L3: *=C
+            L4: *=C=C
+            L4: *=C=O
 L1: Adsorbate2
     L2: H-*
     L2: O-*

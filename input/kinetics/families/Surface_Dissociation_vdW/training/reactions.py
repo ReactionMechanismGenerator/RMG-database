@@ -88,6 +88,25 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 )
 
 entry(
+    index = 25,
+    label = "CH3O* + H* <=> CH3OH_2* + Cu4",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A=(1.28e18, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea=(10.8384576, 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 25 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
+"""
+)
+
+entry(
     index = 30,
     label = "HCO* + H* <=> CH2O* + Cu4",
     degeneracy = 1,
@@ -108,7 +127,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 entry(
     index = 33,
-    label = "CH2OH* + H* <=> CH3OH* + Cu4",
+    label = "CH2OH* + H* <=> CH3OH_1* + Cu4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A=(5.242e12, 'm^2/(mol*s)'),

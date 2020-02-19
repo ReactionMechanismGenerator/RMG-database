@@ -25,3 +25,21 @@ Reaction 43 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 """
 )
+
+entry(
+    index = 44,
+    label = "CH2O* + HCO* <=> CH3O* + CO*",
+    kinetics = SurfaceArrhenius(
+        A = (1.0e13, 'm^2/(mol*s)'),
+        n = 0,
+        Ea = (0.0, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 44 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
+"""
+)

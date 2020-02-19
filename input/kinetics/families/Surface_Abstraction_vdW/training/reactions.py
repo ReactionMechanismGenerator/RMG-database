@@ -48,7 +48,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 entry(
     index = 41,
-    label = "HCOO* + HCO* <=> HCOOH* + CO*",
+    label = "HCOO_1* + HCO* <=> HCOOH* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A = (2.2e14, 'm^2/(mol*s)'),
@@ -80,6 +80,25 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Reaction 45 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
+"""
+)
+
+entry(
+    index = 46,
+    label = "CH3O* + HCOO_5* <=> HCOOCH3* + O*",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A = (6.934e11, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea = (28.5950795, 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 46 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 """
 )
