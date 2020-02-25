@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 Br u0 p3 c0 {2,S}
+    2 O  u1 p2 c0 {1,S}
+  formula: BrO
+  inchi: InChI=1S/BrO/c1-2
+  inchi_key: FMSOWMGJJIHFTQ-UHFFFAOYSA-N
+  label: Bromine monoxide
+  smiles: '[O]Br'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 95.90340463430486
+  multiplicity: 2
+  symmetry_number: 1.0
+RMG_version: 3.0.0
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+index: 37
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.28
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 123.61
+      class: ThermoData

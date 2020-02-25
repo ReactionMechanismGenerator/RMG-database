@@ -1,0 +1,35 @@
+Identifiers:
+  adjacency_list: |
+    1 O u0 p2 c0 {2,D}
+    2 C u0 p1 c-1 {1,D} {3,S}
+    3 H u0 p0 c0 {2,S}
+  formula: CHO
+  inchi: InChI=1S/CHO/c1-2/h1H/q-1
+  inchi_key: CKJNUZNMWOVDFN-UHFFFAOYSA-N
+  label: Formyl anion
+  smiles: '[C-]=O'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 29.01804166208662
+  multiplicity: 1
+  symmetry_number: 1.0
+RMG_version: 3.0.0
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+index: 44
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.44
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 12.02
+      class: ThermoData

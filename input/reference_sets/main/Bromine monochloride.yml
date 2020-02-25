@@ -1,0 +1,34 @@
+Identifiers:
+  adjacency_list: |
+    1 Br u0 p3 c0 {2,S}
+    2 Cl u0 p3 c0 {1,S}
+  formula: BrCl
+  inchi: InChI=1S/BrCl/c1-2
+  inchi_key: CODNYICXDISAEA-UHFFFAOYSA-N
+  label: Bromine monochloride
+  smiles: ClBr
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 115.35700631174122
+  multiplicity: 1
+  symmetry_number: 1.0
+RMG_version: 3.0.0
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+index: 40
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.06
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 14.439
+      class: ThermoData

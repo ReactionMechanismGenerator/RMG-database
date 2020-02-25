@@ -1,0 +1,36 @@
+Identifiers:
+  adjacency_list: |
+    1 C u0 p1 c-1 {2,S} {3,S} {4,S}
+    2 H u0 p0 c0 {1,S}
+    3 H u0 p0 c0 {1,S}
+    4 H u0 p0 c0 {1,S}
+  formula: CH3
+  inchi: InChI=1S/CH3/h1H3/q-1
+  inchi_key: LGRLWUINFJPLSH-UHFFFAOYSA-N
+  label: Methanide
+  smiles: '[CH-]'
+Properties:
+  charge: -1
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 15.034521442196064
+  multiplicity: 1
+  symmetry_number: 3.0
+RMG_version: 3.0.0
+calculated_data: {}
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+index: 16
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.3
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 137.63
+      class: ThermoData
