@@ -21,9 +21,88 @@ Properties:
   multiplicity: 1
   symmetry_number: 3.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -501104869.57751966
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -29.984355753810245
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 63.61444501720598
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 193.8
+        - 247.2
+        - 457.3
+        - 930.6
+        - 1085.3
+        - 1169.9
+        - 1211.6
+        - 1386.2
+        - 1446.0
+        - 1457.7
+        - 1502.2
+        - 3037.2
+        - 3107.4
+        - 3143.9
+        - 3783.5
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1205607674
+          - -0.2235110839
+          - -0.02177792929999999
+        - - -0.0232868127
+          - 0.6058374044999999
+          - 0.0196519981
+        - - -1.1528679801
+          - -0.2709957902
+          - 0.10156960839999998
+        - - 1.9653913880999996
+          - 0.4643050459
+          - -0.0251862182
+        - - 1.135238238
+          - -0.8357771916
+          - -0.9265516916
+        - - 1.1680016381
+          - -0.8640358105
+          - 0.8603009226999999
+        - - -1.5827575261
+          - -0.1021584549
+          - -0.7476682889
+      isotopes:
+      - 12
+      - 16
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - O
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 169
 is_ts: false
 reference_data:
@@ -35,5 +114,5 @@ reference_data:
         uncertainty: 0.76
         uncertainty_type: +|-
         units: kJ/mol
-        value: -127.85000000000001
+        value: -127.85000000000004
       class: ThermoData

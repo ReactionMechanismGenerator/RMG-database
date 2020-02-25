@@ -23,9 +23,104 @@ Properties:
   multiplicity: 1
   symmetry_number: 2.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -1451845253.7150178
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 25.405000952062437
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 66.25894652196845
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 466.1
+        - 583.2
+        - 621.6
+        - 716.6
+        - 738.1
+        - 774.6
+        - 864.2
+        - 893.4
+        - 914.7
+        - 948.2
+        - 1061.7
+        - 1099.7
+        - 1103.4
+        - 1285.5
+        - 1411.3
+        - 1460.5
+        - 1580.7
+        - 3224.6
+        - 3238.0
+        - 3264.7
+        - 3267.7
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1830525139
+          - 4.168e-07
+          - 0.0
+        - - -0.0037739364
+          - 1.229481868
+          - 0.0
+        - - -1.2621810479
+          - 0.7112280911999997
+          - 0.0
+        - - -1.2621801025
+          - -0.7112289158
+          - 0.0
+        - - -0.0037721477
+          - -1.2294812462
+          - 0.0
+        - - 0.2869417124
+          - 2.2673991308
+          - 0.0
+        - - -2.1556431756
+          - 1.3181165023
+          - 0.0
+        - - -2.1556389586
+          - -1.3181224499999997
+          - 0.0
+        - - 0.2869436075
+          - -2.267398635
+          - 0.0
+      isotopes:
+      - 32
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 283
 is_ts: false
 reference_data:

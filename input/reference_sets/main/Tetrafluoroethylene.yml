@@ -1,11 +1,11 @@
 Identifiers:
   adjacency_list: |
-    1 F u0 p3 c0 {6,S}
-    2 F u0 p3 c0 {6,S}
-    3 F u0 p3 c0 {5,S}
-    4 F u0 p3 c0 {5,S}
-    5 C u0 p0 c0 {3,S} {4,S} {6,D}
-    6 C u0 p0 c0 {1,S} {2,S} {5,D}
+    1 F u0 p3 c0 {5,S}
+    2 F u0 p3 c0 {5,S}
+    3 F u0 p3 c0 {6,S}
+    4 F u0 p3 c0 {6,S}
+    5 C u0 p0 c0 {1,S} {2,S} {6,D}
+    6 C u0 p0 c0 {3,S} {4,S} {5,D}
   formula: C2F4
   inchi: InChI=1S/C2F4/c3-1(4)2(5)6
   inchi_key: BFKJFAAPBSQJPD-UHFFFAOYSA-N
@@ -20,9 +20,80 @@ Properties:
   multiplicity: 1
   symmetry_number: 4.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -1248712371.337617
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -163.97035142125887
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 71.395646019398
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 203.2
+        - 208.1
+        - 398.4
+        - 423.6
+        - 554.7
+        - 555.2
+        - 577.3
+        - 806.1
+        - 1198.7
+        - 1352.5
+        - 1354.6
+        - 1951.4
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6584384659999999
+          - 3.5171e-06
+          - 4.471e-07
+        - - -0.6584165481
+          - 1.3964299999999998e-05
+          - 4.538e-07
+        - - -1.3838012542
+          - -1.0987585292
+          - 4.791e-07
+        - - -1.3837845951999996
+          - 1.0987973827
+          - 3.358e-07
+        - - 1.383805727
+          - -1.098780469
+          - 3.358e-07
+        - - 1.3838238978
+          - 1.0987754423
+          - 4.786e-07
+      isotopes:
+      - 12
+      - 12
+      - 19
+      - 19
+      - 19
+      - 19
+      symbols:
+      - C
+      - C
+      - F
+      - F
+      - F
+      - F
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 321
 is_ts: false
 reference_data:

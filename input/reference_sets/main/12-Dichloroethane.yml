@@ -22,9 +22,96 @@ Properties:
   multiplicity: 1
   symmetry_number: 2.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -2622766490.389763
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -33.31415520534253
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 71.61746692194478
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 127.8
+        - 217.9
+        - 306.4
+        - 755.8
+        - 777.7
+        - 794.7
+        - 1009.4
+        - 1083.6
+        - 1142.6
+        - 1252.3
+        - 1292.7
+        - 1336.1
+        - 1485.9
+        - 1487.4
+        - 3114.3
+        - 3121.9
+        - 3166.8
+        - 3190.0
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.4888515996
+          - -0.5757086495
+          - 6.11815e-05
+        - - -2.1556517198
+          - 0.070373832
+          - -3.19193e-05
+        - - 0.4888515996
+          - 0.5757086495
+          - 6.11815e-05
+        - - 2.1556517198
+          - -0.070373832
+          - -3.19193e-05
+        - - -0.3736892347
+          - -1.1913629764
+          - 0.8874203689
+        - - -0.3736093123
+          - -1.1914244605
+          - -0.8872447834999998
+        - - 0.3736093123
+          - 1.1914244605
+          - -0.8872447834999998
+        - - 0.3736892347
+          - 1.1913629764
+          - 0.8874203689
+      isotopes:
+      - 12
+      - 35
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - C
+      - Cl
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 228
 is_ts: false
 reference_data:

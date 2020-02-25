@@ -1,15 +1,15 @@
 Identifiers:
   adjacency_list: |
-    1  F u0 p3 c0 {5,S}
-    2  C u0 p0 c0 {3,D} {7,S} {8,S}
-    3  C u0 p0 c0 {2,D} {4,S} {9,S}
-    4  C u0 p0 c0 {3,S} {5,D} {10,S}
-    5  C u0 p0 c0 {1,S} {4,D} {6,S}
+    1  F u0 p3 c0 {2,S}
+    2  C u0 p0 c0 {1,S} {3,D} {7,S}
+    3  C u0 p0 c0 {2,D} {4,S} {8,S}
+    4  C u0 p0 c0 {3,S} {5,D} {9,S}
+    5  C u0 p0 c0 {4,D} {6,S} {10,S}
     6  C u0 p0 c0 {5,S} {7,D} {11,S}
     7  C u0 p0 c0 {2,S} {6,D} {12,S}
-    8  H u0 p0 c0 {2,S}
-    9  H u0 p0 c0 {3,S}
-    10 H u0 p0 c0 {4,S}
+    8  H u0 p0 c0 {3,S}
+    9  H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {5,S}
     11 H u0 p0 c0 {6,S}
     12 H u0 p0 c0 {7,S}
   formula: C6H5F
@@ -26,9 +26,128 @@ Properties:
   multiplicity: 1
   symmetry_number: 2.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -870327498.8356749
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -30.0761704656118
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 71.9764642899071
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 239.5
+        - 406.2
+        - 424.2
+        - 514.3
+        - 524.3
+        - 623.3
+        - 709.8
+        - 781.2
+        - 830.3
+        - 848.4
+        - 929.9
+        - 999.3
+        - 1021.7
+        - 1026.0
+        - 1049.4
+        - 1094.0
+        - 1169.0
+        - 1173.3
+        - 1263.5
+        - 1312.4
+        - 1336.8
+        - 1499.4
+        - 1539.5
+        - 1673.4
+        - 1681.6
+        - 3194.2
+        - 3203.2
+        - 3215.2
+        - 3223.6
+        - 3226.3
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8239588795
+          - 2.786e-06
+          - 0.0
+        - - 1.1285148646
+          - 1.2012836914999998
+          - 0.0
+        - - -0.2589880512
+          - 1.2109129864
+          - 0.0
+        - - -0.9216314357
+          - -2.1989e-06
+          - 0.0
+        - - -0.2589854051
+          - -1.2109154256999999
+          - 0.0
+        - - 1.128517746
+          - -1.2012817307999997
+          - 0.0
+        - - -2.270677204
+          - -3.549999999999999e-08
+          - 0.0
+        - - 2.9057635912
+          - 3.6366e-06
+          - 0.0
+        - - 1.6674434771
+          - 2.1396541668
+          - 0.0
+        - - -0.8264484928999998
+          - 2.1313698765
+          - 0.0
+        - - -0.8264360389
+          - -2.1313786607
+          - 0.0
+        - - 1.6674527114999997
+          - -2.1396493507
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 19
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - F
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 395
 is_ts: false
 reference_data:

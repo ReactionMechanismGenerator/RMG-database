@@ -3,14 +3,14 @@ Identifiers:
     1  S u0 p2 c0 {3,S} {6,S}
     2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
     3  C u0 p0 c0 {1,S} {2,S} {4,D}
-    4  C u0 p0 c0 {3,D} {5,S} {11,S}
-    5  C u0 p0 c0 {4,S} {6,D} {10,S}
+    4  C u0 p0 c0 {3,D} {5,S} {10,S}
+    5  C u0 p0 c0 {4,S} {6,D} {11,S}
     6  C u0 p0 c0 {1,S} {5,D} {12,S}
     7  H u0 p0 c0 {2,S}
     8  H u0 p0 c0 {2,S}
     9  H u0 p0 c0 {2,S}
-    10 H u0 p0 c0 {5,S}
-    11 H u0 p0 c0 {4,S}
+    10 H u0 p0 c0 {4,S}
+    11 H u0 p0 c0 {5,S}
     12 H u0 p0 c0 {6,S}
   formula: C5H6S
   inchi: InChI=1S/C5H6S/c1-5-3-2-4-6-5/h2-4H,1H3
@@ -26,9 +26,128 @@ Properties:
   multiplicity: 1
   symmetry_number: 3.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -1555046755.3157134
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 17.710158563351673
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 74.61377641530274
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 85.2
+        - 233.8
+        - 301.3
+        - 483.6
+        - 556.4
+        - 582.9
+        - 686.4
+        - 718.6
+        - 765.1
+        - 851.2
+        - 870.7
+        - 936.1
+        - 994.7
+        - 1059.1
+        - 1066.1
+        - 1102.6
+        - 1192.5
+        - 1267.7
+        - 1395.7
+        - 1411.4
+        - 1471.1
+        - 1487.0
+        - 1510.5
+        - 1616.4
+        - 3057.4
+        - 3113.4
+        - 3136.3
+        - 3213.6
+        - 3231.1
+        - 3266.5
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.2659752742
+          - 0.10589560579999997
+          - -3.49934e-05
+        - - 0.7741224913
+          - 0.2177272134
+          - 1.1805899999999997e-05
+        - - -0.2311525092
+          - -1.1792151366
+          - 2.87572e-05
+        - - -1.6638539061999995
+          - -0.23947005959999995
+          - -5.56475e-05
+        - - -1.3840053912
+          - 1.0892343578
+          - -9.7714e-06
+        - - 0.0168245923
+          - 1.3488859844999996
+          - 3.69736e-05
+        - - 2.7075381449
+          - 1.101727832
+          - 0.0003842442
+        - - 2.630023326
+          - -0.4240622933
+          - -0.881268297
+        - - 2.6300510593
+          - -0.4248266707
+          - 0.8807262663
+        - - -2.6298166941
+          - -0.7170987379
+          - -7.6939e-05
+        - - -2.1429371341
+          - 1.8579446912
+          - -2.8535e-06
+        - - 0.4492030819999999
+          - 2.3401187529
+          - 8.72605e-05
+      isotopes:
+      - 12
+      - 12
+      - 32
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - S
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 342
 is_ts: false
 reference_data:

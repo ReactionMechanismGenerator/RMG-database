@@ -1,14 +1,14 @@
 Identifiers:
   adjacency_list: |
+    multiplicity 2
     1 C u0 p0 c0 {2,D} {4,S} {5,S}
     2 C u0 p0 c0 {1,D} {3,D}
-    3 C u0 p1 c-1 {2,D} {6,S}
+    3 C u1 p1 c-1 {2,D}
     4 H u0 p0 c0 {1,S}
     5 H u0 p0 c0 {1,S}
-    6 H u0 p0 c0 {3,S}
-  formula: C3H3
-  inchi: InChI=1S/C3H3/c1-3-2/h1H,2H2/q-1
-  inchi_key: XPVBHDCWRJTAOG-UHFFFAOYSA-N
+  formula: C3H2
+  inchi: InChI=1S/C3H2/c1-3-2/h1H2/q-1
+  inchi_key: IODWVKJOHFFJOQ-UHFFFAOYSA-N
   label: 1,2-Propadienyl anion
   smiles: '[C-]=C=C'
 Properties:
@@ -16,13 +16,84 @@ Properties:
   molecular_weight:
     class: ScalarQuantity
     units: amu
-    value: 39.05592359170969
-  multiplicity: 1
+    value: 38.04798346922994
+  multiplicity: 2
   symmetry_number: 2.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -304604470.9245723
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 63.43106429538926
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 58.86744650791334
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 378.4
+        - 468.3
+        - 533.0
+        - 760.0
+        - 851.4
+        - 1030.5
+        - 1124.6
+        - 1447.0
+        - 1922.2
+        - 3105.2
+        - 3107.4
+        - 3165.5
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.232968052
+          - 0.0225637525
+          - 0.0
+        - - 0.1153115621
+          - -0.0062394480999999995
+          - 0.0
+        - - 1.3816980562999999
+          - -0.1482031489
+          - 0.0
+        - - -1.7991584119
+          - 0.025411838399999994
+          - -0.9261587669
+        - - -1.7991584119
+          - 0.025411838399999994
+          - 0.9261587669
+        - - 2.0140681774
+          - 0.7404482170999999
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 151
 is_ts: false
 reference_data:

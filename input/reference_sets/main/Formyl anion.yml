@@ -1,11 +1,11 @@
 Identifiers:
   adjacency_list: |
+    multiplicity 2
     1 O u0 p2 c0 {2,D}
-    2 C u0 p1 c-1 {1,D} {3,S}
-    3 H u0 p0 c0 {2,S}
-  formula: CHO
-  inchi: InChI=1S/CHO/c1-2/h1H/q-1
-  inchi_key: CKJNUZNMWOVDFN-UHFFFAOYSA-N
+    2 C u1 p1 c-1 {1,D}
+  formula: CO
+  inchi: InChI=1S/CO/c1-2/q-1
+  inchi_key: DCMZLVSOPGZIFI-UHFFFAOYSA-N
   label: Formyl anion
   smiles: '[C-]=O'
 Properties:
@@ -13,13 +13,60 @@ Properties:
   molecular_weight:
     class: ScalarQuantity
     units: amu
-    value: 29.01804166208662
-  multiplicity: 1
+    value: 28.010101539606868
+  multiplicity: 2
   symmetry_number: 1.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -298962007.8344512
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.5810905144303162
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 52.78759446577316
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 1326.6
+        - 1425.1
+        - 1842.6
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6011486806
+          - 0.21016364629999998
+          - -0.0
+        - - -0.6052985755
+          - -0.0543176378
+          - -0.0
+        - - 1.2354965207999995
+          - -0.8264407753999998
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - O
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 44
 is_ts: false
 reference_data:

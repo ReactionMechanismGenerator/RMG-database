@@ -3,16 +3,16 @@ Identifiers:
     1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
     2  C u0 p0 c0 {1,S} {3,S} {4,D}
     3  C u0 p0 c0 {2,S} {5,D} {9,S}
-    4  C u0 p0 c0 {2,D} {10,S} {11,S}
-    5  C u0 p0 c0 {3,D} {12,S} {13,S}
+    4  C u0 p0 c0 {2,D} {12,S} {13,S}
+    5  C u0 p0 c0 {3,D} {10,S} {11,S}
     6  H u0 p0 c0 {1,S}
     7  H u0 p0 c0 {1,S}
     8  H u0 p0 c0 {1,S}
     9  H u0 p0 c0 {3,S}
-    10 H u0 p0 c0 {4,S}
-    11 H u0 p0 c0 {4,S}
-    12 H u0 p0 c0 {5,S}
-    13 H u0 p0 c0 {5,S}
+    10 H u0 p0 c0 {5,S}
+    11 H u0 p0 c0 {5,S}
+    12 H u0 p0 c0 {4,S}
+    13 H u0 p0 c0 {4,S}
   formula: C5H8
   inchi: InChI=1S/C5H8/c1-4-5(2)3/h4H,1-2H2,3H3
   inchi_key: RRHGJUQNOFWUDK-UHFFFAOYSA-N
@@ -27,9 +27,136 @@ Properties:
   multiplicity: 1
   symmetry_number: 3.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -512679069.2204949
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 19.187243987748936
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 71.83612885138143
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 157.8
+        - 226.7
+        - 285.9
+        - 407.5
+        - 427.1
+        - 533.5
+        - 651.8
+        - 793.7
+        - 801.8
+        - 942.0
+        - 955.4
+        - 967.9
+        - 1008.2
+        - 1034.5
+        - 1066.5
+        - 1085.5
+        - 1318.7
+        - 1338.1
+        - 1406.2
+        - 1433.7
+        - 1452.3
+        - 1473.8
+        - 1493.7
+        - 1692.3
+        - 1745.3
+        - 3051.2
+        - 3104.3
+        - 3141.3
+        - 3154.8
+        - 3158.4
+        - 3168.6
+        - 3239.9
+        - 3247.9
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.646302204
+          - -1.3956354156999997
+          - 4.9362799999999994e-05
+        - - -0.5175141763
+          - 0.09989249699999998
+          - 2.36944e-05
+        - - -1.5830743665
+          - 0.899417151
+          - -7.91872e-05
+        - - 0.8312778125
+          - 0.6844112709999998
+          - 0.0001097763
+        - - 1.9670214037
+          - -0.0055668525
+          - -8.808569999999999e-05
+        - - -1.6930575422999996
+          - -1.6946214471
+          - -0.000173875
+        - - -0.1636643346
+          - -1.8286231475999997
+          - -0.8786732674
+        - - -0.1640599076
+          - -1.8285259995
+          - 0.8790396278
+        - - -2.589760542
+          - 0.5013709482
+          - -0.0001754992
+        - - -1.4740115877
+          - 1.9771740295
+          - -8.01944e-05
+        - - 0.8704930709999998
+          - 1.7696591372
+          - 0.0003259513
+        - - 1.9807544943999997
+          - -1.0883042076
+          - -0.00032128929999999993
+        - - 2.924855532499999
+          - 0.4967587825
+          - -3.48183e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 292
 is_ts: false
 reference_data:
@@ -38,7 +165,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.7000000000000001
+        uncertainty: 0.7000000000000003
         uncertainty_type: +|-
         units: kJ/mol
         value: 75.44

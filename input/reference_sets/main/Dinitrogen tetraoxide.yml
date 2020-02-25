@@ -1,11 +1,11 @@
 Identifiers:
   adjacency_list: |
-    1 O u0 p3 c-1 {6,S}
-    2 O u0 p3 c-1 {5,S}
+    1 O u0 p3 c-1 {5,S}
+    2 O u0 p3 c-1 {6,S}
     3 O u0 p2 c0 {5,D}
     4 O u0 p2 c0 {6,D}
-    5 N u0 p0 c+1 {2,S} {3,D} {6,S}
-    6 N u0 p0 c+1 {1,S} {4,D} {5,S}
+    5 N u0 p0 c+1 {1,S} {3,D} {6,S}
+    6 N u0 p0 c+1 {2,S} {4,D} {5,S}
   formula: N2O4
   inchi: InChI=1S/N2O4/c3-1(4)2(5)6
   inchi_key: WFPZPJSADLPSON-UHFFFAOYSA-N
@@ -20,9 +20,80 @@ Properties:
   multiplicity: 1
   symmetry_number: 2.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -1077097385.3064408
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.3337999748726761
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 72.49506212384779
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 88.4
+        - 269.7
+        - 351.1
+        - 485.0
+        - 544.4
+        - 757.8
+        - 779.4
+        - 865.6
+        - 1349.6
+        - 1472.0
+        - 1828.2
+        - 1864.7
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3127608414
+          - -1.0880721679
+          - 0.0
+        - - 0.8549272279
+          - 0.0008706665
+          - 0.0
+        - - 1.3103984456
+          - 1.0908043638
+          - 0.0
+        - - -0.8547008154999999
+          - -0.0009821621
+          - 0.0
+        - - -1.3101699475
+          - -1.0909160089
+          - 0.0
+        - - -1.3125336038
+          - 1.0879603244
+          - 0.0
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - N
+      - O
+      - O
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 320
 is_ts: false
 reference_data:

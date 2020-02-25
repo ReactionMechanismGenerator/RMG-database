@@ -23,9 +23,104 @@ Properties:
   multiplicity: 1
   symmetry_number: 6.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -309452397.2873341
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 11.716023914784932
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 56.59548491124561
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 743.0
+        - 743.9
+        - 855.7
+        - 899.1
+        - 900.0
+        - 1056.1
+        - 1057.2
+        - 1091.6
+        - 1152.4
+        - 1208.1
+        - 1208.5
+        - 1229.1
+        - 1465.4
+        - 1466.3
+        - 1522.6
+        - 3154.2
+        - 3154.6
+        - 3163.3
+        - 3230.1
+        - 3230.5
+        - 3251.1
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.8283072177
+          - -0.2559218077
+          - 0.0
+        - - -0.19253404789999995
+          - 0.8452002736
+          - 0.0
+        - - -0.6358119104999997
+          - -0.5893307691
+          - 0.0
+        - - 1.3869857034
+          - -0.4283988471
+          - 0.9090861531
+        - - 1.3869857034
+          - -0.4283988471
+          - -0.9090861531
+        - - -0.3223410976
+          - 1.4152999292
+          - 0.9090878793
+        - - -0.3223410976
+          - 1.4152999292
+          - -0.9090878793
+        - - -1.0645283008
+          - -0.9867443866999999
+          - 0.9091148118
+        - - -1.0645283008
+          - -0.9867443866999999
+          - -0.9091148118
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 182
 is_ts: false
 reference_data:
@@ -34,7 +129,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.47000000000000003
+        uncertainty: 0.4700000000000001
         uncertainty_type: +|-
         units: kJ/mol
         value: 53.63

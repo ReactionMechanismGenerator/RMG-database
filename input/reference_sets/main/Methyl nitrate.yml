@@ -22,9 +22,96 @@ Properties:
   multiplicity: 1
   symmetry_number: 3.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -840759314.2536947
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -32.247079989439044
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 68.85448563083428
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 141.8
+        - 216.8
+        - 354.9
+        - 603.8
+        - 698.6
+        - 801.2
+        - 917.4
+        - 1064.5
+        - 1169.7
+        - 1198.3
+        - 1366.5
+        - 1464.9
+        - 1468.2
+        - 1492.9
+        - 1742.1
+        - 3082.2
+        - 3167.9
+        - 3187.0
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.4466473529
+          - -1.2377706362999998
+          - -1.39574e-05
+        - - -0.6097063702
+          - -0.0466539593
+          - -5.229199999999999e-06
+        - - -1.6257953575
+          - 0.5789865278
+          - 2.81526e-05
+        - - 0.5246649707
+          - 0.7534088250999998
+          - -4.50397e-05
+        - - 1.7479816107
+          - 0.0038467002
+          - 2.6809299999999998e-05
+        - - 1.8245118474
+          - -0.6135248514999998
+          - 0.8919082928
+        - - 1.8243230875999998
+          - -0.6140388883
+          - -0.8915100734
+        - - 2.5134419091
+          - 0.7740635207
+          - -0.0002757142
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - N
+      - O
+      - O
+      - C
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 277
 is_ts: false
 reference_data:

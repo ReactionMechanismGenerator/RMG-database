@@ -1,11 +1,11 @@
 Identifiers:
   adjacency_list: |
-    1  C u0 p0 c0 {2,S} {3,D} {8,S}
-    2  C u0 p0 c0 {1,S} {4,D} {7,S}
-    3  C u0 p0 c0 {1,D} {5,S} {9,S}
-    4  C u0 p0 c0 {2,D} {6,S} {10,S}
-    5  C u0 p0 c0 {3,S} {6,D} {11,S}
-    6  C u0 p0 c+1 {4,S} {5,D}
+    1  C u0 p0 c0 {2,D} {3,S} {8,S}
+    2  C u0 p0 c0 {1,D} {4,S} {7,S}
+    3  C u0 p0 c0 {1,S} {5,D} {9,S}
+    4  C u0 p0 c0 {2,S} {6,D} {10,S}
+    5  C u0 p0 c0 {3,D} {6,S} {11,S}
+    6  C u0 p0 c+1 {4,D} {5,S}
     7  H u0 p0 c0 {2,S}
     8  H u0 p0 c0 {1,S}
     9  H u0 p0 c0 {3,S}
@@ -25,9 +25,120 @@ Properties:
   multiplicity: 1
   symmetry_number: 1.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -607119420.775628
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 265.63327530609445
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 70.06812370264221
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 391.8
+        - 411.5
+        - 413.0
+        - 484.0
+        - 562.1
+        - 657.2
+        - 713.5
+        - 866.3
+        - 892.2
+        - 961.9
+        - 985.4
+        - 1001.0
+        - 1010.4
+        - 1088.1
+        - 1101.3
+        - 1143.4
+        - 1175.8
+        - 1292.4
+        - 1374.5
+        - 1496.9
+        - 1508.3
+        - 1825.5
+        - 3205.4
+        - 3208.2
+        - 3237.9
+        - 3250.4
+        - 3254.6
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2684697547
+          - -0.8166405486999999
+          - 0.0
+        - - 1.2082938953
+          - 0.606806686
+          - 0.0
+        - - 0.0001246194
+          - 1.2879981232
+          - 0.0
+        - - -1.2081411516
+          - 0.6069423086999999
+          - 0.0
+        - - -1.2686712384
+          - -0.81638491
+          - 0.0
+        - - -0.0001098223
+          - -1.1703545972
+          - 0.0
+        - - 2.1768127853
+          - -1.4000517554
+          - 0.0
+        - - 2.1619751194
+          - 1.1202038169
+          - 0.0
+        - - 0.00022255859999999997
+          - 2.3687399523
+          - 0.0
+        - - -2.1616843109
+          - 1.1205574735
+          - 0.0
+        - - -2.1771224937
+          - -1.3996518591
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 330
 is_ts: false
 reference_data:

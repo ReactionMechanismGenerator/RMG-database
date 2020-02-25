@@ -22,9 +22,96 @@ Properties:
   multiplicity: 1
   symmetry_number: 3.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -1416132235.0826442
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -27.252577602211424
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 63.44640661796714
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 254.3
+        - 333.1
+        - 691.8
+        - 789.3
+        - 993.0
+        - 1079.4
+        - 1094.0
+        - 1274.3
+        - 1318.7
+        - 1408.3
+        - 1474.8
+        - 1486.9
+        - 1493.0
+        - 3059.9
+        - 3107.7
+        - 3130.7
+        - 3138.3
+        - 3168.0
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.5995533099999995
+          - -0.3555850321
+          - 3.1364999999999995e-06
+        - - 0.477633466
+          - 0.6572447005999998
+          - 3.5394999999999993e-06
+        - - -1.1248875305
+          - -0.1511768975
+          - 4.36e-08
+        - - 2.5602066306999998
+          - 0.1632436729
+          - -0.0005045688
+        - - 1.549713741
+          - -0.9904246328
+          - 0.8836975314
+        - - 1.5491218371
+          - -0.9910277271
+          - -0.8832239414
+        - - 0.5004629098
+          - 1.2891426876
+          - 0.8839741768
+        - - 0.5004622444
+          - 1.2891152461
+          - -0.8839839945
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 179
 is_ts: false
 reference_data:

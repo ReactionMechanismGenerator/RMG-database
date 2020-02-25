@@ -19,9 +19,64 @@ Properties:
   multiplicity: 2
   symmetry_number: 2.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -246735148.63609448
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 55.008685967014735
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 53.509407833196214
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 934.9
+        - 998.8
+        - 1370.8
+        - 1754.8
+        - 2990.0
+        - 3053.7
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.5007246046
+        - - 0.0
+          - 0.0
+          - -0.7349428539
+        - - 0.9374745759999998
+          - -0.0
+          - 1.0701264898
+        - - -0.9374745759999998
+          - 0.0
+          - 1.0701264898
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 63
 is_ts: false
 reference_data:

@@ -22,9 +22,96 @@ Properties:
   multiplicity: 1
   symmetry_number: 1.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -636075446.2197934
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 38.16870413897972
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 64.37154353631949
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 577.7
+        - 685.0
+        - 704.1
+        - 887.8
+        - 924.4
+        - 964.0
+        - 996.3
+        - 1097.4
+        - 1154.0
+        - 1195.9
+        - 1286.5
+        - 1342.0
+        - 1419.5
+        - 1490.6
+        - 1583.8
+        - 3273.8
+        - 3278.9
+        - 3679.8
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.4397533133
+          - -1.0978320182
+          - 0.0
+        - - -1.1148169531
+          - 0.02971677119999999
+          - 0.0
+        - - -0.35395349839999996
+          - 1.157040823
+          - 0.0
+        - - 0.8685128049
+          - 0.6786121599
+          - 0.0
+        - - 0.8355479463999999
+          - -0.6625238802999998
+          - 0.0
+        - - -2.1920380752
+          - 0.0441397364
+          - 0.0
+        - - 1.7823633935999998
+          - 1.2497126925
+          - 0.0
+        - - 1.5946116273
+          - -1.3206204866
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - C
+      - N
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 278
 is_ts: false
 reference_data:
@@ -36,5 +123,5 @@ reference_data:
         uncertainty: 0.8
         uncertainty_type: +|-
         units: kJ/mol
-        value: 192.70000000000002
+        value: 192.70000000000007
       class: ThermoData

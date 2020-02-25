@@ -26,9 +26,128 @@ Properties:
   multiplicity: 1
   symmetry_number: 12.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -609702738.4462981
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 18.211436735295692
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 64.00501498479719
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 411.8
+        - 413.6
+        - 617.1
+        - 618.4
+        - 694.3
+        - 728.0
+        - 876.4
+        - 878.9
+        - 1008.5
+        - 1009.7
+        - 1020.6
+        - 1032.8
+        - 1036.4
+        - 1070.2
+        - 1070.6
+        - 1160.0
+        - 1195.5
+        - 1196.7
+        - 1321.9
+        - 1369.2
+        - 1522.7
+        - 1523.2
+        - 1670.5
+        - 1671.3
+        - 3181.4
+        - 3190.7
+        - 3191.8
+        - 3206.8
+        - 3208.4
+        - 3217.9
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.1064983175
+          - -1.3840764259
+          - -0.0002512383
+        - - -1.1451514841
+          - -0.7842096748
+          - -0.0001692298
+        - - -1.2516380516999999
+          - 0.5995946759
+          - -0.0001016588
+        - - -0.10607586299999998
+          - 1.3834257734
+          - -0.0001163736
+        - - 1.1455739639
+          - 0.7835589097
+          - -0.00019842409999999998
+        - - 1.2520605776999996
+          - -0.6002452013
+          - -0.0002659351
+        - - 0.189398676
+          - -2.46360599
+          - -0.0003035641
+        - - -2.0381395669
+          - -1.3960832211
+          - -0.0001579315
+        - - -2.2276772117
+          - 1.067876463
+          - -3.7954699999999984e-05
+        - - -0.18897730899999998
+          - 2.4629553439999996
+          - -6.40404e-05
+        - - 2.0385622319
+          - 1.395432237
+          - -0.00020982679999999998
+        - - 2.2280990853
+          - -1.0685281768
+          - -0.0003295402
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 337
 is_ts: false
 reference_data:
@@ -40,5 +159,5 @@ reference_data:
         uncertainty: 0.23
         uncertainty_type: +|-
         units: kJ/mol
-        value: 83.07000000000001
+        value: 83.07000000000002
       class: ThermoData

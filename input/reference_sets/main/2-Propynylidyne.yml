@@ -1,10 +1,10 @@
 Identifiers:
   adjacency_list: |
     multiplicity 4
-    1 C u0 p0 c0 {2,T} {4,S}
-    2 C u0 p0 c0 {1,T} {3,S}
-    3 C u3 p0 c0 {2,S}
-    4 H u0 p0 c0 {1,S}
+    1 C u0 p0 c0 {2,T} {3,S}
+    2 C u0 p0 c0 {1,T} {4,S}
+    3 C u3 p0 c0 {1,S}
+    4 H u0 p0 c0 {2,S}
   formula: C3H
   inchi: InChI=1S/C3H/c1-3-2/h1H
   inchi_key: WWDRUPNDOSDMRD-UHFFFAOYSA-N
@@ -19,9 +19,64 @@ Properties:
   multiplicity: 4
   symmetry_number: 1.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -301073263.8872628
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 171.4600748122523
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 52.78323519994328
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 119.0
+        - 248.5
+        - 386.6
+        - 1183.4
+        - 1921.4
+        - 3448.8
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1447465854
+          - -0.0010524717
+          - 0.0
+        - - -0.09083695
+          - 0.0001698443
+          - 0.0
+        - - -1.4221981350999997
+          - 0.0002010303
+          - 0.0
+        - - 2.2097309984
+          - 0.0040895832
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 117
 is_ts: false
 reference_data:

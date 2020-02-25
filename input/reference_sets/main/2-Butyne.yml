@@ -24,9 +24,112 @@ Properties:
   multiplicity: 1
   symmetry_number: 18.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -409441262.1164588
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 35.57381224558867
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 68.4558215599175
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 26.0
+        - 200.2
+        - 201.4
+        - 407.1
+        - 407.5
+        - 729.0
+        - 1044.9
+        - 1045.5
+        - 1058.1
+        - 1058.6
+        - 1172.9
+        - 1410.1
+        - 1410.7
+        - 1473.9
+        - 1474.0
+        - 1475.1
+        - 1475.2
+        - 2399.3
+        - 3059.3
+        - 3060.1
+        - 3122.8
+        - 3123.0
+        - 3123.6
+        - 3123.8
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.0605499399
+          - -0.000413202
+          - -0.0001412601
+        - - 0.5995798227
+          - -7.358119999999999e-05
+          - 0.000235855
+        - - -0.599487018
+          - 0.0001634616
+          - 0.0002688905
+        - - -2.0604571048
+          - 0.000414766
+          - -4.93572e-05
+        - - 2.4492817073
+          - 0.8724297323
+          - -0.5250208709
+        - - 2.4488962821
+          - -0.891092871
+          - -0.4944741237
+        - - 2.4498687697
+          - 0.0171454873
+          - 1.0180912409
+        - - -2.448831238999999
+          - 0.8634590314999999
+          - -0.5411376435
+        - - -2.449736275799999
+          - 0.0371897141
+          - 1.0176862516
+        - - -2.4492048582
+          - -0.8991971642
+          - -0.4776193124
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 237
 is_ts: false
 reference_data:

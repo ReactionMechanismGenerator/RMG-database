@@ -23,9 +23,96 @@ Properties:
   multiplicity: 2
   symmetry_number: 3.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -307701340.73331124
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 60.27670381655186
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 62.89612178607668
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 174.8
+        - 313.2
+        - 486.1
+        - 897.0
+        - 898.7
+        - 940.8
+        - 1047.2
+        - 1098.9
+        - 1381.5
+        - 1411.6
+        - 1446.3
+        - 1465.1
+        - 1772.8
+        - 3000.2
+        - 3058.7
+        - 3091.6
+        - 3119.7
+        - 3180.7
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.26622642
+          - -0.0765043596
+          - 1.6699999999999999e-06
+        - - -0.1265052525
+          - 0.3843843875999999
+          - -6.992399999999999e-06
+        - - -1.3363875231999998
+          - -0.09905137359999998
+          - 1.0657e-06
+        - - 1.7997682706
+          - 0.282010465
+          - 0.8810920903
+        - - 1.306746227
+          - -1.1736533345
+          - -0.0006522592999999998
+        - - 1.8001629169999998
+          - 0.2830486697
+          - -0.8804244901999999
+        - - -1.5096302791
+          - -1.1779054104
+          - 1.61563e-05
+        - - -2.2170490013
+          - 0.5335276839
+          - -5.9577e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 172
 is_ts: false
 reference_data:

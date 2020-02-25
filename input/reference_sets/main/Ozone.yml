@@ -1,8 +1,8 @@
 Identifiers:
   adjacency_list: |
-    1 O u0 p2 c0 {2,D}
-    2 O u0 p1 c+1 {1,D} {3,S}
-    3 O u0 p3 c-1 {2,S}
+    1 O u0 p3 c-1 {2,S}
+    2 O u0 p1 c+1 {1,S} {3,D}
+    3 O u0 p2 c0 {2,D}
   formula: O3
   inchi: InChI=1S/O3/c1-3-2
   inchi_key: CBENFWSGALASAD-UHFFFAOYSA-N
@@ -17,9 +17,56 @@ Properties:
   multiplicity: 1
   symmetry_number: 1.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -591918442.099757
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 42.5993459680457
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 58.45281095257905
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 541.6
+        - 1215.9
+        - 1324.2
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0616830383
+          - 0.0
+          - 0.21363297689999994
+        - - 0.0
+          - 0.0
+          - -0.4272659099
+        - - -1.0616830383
+          - -0.0
+          - 0.21363297689999994
+      isotopes:
+      - 16
+      - 16
+      - 16
+      symbols:
+      - O
+      - O
+      - O
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 96
 is_ts: false
 reference_data:

@@ -19,9 +19,80 @@ Properties:
   multiplicity: 1
   symmetry_number: 3.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -499530246.69336855
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -23.068552174597176
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 59.695717432640734
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 275.0
+        - 440.1
+        - 863.0
+        - 1118.1
+        - 1163.4
+        - 1208.8
+        - 1419.0
+        - 1425.1
+        - 1492.9
+        - 2912.3
+        - 2925.1
+        - 2972.9
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0390685402
+          - -0.2189543143
+          - -3.66e-08
+        - - -0.0628510854
+          - 0.6097213118999998
+          - 3.653e-07
+        - - -1.2237163405
+          - -0.2781719131
+          - -4.49e-08
+        - - 1.0573787121
+          - -0.8747058337
+          - -0.8876988219
+        - - 1.9433531315
+          - 0.4107253024999999
+          - -1.48787e-05
+        - - 1.0573963223
+          - -0.8746887728999999
+          - 0.8877113564999999
+      isotopes:
+      - 12
+      - 16
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - O
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 159
 is_ts: false
 reference_data:
@@ -33,5 +104,5 @@ reference_data:
         uncertainty: 0.68
         uncertainty_type: +|-
         units: kJ/mol
-        value: -99.96000000000001
+        value: -99.96000000000004
       class: ThermoData

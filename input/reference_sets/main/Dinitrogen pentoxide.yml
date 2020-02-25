@@ -21,9 +21,88 @@ Properties:
   multiplicity: 1
   symmetry_number: 2.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -1274472352.897438
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -1.9306731525213368
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 82.72752798595373
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 18.1
+        - 73.7
+        - 241.8
+        - 425.4
+        - 445.1
+        - 661.3
+        - 696.5
+        - 764.7
+        - 775.2
+        - 845.9
+        - 929.6
+        - 1329.2
+        - 1429.7
+        - 1800.7
+        - 1841.3
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1213546653
+          - -0.9789211101
+          - 0.733589161
+        - - 1.2162480436
+          - 0.0160538987
+          - 0.0986491089
+        - - 2.1273759881
+          - 0.5468304736
+          - -0.4349737908
+        - - 0.0010243956
+          - 0.8315921845
+          - -0.0041305651
+        - - -1.2162957890999995
+          - 0.0172598223
+          - -0.0989140083
+        - - -1.126073394
+          - -0.9778441305
+          - -0.7341848608
+        - - -2.1236398777
+          - 0.5491930766
+          - 0.4399318427
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - O
+      - N
+      - O
+      - O
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 390
 is_ts: false
 reference_data:
@@ -32,7 +111,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.35000000000000003
+        uncertainty: 0.35000000000000014
         uncertainty_type: +|-
         units: kJ/mol
         value: 14.84

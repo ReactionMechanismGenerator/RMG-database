@@ -1,13 +1,13 @@
 Identifiers:
   adjacency_list: |
+    multiplicity 2
     1 C u0 p0 c0 {2,D} {3,S} {4,S}
-    2 C u0 p1 c-1 {1,D} {5,S}
+    2 C u1 p1 c-1 {1,D}
     3 H u0 p0 c0 {1,S}
     4 H u0 p0 c0 {1,S}
-    5 H u0 p0 c0 {2,S}
-  formula: C2H3
-  inchi: InChI=1S/C2H3/c1-2/h1H,2H2/q-1
-  inchi_key: IEARPTNIYZTWOZ-UHFFFAOYSA-N
+  formula: C2H2
+  inchi: InChI=1S/C2H2/c1-2/h1H2/q-1
+  inchi_key: VSVANFQZMKLBSU-UHFFFAOYSA-N
   label: Vinyl anion
   smiles: '[C-]=C'
 Properties:
@@ -15,13 +15,76 @@ Properties:
   molecular_weight:
     class: ScalarQuantity
     units: amu
-    value: 27.04522251695288
-  multiplicity: 1
+    value: 26.037282394473127
+  multiplicity: 2
   symmetry_number: 2.0
 RMG_version: 3.0.0
-calculated_data: {}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -204542548.61022106
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 56.762513651873576
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 53.003137745381665
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 856.8
+        - 947.6
+        - 1098.0
+        - 1227.3
+        - 1394.0
+        - 1551.2
+        - 2787.8
+        - 2886.0
+        - 2978.1
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.5738258476
+          - -0.024914961599999993
+          - 0.0
+        - - -0.7568234590999999
+          - 0.1936729341
+          - 0.0
+        - - 1.2964159268
+          - 0.8014425667
+          - 0.0
+        - - 1.0660420618
+          - -1.0158723603
+          - 0.0
+        - - -1.2644723198
+          - -0.7981180409
+          - 2.999999999999999e-10
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
 index: 70
 is_ts: false
 reference_data:
