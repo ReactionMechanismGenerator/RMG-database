@@ -19,9 +19,9 @@ entry(
     surfaceSiteDensity = (2.483E-09, 'mol/cm^2'),
     facet = "111",
     metal = "Pt",
-    shortDesc = u"",
+    shortDesc = u"fcc",
     longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
     """,
 )
 
@@ -37,9 +37,9 @@ entry(
     surfaceSiteDensity = (2.630E-09, 'mol/cm^2'),
     facet = "0001",
     metal = "Ru",
-    shortDesc = u"",
+    shortDesc = u"hcp",
     longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
     """,
 )
 
@@ -55,9 +55,9 @@ entry(
     surfaceSiteDensity = (2.656E-09, 'mol/cm^2'),
     facet = "111",
     metal = "Rh",
-    shortDesc = u"",
+    shortDesc = u"fcc",
     longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
     """,
 )
 
@@ -73,9 +73,9 @@ entry(
      surfaceSiteDensity = (2.587E-09, 'mol/cm^2'),
      facet = "111",
      metal = "Ir",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -91,9 +91,9 @@ entry(
      surfaceSiteDensity = (2.270E-09, 'mol/cm^2'),
      facet = "111",
      metal = "Au",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -109,9 +109,9 @@ entry(
      surfaceSiteDensity = (2.534E-09, 'mol/cm^2'),
      facet = "111",
      metal = "Pd",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -127,9 +127,9 @@ entry(
      surfaceSiteDensity = (2.943E-09, 'mol/cm^2'),
      facet = "111",
      metal = "Cu",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -145,9 +145,9 @@ entry(
      surfaceSiteDensity = (2.292E-09, 'mol/cm^2'),
      facet = "111",
      metal = "Ag",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -163,9 +163,9 @@ entry(
      surfaceSiteDensity = (3.148E-09, 'mol/cm^2'),
      facet = "111",
      metal = "Ni",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -181,9 +181,9 @@ entry(
      surfaceSiteDensity = (3.118E-09, 'mol/cm^2'),
      facet = "0001",
      metal = "Co",
-     shortDesc = u"",
+     shortDesc = u"hcp",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -199,9 +199,9 @@ entry(
      surfaceSiteDensity = (2.634E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Pt",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -217,9 +217,9 @@ entry(
      surfaceSiteDensity = (2.817E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Rh",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -235,9 +235,9 @@ entry(
      surfaceSiteDensity = (2.432E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Ag",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -253,9 +253,9 @@ entry(
      surfaceSiteDensity = (2.688E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Pd",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -271,9 +271,9 @@ entry(
      surfaceSiteDensity = (2.408E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Au",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -289,9 +289,9 @@ entry(
      surfaceSiteDensity = (2.744E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Ir",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -307,9 +307,9 @@ entry(
      surfaceSiteDensity = (3.199E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Ru",
-     shortDesc = u"",
+     shortDesc = u"hcp",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -325,9 +325,9 @@ entry(
      surfaceSiteDensity = (3.711E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Co",
-     shortDesc = u"Same as Ni211",
+     shortDesc = u"hcp",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
 
@@ -343,9 +343,11 @@ entry(
      surfaceSiteDensity = (3.339E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Ni",
-     shortDesc = u"Same as Co211",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+Same as Co211, todo update later
      """,
 )
 
@@ -361,8 +363,8 @@ entry(
      surfaceSiteDensity = (3.121E-09, 'mol/cm^2'),
      facet = "211",
      metal = "Cu",
-     shortDesc = u"",
+     shortDesc = u"fcc",
      longDesc = u"""
-Calculated by Katrin Blondal at Brown University
+Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
      """,
 )
