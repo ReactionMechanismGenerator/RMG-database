@@ -52,8 +52,9 @@ entry(
     label="Gas",
     group =
 """
-1 *3 R!H ux px cx {2,[D,T,Q]}
-2 *4 R!H ux px cx {1,[D,T,Q]}
+multiplicity [1,3]
+1 *3 R!H u0 px cx {2,[D,T,Q]}
+2 *4 R!H u0 px cx {1,[D,T,Q]}
 """,
     kinetics = None,
 )
@@ -85,8 +86,9 @@ entry(
     label="R=R",
     group =
 """
-1 *3 R!H ux px cx {2,D}
-2 *4 R!H ux px cx {1,D}
+multiplicity [1,3]
+1 *3 R!H u0 px cx {2,D}
+2 *4 R!H u0 px cx {1,D}
 """,
     kinetics = None,
 )
@@ -96,8 +98,9 @@ entry(
     label="R#R",
     group =
 """
-1 *3 R!H ux px cx {2,T}
-2 *4 R!H ux px cx {1,T}
+multiplicity [1,3]
+1 *3 R!H u0 px cx {2,T}
+2 *4 R!H u0 px cx {1,T}
 """,
     kinetics = None,
 )
@@ -107,6 +110,7 @@ entry(
     label="C=C",
     group =
 """
+multiplicity [1,3]
 1 *3 C u0 p0 c0 {2,D}
 2 *4 C u0 p0 c0 {1,D}
 """,
@@ -118,6 +122,7 @@ entry(
     label="C#C",
     group =
 """
+multiplicity [1,3]
 1 *3 C u0 p0 c0 {2,T}
 2 *4 C u0 p0 c0 {1,T}
 """,
@@ -233,6 +238,7 @@ entry(
     label="CH2=CH2",
     group =
 """
+multiplicity [1,3]
 1 *3 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 *4 C u0 p0 c0 {1,D} {5,S} {6,S}
 3    H u0 p0 c0 {1,S}
@@ -248,6 +254,7 @@ entry(
     label="HC#CH",
     group =
 """
+multiplicity [1,3]
 1 *3 C u0 p0 c0 {2,T} {3,S}
 2 *4 C u0 p0 c0 {1,T} {4,S}
 3    H u0 p0 c0 {1,S}
@@ -273,4 +280,32 @@ L1: Gas
         L3: C#C
             L4: HC#CH
 """
+)
+
+forbidden(
+    label = "chargedBond",
+    group =
+"""
+1 *4 R!H ux c[+1,-1] {2,[S,D,T]}
+2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+The adsorbing molecule should not have a charge on the surface.
+""",
+)
+
+forbidden(
+    label = "radical",
+    group =
+"""
+1 R!H u1 cx {2,[S,D,T]}
+2 R!H ux cx {1,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+There should be no radicals
+""",
 )

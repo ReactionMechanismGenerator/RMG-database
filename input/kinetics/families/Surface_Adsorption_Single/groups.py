@@ -80,7 +80,7 @@ L1: VacantSite
 
 
 forbidden(
-    label = "adjacentradical1",
+    label = "adjacentradical",
     group =
 """
 1 *1 R u1 {2,S}
@@ -95,5 +95,18 @@ e.g. this is not allowed:
 .O-O.    -->   .O-O
                   |
    X              X
+""",
+)
+
+forbidden(
+    label = "chargedSpecies",
+    group =
+"""
+1 *1 R u1 c[+1,-1]
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+The adsorbing atom should not have a charge
 """,
 )

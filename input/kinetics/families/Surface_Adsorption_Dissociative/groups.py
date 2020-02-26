@@ -38,8 +38,9 @@ entry(
     label = "Adsorbate",
     group =
 """
-1 *1 R ux px cx {2,S}
-2 *2 R ux px cx {1,S}
+multiplicity [1,3]
+1 *1 R u0 px cx {2,S}
+2 *2 R u0 px cx {1,S}
 """,
     kinetics = None,
 )
@@ -69,6 +70,7 @@ entry(
     label = "H2",
     group =
 """
+multiplicity [1,3]
 1 *1 H u0 p0 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,
@@ -80,6 +82,7 @@ entry(
     label = "O",
     group =
 """
+multiplicity [1,3]
 1 *1 O u0 p2 c0 {2,S}
 2 *2 R u0 {1,S}
 """,
@@ -91,6 +94,7 @@ entry(
     label = "O-H",
     group =
 """
+multiplicity [1,3]
 1 *1 O u0 p2 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,
@@ -102,6 +106,7 @@ entry(
     label = "H2O",
     group =
 """
+multiplicity [1,3]
 1 *1 O u0 p2 c0 {2,S} {3,S}
 2 *2 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
@@ -125,6 +130,7 @@ entry(
     label = "O-N",
     group =
 """
+multiplicity [1,3]
 1 *1 O u0 p2 c0 {2,S}
 2 *2 N u0 p1 c0 {1,S}
 """,
@@ -136,6 +142,7 @@ entry(
     label = "O-C",
     group =
 """
+multiplicity [1,3]
 1 *1 O u0 p2 c0 {2,S}
 2 *2 C u0 p0 c0 {1,S}
 """,
@@ -147,6 +154,7 @@ entry(
     label = "N",
     group =
 """
+multiplicity [1,3]
 1 *1 N u0 px cx {2,S}
 2 *2 R u0 {1,S}
 """,
@@ -158,6 +166,7 @@ entry(
     label = "N-C",
     group =
 """
+multiplicity [1,3]
 1 *1 N u0 p2 c0 {2,S}
 2 *2 C u0 p0 c0 {1,S}
 """,
@@ -169,6 +178,7 @@ entry(
     label = "N-H",
     group =
 """
+multiplicity [1,3]
 1 *1 N u0 p2 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,
@@ -180,6 +190,7 @@ entry(
     label = "C-H",
     group =
 """
+multiplicity [1,3]
 1 *1 C u0 p0 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,
@@ -204,7 +215,6 @@ L1: VacantSite1
 L1: VacantSite2
 """
 )
-
 
 forbidden(
     label = "adjacentradical1",
@@ -243,7 +253,6 @@ CH2.-CH3    -->   CH2.-CH2   +   H
      X X               X         X
 """,
 )
-
 
 forbidden(
     label = "disigma1",
@@ -300,7 +309,6 @@ u"""
 The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
 """,
 )
-
 
 forbidden(
     label = "disigma4",
@@ -399,5 +407,19 @@ forbidden(
     longDesc =
 u"""
 C should not match to *2 with a less heavy atom
+""",
+)
+
+forbidden(
+    label = "chargedBond",
+    group =
+"""
+1 *1 R!H ux c[+1,-1] {2,[S,D,T]}
+2 *2 R!H ux c[+1,-1] {1,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+The adsorbing molecule should not have a charge on the surface.
 """,
 )

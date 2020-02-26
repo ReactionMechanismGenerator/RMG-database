@@ -38,6 +38,7 @@ entry(
     label = "AdsorbateVdW",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv  ux px cx
 2 *2 R!H ux px cx {3,D}
 3 *3 R!H ux px cx {2,D}
@@ -72,6 +73,7 @@ entry(
     label = "OC",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *3 C  u0 p0 c0 {3,D}
 3 *2 O  u0 p2 c0 {2,D}
@@ -84,6 +86,7 @@ entry(
     label = "CO2",
     group =
 """
+multiplicity [1,3]
 1    O  u0 p2 c0 {3,D}
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 C  u0 p0 c0 {1,D} {2,D}
@@ -97,6 +100,7 @@ entry(
     label = "NC",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 N  u0 p1 c0 {3,D}
 3 *3 C  u0 p0 c0 {2,D}
@@ -109,22 +113,10 @@ entry(
     label = "ON",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *3 N  u0 px cx {3,D}
 3 *2 O  u0 p2 c0 {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 8,
-    label = "ON+O",
-    group =
-"""
-1 *1 Xv u0 p0 c0
-2 *3 N  u0 p0 c+1 {3,D} {4,S}
-3 *2 O  u0 p2 c0  {2,D}
-4    O  u0 p3 c-1 {2,S}
 """,
     kinetics = None,
 )
@@ -134,6 +126,7 @@ entry(
     label = "ONR",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *3 N  u0 p1 c0 {3,D} {4,S}
 3 *2 O  u0 p2 c0 {2,D}
@@ -148,7 +141,6 @@ L1: AdsorbateVdW
     L2: OC
         L3: CO2
     L2: ON
-        L3: ON+O
         L3: ONR
     L2: NC
 L1: VacantSite
@@ -194,5 +186,20 @@ forbidden(
     shortDesc = u"""""",
     longDesc =u"""
 Any CN should not match *2 and *3 respectively because of duplicate reactions
+""",
+)
+
+forbidden(
+    label = "chargedBond",
+    group =
+"""
+1 *2 R!H ux c[+1,-1] {2,[S,D,T]}
+2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
+3 *1 Xv  u0 p0 c0
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+The adsorbing molecule should not have a charge on the surface.
 """,
 )

@@ -36,6 +36,7 @@ entry(
     label = "AdsorbateVdW",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 R  ux px cx {3,S}
 3 *3 R  ux px cx {2,S}
@@ -59,6 +60,7 @@ entry(
     label = "O-R",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 O  ux p2 cx {3,S}
 3 *3 R  ux px cx {2,S}
@@ -71,6 +73,7 @@ entry(
     label = "C-R",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 C  ux px cx {3,S}
 3 *3 R  ux px cx {2,S}
@@ -105,6 +108,7 @@ entry(
     label = "H-H",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 H  u0 p0 c0 {3,S}
 3 *3 H  u0 p0 c0 {2,S}
@@ -117,6 +121,7 @@ entry(
     label = "N-R",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,S}
 3 *3 R  ux px cx {2,S}
@@ -269,6 +274,7 @@ entry(
     label = "O-O",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,S}
 3 *3 O  u0 p2 c0 {2,S}
@@ -281,6 +287,7 @@ entry(
     label = "HO-OH",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,S} {5,S}
 3 *3 O  u0 p2 c0 {2,S} {4,S}
@@ -295,6 +302,7 @@ entry(
     label = "O-N",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,S}
 3 *3 N  u0 p1 c0 {2,S} {4,[S,D]}
@@ -308,6 +316,7 @@ entry(
     label = "O-C",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,S}
 3 *3 C  u0 p0 c0 {2,S} {4,[S,D,T]}
@@ -321,6 +330,7 @@ entry(
     label = "O-C-3R",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,S}
 3 *3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -336,6 +346,7 @@ entry(
     label = "O-C=R",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv  u0 p0 c0
 2 *2 O   u0 p2 c0 {3,S}
 3 *3 C   u0 p0 c0 {2,S} {4,D} {5,S}
@@ -350,6 +361,7 @@ entry(
     label = "O-C#R",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv  u0 p0 c0
 2 *2 O   u0 p2 c0 {3,S}
 3 *3 C   u0 p0 c0 {2,S} {4,T}
@@ -363,6 +375,7 @@ entry(
     label = "O-N-2R",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,S}
 3 *3 N  u0 p1 c0 {2,S} {4,S} {5,S}
@@ -377,6 +390,7 @@ entry(
     label = "O-NHH",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,S}
 3 *3 N  u0 p1 c0 {2,S} {4,S} {5,S}
@@ -391,6 +405,7 @@ entry(
     label = "O-N=R",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv  u0 p0 c0
 2 *2 O   u0 p2 c0 {3,S}
 3 *3 N   u0 p1 c0 {2,S} {4,D}
@@ -404,6 +419,7 @@ entry(
     label = "C-C",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 C  ux px cx {3,S}
 3 *3 C  ux px cx {2,S}
@@ -416,6 +432,7 @@ entry(
     label = "C-O",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 C  ux px cx {3,S}
 3 *3 O  ux p2 cx {2,S}
@@ -428,6 +445,7 @@ entry(
     label = "C-N",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 C  ux px cx {3,S}
 3 *3 N  u0 p1 c0 {2,S}
@@ -440,6 +458,7 @@ entry(
     label = "C-OH",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 C  ux px cx {3,S}
 3 *3 O  u0 p2 c0 {2,S} {4,S}
@@ -453,6 +472,7 @@ entry(
     label = "N-N",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,S}
 3 *3 N  ux px cx {2,S}
@@ -465,6 +485,7 @@ entry(
     label = "N-O",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,S}
 3 *3 O  u0 p2 c0 {2,S}
@@ -477,6 +498,7 @@ entry(
     label = "N-C",
     group =
 """
+multiplicity [1,3]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,S}
 3 *3 C  ux px cx {2,S}
