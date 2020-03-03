@@ -335,10 +335,10 @@ entry(
      index = 19,
      label = "Ni211",
      bindingEnergies = {
-     		            'H':(-2.958578034, 'eV/molecule'),
-                        'C':(-7.517405633, 'eV/molecule'),
-                        'N':(-5.693528936, 'eV/molecule'),
-                        'O':(-5.739466384, 'eV/molecule'),
+     		            'H':(-2.901, 'eV/molecule'),
+                        'C':(-7.775, 'eV/molecule'),
+                        'N':(-5.310, 'eV/molecule'),
+                        'O':(-5.086, 'eV/molecule'),
      },
      surfaceSiteDensity = (3.339E-09, 'mol/cm^2'),
      facet = "211",
@@ -346,8 +346,6 @@ entry(
      shortDesc = u"fcc",
      longDesc = u"""
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
-
-Same as Co211, todo update later
      """,
 )
 
