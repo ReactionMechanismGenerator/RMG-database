@@ -32,6 +32,7 @@ entry(
     label = "Adsorbate",
     group =
 """
+multiplicity [2]
 1 *1 R u1
 """,
     kinetics = None,
@@ -52,6 +53,7 @@ entry(
     label = "N",
     group =
 """
+multiplicity [2]
 1 *1 N u1
 """,
     kinetics = None,
@@ -62,6 +64,7 @@ entry(
     label = "N=O",
     group =
 """
+multiplicity [2]
 1 *1 N u1 p1 c0 {2,D}
 2    O u0 p2 c0 {1,D}
 """,
