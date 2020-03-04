@@ -38,7 +38,7 @@ entry(
     label = "AdsorbateVdW",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv  ux px cx
 2 *2 R!H ux px cx {3,D}
 3 *3 R!H ux px cx {2,D}
@@ -73,7 +73,7 @@ entry(
     label = "OC",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 C  u0 p0 c0 {3,D}
 3 *2 O  u0 p2 c0 {2,D}
@@ -86,7 +86,7 @@ entry(
     label = "CO2",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1    O  u0 p2 c0 {3,D}
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 C  u0 p0 c0 {1,D} {2,D}
@@ -100,7 +100,7 @@ entry(
     label = "NC",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 N  u0 p1 c0 {3,D}
 3 *3 C  u0 p0 c0 {2,D}
@@ -113,7 +113,7 @@ entry(
     label = "ON",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 N  u0 px cx {3,D}
 3 *2 O  u0 p2 c0 {2,D}
@@ -126,7 +126,7 @@ entry(
     label = "ONR",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 N  u0 p1 c0 {3,D} {4,S}
 3 *2 O  u0 p2 c0 {2,D}

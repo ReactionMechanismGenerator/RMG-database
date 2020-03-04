@@ -38,7 +38,7 @@ entry(
     label = "Adsorbate",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 R u0 px cx {2,S}
 2 *2 R u0 px cx {1,S}
 """,
@@ -70,7 +70,7 @@ entry(
     label = "H2",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 H u0 p0 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,
@@ -82,7 +82,7 @@ entry(
     label = "O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 O u0 p2 c0 {2,S}
 2 *2 R u0 {1,S}
 """,
@@ -94,7 +94,7 @@ entry(
     label = "O-H",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 O u0 p2 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,
@@ -106,7 +106,7 @@ entry(
     label = "H2O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 O u0 p2 c0 {2,S} {3,S}
 2 *2 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
@@ -130,7 +130,7 @@ entry(
     label = "O-N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 O u0 p2 c0 {2,S}
 2 *2 N u0 p1 c0 {1,S}
 """,
@@ -142,7 +142,7 @@ entry(
     label = "O-C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 O u0 p2 c0 {2,S}
 2 *2 C u0 p0 c0 {1,S}
 """,
@@ -154,7 +154,7 @@ entry(
     label = "N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 N u0 px cx {2,S}
 2 *2 R u0 {1,S}
 """,
@@ -166,7 +166,7 @@ entry(
     label = "N-C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 N u0 p2 c0 {2,S}
 2 *2 C u0 p0 c0 {1,S}
 """,
@@ -178,7 +178,7 @@ entry(
     label = "N-H",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 N u0 p2 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,
@@ -190,7 +190,7 @@ entry(
     label = "C-H",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 C u0 p0 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 """,

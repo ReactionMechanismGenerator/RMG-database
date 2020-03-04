@@ -36,7 +36,7 @@ entry(
     label = "Adsorbate1",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv  u0 p0 c0
 2 *2 R!H ux px cx {3,[D,T,Q]}
 3 *3 R!H ux px cx {2,[D,T,Q]}
@@ -49,7 +49,7 @@ entry(
     label = "Adsorbate2",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 R  ux px cx {3,S}
 3 *4 R  ux px cx {2,S}
@@ -62,7 +62,7 @@ entry(
     label = "O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv  u0 p0 c0
 2 *2 O   ux px cx {3,D}
 3 *3 R!H ux px cx {2,D}
@@ -75,7 +75,7 @@ entry(
     label = "O=N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 N  ux px cx {2,D}
@@ -88,7 +88,7 @@ entry(
     label = "C=O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,D}
 3 *3 O  u0 p2 c0 {2,D}
@@ -101,7 +101,7 @@ entry(
     label = "O=C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 C  ux px cx {2,D}
@@ -114,7 +114,7 @@ entry(
     label = "RNO",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 N  u0 p1 c0 {2,D} {4,S}
@@ -128,7 +128,7 @@ entry(
     label = "C$C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,Q}
 3 *3 C  u0 p0 c0 {2,Q}
@@ -141,7 +141,7 @@ entry(
     label = "O=O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 O  u0 p2 c0 {2,D}
@@ -154,7 +154,7 @@ entry(
     label = "RONO",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 N  u0 p1 c0 {2,D} {4,S}
@@ -169,7 +169,7 @@ entry(
     label = "HONO",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 N  u0 p1 c0 {2,D} {4,S}
@@ -184,7 +184,7 @@ entry(
     label = "C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv  u0 p0 c0
 2 *2 C   ux px cx {3,[D,T,Q]}
 3 *3 R!H ux px cx {2,[D,T,Q]}
@@ -197,7 +197,7 @@ entry(
     label = "CO2",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,D} {4,D}
 3 *3 O  u0 p2 c0 {2,D}
@@ -211,7 +211,7 @@ entry(
     label = "CC",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,[D,T,Q]}
 3 *3 C  u0 p0 c0 {2,[D,T,Q]}
@@ -224,7 +224,7 @@ entry(
     label = "C=C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,D}
 3 *3 C  u0 p0 c0 {2,D}
@@ -237,7 +237,7 @@ entry(
     label = "C#C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,T}
 3 *3 C  u0 p0 c0 {2,T}
@@ -250,7 +250,7 @@ entry(
     label = "CN",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  ux px cx {3,[D,T]}
 3 *3 N  ux px cx {2,[D,T]}
@@ -263,7 +263,7 @@ entry(
     label = "C=N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,D}
 3 *3 N  u0 px cx {2,D}
@@ -276,7 +276,7 @@ entry(
     label = "C#N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 px cx {3,T}
 3 *3 N  ux px cx {2,T}
@@ -289,7 +289,7 @@ entry(
     label = "C=N-R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,D}
 3 *3 N  u0 px c0 {2,D} {4,S}
@@ -303,7 +303,7 @@ entry(
     label = "RC#N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 C  u0 p0 c0 {3,T} {4,S}
 3 *3 N  u0 p1 c0 {2,T}
@@ -317,7 +317,7 @@ entry(
     label = "N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv  u0 p0 c0
 2 *2 N   ux px cx {3,[D,T]}
 3 *3 R!H ux px cx {2,[D,T]}
@@ -330,7 +330,7 @@ entry(
     label = "N=O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,D}
 3 *3 O  u0 p2 c0 {2,D}
@@ -343,7 +343,7 @@ entry(
     label = "NC",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,[D,T]}
 3 *3 C  ux px cx {2,[D,T]}
@@ -356,7 +356,7 @@ entry(
     label = "N=C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,D}
 3 *3 C  ux px cx {2,D}
@@ -369,7 +369,7 @@ entry(
     label = "N#C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,T}
 3 *3 C  ux px cx {2,T}
@@ -382,7 +382,7 @@ entry(
     label = "R-N=C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 C  u0 p0 c0 {3,D}
 3 *2 N  u0 px c0 {2,D} {4,S}
@@ -396,7 +396,7 @@ entry(
     label = "N#CR",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 C  u0 p0 c0 {3,T} {4,S}
 3 *2 N  u0 p1 c0 {2,T}
@@ -410,7 +410,7 @@ entry(
     label = "ONOH",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 O  u0 p2 c0 {3,D}
 3 *2 N  u0 p1 c0 {2,D} {4,S}
@@ -425,7 +425,7 @@ entry(
     label = "ONOR",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 O  u0 p2 c0 {3,D}
 3 *2 N  u0 p1 c0 {2,D} {4,S}
@@ -440,7 +440,7 @@ entry(
     label = "ONR",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 O  u0 p2 c0 {3,D}
 3 *2 N  u0 p1 c0 {2,D} {4,S}
@@ -454,7 +454,7 @@ entry(
     label = "O-R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 O  ux p2 cx {3,S}
 3 *4 R  ux px cx {2,S}
@@ -467,7 +467,7 @@ entry(
     label = "C-R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 C  ux px cx {3,S}
 3 *4 R  ux px cx {2,S}
@@ -480,7 +480,7 @@ entry(
     label = "H-H",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 H  u0 p0 c0 {3,S}
 3 *4 H  u0 p0 c0 {2,S}
@@ -493,7 +493,7 @@ entry(
     label = "N-R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 N  ux px cx {3,S}
 3 *4 R  ux px cx {2,S}
@@ -506,7 +506,7 @@ entry(
     label = "O-O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 O  u0 p2 c0 {3,S}
 3 *4 O  u0 p2 c0 {2,S}
@@ -519,7 +519,7 @@ entry(
     label = "HO-OH",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 O  u0 p2 c0 {3,S} {5,S}
 3 *4 O  u0 p2 c0 {2,S} {4,S}
@@ -534,7 +534,7 @@ entry(
     label = "O-N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 O  u0 p2 c0 {3,S}
 3 *4 N  u0 p1 c0 {2,S} {4,[S,D]}
@@ -548,7 +548,7 @@ entry(
     label = "O-C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 O  u0 p2 c0 {3,S}
 3 *4 C  u0 p0 c0 {2,S} {4,[S,D,T]}
@@ -562,7 +562,7 @@ entry(
     label = "O-C-3R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 O  u0 p2 c0 {3,S}
 3 *4 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -578,7 +578,7 @@ entry(
     label = "O-C=R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv  u0 p0 c0
 2 *6 O   u0 p2 c0 {3,S}
 3 *4 C   u0 p0 c0 {2,S} {4,D} {5,S}
@@ -593,7 +593,7 @@ entry(
     label = "O-C#R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv  u0 p0 c0
 2 *6 O   u0 p2 c0 {3,S}
 3 *4 C   u0 p0 c0 {2,S} {4,T}
@@ -607,7 +607,7 @@ entry(
     label = "O-N-2R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 O  u0 p2 c0 {3,S}
 3 *4 N  u0 p1 c0 {2,S} {4,S} {5,S}
@@ -622,7 +622,7 @@ entry(
     label = "O-NHH",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 O  u0 p2 c0 {3,S}
 3 *4 N  u0 p1 c0 {2,S} {4,S} {5,S}
@@ -637,7 +637,7 @@ entry(
     label = "O-N=R",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv  u0 p0 c0
 2 *6 O   u0 p2 c0 {3,S}
 3 *4 N   u0 p1 c0 {2,S} {4,D}
@@ -651,7 +651,7 @@ entry(
     label = "C-C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 C  ux px cx {3,S}
 3 *4 C  ux px cx {2,S}
@@ -664,7 +664,7 @@ entry(
     label = "C-O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 C  ux px cx {3,S}
 3 *4 O  ux p2 cx {2,S}
@@ -677,7 +677,7 @@ entry(
     label = "C-N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 C  ux px cx {3,S}
 3 *4 N  u0 p1 c0 {2,S}
@@ -690,7 +690,7 @@ entry(
     label = "C-OH",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 C  ux px cx {3,S}
 3 *4 O  u0 p2 c0 {2,S} {4,S}
@@ -704,7 +704,7 @@ entry(
     label = "N-N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 N  ux px cx {3,S}
 3 *4 N  ux px cx {2,S}
@@ -717,7 +717,7 @@ entry(
     label = "N-O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 N  ux px cx {3,S}
 3 *4 O  u0 p2 c0 {2,S}
@@ -730,7 +730,7 @@ entry(
     label = "N-C",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *5 Xv u0 p0 c0
 2 *6 N  ux px cx {3,S}
 3 *4 C  ux px cx {2,S}
@@ -743,7 +743,7 @@ entry(
     label = "O=C=O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1    O  u0 p2 c0 {3,D}
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 C  u0 p0 c0 {1,D} {2,D}
@@ -757,7 +757,7 @@ entry(
     label = "HNO",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 O  u0 p2 c0 {3,D}
 3 *3 N  u0 p1 c0 {2,D} {4,S}
@@ -771,7 +771,7 @@ entry(
     label = "2R-C=O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *3 O  u0 p2 c0 {3,D}
 3 *2 C  u0 p0 c0 {2,D} {4,S} {5,S}
@@ -786,7 +786,7 @@ entry(
     label = "R=C=O",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv  u0 p0 c0
 2 *3 O   u0 p2 c0 {3,D}
 3 *2 C   u0 p0 c0 {2,D} {4,D}
@@ -800,7 +800,7 @@ entry(
     label = "NN",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,[D,T]}
 3 *3 N  ux px cx {2,[D,T]}
@@ -813,7 +813,7 @@ entry(
     label = "N=N",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 N  ux px cx {3,D}
 3 *3 N  ux px cx {2,D}
@@ -826,7 +826,7 @@ entry(
     label = "N2",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 Xv u0 p0 c0
 2 *2 N  u0 p1 c0 {3,T}
 3 *3 N  u0 p1 c0 {2,T}

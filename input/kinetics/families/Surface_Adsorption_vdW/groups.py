@@ -31,7 +31,7 @@ entry(
     label = "Adsorbate",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 R u0 px c0
 """,
     kinetics = None,

@@ -34,7 +34,7 @@ entry(
     label = "Combined",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 R!H ux px cx {2,S}
 2 *2 R   ux px cx {1,S}
 3 *3 Xv  u0 p0 c0
@@ -57,7 +57,7 @@ entry(
     label = "R-H",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 R!H ux px cx {2,S}
 2 *2 H   u0 p0 c0 {1,S}
 3 *3 Xv  u0 p0 c0
@@ -70,7 +70,7 @@ entry(
     label = "C-H",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 C  ux px cx {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
@@ -83,7 +83,7 @@ entry(
     label = "O-H",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 O  ux px cx {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
@@ -96,7 +96,7 @@ entry(
     label = "N-H",
     group =
 """
-multiplicity [1,3]
+multiplicity [1]
 1 *1 N  ux px cx {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
