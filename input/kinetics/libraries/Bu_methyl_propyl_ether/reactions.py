@@ -616,7 +616,7 @@ CBS-QB3 Sarah Khanniche
 
 entry(
     index = 33,
-    label = "CH3O2H + CHO <=> CH2O + CH3O2",
+    label = "CH3OOH + CHO <=> CH2O + CH3OO",
     elementary_high_p = True,
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -1966,7 +1966,7 @@ Mark Nimlos Calculation
 
 entry( 
     index = 100,
-    label = "O2 + C[CH]C=O <=> HO2 + CC=C=O",
+    label = "O2 + C[CH]C=O <=> HO2 + CH3CHCHO",
     elementary_high_p = True,
     degeneracy = 1.0,
     kinetics = Arrhenius(
@@ -1976,6 +1976,139 @@ entry(
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (3000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 101,
+    label = "[O]OCC(O)C=O <=> O=[C]C(O)COO",
+    elementary_high_p = True,
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.951e6,'1/s'),
+        n = 1.665,
+        Ea = (36.775, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 102,
+    label = "CC(COCO[O])OO <=> CC([CH]OCOO)OO",
+    elementary_high_p = True,
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.797e10,'1/s'),
+        n = 0.071,
+        Ea = (35.510, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 103,
+    label = "MPO + CH3CH2CH2OO <=> CCCOO + MPO1J",
+    elementary_high_p = True,
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (7.255e-9,'cm^3/(mol*s)'),
+        n = 6.168,
+        Ea = (31.790, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 104,
+    label = "MPO + CH3CH2CH2OO <=> CCCOO + CH3OCH2CHCH3",
+    elementary_high_p = True,
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.273e-6,'cm^3/(mol*s)'),
+        n = 6.133,
+        Ea = (33.873, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 105,
+    label = "Propionic + CC(OO)CO[O] <=> CC(COO)OO + C[CH]C(=O)O",
+    elementary_high_p = True,
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.6459e-10,'cm^3/(mol*s)'),
+        n = 6.19885,
+        Ea = (44.3692, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 106,
+    label = "MPO1Q-1QJ + Propionic <=> C[CH]C(=O)O + CCC(OO)OCOO",
+    elementary_high_p = True,
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.3825e-7,'cm^3/(mol*s)'),
+        n = 5.09097,
+        Ea = (34.6751, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 107,
+    label = "MPO + CH3CH2CH2OCH2OO <=> CCCOCOO + MPO1J",
+    elementary_high_p = True,
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (0.104788,'cm^3/(mol*s)'),
+        n = 4.2832,
+        Ea = (13.3035, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     longDesc =
 u"""
