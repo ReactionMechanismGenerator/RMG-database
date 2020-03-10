@@ -59,7 +59,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""NO Adsorption Dissociative""",
+    shortDesc = u"""NO Dissociation""",
     longDesc = u"""
     Detailed surface reaction mechanism in a three-way catalyst
     Chatterjee, Deutschmann, Warnatz et al.
