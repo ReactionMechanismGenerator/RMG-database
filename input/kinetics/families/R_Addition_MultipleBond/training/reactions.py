@@ -57981,3 +57981,30 @@ Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors incl
 Reaction: Benzene + Methyl Radical <=> CC1[CH]C=CC=C1
 """,
 )
+
+entry(
+    index = 2892,
+    label = "CF3CCH + H <=> CF3CCH2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+14,'cm^3/(mol*s)'), n=0, Ea=(4780,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 2893,
+    label = "CFCHCF3 <=> CF3 + C2HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'s^-1'), n=0, Ea=(55000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 2894,
+    label = "CH-CFCF3 <=> CF3 + C2HF_2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'s^-1'), n=0, Ea=(45000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
