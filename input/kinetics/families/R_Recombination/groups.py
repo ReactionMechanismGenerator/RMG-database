@@ -35,6 +35,470 @@ entry(
 )
 
 entry(
+    index = 10000,
+    label = "F_R",
+    group = 
+"""
+1 * F u1
+2 * R u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1000,
+    label = "F_H",
+    group = 
+"""
+1 * H u1
+2 * F u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1001,
+    label = "F_Cs",
+    group = 
+"""
+1 * F u1
+2 * Cs u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1002,
+    label = "F_CsF",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S}
+3   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10020,
+    label = "F_CsF/Cs",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10021,
+    label = "F_CsF/CsF",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S}
+5   F1s u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10021,
+    label = "F_CsF/CsF2",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10022,
+    label = "F_CsF/CsF3",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S} {7,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {4,S} 
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10023,
+    label = "F_CsF2/CsF",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S} {6,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S}
+5   F1s u0 {4,S}
+6   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10024,
+    label = "F_CsF2/CsF2",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S} {7,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10025,
+    label = "F_CsF2/CsF3",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S} {8,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S} {7,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {4,S} 
+8   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10026,
+    label = "F_CsF3/CsF",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S} {6,S} {7,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S}
+5   F1s u0 {4,S}
+6   F1s u0 {2,S}
+7   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10027,
+    label = "F_CsF3/CsF2",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S} {7,S} {8,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {2,S}
+8   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10028,
+    label = "F_CsF3/CsF3",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S} {8,S} {9,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S} {7,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {4,S} 
+8   F1s u0 {2,S}
+9   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10029,
+    label = "H_CsF/Cs",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10030,
+    label = "H_CsF/CsF",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S}
+5   F1s u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10031,
+    label = "H_CsF/CsF2",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10032,
+    label = "H_CsF/CsF3",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S} {7,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {4,S} 
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10033,
+    label = "H_CsF2/CsF",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S} {6,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S}
+5   F1s u0 {4,S}
+6   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10034,
+    label = "H_CsF2/CsF2",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S} {7,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10035,
+    label = "H_CsF2/CsF3",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S} {8,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S} {7,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {4,S} 
+8   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10036,
+    label = "H_CsF3/CsF",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S} {6,S} {7,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S}
+5   F1s u0 {4,S}
+6   F1s u0 {2,S}
+7   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10037,
+    label = "H_CsF3/CsF2",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S} {7,S} {8,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {2,S}
+8   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10038,
+    label = "H_CsF3/CsF3",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S} {8,S} {9,S}
+3   F1s u0 {2,S}
+4   Cs u0 {2,S} {5,S} {6,S} {7,S}
+5   F1s u0 {4,S}
+6   F1s u0 {4,S} 
+7   F1s u0 {4,S} 
+8   F1s u0 {2,S}
+9   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1003,
+    label = "F_CsF2",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1004,
+    label = "F_CsF3",
+    group = 
+"""
+1 * F u1
+2 * Cs u1 {3,S} {4,S} {5,S}
+3   F1s u0 {2,S}
+4   F1s u0 {2,S}
+5   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1005,
+    label = "H_CsF",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S}
+3   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10050,
+    label = "H_CdF",
+    group = 
+"""
+1 * H u1
+2 * Cd u1 {3,S} {4,D}
+3   F1s u0 {2,S}
+4   R u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1006,
+    label = "H_CsF2",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S}
+3   F1s u0 {2,S}
+4   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1007,
+    label = "H_CsF3",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S} {4,S} {5,S}
+3   F1s u0 {2,S}
+4   F1s u0 {2,S}
+5   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1008,
+    label = "F_CO",
+    group = 
+"""
+1 * F  u1
+2 * C  u1 {3,D}
+3   O  u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1009,
+    label = "F_CO/F",
+    group = 
+"""
+1 * F  u1
+2 * C  u1 {3,D} {4,S}
+3   O  u0 {2,D}
+4   F1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+
+entry(
     index = 1,
     label = "Root_1R->H",
     group = 
@@ -2545,7 +3009,39 @@ entry(
 tree(
 """
 L1: Root
+    L2: F_R
+        L3: F_H
+        L3: F_CO
+            L4: F_CO/F
+        L3: F_Cs
+            L4: F_CsF
+                L5: F_CsF/Cs
+                    L6: F_CsF/CsF
+                        L7: F_CsF/CsF2
+                            L8: F_CsF/CsF3
+                L5: F_CsF2
+                    L6: F_CsF2/CsF
+                        L7: F_CsF2/CsF2
+                            L8: F_CsF2/CsF3
+                    L6: F_CsF3
+                        L7: F_CsF3/CsF
+                            L8: F_CsF3/CsF2
+                                L9: F_CsF3/CsF3                       
     L2: Root_1R->H
+        L3: H_CdF
+        L3: H_CsF
+            L4: H_CsF/Cs
+                L5: H_CsF/CsF
+                    L6: H_CsF/CsF2
+                        L7: H_CsF/CsF3
+            L4: H_CsF2
+                L5: H_CsF2/CsF
+                    L6: H_CsF2/CsF2
+                        L7: H_CsF2/CsF3
+                L5: H_CsF3
+                    L6: H_CsF3/CsF
+                        L7: H_CsF3/CsF2
+                            L8: H_CsF3/CsF3 
         L3: Root_1R->H_2R->S
             L4: Root_1R->H_2R->S_Ext-2S-R
         L3: Root_1R->H_N-2R->S
@@ -2738,18 +3234,18 @@ L1: Root
 """
 )
 
-forbidden(
-    label = "Cl",
-    group = 
-"""
-1 * Cl u1
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+# forbidden(
+#     label = "Cl",
+#     group = 
+# """
+# 1 * Cl u1
+# """,
+#     shortDesc = u"""""",
+#     longDesc = 
+# u"""
 
-""",
-)
+# """,
+# )
 
 forbidden(
     label = "O4",
