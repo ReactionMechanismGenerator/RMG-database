@@ -1,0 +1,114 @@
+CH3-CHF2
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+3 F u0 p3 c0 {2,S}
+4 F u0 p3 c0 {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+
+CH2CHF
+1    F u0 p3 c0 {3,S}
+2 *1 C u0 p0 c0 {3,D} {4,S} {5,S}
+3 *2 C u0 p0 c0 {1,S} {2,D} {6,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+6    H u0 p0 c0 {3,S}
+
+HF
+1 *4 F u0 p3 c0 {2,S}
+2 *3 H u0 p0 c0 {1,S}
+
+CH3-CF3
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+
+CH2CF2
+1 *1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}
+3    F u0 p3 c0 {2,S}
+4    F u0 p3 c0 {2,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
+
+CH2F-CH2F
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+
+CH2F-CHF2
+1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {2,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+
+CHFCHF[Z]
+1 *1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 *2 C u0 p0 c0 {1,D} {4,S} {6,S}
+3    F u0 p3 c0 {1,S}
+4    F u0 p3 c0 {2,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {2,S}
+
+CH2F-CF3
+1 C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+2 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {2,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {1,S}
+
+CHFCF2
+1    F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {5,S}
+4 *1 C u0 p0 c0 {1,S} {5,D} {6,S}
+5 *2 C u0 p0 c0 {2,S} {3,S} {4,D}
+6    H u0 p0 c0 {4,S}
+
+CHF2-CHF2
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+2 C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+
+CHF2-CF3
+1 F u0 p3 c0 {6,S}
+2 F u0 p3 c0 {6,S}
+3 F u0 p3 c0 {7,S}
+4 F u0 p3 c0 {7,S}
+5 F u0 p3 c0 {7,S}
+6 C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+7 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8 H u0 p0 c0 {6,S}
+
+CF2CF2
+1    F u0 p3 c0 {5,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {6,S}
+4    F u0 p3 c0 {6,S}
+5 *1 C u0 p0 c0 {1,S} {2,S} {6,D}
+6 *2 C u0 p0 c0 {3,S} {4,S} {5,D}
+
