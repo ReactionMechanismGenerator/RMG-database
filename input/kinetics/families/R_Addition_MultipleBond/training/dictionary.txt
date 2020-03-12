@@ -84784,3 +84784,64 @@ multiplicity 2
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
+
+CF3CCH
+1    F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3    F u0 p3 c0 {4,S}
+4    C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 *2 C u0 p0 c0 {4,S} {6,T}
+6 *1 C u0 p0 c0 {5,T} {7,S}
+7    H u0 p0 c0 {6,S}
+
+CF3CCH2
+multiplicity 2
+1 F u0 p3 c0 {4,S}
+2 F u0 p3 c0 {4,S}
+3 F u0 p3 c0 {4,S}
+4 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5 C u0 p0 c0 {6,D} {7,S} {8,S}
+6 C u1 p0 c0 {4,S} {5,D}
+7 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {5,S}
+
+CFCHCF3
+multiplicity 2
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+
+CF3
+multiplicity 2
+1    F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3    F u0 p3 c0 {4,S}
+4 *3 C u1 p0 c0 {1,S} {2,S} {3,S}
+
+C2HF
+1 *1 C u0 p0 c0 {2,T} {4,S}
+2 *2 C u0 p0 c0 {1,T} {3,S}
+3    F u0 p3 c0 {2,S}
+4    H u0 p0 c0 {1,S}
+
+CH-CFCF3
+multiplicity 2
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+
+C2HF_2
+1 *2 C u0 p0 c0 {2,T} {4,S}
+2 *1 C u0 p0 c0 {1,T} {3,S}
+3    F u0 p3 c0 {2,S}
+4    H u0 p0 c0 {1,S}

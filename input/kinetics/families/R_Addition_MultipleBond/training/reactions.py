@@ -28,10 +28,10 @@ entry(
         url = 'http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:1',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Dominguez et al. Data derived from fitting to a complex mechanism.
-Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC. 
+Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC.
 C2H2 + Tert-C4H9 --> (CH3)3CCH=CH
 
 Was in the rules database with rank=4. Richard moved to the training database and checked with NIST database. NIST squib: 1962GAR/TRO940-944
@@ -60,7 +60,7 @@ entry(
     referenceType = "theory",
     rank = 10,
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
@@ -81,7 +81,7 @@ entry(
     referenceType = "theory",
     rank = 10,
     shortDesc = u"""nyee TST calculations at CBS-QB3 level with hindered rotors level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3 level with hindered rotors
 using Gaussian 03. High-pressure-limit rate coefficient computed
@@ -111,7 +111,7 @@ entry(
         url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -140,7 +140,7 @@ entry(
         url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -169,7 +169,7 @@ entry(
         url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -198,7 +198,7 @@ entry(
         url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -227,7 +227,7 @@ entry(
         url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -256,7 +256,7 @@ entry(
         url = 'http://pubs.rsc.org/en/content/articlepdf/2015/CP/C4CP05308G',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Wang et al. Phys. Chem. Chem. Phys., 2015, 17, 6255--6273
 Table 4
@@ -276,7 +276,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPD + H <=> addA
 """,
@@ -294,7 +294,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPD + H <=> addB
 """,
@@ -312,7 +312,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPD + H <=> addC
 """,
@@ -330,7 +330,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPD + H <=> addD
 """,
@@ -343,7 +343,7 @@ entry(
     kinetics = Arrhenius(A=(1.87e+11, 's^-1'), n=0.68, Ea=(13.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addB <=> CPDyl + C2H4
 """,
@@ -356,7 +356,7 @@ entry(
     kinetics = Arrhenius(A=(1.06e+11, 's^-1'), n=1.15, Ea=(39.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product7 <=> FULVENE + CH3
 """,
@@ -369,7 +369,7 @@ entry(
     kinetics = Arrhenius(A=(1.5e+12, 's^-1'), n=0.81, Ea=(33.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addD <=> CPD + C2H3
 """,
@@ -382,7 +382,7 @@ entry(
     kinetics = Arrhenius(A=(2.07e+11, 's^-1'), n=0.83, Ea=(22.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product2 <=> BENZENE + CH3
 """,
@@ -395,7 +395,7 @@ entry(
     kinetics = Arrhenius(A=(1.03e+09, 's^-1'), n=1.36, Ea=(26.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product2 <=> TOLUENE + H
 """,
@@ -408,7 +408,7 @@ entry(
     kinetics = Arrhenius(A=(1.01e+09, 's^-1'), n=1.23, Ea=(28.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product5 <=> product13 + H
 """,
@@ -421,7 +421,7 @@ entry(
     kinetics = Arrhenius(A=(4.47e+10, 's^-1'), n=1.17, Ea=(41.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product12 <=> product14 + H
 """,
@@ -434,7 +434,7 @@ entry(
     kinetics = Arrhenius(A=(3.58e+10, 's^-1'), n=1.38, Ea=(48.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product4 <=> product15 + H
 """,
@@ -447,7 +447,7 @@ entry(
     kinetics = Arrhenius(A=(1.89e+12, 's^-1'), n=0.87, Ea=(45, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addC <=> CPD + C2H3
 """,
@@ -460,7 +460,7 @@ entry(
     kinetics = Arrhenius(A=(263, 'cm^3/(mol*s)'), n=2.89, Ea=(6.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + CH3 <=> product18
 """,
@@ -473,7 +473,7 @@ entry(
     kinetics = Arrhenius(A=(4.47e+10, 's^-1'), n=1.17, Ea=(41.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product24 <=> product13 + H
 """,
@@ -486,7 +486,7 @@ entry(
     kinetics = Arrhenius(A=(2790, 'cm^3/(mol*s)'), n=2.91, Ea=(1.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + CH3 <=> product32
 """,
@@ -499,7 +499,7 @@ entry(
     kinetics = Arrhenius(A=(2470, 'cm^3/(mol*s)'), n=2.88, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: FULVENE + CH3 <=> product31
 """,
@@ -512,7 +512,7 @@ entry(
     kinetics = Arrhenius(A=(3.03e+10, 's^-1'), n=1.22, Ea=(40.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product37 <=> product13 + H
 """,
@@ -538,7 +538,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -559,7 +559,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -580,7 +580,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -593,7 +593,7 @@ entry(
     kinetics = Arrhenius(A=(7.93e+09, 's^-1'), n=1.27, Ea=(31, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_2 <=> prod_3 + H
 """,
@@ -606,7 +606,7 @@ entry(
     kinetics = Arrhenius(A=(18.6, 'cm^3/(mol*s)'), n=3, Ea=(9.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4a + iC4H7 <=> prod_6
 """,
@@ -619,7 +619,7 @@ entry(
     kinetics = Arrhenius(A=(6.37e+08, 's^-1'), n=1.3, Ea=(29.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_4 <=> prod_5 + H
 """,
@@ -637,7 +637,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4p + aC3H5 <=> prod_7
 """,
@@ -650,7 +650,7 @@ entry(
     kinetics = Arrhenius(A=(7.99e+10, 's^-1'), n=1, Ea=(32.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_8 <=> prod_9 + H
 """,
@@ -663,7 +663,7 @@ entry(
     kinetics = Arrhenius(A=(121, 'cm^3/(mol*s)'), n=2.9, Ea=(10.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4p + iC4H7 <=> prod_10
 """,
@@ -676,7 +676,7 @@ entry(
     kinetics = Arrhenius(A=(2.77e+09, 's^-1'), n=1.4, Ea=(32, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_11 <=> prod_12 + H
 """,
@@ -689,7 +689,7 @@ entry(
     kinetics = Arrhenius(A=(128, 'cm^3/(mol*s)'), n=3.05, Ea=(7.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4a + BD2YL <=> prod_13
 """,
@@ -702,7 +702,7 @@ entry(
     kinetics = Arrhenius(A=(4e+10, 's^-1'), n=1.27, Ea=(44.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_14 <=> prod_15 + H
 """,
@@ -715,7 +715,7 @@ entry(
     kinetics = Arrhenius(A=(1900, 'cm^3/(mol*s)'), n=2.92, Ea=(8.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4p + BD2YL <=> prod_16
 """,
@@ -728,7 +728,7 @@ entry(
     kinetics = Arrhenius(A=(6.47e+10, 's^-1'), n=1.22, Ea=(45.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_17 <=> prod_18 + H
 """,
@@ -741,7 +741,7 @@ entry(
     kinetics = Arrhenius(A=(3960, 'cm^3/(mol*s)'), n=2.65, Ea=(11.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: aC3H5 + C3H4a <=> prod_19
 """,
@@ -754,7 +754,7 @@ entry(
     kinetics = Arrhenius(A=(37, 'cm^3/(mol*s)'), n=2.89, Ea=(9.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H4a + iC4H7 <=> prod_20
 """,
@@ -772,7 +772,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: aC3H5 + C2H2 <=> prod_21
 """,
@@ -785,7 +785,7 @@ entry(
     kinetics = Arrhenius(A=(4.19e+09, 's^-1'), n=1.37, Ea=(31.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_22 <=> CPD + H
 """,
@@ -803,7 +803,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C2H2 <=> prod_23
 """,
@@ -816,7 +816,7 @@ entry(
     kinetics = Arrhenius(A=(7040, 'cm^3/(mol*s)'), n=2.87, Ea=(9.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C3H4p <=> prod_25
 """,
@@ -829,7 +829,7 @@ entry(
     kinetics = Arrhenius(A=(285, 'cm^3/(mol*s)'), n=2.93, Ea=(11.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C3H4p <=> prod_27
 """,
@@ -842,7 +842,7 @@ entry(
     kinetics = Arrhenius(A=(850, 'cm^3/(mol*s)'), n=2.81, Ea=(8.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C3H4a <=> prod_29
 """,
@@ -855,7 +855,7 @@ entry(
     kinetics = Arrhenius(A=(288, 'cm^3/(mol*s)'), n=2.8, Ea=(8.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: CPD + CPDyl <=> adducte
 """,
@@ -868,7 +868,7 @@ entry(
     kinetics = Arrhenius(A=(288, 'cm^3/(mol*s)'), n=2.74, Ea=(3.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: CPD + CPDyl <=> adductd
 """,
@@ -886,7 +886,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt11 + H <=> pdt10bis
 """,
@@ -899,7 +899,7 @@ entry(
     kinetics = Arrhenius(A=(7.14e+12, 's^-1'), n=0.52, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt12 <=> benzene + butadieneyl
 """,
@@ -917,7 +917,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt13 + H <=> pdt12
 """,
@@ -930,7 +930,7 @@ entry(
     kinetics = Arrhenius(A=(2480, 'cm^3/(mol*s)'), n=2.89, Ea=(-0.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt22 + CH3 <=> pdt21
 """,
@@ -943,7 +943,7 @@ entry(
     kinetics = Arrhenius(A=(1.49e+09, 's^-1'), n=1.41, Ea=(38.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt23 <=> pdt30 + H
 """,
@@ -961,7 +961,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt26 + H <=> pdt19
 """,
@@ -979,7 +979,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt31 + H <=> pdt8
 """,
@@ -992,7 +992,7 @@ entry(
     kinetics = Arrhenius(A=(5.72e+10, 's^-1'), n=1.33, Ea=(51.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt32 <=> pdt22 + CH3
 """,
@@ -1010,7 +1010,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt31 + H <=> pdt29
 """,
@@ -1028,7 +1028,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt30 + H <=> pdt29
 """,
@@ -1046,7 +1046,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt35 + H <=> pdt29
 """,
@@ -1064,7 +1064,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt38 + H <=> pdt37
 """,
@@ -1090,7 +1090,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -1116,7 +1116,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -1142,7 +1142,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -1168,7 +1168,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -1194,7 +1194,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -1212,7 +1212,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: biCPD3ene + H <=> adducta
 """,
@@ -1230,7 +1230,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: biCPD3ene + H <=> adductb
 """,
@@ -1248,7 +1248,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: biCPD3ene + H <=> adductc
 """,
@@ -1261,7 +1261,7 @@ entry(
     kinetics = Arrhenius(A=(1.34e+08, 's^-1'), n=1.55, Ea=(15.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod4 <=> naphthalene + H
 """,
@@ -1279,7 +1279,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -1292,7 +1292,7 @@ entry(
     kinetics = Arrhenius(A=(1228, 'cm^3/(mol*s)'), n=2.756, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -1310,7 +1310,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: Ethylamine""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3
 """,
@@ -1328,7 +1328,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2016
 More information can be found on pharos ~laitcl/Gaussian/2017/Kinetics
@@ -1347,7 +1347,7 @@ entry(
         comment = 'From 2012 Kislov',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: From 2012 Kislov
 """,
@@ -1365,7 +1365,7 @@ entry(
         comment = 'CBS-QB3',
     ),
     rank = 10,
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: New_Phenyl_Propene_Pathway
 CBS-QB3
@@ -1384,7 +1384,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Hexylbenzene + H --> CCCCCCC1C=C[CH]C=C1
@@ -1404,7 +1404,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1[CH]C=CCC=1
@@ -1424,7 +1424,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1=C[CH]C=CC1
@@ -1444,7 +1444,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1C=CC[CH]C=1
@@ -1464,7 +1464,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 Toluene + H --> CC1C=C[CH]C=C1
@@ -1479,7 +1479,7 @@ entry(
     kinetics = Arrhenius(A=(3132, 'cm^3/(mol*s)'), n=2.668, Ea=(0.41, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C3H6 <=> i1
 """,
@@ -1497,7 +1497,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C3H6 <=> i2
 """,
@@ -1510,7 +1510,7 @@ entry(
     kinetics = Arrhenius(A=(7.532e+07, 's^-1'), n=1.831, Ea=(34.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i1 <=> p2 + H
 """,
@@ -1523,7 +1523,7 @@ entry(
     kinetics = Arrhenius(A=(4.133e+08, 's^-1'), n=1.389, Ea=(34.424, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i1 <=> p3 + H
 """,
@@ -1536,7 +1536,7 @@ entry(
     kinetics = Arrhenius(A=(5.169e+10, 's^-1'), n=0.925, Ea=(28.785, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i2 <=> p1 + CH3
 """,
@@ -1549,7 +1549,7 @@ entry(
     kinetics = Arrhenius(A=(1.145e+09, 's^-1'), n=1.255, Ea=(34.391, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i2 <=> p4 + H
 """,
@@ -1562,7 +1562,7 @@ entry(
     kinetics = Arrhenius(A=(3.77e+08, 's^-1'), n=1.506, Ea=(35.156, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i4 <=> p2 + H
 """,
@@ -1575,7 +1575,7 @@ entry(
     kinetics = Arrhenius(A=(4.595e+09, 's^-1'), n=1.097, Ea=(22.941, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i5 <=> p5 + H
 """,
@@ -1588,7 +1588,7 @@ entry(
     kinetics = Arrhenius(A=(7.6e+09, 's^-1'), n=1.106, Ea=(25.978, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i6 <=> p2 + H
 """,
@@ -1601,7 +1601,7 @@ entry(
     kinetics = Arrhenius(A=(4.276e+11, 's^-1'), n=0.842, Ea=(35.998, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i7 <=> p1 + CH3
 """,
@@ -1614,7 +1614,7 @@ entry(
     kinetics = Arrhenius(A=(3.757e+10, 's^-1'), n=1.083, Ea=(40.433, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i7 <=> p3 + H
 """,
@@ -1627,7 +1627,7 @@ entry(
     kinetics = Arrhenius(A=(1.37e+13, 's^-1'), n=0.61, Ea=(48.173, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i8 <=> p7 + CH3
 """,
@@ -1640,7 +1640,7 @@ entry(
     kinetics = Arrhenius(A=(9.945e+09, 's^-1'), n=1.096, Ea=(26.664, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i8 <=> p8 + H
 """,
@@ -1653,7 +1653,7 @@ entry(
     kinetics = Arrhenius(A=(4.086e+10, 's^-1'), n=0.921, Ea=(25.035, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i10 <=> p4 + H
 """,
@@ -1666,7 +1666,7 @@ entry(
     kinetics = Arrhenius(A=(4.39e+09, 's^-1'), n=1.1, Ea=(22.881, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i4 <=> benzyl + C2H4
 """,
@@ -1684,7 +1684,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2001_Tokmakov_H_Toluene_to_CH3_Benzene_high_P""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5CH3 + H <=> ipso-(C7H9)
 """,
@@ -1697,7 +1697,7 @@ entry(
     kinetics = Arrhenius(A=(5.831e+11, 's^-1'), n=0.669, Ea=(19.862, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2001_Tokmakov_H_Toluene_to_CH3_Benzene_high_P""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: ipso-(C7H9) <=> C6H6 + CH3
 """,
@@ -1715,7 +1715,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C2H3 + C4H6 <=> C6H9
 """,
@@ -1728,7 +1728,7 @@ entry(
     kinetics = Arrhenius(A=(2.29e+06, 's^-1'), n=2.017, Ea=(40.664, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H9 <=> C6H8 + H
 """,
@@ -1741,7 +1741,7 @@ entry(
     kinetics = Arrhenius(A=(1.972e+07, 's^-1'), n=1.802, Ea=(32.304, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: c5-C6H9 <=> H + c5-C6H8
 """,
@@ -1754,7 +1754,7 @@ entry(
     kinetics = Arrhenius(A=(7.487e+08, 's^-1'), n=1.395, Ea=(33.132, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: c6-C6H9 <=> H + C6H8-c6-13
 """,
@@ -1767,7 +1767,7 @@ entry(
     kinetics = Arrhenius(A=(2.097e+09, 's^-1'), n=1.299, Ea=(33.394, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: c6-C6H9 <=> H + C6H8-c6-14
 """,
@@ -1780,7 +1780,7 @@ entry(
     kinetics = Arrhenius(A=(4.961e+11, 's^-1'), n=0.717, Ea=(38.962, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: c5-C6H9-2 <=> C5H6 + CH3
 """,
@@ -1798,7 +1798,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C4H4 <=> W1
 """,
@@ -1811,7 +1811,7 @@ entry(
     kinetics = Arrhenius(A=(1.456e+08, 's^-1'), n=1.511, Ea=(40.052, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1 <=> P2 + H
 """,
@@ -1829,7 +1829,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C4H4 <=> W2
 """,
@@ -1847,7 +1847,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C4H4 <=> W3
 """,
@@ -1860,7 +1860,7 @@ entry(
     kinetics = Arrhenius(A=(2.076e+12, 's^-1'), n=0.597, Ea=(36.928, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W10 <=> P2 + H
 """,
@@ -1873,7 +1873,7 @@ entry(
     kinetics = Arrhenius(A=(2.394e+10, 's^-1'), n=1.133, Ea=(39.957, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W16 <=> P2 + H
 """,
@@ -1886,7 +1886,7 @@ entry(
     kinetics = Arrhenius(A=(1.951e+13, 's^-1'), n=0.612, Ea=(49.045, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W20 <=> P2 + H
 """,
@@ -1899,7 +1899,7 @@ entry(
     kinetics = Arrhenius(A=(1571, 'cm^3/(mol*s)'), n=2.63, Ea=(2.072, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H5 + C4H4 <=> W14
 """,
@@ -1917,7 +1917,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P1 + H <=> W6
 """,
@@ -1935,7 +1935,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P1 + H <=> W13
 """,
@@ -1953,7 +1953,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P4 + H <=> W3
 """,
@@ -1971,7 +1971,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P4 + H <=> W9
 """,
@@ -1989,7 +1989,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P5 + H <=> W3
 """,
@@ -2007,7 +2007,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P5 + H <=> W20
 """,
@@ -2025,7 +2025,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P6 + H <=> W14
 """,
@@ -2043,7 +2043,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt13 + H <=> pdt25
 """,
@@ -2056,7 +2056,7 @@ entry(
     kinetics = Arrhenius(A=(643, 'cm^3/(mol*s)'), n=2.8, Ea=(8.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: INDENE + CH3 <=> pdt27
 """,
@@ -2069,7 +2069,7 @@ entry(
     kinetics = Arrhenius(A=(1.06e+10, 's^-1'), n=1.26, Ea=(28.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product20 <=> TOLUENE + H
 """,
@@ -2087,7 +2087,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl + HCCCH3 <=> W1_2
 """,
@@ -2105,7 +2105,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl + HCCCH3 <=> W3_4
 """,
@@ -2123,7 +2123,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl + H2CCCH2 <=> W6
 """,
@@ -2136,7 +2136,7 @@ entry(
     kinetics = Arrhenius(A=(4578, 'cm^3/(mol*s)'), n=2.53, Ea=(1.932, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl + H2CCCH2 <=> W11
 """,
@@ -2154,7 +2154,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: benzyl + C2H2 <=> W20
 """,
@@ -2172,7 +2172,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: Indene + H <=> W15
 """,
@@ -2190,7 +2190,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: Indene + H <=> W22
 """,
@@ -2208,7 +2208,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: Indene + H <=> W23
 """,
@@ -2226,7 +2226,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: Indene + H <=> W18
 """,
@@ -2244,7 +2244,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P2 + H <=> W1_2
 """,
@@ -2262,7 +2262,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P2 + H <=> W5
 """,
@@ -2280,7 +2280,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl-allene + H <=> W1_2
 """,
@@ -2298,7 +2298,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl-allene + H <=> W8_9
 """,
@@ -2316,7 +2316,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl-allene + H <=> W11
 """,
@@ -2334,7 +2334,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P4 + H <=> W11
 """,
@@ -2352,7 +2352,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P4 + H <=> W20
 """,
@@ -2370,7 +2370,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenylacetylene + CH3 <=> W3_4
 """,
@@ -2388,7 +2388,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenylacetylene + CH3 <=> W5
 """,
@@ -2406,7 +2406,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_Indene_CH3_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: 3_methylindene + H <=> W1
 """,
@@ -2424,7 +2424,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_Indene_CH3_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: 1_methylindene + H <=> W1
 """,
@@ -2442,7 +2442,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_Indene_CH3_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: Indene + CH3 <=> W1
 """,
@@ -2460,7 +2460,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_Indene_CH3_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: 2_methylindene + H <=> W2
 """,
@@ -2478,7 +2478,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_Indene_CH3_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: Indene + CH3 <=> W2
 """,
@@ -2491,7 +2491,7 @@ entry(
     kinetics = Arrhenius(A=(813000, 'cm^3/(mol*s)'), n=2.56, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl + 1_3_butadiene <=> 4_phenyl_buten_3_yl
 """,
@@ -2504,7 +2504,7 @@ entry(
     kinetics = Arrhenius(A=(47900, 'cm^3/(mol*s)'), n=2.65, Ea=(16.7, 'kJ/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl + 1_3_butadiene <=> 3_phenyl_buten_4_yl
 """,
@@ -2517,7 +2517,7 @@ entry(
     kinetics = Arrhenius(A=(6.61e+07, 's^-1'), n=2.11, Ea=(161.62, 'kJ/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: 4_phenyl_buten_3_yl <=> 1_phenyl_1_3_butadiene + H
 """,
@@ -2530,7 +2530,7 @@ entry(
     kinetics = Arrhenius(A=(1.38e+10, 's^-1'), n=1.25, Ea=(92.6, 'kJ/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: trihydronaphthalene <=> 1_4_dihydro_naphthalene + H
 """,
@@ -2548,7 +2548,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C6H4C2H3 + C2H2 <=> W5
 """,
@@ -2561,7 +2561,7 @@ entry(
     kinetics = Arrhenius(A=(2.567e+11, 's^-1'), n=0.787, Ea=(28.205, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W6 <=> P1 + H
 """,
@@ -2574,7 +2574,7 @@ entry(
     kinetics = Arrhenius(A=(1.191e+09, 's^-1'), n=1.264, Ea=(30.816, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W8 <=> P2 + H
 """,
@@ -2587,7 +2587,7 @@ entry(
     kinetics = Arrhenius(A=(1.304e+10, 's^-1'), n=1.16, Ea=(37.552, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W5 <=> P5 + H
 """,
@@ -2600,7 +2600,7 @@ entry(
     kinetics = Arrhenius(A=(2.05e+10, 's^-1'), n=1.329, Ea=(52.477, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W101 <=> P2 + H
 """,
@@ -2613,7 +2613,7 @@ entry(
     kinetics = Arrhenius(A=(7.923e+11, 's^-1'), n=0.777, Ea=(40.274, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W102 <=> P2 + H
 """,
@@ -2626,7 +2626,7 @@ entry(
     kinetics = Arrhenius(A=(4.568e+11, 's^-1'), n=0.972, Ea=(78.037, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W103 <=> P105 + H
 """,
@@ -2639,7 +2639,7 @@ entry(
     kinetics = Arrhenius(A=(8.249e+08, 's^-1'), n=1.2, Ea=(27.426, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W107 <=> P109 + H
 """,
@@ -2652,7 +2652,7 @@ entry(
     kinetics = Arrhenius(A=(1.956e+11, 's^-1'), n=0.789, Ea=(32.262, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W118 <=> P1 + H
 """,
@@ -2665,7 +2665,7 @@ entry(
     kinetics = Arrhenius(A=(3.427e+09, 's^-1'), n=1.431, Ea=(66.532, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W106 <=> P109 + H
 """,
@@ -2678,7 +2678,7 @@ entry(
     kinetics = Arrhenius(A=(1.893e+15, 's^-1'), n=-0.16, Ea=(65.494, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W108 <=> P109 + H
 """,
@@ -2691,7 +2691,7 @@ entry(
     kinetics = Arrhenius(A=(1.234e+12, 's^-1'), n=0.766, Ea=(43.611, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W119 <=> P2 + H
 """,
@@ -2704,7 +2704,7 @@ entry(
     kinetics = Arrhenius(A=(5.401e+11, 's^-1'), n=0.549, Ea=(19.678, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W14 <=> P9 + H
 """,
@@ -2722,7 +2722,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: R1 + C2H2 <=> W1
 """,
@@ -2740,7 +2740,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P1 + H <=> W1
 """,
@@ -2758,7 +2758,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P2 + H <=> W2
 """,
@@ -2776,7 +2776,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P2 + H <=> W4
 """,
@@ -2794,7 +2794,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P3 + H <=> W4
 """,
@@ -2812,7 +2812,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P4 + H <=> W5
 """,
@@ -2830,7 +2830,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: P5 + H <=> W7
 """,
@@ -2843,7 +2843,7 @@ entry(
     kinetics = Arrhenius(A=(9.89e+14, 's^-1'), n=0, Ea=(38.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Wang_K_C6H9""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: Well_5 <=> CH3 + CPD
 """,
@@ -2856,7 +2856,7 @@ entry(
     kinetics = Arrhenius(A=(1.817e+11, 's^-1'), n=0.838, Ea=(38.356, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5C2H2_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W3 <=> P4 + H
 """,
@@ -2874,7 +2874,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5C2H2_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: R2 + C2H2 <=> W3
 """,
@@ -2887,7 +2887,7 @@ entry(
     kinetics = Arrhenius(A=(5.581e+10, 's^-1'), n=0.793, Ea=(14.523, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5C2H2_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W4 <=> P1 + H
 """,
@@ -2900,7 +2900,7 @@ entry(
     kinetics = Arrhenius(A=(3.323e+10, 's^-1'), n=1.103, Ea=(38.251, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1 <=> P1 + H
 """,
@@ -2918,7 +2918,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: R1 + C2H2 <=> W1
 """,
@@ -2936,7 +2936,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: benzene_1 + methyl_7 <=> C7H9_12
 """,
@@ -2949,7 +2949,7 @@ entry(
     kinetics = Arrhenius(A=(4.217e+10, 's^-1'), n=0.87, Ea=(25.199, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C7H9_12 <=> C7H8_17 + H_15
 """,
@@ -2967,7 +2967,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C7H7_10 + ethyne_8 <=> C9H9_13
 """,
@@ -2980,7 +2980,7 @@ entry(
     kinetics = Arrhenius(A=(3.597e+10, 's^-1'), n=0.889, Ea=(20.893, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H9_14 <=> indene_25 + H_15
 """,
@@ -2998,7 +2998,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: benzene_1 + C3H3_9 <=> C9H9_2
 """,
@@ -3016,7 +3016,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: benzene_1 + C3H3_9 <=> C9H9_6
 """,
@@ -3029,7 +3029,7 @@ entry(
     kinetics = Arrhenius(A=(4.591e+10, 's^-1'), n=0.886, Ea=(24.975, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H9_5 <=> indene_25 + H_15
 """,
@@ -3049,7 +3049,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 M.A. Blitz, K.J. Hughes, M.J. Pilling, S.H. Robertson, J. Phys. Chem. A, 2006, 110(9), 2996-3009, doi: 10.1021/jp054722u
 As reported by Gimenez-Lopez, M. Martinez, A. Millera, R. Bilbao, M.U. Alzueta, Comb. Flame 2011, 158(1), 48-56, doi: 10.1016/j.combustflame.2010.07.017
@@ -3076,7 +3076,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
 Fits to a total of 972 MRCI energies (based on the aug-cc-pVQZ basis set of Dunning27), scaled by the DMBE-SEC
@@ -3106,7 +3106,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
@@ -3132,7 +3132,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
@@ -3153,7 +3153,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
@@ -3179,7 +3179,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 The restricted QCISD(T)/inf barrier heights//B3LYP/6-311++G(d,p)
 These QCISD(T) calculations employed the correlation-consistent, polarized-valence, triple- (cc-pvtz) and quadruple- (cc-pvqz) basis sets and were extrapolated to the infinite basis-set limit via the expression
@@ -3206,7 +3206,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 The restricted QCISD(T)/ barrier heights//B3LYP/6-311++G(d,p)
 These QCISD(T) calculations employed the correlation-consistent, polarized-valence, triple- (cc-pvtz) and quadruple- (cc-pvqz) basis sets and were extrapolated to the infinite basis-set limit via the expression
@@ -3233,7 +3233,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3259,7 +3259,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3285,7 +3285,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3311,7 +3311,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3337,7 +3337,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3363,7 +3363,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3389,7 +3389,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3415,7 +3415,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3441,7 +3441,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3462,7 +3462,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3483,7 +3483,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3504,7 +3504,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3525,7 +3525,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3546,7 +3546,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3567,7 +3567,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3588,7 +3588,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3609,7 +3609,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3630,7 +3630,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -3651,7 +3651,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -3672,7 +3672,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -3698,7 +3698,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -3724,7 +3724,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -3750,7 +3750,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -3776,7 +3776,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -3797,7 +3797,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -3818,7 +3818,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -3844,7 +3844,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 System-specific (SS) QRRK approach is adjusted with SS parameters to agree with multistructural canonical variational transition state theory with multidimensional tunneling (MS-CVT/SCT) at the high-pressure limit. The MPW1K/MG3S level of theory
 """,
@@ -3870,7 +3870,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 System-specific (SS) QRRK approach is adjusted with SS parameters to agree with multistructural canonical variational transition state theory with multidimensional tunneling (MS-CVT/SCT) at the high-pressure limit. The MPW1K/MG3S level of theory
 """,
@@ -3890,7 +3890,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-HHH
 """,
@@ -3910,7 +3910,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CsHH
 """,
@@ -3930,7 +3930,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CsCsH
 """,
@@ -3950,7 +3950,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CsCsCs
 """,
@@ -3970,7 +3970,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CdHH
 """,
@@ -3990,7 +3990,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CdCsH
 """,
@@ -4010,7 +4010,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CdCsCs
 """,
@@ -4030,7 +4030,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CdCdH
 """,
@@ -4050,7 +4050,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CdCdCs
 """,
@@ -4070,7 +4070,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CbHH
 """,
@@ -4090,7 +4090,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CbCsH
 """,
@@ -4110,7 +4110,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CbCsCs
 """,
@@ -4130,7 +4130,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CtHH
 """,
@@ -4150,7 +4150,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CtCsH
 """,
@@ -4170,7 +4170,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-CtCsCs
 """,
@@ -4190,7 +4190,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CdsJ-H
 """,
@@ -4210,7 +4210,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CdsJ-Cs
 """,
@@ -4230,7 +4230,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CbJ
 """,
@@ -4250,7 +4250,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-HHH
 """,
@@ -4270,7 +4270,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CsHH
 """,
@@ -4290,7 +4290,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CsCsH
 """,
@@ -4310,7 +4310,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CsCsCs
 """,
@@ -4330,7 +4330,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CdHH
 """,
@@ -4350,7 +4350,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CdCsH
 """,
@@ -4370,7 +4370,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CdCsCs
 """,
@@ -4390,7 +4390,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CdCdH
 """,
@@ -4410,7 +4410,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CdCdCs
 """,
@@ -4430,7 +4430,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CbHH
 """,
@@ -4450,7 +4450,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CbCsH
 """,
@@ -4470,7 +4470,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CbCsCs
 """,
@@ -4490,7 +4490,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CtHH
 """,
@@ -4510,7 +4510,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CtCsH
 """,
@@ -4530,7 +4530,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-CtCsCs
 """,
@@ -4550,7 +4550,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CdsJ-H
 """,
@@ -4570,7 +4570,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CdsJ-Cs
 """,
@@ -4590,7 +4590,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CbJ
 """,
@@ -4610,7 +4610,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-HHH
 """,
@@ -4630,7 +4630,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CsHH
 """,
@@ -4650,7 +4650,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CsCsH
 """,
@@ -4670,7 +4670,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -4690,7 +4690,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CdHH
 """,
@@ -4710,7 +4710,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CdCsH
 """,
@@ -4730,7 +4730,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -4750,7 +4750,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CdCdH
 """,
@@ -4770,7 +4770,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -4790,7 +4790,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CbHH
 """,
@@ -4810,7 +4810,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CbCsH
 """,
@@ -4830,7 +4830,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -4850,7 +4850,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CtHH
 """,
@@ -4870,7 +4870,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CtCsH
 """,
@@ -4890,7 +4890,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -4910,7 +4910,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CdsJ-H
 """,
@@ -4930,7 +4930,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CdsJ-Cs
 """,
@@ -4950,7 +4950,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;CbJ
 """,
@@ -4970,7 +4970,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-HHH
 """,
@@ -4990,7 +4990,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CsHH
 """,
@@ -5010,7 +5010,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CsCsH
 """,
@@ -5030,7 +5030,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CsCsCs
 """,
@@ -5050,7 +5050,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CdHH
 """,
@@ -5070,7 +5070,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CdCsH
 """,
@@ -5090,7 +5090,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CdCsCs
 """,
@@ -5110,7 +5110,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CdCdH
 """,
@@ -5130,7 +5130,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CdCdCs
 """,
@@ -5150,7 +5150,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CbHH
 """,
@@ -5170,7 +5170,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CbCsH
 """,
@@ -5190,7 +5190,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CbCsCs
 """,
@@ -5210,7 +5210,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CtHH
 """,
@@ -5230,7 +5230,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CtCsH
 """,
@@ -5250,7 +5250,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CsJ-CtCsCs
 """,
@@ -5270,7 +5270,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte.  Update BMK/6-311G(2d,d,p) Eckart no HR.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CdsJ-H
 """,
@@ -5290,7 +5290,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CdsJ-Cs
 """,
@@ -5310,7 +5310,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;CbJ
 """,
@@ -5330,7 +5330,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-HHH
 """,
@@ -5350,7 +5350,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CsHH
 """,
@@ -5370,7 +5370,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CsCsH
 """,
@@ -5390,7 +5390,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -5410,7 +5410,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CdHH
 """,
@@ -5430,7 +5430,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CdCsH
 """,
@@ -5450,7 +5450,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -5470,7 +5470,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CdCdH
 """,
@@ -5490,7 +5490,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -5510,7 +5510,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CbHH
 """,
@@ -5530,7 +5530,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CbCsH
 """,
@@ -5550,7 +5550,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -5570,7 +5570,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CtHH
 """,
@@ -5590,7 +5590,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CtCsH
 """,
@@ -5610,7 +5610,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -5630,7 +5630,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CdsJ-H
 """,
@@ -5650,7 +5650,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CdsJ-Cs
 """,
@@ -5670,7 +5670,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;CbJ
 """,
@@ -5690,7 +5690,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-HHH
 """,
@@ -5710,7 +5710,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CsHH
 """,
@@ -5730,7 +5730,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CsCsH
 """,
@@ -5750,7 +5750,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -5770,7 +5770,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CdHH
 """,
@@ -5790,7 +5790,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CdCsH
 """,
@@ -5810,7 +5810,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -5830,7 +5830,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CdCdH
 """,
@@ -5850,7 +5850,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -5870,7 +5870,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CbHH
 """,
@@ -5890,7 +5890,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CbCsH
 """,
@@ -5910,7 +5910,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -5930,7 +5930,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CtHH
 """,
@@ -5950,7 +5950,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CtCsH
 """,
@@ -5970,7 +5970,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -5990,7 +5990,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CdsJ-H
 """,
@@ -6010,7 +6010,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CdsJ-Cs
 """,
@@ -6030,7 +6030,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;CbJ
 """,
@@ -6050,7 +6050,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-HHH
 """,
@@ -6070,7 +6070,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CsHH
 """,
@@ -6090,7 +6090,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CsCsH
 """,
@@ -6110,7 +6110,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CsCsCs
 """,
@@ -6130,7 +6130,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CdHH
 """,
@@ -6150,7 +6150,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CdCsH
 """,
@@ -6170,7 +6170,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CdCsCs
 """,
@@ -6190,7 +6190,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CdCdH
 """,
@@ -6210,7 +6210,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CdCdCs
 """,
@@ -6230,7 +6230,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CbHH
 """,
@@ -6250,7 +6250,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CbCsH
 """,
@@ -6270,7 +6270,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CbCsCs
 """,
@@ -6290,7 +6290,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CtHH
 """,
@@ -6310,7 +6310,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CtCsH
 """,
@@ -6330,7 +6330,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CsJ-CtCsCs
 """,
@@ -6350,7 +6350,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CdsJ-H
 """,
@@ -6370,7 +6370,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CdsJ-Cs
 """,
@@ -6390,7 +6390,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;CbJ
 """,
@@ -6410,7 +6410,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-HHH
 """,
@@ -6430,7 +6430,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CsHH
 """,
@@ -6450,7 +6450,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CsCsH
 """,
@@ -6470,7 +6470,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -6490,7 +6490,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CdHH
 """,
@@ -6510,7 +6510,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CdCsH
 """,
@@ -6530,7 +6530,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -6550,7 +6550,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CdCdH
 """,
@@ -6570,7 +6570,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -6590,7 +6590,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CbHH
 """,
@@ -6610,7 +6610,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CbCsH
 """,
@@ -6630,7 +6630,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -6650,7 +6650,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CtHH
 """,
@@ -6670,7 +6670,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CtCsH
 """,
@@ -6690,7 +6690,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -6710,7 +6710,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CdsJ-H
 """,
@@ -6730,7 +6730,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CdsJ-Cs
 """,
@@ -6750,7 +6750,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;CbJ
 """,
@@ -6770,7 +6770,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-HHH
 """,
@@ -6790,7 +6790,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CsHH
 """,
@@ -6810,7 +6810,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CsCsH
 """,
@@ -6830,7 +6830,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CsCsCs
 """,
@@ -6850,7 +6850,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CdHH
 """,
@@ -6870,7 +6870,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CdCsH
 """,
@@ -6890,7 +6890,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CdCsCs
 """,
@@ -6910,7 +6910,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CdCdH
 """,
@@ -6930,7 +6930,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CdCdCs
 """,
@@ -6950,7 +6950,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CbHH
 """,
@@ -6970,7 +6970,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CbCsH
 """,
@@ -6990,7 +6990,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CbCsCs
 """,
@@ -7010,7 +7010,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CtHH
 """,
@@ -7030,7 +7030,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CtCsH
 """,
@@ -7050,7 +7050,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CsJ-CtCsCs
 """,
@@ -7070,7 +7070,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CdsJ-H
 """,
@@ -7090,7 +7090,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CdsJ-Cs
 """,
@@ -7110,7 +7110,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;CbJ
 """,
@@ -7130,7 +7130,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-HHH
 """,
@@ -7150,7 +7150,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CsHH
 """,
@@ -7170,7 +7170,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CsCsH
 """,
@@ -7190,7 +7190,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -7210,7 +7210,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CdHH
 """,
@@ -7230,7 +7230,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CdCsH
 """,
@@ -7250,7 +7250,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -7270,7 +7270,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CdCdH
 """,
@@ -7290,7 +7290,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -7310,7 +7310,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CbHH
 """,
@@ -7330,7 +7330,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CbCsH
 """,
@@ -7350,7 +7350,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -7370,7 +7370,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CtHH
 """,
@@ -7390,7 +7390,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CtCsH
 """,
@@ -7410,7 +7410,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -7430,7 +7430,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CdsJ-H
 """,
@@ -7450,7 +7450,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CdsJ-Cs
 """,
@@ -7470,7 +7470,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;CbJ
 """,
@@ -7490,7 +7490,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-HHH
 """,
@@ -7510,7 +7510,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CsHH
 """,
@@ -7530,7 +7530,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CsCsH
 """,
@@ -7550,7 +7550,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CsCsCs
 """,
@@ -7570,7 +7570,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CdHH
 """,
@@ -7590,7 +7590,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CdCsH
 """,
@@ -7610,7 +7610,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CdCsCs
 """,
@@ -7630,7 +7630,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CdCdH
 """,
@@ -7650,7 +7650,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CdCdCs
 """,
@@ -7670,7 +7670,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CbHH
 """,
@@ -7690,7 +7690,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CbCsH
 """,
@@ -7710,7 +7710,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CbCsCs
 """,
@@ -7730,7 +7730,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CtHH
 """,
@@ -7750,7 +7750,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CtCsH
 """,
@@ -7770,7 +7770,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ-CtCsCs
 """,
@@ -7790,7 +7790,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CdsJ-H
 """,
@@ -7810,7 +7810,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CdsJ-Cs
 """,
@@ -7830,7 +7830,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CbJ
 """,
@@ -7850,7 +7850,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-HHH
 """,
@@ -7870,7 +7870,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CsHH
 """,
@@ -7890,7 +7890,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CsCsH
 """,
@@ -7910,7 +7910,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CsCsCs
 """,
@@ -7930,7 +7930,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CdHH
 """,
@@ -7950,7 +7950,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CdCsH
 """,
@@ -7970,7 +7970,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CdCsCs
 """,
@@ -7990,7 +7990,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CdCdH
 """,
@@ -8010,7 +8010,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CdCdCs
 """,
@@ -8030,7 +8030,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CbHH
 """,
@@ -8050,7 +8050,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CbCsH
 """,
@@ -8070,7 +8070,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CbCsCs
 """,
@@ -8090,7 +8090,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CtHH
 """,
@@ -8110,7 +8110,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CtCsH
 """,
@@ -8130,7 +8130,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CsJ-CtCsCs
 """,
@@ -8150,7 +8150,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CdsJ-H
 """,
@@ -8170,7 +8170,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CdsJ-Cs
 """,
@@ -8190,7 +8190,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;CbJ
 """,
@@ -8210,7 +8210,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-HHH
 """,
@@ -8230,7 +8230,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CsHH
 """,
@@ -8250,7 +8250,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CsCsH
 """,
@@ -8270,7 +8270,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CsCsCs
 """,
@@ -8290,7 +8290,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CdHH
 """,
@@ -8310,7 +8310,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CdCsH
 """,
@@ -8330,7 +8330,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CdCsCs
 """,
@@ -8350,7 +8350,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CdCdH
 """,
@@ -8370,7 +8370,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CdCdCs
 """,
@@ -8390,7 +8390,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CbHH
 """,
@@ -8410,7 +8410,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CbCsH
 """,
@@ -8430,7 +8430,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CbCsCs
 """,
@@ -8450,7 +8450,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CtHH
 """,
@@ -8470,7 +8470,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CtCsH
 """,
@@ -8490,7 +8490,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CsJ-CtCsCs
 """,
@@ -8510,7 +8510,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CdsJ-H
 """,
@@ -8530,7 +8530,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CdsJ-Cs
 """,
@@ -8550,7 +8550,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;CbJ
 """,
@@ -8570,7 +8570,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-HHH
 """,
@@ -8590,7 +8590,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CsHH
 """,
@@ -8610,7 +8610,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CsCsH
 """,
@@ -8630,7 +8630,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -8650,7 +8650,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CdHH
 """,
@@ -8670,7 +8670,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CdCsH
 """,
@@ -8690,7 +8690,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -8710,7 +8710,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CdCdH
 """,
@@ -8730,7 +8730,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -8750,7 +8750,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CbHH
 """,
@@ -8770,7 +8770,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CbCsH
 """,
@@ -8790,7 +8790,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -8810,7 +8810,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CtHH
 """,
@@ -8830,7 +8830,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CtCsH
 """,
@@ -8850,7 +8850,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -8870,7 +8870,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CdsJ-H
 """,
@@ -8890,7 +8890,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CdsJ-Cs
 """,
@@ -8910,7 +8910,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;CbJ
 """,
@@ -8930,7 +8930,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-HHH
 """,
@@ -8950,7 +8950,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CsHH
 """,
@@ -8970,7 +8970,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CsCsH
 """,
@@ -8990,7 +8990,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CsCsCs
 """,
@@ -9010,7 +9010,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CdHH
 """,
@@ -9030,7 +9030,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CdCsH
 """,
@@ -9050,7 +9050,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CdCsCs
 """,
@@ -9070,7 +9070,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CdCdH
 """,
@@ -9090,7 +9090,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CdCdCs
 """,
@@ -9110,7 +9110,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CbHH
 """,
@@ -9130,7 +9130,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CbCsH
 """,
@@ -9150,7 +9150,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CbCsCs
 """,
@@ -9170,7 +9170,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CtHH
 """,
@@ -9190,7 +9190,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CtCsH
 """,
@@ -9210,7 +9210,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CsJ-CtCsCs
 """,
@@ -9230,7 +9230,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CdsJ-H
 """,
@@ -9250,7 +9250,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CdsJ-Cs
 """,
@@ -9270,7 +9270,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;CbJ
 """,
@@ -9290,7 +9290,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-HHH
 """,
@@ -9310,7 +9310,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CsHH
 """,
@@ -9330,7 +9330,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CsCsH
 """,
@@ -9350,7 +9350,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -9370,7 +9370,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CdHH
 """,
@@ -9390,7 +9390,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CdCsH
 """,
@@ -9410,7 +9410,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -9430,7 +9430,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CdCdH
 """,
@@ -9450,7 +9450,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -9470,7 +9470,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;CsJ-CbHH
 """,
@@ -9490,7 +9490,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
@@ -9514,7 +9514,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
@@ -9538,7 +9538,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
@@ -9562,7 +9562,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
@@ -9586,7 +9586,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
@@ -9610,7 +9610,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
@@ -9634,7 +9634,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 20. Based on the recommendations of
@@ -9658,7 +9658,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 20. Based on the recommendations of
@@ -9682,7 +9682,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 20. Based on the recommendations of
@@ -9706,10 +9706,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [94] Baulch,D.L.; Cobos,C.J.;Cox,R.A;Frank,P.;Hayman,G.;Just,T.;Kerr,J.A.;Murells,T.;Philling,M.J.;Troe,J.;Walker,R.W.; Warnatz, J. J Phys Chem. Ref. Data 1994,23,847.
-literature review. C2H4 + H --> C2H5. C.D.W. divided rate expression by 2, to get rate of addition per site 
+literature review. C2H4 + H --> C2H5. C.D.W. divided rate expression by 2, to get rate of addition per site
 pg.916-920: Discussion on evaluated data
 
 H+C2H4(+m) --> C2H5(+m): "The analysis of the rxn is based on theoretical fall-off
@@ -9737,9 +9737,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087. 
+[89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 literature review. C2H4 + CH3 --> n-C3H7. C.D.W. divided rate expression by 2, to get rate of addition per site
 pg. 1191: Discussion on evaluated data
 
@@ -9767,7 +9767,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [147] Knyazev,V.D.;Slagle,I.R. J Phys. Chem. 1996 100, 5318.
 Pressure up to 10 atm. Excitation; thermal, analysis: mass spectrometry. C2H4 + C2H5--> n-C4H9. C.D.W. divided rate expression by 2, to get rate of addtion per site
@@ -9790,7 +9790,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [90] Tsang,W.J. Phys. Chem. Ref. Data 1987,16,471.
 literature review. C2H4+ CH2OH --> CH2CH2CH2OH C.D.W. divided rate expression by 2, to get rate of addition per site
@@ -9820,9 +9820,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[148] Weissman and Benson. Estimated values. Activation energy is a lower limit. Pressure 1.00 atm. 
+[148] Weissman and Benson. Estimated values. Activation energy is a lower limit. Pressure 1.00 atm.
 C2H4 + C2H3 --> CH2=CHCH2CH2 C.D.W. divided rate expression by 2, to get rate of addition per site
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCd;CsJ-CdCsH
@@ -9843,9 +9843,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[89] Tsang et al. Literature Review.  
+[89] Tsang et al. Literature Review.
 C2H4 + OH --> CH2CH2OH  C.D.W. divided rate expression by 2, to get rate of addition per site
 
 pg. 1189: Discussion on evaluated data (in theory)
@@ -9880,7 +9880,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [149] Tsang experiments and limited review. CH3CH=CH2 + H --> iso-C3H7
 
@@ -9902,7 +9902,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [150] Knayzev et al. Data derived from fitting to a complex mechanism. Pressure up to 10 atm. Excitation : flash photolysis, analysis : mass spectrometry
 CH3CH=CH2 + CH3 --> sec-C4H9
@@ -9925,9 +9925,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[93] Tsang literature review. CH3CH=CH2 + CH3 --> sec-C4H9 
+[93] Tsang literature review. CH3CH=CH2 + CH3 --> sec-C4H9
 pg.237-239: Discussion on evaluated data
 
 Entry 46,16(a): Recommended rate coefficient is that reported by Kerr and Parsonage (1972).
@@ -9954,7 +9954,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [151] Barbe et al. Data is estimated. Pressure 0.04-0.26 atm. CH3CH=CH2 + .CH2CH=CH2 --> CH3CH(.)CH2CH2CH=CH2
 
@@ -9976,7 +9976,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang literature review. CH3CH=CH2 + tert-C4H9 --> (CH3)3CCH2CH(.)CH3
 pg.247: Discussion on evaluated data
@@ -10004,9 +10004,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[152] Perrin et al. Data is estimated. Pressure 0.01-0.13 atm. 
+[152] Perrin et al. Data is estimated. Pressure 0.01-0.13 atm.
 CH2=CHCH=CH2 + .CH3 --> CH2CH=CHCH2CH3 C.D.W. divied rate expression by 2, to get rate of addition per site.
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCd;CsJ-CtHH
@@ -10027,7 +10027,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [153] Knayzev et al. Pressure ~ 0.01 atm. Excitation : thermal, analysis : GC Iso-C4H8 + CH3 --> (CH3)2CCH2CH3
 
@@ -10049,7 +10049,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [303] Seres et al. Data derived from fitting to a complex mechanism. Excitation : thermal, analysis : GC Iso-C4H8 + CH3 --> (CH3)2CCH2CH3
 
@@ -10071,7 +10071,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [149] Tsang experiments and limited review. CH3CH=CH2 + H --> n-C3H7
 
@@ -10093,9 +10093,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[147] Knyazev et al. Pressure up to 10 atm. Excitation : thermal, analysis : mass spectrometry. 
+[147] Knyazev et al. Pressure up to 10 atm. Excitation : thermal, analysis : mass spectrometry.
 CH3CH=CH2 + CH3 --> iso-C4H9
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCd;CdsJ-Cs
@@ -10116,7 +10116,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [93] literature review. CH3CH=CH2 + CH3 --> iso-C4H9
 pg.237-239: Discussion on evaluated data
@@ -10145,9 +10145,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[155] Slagle et al. Data deriver from detailed balance/reverse rate. Pressure ~ 0.01 atm. 
+[155] Slagle et al. Data deriver from detailed balance/reverse rate. Pressure ~ 0.01 atm.
 Iso-C4H8 + .CH3 --> (CH3)3CCH2
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbH;CsJ-HHH
@@ -10168,7 +10168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 
@@ -10190,7 +10190,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 
@@ -10212,7 +10212,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 
@@ -10234,7 +10234,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 
@@ -10256,7 +10256,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 
@@ -10278,7 +10278,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbH;CsJ-CdCsCs
 """,
@@ -10298,7 +10298,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [156] Scherzer et al. Data derived from fitting to a complex mechanism. Pressure 0.04 atm. Excitation: thermal, analysis: GC.
 CH2=C=CH2 + .CH3 --> CH3CH2C=CH2
@@ -10321,9 +10321,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[157] Tsang et al. Absolute Value Measured directly. Pressure 2 - 7 atm. Excitation: thermal, analysis : GC. 
+[157] Tsang et al. Absolute Value Measured directly. Pressure 2 - 7 atm. Excitation: thermal, analysis : GC.
 CH2=C=CH2 + H --> .CH2CH=CH2
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbH;CsJ-CdCdCs
@@ -10344,7 +10344,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [158] Tsang. Data is estimated. Pressure 1.50-5.00 atm. CH2=C=CH2 + CH3 --> CH2C(CH3)=CH2
 
@@ -10366,7 +10366,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran et al. In his reaction type 18.
 
@@ -10388,7 +10388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran et al. In his reaction type 18.
 
@@ -10410,7 +10410,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [144] Bozzelli et al. Based upon CH3 addition to CO (Anastasi and Maw)
 
@@ -10432,9 +10432,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[159] Curran et al. His estimation in DME oxidation modeling for ketohydroperoxide decomposition. 
+[159] Curran et al. His estimation in DME oxidation modeling for ketohydroperoxide decomposition.
 H2CO + HCO2. (formic acid radical) --> +  .OCH2OCHO (ester) (Rxn. 338, p. 234)
 
 Verified by Greg Magoon; it is not immediately clear whether this rate constant is for high pressure limit, but based on other references to high pressure limit in the paper, I suspect that it is a high pressure limit value; also, note that CO_O group is used for H2CO...MRH and I have interpreted CO_O as referring to any carbonyl group
@@ -10457,7 +10457,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [160] Knoll et al. Data derived from fitting to a complex mechanism. Pressure 0.08 atm. Excitation : direct photolysis, analysis : mass spectrometry.
 N-C3H7 + C2HO --> N-C4H9O
@@ -10480,9 +10480,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[161] Knoll et al. Absolute value measured directly. Pressure 0.28 - 1.17 atm. Excitation : thermal, analysis : mass spectrometry. 
+[161] Knoll et al. Absolute value measured directly. Pressure 0.28 - 1.17 atm. Excitation : thermal, analysis : mass spectrometry.
 (CH3)2CO + .CH3 --> (CH3)3CO
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbH;CdsJ-H
@@ -10503,7 +10503,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz literature review. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + H --> C2H3
@@ -10526,9 +10526,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[162] E.W.Diau and M.C.Lin. RRK(M) extrapolation. C.D.W divided rate expression by 2, to get rate of addition per site. 
+[162] E.W.Diau and M.C.Lin. RRK(M) extrapolation. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + CH3 --> CH3CH=CH
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbH;CbJ
@@ -10549,7 +10549,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [163] Kerr et al. literature review. Pressure 0.03-0.20 atm. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + .C2H5 --> CH3CH2CH=CH
@@ -10572,10 +10572,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [93] Tsang et al. literature review. Pressure 0.03-0.20 atm. C.D.W divided rate expression by 2, to get rate of addition per site.
-C2H2 + .CH2CH=CH2 --> CHCH2CH=CH 
+C2H2 + .CH2CH=CH2 --> CHCH2CH=CH
 
 pg.263: Discussion on evaluated data
 
@@ -10603,7 +10603,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [163] Kerr et al. literature review. Pressure 0.07-0.13 atm. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + Iso-C3H7 --> (CH3)2CHCH=CH
@@ -10626,9 +10626,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[164] Dominguez et al. Data derived from fitting to a complex mechanism. Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC. 
+[164] Dominguez et al. Data derived from fitting to a complex mechanism. Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC.
 C2H2 + Tert-C4H9 --> (CH3)3CCH=CH C.D.W divided rate expression by 2, to get rate of addition per site.
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbCs;CsJ-CsCsCs
@@ -10649,9 +10649,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[121] Weissman et al. Transition state theory. C.D.W divided rate expression by 2, to get rate of addition per site.	
+[121] Weissman et al. Transition state theory. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + C2H3 --> CH2=CHCH=CH.
 
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbCs;CsJ-CdHH
@@ -10672,7 +10672,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [165] Duran et al. Ab initio. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + C2H3 --> CH2=CHCH=CH. (Rxn. -5?)
@@ -10697,10 +10697,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [165] Duran et al. Ab initio. C.D.W divided rate expression by 2, to get rate of addition per site.
-C2H2 + CCH --> HC(tb)CCH=CH. (Rxn. 18?) 
+C2H2 + CCH --> HC(tb)CCH=CH. (Rxn. 18?)
 
 NIST Record: http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:4
 Verified by Greg Magoon: it looks like value is taken from Rxn 18 of Table 3 (1E10), and is apparently non-pressure dependent (and non-temp dependent); based on the table, it looks like Ref. 42 in this paper may be the ultimate source of the value?
@@ -10723,7 +10723,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [95] Baulch et al. literature review. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + .OH --> HOCH=CH
@@ -10757,10 +10757,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
-[166] Miller et al. Transition State Theory. C.D.W divided rate expression by 2, to get rate of addition per site. 
-Same reaction as #332, #333 ranked as more accurate in rate library than #332, but they are both from relatively old sources from the early '90s.  
+[166] Miller et al. Transition State Theory. C.D.W divided rate expression by 2, to get rate of addition per site.
+Same reaction as #332, #333 ranked as more accurate in rate library than #332, but they are both from relatively old sources from the early '90s.
 
 C2H2 + .OH --> HOCH=CH
 
@@ -10782,7 +10782,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 [144] Bozzelli et al. Based upon CH3 addition to C2H2 (NIST)
 
@@ -10804,7 +10804,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -10826,7 +10826,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -10848,7 +10848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -10870,7 +10870,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -10892,7 +10892,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -10914,7 +10914,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -10936,7 +10936,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -10958,7 +10958,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -10980,7 +10980,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11002,7 +11002,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11024,7 +11024,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11046,7 +11046,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11068,7 +11068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11090,7 +11090,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11112,7 +11112,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11134,7 +11134,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11156,7 +11156,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11178,7 +11178,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11200,7 +11200,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11222,7 +11222,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11244,7 +11244,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11266,7 +11266,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11288,7 +11288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11310,7 +11310,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11332,7 +11332,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11354,7 +11354,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11376,7 +11376,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11398,7 +11398,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11420,7 +11420,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11442,7 +11442,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11464,7 +11464,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11486,7 +11486,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11508,7 +11508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11530,7 +11530,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11552,7 +11552,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11574,7 +11574,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11596,7 +11596,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11618,7 +11618,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11640,7 +11640,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11662,7 +11662,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11684,7 +11684,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11706,7 +11706,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11728,7 +11728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11750,7 +11750,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11772,7 +11772,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11794,7 +11794,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11816,7 +11816,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11838,7 +11838,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11860,7 +11860,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11882,7 +11882,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11904,7 +11904,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11926,7 +11926,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11948,7 +11948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11970,7 +11970,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -11992,7 +11992,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12014,7 +12014,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12036,7 +12036,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12058,7 +12058,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12080,7 +12080,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12102,7 +12102,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12124,7 +12124,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12146,7 +12146,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12168,7 +12168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12190,7 +12190,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12212,7 +12212,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12234,7 +12234,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12256,7 +12256,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12278,7 +12278,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12300,7 +12300,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12322,7 +12322,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12344,7 +12344,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12366,7 +12366,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12388,7 +12388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12410,7 +12410,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12432,7 +12432,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12454,7 +12454,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12476,7 +12476,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12498,7 +12498,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12520,7 +12520,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12542,7 +12542,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12564,7 +12564,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 
@@ -12586,7 +12586,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep CBS-QB3 calculations
 
@@ -12608,7 +12608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CsCsH
 """,
@@ -12628,7 +12628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CsCsCs
 """,
@@ -12648,7 +12648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CdHH
 """,
@@ -12668,7 +12668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CdCsH
 """,
@@ -12688,7 +12688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CdCsCs
 """,
@@ -12708,7 +12708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CdCdH
 """,
@@ -12728,7 +12728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CdCdCs
 """,
@@ -12748,7 +12748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CbHH
 """,
@@ -12768,7 +12768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CbCsH
 """,
@@ -12788,7 +12788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CbCsCs
 """,
@@ -12808,7 +12808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CtHH
 """,
@@ -12828,7 +12828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CtCsH
 """,
@@ -12848,7 +12848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CsJ-CtCsCs
 """,
@@ -12868,7 +12868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CdsJ-H
 """,
@@ -12888,7 +12888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CdsJ-Cs
 """,
@@ -12908,7 +12908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;CbJ
 """,
@@ -12928,7 +12928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-HHH
 """,
@@ -12948,7 +12948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CsHH
 """,
@@ -12968,7 +12968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CsCsH
 """,
@@ -12988,7 +12988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -13008,7 +13008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CdHH
 """,
@@ -13028,7 +13028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CdCsH
 """,
@@ -13048,7 +13048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -13068,7 +13068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CdCdH
 """,
@@ -13088,7 +13088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -13108,7 +13108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CbHH
 """,
@@ -13128,7 +13128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CbCsH
 """,
@@ -13148,7 +13148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -13168,7 +13168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CtHH
 """,
@@ -13188,7 +13188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CtCsH
 """,
@@ -13208,7 +13208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -13228,7 +13228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CdsJ-H
 """,
@@ -13248,7 +13248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CdsJ-Cs
 """,
@@ -13268,7 +13268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;CbJ
 """,
@@ -13288,7 +13288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-HHH
 """,
@@ -13308,7 +13308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CsHH
 """,
@@ -13328,7 +13328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CsCsH
 """,
@@ -13348,7 +13348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CsCsCs
 """,
@@ -13368,7 +13368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CdHH
 """,
@@ -13388,7 +13388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CdCsH
 """,
@@ -13408,7 +13408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CdCsCs
 """,
@@ -13428,7 +13428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CdCdH
 """,
@@ -13448,7 +13448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CdCdCs
 """,
@@ -13468,7 +13468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CbHH
 """,
@@ -13488,7 +13488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CbCsH
 """,
@@ -13508,7 +13508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CbCsCs
 """,
@@ -13528,7 +13528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CtHH
 """,
@@ -13548,7 +13548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CtCsH
 """,
@@ -13568,7 +13568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CsJ-CtCsCs
 """,
@@ -13588,7 +13588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CdsJ-H
 """,
@@ -13608,7 +13608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CdsJ-Cs
 """,
@@ -13628,7 +13628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;CbJ
 """,
@@ -13648,7 +13648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-HHH
 """,
@@ -13668,7 +13668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CsHH
 """,
@@ -13688,7 +13688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CsCsH
 """,
@@ -13708,7 +13708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -13728,7 +13728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CdHH
 """,
@@ -13748,7 +13748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CdCsH
 """,
@@ -13768,7 +13768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -13788,7 +13788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CdCdH
 """,
@@ -13808,7 +13808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -13828,7 +13828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CbHH
 """,
@@ -13848,7 +13848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CbCsH
 """,
@@ -13868,7 +13868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -13888,7 +13888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CtHH
 """,
@@ -13908,7 +13908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CtCsH
 """,
@@ -13928,7 +13928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -13948,7 +13948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CdsJ-H
 """,
@@ -13968,7 +13968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CdsJ-Cs
 """,
@@ -13988,7 +13988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;CbJ
 """,
@@ -14008,7 +14008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-HHH
 """,
@@ -14028,7 +14028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CsHH
 """,
@@ -14048,7 +14048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CsCsH
 """,
@@ -14068,7 +14068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -14088,7 +14088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CdHH
 """,
@@ -14108,7 +14108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CdCsH
 """,
@@ -14128,7 +14128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -14148,7 +14148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CdCdH
 """,
@@ -14168,7 +14168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -14188,7 +14188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CbHH
 """,
@@ -14208,7 +14208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CbCsH
 """,
@@ -14228,7 +14228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -14248,7 +14248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CtHH
 """,
@@ -14268,7 +14268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CtCsH
 """,
@@ -14288,7 +14288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -14308,7 +14308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CdsJ-H
 """,
@@ -14328,7 +14328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CdsJ-Cs
 """,
@@ -14348,7 +14348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;CbJ
 """,
@@ -14368,7 +14368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-HHH
 """,
@@ -14388,7 +14388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CsHH
 """,
@@ -14408,7 +14408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CsCsH
 """,
@@ -14428,7 +14428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CsCsCs
 """,
@@ -14448,7 +14448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CdHH
 """,
@@ -14468,7 +14468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CdCsH
 """,
@@ -14488,7 +14488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CdCsCs
 """,
@@ -14508,7 +14508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CdCdH
 """,
@@ -14528,7 +14528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CdCdCs
 """,
@@ -14548,7 +14548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CbHH
 """,
@@ -14568,7 +14568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CbCsH
 """,
@@ -14588,7 +14588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CbCsCs
 """,
@@ -14608,7 +14608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CtHH
 """,
@@ -14628,7 +14628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CtCsH
 """,
@@ -14648,7 +14648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CsJ-CtCsCs
 """,
@@ -14668,7 +14668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CdsJ-H
 """,
@@ -14688,7 +14688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CdsJ-Cs
 """,
@@ -14708,7 +14708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;CbJ
 """,
@@ -14728,7 +14728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-HHH
 """,
@@ -14748,7 +14748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CsHH
 """,
@@ -14768,7 +14768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CsCsH
 """,
@@ -14788,7 +14788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -14808,7 +14808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CdHH
 """,
@@ -14828,7 +14828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CdCsH
 """,
@@ -14848,7 +14848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -14868,7 +14868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CdCdH
 """,
@@ -14888,7 +14888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -14908,7 +14908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CbHH
 """,
@@ -14928,7 +14928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CbCsH
 """,
@@ -14948,7 +14948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -14968,7 +14968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CtHH
 """,
@@ -14988,7 +14988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CtCsH
 """,
@@ -15008,7 +15008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -15028,7 +15028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CdsJ-H
 """,
@@ -15048,7 +15048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CdsJ-Cs
 """,
@@ -15068,7 +15068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;CbJ
 """,
@@ -15088,7 +15088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-HHH
 """,
@@ -15108,7 +15108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CsHH
 """,
@@ -15128,7 +15128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CsCsH
 """,
@@ -15148,7 +15148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CsCsCs
 """,
@@ -15168,7 +15168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CdHH
 """,
@@ -15188,7 +15188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CdCsH
 """,
@@ -15208,7 +15208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CdCsCs
 """,
@@ -15228,7 +15228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CdCdH
 """,
@@ -15248,7 +15248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CdCdCs
 """,
@@ -15268,7 +15268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CbHH
 """,
@@ -15288,7 +15288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CbCsH
 """,
@@ -15308,7 +15308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CbCsCs
 """,
@@ -15328,7 +15328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CtHH
 """,
@@ -15348,7 +15348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CtCsH
 """,
@@ -15368,7 +15368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CsJ-CtCsCs
 """,
@@ -15388,7 +15388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CdsJ-H
 """,
@@ -15408,7 +15408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CdsJ-Cs
 """,
@@ -15428,7 +15428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;CbJ
 """,
@@ -15448,7 +15448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-HHH
 """,
@@ -15468,7 +15468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CsHH
 """,
@@ -15488,7 +15488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CsCsH
 """,
@@ -15508,7 +15508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -15528,7 +15528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CdHH
 """,
@@ -15548,7 +15548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CdCsH
 """,
@@ -15568,7 +15568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -15588,7 +15588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CdCdH
 """,
@@ -15608,7 +15608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -15628,7 +15628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CbHH
 """,
@@ -15648,7 +15648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CbCsH
 """,
@@ -15668,7 +15668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -15688,7 +15688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CtHH
 """,
@@ -15708,7 +15708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CtCsH
 """,
@@ -15728,7 +15728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -15748,7 +15748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CdsJ-H
 """,
@@ -15768,7 +15768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CdsJ-Cs
 """,
@@ -15788,7 +15788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;CbJ
 """,
@@ -15808,7 +15808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-HHH
 """,
@@ -15828,7 +15828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CsHH
 """,
@@ -15848,7 +15848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CsCsH
 """,
@@ -15868,7 +15868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CsCsCs
 """,
@@ -15888,7 +15888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CdHH
 """,
@@ -15908,7 +15908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CdCsH
 """,
@@ -15928,7 +15928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CdCsCs
 """,
@@ -15948,7 +15948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CdCdH
 """,
@@ -15968,7 +15968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CdCdCs
 """,
@@ -15988,7 +15988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CbHH
 """,
@@ -16008,7 +16008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CbCsH
 """,
@@ -16028,7 +16028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CbCsCs
 """,
@@ -16048,7 +16048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CtHH
 """,
@@ -16068,7 +16068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CtCsH
 """,
@@ -16088,7 +16088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ-CtCsCs
 """,
@@ -16108,7 +16108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CdsJ-H
 """,
@@ -16128,7 +16128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CdsJ-Cs
 """,
@@ -16148,7 +16148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CbJ
 """,
@@ -16168,7 +16168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-HHH
 """,
@@ -16188,7 +16188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CsHH
 """,
@@ -16208,7 +16208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CsCsH
 """,
@@ -16228,7 +16228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CsCsCs
 """,
@@ -16248,7 +16248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CdHH
 """,
@@ -16268,7 +16268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CdCsH
 """,
@@ -16288,7 +16288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CdCsCs
 """,
@@ -16308,7 +16308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CdCdH
 """,
@@ -16328,7 +16328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CdCdCs
 """,
@@ -16348,7 +16348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CbHH
 """,
@@ -16368,7 +16368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CbCsH
 """,
@@ -16388,7 +16388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CbCsCs
 """,
@@ -16408,7 +16408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CtHH
 """,
@@ -16428,7 +16428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CtCsH
 """,
@@ -16448,7 +16448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CsJ-CtCsCs
 """,
@@ -16468,7 +16468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CdsJ-H
 """,
@@ -16488,7 +16488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CdsJ-Cs
 """,
@@ -16508,7 +16508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;CbJ
 """,
@@ -16528,7 +16528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-HHH
 """,
@@ -16548,7 +16548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CsHH
 """,
@@ -16568,7 +16568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CsCsH
 """,
@@ -16588,7 +16588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CsCsCs
 """,
@@ -16608,7 +16608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CdHH
 """,
@@ -16628,7 +16628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CdCsH
 """,
@@ -16648,7 +16648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CdCsCs
 """,
@@ -16668,7 +16668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CdCdH
 """,
@@ -16688,7 +16688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CdCdCs
 """,
@@ -16708,7 +16708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CbHH
 """,
@@ -16728,7 +16728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CbCsH
 """,
@@ -16748,7 +16748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CbCsCs
 """,
@@ -16768,7 +16768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CtHH
 """,
@@ -16788,7 +16788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CtCsH
 """,
@@ -16808,7 +16808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CsJ-CtCsCs
 """,
@@ -16828,7 +16828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CdsJ-H
 """,
@@ -16848,7 +16848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CdsJ-Cs
 """,
@@ -16868,7 +16868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;CbJ
 """,
@@ -16888,7 +16888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-HHH
 """,
@@ -16908,7 +16908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CsHH
 """,
@@ -16928,7 +16928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CsCsH
 """,
@@ -16948,7 +16948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -16968,7 +16968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CdHH
 """,
@@ -16988,7 +16988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CdCsH
 """,
@@ -17008,7 +17008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -17028,7 +17028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CdCdH
 """,
@@ -17048,7 +17048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -17068,7 +17068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CbHH
 """,
@@ -17088,7 +17088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CbCsH
 """,
@@ -17108,7 +17108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -17128,7 +17128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CtHH
 """,
@@ -17148,7 +17148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CtCsH
 """,
@@ -17168,7 +17168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -17188,7 +17188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CdsJ-H
 """,
@@ -17208,7 +17208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CdsJ-Cs
 """,
@@ -17228,7 +17228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;CbJ
 """,
@@ -17248,7 +17248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-HHH
 """,
@@ -17268,7 +17268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CsHH
 """,
@@ -17288,7 +17288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CsCsH
 """,
@@ -17308,7 +17308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CsCsCs
 """,
@@ -17328,7 +17328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CdHH
 """,
@@ -17348,7 +17348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CdCsH
 """,
@@ -17368,7 +17368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CdCsCs
 """,
@@ -17388,7 +17388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CdCdH
 """,
@@ -17408,7 +17408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CdCdCs
 """,
@@ -17428,7 +17428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CbHH
 """,
@@ -17448,7 +17448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CbCsH
 """,
@@ -17468,7 +17468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CbCsCs
 """,
@@ -17488,7 +17488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CtHH
 """,
@@ -17508,7 +17508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CtCsH
 """,
@@ -17528,7 +17528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CsJ-CtCsCs
 """,
@@ -17548,7 +17548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CdsJ-H
 """,
@@ -17568,7 +17568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CdsJ-Cs
 """,
@@ -17588,7 +17588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;CbJ
 """,
@@ -17608,7 +17608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-HHH
 """,
@@ -17628,7 +17628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CsHH
 """,
@@ -17648,7 +17648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CsCsH
 """,
@@ -17668,7 +17668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -17688,7 +17688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CdHH
 """,
@@ -17708,7 +17708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CdCsH
 """,
@@ -17728,7 +17728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -17748,7 +17748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CdCdH
 """,
@@ -17768,7 +17768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -17788,7 +17788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CbHH
 """,
@@ -17808,7 +17808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CbCsH
 """,
@@ -17828,7 +17828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -17848,7 +17848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CtHH
 """,
@@ -17868,7 +17868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CtCsH
 """,
@@ -17888,7 +17888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -17908,7 +17908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CdsJ-H
 """,
@@ -17928,7 +17928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CdsJ-Cs
 """,
@@ -17948,7 +17948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;CbJ
 """,
@@ -17968,7 +17968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-HHH
 """,
@@ -17988,7 +17988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CsHH
 """,
@@ -18008,7 +18008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CsCsH
 """,
@@ -18028,7 +18028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -18048,7 +18048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CdHH
 """,
@@ -18068,7 +18068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CdCsH
 """,
@@ -18088,7 +18088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -18108,7 +18108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CdCdH
 """,
@@ -18128,7 +18128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -18148,7 +18148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CbHH
 """,
@@ -18168,7 +18168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CbCsH
 """,
@@ -18188,7 +18188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -18208,7 +18208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CtHH
 """,
@@ -18228,7 +18228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CtCsH
 """,
@@ -18248,7 +18248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -18268,7 +18268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CdsJ-H
 """,
@@ -18288,7 +18288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CdsJ-Cs
 """,
@@ -18308,7 +18308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;CbJ
 """,
@@ -18328,7 +18328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-HHH
 """,
@@ -18348,7 +18348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CsHH
 """,
@@ -18368,7 +18368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CsCsH
 """,
@@ -18388,7 +18388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CsCsCs
 """,
@@ -18408,7 +18408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CdHH
 """,
@@ -18428,7 +18428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CdCsH
 """,
@@ -18448,7 +18448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CdCsCs
 """,
@@ -18468,7 +18468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CdCdH
 """,
@@ -18488,7 +18488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CdCdCs
 """,
@@ -18508,7 +18508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CbHH
 """,
@@ -18528,7 +18528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CbCsH
 """,
@@ -18548,7 +18548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CbCsCs
 """,
@@ -18568,7 +18568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CtHH
 """,
@@ -18588,7 +18588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CtCsH
 """,
@@ -18608,7 +18608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CsJ-CtCsCs
 """,
@@ -18628,7 +18628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CdsJ-H
 """,
@@ -18648,7 +18648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CdsJ-Cs
 """,
@@ -18668,7 +18668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;CbJ
 """,
@@ -18688,7 +18688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-HHH
 """,
@@ -18708,7 +18708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CsHH
 """,
@@ -18728,7 +18728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CsCsH
 """,
@@ -18748,7 +18748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -18768,7 +18768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CdHH
 """,
@@ -18788,7 +18788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CdCsH
 """,
@@ -18808,7 +18808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -18828,7 +18828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CdCdH
 """,
@@ -18848,7 +18848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -18868,7 +18868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CbHH
 """,
@@ -18888,7 +18888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CbCsH
 """,
@@ -18908,7 +18908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -18928,7 +18928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CtHH
 """,
@@ -18948,7 +18948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CtCsH
 """,
@@ -18968,7 +18968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -18988,7 +18988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CdsJ-H
 """,
@@ -19008,7 +19008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CdsJ-Cs
 """,
@@ -19028,7 +19028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;CbJ
 """,
@@ -19048,7 +19048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-HHH
 """,
@@ -19068,7 +19068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CsHH
 """,
@@ -19088,7 +19088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CsCsH
 """,
@@ -19108,7 +19108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CsCsCs
 """,
@@ -19128,7 +19128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CdHH
 """,
@@ -19148,7 +19148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CdCsH
 """,
@@ -19168,7 +19168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CdCsCs
 """,
@@ -19188,7 +19188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CdCdH
 """,
@@ -19208,7 +19208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CdCdCs
 """,
@@ -19228,7 +19228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CbHH
 """,
@@ -19248,7 +19248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CbCsH
 """,
@@ -19268,7 +19268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CbCsCs
 """,
@@ -19288,7 +19288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CtHH
 """,
@@ -19308,7 +19308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CtCsH
 """,
@@ -19328,7 +19328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CsJ-CtCsCs
 """,
@@ -19348,7 +19348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CdsJ-H
 """,
@@ -19368,7 +19368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CdsJ-Cs
 """,
@@ -19388,7 +19388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;CbJ
 """,
@@ -19408,7 +19408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-HHH
 """,
@@ -19428,7 +19428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CsHH
 """,
@@ -19448,7 +19448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CsCsH
 """,
@@ -19468,7 +19468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -19488,7 +19488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CdHH
 """,
@@ -19508,7 +19508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CdCsH
 """,
@@ -19528,7 +19528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -19548,7 +19548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CdCdH
 """,
@@ -19568,7 +19568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -19588,7 +19588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CbHH
 """,
@@ -19608,7 +19608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CbCsH
 """,
@@ -19628,7 +19628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -19648,7 +19648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CtHH
 """,
@@ -19668,7 +19668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CtCsH
 """,
@@ -19688,7 +19688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -19708,7 +19708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CdsJ-H
 """,
@@ -19728,7 +19728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CdsJ-Cs
 """,
@@ -19748,7 +19748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;CbJ
 """,
@@ -19768,7 +19768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-HHH
 """,
@@ -19788,7 +19788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CsHH
 """,
@@ -19808,7 +19808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CsCsH
 """,
@@ -19828,7 +19828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CsCsCs
 """,
@@ -19848,7 +19848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CdHH
 """,
@@ -19868,7 +19868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CdCsH
 """,
@@ -19888,7 +19888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CdCsCs
 """,
@@ -19908,7 +19908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CdCdH
 """,
@@ -19928,7 +19928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CdCdCs
 """,
@@ -19948,7 +19948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CbHH
 """,
@@ -19968,7 +19968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CbCsH
 """,
@@ -19988,7 +19988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CbCsCs
 """,
@@ -20008,7 +20008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CtHH
 """,
@@ -20028,7 +20028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CtCsH
 """,
@@ -20048,7 +20048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CsJ-CtCsCs
 """,
@@ -20068,7 +20068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CdsJ-H
 """,
@@ -20088,7 +20088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CdsJ-Cs
 """,
@@ -20108,7 +20108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;CbJ
 """,
@@ -20128,7 +20128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-HHH
 """,
@@ -20148,7 +20148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CsHH
 """,
@@ -20168,7 +20168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CsCsH
 """,
@@ -20188,7 +20188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CsCsCs
 """,
@@ -20208,7 +20208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CdHH
 """,
@@ -20228,7 +20228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CdCsH
 """,
@@ -20248,7 +20248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CdCsCs
 """,
@@ -20268,7 +20268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CdCdH
 """,
@@ -20288,7 +20288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CdCdCs
 """,
@@ -20308,7 +20308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CbHH
 """,
@@ -20328,7 +20328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CbCsH
 """,
@@ -20348,7 +20348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CbCsCs
 """,
@@ -20368,7 +20368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CtHH
 """,
@@ -20388,7 +20388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CtCsH
 """,
@@ -20408,7 +20408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CsJ-CtCsCs
 """,
@@ -20428,7 +20428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CdsJ-H
 """,
@@ -20448,7 +20448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CdsJ-Cs
 """,
@@ -20468,7 +20468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;CbJ
 """,
@@ -20488,7 +20488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-HHH
 """,
@@ -20508,7 +20508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CsHH
 """,
@@ -20528,7 +20528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CsCsH
 """,
@@ -20548,7 +20548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CsCsCs
 """,
@@ -20568,7 +20568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CdHH
 """,
@@ -20588,7 +20588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CdCsH
 """,
@@ -20608,7 +20608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CdCsCs
 """,
@@ -20628,7 +20628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CdCdH
 """,
@@ -20648,7 +20648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CdCdCs
 """,
@@ -20668,7 +20668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CbHH
 """,
@@ -20688,7 +20688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CbCsH
 """,
@@ -20708,7 +20708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CbCsCs
 """,
@@ -20728,7 +20728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CtHH
 """,
@@ -20748,7 +20748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CtCsH
 """,
@@ -20768,7 +20768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CsJ-CtCsCs
 """,
@@ -20788,7 +20788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CdsJ-H
 """,
@@ -20808,7 +20808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CdsJ-Cs
 """,
@@ -20828,7 +20828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;CbJ
 """,
@@ -20848,7 +20848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-HHH
 """,
@@ -20868,7 +20868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CsHH
 """,
@@ -20888,7 +20888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CsCsH
 """,
@@ -20908,7 +20908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -20928,7 +20928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CdHH
 """,
@@ -20948,7 +20948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CdCsH
 """,
@@ -20968,7 +20968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -20988,7 +20988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CdCdH
 """,
@@ -21008,7 +21008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -21028,7 +21028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CbHH
 """,
@@ -21048,7 +21048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CbCsH
 """,
@@ -21068,7 +21068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -21088,7 +21088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CtHH
 """,
@@ -21108,7 +21108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CtCsH
 """,
@@ -21128,7 +21128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -21148,7 +21148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CdsJ-H
 """,
@@ -21168,7 +21168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CdsJ-Cs
 """,
@@ -21188,7 +21188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;CbJ
 """,
@@ -21208,7 +21208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-HHH
 """,
@@ -21228,7 +21228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CsHH
 """,
@@ -21248,7 +21248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CsCsH
 """,
@@ -21268,7 +21268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CsCsCs
 """,
@@ -21288,7 +21288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CdHH
 """,
@@ -21308,7 +21308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CdCsH
 """,
@@ -21328,7 +21328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CdCsCs
 """,
@@ -21348,7 +21348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CdCdH
 """,
@@ -21368,7 +21368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CdCdCs
 """,
@@ -21388,7 +21388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CbHH
 """,
@@ -21408,7 +21408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CbCsH
 """,
@@ -21428,7 +21428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CbCsCs
 """,
@@ -21448,7 +21448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CtHH
 """,
@@ -21468,7 +21468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CtCsH
 """,
@@ -21488,7 +21488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CsJ-CtCsCs
 """,
@@ -21508,7 +21508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CdsJ-H
 """,
@@ -21528,7 +21528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CdsJ-Cs
 """,
@@ -21548,7 +21548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;CbJ
 """,
@@ -21568,7 +21568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-HHH
 """,
@@ -21588,7 +21588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CsHH
 """,
@@ -21608,7 +21608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CsCsH
 """,
@@ -21628,7 +21628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -21648,7 +21648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CdHH
 """,
@@ -21668,7 +21668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CdCsH
 """,
@@ -21688,7 +21688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -21708,7 +21708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CdCdH
 """,
@@ -21728,7 +21728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -21748,7 +21748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CbHH
 """,
@@ -21768,7 +21768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CbCsH
 """,
@@ -21788,7 +21788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -21808,7 +21808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CtHH
 """,
@@ -21828,7 +21828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CtCsH
 """,
@@ -21848,7 +21848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -21868,7 +21868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CdsJ-H
 """,
@@ -21888,7 +21888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CdsJ-Cs
 """,
@@ -21908,7 +21908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;CbJ
 """,
@@ -21928,7 +21928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-HHH
 """,
@@ -21948,7 +21948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CsHH
 """,
@@ -21968,7 +21968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CsCsH
 """,
@@ -21988,7 +21988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -22008,7 +22008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CdHH
 """,
@@ -22028,7 +22028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CdCsH
 """,
@@ -22048,7 +22048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -22068,7 +22068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CdCdH
 """,
@@ -22088,7 +22088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -22108,7 +22108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CbHH
 """,
@@ -22128,7 +22128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CbCsH
 """,
@@ -22148,7 +22148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -22168,7 +22168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CtHH
 """,
@@ -22188,7 +22188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CtCsH
 """,
@@ -22208,7 +22208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -22228,7 +22228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CdsJ-H
 """,
@@ -22248,7 +22248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CdsJ-Cs
 """,
@@ -22268,7 +22268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;CbJ
 """,
@@ -22288,7 +22288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-HHH
 """,
@@ -22308,7 +22308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CsHH
 """,
@@ -22328,7 +22328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CsCsH
 """,
@@ -22348,7 +22348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CsCsCs
 """,
@@ -22368,7 +22368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CdHH
 """,
@@ -22388,7 +22388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CdCsH
 """,
@@ -22408,7 +22408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CdCsCs
 """,
@@ -22428,7 +22428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CdCdH
 """,
@@ -22448,7 +22448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CdCdCs
 """,
@@ -22468,7 +22468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CbHH
 """,
@@ -22488,7 +22488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CbCsH
 """,
@@ -22508,7 +22508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CbCsCs
 """,
@@ -22528,7 +22528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CtHH
 """,
@@ -22548,7 +22548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CtCsH
 """,
@@ -22568,7 +22568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CsJ-CtCsCs
 """,
@@ -22588,7 +22588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CdsJ-H
 """,
@@ -22608,7 +22608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CdsJ-Cs
 """,
@@ -22628,7 +22628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;CbJ
 """,
@@ -22648,7 +22648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-HHH
 """,
@@ -22668,7 +22668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CsHH
 """,
@@ -22688,7 +22688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CsCsH
 """,
@@ -22708,7 +22708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -22728,7 +22728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CdHH
 """,
@@ -22748,7 +22748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CdCsH
 """,
@@ -22768,7 +22768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -22788,7 +22788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CdCdH
 """,
@@ -22808,7 +22808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -22828,7 +22828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CbHH
 """,
@@ -22848,7 +22848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CbCsH
 """,
@@ -22868,7 +22868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -22888,7 +22888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CtHH
 """,
@@ -22908,7 +22908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CtCsH
 """,
@@ -22928,7 +22928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -22948,7 +22948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CdsJ-H
 """,
@@ -22968,7 +22968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CdsJ-Cs
 """,
@@ -22988,7 +22988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;CbJ
 """,
@@ -23008,7 +23008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-HHH
 """,
@@ -23028,7 +23028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CsHH
 """,
@@ -23048,7 +23048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CsCsH
 """,
@@ -23068,7 +23068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CsCsCs
 """,
@@ -23088,7 +23088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CdHH
 """,
@@ -23108,7 +23108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CdCsH
 """,
@@ -23128,7 +23128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CdCsCs
 """,
@@ -23148,7 +23148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CdCdH
 """,
@@ -23168,7 +23168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CdCdCs
 """,
@@ -23188,7 +23188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CbHH
 """,
@@ -23208,7 +23208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CbCsH
 """,
@@ -23228,7 +23228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CbCsCs
 """,
@@ -23248,7 +23248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CtHH
 """,
@@ -23268,7 +23268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CtCsH
 """,
@@ -23288,7 +23288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CsJ-CtCsCs
 """,
@@ -23308,7 +23308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CdsJ-H
 """,
@@ -23328,7 +23328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CdsJ-Cs
 """,
@@ -23348,7 +23348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;CbJ
 """,
@@ -23368,7 +23368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-HHH
 """,
@@ -23388,7 +23388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CsHH
 """,
@@ -23408,7 +23408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CsCsH
 """,
@@ -23428,7 +23428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -23448,7 +23448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CdHH
 """,
@@ -23468,7 +23468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CdCsH
 """,
@@ -23488,7 +23488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -23508,7 +23508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CdCdH
 """,
@@ -23528,7 +23528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -23548,7 +23548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CbHH
 """,
@@ -23568,7 +23568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CbCsH
 """,
@@ -23588,7 +23588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -23608,7 +23608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CtHH
 """,
@@ -23628,7 +23628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CtCsH
 """,
@@ -23648,7 +23648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -23668,7 +23668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CdsJ-H
 """,
@@ -23688,7 +23688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CdsJ-Cs
 """,
@@ -23708,7 +23708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;CbJ
 """,
@@ -23728,7 +23728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-HHH
 """,
@@ -23748,7 +23748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CsHH
 """,
@@ -23768,7 +23768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CsCsH
 """,
@@ -23788,7 +23788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CsCsCs
 """,
@@ -23808,7 +23808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CdHH
 """,
@@ -23828,7 +23828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CdCsH
 """,
@@ -23848,7 +23848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CdCsCs
 """,
@@ -23868,7 +23868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CdCdH
 """,
@@ -23888,7 +23888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CdCdCs
 """,
@@ -23908,7 +23908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CbHH
 """,
@@ -23928,7 +23928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CbCsH
 """,
@@ -23948,7 +23948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CbCsCs
 """,
@@ -23968,7 +23968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CtHH
 """,
@@ -23988,7 +23988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CtCsH
 """,
@@ -24008,7 +24008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CsJ-CtCsCs
 """,
@@ -24028,7 +24028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CdsJ-H
 """,
@@ -24048,7 +24048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CdsJ-Cs
 """,
@@ -24068,7 +24068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;CbJ
 """,
@@ -24088,7 +24088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-HHH
 """,
@@ -24108,7 +24108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CsHH
 """,
@@ -24128,7 +24128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CsCsH
 """,
@@ -24148,7 +24148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CsCsCs
 """,
@@ -24168,7 +24168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CdHH
 """,
@@ -24188,7 +24188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CdCsH
 """,
@@ -24208,7 +24208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CdCsCs
 """,
@@ -24228,7 +24228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CdCdH
 """,
@@ -24248,7 +24248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CdCdCs
 """,
@@ -24268,7 +24268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CbHH
 """,
@@ -24288,7 +24288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CbCsH
 """,
@@ -24308,7 +24308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CbCsCs
 """,
@@ -24328,7 +24328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CtHH
 """,
@@ -24348,7 +24348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CtCsH
 """,
@@ -24368,7 +24368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CsJ-CtCsCs
 """,
@@ -24388,7 +24388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CdsJ-H
 """,
@@ -24408,7 +24408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CdsJ-Cs
 """,
@@ -24428,7 +24428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;CbJ
 """,
@@ -24448,7 +24448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-HHH
 """,
@@ -24468,7 +24468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CsHH
 """,
@@ -24488,7 +24488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CsCsH
 """,
@@ -24508,7 +24508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CsCsCs
 """,
@@ -24528,7 +24528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CdHH
 """,
@@ -24548,7 +24548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CdCsH
 """,
@@ -24568,7 +24568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CdCsCs
 """,
@@ -24588,7 +24588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CdCdH
 """,
@@ -24608,7 +24608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CdCdCs
 """,
@@ -24628,7 +24628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CbHH
 """,
@@ -24648,7 +24648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CbCsH
 """,
@@ -24668,7 +24668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CbCsCs
 """,
@@ -24688,7 +24688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CtHH
 """,
@@ -24708,7 +24708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CtCsH
 """,
@@ -24728,7 +24728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CsJ-CtCsCs
 """,
@@ -24748,7 +24748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CdsJ-H
 """,
@@ -24768,7 +24768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CdsJ-Cs
 """,
@@ -24788,7 +24788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;CbJ
 """,
@@ -24808,7 +24808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-HHH
 """,
@@ -24828,7 +24828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CsHH
 """,
@@ -24848,7 +24848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CsCsH
 """,
@@ -24868,7 +24868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -24888,7 +24888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CdHH
 """,
@@ -24908,7 +24908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CdCsH
 """,
@@ -24928,7 +24928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -24948,7 +24948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CdCdH
 """,
@@ -24968,7 +24968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -24988,7 +24988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CbHH
 """,
@@ -25008,7 +25008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CbCsH
 """,
@@ -25028,7 +25028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -25048,7 +25048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CtHH
 """,
@@ -25068,7 +25068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CtCsH
 """,
@@ -25088,7 +25088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -25108,7 +25108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CdsJ-H
 """,
@@ -25128,7 +25128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CdsJ-Cs
 """,
@@ -25148,7 +25148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;CbJ
 """,
@@ -25168,7 +25168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-HHH
 """,
@@ -25188,7 +25188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CsHH
 """,
@@ -25208,7 +25208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CsCsH
 """,
@@ -25228,7 +25228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CsCsCs
 """,
@@ -25248,7 +25248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CdHH
 """,
@@ -25268,7 +25268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CdCsH
 """,
@@ -25288,7 +25288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CdCsCs
 """,
@@ -25308,7 +25308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CdCdH
 """,
@@ -25328,7 +25328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CdCdCs
 """,
@@ -25348,7 +25348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CbHH
 """,
@@ -25368,7 +25368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CbCsH
 """,
@@ -25388,7 +25388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CbCsCs
 """,
@@ -25408,7 +25408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CtHH
 """,
@@ -25428,7 +25428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CtCsH
 """,
@@ -25448,7 +25448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CsJ-CtCsCs
 """,
@@ -25468,7 +25468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CdsJ-H
 """,
@@ -25488,7 +25488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CdsJ-Cs
 """,
@@ -25508,7 +25508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;CbJ
 """,
@@ -25528,7 +25528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-HHH
 """,
@@ -25548,7 +25548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CsHH
 """,
@@ -25568,7 +25568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CsCsH
 """,
@@ -25588,7 +25588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -25608,7 +25608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CdHH
 """,
@@ -25628,7 +25628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CdCsH
 """,
@@ -25648,7 +25648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -25668,7 +25668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CdCdH
 """,
@@ -25688,7 +25688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -25708,7 +25708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CbHH
 """,
@@ -25728,7 +25728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CbCsH
 """,
@@ -25748,7 +25748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -25768,7 +25768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CtHH
 """,
@@ -25788,7 +25788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CtCsH
 """,
@@ -25808,7 +25808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -25828,7 +25828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CdsJ-H
 """,
@@ -25848,7 +25848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CdsJ-Cs
 """,
@@ -25868,7 +25868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;CbJ
 """,
@@ -25888,7 +25888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-HHH
 """,
@@ -25908,7 +25908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CsHH
 """,
@@ -25928,7 +25928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CsCsH
 """,
@@ -25948,7 +25948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -25968,7 +25968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CdHH
 """,
@@ -25988,7 +25988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CdCsH
 """,
@@ -26008,7 +26008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -26028,7 +26028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CdCdH
 """,
@@ -26048,7 +26048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -26068,7 +26068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CbHH
 """,
@@ -26088,7 +26088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CbCsH
 """,
@@ -26108,7 +26108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -26128,7 +26128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CtHH
 """,
@@ -26148,7 +26148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CtCsH
 """,
@@ -26168,7 +26168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -26188,7 +26188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CdsJ-H
 """,
@@ -26208,7 +26208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CdsJ-Cs
 """,
@@ -26228,7 +26228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;CbJ
 """,
@@ -26248,7 +26248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-HHH
 """,
@@ -26268,7 +26268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CsHH
 """,
@@ -26288,7 +26288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CsCsH
 """,
@@ -26308,7 +26308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CsCsCs
 """,
@@ -26328,7 +26328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CdHH
 """,
@@ -26348,7 +26348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CdCsH
 """,
@@ -26368,7 +26368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CdCsCs
 """,
@@ -26388,7 +26388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CdCdH
 """,
@@ -26408,7 +26408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CdCdCs
 """,
@@ -26428,7 +26428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CbHH
 """,
@@ -26448,7 +26448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CbCsH
 """,
@@ -26468,7 +26468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CbCsCs
 """,
@@ -26488,7 +26488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CtHH
 """,
@@ -26508,7 +26508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CtCsH
 """,
@@ -26528,7 +26528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CsJ-CtCsCs
 """,
@@ -26548,7 +26548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CdsJ-H
 """,
@@ -26568,7 +26568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CdsJ-Cs
 """,
@@ -26588,7 +26588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;CbJ
 """,
@@ -26608,7 +26608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-HHH
 """,
@@ -26628,7 +26628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CsHH
 """,
@@ -26648,7 +26648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CsCsH
 """,
@@ -26668,7 +26668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -26688,7 +26688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CdHH
 """,
@@ -26708,7 +26708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CdCsH
 """,
@@ -26728,7 +26728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -26748,7 +26748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CdCdH
 """,
@@ -26768,7 +26768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -26788,7 +26788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CbHH
 """,
@@ -26808,7 +26808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CbCsH
 """,
@@ -26828,7 +26828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -26848,7 +26848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CtHH
 """,
@@ -26868,7 +26868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CtCsH
 """,
@@ -26888,7 +26888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -26908,7 +26908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CdsJ-H
 """,
@@ -26928,7 +26928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CdsJ-Cs
 """,
@@ -26948,7 +26948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;CbJ
 """,
@@ -26968,7 +26968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-HHH
 """,
@@ -26988,7 +26988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CsHH
 """,
@@ -27008,7 +27008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CsCsH
 """,
@@ -27028,7 +27028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CsCsCs
 """,
@@ -27048,7 +27048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CdHH
 """,
@@ -27068,7 +27068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CdCsH
 """,
@@ -27088,7 +27088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CdCsCs
 """,
@@ -27108,7 +27108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CdCdH
 """,
@@ -27128,7 +27128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CdCdCs
 """,
@@ -27148,7 +27148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CbHH
 """,
@@ -27168,7 +27168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CbCsH
 """,
@@ -27188,7 +27188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CbCsCs
 """,
@@ -27208,7 +27208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CtHH
 """,
@@ -27228,7 +27228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CtCsH
 """,
@@ -27248,7 +27248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CsJ-CtCsCs
 """,
@@ -27268,7 +27268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CdsJ-H
 """,
@@ -27288,7 +27288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CdsJ-Cs
 """,
@@ -27308,7 +27308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;CbJ
 """,
@@ -27328,7 +27328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-HHH
 """,
@@ -27348,7 +27348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CsHH
 """,
@@ -27368,7 +27368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CsCsH
 """,
@@ -27388,7 +27388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -27408,7 +27408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CdHH
 """,
@@ -27428,7 +27428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CdCsH
 """,
@@ -27448,7 +27448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -27468,7 +27468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CdCdH
 """,
@@ -27488,7 +27488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -27508,7 +27508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CbHH
 """,
@@ -27528,7 +27528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CbCsH
 """,
@@ -27548,7 +27548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -27568,7 +27568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CtHH
 """,
@@ -27588,7 +27588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CtCsH
 """,
@@ -27608,7 +27608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -27628,7 +27628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CdsJ-H
 """,
@@ -27648,7 +27648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CdsJ-Cs
 """,
@@ -27668,7 +27668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;CbJ
 """,
@@ -27688,7 +27688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-HHH
 """,
@@ -27708,7 +27708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CsHH
 """,
@@ -27728,7 +27728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CsCsH
 """,
@@ -27748,7 +27748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CsCsCs
 """,
@@ -27768,7 +27768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CdHH
 """,
@@ -27788,7 +27788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CdCsH
 """,
@@ -27808,7 +27808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CdCsCs
 """,
@@ -27828,7 +27828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CdCdH
 """,
@@ -27848,7 +27848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CdCdCs
 """,
@@ -27868,7 +27868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CbHH
 """,
@@ -27888,7 +27888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CbCsH
 """,
@@ -27908,7 +27908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CbCsCs
 """,
@@ -27928,7 +27928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CtHH
 """,
@@ -27948,7 +27948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CtCsH
 """,
@@ -27968,7 +27968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CsJ-CtCsCs
 """,
@@ -27988,7 +27988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CdsJ-H
 """,
@@ -28008,7 +28008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CdsJ-Cs
 """,
@@ -28028,7 +28028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;CbJ
 """,
@@ -28048,7 +28048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-HHH
 """,
@@ -28068,7 +28068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CsHH
 """,
@@ -28088,7 +28088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CsCsH
 """,
@@ -28108,7 +28108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CsCsCs
 """,
@@ -28128,7 +28128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CdHH
 """,
@@ -28148,7 +28148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CdCsH
 """,
@@ -28168,7 +28168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CdCsCs
 """,
@@ -28188,7 +28188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CdCdH
 """,
@@ -28208,7 +28208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CdCdCs
 """,
@@ -28228,7 +28228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CbHH
 """,
@@ -28248,7 +28248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CbCsH
 """,
@@ -28268,7 +28268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CbCsCs
 """,
@@ -28288,7 +28288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CtHH
 """,
@@ -28308,7 +28308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CtCsH
 """,
@@ -28328,7 +28328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CsJ-CtCsCs
 """,
@@ -28348,7 +28348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CdsJ-H
 """,
@@ -28368,7 +28368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CdsJ-Cs
 """,
@@ -28388,7 +28388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;CbJ
 """,
@@ -28408,7 +28408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-HHH
 """,
@@ -28428,7 +28428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CsHH
 """,
@@ -28448,7 +28448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CsCsH
 """,
@@ -28468,7 +28468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CsCsCs
 """,
@@ -28488,7 +28488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CdHH
 """,
@@ -28508,7 +28508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CdCsH
 """,
@@ -28528,7 +28528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CdCsCs
 """,
@@ -28548,7 +28548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CdCdH
 """,
@@ -28568,7 +28568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CdCdCs
 """,
@@ -28588,7 +28588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CbHH
 """,
@@ -28608,7 +28608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CbCsH
 """,
@@ -28628,7 +28628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CbCsCs
 """,
@@ -28648,7 +28648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CtHH
 """,
@@ -28668,7 +28668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CtCsH
 """,
@@ -28688,7 +28688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CsJ-CtCsCs
 """,
@@ -28708,7 +28708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CdsJ-H
 """,
@@ -28728,7 +28728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CdsJ-Cs
 """,
@@ -28748,7 +28748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;CbJ
 """,
@@ -28768,7 +28768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-HHH
 """,
@@ -28788,7 +28788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CsHH
 """,
@@ -28808,7 +28808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CsCsH
 """,
@@ -28828,7 +28828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -28848,7 +28848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CdHH
 """,
@@ -28868,7 +28868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CdCsH
 """,
@@ -28888,7 +28888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -28908,7 +28908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CdCdH
 """,
@@ -28928,7 +28928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -28948,7 +28948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CbHH
 """,
@@ -28968,7 +28968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CbCsH
 """,
@@ -28988,7 +28988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -29008,7 +29008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CtHH
 """,
@@ -29028,7 +29028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CtCsH
 """,
@@ -29048,7 +29048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -29068,7 +29068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CdsJ-H
 """,
@@ -29088,7 +29088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CdsJ-Cs
 """,
@@ -29108,7 +29108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;CbJ
 """,
@@ -29128,7 +29128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-HHH
 """,
@@ -29148,7 +29148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CsHH
 """,
@@ -29168,7 +29168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CsCsH
 """,
@@ -29188,7 +29188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CsCsCs
 """,
@@ -29208,7 +29208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CdHH
 """,
@@ -29228,7 +29228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CdCsH
 """,
@@ -29248,7 +29248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CdCsCs
 """,
@@ -29268,7 +29268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CdCdH
 """,
@@ -29288,7 +29288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CdCdCs
 """,
@@ -29308,7 +29308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CbHH
 """,
@@ -29328,7 +29328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CbCsH
 """,
@@ -29348,7 +29348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CbCsCs
 """,
@@ -29368,7 +29368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CtHH
 """,
@@ -29388,7 +29388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CtCsH
 """,
@@ -29408,7 +29408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CsJ-CtCsCs
 """,
@@ -29428,7 +29428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CdsJ-H
 """,
@@ -29448,7 +29448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CdsJ-Cs
 """,
@@ -29468,7 +29468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;CbJ
 """,
@@ -29488,7 +29488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-HHH
 """,
@@ -29508,7 +29508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CsHH
 """,
@@ -29528,7 +29528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CsCsH
 """,
@@ -29548,7 +29548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -29568,7 +29568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CdHH
 """,
@@ -29588,7 +29588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CdCsH
 """,
@@ -29608,7 +29608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -29628,7 +29628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CdCdH
 """,
@@ -29648,7 +29648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -29668,7 +29668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CbHH
 """,
@@ -29688,7 +29688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CbCsH
 """,
@@ -29708,7 +29708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -29728,7 +29728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CtHH
 """,
@@ -29748,7 +29748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CtCsH
 """,
@@ -29768,7 +29768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -29788,7 +29788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CdsJ-H
 """,
@@ -29808,7 +29808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CdsJ-Cs
 """,
@@ -29828,7 +29828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;CbJ
 """,
@@ -29848,7 +29848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-HHH
 """,
@@ -29868,7 +29868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CsHH
 """,
@@ -29888,7 +29888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CsCsH
 """,
@@ -29908,7 +29908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -29928,7 +29928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CdHH
 """,
@@ -29948,7 +29948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CdCsH
 """,
@@ -29968,7 +29968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -29988,7 +29988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CdCdH
 """,
@@ -30008,7 +30008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -30028,7 +30028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CbHH
 """,
@@ -30048,7 +30048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CbCsH
 """,
@@ -30068,7 +30068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -30088,7 +30088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CtHH
 """,
@@ -30108,7 +30108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CtCsH
 """,
@@ -30128,7 +30128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -30148,7 +30148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CdsJ-H
 """,
@@ -30168,7 +30168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CdsJ-Cs
 """,
@@ -30188,7 +30188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;CbJ
 """,
@@ -30208,7 +30208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-HHH
 """,
@@ -30228,7 +30228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CsHH
 """,
@@ -30248,7 +30248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CsCsH
 """,
@@ -30268,7 +30268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CsCsCs
 """,
@@ -30288,7 +30288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CdHH
 """,
@@ -30308,7 +30308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CdCsH
 """,
@@ -30328,7 +30328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CdCsCs
 """,
@@ -30348,7 +30348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CdCdH
 """,
@@ -30368,7 +30368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CdCdCs
 """,
@@ -30388,7 +30388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CbHH
 """,
@@ -30408,7 +30408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CbCsH
 """,
@@ -30428,7 +30428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CbCsCs
 """,
@@ -30448,7 +30448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CtHH
 """,
@@ -30468,7 +30468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CtCsH
 """,
@@ -30488,7 +30488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CsJ-CtCsCs
 """,
@@ -30508,7 +30508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CdsJ-H
 """,
@@ -30528,7 +30528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CdsJ-Cs
 """,
@@ -30548,7 +30548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;CbJ
 """,
@@ -30568,7 +30568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-HHH
 """,
@@ -30588,7 +30588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CsHH
 """,
@@ -30608,7 +30608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CsCsH
 """,
@@ -30628,7 +30628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -30648,7 +30648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CdHH
 """,
@@ -30668,7 +30668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CdCsH
 """,
@@ -30688,7 +30688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -30708,7 +30708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CdCdH
 """,
@@ -30728,7 +30728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -30748,7 +30748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CbHH
 """,
@@ -30768,7 +30768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CbCsH
 """,
@@ -30788,7 +30788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -30808,7 +30808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CtHH
 """,
@@ -30828,7 +30828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CtCsH
 """,
@@ -30848,7 +30848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -30868,7 +30868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CdsJ-H
 """,
@@ -30888,7 +30888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CdsJ-Cs
 """,
@@ -30908,7 +30908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;CbJ
 """,
@@ -30928,7 +30928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-HHH
 """,
@@ -30948,7 +30948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CsHH
 """,
@@ -30968,7 +30968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CsCsH
 """,
@@ -30988,7 +30988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CsCsCs
 """,
@@ -31008,7 +31008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CdHH
 """,
@@ -31028,7 +31028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CdCsH
 """,
@@ -31048,7 +31048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CdCsCs
 """,
@@ -31068,7 +31068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CdCdH
 """,
@@ -31088,7 +31088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CdCdCs
 """,
@@ -31108,7 +31108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CbHH
 """,
@@ -31128,7 +31128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CbCsH
 """,
@@ -31148,7 +31148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CbCsCs
 """,
@@ -31168,7 +31168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CtHH
 """,
@@ -31188,7 +31188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CtCsH
 """,
@@ -31208,7 +31208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CsJ-CtCsCs
 """,
@@ -31228,7 +31228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CdsJ-H
 """,
@@ -31248,7 +31248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CdsJ-Cs
 """,
@@ -31268,7 +31268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;CbJ
 """,
@@ -31288,7 +31288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-HHH
 """,
@@ -31308,7 +31308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CsHH
 """,
@@ -31328,7 +31328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CsCsH
 """,
@@ -31348,7 +31348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -31368,7 +31368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CdHH
 """,
@@ -31388,7 +31388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CdCsH
 """,
@@ -31408,7 +31408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -31428,7 +31428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CdCdH
 """,
@@ -31448,7 +31448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -31468,7 +31468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CbHH
 """,
@@ -31488,7 +31488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CbCsH
 """,
@@ -31508,7 +31508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -31528,7 +31528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CtHH
 """,
@@ -31548,7 +31548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CtCsH
 """,
@@ -31568,7 +31568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -31588,7 +31588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CdsJ-H
 """,
@@ -31608,7 +31608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CdsJ-Cs
 """,
@@ -31628,7 +31628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;CbJ
 """,
@@ -31648,7 +31648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-HHH
 """,
@@ -31668,7 +31668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CsHH
 """,
@@ -31688,7 +31688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CsCsH
 """,
@@ -31708,7 +31708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CsCsCs
 """,
@@ -31728,7 +31728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CdHH
 """,
@@ -31748,7 +31748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CdCsH
 """,
@@ -31768,7 +31768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CdCsCs
 """,
@@ -31788,7 +31788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CdCdH
 """,
@@ -31808,7 +31808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CdCdCs
 """,
@@ -31828,7 +31828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CbHH
 """,
@@ -31848,7 +31848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CbCsH
 """,
@@ -31868,7 +31868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CbCsCs
 """,
@@ -31888,7 +31888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CtHH
 """,
@@ -31908,7 +31908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CtCsH
 """,
@@ -31928,7 +31928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CsJ-CtCsCs
 """,
@@ -31948,7 +31948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CdsJ-H
 """,
@@ -31968,7 +31968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CdsJ-Cs
 """,
@@ -31988,7 +31988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;CbJ
 """,
@@ -32008,7 +32008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-HHH
 """,
@@ -32028,7 +32028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CsHH
 """,
@@ -32048,7 +32048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CsCsH
 """,
@@ -32068,7 +32068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CsCsCs
 """,
@@ -32088,7 +32088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CdHH
 """,
@@ -32108,7 +32108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CdCsH
 """,
@@ -32128,7 +32128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CdCsCs
 """,
@@ -32148,7 +32148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CdCdH
 """,
@@ -32168,7 +32168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CdCdCs
 """,
@@ -32188,7 +32188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CbHH
 """,
@@ -32208,7 +32208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CbCsH
 """,
@@ -32228,7 +32228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CbCsCs
 """,
@@ -32248,7 +32248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CtHH
 """,
@@ -32268,7 +32268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CtCsH
 """,
@@ -32288,7 +32288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CsJ-CtCsCs
 """,
@@ -32308,7 +32308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CdsJ-H
 """,
@@ -32328,7 +32328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CdsJ-Cs
 """,
@@ -32348,7 +32348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;CbJ
 """,
@@ -32368,7 +32368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-HHH
 """,
@@ -32388,7 +32388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CsHH
 """,
@@ -32408,7 +32408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CsCsH
 """,
@@ -32428,7 +32428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CsCsCs
 """,
@@ -32448,7 +32448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CdHH
 """,
@@ -32468,7 +32468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CdCsH
 """,
@@ -32488,7 +32488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CdCsCs
 """,
@@ -32508,7 +32508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CdCdH
 """,
@@ -32528,7 +32528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CdCdCs
 """,
@@ -32548,7 +32548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CbHH
 """,
@@ -32568,7 +32568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CbCsH
 """,
@@ -32588,7 +32588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CbCsCs
 """,
@@ -32608,7 +32608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CtHH
 """,
@@ -32628,7 +32628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CtCsH
 """,
@@ -32648,7 +32648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CsJ-CtCsCs
 """,
@@ -32668,7 +32668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CdsJ-H
 """,
@@ -32688,7 +32688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CdsJ-Cs
 """,
@@ -32708,7 +32708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;CbJ
 """,
@@ -32728,7 +32728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-HHH
 """,
@@ -32748,7 +32748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CsHH
 """,
@@ -32768,7 +32768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CsCsH
 """,
@@ -32788,7 +32788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -32808,7 +32808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CdHH
 """,
@@ -32828,7 +32828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CdCsH
 """,
@@ -32848,7 +32848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -32868,7 +32868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CdCdH
 """,
@@ -32888,7 +32888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -32908,7 +32908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CbHH
 """,
@@ -32928,7 +32928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CbCsH
 """,
@@ -32948,7 +32948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -32968,7 +32968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CtHH
 """,
@@ -32988,7 +32988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CtCsH
 """,
@@ -33008,7 +33008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -33028,7 +33028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CdsJ-H
 """,
@@ -33048,7 +33048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CdsJ-Cs
 """,
@@ -33068,7 +33068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;CbJ
 """,
@@ -33088,7 +33088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-HHH
 """,
@@ -33108,7 +33108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CsHH
 """,
@@ -33128,7 +33128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CsCsH
 """,
@@ -33148,7 +33148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CsCsCs
 """,
@@ -33168,7 +33168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CdHH
 """,
@@ -33188,7 +33188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CdCsH
 """,
@@ -33208,7 +33208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CdCsCs
 """,
@@ -33228,7 +33228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CdCdH
 """,
@@ -33248,7 +33248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CdCdCs
 """,
@@ -33268,7 +33268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CbHH
 """,
@@ -33288,7 +33288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CbCsH
 """,
@@ -33308,7 +33308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CbCsCs
 """,
@@ -33328,7 +33328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CtHH
 """,
@@ -33348,7 +33348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CtCsH
 """,
@@ -33368,7 +33368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CsJ-CtCsCs
 """,
@@ -33388,7 +33388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CdsJ-H
 """,
@@ -33408,7 +33408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CdsJ-Cs
 """,
@@ -33428,7 +33428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;CbJ
 """,
@@ -33448,7 +33448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-HHH
 """,
@@ -33468,7 +33468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CsHH
 """,
@@ -33488,7 +33488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CsCsH
 """,
@@ -33508,7 +33508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -33528,7 +33528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CdHH
 """,
@@ -33548,7 +33548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CdCsH
 """,
@@ -33568,7 +33568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -33588,7 +33588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CdCdH
 """,
@@ -33608,7 +33608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -33628,7 +33628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CbHH
 """,
@@ -33648,7 +33648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CbCsH
 """,
@@ -33668,7 +33668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -33688,7 +33688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CtHH
 """,
@@ -33708,7 +33708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CtCsH
 """,
@@ -33728,7 +33728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -33748,7 +33748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CdsJ-H
 """,
@@ -33768,7 +33768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CdsJ-Cs
 """,
@@ -33788,7 +33788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;CbJ
 """,
@@ -33808,7 +33808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-HHH
 """,
@@ -33828,7 +33828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CsHH
 """,
@@ -33848,7 +33848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CsCsH
 """,
@@ -33868,7 +33868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -33888,7 +33888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CdHH
 """,
@@ -33908,7 +33908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CdCsH
 """,
@@ -33928,7 +33928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -33948,7 +33948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CdCdH
 """,
@@ -33968,7 +33968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -33988,7 +33988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CbHH
 """,
@@ -34008,7 +34008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CbCsH
 """,
@@ -34028,7 +34028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -34048,7 +34048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CtHH
 """,
@@ -34068,7 +34068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CtCsH
 """,
@@ -34088,7 +34088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -34108,7 +34108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CdsJ-H
 """,
@@ -34128,7 +34128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CdsJ-Cs
 """,
@@ -34148,7 +34148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;CbJ
 """,
@@ -34168,7 +34168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-HHH
 """,
@@ -34188,7 +34188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CsHH
 """,
@@ -34208,7 +34208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CsCsH
 """,
@@ -34228,7 +34228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CsCsCs
 """,
@@ -34248,7 +34248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CdHH
 """,
@@ -34268,7 +34268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CdCsH
 """,
@@ -34288,7 +34288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CdCsCs
 """,
@@ -34308,7 +34308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CdCdH
 """,
@@ -34328,7 +34328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CdCdCs
 """,
@@ -34348,7 +34348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CbHH
 """,
@@ -34368,7 +34368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CbCsH
 """,
@@ -34388,7 +34388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CbCsCs
 """,
@@ -34408,7 +34408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CtHH
 """,
@@ -34428,7 +34428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CtCsH
 """,
@@ -34448,7 +34448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CsJ-CtCsCs
 """,
@@ -34468,7 +34468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CdsJ-H
 """,
@@ -34488,7 +34488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CdsJ-Cs
 """,
@@ -34508,7 +34508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;CbJ
 """,
@@ -34528,7 +34528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-HHH
 """,
@@ -34548,7 +34548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CsHH
 """,
@@ -34568,7 +34568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CsCsH
 """,
@@ -34588,7 +34588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -34608,7 +34608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CdHH
 """,
@@ -34628,7 +34628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CdCsH
 """,
@@ -34648,7 +34648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -34668,7 +34668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CdCdH
 """,
@@ -34688,7 +34688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -34708,7 +34708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CbHH
 """,
@@ -34728,7 +34728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CbCsH
 """,
@@ -34748,7 +34748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -34768,7 +34768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CtHH
 """,
@@ -34788,7 +34788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CtCsH
 """,
@@ -34808,7 +34808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -34828,7 +34828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CdsJ-H
 """,
@@ -34848,7 +34848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CdsJ-Cs
 """,
@@ -34868,7 +34868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;CbJ
 """,
@@ -34888,7 +34888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-HHH
 """,
@@ -34908,7 +34908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CsHH
 """,
@@ -34928,7 +34928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CsCsH
 """,
@@ -34948,7 +34948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CsCsCs
 """,
@@ -34968,7 +34968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CdHH
 """,
@@ -34988,7 +34988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CdCsH
 """,
@@ -35008,7 +35008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CdCsCs
 """,
@@ -35028,7 +35028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CdCdH
 """,
@@ -35048,7 +35048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CdCdCs
 """,
@@ -35068,7 +35068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CbHH
 """,
@@ -35088,7 +35088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CbCsH
 """,
@@ -35108,7 +35108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CbCsCs
 """,
@@ -35128,7 +35128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CtHH
 """,
@@ -35148,7 +35148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CtCsH
 """,
@@ -35168,7 +35168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CsJ-CtCsCs
 """,
@@ -35188,7 +35188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CdsJ-H
 """,
@@ -35208,7 +35208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CdsJ-Cs
 """,
@@ -35228,7 +35228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;CbJ
 """,
@@ -35248,7 +35248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-HHH
 """,
@@ -35268,7 +35268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CsHH
 """,
@@ -35288,7 +35288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CsCsH
 """,
@@ -35308,7 +35308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -35328,7 +35328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CdHH
 """,
@@ -35348,7 +35348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CdCsH
 """,
@@ -35368,7 +35368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -35388,7 +35388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CdCdH
 """,
@@ -35408,7 +35408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -35428,7 +35428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CbHH
 """,
@@ -35448,7 +35448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CbCsH
 """,
@@ -35468,7 +35468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -35488,7 +35488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CtHH
 """,
@@ -35508,7 +35508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CtCsH
 """,
@@ -35528,7 +35528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -35548,7 +35548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CdsJ-H
 """,
@@ -35568,7 +35568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CdsJ-Cs
 """,
@@ -35588,7 +35588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;CbJ
 """,
@@ -35608,7 +35608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-HHH
 """,
@@ -35628,7 +35628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CsHH
 """,
@@ -35648,7 +35648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CsCsH
 """,
@@ -35668,7 +35668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CsCsCs
 """,
@@ -35688,7 +35688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CdHH
 """,
@@ -35708,7 +35708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CdCsH
 """,
@@ -35728,7 +35728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CdCsCs
 """,
@@ -35748,7 +35748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CdCdH
 """,
@@ -35768,7 +35768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CdCdCs
 """,
@@ -35788,7 +35788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CbHH
 """,
@@ -35808,7 +35808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CbCsH
 """,
@@ -35828,7 +35828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CbCsCs
 """,
@@ -35848,7 +35848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CtHH
 """,
@@ -35868,7 +35868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CtCsH
 """,
@@ -35888,7 +35888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CsJ-CtCsCs
 """,
@@ -35908,7 +35908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CdsJ-H
 """,
@@ -35928,7 +35928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CdsJ-Cs
 """,
@@ -35948,7 +35948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;CbJ
 """,
@@ -35968,7 +35968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-HHH
 """,
@@ -35988,7 +35988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CsHH
 """,
@@ -36008,7 +36008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CsCsH
 """,
@@ -36028,7 +36028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CsCsCs
 """,
@@ -36048,7 +36048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CdHH
 """,
@@ -36068,7 +36068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CdCsH
 """,
@@ -36088,7 +36088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CdCsCs
 """,
@@ -36108,7 +36108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CdCdH
 """,
@@ -36128,7 +36128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CdCdCs
 """,
@@ -36148,7 +36148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CbHH
 """,
@@ -36168,7 +36168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CbCsH
 """,
@@ -36188,7 +36188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CbCsCs
 """,
@@ -36208,7 +36208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CtHH
 """,
@@ -36228,7 +36228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CtCsH
 """,
@@ -36248,7 +36248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CsJ-CtCsCs
 """,
@@ -36268,7 +36268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CdsJ-H
 """,
@@ -36288,7 +36288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CdsJ-Cs
 """,
@@ -36308,7 +36308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;CbJ
 """,
@@ -36328,7 +36328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-HHH
 """,
@@ -36348,7 +36348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CsHH
 """,
@@ -36368,7 +36368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CsCsH
 """,
@@ -36388,7 +36388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CsCsCs
 """,
@@ -36408,7 +36408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CdHH
 """,
@@ -36428,7 +36428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CdCsH
 """,
@@ -36448,7 +36448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CdCsCs
 """,
@@ -36468,7 +36468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CdCdH
 """,
@@ -36488,7 +36488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CdCdCs
 """,
@@ -36508,7 +36508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CbHH
 """,
@@ -36528,7 +36528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CbCsH
 """,
@@ -36548,7 +36548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CbCsCs
 """,
@@ -36568,7 +36568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CtHH
 """,
@@ -36588,7 +36588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CtCsH
 """,
@@ -36608,7 +36608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CsJ-CtCsCs
 """,
@@ -36628,7 +36628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CdsJ-H
 """,
@@ -36648,7 +36648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CdsJ-Cs
 """,
@@ -36668,7 +36668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;CbJ
 """,
@@ -36688,7 +36688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-HHH
 """,
@@ -36708,7 +36708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CsHH
 """,
@@ -36728,7 +36728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CsCsH
 """,
@@ -36748,7 +36748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -36768,7 +36768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CdHH
 """,
@@ -36788,7 +36788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CdCsH
 """,
@@ -36808,7 +36808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -36828,7 +36828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CdCdH
 """,
@@ -36848,7 +36848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -36868,7 +36868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CbHH
 """,
@@ -36888,7 +36888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CbCsH
 """,
@@ -36908,7 +36908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -36928,7 +36928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CtHH
 """,
@@ -36948,7 +36948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CtCsH
 """,
@@ -36968,7 +36968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -36988,7 +36988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CdsJ-H
 """,
@@ -37008,7 +37008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CdsJ-Cs
 """,
@@ -37028,7 +37028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;CbJ
 """,
@@ -37048,7 +37048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-HHH
 """,
@@ -37068,7 +37068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CsHH
 """,
@@ -37088,7 +37088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CsCsH
 """,
@@ -37108,7 +37108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CsCsCs
 """,
@@ -37128,7 +37128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CdHH
 """,
@@ -37148,7 +37148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CdCsH
 """,
@@ -37168,7 +37168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CdCsCs
 """,
@@ -37188,7 +37188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CdCdH
 """,
@@ -37208,7 +37208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CdCdCs
 """,
@@ -37228,7 +37228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CbHH
 """,
@@ -37248,7 +37248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CbCsH
 """,
@@ -37268,7 +37268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CbCsCs
 """,
@@ -37288,7 +37288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CtHH
 """,
@@ -37308,7 +37308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CtCsH
 """,
@@ -37328,7 +37328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CsJ-CtCsCs
 """,
@@ -37348,7 +37348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CdsJ-H
 """,
@@ -37368,7 +37368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CdsJ-Cs
 """,
@@ -37388,7 +37388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;CbJ
 """,
@@ -37408,7 +37408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-HHH
 """,
@@ -37428,7 +37428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CsHH
 """,
@@ -37448,7 +37448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CsCsH
 """,
@@ -37468,7 +37468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -37488,7 +37488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CdHH
 """,
@@ -37508,7 +37508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CdCsH
 """,
@@ -37528,7 +37528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -37548,7 +37548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CdCdH
 """,
@@ -37568,7 +37568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -37588,7 +37588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CbHH
 """,
@@ -37608,7 +37608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CbCsH
 """,
@@ -37628,7 +37628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -37648,7 +37648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CtHH
 """,
@@ -37668,7 +37668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CtCsH
 """,
@@ -37688,7 +37688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -37708,7 +37708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CdsJ-H
 """,
@@ -37728,7 +37728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CdsJ-Cs
 """,
@@ -37748,7 +37748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;CbJ
 """,
@@ -37768,7 +37768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-HHH
 """,
@@ -37788,7 +37788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CsHH
 """,
@@ -37808,7 +37808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CsCsH
 """,
@@ -37828,7 +37828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -37848,7 +37848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CdHH
 """,
@@ -37868,7 +37868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CdCsH
 """,
@@ -37888,7 +37888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -37908,7 +37908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CdCdH
 """,
@@ -37928,7 +37928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -37948,7 +37948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CbHH
 """,
@@ -37968,7 +37968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CbCsH
 """,
@@ -37988,7 +37988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -38008,7 +38008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CtHH
 """,
@@ -38028,7 +38028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CtCsH
 """,
@@ -38048,7 +38048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -38068,7 +38068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CdsJ-H
 """,
@@ -38088,7 +38088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CdsJ-Cs
 """,
@@ -38108,7 +38108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;CbJ
 """,
@@ -38128,7 +38128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-HHH
 """,
@@ -38148,7 +38148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CsHH
 """,
@@ -38168,7 +38168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CsCsH
 """,
@@ -38188,7 +38188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CsCsCs
 """,
@@ -38208,7 +38208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CdHH
 """,
@@ -38228,7 +38228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CdCsH
 """,
@@ -38248,7 +38248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CdCsCs
 """,
@@ -38268,7 +38268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CdCdH
 """,
@@ -38288,7 +38288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CdCdCs
 """,
@@ -38308,7 +38308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CbHH
 """,
@@ -38328,7 +38328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CbCsH
 """,
@@ -38348,7 +38348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CbCsCs
 """,
@@ -38368,7 +38368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CtHH
 """,
@@ -38388,7 +38388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CtCsH
 """,
@@ -38408,7 +38408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CsJ-CtCsCs
 """,
@@ -38428,7 +38428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CdsJ-H
 """,
@@ -38448,7 +38448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CdsJ-Cs
 """,
@@ -38468,7 +38468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;CbJ
 """,
@@ -38488,7 +38488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-HHH
 """,
@@ -38508,7 +38508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CsHH
 """,
@@ -38528,7 +38528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CsCsH
 """,
@@ -38548,7 +38548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -38568,7 +38568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CdHH
 """,
@@ -38588,7 +38588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CdCsH
 """,
@@ -38608,7 +38608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -38628,7 +38628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CdCdH
 """,
@@ -38648,7 +38648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -38668,7 +38668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CbHH
 """,
@@ -38688,7 +38688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CbCsH
 """,
@@ -38708,7 +38708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -38728,7 +38728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CtHH
 """,
@@ -38748,7 +38748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CtCsH
 """,
@@ -38768,7 +38768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -38788,7 +38788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CdsJ-H
 """,
@@ -38808,7 +38808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CdsJ-Cs
 """,
@@ -38828,7 +38828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;CbJ
 """,
@@ -38848,7 +38848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-HHH
 """,
@@ -38868,7 +38868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CsHH
 """,
@@ -38888,7 +38888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CsCsH
 """,
@@ -38908,7 +38908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CsCsCs
 """,
@@ -38928,7 +38928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CdHH
 """,
@@ -38948,7 +38948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CdCsH
 """,
@@ -38968,7 +38968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CdCsCs
 """,
@@ -38988,7 +38988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CdCdH
 """,
@@ -39008,7 +39008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CdCdCs
 """,
@@ -39028,7 +39028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CbHH
 """,
@@ -39048,7 +39048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CbCsH
 """,
@@ -39068,7 +39068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CbCsCs
 """,
@@ -39088,7 +39088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CtHH
 """,
@@ -39108,7 +39108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CtCsH
 """,
@@ -39128,7 +39128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CsJ-CtCsCs
 """,
@@ -39148,7 +39148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CdsJ-H
 """,
@@ -39168,7 +39168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CdsJ-Cs
 """,
@@ -39188,7 +39188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;CbJ
 """,
@@ -39208,7 +39208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-HHH
 """,
@@ -39228,7 +39228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CsHH
 """,
@@ -39248,7 +39248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CsCsH
 """,
@@ -39268,7 +39268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -39288,7 +39288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CdHH
 """,
@@ -39308,7 +39308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CdCsH
 """,
@@ -39328,7 +39328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -39348,7 +39348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CdCdH
 """,
@@ -39368,7 +39368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -39388,7 +39388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CbHH
 """,
@@ -39408,7 +39408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CbCsH
 """,
@@ -39428,7 +39428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -39448,7 +39448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CtHH
 """,
@@ -39468,7 +39468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CtCsH
 """,
@@ -39488,7 +39488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -39508,7 +39508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CdsJ-H
 """,
@@ -39528,7 +39528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CdsJ-Cs
 """,
@@ -39548,7 +39548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;CbJ
 """,
@@ -39568,7 +39568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-HHH
 """,
@@ -39588,7 +39588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CsHH
 """,
@@ -39608,7 +39608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CsCsH
 """,
@@ -39628,7 +39628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CsCsCs
 """,
@@ -39648,7 +39648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CdHH
 """,
@@ -39668,7 +39668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CdCsH
 """,
@@ -39688,7 +39688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CdCsCs
 """,
@@ -39708,7 +39708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CdCdH
 """,
@@ -39728,7 +39728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CdCdCs
 """,
@@ -39748,7 +39748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CbHH
 """,
@@ -39768,7 +39768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CbCsH
 """,
@@ -39788,7 +39788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CbCsCs
 """,
@@ -39808,7 +39808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CtHH
 """,
@@ -39828,7 +39828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CtCsH
 """,
@@ -39848,7 +39848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CsJ-CtCsCs
 """,
@@ -39868,7 +39868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CdsJ-H
 """,
@@ -39888,7 +39888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CdsJ-Cs
 """,
@@ -39908,7 +39908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;CbJ
 """,
@@ -39928,7 +39928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-HHH
 """,
@@ -39948,7 +39948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CsHH
 """,
@@ -39968,7 +39968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CsCsH
 """,
@@ -39988,7 +39988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CsCsCs
 """,
@@ -40008,7 +40008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CdHH
 """,
@@ -40028,7 +40028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CdCsH
 """,
@@ -40048,7 +40048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CdCsCs
 """,
@@ -40068,7 +40068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CdCdH
 """,
@@ -40088,7 +40088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CdCdCs
 """,
@@ -40108,7 +40108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CbHH
 """,
@@ -40128,7 +40128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CbCsH
 """,
@@ -40148,7 +40148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CbCsCs
 """,
@@ -40168,7 +40168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CtHH
 """,
@@ -40188,7 +40188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CtCsH
 """,
@@ -40208,7 +40208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CsJ-CtCsCs
 """,
@@ -40228,7 +40228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CdsJ-H
 """,
@@ -40248,7 +40248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CdsJ-Cs
 """,
@@ -40268,7 +40268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;CbJ
 """,
@@ -40288,7 +40288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-HHH
 """,
@@ -40308,7 +40308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CsHH
 """,
@@ -40328,7 +40328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CsCsH
 """,
@@ -40348,7 +40348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CsCsCs
 """,
@@ -40368,7 +40368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CdHH
 """,
@@ -40388,7 +40388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CdCsH
 """,
@@ -40408,7 +40408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CdCsCs
 """,
@@ -40428,7 +40428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CdCdH
 """,
@@ -40448,7 +40448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CdCdCs
 """,
@@ -40468,7 +40468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CbHH
 """,
@@ -40488,7 +40488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CbCsH
 """,
@@ -40508,7 +40508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CbCsCs
 """,
@@ -40528,7 +40528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CtHH
 """,
@@ -40548,7 +40548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CtCsH
 """,
@@ -40568,7 +40568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CsJ-CtCsCs
 """,
@@ -40588,7 +40588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CdsJ-H
 """,
@@ -40608,7 +40608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CdsJ-Cs
 """,
@@ -40628,7 +40628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;CbJ
 """,
@@ -40648,7 +40648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-HHH
 """,
@@ -40668,7 +40668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CsHH
 """,
@@ -40688,7 +40688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CsCsH
 """,
@@ -40708,7 +40708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -40728,7 +40728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CdHH
 """,
@@ -40748,7 +40748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CdCsH
 """,
@@ -40768,7 +40768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -40788,7 +40788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CdCdH
 """,
@@ -40808,7 +40808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -40828,7 +40828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CbHH
 """,
@@ -40848,7 +40848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CbCsH
 """,
@@ -40868,7 +40868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -40888,7 +40888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CtHH
 """,
@@ -40908,7 +40908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CtCsH
 """,
@@ -40928,7 +40928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -40948,7 +40948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CdsJ-H
 """,
@@ -40968,7 +40968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CdsJ-Cs
 """,
@@ -40988,7 +40988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;CbJ
 """,
@@ -41008,7 +41008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-HHH
 """,
@@ -41028,7 +41028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CsHH
 """,
@@ -41048,7 +41048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CsCsH
 """,
@@ -41068,7 +41068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CsCsCs
 """,
@@ -41088,7 +41088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CdHH
 """,
@@ -41108,7 +41108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CdCsH
 """,
@@ -41128,7 +41128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CdCsCs
 """,
@@ -41148,7 +41148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CdCdH
 """,
@@ -41168,7 +41168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CdCdCs
 """,
@@ -41188,7 +41188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CbHH
 """,
@@ -41208,7 +41208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CbCsH
 """,
@@ -41228,7 +41228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CbCsCs
 """,
@@ -41248,7 +41248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CtHH
 """,
@@ -41268,7 +41268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CtCsH
 """,
@@ -41288,7 +41288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CsJ-CtCsCs
 """,
@@ -41308,7 +41308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CdsJ-H
 """,
@@ -41328,7 +41328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CdsJ-Cs
 """,
@@ -41348,7 +41348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;CbJ
 """,
@@ -41368,7 +41368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-HHH
 """,
@@ -41388,7 +41388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CsHH
 """,
@@ -41408,7 +41408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CsCsH
 """,
@@ -41428,7 +41428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CsCsCs
 """,
@@ -41448,7 +41448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CdHH
 """,
@@ -41468,7 +41468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CdCsH
 """,
@@ -41488,7 +41488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CdCsCs
 """,
@@ -41508,7 +41508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CdCdH
 """,
@@ -41528,7 +41528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CdCdCs
 """,
@@ -41548,7 +41548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CbHH
 """,
@@ -41568,7 +41568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CbCsH
 """,
@@ -41588,7 +41588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CbCsCs
 """,
@@ -41608,7 +41608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CtHH
 """,
@@ -41628,7 +41628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CtCsH
 """,
@@ -41648,7 +41648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CsJ-CtCsCs
 """,
@@ -41668,7 +41668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CdsJ-H
 """,
@@ -41688,7 +41688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CdsJ-Cs
 """,
@@ -41708,7 +41708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;CbJ
 """,
@@ -41728,7 +41728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-HHH
 """,
@@ -41748,7 +41748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CsHH
 """,
@@ -41768,7 +41768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CsCsH
 """,
@@ -41788,7 +41788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CsCsCs
 """,
@@ -41808,7 +41808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CdHH
 """,
@@ -41828,7 +41828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CdCsH
 """,
@@ -41848,7 +41848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CdCsCs
 """,
@@ -41868,7 +41868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CdCdH
 """,
@@ -41888,7 +41888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CdCdCs
 """,
@@ -41908,7 +41908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CbHH
 """,
@@ -41928,7 +41928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CbCsH
 """,
@@ -41948,7 +41948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CbCsCs
 """,
@@ -41968,7 +41968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CtHH
 """,
@@ -41988,7 +41988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CtCsH
 """,
@@ -42008,7 +42008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CsJ-CtCsCs
 """,
@@ -42028,7 +42028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CdsJ-H
 """,
@@ -42048,7 +42048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CdsJ-Cs
 """,
@@ -42068,7 +42068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;CbJ
 """,
@@ -42088,7 +42088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-HHH
 """,
@@ -42108,7 +42108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CsHH
 """,
@@ -42128,7 +42128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CsCsH
 """,
@@ -42148,7 +42148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CsCsCs
 """,
@@ -42168,7 +42168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CdHH
 """,
@@ -42188,7 +42188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CdCsH
 """,
@@ -42208,7 +42208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CdCsCs
 """,
@@ -42228,7 +42228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CdCdH
 """,
@@ -42248,7 +42248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CdCdCs
 """,
@@ -42268,7 +42268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CbHH
 """,
@@ -42288,7 +42288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CbCsH
 """,
@@ -42308,7 +42308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CbCsCs
 """,
@@ -42328,7 +42328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CtHH
 """,
@@ -42348,7 +42348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CtCsH
 """,
@@ -42368,7 +42368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CsJ-CtCsCs
 """,
@@ -42388,7 +42388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CdsJ-H
 """,
@@ -42408,7 +42408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CdsJ-Cs
 """,
@@ -42428,7 +42428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;CbJ
 """,
@@ -42448,7 +42448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-HHH
 """,
@@ -42468,7 +42468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CsHH
 """,
@@ -42488,7 +42488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CsCsH
 """,
@@ -42508,7 +42508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CsCsCs
 """,
@@ -42528,7 +42528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CdHH
 """,
@@ -42548,7 +42548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CdCsH
 """,
@@ -42568,7 +42568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CdCsCs
 """,
@@ -42588,7 +42588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CdCdH
 """,
@@ -42608,7 +42608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CdCdCs
 """,
@@ -42628,7 +42628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CbHH
 """,
@@ -42648,7 +42648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CbCsH
 """,
@@ -42668,7 +42668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CbCsCs
 """,
@@ -42688,7 +42688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CtHH
 """,
@@ -42708,7 +42708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CtCsH
 """,
@@ -42728,7 +42728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CsJ-CtCsCs
 """,
@@ -42748,7 +42748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CdsJ-H
 """,
@@ -42768,7 +42768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CdsJ-Cs
 """,
@@ -42788,7 +42788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;CbJ
 """,
@@ -42808,7 +42808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-HHH
 """,
@@ -42828,7 +42828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CsHH
 """,
@@ -42848,7 +42848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CsCsH
 """,
@@ -42868,7 +42868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CsCsCs
 """,
@@ -42888,7 +42888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CdHH
 """,
@@ -42908,7 +42908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CdCsH
 """,
@@ -42928,7 +42928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CdCsCs
 """,
@@ -42948,7 +42948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CdCdH
 """,
@@ -42968,7 +42968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CdCdCs
 """,
@@ -42988,7 +42988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CbHH
 """,
@@ -43008,7 +43008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CbCsH
 """,
@@ -43028,7 +43028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CbCsCs
 """,
@@ -43048,7 +43048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CtHH
 """,
@@ -43068,7 +43068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CtCsH
 """,
@@ -43088,7 +43088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CsJ-CtCsCs
 """,
@@ -43108,7 +43108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CdsJ-H
 """,
@@ -43128,7 +43128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CdsJ-Cs
 """,
@@ -43148,7 +43148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;CbJ
 """,
@@ -43168,7 +43168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-HHH
 """,
@@ -43188,7 +43188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CsHH
 """,
@@ -43208,7 +43208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CsCsH
 """,
@@ -43228,7 +43228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CsCsCs
 """,
@@ -43248,7 +43248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CdHH
 """,
@@ -43268,7 +43268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CdCsH
 """,
@@ -43288,7 +43288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CdCsCs
 """,
@@ -43308,7 +43308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CdCdH
 """,
@@ -43328,7 +43328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CdCdCs
 """,
@@ -43348,7 +43348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CbHH
 """,
@@ -43368,7 +43368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CbCsH
 """,
@@ -43388,7 +43388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CbCsCs
 """,
@@ -43408,7 +43408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CtHH
 """,
@@ -43428,7 +43428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CtCsH
 """,
@@ -43448,7 +43448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CsJ-CtCsCs
 """,
@@ -43468,7 +43468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CdsJ-H
 """,
@@ -43488,7 +43488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CdsJ-Cs
 """,
@@ -43508,7 +43508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;CbJ
 """,
@@ -43528,7 +43528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-HHH
 """,
@@ -43548,7 +43548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CsHH
 """,
@@ -43568,7 +43568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CsCsH
 """,
@@ -43588,7 +43588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CsCsCs
 """,
@@ -43608,7 +43608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CdHH
 """,
@@ -43628,7 +43628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CdCsH
 """,
@@ -43648,7 +43648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CdCsCs
 """,
@@ -43668,7 +43668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CdCdH
 """,
@@ -43688,7 +43688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CdCdCs
 """,
@@ -43708,7 +43708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CbHH
 """,
@@ -43728,7 +43728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CbCsH
 """,
@@ -43748,7 +43748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CbCsCs
 """,
@@ -43768,7 +43768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CtHH
 """,
@@ -43788,7 +43788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CtCsH
 """,
@@ -43808,7 +43808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CsJ-CtCsCs
 """,
@@ -43828,7 +43828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CdsJ-H
 """,
@@ -43848,7 +43848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CdsJ-Cs
 """,
@@ -43868,7 +43868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;CbJ
 """,
@@ -43888,7 +43888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-HHH
 """,
@@ -43908,7 +43908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CsHH
 """,
@@ -43928,7 +43928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CsCsH
 """,
@@ -43948,7 +43948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CsCsCs
 """,
@@ -43968,7 +43968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CdHH
 """,
@@ -43988,7 +43988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CdCsH
 """,
@@ -44008,7 +44008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CdCsCs
 """,
@@ -44028,7 +44028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CdCdH
 """,
@@ -44048,7 +44048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CdCdCs
 """,
@@ -44068,7 +44068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CbHH
 """,
@@ -44088,7 +44088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CbCsH
 """,
@@ -44108,7 +44108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CbCsCs
 """,
@@ -44128,7 +44128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CtHH
 """,
@@ -44148,7 +44148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CtCsH
 """,
@@ -44168,7 +44168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CsJ-CtCsCs
 """,
@@ -44188,7 +44188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CdsJ-H
 """,
@@ -44208,7 +44208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CdsJ-Cs
 """,
@@ -44228,7 +44228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CbJ
 """,
@@ -44248,7 +44248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-HHH
 """,
@@ -44268,7 +44268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CsHH
 """,
@@ -44288,7 +44288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CsCsH
 """,
@@ -44308,7 +44308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CsCsCs
 """,
@@ -44328,7 +44328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CdHH
 """,
@@ -44348,7 +44348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CdCsH
 """,
@@ -44368,7 +44368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CdCsCs
 """,
@@ -44388,7 +44388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CdCdH
 """,
@@ -44408,7 +44408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CdCdCs
 """,
@@ -44428,7 +44428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CbHH
 """,
@@ -44448,7 +44448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CbCsH
 """,
@@ -44468,7 +44468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CbCsCs
 """,
@@ -44488,7 +44488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CtHH
 """,
@@ -44508,7 +44508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CtCsH
 """,
@@ -44528,7 +44528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CsJ-CtCsCs
 """,
@@ -44548,7 +44548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CdsJ-H
 """,
@@ -44568,7 +44568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CdsJ-Cs
 """,
@@ -44588,7 +44588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;CbJ
 """,
@@ -44608,7 +44608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-HHH
 """,
@@ -44628,7 +44628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CsHH
 """,
@@ -44648,7 +44648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CsCsH
 """,
@@ -44668,7 +44668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CsCsCs
 """,
@@ -44688,7 +44688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CdHH
 """,
@@ -44708,7 +44708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CdCsH
 """,
@@ -44728,7 +44728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CdCsCs
 """,
@@ -44748,7 +44748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CdCdH
 """,
@@ -44768,7 +44768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CdCdCs
 """,
@@ -44788,7 +44788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CbHH
 """,
@@ -44808,7 +44808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CbCsH
 """,
@@ -44828,7 +44828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CbCsCs
 """,
@@ -44848,7 +44848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CtHH
 """,
@@ -44868,7 +44868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CtCsH
 """,
@@ -44888,7 +44888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CsJ-CtCsCs
 """,
@@ -44908,7 +44908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CdsJ-H
 """,
@@ -44928,7 +44928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CdsJ-Cs
 """,
@@ -44948,7 +44948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;CbJ
 """,
@@ -44968,7 +44968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-HHH
 """,
@@ -44988,7 +44988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CsHH
 """,
@@ -45008,7 +45008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CsCsH
 """,
@@ -45028,7 +45028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CsCsCs
 """,
@@ -45048,7 +45048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CdHH
 """,
@@ -45068,7 +45068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CdCsH
 """,
@@ -45088,7 +45088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CdCsCs
 """,
@@ -45108,7 +45108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CdCdH
 """,
@@ -45128,7 +45128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CdCdCs
 """,
@@ -45148,7 +45148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CbHH
 """,
@@ -45168,7 +45168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CbCsH
 """,
@@ -45188,7 +45188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CbCsCs
 """,
@@ -45208,7 +45208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CtHH
 """,
@@ -45228,7 +45228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CtCsH
 """,
@@ -45248,7 +45248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CsJ-CtCsCs
 """,
@@ -45268,7 +45268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CdsJ-H
 """,
@@ -45288,7 +45288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CdsJ-Cs
 """,
@@ -45308,7 +45308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CbJ
 """,
@@ -45328,7 +45328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-HHH
 """,
@@ -45348,7 +45348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CsHH
 """,
@@ -45368,7 +45368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CsCsH
 """,
@@ -45388,7 +45388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CsCsCs
 """,
@@ -45408,7 +45408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CdHH
 """,
@@ -45428,7 +45428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CdCsH
 """,
@@ -45448,7 +45448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CdCsCs
 """,
@@ -45468,7 +45468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CdCdH
 """,
@@ -45488,7 +45488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CdCdCs
 """,
@@ -45508,7 +45508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CbHH
 """,
@@ -45528,7 +45528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CbCsH
 """,
@@ -45548,7 +45548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CbCsCs
 """,
@@ -45568,7 +45568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CtHH
 """,
@@ -45588,7 +45588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CtCsH
 """,
@@ -45608,7 +45608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CsJ-CtCsCs
 """,
@@ -45628,7 +45628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CdsJ-H
 """,
@@ -45648,7 +45648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CdsJ-Cs
 """,
@@ -45668,7 +45668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;CbJ
 """,
@@ -45688,7 +45688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-HHH
 """,
@@ -45708,7 +45708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CsHH
 """,
@@ -45728,7 +45728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CsCsH
 """,
@@ -45748,7 +45748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CsCsCs
 """,
@@ -45768,7 +45768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CdHH
 """,
@@ -45788,7 +45788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CdCsH
 """,
@@ -45808,7 +45808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CdCsCs
 """,
@@ -45828,7 +45828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CdCdH
 """,
@@ -45848,7 +45848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CdCdCs
 """,
@@ -45868,7 +45868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CbHH
 """,
@@ -45888,7 +45888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CbCsH
 """,
@@ -45908,7 +45908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CbCsCs
 """,
@@ -45928,7 +45928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CtHH
 """,
@@ -45948,7 +45948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CtCsH
 """,
@@ -45968,7 +45968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CsJ-CtCsCs
 """,
@@ -45988,7 +45988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CdsJ-H
 """,
@@ -46008,7 +46008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CdsJ-Cs
 """,
@@ -46028,7 +46028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;CbJ
 """,
@@ -46048,7 +46048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-HHH
 """,
@@ -46068,7 +46068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CsHH
 """,
@@ -46088,7 +46088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CsCsH
 """,
@@ -46108,7 +46108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CsCsCs
 """,
@@ -46128,7 +46128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CdHH
 """,
@@ -46148,7 +46148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CdCsH
 """,
@@ -46168,7 +46168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CdCsCs
 """,
@@ -46188,7 +46188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CdCdH
 """,
@@ -46208,7 +46208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CdCdCs
 """,
@@ -46228,7 +46228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CbHH
 """,
@@ -46248,7 +46248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CbCsH
 """,
@@ -46268,7 +46268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CbCsCs
 """,
@@ -46288,7 +46288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CtHH
 """,
@@ -46308,7 +46308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CtCsH
 """,
@@ -46328,7 +46328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CsJ-CtCsCs
 """,
@@ -46348,7 +46348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CdsJ-H
 """,
@@ -46368,7 +46368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CdsJ-Cs
 """,
@@ -46388,7 +46388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;CbJ
 """,
@@ -46408,7 +46408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-HHH
 """,
@@ -46428,7 +46428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CsHH
 """,
@@ -46448,7 +46448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CsCsH
 """,
@@ -46468,7 +46468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CsCsCs
 """,
@@ -46488,7 +46488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CdHH
 """,
@@ -46508,7 +46508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CdCsH
 """,
@@ -46528,7 +46528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CdCsCs
 """,
@@ -46548,7 +46548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CdCdH
 """,
@@ -46568,7 +46568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CdCdCs
 """,
@@ -46588,7 +46588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CbHH
 """,
@@ -46608,7 +46608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CbCsH
 """,
@@ -46628,7 +46628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CbCsCs
 """,
@@ -46648,7 +46648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CtHH
 """,
@@ -46668,7 +46668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CtCsH
 """,
@@ -46688,7 +46688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CsJ-CtCsCs
 """,
@@ -46708,7 +46708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CdsJ-H
 """,
@@ -46728,7 +46728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CdsJ-Cs
 """,
@@ -46748,7 +46748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;CbJ
 """,
@@ -46768,7 +46768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-HHH
 """,
@@ -46788,7 +46788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CsHH
 """,
@@ -46808,7 +46808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CsCsH
 """,
@@ -46828,7 +46828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CsCsCs
 """,
@@ -46848,7 +46848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CdHH
 """,
@@ -46868,7 +46868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CdCsH
 """,
@@ -46888,7 +46888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CdCsCs
 """,
@@ -46908,7 +46908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CdCdH
 """,
@@ -46928,7 +46928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CdCdCs
 """,
@@ -46948,7 +46948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CbHH
 """,
@@ -46968,7 +46968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CbCsH
 """,
@@ -46988,7 +46988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CbCsCs
 """,
@@ -47008,7 +47008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CtHH
 """,
@@ -47028,7 +47028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CtCsH
 """,
@@ -47048,7 +47048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CsJ-CtCsCs
 """,
@@ -47068,7 +47068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CdsJ-H
 """,
@@ -47088,7 +47088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CdsJ-Cs
 """,
@@ -47108,7 +47108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;CbJ
 """,
@@ -47128,7 +47128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-HHH
 """,
@@ -47148,7 +47148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CsHH
 """,
@@ -47168,7 +47168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CsCsH
 """,
@@ -47188,7 +47188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CsCsCs
 """,
@@ -47208,7 +47208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CdHH
 """,
@@ -47228,7 +47228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CdCsH
 """,
@@ -47248,7 +47248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CdCsCs
 """,
@@ -47268,7 +47268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CdCdH
 """,
@@ -47288,7 +47288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CdCdCs
 """,
@@ -47308,7 +47308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CbHH
 """,
@@ -47328,7 +47328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CbCsH
 """,
@@ -47348,7 +47348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CbCsCs
 """,
@@ -47368,7 +47368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CtHH
 """,
@@ -47388,7 +47388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CtCsH
 """,
@@ -47408,7 +47408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CsJ-CtCsCs
 """,
@@ -47428,7 +47428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CdsJ-H
 """,
@@ -47448,7 +47448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CdsJ-Cs
 """,
@@ -47468,7 +47468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;CbJ
 """,
@@ -47488,7 +47488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-HHH
 """,
@@ -47508,7 +47508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CsHH
 """,
@@ -47528,7 +47528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CsCsH
 """,
@@ -47548,7 +47548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CsCsCs
 """,
@@ -47568,7 +47568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CdHH
 """,
@@ -47588,7 +47588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CdCsH
 """,
@@ -47608,7 +47608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CdCsCs
 """,
@@ -47628,7 +47628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CdCdH
 """,
@@ -47648,7 +47648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CdCdCs
 """,
@@ -47668,7 +47668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CbHH
 """,
@@ -47688,7 +47688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CbCsH
 """,
@@ -47708,7 +47708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CbCsCs
 """,
@@ -47728,7 +47728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CtHH
 """,
@@ -47748,7 +47748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CtCsH
 """,
@@ -47768,7 +47768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CsJ-CtCsCs
 """,
@@ -47788,7 +47788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CdsJ-H
 """,
@@ -47808,7 +47808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CdsJ-Cs
 """,
@@ -47828,7 +47828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;CbJ
 """,
@@ -47848,7 +47848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-HHH
 """,
@@ -47868,7 +47868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CsHH
 """,
@@ -47888,7 +47888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CsCsH
 """,
@@ -47908,7 +47908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CsCsCs
 """,
@@ -47928,7 +47928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CdHH
 """,
@@ -47948,7 +47948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CdCsH
 """,
@@ -47968,7 +47968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CdCsCs
 """,
@@ -47988,7 +47988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CdCdH
 """,
@@ -48008,7 +48008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CdCdCs
 """,
@@ -48028,7 +48028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CbHH
 """,
@@ -48048,7 +48048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CbCsH
 """,
@@ -48068,7 +48068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CbCsCs
 """,
@@ -48088,7 +48088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CtHH
 """,
@@ -48108,7 +48108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CtCsH
 """,
@@ -48128,7 +48128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CsJ-CtCsCs
 """,
@@ -48148,7 +48148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CdsJ-H
 """,
@@ -48168,7 +48168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CdsJ-Cs
 """,
@@ -48188,7 +48188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;CbJ
 """,
@@ -48208,7 +48208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-HHH
 """,
@@ -48228,7 +48228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CsHH
 """,
@@ -48248,7 +48248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CsCsH
 """,
@@ -48268,7 +48268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CsCsCs
 """,
@@ -48288,7 +48288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CdHH
 """,
@@ -48308,7 +48308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CdCsH
 """,
@@ -48328,7 +48328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CdCsCs
 """,
@@ -48348,7 +48348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CdCdH
 """,
@@ -48368,7 +48368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CdCdCs
 """,
@@ -48388,7 +48388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CbHH
 """,
@@ -48408,7 +48408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CbCsH
 """,
@@ -48428,7 +48428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CbCsCs
 """,
@@ -48448,7 +48448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CtHH
 """,
@@ -48468,7 +48468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CtCsH
 """,
@@ -48488,7 +48488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CsJ-CtCsCs
 """,
@@ -48508,7 +48508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CdsJ-H
 """,
@@ -48528,7 +48528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CdsJ-Cs
 """,
@@ -48548,7 +48548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;CbJ
 """,
@@ -48568,7 +48568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-HHH
 """,
@@ -48588,7 +48588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CsHH
 """,
@@ -48608,7 +48608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CsCsH
 """,
@@ -48628,7 +48628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CsCsCs
 """,
@@ -48648,7 +48648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CdHH
 """,
@@ -48668,7 +48668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CdCsH
 """,
@@ -48688,7 +48688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CdCsCs
 """,
@@ -48708,7 +48708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CdCdH
 """,
@@ -48728,7 +48728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CdCdCs
 """,
@@ -48748,7 +48748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CbHH
 """,
@@ -48768,7 +48768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CbCsH
 """,
@@ -48788,7 +48788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CbCsCs
 """,
@@ -48808,7 +48808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CtHH
 """,
@@ -48828,7 +48828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CtCsH
 """,
@@ -48848,7 +48848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CsJ-CtCsCs
 """,
@@ -48868,7 +48868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CdsJ-H
 """,
@@ -48888,7 +48888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CdsJ-Cs
 """,
@@ -48908,7 +48908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;CbJ
 """,
@@ -48928,7 +48928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-HHH
 """,
@@ -48948,7 +48948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CsHH
 """,
@@ -48968,7 +48968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CsCsH
 """,
@@ -48988,7 +48988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CsCsCs
 """,
@@ -49008,7 +49008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CdHH
 """,
@@ -49028,7 +49028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CdCsH
 """,
@@ -49048,7 +49048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CdCsCs
 """,
@@ -49068,7 +49068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CdCdH
 """,
@@ -49088,7 +49088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CdCdCs
 """,
@@ -49108,7 +49108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CbHH
 """,
@@ -49128,7 +49128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CbCsH
 """,
@@ -49148,7 +49148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CbCsCs
 """,
@@ -49168,7 +49168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CtHH
 """,
@@ -49188,7 +49188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CtCsH
 """,
@@ -49208,7 +49208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CsJ-CtCsCs
 """,
@@ -49228,7 +49228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CdsJ-H
 """,
@@ -49248,7 +49248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CdsJ-Cs
 """,
@@ -49268,7 +49268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;CbJ
 """,
@@ -49288,7 +49288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-HHH
 """,
@@ -49308,7 +49308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CsHH
 """,
@@ -49328,7 +49328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CsCsH
 """,
@@ -49348,7 +49348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CsCsCs
 """,
@@ -49368,7 +49368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CdHH
 """,
@@ -49388,7 +49388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CdCsH
 """,
@@ -49408,7 +49408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CdCsCs
 """,
@@ -49428,7 +49428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CdCdH
 """,
@@ -49448,7 +49448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CdCdCs
 """,
@@ -49468,7 +49468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CbHH
 """,
@@ -49488,7 +49488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CbCsH
 """,
@@ -49508,7 +49508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CbCsCs
 """,
@@ -49528,7 +49528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CtHH
 """,
@@ -49548,7 +49548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CtCsH
 """,
@@ -49568,7 +49568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CsJ-CtCsCs
 """,
@@ -49588,7 +49588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CdsJ-H
 """,
@@ -49608,7 +49608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CdsJ-Cs
 """,
@@ -49628,7 +49628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;CbJ
 """,
@@ -49648,7 +49648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-HHH
 """,
@@ -49668,7 +49668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CsHH
 """,
@@ -49688,7 +49688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CsCsH
 """,
@@ -49708,7 +49708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CsCsCs
 """,
@@ -49728,7 +49728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CdHH
 """,
@@ -49748,7 +49748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CdCsH
 """,
@@ -49768,7 +49768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CdCsCs
 """,
@@ -49788,7 +49788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CdCdH
 """,
@@ -49808,7 +49808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CdCdCs
 """,
@@ -49828,7 +49828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CbHH
 """,
@@ -49848,7 +49848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CbCsH
 """,
@@ -49868,7 +49868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CbCsCs
 """,
@@ -49888,7 +49888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CtHH
 """,
@@ -49908,7 +49908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CtCsH
 """,
@@ -49928,7 +49928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CsJ-CtCsCs
 """,
@@ -49948,7 +49948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CdsJ-H
 """,
@@ -49968,7 +49968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CdsJ-Cs
 """,
@@ -49988,7 +49988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;CbJ
 """,
@@ -50008,7 +50008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-HHH
 """,
@@ -50028,7 +50028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CsHH
 """,
@@ -50048,7 +50048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CsCsH
 """,
@@ -50068,7 +50068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CsCsCs
 """,
@@ -50088,7 +50088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CdHH
 """,
@@ -50108,7 +50108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CdCsH
 """,
@@ -50128,7 +50128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CdCsCs
 """,
@@ -50148,7 +50148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CdCdH
 """,
@@ -50168,7 +50168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CdCdCs
 """,
@@ -50188,7 +50188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CbHH
 """,
@@ -50208,7 +50208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CbCsH
 """,
@@ -50228,7 +50228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CbCsCs
 """,
@@ -50248,7 +50248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CtHH
 """,
@@ -50268,7 +50268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CtCsH
 """,
@@ -50288,7 +50288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CsJ-CtCsCs
 """,
@@ -50308,7 +50308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CdsJ-H
 """,
@@ -50328,7 +50328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CdsJ-Cs
 """,
@@ -50348,7 +50348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;CbJ
 """,
@@ -50368,7 +50368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-HHH
 """,
@@ -50388,7 +50388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CsHH
 """,
@@ -50408,7 +50408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CsCsH
 """,
@@ -50428,7 +50428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CsCsCs
 """,
@@ -50448,7 +50448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CdHH
 """,
@@ -50468,7 +50468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CdCsH
 """,
@@ -50488,7 +50488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CdCsCs
 """,
@@ -50508,7 +50508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CdCdH
 """,
@@ -50528,7 +50528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CdCdCs
 """,
@@ -50548,7 +50548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CbHH
 """,
@@ -50568,7 +50568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CbCsH
 """,
@@ -50588,7 +50588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CbCsCs
 """,
@@ -50608,7 +50608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CtHH
 """,
@@ -50628,7 +50628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CtCsH
 """,
@@ -50648,7 +50648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CsJ-CtCsCs
 """,
@@ -50668,7 +50668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CdsJ-H
 """,
@@ -50688,7 +50688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CdsJ-Cs
 """,
@@ -50708,7 +50708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;CbJ
 """,
@@ -50728,7 +50728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;HJ
 """,
@@ -50748,7 +50748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;HJ
 """,
@@ -50768,7 +50768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;HJ
 """,
@@ -50788,7 +50788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;HJ
 """,
@@ -50808,7 +50808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCs;HJ
 """,
@@ -50828,7 +50828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCd;HJ
 """,
@@ -50848,7 +50848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtH;HJ
 """,
@@ -50868,7 +50868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCs;HJ
 """,
@@ -50888,7 +50888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdCt;HJ
 """,
@@ -50908,7 +50908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CtCt;HJ
 """,
@@ -50928,7 +50928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbH;HJ
 """,
@@ -50948,7 +50948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CbCs;HJ
 """,
@@ -50968,7 +50968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;HJ
 """,
@@ -50988,7 +50988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;HJ
 """,
@@ -51008,7 +51008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;HJ
 """,
@@ -51028,7 +51028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;HJ
 """,
@@ -51048,7 +51048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdH;HJ
 """,
@@ -51068,7 +51068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCs;HJ
 """,
@@ -51088,7 +51088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCd;HJ
 """,
@@ -51108,7 +51108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CtH;HJ
 """,
@@ -51128,7 +51128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CtCs;HJ
 """,
@@ -51148,7 +51148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CdCt;HJ
 """,
@@ -51168,7 +51168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CtCt;HJ
 """,
@@ -51188,7 +51188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbH;HJ
 """,
@@ -51208,7 +51208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CbCs;HJ
 """,
@@ -51228,7 +51228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Ca;HJ
 """,
@@ -51248,7 +51248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-HH;HJ
 """,
@@ -51268,7 +51268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;HJ
 """,
@@ -51288,7 +51288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;HJ
 """,
@@ -51308,7 +51308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdH;HJ
 """,
@@ -51328,7 +51328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCs;HJ
 """,
@@ -51348,7 +51348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCd;HJ
 """,
@@ -51368,7 +51368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtH;HJ
 """,
@@ -51388,7 +51388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCs;HJ
 """,
@@ -51408,7 +51408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CdCt;HJ
 """,
@@ -51428,7 +51428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CtCt;HJ
 """,
@@ -51448,7 +51448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbH;HJ
 """,
@@ -51468,7 +51468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CbCs;HJ
 """,
@@ -51488,7 +51488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;HJ
 """,
@@ -51508,7 +51508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-HH;HJ
 """,
@@ -51528,7 +51528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsH;HJ
 """,
@@ -51548,7 +51548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CsCs;HJ
 """,
@@ -51568,7 +51568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdH;HJ
 """,
@@ -51588,7 +51588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCs;HJ
 """,
@@ -51608,7 +51608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCd;HJ
 """,
@@ -51628,7 +51628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtH;HJ
 """,
@@ -51648,7 +51648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCs;HJ
 """,
@@ -51668,7 +51668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CdCt;HJ
 """,
@@ -51688,7 +51688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CtCt;HJ
 """,
@@ -51708,7 +51708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbH;HJ
 """,
@@ -51728,7 +51728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Cds-CbCs;HJ
 """,
@@ -51748,7 +51748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdH_Ca;HJ
 """,
@@ -51768,7 +51768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-HH;HJ
 """,
@@ -51788,7 +51788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsH;HJ
 """,
@@ -51808,7 +51808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CsCs;HJ
 """,
@@ -51828,7 +51828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdH;HJ
 """,
@@ -51848,7 +51848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCs;HJ
 """,
@@ -51868,7 +51868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCd;HJ
 """,
@@ -51888,7 +51888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtH;HJ
 """,
@@ -51908,7 +51908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCs;HJ
 """,
@@ -51928,7 +51928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CdCt;HJ
 """,
@@ -51948,7 +51948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CtCt;HJ
 """,
@@ -51968,7 +51968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbH;HJ
 """,
@@ -51988,7 +51988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Cds-CbCs;HJ
 """,
@@ -52008,7 +52008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCs_Ca;HJ
 """,
@@ -52028,7 +52028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-HH;HJ
 """,
@@ -52048,7 +52048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsH;HJ
 """,
@@ -52068,7 +52068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CsCs;HJ
 """,
@@ -52088,7 +52088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdH;HJ
 """,
@@ -52108,7 +52108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCs;HJ
 """,
@@ -52128,7 +52128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCd;HJ
 """,
@@ -52148,7 +52148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtH;HJ
 """,
@@ -52168,7 +52168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCs;HJ
 """,
@@ -52188,7 +52188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CdCt;HJ
 """,
@@ -52208,7 +52208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CtCt;HJ
 """,
@@ -52228,7 +52228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbH;HJ
 """,
@@ -52248,7 +52248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Cds-CbCs;HJ
 """,
@@ -52268,7 +52268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCd_Ca;HJ
 """,
@@ -52288,7 +52288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-HH;HJ
 """,
@@ -52308,7 +52308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsH;HJ
 """,
@@ -52328,7 +52328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CsCs;HJ
 """,
@@ -52348,7 +52348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdH;HJ
 """,
@@ -52368,7 +52368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCs;HJ
 """,
@@ -52388,7 +52388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCd;HJ
 """,
@@ -52408,7 +52408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtH;HJ
 """,
@@ -52428,7 +52428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCs;HJ
 """,
@@ -52448,7 +52448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CdCt;HJ
 """,
@@ -52468,7 +52468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CtCt;HJ
 """,
@@ -52488,7 +52488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbH;HJ
 """,
@@ -52508,7 +52508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Cds-CbCs;HJ
 """,
@@ -52528,7 +52528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtH_Ca;HJ
 """,
@@ -52548,7 +52548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-HH;HJ
 """,
@@ -52568,7 +52568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsH;HJ
 """,
@@ -52588,7 +52588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CsCs;HJ
 """,
@@ -52608,7 +52608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdH;HJ
 """,
@@ -52628,7 +52628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCs;HJ
 """,
@@ -52648,7 +52648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCd;HJ
 """,
@@ -52668,7 +52668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtH;HJ
 """,
@@ -52688,7 +52688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCs;HJ
 """,
@@ -52708,7 +52708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CdCt;HJ
 """,
@@ -52728,7 +52728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CtCt;HJ
 """,
@@ -52748,7 +52748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbH;HJ
 """,
@@ -52768,7 +52768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Cds-CbCs;HJ
 """,
@@ -52788,7 +52788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCs_Ca;HJ
 """,
@@ -52808,7 +52808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-HH;HJ
 """,
@@ -52828,7 +52828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CsH;HJ
 """,
@@ -52848,7 +52848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CsCs;HJ
 """,
@@ -52868,7 +52868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CdH;HJ
 """,
@@ -52888,7 +52888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CdCs;HJ
 """,
@@ -52908,7 +52908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CdCd;HJ
 """,
@@ -52928,7 +52928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CtH;HJ
 """,
@@ -52948,7 +52948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CtCs;HJ
 """,
@@ -52968,7 +52968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CdCt;HJ
 """,
@@ -52988,7 +52988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CtCt;HJ
 """,
@@ -53008,7 +53008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CbH;HJ
 """,
@@ -53028,7 +53028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Cds-CbCs;HJ
 """,
@@ -53048,7 +53048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CdCt_Ca;HJ
 """,
@@ -53068,7 +53068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-HH;HJ
 """,
@@ -53088,7 +53088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CsH;HJ
 """,
@@ -53108,7 +53108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CsCs;HJ
 """,
@@ -53128,7 +53128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CdH;HJ
 """,
@@ -53148,7 +53148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CdCs;HJ
 """,
@@ -53168,7 +53168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CdCd;HJ
 """,
@@ -53188,7 +53188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CtH;HJ
 """,
@@ -53208,7 +53208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CtCs;HJ
 """,
@@ -53228,7 +53228,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CdCt;HJ
 """,
@@ -53248,7 +53248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CtCt;HJ
 """,
@@ -53268,7 +53268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CbH;HJ
 """,
@@ -53288,7 +53288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Cds-CbCs;HJ
 """,
@@ -53308,7 +53308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CtCt_Ca;HJ
 """,
@@ -53328,7 +53328,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-HH;HJ
 """,
@@ -53348,7 +53348,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsH;HJ
 """,
@@ -53368,7 +53368,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CsCs;HJ
 """,
@@ -53388,7 +53388,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdH;HJ
 """,
@@ -53408,7 +53408,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCs;HJ
 """,
@@ -53428,7 +53428,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCd;HJ
 """,
@@ -53448,7 +53448,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtH;HJ
 """,
@@ -53468,7 +53468,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCs;HJ
 """,
@@ -53488,7 +53488,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CdCt;HJ
 """,
@@ -53508,7 +53508,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CtCt;HJ
 """,
@@ -53528,7 +53528,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbH;HJ
 """,
@@ -53548,7 +53548,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Cds-CbCs;HJ
 """,
@@ -53568,7 +53568,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbH_Ca;HJ
 """,
@@ -53588,7 +53588,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-HH;HJ
 """,
@@ -53608,7 +53608,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsH;HJ
 """,
@@ -53628,7 +53628,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CsCs;HJ
 """,
@@ -53648,7 +53648,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdH;HJ
 """,
@@ -53668,7 +53668,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCs;HJ
 """,
@@ -53688,7 +53688,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCd;HJ
 """,
@@ -53708,7 +53708,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtH;HJ
 """,
@@ -53728,7 +53728,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCs;HJ
 """,
@@ -53748,7 +53748,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CdCt;HJ
 """,
@@ -53768,7 +53768,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CtCt;HJ
 """,
@@ -53788,7 +53788,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbH;HJ
 """,
@@ -53808,7 +53808,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Cds-CbCs;HJ
 """,
@@ -53828,7 +53828,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CbCs_Ca;HJ
 """,
@@ -53848,7 +53848,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;HJ
 """,
@@ -53868,7 +53868,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cs;HJ
 """,
@@ -53888,7 +53888,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Cd;HJ
 """,
@@ -53908,7 +53908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-Ct;HJ
 """,
@@ -53928,7 +53928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-H;HJ
 """,
@@ -53948,7 +53948,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cs;HJ
 """,
@@ -53968,7 +53968,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Cd;HJ
 """,
@@ -53988,7 +53988,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cs_Ct-Ct;HJ
 """,
@@ -54008,7 +54008,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-H;HJ
 """,
@@ -54028,7 +54028,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cs;HJ
 """,
@@ -54048,7 +54048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Cd;HJ
 """,
@@ -54068,7 +54068,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Cd_Ct-Ct;HJ
 """,
@@ -54088,7 +54088,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-H;HJ
 """,
@@ -54108,7 +54108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cs;HJ
 """,
@@ -54128,7 +54128,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Cd;HJ
 """,
@@ -54148,7 +54148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-Ct_Ct-Ct;HJ
 """,
@@ -54168,7 +54168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;HJ
 """,
@@ -54188,7 +54188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsH;HJ
 """,
@@ -54208,7 +54208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-CsCs;HJ
 """,
@@ -54228,7 +54228,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Sd;HJ
 """,
@@ -54248,7 +54248,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Sd;CsJ-HHH
 """,
@@ -54268,7 +54268,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3 ref + G3 contributie""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Sd;CsJ-CsHH
 """,
@@ -54288,7 +54288,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3 ref + G3 contributie""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Sd;CsJ-CsCsH
 """,
@@ -54308,7 +54308,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3 ref + G3 contributie""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Sd;CsJ-CsCsCs
 """,
@@ -54328,7 +54328,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Sd;SsJ-H
 """,
@@ -54348,7 +54348,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Sd;SsJ-Cs
 """,
@@ -54368,7 +54368,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Sd;SsJ-S2s
 """,
@@ -54388,7 +54388,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Sd;CsJ-HHH
 """,
@@ -54408,7 +54408,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Sd;CsJ-HHH
 """,
@@ -54428,7 +54428,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;HJ
 """,
@@ -54448,7 +54448,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;CsJ-HHH
 """,
@@ -54468,7 +54468,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;CsJ-CsHH
 """,
@@ -54488,7 +54488,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;CsJ-CsCsH
 """,
@@ -54508,7 +54508,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;CsJ-CsCsCs
 """,
@@ -54528,7 +54528,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;SsJ-H
 """,
@@ -54548,7 +54548,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;SsJ-Cs
 """,
@@ -54568,7 +54568,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-HH;SsJ-S2s
 """,
@@ -54588,7 +54588,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-CsH;CsJ-HHH
 """,
@@ -54608,7 +54608,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-CsCs;CsJ-HHH
 """,
@@ -54628,7 +54628,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-CdH;CsJ-HHH
 """,
@@ -54648,7 +54648,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-CdCs;CsJ-HHH
 """,
@@ -54668,7 +54668,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;SsJ-H
 """,
@@ -54688,7 +54688,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;SsJ-Cs
 """,
@@ -54708,7 +54708,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Aaron Vandeputte GAVs G3""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;SsJ-S2s
 """,
@@ -54728,7 +54728,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds;HJ
 """,
@@ -54748,7 +54748,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds;HJ
 """,
@@ -54768,7 +54768,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds;HJ
 """,
@@ -54788,7 +54788,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds;CsJ
 """,
@@ -54808,7 +54808,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds;CsJ
 """,
@@ -54828,7 +54828,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds;CsJ
 """,
@@ -54848,7 +54848,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds;O_rad/NonDe
 """,
@@ -54868,7 +54868,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds;O_rad/NonDe
 """,
@@ -54888,7 +54888,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds;O_rad/NonDe
 """,
@@ -54908,7 +54908,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [90] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CsJ-OsHH
 """,
@@ -54928,7 +54928,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al. [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;OJ_pri
 """,
@@ -54948,7 +54948,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Ca;CsJ
 """,
@@ -54968,7 +54968,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Ca;CsJ
 """,
@@ -54988,7 +54988,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Ca;CsJ
 """,
@@ -55008,7 +55008,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 18.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO_O;HJ
 """,
@@ -55028,7 +55028,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] in his reaction type 18.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO_O;CsJ
 """,
@@ -55048,7 +55048,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Bozzelli et al. [144] based on CH3 addition to CO (Anastasi and Maw)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO_O;CO_pri_rad
 """,
@@ -55068,7 +55068,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran esitmation [159] in DME oxidation modeling for ketohydroperoxide decomposition.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO_O;O_rad/OneDe
 """,
@@ -55088,7 +55088,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Knoll et al. [160] Data derived from fitting a complex mechanism.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO-HH_O;CsJ-CsHH
 """,
@@ -55108,7 +55108,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Knoll et al. [161]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO-CsCs_O;CsJ-HHH
 """,
@@ -55128,7 +55128,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Duran et al. [165] Ab initio.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CtJ_Ct
 """,
@@ -55148,7 +55148,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;OJ_pri
 """,
@@ -55168,7 +55168,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Bozzelli et al. [144] based on CH3 addition to C2H2 (NIST)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;OJ_sec
 """,
@@ -55188,7 +55188,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""A.G. Vandeputte, BMK/cbsb7 no 1D-HR (slow anyway)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;CdsJ=Cdd
 """,
@@ -55208,7 +55208,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""A.G. Vandeputte, BMK/cbsb7 no 1D-HR (slow anyway)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ct-H_Ct-H;CdsJ=Cdd
 """,
@@ -55227,7 +55227,7 @@ entry(
         Tmax = (1600, 'K'),
     ),
     rank = 11,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO-NdH_O;OJ-O2s
 """,
@@ -55246,7 +55246,7 @@ entry(
         Tmax = (1600, 'K'),
     ),
     rank = 11,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO-CsCs_O;OJ-O2s
 """,
@@ -55265,7 +55265,7 @@ entry(
         Tmax = (1600, 'K'),
     ),
     rank = 11,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO-HH_O;OJ-O2s
 """,
@@ -55285,7 +55285,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""pp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;OJ-O2s
 """,
@@ -55305,7 +55305,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;OJ-O2s
 """,
@@ -55325,7 +55325,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsCs;OJ-O2s
 """,
@@ -55345,7 +55345,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;OJ-O2s
 """,
@@ -55365,7 +55365,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""ss, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsH;OJ-O2s
 """,
@@ -55385,7 +55385,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-CsCs;OJ-O2s
 """,
@@ -55405,7 +55405,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-HH;OJ-O2s
 """,
@@ -55425,7 +55425,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsH;OJ-O2s
 """,
@@ -55445,7 +55445,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsCs_Cds-CsCs;OJ-O2s
 """,
@@ -55465,10 +55465,10 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""propene+OH rate coefficient""",
-    longDesc = 
+    longDesc =
 u"""
 Ref Ab Initio Kinetics for the Decomposition of Hydroxybutyl and Butoxy Radicals of n-Butanol,Zhang P.,Klippenstein S.K.,Law C.K.
-The thermochemistry for the species is obtained from Mike's n-butanol paper dx.doi.org/10.1016/j.combustflame.2010.06.002         
+The thermochemistry for the species is obtained from Mike's n-butanol paper dx.doi.org/10.1016/j.combustflame.2010.06.002
 Original rate is too high (~ factor of 10) replaced with propene+OH rate coefficient
 
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;OJ_pri
@@ -55488,7 +55488,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-Cs\O2s/H;CsJ-HHH
 """,
@@ -55507,7 +55507,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-OsH;CsJ-CsHH
 """,
@@ -55526,7 +55526,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;CsJ-OsHH
 """,
@@ -55545,7 +55545,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO-NdH_O;HJ
 """,
@@ -55565,7 +55565,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CCSD(T)-F12a/vtz-f12 1DHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OsH_Sd;HJ
 """,
@@ -55585,7 +55585,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CCSD(T)-F12a/vtz-F12 1DHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OsH_Sd;CsJ-HHH
 """,
@@ -55605,7 +55605,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CCSD(T)-F12a/vtz-F12 1dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OsH_Sd;CsJ-CsHH
 """,
@@ -55625,7 +55625,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""based on 2523""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-CsH;CsJ-CsHH
 """,
@@ -55645,7 +55645,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Sd;HJ
 """,
@@ -55665,7 +55665,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Sd;CsJ-SsCsH
 """,
@@ -55685,7 +55685,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-CsH;CsJ
 """,
@@ -55705,7 +55705,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calc CCSD(T)-F12a/vtz-f12 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C=S_O;HJ
 """,
@@ -55725,7 +55725,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calc CCSD(T)-F12a/vtz-f12 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C=S_O;CsJ
 """,
@@ -55745,7 +55745,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Sd;CsJ-CsHH
 """,
@@ -55765,7 +55765,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Sd;CsJ-CsCsH
 """,
@@ -55785,7 +55785,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AA calcs""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Sd;SsJ-H
 """,
@@ -55805,7 +55805,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AA calcs""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-SsH_Sd;CsJ-CsCsH
 """,
@@ -55825,7 +55825,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AA calcs""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-SsCs_Sd;HJ
 """,
@@ -55845,7 +55845,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cdd-Sd_Sd;HJ
 """,
@@ -55865,7 +55865,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cdd-Sd_Sd;CsJ-CsHH
 """,
@@ -55885,7 +55885,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cds-OsCs;HJ
 """,
@@ -55905,7 +55905,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OsH_Cds-CsH;SsJ-H
 """,
@@ -55925,7 +55925,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;O_atom_triplet
 """,
@@ -55945,7 +55945,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC calc CCSD(T)-F12a/vtz-F12 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OsCs_Sd;HJ
 """,
@@ -55965,7 +55965,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;O_atom_triplet
 """,
@@ -55985,7 +55985,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""CAC calc CBS-QB3, HO approx""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-SsH_Cds;SsJ-Cd
 """,
@@ -56005,7 +56005,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3, 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Sd;CsJ-CdCsH
 """,
@@ -56025,7 +56025,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;O_atom_triplet
 """,
@@ -56045,7 +56045,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-HH;O2b
 """,
@@ -56065,7 +56065,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-HH;O2b
 """,
@@ -56085,7 +56085,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CsH;O2b
 """,
@@ -56105,7 +56105,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-CdH;O2b
 """,
@@ -56125,7 +56125,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OJH_Cds-HH;HJ
 """,
@@ -56145,7 +56145,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OJH_Cds-CsH;HJ
 """,
@@ -56165,7 +56165,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OJH_Cds-HH;CsJ-HHH
 """,
@@ -56185,7 +56185,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CCSD(T)/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-Cs\H3/H;HJ
 """,
@@ -56205,7 +56205,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""same as 3108""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-Cs\H3/H;CsJ-OsHH
 """,
@@ -56225,7 +56225,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""ED calc RQCISD(T)/aug-cc-pVTZ with 1dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-OsH;HJ
 """,
@@ -56245,7 +56245,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""ED calc RQCISD(T)/aug-cc-pVTZ with 1dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO-HH_O;CsJ-HHH
 """,
@@ -56265,7 +56265,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""ED calc RQCISD(T)/aug-cc-pVTZ with 1dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_CO-CsH;HJ
 """,
@@ -56285,7 +56285,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-Cs\H3/H;OJ_pri
 """,
@@ -56305,7 +56305,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56327,7 +56327,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-OsH_Cds-CsH;HJ
 """,
@@ -56347,7 +56347,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56369,7 +56369,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-Cs\O2s/H;HJ
 """,
@@ -56389,7 +56389,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56411,7 +56411,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-CsH_Cds-OsH;HJ
 """,
@@ -56431,7 +56431,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56453,7 +56453,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-HH_Cds-OsH;CsJ-HHH
 """,
@@ -56473,7 +56473,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56495,7 +56495,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""SSM calc CBS-QB3 1dhr, gave parent same value as one of the children""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_CO;HJ
 """,
@@ -56515,7 +56515,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56537,7 +56537,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56559,7 +56559,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM calc CBS-QB3 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cds-Cs\O2s/H_Cds-HH;HJ
 """,
@@ -56579,7 +56579,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56601,7 +56601,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56623,7 +56623,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56645,7 +56645,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56667,7 +56667,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron Vandeputte, 1D-HR in transition state""",
-    longDesc = 
+    longDesc =
 u"""
 AGV BMK/cbsb7 with 1dHR
 
@@ -56689,7 +56689,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A.G. Vandeputte estimate.  Equal to Cds-HH_Cds-HH;CdsJ=Cdd""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Ca_Cds-HH;CdsJ=Cdd
 """,
@@ -56709,7 +56709,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH2 + N2 = CH2NN (B&D #22a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -56731,7 +56731,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: CH + N2 = HCNN (B&D #24a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 Here CH is in its ground state (doublet), as specified in B&D p. 221: The initially formed adduct from CH+N2 is a doublet, and there's a surface crossing to eventually form HCN + N.
@@ -56756,7 +56756,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: N2H2 + H = N2H3 (B&D #31a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -56778,7 +56778,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HCN + OH = NCHOH (B&D #42b4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -56800,7 +56800,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HCN + H = H2CN (B&D #45a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -56822,7 +56822,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HCN + H = HCNH (B&D #46) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -56844,7 +56844,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = CH3NH (B&D #49a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -56866,7 +56866,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = CH2NH2 (B&D #50) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -56888,7 +56888,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Added by Beat Buesser""",
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser, value for reaction: HCN + O = HCNO (B&D #54) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 
@@ -56908,7 +56908,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors (3 total) included in B3LYP/CBSB7 level
@@ -56930,7 +56930,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors (3 total) included in B3LYP/CBSB7 level
@@ -56952,7 +56952,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors (3 total) included in B3LYP/CBSB7 level
@@ -56974,7 +56974,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors (3 total) included in B3LYP/CBSB7 level
@@ -57003,7 +57003,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
 The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
@@ -57031,7 +57031,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
 The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
@@ -57057,9 +57057,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57085,9 +57085,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57113,9 +57113,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57141,9 +57141,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57169,9 +57169,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57197,9 +57197,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57225,9 +57225,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57253,9 +57253,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57281,9 +57281,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57309,9 +57309,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57337,9 +57337,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57365,9 +57365,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57393,9 +57393,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57421,9 +57421,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -57445,7 +57445,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for Ethyltetralin + H <=> EthyltetralinRad
@@ -57468,7 +57468,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for Propylindane + H <=> PropylindaneRad
@@ -57491,7 +57491,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for PropylindeneFar + HRad <=> PropylindeneRadFar
@@ -57514,7 +57514,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for EthylDihydronaphthaleneFar + HRad <=> EthylDihydronaphthaleneRadFar
@@ -57537,7 +57537,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for EthylDihydronaphthaleneNear + HRad <=> EthylDihydronaphthaleneRadNear
@@ -57560,7 +57560,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadFar
@@ -57583,7 +57583,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadFar2
@@ -57606,7 +57606,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadNear
@@ -57629,7 +57629,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
 Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadNear2
@@ -57650,7 +57650,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57672,7 +57672,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57694,7 +57694,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57716,7 +57716,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57738,7 +57738,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57760,7 +57760,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57782,7 +57782,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57804,7 +57804,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57826,7 +57826,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57848,7 +57848,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57870,7 +57870,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57892,7 +57892,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
 All hindered rotors included in B3LYP/CBSB7 level
@@ -57923,7 +57923,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
-    longDesc = 
+    longDesc =
 u"""
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
 Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
@@ -57952,7 +57952,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
-    longDesc = 
+    longDesc =
 u"""
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
 Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
@@ -57974,7 +57974,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
-    longDesc = 
+    longDesc =
 u"""
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
 Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
@@ -58035,4 +58035,31 @@ H      -0.72607400   -1.53484200   -0.46005200
 1D rotors:
 pivots: [1, 2], dihedral: [6, 1, 2, 7], rotor symmetry: 1, max scan energy: 21.39 kJ/mol
 """,
+)
+
+entry(
+    index = 2894,
+    label = "CF3CCH + H <=> CF3CCH2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+14,'cm^3/(mol*s)'), n=0, Ea=(4780,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 2895,
+    label = "CFCHCF3 <=> CF3 + C2HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'s^-1'), n=0, Ea=(55000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 2896,
+    label = "CH-CFCF3 <=> CF3 + C2HF_2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'s^-1'), n=0, Ea=(45000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
 )
