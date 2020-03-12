@@ -100,7 +100,7 @@ entry(
     label = "R_H",
     group = 
 """
-1 *3 [H,Cs,Cd,Cb,Sis,Sid,N] u0 c0 {2,S}
+1 *3 [H,Cs,Cd,Cb,Sis,Sid,N,Val7] u0 c0 {2,S}
 2 *4 H                      u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -112,6 +112,50 @@ entry(
     group = 
 """
 1 *3 H u0 p0 c0 {2,S}
+2 *4 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9000,
+    label = "YH",
+    group = 
+"""
+1 *3 Val7 u0 p3 c0 {2,S}
+2 *4 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9001,
+    label = "FH",
+    group = 
+"""
+1 *3 F1s u0 p3 c0 {2,S}
+2 *4 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9003,
+    label = "ClH",
+    group = 
+"""
+1 *3 Cl1s u0 p3 c0 {2,S}
+2 *4 H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9004,
+    label = "BrH",
+    group = 
+"""
+1 *3 Br1s u0 p3 c0 {2,S}
 2 *4 H u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -795,6 +839,10 @@ L1: CO2_CS2
 L1: RR'
     L2: R_H
         L3: H2
+        L3: YH
+            L4: FH
+            L4: ClH
+            L4: BrH
         L3: Cb_H
         L3: Cd_H
             L4: Cd_pri
