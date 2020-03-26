@@ -6425,3 +6425,23 @@ u"""
 """,
 )
 
+forbidden(
+    label = "H_mig_7_membered_ring_3_4",
+    group =
+"""
+1    R!H u0 {2,S} {7,S}
+2    R!H u0 {1,S} {3,S}
+3 *2 R!H u0 {2,S} {4,S} {9,S}
+4    R!H u0 {3,S} {5,S}
+5    R!H u0 {4,S} {6,S}
+6    R!H u0 {5,S} {7,S}
+7    R!H u0 {1,S} {6,S} {8,S}
+8 *1 R!H u1 {7,S}
+9 *3 H u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
