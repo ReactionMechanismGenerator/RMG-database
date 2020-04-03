@@ -146,6 +146,21 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 10,
+    label = "benzylic_C_ter_OO_rad",
+    group =
+"""
+1    C   u0 {2,S} {4,S} {5,S} {6,S}
+2 *1 O   u0 {1,S} {3,S}
+3 *2 O   u1 {2,S}
+4    R!H u0 {1,S}
+5    R!H u0 {1,S}
+6    Cb u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: ROO_rad
@@ -156,6 +171,7 @@ L1: ROO_rad
         L3: OCOO_rad
     L2: C_sec_OO_rad
     L2: C_ter_OO_rad
+        L3: benzylic_C_ter_OO_rad
     L2: O=COO_rad
 """
 )
