@@ -103,3 +103,55 @@ which is based on the experimental rate from Gross et al. in J. Phys. Chem. (201
 in Atmos. Chem. Phys. (2006) (https://doi.org/10.5194/acp-6-3625-2006).
 """,
 )
+
+entry(
+    index = 6,
+    label = "CtCOO + CtCOO <=> CtCO + CtCO + O2",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(A=(1.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(31.4, 'kJ/mol'), T0=(1, 'K'), Tmin=(243, 'K'),
+                         Tmax=(293, 'K')),
+    rank = 1,
+    shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
+    longDesc =
+u"""
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
+ISBN 9780849390043 - CAT# 9004
+https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
+""",
+)
+
+entry(
+    index = 7,
+    label = "CbMeEtCOO + CbMeEtCOO <=> CbMeEtCO + CbMeEtCO + O2",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(A=(2.0e+12, 'cm^3/(mol*s)'), n=0, Ea=(37.7, 'kJ/mol'), T0=(1, 'K'), Tmin=(303, 'K'),
+                         Tmax=(329, 'K')),
+    rank = 1,
+    shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
+    longDesc =
+u"""
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
+ISBN 9780849390043 - CAT# 9004
+https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
+""",
+)
+
+entry(
+    index = 8,
+    label = "CbMe2COO + CbMe2COO <=> CbMe2CO + CbMe2CO + O2",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(A=(1.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(25.1, 'kJ/mol'), T0=(1, 'K'), Tmin=(164, 'K'),
+                         Tmax=(243, 'K')),
+    rank = 2,
+    shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
+    longDesc =
+u"""
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
+ISBN 9780849390043 - CAT# 9004
+https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
+low rank because of low temperature
+""",
+)
