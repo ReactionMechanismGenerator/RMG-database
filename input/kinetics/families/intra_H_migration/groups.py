@@ -6426,18 +6426,39 @@ u"""
 )
 
 forbidden(
-    label = "H_mig_7_membered_ring_3_4",
+    label = "H_mig_7_membered_ring_a",
     group =
 """
-1    R!H u0 {2,S} {7,S}
-2    R!H u0 {1,S} {3,S}
-3 *2 R!H u0 {2,S} {4,S} {9,S}
-4    R!H u0 {3,S} {5,S}
-5    R!H u0 {4,S} {6,S}
-6    R!H u0 {5,S} {7,S}
-7    R!H u0 {1,S} {6,S} {8,S}
-8 *1 R!H u1 {7,S}
-9 *3 H u0 {3,S}
+1 *7 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+2 *6 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+3 *5 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
+4 *4 R!H ux {2,[S,D,T,B]} {6,[S,D,T,B]} {9,[S,D,T,B]}
+5 *2 R!H u0 {3,[S,D,T,B]} {7,S} {8,[S,D,T,B]}
+6 *1 R!H u1 {4,[S,D,T,B]}
+7 *3 H   u0 {5,S}
+8    R!H ux {5,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {4,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "H_mig_7_membered_ring_b",
+    group =
+"""
+1 *6 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+2 *5 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+3 *4 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]} {9,[S,D,T,B]}
+4 *2 R!H u0 {2,[S,D,T,B]} {6,S} {7,[S,D,T,B]}
+5 *1 R!H u1 {3,[S,D,T,B]}
+6 *3 H   u0 {4,S}
+7    R!H ux {4,[S,D,T,B]} {8,[S,D,T,B]}
+8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
+9    R!H ux {8,[S,D,T,B]} {3,[S,D,T,B]}
 """,
     shortDesc = u"""""",
     longDesc =
