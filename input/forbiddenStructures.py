@@ -440,3 +440,43 @@ u"""
 Geometry could not converge at wB97x-D3/6-311++G(3df,3pd) (alongd ref - xq1492)
 """,
 )
+
+entry(
+    label="strained",
+    group=
+"""
+1  C u0 p0 c0 {2,[S,D,B,T]} {12,[S,D,B,T]}
+2  C u0 p0 c0 {1,[S,D,B,T]} {3,[S,D,B,T]} {7,[S,D,B,T]}
+3  C u0 p0 c0 {2,[S,D,B,T]} {4,[S,D,B,T]}
+4  C u0 p0 c0 {3,[S,D,B,T]} {5,[S,D,B,T]}
+5  C u0 p0 c0 {4,[S,D,B,T]} {6,[S,D,B,T]} {12,[S,D,B,T]}
+6  C u0 p0 c0 {5,[S,D,B,T]} {7,[S,D,B,T]} {8,[S,D,B,T]}
+7  C u[0,1] p0 c0 {2,[S,D,B,T]} {6,[S,D,B,T]}
+8  C u0 p0 c0 {6,[S,D,B,T]} {9,[S,D,B,T]}
+9 C u0 p0 c0 {8,[S,D,B,T]} {10,[S,D,B,T]}
+10 C u0 p0 c0 {9,[S,D,B,T]} {11,[S,D,B,T]}
+11 C u0 p0 c0 {10,[S,D,B,T]} {12,[S,D,B,T]}
+12 N u0 p1 c0 {1,[S,D,B,T]} {5,[S,D,B,T]} {11,[S,D,B,T]}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Strained structure, originally derived from: CN(CCC1C2C=CC3=C([CH]2)CCC2C(N13)=CC=CC=2)C
+""",
+)
+
+entry(
+    label="cCCOO",
+    group=
+"""
+1 C u0 p0 c0 {2,S} {4,S}
+2 C u0 p0 c0 {1,S} {3,S} 
+3 O u0 p2 c0 {2,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Strained structure, originally derived from: CN(C)CCCN1C2=CC=C[CH]C23OOC3CC3=CC=CC=C31
+""",
+)
