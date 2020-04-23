@@ -1,0 +1,140 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {2,S} {5,S}
+  2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+  3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+  4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
+  5  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
+  6  C u0 p0 c0 {2,S} {14,S} {15,S} {16,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -17.62256911505427
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -2.2581394684
+          - -0.1281796339
+          - 0.21639756699999996
+        - - -0.87406592
+          - -0.2269209229
+          - -0.4006373192
+        - - -0.0334147617
+          - -1.3770226618
+          - 0.1429619849
+        - - 1.4184217873999996
+          - -1.0568925698
+          - -0.18338965719999997
+        - - 1.6535451423
+          - 0.3721223938
+          - 0.2966131041
+        - - 0.11673996539999998
+          - 1.2828852017
+          - -0.0747923284
+        - - -2.8337201321
+          - -1.0310678115
+          - -0.0009474330999999998
+        - - -2.184454131
+          - -0.012293348999999997
+          - 1.2987770519
+        - - -2.811693032
+          - 0.7240194504999998
+          - -0.1784590923
+        - - -0.9661340421
+          - -0.330542284
+          - -1.4842199769
+        - - -0.16561083659999995
+          - -1.4338551414
+          - 1.228290953
+        - - -0.3574810562
+          - -2.3291687681
+          - -0.2830276413
+        - - 2.1150568151
+          - -1.7520014489
+          - 0.288135025
+        - - 1.5719857445999996
+          - -1.1108688782
+          - -1.2641456847
+        - - 2.4885597825
+          - 0.8517845051
+          - -0.210108502
+        - - 1.8375707641
+          - 0.3991908667
+          - 1.3707084770999998
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C5H10S
+inchi: InChI=1S/C5H10S/c1-5-3-2-4-6-5/h5H,2-4H2,1H3
+inchi_key: AJPGNQYBSTXCJE-UHFFFAOYSA-N
+index: 362
+label: Tetrahydro-2-methylthiophene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 102.19790966771728
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.75
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -63.89
+      class: ThermoData
+smiles: CC1CCCS1
+symmetry_number: 3.0

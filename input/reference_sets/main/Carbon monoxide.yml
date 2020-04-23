@@ -1,0 +1,56 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 C u0 p1 c-1 {2,T}
+  2 O u0 p1 c+1 {1,T}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -26.907580120060963
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.642439562
+        - - 0.0
+          - 0.0
+          - -0.4818296715
+      isotopes:
+      - 12
+      - 16
+      symbols:
+      - C
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CO
+inchi: InChI=1S/CO/c1-2
+inchi_key: UGFAIRIUMAVXCW-UHFFFAOYSA-N
+index: 21
+label: Carbon monoxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 28.010101539606868
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.026000000000000023
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -110.522
+      class: ThermoData
+smiles: '[C-]#[O+]'
+symmetry_number: 1.0

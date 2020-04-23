@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p1 c+1 {2,S} {3,D}
+  2 O u0 p3 c-1 {1,S}
+  3 C u0 p0 c0 {1,D} {4,S} {5,S}
+  4 H u0 p0 c0 {3,S}
+  5 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 27.670573022440493
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1689216208
+          - -0.1948345624
+          - 0.0
+        - - -0.0081574712
+          - 0.4649594805
+          - -0.0
+        - - -1.0548633896
+          - -0.2059764792
+          - 0.0
+        - - -0.9822006131
+          - -1.2878714868
+          - 0.0
+        - - -1.9747322464
+          - 0.3627310179
+          - -0.0
+      isotopes:
+      - 16
+      - 16
+      - 12
+      - 1
+      - 1
+      symbols:
+      - O
+      - O
+      - C
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH2O2
+inchi: InChI=1S/CH2O2/c1-3-2/h1H2
+inchi_key: SBHHFAIXPSFQLT-UHFFFAOYSA-N
+index: 142
+label: Dioxymethyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 46.025382249416424
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.63
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 104.9
+      class: ThermoData
+smiles: C=[O+][O-]
+symmetry_number: 2.0

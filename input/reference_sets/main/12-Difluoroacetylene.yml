@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {1,S} {4,T}
+  4 C u0 p0 c0 {2,S} {3,T}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.6806578029721843
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -1.4863299999999997e-05
+          - 1.876778226
+        - - -0.0
+          - 7.07921e-05
+          - 0.5910644578
+        - - 0.0
+          - -7.07921e-05
+          - -0.5910644578
+        - - -0.0
+          - 1.4863299999999997e-05
+          - -1.876778226
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 19
+      symbols:
+      - F
+      - C
+      - C
+      - F
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2F2
+inchi: InChI=1S/C2F2/c3-1-2-4
+inchi_key: BWTZYYGAOGUPFQ-UHFFFAOYSA-N
+index: 197
+label: 1,2-Difluoroacetylene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 62.018211534460576
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.66
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 5.59
+      class: ThermoData
+smiles: FC#CF
+symmetry_number: 2.0

@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {4,S}
+  2 Cl u0 p3 c0 {4,S}
+  3 O  u0 p2 c0 {4,D}
+  4 C  u0 p0 c0 {1,S} {2,S} {3,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -54.52796401815006
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.49420504949999994
+        - - 0.0
+          - 0.0
+          - 1.6669154048
+        - - -1.4438618007
+          - 0.0
+          - -0.4794285066
+        - - 1.4438618007
+          - -0.0
+          - -0.4794285066
+      isotopes:
+      - 12
+      - 16
+      - 35
+      - 35
+      symbols:
+      - C
+      - O
+      - Cl
+      - Cl
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CCl2O
+inchi: InChI=1S/CCl2O/c2-1(3)4
+inchi_key: YGYAWVDWMABLBF-UHFFFAOYSA-N
+index: 204
+label: Phosgene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 98.9161058241797
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.27
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -219.13
+      class: ThermoData
+smiles: O=C(Cl)Cl
+symmetry_number: 2.0

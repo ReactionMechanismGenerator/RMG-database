@@ -1,0 +1,75 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 N u1 p1 c0 {1,S} {5,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 48.600248239734036
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.5923984926
+          - -0.024380523999999997
+          - 0.0688270747
+        - - -0.735124387
+          - 0.1512798258
+          - -0.0221232974
+        - - 1.0153268165
+          - -0.9035355915
+          - -0.194845481
+        - - 1.1324290387
+          - 0.7954297054
+          - -0.1548115621
+        - - -1.1486745946
+          - -0.7801892265
+          - 0.0227306018
+      isotopes:
+      - 14
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - N
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H3N2
+inchi: InChI=1S/H3N2/c1-2/h1H,2H2
+inchi_key: LURQBQNWDYASPJ-UHFFFAOYSA-N
+index: 78
+label: Hydrazino
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 31.037303539597616
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.78
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 224.28
+      class: ThermoData
+smiles: N[NH]
+symmetry_number: 1.0

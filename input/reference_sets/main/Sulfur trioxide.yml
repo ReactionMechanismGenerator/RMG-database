@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 S u0 p0 c0 {2,D} {3,D} {4,D}
+  2 O u0 p2 c0 {1,D}
+  3 O u0 p2 c0 {1,D}
+  4 O u0 p2 c0 {1,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -90.79498107378936
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 5.62218e-05
+        - - 0.0
+          - 0.0
+          - -1.4189793633999999
+        - - -1.2288953849
+          - 0.0
+          - 0.7094334598999998
+        - - 1.2288953849
+          - 0.0
+          - 0.7094334598999998
+      isotopes:
+      - 32
+      - 16
+      - 16
+      - 16
+      symbols:
+      - S
+      - O
+      - O
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: O3S
+inchi: InChI=1S/O3S/c1-4(2)3
+inchi_key: AKEJUJNQAAGONA-UHFFFAOYSA-N
+index: 196
+label: Sulfur trioxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 80.06320446368588
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.7000000000000005
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -395.90000000000026
+      class: ThermoData
+smiles: O=S(=O)=O
+symmetry_number: 1.0

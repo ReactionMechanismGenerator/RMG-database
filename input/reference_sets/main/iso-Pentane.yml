@@ -1,0 +1,146 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+  2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+  3  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
+  4  C u0 p0 c0 {1,S} {15,S} {16,S} {17,S}
+  5  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {5,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {3,S}
+  13 H u0 p0 c0 {3,S}
+  14 H u0 p0 c0 {3,S}
+  15 H u0 p0 c0 {4,S}
+  16 H u0 p0 c0 {4,S}
+  17 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -36.30323585489375
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.0770845684
+          - 0.0379621396
+          - 0.1046197882
+        - - 0.7481302506
+          - 0.6798309283
+          - -0.2756855379
+        - - -0.4792685972
+          - 0.0033301615
+          - 0.3370051187
+        - - -1.7407302098999997
+          - 0.7937145783
+          - 0.0041389686
+        - - -0.6242556416
+          - -1.4447612701
+          - -0.1219005405
+        - - 2.1854206224
+          - -0.0195610579
+          - 1.1904711889
+        - - 2.9169040993
+          - 0.6163201651
+          - -0.2821452728
+        - - 2.167527393
+          - -0.9738215127
+          - -0.292140774
+        - - 0.75508519
+          - 1.729706139
+          - 0.0327355619
+        - - 0.6371600581
+          - 0.6827072723
+          - -1.3662938201999997
+        - - -0.3507650847
+          - 0.0054472757
+          - 1.4265943299999997
+        - - -1.6650272392
+          - 1.8269152096
+          - 0.3485240023
+        - - -2.6229518558
+          - 0.3469818291
+          - 0.46598736199999996
+        - - -1.9050838424999996
+          - 0.8132146081
+          - -1.076975472
+        - - -0.7075968416
+          - -1.4918494417
+          - -1.2118497626
+        - - -1.5228586869
+          - -1.8987151324
+          - 0.2997095646999999
+        - - 0.2264239659
+          - -2.0578045795
+          - 0.1763163097
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C5H12
+inchi: InChI=1S/C5H12/c1-4-5(2)3/h5H,4H2,1-3H3
+inchi_key: QWTDNUCVQCZILF-UHFFFAOYSA-N
+index: 318
+label: iso-Pentane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 72.14878684354106
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.44
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -153.31
+      class: ThermoData
+smiles: CCC(C)C
+symmetry_number: 27.0

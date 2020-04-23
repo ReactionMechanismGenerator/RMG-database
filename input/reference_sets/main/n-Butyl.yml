@@ -1,0 +1,123 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+  2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+  3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+  4  C u1 p0 c0 {2,S} {12,S} {13,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 18.833445744491897
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8753501211
+          - -0.1337517772
+          - 0.012624114699999998
+        - - 0.503685417
+          - 0.5246938108
+          - -0.0429017894
+        - - -0.6359520447
+          - -0.4880379577
+          - 0.0196763278
+        - - -1.9852023964
+          - 0.1274084702
+          - -0.0051347681
+        - - 1.9989750461
+          - -0.7034378485
+          - 0.9361150865999998
+        - - 2.0112281706
+          - -0.8250899767
+          - -0.8217103721
+        - - 2.6765213144
+          - 0.6044465026
+          - -0.0332928815
+        - - 0.3969388347
+          - 1.2303649686
+          - 0.7862026316999998
+        - - 0.4092971696999999
+          - 1.1118300023
+          - -0.9603531859
+        - - -0.5358125765
+          - -1.2058688351
+          - -0.8041205449
+        - - -0.5169583746
+          - -1.095256574
+          - 0.9315773486
+        - - -2.8676203273
+          - -0.4720803247
+          - -0.1750848817
+        - - -2.1198558393
+          - 1.1732168093
+          - 0.2350834893
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H9
+inchi: InChI=1S/C4H9/c1-3-4-2/h1,3-4H2,2H3
+inchi_key: WPWHSFAFEBZWBB-UHFFFAOYSA-N
+index: 260
+label: n-Butyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 57.11426540134501
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.72
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 80.02
+      class: ThermoData
+smiles: '[CH2]CCC'
+symmetry_number: 6.0

@@ -1,0 +1,86 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {3,S} {4,S}
+  2 O u0 p2 c0 {3,D}
+  3 N u0 p1 c0 {1,S} {2,D}
+  4 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5 H u0 p0 c0 {4,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -17.169273986401045
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.6293830051999998
+          - -0.1346781787
+          - -2.41209e-05
+        - - 0.3531812208
+          - 0.5101402571
+          - 2.57007e-05
+        - - -0.6715390557
+          - -0.434849917
+          - 4.09795e-05
+        - - -1.7177774441
+          - 0.08013562919999997
+          - -3.6362e-05
+        - - 2.1723924159
+          - 0.172073947
+          - -0.8916942377
+        - - 1.4957708752
+          - -1.2158351894
+          - 0.0009376954999999998
+        - - 2.1730818543
+          - 0.17357264359999997
+          - 0.890699702
+      isotopes:
+      - 12
+      - 16
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - N
+      - O
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3NO2
+inchi: InChI=1S/CH3NO2/c1-4-2-3/h1H3
+inchi_key: BLLFVUPNHCTMSV-UHFFFAOYSA-N
+index: 220
+label: Methyl nitrite
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 61.04006395797536
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.45
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -67.36
+      class: ThermoData
+smiles: CON=O
+symmetry_number: 3.0

@@ -1,0 +1,104 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {5,D}
+  2  S u0 p2 c0 {6,D}
+  3  N u0 p1 c0 {5,S} {7,S} {8,S}
+  4  N u0 p1 c0 {6,S} {9,S} {10,S}
+  5  C u0 p0 c0 {1,D} {3,S} {6,S}
+  6  C u0 p0 c0 {2,D} {4,S} {5,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 15.170883658673946
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.145153312
+          - -0.2290607125
+          - -2.56166e-05
+        - - 0.6341363902
+          - 0.4311915930999999
+          - 9.7265e-06
+        - - 0.385129012
+          - 1.7306794386999995
+          - 3.94539e-05
+        - - -0.6341311441
+          - -0.4311905956
+          - 9.691199999999996e-06
+        - - -0.3851388744
+          - -1.7306816053
+          - 3.924629999999999e-05
+        - - -2.1451480173
+          - 0.229062083
+          - -2.5590799999999996e-05
+        - - 1.1490449972
+          - 2.3839709293
+          - 3.27592e-05
+        - - -0.581166034
+          - 2.0369184588
+          - 4.25606e-05
+        - - 0.5811466041
+          - -2.0369491468
+          - 4.352019999999999e-05
+        - - -1.1490727226
+          - -2.3839529879
+          - 3.30716e-05
+      isotopes:
+      - 32
+      - 12
+      - 14
+      - 12
+      - 14
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - N
+      - C
+      - N
+      - S
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H4N2S2
+inchi: InChI=1S/C2H4N2S2/c3-1(5)2(4)6/h(H2,3,5)(H2,4,6)
+inchi_key: OAEGRYMCJYIXQT-UHFFFAOYSA-N
+index: 327
+label: Ethanedithioamide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 120.19665194986243
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.5
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 83.0
+      class: ThermoData
+smiles: NC(=S)C(=S)N
+symmetry_number: 2.0

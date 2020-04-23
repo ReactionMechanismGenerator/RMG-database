@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,D} {7,S}
+  3 C u0 p0 c0 {2,D} {8,S} {9,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {3,S}
+  9 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 5.211255187015893
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2278543457
+          - -0.16194075229999996
+          - 1.0579999999999997e-07
+        - - -0.1350853073
+          - 0.4559337079
+          - 3.5498e-06
+        - - -1.2727201370999999
+          - -0.2219535597
+          - -8.55e-08
+        - - 1.1673312239
+          - -1.2504053852
+          - 0.0001124321
+        - - 1.7986439299
+          - 0.1511969531
+          - 0.8768777776
+        - - 1.7985494706
+          - 0.1510174079
+          - -0.8770042802
+        - - -0.17198686349999998
+          - 1.5419980256
+          - -1.6857999999999998e-06
+        - - -2.2310925365
+          - 0.2803712323
+          - -7.7335e-06
+        - - -1.2817386326
+          - -1.3064146094
+          - 2.0694e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H6
+inchi: InChI=1S/C3H6/c1-3-2/h3H,1H2,2H3
+inchi_key: QQONPFPTGQHPMA-UHFFFAOYSA-N
+index: 181
+label: Propene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 42.07974395914894
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.21
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 19.98
+      class: ThermoData
+smiles: C=CC
+symmetry_number: 3.0

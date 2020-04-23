@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {4,S} {5,S}
+  2 O u0 p3 c-1 {4,S}
+  3 O u0 p2 c0 {4,D}
+  4 N u0 p0 c+1 {1,S} {2,S} {3,D}
+  5 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  6 H u0 p0 c0 {5,S}
+  7 H u0 p0 c0 {5,S}
+  8 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -32.247079989439044
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.4466473529
+          - -1.2377706362999998
+          - -1.39574e-05
+        - - -0.6097063702
+          - -0.0466539593
+          - -5.229199999999999e-06
+        - - -1.6257953575
+          - 0.5789865278
+          - 2.81526e-05
+        - - 0.5246649707
+          - 0.7534088250999998
+          - -4.50397e-05
+        - - 1.7479816107
+          - 0.0038467002
+          - 2.6809299999999998e-05
+        - - 1.8245118474
+          - -0.6135248514999998
+          - 0.8919082928
+        - - 1.8243230875999998
+          - -0.6140388883
+          - -0.8915100734
+        - - 2.5134419091
+          - 0.7740635207
+          - -0.0002757142
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - N
+      - O
+      - O
+      - C
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3NO3
+inchi: InChI=1S/CH3NO3/c1-5-2(3)4/h1H3
+inchi_key: LRMHVVPPGGOAJQ-UHFFFAOYSA-N
+index: 277
+label: Methyl nitrate
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 77.03946442282542
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.0
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -122.0
+      class: ThermoData
+smiles: '[O-][N+](=O)OC'
+symmetry_number: 3.0

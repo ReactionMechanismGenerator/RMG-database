@@ -1,0 +1,116 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {2,S} {12,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+  4  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  5  H u0 p0 c0 {2,S}
+  6  H u0 p0 c0 {3,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -20.079288589844488
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0843491717
+          - 1.2620484493
+          - -0.1116821227
+        - - 0.4014112844
+          - 8.7893e-06
+          - 0.3946977078
+        - - 1.0842537545
+          - -1.2620989177
+          - -0.1116456629
+        - - -1.3842730593999995
+          - 4.25238e-05
+          - 0.0172421929
+        - - 0.5958761571
+          - 2.1565089902
+          - 0.2715261607
+        - - 1.0527377339
+          - 1.2994221191
+          - -1.2030419471
+        - - 2.1330555112
+          - 1.2759108617
+          - 0.1945698713
+        - - 0.4146222042
+          - 2.54441e-05
+          - 1.4876123389
+        - - 0.5956930136
+          - -2.1565171626
+          - 0.2715441308
+        - - 1.0526763041
+          - -1.2994731053
+          - -1.2030073378
+        - - 2.1329475329
+          - -1.2760686151999998
+          - 0.19463851399999996
+        - - -1.2493247707999997
+          - -0.00023883829999999995
+          - -1.3179363509
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H8S
+inchi: InChI=1S/C3H8S/c1-3(2)4/h3-4H,1-2H3
+inchi_key: KJRCEJOSASVSRA-UHFFFAOYSA-N
+index: 258
+label: 2-Propanethiol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 76.16062727324416
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.63
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -76.94
+      class: ThermoData
+smiles: CC(S)C
+symmetry_number: 9.0

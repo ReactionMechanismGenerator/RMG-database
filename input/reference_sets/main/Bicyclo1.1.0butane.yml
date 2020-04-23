@@ -1,0 +1,104 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+  3  C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  4  C u0 p0 c0 {1,S} {2,S} {9,S} {10,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 51.263305519629625
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.32177578399999995
+          - -0.7404700639
+          - 0.0
+        - - 0.3155869124
+          - -1.0372e-06
+          - -1.1300790012
+        - - -0.3217706212
+          - 0.7404729343
+          - 0.0
+        - - 0.3155869124
+          - -1.0372e-06
+          - 1.1300790012
+        - - -1.1515043965
+          - -1.4246035723999997
+          - 0.0
+        - - 1.4010307467999996
+          - -6.3239e-06
+          - -1.2138525401
+        - - -0.2124125732
+          - 1.1884e-06
+          - -2.0768513308
+        - - -1.151496422
+          - 1.4246094066999997
+          - 0.0
+        - - 1.4010307467999996
+          - -6.3239e-06
+          - 1.2138525401
+        - - -0.2124125732
+          - 1.1884e-06
+          - 2.0768513308
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H6
+inchi: InChI=1S/C4H6/c1-3-2-4(1)3/h3-4H,1-2H2
+inchi_key: LASLVGACQUUOEB-UHFFFAOYSA-N
+index: 234
+label: Bicyclo[1.1.0]butane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 54.09044503390576
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.84
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 217.15
+      class: ThermoData
+smiles: C1C2CC12
+symmetry_number: 4.0

@@ -1,0 +1,86 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 C u0 p0 c0 {2,T} {7,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 45.218038150032335
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2390901184
+          - -1.9986899999999997e-05
+          - -2.32176e-05
+        - - -0.2199611915
+          - 0.000155129
+          - -8.71927e-05
+        - - -1.4176940776999998
+          - -3.14496e-05
+          - 1.84037e-05
+        - - 1.6236207372999996
+          - -0.0998973759
+          - 1.014683267
+        - - 1.6243685478999998
+          - 0.9285702197
+          - -0.4207388347999999
+        - - 1.6238864413999998
+          - -0.8291434755
+          - -0.593443538
+        - - -2.4804848217
+          - -0.0001515233
+          - 5.114539999999999e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H4
+inchi: InChI=1S/C3H4/c1-3-2/h1H,2H3
+inchi_key: MWWATHDPGQKSAR-UHFFFAOYSA-N
+index: 163
+label: Propyne
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 40.06386371418944
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.25
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 185.76
+      class: ThermoData
+smiles: C#CC
+symmetry_number: 3.0

@@ -1,0 +1,146 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  N u0 p1 c0 {2,S} {16,S} {17,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+  3  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+  4  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
+  5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
+  6  C u0 p0 c0 {4,S} {5,S} {12,S} {13,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {6,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {4,S}
+  15 H u0 p0 c0 {4,S}
+  16 H u0 p0 c0 {1,S}
+  17 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -16.134380341442608
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.609183135
+          - -1.5029999999999998e-05
+          - 0.7532339507
+        - - -0.8748406108
+          - 0.0004782277
+          - -0.5147200125
+        - - 0.0839844344
+          - 1.1890192734
+          - -0.5369072157
+        - - 1.2390506905999998
+          - 0.7732292198
+          - 0.3905205134
+        - - 1.2376974003
+          - -0.7743407786
+          - 0.390998126
+        - - 0.0834946771
+          - -1.1884191275
+          - -0.538093366
+        - - -2.2062984652
+          - 0.8153209484
+          - 0.8216960229
+        - - -2.2064452289
+          - -0.8153088332
+          - 0.8209751548
+        - - -1.5363172053999996
+          - 0.0010672391
+          - -1.3900750859
+        - - 0.44270591369999995
+          - 1.3336819568
+          - -1.5590236891
+        - - -0.3987004881999999
+          - 2.1178326128
+          - -0.2261417229
+        - - 1.0680631533
+          - 1.1495098827
+          - 1.3979996489
+        - - 2.1895772233
+          - 1.1843104031
+          - 0.0497683315
+        - - 2.1881111585
+          - -1.1874776733
+          - 0.0524345274
+        - - 1.0638629829
+          - -1.149582802
+          - 1.3983781932999997
+        - - 0.4431141455
+          - -1.3314242493999997
+          - -1.5601401045
+        - - -0.3997107931
+          - -2.117625165
+          - -0.2292972028
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C5H11N
+inchi: InChI=1S/C5H11N/c6-5-3-1-2-4-5/h5H,1-4,6H2
+inchi_key: NISGSNTVMOOSJQ-UHFFFAOYSA-N
+index: 369
+label: Cyclopentanamine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 85.1475883071405
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.92
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -54.86
+      class: ThermoData
+smiles: NC1CCCC1
+symmetry_number: 1.0

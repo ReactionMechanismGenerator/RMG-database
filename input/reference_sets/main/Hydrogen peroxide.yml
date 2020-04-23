@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 O u0 p2 c0 {1,S} {4,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -30.916423137273892
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.7075051337999999
+          - -0.1127480467
+          - -0.0597311666
+        - - 0.7075051337999999
+          - 0.1127480467
+          - -0.0597311666
+        - - -1.0147027503
+          - 0.6289117891
+          - 0.477849273
+        - - 1.0147027503
+          - -0.6289117891
+          - 0.477849273
+      isotopes:
+      - 16
+      - 16
+      - 1
+      - 1
+      symbols:
+      - O
+      - O
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H2O2
+inchi: InChI=1S/H2O2/c1-2/h1-2H
+inchi_key: MHAJPDPJQMAIIY-UHFFFAOYSA-N
+index: 62
+label: Hydrogen peroxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 34.01468117465961
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.063
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -135.478
+      class: ThermoData
+smiles: OO
+symmetry_number: 1.0

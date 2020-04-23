@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 S u0 p2 c0 {2,S} {3,S}
+  2 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  3 C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {3,S}
+  9 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -10.907327444348962
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3665266808999998
+          - -0.5118550718
+          - -3.4273e-06
+        - - -3.34e-08
+          - 0.6607762168
+          - -2.4457e-06
+        - - -1.3665266741
+          - -0.5118550288
+          - -4.768099999999999e-06
+        - - 1.3427942309999996
+          - -1.1392705378
+          - 0.8906079107
+        - - 2.2908139625
+          - 0.0628686348
+          - 0.00047450259999999995
+        - - 1.3433527425
+          - -1.1386771699
+          - -0.8910461939
+        - - -1.3434875571
+          - -1.1385230611
+          - -0.8911597494
+        - - -2.2908141959
+          - 0.0628677794
+          - 0.0007177393
+        - - -1.3426586898
+          - -1.1394245101
+          - 0.8904940940999998
+      isotopes:
+      - 12
+      - 32
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H6S
+inchi: InChI=1S/C2H6S/c1-3-2/h1-2H3
+inchi_key: QMMFVYPAHWMCMS-UHFFFAOYSA-N
+index: 187
+label: Dimethyl sulfide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 62.13404595352784
+multiplicity: 1
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.6
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -37.5
+      class: ThermoData
+smiles: CSC
+symmetry_number: 18.0

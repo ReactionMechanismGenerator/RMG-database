@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p1 c+1 {2,D} {5,S}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 222.11181096729
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.5240511022
+        - - -2.6e-09
+          - 0.0
+          - -0.6625191154
+        - - 0.9703917662
+          - -0.0
+          - 1.0779231785
+        - - -0.9703917662
+          - 0.0
+          - 1.0779231785
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+charge: 1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3O
+inchi_key: WSFSSNUMVMOOMR-UHFFFAOYSA-O
+index: 61
+label: Formaldehyde cation
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 31.033921907046118
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.1
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 941.27
+      class: ThermoData
+smiles: C=[OH+]
+symmetry_number: 2.0

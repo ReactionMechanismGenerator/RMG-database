@@ -1,0 +1,104 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {2,S} {3,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3  C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  4  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+  5  H u0 p0 c0 {2,S}
+  6  H u0 p0 c0 {3,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {4,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 8.109525684590249
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.7666426522
+          - -0.2953445567
+          - 0.17776473949999996
+        - - -0.507583215
+          - 0.16128904479999998
+          - -0.5078972492
+        - - 1.077027075
+          - -0.526423158
+          - 0.0559445519
+        - - 0.3782604217
+          - 1.1430786963
+          - 0.1534994037
+        - - -1.6055048746
+          - -0.3710270178
+          - 1.2533252076
+        - - -2.5757531525
+          - 0.4154375044
+          - -0.0071465466
+        - - -2.0819716418
+          - -1.2717526136
+          - -0.189265783
+        - - -0.5692535249
+          - 0.23840866669999994
+          - -1.5874799894
+        - - 0.8736348351999997
+          - 1.888747336
+          - -0.4536141587
+        - - 0.10220783239999999
+          - 1.4688175462
+          - 1.1488670766
+      isotopes:
+      - 12
+      - 12
+      - 32
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - S
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H6S
+inchi: InChI=1S/C3H6S/c1-3-2-4-3/h3H,2H2,1H3
+inchi_key: MBNVSWHUJDDZRH-UHFFFAOYSA-N
+index: 245
+label: Methylthiirane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 74.14474702828466
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 2.0
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 46.11
+      class: ThermoData
+smiles: CC1CS1
+symmetry_number: 3.0

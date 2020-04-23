@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p2 c-1 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 31.412428022930456
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.1435451957
+        - - -0.7974709983
+          - -0.0
+          - -0.5024081849
+        - - 0.7974709983
+          - 0.0
+          - -0.5024081849
+      isotopes:
+      - 14
+      - 1
+      - 1
+      symbols:
+      - N
+      - H
+      - H
+charge: -1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H2N
+inchi: InChI=1S/H2N/h1H2/q-1
+inchi_key: HYGWNUKOUCZBND-UHFFFAOYSA-N
+index: 12
+label: Azanide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 16.022621831038684
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.33
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 112.02
+      class: ThermoData
+smiles: '[NH2-]'
+symmetry_number: 2.0

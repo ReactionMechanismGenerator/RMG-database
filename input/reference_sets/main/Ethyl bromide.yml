@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {3,S}
+  2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  4 H  u0 p0 c0 {2,S}
+  5 H  u0 p0 c0 {2,S}
+  6 H  u0 p0 c0 {2,S}
+  7 H  u0 p0 c0 {3,S}
+  8 H  u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -15.330396538813995
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.0617751734
+          - -0.3985284498
+          - 6.24e-06
+        - - 1.0106878612
+          - 0.687215063
+          - 7.377e-06
+        - - -0.7874933197
+          - -0.0673511439
+          - 6.139e-07
+        - - 1.9721081887
+          - -1.030352123
+          - -0.8825872497
+        - - 3.0546553228999995
+          - 0.0568816298
+          - -0.0008124405
+        - - 1.9731164072
+          - -1.0294391962
+          - 0.8833556739
+        - - 1.0638230333
+          - 1.3140938211
+          - 0.8849980513
+        - - 1.0637850285
+          - 1.313986224
+          - -0.8850572237
+      isotopes:
+      - 12
+      - 12
+      - 79
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Br
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H5Br
+inchi: InChI=1S/C2H5Br/c1-2-3/h2H2,1H3
+inchi_key: RDHPKYGYEGBMSE-UHFFFAOYSA-N
+index: 180
+label: Ethyl bromide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 108.96510693136717
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.26
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -63.07
+      class: ThermoData
+smiles: CCBr
+symmetry_number: 3.0

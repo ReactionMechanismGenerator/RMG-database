@@ -1,0 +1,122 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {2,S} {13,S}
+  2  C u0 p0 c0 {1,S} {3,D} {4,S}
+  3  C u0 p0 c0 {2,D} {5,S} {8,S}
+  4  C u0 p0 c0 {2,S} {7,D} {12,S}
+  5  C u0 p0 c0 {3,S} {6,D} {9,S}
+  6  C u0 p0 c0 {5,D} {7,S} {10,S}
+  7  C u0 p0 c0 {4,D} {6,S} {11,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {5,S}
+  10 H u0 p0 c0 {6,S}
+  11 H u0 p0 c0 {7,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 23.35376069809347
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.2727269911
+          - -0.08308589689999998
+          - -7.23133e-05
+        - - 0.50562284
+          - -0.0001116833
+          - 1.45376e-05
+        - - -0.1915962198
+          - 1.2030984746
+          - -2.77485e-05
+        - - -1.5780294136
+          - 1.2007131565
+          - -1.60466e-05
+        - - -2.2804775725
+          - 0.0046572811
+          - -6.3522e-06
+        - - -1.5829233937999998
+          - -1.1947159712
+          - 1.46363e-05
+        - - -0.1972332827
+          - -1.2012704902
+          - 4.55798e-05
+        - - 2.4891305189
+          - 1.2376563281
+          - 0.0009897552
+        - - 0.3461606456
+          - 2.142830126
+          - -8.47642e-05
+        - - -2.1107108994
+          - 2.1430693308
+          - -3.34832e-05
+        - - -3.3623949075
+          - 0.0071698401
+          - -1.0820699999999998e-05
+        - - -2.1194529319
+          - -2.1347894892
+          - 3.43144e-05
+        - - 0.3414579719
+          - -2.1407863902
+          - 0.00011437289999999999
+      isotopes:
+      - 32
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C6H6S
+inchi: InChI=1S/C6H6S/c7-6-4-2-1-3-5-6/h1-5,7H
+inchi_key: RMVRSNDYEFQCLF-UHFFFAOYSA-N
+index: 399
+label: Benzenethiol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 110.1768502525551
+multiplicity: 1
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.9
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 112.4
+      class: ThermoData
+smiles: Sc1ccccc1
+symmetry_number: 2.0

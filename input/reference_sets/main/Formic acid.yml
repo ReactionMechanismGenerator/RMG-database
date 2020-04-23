@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {3,S} {5,S}
+  2 O u0 p2 c0 {3,D}
+  3 C u0 p0 c0 {1,S} {2,D} {4,S}
+  4 H u0 p0 c0 {3,S}
+  5 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -90.51961982171187
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.1303557232
+          - -0.4013866813
+          - 0.0001811821
+        - - -1.1248375088
+          - 0.2619470115
+          - 6.07376e-05
+        - - 1.1177135296
+          - 0.0891442936
+          - 0.0003975451999999999
+        - - -0.1024355212
+          - -1.4971780893
+          - 0.0001313048
+        - - 1.0470069674
+          - 1.0569030528
+          - 0.00043429399999999995
+      isotopes:
+      - 12
+      - 16
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - O
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH2O2
+inchi: InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)
+inchi_key: BDAGIHXWWSANSR-UHFFFAOYSA-N
+index: 143
+label: Formic acid
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 46.025382249416424
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.22
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -378.36
+      class: ThermoData
+smiles: O=CO
+symmetry_number: 1.0

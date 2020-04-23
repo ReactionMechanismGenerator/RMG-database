@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {2,D} {5,S}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 20.013944812395923
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.5841160363
+          - -0.028924392799999997
+          - 0.0
+        - - -0.6643464052
+          - 0.1546970861
+          - -1.5e-09
+        - - 1.2439644037
+          - 0.8372937182
+          - 0.0
+        - - 1.0640097685
+          - -1.0110226802
+          - 0.0
+        - - -1.1622455536
+          - -0.7356042841
+          - 0.0
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3N
+inchi: InChI=1S/CH3N/c1-2/h2H,1H2
+inchi_key: WDWDWGRYHDPSDS-UHFFFAOYSA-N
+index: 76
+label: Methanimine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 29.041263028275246
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.62
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 88.34
+      class: ThermoData
+smiles: C=N
+symmetry_number: 1.0

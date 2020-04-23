@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -55.42338909690702
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.1171786926
+        - - -0.7626165625999998
+          - -0.0
+          - -0.4687147703
+        - - 0.7626165625999998
+          - 0.0
+          - -0.4687147703
+      isotopes:
+      - 16
+      - 1
+      - 1
+      symbols:
+      - O
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H2O
+inchi: InChI=1S/H2O/h1H2
+inchi_key: XLYOFNOQVPJJNP-UHFFFAOYSA-N
+index: 10
+label: Water
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 18.015280709809552
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.027
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -241.842
+      class: ThermoData
+smiles: O
+symmetry_number: 2.0

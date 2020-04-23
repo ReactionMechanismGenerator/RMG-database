@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {3,D}
+  2 O u0 p2 c0 {4,D}
+  3 N u0 p1 c0 {1,D} {4,S}
+  4 N u0 p1 c0 {2,D} {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 61.9022178309892
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.7562573254
+          - -0.11125283589999997
+          - 0.10237003999999997
+        - - 0.5430836993
+          - -0.0399046657
+          - 0.1275879637
+        - - -0.543083709
+          - 0.0399047752
+          - -0.1275880057
+        - - -1.7562573157
+          - 0.1112527262
+          - -0.1023699979
+      isotopes:
+      - 16
+      - 14
+      - 14
+      - 16
+      symbols:
+      - O
+      - N
+      - N
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: N2O2
+inchi: InChI=1S/N2O2/c3-1-2-4
+inchi_key: AZLYZRGJCVQKKK-UHFFFAOYSA-N
+index: 195
+label: Dinitrogen dioxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 60.01228410185848
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.14
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 171.12
+      class: ThermoData
+smiles: O=NN=O
+symmetry_number: 2.0

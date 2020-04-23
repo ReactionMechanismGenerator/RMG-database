@@ -1,0 +1,56 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {2,S}
+  2 Cl u0 p3 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.2945308882386026
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.6978794532
+        - - 0.0
+          - 0.0
+          - -1.436810639
+      isotopes:
+      - 79
+      - 35
+      symbols:
+      - Br
+      - Cl
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: BrCl
+inchi: InChI=1S/BrCl/c1-2
+inchi_key: CODNYICXDISAEA-UHFFFAOYSA-N
+index: 40
+label: Bromine monochloride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 115.35700631174122
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.06
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 14.439
+      class: ThermoData
+smiles: ClBr
+symmetry_number: 1.0

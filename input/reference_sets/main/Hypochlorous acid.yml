@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {2,S}
+  2 O  u0 p2 c0 {1,S} {3,S}
+  3 H  u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -17.95638960371059
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0843886344
+          - 0.1180619174
+          - -0.0
+        - - -0.5918457557
+          - -0.0084787924
+          - -0.0
+        - - 1.3862687711
+          - -0.800355868
+          - 0.0
+      isotopes:
+      - 16
+      - 35
+      - 1
+      symbols:
+      - O
+      - Cl
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: ClHO
+inchi: InChI=1S/ClHO/c1-2/h2H
+inchi_key: QWPPOHNGKGFGJK-UHFFFAOYSA-N
+index: 55
+label: Hypochlorous acid
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 52.460342729616215
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.028
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -76.815
+      class: ThermoData
+smiles: OCl
+symmetry_number: 1.0

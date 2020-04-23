@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {5,T}
+  2 N u0 p1 c0 {6,T}
+  3 C u0 p0 c0 {4,T} {5,S}
+  4 C u0 p0 c0 {3,T} {6,S}
+  5 C u0 p0 c0 {1,T} {3,S}
+  6 C u0 p0 c0 {2,T} {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 127.02534039538432
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 7.02478e-05
+          - -5.0798599999999985e-05
+          - 3.1288164598
+        - - -3.18827e-05
+          - 0.0002384358
+          - 1.978880043
+        - - -7.98238e-05
+          - 5.667839999999999e-05
+          - 0.5995775659
+        - - -2.72344e-05
+          - -0.0002993484
+          - -0.5995775593
+        - - 1.43442e-05
+          - -0.0002619228
+          - -1.978880106
+        - - 3.654939999999999e-05
+          - 0.0002789332
+          - -3.1288164114
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 14
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - C
+      - N
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4N2
+inchi: InChI=1S/C4N2/c5-3-1-2-4-6
+inchi_key: ZEHZNAXXOOYTJM-UHFFFAOYSA-N
+index: 319
+label: 2-Butynedinitrile
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 76.05628747118563
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 533.46
+      class: ThermoData
+smiles: N#CC#CC#N
+symmetry_number: 2.0

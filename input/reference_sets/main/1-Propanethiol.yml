@@ -1,0 +1,116 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {3,S} {12,S}
+  2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3  C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  4  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  5  H u0 p0 c0 {2,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -18.35804619613472
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.4029882044
+          - -0.0725100373
+          - -0.012111749099999998
+        - - 0.9962247974
+          - 0.5083074661
+          - 0.0729660671
+        - - -0.0682253962
+          - -0.5677587974
+          - -0.0745136292
+        - - -1.7708374262
+          - 0.0449289573
+          - 0.0716609818
+        - - 3.158786111099999
+          - 0.70672159
+          - 0.0876266284
+        - - 2.5730175286
+          - -0.8051978823999999
+          - 0.7792510336
+        - - 2.5648775771999994
+          - -0.5739022345
+          - -0.9684319774
+        - - 0.8555228428
+          - 1.2595838437
+          - -0.708869011
+        - - 0.8521845674999999
+          - 1.0229695635
+          - 1.0250974962
+        - - 0.0274980221
+          - -1.3078451551999997
+          - 0.7224650404999998
+        - - 0.0439104921
+          - -1.1007763585
+          - -1.0191678917
+        - - -1.7283239563999997
+          - 0.8713515276999999
+          - -0.9825911602999998
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H8S
+inchi: InChI=1S/C3H8S/c1-2-3-4/h4H,2-3H2,1H3
+inchi_key: SUVIGLJNEAMWEG-UHFFFAOYSA-N
+index: 259
+label: 1-Propanethiol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 76.16062727324416
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.63
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -68.58
+      class: ThermoData
+smiles: CCCS
+symmetry_number: 3.0

@@ -1,0 +1,116 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+  2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  3  C u0 p0 c0 {1,S} {4,D} {11,S}
+  4  C u0 p0 c0 {2,S} {3,D} {12,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -2.4256181420173615
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.9518210188
+          - -0.0782432585
+          - 3.0324e-05
+        - - 0.5316941586
+          - 0.3956457286
+          - -6.66705e-05
+        - - -0.5316896242
+          - -0.39562745269999994
+          - -5.97892e-05
+        - - -1.9518243738
+          - 0.0782341778
+          - 3.22215e-05
+        - - 2.0030571038
+          - -1.1674792224999997
+          - -0.0011566085
+        - - 2.4894947722
+          - 0.2873970374
+          - 0.8777395885
+        - - 2.4903173844
+          - 0.2893737366
+          - -0.8763365972
+        - - 0.3778088164999999
+          - 1.4729179276
+          - -4.06378e-05
+        - - -0.3777942127
+          - -1.4728984394999998
+          - -4.346679999999999e-05
+        - - -2.4901870164
+          - -0.2890817704
+          - -0.8765450334
+        - - -2.4896049587999998
+          - -0.2877529067
+          - 0.8775297990999998
+        - - -2.0030989648
+          - 1.1674684664
+          - -0.0007635589
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H8
+inchi: InChI=1S/C4H8/c1-3-4-2/h3-4H,1-2H3
+inchi_key: IAQRGUVFOMOMEM-UHFFFAOYSA-N
+index: 252
+label: trans-2-Butene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 56.106325278865256
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.41000000000000014
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -11.32
+      class: ThermoData
+smiles: CC=CC
+symmetry_number: 18.0

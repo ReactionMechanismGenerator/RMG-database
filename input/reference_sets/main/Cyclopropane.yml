@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+  3 C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {3,S}
+  9 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 11.716023914784932
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.8283072177
+          - -0.2559218077
+          - 0.0
+        - - -0.19253404789999995
+          - 0.8452002736
+          - 0.0
+        - - -0.6358119104999997
+          - -0.5893307691
+          - 0.0
+        - - 1.3869857034
+          - -0.4283988471
+          - 0.9090861531
+        - - 1.3869857034
+          - -0.4283988471
+          - -0.9090861531
+        - - -0.3223410976
+          - 1.4152999292
+          - 0.9090878793
+        - - -0.3223410976
+          - 1.4152999292
+          - -0.9090878793
+        - - -1.0645283008
+          - -0.9867443866999999
+          - 0.9091148118
+        - - -1.0645283008
+          - -0.9867443866999999
+          - -0.9091148118
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H6
+inchi: InChI=1S/C3H6/c1-2-3-1/h1-3H2
+inchi_key: LVZWSLJZHVFIQJ-UHFFFAOYSA-N
+index: 182
+label: Cyclopropane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 42.07974395914894
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.4700000000000001
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 53.63
+      class: ThermoData
+smiles: C1CC1
+symmetry_number: 6.0

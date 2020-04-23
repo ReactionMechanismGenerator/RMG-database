@@ -1,0 +1,54 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {2,S}
+  2 Cl u0 p3 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.7496140200477118
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.9941836232
+        - - 0.0
+          - 0.0
+          - -0.9941836232
+      isotopes:
+      - 35
+      - 35
+      symbols:
+      - Cl
+      - Cl
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: Cl2
+inchi: InChI=1S/Cl2/c1-2
+inchi_key: KZBUYRJDOAKODT-UHFFFAOYSA-N
+index: 36
+label: Dichlorine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 70.90600428457283
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: 0.0
+      class: ThermoData
+smiles: '[Cl][Cl]'
+symmetry_number: 2.0

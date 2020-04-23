@@ -1,0 +1,122 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {3,S} {5,S}
+  2  N u0 p1 c0 {6,T}
+  3  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+  4  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  5  C u0 p0 c0 {1,S} {6,S} {12,S} {13,S}
+  6  C u0 p0 c0 {2,T} {5,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -18.752408907441996
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.4883377593
+          - -1.0286224261
+          - -0.11576932359999999
+        - - 1.7780429485999998
+          - -0.1330499436
+          - -0.0179458677
+        - - 0.8484582478999999
+          - 1.0105948616
+          - 0.1157198881
+        - - -0.4330895363
+          - 0.7209052916
+          - -0.3592885917
+        - - -1.1113188117
+          - -0.2615111839
+          - 0.41961418229999997
+        - - -2.4851653245999996
+          - -0.46046080549999996
+          - -0.1715574405
+        - - 1.2376892513999997
+          - 1.8406832885999995
+          - -0.4717552291
+        - - 0.8348142142
+          - 1.3101264639999997
+          - 1.170730384
+        - - -0.5405752548
+          - -1.1965574503
+          - 0.4089860283
+        - - -1.174357186
+          - 0.0845798383
+          - 1.4592527125999997
+        - - -3.0341902854
+          - -1.2071269237
+          - 0.4022257369
+        - - -2.408664146
+          - -0.8041868139
+          - -1.2026501526
+        - - -3.0484669789
+          - 0.47215867449999993
+          - -0.1570800547
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H7NO
+inchi: InChI=1S/C4H7NO/c1-2-6-4-3-5/h2,4H2,1H3
+inchi_key: WPYUCWSMVJJWFI-UHFFFAOYSA-N
+index: 348
+label: Ethoxyacetonitrile
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 85.10452720731475
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.56
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -69.5
+      class: ThermoData
+smiles: CCOCC#N
+symmetry_number: 3.0

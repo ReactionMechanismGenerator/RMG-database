@@ -1,0 +1,63 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 O u0 p2 c0 {1,S} {3,S}
+  3 O u1 p2 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 8.893979478278968
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1686754738
+          - -0.17205946369999997
+          - 0.0
+        - - -0.2293151158
+          - 0.5096459993
+          - -0.0
+        - - -1.0854447922
+          - -0.3160791027
+          - 0.0
+      isotopes:
+      - 19
+      - 16
+      - 16
+      symbols:
+      - F
+      - O
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: FO2
+inchi: InChI=1S/FO2/c1-3-2
+inchi_key: GQRAHKRZRKCZPQ-UHFFFAOYSA-N
+index: 107
+label: Fluorodioxidanyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 50.99720562217359
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.26
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 25.09
+      class: ThermoData
+smiles: '[O]OF'
+symmetry_number: 1.0

@@ -1,0 +1,134 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+  2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+  3  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
+  4  C u0 p0 c0 {1,S} {5,D} {15,S}
+  5  C u0 p0 c0 {3,S} {4,D} {14,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {3,S}
+  13 H u0 p0 c0 {3,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -5.8992898864015615
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.034413879
+          - -0.6880983926
+          - 0.069869543
+        - - 1.293039132
+          - 0.6111313382
+          - 0.1598824496
+        - - 0.0136669879
+          - 0.8336056509
+          - -0.1213615624
+        - - -1.0109633692
+          - -0.1581324876
+          - -0.5865427447
+        - - -2.1548614555
+          - -0.30774409559999993
+          - 0.41708408609999986
+        - - 2.5025954534
+          - -0.9279820642
+          - 1.0270581144
+        - - 1.3932426082
+          - -1.5220811505
+          - -0.20795127439999994
+        - - 2.8392710512999995
+          - -0.6223613288
+          - -0.6659905995
+        - - 1.8848034688
+          - 1.4583360051999996
+          - 0.4944343077999999
+        - - -0.3593678552
+          - 1.8466200525999996
+          - 0.0108887506
+        - - -1.4199504234
+          - 0.1816192445
+          - -1.5431996792
+        - - -0.5558268328
+          - -1.1305698218
+          - -0.7755469501
+        - - -2.6300783461
+          - 0.6554058662
+          - 0.612765758
+        - - -2.92048554
+          - -0.9898360775
+          - 0.0455644241
+        - - -1.7859746291
+          - -0.6937228054
+          - 1.3683865178
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C5H10
+inchi: InChI=1S/C5H10/c1-3-5-4-2/h3,5H,4H2,1-2H3
+inchi_key: QMMOXUPEWRXHJS-UHFFFAOYSA-N
+index: 302
+label: (Z)-2-Pentene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 70.13290659858157
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.84
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -26.3
+      class: ThermoData
+smiles: CC=CCC
+symmetry_number: 9.0

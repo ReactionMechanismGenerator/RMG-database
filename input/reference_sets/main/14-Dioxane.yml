@@ -1,0 +1,128 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {4,S} {5,S}
+  2  O u0 p2 c0 {3,S} {6,S}
+  3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+  4  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+  5  C u0 p0 c0 {1,S} {6,S} {11,S} {12,S}
+  6  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -77.13435805832613
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0005439824
+          - -1.3783441679
+          - -0.2944760275
+        - - -1.162825346
+          - -0.7321381973
+          - 0.1955186276
+        - - -1.1633957143
+          - 0.7312665207
+          - -0.1955219038
+        - - -0.0005398046
+          - 1.3783441037
+          - 0.29447633249999994
+        - - 1.1628246091
+          - 0.7321355841
+          - -0.1955271671
+        - - 1.1633951802
+          - -0.7312638496
+          - 0.1955302756
+        - - -1.2038925754
+          - -0.82063055
+          - 1.2894626272
+        - - -2.0201071899
+          - -1.2501010872
+          - -0.23408365219999994
+        - - -1.2045619193
+          - 0.8197731549
+          - -1.2894644531999997
+        - - -2.021069715
+          - 1.2485590947999996
+          - 0.23411061369999994
+        - - 1.2038742263
+          - 0.8206116502
+          - -1.2894731812
+        - - 2.0201120342
+          - 1.2501061314
+          - 0.2340544442
+        - - 1.2045449693
+          - -0.8197543404999998
+          - 1.2894747829
+        - - 2.0210743732
+          - -1.2485638873
+          - -0.2340826151
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H8O2
+inchi: InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2
+inchi_key: RYHBNJHYFVUHQT-UHFFFAOYSA-N
+index: 350
+label: 1,4-Dioxane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 88.10512620856537
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -315.3
+      class: ThermoData
+smiles: C1COCCO1
+symmetry_number: 4.0

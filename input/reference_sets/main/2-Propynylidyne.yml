@@ -1,0 +1,69 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 4
+  1 C u0 p0 c0 {2,T} {3,S}
+  2 C u0 p0 c0 {1,T} {4,S}
+  3 C u3 p0 c0 {1,S}
+  4 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 171.46007481225226
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1447465854
+          - -0.0010524717
+          - 0.0
+        - - -0.09083695
+          - 0.0001698443
+          - 0.0
+        - - -1.4221981350999997
+          - 0.0002010303
+          - 0.0
+        - - 2.2097309984
+          - 0.0040895832
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H
+inchi: InChI=1S/C3H/c1-3-2/h1H
+inchi_key: WWDRUPNDOSDMRD-UHFFFAOYSA-N
+index: 117
+label: 2-Propynylidyne
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 37.040043346750195
+multiplicity: 4
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.81
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 722.29
+      class: ThermoData
+smiles: '[C]C#C'
+symmetry_number: 1.0

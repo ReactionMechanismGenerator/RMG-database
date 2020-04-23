@@ -1,0 +1,56 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {2,S}
+  2 H  u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -21.771692087305013
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0710595236
+        - - 0.0
+          - 0.0
+          - -1.2080119006
+      isotopes:
+      - 35
+      - 1
+      symbols:
+      - Cl
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: ClH
+inchi: InChI=1S/ClH/h1H
+inchi_key: VEXZGXHMUGYJMC-UHFFFAOYSA-N
+index: 7
+label: Hydrogen chloride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 36.46094226476616
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.006200000000000002
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -92.173
+      class: ThermoData
+smiles: Cl
+symmetry_number: 1.0

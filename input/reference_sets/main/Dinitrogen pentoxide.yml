@@ -1,0 +1,86 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {6,S} {7,S}
+  2 O u0 p3 c-1 {6,S}
+  3 O u0 p3 c-1 {7,S}
+  4 O u0 p2 c0 {6,D}
+  5 O u0 p2 c0 {7,D}
+  6 N u0 p0 c+1 {1,S} {2,S} {4,D}
+  7 N u0 p0 c+1 {1,S} {3,S} {5,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -1.9306731525213368
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1213546653
+          - -0.9789211101
+          - 0.733589161
+        - - 1.2162480436
+          - 0.0160538987
+          - 0.0986491089
+        - - 2.1273759881
+          - 0.5468304736
+          - -0.4349737908
+        - - 0.0010243956
+          - 0.8315921845
+          - -0.0041305651
+        - - -1.2162957890999995
+          - 0.0172598223
+          - -0.0989140083
+        - - -1.126073394
+          - -0.9778441305
+          - -0.7341848608
+        - - -2.1236398777
+          - 0.5491930766
+          - 0.4399318427
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - O
+      - N
+      - O
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: N2O5
+inchi: InChI=1S/N2O5/c3-1(4)7-2(5)6
+inchi_key: ZWWCURLKEXEFQT-UHFFFAOYSA-N
+index: 390
+label: Dinitrogen pentoxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 108.01048549640865
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.35000000000000026
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 14.84
+      class: ThermoData
+smiles: '[O-][N+](=O)O[N+](=O)[O-]'
+symmetry_number: 2.0

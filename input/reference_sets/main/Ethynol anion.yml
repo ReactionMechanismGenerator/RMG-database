@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u0 p2 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 C u1 p1 c-1 {2,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -9.957909553968074
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2527743045
+          - -0.118555733
+          - -0.0
+        - - 0.0071312074
+          - 0.0194558112
+          - 0.0
+        - - -1.2121321701
+          - 0.0142070554
+          - 0.0
+        - - 2.1376242891
+          - 0.4809430876999999
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+charge: -1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2O
+inchi: InChI=1S/C2O/c1-2-3/q-1
+inchi_key: BLDNDSGBHRVRNO-UHFFFAOYSA-N
+index: 119
+label: Ethynol anion
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 40.02080261436369
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.89
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -47.26
+      class: ThermoData
+smiles: '[C-]=C=O'
+symmetry_number: 1.0

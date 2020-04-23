@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {5,S}
+  2 F  u0 p3 c0 {5,S}
+  3 F  u0 p3 c0 {5,S}
+  4 F  u0 p3 c0 {5,S}
+  5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -172.04951757312944
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.347395845
+          - 1.15715e-05
+          - 6.60933e-05
+        - - 0.8087942708
+          - 1.1690164487
+          - 0.4273626978
+        - - 0.8080996402
+          - -0.2143234785
+          - -1.2262799169
+        - - 0.8087422732
+          - -0.9547886815
+          - 0.7985166065
+        - - -1.4067706309999997
+          - 4.65866e-05
+          - 0.00018876189999999995
+      isotopes:
+      - 12
+      - 19
+      - 19
+      - 19
+      - 35
+      symbols:
+      - C
+      - F
+      - F
+      - F
+      - Cl
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CClF3
+inchi: InChI=1S/CClF3/c2-1(3,4)5
+inchi_key: AFYPFACVUDMOHA-UHFFFAOYSA-N
+index: 269
+label: Chlorotrifluoromethane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 104.45891729446365
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.72
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -710.0
+      class: ThermoData
+smiles: FC(F)(F)Cl
+symmetry_number: 3.0

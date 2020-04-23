@@ -1,0 +1,116 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {5,S} {6,S}
+  2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  3  C u0 p0 c0 {2,S} {4,S} {5,D}
+  4  C u0 p0 c0 {3,S} {6,D} {10,S}
+  5  C u0 p0 c0 {1,S} {3,D} {11,S}
+  6  C u0 p0 c0 {1,S} {4,D} {12,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 17.6102005539348
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.4642792909
+          - -0.1941909343
+          - -2.8924e-06
+        - - 0.9743703277
+          - -0.0273650237
+          - 4.4199e-06
+        - - 0.07627780179999999
+          - -1.0510972077
+          - 3.5063e-06
+        - - -1.5434111741
+          - -0.4960050803
+          - -1.733e-06
+        - - -1.0381082848
+          - 1.1368424776
+          - -1.0772e-06
+        - - 0.3169602164
+          - 1.2404036539
+          - 1.9652e-06
+        - - 2.742269533
+          - -1.2473885989
+          - 0.0001246731
+        - - 2.9108844404
+          - 0.2729329389
+          - 0.8794691644
+        - - 2.9108505372
+          - 0.2727082289
+          - -0.8796123722
+        - - 0.2902753063
+          - -2.1083888822
+          - 6.5799e-06
+        - - -1.7646338304999998
+          - 1.9329101167
+          - -6.992e-07
+        - - 0.842256687
+          - 2.1857496868
+          - 4.852199999999999e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 32
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - S
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C5H6S
+inchi: InChI=1S/C5H6S/c1-5-2-3-6-4-5/h2-4H,1H3
+inchi_key: QENGPZGAWFQWCZ-UHFFFAOYSA-N
+index: 341
+label: 3-Methylthiophene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 98.16614917779829
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.92
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 82.59
+      class: ThermoData
+smiles: Cc1cscc1
+symmetry_number: 3.0

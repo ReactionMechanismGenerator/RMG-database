@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {3,S}
+  2 Cl u0 p3 c0 {4,S}
+  3 O  u0 p2 c0 {1,S} {4,S}
+  4 O  u0 p2 c0 {2,S} {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 30.289970190208983
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.6565274856999996
+          - -0.3810700097
+          - -0.0662056951
+        - - 0.5475642659
+          - 0.809779638
+          - 0.4256186799
+        - - -0.5475685844
+          - 0.8097667465999999
+          - -0.42562335179999994
+        - - -1.6565254535
+          - -0.38106946539999986
+          - 0.0662078936
+      isotopes:
+      - 35
+      - 16
+      - 16
+      - 35
+      symbols:
+      - Cl
+      - O
+      - O
+      - Cl
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: Cl2O2
+inchi: InChI=1S/Cl2O2/c1-3-4-2
+inchi_key: MAYPHUUCLRDEAZ-UHFFFAOYSA-N
+index: 205
+label: Chlorooxy hypochlorite
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 102.90480521427293
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.56
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 131.32
+      class: ThermoData
+smiles: ClOOCl
+symmetry_number: 1.0

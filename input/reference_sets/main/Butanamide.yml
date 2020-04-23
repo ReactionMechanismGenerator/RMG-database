@@ -1,0 +1,134 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {6,D}
+  2  N u0 p1 c0 {6,S} {14,S} {15,S}
+  3  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+  4  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+  5  C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+  6  C u0 p0 c0 {1,D} {2,S} {4,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {2,S}
+  15 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -70.75426879129554
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.9866897153
+          - 0.2166459128
+          - 0.8438442579
+        - - -1.5144001505
+          - -0.1474951114
+          - -0.5580213976
+        - - -0.151646205
+          - -0.8292433863
+          - -0.5512953806
+        - - 0.9564934637999998
+          - 0.1166801551
+          - -0.1216646788
+        - - 1.9916469241
+          - -0.46098156979999994
+          - 0.5474613142
+        - - 0.9384865519
+          - 1.304661557
+          - -0.3741412243
+        - - -1.2898228023
+          - 0.9083472264
+          - 1.3194855991999999
+        - - -2.9644792433
+          - 0.6981891379999999
+          - 0.8181476762
+        - - -2.0694447062
+          - -0.6716839065999999
+          - 1.4750916827
+        - - -1.4462716667
+          - 0.7511448134
+          - -1.1708166133
+        - - -2.2378527394
+          - -0.812938486
+          - -1.0353973362
+        - - -0.1644762549
+          - -1.7131930185
+          - 0.0929729428
+        - - 0.1076422719
+          - -1.1715576692
+          - -1.5573208135
+        - - 2.013105059
+          - -1.4435915736
+          - 0.7449345037
+        - - 2.7796348402
+          - 0.1113365873
+          - 0.7966261479
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - N
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H9NO
+inchi: InChI=1S/C4H9NO/c1-2-3-4(5)6/h2-3H2,1H3,(H2,5,6)
+inchi_key: DNSISZSEWVHGLH-UHFFFAOYSA-N
+index: 353
+label: Butanamide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 87.12040745227424
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.88
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -279.17
+      class: ThermoData
+smiles: CCCC(=O)N
+symmetry_number: 3.0

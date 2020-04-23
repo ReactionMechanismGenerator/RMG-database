@@ -1,0 +1,128 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  N u0 p1 c0 {4,S} {5,S} {14,S}
+  2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+  3  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+  4  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
+  5  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -3.642821829988738
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0017147906
+          - -1.1642739654
+          - -0.3573476634
+        - - -1.1531076213
+          - -0.4458551112
+          - 0.1742967955
+        - - -0.7754162686
+          - 1.0213633001
+          - -0.0582519668
+        - - 0.7720828253
+          - 1.0239744483
+          - -0.05743645259999999
+        - - 1.154661509
+          - -0.4423347979
+          - 0.1736747629
+        - - 0.0033039900999999997
+          - -2.1401529827
+          - -0.08982396159999999
+        - - -2.067510411
+          - -0.738727059
+          - -0.3416246049
+        - - -1.2947832732
+          - -0.6278356743
+          - 1.2510706929
+        - - -1.1564354375
+          - 1.3604821047999998
+          - -1.0207302905
+        - - -1.1951650046
+          - 1.6704995618
+          - 0.7093058136999999
+        - - 1.1887260502
+          - 1.6733843031
+          - 0.7115847558
+        - - 1.1530556331
+          - 1.3659017679
+          - -1.0189297537
+        - - 1.2979492503
+          - -0.6246258504999999
+          - 1.2501685631
+        - - 2.0695330013
+          - -0.731895449
+          - -0.34328640459999993
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H9N
+inchi: InChI=1S/C4H9N/c1-2-4-5-3-1/h5H,1-4H2
+inchi_key: RWRDLPDLKQPQOW-UHFFFAOYSA-N
+index: 299
+label: Pyrrolidine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 71.1210069874242
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.92
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -3.6
+      class: ThermoData
+smiles: C1CCCN1
+symmetry_number: 2.0

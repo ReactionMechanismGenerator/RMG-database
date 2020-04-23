@@ -1,0 +1,104 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {2,S} {3,D} {7,S}
+  2  C u0 p0 c0 {1,S} {4,D} {8,S}
+  3  C u0 p0 c0 {1,D} {6,S} {9,S}
+  4  C u0 p0 c0 {2,D} {5,S} {10,S}
+  5  C u0 p0 c0 {4,S} {6,T}
+  6  C u0 p0 c0 {3,S} {5,T}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 112.64095349850295
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.7011717252999999
+          - -1.0487884765
+          - 0.0
+        - - -1.45544043
+          - 0.1311546295
+          - 0.0
+        - - -0.618094957
+          - 1.2284270584
+          - 0.0
+        - - 0.618087528
+          - 1.2284178303
+          - 0.0
+        - - 1.4554441440999997
+          - 0.131154406
+          - 0.0
+        - - 0.7011750209
+          - -1.0487841112
+          - 0.0
+        - - -1.2219527697999997
+          - -1.9987508845999997
+          - 0.0
+        - - -2.5354902031
+          - 0.1339871747
+          - 0.0
+        - - 2.5354922367
+          - 0.1340198521
+          - 0.0
+        - - 1.2219532511
+          - -1.9987441611
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C6H4
+inchi: InChI=1S/C6H4/c1-2-4-6-5-3-1/h1-4H
+inchi_key: KLYCPFXDDDMZNQ-UHFFFAOYSA-N
+index: 323
+label: o-Benzyne
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 76.09596693845988
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.88
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 459.13
+      class: ThermoData
+smiles: C1#CC=CC=C1
+symmetry_number: 2.0

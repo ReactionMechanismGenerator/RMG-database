@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {4,S}
+  2 Cl u0 p3 c0 {4,S}
+  3 C  u0 p0 c0 {4,D} {5,S} {6,S}
+  4 C  u0 p0 c0 {1,S} {2,S} {3,D}
+  5 H  u0 p0 c0 {3,S}
+  6 H  u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.21917134779950592
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -7.7813e-06
+          - -1.7408225338
+          - 0.0
+        - - 7.714e-07
+          - -0.4222114168
+          - 0.0
+        - - -1.4474302951
+          - 0.5160802851
+          - 2.399999999999999e-09
+        - - 1.4474343238999996
+          - 0.5160737988
+          - 0.0
+        - - 0.9330494504
+          - -2.2842161322
+          - 0.0
+        - - -0.9330758807
+          - -2.2841995902
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 35
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - Cl
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H2Cl2
+inchi: InChI=1S/C2H2Cl2/c1-2(3)4/h1H2
+inchi_key: LGXVIGDEPROXKC-UHFFFAOYSA-N
+index: 217
+label: 1,1-Dichloroethene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 96.94328667904595
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.51
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 2.92
+      class: ThermoData
+smiles: C=C(Cl)Cl
+symmetry_number: 2.0

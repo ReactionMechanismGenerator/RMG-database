@@ -1,0 +1,69 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 35.81279235216254
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -2.3475999999999993e-06
+          - -5.6568099999999984e-05
+          - 0.0
+        - - -0.9473546937
+          - -0.5139237509
+          - 0.0
+        - - 0.0283042205
+          - 1.0771798891
+          - 0.0
+        - - 0.9190645586
+          - -0.5629167295
+          - 0.0
+      isotopes:
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3
+inchi: InChI=1S/CH3/h1H3
+inchi_key: WCYWZMWISLQXQU-UHFFFAOYSA-N
+index: 14
+label: Methyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 15.034521442196064
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.08
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 146.41400000000007
+      class: ThermoData
+smiles: '[CH3]'
+symmetry_number: 6.0

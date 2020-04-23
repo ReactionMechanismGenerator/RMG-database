@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  3 C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {3,S}
+  9 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -43.904520292791766
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1648399778
+          - -0.1963291348
+          - 8.82e-08
+        - - 3.92e-08
+          - 0.5932172011
+          - 1.658e-06
+        - - -1.1648400561999996
+          - -0.196329102
+          - 2.3e-07
+        - - 1.2130694207
+          - -0.8357967336
+          - 0.8898891369
+        - - 2.0191584334
+          - 0.4770980207999999
+          - -0.0002839333
+        - - 1.2127997654
+          - -0.836195296
+          - -0.8896163876
+        - - -1.2128438819
+          - -0.8361457991999999
+          - 0.8896500682
+        - - -1.2130249631999996
+          - -0.8358462888999998
+          - -0.8898555059
+        - - -2.0191586184
+          - 0.4770979087
+          - 0.0002014485
+      isotopes:
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H6O
+inchi: InChI=1S/C2H6O/c1-3-2/h1-2H3
+inchi_key: LCGLNKUTAGEVQW-UHFFFAOYSA-N
+index: 184
+label: Dimethyl ether
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 46.06844334924218
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.45
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -184.04
+      class: ThermoData
+smiles: COC
+symmetry_number: 18.0

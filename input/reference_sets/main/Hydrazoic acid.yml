@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {2,D} {4,S}
+  2 N u0 p0 c+1 {1,D} {3,D}
+  3 N u0 p2 c-1 {2,D}
+  4 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 65.86529685688048
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.117101151
+          - -0.1397533404
+          - 0.0
+        - - -0.1113990397
+          - 0.0172400302
+          - -0.0
+        - - -1.2298787004
+          - 0.012222854
+          - -0.0
+        - - 1.5692361236
+          - 0.7720331939
+          - -0.0
+      isotopes:
+      - 14
+      - 14
+      - 14
+      - 1
+      symbols:
+      - N
+      - N
+      - N
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: HN3
+inchi: InChI=1S/HN3/c1-3-2/h1H
+inchi_key: JUINSXZKUKVTMD-UHFFFAOYSA-N
+index: 130
+label: Hydrazoic acid
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 43.028164880717306
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.49
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 291.61
+      class: ThermoData
+smiles: '[N-]=[N+]=N'
+symmetry_number: 1.0

@@ -1,0 +1,116 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  Cl u0 p3 c0 {2,S}
+  2  C  u0 p0 c0 {1,S} {3,D} {7,S}
+  3  C  u0 p0 c0 {2,D} {4,S} {8,S}
+  4  C  u0 p0 c0 {3,S} {5,D} {9,S}
+  5  C  u0 p0 c0 {4,D} {6,S} {10,S}
+  6  C  u0 p0 c0 {5,S} {7,D} {11,S}
+  7  C  u0 p0 c0 {2,S} {6,D} {12,S}
+  8  H  u0 p0 c0 {3,S}
+  9  H  u0 p0 c0 {4,S}
+  10 H  u0 p0 c0 {5,S}
+  11 H  u0 p0 c0 {6,S}
+  12 H  u0 p0 c0 {7,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 9.806480541276828
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.2668120981
+          - -0.0038379933
+          - 7.42466e-05
+        - - 1.5735160414
+          - 1.1979629799999998
+          - 3.51527e-05
+        - - 0.18650814569999993
+          - 1.2082302857999998
+          - -4.17133e-05
+        - - -0.4942528507
+          - 0.0021701918
+          - -7.76064e-05
+        - - 0.1812711562
+          - -1.2068285873
+          - -4.23828e-05
+        - - 1.568300193
+          - -1.2026192372
+          - 3.42245e-05
+        - - -2.2337820036
+          - 0.005855751499999999
+          - -0.0001622425
+        - - 3.3488189883
+          - -0.0061956132
+          - 0.0001367427
+        - - 2.1125029686
+          - 2.1363555048
+          - 6.59694e-05
+        - - -0.3653477336
+          - 2.137498558
+          - -7.09971e-05
+        - - -0.3745955276
+          - -2.1337011167
+          - -7.21465e-05
+        - - 2.1031852515
+          - -2.1433582048
+          - 6.40521e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - Cl
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C6H5Cl
+inchi: InChI=1S/C6H5Cl/c7-6-4-2-1-3-5-6/h1-5H
+inchi_key: MVPPADPHJFYWMZ-UHFFFAOYSA-N
+index: 397
+label: Chlorobenzene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 112.55690920322606
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.61
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 52.17
+      class: ThermoData
+smiles: ClC1=CC=CC=C1
+symmetry_number: 2.0

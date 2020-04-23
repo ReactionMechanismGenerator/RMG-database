@@ -1,0 +1,93 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u0 p2 c0 {3,S} {8,S}
+  2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 C u1 p0 c0 {1,S} {2,S} {7,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -13.919158390780552
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2248984126
+          - -0.1626746116
+          - -0.0103364277
+        - - -0.0904753647
+          - 0.5039563032
+          - 0.0895778026
+        - - -1.1639869944
+          - -0.3403582148
+          - -0.018920111
+        - - 1.3889284994999997
+          - -0.6078849461
+          - -1.0013888908
+        - - 1.3080882721
+          - -0.9705261668
+          - 0.7205818659
+        - - 2.0262780743
+          - 0.5517076045
+          - 0.1735854344
+        - - -0.2397203108
+          - 1.5314199078
+          - -0.2209122346
+        - - -1.9782168674
+          - 0.1704591698
+          - 0.004046464
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H5O
+inchi: InChI=1S/C2H5O/c1-2-3/h2-3H,1H3
+inchi_key: GAWIXWVDTYZWAW-UHFFFAOYSA-N
+index: 175
+label: 1-Hydroxyethyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 45.060503226762435
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.65
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -55.43
+      class: ThermoData
+smiles: C[CH]O
+symmetry_number: 3.0

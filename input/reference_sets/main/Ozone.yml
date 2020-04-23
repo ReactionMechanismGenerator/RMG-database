@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p3 c-1 {2,S}
+  2 O u0 p1 c+1 {1,S} {3,D}
+  3 O u0 p2 c0 {2,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 42.5993459680457
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0616830383
+          - 0.0
+          - 0.21363297689999994
+        - - 0.0
+          - 0.0
+          - -0.4272659099
+        - - -1.0616830383
+          - -0.0
+          - 0.21363297689999994
+      isotopes:
+      - 16
+      - 16
+      - 16
+      symbols:
+      - O
+      - O
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: O3
+inchi: InChI=1S/O3/c1-3-2
+inchi_key: CBENFWSGALASAD-UHFFFAOYSA-N
+index: 96
+label: Ozone
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 47.99820139455017
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.039
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 141.734
+      class: ThermoData
+smiles: '[O-][O+]=O'
+symmetry_number: 1.0

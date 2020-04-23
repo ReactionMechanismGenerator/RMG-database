@@ -1,0 +1,69 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 3
+  1 O u0 p2 c0 {2,S} {4,S}
+  2 C u2 p0 c0 {1,S} {3,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 24.7798975805147
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.7040430080999999
+          - 0.2255010502
+          - 0.0
+        - - -0.5454750739
+          - -0.1551391827
+          - -0.0
+        - - 1.2483106628
+          - -0.7439862887999997
+          - -0.0
+        - - -1.1087681207
+          - 0.6320934495
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH2O
+inchi: InChI=1S/CH2O/c1-2/h1-2H
+inchi_key: UUOIGPDTLYBNGY-UHFFFAOYSA-N
+index: 60
+label: Hydroxymethylene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 30.02598178456637
+multiplicity: 3
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.28
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 108.93
+      class: ThermoData
+smiles: '[CH]O'
+symmetry_number: 1.0

@@ -1,0 +1,122 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {2,S} {13,S}
+  2  C u0 p0 c0 {1,S} {3,D} {4,S}
+  3  C u0 p0 c0 {2,D} {5,S} {8,S}
+  4  C u0 p0 c0 {2,S} {7,D} {12,S}
+  5  C u0 p0 c0 {3,S} {6,D} {9,S}
+  6  C u0 p0 c0 {5,D} {7,S} {10,S}
+  7  C u0 p0 c0 {4,D} {6,S} {11,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {5,S}
+  10 H u0 p0 c0 {6,S}
+  11 H u0 p0 c0 {7,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -24.181929251476685
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8462532072999995
+          - 0.0291754429
+          - 6.701e-07
+        - - 1.1240013283
+          - 1.2124123142
+          - -8.269999999999998e-08
+        - - -0.26341338
+          - 1.1912114243
+          - -8.763e-07
+        - - -0.9321934797
+          - -0.0257161683
+          - -6.144999999999999e-07
+        - - -0.2182050337
+          - -1.2170505364
+          - -4.6129999999999993e-07
+        - - 1.1659317156
+          - -1.1821886083
+          - 1.5449999999999993e-07
+        - - -2.2953762749
+          - -0.11097807709999997
+          - -7.582e-07
+        - - 2.9277263605
+          - 0.049120720999999985
+          - 1.6609999999999996e-06
+        - - 1.6403008579
+          - 2.1638362307
+          - -1.31e-07
+        - - -0.8264592181
+          - 2.1182583533
+          - -2.1885e-06
+        - - -0.7608159304
+          - -2.1528654961
+          - -4.88e-08
+        - - 1.7195227967999995
+          - -2.1124544816
+          - 8.433e-07
+        - - -2.6715108139
+          - 0.7748660786
+          - 1.31908e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C6H6O
+inchi: InChI=1S/C6H6O/c7-6-4-2-1-3-5-6/h1-5,7H
+inchi_key: ISWSIDIOOBJBQZ-UHFFFAOYSA-N
+index: 398
+label: Phenol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 94.11124764826945
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.68
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -93.12
+      class: ThermoData
+smiles: OC1=CC=CC=C1
+symmetry_number: 2.0

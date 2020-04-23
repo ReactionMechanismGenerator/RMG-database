@@ -1,0 +1,152 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  2  C u0 p0 c0 {4,S} {12,S} {13,S} {14,S}
+  3  C u0 p0 c0 {1,S} {5,S} {6,D}
+  4  C u0 p0 c0 {2,S} {5,D} {7,S}
+  5  C u0 p0 c0 {3,S} {4,D} {18,S}
+  6  C u0 p0 c0 {3,D} {8,S} {15,S}
+  7  C u0 p0 c0 {4,S} {8,D} {17,S}
+  8  C u0 p0 c0 {6,S} {7,D} {16,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {1,S}
+  11 H u0 p0 c0 {1,S}
+  12 H u0 p0 c0 {2,S}
+  13 H u0 p0 c0 {2,S}
+  14 H u0 p0 c0 {2,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {8,S}
+  17 H u0 p0 c0 {7,S}
+  18 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 2.691444557749412
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.5164881178
+          - -1.0255342859
+          - 0.0046053434
+        - - 1.2190699772999998
+          - -0.262684821
+          - -0.007173783599999998
+        - - 0.0028678584
+          - -0.9431758131
+          - 0.0010600373
+        - - -1.2129488004
+          - -0.273232206
+          - 0.0082717962
+        - - -2.5144116087
+          - -1.0290051403
+          - -0.005822140499999999
+        - - -1.2040259085999998
+          - 1.1203009245
+          - 0.0100755153
+        - - -0.0058050011
+          - 1.8127571418
+          - -0.0001913904
+        - - 1.2013800755
+          - 1.1253983903
+          - -0.009910331599999999
+        - - 2.5105722841
+          - -1.8241336388999998
+          - -0.7382937183999999
+        - - 2.6883813063
+          - -1.4874628497999998
+          - 0.9790622686
+        - - 3.360602937
+          - -0.3703749079
+          - -0.2076374233
+        - - 0.0068429641
+          - -2.0290240565
+          - 0.001822866
+        - - -3.2176701562
+          - -0.6150602998999998
+          - 0.7176902162
+        - - -2.362601856099999
+          - -2.0816623164
+          - 0.2310918568
+        - - -2.9864763277
+          - -0.9726645183
+          - -0.9889553938
+        - - -2.1428828653
+          - 1.662043951
+          - 0.0186450717
+        - - -0.008516841
+          - 2.8957738963999997
+          - -0.000399627
+        - - 2.136060294
+          - 1.6736195985999998
+          - -0.0185163933
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C8H10
+inchi: InChI=1S/C8H10/c1-7-4-3-5-8(2)6-7/h3-6H,1-2H3
+inchi_key: IVSZLXZYQVIEFR-UHFFFAOYSA-N
+index: 419
+label: meta-Xylene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 106.16500982285201
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.75
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 17.2
+      class: ThermoData
+smiles: CC1=CC=CC(C)=C1
+symmetry_number: 18.0

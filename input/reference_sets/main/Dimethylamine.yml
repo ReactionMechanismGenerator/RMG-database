@@ -1,0 +1,104 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  N u0 p1 c0 {2,S} {3,S} {10,S}
+  2  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  3  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+  4  H u0 p0 c0 {2,S}
+  5  H u0 p0 c0 {2,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -5.600253215761241
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2062871682999996
+          - -0.2236113867
+          - 0.0201415408
+        - - 3.6779999999999995e-07
+          - 0.5671221547
+          - -0.1484960502
+        - - -1.2062862461
+          - -0.2236122579
+          - 0.0201415628
+        - - 2.0839867187
+          - 0.4182630543
+          - -0.0495585481
+        - - 1.2464265781
+          - -0.7678049169
+          - 0.976064861
+        - - 1.2697315837
+          - -0.9612949681999999
+          - -0.7822465919
+        - - 2.1952e-06
+          - 1.3351451937999999
+          - 0.5092506405
+        - - -1.2698698062
+          - -0.9611221318
+          - -0.7823958418
+        - - -1.2463115367
+          - -0.7680058455
+          - 0.9759558008
+        - - -2.0839738406
+          - 0.4183063988999999
+          - -0.0492965906
+      isotopes:
+      - 12
+      - 14
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H7N
+inchi: InChI=1S/C2H7N/c1-3-2/h3H,1-2H3
+inchi_key: ROSDSFDQCJNGOL-UHFFFAOYSA-N
+index: 190
+label: Dimethylamine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 45.083724592951064
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.48
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -18.11
+      class: ThermoData
+smiles: CNC
+symmetry_number: 9.0

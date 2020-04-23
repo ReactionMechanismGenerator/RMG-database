@@ -1,0 +1,57 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 3
+  1 S u1 p2 c0 {2,S}
+  2 O u1 p2 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.22040282027767516
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4931962328999999
+        - - 0.0
+          - 0.0
+          - -0.9863924657999998
+      isotopes:
+      - 32
+      - 16
+      symbols:
+      - S
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: OS
+inchi: InChI=1S/OS/c1-2
+inchi_key: XTQHKBHJIVJGKJ-UHFFFAOYSA-N
+index: 28
+label: Sulfur monoxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 48.06440353398577
+multiplicity: 3
+reference_data:
+  Thermochemistry and Kinetics of Sulfur-Containing Molecules and Radicals:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.5
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 5.020000000000001
+      class: ThermoData
+smiles: '[S][O]'
+symmetry_number: 1.0

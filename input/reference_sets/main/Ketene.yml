@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p0 c0 {3,D} {4,S} {5,S}
+  3 C u0 p0 c0 {1,D} {2,D}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -13.635512537331842
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.2058575763
+        - - 0.0
+          - 0.0
+          - -0.1030918521
+        - - 0.0
+          - 0.0
+          - -1.2599815852999996
+        - - 0.9409077998
+          - 0.0
+          - 1.7316312005999996
+        - - -0.9409077998
+          - 1.805e-07
+          - 1.7316312005999996
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H2O
+inchi: InChI=1S/C2H2O/c1-2-3/h1H2
+inchi_key: CCGKOQOJPYTBIH-UHFFFAOYSA-N
+index: 141
+label: Ketene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 42.036682859323186
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.13
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -48.49
+      class: ThermoData
+smiles: C=C=O
+symmetry_number: 2.0

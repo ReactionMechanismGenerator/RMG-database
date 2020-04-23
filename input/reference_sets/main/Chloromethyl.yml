@@ -1,0 +1,69 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 Cl u0 p3 c0 {2,S}
+  2 C  u1 p0 c0 {1,S} {3,S} {4,S}
+  3 H  u0 p0 c0 {2,S}
+  4 H  u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 26.765146465442943
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.1097509256
+          - -0.0003277862
+          - 0.0
+        - - 0.5814008327
+          - 2.65173e-05
+          - 0.0
+        - - -1.6126530630999998
+          - 0.0007579607
+          - 0.9509743351
+        - - -1.6126530630999998
+          - 0.0007579607
+          - -0.9509743351
+      isotopes:
+      - 12
+      - 35
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH2Cl
+inchi: InChI=1S/CH2Cl/c1-2/h1H2
+inchi_key: WBLIXGSTEMXDSM-UHFFFAOYSA-N
+index: 68
+label: Chloromethyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 49.47958346200272
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.87
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 115.39
+      class: ThermoData
+smiles: '[CH2]Cl'
+symmetry_number: 2.0
