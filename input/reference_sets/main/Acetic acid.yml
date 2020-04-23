@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {4,S} {8,S}
+  2 O u0 p2 c0 {4,D}
+  3 C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 C u0 p0 c0 {1,S} {2,D} {3,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -103.6279617737807
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3895690603
+          - -0.1221765449
+          - -0.0001943063
+        - - -0.08861603109999998
+          - 0.1256460216
+          - -0.0005709929999999999
+        - - -0.6264273725
+          - 1.1997582044
+          - 8.17652e-05
+        - - 1.9168331797
+          - 0.8258487121999999
+          - -0.0183334905
+        - - 1.6637012846
+          - -0.6885271163
+          - 0.8894487011
+        - - 1.6608782773
+          - -0.7228323045
+          - -0.8676619223999997
+        - - -0.7887315821999998
+          - -1.030992069
+          - -0.00013228
+        - - -1.725859279
+          - -0.7854352348999998
+          - 0.0015426255999999995
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 16
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - O
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H4O2
+inchi: InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)
+inchi_key: QTBSBXVTEAMEQO-UHFFFAOYSA-N
+index: 223
+label: Acetic acid
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 60.05196356913274
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.52
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -432.63
+      class: ThermoData
+smiles: CC(=O)O
+symmetry_number: 3.0

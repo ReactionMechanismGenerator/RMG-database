@@ -1,0 +1,146 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {2,S} {17,S}
+  2  N u0 p1 c0 {1,S} {3,S} {4,S}
+  3  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+  4  C u0 p0 c0 {2,S} {6,S} {9,S} {10,S}
+  5  C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+  6  C u0 p0 c0 {4,S} {14,S} {15,S} {16,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {6,S}
+  17 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -30.99900832146235
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -5.87792e-05
+          - 1.3084436277
+          - -0.3752313951
+        - - 1.2567299999999999e-05
+          - 0.0056720559
+          - 0.2311024447
+        - - -1.2044347584
+          - -0.6625411434999999
+          - -0.2501645796
+        - - -2.4638129587999997
+          - -0.0384131539
+          - 0.3177834952
+        - - 1.2044707492
+          - -0.6624364128
+          - -0.2502854253
+        - - 2.4638280131999997
+          - -0.0384225598
+          - 0.31783355039999994
+        - - -4.39332e-05
+          - 1.9080464174
+          - 0.37722409879999996
+        - - -1.1252720994
+          - -1.7036644407
+          - 0.0694020133
+        - - -1.2298706155
+          - -0.649608582
+          - -1.3494693121
+        - - -3.3440074888
+          - -0.5873115056999999
+          - -0.0185796809
+        - - -2.5640678805
+          - 0.9949362769
+          - -0.011531488699999998
+        - - -2.4407092055
+          - -0.0567179481
+          - 1.4082522205
+        - - 1.1253197976
+          - -1.7036404216999996
+          - 0.0690221088
+        - - 1.2299148076999997
+          - -0.6492311355
+          - -1.3495845654
+        - - 3.3440716602
+          - -0.5869587172
+          - -0.0189925585
+        - - 2.5638363215
+          - 0.9951354337
+          - -0.0109052815
+        - - 2.4409046277
+          - -0.057359169899999986
+          - 1.4082942496
+      isotopes:
+      - 16
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - N
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H11NO
+inchi: InChI=1S/C4H11NO/c1-3-5(6)4-2/h6H,3-4H2,1-2H3
+inchi_key: FVCOIAYSJZGECG-UHFFFAOYSA-N
+index: 371
+label: Diethylhydroxylamine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 89.13628769723374
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.73
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -121.77
+      class: ThermoData
+smiles: CCN(CC)O
+symmetry_number: 9.0

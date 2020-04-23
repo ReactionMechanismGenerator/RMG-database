@@ -1,0 +1,110 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {2,S} {6,S}
+  2  N u0 p1 c0 {1,S} {4,D}
+  3  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+  4  C u0 p0 c0 {2,D} {3,S} {5,S}
+  5  C u0 p0 c0 {4,S} {6,D} {10,S}
+  6  C u0 p0 c0 {1,S} {5,D} {11,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 5.425038320478601
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1225843544
+          - 0.0257209877
+          - 3.22163e-05
+        - - 0.6318236956999999
+          - 0.0252371512
+          - -6.83459e-05
+        - - -0.025793686999999992
+          - -1.0992797029
+          - -5.2628e-05
+        - - -1.3699015444999998
+          - -0.7631426368
+          - 3.54649e-05
+        - - -1.4769771835
+          - 0.5685109247
+          - 3.35636e-05
+        - - -0.2567671654
+          - 1.1414225355
+          - -2.61737e-05
+        - - 2.5070682515
+          - 0.5422971978
+          - -0.8797030674
+        - - 2.5069067462
+          - 0.5382255936
+          - 0.8822315600999999
+        - - 2.4933119385
+          - -0.9968238463999999
+          - -0.0022403292
+        - - -2.4795866958999997
+          - 0.9622602712
+          - 5.10874e-05
+        - - -0.0119142821
+          - 2.1887902045
+          - -8.213689999999998e-05
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H5NO
+inchi: InChI=1S/C4H5NO/c1-4-2-3-6-5-4/h2-3H,1H3
+inchi_key: CUMCMYMKECWGHO-UHFFFAOYSA-N
+index: 334
+label: 3-Methylisoxazole
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 83.08864696235524
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.67
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 35.65
+      class: ThermoData
+smiles: Cc1ccon1
+symmetry_number: 3.0

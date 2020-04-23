@@ -1,0 +1,128 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {4,S} {10,S}
+  2  S u0 p2 c0 {5,S} {10,S}
+  3  S u0 p2 c0 {10,D}
+  4  C u0 p0 c0 {1,S} {5,D} {7,S}
+  5  C u0 p0 c0 {2,S} {4,D} {6,S}
+  6  C u0 p0 c0 {5,S} {8,D} {11,S}
+  7  C u0 p0 c0 {4,S} {9,D} {14,S}
+  8  C u0 p0 c0 {6,D} {9,S} {12,S}
+  9  C u0 p0 c0 {7,D} {8,S} {13,S}
+  10 C u0 p0 c0 {1,S} {2,S} {3,D}
+  11 H u0 p0 c0 {6,S}
+  12 H u0 p0 c0 {8,S}
+  13 H u0 p0 c0 {9,S}
+  14 H u0 p0 c0 {7,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 54.14389036556784
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 3.3058466177999994
+          - 1.28927e-05
+          - -9.3632e-06
+        - - 1.6769078702
+          - -2.37654e-05
+          - 5.053e-07
+        - - 0.7242206229
+          - 1.4542338981
+          - 5.7919e-06
+        - - -0.849641468
+          - 0.6960087731
+          - 5.2033e-06
+        - - -2.0490476223
+          - 1.3985138083999997
+          - 3.201e-07
+        - - -3.2412463453
+          - 0.6960356112
+          - -6.3588e-06
+        - - -3.2412590125
+          - -0.6960009216
+          - -7.442299999999999e-06
+        - - -2.0490676097
+          - -1.3984976395
+          - -9.926e-07
+        - - -0.8496527069999997
+          - -0.6960026778999998
+          - 5.0575e-06
+        - - 0.7241932067
+          - -1.454263176
+          - 6.8448e-06
+        - - -2.0465514423
+          - 2.4809579409
+          - -4.478e-07
+        - - -4.1784789647
+          - 1.235943412
+          - -1.23235e-05
+        - - -4.1785021676
+          - -1.2358928117
+          - -1.47524e-05
+        - - -2.0465932172
+          - -2.4809455091
+          - -2.6066e-06
+      isotopes:
+      - 32
+      - 12
+      - 32
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - S
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C7H4S3
+inchi: InChI=1S/C7H4S3/c8-7-9-5-3-1-2-4-6(5)10-7/h1-4H
+inchi_key: PTYIRFMMOVOESN-UHFFFAOYSA-N
+index: 425
+label: 1,3-Benzodithiole-2-thione
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 184.30167722062384
+multiplicity: 1
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.5
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 242.0
+      class: ThermoData
+smiles: S=c1sc2c(s1)cccc2
+symmetry_number: 2.0

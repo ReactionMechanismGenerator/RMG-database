@@ -1,0 +1,152 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {3,S} {18,S}
+  2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3  C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  4  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  5  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+  6  C u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {6,S}
+  17 H u0 p0 c0 {6,S}
+  18 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -32.83295049502483
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.8037669211
+          - -1.5176975877
+          - 0.2245786874
+        - - -0.794839241
+          - -0.0054230105
+          - 0.0109333768
+        - - -0.8687830344999998
+          - 0.7100482417
+          - 1.3584915527
+        - - -2.0019100301
+          - 0.39189929219999997
+          - -0.8429760706
+        - - 0.46027093009999986
+          - 0.4246691490999999
+          - -0.7622417099
+        - - 2.0683448379
+          - 0.0798647591
+          - 0.0122764108
+        - - -1.7380507954999995
+          - -1.8282450824999998
+          - 0.6964819934
+        - - 0.0160924792
+          - -1.8297390937
+          - 0.8730870412
+        - - -0.7151027091
+          - -2.0502175687
+          - -0.7262008337999999
+        - - -0.8906296848
+          - 1.7945095435999998
+          - 1.2234567884
+        - - -1.7756103915
+          - 0.4196334478
+          - 1.8929357895999996
+        - - -0.0102744512
+          - 0.4620970345
+          - 1.9834171242
+        - - -2.0162263872
+          - 1.4690115063999998
+          - -1.0257116595
+        - - -2.9325964678
+          - 0.1240426101
+          - -0.3389665311
+        - - -1.9844315760999998
+          - -0.1162599299
+          - -1.8099573856
+        - - 0.4498487091
+          - 1.5087286386
+          - -0.8955593419
+        - - 0.4559597231
+          - -0.0181046221
+          - -1.7591782915
+        - - 2.1016739253
+          - -1.2342691386999998
+          - -0.2429422852
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C5H12S
+inchi: InChI=1S/C5H12S/c1-5(2,3)4-6/h6H,4H2,1-3H3
+inchi_key: LSUXMVNABVPWMF-UHFFFAOYSA-N
+index: 387
+label: 2,2-Dimethyl-1-propanethiol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 104.21378991267679
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.88
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -128.7
+      class: ThermoData
+smiles: SCC(C)(C)C
+symmetry_number: 81.0

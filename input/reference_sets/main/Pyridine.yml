@@ -1,0 +1,110 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  N u0 p1 c0 {5,S} {6,D}
+  2  C u0 p0 c0 {3,D} {4,S} {8,S}
+  3  C u0 p0 c0 {2,D} {6,S} {7,S}
+  4  C u0 p0 c0 {2,S} {5,D} {9,S}
+  5  C u0 p0 c0 {1,S} {4,D} {10,S}
+  6  C u0 p0 c0 {1,D} {3,S} {11,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 29.564202408027807
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1361537965
+          - 0.7174562553
+          - 0.0
+        - - 0.0003060699
+          - 1.4105496613
+          - 0.0
+        - - -1.1358847961
+          - 0.7179315490999999
+          - 0.0
+        - - -1.1909674507
+          - -0.6682425851
+          - 0.0
+        - - -0.0002404796
+          - -1.3763166301999998
+          - 0.0
+        - - 1.1906662858
+          - -0.6687196832
+          - 0.0
+        - - 2.0502000583
+          - 1.3012369383
+          - 0.0
+        - - -2.0497836001
+          - 1.3018973899999997
+          - 0.0
+        - - -2.1465315387
+          - -1.1749646788
+          - 0.0
+        - - -0.0004389978
+          - -2.4589781091
+          - 0.0
+        - - 2.1460474534
+          - -1.1756926039
+          - 0.0
+      isotopes:
+      - 12
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C5H5N
+inchi: InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H
+inchi_key: JUJWROOIHBZHMG-UHFFFAOYSA-N
+index: 332
+label: Pyridine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 79.09994757226201
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.25
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 140.38
+      class: ThermoData
+smiles: c1cccnc1
+symmetry_number: 1.0

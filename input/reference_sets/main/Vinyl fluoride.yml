@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 F u0 p3 c0 {3,S}
+  2 C u0 p0 c0 {3,D} {4,S} {5,S}
+  3 C u0 p0 c0 {1,S} {2,D} {6,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -34.36289731828119
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1737675462
+          - -0.1999483017
+          - 0.0
+        - - 0.022297658
+          - 0.4345927723
+          - 0.0
+        - - -1.1522007194
+          - -0.2230002431
+          - 0.0
+        - - 1.2208179028
+          - -1.2797359262
+          - 0.0
+        - - 2.0893812915
+          - 0.3713646243
+          - 0.0
+        - - -0.1167839449
+          - 1.5075066665
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 19
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - F
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H3F
+inchi: InChI=1S/C2H3F/c1-2-3/h2H,1H2
+inchi_key: XUCNUKMRBVNAPB-UHFFFAOYSA-N
+index: 160
+label: Vinyl fluoride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 46.043627209426354
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.48
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -142.43
+      class: ThermoData
+smiles: C=CF
+symmetry_number: 1.0

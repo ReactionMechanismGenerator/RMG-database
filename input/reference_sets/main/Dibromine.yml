@@ -1,0 +1,56 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {2,S}
+  2 Br u0 p3 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 7.681895460341994
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.1396494891
+        - - 0.0
+          - 0.0
+          - -1.1396494891
+      isotopes:
+      - 79
+      - 79
+      symbols:
+      - Br
+      - Br
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: Br2
+inchi: InChI=1S/Br2/c1-2
+inchi_key: GDTBXPJZTBHREO-UHFFFAOYSA-N
+index: 41
+label: Dibromine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 159.80800833890962
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.12
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 30.89
+      class: ThermoData
+smiles: BrBr
+symmetry_number: 2.0

@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {3,S}
+  2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  4 H  u0 p0 c0 {2,S}
+  5 H  u0 p0 c0 {2,S}
+  6 H  u0 p0 c0 {2,S}
+  7 H  u0 p0 c0 {3,S}
+  8 H  u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -27.252577602211424
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.5995533099999995
+          - -0.3555850321
+          - 3.1364999999999995e-06
+        - - 0.477633466
+          - 0.6572447005999998
+          - 3.5394999999999993e-06
+        - - -1.1248875305
+          - -0.1511768975
+          - 4.36e-08
+        - - 2.5602066306999998
+          - 0.1632436729
+          - -0.0005045688
+        - - 1.549713741
+          - -0.9904246328
+          - 0.8836975314
+        - - 1.5491218371
+          - -0.9910277271
+          - -0.8832239414
+        - - 0.5004629098
+          - 1.2891426876
+          - 0.8839741768
+        - - 0.5004622444
+          - 1.2891152461
+          - -0.8839839945
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H5Cl
+inchi: InChI=1S/C2H5Cl/c1-2-3/h2H2,1H3
+inchi_key: HRYZWHHZPQKTII-UHFFFAOYSA-N
+index: 179
+label: Chloroethane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 64.51410490419879
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.2
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -111.38
+      class: ThermoData
+smiles: CCCl
+symmetry_number: 3.0

@@ -1,0 +1,81 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u1 p2 c0 {3,S}
+  2 C u0 p0 c0 {3,D} {4,S} {5,S}
+  3 C u0 p0 c0 {1,S} {2,D} {6,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 2.551789695180928
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1642700671999997
+          - -0.17089698109999998
+          - 0.0
+        - - -0.1348457551
+          - 0.4072983043999999
+          - 0.0
+        - - -1.1613977297
+          - -0.2659511201
+          - 0.0
+        - - 2.049845513
+          - 0.4485477608
+          - 0.0
+        - - 1.2601717781
+          - -1.2477531219
+          - 0.0
+        - - -0.1953813259
+          - 1.5084063814
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H3O
+inchi: InChI=1S/C2H3O/c1-2-3/h2H,1H2
+inchi_key: FATAVLOOLIRUNA-UHFFFAOYSA-N
+index: 156
+label: Vinoxy
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 43.04462298180294
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.77
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 15.58
+      class: ThermoData
+smiles: C=C[O]
+symmetry_number: 1.0

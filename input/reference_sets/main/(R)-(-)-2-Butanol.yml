@@ -1,0 +1,134 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {2,S} {15,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+  3  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+  4  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+  5  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {5,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {4,S}
+  15 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -69.79013618414393
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.7777698530999995
+          - 0.6798566149
+          - -0.0003000975
+        - - -0.4750007067
+          - -0.0309294297
+          - -0.323876803
+        - - -0.4698823181999999
+          - -1.3555231719999996
+          - 0.2110569821
+        - - 0.7287359612
+          - 0.6834089824
+          - 0.263771209
+        - - 2.0521871431
+          - 0.029767658899999994
+          - -0.10961711459999998
+        - - -1.906771242
+          - 0.752032088
+          - 1.0810546458
+        - - -2.6326502573
+          - 0.1391973589
+          - -0.412717985
+        - - -1.784774857
+          - 1.6863192208
+          - -0.4221275349999999
+        - - -0.3509077731
+          - -0.0832469638
+          - -1.4150671848
+        - - -1.2224848155
+          - -1.8348836396999997
+          - -0.1477136337
+        - - 0.6099318771999999
+          - 0.703594462
+          - 1.3513167596999998
+        - - 0.7097335322
+          - 1.7213998732
+          - -0.07932751649999999
+        - - 2.1882992632
+          - 0.0171294997
+          - -1.1935560063
+        - - 2.8935028006
+          - 0.5697440546
+          - 0.32571936999999995
+        - - 2.0862647498
+          - -0.9997235367
+          - 0.2441000652
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H10O
+inchi: InChI=1S/C4H10O/c1-3-4(2)5/h4-5H,3H2,1-2H3
+inchi_key: BTANRVKWQNVYAZ-UHFFFAOYSA-N
+index: 305
+label: (R)-(-)-2-Butanol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 74.12160598867482
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.3
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -292.7
+      class: ThermoData
+smiles: CCC(C)O
+symmetry_number: 4.5

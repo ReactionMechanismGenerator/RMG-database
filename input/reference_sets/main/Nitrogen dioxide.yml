@@ -1,0 +1,63 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u1 p2 c0 {3,S}
+  2 O u0 p2 c0 {3,D}
+  3 N u0 p1 c0 {1,S} {2,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 6.476242521756506
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.32061310579999996
+        - - -1.0919743092
+          - -0.0
+          - -0.1402682338
+        - - 1.0919743092
+          - 0.0
+          - -0.1402682338
+      isotopes:
+      - 14
+      - 16
+      - 16
+      symbols:
+      - N
+      - O
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: NO2
+inchi: InChI=1S/NO2/c2-1-3
+inchi_key: JCXJVPUVTGWSNB-UHFFFAOYSA-N
+index: 98
+label: Nitrogen dioxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 46.0055425157793
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.065
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 34.048
+      class: ThermoData
+smiles: '[O]N=O'
+symmetry_number: 1.0

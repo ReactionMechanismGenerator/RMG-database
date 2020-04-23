@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p3 c-1 {4,S}
+  2 O u0 p2 c0 {4,D}
+  3 O u0 p2 c0 {5,D}
+  4 N u0 p0 c+1 {1,S} {2,D} {5,S}
+  5 N u0 p1 c0 {3,D} {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 18.07191082458516
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.5695749504
+          - -1.2202544315
+          - 0.0
+        - - -0.6015885268
+          - -0.027324061499999996
+          - 0.0
+        - - 0.9921910594
+          - 0.7204268001999998
+          - 0.0
+        - - 1.7473649258
+          - -0.1231020162
+          - 0.0
+        - - -1.5195671914
+          - 0.7368915513
+          - 0.0
+      isotopes:
+      - 16
+      - 14
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - N
+      - O
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: N2O3
+inchi: InChI=1S/N2O3/c3-1-2(4)5
+inchi_key: LZDSILRDTDCIQT-UHFFFAOYSA-N
+index: 267
+label: Dinitrogen trioxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 76.01168456670852
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.0
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 86.63
+      class: ThermoData
+smiles: O=N[N+](=O)[O-]
+symmetry_number: 1.0

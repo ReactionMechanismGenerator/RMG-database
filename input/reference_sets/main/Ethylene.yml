@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 C u0 p0 c0 {1,D} {5,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 13.308627146487272
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6611885671999999
+          - -3.70562e-05
+          - -2.942e-07
+        - - -0.6612091649
+          - 6.9685e-06
+          - -1.5579999999999995e-06
+        - - 1.2285691770999998
+          - 0.9222315681
+          - 2.696e-07
+        - - 1.2285074693
+          - -0.9223436793999998
+          - 3.15e-07
+        - - -1.2285284461999997
+          - 0.9223133792
+          - -2.1144e-06
+        - - -1.2285894549
+          - -0.9222618795
+          - -2.1597e-06
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H4
+inchi: InChI=1S/C2H4/c1-2/h1-2H2
+inchi_key: VGGSQFUCUMXWEO-UHFFFAOYSA-N
+index: 83
+label: Ethylene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 28.053162639432628
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.12
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 52.39
+      class: ThermoData
+smiles: C=C
+symmetry_number: 4.0

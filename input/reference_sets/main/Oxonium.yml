@@ -1,0 +1,67 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p1 c+1 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 144.01526869373205
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 5.7996e-06
+          - 5.84926e-05
+          - -0.0755541902
+        - - -0.0355211666
+          - -0.9398575064
+          - 0.2013856593
+        - - 0.831957985
+          - 0.4389616179
+          - 0.2015288096
+        - - -0.7964832154
+          - 0.5004279478
+          - 0.201519053
+      isotopes:
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - H
+      - H
+      - H
+charge: 1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H3O
+inchi_key: XLYOFNOQVPJJNP-UHFFFAOYSA-O
+index: 17
+label: Oxonium
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 19.023220832289304
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.17
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 599.09
+      class: ThermoData
+smiles: '[OH3+]'
+symmetry_number: 3.0

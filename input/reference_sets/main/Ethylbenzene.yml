@@ -1,0 +1,152 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+  2  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+  3  C u0 p0 c0 {1,S} {4,D} {5,S}
+  4  C u0 p0 c0 {3,D} {6,S} {14,S}
+  5  C u0 p0 c0 {3,S} {8,D} {18,S}
+  6  C u0 p0 c0 {4,S} {7,D} {15,S}
+  7  C u0 p0 c0 {6,D} {8,S} {16,S}
+  8  C u0 p0 c0 {5,D} {7,S} {17,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {1,S}
+  11 H u0 p0 c0 {2,S}
+  12 H u0 p0 c0 {2,S}
+  13 H u0 p0 c0 {2,S}
+  14 H u0 p0 c0 {4,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+  17 H u0 p0 c0 {8,S}
+  18 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 5.41653606520492
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.3055194275
+          - 0.0075333942
+          - -0.2385289215
+        - - 1.6164615977
+          - 1.2027256107
+          - -0.09035397509999997
+        - - 0.2584182224
+          - 1.1921938767
+          - 0.1925436007
+        - - -0.4333398108
+          - -0.0071463837
+          - 0.3336670584
+        - - 0.2690998692
+          - -1.1988871501999998
+          - 0.183475421
+        - - 1.6272945034
+          - -1.1948161358
+          - -0.0997970291
+        - - -1.9176632106
+          - -0.0138135439
+          - 0.5921749765
+        - - -2.7243341699
+          - 0.0101429276
+          - -0.7069061589
+        - - 3.3656691517999997
+          - 0.013134692399999998
+          - -0.45710667269999994
+        - - 2.1387473963
+          - 2.1456289706
+          - -0.19237171
+        - - -0.2748941507
+          - 2.1291342867
+          - 0.31085444969999987
+        - - -0.255392696
+          - -2.1415307863
+          - 0.2950577381
+        - - 2.1581045652
+          - -2.1321595154
+          - -0.2091100226
+        - - -2.1818664462
+          - -0.9019743692
+          - 1.1703702581
+        - - -2.1837367399
+          - 0.8512357901
+          - 1.2038742237999995
+        - - -2.4891341976
+          - -0.8589866299
+          - -1.3232872576
+        - - -2.4896805854999995
+          - 0.9018251145999999
+          - -1.2901897555
+        - - -3.7965548708
+          - 0.0060968726999999995
+          - -0.5057410833
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C8H10
+inchi: InChI=1S/C8H10/c1-2-8-6-4-3-5-7-8/h3-7H,2H2,1H3
+inchi_key: YNQLUTRBYVCPMQ-UHFFFAOYSA-N
+index: 420
+label: Ethylbenzene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 106.16500982285201
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.55
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 29.72
+      class: ThermoData
+smiles: CCC1=CC=CC=C1
+symmetry_number: 6.0

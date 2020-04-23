@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 S u0 p2 c0 {3,D}
+  2 O u0 p2 c0 {3,D}
+  3 C u0 p0 c0 {1,D} {2,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -35.86341385344572
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 6.4e-09
+          - -1.6769167161999996
+        - - 0.0
+          - -1.49e-08
+          - -0.5257349885
+        - - 0.0
+          - 2.399999999999999e-09
+          - 1.0356089788
+      isotopes:
+      - 16
+      - 12
+      - 32
+      symbols:
+      - O
+      - C
+      - S
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: COS
+inchi: InChI=1S/COS/c2-1-3
+inchi_key: JJWKPURADFRFRB-UHFFFAOYSA-N
+index: 102
+label: Carbonoxidesulfide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 60.075104608742585
+multiplicity: 1
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.3
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -142.0
+      class: ThermoData
+smiles: O=C=S
+symmetry_number: 1.0

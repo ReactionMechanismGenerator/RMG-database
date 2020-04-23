@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4 C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {4,S}
+  8 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -107.91604009273034
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6807176922
+          - -0.3144593987
+          - 0.5105100396
+        - - 1.4385788776
+          - 0.1711587406
+          - -0.5449803379
+        - - -0.6807176922
+          - 0.3144593987
+          - 0.5105100396
+        - - -1.4385788776
+          - -0.1711587406
+          - -0.5449803379
+        - - 0.6043732326
+          - -1.3975097221
+          - 0.4008147922
+        - - 1.1997456648
+          - -0.0725661386
+          - 1.4409479524
+        - - -0.6043732326
+          - 1.3975097221
+          - 0.4008147922
+        - - -1.1997456648
+          - 0.0725661386
+          - 1.4409479524
+      isotopes:
+      - 12
+      - 19
+      - 12
+      - 19
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - F
+      - C
+      - F
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H4F2
+inchi: InChI=1S/C2H4F2/c3-1-2-4/h1-2H2
+inchi_key: AHFMSNDOYCFEPH-UHFFFAOYSA-N
+index: 226
+label: 1,2-Difluoroethane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 66.04997202437958
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.86
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -447.87
+      class: ThermoData
+smiles: FCCF
+symmetry_number: 2.0

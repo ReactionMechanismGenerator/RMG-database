@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 F u0 p3 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -55.899415212426746
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6349415293
+          - -1.7999999999999996e-08
+          - -2.7967e-05
+        - - -0.7519099532
+          - 2.68e-08
+          - -2.611299999999999e-06
+        - - 0.9858792446
+          - 0.8932867423999997
+          - -0.5153967786
+        - - 0.9857823266
+          - -0.00012160229999999997
+          - 1.0311953487
+        - - 0.9858788317
+          - -0.8931652728
+          - -0.5156072669
+      isotopes:
+      - 12
+      - 19
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - F
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3F
+inchi: InChI=1S/CH3F/c1-2/h1H3
+inchi_key: NBVXSUQYWXRMNV-UHFFFAOYSA-N
+index: 80
+label: Methyl fluoride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 34.03292613466954
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.24
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -235.47
+      class: ThermoData
+smiles: CF
+symmetry_number: 3.0

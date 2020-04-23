@@ -1,0 +1,69 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u1 p2 c0 {4,S}
+  2 O u0 p3 c-1 {4,S}
+  3 O u0 p2 c0 {4,D}
+  4 N u0 p0 c+1 {1,S} {2,S} {3,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 17.426727839460668
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6562271065
+          - -1.0171246451
+          - 0.0
+        - - -0.065232113
+          - -0.00011222659999999997
+          - 0.0
+        - - 0.6560025679
+          - 1.0173052856
+          - -0.0
+        - - -1.2551515756
+          - -8.24422e-05
+          - 0.0
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: NO3
+inchi: InChI=1S/NO3/c2-1(3)4
+inchi_key: YPJKMVATUPSWOH-UHFFFAOYSA-N
+index: 193
+label: Nitrooxidanyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 62.00494298062935
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.19
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 74.13
+      class: ThermoData
+smiles: '[O-][N+](=O)[O]'
+symmetry_number: 1.0

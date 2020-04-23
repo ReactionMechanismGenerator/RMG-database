@@ -1,0 +1,75 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 S u0 p2 c0 {2,S} {5,S}
+  2 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 35.502902632106284
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1285584801
+          - -0.0217105324
+          - -0.0001341992
+        - - -0.5774037449
+          - 0.0887582516
+          - 8.52863e-05
+        - - 1.6352127212
+          - -0.9708630549
+          - 0.0010073963
+        - - 1.6799504805
+          - 0.9034922582
+          - -0.0005060904
+        - - -0.8480541632999999
+          - -1.2224980339
+          - -0.0010606917
+      isotopes:
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3S
+inchi: InChI=1S/CH3S/c1-2/h2H,1H2
+inchi_key: YYOGAOHWUDJBLM-UHFFFAOYSA-N
+index: 79
+label: Mercaptomethyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 47.09952451133177
+multiplicity: 2
+reference_data:
+  Cioslowski:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.7
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 124.7
+      class: ThermoData
+smiles: '[CH2]S'
+symmetry_number: 2.0

@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {3,S}
+  2 Cl u0 p3 c0 {3,S}
+  3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4 H  u0 p0 c0 {3,S}
+  5 H  u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -23.68178548625991
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.7667745606
+        - - -1.4694777044999998
+          - 0.0
+          - -0.2162909099
+        - - 1.4694777044999998
+          - -3.01e-08
+          - -0.2162909099
+        - - 0.0
+          - -0.8945552606
+          - 1.3766205687
+        - - 9.28e-08
+          - 0.8945552606
+          - 1.3766205687
+      isotopes:
+      - 12
+      - 35
+      - 35
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - Cl
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH2Cl2
+inchi: InChI=1S/CH2Cl2/c2-1-3/h1H2
+inchi_key: YMWUJEATGCHHMB-UHFFFAOYSA-N
+index: 147
+label: Dichloromethane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 84.93258560428913
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.49
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -94.41
+      class: ThermoData
+smiles: ClCCl
+symmetry_number: 2.0

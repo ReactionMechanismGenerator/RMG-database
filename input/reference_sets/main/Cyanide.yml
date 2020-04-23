@@ -1,0 +1,56 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {2,T}
+  2 C u0 p1 c-1 {1,T}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 15.03183927141948
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.6290567936
+        - - 0.0
+          - 0.0
+          - -0.5391915374
+      isotopes:
+      - 12
+      - 14
+      symbols:
+      - C
+      - N
+charge: -1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CN
+inchi: InChI=1S/CN/c1-2/q-1
+inchi_key: XFXPMWWXUTWYJX-UHFFFAOYSA-N
+index: 24
+label: Cyanide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 26.017442660836
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.095
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 67.25
+      class: ThermoData
+smiles: '[C-]#N'
+symmetry_number: 1.0

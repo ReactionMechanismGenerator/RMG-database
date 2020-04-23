@@ -1,0 +1,86 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -13.395856384790324
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.730794103
+          - -0.3731647794
+          - -3.3909e-05
+        - - 4.6298e-06
+          - 0.8477473981
+          - 2.4399e-06
+        - - -0.7308422162
+          - -0.3731304686
+          - 1.41581e-05
+        - - 1.263924835
+          - -0.5909209253999999
+          - 0.9186874998
+        - - 1.2638641407
+          - -0.5909024179999999
+          - -0.9187949608
+        - - -1.263922741
+          - -0.5908615684
+          - 0.9187706675
+        - - -1.2639829419
+          - -0.5908431009999999
+          - -0.9187117593
+      isotopes:
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H4O
+inchi: InChI=1S/C2H4O/c1-2-3-1/h1-2H2
+inchi_key: IAYPIBMASNFSPL-UHFFFAOYSA-N
+index: 167
+label: Oxirane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 44.05256310428268
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.38
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -52.55000000000003
+      class: ThermoData
+smiles: C1CO1
+symmetry_number: 2.0

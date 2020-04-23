@@ -1,0 +1,57 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 C u1 p1 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 142.4722510716925
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.1600067534
+        - - 0.0
+          - 0.0
+          - -0.9600405206
+      isotopes:
+      - 12
+      - 1
+      symbols:
+      - C
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH
+inchi: InChI=1S/CH/h1H
+inchi_key: VRLIPUYDFBXWCH-UHFFFAOYSA-N
+index: 1
+label: Methylidyne
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 13.018641197236564
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.11
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 596.15
+      class: ThermoData
+smiles: '[CH]'
+symmetry_number: 1.0

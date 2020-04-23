@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {4,S}
+  2 O u0 p2 c0 {1,S} {5,S}
+  3 O u0 p2 c0 {4,D}
+  4 N u0 p1 c0 {1,S} {3,D}
+  5 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -4.563305080324728
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2773363026
+          - -0.4680932101999999
+          - 6.041e-07
+        - - 0.5288525832
+          - 0.7284056088
+          - -3.543e-07
+        - - -0.8214186070999999
+          - 0.540525219
+          - 1.0199999999999997e-07
+        - - -1.1587553327
+          - -0.5895700895
+          - 1.836e-07
+        - - 0.5704618252
+          - -1.1496150053
+          - -4.1811e-06
+      isotopes:
+      - 16
+      - 16
+      - 14
+      - 16
+      - 1
+      symbols:
+      - O
+      - O
+      - N
+      - O
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: HNO3
+inchi: InChI=1S/HNO3/c2-1-4-3/h3H
+inchi_key: CMFNMSMUKZHDEY-UHFFFAOYSA-N
+index: 209
+label: Peroxynitrous acid
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 63.0128831031091
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.36
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -14.540000000000003
+      class: ThermoData
+smiles: OON=O
+symmetry_number: 1.0

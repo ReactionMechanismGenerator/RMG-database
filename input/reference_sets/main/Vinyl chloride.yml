@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {3,S}
+  2 C  u0 p0 c0 {3,D} {4,S} {5,S}
+  3 C  u0 p0 c0 {1,S} {2,D} {6,S}
+  4 H  u0 p0 c0 {2,S}
+  5 H  u0 p0 c0 {2,S}
+  6 H  u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 4.944873485280085
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.6439583688
+          - -0.2753509623
+          - 0.0001073325
+        - - 0.5808290624
+          - 0.5032574209
+          - 8.133059999999998e-05
+        - - -1.0384770821
+          - -0.1129713541
+          - -0.00023561819999999998
+        - - 1.5624026012
+          - -1.3532475786
+          - -7.51781e-05
+        - - 2.6295582969
+          - 0.1695244937
+          - 0.000317871
+        - - 0.6217655595
+          - 1.5829640257999997
+          - 0.0002582839
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H3Cl
+inchi: InChI=1S/C2H3Cl/c1-2-3/h2H,1H2
+inchi_key: BZHJMEDXRYGGRV-UHFFFAOYSA-N
+index: 161
+label: Vinyl chloride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 62.49822465923929
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.31
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 21.86
+      class: ThermoData
+smiles: C=CCl
+symmetry_number: 1.0

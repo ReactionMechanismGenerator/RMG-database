@@ -1,0 +1,61 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p0 c+1 {2,T} {3,S}
+  2 N u0 p1 c0 {1,T}
+  3 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 244.8067724001363
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 8.366e-06
+          - 0.6474876662
+        - - -0.0
+          - -1.71117e-05
+          - -0.4368902749
+        - - 0.0
+          - 6.12203e-05
+          - -1.4741817387999998
+      isotopes:
+      - 14
+      - 14
+      - 1
+      symbols:
+      - N
+      - N
+      - H
+charge: 1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: HN2
+inchi_key: IJGRMHOSHXDMSA-UHFFFAOYSA-O
+index: 50
+label: Diazynium
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 29.02142329463812
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.68
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 1038.93
+      class: ThermoData
+smiles: N#[NH+]
+symmetry_number: 1.0

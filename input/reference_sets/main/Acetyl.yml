@@ -1,0 +1,81 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 C u1 p0 c0 {1,D} {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -3.4784267734293204
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1647236343
+          - -0.0982583775
+          - 1.8977e-06
+        - - -0.2472651951
+          - 0.4321836987
+          - 3.81e-06
+        - - -1.2538437061
+          - -0.174105128
+          - -8.602e-07
+        - - 1.6785343483
+          - 0.2895026399
+          - -0.8783372227
+        - - 1.1688260985
+          - -1.189918213
+          - 0.0001213027
+        - - 1.6786385671
+          - 0.2897046704
+          - 0.8781885551999999
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H3O
+inchi: InChI=1S/C2H3O/c1-2-3/h1H3
+inchi_key: TUCNEACPLKLKNU-UHFFFAOYSA-N
+index: 155
+label: Acetyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 43.04462298180294
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.36
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -10.03
+      class: ThermoData
+smiles: C[C]=O
+symmetry_number: 3.0

@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 N u0 p1 c0 {1,S} {5,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 19.861280888806007
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.7067970477
+          - 0.0733862933
+          - 0.09896328199999997
+        - - -0.7067999582
+          - 0.07349964579999999
+          - -0.09889382409999997
+        - - 1.1435156687
+          - 0.3227092799
+          - -0.7775707808
+        - - 1.0545635656
+          - -0.8366054922999999
+          - 0.3787645264
+        - - -1.0546094308
+          - -0.836214572
+          - -0.3796016385
+        - - -1.1434494302
+          - 0.3219092106
+          - 0.7779216875
+      isotopes:
+      - 14
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - N
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H4N2
+inchi: InChI=1S/H4N2/c1-2/h1-2H2
+inchi_key: OAKJQQAXSVQMHS-UHFFFAOYSA-N
+index: 90
+label: Hydrazine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 32.04524366207737
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.49
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 97.41
+      class: ThermoData
+smiles: NN
+symmetry_number: 2.0

@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 C u0 p0 c0 {2,S} {3,D} {4,S}
+  2 C u0 p0 c0 {1,S} {3,D} {5,S}
+  3 C u0 p0 c0 {1,D} {2,D}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 113.63841822773719
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6600636417
+          - 0.0
+          - 0.3203985317
+        - - 0.0
+          - 0.0
+          - -0.9270541690999998
+        - - -0.6600636417
+          - 2.27e-08
+          - 0.3203985317
+        - - 1.5928110351
+          - 0.0
+          - 0.8587709284
+        - - -1.5928110351
+          - -7.44e-08
+          - 0.8587709284
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H2
+inchi: InChI=1S/C3H2/c1-2-3-1/h1-2H
+inchi_key: VVLPCWSYZYKZKR-UHFFFAOYSA-N
+index: 139
+label: Cyclopropenylidene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 38.04798346922994
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.46
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 496.11
+      class: ThermoData
+smiles: C1=CC=1
+symmetry_number: 2.0

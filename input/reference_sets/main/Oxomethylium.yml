@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,D}
+  2 C u0 p0 c+1 {1,D} {3,S}
+  3 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 198.26007168678154
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -9.4905e-06
+          - 0.0
+          - 0.5137366825
+        - - 3.5531e-06
+          - 0.0
+          - -0.5866090001
+        - - 2.8518599999999995e-05
+          - 0.0
+          - 1.6104519057
+      isotopes:
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+charge: 1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CHO
+inchi: InChI=1S/CHO/c1-2/h1H/q+1
+inchi_key: XPRMKTHGXOVKEH-UHFFFAOYSA-N
+index: 42
+label: Oxomethylium
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 29.01804166208662
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.098
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 827.22
+      class: ThermoData
+smiles: '[CH+]=O'
+symmetry_number: 1.0

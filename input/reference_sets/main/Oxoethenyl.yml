@@ -1,0 +1,69 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u0 p2 c0 {3,D}
+  2 C u1 p0 c0 {3,D} {4,S}
+  3 C u0 p0 c0 {1,D} {2,D}
+  4 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 40.207348241485
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2556806851
+          - -0.1315074788
+          - 0.0
+        - - -0.0226417922
+          - 0.036177769
+          - 0.0
+        - - -1.1892079765999999
+          - 0.0081051622
+          - 0.0
+        - - 2.1154304553
+          - 0.5071369609
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2HO
+inchi: InChI=1S/C2HO/c1-2-3/h1H
+inchi_key: QEJQAPYSVNHDJF-UHFFFAOYSA-N
+index: 118
+label: Oxoethenyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 41.028742736843434
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.61
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 178.09
+      class: ThermoData
+smiles: '[CH]=C=O'
+symmetry_number: 1.0

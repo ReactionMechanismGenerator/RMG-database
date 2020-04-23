@@ -1,0 +1,134 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {3,S} {5,S}
+  2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+  3  C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+  4  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+  5  C u0 p0 c0 {1,S} {13,S} {14,S} {15,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -57.37073168280597
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.9770280044
+          - -0.7223124014
+          - -0.135842628
+        - - 1.3221841472
+          - 0.6026636666
+          - 0.23322283839999997
+        - - -0.10489924949999999
+          - 0.7068244276999999
+          - -0.2611389129
+        - - -0.8835961218
+          - -0.2932904222
+          - 0.3627583518
+        - - -2.2214482476
+          - -0.2701841236
+          - -0.0703724933
+        - - 1.4220562934999998
+          - -1.5571157445
+          - 0.2902567689
+        - - 2.0022058141
+          - -0.8547986892
+          - -1.2200519199
+        - - 3.0027355026999993
+          - -0.7714882655999998
+          - 0.2309634533
+        - - 1.3235242468
+          - 0.735236268
+          - 1.3180446639
+        - - 1.8887194339999995
+          - 1.4364567078
+          - -0.1896169141
+        - - -0.5223130513
+          - 1.6976312393
+          - -0.0339989316
+        - - -0.1401750859
+          - 0.5754331193
+          - -1.3535020961
+        - - -2.7524677206
+          - -1.0612556925
+          - 0.4548720994
+        - - -2.2942364801
+          - -0.4469795677999999
+          - -1.1505736161
+        - - -2.6984679053
+          - 0.6912545866
+          - 0.1563268528
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H10O
+inchi: InChI=1S/C4H10O/c1-3-4-5-2/h3-4H2,1-2H3
+inchi_key: VNKYTQGIUYNRMY-UHFFFAOYSA-N
+index: 307
+label: Methyl propyl ether
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 74.12160598867482
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.85
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -238.02
+      class: ThermoData
+smiles: CCCOC
+symmetry_number: 9.0

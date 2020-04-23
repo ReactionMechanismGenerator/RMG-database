@@ -1,0 +1,87 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+  2 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 28.93249350357088
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.69136801
+          - 0.0002671358
+          - -0.0021344628
+        - - 0.7909627042
+          - 4.424e-06
+          - -0.0162429431
+        - - -1.1018398216
+          - -0.8759110152
+          - -0.5069422397
+        - - -1.1014254411
+          - 0.8927532757
+          - -0.477301776
+        - - -1.0878929565
+          - -0.0176806527
+          - 1.0227712829
+        - - 1.3461972150999997
+          - -0.9248376857
+          - 0.0357647816
+        - - 1.3473928389
+          - 0.9240467193
+          - 0.0359723869
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H5
+inchi: InChI=1S/C2H5/c1-2/h1H2,2H3
+inchi_key: QUPDWYMUPZLYJZ-UHFFFAOYSA-N
+index: 92
+label: Ethyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 29.06110276191238
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.28
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 119.87
+      class: ThermoData
+smiles: C[CH2]
+symmetry_number: 6.0

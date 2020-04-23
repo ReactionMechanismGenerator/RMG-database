@@ -1,0 +1,86 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 C u0 p0 c0 {1,S} {3,D} {6,S}
+  3 C u0 p0 c0 {1,S} {2,D} {7,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 66.62187053162826
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.8609825738
+          - -1.88e-07
+          - 0.0
+        - - -0.4993370112
+          - 6.186e-07
+          - -0.6427291078
+        - - -0.4993370112
+          - 6.186e-07
+          - 0.6427291078
+        - - 1.4541080796
+          - 0.9116933010999999
+          - 0.0
+        - - 1.4541058414
+          - -0.9116952523
+          - 0.0
+        - - -1.0410348135
+          - -2.8447e-06
+          - -1.5702050332
+        - - -1.0410348135
+          - -2.8447e-06
+          - 1.5702050332
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H4
+inchi: InChI=1S/C3H4/c1-2-3-1/h1-2H,3H2
+inchi_key: OOXWYYGXTJLWHA-UHFFFAOYSA-N
+index: 165
+label: Cyclopropene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 40.06386371418944
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.55
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 283.61
+      class: ThermoData
+smiles: C1=CC1
+symmetry_number: 2.0

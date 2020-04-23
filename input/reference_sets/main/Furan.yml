@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {4,S} {5,S}
+  2 C u0 p0 c0 {3,S} {4,D} {6,S}
+  3 C u0 p0 c0 {2,S} {5,D} {7,S}
+  4 C u0 p0 c0 {1,S} {2,D} {8,S}
+  5 C u0 p0 c0 {1,S} {3,D} {9,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {4,S}
+  9 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -10.115030128658418
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0002689359
+          - -1.154637392
+          - -2.5e-09
+        - - -1.0888252423
+          - -0.3448967134
+          - 0.0
+        - - -0.7169224507
+          - 0.9532303875
+          - 0.0
+        - - 0.7164210419
+          - 0.9536294429
+          - 0.0
+        - - 1.0890230185
+          - -0.34440305499999996
+          - 0.0
+        - - -2.0433100034
+          - -0.8404612695
+          - 0.0
+        - - -1.3742862615
+          - 1.8056247681
+          - 0.0
+        - - 1.3735602202999997
+          - 1.8062528917
+          - 0.0
+        - - 2.0437063521
+          - -0.8396776267
+          - 0.0
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H4O
+inchi: InChI=1S/C4H4O/c1-2-4-5-3-1/h1-4H
+inchi_key: YLQBMQCUIZJEEH-UHFFFAOYSA-N
+index: 280
+label: Furan
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 68.07396525379632
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.4
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -34.7
+      class: ThermoData
+smiles: C1=COC=C1
+symmetry_number: 2.0

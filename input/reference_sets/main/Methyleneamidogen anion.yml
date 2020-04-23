@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p2 c-1 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 45.40645410499639
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4878159788
+        - - 0.0
+          - 0.0
+          - -0.749273603
+        - - 0.9273314686
+          - -0.0
+          - 1.1590086897
+        - - -0.9273314686
+          - 0.0
+          - 1.1590086897
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+charge: -1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH2N
+inchi: InChI=1S/CH2N/c1-2/h1H2/q-1
+inchi_key: BUKKEXYZFWWAOA-UHFFFAOYSA-N
+index: 65
+label: Methyleneamidogen anion
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 28.033322905795497
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.96
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 188.97
+      class: ThermoData
+smiles: '[N-]=C'
+symmetry_number: 2.0

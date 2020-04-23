@@ -1,0 +1,134 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {2,S} {5,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+  3  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+  4  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+  5  C u0 p0 c0 {1,S} {13,S} {14,S} {15,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -60.28051345460328
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.6199450506
+          - -1.4397367307999995
+          - -0.1019131657
+        - - -0.4189085102999999
+          - 0.00902891
+          - 0.3187984149
+        - - 0.690424339
+          - 0.6053674279
+          - -0.3411108541
+        - - 1.9418543593
+          - 0.1174362985
+          - 0.0805308607
+        - - -1.6253310986
+          - 0.8625619177
+          - -0.014545812299999999
+        - - -0.7699152097
+          - -1.4946623751999997
+          - -1.1819508428
+        - - 0.23294473909999996
+          - -2.0646107867
+          - 0.1624272388
+        - - -1.4995961506999995
+          - -1.8555780741
+          - 0.3915059735
+        - - -0.2348565805
+          - 0.04615445349999999
+          - 1.4032067535
+        - - 2.0380011785
+          - 0.1617847776
+          - 1.1726590288
+        - - 2.7026902173
+          - 0.7551401500999998
+          - -0.3651491477
+        - - 2.119202679
+          - -0.9130529852
+          - -0.24353500019999993
+        - - -2.5137563586
+          - 0.4857657051
+          - 0.4932807979
+        - - -1.8067484995
+          - 0.8453163592999998
+          - -1.090628477
+        - - -1.4573789253
+          - 1.8950609808
+          - 0.2898487223
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H10O
+inchi: InChI=1S/C4H10O/c1-4(2)5-3/h4H,1-3H3
+inchi_key: RMGHERXMTMUMMV-UHFFFAOYSA-N
+index: 306
+label: 2-Methoxypropane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 74.12160598867482
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.96
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -252.04
+      class: ThermoData
+smiles: COC(C)C
+symmetry_number: 27.0

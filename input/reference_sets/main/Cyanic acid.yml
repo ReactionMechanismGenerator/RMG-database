@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {3,S} {4,S}
+  2 N u0 p1 c0 {3,T}
+  3 C u0 p0 c0 {1,S} {2,T}
+  4 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -4.434796129383619
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1124777254
+          - 0.10948621359999998
+          - -0.0
+        - - -0.1821628158
+          - 0.0072068279
+          - 0.0
+        - - -1.332131963
+          - -0.021491239
+          - 0.0
+        - - 1.5180788334
+          - -0.7686920032
+          - 0.0
+      isotopes:
+      - 16
+      - 12
+      - 14
+      - 1
+      symbols:
+      - O
+      - C
+      - N
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CHNO
+inchi: InChI=1S/CHNO/c2-1-3/h3H
+inchi_key: XLJMAIOERFSOGZ-UHFFFAOYSA-N
+index: 127
+label: Cyanic acid
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 43.024783248165804
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.49
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -14.91
+      class: ThermoData
+smiles: OC#N
+symmetry_number: 1.0

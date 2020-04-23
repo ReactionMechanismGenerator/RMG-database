@@ -1,0 +1,116 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  F u0 p3 c0 {3,S}
+  2  F u0 p3 c0 {6,S}
+  3  C u0 p0 c0 {1,S} {4,D} {8,S}
+  4  C u0 p0 c0 {3,D} {5,S} {9,S}
+  5  C u0 p0 c0 {4,S} {6,D} {10,S}
+  6  C u0 p0 c0 {2,S} {5,D} {7,S}
+  7  C u0 p0 c0 {6,S} {8,D} {11,S}
+  8  C u0 p0 c0 {3,S} {7,D} {12,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {7,S}
+  12 H u0 p0 c0 {8,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -76.95742295850175
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.7073836416
+          - -1.141e-07
+          - 0.0
+        - - 1.3585328573
+          - 7.864e-07
+          - -5.0e-10
+        - - 0.693618004
+          - 1.2098355437999995
+          - 0.0
+        - - -0.6936184735
+          - 1.2098343177
+          - 0.0
+        - - -1.3585328573
+          - -7.864e-07
+          - -5.0e-10
+        - - -2.7073836416
+          - 1.141e-07
+          - -1.1299999999999997e-08
+        - - -0.693618004
+          - -1.2098355437999995
+          - 1.04e-08
+        - - 0.6936184735
+          - -1.2098343177
+          - -1.56e-08
+        - - 1.2582301709999997
+          - 2.1317280116
+          - 0.0
+        - - -1.2582355551
+          - 2.1317237464
+          - 0.0
+        - - -1.2582301709999997
+          - -2.1317280116
+          - 1.093e-07
+        - - 1.2582355551
+          - -2.1317237464
+          - -5.6e-08
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 12
+      - 12
+      - 19
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - F
+      - C
+      - C
+      - C
+      - C
+      - F
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C6H4F2
+inchi: InChI=1S/C6H4F2/c7-5-1-2-6(8)4-3-5/h1-4H
+inchi_key: QUGUFLJIAFISSW-UHFFFAOYSA-N
+index: 413
+label: 1,4-Difluorobenzene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 114.09277632340684
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.0
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -306.7
+      class: ThermoData
+smiles: FC1=CC=C(F)C=C1
+symmetry_number: 4.0

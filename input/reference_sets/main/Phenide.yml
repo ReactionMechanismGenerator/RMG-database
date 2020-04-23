@@ -1,0 +1,110 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {2,D} {3,S} {8,S}
+  2  C u0 p0 c0 {1,D} {4,S} {7,S}
+  3  C u0 p0 c0 {1,S} {5,D} {9,S}
+  4  C u0 p0 c0 {2,S} {6,D} {10,S}
+  5  C u0 p0 c0 {3,D} {6,S} {11,S}
+  6  C u0 p1 c-1 {4,D} {5,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 54.27764404263912
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1695986437
+          - -0.7496438262
+          - 0.0
+        - - 1.1917768719
+          - 0.6456804425
+          - 0.0
+        - - 9.590719999999998e-05
+          - 1.3622731018
+          - 0.0
+        - - -1.1916771449
+          - 0.6458410593
+          - 0.0
+        - - -1.1697120074
+          - -0.7494863042
+          - 0.0
+        - - -0.0001077826
+          - -1.541252139
+          - 0.0
+        - - 2.1441656327
+          - -1.2451496913
+          - 0.0
+        - - 2.1410308434
+          - 1.1804103276999995
+          - 0.0
+        - - 0.0001645544
+          - 2.4484165875
+          - 0.0
+        - - -2.1408576676
+          - 1.1806962417
+          - 0.0
+        - - -2.1443502904
+          - -1.244847471
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: -1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C6H5
+inchi: InChI=1S/C6H5/c1-2-4-6-5-3-1/h1-5H/q-1
+inchi_key: BJISZDCMBMQNIY-UHFFFAOYSA-N
+index: 331
+label: Phenide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 77.10390706093963
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.42
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 231.01
+      class: ThermoData
+smiles: '[C-]1=CC=CC=C1'
+symmetry_number: 1.0

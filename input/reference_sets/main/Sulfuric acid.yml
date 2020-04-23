@@ -1,0 +1,86 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 S u0 p0 c0 {2,S} {3,S} {4,D} {5,D}
+  2 O u0 p2 c0 {1,S} {6,S}
+  3 O u0 p2 c0 {1,S} {7,S}
+  4 O u0 p2 c0 {1,D}
+  5 O u0 p2 c0 {1,D}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -170.1176957419471
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.0391834876
+          - -0.6594088838
+          - 0.8390121014
+        - - -1.3565999999999999e-06
+          - 7.139699999999998e-06
+          - -0.1545256749
+        - - -0.6349436885
+          - 1.0777908912
+          - -0.8209723400999999
+        - - 1.0391924876
+          - 0.659335317
+          - 0.8390598479
+        - - 0.6349355501999999
+          - -1.0777197161
+          - -0.8210687021
+        - - -1.6980590674
+          - 0.0042020996
+          - 1.0920938034
+        - - 1.6980738799
+          - -0.0042972
+          - 1.0920697391
+      isotopes:
+      - 16
+      - 32
+      - 16
+      - 16
+      - 16
+      - 1
+      - 1
+      symbols:
+      - O
+      - S
+      - O
+      - O
+      - O
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H2O4S
+inchi: InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)
+inchi_key: QAOWNCQODCNURD-UHFFFAOYSA-N
+index: 276
+label: Sulfuric acid
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 98.07848517349544
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 2.0
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -732.73
+      class: ThermoData
+smiles: OS(=O)(=O)O
+symmetry_number: 2.0

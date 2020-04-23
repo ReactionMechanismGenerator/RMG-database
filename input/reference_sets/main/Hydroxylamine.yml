@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {5,S}
+  2 N u0 p1 c0 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -11.463205466702677
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.6829283214999998
+          - -1.50732e-05
+          - -0.1524625073
+        - - 0.7182161335
+          - 1.71124e-05
+          - 0.1399041009
+        - - -1.042798201
+          - -0.8113202521
+          - 0.3408828255
+        - - -1.0428018053
+          - 0.8113814083999998
+          - 0.340730028
+        - - 1.1203691891
+          - -9.25432e-05
+          - -0.7336081096
+      isotopes:
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - O
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H3NO
+inchi: InChI=1S/H3NO/c1-2/h2H,1H2
+inchi_key: AVXURJPOCDRRFD-UHFFFAOYSA-N
+index: 77
+label: Hydroxylamine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 33.029962418368484
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.5
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -43.62
+      class: ThermoData
+smiles: 'NO'
+symmetry_number: 1.0

@@ -1,0 +1,63 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 3
+  1 F u0 p3 c0 {2,S}
+  2 C u2 p0 c0 {1,S} {3,S}
+  3 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 34.068115093083804
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.698924052
+          - 0.1880695004
+          - -0.0
+        - - -0.589667521
+          - -0.0305172095
+          - -0.0
+        - - 1.1134633771
+          - -0.8537621163
+          - 0.0
+      isotopes:
+      - 12
+      - 19
+      - 1
+      symbols:
+      - C
+      - F
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CHF
+inchi: InChI=1S/CHF/c1-2/h1H
+inchi_key: YUCFVHQCAFKDQG-UHFFFAOYSA-N
+index: 52
+label: Fluoromethylene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 32.01704588971004
+multiplicity: 3
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.46
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 148.62
+      class: ThermoData
+smiles: '[CH]F'
+symmetry_number: 1.0

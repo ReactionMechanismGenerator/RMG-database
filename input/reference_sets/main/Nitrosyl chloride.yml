@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {3,S}
+  2 O  u0 p2 c0 {3,D}
+  3 N  u0 p1 c0 {1,S} {2,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 12.21193609501284
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0511932749
+          - -0.061539612199999996
+          - -0.0
+        - - -0.8002697321
+          - 0.5268089954
+          - 0.0
+        - - -1.5335496934999997
+          - -0.330186195
+          - -0.0
+      isotopes:
+      - 35
+      - 14
+      - 16
+      symbols:
+      - Cl
+      - N
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: ClNO
+inchi: InChI=1S/ClNO/c1-2-3
+inchi_key: VPCDQGACGWYTMC-UHFFFAOYSA-N
+index: 114
+label: Nitrosyl chloride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 65.45914419321565
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.067
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 52.548
+      class: ThermoData
+smiles: ClN=O
+symmetry_number: 1.0
