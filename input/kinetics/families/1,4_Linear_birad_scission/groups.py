@@ -12,6 +12,9 @@ template(reactants=["RJJ"], products=["ene1", "ene2"], ownReverse=False)
 reverse = "none"
 
 reversible = True
+
+only_forward = True
+
 recipe(actions=[
     ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*4', '1'],

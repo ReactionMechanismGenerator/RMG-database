@@ -12,6 +12,8 @@ template(reactants=["Rn"], products=["RnCyclic"], ownReverse=False)
 reverse = "Ring_Open_Endo_Cycli_Radical"
 reversible = True
 
+only_reverse = True
+
 recipe(actions=[
     ['CHANGE_BOND', '*2', -1, '*3'],
     ['FORM_BOND', '*1', 1, '*3'],
