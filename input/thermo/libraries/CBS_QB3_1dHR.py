@@ -1416,6 +1416,7 @@ u"""
 
 """,
 )
+
 entry(
     index = 43,
     label = "AIBN",
@@ -1501,3 +1502,134 @@ H      -1.97523500   -0.76020200   -2.27425500
 """,
 )
 
+entry(
+    index = 44,
+    label = "cyanoisopropanol",
+    molecule =
+"""
+1  O u0 p2 c0 {3,S} {13,S}
+2  N u0 p1 c0 {6,T}
+3  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+5  C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+6  C u0 p0 c0 {2,T} {3,S}
+7  H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79754,0.0147352,0.000192623,-5.4827e-07,4.60571e-10,-19420.9,11.4493], Tmin=(10,'K'), Tmax=(412.205,'K')),
+            NASAPolynomial(coeffs=[4.85937,0.039324,-2.38289e-05,7.15792e-09,-8.40604e-13,-19804.8,3.67184], Tmin=(412.205,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-161.473,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (295.164,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       apfd/def2svp
+Composite method: cbs-qb3 (using a fine grid)
+Frequencies:      b3lyp/cbsb7
+Rotor scans:      b3lyp/cbsb7
+
+Bond corrections: {'C-C': 3, 'C-O': 1, 'H-O': 1, 'C-H': 6, 'C#N': 1}
+1D rotors:
+pivots: [3, 4], dihedral: [2, 3, 4, 7], rotor symmetry: 1, max scan energy: 10.70 kJ/mol
+pivots: [3, 5], dihedral: [2, 3, 5, 8], rotor symmetry: 3, max scan energy: 13.43 kJ/mol
+pivots: [3, 6], dihedral: [2, 3, 6, 11], rotor symmetry: 3, max scan energy: 15.26 kJ/mol
+External symmetry: 1, optical isomers: 2
+Geometry:
+N       2.69543100   -0.50534800   -0.30861900
+C       1.58557500   -0.28306100   -0.08907000
+C       0.16684100    0.03430200    0.21585300
+O      -0.01210200    0.07564900    1.63158600
+C      -0.73435500   -1.09819800   -0.28440600
+C      -0.19705000    1.38368600   -0.42289800
+H       0.54749100    0.77324100    1.99119400
+H      -0.46419100   -2.03328100    0.20698100
+H      -0.64291800   -1.22204200   -1.36455100
+H      -1.76911100   -0.85644500   -0.03471800
+H      -0.08397900    1.35268200   -1.50870400
+H       0.44597900    2.17943400   -0.03786800
+H      -1.23392200    1.61949700   -0.17602200
+""",
+)
+
+entry(
+    index = 45,
+    label = "iC3H6CNOOj",
+    molecule =
+"""
+multiplicity 2
+1  O u1 p2 c0 {2,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  N u0 p1 c0 {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {5,S} {8,S}
+5  C u0 p0 c0 {4,S} {6,S} {7,S} {9,S}
+6  C u0 p0 c0 {5,S} {10,S} {11,S} {12,S}
+7  C u0 p0 c0 {5,S} {13,S} {14,S} {15,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.23955,0.070989,-0.00013614,2.04072e-07,-1.26422e-10,12645.1,13.1661], Tmin=(10,'K'), Tmax=(484.058,'K')),
+            NASAPolynomial(coeffs=[4.79649,0.0471034,-2.79754e-05,8.07154e-09,-9.04106e-13,12623.5,8.11794], Tmin=(484.058,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (105.105,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (340.893,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Calculated by A. Grinberg Dana using ARC 1.0.0
+
+Conformers:       b3lyp/cbsb7
+Composite method: cbs-qb3 (using a fine grid)
+Frequencies:      b3lyp/cbsb7
+Rotor scans:      b3lyp/cbsb7
+
+Bond corrections: {'C-H': 8, 'C=N': 1, 'N-O': 1, 'O-O': 1, 'C-C': 3}
+1D rotors:
+pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 15.30 kJ/mol
+pivots: [4, 5], dihedral: [3, 4, 5, 6], rotor symmetry: 1, max scan energy: 9.04 kJ/mol
+pivots: [5, 6], dihedral: [4, 5, 6, 10], rotor symmetry: 3, max scan energy: 12.85 kJ/mol
+pivots: [5, 7], dihedral: [4, 5, 7, 13], rotor symmetry: 3, max scan energy: 12.84 kJ/mol
+External symmetry: 1, optical isomers: 1
+Geometry:
+O       3.76750800   -1.08495000    0.07228300
+O       3.29849500    0.09149200   -0.07853000
+N       1.87795000    0.20716600   -0.71346100
+C       1.40646600   -0.92955000   -0.98492200
+C       0.04140100   -1.06310400   -1.60770400
+C       0.16380500   -1.73600200   -2.98607500
+C      -0.88261200   -1.85587200   -0.66674700
+H       1.98952900   -1.83182000   -0.76848600
+H      -0.36138300   -0.05507800   -1.73733100
+H       0.79951000   -1.15429200   -3.65731700
+H      -0.82313800   -1.82753300   -3.44671300
+H       0.58817800   -2.74102300   -2.89953800
+H      -1.87750400   -1.94831600   -1.10976800
+H      -0.98609200   -1.35883800    0.30037300
+H      -0.49787600   -2.86543300   -0.49235500
+""",
+)
