@@ -1,0 +1,57 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 3
+  1 S u1 p2 c0 {2,S}
+  2 S u1 p2 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 28.16871742870744
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.9410184307
+        - - 0.0
+          - 0.0
+          - -0.9410184307
+      isotopes:
+      - 32
+      - 32
+      symbols:
+      - S
+      - S
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: S2
+inchi: InChI=1S/S2/c1-2
+inchi_key: MAHNFPMIPQKPPI-UHFFFAOYSA-N
+index: 29
+label: Disulfur
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 64.13000613827143
+multiplicity: 3
+reference_data:
+  NIST Chemistry WebBook:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.3
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 128.6
+      class: ThermoData
+smiles: '[S][S]'
+symmetry_number: 2.0

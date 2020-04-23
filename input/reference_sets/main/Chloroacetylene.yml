@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {3,S}
+  2 C  u0 p0 c0 {3,T} {4,S}
+  3 C  u0 p0 c0 {1,S} {2,T}
+  4 H  u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 54.69046266229706
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 6.84e-08
+          - -2.15332e-05
+          - 1.8107265551999996
+        - - -3.5099999999999997e-08
+          - 8.99441e-05
+          - 0.6149468496
+        - - 5.999999999999998e-10
+          - -1.63184e-05
+          - -1.0251420719
+        - - -2.101e-07
+          - -0.0001330519
+          - 2.8733747944
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2HCl
+inchi: InChI=1S/C2HCl/c1-2-3/h1H
+inchi_key: DIWKDXFZXXCDLF-UHFFFAOYSA-N
+index: 133
+label: Chloroacetylene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 60.48234441427979
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.77
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 228.9
+      class: ThermoData
+smiles: C#CCl
+symmetry_number: 1.0

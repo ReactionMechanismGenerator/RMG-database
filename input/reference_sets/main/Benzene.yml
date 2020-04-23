@@ -1,0 +1,116 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  C u0 p0 c0 {2,D} {6,S} {7,S}
+  2  C u0 p0 c0 {1,D} {3,S} {8,S}
+  3  C u0 p0 c0 {2,S} {4,D} {9,S}
+  4  C u0 p0 c0 {3,D} {5,S} {10,S}
+  5  C u0 p0 c0 {4,S} {6,D} {11,S}
+  6  C u0 p0 c0 {1,S} {5,D} {12,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 18.211436735295685
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.1064983175
+          - -1.3840764259
+          - -0.0002512383
+        - - -1.1451514841
+          - -0.7842096748
+          - -0.0001692298
+        - - -1.2516380516999999
+          - 0.5995946759
+          - -0.0001016588
+        - - -0.10607586299999998
+          - 1.3834257734
+          - -0.0001163736
+        - - 1.1455739639
+          - 0.7835589097
+          - -0.00019842409999999998
+        - - 1.2520605776999996
+          - -0.6002452013
+          - -0.0002659351
+        - - 0.189398676
+          - -2.46360599
+          - -0.0003035641
+        - - -2.0381395669
+          - -1.3960832211
+          - -0.0001579315
+        - - -2.2276772117
+          - 1.067876463
+          - -3.7954699999999984e-05
+        - - -0.18897730899999998
+          - 2.4629553439999996
+          - -6.40404e-05
+        - - 2.0385622319
+          - 1.395432237
+          - -0.00020982679999999998
+        - - 2.2280990853
+          - -1.0685281768
+          - -0.0003295402
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C6H6
+inchi: InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H
+inchi_key: UHOVQNZJYSORNB-UHFFFAOYSA-N
+index: 337
+label: Benzene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 78.11184718341939
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.23
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 83.07000000000002
+      class: ThermoData
+smiles: C1=CC=CC=C1
+symmetry_number: 12.0

@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 S u0 p2 c0 {5,S} {6,S}
+  2 N u0 p1 c0 {4,S} {6,D}
+  3 N u0 p1 c0 {7,T}
+  4 C u0 p0 c0 {2,S} {5,D} {7,S}
+  5 C u0 p0 c0 {1,S} {4,D} {8,S}
+  6 C u0 p0 c0 {1,S} {2,D} {9,S}
+  7 C u0 p0 c0 {3,T} {4,S}
+  8 H u0 p0 c0 {5,S}
+  9 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 65.51754906592333
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 3.2226913741
+          - -0.1508237563
+          - 0.0
+        - - 2.0796656915
+          - -0.0439055976
+          - 0.0
+        - - 0.647573186
+          - 0.0456476067
+          - 0.0
+        - - -0.1780404517
+          - -1.038072169
+          - 0.0
+        - - -1.7961346259
+          - -0.5125940523
+          - 0.0
+        - - -1.2500289039999999
+          - 1.117304444
+          - 0.0
+        - - 0.0337600058
+          - 1.273016426
+          - 0.0
+        - - 0.0987523163
+          - -2.0787149326
+          - 0.0
+        - - -1.9507750913
+          - 1.9390253764
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 32
+      - 12
+      - 14
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - S
+      - C
+      - N
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H2N2S
+inchi: InChI=1S/C4H2N2S/c5-1-4-2-7-3-6-4/h2-3H
+inchi_key: PNAFRZGWUVQUKH-UHFFFAOYSA-N
+index: 392
+label: 4-Thiazolecarbonitrile
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 110.13717078528083
+multiplicity: 1
+reference_data:
+  CATCH:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.3
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 293.8
+      class: ThermoData
+smiles: c1scnc1C#N
+symmetry_number: 1.0

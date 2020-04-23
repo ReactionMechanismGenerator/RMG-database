@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {4,S}
+  3 O u0 p2 c0 {1,S} {4,S}
+  4 O u0 p2 c0 {2,S} {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 9.120339907458261
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.4289667344
+          - -0.1196461551
+          - 0.4738050093999999
+        - - 0.5048410806
+          - 0.3809935519
+          - -0.5330323139
+        - - -0.5048410806
+          - -0.3809935519
+          - -0.5330323139
+        - - -1.4289667344
+          - 0.1196461551
+          - 0.4738050093999999
+      isotopes:
+      - 19
+      - 16
+      - 16
+      - 19
+      symbols:
+      - F
+      - O
+      - O
+      - F
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: F2O2
+inchi: InChI=1S/F2O2/c1-3-4-2
+inchi_key: REAOZOPEJGPVCB-UHFFFAOYSA-N
+index: 199
+label: Difluorodioxidane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 69.99561031464705
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.41000000000000014
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 31.57
+      class: ThermoData
+smiles: FOOF
+symmetry_number: 1.0

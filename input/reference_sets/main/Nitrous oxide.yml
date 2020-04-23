@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,D}
+  2 N u0 p0 c+1 {1,D} {3,D}
+  3 N u0 p2 c-1 {2,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 17.484980807966846
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -3.74502e-05
+          - 1.1902010872
+        - - -0.0
+          - 7.27488e-05
+          - 0.0753845873
+        - - 0.0
+          - -3.08862e-05
+          - -1.1073874651
+      isotopes:
+      - 14
+      - 14
+      - 16
+      symbols:
+      - N
+      - N
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: N2O
+inchi: InChI=1S/N2O/c1-2-3
+inchi_key: GQPLMRYTRLFLPF-UHFFFAOYSA-N
+index: 101
+label: Nitrous oxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 44.01288363700843
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.097
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 82.562
+      class: ThermoData
+smiles: '[N-]=[N+]=O'
+symmetry_number: 1.0

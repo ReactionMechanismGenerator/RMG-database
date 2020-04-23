@@ -1,0 +1,63 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u1 p2 c0 {2,S}
+  2 O u0 p2 c0 {1,S} {3,S}
+  3 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.295775941641127
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.5935271057
+          - 0.1246549104
+          - -0.0
+        - - -0.7135491823
+          - -0.0273071381
+          - -0.0
+        - - 0.9601766126
+          - -0.7787821783
+          - 0.0
+      isotopes:
+      - 16
+      - 16
+      - 1
+      symbols:
+      - O
+      - O
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: HO2
+inchi: InChI=1S/HO2/c1-2/h1H
+inchi_key: OUUQCZGPVNCOIJ-UHFFFAOYSA-N
+index: 45
+label: Dioxidanyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 33.00674105217986
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.15
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 12.21
+      class: ThermoData
+smiles: '[O]O'
+symmetry_number: 1.0

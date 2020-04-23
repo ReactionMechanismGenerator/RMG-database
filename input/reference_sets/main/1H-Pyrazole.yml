@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {2,S} {3,S} {8,S}
+  2 N u0 p1 c0 {1,S} {5,D}
+  3 C u0 p0 c0 {1,S} {4,D} {6,S}
+  4 C u0 p0 c0 {3,D} {5,S} {7,S}
+  5 C u0 p0 c0 {2,D} {4,S} {9,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {4,S}
+  8 H u0 p0 c0 {1,S}
+  9 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 36.58344278855898
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0016069693
+          - 0.4081972343
+          - 0.0
+        - - -0.0816422995
+          - 1.1958683990999999
+          - 0.0
+        - - -1.101098832
+          - 0.3538269863
+          - 0.0
+        - - -0.6707622445999999
+          - -0.9884605951
+          - 0.0
+        - - 0.6992158683
+          - -0.9074206341
+          - 0.0
+        - - 1.9120220597
+          - 0.8312887837
+          - 0.0
+        - - -2.1082559096
+          - 0.7378142532
+          - 0.0
+        - - -1.2718651169999997
+          - -1.8803798759
+          - 0.0
+        - - 1.4642175285
+          - -1.664857137
+          - 0.0
+      isotopes:
+      - 14
+      - 14
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - N
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H4N2
+inchi: InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5)
+inchi_key: WTKZEGDFNFYCGP-UHFFFAOYSA-N
+index: 282
+label: 1H-Pyrazole
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 68.07734688634781
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 179.4
+      class: ThermoData
+smiles: c1ccn[nH]1
+symmetry_number: 1.0

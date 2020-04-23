@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {5,S}
+  2 F  u0 p3 c0 {5,S}
+  3 F  u0 p3 c0 {5,S}
+  4 F  u0 p3 c0 {5,S}
+  5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -157.59796583087243
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.8051441402
+          - 0.00010807919999999997
+          - -3.74584e-05
+        - - -1.2663389315
+          - -0.5057819793
+          - -1.1373701629
+        - - -1.2654998926
+          - -0.7327395187
+          - 1.006549406
+        - - -1.2675840216
+          - 1.237558173
+          - 0.1311269771
+        - - 1.1150191558
+          - 0.0002291843
+          - -7.23209e-05
+      isotopes:
+      - 12
+      - 19
+      - 19
+      - 19
+      - 79
+      symbols:
+      - C
+      - F
+      - F
+      - F
+      - Br
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CBrF3
+inchi: InChI=1S/CBrF3/c2-1(3,4)5
+inchi_key: RJCQBQGAPKAMLL-UHFFFAOYSA-N
+index: 273
+label: Bromotrifluoromethane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 148.90991932163203
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.51
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -651.4
+      class: ThermoData
+smiles: FC(F)(F)Br
+symmetry_number: 3.0

@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 O u0 p2 c0 {1,S} {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 5.324309635685996
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0874693878
+          - -0.0
+          - 0.2642897805
+        - - 0.0
+          - 0.0
+          - -0.5946520242
+        - - -1.0874693878
+          - 0.0
+          - 0.2642897805
+      isotopes:
+      - 19
+      - 16
+      - 19
+      symbols:
+      - F
+      - O
+      - F
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: F2O
+inchi: InChI=1S/F2O/c1-3-2
+inchi_key: UJMWVICAENGCRF-UHFFFAOYSA-N
+index: 110
+label: Oxygen difluoride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 53.996209849797005
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.24
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 24.55
+      class: ThermoData
+smiles: FOF
+symmetry_number: 2.0

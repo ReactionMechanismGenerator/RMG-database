@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {4,S}
+  2 Cl u0 p3 c0 {4,S}
+  3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+  5 H  u0 p0 c0 {3,S}
+  6 H  u0 p0 c0 {3,S}
+  7 H  u0 p0 c0 {3,S}
+  8 H  u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -33.30866606854011
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3335599999999998e-05
+          - 1.7290097818999999
+          - -0.1438230167
+        - - -3.509e-07
+          - 0.3347688137
+          - 0.4304273718
+        - - 1.4593887558
+          - -0.5566419253
+          - -0.0702764354
+        - - -1.4593962101
+          - -0.556629704
+          - -0.0702773686
+        - - -0.8885538918
+          - 2.2617293407
+          - 0.1931878594
+        - - 0.8883754896
+          - 2.2618499183
+          - 0.19353755859999996
+        - - 0.0002330225
+          - 1.6879549109
+          - -1.2318588088999998
+        - - -5.8045e-06
+          - 0.3314119541999999
+          - 1.5149219286
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 35
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - Cl
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H4Cl2
+inchi: InChI=1S/C2H4Cl2/c1-2(3)4/h2H,1H3
+inchi_key: SCYULBFZEHDVBN-UHFFFAOYSA-N
+index: 227
+label: 1,1-Dichloroethane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 98.95916692400544
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.51
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -132.54
+      class: ThermoData
+smiles: CC(Cl)Cl
+symmetry_number: 3.0

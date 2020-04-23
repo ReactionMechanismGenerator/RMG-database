@@ -1,0 +1,116 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {4,S} {5,S}
+  2  O u0 p2 c0 {6,D}
+  3  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+  4  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+  5  C u0 p0 c0 {1,S} {6,S} {11,S} {12,S}
+  6  C u0 p0 c0 {2,D} {3,S} {5,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -36.274079545962856
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.3498021994
+          - -0.278940515
+          - 0.025786031
+        - - 1.1647410448999995
+          - -0.0830582601
+          - 0.0102766945
+        - - 0.1401055428
+          - -1.1946340361
+          - -0.196711672
+        - - -1.4846236803
+          - -0.4958319436
+          - 0.168036454
+        - - -0.9261747121999999
+          - 1.171888756
+          - -0.3049362035
+        - - 0.5088153783
+          - 1.2754892829
+          - 0.1869458625
+        - - 0.2111051138
+          - -1.5371395529
+          - -1.2317371129
+        - - 0.3674312922999999
+          - -2.0332415268
+          - 0.4574979129
+        - - -0.9857147
+          - 1.2887546903
+          - -1.3876994674
+        - - -1.5903721275
+          - 1.8979313739
+          - 0.1572959543
+        - - 0.5274126711
+          - 1.4950253688
+          - 1.2581910522999997
+        - - 1.1007755171
+          - 2.0353904081
+          - -0.3218679398
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 32
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - S
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H6OS
+inchi: InChI=1S/C4H6OS/c5-4-1-2-6-3-4/h1-3H2
+inchi_key: DSXFPRKPFJRPIB-UHFFFAOYSA-N
+index: 344
+label: Dihydro-3-(2H)-thiophenone
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 102.15484856789152
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.97
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -135.27
+      class: ThermoData
+smiles: O=C1CSCC1
+symmetry_number: 1.0

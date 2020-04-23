@@ -1,0 +1,81 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 N u1 p1 c0 {2,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 40.1765386951047
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6258391663
+          - -0.0124440418
+          - 4.88052e-05
+        - - -0.7988418585
+          - 0.1529064409
+          - 2.10664e-05
+        - - 0.961010315
+          - -0.5817892712
+          - -0.8778619312999999
+        - - 1.1257181275
+          - 0.9548124857
+          - 0.0018531399
+        - - 0.9610689062
+          - -0.5853557602
+          - 0.8755690194
+        - - -1.2109393369
+          - -0.7833482894
+          - -5.237e-07
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH4N
+inchi: InChI=1S/CH4N/c1-2/h2H,1H3
+inchi_key: YKPQUSLRUFLVDA-UHFFFAOYSA-N
+index: 88
+label: Methylamidogen
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 30.049203150754995
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.49
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 176.56
+      class: ThermoData
+smiles: C[NH]
+symmetry_number: 3.0

@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {2,S}
+  2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 H  u0 p0 c0 {2,S}
+  4 H  u0 p0 c0 {2,S}
+  5 H  u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -8.488303627298361
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.5146576711
+          - -2.3588599999999993e-05
+          - -6.5298e-06
+        - - 0.4183098122
+          - 1.6231e-06
+          - 1.662e-06
+        - - -1.8509246323
+          - 0.5060914421
+          - -0.8974914721999999
+        - - -1.8510587596999994
+          - 0.5246584509
+          - 0.8867648905
+        - - -1.8509140069
+          - -1.0306651713
+          - 0.0107075912
+      isotopes:
+      - 12
+      - 79
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Br
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3Br
+inchi: InChI=1S/CH3Br/c1-2/h1H3
+inchi_key: GZUXJHMPEANEGY-UHFFFAOYSA-N
+index: 82
+label: Methyl bromide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 94.93852561165086
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.27
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -35.58
+      class: ThermoData
+smiles: CBr
+symmetry_number: 3.0

@@ -1,0 +1,104 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {4,S} {5,S}
+  2  O u0 p2 c0 {5,D}
+  3  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+  4  C u0 p0 c0 {1,S} {3,S} {6,D}
+  5  C u0 p0 c0 {1,S} {2,D} {3,S}
+  6  C u0 p0 c0 {4,D} {9,S} {10,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {6,S}
+  10 H u0 p0 c0 {6,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -48.81106021870497
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.2122937382
+          - -0.18626468559999995
+          - 0.0
+        - - 1.0463832848
+          - -0.005689606799999999
+          - 0.0
+        - - 0.053619757
+          - 1.1502014112
+          - 0.0
+        - - 0.0417392733
+          - -0.9643401546999999
+          - 0.0
+        - - -0.9524754296
+          - 0.0317174201
+          - 0.0
+        - - -2.2519301479
+          - -0.1554716414
+          - 0.0
+        - - 0.0897159318
+          - 1.7686373948
+          - -0.894022622
+        - - 0.0897159318
+          - 1.7686373948
+          - 0.894022622
+        - - -2.9164437683
+          - 0.6950545637999999
+          - 0.0
+        - - -2.6688376615999996
+          - -1.152034722
+          - 0.0
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C4H4O2
+inchi: InChI=1S/C4H4O2/c1-3-2-4(5)6-3/h1-2H2
+inchi_key: WASQWSOJHCZDFK-UHFFFAOYSA-N
+index: 324
+label: 4-Methylene-2-oxetanone
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 84.07336571864637
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.54
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -190.25
+      class: ThermoData
+smiles: C=C1CC(=O)O1
+symmetry_number: 2.0

@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {3,T}
+  2 N u0 p1 c0 {4,T}
+  3 C u0 p0 c0 {1,T} {4,S}
+  4 C u0 p0 c0 {2,T} {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 72.04229737180418
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 4.7576e-06
+          - 3.2685e-06
+          - 1.8417372893999997
+        - - -6.9985e-06
+          - -3.4812e-05
+          - 0.6942834234
+        - - -2.350399999999999e-06
+          - 6.46982e-05
+          - -0.6942834314
+        - - 3.2556999999999996e-06
+          - -2.8885199999999996e-05
+          - -1.8417372825
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 14
+      symbols:
+      - N
+      - C
+      - C
+      - N
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2N2
+inchi: InChI=1S/C2N2/c3-1-2-4
+inchi_key: JMANVNJQNLATNU-UHFFFAOYSA-N
+index: 194
+label: Cyanogen
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 52.034885321672
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.43
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 310.18
+      class: ThermoData
+smiles: N#CC#N
+symmetry_number: 2.0

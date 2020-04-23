@@ -1,0 +1,81 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 3
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 C u2 p0 c0 {1,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 84.27309883674903
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.8385305108
+          - 0.1462125936
+          - -1.4848e-06
+        - - -0.6128109178
+          - -0.025317939399999993
+          - 5.356199999999999e-06
+        - - 1.6891030999999999
+          - -0.5176296134
+          - 5.501309999999999e-05
+        - - -0.9596936486
+          - -0.5757807033
+          - -0.8835642332999998
+        - - -1.123504696
+          - 0.9404184531
+          - -0.001997899
+        - - -0.9602223135
+          - -0.5723760615
+          - 0.8854838909999999
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H4
+inchi: InChI=1S/C2H4/c1-2/h1H,2H3
+inchi_key: UUFQTNFCRMXOAE-UHFFFAOYSA-N
+index: 84
+label: Ethylidene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 28.053162639432628
+multiplicity: 3
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.91
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 354.3
+      class: ThermoData
+smiles: '[CH]C'
+symmetry_number: 3.0

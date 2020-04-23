@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 S u0 p2 c0 {2,S} {8,S}
+  2 S u0 p2 c0 {1,S} {3,S}
+  3 S u0 p2 c0 {2,S} {4,S}
+  4 S u0 p2 c0 {3,S} {5,S}
+  5 S u0 p2 c0 {4,S} {6,S}
+  6 S u0 p2 c0 {5,S} {7,S}
+  7 S u0 p2 c0 {6,S} {8,S}
+  8 S u0 p2 c0 {1,S} {7,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 11.599000500491352
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1860568416
+          - -0.8086952063
+          - 0.5019390409
+        - - 2.1201115103
+          - 0.9761449149
+          - -0.5019473414
+        - - 0.8086596935
+          - 2.1859886896
+          - 0.5020162627
+        - - -0.976105749
+          - 2.1200602739
+          - -0.5020078637
+        - - -2.1860568416
+          - 0.8086952063
+          - 0.5019390409
+        - - -2.1201115103
+          - -0.9761449149
+          - -0.5019473414
+        - - -0.8086596935
+          - -2.1859886896
+          - 0.5020162627
+        - - 0.976105749
+          - -2.1200602739
+          - -0.5020078637
+      isotopes:
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      symbols:
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: S8
+inchi: InChI=1S/S8/c1-2-4-6-8-7-5-3-1
+inchi_key: JLQNHALFVCURHW-UHFFFAOYSA-N
+index: 411
+label: Octasulfur
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 256.5200245530857
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.63
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 100.42
+      class: ThermoData
+smiles: S1SSSSSSS1
+symmetry_number: 16.0

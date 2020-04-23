@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 O u0 p2 c0 {1,S} {4,S}
+  3 O u0 p2 c0 {1,S} {5,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -21.204689567084166
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1284744044
+          - -0.2390582137
+          - 0.1170085728
+        - - 1.7959999999999998e-06
+          - 0.5963076374999999
+          - 4.8864e-06
+        - - -1.1284783819
+          - -0.2390520861
+          - -0.1170122461
+        - - 1.309704478
+          - -0.4727712566999999
+          - -0.8065646026999997
+        - - -1.3096870262999996
+          - -0.472807445
+          - 0.8065548972999997
+      isotopes:
+      - 16
+      - 16
+      - 16
+      - 1
+      - 1
+      symbols:
+      - O
+      - O
+      - O
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H2O3
+inchi: InChI=1S/H2O3/c1-3-2/h1-2H
+inchi_key: JSPLKZUTYZBBKA-UHFFFAOYSA-N
+index: 145
+label: Trioxidane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 50.01408163950967
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.72
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -90.55
+      class: ThermoData
+smiles: OOO
+symmetry_number: 2.0

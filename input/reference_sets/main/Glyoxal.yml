@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {3,D}
+  2 O u0 p2 c0 {4,D}
+  3 C u0 p0 c0 {1,D} {4,S} {5,S}
+  4 C u0 p0 c0 {2,D} {3,S} {6,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -51.343852457904
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.7134656016999996
+          - -0.1710442007
+          - 0.0
+        - - 0.6547465874
+          - 0.3904911309
+          - -0.0
+        - - -0.6547484879
+          - -0.39049640979999994
+          - 0.0
+        - - -1.7134625261
+          - 0.1710489365
+          - -0.0
+        - - 0.5441106155
+          - 1.4897644593999997
+          - -0.0
+        - - -0.5441238176
+          - -1.4897706727
+          - 0.0
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - O
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H2O2
+inchi: InChI=1S/C2H2O2/c3-1-2-4/h1-2H
+inchi_key: LEQAOMBKQFMDFZ-UHFFFAOYSA-N
+index: 214
+label: Glyoxal
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 58.03608332417324
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.52
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -212.55
+      class: ThermoData
+smiles: O=CC=O
+symmetry_number: 2.0

@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {2,S} {5,S} {6,S}
+  2 C u0 p0 c+1 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 176.75846850070795
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.6721138574
+        - - 0.0
+          - 0.0
+          - -0.5977604391
+        - - 0.9421579054
+          - 0.0
+          - 1.2078466246999997
+        - - -0.9421579054
+          - -4.59e-08
+          - 1.2078466246999997
+        - - -0.8654154089
+          - 0.0
+          - -1.1320265498
+        - - 0.8654154089
+          - -6.05e-08
+          - -1.1320265498
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+charge: 1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH4N
+inchi: InChI=1S/CH4N/c1-2/h1-2H2/q+1
+inchi_key: LEOYJZAFSUBIBE-UHFFFAOYSA-N
+index: 87
+label: Aminomethylium
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 30.049203150754995
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.66
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 751.58
+      class: ThermoData
+smiles: N[CH2+]
+symmetry_number: 1.0

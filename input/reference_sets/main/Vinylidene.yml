@@ -1,0 +1,69 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 3
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 C u2 p0 c0 {1,D}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 96.11494338274596
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.813925504
+          - -2.2279e-06
+          - -0.0
+        - - -0.4747776329
+          - -4.652e-07
+          - 0.0
+        - - -1.0174298056
+          - 0.9413378278999999
+          - -0.0
+        - - -1.0174574215
+          - -0.9413216692
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H2
+inchi: InChI=1S/C2H2/c1-2/h1H2
+inchi_key: SNVLJLYUUXKWOJ-UHFFFAOYSA-N
+index: 58
+label: Vinylidene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 26.037282394473127
+multiplicity: 3
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.33
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 412.17
+      class: ThermoData
+smiles: '[C]=C'
+symmetry_number: 2.0

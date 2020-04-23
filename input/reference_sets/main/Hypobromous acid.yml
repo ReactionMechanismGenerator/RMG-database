@@ -1,0 +1,62 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {2,S}
+  2 O  u0 p2 c0 {1,S} {3,S}
+  3 H  u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -14.000387668492253
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.4344131043
+          - 0.1168029455
+          - -0.0
+        - - -0.3774286269
+          - -0.0037956674999999993
+          - 0.0
+        - - 1.7346971072
+          - -0.8015752001
+          - 0.0
+      isotopes:
+      - 16
+      - 79
+      - 1
+      symbols:
+      - O
+      - Br
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: BrHO
+inchi: InChI=1S/BrHO/c1-2/h2H
+inchi_key: CUILPNURFADTPE-UHFFFAOYSA-N
+index: 56
+label: Hypobromous acid
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 96.91134475678462
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.59
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -62.18
+      class: ThermoData
+smiles: OBr
+symmetry_number: 1.0

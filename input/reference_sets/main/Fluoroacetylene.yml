@@ -1,0 +1,68 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 F u0 p3 c0 {3,S}
+  2 C u0 p0 c0 {3,T} {4,S}
+  3 C u0 p0 c0 {1,S} {2,T}
+  4 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 24.61784085579195
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -2.3409999999999996e-07
+          - 1.0176e-05
+          - 1.2865480938999998
+        - - 4.519999999999999e-08
+          - -2.99339e-05
+          - 0.09581859409999999
+        - - 2.7699999999999997e-08
+          - 1.06908e-05
+          - -1.1824789093
+        - - 8.839e-07
+          - 2.23298e-05
+          - 2.348110056
+      isotopes:
+      - 12
+      - 12
+      - 19
+      - 1
+      symbols:
+      - C
+      - C
+      - F
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2HF
+inchi: InChI=1S/C2HF/c1-2-3/h1H
+inchi_key: IAWCIZWLKMTPLL-UHFFFAOYSA-N
+index: 131
+label: Fluoroacetylene
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 44.02774696446686
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.41000000000000014
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 105.60000000000007
+      class: ThermoData
+smiles: C#CF
+symmetry_number: 1.0

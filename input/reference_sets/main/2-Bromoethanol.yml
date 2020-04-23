@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {4,S}
+  2 O  u0 p2 c0 {3,S} {9,S}
+  3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  4 C  u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+  5 H  u0 p0 c0 {3,S}
+  6 H  u0 p0 c0 {3,S}
+  7 H  u0 p0 c0 {4,S}
+  8 H  u0 p0 c0 {4,S}
+  9 H  u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -51.75605703275877
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0487995205
+          - -0.1274613679
+          - 0.0288252406
+        - - -0.5125438942
+          - 0.996955494
+          - -0.2883590581
+        - - -1.7378754482
+          - 0.3888746243
+          - 0.3557030087
+        - - -2.097320431
+          - -0.8499596433
+          - -0.2132315888
+        - - -0.6223093959
+          - 1.0648990581
+          - -1.3668353149
+        - - -0.2807208144
+          - 1.9715567481999996
+          - 0.1315913591
+        - - -2.581189936
+          - 1.0610952328
+          - 0.18417727629999994
+        - - -1.5853596939
+          - 0.30545361079999994
+          - 1.4368924061
+        - - -1.3573238748
+          - -1.4571603363999996
+          - -0.0929201411
+      isotopes:
+      - 79
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - Br
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H5BrO
+inchi: InChI=1S/C2H5BrO/c3-1-2-4/h4H,1-2H2
+inchi_key: LDLCZOVUSADOIV-UHFFFAOYSA-N
+index: 233
+label: 2-Bromoethanol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 124.96450739621724
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.5700000000000003
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -220.63
+      class: ThermoData
+smiles: OCCBr
+symmetry_number: 1.0

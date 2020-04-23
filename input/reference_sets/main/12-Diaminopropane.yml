@@ -1,0 +1,134 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  N u0 p1 c0 {3,S} {14,S} {15,S}
+  2  N u0 p1 c0 {4,S} {12,S} {13,S}
+  3  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+  5  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  6  H u0 p0 c0 {3,S}
+  7  H u0 p0 c0 {4,S}
+  8  H u0 p0 c0 {4,S}
+  9  H u0 p0 c0 {5,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {2,S}
+  13 H u0 p0 c0 {2,S}
+  14 H u0 p0 c0 {1,S}
+  15 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -16.630023115617977
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.7554942625999999
+          - -0.7121159322
+          - 0.0029469221
+        - - -0.4735146472
+          - 0.0354249931
+          - -0.3227332726
+        - - -0.528884957
+          - 1.3823072000999999
+          - 0.2357865975
+        - - 0.7358824406
+          - -0.674023568
+          - 0.2678371726
+        - - 1.9684234785
+          - 0.0188621471
+          - -0.10993071629999998
+        - - -1.8834097277
+          - -0.7804687339
+          - 1.0848081683
+        - - -1.7407898837999995
+          - -1.7195340507
+          - -0.4171134453
+        - - -2.623291070199999
+          - -0.1907572704
+          - -0.4046425569
+        - - -0.344081471
+          - 0.0433000438
+          - -1.4186156688
+        - - -1.2214941247
+          - 1.9462093823
+          - -0.2406129291
+        - - 0.3748256072
+          - 1.8268870093
+          - 0.11757312749999997
+        - - 0.6459091022
+          - -0.6391316284999999
+          - 1.3561570875
+        - - 0.7163413834
+          - -1.7280683945
+          - -0.037334742
+        - - 2.2116709215
+          - -0.1828772901
+          - -1.0724133984
+        - - 2.746308428
+          - -0.279457455
+          - 0.4628982558999999
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H10N2
+inchi: InChI=1S/C3H10N2/c1-3(5)2-4/h3H,2,4-5H2,1H3
+inchi_key: AOHJOMMDDJHIJH-UHFFFAOYSA-N
+index: 308
+label: 1,2-Diaminopropane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 74.12498762122631
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.46
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -53.68
+      class: ThermoData
+smiles: NCC(N)C
+symmetry_number: 1.5

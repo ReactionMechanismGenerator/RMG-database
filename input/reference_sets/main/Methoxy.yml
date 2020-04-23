@@ -1,0 +1,75 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u1 p2 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 2.764983986261876
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.5739933176
+          - -1.14398e-05
+          - -0.0133677092
+        - - 0.7894550931
+          - -5.3756e-06
+          - -0.0072625702
+        - - -1.0010866888
+          - -0.9074666012999999
+          - -0.45632584589999997
+        - - -0.8695627643
+          - 0.0004269137
+          - 1.0516133539
+        - - -1.0010313862
+          - 0.9071513312
+          - -0.4569806914
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3O
+inchi: InChI=1S/CH3O/c1-2/h1H3
+inchi_key: GRVDJDISBSALJP-UHFFFAOYSA-N
+index: 72
+label: Methoxy
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 31.033921907046118
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.29
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 21.62
+      class: ThermoData
+smiles: C[O]
+symmetry_number: 3.0

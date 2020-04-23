@@ -1,0 +1,98 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Cl u0 p3 c0 {4,S}
+  2 O  u0 p2 c0 {3,S} {9,S}
+  3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  4 C  u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+  5 H  u0 p0 c0 {3,S}
+  6 H  u0 p0 c0 {3,S}
+  7 H  u0 p0 c0 {4,S}
+  8 H  u0 p0 c0 {4,S}
+  9 H  u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -63.620010627921424
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3931879197
+          - -0.2922947921999999
+          - -0.0648765614
+        - - 0.0961132939
+          - 0.8998932685
+          - 0.2855004229
+        - - -1.2060553785999997
+          - 0.4504296364
+          - -0.3376342836
+        - - -1.675512622
+          - -0.7627515963
+          - 0.2067937312
+        - - 0.4218038532
+          - 1.8549708923
+          - -0.1198480221
+        - - 0.0126794001
+          - 0.9609828229
+          - 1.3677684891
+        - - -1.9679995483
+          - 1.201890368
+          - -0.1228543049
+        - - -1.0899128365
+          - 0.3837087032
+          - -1.4246707734
+        - - -0.9970120184
+          - -1.4324659773999997
+          - 0.0609594694
+      isotopes:
+      - 35
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - Cl
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H5ClO
+inchi: InChI=1S/C2H5ClO/c3-1-2-4/h4H,1-2H2
+inchi_key: SZIFAVKTNFCBPC-UHFFFAOYSA-N
+index: 232
+label: 2-Chloroethanol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 80.51350536904884
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.63
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -266.76
+      class: ThermoData
+smiles: OCCCl
+symmetry_number: 1.0

@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 O u0 p2 c0 {2,S} {5,S}
+  2 C u0 p0 c+1 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 168.0877163682513
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6230339425
+          - -0.0337649067
+          - -0.0
+        - - -0.6094021340999998
+          - 0.1306457625
+          - -0.0
+        - - 1.0676936318
+          - -1.029567246
+          - 0.0
+        - - 1.2227694436
+          - 0.8745376926
+          - -0.0
+        - - -1.1534496578
+          - -0.6875471057999998
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
+charge: 1
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH3O
+inchi: InChI=1S/CH3O/c1-2/h2H,1H2/q+1
+inchi_key: NRCYHMDIJIIHBJ-UHFFFAOYSA-N
+index: 75
+label: Hydroxymethylium
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 31.033921907046118
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.18
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 709.8000000000005
+      class: ThermoData
+smiles: '[CH2+]O'
+symmetry_number: 1.0

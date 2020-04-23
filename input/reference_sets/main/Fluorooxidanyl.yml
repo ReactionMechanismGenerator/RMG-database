@@ -1,0 +1,57 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 O u1 p2 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 25.125631791751445
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.7075799231999997
+        - - 0.0
+          - 0.0
+          - -0.6289599317
+      isotopes:
+      - 16
+      - 19
+      symbols:
+      - O
+      - F
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: FO
+inchi: InChI=1S/FO/c1-2
+inchi_key: FXOFAYKVTOLJTJ-UHFFFAOYSA-N
+index: 31
+label: Fluorooxidanyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 34.997805157323526
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.15
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 110.89
+      class: ThermoData
+smiles: '[O]F'
+symmetry_number: 1.0

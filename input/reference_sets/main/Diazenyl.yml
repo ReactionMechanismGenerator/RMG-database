@@ -1,0 +1,63 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 N u0 p1 c0 {2,D} {3,S}
+  2 N u1 p1 c0 {1,D}
+  3 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 55.41658088691316
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6543840186
+          - -0.0546400275
+          - 0.0
+        - - -0.4926506083
+          - 0.1526472891
+          - -0.0
+        - - -1.1321338724
+          - -0.6860508313
+          - 0.0
+      isotopes:
+      - 14
+      - 14
+      - 1
+      symbols:
+      - N
+      - N
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: HN2
+inchi: InChI=1S/HN2/c1-2/h1H
+inchi_key: NALBLJLOBICXRH-UHFFFAOYSA-N
+index: 51
+label: Diazenyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 29.02142329463812
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.4700000000000001
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 249.25
+      class: ThermoData
+smiles: N=[N]
+symmetry_number: 1.0

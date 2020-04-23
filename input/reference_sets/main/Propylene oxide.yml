@@ -1,0 +1,104 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  O u0 p2 c0 {2,S} {3,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3  C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  4  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+  5  H u0 p0 c0 {2,S}
+  6  H u0 p0 c0 {3,S}
+  7  H u0 p0 c0 {3,S}
+  8  H u0 p0 c0 {4,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -23.54707425477537
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.5002201455
+          - 0.1003313123
+          - 0.1475479502
+        - - -0.1504987253
+          - -0.0438156871
+          - -0.4892430883999999
+        - - 1.0350521114
+          - 0.6151621044
+          - 0.056391241
+        - - 0.8219103564
+          - -0.7822238631999998
+          - 0.24777087749999996
+        - - -1.3950489519
+          - 0.3308578026
+          - 1.2076805481999997
+        - - -2.0712047229
+          - -0.8238459098999997
+          - 0.0501010388
+        - - -2.0653948708
+          - 0.901123697
+          - -0.3322367543999999
+        - - -0.147768052
+          - -0.2717738831
+          - -1.5523830144
+        - - 0.934131946
+          - 1.2211765332
+          - 0.9512976606
+        - - 1.8640023567999995
+          - 0.8701862886
+          - -0.5948031156
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H6O
+inchi: InChI=1S/C3H6O/c1-3-2-4-3/h3H,2H2,1H3
+inchi_key: GOOHAUXETOMSMM-UHFFFAOYSA-N
+index: 240
+label: Propylene oxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 58.079144423999
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.63
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -93.72
+      class: ThermoData
+smiles: CC1CO1
+symmetry_number: 3.0

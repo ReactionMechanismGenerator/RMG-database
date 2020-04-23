@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {3,S}
+  2 C  u0 p0 c0 {3,D} {4,S} {5,S}
+  3 C  u0 p0 c0 {1,S} {2,D} {6,S}
+  4 H  u0 p0 c0 {2,S}
+  5 H  u0 p0 c0 {2,S}
+  6 H  u0 p0 c0 {3,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 17.86150889776072
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.0930018774
+          - -0.3129068662
+          - 0.0
+        - - 1.0765917405
+          - 0.52507676
+          - 0.0
+        - - -0.7215509588
+          - -0.04466084139999999
+          - 0.0
+        - - 1.9551761801
+          - -1.385091391
+          - 0.0
+        - - 3.1034256049
+          - 0.07498020319999998
+          - 0.0
+        - - 1.178120066
+          - 1.6002212743
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 79
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Br
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H3Br
+inchi: InChI=1S/C2H3Br/c1-2-3/h2H,1H2
+inchi_key: INLLPKCGLOXCIV-UHFFFAOYSA-N
+index: 162
+label: Vinyl bromide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 106.94922668640768
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.61
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 73.97
+      class: ThermoData
+smiles: C=CBr
+symmetry_number: 1.0

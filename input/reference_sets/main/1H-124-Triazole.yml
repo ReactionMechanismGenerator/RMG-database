@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 N u0 p1 c0 {3,S} {4,S} {6,S}
+  2 N u0 p1 c0 {4,D} {5,S}
+  3 N u0 p1 c0 {1,S} {5,D}
+  4 C u0 p0 c0 {1,S} {2,D} {7,S}
+  5 C u0 p0 c0 {2,S} {3,D} {8,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {4,S}
+  8 H u0 p0 c0 {5,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 38.16870413897972
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.4397533133
+          - -1.0978320182
+          - 0.0
+        - - -1.1148169531
+          - 0.02971677119999999
+          - 0.0
+        - - -0.35395349839999996
+          - 1.157040823
+          - 0.0
+        - - 0.8685128049
+          - 0.6786121599
+          - 0.0
+        - - 0.8355479463999999
+          - -0.6625238802999998
+          - 0.0
+        - - -2.1920380752
+          - 0.0441397364
+          - 0.0
+        - - 1.7823633935999998
+          - 1.2497126925
+          - 0.0
+        - - 1.5946116273
+          - -1.3206204866
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - C
+      - N
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H3N3
+inchi: InChI=1S/C2H3N3/c1-3-2-5-4-1/h1-2H,(H,3,4,5)
+inchi_key: NSPMIYGKQJPBQR-UHFFFAOYSA-N
+index: 278
+label: 1H-1,2,4-Triazole
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 69.06544727519042
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 192.70000000000013
+      class: ThermoData
+smiles: c1ncn[nH]1
+symmetry_number: 1.0

@@ -1,0 +1,104 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1  S u0 p2 c0 {3,S} {9,S}
+  2  S u0 p2 c0 {4,S} {10,S}
+  3  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+  5  H u0 p0 c0 {3,S}
+  6  H u0 p0 c0 {3,S}
+  7  H u0 p0 c0 {4,S}
+  8  H u0 p0 c0 {4,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -6.7936061286810405
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.7590776075
+          - -0.4406221556
+          - 0.1046601908
+        - - 0.6746138612999999
+          - 0.9399308404
+          - -0.3506016814
+        - - -0.6746556897
+          - 0.9399416092
+          - 0.3505545609
+        - - -1.759093357
+          - -0.4406583215
+          - -0.10459435939999999
+        - - 1.1073204204
+          - -1.3808753871
+          - -0.5927165268
+        - - 1.2295063477
+          - 1.8367747128
+          - -0.068816359
+        - - 0.5484140675
+          - 0.9547383891999998
+          - -1.4320117035
+        - - -0.5484418964
+          - 0.9548517160999997
+          - 1.4319634157
+        - - -1.2295625793
+          - 1.8367515877
+          - 0.0686924855
+        - - -1.1067333992
+          - -1.3809880829
+          - 0.592118108
+      isotopes:
+      - 32
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H6S2
+inchi: InChI=1S/C2H6S2/c3-1-2-4/h3-4H,1-2H2
+inchi_key: VYMPLPIFKRHAAC-UHFFFAOYSA-N
+index: 248
+label: 1,2-Ethanedithiol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 94.19904902266354
+multiplicity: 1
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 1.09
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -9.33
+      class: ThermoData
+smiles: SCCS
+symmetry_number: 2.0

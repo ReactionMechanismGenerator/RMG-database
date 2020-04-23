@@ -1,0 +1,93 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {3,D} {7,S} {8,S}
+  3 C u1 p0 c0 {1,S} {2,D}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 60.27670381655186
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.26622642
+          - -0.0765043596
+          - 1.6699999999999999e-06
+        - - -0.1265052525
+          - 0.3843843875999999
+          - -6.992399999999999e-06
+        - - -1.3363875231999998
+          - -0.09905137359999998
+          - 1.0657e-06
+        - - 1.7997682706
+          - 0.282010465
+          - 0.8810920903
+        - - 1.306746227
+          - -1.1736533345
+          - -0.0006522592999999998
+        - - 1.8001629169999998
+          - 0.2830486697
+          - -0.8804244901999999
+        - - -1.5096302791
+          - -1.1779054104
+          - 1.61563e-05
+        - - -2.2170490013
+          - 0.5335276839
+          - -5.9577e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C3H5
+inchi: InChI=1S/C3H5/c1-3-2/h1H2,2H3
+inchi_key: NMTZQIYQFZGXQT-UHFFFAOYSA-N
+index: 172
+label: 1-Methylethenyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 41.07180383666919
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.78
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 252.46
+      class: ThermoData
+smiles: C=[C]C
+symmetry_number: 3.0

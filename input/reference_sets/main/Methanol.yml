@@ -1,0 +1,80 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 O u0 p2 c0 {1,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -47.07494927837835
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6645920875999998
+          - -0.020378485299999995
+          - 8.151e-07
+        - - -0.7468365293
+          - 0.1223609799
+          - 1.2417e-06
+        - - 1.0241890919
+          - -0.5439739355
+          - 0.8902419114
+        - - 1.0839109172
+          - 0.9834889437
+          - -0.0002060557
+        - - 1.0241493608
+          - -0.5443176426
+          - -0.8900523882999999
+        - - -1.1451096614
+          - -0.7518142931999998
+          - 1.7079e-06
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH4O
+inchi: InChI=1S/CH4O/c1-2/h2H,1H3
+inchi_key: OKKJLVBELUTLKV-UHFFFAOYSA-N
+index: 85
+label: Methanol
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 32.04186202952587
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.15
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -200.84
+      class: ThermoData
+smiles: CO
+symmetry_number: 3.0

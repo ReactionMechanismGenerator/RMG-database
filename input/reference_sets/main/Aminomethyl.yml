@@ -1,0 +1,81 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 N u0 p1 c0 {2,S} {5,S} {6,S}
+  2 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 33.27690308377766
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.7252541279
+          - 0.0695045682
+          - 0.0
+        - - 0.6532017699
+          - -0.090956344
+          - 0.0
+        - - -1.2421913338
+          - -0.09893577269999997
+          - 0.9315507448
+        - - -1.2421913338
+          - -0.09893577269999997
+          - -0.9315507448
+        - - 1.1317473038
+          - 0.20876848829999994
+          - -0.8343420244999997
+        - - 1.1317473038
+          - 0.20876848829999994
+          - 0.8343420244999997
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CH4N
+inchi: InChI=1S/CH4N/c1-2/h1-2H2
+inchi_key: XXJGBENTLXFVFI-UHFFFAOYSA-N
+index: 86
+label: Aminomethyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 30.049203150754995
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.44
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 149.06
+      class: ThermoData
+smiles: '[CH2]N'
+symmetry_number: 2.0

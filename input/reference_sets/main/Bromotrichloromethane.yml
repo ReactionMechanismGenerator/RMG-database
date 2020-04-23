@@ -1,0 +1,74 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 Br u0 p3 c0 {5,S}
+  2 Cl u0 p3 c0 {5,S}
+  3 Cl u0 p3 c0 {5,S}
+  4 Cl u0 p3 c0 {5,S}
+  5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -11.369977814972195
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.4110165666
+          - 8.93485e-05
+          - 0.0005848823
+        - - -1.0011668866
+          - -0.0660555193
+          - -1.6606806883
+        - - -0.9957753079
+          - 1.4733228847
+          - 0.7747500069
+        - - -0.9960368187999997
+          - -1.4070042413
+          - 0.8892329706
+        - - 1.5241926464
+          - -0.00014312
+          - -0.0017042346
+      isotopes:
+      - 12
+      - 35
+      - 35
+      - 35
+      - 79
+      symbols:
+      - C
+      - Cl
+      - Cl
+      - Cl
+      - Br
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CBrCl3
+inchi: InChI=1S/CBrCl3/c2-1(3,4)5
+inchi_key: XNNQFQFUQLJSQT-UHFFFAOYSA-N
+index: 274
+label: Bromotrichloromethane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 198.27371167107086
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.6
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -42.01
+      class: ThermoData
+smiles: ClC(Cl)(Cl)Br
+symmetry_number: 3.0

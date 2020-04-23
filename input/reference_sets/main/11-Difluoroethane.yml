@@ -1,0 +1,92 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {4,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -120.92938634349356
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.3687295779999995
+          - -2.5279e-06
+          - 0.0906655126
+        - - 0.0615476624
+          - -4.6699999999999995e-08
+          - -0.3582053592
+        - - 0.7108494679
+          - -1.097844456
+          - 0.1357365464
+        - - 0.7108448038999999
+          - 1.097846716
+          - 0.1357367363
+        - - -1.4027780207
+          - -0.0002534156
+          - 1.1794014337
+        - - -1.8733092516
+          - -0.8872649702
+          - -0.288115967
+        - - -1.8731676407
+          - 0.8875157756999998
+          - -0.287705284
+        - - 0.1970979601
+          - -2.2821e-06
+          - -1.4416006473
+      isotopes:
+      - 12
+      - 12
+      - 19
+      - 19
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - F
+      - F
+      - H
+      - H
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: C2H4F2
+inchi: InChI=1S/C2H4F2/c1-2(3)4/h2H,1H3
+inchi_key: NPNPZTNLOVBDOC-UHFFFAOYSA-N
+index: 225
+label: 1,1-Difluoroethane
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 66.04997202437958
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.65
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -502.7800000000001
+      class: ThermoData
+smiles: CC(F)F
+symmetry_number: 3.0

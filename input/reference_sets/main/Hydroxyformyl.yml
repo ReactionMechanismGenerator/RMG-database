@@ -1,0 +1,69 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 O u0 p2 c0 {3,S} {4,S}
+  2 O u0 p2 c0 {3,D}
+  3 C u1 p0 c0 {1,S} {2,D}
+  4 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -42.87521237759675
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1149895385
+          - -0.0179666658
+          - -0.0
+        - - -0.1348758805
+          - 0.4214282756999999
+          - 0.0
+        - - -1.1522067905
+          - -0.1738060997
+          - 0.0
+        - - 1.1069932986
+          - -0.9943875306
+          - -0.0
+      isotopes:
+      - 16
+      - 12
+      - 16
+      - 1
+      symbols:
+      - O
+      - C
+      - O
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CHO2
+inchi: InChI=1S/CHO2/c2-1-3/h(H,2,3)
+inchi_key: ORTFAQDWJHRMNX-UHFFFAOYSA-N
+index: 120
+label: Hydroxyformyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 45.01744212693667
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.5
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -184.16
+      class: ThermoData
+smiles: O=[C]O
+symmetry_number: 1.0

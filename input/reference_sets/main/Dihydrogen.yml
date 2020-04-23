@@ -1,0 +1,54 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  1 H u0 p0 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.3532226208469873
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.37093165799999994
+        - - 0.0
+          - 0.0
+          - -0.37093165799999994
+      isotopes:
+      - 1
+      - 1
+      symbols:
+      - H
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: H2
+inchi: InChI=1S/H2/h1H
+inchi_key: UFHFLCQGNIYNRP-UHFFFAOYSA-N
+index: 0
+label: Dihydrogen
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 2.0158802449594986
+multiplicity: 1
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: 0.0
+      class: ThermoData
+smiles: '[H][H]'
+symmetry_number: 2.0

@@ -1,0 +1,63 @@
+RMG_version: 3.0.0
+adjacency_list: |
+  multiplicity 2
+  1 Cl u0 p3 c0 {3,S}
+  2 O  u0 p2 c0 {3,D}
+  3 C  u1 p0 c0 {1,S} {2,D}
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -5.933475844307901
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0224038825
+          - -0.0557697815
+          - -0.0
+        - - -0.7025344419
+          - 0.4470017332
+          - 0.0
+        - - -1.6457074189
+          - -0.2167405142
+          - -0.0
+      isotopes:
+      - 35
+      - 12
+      - 16
+      symbols:
+      - Cl
+      - C
+      - O
+charge: 0
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+formula: CClO
+inchi: InChI=1S/CClO/c2-1-3
+inchi_key: DDKMFOUTRRODRE-UHFFFAOYSA-N
+index: 111
+label: Chloroformyl
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 63.46310368189328
+multiplicity: 2
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.49
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -20.52
+      class: ThermoData
+smiles: O=[C]Cl
+symmetry_number: 1.0
