@@ -12,6 +12,8 @@ template(reactants=["Rn"], products=["Y"], ownReverse=False)
 reverse = "BiradFromMultipleBond"
 reversible = True
 
+only_forward = True
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*2', 1, '*4'],

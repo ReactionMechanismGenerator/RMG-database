@@ -14,6 +14,8 @@ template(reactants=["Y_rad_birad_trirad_quadrad", "XH_Rrad_birad"], products=["Y
 reverse = "Molecular_Addition"
 reversible = True
 
+only_forward = True
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*2', 1, '*4'],
