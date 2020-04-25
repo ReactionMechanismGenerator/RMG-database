@@ -1008,15 +1008,35 @@ Duminda CBS-QB3 calculation
 """,
 )
 
+# entry(
+#     index = 55,
+#     label = "CH3OCH2CH2CH2OO <=> CH3OCHCH2CH2OOH",
+#     elementary_high_p = True,
+#     degeneracy = 2.0,
+#     kinetics = Arrhenius(
+#         A = (78731, 's^-1'),
+#         n = 1.71788,
+#         Ea = (59.4125, 'kJ/mol'),
+#         T0 = (1, 'K'),
+#         Tmin = (303.03, 'K'),
+#         Tmax = (2500, 'K'),
+#         comment = '',
+#     ),
+#     longDesc =
+# u"""
+# Duminda CBS-QB3 calculation
+# """,
+# )
+
 entry(
     index = 55,
     label = "CH3OCH2CH2CH2OO <=> CH3OCHCH2CH2OOH",
     elementary_high_p = True,
     degeneracy = 2.0,
     kinetics = Arrhenius(
-        A = (78731, 's^-1'),
-        n = 1.71788,
-        Ea = (59.4125, 'kJ/mol'),
+        A = (4.080e2, 's^-1'),
+        n = 2.867,
+        Ea = (11.522, 'kcal/mol'),
         T0 = (1, 'K'),
         Tmin = (303.03, 'K'),
         Tmax = (2500, 'K'),
@@ -1024,7 +1044,7 @@ entry(
     ),
     longDesc =
 u"""
-Duminda CBS-QB3 calculation
+Mark Nimlos G4 calculation
 """,
 )
 
@@ -2113,5 +2133,26 @@ entry(
     longDesc =
 u"""
 Mark Nimlos Calculation
+""",
+)
+
+entry( 
+    index = 107,
+    label = "CH3CH2CHOCH2OOH <=> propanal + CH2OOH",
+    elementary_high_p = True,
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.420e+09,'s^-1'),
+        n = 0.939,
+        Ea = (23.788, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos Calculation
+this reaction is actually CH3CH2CHOCH2OOH => propanal + CH2O + OH
+but currently in RMG phrasing it that way will result in a duplicate
 """,
 )
