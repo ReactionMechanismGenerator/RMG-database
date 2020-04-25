@@ -2137,7 +2137,7 @@ Mark Nimlos Calculation
 )
 
 entry( 
-    index = 107,
+    index = 108,
     label = "CH3CH2CHOCH2OOH <=> propanal + CH2OOH",
     elementary_high_p = True,
     degeneracy = 1.0,
