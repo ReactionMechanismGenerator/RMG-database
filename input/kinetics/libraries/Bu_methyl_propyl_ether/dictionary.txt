@@ -1871,3 +1871,12 @@ CCCOO
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {5,S}
 
+CH2OOH 
+multiplicity 2
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 O u0 p2 c0 {1,S} {5,S}
+5 O u0 p2 c0 {4,S} {6,S}
+6 H u0 p0 c0 {5,S}
+
