@@ -54,7 +54,7 @@ if __name__ == '__main__':
         reaction = reaction_list[i]
         entry = Entry(
                 index = i+1,
-                label = str(reaction),
+                label = reaction.to_labeled_str(),
                 item = reaction,
                 data = reaction.kinetics,
             )
