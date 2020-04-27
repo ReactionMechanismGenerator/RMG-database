@@ -53,10 +53,10 @@ if __name__ == '__main__':
     for i in range(len(reaction_list)):
         reaction = reaction_list[i]
         entry = Entry(
-                index = i+1,
-                label = str(reaction),
-                item = reaction,
-                data = reaction.kinetics,
+                index=i+1,
+                label=reaction.to_labeled_str(),
+                item=reaction,
+                data=reaction.kinetics,
             )
         try:
             entry.long_desc = 'Originally from reaction library: ' + reaction.library + "\n" + reaction.kinetics.comment
