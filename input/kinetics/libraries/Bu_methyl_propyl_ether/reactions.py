@@ -2144,7 +2144,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.420e+09,'s^-1'),
         n = 0.939,
-        Ea = (23.788, 'kcal/mol'),
+        Ea = (23.788, 'kJ/mol'),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
