@@ -1,18 +1,19 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 3
-  1  C u0 p0 c0 {2,D} {6,S} {7,S}
-  2  C u0 p0 c0 {1,D} {3,S} {8,S}
-  3  C u0 p0 c0 {2,S} {4,D} {9,S}
-  4  C u0 p0 c0 {3,D} {5,S} {10,S}
-  5  C u0 p0 c0 {4,S} {6,D} {11,S}
-  6  C u0 p0 c0 {1,S} {5,D} {12,S}
-  7  C u2 p1 c-1 {1,S}
-  8  H u0 p0 c0 {2,S}
-  9  H u0 p0 c0 {3,S}
-  10 H u0 p0 c0 {4,S}
-  11 H u0 p0 c0 {5,S}
-  12 H u0 p0 c0 {6,S}
+  1  C u0 p0 c0 {2,D} {6,S} {10,S}
+  2  C u0 p0 c0 {1,D} {3,S} {11,S}
+  3  C u0 p0 c0 {2,S} {4,D} {12,S}
+  4  C u0 p0 c0 {3,D} {5,S} {7,S}
+  5  C u0 p0 c0 {4,S} {6,D} {13,S}
+  6  C u0 p0 c0 {1,S} {5,D} {14,S}
+  7  C u0 p1 c-1 {4,S} {8,S} {9,S}
+  8  H u0 p0 c0 {7,S}
+  9  H u0 p0 c0 {7,S}
+  10 H u0 p0 c0 {1,S}
+  11 H u0 p0 c0 {2,S}
+  12 H u0 p0 c0 {3,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -102,16 +103,16 @@ charge: -1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
 default_xyz_chemistry: wb97m-v/def2-tzvpd
-formula: C7H5
-inchi: InChI=1S/C7H5/c1-7-5-3-2-4-6-7/h2-6H/q-1
-inchi_key: WSUGBBJIWXKXIY-UHFFFAOYSA-N
+formula: C7H7
+inchi: InChI=1S/C7H7/c1-7-5-3-2-4-6-7/h2-6H,1H2/q-1
+inchi_key: QJHNLKRMBCYQKX-UHFFFAOYSA-N
 index: 402
 label: Benzylide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 89.11460813569646
-multiplicity: 3
+  value: 91.13048838065595
+multiplicity: 1
 reference_data:
   ATcT:
     class: ReferenceDataEntry
@@ -123,5 +124,5 @@ reference_data:
         units: kJ/mol
         value: 123.10000000000007
       class: ThermoData
-smiles: '[C-]C1=CC=CC=C1'
+smiles: 'c1ccc(cc1)[CH2-]'
 symmetry_number: 2.0

@@ -1,10 +1,10 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 2
-  1 C u0 p0 c0 {2,D} {3,S} {4,S}
-  2 C u1 p1 c-1 {1,D}
-  3 H u0 p0 c0 {1,S}
+  1 C u0 p0 c0 {2,D} {4,S} {5,S}
+  2 C u0 p1 c-1 {1,D} {3,S}
+  3 H u0 p0 c0 {2,S}
   4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -49,16 +49,16 @@ charge: -1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
 default_xyz_chemistry: wb97m-v/def2-tzvpd
-formula: C2H2
-inchi: InChI=1S/C2H2/c1-2/h1H2/q-1
-inchi_key: VSVANFQZMKLBSU-UHFFFAOYSA-N
+formula: C2H3
+inchi: InChI=1S/C2H3/c1-2/h1H,2H2/q-1
+inchi_key: IEARPTNIYZTWOZ-UHFFFAOYSA-N
 index: 70
 label: Vinyl anion
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 26.037282394473127
-multiplicity: 2
+  value: 27.04522251695288
+multiplicity: 1
 reference_data:
   ATcT:
     class: ReferenceDataEntry
@@ -70,5 +70,5 @@ reference_data:
         units: kJ/mol
         value: 232.59
       class: ThermoData
-smiles: '[C-]=C'
+smiles: 'C=[CH-]'
 symmetry_number: 2.0
