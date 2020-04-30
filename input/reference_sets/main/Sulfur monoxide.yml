@@ -52,6 +52,30 @@ calculated_data:
       symbols:
       - S
       - O
+  wb97xd/def2tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.7974745058360733
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.49180799999999997
+        - - 0.0
+          - 0.0
+          - -0.985004
+      isotopes:
+      - 32
+      - 16
+      symbols:
+      - S
+      - O
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
