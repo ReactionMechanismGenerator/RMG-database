@@ -1,8 +1,8 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 2
-  1 O u0 p2 c0 {2,D}
-  2 C u1 p1 c-1 {1,D}
+  1 C u0 p1 c-1 {2,S} {3,D}
+  2 H u0 p0 c0 {1,S}
+  3 O u0 p2 c0 {1,D}
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -37,16 +37,16 @@ charge: -1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
 default_xyz_chemistry: wb97m-v/def2-tzvpd
-formula: CO
-inchi: InChI=1S/CO/c1-2/q-1
-inchi_key: DCMZLVSOPGZIFI-UHFFFAOYSA-N
+formula: CHO
+inchi: InChI=1S/CHO/c1-2/h1H/q-1
+inchi_key: CKJNUZNMWOVDFN-UHFFFAOYSA-N
 index: 44
 label: Formyl anion
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 28.010101539606868
-multiplicity: 2
+  value: 29.01804166208662
+multiplicity: 1
 reference_data:
   ATcT:
     class: ReferenceDataEntry
@@ -58,5 +58,5 @@ reference_data:
         units: kJ/mol
         value: 12.02
       class: ThermoData
-smiles: '[C-]=O'
+smiles: '[CH-]=O'
 symmetry_number: 1.0

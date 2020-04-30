@@ -1,8 +1,9 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 3
-  1 C u2 p1 c-1 {2,S}
+  1 C u0 p1 c-1 {2,S} {3,S} {4,S}
   2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -42,16 +43,16 @@ charge: -1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
 default_xyz_chemistry: wb97m-v/def2-tzvpd
-formula: CH
-inchi: InChI=1S/CH/h1H/q-1
-inchi_key: VPIURJINGFGPNS-UHFFFAOYSA-N
+formula: CH3
+inchi: InChI=1S/CH3/h1H3/q-1
+inchi_key: LGRLWUINFJPLSH-UHFFFAOYSA-N
 index: 16
 label: Methanide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 13.018641197236564
-multiplicity: 3
+  value: 15.034521442196064
+multiplicity: 1
 reference_data:
   ATcT:
     class: ReferenceDataEntry
@@ -63,5 +64,5 @@ reference_data:
         units: kJ/mol
         value: 137.63
       class: ThermoData
-smiles: '[CH]'
+smiles: '[CH3-]'
 symmetry_number: 3.0
