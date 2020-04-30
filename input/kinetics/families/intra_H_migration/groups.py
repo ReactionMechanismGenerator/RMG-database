@@ -1270,6 +1270,128 @@ entry(
 )
 
 entry(
+    index = 10001,
+    label = "RRROO",  # p R5H_SSSS
+    group =
+"""
+1 *6 R!H u0 {2,S} {3,S}
+2 *5 R!H u0 {1,S} {4,S}
+3 *4 O u0 {1,S} {5,S}
+4 *2 R!H u0 {2,S} {6,S}
+5 *1 O u1 {3,S}
+6 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10002,
+    label = "RNROO",  # p RRROO
+    group =
+"""
+1 *6 R!H u0 {2,S} {3,S}
+2 *5 N u0 {1,S} {4,S}
+3 *4 O u0 {1,S} {5,S}
+4 *2 R!H u0 {2,S} {6,S}
+5 *1 O u1 {3,S}
+6 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10003,
+    label = "RCROO",  # p RRROO
+    group =
+"""
+1 *6 R!H u0 {2,S} {3,S}
+2 *5 C u0 {1,S} {4,S}
+3 *4 O u0 {1,S} {5,S}
+4 *2 R!H u0 {2,S} {6,S}
+5 *1 O u1 {3,S}
+6 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10004,
+    label = "OORRR",  # p R5H_SSSS
+    group =
+"""
+1 *6 R!H u0 {2,S} {3,S}
+2 *5 O u0 {1,S} {4,S}
+3 *4 R!H u0 {1,S} {5,S}
+4 *2 O u0 {2,S} {6,S}
+5 *1 R!H u1 {3,S}
+6 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10005,
+    label = "OORNR",  # p OORRR
+    group =
+"""
+1 *6 R!H u0 {2,S} {3,S}
+2 *5 O u0 {1,S} {4,S}
+3 *4 N u0 {1,S} {5,S}
+4 *2 O u0 {2,S} {6,S}
+5 *1 R!H u1 {3,S}
+6 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10006,
+    label = "OORCR",  # p OORRR
+    group =
+"""
+1 *6 R!H u0 {2,S} {3,S}
+2 *5 O u0 {1,S} {4,S}
+3 *4 C u0 {1,S} {5,S}
+4 *2 O u0 {2,S} {6,S}
+5 *1 R!H u1 {3,S}
+6 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10007,
+    label = "RRRNR",  # p R5H_SSSS
+    group =
+"""
+1 *6 R!H u0 {2,S} {3,S}
+2 *5 R!H u0 {1,S} {4,S}
+3 *4 N u0 {1,S} {5,S}
+4 *2 R!H u0 {2,S} {6,S}
+5 *1 R!H u1 {3,S}
+6 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10008,
+    label = "RNRRR",  # p R5H_SSSS
+    group =
+"""
+1 *6 R!H u0 {2,S} {3,S}
+2 *5 N u0 {1,S} {4,S}
+3 *4 R!H u0 {1,S} {5,S}
+4 *2 R!H u0 {2,S} {6,S}
+5 *1 R!H u1 {3,S}
+6 *3 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+
+
+entry(
     index = 89,
     label = "R5H_CCC",
     group = 
@@ -4664,6 +4786,14 @@ L1: RnH
             L4: R5H_RSSR
                 L5: R5H_SSSR
                     L6: R5H_SSSS
+                        L7: RRROO
+                            L8: RNROO
+                            L8: RCROO
+                        L7: OORRR
+                            L8: OORNR
+                            L8: OORCR
+                        L7: RRRNR
+                        L7: RNRRR
                         L7: R5H_CCC
                             L8: R5H_CCC(Cd)
                             L8: R5H_C(Cd)CC
