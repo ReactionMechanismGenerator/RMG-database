@@ -1,10 +1,11 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 3
-  1 O u0 p2 c0 {2,D}
-  2 C u0 p0 c0 {1,D} {3,S} {4,S}
-  3 C u2 p1 c-1 {2,S}
-  4 H u0 p0 c0 {2,S}
+  1 C u0 p1 c-1 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 C u0 p0 c0 {1,S} {5,D} {6,S}
+  5 O u0 p2 c0 {4,D}
+  6 H u0 p0 c0 {4,S}
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -54,16 +55,16 @@ charge: -1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
 default_xyz_chemistry: wb97m-v/def2-tzvpd
-formula: C2HO
-inchi: InChI=1S/C2HO/c1-2-3/h2H/q-1
-inchi_key: FKOCRZRGMPDZME-UHFFFAOYSA-N
+formula: C2H3O
+inchi: InChI=1S/C2H3O/c1-2-3/h2H,1H2/q-1
+inchi_key: MGKBHFTXPZTTHS-UHFFFAOYSA-N
 index: 157
 label: Vinoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 41.028742736843434
-multiplicity: 3
+  value: 43.04462298180294
+multiplicity: 1
 reference_data:
   ATcT:
     class: ReferenceDataEntry
@@ -75,5 +76,5 @@ reference_data:
         units: kJ/mol
         value: -160.63
       class: ThermoData
-smiles: '[C-]C=O'
+smiles: '[CH2-]C=O'
 symmetry_number: 1.0
