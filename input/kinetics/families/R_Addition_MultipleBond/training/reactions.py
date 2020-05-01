@@ -57960,6 +57960,156 @@ Reaction: C[CH2] (Ethyl Radical) + C1=CC=C(C=C1)C1C=CC=CC=1 (Biphenyl) <=> C1=CC
 """,
 )
 
+# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# API db training reactions go here
+
+
+
+
+entry(
+    index = 10001,
+    label = "CH3O-2 + CHN <=> OCCdNj_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3331.77,'cm^3/(mol*s)'), n=2.51948, Ea=(25.3754,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 2,
+    longDesc =
+"""
+Computed by Alon Grinberg Dana using ARC v1.1.0 (TS guess generated manually)
+
+CCSD(T)/aug-cc-pVTZ//wB97xd/def2TZVP
+
+Optimized TS geometry:
+O      -0.63023600    0.92494700    0.43958200
+C       0.14513500   -0.07880000   -0.04196400
+C      -0.97050300   -1.02992900   -1.65916600
+N      -0.75664700   -2.16458700   -1.81286400
+H      -1.25079800    0.57954500    1.08412300
+H       0.98208300    0.28882200   -0.62114100
+H       0.30969500   -0.94370100    0.59100600
+H      -1.47626400   -0.10694600   -1.88883800
+
+The rotor pivots: [1, 2], dihedral: [5, 1, 2, 6] was found to break the TS and was not considered in the analysis.
+""",
+)
+
+entry(
+    index = 10002,
+    label = "CH3O-2 + CHN-2 <=> OCNdCj_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1834.29,'cm^3/(mol*s)'), n=2.57866, Ea=(62.0185,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 2,
+    longDesc =
+"""
+Computed by Alon Grinberg Dana using ARC v1.1.0 (TS guess generated manually)
+
+CCSD(T)/aug-cc-pVTZ//wB97xd/def2TZVP
+
+Optimized TS geometry:
+O      -0.99076900    0.43755200   -0.85497600
+C      -0.81683400   -0.57496600    0.02823400
+N       1.03732700   -0.45706700    0.81620300
+C       1.74461400    0.31874400    0.28783000
+H       1.93396600    1.06187000   -0.46800000
+H      -1.20694900    1.24452200   -0.38443200
+H      -1.38184000   -0.53687100    0.95297700
+H      -0.72607400   -1.53484200   -0.46005200
+
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 7], rotor symmetry: 1, max scan energy: 21.39 kJ/mol
+""",
+)
+
+entry(
+    index = 10003,
+    label = "NCCCj + CNdC <=> CjN_C_CCCN",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(53580.4,'cm^3/(mol*s)'), n=0, Ea=(334.663,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    rank = 2,
+    longDesc =
+"""
+CBS-QB3 SMD water, no rotors
+ts1033
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+C       1.39757500    0.00980100   -1.38106800
+H       2.29043100    0.57269200   -1.66753000
+H       0.48849400    0.17984600   -1.95133200
+N       1.36908700   -0.79560100   -0.36062900
+C       2.66364800   -1.03693000    0.28490400
+C       0.20818600   -0.06546500    1.25979600
+C      -0.93189300    0.69265100    0.66723900
+C      -2.02151000   -0.19056400    0.04887400
+N      -3.16840400    0.53157700   -0.52398800
+H       2.51415900   -1.44791300    1.28344300
+H       3.27628200   -0.12998000    0.36408200
+H       3.22148400   -1.77468100   -0.29946000
+H      -0.00687200   -1.01294000    1.74509700
+H       0.99945800    0.51259500    1.72767000
+H      -1.39581800    1.32747400    1.43947400
+H      -0.55263800    1.39074500   -0.09448500
+H      -1.58501400   -0.81125900   -0.73785100
+H      -2.39915900   -0.87818300    0.81237700
+H      -3.55575500    1.13509400    0.19892100
+H      -2.81764200    1.16944800   -1.23582800
+""",
+)
+
+entry(
+    index = 10004,
+    label = "NC3j + CdCN_C_C <=> CN_C_CjCCN_C_C",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.99434e+09,'cm^3/(mol*s)'), n=0, Ea=(63.9562,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    rank = 1,
+    longDesc =
+"""
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp, no rotors
+solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+ts1032
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+C       3.12409200    0.36655100    0.40555500
+N       1.83200200    0.14731100   -0.20056100
+C       1.42811300    1.16028300   -1.14577600
+C       1.48874900   -1.16374300   -0.53150100
+C      -0.44922100   -1.68777500    0.40700400
+C      -1.48925500   -1.04096500   -0.20110800
+H      -2.00738500   -1.51621100   -1.02655000
+N      -1.84134500    0.28997100   -0.02026100
+C      -3.20918100    0.63079600   -0.33802800
+C      -1.31003600    0.97048600    1.13640200
+H       3.15837200    1.35917200    0.86010100
+H       3.29338900   -0.36971200    1.19187600
+H       3.95146200    0.29184200   -0.31859400
+H       2.03676600    1.14410400   -2.06459100
+H       1.52095800    2.14955800   -0.69310400
+H       0.38214300    1.00925000   -1.41423100
+H       2.11041300   -1.92602200   -0.07536200
+H       1.21407000   -1.35230400   -1.56592400
+H      -0.34678100   -2.74628000    0.20959100
+H      -0.05797000   -1.34468500    1.35527100
+H      -3.30254200    1.71136700   -0.46050300
+H      -3.91728300    0.30914100    0.44057200
+H      -3.49853000    0.15668300   -1.27661400
+H      -0.22374400    0.87576700    1.15611000
+H      -1.56298600    2.02976600    1.07620400
+H      -1.71368900    0.57097600    2.07998000
+""",
+)
+
+
+
+
+# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# end of API db training reactions
+
 entry(
     index = 2891,
     label = "C6H6-2 + CH3 <=> C7H9-72",
@@ -57974,7 +58124,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"Calculation performed by Lawrence Lai, 2019, CBS-QB3 level of theory",
-    longDesc = 
+    longDesc =
 u"""
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
 Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors included in B3LYP/CBSB7 level
