@@ -6576,7 +6576,7 @@ u"""
 )
 
 forbidden(
-    label = "H_mig_7_membered_ring_a",
+    label = "H_mig_7_membered_ring_neighbor_1_a",
     group =
 """
 1 *7 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
@@ -6597,7 +6597,7 @@ u"""
 )
 
 forbidden(
-    label = "H_mig_7_membered_ring_b",
+    label = "H_mig_7_membered_ring_neighbor_1_b",
     group =
 """
 1 *6 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
@@ -6609,6 +6609,50 @@ forbidden(
 7    R!H ux {4,[S,D,T,B]} {8,[S,D,T,B]}
 8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
 9    R!H ux {8,[S,D,T,B]} {3,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "H_mig_7_membered_ring_neighbor_2_a",
+    group =
+"""
+1 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+2 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+3 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
+4 *6 R!H ux {2,[S,D,T,B]} {10,[S,D,T,B]} {9,[S,D,T,B]}
+5 *2 R!H u0 {3,[S,D,T,B]} {7,S} {8,[S,D,T,B]}
+6 *1 R!H u1 {10,[S,D,T,B]}
+7 *3 H   u0 {5,S}
+8 *5 R!H ux {5,[S,D,T,B]} {9,[S,D,T,B]}
+9 *7 R!H ux {8,[S,D,T,B]} {4,[S,D,T,B]}
+10 *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "H_mig_7_membered_ring_neighbor_2_b",
+    group =
+"""
+1 *8 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+2 *7 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+3 *5 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
+4 *6 R!H ux {2,[S,D,T,B]} {10,[S,D,T,B]} {9,[S,D,T,B]}
+5 *2 R!H u0 {3,[S,D,T,B]} {7,S} {8,[S,D,T,B]}
+6 *1 R!H u1 {10,[S,D,T,B]}
+7 *3 H   u0 {5,S}
+8 R!H ux {5,[S,D,T,B]} {9,[S,D,T,B]}
+9 R!H ux {8,[S,D,T,B]} {4,[S,D,T,B]}
+10 *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
 """,
     shortDesc = u"""""",
     longDesc =
