@@ -6019,26 +6019,6 @@ Converted to training reaction from rate rule: X_H;O2b
 
 entry(
     index = 290,
-    label = "CH4O-2 + O2 <=> HO2_r12 + CH3O-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (-16.919, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 11,
-    shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: O/H/NonDeC;O2b
-""",
-)
-
-entry(
-    index = 291,
     label = "OH_p23 + C2H6 <=> H2O_p + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(
