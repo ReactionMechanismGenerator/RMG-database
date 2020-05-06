@@ -1,11 +1,12 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 2
-  1 C u0 p0 c0 {2,D} {4,S} {5,S}
+  multiplicity 1
+  1 C u0 p0 c0 {2,D} {5,S} {6,S}
   2 C u0 p0 c0 {1,D} {3,D}
-  3 C u1 p1 c-1 {2,D}
-  4 H u0 p0 c0 {1,S}
+  3 C u0 p1 c-1 {2,D} {4,S}
+  4 H u0 p0 c0 {3,S}
   5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
 calculated_data:
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
@@ -55,16 +56,16 @@ charge: -1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
 default_xyz_chemistry: wb97m-v/def2-tzvpd
-formula: C3H2
-inchi: InChI=1S/C3H2/c1-3-2/h1H2/q-1
-inchi_key: IODWVKJOHFFJOQ-UHFFFAOYSA-N
+formula: C3H3
+inchi: InChI=1S/C3H3/c1-3-2/h1H,2H2/q-1
+inchi_key: XPVBHDCWRJTAOG-UHFFFAOYSA-N
 index: 151
 label: 1,2-Propadienyl anion
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 38.04798346922994
-multiplicity: 2
+  value: 39.05592032242566
+multiplicity: 1
 reference_data:
   ATcT:
     class: ReferenceDataEntry
@@ -76,5 +77,5 @@ reference_data:
         units: kJ/mol
         value: 262.44
       class: ThermoData
-smiles: '[C-]=C=C'
+smiles: 'C=C=[CH-]'
 symmetry_number: 2.0
