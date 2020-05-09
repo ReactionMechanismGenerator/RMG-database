@@ -1,10 +1,44 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  1 C u0 p1 c-1 {2,S} {3,D}
-  2 H u0 p0 c0 {1,S}
-  3 C u0 p0 c0 {1,D} {4,D}
-  4 O u0 p2 c0 {3,D}
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p1 c-1 {3,D} {4,S}
+  3 C u0 p0 c0 {1,D} {2,D}
+  4 H u0 p0 c0 {2,S}
 calculated_data:
+  dlpno-ccsd(t)-f12/cc-pvtz-f12//wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -4.7538944650860975
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2527743045
+          - -0.118555733
+          - -0.0
+        - - 0.0071312074
+          - 0.0194558112
+          - 0.0
+        - - -1.2121321701
+          - 0.0142070554
+          - 0.0
+        - - 2.1376242891
+          - 0.4809430876999999
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     thermo_data:

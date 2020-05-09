@@ -1,11 +1,50 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  1 C u0 p0 c0 {2,D} {4,S} {5,S}
-  2 C u0 p1 c-1 {1,D} {3,S}
-  3 H u0 p0 c0 {2,S}
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 C u0 p1 c-1 {1,D} {5,S}
+  3 H u0 p0 c0 {1,S}
   4 H u0 p0 c0 {1,S}
-  5 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
 calculated_data:
+  dlpno-ccsd(t)-f12/cc-pvtz-f12//wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 59.87886924505984
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.5738258476
+          - -0.024914961599999993
+          - 0.0
+        - - -0.7568234590999999
+          - 0.1936729341
+          - 0.0
+        - - 1.2964159268
+          - 0.8014425667
+          - 0.0
+        - - 1.0660420618
+          - -1.0158723603
+          - 0.0
+        - - -1.2644723198
+          - -0.7981180409
+          - 2.999999999999999e-10
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     thermo_data:
@@ -70,5 +109,5 @@ reference_data:
         units: kJ/mol
         value: 232.59
       class: ThermoData
-smiles: 'C=[CH-]'
+smiles: C=[CH-]
 symmetry_number: 2.0
