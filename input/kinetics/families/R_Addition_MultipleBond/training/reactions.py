@@ -57981,3 +57981,58 @@ Calculations performed in CBS-QB3 level of theory, with 1-D hindered rotors incl
 Reaction: Benzene + Methyl Radical <=> CC1[CH]C=CC=C1
 """,
 )
+
+entry(
+    index = 2892,
+    label = "CH3O-2 + CHN <=> OCCdNj_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3331.77,'cm^3/(mol*s)'), n=2.51948, Ea=(25.3754,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 4,
+    longDesc =
+"""
+Computed by Alon Grinberg Dana using ARC v1.1.0 (TS guess generated manually)
+
+CCSD(T)/aug-cc-pVTZ//wB97xd/def2TZVP
+
+Optimized TS geometry:
+O      -0.63023600    0.92494700    0.43958200
+C       0.14513500   -0.07880000   -0.04196400
+C      -0.97050300   -1.02992900   -1.65916600
+N      -0.75664700   -2.16458700   -1.81286400
+H      -1.25079800    0.57954500    1.08412300
+H       0.98208300    0.28882200   -0.62114100
+H       0.30969500   -0.94370100    0.59100600
+H      -1.47626400   -0.10694600   -1.88883800
+
+The rotor pivots: [1, 2], dihedral: [5, 1, 2, 6] was found to break the TS and was not considered in the analysis.
+""",
+)
+
+entry(
+    index = 2893,
+    label = "CH3O-2 + CHN-2 <=> OCNdCj_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1834.29,'cm^3/(mol*s)'), n=2.57866, Ea=(62.0185,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 4,
+    longDesc =
+"""
+Computed by Alon Grinberg Dana using ARC v1.1.0 (TS guess generated manually)
+
+CCSD(T)/aug-cc-pVTZ//wB97xd/def2TZVP
+
+Optimized TS geometry:
+O      -0.99076900    0.43755200   -0.85497600
+C      -0.81683400   -0.57496600    0.02823400
+N       1.03732700   -0.45706700    0.81620300
+C       1.74461400    0.31874400    0.28783000
+H       1.93396600    1.06187000   -0.46800000
+H      -1.20694900    1.24452200   -0.38443200
+H      -1.38184000   -0.53687100    0.95297700
+H      -0.72607400   -1.53484200   -0.46005200
+
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 7], rotor symmetry: 1, max scan energy: 21.39 kJ/mol
+""",
+)
