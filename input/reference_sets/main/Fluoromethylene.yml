@@ -1,8 +1,8 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 3
+  multiplicity 1
   1 F u0 p3 c0 {2,S}
-  2 C u2 p0 c0 {1,S} {3,S}
+  2 C u0 p1 c0 {1,S} {3,S}
   3 H u0 p0 c0 {2,S}
 calculated_data:
   wb97m-v/def2-tzvpd:
@@ -47,7 +47,7 @@ molecular_weight:
   class: ScalarQuantity
   units: amu
   value: 32.01704588971004
-multiplicity: 3
+multiplicity: 1
 reference_data:
   ATcT:
     class: ReferenceDataEntry
