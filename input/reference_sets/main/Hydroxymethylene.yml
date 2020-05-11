@@ -6,6 +6,40 @@ adjacency_list: |
   3 H u0 p0 c0 {2,S}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  dlpno-ccsd(t)-f12/cc-pvtz-f12//wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 29.19723200616066
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.7040430080999999
+          - 0.2255010502
+          - 0.0
+        - - -0.5454750739
+          - -0.1551391827
+          - -0.0
+        - - 1.2483106628
+          - -0.7439862887999997
+          - -0.0
+        - - -1.1087681207
+          - 0.6320934495
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     thermo_data:
