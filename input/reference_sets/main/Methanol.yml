@@ -7,6 +7,50 @@ adjacency_list: |
   5 H u0 p0 c0 {1,S}
   6 H u0 p0 c0 {2,S}
 calculated_data:
+  dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -47.25613158498235
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.659709
+          - -0.020405
+          - -1.4e-05
+        - - -0.7434979999999998
+          - 0.121564
+          - -5.8e-05
+        - - 1.023505
+          - -0.544904
+          - 0.890883
+        - - 1.082081
+          - 0.983593
+          - -0.000184
+        - - 1.023529
+          - -0.545215
+          - -0.890718
+        - - -1.140431
+          - -0.749267
+          - 8.0e-05
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     thermo_data:
@@ -37,6 +81,50 @@ calculated_data:
         - - -1.1451096614
           - -0.7518142931999998
           - 1.7079e-06
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+  wb97xd/def2tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -46.21424435698803
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.659709
+          - -0.020405
+          - -1.4e-05
+        - - -0.7434979999999998
+          - 0.121564
+          - -5.8e-05
+        - - 1.023505
+          - -0.544904
+          - 0.890883
+        - - 1.082081
+          - 0.983593
+          - -0.000184
+        - - 1.023529
+          - -0.545215
+          - -0.890718
+        - - -1.140431
+          - -0.749267
+          - 8.0e-05
       isotopes:
       - 12
       - 16

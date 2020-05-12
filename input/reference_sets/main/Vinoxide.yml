@@ -1,12 +1,56 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  1 C u0 p1 c-1 {2,S} {3,S} {4,S}
-  2 H u0 p0 c0 {1,S}
-  3 H u0 p0 c0 {1,S}
-  4 C u0 p0 c0 {1,S} {5,D} {6,S}
-  5 O u0 p2 c0 {4,D}
-  6 H u0 p0 c0 {4,S}
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p1 c-1 {3,S} {4,S} {5,S}
+  3 C u0 p0 c0 {1,D} {2,S} {6,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
 calculated_data:
+  dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -31.741146616881792
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.175386
+          - -0.169951
+          - 0.0
+        - - -0.100136
+          - 0.3491749999999999
+          - 0.0
+        - - -1.218733
+          - -0.225935
+          - 0.0
+        - - 2.032414
+          - 0.496108
+          - 0.0
+        - - 1.34763
+          - -1.243239
+          - 0.0
+        - - -0.10582099999999997
+          - 1.476971
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     thermo_data:
@@ -51,6 +95,50 @@ calculated_data:
       - H
       - H
       - H
+  wb97xd/def2tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -35.45034369561534
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.175386
+          - -0.169951
+          - 0.0
+        - - -0.100136
+          - 0.3491749999999999
+          - 0.0
+        - - -1.218733
+          - -0.225935
+          - 0.0
+        - - 2.032414
+          - 0.496108
+          - 0.0
+        - - 1.34763
+          - -1.243239
+          - 0.0
+        - - -0.10582099999999997
+          - 1.476971
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
 charge: -1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
@@ -76,5 +164,5 @@ reference_data:
         units: kJ/mol
         value: -160.63
       class: ThermoData
-smiles: '[CH2-]C=O'
+smiles: '[C-]C=O'
 symmetry_number: 1.0

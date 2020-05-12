@@ -9,6 +9,60 @@ adjacency_list: |
   7 H u0 p0 c0 {4,S}
   8 H u0 p0 c0 {5,S}
 calculated_data:
+  dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 47.30315554969168
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.43735
+          - -1.096732
+          - 0.0
+        - - -1.113121
+          - 0.030377999999999992
+          - 0.0
+        - - -0.354179
+          - 1.154948
+          - 0.0
+        - - 0.867617
+          - 0.6775219999999998
+          - 0.0
+        - - 0.833806
+          - -0.662098
+          - 0.0
+        - - -2.191077
+          - 0.044305
+          - 0.0
+        - - 1.7820319999999996
+          - 1.249193
+          - 0.0
+        - - 1.592746
+          - -1.319272
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - C
+      - N
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     thermo_data:
@@ -44,6 +98,60 @@ calculated_data:
           - 0.0
         - - 1.5946116273
           - -1.3206204866
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - C
+      - N
+      - H
+      - H
+      - H
+  wb97xd/def2tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 44.98166967843844
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.43735
+          - -1.096732
+          - 0.0
+        - - -1.113121
+          - 0.030377999999999992
+          - 0.0
+        - - -0.354179
+          - 1.154948
+          - 0.0
+        - - 0.867617
+          - 0.6775219999999998
+          - 0.0
+        - - 0.833806
+          - -0.662098
+          - 0.0
+        - - -2.191077
+          - 0.044305
+          - 0.0
+        - - 1.7820319999999996
+          - 1.249193
+          - 0.0
+        - - 1.592746
+          - -1.319272
           - 0.0
       isotopes:
       - 14
