@@ -128,7 +128,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 7,
     label = "CJCOOH",
     group = 
 """
@@ -153,7 +153,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 8,
     label = "CCJ",
     group = 
 """
@@ -179,7 +179,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 9,
     label = "RCCJ",
     group = 
 """
@@ -205,7 +205,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 10,
     label = "Isobutyl",
     group = 
 """
@@ -231,7 +231,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 11,
     label = "Neopentyl",
     group = 
 """
@@ -257,7 +257,7 @@ u"""
 )
 
 entry(
-    index = 3047,
+    index = 12,
     label = "CJC(C)2C=O",
     group = 
 """
@@ -286,7 +286,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3045,
+    index = 13,
     label = "CJC(C=O)2C",
     group = 
 """
@@ -316,7 +316,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3067,
+    index = 14,
     label = "C=CC(C=O)2CJ",
     group = 
 """
@@ -347,7 +347,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3066,
+    index = 15,
     label = "C=CC(C)(C=O)CJ",
     group = 
 """
@@ -377,7 +377,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3017,
+    index = 16,
     label = "CJC(C)OC",
     group = 
 """
@@ -405,7 +405,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3018,
+    index = 17,
     label = "CJC(C)2O",
     group = 
 """
@@ -433,7 +433,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3031,
+    index = 18,
     label = "C=CC(C)(O)CJ",
     group = 
 """
@@ -462,7 +462,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3065,
+    index = 19,
     label = "C=CC(O)(C=O)CJ",
     group = 
 """
@@ -492,7 +492,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3046,
+    index = 20,
     label = "CJC(C)(C=O)O",
     group = 
 """
@@ -521,7 +521,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3019,
+    index = 21,
     label = "CJC(O)2C",
     group = 
 """
@@ -549,7 +549,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3032,
+    index = 22,
     label = "C=CC(O)2CJ",
     group = 
 """
@@ -578,7 +578,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3044,
+    index = 23,
     label = "CJC(C)C=O",
     group = 
 """
@@ -606,7 +606,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3076,
+    index = 24,
     label = "CJC(C)C=C=O",
     group = 
 """
@@ -635,7 +635,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 12,
+    index = 25,
     label = "Benzyl_P",
     group = 
 """
@@ -665,7 +665,7 @@ Model Compounds Include
 )
 
 entry(
-    index = 13,
+    index = 26,
     label = "Allyl_P",
     group = 
 """
@@ -688,7 +688,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 27,
     label = "C=CC=CCJ",
     group = 
 """
@@ -713,7 +713,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 28,
     label = "CTCC=CCJ",
     group = 
 """
@@ -738,7 +738,7 @@ u"""
 )
 
 entry(
-    index = 3029,
+    index = 29,
     label = "C=C(O)CJ",
     group = 
 """
@@ -765,7 +765,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3062,
+    index = 30,
     label = "C=C(C=O)CJ",
     group = 
 """
@@ -793,7 +793,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3074,
+    index = 31,
     label = "CJC=C=O",
     group = 
 """
@@ -820,7 +820,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3082,
+    index = 32,
     label = "C=C(CJ)C=C=O",
     group = 
 """
@@ -849,7 +849,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 17,
+    index = 33,
     label = "Propargyl",
     group = 
 """
@@ -872,7 +872,7 @@ u"""
 )
 
 entry(
-    index = 3010,
+    index = 34,
     label = "CJCO",
     group = 
 """
@@ -898,7 +898,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3038,
+    index = 35,
     label = "CJC=O",
     group = 
 """
@@ -924,7 +924,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 16,
+    index = 36,
     label = "C2JC=O",
     group = 
 """
@@ -949,7 +949,7 @@ u"""
 )
 
 entry(
-    index = 3039,
+    index = 37,
     label = "CJCC=O",
     group = 
 """
@@ -976,7 +976,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3075,
+    index = 38,
     label = "CJCC=C=O",
     group = 
 """
@@ -1004,7 +1004,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 18,
+    index = 39,
     label = "Cs_S",
     group = 
 """
@@ -1027,7 +1027,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 40,
     label = "(Cs)2CsJ",
     group = 
 """
@@ -1045,7 +1045,7 @@ u"""
 )
 
 entry(
-    index = 142,
+    index = 41,
     label = "cyclopropane",
     group = 
 """
@@ -1068,7 +1068,7 @@ u"""
 )
 
 entry(
-    index = 152,
+    index = 42,
     label = "bicyclo[1.1.0]butane-secondary",
     group = 
 """
@@ -1092,7 +1092,7 @@ u"""
 )
 
 entry(
-    index = 151,
+    index = 43,
     label = "spiro[2.2]pentane-secondary",
     group = 
 """
@@ -1117,7 +1117,7 @@ u"""
 )
 
 entry(
-    index = 154,
+    index = 44,
     label = "bicyclo[2.1.0]pentane-secondary-C3",
     group = 
 """
@@ -1142,7 +1142,7 @@ u"""
 )
 
 entry(
-    index = 185,
+    index = 45,
     label = "bicyclo[2.1.0]pent-2-ene-C5",
     group = 
 """
@@ -1167,7 +1167,7 @@ u"""
 )
 
 entry(
-    index = 190,
+    index = 46,
     label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C5",
     group = 
 """
@@ -1193,7 +1193,7 @@ u"""
 )
 
 entry(
-    index = 197,
+    index = 47,
     label = "tricyclo[1.1.1.0(1,3)]pentane-C2",
     group = 
 """
@@ -1218,7 +1218,7 @@ u"""
 )
 
 entry(
-    index = 157,
+    index = 48,
     label = "bicyclo[3.1.0]hexane-C3",
     group = 
 """
@@ -1244,7 +1244,7 @@ u"""
 )
 
 entry(
-    index = 202,
+    index = 49,
     label = "tricyclo[2.1.1.0(1,4)]hexane-C5",
     group = 
 """
@@ -1270,7 +1270,7 @@ u"""
 )
 
 entry(
-    index = 172,
+    index = 50,
     label = "bicyclo[4.1.0]heptane-C3-7",
     group = 
 """
@@ -1297,7 +1297,7 @@ u"""
 )
 
 entry(
-    index = 209,
+    index = 51,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C6",
     group = 
 """
@@ -1324,7 +1324,7 @@ u"""
 )
 
 entry(
-    index = 211,
+    index = 52,
     label = "tricyclo[2.2.1.0(1,4)]heptane-C7",
     group = 
 """
@@ -1351,7 +1351,7 @@ u"""
 )
 
 entry(
-    index = 143,
+    index = 53,
     label = "cyclobutane",
     group = 
 """
@@ -1375,7 +1375,7 @@ u"""
 )
 
 entry(
-    index = 153,
+    index = 54,
     label = "bicyclo[2.1.0]pentane-secondary-C4",
     group = 
 """
@@ -1400,7 +1400,7 @@ u"""
 )
 
 entry(
-    index = 158,
+    index = 55,
     label = "bicyclo[2.2.0]hexane-secondary",
     group = 
 """
@@ -1426,7 +1426,7 @@ u"""
 )
 
 entry(
-    index = 161,
+    index = 56,
     label = "bicyclo[3.2.0]heptane-C5-6",
     group = 
 """
@@ -1453,7 +1453,7 @@ u"""
 )
 
 entry(
-    index = 210,
+    index = 57,
     label = "tricyclo[2.2.1.0(1,4)]heptane-C2",
     group = 
 """
@@ -1480,7 +1480,7 @@ u"""
 )
 
 entry(
-    index = 177,
+    index = 58,
     label = "bicyclo[4.2.0]octane-C4-7",
     group = 
 """
@@ -1508,7 +1508,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 59,
     label = "CCJCOOH",
     group = 
 """
@@ -1533,7 +1533,7 @@ u"""
 )
 
 entry(
-    index = 179,
+    index = 60,
     label = "cyclopentene-4",
     group = 
 """
@@ -1558,7 +1558,7 @@ u"""
 )
 
 entry(
-    index = 188,
+    index = 61,
     label = "bicyclo[2.1.1]hex-2-ene-C5",
     group = 
 """
@@ -1584,7 +1584,7 @@ u"""
 )
 
 entry(
-    index = 196,
+    index = 62,
     label = "bicyclo[1.1.1]pentane-C2",
     group = 
 """
@@ -1609,7 +1609,7 @@ u"""
 )
 
 entry(
-    index = 155,
+    index = 63,
     label = "bicyclo[3.1.0]hexane-C5-2",
     group = 
 """
@@ -1635,7 +1635,7 @@ u"""
 )
 
 entry(
-    index = 156,
+    index = 64,
     label = "bicyclo[3.1.0]hexane-C5-3",
     group = 
 """
@@ -1662,7 +1662,7 @@ u"""
 )
 
 entry(
-    index = 199,
+    index = 65,
     label = "bicyclo[2.1.1]hexane-C2",
     group = 
 """
@@ -1688,7 +1688,7 @@ u"""
 )
 
 entry(
-    index = 201,
+    index = 66,
     label = "tricyclo[2.1.1.0(1,4)]hexane-C2",
     group = 
 """
@@ -1714,7 +1714,7 @@ u"""
 )
 
 entry(
-    index = 200,
+    index = 67,
     label = "bicyclo[2.1.1]hexane-C5",
     group = 
 """
@@ -1740,7 +1740,7 @@ u"""
 )
 
 entry(
-    index = 140,
+    index = 68,
     label = "7-norbornyl",
     group = 
 """
@@ -1767,7 +1767,7 @@ u"""
 )
 
 entry(
-    index = 141,
+    index = 69,
     label = "2-norbornyl",
     group = 
 """
@@ -1795,7 +1795,7 @@ u"""
 )
 
 entry(
-    index = 150,
+    index = 70,
     label = "cycloheptane",
     group = 
 """
@@ -1822,7 +1822,7 @@ u"""
 )
 
 entry(
-    index = 159,
+    index = 71,
     label = "bicyclo[3.2.0]heptane-C5-2",
     group = 
 """
@@ -1849,7 +1849,7 @@ u"""
 )
 
 entry(
-    index = 160,
+    index = 72,
     label = "bicyclo[3.2.0]heptane-C5-3",
     group = 
 """
@@ -1876,7 +1876,7 @@ u"""
 )
 
 entry(
-    index = 170,
+    index = 73,
     label = "bicyclo[4.1.0]heptane-C6-2",
     group = 
 """
@@ -1903,7 +1903,7 @@ u"""
 )
 
 entry(
-    index = 171,
+    index = 74,
     label = "bicyclo[4.1.0]heptane-C6-3",
     group = 
 """
@@ -1930,7 +1930,7 @@ u"""
 )
 
 entry(
-    index = 204,
+    index = 75,
     label = "bicyclo[3.1.1]heptane-C2",
     group = 
 """
@@ -1957,7 +1957,7 @@ u"""
 )
 
 entry(
-    index = 207,
+    index = 76,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C2",
     group = 
 """
@@ -1984,7 +1984,7 @@ u"""
 )
 
 entry(
-    index = 205,
+    index = 77,
     label = "bicyclo[3.1.1]heptane-C3",
     group = 
 """
@@ -2011,7 +2011,7 @@ u"""
 )
 
 entry(
-    index = 208,
+    index = 78,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C3",
     group = 
 """
@@ -2038,7 +2038,7 @@ u"""
 )
 
 entry(
-    index = 206,
+    index = 79,
     label = "bicyclo[3.1.1]heptane-C6",
     group = 
 """
@@ -2065,7 +2065,7 @@ u"""
 )
 
 entry(
-    index = 173,
+    index = 80,
     label = "octahydro-pentalene-C5-2",
     group = 
 """
@@ -2093,7 +2093,7 @@ u"""
 )
 
 entry(
-    index = 174,
+    index = 81,
     label = "octahydro-pentalene-C5-3",
     group = 
 """
@@ -2121,7 +2121,7 @@ u"""
 )
 
 entry(
-    index = 175,
+    index = 82,
     label = "bicyclo[4.2.0]octane-C6-2",
     group = 
 """
@@ -2149,7 +2149,7 @@ u"""
 )
 
 entry(
-    index = 176,
+    index = 83,
     label = "bicyclo[4.2.0]octane-C6-3",
     group = 
 """
@@ -2177,7 +2177,7 @@ u"""
 )
 
 entry(
-    index = 213,
+    index = 84,
     label = "bicyclo[2.2.2]octane-C2",
     group = 
 """
@@ -2205,7 +2205,7 @@ u"""
 )
 
 entry(
-    index = 214,
+    index = 85,
     label = "tricyclo[2.2.2.0(1,4)]octane-C2",
     group = 
 """
@@ -2233,7 +2233,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 86,
     label = "CCJC",
     group = 
 """
@@ -2262,7 +2262,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 87,
     label = "RCCJC",
     group = 
 """
@@ -2291,7 +2291,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 88,
     label = "RCCJCC",
     group = 
 """
@@ -2320,7 +2320,7 @@ u"""
 )
 
 entry(
-    index = 215,
+    index = 89,
     label = "cyclopentane",
     group = 
 """
@@ -2349,7 +2349,7 @@ u"""
 )
 
 entry(
-    index = 216,
+    index = 90,
     label = "cyclohexane",
     group = 
 """
@@ -2379,7 +2379,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 91,
     label = "Benzyl_S",
     group = 
 """
@@ -2413,7 +2413,7 @@ CCCCC[CH]C1C=CC=CC=1
 )
 
 entry(
-    index = 26,
+    index = 92,
     label = "Indenyl",
     group = 
 """
@@ -2438,7 +2438,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 93,
     label = "Allyl_S",
     group = 
 """
@@ -2461,7 +2461,7 @@ u"""
 )
 
 entry(
-    index = 147,
+    index = 94,
     label = "cyclobutene-allyl",
     group = 
 """
@@ -2485,7 +2485,7 @@ u"""
 )
 
 entry(
-    index = 148,
+    index = 95,
     label = "cyclopentene-allyl",
     group = 
 """
@@ -2510,7 +2510,7 @@ u"""
 )
 
 entry(
-    index = 149,
+    index = 96,
     label = "cyclohexene-allyl",
     group = 
 """
@@ -2536,7 +2536,7 @@ u"""
 )
 
 entry(
-    index = 3033,
+    index = 97,
     label = "C=CCJC(O)C=C",
     group = 
 """
@@ -2565,7 +2565,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 27,
+    index = 98,
     label = "C=CCJC=C",
     group = 
 """
@@ -2588,7 +2588,7 @@ u"""
 )
 
 entry(
-    index = 145,
+    index = 99,
     label = "cyclopropenyl-allyl",
     group = 
 """
@@ -2611,7 +2611,7 @@ u"""
 )
 
 entry(
-    index = 182,
+    index = 100,
     label = "1,3-cyclopentadiene-allyl",
     group = 
 """
@@ -2637,7 +2637,7 @@ All other  values from theory (2001 Kiefer and Tranter).
 )
 
 entry(
-    index = 3081,
+    index = 101,
     label = "C=CCJC=C=O",
     group = 
 """
@@ -2665,7 +2665,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 28,
+    index = 102,
     label = "Sec_Propargyl",
     group = 
 """
@@ -2688,7 +2688,7 @@ u"""
 )
 
 entry(
-    index = 3013,
+    index = 103,
     label = "CCJCO",
     group = 
 """
@@ -2714,7 +2714,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3028,
+    index = 104,
     label = "C=CCJCO",
     group = 
 """
@@ -2741,7 +2741,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3040,
+    index = 105,
     label = "CCJC=O",
     group = 
 """
@@ -2767,7 +2767,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 26,
+    index = 106,
     label = "CCJCHO",
     group = 
 """
@@ -2792,7 +2792,7 @@ u"""
 )
 
 entry(
-    index = 3043,
+    index = 107,
     label = "C=OCJC=O",
     group = 
 """
@@ -2819,7 +2819,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3042,
+    index = 108,
     label = "CCJCC=O",
     group = 
 """
@@ -2846,7 +2846,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3078,
+    index = 109,
     label = "CCJC(C)=C=O",
     group = 
 """
@@ -2874,7 +2874,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 29,
+    index = 110,
     label = "Cs_T",
     group = 
 """
@@ -2892,7 +2892,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 111,
     label = "Tertalkyl",
     group = 
 """
@@ -2915,7 +2915,7 @@ u"""
 )
 
 entry(
-    index = 162,
+    index = 112,
     label = "bicyclo[1.1.0]butane-tertiary",
     group = 
 """
@@ -2938,7 +2938,7 @@ u"""
 )
 
 entry(
-    index = 163,
+    index = 113,
     label = "bicyclo[2.1.0]pentane-tertiary",
     group = 
 """
@@ -2962,7 +2962,7 @@ u"""
 )
 
 entry(
-    index = 195,
+    index = 114,
     label = "bicyclo[1.1.1]pentane-C1",
     group = 
 """
@@ -2986,7 +2986,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 115,
     label = "C2CJCOOH",
     group = 
 """
@@ -3011,7 +3011,7 @@ u"""
 )
 
 entry(
-    index = 164,
+    index = 116,
     label = "bicyclo[3.1.0]hexane-tertiary",
     group = 
 """
@@ -3036,7 +3036,7 @@ u"""
 )
 
 entry(
-    index = 165,
+    index = 117,
     label = "bicyclo[2.2.0]hexane-tertiary",
     group = 
 """
@@ -3061,7 +3061,7 @@ u"""
 )
 
 entry(
-    index = 198,
+    index = 118,
     label = "bicyclo[2.1.1]hexane-C1",
     group = 
 """
@@ -3086,7 +3086,7 @@ u"""
 )
 
 entry(
-    index = 139,
+    index = 119,
     label = "bridgehead_norbornyl",
     group = 
 """
@@ -3112,7 +3112,7 @@ u"""
 )
 
 entry(
-    index = 166,
+    index = 120,
     label = "bicyclo[3.2.0]heptane-tertiary",
     group = 
 """
@@ -3138,7 +3138,7 @@ u"""
 )
 
 entry(
-    index = 167,
+    index = 121,
     label = "bicyclo[4.1.0]heptane-tertiary",
     group = 
 """
@@ -3164,7 +3164,7 @@ u"""
 )
 
 entry(
-    index = 203,
+    index = 122,
     label = "bicyclo[3.1.1]heptane-C1",
     group = 
 """
@@ -3190,7 +3190,7 @@ u"""
 )
 
 entry(
-    index = 168,
+    index = 123,
     label = "octahydro-pentalene-tertiary",
     group = 
 """
@@ -3217,7 +3217,7 @@ u"""
 )
 
 entry(
-    index = 169,
+    index = 124,
     label = "bicyclo[4.2.0]octane-tertiary",
     group = 
 """
@@ -3244,7 +3244,7 @@ u"""
 )
 
 entry(
-    index = 212,
+    index = 125,
     label = "bicyclo[2.2.2]octane-C1",
     group = 
 """
@@ -3271,7 +3271,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 126,
     label = "Benzyl_T",
     group = 
 """
@@ -3294,7 +3294,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 127,
     label = "Allyl_T",
     group = 
 """
@@ -3317,7 +3317,7 @@ u"""
 )
 
 entry(
-    index = 183,
+    index = 128,
     label = "bicyclo[2.1.0]pent-2-ene-C1",
     group = 
 """
@@ -3341,7 +3341,7 @@ u"""
 )
 
 entry(
-    index = 186,
+    index = 129,
     label = "bicyclo[2.1.1]hex-2-ene-C1",
     group = 
 """
@@ -3366,7 +3366,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 130,
     label = "Tert_Propargyl",
     group = 
 """
@@ -3389,7 +3389,7 @@ u"""
 )
 
 entry(
-    index = 501,
+    index = 131,
     label = "C2CJCO",
     group = 
 """
@@ -3409,7 +3409,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 132,
     label = "C2CJCHO",
     group = 
 """
@@ -3434,7 +3434,7 @@ u"""
 )
 
 entry(
-    index = 191,
+    index = 133,
     label = "bicyclo[2.2.0]hexa-2,5-diene-C1",
     group = 
 """
@@ -3459,7 +3459,7 @@ u"""
 )
 
 entry(
-    index = 3016,
+    index = 134,
     label = "CCJ(C)CO",
     group = 
 """
@@ -3485,7 +3485,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3063,
+    index = 135,
     label = "C=CCJ(C)C=O",
     group = 
 """
@@ -3512,7 +3512,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3064,
+    index = 136,
     label = "C=CCJ(C=O)C=C",
     group = 
 """
@@ -3540,7 +3540,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3077,
+    index = 137,
     label = "CCJ(C)C=C=O",
     group = 
 """
@@ -3567,7 +3567,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3083,
+    index = 138,
     label = "C=CCJ(C)C=C=O",
     group = 
 """
@@ -3595,7 +3595,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3084,
+    index = 139,
     label = "C=CCJ(C=C=O)C=C",
     group = 
 """
@@ -3624,7 +3624,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 36,
+    index = 140,
     label = "CsJO",
     group = 
 """
@@ -3649,7 +3649,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 37,
+    index = 141,
     label = "CsJOH",
     group = 
 """
@@ -3673,7 +3673,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 142,
     label = "CsJOC",
     group = 
 """
@@ -3692,7 +3692,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 143,
     label = "CsJOCs",
     group = 
 """
@@ -3711,7 +3711,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 144,
     label = "CsJOCH3",
     group = 
 """
@@ -3738,7 +3738,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 145,
     label = "CsJOCC",
     group = 
 """
@@ -3765,7 +3765,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 146,
     label = "CsJOCC2",
     group = 
 """
@@ -3792,7 +3792,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 147,
     label = "CsJOCC3",
     group = 
 """
@@ -3819,7 +3819,7 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 148,
     label = "CsJOCds",
     group = 
 """
@@ -3838,7 +3838,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 149,
     label = "CsJOC(O)",
     group = 
 """
@@ -3863,7 +3863,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 150,
     label = "CsJOC(O)H",
     group = 
 """
@@ -3889,7 +3889,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 151,
     label = "CsJOC(O)C",
     group = 
 """
@@ -3915,7 +3915,7 @@ u"""
 )
 
 entry(
-    index = 3027,
+    index = 152,
     label = "C=COCJ",
     group = 
 """
@@ -3942,7 +3942,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 48,
+    index = 153,
     label = "CsJOO",
     group = 
 """
@@ -3966,7 +3966,7 @@ u"""
 )
 
 entry(
-    index = 49,
+    index = 154,
     label = "CsJOOH",
     group = 
 """
@@ -3991,7 +3991,7 @@ u"""
 )
 
 entry(
-    index = 50,
+    index = 155,
     label = "CsJOOC",
     group = 
 """
@@ -4016,7 +4016,7 @@ u"""
 )
 
 entry(
-    index = 51,
+    index = 156,
     label = "CCsJO",
     group = 
 """
@@ -4041,7 +4041,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 52,
+    index = 157,
     label = "CCsJOH",
     group = 
 """
@@ -4065,7 +4065,7 @@ u"""
 )
 
 entry(
-    index = 53,
+    index = 158,
     label = "CCsJOC",
     group = 
 """
@@ -4084,7 +4084,7 @@ u"""
 )
 
 entry(
-    index = 54,
+    index = 159,
     label = "CCsJOCs",
     group = 
 """
@@ -4108,7 +4108,7 @@ u"""
 )
 
 entry(
-    index = 55,
+    index = 160,
     label = "CCsJOCds",
     group = 
 """
@@ -4127,7 +4127,7 @@ u"""
 )
 
 entry(
-    index = 56,
+    index = 161,
     label = "CCsJOC(O)",
     group = 
 """
@@ -4152,7 +4152,7 @@ u"""
 )
 
 entry(
-    index = 57,
+    index = 162,
     label = "CCsJOC(O)H",
     group = 
 """
@@ -4178,7 +4178,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 163,
     label = "CCsJOC(O)C",
     group = 
 """
@@ -4199,7 +4199,7 @@ u"""
 )
 
 entry(
-    index = 3030,
+    index = 164,
     label = "C=CCJ(O)C",
     group = 
 """
@@ -4226,7 +4226,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 58,
+    index = 165,
     label = "CCsJOO",
     group = 
 """
@@ -4250,7 +4250,7 @@ u"""
 )
 
 entry(
-    index = 59,
+    index = 166,
     label = "CCsJOOH",
     group = 
 """
@@ -4275,7 +4275,7 @@ u"""
 )
 
 entry(
-    index = 60,
+    index = 167,
     label = "CCsJOOC",
     group = 
 """
@@ -4300,7 +4300,7 @@ u"""
 )
 
 entry(
-    index = 3026,
+    index = 168,
     label = "C=CCJO",
     group = 
 """
@@ -4326,7 +4326,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3041,
+    index = 169,
     label = "OCJC=O",
     group = 
 """
@@ -4352,7 +4352,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 61,
+    index = 170,
     label = "C2CsJO",
     group = 
 """
@@ -4377,7 +4377,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 62,
+    index = 171,
     label = "C2CsJOH",
     group = 
 """
@@ -4401,7 +4401,7 @@ u"""
 )
 
 entry(
-    index = 63,
+    index = 172,
     label = "C2CsJOC",
     group = 
 """
@@ -4420,7 +4420,7 @@ u"""
 )
 
 entry(
-    index = 64,
+    index = 173,
     label = "C2CsJOCs",
     group = 
 """
@@ -4444,7 +4444,7 @@ u"""
 )
 
 entry(
-    index = 65,
+    index = 174,
     label = "C2CsJOCds",
     group = 
 """
@@ -4463,7 +4463,7 @@ u"""
 )
 
 entry(
-    index = 66,
+    index = 175,
     label = "C2CsJOC(O)",
     group = 
 """
@@ -4488,7 +4488,7 @@ u"""
 )
 
 entry(
-    index = 67,
+    index = 176,
     label = "C2CsJOC(O)H",
     group = 
 """
@@ -4514,7 +4514,7 @@ u"""
 )
 
 entry(
-    index = 68,
+    index = 177,
     label = "C2CsJOC(O)C",
     group = 
 """
@@ -4540,7 +4540,7 @@ u"""
 )
 
 entry(
-    index = 69,
+    index = 178,
     label = "C2CsJOO",
     group = 
 """
@@ -4564,7 +4564,7 @@ u"""
 )
 
 entry(
-    index = 70,
+    index = 179,
     label = "C2CsJOOH",
     group = 
 """
@@ -4589,7 +4589,7 @@ u"""
 )
 
 entry(
-    index = 71,
+    index = 180,
     label = "C2CsJOOC",
     group = 
 """
@@ -4614,7 +4614,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 181,
     label = "CsJ-S",
     group = 
 """
@@ -4632,7 +4632,7 @@ u"""
 )
 
 entry(
-    index = 244,
+    index = 182,
     label = "CsJ-SsHH",
     group = 
 """
@@ -4655,7 +4655,7 @@ u"""
 )
 
 entry(
-    index = 244,
+    index = 183,
     label = "CsJ-SsOsH",
     group = 
 """
@@ -4679,7 +4679,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = -1,
+    index = 184,
     label = "CsJ-CSH",
     group = 
 """
@@ -4697,7 +4697,7 @@ u"""
 )
 
 entry(
-    index = 245,
+    index = 185,
     label = "CsJ-CsSsH",
     group = 
 """
@@ -4720,7 +4720,7 @@ u"""
 )
 
 entry(
-    index = 247,
+    index = 186,
     label = "CsJ-CtSsH",
     group = 
 """
@@ -4743,7 +4743,7 @@ u"""
 )
 
 entry(
-    index = 248,
+    index = 187,
     label = "CsJ-CbSsH",
     group = 
 """
@@ -4766,7 +4766,7 @@ u"""
 )
 
 entry(
-    index = 246,
+    index = 188,
     label = "CsJ-CdSsH",
     group = 
 """
@@ -4790,7 +4790,7 @@ u"""
 )
 
 entry(
-    index = 249,
+    index = 189,
     label = "CsJ-C=SSsH",
     group = 
 """
@@ -4814,7 +4814,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 190,
     label = "CsJ-CCS",
     group = 
 """
@@ -4832,7 +4832,7 @@ u"""
 )
 
 entry(
-    index = 251,
+    index = 191,
     label = "CsJ-CsCsSs",
     group = 
 """
@@ -4855,7 +4855,7 @@ u"""
 )
 
 entry(
-    index = 253,
+    index = 192,
     label = "CsJ-CsCtSs",
     group = 
 """
@@ -4878,7 +4878,7 @@ u"""
 )
 
 entry(
-    index = 254,
+    index = 193,
     label = "CsJ-CsCbSs",
     group = 
 """
@@ -4901,7 +4901,7 @@ u"""
 )
 
 entry(
-    index = 252,
+    index = 194,
     label = "CsJ-CsCdSs",
     group = 
 """
@@ -4925,7 +4925,7 @@ u"""
 )
 
 entry(
-    index = 255,
+    index = 195,
     label = "CsJ-CsC=SSs",
     group = 
 """
@@ -4949,7 +4949,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 196,
     label = "CsJ-SS",
     group = 
 """
@@ -4967,7 +4967,7 @@ u"""
 )
 
 entry(
-    index = 250,
+    index = 197,
     label = "CsJ-SsSsH",
     group = 
 """
@@ -4990,7 +4990,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 198,
     label = "CsJ-CSS",
     group = 
 """
@@ -5008,7 +5008,7 @@ u"""
 )
 
 entry(
-    index = 256,
+    index = 199,
     label = "CsJ-CsSsSs",
     group = 
 """
@@ -5031,7 +5031,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 200,
     label = "CsJ-CtSsSs",
     group = 
 """
@@ -5049,7 +5049,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 201,
     label = "CsJ-CbSsSs",
     group = 
 """
@@ -5067,7 +5067,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 202,
     label = "CsJ-CdSsSs",
     group = 
 """
@@ -5086,7 +5086,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 203,
     label = "CsJ-C=SSsSs",
     group = 
 """
@@ -5105,7 +5105,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 204,
     label = "CsJ-SsSsSs",
     group = 
 """
@@ -5123,7 +5123,7 @@ u"""
 )
 
 entry(
-    index = 264,
+    index = 205,
     label = "CCsJOS",
     group = 
 """
@@ -5141,7 +5141,7 @@ u"""
 )
 
 entry(
-    index = 265,
+    index = 206,
     label = "CCsJOHSH",
     group = 
 """
@@ -5166,7 +5166,7 @@ u"""
 )
 
 entry(
-    index = 3099,
+    index = 207,
     label = "CsJN",
     group = 
 """
@@ -5184,7 +5184,7 @@ u"""
 )
 
 entry(
-    index = 3108,
+    index = 208,
     label = "CCsJN",
     group = 
 """
@@ -5207,7 +5207,7 @@ u"""
 )
 
 entry(
-    index = 3110,
+    index = 209,
     label = "C2CsJN",
     group = 
 """
@@ -5230,7 +5230,7 @@ u"""
 )
 
 entry(
-    index = 3012,
+    index = 210,
     label = "OCJO",
     group = 
 """
@@ -5255,7 +5255,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 72,
+    index = 211,
     label = "CdsJ",
     group = 
 """
@@ -5270,7 +5270,7 @@ u"""
 )
 
 entry(
-    index = 79,
+    index = 212,
     label = "CdsJO",
     group = 
 """
@@ -5286,7 +5286,7 @@ u"""
 )
 
 entry(
-    index = 80,
+    index = 213,
     label = "HCdsJO",
     group = 
 """
@@ -5308,7 +5308,7 @@ u"""
 )
 
 entry(
-    index = 81,
+    index = 214,
     label = "CCJ=O",
     group = 
 """
@@ -5325,7 +5325,7 @@ u"""
 )
 
 entry(
-    index = 82,
+    index = 215,
     label = "CsCJ=O",
     group = 
 """
@@ -5347,7 +5347,7 @@ u"""
 )
 
 entry(
-    index = 3057,
+    index = 216,
     label = "CC(C)CJ=O",
     group = 
 """
@@ -5373,7 +5373,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3058,
+    index = 217,
     label = "CC(C)2CJ=O",
     group = 
 """
@@ -5400,7 +5400,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3060,
+    index = 218,
     label = "CC(C)(C=O)CJ=O",
     group = 
 """
@@ -5428,7 +5428,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3073,
+    index = 219,
     label = "C=CC(C)(C=O)CJ=O",
     group = 
 """
@@ -5457,7 +5457,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3071,
+    index = 220,
     label = "C=CC(C)2CJ=O",
     group = 
 """
@@ -5485,7 +5485,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3059,
+    index = 221,
     label = "CC(C)(O)CJ=O",
     group = 
 """
@@ -5512,7 +5512,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3072,
+    index = 222,
     label = "C=CC(C)(O)CJ=O",
     group = 
 """
@@ -5540,7 +5540,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 83,
+    index = 223,
     label = "C=CCJ=O",
     group = 
 """
@@ -5565,7 +5565,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3052,
+    index = 224,
     label = "CCCJ=O",
     group = 
 """
@@ -5590,7 +5590,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3054,
+    index = 225,
     label = "C=OCCJ=O",
     group = 
 """
@@ -5616,7 +5616,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3056,
+    index = 226,
     label = "C=OC=OCJ=O",
     group = 
 """
@@ -5643,7 +5643,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3070,
+    index = 227,
     label = "C=C(C)CJ=O",
     group = 
 """
@@ -5669,7 +5669,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3055,
+    index = 228,
     label = "OC=OCJ=O",
     group = 
 """
@@ -5695,7 +5695,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 84,
+    index = 229,
     label = "(O)CJO",
     group = 
 """
@@ -5712,7 +5712,7 @@ u"""
 )
 
 entry(
-    index = 84,
+    index = 230,
     label = "SCJ=O",
     group = 
 """
@@ -5735,7 +5735,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 85,
+    index = 231,
     label = "(O)CJOH",
     group = 
 """
@@ -5758,7 +5758,7 @@ u"""
 )
 
 entry(
-    index = 86,
+    index = 232,
     label = "(O)CJOC",
     group = 
 """
@@ -5783,7 +5783,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 87,
+    index = 233,
     label = "(O)CJOCH3",
     group = 
 """
@@ -5809,7 +5809,7 @@ u"""
 )
 
 entry(
-    index = 88,
+    index = 234,
     label = "(O)CJOCC",
     group = 
 """
@@ -5835,7 +5835,7 @@ u"""
 )
 
 entry(
-    index = 89,
+    index = 235,
     label = "(O)CJOCC2",
     group = 
 """
@@ -5861,7 +5861,7 @@ u"""
 )
 
 entry(
-    index = 90,
+    index = 236,
     label = "(O)CJOCC3",
     group = 
 """
@@ -5887,7 +5887,7 @@ u"""
 )
 
 entry(
-    index = 74,
+    index = 237,
     label = "Cds_P",
     group = 
 """
@@ -5909,7 +5909,7 @@ u"""
 )
 
 entry(
-    index = 75,
+    index = 238,
     label = "C=C=CJ",
     group = 
 """
@@ -5932,7 +5932,7 @@ u"""
 )
 
 entry(
-    index = 77,
+    index = 239,
     label = "Cds_S",
     group = 
 """
@@ -5954,7 +5954,7 @@ u"""
 )
 
 entry(
-    index = 78,
+    index = 240,
     label = "C=CJC=C",
     group = 
 """
@@ -5976,7 +5976,7 @@ u"""
 )
 
 entry(
-    index = 194,
+    index = 241,
     label = "cyclobutadiene-C1",
     group = 
 """
@@ -5999,7 +5999,7 @@ u"""
 )
 
 entry(
-    index = 193,
+    index = 242,
     label = "bicyclo[2.2.0]hexa-1(4),2,5-triene-C2",
     group = 
 """
@@ -6024,7 +6024,7 @@ u"""
 )
 
 entry(
-    index = 181,
+    index = 243,
     label = "1,3-cyclopentadiene-vinyl-2",
     group = 
 """
@@ -6048,7 +6048,7 @@ u"""
 )
 
 entry(
-    index = 144,
+    index = 244,
     label = "cyclopropenyl-vinyl",
     group = 
 """
@@ -6070,7 +6070,7 @@ u"""
 )
 
 entry(
-    index = 146,
+    index = 245,
     label = "cyclobutene-vinyl",
     group = 
 """
@@ -6093,7 +6093,7 @@ u"""
 )
 
 entry(
-    index = 184,
+    index = 246,
     label = "bicyclo[2.1.0]pent-2-ene-C2",
     group = 
 """
@@ -6117,7 +6117,7 @@ u"""
 )
 
 entry(
-    index = 189,
+    index = 247,
     label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C2",
     group = 
 """
@@ -6142,7 +6142,7 @@ u"""
 )
 
 entry(
-    index = 192,
+    index = 248,
     label = "bicyclo[2.2.0]hexa-2,5-diene-C2",
     group = 
 """
@@ -6167,7 +6167,7 @@ u"""
 )
 
 entry(
-    index = 178,
+    index = 249,
     label = "cyclopentene-vinyl",
     group = 
 """
@@ -6191,7 +6191,7 @@ u"""
 )
 
 entry(
-    index = 187,
+    index = 250,
     label = "bicyclo[2.1.1]hex-2-ene-C2",
     group = 
 """
@@ -6216,7 +6216,7 @@ u"""
 )
 
 entry(
-    index = 180,
+    index = 251,
     label = "1,3-cyclopentadiene-vinyl-1",
     group = 
 """
@@ -6240,7 +6240,7 @@ u"""
 )
 
 entry(
-    index = 3061,
+    index = 252,
     label = "C=CJC=O",
     group = 
 """
@@ -6265,7 +6265,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3079,
+    index = 253,
     label = "CCCJ=C=O",
     group = 
 """
@@ -6291,7 +6291,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3080,
+    index = 254,
     label = "CC(C)CJ=C=O",
     group = 
 """
@@ -6318,7 +6318,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3085,
+    index = 255,
     label = "C=C(C)CJ=C=O",
     group = 
 """
@@ -6345,7 +6345,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 257,
+    index = 256,
     label = "S2s-CJ=C",
     group = 
 """
@@ -6367,7 +6367,7 @@ u"""
 )
 
 entry(
-    index = 3025,
+    index = 257,
     label = "C=CJO",
     group = 
 """
@@ -6391,7 +6391,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 91,
+    index = 258,
     label = "CtJ",
     group = 
 """
@@ -6407,7 +6407,7 @@ u"""
 )
 
 entry(
-    index = 92,
+    index = 259,
     label = "Acetyl",
     group = 
 """
@@ -6429,7 +6429,7 @@ u"""
 )
 
 entry(
-    index = 93,
+    index = 260,
     label = "CbJ",
     group = 
 """
@@ -6451,7 +6451,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 261,
     label = "C=SJ",
     group = 
 """
@@ -6467,7 +6467,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 262,
     label = "C=SJ-S2s",
     group = 
 """
@@ -6484,7 +6484,7 @@ u"""
 )
 
 entry(
-    index = 258,
+    index = 263,
     label = "C=SJ-H",
     group = 
 """
@@ -6506,7 +6506,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 264,
     label = "C=SJ-C",
     group = 
 """
@@ -6523,7 +6523,7 @@ u"""
 )
 
 entry(
-    index = 260,
+    index = 265,
     label = "C=SJ-Cd",
     group = 
 """
@@ -6545,7 +6545,7 @@ u"""
 )
 
 entry(
-    index = 259,
+    index = 266,
     label = "C=SJ-Cs",
     group = 
 """
@@ -6567,7 +6567,7 @@ u"""
 )
 
 entry(
-    index = 94,
+    index = 267,
     label = "OJ",
     group = 
 """
@@ -6582,7 +6582,7 @@ u"""
 )
 
 entry(
-    index = 95,
+    index = 268,
     label = "HOJ",
     group = 
 """
@@ -6603,7 +6603,7 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 269,
     label = "COJ",
     group = 
 """
@@ -6619,7 +6619,7 @@ u"""
 )
 
 entry(
-    index = 96,
+    index = 270,
     label = "CsOJ",
     group = 
 """
@@ -6640,7 +6640,7 @@ u"""
 )
 
 entry(
-    index = 97,
+    index = 271,
     label = "H3COJ",
     group = 
 """
@@ -6664,7 +6664,7 @@ u"""
 )
 
 entry(
-    index = 3022,
+    index = 272,
     label = "CC(C)OJ",
     group = 
 """
@@ -6689,7 +6689,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3023,
+    index = 273,
     label = "CC(C)2OJ",
     group = 
 """
@@ -6715,7 +6715,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3036,
+    index = 274,
     label = "C=CC(C)2OJ",
     group = 
 """
@@ -6742,7 +6742,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3068,
+    index = 275,
     label = "C=CC(C)(C=O)OJ",
     group = 
 """
@@ -6770,7 +6770,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3051,
+    index = 276,
     label = "CC(C)(C=O)OJ",
     group = 
 """
@@ -6797,7 +6797,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3024,
+    index = 277,
     label = "CC(C)(O)OJ",
     group = 
 """
@@ -6823,7 +6823,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3037,
+    index = 278,
     label = "C=CC(C)(O)OJ",
     group = 
 """
@@ -6850,7 +6850,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 98,
+    index = 279,
     label = "CdsOJ",
     group = 
 """
@@ -6866,7 +6866,7 @@ u"""
 )
 
 entry(
-    index = 99,
+    index = 280,
     label = "RC=COJ",
     group = 
 """
@@ -6887,7 +6887,7 @@ u"""
 )
 
 entry(
-    index = 3034,
+    index = 281,
     label = "C=COJ",
     group = 
 """
@@ -6911,7 +6911,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3035,
+    index = 282,
     label = "C=C(C)OJ",
     group = 
 """
@@ -6936,7 +6936,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 100,
+    index = 283,
     label = "OJC=O",
     group = 
 """
@@ -6958,7 +6958,7 @@ u"""
 )
 
 entry(
-    index = 3049,
+    index = 284,
     label = "OC=OOJ",
     group = 
 """
@@ -6983,7 +6983,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3050,
+    index = 285,
     label = "C=OC=OOJ",
     group = 
 """
@@ -7009,7 +7009,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 217,
+    index = 286,
     label = "CbOJ",
     group = 
 """
@@ -7025,7 +7025,7 @@ u"""
 )
 
 entry(
-    index = 3020,
+    index = 287,
     label = "CCOJ",
     group = 
 """
@@ -7049,7 +7049,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3048,
+    index = 288,
     label = "C=OCOJ",
     group = 
 """
@@ -7074,7 +7074,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3021,
+    index = 289,
     label = "OCOJ",
     group = 
 """
@@ -7098,7 +7098,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3021,
+    index = 290,
     label = "SCOJ",
     group = 
 """
@@ -7121,7 +7121,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 101,
+    index = 291,
     label = "OOJ",
     group = 
 """
@@ -7137,7 +7137,7 @@ u"""
 )
 
 entry(
-    index = 102,
+    index = 292,
     label = "ROOJ",
     group = 
 """
@@ -7159,7 +7159,7 @@ u"""
 )
 
 entry(
-    index = 104,
+    index = 293,
     label = "C(=O)OOJ",
     group = 
 """
@@ -7182,7 +7182,7 @@ u"""
 )
 
 entry(
-    index = 103,
+    index = 294,
     label = "C3COOJ",
     group = 
 """
@@ -7207,7 +7207,7 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 295,
     label = "HOOJ",
     group = 
 """
@@ -7229,7 +7229,7 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 296,
     label = "SOOJ",
     group = 
 """
@@ -7252,7 +7252,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 3138,
+    index = 297,
     label = "NJ",
     group = 
 """
@@ -7267,7 +7267,7 @@ u"""
 )
 
 entry(
-    index = 3156,
+    index = 298,
     label = "N3sJ",
     group = 
 """
@@ -7282,7 +7282,7 @@ u"""
 )
 
 entry(
-    index = 3157,
+    index = 299,
     label = "NH2J",
     group = 
 """
@@ -7304,7 +7304,7 @@ u"""
 )
 
 entry(
-    index = 3158,
+    index = 300,
     label = "NHJ_C",
     group = 
 """
@@ -7326,7 +7326,7 @@ u"""
 )
 
 entry(
-    index = 3160,
+    index = 301,
     label = "NHJ_O",
     group = 
 """
@@ -7348,7 +7348,7 @@ u"""
 )
 
 entry(
-    index = 3161,
+    index = 302,
     label = "NHJ_N",
     group = 
 """
@@ -7370,7 +7370,7 @@ u"""
 )
 
 entry(
-    index = 3164,
+    index = 303,
     label = "NJ_CC",
     group = 
 """
@@ -7392,7 +7392,7 @@ u"""
 )
 
 entry(
-    index = 3167,
+    index = 304,
     label = "N3dJ",
     group = 
 """
@@ -7407,7 +7407,7 @@ u"""
 )
 
 entry(
-    index = 3168,
+    index = 305,
     label = "N3dJ_C",
     group = 
 """
@@ -7428,7 +7428,7 @@ u"""
 )
 
 entry(
-    index = 3170,
+    index = 306,
     label = "N3dJ_O",
     group = 
 """
@@ -7449,7 +7449,7 @@ u"""
 )
 
 entry(
-    index = 3171,
+    index = 307,
     label = "N3dJ_N",
     group = 
 """
@@ -7470,7 +7470,7 @@ u"""
 )
 
 entry(
-    index = 134,
+    index = 308,
     label = "SiJ",
     group = 
 """
@@ -7485,7 +7485,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 309,
     label = "SJ",
     group = 
 """
@@ -7500,7 +7500,7 @@ u"""
 )
 
 entry(
-    index = 235,
+    index = 310,
     label = "S2J-H",
     group = 
 """
@@ -7521,7 +7521,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 311,
     label = "S2J-C",
     group = 
 """
@@ -7537,7 +7537,7 @@ u"""
 )
 
 entry(
-    index = 236,
+    index = 312,
     label = "S2J-Cs",
     group = 
 """
@@ -7554,7 +7554,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 236,
+    index = 313,
     label = "S2sJ-(CsHHH)",
     group = 
 """
@@ -7579,7 +7579,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 236,
+    index = 314,
     label = "S2J-(Cs-Cb)",
     group = 
 """
@@ -7602,7 +7602,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 238,
+    index = 315,
     label = "S2J-Ct",
     group = 
 """
@@ -7623,7 +7623,7 @@ u"""
 )
 
 entry(
-    index = 239,
+    index = 316,
     label = "S2J-Cb",
     group = 
 """
@@ -7644,7 +7644,7 @@ u"""
 )
 
 entry(
-    index = 237,
+    index = 317,
     label = "S2J-Cd",
     group = 
 """
@@ -7666,7 +7666,7 @@ u"""
 )
 
 entry(
-    index = 240,
+    index = 318,
     label = "S2J-C=S",
     group = 
 """
@@ -7688,7 +7688,7 @@ u"""
 )
 
 entry(
-    index = 266,
+    index = 319,
     label = "S2J-CO",
     group = 
 """
@@ -7710,7 +7710,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 320,
     label = "S2J-S2s",
     group = 
 """
@@ -7726,7 +7726,7 @@ u"""
 )
 
 entry(
-    index = 241,
+    index = 321,
     label = "S2J-S2s-H",
     group = 
 """
@@ -7748,7 +7748,7 @@ u"""
 )
 
 entry(
-    index = 242,
+    index = 322,
     label = "S2J-S2s-Cs",
     group = 
 """
@@ -7770,7 +7770,7 @@ u"""
 )
 
 entry(
-    index = 243,
+    index = 323,
     label = "S2J-S2s-S2s",
     group = 
 """
@@ -7792,7 +7792,7 @@ u"""
 )
 
 entry(
-    index = 106,
+    index = 324,
     label = "RJ2_triplet",
     group = 
 """
@@ -7807,7 +7807,7 @@ u"""
 )
 
 entry(
-    index = 107,
+    index = 325,
     label = "CJ2_triplet",
     group = 
 """
@@ -7822,7 +7822,7 @@ u"""
 )
 
 entry(
-    index = 108,
+    index = 326,
     label = "CsJ2_triplet",
     group = 
 """
@@ -7837,7 +7837,7 @@ u"""
 )
 
 entry(
-    index = 110,
+    index = 327,
     label = "CH2_triplet",
     group = 
 """
@@ -7859,7 +7859,7 @@ u"""
 )
 
 entry(
-    index = 112,
+    index = 328,
     label = "CsJ2_P_triplet",
     group = 
 """
@@ -7876,7 +7876,7 @@ u"""
 )
 
 entry(
-    index = 113,
+    index = 329,
     label = "CsCsJ2_triplet",
     group = 
 """
@@ -7893,7 +7893,7 @@ u"""
 )
 
 entry(
-    index = 115,
+    index = 330,
     label = "CCJ2_triplet",
     group = 
 """
@@ -7918,7 +7918,7 @@ u"""
 )
 
 entry(
-    index = 118,
+    index = 331,
     label = "PhCH_triplet",
     group = 
 """
@@ -7940,7 +7940,7 @@ u"""
 )
 
 entry(
-    index = 121,
+    index = 332,
     label = "AllylJ2_triplet",
     group = 
 """
@@ -7962,7 +7962,7 @@ u"""
 )
 
 entry(
-    index = 123,
+    index = 333,
     label = "CsJ2_S_triplet",
     group = 
 """
@@ -7979,7 +7979,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 334,
     label = "OsCsJ2H_triplet",
     group = 
 """
@@ -8005,7 +8005,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 124,
+    index = 335,
     label = "CdJ2_triplet",
     group = 
 """
@@ -8020,7 +8020,7 @@ u"""
 )
 
 entry(
-    index = 126,
+    index = 336,
     label = "CCdJ2_triplet",
     group = 
 """
@@ -8036,7 +8036,7 @@ u"""
 )
 
 entry(
-    index = 138,
+    index = 337,
     label = "CdCdJ2_triplet",
     group = 
 """
@@ -8062,7 +8062,7 @@ Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 )
 
 entry(
-    index = 139,
+    index = 338,
     label = "(CO)CdJ2_triplet",
     group = 
 """
@@ -8087,7 +8087,7 @@ Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 )
 
 entry(
-    index = 262,
+    index = 339,
     label = "CdJ2-Sd_triplet",
     group = 
 """
@@ -8108,7 +8108,7 @@ u"""
 )
 
 entry(
-    index = 3175,
+    index = 340,
     label = "NJ2_triplet",
     group = 
 """
@@ -8123,7 +8123,7 @@ u"""
 )
 
 entry(
-    index = 3176,
+    index = 341,
     label = "N3sJ2",
     group = 
 """
@@ -8138,7 +8138,7 @@ u"""
 )
 
 entry(
-    index = 3177,
+    index = 342,
     label = "NHJ2",
     group = 
 """
@@ -8159,7 +8159,7 @@ u"""
 )
 
 entry(
-    index = 3178,
+    index = 343,
     label = "NJ2_C",
     group = 
 """
@@ -8180,7 +8180,7 @@ u"""
 )
 
 entry(
-    index = 3179,
+    index = 344,
     label = "NJ2_O",
     group = 
 """
@@ -8201,7 +8201,7 @@ u"""
 )
 
 entry(
-    index = 130,
+    index = 345,
     label = "Oa_triplet",
     group = 
 """
@@ -8221,7 +8221,7 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 346,
     label = "SiJ2_triplet",
     group = 
 """
@@ -8236,7 +8236,7 @@ u"""
 )
 
 entry(
-    index = 263,
+    index = 347,
     label = "SJ2_triplet",
     group = 
 """
@@ -8256,7 +8256,7 @@ u"""
 )
 
 entry(
-    index = 132,
+    index = 348,
     label = "RJ3",
     group = 
 """
@@ -8271,7 +8271,7 @@ u"""
 )
 
 entry(
-    index = 133,
+    index = 349,
     label = "CJ3",
     group = 
 """
@@ -8291,7 +8291,7 @@ u"""
 )
 
 entry(
-    index = 136,
+    index = 350,
     label = "SiJ3",
     group = 
 """
@@ -8306,7 +8306,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 351,
     label = "OC=CJCb",
     group = 
 """
@@ -8329,7 +8329,7 @@ Fit to CCSD(T)-F12/cc-pVDZ-F12//M06/vtz calculations for OC=[C]c1ccccc1
 )
 
 entry(
-    index = 2001,
+    index = 352,
     label = "S4dJ-OdH",
     group = 
 """
@@ -8352,7 +8352,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2002,
+    index = 353,
     label = "S2sJ-O",
     group = 
 """
@@ -8374,7 +8374,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2003,
+    index = 354,
     label = "S4dJ-OdO",
     group = 
 """
@@ -8397,7 +8397,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2004,
+    index = 355,
     label = "S6ddJ-OdOdH",
     group = 
 """
@@ -8421,7 +8421,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2005,
+    index = 356,
     label = "S6ddJ-OdOdO",
     group = 
 """
@@ -8445,7 +8445,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2006,
+    index = 357,
     label = "O2sJ-S2s",
     group = 
 """
@@ -8467,7 +8467,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2006,
+    index = 358,
     label = "O2sJ-S4d",
     group = 
 """
@@ -8484,7 +8484,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2006,
+    index = 359,
     label = "O2sJ-(S4d-OdO)",
     group = 
 """
@@ -8508,7 +8508,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2006,
+    index = 360,
     label = "O2sJ-S6d",
     group = 
 """
@@ -8530,7 +8530,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2006,
+    index = 361,
     label = "O2sJ-(S4d-OdC)",
     group = 
 """
@@ -8554,7 +8554,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2006,
+    index = 362,
     label = "O2sJ-(S4d-CdC)",
     group = 
 """
@@ -8578,7 +8578,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2006,
+    index = 363,
     label = "O2sJ-(S4d-OdH)",
     group = 
 """
@@ -8602,7 +8602,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2007,
+    index = 364,
     label = "SOJ",
     group = 
 """
@@ -8618,7 +8618,7 @@ u"""
 )
 
 entry(
-    index = 2007,
+    index = 365,
     label = "S2J",
     group = 
 """
@@ -8633,7 +8633,7 @@ u"""
 )
 
 entry(
-    index = 2007,
+    index = 366,
     label = "S4dJ",
     group = 
 """
@@ -8648,7 +8648,7 @@ u"""
 )
 
 entry(
-    index = 2007,
+    index = 367,
     label = "S6ddJ",
     group = 
 """
@@ -8663,7 +8663,7 @@ u"""
 )
 
 entry(
-    index = 2008,
+    index = 368,
     label = "S4sJ",
     group = 
 """
@@ -8678,7 +8678,7 @@ u"""
 )
 
 entry(
-    index = 2009,
+    index = 369,
     label = "S6sJ",
     group = 
 """
@@ -8693,7 +8693,7 @@ u"""
 )
 
 entry(
-    index = 2050,
+    index = 370,
     label = "S6dJ",
     group = 
 """
@@ -8708,7 +8708,7 @@ u"""
 )
 
 entry(
-    index = 2051,
+    index = 371,
     label = "S6dJ-OdOCC",
     group = 
 """
@@ -8733,7 +8733,7 @@ Based on radical calculations at CBS-QB3
 )
 
 entry(
-    index = 2010,
+    index = 372,
     label = "S4sJ-CCC",
     group = 
 """
@@ -8757,7 +8757,7 @@ Calculated at CBS-QB3
 )
 
 entry(
-    index = 2011,
+    index = 373,
     label = "S4sJ-OCC",
     group = 
 """
@@ -8781,7 +8781,7 @@ Based on radical calculations at CBS-QB3
 )
 
 entry(
-    index = 2010,
+    index = 374,
     label = "S6sJ-CCCCC",
     group = 
 """
@@ -8807,7 +8807,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 2011,
+    index = 375,
     label = "Benzyl_S_Fused5",
     group = 
 """
@@ -8842,7 +8842,7 @@ CCCC1C[CH]C2=CC=CC=C21
 )
 
 entry(
-    index = 2012,
+    index = 376,
     label = "Benzyl_S_Fused6",
     group = 
 """
@@ -8877,7 +8877,7 @@ CCC1CC[CH]C2=CC=CC=C21
 )
 
 entry(
-    index = 2013,
+    index = 377,
     label = "Benzyl_T_Fused5",
     group = 
 """
@@ -8911,7 +8911,7 @@ CCCC1C[CH]C2=CC=CC=C21
 )
 
 entry(
-    index = 2014,
+    index = 378,
     label = "Benzyl_T_Fused6",
     group = 
 """
@@ -8945,7 +8945,7 @@ CC[C]1CCCC2=CC=CC=C21
 )
 
 entry(
-    index = 2015,
+    index = 379,
     label = "CJ-Cd-Benzene",
     group = 
 """
@@ -8982,7 +8982,7 @@ CCC1=C[CH]CC2=CC=CC=C12
 )
 
 entry(
-    index = 2020,
+    index = 380,
     label = "Benzyl_S_dihydronaphthalene",
     group = 
 """
@@ -9020,7 +9020,7 @@ enthalpy for C1=CC=C2C=CC[CH]C2=C1 matches calculated value.
 )
 
 entry(
-    index = 2021,
+    index = 381,
     label = "Benzyl_T_dihydronaphthalene",
     group = 
 """
@@ -9054,7 +9054,7 @@ CC[C]1CC=CC2=CC=CC=C12
 )
 
 entry(
-    index = 2022,
+    index = 382,
     label = "Aromatic_pi_S_1_3",
     group = 
 """
@@ -9090,7 +9090,7 @@ CC1[CH]C=CC=C1
 )
 
 entry(
-    index = 2023,
+    index = 383,
     label = "Aromatic_pi_S_1_4",
     group = 
 """
@@ -9112,7 +9112,7 @@ See Aromatic_pi_S_1_3
 )
 
 entry(
-    index = 2024,
+    index = 384,
     label = "Aromatic_pi_T_1_3",
     group = 
 """
@@ -9134,7 +9134,7 @@ See Aromatic_pi_S_1_3
 )
 
 entry(
-    index = 2025,
+    index = 385,
     label = "Aromatic_pi_T_1_4",
     group = 
 """
@@ -9156,7 +9156,7 @@ See Aromatic_pi_S_1_3
 )
 
 entry(
-    index = 2026,
+    index = 386,
     label = "Aromatic_pi_S_(CH3_CH3_Ortho)_1_3",
     group = 
 """
@@ -9194,7 +9194,7 @@ CC1(C)[CH]C=CC=C1
 )
 
 entry(
-    index = 2027,
+    index = 387,
     label = "Aromatic_pi_S_(CH3_CH3_Ortho)_1_4",
     group = 
 """
@@ -9218,7 +9218,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2028,
+    index = 388,
     label = "Aromatic_pi_T_(CH3_CH3_Ortho)_1_3",
     group = 
 """
@@ -9241,7 +9241,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2029,
+    index = 389,
     label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_3_1",
     group = 
 """
@@ -9265,7 +9265,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2030,
+    index = 390,
     label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_4",
     group = 
 """
@@ -9289,7 +9289,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2031,
+    index = 391,
     label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_3_2",
     group = 
 """
@@ -9313,7 +9313,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2032,
+    index = 392,
     label = "Aromatic_pi_S_(CH3_CH3_Para)_1_3",
     group = 
 """
@@ -9337,7 +9337,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2033,
+    index = 393,
     label = "Aromatic_pi_T_(CH3_CH3_Para)_1_4",
     group = 
 """
@@ -9360,7 +9360,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2034,
+    index = 394,
     label = "Aromatic_pi_S_(CH3_CH3_Sub)_1_3",
     group = 
 """
@@ -9384,7 +9384,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2035,
+    index = 395,
     label = "Aromatic_pi_S_(CH3_CH3_Sub)_1_4",
     group = 
 """
@@ -9408,7 +9408,7 @@ See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 )
 
 entry(
-    index = 2036,
+    index = 396,
     label = "Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3",
     group = 
 """
@@ -9447,7 +9447,7 @@ CCC1(C)[CH]C=CC=C1
 )
 
 entry(
-    index = 2037,
+    index = 397,
     label = "Aromatic_pi_S_(CH3_C2H5_Ortho)_1_4",
     group = 
 """
@@ -9472,7 +9472,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2038,
+    index = 398,
     label = "Aromatic_pi_T_(CH3_C2H5_Ortho)_1_3",
     group = 
 """
@@ -9496,7 +9496,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2039,
+    index = 399,
     label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_1",
     group = 
 """
@@ -9521,7 +9521,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2040,
+    index = 400,
     label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_4",
     group = 
 """
@@ -9546,7 +9546,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2041,
+    index = 401,
     label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_2",
     group = 
 """
@@ -9571,7 +9571,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2042,
+    index = 402,
     label = "Aromatic_pi_S_(CH3_C2H5_Para)_1_3",
     group = 
 """
@@ -9596,7 +9596,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2043,
+    index = 403,
     label = "Aromatic_pi_T_(CH3_C2H5_Para)_1_4",
     group = 
 """
@@ -9620,7 +9620,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2044,
+    index = 404,
     label = "Aromatic_pi_S_(CH3_C2H5_Sub)_1_3",
     group = 
 """
@@ -9645,7 +9645,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2045,
+    index = 405,
     label = "Aromatic_pi_S_(CH3_C2H5_Sub)_1_4",
     group = 
 """
@@ -9670,7 +9670,7 @@ See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 )
 
 entry(
-    index = 2046,
+    index = 406,
     label = "Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3",
     group = 
 """
@@ -9710,7 +9710,7 @@ Model Species used include:
 )
 
 entry(
-    index = 2047,
+    index = 407,
     label = "Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_4",
     group = 
 """
@@ -9739,7 +9739,7 @@ u"""
 )
 
 entry(
-    index = 2048,
+    index = 408,
     label = "Aromatic_pi_T_(CH3_Benzyl_Ortho)_1_3",
     group = 
 """
@@ -9767,7 +9767,7 @@ u"""
 )
 
 entry(
-    index = 2049,
+    index = 409,
     label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_1",
     group = 
 """
@@ -9796,7 +9796,7 @@ u"""
 )
 
 entry(
-    index = 2050,
+    index = 410,
     label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_4",
     group = 
 """
@@ -9825,7 +9825,7 @@ u"""
 )
 
 entry(
-    index = 2051,
+    index = 411,
     label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_2",
     group = 
 """
@@ -9854,7 +9854,7 @@ u"""
 )
 
 entry(
-    index = 2052,
+    index = 412,
     label = "Aromatic_pi_S_(CH3_Benzyl_Para)_1_3",
     group = 
 """
@@ -9883,7 +9883,7 @@ u"""
 )
 
 entry(
-    index = 2053,
+    index = 413,
     label = "Aromatic_pi_T_(CH3_Benzyl_Para)_1_4",
     group = 
 """
@@ -9911,7 +9911,7 @@ u"""
 )
 
 entry(
-    index = 2054,
+    index = 414,
     label = "Aromatic_pi_S_(CH3_Benzyl_Sub)_1_3",
     group = 
 """
@@ -9940,7 +9940,7 @@ u"""
 )
 
 entry(
-    index = 2055,
+    index = 415,
     label = "Aromatic_pi_S_(CH3_Benzyl_Sub)_1_4",
     group = 
 """
@@ -9969,7 +9969,7 @@ u"""
 )
 
 entry(
-    index = 2056,
+    index = 416,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3",
     group = 
 """
@@ -10010,7 +10010,7 @@ Model Species used include:
 )
 
 entry(
-    index = 2057,
+    index = 417,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_4",
     group = 
 """
@@ -10040,7 +10040,7 @@ u"""
 )
 
 entry(
-    index = 2058,
+    index = 418,
     label = "Aromatic_pi_T_(CH3_EBenzyl_Ortho)_1_3",
     group = 
 """
@@ -10069,7 +10069,7 @@ u"""
 )
 
 entry(
-    index = 2059,
+    index = 419,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_1",
     group = 
 """
@@ -10099,7 +10099,7 @@ u"""
 )
 
 entry(
-    index = 2060,
+    index = 420,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_4",
     group = 
 """
@@ -10129,7 +10129,7 @@ u"""
 )
 
 entry(
-    index = 2061,
+    index = 421,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_2",
     group = 
 """
@@ -10159,7 +10159,7 @@ u"""
 )
 
 entry(
-    index = 2062,
+    index = 422,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Para)_1_3",
     group = 
 """
@@ -10189,7 +10189,7 @@ u"""
 )
 
 entry(
-    index = 2063,
+    index = 423,
     label = "Aromatic_pi_T_(CH3_EBenzyl_Para)_1_4",
     group = 
 """
@@ -10218,7 +10218,7 @@ u"""
 )
 
 entry(
-    index = 2064,
+    index = 424,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_3",
     group = 
 """
@@ -10248,7 +10248,7 @@ u"""
 )
 
 entry(
-    index = 2065,
+    index = 425,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_4",
     group = 
 """
@@ -10278,7 +10278,7 @@ u"""
 )
 
 entry(
-    index = 2066,
+    index = 426,
     label = "Aromatic_pi_S_(fused5)_1_4",
     group = 
 """
@@ -10317,7 +10317,7 @@ CCCC1CCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2067,
+    index = 427,
     label = "Aromatic_pi_S_(fused6)_1_4",
     group = 
 """
@@ -10356,7 +10356,7 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2068,
+    index = 428,
     label = "Aromatic_pi_S_(fused5)_1_3",
     group = 
 """
@@ -10393,7 +10393,7 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2069,
+    index = 429,
     label = "Aromatic_pi_S_(fused6)_1_3",
     group = 
 """
@@ -10431,7 +10431,7 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2070,
+    index = 430,
     label = "Aromatic_pi_T_(fused5)_1_3",
     group = 
 """
@@ -10467,7 +10467,7 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2071,
+    index = 431,
     label = "Aromatic_pi_T_(fused6)_1_3",
     group = 
 """
@@ -10504,7 +10504,7 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2072,
+    index = 432,
     label = "Aromatic_pi_S_(s1_3_6_diene_1_4)_1_3",
     group = 
 """
@@ -10539,7 +10539,7 @@ CCCCC1CC12C=C[CH]C=C2
 )
 
 entry(
-    index = 2073,
+    index = 433,
     label = "Aromatic_pi_S_(s1_3_6_diene_1_4)_1_4",
     group = 
 """
@@ -10563,7 +10563,7 @@ See Aromatic_pi_S_(s1_3_6_diene_1_4)_1_3
 )
 
 entry(
-    index = 2074,
+    index = 434,
     label = "Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3",
     group = 
 """
@@ -10599,7 +10599,7 @@ CCCC1CCC12C=C[CH]C=C2
 )
 
 entry(
-    index = 2075,
+    index = 435,
     label = "Aromatic_pi_S_(s1_4_6_diene_1_4)_1_4",
     group = 
 """
@@ -10624,7 +10624,7 @@ See Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3
 )
 
 entry(
-    index = 2076,
+    index = 436,
     label = "Aromatic_pi_S_(s1_5_6_diene_1_4)_1_3",
     group = 
 """
@@ -10661,7 +10661,7 @@ CCC1CCCC12C=C[CH]C=C2
 )
 
 entry(
-    index = 2077,
+    index = 437,
     label = "Aromatic_pi_S_(s1_5_6_diene_1_4)_1_4",
     group = 
 """
@@ -10687,7 +10687,7 @@ See Aromatic_pi_S_(s1_5_6_diene_1_4)_1_3
 )
 
 entry(
-    index = 2078,
+    index = 438,
     label = "Aromatic_pi_S_(s1_6_6_diene_1_4)_1_3",
     group = 
 """
@@ -10725,7 +10725,7 @@ CC1CCCCC12C=C[CH]C=C2
 )
 
 entry(
-    index = 2079,
+    index = 439,
     label = "Aromatic_pi_S_(s1_6_6_diene_1_4)_1_4",
     group = 
 """
@@ -10752,7 +10752,7 @@ See Aromatic_pi_S_(s1_6_6_diene_1_4)_1_3
 )
 
 entry(
-    index = 2080,
+    index = 440,
     label = "Benzyl_S_Fused7",
     group = 
 """
@@ -10786,7 +10786,7 @@ C1=CC=C2CCCC[CH]C2=C1
 )
 
 entry(
-    index = 2082,
+    index = 441,
     label = "Aromatic_pi_S_(fused7)_1_3",
     group = 
 """
@@ -10825,7 +10825,7 @@ C1=CC=C2CCCCC(C)C2[CH]1
 )
 
 entry(
-    index = 2082,
+    index = 442,
     label = "CJ-Cd-Benzene7",
     group = 
 """
@@ -10859,7 +10859,7 @@ C1=CC=C2CC[CH]C=CC2=C1
 )
 
 entry(
-    index = 3086,
+    index = 443,
     label = "CsJ-HNN",
     group = 
 """
@@ -10882,7 +10882,7 @@ u"""
 )
 
 entry(
-    index = 3087,
+    index = 444,
     label = "CsJ-HNN3ds",
     group = 
 """
@@ -10905,7 +10905,7 @@ u"""
 )
 
 entry(
-    index = 3088,
+    index = 445,
     label = "CsJ-HN(N3dCd)",
     group = 
 """
@@ -10929,7 +10929,7 @@ u"""
 )
 
 entry(
-    index = 3089,
+    index = 446,
     label = "CsJ-HN(N3dOd)",
     group = 
 """
@@ -10953,7 +10953,7 @@ u"""
 )
 
 entry(
-    index = 3090,
+    index = 447,
     label = "CsJ-HN(N3dN5dc)",
     group = 
 """
@@ -10977,7 +10977,7 @@ u"""
 )
 
 entry(
-    index = 3091,
+    index = 448,
     label = "CsJ-HN5scN5sc",
     group = 
 """
@@ -11000,7 +11000,7 @@ u"""
 )
 
 entry(
-    index = 3092,
+    index = 449,
     label = "CsJ-NNN",
     group = 
 """
@@ -11023,7 +11023,7 @@ u"""
 )
 
 entry(
-    index = 3093,
+    index = 450,
     label = "CsJ-HNO",
     group = 
 """
@@ -11046,7 +11046,7 @@ u"""
 )
 
 entry(
-    index = 3094,
+    index = 451,
     label = "CsJ-HON1sc",
     group = 
 """
@@ -11069,7 +11069,7 @@ u"""
 )
 
 entry(
-    index = 3095,
+    index = 452,
     label = "CsJ-NNO",
     group = 
 """
@@ -11092,7 +11092,7 @@ u"""
 )
 
 entry(
-    index = 3096,
+    index = 453,
     label = "CsJ-NOO",
     group = 
 """
@@ -11115,7 +11115,7 @@ u"""
 )
 
 entry(
-    index = 3097,
+    index = 454,
     label = "CsJ-CNN",
     group = 
 """
@@ -11138,7 +11138,7 @@ u"""
 )
 
 entry(
-    index = 3098,
+    index = 455,
     label = "CsJ-CNO",
     group = 
 """
@@ -11161,7 +11161,7 @@ u"""
 )
 
 entry(
-    index = 3100,
+    index = 456,
     label = "CsJN3s",
     group = 
 """
@@ -11184,7 +11184,7 @@ u"""
 )
 
 entry(
-    index = 3101,
+    index = 457,
     label = "CsJN5sdtc",
     group = 
 """
@@ -11207,7 +11207,7 @@ u"""
 )
 
 entry(
-    index = 3102,
+    index = 458,
     label = "CsJN5sc",
     group = 
 """
@@ -11230,7 +11230,7 @@ u"""
 )
 
 entry(
-    index = 3103,
+    index = 459,
     label = "CsJN5dcOdO0sc",
     group = 
 """
@@ -11255,7 +11255,7 @@ u"""
 )
 
 entry(
-    index = 3104,
+    index = 460,
     label = "CsJN5dcN3dO0sc",
     group = 
 """
@@ -11280,7 +11280,7 @@ u"""
 )
 
 entry(
-    index = 3105,
+    index = 461,
     label = "CsJN3dCd",
     group = 
 """
@@ -11304,7 +11304,7 @@ u"""
 )
 
 entry(
-    index = 3106,
+    index = 462,
     label = "CsJN3dCdd",
     group = 
 """
@@ -11328,7 +11328,7 @@ u"""
 )
 
 entry(
-    index = 3107,
+    index = 463,
     label = "CsJN3dN5dc",
     group = 
 """
@@ -11352,7 +11352,7 @@ u"""
 )
 
 entry(
-    index = 3109,
+    index = 464,
     label = "CdCsJN",
     group = 
 """
@@ -11375,7 +11375,7 @@ u"""
 )
 
 entry(
-    index = 3111,
+    index = 465,
     label = "CdJ-NN",
     group = 
 """
@@ -11397,7 +11397,7 @@ u"""
 )
 
 entry(
-    index = 3112,
+    index = 466,
     label = "COJ-NOd",
     group = 
 """
@@ -11419,7 +11419,7 @@ u"""
 )
 
 entry(
-    index = 3113,
+    index = 467,
     label = "CdJ-CdN",
     group = 
 """
@@ -11441,7 +11441,7 @@ u"""
 )
 
 entry(
-    index = 3114,
+    index = 468,
     label = "CdJ-CddN",
     group = 
 """
@@ -11463,7 +11463,7 @@ u"""
 )
 
 entry(
-    index = 3115,
+    index = 469,
     label = "CdJ-NdO",
     group = 
 """
@@ -11485,7 +11485,7 @@ u"""
 )
 
 entry(
-    index = 3116,
+    index = 470,
     label = "CdJ-NdC",
     group = 
 """
@@ -11507,7 +11507,7 @@ u"""
 )
 
 entry(
-    index = 3117,
+    index = 471,
     label = "N=C=CJ",
     group = 
 """
@@ -11530,7 +11530,7 @@ u"""
 )
 
 entry(
-    index = 3118,
+    index = 472,
     label = "N=C=CJC",
     group = 
 """
@@ -11553,7 +11553,7 @@ u"""
 )
 
 entry(
-    index = 3119,
+    index = 473,
     label = "CdJ-HN3d",
     group = 
 """
@@ -11575,7 +11575,7 @@ u"""
 )
 
 entry(
-    index = 3120,
+    index = 474,
     label = "CdJ-H(N3dOs)",
     group = 
 """
@@ -11598,7 +11598,7 @@ u"""
 )
 
 entry(
-    index = 3121,
+    index = 475,
     label = "CdJ-H(N3dCO)",
     group = 
 """
@@ -11622,7 +11622,7 @@ u"""
 )
 
 entry(
-    index = 3122,
+    index = 476,
     label = "CdJ-H(N3dN3d)",
     group = 
 """
@@ -11645,7 +11645,7 @@ u"""
 )
 
 entry(
-    index = 3123,
+    index = 477,
     label = "CdJ-H(N3dCd)",
     group = 
 """
@@ -11668,7 +11668,7 @@ u"""
 )
 
 entry(
-    index = 3124,
+    index = 478,
     label = "CdJ-HN5dc",
     group = 
 """
@@ -11690,7 +11690,7 @@ u"""
 )
 
 entry(
-    index = 3125,
+    index = 479,
     label = "O2sJ-N",
     group = 
 """
@@ -11706,7 +11706,7 @@ u"""
 )
 
 entry(
-    index = 3126,
+    index = 480,
     label = "O2sJ-N3s",
     group = 
 """
@@ -11722,7 +11722,7 @@ u"""
 )
 
 entry(
-    index = 3127,
+    index = 481,
     label = "O2sJ-N3sC",
     group = 
 """
@@ -11744,7 +11744,7 @@ u"""
 )
 
 entry(
-    index = 3128,
+    index = 482,
     label = "O2sJ-N3sCO",
     group = 
 """
@@ -11767,7 +11767,7 @@ u"""
 )
 
 entry(
-    index = 3129,
+    index = 483,
     label = "O2sJ-N3sO2s",
     group = 
 """
@@ -11789,7 +11789,7 @@ u"""
 )
 
 entry(
-    index = 3130,
+    index = 484,
     label = "O2sJ-N3s(N5sdcO0sc)",
     group = 
 """
@@ -11812,7 +11812,7 @@ u"""
 )
 
 entry(
-    index = 3131,
+    index = 485,
     label = "O2sJ-N5sdtc",
     group = 
 """
@@ -11833,7 +11833,7 @@ u"""
 )
 
 entry(
-    index = 3132,
+    index = 486,
     label = "O2sJ-N5dcOd",
     group = 
 """
@@ -11855,7 +11855,7 @@ u"""
 )
 
 entry(
-    index = 3133,
+    index = 487,
     label = "O2sJ-N5dcOdO0sc",
     group = 
 """
@@ -11878,7 +11878,7 @@ u"""
 )
 
 entry(
-    index = 3134,
+    index = 488,
     label = "O2sJ-N1sc",
     group = 
 """
@@ -11899,7 +11899,7 @@ u"""
 )
 
 entry(
-    index = 3135,
+    index = 489,
     label = "O2sJ-N3dN3d",
     group = 
 """
@@ -11921,7 +11921,7 @@ u"""
 )
 
 entry(
-    index = 3136,
+    index = 490,
     label = "O2sJ-N3dCd",
     group = 
 """
@@ -11943,7 +11943,7 @@ u"""
 )
 
 entry(
-    index = 3137,
+    index = 491,
     label = "N=COJ",
     group = 
 """
@@ -11965,7 +11965,7 @@ u"""
 )
 
 entry(
-    index = 3139,
+    index = 492,
     label = "N5scJ-HNO",
     group = 
 """
@@ -11988,7 +11988,7 @@ u"""
 )
 
 entry(
-    index = 3140,
+    index = 493,
     label = "N5scJ-NNO",
     group = 
 """
@@ -12011,7 +12011,7 @@ u"""
 )
 
 entry(
-    index = 3141,
+    index = 494,
     label = "N5scJ-HOO",
     group = 
 """
@@ -12034,7 +12034,7 @@ u"""
 )
 
 entry(
-    index = 3142,
+    index = 495,
     label = "N5scJ-NOO",
     group = 
 """
@@ -12057,7 +12057,7 @@ u"""
 )
 
 entry(
-    index = 3143,
+    index = 496,
     label = "N5scJ-CHO",
     group = 
 """
@@ -12080,7 +12080,7 @@ u"""
 )
 
 entry(
-    index = 3144,
+    index = 497,
     label = "N5scJ-CNO",
     group = 
 """
@@ -12103,7 +12103,7 @@ u"""
 )
 
 entry(
-    index = 3145,
+    index = 498,
     label = "N5scJ-COO",
     group = 
 """
@@ -12126,7 +12126,7 @@ u"""
 )
 
 entry(
-    index = 3146,
+    index = 499,
     label = "N5scJ-CCO",
     group = 
 """
@@ -12149,7 +12149,7 @@ u"""
 )
 
 entry(
-    index = 3147,
+    index = 500,
     label = "N5dcJ-NOd",
     group = 
 """
@@ -12171,7 +12171,7 @@ u"""
 )
 
 entry(
-    index = 3148,
+    index = 501,
     label = "N5dcJ-NdO",
     group = 
 """
@@ -12193,7 +12193,7 @@ u"""
 )
 
 entry(
-    index = 3149,
+    index = 502,
     label = "N5dcJ-CdO",
     group = 
 """
@@ -12215,7 +12215,7 @@ u"""
 )
 
 entry(
-    index = 3150,
+    index = 503,
     label = "N3sJ-NN",
     group = 
 """
@@ -12237,7 +12237,7 @@ u"""
 )
 
 entry(
-    index = 3151,
+    index = 504,
     label = "N3sJ-NO",
     group = 
 """
@@ -12259,7 +12259,7 @@ u"""
 )
 
 entry(
-    index = 3152,
+    index = 505,
     label = "N3sJ-OO",
     group = 
 """
@@ -12281,7 +12281,7 @@ u"""
 )
 
 entry(
-    index = 3153,
+    index = 506,
     label = "N3sJ-CN",
     group = 
 """
@@ -12303,7 +12303,7 @@ u"""
 )
 
 entry(
-    index = 3154,
+    index = 507,
     label = "N3sJ-CO",
     group = 
 """
@@ -12325,7 +12325,7 @@ u"""
 )
 
 entry(
-    index = 3155,
+    index = 508,
     label = "N3sJ-CtO",
     group = 
 """
@@ -12347,7 +12347,7 @@ u"""
 )
 
 entry(
-    index = 3159,
+    index = 509,
     label = "NHJ_Cd",
     group = 
 """
@@ -12369,7 +12369,7 @@ u"""
 )
 
 entry(
-    index = 3162,
+    index = 510,
     label = "NHJ_N3d",
     group = 
 """
@@ -12391,7 +12391,7 @@ u"""
 )
 
 entry(
-    index = 3163,
+    index = 511,
     label = "NHJ_N5dc",
     group = 
 """
@@ -12413,7 +12413,7 @@ u"""
 )
 
 entry(
-    index = 3165,
+    index = 512,
     label = "NJ_CCd",
     group = 
 """
@@ -12435,7 +12435,7 @@ u"""
 )
 
 entry(
-    index = 3166,
+    index = 513,
     label = "NJ_CCO",
     group = 
 """
@@ -12458,7 +12458,7 @@ u"""
 )
 
 entry(
-    index = 3169,
+    index = 514,
     label = "N3dJ_Cdd",
     group = 
 """
@@ -12479,7 +12479,7 @@ u"""
 )
 
 entry(
-    index = 3172,
+    index = 515,
     label = "N3dJ_N5dc",
     group = 
 """
@@ -12500,7 +12500,7 @@ u"""
 )
 
 entry(
-    index = 3173,
+    index = 516,
     label = "N3dJ_N3d",
     group = 
 """
@@ -12521,7 +12521,7 @@ u"""
 )
 
 entry(
-    index = 3174,
+    index = 517,
     label = "NCdJ2_triplet",
     group = 
 """
