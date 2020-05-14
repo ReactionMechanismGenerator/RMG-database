@@ -73,20 +73,16 @@ SOC = {'H': 0.0, 'N': 0.0, 'O': -0.000355, 'C': -0.000135, 'S': -0.000893, 'P': 
        'F': -0.000614, 'Si': -0.000682, 'Cl': -0.001338, 'Br': -0.005597, 'B': -0.000046}
 
 # Atomic energies
-# All model chemistries here should be lower-case because the user input is changed to lower-case
 atom_energies = {
-    # Note: If your model chemistry does not include spin orbit coupling, you should add the corrections
-    # to the energies here
-
     'wb97m-v/def2-tzvpd': {
-        'H': -0.4941110259 + SOC['H'],
-        'C': -37.8458797086 + SOC['C'],
-        'N': -54.5915786724 + SOC['N'],
-        'O': -75.0762279005 + SOC['O'],
-        'S': -398.0789126541 + SOC['S'],
-        'F': -99.7434924415 + SOC['F'],
-        'Cl': -460.1100357269 + SOC['Cl'],
-        'Br': -2573.9684615505 + SOC['Br']
+        'H': -0.49338216995809725,
+        'C': -37.84772407774059,
+        'N': -54.59351384873174,
+        'O': -75.0774947462408,
+        'F': -99.74200231175924,
+        'S': -398.0820818202818,
+        'Cl': -460.1117669506163,
+        'Br': -2573.9713149056824
     },
 
     # cbs-qb3 and cbs-qb3-paraskevas have the same corrections
