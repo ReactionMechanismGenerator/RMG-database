@@ -34,31 +34,29 @@ chemistries.
 
 # Atom energy corrections to reach gas-phase reference state
 # Experimental enthalpy of formation at 0 K, 1 bar for gas phase
-# See Gaussian thermo whitepaper at http://gaussian.com/thermo/
-# Note: These values are relatively old and some improvement may be possible by using newer values
-# (particularly for carbon).
-# However, care should be taken to ensure that they are compatible with the BAC values (if BACs are used)
+# Data from the Active Thermochemical Tables (version 1.122g)
+# Care should be taken that these values are compatible with the BAC values (if BACs are used)
 # He, Ne, K, Ca, Ti, Cu, Zn, Ge, Br, Kr, Rb, Ag, Cd, Sn, I, Xe, Cs, Hg, and Pb are taken from CODATA
 # Codata: Cox, J. D., Wagman, D. D., and Medvedev, V. A., CODATA Key Values for Thermodynamics, Hemisphere
 # Publishing Corp., New York, 1989. (http://www.science.uwaterloo.ca/~cchieh/cact/tools/thermodata.html)
 
-atom_hf = {'H': 51.63, 'He': -1.481,
-           'Li': 37.69, 'Be': 76.48, 'B': 136.2, 'C': 169.98, 'N': 112.53, 'O': 58.99, 'F': 18.47, 'Ne': -1.481,
-           'Na': 25.69, 'Mg': 34.87, 'Al': 78.23, 'Si': 106.6, 'P': 75.42, 'S': 65.66, 'Cl': 28.59,
-           'K': 36.841, 'Ca': 41.014, 'Ti': 111.2, 'Cu': 79.16, 'Zn': 29.685, 'Ge': 87.1, 'Br': 25.26,
+atom_hf = {'H': 51.6334, 'He': -1.481,
+           'Li': 37.69, 'Be': 76.48, 'B': 136.2, 'C': 170.028, 'N': 112.471, 'O': 58.9971, 'F': 18.464, 'Ne': -1.481,
+           'Na': 25.69, 'Mg': 34.87, 'Al': 78.23, 'Si': 106.6, 'P': 75.42, 'S': 65.66, 'Cl': 28.5901,
+           'K': 36.841, 'Ca': 41.014, 'Ti': 111.2, 'Cu': 79.16, 'Zn': 29.685, 'Ge': 87.1, 'Br': 28.1821,
            'Kr': -1.481,
-           'Rb': 17.86, 'Ag': 66.61, 'Cd': 25.240, 'Sn': 70.50, 'I': 24.04, 'Xe': -1.481,
+           'Rb': 17.86, 'Ag': 66.61, 'Cd': 25.240, 'Sn': 70.50, 'I': 25.6111, 'Xe': -1.481,
            'Cs': 16.80, 'Hg': 13.19, 'Pb': 15.17}
 
 # Thermal contribution to enthalpy for the atoms reported by Gaussian thermo whitepaper
 # This will be subtracted from the corresponding value in atom_hf to produce an enthalpy used in calculating
 # the enthalpy of formation at 298 K
-atom_thermal = {'H': 1.01, 'He': 1.481,
-                'Li': 1.1, 'Be': 0.46, 'B': 0.29, 'C': 0.25, 'N': 1.04, 'O': 1.04, 'F': 1.05, 'Ne': 1.481,
-                'Na': 1.54, 'Mg': 1.19, 'Al': 1.08, 'Si': 0.76, 'P': 1.28, 'S': 1.05, 'Cl': 1.1,
-                'K': 1.481, 'Ca': 1.481, 'Ti': 1.802, 'Cu': 1.481, 'Zn': 1.481, 'Ge': 1.768, 'Br': 1.481,
+atom_thermal = {'H': 1.012, 'He': 1.481,
+                'Li': 1.1, 'Be': 0.46, 'B': 0.29, 'C': 0.2512, 'N': 1.036, 'O': 1.037, 'F': 1.055, 'Ne': 1.481,
+                'Na': 1.54, 'Mg': 1.19, 'Al': 1.08, 'Si': 0.76, 'P': 1.28, 'S': 1.054, 'Cl': 1.097,
+                'K': 1.481, 'Ca': 1.481, 'Ti': 1.802, 'Cu': 1.481, 'Zn': 1.481, 'Ge': 1.768, 'Br': 2.930,
                 'Kr': 1.481,
-                'Rb': 1.481, 'Ag': 1.481, 'Cd': 1.481, 'Sn': 1.485, 'I': 1.481, 'Xe': 1.481,
+                'Rb': 1.481, 'Ag': 1.481, 'Cd': 1.481, 'Sn': 1.485, 'I': 1.577, 'Xe': 1.481,
                 'Cs': 1.481, 'Hg': 1.481, 'Pb': 1.481}
 
 # Spin orbit correction (SOC) in Hartrees
