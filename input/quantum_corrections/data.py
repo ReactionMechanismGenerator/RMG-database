@@ -453,6 +453,7 @@ freq_dict = {'hf/sto-3g': 0.817,  # [2]
              'wb97xd/6-311++g(d,p)': 0.988,  # [4]
              'wb97xd/def2tzvp': 0.988,  # [4]
              'wb97xd/def2svp': 0.986,  # [4]
+             'wb97m-v/def2-tzvpd': 1.002,  # [4]
              'apfd/def2tzvp': 0.993,  # [4]
              'apfd/def2tzvpp': 0.992,  # [4]
              'mp2_rmp2_pvdz': 0.953,  # [2], taken as 'MP2/cc-pVDZ'
