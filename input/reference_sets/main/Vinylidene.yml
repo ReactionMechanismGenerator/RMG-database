@@ -1,6 +1,5 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 1
   1 C u0 p0 c0 {2,D} {3,S} {4,S}
   2 C u0 p1 c0 {1,D}
   3 H u0 p0 c0 {1,S}
@@ -12,7 +11,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 96.11494338274596
+        value: 97.47027410389452
       class: ThermoData
     xyz_dict:
       coords:
