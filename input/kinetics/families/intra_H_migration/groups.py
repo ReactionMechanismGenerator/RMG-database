@@ -23,7 +23,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "RnH",
-    group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall, R8Hall}",
+    group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall, R8Hall, R9Hall}",
     kinetics = None,
 )
 
@@ -3171,6 +3171,25 @@ entry(
 )
 
 entry(
+    index = 100001,
+    label = "R9Hall",
+    group =
+"""
+1 *7 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+2 *8 R!H ux {1,[S,D,T,B]} {3,[S,D,T,B]}
+3 *9 R!H ux {2,[S,D,T,B]} {5,[S,D,T,B]}
+4 *6 R!H ux {1,[S,D,T,B]} {6,[S,D,T,B]}
+5 *5 R!H ux {3,[S,D,T,B]} {8,[S,D,T,B]}
+6 *4 R!H ux {4,[S,D,T,B]} {7,[S,D,T,B]}
+7 *10 R!H ux {6,[S,D,T,B]} {9,[S,D,T,B]}
+8 *2 R!H u0 {5,[S,D,T,B]} {10,S}
+9 *1 R!H u1 {7,[S,D,T,B]}
+10 *3 H   u0 {8,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 207,
     label = "R8H",
     group = 
@@ -4765,6 +4784,7 @@ L1: RnH
     L2: R8Hall
         L3: R8H
             L4: R8H_SDSDSD
+    L2: R9Hall
 L1: Y_rad_out
     L2: O_rad_out
     L2: S_rad_out
