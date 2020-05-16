@@ -4667,6 +4667,38 @@ u"""
 """,
 )
 
+### API radical corrections
+entry(
+    index = 8000,
+    label = "CsJ-CNOOH",
+    group =
+"""
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   O2s u0 {1,S} {3,S}
+3   O2s u0 {2,S} {6,S}
+4   N  u0 {1,S}
+5   C  u0 {1,S}
+6   H  u0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([2.48, 0.91, -1.19, -3.72, -8.8, -12.78, -19.29], 'J/(mol*K)'),
+        H298=(411.41, 'kJ/mol'),
+        S298=(5.95, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""fitted using three wb97xd/def2tzvp calculations with BAC""",
+    longDesc =
+u"""
+
+""",
+)
+
+
+
+
+
+### End of API radical corrections
+
 entry(
     index = 71,
     label = "C2CsJOOC",
@@ -5253,7 +5285,12 @@ entry(
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 """,
-    thermo = u'CCsJN',
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([0.28, -1.73, -4.42, -6.7, -9.97, -12.53, -16.23], 'J/(mol*K)'),
+        H298=(388.31, 'kJ/mol'),
+        S298=(-12.26, 'J/(mol*K)'),
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -10844,6 +10881,7 @@ L1: Radical
         L3: CJ
             L4: CsJ
                 L5: CH3
+                L5: CsJ-CNOOH
                 L5: Cs_P
                     L6: CJCO
                         L7: C=C(O)CJ
