@@ -538,6 +538,28 @@ u"""
 )
 
 entry(
+    index = 10010,
+    label = "Ct-N3tCs",
+    group =
+"""
+1 * Ct  u0 {2,T} {3,S}
+2   N3t u0 {1,T}
+3   Cs u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+zeros on purpose, the data is in the N3t-Ct group
+""",
+)
+
+entry(
     index = 21,
     label = "Ct-CtH",
     group = 
@@ -44662,7 +44684,7 @@ u"""
 )
 
 entry(
-    index = 10001,
+    index = 10008,
     label = "N1sc",
     group = 
 """
@@ -44888,11 +44910,11 @@ entry(
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (16.3,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([7.04, 42.06, 39.32, 35.41, 31.87, 29.43, 24.27], 'J/(mol*K)'),
+        H298=(102.05, 'kJ/mol'),
+        S298=(68.45, 'J/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45089,6 +45111,31 @@ entry(
     longDesc = 
 u"""
 
+""",
+)
+
+entry(
+    index = 10009,
+    label = "N3s-CbCbCs",
+    group =
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cb  u0 {1,S}
+3   Cb  u0 {1,S}
+4   Cs  u0 {1,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([4.3, 37.8, 32.84, 27.89, 22.89, 19.05, 10.85], 'J/(mol*K)'),
+        H298=(156.04, 'kJ/mol'),
+        S298=(-34.90, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted by calculating GAV thermo for imipramine_rings_CH3, SMILES CN1C2C=CC=CC=2CCC2=C1C=CC=C2,
+and comparing to the library values calculated at CBS-QB3 with rotors
+this is the difference (lib - GAV)
 """,
 )
 
@@ -46043,6 +46090,28 @@ entry(
         Cpdata = ([5.28,5.68,5.97,6.22,6.6,6.97,6.66],'cal/(mol*K)'),
         H298 = (3.17,'kcal/mol'),
         S298 = (41.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Calculated by subtracting the data for the Ct-CtCs group (Ct-Cs STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714) from respective values from thermo_DFT_CCSDTF12_BAC data for the HCN species.
+""",
+)
+
+entry(
+    index = 10011,
+    label = "N3t-CtCs",
+    group =
+"""
+1 * N3t  u0 p1 {2,T}
+2   Ct   u0 {1,T} {3,S}
+3   Cs   u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([24.994, 22.376, 22.903, 25.874, 32.942, 39.077, 47.030],'J/(mol*K)'),
+        H298 = (124.16,'kJ/mol'),
+        S298 = (108.89,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc =
@@ -49383,6 +49452,129 @@ Cpdata at 1500K = Cpdata at 1000K + 0.6
 """,
 )
 
+########## API DB groups
+entry(
+    index = 8000,
+    label = "Cs-NO",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S}
+2   N   u0 {1,S}
+3   O   u0 {1,S}
+""",
+    thermo=u"Cs-N3sO2sHH",
+    shortDesc = u"""Cs-NO""",
+    longDesc =
+u"""
+Added by Oscar using three CBS-QB3 calculations for imipramine API project
+""",
+)
+
+entry(
+    index = 8001,
+    label = "Cs-CsN3sO2sH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs  u0 {1,S}
+3   N3s u0 {1,S}
+4   O2s u0 {1,S}
+5   H   u0 {1,S}
+
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([15.86, 22.37, 27.61, 32.3, 41.02, 46.84, 55.63], 'J/(mol*K)'),
+        H298=(-55.07, 'kJ/mol'),
+        S298=(-87.08, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""Cs-CsN3sO2sH""",
+    longDesc =
+u"""
+Added by Oscar using three CBS-QB3 calculations for imipramine API project
+""",
+)
+
+entry(
+    index = 8002,
+    label = "Cs-N3sO2sHH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3s u0 {1,S}
+3   O2s u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([17.21, 24.29, 30.79, 36.72, 47.17, 54.63, 66.78], 'J/(mol*K)'),
+        H298=(-59.25, 'kJ/mol'),
+        S298=(5.51, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""Cs-N3sO2sHH""",
+    longDesc =
+u"""
+Added by Oscar using four CBS-QB3 calculations for imipramine API project
+""",
+)
+
+entry(
+    index = 8003,
+    label = "Cs-N3dO2sHH",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S}
+3   O2s u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([18.38, 27.5, 35.31, 41.57, 52.05, 58.15, 67.75], 'J/(mol*K)'),
+        H298=(-32.14, 'kJ/mol'),
+        S298=(10.45, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""Cs-N3dO2sHH""",
+    longDesc =
+u"""
+Added by Oscar using two CBS-QB3 calculations for imipramine API project
+""",
+)
+
+entry(
+    index = 8004,
+    label = "Cs-CsN3s(O2sO2sH)",
+    group =
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs  u0 {1,S}
+3   N3s u0 {1,S}
+4   O2s u0 {1,S} {6,S}
+5   H   u0 {1,S}
+6   O2s u0 {4,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([13.62, 19.66, 24.87, 29.65, 39.16, 44.82, 54.67], 'J/(mol*K)'),
+        H298=(-63.22, 'kJ/mol'),
+        S298=(-90.74, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""Cs-CsN3s(O2sO2sH)""",
+    longDesc =
+u"""
+Added by Oscar using six CBS-QB3 calculations for imipramine API project
+""",
+)
+
+########## End of API DB groups
+
+
+
+
 entry(
     index = 2091,
     label = "Cs-CIHH",
@@ -49475,6 +49667,7 @@ L1: R
         L3: Ct
             L4: Ct-CtN3s
             L4: Ct-N3tN3s
+            L4: Ct-N3tCs
             L4: Ct-CtH
             L4: Ct-StH
             L4: Ct-CtOs
@@ -50037,7 +50230,7 @@ L1: R
                             L8: C=S-(Cds-Cdd-Cd)S2s
                             L8: C=S-(Cds-Cdd-S2d)S2s
                 L5: C=S-S(CO)
-		L5: C=S-CtSs
+                L5: C=S-CtSs
                 L5: C=S-CsSs
                 L5: C=S-C=SSs
             L4: Cds-CdClH
@@ -50052,6 +50245,11 @@ L1: R
             L4: C=S-OsOs
             L4: C=S-OsS
         L3: Cs
+            L4: Cs-NO
+                L5: Cs-CsN3sO2sH
+                    L6: Cs-CsN3s(O2sO2sH)
+                L5: Cs-N3sO2sHH
+                L5: Cs-N3dO2sHH
             L4: Cs-NHHH
                 L5: Cs-N3sHHH
                 L5: Cs-N3dHHH
@@ -51674,6 +51872,7 @@ L1: R
             L4: N3s-CCC
                 L5: N3s-CsCsCs
                 L5: N3s-CbCsCs
+                L5: N3s-CbCbCs
                 L5: N3s-(CO)CsCs
                 L5: N3s-(CO)(CO)Cs
                 L5: N3s-(CO)(CO)Cb
@@ -51710,6 +51909,7 @@ L1: R
                 L5: N3d-N3dCs
             L4: N3d-CbR
         L3: N3t
+            L4: N3t-CtCs
             L4: N3t-CtH
         L3: N5dc
             L4: N5dc-OdOsCs

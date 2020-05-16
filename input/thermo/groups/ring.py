@@ -4360,6 +4360,61 @@ Fitted to CBS-QB3 calculations
 """,
 )
 
+#### API rings
+entry(
+    index = 800,
+    label = "azepane",
+    group =
+"""
+1 * N3s u0 {2,S} {7,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {1,S} {6,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-27.81, -28.82, -28.4, -24.69, -15.55, -7.15, 1.07], 'J/(mol*K)'),
+        H298=(31.35, 'kJ/mol'),
+        S298=(40.14, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""fitted by Oscar using cbs-qb3 calculations""",
+    longDesc =
+u"""
+""",
+)
+
+entry(
+    index = 801,
+    label = "azepene",
+    group =
+"""
+1 * N3s u0 {2,S} {7,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {1,S} {6,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([6.52, -32.67, -29.69, -26.11, -27.14, -34.53, -39.1], 'J/(mol*K)'),
+        H298=(8.36, 'kJ/mol'),
+        S298=(-62.76, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""fitted using one b3lyp calc, consider fitting at higher level wiht more species""",
+    longDesc =
+u"""
+""",
+)
+
+
+#### End of API rings
+
+
 entry(
     index = 169,
     label = "seven-inringonetriple",
@@ -4566,6 +4621,8 @@ L1: Ring
             L4: 1_3_cyclohexadiyne
     L2: SevenMember
         L3: Cycloheptane
+        L3: azepane
+        L3: azepene
         L3: Cycloheptene
         L3: 1,3-Cycloheptadiene
         L3: 1,3,5-Cycloheptatriene
