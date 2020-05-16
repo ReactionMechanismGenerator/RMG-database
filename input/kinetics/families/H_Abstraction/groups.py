@@ -2000,6 +2000,22 @@ entry(
 )
 
 entry(
+    index = 10010,
+    label = "Cs/H3/NonDeN_terminal_CH3",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
+2    N3s u0 {1,S} {6,S}
+3 *2 H   u0 {1,S}
+4    H   u0 {1,S}
+5    H   u0 {1,S}
+6    C   ux {2,S} {7,S}
+7    C   ux {6,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 151,
     label = "Cs/H3/OneDeN",
     group = 
@@ -2293,6 +2309,47 @@ entry(
 )
 
 entry(
+    index = 10011,
+    label = "C/H2/NonDeN_tail",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    N  u0 {1,S} {10,S}
+5    Cs u0 {1,S} {6,S}
+6    C  ux {5,S} {7,S}
+7    N  ux {6,S} {8,S} {9,S}
+8    C  ux {7,S} {11,S}
+9    C  ux {7,S} {12,S}
+10   Cs ux {4,S}
+11   C  ux {8,S}
+12   C  ux {9,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10012,
+    label = "C/H2/NonDeN_ring",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    N  u0 {1,S} {6,S} {7,S}
+5    Cs u0 {1,S} {8,S}
+6    C  ux {4,S} {10,S}
+7    C  ux {4,S} {11,S}
+8    C  ux {5,S} {9,S}
+9    N3s ux {8,S}
+10   C  ux {6,S}
+11   C  ux {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 169,
     label = "C/H2/OneDe",
     group = 
@@ -2344,6 +2401,21 @@ entry(
 3    H  u0 {1,S}
 4    Cb u0 {1,S}
 5    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10013,
+    label = "C/H2/CbCs/Cb",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    Cb u0 {1,S}
+5    Cs u0 {1,S} {6,S}
+6    Cb u0 {5,S}
 """,
     kinetics = None,
 )
@@ -4157,6 +4229,48 @@ entry(
 1    O u0 {2,S} {3,S}
 2 *3 O u1 {1,S}
 3    C u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10001,
+    label = "cyanoisopropylOO",
+    group =
+"""
+1    O u0 {2,S} {3,S}
+2 *3 O u1 {1,S}
+3    C u0 {1,S} {4,S} {5,S} {6,S}
+4    C ux {3,S}
+5    C ux {3,S}
+6    C ux {3,S} {7,T}
+7    N ux {6,T}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10002,
+    label = "OOCC",
+    group =
+"""
+1    O u0 {2,S} {3,S}
+2 *3 O u1 {1,S}
+3    C u0 {1,S} {4,S}
+4    C ux {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10003,
+    label = "OOCO",
+    group =
+"""
+1    O u0 {2,S} {3,S}
+2 *3 O u1 {1,S}
+3    C u0 {1,S} {4,S}
+4    O ux {3,S}
 """,
     kinetics = None,
 )
@@ -7335,6 +7449,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                         L7: C/H3/Cd\H_Cd\H\Cs
                         L7: C/H3/Cd\Cs_Cd\H2
                 L5: Cs/H3/NonDeN
+                    L6: Cs/H3/NonDeN_terminal_CH3
                 L5: Cs/H3/OneDeN
             L4: C_sec
                 L5: C/H2/NonDeC
@@ -7353,10 +7468,13 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                 L5: C/H2/NonDeS
                     L6: C/H2/CsS
                 L5: C/H2/NonDeN
+                    L6: C/H2/NonDeN_tail
+                    L6: C/H2/NonDeN_ring
                 L5: C/H2/OneDe
                     L6: C/H2/OneDeC
                         L7: C/H2/CtCs
                         L7: C/H2/CbCs
+                            L8: C/H2/CbCs/Cb
                         L7: C/H2/COCs
                             L8: C/H2/CO\H/Cs\H3
                         L7: C/H2/CdCs
@@ -7492,6 +7610,9 @@ L1: Y_rad_birad_trirad_quadrad
                     L6: O_rad/Cs\H2\Cs|H|Cs2
                 L5: O_rad/NonDeO
                     L6: OOC
+                        L7: OOCC
+                            L8: cyanoisopropylOO
+                        L7: OOCO
                 L5: O_rad/NonDeN
                 L5: O_rad/OneDe
                     L6: O_rad/OneDeC
