@@ -7,7 +7,7 @@ adjacency_list: |
   5 N u0 p0 c+1 {1,S} {3,D} {6,S}
   6 N u0 p0 c+1 {2,S} {4,D} {5,S}
 calculated_data:
-  wb97m-v/def2-tzvpd:
+  LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -54,7 +54,11 @@ calculated_data:
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
-default_xyz_chemistry: wb97m-v/def2-tzvpd
+default_xyz_chemistry:
+  basis: def2tzvpd
+  class: LevelOfTheory
+  method: wb97mv
+  software: qchem
 formula: N2O4
 inchi: InChI=1S/N2O4/c3-1(4)2(5)6
 inchi_key: WFPZPJSADLPSON-UHFFFAOYSA-N
