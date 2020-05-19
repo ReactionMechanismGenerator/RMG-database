@@ -18,7 +18,7 @@ adjacency_list: |
   16 H u0 p0 c0 {4,S}
   17 H u0 p0 c0 {4,S}
 calculated_data:
-  wb97m-v/def2-tzvpd:
+  LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -120,7 +120,11 @@ calculated_data:
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
-default_xyz_chemistry: wb97m-v/def2-tzvpd
+default_xyz_chemistry:
+  basis: def2tzvpd
+  class: LevelOfTheory
+  method: wb97mv
+  software: qchem
 formula: C5H12
 inchi: InChI=1S/C5H12/c1-4-5(2)3/h5H,4H2,1-3H3
 inchi_key: QWTDNUCVQCZILF-UHFFFAOYSA-N
