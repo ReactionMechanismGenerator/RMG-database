@@ -1,0 +1,6 @@
+# [1]: Dispersion model in Q-Chem and Gaussian are different
+METHODS_THAT_REQUIRE_SOFTWARE:
+    - B97-D,  # [1]
+    - B97-D3  # [1]
+    - wB97X-D  # [1]
+    - wB97X-D3  # [1]
