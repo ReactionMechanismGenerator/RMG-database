@@ -969,12 +969,13 @@ entry(
     label = "N(C)(C)C(OOJ)CC(OOH)NH2 <=> N(C)(C)C(OOH)CCJ(OOH)NH2_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5081e+08,'s^-1'), n=0, Ea=(67.4495,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(200,'K'), Tmax=(495, 'K'),
-                         comment='This is a fake reaction. products are unstable so forward rate calcualted using '
-                                 'reactant as products. Fitted to 60 data points; dA = *|/ 1.62624, dn = +|- 0, '
-                                 'dEa = +|- 1.26739 kJ/mol', ),
+                         T0=(1,'K'), Tmin=(200,'K'), Tmax=(495, 'K')),
     longDesc =
 u"""
+This is a fake reaction. products are unstable so forward rate calcualted using '
+                                 'reactant as products. Fitted to 60 data points; dA = *|/ 1.62624, dn = +|- 0, '
+                                 'dEa = +|- 1.26739 kJ/mol'
+                                 
 dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
 solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
 ts1038 forward only
@@ -1056,7 +1057,7 @@ entry(
     label = "imipramine_rad_1 + HO2 <=> imipramine + O2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Use diffusion limit after discussing with Prof. Green"""),
+                         Tmax=(350,'K')),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
@@ -1069,7 +1070,7 @@ entry(
     label = "imipramine_rad_2 + HO2 <=> imipramine + O2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Use diffusion limit after discussing with Prof. Green"""),
+                         Tmax=(350,'K')),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
@@ -1082,7 +1083,7 @@ entry(
     label = "imipramine_rad_3 + HO2 <=> imipramine + O2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Use diffusion limit after discussing with Prof. Green"""),
+                         Tmax=(350,'K')),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
@@ -1095,7 +1096,7 @@ entry(
     label = "imipramine_rad_4 + HO2 <=> imipramine + O2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Use diffusion limit after discussing with Prof. Green"""),
+                         Tmax=(350,'K')),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
@@ -1108,7 +1109,7 @@ entry(
     label = "imipramine_rad_5 + HO2 <=> imipramine + O2",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Use diffusion limit after discussing with Prof. Green"""),
+                         Tmax=(350,'K')),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
