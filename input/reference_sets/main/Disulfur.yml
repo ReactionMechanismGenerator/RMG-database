@@ -43,6 +43,34 @@ molecular_weight:
   value: 64.13000613827143
 multiplicity: 3
 reference_data:
+  CCCBDB:
+    atomization_energy:
+      class: ScalarQuantity
+      uncertainty: 0.4
+      uncertainty_type: +|-
+      units: kJ/mol
+      value: 421.6
+    class: ReferenceDataEntry
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 1.8892
+      isotopes:
+      - 32
+      - 32
+      symbols:
+      - S
+      - S
+    zpe:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 4.33274
   NIST Chemistry WebBook:
     class: ReferenceDataEntry
     thermo_data:

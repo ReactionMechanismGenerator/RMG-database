@@ -70,5 +70,48 @@ reference_data:
         units: kJ/mol
         value: -82.10000000000007
       class: ThermoData
+  CCCBDB:
+    atomization_energy:
+      class: ScalarQuantity
+      uncertainty: 0.8
+      uncertainty_type: +|-
+      units: kJ/mol
+      value: 1552.9
+    class: ReferenceDataEntry
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 1.7810
+        - - 1.0424
+          - 0.0
+          - -0.3901
+        - - -0.5212
+          - 0.9027
+          - -0.3901
+        - - -0.5212
+          - -0.9027
+          - -0.3901
+      isotopes:
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - H
+      - H
+      - H
+    zpe:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 96.156
 smiles: CCl
 symmetry_number: 3.0
