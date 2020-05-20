@@ -13,7 +13,7 @@ entry(
     label = "CH3OOH + H2O <=> CH3OH + H2O2",
     degeneracy = 1.0,
     rank = 5,
-    kinetics = Arrhenius(A=(1.25e+10,'cm^3/(mol*s)'), n=0, Ea=(15,'kcal/mol'),
+    kinetics = Arrhenius(A=(1.2e+17,'cm^3/(mol*s)'), n=0, Ea=(25,'kcal/mol'),
                          T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc =
 """
@@ -29,7 +29,7 @@ entry(
     label = "H2O + cyanoisopropylOOH <=> H2O2 + cyanoisopropylOH",
     degeneracy = 1.0,
     rank = 5,
-    kinetics = Arrhenius(A=(1.25e+10,'cm^3/(mol*s)'), n=0, Ea=(15,'kcal/mol'),
+    kinetics = Arrhenius(A=(1.2e+17,'cm^3/(mol*s)'), n=0, Ea=(25,'kcal/mol'),
                          T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc =
 """
