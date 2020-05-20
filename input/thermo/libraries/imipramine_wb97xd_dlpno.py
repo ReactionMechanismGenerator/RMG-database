@@ -1009,7 +1009,7 @@ H       3.22724000    0.63976800   -2.44024500
 
 entry(
     index = 1086,
-    label = "imipramine_5_rad_2_ooh_4_ooh",
+    label = "imipramine_2_ooh_4_ooh_5_rad",
     molecule =
 """
 multiplicity 2
