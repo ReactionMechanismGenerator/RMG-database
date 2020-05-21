@@ -1045,7 +1045,7 @@ entry(
 entry(
     index=100023,
     label="NCCCN_C_COOj_r + CH3OH_r1 <=> NCCCN_C_COOH_p + CH2OH_p",
-    degeneracy=3.0,
+    degeneracy=1.0,
     rank=1,
     kinetics=Arrhenius(A=(5.99556e+08, 'cm^3/(mol*s)'), n=0, Ea=(50.5221, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
