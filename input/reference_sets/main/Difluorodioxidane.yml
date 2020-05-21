@@ -5,7 +5,7 @@ adjacency_list: |
   3 O u0 p2 c0 {1,S} {4,S}
   4 O u0 p2 c0 {2,S} {3,S}
 calculated_data:
-  wb97m-v/def2-tzvpd:
+  LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -42,7 +42,11 @@ calculated_data:
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
-default_xyz_chemistry: wb97m-v/def2-tzvpd
+default_xyz_chemistry:
+  basis: def2tzvpd
+  class: LevelOfTheory
+  method: wb97mv
+  software: qchem
 formula: F2O2
 inchi: InChI=1S/F2O2/c1-3-4-2
 inchi_key: REAOZOPEJGPVCB-UHFFFAOYSA-N

@@ -6,7 +6,7 @@ adjacency_list: |
   4 H u0 p0 c0 {3,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
-  wb97m-v/def2-tzvpd:
+  LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -48,7 +48,11 @@ calculated_data:
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
-default_xyz_chemistry: wb97m-v/def2-tzvpd
+default_xyz_chemistry:
+  basis: def2tzvpd
+  class: LevelOfTheory
+  method: wb97mv
+  software: qchem
 formula: CH2O2
 inchi: InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)
 inchi_key: BDAGIHXWWSANSR-UHFFFAOYSA-N

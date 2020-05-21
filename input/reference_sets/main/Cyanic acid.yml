@@ -5,7 +5,7 @@ adjacency_list: |
   3 C u0 p0 c0 {1,S} {2,T}
   4 H u0 p0 c0 {1,S}
 calculated_data:
-  wb97m-v/def2-tzvpd:
+  LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -42,7 +42,11 @@ calculated_data:
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
-default_xyz_chemistry: wb97m-v/def2-tzvpd
+default_xyz_chemistry:
+  basis: def2tzvpd
+  class: LevelOfTheory
+  method: wb97mv
+  software: qchem
 formula: CHNO
 inchi: InChI=1S/CHNO/c2-1-3/h3H
 inchi_key: XLJMAIOERFSOGZ-UHFFFAOYSA-N
