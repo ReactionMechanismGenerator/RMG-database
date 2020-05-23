@@ -84,7 +84,7 @@ reference_data:
         - - 0.0
           - 0.0
           - 0.0
-        - - 1.0790
+        - - 1.079
           - 0.0
           - 0.0
         - - -0.5395
@@ -106,6 +106,6 @@ reference_data:
     zpe:
       class: ScalarQuantity
       units: kJ/mol
-      value: 76.110
+      value: 76.11
 smiles: '[CH3]'
 symmetry_number: 6.0
