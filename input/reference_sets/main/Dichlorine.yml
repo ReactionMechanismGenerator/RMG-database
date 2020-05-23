@@ -57,8 +57,6 @@ reference_data:
   CCCBDB:
     atomization_energy:
       class: ScalarQuantity
-      uncertainty: 0.0
-      uncertainty_type: +|-
       units: kJ/mol
       value: 239.3
     class: ReferenceDataEntry
@@ -81,6 +79,6 @@ reference_data:
     zpe:
       class: ScalarQuantity
       units: kJ/mol
-      value: 3.340240
+      value: 3.34024
 smiles: '[Cl][Cl]'
 symmetry_number: 2.0
