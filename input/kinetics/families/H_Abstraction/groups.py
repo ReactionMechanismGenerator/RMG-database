@@ -8345,3 +8345,18 @@ u"""
 
 """,
 )
+
+forbidden(
+    label = "HO2",
+    group =
+"""
+1 *1 O u0 p2 c0 {2,S} {3,S}
+2 *2 H u0 p0 c0 {1,S}
+3    O u1 p2 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Warning: Forbidden for basic conditions, could be feasible in acidic conditions
+""",
+)
