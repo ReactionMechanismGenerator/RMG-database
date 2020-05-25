@@ -380,6 +380,48 @@ pbac = {
         'S=S': -3.7746270990364343
     },
 
+    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))": {
+        'C#C': -1.0417389384809002,
+        'C#N': -0.18997811213150434,
+        'C#O': 0.11597961664107714,
+        'C-C': -0.0874428175410642,
+        'C-Cl': 0.35756758240886416,
+        'C-F': 0.6205829581209822,
+        'C-H': -0.07483538208032497,
+        'C-N': 0.10483919847165243,
+        'C-O': -0.22297787183511178,
+        'C-S': 0.1404832465782864,
+        'C=C': -0.45913593181331386,
+        'C=N': -0.6215972359059202,
+        'C=O': -0.6263159879358061,
+        'C=S': -0.8114169321909457,
+        'Cl-Cl': 0.09583452431516075,
+        'Cl-F': 0.3664507611788004,
+        'Cl-H': 0.37287630516855685,
+        'Cl-N': 0.14385756310153153,
+        'Cl-O': -0.44981597674284113,
+        'Cl-S': 0.38460170657528187,
+        'F-F': -0.4981836231875576,
+        'F-H': 0.11758523789195863,
+        'F-O': -1.0986502231981488,
+        'F-S': 0.9647209073295073,
+        'H-H': -0.47236174775511974,
+        'H-N': -0.22649067211716103,
+        'H-O': -0.07562933770900222,
+        'H-S': 0.9073212171759294,
+        'N#N': 0.40151149779116896,
+        'N-N': 0.850874207833184,
+        'N-O': -0.42947725200427334,
+        'N=N': 0.37600825315112596,
+        'N=O': -1.9562351875057598,
+        'O-O': -1.500224679745408,
+        'O-S': -0.6174870980141091,
+        'O=O': -4.494140521331516,
+        'O=S': -0.17591534884630283,
+        'S-S': 0.20052268818794297,
+        'S=S': -1.8902601269101473
+    },
+
     "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))": {
         'Br-Br': -0.3547689067627191,
         'Br-C': -0.4543904814746382,
@@ -615,6 +657,37 @@ mbac = {
             'S': 0.11500345710920869
         },
         'mol_corr': -2.5980867963328214
+    },
+
+    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))": {
+        'atom_corr': {
+            'C': -0.3821870761810326,
+            'Cl': -0.5635119135371978,
+            'F': -1.2161685479466757,
+            'H': -0.5486956411113301,
+            'N': -1.3844264459694926,
+            'O': -0.42173634712354335,
+            'S': -0.5977405924400462
+        },
+        'bond_corr_length': {
+            'C': 2.5499355433408896e-20,
+            'Cl': 7.167682714394459,
+            'F': 115.84884251044593,
+            'H': 0.020872501855810188,
+            'N': 7.80750691722819,
+            'O': 80.83435781994227,
+            'S': 10.317954375843414
+        },
+        'bond_corr_neighbor': {
+            'C': -0.01831237685033945,
+            'Cl': -0.12201701986677872,
+            'F': 0.02667428939998246,
+            'H': 0.03065782957509031,
+            'N': 0.004004157940874455,
+            'O': -0.037794888079462276,
+            'S': -0.13845488076414272
+        },
+        'mol_corr': -0.9282505817816508
     },
 
     "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))": {
