@@ -380,6 +380,48 @@ pbac = {
         'S=S': -3.7746270990364343
     },
 
+    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('tightpno',)))": {
+        'C#C': -1.756875490417629,
+        'C#N': -0.7910748130090758,
+        'C#O': -0.3561622578251047,
+        'C-C': -0.532777968807306,
+        'C-Cl': 0.3839557624854567,
+        'C-F': 0.06047319228098636,
+        'C-H': -0.08913044484855878,
+        'C-N': -0.4925240800863085,
+        'C-O': -0.910834642190212,
+        'C-S': 0.03792163671788884,
+        'C=C': -1.0436942758183232,
+        'C=N': -1.144498230892254,
+        'C=O': -1.290098834270545,
+        'C=S': -0.8152840616847224,
+        'Cl-Cl': 0.1305534856935172,
+        'Cl-F': 0.6000247256961817,
+        'Cl-H': 0.48616831967622787,
+        'Cl-N': -0.04998410524204344,
+        'Cl-O': -0.4229320348083118,
+        'Cl-S': 1.09797306578115,
+        'F-F': -0.7495565788415806,
+        'F-H': 0.5277056723384845,
+        'F-O': -1.3253990742158896,
+        'F-S': 0.6675443759031244,
+        'H-H': -0.010066131029286067,
+        'H-N': -0.38410161078823923,
+        'H-O': -0.24242289671270353,
+        'H-S': 1.0398027744830538,
+        'N#N': 0.8345805799170924,
+        'N-N': 0.31355605986304547,
+        'N-O': -1.194149176390521,
+        'N=N': -0.045645561818263396,
+        'N=O': -2.01290308953839,
+        'O-O': -2.13543778284453,
+        'O-S': -0.8420123742257197,
+        'O=O': -4.428877728186617,
+        'O=S': 0.10454618546073133,
+        'S-S': 0.2680328516552689,
+        'S=S': -1.0258630305973666
+    },
+
     "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))": {
         'C#C': -1.0417389384809002,
         'C#N': -0.18997811213150434,
@@ -657,6 +699,37 @@ mbac = {
             'S': 0.11500345710920869
         },
         'mol_corr': -2.5980867963328214
+    },
+
+    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('tightpno',)))": {
+        'atom_corr': {
+            'C': -1.1303244112178317,
+            'Cl': -0.6916868408502033,
+            'F': -0.5472566236302432,
+            'H': -0.5668743519282876,
+            'N': -1.2943080692710867,
+            'O': 0.3414764655701705,
+            'S': -2.039105925103035
+        },
+        'bond_corr_length': {
+            'C': 63.448757861684975,
+            'Cl': 3.4201559481603134e-21,
+            'F': 1.4492621129066053e-25,
+            'H': 0.032837915485316886,
+            'N': 6.455481215190162,
+            'O': 5.098389438242963e-29,
+            'S': 703.5308421980434
+        },
+        'bond_corr_neighbor': {
+            'C': -0.013449553939336986,
+            'Cl': -0.06782548501870386,
+            'F': 0.05931201643106704,
+            'H': 0.06513467634802346,
+            'N': 0.05192633216797187,
+            'O': 0.036407584364074555,
+            'S': -0.1735290682409047
+        },
+        'mol_corr': -1.034988562496322
     },
 
     "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))": {
