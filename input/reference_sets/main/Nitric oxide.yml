@@ -4,6 +4,30 @@ adjacency_list: |
   1 N u1 p1 c0 {2,D}
   2 O u0 p2 c0 {1,D}
 calculated_data:
+  LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 20.984221507488304
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.610516
+        - - 0.0
+          - 0.0
+          - -0.534412
+      isotopes:
+      - 14
+      - 16
+      symbols:
+      - N
+      - O
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
