@@ -13,6 +13,80 @@ adjacency_list: |
   11 H u0 p0 c0 {6,S}
   12 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -110.29032332314509
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.561967745
+          - 1.6888404151
+          - -0.2291146087
+        - - 0.0198749203
+          - 0.4977923801
+          - 0.3701707561
+        - - 0.7414872203
+          - -0.7878752881
+          - -0.3330018471
+        - - 2.1220561982
+          - -0.927942446
+          - 0.0289664028
+        - - -1.3850286888
+          - 0.2578499543
+          - -0.3746807616
+        - - -2.1334854018
+          - -0.8786342352
+          - 0.0822167194
+        - - 2.4405753639
+          - -1.8928361688
+          - -0.3541555374
+        - - 2.714211765
+          - -0.1333951245
+          - -0.4230519172
+        - - 2.2470108274
+          - -0.9104718378
+          - 1.1145906106
+        - - -2.1154767787
+          - -0.9458082194
+          - 1.1722148567
+        - - -3.1540517807
+          - -0.7216737533
+          - -0.2536551647
+        - - -1.7291031111
+          - -1.7915535422
+          - -0.3513959402
+      isotopes:
+      - 16
+      - 32
+      - 16
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - S
+      - O
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
