@@ -69,6 +69,65 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 54.123925370672616
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.222622
+          - 0.602664
+          - 0.0
+        - - 0.084337
+          - 1.284062
+          - 0.0
+        - - -1.133283
+          - 0.757382
+          - 0.0
+        - - -1.154294
+          - -0.569083
+          - 0.0
+        - - -0.089316
+          - -1.360181
+          - 0.0
+        - - 1.069976
+          - -0.715155
+          - 0.0
+        - - 0.155468
+          - 2.367186
+          - 0.0
+        - - -2.127842
+          - -1.049102
+          - 0.0
+        - - 1.972386
+          - -1.318374
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 12
+      - 14
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - C
+      - N
+      - C
+      - H
+      - H
+      - H
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
