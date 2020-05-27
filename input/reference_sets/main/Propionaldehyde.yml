@@ -11,6 +11,70 @@ adjacency_list: |
   9  H u0 p0 c0 {3,S}
   10 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -38.349726705950104
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.433875
+          - -0.502468
+          - -2.0e-06
+        - - 0.540568
+          - 0.724312
+          - -0.000229
+        - - -0.931546
+          - 0.421315
+          - 0.00031
+        - - -1.406378
+          - -0.680294
+          - 0.000875
+        - - 1.246251
+          - -1.119665
+          - 0.878515
+        - - 1.245749
+          - -1.120355
+          - -0.877927
+        - - 2.484683
+          - -0.212366
+          - -0.000417
+        - - 0.730483
+          - 1.364871
+          - -0.869538
+        - - 0.730979
+          - 1.365554
+          - 0.868467
+        - - -1.590756
+          - 1.315472
+          - 0.00015
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
