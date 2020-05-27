@@ -16,6 +16,95 @@ adjacency_list: |
   14 H u0 p0 c0 {4,S}
   15 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -61.77429901884391
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.779342
+          - 0.680455
+          - -0.001445
+        - - -0.47724
+          - -0.038234
+          - -0.318087
+        - - -0.478965
+          - -1.355634
+          - 0.214832
+        - - 0.730157
+          - 0.677598
+          - 0.264561
+        - - 2.056329
+          - 0.032229
+          - -0.111712
+        - - -1.916124
+          - 0.75388
+          - 1.07929
+        - - -2.634807
+          - 0.143756
+          - -0.419461
+        - - -1.780515
+          - 1.687376
+          - -0.423308
+        - - -0.35435
+          - -0.088923
+          - -1.410401
+        - - -1.227909
+          - -1.831966
+          - -0.145444
+        - - 0.618111
+          - 0.699327
+          - 1.352852
+        - - 0.708557
+          - 1.715685
+          - -0.078458
+        - - 2.193559
+          - 0.025339
+          - -1.195859
+        - - 2.894025
+          - 0.576264
+          - 0.327251
+        - - 2.096928
+          - -0.999008
+          - 0.238105
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:

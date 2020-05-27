@@ -17,6 +17,100 @@ adjacency_list: |
   15 H u0 p0 c0 {4,S}
   16 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 13.064689832622554
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.242516
+          - 0.029629
+          - 0.035901
+        - - 0.752666
+          - 0.075197
+          - 0.001849
+        - - -0.02439
+          - 1.151778
+          - 0.023999
+        - - -1.485582
+          - 0.813994
+          - -0.086325
+        - - -1.506118
+          - -0.707875
+          - 0.159447
+        - - -0.070939
+          - -1.183122
+          - -0.126515
+        - - 2.635915
+          - -0.452683
+          - -0.8638
+        - - 2.674218
+          - 1.028263
+          - 0.105419
+        - - 2.594697
+          - -0.558286
+          - 0.8882
+        - - 0.342777
+          - 2.170169
+          - 0.070577
+        - - -1.863924
+          - 1.069051
+          - -1.082664
+        - - -2.105101
+          - 1.35835
+          - 0.629739
+        - - -2.252215
+          - -1.224089
+          - -0.444337
+        - - -1.74661
+          - -0.899371
+          - 1.206771
+        - - 0.032739
+          - -1.593033
+          - -1.138177
+        - - 0.257228
+          - -1.967908
+          - 0.560097
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
