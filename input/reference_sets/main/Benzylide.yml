@@ -15,6 +15,90 @@ adjacency_list: |
   13 H u0 p0 c0 {5,S}
   14 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 32.116208902859924
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.869538852
+          - -1.64311e-05
+          - 2.5363e-06
+        - - 1.1328657269
+          - 1.1917855197
+          - 2.053e-07
+        - - -0.2423827743
+          - 1.2063951492
+          - -2.6868e-06
+        - - -1.0349240267
+          - 2.3309e-05
+          - -1.4172e-06
+        - - -0.2424011499
+          - -1.2063610685
+          - -2.6865e-06
+        - - 1.1328426844
+          - -1.1918077941
+          - 2.037e-07
+        - - -2.4150684769
+          - -5.1539e-06
+          - 1.0869e-06
+        - - 2.9525606116
+          - -2.70786e-05
+          - 5.1223e-06
+        - - 1.6614119748
+          - 2.1429057346
+          - 6.644e-07
+        - - -0.764909059
+          - 2.1592243619
+          - -4.2896e-06
+        - - -0.7649616793
+          - -2.1591706644
+          - -4.4676e-06
+        - - 1.6613548745
+          - -2.1429475202
+          - 6.539e-07
+        - - -2.9741862561
+          - 0.9287730278
+          - 9.21e-06
+        - - -2.9740954798
+          - -0.9288390433
+          - 9.6555e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:

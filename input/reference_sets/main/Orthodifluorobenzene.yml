@@ -13,6 +13,80 @@ adjacency_list: |
   11 H u0 p0 c0 {6,S}
   12 H u0 p0 c0 {7,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -68.57056369856515
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3440798952
+          - 0.0
+          - 1.7018265093
+        - - 0.6924921461
+          - 0.0
+          - 0.5303488013
+        - - 1.392998352
+          - 0.0
+          - -0.6571908725
+        - - 0.6933054141
+          - 0.0
+          - -1.85652283
+        - - -0.6933054141
+          - -5.15e-08
+          - -1.85652283
+        - - -1.392998352
+          - -3.87e-08
+          - -0.6571908725
+        - - -0.6924921461
+          - 4.63e-08
+          - 0.5303488013
+        - - -1.3440798952
+          - 4.48e-08
+          - 1.7018265093
+        - - 2.4741830628
+          - 0.0
+          - -0.625387434
+        - - 1.2376538959
+          - 0.0
+          - -2.7908341616
+        - - -1.2376538959
+          - -1.812e-07
+          - -2.7908341616
+        - - -2.4741830628
+          - -6.81e-08
+          - -0.625387434
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 19
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - F
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - F
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
