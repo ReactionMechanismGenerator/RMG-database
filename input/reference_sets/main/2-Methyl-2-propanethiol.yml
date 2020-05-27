@@ -16,6 +16,95 @@ adjacency_list: |
   14 H u0 p0 c0 {5,S}
   15 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -19.197338788520977
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.836574
+          - 0.722667
+          - 1.253044
+        - - 0.341434
+          - 0.005156
+          - 0.000111
+        - - -1.498308
+          - -0.074501
+          - 0.000201
+        - - 0.836637
+          - 0.718402
+          - -1.255229
+        - - 0.812003
+          - -1.448873
+          - 0.002595
+        - - 0.491053
+          - 1.757903
+          - 1.276479
+        - - 0.482345
+          - 0.224667
+          - 2.155834
+        - - 1.930322
+          - 0.732812
+          - 1.268671
+        - - -1.715183
+          - 1.247932
+          - -0.002051
+        - - 0.482454
+          - 0.217335
+          - -2.156338
+        - - 0.491115
+          - 1.753552
+          - -1.282202
+        - - 1.930385
+          - 0.728496
+          - -1.270835
+        - - 0.45832
+          - -1.978087
+          - 0.889006
+        - - 1.904016
+          - -1.47761
+          - 0.002671
+        - - 0.458365
+          - -1.981098
+          - -0.882029
+      isotopes:
+      - 12
+      - 12
+      - 32
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - S
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
