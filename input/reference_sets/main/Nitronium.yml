@@ -33,6 +33,35 @@ calculated_data:
       - O
       - N
       - O
+  LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 228.41017858018859
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - -1.109092
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 1.109092
+      isotopes:
+      - 16
+      - 14
+      - 16
+      symbols:
+      - O
+      - N
+      - O
 charge: 1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
