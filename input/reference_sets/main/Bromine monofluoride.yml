@@ -27,6 +27,30 @@ calculated_data:
       symbols:
       - Br
       - F
+  LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -15.19062564630913
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.358812
+        - - 0.0
+          - 0.0
+          - -1.396071
+      isotopes:
+      - 79
+      - 19
+      symbols:
+      - Br
+      - F
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
