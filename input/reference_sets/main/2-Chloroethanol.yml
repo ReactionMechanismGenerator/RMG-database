@@ -10,6 +10,65 @@ adjacency_list: |
   8 H  u0 p0 c0 {4,S}
   9 H  u0 p0 c0 {2,S}
 calculated_data:
+  LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -56.50660450311831
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.413752
+          - -0.289347
+          - -0.066094
+        - - 0.094442
+          - 0.902177
+          - 0.285757
+        - - -1.207501
+          - 0.44894
+          - -0.33899
+        - - -1.684882
+          - -0.764466
+          - 0.204272
+        - - 0.420814
+          - 1.858103
+          - -0.118304
+        - - 0.016465
+          - 0.958006
+          - 1.368729
+        - - -1.968834
+          - 1.202971
+          - -0.124084
+        - - -1.091527
+          - 0.384637
+          - -1.427219
+        - - -1.005438
+          - -1.436659
+          - 0.067071
+      isotopes:
+      - 35
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - Cl
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:

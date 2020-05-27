@@ -3,6 +3,30 @@ adjacency_list: |
   1 Br u0 p3 c0 {2,S}
   2 F  u0 p3 c0 {1,S}
 calculated_data:
+  LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -15.042644133618033
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.368657
+        - - 0.0
+          - 0.0
+          - -1.405916
+      isotopes:
+      - 79
+      - 19
+      symbols:
+      - Br
+      - F
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
