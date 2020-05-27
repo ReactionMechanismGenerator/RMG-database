@@ -12,6 +12,75 @@ adjacency_list: |
   10 H u0 p0 c0 {5,S}
   11 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 15.332551075603686
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1225843544
+          - 0.0257209877
+          - 3.22163e-05
+        - - 0.6318236957
+          - 0.0252371512
+          - -6.83459e-05
+        - - -0.025793687
+          - -1.0992797029
+          - -5.2628e-05
+        - - -1.3699015445
+          - -0.7631426368
+          - 3.54649e-05
+        - - -1.4769771835
+          - 0.5685109247
+          - 3.35636e-05
+        - - -0.2567671654
+          - 1.1414225355
+          - -2.61737e-05
+        - - 2.5070682515
+          - 0.5422971978
+          - -0.8797030674
+        - - 2.5069067462
+          - 0.5382255936
+          - 0.8822315601
+        - - 2.4933119385
+          - -0.9968238464
+          - -0.0022403292
+        - - -2.4795866959
+          - 0.9622602712
+          - 5.10874e-05
+        - - -0.0119142821
+          - 2.1887902045
+          - -8.21369e-05
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('tightpno',)))
   : class: CalculatedDataEntry
     thermo_data:

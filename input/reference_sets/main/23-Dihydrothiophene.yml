@@ -12,6 +12,75 @@ adjacency_list: |
   10 H u0 p0 c0 {4,S}
   11 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 22.507164540483352
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0568205109
+          - -1.2528095818
+          - 0.2171993457
+        - - -1.3718196544
+          - -0.5784634133
+          - -0.1803266935
+        - - -1.1710485413
+          - 0.8956831736
+          - 0.0597570361
+        - - 0.10011828
+          - 1.2746939704
+          - 0.0850023375
+        - - 1.2643386671
+          - -0.0330477608
+          - -0.0920664683
+        - - 0.1488108319
+          - -2.1585562593
+          - -0.3479729203
+        - - -0.0517266369
+          - -1.4891833523
+          - 1.2817544923
+        - - -2.205874755
+          - -0.9906148669
+          - 0.3889685126
+        - - -1.5880643269
+          - -0.7464735525
+          - -1.2419085134
+        - - -1.9970811672
+          - 1.5902807382
+          - 0.1280112584
+        - - 0.4619399398
+          - 2.2886865724
+          - 0.1744185082
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('tightpno',)))
   : class: CalculatedDataEntry
     thermo_data:
