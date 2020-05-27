@@ -241,6 +241,45 @@ calculated_data:
       - C
       - H
       - H
+  LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 137.19191426399075
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.117715235
+          - -9.709e-07
+          - -2.6727e-06
+        - - -0.1997422716
+          - 4.1227e-06
+          - 1.46294e-05
+        - - -1.478943483
+          - -1.789e-06
+          - -8.233e-06
+        - - 1.6829165981
+          - 0.9264968075
+          - -1.11713e-05
+        - - 1.6829065196
+          - -0.9265049844
+          - -1.11707e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:

@@ -73,6 +73,40 @@ calculated_data:
       - Br
       - Br
       - O
+  LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -26.34532529803411
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.7714373451
+        - - -1.5924895028
+          - 0.0
+          - -0.2878873157
+        - - 1.5924895028
+          - -0.0
+          - -0.2878873157
+        - - 0.0
+          - 0.0
+          - 1.9404396789
+      isotopes:
+      - 12
+      - 79
+      - 79
+      - 16
+      symbols:
+      - C
+      - Br
+      - Br
+      - O
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:

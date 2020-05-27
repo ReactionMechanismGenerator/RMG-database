@@ -51,6 +51,30 @@ calculated_data:
       symbols:
       - Br
       - F
+  LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -15.19740059782401
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.3591768568
+        - - 0.0
+          - 0.0
+          - -1.3967988874
+      isotopes:
+      - 79
+      - 19
+      symbols:
+      - Br
+      - F
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
