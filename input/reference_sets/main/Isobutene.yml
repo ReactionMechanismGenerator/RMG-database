@@ -161,6 +161,80 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -2.6860835516406154
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2695768858
+          - -0.6763774882
+          - -1.8336e-06
+        - - 6.12e-08
+          - 0.1251782042
+          - -9.3484e-06
+        - - -6.8987e-06
+          - 1.4523625993
+          - -1.517e-07
+        - - -1.2695703268
+          - -0.6763881262
+          - 1.9974e-06
+        - - 1.3128250555
+          - -1.3286692718
+          - -0.876086718
+        - - 1.314506396
+          - -1.3257331295
+          - 0.8781902795
+        - - 2.1505532613
+          - -0.0362567623
+          - -0.0018831419
+        - - -0.9246552818
+          - 2.0163467271
+          - 0.0001800235
+        - - 0.9246340063
+          - 2.0163589891
+          - -0.0001620549
+        - - -2.150551245
+          - -0.0362731163
+          - 0.0015586903
+        - - -1.3143518578
+          - -1.3259962469
+          - -0.8780096912
+        - - -1.3129586631
+          - -1.3284283242
+          - 0.8762686304
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
   : class: CalculatedDataEntry
     thermo_data:
