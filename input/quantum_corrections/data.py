@@ -339,6 +339,48 @@ atom_energies = {
 # Petersson-type bond additivity correction parameters
 pbac = {
 
+    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('normalpno',)))": {
+        'C#C': -0.9952393577480061,
+        'C#N': -0.21670408478225422,
+        'C#O': 0.08584143921783394,
+        'C-C': -0.06383852159915943,
+        'C-Cl': 0.1811303534132533,
+        'C-F': 0.4689290057963229,
+        'C-H': -0.05769272935605165,
+        'C-N': 0.11187111971803186,
+        'C-O': -0.1950053472722554,
+        'C-S': -0.22423573364290136,
+        'C=C': -0.434739278594919,
+        'C=N': -0.6069121063625295,
+        'C=O': -0.5819720516967676,
+        'C=S': -1.6777875548451746,
+        'Cl-Cl': 0.2602805433930088,
+        'Cl-F': 1.1977077936265417,
+        'Cl-H': 0.14080025124600937,
+        'Cl-N': -0.03565133829176556,
+        'Cl-O': -0.31876250793438815,
+        'Cl-S': -0.08250391784877557,
+        'F-F': -0.7052874467288989,
+        'F-H': 0.5088069611601611,
+        'F-O': -1.1715289986733404,
+        'F-S': 0.8409641852483484,
+        'H-H': -0.5090509328796105,
+        'H-N': -0.1830816795252867,
+        'H-O': 0.056316828775832536,
+        'H-S': 0.5259974694588669,
+        'N#N': 0.29959908061441387,
+        'N-N': 0.8300450116878976,
+        'N-O': -0.37333841475485446,
+        'N=N': 0.28369958177637694,
+        'N=O': -2.14757940107408,
+        'O-O': -1.6076480204170003,
+        'O-S': -0.6840233114920843,
+        'O=O': -5.056631239388305,
+        'O=S': 0.031913927897726,
+        'S-S': -0.5254496256224851,
+        'S=S': -2.7452116139981637
+    },
+
     "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))": {
         'C#C': -1.8809858243575,
         'C#N': -0.8815633180197873,
@@ -711,6 +753,37 @@ pbac = {
 
 # Melius-type bond additivity correction parameters
 mbac = {
+
+    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('normalpno',)))": {
+        'atom_corr': {
+            'C': -1.416920566293708,
+            'Cl': -0.4200559299675974,
+            'F': -0.2993477558592458,
+            'H': -0.600459687190157,
+            'N': -0.7476120199894484,
+            'O': 0.6801789919340411,
+            'S': -0.9373017954157762
+        },
+        'bond_corr_length': {
+            'C': 77.50625137536059,
+            'Cl': 63.531108990774214,
+            'F': 7.612715257261074e-17,
+            'H': 1.176870012661965,
+            'N': 6.953591468748732,
+            'O': 1.177890858065914e-17,
+            'S': 700.8342186840581
+        },
+        'bond_corr_neighbor': {
+            'C': -0.0356621803391651,
+            'Cl': -0.046233300650657234,
+            'F': -0.026152571967311487,
+            'H': 0.12578893100791433,
+            'N': -0.002803669157031435,
+            'O': -0.05988253241309233,
+            'S': -0.1349775614811328
+        },
+        'mol_corr': -0.5762389263082766
+    },
 
     "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))": {
         'atom_corr': {
