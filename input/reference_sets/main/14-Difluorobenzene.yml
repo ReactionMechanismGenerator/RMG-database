@@ -13,6 +13,80 @@ adjacency_list: |
   11 H u0 p0 c0 {7,S}
   12 H u0 p0 c0 {8,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('tightpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -66.99019072777114
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.7073836416
+          - -1.141e-07
+          - 0.0
+        - - 1.3585328573
+          - 7.864e-07
+          - -5.0e-10
+        - - 0.693618004
+          - 1.2098355438
+          - 0.0
+        - - -0.6936184735
+          - 1.2098343177
+          - 0.0
+        - - -1.3585328573
+          - -7.864e-07
+          - -5.0e-10
+        - - -2.7073836416
+          - 1.141e-07
+          - -1.13e-08
+        - - -0.693618004
+          - -1.2098355438
+          - 1.04e-08
+        - - 0.6936184735
+          - -1.2098343177
+          - -1.56e-08
+        - - 1.258230171
+          - 2.1317280116
+          - 0.0
+        - - -1.2582355551
+          - 2.1317237464
+          - 0.0
+        - - -1.258230171
+          - -2.1317280116
+          - 1.093e-07
+        - - 1.2582355551
+          - -2.1317237464
+          - -5.6e-08
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 12
+      - 12
+      - 19
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - F
+      - C
+      - C
+      - C
+      - C
+      - F
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
   : class: CalculatedDataEntry
     thermo_data:

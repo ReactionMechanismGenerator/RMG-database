@@ -12,6 +12,75 @@ adjacency_list: |
   10 H u0 p0 c0 {5,S}
   11 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('tightpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.51980449282147
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -2.1316415852
+          - 0.2240410229
+          - 0.2099863385
+        - - -0.9238533918
+          - 0.2039462193
+          - -0.3217461581
+        - - -0.0393865818
+          - -0.8080516464
+          - -0.0527280438
+        - - 1.2848509264
+          - -0.486418878
+          - 0.0036833288
+        - - 1.8023017109
+          - 0.724512969
+          - 0.1490860297
+        - - -2.8315537469
+          - 0.9917794452
+          - -0.0828791169
+        - - -2.4414172828
+          - -0.5251717629
+          - 0.9250474615
+        - - -0.5651374676
+          - 0.9376486848
+          - -1.0360907301
+        - - 1.890568837
+          - -1.3792701249
+          - -0.0707878951
+        - - 2.8761808446
+          - 0.8317535841
+          - 0.1726707587
+        - - 1.1965055087
+          - 1.6111853457
+          - 0.2678066384
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
   : class: CalculatedDataEntry
     thermo_data:

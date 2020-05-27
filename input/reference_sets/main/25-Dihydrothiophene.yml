@@ -12,6 +12,75 @@ adjacency_list: |
   10 H u0 p0 c0 {4,S}
   11 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('tightpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 22.04123780435862
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0047010314
+          - -1.3418112046
+          - 0.0001442265
+        - - -1.2401763169
+          - -1.32439e-05
+          - -9.92132e-05
+        - - -0.0047446278
+          - 1.3418036641
+          - 0.0001434279
+        - - 1.3305490477
+          - 0.6611614652
+          - -8.48166e-05
+        - - 1.3305737832
+          - -0.6611299231
+          - -8.73579e-05
+        - - -0.1354855074
+          - -1.9706510103
+          - -0.881881141
+        - - -0.1353250184
+          - -1.9702467941
+          - 0.8824883659
+        - - -0.1353731305
+          - 1.9702435515
+          - 0.88248441
+        - - -0.1355276443
+          - 1.9706418077
+          - -0.8818840662
+        - - 2.2372070266
+          - 1.2535766884
+          - -0.0001546572
+        - - 2.237262314
+          - -1.2534963498
+          - -0.0001583798
+      isotopes:
+      - 12
+      - 32
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
   : class: CalculatedDataEntry
     thermo_data:
