@@ -106,6 +106,55 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -12.645832720325151
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.6293830052
+          - -0.1346781787
+          - -2.41209e-05
+        - - 0.3531812208
+          - 0.5101402571
+          - 2.57007e-05
+        - - -0.6715390557
+          - -0.434849917
+          - 4.09795e-05
+        - - -1.7177774441
+          - 0.0801356292
+          - -3.6362e-05
+        - - 2.1723924159
+          - 0.172073947
+          - -0.8916942377
+        - - 1.4957708752
+          - -1.2158351894
+          - 0.0009376955
+        - - 2.1730818543
+          - 0.1735726436
+          - 0.890699702
+      isotopes:
+      - 12
+      - 16
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - N
+      - O
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
   : class: CalculatedDataEntry
     thermo_data:

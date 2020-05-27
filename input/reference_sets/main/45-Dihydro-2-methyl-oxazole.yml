@@ -172,6 +172,85 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -28.706438081051573
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1492567652
+          - 0.0070917091
+          - -0.0064258622
+        - - 0.6675963108
+          - 0.1089248985
+          - -0.000426668
+        - - -0.017885514
+          - 1.1703896428
+          - -0.0256108522
+        - - -1.4266386911
+          - 0.7657289157
+          - 0.0293116135
+        - - -1.3912276337
+          - -0.7712127438
+          - -0.0402575146
+        - - 0.013067978
+          - -1.0856730105
+          - 0.0436247963
+        - - 2.4799508135
+          - -0.565602671
+          - -0.8729348721
+        - - 2.582270847
+          - 1.0021679861
+          - -0.0341631709
+        - - 2.4881039941
+          - -0.5191605708
+          - 0.8861832005
+        - - -1.8729815432
+          - 1.1324262727
+          - 0.9551945466
+        - - -1.9777199567
+          - 1.2087655281
+          - -0.7997234372
+        - - -1.7711541623
+          - -1.1659419474
+          - -0.9827886759
+        - - -1.9017357259
+          - -1.2631946903
+          - 0.7853005915
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',)))
   : class: CalculatedDataEntry
     thermo_data:
