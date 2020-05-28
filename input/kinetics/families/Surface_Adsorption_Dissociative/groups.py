@@ -410,16 +410,16 @@ C should not match to *2 with a less heavy atom
 """,
 )
 
-forbidden(
-    label = "chargedBond",
-    group =
-"""
-1 *1 R!H ux c[+1,-1] {2,[S,D,T]}
-2 *2 R!H ux c[+1,-1] {1,[S,D,T]}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The adsorbing molecule should not have a charge on the surface.
-""",
-)
+# forbidden(
+#     label = "chargedBond",
+#     group =
+# """
+# 1 *1 R!H ux c[+1,-1] {2,[S,D,T]}
+# 2 *2 R!H ux c[+1,-1] {1,[S,D,T]}
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# The adsorbing molecule should not have a charge on the surface.
+# """,
+# )

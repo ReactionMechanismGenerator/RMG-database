@@ -282,19 +282,19 @@ L1: Gas
 """
 )
 
-forbidden(
-    label = "chargedBond",
-    group =
-"""
-1 *4 R!H ux c[+1,-1] {2,[S,D,T]}
-2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The adsorbing molecule should not have a charge on the surface.
-""",
-)
+# forbidden(
+#     label = "chargedBond",
+#     group =
+# """
+# 1 *4 R!H ux c[+1,-1] {2,[S,D,T]}
+# 2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# The adsorbing molecule should not have a charge on the surface.
+# """,
+# )
 
 forbidden(
     label = "radical",
