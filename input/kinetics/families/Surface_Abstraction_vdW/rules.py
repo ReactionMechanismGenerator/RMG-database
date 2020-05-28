@@ -12,10 +12,10 @@ entry(
     index = 1,
     label = "AdsorbateVdW;Adsorbate1",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e13, 'm^2/(mol*s)'),
+        A = (1.0e18, 'm^2/(mol*s)'),
         n = 0,
         alpha = 0.5,
-        E0 = (0, 'kcal/mol'),
+        E0 = (10, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),

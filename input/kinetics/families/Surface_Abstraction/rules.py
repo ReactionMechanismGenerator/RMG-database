@@ -9,7 +9,7 @@ entry(
     index = 1,
     label = "Abstracting;Donating",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e15, 'm^2/(mol*s)'),
+        A = (1.0e18, 'm^2/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (80., 'kJ/mol'),
@@ -33,22 +33,22 @@ There is no instance of non-H abstraction in Delgado, so I reduced it from 1E17 
     """,
 )
 
-entry(
-    index = 1,
-    label = "Abstracting;*R-H",
-    kinetics = SurfaceArrheniusBEP(
-        A = (5.0e17, 'm^2/(mol*s)'),
-        n = 0,
-        alpha = 0.0, #0.26
-        E0 = (40.0, 'kJ/mol'), #34.3
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Made up""",
-    longDesc = u"""
-CFG increased the pre-exponential factor from 1E13, which is what we originally had,
-based upon the above citation, to 1E17, to bring it closer to the values in the
-Deutschmann_Ni (Delgado) mechanism
-    """
-)
+# entry(
+#     index = 1,
+#     label = "Abstracting;*R-H",
+#     kinetics = SurfaceArrheniusBEP(
+#         A = (5.0e17, 'm^2/(mol*s)'),
+#         n = 0,
+#         alpha = 0.0, #0.26
+#         E0 = (40.0, 'kJ/mol'), #34.3
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     rank = 0,
+#     shortDesc = u"""Made up""",
+#     longDesc = u"""
+# CFG increased the pre-exponential factor from 1E13, which is what we originally had,
+# based upon the above citation, to 1E17, to bring it closer to the values in the
+# Deutschmann_Ni (Delgado) mechanism
+#     """
+# )
