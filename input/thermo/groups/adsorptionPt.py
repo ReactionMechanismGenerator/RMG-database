@@ -272,7 +272,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.24, 2.94, 3.33, 3.56, 3.78, 3.87, 3.95], 'cal/(mol*K)'),
-        H298=(-24.64, 'kcal/mol'),
+        H298=(-4.94, 'kcal/mol'),
         S298=(-35.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O-NH2 single-bonded on Pt(111)""",
