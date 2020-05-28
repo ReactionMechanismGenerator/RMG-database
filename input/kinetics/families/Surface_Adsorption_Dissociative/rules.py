@@ -33,7 +33,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    rank = 10,
+    rank = 0,
     shortDesc = u"""H2 dissociative adsorption""",
     longDesc = u"""
     Micro-kinetic modeling of NH3 decomposition on Ni and its application to solid oxide fuel cells
