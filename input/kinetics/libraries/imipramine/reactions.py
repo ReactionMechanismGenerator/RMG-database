@@ -1120,7 +1120,7 @@ Use diffusion limit after discussing with Prof. Green
 entry(
     index = 1057,
     label = "imipramine_2_OOH_4_OO <=> imipramine_2_OOH_4_OOH_5_rad",
-    degeneracy = 3.0,
+    degeneracy = 6.0,
     kinetics = Arrhenius(A=(5.0738e+10, 's^-1'), n=0, Ea=(43.3198, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     shortDesc = u"""""",
