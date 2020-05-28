@@ -57,14 +57,14 @@ L1: VacantSite
 """
 )
 
-forbidden(
-    label = "charge",
-    group =
-"""
-1 R ux c[+1,-1]
-""",
-    shortDesc = u"""Charges not allowed""",
-    longDesc =
-u"""
-""",
-)
+# forbidden(
+#     label = "charge",
+#     group =
+# """
+# 1 R ux c[+1,-1]
+# """,
+#     shortDesc = u"""Charges not allowed""",
+#     longDesc =
+# u"""
+# """,
+# )

@@ -101,15 +101,15 @@ e.g. this is not allowed:
 """,
 )
 
-forbidden(
-    label = "chargedSpecies",
-    group =
-"""
-1 *1 R u1 c[+1,-1]
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The adsorbing atom should not have a charge
-""",
-)
+# forbidden(
+#     label = "chargedSpecies",
+#     group =
+# """
+# 1 *1 R u1 c[+1,-1]
+# """,
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+# The adsorbing atom should not have a charge
+# """,
+# )
