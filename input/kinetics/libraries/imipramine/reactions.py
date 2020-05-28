@@ -1117,7 +1117,31 @@ Use diffusion limit after discussing with Prof. Green
 """,
 )
 
+entry(
+    index = 1057,
+    label = "imipramine_2_OOH_4_OO <=> imipramine_2_OOH_4_OOH_5_rad",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.0738e+10, 's^-1'), n=0, Ea=(43.3198, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction 
+""",
+)
 
+entry(
+    index = 1061,
+    label = "imipramine_2_OO_4_OOH + CH3OH  <=> imipramine_2_OOH_4_OOH + CH2OH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.95552e+06, 'cm^3/(mol*s)'), n=0, Ea=(60.5826, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction 
+""",
+)
 
 
 
