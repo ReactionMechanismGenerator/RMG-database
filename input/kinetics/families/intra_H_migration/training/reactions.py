@@ -10017,6 +10017,7 @@ entry(
     label = "imipramine_tail_2_OO_rad_r <=> imipramine_tail_2_OOH_4_rad_p",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.01382e+10,'s^-1'), n=0, Ea=(64.066,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    rank=1,
     longDesc =
 """
 dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//apfd/def2tzvp
@@ -10061,6 +10062,7 @@ entry(
     label = "imipramine_tail_2_OOH_4_rad_r <=> imipramine_tail_2_OO_rad_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.39431e+10,'s^-1'), n=0, Ea=(33.9478,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    rank=1,
     longDesc =
 """
 dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//apfd/def2tzvp
@@ -10106,6 +10108,7 @@ entry(
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(5.0738e+10, 's^-1'), n=0, Ea=(43.3198, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
+    rank=1,
     shortDesc = u"""""",
     longDesc =
 u"""
