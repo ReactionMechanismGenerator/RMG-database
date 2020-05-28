@@ -1504,6 +1504,7 @@ entry(
     index = 100111,
     label = "frag_peroxide_rad5 + CH3OH_r2 <=> frag_peroxide_5 + CH2OH",
     degeneracy = 3.0,
+    rank=1,
     kinetics = Arrhenius(A=(1.32428e+11,'cm^3/(mol*s)'), n=0, Ea=(96.6909,'kJ/mol'), T0=(1,'K'),
                          Tmin=(275,'K'), Tmax=(350,'K')),
     longDesc = 
@@ -1550,6 +1551,7 @@ entry(
     index = 100112,
     label = "frag_peroxide_rad5 + CH3OH_r1 <=> frag_peroxide_5 + CH3O_p",
     degeneracy = 1.0,
+    rank=1,
     kinetics = Arrhenius(A=(1.35368e+11,'cm^3/(mol*s)'), n=0, Ea=(96.7624,'kJ/mol'), T0=(1,'K'), 
                          Tmin=(275,'K'), Tmax=(350,'K')),
     longDesc =
@@ -1596,6 +1598,7 @@ entry(
     index = 100113,
     label = 'OHCHOH + OHCH2OOH <=> OHCH2OH + OHCH2OO',
     degeneracy = 1.0,
+    rank=1,
     kinetics = Arrhenius(A=(5.04944e+07,'cm^3/(mol*s)'), n=0, Ea=(17.4814,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     longDesc =
@@ -1609,6 +1612,7 @@ entry(
     index = 100114,
     label = 'OHCHOH + cyanoisopropylOOH <=> OHCH2OH + cyanoisopropylOO',
     degeneracy = 1.0,
+    rank=1,
     kinetics = Arrhenius(A=(8.90093e+07,'cm^3/(mol*s)'), n=0, Ea=(23.8264,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     longDesc =
@@ -1622,6 +1626,7 @@ entry(
     index = 100115,
     label = 'CH2O + cyanoisopropylOO_r <=> CHO_p1 + cyanoisopropylOOH_p',
     degeneracy = 2.0,
+    rank=1,
     kinetics = Arrhenius(A=(9.25121e+08,'cm^3/(mol*s)'), n=0, Ea=(41.2887,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     longDesc =
@@ -1635,6 +1640,7 @@ entry(
     index = 100116,
     label = 'H2O2 + OHCH2OO_r <=> HO2 + OHCH2OOH_p',
     degeneracy = 2.0,
+    rank=1,
     kinetics = Arrhenius(A=(221744,'cm^3/(mol*s)'), n=0, Ea=(31.4438,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     longDesc =
@@ -1648,6 +1654,7 @@ entry(
     index = 100117,
     label = "imipramine_2_OO_4_OOH + CH3OH_r2  <=> imipramine_2_OOH_4_OOH + CH2OH",
     degeneracy = 3.0,
+    rank=1,
     kinetics = Arrhenius(A=(6.95552e+06, 'cm^3/(mol*s)'), n=0, Ea=(60.5826, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     shortDesc = u"""""",
@@ -1718,6 +1725,7 @@ entry(
     index = 100118,
     label = "imipramine_2_OOH_4_OO + CH3OH_r2  <=> imipramine_2_OOH_4_OOH + CH2OH",
     degeneracy = 3.0,
+    rank=1,
     kinetics = Arrhenius(A=(1.32522e+07,'cm^3/(mol*s)'), n=0, Ea=(54.2276,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     longDesc =
@@ -1787,6 +1795,7 @@ entry(
     index = 100119,
     label = "imipramine_5_oo + CH3OH_r2  <=> imipramine_5_ooh + CH2OH",
     degeneracy = 3.0,
+    rank=1,
     kinetics = Arrhenius(A=(3.42355e+06,'cm^3/(mol*s)'), n=0, Ea=(59.0094,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     longDesc =
@@ -1854,6 +1863,7 @@ entry(
     index = 100120,
     label = "imipramine_1_oo + CH3OH_r2  <=> imipramine_1_ooh + CH2OH",
     degeneracy = 3.0,
+    rank=1,
     kinetics = Arrhenius(A=(1.17017e+07,'cm^3/(mol*s)'), n=0, Ea=(61.3971,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     longDesc =
