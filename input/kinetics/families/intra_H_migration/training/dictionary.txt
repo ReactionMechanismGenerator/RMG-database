@@ -12552,11 +12552,12 @@ multiplicity 2
 48 H u0 p0 c0 {27,S}
 
 imipramine_2_OOH_4_OO
+multiplicity 2
 1  C u0 p0 c0 {2,S} {26,S} {27,S} {28,S}
-2  *4 N u0 p1 c0 {1,S} {3,S} {4,S}
+2  *5 N u0 p1 c0 {1,S} {3,S} {4,S}
 3  *2 C u0 p0 c0 {2,S} {29,S} {30,S} {31,S}
 4  *6 C u0 p0 c0 {2,S} {5,S} {7,S} {32,S}
-5  *5 O u0 p2 c0 {4,S} {6,S}
+5  *4 O u0 p2 c0 {4,S} {6,S}
 6  *1 O u1 p2 c0 {5,S}
 7  C u0 p0 c0 {4,S} {8,S} {33,S} {34,S}
 8  C u0 p0 c0 {7,S} {9,S} {11,S} {35,S}
