@@ -20,6 +20,8 @@ reverse = "reverse_HOCK"
 
 reversible = True
 
+only_forward = True
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['BREAK_BOND', '*3', 1, '*4'],
