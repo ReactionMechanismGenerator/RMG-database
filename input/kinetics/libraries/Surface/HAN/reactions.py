@@ -125,7 +125,7 @@ entry(
 entry(
     index = 6,
     label = "HAN_X + X <=> NH2OH_X + HNO3_X",
-    kinetics = StickingCoefficient(
+    kinetics=SurfaceArrhenius(
         A = (1.0e20, 'cm^2/(mol*s)'),
         n = 0,
         Ea=(5.0, 'kcal/mol'),
