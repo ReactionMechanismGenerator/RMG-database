@@ -46,6 +46,18 @@ NH4NO3
 8 H u0 p0 c0 {5,S}
 9 H u0 p0 c0 {5,S}
 
+NH4NO3_X
+1 O u0 p3 c-1 {2,S} {6,H}
+2 N u0 p0 c+1 {1,S} {3,D} {4,S}
+3 O u0 p2 c0 {2,D}
+4 O u0 p3 c-1 {2,S} {7,H}
+5 N u0 p0 c+1 {6,S} {7,S} {8,S} {9,S}
+6 H u0 p0 c0 {5,S} {1,H}
+7 H u0 p0 c0 {5,S} {4,H}
+8 H u0 p0 c0 {5,S}
+9 H u0 p0 c0 {5,S}
+10 X u0 p0 c0
+
 N2O_X
 1 O u0 p2 c0 {2,D}
 2 N u0 p0 c+1 {1,D} {3,D}
@@ -149,8 +161,24 @@ NH2OH
 4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {1,S}
 
+NH2OH_X
+1 O u0 p2 c0 {2,S} {5,S}
+2 N u0 p1 c0 {1,S} {3,S} {4,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {2,S}
+5 H u0 p0 c0 {1,S}
+6 X u0 p0 c0
+
 NO2
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
 2 O u0 p2 c0 {1,D}
 3 O u1 p2 c0 {1,S}
+
+HNO3_X
+1 O u0 p2 c0 {2,S} {5,S}
+2 N u0 p0 c+1 {1,S} {3,D} {4,S}
+3 O u0 p2 c0 {2,D}
+4 O u0 p3 c-1 {2,S}
+5 H u0 p0 c0 {1,S}
+6 X u0 p0 c0
