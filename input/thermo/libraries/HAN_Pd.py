@@ -28,7 +28,7 @@ metal Ir
     thermo = ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'), 
         Cpdata=([111.078, 131.036, 147.758, 161.708, 183.224, 198.423, 219.656], 'J/(mol*K)'), 
-        H298=(-326.996, 'kJ/mol'), S298=(203.955, 'J/(mol*K)'),
+        H298=(-291.432, 'kJ/mol'), S298=(203.955, 'J/(mol*K)'),
             
     ),
     shortDesc = """Estimated from gas phase and Banerjee""",
