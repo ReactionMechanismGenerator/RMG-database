@@ -772,29 +772,29 @@ Table 3, an average of sources 66 and 79
 """,
 )
 
-entry(
-    index = 36,
-    label = "HO2 + OHCH2OO <=> O2 + OHCH2OOH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    longDesc =
-"""
-We assume that at **basic conditions** HO2 is in the O2(-) form and does not react in the same pathway
-""",
-)
-
-entry(
-    index = 37,
-    label = "HO2 + cyanoisopropylOO <=> O2 + cyanoisopropylOOH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    longDesc =
-"""
-We assume that at **basic conditions** HO2 is in the O2(-) form and does not react in the same pathway
-""",
-)
+# entry(
+#     index = 36,
+#     label = "HO2 + OHCH2OO <=> O2 + OHCH2OOH",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K')),
+#     longDesc =
+# """
+# We assume that at **basic conditions** HO2 is in the O2(-) form and does not react in the same pathway
+# """,
+# )
+#
+# entry(
+#     index = 37,
+#     label = "HO2 + cyanoisopropylOO <=> O2 + cyanoisopropylOOH",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K')),
+#     longDesc =
+# """
+# We assume that at **basic conditions** HO2 is in the O2(-) form and does not react in the same pathway
+# """,
+# )
 
 entry(
     index = 1052,
