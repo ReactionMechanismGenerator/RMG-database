@@ -955,34 +955,34 @@ entry(
 
 ### Leads to AtomTypeError: Unable to determine atom type for atom O-, which has 3 single bonds, 0 double bonds to C, 0 double bonds to O, 0 double bonds to S, 0 triple bonds, 0 benzene bonds, 0 lone pairs, and 2 charge.
 ### And is not in the tree anyway, so commenting out. RHW
-# entry(
-#     index = 31,
-#     label = "N-*O2",
-#     group =
-# """
-# 1 * X u0  p0 c0 {2,S}
-# 2 N  u0  p0 c+1 {1,S} {3,S} {4,D}
-# 3 O  u0  p2 c-1 {2,S}
-# 4 O  u0  p2 c0 {2,D}
-# """,
-#     thermo=ThermoData(
-#         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-#         Cpdata=([1.92, 2.12, 2.17, 2.17, 2.13, 2.09, 2.04], 'cal/(mol*K)'),
-#         H298=(34.56, 'kcal/mol'),
-#         S298=(-33.93, 'cal/(mol*K)'),
-#     ),
-#     shortDesc=u"""Came from ON-O single-bonded on Pt(111)""",
-#     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
-#             Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.86302 eV, gamma_N(X) = 0.333.
-#             The two lowest frequencies, -33.2 and 55.1 cm-1, where replaced by the 2D gas model.
-#
-#  O-N=O
-#    |
-# ***********
-# """,
-#    metal = "Pt",
-#    facet = "111",
-# )
+entry(
+    index = 31,
+    label = "N-*O2",
+    group =
+"""
+1 X u0  p0 c0 {2,S}
+2 N  u0  p0 c+1 {1,S} {3,S} {4,D}
+3 O  u0  p1 c-1 {2,S}
+4 O  u0  p2 c0 {2,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([1.92, 2.12, 2.17, 2.17, 2.13, 2.09, 2.04], 'cal/(mol*K)'),
+        H298=(-16.1, 'kcal/mol'),
+        S298=(-33.93, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Came from ON-O single-bonded on Pt(111)""",
+    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.86302 eV, gamma_N(X) = 0.333.
+            The two lowest frequencies, -33.2 and 55.1 cm-1, where replaced by the 2D gas model.
+
+ O-N=O
+   |
+***********
+"""
+    metal = "Pt",
+    facet = "111",
+)
 
 entry(
     index = 32,
@@ -2620,6 +2620,7 @@ L1: R*
                 L5: N-*CR2
                 L5: N-*NR
                 L5: N-*O
+                L5: N-*O2
         L3: O*
             L4: O=*
             L4: O-*R
