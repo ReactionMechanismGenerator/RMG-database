@@ -116,6 +116,41 @@ is for the "ionic" form, so that if we come across it in a model
 )
 
 
+# entry(
+#     index = 3,
+#     label = 'NH4NO3', # Ammonium Nitrate, AN
+#     molecule = 
+# """
+# 1 O u0 p3 c-1 {2,S} {6,H}
+# 2 N u0 p0 c+1 {1,S} {3,D} {4,S}
+# 3 O u0 p2 c0 {2,D}
+# 4 O u0 p3 c-1 {2,S} {7,H}
+# 5 N u0 p0 c+1 {6,S} {7,S} {8,S} {9,S}
+# 6 H u0 p0 c0 {5,S} {1,H}
+# 7 H u0 p0 c0 {5,S} {4,H}
+# 8 H u0 p0 c0 {5,S}
+# 9 H u0 p0 c0 {5,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([  300., 400., 500., 600., 700., 800., 900.,1000],'K'),
+#         Cpdata = ([22.37,25.83,28.84,31.39,33.54,35.36,36.92,38.27],'cal/(mol*K)'),
+#         H298 = (-61.8,'kcal/mol','+|-',5.),
+#         S298 = (81.82,'cal/(mol*K)'),
+#     ),
+#     shortDesc = """Hildenbrand 2010 Revised Thermochemistry of Gaseous Ammonium Nitrate, NH4NO3(g)""",
+#     longDesc = 
+# """
+# Table 3 from:
+
+# Revised Thermochemistry of Gaseous Ammonium Nitrate, NH4NO3(g)
+# D. L. Hildenbrand, K. H. Lau, and D. Chandra
+# J. Phys. Chem. A 2010, 114, 43, 11654–11655
+# https://doi-org.ezproxy.neu.edu/10.1021/jp105773q
+
+# Does not agree, even within uncertainty, with an adjoining theoretical calculation.
+# """,
+# )
+
 entry(
     index = 3,
     label = 'NH4NO3', # Ammonium Nitrate, AN
@@ -132,8 +167,8 @@ entry(
 9 H u0 p0 c0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([  300., 400., 500., 600., 700., 800., 900.,1000],'K'),
-        Cpdata = ([22.37,25.83,28.84,31.39,33.54,35.36,36.92,38.27],'cal/(mol*K)'),
+        Tdata = ([ 300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([22.37,25.83,28.84,31.39,35.36,38.27, 42.0],'cal/(mol*K)'),
         H298 = (-61.8,'kcal/mol','+|-',5.),
         S298 = (81.82,'cal/(mol*K)'),
     ),
@@ -147,6 +182,7 @@ D. L. Hildenbrand, K. H. Lau, and D. Chandra
 J. Phys. Chem. A 2010, 114, 43, 11654–11655
 https://doi-org.ezproxy.neu.edu/10.1021/jp105773q
 
+Cp1500 guessed
 Does not agree, even within uncertainty, with an adjoining theoretical calculation.
 """,
 )
