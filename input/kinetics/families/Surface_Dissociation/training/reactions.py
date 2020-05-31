@@ -98,7 +98,54 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 5,
+    label = "NH2_Pt + Ni_4 <=> NHX_2 + HX_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A = (1.2415e+18, 'm^2/(mol*s)'),
+        n = 0,
+        Ea = (110, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""NH2 Surface Dissociation on Pt""",
+    longDesc = u"""
+    "Ammonia activation on platinum {1 1 1}: A density functional theory study"
+    https://doi.org/10.1016/j.susc.2006.01.031
+
+    A factor from paper / surface site density of Pt
+    5e12 1/s / 2.483e-05 mol/m^2 = 1.2415e+18 m^2/(mol*s)
+    """, 
+    metal="Pt",
+    facet="111"
+)
+
+entry(
+    index = 6,
+    label = "NHX_2 + Ni_4 <=> NX + HX_5",
+    kinetics = SurfaceArrhenius(
+        A = (1.78776e+18, 'm^2/(mol*s)'),
+        n = 0,
+        Ea = (118.0, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""NH Surface Dissociation Pt""",
+    longDesc = u"""
+    "Ammonia activation on platinum {1 1 1}: A density functional theory study"
+    https://doi.org/10.1016/j.susc.2006.01.031
+
+    A factor from paper / surface site density of Pt
+    7.2e12 1/s / 2.483e-05 mol/m^2 = 1.78776e+18 m^2/(mol*s)
+    """,
+    metal = "Pt",
+    facet="111"
+)
+
+entry(
+    index = 7,
     label = "NHX_2 + Ni_4 <=> NX + HX_5",
     kinetics = SurfaceArrhenius(
         A = (6.213e19, 'cm^2/(mol*s)'),
@@ -117,10 +164,11 @@ entry(
     This is R11
     """,
     metal = "Ni",
+    facet="111"
 )
 
 entry(
-    index = 16,
+    index = 8,
     label = "CH2X_3 + HX_5 <=> CH3X_1 + Ni_4",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
@@ -142,7 +190,7 @@ Catalysts, 2015, 5, 871-904. Reaction R16
 
 
 entry(
-    index = 18,
+    index = 9,
     label = "CHX_3 + HX_5 <=> CH2X_1 + Ni_4",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -185,7 +233,7 @@ Catalysts, 2015, 5, 871-904. Reaction R18
 #)
 
 entry(
-    index = 20,
+    index = 10,
     label = "CX_3 + HX_5 <=> CHX_1 + Ni_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -206,7 +254,7 @@ Catalysts, 2015, 5, 871-904. Reaction R20
 )
 
 entry(
-    index = 28,
+    index = 11,
     label = "HCOO* + Ni_4 <=> HCO* + OX_3",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -229,33 +277,26 @@ Erxn = 2.18 eV
     metal = "Cu",
 )
 
-# entry(
-#     index = 31,
-#     label = "HCOH* + HX_5 <=> CH2OH* + Ni_4",
-#     degeneracy = 1,
-#     kinetics = SurfaceArrhenius(
-#         A=(1.257e17, 'm^2/(mol*s)'),
-#         n = 0.0,
-#         Ea=(54.4228933, 'kcal/mol'),
-#         Tmin = (298, 'K'),
-#         Tmax = (2000, 'K'),
-#     ),
-#     rank=10,
-#     shortDesc = u"""Default""",
-#     longDesc = u"""
-# Reaction 32 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
-# and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-
-# A factor from paper / surface site density of Cu
-# 3.698E12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.257e17 m^2/(mol*s)
-# """,
-#     metal = "Cu",
-# )
-# HCOH* is CH2Ovdw and doesn't match this family - David
+entry(
+    index = 12,
+    label = "HCOH* + HX_5 <=> CH2OH* + Ni_4",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A=(1.257e17, 'm^2/(mol*s)'),
+        n = 0.0,
+        Ea=(54.4228933, 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 32 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 
 entry(
-    index = 32,
+    index = 13,
     label = "HOX_1 + Ni_4 <=> OX_3 + HX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -276,7 +317,7 @@ Catalysts, 2015, 5, 871-904. Reaction R32
 )
 
 entry(
-    index = 15,
+    index = 14,
     label = "HOX_1 + Ni_4 <=> OX_3 + HX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -300,7 +341,7 @@ Erxn = 0.72 eV
 )
 
 entry(
-    index = 36,
+    index = 15,
     label = "CH3O2* + Ni_4 <=> CH2OH*_2 + OX_3",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -324,7 +365,7 @@ Erxn = 1.39 eV
 )
 
 entry(
-    index = 48,
+    index = 16,
     label = "CXHO_1 + Ni_4 <=> OCX_3 + HX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -345,7 +386,7 @@ Catalysts, 2015, 5, 871-904. Reaction R8
 )
 
 entry(
-    index = 26,
+    index = 17,
     label = "OCX_3 + HX_5 <=> CXHO_1 + Ni_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
