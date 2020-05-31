@@ -12,19 +12,19 @@ entry(
     index = 1,
     label = "N_Pt + N_Pt <=> N2 + Pt + Pt",
     kinetics = SurfaceArrhenius(
-        A=(4.966e+16, 'm^2/(mol*s)'),
+        A=(7.449e+16, 'm^2/(mol*s)'),
         n = 0.,
-        Ea = (100.0, 'kJ/mol'),
+        Ea = (85.0, 'kJ/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
-Reaction 10 in "Modeling ammonia oxidation over a Pt (533) surface"
-https://doi.org/10.1016/j.susc.2011.08.014
+"Kinetics of ammonia oxidation on stepped platinum surfacesII. Simulation results"
 
 A factor from paper / surface site density of Pt
-2e11 1/s / 2.483e-05 mol/m^2 = 4.966e+16 m^2/(mol*s)
+3e11 1/s / 2.483e-05 mol/m^2 = 7.449e+16 m^2/(mol*s)
+Surface Science 576 (2005) 131–144
 """
 )
 
