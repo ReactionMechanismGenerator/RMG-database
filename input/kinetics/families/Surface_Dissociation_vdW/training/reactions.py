@@ -53,6 +53,28 @@ entry(
 )
 
 entry(
+    index = 8,
+    label = "NH3_X + X_4 <=> NH2_X + H*",
+    degeneracy = 3,
+    kinetics = SurfaceArrhenius(
+        A = (2.13538e+17, 'm^2/(mol*s)'),
+        n = 0,
+        Ea = (93.0, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+    "Ammonia activation on platinum {1 1 1}: A density functional theory study"
+    https://doi.org/10.1016/j.susc.2006.01.031
+
+    A factor from paper / surface site density of Pt
+    8.6e11 1/s / 2.483e-05 mol/m^2 = 2.13538e+17 m^2/(mol*s)
+"""
+)
+
+entry(
     index = 13,
     label = "COOH* + H* <=> HCOOH* + X_4",
     degeneracy = 1,
