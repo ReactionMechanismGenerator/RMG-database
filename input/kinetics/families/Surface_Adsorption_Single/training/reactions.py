@@ -94,29 +94,29 @@ A = ((2.24E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 46 g/mol * molar ga
     metal = "Pt",
     facet = "111",
 
-entry(
-    index = 2,
-    label = "NO_X <=> NO + Pt",
-    degeneracy = 1,
-    kinetics = SurfaceArrhenius(
-        A=(1.9864e+20, 'm^2/(mol*s)'),
-        n = 0.,
-        Ea = (163.0, 'kJ/mol'),
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 9,
-    shortDesc = u"""NO desorption""",
-    longDesc = u"""
-    Reaction 12 in "Modeling ammonia oxidation over a Pt (533) surface"
-    https://doi.org/10.1016/j.susc.2011.08.014
+# entry(
+#     index = 2,
+#     label = "NO_X <=> NO + Pt",
+#     degeneracy = 1,
+#     kinetics = SurfaceArrhenius(
+#         A=(1.9864e+20, 'm^2/(mol*s)'),
+#         n = 0.,
+#         Ea = (163.0, 'kJ/mol'),
+#         Tmin = (298, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank = 9,
+#     shortDesc = u"""NO desorption""",
+#     longDesc = u"""
+#     Reaction 12 in "Modeling ammonia oxidation over a Pt (533) surface"
+#     https://doi.org/10.1016/j.susc.2011.08.014
 
-    A factor from paper / surface site density of Pt
-    8e14 1/s / 2.483e05 mol/m^2 = 1.9864e+20 m^2/(mol*s)
-    """,
-    metal="Pt",
-    facet="533"
-)
+#     A factor from paper / surface site density of Pt
+#     8e14 1/s / 2.483e05 mol/m^2 = 1.9864e+20 m^2/(mol*s)
+#     """,
+#     metal="Pt",
+#     facet="533"
+# )
 
 entry(
     index = 52,
