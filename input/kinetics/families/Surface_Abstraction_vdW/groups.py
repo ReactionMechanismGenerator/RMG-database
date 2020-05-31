@@ -49,8 +49,8 @@ entry(
     label = "Adsorbate1",
     group =
 """
-1 *5 X   u0 p0 c0 {2,[D,T,Q]}
-2 *4 R!H ux px cx {1,[D,T,Q]}
+1 *5 X   u0 p0 c0 {2,[S,D,T,Q]}
+2 *4 R!H ux px cx {1,[S,D,T,Q]}
 """,
     kinetics = None,
 )
@@ -62,7 +62,7 @@ entry(
 """
 multiplicity [1]
 1 *1 Xv u0 p0 c0
-2 *2 O  ux p2 cx {3,S}
+2 *2 O  ux px cx {3,S}
 3 *3 R  ux px cx {2,S}
 """,
     kinetics = None,
@@ -506,6 +506,70 @@ multiplicity [1]
     kinetics = None,
 )
 
+entry(
+    index = 38,
+    label = "N-H",
+    group =
+"""
+multiplicity [1]
+1 *1 Xv u0 p0 c0
+2 *2 N ux px cx {3,S}
+3 *3 H u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 39,
+    label = "*O",
+    group =
+"""
+1 *5 X u0 p0 c0 {2,[S,D]}
+2 *4 O u0 px cx {1,[S,D]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 40,
+    label = "*OH",
+    group =
+"""
+1 *5 X u0 p0 c0 {2,S}
+2 *4 O u0 p2 c0 {1,S} {3,S}
+3    H u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 41,
+    label = "OH",
+    group =
+"""
+multiplicity [1]
+1 *1 Xv u0 p0 c0
+2 *2 O  u0 p2 c0 {3,S}
+3 *3 H  u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 42,
+    label = "H2O",
+    group =
+"""
+multiplicity [1]
+1 *1 Xv u0 p0 c0
+2 *2 O  u0 p2 c0 {3,S} {4,S}
+3 *3 H  u0 p0 c0 {2,S}
+4    H  u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: AdsorbateVdW
@@ -521,6 +585,8 @@ L1: AdsorbateVdW
             L4: O-C-3R
             L4: O-C=R
             L4: O-C#R
+        L3: OH
+            L4: H2O
     L2: C-R
         L3: C-C
         L3: C-O
@@ -530,9 +596,12 @@ L1: AdsorbateVdW
         L3: N-N
         L3: N-O
         L3: N-C
+        L3: N-H
 
 L1: Adsorbate1
-    L2: *=O
+    L2: *O
+        L2: *=O
+        L2: *OH
     L2: *C
         L3: *=C
             L4: *=C=R

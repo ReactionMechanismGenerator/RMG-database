@@ -113,6 +113,22 @@ H2NX-2
 3 *3 H u0 p0 c0 {1,S}
 4 *5 X u0 p0 c0 {1,S}
 
+HO_Pt
+1 *4 O u0 p2 c0 {2,S} {3,S}
+2 *3 H u0 p0 c0 {1,S}
+3 *5 X u0 p0 c0 {1,S}
+
+HOr_Pt
+1 *4 O u0 p2 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3 *5 X u0 p0 c0 {1,S}
+
+H2O_Pt
+1 *4 O u0 p2 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4 *5 X u0 p0 c0
+
 HNX
 1 *4 N u0 p1 c0 {2,S} {3,D}
 2    H u0 p0 c0 {1,S}
@@ -213,4 +229,14 @@ N2X2
 2    N u0 p1 c0 {1,S} {4,D}
 3 *5 X u0 p0 c0 {1,D}
 4    X u0 p0 c0 {2,D}
+NH2p_Pt
+1 *4 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 *3 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4 *5 X u0 p0 c0 {1,S}
+
+HO123_Pt
+1 *2 O u0 p2 c0 {2,S} {3,S}
+2 *3 H u0 p0 c0 {1,S}
+3 *1 X u0 p0 c0 {1,S}
 

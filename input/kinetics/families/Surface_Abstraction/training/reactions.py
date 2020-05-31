@@ -120,7 +120,11 @@ entry(
     index = 40,
     label = "H2NX + O* <=> OH* + HNX",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(2.22e+21,'cm^2/(mol*s)'), n=0, Ea=(78156.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(
+        A=(2.22e+21,'cm^2/(mol*s)'), 
+        n=0, Ea=(78156.9,'J/mol'), 
+        T0=(1,'K'), Tmin=(200,'K'), 
+        Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction""",
     longDesc = 
@@ -597,7 +601,7 @@ This is R63 in Table 4
     metal = "Rh",
 )
 
-=======
+
 
 entry(
     index = 59,

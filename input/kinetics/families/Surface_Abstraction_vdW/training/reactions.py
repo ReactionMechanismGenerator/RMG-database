@@ -32,7 +32,7 @@ training set for generating rate rules to populate this kinetics family.
 
 # reverse of 34, above
 entry(
-    index = 16,
+    index = 1,
     label = "OH_2* + OH_4* <=> H2O* + O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -76,7 +76,7 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 2,
     label = "OH_2* + HCO* <=> H2O* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -99,7 +99,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 41,
+    index = 3,
     label = "HCOO_1* + HCO* <=> HCOOH* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -122,7 +122,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 45,
+    index = 4,
     label = "CH3O* + HCO* <=> CH3OH* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -145,7 +145,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 46,
+    index = 5,
     label = "CH3O* + HCOO_5* <=> HCOOCH3* + O*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -332,6 +332,7 @@ A (at 300K) = 5.1E11(1/s)/2.483E-9(mol/cm^2) = 2.054E20 cm^2/(mol*s)
     facet = "111",
 )
 
+<<<<<<< HEAD
 entry(
     index = 54,
     label = "O* + H3NX <=> H2NX + OH_4*",
@@ -1328,3 +1329,149 @@ This is R26 in Table 3
     facet = "111",
 )
 
+=======
+=======
+
+entry(
+    index = 6,
+    label = "H3NX + O* <=> H2NX + HO_Pt",
+    degeneracy = 3,
+    kinetics = SurfaceArrhenius(
+        A = (9.1871e+16, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea = (55.0, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 3 in "Modeling ammonia oxidation over a Pt (533) surface"
+https://doi.org/10.1016/j.susc.2011.08.014
+
+A factor from paper / surface site density of Pt
+3.7e11 1/s / 2.483e-05 mol/m^2 = 8.4422e+16 m^2/(mol*s)
+""",
+    metal="Pt",
+    facet="533"
+)
+
+entry(
+    index = 7,
+    label = "H3NX + HOr_Pt <=> H2NX + H2O_Pt",
+    degeneracy = 3,
+    kinetics = SurfaceArrhenius(
+        A = (9.6837e+17, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea = (73.0, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 6 in "Modeling ammonia oxidation over a Pt (533) surface"
+https://doi.org/10.1016/j.susc.2011.08.014
+
+A factor from paper / surface site density of Pt
+3.9e12 1/s / 2.483e-05 mol/m^2 = 9.6837e+17 m^2/(mol*s)
+""",
+    metal="Pt",
+    facet="533"
+)
+
+entry(
+    index = 8,
+    label = "NH2p_Pt + OH_2*  <=> HNX + H2O*",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A = (8.4422e+17, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea = (22.0, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 7 in "Modeling ammonia oxidation over a Pt (533) surface"
+https://doi.org/10.1016/j.susc.2011.08.014
+
+A factor from paper / surface site density of Pt
+3.4e12 1/s / 2.483e-05 mol/m^2 = 9.6837e+17 m^2/(mol*s)
+""",
+    metal="Pt",
+    facet="533"
+)
+
+entry(
+    index = 9,
+    label = "HNX-2 + OH_2*  <=> NX + H2O*",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(1.26633e+17, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea = (22.0, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 8 in "Modeling ammonia oxidation over a Pt (533) surface"
+https://doi.org/10.1016/j.susc.2011.08.014
+
+A factor from paper / surface site density of Pt
+5.1e11 1/s / 2.483e-05 mol/m^2 = 9.6837e+17 m^2/(mol*s)
+""",
+    metal="Pt",
+    facet="533"
+)
+
+entry(
+    index = 10,
+    label = "HNX-2 + OH_2*  <=> NX + H2O*",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(1.26633e+17, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea = (22.0, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 8 in "Modeling ammonia oxidation over a Pt (533) surface"
+https://doi.org/10.1016/j.susc.2011.08.014
+
+A factor from paper / surface site density of Pt
+5.1e11 1/s / 2.483e-05 mol/m^2 = 9.6837e+17 m^2/(mol*s)
+""",
+    metal="Pt",
+    facet="533"
+)
+
+entry(
+    index = 11,
+    label = "HOr_Pt + HO123_Pt  <=> O* + H2O*",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(2.483e+18, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea = (75.0, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Reaction 9 in "Modeling ammonia oxidation over a Pt (533) surface"
+https://doi.org/10.1016/j.susc.2011.08.014
+
+A factor from paper / surface site density of Pt
+1e13 1/s / 2.483e-05 mol/m^2 = 9.6837e+17 m^2/(mol*s)
+""",
+    metal="Pt",
+    facet="533"
+)
