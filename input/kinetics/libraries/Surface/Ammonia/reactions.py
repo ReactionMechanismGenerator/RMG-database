@@ -92,7 +92,7 @@ A factor made up
 
 entry(
     index = 5,
-    label = "NO_Pt111 + NO_Pt111 <=> N2O + O_Pt111",
+    label = "NO_Pt111 + NO_Pt111 <=> N2O + O_Pt111 + Pt111",
     kinetics = SurfaceArrhenius(
         A=(1.0e18, 'm^2/(mol*s)'),
         n = 0.,

@@ -33,8 +33,8 @@ metal Pt facet 111
 NO_Pt
 metal Pt facet 533
 1 N u0 p1 c0 {2,D} {3,S}
-1 O u0 p2 c0 {2,D}
-2 X u0 p0 c0 {1,S}
+2 O u0 p2 c0 {1,D}
+3 X u0 p0 c0 {1,S}
 
 N2O
 1 O u0 p2 c0 {2,D}
@@ -44,20 +44,14 @@ N2O
 NO_Pt111
 metal Pt facet 111
 1 N u0 p1 c0 {2,D} {3,S}
-1 O u0 p2 c0 {2,D}
-2 X u0 p0 c0 {1,S}
-
-NO_Pt111
-metal Pt facet 111
-1 N u0 p1 c0 {2,D} {3,S}
-1 O u0 p2 c0 {2,D}
-2 X u0 p0 c0 {1,S}
+2 O u0 p2 c0 {1,D}
+3 X u0 p0 c0 {1,S}
 
 NO_Pt100
 metal Pt facet 100
 1 N u0 p1 c0 {2,D} {3,S}
-1 O u0 p2 c0 {2,D}
-2 X u0 p0 c0 {1,S}
+2 O u0 p2 c0 {1,D}
+3 X u0 p0 c0 {1,S}
 
 N_Pt100
 metal Pt facet 100
@@ -69,3 +63,4 @@ metal Pt facet 100
 1 O u0 p2 c0 {2,D}
 2 N u0 p0 c+1 {1,D} {3,D}
 3 N u0 p2 c-1 {2,D}
+4 X u0 p0 c0
