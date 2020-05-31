@@ -139,7 +139,6 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 10,
     shortDesc = u"""N2O Dissociation""",
     longDesc = u"""
     Ea from
