@@ -113,6 +113,8 @@ We get the following sequence of reactions because of the high CH3OH concentrati
 We have a bad rate estimate for reaction 2, this entry tries to fix it.
 Taken from: T.S. Dibble, Mechanism and dynamics of the CH2OH + O2 reaction, Chem. Phys. Lett. 2002, 355, 193-200
 doi: 10.1016/S0009-2614(02)00211-7
+
+Reverse rate check: 1.053350e+12 cm^3/(mol*s), close to the diffusion limit of 1e+13
 """,
 )
 
