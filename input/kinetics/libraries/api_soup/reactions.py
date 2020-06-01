@@ -39,37 +39,8 @@ entry(
 """,
 )
 
-# entry(
-#     index=2,
-#     label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH2OH",
-#     kinetics=Arrhenius(A=(0.234766, 'cm^3/(mol*s)'), n=3.50344, Ea=(25.4103, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'),
-#                        Tmax=(500, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.05474, dn = +|- 0.00777691,
-#                        dEa = +|- 0.0221566 kJ/mol"""),
-#     shortDesc=u"""ccsd(t)/cc-pvtz//wb97xd/def2tzvp using ARC""",
-#     longDesc=
-#     u"""
-#     CO[O] + CH3OH <=> COOH + CH2OH
-#     NOx2018 has a different value Arrhenius(A=(4.0e+13, 'cm^3/(mol*s)'), n=0, Ea=(19.40, 'kcal/mol'), T0=(1, 'K'))
-# """,
-# )
-#
-# entry(
-#     index=3,
-#     label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH3O",
-#     kinetics=Arrhenius(A=(1.89162e-06, 'cm^3/(mol*s)'), n=5.47458, Ea=(64.6665, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'),
-#                        Tmax=(500, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.14859, dn = +|- 0.0202144, dEa
-#                        = +|- 0.0575912 kJ/mol"""),
-#     shortDesc=u"""H_abstraction""",
-#     longDesc=
-#     u"""
-#     CO[O] + CH3OH <=> COOH + CH3[O]
-#     H_abstraction has a different value Arrhenius(A=(1.17e-2, 'cm^3/(mol*s)'), n=4.29, Ea=(32.92, 'kcal/mol'),
-#     T0=(1, 'K'))
-# """,
-# )
-
 entry(
-    index=4,
+    index=2,
     label="CH3OH + HO2 <=> CH2OH + H2O2",
     kinetics=Arrhenius(A=(3.5e-4, 'cm^3/(mol*s)'), n=4.85, Ea=(10.35, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""NOx2018""",
@@ -79,7 +50,7 @@ entry(
 )
 
 entry(
-    index=5,
+    index=3,
     label="CH3OH + HO2 <=> CH3O + H2O2",
     kinetics=Arrhenius(A=(1.5e-3, 'cm^3/(mol*s)'), n=4.61, Ea=(15.93, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""NOx2018""",
@@ -89,7 +60,7 @@ entry(
 )
 
 entry(
-    index=6,
+    index=4,
     label="CH3OH + OH <=> CH2OH + H2O",
     kinetics=Arrhenius(A=(1.5e+8, 'cm^3/(mol*s)'), n=1.44, Ea=(0.11, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""Klippenstein_Glarborg2016""",
@@ -99,7 +70,7 @@ entry(
 )
 
 entry(
-    index=7,
+    index=5,
     label="CH3OH + OH <=> CH3O + H2O",
     kinetics=Arrhenius(A=(2.7e+7, 'cm^3/(mol*s)'), n=1.44, Ea=(0.11, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""NOx2018""",
@@ -109,7 +80,7 @@ entry(
 )
 
 entry(
-    index=8,
+    index=6,
     label="CH3OH + CH3O <=> CH2OH + CH3OH",
     kinetics=Arrhenius(A=(3.0e+11, 'cm^3/(mol*s)'), n=0, Ea=(4.07, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""CurranPentane""",
@@ -119,7 +90,7 @@ entry(
 )
 
 entry(
-    index=9,
+    index=7,
     label="CH3O + O2 <=> CH2O + HO2",
     kinetics=Arrhenius(A=(0.48, 'cm^3/(mol*s)'), n=3.57, Ea=(1.05, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""NOx2018""",
@@ -128,21 +99,8 @@ entry(
 """,
 )
 
-# entry(
-#     index=10,
-#     label="CH2OH + O2 <=> CH2O + HO2",
-#     kinetics=MultiArrhenius(
-#         arrhenius=[
-#             Arrhenius(A=(7.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(3736, 'cal/mol'), T0=(1, 'K')),
-#             Arrhenius(A=(2.9e+16, 'cm^3/(mol*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K'))]),
-#     shortDesc=u"""NOx2018""",
-#     longDesc=
-#     u"""
-# """,
-# )
-
 entry(
-    index = 11,
+    index = 8,
     label = "OOCH2OH <=> CH2OH + O2",
     kinetics = Arrhenius(A=(2.0e+15,'s^-1'), n=0, Ea=(35.8,'kcal/mol'), T0=(1,'K')),
     longDesc =
@@ -159,7 +117,7 @@ doi: 10.1016/S0009-2614(02)00211-7
 )
 
 entry(
-    index=12,
+    index=9,
     label="CH3OO + O <=> CH3O + O2",
     kinetics=Arrhenius(A=(2.9e+10, 'cm^3/(mol*s)'), n=1.0, Ea=(0.72, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""NOx2018""",
@@ -169,7 +127,7 @@ entry(
 )
 
 entry(
-    index=13,
+    index=10,
     label="OHCH2OO <=> OCH2OOH",
     kinetics=Arrhenius(A=(3.0e+11, 's^-1'), n=0, Ea=(8.6, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""CurranPentane""",
@@ -179,7 +137,7 @@ entry(
 )
 
 entry(
-    index=14,
+    index=11,
     label="OHCH2OO <=> CH2O + HO2",
     kinetics=Arrhenius(A=(6.38e+12, 's^-1'), n=0, Ea=(29.45, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
@@ -191,7 +149,7 @@ Training reaction in HO2_Elimination_from_PeroxyRadical
 )
 
 entry(
-    index=15,
+    index=12,
     label="OHCH2OOH <=> CH2O + H2O2",
     kinetics=Arrhenius(A=(3.16e11, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
@@ -202,7 +160,7 @@ est.
 )
 
 entry(
-    index=16,
+    index=13,
     label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH2OH",
     kinetics=Arrhenius(A=(1.20521e-20, 'cm^3/(mol*s)'), n=9.67402, Ea=(28.0373, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'),
                        Tmax=(500, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.79835, dn = +|- 0.0856346, 
@@ -215,7 +173,7 @@ entry(
 )
 
 entry(
-    index=17,
+    index=14,
     label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH3O",
     kinetics=Arrhenius(A=(0.109341, 'cm^3/(mol*s)'), n=3.92562, Ea=(66.4122, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'),
                        Tmax=(500, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.01558, dn = +|- 0.00225605, 
@@ -228,7 +186,7 @@ entry(
 )
 
 entry(
-    index=18,
+    index=15,
     label="cyanoisopropylOO <=> cyclic_cyanoisopropylOO",
     kinetics=Arrhenius(A=(1e-30, 's^-1'), n=0, Ea=(1000, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(500, 'K')),
     shortDesc=u"""""",
@@ -239,7 +197,7 @@ forbidding this reaction in Intra_R_Add_Endocyclic didn't work, assigning here a
 )
 
 entry(
-    index=19,
+    index=16,
     label="iC3H6CNOO <=> cyclic_cyanoisopropylOO",
     kinetics=Arrhenius(A=(1e-20, 's^-1'), n=0, Ea=(100, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(500, 'K')),
     shortDesc=u"""""",
@@ -249,7 +207,7 @@ entry(
 )
 
 entry(
-    index=20,
+    index=17,
     label="CH2O + H2O <=> OHCH2OH",
     kinetics=Arrhenius(A=(3.67e+06, 'cm^3/(mol*s)'), n=0, Ea=(5.83, 'kcal/mol'),
                        T0=(1, 'K'), Tmin=(285, 'K'), Tmax=(345, 'K')),
@@ -264,8 +222,8 @@ The original rate was multiplied by 18 cm3/mol to convert units into a second or
 )
 
 entry(
-    index=21,
-    label="cyanoisopropanol + H2O <=> C3_ketone + HCN + H2O",
+    index=18,
+    label="cyanoisopropylOH + H2O <=> C3_ketone + HCN + H2O",
     # kinetics=Arrhenius(A=(4.10e14, 'cm^3/(mol*s)'), n=-0.410127, Ea=(157.792, 'kJ/mol'),
     #                    T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(500, 'K')),
     kinetics=Arrhenius(A=(1e3, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'),
@@ -280,7 +238,7 @@ multiplied by 18 ml/mol to account for water as the reactant and convert from s^
 )
 
 # entry(
-#     index=22,
+#     index=19,
 #     label="iC3H6NHCH2OH + HCN <=> iC3H6NHCH2CN + H2O",
 #     # kinetics=Arrhenius(A=(283.024, 'cm^3/(mol*s)'), n=2.54221, Ea=(232.434, 'kJ/mol'),
 #     #                    T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(500, 'K')),
@@ -290,12 +248,11 @@ multiplied by 18 ml/mol to account for water as the reactant and convert from s^
 #     longDesc=
 #     u"""
 # Calculated at CBS-QB3 + PCM water
-# Added as a training reaction to amine_COH_HCN
 # """,
 # )
 
 entry(
-    index = 22,
+    index = 20,
     label = "CH2O + HO2 <=> OCH2OOH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(11900, 'cal/mol'), T0=(1, 'K')),
@@ -303,7 +260,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 21,
     label = "CH3OH + cyanoisopropylOO <=> CH3O + cyanoisopropylOOH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.47388e-06,'cm^3/(mol*s)'), n=5.28149, Ea=(78.3254,'kJ/mol'),
@@ -344,7 +301,7 @@ pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 32.8
 )
 
 entry(
-    index = 24,
+    index = 22,
     label = "CH2OH + OHCH2OOH <=> CH3OH + OHCH2OO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.25793e-05,'cm^3/(mol*s)'), n=4.36536, Ea=(46.701,'kJ/mol'),
@@ -376,7 +333,7 @@ No rotors considered for this TS.
 )
 
 entry(
-    index = 25,
+    index = 23,
     label = "H2O + CH3OOH <=> H2O2 + CH3OH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.123672,'cm^3/(mol*s)'), n=3.80899, Ea=(319.315,'kJ/mol'),
@@ -405,7 +362,7 @@ No rotors considered for this TS.
 )
 
 entry(
-    index = 26,
+    index = 24,
     label = "CH3OOH + cyanoisopropylOO <=> CH3OO + cyanoisopropylOOH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.59209e-07,'cm^3/(mol*s)'), n=5.23714, Ea=(20.5943,'kJ/mol'),
@@ -448,7 +405,7 @@ pivots: [5, 9], dihedral: [6, 5, 9, 10], rotor symmetry: 3, max scan energy: 7.1
 )
 
 entry(
-    index = 27,
+    index = 25,
     label = "CH3OOH + CH3OCH2OO <=> CH3OO + CH3OCH2OOH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.87227e-07,'cm^3/(mol*s)'), n=5.41371, Ea=(17.9795,'kJ/mol'),
@@ -487,7 +444,7 @@ pivots: [8, 12], dihedral: [9, 8, 12, 13], rotor symmetry: 3, max scan energy: 7
 )
 
 entry(
-    index = 28,
+    index = 26,
     label = "H2O + cyanoisopropylOOH <=> H2O2 + cyanoisopropylOH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.92734,'cm^3/(mol*s)'), n=3.1402, Ea=(309.899,'kJ/mol'),
@@ -524,7 +481,7 @@ pivots: [1, 8], dihedral: [2, 1, 8, 9], rotor symmetry: 3, max scan energy: 8.31
 )
 
 entry(
-    index = 29,
+    index = 27,
     label = "CH3OH + cyanoisopropylOO <=> CH2OH + cyanoisopropylOOH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.43114e-07,'cm^3/(mol*s)'), n=5.32109, Ea=(35.9739,'kJ/mol'),
@@ -566,7 +523,7 @@ pivots: [1, 2], dihedral: [10, 1, 2, 3], rotor symmetry: 3, max scan energy: 19.
 )
 
 entry(
-    index = 30,
+    index = 28,
     label = "CH2OH + CH3OCH2OOH <=> CH3OH + CH3OCH2OO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.34895e-05,'cm^3/(mol*s)'), n=4.32686, Ea=(6.76111,'kJ/mol'),
@@ -605,7 +562,7 @@ pivots: [8, 9], dihedral: [16, 8, 9, 10], rotor symmetry: 1, max scan energy: 29
 )
 
 entry(
-    index = 31,
+    index = 29,
     label = "OHCH2OO + CH3OOH <=> OHCH2OOH + CH3OO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.66421e-09,'cm^3/(mol*s)'), n=5.91097, Ea=(22.4993,'kJ/mol'),
@@ -641,7 +598,7 @@ pivots: [9, 13], dihedral: [10, 9, 13, 14], rotor symmetry: 3, max scan energy: 
 )
 
 entry(
-    index = 32,
+    index = 30,
     label = "OH + CH3OCH2OOH <=> CH3O + OHCH2OOH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(113.383,'cm^3/(mol*s)'), n=3.37577, Ea=(254.75,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
@@ -669,7 +626,7 @@ H      -0.14171000    1.31562500   -0.66618400
 )
 
 entry(
-    index = 33,
+    index = 31,
     label = "H2O + CH3OCH2OO <=> OH + CH3OCH2OOH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.02901e+10,'cm^3/(mol*s)'), n=0, Ea=(137.202,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
@@ -705,7 +662,7 @@ pivots: [4, 9], dihedral: [1, 4, 9, 10], rotor symmetry: 3, max scan energy: 5.1
 )
 
 entry(
-    index = 34,
+    index = 32,
     label = "CH3O + OHCH2OOH <=> CH3OH + OHCH2OO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.87252e+09,'cm^3/(mol*s)'), n=0, Ea=(24.6093,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
@@ -740,7 +697,7 @@ pivots: [6, 7], dihedral: [1, 6, 7, 8], rotor symmetry: 1, max scan energy: 30.0
 )
 
 entry(
-    index = 35,
+    index = 33,
     label = "cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4",
     kinetics = Arrhenius(A=(1.1e+7,'cm^3/(mol*s)'), n=0.0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
     longDesc =
@@ -760,7 +717,7 @@ Arrhenius(A=(5.32385e+10, 'cm^3/(mol*s)'), n=0.35, Ea=(0, 'kJ/mol'))
 )
 
 entry(
-    index = 38,
+    index = 34,
     label = "cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2",
     kinetics = Arrhenius(A=(4.5e+16,'s^-1'), n=0.0, Ea=(72.35,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
     longDesc =
@@ -772,32 +729,56 @@ Table 3, an average of sources 66 and 79
 """,
 )
 
-# entry(
-#     index = 36,
-#     label = "HO2 + OHCH2OO <=> O2 + OHCH2OOH",
-#     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-#                          Tmax=(350,'K')),
-#     longDesc =
-# """
-# We assume that at **basic conditions** HO2 is in the O2(-) form and does not react in the same pathway
-# """,
-# )
-#
-# entry(
-#     index = 37,
-#     label = "HO2 + cyanoisopropylOO <=> O2 + cyanoisopropylOOH",
-#     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-#                          Tmax=(350,'K')),
-#     longDesc =
-# """
-# We assume that at **basic conditions** HO2 is in the O2(-) form and does not react in the same pathway
-# """,
-# )
+entry(
+    index = 35,
+    label = "HO2 + OHCH2OO <=> H2O + O2 + OHCHO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.1e+9,'cm^3/(mol*s)'), n=0.0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+"""
+rate taken as 100x the RDS of:
+cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2
+""",
+)
 
 entry(
-    index = 1052,
+    index = 36,
+    label = "HO2 + cyanoisopropylOO <=> OH + O2 + cyanoisopropylO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.1e+7,'cm^3/(mol*s)'), n=0.0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+"""
+rate taken from RDS of:
+cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2
+""",
+)
+
+entry(
+    index = 37,
+    label = "OHCH2OO + OHCH2OO <=> OHCH2O + OHCH2O + O2",
+    kinetics = Arrhenius(A=(1.1e+7,'cm^3/(mol*s)'), n=0.0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+"""
+Taken as:
+cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4
+(rate could be improved)
+""",
+)
+
+entry(
+    index = 38,
+    label = "OHCH2OO + cyanoisopropylOO <=> OHCH2O + cyanoisopropylO + O2",
+    kinetics = Arrhenius(A=(1.1e+7,'cm^3/(mol*s)'), n=0.0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+"""
+Taken as:
+cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4
+(rate could be improved)
+""",
+)
+
+entry(
+    index = 39,
     label = 'OHCHOH + OHCH2OOH <=> OHCH2OH + OHCH2OO',
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.04944e+07,'cm^3/(mol*s)'), n=0, Ea=(17.4814,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
@@ -809,7 +790,7 @@ dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp cor
 )
 
 entry(
-    index = 1053,
+    index = 40,
     label = 'OHCHOH + cyanoisopropylOOH <=> OHCH2OH + cyanoisopropylOO',
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.90093e+07,'cm^3/(mol*s)'), n=0, Ea=(23.8264,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
@@ -821,7 +802,7 @@ dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp cor
 )
 
 entry(
-    index = 1055,
+    index = 41,
     label = 'CH2O + cyanoisopropylOO <=> CHO + cyanoisopropylOOH',
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.25121e+08,'cm^3/(mol*s)'), n=0, Ea=(41.2887,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
@@ -833,7 +814,7 @@ dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp cor
 )
 
 entry(
-    index = 1058,
+    index = 42,
     label = 'H2O2 + OHCH2OO <=> HO2 + OHCH2OOH',
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(221744,'cm^3/(mol*s)'), n=0, Ea=(31.4438,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
