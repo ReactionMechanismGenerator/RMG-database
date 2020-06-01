@@ -1054,66 +1054,71 @@ O       2.33004300   -0.46518000   -2.18550600
 
 entry(
     index = 39,
-    label = "imipramine_rad_1 + HO2 <=> imipramine + O2",
+    label = "imipramine + O2 <=> imipramine_rad_1 + HO2",
     degeneracy = 4.0,
-    kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(2.82123e+14,'cm^3/(mol*s)'), n=0, Ea=(149.699,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.0007, 
+                         dn = +|- 0, dEa = +|- 0.00181463 kJ/mol"""),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
-Use diffusion limit after discussing with Prof. Green
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
 """,
 )
 
 entry(
     index = 40,
-    label = "imipramine_rad_2 + HO2 <=> imipramine + O2",
+    label = "imipramine + O2 <=> imipramine_rad_2 + HO2",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(5.05571e+14,'cm^3/(mol*s)'), n=0, Ea=(176.536,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00064, 
+                         dn = +|- 0, dEa = +|- 0.00164057 kJ/mol"""),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
-Use diffusion limit after discussing with Prof. Green
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
 """,
 )
 
 entry(
     index = 41,
-    label = "imipramine_rad_3 + HO2 <=> imipramine + O2",
+    label = "imipramine + O2 <=> imipramine_rad_3 + HO2",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(5.44909e+14,'cm^3/(mol*s)'), n=0, Ea=(205.239,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00105, 
+                         dn = +|- 0, dEa = +|- 0.0027046 kJ/mol"""),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
-Use diffusion limit after discussing with Prof. Green
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
 """,
 )
 
 entry(
     index = 42,
-    label = "imipramine_rad_4 + HO2 <=> imipramine + O2",
+    label = "imipramine + O2 <=> imipramine_rad_4 + HO2",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(3.47872e+15,'cm^3/(mol*s)'), n=0, Ea=(185.599,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00053, 
+                         dn = +|- 0, dEa = +|- 0.00137809 kJ/mol"""),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
-Use diffusion limit after discussing with Prof. Green
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
 """,
 )
 
 entry(
     index = 43,
-    label = "imipramine_rad_5 + HO2 <=> imipramine + O2",
+    label = "imipramine + O2 <=> imipramine_rad_5 + HO2",
     degeneracy = 6.0,
-    kinetics = Arrhenius(A=(1.0e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(6.8117e+14,'cm^3/(mol*s)'), n=0, Ea=(186.187,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.0007, 
+                         dn = +|- 0, dEa = +|- 0.00180928 kJ/mol"""),
     shortDesc = u"""diffusion limit""",
     longDesc =
 u"""
-Use diffusion limit after discussing with Prof. Green
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
 """,
 )
 
