@@ -8,7 +8,8 @@ This library includes species from C6H5+O2 PES,
 10 first_to_second_ring pathways (Mebel 2017), naphthyl+acetylene HACA surfaces,
 biphenyl decomposition, and other large PAHs up to Benzo[a]pyrene (C20H12).
 Calculations done by Dr. Istvan Lengyel at CBS-QB3 level using Gaussian09 
-(except for biphenyl C12H10 calculated by Max Liu using Gaussian03).
+(except for biphenyl C12H10 calculated by Max Liu using Gaussian03;
+C9H11_16 and C10H11_5 were recalculated by Hao-Wei Pang using Gaussian 09).
 The calculations were done for the lowest energy conformer, but rotor scans 
 were not performed. Thermo properties were evaluated with Cantherm, using 
 bond additivity corrections from Petersson et al. 1998, because their training 
@@ -2599,16 +2600,43 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-1.51784,0.0715283,-1.24005e-05,-2.97096e-08,1.50903e-11,69130.9,32.8486], Tmin=(200,'K'), Tmax=(979.57,'K')),
-            NASAPolynomial(coeffs=[6.7029,0.0613226,-3.25483e-05,8.35021e-09,-8.36962e-13,66399.5,-12.3635], Tmin=(979.57,'K'), Tmax=(3200,'K')),
+            NASAPolynomial(coeffs=[3.92627,0.00504711,0.000268137,-5.54324e-07,3.77155e-10,46369.3,13.9112], Tmin=(10,'K'), Tmax=(376.391,'K')),
+            NASAPolynomial(coeffs=[-3.68024,0.0858869,-5.40415e-05,1.63457e-08,-1.90268e-12,46941.9,43.1753], Tmin=(376.391,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (385.536,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (482.239,'J/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """Recalculated by Hao-Wei Pang at CBS-QB3 level using Gaussian09 in June 2020""",
     longDesc = 
-u"""
+"""
+Bond corrections: {'C-H': 11, 'C-C': 6, 'C=C': 3}
 
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+C      -0.58057400   -1.74514100    0.23615900
+C       0.38278800   -1.97352100   -0.63594500
+C       1.58949000   -1.21054600   -1.00405000
+C       2.05218800    0.01860500   -0.68957000
+C       1.53274600    1.12080000    0.12534900
+C       0.29714900    1.63301500    0.21538400
+C      -0.94621100    1.13893900   -0.46197400
+C      -1.86254200    0.38106300    0.52351700
+C      -1.15312400   -0.80798800    1.21234100
+H       0.30905100   -2.91631200   -1.18425100
+H       2.24646300   -1.78562700   -1.65271500
+H       3.04483900    0.23222400   -1.08392000
+H       2.31200400    1.64544200    0.67690200
+H       0.16463800    2.48695300    0.87785900
+H      -0.69022200    0.48634700   -1.29878200
+H      -1.50310800    1.98765600   -0.87408000
+H      -2.74122300    0.01104100   -0.01206400
+H      -2.22440800    1.06718200    1.29653300
+H      -1.87057700   -1.32853400    1.85786000
+H      -0.35936700   -0.44159700    1.87544900
 """,
 )
 
@@ -6976,18 +7004,47 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-2.37222,0.0846409,-3.16765e-05,-1.63378e-08,1.1491e-11,70650.5,36.9326], Tmin=(200,'K'), Tmax=(986.96,'K')),
-            NASAPolynomial(coeffs=[8.95057,0.0620756,-3.28298e-05,8.38566e-09,-8.36659e-13,67279.5,-23.2998], Tmin=(986.96,'K'), Tmax=(3200,'K')),
+            NASAPolynomial(coeffs=[3.85458,0.00881954,0.000262457,-4.99792e-07,2.97438e-10,42038.8,12.9736], Tmin=(10,'K'), Tmax=(522.233,'K')),
+            NASAPolynomial(coeffs=[-3.06084,0.0912137,-5.87219e-05,1.81111e-08,-2.14108e-12,42359.8,38.0022], Tmin=(522.233,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (349.479,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (507.183,'J/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """Recalculated by Hao-Wei Pang at CBS-QB3 level using Gaussian09 in June 2020""",
     longDesc = 
-u"""
+"""
+Bond corrections: {'C-H': 11, 'C-C': 6, 'C=C': 4}
 
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+C      -1.41101100   -1.09135600   -0.78943400
+H      -2.21004700   -1.12317900   -1.52730900
+C      -0.55340500   -2.14133700   -0.79654000
+C       0.61470200   -2.41034500    0.02648200
+C       1.48003600   -1.46189200    0.52852400
+C       1.35816300   -0.11892700    0.13822700
+C       1.66956300    1.05913300    0.83532600
+C       0.96256300    2.21679400    0.58959200
+C      -0.21748300    2.32698700   -0.25275700
+C      -1.22042300    1.44378100   -0.48091500
+C      -1.49091300    0.09273600    0.15898700
+H      -0.79909600   -2.93682600   -1.49882300
+H       0.80435600   -3.45640600    0.25293500
+H       2.21663400   -1.75655600    1.27286100
+H       0.78282100    0.03425800   -0.76508800
+H       2.42807100    1.05591400    1.61513100
+H       1.30018500    3.13894900    1.05557100
+H      -0.33065100    3.29428000   -0.74051400
+H      -1.99268900    1.76805300   -1.17545500
+H      -0.86266200   -0.06088500    1.03320800
+H      -2.52871400    0.12682400    0.51998800
 """,
 )
+
 
 entry(
     index = 178,
