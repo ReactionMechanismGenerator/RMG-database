@@ -19,7 +19,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Deutschmann Ni""",
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
@@ -40,7 +40,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Default""",
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
@@ -83,7 +83,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Default""",
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
@@ -104,7 +104,7 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 1,
+    rank = 5,
     shortDesc = u"""Default""",
     longDesc = u"""
 Reaction 39 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
