@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Polycyclic Ring Corrections"
-shortDesc = u""
-longDesc = u"""
+shortDesc = ""
+longDesc = """
 
 """
 entry(
@@ -19,7 +19,7 @@ entry(
         H298 = (38.139,'kcal/mol'),
         S298 = (52.871,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
 u"""
 Averaged on 2020-06-03 using averaging_polycyclic_group_entries_for_polycyclic(PolycyclicRing).ipynb
@@ -27,7 +27,471 @@ Averaged on 2020-06-03 using averaging_polycyclic_group_entries_for_polycyclic(P
 )
 
 entry(
-    index = 0,
+    index = 1,
+    label = "s2-3_5_5_5_ane",
+    group = 
+"""
+1    R!H u0 {2,S} {4,S} {9,S}
+2    R!H u0 {1,S} {3,S} {8,S}
+3  * R!H u0 {2,S} {5,S} {6,S}
+4    R!H u0 {1,S} {5,S} {7,S}
+5    R!H u0 {3,S} {4,S}
+6    R!H u0 {3,S} {7,S}
+7    R!H u0 {4,S} {6,S}
+8    R!H u0 {2,S} {10,S}
+9    R!H u0 {1,S} {10,S}
+10   R!H u0 {8,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (17.68,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Modified Aaron G. Vandeputte to make estimates in agreement with value of Hudzik et al. 2010
+""",
+)
+
+entry(
+    index = 2,
+    label = "s2-3_5d1_5_5_ene",
+    group = 
+"""
+1    R!H u0 {2,S} {4,S} {9,S}
+2    R!H u0 {1,S} {3,S} {8,S}
+3  * R!H u0 {2,S} {5,S} {6,S}
+4    R!H u0 {1,S} {5,S} {7,S}
+5    R!H u0 {3,S} {4,S}
+6    R!H u0 {3,S} {7,S}
+7    R!H u0 {4,S} {6,S}
+8    R!H u0 {2,S} {10,D}
+9    R!H u0 {1,S} {10,S}
+10   R!H u0 {8,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (22.65,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
+""",
+)
+
+entry(
+    index = 3,
+    label = "s2-3f0_5_5_5_ane",
+    group = 
+"""
+1  * R!H u0 {2,S} {4,S} {6,S} {7,S}
+2    R!H u0 {1,S} {5,S} {8,S}
+3    R!H u0 {4,S} {5,S} {9,S}
+4    R!H u0 {1,S} {3,S}
+5    R!H u0 {2,S} {3,S}
+6    R!H u0 {1,S} {9,S}
+7    R!H u0 {1,S} {10,S}
+8    R!H u0 {2,S} {10,S}
+9    R!H u0 {3,S} {6,S}
+10   R!H u0 {7,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (23.86,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
+""",
+)
+
+entry(
+    index = 4,
+    label = "s2-3f1_6_5_5_ane",
+    group = 
+"""
+1    R!H u0 {2,S} {3,S} {5,S}
+2    R!H u0 {1,S} {7,S} {8,S}
+3    R!H u0 {1,S} {6,S} {9,S}
+4  * R!H u0 {5,S} {6,S} {7,S}
+5    R!H u0 {1,S} {4,S}
+6    R!H u0 {3,S} {4,S}
+7    R!H u0 {2,S} {4,S}
+8    R!H u0 {2,S} {10,S}
+9    R!H u0 {3,S} {10,S}
+10   R!H u0 {8,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (19.26,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
+""",
+)
+
+entry(
+    index = 5,
+    label = "s2-3_5_5_5d1_ene",
+    group = 
+"""
+1    R!H u0 {2,S} {3,S} {8,S}
+2    R!H u0 {1,S} {4,S} {9,S}
+3  * R!H u0 {1,S} {5,S} {7,S}
+4    R!H u0 {2,S} {5,S} {6,S}
+5    R!H u0 {3,S} {4,S}
+6    R!H u0 {4,S} {7,D}
+7    R!H u0 {3,S} {6,D}
+8    R!H u0 {1,S} {10,S}
+9    R!H u0 {2,S} {10,S}
+10   R!H u0 {8,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-12.29,-11.16,-10.04,-8.64,-7.12,-5.72,-3.81],'cal/(mol*K)'),
+        H298 = (22.83,'kcal/mol'),
+        S298 = (79.45,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+A. G. Vandeputte CBS-QB3 isodesmic reaction, S and cp match B3LYP/cbsb7 data, CHECK
+""",
+)
+
+entry(
+    index = 6,
+    label = "s3-3_5_6_5_ane",
+    group = 
+"""
+1  * R!H u0 {2,S} {6,S} {8,S}
+2    R!H u0 {1,S} {5,S} {9,S}
+3    R!H u0 {4,S} {5,S} {10,S}
+4    R!H u0 {3,S} {6,S} {7,S}
+5    R!H u0 {2,S} {3,S}
+6    R!H u0 {1,S} {4,S}
+7    R!H u0 {4,S} {8,S}
+8    R!H u0 {1,S} {7,S}
+9    R!H u0 {2,S} {10,S}
+10   R!H u0 {3,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.1,-13.4,-11.6,-10,-7.8,-6.1,-3.7],'cal/(mol*K)'),
+        H298 = (22.5,'kcal/mol'),
+        S298 = (77.13,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+A.G Vandeputte CBS-QB3, reaction JP10 <-> tricyclo[4.2.1.1(2.5)]decane
+""",
+)
+
+entry(
+    index = 7,
+    label = "s2-4f1_5_6_7_ane",
+    group = 
+"""
+1    R!H u0 {2,S} {3,S} {7,S}
+2  * R!H u0 {1,S} {5,S} {8,S}
+3    R!H u0 {1,S} {6,S} {9,S}
+4    R!H u0 {5,S} {6,S} {10,S}
+5    R!H u0 {2,S} {4,S}
+6    R!H u0 {3,S} {4,S}
+7    R!H u0 {1,S} {10,S}
+8    R!H u0 {2,S} {9,S}
+9    R!H u0 {3,S} {8,S}
+10   R!H u0 {4,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.58,-14.7,-12.37,-9.37,-5.42,-4.64,-1.58],'cal/(mol*K)'),
+        H298 = (20.77,'kcal/mol'),
+        S298 = (78.58,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 8,
+    label = "s2-4f2_5_6_8_ane",
+    group = 
+"""
+1  * R!H u0 {2,S} {5,S} {6,S}
+2    R!H u0 {1,S} {7,S} {9,S}
+3    R!H u0 {5,S} {7,S} {8,S}
+4    R!H u0 {6,S} {8,S} {10,S}
+5    R!H u0 {1,S} {3,S}
+6    R!H u0 {1,S} {4,S}
+7    R!H u0 {2,S} {3,S}
+8    R!H u0 {3,S} {4,S}
+9    R!H u0 {2,S} {10,S}
+10   R!H u0 {4,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-16.03,-15.03,-12.57,-9.46,-5.47,-4.74,-1.59],'cal/(mol*K)'),
+        H298 = (18.29,'kcal/mol'),
+        S298 = (75.75,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 9,
+    label = "s2-2f1_5_5_2_ane",
+    group = 
+"""
+1    R!H u0 {2,S} {3,S} {4,S}
+2  * R!H u0 {1,S} {5,S} {10,S}
+3    R!H u0 {1,S} {6,S} {7,S}
+4    R!H u0 {1,S} {8,S} {9,S}
+5    R!H u0 {2,S} {6,S}
+6    R!H u0 {3,S} {5,S}
+7    R!H u0 {3,S} {8,S}
+8    R!H u0 {4,S} {7,S}
+9    R!H u0 {4,S} {10,S}
+10   R!H u0 {2,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
+        H298 = (15.68,'kcal/mol'),
+        S298 = (78.53,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Modified Aaron G. Vandeputte, kept enthalpy Nick Vandewiele, modified S and cp to be equal to exo-tricyclo[5.2.1.0(2.6)]
+""",
+)
+
+entry(
+    index = 10,
+    label = "s2-3f1_5_5_6_ane",
+    group = 
+"""
+1    R!H u0 {2,S} {3,S} {5,S}
+2  * R!H u0 {1,S} {6,S} {7,S}
+3    R!H u0 {1,S} {8,S} {9,S}
+4    R!H u0 {5,S} {6,S} {10,S}
+5    R!H u0 {1,S} {4,S}
+6    R!H u0 {2,S} {4,S}
+7    R!H u0 {2,S} {8,S}
+8    R!H u0 {3,S} {7,S}
+9    R!H u0 {3,S} {10,S}
+10   R!H u0 {4,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.6,-14.69,-12.36,-9.34,-5.4,-4.64,-1.58],'cal/(mol*K)'),
+        H298 = (21.48,'kcal/mol'),
+        S298 = (78.96,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 11,
+    label = "s2-4f0_5_5_6_ane",
+    group = 
+"""
+1  * R!H u0 {2,S} {4,S} {5,S} {6,S}
+2    R!H u0 {1,S} {3,S} {7,S}
+3    R!H u0 {2,S} {8,S} {9,S}
+4    R!H u0 {1,S} {8,S}
+5    R!H u0 {1,S} {9,S}
+6    R!H u0 {1,S} {10,S}
+7    R!H u0 {2,S} {10,S}
+8    R!H u0 {3,S} {4,S}
+9    R!H u0 {3,S} {5,S}
+10   R!H u0 {6,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.15,-14.51,-12.47,-9.72,-5.97,-5.19,-1.39],'cal/(mol*K)'),
+        H298 = (29.65,'kcal/mol'),
+        S298 = (82.23,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 12,
+    label = "s2-4f1_5_5_7_ane",
+    group = 
+"""
+1  * R!H u0 {2,S} {3,S} {6,S}
+2    R!H u0 {1,S} {4,S} {5,S}
+3    R!H u0 {1,S} {7,S} {8,S}
+4    R!H u0 {2,S} {9,S} {10,S}
+5    R!H u0 {2,S} {7,S}
+6    R!H u0 {1,S} {10,S}
+7    R!H u0 {3,S} {5,S}
+8    R!H u0 {3,S} {9,S}
+9    R!H u0 {4,S} {8,S}
+10   R!H u0 {4,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-15.5,-14.55,-12.19,-9.17,-5.28,-4.57,-1.53],'cal/(mol*K)'),
+        H298 = (20.74,'kcal/mol'),
+        S298 = (77.45,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
+""",
+)
+
+entry(
+    index = 13,
+    label = "s4-3f1_6_6_6_ane",
+    group = 
+"""
+1  * R!H u0 {3,S} {6,S} {7,S}
+2    R!H u0 {4,S} {5,S} {8,S}
+3    R!H u0 {1,S} {5,S} {9,S}
+4    R!H u0 {2,S} {6,S} {10,S}
+5    R!H u0 {2,S} {3,S}
+6    R!H u0 {1,S} {4,S}
+7    R!H u0 {1,S} {8,S}
+8    R!H u0 {2,S} {7,S}
+9    R!H u0 {3,S} {10,S}
+10   R!H u0 {4,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-16.13,-15.02,-12.47,-9.29,-5.32,-4.7,-1.53],'cal/(mol*K)'),
+        H298 = (26.12,'kcal/mol'),
+        S298 = (75.25,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclohexane
+""",
+)
+
+entry(
+    index = 14,
+    label = "s3-3f1_6_5_6_ane",
+    group = 
+"""
+1  * R!H u0 {4,S} {5,S} {6,S}
+2    R!H u0 {3,S} {5,S} {7,S}
+3    R!H u0 {2,S} {6,S} {10,S}
+4    R!H u0 {1,S} {8,S} {9,S}
+5    R!H u0 {1,S} {2,S}
+6    R!H u0 {1,S} {3,S}
+7    R!H u0 {2,S} {8,S}
+8    R!H u0 {4,S} {7,S}
+9    R!H u0 {4,S} {10,S}
+10   R!H u0 {3,S} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-16.09,-14.97,-12.4,-9.23,-5.27,-4.66,-1.5],'cal/(mol*K)'),
+        H298 = (30.9,'kcal/mol'),
+        S298 = (75.36,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+""",
+)
+
+entry(
+    index = 15,
+    label = "s1-2_5d1d3_3_5d1_triene",
+    group = 
+"""
+1  * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2    R!H u0 {1,S} {3,S} {6,S}
+3    R!H u0 {1,S} {2,S} {7,S}
+4    R!H u0 {1,S} {9,D}
+5    R!H u0 {1,S} {10,D}
+6    R!H u0 {2,S} {8,D}
+7    R!H u0 {3,S} {8,S}
+8    R!H u0 {6,D} {7,S}
+9    R!H u0 {4,D} {10,S}
+10   R!H u0 {5,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.108,-7.764,-7.893,-7.784,-7.495,-7.132,-5.2],'cal/(mol*K)'),
+        H298 = (38.553,'kcal/mol'),
+        S298 = (95.09,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 16,
+    label = "s2-2_5d1_3_6d1d3_triene",
+    group = 
+"""
+1  * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2    R!H u0 {1,S} {3,S} {7,S}
+3    R!H u0 {1,S} {2,S} {6,S}
+4    R!H u0 {1,S} {8,S}
+5    R!H u0 {1,S} {10,D}
+6    R!H u0 {3,S} {8,D}
+7    R!H u0 {2,S} {9,D}
+8    R!H u0 {4,S} {6,D}
+9    R!H u0 {7,D} {10,S}
+10   R!H u0 {5,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.846,-7.913,-8.399,-8.495,-8.078,-7.325,-5.437],'cal/(mol*K)'),
+        H298 = (32.243,'kcal/mol'),
+        S298 = (93.33,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 17,
     label = "s1_3_3",
     group = 
 """
@@ -38,15 +502,15 @@ entry(
 5   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 1,
+    index = 18,
     label = "s1_3_3_ane",
     group = 
 """
@@ -62,15 +526,15 @@ entry(
         H298 = (251.424,'kJ/mol'),
         S298 = (270.513,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_3_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 2,
+    index = 19,
     label = "s1_3_3_ene",
     group = 
 """
@@ -86,15 +550,15 @@ entry(
         H298 = (362.37,'kJ/mol'),
         S298 = (282.734,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_3_ene from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 20,
     label = "s1_3_4",
     group = 
 """
@@ -106,15 +570,15 @@ entry(
 6   R!H u0 {4,[S,D,T,B]} {5,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 3,
+    index = 21,
     label = "s1_3_4_ane",
     group = 
 """
@@ -131,15 +595,15 @@ entry(
         H298 = (233.734,'kJ/mol'),
         S298 = (265.753,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 4,
+    index = 22,
     label = "s1_3_4_ene",
     group = 
 """
@@ -156,15 +620,15 @@ entry(
         H298 = (251.097,'kJ/mol'),
         S298 = (265.64,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_4_ene from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 23,
     label = "s1_3_5",
     group = 
 """
@@ -177,15 +641,15 @@ entry(
 7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 5,
+    index = 24,
     label = "s1_3_5_ane",
     group = 
 """
@@ -203,27 +667,27 @@ entry(
         H298 = (155.625,'kJ/mol'),
         S298 = (243.924,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 25,
     label = "s1_3_5_ene",
     group = "OR{s1_3_5_ene_1, s1_3_5_ene_2}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 6,
+    index = 26,
     label = "s1_3_5_ene_1",
     group = 
 """
@@ -241,15 +705,15 @@ entry(
         H298 = (144.568,'kJ/mol'),
         S298 = (248.507,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 7,
+    index = 27,
     label = "s1_3_5_ene_2",
     group = 
 """
@@ -267,27 +731,27 @@ entry(
         H298 = (148.792,'kJ/mol'),
         S298 = (248.513,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_5_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 28,
     label = "s1_3_5_diene",
     group = "OR{s1_3_5_diene_1_3}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 8,
+    index = 29,
     label = "s1_3_5_diene_1_3",
     group = 
 """
@@ -305,15 +769,15 @@ entry(
         H298 = (138.847,'kJ/mol'),
         S298 = (257.869,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_5_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 30,
     label = "s1_3_6",
     group = 
 """
@@ -327,15 +791,15 @@ entry(
 8 * R!H u0 {6,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 9,
+    index = 31,
     label = "s1_3_6_ane",
     group = 
 """
@@ -354,27 +818,27 @@ entry(
         H298 = (125.887,'kJ/mol'),
         S298 = (217.99,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 32,
     label = "s1_3_6_ene",
     group = "OR{s1_3_6_ene_1, s1_3_6_ene_2}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 10,
+    index = 33,
     label = "s1_3_6_ene_1",
     group = 
 """
@@ -393,15 +857,15 @@ entry(
         H298 = (120.489,'kJ/mol'),
         S298 = (224.341,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 11,
+    index = 34,
     label = "s1_3_6_ene_2",
     group = 
 """
@@ -420,27 +884,27 @@ entry(
         H298 = (124.709,'kJ/mol'),
         S298 = (224.329,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_3_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 35,
     label = "s1_3_6_diene",
     group = "OR{s1_3_6_diene_1_4, s1_3_6_diene_1_3}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 12,
+    index = 36,
     label = "s1_3_6_diene_1_4",
     group = 
 """
@@ -455,13 +919,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.683918,-5.705981,-6.009686,-5.724441,-4.758597,-3.770047,-2.055177],'cal/(mol*K)','+|-',[0.039396,0.039396,0.039396,0.039396,0.039396,0.039396,0.039396]),
-        H298 = (24.830983,'kcal/mol','+|-',0.265654),
-        S298 = (55.620364,'cal/(mol*K)','+|-',0.091795),
+        Cpdata = ([-4.68392,-5.70598,-6.00969,-5.72444,-4.7586,-3.77005,-2.05518],'cal/(mol*K)','+|-',[0.039396,0.039396,0.039396,0.039396,0.039396,0.039396,0.039396]),
+        H298 = (24.831,'kcal/mol','+|-',0.265654),
+        S298 = (55.6204,'cal/(mol*K)','+|-',0.091795),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -478,7 +942,7 @@ C1CC12C=CCC=C2
 )
 
 entry(
-    index = 13,
+    index = 37,
     label = "s1_3_6_diene_1_3",
     group = 
 """
@@ -493,13 +957,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.670295,-7.235001,-7.740668,-7.368087,-5.986203,-4.654968,-2.701471],'cal/(mol*K)','+|-',[0.053524,0.053524,0.053524,0.053524,0.053524,0.053524,0.053524]),
-        H298 = (30.436144,'kcal/mol','+|-',0.309453),
-        S298 = (58.784460,'cal/(mol*K)','+|-',0.104444),
+        Cpdata = ([-5.6703,-7.235,-7.74067,-7.36809,-5.9862,-4.65497,-2.70147],'cal/(mol*K)','+|-',[0.053524,0.053524,0.053524,0.053524,0.053524,0.053524,0.053524]),
+        H298 = (30.4361,'kcal/mol','+|-',0.309453),
+        S298 = (58.7845,'cal/(mol*K)','+|-',0.104444),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u"""
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -515,7 +979,7 @@ C1CC12C=CC=CC2
 )
 
 entry(
-    index = 0,
+    index = 38,
     label = "s1_4_4",
     group = 
 """
@@ -528,15 +992,15 @@ entry(
 7   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 14,
+    index = 39,
     label = "s1_4_4_ane",
     group = 
 """
@@ -554,27 +1018,27 @@ entry(
         H298 = (232.497,'kJ/mol'),
         S298 = (237.342,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 40,
     label = "s1_4_4_ene",
     group = "OR{s1_4_4_ene_1}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 15,
+    index = 41,
     label = "s1_4_4_ene_1",
     group = 
 """
@@ -592,27 +1056,27 @@ entry(
         H298 = (249.653,'kJ/mol'),
         S298 = (247.253,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_4_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 42,
     label = "s1_4_4_diene",
     group = "OR{s1_4_4_diene_1_5}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 16,
+    index = 43,
     label = "s1_4_4_diene_1_5",
     group = 
 """
@@ -630,15 +1094,15 @@ entry(
         H298 = (272.769,'kJ/mol'),
         S298 = (247.04,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_4_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 44,
     label = "s1_4_5",
     group = 
 """
@@ -652,15 +1116,15 @@ entry(
 8   R!H u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 17,
+    index = 45,
     label = "s1_4_5_ane",
     group = 
 """
@@ -679,27 +1143,27 @@ entry(
         H298 = (158.252,'kJ/mol'),
         S298 = (228.958,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 46,
     label = "s1_4_5_ene",
     group = "OR{s1_4_5_ene_1, s1_4_5_ene_2, s1_4_5_ene_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 18,
+    index = 47,
     label = "s1_4_5_ene_1",
     group = 
 """
@@ -718,15 +1182,15 @@ entry(
         H298 = (149.993,'kJ/mol'),
         S298 = (226.194,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 19,
+    index = 48,
     label = "s1_4_5_ene_2",
     group = 
 """
@@ -745,15 +1209,15 @@ entry(
         H298 = (155.471,'kJ/mol'),
         S298 = (224.108,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_5_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 20,
+    index = 49,
     label = "s1_4_5_ene_6",
     group = 
 """
@@ -772,27 +1236,27 @@ entry(
         H298 = (177.587,'kJ/mol'),
         S298 = (233.799,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_5_ene_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 50,
     label = "s1_4_5_diene",
     group = "OR{s1_4_5_diene_1_3, s1_4_5_diene_1_6, s1_4_5_diene_2_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 21,
+    index = 51,
     label = "s1_4_5_diene_1_3",
     group = 
 """
@@ -811,15 +1275,15 @@ entry(
         H298 = (159.233,'kJ/mol'),
         S298 = (245.609,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_5_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 22,
+    index = 52,
     label = "s1_4_5_diene_1_6",
     group = 
 """
@@ -838,15 +1302,15 @@ entry(
         H298 = (172.771,'kJ/mol'),
         S298 = (232.662,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_5_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 23,
+    index = 53,
     label = "s1_4_5_diene_2_6",
     group = 
 """
@@ -865,15 +1329,15 @@ entry(
         H298 = (174.143,'kJ/mol'),
         S298 = (228.266,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_5_diene_2_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 54,
     label = "s1_4_6",
     group = 
 """
@@ -888,15 +1352,15 @@ entry(
 9   R!H u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 24,
+    index = 55,
     label = "s1_4_6_ane",
     group = 
 """
@@ -916,27 +1380,27 @@ entry(
         H298 = (131.017,'kJ/mol'),
         S298 = (198.451,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 56,
     label = "s1_4_6_ene",
     group = "OR{s1_4_6_ene_1, s1_4_6_ene_2, s1_4_6_ene_7}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 25,
+    index = 57,
     label = "s1_4_6_ene_1",
     group = 
 """
@@ -956,15 +1420,15 @@ entry(
         H298 = (129.446,'kJ/mol'),
         S298 = (204.194,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 26,
+    index = 58,
     label = "s1_4_6_ene_2",
     group = 
 """
@@ -984,15 +1448,15 @@ entry(
         H298 = (133.632,'kJ/mol'),
         S298 = (204.379,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 27,
+    index = 59,
     label = "s1_4_6_ene_7",
     group = 
 """
@@ -1012,27 +1476,27 @@ entry(
         H298 = (150.365,'kJ/mol'),
         S298 = (201.589,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_6_ene_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 60,
     label = "s1_4_6_diene",
     group = "OR{s1_4_6_diene_1_3, s1_4_6_diene_1_4, s1_4_6_diene_1_7, s1_4_6_diene_2_7}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 28,
+    index = 61,
     label = "s1_4_6_diene_1_3",
     group = 
 """
@@ -1048,13 +1512,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-7.125608,-8.332367,-8.512704,-7.836067,-6.010187,-4.379749,-1.991945],'cal/(mol*K)','+|-',[0.077587,0.077587,0.077587,0.077587,0.077587,0.077587,0.077587]),
-        H298 = (26.966934,'kcal/mol','+|-',0.438231),
-        S298 = (54.024796,'cal/(mol*K)','+|-',0.166231),
+        Cpdata = ([-7.12561,-8.33237,-8.5127,-7.83607,-6.01019,-4.37975,-1.99195],'cal/(mol*K)','+|-',[0.077587,0.077587,0.077587,0.077587,0.077587,0.077587,0.077587]),
+        H298 = (26.9669,'kcal/mol','+|-',0.438231),
+        S298 = (54.0248,'cal/(mol*K)','+|-',0.166231),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u"""
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -1069,7 +1533,7 @@ C1CCC12C=CC=CC2
 )
 
 entry(
-    index = 29,
+    index = 62,
     label = "s1_4_6_diene_1_4",
     group = 
 """
@@ -1085,13 +1549,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-6.165106,-6.817060,-6.766340,-6.158199,-4.746159,-3.457393,-1.329721],'cal/(mol*K)','+|-',[0.056124,0.056124,0.056124,0.056124,0.056124,0.056124,0.056124]),
-        H298 = (22.638391,'kcal/mol','+|-',0.368663),
-        S298 = (50.896999,'cal/(mol*K)','+|-',0.143548),
+        Cpdata = ([-6.16511,-6.81706,-6.76634,-6.1582,-4.74616,-3.45739,-1.32972],'cal/(mol*K)','+|-',[0.056124,0.056124,0.056124,0.056124,0.056124,0.056124,0.056124]),
+        H298 = (22.6384,'kcal/mol','+|-',0.368663),
+        S298 = (50.897,'cal/(mol*K)','+|-',0.143548),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -1107,7 +1571,7 @@ C1CCC12C=CCC=C2
 )
 
 entry(
-    index = 30,
+    index = 63,
     label = "s1_4_6_diene_1_7",
     group = 
 """
@@ -1127,15 +1591,15 @@ entry(
         H298 = (152.104,'kJ/mol'),
         S298 = (209.901,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 31,
+    index = 64,
     label = "s1_4_6_diene_2_7",
     group = 
 """
@@ -1155,15 +1619,15 @@ entry(
         H298 = (150.509,'kJ/mol'),
         S298 = (206.455,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_4_6_diene_2_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 65,
     label = "s1_5_5",
     group = 
 """
@@ -1178,15 +1642,15 @@ entry(
 9   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 32,
+    index = 66,
     label = "s1_5_5_ane",
     group = 
 """
@@ -1206,27 +1670,27 @@ entry(
         H298 = (87.6682,'kJ/mol'),
         S298 = (203.343,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 67,
     label = "s1_5_5_ene",
     group = "OR{s1_5_5_ene_1, s1_5_5_ene_2}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 33,
+    index = 68,
     label = "s1_5_5_ene_1",
     group = 
 """
@@ -1246,15 +1710,15 @@ entry(
         H298 = (79.864,'kJ/mol'),
         S298 = (216.968,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 34,
+    index = 69,
     label = "s1_5_5_ene_2",
     group = 
 """
@@ -1274,27 +1738,27 @@ entry(
         H298 = (82.2446,'kJ/mol'),
         S298 = (206.076,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_5_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 70,
     label = "s1_5_5_diene",
     group = "OR{s1_5_5_diene_1_3, s1_5_5_diene_1_6, s1_5_5_diene_1_7, s1_5_5_diene_2_7}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 35,
+    index = 71,
     label = "s1_5_5_diene_1_3",
     group = 
 """
@@ -1314,15 +1778,15 @@ entry(
         H298 = (86.8912,'kJ/mol'),
         S298 = (227.719,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_5_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 36,
+    index = 72,
     label = "s1_5_5_diene_1_6",
     group = 
 """
@@ -1342,15 +1806,15 @@ entry(
         H298 = (77.6426,'kJ/mol'),
         S298 = (212.966,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_5_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 37,
+    index = 73,
     label = "s1_5_5_diene_1_7",
     group = 
 """
@@ -1370,15 +1834,15 @@ entry(
         H298 = (76.7183,'kJ/mol'),
         S298 = (207.406,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_5_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 38,
+    index = 74,
     label = "s1_5_5_diene_2_7",
     group = 
 """
@@ -1398,15 +1862,15 @@ entry(
         H298 = (797.365,'kJ/mol'),
         S298 = (219.58,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_5_diene_2_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 75,
     label = "s1_5_6",
     group = 
 """
@@ -1422,15 +1886,15 @@ entry(
 10   R!H u0 {8,[S,D,T,B]} {9,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 39,
+    index = 76,
     label = "s1_5_6_ane",
     group = 
 """
@@ -1451,27 +1915,27 @@ entry(
         H298 = (66.0771,'kJ/mol'),
         S298 = (177.423,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 77,
     label = "s1_5_6_ene",
     group = "OR{s1_5_6_ene_1, s1_5_6_ene_2, s1_5_6_ene_7, s1_5_6_ene_8}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 40,
+    index = 78,
     label = "s1_5_6_ene_1",
     group = 
 """
@@ -1492,15 +1956,15 @@ entry(
         H298 = (62.2061,'kJ/mol'),
         S298 = (190.267,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 41,
+    index = 79,
     label = "s1_5_6_ene_2",
     group = 
 """
@@ -1521,15 +1985,15 @@ entry(
         H298 = (63.2789,'kJ/mol'),
         S298 = (181.962,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 42,
+    index = 80,
     label = "s1_5_6_ene_7",
     group = 
 """
@@ -1550,15 +2014,15 @@ entry(
         H298 = (56.3477,'kJ/mol'),
         S298 = (180.355,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_ene_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 43,
+    index = 81,
     label = "s1_5_6_ene_8",
     group = 
 """
@@ -1579,27 +2043,27 @@ entry(
         H298 = (60.5733,'kJ/mol'),
         S298 = (180.335,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_ene_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 82,
     label = "s1_5_6_diene",
     group = "OR{s1_5_6_diene_1_3, s1_5_6_diene_1_4, s1_5_6_diene_1_7, s1_5_6_diene_1_8, s1_5_6_diene_2_7, s1_5_6_diene_2_8, s1_5_6_diene_7_9}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 44,
+    index = 83,
     label = "s1_5_6_diene_1_3",
     group = 
 """
@@ -1616,13 +2080,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-7.983535,-8.772044,-8.785345,-8.063929,-5.929672,-3.950169,-1.327198],'cal/(mol*K)','+|-',[0.123159,0.123159,0.123159,0.123159,0.123159,0.123159,0.123159]),
-        H298 = (9.197560,'kcal/mol','+|-',0.680231),
-        S298 = (49.386425,'cal/(mol*K)','+|-',0.289890),
+        Cpdata = ([-7.98353,-8.77204,-8.78534,-8.06393,-5.92967,-3.95017,-1.3272],'cal/(mol*K)','+|-',[0.123159,0.123159,0.123159,0.123159,0.123159,0.123159,0.123159]),
+        H298 = (9.19756,'kcal/mol','+|-',0.680231),
+        S298 = (49.3864,'cal/(mol*K)','+|-',0.28989),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -1637,7 +2101,7 @@ C1CCCC12C=CC=CC2
 )
 
 entry(
-    index = 45,
+    index = 84,
     label = "s1_5_6_diene_1_4",
     group = 
 """
@@ -1654,13 +2118,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-7.333733,-7.712710,-7.508897,-6.762429,-4.986776,-3.332049,-0.765979],'cal/(mol*K)','+|-',[0.086469,0.086469,0.086469,0.086469,0.086469,0.086469,0.086469]),
-        H298 = (4.491040,'kcal/mol','+|-',0.554121),
-        S298 = (46.633795,'cal/(mol*K)','+|-',0.242933),
+        Cpdata = ([-7.33373,-7.71271,-7.5089,-6.76243,-4.98678,-3.33205,-0.765979],'cal/(mol*K)','+|-',[0.086469,0.086469,0.086469,0.086469,0.086469,0.086469,0.086469]),
+        H298 = (4.49104,'kcal/mol','+|-',0.554121),
+        S298 = (46.6338,'cal/(mol*K)','+|-',0.242933),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -1674,7 +2138,7 @@ C1CCCC12C=CCC=C2
 )
 
 entry(
-    index = 46,
+    index = 85,
     label = "s1_5_6_diene_1_7",
     group = 
 """
@@ -1695,15 +2159,15 @@ entry(
         H298 = (58.6857,'kJ/mol'),
         S298 = (188.477,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 47,
+    index = 86,
     label = "s1_5_6_diene_1_8",
     group = 
 """
@@ -1724,15 +2188,15 @@ entry(
         H298 = (57.6654,'kJ/mol'),
         S298 = (185.08,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_diene_1_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 48,
+    index = 87,
     label = "s1_5_6_diene_2_7",
     group = 
 """
@@ -1753,15 +2217,15 @@ entry(
         H298 = (53.8784,'kJ/mol'),
         S298 = (184.339,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_diene_2_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 49,
+    index = 88,
     label = "s1_5_6_diene_2_8",
     group = 
 """
@@ -1782,15 +2246,15 @@ entry(
         H298 = (60.7522,'kJ/mol'),
         S298 = (183.826,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_diene_2_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 50,
+    index = 89,
     label = "s1_5_6_diene_7_9",
     group = 
 """
@@ -1811,27 +2275,27 @@ entry(
         H298 = (65.9717,'kJ/mol'),
         S298 = (199.055,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_5_6_diene_7_9 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 90,
     label = "s1_5_6_triene",
     group = "OR{s1_5_6_triene_1_3_7, s1_5_6_triene_1_3_8}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 44,
+    index = 91,
     label = "s1_5_6_triene_1_3_7",
     group = 
 """
@@ -1852,15 +2316,15 @@ entry(
         H298 = (14.743,'kcal/mol'),
         S298 = (57.75,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt17 from C10H11 library.
 """,
 )
 
 entry(
-    index = 44,
+    index = 92,
     label = "s1_5_6_triene_1_3_8",
     group = 
 """
@@ -1881,27 +2345,27 @@ entry(
         H298 = (14.573,'kcal/mol'),
         S298 = (57.37,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt17 from C10H11 library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 93,
     label = "s1_5_6_tetraene",
     group = "OR{s1_5_6_tetraene_1_3_7_9, s1_5_6_tetraene_1_4_7_9}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 44,
+    index = 94,
     label = "s1_5_6_tetraene_1_3_7_9",
     group = 
 """
@@ -1922,15 +2386,15 @@ entry(
         H298 = (3.583,'kcal/mol'),
         S298 = (59.28,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species prod2 from naphthalene_H library.
 """,
 )
 
 entry(
-    index = 44,
+    index = 95,
     label = "s1_5_6_tetraene_1_4_7_9",
     group = 
 """
@@ -1951,15 +2415,15 @@ entry(
         H298 = (11.133,'kcal/mol'),
         S298 = (57.08,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species prod2 from naphthalene_H library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 96,
     label = "s1_6_6",
     group = 
 """
@@ -1976,15 +2440,15 @@ entry(
 11   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 51,
+    index = 97,
     label = "s1_6_6_ane",
     group = 
 """
@@ -2006,27 +2470,27 @@ entry(
         H298 = (46.8142,'kJ/mol'),
         S298 = (148.984,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_6_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 98,
     label = "s1_6_6_ene",
     group = "OR{s1_6_6_ene_1, s1_6_6_ene_2}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 52,
+    index = 99,
     label = "s1_6_6_ene_1",
     group = 
 """
@@ -2048,15 +2512,15 @@ entry(
         H298 = (43.6103,'kJ/mol'),
         S298 = (157.914,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_6_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 53,
+    index = 100,
     label = "s1_6_6_ene_2",
     group = 
 """
@@ -2078,27 +2542,27 @@ entry(
         H298 = (44.1274,'kJ/mol'),
         S298 = (154.518,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_6_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 101,
     label = "s1_6_6_diene",
     group = "OR{s1_6_6_diene_1_3, s1_6_6_diene_1_4, s1_6_6_diene_1_7, s1_6_6_diene_1_8, s1_6_6_diene_2_8}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 54,
+    index = 102,
     label = "s1_6_6_diene_1_3",
     group = 
 """
@@ -2116,13 +2580,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-9.560845,-10.267423,-9.929901,-8.745752,-6.109833,-3.931553,-0.724453],'cal/(mol*K)','+|-',[0.229877,0.229877,0.229877,0.229877,0.229877,0.229877,0.229877]),
-        H298 = (3.577017,'kcal/mol','+|-',1.243887),
-        S298 = (45.282216,'cal/(mol*K)','+|-',0.606768),
+        Cpdata = ([-9.56085,-10.2674,-9.9299,-8.74575,-6.10983,-3.93155,-0.724453],'cal/(mol*K)','+|-',[0.229877,0.229877,0.229877,0.229877,0.229877,0.229877,0.229877]),
+        H298 = (3.57702,'kcal/mol','+|-',1.24389),
+        S298 = (45.2822,'cal/(mol*K)','+|-',0.606768),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -2136,7 +2600,7 @@ C1CCCCC12C=CC=CC2
 )
 
 entry(
-    index = 55,
+    index = 103,
     label = "s1_6_6_diene_1_4",
     group = 
 """
@@ -2154,13 +2618,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.678242,-8.671212,-8.272232,-7.335630,-5.040410,-3.033785,-0.170298],'cal/(mol*K)','+|-',[0.152306,0.152306,0.152306,0.152306,0.152306,0.152306,0.152306]),
+        Cpdata = ([-8.67824,-8.67121,-8.27223,-7.33563,-5.04041,-3.03378,-0.170298],'cal/(mol*K)','+|-',[0.152306,0.152306,0.152306,0.152306,0.152306,0.152306,0.152306]),
         H298 = (-0.377743,'kcal/mol','+|-',0.955211),
-        S298 = (39.640848,'cal/(mol*K)','+|-',0.480413),
+        S298 = (39.6408,'cal/(mol*K)','+|-',0.480413),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -2173,7 +2637,7 @@ C1CCCCC12C=CCC=C2
 )
 
 entry(
-    index = 56,
+    index = 104,
     label = "s1_6_6_diene_1_7",
     group = 
 """
@@ -2195,15 +2659,15 @@ entry(
         H298 = (44.4007,'kJ/mol'),
         S298 = (161.695,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_6_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 57,
+    index = 105,
     label = "s1_6_6_diene_1_8",
     group = 
 """
@@ -2225,15 +2689,15 @@ entry(
         H298 = (42.1676,'kJ/mol'),
         S298 = (164.025,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_6_6_diene_1_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 58,
+    index = 106,
     label = "s1_6_6_diene_2_8",
     group = 
 """
@@ -2255,15 +2719,15 @@ entry(
         H298 = (39.5522,'kJ/mol'),
         S298 = (153.945,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s1_6_6_diene_2_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 107,
     label = "s2_3_3",
     group = 
 """
@@ -2273,15 +2737,15 @@ entry(
 4   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 59,
+    index = 108,
     label = "s2_3_3_ane",
     group = 
 """
@@ -2296,15 +2760,15 @@ entry(
         H298 = (265.181,'kJ/mol'),
         S298 = (281.033,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_3_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 60,
+    index = 109,
     label = "s2_3_3_ene",
     group = 
 """
@@ -2319,15 +2783,15 @@ entry(
         H298 = (421.625,'kJ/mol'),
         S298 = (294.969,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_3_ene from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 110,
     label = "s2_3_4",
     group = 
 """
@@ -2338,15 +2802,15 @@ entry(
 5   R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 61,
+    index = 111,
     label = "s2_3_4_ane",
     group = 
 """
@@ -2362,27 +2826,27 @@ entry(
         H298 = (235.153,'kJ/mol'),
         S298 = (259.976,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 112,
     label = "s2_3_4_ene",
     group = "OR{s2_3_4_ene_1, s2_3_4_ene_m}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 62,
+    index = 113,
     label = "s2_3_4_ene_1",
     group = 
 """
@@ -2398,15 +2862,15 @@ entry(
         H298 = (292.756,'kJ/mol'),
         S298 = (268.817,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_4_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 63,
+    index = 114,
     label = "s2_3_4_ene_m",
     group = 
 """
@@ -2422,15 +2886,15 @@ entry(
         H298 = (126,'kcal/mol'),
         S298 = (66.41,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 ab initio, S, Cp from PM7 calculation
 """,
 )
 
 entry(
-    index = 0,
+    index = 115,
     label = "s2_3_5",
     group = 
 """
@@ -2442,52 +2906,53 @@ entry(
 6   R!H u0 {4,[S,D,T,B]} {5,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 64,
-    label = "s2_3_5_ane",
-    group = 
 """
-1 * R!H u0 {2,S} {3,S} {5,S}
-2   R!H u0 {1,S} {3,S} {4,S}
-3   R!H u0 {1,S} {2,S}
-4   R!H u0 {2,S} {6,S}
-5   R!H u0 {1,S} {6,S}
-6   R!H u0 {4,S} {5,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-31.3918,-30.9812,-28.7286,-26.071,-21.6806,-17.2716,-12.7686],'J/(mol*K)'),
-        H298 = (155.862,'kJ/mol'),
-        S298 = (249.315,'J/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from thermo library values""",
-    longDesc = 
-u"""
-Fitted from molecule s2_3_5_ane from Bicyclics_QM_190_isomorphic library.
+
 """,
 )
 
 entry(
-    index = 0,
+    index = 116,
     label = "s2_3_5_ene",
     group = "OR{s2_3_5_ene_1, s2_3_5_ene_side, s2_3_5_ene_1_side}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 65,
+    index = 117,
+    label = "s2_3_5_ene_1_side",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S} {3,S} {5,S}
+3   R!H u0 {1,S} {2,S} {7,D}
+4   R!H u0 {1,S} {6,S}
+5   R!H u0 {2,S} {6,D}
+6   R!H u0 {4,S} {5,D}
+7   R!H ux {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.48,-3.9,-3.81,-3.6,-3.7,-3.68,-3.44],'cal/(mol*K)'),
+        H298 = (47.323,'kcal/mol'),
+        S298 = (66.8874,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted from species product42 from vinylCPD_H library.
+""",
+)
+
+entry(
+    index = 118,
     label = "s2_3_5_ene_1",
     group = 
 """
@@ -2504,24 +2969,24 @@ entry(
         H298 = (143.681,'kJ/mol'),
         S298 = (247.197,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 65,
+    index = 119,
     label = "s2_3_5_ene_side",
     group = 
 """
-1 * R!H   u0 {2,S} {4,S} {6,S}
-2   R!H   u0 {1,S} {4,S} {5,S}
-3   R!H   u0 {5,S} {6,S} {7,D}
-4   R!H   u0 {1,S} {2,S}
-5   R!H   u0 {2,S} {3,S}
-6   R!H   u0 {1,S} {3,S}
+1 * R!H u0 {2,S} {4,S} {6,S}
+2   R!H u0 {1,S} {4,S} {5,S}
+3   R!H u0 {5,S} {6,S} {7,D}
+4   R!H u0 {1,S} {2,S}
+5   R!H u0 {2,S} {3,S}
+6   R!H u0 {1,S} {3,S}
 7   R!H ux {3,D}
 """,
     thermo = ThermoData(
@@ -2530,72 +2995,71 @@ entry(
         H298 = (32.543,'kcal/mol'),
         S298 = (65.1674,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species product36 from vinylCPD_H library.
 """,
 )
 
 entry(
-    index = 65,
-    label = "s2_3_5_ene_1_side",
+    index = 120,
+    label = "s2_3_5_ane",
     group = 
 """
-1 * R!H   u0 {2,S} {3,S} {4,S}
-2   R!H   u0 {1,S} {3,S} {5,S}
-3   R!H   u0 {1,S} {2,S} {7,D}
-4   R!H   u0 {1,S} {6,S}
-5   R!H   u0 {2,S} {6,D}
-6   R!H   u0 {4,S} {5,D}
-7   R!H ux {3,D}
+1 * R!H u0 {2,S} {3,S} {5,S}
+2   R!H u0 {1,S} {3,S} {4,S}
+3   R!H u0 {1,S} {2,S}
+4   R!H u0 {2,S} {6,S}
+5   R!H u0 {1,S} {6,S}
+6   R!H u0 {4,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.48,-3.9,-3.81,-3.6,-3.7,-3.68,-3.44],'cal/(mol*K)'),
-        H298 = (47.323,'kcal/mol'),
-        S298 = (66.8874,'cal/(mol*K)'),
+        Cpdata = ([-31.3918,-30.9812,-28.7286,-26.071,-21.6806,-17.2716,-12.7686],'J/(mol*K)'),
+        H298 = (155.862,'kJ/mol'),
+        S298 = (249.315,'J/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
-Fitted from species product42 from vinylCPD_H library.
+"""
+Fitted from molecule s2_3_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 65,
+    index = 121,
     label = "s2_3_5_diene",
     group = "OR{s2_3_5_diene_0_2}",
     thermo = None,
-    shortDesc = u"""""",
-    longDesc =
-u"""
+    shortDesc = """""",
+    longDesc = 
+"""
 
 """,
 )
 
 entry(
-    index = 65,
+    index = 122,
     label = "s2_3_5_diene_0_2",
-    group=
-    """
-    1 * R!H u0 {2,S} {3,S} {5,S}
-    2   R!H u0 {1,S} {3,S} {4,D}
-    3   R!H u0 {1,S} {2,S}
-    4   R!H u0 {2,D} {6,S}
-    5   R!H u0 {1,S} {6,D}
-    6   R!H u0 {4,S} {5,D}
-    """,
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-7.289, -6.524, -6.162, -6.421, -5.93, -4.094, -3.76], 'cal/(mol*K)'),
-        H298=(68.847, 'kcal/mol'),
-        S298=(65.182, 'cal/(mol*K)'),
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {5,S}
+2   R!H u0 {1,S} {3,S} {4,D}
+3   R!H u0 {1,S} {2,S}
+4   R!H u0 {2,D} {6,S}
+5   R!H u0 {1,S} {6,D}
+6   R!H u0 {4,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.289,-6.524,-6.162,-6.421,-5.93,-4.094,-3.76],'cal/(mol*K)'),
+        H298 = (68.847,'kcal/mol'),
+        S298 = (65.182,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
+    shortDesc = """""",
+    longDesc = 
+"""
 Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations for "Intermediate B" of:
 
 Miller, J. A.; Klippenstein, S. J., The Recombination of Propargyl Radicals and Other Reactions on a C6H6 Potential.
@@ -2604,7 +3068,7 @@ J. Phys. Chem. A 2003, 107, 7783-7799.
 )
 
 entry(
-    index = 0,
+    index = 123,
     label = "s2_3_6",
     group = 
 """
@@ -2617,15 +3081,15 @@ entry(
 7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 66,
+    index = 124,
     label = "s2_3_6_ane",
     group = 
 """
@@ -2643,27 +3107,27 @@ entry(
         H298 = (154.711,'kJ/mol'),
         S298 = (236.447,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
-    longDesc=
-    u"""
-    Fitted from molecule s2_3_6_ane from Bicyclics_QM_190_isomorphic library.
-    """,
+    shortDesc = """Fitted from thermo library values""",
+    longDesc = 
+"""
+Fitted from molecule s2_3_6_ane from Bicyclics_QM_190_isomorphic library.
+""",
 )
 
 entry(
-    index = 0,
+    index = 125,
     label = "s2_3_6_ene",
     group = "OR{s2_3_6_ene_1, s2_3_6_ene_2, s2_3_6_ene_5}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 67,
+    index = 126,
     label = "s2_3_6_ene_1",
     group = 
 """
@@ -2681,15 +3145,15 @@ entry(
         H298 = (127.466,'kJ/mol'),
         S298 = (229.109,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 68,
+    index = 127,
     label = "s2_3_6_ene_2",
     group = 
 """
@@ -2707,27 +3171,53 @@ entry(
         H298 = (129.473,'kJ/mol'),
         S298 = (228.854,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 128,
+    label = "s2_3_6_ene_5",
+    group = 
+"""
+1   R!H u0 {2,S} {3,D} {4,S}
+2   R!H u0 {1,S} {3,S} {5,S}
+3   R!H u0 {1,D} {2,S}
+4   R!H u0 {1,S} {7,S}
+5   R!H u0 {2,S} {6,S}
+6 * R!H u0 {5,S} {7,S}
+7   R!H u0 {4,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-33.0644,-30.4388,-27.9344,-25.2475,-19.6467,-15.2896,-10.1737],'J/(mol*K)'),
+        H298 = (262.495,'kJ/mol'),
+        S298 = (238.794,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 129,
     label = "s2_3_6_diene",
     group = "OR{s2_3_6_diene_0_2, s2_3_6_diene_0_3, s2_3_6_diene_1_3, s2_3_6_diene_2_5}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 69,
+    index = 130,
     label = "s2_3_6_diene_0_2",
     group = 
 """
@@ -2745,15 +3235,15 @@ entry(
         H298 = (48.433,'kcal/mol'),
         S298 = (65.9,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species product46 from vinylCPD_H library.
 """,
 )
 
 entry(
-    index = 69,
+    index = 131,
     label = "s2_3_6_diene_0_3",
     group = 
 """
@@ -2771,15 +3261,15 @@ entry(
         H298 = (53.563,'kcal/mol'),
         S298 = (63.9,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species product46 from vinylCPD_H library.
 """,
 )
 
 entry(
-    index = 69,
+    index = 132,
     label = "s2_3_6_diene_1_3",
     group = 
 """
@@ -2797,15 +3287,41 @@ entry(
         H298 = (117.743,'kJ/mol'),
         S298 = (247.955,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 69,
+    index = 133,
+    label = "s2_3_6_diene_2_5",
+    group = 
+"""
+1   R!H u0 {2,S} {3,D} {4,S}
+2   R!H u0 {1,S} {3,S} {5,S}
+3   R!H u0 {1,D} {2,S}
+4   R!H u0 {1,S} {7,S}
+5   R!H u0 {2,S} {6,S}
+6 * R!H u0 {5,S} {7,D}
+7   R!H u0 {4,S} {6,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-25.6671,-24.8396,-23.399,-21.6937,-17.9095,-14.865,-11.0665],'J/(mol*K)'),
+        H298 = (259.334,'kJ/mol'),
+        S298 = (242.952,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 134,
     label = "s2_3_6_ben",
     group = 
 """
@@ -2823,15 +3339,15 @@ entry(
         H298 = (286.99,'kJ/mol'),
         S298 = (144.432,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_3_6_ben from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 135,
     label = "s2_3_7",
     group = 
 """
@@ -2845,15 +3361,15 @@ entry(
 8   R!H u0 {6,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 70,
+    index = 136,
     label = "s2_3_7_ane",
     group = 
 """
@@ -2872,15 +3388,15 @@ entry(
         H298 = (29.64,'kcal/mol'),
         S298 = (51.29,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Properties of Liquids and Gases, Poling 5th Ed. S, Cp from PM7 calculation
 """,
 )
 
 entry(
-    index = 0,
+    index = 137,
     label = "s2_3_8",
     group = 
 """
@@ -2895,15 +3411,15 @@ entry(
 9   R!H u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 71,
+    index = 138,
     label = "s2_3_8_ane",
     group = 
 """
@@ -2923,15 +3439,15 @@ entry(
         H298 = (31.14,'kcal/mol'),
         S298 = (48.46,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Properties of Liquids and Gases, Poling 5th Ed. S, Cp from PM7 calculation
 """,
 )
 
 entry(
-    index = 0,
+    index = 139,
     label = "s2_4_4",
     group = 
 """
@@ -2943,15 +3459,15 @@ entry(
 6   R!H u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 72,
+    index = 140,
     label = "s2_4_4_ane",
     group = 
 """
@@ -2968,27 +3484,27 @@ entry(
         H298 = (242.33,'kJ/mol'),
         S298 = (246.529,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 141,
     label = "s2_4_4_ene",
     group = "OR{s2_4_4_ene_1, s2_4_4_ene_2, s2_4_4_ene_m}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 73,
+    index = 142,
     label = "s2_4_4_ene_1",
     group = 
 """
@@ -3005,15 +3521,41 @@ entry(
         H298 = (107.279,'kJ/mol'),
         S298 = (249.266,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_4_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 74,
+    index = 143,
+    label = "s2_4_4_ene_2",
+    group = 
+"""
+1   R!H u0 p0 c0 {2,S} {4,S} {5,S}
+2   R!H u0 p0 c0 {1,S} {3,S}
+3 * R!H u0 p0 c0 {2,S} {5,S}
+4   R!H u0 p0 c0 {1,S} {6,S}
+5   R!H u0 p0 c0 {1,S} {3,S} {6,D}
+6   R!H u0 p0 c0 {4,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.463,-5.577,-5.448,-4.796,-4.053,-3.693,-2.85],'cal/(mol*K)'),
+        H298 = (80.045,'kcal/mol'),
+        S298 = (60.555,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1CC2CCC=12. Mengjie Liu 10/14/19.
+""",
+)
+
+entry(
+    index = 144,
     label = "s2_4_4_ene_m",
     group = 
 """
@@ -3030,15 +3572,174 @@ entry(
         H298 = (87,'kcal/mol'),
         S298 = (58.64,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 ab initio S, Cp from PM7 calculation
 """,
 )
 
 entry(
-    index = 0,
+    index = 145,
+    label = "s2_4_4_diene",
+    group = "OR{s2_4_4_diene_1_3, s2_4_4_diene_1_4, s2_4_4_diene_1_m, s2_4_4_diene_2_5}",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 146,
+    label = "s2_4_4_diene_1_3",
+    group = 
+"""
+1   R!H u0 p0 c0 {2,S} {3,S} {5,S}
+2   R!H u0 p0 c0 {1,S} {4,S}
+3   R!H u0 p0 c0 {1,S} {4,D} {6,S}
+4 * R!H u0 p0 c0 {2,S} {3,D}
+5   R!H u0 p0 c0 {1,S} {6,D}
+6   R!H u0 p0 c0 {3,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.387,-6.461,-6.218,-5.581,-4.592,-4.193,-3.443],'cal/(mol*K)'),
+        H298 = (96.567,'kcal/mol'),
+        S298 = (67.309,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2CC=C12. Mengjie Liu 10/14/19.
+""",
+)
+
+entry(
+    index = 147,
+    label = "s2_4_4_diene_1_4",
+    group = 
+"""
+1   R!H u0 p0 c0 {2,S} {4,S} {5,S}
+2   R!H u0 p0 c0 {1,S} {3,S} {6,S}
+3 * R!H u0 p0 c0 {2,S} {4,D}
+4   R!H u0 p0 c0 {1,S} {3,D}
+5   R!H u0 p0 c0 {1,S} {6,D}
+6   R!H u0 p0 c0 {2,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.49,-5.314,-4.653,-4.048,-3.323,-3.248,-2.934],'cal/(mol*K)'),
+        H298 = (65.133,'kcal/mol'),
+        S298 = (65.027,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2C=CC12. Mengjie Liu 10/14/19.
+Symmetry correction removed from calculated entropy using RMG estimated
+symmetry number of 4 to give correct GAV entropy estimate.
+""",
+)
+
+entry(
+    index = 148,
+    label = "s2_4_4_diene_1_m",
+    group = 
+"""
+1   R!H u0 {2,D} {4,S} {6,S}
+2   R!H u0 {1,D} {3,S} {5,S}
+3 * R!H u0 {2,S} {4,S}
+4   R!H u0 {1,S} {3,S}
+5   R!H u0 {2,S} {6,D}
+6   R!H u0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.91129,-6.76789,-7.42649,-7.70705,-6.76857,-4.6511,-4.2467],'cal/(mol*K)'),
+        H298 = (134.905,'kcal/mol'),
+        S298 = (69.4729,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 149,
+    label = "s2_4_4_diene_2_5",
+    group = 
+"""
+1   R!H u0 p0 c0 {3,S} {5,S}
+2 * R!H u0 p0 c0 {4,S} {6,S}
+3   R!H u0 p0 c0 {1,S} {4,S} {6,D}
+4   R!H u0 p0 c0 {2,S} {3,S} {5,D}
+5   R!H u0 p0 c0 {1,S} {4,D}
+6   R!H u0 p0 c0 {2,S} {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.942,-6.178,-6.329,-5.779,-4.891,-4.528,-3.455],'cal/(mol*K)'),
+        H298 = (106.085,'kcal/mol'),
+        S298 = (65.391,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1CC2=CCC=12. Mengjie Liu 10/14/19.
+Symmetry correction removed from calculated entropy using RMG estimated
+symmetry number of 2 to give correct GAV entropy estimate.
+""",
+)
+
+entry(
+    index = 150,
+    label = "s2_4_4_triene",
+    group = "OR{s2_4_4_triene_1_4_m}",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 151,
+    label = "s2_4_4_triene_1_4_m",
+    group = 
+"""
+1   R!H u0 p0 c0 {2,D} {4,S} {5,S}
+2   R!H u0 p0 c0 {1,D} {3,S} {6,S}
+3 * R!H u0 p0 c0 {2,S} {4,D}
+4   R!H u0 p0 c0 {1,S} {3,D}
+5   R!H u0 p0 c0 {1,S} {6,D}
+6   R!H u0 p0 c0 {2,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.38,-3.176,-4.085,-4.386,-4.685,-4.712,-5.913],'cal/(mol*K)'),
+        H298 = (118.453,'kcal/mol'),
+        S298 = (76.077,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2C=CC=21. Mengjie Liu 10/14/19.
+Symmetry correction removed from calculated entropy using RMG estimated
+symmetry number of 4 to give correct GAV entropy estimate.
+""",
+)
+
+entry(
+    index = 152,
     label = "s2_4_5",
     group = 
 """
@@ -3051,15 +3752,15 @@ entry(
 7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 75,
+    index = 153,
     label = "s2_4_5_ane",
     group = 
 """
@@ -3077,27 +3778,27 @@ entry(
         H298 = (158.515,'kJ/mol'),
         S298 = (222.223,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 154,
     label = "s2_4_5_ene",
     group = "OR{s2_4_5_ene_0, s2_4_5_ene_1}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 76,
+    index = 155,
     label = "s2_4_5_ene_0",
     group = 
 """
@@ -3115,15 +3816,15 @@ entry(
         H298 = (45.173,'kcal/mol'),
         S298 = (60.95,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species product25 from vinylCPD_H library.
 """,
 )
 
 entry(
-    index = 76,
+    index = 156,
     label = "s2_4_5_ene_1",
     group = 
 """
@@ -3141,27 +3842,27 @@ entry(
         H298 = (145.91,'kJ/mol'),
         S298 = (229.455,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 157,
     label = "s2_4_5_diene",
     group = "OR{s2_4_5_diene_0_3, s2_4_5_diene_1_5, s2_4_5_diene_4_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 76,
+    index = 158,
     label = "s2_4_5_diene_0_3",
     group = 
 """
@@ -3179,15 +3880,15 @@ entry(
         H298 = (220.315,'kJ/mol'),
         S298 = (247.242,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_5_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 76,
+    index = 159,
     label = "s2_4_5_diene_1_5",
     group = 
 """
@@ -3205,15 +3906,15 @@ entry(
         H298 = (39.483,'kcal/mol'),
         S298 = (62.16,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species product45 from vinylCPD_H library.
 """,
 )
 
 entry(
-    index = 76,
+    index = 160,
     label = "s2_4_5_diene_4_6",
     group = 
 """
@@ -3231,15 +3932,15 @@ entry(
         H298 = (427.842,'kJ/mol'),
         S298 = (261.07,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_5_diene_4_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 161,
     label = "s2_4_6",
     group = 
 """
@@ -3253,15 +3954,15 @@ entry(
 8   R!H u0 {5,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 77,
+    index = 162,
     label = "s2_4_6_ane",
     group = 
 """
@@ -3280,27 +3981,27 @@ entry(
         H298 = (142,'kJ/mol'),
         S298 = (204.981,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 163,
     label = "s2_4_6_ene",
     group = "OR{s2_4_6_ene_1, s2_4_6_ene_2, s2_4_6_ene_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 78,
+    index = 164,
     label = "s2_4_6_ene_1",
     group = 
 """
@@ -3319,15 +4020,15 @@ entry(
         H298 = (131.146,'kJ/mol'),
         S298 = (210.041,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 79,
+    index = 165,
     label = "s2_4_6_ene_2",
     group = 
 """
@@ -3346,15 +4047,15 @@ entry(
         H298 = (147.009,'kJ/mol'),
         S298 = (217.246,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 79,
+    index = 166,
     label = "s2_4_6_ene_6",
     group = 
 """
@@ -3373,27 +4074,27 @@ entry(
         H298 = (220.778,'kJ/mol'),
         S298 = (206.929,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_ene_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 167,
     label = "s2_4_6_diene",
     group = "OR{s2_4_6_diene_1_3, s2_4_6_diene_1_6, s2_4_6_diene_2_6, s2_4_6_diene_5_7}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 180,
+    index = 168,
     label = "s2_4_6_diene_1_3",
     group = 
 """
@@ -3412,15 +4113,15 @@ entry(
         H298 = (142.193,'kJ/mol'),
         S298 = (230.904,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 181,
+    index = 169,
     label = "s2_4_6_diene_1_6",
     group = 
 """
@@ -3439,15 +4140,15 @@ entry(
         H298 = (152.835,'kJ/mol'),
         S298 = (221.861,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 182,
+    index = 170,
     label = "s2_4_6_diene_2_6",
     group = 
 """
@@ -3466,15 +4167,15 @@ entry(
         H298 = (159.306,'kJ/mol'),
         S298 = (218.773,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_diene_2_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 182,
+    index = 171,
     label = "s2_4_6_diene_5_7",
     group = 
 """
@@ -3493,15 +4194,15 @@ entry(
         H298 = (358.647,'kJ/mol'),
         S298 = (250.961,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_diene_5_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 183,
+    index = 172,
     label = "s2_4_6_ben",
     group = 
 """
@@ -3520,15 +4221,15 @@ entry(
         H298 = (148.973,'kJ/mol'),
         S298 = (117.954,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_4_6_ben from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 173,
     label = "s2_5_5",
     group = 
 """
@@ -3542,15 +4243,15 @@ entry(
 8   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 80,
+    index = 174,
     label = "s2_5_5_ane",
     group = 
 """
@@ -3569,27 +4270,27 @@ entry(
         H298 = (79.0986,'kJ/mol'),
         S298 = (198.831,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 175,
     label = "s2_5_5_ene",
     group = "OR{s2_5_5_ene_0, s2_5_5_ene_1, s2_5_5_ene_m}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 81,
+    index = 176,
     label = "s2_5_5_ene_0",
     group = 
 """
@@ -3608,15 +4309,15 @@ entry(
         H298 = (88.2847,'kJ/mol'),
         S298 = (209.932,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 82,
+    index = 177,
     label = "s2_5_5_ene_1",
     group = 
 """
@@ -3635,15 +4336,15 @@ entry(
         H298 = (71.0703,'kJ/mol'),
         S298 = (213.583,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 83,
+    index = 178,
     label = "s2_5_5_ene_m",
     group = 
 """
@@ -3662,27 +4363,27 @@ entry(
         H298 = (86.2088,'kJ/mol'),
         S298 = (204.403,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_ene_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 179,
     label = "s2_5_5_diene",
     group = "OR{s2_5_5_diene_0_2, s2_5_5_diene_0_3, s2_5_5_diene_m_2, s2_5_5_diene_0_4, s2_5_5_diene_0_5, s2_5_5_diene_0_6, s2_5_5_diene_1_5, s2_5_5_diene_1_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 84,
+    index = 180,
     label = "s2_5_5_diene_0_2",
     group = 
 """
@@ -3701,15 +4402,15 @@ entry(
         H298 = (98.2803,'kJ/mol'),
         S298 = (234.449,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 85,
+    index = 181,
     label = "s2_5_5_diene_0_3",
     group = 
 """
@@ -3728,15 +4429,15 @@ entry(
         H298 = (84.3022,'kJ/mol'),
         S298 = (224.084,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 86,
+    index = 182,
     label = "s2_5_5_diene_m_2",
     group = 
 """
@@ -3755,15 +4456,15 @@ entry(
         H298 = (91.2676,'kJ/mol'),
         S298 = (226.061,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_diene_m_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 87,
+    index = 183,
     label = "s2_5_5_diene_0_4",
     group = 
 """
@@ -3782,15 +4483,15 @@ entry(
         H298 = (89.4864,'kJ/mol'),
         S298 = (233.918,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 88,
+    index = 184,
     label = "s2_5_5_diene_0_5",
     group = 
 """
@@ -3809,15 +4510,15 @@ entry(
         H298 = (90.1575,'kJ/mol'),
         S298 = (215.235,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_diene_0_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 89,
+    index = 185,
     label = "s2_5_5_diene_0_6",
     group = 
 """
@@ -3836,15 +4537,15 @@ entry(
         H298 = (94.0296,'kJ/mol'),
         S298 = (225.35,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_diene_0_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 90,
+    index = 186,
     label = "s2_5_5_diene_1_5",
     group = 
 """
@@ -3863,15 +4564,15 @@ entry(
         H298 = (65.5921,'kJ/mol'),
         S298 = (213.858,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 91,
+    index = 187,
     label = "s2_5_5_diene_1_6",
     group = 
 """
@@ -3890,27 +4591,27 @@ entry(
         H298 = (70.8954,'kJ/mol'),
         S298 = (222.397,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 188,
     label = "s2_5_5_tetraene",
     group = "OR{s2_5_5_tetraene_0_2_4_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 84,
+    index = 189,
     label = "s2_5_5_tetraene_0_2_4_6",
     group = 
 """
@@ -3929,15 +4630,15 @@ entry(
         H298 = (135.898,'kJ/mol'),
         S298 = (289.394,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_5_tetraene_0_2_4_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 190,
     label = "s2_5_6",
     group = 
 """
@@ -3952,15 +4653,15 @@ entry(
 9   R!H u0 {3,[S,D,T,B]} {8,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 92,
+    index = 191,
     label = "s2_5_6_ane",
     group = 
 """
@@ -3980,27 +4681,27 @@ entry(
         H298 = (62.1536,'kJ/mol'),
         S298 = (191.783,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 192,
     label = "s2_5_6_ene",
     group = "OR{s2_5_6_ene_0, s2_5_6_ene_1, s2_5_6_ene_m, s2_5_6_ene_2, s2_5_6_ene_5, s2_5_6_ene_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 93,
+    index = 193,
     label = "s2_5_6_ene_0",
     group = 
 """
@@ -4020,15 +4721,15 @@ entry(
         H298 = (56.657,'kJ/mol'),
         S298 = (190.173,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 94,
+    index = 194,
     label = "s2_5_6_ene_1",
     group = 
 """
@@ -4048,15 +4749,15 @@ entry(
         H298 = (62.9293,'kJ/mol'),
         S298 = (193.573,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 95,
+    index = 195,
     label = "s2_5_6_ene_m",
     group = 
 """
@@ -4076,15 +4777,15 @@ entry(
         H298 = (50.6094,'kJ/mol'),
         S298 = (188.699,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_ene_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 96,
+    index = 196,
     label = "s2_5_6_ene_2",
     group = 
 """
@@ -4104,15 +4805,15 @@ entry(
         H298 = (71.772,'kJ/mol'),
         S298 = (190.136,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 97,
+    index = 197,
     label = "s2_5_6_ene_5",
     group = 
 """
@@ -4132,15 +4833,15 @@ entry(
         H298 = (74.4929,'kJ/mol'),
         S298 = (191.696,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_ene_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 98,
+    index = 198,
     label = "s2_5_6_ene_6",
     group = 
 """
@@ -4160,27 +4861,27 @@ entry(
         H298 = (72.3374,'kJ/mol'),
         S298 = (192.941,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_ene_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 199,
     label = "s2_5_6_diene",
     group = "OR{s2_5_6_diene_m_1, s2_5_6_diene_m_2, s2_5_6_diene_m_7, s2_5_6_diene_0_2, s2_5_6_diene_0_3, s2_5_6_diene_0_4, s2_5_6_diene_0_5, s2_5_6_diene_0_6, s2_5_6_diene_0_7, s2_5_6_diene_1_3, s2_5_6_diene_1_5, s2_5_6_diene_1_6, s2_5_6_diene_1_7, s2_5_6_diene_1_8, s2_5_6_diene_2_5, s2_5_6_diene_2_6, s2_5_6_diene_5_7, s2_5_6_diene_5_8}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 99,
+    index = 200,
     label = "s2_5_6_diene_m_1",
     group = 
 """
@@ -4200,15 +4901,15 @@ entry(
         H298 = (64.8989,'kJ/mol'),
         S298 = (210.302,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_m_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 100,
+    index = 201,
     label = "s2_5_6_diene_m_2",
     group = 
 """
@@ -4228,15 +4929,15 @@ entry(
         H298 = (42.7943,'kJ/mol'),
         S298 = (193.491,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_m_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 101,
+    index = 202,
     label = "s2_5_6_diene_m_7",
     group = 
 """
@@ -4256,15 +4957,15 @@ entry(
         H298 = (51.5473,'kJ/mol'),
         S298 = (204.962,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_m_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 102,
+    index = 203,
     label = "s2_5_6_diene_0_2",
     group = 
 """
@@ -4280,13 +4981,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.745000,-9.020000,-8.632000,-7.604000,-5.545000,-3.763000,-1.896000],'cal/(mol*K)'),
-        H298 = (10.102000,'kcal/mol','+|-',2.4),
-        S298 = (50.304000,'cal/(mol*K)'),
+        Cpdata = ([-8.745,-9.02,-8.632,-7.604,-5.545,-3.763,-1.896],'cal/(mol*K)'),
+        H298 = (10.102,'kcal/mol','+|-',2.4),
+        S298 = (50.304,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 7/2017, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -4297,7 +4998,7 @@ Model species was C1=CCC2CCCC2=C1
 )
 
 entry(
-    index = 103,
+    index = 204,
     label = "s2_5_6_diene_0_3",
     group = 
 """
@@ -4313,13 +5014,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.664000,-8.012000,-7.206000,-6.217000,-4.239000,-2.796000,-1.157000],'cal/(mol*K)'),
-        H298 = (6.554000,'kcal/mol','+|-',2.4),
-        S298 = (49.142000,'cal/(mol*K)'),
+        Cpdata = ([-8.664,-8.012,-7.206,-6.217,-4.239,-2.796,-1.157],'cal/(mol*K)'),
+        H298 = (6.554,'kcal/mol','+|-',2.4),
+        S298 = (49.142,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 7/2017, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -4330,7 +5032,7 @@ Model species was C=1CC=C2CCCC2C1
 )
 
 entry(
-    index = 104,
+    index = 205,
     label = "s2_5_6_diene_0_4",
     group = 
 """
@@ -4350,15 +5052,15 @@ entry(
         H298 = (66.4995,'kJ/mol'),
         S298 = (207.57,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 105,
+    index = 206,
     label = "s2_5_6_diene_0_5",
     group = 
 """
@@ -4378,15 +5080,15 @@ entry(
         H298 = (53.2024,'kJ/mol'),
         S298 = (211.109,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_0_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 106,
+    index = 207,
     label = "s2_5_6_diene_0_6",
     group = 
 """
@@ -4406,15 +5108,15 @@ entry(
         H298 = (57.4666,'kJ/mol'),
         S298 = (196.684,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_0_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 107,
+    index = 208,
     label = "s2_5_6_diene_0_7",
     group = 
 """
@@ -4434,15 +5136,15 @@ entry(
         H298 = (59.0127,'kJ/mol'),
         S298 = (207.242,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_0_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 108,
+    index = 209,
     label = "s2_5_6_diene_1_3",
     group = 
 """
@@ -4458,13 +5160,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.453000,-8.770000,-8.511000,-7.463000,-5.515000,-3.726000,-2.021000],'cal/(mol*K)'),
-        H298 = (10.068000,'kcal/mol','+|-',2.4),
-        S298 = (52.912000,'cal/(mol*K)'),
+        Cpdata = ([-8.453,-8.77,-8.511,-7.463,-5.515,-3.726,-2.021],'cal/(mol*K)'),
+        H298 = (10.068,'kcal/mol','+|-',2.4),
+        S298 = (52.912,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 7/2017, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -4475,7 +5177,7 @@ Model species was C1=CC2CCCC2C=C1
 )
 
 entry(
-    index = 109,
+    index = 210,
     label = "s2_5_6_diene_1_5",
     group = 
 """
@@ -4495,15 +5197,15 @@ entry(
         H298 = (69.3468,'kJ/mol'),
         S298 = (201.962,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 110,
+    index = 211,
     label = "s2_5_6_diene_1_6",
     group = 
 """
@@ -4523,15 +5225,15 @@ entry(
         H298 = (55.7592,'kJ/mol'),
         S298 = (193.829,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 111,
+    index = 212,
     label = "s2_5_6_diene_1_7",
     group = 
 """
@@ -4551,15 +5253,15 @@ entry(
         H298 = (59.3536,'kJ/mol'),
         S298 = (201.065,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 112,
+    index = 213,
     label = "s2_5_6_diene_1_8",
     group = 
 """
@@ -4579,15 +5281,15 @@ entry(
         H298 = (10.1,'kcal/mol'),
         S298 = (45.3,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Copied from entry: 2.3.3a.7a-tetrahydro-1H-indene
 """,
 )
 
 entry(
-    index = 113,
+    index = 214,
     label = "s2_5_6_diene_2_5",
     group = 
 """
@@ -4607,15 +5309,15 @@ entry(
         H298 = (56.3662,'kJ/mol'),
         S298 = (198.571,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_2_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 114,
+    index = 215,
     label = "s2_5_6_diene_2_6",
     group = 
 """
@@ -4635,15 +5337,15 @@ entry(
         H298 = (65.0092,'kJ/mol'),
         S298 = (191.089,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_2_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 115,
+    index = 216,
     label = "s2_5_6_diene_5_7",
     group = 
 """
@@ -4663,15 +5365,15 @@ entry(
         H298 = (56.3114,'kJ/mol'),
         S298 = (210.982,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_5_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 116,
+    index = 217,
     label = "s2_5_6_diene_5_8",
     group = 
 """
@@ -4691,27 +5393,27 @@ entry(
         H298 = (56.0623,'kJ/mol'),
         S298 = (201.108,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_5_6_diene_5_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 218,
     label = "s2_5_6_triene",
     group = "OR{s2_5_6_triene_0_2_6, s2_5_6_triene_0_2_7, s2_5_6_triene_0_3_7, s2_5_6_triene_1_3_5, s2_5_6_triene_1_3_6, s2_5_6_triene_1_6_8, s2_5_6_triene_2_5_7, s2_5_6_triene_m_1_7, s2_5_6_triene_m_2_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 99,
+    index = 219,
     label = "s2_5_6_triene_0_2_6",
     group = 
 """
@@ -4731,15 +5433,15 @@ entry(
         H298 = (6.863,'kcal/mol'),
         S298 = (57.6932,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt21 from C10H11 library.
 """,
 )
 
 entry(
-    index = 99,
+    index = 220,
     label = "s2_5_6_triene_0_2_7",
     group = 
 """
@@ -4759,9 +5461,9 @@ entry(
         H298 = (2.643,'kcal/mol','+|-',4.3516),
         S298 = (60.4632,'cal/(mol*K)','+|-',1.24756),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt21 from C10H11 library.
 Fitted from species pdt27 from C10H11 library.
 Fitted from species pdt32 from C10H11 library.
@@ -4769,7 +5471,69 @@ Fitted from species pdt32 from C10H11 library.
 )
 
 entry(
-    index = 99,
+    index = 221,
+    label = "s2_s2_s2_6_5_5_diene_ene_ene1",
+    group = 
+"""
+1  * R!H u0 p0 c0 {2,S} {3,S} {4,S}
+2    R!H u0 p0 c0 {1,S} {5,S} {7,S}
+3    R!H u0 p0 c0 {1,S} {6,S} {8,S}
+4    R!H u0 p0 c0 {1,S} {9,S} {10,D}
+5    R!H u0 p0 c0 {2,S} {6,D}
+6    R!H u0 p0 c0 {3,S} {5,D}
+7    R!H u0 p0 c0 {2,S} {11,D}
+8    R!H u0 p0 c0 {3,S} {9,D}
+9    R!H u0 p0 c0 {4,S} {8,D}
+10   R!H u0 p0 c0 {4,D} {11,S}
+11   R!H u0 p0 c0 {7,D} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-13.88,-13.484,-12.673,-11.404,-8.898,-6.838,-4.917],'cal/(mol*K)'),
+        H298 = (15.048,'kcal/mol'),
+        S298 = (90.457,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2C=CC3C=CC(=C1)C23. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 222,
+    label = "s2_s2_s2_6_5_5_diene_ene_ene2",
+    group = 
+"""
+1    R!H u0 p0 c0 {2,S} {3,S} {7,S}
+2  * R!H u0 p0 c0 {1,S} {4,S} {5,S}
+3    R!H u0 p0 c0 {1,S} {6,S}
+4    R!H u0 p0 c0 {2,S} {6,D} {9,S}
+5    R!H u0 p0 c0 {2,S} {8,S} {10,D}
+6    R!H u0 p0 c0 {3,S} {4,D}
+7    R!H u0 p0 c0 {1,S} {8,D}
+8    R!H u0 p0 c0 {5,S} {7,D}
+9    R!H u0 p0 c0 {4,S} {11,D}
+10   R!H u0 p0 c0 {5,D} {11,S}
+11   R!H u0 p0 c0 {9,D} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-14.117,-14.9,-14.467,-13.113,-10.292,-7.892,-5.481],'cal/(mol*K)'),
+        H298 = (20.095,'kcal/mol'),
+        S298 = (90.893,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2=CCC3C=CC(=C1)C23. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 223,
     label = "s2_5_6_triene_0_3_7",
     group = 
 """
@@ -4789,15 +5553,15 @@ entry(
         H298 = (5.483,'kcal/mol'),
         S298 = (58.2132,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt32 from C10H11 library.
 """,
 )
 
 entry(
-    index = 99,
+    index = 224,
     label = "s2_5_6_triene_1_3_5",
     group = 
 """
@@ -4817,15 +5581,15 @@ entry(
         H298 = (3.693,'kcal/mol'),
         S298 = (61.9332,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt32 from C10H11 library.
 """,
 )
 
 entry(
-    index = 99,
+    index = 225,
     label = "s2_5_6_triene_1_3_6",
     group = 
 """
@@ -4845,15 +5609,15 @@ entry(
         H298 = (-15.727,'kcal/mol'),
         S298 = (49.8332,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt32 from C10H11 library.
 """,
 )
 
 entry(
-    index = 99,
+    index = 226,
     label = "s2_5_6_triene_1_6_8",
     group = 
 """
@@ -4873,15 +5637,15 @@ entry(
         H298 = (2.023,'kcal/mol'),
         S298 = (61.7232,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt21 from C10H11 library.
 """,
 )
 
 entry(
-    index = 99,
+    index = 227,
     label = "s2_5_6_triene_2_5_7",
     group = 
 """
@@ -4901,15 +5665,15 @@ entry(
         H298 = (6.863,'kcal/mol'),
         S298 = (57.6932,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt21 from C10H11 library.
 """,
 )
 
 entry(
-    index = 99,
+    index = 228,
     label = "s2_5_6_triene_m_1_7",
     group = 
 """
@@ -4929,15 +5693,15 @@ entry(
         H298 = (-2.777,'kcal/mol'),
         S298 = (59.5532,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt27 from C10H11 library.
 """,
 )
 
 entry(
-    index = 99,
+    index = 229,
     label = "s2_5_6_triene_m_2_6",
     group = 
 """
@@ -4957,27 +5721,27 @@ entry(
         H298 = (6.883,'kcal/mol'),
         S298 = (58.0732,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt27 from C10H11 library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 230,
     label = "s2_5_6_tetraene",
     group = "OR{s2_5_6_tetraene_1_3_5_7, s2_5_6_tetraene_1_3_5_8}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 99,
+    index = 231,
     label = "s2_5_6_tetraene_1_3_5_7",
     group = 
 """
@@ -4997,15 +5761,15 @@ entry(
         H298 = (14.05,'kcal/mol'),
         S298 = (60.39,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt22 from C10H11 library.
 """,
 )
 
 entry(
-    index = 99,
+    index = 232,
     label = "s2_5_6_tetraene_1_3_5_8",
     group = 
 """
@@ -5025,17 +5789,17 @@ entry(
         H298 = (-0.61,'kcal/mol'),
         S298 = (58.88,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species 2HINDENE from C10H11 library.
 """,
 )
 
 entry(
-    index = 184,
+    index = 233,
     label = "s2_5_6_ben",
-    group =
+    group = 
 """
 1 * R!H u0 {2,B} {3,S} {5,B}
 2   R!H u0 {1,B} {4,S} {6,B}
@@ -5049,13 +5813,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.144856,-3.219447,-3.119096,-2.835184,-1.993508,-1.082982,0.289840],'cal/(mol*K)','+|-',[0.060661,0.060661,0.060661,0.060661,0.060661,0.060661,0.060661]),
-        H298 = (2.720815,'kcal/mol','+|-',0.222470),
-        S298 = (22.309421,'cal/(mol*K)','+|-',0.131138),
+        Cpdata = ([-3.14486,-3.21945,-3.1191,-2.83518,-1.99351,-1.08298,0.28984],'cal/(mol*K)','+|-',[0.060661,0.060661,0.060661,0.060661,0.060661,0.060661,0.060661]),
+        H298 = (2.72081,'kcal/mol','+|-',0.22247),
+        S298 = (22.3094,'cal/(mol*K)','+|-',0.131138),
     ),
-    shortDesc = u"""Fitted From Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    shortDesc = """Fitted From Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -5070,9 +5835,9 @@ CCCC1CCC2=CC=CC=C21
 )
 
 entry(
-    index = 117,
+    index = 234,
     label = "s2_5_6_indene",
-    group =
+    group = 
 """
 1 * R!H u0 {2,B} {3,S} {4,B}
 2   R!H u0 {1,B} {5,S} {6,B}
@@ -5086,13 +5851,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.417502,-2.737474,-3.025474,-2.881893,-2.357953,-1.827413,-1.423419],'cal/(mol*K)','+|-',[0.055607,0.055607,0.055607,0.055607,0.055607,0.055607,0.055607]),
-        H298 = (2.167715,'kcal/mol','+|-',0.195105),
-        S298 = (28.656933,'cal/(mol*K)','+|-',0.081693),
+        Cpdata = ([-2.4175,-2.73747,-3.02547,-2.88189,-2.35795,-1.82741,-1.42342],'cal/(mol*K)','+|-',[0.055607,0.055607,0.055607,0.055607,0.055607,0.055607,0.055607]),
+        H298 = (2.16771,'kcal/mol','+|-',0.195105),
+        S298 = (28.6569,'cal/(mol*K)','+|-',0.081693),
     ),
-    shortDesc = u"""""",
-    longDesc =
-u""""
+    shortDesc = """""",
+    longDesc = 
+"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -5110,7 +5876,69 @@ CCCC1=CCC2=CC=CC=C21
 )
 
 entry(
-    index = 0,
+    index = 235,
+    label = "s2_s2_s2_6_5_5_ben_diene1",
+    group = 
+"""
+1    R!H u0 p0 c0 {2,S} {5,S} {6,S}
+2  * R!H u0 p0 c0 {1,S} {3,B} {4,B}
+3    R!H u0 p0 c0 {2,B} {8,S} {9,B}
+4    R!H u0 p0 c0 {2,B} {7,S} {10,B}
+5    R!H u0 p0 c0 {1,S} {7,D}
+6    R!H u0 p0 c0 {1,S} {8,D}
+7    R!H u0 p0 c0 {4,S} {5,D}
+8    R!H u0 p0 c0 {3,S} {6,D}
+9    R!H u0 p0 c0 {3,B} {11,B}
+10   R!H u0 p0 c0 {4,B} {11,B}
+11   R!H u0 p0 c0 {9,B} {10,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.094,-6.439,-6.029,-5.41,-4.401,-3.268,-1.804],'cal/(mol*K)'),
+        H298 = (31.613,'kcal/mol'),
+        S298 = (54.952,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2=C3C(=C1)C=CC3C=C2. Mengjie Liu 10/14/19.
+""",
+)
+
+entry(
+    index = 236,
+    label = "s2_s2_s2_6_5_5_ben_diene2",
+    group = 
+"""
+1    R!H u0 p0 c0 {2,S} {6,S}
+2    R!H u0 p0 c0 {1,S} {3,B} {7,B}
+3  * R!H u0 p0 c0 {2,B} {4,S} {5,B}
+4    R!H u0 p0 c0 {3,S} {6,D} {10,S}
+5    R!H u0 p0 c0 {3,B} {8,B} {9,S}
+6    R!H u0 p0 c0 {1,S} {4,D}
+7    R!H u0 p0 c0 {2,B} {11,B}
+8    R!H u0 p0 c0 {5,B} {11,B}
+9    R!H u0 p0 c0 {5,S} {10,D}
+10   R!H u0 p0 c0 {4,S} {9,D}
+11   R!H u0 p0 c0 {7,B} {8,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.726,-7.742,-7.568,-7.171,-6.048,-4.988,-3.887],'cal/(mol*K)'),
+        H298 = (27.606,'kcal/mol'),
+        S298 = (67.124,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2=C3C(=C1)C=CC3=CC2. Mengjie Liu 10/14/19.
+""",
+)
+
+entry(
+    index = 237,
     label = "s2_5_7",
     group = 
 """
@@ -5126,27 +5954,27 @@ entry(
 10   R!H u0 {8,[S,D,T,B]} {9,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 0,
+    index = 238,
     label = "s2_5_7_triene",
     group = "OR{s2_5_7_triene_0_2_8, s2_5_7_triene_0_3_8, s2_5_7_triene_1_3_7, s2_5_7_triene_1_3_8, s2_5_7_triene_1_3_9, s2_5_7_triene_1_4_7}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 118,
+    index = 239,
     label = "s2_5_7_triene_0_2_8",
     group = 
 """
@@ -5167,15 +5995,15 @@ entry(
         H298 = (0.693,'kcal/mol'),
         S298 = (56.96,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt29 from C10H11 library.
 """,
 )
 
 entry(
-    index = 118,
+    index = 240,
     label = "s2_5_7_triene_0_3_8",
     group = 
 """
@@ -5196,15 +6024,15 @@ entry(
         H298 = (6.033,'kcal/mol'),
         S298 = (53.24,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt29 from C10H11 library.
 """,
 )
 
 entry(
-    index = 118,
+    index = 241,
     label = "s2_5_7_triene_1_3_7",
     group = 
 """
@@ -5225,16 +6053,16 @@ entry(
         H298 = (13.728,'kcal/mol','+|-',10.9884),
         S298 = (54.235,'cal/(mol*K)','+|-',0.296985),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt8 from C10H11 library.
 Fitted from species pdt23 from C10H11 library.
 """,
 )
 
 entry(
-    index = 118,
+    index = 242,
     label = "s2_5_7_triene_1_3_8",
     group = 
 """
@@ -5255,9 +6083,9 @@ entry(
         H298 = (6.758,'kcal/mol','+|-',29.8859),
         S298 = (51.8325,'cal/(mol*K)','+|-',9.6992),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt8 from C10H11 library.
 Fitted from species pdt23 from C10H11 library.
 Fitted from species pdt28 from C10H11 library.
@@ -5266,7 +6094,7 @@ Fitted from species pdt29 from C10H11 library.
 )
 
 entry(
-    index = 118,
+    index = 243,
     label = "s2_5_7_triene_1_3_9",
     group = 
 """
@@ -5287,15 +6115,15 @@ entry(
         H298 = (3.993,'kcal/mol'),
         S298 = (56.96,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt29 from C10H11 library.
 """,
 )
 
 entry(
-    index = 118,
+    index = 244,
     label = "s2_5_7_triene_1_4_7",
     group = 
 """
@@ -5316,27 +6144,27 @@ entry(
         H298 = (14.973,'kcal/mol'),
         S298 = (52.13,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt8 from C10H11 library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 245,
     label = "s2_5_7_tetraene",
     group = "OR{s2_5_7_tetraene_0_2_4_8, s2_5_7_tetraene_1_3_7_9, s2_5_7_tetraene_m_1_3_8}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 118,
+    index = 246,
     label = "s2_5_7_tetraene_0_2_4_8",
     group = 
 """
@@ -5357,15 +6185,15 @@ entry(
         H298 = (11.73,'kcal/mol'),
         S298 = (57.98,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt31 from C10H11 library.
 """,
 )
 
 entry(
-    index = 118,
+    index = 247,
     label = "s2_5_7_tetraene_1_3_7_9",
     group = 
 """
@@ -5386,15 +6214,15 @@ entry(
         H298 = (14.29,'kcal/mol'),
         S298 = (58.23,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt30 from C10H11 library.
 """,
 )
 
 entry(
-    index = 118,
+    index = 248,
     label = "s2_5_7_tetraene_m_1_3_8",
     group = 
 """
@@ -5415,15 +6243,15 @@ entry(
         H298 = (8.12,'kcal/mol'),
         S298 = (54.6,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt35 from C10H11 library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 249,
     label = "s2_6_6",
     group = 
 """
@@ -5439,15 +6267,15 @@ entry(
 10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 118,
+    index = 250,
     label = "s2_6_6_ane",
     group = 
 """
@@ -5468,27 +6296,27 @@ entry(
         H298 = (32.3362,'kJ/mol'),
         S298 = (158.965,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 251,
     label = "s2_6_6_ene",
     group = "OR{s2_6_6_ene_0, s2_6_6_ene_1, s2_6_6_ene_2, s2_6_6_ene_m}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 119,
+    index = 252,
     label = "s2_6_6_ene_0",
     group = 
 """
@@ -5509,15 +6337,15 @@ entry(
         H298 = (36.1393,'kJ/mol'),
         S298 = (166.332,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 120,
+    index = 253,
     label = "s2_6_6_ene_1",
     group = 
 """
@@ -5538,15 +6366,15 @@ entry(
         H298 = (62.7273,'kJ/mol'),
         S298 = (169.342,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 121,
+    index = 254,
     label = "s2_6_6_ene_2",
     group = 
 """
@@ -5567,15 +6395,15 @@ entry(
         H298 = (34.7553,'kJ/mol'),
         S298 = (166.049,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_ene_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 122,
+    index = 255,
     label = "s2_6_6_ene_m",
     group = 
 """
@@ -5596,27 +6424,27 @@ entry(
         H298 = (34.5594,'kJ/mol'),
         S298 = (154.144,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_ene_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 256,
     label = "s2_6_6_diene",
     group = "OR{s2_6_6_diene_m_1, s2_6_6_diene_m_2, s2_6_6_diene_0_2, s2_6_6_diene_0_3, s2_6_6_diene_0_4, s2_6_6_diene_0_5, s2_6_6_diene_0_6, s2_6_6_diene_0_7, s2_6_6_diene_0_8, s2_6_6_diene_1_3, s2_6_6_diene_1_6, s2_6_6_diene_1_7, s2_6_6_diene_1_8, s2_6_6_diene_2_7}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 123,
+    index = 257,
     label = "s2_6_6_diene_m_1",
     group = 
 """
@@ -5637,15 +6465,15 @@ entry(
         H298 = (47.0401,'kJ/mol'),
         S298 = (188.632,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_m_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 124,
+    index = 258,
     label = "s2_6_6_diene_m_2",
     group = 
 """
@@ -5666,15 +6494,15 @@ entry(
         H298 = (27.5712,'kJ/mol'),
         S298 = (167.901,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_m_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 125,
+    index = 259,
     label = "s2_6_6_diene_0_2",
     group = 
 """
@@ -5691,13 +6519,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-9.598000,-9.932000,-9.489000,-8.152000,-5.559000,-3.471000,-1.324000],'cal/(mol*K)'),
-        H298 = (4.953000,'kcal/mol','+|-',2.4),
-        S298 = (45.449000,'cal/(mol*K)'),
+        Cpdata = ([-9.598,-9.932,-9.489,-8.152,-5.559,-3.471,-1.324],'cal/(mol*K)'),
+        H298 = (4.953,'kcal/mol','+|-',2.4),
+        S298 = (45.449,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 7/2017, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -5708,7 +6536,7 @@ Model species was C1=CCC2CCCCC2=C1
 )
 
 entry(
-    index = 126,
+    index = 260,
     label = "s2_6_6_diene_0_3",
     group = 
 """
@@ -5725,13 +6553,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-9.809000,-9.094000,-8.115000,-6.791000,-4.282000,-2.533000,-0.609000],'cal/(mol*K)'),
-        H298 = (-0.243000,'kcal/mol','+|-',2.4),
-        S298 = (42.856000,'cal/(mol*K)'),
+        Cpdata = ([-9.809,-9.094,-8.115,-6.791,-4.282,-2.533,-0.609],'cal/(mol*K)'),
+        H298 = (-0.243,'kcal/mol','+|-',2.4),
+        S298 = (42.856,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 7/2017, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -5742,7 +6571,7 @@ Model species was C=1CC=C2CCCCC2C1
 )
 
 entry(
-    index = 127,
+    index = 261,
     label = "s2_6_6_diene_0_4",
     group = 
 """
@@ -5763,15 +6592,15 @@ entry(
         H298 = (53.8256,'kJ/mol'),
         S298 = (181.405,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 128,
+    index = 262,
     label = "s2_6_6_diene_0_5",
     group = 
 """
@@ -5792,15 +6621,15 @@ entry(
         H298 = (34.4058,'kJ/mol'),
         S298 = (180.245,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_0_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 129,
+    index = 263,
     label = "s2_6_6_diene_0_6",
     group = 
 """
@@ -5821,15 +6650,15 @@ entry(
         H298 = (259.528,'kJ/mol'),
         S298 = (176.442,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_0_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 130,
+    index = 264,
     label = "s2_6_6_diene_0_7",
     group = 
 """
@@ -5850,15 +6679,15 @@ entry(
         H298 = (40.2236,'kJ/mol'),
         S298 = (173.573,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_0_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 131,
+    index = 265,
     label = "s2_6_6_diene_0_8",
     group = 
 """
@@ -5879,15 +6708,15 @@ entry(
         H298 = (45.2815,'kJ/mol'),
         S298 = (188.16,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_0_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 132,
+    index = 266,
     label = "s2_6_6_diene_1_3",
     group = 
 """
@@ -5904,13 +6733,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-9.374000,-9.374000,-8.971000,-7.762000,-5.435000,-3.367000,-1.291000],'cal/(mol*K)'),
-        H298 = (4.291000,'kcal/mol','+|-',2.4),
-        S298 = (45.288000,'cal/(mol*K)'),
+        Cpdata = ([-9.374,-9.374,-8.971,-7.762,-5.435,-3.367,-1.291],'cal/(mol*K)'),
+        H298 = (4.291,'kcal/mol','+|-',2.4),
+        S298 = (45.288,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 7/2017, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -5921,7 +6750,7 @@ Model species was C=1C=CC2CCCCC2C1
 )
 
 entry(
-    index = 133,
+    index = 267,
     label = "s2_6_6_diene_1_6",
     group = 
 """
@@ -5942,15 +6771,15 @@ entry(
         H298 = (37.2373,'kJ/mol'),
         S298 = (167.685,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 134,
+    index = 268,
     label = "s2_6_6_diene_1_7",
     group = 
 """
@@ -5971,15 +6800,15 @@ entry(
         H298 = (491.058,'kJ/mol'),
         S298 = (167.365,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_1_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 135,
+    index = 269,
     label = "s2_6_6_diene_1_8",
     group = 
 """
@@ -6000,15 +6829,15 @@ entry(
         H298 = (40.4249,'kJ/mol'),
         S298 = (179.403,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_1_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 136,
+    index = 270,
     label = "s2_6_6_diene_2_7",
     group = 
 """
@@ -6029,27 +6858,27 @@ entry(
         H298 = (38.2803,'kJ/mol'),
         S298 = (171.725,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s2_6_6_diene_2_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 271,
     label = "s2_6_6_triene",
     group = "OR{s2_6_6_triene_0_2_6, s2_6_6_triene_0_2_7, s2_6_6_triene_0_3_7, s2_6_6_triene_1_3_6, s2_6_6_triene_1_3_7}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 123,
+    index = 272,
     label = "s2_6_6_triene_0_2_6",
     group = 
 """
@@ -6070,15 +6899,15 @@ entry(
         H298 = (7.693,'kcal/mol'),
         S298 = (54.74,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt19 from C10H11 library.
 """,
 )
 
 entry(
-    index = 123,
+    index = 273,
     label = "s2_6_6_triene_0_2_7",
     group = 
 """
@@ -6099,16 +6928,16 @@ entry(
         H298 = (2.333,'kcal/mol','+|-',14.9058),
         S298 = (51.955,'cal/(mol*K)','+|-',2.95571),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt19 from C10H11 library.
 Fitted from species pdt37 from C10H11 library.
 """,
 )
 
 entry(
-    index = 123,
+    index = 274,
     label = "s2_6_6_triene_0_3_7",
     group = 
 """
@@ -6129,15 +6958,15 @@ entry(
         H298 = (2.193,'kcal/mol'),
         S298 = (48.91,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt37 from C10H11 library.
 """,
 )
 
 entry(
-    index = 123,
+    index = 275,
     label = "s2_6_6_triene_1_3_6",
     group = 
 """
@@ -6158,15 +6987,15 @@ entry(
         H298 = (7.733,'kcal/mol'),
         S298 = (54.59,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt10bis from C10H11 library.
 """,
 )
 
 entry(
-    index = 123,
+    index = 276,
     label = "s2_6_6_triene_1_3_7",
     group = 
 """
@@ -6187,28 +7016,28 @@ entry(
         H298 = (3.073,'kcal/mol','+|-',13.7744),
         S298 = (52.44,'cal/(mol*K)','+|-',1.21622),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt10bis from C10H11 library.
 Fitted from species pdt37 from C10H11 library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 277,
     label = "s2_6_6_tetraene",
     group = "OR{s2_6_6_tetraene_0_2_4_7, s2_6_6_tetraene_0_2_5_7, s2_6_6_tetraene_0_2_6_8, s2_6_6_tetraene_0_3_6_8, s2_6_6_tetraene_1_3_6_8}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 123,
+    index = 278,
     label = "s2_6_6_tetraene_0_2_4_7",
     group = 
 """
@@ -6229,15 +7058,15 @@ entry(
         H298 = (-17.82,'kcal/mol'),
         S298 = (53.93,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt38 from C10H11 library.
 """,
 )
 
 entry(
-    index = 123,
+    index = 279,
     label = "s2_6_6_tetraene_0_2_5_7",
     group = 
 """
@@ -6258,15 +7087,15 @@ entry(
         H298 = (10.33,'kcal/mol'),
         S298 = (53.47,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt26 from C10H11 library.
 """,
 )
 
 entry(
-    index = 123,
+    index = 280,
     label = "s2_6_6_tetraene_0_2_6_8",
     group = 
 """
@@ -6287,16 +7116,16 @@ entry(
         H298 = (1.5665,'kcal/mol','+|-',21.2797),
         S298 = (58.74,'cal/(mol*K)','+|-',4.18607),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt11 from C10H11 library.
 Fitted from species prod4 from naphthalene_H library.
 """,
 )
 
 entry(
-    index = 123,
+    index = 281,
     label = "s2_6_6_tetraene_0_3_6_8",
     group = 
 """
@@ -6317,15 +7146,77 @@ entry(
         H298 = (-1.957,'kcal/mol'),
         S298 = (55.67,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species prod4 from naphthalene_H library.
 """,
 )
 
 entry(
-    index = 123,
+    index = 282,
+    label = "s2_s2_s3_6_6_5_diene_diene",
+    group = 
+"""
+1    R!H u0 p0 c0 {4,S} {6,S} {7,S}
+2    R!H u0 p0 c0 {4,S} {5,S}
+3  * R!H u0 p0 c0 {5,S} {8,S}
+4    R!H u0 p0 c0 {1,S} {2,S} {9,D}
+5    R!H u0 p0 c0 {2,S} {3,S} {7,D}
+6    R!H u0 p0 c0 {1,S} {8,D} {10,S}
+7    R!H u0 p0 c0 {1,S} {5,D}
+8    R!H u0 p0 c0 {3,S} {6,D}
+9    R!H u0 p0 c0 {4,D} {11,S}
+10   R!H u0 p0 c0 {6,S} {11,D}
+11   R!H u0 p0 c0 {9,S} {10,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-11.166,-12.168,-11.642,-10.223,-7.567,-5.82,-4.412],'cal/(mol*K)'),
+        H298 = (117.332,'kcal/mol'),
+        S298 = (83.403,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2=CCC3=CC2C(=C1)C3. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 283,
+    label = "s2_s2_s4_6_6_6_5ene",
+    group = 
+"""
+1    R!H u0 p0 c0 {2,S} {3,S} {5,S}
+2    R!H u0 p0 c0 {1,S} {6,D} {8,S}
+3    R!H u0 p0 c0 {1,S} {7,S} {9,D}
+4  * R!H u0 p0 c0 {6,S} {7,D} {10,S}
+5    R!H u0 p0 c0 {1,S} {10,D}
+6    R!H u0 p0 c0 {2,D} {4,S}
+7    R!H u0 p0 c0 {3,S} {4,D}
+8    R!H u0 p0 c0 {2,S} {11,D}
+9    R!H u0 p0 c0 {3,D} {11,S}
+10   R!H u0 p0 c0 {4,S} {5,D}
+11   R!H u0 p0 c0 {8,D} {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-11.327,-11.768,-11.53,-10.808,-8.938,-7.248,-6.477],'cal/(mol*K)'),
+        H298 = (118.078,'kcal/mol'),
+        S298 = (93.217,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2=CC3=CC(=C1)C2C=C3. Mengjie Liu 11/6/19.
+""",
+)
+
+entry(
+    index = 284,
     label = "s2_6_6_tetraene_1_3_6_8",
     group = 
 """
@@ -6346,17 +7237,17 @@ entry(
         H298 = (-22.037,'kcal/mol'),
         S298 = (49.84,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species prod4 from naphthalene_H library.
 """,
 )
 
 entry(
-    index = 185,
+    index = 285,
     label = "s2_6_6_ben",
-    group =
+    group = 
 """
 1    R!H u0 {2,B} {3,B} {5,S}
 2    R!H u0 {1,B} {4,B} {6,S}
@@ -6371,13 +7262,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.475839,-4.354485,-4.062610,-3.494920,-2.153967,-0.925917,0.861792],'cal/(mol*K)','+|-',[0.097503,0.097503,0.097503,0.097503,0.097503,0.097503,0.097503]),
+        Cpdata = ([-4.47584,-4.35449,-4.06261,-3.49492,-2.15397,-0.925917,0.861792],'cal/(mol*K)','+|-',[0.097503,0.097503,0.097503,0.097503,0.097503,0.097503,0.097503]),
         H298 = (-0.216302,'kcal/mol','+|-',0.351634),
-        S298 = (18.578664,'cal/(mol*K)','+|-',0.227994),
+        S298 = (18.5787,'cal/(mol*K)','+|-',0.227994),
     ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -6391,19 +7283,19 @@ CCC1CCCC2=CC=CC=C21
 )
 
 entry(
-    index = 0,
+    index = 286,
     label = "s2_6_6_ben_ene",
     group = "OR{s2_6_6_ben_ene_1, s2_6_6_ben_ene_2}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 123,
+    index = 287,
     label = "s2_6_6_ben_ene_1",
     group = 
 """
@@ -6420,13 +7312,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.090323,-4.102748,-3.935389,-3.382216,-2.089942,-0.991047,0.231576],'cal/(mol*K)','+|-',[0.054603,0.054603,0.054603,0.054603,0.054603,0.054603,0.054603]),
-        H298 = (-1.107683,'kcal/mol','+|-',0.205632),
-        S298 = (20.464991,'cal/(mol*K)','+|-',0.082695),
+        Cpdata = ([-4.09032,-4.10275,-3.93539,-3.38222,-2.08994,-0.991047,0.231576],'cal/(mol*K)','+|-',[0.054603,0.054603,0.054603,0.054603,0.054603,0.054603,0.054603]),
+        H298 = (-1.10768,'kcal/mol','+|-',0.205632),
+        S298 = (20.465,'cal/(mol*K)','+|-',0.082695),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
-    longDesc =
-u""""
+    shortDesc = """Fitted from thermo library values""",
+    longDesc = 
+"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -6442,7 +7335,69 @@ CCC1CC=CC2=CC=CC=C21
 )
 
 entry(
-    index = 123,
+    index = 288,
+    label = "s2_s2_6_6_3_ben_ene",
+    group = 
+"""
+1    R!H u0 p0 c0 {2,S} {3,S} {4,S}
+2    R!H u0 p0 c0 {1,S} {4,S}
+3    R!H u0 p0 c0 {1,S} {5,S}
+4  * R!H u0 p0 c0 {1,S} {2,S} {7,D}
+5    R!H u0 p0 c0 {3,S} {6,B} {8,B}
+6    R!H u0 p0 c0 {5,B} {7,S} {9,B}
+7    R!H u0 p0 c0 {4,D} {6,S}
+8    R!H u0 p0 c0 {5,B} {11,B}
+9    R!H u0 p0 c0 {6,B} {10,B}
+10   R!H u0 p0 c0 {9,B} {11,B}
+11   R!H u0 p0 c0 {8,B} {10,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.078,-6.636,-6.774,-6.17,-4.869,-3.677,-2.52],'cal/(mol*K)'),
+        H298 = (49.858,'kcal/mol'),
+        S298 = (57.209,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2=C(C=C1)CC1CC1=C2. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 289,
+    label = "s2_s2_s3_6_6_5_ben_ene",
+    group = 
+"""
+1    R!H u0 p0 c0 {2,S} {4,S}
+2    R!H u0 p0 c0 {1,S} {5,S}
+3    R!H u0 p0 c0 {4,S} {6,S}
+4  * R!H u0 p0 c0 {1,S} {3,S} {8,D}
+5    R!H u0 p0 c0 {2,S} {7,B} {9,B}
+6    R!H u0 p0 c0 {3,S} {7,B} {10,B}
+7    R!H u0 p0 c0 {5,B} {6,B} {8,S}
+8    R!H u0 p0 c0 {4,D} {7,S}
+9    R!H u0 p0 c0 {5,B} {11,B}
+10   R!H u0 p0 c0 {6,B} {11,B}
+11   R!H u0 p0 c0 {9,B} {10,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.45,-5.745,-5.424,-5.174,-4.423,-3.607,-2.536],'cal/(mol*K)'),
+        H298 = (132.105,'kcal/mol'),
+        S298 = (58.708,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2=C3C=C(CC2)CC3=C1. Mengjie Liu 10/22/19.
+""",
+)
+
+entry(
+    index = 290,
     label = "s2_6_6_ben_ene_2",
     group = 
 """
@@ -6463,15 +7418,15 @@ entry(
         H298 = (2.84,'kcal/mol'),
         S298 = (35.91,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species pdt38 from C10H11 library.
 """,
 )
 
 entry(
-    index = 185,
+    index = 291,
     label = "s2_6_6_naphthalene",
     group = 
 """
@@ -6488,13 +7443,13 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.021850,0.143420,-0.011698,-0.220001,0.018021,0.027496,-0.693673],'cal/(mol*K)','+|-',[0.222301,0.222301,0.222301,0.222301,0.222301,0.222301,0.222301]),
+        Cpdata = ([0.02185,0.14342,-0.011698,-0.220001,0.018021,0.027496,-0.693673],'cal/(mol*K)','+|-',[0.222301,0.222301,0.222301,0.222301,0.222301,0.222301,0.222301]),
         H298 = (-0.978546,'kcal/mol','+|-',0.543874),
-        S298 = (-1.965248,'cal/(mol*K)','+|-',0.318408),
+        S298 = (-1.96525,'cal/(mol*K)','+|-',0.318408),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -6508,7 +7463,236 @@ CCC1=CC=CC2=CC=CC=C12
 )
 
 entry(
-    index = 0,
+    index = 292,
+    label = "s2_s2_s3_6_6_6_ben_triene",
+    group = 
+"""
+1    R!H u0 p0 c0 {2,B} {3,B} {5,S}
+2    R!H u0 p0 c0 {1,B} {6,B} {11,S}
+3    R!H u0 p0 c0 {1,B} {8,S} {9,B}
+4    R!H u0 p0 c0 {5,D} {7,S} {10,S}
+5    R!H u0 p0 c0 {1,S} {4,D}
+6    R!H u0 p0 c0 {2,B} {12,B}
+7    R!H u0 p0 c0 {4,S} {8,D}
+8    R!H u0 p0 c0 {3,S} {7,D}
+9    R!H u0 p0 c0 {3,B} {12,B}
+10   R!H u0 p0 c0 {4,S} {11,D}
+11   R!H u0 p0 c0 {2,S} {10,D}
+12 * R!H u0 p0 c0 {6,B} {9,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.245,-7.052,-6.442,-5.661,-4.296,-3.19,-3.003],'cal/(mol*K)'),
+        H298 = (105.475,'kcal/mol'),
+        S298 = (58.725,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1=CC2=C3C=C(C=CC3=C1)C=C2. Mengjie Liu 10/14/19.
+""",
+)
+
+entry(
+    index = 293,
+    label = "s2_6_7",
+    group = 
+"""
+1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+8    R!H u0 {5,[S,D,T,B]} {11,[S,D,T,B]}
+9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
+11   R!H u0 {8,[S,D,T,B]} {10,[S,D,T,B]}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 294,
+    label = "s2_6_7_diene",
+    group = "OR{s2_6_7_diene_0_2}",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 295,
+    label = "s2_6_7_diene_0_2",
+    group = 
+"""
+1    R!H u0 {2,S} {3,D} {6,S}
+2    R!H u0 {1,S} {4,S} {5,S}
+3    R!H u0 {1,D} {9,S}
+4    R!H u0 {2,S} {7,S}
+5    R!H u0 {2,S} {8,S}
+6    R!H u0 {1,S} {10,S}
+7  * R!H u0 {4,S} {9,D}
+8    R!H u0 {5,S} {11,S}
+9    R!H u0 {3,S} {7,D}
+10   R!H u0 {6,S} {11,S}
+11   R!H u0 {8,S} {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.18,-10.25,-9.78,-8.27,-5.43,-3.12,-0.64],'cal/(mol*K)','+|-',[0.565861,0.565861,0.565861,0.565861,0.565861,0.565861,0.565861]),
+        H298 = (6.93,'kcal/mol','+|-',2.20738),
+        S298 = (41.08,'cal/(mol*K)','+|-',1.09951),
+    ),
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
+"
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CCCCCC2C1
+""",
+)
+
+entry(
+    index = 296,
+    label = "s2_6_7_ben",
+    group = 
+"""
+1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
+2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
+3    R!H u0 {1,B} {9,B}
+4    R!H u0 {2,B} {7,B}
+5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+7  * R!H u0 {4,B} {9,B}
+8    R!H u0 {5,[S,D,T,B]} {11,[S,D,T,B]}
+9    R!H u0 {3,B} {7,B}
+10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
+11   R!H u0 {8,[S,D,T,B]} {10,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.68,-5.31,-4.81,-3.87,-1.97,-0.42,1.65],'cal/(mol*K)','+|-',[0.522976,0.522976,0.522976,0.522976,0.522976,0.522976,0.522976]),
+        H298 = (0.79,'kcal/mol','+|-',1.92962),
+        S298 = (14.22,'cal/(mol*K)','+|-',1.48669),
+    ),
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
+"
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CCCCCC2=C1
+""",
+)
+
+entry(
+    index = 297,
+    label = "s2_6_7_ben_ene",
+    group = "OR{s2_6_7_ben_ene_1}",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 298,
+    label = "s2_6_7_ben_ene_1",
+    group = 
+"""
+1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
+2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
+3    R!H u0 {1,B} {9,B}
+4    R!H u0 {2,B} {7,B}
+5    R!H u0 {2,[S,D,T,B]} {8,D}
+6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+7  * R!H u0 {4,B} {9,B}
+8    R!H u0 {5,D} {11,[S,D,T,B]}
+9    R!H u0 {3,B} {7,B}
+10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
+11   R!H u0 {8,[S,D,T,B]} {10,[S,D,T,B]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.2,-5.01,-4.61,-3.84,-2.08,-0.69,0.78],'cal/(mol*K)','+|-',[0.871226,0.871226,0.871226,0.871226,0.871226,0.871226,0.871226]),
+        H298 = (2.98,'kcal/mol','+|-',2.58999),
+        S298 = (17.46,'cal/(mol*K)','+|-',1.3662),
+    ),
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
+"
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CCCC=CC2=C1
+""",
+)
+
+entry(
+    index = 299,
+    label = "s2_6_7_ben_diene_1_3",
+    group = 
+"""
+1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
+2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
+3    R!H u0 {1,B} {9,B}
+4    R!H u0 {2,B} {7,B}
+5    R!H u0 {2,[S,D,T,B]} {8,D}
+6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+7  * R!H u0 {4,B} {9,B}
+8    R!H u0 {5,D} {11,[S,D,T,B]}
+9    R!H u0 {3,B} {7,B}
+10   R!H u0 {6,[S,D,T,B]} {11,D}
+11   R!H u0 {8,[S,D,T,B]} {10,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.07,-4.53,-4.67,-4.24,-3.07,-2.01,-1.58],'cal/(mol*K)','+|-',[1.6129,1.6129,1.6129,1.6129,1.6129,1.6129,1.6129]),
+        H298 = (1.96,'kcal/mol','+|-',4.2993),
+        S298 = (28.76,'cal/(mol*K)','+|-',1.8496),
+    ),
+    shortDesc = """Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc = 
+"""
+"
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model Compounds include:
+C1=CC=C2CC=CC=CC2=C1
+""",
+)
+
+entry(
+    index = 300,
     label = "s3_4_4",
     group = 
 """
@@ -6519,15 +7703,15 @@ entry(
 5   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 137,
+    index = 301,
     label = "s3_4_4_ane",
     group = 
 """
@@ -6543,27 +7727,27 @@ entry(
         H298 = (286.729,'kJ/mol'),
         S298 = (243.588,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_4_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 302,
     label = "s3_4_4_ene",
     group = "OR{s3_4_4_ene_0}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 138,
+    index = 303,
     label = "s3_4_4_ene_0",
     group = 
 """
@@ -6579,27 +7763,27 @@ entry(
         H298 = (435.842,'kJ/mol'),
         S298 = (265.377,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_4_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 304,
     label = "s3_4_4_diene",
     group = "OR{s3_4_4_diene_0_2}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 139,
+    index = 305,
     label = "s3_4_4_diene_0_2",
     group = 
 """
@@ -6615,15 +7799,15 @@ entry(
         H298 = (523.255,'kJ/mol'),
         S298 = (291.241,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_4_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 306,
     label = "s3_4_5",
     group = 
 """
@@ -6635,15 +7819,15 @@ entry(
 6   R!H u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 140,
+    index = 307,
     label = "s3_4_5_ane",
     group = 
 """
@@ -6660,27 +7844,27 @@ entry(
         H298 = (177.11,'kJ/mol'),
         S298 = (231.443,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_5_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 308,
     label = "s3_4_5_ene",
     group = "OR{s3_4_5_ene_0, s3_4_5_ene_1, s3_4_5_ene_3}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 141,
+    index = 309,
     label = "s3_4_5_ene_0",
     group = 
 """
@@ -6697,15 +7881,15 @@ entry(
         H298 = (533.055,'kJ/mol'),
         S298 = (241.141,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_5_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 142,
+    index = 310,
     label = "s3_4_5_ene_1",
     group = 
 """
@@ -6722,15 +7906,15 @@ entry(
         H298 = (234.64,'kJ/mol'),
         S298 = (234.403,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 143,
+    index = 311,
     label = "s3_4_5_ene_3",
     group = 
 """
@@ -6747,27 +7931,27 @@ entry(
         H298 = (402.876,'kJ/mol'),
         S298 = (254.658,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_5_ene_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 312,
     label = "s3_4_5_diene",
     group = "OR{s3_4_5_diene_0_2, s3_4_5_diene_0_3, s3_4_5_diene_1_3, s3_4_5_diene_3_4}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 144,
+    index = 313,
     label = "s3_4_5_diene_0_2",
     group = 
 """
@@ -6784,15 +7968,15 @@ entry(
         H298 = (387.717,'kJ/mol'),
         S298 = (249.869,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_5_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 145,
+    index = 314,
     label = "s3_4_5_diene_0_3",
     group = 
 """
@@ -6809,15 +7993,15 @@ entry(
         H298 = (425.803,'kJ/mol'),
         S298 = (275.729,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_5_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 146,
+    index = 315,
     label = "s3_4_5_diene_1_3",
     group = 
 """
@@ -6834,15 +8018,15 @@ entry(
         H298 = (412.175,'kJ/mol'),
         S298 = (273.542,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_5_diene_1_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 147,
+    index = 316,
     label = "s3_4_5_diene_3_4",
     group = 
 """
@@ -6859,15 +8043,15 @@ entry(
         H298 = (518.447,'kJ/mol'),
         S298 = (276.231,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_5_diene_3_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 317,
     label = "s3_4_6",
     group = 
 """
@@ -6880,15 +8064,15 @@ entry(
 7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 148,
+    index = 318,
     label = "s3_4_6_ane",
     group = 
 """
@@ -6906,27 +8090,27 @@ entry(
         H298 = (158.25,'kJ/mol'),
         S298 = (220.201,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 319,
     label = "s3_4_6_ene",
     group = "OR{s3_4_6_ene_0, s3_4_6_ene_1, s3_4_6_ene_4}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 149,
+    index = 320,
     label = "s3_4_6_ene_0",
     group = 
 """
@@ -6944,15 +8128,15 @@ entry(
         H298 = (345.216,'kJ/mol'),
         S298 = (215.635,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 150,
+    index = 321,
     label = "s3_4_6_ene_1",
     group = 
 """
@@ -6970,15 +8154,15 @@ entry(
         H298 = (152.46,'kJ/mol'),
         S298 = (220.803,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 151,
+    index = 322,
     label = "s3_4_6_ene_4",
     group = 
 """
@@ -6996,27 +8180,27 @@ entry(
         H298 = (345.152,'kJ/mol'),
         S298 = (220.251,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_ene_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 323,
     label = "s3_4_6_diene",
     group = "OR{s3_4_6_diene_0_2, s3_4_6_diene_0_3, s3_4_6_diene_0_4, s3_4_6_diene_1_4, s3_4_6_diene_1_5}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 152,
+    index = 324,
     label = "s3_4_6_diene_0_2",
     group = 
 """
@@ -7034,15 +8218,15 @@ entry(
         H298 = (395.317,'kJ/mol'),
         S298 = (237.586,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 153,
+    index = 325,
     label = "s3_4_6_diene_0_3",
     group = 
 """
@@ -7060,15 +8244,15 @@ entry(
         H298 = (239.177,'kJ/mol'),
         S298 = (217.83,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 154,
+    index = 326,
     label = "s3_4_6_diene_0_4",
     group = 
 """
@@ -7086,15 +8270,15 @@ entry(
         H298 = (302.238,'kJ/mol'),
         S298 = (253.297,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 155,
+    index = 327,
     label = "s3_4_6_diene_1_4",
     group = 
 """
@@ -7112,15 +8296,15 @@ entry(
         H298 = (352.615,'kJ/mol'),
         S298 = (227.735,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 156,
+    index = 328,
     label = "s3_4_6_diene_1_5",
     group = 
 """
@@ -7138,15 +8322,79 @@ entry(
         H298 = (396.195,'kJ/mol'),
         S298 = (240.272,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_4_6_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 329,
+    label = "s3_4_6_ben_ane",
+    group = "OR{s3_4_6_ben_ane_res1, s3_4_6_ben_ane_res2}",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 330,
+    label = "s3_4_6_ben_ane_res1",
+    group = 
+"""
+1   R!H u0 {3,B} {4,S} {5,B}
+2   R!H u0 {3,B} {4,S} {6,B}
+3   R!H u0 {1,B} {2,B}
+4 * R!H u0 {1,S} {2,S}
+5   R!H u0 {1,B} {7,B}
+6   R!H u0 {2,B} {7,B}
+7   R!H u0 {5,B} {6,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.971,1.615,1.051,-0.042,-1.098,-0.849,-2.199],'cal/(mol*K)'),
+        H298 = (150.622,'kcal/mol'),
+        S298 = (34.822,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 331,
+    label = "s3_4_6_ben_ane_res2",
+    group = 
+"""
+1   R!H u0 {3,S} {4,S} {5,D}
+2   R!H u0 {3,D} {4,S} {6,S}
+3   R!H u0 {1,S} {2,D}
+4 * R!H u0 {1,S} {2,S}
+5   R!H u0 {1,D} {7,S}
+6   R!H u0 {2,S} {7,D}
+7   R!H u0 {5,S} {6,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.57,-6.954,-7.598,-8.045,-6.641,-4.264,-4.149],'cal/(mol*K)'),
+        H298 = (129.962,'kcal/mol'),
+        S298 = (67.112,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 332,
     label = "s3_5_5",
     group = 
 """
@@ -7159,53 +8407,27 @@ entry(
 7   R!H u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 157,
-    label = "s3_5_5_ane",
-    group = 
 """
-1   R!H u0 {3,S} {4,S} {5,S}
-2   R!H u0 {3,S} {6,S} {7,S}
-3   R!H u0 {1,S} {2,S}
-4 * R!H u0 {1,S} {6,S}
-5   R!H u0 {1,S} {7,S}
-6   R!H u0 {2,S} {4,S}
-7   R!H u0 {2,S} {5,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-42.5947,-39.827,-35.1536,-30.5014,-23.4375,-17.2012,-10.5366],'J/(mol*K)'),
-        H298 = (91.4539,'kJ/mol'),
-        S298 = (212.089,'J/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from thermo library values""",
-    longDesc = 
-u"""
-Fitted from molecule s3_5_5_ane from Bicyclics_QM_190_isomorphic library.
+
 """,
 )
 
 entry(
-    index = 0,
+    index = 333,
     label = "s3_5_5_ene",
     group = "OR{s3_5_5_ene_0, s3_5_5_ene_1, s3_5_5_ene_side, s3_5_5_ene_m}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 158,
+    index = 334,
     label = "s3_5_5_ene_0",
     group = 
 """
@@ -7223,16 +8445,16 @@ entry(
         H298 = (71.868,'kcal/mol','+|-',63.5123),
         S298 = (58.32,'cal/(mol*K)','+|-',1.69706),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species product23 from vinylCPD_H library.
 Fitted from species product29 from vinylCPD_H library.
 """,
 )
 
 entry(
-    index = 158,
+    index = 335,
     label = "s3_5_5_ene_1",
     group = 
 """
@@ -7250,25 +8472,25 @@ entry(
         H298 = (112.159,'kJ/mol'),
         S298 = (218.255,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_5_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 159,
+    index = 336,
     label = "s3_5_5_ene_side",
     group = 
 """
-1   R!H   u0 {3,S} {4,S} {6,S}
-2   R!H   u0 {4,S} {5,S} {7,S}
-3 * R!H   u0 {1,S} {5,S} {8,D}
-4   R!H   u0 {1,S} {2,S}
-5   R!H   u0 {2,S} {3,S}
-6   R!H   u0 {1,S} {7,S}
-7   R!H   u0 {2,S} {6,S}
+1   R!H u0 {3,S} {4,S} {6,S}
+2   R!H u0 {4,S} {5,S} {7,S}
+3 * R!H u0 {1,S} {5,S} {8,D}
+4   R!H u0 {1,S} {2,S}
+5   R!H u0 {2,S} {3,S}
+6   R!H u0 {1,S} {7,S}
+7   R!H u0 {2,S} {6,S}
 8   R!H ux {3,D}
 """,
     thermo = ThermoData(
@@ -7277,15 +8499,15 @@ entry(
         H298 = (14.6,'kcal/mol'),
         S298 = (50.85,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 A.G. Vandeputte isodesmic reactions + B3LYP/cbsb7 S and cp, CHECK!
 """,
 )
 
 entry(
-    index = 159,
+    index = 337,
     label = "s3_5_5_ene_m",
     group = 
 """
@@ -7303,27 +8525,53 @@ entry(
         H298 = (94.073,'kcal/mol'),
         S298 = (58.92,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Fitted from species product29 from vinylCPD_H library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 338,
+    label = "s3_5_5_ane",
+    group = 
+"""
+1   R!H u0 {3,S} {4,S} {5,S}
+2   R!H u0 {3,S} {6,S} {7,S}
+3   R!H u0 {1,S} {2,S}
+4 * R!H u0 {1,S} {6,S}
+5   R!H u0 {1,S} {7,S}
+6   R!H u0 {2,S} {4,S}
+7   R!H u0 {2,S} {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-42.5947,-39.827,-35.1536,-30.5014,-23.4375,-17.2012,-10.5366],'J/(mol*K)'),
+        H298 = (91.4539,'kJ/mol'),
+        S298 = (212.089,'J/(mol*K)'),
+    ),
+    shortDesc = """Fitted from thermo library values""",
+    longDesc = 
+"""
+Fitted from molecule s3_5_5_ane from Bicyclics_QM_190_isomorphic library.
+""",
+)
+
+entry(
+    index = 339,
     label = "s3_5_5_diene",
     group = "OR{s3_5_5_diene_1_4, s3_5_5_diene_0_4}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 160,
+    index = 340,
     label = "s3_5_5_diene_1_4",
     group = 
 """
@@ -7341,15 +8589,70 @@ entry(
         H298 = (155.943,'kJ/mol'),
         S298 = (229.303,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_5_5_diene_1_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 341,
+    label = "s3_5_5_diene_0_4",
+    group = 
+"""
+1   R!H u0 {3,S} {6,S} {7,S}
+2   R!H u0 {3,S} {4,D} {5,S}
+3   R!H u0 {1,S} {2,S}
+4 * R!H u0 {2,D} {6,S}
+5   R!H u0 {2,S} {7,D}
+6   R!H u0 {1,S} {4,S}
+7   R!H u0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.117,-6.624,-6.352,-6.401,-5.37,-3.457,-3.059],'cal/(mol*K)'),
+        H298 = (86.425,'kcal/mol'),
+        S298 = (57.025,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted to CBS-QB3 calculation""",
+    longDesc = 
+"""
+Fitted to CBS-QB3 calculation.
+""",
+)
+
+entry(
+    index = 342,
+    label = "s3_5_5_triene",
+    group = 
+"""
+1 * R!H u0 p0 c0 {2,S} {5,D}
+2   R!H u0 p0 c0 {1,S} {6,D}
+3   R!H u0 p0 c0 {4,D} {6,S}
+4   R!H u0 p0 c0 {3,D} {5,S}
+5   R!H u0 p0 c0 {1,D} {4,S} {7,S}
+6   R!H u0 p0 c0 {2,D} {3,S} {7,S}
+7   R!H u0 p0 c0 {5,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.643,-8.911,-8.948,-8.325,-6.71,-5.427,-4.153],'cal/(mol*K)'),
+        H298 = (103.17,'kcal/mol'),
+        S298 = (67.392,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C12=CC=C(C1)C=C2. Mengjie Liu 10/14/18.
+Symmetry correction removed from calculated entropy using RMG estimated
+symmetry number of 4 to give correct GAV entropy estimate.
+""",
+)
+
+entry(
+    index = 343,
     label = "s3_5_6",
     group = 
 """
@@ -7363,15 +8666,15 @@ entry(
 8 * R!H u0 {6,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 161,
+    index = 344,
     label = "s3_5_6_ane",
     group = 
 """
@@ -7390,27 +8693,27 @@ entry(
         H298 = (67.4227,'kJ/mol'),
         S298 = (196.089,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_5_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 345,
     label = "s3_5_6_ene",
     group = "OR{s3_5_6_ene_1, s3_5_6_ene_5}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 162,
+    index = 346,
     label = "s3_5_6_ene_1",
     group = 
 """
@@ -7429,15 +8732,15 @@ entry(
         H298 = (68.0263,'kJ/mol'),
         S298 = (201.64,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_5_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 163,
+    index = 347,
     label = "s3_5_6_ene_5",
     group = 
 """
@@ -7456,27 +8759,27 @@ entry(
         H298 = (82.5909,'kJ/mol'),
         S298 = (198.184,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_5_6_ene_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 348,
     label = "s3_5_6_diene",
     group = "OR{s3_5_6_diene_1_5}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 164,
+    index = 349,
     label = "s3_5_6_diene_1_5",
     group = 
 """
@@ -7495,15 +8798,203 @@ entry(
         H298 = (86.0654,'kJ/mol'),
         S298 = (209.421,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_5_6_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 350,
+    label = "s3_5_6_ben_ane",
+    group = "OR{s3_5_6_ben_ane_res1, s3_5_6_ben_ane_res2}",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 351,
+    label = "s3_5_6_ben_ane_res1",
+    group = 
+"""
+1   R!H u0 {3,B} {5,S} {6,B}
+2   R!H u0 {3,B} {4,S} {7,B}
+3   R!H u0 {1,B} {2,B}
+4   R!H u0 {2,S} {5,S}
+5   R!H u0 {1,S} {4,S}
+6   R!H u0 {1,B} {8,B}
+7   R!H u0 {2,B} {8,B}
+8 * R!H u0 {6,B} {7,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469,-0.262,-0.442,-0.825,-0.747,0.339,0.354],'cal/(mol*K)'),
+        H298 = (166.291,'kcal/mol'),
+        S298 = (30.103,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 352,
+    label = "s3_5_6_ben_ane_res2",
+    group = 
+"""
+1   R!H u0 {3,S} {5,S} {6,D}
+2   R!H u0 {3,D} {4,S} {7,S}
+3   R!H u0 {1,S} {2,D}
+4   R!H u0 {2,S} {5,S}
+5   R!H u0 {1,S} {4,S}
+6   R!H u0 {1,D} {8,S}
+7   R!H u0 {2,S} {8,D}
+8 * R!H u0 {6,S} {7,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.466,-8.33,-8.73,-8.665,-6.596,-3.859,-3.506],'cal/(mol*K)'),
+        H298 = (145.431,'kcal/mol'),
+        S298 = (63.603,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to CBS-QB3 calculations
+""",
+)
+
+entry(
+    index = 353,
+    label = "s3_5_6_ben_ene",
+    group = "OR{s3_5_6_ben_ene_res1, s3_5_6_ben_ene_res2}",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 354,
+    label = "s3_5_6_ben_ene_res1",
+    group = 
+"""
+1   R!H u0 {3,B} {5,S} {6,B}
+2   R!H u0 {3,B} {4,S} {7,B}
+3   R!H u0 {1,B} {2,B}
+4   R!H u0 {2,S} {5,D}
+5   R!H u0 {1,S} {4,D}
+6   R!H u0 {1,B} {8,B}
+7   R!H u0 {2,B} {8,B}
+8 * R!H u0 {6,B} {7,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.96404,-8.74552,-8.7074,-8.03332,-5.94428,-4.49956,-4.93892],'J/(mol*K)'),
+        H298 = (708.321,'kJ/mol'),
+        S298 = (145.354,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 355,
+    label = "s3_5_6_ben_ene_res2",
+    group = 
+"""
+1   R!H u0 {3,S} {5,S} {6,D}
+2   R!H u0 {3,D} {4,S} {7,S}
+3   R!H u0 {1,S} {2,D}
+4   R!H u0 {2,S} {5,D}
+5   R!H u0 {1,S} {4,D}
+6   R!H u0 {1,D} {8,S}
+7   R!H u0 {2,S} {8,D}
+8 * R!H u0 {6,S} {7,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-14.24,-20.6281,-22.933,-23.0957,-21.9272,-19.2272,-22.6791],'J/(mol*K)'),
+        H298 = (600.625,'kJ/mol'),
+        S298 = (297.401,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Fitted to M06 calculations
+""",
+)
+
+entry(
+    index = 356,
+    label = "s3_5_7",
+    group = 
+"""
+1 * Cs u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
+2   Cs u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
+3   Cs u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+4   Cs u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
+5   Cs u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+6   Cs u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+7   Cs u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+8   Cs u0 {6,[S,D,T,B]} {9,[S,D,T,B]}
+9   Cs u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 357,
+    label = "s3_5_7_ane_0",
+    group = 
+"""
+1 * Cs u0 {3,S} {4,S} {7,S}
+2   Cs u0 {3,S} {5,S} {6,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {5,S}
+5   Cs u0 {2,S} {4,S}
+6   Cs u0 {2,S} {8,S}
+7   Cs u0 {1,S} {9,S}
+8   Cs u0 {6,S} {9,S}
+9   Cs u0 {7,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-45.7191,-44.2253,-41.4619,-36.9352,-26.6286,-17.5809,-7.34014],'J/(mol*K)'),
+        H298 = (45.2012,'kJ/mol','+|-',3.05828),
+        S298 = (181.605,'J/(mol*K)','+|-',7.94583),
+    ),
+    shortDesc = """Fitted from thermo library values""",
+    longDesc = 
+"""
+Fitted from species s3_5_7_ane_0 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_1 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_2 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_3 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_4 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_5 from s3_5_7_ane library.
+""",
+)
+
+entry(
+    index = 358,
     label = "s3_6_6",
     group = 
 """
@@ -7518,15 +9009,15 @@ entry(
 9   R!H u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 165,
+    index = 359,
     label = "s3_6_6_ane",
     group = 
 """
@@ -7546,27 +9037,27 @@ entry(
         H298 = (65.8567,'kJ/mol'),
         S298 = (170.519,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 360,
     label = "s3_6_6_ene",
     group = "OR{s3_6_6_ene_0, s3_6_6_ene_1, s3_6_6_ene_4}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 166,
+    index = 361,
     label = "s3_6_6_ene_0",
     group = 
 """
@@ -7586,15 +9077,15 @@ entry(
         H298 = (277.792,'kJ/mol'),
         S298 = (173.865,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_ene_0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 167,
+    index = 362,
     label = "s3_6_6_ene_1",
     group = 
 """
@@ -7614,15 +9105,15 @@ entry(
         H298 = (45.0863,'kJ/mol'),
         S298 = (180.213,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_ene_1 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 168,
+    index = 363,
     label = "s3_6_6_ene_4",
     group = 
 """
@@ -7642,27 +9133,27 @@ entry(
         H298 = (449.093,'kJ/mol'),
         S298 = (191.929,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_ene_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 364,
     label = "s3_6_6_diene",
     group = "OR{s3_6_6_diene_0_m, s3_6_6_diene_0_2, s3_6_6_diene_0_3, s3_6_6_diene_0_4, s3_6_6_diene_0_5, s3_6_6_diene_0_6, s3_6_6_diene_1_m, s3_6_6_diene_1_5, s3_6_6_diene_1_6, s3_6_6_diene_1_8}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 169,
+    index = 365,
     label = "s3_6_6_diene_0_m",
     group = 
 """
@@ -7682,15 +9173,15 @@ entry(
         H298 = (480.046,'kJ/mol'),
         S298 = (192.008,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_0_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 170,
+    index = 366,
     label = "s3_6_6_diene_0_2",
     group = 
 """
@@ -7710,15 +9201,15 @@ entry(
         H298 = (159.635,'kJ/mol'),
         S298 = (194.707,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_0_2 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 171,
+    index = 367,
     label = "s3_6_6_diene_0_3",
     group = 
 """
@@ -7738,15 +9229,15 @@ entry(
         H298 = (212.164,'kJ/mol'),
         S298 = (171.661,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_0_3 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 172,
+    index = 368,
     label = "s3_6_6_diene_0_4",
     group = 
 """
@@ -7766,15 +9257,15 @@ entry(
         H298 = (193.512,'kJ/mol'),
         S298 = (167.901,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_0_4 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 173,
+    index = 369,
     label = "s3_6_6_diene_0_5",
     group = 
 """
@@ -7794,15 +9285,15 @@ entry(
         H298 = (116.979,'kJ/mol'),
         S298 = (177.925,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_0_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 174,
+    index = 370,
     label = "s3_6_6_diene_0_6",
     group = 
 """
@@ -7822,15 +9313,15 @@ entry(
         H298 = (414.371,'kJ/mol'),
         S298 = (192.642,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_0_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 175,
+    index = 371,
     label = "s3_6_6_diene_1_m",
     group = 
 """
@@ -7850,15 +9341,15 @@ entry(
         H298 = (261.359,'kJ/mol'),
         S298 = (186.547,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_1_m from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 176,
+    index = 372,
     label = "s3_6_6_diene_1_5",
     group = 
 """
@@ -7878,15 +9369,15 @@ entry(
         H298 = (41.2142,'kJ/mol'),
         S298 = (177.784,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_1_5 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 177,
+    index = 373,
     label = "s3_6_6_diene_1_6",
     group = 
 """
@@ -7906,15 +9397,15 @@ entry(
         H298 = (56.6206,'kJ/mol'),
         S298 = (198.656,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_1_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 178,
+    index = 374,
     label = "s3_6_6_diene_1_8",
     group = 
 """
@@ -7934,15 +9425,15 @@ entry(
         H298 = (273.832,'kJ/mol'),
         S298 = (198.59,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_6_diene_1_8 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 375,
     label = "s3_6_7",
     group = 
 """
@@ -7958,15 +9449,15 @@ entry(
 10   R!H u0 {7,[S,D,T,B]} {9,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 186,
+    index = 376,
     label = "s3_6_7_ane",
     group = 
 """
@@ -7987,27 +9478,27 @@ entry(
         H298 = (80.8622,'kJ/mol'),
         S298 = (157.986,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_7_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 377,
     label = "s3_6_7_ene",
     group = "OR{s3_6_7_ene_6}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 187,
+    index = 378,
     label = "s3_6_7_ene_6",
     group = 
 """
@@ -8028,27 +9519,27 @@ entry(
         H298 = (184.655,'kJ/mol'),
         S298 = (156.543,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_7_ene_6 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 379,
     label = "s3_6_7_diene",
     group = "OR{s3_6_7_diene_6_9-0}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 188,
+    index = 380,
     label = "s3_6_7_diene_6_9-0",
     group = 
 """
@@ -8069,15 +9560,15 @@ entry(
         H298 = (447.124,'kJ/mol'),
         S298 = (169.068,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s3_6_7_diene_6_9-0 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 381,
     label = "s4_6_6",
     group = 
 """
@@ -8091,15 +9582,15 @@ entry(
 8   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 179,
+    index = 382,
     label = "s4_6_6_ane",
     group = 
 """
@@ -8118,15 +9609,138 @@ entry(
         H298 = (7.4,'kcal/mol'),
         S298 = (48.92,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 experimental S, Cp from PM7 calculation
 """,
 )
 
 entry(
-    index = 0,
+    index = 383,
+    label = "s4_6_6_barrelene",
+    group = 
+"""
+1 * R!H u0 p0 c0 {3,S} {5,S} {8,S}
+2   R!H u0 p0 c0 {4,S} {6,S} {7,S}
+3   R!H u0 p0 c0 {1,S} {4,D}
+4   R!H u0 p0 c0 {2,S} {3,D}
+5   R!H u0 p0 c0 {1,S} {6,D}
+6   R!H u0 p0 c0 {2,S} {5,D}
+7   R!H u0 p0 c0 {2,S} {8,D}
+8   R!H u0 p0 c0 {1,S} {7,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.525,-4.619,-3.437,-2.596,-1.814,-1.708,-1.904],'cal/(mol*K)'),
+        H298 = (19.066,'kcal/mol'),
+        S298 = (49.625,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted from CBS-QB3 calculation""",
+    longDesc = 
+"""
+"
+Fitted from CBS-QB3 calculation for C1(C=C2)C=CC2C=C1. Mengjie Liu 10/14/19.
+Symmetry correction removed from calculated entropy using RMG estimated
+symmetry number of 4 to give correct GAV entropy estimate.
+""",
+)
+
+entry(
+    index = 384,
+    label = "s4_6_6_ben_ben",
+    group = "OR{s4_6_6_ben_ben_res1, s4_6_6_ben_ben_res2, s4_6_6_ben_ben_res3}",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 385,
+    label = "s4_6_6_ben_ben_res1",
+    group = 
+"""
+1 * R!H u0 {3,B} {6,B} {8,B}
+2   R!H u0 {4,B} {5,B} {7,B}
+3   R!H u0 {1,B} {4,B}
+4   R!H u0 {2,B} {3,B}
+5   R!H u0 {2,B} {6,B}
+6   R!H u0 {1,B} {5,B}
+7   R!H u0 {2,B} {8,B}
+8   R!H u0 {1,B} {7,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.711,2.163,2.154,1.273,0.527,0.897,-1.267],'cal/(mol*K)'),
+        H298 = (165.718,'kcal/mol'),
+        S298 = (12.735,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted to CBS-QB3 calculation""",
+    longDesc = 
+"""
+Fitted to CBS-QB3 calculation.
+""",
+)
+
+entry(
+    index = 386,
+    label = "s4_6_6_ben_ben_res2",
+    group = 
+"""
+1 * R!H u0 {3,S} {6,B} {8,B}
+2   R!H u0 {4,S} {5,B} {7,B}
+3   R!H u0 {1,S} {4,D}
+4   R!H u0 {2,S} {3,D}
+5   R!H u0 {2,B} {6,B}
+6   R!H u0 {1,B} {5,B}
+7   R!H u0 {2,B} {8,B}
+8   R!H u0 {1,B} {7,B}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.829,-1.234,-0.797,-1.155,-1.114,-0.25,-0.824],'cal/(mol*K)'),
+        H298 = (156.978,'kcal/mol'),
+        S298 = (28.635,'cal/(mol*K)'),
+    ),
+    shortDesc = """Fitted to CBS-QB3 calculation""",
+    longDesc = 
+"""
+Fitted to CBS-QB3 calculation.
+""",
+)
+
+entry(
+    index = 387,
+    label = "s4_6_6_ben_ben_res3",
+    group = 
+"""
+1 * R!H u0 {3,S} {6,D} {8,S}
+2   R!H u0 {4,S} {5,D} {7,S}
+3   R!H u0 {1,S} {4,D}
+4   R!H u0 {2,S} {3,D}
+5   R!H u0 {2,D} {6,S}
+6   R!H u0 {1,D} {5,S}
+7   R!H u0 {2,S} {8,D}
+8   R!H u0 {1,S} {7,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.711,2.163,2.154,1.273,0.527,0.897,-1.267],'cal/(mol*K)'),
+        H298 = (165.718,'kcal/mol'),
+        S298 = (12.735,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Copy of res 1 correction.
+""",
+)
+
+entry(
+    index = 388,
     label = "s4_6_8",
     group = 
 """
@@ -8142,15 +9756,15 @@ entry(
 10   R!H u0 {7,[S,D,T,B]} {9,[S,D,T,B]}
 """,
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 189,
+    index = 389,
     label = "s4_6_8_ane",
     group = 
 """
@@ -8171,27 +9785,27 @@ entry(
         H298 = (292.061,'kJ/mol'),
         S298 = (169.335,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s4_6_8_ane from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 390,
     label = "s4_6_8_ene",
     group = "OR{s4_6_8_ene_7}",
     thermo = None,
-    shortDesc = u"""""",
-    longDesc =
-u"""
+    shortDesc = """""",
+    longDesc = 
+"""
 
 """,
 )
 
 entry(
-    index = 190,
+    index = 391,
     label = "s4_6_8_ene_7",
     group = 
 """
@@ -8212,27 +9826,27 @@ entry(
         H298 = (136.419,'kJ/mol'),
         S298 = (159.81,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s4_6_8_ene_7 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
 entry(
-    index = 0,
+    index = 392,
     label = "s4_6_8_diene",
     group = "OR{s4_6_8_diene_7_9}",
     thermo = None,
-    shortDesc = u"""""",
+    shortDesc = """""",
     longDesc = 
-u"""
+"""
 
 """,
 )
 
 entry(
-    index = 191,
+    index = 393,
     label = "s4_6_8_diene_7_9",
     group = 
 """
@@ -8253,1598 +9867,10 @@ entry(
         H298 = (144.295,'kJ/mol'),
         S298 = (176.495,'J/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
+    shortDesc = """Fitted from thermo library values""",
     longDesc = 
-u"""
+"""
 Fitted from molecule s4_6_8_diene_7_9 from Bicyclics_QM_190_isomorphic library.
-""",
-)
-
-entry(
-    index = 3,
-    label = "s2-3_5_5_5_ane",
-    group = 
-"""
-1    R!H u0 {2,S} {4,S} {9,S}
-2    R!H u0 {1,S} {3,S} {8,S}
-3  * R!H u0 {2,S} {5,S} {6,S}
-4    R!H u0 {1,S} {5,S} {7,S}
-5    R!H u0 {3,S} {4,S}
-6    R!H u0 {3,S} {7,S}
-7    R!H u0 {4,S} {6,S}
-8    R!H u0 {2,S} {10,S}
-9    R!H u0 {1,S} {10,S}
-10   R!H u0 {8,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
-        H298 = (17.68,'kcal/mol'),
-        S298 = (78.53,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Modified Aaron G. Vandeputte to make estimates in agreement with value of Hudzik et al. 2010
-""",
-)
-
-entry(
-    index = 4,
-    label = "s2-3_5d1_5_5_ene",
-    group = 
-"""
-1    R!H u0 {2,S} {4,S} {9,S}
-2    R!H u0 {1,S} {3,S} {8,S}
-3  * R!H u0 {2,S} {5,S} {6,S}
-4    R!H u0 {1,S} {5,S} {7,S}
-5    R!H u0 {3,S} {4,S}
-6    R!H u0 {3,S} {7,S}
-7    R!H u0 {4,S} {6,S}
-8    R!H u0 {2,S} {10,D}
-9    R!H u0 {1,S} {10,S}
-10   R!H u0 {8,D} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
-        H298 = (22.65,'kcal/mol'),
-        S298 = (78.53,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
-""",
-)
-
-entry(
-    index = 5,
-    label = "s2-3f0_5_5_5_ane",
-    group = 
-"""
-1  * R!H u0 {2,S} {4,S} {6,S} {7,S}
-2    R!H u0 {1,S} {5,S} {8,S}
-3    R!H u0 {4,S} {5,S} {9,S}
-4    R!H u0 {1,S} {3,S}
-5    R!H u0 {2,S} {3,S}
-6    R!H u0 {1,S} {9,S}
-7    R!H u0 {1,S} {10,S}
-8    R!H u0 {2,S} {10,S}
-9    R!H u0 {3,S} {6,S}
-10   R!H u0 {7,S} {8,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
-        H298 = (23.86,'kcal/mol'),
-        S298 = (78.53,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
-""",
-)
-
-entry(
-    index = 6,
-    label = "s2-3f1_6_5_5_ane",
-    group = 
-"""
-1    R!H u0 {2,S} {3,S} {5,S}
-2    R!H u0 {1,S} {7,S} {8,S}
-3    R!H u0 {1,S} {6,S} {9,S}
-4  * R!H u0 {5,S} {6,S} {7,S}
-5    R!H u0 {1,S} {4,S}
-6    R!H u0 {3,S} {4,S}
-7    R!H u0 {2,S} {4,S}
-8    R!H u0 {2,S} {10,S}
-9    R!H u0 {3,S} {10,S}
-10   R!H u0 {8,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
-        H298 = (19.26,'kcal/mol'),
-        S298 = (78.53,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from exo-tricyclo[5.2.1.0(2.6)]decane
-""",
-)
-
-entry(
-    index = 8,
-    label = "s2-3_5_5_5d1_ene",
-    group = 
-"""
-1    R!H u0 {2,S} {3,S} {8,S}
-2    R!H u0 {1,S} {4,S} {9,S}
-3  * R!H u0 {1,S} {5,S} {7,S}
-4    R!H u0 {2,S} {5,S} {6,S}
-5    R!H u0 {3,S} {4,S}
-6    R!H u0 {4,S} {7,D}
-7    R!H u0 {3,S} {6,D}
-8    R!H u0 {1,S} {10,S}
-9    R!H u0 {2,S} {10,S}
-10   R!H u0 {8,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-12.29,-11.16,-10.04,-8.64,-7.12,-5.72,-3.81],'cal/(mol*K)'),
-        H298 = (22.83,'kcal/mol'),
-        S298 = (79.45,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-A. G. Vandeputte CBS-QB3 isodesmic reaction, S and cp match B3LYP/cbsb7 data, CHECK
-""",
-)
-
-entry(
-    index = 72,
-    label = "s3-3_5_6_5_ane",
-    group = 
-"""
-1  * R!H u0 {2,S} {6,S} {8,S}
-2    R!H u0 {1,S} {5,S} {9,S}
-3    R!H u0 {4,S} {5,S} {10,S}
-4    R!H u0 {3,S} {6,S} {7,S}
-5    R!H u0 {2,S} {3,S}
-6    R!H u0 {1,S} {4,S}
-7    R!H u0 {4,S} {8,S}
-8    R!H u0 {1,S} {7,S}
-9    R!H u0 {2,S} {10,S}
-10   R!H u0 {3,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.1,-13.4,-11.6,-10,-7.8,-6.1,-3.7],'cal/(mol*K)'),
-        H298 = (22.5,'kcal/mol'),
-        S298 = (77.13,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-A.G Vandeputte CBS-QB3, reaction JP10 <-> tricyclo[4.2.1.1(2.5)]decane
-""",
-)
-
-entry(
-    index = 13,
-    label = "s2-4f1_5_6_7_ane",
-    group = 
-"""
-1    R!H u0 {2,S} {3,S} {7,S}
-2  * R!H u0 {1,S} {5,S} {8,S}
-3    R!H u0 {1,S} {6,S} {9,S}
-4    R!H u0 {5,S} {6,S} {10,S}
-5    R!H u0 {2,S} {4,S}
-6    R!H u0 {3,S} {4,S}
-7    R!H u0 {1,S} {10,S}
-8    R!H u0 {2,S} {9,S}
-9    R!H u0 {3,S} {8,S}
-10   R!H u0 {4,S} {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.58,-14.7,-12.37,-9.37,-5.42,-4.64,-1.58],'cal/(mol*K)'),
-        H298 = (20.77,'kcal/mol'),
-        S298 = (78.58,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
-""",
-)
-
-entry(
-    index = 14,
-    label = "s2-4f2_5_6_8_ane",
-    group = 
-"""
-1  * R!H u0 {2,S} {5,S} {6,S}
-2    R!H u0 {1,S} {7,S} {9,S}
-3    R!H u0 {5,S} {7,S} {8,S}
-4    R!H u0 {6,S} {8,S} {10,S}
-5    R!H u0 {1,S} {3,S}
-6    R!H u0 {1,S} {4,S}
-7    R!H u0 {2,S} {3,S}
-8    R!H u0 {3,S} {4,S}
-9    R!H u0 {2,S} {10,S}
-10   R!H u0 {4,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-16.03,-15.03,-12.57,-9.46,-5.47,-4.74,-1.59],'cal/(mol*K)'),
-        H298 = (18.29,'kcal/mol'),
-        S298 = (75.75,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
-""",
-)
-
-entry(
-    index = 32,
-    label = "s2-2f1_5_5_2_ane",
-    group = 
-"""
-1    R!H u0 {2,S} {3,S} {4,S}
-2  * R!H u0 {1,S} {5,S} {10,S}
-3    R!H u0 {1,S} {6,S} {7,S}
-4    R!H u0 {1,S} {8,S} {9,S}
-5    R!H u0 {2,S} {6,S}
-6    R!H u0 {3,S} {5,S}
-7    R!H u0 {3,S} {8,S}
-8    R!H u0 {4,S} {7,S}
-9    R!H u0 {4,S} {10,S}
-10   R!H u0 {2,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.018,-13.783,-12.193,-10.63,-8.502,-6.688,-4.111],'cal/(mol*K)'),
-        H298 = (15.68,'kcal/mol'),
-        S298 = (78.53,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Modified Aaron G. Vandeputte, kept enthalpy Nick Vandewiele, modified S and cp to be equal to exo-tricyclo[5.2.1.0(2.6)]
-""",
-)
-
-entry(
-    index = 33,
-    label = "s2-3f1_5_5_6_ane",
-    group = 
-"""
-1    R!H u0 {2,S} {3,S} {5,S}
-2  * R!H u0 {1,S} {6,S} {7,S}
-3    R!H u0 {1,S} {8,S} {9,S}
-4    R!H u0 {5,S} {6,S} {10,S}
-5    R!H u0 {1,S} {4,S}
-6    R!H u0 {2,S} {4,S}
-7    R!H u0 {2,S} {8,S}
-8    R!H u0 {3,S} {7,S}
-9    R!H u0 {3,S} {10,S}
-10   R!H u0 {4,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.6,-14.69,-12.36,-9.34,-5.4,-4.64,-1.58],'cal/(mol*K)'),
-        H298 = (21.48,'kcal/mol'),
-        S298 = (78.96,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
-""",
-)
-
-entry(
-    index = 34,
-    label = "s2-4f0_5_5_6_ane",
-    group = 
-"""
-1  * R!H u0 {2,S} {4,S} {5,S} {6,S}
-2    R!H u0 {1,S} {3,S} {7,S}
-3    R!H u0 {2,S} {8,S} {9,S}
-4    R!H u0 {1,S} {8,S}
-5    R!H u0 {1,S} {9,S}
-6    R!H u0 {1,S} {10,S}
-7    R!H u0 {2,S} {10,S}
-8    R!H u0 {3,S} {4,S}
-9    R!H u0 {3,S} {5,S}
-10   R!H u0 {6,S} {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.15,-14.51,-12.47,-9.72,-5.97,-5.19,-1.39],'cal/(mol*K)'),
-        H298 = (29.65,'kcal/mol'),
-        S298 = (82.23,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
-""",
-)
-
-entry(
-    index = 35,
-    label = "s2-4f1_5_5_7_ane",
-    group = 
-"""
-1  * R!H u0 {2,S} {3,S} {6,S}
-2    R!H u0 {1,S} {4,S} {5,S}
-3    R!H u0 {1,S} {7,S} {8,S}
-4    R!H u0 {2,S} {9,S} {10,S}
-5    R!H u0 {2,S} {7,S}
-6    R!H u0 {1,S} {10,S}
-7    R!H u0 {3,S} {5,S}
-8    R!H u0 {3,S} {9,S}
-9    R!H u0 {4,S} {8,S}
-10   R!H u0 {4,S} {6,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-15.5,-14.55,-12.19,-9.17,-5.28,-4.57,-1.53],'cal/(mol*K)'),
-        H298 = (20.74,'kcal/mol'),
-        S298 = (77.45,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp from PM7
-""",
-)
-
-entry(
-    index = 69,
-    label = "s4-3f1_6_6_6_ane",
-    group = 
-"""
-1  * R!H u0 {3,S} {6,S} {7,S}
-2    R!H u0 {4,S} {5,S} {8,S}
-3    R!H u0 {1,S} {5,S} {9,S}
-4    R!H u0 {2,S} {6,S} {10,S}
-5    R!H u0 {2,S} {3,S}
-6    R!H u0 {1,S} {4,S}
-7    R!H u0 {1,S} {8,S}
-8    R!H u0 {2,S} {7,S}
-9    R!H u0 {3,S} {10,S}
-10   R!H u0 {4,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-16.13,-15.02,-12.47,-9.29,-5.32,-4.7,-1.53],'cal/(mol*K)'),
-        H298 = (26.12,'kcal/mol'),
-        S298 = (75.25,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclohexane
-""",
-)
-
-entry(
-    index = 67,
-    label = "s3-3f1_6_5_6_ane",
-    group = 
-"""
-1  * R!H u0 {4,S} {5,S} {6,S}
-2    R!H u0 {3,S} {5,S} {7,S}
-3    R!H u0 {2,S} {6,S} {10,S}
-4    R!H u0 {1,S} {8,S} {9,S}
-5    R!H u0 {1,S} {2,S}
-6    R!H u0 {1,S} {3,S}
-7    R!H u0 {2,S} {8,S}
-8    R!H u0 {4,S} {7,S}
-9    R!H u0 {4,S} {10,S}
-10   R!H u0 {3,S} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-16.09,-14.97,-12.4,-9.23,-5.27,-4.66,-1.5],'cal/(mol*K)'),
-        H298 = (30.9,'kcal/mol'),
-        S298 = (75.36,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
-""",
-)
-
-entry(
-    index = 0,
-    label = "s2_4_4_diene",
-    group = "OR{s2_4_4_diene_1_3, s2_4_4_diene_1_4, s2_4_4_diene_1_m, s2_4_4_diene_2_5}",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 75,
-    label = "s2_4_4_diene_1_m",
-    group =
-"""
-1   R!H u0 {2,D} {4,S} {6,S}
-2   R!H u0 {1,D} {3,S} {5,S}
-3 * R!H u0 {2,S} {4,S}
-4   R!H u0 {1,S} {3,S}
-5   R!H u0 {2,S} {6,D}
-6   R!H u0 {1,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.911294694, -6.76788695, -7.426491396, -7.70704517, -6.76857218, -4.65110325, -4.246702677],'cal/(mol*K)'),
-        H298 = (134.9052041,'kcal/mol'),
-        S298 = (69.47292352,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Fitted to M06 calculations
-""",
-)
-
-entry(
-    index = 76,
-    label = "s2_3_6_ene_5",
-    group =
-"""
-1   R!H u0 {2,S} {3,D} {4,S}
-2   R!H u0 {1,S} {3,S} {5,S}
-3   R!H u0 {1,D} {2,S}
-4   R!H u0 {1,S} {7,S}
-5   R!H u0 {2,S} {6,S}
-6 * R!H u0 {5,S} {7,S}
-7   R!H u0 {4,S} {6,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-33.0644, -30.4388, -27.9344, -25.2475, -19.6467, -15.2896, -10.1737], 'J/(mol*K)'),
-        H298=(262.495, 'kJ/mol'),
-        S298=(238.794, 'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Fitted to M06 calculations
-""",
-)
-
-entry(
-    index = 77,
-    label = "s2_3_6_diene_2_5",
-    group =
-"""
-1   R!H u0 {2,S} {3,D} {4,S}
-2   R!H u0 {1,S} {3,S} {5,S}
-3   R!H u0 {1,D} {2,S}
-4   R!H u0 {1,S} {7,S}
-5   R!H u0 {2,S} {6,S}
-6 * R!H u0 {5,S} {7,D}
-7   R!H u0 {4,S} {6,D}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-25.6671, -24.8396, -23.399, -21.6937, -17.9095, -14.865, -11.0665], 'J/(mol*K)'),
-        H298=(259.334, 'kJ/mol'),
-        S298=(242.952, 'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Fitted to M06 calculations
-""",
-)
-
-entry(
-    index = 0,
-    label = "s3_5_6_ben_ane",
-    group = "OR{s3_5_6_ben_ane_res1, s3_5_6_ben_ane_res2}",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 78,
-    label = "s3_5_6_ben_ane_res1",
-    group =
-"""
-1   R!H u0 {3,B} {5,S} {6,B}
-2   R!H u0 {3,B} {4,S} {7,B}
-3   R!H u0 {1,B} {2,B}
-4   R!H u0 {2,S} {5,S}
-5   R!H u0 {1,S} {4,S}
-6   R!H u0 {1,B} {8,B}
-7   R!H u0 {2,B} {8,B}
-8 * R!H u0 {6,B} {7,B}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.469, -0.262, -0.442, -0.825, -0.747, 0.339, 0.354], 'cal/(mol*K)'),
-        H298=(166.291, 'kcal/mol'),
-        S298=(30.103, 'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Fitted to CBS-QB3 calculations
-""",
-)
-
-entry(
-    index = 78,
-    label = "s3_5_6_ben_ane_res2",
-    group =
-"""
-1   R!H u0 {3,S} {5,S} {6,D}
-2   R!H u0 {3,D} {4,S} {7,S}
-3   R!H u0 {1,S} {2,D}
-4   R!H u0 {2,S} {5,S}
-5   R!H u0 {1,S} {4,S}
-6   R!H u0 {1,D} {8,S}
-7   R!H u0 {2,S} {8,D}
-8 * R!H u0 {6,S} {7,D}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-7.466, -8.33, -8.73, -8.665, -6.596, -3.859, -3.506], 'cal/(mol*K)'),
-        H298=(145.431, 'kcal/mol'),
-        S298=(63.603, 'cal/(mol*K)'),
-    ),
-    shortDesc=u"""""",
-    longDesc=
-    u"""
-    Fitted to CBS-QB3 calculations
-    """,
-)
-
-entry(
-    index = 0,
-    label = "s3_5_6_ben_ene",
-    group = "OR{s3_5_6_ben_ene_res1, s3_5_6_ben_ene_res2}",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 79,
-    label = "s3_5_6_ben_ene_res1",
-    group =
-"""
-1   R!H u0 {3,B} {5,S} {6,B}
-2   R!H u0 {3,B} {4,S} {7,B}
-3   R!H u0 {1,B} {2,B}
-4   R!H u0 {2,S} {5,D}
-5   R!H u0 {1,S} {4,D}
-6   R!H u0 {1,B} {8,B}
-7   R!H u0 {2,B} {8,B}
-8 * R!H u0 {6,B} {7,B}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-7.96404, -8.74552, -8.7074, -8.03332, -5.94428, -4.49956, -4.93892], 'J/(mol*K)'),
-        H298=(708.321, 'kJ/mol'),
-        S298=(145.354, 'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Fitted to M06 calculations
-""",
-)
-
-entry(
-    index = 80,
-    label = "s3_5_6_ben_ene_res2",
-    group =
-"""
-1   R!H u0 {3,S} {5,S} {6,D}
-2   R!H u0 {3,D} {4,S} {7,S}
-3   R!H u0 {1,S} {2,D}
-4   R!H u0 {2,S} {5,D}
-5   R!H u0 {1,S} {4,D}
-6   R!H u0 {1,D} {8,S}
-7   R!H u0 {2,S} {8,D}
-8 * R!H u0 {6,S} {7,D}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-14.24, -20.6281, -22.933, -23.0957, -21.9272, -19.2272, -22.6791], 'J/(mol*K)'),
-        H298=(600.625, 'kJ/mol'),
-        S298=(297.401, 'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Fitted to M06 calculations
-""",
-)
-
-entry(
-    index = 86,
-    label = "s1-2_5d1d3_3_5d1_triene",
-    group =
-"""
-1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
-2 R!H u0 {1,S} {3,S} {6,S}
-3 R!H u0 {1,S} {2,S} {7,S}
-4 R!H u0 {1,S} {9,D}
-5 R!H u0 {1,S} {10,D}
-6 R!H u0 {2,S} {8,D}
-7 R!H u0 {3,S} {8,S}
-8 R!H u0 {6,D} {7,S}
-9 R!H u0 {4,D} {10,S}
-10 R!H u0 {5,D} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-7.108, -7.764, -7.893, -7.784, -7.495, -7.132, -5.2],'cal/(mol*K)'),
-        H298 = (38.553,'kcal/mol'),
-        S298 = (95.09,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 87,
-    label = "s2-2_5d1_3_6d1d3_triene",
-    group =
-"""
-1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
-2 R!H u0 {1,S} {3,S} {7,S}
-3 R!H u0 {1,S} {2,S} {6,S}
-4 R!H u0 {1,S} {8,S}
-5 R!H u0 {1,S} {10,D}
-6 R!H u0 {3,S} {8,D}
-7 R!H u0 {2,S} {9,D}
-8 R!H u0 {4,S} {6,D}
-9 R!H u0 {7,D} {10,S}
-10 R!H u0 {5,D} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-6.846, -7.913, -8.399, -8.495, -8.078, -7.325, -5.437],'cal/(mol*K)'),
-        H298 = (32.243,'kcal/mol'),
-        S298 = (93.33,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 119,
-    label = "s3_5_5_diene_0_4",
-    group =
-"""
-1   R!H u0 {3,S} {6,S} {7,S}
-2   R!H u0 {3,S} {4,D} {5,S}
-3   R!H u0 {1,S} {2,S}
-4 * R!H u0 {2,D} {6,S}
-5   R!H u0 {2,S} {7,D}
-6   R!H u0 {1,S} {4,S}
-7   R!H u0 {1,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-7.117, -6.624, -6.352, -6.401, -5.37, -3.457, -3.059],'cal/(mol*K)'),
-        H298 = (86.425,'kcal/mol'),
-        S298 = (57.025,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted to CBS-QB3 calculation""",
-    longDesc =
-u"""
-Fitted to CBS-QB3 calculation.
-""",
-)
-
-entry(
-    index = 0,
-    label = "s4_6_6_ben_ben",
-    group = "OR{s4_6_6_ben_ben_res1, s4_6_6_ben_ben_res2, s4_6_6_ben_ben_res3}",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 180,
-    label = "s4_6_6_ben_ben_res1",
-    group =
-"""
-1 * R!H u0 {3,B} {6,B} {8,B}
-2   R!H u0 {4,B} {5,B} {7,B}
-3   R!H u0 {1,B} {4,B}
-4   R!H u0 {2,B} {3,B}
-5   R!H u0 {2,B} {6,B}
-6   R!H u0 {1,B} {5,B}
-7   R!H u0 {2,B} {8,B}
-8   R!H u0 {1,B} {7,B}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.711, 2.163, 2.154, 1.273, 0.527, 0.897, -1.267],'cal/(mol*K)'),
-        H298 = (165.718,'kcal/mol'),
-        S298 = (12.735,'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Fitted to CBS-QB3 calculation""",
-    longDesc=
-    u"""
-    Fitted to CBS-QB3 calculation.
-    """,
-)
-
-entry(
-    index = 181,
-    label = "s4_6_6_ben_ben_res2",
-    group =
-"""
-1 * R!H u0 {3,S} {6,B} {8,B}
-2   R!H u0 {4,S} {5,B} {7,B}
-3   R!H u0 {1,S} {4,D}
-4   R!H u0 {2,S} {3,D}
-5   R!H u0 {2,B} {6,B}
-6   R!H u0 {1,B} {5,B}
-7   R!H u0 {2,B} {8,B}
-8   R!H u0 {1,B} {7,B}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.829, -1.234, -0.797, -1.155, -1.114, -0.25, -0.824],'cal/(mol*K)'),
-        H298 = (156.978,'kcal/mol'),
-        S298 = (28.635,'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Fitted to CBS-QB3 calculation""",
-    longDesc=
-    u"""
-    Fitted to CBS-QB3 calculation.
-    """,
-)
-
-entry(
-    index = 182,
-    label = "s4_6_6_ben_ben_res3",
-    group =
-"""
-1 * R!H u0 {3,S} {6,D} {8,S}
-2   R!H u0 {4,S} {5,D} {7,S}
-3   R!H u0 {1,S} {4,D}
-4   R!H u0 {2,S} {3,D}
-5   R!H u0 {2,D} {6,S}
-6   R!H u0 {1,D} {5,S}
-7   R!H u0 {2,S} {8,D}
-8   R!H u0 {1,S} {7,D}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.711, 2.163, 2.154, 1.273, 0.527, 0.897, -1.267], 'cal/(mol*K)'),
-        H298=(165.718, 'kcal/mol'),
-        S298=(12.735, 'cal/(mol*K)'),
-    ),
-    shortDesc=u"""""",
-    longDesc=
-    u"""
-    Copy of res 1 correction.
-    """,
-)
-
-entry(
-    index = 0,
-    label = "s3_4_6_ben_ane",
-    group = "OR{s3_4_6_ben_ane_res1, s3_4_6_ben_ane_res2}",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 213,
-    label = "s3_4_6_ben_ane_res1",
-    group =
-"""
-1   R!H u0 {3,B} {4,S} {6,B}
-2   R!H u0 {3,B} {4,S} {7,B}
-3   R!H u0 {1,B} {2,B}
-4 * R!H u0 {2,S} {1,S}
-6   R!H u0 {1,B} {8,B}
-7   R!H u0 {2,B} {8,B}
-8   R!H u0 {6,B} {7,B}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.971, 1.615, 1.051, -0.042, -1.098, -0.849, -2.199], 'cal/(mol*K)'),
-        H298=(150.622, 'kcal/mol'),
-        S298=(34.822, 'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Fitted to CBS-QB3 calculations
-""",
-)
-
-entry(
-    index = 214,
-    label = "s3_4_6_ben_ane_res2",
-    group =
-"""
-1   R!H u0 {3,S} {4,S} {6,D}
-2   R!H u0 {3,D} {4,S} {7,S}
-3   R!H u0 {1,S} {2,D}
-4 * R!H u0 {2,S} {1,S}
-6   R!H u0 {1,D} {8,S}
-7   R!H u0 {2,S} {8,D}
-8   R!H u0 {6,S} {7,D}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-6.57, -6.954, -7.598, -8.045, -6.641, -4.264, -4.149], 'cal/(mol*K)'),
-        H298=(129.962, 'kcal/mol'),
-        S298=(67.112, 'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Fitted to CBS-QB3 calculations
-""",
-)
-
-entry(
-    index = 0,
-    label = "s2_6_7",
-    group = 
-"""
-1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
-2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
-3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
-4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
-5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
-6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
-7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
-8    R!H u0 {5,[S,D,T,B]} {11,[S,D,T,B]}
-9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
-10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
-11   R!H u0 {10,[S,D,T,B]} {8,[S,D,T,B]}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 0,
-    label = "s2_6_7_diene",
-    group = "OR{s2_6_7_diene_0_2}",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 215,
-    label = "s2_6_7_diene_0_2",
-    group = 
-"""
-1    R!H u0 {2,S} {3,D} {6,S}
-2    R!H u0 {1,S} {4,S} {5,S}
-3    R!H u0 {1,D} {9,S}
-4    R!H u0 {2,S} {7,S}
-5    R!H u0 {2,S} {8,S}
-6    R!H u0 {1,S} {10,S}
-7  * R!H u0 {4,S} {9,D}
-8    R!H u0 {5,S} {11,S}
-9    R!H u0 {3,S} {7,D}
-10   R!H u0 {6,S} {11,S}
-11   R!H u0 {10,S} {8,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-10.180000,-10.250000,-9.780000,-8.270000,-5.430000,-3.120000,-0.640000],'cal/(mol*K)','+|-',[0.565861,0.565861,0.565861,0.565861,0.565861,0.565861,0.565861]),
-        H298 = (6.930000,'kcal/mol','+|-',2.207383),
-        S298 = (41.080000,'cal/(mol*K)','+|-',1.099506),
-    ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
-Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
-
-Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
-http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
-
-Model Compounds include:
-C1=CC=C2CCCCCC2C1
-""",
-)
-
-entry(
-    index = 216,
-    label = "s2_6_7_ben",
-    group = 
-"""
-1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
-2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
-3    R!H u0 {1,B} {9,B}
-4    R!H u0 {2,B} {7,B}
-5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
-6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
-7  * R!H u0 {4,B} {9,B}
-8    R!H u0 {5,[S,D,T,B]} {11,[S,D,T,B]}
-9    R!H u0 {3,B} {7,B}
-10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
-11   R!H u0 {10,[S,D,T,B]} {8,[S,D,T,B]}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.680000,-5.310000,-4.810000,-3.870000,-1.970000,-0.420000,1.650000],'cal/(mol*K)','+|-',[0.522976,0.522976,0.522976,0.522976,0.522976,0.522976,0.522976]),
-        H298 = (0.790000,'kcal/mol','+|-',1.929624),
-        S298 = (14.220000,'cal/(mol*K)','+|-',1.486692),
-    ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
-Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
-
-Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
-http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
-
-Model Compounds include:
-C1=CC=C2CCCCCC2=C1
-""",
-)
-
-entry(
-    index = 0,
-    label = "s2_6_7_ben_ene",
-    group = "OR{s2_6_7_ben_ene_1}",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 217,
-    label = "s2_6_7_ben_ene_1",
-    group = 
-"""
-1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
-2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
-3    R!H u0 {1,B} {9,B}
-4    R!H u0 {2,B} {7,B}
-5    R!H u0 {2,[S,D,T,B]} {8,D}
-6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
-7  * R!H u0 {4,B} {9,B}
-8    R!H u0 {5,D} {11,[S,D,T,B]}
-9    R!H u0 {3,B} {7,B}
-10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
-11   R!H u0 {10,[S,D,T,B]} {8,[S,D,T,B]}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.200000,-5.010000,-4.610000,-3.840000,-2.080000,-0.690000,0.780000],'cal/(mol*K)','+|-',[0.871226,0.871226,0.871226,0.871226,0.871226,0.871226,0.871226]),
-        H298 = (2.980000,'kcal/mol','+|-',2.589991),
-        S298 = (17.460000,'cal/(mol*K)','+|-',1.366201),
-    ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
-Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
-
-Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
-http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
-
-Model Compounds include:
-C1=CC=C2CCCC=CC2=C1
-""",
-)
-
-entry(
-    index = 218,
-    label = "s2_6_7_ben_diene_1_3",
-    group = 
-"""
-1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
-2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
-3    R!H u0 {1,B} {9,B}
-4    R!H u0 {2,B} {7,B}
-5    R!H u0 {2,[S,D,T,B]} {8,D}
-6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
-7  * R!H u0 {4,B} {9,B}
-8    R!H u0 {5,D} {11,[S,D,T,B]}
-9    R!H u0 {3,B} {7,B}
-10   R!H u0 {6,[S,D,T,B]} {11,D}
-11   R!H u0 {10,D} {8,[S,D,T,B]}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.070000,-4.530000,-4.670000,-4.240000,-3.070000,-2.010000,-1.580000],'cal/(mol*K)','+|-',[1.612900,1.612900,1.612900,1.612900,1.612900,1.612900,1.612900]),
-        H298 = (1.960000,'kcal/mol','+|-',4.299300),
-        S298 = (28.760000,'cal/(mol*K)','+|-',1.849600),
-    ),
-    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
-Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
-
-Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
-http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
-
-Model Compounds include:
-C1=CC=C2CC=CC=CC2=C1
-""",
-)
-
-entry(
-    index = 219,
-    label = "s3_5_5_triene",
-    group =
-"""
-1 * R!H u0 p0 c0 {2,S} {5,D}
-2   R!H u0 p0 c0 {1,S} {6,D}
-3   R!H u0 p0 c0 {4,D} {6,S}
-4   R!H u0 p0 c0 {3,D} {5,S}
-5   R!H u0 p0 c0 {1,D} {4,S} {7,S}
-6   R!H u0 p0 c0 {2,D} {3,S} {7,S}
-7   R!H u0 p0 c0 {5,S} {6,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-7.643, -8.911, -8.948, -8.325, -6.710, -5.427, -4.153],'cal/(mol*K)'),
-        H298 = (103.170,'kcal/mol'),
-        S298 = (67.392,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C12=CC=C(C1)C=C2. Mengjie Liu 10/14/18.
-Symmetry correction removed from calculated entropy using RMG estimated
-symmetry number of 4 to give correct GAV entropy estimate.
-""",
-)
-
-entry(
-    index = 220,
-    label = "s2_s2_s3_6_6_6_ben_triene",
-    group =
-"""
-1    R!H u0 p0 c0 {2,B} {3,B} {5,S}
-2    R!H u0 p0 c0 {1,B} {6,B} {11,S}
-3    R!H u0 p0 c0 {1,B} {8,S} {9,B}
-4    R!H u0 p0 c0 {5,D} {7,S} {10,S}
-5    R!H u0 p0 c0 {1,S} {4,D}
-6    R!H u0 p0 c0 {2,B} {12,B}
-7    R!H u0 p0 c0 {4,S} {8,D}
-8    R!H u0 p0 c0 {3,S} {7,D}
-9    R!H u0 p0 c0 {3,B} {12,B}
-10   R!H u0 p0 c0 {4,S} {11,D}
-11   R!H u0 p0 c0 {2,S} {10,D}
-12 * R!H u0 p0 c0 {6,B} {9,B}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-7.245, -7.052, -6.442, -5.661, -4.296, -3.190, -3.003],'cal/(mol*K)'),
-        H298 = (105.475,'kcal/mol'),
-        S298 = (58.725,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2=C3C=C(C=CC3=C1)C=C2. Mengjie Liu 10/14/19.
-""",
-)
-
-entry(
-    index = 221,
-    label = "s2_s2_s2_6_5_5_ben_diene1",
-    group =
-"""
-1    R!H u0 p0 c0 {2,S} {5,S} {6,S}
-2  * R!H u0 p0 c0 {1,S} {3,B} {4,B}
-3    R!H u0 p0 c0 {2,B} {8,S} {9,B}
-4    R!H u0 p0 c0 {2,B} {7,S} {10,B}
-5    R!H u0 p0 c0 {1,S} {7,D}
-6    R!H u0 p0 c0 {1,S} {8,D}
-7    R!H u0 p0 c0 {4,S} {5,D}
-8    R!H u0 p0 c0 {3,S} {6,D}
-9    R!H u0 p0 c0 {3,B} {11,B}
-10   R!H u0 p0 c0 {4,B} {11,B}
-11   R!H u0 p0 c0 {9,B} {10,B}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-7.094, -6.439, -6.029, -5.410, -4.401, -3.268, -1.804],'cal/(mol*K)'),
-        H298 = (31.613,'kcal/mol'),
-        S298 = (54.952,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2=C3C(=C1)C=CC3C=C2. Mengjie Liu 10/14/19.
-""",
-)
-
-entry(
-    index = 222,
-    label = "s2_s2_s2_6_5_5_ben_diene2",
-    group =
-"""
-1    R!H u0 p0 c0 {2,S} {6,S}
-2    R!H u0 p0 c0 {1,S} {3,B} {7,B}
-3  * R!H u0 p0 c0 {2,B} {4,S} {5,B}
-4    R!H u0 p0 c0 {3,S} {6,D} {10,S}
-5    R!H u0 p0 c0 {3,B} {8,B} {9,S}
-6    R!H u0 p0 c0 {1,S} {4,D}
-7    R!H u0 p0 c0 {2,B} {11,B}
-8    R!H u0 p0 c0 {5,B} {11,B}
-9    R!H u0 p0 c0 {5,S} {10,D}
-10   R!H u0 p0 c0 {4,S} {9,D}
-11   R!H u0 p0 c0 {7,B} {8,B}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-7.726, -7.742, -7.568, -7.171, -6.048, -4.988, -3.887],'cal/(mol*K)'),
-        H298 = (27.606,'kcal/mol'),
-        S298 = (67.124,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2=C3C(=C1)C=CC3=CC2. Mengjie Liu 10/14/19.
-""",
-)
-
-entry(
-    index = 223,
-    label = "s2_4_4_ene_2",
-    group =
-"""
-1   R!H u0 p0 c0 {2,S} {4,S} {5,S}
-2   R!H u0 p0 c0 {1,S} {3,S}
-3 * R!H u0 p0 c0 {2,S} {5,S}
-4   R!H u0 p0 c0 {1,S} {6,S}
-5   R!H u0 p0 c0 {1,S} {3,S} {6,D}
-6   R!H u0 p0 c0 {4,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-5.463, -5.577, -5.448, -4.796, -4.053, -3.693, -2.850],'cal/(mol*K)'),
-        H298 = (80.045,'kcal/mol'),
-        S298 = (60.555,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1CC2CCC=12. Mengjie Liu 10/14/19.
-""",
-)
-
-entry(
-    index = 224,
-    label = "s2_4_4_diene_1_3",
-    group =
-"""
-1   R!H u0 p0 c0 {2,S} {3,S} {5,S}
-2   R!H u0 p0 c0 {1,S} {4,S}
-3   R!H u0 p0 c0 {1,S} {4,D} {6,S}
-4 * R!H u0 p0 c0 {2,S} {3,D}
-5   R!H u0 p0 c0 {1,S} {6,D}
-6   R!H u0 p0 c0 {3,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-6.387, -6.461, -6.218, -5.581, -4.592, -4.193, -3.443],'cal/(mol*K)'),
-        H298 = (96.567,'kcal/mol'),
-        S298 = (67.309,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2CC=C12. Mengjie Liu 10/14/19.
-""",
-)
-
-entry(
-    index = 225,
-    label = "s2_4_4_diene_1_4",
-    group =
-"""
-1   R!H u0 p0 c0 {2,S} {4,S} {5,S}
-2   R!H u0 p0 c0 {1,S} {3,S} {6,S}
-3 * R!H u0 p0 c0 {2,S} {4,D}
-4   R!H u0 p0 c0 {1,S} {3,D}
-5   R!H u0 p0 c0 {1,S} {6,D}
-6   R!H u0 p0 c0 {2,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-6.490, -5.314, -4.653, -4.048, -3.323, -3.248, -2.934],'cal/(mol*K)'),
-        H298 = (65.133,'kcal/mol'),
-        S298 = (65.027,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2C=CC12. Mengjie Liu 10/14/19.
-Symmetry correction removed from calculated entropy using RMG estimated
-symmetry number of 4 to give correct GAV entropy estimate.
-""",
-)
-
-entry(
-    index = 226,
-    label = "s2_4_4_diene_2_5",
-    group =
-"""
-1   R!H u0 p0 c0 {3,S} {5,S}
-2 * R!H u0 p0 c0 {4,S} {6,S}
-3   R!H u0 p0 c0 {1,S} {4,S} {6,D}
-4   R!H u0 p0 c0 {2,S} {3,S} {5,D}
-5   R!H u0 p0 c0 {1,S} {4,D}
-6   R!H u0 p0 c0 {2,S} {3,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-4.942, -6.178, -6.329, -5.779, -4.891, -4.528, -3.455],'cal/(mol*K)'),
-        H298 = (106.085,'kcal/mol'),
-        S298 = (65.391,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1CC2=CCC=12. Mengjie Liu 10/14/19.
-Symmetry correction removed from calculated entropy using RMG estimated
-symmetry number of 2 to give correct GAV entropy estimate.
-""",
-)
-
-entry(
-    index = 227,
-    label = "s2_4_4_triene",
-    group = "OR{s2_4_4_triene_1_4_m}",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 228,
-    label = "s2_4_4_triene_1_4_m",
-    group =
-"""
-1   R!H u0 p0 c0 {2,D} {4,S} {5,S}
-2   R!H u0 p0 c0 {1,D} {3,S} {6,S}
-3 * R!H u0 p0 c0 {2,S} {4,D}
-4   R!H u0 p0 c0 {1,S} {3,D}
-5   R!H u0 p0 c0 {1,S} {6,D}
-6   R!H u0 p0 c0 {2,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-1.380, -3.176, -4.085, -4.386, -4.685, -4.712, -5.913],'cal/(mol*K)'),
-        H298 = (118.453,'kcal/mol'),
-        S298 = (76.077,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2C=CC=21. Mengjie Liu 10/14/19.
-Symmetry correction removed from calculated entropy using RMG estimated
-symmetry number of 4 to give correct GAV entropy estimate.
-""",
-)
-
-entry(
-    index = 229,
-    label = "s4_6_6_barrelene",
-    group =
-"""
-1 * R!H u0 p0 c0 {3,S} {5,S} {8,S}
-2   R!H u0 p0 c0 {4,S} {6,S} {7,S}
-3   R!H u0 p0 c0 {1,S} {4,D}
-4   R!H u0 p0 c0 {2,S} {3,D}
-5   R!H u0 p0 c0 {1,S} {6,D}
-6   R!H u0 p0 c0 {2,S} {5,D}
-7   R!H u0 p0 c0 {2,S} {8,D}
-8   R!H u0 p0 c0 {1,S} {7,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-6.525, -4.619, -3.437, -2.596, -1.814, -1.708, -1.904],'cal/(mol*K)'),
-        H298 = (19.066,'kcal/mol'),
-        S298 = (49.625,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1(C=C2)C=CC2C=C1. Mengjie Liu 10/14/19.
-Symmetry correction removed from calculated entropy using RMG estimated
-symmetry number of 4 to give correct GAV entropy estimate.
-""",
-)
-
-entry(
-    index = 230,
-    label = "s2_s2_s3_6_6_5_ben_ene",
-    group =
-"""
-1    R!H u0 p0 c0 {2,S} {4,S}
-2    R!H u0 p0 c0 {1,S} {5,S}
-3    R!H u0 p0 c0 {4,S} {6,S}
-4  * R!H u0 p0 c0 {1,S} {3,S} {8,D}
-5    R!H u0 p0 c0 {2,S} {7,B} {9,B}
-6    R!H u0 p0 c0 {3,S} {7,B} {10,B}
-7    R!H u0 p0 c0 {5,B} {6,B} {8,S}
-8    R!H u0 p0 c0 {4,D} {7,S}
-9    R!H u0 p0 c0 {5,B} {11,B}
-10   R!H u0 p0 c0 {6,B} {11,B}
-11   R!H u0 p0 c0 {9,B} {10,B}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-6.450, -5.745, -5.424, -5.174, -4.423, -3.607, -2.536],'cal/(mol*K)'),
-        H298 = (132.105,'kcal/mol'),
-        S298 = (58.708,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2=C3C=C(CC2)CC3=C1. Mengjie Liu 10/22/19.
-""",
-)
-
-entry(
-    index = 231,
-    label = "s2_s2_s3_6_6_5_diene_diene",
-    group =
-"""
-1    R!H u0 p0 c0 {4,S} {6,S} {7,S}
-2    R!H u0 p0 c0 {4,S} {5,S}
-3  * R!H u0 p0 c0 {5,S} {8,S}
-4    R!H u0 p0 c0 {1,S} {2,S} {9,D}
-5    R!H u0 p0 c0 {2,S} {3,S} {7,D}
-6    R!H u0 p0 c0 {1,S} {8,D} {10,S}
-7    R!H u0 p0 c0 {1,S} {5,D}
-8    R!H u0 p0 c0 {3,S} {6,D}
-9    R!H u0 p0 c0 {4,D} {11,S}
-10   R!H u0 p0 c0 {6,S} {11,D}
-11   R!H u0 p0 c0 {9,S} {10,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-11.166, -12.168, -11.642, -10.223, -7.567, -5.820, -4.412],'cal/(mol*K)'),
-        H298 = (117.332,'kcal/mol'),
-        S298 = (83.403,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2=CCC3=CC2C(=C1)C3. Mengjie Liu 10/22/19.
-""",
-)
-
-entry(
-    index = 232,
-    label = "s2_s2_s2_6_5_5_diene_ene_ene1",
-    group =
-"""
-1  * R!H u0 p0 c0 {2,S} {3,S} {4,S}
-2    R!H u0 p0 c0 {1,S} {5,S} {7,S}
-3    R!H u0 p0 c0 {1,S} {6,S} {8,S}
-4    R!H u0 p0 c0 {1,S} {9,S} {10,D}
-5    R!H u0 p0 c0 {2,S} {6,D}
-6    R!H u0 p0 c0 {3,S} {5,D}
-7    R!H u0 p0 c0 {2,S} {11,D}
-8    R!H u0 p0 c0 {3,S} {9,D}
-9    R!H u0 p0 c0 {4,S} {8,D}
-10   R!H u0 p0 c0 {4,D} {11,S}
-11   R!H u0 p0 c0 {7,D} {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-13.880, -13.484, -12.673, -11.404, -8.898, -6.838, -4.917],'cal/(mol*K)'),
-        H298 = (15.048,'kcal/mol'),
-        S298 = (90.457,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2C=CC3C=CC(=C1)C23. Mengjie Liu 10/22/19.
-""",
-)
-
-entry(
-    index = 233,
-    label = "s2_s2_s2_6_5_5_diene_ene_ene2",
-    group =
-"""
-1    R!H u0 p0 c0 {2,S} {3,S} {7,S}
-2  * R!H u0 p0 c0 {1,S} {4,S} {5,S}
-3    R!H u0 p0 c0 {1,S} {6,S}
-4    R!H u0 p0 c0 {2,S} {6,D} {9,S}
-5    R!H u0 p0 c0 {2,S} {8,S} {10,D}
-6    R!H u0 p0 c0 {3,S} {4,D}
-7    R!H u0 p0 c0 {1,S} {8,D}
-8    R!H u0 p0 c0 {5,S} {7,D}
-9    R!H u0 p0 c0 {4,S} {11,D}
-10   R!H u0 p0 c0 {5,D} {11,S}
-11   R!H u0 p0 c0 {9,D} {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-14.117, -14.900, -14.467, -13.113, -10.292, -7.892, -5.481],'cal/(mol*K)'),
-        H298 = (20.095,'kcal/mol'),
-        S298 = (90.893,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2=CCC3C=CC(=C1)C23. Mengjie Liu 10/22/19.
-""",
-)
-
-entry(
-    index = 234,
-    label = "s2_s2_6_6_3_ben_ene",
-    group =
-"""
-1    R!H u0 p0 c0 {2,S} {3,S} {4,S}
-2    R!H u0 p0 c0 {1,S} {4,S}
-3    R!H u0 p0 c0 {1,S} {5,S}
-4  * R!H u0 p0 c0 {1,S} {2,S} {7,D}
-5    R!H u0 p0 c0 {3,S} {6,B} {8,B}
-6    R!H u0 p0 c0 {5,B} {7,S} {9,B}
-7    R!H u0 p0 c0 {4,D} {6,S}
-8    R!H u0 p0 c0 {5,B} {11,B}
-9    R!H u0 p0 c0 {6,B} {10,B}
-10   R!H u0 p0 c0 {9,B} {11,B}
-11   R!H u0 p0 c0 {8,B} {10,B}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-6.078, -6.636, -6.774, -6.170, -4.869, -3.677, -2.520],'cal/(mol*K)'),
-        H298 = (49.858,'kcal/mol'),
-        S298 = (57.209,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2=C(C=C1)CC1CC1=C2. Mengjie Liu 10/22/19.
-""",
-)
-
-entry(
-    index = 235,
-    label = "s2_s2_s4_6_6_6_5ene",
-    group =
-"""
-1    R!H u0 p0 c0 {2,S} {3,S} {5,S}
-2    R!H u0 p0 c0 {1,S} {6,D} {8,S}
-3    R!H u0 p0 c0 {1,S} {7,S} {9,D}
-4  * R!H u0 p0 c0 {6,S} {7,D} {10,S}
-5    R!H u0 p0 c0 {1,S} {10,D}
-6    R!H u0 p0 c0 {2,D} {4,S}
-7    R!H u0 p0 c0 {3,S} {4,D}
-8    R!H u0 p0 c0 {2,S} {11,D}
-9    R!H u0 p0 c0 {3,D} {11,S}
-10   R!H u0 p0 c0 {4,S} {5,D}
-11   R!H u0 p0 c0 {8,D} {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
-        Cpdata = ([-11.327, -11.768, -11.530, -10.808, -8.938, -7.248, -6.477],'cal/(mol*K)'),
-        H298 = (118.078,'kcal/mol'),
-        S298 = (93.217,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted from CBS-QB3 calculation""",
-    longDesc =
-u""""
-Fitted from CBS-QB3 calculation for C1=CC2=CC3=CC(=C1)C2C=C3. Mengjie Liu 11/6/19.
-""",
-)
-
-entry(
-    index = 235,
-    label = "s3_5_7",
-    group = 
-"""
-1 * Cs u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
-2   Cs u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
-3   Cs u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
-4   Cs u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
-5   Cs u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
-6   Cs u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
-7   Cs u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
-8   Cs u0 {6,[S,D,T,B]} {9,[S,D,T,B]}
-9   Cs u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 236,
-    label = "s3_5_7_ane_0",
-    group = 
-"""
-1 * Cs u0 {3,S} {4,S} {7,S}
-2   Cs u0 {3,S} {5,S} {6,S}
-3   Cs u0 {1,S} {2,S}
-4   Cs u0 {1,S} {5,S}
-5   Cs u0 {2,S} {4,S}
-6   Cs u0 {2,S} {8,S}
-7   Cs u0 {1,S} {9,S}
-8   Cs u0 {6,S} {9,S}
-9   Cs u0 {7,S} {8,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-45.7191,-44.2253,-41.4619,-36.9352,-26.6286,-17.5809,-7.34014],'J/(mol*K)'),
-        H298 = (45.2012,'kJ/mol','+|-',3.05828),
-        S298 = (181.605,'J/(mol*K)','+|-',7.94583),
-    ),
-    shortDesc = u"""Fitted from thermo library values""",
-    longDesc = 
-u"""
-Fitted from species s3_5_7_ane_0 from s3_5_7_ane library.
-Fitted from species s3_5_7_ane_1 from s3_5_7_ane library.
-Fitted from species s3_5_7_ane_2 from s3_5_7_ane library.
-Fitted from species s3_5_7_ane_3 from s3_5_7_ane library.
-Fitted from species s3_5_7_ane_4 from s3_5_7_ane library.
-Fitted from species s3_5_7_ane_5 from s3_5_7_ane library.
 """,
 )
 
@@ -9969,7 +9995,7 @@ L1: PolycyclicRing
         L3: s2_3_5_ene
             L4: s2_3_5_ene_1_side
             L4: s2_3_5_ene_1
-            L4: s2_3_5_ene_side 
+            L4: s2_3_5_ene_side
         L3: s2_3_5_ane
         L3: s2_3_5_diene
             L4: s2_3_5_diene_0_2
