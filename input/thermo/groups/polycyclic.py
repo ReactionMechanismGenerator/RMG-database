@@ -15,14 +15,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-8.0965, -8.0273, -7.5406, -6.7245, -5.1629, -3.8514, -2.2408],'cal/(mol*K)'),
+        H298 = (38.139,'kcal/mol'),
+        S298 = (52.871,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
 u"""
-Properties of Liquids and Gases, Poling 5th Ed.
+Averaged on 2020-06-03 using averaging_polycyclic_group_entries_for_polycyclic(PolycyclicRing).ipynb
 """,
 )
 
