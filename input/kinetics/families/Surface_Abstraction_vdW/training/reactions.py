@@ -167,6 +167,7 @@ A factor from paper / surface site density of Cu
 """,
     metal = "Cu",
 )
+<<<<<<< HEAD
 
 entry(
     index = 47,
@@ -333,7 +334,6 @@ A (at 300K) = 5.1E11(1/s)/2.483E-9(mol/cm^2) = 2.054E20 cm^2/(mol*s)
     facet = "111",
 )
 
-<<<<<<< HEAD
 entry(
     index = 54,
     label = "O* + H3NX <=> H2NX + OH_4*",
@@ -1028,6 +1028,7 @@ This is R73 in Table 2
     facet = "111",
 )
 
+<<<<<<< HEAD
 entry(
     index = 81,
     label = "CH2X + H2O* <=> OH_2* + CH3X",
@@ -1330,8 +1331,6 @@ This is R26 in Table 3
     facet = "111",
 )
 
-=======
-=======
 
 entry(
     index = 6,
