@@ -12,7 +12,7 @@ entry(
     index = 1,
     label = "N_Pt + N_Pt <=> N2 + Pt + Pt",
     kinetics = SurfaceArrhenius(
-        A=(7.449e+16, 'm^2/(mol*s)'),
+        A=(1.2082e+16, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (85.0, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -32,7 +32,7 @@ entry(
     index = 2,
     label = "N_Pt + O_Pt <=> NO_Pt + Pt",
     kinetics = SurfaceArrhenius(
-        A=(4.966e+20, 'm^2/(mol*s)'),
+        A=(8.05477e+19, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (85.0, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -52,7 +52,7 @@ entry(
     index = 3,
     label = "NO_Pt + N_Pt <=> N2O + Pt + Pt",
     kinetics = SurfaceArrhenius(
-        A=(2.7313e+19, 'm^2/(mol*s)'),
+        A=(4.43012e+18, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (101.0, 'kJ/mol'),
         Tmin = (298, 'K'),
