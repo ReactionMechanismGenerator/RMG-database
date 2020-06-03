@@ -1336,7 +1336,7 @@ entry(
     label = "H3NX + O* <=> H2NX + HO_Pt",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
-        A = (9.1871e+16, 'm^2/(mol*s)'),
+        A = (1.49013e+16, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (55.0, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -1360,7 +1360,7 @@ entry(
     label = "H3NX + HOr_Pt <=> H2NX + H2O_Pt",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
-        A = (9.6837e+17, 'm^2/(mol*s)'),
+        A = (1.5706e+17, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (73.0, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -1384,7 +1384,7 @@ entry(
     label = "NH2p_Pt + OH_2*  <=> HNX + H2O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A = (8.4422e+17, 'm^2/(mol*s)'),
+        A = (1.36931e+17, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (22.0, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -1408,7 +1408,7 @@ entry(
     label = "HNX-2 + OH_2*  <=> NX + H2O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A=(1.26633e+17, 'm^2/(mol*s)'),
+        A= (2.0540e+16, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (22.0, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -1456,7 +1456,7 @@ entry(
     label = "HOr_Pt + HO123_Pt  <=> O* + H2O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A=(2.483e+18, 'm^2/(mol*s)'),
+        A= (4.02739e+17, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (75.0, 'kJ/mol'),
         Tmin = (298, 'K'),
