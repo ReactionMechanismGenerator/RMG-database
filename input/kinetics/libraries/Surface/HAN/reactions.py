@@ -32,7 +32,7 @@ entry(
     index = 1,
     label = "NH4NO3 + X <=> NH4NO3_X",
     kinetics = StickingCoefficient(
-        A = 0.1,
+        A = 0.75,
         n = 0,
         Ea=(0, 'kJ/mol'),
         Tmin = (200, 'K'),
@@ -65,7 +65,7 @@ entry(
     index = 3,
     label = "HAN + X <=> HAN_X",
     kinetics = StickingCoefficient(
-        A = 0.1,
+        A = 0.75,
         n = 0,
         Ea=(0, 'kJ/mol'),
         Tmin = (200, 'K'),
