@@ -9792,6 +9792,62 @@ Fitted from CBS-QB3 calculation for C1=CC2=CC3=CC(=C1)C2C=C3. Mengjie Liu 11/6/1
 """,
 )
 
+entry(
+    index = 235,
+    label = "s3_5_7",
+    group = 
+"""
+1 * Cs u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
+2   Cs u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
+3   Cs u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+4   Cs u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
+5   Cs u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+6   Cs u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+7   Cs u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+8   Cs u0 {6,[S,D,T,B]} {9,[S,D,T,B]}
+9   Cs u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 236,
+    label = "s3_5_7_ane_0",
+    group = 
+"""
+1 * Cs u0 {3,S} {4,S} {7,S}
+2   Cs u0 {3,S} {5,S} {6,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {5,S}
+5   Cs u0 {2,S} {4,S}
+6   Cs u0 {2,S} {8,S}
+7   Cs u0 {1,S} {9,S}
+8   Cs u0 {6,S} {9,S}
+9   Cs u0 {7,S} {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-45.7191,-44.2253,-41.4619,-36.9352,-26.6286,-17.5809,-7.34014],'J/(mol*K)'),
+        H298 = (45.2012,'kJ/mol','+|-',3.05828),
+        S298 = (181.605,'J/(mol*K)','+|-',7.94583),
+    ),
+    shortDesc = u"""Fitted from thermo library values""",
+    longDesc = 
+u"""
+Fitted from species s3_5_7_ane_0 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_1 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_2 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_3 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_4 from s3_5_7_ane library.
+Fitted from species s3_5_7_ane_5 from s3_5_7_ane library.
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -10150,6 +10206,8 @@ L1: PolycyclicRing
         L3: s3_5_6_ben_ene
             L4: s3_5_6_ben_ene_res1
             L4: s3_5_6_ben_ene_res2
+    L2: s3_5_7
+        L3: s3_5_7_ane_0
     L2: s3_6_6
         L3: s3_6_6_ane
         L3: s3_6_6_ene
