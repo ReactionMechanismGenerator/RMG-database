@@ -25,6 +25,7 @@ training set for generating rate rules to populate this kinetics family.
 #"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 #Delgado et al
 #Catalysts, 2015, 5, 871-904
-#"""
+#""",
+#    metal = "Ni",
 #)
 
