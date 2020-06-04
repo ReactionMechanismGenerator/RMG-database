@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "surfaceThermoNi"
-shortDesc = u""
+name = "surfaceThermoNi111"
+shortDesc = u"Surface adsorbates on Ni(111)"
 longDesc = u"""
-A few surface species.
+A few surface species adsorbed on Ni(111),
+largely estimated by Franklin Goldsmith
 """
 
 
