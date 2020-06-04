@@ -2,8 +2,15 @@
 # encoding: utf-8
 
 
-name = "SurfaceThermoPt"
-#Note: "-h" means "horizontal".
+name = "SurfaceThermoPt111"
+shortDesc = u"Surface adsorbates on Pt(111)"
+longDesc = u"""
+Some surface species adsorbed on Pt(111),
+Mostly calculated by Katrin Blondal at Brown University around 2018,
+based on DFT calculations by Jelena Jelic at KIT.
+Note: "-h" means "horizontal".
+"""
+#
 
 entry(
     index = 1,

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface Adsorption Corrections"
-shortDesc = u""
+name = "Surface Adsorption Corrections Pt(111)"
+shortDesc = u"Surface adsorption Pt(111), Blondal 2018"
 longDesc = u"""
 Changes due to adsorbing on a surface.
 Here, Pt(111)
