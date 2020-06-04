@@ -659,7 +659,7 @@ entry(
     index=100010,
     label="imipramine_5 + OHCH2OO_r <=> imipramine_rad_5 + OHCH2OOH_p",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(2.2408e+08, 'cm^3/(mol*s)'), n=0, Ea=(47.4742, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+    kinetics=Arrhenius(A=(4.55192e+07, 'cm^3/(mol*s)'), n=0, Ea=(21.0728, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00019, dn = +|- 0, 
                          dEa = +|- 0.000483392 kJ/mol"""),
     rank=1,
@@ -679,108 +679,10 @@ entry(
 )
 
 entry(
-    index=100011,
-    label="imipramine_11 + OHCH2OO_r <=> imipramine_rad_11 + OHCH2OOH_p",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(3.94097e+07, 'cm^3/(mol*s)'), n=0, Ea=(56.0508, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00014, dn = +|- 0, 
-                         dEa = +|- 0.000364259 kJ/mol"""),
-    rank=1,
-    shortDesc=u"""k11+k12""",
-    longDesc=
-    u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(7.28152e+06,'cm^3/(mol*s)'), n=0, Ea=(55.1441,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.29398e+07,'cm^3/(mol*s)'), n=0, Ea=(56.3744,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')), 
-            ],
-        ),
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
-    """,
-)
-
-entry(
-    index=100012,
-    label="imipramine_20 + OHCH2OO_r <=> imipramine_rad_20 + OHCH2OOH_p",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.32296e+09, 'cm^3/(mol*s)'), n=0, Ea=(41.7324, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00002, dn = +|- 0, 
-                         dEa = +|- 4.59316e-05 kJ/mol"""),
-    rank=1,
-    shortDesc=u"""k20+k21""",
-    longDesc=
-    u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(5.95847e+08,'cm^3/(mol*s)'), n=0, Ea=(64.4211,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.32199e+09,'cm^3/(mol*s)'), n=0, Ea=(41.7307,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),    
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
-    """,
-)
-
-entry(
-    index=100013,
-    label="imipramine_28 + OHCH2OO_r <=> imipramine_rad_28 + OHCH2OOH_p",
-    degeneracy=4.0,
-    kinetics=Arrhenius(A=(4.7123e+06, 'cm^3/(mol*s)'), n=0, Ea=(24.1853, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00028, dn = +|- 0, 
-                         dEa = +|- 0.000717396 kJ/mol"""),
-    rank=1,
-    shortDesc=u"""k28+k29+k35+k36""",
-    longDesc=
-    u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(9170.74,'cm^3/(mol*s)'), n=0, Ea=(39.7754,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(766587,'cm^3/(mol*s)'), n=0, Ea=(26.9283,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(484932,'cm^3/(mol*s)'), n=0, Ea=(25.4013,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.7415e+06,'cm^3/(mol*s)'), n=0, Ea=(23.9218,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
-    """,
-)
-
-entry(
-    index=100014,
-    label="imipramine_39 + OHCH2OO_r <=> imipramine_rad_39 + OHCH2OOH_p",
-    degeneracy=6.0,
-    kinetics=Arrhenius(A=(2.1327e+09, 'cm^3/(mol*s)'), n=0, Ea=(46.4329, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00198, dn = +|- 0, 
-                         dEa = +|- 0.00509461 kJ/mol"""),
-    rank=1,
-    shortDesc=u"""k39+k40+k41+k42+k43+k44""",
-    longDesc=
-    u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(5.12635e+07,'cm^3/(mol*s)'), n=0, Ea=(44.5079,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.96182e+09,'cm^3/(mol*s)'), n=0, Ea=(48.4126,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(5.13709e+07,'cm^3/(mol*s)'), n=0, Ea=(44.3745,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(4.32581e+08,'cm^3/(mol*s)'), n=0, Ea=(47.5423,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.23633e+08,'cm^3/(mol*s)'), n=0, Ea=(43.7415,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.70318e+08,'cm^3/(mol*s)'), n=0, Ea=(44.4719,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
-    """,
-)
-
-entry(
     index=100015,
     label="imipramine_rad_5_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.26055e+08, 'cm^3/(mol*s)'), n=0, Ea=(30.0341, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+    kinetics=Arrhenius(A=(1.60108e+07, 'cm^3/(mol*s)'), n=0, Ea=(4.5213, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00019, dn = +|- 0, 
                          dEa = +|- 0.00048346 kJ/mol"""),
 
@@ -804,10 +706,33 @@ entry(
 )
 
 entry(
+    index=100011,
+    label="imipramine_11 + OHCH2OO_r <=> imipramine_rad_11 + OHCH2OOH_p",
+    degeneracy=2.0,
+    kinetics=Arrhenius(A=(4.83967e+07, 'cm^3/(mol*s)'), n=0, Ea=(60.372, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00014, dn = +|- 0, 
+                         dEa = +|- 0.000364259 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""k11+k12""",
+    longDesc=
+    u"""
+    Data refitted from:
+        MultiArrhenius(
+            arrhenius = [
+                Arrhenius(A=(7.28152e+06,'cm^3/(mol*s)'), n=0, Ea=(55.1441,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(3.29398e+07,'cm^3/(mol*s)'), n=0, Ea=(56.3744,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')), 
+            ],
+        ),
+    optfreq: wb97xd/def2tzvp SMD water
+    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+    """,
+)
+
+entry(
     index=100016,
     label="imipramine_rad_11_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.10495e+07, 'cm^3/(mol*s)'), n=0, Ea=(11.1159, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+    kinetics=Arrhenius(A=(8.57082e+06, 'cm^3/(mol*s)'), n=0, Ea=(16.4188, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00014, dn = +|- 0, 
                          dEa = +|- 0.000364325 kJ/mol"""),
 
@@ -831,10 +756,33 @@ entry(
 )
 
 entry(
+    index=100012,
+    label="imipramine_20 + OHCH2OO_r <=> imipramine_rad_20 + OHCH2OOH_p",
+    degeneracy=2.0,
+    kinetics=Arrhenius(A=(1.01243e+09, 'cm^3/(mol*s)'), n=0, Ea=(34.4679, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00002, dn = +|- 0, 
+                         dEa = +|- 4.59316e-05 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""k20+k21""",
+    longDesc=
+    u"""
+    Data refitted from:
+        MultiArrhenius(
+            arrhenius = [
+                Arrhenius(A=(5.95847e+08,'cm^3/(mol*s)'), n=0, Ea=(64.4211,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(1.32199e+09,'cm^3/(mol*s)'), n=0, Ea=(41.7307,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+            ],
+        ),    
+    optfreq: wb97xd/def2tzvp SMD water
+    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+    """,
+)
+
+entry(
     index=100017,
     label="imipramine_rad_20_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(3.44515e+08, 'cm^3/(mol*s)'), n=0, Ea=(17.8822, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+    kinetics=Arrhenius(A=(3.29769e+08, 'cm^3/(mol*s)'), n=0, Ea=(15.9783, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00002, dn = +|- 0, 
                          dEa = +|- 4.59318e-05 kJ/mol"""),
 
@@ -858,10 +806,35 @@ entry(
 )
 
 entry(
+    index=100013,
+    label="imipramine_28 + OHCH2OO_r <=> imipramine_rad_28 + OHCH2OOH_p",
+    degeneracy=4.0,
+    kinetics=Arrhenius(A=(1.62526e+06, 'cm^3/(mol*s)'), n=0, Ea=(21.0094, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00028, dn = +|- 0, 
+                         dEa = +|- 0.000717396 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""k28+k29+k35+k36""",
+    longDesc=
+    u"""
+    Data refitted from:
+        MultiArrhenius(
+            arrhenius = [
+                Arrhenius(A=(9170.74,'cm^3/(mol*s)'), n=0, Ea=(39.7754,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(766587,'cm^3/(mol*s)'), n=0, Ea=(26.9283,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(484932,'cm^3/(mol*s)'), n=0, Ea=(25.4013,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(3.7415e+06,'cm^3/(mol*s)'), n=0, Ea=(23.9218,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+            ],
+        ),
+    optfreq: wb97xd/def2tzvp SMD water
+    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+    """,
+)
+
+entry(
     index=100018,
     label="imipramine_rad_28_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=4.0,
-    kinetics=Arrhenius(A=(4.35616e+06, 'cm^3/(mol*s)'), n=0, Ea=(38.5047, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+    kinetics=Arrhenius(A=(5.38076e+06, 'cm^3/(mol*s)'), n=0, Ea=(33.8464, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00055, dn = +|- 0, 
                          dEa = +|- 0.00142977 kJ/mol"""),
     rank=1,
@@ -888,10 +861,37 @@ entry(
 )
 
 entry(
+    index=100014,
+    label="imipramine_39 + OHCH2OO_r <=> imipramine_rad_39 + OHCH2OOH_p",
+    degeneracy=6.0,
+    kinetics=Arrhenius(A=(2.41761e+09, 'cm^3/(mol*s)'), n=0, Ea=(48.4544, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00198, dn = +|- 0, 
+                         dEa = +|- 0.00509461 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""k39+k40+k41+k42+k43+k44""",
+    longDesc=
+    u"""
+    Data refitted from:
+        MultiArrhenius(
+            arrhenius = [
+                Arrhenius(A=(5.12635e+07,'cm^3/(mol*s)'), n=0, Ea=(44.5079,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(1.96182e+09,'cm^3/(mol*s)'), n=0, Ea=(48.4126,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(5.13709e+07,'cm^3/(mol*s)'), n=0, Ea=(44.3745,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(4.32581e+08,'cm^3/(mol*s)'), n=0, Ea=(47.5423,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(1.23633e+08,'cm^3/(mol*s)'), n=0, Ea=(43.7415,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+                Arrhenius(A=(1.70318e+08,'cm^3/(mol*s)'), n=0, Ea=(44.4719,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+            ],
+        ),
+    optfreq: wb97xd/def2tzvp SMD water
+    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+    """,
+)
+
+entry(
     index=100019,
     label="imipramine_rad_39_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=6.0,
-    kinetics=Arrhenius(A=(7.43984e+08, 'cm^3/(mol*s)'), n=0, Ea=(17.4055, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+    kinetics=Arrhenius(A=(7.3889e+08, 'cm^3/(mol*s)'), n=0, Ea=(25.3038, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00455, dn = +|- 0, 
                          dEa = +|- 0.0117207 kJ/mol"""),
 
@@ -921,6 +921,273 @@ entry(
     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
     """,
 )
+
+# entry(
+#     index=100010,
+#     label="imipramine_5 + OHCH2OO_r <=> imipramine_rad_5 + OHCH2OOH_p",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(2.2408e+08, 'cm^3/(mol*s)'), n=0, Ea=(47.4742, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00019, dn = +|- 0,
+#                          dEa = +|- 0.000483392 kJ/mol"""),
+#     rank=1,
+#     shortDesc=u"""k5+k6""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(1.08411e+08,'cm^3/(mol*s)'), n=0, Ea=(48.3309,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.22632e+08,'cm^3/(mol*s)'), n=0, Ea=(47.0195,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100011,
+#     label="imipramine_11 + OHCH2OO_r <=> imipramine_rad_11 + OHCH2OOH_p",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(3.94097e+07, 'cm^3/(mol*s)'), n=0, Ea=(56.0508, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00014, dn = +|- 0,
+#                          dEa = +|- 0.000364259 kJ/mol"""),
+#     rank=1,
+#     shortDesc=u"""k11+k12""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(7.28152e+06,'cm^3/(mol*s)'), n=0, Ea=(55.1441,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.29398e+07,'cm^3/(mol*s)'), n=0, Ea=(56.3744,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100012,
+#     label="imipramine_20 + OHCH2OO_r <=> imipramine_rad_20 + OHCH2OOH_p",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.32296e+09, 'cm^3/(mol*s)'), n=0, Ea=(41.7324, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00002, dn = +|- 0,
+#                          dEa = +|- 4.59316e-05 kJ/mol"""),
+#     rank=1,
+#     shortDesc=u"""k20+k21""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(5.95847e+08,'cm^3/(mol*s)'), n=0, Ea=(64.4211,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.32199e+09,'cm^3/(mol*s)'), n=0, Ea=(41.7307,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100013,
+#     label="imipramine_28 + OHCH2OO_r <=> imipramine_rad_28 + OHCH2OOH_p",
+#     degeneracy=4.0,
+#     kinetics=Arrhenius(A=(4.7123e+06, 'cm^3/(mol*s)'), n=0, Ea=(24.1853, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00028, dn = +|- 0,
+#                          dEa = +|- 0.000717396 kJ/mol"""),
+#     rank=1,
+#     shortDesc=u"""k28+k29+k35+k36""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(9170.74,'cm^3/(mol*s)'), n=0, Ea=(39.7754,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(766587,'cm^3/(mol*s)'), n=0, Ea=(26.9283,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(484932,'cm^3/(mol*s)'), n=0, Ea=(25.4013,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.7415e+06,'cm^3/(mol*s)'), n=0, Ea=(23.9218,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100014,
+#     label="imipramine_39 + OHCH2OO_r <=> imipramine_rad_39 + OHCH2OOH_p",
+#     degeneracy=6.0,
+#     kinetics=Arrhenius(A=(2.1327e+09, 'cm^3/(mol*s)'), n=0, Ea=(46.4329, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00198, dn = +|- 0,
+#                          dEa = +|- 0.00509461 kJ/mol"""),
+#     rank=1,
+#     shortDesc=u"""k39+k40+k41+k42+k43+k44""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(5.12635e+07,'cm^3/(mol*s)'), n=0, Ea=(44.5079,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.96182e+09,'cm^3/(mol*s)'), n=0, Ea=(48.4126,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(5.13709e+07,'cm^3/(mol*s)'), n=0, Ea=(44.3745,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(4.32581e+08,'cm^3/(mol*s)'), n=0, Ea=(47.5423,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.23633e+08,'cm^3/(mol*s)'), n=0, Ea=(43.7415,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.70318e+08,'cm^3/(mol*s)'), n=0, Ea=(44.4719,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100015,
+#     label="imipramine_rad_5_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.26055e+08, 'cm^3/(mol*s)'), n=0, Ea=(30.0341, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00019, dn = +|- 0,
+#                          dEa = +|- 0.00048346 kJ/mol"""),
+#
+#     rank=1,
+#     shortDesc=u"""k5+k6 reverse""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(6.09861e+07,'cm^3/(mol*s)'), n=0, Ea=(30.8909,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(6.8986e+07,'cm^3/(mol*s)'), n=0, Ea=(29.5794,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     reverse of entry 100010
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100016,
+#     label="imipramine_rad_11_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.10495e+07, 'cm^3/(mol*s)'), n=0, Ea=(11.1159, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00014, dn = +|- 0,
+#                          dEa = +|- 0.000364325 kJ/mol"""),
+#
+#     rank=1,
+#     shortDesc=u"""k11+k12 reverse""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(2.04157e+06,'cm^3/(mol*s)'), n=0, Ea=(10.2091,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(9.23557e+06,'cm^3/(mol*s)'), n=0, Ea=(11.4395,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     reverse of entry 100011
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100017,
+#     label="imipramine_rad_20_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(3.44515e+08, 'cm^3/(mol*s)'), n=0, Ea=(17.8822, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00002, dn = +|- 0,
+#                          dEa = +|- 4.59318e-05 kJ/mol"""),
+#
+#     rank=1,
+#     shortDesc=u"""k20+k21 reverse""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(1.55167e+08,'cm^3/(mol*s)'), n=0, Ea=(40.5709,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.44263e+08,'cm^3/(mol*s)'), n=0, Ea=(17.8805,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     reverse of entry 100012
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100018,
+#     label="imipramine_rad_28_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=4.0,
+#     kinetics=Arrhenius(A=(4.35616e+06, 'cm^3/(mol*s)'), n=0, Ea=(38.5047, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00055, dn = +|- 0,
+#                          dEa = +|- 0.00142977 kJ/mol"""),
+#     rank=1,
+#     shortDesc=u"""k28+k29+k35+k36 reverse""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#        MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(14272.2,'cm^3/(mol*s)'), n=0, Ea=(56.045,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.19302e+06,'cm^3/(mol*s)'), n=0, Ea=(43.1979,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(444232,'cm^3/(mol*s)'), n=0, Ea=(39.6659,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.42747e+06,'cm^3/(mol*s)'), n=0, Ea=(38.1864,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     reverse of entry 100013
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
+#
+# entry(
+#     index=100019,
+#     label="imipramine_rad_39_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=6.0,
+#     kinetics=Arrhenius(A=(7.43984e+08, 'cm^3/(mol*s)'), n=0, Ea=(17.4055, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00455, dn = +|- 0,
+#                          dEa = +|- 0.0117207 kJ/mol"""),
+#
+#     rank=1,
+#     shortDesc=u"""k39+k40+k41+k42+k43+k44""",
+#     longDesc=
+#     u"""
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(3.13871e+07,'cm^3/(mol*s)'), n=0, Ea=(18.9298,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.20116e+09,'cm^3/(mol*s)'), n=0, Ea=(22.8345,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.14528e+07,'cm^3/(mol*s)'), n=0, Ea=(18.7964,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(2.28831e+08,'cm^3/(mol*s)'), n=0, Ea=(18.3627,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(6.54003e+07,'cm^3/(mol*s)'), n=0, Ea=(14.562,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(9.00966e+07,'cm^3/(mol*s)'), n=0, Ea=(15.2923,'kJ/mol'),
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     reverse of entry 100014
+#     optfreq: wb97xd/def2tzvp SMD water
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+#     """,
+# )
 
 entry(
     index=100020,
