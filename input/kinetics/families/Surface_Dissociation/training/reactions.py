@@ -24,7 +24,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R16
-"""
+""",
+    metal = "Ni",
 )
 
 
@@ -44,7 +45,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R18
-"""
+""",
+    metal = "Ni",
 )
 
 #Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R20.
@@ -64,7 +66,8 @@ Catalysts, 2015, 5, 871-904. Reaction R18
 #"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 #Delgado et al
 #Catalysts, 2015, 5, 871-904. Reaction R19
-#"""
+#""",
+#    metal = "Ni"
 #)
 
 entry(
@@ -83,7 +86,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R20
-"""
+""",
+    metal = "Ni",
 )
 
 
@@ -104,7 +108,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R32
-"""
+""",
+    metal = "Ni",
 )
 
 
@@ -124,7 +129,8 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R4
-"""
+""",
+    metal = "Ni",
 )
 
 
@@ -144,5 +150,6 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R8
-"""
+""",
+    metal = "Ni",
 )

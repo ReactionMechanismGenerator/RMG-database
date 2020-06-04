@@ -69,6 +69,7 @@ Catalysts, 2015, 5, 871-904. Reaction R26
 #Delgado et al
 #Catalysts, 2015, 5, 871-904. Reaction R27
 #""",
+#    metal = "Ni",
 #)
 
 entry(
