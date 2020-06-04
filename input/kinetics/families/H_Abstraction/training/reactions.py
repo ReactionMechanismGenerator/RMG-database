@@ -310,348 +310,348 @@ entry(
 
 # imipramine + CH3OO
 
-entry(
-    index=100005,
-    label="imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.13218e+09, 'cm^3/(mol*s)'), n=0, Ea=(58.5589, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.02664, dn = +|- 0, 
-                         dEa = +|- 0.0671562 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k5+k6""",
-    longDesc=
-    u"""
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    H6 is blocked, H5 and H6 have the same 2D connectivity
-    k6 = 0  =>  k5 + k6 = k5
-    
-    Indices are 1-indexed, corresponding to the following atom order of imipramine:
-    
-     N                 -0.00634640   -0.33884115    0.59014543
-     C                  1.34971160   -0.59332915    0.28011243
-     C                 -0.33884640    1.02531185    0.80935343
-     C                  1.90724860   -1.99720215    0.28906443
-     H                  1.54683540   -0.24043385   -0.74445243
-     H                  2.01383960    0.10240385    0.81678743
-     C                 -1.04087840   -1.29842115    0.44492743
-     C                  0.01734260    1.63227285    2.01649843
-     C                 -0.96251440    1.76363785   -0.20843657
-     C                  3.36262660   -1.96925415   -0.18238057
-     H                  1.84605060   -2.43910815    1.30009143
-     H                  1.31932360   -2.66123715   -0.36605157
-     C                 -0.98498540   -2.42954315    1.27978143
-     C                 -2.12109040   -1.15216515   -0.45091657
-     C                 -0.25921040    2.98164885    2.22905943
-     H                  0.51102860    1.03046785    2.78373243
-     C                 -1.27502340    1.08404885   -1.50705857
-     C                 -1.25012340    3.11152385    0.02862343
-     N                  4.20026960   -1.13768215    0.65915443
-     H                  3.38114260   -1.55505415   -1.20088257
-     H                  3.75199360   -3.00993915   -0.25151957
-     C                 -1.94181640   -3.43312815    1.21393843
-     H                 -0.17359640   -2.49346015    2.00576243
-     C                 -2.36378440    0.02234685   -1.37389557
-     C                 -3.08445640   -2.17367815   -0.48437757
-     C                 -0.90050640    3.72118885    1.23368643
-     H                  0.01841160    3.45358985    3.17527243
-     H                 -1.60779740    1.83365885   -2.24172757
-     H                 -0.34933940    0.64413985   -1.91332857
-     H                 -1.73933540    3.69591885   -0.75661957
-     C                  5.30282460   -0.53382415   -0.04745657
-     C                  4.60551260   -1.78583115    1.87822243
-     C                 -3.00436540   -3.30587615    0.31758043
-     H                 -1.86875240   -4.30196615    1.87337043
-     H                 -2.58743840   -0.38168415   -2.37611257
-     H                 -3.29548040    0.51591885   -1.04184457
-     H                 -3.92342640   -2.06790415   -1.17971757
-     H                 -1.12568540    4.77886885    1.39528643
-     H                  5.84454960    0.15200385    0.62333943
-     H                  6.04077360   -1.27564415   -0.43015257
-     H                  4.92157960    0.05386585   -0.89461757
-     H                  5.12651860   -1.07235215    2.53562043
-     H                  5.28861260   -2.65058115    1.70831543
-     H                  3.73034460   -2.16058715    2.43060043
-     H                 -3.77247840   -4.08092015    0.25152943
-    """,
-)
-
-entry(
-    index=1000051,
-    label="imipramine_rad_5_r + CH3OOH_rO <=> imipramine + CH3OO_p",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(2.98189e+07, 'cm^3/(mol*s)'), n=0, Ea=(22.7604, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.02208, dn = +|- 0, 
-                         dEa = +|- 0.0557917 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k5+k6 reverse""",
-    longDesc=
-    u"""
-    reverse of entry 100005
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    H6 is blocked, H5 and H6 have the same 2D connectivity
-    k6 = 0  =>  k5 + k6 = k5
-    
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
-
-entry(
-    index=100006,
-    label="imipramine_11 + CH3OO_r3 <=> imipramine_rad_11 + CH3OOH",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.18283e+09, 'cm^3/(mol*s)'), n=0, Ea=(71.1023, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00034, dn = +|- 0, 
-                         dEa = +|- 0.000870252 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k11+k12""",
-    longDesc=
-    u"""
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(6.05398e+08,'cm^3/(mol*s)'), n=0, Ea=(72.33,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(6.46176e+08,'cm^3/(mol*s)'), n=0, Ea=(70.5309,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
-
-entry(
-    index=1000061,
-    label="imipramine_rad_11_r + CH3OOH_rO <=> imipramine + CH3OO_p",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.1682e+08, 'cm^3/(mol*s)'), n=0, Ea=(10.0864, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00034, dn = +|- 0, 
-                         dEa = +|- 0.000870219 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k11+k12 reverse""",
-    longDesc=
-    u"""
-    reverse of entry 100006
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(5.9791e+07,'cm^3/(mol*s)'), n=0, Ea=(11.3141,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(6.38183e+07,'cm^3/(mol*s)'), n=0, Ea=(9.51504,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
-
-entry(
-    index=100007,
-    label="imipramine_20 + CH3OO_r3 <=> imipramine_rad_20 + CH3OOH",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.11619e+10, 'cm^3/(mol*s)'), n=0, Ea=(52.9458, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00001, dn = +|- 0, 
-                         dEa = +|- 1.85328e-05 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k20+k21""",
-    longDesc=
-    u"""
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(1.05672e+10,'cm^3/(mol*s)'), n=0, Ea=(81.1123,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.11593e+10,'cm^3/(mol*s)'), n=0, Ea=(52.9452,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),    
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
-
-entry(
-    index=1000071,
-    label="imipramine_rad_20_r + CH3OOH_rO <=> imipramine + CH3OO_p",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.82572e+08, 'cm^3/(mol*s)'), n=0, Ea=(13.7663, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00001, dn = +|- 0, 
-                         dEa = +|- 1.96143e-05 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k20+k21 reverse""",
-    longDesc=
-    u"""
-    reverse entry of 100007
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(1.72862e+08,'cm^3/(mol*s)'), n=0, Ea=(41.7491,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.82526e+08,'cm^3/(mol*s)'), n=0, Ea=(13.7657,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),  
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
-
-entry(
-    index=100008,
-    label="imipramine_28 + CH3OO_r3 <=> imipramine_rad_28 + CH3OOH",
-    degeneracy=4.0,
-    kinetics=Arrhenius(A=(3.18843e+07, 'cm^3/(mol*s)'), n=0, Ea=(35.8139, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00148, dn = +|- 0, 
-                         dEa = +|- 0.00380887 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k28+k29+k35+k36""",
-    longDesc=
-    u"""
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(2.53852e+07,'cm^3/(mol*s)'), n=0, Ea=(67.7977,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.38773e+07,'cm^3/(mol*s)'), n=0, Ea=(50.1609,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(2.09842e+07,'cm^3/(mol*s)'), n=0, Ea=(43.001,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(2.63692e+07,'cm^3/(mol*s)'), n=0, Ea=(35.445,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
-
-entry(
-    index=1000081,
-    label="imipramine_rad_28_r + CH3OOH_rO <=> imipramine + CH3OO_p",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(8.15599e+06, 'cm^3/(mol*s)'), n=0, Ea=(30.3104, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00115, dn = +|- 0, 
-                         dEa = +|- 0.00296685 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k28+k29+k35+k36 reverse""",
-    longDesc=
-    u"""
-    reverse entry of 100008
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(1.35707e+06,'cm^3/(mol*s)'), n=0, Ea=(62.5017,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.81104e+06,'cm^3/(mol*s)'), n=0, Ea=(44.8649,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(5.48938e+06,'cm^3/(mol*s)'), n=0, Ea=(37.546,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(6.89808e+06,'cm^3/(mol*s)'), n=0, Ea=(29.9901,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
-
-entry(
-    index=100009,
-    label="imipramine_39 + CH3OO_r3 <=> imipramine_rad_39 + CH3OOH",
-    degeneracy=6.0,
-    kinetics=Arrhenius(A=(8.81896e+09, 'cm^3/(mol*s)'), n=0, Ea=(56.8704, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00345, dn = +|- 0, 
-                         dEa = +|- 0.00889234 kJ/mol"""),
-    rank=3,
-    shortDesc=u"""k39+k40+k41+k42+k43+k44""",
-    longDesc=
-    u"""
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(2.5089e+09,'cm^3/(mol*s)'), n=0, Ea=(61.3808,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.67907e+09,'cm^3/(mol*s)'), n=0, Ea=(56.3937,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(2.58366e+09,'cm^3/(mol*s)'), n=0, Ea=(64.2432,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(5.63024e+09,'cm^3/(mol*s)'), n=0, Ea=(64.8571,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.75867e+09,'cm^3/(mol*s)'), n=0, Ea=(59.3225,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(6.17563e+08,'cm^3/(mol*s)'), n=0, Ea=(53.7411,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
-
-entry(
-    index=1000091,
-    label="imipramine_rad_39_r + CH3OOH_rO <=> imipramine + CH3OO_p",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(7.94657e+08, 'cm^3/(mol*s)'), n=0, Ea=(14.6336, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00533, dn = +|- 0, 
-                         dEa = +|- 0.0136982 kJ/mol"""),
-
-    rank=3,
-    shortDesc=u"""k39+k40+k41+k42+k43+k44 reverse""",
-    longDesc=
-    u"""
-    reverse entry of 100009
-    optfreq: wb97xd/def2tzvp gas phase
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
-    
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(3.68659e+08,'cm^3/(mol*s)'), n=0, Ea=(20.8033,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(5.40604e+08,'cm^3/(mol*s)'), n=0, Ea=(15.8161,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.79644e+08,'cm^3/(mol*s)'), n=0, Ea=(23.6657,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.36185e+08,'cm^3/(mol*s)'), n=0, Ea=(21.1191,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(2.24432e+08,'cm^3/(mol*s)'), n=0, Ea=(15.5845,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.68751e+07,'cm^3/(mol*s)'), n=0, Ea=(10.0031,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
-    imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
-    """,
-)
+# entry(
+#     index=100005,
+#     label="imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.13218e+09, 'cm^3/(mol*s)'), n=0, Ea=(58.5589, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.02664, dn = +|- 0, 
+#                          dEa = +|- 0.0671562 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k5+k6""",
+#     longDesc=
+#     u"""
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     H6 is blocked, H5 and H6 have the same 2D connectivity
+#     k6 = 0  =>  k5 + k6 = k5
+#     
+#     Indices are 1-indexed, corresponding to the following atom order of imipramine:
+#     
+#      N                 -0.00634640   -0.33884115    0.59014543
+#      C                  1.34971160   -0.59332915    0.28011243
+#      C                 -0.33884640    1.02531185    0.80935343
+#      C                  1.90724860   -1.99720215    0.28906443
+#      H                  1.54683540   -0.24043385   -0.74445243
+#      H                  2.01383960    0.10240385    0.81678743
+#      C                 -1.04087840   -1.29842115    0.44492743
+#      C                  0.01734260    1.63227285    2.01649843
+#      C                 -0.96251440    1.76363785   -0.20843657
+#      C                  3.36262660   -1.96925415   -0.18238057
+#      H                  1.84605060   -2.43910815    1.30009143
+#      H                  1.31932360   -2.66123715   -0.36605157
+#      C                 -0.98498540   -2.42954315    1.27978143
+#      C                 -2.12109040   -1.15216515   -0.45091657
+#      C                 -0.25921040    2.98164885    2.22905943
+#      H                  0.51102860    1.03046785    2.78373243
+#      C                 -1.27502340    1.08404885   -1.50705857
+#      C                 -1.25012340    3.11152385    0.02862343
+#      N                  4.20026960   -1.13768215    0.65915443
+#      H                  3.38114260   -1.55505415   -1.20088257
+#      H                  3.75199360   -3.00993915   -0.25151957
+#      C                 -1.94181640   -3.43312815    1.21393843
+#      H                 -0.17359640   -2.49346015    2.00576243
+#      C                 -2.36378440    0.02234685   -1.37389557
+#      C                 -3.08445640   -2.17367815   -0.48437757
+#      C                 -0.90050640    3.72118885    1.23368643
+#      H                  0.01841160    3.45358985    3.17527243
+#      H                 -1.60779740    1.83365885   -2.24172757
+#      H                 -0.34933940    0.64413985   -1.91332857
+#      H                 -1.73933540    3.69591885   -0.75661957
+#      C                  5.30282460   -0.53382415   -0.04745657
+#      C                  4.60551260   -1.78583115    1.87822243
+#      C                 -3.00436540   -3.30587615    0.31758043
+#      H                 -1.86875240   -4.30196615    1.87337043
+#      H                 -2.58743840   -0.38168415   -2.37611257
+#      H                 -3.29548040    0.51591885   -1.04184457
+#      H                 -3.92342640   -2.06790415   -1.17971757
+#      H                 -1.12568540    4.77886885    1.39528643
+#      H                  5.84454960    0.15200385    0.62333943
+#      H                  6.04077360   -1.27564415   -0.43015257
+#      H                  4.92157960    0.05386585   -0.89461757
+#      H                  5.12651860   -1.07235215    2.53562043
+#      H                  5.28861260   -2.65058115    1.70831543
+#      H                  3.73034460   -2.16058715    2.43060043
+#      H                 -3.77247840   -4.08092015    0.25152943
+#     """,
+# )
+# 
+# entry(
+#     index=1000051,
+#     label="imipramine_rad_5_r + CH3OOH_rO <=> imipramine + CH3OO_p",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(2.98189e+07, 'cm^3/(mol*s)'), n=0, Ea=(22.7604, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.02208, dn = +|- 0, 
+#                          dEa = +|- 0.0557917 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k5+k6 reverse""",
+#     longDesc=
+#     u"""
+#     reverse of entry 100005
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     H6 is blocked, H5 and H6 have the same 2D connectivity
+#     k6 = 0  =>  k5 + k6 = k5
+#     
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
+# 
+# entry(
+#     index=100006,
+#     label="imipramine_11 + CH3OO_r3 <=> imipramine_rad_11 + CH3OOH",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.18283e+09, 'cm^3/(mol*s)'), n=0, Ea=(71.1023, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00034, dn = +|- 0, 
+#                          dEa = +|- 0.000870252 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k11+k12""",
+#     longDesc=
+#     u"""
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(6.05398e+08,'cm^3/(mol*s)'), n=0, Ea=(72.33,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(6.46176e+08,'cm^3/(mol*s)'), n=0, Ea=(70.5309,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
+# 
+# entry(
+#     index=1000061,
+#     label="imipramine_rad_11_r + CH3OOH_rO <=> imipramine + CH3OO_p",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.1682e+08, 'cm^3/(mol*s)'), n=0, Ea=(10.0864, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00034, dn = +|- 0, 
+#                          dEa = +|- 0.000870219 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k11+k12 reverse""",
+#     longDesc=
+#     u"""
+#     reverse of entry 100006
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(5.9791e+07,'cm^3/(mol*s)'), n=0, Ea=(11.3141,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(6.38183e+07,'cm^3/(mol*s)'), n=0, Ea=(9.51504,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
+# 
+# entry(
+#     index=100007,
+#     label="imipramine_20 + CH3OO_r3 <=> imipramine_rad_20 + CH3OOH",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.11619e+10, 'cm^3/(mol*s)'), n=0, Ea=(52.9458, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00001, dn = +|- 0, 
+#                          dEa = +|- 1.85328e-05 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k20+k21""",
+#     longDesc=
+#     u"""
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(1.05672e+10,'cm^3/(mol*s)'), n=0, Ea=(81.1123,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.11593e+10,'cm^3/(mol*s)'), n=0, Ea=(52.9452,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),    
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
+# 
+# entry(
+#     index=1000071,
+#     label="imipramine_rad_20_r + CH3OOH_rO <=> imipramine + CH3OO_p",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.82572e+08, 'cm^3/(mol*s)'), n=0, Ea=(13.7663, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00001, dn = +|- 0, 
+#                          dEa = +|- 1.96143e-05 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k20+k21 reverse""",
+#     longDesc=
+#     u"""
+#     reverse entry of 100007
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(1.72862e+08,'cm^3/(mol*s)'), n=0, Ea=(41.7491,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.82526e+08,'cm^3/(mol*s)'), n=0, Ea=(13.7657,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),  
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
+# 
+# entry(
+#     index=100008,
+#     label="imipramine_28 + CH3OO_r3 <=> imipramine_rad_28 + CH3OOH",
+#     degeneracy=4.0,
+#     kinetics=Arrhenius(A=(3.18843e+07, 'cm^3/(mol*s)'), n=0, Ea=(35.8139, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00148, dn = +|- 0, 
+#                          dEa = +|- 0.00380887 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k28+k29+k35+k36""",
+#     longDesc=
+#     u"""
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(2.53852e+07,'cm^3/(mol*s)'), n=0, Ea=(67.7977,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.38773e+07,'cm^3/(mol*s)'), n=0, Ea=(50.1609,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(2.09842e+07,'cm^3/(mol*s)'), n=0, Ea=(43.001,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(2.63692e+07,'cm^3/(mol*s)'), n=0, Ea=(35.445,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
+# 
+# entry(
+#     index=1000081,
+#     label="imipramine_rad_28_r + CH3OOH_rO <=> imipramine + CH3OO_p",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(8.15599e+06, 'cm^3/(mol*s)'), n=0, Ea=(30.3104, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00115, dn = +|- 0, 
+#                          dEa = +|- 0.00296685 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k28+k29+k35+k36 reverse""",
+#     longDesc=
+#     u"""
+#     reverse entry of 100008
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(1.35707e+06,'cm^3/(mol*s)'), n=0, Ea=(62.5017,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(1.81104e+06,'cm^3/(mol*s)'), n=0, Ea=(44.8649,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(5.48938e+06,'cm^3/(mol*s)'), n=0, Ea=(37.546,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(6.89808e+06,'cm^3/(mol*s)'), n=0, Ea=(29.9901,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
+# 
+# entry(
+#     index=100009,
+#     label="imipramine_39 + CH3OO_r3 <=> imipramine_rad_39 + CH3OOH",
+#     degeneracy=6.0,
+#     kinetics=Arrhenius(A=(8.81896e+09, 'cm^3/(mol*s)'), n=0, Ea=(56.8704, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00345, dn = +|- 0, 
+#                          dEa = +|- 0.00889234 kJ/mol"""),
+#     rank=3,
+#     shortDesc=u"""k39+k40+k41+k42+k43+k44""",
+#     longDesc=
+#     u"""
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(2.5089e+09,'cm^3/(mol*s)'), n=0, Ea=(61.3808,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.67907e+09,'cm^3/(mol*s)'), n=0, Ea=(56.3937,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(2.58366e+09,'cm^3/(mol*s)'), n=0, Ea=(64.2432,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(5.63024e+09,'cm^3/(mol*s)'), n=0, Ea=(64.8571,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.75867e+09,'cm^3/(mol*s)'), n=0, Ea=(59.3225,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(6.17563e+08,'cm^3/(mol*s)'), n=0, Ea=(53.7411,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
+# 
+# entry(
+#     index=1000091,
+#     label="imipramine_rad_39_r + CH3OOH_rO <=> imipramine + CH3OO_p",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(7.94657e+08, 'cm^3/(mol*s)'), n=0, Ea=(14.6336, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00533, dn = +|- 0, 
+#                          dEa = +|- 0.0136982 kJ/mol"""),
+# 
+#     rank=3,
+#     shortDesc=u"""k39+k40+k41+k42+k43+k44 reverse""",
+#     longDesc=
+#     u"""
+#     reverse entry of 100009
+#     optfreq: wb97xd/def2tzvp gas phase
+#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c no solvation correction
+#     
+#     Data refitted from:
+#         MultiArrhenius(
+#             arrhenius = [
+#                 Arrhenius(A=(3.68659e+08,'cm^3/(mol*s)'), n=0, Ea=(20.8033,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(5.40604e+08,'cm^3/(mol*s)'), n=0, Ea=(15.8161,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.79644e+08,'cm^3/(mol*s)'), n=0, Ea=(23.6657,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.36185e+08,'cm^3/(mol*s)'), n=0, Ea=(21.1191,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(2.24432e+08,'cm^3/(mol*s)'), n=0, Ea=(15.5845,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#                 Arrhenius(A=(3.68751e+07,'cm^3/(mol*s)'), n=0, Ea=(10.0031,'kJ/mol'), 
+#                           T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#             ],
+#         ),
+#     Indices are 1-indexed, corresponding to the atom order of imipramine given above in the description of:
+#     imipramine_5 + CH3OO_r3 <=> imipramine_rad_5 + CH3OOH
+#     """,
+# )
 
 # Imipramine + ohch2oo
 
