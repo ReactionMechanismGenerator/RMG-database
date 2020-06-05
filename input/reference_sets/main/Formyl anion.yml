@@ -1,8 +1,8 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  1 C u0 p1 c-1 {2,S} {3,D}
-  2 H u0 p0 c0 {1,S}
-  3 O u0 p2 c0 {1,D}
+  1 O u0 p2 c0 {2,D}
+  2 C u0 p1 c-1 {1,D} {3,S}
+  3 H u0 p0 c0 {2,S}
 calculated_data:
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
@@ -120,13 +120,42 @@ calculated_data:
       - C
       - O
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 13.305998703255783
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.571283
+          - 0.240564
+          - 0.0
+        - - -0.618355
+          - -0.04249
+          - 0.0
+        - - 1.278419
+          - -0.868669
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - O
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 13.114638707862907
+        value: 13.114638707862904
       class: ThermoData
     xyz_dict:
       coords:
@@ -294,5 +323,5 @@ reference_data:
         units: kJ/mol
         value: 12.02
       class: ThermoData
-smiles: '[CH-]=O'
+smiles: '[C-]=O'
 symmetry_number: 1.0

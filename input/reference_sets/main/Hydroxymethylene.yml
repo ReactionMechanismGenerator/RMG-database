@@ -1,6 +1,5 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 1
   1 O u0 p2 c0 {2,S} {4,S}
   2 C u0 p1 c0 {1,S} {3,S}
   3 H u0 p0 c0 {2,S}
@@ -131,6 +130,40 @@ calculated_data:
           - -0.0
         - - -1.1087681207
           - 0.6320934495
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 28.794396070244513
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.698411
+          - 0.227784
+          - 0.0
+        - - -0.545031
+          - -0.154407
+          - 0.0
+        - - 1.25378
+          - -0.748286
+          - 0.0
+        - - -1.109049
+          - 0.633378
           - 0.0
       isotopes:
       - 12

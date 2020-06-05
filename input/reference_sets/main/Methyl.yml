@@ -142,6 +142,40 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 34.599283483204914
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 3.0e-06
+          - 8.9e-05
+          - 0.0
+        - - -0.958225
+          - -0.520141
+          - 0.0
+        - - 0.028632
+          - 1.09005
+          - 0.0
+        - - 0.929604
+          - -0.569714
+          - 0.0
+      isotopes:
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
@@ -284,7 +318,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 35.13888389288146
+        value: 35.138883892881445
       class: ThermoData
     xyz_dict:
       coords:
@@ -344,7 +378,7 @@ reference_data:
   CCCBDB:
     atomization_energy:
       class: ScalarQuantity
-      uncertainty: 0.7
+      uncertainty: 0.7000000000000001
       uncertainty_type: +|-
       units: kJ/mol
       value: 1209.3

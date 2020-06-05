@@ -239,5 +239,5 @@ reference_data:
         units: kJ/mol
         value: 722.29
       class: ThermoData
-smiles: '[C]C#C'
+smiles: C#C[CH2]
 symmetry_number: 1.0

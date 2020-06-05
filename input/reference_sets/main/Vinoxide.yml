@@ -1,11 +1,11 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  1 C u0 p1 c-1 {2,S} {3,S} {4,S}
-  2 H u0 p0 c0 {1,S}
-  3 H u0 p0 c0 {1,S}
-  4 C u0 p0 c0 {1,S} {5,D} {6,S}
-  5 O u0 p2 c0 {4,D}
-  6 H u0 p0 c0 {4,S}
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p1 c-1 {3,S} {4,S} {5,S}
+  3 C u0 p0 c0 {1,D} {2,S} {6,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
 calculated_data:
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
@@ -145,7 +145,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -36.63534002445669
+        value: -36.635340024456674
       class: ThermoData
     xyz_dict:
       coords:
@@ -168,6 +168,50 @@ calculated_data:
           - 0.0
         - - -0.1076058405
           - 1.4756243274
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -25.533588024385292
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.176669
+          - -0.170142
+          - 0.0
+        - - -0.111036
+          - 0.341248
+          - 0.0
+        - - -1.227325
+          - -0.226935
+          - 0.0
+        - - 2.041443
+          - 0.50423
+          - 0.0
+        - - 1.352703
+          - -1.254278
+          - 0.0
+        - - -0.101714
+          - 1.489006
           - 0.0
       isotopes:
       - 12
@@ -432,5 +476,5 @@ reference_data:
         units: kJ/mol
         value: -160.63
       class: ThermoData
-smiles: '[CH2-]C=O'
+smiles: '[C-]C=O'
 symmetry_number: 1.0
