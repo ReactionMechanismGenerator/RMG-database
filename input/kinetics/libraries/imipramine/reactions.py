@@ -381,11 +381,24 @@ Based on fragment h36
 #     shortDesc = u"""k28+k29+k35+k36""",
 # )
 
+# entry(
+#     index = 24,
+#     label = "imipramine + OHCH2OO <=> imipramine_rad_5 + OHCH2OOH",
+#     degeneracy = 6.0,
+#     kinetics = Arrhenius(A=(2.41761e+09,'cm^3/(mol*s)'), n=0, Ea=(48.4544,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K')),
+#     shortDesc = u"""based on fragment h40""",
+#     longDesc =
+# u"""
+# Based on fragment h40
+# """,
+# )
+
 entry(
     index = 24,
     label = "imipramine + OHCH2OO <=> imipramine_rad_5 + OHCH2OOH",
     degeneracy = 6.0,
-    kinetics = Arrhenius(A=(2.41761e+09,'cm^3/(mol*s)'), n=0, Ea=(48.4544,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+    kinetics = Arrhenius(A=(2.41761e+09,'cm^3/(mol*s)'), n=0, Ea=(44.2704,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     shortDesc = u"""based on fragment h40""",
     longDesc =
