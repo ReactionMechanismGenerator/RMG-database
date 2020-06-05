@@ -351,6 +351,90 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 38.849668418801095
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.281915
+          - -1.074264
+          - 2.8e-05
+        - - 1.722661
+          - -1.0e-06
+          - 0.0
+        - - 2.281916
+          - 1.074261
+          - -2.8e-05
+        - - 0.246797
+          - 0.0
+          - 0.0
+        - - -0.423136
+          - -1.219015
+          - 2.5e-05
+        - - -1.815294
+          - -1.210805
+          - 2.5e-05
+        - - -2.5092
+          - 1.0e-06
+          - 0.0
+        - - -1.815293
+          - 1.210806
+          - -2.5e-05
+        - - -0.423135
+          - 1.219015
+          - -2.5e-05
+        - - 0.151193
+          - -2.144852
+          - 4.5e-05
+        - - -2.361085
+          - -2.156046
+          - 4.5e-05
+        - - -3.601136
+          - 1.0e-06
+          - 0.0
+        - - -2.361083
+          - 2.156047
+          - -4.5e-05
+        - - 0.151195
+          - 2.144851
+          - -4.5e-05
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - N
+      - O
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:

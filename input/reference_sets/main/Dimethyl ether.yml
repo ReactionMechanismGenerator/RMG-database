@@ -75,7 +75,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -41.65010497512953
+        value: -41.650104975129516
       class: ThermoData
     xyz_dict:
       coords:
@@ -246,13 +246,72 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -40.69751110145528
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.163243
+          - -0.191398
+          - -4.9e-05
+        - - 0.0
+          - 0.573906
+          - -2.6e-05
+        - - -1.163243
+          - -0.191398
+          - 4.3e-05
+        - - 1.233495
+          - -0.84187
+          - 0.89531
+        - - 2.022019
+          - 0.493624
+          - -0.000103
+        - - 1.233425
+          - -0.841922
+          - -0.895375
+        - - -1.233424
+          - -0.841869
+          - 0.895408
+        - - -1.233495
+          - -0.841923
+          - -0.895277
+        - - -2.022019
+          - 0.493623
+          - 5.7e-05
+      isotopes:
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -40.97581141329724
+        value: -40.97581141329722
       class: ThermoData
     xyz_dict:
       coords:

@@ -129,7 +129,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -8.798253394164389
+        value: -8.798253394164385
       class: ThermoData
     xyz_dict:
       coords:
@@ -397,6 +397,110 @@ calculated_data:
         - - -0.9199584532
           - -1.9776555615
           - 9.48878e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -1.091994392478629
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.585244
+          - -0.02043
+          - 4.7e-05
+        - - 1.266707
+          - 0.739486
+          - 1.9e-05
+        - - 1.0e-06
+          - -0.087618
+          - 1.3e-05
+        - - -1.266706
+          - 0.739487
+          - -3.3e-05
+        - - -2.585243
+          - -0.020429
+          - -2.0e-05
+        - - 0.0
+          - -1.424315
+          - 4.5e-05
+        - - 2.680744
+          - -0.661861
+          - -0.889354
+        - - 3.434185
+          - 0.678669
+          - 4.9e-05
+        - - 2.680721
+          - -0.661837
+          - 0.889467
+        - - 1.230227
+          - 1.413754
+          - 0.874929
+        - - 1.230251
+          - 1.413731
+          - -0.874909
+        - - -1.230226
+          - 1.413709
+          - -0.874978
+        - - -1.230248
+          - 1.413777
+          - 0.87486
+        - - -2.680723
+          - -0.661881
+          - -0.889408
+        - - -2.680741
+          - -0.661816
+          - 0.889413
+        - - -3.434184
+          - 0.67867
+          - -5.5e-05
+        - - 0.927528
+          - -2.000372
+          - 7.6e-05
+        - - -0.927528
+          - -2.000372
+          - 4.1e-05
       isotopes:
       - 12
       - 12

@@ -1,12 +1,11 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 1
-  1 C u0 p0 c0 {2,D} {5,S} {6,S}
+  1 C u0 p0 c0 {2,D} {4,S} {5,S}
   2 C u0 p0 c0 {1,D} {3,D}
-  3 C u0 p1 c-1 {2,D} {4,S}
-  4 H u0 p0 c0 {3,S}
+  3 C u0 p1 c-1 {2,D} {6,S}
+  4 H u0 p0 c0 {1,S}
   5 H u0 p0 c0 {1,S}
-  6 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {3,S}
 calculated_data:
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
@@ -169,6 +168,50 @@ calculated_data:
           - 0.9261587669
         - - 2.0140681774
           - 0.7404482171
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 76.38502841738402
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.233262
+          - 0.022554
+          - 0.0
+        - - 0.119511
+          - -0.008066
+          - 0.0
+        - - 1.396375
+          - -0.160333
+          - 0.0
+        - - -1.81214
+          - 0.026535
+          - -0.933757
+        - - -1.81214
+          - 0.026535
+          - 0.933757
+        - - 2.02145
+          - 0.752167
           - 0.0
       isotopes:
       - 12
@@ -420,7 +463,7 @@ label: 1,2-Propadienyl anion
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 39.05592032242566
+  value: 39.05592359170969
 multiplicity: 1
 reference_data:
   ATcT:
@@ -433,5 +476,5 @@ reference_data:
         units: kJ/mol
         value: 262.44
       class: ThermoData
-smiles: C=C=[CH-]
+smiles: '[C-]=C=C'
 symmetry_number: 2.0

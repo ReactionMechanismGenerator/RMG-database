@@ -1,9 +1,9 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  1 C u0 p1 c-1 {2,S} {3,D}
-  2 H u0 p0 c0 {1,S}
-  3 C u0 p0 c0 {1,D} {4,D}
-  4 O u0 p2 c0 {3,D}
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p1 c-1 {3,D} {4,S}
+  3 C u0 p0 c0 {1,D} {2,D}
+  4 H u0 p0 c0 {2,S}
 calculated_data:
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
@@ -113,7 +113,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -9.600482413832193
+        value: -9.60048241383219
       class: ThermoData
     xyz_dict:
       coords:
@@ -130,6 +130,40 @@ calculated_data:
           - 0.0
         - - 2.1376242891
           - 0.4809430877
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.7571762080064612
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.239563
+          - -0.055823
+          - 0.0
+        - - -0.014104
+          - 0.023855
+          - 0.0
+        - - -1.234718
+          - -0.013697
+          - 0.0
+        - - 2.194657
+          - 0.441716
           - 0.0
       isotopes:
       - 12
@@ -249,7 +283,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -7.567523635551937
+        value: -7.567523635551935
       class: ThermoData
     xyz_dict:
       coords:
@@ -340,5 +374,5 @@ reference_data:
         units: kJ/mol
         value: -47.26
       class: ThermoData
-smiles: '[CH-]=C=O'
+smiles: '[C-]=C=O'
 symmetry_number: 1.0

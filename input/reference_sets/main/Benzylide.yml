@@ -1,19 +1,19 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  1  C u0 p0 c0 {2,D} {6,S} {10,S}
-  2  C u0 p0 c0 {1,D} {3,S} {11,S}
-  3  C u0 p0 c0 {2,S} {4,D} {12,S}
-  4  C u0 p0 c0 {3,D} {5,S} {7,S}
-  5  C u0 p0 c0 {4,S} {6,D} {13,S}
-  6  C u0 p0 c0 {1,S} {5,D} {14,S}
-  7  C u0 p1 c-1 {4,S} {8,S} {9,S}
-  8  H u0 p0 c0 {7,S}
-  9  H u0 p0 c0 {7,S}
-  10 H u0 p0 c0 {1,S}
-  11 H u0 p0 c0 {2,S}
-  12 H u0 p0 c0 {3,S}
-  13 H u0 p0 c0 {5,S}
-  14 H u0 p0 c0 {6,S}
+  1  C u0 p0 c0 {2,D} {3,S} {7,S}
+  2  C u0 p0 c0 {1,D} {5,S} {10,S}
+  3  C u0 p0 c0 {1,S} {6,D} {11,S}
+  4  C u0 p0 c0 {5,D} {6,S} {8,S}
+  5  C u0 p0 c0 {2,S} {4,D} {9,S}
+  6  C u0 p0 c0 {3,D} {4,S} {12,S}
+  7  C u0 p1 c-1 {1,S} {13,S} {14,S}
+  8  H u0 p0 c0 {4,S}
+  9  H u0 p0 c0 {5,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {6,S}
+  13 H u0 p0 c0 {7,S}
+  14 H u0 p0 c0 {7,S}
 calculated_data:
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
@@ -321,6 +321,90 @@ calculated_data:
         - - -2.9740954798
           - -0.9288390433
           - 9.6555e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 56.07862526122108
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.879296
+          - -1.2e-05
+          - 0.0
+        - - 1.139155
+          - 1.1968
+          - 0.0
+        - - -0.243157
+          - 1.211909
+          - 1.0e-06
+        - - -1.043136
+          - -1.0e-06
+          - 1.0e-06
+        - - -0.243166
+          - -1.211917
+          - 1.0e-06
+        - - 1.139146
+          - -1.196819
+          - 0.0
+        - - -2.426067
+          - 4.0e-06
+          - 2.0e-06
+        - - 2.972529
+          - -1.6e-05
+          - 0.0
+        - - 1.672516
+          - 2.15693
+          - 0.0
+        - - -0.769476
+          - 2.173929
+          - 1.0e-06
+        - - -0.769493
+          - -2.173934
+          - 1.0e-06
+        - - 1.672499
+          - -2.156953
+          - 0.0
+        - - -2.991496
+          - 0.937747
+          - 3.0e-06
+        - - -2.991503
+          - -0.937735
+          - 3.0e-06
       isotopes:
       - 12
       - 12
@@ -800,5 +884,5 @@ reference_data:
         units: kJ/mol
         value: 123.10000000000007
       class: ThermoData
-smiles: c1ccc(cc1)[CH2-]
+smiles: '[C-]C1=CC=CC=C1'
 symmetry_number: 2.0

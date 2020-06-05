@@ -1,6 +1,5 @@
 RMG_version: 3.0.0
 adjacency_list: |
-  multiplicity 1
   1 F u0 p3 c0 {2,S}
   2 C u0 p1 c0 {1,S} {3,S}
   3 H u0 p0 c0 {2,S}
@@ -121,13 +120,42 @@ calculated_data:
       - C
       - F
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 36.96212420303942
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.690836
+          - 0.189708
+          - 0.0
+        - - -0.586787
+          - -0.027362
+          - 0.0
+        - - 1.118671
+          - -0.858556
+          - 0.0
+      isotopes:
+      - 12
+      - 19
+      - 1
+      symbols:
+      - C
+      - F
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 36.79091759639989
+        value: 36.79091759639988
       class: ThermoData
     xyz_dict:
       coords:

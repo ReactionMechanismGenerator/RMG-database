@@ -330,13 +330,92 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 30.2197455327385
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.653869
+          - -1.400531
+          - -2.6e-05
+        - - -0.520264
+          - 0.098162
+          - -1.5e-05
+        - - -1.591351
+          - 0.906465
+          - -3.2e-05
+        - - 0.833116
+          - 0.680907
+          - 1.5e-05
+        - - 1.981685
+          - -0.004592
+          - 3.4e-05
+        - - -1.708296
+          - -1.707401
+          - -4.9e-05
+        - - -0.167511
+          - -1.839169
+          - -0.88606
+        - - -0.167547
+          - -1.839179
+          - 0.886023
+        - - -2.609341
+          - 0.508506
+          - -5.5e-05
+        - - -1.481236
+          - 1.994449
+          - -2.4e-05
+        - - 0.8735
+          - 1.776023
+          - 2.2e-05
+        - - 2.009609
+          - -1.097486
+          - 2.9e-05
+        - - 2.944463
+          - 0.511252
+          - 5.6e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 30.573089685501426
+        value: 30.573089685501422
       class: ThermoData
     xyz_dict:
       coords:
@@ -494,7 +573,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 24.477586683423375
+        value: 24.477586683423368
       class: ThermoData
     xyz_dict:
       coords:

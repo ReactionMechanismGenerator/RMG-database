@@ -14,7 +14,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -173.60904819300902
+        value: -173.60904819300896
       class: ThermoData
     xyz_dict:
       coords:
@@ -204,13 +204,62 @@ calculated_data:
       - O
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -160.53918548011433
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.048377
+          - -0.665483
+          - 0.844641
+        - - -1.0e-06
+          - 7.0e-06
+          - -0.171421
+        - - -0.64464
+          - 1.094119
+          - -0.83809
+        - - 1.048388
+          - 0.66541
+          - 0.844686
+        - - 0.644631
+          - -1.094048
+          - -0.838192
+        - - -1.695133
+          - 0.0044
+          - 1.112032
+        - - 1.695147
+          - -0.004497
+          - 1.112012
+      isotopes:
+      - 16
+      - 32
+      - 16
+      - 16
+      - 16
+      - 1
+      - 1
+      symbols:
+      - O
+      - S
+      - O
+      - O
+      - O
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -160.58494246585497
+        value: -160.5849424658549
       class: ThermoData
     xyz_dict:
       coords:
@@ -406,7 +455,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -160.9764806716377
+        value: -160.97648067163763
       class: ThermoData
     xyz_dict:
       coords:

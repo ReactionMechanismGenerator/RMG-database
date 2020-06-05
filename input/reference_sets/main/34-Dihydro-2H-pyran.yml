@@ -351,6 +351,90 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -14.816152743910678
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.492652
+          - -1.229399
+          - 0.295114
+        - - -0.883374
+          - -1.009766
+          - -0.318753
+        - - -1.436181
+          - 0.347666
+          - 0.120237
+        - - -0.341842
+          - 1.379106
+          - 0.058297
+        - - 0.945019
+          - 1.034348
+          - -0.074004
+        - - 1.416436
+          - -0.231005
+          - -0.097025
+        - - 0.415405
+          - -1.227393
+          - 1.399095
+        - - 0.929293
+          - -2.188381
+          - -0.01455
+        - - -0.786794
+          - -1.038884
+          - -1.416353
+        - - -1.55265
+          - -1.833418
+          - -0.028066
+        - - -2.275731
+          - 0.645722
+          - -0.528385
+        - - -1.852619
+          - 0.281559
+          - 1.141504
+        - - -0.592145
+          - 2.441342
+          - 0.083248
+        - - 1.750027
+          - 1.7646
+          - -0.185315
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
