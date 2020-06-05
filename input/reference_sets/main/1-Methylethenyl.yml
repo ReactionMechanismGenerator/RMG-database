@@ -16,7 +16,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 62.2930347349589
+        value: 62.29303473495889
       class: ThermoData
     xyz_dict:
       coords:
@@ -70,7 +70,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 62.04496940545484
+        value: 62.04496940545483
       class: ThermoData
     xyz_dict:
       coords:
@@ -124,7 +124,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 61.021748346744374
+        value: 61.02174834674436
       class: ThermoData
     xyz_dict:
       coords:
@@ -208,6 +208,60 @@ calculated_data:
         - - -2.2170490013
           - 0.5335276839
           - -5.9577e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 66.2810224125095
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.271842
+          - -0.076976
+          - 5.8e-05
+        - - -0.124924
+          - 0.380667
+          - 0.000194
+        - - -1.346698
+          - -0.101875
+          - -3.0e-05
+        - - 1.810331
+          - 0.288942
+          - 0.88818
+        - - 1.327055
+          - -1.182261
+          - -0.000366
+        - - 1.810381
+          - 0.289624
+          - -0.887752
+        - - -1.534097
+          - -1.188051
+          - -0.000454
+        - - -2.230559
+          - 0.545787
+          - 0.000193
       isotopes:
       - 12
       - 12

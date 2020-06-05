@@ -17,7 +17,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 48.918364693351975
+        value: 48.91836469335196
       class: ThermoData
     xyz_dict:
       coords:
@@ -267,13 +267,77 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 55.08538106099723
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -2.260626
+          - 0.218034
+          - 0.0
+        - - -1.160891
+          - -0.140436
+          - 0.0
+        - - 0.215369
+          - -0.576957
+          - 0.0
+        - - 1.255271
+          - 0.231451
+          - 0.746676
+        - - 1.255271
+          - 0.231451
+          - -0.746676
+        - - 0.329361
+          - -1.664321
+          - 0.0
+        - - 2.026713
+          - -0.333901
+          - 1.273292
+        - - 0.912982
+          - 1.130616
+          - 1.263087
+        - - 0.912982
+          - 1.130616
+          - -1.263087
+        - - 2.026713
+          - -0.333901
+          - -1.273292
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 55.48480049345196
+        value: 55.48480049345194
       class: ThermoData
     xyz_dict:
       coords:

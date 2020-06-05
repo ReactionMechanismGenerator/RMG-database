@@ -184,6 +184,50 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 5.679419016278952
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.078026
+          - -0.179398
+          - -3.0e-05
+        - - -0.159297
+          - 0.533335
+          - -0.000145
+        - - -1.175834
+          - -0.267547
+          - 0.000182
+        - - 1.142734
+          - -0.804145
+          - 0.901709
+        - - 1.142574
+          - -0.80471
+          - -0.901389
+        - - 1.866224
+          - 0.582901
+          - -0.000339
+      isotopes:
+      - 12
+      - 16
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - O
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
     thermo_data:
@@ -278,7 +322,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 1.5228496837590733
+        value: 1.5228496837590728
       class: ThermoData
     xyz_dict:
       coords:
@@ -322,7 +366,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 1.675916225412847
+        value: 1.6759162254128468
       class: ThermoData
     xyz_dict:
       coords:
@@ -366,7 +410,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 3.01236537136371
+        value: 3.012365371363709
       class: ThermoData
     xyz_dict:
       coords:

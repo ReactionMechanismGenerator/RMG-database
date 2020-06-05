@@ -1,10 +1,10 @@
 RMG_version: 3.0.0
 adjacency_list: |
   multiplicity 2
-  1 C u0 p0 c0 {2,D} {3,S} {4,S}
-  2 O u1 p1 c+1 {1,D}
-  3 H u0 p0 c0 {1,S}
-  4 H u0 p0 c0 {1,S}
+  1 O u1 p1 c+1 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
 calculated_data:
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'),energy=LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',)))
   : class: CalculatedDataEntry
@@ -216,7 +216,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 222.932702758969
+        value: 222.93270275896893
       class: ThermoData
     xyz_dict:
       coords:
@@ -253,14 +253,14 @@ default_xyz_chemistry:
   method: wb97mv
   software: qchem
 formula: CH2O
-inchi: InChI=1S/CH2O/c1-2/h1H2/q+1
-inchi_key: SAJCHROCEMQFHF-UHFFFAOYSA-N
+inchi: InChI=1S/CH2O/c1-2/h1H2/p+1
+inchi_key: WSFSSNUMVMOOMR-UHFFFAOYSA-O
 index: 61
 label: Formaldehyde cation
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 30.025979271158576
+  value: 30.02598178456637
 multiplicity: 2
 reference_data:
   ATcT:
