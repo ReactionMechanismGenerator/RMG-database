@@ -481,7 +481,7 @@ multiplicity 2
 45 H u0 p0 c0 {20,S}
 46 H u0 p0 c0 {21,S}
 
-imipramine_peroxy_4
+imipramine_4_oo
 multiplicity 2
 1  C u0 p0 c0 {2,S} {24,S} {25,S} {26,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -579,7 +579,7 @@ multiplicity 2
 45 H u0 p0 c0 {23,S}
 46 H u0 p0 c0 {24,S}
 
-imipramine_peroxide_4_rad_2
+imipramine_4_oo_2_rad
 multiplicity 2
 1  C u0 p0 c0 {2,S} {25,S} {26,S} {27,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
