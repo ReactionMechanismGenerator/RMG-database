@@ -55,228 +55,610 @@ Indices are 1-indexed, corresponding to the following atom order of imipramine:
  H                 -3.77247840   -4.08092015    0.25152943
 """
 
-# # imipramine + CH3OO updated to two para arrhenius fit (same as in training reaction)
-#
-# entry(
-#     index = 0,
-#     label = "imipramine + CH3OO <=> imipramine_rad_2 + CH3OOH",
-#     degeneracy = 2.0,
-#     kinetics = Arrhenius(A=(1.13218e+09,'cm^3/(mol*s)'), n=0, Ea=(58.5589,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-#                          Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.02664, dn = +|- 0,
-#                          dEa = +|- 0.0671562 kJ/mol"""),
-#     shortDesc = u"""k5+k6""",
-#     longDesc =
-# u"""
-# H6 is blocked, H5 and H6 have the same 2D connectivity
-# k6 = 0  =>  k5 + k6 = k5
-# """,
-# )
-#
-# entry(
-#     index = 1,
-#     label = "imipramine + CH3OO <=> imipramine_rad_3 + CH3OOH",
-#     degeneracy = 2.0,
-#     # duplicate = True,
-#     kinetics = Arrhenius(A=(1.18283e+09,'cm^3/(mol*s)'), n=0, Ea=(71.1023,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-#                          Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00034, dn = +|- 0,
-#                          dEa = +|- 0.000870252 kJ/mol"""),
-#     # kinetics = MultiArrhenius(
-#     #     arrhenius = [
-#     #         Arrhenius(A=(1.1882e-10,'cm^3/(mol*s)'), n=6.39356, Ea=(55.874,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k11, Fitted to 100 data points; dA = *|/ 1.14786, dn = +|- 0.020122, dEa = +|- 0.057328 kJ/mol"""),
-#     #         # Arrhenius(A=(2.92217e-08,'cm^3/(mol*s)'), n=5.58651, Ea=(56.1606,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.08935, dn = +|- 0.0124883, dEa = +|- 0.0355794 kJ/mol"""),
-#     #     ],
-#     # ),
-#     shortDesc = u"""k11+k12""",
-# )
-#
-# entry(
-#     index = 2,
-#     label = "imipramine + CH3OO <=> imipramine_rad_4 + CH3OOH",
-#     degeneracy = 2.0,
-#     # duplicate = True,
-#     kinetics=Arrhenius(A=(1.11619e+10, 'cm^3/(mol*s)'), n=0, Ea=(52.9458, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00001, dn = +|- 0,
-#                      dEa = +|- 1.85328e-05 kJ/mol"""),
-#     # kinetics = MultiArrhenius(
-#     #     arrhenius = [
-#     #         Arrhenius(A=(1.60144e-12,'cm^3/(mol*s)'), n=7.44743, Ea=(61.7556,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k20, Fitted to 100 data points; dA = *|/ 1.76345, dn = +|- 0.0827744, dEa = +|- 0.235826 kJ/mol"""),
-#     #         # Arrhenius(A=(7.00398e-09,'cm^3/(mol*s)'), n=6.21963, Ea=(36.9099,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k21, Fitted to 100 data points; dA = *|/ 1.21987, dn = +|- 0.0290001, dEa = +|- 0.082622 kJ/mol"""),
-#     #     ],
-#     # ),
-#     shortDesc = u"""k20+k21""",
-# )
-#
-# entry(
-#     index = 3,
-#     label = "imipramine + CH3OO <=> imipramine_rad_1 + CH3OOH",
-#     degeneracy = 4.0,
-#     # duplicate = True,
-#     kinetics=Arrhenius(A=(3.18843e+07, 'cm^3/(mol*s)'), n=0, Ea=(35.8139, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00148, dn = +|- 0,
-#                      dEa = +|- 0.00380887 kJ/mol"""),
-#     # kinetics = MultiArrhenius(
-#     #     arrhenius = [
-#     #         Arrhenius(A=(1.69879e-49,'cm^3/(mol*s)'), n=19.1594, Ea=(17.7046,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k28, Fitted to 100 data points; dA = *|/ 12.2045, dn = +|- 0.365056, dEa = +|- 1.04005 kJ/mol"""),
-#     #         # Arrhenius(A=(2.45476e-50,'cm^3/(mol*s)'), n=19.5114, Ea=(-0.427648,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k29, Fitted to 100 data points; dA = *|/ 6.32046, dn = +|- 0.269041, dEa = +|- 0.766504 kJ/mol"""),
-#     #         # Arrhenius(A=(3.37035e-33,'cm^3/(mol*s)'), n=13.5841, Ea=(7.70763,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k35, Fitted to 100 data points; dA = *|/ 3.55447, dn = +|- 0.185053, dEa = +|- 0.52722 kJ/mol"""),
-#     #         # Arrhenius(A=(5.01589e-29,'cm^3/(mol*s)'), n=12.198, Ea=(3.83956,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k36, Fitted to 100 data points; dA = *|/ 2.54252, dn = +|- 0.136163, dEa = +|- 0.387932 kJ/mol"""),
-#     #     ],
-#     # ),
-#     shortDesc = u"""k28+k29+k35+k36""",
-# )
-#
-# entry(
-#     index = 4,
-#     label = "imipramine + CH3OO <=> imipramine_rad_5 + CH3OOH",
-#     degeneracy = 6.0,
-#     # duplicate = True,
-#     kinetics=Arrhenius(A=(8.81896e+09, 'cm^3/(mol*s)'), n=0, Ea=(56.8704, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00345, dn = +|- 0,
-#                      dEa = +|- 0.00889234 kJ/mol"""),
-# #     kinetics = MultiArrhenius(
-# # #        arrhenius = [
-# # #            Arrhenius(A=(1.157e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
-# # #            Arrhenius(A=(2.63341e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
-# # #            Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
-# # #            Arrhenius(A=(9.88708e-07,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
-# # #            Arrhenius(A=(7.2759e-10,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
-# # #            Arrhenius(A=(1.27688e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
-# # #        ],
-# #         arrhenius = [
-# #             # Arrhenius(A=(3.471e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
-# #             # Arrhenius(A=(7.900e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
-# #             Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
-# #             # Arrhenius(A=(2.9661e-06,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
-# #             # Arrhenius(A=(2.1828e-9,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
-# #             # Arrhenius(A=(3.831e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
-# #         ],
-# #     ),
-#     shortDesc = u"""k39+k40+k41+k42+k43+k44""",
-#     longDesc =
-# u"""
-# Here rotors we not included in the calculation (Eventually we'd like to use rotors).
-# We're definitely missing a factor of x3 of the torsion missing in the TS,
-# we might be missing another factor of x3, depends whether the second methyl rotor is active in the TS or not (breaks it).
-# """,
-# )
-#
-#
-#
-# # imipramine + HO2 copied from CH3OO
-#
-# entry(
-#     index = 10,
-#     label = "imipramine + HO2 <=> imipramine_rad_2 + H2O2",
-#     degeneracy = 2.0,
-#     kinetics = Arrhenius(A=(1.13218e+09,'cm^3/(mol*s)'), n=0, Ea=(58.5589,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-#                          Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.02664, dn = +|- 0,
-#                          dEa = +|- 0.0671562 kJ/mol"""),    shortDesc = u"""k5+k6""",
-#     longDesc =
-# u"""
-# H6 is blocked, H5 and H6 have the same 2D connectivity
-# k6 = 0  =>  k5 + k6 = k5
-# """,
-# )
-#
-# entry(
-#     index = 11,
-#     label = "imipramine + HO2 <=> imipramine_rad_3 + H2O2",
-#     degeneracy = 2.0,
-#     # duplicate = True,
-#     kinetics = Arrhenius(A=(1.18283e+09,'cm^3/(mol*s)'), n=0, Ea=(71.1023,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-#                          Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00034, dn = +|- 0,
-#                          dEa = +|- 0.000870252 kJ/mol"""),    # kinetics = MultiArrhenius(
-#     #     arrhenius = [
-#     #         Arrhenius(A=(1.1882e-10,'cm^3/(mol*s)'), n=6.39356, Ea=(55.874,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k11, Fitted to 100 data points; dA = *|/ 1.14786, dn = +|- 0.020122, dEa = +|- 0.057328 kJ/mol"""),
-#     #         # Arrhenius(A=(2.92217e-08,'cm^3/(mol*s)'), n=5.58651, Ea=(56.1606,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.08935, dn = +|- 0.0124883, dEa = +|- 0.0355794 kJ/mol"""),
-#     #     ],
-#     # ),
-#     shortDesc = u"""k11+k12""",
-# )
-#
-# entry(
-#     index = 12,
-#     label = "imipramine + HO2 <=> imipramine_rad_4 + H2O2",
-#     degeneracy = 2.0,
-#     # duplicate = True,
-#     kinetics=Arrhenius(A=(1.11619e+10, 'cm^3/(mol*s)'), n=0, Ea=(52.9458, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00001, dn = +|- 0,
-#                      dEa = +|- 1.85328e-05 kJ/mol"""),    # kinetics = MultiArrhenius(
-#     #     arrhenius = [
-#     #         Arrhenius(A=(1.60144e-12,'cm^3/(mol*s)'), n=7.44743, Ea=(61.7556,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k20, Fitted to 100 data points; dA = *|/ 1.76345, dn = +|- 0.0827744, dEa = +|- 0.235826 kJ/mol"""),
-#     #         # Arrhenius(A=(7.00398e-09,'cm^3/(mol*s)'), n=6.21963, Ea=(36.9099,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k21, Fitted to 100 data points; dA = *|/ 1.21987, dn = +|- 0.0290001, dEa = +|- 0.082622 kJ/mol"""),
-#     #     ],
-#     # ),
-#     shortDesc = u"""k20+k21""",
-# )
-#
-# entry(
-#     index = 13,
-#     label = "imipramine + HO2 <=> imipramine_rad_1 + H2O2",
-#     degeneracy = 4.0,
-#     # duplicate = True,
-#     kinetics=Arrhenius(A=(3.18843e+07, 'cm^3/(mol*s)'), n=0, Ea=(35.8139, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00148, dn = +|- 0,
-#                      dEa = +|- 0.00380887 kJ/mol"""),    # kinetics = MultiArrhenius(
-#     #     arrhenius = [
-#     #         Arrhenius(A=(1.69879e-49,'cm^3/(mol*s)'), n=19.1594, Ea=(17.7046,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k28, Fitted to 100 data points; dA = *|/ 12.2045, dn = +|- 0.365056, dEa = +|- 1.04005 kJ/mol"""),
-#     #         # Arrhenius(A=(2.45476e-50,'cm^3/(mol*s)'), n=19.5114, Ea=(-0.427648,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k29, Fitted to 100 data points; dA = *|/ 6.32046, dn = +|- 0.269041, dEa = +|- 0.766504 kJ/mol"""),
-#     #         # Arrhenius(A=(3.37035e-33,'cm^3/(mol*s)'), n=13.5841, Ea=(7.70763,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k35, Fitted to 100 data points; dA = *|/ 3.55447, dn = +|- 0.185053, dEa = +|- 0.52722 kJ/mol"""),
-#     #         # Arrhenius(A=(5.01589e-29,'cm^3/(mol*s)'), n=12.198, Ea=(3.83956,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k36, Fitted to 100 data points; dA = *|/ 2.54252, dn = +|- 0.136163, dEa = +|- 0.387932 kJ/mol"""),
-#     #     ],
-#     # ),
-#     shortDesc = u"""k28+k29+k35+k36""",
-# )
-#
-# entry(
-#     index = 14,
-#     label = "imipramine + HO2 <=> imipramine_rad_5 + H2O2",
-#     degeneracy = 6.0,
-#     # duplicate = True,
-#     kinetics=Arrhenius(A=(8.81896e+09, 'cm^3/(mol*s)'), n=0, Ea=(56.8704, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00345, dn = +|- 0,
-#                      dEa = +|- 0.00889234 kJ/mol"""),#     kinetics = MultiArrhenius(
-# # #        arrhenius = [
-# # #            Arrhenius(A=(1.157e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
-# # #            Arrhenius(A=(2.63341e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
-# # #            Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
-# # #            Arrhenius(A=(9.88708e-07,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
-# # #            Arrhenius(A=(7.2759e-10,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
-# # #            Arrhenius(A=(1.27688e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
-# # #        ],
-# #         arrhenius = [
-# #             # Arrhenius(A=(3.471e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
-# #             # Arrhenius(A=(7.900e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
-# #             Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
-# #             # Arrhenius(A=(2.9661e-06,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
-# #             # Arrhenius(A=(2.1828e-9,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
-# #             # Arrhenius(A=(3.831e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
-# #         ],
-# #     ),
-#     shortDesc = u"""k39+k40+k41+k42+k43+k44""",
-#     longDesc =
-# u"""
-# Here rotors we not included in the calculation (Eventually we'd like to use rotors).
-# We're definitely missing a factor of x3 of the torsion missing in the TS,
-# we might be missing another factor of x3, depends whether the second methyl rotor is active in the TS or not (breaks it).
-# """,
-# )
-
 # imipramine + OHCH2OO updated to two para arrhenius fit (same as in training reaction)
+entry(
+    index = 1000,
+    label = "imipramine + OHCH2OO <=> imipramine_1_rad + OHCH2OOH",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(1.62526e+06,'cm^3/(mol*s)'), n=0, Ea=(21.0094,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    shortDesc = u"""based on fragment h36""",
+    longDesc =
+u"""
+Based on fragment h36 ts2001
+""",
+)
 
 entry(
-    index = 20,
-    label = "imipramine + OHCH2OO <=> imipramine_rad_2 + OHCH2OOH",
+    index = 1001,
+    label = "imipramine + OHCH2OO <=> imipramine_2_rad + OHCH2OOH",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.55192e+07,'cm^3/(mol*s)'), n=0, Ea=(21.0728,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
                          Tmax=(350,'K')),
     shortDesc = u"""based on fragment h6""",
     longDesc =
 u"""
-Based on fragment h6
+Based on fragment h6 ts2002
 """,
 )
 
+entry(
+    index = 1002,
+    label = "imipramine + OHCH2OO <=> imipramine_3_rad + OHCH2OOH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.83967e+07,'cm^3/(mol*s)'), n=0, Ea=(60.372,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    shortDesc = u"""based on fragment h12""",
+    longDesc =
+u"""
+Based on fragment h12 ts2003
+""",
+)
+
+entry(
+    index = 1003,
+    label = "imipramine + OHCH2OO <=> imipramine_4_rad + OHCH2OOH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.01243e+09,'cm^3/(mol*s)'), n=0, Ea=(34.4679,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    shortDesc = u"""based on fragment h21""",
+    longDesc =
+u"""
+Based on fragment h21 ts2004
+""",
+)
+
+entry(
+    index = 1004,
+    label = "imipramine + OHCH2OO <=> imipramine_5_rad + OHCH2OOH",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(2.41761e+09,'cm^3/(mol*s)'), n=0, Ea=(40,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    shortDesc = u"""based on fragment h40""",
+    longDesc =
+u"""
+Based on fragment h40 ts2005
+Original Ea 48.4544 kJ/mol, manually reduced 2 kcal/mol
+""",
+)
+
+entry(
+    index = 1005,
+    label = "imipramine + O2 <=> imipramine_1_rad + HO2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(2.82123e+14,'cm^3/(mol*s)'), n=0, Ea=(149.699,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.0007, 
+                         dn = +|- 0, dEa = +|- 0.00181463 kJ/mol"""),
+    shortDesc = u"""diffusion limit""",
+    longDesc =
+u"""
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
+""",
+)
+
+entry(
+    index = 1006,
+    label = "imipramine + O2 <=> imipramine_2_rad + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.05571e+14,'cm^3/(mol*s)'), n=0, Ea=(176.536,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00064, 
+                         dn = +|- 0, dEa = +|- 0.00164057 kJ/mol"""),
+    shortDesc = u"""diffusion limit""",
+    longDesc =
+u"""
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
+""",
+)
+
+entry(
+    index = 1007,
+    label = "imipramine + O2 <=> imipramine_3_rad + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.44909e+14,'cm^3/(mol*s)'), n=0, Ea=(205.239,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00105, 
+                         dn = +|- 0, dEa = +|- 0.0027046 kJ/mol"""),
+    shortDesc = u"""diffusion limit""",
+    longDesc =
+u"""
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
+""",
+)
+
+entry(
+    index = 1008,
+    label = "imipramine + O2 <=> imipramine_4_rad + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.47872e+15,'cm^3/(mol*s)'), n=0, Ea=(185.599,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00053, 
+                         dn = +|- 0, dEa = +|- 0.00137809 kJ/mol"""),
+    shortDesc = u"""diffusion limit""",
+    longDesc =
+u"""
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
+""",
+)
+
+entry(
+    index = 1009,
+    label = "imipramine + O2 <=> imipramine_5_rad + HO2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(6.8117e+14,'cm^3/(mol*s)'), n=0, Ea=(186.187,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.0007, 
+                         dn = +|- 0, dEa = +|- 0.00180928 kJ/mol"""),
+    shortDesc = u"""diffusion limit""",
+    longDesc =
+u"""
+Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
+""",
+)
+
+entry(
+    index = 1010,
+    label = "imipramine_4_oo <=> imipramine_4_ooh_5_rad",
+    degeneracy = 6.0,
+    kinetics=Arrhenius(A=(7.34524e+10, 's^-1'), n=0, Ea=(68.6755, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    longDesc =
+u"""
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+ts1018
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+N      -0.34364600   -0.12068400    0.15810200
+C       0.87354700   -0.92425800    0.15063200
+C      -1.53266700   -0.80105100   -0.21844900
+C       1.84092800   -0.48426500    1.24361900
+H       0.56479800   -1.94805900    0.35162500
+H       1.36983300   -0.93634000   -0.82561900
+C      -0.25772200    1.26109000   -0.15246100
+C      -1.52831100   -1.74597900   -1.24084700
+C      -2.71243600   -0.53493600    0.47954600
+C       3.12227800   -1.29361000    1.31091100
+H       2.13352300    0.55857500    1.11455600
+H       1.34846200   -0.56057700    2.21518600
+C       0.84630600    1.72691700   -0.87756400
+C      -1.23776300    2.18827900    0.24744900
+C      -2.69217700   -2.42101200   -1.57688100
+H      -0.61181200   -1.95251000   -1.77907500
+C      -2.68538700    0.47808600    1.58020200
+C      -3.87402600   -1.20716100    0.11906100
+N       3.94358500   -1.23913900    0.09343500
+H       3.74792700   -0.91764800    2.12506900
+C       1.00261400    3.06232000   -1.19908200
+H       1.60137200    1.02758900   -1.20555000
+C      -2.49438200    1.89115400    1.04309300
+C      -1.06021800    3.52587400   -0.10552800
+C      -3.87160800   -2.14867600   -0.90017100
+H      -2.67565900   -3.15392800   -2.37395300
+H      -3.62412000    0.44426800    2.13449500
+H      -1.88293900    0.23675500    2.28114300
+H      -4.78975300   -0.99939600    0.66099900
+C       3.95520000   -2.41448500   -0.64976600
+C       5.23344500   -0.59419500    0.28052800
+C       0.03816800    3.97863900   -0.81309600
+H       1.87462000    3.37841200   -1.75816400
+H      -2.52832000    2.59329300    1.87963500
+H      -3.35504200    2.13465600    0.41258700
+H      -1.81847900    4.23587600    0.20718700
+H      -4.78415000   -2.67058500   -1.15960400
+H       2.97134900   -2.74792600   -0.98002600
+H       4.72186200   -2.43602600   -1.41713100
+H       4.15913000   -3.26477400    0.30403700
+H       5.70508000   -0.44610000   -0.68916400
+H       5.89298300   -1.20020700    0.91123200
+H       5.08969100    0.37679900    0.75252400
+H       0.13932000    5.02898300   -1.05493400
+O       2.75129700   -2.62981600    1.59473900
+O       3.87221400   -3.46673200    1.57020800
+""",
+)
+
+entry(
+    index = 1011,
+    label = "imipramine_4_oo <=> imipramine_4_ooh_2_rad",
+    degeneracy = 2.0,
+    kinetics=Arrhenius(A=(9.27041e+09,'s^-1'), n=0, Ea=(53.4243,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+u"""
+dlpno-ccsd(t)/def2-tzvp//wb97xd/def2svp
+solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+
+ts2008 fragment
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+C      -2.44221400   -0.43974200   -0.65695200
+N      -1.41331300   -0.48824500    0.36312000
+C      -1.76930400    0.28557300    1.53666900
+C      -0.09828500   -0.29978300   -0.15925400
+O       0.06265300    1.05510800   -0.60436200
+O       0.84600400    1.07967000   -1.78053900
+C       1.01644900   -0.66556200    0.84257600
+C       2.40156800   -0.60241800    0.29338600
+H       2.76877200   -1.41154200   -0.34488100
+N       2.95369600    0.66075500    0.01948300
+H      -2.59250700    0.57544000   -1.07360600
+H      -3.39806400   -0.78709400   -0.23539100
+H      -2.17678600   -1.10969200   -1.48817700
+H      -2.74334200   -0.06125700    1.91411300
+H      -1.04085300    0.13604200    2.34494100
+H      -1.84953600    1.37284400    1.33728400
+H       0.00725100   -0.93128700   -1.05665900
+H       1.74698800    1.12447700   -1.39769000
+H       0.94361100    0.01459200    1.70964200
+H       0.81128400   -1.68232700    1.21067700
+H       3.95170200    0.64862700   -0.16986200
+H       2.73640500    1.36338800    0.72346800
+""",
+)
+
+entry(
+    index = 1012,
+    label = "imipramine_5_rad <=> imipramine_1_rad",
+    degeneracy = 4.0,
+    kinetics=Arrhenius(A=(32980, 's^-1'), n=0, Ea=(44.6304, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    longDesc =
+u"""
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+ts1022
+
+This TS restricts 5 rotors, the A factor, originally A=(8.01453e+06, 's^-1'),
+was divided by a factor of 3^5 = 243
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+N      -0.38070300   -0.24956800    0.11972200
+C       0.70709000   -1.18047800    0.38654100
+C      -1.65446000   -0.80105700   -0.13833900
+C       1.68022700   -0.66402600    1.44452100
+H       0.24035900   -2.09002300    0.76062400
+H       1.26305400   -1.46828300   -0.51424400
+C      -0.08605700    1.05853000   -0.30707600
+C      -1.77756100   -1.91160900   -0.96898600
+C      -2.78987100   -0.27790300    0.50364600
+C       0.98925100    0.02206400    2.61721700
+H       2.27557400   -1.51450700    1.78598000
+H       2.38377600    0.05107400    1.01149500
+C       1.04123100    1.27012800   -1.11023800
+C      -0.87071300    2.16006700    0.06562000
+C      -3.00770900   -2.52028300   -1.16949300
+H      -0.89540300   -2.30724100   -1.45729400
+C      -2.66778000    0.82840200    1.45440300
+C      -4.02011000   -0.90658800    0.28463900
+N      -0.10373200   -0.74219000    3.19155000
+H       0.57958800    0.97190200    2.27329700
+H       1.73887300    0.26290500    3.38610800
+C       1.39151100    2.53162700   -1.55369300
+H       1.64938600    0.42318000   -1.39835400
+C      -2.04763800    2.13574800    1.01830200
+C      -0.51246200    3.41709300   -0.42214100
+C      -4.13609500   -2.01324200   -0.53998400
+H      -3.08204600   -3.38417700   -1.81826400
+H      -3.60907600    1.02169600    1.96853200
+H      -1.91535300    0.38543200    2.50267200
+H      -4.89769600   -0.51676700    0.78813800
+C      -1.19982800    0.04066400    3.60012300
+C       0.31667500   -1.79780100    4.08922300
+C       0.60151500    3.62043200   -1.21653600
+H       2.27142300    2.65824500   -2.17243200
+H      -1.74866400    2.68796600    1.91700600
+H      -2.83586500    2.74530400    0.56283500
+H      -1.12483000    4.26681400   -0.13928300
+H      -5.10202700   -2.48027400   -0.68745700
+H      -1.90624500   -0.51204400    4.21673100
+H      -0.96386300    1.02516100    4.02229300
+H      -0.54135400   -2.40301100    4.38412300
+H       0.79365700   -1.40682200    5.00148300
+H       1.03215400   -2.45228800    3.58759700
+H       0.85208800    4.61545700   -1.56189000
+""",
+)
+
+entry(
+    index = 1013,
+    label = "imipramine_5_rad <=> imipramine_2_rad",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.46807e+08,'s^-1'), n=0, Ea=(48.7508,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+u"""
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+ts1023
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+N      -0.31000500   -0.21198800    0.31644400
+C       0.81520800   -1.07594900    0.47504900
+C      -1.51164300   -0.82642400   -0.13385500
+C       1.87332800   -0.65914300    1.47462300
+H       0.45272000   -2.08012900    0.69172600
+H       1.53714600   -1.30051400   -0.56708800
+C      -0.11966600    1.14959700   -0.04417800
+C      -1.49037400   -1.79342200   -1.13310000
+C      -2.71547200   -0.45972300    0.46838200
+C       3.15974700   -1.43809700    1.23380700
+H       2.08309900    0.40892000    1.39961000
+H       1.52343300   -0.84979300    2.49360100
+C       1.03336400    1.50059000   -0.75424900
+C      -1.05249600    2.14903600    0.27737600
+C      -2.67073600   -2.39276000   -1.54642100
+H      -0.54828600   -2.07257700   -1.58934400
+C      -2.69259500    0.57052000    1.55442100
+C      -3.89080600   -1.05837000    0.03123600
+N       3.69257400   -1.20198500   -0.10636200
+H       2.97702200   -2.51545600    1.39363500
+H       3.91246600   -1.13087900    1.96084000
+C       1.29057000    2.80672800   -1.12502400
+H       1.73897600    0.72969400   -1.02746000
+C      -2.35996900    1.95987200    1.02197500
+C      -0.77261800    3.45589700   -0.12314700
+C      -3.87552000   -2.02111800   -0.96811300
+H      -2.64743300   -3.14418900   -2.32580000
+H      -3.66823200    0.61385900    2.04000000
+H      -1.96293700    0.28144600    2.31429100
+H      -4.82875900   -0.77583100    0.49570200
+C       2.79961800   -1.73070700   -1.09775700
+C       5.02107400   -1.78483300   -0.24210700
+C       0.37840500    3.80086500   -0.80721800
+H       2.19691200    3.04022600   -1.66975200
+H      -2.37320000    2.66721700    1.85479300
+H      -3.16783300    2.27029900    0.35247300
+H      -1.49224700    4.22780300    0.12777100
+H      -4.80052800   -2.48339900   -1.28924400
+H       2.96074700   -1.33646200   -2.09906800
+H       2.67143100   -2.82211900   -1.07745400
+H       5.40663400   -1.59704000   -1.24502800
+H       5.01250300   -2.87392600   -0.07815000
+H       5.70493500   -1.33463600    0.48015200
+H       0.55859300    4.83041200   -1.08926400
+""",
+)
+
+entry(
+    index = 1014,
+    label = "imipramine_5_oo <=> imipramine_5_ooh_4_rad",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7.4259e+09,'s^-1'), n=0, Ea=(58.9622,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+u"""
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+ts1035
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+N      -0.38164700    0.67466500   -0.61649500
+C       1.03212400    0.71987700   -0.25791800
+C      -0.92216900   -0.64019600   -0.70565600
+C       1.96401300    0.29362300   -1.39587100
+H       1.22576000    0.09592400    0.62354500
+C      -1.19252300    1.76242700   -0.19756200
+C      -0.97386000   -1.26473700   -1.94539600
+C      -1.33422300   -1.32877700    0.43621900
+C       3.34115200   -0.09383200   -0.91948100
+H       1.51762700   -0.53559900   -1.94925300
+H       2.05466100    1.11703600   -2.10574700
+C      -0.99112000    2.96588700   -0.88017000
+C      -2.13919900    1.71454800    0.83373200
+C      -1.39879500   -2.57978800   -2.05823000
+H      -0.67708100   -0.70068500   -2.82037100
+C      -1.38970400   -0.59756800    1.74380100
+C      -1.76478000   -2.64313600    0.31106000
+N       3.56503500   -1.41749500   -0.46621400
+H       4.14548000    0.20478400   -1.59523100
+C      -1.69933100    4.10771600   -0.57050400
+H      -0.26352100    2.97392400   -1.68253300
+C      -2.44030200    0.51129500    1.70243400
+C      -2.86646400    2.87534000    1.10711900
+C      -1.78653100   -3.27381500   -0.92386100
+H      -1.43084000   -3.05684900   -3.02939300
+H      -1.64615600   -1.29607900    2.54178400
+H      -0.41571200   -0.17122200    1.99696800
+H      -2.08971300   -3.17945600    1.19545300
+C       2.46237500   -2.21391700    0.05039100
+C       4.75693800   -1.47528300    0.33638000
+C      -2.66000600    4.05968600    0.42937900
+H      -1.51748200    5.02392400   -1.11771800
+H      -2.60356400    0.87651400    2.71878500
+H      -3.39012200    0.07069400    1.38148900
+H      -3.60402900    2.84230100    1.90177900
+H      -2.11878200   -4.30138200   -1.00029000
+H       2.79428800   -3.24948500    0.12870600
+H       2.12641600   -1.88335700    1.03803000
+H       1.61529200   -2.18502900   -0.63164600
+H       4.94928900   -2.49407700    0.66963700
+H       5.60429400   -1.07173000   -0.22442100
+H      -3.23810600    4.93908800    0.68223000
+H       1.27430400    1.73977100    0.03932100
+H       3.74369700    0.57029600    0.14233900
+O       4.55851400   -0.71204500    1.51114200
+O       4.51095500    0.63035400    1.15257000
+""",
+)
+
+entry(
+    index = 1015,
+    label = "imipramine_5_oo + CH3OH <=> imipramine_5_ooh + CH2OH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4.22297e+08,'cm^3/(mol*s)'), n=0, Ea=(49.2508,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+"""
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
+ts2007 based on a fragment
+
+TS external symmetry: 1, TS optical isomers: 2
+
+TS0 optimized at wb97xd/def2tzvp
+N       2.64279400   -0.50044300    1.63237100
+C       2.41271500    0.12615100    0.33930500
+C       1.18277100   -0.33806000   -0.44600500
+H       3.30050000   -0.04256700   -0.27464300
+C      -0.12370300    0.02079700    0.24332100
+H       1.22374800    0.12219900   -1.43705400
+H       1.22956400   -1.42290400   -0.58979400
+N      -1.30465600   -0.58188600   -0.35582200
+H      -0.08928900   -0.33613900    1.27655200
+C      -1.47030900   -0.39072900   -1.74491200
+C      -2.49005300   -0.39773300    0.45999000
+H      -2.39073100   -0.87209300   -2.07850500
+H      -0.61992500   -0.79780500   -2.29428600
+H      -3.34911000   -0.85535400   -0.03050300
+H      -2.72767900    0.65807500    0.64148800
+H      -2.34264100   -0.89206100    1.42321200
+H       2.65867600   -1.50842500    1.54762100
+H       1.91793400   -0.26361900    2.29500400
+H       2.35497900    1.20682900    0.49784000
+H      -0.21903700    1.11719400    0.29014100
+O      -1.49140000    0.97988300   -2.20486000
+O      -2.67855200    1.58136000   -1.82056900
+H      -3.35349600    1.49763500   -2.81034800
+C      -3.74288000    1.33291500   -4.07957900
+H      -4.76337100    0.95969400   -4.07881100
+H      -3.63192700    2.34750500   -4.47131500
+O      -2.88985500    0.40337300   -4.60774500
+H      -1.98637300    0.71920500   -4.50118400
+""",
+)
+
+entry(
+    index = 1016,
+    label = "imipramine_2_ooh_4_oo <=> imipramine_2_ooh_4_ooh_2_rad",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5081e+08,'s^-1'), n=0, Ea=(67.4495,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(200,'K'), Tmax=(495, 'K')),
+    longDesc =
+u"""
+This is a fake reaction. products are unstable so forward rate calcualted using '
+                                 'reactant as products. Fitted to 60 data points; dA = *|/ 1.62624, dn = +|- 0, '
+                                 'dEa = +|- 1.26739 kJ/mol'
+
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+ts1038 forward only
+
+TS geom
+ N                  2.51752000   -1.07335300   -1.05889900
+ C                  1.51453700   -0.47971400   -0.28901200
+ C                  0.15956600   -1.13100800   -0.28745500
+ C                 -0.98287800   -0.11707700   -0.55433900
+ H                  0.11586200   -1.89937400   -1.06110000
+ H                 -0.00224800   -1.61576900    0.67755800
+ N                 -2.20835100   -0.49660300    0.04572600
+ C                 -3.36558800    0.15224000   -0.53792900
+ C                 -2.24894800   -0.45253700    1.49624700
+ H                 -4.27231500   -0.32399400   -0.15887900
+ H                 -3.35011800    0.03386000   -1.62268900
+ H                 -3.11261400   -1.02241100    1.84578700
+ H                 -2.32837700    0.57124400    1.88501200
+ H                 -1.35338100   -0.90033300    1.92488700
+ H                  2.56009300   -2.08286300   -0.98646400
+ H                  3.42359900   -0.65795000   -0.89194600
+ H                 -1.13043800   -0.03219200   -1.63536700
+ H                 -3.41755600    1.22528300   -0.30539000
+ O                 -0.58359700    1.19063800   -0.09804800
+ O                  0.43090900    1.63287600   -0.93751900
+ H                  1.19923900    0.70282200   -0.80556700
+ O                  1.80871200   -0.13775100    1.04256800
+ O                  2.91687200    0.75794600    1.03187500
+ H                  2.46077200    1.61028200    0.95028200
+""",
+)
+
+entry(
+    index = 1017,
+    label = "imipramine_4_oo + CH3OH <=> imipramine_4_ooh + CH2OH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4.22297e+08,'cm^3/(mol*s)'), n=0, Ea=(49.2508,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+"""
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
+Fake, copied from ts2007 based on a fragment, should recalcualte ts2009
+
+TS external symmetry: 1, TS optical isomers: 2
+
+TS0 optimized at wb97xd/def2tzvp
+N       2.64279400   -0.50044300    1.63237100
+C       2.41271500    0.12615100    0.33930500
+C       1.18277100   -0.33806000   -0.44600500
+H       3.30050000   -0.04256700   -0.27464300
+C      -0.12370300    0.02079700    0.24332100
+H       1.22374800    0.12219900   -1.43705400
+H       1.22956400   -1.42290400   -0.58979400
+N      -1.30465600   -0.58188600   -0.35582200
+H      -0.08928900   -0.33613900    1.27655200
+C      -1.47030900   -0.39072900   -1.74491200
+C      -2.49005300   -0.39773300    0.45999000
+H      -2.39073100   -0.87209300   -2.07850500
+H      -0.61992500   -0.79780500   -2.29428600
+H      -3.34911000   -0.85535400   -0.03050300
+H      -2.72767900    0.65807500    0.64148800
+H      -2.34264100   -0.89206100    1.42321200
+H       2.65867600   -1.50842500    1.54762100
+H       1.91793400   -0.26361900    2.29500400
+H       2.35497900    1.20682900    0.49784000
+H      -0.21903700    1.11719400    0.29014100
+O      -1.49140000    0.97988300   -2.20486000
+O      -2.67855200    1.58136000   -1.82056900
+H      -3.35349600    1.49763500   -2.81034800
+C      -3.74288000    1.33291500   -4.07957900
+H      -4.76337100    0.95969400   -4.07881100
+H      -3.63192700    2.34750500   -4.47131500
+O      -2.88985500    0.40337300   -4.60774500
+H      -1.98637300    0.71920500   -4.50118400
+""",
+)
+
+entry(
+    index = 1018,
+    label = "imipramine_5_oo <=> imipramine_5_ooh_5_rad",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.17045e+08,'s^-1'), n=0, Ea=(39.9856,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    longDesc =
+u"""
+ts2006 based on fragment
+
+dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2svp
+solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+
+TS0 optimized at wb97xd/def2svp
+C      -0.58442700   -0.77762800   -0.78705500
+O      -0.88207500   -1.46570500    0.41017200
+O      -2.25191700   -1.47365300    0.60143700
+N      -0.89819200    0.61904600   -0.59084600
+C      -2.28218900    0.78837100   -0.39547100
+C      -0.06412600    1.36758100    0.35035200
+C       1.44254600    1.32144300    0.09741600
+C       2.19688500    0.06778900    0.58422300
+N       2.58392700   -0.79898900   -0.52157100
+H       0.48594900   -0.93550600   -0.98198500
+H      -1.20545500   -1.17280800   -1.60821500
+H      -2.53425000   -0.28622200    0.36608500
+H      -2.88359900    0.53962500   -1.28178200
+H      -2.55825100    1.74374700    0.06653000
+H      -0.27085600    1.04516800    1.38993000
+H      -0.39200800    2.41547900    0.27620300
+H       1.86018300    2.20244200    0.60854400
+H       1.63295000    1.47464900   -0.97816500
+H       1.54149600   -0.51397400    1.25231600
+H       3.06027800    0.38693000    1.20012000
+H       2.97118300   -1.67485200   -0.17829600
+H       3.30522700   -0.35968600   -1.09025300
+""",
+)
 
 # entry(
 #     index = 20,
@@ -292,18 +674,7 @@ Based on fragment h6
 # """,
 # )
 
-entry(
-    index = 21,
-    label = "imipramine + OHCH2OO <=> imipramine_rad_3 + OHCH2OOH",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(4.83967e+07,'cm^3/(mol*s)'), n=0, Ea=(60.372,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    shortDesc = u"""based on fragment h12""",
-    longDesc =
-u"""
-Based on fragment h12
-""",
-)
+
 
 # entry(
 #     index = 21,
@@ -321,18 +692,7 @@ Based on fragment h12
 #     shortDesc = u"""k11+k12""",
 # )
 
-entry(
-    index = 22,
-    label = "imipramine + OHCH2OO <=> imipramine_rad_4 + OHCH2OOH",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.01243e+09,'cm^3/(mol*s)'), n=0, Ea=(34.4679,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    shortDesc = u"""based on fragment h21""",
-    longDesc =
-u"""
-Based on fragment h21
-""",
-)
+
 
 # entry(
 #     index = 22,
@@ -350,18 +710,7 @@ Based on fragment h21
 #     shortDesc = u"""k20+k21""",
 # )
 
-entry(
-    index = 23,
-    label = "imipramine + OHCH2OO <=> imipramine_rad_1 + OHCH2OOH",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(A=(1.62526e+06,'cm^3/(mol*s)'), n=0, Ea=(21.0094,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    shortDesc = u"""based on fragment h36""",
-    longDesc =
-u"""
-Based on fragment h36
-""",
-)
+
 
 # entry(
 #     index = 23,
@@ -394,18 +743,7 @@ Based on fragment h36
 # """,
 # )
 
-entry(
-    index = 24,
-    label = "imipramine + OHCH2OO <=> imipramine_rad_5 + OHCH2OOH",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(A=(2.41761e+09,'cm^3/(mol*s)'), n=0, Ea=(40,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    shortDesc = u"""based on fragment h40""",
-    longDesc =
-u"""
-Based on fragment h40
-""",
-)
+
 
 # entry(
 #     index = 24,
@@ -629,461 +967,7 @@ Based on fragment h40
 # """,
 # )
 #
-entry(
-    index = 31,
-    label = "imipramine_peroxy_4 <=> imipramine_peroxide_4_rad_5",
-    degeneracy = 6.0,
-    kinetics=Arrhenius(A=(7.34524e+10, 's^-1'), n=0, Ea=(68.6755, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1018
 
-TS external symmetry: 1, TS optical isomers: 2
-
-Optimized TS geometry:
-N      -0.34364600   -0.12068400    0.15810200
-C       0.87354700   -0.92425800    0.15063200
-C      -1.53266700   -0.80105100   -0.21844900
-C       1.84092800   -0.48426500    1.24361900
-H       0.56479800   -1.94805900    0.35162500
-H       1.36983300   -0.93634000   -0.82561900
-C      -0.25772200    1.26109000   -0.15246100
-C      -1.52831100   -1.74597900   -1.24084700
-C      -2.71243600   -0.53493600    0.47954600
-C       3.12227800   -1.29361000    1.31091100
-H       2.13352300    0.55857500    1.11455600
-H       1.34846200   -0.56057700    2.21518600
-C       0.84630600    1.72691700   -0.87756400
-C      -1.23776300    2.18827900    0.24744900
-C      -2.69217700   -2.42101200   -1.57688100
-H      -0.61181200   -1.95251000   -1.77907500
-C      -2.68538700    0.47808600    1.58020200
-C      -3.87402600   -1.20716100    0.11906100
-N       3.94358500   -1.23913900    0.09343500
-H       3.74792700   -0.91764800    2.12506900
-C       1.00261400    3.06232000   -1.19908200
-H       1.60137200    1.02758900   -1.20555000
-C      -2.49438200    1.89115400    1.04309300
-C      -1.06021800    3.52587400   -0.10552800
-C      -3.87160800   -2.14867600   -0.90017100
-H      -2.67565900   -3.15392800   -2.37395300
-H      -3.62412000    0.44426800    2.13449500
-H      -1.88293900    0.23675500    2.28114300
-H      -4.78975300   -0.99939600    0.66099900
-C       3.95520000   -2.41448500   -0.64976600
-C       5.23344500   -0.59419500    0.28052800
-C       0.03816800    3.97863900   -0.81309600
-H       1.87462000    3.37841200   -1.75816400
-H      -2.52832000    2.59329300    1.87963500
-H      -3.35504200    2.13465600    0.41258700
-H      -1.81847900    4.23587600    0.20718700
-H      -4.78415000   -2.67058500   -1.15960400
-H       2.97134900   -2.74792600   -0.98002600
-H       4.72186200   -2.43602600   -1.41713100
-H       4.15913000   -3.26477400    0.30403700
-H       5.70508000   -0.44610000   -0.68916400
-H       5.89298300   -1.20020700    0.91123200
-H       5.08969100    0.37679900    0.75252400
-H       0.13932000    5.02898300   -1.05493400
-O       2.75129700   -2.62981600    1.59473900
-O       3.87221400   -3.46673200    1.57020800
-""",
-)
-
-entry(
-    index = 32,
-    label = "imipramine_4_oo <=> imipramine_4_oo_2_rad",
-    degeneracy = 2.0,
-    kinetics=Arrhenius(A=(9.27041e+09,'s^-1'), n=0, Ea=(53.4243,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp//wb97xd/def2svp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-
-ts2008 fragment
-
-TS external symmetry: 1, TS optical isomers: 2
-
-Optimized TS geometry:
-C      -2.44221400   -0.43974200   -0.65695200
-N      -1.41331300   -0.48824500    0.36312000
-C      -1.76930400    0.28557300    1.53666900
-C      -0.09828500   -0.29978300   -0.15925400
-O       0.06265300    1.05510800   -0.60436200
-O       0.84600400    1.07967000   -1.78053900
-C       1.01644900   -0.66556200    0.84257600
-C       2.40156800   -0.60241800    0.29338600
-H       2.76877200   -1.41154200   -0.34488100
-N       2.95369600    0.66075500    0.01948300
-H      -2.59250700    0.57544000   -1.07360600
-H      -3.39806400   -0.78709400   -0.23539100
-H      -2.17678600   -1.10969200   -1.48817700
-H      -2.74334200   -0.06125700    1.91411300
-H      -1.04085300    0.13604200    2.34494100
-H      -1.84953600    1.37284400    1.33728400
-H       0.00725100   -0.93128700   -1.05665900
-H       1.74698800    1.12447700   -1.39769000
-H       0.94361100    0.01459200    1.70964200
-H       0.81128400   -1.68232700    1.21067700
-H       3.95170200    0.64862700   -0.16986200
-H       2.73640500    1.36338800    0.72346800
-""",
-)
-
-entry(
-    index = 33,
-    label = "imipramine_rad_5 <=> imipramine_rad_1",
-    degeneracy = 4.0,
-    kinetics=Arrhenius(A=(32980, 's^-1'), n=0, Ea=(44.6304, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1022
-
-This TS restricts 5 rotors, the A factor, originally A=(8.01453e+06, 's^-1'),
-was divided by a factor of 3^5 = 243
-
-TS external symmetry: 1, TS optical isomers: 2
-
-Optimized TS geometry:
-N      -0.38070300   -0.24956800    0.11972200
-C       0.70709000   -1.18047800    0.38654100
-C      -1.65446000   -0.80105700   -0.13833900
-C       1.68022700   -0.66402600    1.44452100
-H       0.24035900   -2.09002300    0.76062400
-H       1.26305400   -1.46828300   -0.51424400
-C      -0.08605700    1.05853000   -0.30707600
-C      -1.77756100   -1.91160900   -0.96898600
-C      -2.78987100   -0.27790300    0.50364600
-C       0.98925100    0.02206400    2.61721700
-H       2.27557400   -1.51450700    1.78598000
-H       2.38377600    0.05107400    1.01149500
-C       1.04123100    1.27012800   -1.11023800
-C      -0.87071300    2.16006700    0.06562000
-C      -3.00770900   -2.52028300   -1.16949300
-H      -0.89540300   -2.30724100   -1.45729400
-C      -2.66778000    0.82840200    1.45440300
-C      -4.02011000   -0.90658800    0.28463900
-N      -0.10373200   -0.74219000    3.19155000
-H       0.57958800    0.97190200    2.27329700
-H       1.73887300    0.26290500    3.38610800
-C       1.39151100    2.53162700   -1.55369300
-H       1.64938600    0.42318000   -1.39835400
-C      -2.04763800    2.13574800    1.01830200
-C      -0.51246200    3.41709300   -0.42214100
-C      -4.13609500   -2.01324200   -0.53998400
-H      -3.08204600   -3.38417700   -1.81826400
-H      -3.60907600    1.02169600    1.96853200
-H      -1.91535300    0.38543200    2.50267200
-H      -4.89769600   -0.51676700    0.78813800
-C      -1.19982800    0.04066400    3.60012300
-C       0.31667500   -1.79780100    4.08922300
-C       0.60151500    3.62043200   -1.21653600
-H       2.27142300    2.65824500   -2.17243200
-H      -1.74866400    2.68796600    1.91700600
-H      -2.83586500    2.74530400    0.56283500
-H      -1.12483000    4.26681400   -0.13928300
-H      -5.10202700   -2.48027400   -0.68745700
-H      -1.90624500   -0.51204400    4.21673100
-H      -0.96386300    1.02516100    4.02229300
-H      -0.54135400   -2.40301100    4.38412300
-H       0.79365700   -1.40682200    5.00148300
-H       1.03215400   -2.45228800    3.58759700
-H       0.85208800    4.61545700   -1.56189000
-""",
-)
-
-entry(
-    index = 34,
-    label = "imipramine_rad_5 <=> imipramine_rad_2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.46807e+08,'s^-1'), n=0, Ea=(48.7508,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1023
-
-TS external symmetry: 1, TS optical isomers: 2
-
-Optimized TS geometry:
-N      -0.31000500   -0.21198800    0.31644400
-C       0.81520800   -1.07594900    0.47504900
-C      -1.51164300   -0.82642400   -0.13385500
-C       1.87332800   -0.65914300    1.47462300
-H       0.45272000   -2.08012900    0.69172600
-H       1.53714600   -1.30051400   -0.56708800
-C      -0.11966600    1.14959700   -0.04417800
-C      -1.49037400   -1.79342200   -1.13310000
-C      -2.71547200   -0.45972300    0.46838200
-C       3.15974700   -1.43809700    1.23380700
-H       2.08309900    0.40892000    1.39961000
-H       1.52343300   -0.84979300    2.49360100
-C       1.03336400    1.50059000   -0.75424900
-C      -1.05249600    2.14903600    0.27737600
-C      -2.67073600   -2.39276000   -1.54642100
-H      -0.54828600   -2.07257700   -1.58934400
-C      -2.69259500    0.57052000    1.55442100
-C      -3.89080600   -1.05837000    0.03123600
-N       3.69257400   -1.20198500   -0.10636200
-H       2.97702200   -2.51545600    1.39363500
-H       3.91246600   -1.13087900    1.96084000
-C       1.29057000    2.80672800   -1.12502400
-H       1.73897600    0.72969400   -1.02746000
-C      -2.35996900    1.95987200    1.02197500
-C      -0.77261800    3.45589700   -0.12314700
-C      -3.87552000   -2.02111800   -0.96811300
-H      -2.64743300   -3.14418900   -2.32580000
-H      -3.66823200    0.61385900    2.04000000
-H      -1.96293700    0.28144600    2.31429100
-H      -4.82875900   -0.77583100    0.49570200
-C       2.79961800   -1.73070700   -1.09775700
-C       5.02107400   -1.78483300   -0.24210700
-C       0.37840500    3.80086500   -0.80721800
-H       2.19691200    3.04022600   -1.66975200
-H      -2.37320000    2.66721700    1.85479300
-H      -3.16783300    2.27029900    0.35247300
-H      -1.49224700    4.22780300    0.12777100
-H      -4.80052800   -2.48339900   -1.28924400
-H       2.96074700   -1.33646200   -2.09906800
-H       2.67143100   -2.82211900   -1.07745400
-H       5.40663400   -1.59704000   -1.24502800
-H       5.01250300   -2.87392600   -0.07815000
-H       5.70493500   -1.33463600    0.48015200
-H       0.55859300    4.83041200   -1.08926400
-""",
-)
-
-entry(
-    index = 35,
-    label = "imipramine_peroxy_5 <=> imipramine_peroxide_5_rad_4",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(7.4259e+09,'s^-1'), n=0, Ea=(58.9622,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1035
-
-TS external symmetry: 1, TS optical isomers: 2
-
-Optimized TS geometry:
-N      -0.38164700    0.67466500   -0.61649500
-C       1.03212400    0.71987700   -0.25791800
-C      -0.92216900   -0.64019600   -0.70565600
-C       1.96401300    0.29362300   -1.39587100
-H       1.22576000    0.09592400    0.62354500
-C      -1.19252300    1.76242700   -0.19756200
-C      -0.97386000   -1.26473700   -1.94539600
-C      -1.33422300   -1.32877700    0.43621900
-C       3.34115200   -0.09383200   -0.91948100
-H       1.51762700   -0.53559900   -1.94925300
-H       2.05466100    1.11703600   -2.10574700
-C      -0.99112000    2.96588700   -0.88017000
-C      -2.13919900    1.71454800    0.83373200
-C      -1.39879500   -2.57978800   -2.05823000
-H      -0.67708100   -0.70068500   -2.82037100
-C      -1.38970400   -0.59756800    1.74380100
-C      -1.76478000   -2.64313600    0.31106000
-N       3.56503500   -1.41749500   -0.46621400
-H       4.14548000    0.20478400   -1.59523100
-C      -1.69933100    4.10771600   -0.57050400
-H      -0.26352100    2.97392400   -1.68253300
-C      -2.44030200    0.51129500    1.70243400
-C      -2.86646400    2.87534000    1.10711900
-C      -1.78653100   -3.27381500   -0.92386100
-H      -1.43084000   -3.05684900   -3.02939300
-H      -1.64615600   -1.29607900    2.54178400
-H      -0.41571200   -0.17122200    1.99696800
-H      -2.08971300   -3.17945600    1.19545300
-C       2.46237500   -2.21391700    0.05039100
-C       4.75693800   -1.47528300    0.33638000
-C      -2.66000600    4.05968600    0.42937900
-H      -1.51748200    5.02392400   -1.11771800
-H      -2.60356400    0.87651400    2.71878500
-H      -3.39012200    0.07069400    1.38148900
-H      -3.60402900    2.84230100    1.90177900
-H      -2.11878200   -4.30138200   -1.00029000
-H       2.79428800   -3.24948500    0.12870600
-H       2.12641600   -1.88335700    1.03803000
-H       1.61529200   -2.18502900   -0.63164600
-H       4.94928900   -2.49407700    0.66963700
-H       5.60429400   -1.07173000   -0.22442100
-H      -3.23810600    4.93908800    0.68223000
-H       1.27430400    1.73977100    0.03932100
-H       3.74369700    0.57029600    0.14233900
-O       4.55851400   -0.71204500    1.51114200
-O       4.51095500    0.63035400    1.15257000
-""",
-)
-
-entry(
-    index = 36,
-    label = "imipramine_peroxy_5 + CH3OH <=> imipramine_peroxide_5 + CH2OH",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(A=(5.99556e+08,'cm^3/(mol*s)'), n=0, Ea=(50.5221,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    longDesc =
-"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
-ts1034b
-
-based on a fragment
-
-TS external symmetry: 1, TS optical isomers: 2
-
-Optimized TS geometry:
-N       2.64279400   -0.50044300    1.63237100
-C       2.41271500    0.12615100    0.33930500
-C       1.18277100   -0.33806000   -0.44600500
-H       3.30050000   -0.04256700   -0.27464300
-C      -0.12370300    0.02079700    0.24332100
-H       1.22374800    0.12219900   -1.43705400
-H       1.22956400   -1.42290400   -0.58979400
-N      -1.30465600   -0.58188600   -0.35582200
-H      -0.08928900   -0.33613900    1.27655200
-C      -1.47030900   -0.39072900   -1.74491200
-C      -2.49005300   -0.39773300    0.45999000
-H      -2.39073100   -0.87209300   -2.07850500
-H      -0.61992500   -0.79780500   -2.29428600
-H      -3.34911000   -0.85535400   -0.03050300
-H      -2.72767900    0.65807500    0.64148800
-H      -2.34264100   -0.89206100    1.42321200
-H       2.65867600   -1.50842500    1.54762100
-H       1.91793400   -0.26361900    2.29500400
-H       2.35497900    1.20682900    0.49784000
-H      -0.21903700    1.11719400    0.29014100
-O      -1.49140000    0.97988300   -2.20486000
-O      -2.67855200    1.58136000   -1.82056900
-H      -3.35349600    1.49763500   -2.81034800
-C      -3.74288000    1.33291500   -4.07957900
-H      -4.76337100    0.95969400   -4.07881100
-H      -3.63192700    2.34750500   -4.47131500
-O      -2.88985500    0.40337300   -4.60774500
-H      -1.98637300    0.71920500   -4.50118400
-""",
-)
-
-entry(
-    index = 37,
-    label = "N(C)(C)C(OOJ)CC(OOH)NH2 <=> N(C)(C)C(OOH)CCJ(OOH)NH2_p",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.5081e+08,'s^-1'), n=0, Ea=(67.4495,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(200,'K'), Tmax=(495, 'K')),
-    longDesc =
-u"""
-This is a fake reaction. products are unstable so forward rate calcualted using '
-                                 'reactant as products. Fitted to 60 data points; dA = *|/ 1.62624, dn = +|- 0, '
-                                 'dEa = +|- 1.26739 kJ/mol'
-
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1038 forward only
-
-TS geom
- N                  2.51752000   -1.07335300   -1.05889900
- C                  1.51453700   -0.47971400   -0.28901200
- C                  0.15956600   -1.13100800   -0.28745500
- C                 -0.98287800   -0.11707700   -0.55433900
- H                  0.11586200   -1.89937400   -1.06110000
- H                 -0.00224800   -1.61576900    0.67755800
- N                 -2.20835100   -0.49660300    0.04572600
- C                 -3.36558800    0.15224000   -0.53792900
- C                 -2.24894800   -0.45253700    1.49624700
- H                 -4.27231500   -0.32399400   -0.15887900
- H                 -3.35011800    0.03386000   -1.62268900
- H                 -3.11261400   -1.02241100    1.84578700
- H                 -2.32837700    0.57124400    1.88501200
- H                 -1.35338100   -0.90033300    1.92488700
- H                  2.56009300   -2.08286300   -0.98646400
- H                  3.42359900   -0.65795000   -0.89194600
- H                 -1.13043800   -0.03219200   -1.63536700
- H                 -3.41755600    1.22528300   -0.30539000
- O                 -0.58359700    1.19063800   -0.09804800
- O                  0.43090900    1.63287600   -0.93751900
- H                  1.19923900    0.70282200   -0.80556700
- O                  1.80871200   -0.13775100    1.04256800
- O                  2.91687200    0.75794600    1.03187500
- H                  2.46077200    1.61028200    0.95028200
-""",
-)
-
-entry(
-    index = 39,
-    label = "imipramine + O2 <=> imipramine_rad_1 + HO2",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(A=(2.82123e+14,'cm^3/(mol*s)'), n=0, Ea=(149.699,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.0007, 
-                         dn = +|- 0, dEa = +|- 0.00181463 kJ/mol"""),
-    shortDesc = u"""diffusion limit""",
-    longDesc =
-u"""
-Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
-""",
-)
-
-entry(
-    index = 40,
-    label = "imipramine + O2 <=> imipramine_rad_2 + HO2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(5.05571e+14,'cm^3/(mol*s)'), n=0, Ea=(176.536,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00064, 
-                         dn = +|- 0, dEa = +|- 0.00164057 kJ/mol"""),
-    shortDesc = u"""diffusion limit""",
-    longDesc =
-u"""
-Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
-""",
-)
-
-entry(
-    index = 41,
-    label = "imipramine + O2 <=> imipramine_rad_3 + HO2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(5.44909e+14,'cm^3/(mol*s)'), n=0, Ea=(205.239,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00105, 
-                         dn = +|- 0, dEa = +|- 0.0027046 kJ/mol"""),
-    shortDesc = u"""diffusion limit""",
-    longDesc =
-u"""
-Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
-""",
-)
-
-entry(
-    index = 42,
-    label = "imipramine + O2 <=> imipramine_rad_4 + HO2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(3.47872e+15,'cm^3/(mol*s)'), n=0, Ea=(185.599,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00053, 
-                         dn = +|- 0, dEa = +|- 0.00137809 kJ/mol"""),
-    shortDesc = u"""diffusion limit""",
-    longDesc =
-u"""
-Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
-""",
-)
-
-entry(
-    index = 43,
-    label = "imipramine + O2 <=> imipramine_rad_5 + HO2",
-    degeneracy = 6.0,
-    kinetics = Arrhenius(A=(6.8117e+14,'cm^3/(mol*s)'), n=0, Ea=(186.187,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.0007, 
-                         dn = +|- 0, dEa = +|- 0.00180928 kJ/mol"""),
-    shortDesc = u"""diffusion limit""",
-    longDesc =
-u"""
-Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discussing with Prof. Green
-""",
-)
 
 # entry(
 #     index = 1057,
@@ -1417,7 +1301,212 @@ Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discus
 # """,
 # )
 
-
+# # imipramine + CH3OO updated to two para arrhenius fit (same as in training reaction)
+#
+# entry(
+#     index = 0,
+#     label = "imipramine + CH3OO <=> imipramine_rad_2 + CH3OOH",
+#     degeneracy = 2.0,
+#     kinetics = Arrhenius(A=(1.13218e+09,'cm^3/(mol*s)'), n=0, Ea=(58.5589,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.02664, dn = +|- 0,
+#                          dEa = +|- 0.0671562 kJ/mol"""),
+#     shortDesc = u"""k5+k6""",
+#     longDesc =
+# u"""
+# H6 is blocked, H5 and H6 have the same 2D connectivity
+# k6 = 0  =>  k5 + k6 = k5
+# """,
+# )
+#
+# entry(
+#     index = 1,
+#     label = "imipramine + CH3OO <=> imipramine_rad_3 + CH3OOH",
+#     degeneracy = 2.0,
+#     # duplicate = True,
+#     kinetics = Arrhenius(A=(1.18283e+09,'cm^3/(mol*s)'), n=0, Ea=(71.1023,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00034, dn = +|- 0,
+#                          dEa = +|- 0.000870252 kJ/mol"""),
+#     # kinetics = MultiArrhenius(
+#     #     arrhenius = [
+#     #         Arrhenius(A=(1.1882e-10,'cm^3/(mol*s)'), n=6.39356, Ea=(55.874,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k11, Fitted to 100 data points; dA = *|/ 1.14786, dn = +|- 0.020122, dEa = +|- 0.057328 kJ/mol"""),
+#     #         # Arrhenius(A=(2.92217e-08,'cm^3/(mol*s)'), n=5.58651, Ea=(56.1606,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.08935, dn = +|- 0.0124883, dEa = +|- 0.0355794 kJ/mol"""),
+#     #     ],
+#     # ),
+#     shortDesc = u"""k11+k12""",
+# )
+#
+# entry(
+#     index = 2,
+#     label = "imipramine + CH3OO <=> imipramine_rad_4 + CH3OOH",
+#     degeneracy = 2.0,
+#     # duplicate = True,
+#     kinetics=Arrhenius(A=(1.11619e+10, 'cm^3/(mol*s)'), n=0, Ea=(52.9458, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00001, dn = +|- 0,
+#                      dEa = +|- 1.85328e-05 kJ/mol"""),
+#     # kinetics = MultiArrhenius(
+#     #     arrhenius = [
+#     #         Arrhenius(A=(1.60144e-12,'cm^3/(mol*s)'), n=7.44743, Ea=(61.7556,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k20, Fitted to 100 data points; dA = *|/ 1.76345, dn = +|- 0.0827744, dEa = +|- 0.235826 kJ/mol"""),
+#     #         # Arrhenius(A=(7.00398e-09,'cm^3/(mol*s)'), n=6.21963, Ea=(36.9099,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k21, Fitted to 100 data points; dA = *|/ 1.21987, dn = +|- 0.0290001, dEa = +|- 0.082622 kJ/mol"""),
+#     #     ],
+#     # ),
+#     shortDesc = u"""k20+k21""",
+# )
+#
+# entry(
+#     index = 3,
+#     label = "imipramine + CH3OO <=> imipramine_rad_1 + CH3OOH",
+#     degeneracy = 4.0,
+#     # duplicate = True,
+#     kinetics=Arrhenius(A=(3.18843e+07, 'cm^3/(mol*s)'), n=0, Ea=(35.8139, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00148, dn = +|- 0,
+#                      dEa = +|- 0.00380887 kJ/mol"""),
+#     # kinetics = MultiArrhenius(
+#     #     arrhenius = [
+#     #         Arrhenius(A=(1.69879e-49,'cm^3/(mol*s)'), n=19.1594, Ea=(17.7046,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k28, Fitted to 100 data points; dA = *|/ 12.2045, dn = +|- 0.365056, dEa = +|- 1.04005 kJ/mol"""),
+#     #         # Arrhenius(A=(2.45476e-50,'cm^3/(mol*s)'), n=19.5114, Ea=(-0.427648,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k29, Fitted to 100 data points; dA = *|/ 6.32046, dn = +|- 0.269041, dEa = +|- 0.766504 kJ/mol"""),
+#     #         # Arrhenius(A=(3.37035e-33,'cm^3/(mol*s)'), n=13.5841, Ea=(7.70763,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k35, Fitted to 100 data points; dA = *|/ 3.55447, dn = +|- 0.185053, dEa = +|- 0.52722 kJ/mol"""),
+#     #         # Arrhenius(A=(5.01589e-29,'cm^3/(mol*s)'), n=12.198, Ea=(3.83956,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k36, Fitted to 100 data points; dA = *|/ 2.54252, dn = +|- 0.136163, dEa = +|- 0.387932 kJ/mol"""),
+#     #     ],
+#     # ),
+#     shortDesc = u"""k28+k29+k35+k36""",
+# )
+#
+# entry(
+#     index = 4,
+#     label = "imipramine + CH3OO <=> imipramine_rad_5 + CH3OOH",
+#     degeneracy = 6.0,
+#     # duplicate = True,
+#     kinetics=Arrhenius(A=(8.81896e+09, 'cm^3/(mol*s)'), n=0, Ea=(56.8704, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00345, dn = +|- 0,
+#                      dEa = +|- 0.00889234 kJ/mol"""),
+# #     kinetics = MultiArrhenius(
+# # #        arrhenius = [
+# # #            Arrhenius(A=(1.157e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
+# # #            Arrhenius(A=(2.63341e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
+# # #            Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
+# # #            Arrhenius(A=(9.88708e-07,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
+# # #            Arrhenius(A=(7.2759e-10,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
+# # #            Arrhenius(A=(1.27688e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
+# # #        ],
+# #         arrhenius = [
+# #             # Arrhenius(A=(3.471e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
+# #             # Arrhenius(A=(7.900e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
+# #             Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
+# #             # Arrhenius(A=(2.9661e-06,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
+# #             # Arrhenius(A=(2.1828e-9,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
+# #             # Arrhenius(A=(3.831e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
+# #         ],
+# #     ),
+#     shortDesc = u"""k39+k40+k41+k42+k43+k44""",
+#     longDesc =
+# u"""
+# Here rotors we not included in the calculation (Eventually we'd like to use rotors).
+# We're definitely missing a factor of x3 of the torsion missing in the TS,
+# we might be missing another factor of x3, depends whether the second methyl rotor is active in the TS or not (breaks it).
+# """,
+# )
+#
+#
+#
+# # imipramine + HO2 copied from CH3OO
+#
+# entry(
+#     index = 10,
+#     label = "imipramine + HO2 <=> imipramine_rad_2 + H2O2",
+#     degeneracy = 2.0,
+#     kinetics = Arrhenius(A=(1.13218e+09,'cm^3/(mol*s)'), n=0, Ea=(58.5589,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.02664, dn = +|- 0,
+#                          dEa = +|- 0.0671562 kJ/mol"""),    shortDesc = u"""k5+k6""",
+#     longDesc =
+# u"""
+# H6 is blocked, H5 and H6 have the same 2D connectivity
+# k6 = 0  =>  k5 + k6 = k5
+# """,
+# )
+#
+# entry(
+#     index = 11,
+#     label = "imipramine + HO2 <=> imipramine_rad_3 + H2O2",
+#     degeneracy = 2.0,
+#     # duplicate = True,
+#     kinetics = Arrhenius(A=(1.18283e+09,'cm^3/(mol*s)'), n=0, Ea=(71.1023,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00034, dn = +|- 0,
+#                          dEa = +|- 0.000870252 kJ/mol"""),    # kinetics = MultiArrhenius(
+#     #     arrhenius = [
+#     #         Arrhenius(A=(1.1882e-10,'cm^3/(mol*s)'), n=6.39356, Ea=(55.874,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k11, Fitted to 100 data points; dA = *|/ 1.14786, dn = +|- 0.020122, dEa = +|- 0.057328 kJ/mol"""),
+#     #         # Arrhenius(A=(2.92217e-08,'cm^3/(mol*s)'), n=5.58651, Ea=(56.1606,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.08935, dn = +|- 0.0124883, dEa = +|- 0.0355794 kJ/mol"""),
+#     #     ],
+#     # ),
+#     shortDesc = u"""k11+k12""",
+# )
+#
+# entry(
+#     index = 12,
+#     label = "imipramine + HO2 <=> imipramine_rad_4 + H2O2",
+#     degeneracy = 2.0,
+#     # duplicate = True,
+#     kinetics=Arrhenius(A=(1.11619e+10, 'cm^3/(mol*s)'), n=0, Ea=(52.9458, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00001, dn = +|- 0,
+#                      dEa = +|- 1.85328e-05 kJ/mol"""),    # kinetics = MultiArrhenius(
+#     #     arrhenius = [
+#     #         Arrhenius(A=(1.60144e-12,'cm^3/(mol*s)'), n=7.44743, Ea=(61.7556,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k20, Fitted to 100 data points; dA = *|/ 1.76345, dn = +|- 0.0827744, dEa = +|- 0.235826 kJ/mol"""),
+#     #         # Arrhenius(A=(7.00398e-09,'cm^3/(mol*s)'), n=6.21963, Ea=(36.9099,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k21, Fitted to 100 data points; dA = *|/ 1.21987, dn = +|- 0.0290001, dEa = +|- 0.082622 kJ/mol"""),
+#     #     ],
+#     # ),
+#     shortDesc = u"""k20+k21""",
+# )
+#
+# entry(
+#     index = 13,
+#     label = "imipramine + HO2 <=> imipramine_rad_1 + H2O2",
+#     degeneracy = 4.0,
+#     # duplicate = True,
+#     kinetics=Arrhenius(A=(3.18843e+07, 'cm^3/(mol*s)'), n=0, Ea=(35.8139, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00148, dn = +|- 0,
+#                      dEa = +|- 0.00380887 kJ/mol"""),    # kinetics = MultiArrhenius(
+#     #     arrhenius = [
+#     #         Arrhenius(A=(1.69879e-49,'cm^3/(mol*s)'), n=19.1594, Ea=(17.7046,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k28, Fitted to 100 data points; dA = *|/ 12.2045, dn = +|- 0.365056, dEa = +|- 1.04005 kJ/mol"""),
+#     #         # Arrhenius(A=(2.45476e-50,'cm^3/(mol*s)'), n=19.5114, Ea=(-0.427648,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k29, Fitted to 100 data points; dA = *|/ 6.32046, dn = +|- 0.269041, dEa = +|- 0.766504 kJ/mol"""),
+#     #         # Arrhenius(A=(3.37035e-33,'cm^3/(mol*s)'), n=13.5841, Ea=(7.70763,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k35, Fitted to 100 data points; dA = *|/ 3.55447, dn = +|- 0.185053, dEa = +|- 0.52722 kJ/mol"""),
+#     #         # Arrhenius(A=(5.01589e-29,'cm^3/(mol*s)'), n=12.198, Ea=(3.83956,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k36, Fitted to 100 data points; dA = *|/ 2.54252, dn = +|- 0.136163, dEa = +|- 0.387932 kJ/mol"""),
+#     #     ],
+#     # ),
+#     shortDesc = u"""k28+k29+k35+k36""",
+# )
+#
+# entry(
+#     index = 14,
+#     label = "imipramine + HO2 <=> imipramine_rad_5 + H2O2",
+#     degeneracy = 6.0,
+#     # duplicate = True,
+#     kinetics=Arrhenius(A=(8.81896e+09, 'cm^3/(mol*s)'), n=0, Ea=(56.8704, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00345, dn = +|- 0,
+#                      dEa = +|- 0.00889234 kJ/mol"""),#     kinetics = MultiArrhenius(
+# # #        arrhenius = [
+# # #            Arrhenius(A=(1.157e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
+# # #            Arrhenius(A=(2.63341e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
+# # #            Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
+# # #            Arrhenius(A=(9.88708e-07,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
+# # #            Arrhenius(A=(7.2759e-10,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
+# # #            Arrhenius(A=(1.27688e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
+# # #        ],
+# #         arrhenius = [
+# #             # Arrhenius(A=(3.471e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
+# #             # Arrhenius(A=(7.900e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
+# #             Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
+# #             # Arrhenius(A=(2.9661e-06,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
+# #             # Arrhenius(A=(2.1828e-9,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
+# #             # Arrhenius(A=(3.831e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
+# #         ],
+# #     ),
+#     shortDesc = u"""k39+k40+k41+k42+k43+k44""",
+#     longDesc =
+# u"""
+# Here rotors we not included in the calculation (Eventually we'd like to use rotors).
+# We're definitely missing a factor of x3 of the torsion missing in the TS,
+# we might be missing another factor of x3, depends whether the second methyl rotor is active in the TS or not (breaks it).
+# """,
+# )
 
 
 
