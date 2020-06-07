@@ -61,7 +61,7 @@ multiplicity 2
 17 H u0 p0 c0 {9,S}
 18 H u0 p0 c0 {9,S}
 
-imipramineCCC(O[O])N(C)C_a
+imipramine_4_oo_r5
 multiplicity 2
 1  *2 C u0 p0 c0 {2,S} {24,S} {25,S} {26,S}
 2  *5 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -110,7 +110,7 @@ multiplicity 2
 45 H u0 p0 c0 {21,S}
 46 H u0 p0 c0 {22,S}
 
-imipramineCCC(O[O])N(C)C_a_p
+imipramine_4_oo_p
 multiplicity 2
 1  C u0 p0 c0 {2,S} {24,S} {25,S} {26,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -159,7 +159,7 @@ multiplicity 2
 45 H u0 p0 c0 {21,S}
 46 H u0 p0 c0 {22,S}
 
-imipramineCCC(O[O])N(C)C_b
+imipramine_4_oo_r2
 multiplicity 2
 1  C u0 p0 c0 {2,S} {24,S} {25,S} {26,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -208,56 +208,7 @@ multiplicity 2
 45 H u0 p0 c0 {21,S}
 46 H u0 p0 c0 {22,S}
 
-imipramineCCC(O[O])N(C)C_b_p
-multiplicity 2
-1  C u0 p0 c0 {2,S} {24,S} {25,S} {26,S}
-2  N u0 p1 c0 {1,S} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {27,S} {28,S} {29,S}
-4  C u0 p0 c0 {2,S} {5,S} {7,S} {30,S}
-5  O u0 p2 c0 {4,S} {6,S}
-6  O u1 p2 c0 {5,S}
-7  C u0 p0 c0 {4,S} {8,S} {31,S} {32,S}
-8  C u0 p0 c0 {7,S} {9,S} {33,S} {34,S}
-9  N u0 p1 c0 {8,S} {10,S} {23,S}
-10 C u0 p0 c0 {9,S} {11,D} {15,S}
-11 C u0 p0 c0 {10,D} {12,S} {35,S}
-12 C u0 p0 c0 {11,S} {13,D} {36,S}
-13 C u0 p0 c0 {12,D} {14,S} {37,S}
-14 C u0 p0 c0 {13,S} {15,D} {38,S}
-15 C u0 p0 c0 {10,S} {14,D} {16,S}
-16 C u0 p0 c0 {15,S} {17,S} {39,S} {40,S}
-17 C u0 p0 c0 {16,S} {18,S} {41,S} {42,S}
-18 C u0 p0 c0 {17,S} {19,D} {23,S}
-19 C u0 p0 c0 {18,D} {20,S} {43,S}
-20 C u0 p0 c0 {19,S} {21,D} {44,S}
-21 C u0 p0 c0 {20,D} {22,S} {45,S}
-22 C u0 p0 c0 {21,S} {23,D} {46,S}
-23 C u0 p0 c0 {9,S} {18,S} {22,D}
-24 H u0 p0 c0 {1,S}
-25 H u0 p0 c0 {1,S}
-26 H u0 p0 c0 {1,S}
-27 H u0 p0 c0 {3,S}
-28 H u0 p0 c0 {3,S}
-29 H u0 p0 c0 {3,S}
-30 H u0 p0 c0 {4,S}
-31 H u0 p0 c0 {7,S}
-32 H u0 p0 c0 {7,S}
-33 H u0 p0 c0 {8,S}
-34 H u0 p0 c0 {8,S}
-35 H u0 p0 c0 {11,S}
-36 H u0 p0 c0 {12,S}
-37 H u0 p0 c0 {13,S}
-38 H u0 p0 c0 {14,S}
-39 H u0 p0 c0 {16,S}
-40 H u0 p0 c0 {16,S}
-41 H u0 p0 c0 {17,S}
-42 H u0 p0 c0 {17,S}
-43 H u0 p0 c0 {19,S}
-44 H u0 p0 c0 {20,S}
-45 H u0 p0 c0 {21,S}
-46 H u0 p0 c0 {22,S}
-
-imipramineCCC(OON(C)[CH2]_p
+imipramine_4_ooh_5_rad_p
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -306,7 +257,7 @@ multiplicity 2
 45 H u0 p0 c0 {23,S}
 46 H u0 p0 c0 {24,S}
 
-imipramineCCC(OON(C)[CH2]_r
+imipramine_4_ooh_5_rad
 multiplicity 2
 1  *1 C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -355,7 +306,7 @@ multiplicity 2
 45 H u0 p0 c0 {23,S}
 46 H u0 p0 c0 {24,S}
 
-imipramine[CH]CC(OO)N(C)C_p
+imipramine_4_ooh_2_rad_p
 multiplicity 2
 1  C u0 p0 c0 {2,S} {25,S} {26,S} {27,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -404,7 +355,7 @@ multiplicity 2
 45 H u0 p0 c0 {22,S}
 46 H u0 p0 c0 {23,S}
 
-imipramine[CH]CC(OO)N(C)C_r
+imipramine_4_ooh_2_rad
 multiplicity 2
 1  C u0 p0 c0 {2,S} {25,S} {26,S} {27,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -453,7 +404,7 @@ multiplicity 2
 45 H u0 p0 c0 {22,S}
 46 H u0 p0 c0 {23,S}
 
-imipramineCCCN(C)[CH2]_a
+imipramine_5_rad_r1
 multiplicity 2
 1  *1 C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -500,7 +451,7 @@ multiplicity 2
 43 H u0 p0 c0 {21,S}
 44 H u0 p0 c0 {22,S}
 
-imipramineCCCN(C)[CH2]_a_p
+imipramine_5_rad_p
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -547,7 +498,7 @@ multiplicity 2
 43 H u0 p0 c0 {21,S}
 44 H u0 p0 c0 {22,S}
 
-imipramine_7_membered_ring_rad
+imipramine_1_rad_r5
 multiplicity 2
 1  *2 C u0 p0 c0 {2,S} {23,S} {24,S} {25,S}
 2  *5 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -594,7 +545,7 @@ multiplicity 2
 43 H u0 p0 c0 {20,S}
 44 H u0 p0 c0 {21,S}
 
-imipramine_7_membered_ring_rad_p
+imipramine_1_rad_p
 multiplicity 2
 1  C u0 p0 c0 {2,S} {23,S} {24,S} {25,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -641,7 +592,7 @@ multiplicity 2
 43 H u0 p0 c0 {20,S}
 44 H u0 p0 c0 {21,S}
 
-NH2CCC(OOj)N(C)C_a
+imipramine_tail_4_oo_r5
 multiplicity 2
 1  N u0 p1 c0 {2,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -666,7 +617,7 @@ multiplicity 2
 21 H u0 p0 c0 {9,S}
 22 H u0 p0 c0 {9,S}
 
-NH2CCC(OOj)N(C)C_a_p
+imipramine_tail_4_oo_p
 multiplicity 2
 1  N u0 p1 c0 {2,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -691,7 +642,7 @@ multiplicity 2
 21 H u0 p0 c0 {9,S}
 22 H u0 p0 c0 {9,S}
 
-NH2CCC(OOH)N(C)CH2j
+imipramine_tail_4_ooh_5_rad
 multiplicity 2
 1  N u0 p1 c0 {2,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
@@ -716,7 +667,7 @@ multiplicity 2
 21 H u0 p0 c0 {8,S}
 22 H u0 p0 c0 {8,S}
 
-NH2CCC(OOH)N(C)CH2j_p
+imipramine_4_ooh_5_rad_p
 multiplicity 2
 1  N u0 p1 c0 {2,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
@@ -741,7 +692,7 @@ multiplicity 2
 21 H u0 p0 c0 {8,S}
 22 H u0 p0 c0 {8,S}
 
-NH2CCC(OOj)N(C)C_b
+imipramine_tail_4_oo_r2
 multiplicity 2
 1  N u0 p1 c0 {2,S} {10,S} {11,S}
 2  *2 C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -766,32 +717,7 @@ multiplicity 2
 21 H u0 p0 c0 {9,S}
 22 H u0 p0 c0 {9,S}
 
-NH2CCC(OOj)N(C)C_b_p
-multiplicity 2
-1  N u0 p1 c0 {2,S} {10,S} {11,S}
-2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
-3  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
-4  C u0 p0 c0 {3,S} {5,S} {7,S} {16,S}
-5  O u0 p2 c0 {4,S} {6,S}
-6  O u1 p2 c0 {5,S}
-7  N u0 p1 c0 {4,S} {8,S} {9,S}
-8  C u0 p0 c0 {7,S} {17,S} {18,S} {19,S}
-9  C u0 p0 c0 {7,S} {20,S} {21,S} {22,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {8,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {9,S}
-22 H u0 p0 c0 {9,S}
-
-NH2CHjCC(OOH)N(C)C
+imipramine_tail_4_ooh_2_rad
 multiplicity 2
 1  N u0 p1 c0 {2,S} {11,S} {12,S}
 2  *1 C u1 p0 c0 {1,S} {3,S} {4,S}
@@ -816,7 +742,7 @@ multiplicity 2
 21 H u0 p0 c0 {10,S}
 22 H u0 p0 c0 {10,S}
 
-NH2CHjCC(OOH)N(C)C_p
+imipramine_tail_4_ooh_2_rad_p
 multiplicity 2
 1  N u0 p1 c0 {2,S} {11,S} {12,S}
 2  C u1 p0 c0 {1,S} {3,S} {4,S}
@@ -841,7 +767,7 @@ multiplicity 2
 21 H u0 p0 c0 {10,S}
 22 H u0 p0 c0 {10,S}
 
-imipramine_rad_5
+imipramine_5_rad_r2
 multiplicity 2
 1  *1 C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -888,7 +814,7 @@ multiplicity 2
 43 H u0 p0 c0 {21,S}
 44 H u0 p0 c0 {22,S}
 
-imipramine_rad_5_p
+imipramine_5_rad_p
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -935,7 +861,7 @@ multiplicity 2
 43 H u0 p0 c0 {21,S}
 44 H u0 p0 c0 {22,S}
 
-imipramine_rad_2
+imipramine_2_rad_r5
 multiplicity 2
 1  *2 C u0 p0 c0 {2,S} {23,S} {24,S} {25,S}
 2  *5 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -982,7 +908,7 @@ multiplicity 2
 43 H u0 p0 c0 {20,S}
 44 H u0 p0 c0 {21,S}
 
-imipramine_rad_2_p
+imipramine_2_rad_p
 multiplicity 2
 1  C u0 p0 c0 {2,S} {23,S} {24,S} {25,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -1029,7 +955,7 @@ multiplicity 2
 43 H u0 p0 c0 {20,S}
 44 H u0 p0 c0 {21,S}
 
-imipramine_5_peroxide_p
+imipramine_5_ooh_4_rad_p
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {25,S} {26,S}
 2  O u0 p2 c0 {1,S} {3,S}
@@ -1078,7 +1004,7 @@ multiplicity 2
 45 H u0 p0 c0 {22,S}
 46 H u0 p0 c0 {23,S}
 
-imipramine_5_peroxide
+imipramine_5_ooh_4_rad
 multiplicity 2
 1  *6 C u0 p0 c0 {2,S} {4,S} {25,S} {26,S}
 2  *5 O u0 p2 c0 {1,S} {3,S}
@@ -1127,7 +1053,7 @@ multiplicity 2
 45 H u0 p0 c0 {22,S}
 46 H u0 p0 c0 {23,S}
 
-imipramine_5_peroxy
+imipramine_5_oo_r4
 multiplicity 2
 1  *1 O u1 p2 c0 {2,S}
 2  *4 O u0 p2 c0 {1,S} {3,S}
@@ -1176,7 +1102,7 @@ multiplicity 2
 45 H u0 p0 c0 {23,S}
 46 H u0 p0 c0 {23,S}
 
-imipramine_5_peroxy_p
+imipramine_5_oo_p
 multiplicity 2
 1  O u1 p2 c0 {2,S}
 2  O u0 p2 c0 {1,S} {3,S}
@@ -1225,7 +1151,7 @@ multiplicity 2
 45 H u0 p0 c0 {23,S}
 46 H u0 p0 c0 {23,S}
 
-NCCCN(C)COOj
+imipramine_tail_5_oo_r4
 multiplicity 2
 1  *1 O u1 p2 c0 {2,S}
 2  *4 O u0 p2 c0 {1,S} {3,S}
@@ -1250,7 +1176,7 @@ multiplicity 2
 21 H u0 p0 c0 {9,S}
 22 H u0 p0 c0 {9,S}
 
-NCCCN(C)COOj_p
+imipramine_tail_5_oo_p
 multiplicity 2
 1  O u1 p2 c0 {2,S}
 2  O u0 p2 c0 {1,S} {3,S}
@@ -1275,7 +1201,7 @@ multiplicity 2
 21 H u0 p0 c0 {9,S}
 22 H u0 p0 c0 {9,S}
 
-NCCCjN(C)COOH
+imipramine_tail_5_ooh_4_rad
 multiplicity 2
 1  *2 O u0 p2 c0 {2,S} {11,S}
 2  *5 O u0 p2 c0 {1,S} {3,S}
@@ -1300,7 +1226,7 @@ multiplicity 2
 21 H u0 p0 c0 {10,S}
 22 H u0 p0 c0 {10,S}
 
-NCCCjN(C)COOH_p
+imipramine_tail_5_ooh_4_rad_p
 multiplicity 2
 1  O u0 p2 c0 {2,S} {11,S}
 2  O u0 p2 c0 {1,S} {3,S}
@@ -1325,7 +1251,7 @@ multiplicity 2
 21 H u0 p0 c0 {10,S}
 22 H u0 p0 c0 {10,S}
 
-NCCC(OOj)N(C)C
+imipramine_tail_4_oo_r5
 multiplicity 2
 1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
 2  *5 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -1350,7 +1276,7 @@ multiplicity 2
 21 H u0 p0 c0 {7,S}
 22 H u0 p0 c0 {7,S}
 
-NCCC(OOj)N(C)C_p
+imipramine_tail_4_oo_p
 multiplicity 2
 1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -1375,7 +1301,7 @@ multiplicity 2
 21 H u0 p0 c0 {7,S}
 22 H u0 p0 c0 {7,S}
 
-NCCC(OOH)N(C)Cj
+imipramine_tail_4_ooh_5_rad
 multiplicity 2
 1  *1 C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -1400,7 +1326,7 @@ multiplicity 2
 21 H u0 p0 c0 {9,S}
 22 *3 H u0 p0 c0 {11,S}
 
-NCCC(OOH)N(C)Cj_p
+imipramine_tail_4_ooh_5_rad_p
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -12346,7 +12272,7 @@ multiplicity 2
 10 *3 H u0 p0 c0 {5,S}
 11    H u0 p0 c0 {6,S}
 
-N(C)(C)C(OOJ)CC(OOH)NH2
+imipramine_tail_2_ooh_4_oo_r2
 multiplicity 2
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -12373,7 +12299,7 @@ multiplicity 2
 23 H u0 p0 c0 {11,S}
 24 H u0 p0 c0 {11,S}
 
-N(C)(C)C(OOH)CCJ(OOH)NH2_p
+imipramine_tail_2_ooh_4_ooh_2_rad
 multiplicity 2
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -12399,106 +12325,6 @@ multiplicity 2
 22 H u0 p0 c0 {10,S}
 23 H u0 p0 c0 {11,S}
 24 H u0 p0 c0 {11,S}
-
-imipramine_tail_2_OO_rad_r
-multiplicity 2
-1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-2  N u0 p1 c0 {1,S} {3,S} {9,S}
-3  *6 C u0 p0 c0 {2,S} {4,S} {6,S} {13,S}
-4  *4 O u0 p2 c0 {3,S} {5,S}
-5  *1 O u1 p2 c0 {4,S}
-6  *5 C u0 p0 c0 {3,S} {7,S} {14,S} {15,S}
-7  *2 C u0 p0 c0 {6,S} {8,S} {16,S} {17,S}
-8  N u0 p1 c0 {7,S} {18,S} {19,S}
-9  C u0 p0 c0 {2,S} {20,S} {21,S} {22,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {6,S}
-15 H u0 p0 c0 {6,S}
-16 *3 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {7,S}
-18 H u0 p0 c0 {8,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {9,S}
-22 H u0 p0 c0 {9,S}
-
-imipramine_tail_2_OOH_4_rad_p
-multiplicity 2
-1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-2  N u0 p1 c0 {1,S} {3,S} {10,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {14,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  O u0 p2 c0 {4,S} {15,S}
-6  C u0 p0 c0 {3,S} {7,S} {16,S} {17,S}
-7  C u1 p0 c0 {6,S} {8,S} {9,S}
-8  H u0 p0 c0 {7,S}
-9  N u0 p1 c0 {7,S} {18,S} {19,S}
-10 C u0 p0 c0 {2,S} {20,S} {21,S} {22,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {9,S}
-20 H u0 p0 c0 {10,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {10,S}
-
-imipramine_tail_2_OOH_4_rad_r
-multiplicity 2
-1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-2  N u0 p1 c0 {1,S} {3,S} {10,S}
-3  *6 C u0 p0 c0 {2,S} {4,S} {6,S} {14,S}
-4  *5 O u0 p2 c0 {3,S} {5,S}
-5  *2 O u0 p2 c0 {4,S} {15,S}
-6  *4 C u0 p0 c0 {3,S} {7,S} {16,S} {17,S}
-7  *1 C u1 p0 c0 {6,S} {8,S} {9,S}
-8  H u0 p0 c0 {7,S}
-9  N u0 p1 c0 {7,S} {18,S} {19,S}
-10 C u0 p0 c0 {2,S} {20,S} {21,S} {22,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {3,S}
-15 *3 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {9,S}
-20 H u0 p0 c0 {10,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {10,S}
-
-imipramine_tail_2_OO_rad_p
-multiplicity 2
-1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-2  N u0 p1 c0 {1,S} {3,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {13,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  O u1 p2 c0 {4,S}
-6  C u0 p0 c0 {3,S} {7,S} {14,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,S} {16,S} {17,S}
-8  N u0 p1 c0 {7,S} {18,S} {19,S}
-9  C u0 p0 c0 {2,S} {20,S} {21,S} {22,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {6,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {7,S}
-18 H u0 p0 c0 {8,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {9,S}
-22 H u0 p0 c0 {9,S}
 
 imipramine_2_OOH_4_OOH_5_rad
 multiplicity 2
