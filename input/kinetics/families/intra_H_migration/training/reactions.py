@@ -9323,60 +9323,6 @@ H       0.85208800    4.61545700   -1.56189000
 )
 
 entry(
-    index = 3001010,
-    label = "imipramine_tail_4_oo_r5 <=> imipramine_4_ooh_5_rad_p",
-    degeneracy = 6.0,
-    kinetics=Arrhenius(A=(4.57547e+09,'s^-1'), n=0, Ea=(68.3751,'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts2011
-
-TTS0 optimized at wb97xd/def2tzvp
-C       0.78470300   -0.39582800   -0.17140300
-C       1.61128900    0.21225100    0.95198900
-H       0.91561200   -1.48491300   -0.17163200
-H       1.15972600   -0.02168700   -1.12654600
-C       3.09529900   -0.10192000    0.89097200
-H       1.49148300    1.29758000    0.92922400
-H       1.23936800   -0.13213600    1.92152100
-N       3.72509700    0.30179500   -0.37624100
-H       3.62721900    0.42754300    1.69001700
-C       4.11574500   -0.77046200   -1.18410200
-C       4.69821200    1.36818000   -0.23966800
-H       3.29407900   -1.41974100   -1.48539200
-H       4.77594100   -0.47999400   -1.99544400
-H       4.67961400   -1.53901300   -0.28919100
-H       4.98143300    1.72749800   -1.22845100
-H       5.59839700    1.03647200    0.29297900
-H       4.25424800    2.20015500    0.30731800
-O       3.23845500   -1.48686800    1.08843700
-O       4.57045700   -1.84515900    0.94727000
-N      -0.60557900    0.02639900   -0.03941600
-H      -1.15154500   -0.29465000   -0.82704200
-H      -1.01998400   -0.37888300    0.79026500
-""",
-)
-
-entry(
-    index = 4001010,
-    label = "imipramine_tail_4_ooh_5_rad <=> imipramine_tail_4_oo_p",
-    degeneracy = 1.0,
-    kinetics=Arrhenius(A=(1.38434e+09,'s^-1'), n=0, Ea=(24.8411,'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts2011 rev
-""",
-)
-
-entry(
     index = 1001013,
     label = "imipramine_5_rad_r2 <=> imipramine_2_rad_p",
     degeneracy = 2.0,
