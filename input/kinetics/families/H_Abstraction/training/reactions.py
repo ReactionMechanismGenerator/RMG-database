@@ -654,271 +654,138 @@ entry(
 # )
 
 # Imipramine + ohch2oo
+entry(
+    index=1001000,
+    label="imipramine_r1 + OHCH2OO_r <=> imipramine_1_rad + OHCH2OOH_p",
+    degeneracy=4.0,
+    kinetics = Arrhenius(A=(1.62526e+06,'cm^3/(mol*s)'), n=0, Ea=(21.0094,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    rank=1,
+    shortDesc=u"""Based on fragment h36 ts2001""",
+    longDesc=
+    u"""
+    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
+    """,
+)
 
 entry(
-    index=100010,
-    label="imipramine_5 + OHCH2OO_r <=> imipramine_rad_5 + OHCH2OOH_p",
+    index=2001000,
+    label="imipramine_1_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    degeneracy=4.0,
+    kinetics = Arrhenius(A=(5.38076e+06, 'cm^3/(mol*s)'), n=0, Ea=(33.8464, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    rank=1,
+    shortDesc=u"""reverse 1001000""",
+    longDesc=
+    u"""
+    """,
+)
+
+entry(
+    index=1001001,
+    label="imipramine_r2 + OHCH2OO_r <=> imipramine_2_rad + OHCH2OOH_p",
     degeneracy=2.0,
     kinetics=Arrhenius(A=(4.55192e+07, 'cm^3/(mol*s)'), n=0, Ea=(21.0728, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00019, dn = +|- 0, 
-                         dEa = +|- 0.000483392 kJ/mol"""),
+                       Tmax=(350, 'K'), ),
     rank=1,
-    shortDesc=u"""k5+k6""",
+    shortDesc=u"""Based on fragment h6 ts2002""",
     longDesc=
     u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(1.08411e+08,'cm^3/(mol*s)'), n=0, Ea=(48.3309,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.22632e+08,'cm^3/(mol*s)'), n=0, Ea=(47.0195,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
     """,
 )
 
 entry(
-    index=100015,
-    label="imipramine_rad_5_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    index=2001001,
+    label="imipramine_2_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=2.0,
     kinetics=Arrhenius(A=(1.60108e+07, 'cm^3/(mol*s)'), n=0, Ea=(4.5213, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00019, dn = +|- 0, 
-                         dEa = +|- 0.00048346 kJ/mol"""),
-
+                       Tmax=(350, 'K'), ),
     rank=1,
-    shortDesc=u"""k5+k6 reverse""",
+    shortDesc=u"""reverse 1001001""",
     longDesc=
     u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(6.09861e+07,'cm^3/(mol*s)'), n=0, Ea=(30.8909,'kJ/mol'),
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(6.8986e+07,'cm^3/(mol*s)'), n=0, Ea=(29.5794,'kJ/mol'),
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')), 
-            ],              
-        ),
-    reverse of entry 100010
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
     """,
 )
 
 entry(
-    index=100011,
-    label="imipramine_11 + OHCH2OO_r <=> imipramine_rad_11 + OHCH2OOH_p",
+    index=1001002,
+    label="imipramine_r3 + OHCH2OO_r <=> imipramine_3_rad + OHCH2OOH_p",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(4.83967e+07, 'cm^3/(mol*s)'), n=0, Ea=(60.372, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00014, dn = +|- 0, 
-                         dEa = +|- 0.000364259 kJ/mol"""),
+    kinetics = Arrhenius(A=(4.83967e+07,'cm^3/(mol*s)'), n=0, Ea=(60.372,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
     rank=1,
-    shortDesc=u"""k11+k12""",
+    shortDesc=u"""Based on fragment h12 ts2003""",
     longDesc=
     u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(7.28152e+06,'cm^3/(mol*s)'), n=0, Ea=(55.1441,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.29398e+07,'cm^3/(mol*s)'), n=0, Ea=(56.3744,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')), 
-            ],
-        ),
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
     """,
 )
 
 entry(
-    index=100016,
-    label="imipramine_rad_11_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    index=2001002,
+    label="imipramine_3_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(8.57082e+06, 'cm^3/(mol*s)'), n=0, Ea=(16.4188, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00014, dn = +|- 0, 
-                         dEa = +|- 0.000364325 kJ/mol"""),
-
+    kinetics = Arrhenius(A=(8.57082e+06, 'cm^3/(mol*s)'), n=0, Ea=(16.4188, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
     rank=1,
-    shortDesc=u"""k11+k12 reverse""",
+    shortDesc=u"""reverse 1001002""",
     longDesc=
     u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(2.04157e+06,'cm^3/(mol*s)'), n=0, Ea=(10.2091,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(9.23557e+06,'cm^3/(mol*s)'), n=0, Ea=(11.4395,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    reverse of entry 100011
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
     """,
 )
 
 entry(
-    index=100012,
-    label="imipramine_20 + OHCH2OO_r <=> imipramine_rad_20 + OHCH2OOH_p",
+    index=1001003,
+    label="imipramine_r4 + OHCH2OO_r <=> imipramine_4_rad + OHCH2OOH_p",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.01243e+09, 'cm^3/(mol*s)'), n=0, Ea=(34.4679, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00002, dn = +|- 0, 
-                         dEa = +|- 4.59316e-05 kJ/mol"""),
+    kinetics = Arrhenius(A=(1.01243e+09,'cm^3/(mol*s)'), n=0, Ea=(34.4679,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
     rank=1,
-    shortDesc=u"""k20+k21""",
+    shortDesc=u"""Based on fragment h21 ts2004""",
     longDesc=
     u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(5.95847e+08,'cm^3/(mol*s)'), n=0, Ea=(64.4211,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.32199e+09,'cm^3/(mol*s)'), n=0, Ea=(41.7307,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),    
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
     """,
 )
 
 entry(
-    index=100017,
-    label="imipramine_rad_20_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    index=2001003,
+    label="imipramine_4_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(3.29769e+08, 'cm^3/(mol*s)'), n=0, Ea=(15.9783, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00002, dn = +|- 0, 
-                         dEa = +|- 4.59318e-05 kJ/mol"""),
-
+    kinetics = Arrhenius(A=(3.29769e+08, 'cm^3/(mol*s)'), n=0, Ea=(15.9783, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
     rank=1,
-    shortDesc=u"""k20+k21 reverse""",
+    shortDesc=u"""reverse 1001003""",
     longDesc=
     u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(1.55167e+08,'cm^3/(mol*s)'), n=0, Ea=(40.5709,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.44263e+08,'cm^3/(mol*s)'), n=0, Ea=(17.8805,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),    
-    reverse of entry 100012
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
     """,
 )
 
 entry(
-    index=100013,
-    label="imipramine_28 + OHCH2OO_r <=> imipramine_rad_28 + OHCH2OOH_p",
-    degeneracy=4.0,
-    kinetics=Arrhenius(A=(1.62526e+06, 'cm^3/(mol*s)'), n=0, Ea=(21.0094, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00028, dn = +|- 0, 
-                         dEa = +|- 0.000717396 kJ/mol"""),
-    rank=1,
-    shortDesc=u"""k28+k29+k35+k36""",
-    longDesc=
-    u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(9170.74,'cm^3/(mol*s)'), n=0, Ea=(39.7754,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(766587,'cm^3/(mol*s)'), n=0, Ea=(26.9283,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(484932,'cm^3/(mol*s)'), n=0, Ea=(25.4013,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.7415e+06,'cm^3/(mol*s)'), n=0, Ea=(23.9218,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
-    """,
-)
-
-entry(
-    index=100018,
-    label="imipramine_rad_28_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=4.0,
-    kinetics=Arrhenius(A=(5.38076e+06, 'cm^3/(mol*s)'), n=0, Ea=(33.8464, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00055, dn = +|- 0, 
-                         dEa = +|- 0.00142977 kJ/mol"""),
-    rank=1,
-    shortDesc=u"""k28+k29+k35+k36 reverse""",
-    longDesc=
-    u"""
-    Data refitted from:
-       MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(14272.2,'cm^3/(mol*s)'), n=0, Ea=(56.045,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.19302e+06,'cm^3/(mol*s)'), n=0, Ea=(43.1979,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(444232,'cm^3/(mol*s)'), n=0, Ea=(39.6659,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.42747e+06,'cm^3/(mol*s)'), n=0, Ea=(38.1864,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    reverse of entry 100013
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
-    """,
-)
-
-entry(
-    index=100014,
-    label="imipramine_39 + OHCH2OO_r <=> imipramine_rad_39 + OHCH2OOH_p",
+    index=1001004,
+    label="imipramine_r5 + OHCH2OO_r <=> imipramine_5_rad + OHCH2OOH_p",
     degeneracy=6.0,
-    kinetics=Arrhenius(A=(2.41761e+09, 'cm^3/(mol*s)'), n=0, Ea=(48.4544, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00198, dn = +|- 0, 
-                         dEa = +|- 0.00509461 kJ/mol"""),
+    kinetics = Arrhenius(A=(2.41761e+09, 'cm^3/(mol*s)'), n=0, Ea=(48.4544, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
     rank=1,
-    shortDesc=u"""k39+k40+k41+k42+k43+k44""",
+    shortDesc=u"""Based on fragment h40 ts2005""",
     longDesc=
     u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(5.12635e+07,'cm^3/(mol*s)'), n=0, Ea=(44.5079,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.96182e+09,'cm^3/(mol*s)'), n=0, Ea=(48.4126,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(5.13709e+07,'cm^3/(mol*s)'), n=0, Ea=(44.3745,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(4.32581e+08,'cm^3/(mol*s)'), n=0, Ea=(47.5423,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.23633e+08,'cm^3/(mol*s)'), n=0, Ea=(43.7415,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.70318e+08,'cm^3/(mol*s)'), n=0, Ea=(44.4719,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
+    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
     """,
 )
 
 entry(
-    index=100019,
-    label="imipramine_rad_39_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    index=2001004,
+    label="imipramine_5_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
     degeneracy=6.0,
-    kinetics=Arrhenius(A=(7.3889e+08, 'cm^3/(mol*s)'), n=0, Ea=(25.3038, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00455, dn = +|- 0, 
-                         dEa = +|- 0.0117207 kJ/mol"""),
-
+    kinetics = Arrhenius(A=(7.3889e+08, 'cm^3/(mol*s)'), n=0, Ea=(25.3038, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
     rank=1,
-    shortDesc=u"""k39+k40+k41+k42+k43+k44""",
+    shortDesc=u"""reverse 1001004""",
     longDesc=
     u"""
-    Data refitted from:
-        MultiArrhenius(
-            arrhenius = [
-                Arrhenius(A=(3.13871e+07,'cm^3/(mol*s)'), n=0, Ea=(18.9298,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(1.20116e+09,'cm^3/(mol*s)'), n=0, Ea=(22.8345,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(3.14528e+07,'cm^3/(mol*s)'), n=0, Ea=(18.7964,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(2.28831e+08,'cm^3/(mol*s)'), n=0, Ea=(18.3627,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(6.54003e+07,'cm^3/(mol*s)'), n=0, Ea=(14.562,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-                Arrhenius(A=(9.00966e+07,'cm^3/(mol*s)'), n=0, Ea=(15.2923,'kJ/mol'), 
-                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-            ],
-        ),
-    reverse of entry 100014
-    optfreq: wb97xd/def2tzvp SMD water
-    sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
     """,
 )
 
@@ -1189,83 +1056,10 @@ entry(
 #     """,
 # )
 
-entry(
-    index=100020,
-    label="H2O + CH3OCH2OO <=> OH_p1 + CH3OCH2OOH",
-    degeneracy=1.0,
-    rank=2,
-    kinetics=Arrhenius(A=(1.02901e+10, 'cm^3/(mol*s)'), n=0, Ea=(137.202, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.01273, dn = +|- 0, 
-                         dEa = +|- 0.0326164 kJ/mol"""),
-    longDesc=
-    """
-    CBS-QB3 SMD water
-    
-    TS external symmetry: 1, TS optical isomers: 2
-    
-    Optimized TS geometry:
-    C       0.98277800   -1.03895700   -0.11961800
-    H       1.77495300   -1.31849800    0.58390200
-    H       0.92899400   -1.72222000   -0.96690400
-    O       1.14859100    0.24653000   -0.63512000
-    O      -0.19876500   -1.17500600    0.67803600
-    O      -1.34777000   -1.07183400   -0.15480200
-    H      -1.38986300   -0.08403100   -0.42895300
-    O      -1.95805700    1.26056600   -0.30588900
-    C       1.47651700    1.23378200    0.35506400
-    H       1.58841900    2.17844400   -0.17503200
-    H       0.68259200    1.32897800    1.09991800
-    H       2.41746600    0.97764200    0.85360000
-    H      -1.59459300    1.58275300    0.53959600
-    
-    1D rotors:
-    pivots: [1, 4], dihedral: [5, 1, 4, 9], rotor symmetry: 1, max scan energy: 37.14 kJ/mol
-    pivots: [1, 5], dihedral: [4, 1, 5, 6], rotor symmetry: 1, max scan energy: 36.89 kJ/mol
-    pivots: [4, 9], dihedral: [1, 4, 9, 10], rotor symmetry: 3, max scan energy: 5.19 kJ/mol
-    * Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 7], invalidation reason:
-    """,
-)
-
-entry(
-    index=100021,
-    label="CH3O + OHCH2OOH <=> CH3OH_p + OHCH2OO",
-    degeneracy=1.0,
-    rank=2,
-    kinetics=Arrhenius(A=(3.87252e+09, 'cm^3/(mol*s)'), n=0, Ea=(24.6093, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.03866, dn = +|- 0, 
-                         dEa = +|- 0.0978258 kJ/mol"""),
-
-    longDesc=
-    """
-    CBS-QB3 SMD water
-    
-    TS external symmetry: 1, TS optical isomers: 2
-    
-    Optimized TS geometry:
-    C       1.57679800    0.01805400    0.10381800
-    H       2.02580100   -0.20817100    1.07380500
-    H       2.30395100   -0.03089000   -0.70538300
-    O       0.96690200    1.27182400    0.05314700
-    H       0.46256500    1.40214300    0.86696600
-    O       0.64243200   -1.07140100   -0.06044400
-    O       0.11002600   -1.05971600   -1.35373900
-    H      -0.71627700   -0.32934800   -1.33240900
-    O      -1.85835100    0.20979600   -1.16793200
-    C      -2.21505300    0.23441100    0.18115500
-    H      -3.19972700   -0.21121800    0.35451000
-    H      -1.46058400   -0.33005700    0.76299600
-    H      -2.17098400    1.26107500    0.57311000
-    
-    1D rotors:
-    pivots: [1, 4], dihedral: [6, 1, 4, 5], rotor symmetry: 1, max scan energy: 18.31 kJ/mol
-    pivots: [1, 6], dihedral: [4, 1, 6, 7], rotor symmetry: 1, max scan energy: 23.10 kJ/mol
-    pivots: [6, 7], dihedral: [1, 6, 7, 8], rotor symmetry: 1, max scan energy: 30.02 kJ/mol
-    """,
-)
 
 entry(
     index=100022,
-    label="NCCCN(C)COO + CH3OH_r1 <=> NCCCN(C)COOH + CH3O_p",
+    label="imipramine_tail_5_oo + CH3OH_r1 <=> imipramine_tail_5_ooh_p + CH3O_p",
     degeneracy=1.0,
     rank=1,
     kinetics=Arrhenius(A=(2.68276e+10, 'cm^3/(mol*s)'), n=0, Ea=(8.30473, 'kJ/mol'),
@@ -1310,192 +1104,159 @@ entry(
 )
 
 entry(
-    index=100023,
-    label="NCCCN_C_COOj_r + CH3OH_r1 <=> NCCCN_C_COOH_p + CH2OH_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(5.99556e+08, 'cm^3/(mol*s)'), n=0, Ea=(50.5221, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
-    ts1034b
-    
-    TS external symmetry: 1, TS optical isomers: 2
-    
-    Optimized TS geometry:
-    N       2.64279400   -0.50044300    1.63237100
-    C       2.41271500    0.12615100    0.33930500
-    C       1.18277100   -0.33806000   -0.44600500
-    H       3.30050000   -0.04256700   -0.27464300
-    C      -0.12370300    0.02079700    0.24332100
-    H       1.22374800    0.12219900   -1.43705400
-    H       1.22956400   -1.42290400   -0.58979400
-    N      -1.30465600   -0.58188600   -0.35582200
-    H      -0.08928900   -0.33613900    1.27655200
-    C      -1.47030900   -0.39072900   -1.74491200
-    C      -2.49005300   -0.39773300    0.45999000
-    H      -2.39073100   -0.87209300   -2.07850500
-    H      -0.61992500   -0.79780500   -2.29428600
-    H      -3.34911000   -0.85535400   -0.03050300
-    H      -2.72767900    0.65807500    0.64148800
-    H      -2.34264100   -0.89206100    1.42321200
-    H       2.65867600   -1.50842500    1.54762100
-    H       1.91793400   -0.26361900    2.29500400
-    H       2.35497900    1.20682900    0.49784000
-    H      -0.21903700    1.11719400    0.29014100
-    O      -1.49140000    0.97988300   -2.20486000
-    O      -2.67855200    1.58136000   -1.82056900
-    H      -3.35349600    1.49763500   -2.81034800
-    C      -3.74288000    1.33291500   -4.07957900
-    H      -4.76337100    0.95969400   -4.07881100
-    H      -3.63192700    2.34750500   -4.47131500
-    O      -2.88985500    0.40337300   -4.60774500
-    H      -1.98637300    0.71920500   -4.50118400
-    """,
-)
-
-entry(
-    index=100024,
-    label="NCCCN_C_COOH_r + CH2OH_r3 <=> NCCCN_C_COOj_p + CH3OH_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1.88654e+08, 'cm^3/(mol*s)'), n=0, Ea=(12.1835, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
-    ts1034b rev
-    
-    TS external symmetry: 1, TS optical isomers: 2
-    
-    Optimized TS geometry:
-    N       2.64279400   -0.50044300    1.63237100
-    C       2.41271500    0.12615100    0.33930500
-    C       1.18277100   -0.33806000   -0.44600500
-    H       3.30050000   -0.04256700   -0.27464300
-    C      -0.12370300    0.02079700    0.24332100
-    H       1.22374800    0.12219900   -1.43705400
-    H       1.22956400   -1.42290400   -0.58979400
-    N      -1.30465600   -0.58188600   -0.35582200
-    H      -0.08928900   -0.33613900    1.27655200
-    C      -1.47030900   -0.39072900   -1.74491200
-    C      -2.49005300   -0.39773300    0.45999000
-    H      -2.39073100   -0.87209300   -2.07850500
-    H      -0.61992500   -0.79780500   -2.29428600
-    H      -3.34911000   -0.85535400   -0.03050300
-    H      -2.72767900    0.65807500    0.64148800
-    H      -2.34264100   -0.89206100    1.42321200
-    H       2.65867600   -1.50842500    1.54762100
-    H       1.91793400   -0.26361900    2.29500400
-    H       2.35497900    1.20682900    0.49784000
-    H      -0.21903700    1.11719400    0.29014100
-    O      -1.49140000    0.97988300   -2.20486000
-    O      -2.67855200    1.58136000   -1.82056900
-    H      -3.35349600    1.49763500   -2.81034800
-    C      -3.74288000    1.33291500   -4.07957900
-    H      -4.76337100    0.95969400   -4.07881100
-    H      -3.63192700    2.34750500   -4.47131500
-    O      -2.88985500    0.40337300   -4.60774500
-    H      -1.98637300    0.71920500   -4.50118400
-    """,
-)
-
-entry(
-    index=100025,
-    label="dimethylpropanediamine_rad1 + CH3OH_r2 <=> dimethylpropanediamine_p + CH2OH",
+    index=1001015,
+    label="imipramine_tail_5_oo + CH3OH_r2 <=> imipramine_tail_5_ooh_p + CH2OH_p",
     degeneracy=3.0,
     rank=1,
-    kinetics=Arrhenius(A=(2.09735e+06, 'cm^3/(mol*s)'), n=0, Ea=(68.084, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    kinetics = Arrhenius(A=(4.22297e+08,'cm^3/(mol*s)'), n=0, Ea=(49.2508,'kJ/mol'),
+                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
     longDesc=
     """
     dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
-    ts1037
+    ts2007 based on a fragment
     
     TS external symmetry: 1, TS optical isomers: 2
     
-    Optimized TS geometry:
-    N       0.31518300   -0.17647700   -0.39210700
-    C       1.66273900   -0.06126100    0.03498300
-    C       2.21219300    1.35493800   -0.05907900
-    C       1.36909400    2.45928000    0.57341400
-    H       3.21543800    1.36285000    0.37343600
-    H       2.29984400    1.58680400   -1.12129600
-    N       1.60703400    3.72699100   -0.02662200
-    C       2.94554400    4.25371700    0.13106200
-    C       0.59693700    4.73812400    0.20182800
-    H       3.06458000    5.12056600   -0.52224400
-    H       3.69066400    3.51411700   -0.16262600
-    H       0.70006500    5.51982400   -0.55622900
-    H       0.66426100    5.20251900    1.19424200
-    H      -0.39682200    4.29919900    0.10242100
-    H      -0.33789900    0.28608100    0.22749700
-    H       0.03723500   -1.13963700   -0.51290700
-    C      -0.44864800    1.26759900    3.66506000
-    H       0.14506200    1.07148000    4.56295200
-    H      -1.50397700    1.45570100    3.85006300
-    O      -0.27430900    0.38557000    2.63800100
-    H       0.67985200    0.28852600    2.42889600
-    H       3.15875900    4.56776800    1.16252900
-    H       2.27311300   -0.72124700   -0.58796000
-    O       1.91264400   -0.47856000    1.40742900
-    O       1.55754600   -1.85358000    1.51381200
-    H       0.66669800   -1.80349400    1.89165300
-    H       0.29973300    2.25575100    0.47461600
-    O       1.69340400    2.38507500    1.98330000
-    O       0.83385900    3.20205500    2.70352900
-    H       0.11168400    2.41248800    3.24057000
+    TS0 optimized at wb97xd/def2tzvp
+    N       2.64279400   -0.50044300    1.63237100
+    C       2.41271500    0.12615100    0.33930500
+    C       1.18277100   -0.33806000   -0.44600500
+    H       3.30050000   -0.04256700   -0.27464300
+    C      -0.12370300    0.02079700    0.24332100
+    H       1.22374800    0.12219900   -1.43705400
+    H       1.22956400   -1.42290400   -0.58979400
+    N      -1.30465600   -0.58188600   -0.35582200
+    H      -0.08928900   -0.33613900    1.27655200
+    C      -1.47030900   -0.39072900   -1.74491200
+    C      -2.49005300   -0.39773300    0.45999000
+    H      -2.39073100   -0.87209300   -2.07850500
+    H      -0.61992500   -0.79780500   -2.29428600
+    H      -3.34911000   -0.85535400   -0.03050300
+    H      -2.72767900    0.65807500    0.64148800
+    H      -2.34264100   -0.89206100    1.42321200
+    H       2.65867600   -1.50842500    1.54762100
+    H       1.91793400   -0.26361900    2.29500400
+    H       2.35497900    1.20682900    0.49784000
+    H      -0.21903700    1.11719400    0.29014100
+    O      -1.49140000    0.97988300   -2.20486000
+    O      -2.67855200    1.58136000   -1.82056900
+    H      -3.35349600    1.49763500   -2.81034800
+    C      -3.74288000    1.33291500   -4.07957900
+    H      -4.76337100    0.95969400   -4.07881100
+    H      -3.63192700    2.34750500   -4.47131500
+    O      -2.88985500    0.40337300   -4.60774500
+    H      -1.98637300    0.71920500   -4.50118400
     """,
 )
 
 entry(
-    index=100026,
-    label="dimethylpropanediamine + CH2OH_r3 <=> dimethylpropanediamine_rad1_p + CH3OH_p",
+    index=2001015,
+    label="imipramine_tail_5_ooh_r + CH2OH_r3 <=> imipramine_tail_5_oo_p + CH3OH_p",
     degeneracy=1.0,
     rank=1,
-    kinetics=Arrhenius(A=(4.77212e+06, 'cm^3/(mol*s)'), n=0, Ea=(17.1842, 'kJ/mol'),
+    kinetics=Arrhenius(A=(2.45841e+08, 'cm^3/(mol*s)'), n=0, Ea=(13.6587, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
     longDesc=
     """
-    dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
-    ts1037 rev
-    
-    TS external symmetry: 1, TS optical isomers: 2
-    
-    Optimized TS geometry:
-    N       0.31518300   -0.17647700   -0.39210700
-    C       1.66273900   -0.06126100    0.03498300
-    C       2.21219300    1.35493800   -0.05907900
-    C       1.36909400    2.45928000    0.57341400
-    H       3.21543800    1.36285000    0.37343600
-    H       2.29984400    1.58680400   -1.12129600
-    N       1.60703400    3.72699100   -0.02662200
-    C       2.94554400    4.25371700    0.13106200
-    C       0.59693700    4.73812400    0.20182800
-    H       3.06458000    5.12056600   -0.52224400
-    H       3.69066400    3.51411700   -0.16262600
-    H       0.70006500    5.51982400   -0.55622900
-    H       0.66426100    5.20251900    1.19424200
-    H      -0.39682200    4.29919900    0.10242100
-    H      -0.33789900    0.28608100    0.22749700
-    H       0.03723500   -1.13963700   -0.51290700
-    C      -0.44864800    1.26759900    3.66506000
-    H       0.14506200    1.07148000    4.56295200
-    H      -1.50397700    1.45570100    3.85006300
-    O      -0.27430900    0.38557000    2.63800100
-    H       0.67985200    0.28852600    2.42889600
-    H       3.15875900    4.56776800    1.16252900
-    H       2.27311300   -0.72124700   -0.58796000
-    O       1.91264400   -0.47856000    1.40742900
-    O       1.55754600   -1.85358000    1.51381200
-    H       0.66669800   -1.80349400    1.89165300
-    H       0.29973300    2.25575100    0.47461600
-    O       1.69340400    2.38507500    1.98330000
-    O       0.83385900    3.20205500    2.70352900
-    H       0.11168400    2.41248800    3.24057000
+    ts2007 rev
     """,
 )
+
+# entry(
+#     index=100025,
+#     label="dimethylpropanediamine_rad1 + CH3OH_r2 <=> dimethylpropanediamine_p + CH2OH",
+#     degeneracy=3.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(2.09735e+06, 'cm^3/(mol*s)'), n=0, Ea=(68.084, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#     dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
+#     ts1037
+#
+#     TS external symmetry: 1, TS optical isomers: 2
+#
+#     Optimized TS geometry:
+#     N       0.31518300   -0.17647700   -0.39210700
+#     C       1.66273900   -0.06126100    0.03498300
+#     C       2.21219300    1.35493800   -0.05907900
+#     C       1.36909400    2.45928000    0.57341400
+#     H       3.21543800    1.36285000    0.37343600
+#     H       2.29984400    1.58680400   -1.12129600
+#     N       1.60703400    3.72699100   -0.02662200
+#     C       2.94554400    4.25371700    0.13106200
+#     C       0.59693700    4.73812400    0.20182800
+#     H       3.06458000    5.12056600   -0.52224400
+#     H       3.69066400    3.51411700   -0.16262600
+#     H       0.70006500    5.51982400   -0.55622900
+#     H       0.66426100    5.20251900    1.19424200
+#     H      -0.39682200    4.29919900    0.10242100
+#     H      -0.33789900    0.28608100    0.22749700
+#     H       0.03723500   -1.13963700   -0.51290700
+#     C      -0.44864800    1.26759900    3.66506000
+#     H       0.14506200    1.07148000    4.56295200
+#     H      -1.50397700    1.45570100    3.85006300
+#     O      -0.27430900    0.38557000    2.63800100
+#     H       0.67985200    0.28852600    2.42889600
+#     H       3.15875900    4.56776800    1.16252900
+#     H       2.27311300   -0.72124700   -0.58796000
+#     O       1.91264400   -0.47856000    1.40742900
+#     O       1.55754600   -1.85358000    1.51381200
+#     H       0.66669800   -1.80349400    1.89165300
+#     H       0.29973300    2.25575100    0.47461600
+#     O       1.69340400    2.38507500    1.98330000
+#     O       0.83385900    3.20205500    2.70352900
+#     H       0.11168400    2.41248800    3.24057000
+#     """,
+# )
+
+# entry(
+#     index=100026,
+#     label="dimethylpropanediamine + CH2OH_r3 <=> dimethylpropanediamine_rad1_p + CH3OH_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(4.77212e+06, 'cm^3/(mol*s)'), n=0, Ea=(17.1842, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#     dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c (APFD SMD solvation scheme) // wb97xd/def2tzvp, no rotors
+#     ts1037 rev
+#
+#     TS external symmetry: 1, TS optical isomers: 2
+#
+#     Optimized TS geometry:
+#     N       0.31518300   -0.17647700   -0.39210700
+#     C       1.66273900   -0.06126100    0.03498300
+#     C       2.21219300    1.35493800   -0.05907900
+#     C       1.36909400    2.45928000    0.57341400
+#     H       3.21543800    1.36285000    0.37343600
+#     H       2.29984400    1.58680400   -1.12129600
+#     N       1.60703400    3.72699100   -0.02662200
+#     C       2.94554400    4.25371700    0.13106200
+#     C       0.59693700    4.73812400    0.20182800
+#     H       3.06458000    5.12056600   -0.52224400
+#     H       3.69066400    3.51411700   -0.16262600
+#     H       0.70006500    5.51982400   -0.55622900
+#     H       0.66426100    5.20251900    1.19424200
+#     H      -0.39682200    4.29919900    0.10242100
+#     H      -0.33789900    0.28608100    0.22749700
+#     H       0.03723500   -1.13963700   -0.51290700
+#     C      -0.44864800    1.26759900    3.66506000
+#     H       0.14506200    1.07148000    4.56295200
+#     H      -1.50397700    1.45570100    3.85006300
+#     O      -0.27430900    0.38557000    2.63800100
+#     H       0.67985200    0.28852600    2.42889600
+#     H       3.15875900    4.56776800    1.16252900
+#     H       2.27311300   -0.72124700   -0.58796000
+#     O       1.91264400   -0.47856000    1.40742900
+#     O       1.55754600   -1.85358000    1.51381200
+#     H       0.66669800   -1.80349400    1.89165300
+#     H       0.29973300    2.25575100    0.47461600
+#     O       1.69340400    2.38507500    1.98330000
+#     O       0.83385900    3.20205500    2.70352900
+#     H       0.11168400    2.41248800    3.24057000
+#     """,
+# )
 
 # entry(
 #     index=100027,
@@ -1768,97 +1529,77 @@ entry(
 # )
 
 entry(
-    index = 100111,
-    label = "frag_peroxide_rad5 + CH3OH_r2 <=> frag_peroxide_5 + CH2OH",
-    degeneracy = 3.0,
-    rank=1,
-    kinetics = Arrhenius(A=(1.32428e+11,'cm^3/(mol*s)'), n=0, Ea=(96.6909,'kJ/mol'), T0=(1,'K'),
-                         Tmin=(275,'K'), Tmax=(350,'K')),
-    longDesc = 
-"""
-TS1049-a
+    index=100020,
+    label="H2O + CH3OCH2OO <=> OH_p1 + CH3OCH2OOH",
+    degeneracy=1.0,
+    rank=2,
+    kinetics=Arrhenius(A=(1.02901e+10, 'cm^3/(mol*s)'), n=0, Ea=(137.202, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.01273, dn = +|- 0, 
+                         dEa = +|- 0.0326164 kJ/mol"""),
+    longDesc=
+    """
+    CBS-QB3 SMD water
 
-dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction 
+    TS external symmetry: 1, TS optical isomers: 2
 
-TS external symmetry: 1, TS optical isomers: 2
+    Optimized TS geometry:
+    C       0.98277800   -1.03895700   -0.11961800
+    H       1.77495300   -1.31849800    0.58390200
+    H       0.92899400   -1.72222000   -0.96690400
+    O       1.14859100    0.24653000   -0.63512000
+    O      -0.19876500   -1.17500600    0.67803600
+    O      -1.34777000   -1.07183400   -0.15480200
+    H      -1.38986300   -0.08403100   -0.42895300
+    O      -1.95805700    1.26056600   -0.30588900
+    C       1.47651700    1.23378200    0.35506400
+    H       1.58841900    2.17844400   -0.17503200
+    H       0.68259200    1.32897800    1.09991800
+    H       2.41746600    0.97764200    0.85360000
+    H      -1.59459300    1.58275300    0.53959600
 
-Optimized TS geometry:
-N       4.78824400    0.31889000   -0.47324800
-C       3.87040400   -0.80993400   -0.50446800
-C       2.59387800   -0.69692200    0.33464000
-H       4.42485800   -1.69644800   -0.18145100
-C       1.66797800    0.39678500   -0.16690800
-H       2.08272900   -1.66538900    0.30965200
-H       2.85858600   -0.49889900    1.38089000
-N       0.54622400    0.68314200    0.71046600
-H       2.23241200    1.33095100   -0.25646000
-C      -0.23211100   -0.42621300    1.10508100
-C      -0.18253100    1.86454500    0.30028800
-H      -1.07170100   -0.08824400    1.71804800
-H       0.36852900   -1.14611200    1.66488100
-H      -1.03012700    2.02522700    0.96805500
-H      -0.56783500    1.80129600   -0.72586900
-H       0.47534300    2.73546900    0.37084700
-H       5.03651800    0.55561600    0.48026100
-H       4.37639700    1.14512800   -0.88735400
-H       3.60180400   -0.99111300   -1.55092300
-H       1.31970800    0.14168800   -1.18178100
-O      -0.75731700   -1.25927000    0.05421500
-O      -1.68754600   -0.53063100   -0.67537200
-H      -4.55512600    0.82708000    0.60014200
-C      -4.69303200   -0.07708700   -0.00935500
-H      -5.68922600   -0.47482900    0.25292700
-H      -4.71415900    0.17643800   -1.07729200
-O      -3.79238800   -1.06209800    0.30217200
-H      -2.59992600   -0.94910900   -0.38962600
-""",
+    1D rotors:
+    pivots: [1, 4], dihedral: [5, 1, 4, 9], rotor symmetry: 1, max scan energy: 37.14 kJ/mol
+    pivots: [1, 5], dihedral: [4, 1, 5, 6], rotor symmetry: 1, max scan energy: 36.89 kJ/mol
+    pivots: [4, 9], dihedral: [1, 4, 9, 10], rotor symmetry: 3, max scan energy: 5.19 kJ/mol
+    * Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 7], invalidation reason:
+    """,
 )
 
 entry(
-    index = 100112,
-    label = "frag_peroxide_rad5 + CH3OH_r1 <=> frag_peroxide_5 + CH3O_p",
-    degeneracy = 1.0,
-    rank=1,
-    kinetics = Arrhenius(A=(1.35368e+11,'cm^3/(mol*s)'), n=0, Ea=(96.7624,'kJ/mol'), T0=(1,'K'), 
-                         Tmin=(275,'K'), Tmax=(350,'K')),
-    longDesc =
-"""
-TS1049-b
+    index=100021,
+    label="CH3O + OHCH2OOH <=> CH3OH_p + OHCH2OO",
+    degeneracy=1.0,
+    rank=2,
+    kinetics=Arrhenius(A=(3.87252e+09, 'cm^3/(mol*s)'), n=0, Ea=(24.6093, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.03866, dn = +|- 0, 
+                         dEa = +|- 0.0978258 kJ/mol"""),
 
-dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction 
+    longDesc=
+    """
+    CBS-QB3 SMD water
 
-TS external symmetry: 1, TS optical isomers: 2
+    TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-N       4.78824400    0.31889000   -0.47324800
-C       3.87040400   -0.80993400   -0.50446800
-C       2.59387800   -0.69692200    0.33464000
-H       4.42485800   -1.69644800   -0.18145100
-C       1.66797800    0.39678500   -0.16690800
-H       2.08272900   -1.66538900    0.30965200
-H       2.85858600   -0.49889900    1.38089000
-N       0.54622400    0.68314200    0.71046600
-H       2.23241200    1.33095100   -0.25646000
-C      -0.23211100   -0.42621300    1.10508100
-C      -0.18253100    1.86454500    0.30028800
-H      -1.07170100   -0.08824400    1.71804800
-H       0.36852900   -1.14611200    1.66488100
-H      -1.03012700    2.02522700    0.96805500
-H      -0.56783500    1.80129600   -0.72586900
-H       0.47534300    2.73546900    0.37084700
-H       5.03651800    0.55561600    0.48026100
-H       4.37639700    1.14512800   -0.88735400
-H       3.60180400   -0.99111300   -1.55092300
-H       1.31970800    0.14168800   -1.18178100
-O      -0.75731700   -1.25927000    0.05421500
-O      -1.68754600   -0.53063100   -0.67537200
-H      -4.55512600    0.82708000    0.60014200
-C      -4.69303200   -0.07708700   -0.00935500
-H      -5.68922600   -0.47482900    0.25292700
-H      -4.71415900    0.17643800   -1.07729200
-O      -3.79238800   -1.06209800    0.30217200
-H      -2.59992600   -0.94910900   -0.38962600
-""",
+    Optimized TS geometry:
+    C       1.57679800    0.01805400    0.10381800
+    H       2.02580100   -0.20817100    1.07380500
+    H       2.30395100   -0.03089000   -0.70538300
+    O       0.96690200    1.27182400    0.05314700
+    H       0.46256500    1.40214300    0.86696600
+    O       0.64243200   -1.07140100   -0.06044400
+    O       0.11002600   -1.05971600   -1.35373900
+    H      -0.71627700   -0.32934800   -1.33240900
+    O      -1.85835100    0.20979600   -1.16793200
+    C      -2.21505300    0.23441100    0.18115500
+    H      -3.19972700   -0.21121800    0.35451000
+    H      -1.46058400   -0.33005700    0.76299600
+    H      -2.17098400    1.26107500    0.57311000
+
+    1D rotors:
+    pivots: [1, 4], dihedral: [6, 1, 4, 5], rotor symmetry: 1, max scan energy: 18.31 kJ/mol
+    pivots: [1, 6], dihedral: [4, 1, 6, 7], rotor symmetry: 1, max scan energy: 23.10 kJ/mol
+    pivots: [6, 7], dihedral: [1, 6, 7, 8], rotor symmetry: 1, max scan energy: 30.02 kJ/mol
+    """,
 )
 
 entry(
