@@ -1637,135 +1637,135 @@ entry(
 #     """,
 # )
 
-entry(
-    index=100101,
-    label="imipramine_28 + imipramine_4_peroxy <=> imipramine_rad_28 + imipramine_4_peroxide_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100102,
-    label="imipramine_5 + imipramine_4_peroxy <=> imipramine_rad_5 + imipramine_4_peroxide_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100103,
-    label="imipramine_11 + imipramine_4_peroxy <=> imipramine_rad_11 + imipramine_4_peroxide_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100104,
-    label="imipramine_20 + imipramine_4_peroxy <=> imipramine_rad_20 + imipramine_4_peroxide_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100105,
-    label="imipramine_39 + imipramine_4_peroxy <=> imipramine_rad_39 + imipramine_4_peroxide_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100106,
-    label="imipramine_rad_28_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100107,
-    label="imipramine_rad_5_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100108,
-    label="imipramine_rad_11_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100109,
-    label="imipramine_rad_20_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
-
-entry(
-    index=100110,
-    label="imipramine_rad_39_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
-    degeneracy=1.0,
-    rank=1,
-    kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-    
-    """,
-)
+# entry(
+#     index=100101,
+#     label="imipramine_28 + imipramine_4_peroxy <=> imipramine_rad_28 + imipramine_4_peroxide_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100102,
+#     label="imipramine_5 + imipramine_4_peroxy <=> imipramine_rad_5 + imipramine_4_peroxide_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100103,
+#     label="imipramine_11 + imipramine_4_peroxy <=> imipramine_rad_11 + imipramine_4_peroxide_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100104,
+#     label="imipramine_20 + imipramine_4_peroxy <=> imipramine_rad_20 + imipramine_4_peroxide_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100105,
+#     label="imipramine_39 + imipramine_4_peroxy <=> imipramine_rad_39 + imipramine_4_peroxide_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100106,
+#     label="imipramine_rad_28_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100107,
+#     label="imipramine_rad_5_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100108,
+#     label="imipramine_rad_11_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100109,
+#     label="imipramine_rad_20_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
+#
+# entry(
+#     index=100110,
+#     label="imipramine_rad_39_r + imipramine_4_peroxide <=> imipramine + imipramine_4_peroxy_p",
+#     degeneracy=1.0,
+#     rank=1,
+#     kinetics=Arrhenius(A=(1e+03, 'cm^3/(mol*s)'), n=0, Ea=(50, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+#
+#     """,
+# )
 
 entry(
     index = 100111,
