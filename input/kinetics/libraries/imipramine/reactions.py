@@ -260,10 +260,10 @@ entry(
     index = 1011,
     label = "imipramine_4_oo <=> imipramine_4_ooh_2_rad",
     degeneracy = 2.0,
-    kinetics=Arrhenius(A=(9.27041e+09,'s^-1'), n=0, Ea=(53.4243,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    kinetics=Arrhenius(A=(1.46807e+10,'s^-1'), n=0, Ea=(52.6413,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
     longDesc =
 u"""
-dlpno-ccsd(t)/def2-tzvp//wb97xd/def2svp
+dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp
 solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
 
 ts2008 fragment
