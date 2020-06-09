@@ -32,7 +32,7 @@ jobs:
     - stage: test
       install:
         # This is the RMG-database project, so need to fetch RMG-Py
-        - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
+        - git clone -b nitrogen_pr https://github.com/ReactionMechanismGenerator/RMG-Py.git
         - cd RMG-Py
         - conda env create -q -f environment.yml
         - source activate rmg_env

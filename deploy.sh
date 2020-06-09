@@ -41,14 +41,14 @@ cd $TARGET_DIR
 
 # create a new branch in RMG-tests with the name equal to
 # the branch name of the tested RMG-database branch:
-RMGTESTSBRANCH=rmgdb-$DEPLOY_BRANCH
+RMGTESTSBRANCH=rmgpydb-$DEPLOY_BRANCH
 
 git checkout -b $RMGTESTSBRANCH || true 
 git checkout $RMGTESTSBRANCH
 
 # create an empty commit with the SHA-ID of the 
 # tested commit of the RMG-database branch:
-git commit --allow-empty -m rmgdb-$REV
+git commit --allow-empty -m rmgpydb-$REV-${DEPLOY_BRANCH}
 
 # push to the branch to the RMG/RMG-tests repo:
 git push -f $REPO $RMGTESTSBRANCH > /dev/null
