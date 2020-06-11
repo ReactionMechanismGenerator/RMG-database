@@ -1880,3 +1880,38 @@ multiplicity 2
 5 O u0 p2 c0 {4,S} {6,S}
 6 H u0 p0 c0 {5,S}
 
+CCC(OO)OC
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3  C u0 p0 c0 {2,S} {4,S} {6,S} {13,S}
+4  O u0 p2 c0 {3,S} {5,S}
+5  O u0 p2 c0 {4,S} {14,S}
+6  O u0 p2 c0 {3,S} {7,S}
+7  C u0 p0 c0 {6,S} {15,S} {16,S} {17,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {7,S}
+17 H u0 p0 c0 {7,S}
+
+C[CH]C(=O)OCO
+multiplicity 2
+1 C u1 p0 c0 {2,S} {4,S} {7,S}
+2 C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3 C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
+4 C u0 p0 c0 {1,S} {5,S} {14,D}
+5 O u0 p2 c0 {3,S} {4,S}
+6 H u0 p0 c0 {11,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 O u0 p2 c0 {3,S} {6,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 O u0 p2 c0 {4,D}

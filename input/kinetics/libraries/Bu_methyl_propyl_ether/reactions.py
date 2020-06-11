@@ -2156,3 +2156,42 @@ this reaction is actually CH3CH2CHOCH2OOH => propanal + CH2O + OH
 but currently in RMG phrasing it that way will result in a duplicate
 """,
 )
+
+entry( 
+    index = 109,
+    label = "MPO + MPO1QJ <=> CCC(OO)OC + MPO1J",
+    elementary_high_p = True,
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (0.104788,'cm^3/(mol*s)'),
+        n = 4.2832,
+        Ea = (13.3035, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+analogy to Mark Nimlos G4 Calculation
+MPO + CH3CH2CH2OCH2OO <=> CCCOCOO + MPO1J
+""",
+)
+
+entry( 
+    index = 110,
+    label = "MPO1O-1OJ <=> C[CH]C(=O)OCO",
+    elementary_high_p = True,
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (4052.73, 's^-1'),
+        n = 2.61055,
+        Ea = (46.1583, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    longDesc =
+u"""
+Mark Nimlos CBS-QB3 calculation
+""",
+)
