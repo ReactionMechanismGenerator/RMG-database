@@ -3177,3 +3177,142 @@ shortDesc = u"""Mark Nimlos Calculation""",
 longDesc = u"""Mark Nimlos Calculation"""
 )
 
+entry(
+index=100,
+label = 'C[CH]C(=O)OCO',
+molecule ="""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+2  C u1 p0 c0 {1,S} {3,S} {4,S}
+3  H u0 p0 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,D} {6,S}
+5  O u0 p2 c0 {4,D}
+6  O u0 p2 c0 {4,S} {7,S}
+7  C u0 p0 c0 {6,S} {8,S} {12,S} {13,S}
+8  O u0 p2 c0 {7,S} {14,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {8,S}
+""",
+thermo =  NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.51772, 0.0498199, -0.000105415, 2.75467e-07, -2.57358e-10, -56993, 12.0235],
+                Tmin = (10, 'K'),
+                Tmax = (402.554, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.642818, 0.0545317, -3.4085e-05, 1.01312e-08, -1.15589e-12, -56568.2, 25.678],
+                Tmin = (402.554, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (
+            -473.88,
+            'kJ/mol',
+        ),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (320.107, 'J/(mol*K)'),
+    ),
+shortDesc = u"""Mark Nimlos CBS-QB3 Calculation""",
+longDesc = u"""Mark Nimlos CBS-QB3 Calculation"""
+)
+
+entry(
+index=101,
+label = 'CCC(OO)OC',
+molecule ="""
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3  C u0 p0 c0 {2,S} {4,S} {6,S} {13,S}
+4  O u0 p2 c0 {3,S} {5,S}
+5  O u0 p2 c0 {4,S} {14,S}
+6  O u0 p2 c0 {3,S} {7,S}
+7  C u0 p0 c0 {6,S} {15,S} {16,S} {17,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {7,S}
+17 H u0 p0 c0 {7,S}
+""",
+thermo =  NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.23246, 0.0761536, -0.000143498, 2.55555e-07, -1.93599e-10, -47889.4, 8.97972],
+                Tmin = (10, 'K'),
+                Tmax = (411.218, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.72851, 0.0591624, -3.71406e-05, 1.11831e-08, -1.29359e-12, -47827.3, 8.27814],
+                Tmin = (411.218, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (
+            -398.192,
+            'kJ/mol',
+        ),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (386.623, 'J/(mol*K)'),
+    ),
+shortDesc = u"""Mark Nimlos CBS-QB3 Calculation""",
+longDesc = u"""Mark Nimlos CBS-QB3 Calculation"""
+)
+
+entry(
+index=102,
+label = 'CC1OC1OC[O]',
+molecule ="""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {11,S}
+3  O u0 p2 c0 {2,S} {4,S}
+4  C u0 p0 c0 {2,S} {3,S} {5,S} {12,S}
+5  O u0 p2 c0 {4,S} {6,S}
+6  C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}
+7  O u1 p2 c0 {6,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {6,S}
+""",
+thermo =  NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.70972, 0.0248565, 0.000198801, -6.90643e-07, 6.96693e-10, -30341.6, 10.7186],
+                Tmin = (10, 'K'),
+                Tmax = (340.731, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [4.22582, 0.047918, -3.09186e-05, 9.64624e-09, -1.15481e-12, -30545.8, 6.30381],
+                Tmin = (340.731, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (
+            -252.236,
+            'kJ/mol',
+        ),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (320.107, 'J/(mol*K)'),
+    ),
+shortDesc = u"""Mark Nimlos CBS-QB3 Calculation""",
+longDesc = u"""Mark Nimlos CBS-QB3 Calculation"""
+)
