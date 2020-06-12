@@ -45974,6 +45974,7 @@ entry(
 entry(
     index = 4284,
     label = "CH2F-CF3 + CHF2-CH2 <=> CF3-CHF + CH3-CHF2",
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(6400,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """From NIST 2019 CH2F2 model""",
 )
