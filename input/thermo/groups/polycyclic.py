@@ -8942,15 +8942,15 @@ entry(
     label = "s3_5_7",
     group = 
 """
-1 * Cs u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
-2   Cs u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
-3   Cs u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
-4   Cs u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
-5   Cs u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
-6   Cs u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
-7   Cs u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
-8   Cs u0 {6,[S,D,T,B]} {9,[S,D,T,B]}
-9   Cs u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
+1 * R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
+2   R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
+3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+4   R!H u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
+5   R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+6   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+7   R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+8   R!H u0 {6,[S,D,T,B]} {9,[S,D,T,B]}
+9   R!H u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
 """,
     thermo = None,
     shortDesc = """""",
@@ -8965,15 +8965,15 @@ entry(
     label = "s3_5_7_ane_0",
     group = 
 """
-1 * Cs u0 {3,S} {4,S} {7,S}
-2   Cs u0 {3,S} {5,S} {6,S}
-3   Cs u0 {1,S} {2,S}
-4   Cs u0 {1,S} {5,S}
-5   Cs u0 {2,S} {4,S}
-6   Cs u0 {2,S} {8,S}
-7   Cs u0 {1,S} {9,S}
-8   Cs u0 {6,S} {9,S}
-9   Cs u0 {7,S} {8,S}
+1 * R!H u0 {3,S} {4,S} {7,S}
+2   R!H u0 {3,S} {5,S} {6,S}
+3   R!H u0 {1,S} {2,S}
+4   R!H u0 {1,S} {5,S}
+5   R!H u0 {2,S} {4,S}
+6   R!H u0 {2,S} {8,S}
+7   R!H u0 {1,S} {9,S}
+8   R!H u0 {6,S} {9,S}
+9   R!H u0 {7,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
