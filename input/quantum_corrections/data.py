@@ -34,31 +34,29 @@ chemistries.
 
 # Atom energy corrections to reach gas-phase reference state
 # Experimental enthalpy of formation at 0 K, 1 bar for gas phase
-# See Gaussian thermo whitepaper at http://gaussian.com/thermo/
-# Note: These values are relatively old and some improvement may be possible by using newer values
-# (particularly for carbon).
-# However, care should be taken to ensure that they are compatible with the BAC values (if BACs are used)
+# Data from the Active Thermochemical Tables (version 1.122g)
+# Care should be taken that these values are compatible with the BAC values (if BACs are used)
 # He, Ne, K, Ca, Ti, Cu, Zn, Ge, Br, Kr, Rb, Ag, Cd, Sn, I, Xe, Cs, Hg, and Pb are taken from CODATA
 # Codata: Cox, J. D., Wagman, D. D., and Medvedev, V. A., CODATA Key Values for Thermodynamics, Hemisphere
 # Publishing Corp., New York, 1989. (http://www.science.uwaterloo.ca/~cchieh/cact/tools/thermodata.html)
 
-atom_hf = {'H': 51.63, 'He': -1.481,
-           'Li': 37.69, 'Be': 76.48, 'B': 136.2, 'C': 169.98, 'N': 112.53, 'O': 58.99, 'F': 18.47, 'Ne': -1.481,
-           'Na': 25.69, 'Mg': 34.87, 'Al': 78.23, 'Si': 106.6, 'P': 75.42, 'S': 65.66, 'Cl': 28.59,
-           'K': 36.841, 'Ca': 41.014, 'Ti': 111.2, 'Cu': 79.16, 'Zn': 29.685, 'Ge': 87.1, 'Br': 25.26,
+atom_hf = {'H': 51.6334, 'He': -1.481,
+           'Li': 37.69, 'Be': 76.48, 'B': 136.2, 'C': 170.028, 'N': 112.471, 'O': 58.9971, 'F': 18.464, 'Ne': -1.481,
+           'Na': 25.69, 'Mg': 34.87, 'Al': 78.23, 'Si': 106.6, 'P': 75.42, 'S': 65.66, 'Cl': 28.5901,
+           'K': 36.841, 'Ca': 41.014, 'Ti': 111.2, 'Cu': 79.16, 'Zn': 29.685, 'Ge': 87.1, 'Br': 28.1821,
            'Kr': -1.481,
-           'Rb': 17.86, 'Ag': 66.61, 'Cd': 25.240, 'Sn': 70.50, 'I': 24.04, 'Xe': -1.481,
+           'Rb': 17.86, 'Ag': 66.61, 'Cd': 25.240, 'Sn': 70.50, 'I': 25.6111, 'Xe': -1.481,
            'Cs': 16.80, 'Hg': 13.19, 'Pb': 15.17}
 
 # Thermal contribution to enthalpy for the atoms reported by Gaussian thermo whitepaper
 # This will be subtracted from the corresponding value in atom_hf to produce an enthalpy used in calculating
 # the enthalpy of formation at 298 K
-atom_thermal = {'H': 1.01, 'He': 1.481,
-                'Li': 1.1, 'Be': 0.46, 'B': 0.29, 'C': 0.25, 'N': 1.04, 'O': 1.04, 'F': 1.05, 'Ne': 1.481,
-                'Na': 1.54, 'Mg': 1.19, 'Al': 1.08, 'Si': 0.76, 'P': 1.28, 'S': 1.05, 'Cl': 1.1,
-                'K': 1.481, 'Ca': 1.481, 'Ti': 1.802, 'Cu': 1.481, 'Zn': 1.481, 'Ge': 1.768, 'Br': 1.481,
+atom_thermal = {'H': 1.012, 'He': 1.481,
+                'Li': 1.1, 'Be': 0.46, 'B': 0.29, 'C': 0.2512, 'N': 1.036, 'O': 1.037, 'F': 1.055, 'Ne': 1.481,
+                'Na': 1.54, 'Mg': 1.19, 'Al': 1.08, 'Si': 0.76, 'P': 1.28, 'S': 1.054, 'Cl': 1.097,
+                'K': 1.481, 'Ca': 1.481, 'Ti': 1.802, 'Cu': 1.481, 'Zn': 1.481, 'Ge': 1.768, 'Br': 2.930,
                 'Kr': 1.481,
-                'Rb': 1.481, 'Ag': 1.481, 'Cd': 1.481, 'Sn': 1.485, 'I': 1.481, 'Xe': 1.481,
+                'Rb': 1.481, 'Ag': 1.481, 'Cd': 1.481, 'Sn': 1.485, 'I': 1.577, 'Xe': 1.481,
                 'Cs': 1.481, 'Hg': 1.481, 'Pb': 1.481}
 
 # Spin orbit correction (SOC) in Hartrees
@@ -74,6 +72,87 @@ SOC = {'H': 0.0, 'N': 0.0, 'O': -0.000355, 'C': -0.000135, 'S': -0.000893, 'P': 
 
 # Atomic energies
 atom_energies = {
+
+    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',))": {
+        'H': -0.495120313966199,
+        'C': -37.778093385262565,
+        'N': -54.50593880634087,
+        'O': -74.97031066806414,
+        'F': -99.62122592786801,
+        'S': -397.63892486619716,
+        'Cl': -459.65754747581127,
+        'Br': -2572.6616119496057
+    },
+
+    "LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('normalpno',))": {
+        'H': -0.499271332870507,
+        'C': -37.78035847712249,
+        'N': -54.51658215786608,
+        'O': -74.98507401946902,
+        'F': -99.6400162523877,
+        'S': -397.65365372589673,
+        'Cl': -459.67474665853644
+    },
+    "LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvdzf12',auxiliary_basis='augccpvdz/c',cabs='ccpvdzf12cabs',software='orca',args=('tightpno',))": {
+        'H': -0.4992954866849927,
+        'C': -37.78051571097156,
+        'N': -54.51730376585899,
+        'O': -74.98569618373061,
+        'F': -99.6403937442908,
+        'S': -397.6543929284361,
+        'Cl': -459.67859358474846
+    },
+    "LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('normalpno',))": {
+        'H': -0.500033623708364,
+        'C': -37.78438841108071,
+        'N': -54.523924288269974,
+        'O': -74.99756159439208,
+        'F': -99.65896394490674,
+        'S': -397.66715992966283,
+        'Cl': -459.6937861504422
+    },
+    "LevelOfTheory(method='dlpnoccsd(t)f12',basis='ccpvtzf12',auxiliary_basis='augccpvtz/c',cabs='ccpvtzf12cabs',software='orca',args=('tightpno',))": {
+        'H': -0.5000040360065064,
+        'C': -37.78475070198012,
+        'N': -54.524530329963675,
+        'O': -74.99813676030882,
+        'F': -99.65901604019733,
+        'S': -397.66794827125074,
+        'Cl': -459.69651783412957
+    },
+
+    "LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian')": {
+        'H': -0.5010929786112164,
+        'C': -37.86564131254798,
+        'N': -54.60589708581987,
+        'O': -75.09767460743954,
+        'F': -99.7683619387686,
+        'S': -398.1345106984206,
+        'Cl': -460.16503888886285,
+        'Br': -2574.1443474092116
+    },
+
+    "LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian')": {
+        'H': -0.5006557872395984,
+        'C': -37.8470621030192,
+        'N': -54.58499594718283,
+        'O': -75.0725240612682,
+        'F': -99.73955550924293,
+        'S': -398.11055304016924,
+        'Cl': -460.1467876783654,
+        'Br': -2574.1745335954856
+    },
+
+    "LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem')": {
+        'H': -0.4927360492667605,
+        'C': -37.8496721908121,
+        'N': -54.59325884742653,
+        'O': -75.07650052379734,
+        'F': -99.7408472067375,
+        'S': -398.0812825325984,
+        'Cl': -460.1106984630151,
+        'Br': -2573.9706200243604
+    },
     "LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem')": {
         'H': -0.49338216995809725,
         'C': -37.84772407774059,
