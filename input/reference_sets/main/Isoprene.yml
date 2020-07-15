@@ -14,6 +14,85 @@ adjacency_list: |
   12 H u0 p0 c0 {4,S}
   13 H u0 p0 c0 {4,S}
 calculated_data:
+  LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 29.629339885239244
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.651493
+          - -1.397261
+          - -2.6e-05
+        - - -0.513422
+          - 0.098916
+          - -1.5e-05
+        - - -1.583519
+          - 0.901911
+          - -3.0e-05
+        - - 0.828965
+          - 0.678478
+          - 1.4e-05
+        - - 1.975081
+          - -0.003593
+          - 3.3e-05
+        - - -1.699663
+          - -1.692493
+          - -5.6e-05
+        - - -0.171186
+          - -1.834992
+          - -0.878704
+        - - -0.171236
+          - -1.834999
+          - 0.878676
+        - - -2.591152
+          - 0.507047
+          - -5.1e-05
+        - - -1.477405
+          - 1.979668
+          - -2.1e-05
+        - - 0.865702
+          - 1.763835
+          - 1.9e-05
+        - - 2.003293
+          - -1.085501
+          - 2.9e-05
+        - - 2.928993
+          - 0.506389
+          - 5.4e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
