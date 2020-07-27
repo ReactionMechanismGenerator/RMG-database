@@ -480,3 +480,146 @@ u"""
 Strained structure, originally derived from: CN(C)CCCN1C2=CC=C[CH]C23OOC3CC3=CC=CC=C31
 """,
 )
+
+entry(
+    label="CC(=C=NO[O])C=O",
+    species=
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {4,D}
+4  N u0 p1 c0 {3,D} {5,S}
+5  O u0 p2 c0 {4,S} {6,S}
+6  O u1 p2 c0 {5,S}
+7  C u0 p0 c0 {2,S} {8,D} {12,S}
+8  O u0 p2 c0 {7,D}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {7,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Did not converge at CBS-QB3
+""",
+)
+
+entry(
+    label="[O]ON=C=C(CO)C",
+    species=
+"""
+multiplicity 2
+1  O u1 p2 c0 {2,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  N u0 p1 c0 {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {5,D}
+5  C u0 p0 c0 {4,D} {6,S} {8,S}
+6  C u0 p0 c0 {5,S} {7,S} {9,S} {10,S}
+7  O u0 p2 c0 {6,S} {11,S}
+8  C u0 p0 c0 {5,S} {12,S} {13,S} {14,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {7,S}
+12 H u0 p0 c0 {8,S}
+13 H u0 p0 c0 {8,S}
+14 H u0 p0 c0 {8,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Did not converge at CBS-QB3
+""",
+)
+
+entry(
+    label="CC(=O)[CH]OON",
+    species=
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  O u0 p2 c0 {2,D}
+4  C u1 p0 c0 {2,S} {5,S} {6,S}
+5  H u0 p0 c0 {4,S}
+6  O u0 p2 c0 {4,S} {7,S}
+7  O u0 p2 c0 {6,S} {8,S}
+8  N u0 p1 c0 {7,S} {12,S} {13,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {8,S}
+13 H u0 p0 c0 {8,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Conformers did not converge at apfd/def2tzvp
+""",
+)
+
+entry(
+    label="C[C](C#N)ON=O",
+    species=
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  C u1 p0 c0 {1,S} {3,S} {5,S}
+3  C u0 p0 c0 {2,S} {4,T}
+4  N u0 p1 c0 {3,T}
+5  O u0 p2 c0 {2,S} {6,S}
+6  N u0 p1 c0 {5,S} {7,D}
+7  O u0 p2 c0 {6,D}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Did not converge at CBS-QB3
+""",
+)
+
+entry(
+    label="[O]ON=C=C",
+    species=
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 N u0 p1 c0 {2,S} {4,D}
+4 C u0 p0 c0 {3,D} {5,D}
+5 C u0 p0 c0 {4,D} {6,S} {7,S}
+6 H u0 p0 c0 {5,S}
+7 H u0 p0 c0 {5,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Did not converge at CBS-QB3
+""",
+)
+
+entry(
+    label="C(C#N)OO[C]=O",
+    species=
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 N u0 p1 c0 {2,T}
+4 O u0 p2 c0 {1,S} {5,S}
+5 O u0 p2 c0 {4,S} {6,S}
+6 C u1 p0 c0 {5,S} {7,D}
+7 O u0 p2 c0 {6,D}
+8 H u0 p0 c0 {1,S}
+9 H u0 p0 c0 {1,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Conformers did not converge at apfd/def2tzvp
+""",
+)
