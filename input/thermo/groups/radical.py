@@ -128,15 +128,15 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 7,
     label = "CJCOOH",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
-2   Cs u0 {1,S} {3,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
+2   Cs  u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
 6   O2s u0 {3,S}
 """,
     thermo = ThermoData(
@@ -153,7 +153,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 8,
     label = "CCJ",
     group = 
 """
@@ -179,7 +179,7 @@ u"""
 )
 
 entry(
-    index = 8,
+    index = 9,
     label = "RCCJ",
     group = 
 """
@@ -205,7 +205,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 10,
     label = "Isobutyl",
     group = 
 """
@@ -231,7 +231,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 11,
     label = "Neopentyl",
     group = 
 """
@@ -257,17 +257,17 @@ u"""
 )
 
 entry(
-    index = 3047,
+    index = 12,
     label = "CJC(C)2C=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   CO u0 {1,S} {8,D}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   CO  u0 {1,S} {8,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
 8   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -286,17 +286,17 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3045,
+    index = 13,
     label = "CJC(C=O)2C",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   CO u0 {1,S} {8,D}
-4   CO u0 {1,S} {9,D}
-5   C  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   CO  u0 {1,S} {8,D}
+4   CO  u0 {1,S} {9,D}
+5   C   u0 {1,S}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
 8   O2d u0 {3,D}
 9   O2d u0 {4,D}
 """,
@@ -316,18 +316,18 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3067,
+    index = 14,
     label = "C=CC(C=O)2CJ",
     group = 
 """
-1    Cs u0 {2,S} {3,S} {4,S} {5,S}
-2  * Cs u1 {1,S} {6,S} {7,S}
-3    CO u0 {1,S} {9,D}
-4    CO u0 {1,S} {10,D}
-5    Cd u0 {1,S} {8,D}
-6    H  u0 {2,S}
-7    H  u0 {2,S}
-8    C  u0 {5,D}
+1    Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2  * Cs  u1 {1,S} {6,S} {7,S}
+3    CO  u0 {1,S} {9,D}
+4    CO  u0 {1,S} {10,D}
+5    Cd  u0 {1,S} {8,D}
+6    H   u0 {2,S}
+7    H   u0 {2,S}
+8    C   u0 {5,D}
 9    O2d u0 {3,D}
 10   O2d u0 {4,D}
 """,
@@ -347,18 +347,18 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3066,
+    index = 15,
     label = "C=CC(C)(C=O)CJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   CO u0 {1,S} {9,D}
-4   Cd u0 {1,S} {8,D}
-5   C  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
-8   C  u0 {4,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   CO  u0 {1,S} {9,D}
+4   Cd  u0 {1,S} {8,D}
+5   C   u0 {1,S}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
+8   C   u0 {4,D}
 9   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -377,17 +377,17 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3017,
+    index = 16,
     label = "CJC(C)OC",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S}
-2 * Cs u1 {1,S} {5,S} {6,S}
+1   Cs  u0 {2,S} {3,S} {4,S}
+2 * Cs  u1 {1,S} {5,S} {6,S}
 3   O2s u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   H  u0 {2,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
+4   C   u0 {1,S}
+5   H   u0 {2,S}
+6   H   u0 {2,S}
+7   C   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -405,17 +405,17 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3018,
+    index = 17,
     label = "CJC(C)2O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
 5   O2s u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -433,18 +433,18 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3031,
+    index = 18,
     label = "C=CC(C)(O)CJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   Cd u0 {1,S} {8,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   Cd  u0 {1,S} {8,D}
 4   O2s u0 {1,S}
-5   C  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
-8   C  u0 {3,D}
+5   C   u0 {1,S}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
+8   C   u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -462,18 +462,18 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3065,
+    index = 19,
     label = "C=CC(O)(C=O)CJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   CO u0 {1,S} {9,D}
-4   Cd u0 {1,S} {8,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   CO  u0 {1,S} {9,D}
+4   Cd  u0 {1,S} {8,D}
 5   O2s u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
-8   C  u0 {4,D}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
+8   C   u0 {4,D}
 9   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -492,17 +492,17 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3046,
+    index = 20,
     label = "CJC(C)(C=O)O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   CO u0 {1,S} {8,D}
-4   C  u0 {1,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   CO  u0 {1,S} {8,D}
+4   C   u0 {1,S}
 5   O2s u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
 8   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -521,17 +521,17 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3019,
+    index = 21,
     label = "CJC(O)2C",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   C  u0 {1,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   C   u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -549,18 +549,18 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3032,
+    index = 22,
     label = "C=CC(O)2CJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * Cs u1 {1,S} {6,S} {7,S}
-3   Cd u0 {1,S} {8,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs  u1 {1,S} {6,S} {7,S}
+3   Cd  u0 {1,S} {8,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {2,S}
-8   C  u0 {3,D}
+6   H   u0 {2,S}
+7   H   u0 {2,S}
+8   C   u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -578,16 +578,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3044,
+    index = 23,
     label = "CJC(C)C=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S}
-2 * Cs u1 {1,S} {5,S} {6,S}
-3   CO u0 {1,S} {7,D}
-4   C  u0 {1,S}
-5   H  u0 {2,S}
-6   H  u0 {2,S}
+1   Cs  u0 {2,S} {3,S} {4,S}
+2 * Cs  u1 {1,S} {5,S} {6,S}
+3   CO  u0 {1,S} {7,D}
+4   C   u0 {1,S}
+5   H   u0 {2,S}
+6   H   u0 {2,S}
 7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -606,7 +606,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3076,
+    index = 24,
     label = "CJC(C)C=C=O",
     group = 
 """
@@ -617,7 +617,7 @@ entry(
 5   C   u0 {1,S}
 6   H   u0 {2,S}
 7   H   u0 {2,S}
-8   O2d  u0 {4,D}
+8   O2d u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -635,9 +635,9 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 12,
+    index = 25,
     label = "Benzyl_P",
-    group =
+    group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cb u0 {1,S}
@@ -646,13 +646,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.492000,0.642000,0.109000,-0.656000,-1.606000,-2.293000,-4.101000],'cal/(mol*K)'),
-        H298 = (90.788000,'kcal/mol','+|-',2.4),
-        S298 = (-5.163000,'cal/(mol*K)'),
+        Cpdata = ([0.492,0.642,0.109,-0.656,-1.606,-2.293,-4.101],'cal/(mol*K)'),
+        H298 = (90.788,'kcal/mol','+|-',2.4),
+        S298 = (-5.163,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fitted From  Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 7/2017, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -664,7 +665,7 @@ Model Compounds Include
 )
 
 entry(
-    index = 13,
+    index = 26,
     label = "Allyl_P",
     group = 
 """
@@ -687,7 +688,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 27,
     label = "C=CC=CCJ",
     group = 
 """
@@ -712,7 +713,7 @@ u"""
 )
 
 entry(
-    index = 15,
+    index = 28,
     label = "CTCC=CCJ",
     group = 
 """
@@ -737,16 +738,16 @@ u"""
 )
 
 entry(
-    index = 3029,
+    index = 29,
     label = "C=C(O)CJ",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,S} {6,D}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,S} {6,D}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
 5   O2s u0 {2,S}
-6   C  u0 {2,D}
+6   C   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -764,16 +765,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3062,
+    index = 30,
     label = "C=C(C=O)CJ",
     group = 
 """
-1   Cd u0 {2,S} {3,S} {4,D}
-2 * Cs u1 {1,S} {5,S} {6,S}
-3   CO u0 {1,S} {7,D}
-4   C  u0 {1,D}
-5   H  u0 {2,S}
-6   H  u0 {2,S}
+1   Cd  u0 {2,S} {3,S} {4,D}
+2 * Cs  u1 {1,S} {5,S} {6,S}
+3   CO  u0 {1,S} {7,D}
+4   C   u0 {1,D}
+5   H   u0 {2,S}
+6   H   u0 {2,S}
 7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -792,7 +793,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3074,
+    index = 31,
     label = "CJC=C=O",
     group = 
 """
@@ -801,7 +802,7 @@ entry(
 3   Cdd u0 {2,D} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   O2d  u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -819,7 +820,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3082,
+    index = 32,
     label = "C=C(CJ)C=C=O",
     group = 
 """
@@ -830,7 +831,7 @@ entry(
 5   C   u0 {1,D}
 6   H   u0 {2,S}
 7   H   u0 {2,S}
-8   O2d  u0 {4,D}
+8   O2d u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -848,7 +849,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 17,
+    index = 33,
     label = "Propargyl",
     group = 
 """
@@ -871,14 +872,14 @@ u"""
 )
 
 entry(
-    index = 3010,
+    index = 34,
     label = "CJCO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S} {5,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S} {5,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
 5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
@@ -897,14 +898,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3038,
+    index = 35,
     label = "CJC=O",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CO u0 {1,S} {5,D}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S} {5,D}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -923,16 +924,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 16,
+    index = 36,
     label = "C2JC=O",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CO u0 {1,S} {5,D} {6,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S} {5,D} {6,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
 5   O2d u0 {2,D}
-6   C  u0 {2,S}
+6   C   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -948,15 +949,15 @@ u"""
 )
 
 entry(
-    index = 3039,
+    index = 37,
     label = "CJCC=O",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
-2   C  u0 {1,S} {3,S}
-3   CO u0 {2,S} {6,D}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
+2   C   u0 {1,S} {3,S}
+3   CO  u0 {2,S} {6,D}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
 6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -975,7 +976,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3075,
+    index = 38,
     label = "CJCC=C=O",
     group = 
 """
@@ -985,7 +986,7 @@ entry(
 4   Cdd u0 {3,D} {7,D}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
-7   O2d  u0 {4,D}
+7   O2d u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1003,7 +1004,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 18,
+    index = 39,
     label = "Cs_S",
     group = 
 """
@@ -1026,7 +1027,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 40,
     label = "(Cs)2CsJ",
     group = 
 """
@@ -1044,7 +1045,7 @@ u"""
 )
 
 entry(
-    index = 142,
+    index = 41,
     label = "cyclopropane",
     group = 
 """
@@ -1067,7 +1068,7 @@ u"""
 )
 
 entry(
-    index = 152,
+    index = 42,
     label = "bicyclo[1.1.0]butane-secondary",
     group = 
 """
@@ -1091,7 +1092,7 @@ u"""
 )
 
 entry(
-    index = 151,
+    index = 43,
     label = "spiro[2.2]pentane-secondary",
     group = 
 """
@@ -1116,7 +1117,7 @@ u"""
 )
 
 entry(
-    index = 154,
+    index = 44,
     label = "bicyclo[2.1.0]pentane-secondary-C3",
     group = 
 """
@@ -1141,7 +1142,7 @@ u"""
 )
 
 entry(
-    index = 185,
+    index = 45,
     label = "bicyclo[2.1.0]pent-2-ene-C5",
     group = 
 """
@@ -1166,7 +1167,7 @@ u"""
 )
 
 entry(
-    index = 190,
+    index = 46,
     label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C5",
     group = 
 """
@@ -1192,7 +1193,7 @@ u"""
 )
 
 entry(
-    index = 197,
+    index = 47,
     label = "tricyclo[1.1.1.0(1,3)]pentane-C2",
     group = 
 """
@@ -1217,7 +1218,7 @@ u"""
 )
 
 entry(
-    index = 157,
+    index = 48,
     label = "bicyclo[3.1.0]hexane-C3",
     group = 
 """
@@ -1243,7 +1244,7 @@ u"""
 )
 
 entry(
-    index = 202,
+    index = 49,
     label = "tricyclo[2.1.1.0(1,4)]hexane-C5",
     group = 
 """
@@ -1269,7 +1270,7 @@ u"""
 )
 
 entry(
-    index = 172,
+    index = 50,
     label = "bicyclo[4.1.0]heptane-C3-7",
     group = 
 """
@@ -1296,34 +1297,7 @@ u"""
 )
 
 entry(
-    index = 172,
-    label = "bicyclo[4.1.0]heptane-C3-7",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {3,S} {4,S}
-3 * Cs u1 {1,S} {2,S} {8,S}
-4   C  u0 {2,S} {6,S}
-5   C  u0 {1,S} {7,S}
-6   C  u0 {4,S} {7,S}
-7   C  u0 {5,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (108.1,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 209,
+    index = 51,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C6",
     group = 
 """
@@ -1350,7 +1324,7 @@ u"""
 )
 
 entry(
-    index = 211,
+    index = 52,
     label = "tricyclo[2.2.1.0(1,4)]heptane-C7",
     group = 
 """
@@ -1377,7 +1351,7 @@ u"""
 )
 
 entry(
-    index = 143,
+    index = 53,
     label = "cyclobutane",
     group = 
 """
@@ -1401,7 +1375,7 @@ u"""
 )
 
 entry(
-    index = 153,
+    index = 54,
     label = "bicyclo[2.1.0]pentane-secondary-C4",
     group = 
 """
@@ -1426,7 +1400,7 @@ u"""
 )
 
 entry(
-    index = 158,
+    index = 55,
     label = "bicyclo[2.2.0]hexane-secondary",
     group = 
 """
@@ -1452,7 +1426,7 @@ u"""
 )
 
 entry(
-    index = 161,
+    index = 56,
     label = "bicyclo[3.2.0]heptane-C5-6",
     group = 
 """
@@ -1479,7 +1453,7 @@ u"""
 )
 
 entry(
-    index = 210,
+    index = 57,
     label = "tricyclo[2.2.1.0(1,4)]heptane-C2",
     group = 
 """
@@ -1506,7 +1480,7 @@ u"""
 )
 
 entry(
-    index = 177,
+    index = 58,
     label = "bicyclo[4.2.0]octane-C4-7",
     group = 
 """
@@ -1534,15 +1508,15 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 59,
     label = "CCJCOOH",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
-2   Cs u0 {1,S} {3,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
+2   Cs  u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   Cs u0 {1,S}
-5   H  u0 {1,S}
+4   Cs  u0 {1,S}
+5   H   u0 {1,S}
 6   O2s u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1559,7 +1533,7 @@ u"""
 )
 
 entry(
-    index = 179,
+    index = 60,
     label = "cyclopentene-4",
     group = 
 """
@@ -1584,7 +1558,7 @@ u"""
 )
 
 entry(
-    index = 188,
+    index = 61,
     label = "bicyclo[2.1.1]hex-2-ene-C5",
     group = 
 """
@@ -1610,7 +1584,7 @@ u"""
 )
 
 entry(
-    index = 196,
+    index = 62,
     label = "bicyclo[1.1.1]pentane-C2",
     group = 
 """
@@ -1635,7 +1609,7 @@ u"""
 )
 
 entry(
-    index = 155,
+    index = 63,
     label = "bicyclo[3.1.0]hexane-C5-2",
     group = 
 """
@@ -1661,7 +1635,7 @@ u"""
 )
 
 entry(
-    index = 156,
+    index = 64,
     label = "bicyclo[3.1.0]hexane-C5-3",
     group = 
 """
@@ -1688,7 +1662,7 @@ u"""
 )
 
 entry(
-    index = 199,
+    index = 65,
     label = "bicyclo[2.1.1]hexane-C2",
     group = 
 """
@@ -1714,7 +1688,7 @@ u"""
 )
 
 entry(
-    index = 201,
+    index = 66,
     label = "tricyclo[2.1.1.0(1,4)]hexane-C2",
     group = 
 """
@@ -1740,7 +1714,7 @@ u"""
 )
 
 entry(
-    index = 200,
+    index = 67,
     label = "bicyclo[2.1.1]hexane-C5",
     group = 
 """
@@ -1766,7 +1740,7 @@ u"""
 )
 
 entry(
-    index = 140,
+    index = 68,
     label = "7-norbornyl",
     group = 
 """
@@ -1793,7 +1767,7 @@ u"""
 )
 
 entry(
-    index = 141,
+    index = 69,
     label = "2-norbornyl",
     group = 
 """
@@ -1821,7 +1795,7 @@ u"""
 )
 
 entry(
-    index = 150,
+    index = 70,
     label = "cycloheptane",
     group = 
 """
@@ -1848,7 +1822,7 @@ u"""
 )
 
 entry(
-    index = 159,
+    index = 71,
     label = "bicyclo[3.2.0]heptane-C5-2",
     group = 
 """
@@ -1875,7 +1849,7 @@ u"""
 )
 
 entry(
-    index = 160,
+    index = 72,
     label = "bicyclo[3.2.0]heptane-C5-3",
     group = 
 """
@@ -1902,7 +1876,7 @@ u"""
 )
 
 entry(
-    index = 170,
+    index = 73,
     label = "bicyclo[4.1.0]heptane-C6-2",
     group = 
 """
@@ -1929,7 +1903,7 @@ u"""
 )
 
 entry(
-    index = 171,
+    index = 74,
     label = "bicyclo[4.1.0]heptane-C6-3",
     group = 
 """
@@ -1956,61 +1930,7 @@ u"""
 )
 
 entry(
-    index = 170,
-    label = "bicyclo[4.1.0]heptane-C6-2",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {6,S} {8,S}
-4   C  u0 {1,S} {2,S}
-5   C  u0 {2,S} {7,S}
-6   Cs u0 {3,S} {7,S}
-7   C  u0 {5,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (94.7,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 171,
-    label = "bicyclo[4.1.0]heptane-C6-3",
-    group = 
-"""
-1   Cs u0 {2,S} {4,S} {5,S}
-2   Cs u0 {1,S} {4,S} {6,S}
-3 * Cs u1 {5,S} {7,S} {8,S}
-4   C  u0 {1,S} {2,S}
-5   Cs u0 {1,S} {3,S}
-6   C  u0 {2,S} {7,S}
-7   Cs u0 {3,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (97.6,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 204,
+    index = 75,
     label = "bicyclo[3.1.1]heptane-C2",
     group = 
 """
@@ -2037,7 +1957,7 @@ u"""
 )
 
 entry(
-    index = 207,
+    index = 76,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C2",
     group = 
 """
@@ -2064,7 +1984,7 @@ u"""
 )
 
 entry(
-    index = 205,
+    index = 77,
     label = "bicyclo[3.1.1]heptane-C3",
     group = 
 """
@@ -2091,7 +2011,7 @@ u"""
 )
 
 entry(
-    index = 208,
+    index = 78,
     label = "tricyclo[3.1.1.0(1,5)]heptane-C3",
     group = 
 """
@@ -2118,7 +2038,7 @@ u"""
 )
 
 entry(
-    index = 206,
+    index = 79,
     label = "bicyclo[3.1.1]heptane-C6",
     group = 
 """
@@ -2145,7 +2065,7 @@ u"""
 )
 
 entry(
-    index = 173,
+    index = 80,
     label = "octahydro-pentalene-C5-2",
     group = 
 """
@@ -2173,7 +2093,7 @@ u"""
 )
 
 entry(
-    index = 174,
+    index = 81,
     label = "octahydro-pentalene-C5-3",
     group = 
 """
@@ -2201,7 +2121,7 @@ u"""
 )
 
 entry(
-    index = 175,
+    index = 82,
     label = "bicyclo[4.2.0]octane-C6-2",
     group = 
 """
@@ -2229,7 +2149,7 @@ u"""
 )
 
 entry(
-    index = 176,
+    index = 83,
     label = "bicyclo[4.2.0]octane-C6-3",
     group = 
 """
@@ -2257,7 +2177,7 @@ u"""
 )
 
 entry(
-    index = 213,
+    index = 84,
     label = "bicyclo[2.2.2]octane-C2",
     group = 
 """
@@ -2285,7 +2205,7 @@ u"""
 )
 
 entry(
-    index = 214,
+    index = 85,
     label = "tricyclo[2.2.2.0(1,4)]octane-C2",
     group = 
 """
@@ -2313,7 +2233,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 86,
     label = "CCJC",
     group = 
 """
@@ -2342,7 +2262,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 87,
     label = "RCCJC",
     group = 
 """
@@ -2371,7 +2291,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 88,
     label = "RCCJCC",
     group = 
 """
@@ -2400,7 +2320,7 @@ u"""
 )
 
 entry(
-    index = 215,
+    index = 89,
     label = "cyclopentane",
     group = 
 """
@@ -2429,7 +2349,7 @@ u"""
 )
 
 entry(
-    index = 216,
+    index = 90,
     label = "cyclohexane",
     group = 
 """
@@ -2459,9 +2379,9 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 91,
     label = "Benzyl_S",
-    group =
+    group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cb u0 {1,S}
@@ -2470,13 +2390,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.044800,-1.300200,-2.199000,-2.554600,-2.587200,-2.807400,-5.633600],'cal/(mol*K)'),
-        H298 = (88.064000,'kcal/mol','+|-',2.4),
-        S298 = (-4.855400,'cal/(mol*K)'),
+        Cpdata = ([-0.0448,-1.3002,-2.199,-2.5546,-2.5872,-2.8074,-5.6336],'cal/(mol*K)'),
+        H298 = (88.064,'kcal/mol','+|-',2.4),
+        S298 = (-4.8554,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fitted From Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 7/2017, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -2492,7 +2413,7 @@ CCCCC[CH]C1C=CC=CC=1
 )
 
 entry(
-    index = 26,
+    index = 92,
     label = "Indenyl",
     group = 
 """
@@ -2517,7 +2438,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 93,
     label = "Allyl_S",
     group = 
 """
@@ -2540,7 +2461,7 @@ u"""
 )
 
 entry(
-    index = 147,
+    index = 94,
     label = "cyclobutene-allyl",
     group = 
 """
@@ -2564,7 +2485,7 @@ u"""
 )
 
 entry(
-    index = 148,
+    index = 95,
     label = "cyclopentene-allyl",
     group = 
 """
@@ -2589,7 +2510,7 @@ u"""
 )
 
 entry(
-    index = 149,
+    index = 96,
     label = "cyclohexene-allyl",
     group = 
 """
@@ -2615,18 +2536,18 @@ u"""
 )
 
 entry(
-    index = 3033,
+    index = 97,
     label = "C=CCJC(O)C=C",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {5,S}
-2   Cs u0 {1,S} {4,S} {6,S}
-3   Cd u0 {1,S} {8,D}
-4   Cd u0 {2,S} {7,D}
-5   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {5,S}
+2   Cs  u0 {1,S} {4,S} {6,S}
+3   Cd  u0 {1,S} {8,D}
+4   Cd  u0 {2,S} {7,D}
+5   H   u0 {1,S}
 6   O2s u0 {2,S}
-7   C  u0 {4,D}
-8   C  u0 {3,D}
+7   C   u0 {4,D}
+8   C   u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2644,7 +2565,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 27,
+    index = 98,
     label = "C=CCJC=C",
     group = 
 """
@@ -2667,7 +2588,7 @@ u"""
 )
 
 entry(
-    index = 145,
+    index = 99,
     label = "cyclopropenyl-allyl",
     group = 
 """
@@ -2690,9 +2611,9 @@ u"""
 )
 
 entry(
-    index = 182,
+    index = 100,
     label = "1,3-cyclopentadiene-allyl",
-    group =
+    group = 
 """
 1 * Cs u1 {2,S} {3,S} {6,S}
 2   Cd u0 {1,S} {4,D}
@@ -2703,12 +2624,12 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.157, 0.892, -0.937, -2.776, -4.931, -3.793, -4.855],'cal/(mol*K)'),
+        Cpdata = ([2.157,0.892,-0.937,-2.776,-4.931,-3.793,-4.855],'cal/(mol*K)'),
         H298 = (84.912,'kcal/mol'),
         S298 = (-2.047,'cal/(mol*K)'),
     ),
     shortDesc = u"""Combined experimental and theoretical results of Tranter for 1,2-CPD'yl""",
-    longDesc =
+    longDesc = 
 u"""
 Absolute Enthalpy of formation at 298 K from experiment (1998 Kern and Tranter).
 All other  values from theory (2001 Kiefer and Tranter).
@@ -2716,7 +2637,7 @@ All other  values from theory (2001 Kiefer and Tranter).
 )
 
 entry(
-    index = 3081,
+    index = 101,
     label = "C=CCJC=C=O",
     group = 
 """
@@ -2726,7 +2647,7 @@ entry(
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
-7   O2d  u0 {4,D}
+7   O2d u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2744,7 +2665,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 28,
+    index = 102,
     label = "Sec_Propargyl",
     group = 
 """
@@ -2767,14 +2688,14 @@ u"""
 )
 
 entry(
-    index = 3013,
+    index = 103,
     label = "CCJCO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S} {5,S}
+3   C   u0 {1,S}
+4   H   u0 {1,S}
 5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
@@ -2793,16 +2714,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3028,
+    index = 104,
     label = "C=CCJCO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S} {5,S}
-3   Cd u0 {1,S} {6,D}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S} {5,S}
+3   Cd  u0 {1,S} {6,D}
+4   H   u0 {1,S}
 5   O2s u0 {2,S}
-6   C  u0 {3,D}
+6   C   u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2820,14 +2741,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3040,
+    index = 105,
     label = "CCJC=O",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CO u0 {1,S} {5,D}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S} {5,D}
+3   C   u0 {1,S}
+4   H   u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -2846,16 +2767,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 26,
+    index = 106,
     label = "CCJCHO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CO u0 {1,S} {5,D} {6,S}
-3   Cs u0 {1,S}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S} {5,D} {6,S}
+3   Cs  u0 {1,S}
+4   H   u0 {1,S}
 5   O2d u0 {2,D}
-6   H  u0 {2,S}
+6   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2871,14 +2792,14 @@ u"""
 )
 
 entry(
-    index = 3043,
+    index = 107,
     label = "C=OCJC=O",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CO u0 {1,S} {5,D}
-3   CO u0 {1,S} {6,D}
-4   H  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S} {5,D}
+3   CO  u0 {1,S} {6,D}
+4   H   u0 {1,S}
 5   O2d u0 {2,D}
 6   O2d u0 {3,D}
 """,
@@ -2898,15 +2819,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3042,
+    index = 108,
     label = "CCJCC=O",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
-2   C  u0 {1,S} {3,S}
-3   CO u0 {2,S} {6,D}
-4   C  u0 {1,S}
-5   H  u0 {1,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
+2   C   u0 {1,S} {3,S}
+3   CO  u0 {2,S} {6,D}
+4   C   u0 {1,S}
+5   H   u0 {1,S}
 6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -2925,7 +2846,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3078,
+    index = 109,
     label = "CCJC(C)=C=O",
     group = 
 """
@@ -2935,7 +2856,7 @@ entry(
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
 6   C   u0 {3,S}
-7   O2d  u0 {4,D}
+7   O2d u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2953,7 +2874,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 29,
+    index = 110,
     label = "Cs_T",
     group = 
 """
@@ -2971,7 +2892,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 111,
     label = "Tertalkyl",
     group = 
 """
@@ -2994,7 +2915,7 @@ u"""
 )
 
 entry(
-    index = 162,
+    index = 112,
     label = "bicyclo[1.1.0]butane-tertiary",
     group = 
 """
@@ -3017,7 +2938,7 @@ u"""
 )
 
 entry(
-    index = 163,
+    index = 113,
     label = "bicyclo[2.1.0]pentane-tertiary",
     group = 
 """
@@ -3041,7 +2962,7 @@ u"""
 )
 
 entry(
-    index = 195,
+    index = 114,
     label = "bicyclo[1.1.1]pentane-C1",
     group = 
 """
@@ -3065,15 +2986,15 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 115,
     label = "C2CJCOOH",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
-2   Cs u0 {1,S} {3,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
+2   Cs  u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+4   Cs  u0 {1,S}
+5   Cs  u0 {1,S}
 6   O2s u0 {3,S}
 """,
     thermo = ThermoData(
@@ -3090,7 +3011,7 @@ u"""
 )
 
 entry(
-    index = 164,
+    index = 116,
     label = "bicyclo[3.1.0]hexane-tertiary",
     group = 
 """
@@ -3115,7 +3036,7 @@ u"""
 )
 
 entry(
-    index = 165,
+    index = 117,
     label = "bicyclo[2.2.0]hexane-tertiary",
     group = 
 """
@@ -3140,7 +3061,7 @@ u"""
 )
 
 entry(
-    index = 198,
+    index = 118,
     label = "bicyclo[2.1.1]hexane-C1",
     group = 
 """
@@ -3165,7 +3086,7 @@ u"""
 )
 
 entry(
-    index = 139,
+    index = 119,
     label = "bridgehead_norbornyl",
     group = 
 """
@@ -3191,7 +3112,7 @@ u"""
 )
 
 entry(
-    index = 166,
+    index = 120,
     label = "bicyclo[3.2.0]heptane-tertiary",
     group = 
 """
@@ -3217,7 +3138,7 @@ u"""
 )
 
 entry(
-    index = 167,
+    index = 121,
     label = "bicyclo[4.1.0]heptane-tertiary",
     group = 
 """
@@ -3243,7 +3164,7 @@ u"""
 )
 
 entry(
-    index = 203,
+    index = 122,
     label = "bicyclo[3.1.1]heptane-C1",
     group = 
 """
@@ -3269,7 +3190,7 @@ u"""
 )
 
 entry(
-    index = 168,
+    index = 123,
     label = "octahydro-pentalene-tertiary",
     group = 
 """
@@ -3296,7 +3217,7 @@ u"""
 )
 
 entry(
-    index = 169,
+    index = 124,
     label = "bicyclo[4.2.0]octane-tertiary",
     group = 
 """
@@ -3323,7 +3244,7 @@ u"""
 )
 
 entry(
-    index = 212,
+    index = 125,
     label = "bicyclo[2.2.2]octane-C1",
     group = 
 """
@@ -3350,7 +3271,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 126,
     label = "Benzyl_T",
     group = 
 """
@@ -3373,14 +3294,14 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 127,
     label = "Allyl_T",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S}
-3   C u0 {1,S}
-4   C u0 {1,S}
+3   C  u0 {1,S}
+4   C  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3396,7 +3317,7 @@ u"""
 )
 
 entry(
-    index = 183,
+    index = 128,
     label = "bicyclo[2.1.0]pent-2-ene-C1",
     group = 
 """
@@ -3420,7 +3341,7 @@ u"""
 )
 
 entry(
-    index = 186,
+    index = 129,
     label = "bicyclo[2.1.1]hex-2-ene-C1",
     group = 
 """
@@ -3445,7 +3366,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 130,
     label = "Tert_Propargyl",
     group = 
 """
@@ -3468,16 +3389,16 @@ u"""
 )
 
 entry(
-    index = 501,
+    index = 131,
     label = "C2CJCO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CO u0 {1,S} {5,D} {6,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S} {5,D} {6,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
 5   O2d u0 {2,D}
-6   R  u0 {2,S}
+6   R   u0 {2,S}
 """,
     thermo = u'C2CJCHO',
     shortDesc = u"""""",
@@ -3488,16 +3409,16 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 132,
     label = "C2CJCHO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CO u0 {1,S} {5,D} {6,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S} {5,D} {6,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
 5   O2d u0 {2,D}
-6   H  u0 {2,S}
+6   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3513,7 +3434,7 @@ u"""
 )
 
 entry(
-    index = 191,
+    index = 133,
     label = "bicyclo[2.2.0]hexa-2,5-diene-C1",
     group = 
 """
@@ -3538,14 +3459,14 @@ u"""
 )
 
 entry(
-    index = 3016,
+    index = 134,
     label = "CCJ(C)CO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S} {5,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
 5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
@@ -3564,15 +3485,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3063,
+    index = 135,
     label = "C=CCJ(C)C=O",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   CO u0 {1,S} {6,D}
-4   C  u0 {1,S}
-5   C  u0 {2,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   CO  u0 {1,S} {6,D}
+4   C   u0 {1,S}
+5   C   u0 {2,D}
 6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -3591,16 +3512,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3064,
+    index = 136,
     label = "C=CCJ(C=O)C=C",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   CO u0 {1,S} {7,D}
-4   Cd u0 {1,S} {6,D}
-5   C  u0 {2,D}
-6   C  u0 {4,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   CO  u0 {1,S} {7,D}
+4   Cd  u0 {1,S} {6,D}
+5   C   u0 {2,D}
+6   C   u0 {4,D}
 7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -3619,7 +3540,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3077,
+    index = 137,
     label = "CCJ(C)C=C=O",
     group = 
 """
@@ -3628,7 +3549,7 @@ entry(
 3   Cdd u0 {2,D} {6,D}
 4   C   u0 {1,S}
 5   C   u0 {1,S}
-6   O2d  u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3646,7 +3567,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3083,
+    index = 138,
     label = "C=CCJ(C)C=C=O",
     group = 
 """
@@ -3656,7 +3577,7 @@ entry(
 4   Cdd u0 {2,D} {7,D}
 5   C   u0 {1,S}
 6   C   u0 {3,D}
-7   O2d  u0 {4,D}
+7   O2d u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3674,7 +3595,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3084,
+    index = 139,
     label = "C=CCJ(C=C=O)C=C",
     group = 
 """
@@ -3685,7 +3606,7 @@ entry(
 5   Cdd u0 {2,D} {8,D}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
-8   O2d  u0 {5,D}
+8   O2d u0 {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3703,14 +3624,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 36,
+    index = 140,
     label = "CsJO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3728,15 +3649,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 37,
+    index = 141,
     label = "CsJOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   H  u0 {2,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3752,15 +3673,15 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 142,
     label = "CsJOC",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   C  u0 {2,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   C   u0 {2,S}
 """,
     thermo = u'CsJOCs',
     shortDesc = u"""""",
@@ -3771,15 +3692,15 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 143,
     label = "CsJOCs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   Cs u0 {2,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   Cs  u0 {2,S}
 """,
     thermo = u'CsJOCH3',
     shortDesc = u"""""",
@@ -3790,18 +3711,18 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 144,
     label = "CsJOCH3",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {5,S} {6,S}
-2 * Cs u1 {3,S} {7,S} {8,S}
+1   Cs  u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs  u1 {3,S} {7,S} {8,S}
 3   O2s u0 {1,S} {2,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
-6   H  u0 {1,S}
-7   H  u0 {2,S}
-8   H  u0 {2,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+6   H   u0 {1,S}
+7   H   u0 {2,S}
+8   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3817,18 +3738,18 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 145,
     label = "CsJOCC",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {5,S} {6,S}
-2 * Cs u1 {3,S} {7,S} {8,S}
+1   Cs  u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs  u1 {3,S} {7,S} {8,S}
 3   O2s u0 {1,S} {2,S}
-4   C  u0 {1,S}
-5   H  u0 {1,S}
-6   H  u0 {1,S}
-7   H  u0 {2,S}
-8   H  u0 {2,S}
+4   C   u0 {1,S}
+5   H   u0 {1,S}
+6   H   u0 {1,S}
+7   H   u0 {2,S}
+8   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3844,18 +3765,18 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 146,
     label = "CsJOCC2",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {5,S} {6,S}
-2 * Cs u1 {3,S} {7,S} {8,S}
+1   Cs  u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs  u1 {3,S} {7,S} {8,S}
 3   O2s u0 {1,S} {2,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   H  u0 {1,S}
-7   H  u0 {2,S}
-8   H  u0 {2,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   H   u0 {1,S}
+7   H   u0 {2,S}
+8   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3871,18 +3792,18 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 147,
     label = "CsJOCC3",
     group = 
 """
-1   Cs u0 {3,S} {4,S} {5,S} {6,S}
-2 * Cs u1 {3,S} {7,S} {8,S}
+1   Cs  u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs  u1 {3,S} {7,S} {8,S}
 3   O2s u0 {1,S} {2,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   C  u0 {1,S}
-7   H  u0 {2,S}
-8   H  u0 {2,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   C   u0 {1,S}
+7   H   u0 {2,S}
+8   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3898,12 +3819,12 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 148,
     label = "CsJOCds",
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   O2s      u0 {1,S} {5,S}
+2   O2s     u0 {1,S} {5,S}
 3   H       u0 {1,S}
 4   H       u0 {1,S}
 5   [Cd,CO] u0 {2,S}
@@ -3917,15 +3838,15 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 149,
     label = "CsJOC(O)",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
-3   CO u0 {2,S} {6,D}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
+3   CO  u0 {2,S} {6,D}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
 6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -3942,17 +3863,17 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 150,
     label = "CsJOC(O)H",
     group = 
 """
-1 * Cs u1 {3,S} {4,S} {5,S}
-2   CO u0 {3,S} {6,D} {7,S}
+1 * Cs  u1 {3,S} {4,S} {5,S}
+2   CO  u0 {3,S} {6,D} {7,S}
 3   O2s u0 {1,S} {2,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
 6   O2d u0 {2,D}
-7   H  u0 {2,S}
+7   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3968,17 +3889,17 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 151,
     label = "CsJOC(O)C",
     group = 
 """
-1 * Cs u1 {3,S} {4,S} {5,S}
-2   CO u0 {3,S} {6,D} {7,S}
+1 * Cs  u1 {3,S} {4,S} {5,S}
+2   CO  u0 {3,S} {6,D} {7,S}
 3   O2s u0 {1,S} {2,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
 6   O2d u0 {2,D}
-7   C  u0 {2,S}
+7   C   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3994,16 +3915,16 @@ u"""
 )
 
 entry(
-    index = 3027,
+    index = 152,
     label = "C=COCJ",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
-3   Cd u0 {2,S} {6,D}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
-6   C  u0 {3,D}
+3   Cd  u0 {2,S} {6,D}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+6   C   u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4021,14 +3942,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 48,
+    index = 153,
     label = "CsJOO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
 5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
@@ -4045,16 +3966,16 @@ u"""
 )
 
 entry(
-    index = 49,
+    index = 154,
     label = "CsJOOH",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
-6   H  u0 {3,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+6   H   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4070,16 +3991,16 @@ u"""
 )
 
 entry(
-    index = 50,
+    index = 155,
     label = "CsJOOC",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
-6   C  u0 {3,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+6   C   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4095,14 +4016,14 @@ u"""
 )
 
 entry(
-    index = 51,
+    index = 156,
     label = "CCsJO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
+3   C   u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4120,15 +4041,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 52,
+    index = 157,
     label = "CCsJOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-5   H  u0 {2,S}
+3   C   u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4144,15 +4065,15 @@ u"""
 )
 
 entry(
-    index = 53,
+    index = 158,
     label = "CCsJOC",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-5   C  u0 {2,S}
+3   C   u0 {1,S}
+4   H   u0 {1,S}
+5   C   u0 {2,S}
 """,
     thermo = u'CCsJOCs',
     shortDesc = u"""""",
@@ -4163,15 +4084,15 @@ u"""
 )
 
 entry(
-    index = 54,
+    index = 159,
     label = "CCsJOCs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
-5   Cs u0 {2,S}
+3   C   u0 {1,S}
+4   H   u0 {1,S}
+5   Cs  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4187,12 +4108,12 @@ u"""
 )
 
 entry(
-    index = 55,
+    index = 160,
     label = "CCsJOCds",
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   O2s      u0 {1,S} {5,S}
+2   O2s     u0 {1,S} {5,S}
 3   C       u0 {1,S}
 4   H       u0 {1,S}
 5   [CO,Cd] u0 {2,S}
@@ -4206,15 +4127,15 @@ u"""
 )
 
 entry(
-    index = 56,
+    index = 161,
     label = "CCsJOC(O)",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
-3   CO u0 {2,S} {6,D}
-4   C  u0 {1,S}
-5   H  u0 {1,S}
+3   CO  u0 {2,S} {6,D}
+4   C   u0 {1,S}
+5   H   u0 {1,S}
 6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -4231,17 +4152,17 @@ u"""
 )
 
 entry(
-    index = 57,
+    index = 162,
     label = "CCsJOC(O)H",
     group = 
 """
-1 * Cs u1 {3,S} {4,S} {5,S}
-2   CO u0 {3,S} {6,D} {7,S}
+1 * Cs  u1 {3,S} {4,S} {5,S}
+2   CO  u0 {3,S} {6,D} {7,S}
 3   O2s u0 {1,S} {2,S}
-4   C  u0 {1,S}
-5   H  u0 {1,S}
+4   C   u0 {1,S}
+5   H   u0 {1,S}
 6   O2d u0 {2,D}
-7   H  u0 {2,S}
+7   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4257,17 +4178,17 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 163,
     label = "CCsJOC(O)C",
     group = 
 """
-1 * Cs u1 {3,S} {4,S} {5,S}
-2   CO u0 {3,S} {6,D} {7,S}
+1 * Cs  u1 {3,S} {4,S} {5,S}
+2   CO  u0 {3,S} {6,D} {7,S}
 3   O2s u0 {1,S} {2,S}
-4   C  u0 {1,S}
-5   H  u0 {1,S}
+4   C   u0 {1,S}
+5   H   u0 {1,S}
 6   O2d u0 {2,D}
-7   C  u0 {2,S}
+7   C   u0 {2,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -4278,16 +4199,16 @@ u"""
 )
 
 entry(
-    index = 3030,
+    index = 164,
     label = "C=CCJ(O)C",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,D}
 3   O2s u0 {1,S} {6,S}
-4   H  u0 {1,S}
-5   C  u0 {2,D}
-6   C  u0 {3,S}
+4   H   u0 {1,S}
+5   C   u0 {2,D}
+6   C   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4305,14 +4226,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 58,
+    index = 165,
     label = "CCsJOO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   H  u0 {1,S}
+3   C   u0 {1,S}
+4   H   u0 {1,S}
 5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
@@ -4329,16 +4250,16 @@ u"""
 )
 
 entry(
-    index = 59,
+    index = 166,
     label = "CCsJOOH",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   C  u0 {1,S}
-5   H  u0 {1,S}
-6   H  u0 {3,S}
+4   C   u0 {1,S}
+5   H   u0 {1,S}
+6   H   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4354,16 +4275,16 @@ u"""
 )
 
 entry(
-    index = 60,
+    index = 167,
     label = "CCsJOOC",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   C  u0 {1,S}
-5   H  u0 {1,S}
-6   C  u0 {3,S}
+4   C   u0 {1,S}
+5   H   u0 {1,S}
+6   C   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4379,15 +4300,15 @@ u"""
 )
 
 entry(
-    index = 3026,
+    index = 168,
     label = "C=CCJO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,D}
 3   O2s u0 {1,S}
-4   H  u0 {1,S}
-5   C  u0 {2,D}
+4   H   u0 {1,S}
+5   C   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4405,14 +4326,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3041,
+    index = 169,
     label = "OCJC=O",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CO u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S} {5,D}
 3   O2s u0 {1,S}
-4   H  u0 {1,S}
+4   H   u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -4431,14 +4352,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 61,
+    index = 170,
     label = "C2CsJO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4456,15 +4377,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 62,
+    index = 171,
     label = "C2CsJOH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   H  u0 {2,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
+5   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4480,15 +4401,15 @@ u"""
 )
 
 entry(
-    index = 63,
+    index = 172,
     label = "C2CsJOC",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   C  u0 {2,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
+5   C   u0 {2,S}
 """,
     thermo = u'C2CsJOCs',
     shortDesc = u"""""",
@@ -4499,15 +4420,15 @@ u"""
 )
 
 entry(
-    index = 64,
+    index = 173,
     label = "C2CsJOCs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   Cs u0 {2,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
+5   Cs  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4523,12 +4444,12 @@ u"""
 )
 
 entry(
-    index = 65,
+    index = 174,
     label = "C2CsJOCds",
     group = 
 """
 1 * Cs      u1 {2,S} {3,S} {4,S}
-2   O2s      u0 {1,S} {5,S}
+2   O2s     u0 {1,S} {5,S}
 3   C       u0 {1,S}
 4   C       u0 {1,S}
 5   [Cd,CO] u0 {2,S}
@@ -4542,15 +4463,15 @@ u"""
 )
 
 entry(
-    index = 66,
+    index = 175,
     label = "C2CsJOC(O)",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
-3   CO u0 {2,S} {6,D}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
+3   CO  u0 {2,S} {6,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
 6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -4567,17 +4488,17 @@ u"""
 )
 
 entry(
-    index = 67,
+    index = 176,
     label = "C2CsJOC(O)H",
     group = 
 """
-1 * Cs u1 {3,S} {4,S} {5,S}
-2   CO u0 {3,S} {6,D} {7,S}
+1 * Cs  u1 {3,S} {4,S} {5,S}
+2   CO  u0 {3,S} {6,D} {7,S}
 3   O2s u0 {1,S} {2,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
 6   O2d u0 {2,D}
-7   H  u0 {2,S}
+7   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4593,17 +4514,17 @@ u"""
 )
 
 entry(
-    index = 68,
+    index = 177,
     label = "C2CsJOC(O)C",
     group = 
 """
-1 * Cs u1 {3,S} {4,S} {5,S}
-2   CO u0 {3,S} {6,D} {7,S}
+1 * Cs  u1 {3,S} {4,S} {5,S}
+2   CO  u0 {3,S} {6,D} {7,S}
 3   O2s u0 {1,S} {2,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
 6   O2d u0 {2,D}
-7   C  u0 {2,S}
+7   C   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4619,14 +4540,14 @@ u"""
 )
 
 entry(
-    index = 69,
+    index = 178,
     label = "C2CsJOO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
 5   O2s u0 {2,S}
 """,
     thermo = ThermoData(
@@ -4643,16 +4564,16 @@ u"""
 )
 
 entry(
-    index = 70,
+    index = 179,
     label = "C2CsJOOH",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   H  u0 {3,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   H   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4668,16 +4589,16 @@ u"""
 )
 
 entry(
-    index = 71,
+    index = 180,
     label = "C2CsJOOC",
     group = 
 """
-1 * Cs u1 {2,S} {4,S} {5,S}
+1 * Cs  u1 {2,S} {4,S} {5,S}
 2   O2s u0 {1,S} {3,S}
 3   O2s u0 {2,S} {6,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   C  u0 {3,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   C   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4693,7 +4614,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 181,
     label = "CsJ-S",
     group = 
 """
@@ -4711,14 +4632,14 @@ u"""
 )
 
 entry(
-    index = 244,
+    index = 182,
     label = "CsJ-SsHH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4734,9 +4655,9 @@ u"""
 )
 
 entry(
-    index = 244,
+    index = 183,
     label = "CsJ-SsOsH",
-    group =
+    group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   S  ux {1,S}
@@ -4745,26 +4666,27 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.95,-2.60,-2.88,-2.90,-2.72,-2.63,-3.06],'cal/(mol*K)'),
+        Cpdata = ([-1.95,-2.6,-2.88,-2.9,-2.72,-2.63,-3.06],'cal/(mol*K)'),
         H298 = (96.64,'kcal/mol'),
         S298 = (-0.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = -1,
+    index = 184,
     label = "CsJ-CSH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S}
 3   S2s u0 {1,S}
-4   H  u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -4775,14 +4697,14 @@ u"""
 )
 
 entry(
-    index = 245,
+    index = 185,
     label = "CsJ-CsSsH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
 3   S2s u0 {1,S}
-4   H  u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4798,14 +4720,14 @@ u"""
 )
 
 entry(
-    index = 247,
+    index = 186,
     label = "CsJ-CtSsH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Ct u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S}
 3   S2s u0 {1,S}
-4   H  u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4821,14 +4743,14 @@ u"""
 )
 
 entry(
-    index = 248,
+    index = 187,
     label = "CsJ-CbSsH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cb  u0 {1,S}
 3   S2s u0 {1,S}
-4   H  u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4844,15 +4766,15 @@ u"""
 )
 
 entry(
-    index = 246,
+    index = 188,
     label = "CsJ-CdSsH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,D}
 3   S2s u0 {1,S}
-4   H  u0 {1,S}
-5   C  u0 {2,D}
+4   H   u0 {1,S}
+5   C   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4868,14 +4790,14 @@ u"""
 )
 
 entry(
-    index = 249,
+    index = 189,
     label = "CsJ-C=SSsH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CS u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CS  u0 {1,S} {5,D}
 3   S2s u0 {1,S}
-4   H  u0 {1,S}
+4   H   u0 {1,S}
 5   S2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -4892,13 +4814,13 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 190,
     label = "CsJ-CCS",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S}
-3   C  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S}
+3   C   u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = None,
@@ -4910,13 +4832,13 @@ u"""
 )
 
 entry(
-    index = 251,
+    index = 191,
     label = "CsJ-CsCsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -4933,13 +4855,13 @@ u"""
 )
 
 entry(
-    index = 253,
+    index = 192,
     label = "CsJ-CsCtSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S}
-3   Ct u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -4956,13 +4878,13 @@ u"""
 )
 
 entry(
-    index = 254,
+    index = 193,
     label = "CsJ-CsCbSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S}
-3   Cb u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -4979,15 +4901,15 @@ u"""
 )
 
 entry(
-    index = 252,
+    index = 194,
     label = "CsJ-CsCdSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cs u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,D}
+3   Cs  u0 {1,S}
 4   S2s u0 {1,S}
-5   C  u0 {2,D}
+5   C   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5003,13 +4925,13 @@ u"""
 )
 
 entry(
-    index = 255,
+    index = 195,
     label = "CsJ-CsC=SSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CS u0 {1,S} {5,D}
-3   Cs u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CS  u0 {1,S} {5,D}
+3   Cs  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2d u0 {2,D}
 """,
@@ -5027,14 +4949,14 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 196,
     label = "CsJ-SS",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
 3   S2s u0 {1,S}
-4   R  u0 {1,S}
+4   R   u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5045,14 +4967,14 @@ u"""
 )
 
 entry(
-    index = 250,
+    index = 197,
     label = "CsJ-SsSsH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
 3   S2s u0 {1,S}
-4   H  u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5068,12 +4990,12 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 198,
     label = "CsJ-CSS",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 """,
@@ -5086,12 +5008,12 @@ u"""
 )
 
 entry(
-    index = 256,
+    index = 199,
     label = "CsJ-CsSsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 """,
@@ -5109,12 +5031,12 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 200,
     label = "CsJ-CtSsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Ct u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 """,
@@ -5127,12 +5049,12 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 201,
     label = "CsJ-CbSsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cb  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 """,
@@ -5145,15 +5067,15 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 202,
     label = "CsJ-CdSsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S} {5,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
-5   C  u0 {2,D}
+5   C   u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5164,12 +5086,12 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 203,
     label = "CsJ-C=SSsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CS u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CS  u0 {1,S} {5,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   S2d u0 {2,D}
@@ -5183,11 +5105,11 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 204,
     label = "CsJ-SsSsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -5201,12 +5123,12 @@ u"""
 )
 
 entry(
-    index = 264,
+    index = 205,
     label = "CCsJOS",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   C   u0 {1,S}
 3   O2s u0 {1,S}
 4   S2s u0 {1,S}
 """,
@@ -5219,16 +5141,16 @@ u"""
 )
 
 entry(
-    index = 265,
+    index = 206,
     label = "CCsJOHSH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S} {5,S}
 3   S2s u0 {1,S} {6,S}
-4   C  u0 {1,S}
-5   H  u0 {2,S}
-6   H  u0 {3,S}
+4   C   u0 {1,S}
+5   H   u0 {2,S}
+6   H   u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5244,7 +5166,7 @@ u"""
 )
 
 entry(
-    index = 300,
+    index = 207,
     label = "CsJN",
     group = 
 """
@@ -5262,7 +5184,7 @@ u"""
 )
 
 entry(
-    index = 301,
+    index = 208,
     label = "CCsJN",
     group = 
 """
@@ -5285,7 +5207,7 @@ u"""
 )
 
 entry(
-    index = 302,
+    index = 209,
     label = "C2CsJN",
     group = 
 """
@@ -5294,8 +5216,13 @@ entry(
 3   C  u0 {1,S}
 4   C  u0 {1,S}
 """,
-    thermo = u'CCsJN',
-    shortDesc = u"""""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.4665,-7.70578,-11.17,-13.75,-16.6445,-18.2536,-20.0442],'J/(mol*K)'),
+        H298 = (392.461,'kJ/mol'),
+        S298 = (-9.03706,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
     longDesc = 
 u"""
 
@@ -5303,14 +5230,14 @@ u"""
 )
 
 entry(
-    index = 3012,
+    index = 210,
     label = "OCJO",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
 3   O2s u0 {1,S}
-4   H  u0 {1,S}
+4   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5328,7 +5255,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 72,
+    index = 211,
     label = "CdsJ",
     group = 
 """
@@ -5343,11 +5270,11 @@ u"""
 )
 
 entry(
-    index = 79,
+    index = 212,
     label = "CdsJO",
     group = 
 """
-1 * CO u1 {2,D}
+1 * CO  u1 {2,D}
 2   O2d u0 {1,D}
 """,
     thermo = u'CCJ=O',
@@ -5359,13 +5286,13 @@ u"""
 )
 
 entry(
-    index = 80,
+    index = 213,
     label = "HCdsJO",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
+1 * CO  u1 {2,D} {3,S}
 2   O2d u0 {1,D}
-3   H  u0 {1,S}
+3   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5381,13 +5308,13 @@ u"""
 )
 
 entry(
-    index = 81,
+    index = 214,
     label = "CCJ=O",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
+1 * CO  u1 {2,D} {3,S}
 2   O2d u0 {1,D}
-3   C  u0 {1,S}
+3   C   u0 {1,S}
 """,
     thermo = u'CsCJ=O',
     shortDesc = u"""""",
@@ -5398,13 +5325,13 @@ u"""
 )
 
 entry(
-    index = 82,
+    index = 215,
     label = "CsCJ=O",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
+1 * CO  u1 {2,D} {3,S}
 2   O2d u0 {1,D}
-3   Cs u0 {1,S}
+3   Cs  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5420,14 +5347,14 @@ u"""
 )
 
 entry(
-    index = 3057,
+    index = 216,
     label = "CC(C)CJ=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S}
-2 * CO u1 {1,S} {5,D}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
+1   Cs  u0 {2,S} {3,S} {4,S}
+2 * CO  u1 {1,S} {5,D}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -5446,15 +5373,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3058,
+    index = 217,
     label = "CC(C)2CJ=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * CO u1 {1,S} {6,D}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO  u1 {1,S} {6,D}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -5473,15 +5400,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3060,
+    index = 218,
     label = "CC(C)(C=O)CJ=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * CO u1 {1,S} {6,D}
-3   CO u0 {1,S} {7,D}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO  u1 {1,S} {6,D}
+3   CO  u0 {1,S} {7,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
 6   O2d u0 {2,D}
 7   O2d u0 {3,D}
 """,
@@ -5501,16 +5428,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3073,
+    index = 219,
     label = "C=CC(C)(C=O)CJ=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * CO u1 {1,S} {7,D}
-3   CO u0 {1,S} {8,D}
-4   Cd u0 {1,S} {6,D}
-5   C  u0 {1,S}
-6   C  u0 {4,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO  u1 {1,S} {7,D}
+3   CO  u0 {1,S} {8,D}
+4   Cd  u0 {1,S} {6,D}
+5   C   u0 {1,S}
+6   C   u0 {4,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
 """,
@@ -5530,16 +5457,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3071,
+    index = 220,
     label = "C=CC(C)2CJ=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * CO u1 {1,S} {7,D}
-3   Cd u0 {1,S} {6,D}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   C  u0 {3,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO  u1 {1,S} {7,D}
+3   Cd  u0 {1,S} {6,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   C   u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -5558,15 +5485,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3059,
+    index = 221,
     label = "CC(C)(O)CJ=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * CO u1 {1,S} {6,D}
-3   C  u0 {1,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO  u1 {1,S} {6,D}
+3   C   u0 {1,S}
 4   O2s u0 {1,S}
-5   C  u0 {1,S}
+5   C   u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -5585,16 +5512,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3072,
+    index = 222,
     label = "C=CC(C)(O)CJ=O",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 * CO u1 {1,S} {7,D}
-3   Cd u0 {1,S} {6,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * CO  u1 {1,S} {7,D}
+3   Cd  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
-5   C  u0 {1,S}
-6   C  u0 {3,D}
+5   C   u0 {1,S}
+6   C   u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -5613,14 +5540,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 83,
+    index = 223,
     label = "C=CCJ=O",
     group = 
 """
-1 * CO u1 {2,S} {3,D}
-2   Cd u0 {1,S} {4,D}
+1 * CO  u1 {2,S} {3,D}
+2   Cd  u0 {1,S} {4,D}
 3   O2d u0 {1,D}
-4   Cd u0 {2,D}
+4   Cd  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5638,13 +5565,13 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3052,
+    index = 224,
     label = "CCCJ=O",
     group = 
 """
-1 * CO u1 {2,S} {4,D}
-2   C  u0 {1,S} {3,S}
-3   C  u0 {2,S}
+1 * CO  u1 {2,S} {4,D}
+2   C   u0 {1,S} {3,S}
+3   C   u0 {2,S}
 4   O2d u0 {1,D}
 """,
     thermo = ThermoData(
@@ -5663,13 +5590,13 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3054,
+    index = 225,
     label = "C=OCCJ=O",
     group = 
 """
-1   C  u0 {2,S} {3,S}
-2 * CO u1 {1,S} {4,D}
-3   CO u0 {1,S} {5,D}
+1   C   u0 {2,S} {3,S}
+2 * CO  u1 {1,S} {4,D}
+3   CO  u0 {1,S} {5,D}
 4   O2d u0 {2,D}
 5   O2d u0 {3,D}
 """,
@@ -5689,13 +5616,13 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3056,
+    index = 226,
     label = "C=OC=OCJ=O",
     group = 
 """
-1   CO u0 {2,S} {3,S} {4,D}
-2 * CO u1 {1,S} {5,D}
-3   CO u0 {1,S} {6,D}
+1   CO  u0 {2,S} {3,S} {4,D}
+2 * CO  u1 {1,S} {5,D}
+3   CO  u0 {1,S} {6,D}
 4   O2d u0 {1,D}
 5   O2d u0 {2,D}
 6   O2d u0 {3,D}
@@ -5716,14 +5643,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3070,
+    index = 227,
     label = "C=C(C)CJ=O",
     group = 
 """
-1   Cd u0 {2,S} {3,S} {4,D}
-2 * CO u1 {1,S} {5,D}
-3   C  u0 {1,S}
-4   C  u0 {1,D}
+1   Cd  u0 {2,S} {3,S} {4,D}
+2 * CO  u1 {1,S} {5,D}
+3   C   u0 {1,S}
+4   C   u0 {1,D}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -5742,12 +5669,12 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3055,
+    index = 228,
     label = "OC=OCJ=O",
     group = 
 """
-1   CO u0 {2,S} {3,S} {4,D}
-2 * CO u1 {1,S} {5,D}
+1   CO  u0 {2,S} {3,S} {4,D}
+2 * CO  u1 {1,S} {5,D}
 3   O2s u0 {1,S}
 4   O2d u0 {1,D}
 5   O2d u0 {2,D}
@@ -5768,11 +5695,11 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 84,
+    index = 229,
     label = "(O)CJO",
     group = 
 """
-1 * CO u1 {2,D} {3,S}
+1 * CO  u1 {2,D} {3,S}
 2   O2d u0 {1,D}
 3   O2s u0 {1,S}
 """,
@@ -5785,9 +5712,9 @@ u"""
 )
 
 entry(
-    index = 84,
+    index = 230,
     label = "SCJ=O",
-    group =
+    group = 
 """
 1 * CO  u1 {2,D} {3,S}
 2   O2d u0 {1,D}
@@ -5795,26 +5722,27 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.30,-0.86,-1.50,-2.06,-2.99,-3.68,-4.70],'cal/(mol*K)'),
+        Cpdata = ([-0.3,-0.86,-1.5,-2.06,-2.99,-3.68,-4.7],'cal/(mol*K)'),
         H298 = (86.68,'kcal/mol'),
         S298 = (-1.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 85,
+    index = 231,
     label = "(O)CJOH",
     group = 
 """
-1 * CO u1 {2,S} {3,D}
+1 * CO  u1 {2,S} {3,D}
 2   O2s u0 {1,S} {4,S}
 3   O2d u0 {1,D}
-4   H  u0 {2,S}
+4   H   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5830,14 +5758,14 @@ u"""
 )
 
 entry(
-    index = 86,
+    index = 232,
     label = "(O)CJOC",
     group = 
 """
-1 * CO u1 {2,S} {3,D}
+1 * CO  u1 {2,S} {3,D}
 2   O2s u0 {1,S} {4,S}
 3   O2d u0 {1,D}
-4   C  u0 {2,S}
+4   C   u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5855,16 +5783,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 87,
+    index = 233,
     label = "(O)CJOCH3",
     group = 
 """
-1   Cs u0 {2,S} {4,S} {5,S} {6,S}
+1   Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   O2s u0 {1,S} {3,S}
-3 * CO u1 {2,S} {7,D}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
-6   H  u0 {1,S}
+3 * CO  u1 {2,S} {7,D}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
+6   H   u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -5881,16 +5809,16 @@ u"""
 )
 
 entry(
-    index = 88,
+    index = 234,
     label = "(O)CJOCC",
     group = 
 """
-1   Cs u0 {2,S} {4,S} {5,S} {6,S}
+1   Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   O2s u0 {1,S} {3,S}
-3 * CO u1 {2,S} {7,D}
-4   C  u0 {1,S}
-5   H  u0 {1,S}
-6   H  u0 {1,S}
+3 * CO  u1 {2,S} {7,D}
+4   C   u0 {1,S}
+5   H   u0 {1,S}
+6   H   u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -5907,16 +5835,16 @@ u"""
 )
 
 entry(
-    index = 89,
+    index = 235,
     label = "(O)CJOCC2",
     group = 
 """
-1   Cs u0 {2,S} {4,S} {5,S} {6,S}
+1   Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   O2s u0 {1,S} {3,S}
-3 * CO u1 {2,S} {7,D}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   H  u0 {1,S}
+3 * CO  u1 {2,S} {7,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   H   u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -5933,16 +5861,16 @@ u"""
 )
 
 entry(
-    index = 90,
+    index = 236,
     label = "(O)CJOCC3",
     group = 
 """
-1   Cs u0 {2,S} {4,S} {5,S} {6,S}
+1   Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   O2s u0 {1,S} {3,S}
-3 * CO u1 {2,S} {7,D}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   C  u0 {1,S}
+3 * CO  u1 {2,S} {7,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   C   u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -5959,7 +5887,7 @@ u"""
 )
 
 entry(
-    index = 74,
+    index = 237,
     label = "Cds_P",
     group = 
 """
@@ -5981,7 +5909,7 @@ u"""
 )
 
 entry(
-    index = 75,
+    index = 238,
     label = "C=C=CJ",
     group = 
 """
@@ -6004,7 +5932,7 @@ u"""
 )
 
 entry(
-    index = 77,
+    index = 239,
     label = "Cds_S",
     group = 
 """
@@ -6026,7 +5954,7 @@ u"""
 )
 
 entry(
-    index = 78,
+    index = 240,
     label = "C=CJC=C",
     group = 
 """
@@ -6048,7 +5976,7 @@ u"""
 )
 
 entry(
-    index = 194,
+    index = 241,
     label = "cyclobutadiene-C1",
     group = 
 """
@@ -6071,7 +5999,7 @@ u"""
 )
 
 entry(
-    index = 193,
+    index = 242,
     label = "bicyclo[2.2.0]hexa-1(4),2,5-triene-C2",
     group = 
 """
@@ -6096,7 +6024,7 @@ u"""
 )
 
 entry(
-    index = 181,
+    index = 243,
     label = "1,3-cyclopentadiene-vinyl-2",
     group = 
 """
@@ -6120,7 +6048,7 @@ u"""
 )
 
 entry(
-    index = 144,
+    index = 244,
     label = "cyclopropenyl-vinyl",
     group = 
 """
@@ -6142,7 +6070,7 @@ u"""
 )
 
 entry(
-    index = 146,
+    index = 245,
     label = "cyclobutene-vinyl",
     group = 
 """
@@ -6165,7 +6093,7 @@ u"""
 )
 
 entry(
-    index = 184,
+    index = 246,
     label = "bicyclo[2.1.0]pent-2-ene-C2",
     group = 
 """
@@ -6189,7 +6117,7 @@ u"""
 )
 
 entry(
-    index = 189,
+    index = 247,
     label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C2",
     group = 
 """
@@ -6214,7 +6142,7 @@ u"""
 )
 
 entry(
-    index = 192,
+    index = 248,
     label = "bicyclo[2.2.0]hexa-2,5-diene-C2",
     group = 
 """
@@ -6239,7 +6167,7 @@ u"""
 )
 
 entry(
-    index = 178,
+    index = 249,
     label = "cyclopentene-vinyl",
     group = 
 """
@@ -6263,7 +6191,7 @@ u"""
 )
 
 entry(
-    index = 187,
+    index = 250,
     label = "bicyclo[2.1.1]hex-2-ene-C2",
     group = 
 """
@@ -6288,7 +6216,7 @@ u"""
 )
 
 entry(
-    index = 180,
+    index = 251,
     label = "1,3-cyclopentadiene-vinyl-1",
     group = 
 """
@@ -6312,13 +6240,13 @@ u"""
 )
 
 entry(
-    index = 3061,
+    index = 252,
     label = "C=CJC=O",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
-2   CO u0 {1,S} {4,D}
-3   C  u0 {1,D}
+1 * Cd  u1 {2,S} {3,D}
+2   CO  u0 {1,S} {4,D}
+3   C   u0 {1,D}
 4   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -6337,7 +6265,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3079,
+    index = 253,
     label = "CCCJ=C=O",
     group = 
 """
@@ -6345,7 +6273,7 @@ entry(
 2   C   u0 {1,S} {4,S}
 3   Cdd u0 {1,D} {5,D}
 4   C   u0 {2,S}
-5   O2d  u0 {3,D}
+5   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6363,7 +6291,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3080,
+    index = 254,
     label = "CC(C)CJ=C=O",
     group = 
 """
@@ -6372,7 +6300,7 @@ entry(
 3   Cdd u0 {2,D} {6,D}
 4   C   u0 {1,S}
 5   C   u0 {1,S}
-6   O2d  u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6390,7 +6318,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3085,
+    index = 255,
     label = "C=C(C)CJ=C=O",
     group = 
 """
@@ -6399,7 +6327,7 @@ entry(
 3   Cdd u0 {2,D} {6,D}
 4   C   u0 {1,D}
 5   C   u0 {1,S}
-6   O2d  u0 {3,D}
+6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6417,13 +6345,13 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 257,
+    index = 256,
     label = "S2s-CJ=C",
     group = 
 """
-1 * Cd u1 {2,S} {3,D}
+1 * Cd  u1 {2,S} {3,D}
 2   S2s u0 {1,S}
-3   C  u0 {1,D}
+3   C   u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6439,12 +6367,12 @@ u"""
 )
 
 entry(
-    index = 3025,
+    index = 257,
     label = "C=CJO",
     group = 
 """
-1 * Cd u1 {2,D} {3,S}
-2   C  u0 {1,D}
+1 * Cd  u1 {2,D} {3,S}
+2   C   u0 {1,D}
 3   O2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -6463,7 +6391,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 91,
+    index = 258,
     label = "CtJ",
     group = 
 """
@@ -6479,13 +6407,13 @@ u"""
 )
 
 entry(
-    index = 92,
+    index = 259,
     label = "Acetyl",
     group = 
 """
-1 * Ct u1 {2,T}
-2   Ct u0 {1,T} {3,S}
-3   H  u0 {2,S}
+1   Ct u0 {2,T} {3,S}
+2 * Ct u1 {1,T}
+3   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6501,7 +6429,7 @@ u"""
 )
 
 entry(
-    index = 93,
+    index = 260,
     label = "CbJ",
     group = 
 """
@@ -6523,11 +6451,11 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 261,
     label = "C=SJ",
     group = 
 """
-1 * CS u1 {2,D}
+1 * CS  u1 {2,D}
 2   S2d u0 p2 {1,D}
 """,
     thermo = u'C=SJ-H',
@@ -6539,11 +6467,11 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 262,
     label = "C=SJ-S2s",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
+1 * CS  u1 {2,S} {3,D}
 2   S2s u0 p2 {1,S}
 3   S2d u0 p2 {1,D}
 """,
@@ -6556,12 +6484,12 @@ u"""
 )
 
 entry(
-    index = 258,
+    index = 263,
     label = "C=SJ-H",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
-2   H  u0 {1,S}
+1 * CS  u1 {2,S} {3,D}
+2   H   u0 {1,S}
 3   S2d u0 p2 {1,D}
 """,
     thermo = ThermoData(
@@ -6578,12 +6506,12 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 264,
     label = "C=SJ-C",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
-2   C  u0 {1,S}
+1 * CS  u1 {2,S} {3,D}
+2   C   u0 {1,S}
 3   S2d u0 p2 {1,D}
 """,
     thermo = None,
@@ -6595,12 +6523,12 @@ u"""
 )
 
 entry(
-    index = 260,
+    index = 265,
     label = "C=SJ-Cd",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
-2   Cd u0 {1,S}
+1 * CS  u1 {2,S} {3,D}
+2   Cd  u0 {1,S}
 3   S2d u0 p2 {1,D}
 """,
     thermo = ThermoData(
@@ -6617,12 +6545,12 @@ u"""
 )
 
 entry(
-    index = 259,
+    index = 266,
     label = "C=SJ-Cs",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
-2   Cs u0 {1,S}
+1 * CS  u1 {2,S} {3,D}
+2   Cs  u0 {1,S}
 3   S2d u0 p2 {1,D}
 """,
     thermo = ThermoData(
@@ -6639,7 +6567,7 @@ u"""
 )
 
 entry(
-    index = 94,
+    index = 267,
     label = "OJ",
     group = 
 """
@@ -6654,12 +6582,12 @@ u"""
 )
 
 entry(
-    index = 95,
+    index = 268,
     label = "HOJ",
     group = 
 """
 1 * O2s u1 {2,S}
-2   H  u0 {1,S}
+2   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6675,12 +6603,12 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 269,
     label = "COJ",
     group = 
 """
 1 * O2s u1 {2,S}
-2   C  ux {1,S}
+2   C   ux {1,S}
 """,
     thermo = u'CsOJ',
     shortDesc = u"""""",
@@ -6691,12 +6619,12 @@ u"""
 )
 
 entry(
-    index = 96,
+    index = 270,
     label = "CsOJ",
     group = 
 """
 1 * O2s u1 {2,S}
-2   Cs u0 {1,S}
+2   Cs  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6712,15 +6640,15 @@ u"""
 )
 
 entry(
-    index = 97,
+    index = 271,
     label = "H3COJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 * O2s u1 {1,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   H  u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6736,14 +6664,14 @@ u"""
 )
 
 entry(
-    index = 3022,
+    index = 272,
     label = "CC(C)OJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S}
+1   Cs  u0 {2,S} {3,S} {4,S}
 2 * O2s u1 {1,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6761,15 +6689,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3023,
+    index = 273,
     label = "CC(C)2OJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 * O2s u1 {1,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6787,16 +6715,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3036,
+    index = 274,
     label = "C=CC(C)2OJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  u0 {1,S} {6,D}
 3 * O2s u1 {1,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
-6   C  u0 {2,D}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
+6   C   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6814,16 +6742,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3068,
+    index = 275,
     label = "C=CC(C)(C=O)OJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   CO u0 {1,S} {7,D}
-3   Cd u0 {1,S} {6,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CO  u0 {1,S} {7,D}
+3   Cd  u0 {1,S} {6,D}
 4 * O2s u1 {1,S}
-5   C  u0 {1,S}
-6   C  u0 {3,D}
+5   C   u0 {1,S}
+6   C   u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -6842,15 +6770,15 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3051,
+    index = 276,
     label = "CC(C)(C=O)OJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   CO u0 {1,S} {6,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   CO  u0 {1,S} {6,D}
 3 * O2s u1 {1,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -6869,14 +6797,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3024,
+    index = 277,
     label = "CC(C)(O)OJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 * O2s u1 {1,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
 5   O2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -6895,16 +6823,16 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3037,
+    index = 278,
     label = "C=CC(C)(O)OJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  u0 {1,S} {6,D}
 3 * O2s u1 {1,S}
-4   C  u0 {1,S}
+4   C   u0 {1,S}
 5   O2s u0 {1,S}
-6   C  u0 {2,D}
+6   C   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6922,11 +6850,11 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 98,
+    index = 279,
     label = "CdsOJ",
     group = 
 """
-1 * O2s      u1 {2,S}
+1 * O2s     u1 {2,S}
 2   [Cd,CO] u0 {1,S}
 """,
     thermo = u'RC=COJ',
@@ -6938,12 +6866,12 @@ u"""
 )
 
 entry(
-    index = 99,
+    index = 280,
     label = "RC=COJ",
     group = 
 """
 1 * O2s u1 {2,S}
-2   Cd u0 {1,S}
+2   Cd  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6959,13 +6887,13 @@ u"""
 )
 
 entry(
-    index = 3034,
+    index = 281,
     label = "C=COJ",
     group = 
 """
-1   Cd u0 {2,S} {3,D}
+1   Cd  u0 {2,S} {3,D}
 2 * O2s u1 {1,S}
-3   C  u0 {1,D}
+3   C   u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6983,14 +6911,14 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3035,
+    index = 282,
     label = "C=C(C)OJ",
     group = 
 """
-1   Cd u0 {2,S} {3,D} {4,S}
+1   Cd  u0 {2,S} {3,D} {4,S}
 2 * O2s u1 {1,S}
-3   C  u0 {1,D}
-4   C  u0 {1,S}
+3   C   u0 {1,D}
+4   C   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7008,11 +6936,11 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 100,
+    index = 283,
     label = "OJC=O",
     group = 
 """
-1   CO u0 {2,S} {3,D}
+1   CO  u0 {2,S} {3,D}
 2 * O2s u1 {1,S}
 3   O2d u0 {1,D}
 """,
@@ -7030,11 +6958,11 @@ u"""
 )
 
 entry(
-    index = 3049,
+    index = 284,
     label = "OC=OOJ",
     group = 
 """
-1   CO u0 {2,S} {3,S} {4,D}
+1   CO  u0 {2,S} {3,S} {4,D}
 2 * O2s u1 {1,S}
 3   O2s u0 {1,S}
 4   O2d u0 {1,D}
@@ -7055,12 +6983,12 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3050,
+    index = 285,
     label = "C=OC=OOJ",
     group = 
 """
-1   CO u0 {2,S} {3,S} {4,D}
-2   CO u0 {1,S} {5,D}
+1   CO  u0 {2,S} {3,S} {4,D}
+2   CO  u0 {1,S} {5,D}
 3 * O2s u1 {1,S}
 4   O2d u0 {1,D}
 5   O2d u0 {2,D}
@@ -7081,12 +7009,12 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 217,
+    index = 286,
     label = "CbOJ",
     group = 
 """
 1 * O2s u1 {2,S}
-2   Cb u0 {1,S}
+2   Cb  u0 {1,S}
 """,
     thermo = u'RC=COJ',
     shortDesc = u"""""",
@@ -7097,13 +7025,13 @@ u"""
 )
 
 entry(
-    index = 3020,
+    index = 287,
     label = "CCOJ",
     group = 
 """
-1   C  u0 {2,S} {3,S}
+1   C   u0 {2,S} {3,S}
 2 * O2s u1 {1,S}
-3   C  u0 {1,S}
+3   C   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7121,12 +7049,12 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3048,
+    index = 288,
     label = "C=OCOJ",
     group = 
 """
-1   C  u0 {2,S} {3,S}
-2   CO u0 {1,S} {4,D}
+1   C   u0 {2,S} {3,S}
+2   CO  u0 {1,S} {4,D}
 3 * O2s u1 {1,S}
 4   O2d u0 {2,D}
 """,
@@ -7146,11 +7074,11 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3021,
+    index = 289,
     label = "OCOJ",
     group = 
 """
-1   C  u0 {2,S} {3,S}
+1   C   u0 {2,S} {3,S}
 2 * O2s u1 {1,S}
 3   O2s u0 {1,S}
 """,
@@ -7170,11 +7098,11 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3021,
+    index = 290,
     label = "SCOJ",
-    group =
+    group = 
 """
-1   C  ux {2,S} {3,S}
+1   C   ux {2,S} {3,S}
 2 * O2s u1 {1,S}
 3   S   ux {1,S}
 """,
@@ -7185,14 +7113,15 @@ entry(
         S298 = (1.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 101,
+    index = 291,
     label = "OOJ",
     group = 
 """
@@ -7208,12 +7137,12 @@ u"""
 )
 
 entry(
-    index = 102,
+    index = 292,
     label = "ROOJ",
     group = 
 """
-1   O2s  u0 {2,S} {3,S}
-2 * O2s  u1 {1,S}
+1   O2s u0 {2,S} {3,S}
+2 * O2s u1 {1,S}
 3   R!H u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7230,12 +7159,12 @@ u"""
 )
 
 entry(
-    index = 104,
+    index = 293,
     label = "C(=O)OOJ",
     group = 
 """
 1   O2s u0 {2,S} {3,S}
-2   CO u0 {1,S} {4,D}
+2   CO  u0 {1,S} {4,D}
 3 * O2s u1 {1,S}
 4   O2d u0 {2,D}
 """,
@@ -7253,15 +7182,15 @@ u"""
 )
 
 entry(
-    index = 103,
+    index = 294,
     label = "C3COOJ",
     group = 
 """
-1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   C  u0 {1,S}
+3   C   u0 {1,S}
+4   C   u0 {1,S}
+5   C   u0 {1,S}
 6 * O2s u1 {2,S}
 """,
     thermo = ThermoData(
@@ -7278,13 +7207,13 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 295,
     label = "HOOJ",
     group = 
 """
 1   O2s u0 {2,S} {3,S}
 2 * O2s u1 {1,S}
-3   H  u0 {1,S}
+3   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7300,13 +7229,13 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 296,
     label = "SOOJ",
-    group =
+    group = 
 """
 1   O2s u0 {2,S} {3,S}
 2 * O2s u1 {1,S}
-3   S  u0 {1,S}
+3   S   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7315,14 +7244,15 @@ entry(
         S298 = (1.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 110,
+    index = 297,
     label = "NJ",
     group = 
 """
@@ -7337,7 +7267,7 @@ u"""
 )
 
 entry(
-    index = 111,
+    index = 298,
     label = "N3sJ",
     group = 
 """
@@ -7352,7 +7282,7 @@ u"""
 )
 
 entry(
-    index = 112,
+    index = 299,
     label = "NH2J",
     group = 
 """
@@ -7374,7 +7304,7 @@ u"""
 )
 
 entry(
-    index = 113,
+    index = 300,
     label = "NHJ_C",
     group = 
 """
@@ -7396,7 +7326,7 @@ u"""
 )
 
 entry(
-    index = 114,
+    index = 301,
     label = "NHJ_O",
     group = 
 """
@@ -7411,19 +7341,19 @@ entry(
         S298 = (-0.27,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated w.r.t NH2OH and [NH]OH, both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 115,
+    index = 302,
     label = "NHJ_N",
-    group =
+    group = 
 """
 1 * N3s u1 p1 {2,S} {3,S}
-2   N   u0 px {1,S}
+2   N   u0 {1,S}
 3   H   u0 p0 {1,S}
 """,
     thermo = ThermoData(
@@ -7433,16 +7363,16 @@ entry(
         S298 = (-0.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated w.r.t NH2NH2 and [NH]NH2, both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 116,
+    index = 303,
     label = "NJ_CC",
-    group =
+    group = 
 """
 1 * N3s u1 p1 {2,S} {3,S}
 2   C   u0 p0 {1,S}
@@ -7450,19 +7380,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.46,3.70,3.86,3.95,3.73,3.16,1.98],'cal/(mol*K)'),
-        H298 = (120.063,'kcal/mol'),
-        S298 = (10.18,'cal/(mol*K)'),
+        Cpdata = ([-4.88844,-7.02096,-9.05679,-10.9554,-13.6124,-15.7099,-19.2836],'J/(mol*K)'),
+        H298 = (389.974,'kJ/mol'),
+        S298 = (-10.0809,'J/(mol*K)'),
     ),
-    shortDesc = u"""Calculated w.r.t CH3NHCH3 and CH3[N]CH3, both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 117,
+    index = 304,
     label = "N3dJ",
     group = 
 """
@@ -7477,9 +7407,9 @@ u"""
 )
 
 entry(
-    index = 118,
+    index = 305,
     label = "N3dJ_C",
-    group =
+    group = 
 """
 1 * N3d u1 p1 {2,D}
 2   C   u0 p0 {1,D}
@@ -7491,40 +7421,40 @@ entry(
         S298 = (-0.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated w.r.t NH=CH2 and [N]=CH2, both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 119,
+    index = 306,
     label = "N3dJ_O",
-    group =
+    group = 
 """
 1 * N3d u1 p1 {2,D}
 2   O   u0 p2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.12,-1.36,-1.67,-2.0,-2.62,-3.11,-3.89],'cal/(mol*K)'),
+        Cpdata = ([-1.12,-1.36,-1.67,-2,-2.62,-3.11,-3.89],'cal/(mol*K)'),
         H298 = (48.613,'kcal/mol'),
         S298 = (-3.69,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated w.r.t HN=O and [N]=O, both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 120,
+    index = 307,
     label = "N3dJ_N",
-    group =
+    group = 
 """
 1 * N3d u1 p1 {2,D}
-2   N   u0 px {1,D}
+2   N   u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7533,14 +7463,14 @@ entry(
         S298 = (1.49,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated w.r.t HN=NH and [N]=NH, both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 134,
+    index = 308,
     label = "SiJ",
     group = 
 """
@@ -7555,7 +7485,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 309,
     label = "SJ",
     group = 
 """
@@ -7570,12 +7500,12 @@ u"""
 )
 
 entry(
-    index = 235,
+    index = 310,
     label = "S2J-H",
     group = 
 """
 1 * S2s u1 p2 {2,S}
-2   H   u0    {1,S}
+2   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7591,12 +7521,12 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 311,
     label = "S2J-C",
     group = 
 """
 1 * S2s u1 p2 {2,S}
-2   C   u0    {1,S}
+2   C   u0 {1,S}
 """,
     thermo = u'S2J-Cs',
     shortDesc = u"""""",
@@ -7607,31 +7537,32 @@ u"""
 )
 
 entry(
-    index = 236,
+    index = 312,
     label = "S2J-Cs",
     group = 
 """
 1 * S2s u1 p2 {2,S}
-2   Cs  u0    {1,S}
+2   Cs  u0 {1,S}
 """,
     thermo = u'S2sJ-(CsHHH)',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 236,
+    index = 313,
     label = "S2sJ-(CsHHH)",
-    group =
+    group = 
 """
-1 * S2s u1 p2 {2,S}
-2   Cs  u0    {1,S} {3,S} {4,S} {5,S}
-3   H   u0    {2,S}
-4   H   u0    {2,S}
-5   H   u0    {2,S}
+1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 * S2s u1 p2 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7640,41 +7571,43 @@ entry(
         S298 = (-3.45,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 236,
+    index = 314,
     label = "S2J-(Cs-Cb)",
-    group =
+    group = 
 """
-1 * S2s u1 p2 {2,S}
-2   Cs  u0    {1,S} {3,S}
-3   Cb  u0    {2,S}
+1   Cs  u0 {2,S} {3,S}
+2 * S2s u1 p2 {1,S}
+3   Cb  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.29,-3.84,-4.16,-4.58,-5.31,-5.90,-6.84],'cal/(mol*K)'),
+        Cpdata = ([-3.29,-3.84,-4.16,-4.58,-5.31,-5.9,-6.84],'cal/(mol*K)'),
         H298 = (86.83,'kcal/mol'),
         S298 = (-4.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 238,
+    index = 315,
     label = "S2J-Ct",
     group = 
 """
 1 * S2s u1 p2 {2,S}
-2   Ct  u0    {1,S}
+2   Ct  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7690,12 +7623,12 @@ u"""
 )
 
 entry(
-    index = 239,
+    index = 316,
     label = "S2J-Cb",
     group = 
 """
 1 * S2s u1 p2 {2,S}
-2   Cb  u0    {1,S}
+2   Cb  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7711,13 +7644,13 @@ u"""
 )
 
 entry(
-    index = 237,
+    index = 317,
     label = "S2J-Cd",
     group = 
 """
-1 * S2s u1 p2 {2,S}
-2   Cd  u0    {1,S} {3,D}
-3   C   u0    {2,D}
+1   Cd  u0 {2,S} {3,D}
+2 * S2s u1 p2 {1,S}
+3   C   u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7733,13 +7666,13 @@ u"""
 )
 
 entry(
-    index = 240,
+    index = 318,
     label = "S2J-C=S",
     group = 
 """
-1 * S2s u1 p2 {2,S}
-2   CS  u0    {1,S} {3,D}
-3   S2d u0 p2 {2,D}
+1   CS  u0 {2,S} {3,D}
+2 * S2s u1 p2 {1,S}
+3   S2d u0 p2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7755,13 +7688,13 @@ u"""
 )
 
 entry(
-    index = 266,
+    index = 319,
     label = "S2J-CO",
     group = 
 """
-1 * S2s u1 p2 {2,S}
-2   CO  u0    {1,S} {3,D}
-3   O2d  u0    {2,D}
+1   CO  u0 {2,S} {3,D}
+2 * S2s u1 p2 {1,S}
+3   O2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7777,7 +7710,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 320,
     label = "S2J-S2s",
     group = 
 """
@@ -7793,13 +7726,13 @@ u"""
 )
 
 entry(
-    index = 241,
+    index = 321,
     label = "S2J-S2s-H",
     group = 
 """
-1 * S2s u1 p2 {2,S}
-2   S2s u0 p2 {1,S} {3,S}
-3   H   u0    {2,S}
+1   S2s u0 p2 {2,S} {3,S}
+2 * S2s u1 p2 {1,S}
+3   H   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7815,13 +7748,13 @@ u"""
 )
 
 entry(
-    index = 242,
+    index = 322,
     label = "S2J-S2s-Cs",
     group = 
 """
-1 * S2s u1 p2 {2,S}
-2   S2s u0 p2 {1,S} {3,S}
-3   C   u0    {2,S}
+1   S2s u0 p2 {2,S} {3,S}
+2 * S2s u1 p2 {1,S}
+3   C   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7837,13 +7770,13 @@ u"""
 )
 
 entry(
-    index = 243,
+    index = 323,
     label = "S2J-S2s-S2s",
     group = 
 """
-1 * S2s u1 p2 {2,S}
-2   S2s u0 p2 {1,S} {3,S}
-3   S2s u0 p2 {2,S}
+1   S2s u0 p2 {2,S} {3,S}
+2 * S2s u1 p2 {1,S}
+3   S2s u0 p2 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7859,7 +7792,7 @@ u"""
 )
 
 entry(
-    index = 106,
+    index = 324,
     label = "RJ2_triplet",
     group = 
 """
@@ -7874,7 +7807,7 @@ u"""
 )
 
 entry(
-    index = 107,
+    index = 325,
     label = "CJ2_triplet",
     group = 
 """
@@ -7889,7 +7822,7 @@ u"""
 )
 
 entry(
-    index = 108,
+    index = 326,
     label = "CsJ2_triplet",
     group = 
 """
@@ -7904,7 +7837,7 @@ u"""
 )
 
 entry(
-    index = 110,
+    index = 327,
     label = "CH2_triplet",
     group = 
 """
@@ -7926,7 +7859,7 @@ u"""
 )
 
 entry(
-    index = 112,
+    index = 328,
     label = "CsJ2_P_triplet",
     group = 
 """
@@ -7943,7 +7876,7 @@ u"""
 )
 
 entry(
-    index = 113,
+    index = 329,
     label = "CsCsJ2_triplet",
     group = 
 """
@@ -7960,15 +7893,15 @@ u"""
 )
 
 entry(
-    index = 115,
+    index = 330,
     label = "CCJ2_triplet",
     group = 
 """
-1 * Cs u2 {2,S} {3,S}
-2   Cs u0 {1,S} {4,S} {5,S} {6,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u2 {1,S} {6,S}
 3   H  u0 {1,S}
-4   H  u0 {2,S}
-5   H  u0 {2,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
 6   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -7985,7 +7918,7 @@ u"""
 )
 
 entry(
-    index = 118,
+    index = 331,
     label = "PhCH_triplet",
     group = 
 """
@@ -8007,7 +7940,7 @@ u"""
 )
 
 entry(
-    index = 121,
+    index = 332,
     label = "AllylJ2_triplet",
     group = 
 """
@@ -8029,7 +7962,7 @@ u"""
 )
 
 entry(
-    index = 123,
+    index = 333,
     label = "CsJ2_S_triplet",
     group = 
 """
@@ -8046,23 +7979,23 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 334,
     label = "OsCsJ2H_triplet",
-    group =
+    group = 
 """
 1 * Cs u2 {2,S} {3,S}
-2   H  u0 {1,S}
-3   O  u0 p2 {1,S} {4,S}
-4   H  u0 {3,S}
+2   O  u0 p2 {1,S} {4,S}
+3   H  u0 {1,S}
+4   H  u0 {2,S}
 """,
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.444, -1.111, -1.988, -2.889, -4.529, -5.915, -8.422], 'cal/(mol*K)'),
-        H298=(205.773, 'kcal/mol'),
-        S298=(-2.011, 'cal/(mol*K)'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.444,-1.111,-1.988,-2.889,-4.529,-5.915,-8.422],'cal/(mol*K)'),
+        H298 = (205.773,'kcal/mol'),
+        S298 = (-2.011,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fittted to DFT_QCI_thermo library""",
-    longDesc =
+    longDesc = 
 u"""
 Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 
@@ -8072,7 +8005,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 124,
+    index = 335,
     label = "CdJ2_triplet",
     group = 
 """
@@ -8087,14 +8020,14 @@ u"""
 )
 
 entry(
-    index = 126,
+    index = 336,
     label = "CCdJ2_triplet",
     group = 
 """
 1 * Cd u2 {2,D}
 2   C  u0 {1,D}
 """,
-    thermo=u'CdCdJ2_triplet',
+    thermo = u'CdCdJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -8103,62 +8036,62 @@ u"""
 )
 
 entry(
-    index = 138,
+    index = 337,
     label = "CdCdJ2_triplet",
-    group =
+    group = 
 """
-1 * Cd u2 {2,D}
-2   Cd u0 {1,D} {3,S} {4,S}
-3   H  u0 {2,S}
-4   H  u0 {2,S}
+1   Cd u0 {2,D} {3,S} {4,S}
+2 * Cd u2 {1,D}
+3   H  u0 {1,S}
+4   H  u0 {1,S}
 """,
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.904, -2.152, -3.433, -4.583, -6.214, -7.197, -9.27], 'cal/(mol*K)'),
-        H298=(237.632, 'kcal/mol'),
-        S298=(1.79, 'cal/(mol*K)'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.904,-2.152,-3.433,-4.583,-6.214,-7.197,-9.27],'cal/(mol*K)'),
+        H298 = (237.632,'kcal/mol'),
+        S298 = (1.79,'cal/(mol*K)'),
     ),
-    shortDesc=u"""Fittted to DFT_QCI_thermo library""",
-    longDesc=
-    u"""
-    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+    shortDesc = u"""Fittted to DFT_QCI_thermo library""",
+    longDesc = 
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 
     Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
     J. Phys. Chem. A 2012, 116, 9033-9057.
-    """,
+""",
 )
 
 entry(
-    index = 139,
+    index = 338,
     label = "(CO)CdJ2_triplet",
-    group =
+    group = 
 """
-1 * Cd u2 {2,D}
-2   Cdd u0 {1,D} {3,D}
-3   O u0 p2 {2,D}
+1   Cdd u0 {2,D} {3,D}
+2 * Cd  u2 {1,D}
+3   O   u0 p2 {1,D}
 """,
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.763, -2.732, -3.654, -4.473, -5.712, -6.563, -8.315], 'cal/(mol*K)'),
-        H298=(206.595, 'kcal/mol'),
-        S298=(-1.634, 'cal/(mol*K)'),
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.763,-2.732,-3.654,-4.473,-5.712,-6.563,-8.315],'cal/(mol*K)'),
+        H298 = (206.595,'kcal/mol'),
+        S298 = (-1.634,'cal/(mol*K)'),
     ),
-    shortDesc=u"""Fittted to DFT_QCI_thermo library""",
-    longDesc=
-    u"""
-    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
+    shortDesc = u"""Fittted to DFT_QCI_thermo library""",
+    longDesc = 
+u"""
+Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 
     Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
     J. Phys. Chem. A 2012, 116, 9033-9057.
-    """,
+""",
 )
 
 entry(
-    index = 262,
+    index = 339,
     label = "CdJ2-Sd_triplet",
     group = 
 """
-1 * CS u2 {2,D}
+1 * CS  u2 {2,D}
 2   S2d u0 {1,D}
 """,
     thermo = ThermoData(
@@ -8175,11 +8108,11 @@ u"""
 )
 
 entry(
-    index = 270,
+    index = 340,
     label = "NJ2_triplet",
     group = 
 """
-1 * N u2 px
+1 * N u2
 """,
     thermo = u'NJ2_C',
     shortDesc = u"""""",
@@ -8190,7 +8123,7 @@ u"""
 )
 
 entry(
-    index = 271,
+    index = 341,
     label = "N3sJ2",
     group = 
 """
@@ -8205,7 +8138,7 @@ u"""
 )
 
 entry(
-    index = 272,
+    index = 342,
     label = "NHJ2",
     group = 
 """
@@ -8219,14 +8152,14 @@ entry(
         S298 = (-2.72,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated w.r.t NH3 and [N], both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 273,
+    index = 343,
     label = "NJ2_C",
     group = 
 """
@@ -8235,19 +8168,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.36,-2.97,-3.51,-4.0,-5.0,-5.96,-7.75],'cal/(mol*K)'),
+        Cpdata = ([-2.36,-2.97,-3.51,-4,-5,-5.96,-7.75],'cal/(mol*K)'),
         H298 = (184.816,'kcal/mol'),
         S298 = (-3.04,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated w.r.t NH2CH3 and [N]CH3, both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 274,
+    index = 344,
     label = "NJ2_O",
     group = 
 """
@@ -8261,14 +8194,14 @@ entry(
         S298 = (-0.91,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculated w.r.t NH2OH and [N]OH, both from thermo_DFT_CCSDTF12_BAC""",
-    longDesc =
+    longDesc = 
 u"""
 
 """,
 )
 
 entry(
-    index = 130,
+    index = 345,
     label = "Oa_triplet",
     group = 
 """
@@ -8288,7 +8221,7 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 346,
     label = "SiJ2_triplet",
     group = 
 """
@@ -8303,7 +8236,7 @@ u"""
 )
 
 entry(
-    index = 263,
+    index = 347,
     label = "SJ2_triplet",
     group = 
 """
@@ -8323,7 +8256,7 @@ u"""
 )
 
 entry(
-    index = 132,
+    index = 348,
     label = "RJ3",
     group = 
 """
@@ -8338,7 +8271,7 @@ u"""
 )
 
 entry(
-    index = 133,
+    index = 349,
     label = "CJ3",
     group = 
 """
@@ -8358,7 +8291,7 @@ u"""
 )
 
 entry(
-    index = 136,
+    index = 350,
     label = "SiJ3",
     group = 
 """
@@ -8373,9 +8306,9 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 351,
     label = "OC=CJCb",
-    group =
+    group = 
 """
 1 * Cd  u1 {2,D} {3,S}
 2   C   u0 {1,D} {4,S}
@@ -8384,135 +8317,140 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.047, 0.607, 0.374, -0.3, -1.28, -1.972, -3.196],'cal/(mol*K)'),
+        Cpdata = ([0.047,0.607,0.374,-0.3,-1.28,-1.972,-3.196],'cal/(mol*K)'),
         H298 = (123.797,'kcal/mol'),
         S298 = (2.661,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fit to CCSD(T)-F12/cc-pVDZ-F12//M06/vtz calculations""",
-    longDesc =
+    longDesc = 
 u"""
 Fit to CCSD(T)-F12/cc-pVDZ-F12//M06/vtz calculations for OC=[C]c1ccccc1
 """,
 )
 
 entry(
-    index = 2001,
+    index = 352,
     label = "S4dJ-OdH",
-    group =
+    group = 
 """
-1   O2d  u0 p2 c0 {2,D}
-2 * S4d u1 p1 c0 {1,D} {3,S}
-3   H   u0 p0 c0 {2,S}
+1 * S4d u1 p1 c0 {2,D} {3,S}
+2   O2d u0 p2 c0 {1,D}
+3   H   u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.510000,-1.200000,-1.930000,-2.590000,-3.600000,-4.270000,-5.100000],'cal/(mol*K)'),
-        H298 = (58.000000,'kcal/mol'),
-        S298 = (0.540000,'cal/(mol*K)'),
+        Cpdata = ([-0.51,-1.2,-1.93,-2.59,-3.6,-4.27,-5.1],'cal/(mol*K)'),
+        H298 = (58,'kcal/mol'),
+        S298 = (0.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 4/2017, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2002,
+    index = 353,
     label = "S2sJ-O",
-    group =
+    group = 
 """
-1 * S2s  u1 p2 c0 {2,S}
-2   O2s   u0 p2 c0 {1,S}
+1 * S2s u1 p2 c0 {2,S}
+2   O2s u0 p2 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.159038,-4.009747,-4.361871,-4.910916,-5.320592,-5.530248,-5.757974],'cal/(mol*K)'),
-        H298 = (108.577118,'kcal/mol'),
-        S298 = (-7.477222,'cal/(mol*K)'),
+        Cpdata = ([-3.15904,-4.00975,-4.36187,-4.91092,-5.32059,-5.53025,-5.75797],'cal/(mol*K)'),
+        H298 = (108.577,'kcal/mol'),
+        S298 = (-7.47722,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 4/2017, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2003,
+    index = 354,
     label = "S4dJ-OdO",
-    group =
+    group = 
 """
-1   O2d  u0 p2 c0 {2,D}
-2 * S4d u1 p1 c0 {1,D} {3,S}
-3   O2s  u0 p2 c0 {2,S}
+1 * S4d u1 p1 c0 {2,D} {3,S}
+2   O2d u0 p2 c0 {1,D}
+3   O2s u0 p2 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.710000,-2.410000,-3.090000,-3.650000,-4.420000,-4.890000,-5.450000],'cal/(mol*K)'),
-        H298 = (58.900000,'kcal/mol'),
-        S298 = (0.140000,'cal/(mol*K)'),
+        Cpdata = ([-1.71,-2.41,-3.09,-3.65,-4.42,-4.89,-5.45],'cal/(mol*K)'),
+        H298 = (58.9,'kcal/mol'),
+        S298 = (0.14,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 4/2017, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2004,
+    index = 355,
     label = "S6ddJ-OdOdH",
-    group =
+    group = 
 """
-1   O2d   u0 p2 c0 {2,D}
-2 * S6dd u1 p0 c0 {1,D} {3,D} {4,S}
-3   O2d   u0 p2 c0 {2,D}
-4   H    u0 p0 c0 {2,S}
+1 * S6dd u1 p0 c0 {2,D} {3,D} {4,S}
+2   O2d  u0 p2 c0 {1,D}
+3   O2d  u0 p2 c0 {1,D}
+4   H    u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.977000,0.640000,-0.027000,-0.741000,-1.913000,-2.873000,-4.269000],'cal/(mol*K)'),
-        H298 = (75.948000,'kcal/mol'),
-        S298 = (3.331000,'cal/(mol*K)'),
+        Cpdata = ([0.977,0.64,-0.027,-0.741,-1.913,-2.873,-4.269],'cal/(mol*K)'),
+        H298 = (75.948,'kcal/mol'),
+        S298 = (3.331,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 4/2017, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2005,
+    index = 356,
     label = "S6ddJ-OdOdO",
-    group =
+    group = 
 """
-1   O2d   u0 p2 c0 {2,D}
-2 * S6dd u1 p0 c0 {1,D} {3,D} {4,S}
-3   O2d   u0 p2 c0 {2,D}
-4   O2s   u0 p2 c0 {2,S}
+1 * S6dd u1 p0 c0 {2,D} {3,D} {4,S}
+2   O2d  u0 p2 c0 {1,D}
+3   O2d  u0 p2 c0 {1,D}
+4   O2s  u0 p2 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.539000,-1.537000,-2.332000,-2.933000,-4.010000,-4.785000,-5.701000],'cal/(mol*K)'),
-        H298 = (86.194000,'kcal/mol'),
-        S298 = (4.146000,'cal/(mol*K)'),
+        Cpdata = ([-0.539,-1.537,-2.332,-2.933,-4.01,-4.785,-5.701],'cal/(mol*K)'),
+        H298 = (86.194,'kcal/mol'),
+        S298 = (4.146,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 4/2017, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2006,
+    index = 357,
     label = "O2sJ-S2s",
-    group =
+    group = 
 """
-1 * O2s    u1 p2 c0 {2,S}
-2   S2s    u0 p2 c0 {1,S}
+1 * O2s u1 p2 c0 {2,S}
+2   S2s u0 p2 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8521,81 +8459,85 @@ entry(
         S298 = (1.28,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2006,
+    index = 358,
     label = "O2sJ-S4d",
-    group =
+    group = 
 """
-1 * O2s    u1 p2 c0 {2,S}
-2   S4d    u0 p1 c0 {1,S}
+1 * O2s u1 p2 c0 {2,S}
+2   S4d u0 p1 c0 {1,S}
 """,
     thermo = u'O2sJ-(S4d-OdO)',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value of 52.103 kcal/mol, 4/2017, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2006,
+    index = 359,
     label = "O2sJ-(S4d-OdO)",
-    group =
+    group = 
 """
-1 * O2s    u1 p2 c0 {2,S}
-2   S4d    u0 p1 c0 {1,S} {3,D} {4,S}
-3   O2d    u0 p2 c0 {2,D}
-4   O      u0 p2 c0 {2,S}
+1   S4d u0 p1 c0 {2,S} {3,D} {4,S}
+2 * O2s u1 p2 c0 {1,S}
+3   O2d u0 p2 c0 {1,D}
+4   O   u0 p2 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.62,-0.07,-0.61,-0.93,-1.55,-2.00,-2.49],'cal/(mol*K)'),
+        Cpdata = ([0.62,-0.07,-0.61,-0.93,-1.55,-2,-2.49],'cal/(mol*K)'),
         H298 = (28.13,'kcal/mol'),
         S298 = (2.64,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2006,
+    index = 360,
     label = "O2sJ-S6d",
-    group =
+    group = 
 """
-1 * O2s    u1 p2 c0 {2,S}
-2   S6d    u0 p0 c0 {1,S}
+1 * O2s u1 p2 c0 {2,S}
+2   S6d u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.68,-2.09,-2.45,-2.77,-3.30,-3.71,-4.41],'cal/(mol*K)'),
+        Cpdata = ([-1.68,-2.09,-2.45,-2.77,-3.3,-3.71,-4.41],'cal/(mol*K)'),
         H298 = (106.21,'kcal/mol'),
         S298 = (-1.07,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2006,
+    index = 361,
     label = "O2sJ-(S4d-OdC)",
-    group =
+    group = 
 """
-1 * O2s    u1 p2 c0 {2,S}
-2   S4d    u0 p1 c0 {1,S} {3,D} {4,S}
-3   O      u0 p2 c0 {2,D}
-4   C      u0 p0 c0 {2,S}
+1   S4d u0 p1 c0 {2,S} {3,D} {4,S}
+2 * O2s u1 p2 c0 {1,S}
+3   O   u0 p2 c0 {1,D}
+4   C   u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8604,21 +8546,22 @@ entry(
         S298 = (-0.19,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2006,
+    index = 362,
     label = "O2sJ-(S4d-CdC)",
-    group =
+    group = 
 """
-1 * O2s      u1 p2 c0 {2,S}
-2   S4d    u0 p1 c0 {1,S} {3,D} {4,S}
-3   C      u0 p0 c0 {2,D}
-4   C      u0 p0 c0 {2,S}
+1   S4d u0 p1 c0 {2,S} {3,D} {4,S}
+2 * O2s u1 p2 c0 {1,S}
+3   C   u0 p0 c0 {1,D}
+4   C   u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8627,21 +8570,22 @@ entry(
         S298 = (0.698,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2006,
+    index = 363,
     label = "O2sJ-(S4d-OdH)",
-    group =
+    group = 
 """
-1 * O2s      u1 p2 c0 {2,S}
-2   S4d    u0 p1 c0 {1,S} {3,D} {4,S}
-3   O      u0 p2 c0 {2,D}
-4   H      u0 p0 c0 {2,S}
+1   S4d u0 p1 c0 {2,S} {3,D} {4,S}
+2 * O2s u1 p2 c0 {1,S}
+3   O   u0 p2 c0 {1,D}
+4   H   u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8650,121 +8594,129 @@ entry(
         S298 = (-1.49,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 3/2018, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2007,
+    index = 364,
     label = "SOJ",
-    group =
+    group = 
 """
-1 * O   u1 p2 c0 {2,S}
-2   S   ux px c0 {1,S}
+1 * O u1 p2 c0 {2,S}
+2   S ux c0 {1,S}
 """,
     thermo = u'O2sJ-S2s',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2007,
+    index = 365,
     label = "S2J",
-    group =
+    group = 
 """
-1 * S2s   u1 p2
+1 * S2s u1 p2
 """,
     thermo = u'S2J-C',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2007,
+    index = 366,
     label = "S4dJ",
-    group =
+    group = 
 """
-1 * S4d   u1 p1
+1 * S4d u1 p1
 """,
     thermo = u'S4dJ-OdO',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2007,
+    index = 367,
     label = "S6ddJ",
-    group =
+    group = 
 """
-1 * S6dd   u1 p0
+1 * S6dd u1 p0
 """,
     thermo = u'S6ddJ-OdOdO',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2008,
+    index = 368,
     label = "S4sJ",
-    group =
+    group = 
 """
-1 * S4s   u1 p1
+1 * S4s u1 p1
 """,
     thermo = u'S4sJ-CCC',
     shortDesc = u"""Sulfur Oxygen Extension""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2009,
+    index = 369,
     label = "S6sJ",
-    group =
+    group = 
 """
-1 * S6s   u1 p0
+1 * S6s u1 p0
 """,
     thermo = u'S6sJ-CCCCC',
     shortDesc = u"""Calculated at CBS-QB3""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2050,
+    index = 370,
     label = "S6dJ",
-    group =
+    group = 
 """
-1 * S6d   u1 p0
+1 * S6d u1 p0
 """,
     thermo = u'S6dJ-OdOCC',
     shortDesc = u"""Calculated at CBS-QB3""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2051,
+    index = 371,
     label = "S6dJ-OdOCC",
-    group =
+    group = 
 """
-1 * S6d    u1 p0 c0 {2,S} {3,S} {4,S} {5,D}
-2   O      ux {1,S}
-3   C      ux {1,S}
-4   C      ux {1,S}
-5   O      ux {1,D}
+1 * S6d u1 p0 c0 {2,S} {3,S} {4,S} {5,D}
+2   O   ux {1,S}
+3   C   ux {1,S}
+4   C   ux {1,S}
+5   O   ux {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8773,21 +8725,22 @@ entry(
         S298 = (3.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on radical calculations at CBS-QB3
 """,
 )
 
 entry(
-    index = 2010,
+    index = 372,
     label = "S4sJ-CCC",
-    group =
+    group = 
 """
-1 * S4s    u1 p1 c0 {2,S} {3,S} {4,S}
-2   C      ux {1,S}
-3   C      ux {1,S}
-4   C      ux {1,S}
+1 * S4s u1 p1 c0 {2,S} {3,S} {4,S}
+2   C   ux {1,S}
+3   C   ux {1,S}
+4   C   ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8796,46 +8749,48 @@ entry(
         S298 = (12.849,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Calculated at CBS-QB3
 """,
 )
 
 entry(
-    index = 2011,
+    index = 373,
     label = "S4sJ-OCC",
-    group =
+    group = 
 """
-1 * S4s    u1 p1 c0 {2,S} {3,S} {4,S}
-2   O      ux {1,S}
-3   C      ux {1,S}
-4   C      ux {1,S}
+1 * S4s u1 p1 c0 {2,S} {3,S} {4,S}
+2   O   ux {1,S}
+3   C   ux {1,S}
+4   C   ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.475,-.55,-2.75,-4.66,-7.27,-9.325,-8.64],'cal/(mol*K)'),
+        Cpdata = ([2.475,-0.55,-2.75,-4.66,-7.27,-9.325,-8.64],'cal/(mol*K)'),
         H298 = (21.67,'kcal/mol'),
         S298 = (15.449,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on radical calculations at CBS-QB3
 """,
 )
 
 entry(
-    index = 2010,
+    index = 374,
     label = "S6sJ-CCCCC",
-    group =
+    group = 
 """
-1 * S6s    u1 p0 c0 {2,S} {3,S} {4,S} {5,S} {6,S}
-2   C      ux {1,S}
-3   C      ux {1,S}
-4   C      ux {1,S}
-5   C      ux {1,S}
-6   C      ux {1,S}
+1 * S6s u1 p0 c0 {2,S} {3,S} {4,S} {5,S} {6,S}
+2   C   ux {1,S}
+3   C   ux {1,S}
+4   C   ux {1,S}
+5   C   ux {1,S}
+6   C   ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8844,33 +8799,35 @@ entry(
         S298 = (9.723,'cal/(mol*K)'),
     ),
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 From comparison with the saturated closed-shell species, mostly calculated at cbsqb3 with the hydrogen value take from BurcatH2O2 library, 4/2017, Ryan Gillis
 """,
 )
 
 entry(
-    index = 2011,
+    index = 375,
     label = "Benzyl_S_Fused5",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S} {5,B}
-3   C  u0 {1,S} {6,[S,D,T]}
-4   H  u0 {1,S}
-5   Cb u0 {2,B} {6,S}
-6   C  u0 {5,S} {3,[S,D,T]}
+1 * Cs u1 {2,S} {3,S} {6,S}
+2   Cb u0 {1,S} {4,B}
+3   C  u0 {1,S} {5,[S,D,T]}
+4   Cb u0 {2,B} {5,S}
+5   C  u0 {3,[S,D,T]} {4,S}
+6   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.054016,-0.574860,-1.161811,-1.586869,-2.403320,-3.150381,-4.416756],'cal/(mol*K)','+|-',[0.201190,0.201190,0.201190,0.201190,0.201190,0.201190,0.201190]),
-        H298 = (88.503762,'kcal/mol','+|-',0.737851),
-        S298 = (3.112531,'cal/(mol*K)','+|-',0.434935),
+        Cpdata = ([0.054016,-0.57486,-1.16181,-1.58687,-2.40332,-3.15038,-4.41676],'cal/(mol*K)','+|-',[0.20119,0.20119,0.20119,0.20119,0.20119,0.20119,0.20119]),
+        H298 = (88.5038,'kcal/mol','+|-',0.737851),
+        S298 = (3.11253,'cal/(mol*K)','+|-',0.434935),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -8885,27 +8842,28 @@ CCCC1C[CH]C2=CC=CC=C21
 )
 
 entry(
-    index = 2012,
+    index = 376,
     label = "Benzyl_S_Fused6",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S} {5,B}
-3   C  u0 {1,S} {7,[S,D,T,B]}
-4   H  u0 {1,S}
-5   Cb u0 {2,B} {6,S}
-6   C  u0 {5,S} {7,[S,D,T,B]}
-7   C  u0 {6,[S,D,T,B]} {3,[S,D,T,B]}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cb u0 {1,S} {4,B}
+3   C  u0 {1,S} {5,[S,D,T,B]}
+4   Cb u0 {2,B} {6,S}
+5   C  u0 {3,[S,D,T,B]} {6,[S,D,T,B]}
+6   C  u0 {4,S} {5,[S,D,T,B]}
+7   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.881557,-1.191625,-1.649808,-2.003459,-2.505735,-3.094923,-4.341263],'cal/(mol*K)','+|-',[0.318445,0.318445,0.318445,0.318445,0.318445,0.318445,0.318445]),
-        H298 = (86.379670,'kcal/mol','+|-',1.148432),
-        S298 = (1.330626,'cal/(mol*K)','+|-',0.744626),
+        Cpdata = ([-0.881557,-1.19162,-1.64981,-2.00346,-2.50574,-3.09492,-4.34126],'cal/(mol*K)','+|-',[0.318445,0.318445,0.318445,0.318445,0.318445,0.318445,0.318445]),
+        H298 = (86.3797,'kcal/mol','+|-',1.14843),
+        S298 = (1.33063,'cal/(mol*K)','+|-',0.744626),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -8919,26 +8877,27 @@ CCC1CC[CH]C2=CC=CC=C21
 )
 
 entry(
-    index = 2013,
+    index = 377,
     label = "Benzyl_T_Fused5",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S} {5,B}
-3   C  u0 {1,S} {6,[S,B,T]}
-4   C  u0 {1,S}
-5   Cb u0 {2,B} {6,S}
-6   C  u0 {5,S} {3,[S,B,T]}
+1 * Cs u1 {2,S} {3,S} {6,S}
+2   Cb u0 {1,S} {4,B}
+3   C  u0 {1,S} {5,[S,B,T]}
+4   Cb u0 {2,B} {5,S}
+5   C  u0 {3,[S,B,T]} {4,S}
+6   C  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.457289,-1.562693,-2.227712,-2.429028,-2.809678,-3.487717,-4.252860],'cal/(mol*K)','+|-',[0.282803,0.282803,0.282803,0.282803,0.282803,0.282803,0.282803]),
-        H298 = (85.449826,'kcal/mol','+|-',1.022623),
-        S298 = (4.370664,'cal/(mol*K)','+|-',0.608769),
+        Cpdata = ([-0.457289,-1.56269,-2.22771,-2.42903,-2.80968,-3.48772,-4.25286],'cal/(mol*K)','+|-',[0.282803,0.282803,0.282803,0.282803,0.282803,0.282803,0.282803]),
+        H298 = (85.4498,'kcal/mol','+|-',1.02262),
+        S298 = (4.37066,'cal/(mol*K)','+|-',0.608769),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -8952,27 +8911,28 @@ CCCC1C[CH]C2=CC=CC=C21
 )
 
 entry(
-    index = 2014,
+    index = 378,
     label = "Benzyl_T_Fused6",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S} {5,B}
-3   C  u0 {1,S} {7,[S,D,T,B]}
-4   C  u0 {1,S}
-5   Cb u0 {2,B} {6,S}
-6   C  u0 {5,S} {7,[S,D,T,B]}
-7   C  u0 {6,[S,D,T,B]} {3,[S,D,T,B]}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cb u0 {1,S} {4,B}
+3   C  u0 {1,S} {5,[S,D,T,B]}
+4   Cb u0 {2,B} {6,S}
+5   C  u0 {3,[S,D,T,B]} {6,[S,D,T,B]}
+6   C  u0 {4,S} {5,[S,D,T,B]}
+7   C  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.148032,-0.974235,-1.848643,-2.422838,-3.012068,-3.465264,-4.437082],'cal/(mol*K)','+|-',[0.514226,0.514226,0.514226,0.514226,0.514226,0.514226,0.514226]),
-        H298 = (84.719974,'kcal/mol','+|-',1.823766),
-        S298 = (1.702078,'cal/(mol*K)','+|-',1.175222),
+        Cpdata = ([-0.148032,-0.974235,-1.84864,-2.42284,-3.01207,-3.46526,-4.43708],'cal/(mol*K)','+|-',[0.514226,0.514226,0.514226,0.514226,0.514226,0.514226,0.514226]),
+        H298 = (84.72,'kcal/mol','+|-',1.82377),
+        S298 = (1.70208,'cal/(mol*K)','+|-',1.17522),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -8985,27 +8945,28 @@ CC[C]1CCCC2=CC=CC=C21
 )
 
 entry(
-    index = 2015,
+    index = 379,
     label = "CJ-Cd-Benzene",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cs u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cd u0 {2,D} {6,S}
-6   Cb u0 {7,B} {5,S}
-7   Cb u0 {6,B} {3,S}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cd u0 {1,S} {4,D}
+3   Cs u0 {1,S} {5,S}
+4   Cd u0 {2,D} {6,S}
+5   Cb u0 {3,S} {6,B}
+6   Cb u0 {4,S} {5,B}
+7   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.038694,-0.486795,-1.266142,-1.943551,-2.846431,-3.509532,-4.609948],'cal/(mol*K)','+|-',[0.244001,0.244001,0.244001,0.244001,0.244001,0.244001,0.244001]),
-        H298 = (80.055693,'kcal/mol','+|-',0.913362),
-        S298 = (1.932508,'cal/(mol*K)','+|-',0.367823),
+        Cpdata = ([-0.038694,-0.486795,-1.26614,-1.94355,-2.84643,-3.50953,-4.60995],'cal/(mol*K)','+|-',[0.244001,0.244001,0.244001,0.244001,0.244001,0.244001,0.244001]),
+        H298 = (80.0557,'kcal/mol','+|-',0.913362),
+        S298 = (1.93251,'cal/(mol*K)','+|-',0.367823),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -9021,27 +8982,28 @@ CCC1=C[CH]CC2=CC=CC=C12
 )
 
 entry(
-    index = 2020,
+    index = 380,
     label = "Benzyl_S_dihydronaphthalene",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S} {5,B}
-3   C  u0 {1,S} {7,[S,D,B]}
-4   H  u0 {1,S}
-5   Cb u0 {2,B} {6,S}
-6   Cd  u0 {5,S} {7,D}
-7   Cd  u0 {6,D} {3,[S,D,B]}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cb u0 {1,S} {4,B}
+3   C  u0 {1,S} {5,[S,D,B]}
+4   Cb u0 {2,B} {6,S}
+5   Cd u0 {3,[S,D,B]} {6,D}
+6   Cd u0 {4,S} {5,D}
+7   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.762975,-1.091932,-1.454467,-1.908359,-2.748445,-3.446538,-4.576528],'cal/(mol*K)','+|-',[0.226952,0.226952,0.226952,0.226952,0.226952,0.226952,0.226952]),
-        H298 = (83.668243,'kcal/mol','+|-',0.869131),
-        S298 = (1.433096,'cal/(mol*K)','+|-',0.350884),
+        Cpdata = ([-0.762975,-1.09193,-1.45447,-1.90836,-2.74844,-3.44654,-4.57653],'cal/(mol*K)','+|-',[0.226952,0.226952,0.226952,0.226952,0.226952,0.226952,0.226952]),
+        H298 = (83.6682,'kcal/mol','+|-',0.869131),
+        S298 = (1.4331,'cal/(mol*K)','+|-',0.350884),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 07/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -9058,27 +9020,28 @@ enthalpy for C1=CC=C2C=CC[CH]C2=C1 matches calculated value.
 )
 
 entry(
-    index = 2021,
+    index = 381,
     label = "Benzyl_T_dihydronaphthalene",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S} {5,B}
-3   C  u0 {1,S} {7,[S,D,T,B]}
-4   C  u0 {1,S}
-5   Cb u0 {2,B} {6,S}
-6   Cd  u0 {5,S} {7,D}
-7   Cd  u0 {6,D} {3,[S,D,T,B]}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cb u0 {1,S} {4,B}
+3   C  u0 {1,S} {5,[S,D,T,B]}
+4   Cb u0 {2,B} {6,S}
+5   Cd u0 {3,[S,D,T,B]} {6,D}
+6   Cd u0 {4,S} {5,D}
+7   C  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.264274,-0.237466,-0.864612,-1.638997,-2.840867,-3.590474,-4.678897],'cal/(mol*K)','+|-',[0.546927,0.546927,0.546927,0.546927,0.546927,0.546927,0.546927]),
-        H298 = (83.336835,'kcal/mol','+|-',2.015630),
-        S298 = (2.120448,'cal/(mol*K)','+|-',0.802466),
+        Cpdata = ([0.264274,-0.237466,-0.864612,-1.639,-2.84087,-3.59047,-4.6789],'cal/(mol*K)','+|-',[0.546927,0.546927,0.546927,0.546927,0.546927,0.546927,0.546927]),
+        H298 = (83.3368,'kcal/mol','+|-',2.01563),
+        S298 = (2.12045,'cal/(mol*K)','+|-',0.802466),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 07/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -9090,29 +9053,29 @@ CC[C]1CC=CC2=CC=CC=C12
 """,
 )
 
-
 entry(
-    index = 2022,
+    index = 382,
     label = "Aromatic_pi_S_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S}
-7   H u0 {1,S}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cd u0 {1,S} {4,D}
+3   Cs u0 {1,S} {5,S}
+4   Cd u0 {2,D} {6,S}
+5   Cd u0 {3,S} {6,D}
+6   Cd u0 {4,S} {5,D}
+7   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.013276,-1.289314,-2.312579,-2.921595,-3.398456,-3.676202,-4.864196],'cal/(mol*K)','+|-',[0.023461,0.023461,0.023461,0.023461,0.023461,0.023461,0.023461]),
-        H298 = (75.469224,'kcal/mol','+|-',0.139824),
-        S298 = (1.484606,'cal/(mol*K)','+|-',0.036353),
+        Cpdata = ([0.013276,-1.28931,-2.31258,-2.92159,-3.39846,-3.6762,-4.8642],'cal/(mol*K)','+|-',[0.023461,0.023461,0.023461,0.023461,0.023461,0.023461,0.023461]),
+        H298 = (75.4692,'kcal/mol','+|-',0.139824),
+        S298 = (1.48461,'cal/(mol*K)','+|-',0.036353),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -9127,92 +9090,96 @@ CC1[CH]C=CC=C1
 )
 
 entry(
-    index = 2023,
+    index = 383,
     label = "Aromatic_pi_S_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cd u0 {1,S} {4,D}
+3   Cd u0 {1,S} {5,D}
+4   Cd u0 {2,D} {6,S}
+5   Cd u0 {3,D} {6,S}
+6   Cs u0 {4,S} {5,S}
+7   H  u0 {1,S}
 """,
     thermo = u'Aromatic_pi_S_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_1_3
 """,
 )
 
 entry(
-    index = 2024,
+    index = 384,
     label = "Aromatic_pi_T_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cs u0 {1,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {7,S}
-7   Cd u0 {6,S} {2,D}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cd u0 {1,S} {5,D}
+3   Cs u0 {1,S} {4,S}
+4   Cd u0 {3,S} {6,D}
+5   Cd u0 {2,D} {6,S}
+6   Cd u0 {4,D} {5,S}
+7   C  u0 {1,S}
 """,
     thermo = u'Aromatic_pi_S_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_1_3
 """,
 )
 
 entry(
-    index = 2025,
+    index = 385,
     label = "Aromatic_pi_T_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cd u0 {1,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {7,S}
-7   Cd u0 {6,S} {2,D}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cd u0 {1,S} {5,D}
+3   Cd u0 {1,S} {4,D}
+4   Cd u0 {3,D} {6,S}
+5   Cd u0 {2,D} {6,S}
+6   Cs u0 {4,S} {5,S}
+7   C  u0 {1,S}
 """,
     thermo = u'Aromatic_pi_S_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_1_3
 """,
 )
 
 entry(
-    index = 2026,
+    index = 386,
     label = "Aromatic_pi_S_(CH3_CH3_Ortho)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S} {8,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {5,S}
-9   C u0 {6,S}
+1   Cs u0 {2,S} {3,S} {7,S}
+2 * Cs u1 {1,S} {4,S} {8,S}
+3   Cd u0 {1,S} {5,D} {9,S}
+4   Cd u0 {2,S} {6,D}
+5   Cd u0 {3,D} {6,S}
+6   Cd u0 {4,D} {5,S}
+7   C  u0 {1,S}
+8   H  u0 {2,S}
+9   C  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.104911,-1.140650,-2.324049,-3.038951,-3.752012,-4.054814,-5.141931],'cal/(mol*K)','+|-',[0.061305,0.061305,0.061305,0.061305,0.061305,0.061305,0.061305]),
-        H298 = (75.544685,'kcal/mol','+|-',0.399656),
-        S298 = (2.790834,'cal/(mol*K)','+|-',0.079011),
+        Cpdata = ([0.104911,-1.14065,-2.32405,-3.03895,-3.75201,-4.05481,-5.14193],'cal/(mol*K)','+|-',[0.061305,0.061305,0.061305,0.061305,0.061305,0.061305,0.061305]),
+        H298 = (75.5447,'kcal/mol','+|-',0.399656),
+        S298 = (2.79083,'cal/(mol*K)','+|-',0.079011),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -9227,235 +9194,245 @@ CC1(C)[CH]C=CC=C1
 )
 
 entry(
-    index = 2027,
+    index = 387,
     label = "Aromatic_pi_S_(CH3_CH3_Ortho)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {3,S}
-9   C u0 {4,S}
+1   Cd u0 {2,S} {4,D} {7,S}
+2   Cs u0 {1,S} {5,S} {8,S}
+3 * Cs u1 {4,S} {6,S} {9,S}
+4   Cd u0 {1,D} {3,S}
+5   Cd u0 {2,S} {6,D}
+6   Cd u0 {3,S} {5,D}
+7   C  u0 {1,S}
+8   C  u0 {2,S}
+9   H  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2028,
+    index = 388,
     label = "Aromatic_pi_T_(CH3_CH3_Ortho)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cs u0 {1,S} {5,S} {8,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {7,S}
-7   Cd u0 {6,S} {2,D}
-8   C u0 {4,S}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cs u0 {1,S} {4,S} {8,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {2,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cd u0 {3,D} {5,S}
+7   C  u0 {1,S}
+8   C  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2029,
+    index = 389,
     label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_3_1",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D} {8,S}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {2,S}
-9   C u0 {6,S}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cd u0 {1,S} {4,D} {8,S}
+3   Cs u0 {1,S} {5,S} {9,S}
+4   Cd u0 {2,D} {6,S}
+5   Cd u0 {3,S} {6,D}
+6   Cd u0 {4,S} {5,D}
+7   H  u0 {1,S}
+8   C  u0 {2,S}
+9   C  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2030,
+    index = 390,
     label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D} {8,S}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {2,S}
-9   C u0 {4,S}
+1   Cd u0 {2,S} {4,D} {8,S}
+2 * Cs u1 {1,S} {5,S} {7,S}
+3   Cs u0 {4,S} {6,S} {9,S}
+4   Cd u0 {1,D} {3,S}
+5   Cd u0 {2,S} {6,D}
+6   Cd u0 {3,S} {5,D}
+7   H  u0 {2,S}
+8   C  u0 {1,S}
+9   C  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2031,
+    index = 391,
     label = "Aromatic_pi_S_(CH3_CH3_Meta)_1_3_2",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D} {8,S}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {4,S}
-9   C u0 {6,S}
+1   Cs u0 {2,S} {4,S} {8,S}
+2 * Cs u1 {1,S} {5,S} {7,S}
+3   Cd u0 {4,D} {6,S} {9,S}
+4   Cd u0 {1,S} {3,D}
+5   Cd u0 {2,S} {6,D}
+6   Cd u0 {3,S} {5,D}
+7   H  u0 {2,S}
+8   C  u0 {1,S}
+9   C  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2032,
+    index = 392,
     label = "Aromatic_pi_S_(CH3_CH3_Para)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {3,S}
-9   C u0 {6,S}
+1 * Cs u1 {2,S} {4,S} {7,S}
+2   Cs u0 {1,S} {5,S} {8,S}
+3   Cd u0 {4,D} {6,S} {9,S}
+4   Cd u0 {1,S} {3,D}
+5   Cd u0 {2,S} {6,D}
+6   Cd u0 {3,S} {5,D}
+7   H  u0 {1,S}
+8   C  u0 {2,S}
+9   C  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2033,
+    index = 393,
     label = "Aromatic_pi_T_(CH3_CH3_Para)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cd u0 {1,S} {5,D} {8,S}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {7,S}
-7   Cd u0 {6,S} {2,D}
-8   C u0 {4,S}
+1 * Cs u1 {2,S} {3,S} {7,S}
+2   Cd u0 {1,S} {4,D} {8,S}
+3   Cd u0 {1,S} {6,D}
+4   Cd u0 {2,D} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cd u0 {3,D} {5,S}
+7   C  u0 {1,S}
+8   C  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2034,
+    index = 394,
     label = "Aromatic_pi_S_(CH3_CH3_Sub)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {6,S}
-9   C u0 {6,S}
+1   Cs u0 {2,S} {3,S} {7,S} {8,S}
+2 * Cs u1 {1,S} {4,S} {9,S}
+3   Cd u0 {1,S} {5,D}
+4   Cd u0 {2,S} {6,D}
+5   Cd u0 {3,D} {6,S}
+6   Cd u0 {4,D} {5,S}
+7   C  u0 {1,S}
+8   C  u0 {1,S}
+9   H  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2035,
+    index = 395,
     label = "Aromatic_pi_S_(CH3_CH3_Sub)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {4,S}
-9   C u0 {4,S}
+1   Cs u0 {3,S} {4,S} {7,S} {8,S}
+2 * Cs u1 {5,S} {6,S} {9,S}
+3   Cd u0 {1,S} {5,D}
+4   Cd u0 {1,S} {6,D}
+5   Cd u0 {2,S} {3,D}
+6   Cd u0 {2,S} {4,D}
+7   C  u0 {1,S}
+8   C  u0 {1,S}
+9   H  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_CH3_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2036,
+    index = 396,
     label = "Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S} {8,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {5,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S}
+1    Cs u0 {2,S} {3,S} {7,S}
+2  * Cs u1 {1,S} {4,S} {8,S}
+3    Cd u0 {1,S} {5,D} {9,S}
+4    Cd u0 {2,S} {6,D}
+5    Cd u0 {3,D} {6,S}
+6    Cd u0 {4,D} {5,S}
+7    C  u0 {1,S} {10,S}
+8    H  u0 {2,S}
+9    C  u0 {3,S}
+10   C  u0 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.453462,-1.202443,-2.436067,-2.956152,-3.471072,-3.948804,-5.034070],'cal/(mol*K)','+|-',[0.068504,0.068504,0.068504,0.068504,0.068504,0.068504,0.068504]),
-        H298 = (74.981951,'kcal/mol','+|-',0.417781),
-        S298 = (1.243621,'cal/(mol*K)','+|-',0.106961),
+        Cpdata = ([0.453462,-1.20244,-2.43607,-2.95615,-3.47107,-3.9488,-5.03407],'cal/(mol*K)','+|-',[0.068504,0.068504,0.068504,0.068504,0.068504,0.068504,0.068504]),
+        H298 = (74.982,'kcal/mol','+|-',0.417781),
+        S298 = (1.24362,'cal/(mol*K)','+|-',0.106961),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -9470,834 +9447,862 @@ CCC1(C)[CH]C=CC=C1
 )
 
 entry(
-    index = 2037,
+    index = 397,
     label = "Aromatic_pi_S_(CH3_C2H5_Ortho)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {3,S}
-9   C u0 {4,S} {10,S}
-10  C u0 {9,S}
+1    Cs u0 {2,S} {5,S} {7,S}
+2    Cd u0 {1,S} {4,D} {8,S}
+3  * Cs u1 {4,S} {6,S} {9,S}
+4    Cd u0 {2,D} {3,S}
+5    Cd u0 {1,S} {6,D}
+6    Cd u0 {3,S} {5,D}
+7    C  u0 {1,S} {10,S}
+8    C  u0 {2,S}
+9    H  u0 {3,S}
+10   C  u0 {7,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2038,
+    index = 398,
     label = "Aromatic_pi_T_(CH3_C2H5_Ortho)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cs u0 {1,S} {5,S} {8,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {7,S}
-7   Cd u0 {6,S} {2,D}
-8   C u0 {4,S} {9,S}
-9   C u0 {8,S}
+1   Cs u0 {2,S} {3,S} {7,S}
+2 * Cs u1 {1,S} {4,S} {8,S}
+3   Cd u0 {1,S} {5,D}
+4   Cd u0 {2,S} {6,D}
+5   Cd u0 {3,D} {6,S}
+6   Cd u0 {4,D} {5,S}
+7   C  u0 {1,S} {9,S}
+8   C  u0 {2,S}
+9   C  u0 {7,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2039,
+    index = 399,
     label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_1",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D} {8,S}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {2,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S}
+1  * Cs u1 {2,S} {3,S} {8,S}
+2    Cs u0 {1,S} {4,S} {7,S}
+3    Cd u0 {1,S} {5,D} {9,S}
+4    Cd u0 {2,S} {6,D}
+5    Cd u0 {3,D} {6,S}
+6    Cd u0 {4,D} {5,S}
+7    C  u0 {2,S} {10,S}
+8    H  u0 {1,S}
+9    C  u0 {3,S}
+10   C  u0 {7,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2040,
+    index = 400,
     label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D} {8,S}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {2,S}
-9   C u0 {4,S} {10,S}
-10  C u0 {9,S}
+1    Cd u0 {3,S} {4,D} {9,S}
+2    Cs u0 {4,S} {5,S} {7,S}
+3  * Cs u1 {1,S} {6,S} {8,S}
+4    Cd u0 {1,D} {2,S}
+5    Cd u0 {2,S} {6,D}
+6    Cd u0 {3,S} {5,D}
+7    C  u0 {2,S} {10,S}
+8    H  u0 {3,S}
+9    C  u0 {1,S}
+10   C  u0 {7,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2041,
+    index = 401,
     label = "Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_2",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D} {8,S}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {4,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S}
+1    Cs u0 {2,S} {4,S} {7,S}
+2  * Cs u1 {1,S} {5,S} {8,S}
+3    Cd u0 {4,D} {6,S} {9,S}
+4    Cd u0 {1,S} {3,D}
+5    Cd u0 {2,S} {6,D}
+6    Cd u0 {3,S} {5,D}
+7    C  u0 {1,S} {10,S}
+8    H  u0 {2,S}
+9    C  u0 {3,S}
+10   C  u0 {7,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2042,
+    index = 402,
     label = "Aromatic_pi_S_(CH3_C2H5_Para)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {3,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S}
+1    Cs u0 {2,S} {5,S} {7,S}
+2  * Cs u1 {1,S} {4,S} {8,S}
+3    Cd u0 {4,D} {6,S} {9,S}
+4    Cd u0 {2,S} {3,D}
+5    Cd u0 {1,S} {6,D}
+6    Cd u0 {3,S} {5,D}
+7    C  u0 {1,S} {10,S}
+8    H  u0 {2,S}
+9    C  u0 {3,S}
+10   C  u0 {7,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2043,
+    index = 403,
     label = "Aromatic_pi_T_(CH3_C2H5_Para)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cd u0 {1,S} {5,D} {8,S}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {7,S}
-7   Cd u0 {6,S} {2,D}
-8   C u0 {4,S} {9,S}
-9   C u0 {8,S}
+1   Cd u0 {2,S} {3,D} {7,S}
+2 * Cs u1 {1,S} {4,S} {8,S}
+3   Cd u0 {1,D} {5,S}
+4   Cd u0 {2,S} {6,D}
+5   Cs u0 {3,S} {6,S}
+6   Cd u0 {4,D} {5,S}
+7   C  u0 {1,S} {9,S}
+8   C  u0 {2,S}
+9   C  u0 {7,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2044,
+    index = 404,
     label = "Aromatic_pi_S_(CH3_C2H5_Sub)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {6,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S}
+1    Cs u0 {2,S} {3,S} {5,S} {8,S}
+2  * Cs u1 {1,S} {4,S} {9,S}
+3    Cd u0 {1,S} {6,D}
+4    Cd u0 {2,S} {7,D}
+5    C  u0 {1,S} {10,S}
+6    Cd u0 {3,D} {7,S}
+7    Cd u0 {4,D} {6,S}
+8    C  u0 {1,S}
+9    H  u0 {2,S}
+10   C  u0 {5,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2045,
+    index = 405,
     label = "Aromatic_pi_S_(CH3_C2H5_Sub)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {4,S}
-9   C u0 {4,S} {10,S}
-10  C u0 {9,S}
+1    Cs u0 {3,S} {4,S} {7,S} {8,S}
+2  * Cs u1 {5,S} {6,S} {9,S}
+3    Cd u0 {1,S} {5,D}
+4    Cd u0 {1,S} {6,D}
+5    Cd u0 {2,S} {3,D}
+6    Cd u0 {2,S} {4,D}
+7    C  u0 {1,S} {10,S}
+8    C  u0 {1,S}
+9    H  u0 {2,S}
+10   C  u0 {7,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
 """,
 )
 
 entry(
-    index = 2046,
+    index = 406,
     label = "Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S} {8,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {5,S}
-9   C u0 {6,S} {10,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
+1    Cs u0 {2,S} {3,S} {5,S}
+2  * Cs u1 {1,S} {6,S} {14,S}
+3    Cd u0 {1,S} {7,D} {15,S}
+4    Cb u0 {5,S} {8,B} {9,B}
+5    C  u0 {1,S} {4,S}
+6    Cd u0 {2,S} {10,D}
+7    Cd u0 {3,D} {10,S}
+8    Cb u0 {4,B} {11,B}
+9    Cb u0 {4,B} {12,B}
+10   Cd u0 {6,D} {7,S}
+11   Cb u0 {8,B} {13,B}
+12   Cb u0 {9,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   H  u0 {2,S}
+15   C  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.831072,-0.828879,-1.898878,-2.143234,-2.473595,-2.805725,-3.594795],'cal/(mol*K)','+|-',[0.208059,0.208059,0.208059,0.208059,0.208059,0.208059,0.208059]),
-        H298 = (74.133127,'kcal/mol','+|-',0.742606),
+        Cpdata = ([0.831072,-0.828879,-1.89888,-2.14323,-2.47359,-2.80572,-3.59479],'cal/(mol*K)','+|-',[0.208059,0.208059,0.208059,0.208059,0.208059,0.208059,0.208059]),
+        H298 = (74.1331,'kcal/mol','+|-',0.742606),
         S298 = (-0.854817,'cal/(mol*K)','+|-',0.322012),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
 http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
 
 Model Species used include:
-
 """,
 )
 
 entry(
-    index = 2047,
+    index = 407,
     label = "Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {3,S}
-9   C u0 {4,S} {10,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
+1    Cs u0 {2,S} {5,S} {7,S}
+2    Cd u0 {1,S} {6,D} {14,S}
+3    Cb u0 {5,S} {9,B} {10,B}
+4  * Cs u1 {6,S} {8,S} {15,S}
+5    C  u0 {1,S} {3,S}
+6    Cd u0 {2,D} {4,S}
+7    Cd u0 {1,S} {8,D}
+8    Cd u0 {4,S} {7,D}
+9    Cb u0 {3,B} {11,B}
+10   Cb u0 {3,B} {12,B}
+11   Cb u0 {9,B} {13,B}
+12   Cb u0 {10,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {2,S}
+15   H  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2048,
+    index = 408,
     label = "Aromatic_pi_T_(CH3_Benzyl_Ortho)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cs u0 {1,S} {5,S} {8,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {7,S}
-7   Cd u0 {6,S} {2,D}
-8   C u0 {4,S} {9,S}
-9   Cb u0 {8,S} {10,B} {14,B}
-10  Cb u0 {9,B} {11,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {9,B}
+1    Cs u0 {3,S} {4,S} {5,S}
+2    Cb u0 {4,S} {7,B} {8,B}
+3  * Cs u1 {1,S} {6,S} {14,S}
+4    C  u0 {1,S} {2,S}
+5    Cd u0 {1,S} {9,D}
+6    Cd u0 {3,S} {10,D}
+7    Cb u0 {2,B} {11,B}
+8    Cb u0 {2,B} {12,B}
+9    Cd u0 {5,D} {10,S}
+10   Cd u0 {6,D} {9,S}
+11   Cb u0 {7,B} {13,B}
+12   Cb u0 {8,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2049,
+    index = 409,
     label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_1",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D} {8,S}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {2,S}
-9   C u0 {6,S} {10,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
+1    Cs u0 {2,S} {5,S} {6,S}
+2  * Cs u1 {1,S} {4,S} {14,S}
+3    Cb u0 {5,S} {8,B} {9,B}
+4    Cd u0 {2,S} {7,D} {15,S}
+5    C  u0 {1,S} {3,S}
+6    Cd u0 {1,S} {10,D}
+7    Cd u0 {4,D} {10,S}
+8    Cb u0 {3,B} {11,B}
+9    Cb u0 {3,B} {12,B}
+10   Cd u0 {6,D} {7,S}
+11   Cb u0 {8,B} {13,B}
+12   Cb u0 {9,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   H  u0 {2,S}
+15   C  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2050,
+    index = 410,
     label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D} {8,S}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {2,S}
-9   C u0 {4,S} {10,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
+1    Cs u0 {5,S} {6,S} {7,S}
+2    Cb u0 {6,S} {9,B} {10,B}
+3    Cd u0 {4,S} {5,D} {15,S}
+4  * Cs u1 {3,S} {8,S} {14,S}
+5    Cd u0 {1,S} {3,D}
+6    C  u0 {1,S} {2,S}
+7    Cd u0 {1,S} {8,D}
+8    Cd u0 {4,S} {7,D}
+9    Cb u0 {2,B} {11,B}
+10   Cb u0 {2,B} {12,B}
+11   Cb u0 {9,B} {13,B}
+12   Cb u0 {10,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   H  u0 {4,S}
+15   C  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2051,
+    index = 411,
     label = "Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_2",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D} {8,S}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {4,S}
-9   C u0 {6,S} {10,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
+1    Cs u0 {3,S} {5,S} {6,S}
+2    Cb u0 {5,S} {9,B} {10,B}
+3  * Cs u1 {1,S} {7,S} {14,S}
+4    Cd u0 {6,D} {8,S} {15,S}
+5    C  u0 {1,S} {2,S}
+6    Cd u0 {1,S} {4,D}
+7    Cd u0 {3,S} {8,D}
+8    Cd u0 {4,S} {7,D}
+9    Cb u0 {2,B} {11,B}
+10   Cb u0 {2,B} {12,B}
+11   Cb u0 {9,B} {13,B}
+12   Cb u0 {10,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   H  u0 {3,S}
+15   C  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2052,
+    index = 412,
     label = "Aromatic_pi_S_(CH3_Benzyl_Para)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {3,S}
-9   C u0 {6,S} {10,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
+1    Cs u0 {2,S} {5,S} {7,S}
+2  * Cs u1 {1,S} {6,S} {14,S}
+3    Cb u0 {5,S} {9,B} {10,B}
+4    Cd u0 {6,D} {8,S} {15,S}
+5    C  u0 {1,S} {3,S}
+6    Cd u0 {2,S} {4,D}
+7    Cd u0 {1,S} {8,D}
+8    Cd u0 {4,S} {7,D}
+9    Cb u0 {3,B} {11,B}
+10   Cb u0 {3,B} {12,B}
+11   Cb u0 {9,B} {13,B}
+12   Cb u0 {10,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   H  u0 {2,S}
+15   C  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2053,
+    index = 413,
     label = "Aromatic_pi_T_(CH3_Benzyl_Para)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cd u0 {1,S} {5,D} {8,S}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {7,S}
-7   Cd u0 {6,S} {2,D}
-8   C u0 {4,S} {9,S}
-9   Cb u0 {8,S} {10,B} {14,B}
-10  Cb u0 {9,B} {11,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {9,B}
+1    Cd u0 {3,S} {4,S} {5,D}
+2    Cb u0 {4,S} {7,B} {8,B}
+3  * Cs u1 {1,S} {6,S} {14,S}
+4    C  u0 {1,S} {2,S}
+5    Cd u0 {1,D} {9,S}
+6    Cd u0 {3,S} {10,D}
+7    Cb u0 {2,B} {11,B}
+8    Cb u0 {2,B} {12,B}
+9    Cs u0 {5,S} {10,S}
+10   Cd u0 {6,D} {9,S}
+11   Cb u0 {7,B} {13,B}
+12   Cb u0 {8,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2054,
+    index = 414,
     label = "Aromatic_pi_S_(CH3_Benzyl_Sub)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {6,S}
-9   C u0 {6,S} {10,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
+1    Cs u0 {2,S} {4,S} {5,S} {14,S}
+2  * Cs u1 {1,S} {6,S} {15,S}
+3    Cb u0 {4,S} {7,B} {8,B}
+4    C  u0 {1,S} {3,S}
+5    Cd u0 {1,S} {9,D}
+6    Cd u0 {2,S} {10,D}
+7    Cb u0 {3,B} {11,B}
+8    Cb u0 {3,B} {12,B}
+9    Cd u0 {5,D} {10,S}
+10   Cd u0 {6,D} {9,S}
+11   Cb u0 {7,B} {13,B}
+12   Cb u0 {8,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {1,S}
+15   H  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2055,
+    index = 415,
     label = "Aromatic_pi_S_(CH3_Benzyl_Sub)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {4,S}
-9   C u0 {4,S} {10,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
+1    Cs u0 {4,S} {5,S} {6,S} {14,S}
+2    Cb u0 {4,S} {9,B} {10,B}
+3  * Cs u1 {7,S} {8,S} {15,S}
+4    C  u0 {1,S} {2,S}
+5    Cd u0 {1,S} {7,D}
+6    Cd u0 {1,S} {8,D}
+7    Cd u0 {3,S} {5,D}
+8    Cd u0 {3,S} {6,D}
+9    Cb u0 {2,B} {11,B}
+10   Cb u0 {2,B} {12,B}
+11   Cb u0 {9,B} {13,B}
+12   Cb u0 {10,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {1,S}
+15   H  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2056,
+    index = 416,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S} {8,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {5,S}
-9   Cs u0 {6,S} {10,S} {16,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
-16  C u0 {9,S}
+1    Cs u0 {2,S} {4,S} {5,S}
+2    Cs u0 {1,S} {3,S} {14,S}
+3    Cb u0 {2,S} {6,B} {7,B}
+4  * Cs u1 {1,S} {8,S} {15,S}
+5    Cd u0 {1,S} {9,D} {16,S}
+6    Cb u0 {3,B} {11,B}
+7    Cb u0 {3,B} {12,B}
+8    Cd u0 {4,S} {10,D}
+9    Cd u0 {5,D} {10,S}
+10   Cd u0 {8,D} {9,S}
+11   Cb u0 {6,B} {13,B}
+12   Cb u0 {7,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {2,S}
+15   H  u0 {4,S}
+16   C  u0 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.677181,-0.360591,-1.618359,-2.065862,-2.453129,-2.747906,-3.506577],'cal/(mol*K)','+|-',[0.245046,0.245046,0.245046,0.245046,0.245046,0.245046,0.245046]),
-        H298 = (74.329439,'kcal/mol','+|-',0.850906),
-        S298 = (-3.587842,'cal/(mol*K)','+|-',0.338262),
+        Cpdata = ([1.67718,-0.360591,-1.61836,-2.06586,-2.45313,-2.74791,-3.50658],'cal/(mol*K)','+|-',[0.245046,0.245046,0.245046,0.245046,0.245046,0.245046,0.245046]),
+        H298 = (74.3294,'kcal/mol','+|-',0.850906),
+        S298 = (-3.58784,'cal/(mol*K)','+|-',0.338262),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
 http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
 
 Model Species used include:
-
 """,
 )
 
 entry(
-    index = 2057,
+    index = 417,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {3,S}
-9   Cs u0 {4,S} {10,S} {16,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
-16  C u0 {9,S}
+1    Cs u0 {2,S} {4,S} {7,S}
+2    Cs u0 {1,S} {3,S} {14,S}
+3    Cb u0 {2,S} {8,B} {9,B}
+4    Cd u0 {1,S} {6,D} {15,S}
+5  * Cs u1 {6,S} {10,S} {16,S}
+6    Cd u0 {4,D} {5,S}
+7    Cd u0 {1,S} {10,D}
+8    Cb u0 {3,B} {11,B}
+9    Cb u0 {3,B} {12,B}
+10   Cd u0 {5,S} {7,D}
+11   Cb u0 {8,B} {13,B}
+12   Cb u0 {9,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {2,S}
+15   C  u0 {4,S}
+16   H  u0 {5,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2058,
+    index = 418,
     label = "Aromatic_pi_T_(CH3_EBenzyl_Ortho)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cs u0 {1,S} {5,S} {8,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {7,S}
-7   Cd u0 {6,S} {2,D}
-8   Cs u0 {4,S} {9,S} {15,S}
-9   Cb u0 {8,S} {10,B} {14,B}
-10  Cb u0 {9,B} {11,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {9,B}
-15  C u0 {8,S}
+1    Cs u0 {2,S} {4,S} {5,S}
+2    Cs u0 {1,S} {3,S} {14,S}
+3    Cb u0 {2,S} {6,B} {7,B}
+4  * Cs u1 {1,S} {8,S} {15,S}
+5    Cd u0 {1,S} {9,D}
+6    Cb u0 {3,B} {11,B}
+7    Cb u0 {3,B} {12,B}
+8    Cd u0 {4,S} {10,D}
+9    Cd u0 {5,D} {10,S}
+10   Cd u0 {8,D} {9,S}
+11   Cb u0 {6,B} {13,B}
+12   Cb u0 {7,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {2,S}
+15   C  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2059,
+    index = 419,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_1",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D} {8,S}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {2,S}
-9   Cs u0 {6,S} {10,S} {16,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
-16  C u0 {9,S}
+1    Cs u0 {2,S} {3,S} {6,S}
+2    Cs u0 {1,S} {4,S} {15,S}
+3  * Cs u1 {1,S} {5,S} {14,S}
+4    Cb u0 {2,S} {7,B} {8,B}
+5    Cd u0 {3,S} {9,D} {16,S}
+6    Cd u0 {1,S} {10,D}
+7    Cb u0 {4,B} {11,B}
+8    Cb u0 {4,B} {12,B}
+9    Cd u0 {5,D} {10,S}
+10   Cd u0 {6,D} {9,S}
+11   Cb u0 {7,B} {13,B}
+12   Cb u0 {8,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   H  u0 {3,S}
+15   C  u0 {2,S}
+16   C  u0 {5,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2060,
+    index = 420,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D} {8,S}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {2,S}
-9   Cs u0 {4,S} {10,S} {16,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
-16  C  u0 {9,S}
+1    Cs u0 {2,S} {6,S} {7,S}
+2    Cs u0 {1,S} {3,S} {14,S}
+3    Cb u0 {2,S} {9,B} {10,B}
+4    Cd u0 {5,S} {6,D} {16,S}
+5  * Cs u1 {4,S} {8,S} {15,S}
+6    Cd u0 {1,S} {4,D}
+7    Cd u0 {1,S} {8,D}
+8    Cd u0 {5,S} {7,D}
+9    Cb u0 {3,B} {11,B}
+10   Cb u0 {3,B} {12,B}
+11   Cb u0 {9,B} {13,B}
+12   Cb u0 {10,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {2,S}
+15   H  u0 {5,S}
+16   C  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2061,
+    index = 421,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_2",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D} {8,S}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {4,S}
-9   Cs u0 {6,S} {10,S} {16,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
-16  C u0 {9,S}
+1    Cs u0 {2,S} {4,S} {6,S}
+2    Cs u0 {1,S} {3,S} {14,S}
+3    Cb u0 {2,S} {8,B} {9,B}
+4  * Cs u1 {1,S} {7,S} {15,S}
+5    Cd u0 {6,D} {10,S} {16,S}
+6    Cd u0 {1,S} {5,D}
+7    Cd u0 {4,S} {10,D}
+8    Cb u0 {3,B} {11,B}
+9    Cb u0 {3,B} {12,B}
+10   Cd u0 {5,S} {7,D}
+11   Cb u0 {8,B} {13,B}
+12   Cb u0 {9,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {2,S}
+15   H  u0 {4,S}
+16   C  u0 {5,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2062,
+    index = 422,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Para)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {3,S}
-9   Cs u0 {6,S} {10,S} {16,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
-16  C u0 {9,S}
+1    Cs u0 {2,S} {4,S} {7,S}
+2    Cs u0 {1,S} {3,S} {14,S}
+3    Cb u0 {2,S} {8,B} {9,B}
+4  * Cs u1 {1,S} {6,S} {15,S}
+5    Cd u0 {6,D} {10,S} {16,S}
+6    Cd u0 {4,S} {5,D}
+7    Cd u0 {1,S} {10,D}
+8    Cb u0 {3,B} {11,B}
+9    Cb u0 {3,B} {12,B}
+10   Cd u0 {5,S} {7,D}
+11   Cb u0 {8,B} {13,B}
+12   Cb u0 {9,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {2,S}
+15   H  u0 {4,S}
+16   C  u0 {5,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2063,
+    index = 423,
     label = "Aromatic_pi_T_(CH3_EBenzyl_Para)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {7,D}
-3   C u0 {1,S}
-4   Cd u0 {1,S} {5,D} {8,S}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {7,S}
-7   Cd u0 {6,S} {2,D}
-8   Cs u0 {4,S} {9,S} {15,S}
-9   Cb u0 {8,S} {10,B} {14,B}
-10  Cb u0 {9,B} {11,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {9,B}
-15  C u0 {8,S}
+1    Cd u0 {2,S} {4,S} {5,D}
+2    Cs u0 {1,S} {3,S} {14,S}
+3    Cb u0 {2,S} {6,B} {7,B}
+4  * Cs u1 {1,S} {8,S} {15,S}
+5    Cd u0 {1,D} {9,S}
+6    Cb u0 {3,B} {11,B}
+7    Cb u0 {3,B} {12,B}
+8    Cd u0 {4,S} {10,D}
+9    Cs u0 {5,S} {10,S}
+10   Cd u0 {8,D} {9,S}
+11   Cb u0 {6,B} {13,B}
+12   Cb u0 {7,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {2,S}
+15   C  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2064,
+    index = 424,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {6,S}
-9   Cs u0 {6,S} {10,S} {16,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
-16  C u0 {9,S}
+1    Cs u0 {2,S} {4,S} {5,S} {14,S}
+2    Cs u0 {1,S} {3,S} {15,S}
+3    Cb u0 {2,S} {7,B} {8,B}
+4  * Cs u1 {1,S} {6,S} {16,S}
+5    Cd u0 {1,S} {9,D}
+6    Cd u0 {4,S} {10,D}
+7    Cb u0 {3,B} {11,B}
+8    Cb u0 {3,B} {12,B}
+9    Cd u0 {5,D} {10,S}
+10   Cd u0 {6,D} {9,S}
+11   Cb u0 {7,B} {13,B}
+12   Cb u0 {8,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {1,S}
+15   C  u0 {2,S}
+16   H  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2065,
+    index = 425,
     label = "Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {4,S}
-9   Cs u0 {4,S} {10,S} {16,S}
-10  Cb u0 {9,S} {11,B} {15,B}
-11  Cb u0 {10,B} {12,B}
-12  Cb u0 {11,B} {13,B}
-13  Cb u0 {12,B} {14,B}
-14  Cb u0 {13,B} {15,B}
-15  Cb u0 {10,B} {14,B}
-16  C u0 {9,S}
+1    Cs u0 {2,S} {5,S} {6,S} {14,S}
+2    Cs u0 {1,S} {3,S} {15,S}
+3    Cb u0 {2,S} {9,B} {10,B}
+4  * Cs u1 {7,S} {8,S} {16,S}
+5    Cd u0 {1,S} {7,D}
+6    Cd u0 {1,S} {8,D}
+7    Cd u0 {4,S} {5,D}
+8    Cd u0 {4,S} {6,D}
+9    Cb u0 {3,B} {11,B}
+10   Cb u0 {3,B} {12,B}
+11   Cb u0 {9,B} {13,B}
+12   Cb u0 {10,B} {13,B}
+13   Cb u0 {11,B} {12,B}
+14   C  u0 {1,S}
+15   C  u0 {2,S}
+16   H  u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 """,
 )
 
 entry(
-    index = 2066,
+    index = 426,
     label = "Aromatic_pi_S_(fused5)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {3,S} {10,S}
-9   C u0 {4,S} {10,S}
-10  C u0 {9,S} {8,S}
+1    Cd u0 {2,S} {4,D} {6,S}
+2    Cs u0 {1,S} {5,S} {7,S}
+3  * Cs u1 {4,S} {8,S} {10,S}
+4    Cd u0 {1,D} {3,S}
+5    Cd u0 {2,S} {8,D}
+6    C  u0 {1,S} {9,S}
+7    C  u0 {2,S} {9,S}
+8    Cd u0 {3,S} {5,D}
+9    C  u0 {6,S} {7,S}
+10   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.748775,0.045256,-0.710099,-1.361654,-2.512352,-3.305985,-4.570903],'cal/(mol*K)','+|-',[0.098378,0.098378,0.098378,0.098378,0.098378,0.098378,0.098378]),
-        H298 = (74.482889,'kcal/mol','+|-',1.116279),
+        Cpdata = ([0.748775,0.045256,-0.710099,-1.36165,-2.51235,-3.30599,-4.5709],'cal/(mol*K)','+|-',[0.098378,0.098378,0.098378,0.098378,0.098378,0.098378,0.098378]),
+        H298 = (74.4829,'kcal/mol','+|-',1.11628),
         S298 = (0.780097,'cal/(mol*K)','+|-',0.163349),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10312,31 +10317,32 @@ CCCC1CCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2067,
+    index = 427,
     label = "Aromatic_pi_S_(fused6)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S} {8,S}
-4   Cs u0 {3,S} {5,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {3,S} {11,S}
-9   C u0 {4,S} {10,S}
-10  C u0 {9,S} {11,S}
-11  C u0 {10,S} {8,S}
+1    Cd u0 {2,S} {4,D} {6,S}
+2    Cs u0 {1,S} {5,S} {7,S}
+3  * Cs u1 {4,S} {8,S} {11,S}
+4    Cd u0 {1,D} {3,S}
+5    Cd u0 {2,S} {8,D}
+6    C  u0 {1,S} {10,S}
+7    C  u0 {2,S} {9,S}
+8    Cd u0 {3,S} {5,D}
+9    C  u0 {7,S} {10,S}
+10   C  u0 {6,S} {9,S}
+11   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.012840,-0.508381,-1.059941,-1.550087,-2.565312,-3.360037,-4.585983],'cal/(mol*K)','+|-',[0.129371,0.129371,0.129371,0.129371,0.129371,0.129371,0.129371]),
-        H298 = (73.734730,'kcal/mol','+|-',1.665621),
+        Cpdata = ([0.01284,-0.508381,-1.05994,-1.55009,-2.56531,-3.36004,-4.58598],'cal/(mol*K)','+|-',[0.129371,0.129371,0.129371,0.129371,0.129371,0.129371,0.129371]),
+        H298 = (73.7347,'kcal/mol','+|-',1.66562),
         S298 = (0.399676,'cal/(mol*K)','+|-',0.285184),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10350,25 +10356,26 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2068,
+    index = 428,
     label = "Aromatic_pi_S_(fused5)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S} {8,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {5,S} {10,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S} {8,S}
+1    Cs u0 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D} {6,S}
+3  * Cs u1 {1,S} {7,S} {10,S}
+4    C  u0 {1,S} {9,S}
+5    Cd u0 {2,D} {8,S}
+6    C  u0 {2,S} {9,S}
+7    Cd u0 {3,S} {8,D}
+8    Cd u0 {5,S} {7,D}
+9    C  u0 {4,S} {6,S}
+10   H  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(fused5)_1_4',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10386,26 +10393,27 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2069,
+    index = 429,
     label = "Aromatic_pi_S_(fused6)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S} {8,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {5,S} {11,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S} {11,S}
-11  C u0 {10,S} {8,S}
+1    Cs u0 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D} {6,S}
+3  * Cs u1 {1,S} {7,S} {11,S}
+4    C  u0 {1,S} {9,S}
+5    Cd u0 {2,D} {8,S}
+6    C  u0 {2,S} {10,S}
+7    Cd u0 {3,S} {8,D}
+8    Cd u0 {5,S} {7,D}
+9    C  u0 {4,S} {10,S}
+10   C  u0 {6,S} {9,S}
+11   H  u0 {3,S}
 """,
     thermo = u'Aromatic_pi_S_(fused5)_1_4',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10423,24 +10431,25 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2070,
+    index = 430,
     label = "Aromatic_pi_T_(fused5)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S}
-7   C u0 {1,S} {9,S}
-8   C u0 {6,S} {9,S}
-9   C u0 {8,S} {7,S}
+1 * Cs u1 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {4,S} {6,S}
+3   Cd u0 {1,S} {8,D}
+4   Cd u0 {2,S} {9,D}
+5   C  u0 {1,S} {7,S}
+6   C  u0 {2,S} {7,S}
+7   C  u0 {5,S} {6,S}
+8   Cd u0 {3,D} {9,S}
+9   Cd u0 {4,D} {8,S}
 """,
     thermo = u'Aromatic_pi_S_(fused5)_1_4',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10458,25 +10467,26 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2071,
+    index = 431,
     label = "Aromatic_pi_T_(fused6)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S}
-7   C u0 {1,S} {10,S}
-8   C u0 {6,S} {9,S}
-9   C u0 {8,S} {10,S}
-10  C u0 {9,S} {7,S}
+1  * Cs u1 {2,S} {3,S} {5,S}
+2    Cs u0 {1,S} {4,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {2,S} {8,D}
+5    C  u0 {1,S} {10,S}
+6    C  u0 {2,S} {9,S}
+7    Cd u0 {3,D} {8,S}
+8    Cd u0 {4,D} {7,S}
+9    C  u0 {6,S} {10,S}
+10   C  u0 {5,S} {9,S}
 """,
     thermo = u'Aromatic_pi_S_(fused5)_1_4',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10494,29 +10504,30 @@ CCC1CCCC2=CC=C[CH]C21
 )
 
 entry(
-    index = 2072,
+    index = 432,
     label = "Aromatic_pi_S_(s1_3_6_diene_1_4)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {6,S} {9,S}
-9   C u0 {6,S} {8,S}
+1   Cs u0 {2,S} {3,S} {4,S} {5,S}
+2 * Cs u1 {1,S} {6,S} {9,S}
+3   C  u0 {1,S} {4,S}
+4   C  u0 {1,S} {3,S}
+5   Cd u0 {1,S} {7,D}
+6   Cd u0 {2,S} {8,D}
+7   Cd u0 {5,D} {8,S}
+8   Cd u0 {6,D} {7,S}
+9   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.481918,0.127981,-0.882314,-1.471559,-2.216403,-3.231953,-4.401823],'cal/(mol*K)','+|-',[0.704900,0.704900,0.704900,0.704900,0.704900,0.704900,0.704900]),
-        H298 = (70.660017,'kcal/mol','+|-',4.282018),
-        S298 = (-1.779364,'cal/(mol*K)','+|-',1.914852),
+        Cpdata = ([1.48192,0.127981,-0.882314,-1.47156,-2.2164,-3.23195,-4.40182],'cal/(mol*K)','+|-',[0.7049,0.7049,0.7049,0.7049,0.7049,0.7049,0.7049]),
+        H298 = (70.66,'kcal/mol','+|-',4.28202),
+        S298 = (-1.77936,'cal/(mol*K)','+|-',1.91485),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10528,53 +10539,55 @@ CCCCC1CC12C=C[CH]C=C2
 )
 
 entry(
-    index = 2073,
+    index = 433,
     label = "Aromatic_pi_S_(s1_3_6_diene_1_4)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {4,S} {9,S}
-9   C u0 {4,S} {8,S}
+1   Cs u0 {3,S} {4,S} {5,S} {6,S}
+2 * Cs u1 {7,S} {8,S} {9,S}
+3   C  u0 {1,S} {4,S}
+4   C  u0 {1,S} {3,S}
+5   Cd u0 {1,S} {7,D}
+6   Cd u0 {1,S} {8,D}
+7   Cd u0 {2,S} {5,D}
+8   Cd u0 {2,S} {6,D}
+9   H  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(s1_3_6_diene_1_4)_1_3
 """,
 )
 
 entry(
-    index = 2074,
+    index = 434,
     label = "Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {6,S} {10,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S} {8,S}
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2  * Cs u1 {1,S} {6,S} {10,S}
+3    Cd u0 {1,S} {8,D}
+4    C  u0 {1,S} {7,S}
+5    C  u0 {1,S} {7,S}
+6    Cd u0 {2,S} {9,D}
+7    C  u0 {4,S} {5,S}
+8    Cd u0 {3,D} {9,S}
+9    Cd u0 {6,D} {8,S}
+10   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.850106,2.023060,1.417340,0.955199,-0.252841,-1.611607,-3.214279],'cal/(mol*K)','+|-',[0.733897,0.733897,0.733897,0.733897,0.733897,0.733897,0.733897]),
-        H298 = (72.495609,'kcal/mol','+|-',4.455656),
-        S298 = (2.720001,'cal/(mol*K)','+|-',2.010984),
+        Cpdata = ([2.85011,2.02306,1.41734,0.955199,-0.252841,-1.61161,-3.21428],'cal/(mol*K)','+|-',[0.733897,0.733897,0.733897,0.733897,0.733897,0.733897,0.733897]),
+        H298 = (72.4956,'kcal/mol','+|-',4.45566),
+        S298 = (2.72,'cal/(mol*K)','+|-',2.01098),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10586,55 +10599,57 @@ CCCC1CCC12C=C[CH]C=C2
 )
 
 entry(
-    index = 2075,
+    index = 435,
     label = "Aromatic_pi_S_(s1_4_6_diene_1_4)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {4,S} {10,S}
-9   C u0 {4,S} {10,S}
-10  C u0 {9,S} {8,S}
+1    Cs u0 {3,S} {4,S} {5,S} {6,S}
+2  * Cs u1 {7,S} {8,S} {10,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    C  u0 {1,S} {9,S}
+6    C  u0 {1,S} {9,S}
+7    Cd u0 {2,S} {3,D}
+8    Cd u0 {2,S} {4,D}
+9    C  u0 {5,S} {6,S}
+10   H  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(s1_4_6_diene_1_4)_1_3
 """,
 )
 
 entry(
-    index = 2076,
+    index = 436,
     label = "Aromatic_pi_S_(s1_5_6_diene_1_4)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {6,S} {11,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S} {11,S}
-11  C u0 {10,S} {8,S}
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2  * Cs u1 {1,S} {6,S} {11,S}
+3    Cd u0 {1,S} {7,D}
+4    C  u0 {1,S} {9,S}
+5    C  u0 {1,S} {8,S}
+6    Cd u0 {2,S} {10,D}
+7    Cd u0 {3,D} {10,S}
+8    C  u0 {5,S} {9,S}
+9    C  u0 {4,S} {8,S}
+10   Cd u0 {6,D} {7,S}
+11   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.344733,-0.124290,-0.432103,-0.924571,-2.301224,-3.166951,-4.315021],'cal/(mol*K)','+|-',[0.781339,0.781339,0.781339,0.781339,0.781339,0.781339,0.781339]),
-        H298 = (73.495960,'kcal/mol','+|-',4.739542),
-        S298 = (-3.286795,'cal/(mol*K)','+|-',2.175866),
+        Cpdata = ([0.344733,-0.12429,-0.432103,-0.924571,-2.30122,-3.16695,-4.31502],'cal/(mol*K)','+|-',[0.781339,0.781339,0.781339,0.781339,0.781339,0.781339,0.781339]),
+        H298 = (73.496,'kcal/mol','+|-',4.73954),
+        S298 = (-3.2868,'cal/(mol*K)','+|-',2.17587),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10646,57 +10661,59 @@ CCC1CCCC12C=C[CH]C=C2
 )
 
 entry(
-    index = 2077,
+    index = 437,
     label = "Aromatic_pi_S_(s1_5_6_diene_1_4)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {4,S} {11,S}
-9   C u0 {4,S} {10,S}
-10  C u0 {9,S} {11,S}
-11  C u0 {10,S} {8,S}
+1    Cs u0 {3,S} {4,S} {5,S} {6,S}
+2  * Cs u1 {7,S} {8,S} {11,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    C  u0 {1,S} {10,S}
+6    C  u0 {1,S} {9,S}
+7    Cd u0 {2,S} {3,D}
+8    Cd u0 {2,S} {4,D}
+9    C  u0 {6,S} {10,S}
+10   C  u0 {5,S} {9,S}
+11   H  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(s1_5_6_diene_1_4)_1_3
 """,
 )
 
 entry(
-    index = 2078,
+    index = 438,
     label = "Aromatic_pi_S_(s1_6_6_diene_1_4)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {6,S} {12,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S} {11,S}
-11  C u0 {10,S} {12,S}
-12  C u0 {11,S} {8,S}
+1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+2  * Cs u1 {1,S} {6,S} {12,S}
+3    Cd u0 {1,S} {7,D}
+4    C  u0 {1,S} {9,S}
+5    C  u0 {1,S} {8,S}
+6    Cd u0 {2,S} {10,D}
+7    Cd u0 {3,D} {10,S}
+8    C  u0 {5,S} {11,S}
+9    C  u0 {4,S} {11,S}
+10   Cd u0 {6,D} {7,S}
+11   C  u0 {8,S} {9,S}
+12   H  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.226242,-0.404788,-1.081768,-1.652370,-2.569590,-3.273215,-4.647702],'cal/(mol*K)','+|-',[0.872202,0.872202,0.872202,0.872202,0.872202,0.872202,0.872202]),
-        H298 = (74.009743,'kcal/mol','+|-',5.285774),
-        S298 = (-1.205848,'cal/(mol*K)','+|-',2.522100),
+        Cpdata = ([0.226242,-0.404788,-1.08177,-1.65237,-2.56959,-3.27321,-4.6477],'cal/(mol*K)','+|-',[0.872202,0.872202,0.872202,0.872202,0.872202,0.872202,0.872202]),
+        H298 = (74.0097,'kcal/mol','+|-',5.28577),
+        S298 = (-1.20585,'cal/(mol*K)','+|-',2.5221),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 03/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10708,54 +10725,56 @@ CC1CCCCC12C=C[CH]C=C2
 )
 
 entry(
-    index = 2079,
+    index = 439,
     label = "Aromatic_pi_S_(s1_6_6_diene_1_4)_1_4",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S} {9,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   H u0 {1,S}
-8   C u0 {4,S} {12,S}
-9   C u0 {4,S} {10,S}
-10  C u0 {9,S} {11,S}
-11  C u0 {10,S} {12,S}
-12  C u0 {11,S} {8,S}
+1    Cs u0 {3,S} {4,S} {5,S} {6,S}
+2  * Cs u1 {7,S} {8,S} {12,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    C  u0 {1,S} {10,S}
+6    C  u0 {1,S} {9,S}
+7    Cd u0 {2,S} {3,D}
+8    Cd u0 {2,S} {4,D}
+9    C  u0 {6,S} {11,S}
+10   C  u0 {5,S} {11,S}
+11   C  u0 {9,S} {10,S}
+12   H  u0 {2,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 See Aromatic_pi_S_(s1_6_6_diene_1_4)_1_3
 """,
 )
 
 entry(
-    index = 2080,
+    index = 440,
     label = "Benzyl_S_Fused7",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cb u0 {1,S} {5,B}
-3   C  u0 {1,S} {8,[S,D,T,B]}
-4   H  u0 {1,S}
-5   Cb u0 {2,B} {6,S}
-6   C  u0 {5,S} {7,[S,D,T,B]}
-7   C  u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
-8   C  u0 {7,[S,D,T,B]} {3,[S,D,T,B]}
+1 * Cs u1 {2,S} {3,S} {8,S}
+2   Cb u0 {1,S} {4,B}
+3   C  u0 {1,S} {5,[S,D,T,B]}
+4   Cb u0 {2,B} {6,S}
+5   C  u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+6   C  u0 {4,S} {7,[S,D,T,B]}
+7   C  u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+8   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.420000,-1.640000,-1.860000,-2.180000,-2.740000,-3.340000,-4.500000],'cal/(mol*K)','+|-',[1.479200,1.479200,1.479200,1.479200,1.479200,1.479200,1.479200]),
-        H298 = (92.100000,'kcal/mol','+|-',5.457800),
-        S298 = (4.720000,'cal/(mol*K)','+|-',4.205000),
+        Cpdata = ([-1.42,-1.64,-1.86,-2.18,-2.74,-3.34,-4.5],'cal/(mol*K)','+|-',[1.4792,1.4792,1.4792,1.4792,1.4792,1.4792,1.4792]),
+        H298 = (92.1,'kcal/mol','+|-',5.4578),
+        S298 = (4.72,'cal/(mol*K)','+|-',4.205),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10767,32 +10786,33 @@ C1=CC=C2CCCC[CH]C2=C1
 )
 
 entry(
-    index = 2082,
+    index = 441,
     label = "Aromatic_pi_S_(fused7)_1_3",
-    group =
+    group = 
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S} {8,S}
-6   Cs u0 {5,S} {1,S} {9,S}
-7   H u0 {1,S}
-8   C u0 {5,S} {12,S}
-9   C u0 {6,S} {10,S}
-10  C u0 {9,S} {11,S}
-11  C u0 {10,S} {12,S}
-12  C u0 {11,S} {8,S}
+1    Cs u0 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D} {6,S}
+3  * Cs u1 {1,S} {7,S} {12,S}
+4    C  u0 {1,S} {9,S}
+5    Cd u0 {2,D} {8,S}
+6    C  u0 {2,S} {10,S}
+7    Cd u0 {3,S} {8,D}
+8    Cd u0 {5,S} {7,D}
+9    C  u0 {4,S} {11,S}
+10   C  u0 {6,S} {11,S}
+11   C  u0 {9,S} {10,S}
+12   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.084287,-0.439484,-1.009838,-1.616804,-2.484153,-3.292077,-4.579234],'cal/(mol*K)','+|-',[1.080010,1.080010,1.080010,1.080010,1.080010,1.080010,1.080010]),
-        H298 = (76.425234,'kcal/mol','+|-',4.190161),
-        S298 = (0.527688,'cal/(mol*K)','+|-',2.029750),
+        Cpdata = ([0.084287,-0.439484,-1.00984,-1.6168,-2.48415,-3.29208,-4.57923],'cal/(mol*K)','+|-',[1.08001,1.08001,1.08001,1.08001,1.08001,1.08001,1.08001]),
+        H298 = (76.4252,'kcal/mol','+|-',4.19016),
+        S298 = (0.527688,'cal/(mol*K)','+|-',2.02975),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10805,28 +10825,29 @@ C1=CC=C2CCCCC(C)C2[CH]1
 )
 
 entry(
-    index = 2082,
+    index = 442,
     label = "CJ-Cd-Benzene7",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cs u0 {1,S} {8,S}
-4   H  u0 {1,S}
-5   Cd u0 {2,D} {6,S}
-6   Cb u0 {7,B} {5,S}
-7   Cb u0 {6,B} {8,S}
-8   Cs u0 {3,S} {7,S}
+1 * Cs u1 {2,S} {3,S} {8,S}
+2   Cd u0 {1,S} {4,D}
+3   Cs u0 {1,S} {5,S}
+4   Cd u0 {2,D} {6,S}
+5   Cs u0 {3,S} {7,S}
+6   Cb u0 {4,S} {7,B}
+7   Cb u0 {5,S} {6,B}
+8   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.300000,-0.500000,-1.000000,-1.500000,-2.500000,-3.300000,-4.500000],'cal/(mol*K)','+|-',[2.464200,2.464200,2.464200,2.464200,2.464200,2.464200,2.464200]),
-        H298 = (80.700000,'kcal/mol','+|-',7.325600),
-        S298 = (1.000000,'cal/(mol*K)','+|-',3.864200),
+        Cpdata = ([-0.3,-0.5,-1,-1.5,-2.5,-3.3,-4.5],'cal/(mol*K)','+|-',[2.4642,2.4642,2.4642,2.4642,2.4642,2.4642,2.4642]),
+        H298 = (80.7,'kcal/mol','+|-',7.3256),
+        S298 = (1,'cal/(mol*K)','+|-',3.8642),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
-    longDesc =
-u""""
+    longDesc = 
+u"""
+"
 Based on CBS-QB3 calculations and group values for radical groups already present in the database, 04/2019, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
@@ -10837,12 +10858,3843 @@ C1=CC=C2CC[CH]C=CC2=C1
 """,
 )
 
+entry(
+    index = 443,
+    label = "CsBr1sBr1sCO",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   Br1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.53509,-7.54452,-8.51388,-9.55877,-11.5097,-13.1278,-15.7196],'J/(mol*K)'),
+        H298 = (365.285,'kJ/mol'),
+        S298 = (-5.45098,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 444,
+    label = "CsBr1sCOCl1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 445,
+    label = "CsCOCl1sCl1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.91884,-8.59486,-9.55962,-10.3141,-11.8247,-13.0921,-15.624],'J/(mol*K)'),
+        H298 = (359.694,'kJ/mol'),
+        S298 = (4.91584,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 446,
+    label = "CsBr1sCOF1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   F1s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 447,
+    label = "CsCOCl1sF1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   F1s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 448,
+    label = "CsCOF1sF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S}
+3   F1s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.18036,-2.33146,-4.09302,-6.02403,-9.61477,-12.2331,-15.825],'J/(mol*K)'),
+        H298 = (390.874,'kJ/mol'),
+        S298 = (1.736,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 449,
+    label = "CsBr1sCOH",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   H    u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.03434,-3.47644,-4.95863,-6.29887,-8.85022,-11.2459,-15.7988],'J/(mol*K)'),
+        H298 = (378.212,'kJ/mol'),
+        S298 = (-8.51739,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 450,
+    label = "CsCOCl1sH",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   H    u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.47314,-2.01153,-3.50263,-5.01674,-7.95897,-10.6439,-15.2288],'J/(mol*K)'),
+        H298 = (369.245,'kJ/mol'),
+        S298 = (-11.1575,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 451,
+    label = "CsCOF1sH",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S}
+3   H   u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.31528,-5.06776,-6.50032,-8.416,-11.972,-14.1558,-17.4804],'J/(mol*K)'),
+        H298 = (377.141,'kJ/mol'),
+        S298 = (-5.33739,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 452,
+    label = "CsBr1sCOO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   O2s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.52366,-11.8759,-14.5685,-15.9288,-17.0048,-17.1445,-17.3793],'J/(mol*K)'),
+        H298 = (344.236,'kJ/mol'),
+        S298 = (0.837983,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 453,
+    label = "CsCOCl1sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   O2s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.14155,-13.2228,-15.4281,-15.9586,-16.1948,-16.0581,-15.398],'J/(mol*K)'),
+        H298 = (338.561,'kJ/mol'),
+        S298 = (0.45681,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 454,
+    label = "CsCOF1sO2s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S}
+3   O2s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.3682,-11.6019,-13.6034,-14.4981,-15.2144,-15.3368,-14.9873],'J/(mol*K)'),
+        H298 = (356.218,'kJ/mol'),
+        S298 = (1.87218,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 455,
+    label = "CsBr1sCOCO",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   CO   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 456,
+    label = "CsCOCOCl1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   CO   u0 {1,S}
+3   CO   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 457,
+    label = "CsCOCOF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CO  u0 {1,S}
+3   CO  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 458,
+    label = "CsBr1sCOCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   CO   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 459,
+    label = "CsCOCl1sCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   CO   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 460,
+    label = "CsCOCtF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S}
+3   CO  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 461,
+    label = "CsBr1sCOCd",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   CO   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 462,
+    label = "CsCOCdCl1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   CO   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 463,
+    label = "CsCOCdF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S}
+3   CO  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 464,
+    label = "CsBr1sCOCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   CO   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.54676,-8.24973,-9.55886,-10.7,-12.6673,-14.2677,-16.8372],'J/(mol*K)'),
+        H298 = (361.974,'kJ/mol'),
+        S298 = (3.09297,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 465,
+    label = "CsCOCl1sCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   CO   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.91959,-6.70827,-8.57741,-10.3623,-13.153,-14.9515,-17.4379],'J/(mol*K)'),
+        H298 = (360.663,'kJ/mol'),
+        S298 = (4.08751,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 466,
+    label = "CsCOCsF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   CO  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.64156,-7.20979,-8.9554,-10.6207,-13.2444,-15.048,-17.0724],'J/(mol*K)'),
+        H298 = (374.109,'kJ/mol'),
+        S298 = (0.504245,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 467,
+    label = "CsBr1sBr1sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   Br1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.61782,-7.84524,-11.6015,-14.436,-18.2475,-20.3921,-22.3346],'J/(mol*K)'),
+        H298 = (396.632,'kJ/mol'),
+        S298 = (12.9793,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 468,
+    label = "CsBr1sCl1sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 469,
+    label = "CsCl1sCl1sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.264229,-5.28261,-9.68332,-13.1121,-17.6017,-20.073,-22.3664],'J/(mol*K)'),
+        H298 = (397.027,'kJ/mol'),
+        S298 = (15.9788,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 470,
+    label = "CsBr1sF1sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   F1s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 471,
+    label = "CsCl1sF1sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   F1s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 472,
+    label = "CsF1sF1sO2s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   O2s u0 {1,S}
+3   F1s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.85792,-7.11953,-9.36265,-11.1924,-14.2048,-16.4926,-19.9039],'J/(mol*K)'),
+        H298 = (431.059,'kJ/mol'),
+        S298 = (8.91769,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 473,
+    label = "CsBr1sHO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   H    u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.62389,-0.504839,-4.36437,-7.46734,-12.1627,-15.4305,-20.242],'J/(mol*K)'),
+        H298 = (404.935,'kJ/mol'),
+        S298 = (3.71282,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 474,
+    label = "CsCl1sHO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   H    u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.29951,-1.46783,-5.21678,-8.19058,-12.713,-15.7342,-19.8346],'J/(mol*K)'),
+        H298 = (402.933,'kJ/mol'),
+        S298 = (5.3957,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 475,
+    label = "CsF1sHO2s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   O2s u0 {1,S}
+3   H   u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.841061,-3.62256,-6.3193,-8.74773,-12.6626,-15.4863,-19.5603],'J/(mol*K)'),
+        H298 = (417.029,'kJ/mol'),
+        S298 = (6.43249,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 476,
+    label = "CsBr1sO2sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   O2s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.646797,-4.54968,-8.67623,-11.3889,-15.5543,-18.4365,-21.9878],'J/(mol*K)'),
+        H298 = (396.766,'kJ/mol'),
+        S298 = (14.3353,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 477,
+    label = "CsCl1sO2sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O2s  u0 {1,S}
+3   O2s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.52354,-9.28392,-13.0519,-15.1791,-18.1337,-19.9069,-21.668],'J/(mol*K)'),
+        H298 = (402.23,'kJ/mol'),
+        S298 = (15.8811,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 478,
+    label = "CsF1sO2sO2s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   O2s u0 {1,S}
+3   O2s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.44577,-9.45593,-9.87563,-10.698,-12.817,-14.5306,-17.2755],'J/(mol*K)'),
+        H298 = (421.031,'kJ/mol'),
+        S298 = (8.79856,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 479,
+    label = "CsBr1sBr1sCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   Br1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.786213,-3.77256,-6.45932,-8.7687,-12.3913,-15.0609,-19],'J/(mol*K)'),
+        H298 = (353.68,'kJ/mol'),
+        S298 = (-1.894,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 480,
+    label = "CsBr1sCl1sCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 481,
+    label = "CsCl1sCl1sCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.357325,-3.2905,-5.8946,-8.23039,-12.0659,-14.8601,-18.9276],'J/(mol*K)'),
+        H298 = (349.417,'kJ/mol'),
+        S298 = (2.87047,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 482,
+    label = "CsBr1sCtF1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   F1s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 483,
+    label = "CsCl1sCtF1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   F1s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 484,
+    label = "CsCtF1sF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S}
+3   F1s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.22312,-0.147383,-3.20681,-5.83029,-10.0469,-13.1937,-17.954],'J/(mol*K)'),
+        H298 = (393.385,'kJ/mol'),
+        S298 = (1.07982,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 485,
+    label = "CsBr1sCtH",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   H    u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.590128,-1.92502,-4.54287,-6.89756,-10.8239,-13.8564,-18.5733],'J/(mol*K)'),
+        H298 = (364.908,'kJ/mol'),
+        S298 = (3.02417,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 486,
+    label = "CsCl1sCtH",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   H    u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.32401,-1.0459,-3.58602,-5.92634,-9.94439,-13.0604,-17.806],'J/(mol*K)'),
+        H298 = (360.9,'kJ/mol'),
+        S298 = (5.26899,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 487,
+    label = "CsCtF1sH",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S}
+3   H   u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.00314,-1.33299,-4.10501,-6.68006,-10.8649,-13.9999,-19.0894],'J/(mol*K)'),
+        H298 = (370.923,'kJ/mol'),
+        S298 = (0.188661,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 488,
+    label = "CsBr1sCtO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   O2s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 489,
+    label = "CsCl1sCtO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   O2s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 490,
+    label = "CsCtF1sO2s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S}
+3   O2s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 491,
+    label = "CsBr1sCtCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   Ct   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 492,
+    label = "CsCl1sCtCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Ct   u0 {1,S}
+3   Ct   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 493,
+    label = "CsCtCtF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Ct  u0 {1,S}
+3   Ct  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 494,
+    label = "CsBr1sBr1sCd",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   Br1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.50991,-7.85254,-8.78093,-9.68248,-11.478,-13.1188,-16.3083],'J/(mol*K)'),
+        H298 = (353.858,'kJ/mol'),
+        S298 = (-1.75895,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 495,
+    label = "CsBr1sCdCl1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 496,
+    label = "CsCdCl1sCl1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.57785,-6.3448,-7.8971,-9.2971,-11.6961,-13.5697,-16.7592],'J/(mol*K)'),
+        H298 = (352.324,'kJ/mol'),
+        S298 = (-3.33368,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 497,
+    label = "CsBr1sCdF1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   F1s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 498,
+    label = "CsCdCl1sF1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   F1s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 499,
+    label = "CsCdF1sF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S}
+3   F1s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.89951,-3.26462,-4.9419,-6.59386,-9.58996,-11.9408,-15.4608],'J/(mol*K)'),
+        H298 = (388.58,'kJ/mol'),
+        S298 = (-2.23686,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 500,
+    label = "CsBr1sCdH",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   H    u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.2616,-2.40646,-3.91544,-5.49604,-8.3159,-10.6469,-14.7973],'J/(mol*K)'),
+        H298 = (357.383,'kJ/mol'),
+        S298 = (-5.47087,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 501,
+    label = "CsCdCl1sH",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   H    u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.14246,-2.01058,-3.44175,-5.01132,-7.83188,-10.1815,-14.4905],'J/(mol*K)'),
+        H298 = (351.981,'kJ/mol'),
+        S298 = (-5.04776,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 502,
+    label = "CsCdF1sH",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S}
+3   H   u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.85783,-3.26431,-4.57289,-6.18785,-9.15562,-11.4855,-15.2269],'J/(mol*K)'),
+        H298 = (361.223,'kJ/mol'),
+        S298 = (-3.56095,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 503,
+    label = "CsBr1sCdO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   O2s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 504,
+    label = "CsCdCl1sO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   O2s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 505,
+    label = "CsCdF1sO2s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S}
+3   O2s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 506,
+    label = "CsBr1sCdCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   Ct   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 507,
+    label = "CsCdCl1sCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   Ct   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 508,
+    label = "CsCdCtF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S}
+3   Ct  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 509,
+    label = "CsBr1sCdCd",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   Cd   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 510,
+    label = "CsCdCdCl1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cd   u0 {1,S}
+3   Cd   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 511,
+    label = "CsCdCdF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cd  u0 {1,S}
+3   Cd  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 512,
+    label = "CsBr1sBr1sCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Br1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.26303,-8.17649,-11.2181,-13.6238,-17.0107,-19.1316,-21.6763],'J/(mol*K)'),
+        H298 = (392.355,'kJ/mol'),
+        S298 = (12.3464,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 513,
+    label = "CsBr1sCl1sCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 514,
+    label = "CsCl1sCl1sCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.44034,-6.28103,-10.1943,-13.356,-17.5819,-19.9096,-21.3479],'J/(mol*K)'),
+        H298 = (388.491,'kJ/mol'),
+        S298 = (17.0977,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 515,
+    label = "CsBr1sCsF1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   F1s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 516,
+    label = "CsCl1sCsF1s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   F1s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 517,
+    label = "CsCsF1sF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   F1s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.86025,-6.50566,-9.2782,-11.4132,-14.5389,-16.7718,-20.2558],'J/(mol*K)'),
+        H298 = (420.785,'kJ/mol'),
+        S298 = (10.7662,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 518,
+    label = "CsBr1sCsH",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   H    u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469745,-4.9073,-8.43401,-11.2566,-15.2943,-17.8634,-21.1599],'J/(mol*K)'),
+        H298 = (407.922,'kJ/mol'),
+        S298 = (15.0981,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 519,
+    label = "CsCl1sCsH",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   H    u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.78065,-2.72641,-6.6356,-9.7591,-14.2906,-17.2287,-21.1612],'J/(mol*K)'),
+        H298 = (402.931,'kJ/mol'),
+        S298 = (13.8548,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 520,
+    label = "CsCsF1sH",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   H   u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.717114,-4.36246,-7.29309,-9.64882,-13.2824,-15.8216,-19.4228],'J/(mol*K)'),
+        H298 = (414.259,'kJ/mol'),
+        S298 = (11.3089,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 521,
+    label = "CsBr1sCsO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   O2s  u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.452781,-4.47731,-8.19001,-11.279,-15.6683,-18.2141,-21.242],'J/(mol*K)'),
+        H298 = (394.116,'kJ/mol'),
+        S298 = (15.3352,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 522,
+    label = "CsCl1sCsO2s",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   O2s  u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.187496,-4.43981,-8.17454,-11.2451,-15.6679,-18.372,-21.2631],'J/(mol*K)'),
+        H298 = (395.187,'kJ/mol'),
+        S298 = (16.1392,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 523,
+    label = "CsCsF1sO2s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   O2s u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.799437,-6.35617,-10.3517,-13.1038,-16.7888,-19.0878,-21.8566],'J/(mol*K)'),
+        H298 = (413.255,'kJ/mol'),
+        S298 = (14.4258,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 524,
+    label = "CsBr1sCsCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Ct   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.43556,-7.07912,-9.55539,-11.4665,-14.4476,-16.7212,-20.2276],'J/(mol*K)'),
+        H298 = (356.15,'kJ/mol'),
+        S298 = (14.6906,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 525,
+    label = "CsCl1sCsCt",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Ct   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.19873,-5.36644,-8.42525,-10.789,-14.397,-17.0151,-20.7009],'J/(mol*K)'),
+        H298 = (354.228,'kJ/mol'),
+        S298 = (17.0843,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 526,
+    label = "CsCsCtF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Ct  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.16834,-6.72199,-9.1461,-11.1176,-14.2335,-16.4962,-19.8954],'J/(mol*K)'),
+        H298 = (371.939,'kJ/mol'),
+        S298 = (20.2669,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 527,
+    label = "CsBr1sCdCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Cd   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 528,
+    label = "CsCdCl1sCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Cd   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 529,
+    label = "CsCdCsF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cd  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.75764,-6.55291,-7.7261,-9.01089,-11.0329,-12.5589,-15.718],'J/(mol*K)'),
+        H298 = (363.626,'kJ/mol'),
+        S298 = (1.36165,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 530,
+    label = "CsBr1sCsCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Cs   u0 {1,S}
+4   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.17211,-8.42003,-12.1333,-14.8465,-18.3507,-20.3397,-22.5353],'J/(mol*K)'),
+        H298 = (394.835,'kJ/mol'),
+        S298 = (22.2615,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 531,
+    label = "CsCl1sCsCs",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   Cs   u0 {1,S}
+3   Cs   u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.39344,-7.19209,-11.2117,-14.4565,-18.8236,-21.2207,-24.0014],'J/(mol*K)'),
+        H298 = (393.291,'kJ/mol'),
+        S298 = (23.5842,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 532,
+    label = "CsCsCsF1s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
+4   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.36093,-9.26173,-12.151,-14.0441,-16.5978,-18.3363,-20.8928],'J/(mol*K)'),
+        H298 = (410.487,'kJ/mol'),
+        S298 = (17.3926,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 533,
+    label = "CsJ-HNN",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N  u0 {1,S}
+3   N  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.8532,11.0458,6.19232,1.63176,-4.64424,-8.53536,-15.9829],'J/(mol*K)'),
+        H298 = (438.663,'kJ/mol'),
+        S298 = (7.12357,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 534,
+    label = "CsJ-HNN3ds",
+    group = 
+"""
+1 * Cs        u1 {2,S} {3,S} {4,S}
+2   N         u0 {1,S}
+3   [N3d,N3s] u0 {1,S}
+4   H         u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.58597,-5.80395,-8.7662,-11.0768,-14.324,-16.3676,-18.708],'J/(mol*K)'),
+        H298 = (393.258,'kJ/mol'),
+        S298 = (0.575878,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 535,
+    label = "CsJ-HN(N3dCd)",
+    group = 
+"""
+1 * Cs       u1 {2,S} {3,S} {4,S}
+2   N3d      u0 {1,S} {5,D}
+3   N        u0 {1,S}
+4   H        u0 {1,S}
+5   [Cd,Cdd] u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.17364,0.526339,-1.56312,-4.04119,-8.28715,-11.0029,-15.4736],'J/(mol*K)'),
+        H298 = (342.422,'kJ/mol'),
+        S298 = (-4.66094,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 536,
+    label = "CsJ-HN(N3dOd)",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   N3d u0 {1,S} {5,D}
+3   N   u0 {1,S}
+4   H   u0 {1,S}
+5   O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.31137,-4.08151,-5.05929,-6.59864,-9.61356,-12.7552,-18.2312],'J/(mol*K)'),
+        H298 = (303.519,'kJ/mol'),
+        S298 = (-8.01983,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 537,
+    label = "CsJ-HN(N3dN5dc)",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   N3d  u0 {1,S} {5,D}
+3   N    u0 {1,S}
+4   H    u0 {1,S}
+5   N5dc u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.95318,3.13485,0.33421,-2.701,-7.67123,-10.5415,-15.8149],'J/(mol*K)'),
+        H298 = (275.434,'kJ/mol'),
+        S298 = (4.69758,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 538,
+    label = "CsJ-HN5scN5sc",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   N5sc u0 {1,S}
+3   N5sc u0 {1,S}
+4   H    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0538838,-1.876,-4.04855,-6.08546,-9.70524,-12.7382,-17.9892],'J/(mol*K)'),
+        H298 = (436.377,'kJ/mol'),
+        S298 = (7.19164,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 539,
+    label = "CsJ-NNN",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N  u0 {1,S}
+3   N  u0 {1,S}
+4   N  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.26669,-1.87614,-5.88538,-8.95583,-13.0988,-15.6997,-18.3991],'J/(mol*K)'),
+        H298 = (388.334,'kJ/mol'),
+        S298 = (-4.02418,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 540,
+    label = "CsJ-HNO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   O  u0 {1,S}
+3   N  u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.29692,-8.29409,-11.2699,-13.4031,-16.5816,-18.4631,-19.9014],'J/(mol*K)'),
+        H298 = (371.563,'kJ/mol'),
+        S298 = (2.01997,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 541,
+    label = "CsJ-HON1sc",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   O    u0 {1,S}
+3   N1sc u0 {1,S}
+4   H    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.80826,-12.344,-15.0884,-16.9587,-18.722,-18.5848,-14.5979],'J/(mol*K)'),
+        H298 = (273.333,'kJ/mol'),
+        S298 = (-3.14275,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 542,
+    label = "CsJ-NNO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   O  u0 {1,S}
+3   N  u0 {1,S}
+4   N  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.60436,-6.81991,-9.0924,-11.5084,-13.7941,-14.5737,-13.827],'J/(mol*K)'),
+        H298 = (311.145,'kJ/mol'),
+        S298 = (4.53151,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 543,
+    label = "CsJ-NOO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   O  u0 {1,S}
+3   O  u0 {1,S}
+4   N  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.42994,-4.90751,-5.57809,-6.41818,-8.08512,-9.63419,-13.0091],'J/(mol*K)'),
+        H298 = (324.92,'kJ/mol'),
+        S298 = (-3.22872,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 544,
+    label = "CsJ-CNN",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S}
+3   N  u0 {1,S}
+4   N  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.80085,-5.80744,-7.57663,-9.14825,-11.7549,-13.7367,-16.6315],'J/(mol*K)'),
+        H298 = (383.839,'kJ/mol'),
+        S298 = (-5.21955,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 545,
+    label = "CsJ-CNO",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   C  u0 {1,S}
+3   O  u0 {1,S}
+4   N  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.889156,-3.17426,-6.57797,-9.40356,-13.6201,-16.3703,-19.6483],'J/(mol*K)'),
+        H298 = (390.332,'kJ/mol'),
+        S298 = (4.50509,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 546,
+    label = "CsJN3s",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   N3s u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.34639,0.0642418,-2.22164,-4.63062,-8.66372,-11.6685,-16.1145],'J/(mol*K)'),
+        H298 = (388.92,'kJ/mol'),
+        S298 = (-10.2036,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 547,
+    label = "CsJN5sdtc",
+    group = 
+"""
+1 * Cs                     u1 {2,S} {3,S} {4,S}
+2   [N5sc,N5dc,N5ddc,N5tc] u0 {1,S}
+3   H                      u0 {1,S}
+4   H                      u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.81722,3.24544,2.72474,1.22104,-2.23308,-5.66919,-12.8356],'J/(mol*K)'),
+        H298 = (404.243,'kJ/mol'),
+        S298 = (-14.4918,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 548,
+    label = "CsJN5sc",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   N5sc u0 {1,S}
+3   H    u0 {1,S}
+4   H    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.491933,-0.720255,-2.86803,-5.09749,-8.94641,-12.0652,-17.2889],'J/(mol*K)'),
+        H298 = (432.825,'kJ/mol'),
+        S298 = (-2.63962,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 549,
+    label = "CsJN5dcOdO0sc",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   N5dc u0 {1,S} {5,D} {6,S}
+3   H    u0 {1,S}
+4   H    u0 {1,S}
+5   O2d  u0 {2,D}
+6   O0sc u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.05016,0.29288,-2.17568,-4.97896,-10.1671,-14.393,-21.2966],'J/(mol*K)'),
+        H298 = (424.73,'kJ/mol'),
+        S298 = (-14.8665,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 550,
+    label = "CsJN5dcN3dO0sc",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   N5dc u0 {1,S} {5,D} {6,S}
+3   H    u0 {1,S}
+4   H    u0 {1,S}
+5   N3d  u0 {2,D}
+6   O0sc u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.27482,3.34223,2.42357,0.716726,-3.09483,-6.83265,-14.3794],'J/(mol*K)'),
+        H298 = (421.503,'kJ/mol'),
+        S298 = (-9.69349,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 551,
+    label = "CsJN3dCd",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   N3d u0 {1,S} {5,D}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   Cd  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.334539,-0.181647,-0.845982,-1.98298,-4.81941,-7.87964,-14.2395],'J/(mol*K)'),
+        H298 = (374.018,'kJ/mol'),
+        S298 = (-11.1917,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 552,
+    label = "CsJN3dCdd",
+    group = 
+"""
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   N3d u0 {1,S} {5,D}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+5   Cdd u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.55707,4.38485,1.99807,-0.696803,-5.27072,-8.57746,-14.1022],'J/(mol*K)'),
+        H298 = (389.255,'kJ/mol'),
+        S298 = (-9.12797,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 553,
+    label = "CsJN3dN5dc",
+    group = 
+"""
+1 * Cs   u1 {2,S} {3,S} {4,S}
+2   N3d  u0 {1,S} {5,D}
+3   H    u0 {1,S}
+4   H    u0 {1,S}
+5   N5dc u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.315332,0.568578,-0.652395,-2.70945,-6.57117,-9.32981,-14.8325],'J/(mol*K)'),
+        H298 = (331.765,'kJ/mol'),
+        S298 = (-9.5881,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 554,
+    label = "CdCsJN",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   N  u0 {1,S}
+3   Cd u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.49236,-8.5813,-8.63032,-9.10002,-10.0385,-11.4238,-14.1214],'J/(mol*K)'),
+        H298 = (329.078,'kJ/mol'),
+        S298 = (-10.2951,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 555,
+    label = "CdBr1sCdd",
+    group = 
+"""
+1 * Cd   u1 {2,S} {3,D}
+2   Br1s u0 {1,S}
+3   Cdd  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.29529,-6.191,-8.84892,-10.9349,-14.2771,-16.7941,-20.6126],'J/(mol*K)'),
+        H298 = (401.78,'kJ/mol'),
+        S298 = (-1.48004,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 556,
+    label = "CdCddCl1s",
+    group = 
+"""
+1 * Cd   u1 {2,S} {3,D}
+2   Cl1s u0 {1,S}
+3   Cdd  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.704038,-4.45006,-7.15658,-9.41275,-13.0236,-15.5938,-19.2078],'J/(mol*K)'),
+        H298 = (402.334,'kJ/mol'),
+        S298 = (8.27769,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 557,
+    label = "CdCddF1s",
+    group = 
+"""
+1 * Cd  u1 {2,S} {3,D}
+2   F1s u0 {1,S}
+3   Cdd u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.209974,-3.36484,-6.35948,-8.68241,-12.1668,-14.7775,-18.9345],'J/(mol*K)'),
+        H298 = (431.851,'kJ/mol'),
+        S298 = (4.79066,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 558,
+    label = "CdBr1sCd",
+    group = 
+"""
+1 * Cd   u1 {2,S} {3,D}
+2   Br1s u0 {1,S}
+3   Cd   u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.11795,-4.07574,-6.88886,-9.35437,-13.1298,-15.7361,-19.5492],'J/(mol*K)'),
+        H298 = (454.317,'kJ/mol'),
+        S298 = (5.9111,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Bromine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 559,
+    label = "CdCdCl1s",
+    group = 
+"""
+1 * Cd   u1 {2,S} {3,D}
+2   Cl1s u0 {1,S}
+3   Cd   u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.13824,-4.38436,-7.14841,-9.50581,-13.1702,-15.7501,-19.5796],'J/(mol*K)'),
+        H298 = (456.771,'kJ/mol'),
+        S298 = (6.79017,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 560,
+    label = "CdCdF1s",
+    group = 
+"""
+1 * Cd  u1 {2,S} {3,D}
+2   F1s u0 {1,S}
+3   Cd  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.81126,-4.99936,-7.57713,-9.70066,-13.1108,-15.6182,-19.3904],'J/(mol*K)'),
+        H298 = (475.97,'kJ/mol'),
+        S298 = (5.3441,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 561,
+    label = "COBr1sO2d",
+    group = 
+"""
+1 * CO   u1 {2,S} {3,D}
+2   Br1s u0 {1,S}
+3   O2d  u0 {1,D}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 562,
+    label = "COCl1sO2d",
+    group = 
+"""
+1 * CO   u1 {2,S} {3,D}
+2   Cl1s u0 {1,S}
+3   O2d  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.728145,-3.61421,-6.36682,-8.74552,-12.5501,-15.3211,-19.2885],'J/(mol*K)'),
+        H298 = (380.235,'kJ/mol'),
+        S298 = (4.85507,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from chlorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 563,
+    label = "COF1sO2d",
+    group = 
+"""
+1 * CO  u1 {2,S} {3,D}
+2   F1s u0 {1,S}
+3   O2d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5161,-4.14182,-6.58709,-8.81176,-12.5075,-15.1831,-19.205],'J/(mol*K)'),
+        H298 = (423.036,'kJ/mol'),
+        S298 = (1.67394,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 564,
+    label = "COJ-NOd",
+    group = 
+"""
+1 * CO  u1 {2,S} {3,D}
+2   N   u0 {1,S}
+3   O2d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.499049,-2.566,-5.4926,-8.03919,-12.3239,-15.6108,-20.2366],'J/(mol*K)'),
+        H298 = (352.267,'kJ/mol'),
+        S298 = (5.58481,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 565,
+    label = "N=C=CJ",
+    group = 
+"""
+1 * Cd  u1 {2,D} {3,S}
+2   Cdd u0 {1,D} {4,D}
+3   H   u0 {1,S}
+4   N   u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.92302,-3.87776,-5.86459,-7.91273,-11.031,-13.2669,-16.8954],'J/(mol*K)'),
+        H298 = (369.234,'kJ/mol'),
+        S298 = (-5.93117,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 566,
+    label = "N=C=CJC",
+    group = 
+"""
+1 * Cd u1 {2,D} {3,S}
+2   C  u0 {1,D} {4,D}
+3   C  u0 {1,S}
+4   N  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.07662,-4.81991,-7.34354,-9.45507,-12.8991,-15.5773,-19.5204],'J/(mol*K)'),
+        H298 = (345.84,'kJ/mol'),
+        S298 = (0.774208,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 567,
+    label = "CdJ-NN",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   N  u0 {1,S}
+3   N  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.97657,-2.2041,-5.32888,-7.99133,-12.3333,-15.391,-19.6103],'J/(mol*K)'),
+        H298 = (404.968,'kJ/mol'),
+        S298 = (8.19458,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 568,
+    label = "CdJ-CdN",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   N  u0 {1,S}
+3   C  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.18369,-4.23173,-7.03311,-9.35183,-12.8111,-15.2187,-18.7271],'J/(mol*K)'),
+        H298 = (445.085,'kJ/mol'),
+        S298 = (5.80115,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 569,
+    label = "CdJ-CddN",
+    group = 
+"""
+1 * Cd  u1 {2,S} {3,D}
+2   N   u0 {1,S}
+3   Cdd u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.3921,-2.08105,-5.04651,-7.48487,-11.2668,-13.9403,-17.7653],'J/(mol*K)'),
+        H298 = (371.87,'kJ/mol'),
+        S298 = (2.60652,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 570,
+    label = "CdJ-NdO",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   O  u0 {1,S}
+3   N  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.33945,-1.92324,-6.02047,-9.57875,-15.2601,-19.0789,-23.7518],'J/(mol*K)'),
+        H298 = (437.007,'kJ/mol'),
+        S298 = (7.57533,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 571,
+    label = "CdJ-NdC",
+    group = 
+"""
+1 * Cd u1 {2,S} {3,D}
+2   C  u0 {1,S}
+3   N  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.00763889,-2.36896,-5.21801,-7.8464,-11.991,-15.0452,-19.5882],'J/(mol*K)'),
+        H298 = (431.362,'kJ/mol'),
+        S298 = (4.60475,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 572,
+    label = "CdJ-HN3d",
+    group = 
+"""
+1 * Cd  u1 {2,S} {3,D}
+2   H   u0 {1,S}
+3   N3d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.535181,-3.60589,-6.39413,-8.86095,-12.7727,-15.5717,-19.8329],'J/(mol*K)'),
+        H298 = (415.298,'kJ/mol'),
+        S298 = (5.57767,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 573,
+    label = "CdJ-H(N3dOs)",
+    group = 
+"""
+1 * Cd  u1 {2,D} {3,S}
+2   N3d u0 {1,D} {4,S}
+3   H   u0 {1,S}
+4   O2s u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.72438,-0.600728,-4.42251,-7.70232,-13.0613,-16.7127,-21.0715],'J/(mol*K)'),
+        H298 = (440.68,'kJ/mol'),
+        S298 = (7.40719,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 574,
+    label = "CdJ-H(N3dCO)",
+    group = 
+"""
+1   N3d u0 {2,D} {3,S}
+2 * Cd  u1 {1,D} {4,S}
+3   CO  u0 {1,S} {5,D}
+4   H   u0 {2,S}
+5   O2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.19479,-3.60166,-4.82249,-6.06327,-8.74387,-11.0941,-15.1265],'J/(mol*K)'),
+        H298 = (411.286,'kJ/mol'),
+        S298 = (-2.27887,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 575,
+    label = "CdJ-H(N3dN3d)",
+    group = 
+"""
+1 * Cd  u1 {2,D} {3,S}
+2   N3d u0 {1,D} {4,S}
+3   H   u0 {1,S}
+4   N3d u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.175838,-2.38908,-4.71217,-6.73125,-10.4295,-13.5563,-18.2391],'J/(mol*K)'),
+        H298 = (426.882,'kJ/mol'),
+        S298 = (5.53135,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 576,
+    label = "CdJ-H(N3dCd)",
+    group = 
+"""
+1 * Cd       u1 {2,D} {3,S}
+2   N3d      u0 {1,D} {4,S}
+3   H        u0 {1,S}
+4   [Cd,Cdd] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.23929,-2.28161,-6.55411,-9.87574,-14.8878,-18.2186,-21.9295],'J/(mol*K)'),
+        H298 = (422.544,'kJ/mol'),
+        S298 = (13.1379,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 577,
+    label = "CdJ-HN5dc",
+    group = 
+"""
+1 * Cd   u1 {2,S} {3,D}
+2   H    u0 {1,S}
+3   N5dc u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.58018,-0.431227,-3.62097,-6.67779,-11.585,-15.0896,-19.8118],'J/(mol*K)'),
+        H298 = (490.037,'kJ/mol'),
+        S298 = (7.65582,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 578,
+    label = "N=COJ",
+    group = 
+"""
+1   Cd  u0 {2,S} {3,D}
+2 * O2s u1 {1,S}
+3   N   u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.58496,-8.79662,-8.0527,-8.55566,-10.0922,-11.8503,-16.2634],'J/(mol*K)'),
+        H298 = (158.992,'kJ/mol'),
+        S298 = (-7.51805,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 579,
+    label = "O2sJ-N",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N   u0 {1,S}
+""",
+    thermo = u'O2sJ-N3s',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 580,
+    label = "O2sJ-N3s",
+    group = 
+"""
+1 * O2s u1 {2,S}
+2   N3s u0 {1,S}
+""",
+    thermo = u'O2sJ-N3sC',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 581,
+    label = "O2sJ-N3sC",
+    group = 
+"""
+1   N3s u0 {2,S} {3,S}
+2 * O2s u1 {1,S}
+3   C   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.95666,-8.30392,-10.4418,-11.9018,-14.2655,-16.1736,-18.5966],'J/(mol*K)'),
+        H298 = (327.882,'kJ/mol'),
+        S298 = (3.22862,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 582,
+    label = "O2sJ-N3sCO",
+    group = 
+"""
+1   N3s u0 {2,S} {3,S}
+2   CO  u0 {1,S} {4,D}
+3 * O2s u1 {1,S}
+4   O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.80695,-9.17585,-11.1673,-12.1719,-13.6433,-14.6347,-16.2533],'J/(mol*K)'),
+        H298 = (317.059,'kJ/mol'),
+        S298 = (3.29589,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 583,
+    label = "O2sJ-N3sO2s",
+    group = 
+"""
+1   N3s u0 {2,S} {3,S}
+2 * O2s u1 {1,S}
+3   O2s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.49247,-14.5591,-18.7597,-21.1308,-24.037,-25.4752,-25.7812],'J/(mol*K)'),
+        H298 = (337.881,'kJ/mol'),
+        S298 = (3.72329,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 584,
+    label = "O2sJ-N3s(N5sdcO0sc)",
+    group = 
+"""
+1   N3s         u0 {2,S} {3,S}
+2   [N5sc,N5dc] u0 {1,S} {4,S}
+3 * O2s         u1 {1,S}
+4   O0sc        u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.50052,-2.35159,-6.76321,-10.6251,-17.0766,-21.9786,-28.6277],'J/(mol*K)'),
+        H298 = (340.144,'kJ/mol'),
+        S298 = (17.5768,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 585,
+    label = "O2sJ-N5sdtc",
+    group = 
+"""
+1 * O2s                    u1 {2,S}
+2   [N5sc,N5dc,N5ddc,N5tc] u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-12.452,-13.7444,-13.9339,-14.0699,-14.6564,-15.3839,-17.2753],'J/(mol*K)'),
+        H298 = (431.96,'kJ/mol'),
+        S298 = (-8.08566,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 586,
+    label = "O2sJ-N5dcOd",
+    group = 
+"""
+1   [N5dc,N5ddc] u0 {2,S} {3,D}
+2 * O2s          u1 {1,S}
+3   O2d          u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.39039,-6.26822,-9.33998,-11.4358,-14.5602,-16.8834,-20.3064],'J/(mol*K)'),
+        H298 = (400.951,'kJ/mol'),
+        S298 = (16.5987,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 587,
+    label = "O2sJ-N5dcOdO0sc",
+    group = 
+"""
+1   N5dc u0 {2,S} {3,D} {4,S}
+2 * O2s  u1 {1,S}
+3   O2d  u0 {1,D}
+4   O0sc u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.87864,-2.55224,-5.6484,-7.7404,-10.9202,-13.2633,-16.6105],'J/(mol*K)'),
+        H298 = (431.801,'kJ/mol'),
+        S298 = (-4.97896,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 588,
+    label = "O2sJ-N1sc",
+    group = 
+"""
+1 * O2s  u1 {2,S}
+2   N1sc u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.37293,-7.06222,-9.51612,-11.2729,-13.4699,-14.9722,-17.077],'J/(mol*K)'),
+        H298 = (347.821,'kJ/mol'),
+        S298 = (2.24576,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 589,
+    label = "O2sJ-N3dN3d",
+    group = 
+"""
+1   N3d u0 {2,S} {3,D}
+2 * O2s u1 {1,S}
+3   N3d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.29692,-10.2926,-12.6566,-14.1838,-16.3385,-17.5728,-18.6188],'J/(mol*K)'),
+        H298 = (664.976,'kJ/mol'),
+        S298 = (5.17262,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 590,
+    label = "O2sJ-N3dCd",
+    group = 
+"""
+1   N3d      u0 {2,S} {3,D}
+2 * O2s      u1 {1,S}
+3   [Cd,Cdd] u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.28771,-10.3803,-11.9598,-13.1984,-15.0803,-16.3293,-16.2292],'J/(mol*K)'),
+        H298 = (355.56,'kJ/mol'),
+        S298 = (-8.0332,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 591,
+    label = "N5scJ-HNO",
+    group = 
+"""
+1 * N5sc u1 {2,S} {3,S} {4,S}
+2   O    u0 {1,S}
+3   N    u0 {1,S}
+4   H    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.23096,2.78632,-0.890733,-4.71711,-11.537,-16.9037,-24.8648],'J/(mol*K)'),
+        H298 = (244.093,'kJ/mol'),
+        S298 = (9.44819,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 592,
+    label = "N5scJ-NNO",
+    group = 
+"""
+1 * N5sc u1 {2,S} {3,S} {4,S}
+2   O    u0 {1,S}
+3   N    u0 {1,S}
+4   N    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.26078,-4.51709,-6.33547,-8.68178,-12.6875,-15.8402,-20.7728],'J/(mol*K)'),
+        H298 = (243.145,'kJ/mol'),
+        S298 = (6.887,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 593,
+    label = "N5scJ-HOO",
+    group = 
+"""
+1 * N5sc u1 {2,S} {3,S} {4,S}
+2   O    u0 {1,S}
+3   O    u0 {1,S}
+4   H    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.33189,-3.30638,-6.33549,-9.29979,-13.9065,-17.5137,-22.8214],'J/(mol*K)'),
+        H298 = (249.25,'kJ/mol'),
+        S298 = (-4.29011,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 594,
+    label = "N5scJ-NOO",
+    group = 
+"""
+1 * N5sc u1 {2,S} {3,S} {4,S}
+2   O    u0 {1,S}
+3   O    u0 {1,S}
+4   N    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.490477,-4.77156,-9.06461,-12.6536,-18.0458,-21.5371,-25.0925],'J/(mol*K)'),
+        H298 = (268.345,'kJ/mol'),
+        S298 = (16.9494,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 595,
+    label = "N5scJ-CHO",
+    group = 
+"""
+1 * N5sc u1 {2,S} {3,S} {4,S}
+2   C    u0 {1,S}
+3   O    u0 {1,S}
+4   H    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.68916,-0.596662,-3.96519,-7.11111,-12.1745,-15.8829,-21.1153],'J/(mol*K)'),
+        H298 = (221.895,'kJ/mol'),
+        S298 = (9.67402,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 596,
+    label = "N5scJ-CNO",
+    group = 
+"""
+1 * N5sc u1 {2,S} {3,S} {4,S}
+2   C    u0 {1,S}
+3   O    u0 {1,S}
+4   N    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.18288,-10.1337,-12.6351,-14.4515,-17.1056,-18.8129,-21.0934],'J/(mol*K)'),
+        H298 = (242.269,'kJ/mol'),
+        S298 = (21.4951,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 597,
+    label = "N5scJ-COO",
+    group = 
+"""
+1 * N5sc u1 {2,S} {3,S} {4,S}
+2   C    u0 {1,S}
+3   O    u0 {1,S}
+4   O    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5935,-4.28154,-7.14307,-9.65718,-13.7651,-16.838,-21.2973],'J/(mol*K)'),
+        H298 = (252.716,'kJ/mol'),
+        S298 = (2.97211,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 598,
+    label = "N5scJ-CCO",
+    group = 
+"""
+1 * N5sc u1 {2,S} {3,S} {4,S}
+2   C    u0 {1,S}
+3   C    u0 {1,S}
+4   O    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.68915,-13.5775,-15.5782,-17.0545,-19.0312,-20.0961,-21.1052],'J/(mol*K)'),
+        H298 = (231.664,'kJ/mol'),
+        S298 = (-4.55651,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 599,
+    label = "N5dcJ-NOd",
+    group = 
+"""
+1 * N5dc u1 {2,S} {3,D}
+2   N    u0 {1,S}
+3   O    u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.39198,-3.81228,-7.35331,-10.7644,-15.958,-19.1788,-22.8709],'J/(mol*K)'),
+        H298 = (334.654,'kJ/mol'),
+        S298 = (10.2785,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 600,
+    label = "N5dcJ-NdO",
+    group = 
+"""
+1 * N5dc u1 {2,S} {3,D}
+2   O    u0 {1,S}
+3   N    u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.499652,-2.21608,-5.07031,-7.71348,-12.0168,-14.9458,-19.6336],'J/(mol*K)'),
+        H298 = (330.642,'kJ/mol'),
+        S298 = (6.64296,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 601,
+    label = "N5dcJ-CdO",
+    group = 
+"""
+1 * N5dc u1 {2,S} {3,D}
+2   O    u0 {1,S}
+3   C    u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.630065,-3.07143,-5.60254,-7.95144,-11.7011,-14.4828,-19.0124],'J/(mol*K)'),
+        H298 = (292.28,'kJ/mol'),
+        S298 = (1.06787,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 602,
+    label = "N3sJ-NN",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   N   u0 {1,S}
+3   N   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.34071,-5.69699,-7.91406,-9.88987,-12.9386,-14.9969,-17.7496],'J/(mol*K)'),
+        H298 = (312.632,'kJ/mol'),
+        S298 = (-0.792667,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 603,
+    label = "N3sJ-NO",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   O   u0 {1,S}
+3   N   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.34109,-6.50259,-10.1593,-12.9651,-16.8921,-19.2488,-21.4789],'J/(mol*K)'),
+        H298 = (324.57,'kJ/mol'),
+        S298 = (5.85483,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 604,
+    label = "N3sJ-OO",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   O   u0 {1,S}
+3   O   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.13984,-7.76932,-11.2129,-13.2285,-15.9222,-17.5188,-19.276],'J/(mol*K)'),
+        H298 = (311.479,'kJ/mol'),
+        S298 = (2.11221,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 605,
+    label = "N3sJ-CN",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   C   u0 {1,S}
+3   N   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.80393,-7.37641,-9.47396,-11.2655,-13.9993,-15.8916,-18.271],'J/(mol*K)'),
+        H298 = (351.185,'kJ/mol'),
+        S298 = (-2.7415,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 606,
+    label = "N3sJ-CO",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   C   u0 {1,S}
+3   O   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.19861,-11.8128,-13.9282,-15.0709,-16.1492,-16.3336,-16.3143],'J/(mol*K)'),
+        H298 = (332.252,'kJ/mol'),
+        S298 = (-0.98057,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 607,
+    label = "N3sJ-CtO",
+    group = 
+"""
+1 * N3s u1 {2,S} {3,S}
+2   Ct  u0 {1,S}
+3   O   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-26.6987,-32.4179,-35.63,-37.6419,-41.0509,-44.038,-47.8704],'J/(mol*K)'),
+        H298 = (301.079,'kJ/mol'),
+        S298 = (-75.7278,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 608,
+    label = "NHJ_Cd",
+    group = 
+"""
+1 * N3s      u1 p1 {2,S} {3,S}
+2   [Cd,Cdd] u0 p0 {1,S}
+3   H        u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.36968,-7.21186,-7.55213,-8.1556,-9.51515,-10.9959,-14.5568],'J/(mol*K)'),
+        H298 = (353.261,'kJ/mol'),
+        S298 = (-3.90709,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 609,
+    label = "NHJ_N3d",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   N3d u0 {1,S}
+3   H   u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.70038,-4.63454,-6.10735,-7.60395,-10.2929,-12.3802,-15.6322],'J/(mol*K)'),
+        H298 = (339.161,'kJ/mol'),
+        S298 = (1.25886,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 610,
+    label = "NHJ_N5dc",
+    group = 
+"""
+1 * N3s  u1 p1 {2,S} {3,S}
+2   N5dc u0 {1,S}
+3   H    u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.78518,1.52507,-3.04956,-6.60718,-12.0808,-15.9009,-20.6874],'J/(mol*K)'),
+        H298 = (434.288,'kJ/mol'),
+        S298 = (2.72516,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 611,
+    label = "NJ_CCd",
+    group = 
+"""
+1 * N3s      u1 p1 {2,S} {3,S}
+2   C        u0 p0 {1,S}
+3   [Cd,Cdd] u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.94584,-1.87787,-2.86025,-4.58312,-8.42517,-11.1267,-15.6176],'J/(mol*K)'),
+        H298 = (350.499,'kJ/mol'),
+        S298 = (-11.7385,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 612,
+    label = "NJ_CCO",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   CO  u0 p0 {1,S} {4,D}
+3   C   u0 p0 {1,S}
+4   O2d u0 p2 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.961761,-0.807363,-3.28705,-5.60897,-9.76264,-13.2901,-19.6482],'J/(mol*K)'),
+        H298 = (450.927,'kJ/mol'),
+        S298 = (3.87449,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 613,
+    label = "N3dJ_Cdd",
+    group = 
+"""
+1 * N3d u1 p1 {2,D}
+2   Cdd u0 p0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.67103,-7.14899,-8.76464,-10.2906,-12.8917,-14.9076,-18.0576],'J/(mol*K)'),
+        H298 = (257.412,'kJ/mol'),
+        S298 = (-1.20388,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 614,
+    label = "N3dJ_N5dc",
+    group = 
+"""
+1 * N3d  u1 p1 {2,D}
+2   N5dc u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0356123,-2.98703,-5.6088,-7.86526,-11.8936,-15.0898,-19.6396],'J/(mol*K)'),
+        H298 = (413.171,'kJ/mol'),
+        S298 = (2.89249,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 615,
+    label = "N3dJ_N3d",
+    group = 
+"""
+1 * N3d u1 p1 {2,D}
+2   N3d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.05081,-2.13979,-6.00346,-9.14917,-13.5357,-16.2931,-19.6448],'J/(mol*K)'),
+        H298 = (306.397,'kJ/mol'),
+        S298 = (18.8295,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 616,
+    label = "NCdJ2_triplet",
+    group = 
+"""
+1 * Cd  u2 {2,D}
+2   N3d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.67688,-8.56951,-13.0936,-17.1322,-23.6155,-28.3134,-35.4124],'J/(mol*K)'),
+        H298 = (587.145,'kJ/mol'),
+        S298 = (22.0742,'J/(mol*K)'),
+    ),
+    shortDesc = u"""Derived from nitrogen species in RMG thermo libraries""",
+    longDesc = 
+u"""
+
+""",
+)
+
 tree(
 """
 L1: Radical
     L2: RJ
         L3: CJ
             L4: CsJ
+                L5: CsBr1sBr1sCO
+                L5: CsBr1sCOCl1s
+                L5: CsCOCl1sCl1s
+                L5: CsBr1sCOF1s
+                L5: CsCOCl1sF1s
+                L5: CsCOF1sF1s
+                L5: CsBr1sCOH
+                L5: CsCOCl1sH
+                L5: CsCOF1sH
+                L5: CsBr1sCOO2s
+                L5: CsCOCl1sO2s
+                L5: CsCOF1sO2s
+                L5: CsBr1sCOCO
+                L5: CsCOCOCl1s
+                L5: CsCOCOF1s
+                L5: CsBr1sCOCt
+                L5: CsCOCl1sCt
+                L5: CsCOCtF1s
+                L5: CsBr1sCOCd
+                L5: CsCOCdCl1s
+                L5: CsCOCdF1s
+                L5: CsBr1sCOCs
+                L5: CsCOCl1sCs
+                L5: CsCOCsF1s
+                L5: CsBr1sBr1sO2s
+                L5: CsBr1sCl1sO2s
+                L5: CsCl1sCl1sO2s
+                L5: CsBr1sF1sO2s
+                L5: CsCl1sF1sO2s
+                L5: CsF1sF1sO2s
+                L5: CsBr1sHO2s
+                L5: CsCl1sHO2s
+                L5: CsF1sHO2s
+                L5: CsBr1sO2sO2s
+                L5: CsCl1sO2sO2s
+                L5: CsF1sO2sO2s
+                L5: CsBr1sBr1sCt
+                L5: CsBr1sCl1sCt
+                L5: CsCl1sCl1sCt
+                L5: CsBr1sCtF1s
+                L5: CsCl1sCtF1s
+                L5: CsCtF1sF1s
+                L5: CsBr1sCtH
+                L5: CsCl1sCtH
+                L5: CsCtF1sH
+                L5: CsBr1sCtO2s
+                L5: CsCl1sCtO2s
+                L5: CsCtF1sO2s
+                L5: CsBr1sCtCt
+                L5: CsCl1sCtCt
+                L5: CsCtCtF1s
+                L5: CsBr1sBr1sCd
+                L5: CsBr1sCdCl1s
+                L5: CsCdCl1sCl1s
+                L5: CsBr1sCdF1s
+                L5: CsCdCl1sF1s
+                L5: CsCdF1sF1s
+                L5: CsBr1sCdH
+                L5: CsCdCl1sH
+                L5: CsCdF1sH
+                L5: CsBr1sCdO2s
+                L5: CsCdCl1sO2s
+                L5: CsCdF1sO2s
+                L5: CsBr1sCdCt
+                L5: CsCdCl1sCt
+                L5: CsCdCtF1s
+                L5: CsBr1sCdCd
+                L5: CsCdCdCl1s
+                L5: CsCdCdF1s
+                L5: CsBr1sBr1sCs
+                L5: CsBr1sCl1sCs
+                L5: CsCl1sCl1sCs
+                L5: CsBr1sCsF1s
+                L5: CsCl1sCsF1s
+                L5: CsCsF1sF1s
+                L5: CsBr1sCsH
+                L5: CsCl1sCsH
+                L5: CsCsF1sH
+                L5: CsBr1sCsO2s
+                L5: CsCl1sCsO2s
+                L5: CsCsF1sO2s
+                L5: CsBr1sCsCt
+                L5: CsCl1sCsCt
+                L5: CsCsCtF1s
+                L5: CsBr1sCdCs
+                L5: CsCdCl1sCs
+                L5: CsCdCsF1s
+                L5: CsBr1sCsCs
+                L5: CsCl1sCsCs
+                L5: CsCsCsF1s
                 L5: CH3
                 L5: Cs_P
                     L6: CJCO
@@ -10850,9 +14702,9 @@ L1: Radical
                         L7: CJCOOH
                         L7: CJC(C)OC
                         L7: CJC(C)2O
-                                L8: C=CC(C)(O)CJ
-                                    L9: C=CC(O)(C=O)CJ
-                                L8: CJC(C)(C=O)O
+                            L8: C=CC(C)(O)CJ
+                                L9: C=CC(O)(C=O)CJ
+                            L8: CJC(C)(C=O)O
                         L7: CJC(O)2C
                             L8: C=CC(O)2CJ
                     L6: CJCC=O
@@ -11119,12 +14971,44 @@ L1: Radical
                     L6: CCsJOS
                         L7: CCsJOHSH
                     L6: CsJ-SsOsH
-                L5: CsJN
-                L5: CCsJN
-                L5: C2CsJN
                 L5: OCJO
+                L5: CsJ-HNN
+                    L6: CsJ-HNN3ds
+                        L7: CsJ-HN(N3dCd)
+                        L7: CsJ-HN(N3dOd)
+                        L7: CsJ-HN(N3dN5dc)
+                    L6: CsJ-HN5scN5sc
+                L5: CsJ-NNN
+                L5: CsJ-HNO
+                    L6: CsJ-HON1sc
+                L5: CsJ-NNO
+                L5: CsJ-NOO
+                L5: CsJ-CNN
+                L5: CsJ-CNO
+                L5: CsJN
+                    L6: CsJN3s
+                    L6: CsJN5sdtc
+                        L7: CsJN5sc
+                        L7: CsJN5dcOdO0sc
+                        L7: CsJN5dcN3dO0sc
+                    L6: CsJN3dCd
+                    L6: CsJN3dCdd
+                    L6: CsJN3dN5dc
+                L5: CCsJN
+                    L6: CdCsJN
+                L5: C2CsJN
             L4: CdsJ
+                L5: CdBr1sCdd
+                L5: CdCddCl1s
+                L5: CdCddF1s
+                L5: CdBr1sCd
+                L5: CdCdCl1s
+                L5: CdCdF1s
                 L5: CdsJO
+                    L6: COBr1sO2d
+                    L6: COCl1sO2d
+                    L6: COF1sO2d
+                    L6: COJ-NOd
                     L6: HCdsJO
                     L6: CCJ=O
                         L7: CC(C)CJ=O
@@ -11151,6 +15035,7 @@ L1: Radical
                     L6: SCJ=O
                 L5: Cds_P
                     L6: C=C=CJ
+                    L6: N=C=CJ
                 L5: Cds_S
                     L6: C=CJC=O
                     L6: C=CJC=C
@@ -11169,8 +15054,20 @@ L1: Radical
                         L7: CC(C)CJ=C=O
                         L7: C=C(C)CJ=C=O
                     L6: OC=CJCb
+                    L6: N=C=CJC
                 L5: S2s-CJ=C
                 L5: C=CJO
+                L5: CdJ-NN
+                L5: CdJ-CdN
+                    L6: CdJ-CddN
+                L5: CdJ-NdO
+                L5: CdJ-NdC
+                L5: CdJ-HN3d
+                    L6: CdJ-H(N3dOs)
+                    L6: CdJ-H(N3dCO)
+                    L6: CdJ-H(N3dN3d)
+                    L6: CdJ-H(N3dCd)
+                L5: CdJ-HN5dc
             L4: CtJ
                 L5: Acetyl
             L4: CbJ
@@ -11197,6 +15094,7 @@ L1: Radical
                 L5: CdsOJ
                     L6: RC=COJ
                         L7: C=COJ
+                        L7: N=COJ
                     L6: OJC=O
                         L7: OC=OOJ
                 L5: OCOJ
@@ -11211,27 +15109,28 @@ L1: Radical
                     L6: SOOJ
                 L5: HOOJ
             L4: SOJ
-                L5:O2sJ-S2s
-                L5:O2sJ-S4d
-                    L6:O2sJ-(S4d-OdO)
-                    L6:O2sJ-(S4d-OdC)
-                    L6:O2sJ-(S4d-OdH)
-                    L6:O2sJ-(S4d-CdC)
-                L5:O2sJ-S6d
-        L3: NJ
-            L4: N3sJ
-                L5: NH2J
-                L5: NHJ_C
-                L5: NHJ_O
-                L5: NHJ_N
-                L5: NJ_CC
-            L4: N3dJ
-                L5: N3dJ_C
-                L5: N3dJ_O
-                L5: N3dJ_N
+                L5: O2sJ-S2s
+                L5: O2sJ-S4d
+                    L6: O2sJ-(S4d-OdO)
+                    L6: O2sJ-(S4d-OdC)
+                    L6: O2sJ-(S4d-OdH)
+                    L6: O2sJ-(S4d-CdC)
+                L5: O2sJ-S6d
+            L4: O2sJ-N
+                L5: O2sJ-N3s
+                    L6: O2sJ-N3sC
+                        L7: O2sJ-N3sCO
+                    L6: O2sJ-N3sO2s
+                    L6: O2sJ-N3s(N5sdcO0sc)
+                L5: O2sJ-N5sdtc
+                    L6: O2sJ-N5dcOd
+                        L7: O2sJ-N5dcOdO0sc
+                L5: O2sJ-N1sc
+                L5: O2sJ-N3dN3d
+                L5: O2sJ-N3dCd
         L3: SiJ
         L3: SJ
-            L4:S2J
+            L4: S2J
                 L5: S2J-H
                 L5: S2J-C
                     L6: S2J-Cs
@@ -11247,19 +15146,55 @@ L1: Radical
                     L6: S2J-S2s-Cs
                     L6: S2J-S2s-S2s
                 L5: S2sJ-O
-            L4:S4sJ
+            L4: S4sJ
                 L5: S4sJ-CCC
-		L5: S4sJ-OCC
-            L4:S4dJ
+                L5: S4sJ-OCC
+            L4: S4dJ
                 L5: S4dJ-OdH
                 L5: S4dJ-OdO
-            L4:S6sJ
+            L4: S6sJ
                 L5: S6sJ-CCCCC
-	    L4:S6dJ
+            L4: S6dJ
                 L5: S6dJ-OdOCC
-            L4:S6ddJ
+            L4: S6ddJ
                 L5: S6ddJ-OdOdH
                 L5: S6ddJ-OdOdO
+        L3: NJ
+            L4: N5scJ-HNO
+            L4: N5scJ-NNO
+            L4: N5scJ-HOO
+            L4: N5scJ-NOO
+            L4: N5scJ-CHO
+            L4: N5scJ-CNO
+            L4: N5scJ-COO
+            L4: N5scJ-CCO
+            L4: N5dcJ-NOd
+            L4: N5dcJ-NdO
+            L4: N5dcJ-CdO
+            L4: N3sJ-NN
+            L4: N3sJ-NO
+            L4: N3sJ-OO
+            L4: N3sJ-CN
+            L4: N3sJ-CO
+                L5: N3sJ-CtO
+            L4: N3sJ
+                L5: NH2J
+                L5: NHJ_C
+                    L6: NHJ_Cd
+                L5: NHJ_O
+                L5: NHJ_N
+                    L6: NHJ_N3d
+                    L6: NHJ_N5dc
+                L5: NJ_CC
+                    L6: NJ_CCd
+                    L6: NJ_CCO
+            L4: N3dJ
+                L5: N3dJ_C
+                    L6: N3dJ_Cdd
+                L5: N3dJ_O
+                L5: N3dJ_N
+                    L6: N3dJ_N5dc
+                    L6: N3dJ_N3d
     L2: RJ2_triplet
         L3: CJ2_triplet
             L4: OsCsJ2H_triplet
@@ -11275,15 +15210,16 @@ L1: Radical
                 L5: CCdJ2_triplet
                     L6: CdCdJ2_triplet
                     L6: (CO)CdJ2_triplet
+                L5: NCdJ2_triplet
             L4: CdJ2-Sd_triplet
+        L3: Oa_triplet
+        L3: SiJ2_triplet
+        L3: SJ2_triplet
         L3: NJ2_triplet
             L4: N3sJ2
                 L5: NHJ2
                 L5: NJ2_C
                 L5: NJ2_O
-        L3: Oa_triplet
-        L3: SiJ2_triplet
-        L3: SJ2_triplet
     L2: RJ3
         L3: CJ3
         L3: SiJ3
