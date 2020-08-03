@@ -64,7 +64,8 @@ def generate_family_pdf():
     database_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     fam_dir = os.path.join(database_directory, 'input', 'kinetics', 'families')
     dir_list = os.listdir(fam_dir)
-    fam_list = sorted([item for item in dir_list if os.path.isdir(os.path.join(fam_dir, item))])  # Only keep folders
+    fam_list = sorted([item for item in dir_list if (os.path.isdir(os.path.join(fam_dir, item)))
+                                                     and (item != '__pycache__')])  # Only keep folders
 
     temp_dir = os.path.join(database_directory, 'temp')
     img_dir = os.path.join(temp_dir, 'images')
@@ -72,20 +73,20 @@ def generate_family_pdf():
         os.makedirs(img_dir)
 
     latex_header = r"""\documentclass{article}
-    
+
     \usepackage[margin=1in]{geometry}
     \usepackage{graphicx,color}
     \graphicspath{{""" + img_dir + '/' + r"""}}
     \usepackage{epstopdf}
     \setcounter{secnumdepth}{0}
-    
+
     \begin{document}
-    
+
     \begin{center}
     \huge
     RMG-Py Reaction Families
     \end{center}
-    
+
     """
 
     latex_footer = r"""
@@ -134,7 +135,8 @@ def generate_family_pngs():
     database_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     fam_dir = os.path.join(database_directory, 'input', 'kinetics', 'families')
     dir_list = os.listdir(fam_dir)
-    fam_list = sorted([item for item in dir_list if os.path.isdir(os.path.join(fam_dir, item))])  # Only keep folders
+    fam_list = sorted([item for item in dir_list if (os.path.isdir(os.path.join(fam_dir, item)))
+                       and (item != '__pycache__')])  # Only keep folders
 
     img_dir = os.path.join(database_directory, 'families', 'images')
     if not os.path.isdir(img_dir):
