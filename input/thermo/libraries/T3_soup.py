@@ -4682,3 +4682,4444 @@ H      -2.28396400   -0.53168800    0.65269000
 H      -1.50160800    1.57990600    0.05941500
 """,
 )
+
+entry(
+    index = 77,
+    label = "H2NCHO_59",
+    molecule =
+"""
+1 O u0 p2 c0 {3,D}
+2 N u0 p1 c0 {3,S} {4,S} {5,S}
+3 C u0 p0 c0 {1,D} {2,S} {6,S}
+4 H u0 p0 c0 {2,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.98383,0.000990418,4.40096e-05,-7.86098e-08,4.60751e-11,-24762.6,6.55204], Tmin=(10,'K'), Tmax=(438.815,'K')),
+            NASAPolynomial(coeffs=[2.273,0.0166057,-9.43745e-06,2.69448e-09,-3.05266e-13,-24612.7,13.3944], Tmin=(438.815,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-205.894,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (128.874,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-N': 1, 'C=O': 1, 'H-N': 2, 'C-H': 1}
+1D rotors:
+pivots: [2, 3], dihedral: [4, 2, 3, 1], rotor symmetry: 2, max scan energy: 102.31 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 5 4 2 3 F
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       1.64349900    0.10664900   -0.50943000
+N      -0.52784600    0.43268500    0.11288200
+C       0.57556700   -0.32346000   -0.13920500
+H      -1.39178100    0.01858500    0.41957400
+H      -0.47681500    1.43222400   -0.01117600
+H       0.38663800   -1.40118300    0.03512000
+""",
+)
+
+entry(
+    index = 78,
+    label = "C4H7N2O3_38",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  N u0 p1 c0 {5,S} {13,S} {14,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  C u0 p0 c0 {1,S} {16,T}
+7  O u0 p2 c0 {2,S} {15,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 O u1 p2 c0 {7,S}
+16 N u0 p1 c0 {6,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56733,0.0346499,0.000240356,-8.02945e-07,7.4469e-10,9492.51,13.9015], Tmin=(10,'K'), Tmax=(384.294,'K')),
+            NASAPolynomial(coeffs=[6.12309,0.0570469,-3.83218e-05,1.22883e-08,-1.49771e-12,8934.27,-0.691838], Tmin=(384.294,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (78.9518,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (374.151,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 5, 'N-O': 1, 'C-C': 3, 'O-O': 1, 'C-O': 2, 'C#N': 1, 'H-N': 2}
+1D rotors:
+* Invalidated! pivots: [1, 4], dihedral: [6, 1, 4, 15], invalidation reason: 
+pivots: [1, 6], dihedral: [4, 1, 6, 7], rotor symmetry: 1, max scan energy: 48.33 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 7 11 F
+D 6 1 4 15 F
+D 3 2 7 11 F
+* Invalidated! pivots: [2, 7], dihedral: [3, 2, 7, 6], invalidation reason: Another conformer for C4H7N2O3_38 exists which is 7.29 kJ/mol lower.
+* Invalidated! pivots: [6, 7], dihedral: [1, 6, 7, 2], invalidation reason: 
+pivots: [6, 8], dihedral: [1, 6, 8, 12], rotor symmetry: 3, max scan energy: 12.35 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.70208400   -0.31952400    0.95216200
+O       0.44823300    2.38732500   -0.05390700
+O       1.74303300    2.13590600   -0.11896700
+N       1.45746000   -0.87468300   -0.14667600
+N      -1.73603300    1.17693300    2.60077900
+C      -0.55218400    0.18339000    0.47757800
+C      -0.34550400    1.29495300   -0.57324900
+C      -1.43736600   -0.92682100   -0.11090000
+C      -1.18952300    0.74632600    1.68341100
+H       0.16200500    0.88189800   -1.44368900
+H      -1.29794700    1.74817200   -0.84837500
+H      -1.60894400   -1.69108800    0.64786100
+H      -0.92324200   -1.37529800   -0.96069000
+H      -2.40261600   -0.53093600   -0.43268200
+H       2.23941700   -0.22689400   -0.24090300
+H       1.82302500   -1.73856900    0.24660500
+""",
+)
+
+entry(
+    index = 79,
+    label = "H2NCO_60",
+    molecule =
+"""
+multiplicity 2
+1 O u0 p2 c0 {3,D}
+2 N u0 p1 c0 {3,S} {4,S} {5,S}
+3 C u1 p0 c0 {1,D} {2,S}
+4 H u0 p0 c0 {2,S}
+5 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.97473,0.00159227,3.91944e-05,-8.04966e-08,5.17325e-11,-3324.73,6.89951], Tmin=(10,'K'), Tmax=(498.576,'K')),
+            NASAPolynomial(coeffs=[3.39344,0.0115287,-6.56398e-06,1.90111e-09,-2.20439e-13,-3332.3,8.64207], Tmin=(498.576,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-27.6504,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (103.931,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 1, 'H-N': 2, 'C-N': 1}
+1D rotors:
+pivots: [2, 3], dihedral: [4, 2, 3, 1], rotor symmetry: 2, max scan energy: 88.63 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 5 4 2 3 F
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       1.66048400    0.53866100   -0.35022000
+N      -0.49160500   -0.12594900    0.10040300
+C       0.82306900   -0.28006700   -0.12002400
+H      -1.07049900   -0.92655100    0.28249700
+H      -0.92145000    0.79390700    0.08734400
+""",
+)
+
+entry(
+    index = 80,
+    label = "C4H3N2O2_28",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  C u0 p0 c0 {1,S} {8,D} {9,S}
+4  C u0 p0 c0 {1,S} {10,T}
+5  O u0 p2 c0 {2,S} {11,S}
+6  H u0 p0 c0 {1,S}
+7  O u0 p2 c0 {2,D}
+8  N u1 p1 c0 {3,D}
+9  H u0 p0 c0 {3,S}
+10 N u0 p1 c0 {4,T}
+11 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.629,0.0484038,-4.23324e-05,1.91277e-08,-3.60358e-12,-1014.53,13.7699], Tmin=(10,'K'), Tmax=(1123.05,'K')),
+            NASAPolynomial(coeffs=[8.30408,0.0317525,-2.00921e-05,5.92531e-09,-6.64624e-13,-2064.6,-9.32721], Tmin=(1123.05,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-8.45063,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (245.277,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 2, 'H-O': 1, 'C=N': 1, 'C=O': 1, 'C-C': 3, 'C#N': 1, 'C-O': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [11, 1, 6, 2], rotor symmetry: 1, max scan energy: 56.59 kJ/mol
+pivots: [5, 6], dihedral: [7, 5, 6, 1], rotor symmetry: 1, max scan energy: 6.18 kJ/mol
+pivots: [5, 7], dihedral: [6, 5, 7, 3], rotor symmetry: 1, max scan energy: 18.55 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 5 6 2 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.99497800    0.58384900   -0.38249500
+O       1.19691300   -0.40229000    1.48178400
+N      -1.74282300   -2.00499000   -0.37749800
+N      -1.39056000    2.30769700   -0.49832400
+C      -0.28380800   -0.05964300   -0.41309800
+C       1.04457000    0.00715100    0.36635800
+C      -1.23255700   -1.06701000    0.25538800
+C      -0.89536700    1.26762400   -0.47214700
+H      -0.07237200   -0.38893900   -1.43357500
+H      -1.42061700   -0.91886500    1.32571600
+H       2.80350100    0.63166900    0.15141500
+""",
+)
+
+entry(
+    index = 81,
+    label = "C2N2O2_61",
+    molecule =
+"""
+1 O u0 p2 c0 {3,S} {6,S}
+2 O u0 p2 c0 {5,D}
+3 N u0 p1 c0 {1,S} {5,D}
+4 N u0 p1 c0 {6,T}
+5 C u0 p0 c0 {2,D} {3,D}
+6 C u0 p0 c0 {1,S} {4,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72706,0.0239254,-1.07731e-05,-1.98071e-08,1.8762e-11,19414.7,10.2012], Tmin=(10,'K'), Tmax=(607.148,'K')),
+            NASAPolynomial(coeffs=[6.34812,0.0152643,-1.06395e-05,3.39476e-09,-4.05765e-13,18937.8,-2.44251], Tmin=(607.148,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (161.389,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (128.874,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'N-O': 1, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=N': 1}
+1D rotors:
+pivots: [1, 3], dihedral: [6, 1, 3, 5], rotor symmetry: 1, max scan energy: 19.01 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.33063100    0.24531600   -0.59062700
+O       2.74578800   -0.26589200    0.56735400
+N       0.36344200   -0.41145000    0.51145900
+N      -2.76247600   -0.02084900   -0.46508000
+C       1.59482400   -0.28342700    0.45837200
+C      -1.61094700    0.07746400   -0.48147800
+""",
+)
+
+entry(
+    index = 82,
+    label = "C4H7N2O3_39",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  O u0 p2 c0 {1,S} {8,S}
+5  O u0 p2 c0 {2,S} {7,S}
+6  C u0 p0 c0 {1,S} {14,T}
+7  O u0 p2 c0 {5,S} {15,S}
+8  N u1 p1 c0 {4,S} {16,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 N u0 p1 c0 {6,T}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.2692,0.0631976,-4.11262e-05,1.15822e-08,-8.29343e-13,8884.89,14.2106], Tmin=(10,'K'), Tmax=(1213.9,'K')),
+            NASAPolynomial(coeffs=[12.5632,0.0396658,-2.08137e-05,5.24056e-09,-5.14703e-13,6105.85,-34.582], Tmin=(1213.9,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (73.8081,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (378.308,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-H': 5, 'N-O': 1, 'C-C': 3, 'O-O': 1, 'C-O': 2, 'C#N': 1, 'H-N': 1}
+1D rotors:
+pivots: [1, 4], dihedral: [6, 1, 4, 16], rotor symmetry: 1, max scan energy: 67.17 kJ/mol
+* Invalidated! pivots: [1, 6], dihedral: [4, 1, 6, 7], invalidation reason: Another conformer for C4H7N2O3_39 exists which is 4.97 kJ/mol lower.
+* Invalidated! pivots: [2, 3], dihedral: [7, 2, 3, 15], invalidation reason: 
+* Invalidated! pivots: [2, 7], dihedral: [3, 2, 7, 6], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [1, 6, 7, 2], invalidation reason: 
+* Invalidated! pivots: [6, 8], dihedral: [1, 6, 8, 12], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -0.21374600    1.48513800   -0.80636600
+O       0.19647300   -1.10535800    1.80801900
+O       1.59424800   -1.49354500    1.83894500
+N       1.01805100    2.07284400   -0.71479700
+N       1.55540300   -1.38584100   -1.48963200
+C      -0.20778000    0.13698900   -0.27667800
+C       0.10394800    0.19111900    1.24217400
+C      -1.60476300   -0.41826700   -0.55073000
+C       0.80474500   -0.67951200   -0.97415000
+H       1.02289900    0.74892600    1.41662600
+H      -0.73400500    0.68397300    1.74313000
+H      -1.78721400   -0.49721400   -1.62262000
+H      -1.70022700   -1.40381000   -0.09406800
+H      -2.34405300    0.25367300   -0.11081800
+H       1.66446200   -2.04660500    1.04546500
+H       0.81299900    2.99199700   -1.12626500
+""",
+)
+
+entry(
+    index = 83,
+    label = "C4H7N2O2_62",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  N u0 p1 c0 {5,S} {13,S} {14,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  C u0 p0 c0 {1,S} {15,T}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 O u1 p2 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 N u0 p1 c0 {6,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56195,0.0476425,0.000262246,-1.70621e-06,2.86356e-09,7314.93,12.9226], Tmin=(10,'K'), Tmax=(222.392,'K')),
+            NASAPolynomial(coeffs=[5.70431,0.0502527,-3.2866e-05,1.03393e-08,-1.24514e-12,7117.9,3.52008], Tmin=(222.392,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (60.9026,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (340.893,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 6, 'N-O': 2, 'C-C': 3, 'C-O': 1, 'C#N': 1, 'H-N': 1}
+1D rotors:
+pivots: [1, 3], dihedral: [5, 1, 3, 2], rotor symmetry: 1, max scan energy: 18.02 kJ/mol
+pivots: [1, 5], dihedral: [3, 1, 5, 6], rotor symmetry: 1, max scan energy: 24.94 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 5 1 3 2 F
+pivots: [5, 6], dihedral: [1, 5, 6, 9], rotor symmetry: 3, max scan energy: 13.31 kJ/mol
+pivots: [5, 7], dihedral: [1, 5, 7, 12], rotor symmetry: 3, max scan energy: 13.71 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.13171500    1.25197200   -0.12915600
+O      -1.98128500    1.42827800    0.87218700
+N      -1.20288000    1.81706100   -0.01015800
+N       0.00268100   -0.77583100    2.64350300
+C       0.20435600   -0.17273400    0.08914300
+C      -0.82636900   -0.94345000   -0.74715600
+C       1.64284700   -0.51344800   -0.32895000
+C       0.05101900   -0.47985100    1.53098600
+H      -0.70629400   -0.66744400   -1.79669500
+H      -1.84248900   -0.72086500   -0.42776500
+H      -0.65433600   -2.01607500   -0.64052700
+H       2.35383400    0.08735600    0.23857000
+H       1.76515800   -0.30278500   -1.39240600
+H       1.84419300   -1.56935300   -0.14259400
+H      -1.03515400    2.82175800   -0.13011700
+""",
+)
+
+entry(
+    index = 84,
+    label = "C4H2N2O3_7",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+2  C u0 p0 c0 {1,S} {5,S} {8,D}
+3  N u0 p1 c0 {1,S} {6,D}
+4  C u0 p0 c0 {1,S} {9,T}
+5  O u0 p2 c0 {2,S} {10,S}
+6  C u0 p0 c0 {3,D} {11,D}
+7  H u0 p0 c0 {1,S}
+8  O u0 p2 c0 {2,D}
+9  N u0 p1 c0 {4,T}
+10 H u0 p0 c0 {5,S}
+11 O u0 p2 c0 {6,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.54784,0.0497988,-4.06961e-05,1.54084e-08,-2.09173e-12,-38920.9,13.8242], Tmin=(10,'K'), Tmax=(1186,'K')),
+            NASAPolynomial(coeffs=[13.5042,0.0216445,-1.19494e-05,3.10656e-09,-3.11657e-13,-41664.1,-37.5165], Tmin=(1186,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-323.61,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (249.434,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 1, 'H-O': 1, 'C=N': 1, 'C=O': 2, 'C-N': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [11, 1, 7, 2], rotor symmetry: 1, max scan energy: 56.23 kJ/mol
+pivots: [4, 6], dihedral: [9, 4, 6, 7], rotor symmetry: 1, max scan energy: 11.22 kJ/mol
+* Invalidated! pivots: [6, 7], dihedral: [4, 6, 7, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.84107000    1.35602700   -0.11606500
+O      -0.54176700    0.21778000    1.33729400
+O       1.86876400   -2.05846300    1.05115200
+N       0.99370200   -0.80906600   -0.76127400
+N      -1.95004500   -1.58564700   -2.32473300
+C      -0.20866900   -0.09027500   -1.04937000
+C      -0.87123600    0.49817400    0.22181000
+C      -1.18752000   -0.92621700   -1.76836400
+C       1.36408200   -1.42887000    0.21560600
+H       0.03256100    0.75455800   -1.70241000
+H      -2.25427800    1.68025700    0.69914800
+""",
+)
+
+entry(
+    index = 85,
+    label = "C4H8N2O2_63",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  N u0 p1 c0 {5,S} {13,S} {14,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  C u0 p0 c0 {1,S} {15,T}
+7  O u0 p2 c0 {2,S} {16,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 N u0 p1 c0 {6,T}
+16 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79655,0.0190043,0.000337442,-1.31693e-06,1.62209e-09,-18051.3,12.0974], Tmin=(10,'K'), Tmax=(263.73,'K')),
+            NASAPolynomial(coeffs=[3.00562,0.0577781,-3.53926e-05,1.05363e-08,-1.21687e-12,-18102.7,13.0935], Tmin=(263.73,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-150.054,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (378.308,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-H': 5, 'N-O': 1, 'C-C': 3, 'C-O': 2, 'C#N': 1, 'H-N': 2}
+1D rotors:
+pivots: [1, 3], dihedral: [5, 1, 3, 14], rotor symmetry: 1, max scan energy: 75.23 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 5 6 10 F
+D 16 2 6 10 F
+D 3 1 5 7 F
+* Invalidated! pivots: [1, 5], dihedral: [3, 1, 5, 6], invalidation reason: 
+* Invalidated! pivots: [2, 6], dihedral: [16, 2, 6, 5], invalidation reason: 
+* Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 2], invalidation reason: 
+* Invalidated! pivots: [5, 7], dihedral: [1, 5, 7, 11], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.47281800   -1.05312100    0.29874100
+O      -0.69979000    1.58230500   -0.87194500
+N       1.17224800   -0.51545900   -0.84709000
+N       1.35489100    1.68050100    2.06349600
+C      -0.30768600   -0.04003400    0.96525100
+C      -1.29550000    0.65750500    0.00210000
+C      -1.05275000   -0.81273000    2.05737300
+C       0.61522600    0.94476000    1.57399600
+H      -1.81782000   -0.15203600   -0.53076500
+H      -2.03367000    1.20444200    0.59429800
+H      -0.34621700   -1.39258300    2.65131800
+H      -1.76547600   -1.49593600    1.59168700
+H      -1.58745000   -0.12495500    2.71349800
+H       1.14460500   -1.28951300   -1.50646600
+H       2.14240800   -0.42443200   -0.54367500
+H       0.05238600    1.11723000   -1.27002800
+""",
+)
+
+entry(
+    index = 86,
+    label = "C4H6N2O2_40",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  N u0 p1 c0 {5,S} {6,S} {13,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  O u0 p2 c0 {2,S} {4,S}
+7  C u0 p0 c0 {1,S} {14,T}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 N u0 p1 c0 {7,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69627,0.0256916,9.31643e-05,-2.15295e-07,1.3758e-10,7912.42,12.7979], Tmin=(10,'K'), Tmax=(520.097,'K')),
+            NASAPolynomial(coeffs=[2.44458,0.0524319,-3.33146e-05,1.00947e-08,-1.17101e-12,7811.15,15.7931], Tmin=(520.097,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (65.7474,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (328.422,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 5, 'N-O': 2, 'C-C': 3, 'C-O': 2, 'C#N': 1, 'H-N': 1}
+1D rotors:
+pivots: [5, 7], dihedral: [1, 5, 7, 11], rotor symmetry: 3, max scan energy: 13.27 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -0.61947400   -0.69285500   -1.09139800
+O      -1.96978300    0.09863900    0.52537800
+N      -1.67872000   -1.12173600   -0.16927800
+N       0.72324000    2.32334200   -1.67117900
+C       0.22358900    0.14803500   -0.28983100
+C      -0.67921000    0.47093000    0.95517200
+C       1.52439600   -0.56295800    0.08411800
+C       0.48900000    1.36320000   -1.07856300
+H      -0.70162400    1.52683900    1.21468600
+H      -0.35383500   -0.13748600    1.80532100
+H       2.09712500   -0.80004300   -0.81283200
+H       1.28031500   -1.48965000    0.60564500
+H       2.13754800    0.06653600    0.73452400
+H      -2.47332600   -1.19373300   -0.81020300
+""",
+)
+
+entry(
+    index = 87,
+    label = "C4H8N2O3_64",
+    molecule =
+"""
+1  O u0 p2 c0 {4,S} {6,S}
+2  O u0 p2 c0 {3,S} {7,S}
+3  O u0 p2 c0 {2,S} {17,S}
+4  N u0 p1 c0 {1,S} {15,S} {16,S}
+5  N u0 p1 c0 {9,T}
+6  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+7  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
+8  C u0 p0 c0 {6,S} {12,S} {13,S} {14,S}
+9  C u0 p0 c0 {5,T} {6,S}
+10 H u0 p0 c0 {7,S}
+11 H u0 p0 c0 {7,S}
+12 H u0 p0 c0 {8,S}
+13 H u0 p0 c0 {8,S}
+14 H u0 p0 c0 {8,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {4,S}
+17 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93597,0.00804412,0.000732599,-4.2358e-06,8.51599e-09,-9179.53,11.2192], Tmin=(10,'K'), Tmax=(144.648,'K')),
+            NASAPolynomial(coeffs=[2.26794,0.0684162,-4.11846e-05,1.13313e-08,-1.18935e-12,-9146.18,15.5263], Tmin=(144.648,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-74.3624,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (386.623,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-H': 5, 'N-O': 1, 'C-C': 3, 'O-O': 1, 'C-O': 2, 'C#N': 1, 'H-N': 2}
+1D rotors:
+pivots: [1, 4], dihedral: [6, 1, 4, 15], rotor symmetry: 1, max scan energy: 90.34 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+A 15 4 16 F
+A 1 6 7 F
+D 4 1 6 7 F
+D 1 6 7 10 F
+D 3 2 7 10 F
+D 7 2 3 17 F
+pivots: [1, 6], dihedral: [4, 1, 6, 7], rotor symmetry: 1, max scan energy: 69.87 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 7 10 F
+D 6 1 4 15 F
+D 3 2 7 10 F
+D 7 2 3 17 F
+pivots: [2, 3], dihedral: [7, 2, 3, 17], rotor symmetry: 1, max scan energy: 64.53 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 7 10 F
+D 6 1 4 15 F
+D 3 2 7 10 F
+D 4 1 6 8 F
+pivots: [2, 7], dihedral: [3, 2, 7, 6], rotor symmetry: 1, max scan energy: 77.17 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 7 10 F
+D 6 1 4 15 F
+D 4 1 6 8 F
+D 7 2 3 17 F
+* Invalidated! pivots: [6, 7], dihedral: [1, 6, 7, 2], invalidation reason: Another conformer for C4H8N2O3_64 exists which is 6.72 kJ/mol lower.
+pivots: [6, 8], dihedral: [1, 6, 8, 12], rotor symmetry: 3, max scan energy: 11.14 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -0.95325900   -0.43920000   -0.80660800
+O       1.41932200    1.59250100   -0.04618900
+O       1.19184100    1.99014400   -1.41801600
+N      -1.32732300    0.87432600   -1.27798100
+N      -1.30468100    0.93647400    2.24328300
+C      -0.07808000   -0.39532900    0.33350700
+C       1.33234700    0.19018800    0.04895500
+C       0.05750700   -1.87229700    0.72836700
+C      -0.74447700    0.36032000    1.41730000
+H       1.97137400   -0.07080800    0.89876200
+H       1.72230700   -0.27727900   -0.85979000
+H       0.56477900   -2.41102700   -0.07418100
+H      -0.92990700   -2.30837700    0.87638900
+H       0.63337700   -1.97217700    1.64900300
+H      -2.15038900    1.13815000   -0.73172400
+H      -1.65928000    0.66456300   -2.21681000
+H       0.21409200    1.89794900   -1.46189500
+""",
+)
+
+entry(
+    index = 88,
+    label = "C4H2N2O2_29",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  C u0 p0 c0 {1,S} {8,T}
+4  C u0 p0 c0 {1,S} {9,T}
+5  O u0 p2 c0 {2,S} {10,S}
+6  H u0 p0 c0 {1,S}
+7  O u0 p2 c0 {2,D}
+8  N u0 p1 c0 {3,T}
+9  N u0 p1 c0 {4,T}
+10 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74684,0.0394464,-2.85234e-05,9.74984e-09,-1.28527e-12,-12418.4,13.7416], Tmin=(10,'K'), Tmax=(2083.84,'K')),
+            NASAPolynomial(coeffs=[0.235942,0.0374122,-2.07437e-05,5.24053e-09,-5.01891e-13,-9050.33,37.8281], Tmin=(2083.84,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-103.257,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (224.491,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 1, 'H-O': 1, 'C=O': 1, 'C-C': 3, 'C#N': 2, 'C-O': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [10, 1, 6, 2], rotor symmetry: 1, max scan energy: 56.96 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 5 6 2 F
+pivots: [5, 6], dihedral: [7, 5, 6, 1], rotor symmetry: 1, max scan energy: 3.98 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.78997600    0.91429400    0.18035000
+O      -1.31365700   -1.05196100   -0.82451600
+N       2.12198300   -1.69601100   -0.39062900
+N       1.29780500    2.55225300   -0.56470300
+C       0.46279300    0.21437600    0.26752000
+C      -0.98453200   -0.07881200   -0.21893800
+C       1.38372000   -0.85792000   -0.11617100
+C       0.93281500    1.52400900   -0.19884200
+H       0.41512700    0.25332400    1.36362100
+H      -2.68520500    0.71873400   -0.13714000
+""",
+)
+
+entry(
+    index = 89,
+    label = "C4H7N2O2_65",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {7,S}
+5  C u0 p0 c0 {1,S} {13,T}
+6  O u0 p2 c0 {2,S} {14,S}
+7  N u1 p1 c0 {4,S} {15,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 N u0 p1 c0 {5,T}
+14 H u0 p0 c0 {6,S}
+15 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42743,0.0481901,2.38662e-05,-9.529e-08,5.60392e-11,-253.944,13.1804], Tmin=(10,'K'), Tmax=(669.235,'K')),
+            NASAPolynomial(coeffs=[6.13586,0.0532143,-3.49394e-05,1.06521e-08,-1.22938e-12,-1091.48,-2.34741], Tmin=(669.235,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-2.18711,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (340.893,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-H': 5, 'N-O': 1, 'C-C': 3, 'C-O': 2, 'C#N': 1, 'H-N': 1}
+1D rotors:
+* Invalidated! pivots: [1, 3], dihedral: [5, 1, 3, 15], invalidation reason: 
+pivots: [1, 5], dihedral: [3, 1, 5, 6], rotor symmetry: 1, max scan energy: 15.94 kJ/mol
+pivots: [2, 6], dihedral: [14, 2, 6, 5], rotor symmetry: 1, max scan energy: 34.62 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 3 1 5 7 F
+pivots: [5, 6], dihedral: [1, 5, 6, 2], rotor symmetry: 1, max scan energy: 53.70 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 14 2 6 10 F
+D 3 1 5 7 F
+pivots: [5, 7], dihedral: [1, 5, 7, 11], rotor symmetry: 3, max scan energy: 12.26 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.34750000    0.35071800   -0.28961700
+O      -0.99758800   -1.69386300   -0.47948000
+N       1.69782500   -0.95590300   -0.39698500
+N      -0.56602700    3.04788100   -0.32400800
+C      -0.05769100    0.51344300    0.11026400
+C      -0.98671600   -0.32901700   -0.80858600
+C      -0.20864400    0.17244500    1.59359600
+C      -0.31418300    1.93995900   -0.13473000
+H      -0.67829400   -0.14650600   -1.84645200
+H      -2.00663600    0.04221800   -0.68829300
+H       0.49465100    0.75824000    2.18628800
+H      -0.01957000   -0.89013200    1.73400700
+H      -1.22509900    0.39254300    1.92467800
+H      -0.08044200   -1.99607400   -0.55780200
+H       2.68407200   -0.87342500   -0.66615200
+""",
+)
+
+entry(
+    index = 90,
+    label = "C4H5N2O2_41",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {6,S} {11,S}
+4  N u0 p1 c0 {5,S} {6,S} {12,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  O u0 p2 c0 {3,S} {4,S}
+7  C u0 p0 c0 {1,S} {13,T}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 N u0 p1 c0 {7,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75421,0.0193229,0.000156034,-4.08286e-07,3.14185e-10,31446.9,13.0188], Tmin=(10,'K'), Tmax=(432.763,'K')),
+            NASAPolynomial(coeffs=[3.01338,0.0500233,-3.30531e-05,1.03626e-08,-1.23623e-12,31287.6,13.3918], Tmin=(432.763,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (261.452,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (307.635,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 4, 'N-O': 2, 'C-C': 3, 'C-O': 2, 'C#N': 1, 'H-N': 1}
+1D rotors:
+* Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 9], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.94416400   -0.33845500   -0.92148600
+O       1.50622800   -0.75089100    1.22799100
+N       1.38960000   -1.41412000   -0.07115700
+N      -0.06555400    2.85513200   -0.70362600
+C      -0.08932000    0.29366700   -0.13737900
+C      -1.46705100   -0.31760000   -0.41743300
+C       0.40880100    0.04599400    1.28578600
+C      -0.05636600    1.72467100   -0.47882600
+H      -1.42418200   -1.38633900   -0.20633900
+H      -1.74217100   -0.15979600   -1.46176300
+H      -2.22103600    0.14186300    0.22512500
+H       0.43706000    0.79257900    2.06680500
+H       2.37328600   -1.48973800   -0.34387300
+""",
+)
+
+entry(
+    index = 91,
+    label = "C4H3NO_66",
+    molecule =
+"""
+1 O u0 p2 c0 {5,D}
+2 N u0 p1 c0 {6,T}
+3 C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+4 C u0 p0 c0 {3,S} {5,D} {6,S}
+5 C u0 p0 c0 {1,D} {4,D}
+6 C u0 p0 c0 {2,T} {4,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88869,0.0128288,0.000270551,-1.67937e-06,3.18616e-09,6915.75,9.99064], Tmin=(10,'K'), Tmax=(181.94,'K')),
+            NASAPolynomial(coeffs=[4.22303,0.0265077,-1.56022e-05,4.44365e-09,-4.91612e-13,6868.77,7.99086], Tmin=(181.94,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (57.8403,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (203.705,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 3, 'C-C': 2, 'C=O': 1, 'C#N': 1, 'C=C': 1}
+1D rotors:
+pivots: [3, 4], dihedral: [7, 3, 4, 5], rotor symmetry: 3, max scan energy: 4.72 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       2.62571900   -0.34142700   -0.51338300
+N      -0.41087700    2.72236300    0.22486900
+C      -0.78397100   -0.84538900    0.10198100
+C       0.26430800    0.25156700   -0.03619300
+C       1.53025700   -0.04899500   -0.29107500
+C      -0.08389700    1.61886900    0.10348200
+H      -1.23870300   -0.81060100    1.09424800
+H      -0.33573500   -1.83014200   -0.03583000
+H      -1.56709900   -0.71624600   -0.64809700
+""",
+)
+
+entry(
+    index = 92,
+    label = "C3H5O3_0b",
+    molecule =
+"""
+multiplicity 2
+1  O u0 p2 c0 {2,S} {6,S}
+2  O u0 p2 c0 {1,S} {11,S}
+3  O u0 p2 c0 {5,D}
+4  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5  C u0 p0 c0 {3,D} {4,S} {6,S}
+6  C u1 p0 c0 {1,S} {5,S} {10,S}
+7  H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.62487,0.0328672,5.32718e-05,-2.13898e-07,1.87734e-10,-20031.7,12.4056], Tmin=(10,'K'), Tmax=(424.542,'K')),
+            NASAPolynomial(coeffs=[5.02953,0.0373809,-2.53849e-05,8.09157e-09,-9.76016e-13,-20310.9,4.94863], Tmin=(424.542,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-166.563,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (241.12,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 1, 'H-O': 1, 'C-H': 4, 'O-O': 1, 'C-C': 2, 'C-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 11], rotor symmetry: 1, max scan energy: 23.30 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+B 1 2 F
+B 2 11 F
+pivots: [1, 6], dihedral: [2, 1, 6, 5], rotor symmetry: 1, max scan energy: 28.46 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 5 10 F
+D 6 1 2 11 F
+B 1 2 F
+pivots: [4, 5], dihedral: [7, 4, 5, 3], rotor symmetry: 3, max scan energy: 1.18 kJ/mol
+pivots: [5, 6], dihedral: [3, 5, 6, 1], rotor symmetry: 1, max scan energy: 72.83 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 5 6 1 10 F
+D 2 1 6 5 F
+D 7 4 5 6 F
+D 6 1 2 11 F
+B 1 2 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -0.78579300    1.86688900   -3.52642100
+O      -0.17447300    3.01118000   -4.27992400
+O       0.51645800    0.30957700   -0.68201300
+C      -1.78498700    0.94572500   -1.02901000
+C      -0.32083600    0.84632400   -1.40553200
+C       0.10853200    1.38211900   -2.67751100
+H      -1.88462900    0.74956400    0.03784300
+H      -2.19838800    1.92602300   -1.27581200
+H      -2.36531900    0.19868400   -1.58003800
+H       1.15391800    1.39466800   -2.96317300
+H      -0.64035500    2.89224100   -5.12132700
+""",
+)
+
+entry(
+    index = 93,
+    label = "C4H8N2O2_67",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  N u0 p1 c0 {5,S} {7,S} {14,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  C u0 p0 c0 {1,S} {15,T}
+7  O u0 p2 c0 {4,S} {16,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
+15 N u0 p1 c0 {6,T}
+16 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56731,0.0365996,0.000144937,-4.3817e-07,3.59746e-10,-6849.87,12.6814], Tmin=(10,'K'), Tmax=(420.883,'K')),
+            NASAPolynomial(coeffs=[3.95793,0.0607507,-4.044e-05,1.27551e-08,-1.52879e-12,-7129.54,8.2031], Tmin=(420.883,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-56.963,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (374.151,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-H': 6, 'N-O': 2, 'C-C': 3, 'C-O': 1, 'C#N': 1, 'H-N': 1}
+1D rotors:
+* Invalidated! pivots: [1, 3], dihedral: [5, 1, 3, 2], invalidation reason: 
+pivots: [1, 5], dihedral: [3, 1, 5, 6], rotor symmetry: 1, max scan energy: 26.10 kJ/mol
+pivots: [2, 3], dihedral: [16, 2, 3, 1], rotor symmetry: 1, max scan energy: 46.44 kJ/mol
+* Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 9], invalidation reason: 
+* Invalidated! pivots: [5, 7], dihedral: [1, 5, 7, 12], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       3.03767200   -1.21063000   -0.64113900
+O       1.84110100    0.60680600   -1.40925700
+N       1.72007500   -0.62434800   -0.72591300
+N       3.41355800    1.39580800    1.48489300
+C       3.55383700   -1.11661100    0.69898300
+C       2.75773800   -2.00473200    1.66343800
+C       5.01765600   -1.55098400    0.57709500
+C       3.48535200    0.29582900    1.14671200
+H       2.83618600   -3.04149700    1.32957200
+H       3.15259500   -1.92725800    2.67876700
+H       1.70927900   -1.70823300    1.66792000
+H       5.54743500   -0.90275400   -0.12112100
+H       5.04951100   -2.57512300    0.20131900
+H       5.51050400   -1.51177000    1.54987900
+H       1.30957500   -1.21644200   -1.44430400
+H       1.85082300    1.25846900   -0.69656100
+""",
+)
+
+entry(
+    index = 94,
+    label = "C4H7N2O3_42",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  N u0 p1 c0 {5,S} {7,S} {14,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  C u0 p0 c0 {1,S} {15,T}
+7  O u0 p2 c0 {4,S} {16,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
+15 N u0 p1 c0 {6,T}
+16 O u1 p2 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.66241,0.0400204,0.000452917,-3.04814e-06,5.97305e-09,18688.4,14.1751], Tmin=(10,'K'), Tmax=(180.006,'K')),
+            NASAPolynomial(coeffs=[4.63263,0.0586969,-3.80073e-05,1.18272e-08,-1.41051e-12,18588.3,9.34734], Tmin=(180.006,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (156.112,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (382.466,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 6, 'N-O': 2, 'C-C': 3, 'O-O': 1, 'C-O': 1, 'C#N': 1, 'H-N': 1}
+1D rotors:
+* Invalidated! pivots: [1, 4], dihedral: [6, 1, 4, 2], invalidation reason: Bond ([[2, 4]]) broke during the scan.
+* Invalidated! pivots: [1, 6], dihedral: [4, 1, 6, 7], invalidation reason: 
+* Invalidated! pivots: [2, 4], dihedral: [3, 2, 4, 1], invalidation reason: Bond ([[2, 4]]) broke during the scan.
+* Invalidated! pivots: [6, 7], dihedral: [1, 6, 7, 10], invalidation reason: 
+* Invalidated! pivots: [6, 8], dihedral: [1, 6, 8, 13], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.86714100   -0.43829600    0.73378500
+O       2.43822500    0.67119700   -0.61780600
+O       3.68281200    0.39702800   -0.72272200
+N       1.60834000   -0.64109900   -0.40400200
+N      -1.64770500    0.17500600    2.77186500
+C      -0.54241500   -0.15405500    0.41459500
+C      -1.17884400   -1.35867400   -0.28576600
+C      -0.66141400    1.14061300   -0.39549400
+C      -1.13806900    0.02818900    1.74964400
+H      -1.07171200   -2.25475300    0.32707100
+H      -2.24104500   -1.17485900   -0.45607800
+H      -0.68613700   -1.51619600   -1.24540200
+H      -0.19706900    1.00212700   -1.37268500
+H      -0.16614900    1.96166000    0.12340100
+H      -1.71327500    1.39434300   -0.53847700
+H       2.38997600   -1.22370300   -0.08552800
+""",
+)
+
+entry(
+    index = 95,
+    label = "C4H2NO2_68",
+    molecule =
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 C u0 p0 c0 {1,S} {8,T}
+4 C u0 p0 c0 {1,D} {7,D}
+5 O u0 p2 c0 {2,S} {9,S}
+6 H u0 p0 c0 {2,S}
+7 O u0 p2 c0 {4,D}
+8 N u0 p1 c0 {3,T}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82709,0.0129011,0.000138643,-4.08232e-07,3.48869e-10,3117.11,11.5281], Tmin=(10,'K'), Tmax=(406.33,'K')),
+            NASAPolynomial(coeffs=[4.5964,0.0306784,-2.05676e-05,6.52796e-09,-7.87711e-13,2845.32,5.93427], Tmin=(406.33,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (25.9204,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-C': 2, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1, 'C-H': 1}
+1D rotors:
+* Invalidated! pivots: [1, 5], dihedral: [9, 1, 5, 4], invalidation reason: Another conformer for C4H2NO2_68 exists which is 46.89 kJ/mol lower.
+* Invalidated! pivots: [4, 5], dihedral: [6, 4, 5, 1], invalidation reason: 
+* Invalidated! pivots: [4, 7], dihedral: [5, 4, 7, 2], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.91501000    0.44404900    0.47750500
+O      -0.04752300    2.19199100    1.23953900
+N       2.27576400   -1.23938300   -1.02147900
+C       0.41640600    0.19728400    0.03843100
+C      -0.89378800   -0.20743900   -0.02587000
+C       1.44603500   -0.59240300   -0.54513500
+C       0.73346600    1.44989300    0.71496600
+H      -1.17683300   -1.13302100   -0.51953800
+H      -1.59649500    1.26768900    0.90828300
+""",
+)
+
+entry(
+    index = 96,
+    label = "C4HN2O2_30",
+    molecule =
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,D}
+3 C u0 p0 c0 {1,S} {8,T}
+4 C u0 p0 c0 {1,S} {9,T}
+5 H u0 p0 c0 {1,S}
+6 O u1 p2 c0 {2,S}
+7 O u0 p2 c0 {2,D}
+8 N u0 p1 c0 {3,T}
+9 N u0 p1 c0 {4,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.50826,0.048802,-7.35795e-05,7.10519e-08,-3.00415e-11,18459.7,13.228], Tmin=(10,'K'), Tmax=(551.936,'K')),
+            NASAPolynomial(coeffs=[6.22378,0.029122,-2.00949e-05,6.44928e-09,-7.79662e-13,18159.9,1.74109], Tmin=(551.936,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (153.478,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (203.705,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 1, 'C=O': 1, 'C-C': 3, 'C#N': 2, 'C-O': 1}
+1D rotors:
+pivots: [5, 6], dihedral: [7, 5, 6, 1], rotor symmetry: 2, max scan energy: 4.36 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       1.89729200   -1.09432700    0.15053900
+O       1.72816800    0.76497900    1.11816400
+N      -1.66273600    1.75161000    1.09557900
+N      -1.31103000   -2.11426800   -0.91643100
+C      -0.15302900    0.15547000   -0.32439000
+C       1.20897000   -0.07717100    0.36068800
+C      -1.00385400    1.04318700    0.47280300
+C      -0.80755100   -1.11453600   -0.65019200
+H       0.08115700    0.66816600   -1.26854800
+""",
+)
+
+entry(
+    index = 97,
+    label = "C4HNO2_69",
+    molecule =
+"""
+1 O u0 p2 c0 {5,D}
+2 O u0 p2 c0 {7,D}
+3 N u0 p1 c0 {6,T}
+4 C u0 p0 c0 {5,S} {6,S} {7,D}
+5 C u0 p0 c0 {1,D} {4,S} {8,S}
+6 C u0 p0 c0 {3,T} {4,S}
+7 C u0 p0 c0 {2,D} {4,D}
+8 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.77528,0.0189552,0.000141482,-5.64866e-07,6.13096e-10,-3775.81,11.1313], Tmin=(10,'K'), Tmax=(336.163,'K')),
+            NASAPolynomial(coeffs=[5.61603,0.0258444,-1.77335e-05,5.67111e-09,-6.86969e-13,-4062.26,1.83773], Tmin=(336.163,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-31.3616,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (178.761,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-C': 2, 'C=O': 2, 'C#N': 1, 'C=C': 1, 'C-H': 1}
+1D rotors:
+pivots: [4, 5], dihedral: [6, 4, 5, 1], rotor symmetry: 1, max scan energy: 49.91 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.36716200   -2.16285500   -0.00289800
+O       2.39619800   -0.24956300   -0.96802100
+N      -0.72990300    2.54333900    0.46438500
+C       0.13174000    0.17207000   -0.04045600
+C      -0.71480600   -1.03129800    0.21279900
+C      -0.31952000    1.48853700    0.22906400
+C       1.35798700   -0.03043300   -0.54097600
+H      -1.70668500   -0.76886200    0.62443400
+""",
+)
+
+entry(
+    index = 98,
+    label = "C4H8N2O3_43",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+3  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
+4  N u0 p1 c0 {5,S} {7,S} {15,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  C u0 p0 c0 {1,S} {16,T}
+7  O u0 p2 c0 {4,S} {8,S}
+8  O u0 p2 c0 {7,S} {17,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {4,S}
+16 N u0 p1 c0 {6,T}
+17 H u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.54034,0.0420017,0.000261769,-1.0973e-06,1.27298e-09,-1334.83,13.3754], Tmin=(10,'K'), Tmax=(307.068,'K')),
+            NASAPolynomial(coeffs=[5.40374,0.0606971,-3.94557e-05,1.23855e-08,-1.49035e-12,-1651.84,3.28705], Tmin=(307.068,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-11.0361,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (403.252,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-H': 6, 'N-O': 2, 'C-C': 3, 'O-O': 1, 'C-O': 1, 'C#N': 1, 'H-N': 1}
+1D rotors:
+* Invalidated! pivots: [1, 4], dihedral: [6, 1, 4, 2], invalidation reason: 
+* Invalidated! pivots: [1, 6], dihedral: [4, 1, 6, 7], invalidation reason: 
+pivots: [2, 3], dihedral: [4, 2, 3, 17], rotor symmetry: 1, max scan energy: 33.42 kJ/mol
+* Invalidated! pivots: [2, 4], dihedral: [3, 2, 4, 1], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [1, 6, 7, 10], invalidation reason: 
+* Invalidated! pivots: [6, 8], dihedral: [1, 6, 8, 13], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       2.15591100    0.97009200   -1.69772700
+O       1.82758500   -1.04667600   -0.68819700
+O       3.22914000   -1.13336400   -0.20538000
+N       1.41961600    0.24441700   -0.70351400
+N      -0.61179700    2.90700100   -2.06494100
+C       1.32513800    1.29985200   -2.83778200
+C       2.26960300    2.06842800   -3.76784800
+C       0.74280900    0.04961900   -3.50541400
+C       0.23382300    2.19512100   -2.39044300
+H       3.08109900    1.40759100   -4.07775100
+H       2.69098500    2.93132700   -3.25152200
+H       1.73152000    2.41160100   -4.65255700
+H       0.10714700   -0.50057600   -2.81309800
+H       0.14742000    0.33456200   -4.37531700
+H       1.55987000   -0.59734600   -3.83035600
+H       1.73862400    0.67645200    0.16569000
+H       3.70832600   -0.96284300   -1.03046100
+""",
+)
+
+entry(
+    index = 99,
+    label = "C4NO2_70",
+    molecule =
+"""
+multiplicity 2
+1 O u0 p2 c0 {5,D}
+2 O u0 p2 c0 {7,D}
+3 N u0 p1 c0 {6,T}
+4 C u0 p0 c0 {5,S} {6,S} {7,D}
+5 C u1 p0 c0 {1,D} {4,S}
+6 C u0 p0 c0 {3,T} {4,S}
+7 C u0 p0 c0 {2,D} {4,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75782,0.0193244,0.00011372,-4.27408e-07,4.18219e-10,16382.3,11.7705], Tmin=(10,'K'), Tmax=(379.805,'K')),
+            NASAPolynomial(coeffs=[6.17571,0.023179,-1.72964e-05,5.8125e-09,-7.25572e-13,15987.2,-0.337588], Tmin=(379.805,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (136.228,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (153.818,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-C': 2, 'C=O': 2, 'C#N': 1, 'C=C': 1}
+1D rotors:
+pivots: [4, 5], dihedral: [6, 4, 5, 1], rotor symmetry: 1, max scan energy: 48.68 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.63921200   -2.25373500   -0.36734200
+O       2.32183200   -0.45058000    0.05842000
+N      -1.23792600    2.40010900    0.28792100
+C      -0.09597700    0.11087700    0.01121300
+C      -0.86042100   -1.11268900   -0.21068800
+C      -0.72547800    1.37286300    0.16375500
+C       1.23718100   -0.06684500    0.05672100
+""",
+)
+
+entry(
+    index = 100,
+    label = "C3NO3_8",
+    molecule =
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {5,S}
+2 O u1 p2 c0 {1,S}
+3 O u0 p2 c0 {6,D}
+4 N u0 p1 c0 {7,T}
+5 C u0 p0 c0 {1,S} {6,D} {7,S}
+6 C u0 p0 c0 {3,D} {5,D}
+7 C u0 p0 c0 {4,T} {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.24265,0.0507231,-9.01562e-05,7.78619e-08,-2.52877e-11,25535.2,12.5296], Tmin=(10,'K'), Tmax=(913.342,'K')),
+            NASAPolynomial(coeffs=[8.37234,0.0148296,-9.15476e-06,2.6404e-09,-2.92037e-13,25158.2,-8.68715], Tmin=(913.342,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (212.159,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (153.818,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=C': 1, 'C=O': 1, 'O-O': 1, 'C#N': 1, 'C-C': 1, 'C-O': 1}
+1D rotors:
+pivots: [1, 5], dihedral: [2, 1, 5, 6], rotor symmetry: 1, max scan energy: 7.82 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.18969700    1.44615900   -0.04876000
+O      -1.49430100    1.64255400   -0.17685900
+O      -1.63069300   -1.55968700   -0.79045000
+N       2.59886900   -0.60855300   -0.07935300
+C       0.14305500    0.10280200   -0.25691900
+C      -0.83938900   -0.76582900   -0.54271300
+C       1.49060800   -0.28581900   -0.15916600
+""",
+)
+
+entry(
+    index = 101,
+    label = "C4H3NO2_71",
+    molecule =
+"""
+1  O u0 p2 c0 {5,S} {10,S}
+2  O u0 p2 c0 {5,D}
+3  N u0 p1 c0 {7,T}
+4  C u0 p0 c0 {5,S} {6,D} {7,S}
+5  C u0 p0 c0 {1,S} {2,D} {4,S}
+6  C u0 p0 c0 {4,D} {8,S} {9,S}
+7  C u0 p0 c0 {3,T} {4,S}
+8  H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78307,0.0184196,6.83003e-05,-1.47416e-07,8.53568e-11,-23649,11.1378], Tmin=(10,'K'), Tmax=(599.325,'K')),
+            NASAPolynomial(coeffs=[3.80148,0.0368924,-2.44751e-05,7.55481e-09,-8.8263e-13,-23985.2,8.27218], Tmin=(599.325,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-196.668,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (228.648,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-H': 2, 'C-C': 2, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1}
+1D rotors:
+pivots: [1, 5], dihedral: [10, 1, 5, 2], rotor symmetry: 1, max scan energy: 52.86 kJ/mol
+* Invalidated! pivots: [4, 5], dihedral: [6, 4, 5, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       1.56466700    0.55444600   -1.36859500
+O       1.67928400   -0.80764100    0.42034600
+N      -1.61366300    1.79887100   -1.78143800
+C      -0.41405300    0.21615100   -0.12655700
+C       1.04862100   -0.08335400   -0.30449600
+C      -1.06790300   -0.34953300    0.89518400
+C      -1.06948900    1.09340700   -1.04757500
+H      -0.52915500   -1.00687500    1.56639100
+H      -2.12032500   -0.16681900    1.06736900
+H       2.50237200    0.31571900   -1.41975000
+""",
+)
+
+entry(
+    index = 102,
+    label = "C4H2N2O3_46",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,D} {9,S}
+2  C u0 p0 c0 {1,S} {5,S} {8,D}
+3  C u0 p0 c0 {1,D} {4,D}
+4  N u0 p1 c0 {3,D} {6,S}
+5  O u0 p2 c0 {2,S} {10,S}
+6  N u0 p1 c0 {4,S} {7,D}
+7  C u0 p0 c0 {6,D} {11,D}
+8  O u0 p2 c0 {2,D}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {5,S}
+11 O u0 p2 c0 {7,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.49132,0.0464555,-1.65103e-05,-2.90306e-08,2.24974e-11,-16477,13.6292], Tmin=(10,'K'), Tmax=(713.107,'K')),
+            NASAPolynomial(coeffs=[8.5986,0.0334056,-2.18707e-05,6.65426e-09,-7.66458e-13,-17602,-12.0643], Tmin=(713.107,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-137.052,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (253.591,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-C': 1, 'C-O': 1, 'C=O': 2, 'N-N': 1, 'C=N': 2, 'C=C': 1, 'C-H': 1}
+1D rotors:
+* Invalidated! pivots: [1, 7], dihedral: [11, 1, 7, 2], invalidation reason: 
+pivots: [4, 5], dihedral: [8, 4, 5, 9], rotor symmetry: 1, max scan energy: 26.73 kJ/mol
+* Invalidated! pivots: [6, 7], dihedral: [8, 6, 7, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -3.13304100   -0.33143700   -0.04926900
+O      -1.81767000    1.19142100    0.96987900
+O       4.71199000    0.90987100    0.54407800
+N       1.52672100   -0.34836400    0.75165500
+N       2.46808600    0.34483900    0.00233800
+C      -0.85360500   -0.78599600    0.01830000
+C      -1.93970700    0.14788900    0.37958800
+C       0.39421000   -0.51558800    0.32666800
+C       3.60978900    0.58919800    0.37047300
+H      -1.09443400   -1.69505900   -0.51910100
+H      -3.79913500    0.31943800    0.21661800
+""",
+)
+
+entry(
+    index = 103,
+    label = "C4H2NO2_73",
+    molecule =
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {5,S} {6,D}
+3 C u1 p0 c0 {1,D} {9,S}
+4 C u0 p0 c0 {1,S} {7,T}
+5 O u0 p2 c0 {2,S} {8,S}
+6 O u0 p2 c0 {2,D}
+7 N u0 p1 c0 {4,T}
+8 H u0 p0 c0 {5,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79267,0.0151369,0.000136092,-3.96768e-07,3.26284e-10,8028.5,12.1354], Tmin=(10,'K'), Tmax=(431.015,'K')),
+            NASAPolynomial(coeffs=[5.33598,0.0305896,-2.13085e-05,6.96706e-09,-8.57629e-13,7618.89,2.78027], Tmin=(431.015,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (66.7431,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-C': 2, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1, 'C-H': 1}
+1D rotors:
+* Invalidated! pivots: [1, 5], dihedral: [8, 1, 5, 2], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [6, 4, 5, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.72916500   -0.21287600    0.36534700
+O      -0.19677300   -1.86611200    0.38988700
+N       2.96383200   -0.38426000   -0.44809200
+C       0.50701600    0.36574700   -0.14219400
+C      -0.48479700   -0.71348300    0.23234200
+C       0.14705100    1.62493300   -0.30614900
+C       1.86653800   -0.05663100   -0.31013300
+H      -2.30733900   -0.95293200    0.60383100
+H      -0.76636100    2.19561300   -0.24543300
+""",
+)
+
+entry(
+    index = 104,
+    label = "C4HN2O2_31",
+    molecule =
+"""
+multiplicity 2
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 C u0 p0 c0 {1,S} {5,S} {6,D}
+3 C u0 p0 c0 {1,S} {7,T}
+4 C u0 p0 c0 {1,S} {8,T}
+5 O u0 p2 c0 {2,S} {9,S}
+6 O u0 p2 c0 {2,D}
+7 N u0 p1 c0 {3,T}
+8 N u0 p1 c0 {4,T}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72082,0.026714,0.000120222,-5.45038e-07,6.63778e-10,2696.07,12.0076], Tmin=(10,'K'), Tmax=(287.137,'K')),
+            NASAPolynomial(coeffs=[4.14971,0.0379755,-2.86509e-05,9.67097e-09,-1.20843e-12,2600.39,9.23631], Tmin=(287.137,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (22.4565,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (199.547,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C=O': 1, 'C-C': 3, 'C#N': 2, 'C-O': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [9, 1, 6, 2], rotor symmetry: 2, max scan energy: 49.76 kJ/mol
+pivots: [5, 6], dihedral: [7, 5, 6, 1], rotor symmetry: 2, max scan energy: 24.88 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.63580900   -1.72283000    0.10541300
+O      -1.76255400    0.04609600    0.95511300
+N       0.27046700    2.93452200    0.25782200
+N       2.31942000   -0.64638500   -1.33739500
+C       0.32402700    0.40122900   -0.11926500
+C      -0.81565700   -0.42198900    0.38105400
+C       0.28838100    1.78556300    0.09023000
+C       1.41396200   -0.17193400   -0.78476700
+H      -1.40223800   -2.20427100    0.45179400
+""",
+)
+
+entry(
+    index = 105,
+    label = "C4HN2O3_74",
+    molecule =
+"""
+multiplicity 2
+1  O u1 p2 c0 {7,S}
+2  O u0 p2 c0 {7,D}
+3  O u0 p2 c0 {9,D}
+4  N u0 p1 c0 {5,S} {8,D}
+5  N u0 p1 c0 {4,S} {9,D}
+6  C u0 p0 c0 {7,S} {8,D} {10,S}
+7  C u0 p0 c0 {1,S} {2,D} {6,S}
+8  C u0 p0 c0 {4,D} {6,D}
+9  C u0 p0 c0 {3,D} {5,D}
+10 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.51653,0.048768,-3.7546e-05,6.16619e-09,3.32027e-12,13091.8,14.0668], Tmin=(10,'K'), Tmax=(879.978,'K')),
+            NASAPolynomial(coeffs=[11.4596,0.0243054,-1.5694e-05,4.64688e-09,-5.197e-13,11243.1,-25.7997], Tmin=(879.978,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (108.831,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (224.491,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-C': 1, 'C-O': 1, 'C=O': 2, 'N-N': 1, 'C=N': 2, 'C=C': 1, 'C-H': 1}
+1D rotors:
+pivots: [4, 5], dihedral: [8, 4, 5, 9], rotor symmetry: 1, max scan energy: 27.81 kJ/mol
+pivots: [6, 7], dihedral: [8, 6, 7, 1], rotor symmetry: 2, max scan energy: 17.04 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -3.33794900    0.99984200   -0.52247200
+O      -1.47820300    1.91149300   -0.79256100
+O       4.33676200   -1.02909600   -0.34376000
+N       1.05023700   -0.46285000    0.42337200
+N       1.96866700   -0.91205600   -0.50813700
+C      -1.45380600   -0.33939800    0.09109500
+C      -2.09049100    0.87659700   -0.41607900
+C      -0.14487300   -0.43843500    0.18460700
+C       3.18187400   -0.93310900   -0.32837700
+H      -2.09254600   -1.16776900    0.37637200
+""",
+)
+
+entry(
+    index = 106,
+    label = "C4H2N2O3_48",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {4,D} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,D}
+3  C u0 p0 c0 {4,S} {8,D} {9,S}
+4  N u0 p1 c0 {1,D} {3,S}
+5  C u0 p0 c0 {1,S} {10,T}
+6  O u0 p2 c0 {2,S} {11,S}
+7  O u0 p2 c0 {2,D}
+8  O u0 p2 c0 {3,D}
+9  H u0 p0 c0 {3,S}
+10 N u0 p1 c0 {5,T}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79687,0.0233339,0.000422085,-2.69647e-06,5.15139e-09,-29079.7,12.7966], Tmin=(10,'K'), Tmax=(182.594,'K')),
+            NASAPolynomial(coeffs=[4.50779,0.043021,-2.9307e-05,9.19007e-09,-1.08801e-12,-29164.4,8.9662], Tmin=(182.594,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-241.225,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (253.591,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-C': 2, 'C-N': 1, 'C-O': 1, 'C=O': 2, 'C#N': 1, 'C=N': 1, 'C-H': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [11, 1, 7, 2], rotor symmetry: 1, max scan energy: 56.32 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 9 6 7 2 F
+D 6 4 8 3 F
+D 4 6 7 1 F
+* Invalidated! pivots: [4, 8], dihedral: [6, 4, 8, 3], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [4, 6, 7, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.08945600   -1.36383200    0.92939600
+O      -1.33093200   -0.00257600    2.04194800
+O       1.98855800    0.02333800   -1.18062400
+N      -0.29236000    0.23805800   -1.34052300
+N      -3.17712700    1.76971000   -0.42452200
+C      -1.02691000    0.31425600   -0.31479500
+C      -0.78604200   -0.35584600    1.03587800
+C       0.92792800   -0.44951500   -1.47454800
+C      -2.21970500    1.13061700   -0.36487500
+H       0.79301300   -1.41437400   -1.99456700
+H       0.24293900   -1.72596300    1.81563200
+""",
+)
+
+entry(
+    index = 107,
+    label = "C4HN2O3_49",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,D} {7,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,D}
+3  C u0 p0 c0 {1,D} {4,D}
+4  N u0 p1 c0 {3,D} {5,S}
+5  O u0 p2 c0 {4,S} {6,S}
+6  C u0 p0 c0 {5,S} {10,T}
+7  H u0 p0 c0 {1,S}
+8  O u1 p2 c0 {2,S}
+9  O u0 p2 c0 {2,D}
+10 N u0 p1 c0 {6,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45088,0.0574218,-7.5382e-05,5.8025e-08,-1.936e-11,33723.5,15.1468], Tmin=(10,'K'), Tmax=(682.966,'K')),
+            NASAPolynomial(coeffs=[7.46164,0.0339315,-2.37897e-05,7.66372e-09,-9.25071e-13,33175.7,-2.67348], Tmin=(682.966,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (280.385,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'N-O': 1, 'C-C': 1, 'C-O': 2, 'C=O': 1, 'C#N': 1, 'C=N': 1, 'C=C': 1, 'C-H': 1}
+1D rotors:
+* Invalidated! pivots: [1, 4], dihedral: [9, 1, 4, 8], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [8, 6, 7, 2], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.85422800    0.76113500   -0.84788100
+O       3.38591700   -0.11062800    0.74040400
+O       1.64612900    0.35778300    1.80731700
+N      -1.18626800   -0.49208800   -0.40093600
+N      -4.29751900    0.59522000   -0.77574900
+C       1.34225600   -0.45878900   -0.45243200
+C       2.13326500   -0.06017400    0.72751200
+C       0.03201200   -0.39850500   -0.45570800
+C      -3.14202600    0.63264600   -0.79370700
+H       1.87985800   -0.80179000   -1.33024800
+""",
+)
+
+entry(
+    index = 108,
+    label = "C4H2N2O2_33",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,D} {4,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  C u0 p0 c0 {1,D} {6,D}
+4  C u0 p0 c0 {1,S} {8,T}
+5  O u0 p2 c0 {2,S} {9,S}
+6  N u0 p1 c0 {3,D} {10,S}
+7  O u0 p2 c0 {2,D}
+8  N u0 p1 c0 {4,T}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.77631,0.0188794,0.000185918,-6.65988e-07,6.93605e-10,-7371.38,12.8292], Tmin=(10,'K'), Tmax=(331.331,'K')),
+            NASAPolynomial(coeffs=[4.35151,0.0389382,-2.71392e-05,8.67537e-09,-1.04502e-12,-7557.72,8.4528], Tmin=(331.331,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-61.2531,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (224.491,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=C': 1, 'H-O': 1, 'C=N': 1, 'C=O': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1, 'H-N': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [9, 1, 6, 2], rotor symmetry: 1, max scan energy: 52.34 kJ/mol
+pivots: [5, 6], dihedral: [7, 5, 6, 1], rotor symmetry: 2, max scan energy: 38.18 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.05807100   -1.95071500    0.44458400
+O      -1.93815900   -0.95811000    0.08551300
+N       2.58851500    0.24590600   -0.12197500
+N      -1.12917300    2.54525200   -0.66489600
+C       0.05842800    0.32473100   -0.11847800
+C      -0.74047500   -0.89979700    0.13845300
+C       1.39212700    0.29718900   -0.05301800
+C      -0.60419800    1.54582100   -0.42134700
+H      -0.52489900   -2.71055400    0.58684900
+H       3.19610500    0.40557900    0.67782600
+""",
+)
+
+entry(
+    index = 109,
+    label = "C4N2O_50",
+    molecule =
+"""
+1 O u0 p2 c0 {5,D}
+2 N u0 p1 c0 {6,T}
+3 N u0 p1 c0 {7,T}
+4 C u0 p0 c0 {5,D} {6,S} {7,S}
+5 C u0 p0 c0 {1,D} {4,D}
+6 C u0 p0 c0 {2,T} {4,S}
+7 C u0 p0 c0 {3,T} {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78854,0.016559,0.000117921,-4.31442e-07,4.19695e-10,31065.9,10.4842], Tmin=(10,'K'), Tmax=(381.545,'K')),
+            NASAPolynomial(coeffs=[6.28769,0.020252,-1.41196e-05,4.61366e-09,-5.69559e-13,30657.6,-2.0161], Tmin=(381.545,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (258.313,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-C': 2, 'C=O': 1, 'C#N': 2, 'C=C': 1}
+
+External symmetry: 2, optical isomers: 1
+
+Geometry:
+O       2.47990000   -0.14696700   -0.11346600
+N      -1.09578900    2.33351300    0.05254200
+N      -1.36339600   -2.18777300    0.05997600
+C      -0.00033600    0.00002000    0.00001500
+C       1.33835500   -0.07931600   -0.06123500
+C      -0.60551500    1.28803300    0.02903200
+C      -0.75322100   -1.20750900    0.03313600
+""",
+)
+
+entry(
+    index = 110,
+    label = "C3HNO3_9",
+    molecule =
+"""
+1 O u0 p2 c0 {2,S} {5,S}
+2 O u0 p2 c0 {1,S} {8,S}
+3 O u0 p2 c0 {6,D}
+4 N u0 p1 c0 {7,T}
+5 C u0 p0 c0 {1,S} {6,D} {7,S}
+6 C u0 p0 c0 {3,D} {5,D}
+7 C u0 p0 c0 {4,T} {5,S}
+8 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.62431,0.0333711,5.05364e-05,-3.05452e-07,3.38006e-10,4645.4,12.1285], Tmin=(10,'K'), Tmax=(368.609,'K')),
+            NASAPolynomial(coeffs=[6.79344,0.0245438,-1.75662e-05,5.85629e-09,-7.31688e-13,4238.1,-2.3535], Tmin=(368.609,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (38.6444,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=C': 1, 'H-O': 1, 'C=O': 1, 'O-O': 1, 'C#N': 1, 'C-C': 1, 'C-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [5, 1, 2, 8], invalidation reason: 
+* Invalidated! pivots: [1, 5], dihedral: [2, 1, 5, 6], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -0.47797700   -0.71683700   -1.02045600
+O      -1.48664600   -1.20786800   -0.02461600
+O       2.53270700   -0.88658200    0.35588100
+N      -0.21121700    2.59392600    0.05229600
+C       0.38150000    0.12750100   -0.38378200
+C       1.53442200   -0.41112500    0.04446900
+C       0.06752200    1.48720600   -0.13692100
+H      -2.29456600   -0.88575000   -0.45241100
+""",
+)
+
+entry(
+    index = 111,
+    label = "C4H2N2O2_51",
+    molecule =
+"""
+1  C u0 p0 c0 {2,D} {5,S} {6,S}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {10,S}
+4  O u0 p2 c0 {2,S} {9,S}
+5  C u0 p0 c0 {1,S} {7,T}
+6  C u0 p0 c0 {1,S} {8,T}
+7  N u0 p1 c0 {5,T}
+8  N u0 p1 c0 {6,T}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72029,0.0216311,0.000148878,-4.85083e-07,4.32256e-10,-9786.26,11.2017], Tmin=(10,'K'), Tmax=(404.961,'K')),
+            NASAPolynomial(coeffs=[5.94602,0.0339123,-2.35343e-05,7.6962e-09,-9.4914e-13,-10247.5,-0.993256], Tmin=(404.961,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-81.3624,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 2, 'C-C': 2, 'C-O': 2, 'C#N': 2, 'C=C': 1}
+1D rotors:
+* Invalidated! pivots: [1, 6], dihedral: [10, 1, 6, 2], invalidation reason: Another conformer for C4H2N2O2_51 exists which is 4.29 kJ/mol lower.
+* Invalidated! pivots: [2, 6], dihedral: [9, 2, 6, 1], invalidation reason: 
+
+
+External symmetry: 2, optical isomers: 1
+
+Geometry:
+O       1.09931500    0.85283500    0.74563100
+O      -0.00759600    0.34547800   -1.05526000
+N       2.42155600   -2.03316400    2.21043600
+N       0.07920600   -3.10679600   -1.60047200
+C       1.00289700   -1.45672600    0.14346300
+C       0.70559200   -0.11937100   -0.05056500
+C       1.78184200   -1.82451400    1.26830100
+C       0.51641500   -2.40453000   -0.79049800
+H      -0.28966900   -0.38168400   -1.63171300
+H       1.62265100    0.49483100    1.47951200
+""",
+)
+
+entry(
+    index = 112,
+    label = "C3H2NO3_2",
+    molecule =
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {7,S} {8,D}
+3 N u0 p1 c0 {1,S} {4,D}
+4 C u0 p0 c0 {3,D} {9,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u1 p2 c0 {2,S}
+8 O u0 p2 c0 {2,D}
+9 O u0 p2 c0 {4,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87489,0.0178513,0.000436694,-4.03285e-06,1.13205e-08,-29848.9,11.1774], Tmin=(10,'K'), Tmax=(123.923,'K')),
+            NASAPolynomial(coeffs=[4.19635,0.0316147,-2.20951e-05,7.19707e-09,-8.8243e-13,-29875.4,9.54989], Tmin=(123.923,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-242.152,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (199.547,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 2, 'C=N': 1, 'C-H': 2, 'C-C': 1, 'C-O': 1, 'C-N': 1}
+1D rotors:
+pivots: [4, 5], dihedral: [7, 4, 5, 6], rotor symmetry: 1, max scan energy: 5.19 kJ/mol
+pivots: [5, 6], dihedral: [4, 5, 6, 1], rotor symmetry: 2, max scan energy: 14.66 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 7 4 5 8 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.52957900   -1.69293700   -0.72054700
+O      -0.60296500    0.00332700   -1.53757000
+O       1.92122200    2.17936100   -0.60818300
+N       0.66578400    0.75658900    0.80851300
+C      -0.04996300   -0.48175900    0.78649200
+C      -0.75349400   -0.72285600   -0.53299700
+C       1.28672900    1.43163100    0.02162700
+H       0.61800300   -1.33118100    0.97072300
+H      -0.79881700   -0.48958700    1.58191900
+""",
+)
+
+entry(
+    index = 113,
+    label = "C4H2N2O3_52",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,D}
+3  O u0 p2 c0 {1,S} {10,S}
+4  C u0 p0 c0 {1,S} {8,T}
+5  C u0 p0 c0 {1,S} {9,T}
+6  O u0 p2 c0 {2,S} {11,S}
+7  O u0 p2 c0 {2,D}
+8  N u0 p1 c0 {4,T}
+9  N u0 p1 c0 {5,T}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4936,0.04379,3.00808e-05,-1.48798e-07,1.103e-10,-30746.5,12.4255], Tmin=(10,'K'), Tmax=(553.418,'K')),
+            NASAPolynomial(coeffs=[8.13185,0.0375216,-2.68045e-05,8.72104e-09,-1.05852e-12,-31677.3,-10.9782], Tmin=(553.418,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-255.711,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (249.434,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 2, 'C-C': 3, 'C-O': 2, 'C=O': 1, 'C#N': 2}
+1D rotors:
+pivots: [1, 6], dihedral: [10, 1, 6, 7], rotor symmetry: 1, max scan energy: 20.47 kJ/mol
+pivots: [2, 7], dihedral: [11, 2, 7, 3], rotor symmetry: 1, max scan energy: 48.88 kJ/mol
+* Invalidated! pivots: [6, 7], dihedral: [1, 6, 7, 2], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       0.28333100    0.13708700    1.49626700
+O       0.86582700    1.56955300   -1.73920200
+O       0.53073300    2.47813200    0.30310000
+N       2.78216400   -1.17923000   -0.34975600
+N      -1.49941200   -1.10222100   -1.08648500
+C       0.51874900    0.07847400    0.12197300
+C       0.64093800    1.53967900   -0.43540700
+C       1.78297500   -0.64078000   -0.15790100
+C      -0.60359900   -0.59785500   -0.56855700
+H       0.26069000    1.08188400    1.72651500
+H       0.93211500    2.49368100   -2.02785900
+""",
+)
+
+entry(
+    index = 114,
+    label = "C4HN2O3_11",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,D} {4,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  N u0 p1 c0 {1,D} {6,S}
+4  C u0 p0 c0 {1,S} {8,T}
+5  O u0 p2 c0 {2,S} {9,S}
+6  C u1 p0 c0 {3,S} {10,D}
+7  O u0 p2 c0 {2,D}
+8  N u0 p1 c0 {4,T}
+9  H u0 p0 c0 {5,S}
+10 O u0 p2 c0 {6,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.538,0.0401633,4.17676e-05,-2.28873e-07,2.15287e-10,-26063.4,13.408], Tmin=(10,'K'), Tmax=(428.86,'K')),
+            NASAPolynomial(coeffs=[6.80429,0.0343729,-2.4282e-05,7.95949e-09,-9.78855e-13,-26570.4,-2.23016], Tmin=(428.86,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-216.718,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C=N': 1, 'C=O': 2, 'C-N': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 7], dihedral: [10, 1, 7, 2], invalidation reason: 
+* Invalidated! pivots: [4, 9], dihedral: [6, 4, 9, 3], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [4, 6, 7, 1], invalidation reason: 
+* Invalidated! pivots: [4, 6], dihedral: [9, 4, 6, 7], invalidation reason: 
+* Invalidated! pivots: [6, 8], dihedral: [4, 6, 8, 5], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.98427100   -0.51071300    0.17421200
+O      -0.12985200   -1.73756900   -0.25254100
+O       3.05398800   -1.12345500   -0.64304600
+N       1.42914600    0.54903100   -0.19397600
+N      -1.04852300    2.84510600    0.45880400
+C       0.08659700    0.59044800    0.00846900
+C      -0.67088000   -0.67614100   -0.03955300
+C      -0.52798200    1.82822900    0.25443600
+C       2.19001400   -0.38563000   -0.42331600
+H      -2.40013800   -1.38413500    0.12545100
+""",
+)
+
+entry(
+    index = 115,
+    label = "C4H2N2O3_56",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,D} {4,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  C u0 p0 c0 {1,D} {6,S} {8,S}
+4  C u0 p0 c0 {1,S} {10,T}
+5  O u0 p2 c0 {2,S} {11,S}
+6  N u0 p1 c0 {3,S} {9,D}
+7  O u0 p2 c0 {2,D}
+8  H u0 p0 c0 {3,S}
+9  O u0 p2 c0 {6,D}
+10 N u0 p1 c0 {4,T}
+11 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.44086,0.0464204,-2.01868e-05,-1.78666e-08,1.50242e-11,-6828.86,12.7365], Tmin=(10,'K'), Tmax=(740.212,'K')),
+            NASAPolynomial(coeffs=[7.56767,0.0361182,-2.36245e-05,7.12815e-09,-8.13612e-13,-7768.51,-8.15193], Tmin=(740.212,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-56.847,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (253.591,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-H': 1, 'C-C': 2, 'C-N': 1, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1, 'N=O': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [11, 1, 7, 2], rotor symmetry: 1, max scan energy: 52.98 kJ/mol
+* Invalidated! pivots: [4, 8], dihedral: [3, 4, 8, 6], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [8, 6, 7, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -2.25297500   -0.34606100    0.41184700
+O      -0.83497200   -2.03711900   -0.04691700
+O       3.34858700    0.32789700   -0.76259800
+N       2.27135500    0.81022200   -0.48366900
+N      -0.70246200    2.66084000    0.33136600
+C      -0.00356700    0.20463200   -0.03548400
+C      -1.05806600   -0.86572900    0.10377800
+C       1.24919500   -0.18107600   -0.34466700
+C      -0.36454400    1.57013500    0.16239500
+H       1.51159600   -1.22442200   -0.49290900
+H      -2.88217200   -1.07980700    0.48669500
+""",
+)
+
+entry(
+    index = 116,
+    label = "C3H2NO3_3",
+    molecule =
+"""
+multiplicity 2
+1 C u1 p0 c0 {2,S} {3,S} {7,S}
+2 C u0 p0 c0 {1,S} {4,S} {6,D}
+3 N u0 p1 c0 {1,S} {5,D}
+4 O u0 p2 c0 {2,S} {8,S}
+5 C u0 p0 c0 {3,D} {9,D}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {4,S}
+9 O u0 p2 c0 {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75011,0.0375837,-2.80879e-05,9.48417e-09,-1.20008e-12,-42326.2,13.3732], Tmin=(10,'K'), Tmax=(1655.81,'K')),
+            NASAPolynomial(coeffs=[19.1802,0.0040555,-1.10902e-06,-1.15177e-11,2.72729e-14,-47949.7,-70.4005], Tmin=(1655.81,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-351.947,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (191.233,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 2, 'H-O': 1, 'C=N': 1, 'C-H': 1, 'C-C': 1, 'C-O': 1, 'C-N': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [9, 1, 6, 2], rotor symmetry: 1, max scan energy: 47.60 kJ/mol
+pivots: [4, 5], dihedral: [7, 4, 5, 6], rotor symmetry: 1, max scan energy: 33.52 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+A 5 4 7 F
+B 5 8 F
+pivots: [5, 6], dihedral: [4, 5, 6, 1], rotor symmetry: 1, max scan energy: 63.09 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 4 5 6 F
+D 7 4 5 6 F
+pivots: [4, 7], dihedral: [5, 4, 7, 3], rotor symmetry: 1, max scan energy: 6.04 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.25770900   -2.44379600    1.00893600
+O       0.79449000   -2.73544200    0.08968200
+O       3.06532600   -0.59724700   -1.24258300
+N       0.95802700    0.02930700   -0.34047400
+C      -0.11289100   -0.56548400    0.23486900
+C      -0.11870300   -2.00488600    0.42182200
+C       2.01987100   -0.39110600   -0.78163200
+H      -0.93847600    0.05928400    0.53970900
+H      -1.17383800   -3.40437700    1.09280700
+""",
+)
+
+entry(
+    index = 117,
+    label = "C4HN2O3_57",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,D} {4,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  C u1 p0 c0 {1,D} {6,S}
+4  C u0 p0 c0 {1,S} {8,T}
+5  O u0 p2 c0 {2,S} {9,S}
+6  N u0 p1 c0 {3,S} {10,D}
+7  O u0 p2 c0 {2,D}
+8  N u0 p1 c0 {4,T}
+9  H u0 p0 c0 {5,S}
+10 O u0 p2 c0 {6,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7255,0.0263207,0.00022037,-1.06453e-06,1.43558e-09,3667.59,14.4495], Tmin=(10,'K'), Tmax=(265.314,'K')),
+            NASAPolynomial(coeffs=[5.03575,0.0383358,-2.71712e-05,8.79931e-09,-1.06985e-12,3486.25,7.75965], Tmin=(265.314,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (30.5273,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (224.491,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C-C': 2, 'C-N': 1, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1, 'N=O': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [10, 1, 7, 2], rotor symmetry: 1, max scan energy: 50.93 kJ/mol
+* Invalidated! pivots: [4, 8], dihedral: [3, 4, 8, 6], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [8, 6, 7, 1], invalidation reason: 
+pivots: [6, 8], dihedral: [7, 6, 8, 4], rotor symmetry: 1, max scan energy: 0.02 kJ/mol (set as a FreeRotor)
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.28064700   -0.70834500    2.13427000
+O      -2.07259800    0.48690800    1.44722800
+O       3.45490800   -0.67653600   -0.11678200
+N       2.32828000   -0.27819900   -0.03337100
+N      -1.04194000    2.15294300   -1.59291300
+C      -0.06927200    0.55329400    0.16795800
+C      -0.93484600    0.12650800    1.30178200
+C       1.22401400    0.11462800    0.04496000
+C      -0.61392600    1.43217800   -0.79345800
+H      -0.89759500   -0.94427600    2.84277100
+""",
+)
+
+entry(
+    index = 118,
+    label = "C3H2N2O2_13",
+    molecule =
+"""
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {5,S} {6,D}
+3 N u0 p1 c0 {1,D} {9,S}
+4 C u0 p0 c0 {1,S} {7,T}
+5 O u0 p2 c0 {2,S} {8,S}
+6 O u0 p2 c0 {2,D}
+7 N u0 p1 c0 {4,T}
+8 H u0 p0 c0 {5,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81704,0.0126788,0.00014456,-3.97243e-07,3.11939e-10,-17211.3,10.9362], Tmin=(10,'K'), Tmax=(450.659,'K')),
+            NASAPolynomial(coeffs=[5.56497,0.0296654,-2.01575e-05,6.45582e-09,-7.86e-13,-17698.9,0.234864], Tmin=(450.659,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-143.122,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (203.705,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C=N': 1, 'C=O': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1, 'H-N': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [8, 1, 6, 2], rotor symmetry: 1, max scan energy: 55.14 kJ/mol
+* Invalidated! pivots: [5, 6], dihedral: [3, 5, 6, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.64271700    0.20385000    0.23702400
+O       0.47421100   -0.53641700    0.17620600
+N      -2.52661700   -2.25619300    0.64614600
+N       0.39519100   -4.12380400    0.67940100
+C      -1.26680000   -2.13613200    0.53226200
+C      -0.69998500   -0.73556100    0.29443300
+C      -0.31698600   -3.21925800    0.60903300
+H      -2.50618000   -0.23207100    0.36407700
+H      -2.83648600   -3.21612800    0.80308300
+""",
+)
+
+entry(
+    index = 119,
+    label = "C3H2N2O3_14",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,D} {4,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  N u0 p1 c0 {1,D} {6,S}
+4  C u0 p0 c0 {1,S} {8,T}
+5  O u0 p2 c0 {2,S} {9,S}
+6  O u0 p2 c0 {3,S} {10,S}
+7  O u0 p2 c0 {2,D}
+8  N u0 p1 c0 {4,T}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6939,0.0245481,0.000127861,-4.31463e-07,3.87478e-10,-24587.8,12.2588], Tmin=(10,'K'), Tmax=(403.984,'K')),
+            NASAPolynomial(coeffs=[5.76267,0.034797,-2.4303e-05,7.95046e-09,-9.79024e-13,-25005.7,1.04936], Tmin=(403.984,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-204.43,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'N-O': 1, 'H-O': 2, 'C=N': 1, 'C=O': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 7], dihedral: [9, 1, 7, 3], invalidation reason: 
+* Invalidated! pivots: [2, 4], dihedral: [10, 2, 4, 6], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [4, 6, 7, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.53073400   -1.45121500   -0.43904600
+O       2.28524000   -0.37617200    0.11273100
+O      -2.10435900    0.72297000   -0.60455600
+N       1.00244700   -0.79309400   -0.07079300
+N       0.86811800    2.66999500   -0.21397100
+C       0.17440200    0.17831000   -0.23311000
+C      -1.27628400   -0.13435000   -0.44626800
+C       0.54968900    1.56168900   -0.22400800
+H      -2.48424800   -1.54604800   -0.58306400
+H       2.77784200   -1.19953300    0.21797000
+""",
+)
+
+entry(
+    index = 120,
+    label = "C4H6N2O3_5b",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {1,S} {14,T}
+6  O u0 p2 c0 {4,S} {7,S}
+7  N u0 p1 c0 {6,S} {15,D}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 N u0 p1 c0 {5,T}
+15 O u0 p2 c0 {7,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.53946,0.0403696,0.000282892,-1.22441e-06,1.42445e-09,4939.51,13.1328], Tmin=(10,'K'), Tmax=(316.54,'K')),
+            NASAPolynomial(coeffs=[7.32326,0.0497262,-3.23637e-05,1.01319e-08,-1.21672e-12,4413.54,-5.29351], Tmin=(316.54,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (41.1357,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (349.208,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'N=O': 1, 'C-H': 6, 'O-O': 1, 'C-C': 3, 'C-O': 1, 'C#N': 1, 'N-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 4], rotor symmetry: 1, max scan energy: 42.29 kJ/mol
+* Invalidated! pivots: [1, 6], dihedral: [2, 1, 6, 7], invalidation reason: 
+* Invalidated! pivots: [2, 4], dihedral: [1, 2, 4, 3], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [1, 6, 7, 10], invalidation reason: 
+pivots: [6, 8], dihedral: [1, 6, 8, 13], rotor symmetry: 3, max scan energy: 13.22 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.52848300   -0.63628800    1.01915000
+O       1.74863800   -1.09866300    0.45791200
+O       3.79489400   -0.33347100    0.29193400
+N       2.76994600    0.02191400    0.67502700
+N       0.58510100    1.69289700   -1.46053600
+C      -0.40135300   -0.28723900   -0.03643500
+C      -1.63732800    0.18282300    0.73827000
+C      -0.68934600   -1.49186800   -0.93710600
+C       0.15779100    0.82810400   -0.83015500
+H      -1.38611300    1.02430000    1.38421300
+H      -2.41767200    0.48989300    0.04058600
+H      -2.00768600   -0.64090500    1.35035500
+H      -1.10860600   -2.29567800   -0.32917100
+H       0.22675300   -1.84414400   -1.40955700
+H      -1.40502100   -1.21958700   -1.71527500
+""",
+)
+
+entry(
+    index = 121,
+    label = "C4H6NO3_15",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {2,S} {11,D}
+4  C u0 p0 c0 {1,S} {12,D} {13,S}
+5  O u0 p2 c0 {1,S} {6,S}
+6  O u0 p2 c0 {5,S} {14,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 O u0 p2 c0 {3,D}
+12 N u1 p1 c0 {4,D}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.44777,0.0544058,-2.97697e-05,3.60829e-10,3.3893e-12,-6738.17,13.5917], Tmin=(10,'K'), Tmax=(1028.22,'K')),
+            NASAPolynomial(coeffs=[11.1194,0.0363309,-2.0571e-05,5.52893e-09,-5.73963e-13,-8937.93,-26.6583], Tmin=(1028.22,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-56.042,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (324.264,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 5, 'H-O': 1, 'C=N': 1, 'C=O': 1, 'O-O': 1, 'C-C': 3, 'C-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [5, 1, 2, 14], invalidation reason: 
+* Invalidated! pivots: [1, 5], dihedral: [2, 1, 5, 7], invalidation reason: 
+pivots: [5, 7], dihedral: [1, 5, 7, 3], rotor symmetry: 1, max scan energy: 33.82 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 5 8 4 F
+D 10 6 7 5 F
+D 5 1 2 14 F
+pivots: [5, 8], dihedral: [1, 5, 8, 4], rotor symmetry: 1, max scan energy: 32.82 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 5 7 6 F
+D 5 1 2 14 F
+* Invalidated! pivots: [6, 7], dihedral: [10, 6, 7, 3], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.73286700   -0.42907900   -0.85196500
+O       2.11190600   -0.69173500   -1.19205500
+O      -1.35361300   -0.84756800    1.93046900
+N       2.21572000    0.84086700    1.17135900
+C       0.53318200   -0.79900400    0.49020900
+C      -1.90705400   -1.01245600   -0.39814900
+C      -0.98430500   -0.87254300    0.78178500
+C       1.23353000    0.15277400    1.48190200
+H       0.93779500   -1.80734900    0.66360900
+H      -1.80135100   -0.14332600   -1.05331100
+H      -1.62754900   -1.88353000   -0.99722100
+H      -2.93261600   -1.10306300   -0.04412100
+H       0.79448700    0.16343800    2.49008300
+H       2.54304900    0.11230900   -0.84464700
+""",
+)
+
+entry(
+    index = 122,
+    label = "C3H3N2O3_17",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,S} {7,D}
+2  N u0 p1 c0 {1,S} {9,S} {10,S}
+3  C u0 p0 c0 {5,S} {6,S} {8,D}
+4  N u0 p1 c0 {1,S} {5,D}
+5  C u1 p0 c0 {3,S} {4,D}
+6  O u0 p2 c0 {3,S} {11,S}
+7  O u0 p2 c0 {1,D}
+8  O u0 p2 c0 {3,D}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.66917,0.0275503,0.000111115,-3.69881e-07,3.23985e-10,-33036.3,13.6933], Tmin=(10,'K'), Tmax=(409.327,'K')),
+            NASAPolynomial(coeffs=[5.0802,0.0395008,-2.70009e-05,8.69043e-09,-1.05737e-12,-33367.5,5.51234], Tmin=(409.327,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-274.68,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'H-N': 2, 'C=N': 1, 'C=O': 2, 'C-N': 2, 'C-C': 1, 'C-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 7], dihedral: [11, 1, 7, 3], invalidation reason: 
+* Invalidated! pivots: [4, 6], dihedral: [9, 4, 6, 2], invalidation reason: Significant difference observed between consecutive conformers
+* Invalidated! pivots: [5, 6], dihedral: [8, 5, 6, 2], invalidation reason: 
+* Invalidated! pivots: [7, 8], dihedral: [1, 7, 8, 5], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       2.26869500    0.83523800    1.34045000
+O       4.35607100    2.53214600    0.92635300
+O       1.99587900   -0.86821300   -0.09684900
+N       6.23993900    2.34491800   -0.33888800
+N       5.19437100    0.41902300    0.38793300
+C       5.19342400    1.85876900    0.34713700
+C       2.70699000   -0.13241600    0.52524500
+C       4.20427500   -0.29747300    0.52248700
+H       6.91879100    1.71857700   -0.73824800
+H       6.35613500    3.34192400   -0.41776400
+H       2.96689900    1.52160600    1.45044000
+""",
+)
+
+entry(
+    index = 123,
+    label = "C4H5N2O3_6",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {1,S} {13,T}
+6  O u0 p2 c0 {4,S} {7,S}
+7  N u0 p1 c0 {6,S} {14,D}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 N u0 p1 c0 {5,T}
+14 O u0 p2 c0 {7,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6528,0.0283199,0.000159116,-4.6941e-07,3.88873e-10,23830,14.0395], Tmin=(10,'K'), Tmax=(415.831,'K')),
+            NASAPolynomial(coeffs=[4.08828,0.053238,-3.57653e-05,1.13569e-08,-1.3681e-12,23542.2,9.29481], Tmin=(415.831,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (198.13,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (328.422,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'N=O': 1, 'C-H': 5, 'O-O': 1, 'C-C': 3, 'C-O': 1, 'C#N': 1, 'N-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [6, 1, 2, 4], invalidation reason: The rotor scan has a barrier of 538.54 kJ/mol, which is higher than the maximal barrier for rotation (40.00 kJ/mol)
+* Invalidated! pivots: [1, 6], dihedral: [2, 1, 6, 7], invalidation reason: The rotor scan has a barrier of 310.68 kJ/mol, which is higher than the maximal barrier for rotation (40.00 kJ/mol)
+* Invalidated! pivots: [2, 4], dihedral: [1, 2, 4, 3], invalidation reason: The rotor scan has a barrier of 394.01 kJ/mol, which is higher than the maximal barrier for rotation (40.00 kJ/mol)
+pivots: [6, 7], dihedral: [1, 6, 7, 10], rotor symmetry: 3, max scan energy: 11.84 kJ/mol
+* Invalidated! pivots: [6, 8], dihedral: [1, 6, 8, 13], invalidation reason: The rotor scan has a barrier of 218.75 kJ/mol, which is higher than the maximal barrier for rotation (40.00 kJ/mol)
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.73447800   -1.00005400   -0.82285100
+O       1.40966300   -1.78116500    0.15600100
+O       0.58646700   -2.80075600    2.07575500
+N       0.24986100   -2.36856100    0.98709100
+N       0.84081500    1.61610800    1.37626000
+C      -0.25966000   -0.27950100   -0.07439700
+C      -1.22284000    0.32778500   -1.08943000
+C      -0.86689900   -1.38347700    0.81107100
+C       0.37851600    0.76996100    0.74624800
+H      -1.64986200   -0.46728500   -1.70192600
+H      -0.68825500    1.02779000   -1.73223800
+H      -2.02291600    0.86506500   -0.57773300
+H      -1.17920800   -1.04947900    1.79855600
+H      -1.68262700   -1.88374000    0.29061100
+""",
+)
+
+entry(
+    index = 124,
+    label = "C4H6NO3_18",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+2  C u0 p0 c0 {1,S} {4,D} {9,S}
+3  C u0 p0 c0 {1,S} {6,D} {10,S}
+4  C u0 p0 c0 {2,D} {11,S} {12,S}
+5  O u0 p2 c0 {1,S} {7,S}
+6  N u0 p1 c0 {3,D} {13,S}
+7  O u0 p2 c0 {5,S} {14,S}
+8  H u0 p0 c0 {1,S}
+9  O u1 p2 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.41007,0.054708,-3.59771e-05,9.53235e-09,-2.74076e-13,-3645.22,13.951], Tmin=(10,'K'), Tmax=(1110.26,'K')),
+            NASAPolynomial(coeffs=[10.7777,0.0350966,-1.88472e-05,4.87035e-09,-4.90652e-13,-5708.49,-24.2884], Tmin=(1110.26,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-30.3461,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (328.422,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 4, 'C-O': 2, 'C=C': 1, 'H-O': 1, 'C=N': 1, 'O-O': 1, 'C-C': 2, 'H-N': 1}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [5, 1, 2, 14], invalidation reason: 
+* Invalidated! pivots: [1, 5], dihedral: [2, 1, 5, 6], invalidation reason: 
+* Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 3], invalidation reason: 
+* Invalidated! pivots: [5, 7], dihedral: [1, 5, 7, 4], invalidation reason: 
+pivots: [6, 8], dihedral: [3, 6, 8, 11], rotor symmetry: 2, max scan energy: 51.30 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 8 11 12 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.04605000    0.88147500    0.95042900
+O       1.03772600    1.81939500    0.45096200
+O       0.20284300   -1.46984600   -1.76909200
+N      -2.36814700   -0.35205000    1.36639000
+C      -0.45482500    0.15735400   -0.16203300
+C       0.51475200   -0.90228000   -0.71892700
+C      -1.75080900   -0.51606400    0.27648400
+C       1.70826500   -1.20735600    0.00124500
+H      -0.68232300    0.84512300   -0.98550400
+H      -2.14634400   -1.20925900   -0.46913200
+H       1.96687700   -0.69610200    0.91765100
+H       2.36812300   -1.96141800   -0.40855100
+H      -1.87676700    0.31935500    1.96314000
+H       0.64489900    2.65300000    0.74621300
+""",
+)
+
+entry(
+    index = 125,
+    label = "C4H5NO3_19",
+    molecule =
+"""
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {2,S} {11,D}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {1,S} {12,T}
+6  O u0 p2 c0 {4,S} {13,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 O u0 p2 c0 {3,D}
+12 N u0 p1 c0 {5,T}
+13 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.54412,0.0495935,-2.90811e-05,3.16106e-09,1.91962e-12,-19014,12.7047], Tmin=(10,'K'), Tmax=(1069.36,'K')),
+            NASAPolynomial(coeffs=[11.2851,0.030777,-1.69091e-05,4.4391e-09,-4.51979e-13,-21249.3,-27.8707], Tmin=(1069.36,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-158.091,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (299.321,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 4, 'H-O': 1, 'C=O': 1, 'O-O': 1, 'C#N': 1, 'C-C': 3, 'C-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [5, 1, 2, 13], invalidation reason: 
+* Invalidated! pivots: [1, 5], dihedral: [2, 1, 5, 7], invalidation reason: 
+pivots: [5, 7], dihedral: [1, 5, 7, 3], rotor symmetry: 1, max scan energy: 41.08 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 10 6 7 3 F
+D 5 1 2 13 F
+D 2 1 5 7 F
+pivots: [6, 7], dihedral: [10, 6, 7, 3], rotor symmetry: 3, max scan energy: 2.76 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.08052100   -2.29042100   -0.28564100
+O      -1.36459800   -2.67401000    1.07816000
+O      -0.57415200   -0.02031200    1.06405000
+N       1.01671800   -1.64796300   -2.79894600
+C       0.24688300   -1.79491800   -0.30440300
+C       1.63754400    0.36374000    0.22310700
+C       0.35379700   -0.40220900    0.39550000
+C       0.66575100   -1.73406600   -1.70525700
+H       0.90928500   -2.48769100    0.23401300
+H       2.50577000   -0.28648900    0.36462500
+H       1.69595800    0.75487500   -0.79728400
+H       1.66508300    1.18993100    0.93155000
+H      -1.66240900   -1.81819800    1.43169200
+""",
+)
+
+entry(
+    index = 126,
+    label = "C3H8N2O3_10",
+    molecule =
+"""
+1  O u0 p2 c0 {2,S} {8,S}
+2  O u0 p2 c0 {1,S} {4,S}
+3  O u0 p2 c0 {7,S} {16,S}
+4  N u0 p1 c0 {2,S} {5,S} {13,S}
+5  N u0 p1 c0 {4,S} {14,S} {15,S}
+6  C u0 p0 c0 {7,S} {9,S} {10,S} {11,S}
+7  C u0 p0 c0 {3,S} {6,S} {8,D}
+8  C u0 p0 c0 {1,S} {7,D} {12,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {8,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.3294,0.0591996,-3.85347e-05,1.24139e-08,-1.55812e-12,-14663.2,13.1785], Tmin=(10,'K'), Tmax=(1432.17,'K')),
+            NASAPolynomial(coeffs=[13.3861,0.0345652,-1.63509e-05,3.77132e-09,-3.43401e-13,-17898,-40.1881], Tmin=(1432.17,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-121.983,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (382.466,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-N': 3, 'N-N': 1, 'H-O': 1, 'C-H': 4, 'O-O': 1, 'C=C': 1, 'C-C': 1, 'C-O': 2, 'N-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [8, 1, 2, 4], invalidation reason: 
+* Invalidated! pivots: [1, 8], dihedral: [2, 1, 8, 7], invalidation reason: 
+* Invalidated! pivots: [2, 4], dihedral: [1, 2, 4, 5], invalidation reason: 
+* Invalidated! pivots: [3, 7], dihedral: [16, 3, 7, 6], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [2, 4, 5, 14], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [9, 6, 7, 3], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.40876000   -3.23942800   -1.74509100
+O      -0.50248800   -3.93618300   -1.76851700
+O       0.89180900   -0.54851600   -1.68338900
+N      -0.92152800   -3.48880800   -2.88319800
+N      -1.09344000   -2.04174400   -2.89744300
+C       1.98289800   -0.27893100    0.41167900
+C       1.53242100   -1.16424200   -0.69717400
+C       1.75967100   -2.54128800   -0.74115700
+H       1.12321700    0.20902900    0.88456900
+H       2.52882400   -0.84355300    1.16819300
+H       2.62998200    0.51699700    0.02799400
+H       2.23708700   -3.00913700    0.12904400
+H      -0.31992900   -3.74229900   -3.67706000
+H      -1.75310000   -1.85601800   -2.14303400
+H      -1.56405700   -1.80106700   -3.76979500
+H       0.42359100   -1.20712600   -2.26512400
+""",
+)
+
+entry(
+    index = 127,
+    label = "C4H5NO3_20",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,D} {5,S}
+3  C u0 p0 c0 {2,D} {4,S} {6,S}
+4  O u0 p2 c0 {3,S} {7,S}
+5  O u0 p2 c0 {2,S} {12,S}
+6  C u0 p0 c0 {3,S} {11,T}
+7  O u0 p2 c0 {4,S} {13,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 N u0 p1 c0 {6,T}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.53815,0.0421825,8.70129e-05,-3.9325e-07,4.05516e-10,-19109.3,12.7608], Tmin=(10,'K'), Tmax=(361.392,'K')),
+            NASAPolynomial(coeffs=[5.31329,0.0466448,-3.15801e-05,1.01256e-08,-1.2309e-12,-19395.1,3.82523], Tmin=(361.392,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-158.858,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (303.478,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 2, 'O-O': 1, 'C#N': 1, 'C-C': 2}
+1D rotors:
+pivots: [1, 3], dihedral: [7, 1, 3, 13], rotor symmetry: 1, max scan energy: 23.98 kJ/mol
+* Invalidated! pivots: [1, 7], dihedral: [3, 1, 7, 6], invalidation reason: Significant difference observed between consecutive conformers
+* Invalidated! pivots: [2, 6], dihedral: [12, 2, 6, 5], invalidation reason: 
+* Invalidated! pivots: [5, 6], dihedral: [9, 5, 6, 2], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.41503000   -0.83274300    1.74159100
+O      -1.57304000   -1.25400600    0.01945100
+O       1.52074700   -1.77574400    1.35984000
+N       1.86279100    2.05105100    0.56462200
+C      -1.25295200    0.74277000   -1.22156400
+C      -0.81947100   -0.15960700   -0.12135400
+C       0.22566100    0.06660600    0.72188500
+C       1.11812100    1.16785700    0.62633700
+H      -2.28698400    1.05626200   -1.05354200
+H      -1.22466900    0.19714800   -2.16889700
+H      -0.61586100    1.62248600   -1.29382800
+H      -1.21612700   -1.76297800    0.76705100
+H       2.18036300   -1.51819400    2.02089900
+""",
+)
+
+entry(
+    index = 128,
+    label = "C4H3NO2_21",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,D}
+3  C u0 p0 c0 {2,S} {4,S} {9,D}
+4  C u0 p0 c0 {3,S} {10,T}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  O u0 p2 c0 {2,D}
+9  O u0 p2 c0 {3,D}
+10 N u0 p1 c0 {4,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65027,0.0407542,-3.39331e-05,1.48766e-08,-2.75051e-12,-15868.8,11.5521], Tmin=(10,'K'), Tmax=(1126.38,'K')),
+            NASAPolynomial(coeffs=[7.19701,0.028159,-1.71602e-05,4.94931e-09,-5.47156e-13,-16667.8,-5.98099], Tmin=(1126.38,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-131.965,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (228.648,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 3, 'C=O': 2, 'C-C': 3, 'C#N': 1}
+1D rotors:
+* Invalidated! pivots: [4, 5], dihedral: [8, 4, 5, 1], invalidation reason: 
+pivots: [5, 6], dihedral: [1, 5, 6, 2], rotor symmetry: 1, max scan energy: 21.85 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.07639600    0.13648600   -1.70044800
+O       0.92698000    0.02093800    1.61309100
+N       3.28100400    0.64411400   -0.75498300
+C      -1.54727500   -0.28698600    0.16582200
+C      -0.24102000    0.00293900   -0.51451800
+C       0.98845800    0.13720600    0.41720600
+C       2.25898800    0.42139600   -0.26940400
+H      -1.47608700   -1.21744400    0.73612100
+H      -1.77864000    0.50134200    0.88767500
+H      -2.33600800   -0.36001200   -0.58056200
+""",
+)
+
+entry(
+    index = 129,
+    label = "C3H4N2O3_11",
+    molecule =
+"""
+1  C u0 p0 c0 {3,S} {5,D} {9,S}
+2  C u0 p0 c0 {4,S} {5,S} {8,D}
+3  C u0 p0 c0 {1,S} {6,S} {7,D}
+4  N u0 p1 c0 {2,S} {10,S} {11,S}
+5  N u0 p1 c0 {1,D} {2,S}
+6  O u0 p2 c0 {3,S} {12,S}
+7  O u0 p2 c0 {3,D}
+8  O u0 p2 c0 {2,D}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.50432,0.0476548,-2.53768e-05,-2.91084e-09,4.90846e-12,-59201.2,12.4695], Tmin=(10,'K'), Tmax=(948.287,'K')),
+            NASAPolynomial(coeffs=[9.70157,0.0327307,-1.95127e-05,5.4401e-09,-5.81567e-13,-60880.9,-19.7588], Tmin=(948.287,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-492.249,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (266.063,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-N': 2, 'C-N': 2, 'C=O': 2, 'H-O': 1, 'C=N': 1, 'C-H': 1, 'C-C': 1, 'C-O': 1}
+1D rotors:
+pivots: [1, 8], dihedral: [12, 1, 8, 2], rotor symmetry: 1, max scan energy: 55.39 kJ/mol
+pivots: [4, 7], dihedral: [10, 4, 7, 3], rotor symmetry: 2, max scan energy: 111.61 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 11 10 4 7 F
+D 6 5 7 4 F
+pivots: [5, 7], dihedral: [6, 5, 7, 3], rotor symmetry: 1, max scan energy: 35.21 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 10 4 7 3 F
+pivots: [6, 8], dihedral: [5, 6, 8, 1], rotor symmetry: 1, max scan energy: 37.13 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.17648800   -3.38553800    3.11335700
+O       0.75261700   -2.70058200    4.02837300
+O      -0.33950600    0.82472800    0.72791300
+N      -2.29199300   -0.02877000   -0.08425300
+N      -1.19909100   -1.21562400    1.55398800
+C      -0.21597200   -1.32908100    2.34918700
+C      -1.19734600   -0.02665000    0.70982200
+C      -0.15020500   -2.53580700    3.25504200
+H       0.59357900   -0.60108000    2.41991100
+H      -2.95739400   -0.78072000   -0.03317900
+H      -2.43255100    0.73236100   -0.72762000
+H      -1.75756400   -3.01257000    2.42583100
+""",
+)
+
+entry(
+    index = 130,
+    label = "C4H4NO3_22",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {3,D} {10,S}
+3  C u0 p0 c0 {2,D} {4,S} {5,S}
+4  O u0 p2 c0 {3,S} {6,S}
+5  C u0 p0 c0 {3,S} {11,T}
+6  O u0 p2 c0 {4,S} {12,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 O u1 p2 c0 {2,S}
+11 N u0 p1 c0 {5,T}
+12 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.54056,0.0464408,-3.39266e-05,1.24694e-08,-1.84388e-12,-4202.2,13.8293], Tmin=(10,'K'), Tmax=(1519.06,'K')),
+            NASAPolynomial(coeffs=[11.8147,0.024653,-1.24119e-05,3.02718e-09,-2.89904e-13,-6715.95,-29.5479], Tmin=(1519.06,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-34.9763,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (278.535,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 1, 'O-O': 1, 'C#N': 1, 'C-C': 2}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [7, 1, 2, 12], invalidation reason: 
+* Invalidated! pivots: [1, 7], dihedral: [2, 1, 7, 6], invalidation reason: The rotor scan has a barrier of 63.24 kJ/mol, which is higher than the maximal barrier for rotation (40.00 kJ/mol)
+pivots: [5, 6], dihedral: [9, 5, 6, 3], rotor symmetry: 3, max scan energy: 0.57 kJ/mol (set as a FreeRotor)
+* Invalidated! pivots: [6, 7], dihedral: [3, 6, 7, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.00930200   -0.85730400   -2.06483900
+O       0.35607700   -0.44777400   -2.12706500
+O      -0.28533700    1.44567900   -0.57401500
+N      -4.25906900   -0.99746500   -1.30705300
+C      -2.51768700    1.76626800    0.25107400
+C      -1.46300200    1.04935600   -0.55183500
+C      -1.84420900   -0.12273700   -1.30721000
+C      -3.16294300   -0.62216000   -1.32300800
+H      -2.04942600    2.61460900    0.74684900
+H      -2.96054500    1.10262900    0.99845900
+H      -3.32862200    2.11837900   -0.39198800
+H       0.37446800    0.36582300   -1.53755400
+""",
+)
+
+entry(
+    index = 131,
+    label = "C4H5NO2_23",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {5,S} {6,S}
+4  O u0 p2 c0 {2,S} {12,S}
+5  O u0 p2 c0 {3,S} {11,S}
+6  C u0 p0 c0 {3,S} {10,T}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 N u0 p1 c0 {6,T}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84543,0.0152502,0.000297658,-1.33081e-06,1.86151e-09,-27489.2,11.9688], Tmin=(10,'K'), Tmax=(236.541,'K')),
+            NASAPolynomial(coeffs=[3.61565,0.0428137,-2.72837e-05,8.19256e-09,-9.4318e-13,-27544.6,11.346], Tmin=(236.541,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-228.532,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (270.22,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 2, 'C-C': 2, 'C#N': 1}
+1D rotors:
+pivots: [1, 5], dihedral: [12, 1, 5, 4], rotor symmetry: 1, max scan energy: 46.49 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 11 2 6 7 F
+pivots: [2, 6], dihedral: [11, 2, 6, 5], rotor symmetry: 1, max scan energy: 39.21 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 12 1 5 4 F
+pivots: [4, 5], dihedral: [8, 4, 5, 1], rotor symmetry: 3, max scan energy: 6.82 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -2.19189500    0.55811300    2.68371900
+O      -1.88818700    0.95168500    0.07059800
+N       1.00114100   -0.80047900   -0.62938800
+C      -0.19188700   -0.69641500    3.00107600
+C      -1.11746300    0.01463800    2.07759200
+C      -0.95130400    0.16284700    0.74352500
+C       0.13922600   -0.36224400    0.00825300
+H      -0.73465300   -1.48570800    3.52866800
+H       0.64881200   -1.13564700    2.46612900
+H       0.18810500    0.00058400    3.75365800
+H      -2.20045600    0.47852200   -0.70914300
+H      -2.70845300    1.01236400    1.99929200
+""",
+)
+
+entry(
+    index = 132,
+    label = "C3H4N2O3_12",
+    molecule =
+"""
+1  C u0 p0 c0 {3,S} {4,D} {9,S}
+2  C u0 p0 c0 {4,S} {6,S} {7,D}
+3  C u0 p0 c0 {1,S} {5,S} {8,D}
+4  N u0 p1 c0 {1,D} {2,S}
+5  O u0 p2 c0 {3,S} {12,S}
+6  O u0 p2 c0 {2,S} {10,S}
+7  N u0 p1 c0 {2,D} {11,S}
+8  O u0 p2 c0 {3,D}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {7,S}
+12 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83349,0.0376403,6.53327e-07,-2.27581e-08,9.25348e-12,-50695.8,12.994], Tmin=(10,'K'), Tmax=(1144.46,'K')),
+            NASAPolynomial(coeffs=[13.5769,0.0265138,-1.4814e-05,3.75671e-09,-3.62319e-13,-54427.5,-41.8871], Tmin=(1144.46,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-421.432,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (261.906,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-N': 1, 'H-O': 2, 'C=O': 1, 'C=N': 2, 'C-H': 1, 'C-C': 1, 'C-O': 2, 'C-N': 1}
+1D rotors:
+pivots: [1, 8], dihedral: [12, 1, 8, 3], rotor symmetry: 1, max scan energy: 53.12 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 4 7 2 F
+pivots: [2, 7], dihedral: [10, 2, 7, 4], rotor symmetry: 1, max scan energy: 37.47 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 4 7 2 F
+pivots: [4, 7], dihedral: [6, 4, 7, 2], rotor symmetry: 1, max scan energy: 26.94 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 10 2 7 4 F
+pivots: [6, 8], dihedral: [4, 6, 8, 1], rotor symmetry: 1, max scan energy: 36.94 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 4 7 2 F
+pivots: [5, 7], dihedral: [11, 5, 7, 2], rotor symmetry: 1, max scan energy: 138.65 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 4 7 2 F
+A 7 5 11 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       2.49496700    0.67629700    1.03180600
+O      -2.24441000    0.96316700    1.12112000
+O       2.95803700   -1.11099100   -0.23908300
+N      -0.11581000    0.33332800    0.53059900
+N      -1.98492900   -0.51790800   -0.64489200
+C       0.68071100   -0.49381600   -0.01399900
+C      -1.51538100    0.20564600    0.27426500
+C       2.16105100   -0.35207800    0.23951500
+H       0.35771500   -1.30621300   -0.66541200
+H      -1.63579100    1.43632800    1.70306600
+H      -3.00134200   -0.46117200   -0.67656300
+H       1.66939000    1.12936500    1.27695800
+""",
+)
+
+entry(
+    index = 133,
+    label = "C4H4NO2_24",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {5,S} {9,S}
+4  O u0 p2 c0 {2,S} {11,S}
+5  C u0 p0 c0 {3,S} {10,T}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  O u1 p2 c0 {3,S}
+10 N u0 p1 c0 {5,T}
+11 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85244,0.0162256,0.000254206,-1.26474e-06,2.01402e-09,-16106.6,11.5347], Tmin=(10,'K'), Tmax=(199.48,'K')),
+            NASAPolynomial(coeffs=[3.31841,0.0402517,-2.66038e-05,8.41283e-09,-1.01558e-12,-16111.8,12.586], Tmin=(199.48,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-133.804,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 1, 'C-C': 2, 'C#N': 1}
+1D rotors:
+* Invalidated! pivots: [1, 5], dihedral: [11, 1, 5, 4], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [8, 4, 5, 1], invalidation reason: 
+* Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 2], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.05812600    0.84543400   -0.61170700
+O       0.99795100    1.51012800    0.83429300
+N       2.81621000   -1.39847600    1.00042100
+C      -0.41099100   -1.43344000   -0.94833900
+C      -0.15815800   -0.09359500   -0.37017500
+C       0.94860300    0.32772700    0.42840400
+C       1.98763000   -0.63541100    0.74575600
+H      -0.49002300   -1.36145200   -2.03798000
+H       0.38428300   -2.13252700   -0.69331200
+H      -1.36499000   -1.82518700   -0.58068900
+H      -0.72168400    1.64825800   -0.15423300
+""",
+)
+
+entry(
+    index = 134,
+    label = "C4H4NO2_25",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,D} {9,S}
+3  C u0 p0 c0 {2,D} {4,S} {5,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  C u0 p0 c0 {3,S} {10,T}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  O u1 p2 c0 {2,S}
+10 N u0 p1 c0 {5,T}
+11 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89176,0.0130037,0.000288748,-1.6405e-06,3.23684e-09,-17568.8,11.9081], Tmin=(10,'K'), Tmax=(127.295,'K')),
+            NASAPolynomial(coeffs=[3.04151,0.0397203,-2.60631e-05,8.177e-09,-9.79782e-13,-17547.2,14.2575], Tmin=(127.295,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-145.269,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (253.591,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 1, 'C-C': 2, 'C#N': 1}
+1D rotors:
+* Invalidated! pivots: [1, 6], dihedral: [11, 1, 6, 5], invalidation reason: 
+pivots: [4, 5], dihedral: [8, 4, 5, 2], rotor symmetry: 3, max scan energy: 0.16 kJ/mol (set as a FreeRotor)
+* Invalidated! pivots: [5, 6], dihedral: [2, 5, 6, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       0.33349000   -2.02836800    1.18903200
+O       1.29240100   -1.14511100   -1.04466400
+N       2.84939500   -1.26326400    3.39808900
+C       3.39042200   -0.31962200   -0.17693900
+C       2.04090700   -0.97611700   -0.08263500
+C       1.53878000   -1.46131900    1.20496200
+C       2.22979600   -1.36854000    2.42181700
+H       3.57337900   -0.03429300   -1.21132800
+H       4.17673900   -1.00037400    0.16128900
+H       3.43548300    0.56657500    0.46239400
+H       0.06302700   -1.97464500    0.24470700
+""",
+)
+
+entry(
+    index = 135,
+    label = "C3H3N2O3_13",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,D} {8,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  C u0 p0 c0 {4,S} {6,D} {9,S}
+4  N u0 p1 c0 {1,D} {3,S}
+5  O u0 p2 c0 {2,S} {10,S}
+6  N u0 p1 c0 {3,D} {11,S}
+7  O u0 p2 c0 {2,D}
+8  H u0 p0 c0 {1,S}
+9  O u1 p2 c0 {3,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.3509,0.0701709,-0.000236716,5.95476e-07,-5.72028e-10,-26822.4,15.1513], Tmin=(10,'K'), Tmax=(331.949,'K')),
+            NASAPolynomial(coeffs=[3.96751,0.0437206,-3.12455e-05,1.02075e-08,-1.24728e-12,-26758.6,14.435], Tmin=(331.949,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-223.017,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (241.12,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-N': 1, 'C=O': 1, 'H-O': 1, 'C=N': 2, 'C-H': 1, 'C-C': 1, 'C-O': 2, 'C-N': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [10, 1, 7, 2], rotor symmetry: 1, max scan energy: 53.37 kJ/mol
+pivots: [4, 8], dihedral: [6, 4, 8, 3], rotor symmetry: 1, max scan energy: 7.19 kJ/mol
+pivots: [6, 7], dihedral: [4, 6, 7, 1], rotor symmetry: 1, max scan energy: 39.73 kJ/mol
+pivots: [5, 8], dihedral: [11, 5, 8, 3], rotor symmetry: 1, max scan energy: 13.31 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -3.50417400   -4.63338600    0.96221000
+O      -3.97593700   -3.57932400    2.88429600
+O      -1.90429200   -0.16714700   -0.24625200
+N      -2.19727200   -2.45529900    0.11088300
+N      -0.37106600   -1.62011000   -1.07015600
+C      -2.70301200   -2.39540500    1.27305700
+C      -3.46168900   -3.59206300    1.80035900
+C      -1.53266000   -1.31722000   -0.41930700
+H      -2.63428100   -1.53053100    1.93554900
+H      -3.00807000   -4.38851400    0.16073000
+H      -0.19605200   -0.93150400   -1.80811400
+""",
+)
+
+entry(
+    index = 136,
+    label = "C3HN2O3_26",
+    molecule =
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 N u0 p1 c0 {1,S} {7,D}
+4 C u0 p0 c0 {1,S} {8,T}
+5 O u0 p2 c0 {2,S} {9,S}
+6 O u1 p2 c0 {2,S}
+7 O u0 p2 c0 {3,D}
+8 N u0 p1 c0 {4,T}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67499,0.0260839,0.00013638,-4.9654e-07,4.70851e-10,-8877.34,12.6112], Tmin=(10,'K'), Tmax=(387.932,'K')),
+            NASAPolynomial(coeffs=[6.25376,0.0336915,-2.52666e-05,8.49405e-09,-1.05879e-12,-9334.74,-0.70456], Tmin=(387.932,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-73.7939,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (195.39,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-O': 2, 'N=O': 1, 'C=C': 1, 'H-O': 1, 'C-N': 1, 'C-C': 1, 'C#N': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [9, 1, 7, 2], rotor symmetry: 1, max scan energy: 48.61 kJ/mol
+pivots: [4, 6], dihedral: [3, 4, 6, 7], rotor symmetry: 1, max scan energy: 144.92 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+A 3 4 6 F
+D 4 6 7 8 F
+pivots: [6, 7], dihedral: [4, 6, 7, 1], rotor symmetry: 1, max scan energy: 32.08 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.12351900    2.01953200    0.71771900
+O      -2.19468300    1.38889900    0.06160400
+O      -2.46547800   -1.29430700   -0.22975500
+N      -1.31373700   -1.25768800    0.11027800
+N       1.91004300   -0.78029100    1.09166900
+C      -0.52399900   -0.26773000    0.41969600
+C      -1.06441900    1.12810300    0.37183800
+C       0.81760400   -0.56303400    0.78906500
+H      -0.52449300    2.90059400    0.66998900
+""",
+)
+
+entry(
+    index = 137,
+    label = "C3H2N2O3_27",
+    molecule =
+"""
+1  C u0 p0 c0 {2,D} {5,S} {6,S}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  N u0 p1 c0 {1,S} {7,D}
+6  C u0 p0 c0 {1,S} {8,T}
+7  O u0 p2 c0 {5,D}
+8  N u0 p1 c0 {6,T}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76737,0.0173965,0.000143687,-4.13299e-07,3.36891e-10,-23882.4,11.8979], Tmin=(10,'K'), Tmax=(429.898,'K')),
+            NASAPolynomial(coeffs=[4.90248,0.0363208,-2.5227e-05,8.19171e-09,-1.00173e-12,-24252.4,4.21087], Tmin=(429.898,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-198.579,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C-O': 2, 'N=O': 1, 'C=C': 1, 'H-O': 2, 'C-N': 1, 'C-C': 1, 'C#N': 1}
+1D rotors:
+* Invalidated! pivots: [1, 7], dihedral: [9, 1, 7, 2], invalidation reason: 
+* Invalidated! pivots: [2, 7], dihedral: [10, 2, 7, 1], invalidation reason: 
+* Invalidated! pivots: [4, 6], dihedral: [3, 4, 6, 7], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.03669400   -1.85357800   -0.29590300
+O      -1.67450000   -0.33786100   -0.02502800
+O      -0.95853000    2.13696300   -0.24910300
+N       0.27990800    1.71205200   -0.47820000
+N       2.96585000   -0.28380400   -0.93888900
+C       0.52487600    0.43068100   -0.48319400
+C      -0.50609100   -0.61057800   -0.24549500
+C       1.87981100    0.04839900   -0.73662400
+H      -0.77535600   -2.46050500   -0.13029400
+H      -1.55386500    1.35681300   -0.10582100
+""",
+)
+
+entry(
+    index = 138,
+    label = "C3H4N2O3_14",
+    molecule =
+"""
+1  C u0 p0 c0 {3,S} {6,S} {8,D}
+2  C u0 p0 c0 {4,D} {5,S} {7,S}
+3  N u0 p1 c0 {1,S} {4,D}
+4  C u0 p0 c0 {2,D} {3,D}
+5  O u0 p2 c0 {2,S} {12,S}
+6  O u0 p2 c0 {1,S} {10,S}
+7  O u0 p2 c0 {2,S} {9,S}
+8  N u0 p1 c0 {1,D} {11,S}
+9  H u0 p0 c0 {7,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {8,S}
+12 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65075,0.0245625,0.000205156,-6.03896e-07,4.84958e-10,-28012.5,13.7987], Tmin=(10,'K'), Tmax=(453.947,'K')),
+            NASAPolynomial(coeffs=[8.14853,0.0403237,-2.99651e-05,1.02154e-08,-1.29131e-12,-28991.5,-10.6347], Tmin=(453.947,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-232.946,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (261.906,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-N': 1, 'H-O': 3, 'C=N': 2, 'C=C': 1, 'C-O': 3, 'C-N': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [12, 1, 7, 3], rotor symmetry: 1, max scan energy: 24.11 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 9 3 7 1 F
+D 8 4 6 5 F
+D 6 4 7 3 F
+pivots: [2, 6], dihedral: [10, 2, 6, 4], rotor symmetry: 1, max scan energy: 37.05 kJ/mol
+pivots: [3, 7], dihedral: [9, 3, 7, 1], rotor symmetry: 1, max scan energy: 15.73 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 12 1 7 8 F
+D 8 4 6 5 F
+D 6 4 7 1 F
+pivots: [4, 6], dihedral: [8, 4, 6, 2], rotor symmetry: 1, max scan energy: 19.62 kJ/mol
+pivots: [5, 6], dihedral: [11, 5, 6, 2], rotor symmetry: 1, max scan energy: 135.48 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+A 2 6 5 F
+D 8 4 6 2 F
+A 6 5 11 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       6.70748100    2.92741500   -5.53165700
+O       5.39873000    0.22250400   -0.77938800
+O       6.37503400    4.54524900   -3.86589000
+N       5.37039200    1.44520900   -2.71558600
+N       7.42817000    0.66329800   -1.82220000
+C       6.17499700    0.76560100   -1.74416200
+C       6.29725400    3.23573100   -4.26143800
+C       5.86096400    2.30676300   -3.44715500
+H       5.84688600    5.07309400   -4.48036300
+H       4.47763800    0.40523400   -1.00858600
+H       7.78741600    0.10002400   -1.05204700
+H       7.66103700    3.07930500   -5.58689400
+""",
+)
+
+entry(
+    index = 139,
+    label = "C3H3N2O3_15",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,D} {8,S}
+2  C u0 p0 c0 {1,S} {5,S} {7,D}
+3  C u0 p0 c0 {4,S} {6,S} {9,D}
+4  N u0 p1 c0 {1,D} {3,S}
+5  O u0 p2 c0 {2,S} {10,S}
+6  O u0 p2 c0 {3,S} {11,S}
+7  O u0 p2 c0 {2,D}
+8  H u0 p0 c0 {1,S}
+9  N u1 p1 c0 {3,D}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.62099,0.0443785,-2.24071e-05,-5.43143e-09,5.67743e-12,-25857.1,14.5096], Tmin=(10,'K'), Tmax=(980.751,'K')),
+            NASAPolynomial(coeffs=[11.3297,0.0266098,-1.61402e-05,4.52163e-09,-4.82674e-13,-28026.7,-25.8824], Tmin=(980.751,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-214.971,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (241.12,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 2, 'C=O': 1, 'C=N': 2, 'C-H': 1, 'C-C': 1, 'C-O': 2, 'C-N': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [10, 1, 7, 3], rotor symmetry: 1, max scan energy: 53.79 kJ/mol
+pivots: [2, 8], dihedral: [11, 2, 8, 4], rotor symmetry: 1, max scan energy: 28.89 kJ/mol
+pivots: [4, 8], dihedral: [6, 4, 8, 2], rotor symmetry: 1, max scan energy: 10.68 kJ/mol
+pivots: [6, 7], dihedral: [4, 6, 7, 1], rotor symmetry: 1, max scan energy: 42.52 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -2.55024200    0.12456100    0.26996100
+O       1.81338700    1.89343200    0.46102400
+O      -2.23183100   -2.04907000    0.71702500
+N       0.09385300    0.45331000    0.07149200
+N       2.24064100   -0.04217000   -0.75331700
+C      -0.30633300   -0.72080100    0.34588200
+C      -1.79347000   -0.96091800    0.46462900
+C       1.47025100    0.71326200   -0.09922400
+H       0.33882800   -1.58447000    0.51097900
+H      -1.95507000    0.87215000    0.08177200
+H       2.75447300    2.04520800    0.29750300
+""",
+)
+
+entry(
+    index = 140,
+    label = "C3H3N2O3_16",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {3,S} {5,S} {6,D}
+2  C u0 p0 c0 {4,D} {7,S} {8,S}
+3  N u0 p1 c0 {1,S} {4,D}
+4  C u0 p0 c0 {2,D} {3,D}
+5  O u0 p2 c0 {1,S} {10,S}
+6  N u0 p1 c0 {1,D} {11,S}
+7  O u0 p2 c0 {2,S} {9,S}
+8  O u1 p2 c0 {2,S}
+9  H u0 p0 c0 {7,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.14084,0.0373835,-7.00215e-06,-1.50066e-08,6.8306e-12,-26199.3,14.3857], Tmin=(10,'K'), Tmax=(1190.89,'K')),
+            NASAPolynomial(coeffs=[18.315,0.0133869,-6.51798e-06,1.37163e-09,-1.02772e-13,-31249.6,-63.5027], Tmin=(1190.89,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-217.657,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (236.962,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-N': 1, 'H-O': 2, 'C=N': 2, 'C=C': 1, 'C-O': 3, 'C-N': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [10, 1, 6, 4], rotor symmetry: 1, max scan energy: 39.29 kJ/mol
+pivots: [2, 7], dihedral: [9, 2, 7, 3], rotor symmetry: 1, max scan energy: 43.55 kJ/mol
+pivots: [4, 6], dihedral: [8, 4, 6, 1], rotor symmetry: 1, max scan energy: 4.58 kJ/mol
+pivots: [7, 8], dihedral: [2, 7, 8, 4], rotor symmetry: 1, max scan energy: 21.28 kJ/mol
+pivots: [5, 6], dihedral: [11, 5, 6, 1], rotor symmetry: 1, max scan energy: 117.67 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 4 6 5 F
+A 6 5 11 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.50604200   -1.59505900    2.57327200
+O       5.20549900   -3.20772800    2.81627700
+O       5.82170200   -1.20074800    3.67245800
+N       2.67975500   -1.10716200    2.93623000
+N       0.94042100    0.10290800    4.04475900
+C       1.34092000   -0.81100500    3.27308300
+C       4.97356200   -1.98227400    3.32286100
+C       3.53796300   -1.74652800    3.52654700
+H       6.16795400   -3.31967700    2.77893500
+H      -0.38842200   -1.29972400    2.79552500
+H       1.70799000    0.60748600    4.47858000
+""",
+)
+
+entry(
+    index = 141,
+    label = "C3H3N2O3_18",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {3,D} {5,S} {6,S}
+2  C u0 p0 c0 {4,S} {7,S} {8,D}
+3  C u0 p0 c0 {1,D} {4,D}
+4  N u0 p1 c0 {2,S} {3,D}
+5  O u0 p2 c0 {1,S} {9,S}
+6  O u0 p2 c0 {1,S} {11,S}
+7  O u0 p2 c0 {2,S} {10,S}
+8  N u1 p1 c0 {2,D}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {7,S}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52215,0.0382613,0.000166705,-6.98431e-07,7.01561e-10,-2985.63,17.3029], Tmin=(10,'K'), Tmax=(386.607,'K')),
+            NASAPolynomial(coeffs=[9.80784,0.0300809,-2.21449e-05,7.60489e-09,-9.7292e-13,-3896.53,-12.5434], Tmin=(386.607,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-24.7972,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (236.962,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 3, 'C=N': 2, 'C=C': 1, 'C-O': 3, 'C-N': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [9, 1, 6, 2], rotor symmetry: 1, max scan energy: 18.24 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 11 2 6 1 F
+pivots: [2, 6], dihedral: [11, 2, 6, 1], rotor symmetry: 1, max scan energy: 19.28 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 9 1 6 8 F
+pivots: [3, 7], dihedral: [10, 3, 7, 4], rotor symmetry: 1, max scan energy: 27.62 kJ/mol
+pivots: [4, 7], dihedral: [8, 4, 7, 3], rotor symmetry: 1, max scan energy: 10.79 kJ/mol
+pivots: [6, 8], dihedral: [1, 6, 8, 4], rotor symmetry: 1, max scan energy: 0.94 kJ/mol (set as a FreeRotor)
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -8.22516800    0.77107900   -1.06352800
+O      -9.25367300   -0.52058300   -2.72733400
+O      -3.78393200    0.24778600   -3.78457400
+N      -6.05540500    0.31398700   -3.70493600
+N      -4.93228100   -1.75769700   -3.49638700
+C      -8.14931600    0.14975600   -2.28053800
+C      -4.89334300   -0.50984800   -3.62096800
+C      -7.04098300    0.17976800   -2.98481500
+H      -8.93865900    1.42312800   -1.10233600
+H      -3.01838200   -0.34140300   -3.74995400
+H      -9.45801400   -1.22578500   -2.09736100
+""",
+)
+
+entry(
+    index = 142,
+    label = "C3H2NO3_19",
+    molecule =
+"""
+multiplicity 2
+1 C u1 p0 c0 {2,S} {3,S} {7,S}
+2 C u0 p0 c0 {1,S} {4,S} {6,D}
+3 O u0 p2 c0 {1,S} {5,S}
+4 C u0 p0 c0 {2,S} {8,T}
+5 O u0 p2 c0 {3,S} {9,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {1,S}
+8 N u0 p1 c0 {4,T}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81089,0.014128,0.000167811,-5.24822e-07,4.72156e-10,3674.24,11.5848], Tmin=(10,'K'), Tmax=(394.71,'K')),
+            NASAPolynomial(coeffs=[5.64113,0.0292886,-1.7904e-05,5.21364e-09,-5.95858e-13,3267.18,1.13011], Tmin=(394.71,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (30.56,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (195.39,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 1, 'H-O': 1, 'C-H': 1, 'O-O': 1, 'C-C': 2, 'C-O': 1, 'C#N': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [5, 1, 2, 9], rotor symmetry: 1, max scan energy: 29.45 kJ/mol
+pivots: [1, 5], dihedral: [2, 1, 5, 6], rotor symmetry: 1, max scan energy: 94.32 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 5 6 8 F
+D 5 1 2 9 F
+B 1 2 F
+pivots: [5, 6], dihedral: [1, 5, 6, 3], rotor symmetry: 1, max scan energy: 143.58 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 1 5 6 F
+D 2 1 5 6 F
+D 5 1 2 9 F
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.92766800    0.71639200    0.75412200
+O      -1.72763100    0.80893500    1.93926100
+O      -1.62474200   -1.76136600    2.02060600
+N      -0.02948100   -3.86279100   -0.16760400
+C      -0.57905300   -0.48504400    0.34374700
+C      -0.92893700   -1.69729200    0.97656600
+C      -0.42712100   -2.90471700    0.33815600
+H       0.02095800   -0.43217600   -0.55633900
+H      -1.84898900   -0.14876800    2.20784800
+""",
+)
+
+entry(
+    index = 143,
+    label = "C4H3N2O3_20b",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+2  C u0 p0 c0 {1,S} {5,S} {8,D}
+3  C u0 p0 c0 {1,S} {9,D} {10,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {2,S} {11,T}
+6  O u0 p2 c0 {4,S} {12,S}
+7  H u0 p0 c0 {1,S}
+8  O u0 p2 c0 {2,D}
+9  N u1 p1 c0 {3,D}
+10 H u0 p0 c0 {3,S}
+11 N u0 p1 c0 {5,T}
+12 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.41011,0.0502964,5.29044e-05,-2.31501e-07,1.7664e-10,19859.4,14.5612], Tmin=(10,'K'), Tmax=(532.151,'K')),
+            NASAPolynomial(coeffs=[9.76961,0.0412565,-3.08757e-05,1.03371e-08,-1.27869e-12,18633.7,-17.2648], Tmin=(532.151,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (165.037,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (266.063,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 1, 'H-O': 1, 'C=N': 1, 'C-H': 2, 'O-O': 1, 'C-C': 3, 'C-O': 1, 'C#N': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 12], rotor symmetry: 1, max scan energy: 47.11 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 7 6 8 11 F
+pivots: [1, 6], dihedral: [2, 1, 6, 7], rotor symmetry: 1, max scan energy: 55.86 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 7 6 8 11 F
+D 10 6 7 9 F
+D 6 1 2 12 F
+pivots: [6, 7], dihedral: [1, 6, 7, 3], rotor symmetry: 1, max scan energy: 23.86 kJ/mol
+pivots: [6, 8], dihedral: [1, 6, 8, 4], rotor symmetry: 1, max scan energy: 19.77 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 7 3 F
+D 6 1 2 12 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.05160100    0.86004700   -0.81425200
+O      -0.55807900    0.10931200   -1.89501100
+O      -0.20230700   -2.03909100    1.22662300
+N      -2.63737100    0.75232400   -0.03891500
+N       2.42095200   -1.74593800   -0.89728600
+C      -0.28861500    0.22459800    0.38596100
+C       0.26465000   -1.20928400    0.49276900
+C      -1.79380900    0.23121100    0.70550900
+C       1.46041100   -1.48941700   -0.31322700
+H       0.22700200    0.81853200    1.15409200
+H      -2.08089700   -0.27790900    1.63547800
+H      -1.41090500    0.57084000   -1.98062500
+""",
+)
+
+entry(
+    index = 144,
+    label = "C4H3N2O3_21",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,D} {4,S} {6,S}
+2  C u0 p0 c0 {1,D} {5,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,D} {10,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  O u0 p2 c0 {2,S} {7,S}
+6  C u0 p0 c0 {1,S} {11,T}
+7  O u0 p2 c0 {5,S} {12,S}
+8  H u0 p0 c0 {2,S}
+9  N u1 p1 c0 {3,D}
+10 H u0 p0 c0 {3,S}
+11 N u0 p1 c0 {6,T}
+12 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.53055,0.050894,2.24255e-06,-6.26975e-08,3.65842e-11,26802,13.4833], Tmin=(10,'K'), Tmax=(784.254,'K')),
+            NASAPolynomial(coeffs=[11.9968,0.0366035,-2.5682e-05,8.01244e-09,-9.29791e-13,24585.6,-30.9682], Tmin=(784.254,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (222.834,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (266.063,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C=N': 1, 'C=C': 1, 'C-H': 2, 'O-O': 1, 'C-C': 1, 'C-O': 3, 'C#N': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [8, 1, 6, 7], rotor symmetry: 1, max scan energy: 32.23 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 1 8 4 F
+D 7 2 3 12 F
+D 1 6 7 10 F
+D 3 2 7 10 F
+pivots: [1, 8], dihedral: [6, 1, 8, 4], rotor symmetry: 1, max scan energy: 39.20 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 1 6 9 F
+D 7 2 3 12 F
+D 3 2 7 10 F
+pivots: [2, 3], dihedral: [7, 2, 3, 12], rotor symmetry: 1, max scan energy: 43.27 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 1 6 9 F
+D 3 2 7 6 F
+pivots: [2, 7], dihedral: [3, 2, 7, 6], rotor symmetry: 1, max scan energy: 52.51 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 9 6 7 2 F
+D 6 1 8 4 F
+D 8 1 6 9 F
+D 7 2 3 12 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.04754900    0.34308900   -0.41535000
+O      -1.89685200   -2.10338400    0.70525700
+O      -1.90651200   -3.47130300    0.18310500
+N      -1.78368800   -1.33677700   -1.88828400
+N       2.11127000    0.45508100    0.78928300
+C      -0.23251600   -0.51292500    0.32105800
+C      -0.61107000   -1.70750300    0.80537600
+C      -1.72016000   -0.14859400   -1.50084000
+C       1.06040500    0.02292200    0.58157500
+H       0.08294000   -2.36725600    1.31395100
+H      -2.22521900    0.66176500   -2.02938500
+H      -2.00816300   -3.26226300   -0.76422900
+""",
+)
+
+entry(
+    index = 145,
+    label = "C4H2N2O3_22",
+    molecule =
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+2  C u0 p0 c0 {1,S} {5,S} {8,D}
+3  O u0 p2 c0 {1,S} {6,S}
+4  C u0 p0 c0 {1,S} {9,T}
+5  C u0 p0 c0 {2,S} {10,T}
+6  O u0 p2 c0 {3,S} {11,S}
+7  H u0 p0 c0 {1,S}
+8  O u0 p2 c0 {2,D}
+9  N u0 p1 c0 {4,T}
+10 N u0 p1 c0 {5,T}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4389,0.0469809,0.000135843,-6.48968e-07,6.80378e-10,8134.27,14.0007], Tmin=(10,'K'), Tmax=(378.172,'K')),
+            NASAPolynomial(coeffs=[9.68225,0.034311,-2.55806e-05,8.7588e-09,-1.1141e-12,7280.44,-15.0942], Tmin=(378.172,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (67.6652,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (245.277,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 1, 'H-O': 1, 'C-H': 1, 'O-O': 1, 'C-C': 3, 'C-O': 1, 'C#N': 2}
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 11], rotor symmetry: 1, max scan energy: 42.47 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 7 3 F
+pivots: [1, 6], dihedral: [2, 1, 6, 7], rotor symmetry: 1, max scan energy: 45.79 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 7 3 F
+D 6 1 2 11 F
+pivots: [6, 7], dihedral: [1, 6, 7, 3], rotor symmetry: 1, max scan energy: 19.31 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.57514700    0.47239600    0.08074200
+O      -2.25181600   -0.62947700   -0.58008000
+O       0.94934600   -0.22566200   -2.27235300
+N       0.81568900   -1.79332400    0.91705800
+N      -1.39353600    2.10538400   -3.06891600
+C      -0.20136100    0.33913800   -0.21264700
+C       0.08191400    0.39921600   -1.73405900
+C       0.39452700   -0.85611100    0.39837000
+C      -0.76807900    1.34583100   -2.46781800
+H       0.24635900    1.23663000    0.23477200
+H      -2.47260800   -1.19386300    0.17704600
+""",
+)
+
+entry(
+    index = 146,
+    label = "C4H2N2O3_23",
+    molecule =
+"""
+1  C u0 p0 c0 {2,D} {3,S} {5,S}
+2  C u0 p0 c0 {1,D} {4,S} {6,S}
+3  O u0 p2 c0 {1,S} {7,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  C u0 p0 c0 {1,S} {8,T}
+6  C u0 p0 c0 {2,S} {9,T}
+7  O u0 p2 c0 {3,S} {11,S}
+8  N u0 p1 c0 {5,T}
+9  N u0 p1 c0 {6,T}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.47231,0.0463188,4.07277e-05,-1.79108e-07,1.28497e-10,7616.22,13.2613], Tmin=(10,'K'), Tmax=(573.078,'K')),
+            NASAPolynomial(coeffs=[9.96927,0.0367067,-2.76496e-05,9.24735e-09,-1.13966e-12,6284.76,-19.5855], Tmin=(573.078,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (63.243,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (245.277,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 2, 'C=C': 1, 'O-O': 1, 'C-C': 2, 'C-O': 2, 'C#N': 2}
+1D rotors:
+pivots: [1, 3], dihedral: [6, 1, 3, 11], rotor symmetry: 1, max scan energy: 27.51 kJ/mol
+pivots: [1, 6], dihedral: [3, 1, 6, 7], rotor symmetry: 1, max scan energy: 37.15 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 10 2 7 9 F
+D 6 1 3 11 F
+pivots: [2, 7], dihedral: [10, 2, 7, 6], rotor symmetry: 1, max scan energy: 34.13 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -0.29654700    0.59182700    1.43276600
+O      -1.11499200   -1.96833800    1.55143500
+O       1.14434100    0.77548000    1.74619100
+N       0.22838100    1.10534200   -1.91649300
+N      -1.34428600   -2.86537200   -1.68900700
+C      -0.39993300   -0.11399500    0.26245600
+C      -0.85539600   -1.39120900    0.37359200
+C      -0.06550500    0.53657500   -0.95449600
+C      -1.12940900   -2.20557000   -0.76757600
+H      -0.90096300   -1.32343400    2.24639100
+H       1.20675500    1.73975900    1.66325100
+""",
+)
+
+entry(
+    index = 147,
+    label = "C4HN2O3_24",
+    molecule =
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,D} {3,S} {4,S}
+2  C u0 p0 c0 {1,D} {5,S} {7,S}
+3  O u0 p2 c0 {1,S} {6,S}
+4  C u0 p0 c0 {1,S} {8,T}
+5  C u0 p0 c0 {2,S} {9,T}
+6  O u0 p2 c0 {3,S} {10,S}
+7  O u1 p2 c0 {2,S}
+8  N u0 p1 c0 {4,T}
+9  N u0 p1 c0 {5,T}
+10 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65132,0.030189,0.000174961,-6.96928e-07,7.47667e-10,23217.4,13.0182], Tmin=(10,'K'), Tmax=(334.492,'K')),
+            NASAPolynomial(coeffs=[5.29468,0.0434808,-3.23785e-05,1.07584e-08,-1.32821e-12,22923.2,4.13479], Tmin=(334.492,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (193.087,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (220.334,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 1, 'C=C': 1, 'O-O': 1, 'C-C': 2, 'C-O': 2, 'C#N': 2}
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 10], rotor symmetry: 1, max scan energy: 26.39 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 2 1 6 7 F
+D 8 6 7 3 F
+pivots: [1, 6], dihedral: [2, 1, 6, 7], rotor symmetry: 1, max scan energy: 65.99 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 1 2 10 F
+pivots: [6, 7], dihedral: [1, 6, 7, 3], rotor symmetry: 1, max scan energy: 106.50 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 1 6 7 F
+D 2 1 6 7 F
+D 6 1 2 10 F
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       0.07754700    1.14332900    0.48690700
+O       0.37185100    2.31401300   -0.27055900
+O       1.41825800    0.74179200   -1.99821400
+N      -0.18944800   -2.00404600    1.52517500
+N       1.71782600   -2.64189600   -1.99890900
+C       0.44281400   -0.04142100   -0.00909800
+C       1.11637400   -0.21410400   -1.26248900
+C       0.09224900   -1.11590200    0.83928900
+C       1.44229400   -1.57636600   -1.65368900
+H       0.83099300    1.95993600   -1.08515800
+""",
+)
+
+entry(
+    index = 148,
+    label = "C4H2N2O2_25",
+    molecule =
+"""
+1  C u0 p0 c0 {2,D} {3,S} {5,S}
+2  C u0 p0 c0 {1,D} {4,S} {6,S}
+3  O u0 p2 c0 {1,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  C u0 p0 c0 {1,S} {7,T}
+6  C u0 p0 c0 {2,S} {8,T}
+7  N u0 p1 c0 {5,T}
+8  N u0 p1 c0 {6,T}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6497,0.0265215,0.000160463,-5.44347e-07,4.83319e-10,-2466.89,12.6401], Tmin=(10,'K'), Tmax=(418.576,'K')),
+            NASAPolynomial(coeffs=[7.72994,0.0327993,-2.42607e-05,8.23993e-09,-1.04004e-12,-3205.05,-8.22844], Tmin=(418.576,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-20.5151,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (224.491,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-O': 2, 'C=C': 1, 'C-C': 2, 'C-O': 2, 'C#N': 2}
+1D rotors:
+pivots: [1, 5], dihedral: [9, 1, 5, 6], rotor symmetry: 1, max scan energy: 24.34 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 10 2 6 5 F
+pivots: [2, 6], dihedral: [10, 2, 6, 5], rotor symmetry: 1, max scan energy: 35.77 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 9 1 5 7 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.19907900    0.10267500   -1.98251900
+O       0.71609700   -1.61386300    0.00959300
+N      -1.06718600    2.80108800   -0.38573800
+N      -0.34913000    0.06340100    2.80944000
+C      -0.08133700    0.44098600   -0.70586500
+C       0.14872900   -0.40284600    0.32996900
+C      -0.62414100    1.74414900   -0.52483000
+C      -0.13304800   -0.10676300    1.68575500
+H       0.54984500   -0.80013700   -1.98318100
+H       0.64108000   -2.22869700    0.74737300
+""",
+)
+
+entry(
+    index = 149,
+    label = "C3HN2O2_26",
+    molecule =
+"""
+multiplicity 2
+1 O u0 p2 c0 {5,S} {6,S}
+2 O u0 p2 c0 {5,D}
+3 N u1 p1 c0 {6,D}
+4 N u0 p1 c0 {7,T}
+5 C u0 p0 c0 {1,S} {2,D} {7,S}
+6 C u0 p0 c0 {1,S} {3,D} {8,S}
+7 C u0 p0 c0 {4,T} {5,S}
+8 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.77175,0.0222192,0.000158431,-7.96074e-07,1.09491e-09,12219.7,11.4388], Tmin=(10,'K'), Tmax=(261.387,'K')),
+            NASAPolynomial(coeffs=[4.76777,0.0303576,-2.24453e-05,7.45677e-09,-9.2139e-13,12087.7,6.44213], Tmin=(261.387,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (101.629,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (174.604,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 1, 'C=N': 1, 'C-H': 1, 'C-C': 1, 'C-O': 2, 'C#N': 1}
+1D rotors:
+pivots: [1, 5], dihedral: [6, 1, 5, 2], rotor symmetry: 1, max scan energy: 45.40 kJ/mol
+pivots: [1, 6], dihedral: [5, 1, 6, 3], rotor symmetry: 1, max scan energy: 15.81 kJ/mol
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.24100000   -0.33463700   -0.53501600
+O       0.38080100    0.85206400    1.31203500
+N      -2.45413600   -0.42479200   -1.14310600
+N       3.07332600   -0.59293000   -0.19198400
+C       0.63909700    0.16230700    0.37230200
+C      -1.58601700   -0.00785800   -0.35389500
+C       1.98799400   -0.27706100    0.02949800
+H      -1.80006700    0.62291200    0.51019500
+""",
+)
+
+entry(
+    index = 150,
+    label = "C2NO2_27",
+    molecule =
+"""
+multiplicity 2
+1 O u1 p2 c0 {4,S}
+2 O u0 p2 c0 {4,D}
+3 N u0 p1 c0 {5,T}
+4 C u0 p0 c0 {1,S} {2,D} {5,S}
+5 C u0 p0 c0 {3,T} {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91716,0.00549227,6.44193e-05,-1.65289e-07,1.20761e-10,4317.51,9.1499], Tmin=(10,'K'), Tmax=(483.654,'K')),
+            NASAPolynomial(coeffs=[4.72506,0.0141912,-1.02605e-05,3.40008e-09,-4.20883e-13,4059.47,3.97938], Tmin=(483.654,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (35.8813,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (108.088,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 1, 'C-C': 1, 'C-O': 1, 'C#N': 1}
+
+External symmetry: 2, optical isomers: 1
+
+Geometry:
+O      -1.25484400   -1.00494700    0.03306300
+O      -1.16690600    1.10018700    0.11645000
+N       2.05811900   -0.08093800   -0.12706300
+C      -0.54488500    0.02142800    0.03364000
+C       0.90851600   -0.03573000   -0.05608900
+""",
+)
+
+entry(
+    index = 151,
+    label = "C3HN2O3_28",
+    molecule =
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {7,D}
+2 C u0 p0 c0 {1,S} {4,S} {6,D}
+3 O u0 p2 c0 {1,S} {5,S}
+4 O u0 p2 c0 {2,S} {8,S}
+5 C u0 p0 c0 {3,S} {9,T}
+6 O u0 p2 c0 {2,D}
+7 N u1 p1 c0 {1,D}
+8 H u0 p0 c0 {4,S}
+9 N u0 p1 c0 {5,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67956,0.0222443,0.000170838,-5.3021e-07,4.32808e-10,-6631.87,14.6624], Tmin=(10,'K'), Tmax=(459.449,'K')),
+            NASAPolynomial(coeffs=[9.53074,0.0261073,-2.06969e-05,7.32896e-09,-9.50557e-13,-7747.97,-15.3104], Tmin=(459.449,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-55.1794,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (191.233,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'C=O': 1, 'H-O': 1, 'C=N': 1, 'C-C': 1, 'C-O': 3, 'C#N': 1}
+1D rotors:
+pivots: [1, 6], dihedral: [8, 1, 6, 4], rotor symmetry: 1, max scan energy: 16.14 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 6 7 3 F
+pivots: [2, 7], dihedral: [9, 2, 7, 3], rotor symmetry: 1, max scan energy: 49.45 kJ/mol
+pivots: [6, 7], dihedral: [1, 6, 7, 2], rotor symmetry: 1, max scan energy: 16.88 kJ/mol
+pivots: [1, 8], dihedral: [6, 1, 8, 5], rotor symmetry: 1, max scan energy: 0.65 kJ/mol (set as a FreeRotor)
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       1.27680700    0.26669600    0.27198000
+O      -2.23222200   -0.12264900   -0.10731500
+O      -1.00913300    1.18241400    1.27680800
+N       0.05234100   -1.10774000   -1.18639900
+N       3.46439300   -0.48197700   -0.55295500
+C       0.10311000   -0.25811800   -0.27733200
+C      -1.10475600    0.36907300    0.40706400
+C       2.41637400   -0.15785000   -0.19473200
+H      -2.97668100    0.29781600    0.35080200
+""",
+)
+
+entry(
+    index = 152,
+    label = "C3H6N2O3_31",
+    molecule =
+"""
+1  O u0 p2 c0 {2,S} {6,S}
+2  O u0 p2 c0 {1,S} {4,S}
+3  O u0 p2 c0 {8,D}
+4  N u0 p1 c0 {2,S} {5,D}
+5  N u0 p1 c0 {4,D} {14,S}
+6  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+7  C u0 p0 c0 {8,S} {11,S} {12,S} {13,S}
+8  C u0 p0 c0 {3,D} {6,S} {7,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {7,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85816,0.051454,-1.75864e-05,-1.20403e-08,6.97888e-12,-5038.87,12.1051], Tmin=(10,'K'), Tmax=(1133.64,'K')),
+            NASAPolynomial(coeffs=[17.4535,0.0261291,-1.40411e-05,3.49566e-09,-3.33139e-13,-9576.45,-61.6077], Tmin=(1133.64,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-41.7642,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (311.793,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Bond corrections: {'H-N': 1, 'N=N': 1, 'C=O': 1, 'C-H': 5, 'O-O': 1, 'C-C': 2, 'C-O': 1, 'N-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 4], rotor symmetry: 1, max scan energy: 202.12 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+A 2 4 5 F
+A 1 2 4 F
+D 13 7 8 6 F
+D 2 1 6 9 F
+D 1 2 4 5 F
+D 1 6 8 7 F
+B 2 4 F
+B 5 14 F
+B 1 2 F
+pivots: [1, 6], dihedral: [2, 1, 6, 8], rotor symmetry: 1, max scan energy: 50.77 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 13 7 8 6 F
+D 1 6 8 7 F
+D 6 1 2 4 F
+pivots: [2, 4], dihedral: [1, 2, 4, 5], rotor symmetry: 1, max scan energy: 53.24 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 13 7 8 6 F
+pivots: [6, 8], dihedral: [1, 6, 8, 3], rotor symmetry: 1, max scan energy: 27.10 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 13 7 8 6 F
+D 2 1 6 8 F
+pivots: [7, 8], dihedral: [11, 7, 8, 3], rotor symmetry: 3, max scan energy: 2.04 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -2.26299300   -0.58130200   -2.35813400
+O      -2.69812500   -0.04438700   -3.62171200
+O      -4.62089400   -0.52214300   -0.91515600
+N      -3.84751700   -0.84826600   -4.22201200
+N      -4.30543400   -1.72188000   -3.54850500
+C      -2.46482300    0.41121700   -1.36727900
+C      -4.19889900    1.59151200    0.12587100
+C      -3.85988100    0.39944400   -0.73825600
+H      -2.21613700    1.39929400   -1.76465000
+H      -1.73974900    0.17516000   -0.57852200
+H      -3.34863000    1.89868900    0.74163800
+H      -5.05632900    1.35906200    0.75560400
+H      -4.45197400    2.43840600   -0.52123100
+H      -3.89303500   -1.77819900   -2.59471500
+""",
+)
