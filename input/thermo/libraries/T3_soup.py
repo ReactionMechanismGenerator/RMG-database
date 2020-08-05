@@ -25,11 +25,11 @@ entry(
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {3,S} {5,S}
-2 N u1 p1 c0 {3,D}
-3 C u0 p0 c0 {1,S} {2,D} {4,S}
-4 H u0 p0 c0 {3,S}
-5 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 N u1 p1 c0 {1,D}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -45,7 +45,7 @@ multiplicity 2
     shortDesc = """""",
     longDesc = 
 """
-Bond corrections: {'H-O': 1, 'C-O': 1, 'C=N': 1, 'C-H': 1}
+Bond corrections: {'H-O': 1, 'C-O': 1, 'C-H': 1, 'C=N': 1}
 1D rotors:
 pivots: [1, 3], dihedral: [5, 1, 3, 2], rotor symmetry: 1, max scan energy: 34.38 kJ/mol
 
@@ -62,7 +62,7 @@ H       1.43964200    0.22185200   -0.27569000
 )
 
 entry(
-    index = 1,
+    index = 2,
     label = "C3H6O2_1",
     molecule = 
 """
@@ -80,27 +80,27 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.848,0.0183428,2.67545e-05,-3.85882e-08,1.32149e-11,-47398.2,11.8869], Tmin=(10,'K'), Tmax=(1064.85,'K')),
-            NASAPolynomial(coeffs=[4.07829,0.0342657,-1.93236e-05,5.06519e-09,-5.09788e-13,-48399,6.29223], Tmin=(1064.85,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84819,0.0182684,2.70888e-05,-3.90082e-08,1.33802e-11,-47398.1,11.8868], Tmin=(10,'K'), Tmax=(1061.72,'K')),
+            NASAPolynomial(coeffs=[4.02231,0.0344055,-1.94351e-05,5.10232e-09,-5.14253e-13,-48381.6,6.57891], Tmin=(1061.72,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-394.075,'kJ/mol'),
+        E0 = (-394.074,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
 """
-Bond corrections: {'C-H': 5, 'H-O': 1, 'C=O': 1, 'C-C': 2, 'C-O': 1}
+Bond corrections: {'C-H': 5, 'C-C': 2, 'C=O': 1, 'H-O': 1, 'C-O': 1}
 1D rotors:
 pivots: [1, 3], dihedral: [11, 1, 3, 5], rotor symmetry: 1, max scan energy: 29.88 kJ/mol
 Troubleshot with the following constraints and 8.0 degrees resolution:
-D 9 4 5 2 F
-pivots: [3, 5], dihedral: [1, 3, 5, 2], rotor symmetry: 1, max scan energy: 40.56 kJ/mol
+D 10 4 5 3 F
+pivots: [3, 5], dihedral: [1, 3, 5, 2], rotor symmetry: 1, max scan energy: 41.23 kJ/mol
 Troubleshot with the following constraints and 8.0 degrees resolution:
-D 9 4 5 2 F
-D 11 1 3 5 F
+D 10 4 5 3 F
+D 11 1 3 6 F
 pivots: [4, 5], dihedral: [8, 4, 5, 2], rotor symmetry: 1, max scan energy: 0.57 kJ/mol (set as a FreeRotor)
 
 
@@ -122,7 +122,52 @@ H      -1.96144600    0.94675700   -1.13584300
 )
 
 entry(
-    index = 2,
+    index = 3,
+    label = "C2HN2O_4",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {4,S} {5,S}
+2 N u1 p1 c0 {4,D}
+3 N u0 p1 c0 {5,T}
+4 C u0 p0 c0 {1,S} {2,D} {6,S}
+5 C u0 p0 c0 {1,S} {3,T}
+6 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67293,0.0308833,-6.56505e-05,8.62778e-08,-4.65142e-11,35561.7,11.4262], Tmin=(10,'K'), Tmax=(451.719,'K')),
+            NASAPolynomial(coeffs=[5.59561,0.0138579,-9.11551e-06,2.84132e-09,-3.37202e-13,35388,3.67829], Tmin=(451.719,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (295.665,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (124.717,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C#N': 1, 'C-H': 1, 'C-O': 2, 'C=N': 1}
+1D rotors:
+pivots: [1, 4], dihedral: [5, 1, 4, 2], rotor symmetry: 1, max scan energy: 17.16 kJ/mol
+pivots: [1, 5], dihedral: [4, 1, 5, 3], rotor symmetry: 1, max scan energy: 0.64 kJ/mol (set as a FreeRotor)
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       0.08987600   -0.71273300   -0.38967000
+N      -0.88711600    1.22261700    0.53138900
+N       2.40051600    0.08547800   -0.15407600
+C      -0.98355800    0.08907900    0.02747700
+C       1.30052200   -0.25121800   -0.24678900
+H      -1.92024000   -0.43322300   -0.15727000
+""",
+)
+
+entry(
+    index = 4,
     label = "CH2NO3_2",
     molecule = 
 """
@@ -149,7 +194,7 @@ multiplicity 2
     shortDesc = """""",
     longDesc = 
 """
-Bond corrections: {'C-H': 1, 'H-O': 1, 'C=N': 1, 'O-O': 1, 'N-O': 1, 'C-O': 1}
+Bond corrections: {'C-H': 1, 'N-O': 1, 'O-O': 1, 'H-O': 1, 'C=N': 1, 'C-O': 1}
 1D rotors:
 pivots: [1, 5], dihedral: [7, 1, 5, 4], rotor symmetry: 1, max scan energy: 74.29 kJ/mol
 Troubleshot with the following constraints and 8.0 degrees resolution:
@@ -172,52 +217,66 @@ H      -0.65280700   -0.70005300   -0.81685300
 )
 
 entry(
-    index = 3,
-    label = "C2HN2O_3",
+    index = 8,
+    label = "C3H6O2_5",
     molecule = 
 """
-multiplicity 2
-1 O u0 p2 c0 {4,S} {5,S}
-2 N u1 p1 c0 {4,D}
-3 N u0 p1 c0 {5,T}
-4 C u0 p0 c0 {1,S} {2,D} {6,S}
-5 C u0 p0 c0 {1,S} {3,T}
-6 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {5,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  O u0 p2 c0 {3,S} {11,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.67293,0.0308833,-6.56505e-05,8.62778e-08,-4.65142e-11,35561.7,11.4262], Tmin=(10,'K'), Tmax=(451.719,'K')),
-            NASAPolynomial(coeffs=[5.59561,0.0138579,-9.11551e-06,2.84132e-09,-3.37202e-13,35388,3.67829], Tmin=(451.719,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87295,0.0106213,0.000121309,-3.09474e-07,2.54479e-10,-42071.2,10.6159], Tmin=(10,'K'), Tmax=(310.945,'K')),
+            NASAPolynomial(coeffs=[1.48518,0.0413381,-2.68719e-05,8.23116e-09,-9.60815e-13,-41922.7,19.3462], Tmin=(310.945,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (295.665,'kJ/mol'),
+        E0 = (-349.796,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (124.717,'J/(mol*K)'),
+        CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
 """
-Bond corrections: {'C-H': 1, 'C=N': 1, 'C#N': 1, 'C-O': 2}
+Bond corrections: {'C-H': 4, 'C-O': 2, 'H-O': 2, 'C=C': 1, 'C-C': 1}
 1D rotors:
-pivots: [1, 4], dihedral: [5, 1, 4, 2], rotor symmetry: 1, max scan energy: 17.16 kJ/mol
-pivots: [1, 5], dihedral: [4, 1, 5, 3], rotor symmetry: 1, max scan energy: 0.64 kJ/mol (set as a FreeRotor)
+pivots: [1, 4], dihedral: [10, 1, 4, 3], rotor symmetry: 1, max scan energy: 37.84 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 11 2 5 4 F
+pivots: [2, 5], dihedral: [11, 2, 5, 4], rotor symmetry: 1, max scan energy: 23.47 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 10 1 4 5 F
+pivots: [3, 4], dihedral: [6, 3, 4, 1], rotor symmetry: 3, max scan energy: 10.23 kJ/mol
 
 
-External symmetry: 1, optical isomers: 1
+External symmetry: 1, optical isomers: 2
 
 Geometry:
-O       0.08987600   -0.71273300   -0.38967000
-N      -0.88711600    1.22261700    0.53138900
-N       2.40051600    0.08547800   -0.15407600
-C      -0.98355800    0.08907900    0.02747700
-C       1.30052200   -0.25121800   -0.24678900
-H      -1.92024000   -0.43322300   -0.15727000
+O      -0.40173400    0.74427700   -1.62448200
+O      -1.69565500   -1.34190600   -0.48104700
+C       0.47928200    1.58667500    0.43209700
+C      -0.31121400    0.53986300   -0.27674000
+C      -0.90540500   -0.50401000    0.30830600
+H       0.01913600    2.57055600    0.29717600
+H       1.49169500    1.64050000    0.02023000
+H       0.54443500    1.37456300    1.50021100
+H      -0.88008900   -0.68494900    1.37572800
+H      -0.95331900    0.02767800   -1.97067800
+H      -1.43867900   -2.25553100   -0.32218700
 """,
 )
 
 entry(
-    index = 4,
+    index = 10,
     label = "CH2NO2_4",
     molecule = 
 """
@@ -262,66 +321,7 @@ H      -1.07792000    1.58379100    0.06751700
 )
 
 entry(
-    index = 5,
-    label = "C3H6O2_5",
-    molecule = 
-"""
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,D} {4,S}
-3  C u0 p0 c0 {2,D} {5,S} {9,S}
-4  O u0 p2 c0 {2,S} {10,S}
-5  O u0 p2 c0 {3,S} {11,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.87026,0.0108573,0.000119142,-3.02471e-07,2.46937e-10,-42071.1,10.6044], Tmin=(10,'K'), Tmax=(313.347,'K')),
-            NASAPolynomial(coeffs=[1.48042,0.0413647,-2.68988e-05,8.24117e-09,-9.62083e-13,-41921.4,19.3607], Tmin=(313.347,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-        E0 = (-349.795,'kJ/mol'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (245.277,'J/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-Bond corrections: {'C-H': 4, 'H-O': 2, 'C=C': 1, 'C-C': 1, 'C-O': 2}
-1D rotors:
-pivots: [1, 4], dihedral: [10, 1, 4, 3], rotor symmetry: 1, max scan energy: 37.84 kJ/mol
-Troubleshot with the following constraints and 8.0 degrees resolution:
-D 11 2 5 4 F
-pivots: [2, 5], dihedral: [11, 2, 5, 4], rotor symmetry: 1, max scan energy: 23.52 kJ/mol
-Troubleshot with the following constraints and 8.0 degrees resolution:
-D 10 1 4 3 F
-pivots: [3, 4], dihedral: [6, 3, 4, 1], rotor symmetry: 3, max scan energy: 10.23 kJ/mol
-
-
-External symmetry: 1, optical isomers: 2
-
-Geometry:
-O      -2.30957400    1.97126900    1.52930600
-O      -1.94194100    1.03322500   -0.98440700
-C      -0.48606300    0.74495900    2.47074700
-C      -1.27731000    1.11693400    1.26297600
-C      -1.04768900    0.67063100    0.02479200
-H      -1.12302300    0.24317200    3.20590200
-H      -0.08011300    1.64183600    2.94858300
-H       0.33899900    0.08014100    2.21114200
-H      -0.25782700   -0.02805200   -0.22164400
-H      -2.76326700    2.11887900    0.68670000
-H      -1.44528600    1.37122000   -1.73612200
-""",
-)
-
-entry(
-    index = 6,
+    index = 11,
     label = "C3H5O2_6",
     molecule = 
 """
@@ -339,27 +339,23 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91659,0.00631637,0.000116499,-3.02796e-07,2.65896e-10,-32674.8,10.5986], Tmin=(10,'K'), Tmax=(287.738,'K')),
-            NASAPolynomial(coeffs=[2.09263,0.0316749,-1.57114e-05,3.55846e-09,-3.06576e-13,-32569.9,17.1258], Tmin=(287.738,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86112,0.0124518,6.54403e-05,-1.39776e-07,9.11584e-11,-32690.9,10.3238], Tmin=(10,'K'), Tmax=(397.831,'K')),
+            NASAPolynomial(coeffs=[1.55912,0.0355972,-2.18277e-05,6.46295e-09,-7.38636e-13,-32507.7,19.3078], Tmin=(397.831,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-271.69,'kJ/mol'),
+        E0 = (-271.814,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (220.334,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
 """
-Bond corrections: {'C-H': 4, 'H-O': 1, 'C=C': 1, 'C-C': 1, 'C-O': 2}
+Bond corrections: {'C-H': 4, 'C-O': 2, 'H-O': 1, 'C=C': 1, 'C-C': 1}
 1D rotors:
-pivots: [1, 5], dihedral: [10, 1, 5, 4], rotor symmetry: 1, max scan energy: 70.29 kJ/mol
-pivots: [3, 4], dihedral: [6, 3, 4, 2], rotor symmetry: 3, max scan energy: 2.37 kJ/mol
-pivots: [4, 5], dihedral: [2, 4, 5, 1], rotor symmetry: 1, max scan energy: 123.51 kJ/mol
-Troubleshot with the following constraints and 8.0 degrees resolution:
-D 4 5 1 9 F
-D 7 3 4 2 F
-D 10 1 5 4 F
+* Invalidated! pivots: [1, 5], dihedral: [10, 1, 5, 4], invalidation reason: 
+* Invalidated! pivots: [3, 4], dihedral: [6, 3, 4, 2], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [2, 4, 5, 1], invalidation reason: 
 
 
 External symmetry: 1, optical isomers: 1
@@ -379,7 +375,7 @@ H      -0.50547000    0.65073700    0.88176000
 )
 
 entry(
-    index = 7,
+    index = 12,
     label = "C3H5O2_7",
     molecule = 
 """
@@ -397,24 +393,22 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84244,0.00965457,0.000132949,-3.00509e-07,1.95405e-10,-11563.9,10.9928], Tmin=(10,'K'), Tmax=(540.848,'K')),
-            NASAPolynomial(coeffs=[5.53665,0.0313174,-2.19619e-05,7.33184e-09,-9.22353e-13,-12247.2,-0.762751], Tmin=(540.848,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85226,0.00977415,0.00013439,-3.29893e-07,2.37258e-10,-11555,11.0639], Tmin=(10,'K'), Tmax=(480.57,'K')),
+            NASAPolynomial(coeffs=[4.58609,0.0316167,-2.10294e-05,6.73625e-09,-8.2103e-13,-11948.3,4.70327], Tmin=(480.57,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-96.2013,'kJ/mol'),
+        E0 = (-96.1027,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (220.334,'J/(mol*K)'),
+        CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
 """
-Bond corrections: {'C-H': 3, 'H-O': 2, 'C=C': 1, 'C-C': 1, 'C-O': 2}
+Bond corrections: {'C-H': 3, 'C-O': 2, 'H-O': 2, 'C=C': 1, 'C-C': 1}
 1D rotors:
 pivots: [1, 4], dihedral: [9, 1, 4, 3], rotor symmetry: 1, max scan energy: 21.89 kJ/mol
-pivots: [2, 5], dihedral: [10, 2, 5, 4], rotor symmetry: 1, max scan energy: 35.45 kJ/mol
-Troubleshot with the following constraints and 8.0 degrees resolution:
-D 1 4 5 2 F
+* Invalidated! pivots: [2, 5], dihedral: [10, 2, 5, 4], invalidation reason: 
 pivots: [3, 4], dihedral: [6, 3, 4, 1], rotor symmetry: 3, max scan energy: 7.02 kJ/mol
 
 
@@ -435,7 +429,56 @@ H       1.36255800    0.03661700   -3.08472800
 )
 
 entry(
-    index = 8,
+    index = 13,
+    label = "C3H3O2_9",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {4,D}
+2 O u0 p2 c0 {5,D}
+3 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+4 C u0 p0 c0 {1,D} {3,S} {5,S}
+5 C u1 p0 c0 {2,D} {4,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67061,0.0349448,-0.000121403,2.89152e-07,-2.43217e-10,-16181.5,9.19407], Tmin=(10,'K'), Tmax=(405.822,'K')),
+            NASAPolynomial(coeffs=[2.97028,0.0238966,-1.4216e-05,4.07153e-09,-4.51184e-13,-15976.8,13.7624], Tmin=(405.822,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-134.551,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (174.604,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 3, 'C-C': 2, 'C=O': 2}
+1D rotors:
+pivots: [3, 4], dihedral: [6, 3, 4, 1], rotor symmetry: 3, max scan energy: 3.47 kJ/mol
+pivots: [4, 5], dihedral: [1, 4, 5, 2], rotor symmetry: 1, max scan energy: 0.67 kJ/mol (set as a FreeRotor)
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -0.84012900    0.60291800   -1.37740900
+O      -1.99398500    1.19176300    1.63309100
+C       0.96487500   -0.09441600    0.13110500
+C      -0.39606700    0.45977200   -0.21682700
+C      -1.23495600    0.84677300    0.82926400
+H       1.73495000    0.52688800   -0.33362700
+H       1.14120800   -0.12907700    1.20929100
+H       1.05529300   -1.10533300   -0.27494800
+""",
+)
+
+entry(
+    index = 14,
     label = "C3H4O2_8",
     molecule = 
 """
@@ -485,56 +528,7 @@ H       1.54456600    0.97596400   -0.92869500
 )
 
 entry(
-    index = 9,
-    label = "C3H3O2_9",
-    molecule = 
-"""
-multiplicity 2
-1 O u0 p2 c0 {4,D}
-2 O u0 p2 c0 {5,D}
-3 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-4 C u0 p0 c0 {1,D} {3,S} {5,S}
-5 C u1 p0 c0 {2,D} {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.67061,0.0349437,-0.000121392,2.89118e-07,-2.43185e-10,-16181.5,9.19403], Tmin=(10,'K'), Tmax=(405.826,'K')),
-            NASAPolynomial(coeffs=[2.97037,0.0238964,-1.42159e-05,4.07152e-09,-4.51183e-13,-15976.8,13.7619], Tmin=(405.826,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-        E0 = (-134.55,'kJ/mol'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (174.604,'J/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-Bond corrections: {'C-H': 3, 'C=O': 2, 'C-C': 2}
-1D rotors:
-pivots: [3, 4], dihedral: [6, 3, 4, 1], rotor symmetry: 3, max scan energy: 3.47 kJ/mol
-pivots: [4, 5], dihedral: [1, 4, 5, 2], rotor symmetry: 1, max scan energy: 0.67 kJ/mol (set as a FreeRotor)
-
-
-External symmetry: 1, optical isomers: 1
-
-Geometry:
-O      -0.84012900    0.60291800   -1.37740900
-O      -1.99398500    1.19176300    1.63309100
-C       0.96487500   -0.09441600    0.13110500
-C      -0.39606700    0.45977200   -0.21682700
-C      -1.23495600    0.84677300    0.82926400
-H       1.73495000    0.52688800   -0.33362700
-H       1.14120800   -0.12907700    1.20929100
-H       1.05529300   -1.10533300   -0.27494800
-""",
-)
-
-entry(
-    index = 10,
+    index = 15,
     label = "CHO3_0",
     molecule = 
 """
@@ -576,7 +570,7 @@ H       1.32733000    0.54652000    0.40648200
 )
 
 entry(
-    index = 11,
+    index = 16,
     label = "CH2O3_1",
     molecule = 
 """
@@ -620,7 +614,7 @@ H       1.56053100   -0.37959700   -0.24069100
 )
 
 entry(
-    index = 12,
+    index = 17,
     label = "C2H2NO3_2",
     molecule = 
 """
@@ -670,26 +664,26 @@ H       1.38229100    0.79870000    2.07864300
 )
 
 entry(
-    index = 13,
+    index = 18,
     label = "C4H8N2O2_3",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {5,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  N u0 p1 c0 {2,S} {15,S} {16,S}
-4  N u0 p1 c0 {8,T}
-5  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-6  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
-7  C u0 p0 c0 {5,S} {12,S} {13,S} {14,S}
-8  C u0 p0 c0 {4,T} {5,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {7,S}
-13 H u0 p0 c0 {7,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  N u0 p1 c0 {7,S} {14,S} {15,S}
+5  O u0 p2 c0 {1,S} {7,S}
+6  C u0 p0 c0 {1,S} {16,T}
+7  O u0 p2 c0 {4,S} {5,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 N u0 p1 c0 {6,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -743,22 +737,22 @@ H       1.72033200   -0.13789500   -1.98883000
 )
 
 entry(
-    index = 14,
+    index = 19,
     label = "C3H7NO3_4",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {5,S}
-2  O u0 p2 c0 {1,S} {4,S}
-3  O u0 p2 c0 {7,D}
-4  N u0 p1 c0 {2,S} {13,S} {14,S}
-5  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-6  C u0 p0 c0 {7,S} {10,S} {11,S} {12,S}
-7  C u0 p0 c0 {3,D} {5,S} {6,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+3  C u0 p0 c0 {1,S} {2,S} {12,D}
+4  N u0 p1 c0 {6,S} {13,S} {14,S}
+5  O u0 p2 c0 {1,S} {6,S}
+6  O u0 p2 c0 {4,S} {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 O u0 p2 c0 {3,D}
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {4,S}
 """,
@@ -821,7 +815,7 @@ H      -2.34807000    0.91804700    2.95477400
 )
 
 entry(
-    index = 15,
+    index = 20,
     label = "C4H7N2O2_5",
     molecule = 
 """
@@ -887,7 +881,7 @@ H       2.70794200   -0.37780200   -0.31337000
 )
 
 entry(
-    index = 16,
+    index = 21,
     label = "C4H7N2O2_6",
     molecule = 
 """
@@ -953,24 +947,24 @@ H       2.36175400   -0.56182800    1.18026500
 )
 
 entry(
-    index = 17,
+    index = 22,
     label = "C3H6NO3_7",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {5,S}
-2  O u0 p2 c0 {1,S} {4,S}
-3  O u0 p2 c0 {7,D}
-4  N u1 p1 c0 {2,S} {13,S}
-5  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-6  C u0 p0 c0 {7,S} {10,S} {11,S} {12,S}
-7  C u0 p0 c0 {3,D} {5,S} {6,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+3  C u0 p0 c0 {1,S} {2,S} {12,D}
+4  O u0 p2 c0 {1,S} {5,S}
+5  O u0 p2 c0 {4,S} {6,S}
+6  N u1 p1 c0 {5,S} {13,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 O u0 p2 c0 {3,D}
+13 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1037,27 +1031,27 @@ H      -2.82993100   -0.04631500   -2.06727300
 )
 
 entry(
-    index = 18,
+    index = 23,
     label = "C4H8N2O3_9",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  O u0 p2 c0 {1,S} {4,S}
-3  O u0 p2 c0 {4,S} {17,S}
-4  N u0 p1 c0 {2,S} {3,S} {16,S}
-5  N u0 p1 c0 {9,T}
-6  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-7  C u0 p0 c0 {6,S} {10,S} {11,S} {12,S}
-8  C u0 p0 c0 {6,S} {13,S} {14,S} {15,S}
-9  C u0 p0 c0 {5,T} {6,S}
-10 H u0 p0 c0 {7,S}
-11 H u0 p0 c0 {7,S}
-12 H u0 p0 c0 {7,S}
-13 H u0 p0 c0 {8,S}
-14 H u0 p0 c0 {8,S}
-15 H u0 p0 c0 {8,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+3  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
+4  N u0 p1 c0 {7,S} {8,S} {15,S}
+5  O u0 p2 c0 {1,S} {7,S}
+6  C u0 p0 c0 {1,S} {16,T}
+7  O u0 p2 c0 {4,S} {5,S}
+8  O u0 p2 c0 {4,S} {17,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {4,S}
+16 N u0 p1 c0 {6,T}
+17 H u0 p0 c0 {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1115,7 +1109,7 @@ H       2.14748500    1.85528600    5.72541500
 )
 
 entry(
-    index = 19,
+    index = 24,
     label = "C4H7N2O3_10",
     molecule = 
 """
@@ -1202,7 +1196,7 @@ H      -5.51604100    0.60029200    1.23435500
 )
 
 entry(
-    index = 20,
+    index = 25,
     label = "C4H7N2O3_11",
     molecule = 
 """
@@ -1286,7 +1280,7 @@ H      -3.27523100    2.08617600   -1.11033600
 )
 
 entry(
-    index = 21,
+    index = 26,
     label = "C4H7N2O3_12",
     molecule = 
 """
@@ -1375,7 +1369,7 @@ H      -1.48555700    1.74380500    1.02474300
 )
 
 entry(
-    index = 22,
+    index = 27,
     label = "C4H6N2O3_13",
     molecule = 
 """
@@ -1451,7 +1445,7 @@ H      -3.32882800   -2.68273800    2.11047200
 )
 
 entry(
-    index = 23,
+    index = 28,
     label = "C4H6N2O3_14",
     molecule = 
 """
@@ -1516,25 +1510,25 @@ H      -0.80593700    0.47858900   -1.59579000
 )
 
 entry(
-    index = 24,
+    index = 29,
     label = "C4H5N2O3_16",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {3,S} {8,S}
-2  O u0 p2 c0 {7,S} {13,S}
-3  O u0 p2 c0 {1,S} {4,S}
-4  N u1 p1 c0 {3,S} {14,S}
-5  N u0 p1 c0 {9,T}
-6  C u0 p0 c0 {7,S} {10,S} {11,S} {12,S}
-7  C u0 p0 c0 {2,S} {6,S} {8,D}
-8  C u0 p0 c0 {1,S} {7,D} {9,S}
-9  C u0 p0 c0 {5,T} {8,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {3,D} {5,S}
+3  C u0 p0 c0 {2,D} {4,S} {6,S}
+4  O u0 p2 c0 {3,S} {7,S}
+5  O u0 p2 c0 {2,S} {13,S}
+6  C u0 p0 c0 {3,S} {12,T}
+7  O u0 p2 c0 {4,S} {8,S}
+8  N u1 p1 c0 {7,S} {14,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 N u0 p1 c0 {6,T}
+13 H u0 p0 c0 {5,S}
+14 H u0 p0 c0 {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1580,7 +1574,7 @@ H       2.48961500   -1.83956300   -0.73700600
 )
 
 entry(
-    index = 25,
+    index = 30,
     label = "C4H4N_17",
     molecule = 
 """
@@ -1632,22 +1626,22 @@ H      -0.98868900   -1.80589000    0.34252700
 )
 
 entry(
-    index = 26,
+    index = 31,
     label = "C4H4NO2_18",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {4,S}
-2  O u1 p2 c0 {1,S}
-3  N u0 p1 c0 {7,T}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,D} {7,S}
-6  C u0 p0 c0 {5,D} {10,S} {11,S}
-7  C u0 p0 c0 {3,T} {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {5,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  C u0 p0 c0 {2,S} {11,T}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 O u1 p2 c0 {4,S}
+11 N u0 p1 c0 {5,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -1689,22 +1683,22 @@ H       1.49413000   -1.85665800    2.67447100
 )
 
 entry(
-    index = 27,
+    index = 32,
     label = "C4H5NO2_19",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {4,S}
-2  O u0 p2 c0 {1,S} {12,S}
-3  N u0 p1 c0 {7,T}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,D} {7,S}
-6  C u0 p0 c0 {5,D} {10,S} {11,S}
-7  C u0 p0 c0 {3,T} {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,D} {5,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {2,S} {11,T}
+6  O u0 p2 c0 {4,S} {12,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 N u0 p1 c0 {5,T}
+12 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1751,23 +1745,23 @@ H       0.88787500    1.42030300   -0.53925300
 )
 
 entry(
-    index = 28,
+    index = 33,
     label = "C4H3N2O3_20",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {6,S}
-2  O u0 p2 c0 {1,S} {8,S}
-3  O u0 p2 c0 {7,D}
-4  N u1 p1 c0 {8,D}
-5  N u0 p1 c0 {9,T}
-6  C u0 p0 c0 {1,S} {7,S} {10,S} {11,S}
-7  C u0 p0 c0 {3,D} {6,S} {9,S}
-8  C u0 p0 c0 {2,S} {4,D} {12,S}
-9  C u0 p0 c0 {5,T} {7,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {8,S}
+1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {6,S} {9,D}
+3  C u0 p0 c0 {5,S} {10,D} {11,S}
+4  O u0 p2 c0 {1,S} {5,S}
+5  O u0 p2 c0 {3,S} {4,S}
+6  C u0 p0 c0 {2,S} {12,T}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  O u0 p2 c0 {2,D}
+10 N u1 p1 c0 {3,D}
+11 H u0 p0 c0 {3,S}
+12 N u0 p1 c0 {6,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -1813,22 +1807,22 @@ H       2.13600300    0.94957700   -0.99028300
 )
 
 entry(
-    index = 29,
+    index = 34,
     label = "C3H5O3_0",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {4,S}
-2  O u0 p2 c0 {1,S} {11,S}
-3  O u0 p2 c0 {5,D}
-4  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
-5  C u0 p0 c0 {3,D} {4,S} {6,S}
-6  C u1 p0 c0 {5,S} {9,S} {10,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,D}
+3  C u1 p0 c0 {2,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {5,S}
+5  O u0 p2 c0 {4,S} {11,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  O u0 p2 c0 {2,D}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1881,24 +1875,24 @@ H      -2.49848800    0.17707500    1.31723800
 )
 
 entry(
-    index = 30,
+    index = 35,
     label = "C4H6N2O2_2",
     molecule = 
 """
-1  O u0 p2 c0 {3,S} {5,S}
-2  O u0 p2 c0 {3,D}
-3  N u0 p1 c0 {1,S} {2,D}
-4  N u0 p1 c0 {8,T}
-5  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-6  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
-7  C u0 p0 c0 {5,S} {12,S} {13,S} {14,S}
-8  C u0 p0 c0 {4,T} {5,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {7,S}
-13 H u0 p0 c0 {7,S}
-14 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {1,S} {13,T}
+6  N u0 p1 c0 {4,S} {14,D}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 N u0 p1 c0 {5,T}
+14 O u0 p2 c0 {6,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -1943,24 +1937,24 @@ H      -1.87356000    0.12658900    0.98045800
 )
 
 entry(
-    index = 31,
+    index = 36,
     label = "C4H5N2O2_3",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {3,S} {5,S}
-2  O u0 p2 c0 {3,D}
-3  N u0 p1 c0 {1,S} {2,D}
-4  N u0 p1 c0 {8,T}
-5  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-6  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
-7  C u1 p0 c0 {5,S} {12,S} {13,S}
-8  C u0 p0 c0 {4,T} {5,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {7,S}
-13 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {1,S} {12,T}
+6  N u0 p1 c0 {4,S} {13,D}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 N u0 p1 c0 {5,T}
+13 O u0 p2 c0 {6,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -2006,21 +2000,21 @@ H      -0.83475100    2.08764200   -1.05533900
 )
 
 entry(
-    index = 32,
+    index = 37,
     label = "C3H5O2_4",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {3,S} {10,S}
-2  O u0 p2 c0 {4,D}
-3  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
-4  C u0 p0 c0 {2,D} {3,S} {5,S}
-5  C u1 p0 c0 {4,S} {8,S} {9,S}
-6  H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,D}
+3  C u1 p0 c0 {2,S} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  O u0 p2 c0 {2,D}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2064,25 +2058,25 @@ H       1.83672300    0.64870100    0.34981000
 )
 
 entry(
-    index = 33,
+    index = 38,
     label = "C4H6N2O3_5",
     molecule = 
 """
-1  O u0 p2 c0 {4,S} {6,S}
-2  O u0 p2 c0 {7,S} {15,S}
-3  O u0 p2 c0 {4,D}
-4  N u0 p1 c0 {1,S} {3,D}
-5  N u0 p1 c0 {9,T}
-6  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-7  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
-8  C u0 p0 c0 {6,S} {12,S} {13,S} {14,S}
-9  C u0 p0 c0 {5,T} {6,S}
-10 H u0 p0 c0 {7,S}
-11 H u0 p0 c0 {7,S}
-12 H u0 p0 c0 {8,S}
-13 H u0 p0 c0 {8,S}
-14 H u0 p0 c0 {8,S}
-15 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {7,S}
+5  C u0 p0 c0 {1,S} {13,T}
+6  O u0 p2 c0 {2,S} {14,S}
+7  N u0 p1 c0 {4,S} {15,D}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 N u0 p1 c0 {5,T}
+14 H u0 p0 c0 {6,S}
+15 O u0 p2 c0 {7,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -2129,19 +2123,19 @@ H       0.40433600   -0.97036500   -2.58307900
 )
 
 entry(
-    index = 34,
+    index = 39,
     label = "C3H2N2O2_6",
     molecule = 
 """
-1 O u0 p2 c0 {3,S} {5,S}
-2 O u0 p2 c0 {3,D}
-3 N u0 p1 c0 {1,S} {2,D}
-4 N u0 p1 c0 {7,T}
-5 C u0 p0 c0 {1,S} {6,D} {7,S}
-6 C u0 p0 c0 {5,D} {8,S} {9,S}
-7 C u0 p0 c0 {4,T} {5,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {5,S}
+4 C u0 p0 c0 {1,S} {8,T}
+5 N u0 p1 c0 {3,S} {9,D}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 N u0 p1 c0 {4,T}
+9 O u0 p2 c0 {5,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -2181,7 +2175,7 @@ H      -1.77001200    1.46306400   -0.05125600
 )
 
 entry(
-    index = 35,
+    index = 40,
     label = "C4H5N2O3_7",
     molecule = 
 """
@@ -2244,7 +2238,7 @@ H      -1.18563800    1.73638100   -0.66976700
 )
 
 entry(
-    index = 36,
+    index = 41,
     label = "C4H5N2O3_8",
     molecule = 
 """
@@ -2324,22 +2318,22 @@ H       0.79429300   -2.13275500    1.45451400
 )
 
 entry(
-    index = 37,
+    index = 42,
     label = "C3H6NO3_10",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {5,S}
-2  O u0 p2 c0 {1,S} {4,S}
-3  O u0 p2 c0 {6,D}
-4  N u0 p1 c0 {2,S} {12,S} {13,S}
-5  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
-6  C u0 p0 c0 {3,D} {5,S} {7,S}
-7  C u1 p0 c0 {6,S} {10,S} {11,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {7,S}
-11 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,S} {9,D}
+3  C u1 p0 c0 {2,S} {10,S} {11,S}
+4  N u0 p1 c0 {6,S} {12,S} {13,S}
+5  O u0 p2 c0 {1,S} {6,S}
+6  O u0 p2 c0 {4,S} {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  O u0 p2 c0 {2,D}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {4,S}
 13 H u0 p0 c0 {4,S}
 """,
@@ -2403,7 +2397,7 @@ H      -2.73880000   -1.55607700   -1.16007900
 )
 
 entry(
-    index = 38,
+    index = 43,
     label = "C4H4N2O3_11",
     molecule = 
 """
@@ -2468,7 +2462,7 @@ H      -1.25315400   -1.59930700   -1.30652600
 )
 
 entry(
-    index = 39,
+    index = 44,
     label = "C4H3N2O3_12",
     molecule = 
 """
@@ -2527,7 +2521,7 @@ H      -2.11050400    0.24460900    0.15601900
 )
 
 entry(
-    index = 40,
+    index = 45,
     label = "C4H6NO2_14",
     molecule = 
 """
@@ -2593,7 +2587,7 @@ H       2.63269300    0.18433400   -1.45517200
 )
 
 entry(
-    index = 41,
+    index = 46,
     label = "C4H5NO3_15",
     molecule = 
 """
@@ -2660,7 +2654,7 @@ H      -0.67367700   -4.88413700   -1.53910600
 )
 
 entry(
-    index = 42,
+    index = 47,
     label = "C4H5NO3_16",
     molecule = 
 """
@@ -2731,7 +2725,7 @@ H      -2.03599400    1.75880700   -0.25788900
 )
 
 entry(
-    index = 43,
+    index = 48,
     label = "C4H5NO3_17",
     molecule = 
 """
@@ -2803,7 +2797,7 @@ H       3.89412200    3.19282000   -1.81986600
 )
 
 entry(
-    index = 44,
+    index = 49,
     label = "C4H4NO3_18",
     molecule = 
 """
@@ -2867,7 +2861,7 @@ H      -2.11607900    0.04249600    1.37697700
 )
 
 entry(
-    index = 45,
+    index = 50,
     label = "C4H3NO2_19",
     molecule = 
 """
@@ -2919,7 +2913,7 @@ H      -2.85475700   -2.78436100    1.73867700
 )
 
 entry(
-    index = 46,
+    index = 51,
     label = "C4H4NO3_20",
     molecule = 
 """
@@ -2990,22 +2984,22 @@ H      -1.26729000   -0.82278700   -2.91073200
 )
 
 entry(
-    index = 47,
+    index = 52,
     label = "C4H5NO2_21",
     molecule = 
 """
-1  O u0 p2 c0 {5,S} {12,S}
-2  O u0 p2 c0 {6,D}
-3  N u0 p1 c0 {7,T}
-4  C u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
-5  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
-6  C u0 p0 c0 {2,D} {4,S} {5,S}
-7  C u0 p0 c0 {3,T} {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {2,S} {10,D}
+4  O u0 p2 c0 {2,S} {12,S}
+5  C u0 p0 c0 {1,S} {11,T}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 O u0 p2 c0 {3,D}
+11 N u0 p1 c0 {5,T}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3052,7 +3046,7 @@ H       2.17183100    0.76006500   -1.17468600
 )
 
 entry(
-    index = 48,
+    index = 53,
     label = "C3H4NO2_22",
     molecule = 
 """
@@ -3106,7 +3100,7 @@ H       2.74017500   -0.51871000    0.15184700
 )
 
 entry(
-    index = 49,
+    index = 54,
     label = "C3H3NO3_23",
     molecule = 
 """
@@ -3159,7 +3153,7 @@ H      -2.66733500    0.88540500   -0.16390800
 )
 
 entry(
-    index = 50,
+    index = 55,
     label = "C3H3NO3_24",
     molecule = 
 """
@@ -3214,7 +3208,7 @@ H       0.06135500   -0.61400900   -3.75287100
 )
 
 entry(
-    index = 51,
+    index = 56,
     label = "C3H3NO3_26",
     molecule = 
 """
@@ -3273,7 +3267,7 @@ H      -2.84149600   -0.56076300    0.10086400
 )
 
 entry(
-    index = 52,
+    index = 57,
     label = "C3H2NO3_27",
     molecule = 
 """
@@ -3324,7 +3318,7 @@ H       0.18563500   -0.07707800   -1.69414100
 )
 
 entry(
-    index = 53,
+    index = 58,
     label = "C3H2NO3_28",
     molecule = 
 """
@@ -3379,7 +3373,7 @@ H       2.28338700   -1.64420800    0.66792900
 )
 
 entry(
-    index = 54,
+    index = 59,
     label = "C4H3N2O3_29",
     molecule = 
 """
@@ -3442,7 +3436,7 @@ H      -0.66549200   -1.13535200    3.15798000
 )
 
 entry(
-    index = 55,
+    index = 60,
     label = "C4H2N2O3_30",
     molecule = 
 """
@@ -3499,7 +3493,7 @@ H      -1.37197400    1.90558100   -2.69099800
 )
 
 entry(
-    index = 56,
+    index = 61,
     label = "C4H2N2O3_31",
     molecule = 
 """
@@ -3556,21 +3550,21 @@ H      -0.84658000   -1.41935700    2.87548800
 )
 
 entry(
-    index = 57,
+    index = 62,
     label = "C4HN2O3_32",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {6,S} {9,S}
-2  O u0 p2 c0 {7,S} {10,S}
-3  O u1 p2 c0 {7,S}
-4  N u0 p1 c0 {8,T}
-5  N u0 p1 c0 {9,T}
-6  C u0 p0 c0 {1,S} {7,D} {8,S}
-7  C u0 p0 c0 {2,S} {3,S} {6,D}
-8  C u0 p0 c0 {4,T} {6,S}
-9  C u0 p0 c0 {1,S} {5,T}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,D} {3,S} {4,S}
+2  C u0 p0 c0 {1,D} {5,S} {7,S}
+3  O u0 p2 c0 {1,S} {6,S}
+4  C u0 p0 c0 {1,S} {8,T}
+5  O u0 p2 c0 {2,S} {9,S}
+6  C u0 p0 c0 {3,S} {10,T}
+7  O u1 p2 c0 {2,S}
+8  N u0 p1 c0 {4,T}
+9  H u0 p0 c0 {5,S}
+10 N u0 p1 c0 {6,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -3611,7 +3605,7 @@ H      -3.17813400    1.28714600   -0.45375100
 )
 
 entry(
-    index = 58,
+    index = 63,
     label = "C3H3NO2_33",
     molecule = 
 """
@@ -3661,7 +3655,7 @@ H       2.53478000    0.60626500    0.29646700
 )
 
 entry(
-    index = 59,
+    index = 64,
     label = "C3H2NO2_35",
     molecule = 
 """
@@ -3709,7 +3703,7 @@ H      -1.15821000   -0.43734200    0.79620900
 )
 
 entry(
-    index = 60,
+    index = 65,
     label = "C4H3N2O3_36",
     molecule = 
 """
@@ -3771,22 +3765,22 @@ H      -3.24797500    0.77696600   -0.28252400
 )
 
 entry(
-    index = 61,
+    index = 66,
     label = "C4H3N2O2_37",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {6,S} {7,S}
-2  O u0 p2 c0 {6,D}
-3  N u1 p1 c0 {7,D}
-4  N u0 p1 c0 {8,T}
-5  C u0 p0 c0 {6,S} {8,S} {9,S} {10,S}
-6  C u0 p0 c0 {1,S} {2,D} {5,S}
-7  C u0 p0 c0 {1,S} {3,D} {11,S}
-8  C u0 p0 c0 {4,T} {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {8,D}
+3  C u0 p0 c0 {4,S} {9,D} {10,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  C u0 p0 c0 {1,S} {11,T}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  O u0 p2 c0 {2,D}
+9  N u1 p1 c0 {3,D}
+10 H u0 p0 c0 {3,S}
+11 N u0 p1 c0 {5,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -3829,7 +3823,7 @@ H       1.90980900    1.66651900    1.16415400
 )
 
 entry(
-    index = 62,
+    index = 67,
     label = "C4H4N2O3_38",
     molecule = 
 """
@@ -3895,7 +3889,7 @@ H       0.78038900   -0.75941000   -2.59420600
 )
 
 entry(
-    index = 63,
+    index = 68,
     label = "C4H3N2O3_39",
     molecule = 
 """
@@ -3955,22 +3949,22 @@ H      -1.11114100    1.52067700    0.66998400
 )
 
 entry(
-    index = 64,
+    index = 69,
     label = "C4H4NO2_40",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {6,S} {11,S}
-2  O u1 p2 c0 {5,S}
-3  N u0 p1 c0 {7,T}
-4  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-5  C u0 p0 c0 {2,S} {4,S} {6,D}
-6  C u0 p0 c0 {1,S} {5,D} {10,S}
-7  C u0 p0 c0 {3,T} {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {5,S} {9,S}
+4  C u0 p0 c0 {1,S} {10,T}
+5  O u0 p2 c0 {3,S} {11,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  O u1 p2 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 N u0 p1 c0 {4,T}
+11 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4015,7 +4009,7 @@ H      -0.20765800   -0.56872600    1.45873200
 )
 
 entry(
-    index = 65,
+    index = 70,
     label = "C4H3NO2_41",
     molecule = 
 """
@@ -4069,20 +4063,20 @@ H       1.45227200   -2.63632100    0.14660100
 )
 
 entry(
-    index = 66,
+    index = 71,
     label = "C4H2NO2_42",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {5,D}
-2 O u0 p2 c0 {7,D}
-3 N u0 p1 c0 {6,T}
-4 C u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
-5 C u0 p0 c0 {1,D} {4,S} {7,S}
-6 C u0 p0 c0 {3,T} {4,S}
-7 C u1 p0 c0 {2,D} {5,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,D}
+3 C u0 p0 c0 {1,S} {8,T}
+4 C u1 p0 c0 {2,S} {9,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {2,D}
+8 N u0 p1 c0 {3,T}
+9 O u0 p2 c0 {4,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -4120,7 +4114,7 @@ H       1.03955100   -0.99880900    1.04391300
 )
 
 entry(
-    index = 67,
+    index = 72,
     label = "C2H2NO2_44",
     molecule = 
 """
@@ -4166,7 +4160,7 @@ H      -0.88728100   -1.00783800   -0.40285300
 )
 
 entry(
-    index = 68,
+    index = 73,
     label = "C3H3NO3_46",
     molecule = 
 """
@@ -4221,7 +4215,7 @@ H      -2.50314800   -1.00295600    1.98187400
 )
 
 entry(
-    index = 69,
+    index = 74,
     label = "C4H2NO_47",
     molecule = 
 """
@@ -4273,22 +4267,22 @@ H       1.75661200   -1.04203200   -0.32277400
 )
 
 entry(
-    index = 70,
+    index = 75,
     label = "C4H4NO2_48",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {4,S} {11,S}
-2  O u1 p2 c0 {6,S}
-3  N u0 p1 c0 {7,T}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,D} {7,S}
-6  C u0 p0 c0 {2,S} {5,D} {10,S}
-7  C u0 p0 c0 {3,T} {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {5,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  C u0 p0 c0 {2,S} {11,T}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  O u1 p2 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 N u0 p1 c0 {5,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -4336,20 +4330,20 @@ H       1.73411400   -1.28674500    0.58921500
 )
 
 entry(
-    index = 71,
+    index = 76,
     label = "C4H3NO2_49",
     molecule = 
 """
-1  O u0 p2 c0 {4,S} {10,S}
-2  O u0 p2 c0 {6,D}
-3  N u0 p1 c0 {7,T}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,D} {7,S}
-6  C u0 p0 c0 {2,D} {5,D}
-7  C u0 p0 c0 {3,T} {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,D} {5,S}
+3  O u0 p2 c0 {1,S} {8,S}
+4  C u0 p0 c0 {2,D} {9,D}
+5  C u0 p0 c0 {2,S} {10,T}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
+9  O u0 p2 c0 {4,D}
+10 N u0 p1 c0 {5,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -4390,24 +4384,24 @@ H      -1.32943400   -0.32643500   -1.72503600
 )
 
 entry(
-    index = 72,
+    index = 77,
     label = "C3H7NO3_50",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  O u0 p2 c0 {1,S} {4,S}
-3  O u0 p2 c0 {6,S} {14,S}
-4  N u0 p1 c0 {2,S} {12,S} {13,S}
-5  C u0 p0 c0 {6,S} {8,S} {9,S} {10,S}
-6  C u0 p0 c0 {3,S} {5,S} {7,D}
-7  C u0 p0 c0 {1,S} {6,D} {11,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {5,S} {11,S}
+4  N u0 p1 c0 {6,S} {12,S} {13,S}
+5  O u0 p2 c0 {3,S} {6,S}
+6  O u0 p2 c0 {4,S} {5,S}
+7  O u0 p2 c0 {2,S} {14,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {4,S}
 13 H u0 p0 c0 {4,S}
-14 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {7,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4453,19 +4447,19 @@ H       0.63132000    0.45986200   -1.11810200
 )
 
 entry(
-    index = 73,
+    index = 78,
     label = "C3H2N2O2_51",
     molecule = 
 """
-1 O u0 p3 c-1 {3,S}
-2 O u0 p2 c0 {3,D}
-3 N u0 p0 c+1 {1,S} {2,D} {5,S}
-4 N u0 p1 c0 {7,T}
-5 C u0 p0 c0 {3,S} {6,D} {7,S}
-6 C u0 p0 c0 {5,D} {8,S} {9,S}
-7 C u0 p0 c0 {4,T} {5,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 N u0 p0 c+1 {1,S} {5,S} {6,D}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 C u0 p0 c0 {1,S} {9,T}
+5 O u0 p3 c-1 {2,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 N u0 p1 c0 {4,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -4502,7 +4496,7 @@ H       1.83955900   -1.31014400    0.34118900
 )
 
 entry(
-    index = 74,
+    index = 79,
     label = "C4H2NO3_52",
     molecule = 
 """
@@ -4557,7 +4551,7 @@ H      -2.45080700   -0.58581600   -0.06118400
 )
 
 entry(
-    index = 75,
+    index = 80,
     label = "C4H3NO3_53",
     molecule = 
 """
@@ -4615,23 +4609,23 @@ H       2.73475700    0.84118000   -0.22880900
 )
 
 entry(
-    index = 76,
+    index = 81,
     label = "C4H3N2O3_54",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {8,S} {9,S}
-2  O u0 p2 c0 {6,S} {12,S}
-3  O u0 p2 c0 {7,D}
-4  N u1 p1 c0 {8,D}
-5  N u0 p1 c0 {9,T}
-6  C u0 p0 c0 {2,S} {7,S} {10,S} {11,S}
-7  C u0 p0 c0 {3,D} {6,S} {8,S}
-8  C u0 p0 c0 {1,S} {4,D} {7,S}
-9  C u0 p0 c0 {1,S} {5,T}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,S} {9,D}
+3  C u0 p0 c0 {2,S} {4,S} {10,D}
+4  O u0 p2 c0 {3,S} {6,S}
+5  O u0 p2 c0 {1,S} {11,S}
+6  C u0 p0 c0 {4,S} {12,T}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  O u0 p2 c0 {2,D}
+10 N u1 p1 c0 {3,D}
+11 H u0 p0 c0 {5,S}
+12 N u0 p1 c0 {6,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -4684,9 +4678,9 @@ H      -1.50160800    1.57990600    0.05941500
 )
 
 entry(
-    index = 77,
+    index = 82,
     label = "H2NCHO_59",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {3,D}
 2 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -4707,7 +4701,7 @@ entry(
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-N': 1, 'C=O': 1, 'H-N': 2, 'C-H': 1}
 1D rotors:
@@ -4729,9 +4723,9 @@ H       0.38663800   -1.40118300    0.03512000
 )
 
 entry(
-    index = 78,
+    index = 83,
     label = "C4H7N2O3_38",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -4763,7 +4757,7 @@ multiplicity 2
         CpInf = (374.151,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 5, 'N-O': 1, 'C-C': 3, 'O-O': 1, 'C-O': 2, 'C#N': 1, 'H-N': 2}
 1D rotors:
@@ -4801,16 +4795,16 @@ H       1.82302500   -1.73856900    0.24660500
 )
 
 entry(
-    index = 79,
+    index = 84,
     label = "H2NCO_60",
-    molecule =
+    molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {3,D}
-2 N u0 p1 c0 {3,S} {4,S} {5,S}
-3 C u1 p0 c0 {1,D} {2,S}
-4 H u0 p0 c0 {2,S}
-5 H u0 p0 c0 {2,S}
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 C u1 p0 c0 {1,S} {5,D}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 O u0 p2 c0 {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -4824,7 +4818,7 @@ multiplicity 2
         CpInf = (103.931,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 1, 'H-N': 2, 'C-N': 1}
 1D rotors:
@@ -4845,9 +4839,9 @@ H      -0.92145000    0.79390700    0.08734400
 )
 
 entry(
-    index = 80,
+    index = 85,
     label = "C4H3N2O2_28",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4874,7 +4868,7 @@ multiplicity 2
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 2, 'H-O': 1, 'C=N': 1, 'C=O': 1, 'C-C': 3, 'C#N': 1, 'C-O': 1}
 1D rotors:
@@ -4903,9 +4897,9 @@ H       2.80350100    0.63166900    0.15141500
 )
 
 entry(
-    index = 81,
+    index = 86,
     label = "C2N2O2_61",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {3,S} {6,S}
 2 O u0 p2 c0 {5,D}
@@ -4926,7 +4920,7 @@ entry(
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'N-O': 1, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=N': 1}
 1D rotors:
@@ -4946,9 +4940,9 @@ C      -1.61094700    0.07746400   -0.48147800
 )
 
 entry(
-    index = 82,
+    index = 87,
     label = "C4H7N2O3_39",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4980,7 +4974,7 @@ multiplicity 2
         CpInf = (378.308,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-H': 5, 'N-O': 1, 'C-C': 3, 'O-O': 1, 'C-O': 2, 'C#N': 1, 'H-N': 1}
 1D rotors:
@@ -5015,9 +5009,9 @@ H       0.81299900    2.99199700   -1.12626500
 )
 
 entry(
-    index = 83,
+    index = 88,
     label = "C4H7N2O2_62",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -5048,7 +5042,7 @@ multiplicity 2
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 6, 'N-O': 2, 'C-C': 3, 'C-O': 1, 'C#N': 1, 'H-N': 1}
 1D rotors:
@@ -5082,9 +5076,9 @@ H      -1.03515400    2.82175800   -0.13011700
 )
 
 entry(
-    index = 84,
+    index = 89,
     label = "C4H2N2O3_7",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,D}
@@ -5110,7 +5104,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 1, 'H-O': 1, 'C=N': 1, 'C=O': 2, 'C-N': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1}
 1D rotors:
@@ -5137,9 +5131,9 @@ H      -2.25427800    1.68025700    0.69914800
 )
 
 entry(
-    index = 85,
+    index = 90,
     label = "C4H8N2O2_63",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -5170,7 +5164,7 @@ entry(
         CpInf = (378.308,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-H': 5, 'N-O': 1, 'C-C': 3, 'C-O': 2, 'C#N': 1, 'H-N': 2}
 1D rotors:
@@ -5208,9 +5202,9 @@ H       0.05238600    1.11723000   -1.27002800
 )
 
 entry(
-    index = 86,
+    index = 91,
     label = "C4H6N2O2_40",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
@@ -5239,7 +5233,7 @@ entry(
         CpInf = (328.422,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 5, 'N-O': 2, 'C-C': 3, 'C-O': 2, 'C#N': 1, 'H-N': 1}
 1D rotors:
@@ -5267,27 +5261,27 @@ H      -2.47332600   -1.19373300   -0.81020300
 )
 
 entry(
-    index = 87,
+    index = 92,
     label = "C4H8N2O3_64",
-    molecule =
+    molecule = 
 """
-1  O u0 p2 c0 {4,S} {6,S}
-2  O u0 p2 c0 {3,S} {7,S}
-3  O u0 p2 c0 {2,S} {17,S}
-4  N u0 p1 c0 {1,S} {15,S} {16,S}
-5  N u0 p1 c0 {9,T}
-6  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-7  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
-8  C u0 p0 c0 {6,S} {12,S} {13,S} {14,S}
-9  C u0 p0 c0 {5,T} {6,S}
-10 H u0 p0 c0 {7,S}
-11 H u0 p0 c0 {7,S}
-12 H u0 p0 c0 {8,S}
-13 H u0 p0 c0 {8,S}
-14 H u0 p0 c0 {8,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+2  C u0 p0 c0 {1,S} {6,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  N u0 p1 c0 {5,S} {14,S} {15,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  O u0 p2 c0 {2,S} {8,S}
+7  C u0 p0 c0 {1,S} {16,T}
+8  O u0 p2 c0 {6,S} {17,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
 15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {3,S}
+16 N u0 p1 c0 {7,T}
+17 H u0 p0 c0 {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5301,7 +5295,7 @@ entry(
         CpInf = (386.623,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-H': 5, 'N-O': 1, 'C-C': 3, 'O-O': 1, 'C-O': 2, 'C#N': 1, 'H-N': 2}
 1D rotors:
@@ -5359,9 +5353,9 @@ H       0.21409200    1.89794900   -1.46189500
 )
 
 entry(
-    index = 88,
+    index = 93,
     label = "C4H2N2O2_29",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,D}
@@ -5386,7 +5380,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 1, 'H-O': 1, 'C=O': 1, 'C-C': 3, 'C#N': 2, 'C-O': 1}
 1D rotors:
@@ -5413,9 +5407,9 @@ H      -2.68520500    0.71873400   -0.13714000
 )
 
 entry(
-    index = 89,
+    index = 94,
     label = "C4H7N2O2_65",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5446,7 +5440,7 @@ multiplicity 2
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-H': 5, 'N-O': 1, 'C-C': 3, 'C-O': 2, 'C#N': 1, 'H-N': 1}
 1D rotors:
@@ -5484,9 +5478,9 @@ H       2.68407200   -0.87342500   -0.66615200
 )
 
 entry(
-    index = 90,
+    index = 95,
     label = "C4H5N2O2_41",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -5515,7 +5509,7 @@ multiplicity 2
         CpInf = (307.635,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 4, 'N-O': 2, 'C-C': 3, 'C-O': 2, 'C#N': 1, 'H-N': 1}
 1D rotors:
@@ -5542,9 +5536,9 @@ H       2.37328600   -1.48973800   -0.34387300
 )
 
 entry(
-    index = 91,
+    index = 96,
     label = "C4H3NO_66",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {5,D}
 2 N u0 p1 c0 {6,T}
@@ -5568,7 +5562,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 3, 'C-C': 2, 'C=O': 1, 'C#N': 1, 'C=C': 1}
 1D rotors:
@@ -5591,22 +5585,22 @@ H      -1.56709900   -0.71624600   -0.64809700
 )
 
 entry(
-    index = 92,
+    index = 97,
     label = "C3H5O3_0b",
-    molecule =
+    molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {6,S}
-2  O u0 p2 c0 {1,S} {11,S}
-3  O u0 p2 c0 {5,D}
-4  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-5  C u0 p0 c0 {3,D} {4,S} {6,S}
-6  C u1 p0 c0 {1,S} {5,S} {10,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {3,S} {9,D}
+3  C u1 p0 c0 {2,S} {4,S} {10,S}
+4  O u0 p2 c0 {3,S} {5,S}
+5  O u0 p2 c0 {4,S} {11,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  O u0 p2 c0 {2,D}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5620,7 +5614,7 @@ multiplicity 2
         CpInf = (241.12,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 1, 'H-O': 1, 'C-H': 4, 'O-O': 1, 'C-C': 2, 'C-O': 1}
 1D rotors:
@@ -5661,9 +5655,9 @@ H      -0.64035500    2.89224100   -5.12132700
 )
 
 entry(
-    index = 93,
+    index = 98,
     label = "C4H8N2O2_67",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -5694,7 +5688,7 @@ entry(
         CpInf = (374.151,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-H': 6, 'N-O': 2, 'C-C': 3, 'C-O': 1, 'C#N': 1, 'H-N': 1}
 1D rotors:
@@ -5728,9 +5722,9 @@ H       1.85082300    1.25846900   -0.69656100
 )
 
 entry(
-    index = 94,
+    index = 99,
     label = "C4H7N2O3_42",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -5762,7 +5756,7 @@ multiplicity 2
         CpInf = (382.466,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 6, 'N-O': 2, 'C-C': 3, 'O-O': 1, 'C-O': 1, 'C#N': 1, 'H-N': 1}
 1D rotors:
@@ -5796,9 +5790,9 @@ H       2.38997600   -1.22370300   -0.08552800
 )
 
 entry(
-    index = 95,
+    index = 100,
     label = "C4H2NO2_68",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -5823,7 +5817,7 @@ multiplicity 2
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-C': 2, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1, 'C-H': 1}
 1D rotors:
@@ -5848,9 +5842,9 @@ H      -1.59649500    1.26768900    0.90828300
 )
 
 entry(
-    index = 96,
+    index = 101,
     label = "C4HN2O2_30",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5875,7 +5869,7 @@ multiplicity 2
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 1, 'C=O': 1, 'C-C': 3, 'C#N': 2, 'C-O': 1}
 1D rotors:
@@ -5898,9 +5892,9 @@ H       0.08115700    0.66816600   -1.26854800
 )
 
 entry(
-    index = 97,
+    index = 102,
     label = "C4HNO2_69",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {5,D}
 2 O u0 p2 c0 {7,D}
@@ -5923,7 +5917,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-C': 2, 'C=O': 2, 'C#N': 1, 'C=C': 1, 'C-H': 1}
 1D rotors:
@@ -5945,9 +5939,9 @@ H      -1.70668500   -0.76886200    0.62443400
 )
 
 entry(
-    index = 98,
+    index = 103,
     label = "C4H8N2O3_43",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -5979,7 +5973,7 @@ entry(
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-H': 6, 'N-O': 2, 'C-C': 3, 'O-O': 1, 'C-O': 1, 'C#N': 1, 'H-N': 1}
 1D rotors:
@@ -6015,9 +6009,9 @@ H       3.70832600   -0.96284300   -1.03046100
 )
 
 entry(
-    index = 99,
+    index = 104,
     label = "C4NO2_70",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u0 p2 c0 {5,D}
@@ -6040,7 +6034,7 @@ multiplicity 2
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-C': 2, 'C=O': 2, 'C#N': 1, 'C=C': 1}
 1D rotors:
@@ -6061,9 +6055,9 @@ C       1.23718100   -0.06684500    0.05672100
 )
 
 entry(
-    index = 100,
+    index = 105,
     label = "C3NO3_8",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {5,S}
@@ -6086,7 +6080,7 @@ multiplicity 2
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=C': 1, 'C=O': 1, 'O-O': 1, 'C#N': 1, 'C-C': 1, 'C-O': 1}
 1D rotors:
@@ -6107,20 +6101,20 @@ C       1.49060800   -0.28581900   -0.15916600
 )
 
 entry(
-    index = 101,
+    index = 106,
     label = "C4H3NO2_71",
-    molecule =
+    molecule = 
 """
-1  O u0 p2 c0 {5,S} {10,S}
-2  O u0 p2 c0 {5,D}
-3  N u0 p1 c0 {7,T}
-4  C u0 p0 c0 {5,S} {6,D} {7,S}
-5  C u0 p0 c0 {1,S} {2,D} {4,S}
-6  C u0 p0 c0 {4,D} {8,S} {9,S}
-7  C u0 p0 c0 {3,T} {4,S}
-8  H u0 p0 c0 {6,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,D} {4,S}
+2  C u0 p0 c0 {1,S} {5,S} {6,D}
+3  C u0 p0 c0 {1,D} {7,S} {8,S}
+4  C u0 p0 c0 {1,S} {9,T}
+5  O u0 p2 c0 {2,S} {10,S}
+6  O u0 p2 c0 {2,D}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {3,S}
+9  N u0 p1 c0 {4,T}
+10 H u0 p0 c0 {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6134,7 +6128,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-H': 2, 'C-C': 2, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1}
 1D rotors:
@@ -6159,9 +6153,9 @@ H       2.50237200    0.31571900   -1.41975000
 )
 
 entry(
-    index = 102,
+    index = 107,
     label = "C4H2N2O3_46",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,D} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,D}
@@ -6187,7 +6181,7 @@ entry(
         CpInf = (253.591,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-C': 1, 'C-O': 1, 'C=O': 2, 'N-N': 1, 'C=N': 2, 'C=C': 1, 'C-H': 1}
 1D rotors:
@@ -6214,9 +6208,9 @@ H      -3.79913500    0.31943800    0.21661800
 )
 
 entry(
-    index = 103,
+    index = 108,
     label = "C4H2NO2_73",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -6241,7 +6235,7 @@ multiplicity 2
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-C': 2, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1, 'C-H': 1}
 1D rotors:
@@ -6265,9 +6259,9 @@ H      -0.76636100    2.19561300   -0.24543300
 )
 
 entry(
-    index = 104,
+    index = 109,
     label = "C4HN2O2_31",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -6292,7 +6286,7 @@ multiplicity 2
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C=O': 1, 'C-C': 3, 'C#N': 2, 'C-O': 1}
 1D rotors:
@@ -6316,21 +6310,21 @@ H      -1.40223800   -2.20427100    0.45179400
 )
 
 entry(
-    index = 105,
+    index = 110,
     label = "C4HN2O3_74",
-    molecule =
+    molecule = 
 """
 multiplicity 2
-1  O u1 p2 c0 {7,S}
-2  O u0 p2 c0 {7,D}
-3  O u0 p2 c0 {9,D}
-4  N u0 p1 c0 {5,S} {8,D}
-5  N u0 p1 c0 {4,S} {9,D}
-6  C u0 p0 c0 {7,S} {8,D} {10,S}
-7  C u0 p0 c0 {1,S} {2,D} {6,S}
-8  C u0 p0 c0 {4,D} {6,D}
-9  C u0 p0 c0 {3,D} {5,D}
-10 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,D} {7,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,D}
+3  C u0 p0 c0 {1,D} {4,D}
+4  N u0 p1 c0 {3,D} {5,S}
+5  N u0 p1 c0 {4,S} {6,D}
+6  C u0 p0 c0 {5,D} {10,D}
+7  H u0 p0 c0 {1,S}
+8  O u1 p2 c0 {2,S}
+9  O u0 p2 c0 {2,D}
+10 O u0 p2 c0 {6,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -6344,7 +6338,7 @@ multiplicity 2
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-C': 1, 'C-O': 1, 'C=O': 2, 'N-N': 1, 'C=N': 2, 'C=C': 1, 'C-H': 1}
 1D rotors:
@@ -6369,9 +6363,9 @@ H      -2.09254600   -1.16776900    0.37637200
 )
 
 entry(
-    index = 106,
+    index = 111,
     label = "C4H2N2O3_48",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {4,D} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,D}
@@ -6397,7 +6391,7 @@ entry(
         CpInf = (253.591,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-C': 2, 'C-N': 1, 'C-O': 1, 'C=O': 2, 'C#N': 1, 'C=N': 1, 'C-H': 1}
 1D rotors:
@@ -6428,9 +6422,9 @@ H       0.24293900   -1.72596300    1.81563200
 )
 
 entry(
-    index = 107,
+    index = 112,
     label = "C4HN2O3_49",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,D} {7,S}
@@ -6456,7 +6450,7 @@ multiplicity 2
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'N-O': 1, 'C-C': 1, 'C-O': 2, 'C=O': 1, 'C#N': 1, 'C=N': 1, 'C=C': 1, 'C-H': 1}
 1D rotors:
@@ -6481,9 +6475,9 @@ H       1.87985800   -0.80179000   -1.33024800
 )
 
 entry(
-    index = 108,
+    index = 113,
     label = "C4H2N2O2_33",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,D} {4,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,D}
@@ -6508,7 +6502,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=C': 1, 'H-O': 1, 'C=N': 1, 'C=O': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1, 'H-N': 1}
 1D rotors:
@@ -6533,9 +6527,9 @@ H       3.19610500    0.40557900    0.67782600
 )
 
 entry(
-    index = 109,
+    index = 114,
     label = "C4N2O_50",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {5,D}
 2 N u0 p1 c0 {6,T}
@@ -6557,7 +6551,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-C': 2, 'C=O': 1, 'C#N': 2, 'C=C': 1}
 
@@ -6575,9 +6569,9 @@ C      -0.75322100   -1.20750900    0.03313600
 )
 
 entry(
-    index = 110,
+    index = 115,
     label = "C3HNO3_9",
-    molecule =
+    molecule = 
 """
 1 O u0 p2 c0 {2,S} {5,S}
 2 O u0 p2 c0 {1,S} {8,S}
@@ -6600,7 +6594,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=C': 1, 'H-O': 1, 'C=O': 1, 'O-O': 1, 'C#N': 1, 'C-C': 1, 'C-O': 1}
 1D rotors:
@@ -6623,9 +6617,9 @@ H      -2.29456600   -0.88575000   -0.45241100
 )
 
 entry(
-    index = 111,
+    index = 116,
     label = "C4H2N2O2_51",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
 2  C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -6650,7 +6644,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 2, 'C-C': 2, 'C-O': 2, 'C#N': 2, 'C=C': 1}
 1D rotors:
@@ -6675,9 +6669,9 @@ H       1.62265100    0.49483100    1.47951200
 )
 
 entry(
-    index = 112,
+    index = 117,
     label = "C3H2NO3_2",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -6702,7 +6696,7 @@ multiplicity 2
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 2, 'C=N': 1, 'C-H': 2, 'C-C': 1, 'C-O': 1, 'C-N': 1}
 1D rotors:
@@ -6728,9 +6722,9 @@ H      -0.79881700   -0.48958700    1.58191900
 )
 
 entry(
-    index = 113,
+    index = 118,
     label = "C4H2N2O3_52",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,D}
@@ -6756,7 +6750,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 2, 'C-C': 3, 'C-O': 2, 'C=O': 1, 'C#N': 2}
 1D rotors:
@@ -6783,9 +6777,9 @@ H       0.93211500    2.49368100   -2.02785900
 )
 
 entry(
-    index = 114,
+    index = 119,
     label = "C4HN2O3_11",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -6811,7 +6805,7 @@ multiplicity 2
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C=N': 1, 'C=O': 2, 'C-N': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1}
 1D rotors:
@@ -6839,9 +6833,9 @@ H      -2.40013800   -1.38413500    0.12545100
 )
 
 entry(
-    index = 115,
+    index = 120,
     label = "C4H2N2O3_56",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,D} {4,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,D}
@@ -6867,7 +6861,7 @@ entry(
         CpInf = (253.591,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-H': 1, 'C-C': 2, 'C-N': 1, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1, 'N=O': 1}
 1D rotors:
@@ -6894,9 +6888,9 @@ H      -2.88217200   -1.07980700    0.48669500
 )
 
 entry(
-    index = 116,
+    index = 121,
     label = "C3H2NO3_3",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {7,S}
@@ -6921,7 +6915,7 @@ multiplicity 2
         CpInf = (191.233,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 2, 'H-O': 1, 'C=N': 1, 'C-H': 1, 'C-C': 1, 'C-O': 1, 'C-N': 1}
 1D rotors:
@@ -6953,9 +6947,9 @@ H      -1.17383800   -3.40437700    1.09280700
 )
 
 entry(
-    index = 117,
+    index = 122,
     label = "C4HN2O3_57",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -6981,7 +6975,7 @@ multiplicity 2
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C-C': 2, 'C-N': 1, 'C-O': 1, 'C=O': 1, 'C#N': 1, 'C=C': 1, 'N=O': 1}
 1D rotors:
@@ -7008,9 +7002,9 @@ H      -0.89759500   -0.94427600    2.84277100
 )
 
 entry(
-    index = 118,
+    index = 123,
     label = "C3H2N2O2_13",
-    molecule =
+    molecule = 
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 C u0 p0 c0 {1,S} {5,S} {6,D}
@@ -7034,7 +7028,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C=N': 1, 'C=O': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1, 'H-N': 1}
 1D rotors:
@@ -7058,9 +7052,9 @@ H      -2.83648600   -3.21612800    0.80308300
 )
 
 entry(
-    index = 119,
+    index = 124,
     label = "C3H2N2O3_14",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,D} {4,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,D}
@@ -7085,7 +7079,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'N-O': 1, 'H-O': 2, 'C=N': 1, 'C=O': 1, 'C-C': 2, 'C#N': 1, 'C-O': 1}
 1D rotors:
@@ -7111,9 +7105,9 @@ H       2.77784200   -1.19953300    0.21797000
 )
 
 entry(
-    index = 120,
+    index = 125,
     label = "C4H6N2O3_5b",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -7143,7 +7137,7 @@ entry(
         CpInf = (349.208,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'N=O': 1, 'C-H': 6, 'O-O': 1, 'C-C': 3, 'C-O': 1, 'C#N': 1, 'N-O': 1}
 1D rotors:
@@ -7176,9 +7170,9 @@ H      -1.40502100   -1.21958700   -1.71527500
 )
 
 entry(
-    index = 121,
+    index = 126,
     label = "C4H6NO3_15",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
@@ -7208,7 +7202,7 @@ multiplicity 2
         CpInf = (324.264,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 5, 'H-O': 1, 'C=N': 1, 'C=O': 1, 'O-O': 1, 'C-C': 3, 'C-O': 1}
 1D rotors:
@@ -7247,9 +7241,9 @@ H       2.54304900    0.11230900   -0.84464700
 )
 
 entry(
-    index = 122,
+    index = 127,
     label = "C3H3N2O3_17",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,D}
@@ -7276,7 +7270,7 @@ multiplicity 2
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'H-N': 2, 'C=N': 1, 'C=O': 2, 'C-N': 2, 'C-C': 1, 'C-O': 1}
 1D rotors:
@@ -7304,9 +7298,9 @@ H       2.96689900    1.52160600    1.45044000
 )
 
 entry(
-    index = 123,
+    index = 128,
     label = "C4H5N2O3_6",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7336,7 +7330,7 @@ multiplicity 2
         CpInf = (328.422,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'N=O': 1, 'C-H': 5, 'O-O': 1, 'C-C': 3, 'C-O': 1, 'C#N': 1, 'N-O': 1}
 1D rotors:
@@ -7368,9 +7362,9 @@ H      -1.68262700   -1.88374000    0.29061100
 )
 
 entry(
-    index = 124,
+    index = 129,
     label = "C4H6NO3_18",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -7400,7 +7394,7 @@ multiplicity 2
         CpInf = (328.422,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 4, 'C-O': 2, 'C=C': 1, 'H-O': 1, 'C=N': 1, 'O-O': 1, 'C-C': 2, 'H-N': 1}
 1D rotors:
@@ -7434,9 +7428,9 @@ H       0.64489900    2.65300000    0.74621300
 )
 
 entry(
-    index = 125,
+    index = 130,
     label = "C4H5NO3_19",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -7464,7 +7458,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 4, 'H-O': 1, 'C=O': 1, 'O-O': 1, 'C#N': 1, 'C-C': 3, 'C-O': 1}
 1D rotors:
@@ -7498,9 +7492,9 @@ H      -1.66240900   -1.81819800    1.43169200
 )
 
 entry(
-    index = 126,
+    index = 131,
     label = "C3H8N2O3_10",
-    molecule =
+    molecule = 
 """
 1  O u0 p2 c0 {2,S} {8,S}
 2  O u0 p2 c0 {1,S} {4,S}
@@ -7531,7 +7525,7 @@ entry(
         CpInf = (382.466,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-N': 3, 'N-N': 1, 'H-O': 1, 'C-H': 4, 'O-O': 1, 'C=C': 1, 'C-C': 1, 'C-O': 2, 'N-O': 1}
 1D rotors:
@@ -7566,9 +7560,9 @@ H       0.42359100   -1.20712600   -2.26512400
 )
 
 entry(
-    index = 127,
+    index = 132,
     label = "C4H5NO3_20",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,D} {5,S}
@@ -7596,7 +7590,7 @@ entry(
         CpInf = (303.478,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 2, 'O-O': 1, 'C#N': 1, 'C-C': 2}
 1D rotors:
@@ -7626,9 +7620,9 @@ H       2.18036300   -1.51819400    2.02089900
 )
 
 entry(
-    index = 128,
+    index = 133,
     label = "C4H3NO2_21",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,D}
@@ -7653,7 +7647,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 3, 'C=O': 2, 'C-C': 3, 'C#N': 1}
 1D rotors:
@@ -7678,9 +7672,9 @@ H      -2.33600800   -0.36001200   -0.58056200
 )
 
 entry(
-    index = 129,
+    index = 134,
     label = "C3H4N2O3_11",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {3,S} {5,D} {9,S}
 2  C u0 p0 c0 {4,S} {5,S} {8,D}
@@ -7707,7 +7701,7 @@ entry(
         CpInf = (266.063,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-N': 2, 'C-N': 2, 'C=O': 2, 'H-O': 1, 'C=N': 1, 'C-H': 1, 'C-C': 1, 'C-O': 1}
 1D rotors:
@@ -7741,9 +7735,9 @@ H      -1.75756400   -3.01257000    2.42583100
 )
 
 entry(
-    index = 130,
+    index = 135,
     label = "C4H4NO3_22",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
@@ -7771,7 +7765,7 @@ multiplicity 2
         CpInf = (278.535,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 1, 'O-O': 1, 'C#N': 1, 'C-C': 2}
 1D rotors:
@@ -7800,9 +7794,9 @@ H       0.37446800    0.36582300   -1.53755400
 )
 
 entry(
-    index = 131,
+    index = 136,
     label = "C4H5NO2_23",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -7829,7 +7823,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 2, 'C-C': 2, 'C#N': 1}
 1D rotors:
@@ -7861,9 +7855,9 @@ H      -2.70845300    1.01236400    1.99929200
 )
 
 entry(
-    index = 132,
+    index = 137,
     label = "C3H4N2O3_12",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {3,S} {4,D} {9,S}
 2  C u0 p0 c0 {4,S} {6,S} {7,D}
@@ -7890,7 +7884,7 @@ entry(
         CpInf = (261.906,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-N': 1, 'H-O': 2, 'C=O': 1, 'C=N': 2, 'C-H': 1, 'C-C': 1, 'C-O': 2, 'C-N': 1}
 1D rotors:
@@ -7931,9 +7925,9 @@ H       1.66939000    1.12936500    1.27695800
 )
 
 entry(
-    index = 133,
+    index = 138,
     label = "C4H4NO2_24",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -7960,7 +7954,7 @@ multiplicity 2
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 1, 'C-C': 2, 'C#N': 1}
 1D rotors:
@@ -7987,9 +7981,9 @@ H      -0.72168400    1.64825800   -0.15423300
 )
 
 entry(
-    index = 134,
+    index = 139,
     label = "C4H4NO2_25",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -8016,7 +8010,7 @@ multiplicity 2
         CpInf = (253.591,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-H': 3, 'C-O': 2, 'C=C': 1, 'H-O': 1, 'C-C': 2, 'C#N': 1}
 1D rotors:
@@ -8043,9 +8037,9 @@ H       0.06302700   -1.97464500    0.24470700
 )
 
 entry(
-    index = 135,
+    index = 140,
     label = "C3H3N2O3_13",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,D} {8,S}
@@ -8072,7 +8066,7 @@ multiplicity 2
         CpInf = (241.12,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-N': 1, 'C=O': 1, 'H-O': 1, 'C=N': 2, 'C-H': 1, 'C-C': 1, 'C-O': 2, 'C-N': 1}
 1D rotors:
@@ -8100,9 +8094,9 @@ H      -0.19605200   -0.93150400   -1.80811400
 )
 
 entry(
-    index = 136,
+    index = 141,
     label = "C3HN2O3_26",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -8127,7 +8121,7 @@ multiplicity 2
         CpInf = (195.39,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-O': 2, 'N=O': 1, 'C=C': 1, 'H-O': 1, 'C-N': 1, 'C-C': 1, 'C#N': 1}
 1D rotors:
@@ -8155,9 +8149,9 @@ H      -0.52449300    2.90059400    0.66998900
 )
 
 entry(
-    index = 137,
+    index = 142,
     label = "C3H2N2O3_27",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
 2  C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -8182,7 +8176,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C-O': 2, 'N=O': 1, 'C=C': 1, 'H-O': 2, 'C-N': 1, 'C-C': 1, 'C#N': 1}
 1D rotors:
@@ -8208,9 +8202,9 @@ H      -1.55386500    1.35681300   -0.10582100
 )
 
 entry(
-    index = 138,
+    index = 143,
     label = "C3H4N2O3_14",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {3,S} {6,S} {8,D}
 2  C u0 p0 c0 {4,D} {5,S} {7,S}
@@ -8237,7 +8231,7 @@ entry(
         CpInf = (261.906,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-N': 1, 'H-O': 3, 'C=N': 2, 'C=C': 1, 'C-O': 3, 'C-N': 1}
 1D rotors:
@@ -8279,9 +8273,9 @@ H       7.66103700    3.07930500   -5.58689400
 )
 
 entry(
-    index = 139,
+    index = 144,
     label = "C3H3N2O3_15",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,D} {8,S}
@@ -8308,7 +8302,7 @@ multiplicity 2
         CpInf = (241.12,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 2, 'C=O': 1, 'C=N': 2, 'C-H': 1, 'C-C': 1, 'C-O': 2, 'C-N': 1}
 1D rotors:
@@ -8336,9 +8330,9 @@ H       2.75447300    2.04520800    0.29750300
 )
 
 entry(
-    index = 140,
+    index = 145,
     label = "C3H3N2O3_16",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,D}
@@ -8365,7 +8359,7 @@ multiplicity 2
         CpInf = (236.962,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-N': 1, 'H-O': 2, 'C=N': 2, 'C=C': 1, 'C-O': 3, 'C-N': 1}
 1D rotors:
@@ -8397,9 +8391,9 @@ H       1.70799000    0.60748600    4.47858000
 )
 
 entry(
-    index = 141,
+    index = 146,
     label = "C3H3N2O3_18",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {3,D} {5,S} {6,S}
@@ -8426,7 +8420,7 @@ multiplicity 2
         CpInf = (236.962,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 3, 'C=N': 2, 'C=C': 1, 'C-O': 3, 'C-N': 1}
 1D rotors:
@@ -8459,9 +8453,9 @@ H      -9.45801400   -1.22578500   -2.09736100
 )
 
 entry(
-    index = 142,
+    index = 147,
     label = "C3H2NO3_19",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {7,S}
@@ -8486,7 +8480,7 @@ multiplicity 2
         CpInf = (195.39,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 1, 'H-O': 1, 'C-H': 1, 'O-O': 1, 'C-C': 2, 'C-O': 1, 'C#N': 1}
 1D rotors:
@@ -8519,9 +8513,9 @@ H      -1.84898900   -0.14876800    2.20784800
 )
 
 entry(
-    index = 143,
+    index = 148,
     label = "C4H3N2O3_20b",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8549,7 +8543,7 @@ multiplicity 2
         CpInf = (266.063,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 1, 'H-O': 1, 'C=N': 1, 'C-H': 2, 'O-O': 1, 'C-C': 3, 'C-O': 1, 'C#N': 1}
 1D rotors:
@@ -8587,9 +8581,9 @@ H      -1.41090500    0.57084000   -1.98062500
 )
 
 entry(
-    index = 144,
+    index = 149,
     label = "C4H3N2O3_21",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {4,S} {6,S}
@@ -8617,7 +8611,7 @@ multiplicity 2
         CpInf = (266.063,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C=N': 1, 'C=C': 1, 'C-H': 2, 'O-O': 1, 'C-C': 1, 'C-O': 3, 'C#N': 1}
 1D rotors:
@@ -8663,9 +8657,9 @@ H      -2.00816300   -3.26226300   -0.76422900
 )
 
 entry(
-    index = 145,
+    index = 150,
     label = "C4H2N2O3_22",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,D}
@@ -8691,7 +8685,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 1, 'H-O': 1, 'C-H': 1, 'O-O': 1, 'C-C': 3, 'C-O': 1, 'C#N': 2}
 1D rotors:
@@ -8723,9 +8717,9 @@ H      -2.47260800   -1.19386300    0.17704600
 )
 
 entry(
-    index = 146,
+    index = 151,
     label = "C4H2N2O3_23",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,D} {3,S} {5,S}
 2  C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -8751,7 +8745,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 2, 'C=C': 1, 'O-O': 1, 'C-C': 2, 'C-O': 2, 'C#N': 2}
 1D rotors:
@@ -8781,9 +8775,9 @@ H       1.20675500    1.73975900    1.66325100
 )
 
 entry(
-    index = 147,
+    index = 152,
     label = "C4HN2O3_24",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -8809,7 +8803,7 @@ multiplicity 2
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 1, 'C=C': 1, 'O-O': 1, 'C-C': 2, 'C-O': 2, 'C#N': 2}
 1D rotors:
@@ -8844,9 +8838,9 @@ H       0.83099300    1.95993600   -1.08515800
 )
 
 entry(
-    index = 148,
+    index = 153,
     label = "C4H2N2O2_25",
-    molecule =
+    molecule = 
 """
 1  C u0 p0 c0 {2,D} {3,S} {5,S}
 2  C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -8871,7 +8865,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-O': 2, 'C=C': 1, 'C-C': 2, 'C-O': 2, 'C#N': 2}
 1D rotors:
@@ -8900,9 +8894,9 @@ H       0.64108000   -2.22869700    0.74737300
 )
 
 entry(
-    index = 149,
+    index = 154,
     label = "C3HN2O2_26",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u0 p2 c0 {5,S} {6,S}
@@ -8926,7 +8920,7 @@ multiplicity 2
         CpInf = (174.604,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 1, 'C=N': 1, 'C-H': 1, 'C-C': 1, 'C-O': 2, 'C#N': 1}
 1D rotors:
@@ -8949,9 +8943,9 @@ H      -1.80006700    0.62291200    0.51019500
 )
 
 entry(
-    index = 150,
+    index = 155,
     label = "C2NO2_27",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 O u1 p2 c0 {4,S}
@@ -8972,7 +8966,7 @@ multiplicity 2
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 1, 'C-C': 1, 'C-O': 1, 'C#N': 1}
 
@@ -8988,9 +8982,9 @@ C       0.90851600   -0.03573000   -0.05608900
 )
 
 entry(
-    index = 151,
+    index = 156,
     label = "C3HN2O3_28",
-    molecule =
+    molecule = 
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {7,D}
@@ -9015,7 +9009,7 @@ multiplicity 2
         CpInf = (191.233,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'C=O': 1, 'H-O': 1, 'C=N': 1, 'C-C': 1, 'C-O': 3, 'C#N': 1}
 1D rotors:
@@ -9043,9 +9037,9 @@ H      -2.97668100    0.29781600    0.35080200
 )
 
 entry(
-    index = 152,
+    index = 157,
     label = "C3H6N2O3_31",
-    molecule =
+    molecule = 
 """
 1  O u0 p2 c0 {2,S} {6,S}
 2  O u0 p2 c0 {1,S} {4,S}
@@ -9074,7 +9068,7 @@ entry(
         CpInf = (311.793,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc =
+    longDesc = 
 """
 Bond corrections: {'H-N': 1, 'N=N': 1, 'C=O': 1, 'C-H': 5, 'O-O': 1, 'C-C': 2, 'C-O': 1, 'N-O': 1}
 1D rotors:
@@ -9123,3 +9117,4 @@ H      -4.45197400    2.43840600   -0.52123100
 H      -3.89303500   -1.77819900   -2.59471500
 """,
 )
+
