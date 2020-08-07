@@ -989,3 +989,58 @@ u"""
 Did not converge at CBS-QB3
 """,
 )
+
+entry(
+    label="[CH2]C(=COON)O",
+    species=
+"""
+multiplicity 2
+1  C u1 p0 c0 {2,S} {3,S} {4,S}
+2  H u0 p0 c0 {1,S}
+3  H u0 p0 c0 {1,S}
+4  C u0 p0 c0 {1,S} {5,D} {9,S}
+5  C u0 p0 c0 {4,D} {6,S} {10,S}
+6  O u0 p2 c0 {5,S} {7,S}
+7  O u0 p2 c0 {6,S} {8,S}
+8  N u0 p1 c0 {7,S} {11,S} {12,S}
+9  O u0 p2 c0 {4,S} {13,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {8,S}
+12 H u0 p0 c0 {8,S}
+13 H u0 p0 c0 {9,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Did not converge at CBS-QB3
+Interesting and unexpected
+""",
+)
+
+entry(
+    label="CC(=O)C(C#N)OO[NH]",
+    species=
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  O u0 p2 c0 {2,D}
+4  C u0 p0 c0 {2,S} {5,S} {7,S} {14,S}
+5  C u0 p0 c0 {4,S} {6,T}
+6  N u0 p1 c0 {5,T}
+7  O u0 p2 c0 {4,S} {8,S}
+8  O u0 p2 c0 {7,S} {9,S}
+9  N u1 p1 c0 {8,S} {10,S}
+10 H u0 p0 c0 {9,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {4,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Did not converge at CBS-QB3
+Interesting and unexpected, broke into NO
+""",
+)
