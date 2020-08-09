@@ -1044,3 +1044,32 @@ Did not converge at CBS-QB3
 Interesting and unexpected, broke into NO
 """,
 )
+
+
+entry(
+    label="N#CNOO[CH]C(=O)C",
+    species=
+"""
+multiplicity 2
+1  N u0 p1 c0 {2,T}
+2  C u0 p0 c0 {1,T} {3,S}
+3  N u0 p1 c0 {2,S} {4,S} {11,S}
+4  O u0 p2 c0 {3,S} {5,S}
+5  O u0 p2 c0 {4,S} {6,S}
+6  C u1 p0 c0 {5,S} {7,S} {8,S}
+7  H u0 p0 c0 {6,S}
+8  C u0 p0 c0 {6,S} {9,D} {10,S}
+9  O u0 p2 c0 {8,D}
+10 C u0 p0 c0 {8,S} {12,S} {13,S} {14,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {10,S}
+13 H u0 p0 c0 {10,S}
+14 H u0 p0 c0 {10,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Did not converge at CBS-QB3
+Interesting, a radical next to O-O broke it into two fragments
+""",
+)
