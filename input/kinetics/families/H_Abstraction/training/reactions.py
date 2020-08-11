@@ -690,7 +690,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 #     longDesc=
 #     u"""
 #     """,
-)
+# )
 
 entry(
     index=1001001,
