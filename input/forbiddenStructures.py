@@ -1045,7 +1045,6 @@ Interesting and unexpected, broke into NO
 """,
 )
 
-
 entry(
     label="N#CNOO[CH]C(=O)C",
     species=
@@ -1071,5 +1070,32 @@ multiplicity 2
 u"""
 Did not converge at CBS-QB3
 Interesting, a radical next to O-O broke it into two fragments
+""",
+)
+
+entry(
+    label="[O]ON=C=C(ON)C",
+    species=
+"""
+multiplicity 2
+1  O u1 p2 c0 {2,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  N u0 p1 c0 {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {5,D}
+5  C u0 p0 c0 {4,D} {6,S} {8,S}
+6  O u0 p2 c0 {5,S} {7,S}
+7  N u0 p1 c0 {6,S} {9,S} {10,S}
+8  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
+9  H u0 p0 c0 {7,S}
+10 H u0 p0 c0 {7,S}
+11 H u0 p0 c0 {8,S}
+12 H u0 p0 c0 {8,S}
+13 H u0 p0 c0 {8,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+Did not converge at CBS-QB3
+breaks into O2
 """,
 )
