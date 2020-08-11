@@ -658,136 +658,191 @@ entry(
     index=1001000,
     label="imipramine_r1 + OHCH2OO_r <=> imipramine_1_rad + OHCH2OOH_p",
     degeneracy=4.0,
-    kinetics = Arrhenius(A=(1.62526e+06,'cm^3/(mol*s)'), n=0, Ea=(21.0094,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(85.9968,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(22.9212,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.05754, dn = +|- 0, dEa = +|- 0.144274 kJ/mol"""),
     rank=1,
-    shortDesc=u"""Based on fragment h36 ts2001""",
-    longDesc=
-    u"""
-    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
-    """,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
 )
 
-entry(
-    index=2001000,
-    label="imipramine_1_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=4.0,
-    kinetics = Arrhenius(A=(5.38076e+06, 'cm^3/(mol*s)'), n=0, Ea=(33.8464, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    rank=1,
-    shortDesc=u"""reverse 1001000""",
-    longDesc=
-    u"""
-    """,
+# entry(
+#     index=2001000,
+#     label="imipramine_1_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=4.0,
+#     kinetics = Arrhenius(A=(5.38076e+06, 'cm^3/(mol*s)'), n=0, Ea=(33.8464, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K')),
+#     rank=1,
+#     shortDesc=u"""reverse 1001000""",
+#     longDesc=
+#     u"""
+#     """,
 )
 
 entry(
     index=1001001,
     label="imipramine_r2 + OHCH2OO_r <=> imipramine_2_rad + OHCH2OOH_p",
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(4.55192e+07, 'cm^3/(mol*s)'), n=0, Ea=(21.0728, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), ),
+    kinetics = Arrhenius(A=(8.07986,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(27.7183,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.05306, dn = +|- 0, dEa = +|- 0.133341 kJ/mol"""),
     rank=1,
-    shortDesc=u"""Based on fragment h6 ts2002""",
-    longDesc=
-    u"""
-    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
-    """,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
 )
 
-entry(
-    index=2001001,
-    label="imipramine_2_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.60108e+07, 'cm^3/(mol*s)'), n=0, Ea=(4.5213, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K'), ),
-    rank=1,
-    shortDesc=u"""reverse 1001001""",
-    longDesc=
-    u"""
-    """,
-)
+# entry(
+#     index=2001001,
+#     label="imipramine_2_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=2.0,
+#     kinetics=Arrhenius(A=(1.60108e+07, 'cm^3/(mol*s)'), n=0, Ea=(4.5213, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+#                        Tmax=(350, 'K'), ),
+#     rank=1,
+#     shortDesc=u"""reverse 1001001""",
+#     longDesc=
+#     u"""
+#     """,
+# )
 
 entry(
     index=1001002,
     label="imipramine_r3 + OHCH2OO_r <=> imipramine_3_rad + OHCH2OOH_p",
     degeneracy=2.0,
-    kinetics = Arrhenius(A=(4.83967e+07,'cm^3/(mol*s)'), n=0, Ea=(60.372,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(179.049,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(59.466,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.0447, dn = +|- 0, dEa = +|- 0.11279 kJ/mol"""),
     rank=1,
-    shortDesc=u"""Based on fragment h12 ts2003""",
-    longDesc=
-    u"""
-    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
-    """,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
 )
 
-entry(
-    index=2001002,
-    label="imipramine_3_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=2.0,
-    kinetics = Arrhenius(A=(8.57082e+06, 'cm^3/(mol*s)'), n=0, Ea=(16.4188, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    rank=1,
-    shortDesc=u"""reverse 1001002""",
-    longDesc=
-    u"""
-    """,
-)
+# entry(
+#     index=2001002,
+#     label="imipramine_3_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=2.0,
+#     kinetics = Arrhenius(A=(8.57082e+06, 'cm^3/(mol*s)'), n=0, Ea=(16.4188, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K')),
+#     rank=1,
+#     shortDesc=u"""reverse 1001002""",
+#     longDesc=
+#     u"""
+#     """,
+# )
 
 entry(
     index=1001003,
     label="imipramine_r4 + OHCH2OO_r <=> imipramine_4_rad + OHCH2OOH_p",
     degeneracy=2.0,
-    kinetics = Arrhenius(A=(1.01243e+09,'cm^3/(mol*s)'), n=0, Ea=(34.4679,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(9416.35,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(43.8278,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.02193, dn = +|- 0, dEa = +|- 0.0559449 kJ/mol"""),
     rank=1,
-    shortDesc=u"""Based on fragment h21 ts2004""",
-    longDesc=
-    u"""
-    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
-    """,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
 )
 
-entry(
-    index=2001003,
-    label="imipramine_4_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=2.0,
-    kinetics = Arrhenius(A=(3.29769e+08, 'cm^3/(mol*s)'), n=0, Ea=(15.9783, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    rank=1,
-    shortDesc=u"""reverse 1001003""",
-    longDesc=
-    u"""
-    """,
-)
+# entry(
+#     index=2001003,
+#     label="imipramine_4_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=2.0,
+#     kinetics = Arrhenius(A=(3.29769e+08, 'cm^3/(mol*s)'), n=0, Ea=(15.9783, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K')),
+#     rank=1,
+#     shortDesc=u"""reverse 1001003""",
+#     longDesc=
+#     u"""
+#     """,
+# )
 
 entry(
     index=1001004,
     label="imipramine_r5 + OHCH2OO_r <=> imipramine_5_rad + OHCH2OOH_p",
     degeneracy=6.0,
-    kinetics = Arrhenius(A=(2.41761e+09, 'cm^3/(mol*s)'), n=0, Ea=(48.4544, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
+    kinetics = Arrhenius(A=(134.27,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(26.6523,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.02551, dn = +|- 0, dEa = +|- 0.0649776 kJ/mol""")
     rank=1,
-    shortDesc=u"""Based on fragment h40 ts2005""",
-    longDesc=
-    u"""
-    dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp with APFD SMD H2O
-    """,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
 )
 
-entry(
-    index=2001004,
-    label="imipramine_5_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=6.0,
-    kinetics = Arrhenius(A=(7.3889e+08, 'cm^3/(mol*s)'), n=0, Ea=(25.3038, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-                         Tmax=(350,'K')),
-    rank=1,
-    shortDesc=u"""reverse 1001004""",
-    longDesc=
-    u"""
-    """,
-)
+# entry(
+#     index=2001004,
+#     label="imipramine_5_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+#     degeneracy=6.0,
+#     kinetics = Arrhenius(A=(7.3889e+08, 'cm^3/(mol*s)'), n=0, Ea=(25.3038, 'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+#                          Tmax=(350,'K')),
+#     rank=1,
+#     shortDesc=u"""reverse 1001004""",
+#     longDesc=
+#     u"""
+#     """,
+# )
 
 # entry(
 #     index=100010,
