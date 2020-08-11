@@ -816,7 +816,7 @@ entry(
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
-                         comment="""Fitted to 76 data points; dA = *|/ 1.02551, dn = +|- 0, dEa = +|- 0.0649776 kJ/mol""")
+                         comment="""Fitted to 76 data points; dA = *|/ 1.02551, dn = +|- 0, dEa = +|- 0.0649776 kJ/mol"""),
     rank=1,
     shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
