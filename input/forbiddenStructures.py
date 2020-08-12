@@ -1099,3 +1099,75 @@ Did not converge at CBS-QB3
 breaks into O2
 """,
 )
+
+entry(
+    label="NC(=O)N=CC(=O)O",
+    species=
+"""
+1  N u0 p1 c0 {2,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  O u0 p2 c0 {2,D}
+4  N u0 p1 c0 {2,S} {5,D}
+5  C u0 p0 c0 {4,D} {6,S} {11,S}
+6  C u0 p0 c0 {5,S} {7,D} {8,S}
+7  O u0 p2 c0 {6,D}
+8  O u0 p2 c0 {6,S} {12,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {8,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+physical, but problematic at low [MeOH]
+""",
+)
+
+entry(
+    label="NC(=O)N=[C]C(=O)O",
+    species=
+"""
+multiplicity 2
+1  N u0 p1 c0 {2,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  O u0 p2 c0 {2,D}
+4  N u0 p1 c0 {2,S} {5,D}
+5  C u1 p0 c0 {4,D} {6,S}
+6  C u0 p0 c0 {5,S} {7,D} {8,S}
+7  O u0 p2 c0 {6,D}
+8  O u0 p2 c0 {6,S} {11,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {8,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+physical, but problematic at low [MeOH]
+""",
+)
+
+entry(
+    label="NC(=O)N=CC(=O)O",
+    species=
+"""
+1  N u0 p1 c0 {2,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  O u0 p2 c0 {2,D}
+4  N u0 p1 c0 {2,S} {5,D}
+5  C u0 p0 c0 {4,D} {6,S} {11,S}
+6  C u0 p0 c0 {5,S} {7,D} {8,S}
+7  O u0 p2 c0 {6,D}
+8  O u0 p2 c0 {6,S} {12,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {8,S}
+""",
+    shortDesc=u"""""",
+    longDesc=
+u"""
+physical, but problematic at low [MeOH]
+""",
+)
