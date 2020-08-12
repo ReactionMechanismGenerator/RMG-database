@@ -33,6 +33,21 @@ Species C3H7N2O3_4 (run time: 8 days, 15:44:21)
 Species C3H6N2O3_5 (run time: 6 days, 0:43:06)
 Species C3H5N2O3_6 (run time: 5 days, 0:46:05)
 Species N1=NO1_7 (run time: 0:00:49)
+Species C4HN2O3_8 (run time: 4:06:16)
+Species OHCHOH_9 (run time: 2 days, 0:03:53)
+Species C4H8N2O_10 (run time: 4 days, 0:40:52)
+Species C4H7N2O_11 (run time: 3 days, 0:59:57)
+Species C4H7N2O_12 (Failed!) (run time: None)
+Species C4H6N2O2_13 (run time: 7 days, 1:49:36)
+Species C4H5N2O2_14 (run time: 5 days, 1:59:53)
+Species C4H5N2O2_15 (run time: 5 days, 5:30:57)
+Species C3H5N2O_16 (run time: 2 days, 0:59:30)
+Species C3H5N2O3_17 (run time: 7 days, 8:06:26)
+Species C3H5N2O3_18 (Failed!) (run time: None)
+Species C3H6N2O3_19 (run time: 10 days, 4:11:54)
+Species C3H5N2O3_20 (run time: 6 days, 2:43:50)
+Species C3H4N2O2_21 (run time: 1 day, 0:12:46)
+Species C4H7N2O_0 (run time: 2 days, 5:01:48)
 """
 entry(
     index = 0,
@@ -78,22 +93,259 @@ H       1.43964200    0.22185200   -0.27569000
 
 entry(
     index = 1,
+    label = "C4H7N2O_0",
+    molecule = 
+"""
+multiplicity 2
+1  O u0 p2 c0 {2,S} {4,S}
+2  N u0 p1 c0 {1,S} {13,S} {14,S}
+3  N u0 p1 c0 {7,T}
+4  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+6  C u1 p0 c0 {4,S} {11,S} {12,S}
+7  C u0 p0 c0 {3,T} {4,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56344,0.0413582,0.000144646,-6.86712e-07,8.19309e-10,27308.5,12.3729], Tmin=(10,'K'), Tmax=(308.306,'K')),
+            NASAPolynomial(coeffs=[5.38017,0.047727,-3.20038e-05,1.02417e-08,-1.24689e-12,27054.2,3.43836], Tmin=(308.306,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (227.104,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (315.95,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-C': 3, 'C-H': 5, 'C#N': 1, 'C-O': 1, 'H-N': 2, 'N-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [4, 1, 2, 13], rotor symmetry: 1, max scan energy: 35.60 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 5 4 6 11 F
+pivots: [1, 4], dihedral: [2, 1, 4, 5], rotor symmetry: 1, max scan energy: 21.88 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 5 4 6 11 F
+pivots: [4, 5], dihedral: [1, 4, 5, 8], rotor symmetry: 3, max scan energy: 12.74 kJ/mol
+pivots: [4, 6], dihedral: [1, 4, 6, 11], rotor symmetry: 2, max scan energy: 3.75 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 4 6 11 12 F
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.04689300   -0.05449400   -0.75510800
+N       1.48878300   -1.27378500   -0.12544600
+N       0.32007000    0.98342600    2.39569500
+C      -0.16718600    0.42286500   -0.13868400
+C      -0.49225400    1.71569000   -0.89584300
+C      -1.27145100   -0.58351900   -0.21667200
+C       0.11335600    0.73496700    1.28817800
+H      -0.67529800    1.47060100   -1.94314600
+H       0.34729900    2.40791400   -0.83161300
+H      -1.38005800    2.18917000   -0.47432600
+H      -2.27977500   -0.26881500   -0.44840600
+H      -1.06440300   -1.60559100    0.06487100
+H       1.73602300   -1.86496900   -0.91571400
+H       2.36239800   -1.01664300    0.33218300
+""",
+)
+
+entry(
+    index = 2,
+    label = "OHCHOH_9",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {3,S} {5,S}
+2 O u0 p2 c0 {3,S} {6,S}
+3 C u1 p0 c0 {1,S} {2,S} {4,S}
+4 H u0 p0 c0 {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96711,0.00193246,4.99124e-05,-9.3073e-08,5.35731e-11,-26274.1,8.1267], Tmin=(10,'K'), Tmax=(556.331,'K')),
+            NASAPolynomial(coeffs=[2.87206,0.0171325,-1.08246e-05,3.38205e-09,-4.08742e-13,-26265.7,11.7486], Tmin=(556.331,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-218.469,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'H-O': 2, 'C-O': 2, 'C-H': 1}
+1D rotors:
+* Invalidated! pivots: [1, 3], dihedral: [5, 1, 3, 2], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [6, 2, 3, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.44761700    1.50221900    0.80862700
+O       1.21055800   -0.32389400   -0.31013800
+C       0.13558700    0.51634500   -0.07580400
+H      -0.81756600    0.04502300    0.17476800
+H       1.35456900    1.77748300    0.62559100
+H       1.01946000   -0.84415500   -1.09687300
+""",
+)
+
+entry(
+    index = 3,
+    label = "C4HN2O3_8",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {6,D}
+2  C u0 p0 c0 {1,S} {4,S} {7,D}
+3  C u0 p0 c0 {1,S} {8,D} {9,S}
+4  O u0 p2 c0 {2,S} {5,S}
+5  C u0 p0 c0 {4,S} {10,T}
+6  O u0 p2 c0 {1,D}
+7  N u1 p1 c0 {2,D}
+8  O u0 p2 c0 {3,D}
+9  H u0 p0 c0 {3,S}
+10 N u0 p1 c0 {5,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.30396,0.0608444,-3.71162e-05,-8.64119e-08,1.06195e-10,11747.7,15.4164], Tmin=(10,'K'), Tmax=(486.661,'K')),
+            NASAPolynomial(coeffs=[10.5084,0.0287818,-2.19824e-05,7.50235e-09,-9.42891e-13,10724.9,-17.4558], Tmin=(486.661,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (97.6186,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (216.176,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C=N': 1, 'C=O': 2, 'C-C': 2, 'C#N': 1, 'C-O': 2, 'C-H': 1}
+1D rotors:
+pivots: [1, 7], dihedral: [9, 1, 7, 4], rotor symmetry: 1, max scan energy: 17.97 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 6 7 4 F
+pivots: [6, 7], dihedral: [2, 6, 7, 1], rotor symmetry: 1, max scan energy: 22.93 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 7 6 8 3 F
+pivots: [6, 8], dihedral: [2, 6, 8, 3], rotor symmetry: 1, max scan energy: 22.11 kJ/mol
+pivots: [1, 9], dihedral: [7, 1, 9, 5], rotor symmetry: 1, max scan energy: 0.65 kJ/mol (set as a FreeRotor)
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       0.87259600    0.61608800    1.84861000
+O      -1.41807700   -0.68135800    1.73229400
+O      -1.53220300    0.13247900   -1.63423000
+N       0.70193500    1.11669700   -0.44491800
+N       3.01338000    1.78174200    2.13677600
+C      -1.05523400   -0.20083200    0.69862400
+C       0.25144000    0.58631100    0.58504400
+C      -1.87948000   -0.34115600   -0.59243700
+C       2.00723000    1.24532700    1.95760700
+H      -2.81060900   -0.91884100   -0.44736200
+""",
+)
+
+entry(
+    index = 4,
+    label = "C4H8N2O_10",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {4,S}
+2  N u0 p1 c0 {1,S} {14,S} {15,S}
+3  N u0 p1 c0 {7,T}
+4  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+6  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+7  C u0 p0 c0 {3,T} {4,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7909,0.0199515,0.000284368,-1.11587e-06,1.37592e-09,422.947,11.3765], Tmin=(10,'K'), Tmax=(261.297,'K')),
+            NASAPolynomial(coeffs=[2.9533,0.0541375,-3.45206e-05,1.06409e-08,-1.26158e-12,393.788,12.8978], Tmin=(261.297,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (3.5534,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (349.208,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 6, 'C-C': 3, 'C#N': 1, 'H-N': 2, 'C-O': 1, 'N-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [4, 1, 2, 14], rotor symmetry: 1, max scan energy: 34.97 kJ/mol
+* Invalidated! pivots: [1, 4], dihedral: [2, 1, 4, 5], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 8], invalidation reason: 
+pivots: [4, 6], dihedral: [1, 4, 6, 11], rotor symmetry: 3, max scan energy: 12.27 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.27982200   -0.21239800    0.29144000
+N       1.74628700    0.47742000   -0.88688100
+N      -1.12723000   -1.45278300   -1.74500900
+C      -0.15558400   -0.19464700    0.35821200
+C      -0.70320900    1.23515400    0.42492700
+C      -0.47893900   -1.00077900    1.62082500
+C      -0.70325400   -0.89493700   -0.82974200
+H      -0.38467000    1.79766700   -0.45155500
+H      -0.31709600    1.71886200    1.32517900
+H      -1.79438500    1.22832800    0.46643500
+H      -0.03977300   -0.49601000    2.48312900
+H      -0.05923800   -2.00447300    1.54714200
+H      -1.55846100   -1.07497800    1.76009400
+H       2.50488600    1.05493800   -0.53133100
+H       2.17823100   -0.25529000   -1.44831600
+""",
+)
+
+entry(
+    index = 5,
     label = "C3H8N2O3_2",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  O u0 p2 c0 {1,S} {4,S}
-3  O u0 p2 c0 {8,D}
-4  N u0 p1 c0 {2,S} {5,S} {14,S}
+1  C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+2  C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+3  C u0 p0 c0 {1,S} {2,S} {13,D}
+4  N u0 p1 c0 {5,S} {7,S} {14,S}
 5  N u0 p1 c0 {4,S} {15,S} {16,S}
-6  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
-7  C u0 p0 c0 {8,S} {11,S} {12,S} {13,S}
-8  C u0 p0 c0 {3,D} {6,S} {7,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {7,S}
-12 H u0 p0 c0 {7,S}
-13 H u0 p0 c0 {7,S}
+6  O u0 p2 c0 {1,S} {7,S}
+7  O u0 p2 c0 {4,S} {6,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 O u0 p2 c0 {3,D}
 14 H u0 p0 c0 {4,S}
 15 H u0 p0 c0 {5,S}
 16 H u0 p0 c0 {5,S}
@@ -145,7 +397,70 @@ H       0.76073500   -0.37393000   -1.13667400
 )
 
 entry(
-    index = 2,
+    index = 6,
+    label = "C4H7N2O_11",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {1,S} {13,T}
+6  N u1 p1 c0 {4,S} {14,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 N u0 p1 c0 {5,T}
+14 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80712,0.0171285,0.000257965,-9.27861e-07,1.03733e-09,18437.2,11.4875], Tmin=(10,'K'), Tmax=(293.416,'K')),
+            NASAPolynomial(coeffs=[3.22662,0.0492949,-3.04598e-05,9.16834e-09,-1.06895e-12,18366.8,11.7972], Tmin=(293.416,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (153.331,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (332.579,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 6, 'C-C': 3, 'C#N': 1, 'H-N': 1, 'C-O': 1, 'N-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [4, 1, 2, 14], rotor symmetry: 1, max scan energy: 67.51 kJ/mol
+* Invalidated! pivots: [1, 4], dihedral: [2, 1, 4, 5], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 8], invalidation reason: 
+* Invalidated! pivots: [4, 6], dihedral: [1, 4, 6, 11], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       1.44265800   -0.15788600   -0.22485300
+N       1.62728200   -1.30075800    0.49202600
+N      -0.00210100    2.46328600   -1.63341600
+C       0.04216000    0.27243300   -0.18774600
+C      -0.84981800   -0.79175300   -0.83737900
+C      -0.36754500    0.59755000    1.25328800
+C       0.04381800    1.49995600   -1.00385000
+H      -0.78928400   -1.70862800   -0.25162300
+H      -0.51719900   -0.99420200   -1.85639600
+H      -1.88463400   -0.44632900   -0.86624000
+H       0.29742400    1.35251600    1.67502000
+H      -1.39062500    0.97678500    1.27530700
+H      -0.30405800   -0.31081900    1.85184400
+H       2.63535600   -1.44020300    0.35214900
+""",
+)
+
+entry(
+    index = 7,
     label = "C4H7N2O3_0",
     molecule = 
 """
@@ -218,21 +533,85 @@ H      -4.14314800    0.04577400   -0.12450000
 )
 
 entry(
-    index = 3,
+    index = 8,
+    label = "C4H6N2O2_13",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,D} {11,S}
+4  N u0 p1 c0 {5,S} {12,S} {13,S}
+5  O u0 p2 c0 {1,S} {4,S}
+6  C u0 p0 c0 {1,S} {14,T}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 O u0 p2 c0 {3,D}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
+14 N u0 p1 c0 {6,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73173,0.0289205,0.00033966,-1.83922e-06,2.98227e-09,-6855.81,12.0328], Tmin=(10,'K'), Tmax=(210.978,'K')),
+            NASAPolynomial(coeffs=[4.09115,0.0518286,-3.45296e-05,1.09257e-08,-1.31644e-12,-6937.13,9.29037], Tmin=(210.978,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-56.8812,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (324.264,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 4, 'C=O': 1, 'C-C': 3, 'C#N': 1, 'H-N': 2, 'C-O': 1, 'N-O': 1}
+1D rotors:
+pivots: [1, 3], dihedral: [5, 1, 3, 13], rotor symmetry: 1, max scan energy: 37.55 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 5 7 12 F
+* Invalidated! pivots: [1, 5], dihedral: [3, 1, 5, 6], invalidation reason: 
+pivots: [5, 6], dihedral: [1, 5, 6, 9], rotor symmetry: 3, max scan energy: 12.48 kJ/mol
+* Invalidated! pivots: [5, 7], dihedral: [1, 5, 7, 2], invalidation reason: Another conformer for C4H6N2O2_13 exists which is 3.05 kJ/mol lower.
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.08903600    0.46679800   -0.36032100
+O      -0.92782600   -0.37152400    2.40957400
+N       1.99499400   -0.52128200    0.19048000
+N      -1.12608200   -2.04476900   -0.79287300
+C      -0.21066800    0.22509200    0.16234400
+C      -1.07791200    1.40626700   -0.29351900
+C      -0.15879900    0.21763900    1.70871400
+C      -0.74512000   -1.05043700   -0.35323300
+H      -1.05045200    1.47944100   -1.38125300
+H      -2.10786400    1.26393400    0.03469500
+H      -0.68280300    2.33066200    0.13259700
+H       0.63794000    0.88383300    2.09789800
+H       2.86748500   -0.00377000    0.26900300
+H       2.12733600   -1.19975200   -0.56068600
+""",
+)
+
+entry(
+    index = 9,
     label = "C3H5O2_3",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {4,S} {10,S}
-2  O u1 p2 c0 {5,S}
-3  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-4  C u0 p0 c0 {1,S} {3,S} {5,D}
-5  C u0 p0 c0 {2,S} {4,D} {9,S}
-6  H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  O u1 p2 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -276,7 +655,70 @@ H      -0.43920700    1.04407700   -1.73152800
 )
 
 entry(
-    index = 4,
+    index = 10,
+    label = "C4H5N2O2_14",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  N u0 p1 c0 {4,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  C u1 p0 c0 {1,S} {12,D}
+6  C u0 p0 c0 {1,S} {13,T}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 O u0 p2 c0 {5,D}
+13 N u0 p1 c0 {6,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67169,0.0319191,0.000257271,-1.23486e-06,1.67211e-09,14068.3,13.0601], Tmin=(10,'K'), Tmax=(262.249,'K')),
+            NASAPolynomial(coeffs=[4.96288,0.0473285,-3.16504e-05,1.00279e-08,-1.2091e-12,13879.8,6.25763], Tmin=(262.249,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (117.009,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (303.478,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 3, 'C=O': 1, 'C-C': 3, 'C#N': 1, 'H-N': 2, 'C-O': 1, 'N-O': 1}
+1D rotors:
+pivots: [1, 3], dihedral: [5, 1, 3, 12], rotor symmetry: 1, max scan energy: 41.15 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 1 5 7 2 F
+* Invalidated! pivots: [1, 5], dihedral: [3, 1, 5, 6], invalidation reason: 
+* Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 9], invalidation reason: 
+* Invalidated! pivots: [5, 7], dihedral: [1, 5, 7, 2], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -0.37878000    1.10219800   -0.58163300
+O       1.95043300   -0.99820500    1.11917000
+N       0.28971100    0.71951400   -1.80186500
+N      -0.97079800    1.06779900    2.68296300
+C      -0.13390200    0.10521900    0.39750800
+C      -0.80176700   -1.23755800    0.07754500
+C       1.43662300   -0.11186300    0.54955000
+C      -0.61372600    0.66205700    1.66519600
+H      -0.41593200   -1.60392800   -0.87361100
+H      -0.58284100   -1.96546100    0.85924200
+H      -1.88116600   -1.09399200    0.00436000
+H       0.93613000    1.48734300   -1.97338400
+H      -0.44223900    0.78789700   -2.50637300
+""",
+)
+
+entry(
+    index = 11,
     label = "C4H6N2O3_1",
     molecule = 
 """
@@ -351,7 +793,73 @@ H       1.98590100   -2.19344000   -1.06699000
 )
 
 entry(
-    index = 5,
+    index = 12,
+    label = "C4H5N2O2_15",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {10,D} {11,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {1,S} {12,T}
+6  N u1 p1 c0 {4,S} {13,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 O u0 p2 c0 {3,D}
+11 H u0 p0 c0 {3,S}
+12 N u0 p1 c0 {5,T}
+13 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63742,0.0318312,0.000264041,-1.14327e-06,1.35376e-09,11704.2,13.1795], Tmin=(10,'K'), Tmax=(309.401,'K')),
+            NASAPolynomial(coeffs=[6.77853,0.0414997,-2.65813e-05,8.14095e-09,-9.59868e-13,11269.1,-2.17866], Tmin=(309.401,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (97.3672,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (291.007,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 4, 'C=O': 1, 'C-C': 3, 'C#N': 1, 'H-N': 1, 'C-O': 1, 'N-O': 1}
+1D rotors:
+pivots: [1, 3], dihedral: [5, 1, 3, 13], rotor symmetry: 1, max scan energy: 74.91 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 5 7 12 F
+D 3 1 5 6 F
+pivots: [1, 5], dihedral: [3, 1, 5, 6], rotor symmetry: 1, max scan energy: 14.47 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 8 5 7 12 F
+pivots: [5, 6], dihedral: [1, 5, 6, 9], rotor symmetry: 3, max scan energy: 11.48 kJ/mol
+pivots: [5, 7], dihedral: [1, 5, 7, 2], rotor symmetry: 1, max scan energy: 17.82 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -0.05443500    1.35474600    0.47877700
+O      -1.25341500   -1.31789400   -1.45633800
+N      -0.00516600    1.96757100   -0.74155800
+N      -0.79475300   -1.08511100    2.61121700
+C      -0.10852800   -0.08165900    0.29046000
+C       1.22260300   -0.64196300   -0.20255000
+C      -1.27796300   -0.39682000   -0.69625000
+C      -0.48234600   -0.62341400    1.60292900
+H       2.00339000   -0.46214800    0.53679300
+H       1.48047000   -0.15094400   -1.14069300
+H       1.12334600   -1.71274400   -0.37930300
+H      -2.13293800    0.29825500   -0.60178700
+H       0.04111400    2.95330600   -0.45653900
+""",
+)
+
+entry(
+    index = 13,
     label = "C3H7N2O3_4",
     molecule = 
 """
@@ -424,7 +932,63 @@ H       0.45998600   -7.44579100    2.88319300
 )
 
 entry(
-    index = 6,
+    index = 14,
+    label = "C3H5N2O_16",
+    molecule = 
+"""
+multiplicity 2
+1  O u0 p2 c0 {2,S} {5,S}
+2  N u0 p1 c0 {1,S} {10,S} {11,S}
+3  N u0 p1 c0 {6,T}
+4  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5  C u1 p0 c0 {1,S} {4,S} {6,S}
+6  C u0 p0 c0 {3,T} {5,S}
+7  H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68309,0.0331476,0.000256748,-1.66807e-06,2.7835e-09,23879.5,11.1646], Tmin=(10,'K'), Tmax=(228.995,'K')),
+            NASAPolynomial(coeffs=[6.56375,0.0288398,-1.64199e-05,4.61531e-09,-5.10019e-13,23627,-1.12075], Tmin=(228.995,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (198.585,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (249.434,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 3, 'C-C': 2, 'C#N': 1, 'H-N': 2, 'C-O': 1, 'N-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [5, 1, 2, 10], rotor symmetry: 1, max scan energy: 10.56 kJ/mol
+pivots: [1, 5], dihedral: [2, 1, 5, 4], rotor symmetry: 1, max scan energy: 19.46 kJ/mol
+* Invalidated! pivots: [4, 5], dihedral: [7, 4, 5, 1], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O      -1.02908400    1.56445800    0.13931500
+N      -1.79130300    1.56262200   -1.08787400
+N      -0.08937700   -1.42967700   -1.44724200
+C       0.55411700    0.44279900    1.52408300
+C      -0.23977500    0.45807700    0.26369300
+C      -0.19483900   -0.54037600   -0.69687300
+H      -0.10503200    0.47079400    2.39915300
+H       1.16548800   -0.45730100    1.57581200
+H       1.21142500    1.31790100    1.58021500
+H      -2.75072500    1.66704300   -0.76145700
+H      -1.53439200    2.44966400   -1.51810500
+""",
+)
+
+entry(
+    index = 15,
     label = "C4H7N2O3_11",
     molecule = 
 """
@@ -501,24 +1065,88 @@ H       0.21100300    0.25788600    1.85730400
 )
 
 entry(
-    index = 7,
+    index = 16,
+    label = "C3H5N2O3_17",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  N u0 p1 c0 {4,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  O u0 p2 c0 {1,S} {12,S}
+6  C u0 p0 c0 {1,S} {13,T}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 O u1 p2 c0 {5,S}
+13 N u0 p1 c0 {6,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.36961,0.0596528,-5.06533e-05,1.88261e-08,-1.86754e-12,11392.9,13.4446], Tmin=(10,'K'), Tmax=(969.827,'K')),
+            NASAPolynomial(coeffs=[12.4109,0.0304781,-1.80818e-05,5.06464e-09,-5.44342e-13,9257.57,-31.865], Tmin=(969.827,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (94.6869,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (291.007,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 3, 'C-C': 2, 'C#N': 1, 'O-O': 1, 'H-N': 2, 'C-O': 2, 'N-O': 1}
+1D rotors:
+pivots: [1, 4], dihedral: [6, 1, 4, 12], rotor symmetry: 1, max scan energy: 25.95 kJ/mol
+pivots: [1, 6], dihedral: [4, 1, 6, 2], rotor symmetry: 1, max scan energy: 49.86 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 1 4 12 F
+D 3 2 6 1 F
+pivots: [2, 6], dihedral: [3, 2, 6, 1], rotor symmetry: 1, max scan energy: 8.02 kJ/mol
+pivots: [6, 7], dihedral: [1, 6, 7, 9], rotor symmetry: 3, max scan energy: 11.79 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.32289500    0.10585000   -0.75326200
+O      -0.63822200    0.97227500    1.34360200
+O      -1.87675700    1.26040900    1.66757600
+N      -0.75687700    1.23797300   -1.45979100
+N       1.98451400   -0.49371700   -0.08762100
+C      -0.58117000   -0.18011900    0.37408400
+C      -1.17701300   -1.41521100    1.02312300
+C       0.86557600   -0.30679000    0.10728400
+H      -1.12446800   -2.25304200    0.32809400
+H      -2.21733500   -1.19987200    1.26447100
+H      -0.62822000   -1.66024600    1.93214700
+H      -1.44781500    1.97469100   -1.32394400
+H      -0.82170800    0.94650900   -2.43249300
+""",
+)
+
+entry(
+    index = 17,
     label = "C3H6N2O3_5",
     molecule = 
 """
-1  O u0 p2 c0 {3,S} {8,S}
-2  O u0 p2 c0 {7,S} {13,S}
-3  O u0 p2 c0 {1,S} {4,S}
-4  N u0 p1 c0 {3,S} {5,D}
-5  N u0 p1 c0 {4,D} {14,S}
-6  C u0 p0 c0 {7,S} {9,S} {10,S} {11,S}
-7  C u0 p0 c0 {2,S} {6,S} {8,D}
-8  C u0 p0 c0 {1,S} {7,D} {12,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {8,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {3,D} {5,S}
+3  C u0 p0 c0 {2,D} {4,S} {12,S}
+4  O u0 p2 c0 {3,S} {6,S}
+5  O u0 p2 c0 {2,S} {13,S}
+6  O u0 p2 c0 {4,S} {7,S}
+7  N u0 p1 c0 {6,S} {8,D}
+8  N u0 p1 c0 {7,D} {14,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {5,S}
+14 H u0 p0 c0 {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -564,7 +1192,74 @@ H      -0.87292900   -4.23171200    0.67469200
 )
 
 entry(
-    index = 8,
+    index = 18,
+    label = "C3H6N2O3_19",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  N u0 p1 c0 {4,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  O u0 p2 c0 {1,S} {7,S}
+6  C u0 p0 c0 {1,S} {13,T}
+7  O u0 p2 c0 {5,S} {14,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 N u0 p1 c0 {6,T}
+14 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56731,0.0322836,0.000230957,-7.45473e-07,6.48913e-10,-7607.01,13.1528], Tmin=(10,'K'), Tmax=(420.846,'K')),
+            NASAPolynomial(coeffs=[8.37298,0.0464974,-3.31678e-05,1.10806e-08,-1.38698e-12,-8541.86,-12.1736], Tmin=(420.846,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-63.2559,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (315.95,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 3, 'C-C': 2, 'C#N': 1, 'H-O': 1, 'O-O': 1, 'H-N': 2, 'C-O': 2, 'N-O': 1}
+1D rotors:
+pivots: [1, 4], dihedral: [6, 1, 4, 12], rotor symmetry: 1, max scan energy: 24.62 kJ/mol
+pivots: [1, 6], dihedral: [4, 1, 6, 2], rotor symmetry: 1, max scan energy: 29.95 kJ/mol
+* Invalidated! pivots: [2, 3], dihedral: [6, 2, 3, 14], invalidation reason: 
+pivots: [2, 6], dihedral: [3, 2, 6, 1], rotor symmetry: 1, max scan energy: 37.14 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 6 2 3 14 F
+D 4 1 6 8 F
+D 6 1 4 13 F
+pivots: [6, 7], dihedral: [1, 6, 7, 9], rotor symmetry: 3, max scan energy: 8.97 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.13936900    0.21161500    0.23796700
+O      -0.91816600    0.44020900    1.36052200
+O      -0.89836400    1.88271900    1.25669600
+N       1.36344800    1.48582400   -0.41218100
+N      -1.53785400    0.43722300   -1.94367800
+C      -0.21036700   -0.13625300    0.26045900
+C      -0.27957400   -1.63695900    0.53306400
+C      -0.90746600    0.22943100   -1.00228800
+H       0.26490300   -1.83886400    1.45534700
+H      -1.31583600   -1.95442300    0.64035700
+H       0.18736900   -2.17339400   -0.29204400
+H       1.40380300    2.15885400    0.35193700
+H       2.30842900    1.37225900   -0.77086200
+H      -1.74232900    2.05772900    0.81234700
+""",
+)
+
+entry(
+    index = 19,
     label = "C4H6N2O3_12",
     molecule = 
 """
@@ -640,24 +1335,89 @@ H       1.13630600    1.56929500   -1.61191700
 )
 
 entry(
-    index = 9,
+    index = 20,
+    label = "C3H5N2O3_20",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  O u0 p2 c0 {1,S} {7,S}
+4  O u0 p2 c0 {1,S} {6,S}
+5  C u0 p0 c0 {1,S} {11,T}
+6  O u0 p2 c0 {4,S} {12,S}
+7  N u1 p1 c0 {3,S} {13,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 N u0 p1 c0 {5,T}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69758,0.0222839,0.000220684,-6.54707e-07,5.53752e-10,11588.7,13.1326], Tmin=(10,'K'), Tmax=(416.633,'K')),
+            NASAPolynomial(coeffs=[5.75644,0.0475996,-3.27689e-05,1.05677e-08,-1.28796e-12,11025.8,0.306703], Tmin=(416.633,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (96.351,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (299.321,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 3, 'C-C': 2, 'C#N': 1, 'H-O': 1, 'O-O': 1, 'H-N': 1, 'C-O': 2, 'N-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 4], dihedral: [6, 1, 4, 13], invalidation reason: Significant difference observed between consecutive conformers
+* Invalidated! pivots: [1, 6], dihedral: [4, 1, 6, 2], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [6, 2, 3, 12], invalidation reason: 
+pivots: [2, 6], dihedral: [3, 2, 6, 1], rotor symmetry: 1, max scan energy: 67.63 kJ/mol
+Troubleshot with the following constraints and 8.0 degrees resolution:
+D 4 1 6 8 F
+D 6 2 3 12 F
+pivots: [6, 7], dihedral: [1, 6, 7, 9], rotor symmetry: 3, max scan energy: 12.57 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.22718800    0.70904300    0.06392900
+O      -0.25510900   -0.70755500   -1.11463200
+O      -1.48161600    0.05729400   -1.18874200
+N       0.53518900    1.76392900   -0.43517800
+N       2.11418500   -2.46447700    0.32276200
+C       0.38655600   -0.49867700    0.11355800
+C      -0.52689200   -0.43688300    1.33048100
+C       1.36797300   -1.59598800    0.21094600
+H      -1.18474500    0.42457700    1.24703100
+H      -1.12766800   -1.34526000    1.37814200
+H       0.08200700   -0.35203200    2.23056000
+H      -1.10935300    0.95540400   -1.29175700
+H       1.24549600    2.50261900   -0.40852500
+""",
+)
+
+entry(
+    index = 21,
     label = "C3H5N2O3_6",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {3,S} {8,S}
-2  O u0 p2 c0 {7,S} {13,S}
-3  O u0 p2 c0 {1,S} {4,S}
-4  N u0 p1 c0 {3,S} {5,D}
-5  N u1 p1 c0 {4,D}
-6  C u0 p0 c0 {7,S} {9,S} {10,S} {11,S}
-7  C u0 p0 c0 {2,S} {6,S} {8,D}
-8  C u0 p0 c0 {1,S} {7,D} {12,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {8,S}
-13 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,D} {5,S}
+3  C u0 p0 c0 {2,D} {4,S} {11,S}
+4  O u0 p2 c0 {3,S} {6,S}
+5  O u0 p2 c0 {2,S} {12,S}
+6  O u0 p2 c0 {4,S} {7,S}
+7  N u0 p1 c0 {6,S} {13,D}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {5,S}
+13 N u1 p1 c0 {7,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -704,7 +1464,60 @@ H       1.12772600    3.08244300    0.06541800
 )
 
 entry(
-    index = 10,
+    index = 22,
+    label = "C3H4N2O2_21",
+    molecule = 
+"""
+1  O u0 p2 c0 {3,S} {5,S}
+2  O u0 p2 c0 {3,S} {5,S}
+3  N u0 p1 c0 {1,S} {2,S} {11,S}
+4  N u0 p1 c0 {7,T}
+5  C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+7  C u0 p0 c0 {4,T} {5,S}
+8  H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71812,0.0241033,5.45341e-05,-1.38629e-07,8.99979e-11,-152330,10.8955], Tmin=(10,'K'), Tmax=(527.819,'K')),
+            NASAPolynomial(coeffs=[3.37201,0.0394348,-2.51524e-05,7.63613e-09,-8.86711e-13,-152471,10.6672], Tmin=(527.819,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-1266.58,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 3, 'C-C': 2, 'C#N': 1, 'N-O': 2, 'H-N': 1, 'C-O': 2}
+1D rotors:
+* Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 8], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       1.01889000   -0.68540500    0.76824800
+O       0.64050800   -0.39602300   -1.23726600
+N       1.76658200   -0.93208600   -0.46774400
+N       0.35450900    2.63805400    0.31382100
+C       0.05340000    0.03102200   -0.00554600
+C      -1.36942400   -0.41760200    0.19816500
+C       0.21806200    1.50223100    0.17567300
+H      -1.69767300   -0.16553900    1.20892200
+H      -1.41436700   -1.49625600    0.05100200
+H      -2.02359300    0.08372100   -0.51852900
+H       2.45283600   -0.16132200   -0.48600400
+""",
+)
+
+entry(
+    index = 23,
     label = "C4H5N2O3_2",
     molecule = 
 """
@@ -773,7 +1586,7 @@ H       0.04745200    3.34175800    3.68208700
 )
 
 entry(
-    index = 11,
+    index = 24,
     label = "N1=NO1_7",
     molecule = 
 """
@@ -807,7 +1620,7 @@ N       0.75204700   -0.02765400    0.02934800
 )
 
 entry(
-    index = 12,
+    index = 25,
     label = "C3H6O2_1",
     molecule = 
 """
@@ -867,7 +1680,7 @@ H      -1.96144600    0.94675700   -1.13584300
 )
 
 entry(
-    index = 13,
+    index = 26,
     label = "C4H4N2O2_13",
     molecule = 
 """
@@ -924,7 +1737,7 @@ H      -3.21348400    1.20780400   -0.32922900
 )
 
 entry(
-    index = 14,
+    index = 27,
     label = "C2HN2O_4",
     molecule = 
 """
@@ -969,7 +1782,7 @@ H      -1.92024000   -0.43322300   -0.15727000
 )
 
 entry(
-    index = 15,
+    index = 28,
     label = "C4H5N2O3_15",
     molecule = 
 """
@@ -1033,7 +1846,7 @@ H      -1.77398200    4.76181000   -1.41034200
 )
 
 entry(
-    index = 16,
+    index = 29,
     label = "CH2NO3_2",
     molecule = 
 """
@@ -1083,7 +1896,7 @@ H      -0.65280700   -0.70005300   -0.81685300
 )
 
 entry(
-    index = 17,
+    index = 30,
     label = "C3H6O2_5",
     molecule = 
 """
@@ -1142,7 +1955,7 @@ H      -1.43867900   -2.25553100   -0.32218700
 )
 
 entry(
-    index = 18,
+    index = 31,
     label = "CH2NO2_4",
     molecule = 
 """
@@ -1187,7 +2000,7 @@ H      -1.07792000    1.58379100    0.06751700
 )
 
 entry(
-    index = 19,
+    index = 32,
     label = "C3H5O2_6",
     molecule = 
 """
@@ -1241,7 +2054,7 @@ H      -0.50547000    0.65073700    0.88176000
 )
 
 entry(
-    index = 20,
+    index = 33,
     label = "C3H5O2_7",
     molecule = 
 """
@@ -1295,7 +2108,7 @@ H       1.36255800    0.03661700   -3.08472800
 )
 
 entry(
-    index = 21,
+    index = 34,
     label = "C3H3O2_9",
     molecule = 
 """
@@ -1344,7 +2157,7 @@ H       1.05529300   -1.10533300   -0.27494800
 )
 
 entry(
-    index = 22,
+    index = 35,
     label = "C3H4O2_8",
     molecule = 
 """
@@ -1394,7 +2207,7 @@ H       1.54456600    0.97596400   -0.92869500
 )
 
 entry(
-    index = 23,
+    index = 36,
     label = "CHO3_0",
     molecule = 
 """
@@ -1436,7 +2249,7 @@ H       1.32733000    0.54652000    0.40648200
 )
 
 entry(
-    index = 24,
+    index = 37,
     label = "CH2O3_1",
     molecule = 
 """
@@ -1480,7 +2293,7 @@ H       1.56053100   -0.37959700   -0.24069100
 )
 
 entry(
-    index = 25,
+    index = 38,
     label = "C2H2NO3_2",
     molecule = 
 """
@@ -1530,7 +2343,7 @@ H       1.38229100    0.79870000    2.07864300
 )
 
 entry(
-    index = 26,
+    index = 39,
     label = "C4H8N2O2_3",
     molecule = 
 """
@@ -1603,7 +2416,7 @@ H       1.72033200   -0.13789500   -1.98883000
 )
 
 entry(
-    index = 27,
+    index = 40,
     label = "C3H7NO3_4",
     molecule = 
 """
@@ -1681,7 +2494,7 @@ H      -2.34807000    0.91804700    2.95477400
 )
 
 entry(
-    index = 28,
+    index = 41,
     label = "C4H7N2O2_5",
     molecule = 
 """
@@ -1747,7 +2560,7 @@ H       2.70794200   -0.37780200   -0.31337000
 )
 
 entry(
-    index = 29,
+    index = 42,
     label = "C4H7N2O2_6",
     molecule = 
 """
@@ -1813,7 +2626,7 @@ H       2.36175400   -0.56182800    1.18026500
 )
 
 entry(
-    index = 30,
+    index = 43,
     label = "C3H6NO3_7",
     molecule = 
 """
@@ -1897,7 +2710,7 @@ H      -2.82993100   -0.04631500   -2.06727300
 )
 
 entry(
-    index = 31,
+    index = 44,
     label = "C4H8N2O3_9",
     molecule = 
 """
@@ -1975,7 +2788,7 @@ H       2.14748500    1.85528600    5.72541500
 )
 
 entry(
-    index = 32,
+    index = 45,
     label = "C4H7N2O3_10",
     molecule = 
 """
@@ -2062,7 +2875,7 @@ H      -5.51604100    0.60029200    1.23435500
 )
 
 entry(
-    index = 33,
+    index = 46,
     label = "C4H7N2O3_12",
     molecule = 
 """
@@ -2151,7 +2964,7 @@ H      -1.48555700    1.74380500    1.02474300
 )
 
 entry(
-    index = 34,
+    index = 47,
     label = "C4H6N2O3_13",
     molecule = 
 """
@@ -2227,7 +3040,7 @@ H      -3.32882800   -2.68273800    2.11047200
 )
 
 entry(
-    index = 35,
+    index = 48,
     label = "C4H6N2O3_14",
     molecule = 
 """
@@ -2292,7 +3105,7 @@ H      -0.80593700    0.47858900   -1.59579000
 )
 
 entry(
-    index = 36,
+    index = 49,
     label = "C4H5N2O3_16",
     molecule = 
 """
@@ -2356,7 +3169,7 @@ H       2.48961500   -1.83956300   -0.73700600
 )
 
 entry(
-    index = 37,
+    index = 50,
     label = "C4H4N_17",
     molecule = 
 """
@@ -2408,7 +3221,7 @@ H      -0.98868900   -1.80589000    0.34252700
 )
 
 entry(
-    index = 38,
+    index = 51,
     label = "C4H4NO2_18",
     molecule = 
 """
@@ -2465,7 +3278,7 @@ H       1.49413000   -1.85665800    2.67447100
 )
 
 entry(
-    index = 39,
+    index = 52,
     label = "C4H5NO2_19",
     molecule = 
 """
@@ -2527,7 +3340,7 @@ H       0.88787500    1.42030300   -0.53925300
 )
 
 entry(
-    index = 40,
+    index = 53,
     label = "C4H3N2O3_20",
     molecule = 
 """
@@ -2589,7 +3402,7 @@ H       2.13600300    0.94957700   -0.99028300
 )
 
 entry(
-    index = 41,
+    index = 54,
     label = "C3H5O3_0",
     molecule = 
 """
@@ -2657,7 +3470,7 @@ H      -2.49848800    0.17707500    1.31723800
 )
 
 entry(
-    index = 42,
+    index = 55,
     label = "C4H6N2O2_2",
     molecule = 
 """
@@ -2719,7 +3532,7 @@ H      -1.87356000    0.12658900    0.98045800
 )
 
 entry(
-    index = 43,
+    index = 56,
     label = "C4H5N2O2_3",
     molecule = 
 """
@@ -2782,7 +3595,7 @@ H      -0.83475100    2.08764200   -1.05533900
 )
 
 entry(
-    index = 44,
+    index = 57,
     label = "C3H5O2_4",
     molecule = 
 """
@@ -2840,7 +3653,7 @@ H       1.83672300    0.64870100    0.34981000
 )
 
 entry(
-    index = 45,
+    index = 58,
     label = "C4H6N2O3_5",
     molecule = 
 """
@@ -2905,7 +3718,7 @@ H       0.40433600   -0.97036500   -2.58307900
 )
 
 entry(
-    index = 46,
+    index = 59,
     label = "C3H2N2O2_6",
     molecule = 
 """
@@ -2957,7 +3770,7 @@ H      -1.77001200    1.46306400   -0.05125600
 )
 
 entry(
-    index = 47,
+    index = 60,
     label = "C4H5N2O3_7",
     molecule = 
 """
@@ -3020,7 +3833,7 @@ H      -1.18563800    1.73638100   -0.66976700
 )
 
 entry(
-    index = 48,
+    index = 61,
     label = "C4H5N2O3_8",
     molecule = 
 """
@@ -3100,7 +3913,7 @@ H       0.79429300   -2.13275500    1.45451400
 )
 
 entry(
-    index = 49,
+    index = 62,
     label = "C3H6NO3_10",
     molecule = 
 """
@@ -3179,7 +3992,7 @@ H      -2.73880000   -1.55607700   -1.16007900
 )
 
 entry(
-    index = 50,
+    index = 63,
     label = "C4H4N2O3_11",
     molecule = 
 """
@@ -3244,7 +4057,7 @@ H      -1.25315400   -1.59930700   -1.30652600
 )
 
 entry(
-    index = 51,
+    index = 64,
     label = "C4H3N2O3_12",
     molecule = 
 """
@@ -3303,7 +4116,7 @@ H      -2.11050400    0.24460900    0.15601900
 )
 
 entry(
-    index = 52,
+    index = 65,
     label = "C4H6NO2_14",
     molecule = 
 """
@@ -3369,7 +4182,7 @@ H       2.63269300    0.18433400   -1.45517200
 )
 
 entry(
-    index = 53,
+    index = 66,
     label = "C4H5NO3_15",
     molecule = 
 """
@@ -3436,7 +4249,7 @@ H      -0.67367700   -4.88413700   -1.53910600
 )
 
 entry(
-    index = 54,
+    index = 67,
     label = "C4H5NO3_16",
     molecule = 
 """
@@ -3507,7 +4320,7 @@ H      -2.03599400    1.75880700   -0.25788900
 )
 
 entry(
-    index = 55,
+    index = 68,
     label = "C4H5NO3_17",
     molecule = 
 """
@@ -3579,7 +4392,7 @@ H       3.89412200    3.19282000   -1.81986600
 )
 
 entry(
-    index = 56,
+    index = 69,
     label = "C4H4NO3_18",
     molecule = 
 """
@@ -3643,7 +4456,7 @@ H      -2.11607900    0.04249600    1.37697700
 )
 
 entry(
-    index = 57,
+    index = 70,
     label = "C4H3NO2_19",
     molecule = 
 """
@@ -3695,7 +4508,7 @@ H      -2.85475700   -2.78436100    1.73867700
 )
 
 entry(
-    index = 58,
+    index = 71,
     label = "C4H4NO3_20",
     molecule = 
 """
@@ -3766,7 +4579,7 @@ H      -1.26729000   -0.82278700   -2.91073200
 )
 
 entry(
-    index = 59,
+    index = 72,
     label = "C4H5NO2_21",
     molecule = 
 """
@@ -3828,7 +4641,7 @@ H       2.17183100    0.76006500   -1.17468600
 )
 
 entry(
-    index = 60,
+    index = 73,
     label = "C3H4NO2_22",
     molecule = 
 """
@@ -3882,7 +4695,7 @@ H       2.74017500   -0.51871000    0.15184700
 )
 
 entry(
-    index = 61,
+    index = 74,
     label = "C3H3NO3_23",
     molecule = 
 """
@@ -3935,7 +4748,7 @@ H      -2.66733500    0.88540500   -0.16390800
 )
 
 entry(
-    index = 62,
+    index = 75,
     label = "C3H3NO3_24",
     molecule = 
 """
@@ -3990,7 +4803,7 @@ H       0.06135500   -0.61400900   -3.75287100
 )
 
 entry(
-    index = 63,
+    index = 76,
     label = "C3H3NO3_26",
     molecule = 
 """
@@ -4049,7 +4862,7 @@ H      -2.84149600   -0.56076300    0.10086400
 )
 
 entry(
-    index = 64,
+    index = 77,
     label = "C3H2NO3_27",
     molecule = 
 """
@@ -4100,7 +4913,7 @@ H       0.18563500   -0.07707800   -1.69414100
 )
 
 entry(
-    index = 65,
+    index = 78,
     label = "C3H2NO3_28",
     molecule = 
 """
@@ -4155,7 +4968,7 @@ H       2.28338700   -1.64420800    0.66792900
 )
 
 entry(
-    index = 66,
+    index = 79,
     label = "C4H3N2O3_29",
     molecule = 
 """
@@ -4218,7 +5031,7 @@ H      -0.66549200   -1.13535200    3.15798000
 )
 
 entry(
-    index = 67,
+    index = 80,
     label = "C4H2N2O3_30",
     molecule = 
 """
@@ -4275,7 +5088,7 @@ H      -1.37197400    1.90558100   -2.69099800
 )
 
 entry(
-    index = 68,
+    index = 81,
     label = "C4H2N2O3_31",
     molecule = 
 """
@@ -4332,7 +5145,7 @@ H      -0.84658000   -1.41935700    2.87548800
 )
 
 entry(
-    index = 69,
+    index = 82,
     label = "C4HN2O3_32",
     molecule = 
 """
@@ -4387,7 +5200,7 @@ H      -3.17813400    1.28714600   -0.45375100
 )
 
 entry(
-    index = 70,
+    index = 83,
     label = "C3H3NO2_33",
     molecule = 
 """
@@ -4437,7 +5250,7 @@ H       2.53478000    0.60626500    0.29646700
 )
 
 entry(
-    index = 71,
+    index = 84,
     label = "C3H2NO2_35",
     molecule = 
 """
@@ -4485,7 +5298,7 @@ H      -1.15821000   -0.43734200    0.79620900
 )
 
 entry(
-    index = 72,
+    index = 85,
     label = "C4H3N2O3_36",
     molecule = 
 """
@@ -4547,7 +5360,7 @@ H      -3.24797500    0.77696600   -0.28252400
 )
 
 entry(
-    index = 73,
+    index = 86,
     label = "C4H3N2O2_37",
     molecule = 
 """
@@ -4605,7 +5418,7 @@ H       1.90980900    1.66651900    1.16415400
 )
 
 entry(
-    index = 74,
+    index = 87,
     label = "C4H4N2O3_38",
     molecule = 
 """
@@ -4671,7 +5484,7 @@ H       0.78038900   -0.75941000   -2.59420600
 )
 
 entry(
-    index = 75,
+    index = 88,
     label = "C4H3N2O3_39",
     molecule = 
 """
@@ -4731,7 +5544,7 @@ H      -1.11114100    1.52067700    0.66998400
 )
 
 entry(
-    index = 76,
+    index = 89,
     label = "C4H4NO2_40",
     molecule = 
 """
@@ -4791,7 +5604,7 @@ H      -0.20765800   -0.56872600    1.45873200
 )
 
 entry(
-    index = 77,
+    index = 90,
     label = "C4H3NO2_41",
     molecule = 
 """
@@ -4845,7 +5658,7 @@ H       1.45227200   -2.63632100    0.14660100
 )
 
 entry(
-    index = 78,
+    index = 91,
     label = "C4H2NO2_42",
     molecule = 
 """
@@ -4896,7 +5709,7 @@ H       1.03955100   -0.99880900    1.04391300
 )
 
 entry(
-    index = 79,
+    index = 92,
     label = "C2H2NO2_44",
     molecule = 
 """
@@ -4942,7 +5755,7 @@ H      -0.88728100   -1.00783800   -0.40285300
 )
 
 entry(
-    index = 80,
+    index = 93,
     label = "C3H3NO3_46",
     molecule = 
 """
@@ -4997,7 +5810,7 @@ H      -2.50314800   -1.00295600    1.98187400
 )
 
 entry(
-    index = 81,
+    index = 94,
     label = "C4H2NO_47",
     molecule = 
 """
@@ -5049,7 +5862,7 @@ H       1.75661200   -1.04203200   -0.32277400
 )
 
 entry(
-    index = 82,
+    index = 95,
     label = "C4H4NO2_48",
     molecule = 
 """
@@ -5112,7 +5925,7 @@ H       1.73411400   -1.28674500    0.58921500
 )
 
 entry(
-    index = 83,
+    index = 96,
     label = "C4H3NO2_49",
     molecule = 
 """
@@ -5166,7 +5979,7 @@ H      -1.32943400   -0.32643500   -1.72503600
 )
 
 entry(
-    index = 84,
+    index = 97,
     label = "C3H7NO3_50",
     molecule = 
 """
@@ -5229,7 +6042,7 @@ H       0.63132000    0.45986200   -1.11810200
 )
 
 entry(
-    index = 85,
+    index = 98,
     label = "C3H2N2O2_51",
     molecule = 
 """
@@ -5278,7 +6091,7 @@ H       1.83955900   -1.31014400    0.34118900
 )
 
 entry(
-    index = 86,
+    index = 99,
     label = "C4H2NO3_52",
     molecule = 
 """
@@ -5333,7 +6146,7 @@ H      -2.45080700   -0.58581600   -0.06118400
 )
 
 entry(
-    index = 87,
+    index = 100,
     label = "C4H3NO3_53",
     molecule = 
 """
@@ -5391,7 +6204,7 @@ H       2.73475700    0.84118000   -0.22880900
 )
 
 entry(
-    index = 88,
+    index = 101,
     label = "C4H3N2O3_54",
     molecule = 
 """
@@ -5460,7 +6273,7 @@ H      -1.50160800    1.57990600    0.05941500
 )
 
 entry(
-    index = 89,
+    index = 102,
     label = "H2NCHO_59",
     molecule = 
 """
@@ -5505,7 +6318,7 @@ H       0.38663800   -1.40118300    0.03512000
 )
 
 entry(
-    index = 90,
+    index = 103,
     label = "C4H7N2O3_38",
     molecule = 
 """
@@ -5577,7 +6390,7 @@ H       1.82302500   -1.73856900    0.24660500
 )
 
 entry(
-    index = 91,
+    index = 104,
     label = "H2NCO_60",
     molecule = 
 """
@@ -5621,7 +6434,7 @@ H      -0.92145000    0.79390700    0.08734400
 )
 
 entry(
-    index = 92,
+    index = 105,
     label = "C4H3N2O2_28",
     molecule = 
 """
@@ -5679,7 +6492,7 @@ H       2.80350100    0.63166900    0.15141500
 )
 
 entry(
-    index = 93,
+    index = 106,
     label = "C2N2O2_61",
     molecule = 
 """
@@ -5722,7 +6535,7 @@ C      -1.61094700    0.07746400   -0.48147800
 )
 
 entry(
-    index = 94,
+    index = 107,
     label = "C4H7N2O3_39",
     molecule = 
 """
@@ -5791,7 +6604,7 @@ H       0.81299900    2.99199700   -1.12626500
 )
 
 entry(
-    index = 95,
+    index = 108,
     label = "C4H7N2O2_62",
     molecule = 
 """
@@ -5858,7 +6671,7 @@ H      -1.03515400    2.82175800   -0.13011700
 )
 
 entry(
-    index = 96,
+    index = 109,
     label = "C4H2N2O3_7",
     molecule = 
 """
@@ -5913,7 +6726,7 @@ H      -2.25427800    1.68025700    0.69914800
 )
 
 entry(
-    index = 97,
+    index = 110,
     label = "C4H8N2O2_63",
     molecule = 
 """
@@ -5984,7 +6797,7 @@ H       0.05238600    1.11723000   -1.27002800
 )
 
 entry(
-    index = 98,
+    index = 111,
     label = "C4H6N2O2_40",
     molecule = 
 """
@@ -6043,7 +6856,7 @@ H      -2.47332600   -1.19373300   -0.81020300
 )
 
 entry(
-    index = 99,
+    index = 112,
     label = "C4H8N2O3_64",
     molecule = 
 """
@@ -6135,7 +6948,7 @@ H       0.21409200    1.89794900   -1.46189500
 )
 
 entry(
-    index = 100,
+    index = 113,
     label = "C4H2N2O2_29",
     molecule = 
 """
@@ -6189,7 +7002,7 @@ H      -2.68520500    0.71873400   -0.13714000
 )
 
 entry(
-    index = 101,
+    index = 114,
     label = "C4H7N2O2_65",
     molecule = 
 """
@@ -6260,7 +7073,7 @@ H       2.68407200   -0.87342500   -0.66615200
 )
 
 entry(
-    index = 102,
+    index = 115,
     label = "C4H5N2O2_41",
     molecule = 
 """
@@ -6318,7 +7131,7 @@ H       2.37328600   -1.48973800   -0.34387300
 )
 
 entry(
-    index = 103,
+    index = 116,
     label = "C4H3NO_66",
     molecule = 
 """
@@ -6367,7 +7180,7 @@ H      -1.56709900   -0.71624600   -0.64809700
 )
 
 entry(
-    index = 104,
+    index = 117,
     label = "C3H5O3_0b",
     molecule = 
 """
@@ -6437,7 +7250,7 @@ H      -0.64035500    2.89224100   -5.12132700
 )
 
 entry(
-    index = 105,
+    index = 118,
     label = "C4H8N2O2_67",
     molecule = 
 """
@@ -6504,7 +7317,7 @@ H       1.85082300    1.25846900   -0.69656100
 )
 
 entry(
-    index = 106,
+    index = 119,
     label = "C4H7N2O3_42",
     molecule = 
 """
@@ -6572,7 +7385,7 @@ H       2.38997600   -1.22370300   -0.08552800
 )
 
 entry(
-    index = 107,
+    index = 120,
     label = "C4H2NO2_68",
     molecule = 
 """
@@ -6624,7 +7437,7 @@ H      -1.59649500    1.26768900    0.90828300
 )
 
 entry(
-    index = 108,
+    index = 121,
     label = "C4HN2O2_30",
     molecule = 
 """
@@ -6674,7 +7487,7 @@ H       0.08115700    0.66816600   -1.26854800
 )
 
 entry(
-    index = 109,
+    index = 122,
     label = "C4HNO2_69",
     molecule = 
 """
@@ -6721,7 +7534,7 @@ H      -1.70668500   -0.76886200    0.62443400
 )
 
 entry(
-    index = 110,
+    index = 123,
     label = "C4H8N2O3_43",
     molecule = 
 """
@@ -6791,7 +7604,7 @@ H       3.70832600   -0.96284300   -1.03046100
 )
 
 entry(
-    index = 111,
+    index = 124,
     label = "C4NO2_70",
     molecule = 
 """
@@ -6837,7 +7650,7 @@ C       1.23718100   -0.06684500    0.05672100
 )
 
 entry(
-    index = 112,
+    index = 125,
     label = "C3NO3_8",
     molecule = 
 """
@@ -6883,7 +7696,7 @@ C       1.49060800   -0.28581900   -0.15916600
 )
 
 entry(
-    index = 113,
+    index = 126,
     label = "C4H3NO2_71",
     molecule = 
 """
@@ -6935,7 +7748,7 @@ H       2.50237200    0.31571900   -1.41975000
 )
 
 entry(
-    index = 114,
+    index = 127,
     label = "C4H2N2O3_46",
     molecule = 
 """
@@ -6990,7 +7803,7 @@ H      -3.79913500    0.31943800    0.21661800
 )
 
 entry(
-    index = 115,
+    index = 128,
     label = "C4H2NO2_73",
     molecule = 
 """
@@ -7041,7 +7854,7 @@ H      -0.76636100    2.19561300   -0.24543300
 )
 
 entry(
-    index = 116,
+    index = 129,
     label = "C4HN2O2_31",
     molecule = 
 """
@@ -7092,7 +7905,7 @@ H      -1.40223800   -2.20427100    0.45179400
 )
 
 entry(
-    index = 117,
+    index = 130,
     label = "C4HN2O3_74",
     molecule = 
 """
@@ -7145,7 +7958,7 @@ H      -2.09254600   -1.16776900    0.37637200
 )
 
 entry(
-    index = 118,
+    index = 131,
     label = "C4H2N2O3_48",
     molecule = 
 """
@@ -7204,7 +8017,7 @@ H       0.24293900   -1.72596300    1.81563200
 )
 
 entry(
-    index = 119,
+    index = 132,
     label = "C4HN2O3_49",
     molecule = 
 """
@@ -7257,7 +8070,7 @@ H       1.87985800   -0.80179000   -1.33024800
 )
 
 entry(
-    index = 120,
+    index = 133,
     label = "C4H2N2O2_33",
     molecule = 
 """
@@ -7309,7 +8122,7 @@ H       3.19610500    0.40557900    0.67782600
 )
 
 entry(
-    index = 121,
+    index = 134,
     label = "C4N2O_50",
     molecule = 
 """
@@ -7351,7 +8164,7 @@ C      -0.75322100   -1.20750900    0.03313600
 )
 
 entry(
-    index = 122,
+    index = 135,
     label = "C3HNO3_9",
     molecule = 
 """
@@ -7399,7 +8212,7 @@ H      -2.29456600   -0.88575000   -0.45241100
 )
 
 entry(
-    index = 123,
+    index = 136,
     label = "C4H2N2O2_51",
     molecule = 
 """
@@ -7451,7 +8264,7 @@ H       1.62265100    0.49483100    1.47951200
 )
 
 entry(
-    index = 124,
+    index = 137,
     label = "C3H2NO3_2",
     molecule = 
 """
@@ -7504,7 +8317,7 @@ H      -0.79881700   -0.48958700    1.58191900
 )
 
 entry(
-    index = 125,
+    index = 138,
     label = "C4H2N2O3_52",
     molecule = 
 """
@@ -7559,7 +8372,7 @@ H       0.93211500    2.49368100   -2.02785900
 )
 
 entry(
-    index = 126,
+    index = 139,
     label = "C4HN2O3_11",
     molecule = 
 """
@@ -7615,7 +8428,7 @@ H      -2.40013800   -1.38413500    0.12545100
 )
 
 entry(
-    index = 127,
+    index = 140,
     label = "C4H2N2O3_56",
     molecule = 
 """
@@ -7670,7 +8483,7 @@ H      -2.88217200   -1.07980700    0.48669500
 )
 
 entry(
-    index = 128,
+    index = 141,
     label = "C3H2NO3_3",
     molecule = 
 """
@@ -7729,7 +8542,7 @@ H      -1.17383800   -3.40437700    1.09280700
 )
 
 entry(
-    index = 129,
+    index = 142,
     label = "C4HN2O3_57",
     molecule = 
 """
@@ -7784,7 +8597,7 @@ H      -0.89759500   -0.94427600    2.84277100
 )
 
 entry(
-    index = 130,
+    index = 143,
     label = "C3H2N2O2_13",
     molecule = 
 """
@@ -7834,7 +8647,7 @@ H      -2.83648600   -3.21612800    0.80308300
 )
 
 entry(
-    index = 131,
+    index = 144,
     label = "C3H2N2O3_14",
     molecule = 
 """
@@ -7887,7 +8700,7 @@ H       2.77784200   -1.19953300    0.21797000
 )
 
 entry(
-    index = 132,
+    index = 145,
     label = "C4H6N2O3_5b",
     molecule = 
 """
@@ -7952,7 +8765,7 @@ H      -1.40502100   -1.21958700   -1.71527500
 )
 
 entry(
-    index = 133,
+    index = 146,
     label = "C4H6NO3_15",
     molecule = 
 """
@@ -8023,7 +8836,7 @@ H       2.54304900    0.11230900   -0.84464700
 )
 
 entry(
-    index = 134,
+    index = 147,
     label = "C3H3N2O3_17",
     molecule = 
 """
@@ -8080,7 +8893,7 @@ H       2.96689900    1.52160600    1.45044000
 )
 
 entry(
-    index = 135,
+    index = 148,
     label = "C4H5N2O3_6",
     molecule = 
 """
@@ -8144,7 +8957,7 @@ H      -1.68262700   -1.88374000    0.29061100
 )
 
 entry(
-    index = 136,
+    index = 149,
     label = "C4H6NO3_18",
     molecule = 
 """
@@ -8210,7 +9023,7 @@ H       0.64489900    2.65300000    0.74621300
 )
 
 entry(
-    index = 137,
+    index = 150,
     label = "C4H5NO3_19",
     molecule = 
 """
@@ -8274,7 +9087,7 @@ H      -1.66240900   -1.81819800    1.43169200
 )
 
 entry(
-    index = 138,
+    index = 151,
     label = "C3H8N2O3_10",
     molecule = 
 """
@@ -8342,7 +9155,7 @@ H       0.42359100   -1.20712600   -2.26512400
 )
 
 entry(
-    index = 139,
+    index = 152,
     label = "C4H5NO3_20",
     molecule = 
 """
@@ -8402,7 +9215,7 @@ H       2.18036300   -1.51819400    2.02089900
 )
 
 entry(
-    index = 140,
+    index = 153,
     label = "C4H3NO2_21",
     molecule = 
 """
@@ -8454,7 +9267,7 @@ H      -2.33600800   -0.36001200   -0.58056200
 )
 
 entry(
-    index = 141,
+    index = 154,
     label = "C3H4N2O3_11",
     molecule = 
 """
@@ -8517,7 +9330,7 @@ H      -1.75756400   -3.01257000    2.42583100
 )
 
 entry(
-    index = 142,
+    index = 155,
     label = "C4H4NO3_22",
     molecule = 
 """
@@ -8576,7 +9389,7 @@ H       0.37446800    0.36582300   -1.53755400
 )
 
 entry(
-    index = 143,
+    index = 156,
     label = "C4H5NO2_23",
     molecule = 
 """
@@ -8637,7 +9450,7 @@ H      -2.70845300    1.01236400    1.99929200
 )
 
 entry(
-    index = 144,
+    index = 157,
     label = "C3H4N2O3_12",
     molecule = 
 """
@@ -8707,7 +9520,7 @@ H       1.66939000    1.12936500    1.27695800
 )
 
 entry(
-    index = 145,
+    index = 158,
     label = "C4H4NO2_24",
     molecule = 
 """
@@ -8763,7 +9576,7 @@ H      -0.72168400    1.64825800   -0.15423300
 )
 
 entry(
-    index = 146,
+    index = 159,
     label = "C4H4NO2_25",
     molecule = 
 """
@@ -8819,7 +9632,7 @@ H       0.06302700   -1.97464500    0.24470700
 )
 
 entry(
-    index = 147,
+    index = 160,
     label = "C3H3N2O3_13",
     molecule = 
 """
@@ -8876,7 +9689,7 @@ H      -0.19605200   -0.93150400   -1.80811400
 )
 
 entry(
-    index = 148,
+    index = 161,
     label = "C3HN2O3_26",
     molecule = 
 """
@@ -8931,7 +9744,7 @@ H      -0.52449300    2.90059400    0.66998900
 )
 
 entry(
-    index = 149,
+    index = 162,
     label = "C3H2N2O3_27",
     molecule = 
 """
@@ -8984,7 +9797,7 @@ H      -1.55386500    1.35681300   -0.10582100
 )
 
 entry(
-    index = 150,
+    index = 163,
     label = "C3H4N2O3_14",
     molecule = 
 """
@@ -9055,7 +9868,7 @@ H       7.66103700    3.07930500   -5.58689400
 )
 
 entry(
-    index = 151,
+    index = 164,
     label = "C3H3N2O3_15",
     molecule = 
 """
@@ -9112,7 +9925,7 @@ H       2.75447300    2.04520800    0.29750300
 )
 
 entry(
-    index = 152,
+    index = 165,
     label = "C3H3N2O3_16",
     molecule = 
 """
@@ -9173,7 +9986,7 @@ H       1.70799000    0.60748600    4.47858000
 )
 
 entry(
-    index = 153,
+    index = 166,
     label = "C3H3N2O3_18",
     molecule = 
 """
@@ -9235,7 +10048,7 @@ H      -9.45801400   -1.22578500   -2.09736100
 )
 
 entry(
-    index = 154,
+    index = 167,
     label = "C3H2NO3_19",
     molecule = 
 """
@@ -9295,7 +10108,7 @@ H      -1.84898900   -0.14876800    2.20784800
 )
 
 entry(
-    index = 155,
+    index = 168,
     label = "C4H3N2O3_20b",
     molecule = 
 """
@@ -9363,7 +10176,7 @@ H      -1.41090500    0.57084000   -1.98062500
 )
 
 entry(
-    index = 156,
+    index = 169,
     label = "C4H3N2O3_21",
     molecule = 
 """
@@ -9439,7 +10252,7 @@ H      -2.00816300   -3.26226300   -0.76422900
 )
 
 entry(
-    index = 157,
+    index = 170,
     label = "C4H2N2O3_22",
     molecule = 
 """
@@ -9499,7 +10312,7 @@ H      -2.47260800   -1.19386300    0.17704600
 )
 
 entry(
-    index = 158,
+    index = 171,
     label = "C4H2N2O3_23",
     molecule = 
 """
@@ -9557,7 +10370,7 @@ H       1.20675500    1.73975900    1.66325100
 )
 
 entry(
-    index = 159,
+    index = 172,
     label = "C4HN2O3_24",
     molecule = 
 """
@@ -9620,7 +10433,7 @@ H       0.83099300    1.95993600   -1.08515800
 )
 
 entry(
-    index = 160,
+    index = 173,
     label = "C4H2N2O2_25",
     molecule = 
 """
@@ -9676,7 +10489,7 @@ H       0.64108000   -2.22869700    0.74737300
 )
 
 entry(
-    index = 161,
+    index = 174,
     label = "C3HN2O2_26",
     molecule = 
 """
@@ -9725,7 +10538,7 @@ H      -1.80006700    0.62291200    0.51019500
 )
 
 entry(
-    index = 162,
+    index = 175,
     label = "C2NO2_27",
     molecule = 
 """
@@ -9764,7 +10577,7 @@ C       0.90851600   -0.03573000   -0.05608900
 )
 
 entry(
-    index = 163,
+    index = 176,
     label = "C3HN2O3_28",
     molecule = 
 """
@@ -9819,7 +10632,7 @@ H      -2.97668100    0.29781600    0.35080200
 )
 
 entry(
-    index = 164,
+    index = 177,
     label = "C3H6N2O3_31",
     molecule = 
 """
