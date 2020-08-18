@@ -43429,3 +43429,46 @@ An estimated temperature-independent rate constant for the reaction between C6H5
 """,
 )
 
+entry(
+    index = 3104,
+    label = "OH + C4H10b <=> H2O + C4H9-2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(2.80023e+07,'cm^3/(mol*s)'), n=1.6, Ea=(1970.25,'J/mol'), T0=(1,'K'), Tmin=(235,'K'), Tmax=(1407,'K')),
+    rank = 7,
+    shortDesc = """Measured by shock tube experiments.""",
+    longDesc = 
+"""
+Cited from Badra, Jihad, Ehson F. Nasir, and Aamir Farooq. "Site-specific rate constant 
+measurements for primary and secondary h-and d-abstraction by oh radicals: Propane and n-butane." The Journal 
+of PhysicalChemistry A 118.26 (2014): 4652-4660.
+""",
+)
+
+entry(
+    index = 3105,
+    label = "OH + C5H12-3 <=> H2O + C5H11-2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(1.41e+10,'cm^3/(mol*s)'), n=0.94, Ea=(504.7,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From JetSurF2.0 NC5H12 + OH <=> SXC5H11 + H2O""",
+    longDesc = 
+"""
+From JetSurF2.0 NC5H12 + OH <=> SXC5H11 + H2O
+""",
+)
+
+entry(
+    index = 3106,
+    label = "OH + C5H12-4 <=> H2O + C5H11-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.86045e+06,'cm^3/(mol*s)'), n=1.811, Ea=(-511,'cal/mol'), T0=(1,'K')),
+    rank = 7,
+    shortDesc = """Measured by shock tube experiments.""",
+    longDesc = 
+"""
+Cited from Sivaramakrishnan, R., and J. V. Michael. "Rate constants for OH with 
+selected large alkanes: shock-tube measurements and an improved group scheme." The 
+Journal of Physical Chemistry A 113.17 (2009): 5047-5060.
+""",
+)
+
