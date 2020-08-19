@@ -246,6 +246,30 @@ Reversed from diffusion limit rate for HO2 + R = 1e+13 cm^3/(mol*s) after discus
 """,
 )
 
+entry(
+    index = 1010,
+    label = "imipramine_2_oo + CH3OH <=> imipramine_2_ooh + CH2OH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.35515e-07,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(113.076,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.27364, dn = +|- 0, dEa = +|- 0.623798 kJ/mol"""),
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
 # entry(
 #     index = 1010,
 #     label = "imipramine_4_oo <=> imipramine_4_ooh_5_rad",
