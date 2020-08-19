@@ -270,6 +270,31 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
+entry(
+    index = 1011,
+    label = "imipramine_5_oo + CH3OH <=> imipramine_5_ooh + CH2OH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.65724e-06,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(127.668,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.2162, dn = +|- 0, dEa = +|- 0.504781 kJ/mol"""),
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+
 # entry(
 #     index = 1010,
 #     label = "imipramine_4_oo <=> imipramine_4_ooh_5_rad",
