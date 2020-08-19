@@ -903,29 +903,29 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
-# entry(
-#     index=100010,
-#     label="imipramine_5 + OHCH2OO_r <=> imipramine_rad_5 + OHCH2OOH_p",
-#     degeneracy=2.0,
-#     kinetics=Arrhenius(A=(2.2408e+08, 'cm^3/(mol*s)'), n=0, Ea=(47.4742, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-#                        Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.00019, dn = +|- 0,
-#                          dEa = +|- 0.000483392 kJ/mol"""),
-#     rank=1,
-#     shortDesc=u"""k5+k6""",
-#     longDesc=
-#     u"""
-#     Data refitted from:
-#         MultiArrhenius(
-#             arrhenius = [
-#                 Arrhenius(A=(1.08411e+08,'cm^3/(mol*s)'), n=0, Ea=(48.3309,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-#                 Arrhenius(A=(1.22632e+08,'cm^3/(mol*s)'), n=0, Ea=(47.0195,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-#             ],
-#         ),
-#     optfreq: wb97xd/def2tzvp SMD water
-#     sp: dlpno-ccsd(T)/def2-tzvp/def2-tzvp/c + [E(SMD: water) apfd/6-311+g(2d,p) - E(gas) apfd/6-311+g(2d,p)]
-#     """,
-# )
-#
+entry(
+    index = 1001005,
+    label = "imipramine_2_oo_r + CH3OH_r2 <=> imipramine_2_ooh_p + CH2OH_p",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.35515e-07,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(113.076,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.27364, dn = +|- 0, dEa = +|- 0.623798 kJ/mol"""),
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
 # entry(
 #     index=100011,
 #     label="imipramine_11 + OHCH2OO_r <=> imipramine_rad_11 + OHCH2OOH_p",
