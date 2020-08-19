@@ -8970,6 +8970,57 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # API db training reactions go here
+entry(
+    index = 1001011,
+    label = "imipramine_4_oo_r2 <=> imipramine_4_ooh_2_rad_p",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.90675e+08,'s^-1'), 
+                         n=0, 
+                         Ea=(57.3664,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.07057, dn = +|- 0, dEa = +|- 0.175867 kJ/mol"""),
+    rank = 1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index = 2001011,
+    label = "imipramine_4_ooh_2_rad <=> imipramine_4_oo_p",
+    degeneracy = 1.0,
+    kinetics=Arrhenius(A=(5.64481e+08,'s^-1'), 
+                       n=0, 
+                       Ea=(26.68,'kJ/mol'), 
+                       T0=(1,'K'), 
+                       Tmin=(275,'K'), 
+                       Tmax=(350,'K'), 
+                       comment="""Fitted to 76 data points; dA = *|/ 1.05605, dn = +|- 0, dEa = +|- 0.140658 kJ/mol"""),
+    rank = 1,
+    shortDesc = u"""MS-TST rate based on fragment, reverse 1001011""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+
 # entry(
 #     index = 1001010,
 #     label = "imipramine_4_oo_r5 <=> imipramine_4_ooh_5_rad_p",
@@ -9075,62 +9126,6 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 # dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
 # solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
 # ts1047 rev
-# """,
-# )
-
-# entry(
-#     index = 1001011,
-#     label = "imipramine_4_oo_r2 <=> imipramine_4_ooh_2_rad_p",
-#     degeneracy = 2.0,
-#     kinetics=Arrhenius(A=(1.46807e+10,'s^-1'), n=0, Ea=(52.6413,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-#     rank = 1,
-#     longDesc =
-# u"""
-# dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp
-# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-
-# ts2008 fragment
-
-# TS external symmetry: 1, TS optical isomers: 2
-
-# Optimized TS geometry:
-# C      -2.44221400   -0.43974200   -0.65695200
-# N      -1.41331300   -0.48824500    0.36312000
-# C      -1.76930400    0.28557300    1.53666900
-# C      -0.09828500   -0.29978300   -0.15925400
-# O       0.06265300    1.05510800   -0.60436200
-# O       0.84600400    1.07967000   -1.78053900
-# C       1.01644900   -0.66556200    0.84257600
-# C       2.40156800   -0.60241800    0.29338600
-# H       2.76877200   -1.41154200   -0.34488100
-# N       2.95369600    0.66075500    0.01948300
-# H      -2.59250700    0.57544000   -1.07360600
-# H      -3.39806400   -0.78709400   -0.23539100
-# H      -2.17678600   -1.10969200   -1.48817700
-# H      -2.74334200   -0.06125700    1.91411300
-# H      -1.04085300    0.13604200    2.34494100
-# H      -1.84953600    1.37284400    1.33728400
-# H       0.00725100   -0.93128700   -1.05665900
-# H       1.74698800    1.12447700   -1.39769000
-# H       0.94361100    0.01459200    1.70964200
-# H       0.81128400   -1.68232700    1.21067700
-# H       3.95170200    0.64862700   -0.16986200
-# H       2.73640500    1.36338800    0.72346800
-# """,
-# )
-
-# entry(
-#     index = 2001011,
-#     label = "imipramine_4_ooh_2_rad <=> imipramine_4_oo_p",
-#     degeneracy = 1.0,
-#     kinetics=Arrhenius(A=(3.46239e+10, 's^-1'), n=0, Ea=(22.2652, 'kJ/mol'),
-#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-#     rank = 1,
-#     longDesc =
-# u"""
-# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-# ts2008 rev
 # """,
 # )
 
