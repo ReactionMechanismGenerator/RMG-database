@@ -298,6 +298,7 @@ entry(
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
                          comment="""Fitted to 76 data points; dA = *|/ 1.27364, dn = +|- 0, dEa = +|- 0.623798 kJ/mol"""),
+    rank=1,
     shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
 """
@@ -322,6 +323,7 @@ entry(
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
                          comment="""Fitted to 76 data points; dA = *|/ 1.22106, dn = +|- 0, dEa = +|- 0.515067 kJ/mol"""),
+    rank=1,
     shortDesc = u"""MS-TST rate based on fragment, reverse 1001005""",
     longDesc =
 """
@@ -346,6 +348,7 @@ entry(
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
                          comment="""Fitted to 76 data points; dA = *|/ 1.2162, dn = +|- 0, dEa = +|- 0.504781 kJ/mol"""),
+    rank=1,
     shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
 """
@@ -370,6 +373,7 @@ entry(
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
                          comment="""Fitted to 76 data points; dA = *|/ 1.18077, dn = +|- 0, dEa = +|- 0.428541 kJ/mol"""),
+    rank=1,
     shortDesc = u"""MS-TST rate based on fragment, reverse 1001006""",
     longDesc =
 """
@@ -394,6 +398,7 @@ entry(
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
                          comment="""Fitted to 76 data points; dA = *|/ 1.27528, dn = +|- 0, dEa = +|- 0.627125 kJ/mol"""),
+    rank=1,
     shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
 """
@@ -418,6 +423,7 @@ entry(
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
                          comment="""Fitted to 76 data points; dA = *|/ 1.27095, dn = +|- 0, dEa = +|- 0.618349 kJ/mol"""),
+    rank=1,
     shortDesc = u"""MS-TST rate based on fragment, reverse 1001007""",
     longDesc =
 """
