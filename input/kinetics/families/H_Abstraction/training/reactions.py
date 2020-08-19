@@ -335,6 +335,54 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
+entry(
+    index = 1001006,
+    label = "imipramine_5_oo_r + CH3OH_r2 <=> imipramine_5_ooh_p + CH2OH_p",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.65724e-06,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(127.668,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.2162, dn = +|- 0, dEa = +|- 0.504781 kJ/mol"""),
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index = 2001006,
+    label = "imipramine_5_ooh_r + CH2OH_r3 <=> imipramine_5_oo_p + CH3OH_p",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.05857e-06,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(77.5222,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.18077, dn = +|- 0, dEa = +|- 0.428541 kJ/mol"""),
+    shortDesc = u"""MS-TST rate based on fragment, reverse 1001006""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
 
 
 # entry(
@@ -1079,73 +1127,7 @@ dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp cor
 # """,
 # )
 # 
-# entry(
-#     index = 100119,
-#     label = "imipramine_5_oo + CH3OH_r2  <=> imipramine_5_ooh + CH2OH",
-#     degeneracy = 3.0,
-#     rank=1,
-#     kinetics = Arrhenius(A=(3.42355e+06,'cm^3/(mol*s)'), n=0, Ea=(59.0094,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
-#                          Tmax=(350,'K')),
-#     longDesc =
-# """
-# TS1059
-# dlpno-ccsd(T)/def2tzvp//wb97xd/def2svp with APFD SMD water for solvation sp correction 
-# 
-# Optimized TS geometry:
-# C       2.62196200   -3.27034900   -0.04309900
-# N       2.81787400   -2.34152300    1.04863700
-# C       1.72956100   -2.14968400    1.99331700
-# C       0.69847400   -1.05473700    1.68749000
-# C      -0.02209900   -1.21316300    0.35056400
-# N      -1.12565000   -0.27364600    0.20919000
-# C      -0.85051900    1.11937500    0.16391500
-# C       0.39385500    1.54711700   -0.33435500
-# C       0.74177200    2.89076600   -0.38708000
-# C      -0.16647200    3.85546900    0.04116900
-# C      -1.40415800    3.44298100    0.51832900
-# C      -1.77517200    2.09370500    0.60374700
-# C      -3.15936200    1.82329400    1.16977600
-# C      -3.54409900    0.37109900    1.44841600
-# C      -3.54609300   -0.46224700    0.20018400
-# C      -4.71719900   -0.94140300   -0.38955100
-# C      -4.67379000   -1.72869300   -1.53923800
-# C      -3.44354000   -2.03760600   -2.11623300
-# C      -2.26763500   -1.54840800   -1.55203800
-# C      -2.31079700   -0.75713800   -0.39862800
-# C       3.70920800   -1.27666800    0.86664300
-# O       3.18260900   -0.13873400    0.14444500
-# O       3.04485200   -0.46056700   -1.19409100
-# H       1.94446000   -2.90657500   -0.83679900
-# H       3.59077700   -3.48862200   -0.51692600
-# H       2.21864700   -4.21786500    0.34721700
-# H       1.21563200   -3.11970300    2.09700200
-# H       2.17028300   -1.93201700    2.98283400
-# H      -0.05757900   -1.06712200    2.49032300
-# H       1.18322400   -0.06799300    1.72803700
-# H       0.70413500   -1.14646400   -0.47963000
-# H      -0.45910700   -2.22223200    0.30301000
-# H       1.11117600    0.81517600   -0.70242900
-# H       1.72486300    3.16820700   -0.77430200
-# H       0.08451400    4.91753600    0.00398500
-# H      -2.12314900    4.19451300    0.85863300
-# H      -3.90398900    2.24788200    0.47403800
-# H      -3.25786000    2.40213800    2.10301000
-# H      -2.83391300   -0.06496300    2.16957600
-# H      -4.54078600    0.35218000    1.91400600
-# H      -5.67963100   -0.70912300    0.07493200
-# H      -5.59931100   -2.10415600   -1.98083600
-# H      -3.39760000   -2.65183500   -3.01834300
-# H      -1.30349600   -1.76968900   -2.01469400
-# H       3.97688800   -0.82622000    1.83666000
-# H       4.61429100   -1.61251900    0.33368000
-# C       4.66224100    1.34507300   -1.74177900
-# O       4.10232000    2.23942500   -0.88817200
-# H       3.86746700    0.30759800   -1.71694400
-# H       4.70149500    1.73621100   -2.76629000
-# H       5.61117200    0.88637000   -1.40506300
-# H       3.90051500    1.77260600   -0.06005300
-# """,
-# )
+
 
 # entry(
 #     index = 100120,
