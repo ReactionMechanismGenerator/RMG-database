@@ -8970,225 +8970,225 @@ frequencies and scaled zero point energies, with higher-level wavefunction theor
 
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # API db training reactions go here
-entry(
-    index = 1001010,
-    label = "imipramine_4_oo_r5 <=> imipramine_4_ooh_5_rad_p",
-    degeneracy = 6.0,
-    kinetics=Arrhenius(A=(5.55355e+10, 's^-1'), n=0, Ea=(50.4749, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1047
+# entry(
+#     index = 1001010,
+#     label = "imipramine_4_oo_r5 <=> imipramine_4_ooh_5_rad_p",
+#     degeneracy = 6.0,
+#     kinetics=Arrhenius(A=(5.55355e+10, 's^-1'), n=0, Ea=(50.4749, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# ts1047
 
-TS1 optimized at wb97xd/def2tzvp
-N      -2.82974200   -0.44078400    0.83542100
-C      -2.44010600    0.14791800   -0.44194400
-C      -1.12266900    0.91151100   -0.33422200
-C       0.00126500    0.05561700    0.20532000
-H      -0.86094800    1.29520800   -1.32229400
-H      -1.24189000    1.75938000    0.34335700
-N       1.26608000    0.74049100    0.39434500
-C       1.76059400    1.52104100   -0.72906700
-C       2.20078300   -0.11291200    1.00235500
-H       2.71308700    1.96765200   -0.44944900
-H       1.06709500    2.32883000   -0.95568400
-H       3.23271200    0.20270200    0.88256900
-H       1.91197200   -1.25471800    0.39072000
-H       1.93840800   -0.38002500    2.02609000
-H      -2.34850200   -1.31861100    0.98290000
-H      -3.81788800   -0.64953700    0.84243800
-H       1.90463800    0.91138700   -1.62695600
-H      -3.21332700    0.85938600   -0.73741600
-H      -0.27347400   -0.37512500    1.17200100
-O       0.22712400   -1.00465300   -0.71670900
-O       1.01910600   -1.97367000   -0.11425800
-H      -2.35839600   -0.59050300   -1.24739900
-""",
-)
+# TS1 optimized at wb97xd/def2tzvp
+# N      -2.82974200   -0.44078400    0.83542100
+# C      -2.44010600    0.14791800   -0.44194400
+# C      -1.12266900    0.91151100   -0.33422200
+# C       0.00126500    0.05561700    0.20532000
+# H      -0.86094800    1.29520800   -1.32229400
+# H      -1.24189000    1.75938000    0.34335700
+# N       1.26608000    0.74049100    0.39434500
+# C       1.76059400    1.52104100   -0.72906700
+# C       2.20078300   -0.11291200    1.00235500
+# H       2.71308700    1.96765200   -0.44944900
+# H       1.06709500    2.32883000   -0.95568400
+# H       3.23271200    0.20270200    0.88256900
+# H       1.91197200   -1.25471800    0.39072000
+# H       1.93840800   -0.38002500    2.02609000
+# H      -2.34850200   -1.31861100    0.98290000
+# H      -3.81788800   -0.64953700    0.84243800
+# H       1.90463800    0.91138700   -1.62695600
+# H      -3.21332700    0.85938600   -0.73741600
+# H      -0.27347400   -0.37512500    1.17200100
+# O       0.22712400   -1.00465300   -0.71670900
+# O       1.01910600   -1.97367000   -0.11425800
+# H      -2.35839600   -0.59050300   -1.24739900
+# """,
+# )
 
-entry(
-    index = 2001010,
-    label = "imipramine_4_ooh_5_rad <=> imipramine_4_oo_p",
-    degeneracy = 1.0,
-    kinetics=Arrhenius(A=(3.39354e+10, 's^-1'), n=0, Ea=(10.9994, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1047 rev
-""",
-)
+# entry(
+#     index = 2001010,
+#     label = "imipramine_4_ooh_5_rad <=> imipramine_4_oo_p",
+#     degeneracy = 1.0,
+#     kinetics=Arrhenius(A=(3.39354e+10, 's^-1'), n=0, Ea=(10.9994, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# ts1047 rev
+# """,
+# )
 
-entry(
-    index = 3001010,
-    label = "imipramine_tail_4_oo_r5 <=> imipramine_tail_4_ooh_5_rad_p",
-    degeneracy = 6.0,
-    kinetics=Arrhenius(A=(5.55355e+10, 's^-1'), n=0, Ea=(50.4749, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1047
+# entry(
+#     index = 3001010,
+#     label = "imipramine_tail_4_oo_r5 <=> imipramine_tail_4_ooh_5_rad_p",
+#     degeneracy = 6.0,
+#     kinetics=Arrhenius(A=(5.55355e+10, 's^-1'), n=0, Ea=(50.4749, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# ts1047
 
-TS1 optimized at wb97xd/def2tzvp
-N      -2.82974200   -0.44078400    0.83542100
-C      -2.44010600    0.14791800   -0.44194400
-C      -1.12266900    0.91151100   -0.33422200
-C       0.00126500    0.05561700    0.20532000
-H      -0.86094800    1.29520800   -1.32229400
-H      -1.24189000    1.75938000    0.34335700
-N       1.26608000    0.74049100    0.39434500
-C       1.76059400    1.52104100   -0.72906700
-C       2.20078300   -0.11291200    1.00235500
-H       2.71308700    1.96765200   -0.44944900
-H       1.06709500    2.32883000   -0.95568400
-H       3.23271200    0.20270200    0.88256900
-H       1.91197200   -1.25471800    0.39072000
-H       1.93840800   -0.38002500    2.02609000
-H      -2.34850200   -1.31861100    0.98290000
-H      -3.81788800   -0.64953700    0.84243800
-H       1.90463800    0.91138700   -1.62695600
-H      -3.21332700    0.85938600   -0.73741600
-H      -0.27347400   -0.37512500    1.17200100
-O       0.22712400   -1.00465300   -0.71670900
-O       1.01910600   -1.97367000   -0.11425800
-H      -2.35839600   -0.59050300   -1.24739900
-""",
-)
+# TS1 optimized at wb97xd/def2tzvp
+# N      -2.82974200   -0.44078400    0.83542100
+# C      -2.44010600    0.14791800   -0.44194400
+# C      -1.12266900    0.91151100   -0.33422200
+# C       0.00126500    0.05561700    0.20532000
+# H      -0.86094800    1.29520800   -1.32229400
+# H      -1.24189000    1.75938000    0.34335700
+# N       1.26608000    0.74049100    0.39434500
+# C       1.76059400    1.52104100   -0.72906700
+# C       2.20078300   -0.11291200    1.00235500
+# H       2.71308700    1.96765200   -0.44944900
+# H       1.06709500    2.32883000   -0.95568400
+# H       3.23271200    0.20270200    0.88256900
+# H       1.91197200   -1.25471800    0.39072000
+# H       1.93840800   -0.38002500    2.02609000
+# H      -2.34850200   -1.31861100    0.98290000
+# H      -3.81788800   -0.64953700    0.84243800
+# H       1.90463800    0.91138700   -1.62695600
+# H      -3.21332700    0.85938600   -0.73741600
+# H      -0.27347400   -0.37512500    1.17200100
+# O       0.22712400   -1.00465300   -0.71670900
+# O       1.01910600   -1.97367000   -0.11425800
+# H      -2.35839600   -0.59050300   -1.24739900
+# """,
+# )
 
-entry(
-    index = 4001010,
-    label = "imipramine_tail_4_ooh_5_rad <=> imipramine_tail_4_oo_p",
-    degeneracy = 1.0,
-    kinetics=Arrhenius(A=(3.39354e+10, 's^-1'), n=0, Ea=(10.9994, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1047 rev
-""",
-)
+# entry(
+#     index = 4001010,
+#     label = "imipramine_tail_4_ooh_5_rad <=> imipramine_tail_4_oo_p",
+#     degeneracy = 1.0,
+#     kinetics=Arrhenius(A=(3.39354e+10, 's^-1'), n=0, Ea=(10.9994, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# ts1047 rev
+# """,
+# )
 
-entry(
-    index = 1001011,
-    label = "imipramine_4_oo_r2 <=> imipramine_4_ooh_2_rad_p",
-    degeneracy = 2.0,
-    kinetics=Arrhenius(A=(1.46807e+10,'s^-1'), n=0, Ea=(52.6413,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# entry(
+#     index = 1001011,
+#     label = "imipramine_4_oo_r2 <=> imipramine_4_ooh_2_rad_p",
+#     degeneracy = 2.0,
+#     kinetics=Arrhenius(A=(1.46807e+10,'s^-1'), n=0, Ea=(52.6413,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
 
-ts2008 fragment
+# ts2008 fragment
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-C      -2.44221400   -0.43974200   -0.65695200
-N      -1.41331300   -0.48824500    0.36312000
-C      -1.76930400    0.28557300    1.53666900
-C      -0.09828500   -0.29978300   -0.15925400
-O       0.06265300    1.05510800   -0.60436200
-O       0.84600400    1.07967000   -1.78053900
-C       1.01644900   -0.66556200    0.84257600
-C       2.40156800   -0.60241800    0.29338600
-H       2.76877200   -1.41154200   -0.34488100
-N       2.95369600    0.66075500    0.01948300
-H      -2.59250700    0.57544000   -1.07360600
-H      -3.39806400   -0.78709400   -0.23539100
-H      -2.17678600   -1.10969200   -1.48817700
-H      -2.74334200   -0.06125700    1.91411300
-H      -1.04085300    0.13604200    2.34494100
-H      -1.84953600    1.37284400    1.33728400
-H       0.00725100   -0.93128700   -1.05665900
-H       1.74698800    1.12447700   -1.39769000
-H       0.94361100    0.01459200    1.70964200
-H       0.81128400   -1.68232700    1.21067700
-H       3.95170200    0.64862700   -0.16986200
-H       2.73640500    1.36338800    0.72346800
-""",
-)
+# Optimized TS geometry:
+# C      -2.44221400   -0.43974200   -0.65695200
+# N      -1.41331300   -0.48824500    0.36312000
+# C      -1.76930400    0.28557300    1.53666900
+# C      -0.09828500   -0.29978300   -0.15925400
+# O       0.06265300    1.05510800   -0.60436200
+# O       0.84600400    1.07967000   -1.78053900
+# C       1.01644900   -0.66556200    0.84257600
+# C       2.40156800   -0.60241800    0.29338600
+# H       2.76877200   -1.41154200   -0.34488100
+# N       2.95369600    0.66075500    0.01948300
+# H      -2.59250700    0.57544000   -1.07360600
+# H      -3.39806400   -0.78709400   -0.23539100
+# H      -2.17678600   -1.10969200   -1.48817700
+# H      -2.74334200   -0.06125700    1.91411300
+# H      -1.04085300    0.13604200    2.34494100
+# H      -1.84953600    1.37284400    1.33728400
+# H       0.00725100   -0.93128700   -1.05665900
+# H       1.74698800    1.12447700   -1.39769000
+# H       0.94361100    0.01459200    1.70964200
+# H       0.81128400   -1.68232700    1.21067700
+# H       3.95170200    0.64862700   -0.16986200
+# H       2.73640500    1.36338800    0.72346800
+# """,
+# )
 
-entry(
-    index = 2001011,
-    label = "imipramine_4_ooh_2_rad <=> imipramine_4_oo_p",
-    degeneracy = 1.0,
-    kinetics=Arrhenius(A=(3.46239e+10, 's^-1'), n=0, Ea=(22.2652, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts2008 rev
-""",
-)
+# entry(
+#     index = 2001011,
+#     label = "imipramine_4_ooh_2_rad <=> imipramine_4_oo_p",
+#     degeneracy = 1.0,
+#     kinetics=Arrhenius(A=(3.46239e+10, 's^-1'), n=0, Ea=(22.2652, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# ts2008 rev
+# """,
+# )
 
-entry(
-    index = 3001011,
-    label = "imipramine_tail_4_oo_r2 <=> imipramine_tail_4_ooh_2_rad_p",
-    degeneracy = 2.0,
-    kinetics=Arrhenius(A=(1.46807e+10,'s^-1'), n=0, Ea=(52.6413,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# entry(
+#     index = 3001011,
+#     label = "imipramine_tail_4_oo_r2 <=> imipramine_tail_4_ooh_2_rad_p",
+#     degeneracy = 2.0,
+#     kinetics=Arrhenius(A=(1.46807e+10,'s^-1'), n=0, Ea=(52.6413,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
 
-ts2008 fragment
+# ts2008 fragment
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-C      -2.44221400   -0.43974200   -0.65695200
-N      -1.41331300   -0.48824500    0.36312000
-C      -1.76930400    0.28557300    1.53666900
-C      -0.09828500   -0.29978300   -0.15925400
-O       0.06265300    1.05510800   -0.60436200
-O       0.84600400    1.07967000   -1.78053900
-C       1.01644900   -0.66556200    0.84257600
-C       2.40156800   -0.60241800    0.29338600
-H       2.76877200   -1.41154200   -0.34488100
-N       2.95369600    0.66075500    0.01948300
-H      -2.59250700    0.57544000   -1.07360600
-H      -3.39806400   -0.78709400   -0.23539100
-H      -2.17678600   -1.10969200   -1.48817700
-H      -2.74334200   -0.06125700    1.91411300
-H      -1.04085300    0.13604200    2.34494100
-H      -1.84953600    1.37284400    1.33728400
-H       0.00725100   -0.93128700   -1.05665900
-H       1.74698800    1.12447700   -1.39769000
-H       0.94361100    0.01459200    1.70964200
-H       0.81128400   -1.68232700    1.21067700
-H       3.95170200    0.64862700   -0.16986200
-H       2.73640500    1.36338800    0.72346800
-""",
-)
+# Optimized TS geometry:
+# C      -2.44221400   -0.43974200   -0.65695200
+# N      -1.41331300   -0.48824500    0.36312000
+# C      -1.76930400    0.28557300    1.53666900
+# C      -0.09828500   -0.29978300   -0.15925400
+# O       0.06265300    1.05510800   -0.60436200
+# O       0.84600400    1.07967000   -1.78053900
+# C       1.01644900   -0.66556200    0.84257600
+# C       2.40156800   -0.60241800    0.29338600
+# H       2.76877200   -1.41154200   -0.34488100
+# N       2.95369600    0.66075500    0.01948300
+# H      -2.59250700    0.57544000   -1.07360600
+# H      -3.39806400   -0.78709400   -0.23539100
+# H      -2.17678600   -1.10969200   -1.48817700
+# H      -2.74334200   -0.06125700    1.91411300
+# H      -1.04085300    0.13604200    2.34494100
+# H      -1.84953600    1.37284400    1.33728400
+# H       0.00725100   -0.93128700   -1.05665900
+# H       1.74698800    1.12447700   -1.39769000
+# H       0.94361100    0.01459200    1.70964200
+# H       0.81128400   -1.68232700    1.21067700
+# H       3.95170200    0.64862700   -0.16986200
+# H       2.73640500    1.36338800    0.72346800
+# """,
+# )
 
-entry(
-    index = 4001011,
-    label = "imipramine_tail_4_ooh_2_rad <=> imipramine_tail_4_oo_p",
-    degeneracy=1.0,
-    kinetics=Arrhenius(A=(3.46239e+10, 's^-1'), n=0, Ea=(22.2652, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    rank=1,
-    longDesc=
-    u"""
-    dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-    solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-    ts2008 rev
-    """,
-)
+# entry(
+#     index = 4001011,
+#     label = "imipramine_tail_4_ooh_2_rad <=> imipramine_tail_4_oo_p",
+#     degeneracy=1.0,
+#     kinetics=Arrhenius(A=(3.46239e+10, 's^-1'), n=0, Ea=(22.2652, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     rank=1,
+#     longDesc=
+#     u"""
+#     dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+#     solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+#     ts2008 rev
+#     """,
+# )
 
 entry(
     index = 1001012,
@@ -9465,162 +9465,162 @@ RMG would normally estimate this type of reaction in the reverse direction, whic
 """,
 )
 
-entry(
-    index = 1001014,
-    label = "imipramine_5_oo_r4 <=> imipramine_5_ooh_4_rad_p",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(6.3936e+09,'s^-1'), n=0, Ea=(45.6853,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-based on fragment ts1046
+# entry(
+#     index = 1001014,
+#     label = "imipramine_5_oo_r4 <=> imipramine_5_ooh_4_rad_p",
+#     degeneracy = 2.0,
+#     kinetics = Arrhenius(A=(6.3936e+09,'s^-1'), n=0, Ea=(45.6853,'kJ/mol'),
+#                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# based on fragment ts1046
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-N      -2.97691900   -0.20418800    0.88345800
-C      -2.41889300    0.07848800   -0.43419500
-C      -1.13904700    0.90418600   -0.34550800
-C      -0.06262900    0.19172500    0.42639800
-H      -0.80405200    1.11995200   -1.36258000
-H      -1.36620500    1.86065200    0.13890400
-N       1.21191400    0.77938800    0.51991100
-C       1.70309300    1.48088500   -0.65178800
-C       2.18384200   -0.10508700    1.14783600
-H       2.69094700    1.88619500   -0.43749300
-H       1.04769900    2.31770900   -0.88645900
-H       3.13450200   -0.00589700    0.61557800
-H       2.31700200    0.13099900    2.20650000
-H      -2.49255800   -0.97383000    1.32563400
-H      -3.94614200   -0.47819200    0.80797700
-H       1.77607800    0.82362500   -1.52795000
-H      -3.15655500    0.65772300   -0.99238600
-H      -0.38568200   -0.16170700    1.40789000
-H      -2.21549300   -0.82814400   -1.02073000
-H       0.28724500   -0.95878900   -0.09434400
-O       1.75460800   -1.44726100    1.16225100
-O       1.26626200   -1.79167800   -0.09015600
-""",
-)
+# Optimized TS geometry:
+# N      -2.97691900   -0.20418800    0.88345800
+# C      -2.41889300    0.07848800   -0.43419500
+# C      -1.13904700    0.90418600   -0.34550800
+# C      -0.06262900    0.19172500    0.42639800
+# H      -0.80405200    1.11995200   -1.36258000
+# H      -1.36620500    1.86065200    0.13890400
+# N       1.21191400    0.77938800    0.51991100
+# C       1.70309300    1.48088500   -0.65178800
+# C       2.18384200   -0.10508700    1.14783600
+# H       2.69094700    1.88619500   -0.43749300
+# H       1.04769900    2.31770900   -0.88645900
+# H       3.13450200   -0.00589700    0.61557800
+# H       2.31700200    0.13099900    2.20650000
+# H      -2.49255800   -0.97383000    1.32563400
+# H      -3.94614200   -0.47819200    0.80797700
+# H       1.77607800    0.82362500   -1.52795000
+# H      -3.15655500    0.65772300   -0.99238600
+# H      -0.38568200   -0.16170700    1.40789000
+# H      -2.21549300   -0.82814400   -1.02073000
+# H       0.28724500   -0.95878900   -0.09434400
+# O       1.75460800   -1.44726100    1.16225100
+# O       1.26626200   -1.79167800   -0.09015600
+# """,
+# )
 
-entry(
-    index = 2001014,
-    label = "imipramine_5_ooh_4_rad <=> imipramine_5_oo_p",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.54381e+10,'s^-1'), n=0, Ea=(36.7946,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1046 rev
-""",
-)
+# entry(
+#     index = 2001014,
+#     label = "imipramine_5_ooh_4_rad <=> imipramine_5_oo_p",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.54381e+10,'s^-1'), n=0, Ea=(36.7946,'kJ/mol'),
+#                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# ts1046 rev
+# """,
+# )
 
-entry(
-    index = 3001014,
-    label = "imipramine_tail_5_oo_r4 <=> imipramine_tail_5_ooh_4_rad_p",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(6.3936e+09,'s^-1'), n=0, Ea=(45.6853,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-based on fragment ts1046
+# entry(
+#     index = 3001014,
+#     label = "imipramine_tail_5_oo_r4 <=> imipramine_tail_5_ooh_4_rad_p",
+#     degeneracy = 2.0,
+#     kinetics = Arrhenius(A=(6.3936e+09,'s^-1'), n=0, Ea=(45.6853,'kJ/mol'),
+#                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# based on fragment ts1046
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-N      -2.97691900   -0.20418800    0.88345800
-C      -2.41889300    0.07848800   -0.43419500
-C      -1.13904700    0.90418600   -0.34550800
-C      -0.06262900    0.19172500    0.42639800
-H      -0.80405200    1.11995200   -1.36258000
-H      -1.36620500    1.86065200    0.13890400
-N       1.21191400    0.77938800    0.51991100
-C       1.70309300    1.48088500   -0.65178800
-C       2.18384200   -0.10508700    1.14783600
-H       2.69094700    1.88619500   -0.43749300
-H       1.04769900    2.31770900   -0.88645900
-H       3.13450200   -0.00589700    0.61557800
-H       2.31700200    0.13099900    2.20650000
-H      -2.49255800   -0.97383000    1.32563400
-H      -3.94614200   -0.47819200    0.80797700
-H       1.77607800    0.82362500   -1.52795000
-H      -3.15655500    0.65772300   -0.99238600
-H      -0.38568200   -0.16170700    1.40789000
-H      -2.21549300   -0.82814400   -1.02073000
-H       0.28724500   -0.95878900   -0.09434400
-O       1.75460800   -1.44726100    1.16225100
-O       1.26626200   -1.79167800   -0.09015600
-""",
-)
+# Optimized TS geometry:
+# N      -2.97691900   -0.20418800    0.88345800
+# C      -2.41889300    0.07848800   -0.43419500
+# C      -1.13904700    0.90418600   -0.34550800
+# C      -0.06262900    0.19172500    0.42639800
+# H      -0.80405200    1.11995200   -1.36258000
+# H      -1.36620500    1.86065200    0.13890400
+# N       1.21191400    0.77938800    0.51991100
+# C       1.70309300    1.48088500   -0.65178800
+# C       2.18384200   -0.10508700    1.14783600
+# H       2.69094700    1.88619500   -0.43749300
+# H       1.04769900    2.31770900   -0.88645900
+# H       3.13450200   -0.00589700    0.61557800
+# H       2.31700200    0.13099900    2.20650000
+# H      -2.49255800   -0.97383000    1.32563400
+# H      -3.94614200   -0.47819200    0.80797700
+# H       1.77607800    0.82362500   -1.52795000
+# H      -3.15655500    0.65772300   -0.99238600
+# H      -0.38568200   -0.16170700    1.40789000
+# H      -2.21549300   -0.82814400   -1.02073000
+# H       0.28724500   -0.95878900   -0.09434400
+# O       1.75460800   -1.44726100    1.16225100
+# O       1.26626200   -1.79167800   -0.09015600
+# """,
+# )
 
-entry(
-    index = 4001014,
-    label = "imipramine_tail_5_ooh_4_rad <=> imipramine_tail_5_oo_p",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.54381e+10,'s^-1'), n=0, Ea=(36.7946,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
-    rank = 1,
-    longDesc =
-u"""
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1046 rev
-""",
-)
+# entry(
+#     index = 4001014,
+#     label = "imipramine_tail_5_ooh_4_rad <=> imipramine_tail_5_oo_p",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.54381e+10,'s^-1'), n=0, Ea=(36.7946,'kJ/mol'),
+#                          T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# ts1046 rev
+# """,
+# )
 
-entry(
-    index = 1001016,
-    label = "imipramine_tail_2_ooh_4_oo_r2 <=> imipramine_tail_2_ooh_4_ooh_2_rad",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.5081e+08,'s^-1'), n=0, Ea=(67.4495,'kJ/mol'),
-                         T0=(1,'K'), Tmin=(200,'K'), Tmax=(495,'K')),
-    rank = 1,
-    longDesc =
-u"""
-This is a fake reaction. products are unstable so forward rate calcualted using '
-                                   'reactant as products. Fitted to 60 data points; dA = *|/ 1.62624, dn = +|- 0, '
-                                   'dEa = +|- 1.26739 kJ/mol
+# entry(
+#     index = 1001016,
+#     label = "imipramine_tail_2_ooh_4_oo_r2 <=> imipramine_tail_2_ooh_4_ooh_2_rad",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.5081e+08,'s^-1'), n=0, Ea=(67.4495,'kJ/mol'),
+#                          T0=(1,'K'), Tmin=(200,'K'), Tmax=(495,'K')),
+#     rank = 1,
+#     longDesc =
+# u"""
+# This is a fake reaction. products are unstable so forward rate calcualted using '
+#                                    'reactant as products. Fitted to 60 data points; dA = *|/ 1.62624, dn = +|- 0, '
+#                                    'dEa = +|- 1.26739 kJ/mol
                                    
-dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
-solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
-ts1038 forward only
+# dlpno-ccsd(t)/def2-tzvp/def2-tzvp/c//wb97xd/def2tzvp
+# solvation: SMD water, sp was corrected using APFD/6-311+G(2d,p) SMD water
+# ts1038 forward only
 
-TS geom
- N                  2.51752000   -1.07335300   -1.05889900
- C                  1.51453700   -0.47971400   -0.28901200
- C                  0.15956600   -1.13100800   -0.28745500
- C                 -0.98287800   -0.11707700   -0.55433900
- H                  0.11586200   -1.89937400   -1.06110000
- H                 -0.00224800   -1.61576900    0.67755800
- N                 -2.20835100   -0.49660300    0.04572600
- C                 -3.36558800    0.15224000   -0.53792900
- C                 -2.24894800   -0.45253700    1.49624700
- H                 -4.27231500   -0.32399400   -0.15887900
- H                 -3.35011800    0.03386000   -1.62268900
- H                 -3.11261400   -1.02241100    1.84578700
- H                 -2.32837700    0.57124400    1.88501200
- H                 -1.35338100   -0.90033300    1.92488700
- H                  2.56009300   -2.08286300   -0.98646400
- H                  3.42359900   -0.65795000   -0.89194600
- H                 -1.13043800   -0.03219200   -1.63536700
- H                 -3.41755600    1.22528300   -0.30539000
- O                 -0.58359700    1.19063800   -0.09804800
- O                  0.43090900    1.63287600   -0.93751900
- H                  1.19923900    0.70282200   -0.80556700
- O                  1.80871200   -0.13775100    1.04256800
- O                  2.91687200    0.75794600    1.03187500
- H                  2.46077200    1.61028200    0.95028200
-""",
-)
+# TS geom
+#  N                  2.51752000   -1.07335300   -1.05889900
+#  C                  1.51453700   -0.47971400   -0.28901200
+#  C                  0.15956600   -1.13100800   -0.28745500
+#  C                 -0.98287800   -0.11707700   -0.55433900
+#  H                  0.11586200   -1.89937400   -1.06110000
+#  H                 -0.00224800   -1.61576900    0.67755800
+#  N                 -2.20835100   -0.49660300    0.04572600
+#  C                 -3.36558800    0.15224000   -0.53792900
+#  C                 -2.24894800   -0.45253700    1.49624700
+#  H                 -4.27231500   -0.32399400   -0.15887900
+#  H                 -3.35011800    0.03386000   -1.62268900
+#  H                 -3.11261400   -1.02241100    1.84578700
+#  H                 -2.32837700    0.57124400    1.88501200
+#  H                 -1.35338100   -0.90033300    1.92488700
+#  H                  2.56009300   -2.08286300   -0.98646400
+#  H                  3.42359900   -0.65795000   -0.89194600
+#  H                 -1.13043800   -0.03219200   -1.63536700
+#  H                 -3.41755600    1.22528300   -0.30539000
+#  O                 -0.58359700    1.19063800   -0.09804800
+#  O                  0.43090900    1.63287600   -0.93751900
+#  H                  1.19923900    0.70282200   -0.80556700
+#  O                  1.80871200   -0.13775100    1.04256800
+#  O                  2.91687200    0.75794600    1.03187500
+#  H                  2.46077200    1.61028200    0.95028200
+# """,
+# )
 
 # entry(
 #     index = 10023,
