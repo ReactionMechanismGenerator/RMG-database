@@ -66,7 +66,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=2001000,
     label="imipramine_1_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=4.0,
+    degeneracy=1.0,
     kinetics = Arrhenius(A=(85.9968,'m^3/(mol*s)'), 
                          n=0, Ea=(22.9212,'kJ/mol'), 
                          T0=(1,'K'), 
@@ -115,7 +115,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=2001001,
     label="imipramine_2_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=2.0,
+    degeneracy=1.0,
     kinetics=Arrhenius(A=(1.80383,'m^3/(mol*s)'), 
                        n=0, 
                        Ea=(10.9144,'kJ/mol'), 
@@ -165,7 +165,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=2001002,
     label="imipramine_3_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=2.0,
+    degeneracy=1.0,
     kinetics = Arrhenius(A=(28.8673,'m^3/(mol*s)'), 
                          n=0, 
                          Ea=(15.657,'kJ/mol'), 
@@ -215,7 +215,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=2001003,
     label="imipramine_4_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=2.0,
+    degeneracy=1.0,
     kinetics = Arrhenius(A=(1803.78,'m^3/(mol*s)'), 
                          n=0, 
                          Ea=(30.3123,'kJ/mol'), 
@@ -265,7 +265,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=2001004,
     label="imipramine_5_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
-    degeneracy=6.0,
+    degeneracy=1.0,
     kinetics = Arrhenius(A=(21.8962,'m^3/(mol*s)'), 
                          n=0, 
                          Ea=(11.7686,'kJ/mol'), 
@@ -315,7 +315,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index = 2001005,
     label = "imipramine_2_ooh_r + CH2OH_r3 <=> imipramine_2_oo_p + CH3OH_p",
-    degeneracy = 3.0,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.36415e-07,'m^3/(mol*s)'), 
                          n=0, 
                          Ea=(69.9577,'kJ/mol'), 
@@ -365,7 +365,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index = 2001006,
     label = "imipramine_5_ooh_r + CH2OH_r3 <=> imipramine_5_oo_p + CH3OH_p",
-    degeneracy = 3.0,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.05857e-06,'m^3/(mol*s)'), 
                          n=0, 
                          Ea=(77.5222,'kJ/mol'), 
@@ -415,7 +415,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index = 2001007,
     label = "imipramine_4_ooh_r + CH2OH_r3 <=> imipramine_4_oo_p + CH3OH_p",
-    degeneracy = 3.0,
+    degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.27767e-05,'m^3/(mol*s)'), 
                          n=0, 
                          Ea=(80.4262,'kJ/mol'), 
