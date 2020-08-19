@@ -398,7 +398,7 @@ Estimated based on amide alcoholysis training reactions.
 
 entry(
     index = 99996,
-    label = "imipramine_2_oh_4_od + H2O <=> imipramine_tail_derivative_1 + iminobibenzyl",
+    label = "imipramine_2_oh_4_od <=> imipramine_tail_derivative_1 + iminobibenzyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13, 's^-1'), n=2.0, Ea=(60, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
