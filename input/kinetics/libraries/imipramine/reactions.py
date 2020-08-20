@@ -364,9 +364,9 @@ entry(
     index = 99998,
     label = "imipramine_2_od_4_ooh + H2O <=> imipramine_tail_acetate_1 + iminobibenzyl",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), 
+    kinetics = Arrhenius(A=(1e+22,'cm^3/(mol*s)'), 
                          n=0, 
-                         Ea=(60,'kJ/mol'), 
+                         Ea=(120,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -374,7 +374,7 @@ entry(
     shortDesc = u"""Estimated""",
     longDesc =
 """
-Estimated based on amide alcoholysis training reactions.
+Estimated based on amide alcoholysis training reactions. Ea is high on purpose to avoid endothermicity correction
 """,
 )
 
@@ -382,9 +382,9 @@ entry(
     index = 99997,
     label = "imipramine_2_od_4_ooh + CH3OH <=> imipramine_tail_acetate_2 + iminobibenzyl",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), 
+    kinetics = Arrhenius(A=(1e+22,'cm^3/(mol*s)'), 
                          n=0, 
-                         Ea=(60,'kJ/mol'), 
+                         Ea=(120,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -392,7 +392,7 @@ entry(
     shortDesc = u"""Estimated""",
     longDesc =
 """
-Estimated based on amide alcoholysis training reactions.
+Estimated based on amide alcoholysis training reactions. Ea is high on purpose to avoid endothermicity correction
 """,
 )
 
