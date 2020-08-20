@@ -409,6 +409,24 @@ Same estiamtion as hemiaminal hydrolysis training reaction.
 """,
 )
 
+entry(
+    index = 99995,
+    label = "imipramine_5_oo <=> imipramine_5_ooh_5_rad",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.90675e+07,'s^-1'), 
+                         n=0, 
+                         Ea=(57.3664,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.07057, dn = +|- 0, dEa = +|- 0.175867 kJ/mol"""),
+    shortDesc = u"""Estimated based on 1015""",
+    longDesc =
+"""
+Estimated to be 10 times slower than 1015 MS-TST rate. Factor based on previous single structure TST rate.
+""",
+)
+
 
 
 # entry(
