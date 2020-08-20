@@ -382,7 +382,7 @@ entry(
     index = 99997,
     label = "imipramine_2_od_4_ooh + CH3OH <=> imipramine_tail_acetate_2 + iminobibenzyl",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1e+23,'cm^3/(mol*s)'), 
+    kinetics = Arrhenius(A=(1e+24,'cm^3/(mol*s)'), 
                          n=0, 
                          Ea=(120,'kJ/mol'), 
                          T0=(1,'K'), 
