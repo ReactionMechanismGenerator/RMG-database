@@ -427,6 +427,19 @@ Estimated to be 10 times slower than 1015 MS-TST rate. Factor based on previous 
 """,
 )
 
+entry(
+    index = 99994,
+    label = "imipramine_2_ooh_4_od + H2O <=> imipramine_2_oh_4_od + H2O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.2e+18,'cm^3/(mol*s)'), n=0, Ea=(25,'kcal/mol'),
+                         T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = u"""Estimated""",
+    longDesc =
+"""
+10x than training reaction estimation.
+""",
+)
+
 
 
 # entry(
