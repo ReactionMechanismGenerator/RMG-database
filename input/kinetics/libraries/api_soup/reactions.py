@@ -422,7 +422,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 
 
 entry(
-    index=4006,
+    index=4001,
     label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH3O",
     kinetics=Arrhenius(A=(93241.6, 'm^3/(mol*s)'), n=0, Ea=(83.428, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
@@ -442,7 +442,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4007,
+    index=4002,
     label="cyanoisopropylO + CH3OH <=> cyanoisopropylOH + CH2OH",
     kinetics=Arrhenius(A=(1.08e+06, 'm^3/(mol*s)'), n=0, Ea=(18.1479, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
@@ -462,7 +462,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4008,
+    index=4003,
     label="cyanoisopropylO + CH3OH <=> cyanoisopropylOH + CH3O",
     kinetics=Arrhenius(A=(2162.27, 'm^3/(mol*s)'), n=0, Ea=(20.5886, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
@@ -482,7 +482,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4009,
+    index=4004,
     label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH2OH",
     degeneracy=1.0,
     kinetics=Arrhenius(A=(4286.55, 'm^3/(mol*s)'), n=0, Ea=(43.8458, 'kJ/mol'),
@@ -503,7 +503,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4010,
+    index=4005,
     label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH3O",
     degeneracy=1.0,
     kinetics=Arrhenius(A=(561.019, 'm^3/(mol*s)'), n=0, Ea=(84.9818, 'kJ/mol'),
@@ -524,7 +524,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4011,
+    index=4006,
     label="cyanoisopropylOO + H2O2 <=> cyanoisopropylOOH + HO2",
     degeneracy=1.0,
     kinetics=Arrhenius(A=(21.2754, 'm^3/(mol*s)'), n=0, Ea=(25.1551, 'kJ/mol'),
@@ -545,7 +545,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4012,
+    index=4007,
     label="cyanoisopropylOOH + OHCH2OO <=> cyanoisopropylOO + OHCH2OOH",
     kinetics=Arrhenius(A=(0.61553, 'm^3/(mol*s)'), n=0, Ea=(34.0801, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
@@ -565,7 +565,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4000,
+    index=4008,
     label="OHCH2O + CH3OH <=> OHCH2OH + CH2OH",
     kinetics=Arrhenius(A=(196146, 'm^3/(mol*s)'), n=0, Ea=(20.8185, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
@@ -585,7 +585,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4001,
+    index=4009,
     label="OHCH2O + CH3OH <=> OHCH2OH + CH3O",
     kinetics=Arrhenius(A=(1345.32, 'm^3/(mol*s)'), n=0, Ea=(27.4897, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
@@ -605,7 +605,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4002,
+    index=4010,
     label="OHCH2OO + CH3OH <=> OHCH2OOH + CH2OH",
     degeneracy=1.0,
     kinetics=Arrhenius(A=(1294.06, 'm^3/(mol*s)'), n=0, Ea=(48.9729, 'kJ/mol'),
@@ -626,7 +626,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4003,
+    index=4011,
     label = "OHCH2OO + CH3OH <=> OHCH2OOH + CH3O",
     kinetics = Arrhenius(A=(1892.93,'m^3/(mol*s)'), n=0, Ea=(84.6081,'kJ/mol'),
                      T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
@@ -646,7 +646,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4004,
+    index=4012,
     label='OHCH2OO + H2O2 <=> OHCH2OOH + HO2',
     degeneracy=2.0,
     kinetics=Arrhenius(A=(33.7285, 'm^3/(mol*s)'), n=0, Ea=(30.0542, 'kJ/mol'),
@@ -667,7 +667,7 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 )
 
 entry(
-    index=4003,
+    index=4013,
     label="CH3OOH + cyanoisopropylOO <=> CH3OO + cyanoisopropylOOH",
     degeneracy=1.0,
     kinetics=Arrhenius(A=(6.59209e-07, 'cm^3/(mol*s)'), n=5.23714, Ea=(20.5943, 'kJ/mol'),
