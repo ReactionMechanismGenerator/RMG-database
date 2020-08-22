@@ -8,8 +8,10 @@ longDesc = """
 Various small radical reactions relevant to API oxidation
 """
 
+# Literature rates:
+
 entry(
-    index=0,
+    index=1000,
     label="AIBN <=> N2 + cyanoisopropyl + cyanoisopropyl",
     kinetics=Arrhenius(A=(5.40379e+15, 's^-1'), n=0, Ea=(132.417, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(363.6, 'K'), Tmax=(380.2, 'K')),
@@ -18,100 +20,25 @@ entry(
     u"""
 Measured
 Fig 4, k
-R-S Juang, J-F Lianf, J. Chem. Tech. Biotechnol. 1992, 55, 379-383, doi: 10.1002/jctb.280550413
+R.S. Juang, J.F. Lianf, J. Chem. Tech. Biotechnol. 1992, 55, 379-383, doi: 10.1002/jctb.280550413
 
 Another source:
     kinetics=Arrhenius(A=(2.14e+17, 's^-1'), n=0, Ea=(143, 'kJ/mol'), T0=(1, 'K')),
 P.S. Eagel, Mechanism of the thermal and photochemical decomposition of azoalkanes
 Chem. Rev. 1980, 80, 99-150
 
-Juang is ~x2 faster than Eagel at the relevant temperatures
+Juang, which is more recent, is ~x2 faster than Eagel at the relevant temperatures
 """,
 )
 
 entry(
-    index=1,
-    label="cyanoisopropyl + O2 <=> cyanoisopropylOO",
-    kinetics=Arrhenius(A=(5.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
-    shortDesc=u"""R_Recombination (RMG-Py rate rules)""",
-    longDesc=
-    u"""
-""",
-)
-
-entry(
-    index=2,
-    label="CH3OH + HO2 <=> CH2OH + H2O2",
-    kinetics=Arrhenius(A=(3.5e-4, 'cm^3/(mol*s)'), n=4.85, Ea=(10.35, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u"""NOx2018""",
-    longDesc=
-    u"""
-""",
-)
-
-entry(
-    index=3,
-    label="CH3OH + HO2 <=> CH3O + H2O2",
-    kinetics=Arrhenius(A=(1.5e-3, 'cm^3/(mol*s)'), n=4.61, Ea=(15.93, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u"""NOx2018""",
-    longDesc=
-    u"""
-""",
-)
-
-entry(
-    index=4,
-    label="CH3OH + OH <=> CH2OH + H2O",
-    kinetics=Arrhenius(A=(1.5e+8, 'cm^3/(mol*s)'), n=1.44, Ea=(0.11, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u"""Klippenstein_Glarborg2016""",
-    longDesc=
-    u"""
-""",
-)
-
-entry(
-    index=5,
-    label="CH3OH + OH <=> CH3O + H2O",
-    kinetics=Arrhenius(A=(2.7e+7, 'cm^3/(mol*s)'), n=1.44, Ea=(0.11, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u"""NOx2018""",
-    longDesc=
-    u"""
-""",
-)
-
-entry(
-    index=6,
-    label="CH3OH + CH3O <=> CH2OH + CH3OH",
-    kinetics=Arrhenius(A=(3.0e+11, 'cm^3/(mol*s)'), n=0, Ea=(4.07, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u"""CurranPentane""",
-    longDesc=
-    u"""
-""",
-)
-
-entry(
-    index=7,
-    label="CH3O + O2 <=> CH2O + HO2",
-    kinetics=Arrhenius(A=(0.48, 'cm^3/(mol*s)'), n=3.57, Ea=(1.05, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u"""NOx2018""",
-    longDesc=
-    u"""
-""",
-)
-
-entry(
-    index=8,
+    index=1001,
     label="OOCH2OH <=> CH2OH + O2",
     kinetics=Arrhenius(A=(2.0e+15, 's^-1'), n=0, Ea=(35.8, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     u"""
-We get the following sequence of reactions because of the high CH3OH concentration:
-1. CH3OO + CH3OH = CH3OOH + CH2OH
-2. CH2OH + O2 = OOCH2OH
-3. OOCH2OH + API = HOOCH2OH + API_rad
-
-We have a bad rate estimate for reaction 2, this entry tries to fix it.
-Taken from: T.S. Dibble, Mechanism and dynamics of the CH2OH + O2 reaction, Chem. Phys. Lett. 2002, 355, 193-200
+T.S. Dibble, Mechanism and dynamics of the CH2OH + O2 reaction, Chem. Phys. Lett. 2002, 355, 193-200
 doi: 10.1016/S0009-2614(02)00211-7
 
 Reverse rate check: 1.053350e+12 cm^3/(mol*s), close to the diffusion limit of 1e+13
@@ -119,88 +46,407 @@ Reverse rate check: 1.053350e+12 cm^3/(mol*s), close to the diffusion limit of 1
 )
 
 entry(
-    index=9,
-    label="CH3OO + O <=> CH3O + O2",
-    kinetics=Arrhenius(A=(2.9e+10, 'cm^3/(mol*s)'), n=1.0, Ea=(0.72, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u"""NOx2018""",
+    index=1002,
+    label="OHCH2OO <=> CH2O + HO2",
+    kinetics=Arrhenius(A=(6.38e+12, 's^-1'), n=0, Ea=(29.45, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""G2M""",
     longDesc=
     u"""
+Hermans et al. 2005, doi:10.1021/jp044080v
 """,
 )
 
 entry(
-    index=10,
+    index=1003,
+    label="CH2O + H2O <=> OHCH2OH",
+    kinetics=Arrhenius(A=(3.67e+06, 'cm^3/(mol*s)'), n=0, Ea=(5.83, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(285, 'K'), Tmax=(345, 'K')),
+    shortDesc=u"""experimental""",
+    longDesc=
+    u"""
+J.G.M. Winkelman, O.K. Voorwinde, M. Ottens, A.A.C.M. Beenackers, L.P.B.M. Janssen
+Chemical Engineering Science, Volume 57, Issue 19, October 2002, Pages 4067-4076
+10.1016/S0009-2509(02)00358-5
+The original rate was multiplied by 18 cm3/mol to convert units into a second order reaction.
+""",
+)
+
+entry(
+    index=1004,
+    label="cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4",
+    kinetics=Arrhenius(A=(1.1e+7, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K')),
+    longDesc=
+    """
+Based on 10.1134/S0023158416010031
+for 1,1-dimethylpropyl peroxy radicals recombination in polar solvents (water, methanol)
+
+The measured rate constants of recombination at 298 K are
+k = 0.5 * (3.9 ± 0.4) × 1E+7 cm^3/(mol*s) for water, and
+k = 0.5 * (5.2 ± 0.5) × 1E+6 cm^3/(mol*s) for methanol.
+
+using an average: 1.1E+7
+
+RMG's estimate is:
+Arrhenius(A=(5.32385e+10, 'cm^3/(mol*s)'), n=0.35, Ea=(0, 'kJ/mol'))
+""",
+)
+
+entry(
+    index=1005,
+    label="cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2",
+    kinetics=Arrhenius(A=(4.5e+16, 's^-1'), n=0.0, Ea=(72.35, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    longDesc=
+    """
+Taken from
+S.L. Khursan, Organic tetroxides and mechanism of peroxy radical recombination,
+doi: 10.1002/9780470682531.pat0827
+Table 3, an average of sources 66 and 79
+""",
+)
+
+entry(
+    index=1006,
+    label="OHCH2OO + OHCH2OO <=> OHCHO + OHCHO + H2O2",
+    kinetics=Arrhenius(A=(7.92e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(2.772, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(278, 'K'), Tmax=(331, 'K')),
+    shortDesc=u"""exp""",
+    longDesc=
+    """
+Source for rate (experimental, pH=7):
+R.E. Huie, C.L. Clifton
+Kinetics of the self-reaction of hydromethylperoxyl radicals
+Chemical Physics Letters 1993, 205
+https://doi.org/10.1016/0009-2614(93)89222-4
+
+This pathway is also supported by:
+https://doi.org/10.1016/S1352-2310(00)00191-6
+""",
+)
+
+entry(
+    index=1007,
+    label="OHCH2OO + OHCH2OO <=> OHCHO + OHCH2OH + O2",
+    kinetics=Arrhenius(A=(7.92e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(2.772, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(278, 'K'), Tmax=(331, 'K')),
+    longDesc=
+    """
+Set to 10% of the main channel yielding OHCHO + OHCHO + H2O2
+10.1016/0009-2614(93)89222-4
+""",
+)
+
+entry(
+    index=1008,
+    label="OHCH2OO + OHCH2OO <=> OHCH2O + OHCH2O + O2",
+    kinetics=Arrhenius(A=(7.92e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(2.772, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(278, 'K'), Tmax=(331, 'K')),
+    longDesc=
+    """
+Set to 1% of the main channel yielding OHCHO + OHCHO + H2O2
+""",
+)
+
+entry(
+    index=1009,
+    label="O2 + H <=> HO2",
+    kinetics=Arrhenius(A=(4.7e+12, 'cm^3/(mol*s)'), n=0.440, Ea=(0.0, 'cal/mol'), T0=(1, 'K')),
+    longDesc=
+    u"""
+Klippenstein_Glarborg2016
+Probably high-P VTST
+""",
+)
+
+entry(
+    index=1010,
+    label="CH2OH + O2 <=> CH2O + HO2",
+    kinetics=Arrhenius(A=(7.23e+13, 'cm^3/(mol*s)'), n=0, Ea=(3736, 'cal/mol'), T0=(1, 'K')),
+    longDesc=
+    u"""
+10.1063/1.1748524
+p. 37
+Keeping only the second term
+""",
+)
+
+
+# taken from other RMG libraries
+
+entry(
+    index=2000,
+    label="CH3OH + HO2 <=> CH2OH + H2O2",
+    kinetics=Arrhenius(A=(3.5e-4, 'cm^3/(mol*s)'), n=4.85, Ea=(10.35, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""NOx2018""",
+    longDesc=
+    u"""
+Taken from the NOx2018 library as is.
+""",
+)
+
+entry(
+    index=2001,
+    label="CH3OH + HO2 <=> CH3O + H2O2",
+    kinetics=Arrhenius(A=(1.5e-3, 'cm^3/(mol*s)'), n=4.61, Ea=(15.928, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""NOx2018""",
+    longDesc=
+    u"""
+Taken from the NOx2018 library as is.
+""",
+)
+
+entry(
+    index=2002,
+    label="CH3OH + OH <=> CH2OH + H2O",
+    kinetics=Arrhenius(A=(1.5e+8, 'cm^3/(mol*s)'), n=1.4434, Ea=(0.113, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""NOx2018""",
+    longDesc=
+    u"""
+Taken from the NOx2018 library as is.
+""",
+)
+
+entry(
+    index=2003,
+    label="CH3OH + OH <=> CH3O + H2O",
+    kinetics=Arrhenius(A=(2.7e+7, 'cm^3/(mol*s)'), n=1.4434, Ea=(0.113, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""NOx2018""",
+    longDesc=
+    u"""
+Taken from the NOx2018 library as is.
+""",
+)
+
+entry(
+    index=2004,
+    label="CH3O + O2 <=> CH2O + HO2",
+    kinetics=Arrhenius(A=(0.48, 'cm^3/(mol*s)'), n=3.567, Ea=(1.055, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""NOx2018""",
+    longDesc=
+    u"""
+Taken from the NOx2018 library as is.
+""",
+)
+
+entry(
+    index=2005,
+    label="CH3OO + O <=> CH3O + O2",
+    kinetics=Arrhenius(A=(2.9e+10, 'cm^3/(mol*s)'), n=1.0, Ea=(0.724, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""NOx2018""",
+    longDesc=
+    u"""
+Taken from the NOx2018 library as is.
+""",
+)
+
+entry(
+    index=2006,
+    label="OHCH2O <=> OHCHO + H",
+    kinetics=Arrhenius(A=(1e14, 's^-1'), n=0.0, Ea=(14.9, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""NOx2018""",
+    longDesc=
+    """
+Taken from the NOx2018 library as is.
+""",
+)
+
+entry(
+    index=2100,
+    label="CH3OH + CH3O <=> CH2OH + CH3OH",
+    kinetics=Arrhenius(A=(3.0e+11, 'cm^3/(mol*s)'), n=0, Ea=(4.074, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""CurranPentane""",
+    longDesc=
+    u"""
+Taken from the CurranPentane library as is.
+""",
+)
+
+entry(
+    index=2101,
     label="OHCH2OO <=> OCH2OOH",
     kinetics=Arrhenius(A=(3.0e+11, 's^-1'), n=0, Ea=(8.6, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""CurranPentane""",
     longDesc=
     u"""
+Taken from the CurranPentane library as is.
 """,
 )
 
 entry(
-    index=11,
-    label="OHCH2OO <=> CH2O + HO2",
-    kinetics=Arrhenius(A=(6.38e+12, 's^-1'), n=0, Ea=(29.45, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u""" """,
+    index=2102,
+    label="CH2O + HO2 <=> OCH2OOH",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(1.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(11900, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""CurranPentane""",
     longDesc=
     u"""
-Hermans et al. 2005 (doi:10.1021/jp044080v) G2M calculations
-Training reaction in HO2_Elimination_from_PeroxyRadical 
+Taken from the CurranPentane library as is.
 """,
 )
 
+
+# estimations
+
 entry(
-    index=12,
+    index=3000,
     label="OHCH2OOH <=> CH2O + H2O2",
     kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u""" """,
+    shortDesc=u"""est""",
+)
+
+entry(
+    index=3001,
+    label="cyanoisopropylOH + H2O <=> acetone + HCN + H2O",
+    kinetics=Arrhenius(A=(1e3, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(500, 'K')),
+    shortDesc=u"""est""",
+)
+
+entry(
+    index=3002,
+    label="OHCH2OO + cyanoisopropylOO <=> OHCH2O + cyanoisopropylO + O2",
+    kinetics=Arrhenius(A=(1.1e+7, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""est""",
     longDesc=
-    u"""
-est.
+    """
+Taken as:
+cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4
+(rate could and should be improved)
 """,
 )
 
 entry(
-    index=13,
-    label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH2OH",
-    kinetics=Arrhenius(A=(20715.6, 'm^3/(mol*s)'), n=0, Ea=(52.3057, 'kJ/mol'),
+    index=3003,
+    label='CH2OH + cyanoisopropylOO <=> CH2O + cyanoisopropylOOH',
+    degeneracy=2.0,
+    kinetics=Arrhenius(A=(1.21e13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""ccsd(t)/cc-pvtz//wb97xd/def2tzvp using ARC""",
+    shortDesc=u"""est""",
+)
+
+entry(
+    index=3004,
+    label='CH2OH + OHCH2OO <=> CH2O + OHCH2OOH',
+    degeneracy=2.0,
+    kinetics=Arrhenius(A=(1.21e13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""est""",
+)
+
+entry(
+    index=3005,
+    label="H + H <=> H2",
+    kinetics=Arrhenius(A=(1.0e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""est""",
+    longDesc=
+    u"""
+Should be fast in liquid phase, WHG est.
+""",
+)
+
+entry(
+    index=3006,
+    label="cyanoisopropylOO <=> cyclic_cyanoisopropylOO",
+    kinetics=Arrhenius(A=(1e-20, 's^-1'), n=0, Ea=(100, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u"""est""",
+    longDesc=
+    u"""
+assigning a low rate to forbid this pathway
+""",
+)
+
+entry(
+    index=3007,
+    label="iC3H6CNOO <=> cyclic_cyanoisopropylOO",
+    kinetics=Arrhenius(A=(1e-20, 's^-1'), n=0, Ea=(100, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u"""est""",
+    longDesc=
+    u"""
+assigning a low rate to forbid this pathway
+""",
+)
+
+entry(
+    index=3008,
+    label="HO2 + OHCH2OO <=> H2O + O2 + OHCHO",
+    degeneracy=1.0,
+    kinetics=Arrhenius(A=(1.1e+9, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""est""",
+    longDesc=
+    """
+rate taken as 100x the RDS of:
+cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2
+""",
+)
+
+entry(
+    index=3009,
+    label="HO2 + cyanoisopropylOO <=> OH + O2 + cyanoisopropylO",
+    degeneracy=1.0,
+    kinetics=Arrhenius(A=(1.1e+7, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""est""",
+    longDesc=
+    """
+rate taken from RDS of:
+cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2
+""",
+)
+
+
+# ARC/ACS calculations
+
+
+entry(
+    index=4000,
+    label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH2OH",
+    kinetics=Arrhenius(A=(3689.53, 'm^3/(mol*s)'), n=0, Ea=(51.7208, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
     longDesc=
     u"""
 sr1001
-
-C[C](C#N)C + CO <=> CC(C#N)C + [CH2]O
-""",
-)
-
-entry(
-    index=14,
-    label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH3O",
-    kinetics=Arrhenius(A=(547414, 'm^3/(mol*s)'), n=0, Ea=(90.402, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""ccsd(t)/cc-pvtz//wb97xd/def2tzvp using ARC""",
-    longDesc=
-    u"""
-sr1002
-C[C](C#N)C + CO <=> CC(C#N)C + C[O]
 
 Calculated by ACS using multiple-structure local-harmonic 
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
 
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+
+entry(
+    index=4006,
+    label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH3O",
+    kinetics=Arrhenius(A=(93241.6, 'm^3/(mol*s)'), n=0, Ea=(83.428, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    longDesc=
+    u"""
+sr1002
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
 Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
 entry(
-    index=15,
+    index=4007,
     label="cyanoisopropylO + CH3OH <=> cyanoisopropylOH + CH2OH",
-    kinetics=Arrhenius(A=(903104, 'm^3/(mol*s)'), n=0, Ea=(7.4835, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.08e+06, 'm^3/(mol*s)'), n=0, Ea=(18.1479, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
     longDesc=
     u"""
 sr1003
@@ -209,17 +455,18 @@ Calculated by ACS using multiple-structure local-harmonic
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
 
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
 Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
 entry(
-    index=16,
+    index=4008,
     label="cyanoisopropylO + CH3OH <=> cyanoisopropylOH + CH3O",
-    kinetics=Arrhenius(A=(26562.3, 'm^3/(mol*s)'), n=0, Ea=(22.8263, 'kJ/mol'),
+    kinetics=Arrhenius(A=(2162.27, 'm^3/(mol*s)'), n=0, Ea=(20.5886, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
     longDesc=
     u"""
 sr1004
@@ -228,96 +475,19 @@ Calculated by ACS using multiple-structure local-harmonic
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
 
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
 Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
 entry(
-    index=17,
-    label="cyanoisopropylOO <=> cyclic_cyanoisopropylOO",
-    kinetics=Arrhenius(A=(1e-30, 's^-1'), n=0, Ea=(1000, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(500, 'K')),
-    shortDesc=u"""""",
-    longDesc=
-    u"""
-forbidding this reaction in Intra_R_Add_Endocyclic didn't work, assigning here a low rate instead
-""",
-)
-
-entry(
-    index=18,
-    label="iC3H6CNOO <=> cyclic_cyanoisopropylOO",
-    kinetics=Arrhenius(A=(1e-20, 's^-1'), n=0, Ea=(100, 'kJ/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(500, 'K')),
-    shortDesc=u"""""",
-    longDesc=
-    u"""
-""",
-)
-
-entry(
-    index=19,
-    label="CH2O + H2O <=> OHCH2OH",
-    kinetics=Arrhenius(A=(3.67e+06, 'cm^3/(mol*s)'), n=0, Ea=(5.83, 'kcal/mol'),
-                       T0=(1, 'K'), Tmin=(285, 'K'), Tmax=(345, 'K')),
-    shortDesc=u"""""",
-    longDesc=
-    u"""
-J.G.M. Winkelman, O.K. Voorwinde, M. Ottens, A.A.C.M. Beenackers, L.P.B.M. Janssen
-Chemical Engineering Science, Volume 57, Issue 19, October 2002, Pages 4067-4076
-https://doi.org/10.1016/S0009-2509(02)00358-5
-The original rate was multiplied by 18 cm3/mol to convert units into a second order reaction.
-""",
-)
-
-entry(
-    index=20,
-    label="cyanoisopropylOH + H2O <=> C3_ketone + HCN + H2O",
-    kinetics=Arrhenius(A=(1e3, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(500, 'K')),
-    shortDesc=u"""""",
-    longDesc=
-    u"""
-sr1005
-
-estimated
-""",
-)
-
-entry(
-    index=21,
-    label="CH2O + HO2 <=> OCH2OOH",
-    degeneracy=1,
-    kinetics=Arrhenius(A=(1.5e+11, 'cm^3/(mol*s)'), n=0, Ea=(11900, 'cal/mol'), T0=(1, 'K')),
-    shortDesc=u"""CurranPentane""",
-)
-
-entry(
-    index=22,
-    label="CH3OH + cyanoisopropylOO <=> CH3O + cyanoisopropylOOH",
+    index=4009,
+    label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH2OH",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(174094, 'm^3/(mol*s)'), n=0, Ea=(94.4368, 'kJ/mol'),
+    kinetics=Arrhenius(A=(4286.55, 'm^3/(mol*s)'), n=0, Ea=(43.8458, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-sr1007
-
-Calculated by ACS using multiple-structure local-harmonic 
-conventional transition state theory with Eckart tunneling 
-(MS-LH-CTST/Eckart).
-
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
-Solvent: H2O:MeOH = 0.7:0.3 (mol%)
-""",
-)
-
-entry(
-    index=23,
-    label="CH3OH + cyanoisopropylOO <=> CH2OH + cyanoisopropylOOH",
-    degeneracy=1.0,
-    kinetics=Arrhenius(A=(63533.4, 'm^3/(mol*s)'), n=0, Ea=(34.1105, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
     longDesc=
     """
 sr1006
@@ -326,87 +496,183 @@ Calculated by ACS using multiple-structure local-harmonic
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
 
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
 Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
 entry(
-    index=24,
-    label="CH3OH + OHCH2OO <=> CH2OH + OHCH2OOH",
+    index=4010,
+    label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH3O",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(14238.7, 'm^3/(mol*s)'), n=0, Ea=(40.2342, 'kJ/mol'),
+    kinetics=Arrhenius(A=(561.019, 'm^3/(mol*s)'), n=0, Ea=(84.9818, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
     longDesc=
     """
-sr1014 reverse
+sr1007
 
 Calculated by ACS using multiple-structure local-harmonic 
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
 
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
 Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
 entry(
-    index=25,
-    label="CH3O + OHCH2OOH <=> CH3OH + OHCH2OO",
+    index=4011,
+    label="cyanoisopropylOO + H2O2 <=> cyanoisopropylOOH + HO2",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(163753, 'm^3/(mol*s)'), n=0, Ea=(98.6637, 'kJ/mol'),
+    kinetics=Arrhenius(A=(21.2754, 'm^3/(mol*s)'), n=0, Ea=(25.1551, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
     longDesc=
     """
-sr1015 reverse
+sr1009
 
 Calculated by ACS using multiple-structure local-harmonic 
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
 
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
 Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
-# entry(
-#     index=26,
-#     label="H2O + CH3OOH <=> H2O2 + CH3OH",
-#     degeneracy=1.0,
-#     kinetics=Arrhenius(A=(0.123672, 'cm^3/(mol*s)'), n=3.80899, Ea=(319.315, 'kJ/mol'),
-#                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-#     longDesc=
-#     """
-# CBS-QB3 PCM water
-#
-# TS external symmetry: 1, TS optical isomers: 1
-#
-# Optimized TS geometry:
-# C       0.59075300   -0.27141000    0.18760900
-# O      -2.00374200    1.00876600    0.39810900
-# H      -2.60844800    0.26238400    0.50183600
-# O       0.97638000    1.57888900   -0.78680400
-# H       1.36266100    1.33234300   -1.63793600
-# O      -1.24626400    0.61132500   -0.75799600
-# H      -0.04072600    1.45390400   -0.88891300
-# H      -0.05374000   -0.04431000    1.02399800
-# H       1.65101300   -0.15102600    0.34377800
-# H       0.28530900   -1.07532000   -0.46433100
-#
-#
-# No rotors considered for this TS.
-# """,
-# )
+entry(
+    index=4012,
+    label="cyanoisopropylOOH + OHCH2OO <=> cyanoisopropylOO + OHCH2OOH",
+    kinetics=Arrhenius(A=(0.61553, 'm^3/(mol*s)'), n=0, Ea=(34.0801, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    longDesc=
+    """
+sr1010 reverse
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
 
 entry(
-    index=27,
+    index=4000,
+    label="OHCH2O + CH3OH <=> OHCH2OH + CH2OH",
+    kinetics=Arrhenius(A=(196146, 'm^3/(mol*s)'), n=0, Ea=(20.8185, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    longDesc=
+    """
+sr1012
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=4001,
+    label="OHCH2O + CH3OH <=> OHCH2OH + CH3O",
+    kinetics=Arrhenius(A=(1345.32, 'm^3/(mol*s)'), n=0, Ea=(27.4897, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    longDesc=
+    """
+sr1013
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=4002,
+    label="OHCH2OO + CH3OH <=> OHCH2OOH + CH2OH",
+    degeneracy=1.0,
+    kinetics=Arrhenius(A=(1294.06, 'm^3/(mol*s)'), n=0, Ea=(48.9729, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    longDesc=
+    """
+sr1014
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=4003,
+    label = "OHCH2OO + CH3OH <=> OHCH2OOH + CH3O",
+    kinetics = Arrhenius(A=(1892.93,'m^3/(mol*s)'), n=0, Ea=(84.6081,'kJ/mol'),
+                     T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    longDesc=
+    """
+sr1015
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=4004,
+    label='OHCH2OO + H2O2 <=> OHCH2OOH + HO2',
+    degeneracy=2.0,
+    kinetics=Arrhenius(A=(33.7285, 'm^3/(mol*s)'), n=0, Ea=(30.0542, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    longDesc=
+    """
+sr1016
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2tzvp in vacuum (freq scale factor: 0.988)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=4003,
     label="CH3OOH + cyanoisopropylOO <=> CH3OO + cyanoisopropylOOH",
     degeneracy=1.0,
     kinetics=Arrhenius(A=(6.59209e-07, 'cm^3/(mol*s)'), n=5.23714, Ea=(20.5943, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""CBS-QB3 + PCM""",
     longDesc=
     """
 CBS-QB3 PCM water
@@ -445,25 +711,12 @@ pivots: [5, 9], dihedral: [6, 5, 9, 10], rotor symmetry: 3, max scan energy: 7.1
 )
 
 entry(
-    index=28,
-    label="H2O + cyanoisopropylOOH <=> H2O2 + cyanoisopropylOH",
-    degeneracy=1.0,
-    kinetics=Arrhenius(A=(6e+16, 'cm^3/(mol*s)'), n=0, Ea=(25, 'kcal/mol'),
-                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-    longDesc=
-    """
-sr1011
-
-Estimated from the hydroperoxide_to_alcohol family
-""",
-)
-
-entry(
-    index=29,
+    index=4014,
     label="OHCH2OO + CH3OOH <=> OHCH2OOH + CH3OO",
     degeneracy=1.0,
     kinetics=Arrhenius(A=(3.66421e-09, 'cm^3/(mol*s)'), n=5.91097, Ea=(22.4993, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""CBS-QB3 + PCM""",
     longDesc=
     """
 CBS-QB3 PCM water
@@ -495,11 +748,12 @@ pivots: [9, 13], dihedral: [10, 9, 13, 14], rotor symmetry: 3, max scan energy: 
 )
 
 entry(
-    index=30,
+    index=4015,
     label="OH + CH3OCH2OOH <=> CH3O + OHCH2OOH",
     degeneracy=1.0,
     kinetics=Arrhenius(A=(113.383, 'cm^3/(mol*s)'), n=3.37577, Ea=(254.75, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
                        Tmax=(350, 'K')),
+    shortDesc=u"""CBS-QB3 + SMD""",
     longDesc=
     """
 CBS-QB3 SMD water, all TS rotors were invalidated
@@ -523,322 +777,43 @@ H      -0.14171000    1.31562500   -0.66618400
 )
 
 entry(
-    index=31,
-    label="cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4",
-    kinetics=Arrhenius(A=(1.1e+7, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K')),
-    longDesc=
-    """
-Based on https://doi.org/10.1134/S0023158416010031
-for 1,1-dimethylpropyl peroxy radicals recombination in polar solvents (water, methanol)
-
-The measured rate constants of recombination at 298 K are
-k = 0.5 * (3.9 ± 0.4) × 1E+7 cm^3/(mol*s) for water, and
-k = 0.5 * (5.2 ± 0.5) × 1E+6 cm^3/(mol*s) for methanol.
-
-using an average: 1.1E+7
-
-RMG's estimate is:
-Arrhenius(A=(5.32385e+10, 'cm^3/(mol*s)'), n=0.35, Ea=(0, 'kJ/mol'))
-""",
-)
-
-entry(
-    index=32,
-    label="cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2",
-    kinetics=Arrhenius(A=(4.5e+16, 's^-1'), n=0.0, Ea=(72.35, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-Taken from
-SERGEY L. KHURSAN, Organic tetroxides and mechanism of peroxy radical recombination,
-doi: 10.1002/9780470682531.pat0827
-Table 3, an average of sources 66 and 79
-""",
-)
-
-entry(
-    index=33,
-    label="HO2 + OHCH2OO <=> H2O + O2 + OHCHO",
-    degeneracy=1.0,
-    kinetics=Arrhenius(A=(1.1e+9, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K')),
-    longDesc=
-    """
-rate taken as 100x the RDS of:
-cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2
-""",
-)
-
-entry(
-    index=34,
-    label="HO2 + cyanoisopropylOO <=> OH + O2 + cyanoisopropylO",
-    degeneracy=1.0,
-    kinetics=Arrhenius(A=(1.1e+7, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K')),
-    longDesc=
-    """
-rate taken from RDS of:
-cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4 <=> cyanoisopropylO + cyanoisopropylO + O2
-""",
-)
-
-entry(
-    index=35,
-    label="H2O2 + cyanoisopropylOO <=> HO2 + cyanoisopropylOOH",
-    degeneracy=1.0,
-    kinetics=Arrhenius(A=(1013.78, 'm^3/(mol*s)'), n=0, Ea=(23.9464, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-sr1009
-
-Calculated by ACS using multiple-structure local-harmonic 
-conventional transition state theory with Eckart tunneling 
-(MS-LH-CTST/Eckart).
-
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
-Solvent: H2O:MeOH = 0.7:0.3 (mol%)
-""",
-)
-
-entry(
-    index=36,
-    label="OHCH2OO + OHCH2OO <=> OHCHO + OHCHO + H2O2",
-    kinetics=Arrhenius(A=(7.92e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(2.772, 'kcal/mol'),
-                       T0=(1, 'K'), Tmin=(278, 'K'), Tmax=(331, 'K')),
-    longDesc=
-    """
-Source for rate (experimental, pH=7):
-R.E. Huie, C.L. Clifton
-Kinetics of the self-reaction of hydromethylperoxyl radicals
-Chemical Physics Letters 1993, 205
-https://doi.org/10.1016/0009-2614(93)89222-4
-
-This pathway is also supported by:
-https://doi.org/10.1016/S1352-2310(00)00191-6
-""",
-)
-
-entry(
-    index=37,
-    label="OHCH2OO + OHCH2OO <=> OHCHO + OHCH2OH + O2",
-    kinetics=Arrhenius(A=(7.92e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(2.772, 'kcal/mol'),
-                       T0=(1, 'K'), Tmin=(278, 'K'), Tmax=(331, 'K')),
-    longDesc=
-    """
-Set to 10% of the main channel yielding OHCHO + OHCHO + H2O2
-https://doi.org/10.1016/0009-2614(93)89222-4
-""",
-)
-
-entry(
-    index=38,
-    label="OHCH2OO + OHCH2OO <=> OHCH2O + OHCH2O + O2",
-    kinetics=Arrhenius(A=(7.92e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(2.772, 'kcal/mol'),
-                       T0=(1, 'K'), Tmin=(278, 'K'), Tmax=(331, 'K')),
-    longDesc=
-    """
-Set to 1% of the main channel yielding OHCHO + OHCHO + H2O2
-""",
-)
-
-entry(
-    index=39,
-    label="OHCH2OO + cyanoisopropylOO <=> OHCH2O + cyanoisopropylO + O2",
-    kinetics=Arrhenius(A=(1.1e+7, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K')),
-    longDesc=
-    """
-Taken as:
-cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4
-(rate could be improved)
-""",
-)
-
-entry(
-    index=40,
-    label="OHCH2OOH + cyanoisopropylOO <=> OHCH2OO + cyanoisopropylOOH",
-    kinetics=Arrhenius(A=(143.492, 'm^3/(mol*s)'), n=0, Ea=(25.9299, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-sr1010
-
-Calculated by ACS using multiple-structure local-harmonic 
-conventional transition state theory with Eckart tunneling 
-(MS-LH-CTST/Eckart).
-
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
-Solvent: H2O:MeOH = 0.7:0.3 (mol%)
-""",
-)
-
-entry(
-    index=41,
-    label="OHCH2O + CH3OH <=> OHCH2OH + CH2OH",
-    kinetics=Arrhenius(A=(170530, 'm^3/(mol*s)'), n=0, Ea=(5.493, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-sr1012
-
-Calculated by ACS using multiple-structure local-harmonic 
-conventional transition state theory with Eckart tunneling 
-(MS-LH-CTST/Eckart).
-
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
-Solvent: H2O:MeOH = 0.7:0.3 (mol%)
-""",
-)
-
-entry(
-    index=42,
-    label="OHCH2O + CH3OH <=> OHCH2OH + CH3O",
-    kinetics=Arrhenius(A=(18638.8, 'm^3/(mol*s)'), n=0, Ea=(31.9596, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-sr1013
-
-Calculated by ACS using multiple-structure local-harmonic 
-conventional transition state theory with Eckart tunneling 
-(MS-LH-CTST/Eckart).
-
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
-Solvent: H2O:MeOH = 0.7:0.3 (mol%)
-""",
-)
-
-entry(
-    index=43,
-    label="OHCH2O <=> OHCHO + H",
-    kinetics=Arrhenius(A=(1e14, 's^-1'), n=0.0, Ea=(62.34, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-sr1018
-
-NOx2018
-""",
-)
-
-entry(
-    index=44,
+    index=4016,
     label='OHCHOH + OHCH2OOH <=> OHCH2OH + OHCH2OO',
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(5.04944e+07, 'cm^3/(mol*s)'), n=0, Ea=(17.4814, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K')),
+    kinetics=Arrhenius(A=(5.04944e+07, 'cm^3/(mol*s)'), n=0, Ea=(17.4814, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSDS(T) + APFD SMD""",
     longDesc=
     """
-dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction 
+Calculated using ARC
+DLPNO-CCSD(T)/def2tZVP//wB97XD/def2tZVP with APFD SMD water for solvation sp correction 
 """,
 )
 
 entry(
-    index=45,
+    index=4017,
     label='OHCHOH + cyanoisopropylOOH <=> OHCH2OH + cyanoisopropylOO',
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(8.90093e+07, 'cm^3/(mol*s)'), n=0, Ea=(23.8264, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K')),
+    kinetics=Arrhenius(A=(8.90093e+07, 'cm^3/(mol*s)'), n=0, Ea=(23.8264, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSDS(T) + APFD SMD""",
     longDesc=
     """
-dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction 
+Calculated using ARC
+DLPNO-CCSD(T)/def2tZVP//wB97XD/def2tZVP with APFD SMD water for solvation sp correction 
 """,
 )
 
 entry(
-    index=46,
+    index=4018,
     label='CH2O + cyanoisopropylOO <=> CHO + cyanoisopropylOOH',
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(9.25121e+08, 'cm^3/(mol*s)'), n=0, Ea=(41.2887, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
-                       Tmax=(350, 'K')),
-    longDesc=
-    """
-dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction 
-""",
-)
-
-entry(
-    index=47,
-    label='CH2OH + cyanoisopropylOO <=> CH2O + cyanoisopropylOOH',
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.21e13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'),
+    kinetics=Arrhenius(A=(9.25121e+08, 'cm^3/(mol*s)'), n=0, Ea=(41.2887, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    shortDesc=u"""DLPNO-CCSDS(T) + APFD SMD""",
     longDesc=
     """
-sr1008
-
-estimated using RMG's website
-""",
-)
-
-entry(
-    index=48,
-    label='H2O2 + OHCH2OO <=> HO2 + OHCH2OOH',
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(3579.97, 'm^3/(mol*s)'), n=0, Ea=(32.2689, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-sr1016
-
-Calculated by ACS using multiple-structure local-harmonic 
-conventional transition state theory with Eckart tunneling 
-(MS-LH-CTST/Eckart).
-
-Optfreq: CBS-QB3 in vacuum
-SP: CBS-QB3 + Cosmo-RS TZVPD-Fine 
-Solvent: H2O:MeOH = 0.7:0.3 (mol%)
-""",
-)
-
-entry(
-    index=49,
-    label='CH2OH + OHCH2OO <=> CH2O + OHCH2OOH',
-    degeneracy=2.0,
-    kinetics=Arrhenius(A=(1.21e13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-sr1017
-
-estimated from the RMG website
-""",
-)
-
-entry(
-    index=50,
-    label="CH2OH + O2 <=> CH2O + HO2",
-    kinetics=Arrhenius(A=(7.23e+13, 'cm^3/(mol*s)'), n=0, Ea=(3736, 'cal/mol'), T0=(1, 'K')),
-    longDesc=
-    u"""
-https://doi.org/10.1063/1.1748524
-p. 37
-Keeping only the second term
-""",
-)
-
-entry(
-    index=51,
-    label="H + H <=> H2",
-    kinetics=Arrhenius(A=(1.0e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc=
-    u"""
-Should be fast in liquid phase, WHG est.
-""",
-)
-
-entry(
-    index=52,
-    label="O2 + H <=> HO2",
-    kinetics=Arrhenius(A=(4.7e+12, 'cm^3/(mol*s)'), n=0.440, Ea=(0.0, 'cal/mol'), T0=(1, 'K')),
-    longDesc=
-    u"""
-Klippenstein_Glarborg2016
-Probably high-P VTST
+Calculated using ARC
+DLPNO-CCSD(T)/def2tZVP//wB97XD/def2tZVP with APFD SMD water for solvation sp correction 
 """,
 )
