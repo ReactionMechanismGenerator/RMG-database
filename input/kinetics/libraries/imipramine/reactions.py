@@ -377,17 +377,10 @@ entry(
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
                          comment="""Fitted to 76 data points; dA = *|/ 1.07057, dn = +|- 0, dEa = +|- 0.175867 kJ/mol"""),
-    shortDesc = u"""MS-TST rate based on fragment""",
+    shortDesc = u"""Estimation""",
     longDesc =
 """
-Estimated from 1016
-
-Calculated by ACS using multiple-structure local-harmonic 
-conventional transition state theory with Eckart tunneling 
-(MS-LH-CTST/Eckart).
-Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
-SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
-Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+Copied from 1016.
 """,
 )
 
