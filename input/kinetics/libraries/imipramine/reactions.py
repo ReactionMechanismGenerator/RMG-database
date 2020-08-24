@@ -370,7 +370,7 @@ entry(
     index = 1017,
     label = "imipramine_5_oo <=> imipramine_5_ooh_5_rad",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(7.71798e+07,'s^-1'), 
+    kinetics = Arrhenius(A=(7.71798e+06,'s^-1'), 
                          n=0, 
                          Ea=(43.1147,'kJ/mol'), 
                          T0=(1,'K'), 
@@ -380,6 +380,8 @@ entry(
     shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
 """
+A factor adjusted to be 100 times lower 
+
 Calculated by ACS using multiple-structure local-harmonic 
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
