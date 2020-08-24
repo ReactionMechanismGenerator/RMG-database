@@ -372,7 +372,7 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.18089e+08,'s^-1'), 
                          n=0, 
-                         Ea=(53.1147,'kJ/mol'), 
+                         Ea=(63.6186,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
