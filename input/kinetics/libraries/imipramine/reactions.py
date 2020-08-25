@@ -250,9 +250,9 @@ entry(
     index = 1010,
     label = "imipramine_2_oo + CH3OH <=> imipramine_2_ooh + CH2OH",
     degeneracy = 3.0,
-    kinetics = Arrhenius(A=(1.35515e-07,'m^3/(mol*s)'), 
+    kinetics = Arrhenius(A=(6.02654,'m^3/(mol*s)'), 
                          n=0, 
-                         Ea=(113.076,'kJ/mol'), 
+                         Ea=(39.3944,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -274,9 +274,9 @@ entry(
     index = 1011,
     label = "imipramine_5_oo + CH3OH <=> imipramine_5_ooh + CH2OH",
     degeneracy = 3.0,
-    kinetics = Arrhenius(A=(3.65724e-06,'m^3/(mol*s)'), 
+    kinetics = Arrhenius(A=(73.3098,'m^3/(mol*s)'), 
                          n=0, 
-                         Ea=(127.668,'kJ/mol'), 
+                         Ea=(50.8673,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -298,9 +298,9 @@ entry(
     index = 1014,
     label = "imipramine_4_oo + CH3OH <=> imipramine_4_ooh + CH2OH",
     degeneracy = 3.0,
-    kinetics = Arrhenius(A=(7.69603e-05,'m^3/(mol*s)'), 
+    kinetics = Arrhenius(A=(558.874,'m^3/(mol*s)'), 
                          n=0, 
-                         Ea=(141.246,'kJ/mol'), 
+                         Ea=(60.2925,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -370,17 +370,23 @@ entry(
     index = 1017,
     label = "imipramine_5_oo <=> imipramine_5_ooh_5_rad",
     degeneracy = 3.0,
-    kinetics = Arrhenius(A=(2.18089e+08,'s^-1'), 
+    kinetics = Arrhenius(A=(7.71798e+08,'s^-1'), 
                          n=0, 
-                         Ea=(63.6186,'kJ/mol'), 
+                         Ea=(43.1147,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
                          comment="""Fitted to 76 data points; dA = *|/ 1.07057, dn = +|- 0, dEa = +|- 0.175867 kJ/mol"""),
-    shortDesc = u"""Estimation""",
+    shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
 """
-Copied from 1016.
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
