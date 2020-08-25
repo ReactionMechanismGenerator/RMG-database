@@ -162,6 +162,17 @@ est.
 )
 
 entry(
+    index=99999,
+    label="OHCH2OOH <=> CH2O + H2O2",
+    kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+est.
+""",
+)
+
+entry(
     index=13,
     label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH2OH",
     kinetics=Arrhenius(A=(20715.6, 'm^3/(mol*s)'), n=0, Ea=(52.3057, 'kJ/mol'),
