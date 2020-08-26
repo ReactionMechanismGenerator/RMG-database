@@ -173,6 +173,39 @@ est.
 )
 
 entry(
+    index=99998,
+    label="OHCH2OH + H2O2 <=> HCOOH + H2O + H2O",
+    kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+est.
+""",
+)
+
+entry(
+    index=99997,
+    label="HCOOH + H2O2 <=> H2CO3 + H2O",
+    kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+est.
+""",
+)
+
+entry(
+    index=99997,
+    label="H2CO3 <=> CO2 + H2O",
+    kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+est.
+""",
+)
+
+entry(
     index=13,
     label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH2OH",
     kinetics=Arrhenius(A=(20715.6, 'm^3/(mol*s)'), n=0, Ea=(52.3057, 'kJ/mol'),
