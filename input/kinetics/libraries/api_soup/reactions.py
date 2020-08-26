@@ -163,7 +163,7 @@ est.
 
 entry(
     index=99999,
-    label="OHCH2OOH <=> CH2O + H2O2",
+    label="OHCH2OOH <=> HCOOH + H2O",
     kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
