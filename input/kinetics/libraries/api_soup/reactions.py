@@ -195,7 +195,7 @@ est.
 )
 
 entry(
-    index=99997,
+    index=99996,
     label="H2CO3 <=> CO2 + H2O",
     kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
