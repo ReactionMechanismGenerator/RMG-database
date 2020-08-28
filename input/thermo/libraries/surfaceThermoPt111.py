@@ -1225,10 +1225,9 @@ entry(
     label = "CN_ads",
     molecule =
 """
-1 X  u0  p0 c0 {3,D}
-2 X  u0  p0 c0 {4,S}
-3 C  u0  p0 c0 {1,D} {4,D}
-4 N  u0  p1 c0 {2,S} {3,D}
+1 X  u0  p0 c0 {2,S}
+2 C  u0  p0 c0 {1,S} {3,T}
+3 N  u0  p1 c0 {2,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -1241,7 +1240,7 @@ entry(
     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.340 eV.
-            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = -0.13303 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.333.""",
+            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.64671 eV, gamma_C(X) = 0.250.""",
     metal = "Pt",
     facet = "111",
 )
