@@ -295,16 +295,16 @@ https://pubs.acs.org/doi/pdf/10.1021/ie00026a03
 """,
 )
 
-entry(
-    index=99987,
-    label="OHCHO <=> CO + H2O",
-    kinetics=Arrhenius(A=(1e3, 's^-1'), n=0, Ea=(7.9, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u""" """,
-    longDesc=
-    u"""
-https://chemrxiv.org/articles/preprint/Kinetics_of_Formic_Acid_Decomposition_in_Subcritical_and_Supercritical_Water_-_A_Raman_Spectroscopic_Study/7675928/1
-""",
-)
+# entry(
+#     index=99987,
+#     label="OHCHO <=> CO + H2O",
+#     kinetics=Arrhenius(A=(1e3, 's^-1'), n=0, Ea=(7.9, 'kcal/mol'), T0=(1, 'K')),
+#     shortDesc=u""" """,
+#     longDesc=
+#     u"""
+# https://chemrxiv.org/articles/preprint/Kinetics_of_Formic_Acid_Decomposition_in_Subcritical_and_Supercritical_Water_-_A_Raman_Spectroscopic_Study/7675928/1
+# """,
+# )
 
 entry(
     index=99986,
