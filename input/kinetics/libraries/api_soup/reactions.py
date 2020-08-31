@@ -163,7 +163,7 @@ est.
 
 entry(
     index=99999,
-    label="OHCH2OOH <=> HCOOH + H2O",
+    label="OHCH2OOH <=> OHCHO + H2O",
     kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
@@ -176,7 +176,7 @@ https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/1521-3765%2820
 
 # entry(
 #     index=99998,
-#     label="OHCH2OH + H2O2 <=> HCOOH + H2O + H2O",
+#     label="OHCH2OH + H2O2 <=> OHCHO + H2O + H2O",
 #     kinetics=Arrhenius(A=(1e10, 'cm^3/(mol*s)'), n=0, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
 #     shortDesc=u""" """,
 #     longDesc=
@@ -187,7 +187,7 @@ https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/1521-3765%2820
 
 entry(
     index=99997,
-    label="HCOOH + H2O2 <=> HCOOOH + H2O",
+    label="OHCHO + H2O2 <=> HCOOOH + H2O",
     kinetics=Arrhenius(A=(2.89e4, 'cm^3/(mol*s)'), n=0, Ea=(43.52, 'kJ/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
@@ -218,16 +218,16 @@ https://link.springer.com/content/pdf/10.1007/s11426-007-0048-2.pdf
 """,
 )
 
-entry(
-    index=99994,
-    label="OHCH2O <=> HCOOH + H",
-    kinetics=Arrhenius(A=(4.1e4, 's^-1'), n=0.0, Ea=(0, 'kJ/mol'),
-                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    longDesc=
-    """
-https://pubs.acs.org/doi/suppl/10.1021/acs.jpca.8b04577/suppl_file/jp8b04577_si_001.pdf
-""",
-)
+# entry(
+#     index=99994,
+#     label="OHCH2O <=> OHCHO + H",
+#     kinetics=Arrhenius(A=(4.1e4, 's^-1'), n=0.0, Ea=(0, 'kJ/mol'),
+#                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+#     longDesc=
+#     """
+# https://pubs.acs.org/doi/suppl/10.1021/acs.jpca.8b04577/suppl_file/jp8b04577_si_001.pdf
+# """,
+# )
 
 entry(
     index=99993,
@@ -264,7 +264,7 @@ https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577
 
 entry(
     index=99990,
-    label="OHCH2OOH + OH <=> HCOOH + OH + H2O",
+    label="OHCH2OOH + OH <=> OHCHO + OH + H2O",
     kinetics=Arrhenius(A=(2.331e12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
@@ -286,7 +286,7 @@ Ind. Eng. Chem. Res. 2009, 48, 1372-1375
 
 entry(
     index=99988,
-    label="CH2O + H2O2 <=> HCOOH + H2O",
+    label="CH2O + H2O2 <=> OHCHO + H2O",
     kinetics=Arrhenius(A=(1.79e8, 'cm^3/(mol*s)'), n=0, Ea=(36, 'kJ/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
@@ -297,7 +297,7 @@ https://pubs.acs.org/doi/pdf/10.1021/ie00026a03
 
 entry(
     index=99987,
-    label="HCOOH <=> CO + H2O",
+    label="OHCHO <=> CO + H2O",
     kinetics=Arrhenius(A=(1e3, 's^-1'), n=0, Ea=(7.9, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
@@ -308,7 +308,7 @@ https://chemrxiv.org/articles/preprint/Kinetics_of_Formic_Acid_Decomposition_in_
 
 entry(
     index=99986,
-    label="HCOOH <=> CO2 + H2",
+    label="OHCHO <=> CO2 + H2",
     kinetics=Arrhenius(A=(1e7, 's^-1'), n=0, Ea=(19.93, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
