@@ -84,9 +84,9 @@ entry(
     index = 1001,
     label = "imipramine + OHCH2OO <=> imipramine_2_rad + OHCH2OOH",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(8.07986,'m^3/(mol*s)'), 
+    kinetics = Arrhenius(A=(9416.35,'m^3/(mol*s)'), 
                          n=0, 
-                         Ea=(27.7183,'kJ/mol'), 
+                         Ea=(43.8278,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -94,6 +94,8 @@ entry(
     shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
 u"""
+Copied from 1003
+
 Calculated by ACS using multiple-structure local-harmonic 
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
@@ -250,9 +252,9 @@ entry(
     index = 1010,
     label = "imipramine_2_oo + CH3OH <=> imipramine_2_ooh + CH2OH",
     degeneracy = 3.0,
-    kinetics = Arrhenius(A=(6.02654,'m^3/(mol*s)'), 
+    kinetics = Arrhenius(A=(558.874,'m^3/(mol*s)'), 
                          n=0, 
-                         Ea=(39.3944,'kJ/mol'), 
+                         Ea=(60.2925,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -260,6 +262,8 @@ entry(
     shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
 """
+Copied from 1014
+
 Calculated by ACS using multiple-structure local-harmonic 
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
@@ -370,9 +374,9 @@ entry(
     index = 1017,
     label = "imipramine_5_oo <=> imipramine_5_ooh_5_rad",
     degeneracy = 3.0,
-    kinetics = Arrhenius(A=(7.71798e+08,'s^-1'), 
+    kinetics = Arrhenius(A=(2.18089e+08,'s^-1'), 
                          n=0, 
-                         Ea=(43.1147,'kJ/mol'), 
+                         Ea=(63.6186,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -380,6 +384,8 @@ entry(
     shortDesc = u"""MS-TST rate based on fragment""",
     longDesc =
 """
+Copied from 1016, should be slower than 1016.
+
 Calculated by ACS using multiple-structure local-harmonic 
 conventional transition state theory with Eckart tunneling 
 (MS-LH-CTST/Eckart).
@@ -396,7 +402,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), 
                          n=2, 
-                         Ea=(60,'kJ/mol'), 
+                         Ea=(20,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -409,12 +415,12 @@ Estimated based on amide alcoholysis training reactions. Ea is high on purpose t
 )
 
 entry(
-    index = 99997,
-    label = "imipramine_2_od_4_ooh + CH3OH <=> imipramine_tail_acetate_2 + iminobibenzyl",
+    index = 99888,
+    label = "imipramine_2_od_4_od + H2O <=> imipramine_tail_acetate_3 + iminobibenzyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), 
                          n=2, 
-                         Ea=(60,'kJ/mol'), 
+                         Ea=(20,'kJ/mol'), 
                          T0=(1,'K'), 
                          Tmin=(275,'K'), 
                          Tmax=(350,'K'), 
@@ -425,6 +431,24 @@ entry(
 Estimated based on amide alcoholysis training reactions. Ea is high on purpose to avoid endothermicity correction
 """,
 )
+
+# entry(
+#     index = 99997,
+#     label = "imipramine_2_od_4_ooh + CH3OH <=> imipramine_tail_acetate_2 + iminobibenzyl",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), 
+#                          n=2, 
+#                          Ea=(60,'kJ/mol'), 
+#                          T0=(1,'K'), 
+#                          Tmin=(275,'K'), 
+#                          Tmax=(350,'K'), 
+#                          comment="""Fitted to 76 data points; dA = *|/ 1.07057, dn = +|- 0, dEa = +|- 0.175867 kJ/mol"""),
+#     shortDesc = u"""Estimated""",
+#     longDesc =
+# """
+# Estimated based on amide alcoholysis training reactions. Ea is high on purpose to avoid endothermicity correction
+# """,
+# )
 
 entry(
     index = 99996,
@@ -450,6 +474,32 @@ entry(
     longDesc =
 """
 10x than training reaction estimation.
+""",
+)
+
+entry(
+    index = 99990,
+    label = "imipramine_1_oo + CH3OH <=> imipramine_1_ooh + CH2OH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(558.874,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(60.2925,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.27364, dn = +|- 0, dEa = +|- 0.623798 kJ/mol"""),
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Copied from 1014
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 """,
 )
 
