@@ -220,7 +220,7 @@ https://link.springer.com/content/pdf/10.1007/s11426-007-0048-2.pdf
 
 entry(
     index=99985,
-    label="CH2OO <=> HCOOH",
+    label="CH2OO <=> OHCHO",
     kinetics=Arrhenius(A=(1e12, 's^-1'), n=0.63, Ea=(206, 'kJ/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
