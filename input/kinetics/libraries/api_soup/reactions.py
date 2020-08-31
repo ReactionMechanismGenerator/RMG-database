@@ -141,11 +141,11 @@ entry(
 entry(
     index=11,
     label="OHCH2OO <=> CH2O + HO2",
-    kinetics=Arrhenius(A=(6.38e+12, 's^-1'), n=0, Ea=(29.45, 'kcal/mol'), T0=(1, 'K')),
+    kinetics=Arrhenius(A=(1.28e+12, 's^-1'), n=0, Ea=(13.5, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
     u"""
-Hermans et al. 2005 (doi:10.1021/jp044080v) G2M calculations
+Hermans et al. 2005 (doi:10.1021/jp044080v) G2M calculations Table 7
 Training reaction in HO2_Elimination_from_PeroxyRadical 
 """,
 )
@@ -153,24 +153,24 @@ Training reaction in HO2_Elimination_from_PeroxyRadical
 entry(
     index=12,
     label="OHCH2OOH <=> CH2O + H2O2",
-    kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    kinetics=Arrhenius(A=(5.5e-6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
     u"""
-est.
+(1) https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577, pg 6295
 """,
 )
 
 entry(
     index=99999,
     label="OHCH2OOH <=> OHCHO + H2O",
-    kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    kinetics=Arrhenius(A=(4.5e-6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
     u"""
-est.
-https://www.sciencedirect.com/science/article/abs/pii/S1352231096003226?via%3Dihub
-https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/1521-3765%2820010518%297%3A10%3C2227%3A%3AAID-CHEM2227%3E3.0.CO%3B2-O
+(1) https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577, pg 6295
+(2) FORMATION OF HYDROXYMETHYL HYDROPEROXIDE AND FORMIC ACID IN ALKENE OZONOLYSIS IN THE PRESENCE OF WATER VAPOUR, Figure 4 Caption
+https://www.sciencedirect.com/science/article/abs/pii/S1352231096003226 (8e^-4)
 """,
 )
 
@@ -215,6 +215,17 @@ entry(
     longDesc=
     u"""
 https://link.springer.com/content/pdf/10.1007/s11426-007-0048-2.pdf
+""",
+)
+
+entry(
+    index=99985,
+    label="CH2OO <=> HCOOH",
+    kinetics=Arrhenius(A=(1e12, 's^-1'), n=0.63, Ea=(206, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://link.springer.com/content/pdf/10.1007/s00214-016-1894-9.pdf
 """,
 )
 
