@@ -169,28 +169,30 @@ entry(
     longDesc=
     u"""
 est.
+https://www.sciencedirect.com/science/article/abs/pii/S1352231096003226?via%3Dihub
+https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/1521-3765%2820010518%297%3A10%3C2227%3A%3AAID-CHEM2227%3E3.0.CO%3B2-O
 """,
 )
 
-entry(
-    index=99998,
-    label="OHCH2OH + H2O2 <=> HCOOH + H2O + H2O",
-    kinetics=Arrhenius(A=(1e10, 'cm^3/(mol*s)'), n=0, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u""" """,
-    longDesc=
-    u"""
-est.
-""",
-)
+# entry(
+#     index=99998,
+#     label="OHCH2OH + H2O2 <=> HCOOH + H2O + H2O",
+#     kinetics=Arrhenius(A=(1e10, 'cm^3/(mol*s)'), n=0, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
+#     shortDesc=u""" """,
+#     longDesc=
+#     u"""
+# est.
+# """,
+# )
 
 entry(
     index=99997,
-    label="HCOOH + H2O2 <=> H2CO3 + H2O",
-    kinetics=Arrhenius(A=(1e10, 'cm^3/(mol*s)'), n=0, Ea=(2, 'kcal/mol'), T0=(1, 'K')),
+    label="HCOOH + H2O2 <=> HCOOOH + H2O",
+    kinetics=Arrhenius(A=(2.89e4, 'cm^3/(mol*s)'), n=0, Ea=(43.52, 'kJ/mol'), T0=(1, 'K')),
     shortDesc=u""" """,
     longDesc=
     u"""
-est.
+Ind. Eng. Chem. Res. 2009, 48, 1372-1375
 """,
 )
 
@@ -202,6 +204,116 @@ entry(
     longDesc=
     u"""
 wikipedia
+""",
+)
+
+entry(
+    index=99995,
+    label="CH2OO + H2O <=> OHCH2OOH",
+    kinetics=Arrhenius(A=(3.14e7, 'cm^3/(mol*s)'), n=0, Ea=(43.35, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://link.springer.com/content/pdf/10.1007/s11426-007-0048-2.pdf
+""",
+)
+
+entry(
+    index=99994,
+    label="OHCH2O <=> HCOOH + H",
+    kinetics=Arrhenius(A=(4.1e4, 's^-1'), n=0.0, Ea=(0, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
+    longDesc=
+    """
+https://pubs.acs.org/doi/suppl/10.1021/acs.jpca.8b04577/suppl_file/jp8b04577_si_001.pdf
+""",
+)
+
+entry(
+    index=99993,
+    label="OCH2OOH <=> CH2O + HO2",
+    kinetics=Arrhenius(A=(4.4e-2, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/suppl/10.1021/acs.jpca.8b04577/suppl_file/jp8b04577_si_001.pdf
+""",
+)
+
+entry(
+    index=99992,
+    label="OCH2OOH <=> HCOOOH + H",
+    kinetics=Arrhenius(A=(4.1e4, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/suppl/10.1021/acs.jpca.8b04577/suppl_file/jp8b04577_si_001.pdf
+""",
+)
+
+entry(
+    index=99991,
+    label="OHCH2OOH + OH <=> CH2O + HO2 + H2O",
+    kinetics=Arrhenius(A=(2.849e12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577
+""",
+)
+
+entry(
+    index=99990,
+    label="OHCH2OOH + OH <=> HCOOH + OH + H2O",
+    kinetics=Arrhenius(A=(2.331e12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577
+""",
+)
+
+entry(
+    index=99989,
+    label="HCOOOH <=> CO2 + H2O",
+    kinetics=Arrhenius(A=(1.44e7, 's^-1'), n=0, Ea=(72.62, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+Ind. Eng. Chem. Res. 2009, 48, 1372-1375
+""",
+)
+
+entry(
+    index=99988,
+    label="CH2O + H2O2 <=> HCOOH + H2O",
+    kinetics=Arrhenius(A=(1.79e8, 'cm^3/(mol*s)'), n=0, Ea=(36, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/pdf/10.1021/ie00026a03
+""",
+)
+
+entry(
+    index=99987,
+    label="HCOOH <=> CO + H2O",
+    kinetics=Arrhenius(A=(1e3, 's^-1'), n=0, Ea=(7.9, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://chemrxiv.org/articles/preprint/Kinetics_of_Formic_Acid_Decomposition_in_Subcritical_and_Supercritical_Water_-_A_Raman_Spectroscopic_Study/7675928/1
+""",
+)
+
+entry(
+    index=99986,
+    label="HCOOH <=> CO2 + H2",
+    kinetics=Arrhenius(A=(1e7, 's^-1'), n=0, Ea=(19.93, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://chemrxiv.org/articles/preprint/Kinetics_of_Formic_Acid_Decomposition_in_Subcritical_and_Supercritical_Water_-_A_Raman_Spectroscopic_Study/7675928/1
 """,
 )
 
