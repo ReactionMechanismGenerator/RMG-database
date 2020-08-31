@@ -459,6 +459,32 @@ entry(
 """,
 )
 
+entry(
+    index = 99990,
+    label = "imipramine_1_oo + CH3OH <=> imipramine_1_ooh + CH2OH",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(558.874,'m^3/(mol*s)'), 
+                         n=0, 
+                         Ea=(60.2925,'kJ/mol'), 
+                         T0=(1,'K'), 
+                         Tmin=(275,'K'), 
+                         Tmax=(350,'K'), 
+                         comment="""Fitted to 76 data points; dA = *|/ 1.27364, dn = +|- 0, dEa = +|- 0.623798 kJ/mol"""),
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Copied from 1014
+
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
 
 
 # entry(
