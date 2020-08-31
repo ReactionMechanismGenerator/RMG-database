@@ -229,16 +229,16 @@ https://link.springer.com/content/pdf/10.1007/s11426-007-0048-2.pdf
 # """,
 # )
 
-entry(
-    index=99993,
-    label="OCH2OOH <=> CH2O + HO2",
-    kinetics=Arrhenius(A=(4.4e-2, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u""" """,
-    longDesc=
-    u"""
-https://pubs.acs.org/doi/suppl/10.1021/acs.jpca.8b04577/suppl_file/jp8b04577_si_001.pdf
-""",
-)
+# entry(
+#     index=99993,
+#     label="OCH2OOH <=> CH2O + HO2",
+#     kinetics=Arrhenius(A=(4.4e-2, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+#     shortDesc=u""" """,
+#     longDesc=
+#     u"""
+# https://pubs.acs.org/doi/suppl/10.1021/acs.jpca.8b04577/suppl_file/jp8b04577_si_001.pdf
+# """,
+# )
 
 entry(
     index=99992,
