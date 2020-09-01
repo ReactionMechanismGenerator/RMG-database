@@ -19,6 +19,9 @@ template(reactants=["Adsorbate", "VacantSite"], products=["Adsorbed"], ownRevers
 
 reverse = "Surface_Desorption_Single"
 
+reactantNum=2
+productNum=1
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*1', 1]
@@ -29,6 +32,7 @@ entry(
     label = "Adsorbate",
     group =
 """
+multiplicity [2]
 1 *1 R u1
 """,
     kinetics = None,
@@ -44,11 +48,34 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 3,
+    label = "N",
+    group =
+"""
+multiplicity [2]
+1 *1 N u1
+""",
+    kinetics = None,
+)
 
+entry(
+    index = 4,
+    label = "N=O",
+    group =
+"""
+multiplicity [2]
+1 *1 N u1 p1 c0 {2,D}
+2    O u0 p2 c0 {1,D}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: Adsorbate
+    L2: N
+        L3: N=O
 
 L1: VacantSite
 """
@@ -56,7 +83,7 @@ L1: VacantSite
 
 
 forbidden(
-    label = "adjacentradical1",
+    label = "adjacentradical",
     group =
 """
 1 *1 R u1 {2,S}
@@ -71,5 +98,18 @@ e.g. this is not allowed:
 .O-O.    -->   .O-O
                   |
    X              X
+""",
+)
+
+forbidden(
+    label = "chargedSpecies",
+    group =
+"""
+1 *1 R u1 c[+1,-1]
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+The adsorbing atom should not have a charge
 """,
 )
