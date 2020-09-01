@@ -19,6 +19,9 @@ template(reactants=["Adsorbate", "VacantSite"], products=["Adsorbed"], ownRevers
 
 reverse = "Surface_Desorption_vdW"
 
+reactantNum=2
+productNum=1
+
 recipe(actions=[
     ['FORM_BOND', '*1', 0, '*2']
 ])
@@ -28,7 +31,8 @@ entry(
     label = "Adsorbate",
     group =
 """
-1 *1 R u0
+multiplicity [1]
+1 *1 R u0 px c0
 """,
     kinetics = None,
 )
@@ -38,7 +42,7 @@ entry(
     label="VacantSite",
     group =
 """
-1 *2 Xv u0
+1 *2 Xv u0 p0 c0
 """,
     kinetics = None,
 )
@@ -53,14 +57,13 @@ L1: VacantSite
 """
 )
 
-
 forbidden(
-    label = "radical",
+    label = "charge",
     group =
 """
-1 R u[1,2,3]
+1 R ux c[+1,-1]
 """,
-    shortDesc = u"""Radicals not allowed""",
+    shortDesc = u"""Charges not allowed""",
     longDesc =
 u"""
 """,
