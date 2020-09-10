@@ -1970,4 +1970,3 @@ entry(
     metal = "Pt",
     facet = "111",
 )
-
