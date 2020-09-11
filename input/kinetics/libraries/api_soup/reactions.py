@@ -444,9 +444,9 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=4002,
     label="cyanoisopropylO + CH3OH <=> cyanoisopropylOH + CH2OH",
-    kinetics=Arrhenius(A=(9.03e+5, 'm^3/(mol*s)'), n=0, Ea=(7.4835, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.08e+6, 'm^3/(mol*s)'), n=0, Ea=(18.1479, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""CBS-QB3""",
+    shortDesc=u"""DLPNO""",
     longDesc=
     u"""
 sr1003
@@ -485,9 +485,9 @@ entry(
     index=4004,
     label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH2OH",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(6.35e4, 'm^3/(mol*s)'), n=0, Ea=(34.1105, 'kJ/mol'),
+    kinetics=Arrhenius(A=(4.29e+9, 'm^3/(mol*s)'), n=0, Ea=(43.8458, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""CBS-QB3""",
+    shortDesc=u"""DLPNO""",
     longDesc=
     """
 sr1006
