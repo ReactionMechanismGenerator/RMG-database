@@ -405,7 +405,7 @@ entry(
     label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH2OH",
     kinetics=Arrhenius(A=(3689.53, 'm^3/(mol*s)'), n=0, Ea=(51.7208, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     u"""
 sr1001
@@ -444,9 +444,9 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=4002,
     label="cyanoisopropylO + CH3OH <=> cyanoisopropylOH + CH2OH",
-    kinetics=Arrhenius(A=(1.08e+06, 'm^3/(mol*s)'), n=0, Ea=(18.1479, 'kJ/mol'),
+    kinetics=Arrhenius(A=(9.03e+5, 'm^3/(mol*s)'), n=0, Ea=(7.4835, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     u"""
 sr1003
@@ -485,9 +485,9 @@ entry(
     index=4004,
     label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH2OH",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(4286.55, 'm^3/(mol*s)'), n=0, Ea=(43.8458, 'kJ/mol'),
+    kinetics=Arrhenius(A=(6.35e4, 'm^3/(mol*s)'), n=0, Ea=(34.1105, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     """
 sr1006
@@ -527,9 +527,9 @@ entry(
     index=4006,
     label="cyanoisopropylOO + H2O2 <=> cyanoisopropylOOH + HO2",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(21.2754, 'm^3/(mol*s)'), n=0, Ea=(25.1551, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.01e+3, 'm^3/(mol*s)'), n=0, Ea=(23.9464, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     """
 sr1009
@@ -546,10 +546,10 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 
 entry(
     index=4007,
-    label="cyanoisopropylOOH + OHCH2OO <=> cyanoisopropylOO + OHCH2OOH",
-    kinetics=Arrhenius(A=(0.61553, 'm^3/(mol*s)'), n=0, Ea=(34.0801, 'kJ/mol'),
+    label="cyanoisopropylOO + OHCH2OOH <=> cyanoisopropylOOH + OHCH2OO",
+    kinetics=Arrhenius(A=(1.43e2, 'm^3/(mol*s)'), n=0, Ea=(25.9299, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     """
 sr1010 reverse
@@ -567,9 +567,9 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=4008,
     label="OHCH2O + CH3OH <=> OHCH2OH + CH2OH",
-    kinetics=Arrhenius(A=(196146, 'm^3/(mol*s)'), n=0, Ea=(20.8185, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.71e+5, 'm^3/(mol*s)'), n=0, Ea=(5.493, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     """
 sr1012
@@ -608,9 +608,9 @@ entry(
     index=4010,
     label="OHCH2OO + CH3OH <=> OHCH2OOH + CH2OH",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(1294.06, 'm^3/(mol*s)'), n=0, Ea=(48.9729, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.42e+4, 'm^3/(mol*s)'), n=0, Ea=(40.2342, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     """
 sr1014
@@ -649,9 +649,9 @@ entry(
     index=4012,
     label='OHCH2OO + H2O2 <=> OHCH2OOH + HO2',
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(33.7285, 'm^3/(mol*s)'), n=0, Ea=(30.0542, 'kJ/mol'),
+    kinetics=Arrhenius(A=(7.62e+2, 'm^3/(mol*s)'), n=0, Ea=(27.0837, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO-CCSD(T)/def2-TZVP + Cosmo-RS TZVPD-Fine""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     """
 sr1016
