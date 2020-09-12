@@ -529,7 +529,7 @@ entry(
     degeneracy=1.0,
     kinetics=Arrhenius(A=(1.01e3, 'm^3/(mol*s)'), n=0, Ea=(23.9464, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""CBS-QB3""",
+    shortDesc=u"""CBS-QB3""",  # !!!!!!! remains CBS-QB3 for now
     longDesc=
     """
 sr1009
@@ -547,9 +547,9 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=4007,
     label="cyanoisopropylOO + OHCH2OOH <=> cyanoisopropylOOH + OHCH2OO",
-    kinetics=Arrhenius(A=(1.43e3, 'm^3/(mol*s)'), n=0, Ea=(25.9299, 'kJ/mol'),
+    kinetics=Arrhenius(A=(7.6e-1, 'm^3/(mol*s)'), n=0, Ea=(29.0963, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""CBS-QB3""",
+    shortDesc=u"""DLPNO""",
     longDesc=
     """
 sr1010
@@ -567,9 +567,9 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=4008,
     label="OHCH2O + CH3OH <=> OHCH2OH + CH2OH",
-    kinetics=Arrhenius(A=(1.71+5, 'm^3/(mol*s)'), n=0, Ea=(5.493, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.96+5, 'm^3/(mol*s)'), n=0, Ea=(20.8185, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""CBS-QB3""",
+    shortDesc=u"""DLPNO""",
     longDesc=
     """
 sr1012
@@ -608,9 +608,9 @@ entry(
     index=4010,
     label="OHCH2OO + CH3OH <=> OHCH2OOH + CH2OH",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(1.42e+4, 'm^3/(mol*s)'), n=0, Ea=(40.2342, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.29e+3, 'm^3/(mol*s)'), n=0, Ea=(48.9729, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""CBS-QB3""",
+    shortDesc=u"""DLPNO""",
     longDesc=
     """
 sr1014
@@ -649,9 +649,9 @@ entry(
     index=4012,
     label='OHCH2OO + H2O2 <=> OHCH2OOH + HO2',
     degeneracy=2.0,
-    kinetics=Arrhenius(A=(7.62e+2, 'm^3/(mol*s)'), n=0, Ea=(27.0837, 'kJ/mol'),
+    kinetics=Arrhenius(A=(3.37e+1, 'm^3/(mol*s)'), n=0, Ea=(30.0542, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""CBS-QB3""",
+    shortDesc=u"""DLPNO""",
     longDesc=
     """
 sr1016
