@@ -403,9 +403,9 @@ cyanoisopropylOO + cyanoisopropylOO <=> cyanoisopropyl2_O4 <=> cyanoisopropylO +
 entry(
     index=4000,
     label="cyanoisopropyl + CH3OH <=> cyanoisopropane + CH2OH",
-    kinetics=Arrhenius(A=(3689.53, 'm^3/(mol*s)'), n=0, Ea=(51.7208, 'kJ/mol'),
+    kinetics=Arrhenius(A=(3.69e+03, 'm^3/(mol*s)'), n=0, Ea=(51.7208, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""CBS-QB3""",
+    shortDesc=u"""DLPNO""",
     longDesc=
     u"""
 sr1001
@@ -485,7 +485,7 @@ entry(
     index=4004,
     label="cyanoisopropylOO + CH3OH <=> cyanoisopropylOOH + CH2OH",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(4.29e+9, 'm^3/(mol*s)'), n=0, Ea=(43.8458, 'kJ/mol'),
+    kinetics=Arrhenius(A=(4.29e+3, 'm^3/(mol*s)'), n=0, Ea=(43.8458, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
     shortDesc=u"""DLPNO""",
     longDesc=
