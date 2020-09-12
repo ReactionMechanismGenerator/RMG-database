@@ -567,9 +567,9 @@ Solvent: H2O:MeOH = 0.7:0.3 (mol%)
 entry(
     index=4008,
     label="OHCH2O + CH3OH <=> OHCH2OH + CH2OH",
-    kinetics=Arrhenius(A=(1.96e+5, 'm^3/(mol*s)'), n=0, Ea=(20.8185, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.71+5, 'm^3/(mol*s)'), n=0, Ea=(5.493, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     """
 sr1012
