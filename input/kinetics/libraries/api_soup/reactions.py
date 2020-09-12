@@ -527,9 +527,9 @@ entry(
     index=4006,
     label="cyanoisopropylOO + H2O2 <=> cyanoisopropylOOH + HO2",
     degeneracy=1.0,
-    kinetics=Arrhenius(A=(2.13e1, 'm^3/(mol*s)'), n=0, Ea=(25.1551, 'kJ/mol'),
+    kinetics=Arrhenius(A=(1.01e3, 'm^3/(mol*s)'), n=0, Ea=(23.9464, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(275, 'K'), Tmax=(350, 'K')),
-    shortDesc=u"""DLPNO""",
+    shortDesc=u"""CBS-QB3""",
     longDesc=
     """
 sr1009
