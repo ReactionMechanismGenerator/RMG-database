@@ -31,12 +31,13 @@ NH3_X
 5 H  u0 p0 c0 {1,S}
 
 NH_X
-1 N u2 p1 c0 {2,S}
+1 N u0 p1 c0 {2,S} {3,D}
 2 H u0 p0 c0 {1,S}
-3 X u0 p0 c0 {1,S}
+3 X u0 p0 c0 {1,D}
+
 
 NH2_X
-1 N u1 p1 c0 {2,S} {3,S}
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 4 X u0 p0 c0 {1,S}

@@ -13,7 +13,7 @@ entry(
     index = 1,
     label = " N2 + X + X <=>  N_X + N_X ",
     kinetics = StickingCoefficient(
-        A=(2.892E-10, 'm^2/(mol*s)'),
+        A=2.892E-10,
         n = 0.,
         Ea = (38.949, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -50,7 +50,7 @@ entry(
     index = 3,
     label = " H2 + X + X <=> H_X + H_X ",
     kinetics = StickingCoefficient(
-        A=(4.007E-7, 'm^2/(mol*s)'),
+        A=4.007E-7,
         n = 0.,
         Ea = (0, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -86,7 +86,7 @@ entry(
     index = 5,
     label = " NH3 + X <=> NH3_X ",
     kinetics = StickingCoefficient(
-        A=(1.247E-9, 'm^2/(mol*s)'),
+        A=1.247E-9,
         n = 0.,
         Ea = (0, 'kJ/mol'),
         Tmin = (298, 'K'),
