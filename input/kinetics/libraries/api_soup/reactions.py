@@ -48,11 +48,11 @@ Reverse rate check: 1.053350e+12 cm^3/(mol*s), close to the diffusion limit of 1
 entry(
     index=1002,
     label="OHCH2OO <=> CH2O + HO2",
-    kinetics=Arrhenius(A=(6.38e+12, 's^-1'), n=0, Ea=(29.45, 'kcal/mol'), T0=(1, 'K')),
+    kinetics=Arrhenius(A=(1.28e+12, 's^-1'), n=0, Ea=(13.5, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""G2M""",
     longDesc=
     u"""
-Hermans et al. 2005, doi:10.1021/jp044080v
+Hermans et al. 2005, doi:10.1021/jp044080v, Table 7
 """,
 )
 
