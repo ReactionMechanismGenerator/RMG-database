@@ -171,6 +171,138 @@ Keeping only the second term
 """,
 )
 
+entry(
+    index=1011,
+    label="OHCH2OOH <=> CH2O + H2O2",
+    kinetics=Arrhenius(A=(5.5e-6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""
+https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577, pg 6295    
+""",
+)
+
+
+entry(
+    index=1012,
+    label="OHCH2OOH <=> OHCHO + H2O",
+    kinetics=Arrhenius(A=(4.5e-6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+(1) https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577, pg 6295
+(2) FORMATION OF HYDROXYMETHYL HYDROPEROXIDE AND FORMIC ACID IN ALKENE OZONOLYSIS IN THE PRESENCE OF WATER VAPOUR, Figure 4 Caption
+https://www.sciencedirect.com/science/article/abs/pii/S1352231096003226 (8e^-4)
+""",
+)
+
+entry(
+    index=1013,
+    label="OHCHO + H2O2 <=> HCOOOH + H2O",
+    kinetics=Arrhenius(A=(2.89e4, 'cm^3/(mol*s)'), n=0, Ea=(43.52, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+Ind. Eng. Chem. Res. 2009, 48, 1372-1375
+""",
+)
+
+entry(
+    index=1014,
+    label="H2CO3 <=> CO2 + H2O",
+    kinetics=Arrhenius(A=(23, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+wikipedia
+""",
+)
+
+entry(
+    index=1015,
+    label="CH2OO + H2O <=> OHCH2OOH",
+    kinetics=Arrhenius(A=(3.14e7, 'cm^3/(mol*s)'), n=0, Ea=(43.35, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://link.springer.com/content/pdf/10.1007/s11426-007-0048-2.pdf
+""",
+)
+
+entry(
+    index=1016,
+    label="CH2OO <=> OHCHO",
+    kinetics=Arrhenius(A=(1e12, 's^-1'), n=0.63, Ea=(206, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://link.springer.com/content/pdf/10.1007/s00214-016-1894-9.pdf
+""",
+)
+
+entry(
+    index=1017,
+    label="OCH2OOH <=> HCOOOH + H",
+    kinetics=Arrhenius(A=(4.1e4, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/suppl/10.1021/acs.jpca.8b04577/suppl_file/jp8b04577_si_001.pdf
+""",
+)
+
+entry(
+    index=1018,
+    label="OHCH2OOH + OH <=> CH2O + HO2 + H2O",
+    kinetics=Arrhenius(A=(2.849e12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577
+""",
+)
+
+entry(
+    index=1019,
+    label="OHCH2OOH + OH <=> OHCHO + OH + H2O",
+    kinetics=Arrhenius(A=(2.331e12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577
+""",
+)
+
+entry(
+    index=1020,
+    label="HCOOOH <=> CO2 + H2O",
+    kinetics=Arrhenius(A=(1.44e7, 's^-1'), n=0, Ea=(72.62, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+Ind. Eng. Chem. Res. 2009, 48, 1372-1375
+""",
+)
+
+entry(
+    index=1021,
+    label="CH2O + H2O2 <=> OHCHO + H2O",
+    kinetics=Arrhenius(A=(1.79e8, 'cm^3/(mol*s)'), n=0, Ea=(36, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://pubs.acs.org/doi/pdf/10.1021/ie00026a03
+""",
+)
+
+entry(
+    index=1022,
+    label="OHCHO <=> CO2 + H2",
+    kinetics=Arrhenius(A=(1e7, 's^-1'), n=0, Ea=(19.93, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u""" """,
+    longDesc=
+    u"""
+https://chemrxiv.org/articles/preprint/Kinetics_of_Formic_Acid_Decomposition_in_Subcritical_and_Supercritical_Water_-_A_Raman_Spectroscopic_Study/7675928/1
+""",
+)
 
 # taken from other RMG libraries
 
@@ -288,13 +420,6 @@ Taken from the CurranPentane library as is.
 
 
 # estimations
-
-entry(
-    index=3000,
-    label="OHCH2OOH <=> CH2O + H2O2",
-    kinetics=Arrhenius(A=(3.16e6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-    shortDesc=u"""est""",
-)
 
 entry(
     index=3001,
