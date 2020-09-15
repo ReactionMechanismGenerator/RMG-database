@@ -2844,41 +2844,41 @@ H      -0.77264600    1.25221700   -1.73675400
 """,
 )
 
-entry(
-    index = 1077,
-    label = "formaldehyde",
-    molecule =
-"""
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 H u0 p0 c0 {2,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[4.03208,-0.001955,9.15091e-06,2.77203e-09,-7.9842e-12,-14479.3,3.46615], Tmin=(10,'K'), Tmax=(596.014,'K')),
-            NASAPolynomial(coeffs=[1.42015,0.00951804,-4.48144e-06,9.71483e-10,-7.77416e-14,-14060.3,15.618], Tmin=(596.014,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-        E0 = (-120.376,'kJ/mol'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (83.1447,'J/(mol*K)'),
-    ),
-    shortDesc = """""",
-    longDesc =
-"""
-Bond corrections: {'C-H': 2, 'C=O': 1}
-
-External symmetry: 2, optical isomers: 1
-
-Geometry:
-C      -0.00568500    0.00008400   -0.00075400
-O       1.17888300   -0.01739800    0.15634400
-H      -0.58907100    0.93989500    0.04447200
-H      -0.58412800   -0.92258000   -0.20006300
-""",
-)
+# entry(
+#     index = 1077,
+#     label = "formaldehyde",
+#     molecule =
+# """
+# 1 O u0 p2 c0 {2,D}
+# 2 C u0 p0 c0 {1,D} {3,S} {4,S}
+# 3 H u0 p0 c0 {2,S}
+# 4 H u0 p0 c0 {2,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[4.03208,-0.001955,9.15091e-06,2.77203e-09,-7.9842e-12,-14479.3,3.46615], Tmin=(10,'K'), Tmax=(596.014,'K')),
+#             NASAPolynomial(coeffs=[1.42015,0.00951804,-4.48144e-06,9.71483e-10,-7.77416e-14,-14060.3,15.618], Tmin=(596.014,'K'), Tmax=(3000,'K')),
+#         ],
+#         Tmin = (10,'K'),
+#         Tmax = (3000,'K'),
+#         E0 = (-120.376,'kJ/mol'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (83.1447,'J/(mol*K)'),
+#     ),
+#     shortDesc = """""",
+#     longDesc =
+# """
+# Bond corrections: {'C-H': 2, 'C=O': 1}
+#
+# External symmetry: 2, optical isomers: 1
+#
+# Geometry:
+# C      -0.00568500    0.00008400   -0.00075400
+# O       1.17888300   -0.01739800    0.15634400
+# H      -0.58907100    0.93989500    0.04447200
+# H      -0.58412800   -0.92258000   -0.20006300
+# """,
+# )
 
 entry(
     index = 1093,
