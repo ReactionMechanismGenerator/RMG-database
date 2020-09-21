@@ -361,142 +361,6 @@ entry(
 )
 
 entry(
-    index = 10003,
-    label = "cyanoisopropylOOH",
-    group =
-"""
-1  N u0 p1 c0 {2,T}
-2  C u0 p0 c0 {1,T} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  *1 O u0 p2 c0 {4,S} {8,S}
-6  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-7  C u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
-8  *2 H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {7,S}
-13 H u0 p0 c0 {7,S}
-14 H u0 p0 c0 {7,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10004,
-    label = "OHOCH2OOH",
-    group =
-"""
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 *1 O u0 p2 c0 {3,S} {8,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 *2 H u0 p0 c0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10025,
-    label = "ROOH_imipramine_1",
-    group =
-"""
-1 *1 O u0 {2,S} {3,S}
-2 *2 H u0 {1,S}
-3    O u0 {1,S} {4,S}
-4    Cs ux {3,S} {5,S} {6,S}
-5    Cb ux {4,S}
-6    Cs ux {4,S} {7,S}
-7    Cb ux {6,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10026,
-    label = "ROOH_imipramine_2",
-    group =
-"""
-1 *1 O u0 {2,S} {3,S}
-2 *2 H u0 {1,S}
-3    O u0 {1,S} {9,S}
-4    N ux {9,S} {7,S} {8,S}
-5    C ux {9,S} {6,S}
-6    C ux {5,S} {10,S}
-7    Cb ux {4,S}
-8    Cb ux {4,S}
-9    Cs ux {3,S} {4,S} {5,S}
-10    N ux {6,S} {11,S} {12,S}
-11    Cs ux {10,S}
-12    Cs ux {10,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10027,
-    label = "ROOH_imipramine_3",
-    group =
-"""
-1 *1 O u0 {2,S} {3,S}
-2 *2 H u0 {1,S}
-3    O u0 {1,S} {8,S}
-4    Cs ux {8,S} {6,S}
-5    Cs ux {8,S} {7,S}
-6    N ux {4,S}
-7    N ux {5,S}
-8    Cs ux {3,S} {4,S} {5,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10028,
-    label = "ROOH_imipramine_4",
-    group =
-"""
-1 *1 O u0 {2,S} {3,S}
-2 *2 H u0 {1,S}
-3    O u0 {1,S} {9,S}
-4    N ux {9,S} {7,S} {8,S}
-5    C ux {9,S} {6,S}
-6    C ux {5,S} {10,S}
-7    Cs ux {4,S}
-8    Cs ux {4,S}
-9    Cs ux {3,S} {4,S} {5,S}
-10    N ux {6,S} {11,S} {12,S}
-11    Cb ux {10,S}
-12    Cb ux {10,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10029,
-    label = "ROOH_imipramine_5",
-    group =
-"""
-1 *1 O u0 {2,S} {3,S}
-2 *2 H u0 {1,S}
-3    O u0 {1,S} {4,S}
-4    Cs ux {3,S} {5,S}
-5    N  ux {4,S} {6,S} {7,S}
-6    Cs ux {5,S}
-7    Cs ux {5,S} {8,S}
-8    Cs ux {7,S} {9,S}
-9    Cs ux {8,S} {10,S}
-10    N ux {9,S} {11,S} {12,S}
-11    Cb ux {10,S}
-12    Cb ux {10,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 30,
     label = "H2O2",
     group = 
@@ -2136,39 +2000,6 @@ entry(
 )
 
 entry(
-    index = 10014,
-    label = "Cs/H3/NonDeN_C_CC",
-    group =
-"""
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
-2    N3s u0 {1,S} {6,S} {8,S}
-3 *2 H   u0 {1,S}
-4    H   u0 {1,S}
-5    H   u0 {1,S}
-6    C   ux {2,S} {7,S}
-7    C   ux {6,S}
-8    C   ux {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10010,
-    label = "Cs/H3/NonDeN_CC",
-    group =
-"""
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
-2    N3s u0 {1,S} {6,S}
-3 *2 H   u0 {1,S}
-4    H   u0 {1,S}
-5    H   u0 {1,S}
-6    C   ux {2,S} {7,S}
-7    C   ux {6,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 151,
     label = "Cs/H3/OneDeN",
     group = 
@@ -2197,21 +2028,6 @@ entry(
 )
 
 entry(
-    index = 10016,
-    label = "C/H2/Cb_CCb",
-    group =
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    Cb u0 {1,S}
-5    C u0 {1,S} {6,S}
-6    Cb u0 {5,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 153,
     label = "C/H2/NonDeC",
     group = 
@@ -2221,22 +2037,6 @@ entry(
 3    H  u0 {1,S}
 4    Cs u0 {1,S}
 5    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10015,
-    label = "C/H2/NonDeC_NN",
-    group =
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    Cs u0 {1,S} {6,S}
-5    Cs u0 {1,S} {7,S}
-6    N3s ux {4,S}
-7    N3s ux {5,S}
 """,
     kinetics = None,
 )
@@ -2493,47 +2293,6 @@ entry(
 )
 
 entry(
-    index = 10011,
-    label = "C/H2/NonDeN_tail",
-    group =
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    N  u0 {1,S} {10,S}
-5    Cs u0 {1,S} {6,S}
-6    C  ux {5,S} {7,S}
-7    N  ux {6,S} {8,S} {9,S}
-8    C  ux {7,S} {11,[S,D,B]}
-9    C  ux {7,S} {12,[S,D,B]}
-10   Cs ux {4,S}
-11   C  ux {8,[S,D,B]}
-12   C  ux {9,[S,D,B]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10012,
-    label = "C/H2/NonDeN_ring",
-    group =
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    N  u0 {1,S} {6,S} {7,S}
-5    Cs u0 {1,S} {8,S}
-6    C  ux {4,S} {10,[S,D,B]}
-7    C  ux {4,S} {11,[S,D,B]}
-8    C  ux {5,S} {9,S}
-9    N3s ux {8,S}
-10   C  ux {6,[S,D,B]}
-11   C  ux {7,[S,D,B]}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 169,
     label = "C/H2/OneDe",
     group = 
@@ -2585,21 +2344,6 @@ entry(
 3    H  u0 {1,S}
 4    Cb u0 {1,S}
 5    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10013,
-    label = "C/H2/CbCs/Cb",
-    group =
-"""
-1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    Cb u0 {1,S}
-5    Cs u0 {1,S} {6,S}
-6    Cb u0 {5,S}
 """,
     kinetics = None,
 )
@@ -4418,38 +4162,6 @@ entry(
 )
 
 entry(
-    index = 10001,
-    label = "cyanoisopropylOO",
-    group =
-"""
-1    O u0 {2,S} {3,S}
-2 *3 O u1 {1,S}
-3    C u0 {1,S} {4,S} {5,S} {6,S}
-4    C ux {3,S}
-5    C ux {3,S}
-6    C ux {3,S} {7,T}
-7    N ux {6,T}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10002,
-    label = "OHCH2OO",
-    group =
-"""
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 *3 O u1 p2 c0 {3,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 306,
     label = "O_rad/NonDeN",
     group = 
@@ -5817,41 +5529,6 @@ entry(
 )
 
 entry(
-    index = 10017,
-    label = "C_rad/H2/NCCCN",
-    group =
-"""
-1 *3 C u1 {2,S} {3,S} {4,S}
-2    H u0 {1,S}
-3    H u0 {1,S}
-4    N u0 {1,S} {5,S}
-5    C u0 {4,S} {6,S}
-6    C u0 {5,S} {7,S}
-7    C u0 {6,S} {8,S}
-8    N u0 {7,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10018,
-    label = "C_rad/H2/NC_CCCN",
-    group =
-"""
-1 *3 C u1 {2,S} {3,S} {4,S}
-2    H u0 {1,S}
-3    H u0 {1,S}
-4    N u0 {1,S} {5,S} {9,S}
-5    C u0 {4,S} {6,S}
-6    C u0 {5,S} {7,S}
-7    C u0 {6,S} {8,S}
-8    N u0 {7,S}
-9    C u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 414,
     label = "C_sec_rad",
     group = 
@@ -5865,20 +5542,6 @@ entry(
 )
 
 entry(
-    index = 10022,
-    label = "C_sec_rad/Cb_CsCb",
-    group =
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2    H  u0 {1,S}
-3    Cb u0 {1,S}
-4    Cs u0 {1,S} {5,S}
-5    Cb u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 415,
     label = "C_rad/H/NonDeC",
     group = 
@@ -5887,21 +5550,6 @@ entry(
 2    H  u0 {1,S}
 3    Cs u0 {1,S}
 4    Cs u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10019,
-    label = "C_rad/H/CsN_CsN",
-    group =
-"""
-1 *3 C  u1 {2,S} {3,S} {4,S}
-2    H  u0 {1,S}
-3    Cs u0 {1,S} {5,S}
-4    Cs u0 {1,S} {6,S}
-5    N  ux {3,S}
-6    N  ux {4,S}
 """,
     kinetics = None,
 )
@@ -6225,40 +5873,6 @@ entry(
 2    H  u0 {1,S}
 3    Cs u0 {1,S}
 4    N  u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10020,
-    label = "C_rad/H/NCs_CsCN",
-    group =
-"""
-1 *3 Cs u1 {2,S} {3,S} {4,S}
-2    H  u0 {1,S}
-3    Cs u0 {1,S} {6,S}
-4    N  u0 {1,S} {5,S}
-5    Cs ux {4,S}
-6    C  ux {3,S} {7,S}
-7    N  ux {6,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10021,
-    label = "C_rad/H/NCb_CCNCs",
-    group =
-"""
-1 *3 Cs u1 {2,S} {3,S} {4,S}
-2    H  u0 {1,S}
-3    Cs u0 {1,S} {7,S}
-4    N  u0 {1,S} {5,S} {6,S}
-5    Cb ux {4,S}
-6    Cb ux {4,S}
-7    C  ux {3,S} {8,S}
-8    N  ux {7,S} {9,S}
-9    Cs ux {8,S}
 """,
     kinetics = None,
 )
@@ -7600,8 +7214,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
             L4: O_sec
                 L5: O/H/NonDeC
                 L5: O/H/NonDeO
-                    L6: cyanoisopropylOOH
-                    L6: OHOCH2OOH
                     L6: H2O2
                     L6: ROOH_pri
                     L6: ROOH_sec
@@ -7723,13 +7335,9 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                         L7: C/H3/Cd\H_Cd\H\Cs
                         L7: C/H3/Cd\Cs_Cd\H2
                 L5: Cs/H3/NonDeN
-                    L6: Cs/H3/NonDeN_CC
-                        L7: Cs/H3/NonDeN_C_CC
                 L5: Cs/H3/OneDeN
             L4: C_sec
-                L5: C/H2/Cb_CCb
                 L5: C/H2/NonDeC
-                    L6: C/H2/NonDeC_NN
                     L6: C/H2/Cs/Cs\O
                     L6: C/H2/Cs/Cs\Cs|O
                     L6: C/H2/NonDeC_5ring
@@ -7745,13 +7353,10 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                 L5: C/H2/NonDeS
                     L6: C/H2/CsS
                 L5: C/H2/NonDeN
-                    L6: C/H2/NonDeN_tail
-                    L6: C/H2/NonDeN_ring
                 L5: C/H2/OneDe
                     L6: C/H2/OneDeC
                         L7: C/H2/CtCs
                         L7: C/H2/CbCs
-                            L8: C/H2/CbCs/Cb
                         L7: C/H2/COCs
                             L8: C/H2/CO\H/Cs\H3
                         L7: C/H2/CdCs
@@ -7887,8 +7492,6 @@ L1: Y_rad_birad_trirad_quadrad
                     L6: O_rad/Cs\H2\Cs|H|Cs2
                 L5: O_rad/NonDeO
                     L6: OOC
-                        L7: cyanoisopropylOO
-                        L7: OHCH2OO
                 L5: O_rad/NonDeN
                 L5: O_rad/OneDe
                     L6: O_rad/OneDeC
@@ -7997,12 +7600,8 @@ L1: Y_rad_birad_trirad_quadrad
                     L6: C_rad/H2/Cd\H_Cd\H2
                     L6: C_rad/H2/Cd\Cs_Cd\H2
                 L5: C_rad/H2/N
-                    L6: C_rad/H2/NCCCN
-                        L7: C_rad/H2/NC_CCCN
             L4: C_sec_rad
-                L5: C_sec_rad/Cb_CsCb
                 L5: C_rad/H/NonDeC
-                    L6: C_rad/H/CsN_CsN
                     L6: C_rad/H/NonDeC_5ring_fused6_1
                     L6: C_rad/H/NonDeC_5ring_fused6_2
                     L6: C_rad/H/Cs\H3/Cs\H3
@@ -8022,8 +7621,6 @@ L1: Y_rad_birad_trirad_quadrad
                     L6: C_rad/H/CsS
                     L6: C_rad/H/S2
                 L5: C_rad/H/NonDeCN
-                    L6: C_rad/H/NCs_CsCN
-                    L6: C_rad/H/NCb_CCNCs
                 L5: C_rad/H/NonDeON
                 L5: C_rad/H/NonDeNN
                 L5: C_rad/H/OneDe
@@ -8291,72 +7888,5 @@ forbidden(
 u"""
 Forbidding cases such as:
 R + [NH][NH] <=> RH + [N][NH]
-""",
-)
-
-forbidden(
-    label = "kekule_benzene",
-    group =
-"""
-1 *1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2    C u0 p0 c0 {1,D} {3,S}
-3    C u0 p0 c0 {2,S} {4,D}
-4    C u0 p0 c0 {3,D} {5,S}
-5    C u0 p0 c0 {4,S} {6,D}
-6    C u0 p0 c0 {1,S} {5,D}
-7 *2 H u0 p0 c0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-forbidden(
-    label = "aromatic_benzene",
-    group =
-"""
-1 *1 C u0 p0 c0 {2,B} {6,B} {7,S}
-2    C u0 p0 c0 {1,B} {3,B}
-3    C u0 p0 c0 {2,B} {4,B}
-4    C u0 p0 c0 {3,B} {5,B}
-5    C u0 p0 c0 {4,B} {6,B}
-6    C u0 p0 c0 {1,B} {5,B}
-7 *2 H u0 p0 c0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-forbidden(
-    label = "radical",
-    group =
-"""
-1 *1 R!H u1 px cx {2,S}
-2 *2 H   u0 p0 c0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-forbidden(
-    label = "HO2",
-    group =
-"""
-1 *1 O u0 p2 c0 {2,S} {3,S}
-2 *2 H u0 p0 c0 {1,S}
-3    O u1 p2 c0 {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Warning: Forbidden for basic conditions, could be feasible in acidic conditions
 """,
 )

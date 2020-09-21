@@ -13,8 +13,6 @@ template(reactants=["Y_rad", "Birad"], products=["YOS."], ownReverse=False)
 reverse = "ROS_Bond_Dissociation"
 reversible = True
 
-only_forward = True
-
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*2'],
     ['LOSE_RADICAL', '*1', '1'],

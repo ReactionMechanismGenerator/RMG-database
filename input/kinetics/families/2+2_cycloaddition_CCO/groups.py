@@ -12,9 +12,6 @@ template(reactants=["CCO", "doublebond"], products=["four_ring"], ownReverse=Fal
 reverse = "Four_Ring_Cleavage_CCO"
 
 reversible = True
-
-only_reverse = True
-
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['CHANGE_BOND', '*3', -1, '*4'],

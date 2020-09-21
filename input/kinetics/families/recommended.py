@@ -96,8 +96,8 @@ api = {
     'Intra_Diels_alder_monocyclic',
     'Intra_Retro_Diels_alder_bicyclic',
     'API_Intra_Disproportionation',  # only forward
-    # 'API_Intra_RH_Add_Endocyclic',
-    # 'API_Intra_RH_Add_Exocyclic',
+    # 'API_Intra_RH_Add_Endocyclic', not recommended for APIs
+    # 'API_Intra_RH_Add_Exocyclic', not recommended for APIs
     'API_Intra_R_Add_Endocyclic',  # exclude aromatic rings
     'API_Intra_R_Add_Exocyclic',  # exclude aromatic rings
     'Intra_R_Add_Exo_scission',
@@ -147,20 +147,20 @@ liquid_peroxide = {
     'Baeyer-Villiger_step2_cat',
 }
 
-# Surface chemistry for heterogeneous catalysis.
-# surface = {
-#     'Surface_Adsorption_Single',
-#     'Surface_Adsorption_vdW',
-#     'Surface_Adsorption_Dissociative',
-#     'Surface_Dissociation',
-#     'Surface_Abstraction',
-# }
+Surface chemistry for heterogeneous catalysis.
+surface = {
+    'Surface_Adsorption_Single',
+    'Surface_Adsorption_vdW',
+    'Surface_Adsorption_Dissociative',
+    'Surface_Dissociation',
+    'Surface_Abstraction',
+}
 
-# Surface chemistry families that are under development and not yet working well.
-# surface_development = {
-#     'Surface_Adsorption_Double',
-#     'Surface_Dissociation_vdW',
-#     'Surface_Adsorption_Bidentate',
-#     'Surface_Bidentate_Dissociation'
-#     # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
-# }
+Surface chemistry families that are under development and not yet working well.
+surface_development = {
+    'Surface_Adsorption_Double',
+    'Surface_Dissociation_vdW',
+    'Surface_Adsorption_Bidentate',
+    'Surface_Bidentate_Dissociation'
+    # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
+}

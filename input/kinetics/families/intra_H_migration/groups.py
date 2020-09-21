@@ -23,7 +23,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "RnH",
-    group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall, R8Hall, R9Hall}",
+    group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall, R8Hall}",
     kinetics = None,
 )
 
@@ -1268,128 +1268,6 @@ entry(
 """,
     kinetics = None,
 )
-
-entry(
-    index = 10001,
-    label = "RRROO",  # p R5H_SSSS
-    group =
-"""
-1 *6 R!H u0 {2,S} {3,S}
-2 *5 R!H u0 {1,S} {4,S}
-3 *4 O u0 {1,S} {5,S}
-4 *2 R!H u0 {2,S} {6,S}
-5 *1 O u1 {3,S}
-6 *3 H   u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10002,
-    label = "RNROO",  # p RRROO
-    group =
-"""
-1 *6 R!H u0 {2,S} {3,S}
-2 *5 N u0 {1,S} {4,S}
-3 *4 O u0 {1,S} {5,S}
-4 *2 R!H u0 {2,S} {6,S}
-5 *1 O u1 {3,S}
-6 *3 H   u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10003,
-    label = "RCROO",  # p RRROO
-    group =
-"""
-1 *6 R!H u0 {2,S} {3,S}
-2 *5 C u0 {1,S} {4,S}
-3 *4 O u0 {1,S} {5,S}
-4 *2 R!H u0 {2,S} {6,S}
-5 *1 O u1 {3,S}
-6 *3 H   u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10004,
-    label = "OORRR",  # p R5H_SSSS
-    group =
-"""
-1 *6 R!H u0 {2,S} {3,S}
-2 *5 O u0 {1,S} {4,S}
-3 *4 R!H u0 {1,S} {5,S}
-4 *2 O u0 {2,S} {6,S}
-5 *1 R!H u1 {3,S}
-6 *3 H   u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10005,
-    label = "OORNR",  # p OORRR
-    group =
-"""
-1 *6 R!H u0 {2,S} {3,S}
-2 *5 O u0 {1,S} {4,S}
-3 *4 N u0 {1,S} {5,S}
-4 *2 O u0 {2,S} {6,S}
-5 *1 R!H u1 {3,S}
-6 *3 H   u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10006,
-    label = "OORCR",  # p OORRR
-    group =
-"""
-1 *6 R!H u0 {2,S} {3,S}
-2 *5 O u0 {1,S} {4,S}
-3 *4 C u0 {1,S} {5,S}
-4 *2 O u0 {2,S} {6,S}
-5 *1 R!H u1 {3,S}
-6 *3 H   u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10007,
-    label = "RRRNR",  # p R5H_SSSS
-    group =
-"""
-1 *6 R!H u0 {2,S} {3,S}
-2 *5 R!H u0 {1,S} {4,S}
-3 *4 N u0 {1,S} {5,S}
-4 *2 R!H u0 {2,S} {6,S}
-5 *1 R!H u1 {3,S}
-6 *3 H   u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10008,
-    label = "RNRRR",  # p R5H_SSSS
-    group =
-"""
-1 *6 R!H u0 {2,S} {3,S}
-2 *5 N u0 {1,S} {4,S}
-3 *4 R!H u0 {1,S} {5,S}
-4 *2 R!H u0 {2,S} {6,S}
-5 *1 R!H u1 {3,S}
-6 *3 H   u0 {4,S}
-""",
-    kinetics = None,
-)
-
-
 
 entry(
     index = 89,
@@ -3293,25 +3171,6 @@ entry(
 )
 
 entry(
-    index = 100001,
-    label = "R9Hall",
-    group =
-"""
-1 *7 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
-2 *8 R!H ux {1,[S,D,T,B]} {3,[S,D,T,B]}
-3 *9 R!H ux {2,[S,D,T,B]} {5,[S,D,T,B]}
-4 *6 R!H ux {1,[S,D,T,B]} {6,[S,D,T,B]}
-5 *5 R!H ux {3,[S,D,T,B]} {8,[S,D,T,B]}
-6 *4 R!H ux {4,[S,D,T,B]} {7,[S,D,T,B]}
-7 *10 R!H ux {6,[S,D,T,B]} {9,[S,D,T,B]}
-8 *2 R!H u0 {5,[S,D,T,B]} {10,S}
-9 *1 R!H u1 {7,[S,D,T,B]}
-10 *3 H   u0 {8,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 207,
     label = "R8H",
     group = 
@@ -4786,14 +4645,6 @@ L1: RnH
             L4: R5H_RSSR
                 L5: R5H_SSSR
                     L6: R5H_SSSS
-                        L7: RRROO
-                            L8: RNROO
-                            L8: RCROO
-                        L7: OORRR
-                            L8: OORNR
-                            L8: OORCR
-                        L7: RRRNR
-                        L7: RNRRR
                         L7: R5H_CCC
                             L8: R5H_CCC(Cd)
                             L8: R5H_C(Cd)CC
@@ -4914,7 +4765,6 @@ L1: RnH
     L2: R8Hall
         L3: R8H
             L4: R8H_SDSDSD
-    L2: R9Hall
 L1: Y_rad_out
     L2: O_rad_out
     L2: S_rad_out
@@ -6576,83 +6426,18 @@ u"""
 )
 
 forbidden(
-    label = "H_mig_7_membered_ring_neighbor_1_a",
+    label = "H_mig_7_membered_ring_3_4",
     group =
 """
-1 *7 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
-2 *6 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
-3 *5 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
-4 *4 R!H ux {2,[S,D,T,B]} {6,[S,D,T,B]} {9,[S,D,T,B]}
-5 *2 R!H u0 {3,[S,D,T,B]} {7,S} {8,[S,D,T,B]}
-6 *1 R!H u1 {4,[S,D,T,B]}
-7 *3 H   u0 {5,S}
-8    R!H ux {5,[S,D,T,B]} {9,[S,D,T,B]}
-9    R!H ux {8,[S,D,T,B]} {4,[S,D,T,B]}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-forbidden(
-    label = "H_mig_7_membered_ring_neighbor_1_b",
-    group =
-"""
-1 *6 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
-2 *5 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
-3 *4 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]} {9,[S,D,T,B]}
-4 *2 R!H u0 {2,[S,D,T,B]} {6,S} {7,[S,D,T,B]}
-5 *1 R!H u1 {3,[S,D,T,B]}
-6 *3 H   u0 {4,S}
-7    R!H ux {4,[S,D,T,B]} {8,[S,D,T,B]}
-8    R!H ux {7,[S,D,T,B]} {9,[S,D,T,B]}
-9    R!H ux {8,[S,D,T,B]} {3,[S,D,T,B]}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-forbidden(
-    label = "H_mig_7_membered_ring_neighbor_2_a",
-    group =
-"""
-1 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
-2 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
-3 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
-4 *6 R!H ux {2,[S,D,T,B]} {10,[S,D,T,B]} {9,[S,D,T,B]}
-5 *2 R!H u0 {3,[S,D,T,B]} {7,S} {8,[S,D,T,B]}
-6 *1 R!H u1 {10,[S,D,T,B]}
-7 *3 H   u0 {5,S}
-8 *5 R!H ux {5,[S,D,T,B]} {9,[S,D,T,B]}
-9 *7 R!H ux {8,[S,D,T,B]} {4,[S,D,T,B]}
-10 *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-forbidden(
-    label = "H_mig_7_membered_ring_neighbor_2_b",
-    group =
-"""
-1 *8 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
-2 *7 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
-3 *5 R!H ux {1,[S,D,T,B]} {5,[S,D,T,B]}
-4 *6 R!H ux {2,[S,D,T,B]} {10,[S,D,T,B]} {9,[S,D,T,B]}
-5 *2 R!H u0 {3,[S,D,T,B]} {7,S} {8,[S,D,T,B]}
-6 *1 R!H u1 {10,[S,D,T,B]}
-7 *3 H   u0 {5,S}
-8 R!H ux {5,[S,D,T,B]} {9,[S,D,T,B]}
-9 R!H ux {8,[S,D,T,B]} {4,[S,D,T,B]}
-10 *4 R!H ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+1    R!H u0 {2,S} {7,S}
+2    R!H u0 {1,S} {3,S}
+3 *2 R!H u0 {2,S} {4,S} {9,S}
+4    R!H u0 {3,S} {5,S}
+5    R!H u0 {4,S} {6,S}
+6    R!H u0 {5,S} {7,S}
+7    R!H u0 {1,S} {6,S} {8,S}
+8 *1 R!H u1 {7,S}
+9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
     longDesc =

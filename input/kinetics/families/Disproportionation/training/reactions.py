@@ -37,60 +37,6 @@ MRH 30-Aug-2009
 """,
 )
 
-# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-# API db training reactions go here
-
-
-
-
-
-entry(
-    index = 10001,
-    label = "CN(C)CCCjN + CH3OO <=> CN(C)CCdCN + CH3OOH",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (1.0e+0, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (50, 'kcal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""est.""",
-    longDesc =
-u"""
-estimated to be very slow (if it exists at all, couldn't find a TS)
-""",
-)
-
-entry(
-    index = 10002,
-    label = "imipramine_1_rad + O2 <=> imipramine_1d + HO2-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (1.0e+6, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'kcal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""est.""",
-    longDesc =
-u"""
-estimated to be very relatively slow
-""",
-)
-
-
-
-
-
-# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-# end of API db training reactions
-
 entry(
     index = 1,
     label = "C2H3 + O2 = C2H2_1 + HO2",

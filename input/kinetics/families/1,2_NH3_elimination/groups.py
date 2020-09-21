@@ -23,8 +23,6 @@ reverse = "1,2_NH3_addition"
 
 reversible = True
 
-only_forward = True
-
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*1', 1, '*2'],

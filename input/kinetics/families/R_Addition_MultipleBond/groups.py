@@ -12,8 +12,6 @@ template(reactants=["R_R", "YJ"], products=["RJ_R_Y"], ownReverse=False)
 reverse = "Beta_Scission"
 reversible = True
 
-only_forward = True
-
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -18849,58 +18847,3 @@ u"""
 """,
 )
 
-forbidden(
-    label = "kekule_benzene",
-    group =
-"""
-1 *1 C u0 p0 c0 {2,D} {6,S}
-2 *2 C u0 p0 c0 {1,D} {3,S}
-3    C u0 p0 c0 {2,S} {4,D}
-4    C u0 p0 c0 {3,D} {5,S}
-5    C u0 p0 c0 {4,S} {6,D}
-6    C u0 p0 c0 {1,S} {5,D}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-forbidden(
-    label = "aromatic_benzene",
-    group =
-"""
-1 *1 C u0 p0 c0 {2,B} {6,B}
-2 *2 C u0 p0 c0 {1,B} {3,B}
-3    C u0 p0 c0 {2,B} {4,B}
-4    C u0 p0 c0 {3,B} {5,B}
-5    C u0 p0 c0 {4,B} {6,B}
-6    C u0 p0 c0 {1,B} {5,B}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-forbidden(
-    label = "OCOOj",
-    group =
-"""
-multiplicity [2]
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 *3 O u1 p2 c0 {3,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
