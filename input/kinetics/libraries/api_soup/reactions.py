@@ -52,7 +52,7 @@ entry(
     shortDesc=u"""G2M""",
     longDesc=
     u"""
-Hermans et al. 2005, doi:10.1021/jp044080v, Table 7
+Hermans et al. 2005, doi: 10.1021/jp044080v, Table 7
 """,
 )
 
@@ -174,12 +174,13 @@ Keeping only the second term
 entry(
     index=1011,
     label="OHCH2OOH <=> CH2O + H2O2",
-    kinetics=Arrhenius(A=(5.5e-6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    kinetics=Arrhenius(A=(22.6, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""
-https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.8b04577, pg 6295    
+35 C, pH=7.07
+Table II, k(-1)
+https://pubs.acs.org/doi/pdf/10.1021/j100180a051  
 """,
 )
-
 
 entry(
     index=1012,
