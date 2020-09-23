@@ -99,6 +99,7 @@ Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
 """
 )
+#need to think about A in index= 5, looks like the value is very different than other literature.
 
 #Reverse reaction of index = 5
 #entry(
