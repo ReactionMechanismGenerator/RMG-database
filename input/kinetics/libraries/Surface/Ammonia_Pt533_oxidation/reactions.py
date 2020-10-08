@@ -7,7 +7,7 @@ longDesc = u"""
 Based primarily on "Modeling ammonia oxidation over a Pt (533) surface"
 10.1016/j.susc.2011.08.014
 """
-
+#need to find binding energy of Pt 533 surface!!
 entry(
     index = 1,
     label = " NH3_X <=> NH3 + X ",
