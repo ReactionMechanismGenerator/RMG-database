@@ -2296,6 +2296,8 @@ entry(
 2 N  u0 p1 {1,T}
 """,
     thermo=u'N*',
+    metal="Pt",
+    facet="111",
 )
 entry(
     index = 80,
@@ -2325,6 +2327,8 @@ entry(
 4 R   u0 {2,S}
 """,
     thermo=u'(CRN)*',
+    metal="Pt",
+    facet="111",
 )
 
 entry(
