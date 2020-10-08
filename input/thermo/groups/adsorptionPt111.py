@@ -6,7 +6,7 @@ shortDesc = u"Surface adsorption Pt(111), Blondal 2018"
 longDesc = u"""
 Changes due to adsorbing on a surface.
 Here, Pt(111)
-Note: "-h" means "horizontal".
+Note: "-h" means "horizontal"
 """
 
 entry(
@@ -2296,6 +2296,8 @@ entry(
 2 N  u0 p1 {1,T}
 """,
     thermo=u'N*',
+    metal = "Pt",
+    facet = "111",
 )
 entry(
     index = 80,
@@ -2325,6 +2327,8 @@ entry(
 4 R   u0 {2,S}
 """,
     thermo=u'(CRN)*',
+    metal = "Pt",
+    facet = "111",
 )
 
 entry(

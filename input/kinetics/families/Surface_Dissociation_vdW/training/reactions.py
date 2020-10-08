@@ -101,7 +101,7 @@ A factor from paper / surface site density of Cu
 #duplicate of 14
 # entry(
 #     index = 29,
-#     label = "H2O* + X_4 <=> CH3* + H*",
+#     label = "H2O* + X_4 <=> OH* + H*",
 #     kinetics = SurfaceArrhenius(
 #         A = (3.67E17, 'm^2/(mol*s)'),
 #         n = -0.086,
