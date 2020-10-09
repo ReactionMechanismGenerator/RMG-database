@@ -396,9 +396,9 @@ atom_energies = {
     },
 
     #copies from gaussian
-    "LevelOfTheory(method='b3lyp',basis='631g(d,p)',software='psi4')": {
-        'H': -0.500426155, 'C': -37.850331697831, 'O': -75.0535872748806, 'S': -398.100820107242
-    },
+    # "LevelOfTheory(method='b3lyp',basis='631g(d,p)',software='psi4')": {
+    #     'H': -0.500426155, 'C': -37.850331697831, 'O': -75.0535872748806, 'S': -398.100820107242
+    # },
 
     # copies from gaussian
     "LevelOfTheory(method='b3lyp',basis='631g(d,p)',software='orca')": {
