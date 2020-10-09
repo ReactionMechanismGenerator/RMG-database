@@ -17,8 +17,8 @@ entry(
         A=(1.7E11, 'm^2/(mol*s)'), #0.17x10^13 (1/s)
         n = 0.0,
         Ea = (92.58, 'kJ/mol'),   #0.96eV
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
+        Tmin = (100, 'K'),
+        Tmax = (1000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
@@ -34,25 +34,8 @@ entry(
         A=(1.67E13, 'm^2/(mol*s)'), #1.67x10^13 (1/s)
         n = 0.0,
         Ea = (71.37, 'kJ/mol'),   #0.96eV
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""
-Density-functional theory study of NHx oxidation and reverse reactions on the Rh (111) surface.
-"""
-)
-
-# brigde + fcc -> hcp + top
-entry(
-    index = 2,
-    label = " NH2_X +O_X <=> NH_X + OH_X ",
-    kinetics = SurfaceArrhenius(
-        A=(1.67E13, 'm^2/(mol*s)'), #1.67x10^13 (1/s)
-        n = 0.0,
-        Ea = (71.37, 'kJ/mol'),   #0.96eV
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
+        Tmin = (100, 'K'),
+        Tmax = (1000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
@@ -68,8 +51,8 @@ entry(
         A=(2.21E13, 'm^2/(mol*s)'), #2.21x10^13 (1/s)
         n = 0.0,
         Ea = (84.87, 'kJ/mol'),   #0.88eV
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
+        Tmin = (100, 'K'),
+        Tmax = (1000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
@@ -85,8 +68,8 @@ entry(
         A=(1.93E12, 'm^2/(mol*s)'), #1.93x10^12 (1/s)
         n = 0.0,
         Ea = (23.15, 'kJ/mol'),   #0.24eV
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
+        Tmin = (100, 'K'),
+        Tmax = (1000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
@@ -102,8 +85,8 @@ entry(
         A=(3.98E12, 'm^2/(mol*s)'), #3.98x10^12 (1/s)
         n = 0.0,
         Ea = (13.50, 'kJ/mol'),  #0.14eV
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
+        Tmin = (100, 'K'),
+        Tmax = (1000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
@@ -119,8 +102,8 @@ entry(
         A=(1.2E12, 'm^2/(mol*s)'), #1.2x10^12 (1/s)
         n = 0.0,
         Ea = (22.18, 'kJ/mol'),  #0.23eV
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
+        Tmin = (100, 'K'),
+        Tmax = (1000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
@@ -136,8 +119,8 @@ entry(
         A=(4.48E13, 'm^2/(mol*s)'), #4.48x10^13 (1/s)
         n = 0.0,
         Ea = (147.55, 'kJ/mol'), 
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
+        Tmin = (100, 'K'),
+        Tmax = (1000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""

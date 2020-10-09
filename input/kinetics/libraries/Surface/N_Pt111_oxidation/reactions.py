@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Ammonia_Pt111_oxidation"
+name = "N_Pt111_oxidation"
 shortDesc = u""
 longDesc = u"""
 Based primarily on DMa, Hanyu; Schneider, William F. (2019)
@@ -11,13 +11,14 @@ https://doi.org/10.1021/acscatal.8b04251.s001
 """
 
 #Author Imaginary prefactors of the reactions at 300K
+
 entry(
-    index = 1,
-    label = " NH3 + X <=> NH3_X ",
-    kinetics = StickingCoefficient(
-        A=5.2E16,                #5.2x10^16(1/s)
+    index = 8,
+    label = " N_X + N_X  <=>  N2 + X + X ",
+    kinetics = SurfaceArrhenius(
+        A=(9.2E12, 'm^2/(mol*s)'), #9.2x10^12 (1/s)
         n = 0.0,
-        Ea = (0, 'kJ/mol'),  
+        Ea = (243.99, 'kJ/mol'), #2.53eV
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -28,12 +29,12 @@ Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates an
 )
 
 entry(
-    index = 2,
-    label = " NH3_X +O_X <=> NH2_X + OH_X ",
+    index = 9,
+    label = " N_X + O_X  <=>  NO_X + X ",
     kinetics = SurfaceArrhenius(
-        A=(8.4E12, 'm^2/(mol*s)'), #8.4x10^12 (1/s)
+        A=(8.3E12, 'm^2/(mol*s)'), #8.3x10^12 (1/s)
         n = 0.0,
-        Ea = (67.51, 'kJ/mol'),    #0.7eV
+        Ea = (213.13, 'kJ/mol'), #2.21eV
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -44,12 +45,12 @@ Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates an
 )
 
 entry(
-    index = 3,
-    label = " NH2_X +O_X <=> NH_X + OH_X ",
+    index = 10,
+    label = " NO_X   <=>  NO + X ",
     kinetics = SurfaceArrhenius(
-        A=(4.2E12, 'm^2/(mol*s)'), #4.2x10^12 (1/s)
+        A=(1.3E17, 'm^2/(mol*s)'), #1.3x10^17 (1/s)
         n = 0.0,
-        Ea = (78.12, 'kJ/mol'),   #0.81eV
+        Ea = (184.20, 'kJ/mol'), #1.91eV
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -60,12 +61,12 @@ Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates an
 )
 
 entry(
-    index = 4,
-    label = " NH_X +O_X <=> N_X + OH_X ",
+    index = 11,
+    label = " N_X + NO_X   <=>  N2O_X +X ",
     kinetics = SurfaceArrhenius(
-        A=(3.8E12, 'm^2/(mol*s)'), #3.8x10^12 (1/s)
+        A=(4.3E12, 'm^2/(mol*s)'), #4.3x10^12 (1/s)
         n = 0.0,
-        Ea = (154.30, 'kJ/mol'),   #1.6eV
+        Ea = (164.91, 'kJ/mol'), #1.71eV
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -76,44 +77,12 @@ Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates an
 )
 
 entry(
-    index = 5,
-    label = " NH3_X + OH_X <=> NH2_X + H2O_X  ",
+    index = 12,
+    label = " N2O_X <=>  N2O + X ",
     kinetics = SurfaceArrhenius(
-        A=(3.2E12, 'm^2/(mol*s)'), #3.2x10^12 (1/s)
+        A=(1.4E16, 'm^2/(mol*s)'), #1.4x10^16 (1/s)
         n = 0.0,
-        Ea = (33.75, 'kJ/mol'),   #0.35eV
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""
-Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
-)
-
-entry(
-    index = 6,
-    label = " NH2_X + OH_X <=> NH_X + H2O_X  ",
-    kinetics = SurfaceArrhenius(
-        A=(4.7E12, 'm^2/(mol*s)'), #4.7x10^12 (1/s)
-        n = 0.0,
-        Ea = (0.96, 'kJ/mol'),  #0.01
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""
-Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
-)
-
-entry(
-    index = 7,
-    label = " NH_X + OH_X <=> N_X + H2O_X  ",
-    kinetics = SurfaceArrhenius(
-        A=(1.2E12, 'm^2/(mol*s)'), #1.2x10^12 (1/s)
-        n = 0.0,
-        Ea = (39.54, 'kJ/mol'),  #0.41eV 
+        Ea = (0, 'kJ/mol'), 
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
