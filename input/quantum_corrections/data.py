@@ -719,7 +719,8 @@ pbac = {
         'S=S': -1.8902601269101473
     },
 
-    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))": {
+    # "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))": {
+    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',software='orca')": {
         'Br-Br': -0.3547689067627191,
         'Br-C': -0.4543904814746382,
         'Br-Cl': -0.07302627413413987,
@@ -1142,7 +1143,8 @@ mbac = {
         'mol_corr': -0.9282505817816508
     },
 
-    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))": {
+    # "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))": {
+    "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',software='orca'))": {
         'atom_corr': {
             'Br': -1.1208142416454387,
             'C': -0.759761984637026,
