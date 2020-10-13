@@ -2898,3 +2898,22 @@ Phys. Chem. Chem. Phys., 2001,3, 3732-3736
 DOI: 10.1039/B104682A 
 """,
 )
+
+entry(
+    index = 99995,
+    label = "imipramine",
+    molecule = "OCN(CCCN1C2C=CC=CC=2CCC2=C1C=CC=C2)C",
+    solute = SoluteData(
+        E = 1.85158408766579,
+        S = 1.6578886088821498,
+        A = 0.20514976229906898,
+        B = 1.42879134748728,
+        L = 11.632113746145402,
+        V = 0,
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+predicted by Abraham ML model, for imipramine species
+""",
+)
