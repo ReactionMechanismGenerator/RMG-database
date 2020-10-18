@@ -1,4 +1,4 @@
-C11H22(4)
+CCCCC=CCCCCC
 1  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
 2  C u0 p0 c0 {4,S} {6,S} {14,S} {15,S}
 3  C u0 p0 c0 {1,S} {7,S} {16,S} {17,S}
@@ -33,12 +33,12 @@ C11H22(4)
 32 H u0 p0 c0 {10,S}
 33 H u0 p0 c0 {11,S}
 
-H1O1
+[OH]
 multiplicity 2
 1 O u1 p2 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 
-C11H21(3)
+CCC[CH]C=CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {16,S} {17,S}
 2  C u0 p0 c0 {1,S} {6,S} {14,S} {15,S}
@@ -73,12 +73,12 @@ multiplicity 2
 31 H u0 p0 c0 {10,S}
 32 H u0 p0 c0 {11,S}
 
-H2O1
+O
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 
-C11H22(3)
+CCCC=CCCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {16,S} {17,S}
 2  C u0 p0 c0 {1,S} {4,S} {18,S} {19,S}
 3  C u0 p0 c0 {1,S} {7,S} {14,S} {15,S}
@@ -113,11 +113,11 @@ C11H22(3)
 32 H u0 p0 c0 {10,S}
 33 H u0 p0 c0 {11,S}
 
-H1
+[H]
 multiplicity 2
 1 H u1 p0 c0
 
-C11H21(2)
+CC[CH]C=CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {4,S} {16,S} {17,S}
@@ -152,11 +152,11 @@ multiplicity 2
 31 H u0 p0 c0 {10,S}
 32 H u0 p0 c0 {11,S}
 
-H2
+[H][H]
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 
-C10H22
+CCCCCCCCCC
 1  C u0 p0 c0 {2,S} {7,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
 3  C u0 p0 c0 {2,S} {4,S} {17,S} {18,S}
@@ -190,7 +190,7 @@ C10H22
 31 H u0 p0 c0 {10,S}
 32 H u0 p0 c0 {10,S}
 
-C10H21(2)
+CC[CH]CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
@@ -224,7 +224,7 @@ multiplicity 2
 30 H u0 p0 c0 {8,S}
 31 H u0 p0 c0 {10,S}
 
-C10H20(4)
+CCCCC=CCCCC
 1  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
 2  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
 3  C u0 p0 c0 {1,S} {7,S} {11,S} {12,S}
@@ -256,7 +256,7 @@ C10H20(4)
 29 H u0 p0 c0 {9,S}
 30 H u0 p0 c0 {10,S}
 
-C1H3O2
+CO[O]
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u1 p2 c0 {1,S}
@@ -265,7 +265,7 @@ multiplicity 2
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {3,S}
 
-C10H19(3)
+CCCC=C[CH]CCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {7,S} {15,S} {16,S}
@@ -297,7 +297,7 @@ multiplicity 2
 28 H u0 p0 c0 {9,S}
 29 H u0 p0 c0 {10,S}
 
-C1H4O2
+COO
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {7,S}
 3 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
@@ -306,7 +306,7 @@ C1H4O2
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {2,S}
 
-C11H21
+C=C[CH]CCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -341,13 +341,13 @@ multiplicity 2
 31 H u0 p0 c0 {11,S}
 32 H u0 p0 c0 {11,S}
 
-H1O2
+[O]O
 multiplicity 2
 1 O u1 p2 c0 {2,S}
 2 O u0 p2 c0 {1,S} {3,S}
 3 H u0 p0 c0 {2,S}
 
-C11H22
+C=CCCCCCCCCC
 1  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
 3  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
@@ -382,12 +382,12 @@ C11H22
 32 H u0 p0 c0 {11,S}
 33 H u0 p0 c0 {11,S}
 
-O2
+[O][O]
 multiplicity 3
 1 O u1 p2 c0 {2,S}
 2 O u1 p2 c0 {1,S}
 
-C10H20(2)
+CCC=CCCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {4,S} {15,S} {16,S}
 3  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
@@ -419,14 +419,14 @@ C10H20(2)
 29 H u0 p0 c0 {9,S}
 30 H u0 p0 c0 {10,S}
 
-C1H3
+[CH3]
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 
-C10H19(1)
+C[CH]C=CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {4,S} {15,S} {16,S}
@@ -458,14 +458,14 @@ multiplicity 2
 28 H u0 p0 c0 {8,S}
 29 H u0 p0 c0 {10,S}
 
-C1H4
+C
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 
-C9H20
+CCCCCCCCC
 1  C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
 3  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
@@ -496,7 +496,7 @@ C9H20
 28 H u0 p0 c0 {9,S}
 29 H u0 p0 c0 {9,S}
 
-C9H19(4)
+CCCC[CH]CCCC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {12,S} {13,S}
 2  C u0 p0 c0 {4,S} {6,S} {14,S} {15,S}
@@ -527,7 +527,7 @@ multiplicity 2
 27 H u0 p0 c0 {8,S}
 28 H u0 p0 c0 {9,S}
 
-C11H21(4)
+CCCC[CH]C=CCCCC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
 2  C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
@@ -562,13 +562,13 @@ multiplicity 2
 31 H u0 p0 c0 {10,S}
 32 H u0 p0 c0 {11,S}
 
-H2O2
+OO
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
 
-C11H22(2)
+CCC=CCCCCCCC
 1  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
 3  C u0 p0 c0 {2,S} {5,S} {18,S} {19,S}
@@ -603,7 +603,7 @@ C11H22(2)
 32 H u0 p0 c0 {10,S}
 33 H u0 p0 c0 {11,S}
 
-C10H20(1)
+CC=CCCCCCCC
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
 3  C u0 p0 c0 {2,S} {5,S} {17,S} {18,S}
@@ -635,7 +635,7 @@ C10H20(1)
 29 H u0 p0 c0 {10,S}
 30 H u0 p0 c0 {9,S}
 
-C10H19
+C=C[CH]CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
@@ -667,7 +667,7 @@ multiplicity 2
 28 H u0 p0 c0 {10,S}
 29 H u0 p0 c0 {10,S}
 
-C11H21(1)
+CC=C[CH]CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -702,7 +702,7 @@ multiplicity 2
 31 H u0 p0 c0 {10,S}
 32 H u0 p0 c0 {11,S}
 
-C9H19(2)
+CC[CH]CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
@@ -733,7 +733,7 @@ multiplicity 2
 27 H u0 p0 c0 {7,S}
 28 H u0 p0 c0 {9,S}
 
-C11H22(1)
+CC=CCCCCCCCC
 1  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
 3  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
@@ -768,7 +768,7 @@ C11H22(1)
 32 H u0 p0 c0 {11,S}
 33 H u0 p0 c0 {10,S}
 
-C9H19
+[CH2]CCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
@@ -799,7 +799,7 @@ multiplicity 2
 27 H u0 p0 c0 {9,S}
 28 H u0 p0 c0 {9,S}
 
-C10H21(3)
+CCC[CH]CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {4,S} {17,S} {18,S}
@@ -833,7 +833,7 @@ multiplicity 2
 30 H u0 p0 c0 {9,S}
 31 H u0 p0 c0 {10,S}
 
-C10H21(1)
+C[CH]CCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
@@ -867,7 +867,7 @@ multiplicity 2
 30 H u0 p0 c0 {9,S}
 31 H u0 p0 c0 {10,S}
 
-C10H19(2)
+CCC=C[CH]CCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -899,7 +899,7 @@ multiplicity 2
 28 H u0 p0 c0 {9,S}
 29 H u0 p0 c0 {10,S}
 
-C10H21(4)
+CCCC[CH]CCCCC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
 2  C u0 p0 c0 {4,S} {6,S} {13,S} {14,S}
@@ -933,7 +933,7 @@ multiplicity 2
 30 H u0 p0 c0 {9,S}
 31 H u0 p0 c0 {10,S}
 
-C10H20(3)
+CCCC=CCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {6,S} {13,S} {14,S}
 3  C u0 p0 c0 {1,S} {8,S} {17,S} {18,S}
@@ -965,7 +965,7 @@ C10H20(3)
 29 H u0 p0 c0 {9,S}
 30 H u0 p0 c0 {10,S}
 
-C9H19(1)
+C[CH]CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
@@ -996,7 +996,7 @@ multiplicity 2
 27 H u0 p0 c0 {8,S}
 28 H u0 p0 c0 {9,S}
 
-C9H19(3)
+CCC[CH]CCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {6,S} {12,S} {13,S}
@@ -1027,7 +1027,7 @@ multiplicity 2
 27 H u0 p0 c0 {8,S}
 28 H u0 p0 c0 {9,S}
 
-C10H21
+[CH2]CCCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
@@ -1061,7 +1061,7 @@ multiplicity 2
 30 H u0 p0 c0 {10,S}
 31 H u0 p0 c0 {10,S}
 
-C10H20
+C=CCCCCCCCC
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
 3  C u0 p0 c0 {2,S} {4,S} {17,S} {18,S}
@@ -1093,7 +1093,7 @@ C10H20
 29 H u0 p0 c0 {10,S}
 30 H u0 p0 c0 {10,S}
 
-C11H24
+CCCCCCCCCCC
 1  C u0 p0 c0 {2,S} {8,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
 3  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
@@ -1130,7 +1130,7 @@ C11H24
 34 H u0 p0 c0 {11,S}
 35 H u0 p0 c0 {11,S}
 
-C11H23(3)
+CCC[CH]CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
 2  C u0 p0 c0 {1,S} {3,S} {18,S} {19,S}
@@ -1167,7 +1167,7 @@ multiplicity 2
 33 H u0 p0 c0 {10,S}
 34 H u0 p0 c0 {11,S}
 
-C12H24(1)
+CC=CCCCCCCCCC
 1  C u0 p0 c0 {2,S} {6,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
 3  C u0 p0 c0 {2,S} {4,S} {19,S} {20,S}
@@ -1205,7 +1205,7 @@ C12H24(1)
 35 H u0 p0 c0 {12,S}
 36 H u0 p0 c0 {11,S}
 
-C12H23
+[CH2]C=CCCCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -1243,7 +1243,7 @@ multiplicity 2
 34 H u0 p0 c0 {12,S}
 35 H u0 p0 c0 {12,S}
 
-C11H23(4)
+CCCC[CH]CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
 2  C u0 p0 c0 {1,S} {6,S} {20,S} {21,S}
@@ -1280,7 +1280,7 @@ multiplicity 2
 33 H u0 p0 c0 {10,S}
 34 H u0 p0 c0 {11,S}
 
-C11H23(5)
+CCCCC[CH]CCCCC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
 2  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
@@ -1317,7 +1317,7 @@ multiplicity 2
 33 H u0 p0 c0 {10,S}
 34 H u0 p0 c0 {11,S}
 
-C11H23(1)
+C[CH]CCCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -1354,7 +1354,7 @@ multiplicity 2
 33 H u0 p0 c0 {10,S}
 34 H u0 p0 c0 {11,S}
 
-C3H7O2(1)
+CC(C)O[O]
 multiplicity 2
 1  O u0 p2 c0 {2,S} {3,S}
 2  O u1 p2 c0 {1,S}
@@ -1369,7 +1369,7 @@ multiplicity 2
 11 H u0 p0 c0 {5,S}
 12 H u0 p0 c0 {5,S}
 
-C8H18
+CC(C)CC(C)(C)C
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
 3  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
@@ -1397,7 +1397,7 @@ C8H18
 25 H u0 p0 c0 {6,S}
 26 H u0 p0 c0 {6,S}
 
-C3H8O2(1)
+CC(C)OO
 1  O u0 p2 c0 {2,S} {3,S}
 2  O u0 p2 c0 {1,S} {13,S}
 3  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
@@ -1412,7 +1412,7 @@ C3H8O2(1)
 12 H u0 p0 c0 {5,S}
 13 H u0 p0 c0 {2,S}
 
-C8H17(5)
+C[C](C)CC(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1440,7 +1440,7 @@ multiplicity 2
 24 H u0 p0 c0 {7,S}
 25 H u0 p0 c0 {7,S}
 
-C12H24(3)
+CCCC=CCCCCCCC
 1  C u0 p0 c0 {2,S} {4,S} {17,S} {18,S}
 2  C u0 p0 c0 {1,S} {3,S} {19,S} {20,S}
 3  C u0 p0 c0 {2,S} {5,S} {21,S} {22,S}
@@ -1478,7 +1478,7 @@ C12H24(3)
 35 H u0 p0 c0 {11,S}
 36 H u0 p0 c0 {12,S}
 
-C12H23(2)
+CC[CH]C=CCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -1516,7 +1516,7 @@ multiplicity 2
 34 H u0 p0 c0 {11,S}
 35 H u0 p0 c0 {12,S}
 
-C3H7O2
+CCCO[O]
 multiplicity 2
 1  O u0 p2 c0 {2,S} {4,S}
 2  O u1 p2 c0 {1,S}
@@ -1531,7 +1531,7 @@ multiplicity 2
 11 H u0 p0 c0 {5,S}
 12 H u0 p0 c0 {5,S}
 
-C3H8O2
+CCCOO
 1  O u0 p2 c0 {2,S} {4,S}
 2  O u0 p2 c0 {1,S} {13,S}
 3  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -1546,7 +1546,7 @@ C3H8O2
 12 H u0 p0 c0 {5,S}
 13 H u0 p0 c0 {2,S}
 
-C8H17(7)
+[CH2]C(C)(C)CC(C)C
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {9,S}
@@ -1574,7 +1574,7 @@ multiplicity 2
 24 H u0 p0 c0 {8,S}
 25 H u0 p0 c0 {8,S}
 
-C11H23
+[CH2]CCCCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -1611,7 +1611,7 @@ multiplicity 2
 33 H u0 p0 c0 {11,S}
 34 H u0 p0 c0 {11,S}
 
-C12H24
+C=CCCCCCCCCCC
 1  C u0 p0 c0 {2,S} {7,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
 3  C u0 p0 c0 {2,S} {4,S} {19,S} {20,S}
@@ -1649,7 +1649,7 @@ C12H24
 35 H u0 p0 c0 {12,S}
 36 H u0 p0 c0 {12,S}
 
-C8H17(6)
+CC(C)[CH]C(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
 2  C u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
@@ -1677,7 +1677,7 @@ multiplicity 2
 24 H u0 p0 c0 {5,S}
 25 H u0 p0 c0 {8,S}
 
-C12H24(2)
+CCC=CCCCCCCCC
 1  C u0 p0 c0 {2,S} {5,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
 3  C u0 p0 c0 {2,S} {4,S} {19,S} {20,S}
@@ -1715,7 +1715,7 @@ C12H24(2)
 35 H u0 p0 c0 {11,S}
 36 H u0 p0 c0 {12,S}
 
-C12H23(1)
+C[CH]C=CCCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -1753,7 +1753,7 @@ multiplicity 2
 34 H u0 p0 c0 {10,S}
 35 H u0 p0 c0 {12,S}
 
-C8H17(4)
+[CH2]C(C)CC(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -1781,7 +1781,7 @@ multiplicity 2
 24 H u0 p0 c0 {8,S}
 25 H u0 p0 c0 {8,S}
 
-C11H23(2)
+CC[CH]CCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -1818,7 +1818,7 @@ multiplicity 2
 33 H u0 p0 c0 {9,S}
 34 H u0 p0 c0 {11,S}
 
-C12H24(5)
+CCCCCC=CCCCCC
 1  C u0 p0 c0 {3,S} {5,S} {15,S} {16,S}
 2  C u0 p0 c0 {4,S} {6,S} {21,S} {22,S}
 3  C u0 p0 c0 {1,S} {7,S} {17,S} {18,S}
@@ -1856,7 +1856,7 @@ C12H24(5)
 35 H u0 p0 c0 {11,S}
 36 H u0 p0 c0 {12,S}
 
-C12H23(4)
+CCCC[CH]C=CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {19,S} {20,S}
 2  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
@@ -1894,7 +1894,7 @@ multiplicity 2
 34 H u0 p0 c0 {11,S}
 35 H u0 p0 c0 {12,S}
 
-C12H23(3)
+CCC[CH]C=CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {17,S} {18,S}
 2  C u0 p0 c0 {1,S} {4,S} {19,S} {20,S}
@@ -1932,7 +1932,7 @@ multiplicity 2
 34 H u0 p0 c0 {11,S}
 35 H u0 p0 c0 {12,S}
 
-C12H24(4)
+CCCCC=CCCCCCC
 1  C u0 p0 c0 {2,S} {4,S} {19,S} {20,S}
 2  C u0 p0 c0 {1,S} {6,S} {21,S} {22,S}
 3  C u0 p0 c0 {5,S} {7,S} {15,S} {16,S}
@@ -1970,7 +1970,7 @@ C12H24(4)
 35 H u0 p0 c0 {11,S}
 36 H u0 p0 c0 {12,S}
 
-C12H26
+CCCCCCCCCCCC
 1  C u0 p0 c0 {2,S} {9,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
 3  C u0 p0 c0 {2,S} {4,S} {19,S} {20,S}
@@ -2010,7 +2010,7 @@ C12H26
 37 H u0 p0 c0 {12,S}
 38 H u0 p0 c0 {12,S}
 
-C12H25
+[CH2]CCCCCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -2050,7 +2050,7 @@ multiplicity 2
 36 H u0 p0 c0 {12,S}
 37 H u0 p0 c0 {12,S}
 
-C12H25(2)
+CC[CH]CCCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -2090,7 +2090,7 @@ multiplicity 2
 36 H u0 p0 c0 {10,S}
 37 H u0 p0 c0 {12,S}
 
-C12H25(3)
+CCC[CH]CCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {17,S} {18,S}
 2  C u0 p0 c0 {1,S} {3,S} {19,S} {20,S}
@@ -2130,7 +2130,7 @@ multiplicity 2
 36 H u0 p0 c0 {11,S}
 37 H u0 p0 c0 {12,S}
 
-C12H25(5)
+CCCCC[CH]CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
 2  C u0 p0 c0 {3,S} {5,S} {21,S} {22,S}
@@ -2170,7 +2170,7 @@ multiplicity 2
 36 H u0 p0 c0 {11,S}
 37 H u0 p0 c0 {12,S}
 
-C12H25(4)
+CCCC[CH]CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {19,S} {20,S}
 2  C u0 p0 c0 {1,S} {3,S} {21,S} {22,S}
@@ -2210,7 +2210,7 @@ multiplicity 2
 36 H u0 p0 c0 {11,S}
 37 H u0 p0 c0 {12,S}
 
-C12H25(1)
+C[CH]CCCCCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -2250,7 +2250,7 @@ multiplicity 2
 36 H u0 p0 c0 {11,S}
 37 H u0 p0 c0 {12,S}
 
-C3H6
+C=CC
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
 3 C u0 p0 c0 {2,D} {8,S} {9,S}
@@ -2261,7 +2261,7 @@ C3H6
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 
-C3H5
+[CH2]C=C
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 C u1 p0 c0 {1,S} {5,S} {6,S}
@@ -2272,7 +2272,7 @@ multiplicity 2
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {3,S}
 
-C3H7
+[CH2]CC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2285,7 +2285,7 @@ multiplicity 2
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
 
-C3H8
+CCC
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
 3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
@@ -2298,7 +2298,7 @@ C3H8
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
 
-C4H10(1)
+CC(C)C
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2314,7 +2314,7 @@ C4H10(1)
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {4,S}
 
-C4H9(3)
+C[C](C)C
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -2330,7 +2330,7 @@ multiplicity 2
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {3,S}
 
-C4H9
+[CH2]CCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -2346,7 +2346,7 @@ multiplicity 2
 12 H u0 p0 c0 {4,S}
 13 H u0 p0 c0 {4,S}
 
-C4H10
+CCCC
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
 3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2362,7 +2362,7 @@ C4H10
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {4,S}
 
-C3H7(1)
+C[CH]C
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -2375,7 +2375,7 @@ multiplicity 2
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {3,S}
 
-C4H9(2)
+[CH2]C(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2391,7 +2391,7 @@ multiplicity 2
 12 H u0 p0 c0 {4,S}
 13 H u0 p0 c0 {4,S}
 
-C4H9(1)
+C[CH]CC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -2407,7 +2407,7 @@ multiplicity 2
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {4,S}
 
-C4H8(1)
+CC=CC
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {4,D} {11,S}
@@ -2421,7 +2421,7 @@ C4H8(1)
 11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {4,S}
 
-C4H7
+C=C[CH]C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u1 p0 c0 {1,S} {3,S} {8,S}
@@ -2435,7 +2435,7 @@ multiplicity 2
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {4,S}
 
-C4H7(1)
+[CH2]C(=C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -2449,7 +2449,7 @@ multiplicity 2
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {4,S}
 
-C4H8(2)
+C=C(C)C
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {2,S} {4,D}
@@ -2463,7 +2463,7 @@ C4H8(2)
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {4,S}
 
-C5H9(1)
+C[CH]C=CC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -2480,7 +2480,7 @@ multiplicity 2
 13 H u0 p0 c0 {4,S}
 14 H u0 p0 c0 {5,S}
 
-C5H10(1)
+CC=CCC
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
 3  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
@@ -2497,7 +2497,7 @@ C5H10(1)
 14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {4,S}
 
-C4H8
+C=CCC
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
 3  C u0 p0 c0 {1,S} {4,D} {10,S}
@@ -2511,7 +2511,7 @@ C4H8
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {4,S}
 
-C5H9
+C=C[CH]CC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -2528,7 +2528,7 @@ multiplicity 2
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {5,S}
 
-C5H10
+C=CCCC
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
 3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
@@ -2545,7 +2545,7 @@ C5H10
 14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {5,S}
 
-C5H12
+CCCCC
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
 3  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -2564,7 +2564,7 @@ C5H12
 16 H u0 p0 c0 {5,S}
 17 H u0 p0 c0 {5,S}
 
-C5H11(2)
+CC[CH]CC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -2583,7 +2583,7 @@ multiplicity 2
 15 H u0 p0 c0 {4,S}
 16 H u0 p0 c0 {5,S}
 
-C5H12(1)
+CC(C)(C)C
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2602,7 +2602,7 @@ C5H12(1)
 16 H u0 p0 c0 {5,S}
 17 H u0 p0 c0 {5,S}
 
-C5H11(3)
+[CH2]C(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2621,7 +2621,7 @@ multiplicity 2
 15 H u0 p0 c0 {5,S}
 16 H u0 p0 c0 {5,S}
 
-C5H11(1)
+C[CH]CCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -2640,7 +2640,7 @@ multiplicity 2
 15 H u0 p0 c0 {4,S}
 16 H u0 p0 c0 {5,S}
 
-C5H11
+[CH2]CCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -2659,7 +2659,7 @@ multiplicity 2
 15 H u0 p0 c0 {5,S}
 16 H u0 p0 c0 {5,S}
 
-C6H12(2)
+CCC=CCC
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
@@ -2679,7 +2679,7 @@ C6H12(2)
 17 H u0 p0 c0 {5,S}
 18 H u0 p0 c0 {6,S}
 
-C6H11(1)
+CC=C[CH]CC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2699,7 +2699,7 @@ multiplicity 2
 16 H u0 p0 c0 {5,S}
 17 H u0 p0 c0 {6,S}
 
-C6H13
+[CH2]CCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -2721,7 +2721,7 @@ multiplicity 2
 18 H u0 p0 c0 {6,S}
 19 H u0 p0 c0 {6,S}
 
-C6H14
+CCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
 3  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -2743,7 +2743,7 @@ C6H14
 19 H u0 p0 c0 {6,S}
 20 H u0 p0 c0 {6,S}
 
-C6H13(2)
+CC[CH]CCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {6,S} {11,S} {12,S}
@@ -2765,7 +2765,7 @@ multiplicity 2
 18 H u0 p0 c0 {4,S}
 19 H u0 p0 c0 {6,S}
 
-C6H11
+[CH2]C=CCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -2785,7 +2785,7 @@ multiplicity 2
 16 H u0 p0 c0 {6,S}
 17 H u0 p0 c0 {6,S}
 
-C6H12(1)
+CC=CCCC
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
@@ -2805,7 +2805,7 @@ C6H12(1)
 17 H u0 p0 c0 {6,S}
 18 H u0 p0 c0 {5,S}
 
-C6H12
+C=CCCCC
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
@@ -2825,7 +2825,7 @@ C6H12
 17 H u0 p0 c0 {6,S}
 18 H u0 p0 c0 {6,S}
 
-C6H13(1)
+C[CH]CCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -2847,7 +2847,7 @@ multiplicity 2
 18 H u0 p0 c0 {5,S}
 19 H u0 p0 c0 {6,S}
 
-C7H14(5)
+CC=CC(C)(C)C
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
@@ -2870,7 +2870,7 @@ C7H14(5)
 20 H u0 p0 c0 {7,S}
 21 H u0 p0 c0 {6,S}
 
-C7H13(6)
+[CH2]C=CC(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -2893,7 +2893,7 @@ multiplicity 2
 19 H u0 p0 c0 {7,S}
 20 H u0 p0 c0 {7,S}
 
-C7H14(2)
+CCC=CCCC
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {7,S} {12,S} {13,S}
 3  C u0 p0 c0 {5,S} {6,S} {10,S} {11,S}
@@ -2916,7 +2916,7 @@ C7H14(2)
 20 H u0 p0 c0 {6,S}
 21 H u0 p0 c0 {7,S}
 
-C7H13(2)
+CC[CH]C=CCC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
@@ -2939,7 +2939,7 @@ multiplicity 2
 19 H u0 p0 c0 {6,S}
 20 H u0 p0 c0 {7,S}
 
-C7H13(1)
+C[CH]C=CCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -2962,7 +2962,7 @@ multiplicity 2
 19 H u0 p0 c0 {5,S}
 20 H u0 p0 c0 {7,S}
 
-C7H14
+C=CCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
 3  C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
@@ -2985,7 +2985,7 @@ C7H14
 20 H u0 p0 c0 {7,S}
 21 H u0 p0 c0 {7,S}
 
-C7H13
+[CH2]C=CCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -3008,7 +3008,7 @@ multiplicity 2
 19 H u0 p0 c0 {7,S}
 20 H u0 p0 c0 {7,S}
 
-C7H14(3)
+C=C(C)CC(C)C
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {6,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
@@ -3031,7 +3031,7 @@ C7H14(3)
 20 H u0 p0 c0 {7,S}
 21 H u0 p0 c0 {7,S}
 
-C7H13(3)
+[CH2]C(=C)CC(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -3054,7 +3054,7 @@ multiplicity 2
 19 H u0 p0 c0 {7,S}
 20 H u0 p0 c0 {7,S}
 
-C7H13(4)
+[CH2]C(C)=CC(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -3077,7 +3077,7 @@ multiplicity 2
 19 H u0 p0 c0 {7,S}
 20 H u0 p0 c0 {7,S}
 
-C7H14(4)
+CC(C)=CC(C)C
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
 3  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
@@ -3100,7 +3100,7 @@ C7H14(4)
 20 H u0 p0 c0 {5,S}
 21 H u0 p0 c0 {7,S}
 
-C7H13(5)
+C[C](C)C=C(C)C
 multiplicity 2
 1  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
@@ -3123,7 +3123,7 @@ multiplicity 2
 19 H u0 p0 c0 {4,S}
 20 H u0 p0 c0 {7,S}
 
-C7H14(1)
+CC=CCCCC
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
 3  C u0 p0 c0 {1,S} {6,S} {12,S} {13,S}
@@ -3146,7 +3146,7 @@ C7H14(1)
 20 H u0 p0 c0 {7,S}
 21 H u0 p0 c0 {6,S}
 
-C7H14(6)
+C=CCC(C)(C)C
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
 3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
@@ -3169,7 +3169,7 @@ C7H14(6)
 20 H u0 p0 c0 {7,S}
 21 H u0 p0 c0 {7,S}
 
-C8H16(1)
+CC=CCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {5,S} {13,S} {14,S}
@@ -3195,7 +3195,7 @@ C8H16(1)
 23 H u0 p0 c0 {8,S}
 24 H u0 p0 c0 {7,S}
 
-C8H15
+[CH2]C=CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -3221,7 +3221,7 @@ multiplicity 2
 22 H u0 p0 c0 {8,S}
 23 H u0 p0 c0 {8,S}
 
-C8H15(3)
+[CH2]C(=C)CC(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {9,S} {10,S}
@@ -3247,7 +3247,7 @@ multiplicity 2
 22 H u0 p0 c0 {8,S}
 23 H u0 p0 c0 {8,S}
 
-C8H16(4)
+C=C(C)CC(C)(C)C
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {7,S} {9,S} {10,S}
 3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
@@ -3273,7 +3273,7 @@ C8H16(4)
 23 H u0 p0 c0 {8,S}
 24 H u0 p0 c0 {8,S}
 
-C7H16(2)
+CCCC(C)(C)C
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
 3  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
@@ -3298,7 +3298,7 @@ C7H16(2)
 22 H u0 p0 c0 {6,S}
 23 H u0 p0 c0 {6,S}
 
-C7H15(9)
+[CH2]CCC(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -3323,7 +3323,7 @@ multiplicity 2
 21 H u0 p0 c0 {7,S}
 22 H u0 p0 c0 {7,S}
 
-C8H16(5)
+CC(C)=CC(C)(C)C
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
 3  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
@@ -3349,7 +3349,7 @@ C8H16(5)
 23 H u0 p0 c0 {6,S}
 24 H u0 p0 c0 {8,S}
 
-C8H15(4)
+[CH2]C(C)=CC(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -3375,7 +3375,7 @@ multiplicity 2
 22 H u0 p0 c0 {8,S}
 23 H u0 p0 c0 {8,S}
 
-C7H16(1)
+CC(C)CC(C)C
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {9,S}
 3  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
@@ -3400,7 +3400,7 @@ C7H16(1)
 22 H u0 p0 c0 {7,S}
 23 H u0 p0 c0 {7,S}
 
-C7H15(4)
+[CH2]C(C)CC(C)C
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {9,S}
@@ -3425,7 +3425,7 @@ multiplicity 2
 21 H u0 p0 c0 {7,S}
 22 H u0 p0 c0 {7,S}
 
-C8H16(2)
+CCC=CCCCC
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
 3  C u0 p0 c0 {1,S} {8,S} {15,S} {16,S}
@@ -3451,7 +3451,7 @@ C8H16(2)
 23 H u0 p0 c0 {7,S}
 24 H u0 p0 c0 {8,S}
 
-C8H15(1)
+C[CH]C=CCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -3477,7 +3477,7 @@ multiplicity 2
 22 H u0 p0 c0 {6,S}
 23 H u0 p0 c0 {8,S}
 
-C7H15(6)
+CC(C)[CH]C(C)C
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {5,S} {6,S} {7,S} {9,S}
@@ -3502,7 +3502,7 @@ multiplicity 2
 21 H u0 p0 c0 {6,S}
 22 H u0 p0 c0 {7,S}
 
-C7H15(8)
+C[CH]CC(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -3527,7 +3527,7 @@ multiplicity 2
 21 H u0 p0 c0 {6,S}
 22 H u0 p0 c0 {7,S}
 
-C7H16
+CCCCCCC
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
 3  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
@@ -3552,7 +3552,7 @@ C7H16
 22 H u0 p0 c0 {7,S}
 23 H u0 p0 c0 {7,S}
 
-C7H15(2)
+CC[CH]CCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -3577,7 +3577,7 @@ multiplicity 2
 21 H u0 p0 c0 {5,S}
 22 H u0 p0 c0 {7,S}
 
-C8H16
+C=CCCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {13,S} {14,S}
 3  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -3603,7 +3603,7 @@ C8H16
 23 H u0 p0 c0 {8,S}
 24 H u0 p0 c0 {8,S}
 
-C7H15(10)
+[CH2]C(C)(C)CCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -3628,7 +3628,7 @@ multiplicity 2
 21 H u0 p0 c0 {7,S}
 22 H u0 p0 c0 {7,S}
 
-C7H15
+[CH2]CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
@@ -3653,7 +3653,7 @@ multiplicity 2
 21 H u0 p0 c0 {7,S}
 22 H u0 p0 c0 {7,S}
 
-C7H15(1)
+C[CH]CCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -3678,7 +3678,7 @@ multiplicity 2
 21 H u0 p0 c0 {6,S}
 22 H u0 p0 c0 {7,S}
 
-C7H15(7)
+CC[CH]C(C)(C)C
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
@@ -3703,7 +3703,7 @@ multiplicity 2
 21 H u0 p0 c0 {5,S}
 22 H u0 p0 c0 {7,S}
 
-C7H15(3)
+CCC[CH]CCC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
@@ -3728,7 +3728,7 @@ multiplicity 2
 21 H u0 p0 c0 {6,S}
 22 H u0 p0 c0 {7,S}
 
-C8H16(3)
+CCCC=CCCC
 1  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
 2  C u0 p0 c0 {4,S} {6,S} {11,S} {12,S}
 3  C u0 p0 c0 {1,S} {7,S} {13,S} {14,S}
@@ -3754,7 +3754,7 @@ C8H16(3)
 23 H u0 p0 c0 {7,S}
 24 H u0 p0 c0 {8,S}
 
-C8H15(2)
+CCC=C[CH]CCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {6,S} {13,S} {14,S}
@@ -3780,7 +3780,7 @@ multiplicity 2
 22 H u0 p0 c0 {7,S}
 23 H u0 p0 c0 {8,S}
 
-C7H15(5)
+C[C](C)CC(C)C
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {7,S} {9,S} {10,S}
@@ -3805,7 +3805,7 @@ multiplicity 2
 21 H u0 p0 c0 {6,S}
 22 H u0 p0 c0 {6,S}
 
-C9H18
+C=CCCCCCCC
 1  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
 3  C u0 p0 c0 {2,S} {5,S} {16,S} {17,S}
@@ -3834,7 +3834,7 @@ C9H18
 26 H u0 p0 c0 {9,S}
 27 H u0 p0 c0 {9,S}
 
-C9H17
+[CH2]C=CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
@@ -3863,7 +3863,7 @@ multiplicity 2
 25 H u0 p0 c0 {9,S}
 26 H u0 p0 c0 {9,S}
 
-C9H17(1)
+CC=C[CH]CCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -3892,7 +3892,7 @@ multiplicity 2
 25 H u0 p0 c0 {8,S}
 26 H u0 p0 c0 {9,S}
 
-C9H18(1)
+CC=CCCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
 3  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -3921,7 +3921,7 @@ C9H18(1)
 26 H u0 p0 c0 {9,S}
 27 H u0 p0 c0 {8,S}
 
-C8H18(1)
+CCCCCCCC
 1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
 3  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
@@ -3949,7 +3949,7 @@ C8H18(1)
 25 H u0 p0 c0 {8,S}
 26 H u0 p0 c0 {8,S}
 
-C8H17
+[CH2]CCCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -3977,7 +3977,7 @@ multiplicity 2
 24 H u0 p0 c0 {8,S}
 25 H u0 p0 c0 {8,S}
 
-C9H18(3)
+CCCC=CCCCC
 1  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {7,S} {14,S} {15,S}
 3  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
@@ -4006,7 +4006,7 @@ C9H18(3)
 26 H u0 p0 c0 {8,S}
 27 H u0 p0 c0 {9,S}
 
-C9H17(3)
+CCC[CH]C=CCCC
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
 2  C u0 p0 c0 {4,S} {6,S} {12,S} {13,S}
@@ -4035,7 +4035,7 @@ multiplicity 2
 25 H u0 p0 c0 {8,S}
 26 H u0 p0 c0 {9,S}
 
-C8H17(3)
+CCC[CH]CCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {7,S} {13,S} {14,S}
@@ -4063,7 +4063,7 @@ multiplicity 2
 24 H u0 p0 c0 {7,S}
 25 H u0 p0 c0 {8,S}
 
-C8H17(2)
+CC[CH]CCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -4091,7 +4091,7 @@ multiplicity 2
 24 H u0 p0 c0 {6,S}
 25 H u0 p0 c0 {8,S}
 
-C9H17(2)
+CCC=C[CH]CCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
@@ -4120,7 +4120,7 @@ multiplicity 2
 25 H u0 p0 c0 {8,S}
 26 H u0 p0 c0 {9,S}
 
-C9H18(2)
+CCC=CCCCCC
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
 3  C u0 p0 c0 {1,S} {6,S} {14,S} {15,S}
@@ -4149,7 +4149,7 @@ C9H18(2)
 26 H u0 p0 c0 {8,S}
 27 H u0 p0 c0 {9,S}
 
-C8H17(1)
+C[CH]CCCCCC
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {13,S} {14,S}
