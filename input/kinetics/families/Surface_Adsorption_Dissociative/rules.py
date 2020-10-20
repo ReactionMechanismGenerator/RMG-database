@@ -22,5 +22,27 @@ entry(
     longDesc = u"""Made up"""
 )
 
+entry(
+    index = 2,
+    label = "H2;VacantSite1;VacantSite2",
+    kinetics = StickingCoefficientBEP(
+        A = 0.01,
+        n = 0,
+        alpha = 0,
+        E0 = (0., 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""H2 dissociative adsorption""",
+    longDesc = u"""
+    Micro-kinetic modeling of NH3 decomposition on Ni and its application to solid oxide fuel cells
+    Deutschmann et al
+    doi: 10.1016/j.ces.2011.07.007
 
+    E0 is the paper's Ea
+    This is R1
 
+    metal = 'Ni'
+    """
+)

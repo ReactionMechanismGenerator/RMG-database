@@ -21,6 +21,9 @@ template(reactants=["Combined", "VacantSite"], products=["Adsorbate1", "Adsorbat
 
 reverse = "Surface_Association"
 
+reactantNum=2
+productNum=2
+
 recipe(actions=[
     ['FORM_BOND', '*2', 1, '*4'],
     ['CHANGE_BOND', '*1', 1, '*3'],
@@ -49,11 +52,127 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 3,
+    label = "C",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,[S,D,T]}
+2 *2 R  u0 {1,S}
+3 *3 Xo u0 {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
+    label = "O",
+    group =
+"""
+1 *1 O  u0 {2,S} {3,S}
+2 *2 R  u0 {1,S}
+3 *3 Xo u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "C-H",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,[S,D,T]}
+2 *2 H   u0 {1,S}
+3 *3 Xo  u0 {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "C-O",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,[S,D,T]}
+2 *2 O   u0 {1,S}
+3 *3 Xo  u0 {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
+    label = "O-H",
+    group =
+"""
+1 *1 O   u0 {2,S} {3,S}
+2 *2 H   u0 {1,S}
+3 *3 Xo  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
+    label = "O-C",
+    group =
+"""
+1 *1 O   u0 {2,S} {3,S}
+2 *2 C   u0 {1,S}
+3 *3 Xo  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9,
+    label = "N",
+    group =
+"""
+1 *1 N  u0 {2,S} {3,[S,D,T]}
+2 *2 R  u0 {1,S}
+3 *3 Xo u0 {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10,
+    label = "N-H2",
+    group =
+"""
+1 *1 N  u0 p1 {2,S} {3,S} {4,S}
+2 *2 H  u0    {1,S}
+3 *3 Xo u0    {1,S}
+4    H  u0    {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "N-H",
+    group =
+"""
+1 *1 N  u0 p1 {2,S} {3,D}
+2 *2 H  u0    {1,S}
+3 *3 Xo u0    {1,D}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: Combined
-
+    L2: C
+        L3: C-H
+        L3: C-O
+    L2: O
+        L3: O-H
+        L3: O-C
+    L2: N
+        L3: N-H2
+        L3: N-H
 L1: VacantSite
 """
 )
