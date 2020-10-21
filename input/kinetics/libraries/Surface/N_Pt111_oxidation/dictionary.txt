@@ -15,9 +15,8 @@ N_X
 2 X u0 p0 c0 {1,T}
 
 O_X
-multiplicity 3
-1 O u1 p2 c0 {2,S}
-2 X u1 p0 c0 {1,S}
+1 O u0 p2 c0 {2,D}
+2 X u0 p0 c0 {1,D}
 
 NO
 multiplicity 2
