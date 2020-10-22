@@ -7,12 +7,12 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "Combined;VacantSite1;VacantSite2",
+    label = "Combined",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e21, 'm^4/(mol^2*s)'),
+        A = (1.0e9, '1/s'),
         n = 0,
         alpha = 0,
-        E0 = (20.0, 'kcal/mol'),
+        E0 = (0.0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
