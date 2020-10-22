@@ -11358,53 +11358,53 @@ entry(
 """,
 )
 
-entry(
-    index = 264,
-    label = "C8H16O3(14)",
-    molecule = 
-"""
-1  C u0 p0 c0 {2,S} {6,S} {9,S} {11,S}
-2  C u0 p0 c0 {1,S} {5,S} {14,S} {15,S}
-3  C u0 p0 c0 {4,S} {7,S} {12,S} {13,S}
-4  C u0 p0 c0 {3,S} {8,S} {16,S} {17,S}
-5  C u0 p0 c0 {2,S} {8,S} {18,S} {19,S}
-6  C u0 p0 c0 {1,S} {23,S} {24,S} {25,S}
-7  C u0 p0 c0 {3,S} {20,S} {21,S} {22,S}
-8  C u0 p0 c0 {4,S} {5,S} {26,D}
-9  O u0 p2 c0 {1,S} {10,S}
-10 O u0 p2 c0 {9,S} {27,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {2,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {4,S}
-18 H u0 p0 c0 {5,S}
-19 H u0 p0 c0 {5,S}
-20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {7,S}
-22 H u0 p0 c0 {7,S}
-23 H u0 p0 c0 {6,S}
-24 H u0 p0 c0 {6,S}
-25 H u0 p0 c0 {6,S}
-26 O u0 p2 c0 {8,D}
-27 H u0 p0 c0 {10,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[9.39116,0.0347377,0.000136405,-1.91485e-07,7.26167e-11,-763174,-9.49096], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[15.7981,0.0820916,-4.80046e-05,1.31582e-08,-1.37778e-12,-768150,-58.6133], Tmin=(1000,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3000,'K'),
-    ),
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
+# entry(
+#     index = 264,
+#     label = "C8H16O3(14)",
+#     molecule = 
+# """
+# 1  C u0 p0 c0 {2,S} {6,S} {9,S} {11,S}
+# 2  C u0 p0 c0 {1,S} {5,S} {14,S} {15,S}
+# 3  C u0 p0 c0 {4,S} {7,S} {12,S} {13,S}
+# 4  C u0 p0 c0 {3,S} {8,S} {16,S} {17,S}
+# 5  C u0 p0 c0 {2,S} {8,S} {18,S} {19,S}
+# 6  C u0 p0 c0 {1,S} {23,S} {24,S} {25,S}
+# 7  C u0 p0 c0 {3,S} {20,S} {21,S} {22,S}
+# 8  C u0 p0 c0 {4,S} {5,S} {26,D}
+# 9  O u0 p2 c0 {1,S} {10,S}
+# 10 O u0 p2 c0 {9,S} {27,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {3,S}
+# 13 H u0 p0 c0 {3,S}
+# 14 H u0 p0 c0 {2,S}
+# 15 H u0 p0 c0 {2,S}
+# 16 H u0 p0 c0 {4,S}
+# 17 H u0 p0 c0 {4,S}
+# 18 H u0 p0 c0 {5,S}
+# 19 H u0 p0 c0 {5,S}
+# 20 H u0 p0 c0 {7,S}
+# 21 H u0 p0 c0 {7,S}
+# 22 H u0 p0 c0 {7,S}
+# 23 H u0 p0 c0 {6,S}
+# 24 H u0 p0 c0 {6,S}
+# 25 H u0 p0 c0 {6,S}
+# 26 O u0 p2 c0 {8,D}
+# 27 H u0 p0 c0 {10,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[9.39116,0.0347377,0.000136405,-1.91485e-07,7.26167e-11,-763174,-9.49096], Tmin=(200,'K'), Tmax=(1000,'K')),
+#             NASAPolynomial(coeffs=[15.7981,0.0820916,-4.80046e-05,1.31582e-08,-1.37778e-12,-768150,-58.6133], Tmin=(1000,'K'), Tmax=(3000,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3000,'K'),
+#     ),
+#     shortDesc = """""",
+#     longDesc = 
+# """
+# 
+# """,
+# )
 
 entry(
     index = 265,
