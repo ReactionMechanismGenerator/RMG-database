@@ -56,35 +56,3 @@ L1: VacantSite
 """
 )
 
-
-forbidden(
-    label = "bidentate1",
-    group =
-"""
-1 *1 R u0 {2,[D,T]} {3,[S,D]} 
-2 *2 R u0 {1,[D,T]} {4,[S,D]}
-3 *3 X u0 {1,[S,D]}
-4    X u0 {2,[S,D]}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The reactant should not be bidentate to begin with.
-""",
-)
-
-forbidden(
-    label = "bidentate2",
-    group =
-"""
-1 *1 R u0 {2,[D,T]} {4,[S,D]}
-2 *2 R u0 {1,[D,T]} {3,[S,D]}
-3 *3 X u0 {2,[S,D]}
-4    X u0 {1,[S,D]}
-""",
-    shortDesc = u"""""",
-    longDesc =
-u"""
-The reactant should not be bidentate to begin with.
-""",
-)
