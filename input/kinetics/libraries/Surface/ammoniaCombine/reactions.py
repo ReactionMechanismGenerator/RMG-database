@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Ammonia"
+name = "ammoniaCombine"
 shortDesc = u""
 longDesc = u"""
 Based primarily on "Modeling ammonia oxidation over a Pt (533) surface"
@@ -22,7 +22,8 @@ entry(
     longDesc = u"""
 "Kinetics of ammonia oxidation on stepped platinum surfacesII. Simulation results"
 Surface Science 576 (2005) 131–144
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -39,7 +40,8 @@ entry(
     longDesc = u"""
 Reaction 11 in "Modeling ammonia oxidation over a Pt (533) surface"
 https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -58,7 +60,8 @@ A factor from Reaction 13a in "Modeling ammonia oxidation over a Pt (533) surfac
 https://doi.org/10.1016/j.susc.2011.08.014
 Ea from "N2O formation and dissociation during ammonia combustion: A combined DFT and experimental study"
 https://doi.org/10.1016/j.proci.2016.05.004
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -76,7 +79,8 @@ entry(
 Ea from "N2O formation and dissociation during ammonia combustion: A combined DFT and experimental study"
 https://doi.org/10.1016/j.proci.2016.05.004
 A factor made up
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -94,7 +98,8 @@ entry(
 Ea from "NO pairing and transformation to N2O on Cu (111) and Pt (111) from first principles"
 A. Bogicevic, K.C. Hass, Surf. Sci. 506 (2002) L237-L242.
 A factor made up
-"""
+""",
+    metal = "Pt" ,
 )
 
 # entry(
@@ -113,7 +118,8 @@ A factor made up
 # https://doi.org/10.1016/j.proci.2016.05.004
 
 # A factor made up
-# """
+# """,
+#    metal="Pt",
 # )
 
 entry(
@@ -133,7 +139,8 @@ entry(
     "N2O formation and dissociation during ammonia combustion: A combined DFT and experimental study"
     https://doi.org/10.1016/j.proci.2016.05.004
     A made up
-    """
+    """,
+    metal = "Pt" ,
 )
 
 #https://github.com/rwest/RMG-database/commit/ac3072bc0a4779d17316a5b11ead94fb28c56aeb
@@ -155,7 +162,8 @@ entry(
     doi: 10.1016/j.ces.2011.07.007
     This is R2
     metal = 'Ni'
-    """
+    """,
+    metal = "Pt" ,
 )
 
 
@@ -177,5 +185,6 @@ Hopefully the reverse is calculated correctly, with there being a gas phase prod
 Assume N2O_X is vdw-adsorbed (because "weakly bound", and I can't figure out a Lewis structure with bonds).
 For the rate, just copied Deutschmann's dissociative adsorption of N2 from above, i.e.
 a fixed sticking coefficient of 1e-6.
-    """
+    """,
+    metal = "Pt" ,
 )

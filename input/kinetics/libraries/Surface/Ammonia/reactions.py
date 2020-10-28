@@ -22,7 +22,8 @@ entry(
     longDesc = u"""
 "Kinetics of ammonia oxidation on stepped platinum surfacesII. Simulation results"
 Surface Science 576 (2005) 131–144
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -39,7 +40,8 @@ entry(
     longDesc = u"""
 Reaction 11 in "Modeling ammonia oxidation over a Pt (533) surface"
 https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -59,7 +61,8 @@ https://doi.org/10.1016/j.susc.2011.08.014
 
 Ea from "N2O formation and dissociation during ammonia combustion: A combined DFT and experimental study"
 https://doi.org/10.1016/j.proci.2016.05.004
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -78,7 +81,8 @@ Ea from "N2O formation and dissociation during ammonia combustion: A combined DF
 https://doi.org/10.1016/j.proci.2016.05.004
 
 A factor made up
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -97,7 +101,8 @@ Ea from "NO pairing and transformation to N2O on Cu (111) and Pt (111) from firs
 A. Bogicevic, K.C. Hass, Surf. Sci. 506 (2002) L237-L242.
 
 A factor made up
-"""
+""",
+    metal = "Pt" ,
 )
 
 # entry(
@@ -116,7 +121,8 @@ A factor made up
 # https://doi.org/10.1016/j.proci.2016.05.004
 
 # A factor made up
-# """
+# """,
+#    metal = "Pt" ,
 # )
 
 entry(
@@ -137,5 +143,6 @@ entry(
     https://doi.org/10.1016/j.proci.2016.05.004
 
     A made up
-    """
+    """,
+    metal = "Pt" ,
 )

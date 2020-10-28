@@ -23,7 +23,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -41,7 +42,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 #Reverse reactino of index= 2
@@ -60,7 +62,8 @@ Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.0
 #M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 #"Modeling ammonia oxidation over a Pt (533) surface"
 #Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-#"""
+#""",
+#    metal="Pt",
 #)
 
 entry(
@@ -78,7 +81,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 #entry(
@@ -96,7 +100,8 @@ Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.0
 #M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 #"Modeling ammonia oxidation over a Pt (533) surface"
 #Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-#"""
+#""",
+#    metal="Pt",
 #)
 
 entry(
@@ -114,7 +119,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 #Reverse reaction of index= 6
@@ -133,7 +139,8 @@ Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.0
 #M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 #"Modeling ammonia oxidation over a Pt (533) surface"
 #Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-#"""
+#""",
+#    metal="Pt",
 #)
 
 entry(
@@ -151,7 +158,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -169,7 +177,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -187,7 +196,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -205,7 +215,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -223,7 +234,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 #Reverse reaction of index=13
@@ -242,7 +254,8 @@ Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.0
 #M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 #"Modeling ammonia oxidation over a Pt (533) surface"
 #Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-#"""
+#""",
+#    metal="Pt",
 #)
 
 entry(
@@ -260,7 +273,8 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -278,6 +292,7 @@ entry(
 M. Rafti, J.L. Vicente, A. Albesa, A. Scheibe, R. Imbihl
 "Modeling ammonia oxidation over a Pt (533) surface"
 Surf. Sci., 606 (1–2) (2012), pp. 12-20, https://doi.org/10.1016/j.susc.2011.08.014
-"""
+""",
+    metal = "Pt" ,
 )
 

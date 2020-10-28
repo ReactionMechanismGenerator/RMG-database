@@ -24,7 +24,8 @@ entry(
 "Surface science based microkinetic analysis of ammonia synthesis over ruthenium catalysts"
 Dahl S., Sehested J., Jacobsen C.J.H., Tornqvist E., Chorkendorff I.
 (2000)  Journal of Catalysis,  192  (2) , pp. 391-399
-"""
+""",
+    metal = "Ru" ,
 )
 
 #Reverse reaction of index = 1, reconsider the value of A
@@ -43,7 +44,8 @@ Dahl S., Sehested J., Jacobsen C.J.H., Tornqvist E., Chorkendorff I.
 #"Surface science based microkinetic analysis of ammonia synthesis over ruthenium catalysts"
 #Dahl S., Sehested J., Jacobsen C.J.H., Tornqvist E., Chorkendorff I.
 #(2000)  Journal of Catalysis,  192  (2) , pp. 391-399
-#"""
+#""",
+#    metal = "Ru" ,
 #)
 
 entry(
@@ -61,7 +63,8 @@ entry(
 "Surface science based microkinetic analysis of ammonia synthesis over ruthenium catalysts"
 Dahl S., Sehested J., Jacobsen C.J.H., Tornqvist E., Chorkendorff I.
 (2000)  Journal of Catalysis,  192  (2) , pp. 391-399
-"""
+""",
+    metal = "Ru" ,
 )
 
 
@@ -81,7 +84,8 @@ entry(
 "Surface science based microkinetic analysis of ammonia synthesis over ruthenium catalysts"
 Dahl S., Sehested J., Jacobsen C.J.H., Tornqvist E., Chorkendorff I.
 (2000)  Journal of Catalysis,  192  (2) , pp. 391-399
-"""
+""",
+    metal = "Ru" ,
 )
 
 entry(
@@ -99,7 +103,8 @@ entry(
 "Surface science based microkinetic analysis of ammonia synthesis over ruthenium catalysts"
 Dahl S., Sehested J., Jacobsen C.J.H., Tornqvist E., Chorkendorff I.
 (2000)  Journal of Catalysis,  192  (2) , pp. 391-399
-"""
+""",
+    metal = "Ru" ,
 )
 
 entry(
@@ -117,7 +122,8 @@ entry(
 "Surface science based microkinetic analysis of ammonia synthesis over ruthenium catalysts"
 Dahl S., Sehested J., Jacobsen C.J.H., Tornqvist E., Chorkendorff I.
 (2000)  Journal of Catalysis,  192  (2) , pp. 391-399
-"""
+""",
+    metal = "Ru" ,
 )
 
 entry(
@@ -135,6 +141,7 @@ entry(
 "Surface science based microkinetic analysis of ammonia synthesis over ruthenium catalysts"
 Dahl S., Sehested J., Jacobsen C.J.H., Tornqvist E., Chorkendorff I.
 (2000)  Journal of Catalysis,  192  (2) , pp. 391-399
-"""
+""",
+    metal = "Ru" ,
 )
 

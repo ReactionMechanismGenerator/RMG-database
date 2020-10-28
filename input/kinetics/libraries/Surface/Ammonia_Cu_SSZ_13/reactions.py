@@ -29,7 +29,8 @@ S.Y. Joshi, A. Kumar, J. Luo, K. Kamasamudram, N.W. Currier, A. Yezerets
 "New insights into the mechanism of NH3-SCR over Cu- and Fe-zeolite catalyst:
 apparent negative activation energy at high temperature and catalyst unit design consequences"
 Appl. Catal. B Environ., 226 (2018), pp. 565-574
-"""
+""",
+    metal = "Cu" ,
 )
 
 #Reverse reaction of index = 1, NH3 desorption on Cu_SSZ_13
@@ -50,7 +51,8 @@ Appl. Catal. B Environ., 226 (2018), pp. 565-574
 #"New insights into the mechanism of NH3-SCR over Cu- and Fe-zeolite catalyst:
 #apparent negative activation energy at high temperature and catalyst unit design consequences"
 #Appl. Catal. B Environ., 226 (2018), pp. 565-574
-#"""
+#""",
+#    metal = "Cu" ,
 #)
 
 #NO2 oxidation
@@ -69,5 +71,6 @@ entry(
 S.Y. Joshi, A. Kumar, J. Luo, K. Kamasamudram, N.W. Currier, A. Yezerets
 Combined experimental and kinetic modeling study of the bi-modal NOx conversion profile on commercial Cu-SAPO-34 catalyst under standard SCR conditions
 Appl. Catal., B, 165 (2015), pp. 27-35
-"""
+""",
+    metal = "Cu" ,
 )

@@ -23,7 +23,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Density-functional theory study of NHx oxidation and reverse reactions on the Rh (111) surface.
-"""
+""",
+    metal = "Rh" ,
 )
 
 # brigde + fcc -> hcp + top
@@ -40,7 +41,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Density-functional theory study of NHx oxidation and reverse reactions on the Rh (111) surface.
-"""
+""",
+    metal = "Rh" ,
 )
 
 # hcp + hcp -> hcp + top
@@ -57,7 +59,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Density-functional theory study of NHx oxidation and reverse reactions on the Rh (111) surface.
-"""
+""",
+    metal = "Rh" ,
 )
 
 # top + top -> bridge + top
@@ -74,7 +77,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Density-functional theory study of NHx oxidation and reverse reactions on the Rh (111) surface.
-"""
+""",
+    metal = "Rh" ,
 )
 
 # bridge + top + hcp + top
@@ -91,7 +95,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Density-functional theory study of NHx oxidation and reverse reactions on the Rh (111) surface.
-"""
+""",
+    metal = "Rh" ,
 )
 
 # hcp + top -> hcp + top
@@ -108,7 +113,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Density-functional theory study of NHx oxidation and reverse reactions on the Rh (111) surface.
-"""
+""",
+    metal = "Rh" ,
 )
 
 # hcp + fcc -> top
@@ -125,5 +131,6 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Density-functional theory study of NHx oxidation and reverse reactions on the Rh (111) surface.
-"""
+""",
+    metal = "Rh" ,
 )

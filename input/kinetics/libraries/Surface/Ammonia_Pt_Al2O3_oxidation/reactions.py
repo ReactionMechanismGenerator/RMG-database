@@ -25,7 +25,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -41,7 +42,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )
 
 #might delete this
@@ -58,7 +60,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -74,7 +77,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -90,7 +94,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -106,7 +111,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -122,7 +128,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -138,7 +145,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -154,5 +162,6 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Hydrothermal aging of Pt/Al2O3 monolith: Washcoat morphology degradation effects studied using ammonia and propylene oxidation
-"""
+""",
+    metal = "Pt" ,
 )

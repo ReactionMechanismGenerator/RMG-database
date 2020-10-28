@@ -24,7 +24,8 @@ entry(
 "Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-"""
+""",
+     metal = "Ru" ,
 )
 
 #Reverse reaction of index = 1
@@ -43,7 +44,8 @@ ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
 #"Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 #Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 #ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-#"""
+#""",
+#     metal = "Ru" ,
 #)
 
 entry(
@@ -61,8 +63,10 @@ entry(
 "Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-"""
+""",
+    metal = "Ru" ,
 )
+
 #Reverse reaction of index = 3
 #entry(
 #    index = 4,
@@ -79,7 +83,8 @@ ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
 #"Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 #Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 #ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-#"""
+#""",
+#    metal = "Ru" ,
 #)
 
 entry(
@@ -97,7 +102,8 @@ entry(
 "Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-"""
+""",
+    metal = "Ru" ,
 )
 #need to think about A in index= 5, looks like the value is very different than other literature.
 
@@ -117,7 +123,8 @@ ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
 #"Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 #Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 #ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-#"""
+#""",
+#    metal = "Ru" ,
 #)
 
 entry(
@@ -135,7 +142,8 @@ entry(
 "Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-"""
+""",
+    metal = "Ru" ,
 )
 
 #Reverse reaction of index = 7
@@ -154,7 +162,8 @@ ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
 #"Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 #Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 #ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-#"""
+#""",
+#    metal = "Ru" ,
 #)
 
 entry(
@@ -172,7 +181,8 @@ entry(
 "Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-"""
+""",
+    metal = "Ru" ,
 )
 
 #Reverse reaction of index = 9
@@ -191,7 +201,8 @@ ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
 #"Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 #Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 #ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-#"""
+#""",
+#    metal = "Ru" ,
 #)
 
 entry(
@@ -209,7 +220,8 @@ entry(
 "Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-"""
+""",
+    metal = "Ru" ,
 )
 
 #Reverse reaction of index = 11
@@ -228,5 +240,6 @@ ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
 #"Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis"
 #Zhenyu Zhang, Canan Karakaya, Robert J. Kee, J. Douglas Way, and Colin A. Wolden
 #ACS Sustainable Chemistry & Engineering 2019 7 (21), 18038-18047
-#"""
+#""",
+#     metal = "Ru" ,
 #)

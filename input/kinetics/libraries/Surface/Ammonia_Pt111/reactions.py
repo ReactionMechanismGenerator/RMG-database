@@ -26,7 +26,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -42,7 +43,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -58,7 +60,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" ,
 )
 
 #Kinetic parameters at 300 K of the oxidation of NHx by Oads
@@ -75,7 +78,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -91,7 +95,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -107,7 +112,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" ,
 )
 
 #Kinetic parameters at 300 K of the oxidation of NHx by OHads
@@ -124,7 +130,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -140,7 +147,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -156,6 +164,7 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
-"""
+""",
+    metal = "Pt" , ,
 )
 

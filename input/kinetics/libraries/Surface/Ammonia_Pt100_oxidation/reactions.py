@@ -27,7 +27,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -46,7 +47,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" , 
 )
 
 entry(
@@ -65,7 +67,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -84,7 +87,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -103,7 +107,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -122,7 +127,7 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
 )
 
 entry(
@@ -141,7 +146,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -160,7 +166,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -179,7 +186,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -198,7 +206,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -217,7 +226,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -236,7 +246,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -255,7 +266,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -274,7 +286,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -293,7 +306,8 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -312,5 +326,6 @@ entry(
 Gerard Novell-Leruth, Josep M. Ricart, and Javier Pérez-Ramírez
 The Journal of Physical Chemistry C 2008 112 (35), 13554-13562
 DOI: 10.1021/jp802489y
-"""
+""",
+    metal = "Pt" ,
 )

@@ -24,7 +24,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
+""",
+    metal = "Pt" , 
 )
 
 entry(
@@ -40,7 +41,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -56,7 +58,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -72,7 +75,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -88,7 +92,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -104,7 +109,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
+""",
+    metal = "Pt" ,
 )
 
 entry(
@@ -120,5 +126,6 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities.
-"""
+""",
+    metal = "Pt" ,
 )
