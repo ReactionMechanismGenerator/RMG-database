@@ -10,6 +10,13 @@ Adsorbtion of a vdw species to the surface with a surface species.
   :   +   |    ---->   |       +  ||
 ~*1~    ~*6~         ~*1~~       ~*6~
 
+Problem:
+ N=N      N+-N--H        N-N-N--H    N+
+  :   +   |      ---->   |        +  ||
+~*1~    ~*6~           ~*1~~        ~*6~
+Solution:
+Don't let *4 have a charge (specify c0 in adjacency list)
+
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m2)
 so k should be in (m2/mol/s). We will use sticking coefficients.

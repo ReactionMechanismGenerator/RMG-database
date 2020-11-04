@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Ammonia_Pt100_oxidation"
+name = "Ammonia_Pt100_oxidation_test"
 shortDesc = u""
 longDesc = u"""
 Based primarily on "Pt(100)-Catalyzed Ammonia Oxidation Studied by DFT: Mechanism and Microkinetics"

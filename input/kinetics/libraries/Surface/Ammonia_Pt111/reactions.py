@@ -165,6 +165,6 @@ entry(
     longDesc = u"""
 Ammonia Dissociation on Pt(100), Pt(111), and Pt(211): A Comparative Density Functional Theory Study
 """,
-    metal = "Pt" , ,
+    metal = "Pt" ,
 )
 
