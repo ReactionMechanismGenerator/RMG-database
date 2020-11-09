@@ -2531,6 +2531,7 @@ entry(
     index = 360,
     label = "C11H23(5) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0.063,'cm^3/(mol*s)'), n=3.476, Ea=(-11029,'cal/mol'), T0=(1,'K')),
 )
 
@@ -2545,6 +2546,7 @@ entry(
     index = 362,
     label = "C11H23(4) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0.002,'cm^3/(mol*s)'), n=3.692, Ea=(-11589,'cal/mol'), T0=(1,'K')),
 )
 
@@ -2552,6 +2554,7 @@ entry(
     index = 363,
     label = "C11H23(3) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(34.591,'cm^3/(mol*s)'), n=2.667, Ea=(-10134,'cal/mol'), T0=(1,'K')),
 )
 
@@ -2559,6 +2562,7 @@ entry(
     index = 364,
     label = "C11H23(2) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(8.58238e+17,'cm^3/(mol*s)'), n=-1.276, Ea=(1157,'cal/mol'), T0=(1,'K')),
 )
 
@@ -2580,6 +2584,7 @@ entry(
     index = 367,
     label = "C11H23(1) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(3.82549e+11,'cm^3/(mol*s)'), n=0.21, Ea=(-4209,'cal/mol'), T0=(1,'K')),
 )
 
@@ -2587,6 +2592,7 @@ entry(
     index = 368,
     label = "C11H23 + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=6.655, Ea=(-13333,'cal/mol'), T0=(1,'K')),
 )
 
@@ -6318,6 +6324,7 @@ entry(
     index = 901,
     label = "C5H10O1(2) + H1O1 <=> C5H10O1(1) + H1O1",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=5.589, Ea=(25761,'cal/mol'), T0=(1,'K')),
 )
 
@@ -6325,6 +6332,7 @@ entry(
     index = 902,
     label = "C5H10O1(1) + H1O1 <=> C5H10O1(2) + H1O1",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=5.107, Ea=(55120,'cal/mol'), T0=(1,'K')),
 )
 
@@ -7592,6 +7600,7 @@ entry(
     index = 1083,
     label = "C6H12O1(3) + H1O1 <=> C6H12(1) + H1O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=3.912, Ea=(37824,'cal/mol'), T0=(1,'K')),
 )
 
@@ -8082,6 +8091,7 @@ entry(
     index = 1153,
     label = "C6H12(1) + H1O2 <=> C6H12O1(3) + H1O1",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(135338,'cm^3/(mol*s)'), n=0.915, Ea=(21398,'cal/mol'), T0=(1,'K')),
 )
 
@@ -10889,6 +10899,7 @@ entry(
     index = 1554,
     label = "C9H18(2) + H1O2 <=> C9H18O1(7) + H1O1",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(1.21361e+45,'cm^3/(mol*s)'), n=-10.078, Ea=(37140,'cal/mol'), T0=(1,'K')),
 )
 
@@ -10959,6 +10970,7 @@ entry(
     index = 1564,
     label = "C9H18O1(8) + H1O1 <=> C9H18O1(7) + H1O1",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=4.839, Ea=(17362,'cal/mol'), T0=(1,'K')),
 )
 
@@ -11568,6 +11580,7 @@ entry(
     index = 1651,
     label = "C9H18O1(7) + H1O1 <=> C9H18O1(8) + H1O1",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(2.96222e+07,'cm^3/(mol*s)'), n=0, Ea=(62731,'cal/mol'), T0=(1,'K')),
 )
 
@@ -11855,6 +11868,7 @@ entry(
     index = 1692,
     label = "C9H18O1(7) + H1O1 <=> C9H18(2) + H1O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0,'cm^3/(mol*s)'), n=6.985, Ea=(39345,'cal/mol'), T0=(1,'K')),
 )
 
@@ -13479,6 +13493,7 @@ entry(
     index = 1924,
     label = "C11H23(5) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(1.553,'cm^3/(mol*s)'), n=3.152, Ea=(-9191,'cal/mol'), T0=(1,'K')),
 )
 
@@ -13507,6 +13522,7 @@ entry(
     index = 1928,
     label = "C11H23(4) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(0.08397,'cm^3/(mol*s)'), n=3.299, Ea=(-9365,'cal/mol'), T0=(1,'K')),
 )
 
@@ -13556,6 +13572,7 @@ entry(
     index = 1935,
     label = "C11H23(3) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(1.278,'cm^3/(mol*s)'), n=3.214, Ea=(-9952,'cal/mol'), T0=(1,'K')),
 )
 
@@ -13689,6 +13706,7 @@ entry(
     index = 1954,
     label = "C11H23(2) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(1.777e+11,'cm^3/(mol*s)'), n=0.417, Ea=(-3815,'cal/mol'), T0=(1,'K')),
 )
 
@@ -13801,6 +13819,7 @@ entry(
     index = 1970,
     label = "C11H23(1) + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(9.703e+12,'cm^3/(mol*s)'), n=-0.029, Ea=(-2582,'cal/mol'), T0=(1,'K')),
 )
 
@@ -13850,6 +13869,7 @@ entry(
     index = 1977,
     label = "C11H23 + H1O2 <=> C11H24 + O2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(69930,'cm^3/(mol*s)'), n=2.389, Ea=(-5005,'cal/mol'), T0=(1,'K')),
 )
 
@@ -16622,6 +16642,7 @@ entry(
     index = 2373,
     label = "C8H18 + H1 <=> C8H17(5) + H2",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(2.036e+08,'cm^3/(mol*s)'), n=1.889, Ea=(8084,'cal/mol'), T0=(1,'K')),
 )
 
@@ -16650,6 +16671,7 @@ entry(
     index = 2377,
     label = "C8H17(5) + H2 <=> C8H18 + H1",
     degeneracy = 1.0,
+    duplicate = True,
     kinetics = Arrhenius(A=(55.86,'cm^3/(mol*s)'), n=3.308, Ea=(18358,'cal/mol'), T0=(1,'K')),
 )
 
