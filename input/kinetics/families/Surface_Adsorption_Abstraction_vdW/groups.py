@@ -48,9 +48,9 @@ entry(
     label="Adsorbate1",
     group =
 """
-1 *6 Xo  u0 p0 c0 {2,S}
-2 *4 R!H ux px cx {1,S} {3,[S,D,T]}
-3 *5 R   ux px cx {2,[S,D,T]}
+1 *6 Xo  u0 p0 c0 {2,[S,D,T]}
+2 *4 R!H ux px cx {1,[S,D,T]} {3,S}
+3 *5 R   ux px cx {2,S}
 """,
     kinetics = None,
 )
@@ -60,9 +60,9 @@ entry(
     label="*C-R",
     group =
 """
-1 *6 Xo u0 p0 c0 {2,S}
-2 *4 C  ux px cx {1,S} {3,[S,D,T]}
-3 *5 R  ux px cx {2,[S,D,T]}
+1 *6 Xo u0 p0 c0 {2,[S,D,T]}
+2 *4 C  ux px cx {1,[S,D,T]} {3,S}
+3 *5 R  ux px cx {2,S}
 """,
     kinetics = None,
 )
@@ -96,9 +96,9 @@ entry(
     label="*N-R",
     group =
 """
-1 *6 Xo  u0 p0 c0 {2,S}
-2 *4 N   ux px cx {1,S} {3,[S,D,T]}
-3 *5 R   ux px cx {2,[S,D,T]}
+1 *6 Xo  u0 p0 c0 {2,[S,D]}
+2 *4 N   ux px cx {1,[S,D]} {3,S}
+3 *5 R   ux px cx {2,S}
 """,
     kinetics = None,
 )
