@@ -8,6 +8,29 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 
+# reverse of 16, below
+# entry(
+#     index = 34,
+#     label = "H2O* + O* <=> OH_2* + OH_4*",
+#     degeneracy = 2,
+#     kinetics = SurfaceArrhenius(
+#         A = (8.14E20, 'm^2/(mol*s)'),
+#         n = -0.274,
+#         Ea = (218400, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     rank = 10,
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R34
+#     test surface mechanism: based upon Olaf Deutschmann's work:
+#     "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+#     Delgado et al
+#     Catalysts, 2015, 5, 871-904""",
+# 	  metal = "Ni",
+# )
+
+# reverse of 34, above
 entry(
     index = 16,
     label = "OH_2* + OH_4* <=> H2O* + O*",
@@ -29,6 +52,27 @@ A factor from paper / surface site density of Cu
 1.675e12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 5.691e16 m^2/(mol*s)
 """,
     metal = "Cu",
+)
+
+entry(
+    index = 21,
+    label = "CH4* + O* <=> CH3* + OH_4*",
+    degeneracy = 4,
+    kinetics = SurfaceArrhenius(
+        A = (5.62E20, 'm^2/(mol*s)'),
+        n = -0.101,
+        Ea = (92700, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""R21
+    test surface mechanism: based upon Olaf Deutschmann's work:
+    "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+    Delgado et al
+    Catalysts, 2015, 5, 871-904""",
+	metal = "Ni",
 )
 
 entry(
