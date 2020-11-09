@@ -46,10 +46,10 @@ entry(
 )
 
 #skip R4
-#skip R5 vdW
-#skip R6 vdW
-#skip R7 vdW
-#skip R8 vdW
+#R5 moved to Surface_Adsorption_vdW
+#skip R6 vdW, reverse of R5
+#R7 moved to Surface_Adsorption_vdW
+#skip R8 vdW, reverse of R7
 
 #CFG: CO is a special case: we need to treat it separately
 entry(
@@ -68,26 +68,27 @@ entry(
 )
 
 #skip R10
-#skip R11 vdW
-#skip R12 vdW
-#skip R13
+#R11 moved to Surface_Adsorption_vdW
+#skip R12, reverse of R11
+#R13 moved to Surface_Dissociation_vdW
 
 #CFG: Modified version of R14: reverse of dissociative adsorption
 #since vdW is not yet functioning, we include this reaction in library
-entry(
-    index = 14,
-    label = "CH3X + HX <=> CH4 + Ni + Ni",
-    kinetics = SurfaceArrhenius(
-        A=(1.44E18, 'm^2/(mol*s)'),
-        n = -0.087,
-        Ea=(63400.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R14. Deutschmann actually uses vdW CH4 as product, but we skip it and this reaction as the reverse of our adsorption step""",
-	metal = "Ni",
-)
+#now vdW is functioning and R13 was added, this can be commented out
+# entry(
+#     index = 14,
+#     label = "CH3X + HX <=> CH4X + Ni",
+#     kinetics = SurfaceArrhenius(
+#         A=(1.44E18, 'm^2/(mol*s)'),
+#         n = -0.087,
+#         Ea=(63400.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R14. We input reverse direction""",
+# 	metal = "Ni",
+# )
 
 #skip R15
 # moved to Surface_Dissociation/training
@@ -140,24 +141,25 @@ entry(
 #)
 
 #skip R20
-#skip R21
+#moved R21 to Surface_Abstraction_vdW
 
 #CFG: Modified version of R22: CH4* now goes directly to CH4(g)
 #since vdW is not yet functioning, we include this reaction in library
-entry(
-    index = 22,
-    label = "CH3X + HOX <=> CH4 + OX + Ni",
-    kinetics = SurfaceArrhenius(
-        A=(2.98E18, 'm^2/(mol*s)'),
-        n = 0.101,
-        Ea=(25800.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R22. Deutschmann actually goes to vdW CH4, but we'll skip that. We input reverse direction""",
-	metal = "Ni",
-)
+#now vdW is functioning and R21 was added, this can be commented out
+# entry(
+#     index = 22,
+#     label = "CH3X + HOX <=> CH4X + OX",
+#     kinetics = SurfaceArrhenius(
+#         A=(2.98E18, 'm^2/(mol*s)'),
+#         n = 0.101,
+#         Ea=(25800.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R22. We input reverse direction""",
+# 	metal = "Ni",
+# )
 
 #skip R23
 #moved R24 to Surface_Abstraction/training
@@ -210,23 +212,24 @@ entry(
 #)
 
 #skip R28
-#skip R29 vdW
+#moved R29 to Surface_Dissociation_vdW
 
 #since vdW is not yet functioning, we include this reaction in library
-entry(
-    index = 30,
-    label = "HX + HOX <=> H2O + Ni + Ni",
-    kinetics = SurfaceArrhenius(
-        A=(1.85E16, 'm^2/(mol*s)'),
-        n = 0.086,
-        Ea=(41500.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R30. Deutschmann actually goes to vdW H2O, but we'll skip that. We input reverse direction""",
-	metal = "Ni",
-)
+#now vdW is functioning and R29 was added, this can be commented out
+# entry(
+#     index = 30,
+#     label = "HX + HOX <=> H2OX + Ni",
+#     kinetics = SurfaceArrhenius(
+#         A=(1.85E16, 'm^2/(mol*s)'),
+#         n = 0.086,
+#         Ea=(41500.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R30. We input reverse direction""",
+# 	metal = "Ni",
+# )
 
 #skip R31
 #moved to Surface_Dissociation/training
@@ -246,22 +249,23 @@ entry(
 #)
 
 #since vdW is not yet functioning, we include this reaction in library
-entry(
-    index = 33,
-    label = "HOX + HOX <=> H2O + OX + Ni",
-    kinetics = SurfaceArrhenius(
-        A=(2.34E16, 'm^2/(mol*s)'),
-        n = 0.274,
-        Ea=(92300.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R33""",
-	metal = "Ni",
-)
+#now vdW is functioning and R34 was added, this can be commented out
+# entry(
+#     index = 33,
+#     label = "HOX + HOX <=> H2O + OX + Ni",
+#     kinetics = SurfaceArrhenius(
+#         A=(2.34E16, 'm^2/(mol*s)'),
+#         n = 0.274,
+#         Ea=(92300.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R33""",
+# 	metal = "Ni",
+# )
 
-#skip R34 vdW
+#moved R34 to Surface_Abstraction_vdW
 #skip R35
 
 #We don't yet have a template for breaking a double bond for surface dissociation.
@@ -300,9 +304,10 @@ entry(
 )
 
 #since vdW is not yet functioning, we include this reaction in library
+#now vdW is functioning, but we do not have a family for this
 entry(
     index = 39,
-    label = "OCX + OCX <=> CO2 + Ni + CX",
+    label = "OCX + OCX <=> CO2X + CX",
     kinetics = SurfaceArrhenius(
         A=(1.62E10, 'm^2/(mol*s)'),
         n = 0.5,
@@ -311,30 +316,31 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R39 is used instead of R40 to avoid having CO2(s) as reactant""",
+    longDesc = u"""R39. We input reverse direction""",
 	metal = "Ni",
 )
 
-#skip R40
+#skip R40, reverse of R39
 
 #since vdW is not yet functioning, we include this reaction in library
-entry(
-    index = 41,
-    label = "OCX + OX <=> CO2 + Ni + Ni",
-    kinetics = SurfaceArrhenius(
-        A=(2.00E15, 'm^2/(mol*s)'),
-        n = 0.0,
-        Ea=(123600.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R41. Deutschmann actually uses vdW CO2, but we skip it and use reverse reaction""",
-	metal = "Ni",
-)
+#now vdW is functioning and R42 was added, this can be commented out
+# entry(
+#     index = 41,
+#     label = "OCX + OX <=> CO2X + Ni",
+#     kinetics = SurfaceArrhenius(
+#         A=(2.00E15, 'm^2/(mol*s)'),
+#         n = 0.0,
+#         Ea=(123600.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R41. We use reverse reaction""",
+# 	metal = "Ni",
+# )
 
 
-#skip R42
+#moved R42 to Surface_Dissociation_Double_vdW
 #skip R43
 # moved to Surface_Dissociation/training
 #entry(
@@ -352,23 +358,24 @@ entry(
 #	 metal = "Ni",
 #)
 
-#skip R45
+#moved R45 to Surface_Addition_Single_vdW
 
 #since vdW is not yet functioning, we include this reaction in library
-entry(
-    index = 46,
-    label = "HOCXO + Ni <=> CO2 + HX + Ni",
-    kinetics = SurfaceArrhenius(
-        A=(3.73E16, 'm^2/(mol*s)'),
-        n = 0.475,
-        Ea=(33600.0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Default""",
-    longDesc = u"""R46""",
-	metal = "Ni",
-)
+#now vdW is functioning and R45 was added, this can be commented out
+# entry(
+#     index = 46,
+#     label = "HOCXO + Ni <=> CO2X + HX",
+#     kinetics = SurfaceArrhenius(
+#         A=(3.73E16, 'm^2/(mol*s)'),
+#         n = 0.475,
+#         Ea=(33600.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R46""",
+# 	metal = "Ni",
+# )
 
 
 #skip R47

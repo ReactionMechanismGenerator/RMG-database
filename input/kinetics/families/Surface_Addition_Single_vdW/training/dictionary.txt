@@ -8,7 +8,7 @@ CO2*
 3 *3 C u0 p0 c0 {1,D} {2,D}
 4 *1 X u0 p0 c0
 
-Cu5
+X_5
 1 *5 X u0 p0 c0
 
 HCOO*
