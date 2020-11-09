@@ -121,4 +121,8 @@ CXHO
 3 H u0 p0 {1,S}
 4 X u0 p0 {1,S}
 
-
+CO2X
+1 C u0 p0 c0 {2,D} {3,D}
+2 O u0 p2 c0 {1,D}
+3 O u0 p2 c0 {1,D}
+4 X u0 p0 c0

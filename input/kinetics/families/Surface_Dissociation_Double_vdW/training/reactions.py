@@ -10,12 +10,12 @@ training set for generating rate rules to populate this kinetics family.
 
 entry(
     index = 9,
-    label = "CO* + O* <=> CO2* + Cu4",
+    label = "CO* + O* <=> CO2* + X_4",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A=(4.060e16, 'm^2/(mol*s)'),
+        A = (4.060e16, 'm^2/(mol*s)'),
         n = 0.,
-        Ea=(14.9893562, 'kcal/mol'),
+        Ea = (14.9893562, 'kcal/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -31,14 +31,35 @@ A factor from paper / surface site density of Cu
     metal = "Cu",
 )
 
+# duplicate of 9
+# entry(
+#     index = 42,
+#     label = "CO2* + X_4 <=> CO* + O*",
+#     kinetics = SurfaceArrhenius(
+#         A = (4.64E19, 'm^2/(mol*s)'),
+#         n = -1.0,
+#         Ea = (89300.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     rank = 10,
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R42
+#     test surface mechanism: based upon Olaf Deutschmann's work:
+#     "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+#     Delgado et al
+#     Catalysts, 2015, 5, 871-904""",
+# 	  metal = "Ni",
+# )
+
 entry(
     index = 35,
-    label = "HCOOH* + Cu4 <=> HCOH* + O*",
+    label = "HCOOH* + X_4 <=> HCOH* + O*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A=(1.641e16, 'm^2/(mol*s)'),
+        A = (1.641e16, 'm^2/(mol*s)'),
         n = 0.,
-        Ea=(57.65137, 'kcal/mol'),
+        Ea = (57.65137, 'kcal/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),

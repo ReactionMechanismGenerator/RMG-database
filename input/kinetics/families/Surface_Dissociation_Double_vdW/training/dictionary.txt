@@ -13,7 +13,7 @@ CO2*
 3 *3 C u0 p0 c0 {1,D} {2,D}
 4 *1 X u0 p0 c0
 
-Cu4
+X_4
 1 *4 X u0 p0 c0
 
 HCOOH*
