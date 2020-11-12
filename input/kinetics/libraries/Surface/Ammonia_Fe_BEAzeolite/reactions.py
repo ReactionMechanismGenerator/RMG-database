@@ -42,6 +42,7 @@ entry(
 #    metal = "Fe" ,
 #)
 
+#Non-neutral molecule encountered. Currently, RMG does not support ion chemistry
 entry(
     index = 30,
     label = " NH3 + OH_X <=> NH4 + O_X ",
