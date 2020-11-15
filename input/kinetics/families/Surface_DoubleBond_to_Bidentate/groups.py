@@ -30,7 +30,7 @@ entry(
     label = "Combined",
     group =
 """
-1 *1 [C,N]   u0 {2,[D,T]} {3,[S,D]}
+1 *1 R!H     u0 {2,[D,T]} {3,[S,D]}
 2 *2 R!H     u0 {1,[D,T]} 
 3 *3 Xo      u0 {1,[S,D]}
 """,

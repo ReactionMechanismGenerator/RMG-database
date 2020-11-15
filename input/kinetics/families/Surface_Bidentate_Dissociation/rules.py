@@ -9,8 +9,8 @@ entry(
     index = 1,
     label = "Combined",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e9, '1/s'),
-        n = 0,
+        A = (8.96e10, '1/s'),
+        n = 0.422,
         alpha = 0,
         E0 = (0.0, 'kcal/mol'),
         Tmin = (200, 'K'),
@@ -19,15 +19,12 @@ entry(
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-"Arrhenius preexponential values for surface recombination...reactions
-are, in the SI system,... 10^13 - 10^14 m2/mol/s ...for bimolecular reactions"
-from page 54 of "Silicon epitaxy"
-Author:	Danilo Crippa; Daniel L Rode; Maurizio Masi
-Publisher:	San Diego : Academic Press, 2001.
-Series:	Semiconductors and semimetals, v. 72.
-
-Ea made up. A is A for second-order divided by surface site density
-    """
+Pre-exponential value, n and E0 are from R42 in Table 1 of "A Catalytic Reaction Mechanism for Methane 
+Partial Oxidation at Short ContactTimes, Reforming, and Combustion, and 
+for Oxygenate Decomposition and Oxidation on Platinum"
+Authors:  A.B. Mhadeshwar and D.G. Vlachos
+doi:10.1021/ie070322c
+"""
 )
 
 
