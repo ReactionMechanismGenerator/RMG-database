@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface_Bidentate_Dissociation/rules"
+name = "Surface_DoubleBond_to_Bidentate/rules"
 shortDesc = u""
 longDesc = u"""
 """
@@ -9,25 +9,25 @@ entry(
     index = 1,
     label = "Combined;VacantSite",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e14, 'm^2/(mol*s)'),
-        n = 0,
+        A = (4.27e15, 'm^2/(mol*s)'),
+        n = 0.549,
         alpha = 0,
-        E0 = (0.0, 'kcal/mol'),
+        E0 = (1.0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-"Arrhenius preexponential values for surface recombination...reactions
-are, in the SI system,... 10^13 - 10^14 m2/mol/s ...for bimolecular reactions"
-from page 54 of "Silicon epitaxy"
-Author:	Danilo Crippa; Daniel L Rode; Maurizio Masi
-Publisher:	San Diego : Academic Press, 2001.
-Series:	Semiconductors and semimetals, v. 72.
+Pre-exponential value, n and E0 are from R31 in Table 1 of "A Catalytic Reaction Mechanism for Methane
+Partial Oxidation at Short ContactTimes, Reforming, and Combustion, and
+for Oxygenate Decomposition and Oxidation on Platinum"
+Authors:  A.B. Mhadeshwar and D.G. Vlachos
+doi:10.1021/ie070322c
 
-Ea made up. A is A for second-order divided by surface site density
-    """
+Pre-exponential factor from paper / surface site density of Pt
+1.06e11 1/s / 2.483e-5 mol/m2 = 4.27e15 m2/(mol*s)
+"""
 )
 
 
