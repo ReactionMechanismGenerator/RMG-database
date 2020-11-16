@@ -1045,18 +1045,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 53,
-    label = "CO2 + H + OH => HCO + HO2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 53,
+#    label = "CO2 + H + OH => HCO + HO2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 54,
@@ -1111,18 +1111,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 57,
-    label = "H2 + CO + CO => HCO + HCO",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 57,
+#    label = "H2 + CO + CO => HCO + HCO",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 58,
@@ -1571,18 +1571,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 81,
-    label = "H2O + CO2 + H => HOCHO + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 81,
+#    label = "H2O + CO2 + H => HOCHO + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 82,
@@ -1604,18 +1604,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 83,
-    label = "H2O + CO + OH => HOCHO + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 83,
+#    label = "H2O + CO + OH => HOCHO + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#   reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 84,
@@ -1656,18 +1656,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 86,
-    label = "H2 + CO + OH => HOCHO + H",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 86,
+#    label = "H2 + CO + OH => HOCHO + H",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 87,
@@ -1689,18 +1689,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 88,
-    label = "CH4 + CO + OH => HOCHO + CH3",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 88,
+#    label = "CH4 + CO + OH => HOCHO + CH3",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 89,
@@ -2979,18 +2979,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 155,
-    label = "O2 + CH3O + CH3O => CH3O2 + CH3O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 155,
+#    label = "O2 + CH3O + CH3O => CH3O2 + CH3O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 156,
@@ -3197,18 +3197,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 167,
-    label = "CO + OH + H => CH2(S) + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 167,
+#    label = "CO + OH + H => CH2(S) + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 168,
@@ -3306,18 +3306,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 173,
-    label = "CO + H + H => CH2(S) + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 173,
+#    label = "CO + H + H => CH2(S) + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 174,
@@ -3479,18 +3479,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 182,
-    label = "CO2 + H + H => CH2 + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 182,
+#    label = "CO2 + H + H => CH2 + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 183,
@@ -3512,18 +3512,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 184,
-    label = "CO + OH + H => CH2 + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 184,
+#    label = "CO + OH + H => CH2 + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 185,
@@ -3545,18 +3545,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 186,
-    label = "CO + H + H => CH2 + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 186,
+#    label = "CO + H + H => CH2 + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 187,
@@ -5182,18 +5182,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 273,
-    label = "CH2O + CO + OH => CH2CHO + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 273,
+#    label = "CH2O + CO + OH => CH2CHO + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 274,
@@ -5502,18 +5502,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 290,
-    label = "H2 + CO + CO => HCCO + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 290,
+#    label = "H2 + CO + CO => HCCO + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 291,
@@ -5573,18 +5573,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 294,
-    label = "H + CO + CO => HCCO + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 294,
+#    label = "H + CO + CO => HCCO + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 295,
@@ -5606,18 +5606,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 296,
-    label = "OH + CO + CO => HCCO + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 296,
+#    label = "OH + CO + CO => HCCO + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 297,
@@ -7658,18 +7658,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 404,
-    label = "CH3COCH2O2H + O2 => HO2 + CH3COCH2O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 404,
+#    label = "CH3COCH2O2H + O2 => HO2 + CH3COCH2O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 405,
@@ -8746,18 +8746,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 464,
-    label = "CH2CO + CH3 + H => C3H6 + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 464,
+#    label = "CH2CO + CH3 + H => C3H6 + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 465,
@@ -10016,18 +10016,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 534,
-    label = "C2H2 + CH2O + OH => C3H5-A + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 534,
+#    label = "C2H2 + CH2O + OH => C3H5-A + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 535,
@@ -11763,18 +11763,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 629,
-    label = "HCCO + CO + H => C3H2 + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 629,
+#    label = "HCCO + CO + H => C3H2 + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 630,
@@ -12681,18 +12681,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 681,
-    label = "TC4H9O + CH3O + O2 => TC4H9O2 + CH3O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 681,
+#    label = "TC4H9O + CH3O + O2 => TC4H9O2 + CH3O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 682,
@@ -12714,18 +12714,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 683,
-    label = "TC4H9O + CH3CO2 + O2 => TC4H9O2 + CH3CO3",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 683,
+#    label = "TC4H9O + CH3CO2 + O2 => TC4H9O2 + CH3CO3",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 684,
@@ -12747,18 +12747,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 685,
-    label = "O2 + TC4H9O + TC4H9O => TC4H9O2 + TC4H9O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 685,
+#    label = "O2 + TC4H9O + TC4H9O => TC4H9O2 + TC4H9O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 686,
@@ -12780,18 +12780,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 687,
-    label = "TC4H9O + OH + O2 => TC4H9O2 + HO2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 687,
+#    label = "TC4H9O + OH + O2 => TC4H9O2 + HO2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 688,
@@ -13315,18 +13315,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 717,
-    label = "CH2O + C2H5CO + OH => IC4KETII",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 717,
+#    label = "CH2O + C2H5CO + OH => IC4KETII",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 718,
@@ -13348,18 +13348,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 719,
-    label = "OH + CH2O + C3H6 => IC4H8O2H-I",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 719,
+#    label = "OH + CH2O + C3H6 => IC4H8O2H-I",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 720,
@@ -13533,18 +13533,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 729,
-    label = "CH2CO + CH3 + CH3 => IC4H8 + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 729,
+#    label = "CH2CO + CH3 + CH3 => IC4H8 + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 730,
@@ -14017,18 +14017,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 755,
-    label = "C3H4-A + CH2O + OH => IC4H7 + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 755,
+#    label = "C3H4-A + CH2O + OH => IC4H7 + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 756,
@@ -15013,18 +15013,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 809,
-    label = "CH3COCH3 + CO + OH => TC3H6CHO + O2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 809,
+#    label = "CH3COCH3 + CO + OH => TC3H6CHO + O2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 810,
@@ -15563,18 +15563,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 839,
-    label = "NC3H7 + CH3CO => C5H10-1 + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 839,
+#    label = "NC3H7 + CH3CO => C5H10-1 + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 840,
@@ -15827,18 +15827,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 855,
-    label = "CH3COCH3 + IC4H9 => XC7H14 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 855,
+#    label = "CH3COCH3 + IC4H9 => XC7H14 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 856,
@@ -15860,18 +15860,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 857,
-    label = "CH3COCH3 + IC4H9 => YC7H14 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 857,
+#    label = "CH3COCH3 + IC4H9 => YC7H14 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 858,
@@ -15893,18 +15893,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 859,
-    label = "CH3COCH3 + IC4H8 => YC7H14 + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 859,
+#    label = "CH3COCH3 + IC4H8 => YC7H14 + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 860,
@@ -18812,18 +18812,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1024,
-    label = "IC8ETERAB + OH => AC8H16OOH-B",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1024,
+#    label = "IC8ETERAB + OH => AC8H16OOH-B",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1025,
@@ -18845,18 +18845,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1026,
-    label = "IC8ETERAB + OH => BC8H16OOH-A",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1026,
+#    label = "IC8ETERAB + OH => BC8H16OOH-A",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1027,
@@ -18878,18 +18878,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1028,
-    label = "OH + CH2O + YC7H14 => AC8H16OOH-B",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1028,
+#    label = "OH + CH2O + YC7H14 => AC8H16OOH-B",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1029,
@@ -18911,18 +18911,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1030,
-    label = "OH + IC3H7CHO + IC4H8 => BC8H16OOH-A",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1030,
+#    label = "OH + IC3H7CHO + IC4H8 => BC8H16OOH-A",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1031,
@@ -19046,18 +19046,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1038,
-    label = "YC7H14 + HCO + H2O => IC8ETERAB + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1038,
+#    label = "YC7H14 + HCO + H2O => IC8ETERAB + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1039,
@@ -19079,18 +19079,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1040,
-    label = "YC7H14 + HCO + H2O2 => IC8ETERAB + HO2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1040,
+#    label = "YC7H14 + HCO + H2O2 => IC8ETERAB + HO2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1041,
@@ -19112,18 +19112,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1042,
-    label = "IC3H7CHO + TC3H6CHO + OH => IC8KETAB",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1042,
+#    label = "IC3H7CHO + TC3H6CHO + OH => IC8KETAB",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1043,
@@ -19145,18 +19145,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1044,
-    label = "CH2O + IC3H7COC3H6-T + OH => IC8KETBA",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1044,
+#    label = "CH2O + IC3H7COC3H6-T + OH => IC8KETBA",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1045,
@@ -22190,18 +22190,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1220,
-    label = "CH3CHO + C5H11-1 => C7H14-1 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1220,
+#    label = "CH3CHO + C5H11-1 => C7H14-1 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1221,
@@ -22223,18 +22223,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1222,
-    label = "CH3CHO + C5H11-1 => C7H14-2 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1222,
+#    label = "CH3CHO + C5H11-1 => C7H14-2 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1223,
@@ -22256,18 +22256,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1224,
-    label = "CH2CHO + C5H11-1 => C7H14-1 + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1224,
+#    label = "CH2CHO + C5H11-1 => C7H14-1 + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1225,
@@ -22289,18 +22289,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1226,
-    label = "CH3CHO + C5H10-1 => C7H14-2 + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1226,
+#    label = "CH3CHO + C5H10-1 => C7H14-2 + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1227,
@@ -22322,18 +22322,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1228,
-    label = "CH3CHO + C5H10-1 => C7H14-3 + O",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1228,
+#    label = "CH3CHO + C5H10-1 => C7H14-3 + O",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1229,
@@ -22874,18 +22874,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1259,
-    label = "C7H14O2-4 + OH => C7H14OOH2-4",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1259,
+#    label = "C7H14O2-4 + OH => C7H14OOH2-4",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1260,
@@ -22907,18 +22907,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1261,
-    label = "C7H14O2-5 + OH => C7H14OOH2-5",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1261,
+#    label = "C7H14O2-5 + OH => C7H14OOH2-5",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1262,
@@ -22940,18 +22940,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1263,
-    label = "C7H14O3-5 + OH => C7H14OOH3-5",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1263,
+#    label = "C7H14O3-5 + OH => C7H14OOH3-5",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1264,
@@ -22973,18 +22973,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1265,
-    label = "C7H14O2-4 + OH => C7H14OOH4-2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1265,
+#    label = "C7H14O2-4 + OH => C7H14OOH4-2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1266,
@@ -23006,18 +23006,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1267,
-    label = "OH + CH3CHO + C5H10-1 => C7H14OOH2-4",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1267,
+#    label = "OH + CH3CHO + C5H10-1 => C7H14OOH2-4",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1268,
@@ -23039,18 +23039,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1269,
-    label = "OH + C2H5CHO + C4H8-1 => C7H14OOH3-5",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1269,
+#    label = "OH + C2H5CHO + C4H8-1 => C7H14OOH3-5",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1270,
@@ -23072,18 +23072,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1271,
-    label = "OH + NC3H7CHO + C3H6 => C7H14OOH4-2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1271,
+#    label = "OH + NC3H7CHO + C3H6 => C7H14OOH4-2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1272,
@@ -23255,18 +23255,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1282,
-    label = "NC4H9CHO + CH2CHO + OH => NC7KET13",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1282,
+#    label = "NC4H9CHO + CH2CHO + OH => NC7KET13",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1283,
@@ -23288,18 +23288,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1284,
-    label = "CH3CO + C5H10-1 + H2O => C7H14O2-4 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1284,
+#    label = "CH3CO + C5H10-1 + H2O => C7H14O2-4 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1285,
@@ -23321,18 +23321,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1286,
-    label = "CH3COCH2 + C4H8-1 + H2O => C7H14O2-5 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1286,
+#    label = "CH3COCH2 + C4H8-1 + H2O => C7H14O2-5 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1287,
@@ -23354,18 +23354,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1288,
-    label = "C2H5CO + C4H8-1 + H2O => C7H14O3-5 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1288,
+#    label = "C2H5CO + C4H8-1 + H2O => C7H14O3-5 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1289,
@@ -23387,18 +23387,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1290,
-    label = "C3H6 + C2H5COCH2 + H2O => C7H14O2-5 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1290,
+#    label = "C3H6 + C2H5COCH2 + H2O => C7H14O2-5 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1291,
@@ -23420,18 +23420,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1292,
-    label = "C2H5CHO + C4H71-2 + H2O => C7H14O3-5 + OH",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1292,
+#    label = "C2H5CHO + C4H71-2 + H2O => C7H14O3-5 + OH",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1293,
@@ -23453,18 +23453,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1294,
-    label = "CH3CO + C5H10-1 + H2O2 => C7H14O2-4 + HO2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1294,
+#    label = "CH3CO + C5H10-1 + H2O2 => C7H14O2-4 + HO2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1295,
@@ -23486,18 +23486,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1296,
-    label = "CH3COCH2 + C4H8-1 + H2O2 => C7H14O2-5 + HO2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1296,
+#    label = "CH3COCH2 + C4H8-1 + H2O2 => C7H14O2-5 + HO2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1297,
@@ -23519,18 +23519,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1298,
-    label = "C2H5CO + C4H8-1 + H2O2 => C7H14O3-5 + HO2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1298,
+#    label = "C2H5CO + C4H8-1 + H2O2 => C7H14O3-5 + HO2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1299,
@@ -23552,18 +23552,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1300,
-    label = "C3H6 + C2H5COCH2 + H2O2 => C7H14O2-5 + HO2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1300,
+#    label = "C3H6 + C2H5COCH2 + H2O2 => C7H14O2-5 + HO2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1301,
@@ -23585,18 +23585,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1302,
-    label = "C2H5CHO + C4H71-2 + H2O2 => C7H14O3-5 + HO2",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1302,
+#    label = "C2H5CHO + C4H71-2 + H2O2 => C7H14O3-5 + HO2",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1303,
@@ -26206,18 +26206,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1447,
-    label = "NC3H7CHO + CH3COCH2 + OH => iso001",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1447,
+#    label = "NC3H7CHO + CH3COCH2 + OH => iso001",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1448,
@@ -26239,18 +26239,18 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1449,
-    label = "C2H5CHO + C2H5COCH2 + OH => iso001",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
+#entry(
+#    index = 1449,
+#    label = "C2H5CHO + C2H5COCH2 + OH => iso001",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
 
 entry(
     index = 1450,
@@ -26272,16 +26272,15 @@ Originally from reaction library: Unclassified
 """,
 )
 
-entry(
-    index = 1451,
-    label = "CH3CHO + NC3H7COCH2 + OH => iso001",
-    degeneracy = 1.0,
-    duplicate = True,
-    reversible = False,
-    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
-u"""
-Originally from reaction library: Unclassified
-""",
-)
-
+#entry(
+#    index = 1451,
+#    label = "CH3CHO + NC3H7COCH2 + OH => iso001",
+#    degeneracy = 1.0,
+#    duplicate = True,
+#    reversible = False,
+#    kinetics = Arrhenius(A=(0, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    longDesc = 
+#u"""
+#Originally from reaction library: Unclassified
+#""",
+#)
