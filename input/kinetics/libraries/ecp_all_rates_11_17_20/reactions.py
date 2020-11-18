@@ -10720,12 +10720,12 @@ entry(
     kinetics = Chebyshev(coeffs=[[3.797,-0.6235,-0.03822,0.0182],[0.999,0.9698,0.1008,-0.06277],[-0.735,-0.371,0.04614,0.03548],[0.305,-0.2334,-0.07295,0.01709],[-0.04462,0.3877,-0.006369,-0.0529],[-0.04007,-0.1658,0.02679,0.03315]], kunits='s^-1', Tmin=(500,'K'), Tmax=(2000,'K'), Pmin=(0.1,'bar'), Pmax=(100,'bar')),
 )
 
-entry(
-    index = 1529,
-    label = "CCCCCCCCCO[O] <=> CCCCCC[CH]CCOO",
-    degeneracy = 1.0,
-    kinetics = PDepArrhenius(pressures=([0.1,1,10,100],'bar'), arrhenius=[Arrhenius(A=(inf,'s^-1'), n=-99.983, Ea=(142635,'cal/mol'), T0=(1,'K')), Arrhenius(A=(1.849e+236,'s^-1'), n=-69.481, Ea=(107287,'cal/mol'), T0=(1,'K')), Arrhenius(A=(2.244e+136,'s^-1'), n=-38.58, Ea=(68347,'cal/mol'), T0=(1,'K')), Arrhenius(A=(4.896e+70,'s^-1'), n=-18.339, Ea=(41975,'cal/mol'), T0=(1,'K'))]),
-)
+# entry(
+#     index = 1529,
+#     label = "CCCCCCCCCO[O] <=> CCCCCC[CH]CCOO",
+#     degeneracy = 1.0,
+#     kinetics = PDepArrhenius(pressures=([0.1,1,10,100],'bar'), arrhenius=[Arrhenius(A=(inf,'s^-1'), n=-99.983, Ea=(142635,'cal/mol'), T0=(1,'K')), Arrhenius(A=(1.849e+236,'s^-1'), n=-69.481, Ea=(107287,'cal/mol'), T0=(1,'K')), Arrhenius(A=(2.244e+136,'s^-1'), n=-38.58, Ea=(68347,'cal/mol'), T0=(1,'K')), Arrhenius(A=(4.896e+70,'s^-1'), n=-18.339, Ea=(41975,'cal/mol'), T0=(1,'K'))]),
+# )
 
 entry(
     index = 1530,
