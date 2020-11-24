@@ -440,3 +440,33 @@ u"""
 Geometry could not converge at wB97x-D3/6-311++G(3df,3pd) (alongd ref - xq1492)
 """,
 )
+
+entry(
+    label = "CC1=CC=CC(O[O])[CH]1",
+    species =
+"""
+multiplicity 3
+1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,D} {9,S}
+3  C u0 p0 c0 {2,D} {4,S} {14,S}
+4  C u0 p0 c0 {3,S} {5,D} {15,S}
+5  C u0 p0 c0 {4,D} {6,S} {16,S}
+6  C u0 p0 c0 {5,S} {7,S} {9,S} {17,S}
+7  O u0 p2 c0 {6,S} {8,S}
+8  O u1 p2 c0 {7,S}
+9  C u1 p0 c0 {2,S} {6,S} {10,S}
+10 H u0 p0 c0 {9,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {6,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Geometry could not converge at CBS-QB3 (alongd ref - rob1)
+""",
+)
