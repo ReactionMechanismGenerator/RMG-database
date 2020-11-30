@@ -29,6 +29,10 @@ The reaction is
    HCOO** -> CO2* + H*
 They report a nonlinear dependence of the activation energy on specific coverage (of H*)
 and temperature, but don't say what this dependence is.
+Note that this reaction is not actually an example of this reaction family!
+It the dissociation of a bidentate adsorbate, but the H* that ends up adsorbed was not 
+one of the initial adatoms.
+However, in the absence of better data, it is currently our best estimate. (KB, CFG, RHW, 2020-11-30).
 """
 )
 
