@@ -27,6 +27,11 @@ doi:10.1021/ie070322c
 
 Pre-exponential factor from paper / surface site density of Pt
 1.06e11 1/s / 2.483e-5 mol/m2 = 4.27e15 m2/(mol*s)
+
+The reaction R31 is
+   COOH* + *  -> CO2* + H*
+They report a nonlinear dependence of the activation energy on specific coverage (of H*)
+and temperature, but don't say what this dependence is.
 """
 )
 
