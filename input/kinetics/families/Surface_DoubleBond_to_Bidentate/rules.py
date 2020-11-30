@@ -32,6 +32,9 @@ The reaction R31 is
    COOH* + *  -> CO2* + H*
 They report a nonlinear dependence of the activation energy on specific coverage (of H*)
 and temperature, but don't say what this dependence is.
+Note that this reaction is not in fact an example of this reaction family!
+The products have dissocated and are not the bidentate COOH** (or CHOO**).
+However, in the absence of better data, it is currently our best estimate. (KB, CFG, RHW, 2020-11-30).
 """
 )
 
