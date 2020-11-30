@@ -24,6 +24,11 @@ Partial Oxidation at Short ContactTimes, Reforming, and Combustion, and
 for Oxygenate Decomposition and Oxidation on Platinum"
 Authors:  A.B. Mhadeshwar and D.G. Vlachos
 doi:10.1021/ie070322c
+
+The reaction is
+   HCOO** -> CO2* + H*
+They report a nonlinear dependence of the activation energy on specific coverage (of H*)
+and temperature, but don't say what this dependence is.
 """
 )
 
