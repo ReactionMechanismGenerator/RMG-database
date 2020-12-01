@@ -91,12 +91,13 @@ surface = {
     'Surface_Dual_Adsorption_vdW',
     'Surface_Dissociation_Beta',
     'Surface_Adsorption_Abstraction_vdW',
+    'Surface_Adsorption_Bidentate',
+    'Surface_Bidentate_Dissociation',
+    'Surface_DoubleBond_to_Bidentate', 
 }
 
 # Surface chemistry families that are under development and not yet working well.
 surface_development = {
-    'Surface_Adsorption_Double',
-    'Surface_Adsorption_Bidentate',
-    'Surface_Bidentate_Dissociation'
+    #'Surface_Adsorption_Double',
     # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
 }
