@@ -47,11 +47,50 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 3,
+    label = "H2O",
+    group =
+"""
+1 *1 O u0 p2 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
 
+entry(
+    index = 4,
+    label = "CO2",
+    group =
+"""
+1 *1 C u0 p0 c0 {2,D} {3,D}
+2    O u0 p2 c0 {1,D}
+3    O u0 p2 c0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "CH4",
+    group =
+"""
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: Adsorbate
+    L2: H2O
+    L2: CO2
+    L2: CH4
 
 L1: VacantSite
 """
