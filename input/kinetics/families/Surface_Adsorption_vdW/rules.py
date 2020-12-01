@@ -10,7 +10,7 @@ entry(
     index = 1,
     label = "Adsorbate;VacantSite",
     kinetics = StickingCoefficientBEP(
-        A = 0.1,
+        A = 1.0E-8,
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -19,7 +19,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""Made up by Emily"""
 )
 
 
