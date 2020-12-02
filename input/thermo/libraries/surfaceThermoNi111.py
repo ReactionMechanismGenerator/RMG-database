@@ -557,5 +557,3 @@ entry(
     metal = "Ni",
     facet = "111",
 )
-
-

@@ -138,7 +138,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     shortDesc = u"""""",
-    longDesc = u""""""
+    longDesc = u"""""",
     metal = "Rh" ,
 )
 
