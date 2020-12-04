@@ -73,6 +73,17 @@ SOC = {'H': 0.0, 'N': 0.0, 'O': -0.000355, 'C': -0.000135, 'S': -0.000893, 'P': 
 # Atomic energies
 atom_energies = {
 
+    "LevelOfTheory(method='cbsqb3g16',software='gaussian')": {
+        'H': -0.501375164502056,
+        'C': -37.78031419694297,
+        'N': -54.51924309442535,
+        'O': -74.9878108871832,
+        'F': -99.64360708139041,
+        'S': -397.6475877430642,
+        'Cl': -459.68483248286964,
+        'Br': -2572.8292745140334
+    },
+
     "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',))": {
         'H': -0.495120313966199,
         'C': -37.778093385262565,
