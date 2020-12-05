@@ -351,6 +351,55 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='cbs4m',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -21.060338621340723
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.325264
+          - 0.000905
+          - 0.002301
+        - - 0.16735
+          - -0.000998
+          - -0.015201
+        - - 0.729589
+          - 1.104375
+          - -0.004658
+        - - 0.726871
+          - -1.107608
+          - 0.005539
+        - - -1.648584
+          - -0.897236
+          - -0.490449
+        - - -1.625844
+          - 0.005733
+          - 1.039154
+        - - -1.646392
+          - 0.895544
+          - -0.498186
+      isotopes:
+      - 12
+      - 14
+      - 16
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - O
+      - O
+      - H
+      - H
+      - H
   LevelOfTheory(method='cbsqb3g16',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:

@@ -17,7 +17,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 116.55011899429137
+        value: 116.55011899429135
       class: ThermoData
     xyz_dict:
       coords:
@@ -459,6 +459,70 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='cbs4m',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 93.09498358347727
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.70403
+          - -1.051738
+          - -0.0
+        - - -1.451729
+          - 0.127748
+          - 0.0
+        - - -0.612565
+          - 1.227354
+          - -0.0
+        - - 0.612557
+          - 1.227358
+          - 0.0
+        - - 1.451727
+          - 0.127756
+          - -0.0
+        - - 0.704035
+          - -1.051734
+          - 0.0
+        - - -1.218079
+          - -1.992944
+          - 0.0
+        - - -2.519839
+          - 0.135608
+          - -0.0
+        - - 2.519837
+          - 0.135623
+          - 0.0
+        - - 1.218089
+          - -1.992937
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='cbsqb3g16',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
@@ -529,7 +593,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 98.00438726096456
+        value: 98.00438726096453
       class: ThermoData
     xyz_dict:
       coords:
@@ -657,7 +721,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 117.6302346354577
+        value: 117.63023463545767
       class: ThermoData
     xyz_dict:
       coords:

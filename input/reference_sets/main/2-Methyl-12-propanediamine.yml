@@ -747,6 +747,110 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='cbs4m',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -28.122043111440483
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.472325
+          - -1.526363
+          - -0.204131
+        - - -0.425996
+          - -0.005778
+          - 0.000642
+        - - -0.447695
+          - 0.244057
+          - 1.452904
+        - - -1.666347
+          - 0.644141
+          - -0.624814
+        - - 0.846715
+          - 0.584385
+          - -0.643472
+        - - 2.05472
+          - 0.048028
+          - 0.012787
+        - - -1.375664
+          - -1.917715
+          - 0.24495
+        - - 0.373694
+          - -1.99656
+          - 0.282961
+        - - -0.457814
+          - -1.779038
+          - -1.259855
+        - - 0.436625
+          - -0.022764
+          - 1.855351
+        - - -0.648478
+          - 1.207825
+          - 1.668753
+        - - -1.641967
+          - 1.722568
+          - -0.494369
+        - - -2.556289
+          - 0.262072
+          - -0.140867
+        - - -1.721699
+          - 0.430246
+          - -1.686557
+        - - 0.832221
+          - 0.407976
+          - -1.718003
+        - - 0.83622
+          - 1.657009
+          - -0.485375
+        - - 2.338218
+          - -0.85083
+          - -0.331646
+        - - 2.828397
+          - 0.686703
+          - 0.025134
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='cbsqb3g16',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
@@ -961,7 +1065,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -21.868857689024615
+        value: -21.86885768902461
       class: ThermoData
     xyz_dict:
       coords:
