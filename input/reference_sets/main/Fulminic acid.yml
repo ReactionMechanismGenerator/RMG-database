@@ -249,7 +249,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 51.726508903361925
+        value: 51.72650890336191
       class: ThermoData
     xyz_dict:
       coords:
@@ -267,6 +267,40 @@ calculated_data:
         - - 1.449712
           - 0.774636
           - 0.0
+      isotopes:
+      - 16
+      - 14
+      - 12
+      - 1
+      symbols:
+      - O
+      - N
+      - C
+      - H
+  LevelOfTheory(method='rocbsqb3',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 52.53363821037093
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.082443
+          - -0.12266
+          - -0.0
+        - - -0.238415
+          - 0.037863
+          - 0.0
+        - - -1.412577
+          - -0.006315
+          - -0.0
+        - - 1.449723
+          - 0.774625
+          - -0.0
       isotopes:
       - 16
       - 14

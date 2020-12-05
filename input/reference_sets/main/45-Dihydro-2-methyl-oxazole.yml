@@ -494,7 +494,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -18.93626953320916
+        value: -18.936269533209156
       class: ThermoData
     xyz_dict:
       coords:
@@ -646,6 +646,85 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='rocbsqb3',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -36.14515056259343
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.157144
+          - 0.008079
+          - -0.003188
+        - - 0.670336
+          - 0.10905
+          - -0.001153
+        - - -0.015593
+          - 1.175518
+          - 0.030791
+        - - -1.430939
+          - 0.771448
+          - 0.017132
+        - - -1.400481
+          - -0.778123
+          - -0.028961
+        - - 0.015246
+          - -1.091969
+          - -0.038212
+        - - 2.496861
+          - -0.515104
+          - -0.900772
+        - - 2.591094
+          - 1.00513
+          - 0.028187
+        - - 2.495566
+          - -0.570038
+          - 0.860539
+        - - -1.932937
+          - 1.155189
+          - 0.909597
+        - - -1.930742
+          - 1.207633
+          - -0.852189
+        - - -1.847317
+          - -1.199682
+          - -0.931244
+        - - -1.847335
+          - -1.252423
+          - 0.846756
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -731,7 +810,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -30.553644198740137
+        value: -30.55364419874013
       class: ThermoData
     xyz_dict:
       coords:

@@ -17,7 +17,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 116.5501189942914
+        value: 116.55011899429137
       class: ThermoData
     xyz_dict:
       coords:
@@ -337,7 +337,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 130.85418523243672
+        value: 130.85418523243666
       class: ThermoData
     xyz_dict:
       coords:
@@ -523,6 +523,70 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='rocbsqb3',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 98.00438726096456
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.702334
+          - -1.055541
+          - 0.0
+        - - -1.458336
+          - 0.134793
+          - -0.0
+        - - -0.621909
+          - 1.235462
+          - -0.0
+        - - 0.621899
+          - 1.235463
+          - 0.0
+        - - 1.458334
+          - 0.134801
+          - 0.0
+        - - 0.702339
+          - -1.055537
+          - -0.0
+        - - -1.227776
+          - -2.005234
+          - 0.0
+        - - -2.540618
+          - 0.136549
+          - -0.0
+        - - 2.540616
+          - 0.136564
+          - 0.0
+        - - 1.227787
+          - -2.005227
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -593,7 +657,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 117.63023463545773
+        value: 117.6302346354577
       class: ThermoData
     xyz_dict:
       coords:

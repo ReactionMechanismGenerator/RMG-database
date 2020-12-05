@@ -81,7 +81,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 54.09277968437208
+        value: 54.09277968437207
       class: ThermoData
     xyz_dict:
       coords:
@@ -145,7 +145,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 51.45916075452666
+        value: 51.45916075452664
       class: ThermoData
     xyz_dict:
       coords:
@@ -401,7 +401,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 61.8645575828031
+        value: 61.86455758280309
       class: ThermoData
     xyz_dict:
       coords:
@@ -501,6 +501,70 @@ calculated_data:
         - - -0.310024
           - -1.227327
           - -0.879462
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+  LevelOfTheory(method='rocbsqb3',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 41.94532381458931
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.971547
+          - -0.200026
+          - 8.9e-05
+        - - 1.878863
+          - 0.165177
+          - 9.4e-05
+        - - 0.486191
+          - 0.602911
+          - 0.000107
+        - - -0.486187
+          - -0.602903
+          - 6.2e-05
+        - - -1.878861
+          - -0.165173
+          - 8.0e-05
+        - - -2.971548
+          - 0.200022
+          - 7.6e-05
+        - - 0.31003
+          - 1.227368
+          - -0.879416
+        - - 0.310026
+          - 1.227304
+          - 0.879675
+        - - -0.310026
+          - -1.227359
+          - 0.879584
+        - - -0.310023
+          - -1.227296
+          - -0.879506
       isotopes:
       - 14
       - 12
