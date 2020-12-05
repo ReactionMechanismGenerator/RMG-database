@@ -216,7 +216,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -111.71662165239053
+        value: -111.71662165239051
       class: ThermoData
     xyz_dict:
       coords:
@@ -250,7 +250,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -120.87071325890642
+        value: -120.87071325890639
       class: ThermoData
     xyz_dict:
       coords:
@@ -312,13 +312,47 @@ calculated_data:
       - F
       - F
       - F
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -112.96774677417095
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1e-05
+          - -2.0e-06
+          - 0.323631
+        - - 1.09778
+          - -0.61286
+          - -0.071607
+        - - -0.018144
+          - 1.257125
+          - -0.071585
+        - - -1.079633
+          - -0.644271
+          - -0.071586
+      isotopes:
+      - 12
+      - 19
+      - 19
+      - 19
+      symbols:
+      - C
+      - F
+      - F
+      - F
   LevelOfTheory(method='g4mp2',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -114.07757106740166
+        value: -114.07757106740164
       class: ThermoData
     xyz_dict:
       coords:

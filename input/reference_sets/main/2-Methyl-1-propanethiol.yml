@@ -817,13 +817,102 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -26.17187374877788
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.007298
+          - -1.468826
+          - -0.105493
+        - - -0.878635
+          - -0.004427
+          - 0.328023
+        - - -2.169347
+          - 0.772371
+          - 0.023839
+        - - 0.309788
+          - 0.703326
+          - -0.341037
+        - - 1.983031
+          - 0.104484
+          - 0.125723
+        - - -1.86898
+          - -1.941884
+          - 0.37591
+        - - -1.150751
+          - -1.545955
+          - -1.190518
+        - - -0.120054
+          - -2.04913
+          - 0.162964
+        - - -0.707512
+          - 0.019763
+          - 1.411745
+        - - -3.028894
+          - 0.310095
+          - 0.519525
+        - - -2.103445
+          - 1.81078
+          - 0.36531
+        - - -2.376908
+          - 0.786954
+          - -1.052808
+        - - 0.32834
+          - 1.758161
+          - -0.050571
+        - - 0.219103
+          - 0.674368
+          - -1.431488
+        - - 1.946282
+          - -1.06964
+          - -0.529892
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='g4mp2',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -27.045860224560105
+        value: -27.045860224560098
       class: ThermoData
     xyz_dict:
       coords:

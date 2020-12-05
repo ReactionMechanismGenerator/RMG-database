@@ -573,7 +573,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -50.028009490909454
+        value: -50.02800949090944
       class: ThermoData
     xyz_dict:
       coords:
@@ -725,13 +725,92 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -42.34449807932546
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.003375
+          - -1.250339
+          - -0.005665
+        - - -1.164673
+          - -0.43114
+          - 0.126138
+        - - -0.73241
+          - 0.997715
+          - -0.224135
+        - - 0.736347
+          - 0.993047
+          - 0.225625
+        - - 1.161937
+          - -0.435983
+          - -0.132186
+        - - -1.539648
+          - -0.487226
+          - 1.159644
+        - - -1.947544
+          - -0.817988
+          - -0.535966
+        - - -1.340272
+          - 1.757811
+          - 0.272473
+        - - -0.79903
+          - 1.163243
+          - -1.304937
+        - - 1.347822
+          - 1.752872
+          - -0.266942
+        - - 0.803716
+          - 1.152568
+          - 1.307285
+        - - 1.942539
+          - -0.830147
+          - 0.528291
+        - - 1.537288
+          - -0.488298
+          - -1.165742
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='g4mp2',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -43.46125211107093
+        value: -43.46125211107091
       class: ThermoData
     xyz_dict:
       coords:

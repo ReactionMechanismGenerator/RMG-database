@@ -311,6 +311,40 @@ calculated_data:
       - N
       - N
       - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 50.289303850528505
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.177457
+          - -0.663408
+          - -0.0
+        - - 0.590376
+          - 0.192356
+          - 0.0
+        - - -0.590376
+          - -0.192356
+          - 0.0
+        - - -1.177457
+          - 0.663408
+          - -0.0
+      isotopes:
+      - 1
+      - 14
+      - 14
+      - 1
+      symbols:
+      - H
+      - N
+      - N
+      - H
   LevelOfTheory(method='g4mp2',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:

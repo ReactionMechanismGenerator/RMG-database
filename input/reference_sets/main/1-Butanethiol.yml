@@ -817,6 +817,95 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -24.18762283161501
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.377697
+          - -0.191919
+          - 0.084394
+        - - 0.75776
+          - 0.661956
+          - -0.053362
+        - - -0.45788
+          - -0.260881
+          - 0.024512
+        - - -1.784225
+          - 0.508797
+          - -0.036126
+        - - -3.007699
+          - -0.409488
+          - 0.031943
+        - - 2.253873
+          - -0.95497
+          - -1.01838
+        - - 0.747988
+          - 1.25449
+          - -0.972576
+        - - 0.760662
+          - 1.368531
+          - 0.7829
+        - - -0.417473
+          - -0.984626
+          - -0.800185
+        - - -0.406866
+          - -0.847406
+          - 0.949366
+        - - -1.820205
+          - 1.100748
+          - -0.960192
+        - - -1.821385
+          - 1.232027
+          - 0.789183
+        - - -3.015848
+          - -0.989289
+          - 0.961376
+        - - -3.015122
+          - -1.121255
+          - -0.800915
+        - - -3.938919
+          - 0.163646
+          - -0.01159
+      isotopes:
+      - 32
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='g4mp2',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
@@ -912,7 +1001,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -30.30928857217809
+        value: -30.309288572178083
       class: ThermoData
     xyz_dict:
       coords:
