@@ -1315,8 +1315,9 @@ freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvdz')": 0.997,  # [3], taken as 'CCSD(T)/cc-pVDZ'
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvtz')": 0.998,  # [3], taken as CCSD(T)-F12a/cc-pVTZ-F12
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvqz')": 0.998,  # [3], taken as 'CCSD(T)-F12b/VQZF12//CCSD(T)-F12a/TZF'
-             "LevelOfTheory(method='cbs4m')": 0.917 * 1.014,  # [5], the 0.917 value is the ZPE scale factor of CBS-4M
-             "LevelOfTheory(method='g4')": 0.985 * 1.014,  # [5], the 0.985 value is the ZPE scale factor of G4
-             "LevelOfTheory(method='g4mp2')": 0.985 * 1.014,  # [5], the 0.985 value is the ZPE scale factor of G4mp2
-             "LevelOfTheory(method='rocbsqb3')": 0.99 * 1.014,  # [5], the 0.99 value is the ZPE scale factor of ROCBS-QB3
+             "LevelOfTheory(method='cbs4m',software='gaussian')": 0.917 * 1.014,  # [5], the 0.917 value is the ZPE scale factor of CBS-4M
+             "LevelOfTheory(method='g4',software='gaussian')": 0.985 * 1.014,  # [5], the 0.985 value is the ZPE scale factor of G4
+             "LevelOfTheory(method='g4mp2',software='gaussian')": 0.985 * 1.014,  # [5], the 0.985 value is the ZPE scale factor of G4mp2
+             "LevelOfTheory(method='rocbsqb3',software='gaussian')": 0.99 * 1.014,  # [5], the 0.99 value is the ZPE scale factor of ROCBS-QB3"LevelOfTheory(method='rocbsqb3')": 0.99 * 1.014,  # [5], the 0.99 value is the ZPE scale factor of ROCBS-QB3
+             "LevelOfTheory(method='cbsqb3g16',software='gaussian')": 0.99 * 1.014,  # [5], the 0.99 value is the ZPE scale factor of CBS-QB3
              }
