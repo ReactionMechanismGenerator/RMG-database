@@ -244,6 +244,40 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='cbsqb3g16',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 35.2766012989643
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 3.0e-06
+          - 7.1e-05
+          - -0.0
+        - - -0.949559
+          - -0.515406
+          - -0.0
+        - - 0.028368
+          - 1.080153
+          - -0.0
+        - - 0.921199
+          - -0.564536
+          - -0.0
+      isotopes:
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -318,7 +352,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 35.138883892881445
+        value: 35.13888389288144
       class: ThermoData
     xyz_dict:
       coords:
@@ -378,7 +412,7 @@ reference_data:
   CCCBDB:
     atomization_energy:
       class: ScalarQuantity
-      uncertainty: 0.7000000000000001
+      uncertainty: 0.7000000000000002
       uncertainty_type: +|-
       units: kJ/mol
       value: 1209.3

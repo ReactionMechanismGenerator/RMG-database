@@ -10,7 +10,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 30.80815001783485
+        value: 30.808150017834844
       class: ThermoData
     xyz_dict:
       coords:
@@ -34,7 +34,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 31.10732348792991
+        value: 31.107323487929904
       class: ThermoData
     xyz_dict:
       coords:
@@ -154,7 +154,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 30.232517355492476
+        value: 30.23251735549247
       class: ThermoData
     xyz_dict:
       coords:
@@ -172,13 +172,37 @@ calculated_data:
       symbols:
       - S
       - S
+  LevelOfTheory(method='cbsqb3g16',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 16.724841188645698
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.961175
+        - - 0.0
+          - 0.0
+          - -0.961175
+      isotopes:
+      - 32
+      - 32
+      symbols:
+      - S
+      - S
   LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 31.217141192551313
+        value: 31.217141192551306
       class: ThermoData
     xyz_dict:
       coords:
@@ -202,7 +226,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 31.020660081594766
+        value: 31.02066008159476
       class: ThermoData
     xyz_dict:
       coords:
@@ -290,7 +314,7 @@ reference_data:
     zpe:
       class: ScalarQuantity
       units: kJ/mol
-      value: 4.332740000000001
+      value: 4.332740000000002
   NIST Chemistry WebBook:
     class: ReferenceDataEntry
     thermo_data:

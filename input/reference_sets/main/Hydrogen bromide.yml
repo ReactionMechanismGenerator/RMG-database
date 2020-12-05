@@ -75,6 +75,30 @@ calculated_data:
       symbols:
       - Br
       - H
+  LevelOfTheory(method='cbsqb3g16',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -9.0507410803052
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.042317
+        - - 0.0
+          - 0.0
+          - -1.381885
+      isotopes:
+      - 79
+      - 1
+      symbols:
+      - Br
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -182,7 +206,7 @@ reference_data:
       uncertainty: 0.2
       uncertainty_type: +|-
       units: kJ/mol
-      value: 362.40000000000003
+      value: 362.4000000000001
     class: ReferenceDataEntry
     xyz_dict:
       coords:
