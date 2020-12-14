@@ -17,10 +17,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    rank = 0,
+    rank = 10,
     shortDesc = u"""Default""",
-    longDesc = u"""Made up by Emily"""
+    longDesc = u"""Guess made by Emily M"""
 )
-
-
-
