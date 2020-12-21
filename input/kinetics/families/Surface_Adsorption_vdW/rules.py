@@ -10,7 +10,7 @@ entry(
     index = 1,
     label = "Adsorbate;VacantSite",
     kinetics = StickingCoefficientBEP(
-        A = 1.0E-8,
+        A = 1.0E-12,
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
