@@ -524,3 +524,22 @@ u"""
 3D coordinates could not be obtained for conformers
 """,
 )
+
+entry(
+    label = "[O]ON=NN=[N]",
+    species =
+"""
+multiplicity 3
+1 O u0 p2 c0 {2,S} {3,S}
+2 O u1 p2 c0 {1,S}
+3 N u0 p1 c0 {1,S} {4,D}
+4 N u0 p1 c0 {3,D} {5,S}
+5 N u0 p1 c0 {4,S} {6,D}
+6 N u1 p1 c0 {5,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+optimization did not converge, split into three segments (N2, N2, O2)
+""",
+)
