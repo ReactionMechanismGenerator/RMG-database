@@ -334,7 +334,7 @@ atom_energies = {
         'O': -74.97847534 + SOC['O'], 'S': -397.6571654 + SOC['S']
     },
 
-    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',))": {
+    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',software='orca')": {
         'H': -0.495120313966199,
         'C': -37.778093385262565,
         'N': -54.50593880634087,
@@ -422,7 +422,7 @@ pbac = {
     },
 
     #  "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))"
-    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',))": {
+    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',software='orca')": {
         'Br-Br': -0.2870880330716341,
         'Br-C': -0.4478244666388548,
         'Br-Cl': 0.01837965082522075,
@@ -469,7 +469,7 @@ pbac = {
 mbac = {
 
     #  "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',)))"
-    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',auxiliary_basis='def2tzvp/c',software='orca',args=('normalpno',))": {
+    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2tzvp',software='orca')": {
         'atom_corr': {
             'Br': -1.150753507340495,
             'C': -0.8040011721434682,
