@@ -2332,7 +2332,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 82,
     label = "(N=[O,N]R)*",
     group =
 """
@@ -2348,7 +2348,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 83,
     label = "N-*RN=*",
     group =
 """
@@ -2378,7 +2378,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 84,
     label = "(CRCR)*",
     group =
 """
@@ -2409,7 +2409,7 @@ entry(
 )
 
 entry(
-    index = 86,
+    index = 85,
     label = "C-*R2N=*",
     group =
 """
@@ -2440,7 +2440,7 @@ entry(
 )
 
 entry(
-    index = 87,
+    index = 86,
     label = "C-*R2N-*R",
     group =
 """
@@ -2472,7 +2472,7 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 87,
     label = "C=*(=C)",
     group =
 """
@@ -2505,7 +2505,7 @@ not two, it is not a child of the C=*R2 node
 )
 
 entry(
-    index = 89,
+    index = 88,
     label = "C-*R2O-*",
     group =
 """
