@@ -2332,23 +2332,6 @@ entry(
 )
 
 entry(
-    index = 82,
-    label = "(NR2CR3)*",
-    group =
-"""
-1 X  u0 p0 c0
-2 N  u0 p1 c0 {3,S} {4,S} {5,S}
-3 Cs u0 p0 c0 {2,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-""",
-    thermo=u'(NR3)*',
-    longDesc=u"""Do we have data for this?""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
     index = 83,
     label = "(NR2)*",
     group =
@@ -2633,7 +2616,6 @@ L1: R*
             L4: (CRN)*
             L4: (CRCR)*
         L3: (NR3)*
-            L4: (NR2CR3)*
             L4: (NR2NR2)*
             L4: (NR2OR)*
         L3: (NR2)*
