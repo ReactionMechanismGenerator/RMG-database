@@ -2333,13 +2333,13 @@ entry(
 
 entry(
     index = 83,
-    label = "(NR2)*",
+    label = "(N=[O,N]R)*",
     group =
 """
-1 X   u0
-2 N   u0 {3,D} {4,S}
-3 R!H u0 {2,D}
-4 R   u0 {2,S}
+1 X     u0
+2 N     u0 {3,D} {4,S}
+3 [N,O] u0 {2,D}
+4 R     u0 {2,S}
 """,
     thermo=u'(NRO)*',
     longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?""",
@@ -2618,7 +2618,7 @@ L1: R*
         L3: (NR3)*
             L4: (NR2NR2)*
             L4: (NR2OR)*
-        L3: (NR2)*
+        L3: (N=[O,N]R)*
             L4: (NRO)*
             L4: (NRNR)*
         L3: (OR2)*
