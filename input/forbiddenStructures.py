@@ -543,3 +543,40 @@ u"""
 optimization did not converge, split into three segments (N2, N2, O2)
 """,
 )
+
+entry(
+    label = "s4_O3S2",
+    species =
+"""
+multiplicity 3
+1 O u1 p2 c0 {2,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 S u0 p1 c0 {2,S} {4,D} {5,S}
+4 S u0 p2 c0 {3,D}
+5 O u1 p2 c0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+optimization did not converge, split into two segments
+""",
+)
+
+entry(
+    label = "s7_HO3S2",
+    species =
+"""
+multiplicity 2
+1 S u0 p1 c0 {2,S} {4,D} {6,S}
+2 S u0 p1 c0 {1,S} {3,S} {5,D}
+3 O u1 p2 c0 {2,S}
+4 O u0 p2 c0 {1,D}
+5 O u0 p2 c0 {2,D}
+6 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+optimization did not converge, split into two segments
+""",
+)
