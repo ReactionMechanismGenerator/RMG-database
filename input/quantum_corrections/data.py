@@ -323,6 +323,20 @@ atom_energies = {
         'P': -341.281730319 + SOC['P'], 'S': -398.134489850 + SOC['S']
     },
 
+    # Calculated atomic energies in Qcore
+    "LevelOfTheory(method='b973c',basis='mtzvp')": {   
+        'I': -298.055298868456 + SOC['I'], 'Cl': -460.08217246179765 + SOC['Cl'], 'S': -398.0432726398255 + SOC['S'], 
+        'O': -75.02912916807038 + SOC['O'],'F': -99.68844048312552 + SOC['F'], 'C': -37.8144381685619 + SOC['C'], 
+        'H': -0.5069173311972734 + SOC['H'], 'Br': -2575.0374009766106 + SOC['Br'], 'N': -54.556533247405724 + SOC['N']
+    },
+
+    # Calculated atomic energies in Qcore
+    "LevelOfTheory(method='b3lypd3',basis='def2tzvp')": {
+        'I': -297.68441178611204 + SOC['I'], 'Cl': -460.10177891462337 + SOC['Cl'], 'S': -398.0715322620628 + SOC['S'],
+        'O': -75.06686319381012 + SOC['O'], 'F': -99.73619835682304 + SOC['F'], 'C': -37.83815354670309 + SOC['C'],
+        'H': -0.4987782893370002 + SOC['H'], 'Br': -2574.0018750001823 + SOC['Br'], 'N': -54.57901751894686 + SOC['N']
+    },
+
     "LevelOfTheory(method='wb97xd',basis='augccpvtz',software='gaussian')": {
         'H': -0.502803 + SOC['H'], 'N': -54.585652 + SOC['N'], 'O': -75.068286 + SOC['O'],
         'C': -37.842014 + SOC['C']
@@ -425,6 +439,7 @@ mbac = {}
 #        [3] http://comp.chem.umn.edu/freqscale/190107_Database_of_Freq_Scale_Factors_v4.pdf
 #        [4] Calculated as described in 10.1021/ct100326h
 #        [5] J.A. Montgomery, M.J. Frisch, J. Chem. Phys. 1999, 110, 2822–2827, DOI: 10.1063/1.477924
+#        [6] https://doi.org/10.1021/jp508422u
 
 freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='hf',basis='631g')": 0.903,  # [2]
@@ -434,6 +449,7 @@ freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='hf',basis='631+g(d,p)')": 0.915 * 1.014,  # [1] Table 7
              "LevelOfTheory(method='pm3')": 0.940 * 1.014,  # [1] Table 7, the 0.940 value is the ZPE scale factor
              "LevelOfTheory(method='pm6')": 1.078 * 1.014,  # [1] Table 7, the 1.078 value is the ZPE scale factor
+             "LevelOfTheory(method='b3lypd3',basis='def2tzvp')": 0.9896 * 1.014,  # [6] Table 5, the 0.9896 value is the ZPE scale factor for B3LYP/def2-tzvp
              "LevelOfTheory(method='b3lyp',basis='631g(d,p)')": 0.961,  # [2]
              "LevelOfTheory(method='b3lyp',basis='6311g(d,p)')": 0.967,  # [2]
              "LevelOfTheory(method='b3lyp',basis='6311+g(3df,2p)')": 0.967,  # [2]
