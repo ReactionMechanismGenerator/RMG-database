@@ -1,53 +1,22 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Disproportionation/rules"
+name = "Disproportionation-Y/rules"
 shortDesc = u""
 longDesc = u"""
 
 """
 entry(
-    index = 485,
+    index = 6,
     label = "Y_rad_birad_trirad_quadrad;XH_Rrad_birad",
     kinetics = ArrheniusEP(
-        A = (3e+11, 'cm^3/(mol*s)'),
+        A = (3e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0, 'kcal/mol'),
+        E0 = (2000, 'cal/mol'),
         Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
+        Tmax = (3000, 'K'),
     ),
     rank = 0,
-    shortDesc = u"""Default""",
+    shortDesc = u"""From NIST CH2F2 model for CHFCCF3_r423 + H_r1 <=> F_p41 + C#CC(F)(F)F_p23""",
 )
-
-entry(
-    index = 556,
-    label = "O2b;XH_Rrad_birad",
-    kinetics = ArrheniusEP(
-        A = (5e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""A.G. Vandeputte estimated value""",
-)
-
-entry(
-    index = 556,
-    label = "Y_rad_birad_trirad_quadrad;Cdpri_Csrad",
-    kinetics = ArrheniusEP(
-        A = (1e+09, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 9,
-    shortDesc = u"""Estimated value, AG Vandeputte""",
-)
-
