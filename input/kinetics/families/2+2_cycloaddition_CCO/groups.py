@@ -141,8 +141,8 @@ entry(
 """
 1 *3 Cd        u0 {2,D} {3,S} {4,S}
 2 *4 Cdd       u0 {1,D} {5,D}
-3    H         u0 {1,S}
-4    H         u0 {1,S}
+3    [H,Val7]         u0 {1,S}
+4    [H,Val7]         u0 {1,S}
 5    [O2d,S2d] u0 {2,D}
 """,
     kinetics = None,
@@ -155,7 +155,7 @@ entry(
 """
 1 *3 Cd        u0 {2,D} {3,S} {4,S}
 2 *4 Cdd       u0 {1,D} {5,D}
-3    H         u0 {1,S}
+3    [H,Val7]         u0 {1,S}
 4    [Cs,O,S]  u0 {1,S}
 5    [O2d,S2d] u0 {2,D}
 """,

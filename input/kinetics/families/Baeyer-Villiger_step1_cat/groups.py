@@ -29,8 +29,8 @@ entry(
 """
 1 *1 C     u0 {2,D} {3,S} {4,S}
 2 *2 O     u0 {1,D}
-3    [C,H] u0 {1,S}
-4    [C,H] u0 {1,S}
+3    [C,H,Val7] u0 {1,S}
+4    [C,H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )

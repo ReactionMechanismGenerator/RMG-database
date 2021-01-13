@@ -503,7 +503,7 @@ entry(
     label = "Root_1R->H",
     group = 
 """
-1 * H u1
+1 * [H,Cl,Br] u1
 2 * R u1
 """,
     kinetics = None,
