@@ -5696,13 +5696,13 @@ entry(
     shortDesc = """The chemkin file reaction is C6H4O2 + H <=> CO + C5H5O(1,3)""",
 )
 
-entry(
-    index = 709,
-    label = "C6H4O2 + O <=> CO + CO + C2H2 + CH2CO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(5000,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is C6H4O2 + O <=> CO + CO + C2H2 + CH2CO""",
-)
+# entry(
+#     index = 709,
+#     label = "C6H4O2 + O <=> CO + CO + C2H2 + CH2CO",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(5000,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is C6H4O2 + O <=> CO + CO + C2H2 + CH2CO""",
+# )
 
 entry(
     index = 710,

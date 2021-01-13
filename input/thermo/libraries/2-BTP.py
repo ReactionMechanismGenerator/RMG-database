@@ -2886,8 +2886,7 @@ entry(
     label = "CH2*",
     molecule = 
 """
-multiplicity 3
-1 C u2 p0 c0 {2,S} {3,S}
+1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 """,

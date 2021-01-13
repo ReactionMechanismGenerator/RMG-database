@@ -43442,6 +43442,7 @@ Cited from Badra, Jihad, Ehson F. Nasir, and Aamir Farooq. "Site-specific rate c
 measurements for primary and secondary h-and d-abstraction by oh radicals: Propane and n-butane." The Journal 
 of PhysicalChemistry A 118.26 (2014): 4652-4660.
 """
+)
 
 entry(
     index = 4006,
@@ -43466,6 +43467,7 @@ entry(
 """
 From JetSurF2.0 NC5H12 + OH <=> SXC5H11 + H2O
 """
+)
 
 entry(
     index = 4007,
