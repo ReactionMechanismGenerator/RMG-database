@@ -9,50 +9,50 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 # reverse of 16, below
-# entry(
-#     index = 34,
-#     label = "H2O* + O* <=> OH_2* + OH_4*",
-#     degeneracy = 2,
-#     kinetics = SurfaceArrhenius(
-#         A = (8.14E20, 'm^2/(mol*s)'),
-#         n = -0.274,
-#         Ea = (218400, 'J/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     rank = 10,
-#     shortDesc = u"""Default""",
-#     longDesc = u"""R34
-#     test surface mechanism: based upon Olaf Deutschmann's work:
-#     "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
-#     Delgado et al
-#     Catalysts, 2015, 5, 871-904""",
-# 	  metal = "Ni",
-# )
-
-# reverse of 34, above
 entry(
-    index = 16,
-    label = "OH_2* + OH_4* <=> H2O* + O*",
+    index = 34,
+    label = "H2O* + O* <=> OH_2* + OH_4*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A = (5.691e16, 'm^2/(mol*s)'),
-        n = 0.,
-        Ea = (14.0669343, 'kcal/mol'),
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
+        A = (8.14E20, 'm^2/(mol*s)'),
+        n = -0.274,
+        Ea = (218400, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
     ),
     rank = 10,
     shortDesc = u"""Default""",
-    longDesc = u"""
-Reaction 16 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
-and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-
-A factor from paper / surface site density of Cu
-1.675e12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 5.691e16 m^2/(mol*s)
-""",
-    metal = "Cu",
+    longDesc = u"""R34
+    test surface mechanism: based upon Olaf Deutschmann's work:
+    "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+    Delgado et al
+    Catalysts, 2015, 5, 871-904""",
+	metal = "Ni",
 )
+
+# reverse of 34, above
+# entry(
+#     index = 16,
+#     label = "OH_2* + OH_4* <=> H2O* + O*",
+#     degeneracy = 2,
+#     kinetics = SurfaceArrhenius(
+#         A = (5.691e16, 'm^2/(mol*s)'),
+#         n = 0.,
+#         Ea = (14.0669343, 'kcal/mol'),
+#         Tmin = (298, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank = 10,
+#     shortDesc = u"""Default""",
+#     longDesc = u"""
+# Reaction 16 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+# and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
+#
+# A factor from paper / surface site density of Cu
+# 1.675e12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 5.691e16 m^2/(mol*s)
+# """,
+#     metal = "Cu",
+# )
 
 entry(
     index = 21,

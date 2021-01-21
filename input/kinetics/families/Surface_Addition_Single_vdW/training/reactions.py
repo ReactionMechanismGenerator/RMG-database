@@ -8,50 +8,50 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 
-entry(
-    index = 11,
-    label = "COOH* + X_5 <=> CO2_2* + H*",
-    degeneracy = 2,
-    kinetics = SurfaceArrhenius(
-        A = (8.028e17, 'm^2/(mol*s)'),
-        n = 0.,
-        Ea = (28.3644741, 'kcal/mol'),
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Default""",
-    longDesc = u"""
-Reaction 11 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
-and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-
-A factor from paper / surface site density of Cu
-2.3626e13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 8.028e17 m^2/(mol*s)
-""",
-    metal = "Cu",
-)
-
-#reverse of 11
 # entry(
-#     index = 45,
-#     label = "CO2_2* + H* <=> COOH* + X_5",
+#     index = 11,
+#     label = "COOH* + X_5 <=> CO2_2* + H*",
 #     degeneracy = 2,
 #     kinetics = SurfaceArrhenius(
-#         A = (6.25E20, 'm^2/(mol*s)'),
-#         n = -0.475,
-#         Ea = (117200, 'J/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
+#         A = (8.028e17, 'm^2/(mol*s)'),
+#         n = 0.,
+#         Ea = (28.3644741, 'kcal/mol'),
+#         Tmin = (298, 'K'),
+#         Tmax = (2000, 'K'),
 #     ),
 #     rank = 10,
 #     shortDesc = u"""Default""",
-#     longDesc = u"""R45
-#     test surface mechanism: based upon Olaf Deutschmann's work:
-#     "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
-#     Delgado et al
-#     Catalysts, 2015, 5, 871-904""",
-# 	  metal = "Ni",
+#     longDesc = u"""
+# Reaction 11 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+# and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
+#
+# A factor from paper / surface site density of Cu
+# 2.3626e13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 8.028e17 m^2/(mol*s)
+# """,
+#     metal = "Cu",
 # )
+
+#reverse of 11
+entry(
+    index = 45,
+    label = "CO2_2* + H* <=> COOH* + X_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A = (6.25E20, 'm^2/(mol*s)'),
+        n = -0.475,
+        Ea = (117200, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""R45
+    test surface mechanism: based upon Olaf Deutschmann's work:
+    "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+    Delgado et al
+    Catalysts, 2015, 5, 871-904""",
+	  metal = "Ni",
+)
 
 entry(
     index = 17,
