@@ -344,6 +344,13 @@ atom_energies = {
     },
 
     # Calculated atomic energies (unfitted)
+    "LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qcore')": {
+        'I': -297.7485342152768 + SOC['I'], 'Cl': -460.14722048563607 + SOC['Cl'], 'S': -398.10858162902673 + SOC['S'], 
+        'O': -75.07376202690303 + SOC['O'], 'F': -99.7444082658827 + SOC['F'], 'C': -37.84490366025854 + SOC['C'], 
+        'H': -0.5021353627976693 + SOC['H'], 'Br': -2574.1735832901036 + SOC['Br'], 'N': -54.589540067059446 + SOC['N']
+    },
+
+    # Calculated atomic energies (unfitted)
     "LevelOfTheory(method='mrci+davidson',basis='augccpv(t+d)z',software='molpro')": {
         'H': -0.49982118 + SOC['H'], 'C': -37.78321274 + SOC['C'], 'N': -54.51729444 + SOC['N'],
         'O': -74.97847534 + SOC['O'], 'S': -397.6571654 + SOC['S']
@@ -469,6 +476,7 @@ freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='wb97xd',basis='augccpvtz',software='gaussian')": 0.988,  # [3], taken as 'ωB97X-D/maug-cc-pVTZ'
              "LevelOfTheory(method='wb97xd',basis='6311++g(d,p)',software='gaussian')": 0.988,  # [4]
              "LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian')": 0.988,  # [4]
+             "LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qcore')": 0.988,  # taken from above
              "LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian')": 0.986,  # [4]
              "LevelOfTheory(method='wb97mv',basis='def2tzvpd')": 1.002,  # [4]
              "LevelOfTheory(method='apfd',basis='def2tzvp')": 0.993,  # [4]
