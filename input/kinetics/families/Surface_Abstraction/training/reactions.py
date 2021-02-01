@@ -93,25 +93,25 @@ Catalysts, 2015, 5, 871-904. Reaction R28
 	metal = "Ni",
 )
 
-entry(
-    index = 39,
-    label = "O* + HCO* <=> OH* + CO*",
-    degeneracy = 1,
-    kinetics = SurfaceArrhenius(
-        A=(3.298e17, 'm^2/(mol*s)'),
-        n = 0.,
-        Ea=(0., 'kcal/mol'),
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Default""",
-    longDesc = u"""
-Reaction 39 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
-and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
-
-A factor from paper / surface site density of Cu
-1.0e13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 3.298e17 m^2/(mol*s)
-""",
-    metal = "Cu",
-)
+# entry(
+#     index = 39,
+#     label = "O* + HCO* <=> OH* + CO*",
+#     degeneracy = 1,
+#     kinetics = SurfaceArrhenius(
+#         A=(3.298e17, 'm^2/(mol*s)'),
+#         n = 0.,
+#         Ea=(0., 'kcal/mol'),
+#         Tmin = (298, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank = 1,
+#     shortDesc = u"""Default""",
+#     longDesc = u"""
+# Reaction 39 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+# and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
+#
+# A factor from paper / surface site density of Cu
+# 1.0e13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 3.298e17 m^2/(mol*s)
+# """,
+#     metal = "Cu",
+# )
