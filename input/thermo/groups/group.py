@@ -48657,6 +48657,28 @@ entry(
 )
 
 entry(
+    index = 22490000,
+    label = "O0sc",
+    group = 
+"""
+1 * O0sc u0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+This should be 0 since we account for this atom with
+neighbor at the center
+""",
+)
+
+
+entry(
     index = 2250,
     label = "Oa(S)",
     group = 
@@ -59259,6 +59281,7 @@ L1: R
                 L5: Cs-N3sHHH
                 L5: Cs-N5sdtcHHH
     L2: O
+        L3: O0sc
         L3: Oa(S)
         L3: O2d
             L4: O2d-Cd
