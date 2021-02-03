@@ -96,8 +96,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.86016,-7.63481,-8.63185,-9.42875,-11.0126,-12.6899,-15.8723],'J/(mol*K)'),
+        H298 = (361.834,'kJ/mol'),
+        S298 = (-0.42143,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -137,8 +142,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.63018,-6.47011,-7.97932,-9.38383,-11.7575,-13.5888,-16.4582],'J/(mol*K)'),
+        H298 = (372.044,'kJ/mol'),
+        S298 = (-1.21466,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -155,8 +165,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.32729,-6.59633,-7.78582,-8.86938,-10.6828,-12.3231,-15.7261],'J/(mol*K)'),
+        H298 = (370.584,'kJ/mol'),
+        S298 = (-5.93902,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -588,8 +603,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.58433,-6.03146,-9.53593,-12.2635,-16.004,-18.3503,-21.0812],'J/(mol*K)'),
+        H298 = (397.975,'kJ/mol'),
+        S298 = (22.3305,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -629,8 +649,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.481664,-2.80025,-6.40519,-9.3493,-13.8616,-16.9308,-20.6596],'J/(mol*K)'),
+        H298 = (409.607,'kJ/mol'),
+        S298 = (12.1807,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -647,8 +672,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.709792,-2.78374,-6.50537,-9.55237,-14.0725,-17.1163,-20.6449],'J/(mol*K)'),
+        H298 = (412.547,'kJ/mol'),
+        S298 = (13.7807,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -849,8 +879,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.690386,-3.41842,-6.0262,-8.48056,-12.413,-15.0919,-18.8261],'J/(mol*K)'),
+        H298 = (353.964,'kJ/mol'),
+        S298 = (7.92216,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -890,8 +925,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.25562,-1.8777,-4.88714,-7.35935,-11.349,-14.2973,-18.642],'J/(mol*K)'),
+        H298 = (370.641,'kJ/mol'),
+        S298 = (16.807,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -908,8 +948,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.06704,-2.4567,-5.53799,-8.14298,-12.2797,-15.2534,-19.557],'J/(mol*K)'),
+        H298 = (370.114,'kJ/mol'),
+        S298 = (7.77945,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -1149,8 +1194,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.66385,-6.39774,-8.5933,-10.2591,-12.7802,-14.6481,-17.707],'J/(mol*K)'),
+        H298 = (354.229,'kJ/mol'),
+        S298 = (3.85685,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -1190,8 +1240,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.46,-6.55194,-8.37997,-9.98834,-12.4484,-14.1623,-16.5401],'J/(mol*K)'),
+        H298 = (366.499,'kJ/mol'),
+        S298 = (4.3014,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -1208,8 +1263,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.49706,-5.36152,-7.26756,-8.89008,-11.4209,-13.2542,-16.1685],'J/(mol*K)'),
+        H298 = (364.1,'kJ/mol'),
+        S298 = (4.79891,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -1503,8 +1563,13 @@ entry(
 3   Cl1s u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.59384,-7.30455,-10.2437,-12.6419,-16.0735,-18.2701,-20.9628],'J/(mol*K)'),
+        H298 = (391.45,'kJ/mol'),
+        S298 = (17.2812,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -1544,8 +1609,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.81049,-5.9723,-9.33878,-12.0579,-15.769,-17.9609,-20.5917],'J/(mol*K)'),
+        H298 = (404.51,'kJ/mol'),
+        S298 = (19.192,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -1562,8 +1632,13 @@ entry(
 3   F1s  u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.973038,-5.01529,-8.26385,-10.8142,-14.5041,-16.9723,-20.1742],'J/(mol*K)'),
+        H298 = (404.354,'kJ/mol'),
+        S298 = (16.6515,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -1810,8 +1885,13 @@ entry(
 3   Cd   u0 {1,S}
 4   Br1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.12823,-5.36842,-7.74245,-9.70743,-12.6317,-14.5442,-16.9626],'J/(mol*K)'),
+        H298 = (353.685,'kJ/mol'),
+        S298 = (1.94068,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -1828,8 +1908,13 @@ entry(
 3   Cd   u0 {1,S}
 4   Cl1s u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.40717,-7.60368,-8.5416,-9.62366,-11.8213,-13.5313,-16.748],'J/(mol*K)'),
+        H298 = (355.374,'kJ/mol'),
+        S298 = (0.793695,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from mixed halogen species in thermo libraries""",
     longDesc = 
 """
 
@@ -11511,9 +11596,9 @@ entry(
     label = "Acetyl",
     group = 
 """
-1 * Ct u1 {2,T}
-2   Ct u0 {1,T} {3,S}
-3   H  u0 {2,S}
+1   Ct u0 {2,T} {3,S}
+2 * Ct u1 {1,T}
+3   H  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
