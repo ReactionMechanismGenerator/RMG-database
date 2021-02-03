@@ -2915,6 +2915,10 @@ L1: R
             L4: Cds(Cl)2=Cds(Cl)2
             L4: Cds(F)2=Cds(F)2
             L4: Cds(Br)2=Cds(Br)2
+        L3: Cd(Val7)-CO
+            L4: Cd(F)-CO
+            L4: Cd(Cl)-CO
+            L4: Cd(Br)-CO
         L3: Cs(Val7)3-CO
             L4: Cs(F)3-CO
             L4: Cs(Cl)3-CO
