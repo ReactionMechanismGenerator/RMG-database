@@ -92642,16 +92642,16 @@ HinderedRotor
 
 entry(
     index = 1625,
-    label = "C[C-](Cl)[C+]([O])Br",
+    label = "C[C](Cl)C(DO)Br",
     molecule = 
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
-3 O  u1 p2 c0 {6,S}
+3 O  u0 p2 c0 {6,D}
 4 C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-5 C  u0 p1 c-1 {2,S} {4,S} {6,S}
-6 C  u0 p0 c+1 {1,S} {3,S} {5,S}
+5 C  u1 p0 c0 {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {1,S} {3,D} {5,S}
 7 H  u0 p0 c0 {4,S}
 8 H  u0 p0 c0 {4,S}
 9 H  u0 p0 c0 {4,S}
