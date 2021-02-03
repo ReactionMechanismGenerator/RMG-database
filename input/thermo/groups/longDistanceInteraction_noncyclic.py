@@ -95,8 +95,13 @@ entry(
 7    Val7 u0 {1,S}
 8    Val7 u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.529742,-0.12119,0.168368,0.247349,0.339672,0.421187,0.864623],'J/(mol*K)'),
+        H298 = (13.9272,'kJ/mol'),
+        S298 = (3.43161,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by 2 to avoid overcounting
@@ -193,8 +198,13 @@ entry(
 7    Val7        u0 {1,S}
 8    [C,H,N,O,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.40168,-3.36022,-2.68659,-2.47415,-2.13689,-1.51586,1.08433],'J/(mol*K)'),
+        H298 = (17.769,'kJ/mol'),
+        S298 = (7.24989,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -287,12 +297,12 @@ entry(
     label = "Cs(Val7)3-C(Val7)",
     group = 
 """
-1 *1 Cs      u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 [Cs,Cd] u0 {1,S} {4,S}
+1 *1 Cs      u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 [Cs,Cd] u0 {1,S} {6,S}
 3    Val7    u0 {1,S}
-4    Val7    u0 {2,S}
+4    Val7    u0 {1,S}
 5    Val7    u0 {1,S}
-6    Val7    u0 {1,S}
+6    Val7    u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -301,6 +311,33 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 11,
+    label = "Cs(Val7)3-Cs(Val7)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
+3    Val7        u0 {1,S}
+4    Val7        u0 {2,S}
+5    Val7        u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    Val7        u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.384807,-0.8262,-0.65871,-0.58872,-0.483384,-0.202857,1.24703],'J/(mol*K)'),
+        H298 = (8.60765,'kJ/mol'),
+        S298 = (2.49831,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -336,32 +373,6 @@ entry(
 
 entry(
     index = 13,
-    label = "Cs(Cl)3-Cds(Cl)",
-    group = 
-"""
-1 *1 Cs        u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd        u0 {1,S} {4,S} {6,D}
-3    Cl1s      u0 {1,S}
-4    Cl1s      u0 {2,S}
-5    Cl1s      u0 {1,S}
-6    [C,N,O,S] u0 {2,D}
-7    Cl1s      u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.07202,-1.64294,-0.770345,0.117648,0.939375,1.44901,1.85659],'J/(mol*K)'),
-        H298 = (9.59621,'kJ/mol'),
-        S298 = (-0.79276,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 15,
     label = "Cs(F)3-Cs(F)",
     group = 
 """
@@ -388,33 +399,7 @@ entry(
 )
 
 entry(
-    index = 16,
-    label = "Cs(F)3-Cds(F)",
-    group = 
-"""
-1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cd        u0 {1,S} {6,S} {7,D}
-3    F1s       u0 {1,S}
-4    F1s       u0 {1,S}
-5    F1s       u0 {1,S}
-6    F1s       u0 {2,S}
-7    [C,N,O,S] u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.0390615,-0.232897,-0.462973,-0.159579,-0.0043318,0.210228,0.647601],'J/(mol*K)'),
-        H298 = (26.1533,'kJ/mol'),
-        S298 = (3.75973,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Fluorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 18,
+    index = 14,
     label = "Cs(Br)3-Cs(Br)",
     group = 
 """
@@ -441,62 +426,50 @@ entry(
 )
 
 entry(
-    index = 19,
-    label = "Cs(Br)3-Cds(Br)",
-    group = 
-"""
-1 *1 Cs        u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd        u0 {1,S} {4,S} {6,D}
-3    Br1s      u0 {1,S}
-4    Br1s      u0 {2,S}
-5    Br1s      u0 {1,S}
-6    [C,N,O,S] u0 {2,D}
-7    Br1s      u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 20,
-    label = "Cs(Val7)3-Cs(Val7)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
-5    Val7        u0 {1,S}
-6    [C,H,N,O,S] u0 {2,S}
-7    Val7        u0 {1,S}
-8    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 21,
+    index = 15,
     label = "Cs(Val7)3-Cds(Val7)",
     group = 
 """
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {6,S} {7,D}
+3    Val7      u0 {1,S}
+4    Val7      u0 {1,S}
+5    Val7      u0 {1,S}
+6    Val7      u0 {2,S}
+7    [C,N,O,S] u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.398592,1.56377,1.76325,2.17722,1.98501,1.77419,1.85435],'J/(mol*K)'),
+        H298 = (14.7231,'kJ/mol'),
+        S298 = (2.72798,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 16,
+    label = "Cs(Cl)3-Cds(Cl)",
+    group = 
+"""
 1 *1 Cs        u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cd        u0 {1,S} {4,S} {6,D}
-3    Val7      u0 {1,S}
-4    Val7      u0 {2,S}
-5    Val7      u0 {1,S}
+3    Cl1s      u0 {1,S}
+4    Cl1s      u0 {2,S}
+5    Cl1s      u0 {1,S}
 6    [C,N,O,S] u0 {2,D}
-7    Val7      u0 {1,S}
+7    Cl1s      u0 {1,S}
 """,
-    thermo = None,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.07202,-1.64294,-0.770345,0.117648,0.939375,1.44901,1.85659],'J/(mol*K)'),
+        H298 = (9.59621,'kJ/mol'),
+        S298 = (-0.79276,'J/(mol*K)'),
+    ),
     shortDesc = """Derived from Chlorine species in thermo libraries""",
     longDesc = 
 """
@@ -505,7 +478,59 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 17,
+    label = "Cs(F)3-Cds(F)",
+    group = 
+"""
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {6,S} {7,D}
+3    F1s       u0 {1,S}
+4    F1s       u0 {1,S}
+5    F1s       u0 {1,S}
+6    F1s       u0 {2,S}
+7    [C,N,O,S] u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0390615,-0.232897,-0.462973,-0.159579,-0.0043318,0.210228,0.647601],'J/(mol*K)'),
+        H298 = (26.1533,'kJ/mol'),
+        S298 = (3.75973,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 18,
+    label = "Cs(Br)3-Cds(Br)",
+    group = 
+"""
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {6,S} {7,D}
+3    Br1s      u0 {1,S}
+4    Br1s      u0 {1,S}
+5    Br1s      u0 {1,S}
+6    Br1s      u0 {2,S}
+7    [C,N,O,S] u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.25549,-2.01543,-0.574666,1.03972,2.03748,2.17648,1.81831],'J/(mol*K)'),
+        H298 = (10.7201,'kJ/mol'),
+        S298 = (-0.166157,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 19,
     label = "Cs(Val7)2-Cs(Val7)2",
     group = 
 """
@@ -518,8 +543,13 @@ entry(
 7    [C,H,N,O,S] u0 {1,S}
 8    [C,H,N,O,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.800333,-1.4553,-1.35226,-1.2805,-1.00637,-0.638272,0.519775],'J/(mol*K)'),
+        H298 = (8.38918,'kJ/mol'),
+        S298 = (3.26507,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by 2 to avoid overcounting
@@ -527,7 +557,7 @@ Divided by 2 to avoid overcounting
 )
 
 entry(
-    index = 23,
+    index = 20,
     label = "Cs(Cl)2-Cs(Cl)2",
     group = 
 """
@@ -554,7 +584,7 @@ Divided by 2 to avoid overcounting
 )
 
 entry(
-    index = 24,
+    index = 21,
     label = "Cs(F)2-Cs(F)2",
     group = 
 """
@@ -581,7 +611,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 22,
     label = "Cs(Br)2-Cs(Br)2",
     group = 
 """
@@ -608,16 +638,16 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 23,
     label = "Cs(Val7)2-C(Val7)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 [Cs,Cd]     u0 {1,S} {4,S}
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 [Cs,Cd]     u0 {1,S} {6,S}
 3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
-5    Val7        u0 {1,S}
-6    [C,H,N,O,S] u0 {1,S}
+4    Val7        u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Val7        u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -633,7 +663,34 @@ entry(
 )
 
 entry(
-    index = 28,
+    index = 24,
+    label = "Cs(Val7)2-Cs(Val7)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
+3    Val7        u0 {1,S}
+4    Val7        u0 {2,S}
+5    Val7        u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.368941,-0.419035,-0.0729775,0.0957825,0.281575,0.598207,1.64502],'J/(mol*K)'),
+        H298 = (9.58639,'kJ/mol'),
+        S298 = (-0.223748,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 25,
     label = "Cs(Cl)2-Cs(Cl)",
     group = 
 """
@@ -660,33 +717,7 @@ entry(
 )
 
 entry(
-    index = 29,
-    label = "Cs(Cl)2-Cds(Cl)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd          u0 {1,S} {4,S} {6,D}
-3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
-5    Cl1s        u0 {1,S}
-6    [C,N,O,S]   u0 {2,D}
-7    [C,H,N,O,S] u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.86898,-0.898645,0.0650487,1.13225,1.71848,1.96505,3.03735],'J/(mol*K)'),
-        H298 = (5.46139,'kJ/mol'),
-        S298 = (-3.05484,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 31,
+    index = 26,
     label = "Cs(F)2-Cs(F)",
     group = 
 """
@@ -713,33 +744,7 @@ entry(
 )
 
 entry(
-    index = 32,
-    label = "Cs(F)2-Cds(F)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cd          u0 {1,S} {6,S} {7,D}
-3    F1s         u0 {1,S}
-4    F1s         u0 {1,S}
-5    [C,H,N,O,S] u0 {1,S}
-6    F1s         u0 {2,S}
-7    [C,N,O,S]   u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.05642,1.00829,0.686562,0.882763,0.70789,0.672368,1.90496],'J/(mol*K)'),
-        H298 = (17.1634,'kJ/mol'),
-        S298 = (0.100189,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Fluorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 34,
+    index = 27,
     label = "Cs(Br)2-Cs(Br)",
     group = 
 """
@@ -766,7 +771,85 @@ entry(
 )
 
 entry(
-    index = 35,
+    index = 28,
+    label = "Cs(Val7)2-Cds(Val7)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
+3    Val7        u0 {1,S}
+4    Val7        u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Val7        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.25113,-1.02792,-0.784512,-0.105912,0.231758,0.510921,1.85507],'J/(mol*K)'),
+        H298 = (11.2978,'kJ/mol'),
+        S298 = (2.61523,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 29,
+    label = "Cs(Cl)2-Cds(Cl)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
+3    Cl1s        u0 {1,S}
+4    Cl1s        u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Cl1s        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.86898,-0.898645,0.0650487,1.13225,1.71848,1.96505,3.03735],'J/(mol*K)'),
+        H298 = (5.46139,'kJ/mol'),
+        S298 = (-3.05484,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 30,
+    label = "Cs(F)2-Cds(F)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
+3    F1s         u0 {1,S}
+4    F1s         u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    F1s         u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.05642,1.00829,0.686562,0.882763,0.70789,0.672368,1.90496],'J/(mol*K)'),
+        H298 = (17.1634,'kJ/mol'),
+        S298 = (0.100189,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 31,
     label = "Cs(Br)2-Cds(Br)",
     group = 
 """
@@ -792,50 +875,7 @@ entry(
 )
 
 entry(
-    index = 36,
-    label = "Cs(Val7)2-Cs(Val7)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
-5    Val7        u0 {1,S}
-6    [C,H,N,O,S] u0 {2,S}
-7    [C,H,N,O,S] u0 {1,S}
-8    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 37,
-    label = "Cs(Val7)2-Cds(Val7)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd          u0 {1,S} {4,S} {6,D}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
-5    Val7        u0 {1,S}
-6    [C,N,O,S]   u0 {2,D}
-7    [C,H,N,O,S] u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 38,
+    index = 32,
     label = "C(Val7)-C(Val7)",
     group = 
 """
@@ -858,7 +898,34 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 33,
+    label = "Cs(Val7)-Cs(Val7)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
+3    Val7        u0 {1,S}
+4    Val7        u0 {2,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.125903,0.0889524,0.180822,0.226978,0.187136,0.27747,0.604756],'J/(mol*K)'),
+        H298 = (4.06556,'kJ/mol'),
+        S298 = (-0.856968,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
+    longDesc = 
+"""
+Divided by two to avoid overcounting
+""",
+)
+
+entry(
+    index = 34,
     label = "Cs(Cl)-Cs(Cl)",
     group = 
 """
@@ -885,17 +952,97 @@ Divided by two to avoid overcounting
 )
 
 entry(
-    index = 41,
-    label = "Cs(Cl)-Cds(Cl)",
+    index = 35,
+    label = "Cs(F)-Cs(F)",
     group = 
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd          u0 {1,S} {4,S} {6,D}
-3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
+2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
+3    F1s         u0 {1,S}
+4    F1s         u0 {2,S}
 5    [C,H,N,O,S] u0 {1,S}
-6    [C,N,O,S]   u0 {2,D}
+6    [C,H,N,O,S] u0 {2,S}
 7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.609838,-0.120636,0.385688,0.717245,0.892761,0.981489,1.20305],'J/(mol*K)'),
+        H298 = (5.7115,'kJ/mol'),
+        S298 = (-0.736743,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 36,
+    label = "Cs(Br)-Cs(Br)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
+2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
+3    Br1s        u0 {1,S}
+4    Br1s        u0 {2,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,H,N,O,S] u0 {2,S}
+7    [C,H,N,O,S] u0 {1,S}
+8    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.298748,-0.232254,0.152791,0.385098,0.568146,0.754993,1.15422],'J/(mol*K)'),
+        H298 = (2.62224,'kJ/mol'),
+        S298 = (-1.19321,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 37,
+    label = "Cs(Val7)-Cds(Val7)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
+3    Val7        u0 {1,S}
+4    [C,H,N,O,S] u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Val7        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5211,-1.53099,-1.32798,-0.603647,-0.090436,0.314471,2.0413],'J/(mol*K)'),
+        H298 = (5.74849,'kJ/mol'),
+        S298 = (1.68318,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
+    longDesc = 
+"""
+Divided by two to avoid overcounting
+""",
+)
+
+entry(
+    index = 38,
+    label = "Cs(Cl)-Cds(Cl)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
+3    Cl1s        u0 {1,S}
+4    [C,H,N,O,S] u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Cl1s        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -904,6 +1051,83 @@ entry(
         S298 = (-0.715677,'J/(mol*K)'),
     ),
     shortDesc = """Derived from Chlorine species in thermo libraries""",
+    longDesc = 
+"""
+Divided by two to avoid overcounting
+""",
+)
+
+entry(
+    index = 39,
+    label = "Cs(F)-Cds(F)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
+3    F1s         u0 {1,S}
+4    [C,H,N,O,S] u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    F1s         u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0692617,0.128163,0.0531473,0.469141,0.51094,0.574046,1.91523],'J/(mol*K)'),
+        H298 = (10.1012,'kJ/mol'),
+        S298 = (1.90144,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 40,
+    label = "Cs(Br)-Cds(Br)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd          u0 {1,S} {6,S} {7,D}
+3    Br1s        u0 {1,S}
+4    [C,H,N,O,S] u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    Br1s        u0 {2,S}
+7    [C,N,O,S]   u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.95746,-2.90816,-2.21198,-1.00569,0.116269,0.800843,2.65696],'J/(mol*K)'),
+        H298 = (2.14458,'kJ/mol'),
+        S298 = (-0.735541,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 41,
+    label = "Cds(Val7)-Cds(Val7)",
+    group = 
+"""
+1 *1 Cd        u0 {2,S} {3,S} {5,D}
+2 *2 Cd        u0 {1,S} {4,S} {6,D}
+3    Val7      u0 {1,S}
+4    Val7      u0 {2,S}
+5    [C,N,O,S] u0 {1,D}
+6    [C,N,O,S] u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.418707,2.39466,2.76676,3.3436,2.93721,2.43499,1.44959],'J/(mol*K)'),
+        H298 = (1.40513,'kJ/mol'),
+        S298 = (-3.80728,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by two to avoid overcounting
@@ -936,60 +1160,7 @@ Divided by two to avoid overcounting
 )
 
 entry(
-    index = 44,
-    label = "Cs(F)-Cs(F)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
-3    F1s         u0 {1,S}
-4    F1s         u0 {2,S}
-5    [C,H,N,O,S] u0 {1,S}
-6    [C,H,N,O,S] u0 {2,S}
-7    [C,H,N,O,S] u0 {1,S}
-8    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.609838,-0.120636,0.385688,0.717245,0.892761,0.981489,1.20305],'J/(mol*K)'),
-        H298 = (5.7115,'kJ/mol'),
-        S298 = (-0.736743,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Fluorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 45,
-    label = "Cs(F)-Cds(F)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cd          u0 {1,S} {6,S} {7,D}
-3    F1s         u0 {1,S}
-4    [C,H,N,O,S] u0 {1,S}
-5    [C,H,N,O,S] u0 {1,S}
-6    F1s         u0 {2,S}
-7    [C,N,O,S]   u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.0692617,0.128163,0.0531473,0.469141,0.51094,0.574046,1.91523],'J/(mol*K)'),
-        H298 = (10.1012,'kJ/mol'),
-        S298 = (1.90144,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Fluorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 46,
+    index = 43,
     label = "Cds(F)-Cds(F)",
     group = 
 """
@@ -1014,60 +1185,7 @@ entry(
 )
 
 entry(
-    index = 48,
-    label = "Cs(Br)-Cs(Br)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
-3    Br1s        u0 {1,S}
-4    Br1s        u0 {2,S}
-5    [C,H,N,O,S] u0 {1,S}
-6    [C,H,N,O,S] u0 {2,S}
-7    [C,H,N,O,S] u0 {1,S}
-8    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.298748,-0.232254,0.152791,0.385098,0.568146,0.754993,1.15422],'J/(mol*K)'),
-        H298 = (2.62224,'kJ/mol'),
-        S298 = (-1.19321,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Bromine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 49,
-    label = "Cs(Br)-Cds(Br)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cd          u0 {1,S} {6,S} {7,D}
-3    Br1s        u0 {1,S}
-4    [C,H,N,O,S] u0 {1,S}
-5    [C,H,N,O,S] u0 {1,S}
-6    Br1s        u0 {2,S}
-7    [C,N,O,S]   u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.95746,-2.90816,-2.21198,-1.00569,0.116269,0.800843,2.65696],'J/(mol*K)'),
-        H298 = (2.14458,'kJ/mol'),
-        S298 = (-0.735541,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Bromine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 50,
+    index = 44,
     label = "Cds(Br)-Cds(Br)",
     group = 
 """
@@ -1092,70 +1210,7 @@ entry(
 )
 
 entry(
-    index = 51,
-    label = "Cs(Val7)-Cs(Val7)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
-5    [C,H,N,O,S] u0 {1,S}
-6    [C,H,N,O,S] u0 {2,S}
-7    [C,H,N,O,S] u0 {1,S}
-8    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-Divided by two to avoid overcounting
-""",
-)
-
-entry(
-    index = 52,
-    label = "Cs(Val7)-Cds(Val7)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd          u0 {1,S} {4,S} {6,D}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
-5    [C,H,N,O,S] u0 {1,S}
-6    [C,N,O,S]   u0 {2,D}
-7    [C,H,N,O,S] u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-Divided by two to avoid overcounting
-""",
-)
-
-entry(
-    index = 53,
-    label = "Cds(Val7)-Cds(Val7)",
-    group = 
-"""
-1 *1 Cd        u0 {2,S} {3,S} {5,D}
-2 *2 Cd        u0 {1,S} {4,S} {6,D}
-3    Val7      u0 {1,S}
-4    Val7      u0 {2,S}
-5    [C,N,O,S] u0 {1,D}
-6    [C,N,O,S] u0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-Divided by two to avoid overcounting
-""",
-)
-
-entry(
-    index = 54,
+    index = 45,
     label = "Cds(Val7)=Cds(Val7)",
     group = 
 """
@@ -1166,8 +1221,13 @@ entry(
 5    [C,H,O,N,S] u0 {1,S}
 6    [C,H,O,N,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.73662,2.05957,1.847,1.58065,0.862155,0.344604,-0.119108],'J/(mol*K)'),
+        H298 = (2.02451,'kJ/mol'),
+        S298 = (-1.66965,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by two to avoid doublecounting
@@ -1175,7 +1235,7 @@ Divided by two to avoid doublecounting
 )
 
 entry(
-    index = 55,
+    index = 46,
     label = "Cds(Cl)=Cds(Cl)",
     group = 
 """
@@ -1200,7 +1260,7 @@ Divided by two to avoid doublecounting
 )
 
 entry(
-    index = 56,
+    index = 47,
     label = "Cds(F)=Cds(F)",
     group = 
 """
@@ -1225,7 +1285,7 @@ entry(
 )
 
 entry(
-    index = 57,
+    index = 48,
     label = "Cds(Br)=Cds(Br)",
     group = 
 """
@@ -1250,7 +1310,7 @@ entry(
 )
 
 entry(
-    index = 58,
+    index = 49,
     label = "Cds(Val7)2=Cds(Val7)",
     group = 
 """
@@ -1261,8 +1321,13 @@ entry(
 5    Val7        u0 {1,S}
 6    [C,H,O,N,S] u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.28363,3.95243,3.56905,2.92526,1.51044,0.51336,-0.420545],'J/(mol*K)'),
+        H298 = (6.5837,'kJ/mol'),
+        S298 = (-6.27847,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1270,7 +1335,7 @@ entry(
 )
 
 entry(
-    index = 59,
+    index = 50,
     label = "Cds(Cl)2=Cds(Cl)",
     group = 
 """
@@ -1295,7 +1360,7 @@ entry(
 )
 
 entry(
-    index = 60,
+    index = 51,
     label = "Cds(F)2=Cds(F)",
     group = 
 """
@@ -1320,7 +1385,7 @@ entry(
 )
 
 entry(
-    index = 61,
+    index = 52,
     label = "Cds(Br)2=Cds(Br)",
     group = 
 """
@@ -1345,7 +1410,7 @@ entry(
 )
 
 entry(
-    index = 62,
+    index = 53,
     label = "Cds(Val7)2=Cds(Val7)2",
     group = 
 """
@@ -1356,8 +1421,13 @@ entry(
 5    Val7 u0 {1,S}
 6    Val7 u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.40459,2.07281,1.73727,1.38429,0.436811,-0.315872,-1.04913],'J/(mol*K)'),
+        H298 = (4.32781,'kJ/mol'),
+        S298 = (-2.21325,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
     longDesc = 
 """
 Divided by two to avoid overcounting
@@ -1365,7 +1435,7 @@ Divided by two to avoid overcounting
 )
 
 entry(
-    index = 63,
+    index = 54,
     label = "Cds(Cl)2=Cds(Cl)2",
     group = 
 """
@@ -1390,7 +1460,7 @@ Divided by two to avoid overcounting
 )
 
 entry(
-    index = 64,
+    index = 55,
     label = "Cds(F)2=Cds(F)2",
     group = 
 """
@@ -1415,7 +1485,7 @@ entry(
 )
 
 entry(
-    index = 65,
+    index = 56,
     label = "Cds(Br)2=Cds(Br)2",
     group = 
 """
@@ -1440,7 +1510,7 @@ entry(
 )
 
 entry(
-    index = 66,
+    index = 57,
     label = "Cd(Val7)-CO",
     group = 
 """
@@ -1458,30 +1528,7 @@ entry(
 )
 
 entry(
-    index = 67,
-    label = "Cd(Cl)-CO",
-    group = 
-"""
-1 *1 Cd   u0 {2,S} {3,S}
-2 *2 CO   u0 {1,S} {4,D}
-3    Cl1s u0 {1,S}
-4    O2d  u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.2942,-1.82275,-1.21894,-0.16045,-0.00764052,0.560942,3.66258],'J/(mol*K)'),
-        H298 = (13.4626,'kJ/mol'),
-        S298 = (-3.7952,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 68,
+    index = 58,
     label = "Cd(F)-CO",
     group = 
 """
@@ -1504,7 +1551,30 @@ entry(
 )
 
 entry(
-    index = 69,
+    index = 59,
+    label = "Cd(Cl)-CO",
+    group = 
+"""
+1 *1 Cd   u0 {2,S} {3,S}
+2 *2 CO   u0 {1,S} {4,D}
+3    Cl1s u0 {1,S}
+4    O2d  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.2942,-1.82275,-1.21894,-0.16045,-0.00764052,0.560942,3.66258],'J/(mol*K)'),
+        H298 = (13.4626,'kJ/mol'),
+        S298 = (-3.7952,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 60,
     label = "Cd(Br)-CO",
     group = 
 """
@@ -1527,7 +1597,207 @@ entry(
 )
 
 entry(
-    index = 70,
+    index = 61,
+    label = "Cs(Val7)3-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO   u0 {1,S} {6,D}
+3    Val7 u0 {1,S}
+4    Val7 u0 {1,S}
+5    Val7 u0 {1,S}
+6    O2d  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.4949,1.94487,1.2943,0.479628,-0.770068,-1.40769,-0.751726],'J/(mol*K)'),
+        H298 = (26.6435,'kJ/mol'),
+        S298 = (6.04694,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 62,
+    label = "Cs(F)3-CO",
+    group = 
+"""
+1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO  u0 {1,S} {6,D}
+3    F1s u0 {1,S}
+4    F1s u0 {1,S}
+5    F1s u0 {1,S}
+6    O2d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.96129,1.45881,1.15198,0.665466,-0.296221,-0.824115,-0.554834],'J/(mol*K)'),
+        H298 = (44.8116,'kJ/mol'),
+        S298 = (5.039,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 63,
+    label = "Cs(Cl)3-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO   u0 {1,S} {6,D}
+3    Cl1s u0 {1,S}
+4    Cl1s u0 {1,S}
+5    Cl1s u0 {1,S}
+6    O2d  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.83487,1.27993,-0.0880021,-1.30071,-2.91192,-3.56698,-3.47775],'J/(mol*K)'),
+        H298 = (34.4827,'kJ/mol'),
+        S298 = (5.72238,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 64,
+    label = "Cs(Br)3-CO",
+    group = 
+"""
+1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO   u0 {1,S} {6,D}
+3    Br1s u0 {1,S}
+4    Br1s u0 {1,S}
+5    Br1s u0 {1,S}
+6    O2d  u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.36115,3.80596,2.37853,0.58909,-2.05155,-3.01838,-2.43301],'J/(mol*K)'),
+        H298 = (21.0463,'kJ/mol'),
+        S298 = (12.4088,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 65,
+    label = "Cs(Val7)2-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO          u0 {1,S} {6,D}
+3    Val7        u0 {1,S}
+4    Val7        u0 {1,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    O2d         u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.41703,2.53591,1.88665,1.15944,0.22432,-0.161451,0.360997],'J/(mol*K)'),
+        H298 = (21.7658,'kJ/mol'),
+        S298 = (0.550887,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 66,
+    label = "Cs(F)2-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO          u0 {1,S} {6,D}
+3    F1s         u0 {1,S}
+4    F1s         u0 {1,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    O2d         u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.79873,1.52268,0.889428,0.197554,-0.370686,-0.638744,0.376926],'J/(mol*K)'),
+        H298 = (25.5004,'kJ/mol'),
+        S298 = (-2.9804,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 67,
+    label = "Cs(Cl)2-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO          u0 {1,S} {6,D}
+3    Cl1s        u0 {1,S}
+4    Cl1s        u0 {1,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    O2d         u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.90501,3.54115,2.92691,2.14794,1.21308,0.57418,0.86693],'J/(mol*K)'),
+        H298 = (11.039,'kJ/mol'),
+        S298 = (-5.77323,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 68,
+    label = "Cs(Br)2-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO          u0 {1,S} {6,D}
+3    Br1s        u0 {1,S}
+4    Br1s        u0 {1,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    O2d         u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.8799,1.58349,1.18728,0.671541,0.141805,-0.173482,1.00635],'J/(mol*K)'),
+        H298 = (7.89011,'kJ/mol'),
+        S298 = (-3.44795,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Bromine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 69,
     label = "Cs(Val7)-CO",
     group = 
 """
@@ -1540,6 +1810,31 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from Chlorine species in thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 70,
+    label = "Cs(F)-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 CO          u0 {1,S} {6,D}
+3    F1s         u0 {1,S}
+4    [C,H,O,N,S] u0 {1,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    O2d         u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.02754,1.83455,1.79212,1.52065,1.3104,0.985188,1.55713],'J/(mol*K)'),
+        H298 = (14.3551,'kJ/mol'),
+        S298 = (-1.1458,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from Fluorine species in thermo libraries""",
     longDesc = 
 """
 
@@ -1573,131 +1868,6 @@ entry(
 
 entry(
     index = 72,
-    label = "Cs(Cl)2-CO",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO          u0 {1,S} {6,D}
-3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {1,S}
-5    [C,H,O,N,S] u0 {1,S}
-6    O2d         u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.90501,3.54115,2.92691,2.14794,1.21308,0.57418,0.86693],'J/(mol*K)'),
-        H298 = (11.039,'kJ/mol'),
-        S298 = (-5.77323,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 73,
-    label = "Cs(Cl)3-CO",
-    group = 
-"""
-1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO   u0 {1,S} {6,D}
-3    Cl1s u0 {1,S}
-4    Cl1s u0 {1,S}
-5    Cl1s u0 {1,S}
-6    O2d  u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.83487,1.27993,-0.0880021,-1.30071,-2.91192,-3.56698,-3.47775],'J/(mol*K)'),
-        H298 = (34.4827,'kJ/mol'),
-        S298 = (5.72238,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 74,
-    label = "Cs(F)-CO",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO          u0 {1,S} {6,D}
-3    F1s         u0 {1,S}
-4    [C,H,O,N,S] u0 {1,S}
-5    [C,H,O,N,S] u0 {1,S}
-6    O2d         u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.02754,1.83455,1.79212,1.52065,1.3104,0.985188,1.55713],'J/(mol*K)'),
-        H298 = (14.3551,'kJ/mol'),
-        S298 = (-1.1458,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Fluorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 75,
-    label = "Cs(F)2-CO",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO          u0 {1,S} {6,D}
-3    F1s         u0 {1,S}
-4    F1s         u0 {1,S}
-5    [C,H,O,N,S] u0 {1,S}
-6    O2d         u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.79873,1.52268,0.889428,0.197554,-0.370686,-0.638744,0.376926],'J/(mol*K)'),
-        H298 = (25.5004,'kJ/mol'),
-        S298 = (-2.9804,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Fluorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 76,
-    label = "Cs(F)3-CO",
-    group = 
-"""
-1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO  u0 {1,S} {6,D}
-3    F1s u0 {1,S}
-4    F1s u0 {1,S}
-5    F1s u0 {1,S}
-6    O2d u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.96129,1.45881,1.15198,0.665466,-0.296221,-0.824115,-0.554834],'J/(mol*K)'),
-        H298 = (44.8116,'kJ/mol'),
-        S298 = (5.039,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Fluorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 77,
     label = "Cs(Br)-CO",
     group = 
 """
@@ -1722,97 +1892,7 @@ entry(
 )
 
 entry(
-    index = 78,
-    label = "Cs(Br)2-CO",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO          u0 {1,S} {6,D}
-3    Br1s        u0 {1,S}
-4    Br1s        u0 {1,S}
-5    [C,H,O,N,S] u0 {1,S}
-6    O2d         u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.8799,1.58349,1.18728,0.671541,0.141805,-0.173482,1.00635],'J/(mol*K)'),
-        H298 = (7.89011,'kJ/mol'),
-        S298 = (-3.44795,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Bromine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 79,
-    label = "Cs(Br)3-CO",
-    group = 
-"""
-1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO   u0 {1,S} {6,D}
-3    Br1s u0 {1,S}
-4    Br1s u0 {1,S}
-5    Br1s u0 {1,S}
-6    O2d  u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.36115,3.80596,2.37853,0.58909,-2.05155,-3.01838,-2.43301],'J/(mol*K)'),
-        H298 = (21.0463,'kJ/mol'),
-        S298 = (12.4088,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from Bromine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 80,
-    label = "Cs(Val7)2-CO",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO          u0 {1,S} {6,D}
-3    Val7        u0 {1,S}
-4    Val7        u0 {1,S}
-5    [C,H,O,N,S] u0 {1,S}
-6    O2d         u0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 81,
-    label = "Cs(Val7)3-CO",
-    group = 
-"""
-1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 CO   u0 {1,S} {6,D}
-3    Val7 u0 {1,S}
-4    Val7 u0 {1,S}
-5    Val7 u0 {1,S}
-6    O2d  u0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 82,
+    index = 73,
     label = "int14_gauche",
     group = 
 """
@@ -1833,7 +1913,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 74,
     label = "CsCs",
     group = 
 """
@@ -1854,7 +1934,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 75,
     label = "CsCs-P",
     group = 
 """
@@ -1878,7 +1958,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 76,
     label = "CsCs-S",
     group = 
 """
@@ -1902,7 +1982,7 @@ entry(
 )
 
 entry(
-    index = 86,
+    index = 77,
     label = "CsCs-SS",
     group = 
 """
@@ -1929,7 +2009,7 @@ entry(
 )
 
 entry(
-    index = 87,
+    index = 78,
     label = "CsCs-ST",
     group = 
 """
@@ -1956,7 +2036,7 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 79,
     label = "CsCs-SQ",
     group = 
 """
@@ -1983,7 +2063,7 @@ entry(
 )
 
 entry(
-    index = 89,
+    index = 80,
     label = "CsCs-T",
     group = 
 """
@@ -2007,7 +2087,7 @@ entry(
 )
 
 entry(
-    index = 90,
+    index = 81,
     label = "CsCs-TT",
     group = 
 """
@@ -2034,7 +2114,7 @@ Half Value!!!
 )
 
 entry(
-    index = 91,
+    index = 82,
     label = "CsCs-T(TTP)",
     group = 
 """
@@ -2067,7 +2147,7 @@ entry(
 )
 
 entry(
-    index = 92,
+    index = 83,
     label = "CsCs-T(TTS)",
     group = 
 """
@@ -2100,7 +2180,7 @@ entry(
 )
 
 entry(
-    index = 93,
+    index = 84,
     label = "CsCs-T(TTT)",
     group = 
 """
@@ -2133,7 +2213,7 @@ entry(
 )
 
 entry(
-    index = 94,
+    index = 85,
     label = "CsCs-T(TTQ)",
     group = 
 """
@@ -2166,7 +2246,7 @@ entry(
 )
 
 entry(
-    index = 95,
+    index = 86,
     label = "CsCs-TQ",
     group = 
 """
@@ -2193,7 +2273,7 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 87,
     label = "CsCs-Q",
     group = 
 """
@@ -2217,7 +2297,7 @@ entry(
 )
 
 entry(
-    index = 97,
+    index = 88,
     label = "CsCs-QQ",
     group = 
 """
@@ -2244,7 +2324,7 @@ Half Value!!!
 )
 
 entry(
-    index = 98,
+    index = 89,
     label = "OsCs",
     group = 
 """
@@ -2265,7 +2345,7 @@ entry(
 )
 
 entry(
-    index = 99,
+    index = 90,
     label = "OsCs-P",
     group = 
 """
@@ -2287,7 +2367,7 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 91,
     label = "OsCs-S",
     group = 
 """
@@ -2309,16 +2389,16 @@ entry(
 )
 
 entry(
-    index = 101,
+    index = 92,
     label = "OsCs-SP",
     group = 
 """
-1 *1 O2s                         u0 {2,S} {3,S}
-2 *2 Cs                          u0 {1,S} {4,S} {5,S} {6,S}
-3    Cs                          u0 {1,S}
-4    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-5    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-6    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+1 *2 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
+2 *1 O2s                         u0 {1,S} {6,S}
+3    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+4    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+5    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6    Cs                          u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2334,16 +2414,16 @@ entry(
 )
 
 entry(
-    index = 102,
+    index = 93,
     label = "OsCs-SS",
     group = 
 """
-1 *1 O2s                         u0 {2,S} {3,S}
-2 *2 Cs                          u0 {1,S} {4,S} {5,S} {6,S}
+1 *2 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
+2 *1 O2s                         u0 {1,S} {6,S}
 3    Cs                          u0 {1,S}
-4    Cs                          u0 {2,S}
-5    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-6    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+4    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+5    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6    Cs                          u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2359,7 +2439,7 @@ entry(
 )
 
 entry(
-    index = 103,
+    index = 94,
     label = "OsCs-ST",
     group = 
 """
@@ -2384,7 +2464,7 @@ entry(
 )
 
 entry(
-    index = 104,
+    index = 95,
     label = "OsCs-SQ",
     group = 
 """
@@ -2409,7 +2489,7 @@ entry(
 )
 
 entry(
-    index = 105,
+    index = 96,
     label = "CdCs",
     group = 
 """
@@ -2431,7 +2511,7 @@ entry(
 )
 
 entry(
-    index = 106,
+    index = 97,
     label = "CdCs-P",
     group = 
 """
@@ -2454,7 +2534,7 @@ entry(
 )
 
 entry(
-    index = 107,
+    index = 98,
     label = "CdCs-S",
     group = 
 """
@@ -2477,17 +2557,17 @@ entry(
 )
 
 entry(
-    index = 108,
+    index = 99,
     label = "CdCs-SP",
     group = 
 """
-1 *1 Cd                          u0 {2,D} {3,S} {4,S}
-2    Cd                          u0 {1,D}
-3    Cs                          u0 {1,S}
-4 *2 Cs                          u0 {1,S} {5,S} {6,S} {7,S}
-5    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-6    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-7    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+1 *2 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
+2 *1 Cd                          u0 {1,S} {6,D} {7,S}
+3    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+4    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+5    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6    Cd                          u0 {2,D}
+7    Cs                          u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2503,7 +2583,7 @@ entry(
 )
 
 entry(
-    index = 109,
+    index = 100,
     label = "CdCs-SS",
     group = 
 """
@@ -2529,7 +2609,7 @@ entry(
 )
 
 entry(
-    index = 110,
+    index = 101,
     label = "CdCs-ST",
     group = 
 """
@@ -2555,7 +2635,7 @@ entry(
 )
 
 entry(
-    index = 111,
+    index = 102,
     label = "CdCs-SQ",
     group = 
 """
@@ -2581,7 +2661,7 @@ entry(
 )
 
 entry(
-    index = 112,
+    index = 103,
     label = "int15",
     group = 
 """
@@ -2608,7 +2688,7 @@ entry(
 )
 
 entry(
-    index = 113,
+    index = 104,
     label = "CsCsCs",
     group = 
 """
@@ -2635,7 +2715,7 @@ entry(
 )
 
 entry(
-    index = 114,
+    index = 105,
     label = "CsCsCs-TQ",
     group = 
 """
@@ -2663,7 +2743,7 @@ entry(
 )
 
 entry(
-    index = 115,
+    index = 106,
     label = "CsCsCs-QQ",
     group = 
 """
@@ -2691,7 +2771,7 @@ Half Value!!!
 )
 
 entry(
-    index = 116,
+    index = 107,
     label = "CsOsCs",
     group = 
 """
@@ -2718,7 +2798,7 @@ entry(
 )
 
 entry(
-    index = 117,
+    index = 108,
     label = "CsOsCs-TQ",
     group = 
 """
@@ -2746,7 +2826,7 @@ entry(
 )
 
 entry(
-    index = 118,
+    index = 109,
     label = "CsOsCs-QQ",
     group = 
 """
@@ -2774,7 +2854,7 @@ Half Value!!!
 )
 
 entry(
-    index = 119,
+    index = 110,
     label = "CsSsCs",
     group = 
 """
@@ -2801,7 +2881,7 @@ entry(
 )
 
 entry(
-    index = 120,
+    index = 111,
     label = "CsSsCs-TQ",
     group = 
 """
@@ -2829,7 +2909,7 @@ entry(
 )
 
 entry(
-    index = 121,
+    index = 112,
     label = "CsSsCs-QQ",
     group = 
 """
