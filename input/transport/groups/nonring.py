@@ -42,10 +42,10 @@ entry(
     group = 
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
-2   R!H u0 {1,S}
+2   R!H!Val7 u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
-5   H   u0 {1,S}
+5   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0141,
@@ -64,10 +64,10 @@ entry(
     group = 
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
-2   R!H u0 {1,S}
-3   R!H u0 {1,S}
-4   H   u0 {1,S}
-5   H   u0 {1,S}
+2   R!H!Val7 u0 {1,S}
+3   R!H!Val7 u0 {1,S}
+4   [H,Val7]   u0 {1,S}
+5   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0189,
@@ -86,10 +86,10 @@ entry(
     group = 
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
-2   R!H u0 {1,S}
-3   R!H u0 {1,S}
-4   R!H u0 {1,S}
-5   H   u0 {1,S}
+2   R!H!Val7 u0 {1,S}
+3   R!H!Val7 u0 {1,S}
+4   R!H!Val7 u0 {1,S}
+5   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0164,
@@ -108,10 +108,10 @@ entry(
     group = 
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
-2   R!H u0 {1,S}
-3   R!H u0 {1,S}
-4   R!H u0 {1,S}
-5   R!H u0 {1,S}
+2   R!H!Val7 u0 {1,S}
+3   R!H!Val7 u0 {1,S}
+4   R!H!Val7 u0 {1,S}
+5   R!H!Val7 u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0067,
@@ -130,9 +130,9 @@ entry(
     group = 
 """
 1 * C   u0 {2,D} {3,S} {4,S}
-2   R!H u0 {1,D}
-3   H   u0 {1,S}
-4   H   u0 {1,S}
+2   R!H!Val7 u0 {1,D}
+3   [H,Val7]   u0 {1,S}
+4   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0113,
@@ -151,9 +151,9 @@ entry(
     group = 
 """
 1 * C   u0 {2,D} {3,S} {4,S}
-2   R!H u0 {1,D}
-3   R!H u0 {1,S}
-4   R!H u0 {1,S}
+2   R!H!Val7 u0 {1,D}
+3   R!H!Val7 u0 {1,S}
+4   R!H!Val7 u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0117,
@@ -173,8 +173,8 @@ entry(
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
-3   R!H u0 {1,S}
-4   R!H u0 {1,S}
+3   R!H!Val7 u0 {1,S}
+4   R!H!Val7 u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.038,
@@ -195,8 +195,8 @@ entry(
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
 3   O   u0 {1,S} {5,S}
-4   R!H u0 {1,S}
-5   H   u0 {3,S}
+4   R!H!Val7 u0 {1,S}
+5   [H,Val7]   u0 {3,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0791,
@@ -217,8 +217,8 @@ entry(
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
 3   O   u0 {1,S} {5,S}
-4   R!H u0 {1,S}
-5   R!H u0 {3,S}
+4   R!H!Val7 u0 {1,S}
+5   R!H!Val7 u0 {3,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0481,
@@ -237,9 +237,9 @@ entry(
     group = 
 """
 1 * C   u0 {2,D} {3,S} {4,S}
-2   R!H u0 {1,D}
-3   R!H u0 {1,S}
-4   H   u0 {1,S}
+2   R!H!Val7 u0 {1,D}
+3   R!H!Val7 u0 {1,S}
+4   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0129,
@@ -259,8 +259,8 @@ entry(
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
-3   R!H u0 {1,S}
-4   H   u0 {1,S}
+3   R!H!Val7 u0 {1,S}
+4   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0379,
@@ -279,8 +279,8 @@ entry(
     group = 
 """
 1 * C   u0 {2,D} {3,D}
-2   R!H u0 {1,D}
-3   R!H u0 {1,D}
+2   R!H!Val7 u0 {1,D}
+3   R!H!Val7 u0 {1,D}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0026,
@@ -299,8 +299,8 @@ entry(
     group = 
 """
 1 * C   u0 {2,T} {3,S}
-2   R!H u0 {1,T}
-3   H   u0 {1,S}
+2   R!H!Val7 u0 {1,T}
+3   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0027,
@@ -319,8 +319,8 @@ entry(
     group = 
 """
 1 * C   u0 {2,T} {3,S}
-2   R!H u0 {1,T}
-3   R!H u0 {1,S}
+2   R!H!Val7 u0 {1,T}
+3   R!H!Val7 u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.002,
@@ -351,8 +351,8 @@ entry(
     group = 
 """
 1 * O   u0 {2,S} {3,S}
-2   R!H u0 {1,S}
-3   H   u0 {1,S}
+2   R!H!Val7 u0 {1,S}
+3   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0741,
@@ -372,7 +372,7 @@ entry(
 """
 1 * O  u0 {2,S} {3,S}
 2   Cb u0 {1,S}
-3   H  u0 {1,S}
+3   [H,Val7]  u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.024,
@@ -391,10 +391,10 @@ entry(
     group = 
 """
 1 * O   u0 {2,S} {3,S}
-2   H   u0 {1,S}
+2   [H,Val7]   u0 {1,S}
 3   C   u0 {1,S} {4,D} {5,S}
 4   O   u0 {3,D}
-5   R!H u0 {3,S}
+5   R!H!Val7 u0 {3,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -413,8 +413,8 @@ entry(
     group = 
 """
 1 * O   u0 {2,S} {3,S}
-2   R!H u0 {1,S}
-3   R!H u0 {1,S}
+2   R!H!Val7 u0 {1,S}
+3   R!H!Val7 u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0168,
@@ -433,10 +433,10 @@ entry(
     group = 
 """
 1 * O   u0 {2,S} {3,S}
-2   R!H u0 {1,S}
+2   R!H!Val7 u0 {1,S}
 3   C   u0 {1,S} {4,D} {5,S}
 4   O   u0 {3,D}
-5   R!H u0 {3,S}
+5   R!H!Val7 u0 {3,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -455,7 +455,7 @@ entry(
     group = 
 """
 1 * O   u0 {2,D}
-2   R!H u0 {1,D}
+2   R!H!Val7 u0 {1,D}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0143,
@@ -475,8 +475,8 @@ entry(
 """
 1 * O   u0 {2,D}
 2   C   u0 {1,D} {3,S} {4,S}
-3   R!H u0 {2,S}
-4   R!H u0 {2,S}
+3   R!H!Val7 u0 {2,S}
+4   R!H!Val7 u0 {2,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -496,8 +496,8 @@ entry(
 """
 1 * O   u0 {2,D}
 2   C   u0 {1,D} {3,S} {4,S}
-3   R!H u0 {2,S}
-4   H   u0 {2,S}
+3   R!H!Val7 u0 {2,S}
+4   [H,Val7]   u0 {2,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -517,9 +517,9 @@ entry(
 """
 1 * O   u0 {2,D}
 2   C   u0 {1,D} {3,S} {4,S}
-3   R!H u0 {2,S}
+3   R!H!Val7 u0 {2,S}
 4   O   u0 {2,S} {5,S}
-5   H   u0 {4,S}
+5   [H,Val7]   u0 {4,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -539,9 +539,9 @@ entry(
 """
 1 * O   u0 {2,D}
 2   C   u0 {1,D} {3,S} {4,S}
-3   R!H u0 {2,S}
+3   R!H!Val7 u0 {2,S}
 4   O   u0 {2,S} {5,S}
-5   R!H u0 {4,S}
+5   R!H!Val7 u0 {4,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -572,8 +572,8 @@ entry(
     group = 
 """
 1 * S   u0 {2,S} {3,S}
-2   R!H u0 {1,S}
-3   H   u0 {1,S}
+2   R!H!Val7 u0 {1,S}
+3   [H,Val7]   u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0031,
@@ -592,8 +592,8 @@ entry(
     group = 
 """
 1 * S   u0 {2,S} {3,S}
-2   R!H u0 {1,S}
-3   R!H u0 {1,S}
+2   R!H!Val7 u0 {1,S}
+3   R!H!Val7 u0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0119,
