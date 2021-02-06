@@ -33,7 +33,7 @@ entry(
 entry(
     index = 1,
     label = "YJ",
-    group = "OR{HJ, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ}",
+    group = "OR{HVal7J, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ}",
     kinetics = None,
 )
 
@@ -40008,11 +40008,64 @@ entry(
 )
 
 entry(
-    index = 2661,
+    index = 26600,
+    label = "HVal7J",
+    group =
+"""
+1 *3 [H,Val7] u1
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 26601,
     label = "HJ",
     group =
 """
 1 *3 H u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 26602,
+    label = "Val7J",
+    group =
+"""
+1 *3 Val7 u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 26603,
+    label = "FJ",
+    group =
+"""
+1 *3 F u1
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 26604,
+    label = "ClJ",
+    group =
+"""
+1 *3 Cl u1
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 26605,
+    label = "BrJ",
+    group =
+"""
+1 *3 Br u1
 """,
     kinetics = None,
 )
@@ -47595,7 +47648,12 @@ L1: R_R
                 L5: Sd_Cds-CdC=S
                 L5: Sd_Cds-C=SC=S
 L1: YJ
-    L2: HJ
+    L2: HVal7J
+        L3: HJ
+        L3: Val7
+            L4: FJ
+            L4: ClJ
+            L4: BrJ
     L2: Y_1centerquadrad
         L3: C_quintet
         L3: C_triplet
