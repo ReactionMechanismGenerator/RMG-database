@@ -66,8 +66,8 @@ entry(
     label = "R_H",
     group = 
 """
-1 *2 [H,Cs,Cd,Cb,Ct,O,Sis,Sid,N,S] u0 {2,S}
-2 *3 H                             u0 {1,S}
+1 *2 [H,Cs,Cd,Cb,Ct,CO,O,Sis,Sid,N,S] u0 {2,S}
+2 *3 H                                u0 {1,S}
 """,
     kinetics = None,
 )
