@@ -456,13 +456,13 @@ entry(
     label = "Cs(Cl)3-Cds(Cl)",
     group = 
 """
-1 *1 Cs        u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cd        u0 {1,S} {4,S} {6,D}
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {6,S} {7,D}
 3    Cl1s      u0 {1,S}
-4    Cl1s      u0 {2,S}
+4    Cl1s      u0 {1,S}
 5    Cl1s      u0 {1,S}
-6    [C,N,O,S] u0 {2,D}
-7    Cl1s      u0 {1,S}
+6    Cl1s      u0 {2,S}
+7    [C,N,O,S] u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1893,6 +1893,1454 @@ entry(
 
 entry(
     index = 73,
+    label = "intRVal7",
+    group = 
+"""
+1 *1 [Cs,Cd,CO] u0 {2,[S,D]} {4,S}
+2    R!H        ux {1,[S,D]} {3,[S,D]}
+3 *2 [Cs,Cd,CO] u0 {2,[S,D]}
+4    [Cl,Br]    u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 74,
+    label = "Cs(Cl/Br)3-R-Cs(Cl/Br)3",
+    group = 
+"""
+1 *1 Cs      u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs      u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H     ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br] u0 {1,S}
+5    [Cl,Br] u0 {2,S}
+6    [Cl,Br] u0 {1,S}
+7    [Cl,Br] u0 {2,S}
+8    [Cl,Br] u0 {1,S}
+9    [Cl,Br] u0 {2,S}
+""",
+    thermo = 'Cs(Cl)3-R-Cs(Cl)3',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 75,
+    label = "Cs(Cl)3-R-Cs(Cl)3",
+    group = 
+"""
+1 *1 Cs  u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs  u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H ux {1,[S,D]} {2,[S,D]}
+4    Cl  u0 {1,S}
+5    Cl  u0 {2,S}
+6    Cl  u0 {1,S}
+7    Cl  u0 {2,S}
+8    Cl  u0 {1,S}
+9    Cl  u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.00364917,-0.168952,-0.293536,-0.402694,-0.457559,-0.234409,0.415146],'J/(mol*K)'),
+        H298 = (34.7298,'kJ/mol'),
+        S298 = (-3.68704,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 76,
+    label = "Cs(Br)3-R-Cs(Br)3",
+    group = 
+"""
+1 *1 Cs  u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs  u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H ux {1,[S,D]} {2,[S,D]}
+4    Br  u0 {1,S}
+5    Br  u0 {2,S}
+6    Br  u0 {1,S}
+7    Br  u0 {2,S}
+8    Br  u0 {1,S}
+9    Br  u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.940191,-1.05731,-0.520803,0.0464141,0.720499,1.16673,1.8637],'J/(mol*K)'),
+        H298 = (63.0877,'kJ/mol'),
+        S298 = (-8.5464,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 77,
+    label = "Cs(Cl/Br)3-R-Cs(Cl/Br)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {2,S}
+6    [Cl,Br]     u0 {1,S}
+7    [Cl,Br]     u0 {2,S}
+8    [Cl,Br]     u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = 'Cs(Cl)3-R-Cs(Cl)2',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 78,
+    label = "Cs(Cl)3-R-Cs(Cl)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Cl          u0 {1,S}
+5    Cl          u0 {2,S}
+6    Cl          u0 {1,S}
+7    Cl          u0 {2,S}
+8    Cl          u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.52802,-1.94969,-2.55231,-3.07312,-3.44373,-2.82436,-0.42704],'J/(mol*K)'),
+        H298 = (46.4307,'kJ/mol'),
+        S298 = (-6.62843,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 79,
+    label = "Cs(Br)3-R-Cs(Br)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Br          u0 {1,S}
+5    Br          u0 {2,S}
+6    Br          u0 {1,S}
+7    Br          u0 {2,S}
+8    Br          u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.70274,-4.38554,-3.93957,-3.22716,-2.05777,-0.803218,2.0757],'J/(mol*K)'),
+        H298 = (75.8475,'kJ/mol'),
+        S298 = (-15.4149,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 80,
+    label = "Cs(Cl/Br)3-R-C(Cl/Br)",
+    group = 
+"""
+1 *1 Cs      u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H     ux {1,[S,D]} {3,[S,D]}
+3 *2 [Cs,Cd] u0 {2,[S,D]} {7,S}
+4    [Cl,Br] u0 {1,S}
+5    [Cl,Br] u0 {1,S}
+6    [Cl,Br] u0 {1,S}
+7    [Cl,Br] u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 81,
+    label = "Cs(Cl/Br)3-R-Cs(Cl/Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {2,S}
+6    [Cl,Br]     u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    [Cl,Br]     u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = 'Cs(Cl)3-R-Cs(Cl)',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 82,
+    label = "Cs(Cl)3-R-Cs(Cl)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Cl          u0 {1,S}
+5    Cl          u0 {2,S}
+6    Cl          u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    Cl          u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.94642,-1.76913,-1.74212,-1.94442,-2.16328,-1.63217,-0.15035],'J/(mol*K)'),
+        H298 = (10.0055,'kJ/mol'),
+        S298 = (-1.93784,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 83,
+    label = "Cs(Br)3-R-Cs(Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Br          u0 {1,S}
+5    Br          u0 {2,S}
+6    Br          u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    Br          u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.16758,-3.48563,-3.35742,-3.05002,-2.55089,-1.87675,-0.459252],'J/(mol*K)'),
+        H298 = (23.6619,'kJ/mol'),
+        S298 = (-5.52749,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 84,
+    label = "Cs(Cl/Br)3-R-Cds(Cl/Br)",
+    group = 
+"""
+1 *1 Cs        u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd        u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H       ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]   u0 {1,S}
+5    [Cl,Br]   u0 {1,S}
+6    [Cl,Br]   u0 {1,S}
+7    [Cl,Br]   u0 {2,S}
+8    [C,N,O,S] u0 {2,[S,D]}
+""",
+    thermo = 'Cs(Cl)3-R-Cds(Cl)',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 85,
+    label = "Cs(Cl)3-R-Cds(Cl)",
+    group = 
+"""
+1 *1 Cs        u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd        u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H       ux {1,[S,D]} {2,[S,D]}
+4    Cl        u0 {1,S}
+5    Cl        u0 {1,S}
+6    Cl        u0 {1,S}
+7    Cl        u0 {2,S}
+8    [C,N,O,S] u0 {2,[S,D]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.1331,-1.53844,-1.64343,-1.50602,-1.13384,-0.567102,0.925525],'J/(mol*K)'),
+        H298 = (25.7277,'kJ/mol'),
+        S298 = (-2.90598,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 86,
+    label = "Cs(Br)3-R-Cds(Br)",
+    group = 
+"""
+1 *1 Cs        u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd        u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H       ux {1,[S,D]} {2,[S,D]}
+4    Br        u0 {1,S}
+5    Br        u0 {1,S}
+6    Br        u0 {1,S}
+7    Br        u0 {2,S}
+8    [C,N,O,S] u0 {2,[S,D]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.159,-2.65667,-1.92243,-1.11682,0.182753,1.26542,3.46491],'J/(mol*K)'),
+        H298 = (75.9408,'kJ/mol'),
+        S298 = (-11.9482,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 87,
+    label = "Cs(Cl/Br)3-R-Cds(Cl/Br)2",
+    group = 
+"""
+1 *1 Cs      u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd      u0 {3,[S,D]} {7,S} {8,S}
+3    R!H     ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br] u0 {1,S}
+5    [Cl,Br] u0 {1,S}
+6    [Cl,Br] u0 {1,S}
+7    [Cl,Br] u0 {2,S}
+8    [Cl,Br] u0 {2,S}
+""",
+    thermo = 'Cs(Cl)3-R-Cds(Cl)2',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 88,
+    label = "Cs(Cl)3-R-Cds(Cl)2",
+    group = 
+"""
+1 *1 Cs  u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd  u0 {3,[S,D]} {7,S} {8,S}
+3    R!H ux {1,[S,D]} {2,[S,D]}
+4    Cl  u0 {1,S}
+5    Cl  u0 {1,S}
+6    Cl  u0 {1,S}
+7    Cl  u0 {2,S}
+8    Cl  u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.01739,-1.8821,-1.3655,-0.992874,-0.576793,-0.574997,-0.661126],'J/(mol*K)'),
+        H298 = (22.1573,'kJ/mol'),
+        S298 = (-14.5884,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 89,
+    label = "Cs(Br)3-R-Cds(Br)2",
+    group = 
+"""
+1 *1 Cs  u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd  u0 {3,[S,D]} {7,S} {8,S}
+3    R!H ux {1,[S,D]} {2,[S,D]}
+4    Br  u0 {1,S}
+5    Br  u0 {1,S}
+6    Br  u0 {1,S}
+7    Br  u0 {2,S}
+8    Br  u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.0612,0.920505,1.87346,2.47989,2.69498,2.4206,1.84936],'J/(mol*K)'),
+        H298 = (23.3623,'kJ/mol'),
+        S298 = (-0.501741,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 90,
+    label = "Cs(Cl/Br)2-R-Cs(Cl/Br)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {2,S}
+6    [Cl,Br]     u0 {1,S}
+7    [Cl,Br]     u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = 'Cs(Cl)2-R-Cs(Cl)2',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 91,
+    label = "Cs(Cl)2-R-Cs(Cl)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Cl          u0 {1,S}
+5    Cl          u0 {2,S}
+6    Cl          u0 {1,S}
+7    Cl          u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.05017,-0.986642,-0.922873,-0.9632,-0.975503,-0.725737,0.425722],'J/(mol*K)'),
+        H298 = (7.39031,'kJ/mol'),
+        S298 = (-1.63346,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 92,
+    label = "Cs(Br)2-R-Cs(Br)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Br          u0 {1,S}
+5    Br          u0 {2,S}
+6    Br          u0 {1,S}
+7    Br          u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.7483,-1.68064,-1.45394,-1.27761,-0.991376,-0.613613,0.00356614],'J/(mol*K)'),
+        H298 = (9.50199,'kJ/mol'),
+        S298 = (-2.04667,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 93,
+    label = "Cs(Cl/Br)2-R-C(Cl/Br)",
+    group = 
+"""
+1 *1 Cs          u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H         ux {1,[S,D]} {3,[S,D]}
+3 *2 [Cs,Cd]     u0 {2,[S,D]} {7,S}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    [Cl,Br]     u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 94,
+    label = "Cs(Cl/Br)2-R-Cs(Cl/Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {2,S}
+6    [Cl,Br]     u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = 'Cs(Cl)2-R-Cs(Cl)',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 95,
+    label = "Cs(Cl)2-R-Cs(Cl)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Cl          u0 {1,S}
+5    Cl          u0 {2,S}
+6    Cl          u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.237482,-0.00934623,0.225826,0.470475,0.620047,0.662133,0.901825],'J/(mol*K)'),
+        H298 = (0.706954,'kJ/mol'),
+        S298 = (-4.24712,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 96,
+    label = "Cs(Br)2-R-Cs(Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Br          u0 {1,S}
+5    Br          u0 {2,S}
+6    Br          u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.18726,-0.504446,0.239543,0.680764,0.91001,0.964654,0.785582],'J/(mol*K)'),
+        H298 = (-1.00498,'kJ/mol'),
+        S298 = (-1.72593,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 97,
+    label = "Cs(Cl/Br)2-R-Cds(Cl/Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    [Cl,Br]     u0 {2,S}
+8    [C,N,O,S]   u0 {2,[S,D]}
+""",
+    thermo = 'Cs(Cl)2-R-Cds(Cl)',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 98,
+    label = "Cs(Cl)2-R-Cds(Cl)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Cl          u0 {1,S}
+5    Cl          u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    Cl          u0 {2,S}
+8    [C,N,O,S]   u0 {2,[S,D]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.938505,1.10006,0.967191,0.978471,0.709443,0.590291,1.27675],'J/(mol*K)'),
+        H298 = (1.21226,'kJ/mol'),
+        S298 = (-3.72275,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 99,
+    label = "Cs(Br)2-R-Cds(Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Br          u0 {1,S}
+5    Br          u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    Br          u0 {2,S}
+8    [C,N,O,S]   u0 {2,[S,D]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.313165,0.394994,0.905183,1.35439,1.38462,1.18258,1.08655],'J/(mol*K)'),
+        H298 = (-0.151419,'kJ/mol'),
+        S298 = (-1.6193,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 100,
+    label = "Cs(Cl/Br)2-R-Cds(Cl/Br)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,D} {7,S} {8,S}
+3    R!H         ux {1,[S,D]} {2,D}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    [Cl,Br]     u0 {2,S}
+8    [Cl,Br]     u0 {2,S}
+""",
+    thermo = 'Cs(Cl)2-R-Cds(Cl)2',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 101,
+    label = "Cs(Cl)2-R-Cds(Cl)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,D} {7,S} {8,S}
+3    R!H         ux {1,[S,D]} {2,D}
+4    Cl          u0 {1,S}
+5    Cl          u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    Cl          u0 {2,S}
+8    Cl          u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.103366,0.984804,1.3602,1.47907,1.30657,1.21332,2.01686],'J/(mol*K)'),
+        H298 = (10.2875,'kJ/mol'),
+        S298 = (-6.40949,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 102,
+    label = "Cs(Br)2-R-Cds(Br)2",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,D} {7,S} {8,S}
+3    R!H         ux {1,[S,D]} {2,D}
+4    Br          u0 {1,S}
+5    Br          u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    Br          u0 {2,S}
+8    Br          u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.7316,-0.535243,0.944514,1.95224,2.8834,3.03984,3.88002],'J/(mol*K)'),
+        H298 = (39.7619,'kJ/mol'),
+        S298 = (-22.772,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 103,
+    label = "C(Cl/Br)-R-C(Cl/Br)",
+    group = 
+"""
+1    R!H     ux {2,[S,D]} {3,[S,D]}
+2 *1 [Cs,Cd] u0 {1,[S,D]} {4,S}
+3 *2 [Cs,Cd] u0 {1,[S,D]} {5,S}
+4    [Cl,Br] u0 {2,S}
+5    [Cl,Br] u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 104,
+    label = "Cs(Cl/Br)-R-Cs(Cl/Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {2,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = 'Cs(Cl)-R-Cs(Cl)',
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 105,
+    label = "Cs(Cl)-R-Cs(Cl)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Cl          u0 {1,S}
+5    Cl          u0 {2,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0475936,0.425717,0.740709,0.899892,0.939305,0.862424,0.526511],'J/(mol*K)'),
+        H298 = (-1.30736,'kJ/mol'),
+        S298 = (-0.24506,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 106,
+    label = "Cs(Br)-R-Cs(Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {6,S} {8,S}
+2 *2 Cs          u0 {3,[S,D]} {5,S} {7,S} {9,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Br          u0 {1,S}
+5    Br          u0 {2,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+8    [C,H,N,O,S] u0 {1,S}
+9    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.247306,0.297522,0.735416,1.01823,1.21134,1.21393,0.987939],'J/(mol*K)'),
+        H298 = (-1.6983,'kJ/mol'),
+        S298 = (-2.08457,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 107,
+    label = "Cs(Cl/Br)-R-Cds(Cl/Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]     u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    [Cl,Br]     u0 {2,S}
+8    [C,N,O,S]   u0 {2,[S,D]}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 108,
+    label = "Cs(Cl)-R-Cds(Cl)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Cl          u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    Cl          u0 {2,S}
+8    [C,N,O,S]   u0 {2,[S,D]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.535348,-0.242394,-0.0450451,0.211158,0.409668,0.519366,0.630577],'J/(mol*K)'),
+        H298 = (-2.86965,'kJ/mol'),
+        S298 = (-1.00838,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 109,
+    label = "Cs(Br)-R-Cds(Br)",
+    group = 
+"""
+1 *1 Cs          u0 {3,[S,D]} {4,S} {5,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {7,S} {8,[S,D]}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Br          u0 {1,S}
+5    [C,H,N,O,S] u0 {1,S}
+6    [C,H,N,O,S] u0 {1,S}
+7    Br          u0 {2,S}
+8    [C,N,O,S]   u0 {2,[S,D]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.133816,0.28651,0.451904,0.745501,0.93322,1.05004,1.26993],'J/(mol*K)'),
+        H298 = (-2.14693,'kJ/mol'),
+        S298 = (-2.2269,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 110,
+    label = "Cds(Cl/Br)-R-Cds(Cl/Br)",
+    group = 
+"""
+1 *1 Cd        u0 {3,[S,D]} {4,S} {6,[S,D]}
+2 *2 Cd        u0 {3,[S,D]} {5,S} {7,[S,D]}
+3    R!H       ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]   u0 {1,S}
+5    [Cl,Br]   u0 {2,S}
+6    [C,N,O,S] u0 {1,[S,D]}
+7    [C,N,O,S] u0 {2,[S,D]}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 111,
+    label = "Cds(Cl)-R-Cds(Cl)",
+    group = 
+"""
+1 *1 Cd        u0 {3,S} {5,[S,D]} {7,[S,D]}
+2 *2 Cd        u0 {4,S} {6,[S,D]} {7,[S,D]}
+3    Cl        u0 {1,S}
+4    Cl        u0 {2,S}
+5    [C,N,O,S] u0 {1,[S,D]}
+6    [C,N,O,S] u0 {2,[S,D]}
+7    R!H       ux {1,[S,D]} {2,[S,D]}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 112,
+    label = "Cds(Br)-R-Cds(Br)",
+    group = 
+"""
+1 *1 Cd        u0 {3,S} {5,[S,D]} {7,[S,D]}
+2 *2 Cd        u0 {4,S} {6,[S,D]} {7,[S,D]}
+3    Br        u0 {1,S}
+4    Br        u0 {2,S}
+5    [C,N,O,S] u0 {1,[S,D]}
+6    [C,N,O,S] u0 {2,[S,D]}
+7    R!H       ux {1,[S,D]} {2,[S,D]}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 113,
+    label = "Cds(Cl/Br)2-R-Cds(Cl/Br)",
+    group = 
+"""
+1 *1 Cd          u0 {3,[S,D]} {4,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {5,S} {7,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {2,S}
+6    [Cl,Br]     u0 {1,S}
+7    [C,H,O,N,S] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 114,
+    label = "Cds(Cl)2-R-Cds(Cl)",
+    group = 
+"""
+1 *1 Cd          u0 {3,[S,D]} {4,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {5,S} {7,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Cl          u0 {1,S}
+5    Cl          u0 {2,S}
+6    Cl          u0 {1,S}
+7    [C,H,O,N,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.675981,0.438533,0.443288,0.381115,0.113486,-0.142367,-0.67713],'J/(mol*K)'),
+        H298 = (2.28434,'kJ/mol'),
+        S298 = (-3.87462,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 115,
+    label = "Cds(Br)2-R-Cds(Br)",
+    group = 
+"""
+1 *1 Cd          u0 {3,[S,D]} {4,S} {6,S}
+2 *2 Cd          u0 {3,[S,D]} {5,S} {7,S}
+3    R!H         ux {1,[S,D]} {2,[S,D]}
+4    Br          u0 {1,S}
+5    Br          u0 {2,S}
+6    Br          u0 {1,S}
+7    [C,H,O,N,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.25545,-1.46816,-1.40463,-1.24488,-1.36192,-1.50779,-1.72509],'J/(mol*K)'),
+        H298 = (4.56288,'kJ/mol'),
+        S298 = (-9.25935,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 116,
+    label = "Cds(Cl/Br)2-R-Cds(Cl/Br)2",
+    group = 
+"""
+1 *1 Cd      u0 {3,[S,D]} {4,S} {6,S}
+2 *2 Cd      u0 {3,[S,D]} {5,S} {7,S}
+3    R!H     ux {1,[S,D]} {2,[S,D]}
+4    [Cl,Br] u0 {1,S}
+5    [Cl,Br] u0 {2,S}
+6    [Cl,Br] u0 {1,S}
+7    [Cl,Br] u0 {2,S}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 117,
+    label = "Cds(Cl)2-R-Cds(Cl)2",
+    group = 
+"""
+1 *1 Cd  u0 {3,[S,D]} {4,S} {6,S}
+2 *2 Cd  u0 {3,[S,D]} {5,S} {7,S}
+3    R!H ux {1,[S,D]} {2,[S,D]}
+4    Cl  u0 {1,S}
+5    Cl  u0 {2,S}
+6    Cl  u0 {1,S}
+7    Cl  u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.609395,-0.411032,-0.478077,-0.492356,-0.852755,-1.09669,-1.35592],'J/(mol*K)'),
+        H298 = (5.68501,'kJ/mol'),
+        S298 = (-6.30921,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 118,
+    label = "Cds(Br)2-R-Cds(Br)2",
+    group = 
+"""
+1 *1 Cd  u0 {3,[S,D]} {4,S} {6,S}
+2 *2 Cd  u0 {3,[S,D]} {5,S} {7,S}
+3    R!H ux {1,[S,D]} {2,[S,D]}
+4    Br  u0 {1,S}
+5    Br  u0 {2,S}
+6    Br  u0 {1,S}
+7    Br  u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.827656,-0.247468,-0.311888,-0.56415,-1.32131,-1.72763,-1.84597],'J/(mol*K)'),
+        H298 = (2.6784,'kJ/mol'),
+        S298 = (-9.77371,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 119,
+    label = "Cd(Cl/Br)-R-CO",
+    group = 
+"""
+1    R!H     ux {2,[S,D]} {3,[S,D]}
+2 *1 Cd      u0 {1,[S,D]} {4,S}
+3 *2 CO      u0 {1,[S,D]} {5,D}
+4    [Cl,Br] u0 {2,S}
+5    O2d     u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 120,
+    label = "Cd(Cl)-R-CO",
+    group = 
+"""
+1    R!H ux {2,[S,D]} {3,[S,D]}
+2 *1 Cd  u0 {1,[S,D]} {4,S}
+3 *2 CO  u0 {1,[S,D]} {5,D}
+4    Cl  u0 {2,S}
+5    O2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.318271,1.5099,2.01203,2.0497,1.58892,1.21065,1.47255],'J/(mol*K)'),
+        H298 = (-1.14196,'kJ/mol'),
+        S298 = (-5.43884,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 121,
+    label = "Cd(Br)-R-CO",
+    group = 
+"""
+1    R!H ux {2,[S,D]} {3,[S,D]}
+2 *1 Cd  u0 {1,[S,D]} {4,S}
+3 *2 CO  u0 {1,[S,D]} {5,D}
+4    Br  u0 {2,S}
+5    O2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.713548,1.25158,1.9655,2.05902,1.54611,1.23418,1.67856],'J/(mol*K)'),
+        H298 = (-1.49348,'kJ/mol'),
+        S298 = (-7.284,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 122,
+    label = "Cs(Cl/Br)3-R-CO",
+    group = 
+"""
+1 *1 Cs      u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H     ux {1,[S,D]} {3,[S,D]}
+3 *2 CO      u0 {2,[S,D]} {7,D}
+4    [Cl,Br] u0 {1,S}
+5    [Cl,Br] u0 {1,S}
+6    [Cl,Br] u0 {1,S}
+7    O2d     u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 123,
+    label = "Cs(Cl)3-R-CO",
+    group = 
+"""
+1 *1 Cs  u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H ux {1,[S,D]} {3,[S,D]}
+3 *2 CO  u0 {2,[S,D]} {7,D}
+4    Cl  u0 {1,S}
+5    Cl  u0 {1,S}
+6    Cl  u0 {1,S}
+7    O2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.53374,4.91369,4.86114,4.4266,3.13892,2.06862,0.586956],'J/(mol*K)'),
+        H298 = (6.70163,'kJ/mol'),
+        S298 = (-4.17022,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 124,
+    label = "Cs(Br)3-R-CO",
+    group = 
+"""
+1 *1 Cs  u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H ux {1,[S,D]} {3,[S,D]}
+3 *2 CO  u0 {2,[S,D]} {7,D}
+4    Br  u0 {1,S}
+5    Br  u0 {1,S}
+6    Br  u0 {1,S}
+7    O2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.97022,7.34575,7.37311,6.65715,4.47471,2.7193,-0.106225],'J/(mol*K)'),
+        H298 = (15.6237,'kJ/mol'),
+        S298 = (-4.31791,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 125,
+    label = "Cs(Cl/Br)2-R-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H         ux {1,[S,D]} {3,[S,D]}
+3 *2 CO          u0 {2,[S,D]} {7,D}
+4    [Cl,Br]     u0 {1,S}
+5    [Cl,Br]     u0 {1,S}
+6    [C,H,O,N,S] u0 {1,S}
+7    O2d         u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 126,
+    label = "Cs(Cl)2-R-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H         ux {1,[S,D]} {3,[S,D]}
+3 *2 CO          u0 {2,[S,D]} {7,D}
+4    Cl          u0 {1,S}
+5    Cl          u0 {1,S}
+6    [C,H,O,N,S] u0 {1,S}
+7    O2d         u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.00641,0.545385,0.175423,-0.00124011,0.0690117,0.161532,0.978524],'J/(mol*K)'),
+        H298 = (2.6357,'kJ/mol'),
+        S298 = (1.50352,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 127,
+    label = "Cs(Br)2-R-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H         ux {1,[S,D]} {3,[S,D]}
+3 *2 CO          u0 {2,[S,D]} {7,D}
+4    Br          u0 {1,S}
+5    Br          u0 {1,S}
+6    [C,H,O,N,S] u0 {1,S}
+7    O2d         u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.134143,0.572003,0.738729,0.568397,0.307578,0.348373,0.514591],'J/(mol*K)'),
+        H298 = (5.05111,'kJ/mol'),
+        S298 = (-2.86059,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 128,
+    label = "Cs(Cl/Br)-R-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H         ux {1,[S,D]} {3,[S,D]}
+3 *2 CO          u0 {2,[S,D]} {7,D}
+4    [Cl,Br]     u0 {1,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    [C,H,O,N,S] u0 {1,S}
+7    O2d         u0 {3,D}
+""",
+    thermo = None,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 129,
+    label = "Cs(Cl)-R-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H         ux {1,[S,D]} {3,[S,D]}
+3 *2 CO          u0 {2,[S,D]} {7,D}
+4    Cl          u0 {1,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    [C,H,O,N,S] u0 {1,S}
+7    O2d         u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.20122,0.679442,0.249191,-0.196846,-0.861141,-1.05166,-0.510242],'J/(mol*K)'),
+        H298 = (-0.982592,'kJ/mol'),
+        S298 = (3.13447,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 130,
+    label = "Cs(Br)-R-CO",
+    group = 
+"""
+1 *1 Cs          u0 {2,[S,D]} {4,S} {5,S} {6,S}
+2    R!H         ux {1,[S,D]} {3,[S,D]}
+3 *2 CO          u0 {2,[S,D]} {7,D}
+4    Br          u0 {1,S}
+5    [C,H,O,N,S] u0 {1,S}
+6    [C,H,O,N,S] u0 {1,S}
+7    O2d         u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.3774,1.09863,0.829816,0.411183,-0.234696,-0.44195,0.0331537],'J/(mol*K)'),
+        H298 = (-0.341897,'kJ/mol'),
+        S298 = (2.46806,'J/(mol*K)'),
+    ),
+    shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 131,
     label = "int14_gauche",
     group = 
 """
@@ -1913,7 +3361,7 @@ entry(
 )
 
 entry(
-    index = 74,
+    index = 132,
     label = "CsCs",
     group = 
 """
@@ -1934,7 +3382,7 @@ entry(
 )
 
 entry(
-    index = 75,
+    index = 133,
     label = "CsCs-P",
     group = 
 """
@@ -1958,7 +3406,7 @@ entry(
 )
 
 entry(
-    index = 76,
+    index = 134,
     label = "CsCs-S",
     group = 
 """
@@ -1982,7 +3430,7 @@ entry(
 )
 
 entry(
-    index = 77,
+    index = 135,
     label = "CsCs-SS",
     group = 
 """
@@ -2009,7 +3457,7 @@ entry(
 )
 
 entry(
-    index = 78,
+    index = 136,
     label = "CsCs-ST",
     group = 
 """
@@ -2036,7 +3484,7 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 137,
     label = "CsCs-SQ",
     group = 
 """
@@ -2063,7 +3511,7 @@ entry(
 )
 
 entry(
-    index = 80,
+    index = 138,
     label = "CsCs-T",
     group = 
 """
@@ -2087,7 +3535,7 @@ entry(
 )
 
 entry(
-    index = 81,
+    index = 139,
     label = "CsCs-TT",
     group = 
 """
@@ -2114,7 +3562,7 @@ Half Value!!!
 )
 
 entry(
-    index = 82,
+    index = 140,
     label = "CsCs-T(TTP)",
     group = 
 """
@@ -2147,7 +3595,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 141,
     label = "CsCs-T(TTS)",
     group = 
 """
@@ -2180,7 +3628,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 142,
     label = "CsCs-T(TTT)",
     group = 
 """
@@ -2213,7 +3661,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 143,
     label = "CsCs-T(TTQ)",
     group = 
 """
@@ -2246,7 +3694,7 @@ entry(
 )
 
 entry(
-    index = 86,
+    index = 144,
     label = "CsCs-TQ",
     group = 
 """
@@ -2273,7 +3721,7 @@ entry(
 )
 
 entry(
-    index = 87,
+    index = 145,
     label = "CsCs-Q",
     group = 
 """
@@ -2297,7 +3745,7 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 146,
     label = "CsCs-QQ",
     group = 
 """
@@ -2324,7 +3772,7 @@ Half Value!!!
 )
 
 entry(
-    index = 89,
+    index = 147,
     label = "OsCs",
     group = 
 """
@@ -2345,7 +3793,7 @@ entry(
 )
 
 entry(
-    index = 90,
+    index = 148,
     label = "OsCs-P",
     group = 
 """
@@ -2367,7 +3815,7 @@ entry(
 )
 
 entry(
-    index = 91,
+    index = 149,
     label = "OsCs-S",
     group = 
 """
@@ -2389,7 +3837,7 @@ entry(
 )
 
 entry(
-    index = 92,
+    index = 150,
     label = "OsCs-SP",
     group = 
 """
@@ -2414,7 +3862,7 @@ entry(
 )
 
 entry(
-    index = 93,
+    index = 151,
     label = "OsCs-SS",
     group = 
 """
@@ -2439,7 +3887,7 @@ entry(
 )
 
 entry(
-    index = 94,
+    index = 152,
     label = "OsCs-ST",
     group = 
 """
@@ -2464,7 +3912,7 @@ entry(
 )
 
 entry(
-    index = 95,
+    index = 153,
     label = "OsCs-SQ",
     group = 
 """
@@ -2489,7 +3937,7 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 154,
     label = "CdCs",
     group = 
 """
@@ -2511,7 +3959,7 @@ entry(
 )
 
 entry(
-    index = 97,
+    index = 155,
     label = "CdCs-P",
     group = 
 """
@@ -2534,7 +3982,7 @@ entry(
 )
 
 entry(
-    index = 98,
+    index = 156,
     label = "CdCs-S",
     group = 
 """
@@ -2557,7 +4005,7 @@ entry(
 )
 
 entry(
-    index = 99,
+    index = 157,
     label = "CdCs-SP",
     group = 
 """
@@ -2583,7 +4031,7 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 158,
     label = "CdCs-SS",
     group = 
 """
@@ -2609,7 +4057,7 @@ entry(
 )
 
 entry(
-    index = 101,
+    index = 159,
     label = "CdCs-ST",
     group = 
 """
@@ -2635,7 +4083,7 @@ entry(
 )
 
 entry(
-    index = 102,
+    index = 160,
     label = "CdCs-SQ",
     group = 
 """
@@ -2661,7 +4109,7 @@ entry(
 )
 
 entry(
-    index = 103,
+    index = 161,
     label = "int15",
     group = 
 """
@@ -2688,7 +4136,7 @@ entry(
 )
 
 entry(
-    index = 104,
+    index = 162,
     label = "CsCsCs",
     group = 
 """
@@ -2715,7 +4163,7 @@ entry(
 )
 
 entry(
-    index = 105,
+    index = 163,
     label = "CsCsCs-TQ",
     group = 
 """
@@ -2743,7 +4191,7 @@ entry(
 )
 
 entry(
-    index = 106,
+    index = 164,
     label = "CsCsCs-QQ",
     group = 
 """
@@ -2771,7 +4219,7 @@ Half Value!!!
 )
 
 entry(
-    index = 107,
+    index = 165,
     label = "CsOsCs",
     group = 
 """
@@ -2798,7 +4246,7 @@ entry(
 )
 
 entry(
-    index = 108,
+    index = 166,
     label = "CsOsCs-TQ",
     group = 
 """
@@ -2826,7 +4274,7 @@ entry(
 )
 
 entry(
-    index = 109,
+    index = 167,
     label = "CsOsCs-QQ",
     group = 
 """
@@ -2854,7 +4302,7 @@ Half Value!!!
 )
 
 entry(
-    index = 110,
+    index = 168,
     label = "CsSsCs",
     group = 
 """
@@ -2881,7 +4329,7 @@ entry(
 )
 
 entry(
-    index = 111,
+    index = 169,
     label = "CsSsCs-TQ",
     group = 
 """
@@ -2909,7 +4357,7 @@ entry(
 )
 
 entry(
-    index = 112,
+    index = 170,
     label = "CsSsCs-QQ",
     group = 
 """
@@ -3011,6 +4459,64 @@ L1: R
             L4: Cs(F)-CO
             L4: Cs(Cl)-CO
             L4: Cs(Br)-CO
+    L2: intRVal7
+        L3: Cs(Cl/Br)3-R-Cs(Cl/Br)3
+            L4: Cs(Cl)3-R-Cs(Cl)3
+            L4: Cs(Br)3-R-Cs(Br)3
+        L3: Cs(Cl/Br)3-R-Cs(Cl/Br)2
+            L4: Cs(Cl)3-R-Cs(Cl)2
+            L4: Cs(Br)3-R-Cs(Br)2
+        L3: Cs(Cl/Br)3-R-C(Cl/Br)
+            L4: Cs(Cl/Br)3-R-Cs(Cl/Br)
+                L5: Cs(Cl)3-R-Cs(Cl)
+                L5: Cs(Br)3-R-Cs(Br)
+            L4: Cs(Cl/Br)3-R-Cds(Cl/Br)
+                L5: Cs(Cl)3-R-Cds(Cl)
+                L5: Cs(Br)3-R-Cds(Br)
+            L4: Cs(Cl/Br)3-R-Cds(Cl/Br)2
+                L5: Cs(Cl)3-R-Cds(Cl)2
+                L5: Cs(Br)3-R-Cds(Br)2
+        L3: Cs(Cl/Br)2-R-Cs(Cl/Br)2
+            L4: Cs(Cl)2-R-Cs(Cl)2
+            L4: Cs(Br)2-R-Cs(Br)2
+        L3: Cs(Cl/Br)2-R-C(Cl/Br)
+            L4: Cs(Cl/Br)2-R-Cs(Cl/Br)
+                L5: Cs(Cl)2-R-Cs(Cl)
+                L5: Cs(Br)2-R-Cs(Br)
+            L4: Cs(Cl/Br)2-R-Cds(Cl/Br)
+                L5: Cs(Cl)2-R-Cds(Cl)
+                L5: Cs(Br)2-R-Cds(Br)
+            L4: Cs(Cl/Br)2-R-Cds(Cl/Br)2
+                L5: Cs(Cl)2-R-Cds(Cl)2
+                L5: Cs(Br)2-R-Cds(Br)2
+        L3: C(Cl/Br)-R-C(Cl/Br)
+            L4: Cs(Cl/Br)-R-Cs(Cl/Br)
+                L5: Cs(Cl)-R-Cs(Cl)
+                L5: Cs(Br)-R-Cs(Br)
+            L4: Cs(Cl/Br)-R-Cds(Cl/Br)
+                L5: Cs(Cl)-R-Cds(Cl)
+                L5: Cs(Br)-R-Cds(Br)
+            L4: Cds(Cl/Br)-R-Cds(Cl/Br)
+                L5: Cds(Cl)-R-Cds(Cl)
+                L5: Cds(Br)-R-Cds(Br)
+            L4: Cds(Cl/Br)2-R-Cds(Cl/Br)
+                L5: Cds(Cl)2-R-Cds(Cl)
+                L5: Cds(Br)2-R-Cds(Br)
+            L4: Cds(Cl/Br)2-R-Cds(Cl/Br)2
+                L5: Cds(Cl)2-R-Cds(Cl)2
+                L5: Cds(Br)2-R-Cds(Br)2
+        L3: Cd(Cl/Br)-R-CO
+            L4: Cd(Cl)-R-CO
+            L4: Cd(Br)-R-CO
+        L3: Cs(Cl/Br)3-R-CO
+            L4: Cs(Cl)3-R-CO
+            L4: Cs(Br)3-R-CO
+        L3: Cs(Cl/Br)2-R-CO
+            L4: Cs(Cl)2-R-CO
+            L4: Cs(Br)2-R-CO
+        L3: Cs(Cl/Br)-R-CO
+            L4: Cs(Cl)-R-CO
+            L4: Cs(Br)-R-CO
     L2: int14_gauche
         L3: CsCs
             L4: CsCs-P
