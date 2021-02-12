@@ -1,0 +1,34 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 5
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - name: Add conda to system path
+      run: |
+        # $CONDA is an environment variable pointing to the root of the miniconda directory
+        echo $CONDA/bin >> $GITHUB_PATH
+    - name: Install dependencies and run unittests
+      run: |
+        cd ..
+        git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
+        cd RMG-Py
+        conda env create -q -f environment.yml
+        source activate rmg_env
+        conda list
+        git clone -b arkanepy3 https://github.com/mjohnson541/Q2DTor.git external/Q2DTor
+        make
+        make test-unittests
+        make test-functional
+        make test-database
+        
