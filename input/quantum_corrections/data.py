@@ -349,6 +349,12 @@ atom_energies = {
         'O': -75.07376202690303 + SOC['O'], 'F': -99.7444082658827 + SOC['F'], 'C': -37.84490366025854 + SOC['C'], 
         'H': -0.5021353627976693 + SOC['H'], 'Br': -2574.1735832901036 + SOC['Br'], 'N': -54.589540067059446 + SOC['N']
     },
+    # Calculated atomic energies (unfitted)
+    "LevelOfTheory(method='wb97xd3',basis='def2tzvpd',software='qcore')": {
+        'I': -297.74853421527695+ SOC['I'], 'Cl': -460.14722048563584 + SOC['Cl'], 'S': -398.1085816290268 + SOC['S'], 
+        'O': -75.07376202690261 + SOC['O'], 'F': -99.74440826588263 + SOC['F'], 'C': -37.844903660258545 + SOC['C'], 
+        'H': -0.5021353627976692 + SOC['H'], 'Br': 2574.1735832901054 + SOC['Br'], 'N': -54.58954006705939 + SOC['N']
+    },
 
     # Calculated atomic energies (unfitted)
     "LevelOfTheory(method='mrci+davidson',basis='augccpv(t+d)z',software='molpro')": {
