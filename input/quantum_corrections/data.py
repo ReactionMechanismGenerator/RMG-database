@@ -351,11 +351,16 @@ atom_energies = {
     },
     # Calculated atomic energies (unfitted)
     "LevelOfTheory(method='wb97xd3',basis='def2tzvpd',software='qcore')": {
-        'I': -297.74853421527695+ SOC['I'], 'Cl': -460.14722048563584 + SOC['Cl'], 'S': -398.1085816290268 + SOC['S'], 
-        'O': -75.07376202690261 + SOC['O'], 'F': -99.74440826588263 + SOC['F'], 'C': -37.844903660258545 + SOC['C'], 
-        'H': -0.5021353627976692 + SOC['H'], 'Br': -2574.1735832901054 + SOC['Br'], 'N': -54.58954006705939 + SOC['N']
+        'I': -297.7486309834446+ SOC['I'], 'Cl': -460.1477879797172 + SOC['Cl'], 'S': -398.10906378357134 + SOC['S'], 
+        'O': -75.07434684286616 + SOC['O'], 'F': -99.74515330281706 + SOC['F'], 'C': -37.84495607248942 + SOC['C'], 
+        'H': -0.5021353627976706 + SOC['H'], 'Br': -2574.173977771674 + SOC['Br'], 'N': -54.58958640334346 + SOC['N']
     },
-
+    # Calculated atomic energies (unfitted)
+    "LevelOfTheory(method='wb97xd3',basis='def2tzvppd',software='qcore')": {
+        'I': -297.74863098344457+ SOC['I'], 'Cl': -460.14782377367993 + SOC['Cl'], 'S': -398.1091076097875 + SOC['S'], 
+        'O': -75.07434684286594 + SOC['O'], 'F': -99.74515330281704 + SOC['F'], 'C': -37.8449560724894 + SOC['C'], 
+        'H': -0.5021353627976823 + SOC['H'], 'Br': -2574.173977771675 + SOC['Br'], 'N': -54.58958640334342 + SOC['N']
+    },
     # Calculated atomic energies (unfitted)
     "LevelOfTheory(method='mrci+davidson',basis='augccpv(t+d)z',software='molpro')": {
         'H': -0.49982118 + SOC['H'], 'C': -37.78321274 + SOC['C'], 'N': -54.51729444 + SOC['N'],
@@ -554,6 +559,8 @@ freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='wb97xd',basis='6311++g(d,p)',software='gaussian')": 0.988,  # [4]
              "LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian')": 0.988,  # [4]
              "LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qcore')": 0.988,  # taken from above
+             "LevelOfTheory(method='wb97xd3',basis='def2tzvpd',software='qcore')":0.9796 * 1.014, #https://pubs.acs.org/doi/pdf/10.1021/jp508422u
+             "LevelOfTheory(method='wb97xd3',basis='def2tzvppd',software='qcore')": 0.9782 * 1.014, #https://pubs.acs.org/doi/pdf/10.1021/jp508422u
              "LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian')": 0.986,  # [4]
              "LevelOfTheory(method='wb97mv',basis='def2tzvpd')": 1.002,  # [4]
              "LevelOfTheory(method='apfd',basis='def2tzvp')": 0.993,  # [4]
