@@ -24,7 +24,7 @@ reactantNum=2
 productNum=2
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
     ['CHANGE_BOND', '*2', -1, '*3'],
     ['FORM_BOND', '*3', 1, '*4'],
     ['BREAK_BOND', '*4', 1, '*5'],
