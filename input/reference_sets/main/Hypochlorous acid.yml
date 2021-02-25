@@ -33,6 +33,35 @@ calculated_data:
       - O
       - Cl
       - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -15.672047835149609
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0792132461
+          - 0.1176587979
+          - -0.0
+        - - -0.5890586248
+          - -0.0084648817
+          - 0.0
+        - - 1.3802906534
+          - -0.7973673944
+          - 0.0
+      isotopes:
+      - 16
+      - 35
+      - 1
+      symbols:
+      - O
+      - Cl
+      - H
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
