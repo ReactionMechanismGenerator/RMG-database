@@ -2333,30 +2333,13 @@ entry(
 
 entry(
     index = 82,
-    label = "(NR2CR3)*",
+    label = "(N=[O,N]R)*",
     group =
 """
-1 X  u0 p0 c0
-2 N  u0 p1 c0 {3,S} {4,S} {5,S}
-3 Cs u0 p0 c0 {2,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-""",
-    thermo=u'(NR3)*',
-    longDesc=u"""Do we have data for this?""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 83,
-    label = "(NR2)*",
-    group =
-"""
-1 X   u0
-2 N   u0 {3,D} {4,S}
-3 R!H u0 {2,D}
-4 R   u0 {2,S}
+1 X     u0
+2 N     u0 {3,D} {4,S}
+3 [N,O] u0 {2,D}
+4 R     u0 {2,S}
 """,
     thermo=u'(NRO)*',
     longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?""",
@@ -2365,7 +2348,7 @@ entry(
 )
 
 entry(
-    index = 84,
+    index = 83,
     label = "N-*RN=*",
     group =
 """
@@ -2395,7 +2378,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 84,
     label = "(CRCR)*",
     group =
 """
@@ -2426,7 +2409,7 @@ entry(
 )
 
 entry(
-    index = 86,
+    index = 85,
     label = "C-*R2N=*",
     group =
 """
@@ -2457,7 +2440,7 @@ entry(
 )
 
 entry(
-    index = 87,
+    index = 86,
     label = "C-*R2N-*R",
     group =
 """
@@ -2489,7 +2472,7 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 87,
     label = "C=*(=C)",
     group =
 """
@@ -2522,7 +2505,7 @@ not two, it is not a child of the C=*R2 node
 )
 
 entry(
-    index = 89,
+    index = 88,
     label = "C-*R2O-*",
     group =
 """
@@ -2633,10 +2616,9 @@ L1: R*
             L4: (CRN)*
             L4: (CRCR)*
         L3: (NR3)*
-            L4: (NR2CR3)*
             L4: (NR2NR2)*
             L4: (NR2OR)*
-        L3: (NR2)*
+        L3: (N=[O,N]R)*
             L4: (NRO)*
             L4: (NRNR)*
         L3: (OR2)*
