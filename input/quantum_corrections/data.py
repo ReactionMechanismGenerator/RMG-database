@@ -97,6 +97,17 @@ atom_energies = {
         'Br': -2574.175384284091
     },
 
+    "LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem')": {
+        'H': -0.49516021903680546,
+        'C': -37.833878658169624,
+        'N': -54.541699219144505,
+        'O': -75.01524900146931,
+        'F': -99.65948092488345,
+        'S': -397.97912317555034,
+        'Cl': -459.9963616463421,
+        'Br': -2575.1192984500663
+    },
+
     # cbs-qb3 and cbs-qb3-paraskevas have the same corrections
     "LevelOfTheory(method='cbsqb3',software='gaussian')": {
         'H': -0.499818 + SOC['H'], 'N': -54.520543 + SOC['N'], 'O': -74.987624 + SOC['O'],
