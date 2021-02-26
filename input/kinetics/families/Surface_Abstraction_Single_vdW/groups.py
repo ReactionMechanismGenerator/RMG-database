@@ -16,9 +16,7 @@ so k should be in (m2/mol/s).
 
 """
 
-template(reactants=["AdsorbateVdW1","Adsorbate1"], products=["AdsorbateVdW2","Adsorbate2"], ownReverse=False)
-
-reverse = "Surface_Reverse_Abstraction_Single_vdW"  # maybe needs a better name?
+template(reactants=["Donating", "Abstracting"], products=["Donating", "Abstracting"], ownReverse=True)
 
 reactantNum=2
 productNum=2
@@ -32,7 +30,7 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "AdsorbateVdW1",
+    label = "Donating",
     group =
 """
 multiplicity [1]
@@ -40,12 +38,14 @@ multiplicity [1]
 2 *2 R  ux px cx {3,S}
 3 *3 R  ux px cx {2,S}
 """,
+    # Note: shuold we restrict it so atoms *2 and *3 have no charge?
+    # We don't want to end up with charged products....
     kinetics = None,
 )
 
 entry(
     index = 2,
-    label = "Adsorbate1",
+    label = "Abstracting",
     group =
 """
 1 *5 X u0 p0 c0 {2,S}
@@ -587,7 +587,7 @@ entry(
 
 tree(
 """
-L1: AdsorbateVdW1
+L1: Donating
     L2: H-H
     L2: O-R
         L3: O-H
@@ -614,7 +614,7 @@ L1: AdsorbateVdW1
         L3: N-O
         L3: N-C
 
-L1: Adsorbate1
+L1: Abstracting
     L2: *O         
         L3: *O-H
         L3: *O-O
