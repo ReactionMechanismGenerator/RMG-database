@@ -95,6 +95,7 @@ surface = {
     'Surface_Bidentate_Dissociation',
     'Surface_DoubleBond_to_Bidentate', 
     'Surface_vdW_to_Bidentate',
+    'Surface_Abstraction_Single_vdW',
 }
 
 # Surface chemistry families that are under development and not yet working well.
