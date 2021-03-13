@@ -28,6 +28,30 @@ calculated_data:
       symbols:
       - O
       - O
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -2.168536426229641
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.59669645
+        - - 0.0
+          - 0.0
+          - -0.59669645
+      isotopes:
+      - 16
+      - 16
+      symbols:
+      - O
+      - O
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
@@ -82,6 +106,6 @@ reference_data:
     zpe:
       class: ScalarQuantity
       units: kJ/mol
-      value: 9.419155
+      value: 9.419155000000002
 smiles: '[O][O]'
 symmetry_number: 2.0

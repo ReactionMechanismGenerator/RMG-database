@@ -28,6 +28,30 @@ calculated_data:
       symbols:
       - S
       - S
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 31.023529912363973
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.93847879
+        - - 0.0
+          - 0.0
+          - -0.93847879
+      isotopes:
+      - 32
+      - 32
+      symbols:
+      - S
+      - S
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
@@ -74,7 +98,7 @@ reference_data:
     zpe:
       class: ScalarQuantity
       units: kJ/mol
-      value: 4.33274
+      value: 4.332740000000001
   NIST Chemistry WebBook:
     class: ReferenceDataEntry
     thermo_data:
