@@ -531,3 +531,45 @@ where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
+entry(
+    index = 15,
+    label = "C3H3O <=> CO + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'s^-1'), n=0, Ea=(27000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2CHCO <=> C2H3 + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH2CHCO <=> C2H3 + CO
+""",
+)
+
+entry(
+    index = 16,
+    label = "C4H5O <=> CO + C3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'s^-1'), n=0, Ea=(30000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3CHCHCO <=> CH3CHCH + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3CHCHCO <=> CH3CHCH + CO
+""",
+)
+
+entry(
+    index = 17,
+    label = "C7H5O <=> CO + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.27e+14,'s^-1'), n=0, Ea=(29013,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C6H5CO <=> C6H5 + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C6H5CO <=> C6H5 + CO
+""",
+)
+

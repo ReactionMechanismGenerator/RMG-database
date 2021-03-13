@@ -165,3 +165,31 @@ Converted to training reaction from rate rule: CO;CsO_H
 """,
 )
 
+entry(
+    index = 8,
+    label = "C4H6O <=> CO + C3H6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.9e+14,'s^-1'), n=0, Ea=(69000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3CHCHCHO <=> C3H6 + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3CHCHCHO <=> C3H6 + CO
+""",
+)
+
+entry(
+    index = 9,
+    label = "C4H5O <=> CO + C3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'s^-1'), n=0, Ea=(25000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2CHCHCHO <=> aC3H5 + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH2CHCHCHO <=> aC3H5 + CO
+""",
+)
+

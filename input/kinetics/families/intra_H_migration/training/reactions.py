@@ -8980,3 +8980,59 @@ Calculated by Jim at the CBS-QB3 level
 """,
 )
 
+entry(
+    index = 432,
+    label = "C3H5-6 <=> C3H5-7",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(5e+51,'s^-1'), n=-13.02, Ea=(73300,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is aC3H5 <=> CH3CHCH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: aC3H5 <=> CH3CHCH
+""",
+)
+
+entry(
+    index = 433,
+    label = "C3H5-4 <=> C3H5-8",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.5e+48,'s^-1'), n=-12.71, Ea=(53900,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3CCH2 <=> CH3CHCH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3CCH2 <=> CH3CHCH
+""",
+)
+
+entry(
+    index = 434,
+    label = "C4H3 <=> C4H3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.1e+43,'s^-1'), n=-9.49, Ea=(53000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is nC4H3 <=> iC4H3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: nC4H3 <=> iC4H3
+""",
+)
+
+entry(
+    index = 435,
+    label = "C4H5-3 <=> C4H5-9",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.5e+67,'s^-1'), n=-16.89, Ea=(59100,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C4H5-2 <=> iC4H5""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C4H5-2 <=> iC4H5
+""",
+)
+

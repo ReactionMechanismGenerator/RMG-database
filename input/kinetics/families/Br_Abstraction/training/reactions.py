@@ -296,3 +296,409 @@ Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + OCBr <=> CBr + [CH2]O
 """,
 )
+entry(
+    index = 24,
+    label = "H + Br2 <=> BrH + Br",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.28e+11,'cm^3/(mol*s)'), n=1, Ea=(440,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is H + BR2 <=> HBR + BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: H + BR2 <=> HBR + BR
+""",
+)
+
+entry(
+    index = 25,
+    label = "H + CH3Br-2 <=> BrH + CH3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.11e+13,'cm^3/(mol*s)'), n=0, Ea=(5840,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is H + CH3BR <=> HBR + CH3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: H + CH3BR <=> HBR + CH3
+""",
+)
+
+entry(
+    index = 26,
+    label = "CH3 + Br2 <=> CH3Br + Br",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.21e+13,'cm^3/(mol*s)'), n=0, Ea=(-390,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is BR2 + CH3 <=> BR + CH3BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: BR2 + CH3 <=> BR + CH3BR
+""",
+)
+
+entry(
+    index = 27,
+    label = "H + C2H3Br <=> BrH + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+14,'cm^3/(mol*s)'), n=0, Ea=(11950,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H3BR + H <=> C2H3 + HBR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H3BR + H <=> C2H3 + HBR
+""",
+)
+
+entry(
+    index = 28,
+    label = "C2H3-2 + Br2 <=> C2H3Br-2 + Br",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.4e+13,'cm^3/(mol*s)'), n=0, Ea=(-572,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is BR2 + C2H3 <=> BR + C2H3BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: BR2 + C2H3 <=> BR + C2H3BR
+""",
+)
+
+entry(
+    index = 29,
+    label = "H + C2H5Br <=> BrH + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(5000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is H + C2H5BR <=> HBR + C2H5""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: H + C2H5BR <=> HBR + C2H5
+""",
+)
+
+entry(
+    index = 30,
+    label = "C2H5-2 + Br2 <=> C2H5Br-2 + Br",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.57e+13,'cm^3/(mol*s)'), n=0, Ea=(-820,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is BR2 + C2H5 <=> BR + C2H5BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: BR2 + C2H5 <=> BR + C2H5BR
+""",
+)
+
+entry(
+    index = 31,
+    label = "H + CBrF3 <=> BrH + CF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+07,'cm^3/(mol*s)'), n=2.01, Ea=(3280,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is H + CF3BR <=> CF3 + HBR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: H + CF3BR <=> CF3 + HBR
+""",
+)
+
+entry(
+    index = 32,
+    label = "CF3-2 + Br2 <=> CBrF3-2 + Br",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.21e+12,'cm^3/(mol*s)'), n=0, Ea=(240,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is BR2 + CF3 <=> BR + CF3BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: BR2 + CF3 <=> BR + CF3BR
+""",
+)
+
+entry(
+    index = 33,
+    label = "CH3 + CBrF3 <=> CH3Br + CF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(277000,'cm^3/(mol*s)'), n=2.05, Ea=(7930,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3 + CF3BR <=> CH3BR + CF3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3 + CF3BR <=> CH3BR + CF3
+""",
+)
+
+entry(
+    index = 34,
+    label = "O + Br2 <=> BrO + Br",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.06e+13,'cm^3/(mol*s)'), n=0, Ea=(-80,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is O + BR2 <=> BRO + BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: O + BR2 <=> BRO + BR
+""",
+)
+
+entry(
+    index = 35,
+    label = "O + CBrF3 <=> BrO + CF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+12,'cm^3/(mol*s)'), n=0, Ea=(13510,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is O + CF3BR <=> BRO + CF3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: O + CF3BR <=> BRO + CF3
+""",
+)
+
+entry(
+    index = 36,
+    label = "O + CH3Br-2 <=> BrO + CH3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3BR + O <=> CH3 + BRO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3BR + O <=> CH3 + BRO
+""",
+)
+
+entry(
+    index = 37,
+    label = "H + BrO-2 <=> BrH + O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is H + BRO <=> HBR + O""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: H + BRO <=> HBR + O
+""",
+)
+
+entry(
+    index = 38,
+    label = "HO + CH3Br-2 <=> BrHO + CH3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3BR + OH <=> CH3 + BROH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3BR + OH <=> CH3 + BROH
+""",
+)
+
+entry(
+    index = 39,
+    label = "HO + Br2 <=> BrHO + Br",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.11e+15,'cm^3/(mol*s)'), n=-0.66, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is OH + BR2 <=> BROH + BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: OH + BR2 <=> BROH + BR
+""",
+)
+
+entry(
+    index = 40,
+    label = "H + BrHO-2 <=> BrH + HO-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is H + BROH <=> HBR + OH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: H + BROH <=> HBR + OH
+""",
+)
+
+entry(
+    index = 41,
+    label = "Br-2 + CH2Br <=> Br2-2 + CH2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+09,'cm^3/(mol*s)'), n=0, Ea=(10200,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is BR + CH2BR <=> BR2 + CH2""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: BR + CH2BR <=> BR2 + CH2
+""",
+)
+
+entry(
+    index = 42,
+    label = "CH2-2 + BrH-2 <=> CH2Br-2 + H-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(11000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2 + HBR <=> CH2BR + H""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH2 + HBR <=> CH2BR + H
+""",
+)
+
+entry(
+    index = 43,
+    label = "HO + CBrF3 <=> BrHO + CF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(18000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is OH + CF3BR <=> CF3 + BROH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: OH + CF3BR <=> CF3 + BROH
+""",
+)
+
+entry(
+    index = 44,
+    label = "HO + C2H3Br <=> BrHO + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(26000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H3BR + OH <=> C2H3 + BROH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H3BR + OH <=> C2H3 + BROH
+""",
+)
+
+entry(
+    index = 45,
+    label = "HO + C2H5Br <=> BrHO + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(15000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H5BR + OH <=> C2H5 + BROH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H5BR + OH <=> C2H5 + BROH
+""",
+)
+
+entry(
+    index = 46,
+    label = "CH3 + C2H5Br <=> CH3Br + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(6000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H5BR + CH3 <=> C2H5 + CH3BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H5BR + CH3 <=> C2H5 + CH3BR
+""",
+)
+
+entry(
+    index = 47,
+    label = "CH3 + C2H3Br <=> CH3Br + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(11000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H3BR + CH3 <=> C2H3 + CH3BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H3BR + CH3 <=> C2H3 + CH3BR
+""",
+)
+
+entry(
+    index = 48,
+    label = "CF3-2 + C2H5Br <=> CBrF3-2 + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(8000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H5BR + CF3 <=> C2H5 + CF3BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H5BR + CF3 <=> C2H5 + CF3BR
+""",
+)
+
+entry(
+    index = 49,
+    label = "CF3-2 + C2H3Br <=> CBrF3-2 + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H3BR + CF3 <=> C2H3 + CF3BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H3BR + CF3 <=> C2H3 + CF3BR
+""",
+)
+
+entry(
+    index = 50,
+    label = "O + C2H5Br <=> BrO + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(14000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H5BR + O <=> C2H5 + BRO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H5BR + O <=> C2H5 + BRO
+""",
+)
+
+entry(
+    index = 51,
+    label = "H + C3H2BrF3 <=> BrH + C3H2F3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+14,'cm^3/(mol*s)'), n=0, Ea=(11850,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is BTP + H <=> CF3CCH2 + HBR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: BTP + H <=> CF3CCH2 + HBR
+""",
+)
+
+entry(
+    index = 52,
+    label = "CF3-2 + C3H2BrF3 <=> CBrF3-2 + C3H2F3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(9500,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is BTP + CF3 <=> CF3CCH2 + CF3BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: BTP + CF3 <=> CF3CCH2 + CF3BR
+""",
+)
+

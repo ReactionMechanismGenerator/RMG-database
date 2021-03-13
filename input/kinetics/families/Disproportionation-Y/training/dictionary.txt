@@ -1,12 +1,12 @@
 CHF2-CH2_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
-3 *4 F u0 p3 c0 {1,S}
-4    F u0 p3 c0 {1,S}
-5    H u0 p0 c0 {1,S}
-6    H u0 p0 c0 {2,S}
-7    H u0 p0 c0 {2,S}
+1 *4 F u0 p3 c0 {3,S}
+2    F u0 p3 c0 {3,S}
+3 *2 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 *3 C u1 p0 c0 {3,S} {6,S} {7,S}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {4,S}
+7    H u0 p0 c0 {4,S}
 
 H_r1
 multiplicity 2
@@ -40,11 +40,11 @@ C#C_p23
 
 CF2CH_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,D} {3,S} {4,S}
-2 *3 C u1 p0 c0 {1,D} {5,S}
-3 *4 F u0 p3 c0 {1,S}
-4    F u0 p3 c0 {1,S}
-5    H u0 p0 c0 {2,S}
+1 *4 F u0 p3 c0 {3,S}
+2    F u0 p3 c0 {3,S}
+3 *2 C u0 p0 c0 {1,S} {2,S} {4,D}
+4 *3 C u1 p0 c0 {3,D} {5,S}
+5    H u0 p0 c0 {4,S}
 
 C#CF_p23
 1    F u0 p3 c0 {3,S}
@@ -54,13 +54,13 @@ C#CF_p23
 
 CH2F-CHF_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
-3 *4 F u0 p3 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-5    H u0 p0 c0 {1,S}
-6    F u0 p3 c0 {2,S}
-7    H u0 p0 c0 {2,S}
+1 *4 F u0 p3 c0 {3,S}
+2    F u0 p3 c0 {4,S}
+3 *2 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 *3 C u1 p0 c0 {2,S} {3,S} {7,S}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {3,S}
+7    H u0 p0 c0 {4,S}
 
 CH2F-CH2_r423
 multiplicity 2
@@ -82,22 +82,22 @@ CDC_p23
 
 CHFCF[Z]_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,D} {3,S} {4,S}
-2 *3 C u1 p0 c0 {1,D} {5,S}
-3 *4 F u0 p3 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-5    F u0 p3 c0 {2,S}
+1 *4 F u0 p3 c0 {3,S}
+2    F u0 p3 c0 {4,S}
+3 *2 C u0 p0 c0 {1,S} {4,D} {5,S}
+4 *3 C u1 p0 c0 {2,S} {3,D}
+5    H u0 p0 c0 {3,S}
 
 CHFCCF3_r423
 multiplicity 2
-1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-2 *2 C u0 p0 c0 {3,D} {7,S} {8,S}
-3 *3 C u1 p0 c0 {1,S} {2,D}
-4    F u0 p3 c0 {1,S}
-5    F u0 p3 c0 {1,S}
-6    F u0 p3 c0 {1,S}
-7 *4 F u0 p3 c0 {2,S}
-8    H u0 p0 c0 {2,S}
+1    F u0 p3 c0 {5,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {5,S}
+4 *4 F u0 p3 c0 {6,S}
+5    C u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+6 *2 C u0 p0 c0 {4,S} {7,D} {8,S}
+7 *3 C u1 p0 c0 {5,S} {6,D}
+8    H u0 p0 c0 {6,S}
 
 C#CC(F)(F)F_p23
 1    F u0 p3 c0 {4,S}
@@ -110,13 +110,13 @@ C#CC(F)(F)F_p23
 
 CF3-CHF_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
-3 *4 F u0 p3 c0 {1,S}
-4    F u0 p3 c0 {1,S}
-5    F u0 p3 c0 {1,S}
-6    F u0 p3 c0 {2,S}
-7    H u0 p0 c0 {2,S}
+1 *4 F u0 p3 c0 {5,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {5,S}
+4    F u0 p3 c0 {6,S}
+5 *2 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 *3 C u1 p0 c0 {4,S} {5,S} {7,S}
+7    H u0 p0 c0 {6,S}
 
 FCDC(F)F_p23
 1    F u0 p3 c0 {4,S}
@@ -156,39 +156,39 @@ FC#CF_p23
 
 CH2F-CF2_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
-3 *4 F u0 p3 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-5    H u0 p0 c0 {1,S}
-6    F u0 p3 c0 {2,S}
-7    F u0 p3 c0 {2,S}
+1 *4 F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {5,S}
+4 *2 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 *3 C u1 p0 c0 {2,S} {3,S} {4,S}
+6    H u0 p0 c0 {4,S}
+7    H u0 p0 c0 {4,S}
 
 CDC(F)F_p23
-1 *2 C u0 p0 c0 {2,D} {3,S} {4,S}
-2 *3 C u0 p0 c0 {1,D} {5,S} {6,S}
-3    F u0 p3 c0 {1,S}
-4    F u0 p3 c0 {1,S}
-5    H u0 p0 c0 {2,S}
-6    H u0 p0 c0 {2,S}
+1    F u0 p3 c0 {3,S}
+2    F u0 p3 c0 {3,S}
+3 *2 C u0 p0 c0 {1,S} {2,S} {4,D}
+4 *3 C u0 p0 c0 {3,D} {5,S} {6,S}
+5    H u0 p0 c0 {4,S}
+6    H u0 p0 c0 {4,S}
 
 CHF2-CHF_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
-3 *4 F u0 p3 c0 {1,S}
-4    F u0 p3 c0 {1,S}
-5    H u0 p0 c0 {1,S}
-6    F u0 p3 c0 {2,S}
-7    H u0 p0 c0 {2,S}
+1 *4 F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3    F u0 p3 c0 {5,S}
+4 *2 C u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 *3 C u1 p0 c0 {3,S} {4,S} {7,S}
+6    H u0 p0 c0 {4,S}
+7    H u0 p0 c0 {5,S}
 
 FCDCF_p23
-1 *2 C u0 p0 c0 {2,D} {3,S} {5,S}
-2 *3 C u0 p0 c0 {1,D} {4,S} {6,S}
-3    F u0 p3 c0 {1,S}
-4    F u0 p3 c0 {2,S}
-5    H u0 p0 c0 {1,S}
-6    H u0 p0 c0 {2,S}
+1    F u0 p3 c0 {3,S}
+2    F u0 p3 c0 {4,S}
+3 *2 C u0 p0 c0 {1,S} {4,D} {5,S}
+4 *3 C u0 p0 c0 {2,S} {3,D} {6,S}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {4,S}
 
 CF3-CF2_r423
 multiplicity 2
@@ -210,13 +210,13 @@ FC(F)DC(F)F_p23
 
 CHF2-CF2_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
-3 *4 F u0 p3 c0 {1,S}
-4    F u0 p3 c0 {1,S}
-5    H u0 p0 c0 {1,S}
-6    F u0 p3 c0 {2,S}
-7    F u0 p3 c0 {2,S}
+1 *4 F u0 p3 c0 {5,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {6,S}
+4    F u0 p3 c0 {6,S}
+5 *2 C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 *3 C u1 p0 c0 {3,S} {4,S} {5,S}
+7    H u0 p0 c0 {5,S}
 
 F_r1
 multiplicity 2
@@ -228,22 +228,62 @@ FF_p41
 
 CH-CFCF3_r423
 multiplicity 2
-1    C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 *3 C u1 p0 c0 {2,D} {8,S}
-4    F u0 p3 c0 {1,S}
-5    F u0 p3 c0 {1,S}
-6    F u0 p3 c0 {1,S}
-7 *4 F u0 p3 c0 {2,S}
-8    H u0 p0 c0 {3,S}
+1    F u0 p3 c0 {5,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {5,S}
+4 *4 F u0 p3 c0 {6,S}
+5    C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 *2 C u0 p0 c0 {4,S} {5,S} {7,D}
+7 *3 C u1 p0 c0 {6,D} {8,S}
+8    H u0 p0 c0 {7,S}
 
 CF3-CH2_r423
 multiplicity 2
-1 *2 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
-3 *4 F u0 p3 c0 {1,S}
-4    F u0 p3 c0 {1,S}
-5    F u0 p3 c0 {1,S}
-6    H u0 p0 c0 {2,S}
-7    H u0 p0 c0 {2,S}
+1 *4 F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3    F u0 p3 c0 {4,S}
+4 *2 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 *3 C u1 p0 c0 {4,S} {6,S} {7,S}
+6    H u0 p0 c0 {5,S}
+7    H u0 p0 c0 {5,S}
+
+C2H3F
+1    F u0 p3 c0 {2,S}
+2 *2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 *3 C u0 p0 c0 {2,D} {5,S} {6,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {3,S}
+
+C2H2F2
+1    F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3 *2 C u0 p0 c0 {4,D} {5,S} {6,S}
+4 *3 C u0 p0 c0 {1,S} {2,S} {3,D}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {3,S}
+
+C2HF3
+1    F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3    F u0 p3 c0 {5,S}
+4 *2 C u0 p0 c0 {1,S} {2,S} {5,D}
+5 *3 C u0 p0 c0 {3,S} {4,D} {6,S}
+6    H u0 p0 c0 {5,S}
+
+C2HF
+1    F u0 p3 c0 {2,S}
+2 *2 C u0 p0 c0 {1,S} {3,T}
+3 *3 C u0 p0 c0 {2,T} {4,S}
+4    H u0 p0 c0 {3,S}
+
+CO
+1 *3 O u0 p1 c+1 {2,T}
+2 *2 C u0 p1 c-1 {1,T}
+
+CFO
+multiplicity 2
+1 *4 F u0 p3 c0 {3,S}
+2 *3 O u0 p2 c0 {3,D}
+3 *2 C u1 p0 c0 {1,S} {2,D}
 

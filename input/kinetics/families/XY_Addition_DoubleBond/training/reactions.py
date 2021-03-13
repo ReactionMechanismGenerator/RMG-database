@@ -79,3 +79,143 @@ entry(
     shortDesc = """From NIST CH2F2 model""",
 )
 
+entry(
+    index = 8,
+    label = "C2H5F <=> C2H4 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.63e+13,'s^-1'), n=0, Ea=(59900,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3-CH2F <=> C2H4 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3-CH2F <=> C2H4 + HF
+""",
+)
+
+entry(
+    index = 9,
+    label = "C2H4F2 <=> CH2CHF + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.94e+13,'s^-1'), n=0, Ea=(61900,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3-CHF2 <=> CH2:CHF + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3-CHF2 <=> CH2:CHF + HF
+""",
+)
+
+entry(
+    index = 10,
+    label = "C2H3F3 <=> CH2CF2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'s^-1'), n=0, Ea=(68700,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3-CF3 <=> CH2:CF2 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH3-CF3 <=> CH2:CF2 + HF
+""",
+)
+
+entry(
+    index = 11,
+    label = "C2H4F2-2 <=> C2H3F + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.5e+13,'s^-1'), n=0, Ea=(62900,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2F-CH2F <=> CH2:CHF + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH2F-CH2F <=> CH2:CHF + HF
+""",
+)
+
+entry(
+    index = 12,
+    label = "C2H3F3-2 <=> CHFCHF[Z] + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.26e+14,'s^-1'), n=0, Ea=(69100,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2F-CHF2 <=> CHF:CHF[Z] + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH2F-CHF2 <=> CHF:CHF[Z] + HF
+""",
+)
+
+entry(
+    index = 13,
+    label = "C2H3F3-3 <=> C2H2F2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'s^-1'), n=0, Ea=(65400,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2F-CHF2 <=> CH2:CF2 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH2F-CHF2 <=> CH2:CF2 + HF
+""",
+)
+
+entry(
+    index = 14,
+    label = "C2H2F4 <=> CHFCF2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.63e+13,'s^-1'), n=0, Ea=(70700,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2F-CF3 <=> CHF:CF2 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CH2F-CF3 <=> CHF:CF2 + HF
+""",
+)
+
+entry(
+    index = 15,
+    label = "C2H2F4-2 <=> C2HF3 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'s^-1'), n=0, Ea=(69400,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CHF2-CHF2 <=> CHF:CF2 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CHF2-CHF2 <=> CHF:CF2 + HF
+""",
+)
+
+entry(
+    index = 16,
+    label = "C2HF5 <=> CF2CF2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4e+13,'s^-1'), n=0, Ea=(71600,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CHF2-CF3 <=> CF2:CF2 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CHF2-CF3 <=> CF2:CF2 + HF
+""",
+)
+
+entry(
+    index = 17,
+    label = "C2H5Br <=> C2H4 + BrH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.7e+13,'s^-1'), n=0, Ea=(53000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H5BR <=> C2H4 + HBR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: C2H5BR <=> C2H4 + HBR
+""",
+)
+
