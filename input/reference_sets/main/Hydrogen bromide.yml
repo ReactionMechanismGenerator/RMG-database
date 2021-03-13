@@ -27,6 +27,30 @@ calculated_data:
       symbols:
       - Br
       - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -11.123304136298097
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0393530611
+        - - 0.0
+          - 0.0
+          - -1.3773571389
+      isotopes:
+      - 79
+      - 1
+      symbols:
+      - Br
+      - H
 charge: 0
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
@@ -62,7 +86,7 @@ reference_data:
       uncertainty: 0.2
       uncertainty_type: +|-
       units: kJ/mol
-      value: 362.4
+      value: 362.40000000000003
     class: ReferenceDataEntry
     xyz_dict:
       coords:
