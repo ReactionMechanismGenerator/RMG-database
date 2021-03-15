@@ -46,6 +46,28 @@ entry(
 )
 
 entry(
+    index = 10123,
+    label = "Cl_R",
+    group = 
+"""
+1 * Cl u1
+2 * R u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10249,
+    label = "Br_R",
+    group = 
+"""
+1 * Br u1
+2 * R u1
+""",
+    kinetics = None,
+)
+
+entry(
     index = 1000,
     label = "F_H",
     group = 
@@ -57,11 +79,55 @@ entry(
 )
 
 entry(
+    index = 10011,
+    label = "Cl_H",
+    group = 
+"""
+1 * H u1
+2 * Cl u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10012,
+    label = "Br_H",
+    group = 
+"""
+1 * H u1
+2 * Br u1
+""",
+    kinetics = None,
+)
+
+entry(
     index = 1001,
     label = "F_Cs",
     group = 
 """
 1 * F u1
+2 * Cs u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1001111,
+    label = "Cl_Cs",
+    group = 
+"""
+1 * Cl u1
+2 * Cs u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1001112,
+    label = "Br_Cs",
+    group = 
+"""
+1 * Br u1
 2 * Cs u1
 """,
     kinetics = None,
@@ -433,6 +499,30 @@ entry(
 )
 
 entry(
+    index = 1002462,
+    label = "H_CsCl",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S}
+3   Cl1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 100443,
+    label = "H_CsBr",
+    group = 
+"""
+1 * H u1
+2 * Cs u1 {3,S}
+3   Br1s u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 10050,
     label = "H_CdF",
     group = 
@@ -440,6 +530,32 @@ entry(
 1 * H u1
 2 * Cd u1 {3,S} {4,D}
 3   F1s u0 {2,S}
+4   R u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10051,
+    label = "H_CdCl",
+    group = 
+"""
+1 * H u1
+2 * Cd u1 {3,S} {4,D}
+3   Br1s u0 {2,S}
+4   R u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10052,
+    label = "H_CdBr",
+    group = 
+"""
+1 * H u1
+2 * Cd u1 {3,S} {4,D}
+3   Cl1s u0 {2,S}
 4   R u0 {2,D}
 """,
     kinetics = None,
@@ -473,13 +589,103 @@ entry(
 )
 
 entry(
+    index = 100800,
+    label = "F_C",
+    group = 
+"""
+1 * F  u1
+2 * C  u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1008001213,
+    label = "Cl_C",
+    group = 
+"""
+1 * Cl  u1
+2 * C  u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 100803462,
+    label = "Br_C",
+    group = 
+"""
+1 * Br  u1
+2 * C  u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 100801,
+    label = "F_Cd",
+    group = 
+"""
+1 * F  u1
+2 * Cd  u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 100802,
+    label = "Cl_Cd",
+    group = 
+"""
+1 * Cl  u1
+2 * Cd  u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1008033,
+    label = "Br_Cd",
+    group = 
+"""
+1 * Br  u1
+2 * Cd  u1
+""",
+    kinetics = None,
+)
+
+entry(
     index = 1008,
     label = "F_CO",
     group = 
 """
 1 * F  u1
-2 * C  u1 {3,D}
-3   O  u0 {2,D}
+2 * CO  u1 {3,D}
+3   O2d  u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 123008,
+    label = "Cl_CO",
+    group = 
+"""
+1 * Cl  u1
+2 * CO  u1 {3,D}
+3   O2d  u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 134008,
+    label = "Br_CO",
+    group = 
+"""
+1 * Br  u1
+2 * CO  u1 {3,D}
+3   O2d  u0 {2,D}
 """,
     kinetics = None,
 )
@@ -490,8 +696,8 @@ entry(
     group = 
 """
 1 * F  u1
-2 * C  u1 {3,D} {4,S}
-3   O  u0 {2,D}
+2 * CO  u1 {3,D} {4,S}
+3   O2d  u0 {2,D}
 4   F1s u0 {2,S}
 """,
     kinetics = None,
@@ -3011,24 +3217,42 @@ tree(
 L1: Root
     L2: F_R
         L3: F_H
-        L3: F_CO
-            L4: F_CO/F
-        L3: F_Cs
-            L4: F_CsF
-                L5: F_CsF/Cs
-                    L6: F_CsF/CsF
-                        L7: F_CsF/CsF2
-                            L8: F_CsF/CsF3
-                L5: F_CsF2
-                    L6: F_CsF2/CsF
-                        L7: F_CsF2/CsF2
-                            L8: F_CsF2/CsF3
-                    L6: F_CsF3
-                        L7: F_CsF3/CsF
-                            L8: F_CsF3/CsF2
-                                L9: F_CsF3/CsF3                       
+        L3: F_C
+            L4: F_Cd
+            L4: F_CO
+                L5: F_CO/F
+            L4: F_Cs
+                L5: F_CsF
+                    L6: F_CsF/Cs
+                        L7: F_CsF/CsF
+                            L8: F_CsF/CsF2
+                                L9: F_CsF/CsF3
+                    L6: F_CsF2
+                        L7: F_CsF2/CsF
+                            L8: F_CsF2/CsF2
+                                L9: F_CsF2/CsF3
+                        L7: F_CsF3
+                            L8: F_CsF3/CsF
+                                L9: F_CsF3/CsF2
+                                    L10: F_CsF3/CsF3
+    L2: Cl_R
+        L3: Cl_H
+        L3: Cl_C
+            L4: Cl_Cd
+            L4: Cl_CO
+            L4: Cl_Cs
+    L2: Br_R   
+        L3: Br_H
+        L3: Br_C
+            L4: Br_Cd
+            L4: Br_CO
+            L4: Br_Cs
     L2: Root_1R->H
         L3: H_CdF
+        L3: H_CdCl
+        L3: H_CdBr
+        L3: H_CsCl
+        L3: H_CsBr
         L3: H_CsF
             L4: H_CsF/Cs
                 L5: H_CsF/CsF

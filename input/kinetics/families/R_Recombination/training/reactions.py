@@ -4156,14 +4156,14 @@ entry(
     shortDesc = """From NIST CH2F2 model""",
 )
 
-entry(
-    index = 170,
-    label = "CF + CF <=> C2F2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 5,
-    shortDesc = """From NIST CH2F2 model""",
-)
+# entry(
+#     index = 170,
+#     label = "CF + CF <=> C2F2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     rank = 5,
+#     shortDesc = """From NIST CH2F2 model""",
+# )
 
 entry(
     index = 171,
