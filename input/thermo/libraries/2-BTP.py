@@ -3315,38 +3315,38 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 """,
 )
 
-entry(
-    index = 100,
-    label = "C3H3",
-    molecule = 
-"""
-multiplicity 2
-1 C u0 p0 c0 {2,D} {4,S} {5,S}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u1 p0 c0 {2,D} {6,S}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {3,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[1.35111,0.0327411,-4.73827e-05,3.7631e-08,-1.18541e-11,40105.8,15.2059], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[7.14222,0.00761902,-2.6746e-06,4.24915e-10,-2.51475e-14,38908.7,-12.5848], Tmin=(1000,'K'), Tmax=(6000,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
-        E0 = (331.804,'kJ/mol'),
-        Cp0 = (33.2579,'J/mol/K'),
-        CpInf = (133.032,'J/mol/K'),
-    ),
-    shortDesc = """T 5/97""",
-    longDesc = 
-"""
-T 5/97.
-[CH]=C=C
-_imported from 2-BTP/2-BTP_thermo.txt.
-""",
-)
+# entry(
+#     index = 100,
+#     label = "C3H3",
+#     molecule = 
+# """
+# multiplicity 2
+# 1 C u0 p0 c0 {2,D} {4,S} {5,S}
+# 2 C u0 p0 c0 {1,D} {3,D}
+# 3 C u1 p0 c0 {2,D} {6,S}
+# 4 H u0 p0 c0 {1,S}
+# 5 H u0 p0 c0 {1,S}
+# 6 H u0 p0 c0 {3,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[1.35111,0.0327411,-4.73827e-05,3.7631e-08,-1.18541e-11,40105.8,15.2059], Tmin=(200,'K'), Tmax=(1000,'K')),
+#             NASAPolynomial(coeffs=[7.14222,0.00761902,-2.6746e-06,4.24915e-10,-2.51475e-14,38908.7,-12.5848], Tmin=(1000,'K'), Tmax=(6000,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (6000,'K'),
+#         E0 = (331.804,'kJ/mol'),
+#         Cp0 = (33.2579,'J/mol/K'),
+#         CpInf = (133.032,'J/mol/K'),
+#     ),
+#     shortDesc = """T 5/97""",
+#     longDesc = 
+# """
+# T 5/97.
+# [CH]=C=C
+# _imported from 2-BTP/2-BTP_thermo.txt.
+# """,
+# )
 
 entry(
     index = 101,
@@ -4006,42 +4006,42 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 """,
 )
 
-entry(
-    index = 119,
-    label = "C5H6",
-    molecule = 
-"""
-1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
-2  C u0 p0 c0 {1,S} {4,D} {8,S}
-3  C u0 p0 c0 {1,S} {5,D} {9,S}
-4  C u0 p0 c0 {2,D} {5,S} {10,S}
-5  C u0 p0 c0 {3,D} {4,S} {11,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.86109,0.014804,7.21089e-05,-1.13381e-07,4.869e-11,14801.8,21.3535], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[9.97578,0.0189055,-6.84115e-06,1.10993e-09,-6.66802e-14,11081.7,-32.2095], Tmin=(1000,'K'), Tmax=(6000,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
-        E0 = (121.584,'kJ/mol'),
-        Cp0 = (33.2579,'J/mol/K'),
-        CpInf = (257.749,'J/mol/K'),
-    ),
-    shortDesc = """T 1/90""",
-    longDesc = 
-"""
-T 1/90.
-C1=CCC=C1
-_imported from 2-BTP/2-BTP_thermo.txt.
-""",
-)
+# entry(
+#     index = 119,
+#     label = "C5H6",
+#     molecule = 
+# """
+# 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+# 2  C u0 p0 c0 {1,S} {4,D} {8,S}
+# 3  C u0 p0 c0 {1,S} {5,D} {9,S}
+# 4  C u0 p0 c0 {2,D} {5,S} {10,S}
+# 5  C u0 p0 c0 {3,D} {4,S} {11,S}
+# 6  H u0 p0 c0 {1,S}
+# 7  H u0 p0 c0 {1,S}
+# 8  H u0 p0 c0 {2,S}
+# 9  H u0 p0 c0 {3,S}
+# 10 H u0 p0 c0 {4,S}
+# 11 H u0 p0 c0 {5,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[0.86109,0.014804,7.21089e-05,-1.13381e-07,4.869e-11,14801.8,21.3535], Tmin=(200,'K'), Tmax=(1000,'K')),
+#             NASAPolynomial(coeffs=[9.97578,0.0189055,-6.84115e-06,1.10993e-09,-6.66802e-14,11081.7,-32.2095], Tmin=(1000,'K'), Tmax=(6000,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (6000,'K'),
+#         E0 = (121.584,'kJ/mol'),
+#         Cp0 = (33.2579,'J/mol/K'),
+#         CpInf = (257.749,'J/mol/K'),
+#     ),
+#     shortDesc = """T 1/90""",
+#     longDesc = 
+# """
+# T 1/90.
+# C1=CCC=C1
+# _imported from 2-BTP/2-BTP_thermo.txt.
+# """,
+# )
 
 entry(
     index = 120,
@@ -4152,42 +4152,42 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 """,
 )
 
-entry(
-    index = 123,
-    label = "o-C6H4",
-    molecule = 
-"""
-1  C u0 p0 c0 {2,S} {3,D} {7,S}
-2  C u0 p0 c0 {1,S} {4,D} {8,S}
-3  C u0 p0 c0 {1,D} {6,S} {9,S}
-4  C u0 p0 c0 {2,D} {5,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,T}
-6  C u0 p0 c0 {3,S} {5,T}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-3.84542,0.0583916,-4.86448e-05,1.67703e-08,-7.85807e-13,52592.5,40.5871], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[8.8433,0.0203015,-8.86743e-06,1.72643e-09,-1.1786e-13,49317.1,-24.0143], Tmin=(1000,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (3000,'K'),
-        E0 = (429.966,'kJ/mol'),
-        Cp0 = (33.2579,'J/mol/K'),
-        CpInf = (232.805,'J/mol/K'),
-    ),
-    shortDesc = """D11/99""",
-    longDesc = 
-"""
-D11/99
-_low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-C1#CC=CC=C1
-_imported from 2-BTP/2-BTP_thermo.txt.
-""",
-)
+# entry(
+#     index = 123,
+#     label = "o-C6H4",
+#     molecule = 
+# """
+# 1  C u0 p0 c0 {2,S} {3,D} {7,S}
+# 2  C u0 p0 c0 {1,S} {4,D} {8,S}
+# 3  C u0 p0 c0 {1,D} {6,S} {9,S}
+# 4  C u0 p0 c0 {2,D} {5,S} {10,S}
+# 5  C u0 p0 c0 {4,S} {6,T}
+# 6  C u0 p0 c0 {3,S} {5,T}
+# 7  H u0 p0 c0 {1,S}
+# 8  H u0 p0 c0 {2,S}
+# 9  H u0 p0 c0 {3,S}
+# 10 H u0 p0 c0 {4,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-3.84542,0.0583916,-4.86448e-05,1.67703e-08,-7.85807e-13,52592.5,40.5871], Tmin=(298,'K'), Tmax=(1000,'K')),
+#             NASAPolynomial(coeffs=[8.8433,0.0203015,-8.86743e-06,1.72643e-09,-1.1786e-13,49317.1,-24.0143], Tmin=(1000,'K'), Tmax=(3000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (3000,'K'),
+#         E0 = (429.966,'kJ/mol'),
+#         Cp0 = (33.2579,'J/mol/K'),
+#         CpInf = (232.805,'J/mol/K'),
+#     ),
+#     shortDesc = """D11/99""",
+#     longDesc = 
+# """
+# D11/99
+# _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+# C1#CC=CC=C1
+# _imported from 2-BTP/2-BTP_thermo.txt.
+# """,
+# )
 
 entry(
     index = 124,
@@ -4456,44 +4456,44 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 """,
 )
 
-entry(
-    index = 131,
-    label = "C6H5O",
-    molecule = 
-"""
-multiplicity 2
-1  O u0 p2 c0 {3,D}
-2  C u1 p0 c0 {3,S} {4,S} {8,S}
-3  C u0 p0 c0 {1,D} {2,S} {7,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  C u0 p0 c0 {5,S} {7,D} {11,S}
-7  C u0 p0 c0 {3,S} {6,D} {12,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {7,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-0.466204,0.0413444,1.32413e-05,-5.72873e-08,2.89764e-11,4778.58,27.699], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[13.7222,0.0174689,-6.35505e-06,1.03492e-09,-6.23411e-14,287.275,-48.8182], Tmin=(1000,'K'), Tmax=(6000,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
-        E0 = (35.8454,'kJ/mol'),
-        Cp0 = (33.2579,'J/mol/K'),
-        CpInf = (282.692,'J/mol/K'),
-    ),
-    shortDesc = """T05/02""",
-    longDesc = 
-"""
-T05/02.
-O=C1[CH]C=CC=C1
-_imported from 2-BTP/2-BTP_thermo.txt.
-""",
-)
+# entry(
+#     index = 131,
+#     label = "C6H5O",
+#     molecule = 
+# """
+# multiplicity 2
+# 1  O u0 p2 c0 {3,D}
+# 2  C u1 p0 c0 {3,S} {4,S} {8,S}
+# 3  C u0 p0 c0 {1,D} {2,S} {7,S}
+# 4  C u0 p0 c0 {2,S} {5,D} {9,S}
+# 5  C u0 p0 c0 {4,D} {6,S} {10,S}
+# 6  C u0 p0 c0 {5,S} {7,D} {11,S}
+# 7  C u0 p0 c0 {3,S} {6,D} {12,S}
+# 8  H u0 p0 c0 {2,S}
+# 9  H u0 p0 c0 {4,S}
+# 10 H u0 p0 c0 {5,S}
+# 11 H u0 p0 c0 {6,S}
+# 12 H u0 p0 c0 {7,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-0.466204,0.0413444,1.32413e-05,-5.72873e-08,2.89764e-11,4778.58,27.699], Tmin=(200,'K'), Tmax=(1000,'K')),
+#             NASAPolynomial(coeffs=[13.7222,0.0174689,-6.35505e-06,1.03492e-09,-6.23411e-14,287.275,-48.8182], Tmin=(1000,'K'), Tmax=(6000,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (6000,'K'),
+#         E0 = (35.8454,'kJ/mol'),
+#         Cp0 = (33.2579,'J/mol/K'),
+#         CpInf = (282.692,'J/mol/K'),
+#     ),
+#     shortDesc = """T05/02""",
+#     longDesc = 
+# """
+# T05/02.
+# O=C1[CH]C=CC=C1
+# _imported from 2-BTP/2-BTP_thermo.txt.
+# """,
+# )
 
 entry(
     index = 132,
@@ -4534,46 +4534,46 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 """,
 )
 
-entry(
-    index = 133,
-    label = "C6H5CH2",
-    molecule = 
-"""
-multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {7,D}
-2  C u1 p0 c0 {1,S} {4,S} {8,S}
-3  C u0 p0 c0 {1,S} {6,D} {12,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  C u0 p0 c0 {3,D} {5,S} {11,S}
-7  C u0 p0 c0 {1,D} {13,S} {14,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {7,S}
-14 H u0 p0 c0 {7,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.481115,0.0385128,3.28615e-05,-7.69727e-08,3.54231e-11,23307,23.5488], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[14.044,0.0234939,-8.53754e-06,1.38908e-09,-8.36144e-14,18564.2,-51.6656], Tmin=(1000,'K'), Tmax=(6000,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (6000,'K'),
-        E0 = (192.532,'kJ/mol'),
-        Cp0 = (33.2579,'J/mol/K'),
-        CpInf = (328.422,'J/mol/K'),
-    ),
-    shortDesc = """T08/90""",
-    longDesc = 
-"""
-T08/90.
-C=C1[CH]C=CC=C1
-_imported from 2-BTP/2-BTP_thermo.txt.
-""",
-)
+# entry(
+#     index = 133,
+#     label = "C6H5CH2",
+#     molecule = 
+# """
+# multiplicity 2
+# 1  C u0 p0 c0 {2,S} {3,S} {7,D}
+# 2  C u1 p0 c0 {1,S} {4,S} {8,S}
+# 3  C u0 p0 c0 {1,S} {6,D} {12,S}
+# 4  C u0 p0 c0 {2,S} {5,D} {9,S}
+# 5  C u0 p0 c0 {4,D} {6,S} {10,S}
+# 6  C u0 p0 c0 {3,D} {5,S} {11,S}
+# 7  C u0 p0 c0 {1,D} {13,S} {14,S}
+# 8  H u0 p0 c0 {2,S}
+# 9  H u0 p0 c0 {4,S}
+# 10 H u0 p0 c0 {5,S}
+# 11 H u0 p0 c0 {6,S}
+# 12 H u0 p0 c0 {3,S}
+# 13 H u0 p0 c0 {7,S}
+# 14 H u0 p0 c0 {7,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[0.481115,0.0385128,3.28615e-05,-7.69727e-08,3.54231e-11,23307,23.5488], Tmin=(200,'K'), Tmax=(1000,'K')),
+#             NASAPolynomial(coeffs=[14.044,0.0234939,-8.53754e-06,1.38908e-09,-8.36144e-14,18564.2,-51.6656], Tmin=(1000,'K'), Tmax=(6000,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (6000,'K'),
+#         E0 = (192.532,'kJ/mol'),
+#         Cp0 = (33.2579,'J/mol/K'),
+#         CpInf = (328.422,'J/mol/K'),
+#     ),
+#     shortDesc = """T08/90""",
+#     longDesc = 
+# """
+# T08/90.
+# C=C1[CH]C=CC=C1
+# _imported from 2-BTP/2-BTP_thermo.txt.
+# """,
+# )
 
 entry(
     index = 134,
@@ -4771,48 +4771,48 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 """,
 )
 
-entry(
-    index = 139,
-    label = "OC6H4CH3",
-    molecule = 
-"""
-multiplicity 2
-1  O u0 p2 c0 {8,D}
-2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,D}
-4  C u1 p0 c0 {3,S} {8,S} {15,S}
-5  C u0 p0 c0 {3,D} {6,S} {12,S}
-6  C u0 p0 c0 {5,S} {7,D} {13,S}
-7  C u0 p0 c0 {6,D} {8,S} {14,S}
-8  C u0 p0 c0 {1,D} {4,S} {7,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {4,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-0.288558,0.0480035,1.8033e-05,-6.17415e-08,2.88526e-11,-689.456,26.7201], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[22.6094,0.00756462,6.59609e-06,-4.71509e-09,8.04091e-13,-8202.52,-97.2925], Tmin=(1000,'K'), Tmax=(2500,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (2500,'K'),
-        E0 = (-8.54523,'kJ/mol'),
-        Cp0 = (33.2579,'J/mol/K'),
-        CpInf = (353.365,'J/mol/K'),
-    ),
-    shortDesc = """EST/BUR P 1/93""",
-    longDesc = 
-"""
-EST/BUR P 1/93
-_low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-CC1=CC=CC(=O)[CH]1
-_imported from 2-BTP/2-BTP_thermo.txt.
-""",
-)
+# entry(
+#     index = 139,
+#     label = "OC6H4CH3",
+#     molecule = 
+# """
+# multiplicity 2
+# 1  O u0 p2 c0 {8,D}
+# 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+# 3  C u0 p0 c0 {2,S} {4,S} {5,D}
+# 4  C u1 p0 c0 {3,S} {8,S} {15,S}
+# 5  C u0 p0 c0 {3,D} {6,S} {12,S}
+# 6  C u0 p0 c0 {5,S} {7,D} {13,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {14,S}
+# 8  C u0 p0 c0 {1,D} {4,S} {7,S}
+# 9  H u0 p0 c0 {2,S}
+# 10 H u0 p0 c0 {2,S}
+# 11 H u0 p0 c0 {2,S}
+# 12 H u0 p0 c0 {5,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {7,S}
+# 15 H u0 p0 c0 {4,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-0.288558,0.0480035,1.8033e-05,-6.17415e-08,2.88526e-11,-689.456,26.7201], Tmin=(298,'K'), Tmax=(1000,'K')),
+#             NASAPolynomial(coeffs=[22.6094,0.00756462,6.59609e-06,-4.71509e-09,8.04091e-13,-8202.52,-97.2925], Tmin=(1000,'K'), Tmax=(2500,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (2500,'K'),
+#         E0 = (-8.54523,'kJ/mol'),
+#         Cp0 = (33.2579,'J/mol/K'),
+#         CpInf = (353.365,'J/mol/K'),
+#     ),
+#     shortDesc = """EST/BUR P 1/93""",
+#     longDesc = 
+# """
+# EST/BUR P 1/93
+# _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+# CC1=CC=CC(=O)[CH]1
+# _imported from 2-BTP/2-BTP_thermo.txt.
+# """,
+# )
 
 entry(
     index = 140,
@@ -4886,43 +4886,43 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 """,
 )
 
-entry(
-    index = 142,
-    label = "C5H5",
-    molecule = 
-"""
-multiplicity 2
-1  C u1 p0 c0 {2,S} {5,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {4,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,D} {9,S}
-5  C u0 p0 c0 {1,S} {4,D} {10,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.983498,0.0336515,-1.10542e-07,-3.67434e-08,2.31412e-11,29626,16.5855], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[7.47439,0.0160127,-6.48231e-09,-3.58197e-09,9.23651e-13,28086,-16.133], Tmin=(1000,'K'), Tmax=(2000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (2000,'K'),
-        E0 = (243.889,'kJ/mol'),
-        Cp0 = (33.2579,'J/mol/K'),
-        CpInf = (232.805,'J/mol/K'),
-    ),
-    shortDesc = """T12/89""",
-    longDesc = 
-"""
-T12/89
-_low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-[CH]1C=CC=C1
-_imported from 2-BTP/2-BTP_thermo.txt.
-""",
-)
+# entry(
+#     index = 142,
+#     label = "C5H5",
+#     molecule = 
+# """
+# multiplicity 2
+# 1  C u1 p0 c0 {2,S} {5,S} {6,S}
+# 2  C u0 p0 c0 {1,S} {3,D} {7,S}
+# 3  C u0 p0 c0 {2,D} {4,S} {8,S}
+# 4  C u0 p0 c0 {3,S} {5,D} {9,S}
+# 5  C u0 p0 c0 {1,S} {4,D} {10,S}
+# 6  H u0 p0 c0 {1,S}
+# 7  H u0 p0 c0 {2,S}
+# 8  H u0 p0 c0 {3,S}
+# 9  H u0 p0 c0 {4,S}
+# 10 H u0 p0 c0 {5,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[0.983498,0.0336515,-1.10542e-07,-3.67434e-08,2.31412e-11,29626,16.5855], Tmin=(298,'K'), Tmax=(1000,'K')),
+#             NASAPolynomial(coeffs=[7.47439,0.0160127,-6.48231e-09,-3.58197e-09,9.23651e-13,28086,-16.133], Tmin=(1000,'K'), Tmax=(2000,'K')),
+#         ],
+#         Tmin = (298,'K'),
+#         Tmax = (2000,'K'),
+#         E0 = (243.889,'kJ/mol'),
+#         Cp0 = (33.2579,'J/mol/K'),
+#         CpInf = (232.805,'J/mol/K'),
+#     ),
+#     shortDesc = """T12/89""",
+#     longDesc = 
+# """
+# T12/89
+# _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+# [CH]1C=CC=C1
+# _imported from 2-BTP/2-BTP_thermo.txt.
+# """,
+# )
 
 entry(
     index = 143,
