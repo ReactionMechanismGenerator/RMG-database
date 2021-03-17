@@ -6235,3 +6235,11 @@ entry(
     shortDesc = """The chemkin file reaction is CF3CCH + F <=> CF3 + C2HF""",
 )
 
+entry(
+    index = 768,
+    label = "C2H3 + H <=> H2CC + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    shortDesc = """The chemkin file reaction is C2H3 + H <=> H2CC + H2""",
+)
+

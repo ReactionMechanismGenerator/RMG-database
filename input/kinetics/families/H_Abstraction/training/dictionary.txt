@@ -6858,13 +6858,6 @@ multiplicity 2
 4    H u0 p0 c0 {1,S}
 5 *2 H u0 p0 c0 {2,S}
 
-C2H2-3
-multiplicity 3
-1    C u0 p0 c0 {2,D} {3,S} {4,S}
-2 *1 C u2 p0 c0 {1,D}
-3    H u0 p0 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-
 C2H4O-3
 1    O u0 p2 c0 {3,D}
 2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}

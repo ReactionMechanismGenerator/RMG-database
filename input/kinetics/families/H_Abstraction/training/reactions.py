@@ -46472,20 +46472,6 @@ Original entry: CH2CO + OH <=> HCCO + H2O
 )
 
 entry(
-    index = 42646,
-    label = "H + C2H3-2 <=> H2_p + C2H2-3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """The chemkin file reaction is C2H3 + H <=> H2CC + H2""",
-    longDesc = 
-"""
-Training reaction from kinetics library: 2-BTP
-Original entry: C2H3 + H <=> H2CC + H2
-""",
-)
-
-entry(
     index = 42647,
     label = "C2H3 + H2O2 <=> C2H4_p23 + HO2_p1",
     degeneracy = 2.0,
