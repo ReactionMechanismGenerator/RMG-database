@@ -77944,6 +77944,7 @@ L1: R
             L4: O2sCF
             L4: O2s-HH
             L4: O2s-OsH
+                L5: O2s-(Os-CdOd)H
             L4: O2s-OsOs
             L4: O2s-SsOs
             L4: O2s-CH
