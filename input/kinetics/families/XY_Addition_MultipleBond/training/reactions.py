@@ -219,3 +219,17 @@ Original entry: C2H5BR <=> C2H4 + HBR
 """,
 )
 
+entry(
+    index = 18,
+    label = "BrH + C3HF3 <=> C3H2BrF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(51390,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is CF3CCH + HBR <=> BTP""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: CF3CCH + HBR <=> BTP
+""",
+)
+
