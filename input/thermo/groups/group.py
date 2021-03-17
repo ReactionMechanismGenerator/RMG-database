@@ -65322,7 +65322,10 @@ entry(
     shortDesc = """O-OCO jwl cbsQ 99 cqcho=20 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
 """
-
+David - increased group value by 3 kcal/mol for more accurate estimates of: 
+SMILES            H298 ref            before             after
+O=COO       -69.1 (DFT_QCI)           -73.8              -70.8
+O=C(C)OO    -84.1 (Klipp_Glar)        -86.5              -83.5
 """,
 )
 
