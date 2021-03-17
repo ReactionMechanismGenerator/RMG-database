@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "XY-Addition_DoubleBond/training"
+name = "XY-Addition_MultipleBond/training"
 shortDesc = "Kinetics used to train group additivity values"
 longDesc = """
 Put kinetic parameters for reactions to use as a training set for fitting

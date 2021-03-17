@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "XY_Addition_DoubleBond/groups"
+name = "XY_Addition_MultipleBond/groups"
 shortDesc = u""
 longDesc = u"""
 
 """
 
-template(reactants=["doublebond", "X_Y"], products=["X_doublebond_Y"], ownReverse=False)
+template(reactants=["MultipleBond", "X_Y"], products=["X_MultipleBond_Y"], ownReverse=False)
 
-reverse = "XY_Elimination_DoubleBond"
+reverse = "XY_Elimination_MultipleBond"
 reversible = True
 
 recipe(actions=[
@@ -21,15 +21,23 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "doublebond",
-    group = "OR{Cd_Cd}",
+    label = "MultipleBond",
+    group = 
+"""
+1 *1 [Cd,Cdd,Ct] u0 {2,[D,T]}
+2 *2 [Cd,Cdd,Ct] u0 {1,[D,T]}
+""",
     kinetics = None,
 )
 
 entry(
     index = 2,
     label = "X_Y",
-    group = "OR{H_Val7, Val7_Val7}",
+    group =
+"""
+1 *3 [H,Val7] u0 {2,S}
+2 *4 Val7 u0 {1,S}
+""",
     kinetics = None,
 )
 entry(
@@ -37,12 +45,19 @@ entry(
     label = "Cd_Cd",
     group =
 """
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    R  u0 {1,S}
-4    R  u0 {1,S}
-5    R  u0 {2,S}
-6    R  u0 {2,S}
+1 *1 [Cd,Cdd] u0 {2,D}
+2 *2 [Cd,Cdd] u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 170,
+    label = "Ct_Ct",
+    group =
+"""
+1 *1 Ct u0 {2,T}
+2 *2 Ct u0 {1,T}
 """,
     kinetics = None,
 )
@@ -742,9 +757,65 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 81,
+    label = "HCl",
+    group =
+"""
+1 *3 H u0 {2,S}
+2 *4 Cl1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 82,
+    label = "HBr",
+    group =
+"""
+1 *3 H u0 {2,S}
+2 *4 Br1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 83,
+    label = "Br2",
+    group =
+"""
+1 *3 Br1s u0 {2,S}
+2 *4 Br1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 84,
+    label = "Cl2",
+    group =
+"""
+1 *3 Cl1s u0 {2,S}
+2 *4 Cl1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 85,
+    label = "F2",
+    group =
+"""
+1 *3 F1s u0 {2,S}
+2 *4 F1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
-L1: doublebond
+L1: MultipleBond
+    L2: Ct_Ct
     L2: Cd_Cd
         L3: Cd/unsub_Cd/unsub
         L3: Cd/unsub_Cd/monosub
@@ -793,6 +864,11 @@ L1: doublebond
 L1: X_Y
     L2: H_Val7
         L3: HF
+        L3: HCl
+        L3: HBr
     L2: Val7_Val7
+        L3: F2
+        L3: Cl2
+        L3: Br2
        """
 )
