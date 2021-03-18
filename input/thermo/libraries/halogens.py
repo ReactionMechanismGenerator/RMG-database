@@ -132,3 +132,66 @@ entry(
 H298 = 424.8 kJ/mol
 """,
 )
+
+entry(
+    index = 6,
+    label = "OOBr",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 O  u0 p2 c0 {1,S} {3,S}
+3 O  u1 p2 c0 {2,S}
+""",
+    thermo = ThermoData(Tdata=([300,400,500,600,800,1000,1500],'K'), 
+    Cpdata=([51.8844,52.5941,51.888,50.7367,49.4281,50.2226,52.5304],'J/(mol*K)'), 
+    H298=(109.2,'kJ/mol'), S298=(275.814,'J/(mol*K)'), 
+    Cp0=(33.2579,'J/(mol*K)'), CpInf=(58.2013,'J/(mol*K)')),
+    shortDesc = """GA + ATcT 1.122p 67177-47-3*0 H298""",
+    longDesc = 
+"""
+H298 = 109.2 kJ/mol
+""",
+)
+
+entry(
+    index = 7,
+    label = "OOCl",
+    molecule = 
+"""
+multiplicity 2
+1 Cl u0 p3 c0 {2,S}
+2 O  u0 p2 c0 {1,S} {3,S}
+3 O  u1 p2 c0 {2,S}
+""",
+    thermo = ThermoData(Tdata=([300,400,500,600,800,1000,1500],'K'), 
+    Cpdata=([50.6312,51.4088,50.9024,49.9987,49.104,50.0514,52.3303],'J/(mol*K)'), 
+    H298=(102.82,'kJ/mol'), S298=(267.489,'J/(mol*K)'), Cp0=(33.2579,'J/(mol*K)'), 
+    CpInf=(58.2013,'J/(mol*K)')),
+    shortDesc = """GA + ATcT 1.122p 17376-09-9*0 H298""",
+    longDesc = 
+"""
+H298 = 102.82 kJ/mol
+""",
+)
+
+entry(
+    index = 8,
+    label = "OOF",
+    molecule = 
+"""
+multiplicity 2
+1 F u0 p3 c0 {2,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u1 p2 c0 {2,S}
+""",
+    thermo = ThermoData(Tdata=([300,400,500,600,800,1000,1500],'K'), 
+    Cpdata=([43.4949,45.0513,46.0077,46.7044,48.1531,50.0169,53.7856],'J/(mol*K)'), 
+    H298=(25.10,'kJ/mol'), S298=(255.854,'J/(mol*K)'), Cp0=(33.2579,'J/(mol*K)'), 
+    CpInf=(58.2013,'J/(mol*K)')),
+    shortDesc = """GA + ATcT 1.122p 15499-23-7*0 H298""",
+    longDesc = 
+"""
+H298 = 25.10 kJ/mol
+""",
+)
