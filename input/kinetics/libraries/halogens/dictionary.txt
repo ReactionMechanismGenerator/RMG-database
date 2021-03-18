@@ -9,3 +9,25 @@ FCCF
 2 C u0 p0 c0 {1,T} {3,S}
 3 F u0 p3 c0 {2,S}
 4 F u0 p3 c0 {1,S}
+
+FC(F)(F)[C]CBr
+1 Br u0 p3 c0 {6,S}
+2 F u0 p3 c0 {5,S}
+3 F u0 p3 c0 {5,S}
+4 F u0 p3 c0 {5,S}
+5 C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+6 C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+7 C u0 p1 c0 {5,S} {6,S}
+8 H u0 p0 c0 {6,S}
+9 H u0 p0 c0 {6,S}
+
+FC(F)(F)CDCBr
+1 Br u0 p3 c0 {7,S}
+2 F  u0 p3 c0 {5,S}
+3 F  u0 p3 c0 {5,S}
+4 F  u0 p3 c0 {5,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+6 C  u0 p0 c0 {5,S} {7,D} {8,S}
+7 C  u0 p0 c0 {1,S} {6,D} {9,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {7,S}

@@ -19,3 +19,14 @@ entry(
     Ea from https://doi.org/10.1006/jmsp.2000.8244
     """
 )
+
+entry(
+    index = 1,
+    label = "FC(F)(F)[C]CBr <=> FC(F)(F)CDCBr",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'s^-1'), n=0, Ea=(1,'kcal/mol'), T0=(1,'K')),
+    shortDesc = """estimate""",
+    longDesc = """
+    FC(F)(F)[C]CBr geo opt goes to FC(F)(F)CDCBr, so barrier is estimated to be very small
+    """
+)
