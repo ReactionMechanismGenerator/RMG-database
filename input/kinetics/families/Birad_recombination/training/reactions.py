@@ -116,23 +116,23 @@ Converted to training reaction from rate rule: R6_SSSSS;C_rad_out_2H;Cpri_rad_ou
 """,
 )
 
-entry(
-    index = 5,
-    label = "CH2S2 <=> CH2S2-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.18e+16, 's^-1'),
-        n = 0,
-        Ea = (2.9288, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-Converted to training reaction from rate rule: R3_SS;S_rad;Spri_rad
-""",
-)
+# entry(
+#     index = 5,
+#     label = "CH2S2 <=> CH2S2-2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(
+#         A = (2.18e+16, 's^-1'),
+#         n = 0,
+#         Ea = (2.9288, 'kJ/mol'),
+#         T0 = (1, 'K'),
+#         Tmin = (300, 'K'),
+#         Tmax = (1500, 'K'),
+#     ),
+#     rank = 10,
+#     shortDesc = u"""A.G. Vandeputte""",
+#     longDesc = 
+# u"""
+# Converted to training reaction from rate rule: R3_SS;S_rad;Spri_rad
+# """,
+# )
 
