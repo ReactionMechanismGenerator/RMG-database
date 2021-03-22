@@ -6,6 +6,45 @@ adjacency_list: |
   4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
   5 H  u0 p0 c0 {4,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -95.90949158764026
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.9600084032
+          - -0.3748995347
+          - -0.0
+        - - 1.5346705537
+          - 0.1630891816
+          - -1.10402425
+        - - 1.5346705537
+          - 0.1630891816
+          - 1.10402425
+        - - -0.984714245
+          - 0.0221871928
+          - 0.0
+        - - 1.080878188
+          - -1.4627598101
+          - -0.0
+      isotopes:
+      - 12
+      - 19
+      - 19
+      - 79
+      - 1
+      symbols:
+      - C
+      - F
+      - F
+      - Br
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -33,6 +72,45 @@ calculated_data:
         - - 1.0617172932
           - -1.4532328260999998
           - 0.0
+      isotopes:
+      - 12
+      - 19
+      - 19
+      - 79
+      - 1
+      symbols:
+      - C
+      - F
+      - F
+      - Br
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -104.97185465218321
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.9286645818
+          - -0.3710621021
+          - -0.0
+        - - 1.5011058524
+          - 0.1611909743
+          - -1.08354767
+        - - 1.5011058524
+          - 0.1611909743
+          - 1.08354767
+        - - -0.9615104447
+          - 0.0222016468
+          - 0.0
+        - - 1.0609727319
+          - -1.4521225619
+          - -0.0
       isotopes:
       - 12
       - 19

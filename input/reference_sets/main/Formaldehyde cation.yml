@@ -6,6 +6,40 @@ adjacency_list: |
   3 H u0 p0 c0 {1,S}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 224.16607269844837
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.5313174687
+        - - 0.0
+          - 0.0
+          - -0.6734602512
+        - - 0.97084812
+          - 0.0
+          - 1.0998885988
+        - - -0.97084812
+          - 0.0
+          - 1.0998885988
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -40,6 +74,40 @@ calculated_data:
       - O
       - H
       - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 224.8692318363415
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.5238253662
+        - - 0.0
+          - 0.0
+          - -0.6623137438
+        - - 0.97026151
+          - 0.0
+          - 1.0777788763
+        - - -0.97026151
+          - 0.0
+          - 1.0777788763
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
 charge: 1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
@@ -56,7 +124,7 @@ label: Formaldehyde cation
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 30.025979271158576
+  value: 30.02598178456637
 multiplicity: 2
 reference_data:
   ATcT:

@@ -10,6 +10,65 @@ adjacency_list: |
   8 H u0 p0 c0 {4,S}
   9 H u0 p0 c0 {5,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 53.4349296547115
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.9830271355
+          - 0.5610294147
+          - -0.0
+        - - -0.1570359816
+          - 1.2322747747
+          - 0.0
+        - - -1.1432168984
+          - 0.2665688144
+          - 0.0
+        - - -0.5962477527
+          - -1.0023029004
+          - 0.0
+        - - 0.772957781
+          - -0.7977441289
+          - -0.0
+        - - 1.9786351032
+          - 0.9934184494
+          - -0.0
+        - - -2.1973920527
+          - 0.5313625567
+          - 0.0
+        - - -1.0347168733
+          - -1.9941275488
+          - 0.0
+        - - 1.4806463205
+          - -1.5241399497
+          - -0.0
+      isotopes:
+      - 12
+      - 14
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -49,6 +108,65 @@ calculated_data:
         - - 1.4131001341
           - -1.5582367802
           - 0.0
+      isotopes:
+      - 12
+      - 14
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 33.44176399436643
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.9924762602
+          - 0.5169629815
+          - -0.0
+        - - -0.1066511929
+          - 1.2199842357
+          - 0.0
+        - - -1.1254387074
+          - 0.3022639047
+          - 0.0
+        - - -0.6266033429
+          - -0.965068951
+          - 0.0
+        - - 0.7362395633
+          - -0.8146696071
+          - -0.0
+        - - 1.9959744899
+          - 0.9145873933
+          - -0.0
+        - - -2.1602452794
+          - 0.6070716086
+          - 0.0
+        - - -1.1014251104
+          - -1.9315917277
+          - 0.0
+        - - 1.4159720477
+          - -1.5522172851
+          - -0.0
       isotopes:
       - 12
       - 14

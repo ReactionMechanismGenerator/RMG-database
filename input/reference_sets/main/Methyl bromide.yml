@@ -6,6 +6,45 @@ adjacency_list: |
   4 H  u0 p0 c0 {2,S}
   5 H  u0 p0 c0 {2,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -8.526958683798917
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.543715617
+          - 1.02312e-05
+          - -0.0003328285
+        - - 0.4259426575
+          - 3.5969e-06
+          - -4.82771e-05
+        - - -1.8832084388
+          - -0.8992433029
+          - -0.5241660165
+        - - -1.8835239267
+          - 0.9051793798
+          - -0.51368278
+        - - -1.878966946
+          - -0.0061233568
+          - 1.0415354656
+      isotopes:
+      - 12
+      - 79
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Br
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -33,6 +72,45 @@ calculated_data:
         - - -1.8509140069
           - -1.0306651713
           - 0.0107075912
+      isotopes:
+      - 12
+      - 79
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Br
+      - H
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -10.427657872587043
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.5108428635
+          - 1.99247e-05
+          - -0.0001546562
+        - - 0.4175827661
+          - -5.201e-07
+          - -1.97819e-05
+        - - -1.8508071659
+          - -0.8480958716
+          - -0.586216587
+        - - -1.8506338931
+          - 0.9322920677
+          - -0.4403100733
+        - - -1.8488985721
+          - -0.0842975407
+          - 1.0281469633
       isotopes:
       - 12
       - 79

@@ -6,6 +6,45 @@ adjacency_list: |
   4 N u0 p1 c0 {1,S} {3,D}
   5 H u0 p0 c0 {2,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -14.828237245617588
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3154559058
+          - -0.4830389079
+          - -0.0001942458
+        - - 0.5623866928
+          - 0.7418824468
+          - 0.0001595006
+        - - -0.861090194
+          - 0.5522399837
+          - -0.000115382
+        - - -1.1950523219
+          - -0.598609213
+          - -1.2331e-06
+        - - 0.5653091448
+          - -1.1475544936
+          - 0.0010955011
+      isotopes:
+      - 16
+      - 16
+      - 14
+      - 16
+      - 1
+      symbols:
+      - O
+      - O
+      - N
+      - O
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -33,6 +72,45 @@ calculated_data:
         - - 0.5704618252
           - -1.1496150053
           - -4.1811e-06
+      isotopes:
+      - 16
+      - 16
+      - 14
+      - 16
+      - 1
+      symbols:
+      - O
+      - O
+      - N
+      - O
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.27447284446746634
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2708546075
+          - -0.4665787809
+          - 1.211e-06
+        - - 0.5287109693
+          - 0.7212100638
+          - 0.0001106069
+        - - -0.813404616
+          - 0.5417229744
+          - -0.0001902679
+        - - -1.158448999
+          - -0.5853777477
+          - 0.0001313248
+        - - 0.5648996896
+          - -1.1460891032
+          - -0.0006132664
       isotopes:
       - 16
       - 16

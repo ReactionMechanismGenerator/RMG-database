@@ -6,6 +6,45 @@ adjacency_list: |
   4 H u0 p0 c0 {2,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -12.069783202128278
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.6978196251
+          - -0.0001739725
+          - -0.1595559014
+        - - 0.7323464819
+          - 0.000176369
+          - 0.1419030384
+        - - -1.0418376073
+          - -0.8123950488
+          - 0.3704683795
+        - - -1.0418640673
+          - 0.8131606869
+          - 0.3687411813
+        - - 1.1096671953
+          - -0.0009587821
+          - -0.7575425582
+      isotopes:
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - O
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -33,6 +72,45 @@ calculated_data:
         - - 1.1203691891
           - -9.25432e-05
           - -0.7336081096
+      isotopes:
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - O
+      - H
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -10.903366546905328
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.6776944613
+          - -8.5199e-06
+          - -0.1511711002
+        - - 0.7139649306
+          - 9.9311e-06
+          - 0.1397051791
+        - - -1.0429099912
+          - -0.8120275949
+          - 0.3352394208
+        - - -1.0429133971
+          - 0.8120610204
+          - 0.3351530068
+        - - 1.1179651721
+          - -5.3235e-05
+          - -0.7298361591
       isotopes:
       - 14
       - 16
@@ -74,5 +152,5 @@ reference_data:
         units: kJ/mol
         value: -43.62
       class: ThermoData
-smiles: NO
+smiles: 'NO'
 symmetry_number: 1.0

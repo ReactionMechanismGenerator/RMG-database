@@ -3,6 +3,30 @@ adjacency_list: |
   1 Br u0 p3 c0 {2,S}
   2 Cl u0 p3 c0 {1,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.9085038458849506
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.7208848038
+        - - 0.0
+          - 0.0
+          - -1.4841745962
+      isotopes:
+      - 79
+      - 35
+      symbols:
+      - Br
+      - Cl
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -21,6 +45,30 @@ calculated_data:
         - - 0.0
           - 0.0
           - -1.436810639
+      isotopes:
+      - 79
+      - 35
+      symbols:
+      - Br
+      - Cl
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.970742401063366
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.6958839369
+        - - 0.0
+          - 0.0
+          - -1.4327022231
       isotopes:
       - 79
       - 35

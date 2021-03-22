@@ -6,6 +6,45 @@ adjacency_list: |
   4 H  u0 p0 c0 {2,S}
   5 H  u0 p0 c0 {2,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -19.078726018207
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.1403917716
+          - -2.5664e-06
+          - -0.0001273196
+        - - 0.6658709057
+          - -1.0322e-06
+          - -8.15895e-05
+        - - -1.4935309317
+          - 0.8926704113
+          - -0.5287869197
+        - - -1.4935355313
+          - -0.9051006975
+          - -0.5072292148
+        - - -1.4903883041
+          - 0.0124632325
+          - 1.0381670735
+      isotopes:
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -33,6 +72,45 @@ calculated_data:
         - - -1.4701583268
           - 1.0287554538
           - -0.0012765167
+      isotopes:
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - H
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -20.134073724755893
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.1210193547
+          - 1.6726e-06
+          - -0.0001726113
+        - - 0.6547408772
+          - -9.639e-07
+          - -1.46643e-05
+        - - -1.4684281276
+          - 0.8937464792
+          - -0.5112538959
+        - - -1.468466578
+          - -0.8902706425
+          - -0.5172632158
+        - - -1.4675840787
+          - -0.0034694866
+          - 1.0298020732
       isotopes:
       - 12
       - 35

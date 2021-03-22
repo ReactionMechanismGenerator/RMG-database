@@ -10,6 +10,65 @@ adjacency_list: |
   8 H u0 p0 c0 {5,S}
   9 H u0 p0 c0 {6,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 71.09317357530236
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.6423168738
+          - -1.2282756443
+          - 0.0
+        - - -1.2988778916
+          - -0.054385036
+          - -0.0
+        - - -0.7427040784
+          - 1.1701020742
+          - -0.0
+        - - 0.602119954
+          - 1.151307484
+          - -0.0
+        - - 1.3851372064
+          - 0.0580986625
+          - 0.0
+        - - 0.6962461839
+          - -1.0971043498
+          - 0.0
+        - - -2.3913597755
+          - -0.098594355
+          - -0.0
+        - - 1.1102386428
+          - 2.1201582003
+          - -0.0
+        - - 1.2833778749
+          - -2.0199480813
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 12
+      - 14
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - C
+      - N
+      - C
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -48,6 +107,65 @@ calculated_data:
           - 0.0
         - - 1.9718619067
           - -1.318481845
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 12
+      - 14
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - C
+      - N
+      - C
+      - H
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 55.282451154468795
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.3763032539
+          - -1.3101718736
+          - 0.0
+        - - -1.2485413626
+          - -0.3107097392
+          - -0.0
+        - - -0.9465245607
+          - 0.9809557798
+          - -0.0
+        - - 0.3551107344
+          - 1.2365401159
+          - -0.0
+        - - 1.3227438806
+          - 0.3291482143
+          - 0.0
+        - - 0.8933473954
+          - -0.9258535234
+          - 0.0
+        - - -2.3025397368
+          - -0.5725562546
+          - -0.0
+        - - 0.6558958603
+          - 2.2802993196
+          - -0.0
+        - - 1.6477308108
+          - -1.7071290282
           - 0.0
       isotopes:
       - 14

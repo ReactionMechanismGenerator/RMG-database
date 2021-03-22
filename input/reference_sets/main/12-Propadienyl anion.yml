@@ -8,6 +8,50 @@ adjacency_list: |
   5 H u0 p0 c0 {1,S}
   6 H u0 p0 c0 {1,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 99.65507855038072
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.2477079291
+          - -0.0135281746
+          - 0.0
+        - - 0.1145347532
+          - -0.0084230508
+          - -0.0
+        - - 1.3994814179
+          - 0.1542379834
+          - 0.0
+        - - -1.8304712801
+          - -0.0317078833
+          - 0.93028602
+        - - -1.8304712801
+          - -0.0317078833
+          - -0.93028602
+        - - 2.0630931086
+          - -0.7303047814
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -52,6 +96,50 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 73.65432026896796
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.232480305
+          - 0.0224941424
+          - -0.0
+        - - 0.1150679638
+          - -0.0061676855
+          - 0.0
+        - - 1.3814085289
+          - -0.1484646496
+          - -0.0
+        - - -1.7996246942
+          - 0.0257706653
+          - -0.92666166
+        - - -1.7996246942
+          - 0.0257706653
+          - 0.92666166
+        - - 2.0152722625
+          - 0.7412878255
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
 charge: -1
 class: ReferenceSpecies
 datetime: 2020-02-24 11:05
@@ -68,7 +156,7 @@ label: 1,2-Propadienyl anion
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 39.05592032242566
+  value: 39.05592359170969
 multiplicity: 1
 reference_data:
   ATcT:

@@ -9,6 +9,60 @@ adjacency_list: |
   7 H  u0 p0 c0 {4,S}
   8 H  u0 p0 c0 {4,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -22.109123151437597
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0017971777
+          - -0.0037649809
+          - -1.7693541467
+        - - -0.0001050865
+          - -0.0021890323
+          - -0.2464980657
+        - - -1.5896427657
+          - -0.6273834499
+          - 0.362203396
+        - - 1.3395394851
+          - -1.0585570048
+          - 0.3642302307
+        - - 0.249118806
+          - 1.688676923
+          - 0.3605197699
+        - - -0.8137210844
+          - 0.6355178505
+          - -2.1269765833
+        - - -0.1429741427
+          - -1.030009114
+          - -2.1288283188
+        - - 0.9632787479
+          - 0.3836953821
+          - -2.1272895654
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 35
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - Cl
+      - Cl
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -45,6 +99,60 @@ calculated_data:
         - - 0.5844737679999997
           - -0.8389176283
           - 2.1232049117
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 35
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - Cl
+      - Cl
+      - H
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -30.829446551029463
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0013038157
+          - 0.0021159481
+          - 1.761793126
+        - - 0.0006316721
+          - -0.000134231
+          - 0.2485729978
+        - - 1.6694200501
+          - 0.0101735473
+          - -0.360823928
+        - - -0.8252159687
+          - -1.4501453147
+          - -0.360842818
+        - - -0.8435673214
+          - 1.4387530818
+          - -0.3626693052
+        - - 0.5114085414
+          - 0.8925579707
+          - 2.1231891585
+        - - 0.5112205717
+          - -0.8865579644
+          - 2.1273718452
+        - - -1.0294211712
+          - 0.0028273455
+          - 2.1209551234
       isotopes:
       - 12
       - 12

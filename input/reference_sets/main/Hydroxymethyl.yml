@@ -7,6 +7,45 @@ adjacency_list: |
   4 H u0 p0 c0 {2,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.432094842816819
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6900418773
+          - -0.0291729581
+          - 0.0773865002
+        - - -0.676169416
+          - 0.1254716235
+          - -0.0290904999
+        - - 1.225913709
+          - 0.8997911288
+          - -0.1097595564
+        - - 1.1405608493
+          - -0.9832277247
+          - -0.2131000515
+        - - -1.0973704942
+          - -0.7452986435
+          - 0.0912646057
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -34,6 +73,45 @@ calculated_data:
         - - -1.0968784858
           - -0.7323265657
           - 0.04772126
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -2.268203562709866
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6802022427
+          - -0.027589408
+          - 0.0620575211
+        - - -0.6667200116
+          - 0.1254921451
+          - -0.021196773
+        - - 1.2343887143
+          - 0.884846347
+          - -0.0988015719
+        - - 1.1136409885
+          - -0.9950048091
+          - -0.1621754247
+        - - -1.095483066
+          - -0.7282422505
+          - 0.0582060541
       isotopes:
       - 12
       - 16

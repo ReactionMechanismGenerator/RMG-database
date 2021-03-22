@@ -7,6 +7,45 @@ adjacency_list: |
   4 H u0 p0 c0 {1,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 159.7619938498664
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.134759909
+          - -2.3029e-06
+          - -1.3162e-06
+        - - -0.2023048809
+          - 1.61659e-05
+          - 9.1061e-06
+        - - -1.5036959211
+          - -6.115e-06
+          - -5.186e-06
+        - - 1.713754765
+          - 0.9318367606
+          - -7.8125e-06
+        - - 1.7136905927
+          - -0.9318832489
+          - -7.8109e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -34,6 +73,45 @@ calculated_data:
         - - 1.6828006233
           - -0.9265834084
           - -9.4473e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 143.4655780413383
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1171968795
+          - -9.426e-07
+          - -2.1198e-06
+        - - -0.1995389105
+          - 4.2075e-06
+          - 1.18775e-05
+        - - -1.4787456605
+          - -1.8024e-06
+          - -6.6929e-06
+        - - 1.6832685395
+          - 0.9271886174
+          - -9.1945e-06
+        - - 1.6832576095
+          - -0.9271973926
+          - -9.194e-06
       isotopes:
       - 12
       - 12

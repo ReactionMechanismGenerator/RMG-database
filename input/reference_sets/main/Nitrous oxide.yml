@@ -4,6 +4,35 @@ adjacency_list: |
   2 N u0 p0 c+1 {1,D} {3,D}
   3 N u0 p2 c-1 {2,D}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 4.179681517144128
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -3.91825e-05
+          - 1.2148678432
+        - - -0.0
+          - 7.67635e-05
+          - 0.0697947131
+        - - 0.0
+          - -3.28833e-05
+          - -1.1240797368
+      isotopes:
+      - 14
+      - 14
+      - 16
+      symbols:
+      - N
+      - N
+      - O
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -25,6 +54,35 @@ calculated_data:
         - - 0.0
           - -3.08862e-05
           - -1.1073874651
+      isotopes:
+      - 14
+      - 14
+      - 16
+      symbols:
+      - N
+      - N
+      - O
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 17.330894464962466
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0
+          - -3.70181e-05
+          - 1.1875498436
+        - - 0.0
+          - 7.21022e-05
+          - 0.0730019236
+        - - -0.0
+          - -3.06986e-05
+          - -1.1029827964
       isotopes:
       - 14
       - 14

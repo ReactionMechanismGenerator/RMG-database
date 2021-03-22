@@ -11,6 +11,70 @@ adjacency_list: |
   9  H u0 p0 c0 {3,S}
   10 H u0 p0 c0 {4,S}
 calculated_data:
+  LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 174.642578176797
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.7054210326
+          - -1.0652733227
+          - -0.0
+        - - -1.4686625475
+          - 0.1348184767
+          - 0.0
+        - - -0.6316447808
+          - 1.2445762721
+          - 0.0
+        - - 0.6308330453
+          - 1.2445424031
+          - 0.0
+        - - 1.4686743772
+          - 0.1354581906
+          - -0.0
+        - - 0.7061548133
+          - -1.0651391824
+          - -0.0
+        - - -1.2359462824
+          - -2.0202644524
+          - -0.0
+        - - -2.5589662399
+          - 0.1321472248
+          - 0.0
+        - - 2.5588185137
+          - 0.1343358289
+          - -0.0
+        - - 1.2364907589
+          - -2.0201156253
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -53,6 +117,70 @@ calculated_data:
         - - 1.2219532511
           - -1.9987441611
           - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 132.84905553729254
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.7007152598
+          - -1.0482216638
+          - -0.0
+        - - -1.4544426522
+          - 0.1320980801
+          - 0.0
+        - - -0.6178003635
+          - 1.2270479774
+          - 0.0
+        - - 0.6180140931
+          - 1.2269561623
+          - 0.0
+        - - 1.4544761997
+          - 0.1318803971
+          - -0.0
+        - - 0.7005590354
+          - -1.0483377915
+          - -0.0
+        - - -1.2224733451
+          - -1.9989196227
+          - -0.0
+        - - -2.5359083101
+          - 0.1348954786
+          - 0.0
+        - - 2.5358778691
+          - 0.1346809337
+          - -0.0
+        - - 1.2219574706
+          - -1.9991957597
+          - -0.0
       isotopes:
       - 12
       - 12
