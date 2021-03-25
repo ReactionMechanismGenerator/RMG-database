@@ -100,5 +100,4 @@ surface = {
 # Surface chemistry families that are under development and not yet working well.
 surface_development = {
     #'Surface_Adsorption_Double',
-    # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
 }
