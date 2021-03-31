@@ -75,18 +75,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.56192,-1.80318,-2.03486,-2.2846,-2.75088,-3.13763,-3.75706],'cal/(mol*K)','+|-',[0.494212,0.507429,0.475777,0.444387,0.392181,0.343187,0.251358]),
-        H298 = (87.3053,'kcal/mol','+|-',0.789499),
-        S298 = (-1.30281,'cal/(mol*K)','+|-',1.34172),
+        Cpdata = ([-1.4815,-1.76183,-2.0107,-2.26705,-2.73704,-3.12225,-3.7534],'cal/(mol*K)','+|-',[0.503132,0.514858,0.482243,0.450189,0.396999,0.347485,0.259848]),
+        H298 = (87.2667,'kcal/mol','+|-',0.783558),
+        S298 = (-1.07088,'cal/(mol*K)','+|-',1.17914),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:ODC(O)[C](Br)Br smiles:O=C(O)[C](Br)Br H298:-46.23 kcal/mol
-library:CHOBr_G4 label:CC(DO)[C](Br)Br smiles:CC(=O)[C](Br)Br H298:-0.84 kcal/mol
-library:CHOBr_G4 label:ODC(Br)[C](Br)Br smiles:O=C(Br)[C](Br)Br H298:10.93 kcal/mol
-library:CHOBr_G4 label:ODC[C](Br)Br smiles:O=C[C](Br)Br H298:10.93 kcal/mol
+library:CHOBr_G4 label:ODC(O)[C](Br)Br smiles:O=C(O)[C](Br)Br H298:-46.24 kcal/mol
+library:CHOBr_G4 label:CC(DO)[C](Br)Br smiles:CC(=O)[C](Br)Br H298:-0.83 kcal/mol
+library:CHOBr_G4 label:ODC(Br)[C](Br)Br smiles:O=C(Br)[C](Br)Br H298:10.94 kcal/mol
+library:CHOBr_G4 label:ODC[C](Br)Br smiles:O=C[C](Br)Br H298:10.92 kcal/mol
 """,
 )
 
@@ -102,17 +102,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.40061,-1.82476,-2.06306,-2.25352,-2.63207,-3.03295,-3.79357],'cal/(mol*K)','+|-',[0.494212,0.507429,0.475777,0.444387,0.392181,0.343187,0.251358]),
-        H298 = (86.4805,'kcal/mol','+|-',0.789499),
-        S298 = (-0.100724,'cal/(mol*K)','+|-',1.34172),
+        Cpdata = ([-1.53049,-1.95284,-2.17323,-2.33206,-2.64706,-2.99283,-3.66811],'cal/(mol*K)','+|-',[0.450015,0.460503,0.431331,0.402661,0.355086,0.3108,0.232415]),
+        H298 = (86.1036,'kcal/mol','+|-',0.700836),
+        S298 = (-1.30245,'cal/(mol*K)','+|-',1.05465),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
 library:CHOClBr_G4 label:ODC(Br)[C](Cl)Br smiles:O=C(Br)[C](Cl)Br H298:-1.01 kcal/mol
-library:CHOClBr_G4 label:CC(DO)[C](Cl)Br smiles:CC(=O)[C](Cl)Br H298:-12.83 kcal/mol
+library:CHOClBr_G4 label:CC(DO)[C](Cl)Br smiles:CC(=O)[C](Cl)Br H298:-12.82 kcal/mol
 library:CHOClBr_G4 label:ODC(O)[C](Cl)Br smiles:O=C(O)[C](Cl)Br H298:-58.18 kcal/mol
+library:CHOClBr_G4 label:ODC(CBr)[C](Cl)Br smiles:O=C(CBr)[C](Cl)Br H298:-4.43 kcal/mol
 library:CHOClBr_G4 label:ODC[C](Cl)Br smiles:O=C[C](Cl)Br H298:-1.11 kcal/mol
 """,
 )
@@ -129,9 +130,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.46732,-1.86748,-2.15651,-2.38254,-2.80851,-3.16653,-3.85184],'cal/(mol*K)','+|-',[0.329475,0.338286,0.317185,0.296258,0.261454,0.228792,0.167572]),
-        H298 = (85.8392,'kcal/mol','+|-',0.526333),
-        S298 = (0.341121,'cal/(mol*K)','+|-',0.894479),
+        Cpdata = ([-1.54265,-1.90747,-2.176,-2.39507,-2.80178,-3.1353,-3.76431],'cal/(mol*K)','+|-',[0.318208,0.325625,0.304997,0.284724,0.251084,0.219769,0.164343]),
+        H298 = (85.6592,'kcal/mol','+|-',0.495566),
+        S298 = (0.0476657,'cal/(mol*K)','+|-',0.745751),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -145,6 +146,7 @@ library:CHOCl_G4 label:ODC([C](Cl)Cl)C(Cl)(Cl)Cl smiles:O=C([C](Cl)Cl)C(Cl)(Cl)C
 library:CHOCl_G4 label:ODC(CCl)[C](Cl)Cl smiles:O=C(CCl)[C](Cl)Cl H298:-26.52 kcal/mol
 library:CHOCl_G4 label:CC(DO)[C](Cl)Cl smiles:CC(=O)[C](Cl)Cl H298:-24.94 kcal/mol
 library:CHOCl_G4 label:ODC([C](Cl)Cl)C(Cl)Cl smiles:O=C([C](Cl)Cl)C(Cl)Cl H298:-28.79 kcal/mol
+library:CHOClBr_G4 label:ODC(CBr)[C](Cl)Cl smiles:O=C(CBr)[C](Cl)Cl H298:-16.34 kcal/mol
 library:CHOClBr_G4 label:ODC(Br)[C](Cl)Cl smiles:O=C(Br)[C](Cl)Cl H298:-13.00 kcal/mol
 """,
 )
@@ -161,21 +163,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.10664,-1.54639,-1.9071,-2.24279,-2.81012,-3.2478,-3.93362],'cal/(mol*K)','+|-',[0.373589,0.38358,0.359654,0.335925,0.296461,0.259425,0.190009]),
-        H298 = (88.9206,'kcal/mol','+|-',0.596805),
-        S298 = (-0.290312,'cal/(mol*K)','+|-',1.01424),
+        Cpdata = ([-0.977717,-1.45636,-1.86809,-2.24133,-2.83579,-3.26685,-3.90411],'cal/(mol*K)','+|-',[0.380332,0.389196,0.364541,0.340311,0.300103,0.262674,0.196427]),
+        H298 = (88.8935,'kcal/mol','+|-',0.592315),
+        S298 = (-1.10963,'cal/(mol*K)','+|-',0.891343),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFBr_G4 label:ODC(Br)[C](F)Br smiles:O=C(Br)[C](F)Br H298:-37.75 kcal/mol
-library:CHOFBr_G4 label:ODC(O)[C](F)Br smiles:O=C(O)[C](F)Br H298:-94.39 kcal/mol
-library:CHOFBr_G4 label:CC(DO)[C](F)Br smiles:CC(=O)[C](F)Br H298:-50.51 kcal/mol
-library:CHOFBr_G4 label:ODC([C](F)Br)C(Br)Br smiles:O=C([C](F)Br)C(Br)Br H298:-31.95 kcal/mol
-library:CHOFBr_G4 label:ODC(OBr)[C](F)Br smiles:O=C(OBr)[C](F)Br H298:-52.65 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)[C](F)Br smiles:O=C(Br)[C](F)Br H298:-37.73 kcal/mol
+library:CHOFBr_G4 label:ODC(O)[C](F)Br smiles:O=C(O)[C](F)Br H298:-94.38 kcal/mol
+library:CHOFBr_G4 label:CC(DO)[C](F)Br smiles:CC(=O)[C](F)Br H298:-50.61 kcal/mol
+library:CHOFBr_G4 label:ODC([C](F)Br)C(Br)Br smiles:O=C([C](F)Br)C(Br)Br H298:-31.90 kcal/mol
+library:CHOFBr_G4 label:ODC(OBr)[C](F)Br smiles:O=C(OBr)[C](F)Br H298:-52.66 kcal/mol
 library:CHOFBr_G4 label:ODC[C](F)Br smiles:O=C[C](F)Br H298:-37.42 kcal/mol
-library:CHOFBr_G4 label:ODC(CBr)[C](F)Br smiles:O=C(CBr)[C](F)Br H298:-41.10 kcal/mol
+library:CHOFBr_G4 label:ODC(CBr)[C](F)Br smiles:O=C(CBr)[C](F)Br H298:-41.07 kcal/mol
 """,
 )
 
@@ -191,9 +193,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.27325,-1.57656,-1.86086,-2.11983,-2.55326,-2.9453,-3.75862],'cal/(mol*K)','+|-',[0.442037,0.453859,0.425548,0.397472,0.350777,0.306956,0.224821]),
-        H298 = (88.5716,'kcal/mol','+|-',0.706149),
-        S298 = (-1.41946,'cal/(mol*K)','+|-',1.20007),
+        Cpdata = ([-1.22697,-1.55808,-1.89386,-2.20446,-2.70713,-3.10769,-3.80702],'cal/(mol*K)','+|-',[0.380332,0.389196,0.364541,0.340311,0.300103,0.262674,0.196427]),
+        H298 = (88.6672,'kcal/mol','+|-',0.592315),
+        S298 = (-1.26647,'cal/(mol*K)','+|-',0.891343),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -203,7 +205,9 @@ library:CHOFCl_G4 label:ODC(Cl)[C](F)Cl smiles:O=C(Cl)[C](F)Cl H298:-62.70 kcal/
 library:CHOFCl_G4 label:ODC[C](F)Cl smiles:O=C[C](F)Cl H298:-50.20 kcal/mol
 library:CHOFCl_G4 label:CC(DO)[C](F)Cl smiles:CC(=O)[C](F)Cl H298:-63.75 kcal/mol
 library:CHOFCl_G4 label:ODC(O)[C](F)Cl smiles:O=C(O)[C](F)Cl H298:-107.14 kcal/mol
-library:CHOFClBr_G4 label:ODC(Br)[C](F)Cl smiles:O=C(Br)[C](F)Cl H298:-50.27 kcal/mol
+library:CHOFClBr_G4 label:ODC(CBr)[C](F)Cl smiles:O=C(CBr)[C](F)Cl H298:-53.80 kcal/mol
+library:CHOFClBr_G4 label:ODC(OBr)[C](F)Cl smiles:O=C(OBr)[C](F)Cl H298:-65.17 kcal/mol
+library:CHOFClBr_G4 label:ODC(Br)[C](F)Cl smiles:O=C(Br)[C](F)Cl H298:-50.26 kcal/mol
 """,
 )
 
@@ -219,9 +223,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0230327,-0.342649,-0.866132,-1.38589,-2.2862,-2.94061,-3.8375],'cal/(mol*K)','+|-',[0.264167,0.271232,0.254314,0.237535,0.20963,0.183441,0.134356]),
-        H298 = (93.0546,'kcal/mol','+|-',0.422005),
-        S298 = (-0.504836,'cal/(mol*K)','+|-',0.717179),
+        Cpdata = ([-0.114833,-0.447746,-0.938002,-1.43026,-2.29597,-2.93054,-3.80896],'cal/(mol*K)','+|-',[0.279087,0.285592,0.2675,0.24972,0.220215,0.19275,0.144138]),
+        H298 = (92.3731,'kcal/mol','+|-',0.43464),
+        S298 = (-2.25107,'cal/(mol*K)','+|-',0.654067),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -233,14 +237,13 @@ library:CHOF_G4 label:ODC([C](F)F)C(F)F smiles:O=C([C](F)F)C(F)F H298:-191.21 kc
 library:CHOF_G4 label:ODC(CF)[C](F)F smiles:O=C(CF)[C](F)F H298:-140.16 kcal/mol
 library:CHOF_G4 label:ODC(O)[C](F)F smiles:O=C(O)[C](F)F H298:-146.09 kcal/mol
 library:CHOF_G4 label:ODC(F)[C](F)F smiles:O=C(F)[C](F)F H298:-146.91 kcal/mol
-library:CHOF_G4 label:ODC(OF)[C](F)F smiles:O=C(OF)[C](F)F H298:-104.74 kcal/mol
 library:CHOF_G4 label:ODC([C](F)F)C(F)(F)F smiles:O=C([C](F)F)C(F)(F)F H298:-246.97 kcal/mol
 library:CHOFCl_G4 label:ODC(Cl)[C](F)F smiles:O=C(Cl)[C](F)F H298:-101.63 kcal/mol
-library:CHOFBr_G4 label:ODC(CBr)[C](F)F smiles:O=C(CBr)[C](F)F H298:-93.04 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)[C](F)F smiles:O=C(Br)[C](F)F H298:-89.06 kcal/mol
-library:CHOFBr_G4 label:ODC(OBr)[C](F)F smiles:O=C(OBr)[C](F)F H298:-104.11 kcal/mol
-library:CHOFBr_G4 label:ODC([C](F)F)C(Br)Br smiles:O=C([C](F)F)C(Br)Br H298:-83.86 kcal/mol
-library:CHOFBr_G4 label:ODC([C](F)F)C(F)Br smiles:O=C([C](F)F)C(F)Br H298:-134.62 kcal/mol
+library:CHOFBr_G4 label:ODC(CBr)[C](F)F smiles:O=C(CBr)[C](F)F H298:-93.01 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)[C](F)F smiles:O=C(Br)[C](F)F H298:-89.05 kcal/mol
+library:CHOFBr_G4 label:ODC(OBr)[C](F)F smiles:O=C(OBr)[C](F)F H298:-104.51 kcal/mol
+library:CHOFBr_G4 label:ODC([C](F)F)C(Br)Br smiles:O=C([C](F)F)C(Br)Br H298:-83.82 kcal/mol
+library:CHOFBr_G4 label:ODC([C](F)F)C(F)Br smiles:O=C([C](F)F)C(F)Br H298:-134.60 kcal/mol
 """,
 )
 
@@ -256,20 +259,20 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.486218,-0.830888,-1.18514,-1.50547,-2.11525,-2.68783,-3.77601],'cal/(mol*K)','+|-',[0.403522,0.414314,0.38847,0.362841,0.320214,0.280211,0.205233]),
-        H298 = (90.3947,'kcal/mol','+|-',0.644623),
-        S298 = (-2.0357,'cal/(mol*K)','+|-',1.09551),
+        Cpdata = ([-0.434914,-0.781665,-1.14199,-1.46951,-2.09165,-2.6703,-3.76698],'cal/(mol*K)','+|-',[0.410805,0.42038,0.39375,0.367578,0.324148,0.283721,0.212165]),
+        H298 = (90.335,'kcal/mol','+|-',0.639773),
+        S298 = (-1.98245,'cal/(mol*K)','+|-',0.96276),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:ODC(Br)[CH]Br smiles:O=C(Br)[CH]Br H298:3.59 kcal/mol
-library:CHOBr_G4 label:ODC([CH]Br)OBr smiles:O=C([CH]Br)OBr H298:-11.57 kcal/mol
-library:CHOBr_G4 label:ODC([CH]Br)CBr smiles:O=C([CH]Br)CBr H298:2.47 kcal/mol
-library:CHOBr_G4 label:ODC[CH]Br smiles:O=C[CH]Br H298:6.00 kcal/mol
-library:CHOBr_G4 label:CC(DO)[CH]Br smiles:CC(=O)[CH]Br H298:-6.15 kcal/mol
-library:CHOBr_G4 label:ODC(O)[CH]Br smiles:O=C(O)[CH]Br H298:-52.74 kcal/mol
+library:CHOBr_G4 label:ODC(Br)[CH]Br smiles:O=C(Br)[CH]Br H298:3.55 kcal/mol
+library:CHOBr_G4 label:ODC([CH]Br)OBr smiles:O=C([CH]Br)OBr H298:-11.64 kcal/mol
+library:CHOBr_G4 label:ODC([CH]Br)CBr smiles:O=C([CH]Br)CBr H298:2.44 kcal/mol
+library:CHOBr_G4 label:ODC[CH]Br smiles:O=C[CH]Br H298:5.96 kcal/mol
+library:CHOBr_G4 label:CC(DO)[CH]Br smiles:CC(=O)[CH]Br H298:-6.16 kcal/mol
+library:CHOBr_G4 label:ODC(O)[CH]Br smiles:O=C(O)[CH]Br H298:-52.78 kcal/mol
 """,
 )
 
@@ -285,9 +288,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.57003,-0.738929,-1.06503,-1.39581,-2.03941,-2.63124,-3.69337],'cal/(mol*K)','+|-',[0.298021,0.305991,0.286904,0.267976,0.236494,0.20695,0.151574]),
-        H298 = (88.5012,'kcal/mol','+|-',0.476086),
-        S298 = (-1.95718,'cal/(mol*K)','+|-',0.809087),
+        Cpdata = ([-0.80433,-0.962668,-1.24881,-1.53549,-2.09622,-2.61788,-3.57454],'cal/(mol*K)','+|-',[0.279087,0.285592,0.2675,0.24972,0.220215,0.19275,0.144138]),
+        H298 = (88.3027,'kcal/mol','+|-',0.43464),
+        S298 = (-2.06491,'cal/(mol*K)','+|-',0.654067),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -301,9 +304,11 @@ library:CHOCl_G4 label:CC(DO)[CH]Cl smiles:CC(=O)[CH]Cl H298:-18.50 kcal/mol
 library:CHOCl_G4 label:ODC[CH]Cl smiles:O=C[CH]Cl H298:-6.29 kcal/mol
 library:CHOCl_G4 label:ODC([CH]Cl)OCl smiles:O=C([CH]Cl)OCl H298:-25.50 kcal/mol
 library:CHOCl_G4 label:ODC([CH]Cl)C(Cl)(Cl)Cl smiles:O=C([CH]Cl)C(Cl)(Cl)Cl H298:-25.31 kcal/mol
-library:CHOClBr_G4 label:ODC([CH]Cl)OBr smiles:O=C([CH]Cl)OBr H298:-23.74 kcal/mol
-library:CHOClBr_G4 label:ODC(Br)[CH]Cl smiles:O=C(Br)[CH]Cl H298:-8.44 kcal/mol
-library:CHOClBr_G4 label:ODC([CH]Cl)CBr smiles:O=C([CH]Cl)CBr H298:-9.69 kcal/mol
+library:CHOClBr_G4 label:ODC([CH]Cl)OBr smiles:O=C([CH]Cl)OBr H298:-23.77 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)[CH]Cl smiles:O=C(Br)[CH]Cl H298:-8.43 kcal/mol
+library:CHOClBr_G4 label:ODC([CH]Cl)C(Br)Br smiles:O=C([CH]Cl)C(Br)Br H298:-2.22 kcal/mol
+library:CHOClBr_G4 label:ODC([CH]Cl)CBr smiles:O=C([CH]Cl)CBr H298:-9.66 kcal/mol
+library:CHOClBr_G4 label:ODC([CH]Cl)C(Cl)Br smiles:O=C([CH]Cl)C(Cl)Br H298:-11.82 kcal/mol
 """,
 )
 
@@ -319,9 +324,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.11204,-1.34335,-1.69224,-2.07284,-2.75347,-3.23588,-4.03263],'cal/(mol*K)','+|-',[0.22676,0.232825,0.218301,0.203899,0.179945,0.157465,0.115331]),
-        H298 = (89.9852,'kcal/mol','+|-',0.362247),
-        S298 = (-1.6464,'cal/(mol*K)','+|-',0.615623),
+        Cpdata = ([-1.18361,-1.43197,-1.78593,-2.16254,-2.82112,-3.2789,-4.02742],'cal/(mol*K)','+|-',[0.225007,0.230252,0.215666,0.201331,0.177543,0.1554,0.116208]),
+        H298 = (89.9362,'kcal/mol','+|-',0.350418),
+        S298 = (-1.71373,'cal/(mol*K)','+|-',0.527325),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -338,14 +343,15 @@ library:CHOF_G4 label:CC(DO)[CH]F smiles:CC(=O)[CH]F H298:-55.22 kcal/mol
 library:CHOFCl_G4 label:ODC([CH]F)OCl smiles:O=C([CH]F)OCl H298:-61.76 kcal/mol
 library:CHOFCl_G4 label:ODC(Cl)[CH]F smiles:O=C(Cl)[CH]F H298:-56.57 kcal/mol
 library:CHOFCl_G4 label:ODC([CH]F)CCl smiles:O=C([CH]F)CCl H298:-56.34 kcal/mol
-library:CHOFBr_G4 label:ODC([CH]F)C(F)(Br)Br smiles:O=C([CH]F)C(F)(Br)Br H298:-79.11 kcal/mol
-library:CHOFBr_G4 label:ODC([CH]F)CBr smiles:O=C([CH]F)CBr H298:-45.90 kcal/mol
-library:CHOFBr_G4 label:ODC([CH]F)C(Br)Br smiles:O=C([CH]F)C(Br)Br H298:-37.33 kcal/mol
-library:CHOFBr_G4 label:ODC([CH]F)C(Br)(Br)Br smiles:O=C([CH]F)C(Br)(Br)Br H298:-25.35 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)[CH]F smiles:O=C(Br)[CH]F H298:-43.97 kcal/mol
-library:CHOFBr_G4 label:ODC([CH]F)C(F)(F)Br smiles:O=C([CH]F)C(F)(F)Br H298:-137.28 kcal/mol
-library:CHOFBr_G4 label:ODC([CH]F)C(F)Br smiles:O=C([CH]F)C(F)Br H298:-88.05 kcal/mol
-library:CHOFBr_G4 label:ODC([CH]F)OBr smiles:O=C([CH]F)OBr H298:-58.94 kcal/mol
+library:CHOFClBr_G4 label:ODC([CH]F)C(Cl)Br smiles:O=C([CH]F)C(Cl)Br H298:-48.38 kcal/mol
+library:CHOFBr_G4 label:ODC([CH]F)C(F)(Br)Br smiles:O=C([CH]F)C(F)(Br)Br H298:-79.04 kcal/mol
+library:CHOFBr_G4 label:ODC([CH]F)CBr smiles:O=C([CH]F)CBr H298:-45.86 kcal/mol
+library:CHOFBr_G4 label:ODC([CH]F)C(Br)Br smiles:O=C([CH]F)C(Br)Br H298:-37.27 kcal/mol
+library:CHOFBr_G4 label:ODC([CH]F)C(Br)(Br)Br smiles:O=C([CH]F)C(Br)(Br)Br H298:-25.27 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)[CH]F smiles:O=C(Br)[CH]F H298:-43.96 kcal/mol
+library:CHOFBr_G4 label:ODC([CH]F)C(F)(F)Br smiles:O=C([CH]F)C(F)(F)Br H298:-137.26 kcal/mol
+library:CHOFBr_G4 label:ODC([CH]F)C(F)Br smiles:O=C([CH]F)C(F)Br H298:-88.02 kcal/mol
+library:CHOFBr_G4 label:ODC([CH]F)OBr smiles:O=C([CH]F)OBr H298:-58.97 kcal/mol
 """,
 )
 
@@ -361,16 +367,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.12412,-2.99811,-3.45358,-3.64604,-3.81702,-3.87261,-4.00097],'cal/(mol*K)','+|-',[0.494212,0.507429,0.475777,0.444387,0.392181,0.343187,0.251358]),
-        H298 = (83.101,'kcal/mol','+|-',0.789499),
-        S298 = (-2.60285e-05,'cal/(mol*K)','+|-',1.34172),
+        Cpdata = ([-2.06989,-2.96139,-3.42753,-3.62903,-3.80578,-3.865,-3.99777],'cal/(mol*K)','+|-',[0.503132,0.514858,0.482243,0.450189,0.396999,0.347485,0.259848]),
+        H298 = (83.0654,'kcal/mol','+|-',0.783558),
+        S298 = (-0.516226,'cal/(mol*K)','+|-',1.17914),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
 library:CHOBr_G4 label:ODC[C](O)Br smiles:O=C[C](O)Br H298:-43.84 kcal/mol
-library:CHOBr_G4 label:ODC(Br)[C](O)Br smiles:O=C(Br)[C](O)Br H298:-43.14 kcal/mol
+library:CHOBr_G4 label:ODC(Br)[C](O)Br smiles:O=C(Br)[C](O)Br H298:-43.12 kcal/mol
 library:CHOFBr_G4 label:ODC(F)[C](O)Br smiles:O=C(F)[C](O)Br H298:-100.26 kcal/mol
 library:CHOClBr_G4 label:ODC(Cl)[C](O)Br smiles:O=C(Cl)[C](O)Br H298:-55.71 kcal/mol
 """,
@@ -388,9 +394,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.30789,-3.14343,-3.54971,-3.65949,-3.72569,-3.71624,-3.64574],'cal/(mol*K)','+|-',[0.570667,0.585929,0.54938,0.513134,0.452851,0.396279,0.290243]),
-        H298 = (81.7661,'kcal/mol','+|-',0.911635),
-        S298 = (0.125636,'cal/(mol*K)','+|-',1.54928),
+        Cpdata = ([-2.30789,-3.14343,-3.54971,-3.65949,-3.72569,-3.71624,-3.64574],'cal/(mol*K)','+|-',[0.580966,0.594507,0.556846,0.519833,0.458415,0.401241,0.300047]),
+        H298 = (81.7661,'kcal/mol','+|-',0.904775),
+        S298 = (0.125636,'cal/(mol*K)','+|-',1.36155),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -414,9 +420,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.00005,-2.77291,-3.25129,-3.46512,-3.63633,-3.66557,-3.58204],'cal/(mol*K)','+|-',[0.698921,0.717613,0.67285,0.628458,0.554627,0.48534,0.355473]),
-        H298 = (85.1381,'kcal/mol','+|-',1.11652),
-        S298 = (0.447461,'cal/(mol*K)','+|-',1.89748),
+        Cpdata = ([-2.00005,-2.77291,-3.25129,-3.46512,-3.63633,-3.66557,-3.58204],'cal/(mol*K)','+|-',[0.711535,0.728119,0.681994,0.636663,0.561441,0.491418,0.367481]),
+        H298 = (85.1381,'kcal/mol','+|-',1.10812),
+        S298 = (0.447461,'cal/(mol*K)','+|-',1.66755),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -601,27 +607,31 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.95105,-2.22409,-2.42576,-2.61947,-3.01655,-3.40045,-4.11254],'cal/(mol*K)','+|-',[0.274139,0.281471,0.263914,0.246502,0.217543,0.190366,0.139428]),
-        H298 = (88.1056,'kcal/mol','+|-',0.437935),
-        S298 = (1.90413,'cal/(mol*K)','+|-',0.744252),
+        Cpdata = ([-1.9623,-2.33493,-2.59894,-2.81599,-3.18812,-3.51323,-4.09122],'cal/(mol*K)','+|-',[0.244055,0.249743,0.233922,0.218374,0.192573,0.168555,0.126045]),
+        H298 = (88.1116,'kcal/mol','+|-',0.380082),
+        S298 = (1.43586,'cal/(mol*K)','+|-',0.571965),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:C[C](Br)C(DO)Br smiles:C[C](Br)C(=O)Br H298:-7.05 kcal/mol
+library:CHOBr_G4 label:C[C](Br)C(DO)Br smiles:C[C](Br)C(=O)Br H298:-7.06 kcal/mol
 library:CHOBr_G4 label:C[C](Br)CDO smiles:C[C](Br)C=O H298:-6.54 kcal/mol
-library:CHOBr_G4 label:ODC[C](Br)CBr smiles:O=C[C](Br)CBr H298:0.60 kcal/mol
-library:CHOFBr_G4 label:ODC[C](Br)C(F)(F)F smiles:O=C[C](Br)C(F)(F)F H298:-151.73 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)[C](Br)C(F)F smiles:O=C(Br)[C](Br)C(F)F H298:-97.86 kcal/mol
-library:CHOFBr_G4 label:ODC[C](Br)C(F)(Br)Br smiles:O=C[C](Br)C(F)(Br)Br H298:-30.44 kcal/mol
-library:CHOFBr_G4 label:ODC[C](Br)C(F)Br smiles:O=C[C](Br)C(F)Br H298:-39.55 kcal/mol
+library:CHOBr_G4 label:ODC[C](Br)CBr smiles:O=C[C](Br)CBr H298:0.62 kcal/mol
+library:CHOFClBr_G4 label:ODC[C](Br)C(F)Cl smiles:O=C[C](Br)C(F)Cl H298:-51.37 kcal/mol
+library:CHOFBr_G4 label:ODC[C](Br)C(F)(F)F smiles:O=C[C](Br)C(F)(F)F H298:-151.74 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)[C](Br)C(F)F smiles:O=C(Br)[C](Br)C(F)F H298:-97.91 kcal/mol
+library:CHOFBr_G4 label:ODC[C](Br)C(F)(Br)Br smiles:O=C[C](Br)C(F)(Br)Br H298:-30.42 kcal/mol
+library:CHOFBr_G4 label:ODC[C](Br)C(F)Br smiles:O=C[C](Br)C(F)Br H298:-39.53 kcal/mol
 library:CHOFBr_G4 label:ODC(Br)[C](Br)CF smiles:O=C(Br)[C](Br)CF H298:-45.78 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)[C](Br)C(F)Br smiles:O=C(Br)[C](Br)C(F)Br H298:-42.04 kcal/mol
-library:CHOFBr_G4 label:ODC[C](Br)C(F)(F)Br smiles:O=C[C](Br)C(F)(F)Br H298:-88.97 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)[C](Br)C(F)Br smiles:O=C(Br)[C](Br)C(F)Br H298:-42.03 kcal/mol
+library:CHOFBr_G4 label:ODC[C](Br)C(F)(F)Br smiles:O=C[C](Br)C(F)(F)Br H298:-88.96 kcal/mol
 library:CHOFBr_G4 label:ODC[C](Br)CF smiles:O=C[C](Br)CF H298:-45.86 kcal/mol
-library:CHOFBr_G4 label:ODC[C](Br)C(F)F smiles:O=C[C](Br)C(F)F H298:-97.16 kcal/mol
+library:CHOFBr_G4 label:ODC[C](Br)C(F)F smiles:O=C[C](Br)C(F)F H298:-97.17 kcal/mol
 library:CHOClBr_G4 label:ODC[C](Br)CCl smiles:O=C[C](Br)CCl H298:-9.41 kcal/mol
+library:CHOClBr_G4 label:ODC[C](Br)C(Cl)Cl smiles:O=C[C](Br)C(Cl)Cl H298:-10.93 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)[C](Br)CCl smiles:O=C(Br)[C](Br)CCl H298:-10.04 kcal/mol
+library:CHOClBr_G4 label:ODC[C](Br)C(Cl)Br smiles:O=C[C](Br)C(Cl)Br H298:0.21 kcal/mol
 """,
 )
 
@@ -637,9 +647,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.16691,-1.63574,-2.09046,-2.48493,-3.10168,-3.53478,-4.18937],'cal/(mol*K)','+|-',[0.312567,0.320926,0.300908,0.281055,0.248037,0.217051,0.158973]),
-        H298 = (86.6,'kcal/mol','+|-',0.499323),
-        S298 = (0.928022,'cal/(mol*K)','+|-',0.848578),
+        Cpdata = ([-1.36723,-1.86501,-2.30191,-2.65374,-3.18409,-3.56287,-4.14002],'cal/(mol*K)','+|-',[0.3034,0.310471,0.290803,0.271474,0.239399,0.209542,0.156694]),
+        H298 = (86.9272,'kcal/mol','+|-',0.472504),
+        S298 = (1.27989,'cal/(mol*K)','+|-',0.711045),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -654,7 +664,8 @@ library:CHOCl_G4 label:ODC[C](Cl)C(Cl)(Cl)Cl smiles:O=C[C](Cl)C(Cl)(Cl)Cl H298:-
 library:CHOCl_G4 label:ODC(Cl)[C](Cl)CCl smiles:O=C(Cl)[C](Cl)CCl H298:-34.79 kcal/mol
 library:CHOCl_G4 label:ODC[C](Cl)C(Cl)Cl smiles:O=C[C](Cl)C(Cl)Cl H298:-24.94 kcal/mol
 library:CHOFCl_G4 label:ODC[C](Cl)CF smiles:O=C[C](Cl)CF H298:-58.06 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(DO)Br smiles:C[C](Cl)C(=O)Br H298:-19.78 kcal/mol
+library:CHOFClBr_G4 label:ODC(Br)[C](Cl)CF smiles:O=C(Br)[C](Cl)CF H298:-58.61 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)[C](Cl)CCl smiles:O=C(Br)[C](Cl)CCl H298:-22.36 kcal/mol
 """,
 )
 
@@ -670,9 +681,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.31427,-1.63375,-2.02315,-2.4112,-3.05102,-3.49285,-4.01448],'cal/(mol*K)','+|-',[0.285333,0.292964,0.27469,0.256567,0.226426,0.198139,0.145122]),
-        H298 = (89.2948,'kcal/mol','+|-',0.455817),
-        S298 = (0.254838,'cal/(mol*K)','+|-',0.774642),
+        Cpdata = ([-1.31272,-1.63216,-2.02142,-2.40946,-3.0498,-3.49232,-4.01408],'cal/(mol*K)','+|-',[0.290483,0.297253,0.278423,0.259917,0.229207,0.200621,0.150024]),
+        H298 = (89.2932,'kcal/mol','+|-',0.452388),
+        S298 = (0.0367457,'cal/(mol*K)','+|-',0.680774),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -688,8 +699,8 @@ library:CHOF_G4 label:ODC[C](F)C(F)F smiles:O=C[C](F)C(F)F H298:-144.44 kcal/mol
 library:CHOF_G4 label:ODC(F)[C](F)CF smiles:O=C(F)[C](F)CF H298:-153.74 kcal/mol
 library:CHOFCl_G4 label:C[C](F)C(DO)Cl smiles:C[C](F)C(=O)Cl H298:-70.22 kcal/mol
 library:CHOFBr_G4 label:ODC(Br)[C](F)CF smiles:O=C(Br)[C](F)CF H298:-95.23 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(DO)Br smiles:C[C](F)C(=O)Br H298:-57.86 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)[C](F)C(F)F smiles:O=C(Br)[C](F)C(F)F H298:-144.67 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(DO)Br smiles:C[C](F)C(=O)Br H298:-57.87 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)[C](F)C(F)F smiles:O=C(Br)[C](F)C(F)F H298:-144.66 kcal/mol
 """,
 )
 
@@ -705,33 +716,35 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.06482,-2.14079,-2.92763,-3.53967,-4.33677,-4.7435,-5.02543],'cal/(mol*K)','+|-',[0.22676,0.232825,0.218301,0.203899,0.179945,0.157465,0.115331]),
-        H298 = (94.6857,'kcal/mol','+|-',0.362247),
-        S298 = (2.65274,'cal/(mol*K)','+|-',0.615623),
+        Cpdata = ([-1.01928,-2.11344,-2.91245,-3.51863,-4.30204,-4.69417,-4.91746],'cal/(mol*K)','+|-',[0.219585,0.224702,0.210468,0.196479,0.173264,0.151655,0.113407]),
+        H298 = (94.7322,'kcal/mol','+|-',0.341973),
+        S298 = (3.04996,'cal/(mol*K)','+|-',0.514617),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:OCO[C](Br)Br smiles:OCO[C](Br)Br H298:-35.95 kcal/mol
-library:CHOBr_G4 label:OC(Br)O[C](Br)Br smiles:OC(Br)O[C](Br)Br H298:-31.61 kcal/mol
-library:CHOBr_G4 label:CDCO[C](Br)Br smiles:C=CO[C](Br)Br H298:29.69 kcal/mol
-library:CHOBr_G4 label:BrOCO[C](Br)Br smiles:BrOCO[C](Br)Br H298:2.18 kcal/mol
-library:CHOBr_G4 label:BrOC(Br)O[C](Br)Br smiles:BrOC(Br)O[C](Br)Br H298:6.96 kcal/mol
-library:CHOBr_G4 label:CO[C](Br)Br smiles:CO[C](Br)Br H298:6.36 kcal/mol
-library:CHOBr_G4 label:CCO[C](Br)Br smiles:CCO[C](Br)Br H298:-2.19 kcal/mol
-library:CHOBr_G4 label:BrC#CO[C](Br)Br smiles:BrC#CO[C](Br)Br H298:97.02 kcal/mol
-library:CHOBr_G4 label:BrCO[C](Br)Br smiles:BrCO[C](Br)Br H298:11.93 kcal/mol
-library:CHOBr_G4 label:BrCCO[C](Br)Br smiles:BrCCO[C](Br)Br H298:4.48 kcal/mol
-library:CHOBr_G4 label:C#CO[C](Br)Br smiles:C#CO[C](Br)Br H298:85.37 kcal/mol
-library:CHOBr_G4 label:ODCO[C](Br)Br smiles:O=CO[C](Br)Br H298:-25.67 kcal/mol
-library:CHOBr_G4 label:Br[C](Br)OC(Br)Br smiles:Br[C](Br)OC(Br)Br H298:21.12 kcal/mol
-library:CHOBr_G4 label:BrCDCO[C](Br)Br smiles:BrC=CO[C](Br)Br H298:35.72 kcal/mol
-library:CHOBr_G4 label:BrCC(Br)O[C](Br)Br smiles:BrCC(Br)O[C](Br)Br H298:6.57 kcal/mol
-library:CHOBr_G4 label:O[C](Br)Br smiles:O[C](Br)Br H298:3.39 kcal/mol
-library:CHOBr_G4 label:CC(Br)O[C](Br)Br smiles:CC(Br)O[C](Br)Br H298:0.24 kcal/mol
-library:CHOFBr_G4 label:FC#CO[C](Br)Br smiles:FC#CO[C](Br)Br H298:60.28 kcal/mol
-library:CHOClBr_G4 label:ClC#CO[C](Br)Br smiles:ClC#CO[C](Br)Br H298:86.40 kcal/mol
+library:CHOBr_G4 label:OCO[C](Br)Br smiles:OCO[C](Br)Br H298:-35.94 kcal/mol
+library:CHOBr_G4 label:OC(Br)O[C](Br)Br smiles:OC(Br)O[C](Br)Br H298:-31.57 kcal/mol
+library:CHOBr_G4 label:CDCO[C](Br)Br smiles:C=CO[C](Br)Br H298:29.73 kcal/mol
+library:CHOBr_G4 label:BrOCO[C](Br)Br smiles:BrOCO[C](Br)Br H298:2.15 kcal/mol
+library:CHOBr_G4 label:BrOC(Br)O[C](Br)Br smiles:BrOC(Br)O[C](Br)Br H298:7.00 kcal/mol
+library:CHOBr_G4 label:CO[C](Br)Br smiles:CO[C](Br)Br H298:6.40 kcal/mol
+library:CHOBr_G4 label:CCO[C](Br)Br smiles:CCO[C](Br)Br H298:-2.16 kcal/mol
+library:CHOBr_G4 label:BrC#CO[C](Br)Br smiles:BrC#CO[C](Br)Br H298:96.99 kcal/mol
+library:CHOBr_G4 label:BrCO[C](Br)Br smiles:BrCO[C](Br)Br H298:11.95 kcal/mol
+library:CHOBr_G4 label:BrCCO[C](Br)Br smiles:BrCCO[C](Br)Br H298:4.50 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)OCC(Br)Br smiles:Br[C](Br)OCC(Br)Br H298:10.69 kcal/mol
+library:CHOBr_G4 label:C#CO[C](Br)Br smiles:C#CO[C](Br)Br H298:85.39 kcal/mol
+library:CHOBr_G4 label:ODCO[C](Br)Br smiles:O=CO[C](Br)Br H298:-25.65 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)OC(Br)Br smiles:Br[C](Br)OC(Br)Br H298:21.14 kcal/mol
+library:CHOBr_G4 label:ODC(Br)O[C](Br)Br smiles:O=C(Br)O[C](Br)Br H298:-22.38 kcal/mol
+library:CHOBr_G4 label:BrCDCO[C](Br)Br smiles:BrC=CO[C](Br)Br H298:35.69 kcal/mol
+library:CHOBr_G4 label:BrCC(Br)O[C](Br)Br smiles:BrCC(Br)O[C](Br)Br H298:6.58 kcal/mol
+library:CHOBr_G4 label:O[C](Br)Br smiles:O[C](Br)Br H298:3.40 kcal/mol
+library:CHOBr_G4 label:CC(Br)O[C](Br)Br smiles:CC(Br)O[C](Br)Br H298:0.27 kcal/mol
+library:CHOFBr_G4 label:FC#CO[C](Br)Br smiles:FC#CO[C](Br)Br H298:60.30 kcal/mol
+library:CHOClBr_G4 label:ClC#CO[C](Br)Br smiles:ClC#CO[C](Br)Br H298:86.42 kcal/mol
 """,
 )
 
@@ -747,28 +760,29 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.378665,-1.44155,-2.27914,-2.93104,-3.82506,-4.38583,-5.03853],'cal/(mol*K)','+|-',[0.264167,0.271232,0.254314,0.237535,0.20963,0.183441,0.134356]),
-        H298 = (95.1183,'kcal/mol','+|-',0.422005),
-        S298 = (5.33713,'cal/(mol*K)','+|-',0.717179),
+        Cpdata = ([-0.24794,-1.27652,-2.11139,-2.77556,-3.71217,-4.32038,-5.07912],'cal/(mol*K)','+|-',[0.259816,0.265872,0.249029,0.232477,0.205009,0.179441,0.134185]),
+        H298 = (95.0803,'kcal/mol','+|-',0.404628),
+        S298 = (5.58262,'cal/(mol*K)','+|-',0.608903),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFClBr_G4 label:FC#CO[C](Cl)Br smiles:FC#CO[C](Cl)Br H298:48.00 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Br)OCBr smiles:Cl[C](Br)OCBr H298:-0.52 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Br)OCOBr smiles:Cl[C](Br)OCOBr H298:-9.77 kcal/mol
-library:CHOClBr_G4 label:CO[C](Cl)Br smiles:CO[C](Cl)Br H298:-5.82 kcal/mol
-library:CHOClBr_G4 label:CCO[C](Cl)Br smiles:CCO[C](Cl)Br H298:-14.28 kcal/mol
-library:CHOClBr_G4 label:ClC#CO[C](Cl)Br smiles:ClC#CO[C](Cl)Br H298:74.16 kcal/mol
+library:CHOFClBr_G4 label:FC#CO[C](Cl)Br smiles:FC#CO[C](Cl)Br H298:48.02 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)OCBr smiles:Cl[C](Br)OCBr H298:-0.50 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)OC(Br)Br smiles:Cl[C](Br)OC(Br)Br H298:8.78 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)OCOBr smiles:Cl[C](Br)OCOBr H298:-9.80 kcal/mol
+library:CHOClBr_G4 label:CO[C](Cl)Br smiles:CO[C](Cl)Br H298:-5.79 kcal/mol
+library:CHOClBr_G4 label:CCO[C](Cl)Br smiles:CCO[C](Cl)Br H298:-14.26 kcal/mol
+library:CHOClBr_G4 label:ClC#CO[C](Cl)Br smiles:ClC#CO[C](Cl)Br H298:74.17 kcal/mol
 library:CHOClBr_G4 label:OCO[C](Cl)Br smiles:OCO[C](Cl)Br H298:-48.14 kcal/mol
-library:CHOClBr_G4 label:OC(Br)O[C](Cl)Br smiles:OC(Br)O[C](Cl)Br H298:-43.71 kcal/mol
-library:CHOClBr_G4 label:CDCO[C](Cl)Br smiles:C=CO[C](Cl)Br H298:16.98 kcal/mol
-library:CHOClBr_G4 label:OO[C](Cl)Br smiles:OO[C](Cl)Br H298:12.36 kcal/mol
-library:CHOClBr_G4 label:O[C](Cl)Br smiles:O[C](Cl)Br H298:-8.92 kcal/mol
-library:CHOClBr_G4 label:ODC(Br)O[C](Cl)Br smiles:O=C(Br)O[C](Cl)Br H298:-34.29 kcal/mol
-library:CHOClBr_G4 label:ODCO[C](Cl)Br smiles:O=CO[C](Cl)Br H298:-37.93 kcal/mol
-library:CHOClBr_G4 label:C#CO[C](Cl)Br smiles:C#CO[C](Cl)Br H298:73.09 kcal/mol
+library:CHOClBr_G4 label:OC(Br)O[C](Cl)Br smiles:OC(Br)O[C](Cl)Br H298:-43.68 kcal/mol
+library:CHOClBr_G4 label:CDCO[C](Cl)Br smiles:C=CO[C](Cl)Br H298:17.01 kcal/mol
+library:CHOClBr_G4 label:OO[C](Cl)Br smiles:OO[C](Cl)Br H298:12.43 kcal/mol
+library:CHOClBr_G4 label:O[C](Cl)Br smiles:O[C](Cl)Br H298:-8.91 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)O[C](Cl)Br smiles:O=C(Br)O[C](Cl)Br H298:-34.28 kcal/mol
+library:CHOClBr_G4 label:ODCO[C](Cl)Br smiles:O=CO[C](Cl)Br H298:-37.91 kcal/mol
+library:CHOClBr_G4 label:C#CO[C](Cl)Br smiles:C#CO[C](Cl)Br H298:73.10 kcal/mol
 """,
 )
 
@@ -784,9 +798,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.20448,-1.29445,-2.25688,-3.01312,-4.03158,-4.61682,-5.20422],'cal/(mol*K)','+|-',[0.160344,0.164632,0.154362,0.144178,0.12724,0.111345,0.0815512]),
-        H298 = (94.8744,'kcal/mol','+|-',0.256147),
-        S298 = (4.16931,'cal/(mol*K)','+|-',0.435311),
+        Cpdata = ([-0.205255,-1.2948,-2.25684,-3.01284,-4.03108,-4.61632,-5.20431],'cal/(mol*K)','+|-',[0.163237,0.167042,0.15646,0.146061,0.128803,0.112739,0.084306]),
+        H298 = (94.8893,'kcal/mol','+|-',0.25422),
+        S298 = (4.23056,'cal/(mol*K)','+|-',0.382562),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -825,11 +839,11 @@ library:CHOCl_G4 label:OC(Cl)(Cl)O[C](Cl)Cl smiles:OC(Cl)(Cl)O[C](Cl)Cl H298:-71
 library:CHOCl_G4 label:CO[C](Cl)Cl smiles:CO[C](Cl)Cl H298:-17.79 kcal/mol
 library:CHOFCl_G4 label:FC#CO[C](Cl)Cl smiles:FC#CO[C](Cl)Cl H298:35.82 kcal/mol
 library:CHOClBr_G4 label:ODC(Br)O[C](Cl)Cl smiles:O=C(Br)O[C](Cl)Cl H298:-46.49 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)OCBr smiles:Cl[C](Cl)OCBr H298:-12.28 kcal/mol
-library:CHOClBr_G4 label:OC(Br)O[C](Cl)Cl smiles:OC(Br)O[C](Cl)Cl H298:-55.75 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)OC(Cl)Br smiles:Cl[C](Cl)OC(Cl)Br H298:-15.02 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)OCOBr smiles:Cl[C](Cl)OCOBr H298:-22.02 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)OC(Br)Br smiles:Cl[C](Cl)OC(Br)Br H298:-3.09 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)OCBr smiles:Cl[C](Cl)OCBr H298:-12.26 kcal/mol
+library:CHOClBr_G4 label:OC(Br)O[C](Cl)Cl smiles:OC(Br)O[C](Cl)Cl H298:-55.73 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)OC(Cl)Br smiles:Cl[C](Cl)OC(Cl)Br H298:-15.00 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)OCOBr smiles:Cl[C](Cl)OCOBr H298:-22.05 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)OC(Br)Br smiles:Cl[C](Cl)OC(Br)Br H298:-3.07 kcal/mol
 """,
 )
 
@@ -845,32 +859,32 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.11512,-0.669275,-1.53088,-2.23454,-3.31301,-4.04657,-4.93776],'cal/(mol*K)','+|-',[0.22676,0.232825,0.218301,0.203899,0.179945,0.157465,0.115331]),
-        H298 = (97.8983,'kcal/mol','+|-',0.362247),
-        S298 = (2.91126,'cal/(mol*K)','+|-',0.615623),
+        Cpdata = ([0.120238,-0.647923,-1.5211,-2.24019,-3.3314,-4.06049,-4.9272],'cal/(mol*K)','+|-',[0.230853,0.236233,0.221268,0.206561,0.182156,0.159437,0.119227]),
+        H298 = (97.9,'kcal/mol','+|-',0.359521),
+        S298 = (2.88377,'cal/(mol*K)','+|-',0.541024),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFBr_G4 label:F[C](Br)OOCBr smiles:F[C](Br)OOCBr H298:-22.14 kcal/mol
-library:CHOFBr_G4 label:OO[C](F)Br smiles:OO[C](F)Br H298:-27.51 kcal/mol
-library:CHOFBr_G4 label:CDCO[C](F)Br smiles:C=CO[C](F)Br H298:-25.18 kcal/mol
-library:CHOFBr_G4 label:CO[C](F)Br smiles:CO[C](F)Br H298:-48.15 kcal/mol
-library:CHOFBr_G4 label:OC(Br)O[C](F)Br smiles:OC(Br)O[C](F)Br H298:-86.35 kcal/mol
-library:CHOFBr_G4 label:OCO[C](F)Br smiles:OCO[C](F)Br H298:-90.57 kcal/mol
-library:CHOFBr_G4 label:O[C](F)Br smiles:O[C](F)Br H298:-51.11 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)OC(Br)Br smiles:F[C](Br)OC(Br)Br H298:-32.10 kcal/mol
-library:CHOFBr_G4 label:ODCO[C](F)Br smiles:O=CO[C](F)Br H298:-78.85 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)OC(Br)(Br)Br smiles:F[C](Br)OC(Br)(Br)Br H298:-18.63 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)O[C](F)Br smiles:O=C(Br)O[C](F)Br H298:-74.57 kcal/mol
-library:CHOFBr_G4 label:FC#CO[C](F)Br smiles:FC#CO[C](F)Br H298:6.45 kcal/mol
-library:CHOFBr_G4 label:COO[C](F)Br smiles:COO[C](F)Br H298:-27.99 kcal/mol
-library:CHOFBr_G4 label:C#CO[C](F)Br smiles:C#CO[C](F)Br H298:31.55 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)OCBr smiles:F[C](Br)OCBr H298:-41.95 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)OC(Br)OBr smiles:F[C](Br)OC(Br)OBr H298:-45.97 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)O[C](F)Br smiles:OC(Br)(Br)O[C](F)Br H298:-73.80 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)OCOBr smiles:F[C](Br)OCOBr H298:-52.02 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)OOCBr smiles:F[C](Br)OOCBr H298:-22.11 kcal/mol
+library:CHOFBr_G4 label:OO[C](F)Br smiles:OO[C](F)Br H298:-27.46 kcal/mol
+library:CHOFBr_G4 label:CDCO[C](F)Br smiles:C=CO[C](F)Br H298:-25.15 kcal/mol
+library:CHOFBr_G4 label:CO[C](F)Br smiles:CO[C](F)Br H298:-48.12 kcal/mol
+library:CHOFBr_G4 label:OC(Br)O[C](F)Br smiles:OC(Br)O[C](F)Br H298:-86.33 kcal/mol
+library:CHOFBr_G4 label:OCO[C](F)Br smiles:OCO[C](F)Br H298:-90.55 kcal/mol
+library:CHOFBr_G4 label:O[C](F)Br smiles:O[C](F)Br H298:-51.09 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)OC(Br)Br smiles:F[C](Br)OC(Br)Br H298:-32.08 kcal/mol
+library:CHOFBr_G4 label:ODCO[C](F)Br smiles:O=CO[C](F)Br H298:-78.83 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)OC(Br)(Br)Br smiles:F[C](Br)OC(Br)(Br)Br H298:-18.60 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)O[C](F)Br smiles:O=C(Br)O[C](F)Br H298:-74.55 kcal/mol
+library:CHOFBr_G4 label:FC#CO[C](F)Br smiles:FC#CO[C](F)Br H298:6.47 kcal/mol
+library:CHOFBr_G4 label:COO[C](F)Br smiles:COO[C](F)Br H298:-27.97 kcal/mol
+library:CHOFBr_G4 label:C#CO[C](F)Br smiles:C#CO[C](F)Br H298:31.57 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)OCBr smiles:F[C](Br)OCBr H298:-41.92 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)OC(Br)OBr smiles:F[C](Br)OC(Br)OBr H298:-45.98 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)O[C](F)Br smiles:OC(Br)(Br)O[C](F)Br H298:-73.76 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)OCOBr smiles:F[C](Br)OCOBr H298:-52.04 kcal/mol
 library:CHOFBr_G4 label:CCO[C](F)Br smiles:CCO[C](F)Br H298:-56.46 kcal/mol
 """,
 )
@@ -887,9 +901,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.169644,-0.665331,-1.55482,-2.28307,-3.36341,-4.09089,-4.93424],'cal/(mol*K)','+|-',[0.210733,0.216369,0.202872,0.189487,0.167226,0.146336,0.107179]),
-        H298 = (98.6011,'kcal/mol','+|-',0.336643),
-        S298 = (3.29366,'cal/(mol*K)','+|-',0.572111),
+        Cpdata = ([0.169994,-0.664701,-1.55436,-2.28286,-3.36294,-4.09029,-4.93399],'cal/(mol*K)','+|-',[0.214536,0.219536,0.205629,0.191961,0.169281,0.148168,0.1108]),
+        H298 = (98.5996,'kcal/mol','+|-',0.33411),
+        S298 = (3.30973,'cal/(mol*K)','+|-',0.502785),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -910,13 +924,13 @@ library:CHOFCl_G4 label:CO[C](F)Cl smiles:CO[C](F)Cl H298:-60.03 kcal/mol
 library:CHOFCl_G4 label:ODC(Cl)O[C](F)Cl smiles:O=C(Cl)O[C](F)Cl H298:-100.00 kcal/mol
 library:CHOFCl_G4 label:CDCO[C](F)Cl smiles:C=CO[C](F)Cl H298:-36.49 kcal/mol
 library:CHOFCl_G4 label:OO[C](F)Cl smiles:OO[C](F)Cl H298:-40.44 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)OCOBr smiles:F[C](Cl)OCOBr H298:-64.06 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)OCOBr smiles:F[C](Cl)OCOBr H298:-64.09 kcal/mol
 library:CHOFClBr_G4 label:ODC(Br)O[C](F)Cl smiles:O=C(Br)O[C](F)Cl H298:-87.18 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)OOCBr smiles:F[C](Cl)OOCBr H298:-34.38 kcal/mol
-library:CHOFClBr_G4 label:OC(Br)O[C](F)Cl smiles:OC(Br)O[C](F)Cl H298:-98.45 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)OC(Br)Br smiles:F[C](Cl)OC(Br)Br H298:-44.26 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)OCBr smiles:F[C](Cl)OCBr H298:-54.06 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)OC(Cl)Br smiles:F[C](Cl)OC(Cl)Br H298:-55.56 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)OOCBr smiles:F[C](Cl)OOCBr H298:-34.36 kcal/mol
+library:CHOFClBr_G4 label:OC(Br)O[C](F)Cl smiles:OC(Br)O[C](F)Cl H298:-98.43 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)OC(Br)Br smiles:F[C](Cl)OC(Br)Br H298:-44.23 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)OCBr smiles:F[C](Cl)OCBr H298:-54.04 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)OC(Cl)Br smiles:F[C](Cl)OC(Cl)Br H298:-55.54 kcal/mol
 """,
 )
 
@@ -932,9 +946,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.774318,-1.52929,-2.08276,-2.54232,-3.29647,-3.85651,-4.6867],'cal/(mol*K)','+|-',[0.127605,0.131018,0.122845,0.11474,0.101261,0.0886106,0.0649003]),
-        H298 = (103.114,'kcal/mol','+|-',0.203848),
-        S298 = (2.18532,'cal/(mol*K)','+|-',0.34643),
+        Cpdata = ([-0.778734,-1.53103,-2.08219,-2.53994,-3.29184,-3.8508,-4.68196],'cal/(mol*K)','+|-',[0.129908,0.132936,0.124515,0.116238,0.102505,0.0897204,0.0670926]),
+        H298 = (103.113,'kcal/mol','+|-',0.202314),
+        S298 = (2.20659,'cal/(mol*K)','+|-',0.304451),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -945,7 +959,7 @@ library:CHOF_G4 label:F[C](F)OC(F)F smiles:F[C](F)OC(F)F H298:-207.87 kcal/mol
 library:CHOF_G4 label:ODC(F)O[C](F)F smiles:O=C(F)O[C](F)F H298:-191.15 kcal/mol
 library:CHOF_G4 label:FCC(F)O[C](F)F smiles:FCC(F)O[C](F)F H298:-205.33 kcal/mol
 library:CHOF_G4 label:F[C](F)OCC(F)F smiles:F[C](F)OCC(F)F H298:-206.99 kcal/mol
-library:CHOF_G4 label:O[C](F)F smiles:O[C](F)F H298:-109.25 kcal/mol
+library:CHOF_G4 label:O[C](F)F smiles:O[C](F)F H298:-109.23 kcal/mol
 library:CHOF_G4 label:F[C](F)OCC(F)(F)F smiles:F[C](F)OCC(F)(F)F H298:-264.99 kcal/mol
 library:CHOF_G4 label:CC(F)(F)O[C](F)F smiles:CC(F)(F)O[C](F)F H298:-222.01 kcal/mol
 library:CHOF_G4 label:F[C](F)OC(F)C(F)(F)F smiles:F[C](F)OC(F)C(F)(F)F H298:-312.50 kcal/mol
@@ -963,7 +977,7 @@ library:CHOF_G4 label:FCDCO[C](F)F smiles:FC=CO[C](F)F H298:-122.27 kcal/mol
 library:CHOF_G4 label:OC(F)(F)O[C](F)F smiles:OC(F)(F)O[C](F)F H298:-258.84 kcal/mol
 library:CHOF_G4 label:CCO[C](F)F smiles:CCO[C](F)F H298:-113.04 kcal/mol
 library:CHOF_G4 label:CO[C](F)F smiles:CO[C](F)F H298:-104.66 kcal/mol
-library:CHOF_G4 label:F[C](F)OC(F)(F)C(F)F smiles:F[C](F)OC(F)(F)C(F)F H298:-308.94 kcal/mol
+library:CHOF_G4 label:F[C](F)OC(F)(F)C(F)F smiles:F[C](F)OC(F)(F)C(F)F H298:-308.99 kcal/mol
 library:CHOF_G4 label:F[C](F)OC(F)C(F)F smiles:F[C](F)OC(F)C(F)F H298:-256.50 kcal/mol
 library:CHOF_G4 label:F[C](F)OC(F)(F)C(F)(F)F smiles:F[C](F)OC(F)(F)C(F)(F)F H298:-364.46 kcal/mol
 library:CHOF_G4 label:OC(F)O[C](F)F smiles:OC(F)O[C](F)F H298:-203.48 kcal/mol
@@ -982,24 +996,24 @@ library:CHOFCl_G4 label:F[C](F)OCl smiles:F[C](F)OCl H298:-67.70 kcal/mol
 library:CHOFCl_G4 label:F[C](F)OCOCl smiles:F[C](F)OCOCl H298:-111.50 kcal/mol
 library:CHOFCl_G4 label:F[C](F)OC(Cl)Cl smiles:F[C](F)OC(Cl)Cl H298:-112.42 kcal/mol
 library:CHOFCl_G4 label:F[C](F)OCCl smiles:F[C](F)OCCl H298:-109.87 kcal/mol
-library:CHOFClBr_G4 label:F[C](F)OC(Cl)Br smiles:F[C](F)OC(Cl)Br H298:-100.10 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OC(Br)Br smiles:F[C](F)OC(Br)Br H298:-87.68 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)O[C](F)F smiles:OC(Br)(Br)O[C](F)F H298:-130.91 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OC(F)OBr smiles:F[C](F)OC(F)OBr H298:-161.51 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OCBr smiles:F[C](F)OCBr H298:-97.93 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OC(F)(Br)Br smiles:F[C](F)OC(F)(Br)Br H298:-134.38 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OC(F)(F)Br smiles:F[C](F)OC(F)(F)Br H298:-197.95 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OCOBr smiles:F[C](F)OCOBr H298:-108.51 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OOCBr smiles:F[C](F)OOCBr H298:-78.34 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)O[C](F)F smiles:OC(F)(Br)O[C](F)F H298:-193.78 kcal/mol
-library:CHOFBr_G4 label:OC(Br)O[C](F)F smiles:OC(Br)O[C](F)F H298:-141.74 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OOBr smiles:F[C](F)OOBr H298:-46.86 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OC(Br)(Br)Br smiles:F[C](F)OC(Br)(Br)Br H298:-75.72 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OOC(F)Br smiles:F[C](F)OOC(F)Br H298:-125.89 kcal/mol
+library:CHOFClBr_G4 label:F[C](F)OC(Cl)Br smiles:F[C](F)OC(Cl)Br H298:-100.08 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OC(Br)Br smiles:F[C](F)OC(Br)Br H298:-87.64 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)O[C](F)F smiles:OC(Br)(Br)O[C](F)F H298:-130.85 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OC(F)OBr smiles:F[C](F)OC(F)OBr H298:-161.53 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OCBr smiles:F[C](F)OCBr H298:-97.92 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OC(F)(Br)Br smiles:F[C](F)OC(F)(Br)Br H298:-134.34 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OC(F)(F)Br smiles:F[C](F)OC(F)(F)Br H298:-197.93 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OCOBr smiles:F[C](F)OCOBr H298:-108.54 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OOCBr smiles:F[C](F)OOCBr H298:-78.33 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)O[C](F)F smiles:OC(F)(Br)O[C](F)F H298:-193.77 kcal/mol
+library:CHOFBr_G4 label:OC(Br)O[C](F)F smiles:OC(Br)O[C](F)F H298:-141.73 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OOBr smiles:F[C](F)OOBr H298:-46.87 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OC(Br)(Br)Br smiles:F[C](F)OC(Br)(Br)Br H298:-75.67 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OOC(F)Br smiles:F[C](F)OOC(F)Br H298:-125.87 kcal/mol
 library:CHOFBr_G4 label:ODC(Br)O[C](F)F smiles:O=C(Br)O[C](F)F H298:-131.58 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OC(Br)OBr smiles:F[C](F)OC(Br)OBr H298:-101.64 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OOC(Br)Br smiles:F[C](F)OOC(Br)Br H298:-69.42 kcal/mol
-library:CHOFBr_G4 label:F[C](F)OC(F)Br smiles:F[C](F)OC(F)Br H298:-145.57 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OC(Br)OBr smiles:F[C](F)OC(Br)OBr H298:-101.63 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OOC(Br)Br smiles:F[C](F)OOC(Br)Br H298:-69.39 kcal/mol
+library:CHOFBr_G4 label:F[C](F)OC(F)Br smiles:F[C](F)OC(F)Br H298:-145.56 kcal/mol
 """,
 )
 
@@ -1015,36 +1029,37 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.629793,-0.122125,-1.03566,-1.77356,-2.89316,-3.67298,-4.81233],'cal/(mol*K)','+|-',[0.201761,0.207157,0.194235,0.18142,0.160107,0.140106,0.102616]),
-        H298 = (96.8602,'kcal/mol','+|-',0.322312),
-        S298 = (0.903069,'cal/(mol*K)','+|-',0.547755),
+        Cpdata = ([0.613115,-0.114558,-1.00931,-1.73619,-2.8384,-3.60839,-4.73531],'cal/(mol*K)','+|-',[0.201253,0.205943,0.192897,0.180076,0.1588,0.138994,0.103939]),
+        H298 = (96.8021,'kcal/mol','+|-',0.313423),
+        S298 = (0.858236,'cal/(mol*K)','+|-',0.471654),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:Br[CH]OCC(Br)Br smiles:Br[CH]OCC(Br)Br H298:6.86 kcal/mol
-library:CHOBr_G4 label:Br[CH]OCCBr smiles:Br[CH]OCCBr H298:-0.43 kcal/mol
-library:CHOBr_G4 label:C#CO[CH]Br smiles:C#CO[CH]Br H298:79.18 kcal/mol
-library:CHOBr_G4 label:O[CH]Br smiles:O[CH]Br H298:-2.09 kcal/mol
-library:CHOBr_G4 label:CC(Br)(Br)O[CH]Br smiles:CC(Br)(Br)O[CH]Br H298:2.29 kcal/mol
-library:CHOBr_G4 label:Br[CH]OC(Br)CBr smiles:Br[CH]OC(Br)CBr H298:4.78 kcal/mol
-library:CHOBr_G4 label:OC(Br)O[CH]Br smiles:OC(Br)O[CH]Br H298:-38.35 kcal/mol
-library:CHOBr_G4 label:CDC(Br)O[CH]Br smiles:C=C(Br)O[CH]Br H298:29.18 kcal/mol
-library:CHOBr_G4 label:CO[CH]Br smiles:CO[CH]Br H298:1.50 kcal/mol
-library:CHOBr_G4 label:Br[CH]OCDC(Br)Br smiles:Br[CH]OC=C(Br)Br H298:38.34 kcal/mol
-library:CHOBr_G4 label:Br[CH]OCDCBr smiles:Br[CH]OC=CBr H298:30.02 kcal/mol
-library:CHOBr_G4 label:BrC#CO[CH]Br smiles:BrC#CO[CH]Br H298:90.90 kcal/mol
-library:CHOBr_G4 label:Br[CH]OC(Br)Br smiles:Br[CH]OC(Br)Br H298:15.21 kcal/mol
-library:CHOBr_G4 label:ODC(Br)O[CH]Br smiles:O=C(Br)O[CH]Br H298:-29.01 kcal/mol
-library:CHOBr_G4 label:Br[CH]OC(Br)OBr smiles:Br[CH]OC(Br)OBr H298:2.40 kcal/mol
-library:CHOBr_G4 label:CDCO[CH]Br smiles:C=CO[CH]Br H298:23.34 kcal/mol
-library:CHOBr_G4 label:OCO[CH]Br smiles:OCO[CH]Br H298:-41.49 kcal/mol
-library:CHOBr_G4 label:Br[CH]OCBr smiles:Br[CH]OCBr H298:6.53 kcal/mol
-library:CHOBr_G4 label:CCO[CH]Br smiles:CCO[CH]Br H298:-6.70 kcal/mol
-library:CHOBr_G4 label:ODCO[CH]Br smiles:O=CO[CH]Br H298:-32.90 kcal/mol
-library:CHOBr_G4 label:CC(Br)O[CH]Br smiles:CC(Br)O[CH]Br H298:-4.82 kcal/mol
-library:CHOBr_G4 label:Br[CH]OCOBr smiles:Br[CH]OCOBr H298:-3.35 kcal/mol
+library:CHOBr_G4 label:Br[CH]OCC(Br)Br smiles:Br[CH]OCC(Br)Br H298:6.88 kcal/mol
+library:CHOBr_G4 label:Br[CH]OCCBr smiles:Br[CH]OCCBr H298:-0.42 kcal/mol
+library:CHOBr_G4 label:C#CO[CH]Br smiles:C#CO[CH]Br H298:79.19 kcal/mol
+library:CHOBr_G4 label:Br[CH]OC(Br)(Br)Br smiles:Br[CH]OC(Br)(Br)Br H298:26.35 kcal/mol
+library:CHOBr_G4 label:O[CH]Br smiles:O[CH]Br H298:-2.08 kcal/mol
+library:CHOBr_G4 label:CC(Br)(Br)O[CH]Br smiles:CC(Br)(Br)O[CH]Br H298:2.31 kcal/mol
+library:CHOBr_G4 label:Br[CH]OC(Br)CBr smiles:Br[CH]OC(Br)CBr H298:4.79 kcal/mol
+library:CHOBr_G4 label:OC(Br)O[CH]Br smiles:OC(Br)O[CH]Br H298:-38.34 kcal/mol
+library:CHOBr_G4 label:CDC(Br)O[CH]Br smiles:C=C(Br)O[CH]Br H298:29.19 kcal/mol
+library:CHOBr_G4 label:CO[CH]Br smiles:CO[CH]Br H298:1.53 kcal/mol
+library:CHOBr_G4 label:Br[CH]OCDC(Br)Br smiles:Br[CH]OC=C(Br)Br H298:38.31 kcal/mol
+library:CHOBr_G4 label:Br[CH]OCDCBr smiles:Br[CH]OC=CBr H298:29.98 kcal/mol
+library:CHOBr_G4 label:BrC#CO[CH]Br smiles:BrC#CO[CH]Br H298:90.87 kcal/mol
+library:CHOBr_G4 label:Br[CH]OC(Br)Br smiles:Br[CH]OC(Br)Br H298:15.20 kcal/mol
+library:CHOBr_G4 label:ODC(Br)O[CH]Br smiles:O=C(Br)O[CH]Br H298:-29.04 kcal/mol
+library:CHOBr_G4 label:Br[CH]OC(Br)OBr smiles:Br[CH]OC(Br)OBr H298:2.37 kcal/mol
+library:CHOBr_G4 label:CDCO[CH]Br smiles:C=CO[CH]Br H298:23.35 kcal/mol
+library:CHOBr_G4 label:OCO[CH]Br smiles:OCO[CH]Br H298:-41.47 kcal/mol
+library:CHOBr_G4 label:Br[CH]OCBr smiles:Br[CH]OCBr H298:6.54 kcal/mol
+library:CHOBr_G4 label:CCO[CH]Br smiles:CCO[CH]Br H298:-6.68 kcal/mol
+library:CHOBr_G4 label:ODCO[CH]Br smiles:O=CO[CH]Br H298:-32.93 kcal/mol
+library:CHOBr_G4 label:CC(Br)O[CH]Br smiles:CC(Br)O[CH]Br H298:-4.80 kcal/mol
+library:CHOBr_G4 label:Br[CH]OCOBr smiles:Br[CH]OCOBr H298:-3.38 kcal/mol
 library:CHOFBr_G4 label:FC#CO[CH]Br smiles:FC#CO[CH]Br H298:54.11 kcal/mol
 library:CHOClBr_G4 label:ClC#CO[CH]Br smiles:ClC#CO[CH]Br H298:80.28 kcal/mol
 """,
@@ -1062,15 +1077,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.524045,-0.359509,-1.27024,-1.9772,-3.02444,-3.7292,-4.68416],'cal/(mol*K)','+|-',[0.147346,0.151286,0.141849,0.132491,0.116926,0.102319,0.0749404]),
-        H298 = (96.3059,'kcal/mol','+|-',0.235383),
-        S298 = (1.09883,'cal/(mol*K)','+|-',0.400023),
+        Cpdata = ([0.524793,-0.359081,-1.26984,-1.97666,-3.02373,-3.72869,-4.68384],'cal/(mol*K)','+|-',[0.150005,0.153501,0.143777,0.13422,0.118362,0.1036,0.0774718]),
+        H298 = (96.294,'kcal/mol','+|-',0.233612),
+        S298 = (1.10346,'cal/(mol*K)','+|-',0.35155),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:ATcT_halogens label:Chlorohydroxymethyl smiles:O[CH]Cl H298:-14.48 kcal/mol
 library:CHOCl_G4 label:CDC(Cl)O[CH]Cl smiles:C=C(Cl)O[CH]Cl H298:4.88 kcal/mol
 library:CHOCl_G4 label:Cl[CH]OCC(Cl)(Cl)Cl smiles:Cl[CH]OCC(Cl)(Cl)Cl H298:-30.84 kcal/mol
 library:CHOCl_G4 label:Cl[CH]OC(Cl)DC(Cl)Cl smiles:Cl[CH]OC(Cl)=C(Cl)Cl H298:-1.52 kcal/mol
@@ -1091,6 +1105,7 @@ library:CHOCl_G4 label:CC(Cl)O[CH]Cl smiles:CC(Cl)O[CH]Cl H298:-28.79 kcal/mol
 library:CHOCl_G4 label:OC(Cl)(Cl)O[CH]Cl smiles:OC(Cl)(Cl)O[CH]Cl H298:-65.93 kcal/mol
 library:CHOCl_G4 label:CO[CH]Cl smiles:CO[CH]Cl H298:-10.57 kcal/mol
 library:CHOCl_G4 label:Cl[CH]OC(Cl)(Cl)C(Cl)Cl smiles:Cl[CH]OC(Cl)(Cl)C(Cl)Cl H298:-38.44 kcal/mol
+library:CHOCl_G4 label:O[CH]Cl smiles:O[CH]Cl H298:-14.68 kcal/mol
 library:CHOCl_G4 label:Cl[CH]OC(Cl)CCl smiles:Cl[CH]OC(Cl)CCl H298:-32.55 kcal/mol
 library:CHOCl_G4 label:Cl[CH]OCCl smiles:Cl[CH]OCCl H298:-17.42 kcal/mol
 library:CHOCl_G4 label:ClC#CO[CH]Cl smiles:ClC#CO[CH]Cl H298:67.88 kcal/mol
@@ -1102,19 +1117,19 @@ library:CHOCl_G4 label:Cl[CH]OCC(Cl)Cl smiles:Cl[CH]OCC(Cl)Cl H298:-28.51 kcal/m
 library:CHOCl_G4 label:C#CO[CH]Cl smiles:C#CO[CH]Cl H298:66.70 kcal/mol
 library:CHOCl_G4 label:ODC(Cl)O[CH]Cl smiles:O=C(Cl)O[CH]Cl H298:-54.47 kcal/mol
 library:CHOFCl_G4 label:FC#CO[CH]Cl smiles:FC#CO[CH]Cl H298:41.69 kcal/mol
-library:CHOClBr_G4 label:OC(Cl)(Br)O[CH]Cl smiles:OC(Cl)(Br)O[CH]Cl H298:-53.38 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OC(Br)(Br)Br smiles:Cl[CH]OC(Br)(Br)Br H298:13.88 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OCOBr smiles:Cl[CH]OCOBr H298:-15.33 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OC(Cl)Br smiles:Cl[CH]OC(Cl)Br H298:-9.51 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OCBr smiles:Cl[CH]OCBr H298:-5.67 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OC(Br)Br smiles:Cl[CH]OC(Br)Br H298:2.51 kcal/mol
+library:CHOClBr_G4 label:OC(Cl)(Br)O[CH]Cl smiles:OC(Cl)(Br)O[CH]Cl H298:-53.37 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OC(Br)(Br)Br smiles:Cl[CH]OC(Br)(Br)Br H298:13.93 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OCOBr smiles:Cl[CH]OCOBr H298:-15.36 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OC(Cl)Br smiles:Cl[CH]OC(Cl)Br H298:-9.48 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OCBr smiles:Cl[CH]OCBr H298:-5.65 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OC(Br)Br smiles:Cl[CH]OC(Br)Br H298:2.55 kcal/mol
 library:CHOClBr_G4 label:ODC(Br)O[CH]Cl smiles:O=C(Br)O[CH]Cl H298:-41.73 kcal/mol
-library:CHOClBr_G4 label:OC(Br)O[CH]Cl smiles:OC(Br)O[CH]Cl H298:-48.99 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OC(Cl)(Br)Br smiles:Cl[CH]OC(Cl)(Br)Br H298:1.66 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OC(Cl)OBr smiles:Cl[CH]OC(Cl)OBr H298:-22.74 kcal/mol
-library:CHOClBr_G4 label:OC(Br)(Br)O[CH]Cl smiles:OC(Br)(Br)O[CH]Cl H298:-40.93 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OC(Cl)(Cl)Br smiles:Cl[CH]OC(Cl)(Cl)Br H298:-10.52 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]OC(Br)OBr smiles:Cl[CH]OC(Br)OBr H298:-10.07 kcal/mol
+library:CHOClBr_G4 label:OC(Br)O[CH]Cl smiles:OC(Br)O[CH]Cl H298:-48.97 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OC(Cl)(Br)Br smiles:Cl[CH]OC(Cl)(Br)Br H298:1.69 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OC(Cl)OBr smiles:Cl[CH]OC(Cl)OBr H298:-22.76 kcal/mol
+library:CHOClBr_G4 label:OC(Br)(Br)O[CH]Cl smiles:OC(Br)(Br)O[CH]Cl H298:-40.87 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OC(Cl)(Cl)Br smiles:Cl[CH]OC(Cl)(Cl)Br H298:-10.50 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]OC(Br)OBr smiles:Cl[CH]OC(Br)OBr H298:-10.06 kcal/mol
 """,
 )
 
@@ -1130,9 +1145,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.039582,-0.708448,-1.40904,-2.00234,-2.94186,-3.62167,-4.60136],'cal/(mol*K)','+|-',[0.119864,0.12307,0.115393,0.10778,0.0951178,0.0832352,0.0609632]),
-        H298 = (99.775,'kcal/mol','+|-',0.191482),
-        S298 = (1.67663,'cal/(mol*K)','+|-',0.325415),
+        Cpdata = ([0.033938,-0.721524,-1.4199,-2.01089,-2.94865,-3.62703,-4.6039],'cal/(mol*K)','+|-',[0.122027,0.124871,0.116961,0.109187,0.0962864,0.0842776,0.0630225]),
+        H298 = (99.7763,'kcal/mol','+|-',0.190041),
+        S298 = (1.69417,'cal/(mol*K)','+|-',0.285982),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1184,28 +1199,28 @@ library:CHOFCl_G4 label:F[CH]OC(F)(F)Cl smiles:F[CH]OC(F)(F)Cl H298:-159.33 kcal
 library:CHOFCl_G4 label:F[CH]OCCl smiles:F[CH]OCCl H298:-57.00 kcal/mol
 library:CHOFCl_G4 label:F[CH]OC(F)Cl smiles:F[CH]OC(F)Cl H298:-106.23 kcal/mol
 library:CHOFCl_G4 label:F[CH]OC(Cl)(Cl)Cl smiles:F[CH]OC(Cl)(Cl)Cl H298:-61.72 kcal/mol
-library:CHOFClBr_G4 label:F[CH]OC(Cl)(Cl)Br smiles:F[CH]OC(Cl)(Cl)Br H298:-49.23 kcal/mol
-library:CHOFClBr_G4 label:F[CH]OC(Cl)OBr smiles:F[CH]OC(Cl)OBr H298:-62.08 kcal/mol
-library:CHOFClBr_G4 label:F[CH]OC(Cl)(Br)Br smiles:F[CH]OC(Cl)(Br)Br H298:-36.96 kcal/mol
-library:CHOFClBr_G4 label:F[CH]OC(F)(Cl)Br smiles:F[CH]OC(F)(Cl)Br H298:-95.92 kcal/mol
-library:CHOFClBr_G4 label:OC(Cl)(Br)O[CH]F smiles:OC(Cl)(Br)O[CH]F H298:-92.36 kcal/mol
-library:CHOFClBr_G4 label:F[CH]OC(Cl)Br smiles:F[CH]OC(Cl)Br H298:-48.47 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)O[CH]F smiles:OC(Br)(Br)O[CH]F H298:-79.77 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(F)(Br)OBr smiles:F[CH]OC(F)(Br)OBr H298:-100.53 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)O[CH]F smiles:OC(F)(Br)O[CH]F H298:-141.46 kcal/mol
-library:CHOFBr_G4 label:OC(Br)O[CH]F smiles:OC(Br)O[CH]F H298:-89.99 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(F)Br smiles:F[CH]OC(F)Br H298:-93.19 kcal/mol
-library:CHOFBr_G4 label:F[CH]OCBr smiles:F[CH]OCBr H298:-45.14 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(F)(F)Br smiles:F[CH]OC(F)(F)Br H298:-146.09 kcal/mol
+library:CHOFClBr_G4 label:F[CH]OC(Cl)(Cl)Br smiles:F[CH]OC(Cl)(Cl)Br H298:-49.21 kcal/mol
+library:CHOFClBr_G4 label:F[CH]OC(Cl)OBr smiles:F[CH]OC(Cl)OBr H298:-62.10 kcal/mol
+library:CHOFClBr_G4 label:F[CH]OC(Cl)(Br)Br smiles:F[CH]OC(Cl)(Br)Br H298:-36.92 kcal/mol
+library:CHOFClBr_G4 label:F[CH]OC(F)(Cl)Br smiles:F[CH]OC(F)(Cl)Br H298:-95.90 kcal/mol
+library:CHOFClBr_G4 label:OC(Cl)(Br)O[CH]F smiles:OC(Cl)(Br)O[CH]F H298:-92.34 kcal/mol
+library:CHOFClBr_G4 label:F[CH]OC(Cl)Br smiles:F[CH]OC(Cl)Br H298:-48.45 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)O[CH]F smiles:OC(Br)(Br)O[CH]F H298:-79.71 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(F)(Br)OBr smiles:F[CH]OC(F)(Br)OBr H298:-100.51 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)O[CH]F smiles:OC(F)(Br)O[CH]F H298:-141.45 kcal/mol
+library:CHOFBr_G4 label:OC(Br)O[CH]F smiles:OC(Br)O[CH]F H298:-89.97 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(F)Br smiles:F[CH]OC(F)Br H298:-93.17 kcal/mol
+library:CHOFBr_G4 label:F[CH]OCBr smiles:F[CH]OCBr H298:-45.12 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(F)(F)Br smiles:F[CH]OC(F)(F)Br H298:-146.07 kcal/mol
 library:CHOFBr_G4 label:F[CH]OC(Br)OBr smiles:F[CH]OC(Br)OBr H298:-49.92 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(Br)Br smiles:F[CH]OC(Br)Br H298:-36.37 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(F)(F)OBr smiles:F[CH]OC(F)(F)OBr H298:-163.20 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(Br)(Br)OBr smiles:F[CH]OC(Br)(Br)OBr H298:-40.30 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(F)(Br)Br smiles:F[CH]OC(F)(Br)Br H298:-83.05 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(F)OBr smiles:F[CH]OC(F)OBr H298:-109.27 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)O[CH]F smiles:O=C(Br)O[CH]F H298:-80.74 kcal/mol
-library:CHOFBr_G4 label:F[CH]OC(Br)(Br)Br smiles:F[CH]OC(Br)(Br)Br H298:-24.69 kcal/mol
-library:CHOFBr_G4 label:F[CH]OCOBr smiles:F[CH]OCOBr H298:-55.12 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(Br)Br smiles:F[CH]OC(Br)Br H298:-36.33 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(F)(F)OBr smiles:F[CH]OC(F)(F)OBr H298:-163.21 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(Br)(Br)OBr smiles:F[CH]OC(Br)(Br)OBr H298:-40.28 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(F)(Br)Br smiles:F[CH]OC(F)(Br)Br H298:-83.00 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(F)OBr smiles:F[CH]OC(F)OBr H298:-109.28 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)O[CH]F smiles:O=C(Br)O[CH]F H298:-80.73 kcal/mol
+library:CHOFBr_G4 label:F[CH]OC(Br)(Br)Br smiles:F[CH]OC(Br)(Br)Br H298:-24.65 kcal/mol
+library:CHOFBr_G4 label:F[CH]OCOBr smiles:F[CH]OCOBr H298:-55.14 kcal/mol
 """,
 )
 
@@ -1221,25 +1236,28 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.275161,-0.975235,-1.93766,-2.58804,-3.58001,-4.29315,-5.22963],'cal/(mol*K)','+|-',[0.298021,0.305991,0.286904,0.267976,0.236494,0.20695,0.151574]),
-        H298 = (94.906,'kcal/mol','+|-',0.476086),
-        S298 = (3.74502,'cal/(mol*K)','+|-',0.809087),
+        Cpdata = ([-0.681089,-1.65099,-2.3705,-2.85413,-3.61187,-4.15796,-4.8243],'cal/(mol*K)','+|-',[0.268935,0.275203,0.25777,0.240636,0.212205,0.185739,0.138895]),
+        H298 = (94.7306,'kcal/mol','+|-',0.41883),
+        S298 = (3.26482,'cal/(mol*K)','+|-',0.630274),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:O[C](Br)OCBr smiles:O[C](Br)OCBr H298:-40.29 kcal/mol
-library:CHOBr_G4 label:O[C](O)Br smiles:O[C](O)Br H298:-48.69 kcal/mol
-library:CHOBr_G4 label:CO[C](O)Br smiles:CO[C](O)Br H298:-45.71 kcal/mol
-library:CHOBr_G4 label:O[C](Br)OC(Br)Br smiles:O[C](Br)OC(Br)Br H298:-31.05 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)OC(F)(F)Br smiles:O[C](Br)OC(F)(F)Br H298:-139.54 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)OC(F)Br smiles:O[C](Br)OC(F)Br H298:-87.52 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)OCF smiles:O[C](Br)OCF H298:-94.16 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)OC(F)(Br)Br smiles:O[C](Br)OC(F)(Br)Br H298:-76.72 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)OC(F)(F)F smiles:O[C](Br)OC(F)(F)F H298:-204.72 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)OC(F)F smiles:O[C](Br)OC(F)F H298:-149.37 kcal/mol
-library:CHOClBr_G4 label:O[C](Br)OCCl smiles:O[C](Br)OCCl H298:-52.05 kcal/mol
+library:CHOBr_G4 label:O[C](Br)OCBr smiles:O[C](Br)OCBr H298:-40.27 kcal/mol
+library:CHOBr_G4 label:O[C](O)Br smiles:O[C](O)Br H298:-48.66 kcal/mol
+library:CHOBr_G4 label:CO[C](O)Br smiles:CO[C](O)Br H298:-45.67 kcal/mol
+library:CHOBr_G4 label:O[C](Br)OC(Br)Br smiles:O[C](Br)OC(Br)Br H298:-31.03 kcal/mol
+library:CHOFClBr_G4 label:O[C](Br)OC(F)Cl smiles:O[C](Br)OC(F)Cl H298:-99.74 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)OC(F)(F)Br smiles:O[C](Br)OC(F)(F)Br H298:-139.52 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)OC(F)Br smiles:O[C](Br)OC(F)Br H298:-87.51 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)OCF smiles:O[C](Br)OCF H298:-94.13 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)OC(F)(Br)Br smiles:O[C](Br)OC(F)(Br)Br H298:-76.69 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)OC(F)(F)F smiles:O[C](Br)OC(F)(F)F H298:-204.71 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)OC(F)F smiles:O[C](Br)OC(F)F H298:-149.35 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)OC(Cl)Cl smiles:O[C](Br)OC(Cl)Cl H298:-56.12 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)OCCl smiles:O[C](Br)OCCl H298:-52.03 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)OC(Cl)Br smiles:O[C](Br)OC(Cl)Br H298:-42.93 kcal/mol
 """,
 )
 
@@ -1255,9 +1273,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.492434,-2.3146,-3.29062,-3.80665,-4.50572,-4.90385,-5.24337],'cal/(mol*K)','+|-',[0.403522,0.414314,0.38847,0.362841,0.320214,0.280211,0.205233]),
-        H298 = (96.2474,'kcal/mol','+|-',0.644623),
-        S298 = (4.22306,'cal/(mol*K)','+|-',1.09551),
+        Cpdata = ([-0.492434,-2.3146,-3.29062,-3.80665,-4.50572,-4.90385,-5.24337],'cal/(mol*K)','+|-',[0.410805,0.42038,0.39375,0.367578,0.324148,0.283721,0.212165]),
+        H298 = (96.2474,'kcal/mol','+|-',0.639773),
+        S298 = (4.22306,'cal/(mol*K)','+|-',0.96276),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1284,9 +1302,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.00139,-2.69591,-2.86385,-3.05773,-3.46676,-3.76913,-4.21476],'cal/(mol*K)','+|-',[0.349461,0.358807,0.336425,0.314229,0.277314,0.24267,0.177737]),
-        H298 = (101.088,'kcal/mol','+|-',0.55826),
-        S298 = (2.94024,'cal/(mol*K)','+|-',0.948739),
+        Cpdata = ([-1.9976,-2.68003,-2.85561,-3.05791,-3.47427,-3.77563,-4.20926],'cal/(mol*K)','+|-',[0.355768,0.36406,0.340997,0.318332,0.280721,0.245709,0.183741]),
+        H298 = (101.087,'kcal/mol','+|-',0.55406),
+        S298 = (3.00532,'cal/(mol*K)','+|-',0.833775),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1299,7 +1317,7 @@ library:CHOF_G4 label:O[C](O)F smiles:O[C](O)F H298:-105.00 kcal/mol
 library:CHOF_G4 label:O[C](F)OCF smiles:O[C](F)OCF H298:-149.59 kcal/mol
 library:CHOFCl_G4 label:O[C](F)OCl smiles:O[C](F)OCl H298:-65.16 kcal/mol
 library:CHOFCl_G4 label:FCO[C](F)OCl smiles:FCO[C](F)OCl H298:-109.57 kcal/mol
-library:CHOFBr_G4 label:O[C](F)OBr smiles:O[C](F)OBr H298:-62.92 kcal/mol
+library:CHOFBr_G4 label:O[C](F)OBr smiles:O[C](F)OBr H298:-62.93 kcal/mol
 """,
 )
 
@@ -1315,21 +1333,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.21489,-0.93447,-1.57481,-2.12517,-2.97707,-3.60224,-4.53857],'cal/(mol*K)','+|-',[0.373589,0.38358,0.359654,0.335925,0.296461,0.259425,0.190009]),
-        H298 = (84.717,'kcal/mol','+|-',0.596805),
-        S298 = (-0.10693,'cal/(mol*K)','+|-',1.01424),
+        Cpdata = ([-0.129472,-0.934237,-1.56595,-2.09216,-2.93783,-3.57706,-4.54461],'cal/(mol*K)','+|-',[0.380332,0.389196,0.364541,0.340311,0.300103,0.262674,0.196427]),
+        H298 = (84.6657,'kcal/mol','+|-',0.592315),
+        S298 = (0.356232,'cal/(mol*K)','+|-',0.891343),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:OC#C[C](Br)Br smiles:OC#C[C](Br)Br H298:64.17 kcal/mol
-library:CHOBr_G4 label:BrCC#C[C](Br)Br smiles:BrCC#C[C](Br)Br H298:94.26 kcal/mol
-library:CHOBr_G4 label:C#C[C](Br)Br smiles:C#C[C](Br)Br H298:96.44 kcal/mol
-library:CHOBr_G4 label:BrC#C[C](Br)Br smiles:BrC#C[C](Br)Br H298:106.50 kcal/mol
-library:CHOBr_G4 label:CC#C[C](Br)Br smiles:CC#C[C](Br)Br H298:84.96 kcal/mol
-library:CHOFBr_G4 label:FC#C[C](Br)Br smiles:FC#C[C](Br)Br H298:69.51 kcal/mol
-library:CHOClBr_G4 label:ClC#C[C](Br)Br smiles:ClC#C[C](Br)Br H298:95.68 kcal/mol
+library:CHOBr_G4 label:OC#C[C](Br)Br smiles:OC#C[C](Br)Br H298:64.18 kcal/mol
+library:CHOBr_G4 label:BrCC#C[C](Br)Br smiles:BrCC#C[C](Br)Br H298:94.25 kcal/mol
+library:CHOBr_G4 label:C#C[C](Br)Br smiles:C#C[C](Br)Br H298:96.43 kcal/mol
+library:CHOBr_G4 label:BrC#C[C](Br)Br smiles:BrC#C[C](Br)Br H298:106.45 kcal/mol
+library:CHOBr_G4 label:CC#C[C](Br)Br smiles:CC#C[C](Br)Br H298:84.93 kcal/mol
+library:CHOFBr_G4 label:FC#C[C](Br)Br smiles:FC#C[C](Br)Br H298:69.52 kcal/mol
+library:CHOClBr_G4 label:ClC#C[C](Br)Br smiles:ClC#C[C](Br)Br H298:95.66 kcal/mol
 """,
 )
 
@@ -1345,16 +1363,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.165006,-0.817023,-1.4403,-2.0269,-2.96678,-3.60706,-4.49955],'cal/(mol*K)','+|-',[0.494212,0.507429,0.475777,0.444387,0.392181,0.343187,0.251358]),
-        H298 = (84.5995,'kcal/mol','+|-',0.789499),
-        S298 = (1.89344,'cal/(mol*K)','+|-',1.34172),
+        Cpdata = ([-0.219038,-0.936655,-1.58634,-2.17912,-3.11889,-3.77716,-4.70025],'cal/(mol*K)','+|-',[0.450015,0.460503,0.431331,0.402661,0.355086,0.3108,0.232415]),
+        H298 = (84.3736,'kcal/mol','+|-',0.700836),
+        S298 = (2.35583,'cal/(mol*K)','+|-',1.05465),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFClBr_G4 label:FC#C[C](Cl)Br smiles:FC#C[C](Cl)Br H298:57.97 kcal/mol
-library:CHOClBr_G4 label:C#C[C](Cl)Br smiles:C#C[C](Cl)Br H298:84.90 kcal/mol
+library:CHOFClBr_G4 label:FC#C[C](Cl)Br smiles:FC#C[C](Cl)Br H298:57.98 kcal/mol
+library:CHOClBr_G4 label:C#C[C](Cl)Br smiles:C#C[C](Cl)Br H298:84.89 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)C#CCBr smiles:Cl[C](Br)C#CCBr H298:82.80 kcal/mol
 library:CHOClBr_G4 label:OC#C[C](Cl)Br smiles:OC#C[C](Cl)Br H298:52.70 kcal/mol
 library:CHOClBr_G4 label:CC#C[C](Cl)Br smiles:CC#C[C](Cl)Br H298:73.43 kcal/mol
 """,
@@ -1372,9 +1391,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.133831,-0.661626,-1.32915,-1.88401,-2.76851,-3.4241,-4.40174],'cal/(mol*K)','+|-',[0.329475,0.338286,0.317185,0.296258,0.261454,0.228792,0.167572]),
-        H298 = (83.5772,'kcal/mol','+|-',0.526333),
-        S298 = (1.08754,'cal/(mol*K)','+|-',0.894479),
+        Cpdata = ([0.131238,-0.664074,-1.33007,-1.88375,-2.76731,-3.42317,-4.40269],'cal/(mol*K)','+|-',[0.335421,0.343239,0.321495,0.300126,0.264666,0.231657,0.173232]),
+        H298 = (83.5889,'kcal/mol','+|-',0.522372),
+        S298 = (1.11107,'cal/(mol*K)','+|-',0.78609),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1404,15 +1423,15 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.539106,-0.448781,-1.16805,-1.75893,-2.71247,-3.41714,-4.45553],'cal/(mol*K)','+|-',[0.988423,1.01486,0.951553,0.888774,0.784361,0.686374,0.502715]),
-        H298 = (88.5852,'kcal/mol','+|-',1.579),
-        S298 = (4.01696,'cal/(mol*K)','+|-',2.68344),
+        Cpdata = ([0.619447,-0.448637,-1.16481,-1.75279,-2.70333,-3.40779,-4.45179],'cal/(mol*K)','+|-',[1.00626,1.02972,0.964485,0.900377,0.793997,0.69497,0.519696]),
+        H298 = (88.5703,'kcal/mol','+|-',1.56712),
+        S298 = (2.98074,'cal/(mol*K)','+|-',2.35827),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFBr_G4 label:C#C[C](F)Br smiles:C#C[C](F)Br H298:49.16 kcal/mol
+library:CHOFBr_G4 label:C#C[C](F)Br smiles:C#C[C](F)Br H298:49.15 kcal/mol
 """,
 )
 
@@ -1428,9 +1447,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.255028,-0.587165,-1.32361,-1.94622,-2.93492,-3.64566,-4.67423],'cal/(mol*K)','+|-',[0.442037,0.453859,0.425548,0.397472,0.350777,0.306956,0.224821]),
-        H298 = (88.4593,'kcal/mol','+|-',0.706149),
-        S298 = (1.85933,'cal/(mol*K)','+|-',1.20007),
+        Cpdata = ([0.252954,-0.590735,-1.32627,-1.94695,-2.93378,-3.64431,-4.67477],'cal/(mol*K)','+|-',[0.450015,0.460503,0.431331,0.402661,0.355086,0.3108,0.232415]),
+        H298 = (88.463,'kcal/mol','+|-',0.700836),
+        S298 = (1.85725,'cal/(mol*K)','+|-',1.05465),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1440,7 +1459,7 @@ library:CHOFCl_G4 label:OC#C[C](F)Cl smiles:OC#C[C](F)Cl H298:3.93 kcal/mol
 library:CHOFCl_G4 label:FC#C[C](F)Cl smiles:FC#C[C](F)Cl H298:9.13 kcal/mol
 library:CHOFCl_G4 label:CC#C[C](F)Cl smiles:CC#C[C](F)Cl H298:25.24 kcal/mol
 library:CHOFCl_G4 label:C#C[C](F)Cl smiles:C#C[C](F)Cl H298:36.61 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C#CCBr smiles:F[C](Cl)C#CCBr H298:34.76 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C#CCBr smiles:F[C](Cl)C#CCBr H298:34.77 kcal/mol
 """,
 )
 
@@ -1456,9 +1475,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.905589,0.0858261,-0.690337,-1.35881,-2.42239,-3.19995,-4.33111],'cal/(mol*K)','+|-',[0.349461,0.358807,0.336425,0.314229,0.277314,0.24267,0.177737]),
-        H298 = (93.9781,'kcal/mol','+|-',0.55826),
-        S298 = (0.54969,'cal/(mol*K)','+|-',0.948739),
+        Cpdata = ([0.892215,0.0755021,-0.696053,-1.36041,-2.41909,-3.1969,-4.3354],'cal/(mol*K)','+|-',[0.355768,0.36406,0.340997,0.318332,0.280721,0.245709,0.183741]),
+        H298 = (93.9773,'kcal/mol','+|-',0.55406),
+        S298 = (0.5544,'cal/(mol*K)','+|-',0.833775),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1471,7 +1490,7 @@ library:CHOF_G4 label:F[C](F)C#CC(F)(F)F smiles:F[C](F)C#CC(F)(F)F H298:-157.63 
 library:CHOF_G4 label:C#C[C](F)F smiles:C#C[C](F)F H298:-2.28 kcal/mol
 library:CHOF_G4 label:OC#C[C](F)F smiles:OC#C[C](F)F H298:-36.18 kcal/mol
 library:CHOFCl_G4 label:F[C](F)C#CCCl smiles:F[C](F)C#CCCl H298:-14.68 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C#CC(F)Br smiles:F[C](F)C#CC(F)Br H298:-44.59 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C#CC(F)Br smiles:F[C](F)C#CC(F)Br H298:-44.57 kcal/mol
 """,
 )
 
@@ -1487,22 +1506,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.170266,-0.456527,-1.08903,-1.65478,-2.59458,-3.31711,-4.43644],'cal/(mol*K)','+|-',[0.349461,0.358807,0.336425,0.314229,0.277314,0.24267,0.177737]),
-        H298 = (87.4241,'kcal/mol','+|-',0.55826),
-        S298 = (1.04323,'cal/(mol*K)','+|-',0.948739),
+        Cpdata = ([0.219477,-0.35918,-1.00576,-1.60069,-2.58125,-3.31551,-4.41953],'cal/(mol*K)','+|-',[0.355768,0.36406,0.340997,0.318332,0.280721,0.245709,0.183741]),
+        H298 = (87.3539,'kcal/mol','+|-',0.55406),
+        S298 = (1.22389,'cal/(mol*K)','+|-',0.833775),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:BrC#C[CH]Br smiles:BrC#C[CH]Br H298:99.70 kcal/mol
-library:CHOBr_G4 label:CC#C[CH]Br smiles:CC#C[CH]Br H298:78.32 kcal/mol
-library:CHOBr_G4 label:C#C[CH]Br smiles:C#C[CH]Br H298:89.37 kcal/mol
-library:CHOBr_G4 label:Br[CH]C#CC(Br)Br smiles:Br[CH]C#CC(Br)Br H298:96.94 kcal/mol
-library:CHOBr_G4 label:Br[CH]C#CCBr smiles:Br[CH]C#CCBr H298:87.61 kcal/mol
-library:CHOBr_G4 label:OC#C[CH]Br smiles:OC#C[CH]Br H298:57.80 kcal/mol
-library:CHOFBr_G4 label:FC#C[CH]Br smiles:FC#C[CH]Br H298:62.46 kcal/mol
-library:CHOClBr_G4 label:ClC#C[CH]Br smiles:ClC#C[CH]Br H298:88.83 kcal/mol
+library:CHOBr_G4 label:BrC#C[CH]Br smiles:BrC#C[CH]Br H298:99.64 kcal/mol
+library:CHOBr_G4 label:CC#C[CH]Br smiles:CC#C[CH]Br H298:78.26 kcal/mol
+library:CHOBr_G4 label:C#C[CH]Br smiles:C#C[CH]Br H298:89.34 kcal/mol
+library:CHOBr_G4 label:Br[CH]C#CC(Br)Br smiles:Br[CH]C#CC(Br)Br H298:96.85 kcal/mol
+library:CHOBr_G4 label:Br[CH]C#CCBr smiles:Br[CH]C#CCBr H298:87.58 kcal/mol
+library:CHOBr_G4 label:OC#C[CH]Br smiles:OC#C[CH]Br H298:57.79 kcal/mol
+library:CHOFBr_G4 label:FC#C[CH]Br smiles:FC#C[CH]Br H298:62.45 kcal/mol
+library:CHOClBr_G4 label:ClC#C[CH]Br smiles:ClC#C[CH]Br H298:88.80 kcal/mol
 """,
 )
 
@@ -1518,9 +1537,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.333212,-0.276249,-0.893023,-1.4563,-2.41933,-3.17148,-4.33331],'cal/(mol*K)','+|-',[0.312567,0.320926,0.300908,0.281055,0.248037,0.217051,0.158973]),
-        H298 = (86.3701,'kcal/mol','+|-',0.499323),
-        S298 = (1.70185,'cal/(mol*K)','+|-',0.848578),
+        Cpdata = ([0.334384,-0.267977,-0.888879,-1.45517,-2.4214,-3.17414,-4.33315],'cal/(mol*K)','+|-',[0.318208,0.325625,0.304997,0.284724,0.251084,0.219769,0.164343]),
+        H298 = (86.2853,'kcal/mol','+|-',0.495566),
+        S298 = (1.36537,'cal/(mol*K)','+|-',0.745751),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1535,7 +1554,7 @@ library:CHOCl_G4 label:Cl[CH]C#CC(Cl)(Cl)Cl smiles:Cl[CH]C#CC(Cl)(Cl)Cl H298:62.
 library:CHOFCl_G4 label:FC#C[CH]Cl smiles:FC#C[CH]Cl H298:50.71 kcal/mol
 library:CHOClBr_G4 label:Cl[CH]C#CC(Br)Br smiles:Cl[CH]C#CC(Br)Br H298:85.33 kcal/mol
 library:CHOClBr_G4 label:Cl[CH]C#CC(Cl)Br smiles:Cl[CH]C#CC(Cl)Br H298:74.51 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C#CCBr smiles:Cl[CH]C#CCBr H298:75.99 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C#CCBr smiles:Cl[CH]C#CCBr H298:76.01 kcal/mol
 """,
 )
 
@@ -1551,9 +1570,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.441043,-0.132531,-0.790446,-1.40697,-2.44071,-3.22514,-4.43454],'cal/(mol*K)','+|-',[0.239728,0.246139,0.230786,0.21556,0.190236,0.16647,0.121926]),
-        H298 = (88.3515,'kcal/mol','+|-',0.382963),
-        S298 = (0.858039,'cal/(mol*K)','+|-',0.650829),
+        Cpdata = ([0.457276,-0.1203,-0.789616,-1.4125,-2.45076,-3.23275,-4.42834],'cal/(mol*K)','+|-',[0.244055,0.249743,0.233922,0.218374,0.192573,0.168555,0.126045]),
+        H298 = (88.3784,'kcal/mol','+|-',0.380082),
+        S298 = (1.22145,'cal/(mol*K)','+|-',0.571965),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1569,13 +1588,13 @@ library:CHOF_G4 label:F[CH]C#CC(F)F smiles:F[CH]C#CC(F)F H298:-57.87 kcal/mol
 library:CHOFCl_G4 label:F[CH]C#CC(Cl)Cl smiles:F[CH]C#CC(Cl)Cl H298:28.01 kcal/mol
 library:CHOFCl_G4 label:F[CH]C#CCCl smiles:F[CH]C#CCCl H298:29.81 kcal/mol
 library:CHOFCl_G4 label:F[CH]C#CC(F)Cl smiles:F[CH]C#CC(F)Cl H298:-12.74 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C#CC(Cl)Br smiles:F[CH]C#CC(Cl)Br H298:39.23 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C#CC(Cl)Br smiles:F[CH]C#CC(Cl)Br H298:39.24 kcal/mol
 library:CHOFBr_G4 label:F[CH]C#CC(Br)Br smiles:F[CH]C#CC(Br)Br H298:49.98 kcal/mol
-library:CHOFBr_G4 label:F[CH]C#CC(Br)(Br)Br smiles:F[CH]C#CC(Br)(Br)Br H298:61.49 kcal/mol
-library:CHOFBr_G4 label:F[CH]C#CC(F)Br smiles:F[CH]C#CC(F)Br H298:-0.85 kcal/mol
-library:CHOFBr_G4 label:F[CH]C#CCBr smiles:F[CH]C#CCBr H298:40.57 kcal/mol
-library:CHOFBr_G4 label:F[CH]C#CC(F)(Br)Br smiles:F[CH]C#CC(F)(Br)Br H298:8.52 kcal/mol
-library:CHOFBr_G4 label:F[CH]C#CC(F)(F)Br smiles:F[CH]C#CC(F)(F)Br H298:-49.88 kcal/mol
+library:CHOFBr_G4 label:F[CH]C#CC(Br)(Br)Br smiles:F[CH]C#CC(Br)(Br)Br H298:61.53 kcal/mol
+library:CHOFBr_G4 label:F[CH]C#CC(F)Br smiles:F[CH]C#CC(F)Br H298:-0.45 kcal/mol
+library:CHOFBr_G4 label:F[CH]C#CCBr smiles:F[CH]C#CCBr H298:40.59 kcal/mol
+library:CHOFBr_G4 label:F[CH]C#CC(F)(Br)Br smiles:F[CH]C#CC(F)(Br)Br H298:8.56 kcal/mol
+library:CHOFBr_G4 label:F[CH]C#CC(F)(F)Br smiles:F[CH]C#CC(F)(F)Br H298:-49.85 kcal/mol
 """,
 )
 
@@ -1699,44 +1718,45 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.03647,-1.57316,-2.06415,-2.4767,-3.09717,-3.5218,-4.11549],'cal/(mol*K)','+|-',[0.177526,0.182274,0.170904,0.159629,0.140876,0.123277,0.0902904]),
-        H298 = (85.7057,'kcal/mol','+|-',0.283596),
-        S298 = (-0.680298,'cal/(mol*K)','+|-',0.48196),
+        Cpdata = ([-1.01591,-1.58193,-2.07384,-2.47821,-3.07666,-3.49012,-4.07695],'cal/(mol*K)','+|-',[0.177884,0.18203,0.170499,0.159166,0.14036,0.122855,0.0918703]),
+        H298 = (85.6972,'kcal/mol','+|-',0.27703),
+        S298 = (-0.0170482,'cal/(mol*K)','+|-',0.416887),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
 library:CHOBr_G4 label:CCDC[C](Br)Br smiles:CC=C[C](Br)Br H298:41.15 kcal/mol
-library:CHOBr_G4 label:CDC(OBr)[C](Br)Br smiles:C=C(OBr)[C](Br)Br H298:50.32 kcal/mol
-library:CHOBr_G4 label:CDC(C)[C](Br)Br smiles:C=C(C)[C](Br)Br H298:41.42 kcal/mol
-library:CHOBr_G4 label:CCDC(Br)[C](Br)Br smiles:CC=C(Br)[C](Br)Br H298:48.33 kcal/mol
-library:CHOBr_G4 label:CDCDC[C](Br)Br smiles:C=C=C[C](Br)Br H298:85.15 kcal/mol
-library:CHOBr_G4 label:CDC(Br)[C](Br)Br smiles:C=C(Br)[C](Br)Br H298:57.13 kcal/mol
-library:CHOBr_G4 label:CDC(CBr)[C](Br)Br smiles:C=C(CBr)[C](Br)Br H298:47.96 kcal/mol
-library:CHOBr_G4 label:BrCDC(Br)[C](Br)Br smiles:BrC=C(Br)[C](Br)Br H298:63.09 kcal/mol
-library:CHOBr_G4 label:CC(DCBr)[C](Br)Br smiles:CC(=CBr)[C](Br)Br H298:45.87 kcal/mol
-library:CHOBr_G4 label:Br[C](Br)CDC(Br)Br smiles:Br[C](Br)C=C(Br)Br H298:64.91 kcal/mol
-library:CHOBr_G4 label:CC(Br)DC[C](Br)Br smiles:CC(Br)=C[C](Br)Br H298:47.50 kcal/mol
-library:CHOBr_G4 label:OCDC[C](Br)Br smiles:OC=C[C](Br)Br H298:7.44 kcal/mol
-library:CHOBr_G4 label:CDC[C](Br)Br smiles:C=C[C](Br)Br H298:49.38 kcal/mol
-library:CHOBr_G4 label:BrCCDC[C](Br)Br smiles:BrCC=C[C](Br)Br H298:46.45 kcal/mol
-library:CHOBr_G4 label:BrCDC[C](Br)Br smiles:BrC=C[C](Br)Br H298:54.28 kcal/mol
-library:CHOBr_G4 label:CDC(O)[C](Br)Br smiles:C=C(O)[C](Br)Br H298:8.63 kcal/mol
-library:CHOFClBr_G4 label:FC(Cl)DC[C](Br)Br smiles:FC(Cl)=C[C](Br)Br H298:1.10 kcal/mol
-library:CHOFBr_G4 label:FCDC(Br)[C](Br)Br smiles:FC=C(Br)[C](Br)Br H298:15.02 kcal/mol
-library:CHOFBr_G4 label:OC(DCF)[C](Br)Br smiles:OC(=CF)[C](Br)Br H298:-33.07 kcal/mol
-library:CHOFBr_G4 label:FC(F)DC(F)[C](Br)Br smiles:FC(F)=C(F)[C](Br)Br H298:-76.34 kcal/mol
-library:CHOFBr_G4 label:FC(Br)DC[C](Br)Br smiles:FC(Br)=C[C](Br)Br H298:13.84 kcal/mol
-library:CHOFBr_G4 label:FC(Br)DC(Br)[C](Br)Br smiles:FC(Br)=C(Br)[C](Br)Br H298:26.08 kcal/mol
+library:CHOBr_G4 label:CDC(OBr)[C](Br)Br smiles:C=C(OBr)[C](Br)Br H298:50.33 kcal/mol
+library:CHOBr_G4 label:CDC(C)[C](Br)Br smiles:C=C(C)[C](Br)Br H298:41.43 kcal/mol
+library:CHOBr_G4 label:CCDC(Br)[C](Br)Br smiles:CC=C(Br)[C](Br)Br H298:48.36 kcal/mol
+library:CHOBr_G4 label:CDCDC[C](Br)Br smiles:C=C=C[C](Br)Br H298:85.14 kcal/mol
+library:CHOBr_G4 label:CDC(Br)[C](Br)Br smiles:C=C(Br)[C](Br)Br H298:57.14 kcal/mol
+library:CHOBr_G4 label:CDC(CBr)[C](Br)Br smiles:C=C(CBr)[C](Br)Br H298:48.00 kcal/mol
+library:CHOBr_G4 label:BrCDC(Br)[C](Br)Br smiles:BrC=C(Br)[C](Br)Br H298:63.10 kcal/mol
+library:CHOBr_G4 label:CC(DCBr)[C](Br)Br smiles:CC(=CBr)[C](Br)Br H298:46.30 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)CDC(Br)Br smiles:Br[C](Br)C=C(Br)Br H298:64.90 kcal/mol
+library:CHOBr_G4 label:CC(Br)DC[C](Br)Br smiles:CC(Br)=C[C](Br)Br H298:47.98 kcal/mol
+library:CHOBr_G4 label:OCDC[C](Br)Br smiles:OC=C[C](Br)Br H298:7.43 kcal/mol
+library:CHOBr_G4 label:CDC[C](Br)Br smiles:C=C[C](Br)Br H298:49.39 kcal/mol
+library:CHOBr_G4 label:BrCCDC[C](Br)Br smiles:BrCC=C[C](Br)Br H298:46.41 kcal/mol
+library:CHOBr_G4 label:OC(DCBr)[C](Br)Br smiles:OC(=CBr)[C](Br)Br H298:13.16 kcal/mol
+library:CHOBr_G4 label:BrCDC[C](Br)Br smiles:BrC=C[C](Br)Br H298:54.37 kcal/mol
+library:CHOBr_G4 label:CDC(O)[C](Br)Br smiles:C=C(O)[C](Br)Br H298:8.62 kcal/mol
+library:CHOFClBr_G4 label:FC(Cl)DC[C](Br)Br smiles:FC(Cl)=C[C](Br)Br H298:1.11 kcal/mol
+library:CHOFBr_G4 label:FCDC(Br)[C](Br)Br smiles:FC=C(Br)[C](Br)Br H298:15.04 kcal/mol
+library:CHOFBr_G4 label:OC(DCF)[C](Br)Br smiles:OC(=CF)[C](Br)Br H298:-33.06 kcal/mol
+library:CHOFBr_G4 label:FC(F)DC(F)[C](Br)Br smiles:FC(F)=C(F)[C](Br)Br H298:-76.33 kcal/mol
+library:CHOFBr_G4 label:FC(Br)DC[C](Br)Br smiles:FC(Br)=C[C](Br)Br H298:13.85 kcal/mol
+library:CHOFBr_G4 label:FC(Br)DC(Br)[C](Br)Br smiles:FC(Br)=C(Br)[C](Br)Br H298:26.12 kcal/mol
 library:CHOFBr_G4 label:CDC(F)[C](Br)Br smiles:C=C(F)[C](Br)Br H298:5.62 kcal/mol
-library:CHOFBr_G4 label:CC([C](Br)Br)DC(F)Br smiles:CC([C](Br)Br)=C(F)Br H298:7.67 kcal/mol
-library:CHOFBr_G4 label:CC(DCF)[C](Br)Br smiles:CC(=CF)[C](Br)Br H298:-0.11 kcal/mol
-library:CHOFBr_G4 label:CC([C](Br)Br)DC(F)F smiles:CC([C](Br)Br)=C(F)F H298:-46.77 kcal/mol
-library:CHOClBr_G4 label:CC(DCCl)[C](Br)Br smiles:CC(=CCl)[C](Br)Br H298:34.20 kcal/mol
-library:CHOClBr_G4 label:ClCDC(Cl)[C](Br)Br smiles:ClC=C(Cl)[C](Br)Br H298:39.41 kcal/mol
-library:CHOClBr_G4 label:ClCDC[C](Br)Br smiles:ClC=C[C](Br)Br H298:42.36 kcal/mol
-library:CHOClBr_G4 label:CDC(Cl)[C](Br)Br smiles:C=C(Cl)[C](Br)Br H298:45.13 kcal/mol
+library:CHOFBr_G4 label:CC([C](Br)Br)DC(F)Br smiles:CC([C](Br)Br)=C(F)Br H298:7.65 kcal/mol
+library:CHOFBr_G4 label:CC(DCF)[C](Br)Br smiles:CC(=CF)[C](Br)Br H298:-0.09 kcal/mol
+library:CHOFBr_G4 label:CC([C](Br)Br)DC(F)F smiles:CC([C](Br)Br)=C(F)F H298:-46.75 kcal/mol
+library:CHOClBr_G4 label:CC(DCCl)[C](Br)Br smiles:CC(=CCl)[C](Br)Br H298:34.17 kcal/mol
+library:CHOClBr_G4 label:ClCDC(Cl)[C](Br)Br smiles:ClC=C(Cl)[C](Br)Br H298:39.43 kcal/mol
+library:CHOClBr_G4 label:ClCDC[C](Br)Br smiles:ClC=C[C](Br)Br H298:42.37 kcal/mol
+library:CHOClBr_G4 label:CDC(Cl)[C](Br)Br smiles:C=C(Cl)[C](Br)Br H298:45.15 kcal/mol
 library:CHOClBr_G4 label:OC(DCCl)[C](Br)Br smiles:OC(=CCl)[C](Br)Br H298:1.74 kcal/mol
 """,
 )
@@ -1753,9 +1773,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.875682,-1.5291,-2.05385,-2.45199,-3.05453,-3.50097,-4.23207],'cal/(mol*K)','+|-',[0.210733,0.216369,0.202872,0.189487,0.167226,0.146336,0.107179]),
-        H298 = (84.6628,'kcal/mol','+|-',0.336643),
-        S298 = (0.921809,'cal/(mol*K)','+|-',0.572111),
+        Cpdata = ([-0.786963,-1.4274,-1.95924,-2.37947,-3.02804,-3.50058,-4.23908],'cal/(mol*K)','+|-',[0.205403,0.21019,0.196875,0.183789,0.162074,0.14186,0.106083]),
+        H298 = (84.4668,'kcal/mol','+|-',0.319886),
+        S298 = (0.254596,'cal/(mol*K)','+|-',0.48138),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1766,23 +1786,25 @@ library:CHOFClBr_G4 label:FC(Cl)DC[C](Cl)Br smiles:FC(Cl)=C[C](Cl)Br H298:-10.94
 library:CHOFClBr_G4 label:FCDC(F)[C](Cl)Br smiles:FC=C(F)[C](Cl)Br H298:-45.72 kcal/mol
 library:CHOFClBr_G4 label:OC(DCF)[C](Cl)Br smiles:OC(=CF)[C](Cl)Br H298:-44.87 kcal/mol
 library:CHOFClBr_G4 label:FCDC(Cl)[C](Cl)Br smiles:FC=C(Cl)[C](Cl)Br H298:-8.29 kcal/mol
-library:CHOFClBr_G4 label:FCDC[C](Cl)Br smiles:FC=C[C](Cl)Br H298:-6.16 kcal/mol
-library:CHOFClBr_G4 label:CDC(F)[C](Cl)Br smiles:C=C(F)[C](Cl)Br H298:-6.32 kcal/mol
-library:CHOFClBr_G4 label:CC(DCF)[C](Cl)Br smiles:CC(=CF)[C](Cl)Br H298:-12.27 kcal/mol
+library:CHOFClBr_G4 label:FCDC[C](Cl)Br smiles:FC=C[C](Cl)Br H298:-6.17 kcal/mol
+library:CHOFClBr_G4 label:CDC(F)[C](Cl)Br smiles:C=C(F)[C](Cl)Br H298:-6.33 kcal/mol
+library:CHOFClBr_G4 label:CC(DCF)[C](Cl)Br smiles:CC(=CF)[C](Cl)Br H298:-12.26 kcal/mol
 library:CHOClBr_G4 label:OC(DCCl)[C](Cl)Br smiles:OC(=CCl)[C](Cl)Br H298:-10.10 kcal/mol
 library:CHOClBr_G4 label:CCDC(Br)[C](Cl)Br smiles:CC=C(Br)[C](Cl)Br H298:41.09 kcal/mol
 library:CHOClBr_G4 label:CDC(C)[C](Cl)Br smiles:C=C(C)[C](Cl)Br H298:29.34 kcal/mol
-library:CHOClBr_G4 label:CDC(Cl)[C](Cl)Br smiles:C=C(Cl)[C](Cl)Br H298:33.16 kcal/mol
-library:CHOClBr_G4 label:CDC(OBr)[C](Cl)Br smiles:C=C(OBr)[C](Cl)Br H298:38.56 kcal/mol
-library:CHOClBr_G4 label:CCDC[C](Cl)Br smiles:CC=C[C](Cl)Br H298:29.24 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)CDCCBr smiles:Cl[C](Br)C=CCBr H298:34.57 kcal/mol
+library:CHOClBr_G4 label:CDC(Cl)[C](Cl)Br smiles:C=C(Cl)[C](Cl)Br H298:33.17 kcal/mol
+library:CHOClBr_G4 label:CDC(OBr)[C](Cl)Br smiles:C=C(OBr)[C](Cl)Br H298:38.55 kcal/mol
+library:CHOClBr_G4 label:CCDC[C](Cl)Br smiles:CC=C[C](Cl)Br H298:29.25 kcal/mol
 library:CHOClBr_G4 label:OCDC(Br)[C](Cl)Br smiles:OC=C(Br)[C](Cl)Br H298:1.98 kcal/mol
 library:CHOClBr_G4 label:CC(DCCl)[C](Cl)Br smiles:CC(=CCl)[C](Cl)Br H298:22.27 kcal/mol
-library:CHOClBr_G4 label:CDC(O)[C](Cl)Br smiles:C=C(O)[C](Cl)Br H298:-3.29 kcal/mol
-library:CHOClBr_G4 label:CDC[C](Cl)Br smiles:C=C[C](Cl)Br H298:37.37 kcal/mol
-library:CHOClBr_G4 label:OC(Br)DC[C](Cl)Br smiles:OC(Br)=C[C](Cl)Br H298:1.76 kcal/mol
+library:CHOClBr_G4 label:CDC([C](Cl)Br)C(Br)Br smiles:C=C([C](Cl)Br)C(Br)Br H298:44.75 kcal/mol
+library:CHOClBr_G4 label:CDC(O)[C](Cl)Br smiles:C=C(O)[C](Cl)Br H298:-3.30 kcal/mol
+library:CHOClBr_G4 label:CDC[C](Cl)Br smiles:C=C[C](Cl)Br H298:37.40 kcal/mol
+library:CHOClBr_G4 label:OC(Br)DC[C](Cl)Br smiles:OC(Br)=C[C](Cl)Br H298:1.74 kcal/mol
 library:CHOClBr_G4 label:OCDC[C](Cl)Br smiles:OC=C[C](Cl)Br H298:-4.48 kcal/mol
-library:CHOClBr_G4 label:CDCDC[C](Cl)Br smiles:C=C=C[C](Cl)Br H298:73.27 kcal/mol
-library:CHOClBr_G4 label:CDC(CBr)[C](Cl)Br smiles:C=C(CBr)[C](Cl)Br H298:35.93 kcal/mol
+library:CHOClBr_G4 label:CDCDC[C](Cl)Br smiles:C=C=C[C](Cl)Br H298:73.26 kcal/mol
+library:CHOClBr_G4 label:CDC(CBr)[C](Cl)Br smiles:C=C(CBr)[C](Cl)Br H298:35.81 kcal/mol
 """,
 )
 
@@ -1798,9 +1820,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.909736,-1.39438,-1.84154,-2.23597,-2.87253,-3.33311,-4.01397],'cal/(mol*K)','+|-',[0.128682,0.132123,0.123882,0.115709,0.102115,0.0893584,0.065448]),
-        H298 = (84.3344,'kcal/mol','+|-',0.205568),
-        S298 = (-0.923097,'cal/(mol*K)','+|-',0.349354),
+        Cpdata = ([-0.873071,-1.35561,-1.80755,-2.20663,-2.85245,-3.32108,-4.01443],'cal/(mol*K)','+|-',[0.127796,0.130774,0.12249,0.114348,0.100838,0.0882614,0.0660016]),
+        H298 = (84.3383,'kcal/mol','+|-',0.199024),
+        S298 = (-0.855791,'cal/(mol*K)','+|-',0.299501),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1820,7 +1842,7 @@ library:CHOCl_G4 label:Cl[C](Cl)CDC(Cl)C(Cl)Cl smiles:Cl[C](Cl)C=C(Cl)C(Cl)Cl H2
 library:CHOCl_G4 label:Cl[C](Cl)C(Cl)DCC(Cl)(Cl)Cl smiles:Cl[C](Cl)C(Cl)=CC(Cl)(Cl)Cl H298:4.43 kcal/mol
 library:CHOCl_G4 label:CCDC(Cl)[C](Cl)Cl smiles:CC=C(Cl)[C](Cl)Cl H298:12.31 kcal/mol
 library:CHOCl_G4 label:OC([C](Cl)Cl)DC(Cl)Cl smiles:OC([C](Cl)Cl)=C(Cl)Cl H298:-20.38 kcal/mol
-library:CHOCl_G4 label:CDC[C](Cl)Cl smiles:C=C[C](Cl)Cl H298:25.19 kcal/mol
+library:CHOCl_G4 label:CDC[C](Cl)Cl smiles:C=C[C](Cl)Cl H298:25.31 kcal/mol
 library:CHOCl_G4 label:CDC(O)[C](Cl)Cl smiles:C=C(O)[C](Cl)Cl H298:-15.11 kcal/mol
 library:CHOCl_G4 label:OC(Cl)DC(Cl)[C](Cl)Cl smiles:OC(Cl)=C(Cl)[C](Cl)Cl H298:-22.28 kcal/mol
 library:CHOCl_G4 label:ClCDC(OCl)[C](Cl)Cl smiles:ClC=C(OCl)[C](Cl)Cl H298:18.48 kcal/mol
@@ -1858,13 +1880,16 @@ library:CHOFCl_G4 label:OC(DCF)[C](Cl)Cl smiles:OC(=CF)[C](Cl)Cl H298:-56.54 kca
 library:CHOFCl_G4 label:FCDC(F)[C](Cl)Cl smiles:FC=C(F)[C](Cl)Cl H298:-57.45 kcal/mol
 library:CHOFCl_G4 label:FC(Cl)DC[C](Cl)Cl smiles:FC(Cl)=C[C](Cl)Cl H298:-22.97 kcal/mol
 library:CHOFCl_G4 label:FC(F)DC[C](Cl)Cl smiles:FC(F)=C[C](Cl)Cl H298:-63.96 kcal/mol
-library:CHOClBr_G4 label:CDC(CBr)[C](Cl)Cl smiles:C=C(CBr)[C](Cl)Cl H298:23.78 kcal/mol
-library:CHOClBr_G4 label:CC(Br)DC[C](Cl)Cl smiles:CC(Br)=C[C](Cl)Cl H298:23.19 kcal/mol
-library:CHOClBr_G4 label:OC(Br)DC[C](Cl)Cl smiles:OC(Br)=C[C](Cl)Cl H298:-10.10 kcal/mol
+library:CHOClBr_G4 label:CDC([C](Cl)Cl)C(Br)Br smiles:C=C([C](Cl)Cl)C(Br)Br H298:32.75 kcal/mol
+library:CHOClBr_G4 label:CDC(CBr)[C](Cl)Cl smiles:C=C(CBr)[C](Cl)Cl H298:23.69 kcal/mol
+library:CHOClBr_G4 label:CC(Br)DC(Cl)[C](Cl)Cl smiles:CC(Br)=C(Cl)[C](Cl)Cl H298:23.04 kcal/mol
+library:CHOClBr_G4 label:CC(Br)DC[C](Cl)Cl smiles:CC(Br)=C[C](Cl)Cl H298:23.12 kcal/mol
+library:CHOClBr_G4 label:OC(Br)DC[C](Cl)Cl smiles:OC(Br)=C[C](Cl)Cl H298:-10.12 kcal/mol
+library:CHOClBr_G4 label:CDC([C](Cl)Cl)C(Cl)Br smiles:C=C([C](Cl)Cl)C(Cl)Br H298:21.26 kcal/mol
 library:CHOClBr_G4 label:OCDC(Br)[C](Cl)Cl smiles:OC=C(Br)[C](Cl)Cl H298:-9.90 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)CDCCBr smiles:Cl[C](Cl)C=CCBr H298:22.50 kcal/mol
-library:CHOClBr_G4 label:CDC(OBr)[C](Cl)Cl smiles:C=C(OBr)[C](Cl)Cl H298:26.58 kcal/mol
-library:CHOClBr_G4 label:CCDC(Br)[C](Cl)Cl smiles:CC=C(Br)[C](Cl)Cl H298:24.41 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)CDCCBr smiles:Cl[C](Cl)C=CCBr H298:22.53 kcal/mol
+library:CHOClBr_G4 label:CDC(OBr)[C](Cl)Cl smiles:C=C(OBr)[C](Cl)Cl H298:26.49 kcal/mol
+library:CHOClBr_G4 label:CCDC(Br)[C](Cl)Cl smiles:CC=C(Br)[C](Cl)Cl H298:24.46 kcal/mol
 """,
 )
 
@@ -1880,39 +1905,39 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.06597,-1.56595,-2.00286,-2.38727,-2.97525,-3.38486,-3.95318],'cal/(mol*K)','+|-',[0.197685,0.202972,0.190311,0.177755,0.156872,0.137275,0.100543]),
-        H298 = (87.5955,'kcal/mol','+|-',0.3158),
-        S298 = (1.02806,'cal/(mol*K)','+|-',0.536688),
+        Cpdata = ([-1.04874,-1.57052,-1.9928,-2.36333,-2.94317,-3.3614,-3.96494],'cal/(mol*K)','+|-',[0.201253,0.205943,0.192897,0.180076,0.1588,0.138994,0.103939]),
+        H298 = (87.6069,'kcal/mol','+|-',0.313423),
+        S298 = (0.560886,'cal/(mol*K)','+|-',0.471654),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFBr_G4 label:CCDC[C](F)Br smiles:CC=C[C](F)Br H298:-8.44 kcal/mol
-library:CHOFBr_G4 label:CDC[C](F)Br smiles:C=C[C](F)Br H298:-0.17 kcal/mol
-library:CHOFBr_G4 label:CDC(F)[C](F)Br smiles:C=C(F)[C](F)Br H298:-42.82 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CDCC(Br)Br smiles:F[C](Br)C=CC(Br)Br H298:4.36 kcal/mol
-library:CHOFBr_G4 label:CDC(CBr)[C](F)Br smiles:C=C(CBr)[C](F)Br H298:-1.73 kcal/mol
+library:CHOFBr_G4 label:CCDC[C](F)Br smiles:CC=C[C](F)Br H298:-8.07 kcal/mol
+library:CHOFBr_G4 label:CDC[C](F)Br smiles:C=C[C](F)Br H298:-0.16 kcal/mol
+library:CHOFBr_G4 label:CDC(F)[C](F)Br smiles:C=C(F)[C](F)Br H298:-42.83 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CDCC(Br)Br smiles:F[C](Br)C=CC(Br)Br H298:4.34 kcal/mol
+library:CHOFBr_G4 label:CDC(CBr)[C](F)Br smiles:C=C(CBr)[C](F)Br H298:-1.69 kcal/mol
 library:CHOFBr_G4 label:F[C](Br)CDC(F)F smiles:F[C](Br)C=C(F)F H298:-89.19 kcal/mol
 library:CHOFBr_G4 label:CDCDC[C](F)Br smiles:C=C=C[C](F)Br H298:36.50 kcal/mol
-library:CHOFBr_G4 label:OC(Br)DC[C](F)Br smiles:OC(Br)=C[C](F)Br H298:-35.55 kcal/mol
+library:CHOFBr_G4 label:OC(Br)DC[C](F)Br smiles:OC(Br)=C[C](F)Br H298:-35.56 kcal/mol
 library:CHOFBr_G4 label:OCDC[C](F)Br smiles:OC=C[C](F)Br H298:-42.07 kcal/mol
-library:CHOFBr_G4 label:CC([C](F)Br)DC(F)F smiles:CC([C](F)Br)=C(F)F H298:-96.91 kcal/mol
+library:CHOFBr_G4 label:CC([C](F)Br)DC(F)F smiles:CC([C](F)Br)=C(F)F H298:-96.95 kcal/mol
 library:CHOFBr_G4 label:FCDC[C](F)Br smiles:FC=C[C](F)Br H298:-43.31 kcal/mol
 library:CHOFBr_G4 label:CDC(OBr)[C](F)Br smiles:C=C(OBr)[C](F)Br H298:1.76 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CDC(Br)CBr smiles:F[C](Br)C=C(Br)CBr H298:2.32 kcal/mol
-library:CHOFBr_G4 label:CCDC(Br)[C](F)Br smiles:CC=C(Br)[C](F)Br H298:-0.53 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CDC(Br)CBr smiles:F[C](Br)C=C(Br)CBr H298:2.35 kcal/mol
+library:CHOFBr_G4 label:CCDC(Br)[C](F)Br smiles:CC=C(Br)[C](F)Br H298:-0.56 kcal/mol
 library:CHOFBr_G4 label:OC(Br)DC(Br)[C](F)Br smiles:OC(Br)=C(Br)[C](F)Br H298:-23.55 kcal/mol
-library:CHOFBr_G4 label:CDC(O)[C](F)Br smiles:C=C(O)[C](F)Br H298:-39.46 kcal/mol
-library:CHOFBr_G4 label:FCDC(F)[C](F)Br smiles:FC=C(F)[C](F)Br H298:-81.64 kcal/mol
-library:CHOFBr_G4 label:OCDC(Br)[C](F)Br smiles:OC=C(Br)[C](F)Br H298:-34.21 kcal/mol
-library:CHOFBr_G4 label:CC(Br)DC[C](F)Br smiles:CC(Br)=C[C](F)Br H298:-2.93 kcal/mol
+library:CHOFBr_G4 label:CDC(O)[C](F)Br smiles:C=C(O)[C](F)Br H298:-39.47 kcal/mol
+library:CHOFBr_G4 label:FCDC(F)[C](F)Br smiles:FC=C(F)[C](F)Br H298:-81.65 kcal/mol
+library:CHOFBr_G4 label:OCDC(Br)[C](F)Br smiles:OC=C(Br)[C](F)Br H298:-34.19 kcal/mol
+library:CHOFBr_G4 label:CC(Br)DC[C](F)Br smiles:CC(Br)=C[C](F)Br H298:-2.91 kcal/mol
 library:CHOFBr_G4 label:FCDC(OBr)[C](F)Br smiles:FC=C(OBr)[C](F)Br H298:-38.78 kcal/mol
-library:CHOFBr_G4 label:CDC(C)[C](F)Br smiles:C=C(C)[C](F)Br H298:-8.36 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CDCCBr smiles:F[C](Br)C=CCBr H298:-2.78 kcal/mol
+library:CHOFBr_G4 label:CDC(C)[C](F)Br smiles:C=C(C)[C](F)Br H298:-8.35 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CDCCBr smiles:F[C](Br)C=CCBr H298:-2.75 kcal/mol
 library:CHOFBr_G4 label:F[C](Br)C(F)DC(F)F smiles:F[C](Br)C(F)=C(F)F H298:-124.45 kcal/mol
-library:CHOFBr_G4 label:CDC([C](F)Br)C(Br)Br smiles:C=C([C](F)Br)C(Br)Br H298:6.86 kcal/mol
-library:CHOFBr_G4 label:CC(Br)DC(Br)[C](F)Br smiles:CC(Br)=C(Br)[C](F)Br H298:7.82 kcal/mol
+library:CHOFBr_G4 label:CDC([C](F)Br)C(Br)Br smiles:C=C([C](F)Br)C(Br)Br H298:7.06 kcal/mol
+library:CHOFBr_G4 label:CC(Br)DC(Br)[C](F)Br smiles:CC(Br)=C(Br)[C](F)Br H298:7.86 kcal/mol
 """,
 )
 
@@ -1928,9 +1953,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.835817,-1.28143,-1.73699,-2.12478,-2.72965,-3.16783,-3.86437],'cal/(mol*K)','+|-',[0.197685,0.202972,0.190311,0.177755,0.156872,0.137275,0.100543]),
-        H298 = (87.022,'kcal/mol','+|-',0.3158),
-        S298 = (1.14697,'cal/(mol*K)','+|-',0.536688),
+        Cpdata = ([-0.739951,-1.17699,-1.66127,-2.07935,-2.72121,-3.17191,-3.86938],'cal/(mol*K)','+|-',[0.193655,0.198169,0.185615,0.173278,0.152805,0.133747,0.100016]),
+        H298 = (86.9457,'kcal/mol','+|-',0.301592),
+        S298 = (1.10392,'cal/(mol*K)','+|-',0.453849),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -1954,13 +1979,15 @@ library:CHOFCl_G4 label:OC(DCF)[C](F)Cl smiles:OC(=CF)[C](F)Cl H298:-93.33 kcal/
 library:CHOFCl_G4 label:CDC(F)[C](F)Cl smiles:C=C(F)[C](F)Cl H298:-55.47 kcal/mol
 library:CHOFCl_G4 label:CDC[C](F)Cl smiles:C=C[C](F)Cl H298:-13.04 kcal/mol
 library:CHOFCl_G4 label:CCDC[C](F)Cl smiles:CC=C[C](F)Cl H298:-20.83 kcal/mol
-library:CHOFClBr_G4 label:CC(Br)DC[C](F)Cl smiles:CC(Br)=C[C](F)Cl H298:-15.68 kcal/mol
-library:CHOFClBr_G4 label:OCDC(Br)[C](F)Cl smiles:OC=C(Br)[C](F)Cl H298:-46.65 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)CDCCBr smiles:F[C](Cl)C=CCBr H298:-15.66 kcal/mol
-library:CHOFClBr_G4 label:CCDC(Br)[C](F)Cl smiles:CC=C(Br)[C](F)Cl H298:-12.90 kcal/mol
+library:CHOFClBr_G4 label:CDC([C](F)Cl)C(Cl)Br smiles:C=C([C](F)Cl)C(Cl)Br H298:-17.03 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)DC[C](F)Cl smiles:CC(Br)=C[C](F)Cl H298:-15.65 kcal/mol
+library:CHOFClBr_G4 label:OCDC(Br)[C](F)Cl smiles:OC=C(Br)[C](F)Cl H298:-46.64 kcal/mol
+library:CHOFClBr_G4 label:CDC([C](F)Cl)C(Br)Br smiles:C=C([C](F)Cl)C(Br)Br H298:-5.66 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)CDCCBr smiles:F[C](Cl)C=CCBr H298:-15.62 kcal/mol
+library:CHOFClBr_G4 label:CCDC(Br)[C](F)Cl smiles:CC=C(Br)[C](F)Cl H298:-12.86 kcal/mol
 library:CHOFClBr_G4 label:CDC(OBr)[C](F)Cl smiles:C=C(OBr)[C](F)Cl H298:-10.78 kcal/mol
-library:CHOFClBr_G4 label:OC(Br)DC[C](F)Cl smiles:OC(Br)=C[C](F)Cl H298:-48.12 kcal/mol
-library:CHOFClBr_G4 label:CDC(CBr)[C](F)Cl smiles:C=C(CBr)[C](F)Cl H298:-14.45 kcal/mol
+library:CHOFClBr_G4 label:OC(Br)DC[C](F)Cl smiles:OC(Br)=C[C](F)Cl H298:-48.13 kcal/mol
+library:CHOFClBr_G4 label:CDC(CBr)[C](F)Cl smiles:C=C(CBr)[C](F)Cl H298:-14.50 kcal/mol
 """,
 )
 
@@ -1976,9 +2003,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.426557,-0.842816,-1.28458,-1.69885,-2.41286,-2.95515,-3.77227],'cal/(mol*K)','+|-',[0.122599,0.125878,0.118026,0.110239,0.0972881,0.0851343,0.0623542]),
-        H298 = (92.9055,'kcal/mol','+|-',0.195851),
-        S298 = (-0.110351,'cal/(mol*K)','+|-',0.33284),
+        Cpdata = ([-0.40857,-0.831437,-1.27778,-1.69171,-2.40654,-2.95432,-3.78401],'cal/(mol*K)','+|-',[0.123862,0.126749,0.11872,0.110829,0.0977344,0.085545,0.0639703]),
+        H298 = (92.8812,'kcal/mol','+|-',0.192899),
+        S298 = (-0.199788,'cal/(mol*K)','+|-',0.290283),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -2010,7 +2037,7 @@ library:CHOF_G4 label:FCDC([C](F)F)C(F)F smiles:FC=C([C](F)F)C(F)F H298:-196.75 
 library:CHOF_G4 label:FCCDC(F)[C](F)F smiles:FCC=C(F)[C](F)F H298:-144.87 kcal/mol
 library:CHOF_G4 label:CC(DCF)[C](F)F smiles:CC(=CF)[C](F)F H298:-104.48 kcal/mol
 library:CHOF_G4 label:FCCDC[C](F)F smiles:FCC=C[C](F)F H298:-104.71 kcal/mol
-library:CHOF_G4 label:CC([C](F)F)DC(F)F smiles:CC([C](F)F)=C(F)F H298:-149.68 kcal/mol
+library:CHOF_G4 label:CC([C](F)F)DC(F)F smiles:CC([C](F)F)=C(F)F H298:-149.11 kcal/mol
 library:CHOF_G4 label:FCDC(OF)[C](F)F smiles:FC=C(OF)[C](F)F H298:-97.07 kcal/mol
 library:CHOF_G4 label:FCC(F)DC[C](F)F smiles:FCC(F)=C[C](F)F H298:-148.69 kcal/mol
 library:CHOF_G4 label:CC(F)DC(F)[C](F)F smiles:CC(F)=C(F)[C](F)F H298:-143.80 kcal/mol
@@ -2031,23 +2058,24 @@ library:CHOFCl_G4 label:ODCDC(Cl)[C](F)F smiles:O=C=C(Cl)[C](F)F H298:-64.18 kca
 library:CHOFCl_G4 label:CCDC(Cl)[C](F)F smiles:CC=C(Cl)[C](F)F H298:-64.38 kcal/mol
 library:CHOFCl_G4 label:OC(Cl)DC[C](F)F smiles:OC(Cl)=C[C](F)F H298:-100.25 kcal/mol
 library:CHOFCl_G4 label:CDC(OCl)[C](F)F smiles:C=C(OCl)[C](F)F H298:-52.83 kcal/mol
-library:CHOFBr_G4 label:ODCDC(Br)[C](F)F smiles:O=C=C(Br)[C](F)F H298:-54.19 kcal/mol
-library:CHOFBr_G4 label:CC(Br)DC(Br)[C](F)F smiles:CC(Br)=C(Br)[C](F)F H298:-45.42 kcal/mol
-library:CHOFBr_G4 label:CCDC(Br)[C](F)F smiles:CC=C(Br)[C](F)F H298:-53.14 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)DCCBr smiles:F[C](F)C(Br)=CCBr H298:-47.69 kcal/mol
-library:CHOFBr_G4 label:OC(Br)DC(F)[C](F)F smiles:OC(Br)=C(F)[C](F)F H298:-123.35 kcal/mol
-library:CHOFBr_G4 label:OC(Br)DC[C](F)F smiles:OC(Br)=C[C](F)F H298:-87.69 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)DC(Cl)[C](F)F smiles:CC(Br)=C(Cl)[C](F)F H298:-56.75 kcal/mol
+library:CHOFBr_G4 label:ODCDC(Br)[C](F)F smiles:O=C=C(Br)[C](F)F H298:-54.20 kcal/mol
+library:CHOFBr_G4 label:CC(Br)DC(Br)[C](F)F smiles:CC(Br)=C(Br)[C](F)F H298:-45.38 kcal/mol
+library:CHOFBr_G4 label:CCDC(Br)[C](F)F smiles:CC=C(Br)[C](F)F H298:-53.15 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)DCCBr smiles:F[C](F)C(Br)=CCBr H298:-47.64 kcal/mol
+library:CHOFBr_G4 label:OC(Br)DC(F)[C](F)F smiles:OC(Br)=C(F)[C](F)F H298:-123.34 kcal/mol
+library:CHOFBr_G4 label:OC(Br)DC[C](F)F smiles:OC(Br)=C[C](F)F H298:-87.70 kcal/mol
 library:CHOFBr_G4 label:OC(Br)DC(Br)[C](F)F smiles:OC(Br)=C(Br)[C](F)F H298:-75.84 kcal/mol
 library:CHOFBr_G4 label:CDC(OBr)[C](F)F smiles:C=C(OBr)[C](F)F H298:-49.71 kcal/mol
-library:CHOFBr_G4 label:FCDC(OBr)[C](F)F smiles:FC=C(OBr)[C](F)F H298:-88.76 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CDCCBr smiles:F[C](F)C=CCBr H298:-56.32 kcal/mol
-library:CHOFBr_G4 label:CC(Br)DC(F)[C](F)F smiles:CC(Br)=C(F)[C](F)F H298:-94.46 kcal/mol
-library:CHOFBr_G4 label:CC(Br)DC[C](F)F smiles:CC(Br)=C[C](F)F H298:-57.68 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CDC(Br)CBr smiles:F[C](F)C=C(Br)CBr H298:-51.34 kcal/mol
-library:CHOFBr_G4 label:CDC(CBr)[C](F)F smiles:C=C(CBr)[C](F)F H298:-54.66 kcal/mol
-library:CHOFBr_G4 label:OCDC(Br)[C](F)F smiles:OC=C(Br)[C](F)F H298:-85.46 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)DCCBr smiles:F[C](F)C(F)=CCBr H298:-96.10 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CDCC(F)Br smiles:F[C](F)C=CC(F)Br H298:-99.54 kcal/mol
+library:CHOFBr_G4 label:FCDC(OBr)[C](F)F smiles:FC=C(OBr)[C](F)F H298:-88.77 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CDCCBr smiles:F[C](F)C=CCBr H298:-56.27 kcal/mol
+library:CHOFBr_G4 label:CC(Br)DC(F)[C](F)F smiles:CC(Br)=C(F)[C](F)F H298:-94.45 kcal/mol
+library:CHOFBr_G4 label:CC(Br)DC[C](F)F smiles:CC(Br)=C[C](F)F H298:-57.86 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CDC(Br)CBr smiles:F[C](F)C=C(Br)CBr H298:-51.30 kcal/mol
+library:CHOFBr_G4 label:CDC(CBr)[C](F)F smiles:C=C(CBr)[C](F)F H298:-54.62 kcal/mol
+library:CHOFBr_G4 label:OCDC(Br)[C](F)F smiles:OC=C(Br)[C](F)F H298:-85.45 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)DCCBr smiles:F[C](F)C(F)=CCBr H298:-96.06 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CDCC(F)Br smiles:F[C](F)C=CC(F)Br H298:-99.50 kcal/mol
 library:CHOFBr_G4 label:F[C](F)CDCC(Br)Br smiles:F[C](F)C=CC(Br)Br H298:-49.42 kcal/mol
 """,
 )
@@ -2064,49 +2092,49 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.229934,-0.64201,-1.12114,-1.53874,-2.20809,-2.74947,-3.70053],'cal/(mol*K)','+|-',[0.164737,0.169143,0.158592,0.148129,0.130727,0.114396,0.0837859]),
-        H298 = (85.8747,'kcal/mol','+|-',0.263166),
-        S298 = (-1.0617,'cal/(mol*K)','+|-',0.44724),
+        Cpdata = ([-0.17728,-0.587649,-1.0765,-1.51368,-2.21006,-2.76289,-3.70594],'cal/(mol*K)','+|-',[0.167711,0.171619,0.160748,0.150063,0.132333,0.115828,0.0866161]),
+        H298 = (85.8424,'kcal/mol','+|-',0.261186),
+        S298 = (-1.29433,'cal/(mol*K)','+|-',0.393045),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:OCDC(Br)[CH]Br smiles:OC=C(Br)[CH]Br H298:5.54 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(DCBr)OBr smiles:Br[CH]C(=CBr)OBr H298:49.04 kcal/mol
-library:CHOBr_G4 label:CDC(C)[CH]Br smiles:C=C(C)[CH]Br H298:33.88 kcal/mol
-library:CHOBr_G4 label:CC([CH]Br)DCBr smiles:CC([CH]Br)=CBr H298:39.32 kcal/mol
-library:CHOBr_G4 label:Br[CH]CDC(Br)CBr smiles:Br[CH]C=C(Br)CBr H298:43.49 kcal/mol
-library:CHOBr_G4 label:CC(Br)DC[CH]Br smiles:CC(Br)=C[CH]Br H298:38.96 kcal/mol
-library:CHOBr_G4 label:CDC([CH]Br)CBr smiles:C=C([CH]Br)CBr H298:41.65 kcal/mol
-library:CHOBr_G4 label:Br[CH]CDCC(Br)Br smiles:Br[CH]C=CC(Br)Br H298:47.49 kcal/mol
-library:CHOBr_G4 label:CDC([CH]Br)OBr smiles:C=C([CH]Br)OBr H298:43.33 kcal/mol
-library:CHOBr_G4 label:OC(Br)DC[CH]Br smiles:OC(Br)=C[CH]Br H298:6.09 kcal/mol
-library:CHOBr_G4 label:CDC(O)[CH]Br smiles:C=C(O)[CH]Br H298:0.44 kcal/mol
-library:CHOBr_G4 label:Br[CH]CDCCBr smiles:Br[CH]C=CCBr H298:40.46 kcal/mol
-library:CHOBr_G4 label:CCDC[CH]Br smiles:CC=C[CH]Br H298:35.33 kcal/mol
-library:CHOBr_G4 label:CDC[CH]Br smiles:C=C[CH]Br H298:43.59 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)DCCBr smiles:Br[CH]C(Br)=CCBr H298:45.81 kcal/mol
+library:CHOBr_G4 label:OCDC(Br)[CH]Br smiles:OC=C(Br)[CH]Br H298:5.51 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(DCBr)OBr smiles:Br[CH]C(=CBr)OBr H298:48.99 kcal/mol
+library:CHOBr_G4 label:CDC(C)[CH]Br smiles:C=C(C)[CH]Br H298:33.95 kcal/mol
+library:CHOBr_G4 label:CC([CH]Br)DCBr smiles:CC([CH]Br)=CBr H298:39.30 kcal/mol
+library:CHOBr_G4 label:Br[CH]CDC(Br)CBr smiles:Br[CH]C=C(Br)CBr H298:43.48 kcal/mol
+library:CHOBr_G4 label:CC(Br)DC[CH]Br smiles:CC(Br)=C[CH]Br H298:38.75 kcal/mol
+library:CHOBr_G4 label:CDC([CH]Br)CBr smiles:C=C([CH]Br)CBr H298:41.69 kcal/mol
+library:CHOBr_G4 label:Br[CH]CDCC(Br)Br smiles:Br[CH]C=CC(Br)Br H298:47.50 kcal/mol
+library:CHOBr_G4 label:CDC([CH]Br)OBr smiles:C=C([CH]Br)OBr H298:43.32 kcal/mol
+library:CHOBr_G4 label:OC(Br)DC[CH]Br smiles:OC(Br)=C[CH]Br H298:6.04 kcal/mol
+library:CHOBr_G4 label:CDC(O)[CH]Br smiles:C=C(O)[CH]Br H298:0.40 kcal/mol
+library:CHOBr_G4 label:Br[CH]CDCCBr smiles:Br[CH]C=CCBr H298:40.48 kcal/mol
+library:CHOBr_G4 label:CCDC[CH]Br smiles:CC=C[CH]Br H298:35.34 kcal/mol
+library:CHOBr_G4 label:CDC[CH]Br smiles:C=C[CH]Br H298:43.60 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)DCCBr smiles:Br[CH]C(Br)=CCBr H298:45.83 kcal/mol
 library:CHOBr_G4 label:Br[CH]CDCDCBr smiles:Br[CH]C=C=CBr H298:84.98 kcal/mol
-library:CHOBr_G4 label:CDC(Br)[CH]Br smiles:C=C(Br)[CH]Br H298:48.84 kcal/mol
-library:CHOBr_G4 label:OC([CH]Br)DCBr smiles:OC([CH]Br)=CBr H298:6.14 kcal/mol
+library:CHOBr_G4 label:CDC(Br)[CH]Br smiles:C=C(Br)[CH]Br H298:48.85 kcal/mol
+library:CHOBr_G4 label:OC([CH]Br)DCBr smiles:OC([CH]Br)=CBr H298:6.07 kcal/mol
 library:CHOBr_G4 label:Br[CH]C(DCBr)CBr smiles:Br[CH]C(=CBr)CBr H298:45.96 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)DCBr smiles:Br[CH]C(Br)=CBr H298:54.68 kcal/mol
-library:CHOBr_G4 label:Br[CH]CDCBr smiles:Br[CH]C=CBr H298:48.05 kcal/mol
-library:CHOBr_G4 label:CCDC(Br)[CH]Br smiles:CC=C(Br)[CH]Br H298:40.22 kcal/mol
-library:CHOBr_G4 label:OCDC[CH]Br smiles:OC=C[CH]Br H298:0.42 kcal/mol
-library:CHOFClBr_G4 label:FCDC(Cl)[CH]Br smiles:FC=C(Cl)[CH]Br H298:-4.68 kcal/mol
-library:CHOFClBr_G4 label:FC(Cl)DC(Cl)[CH]Br smiles:FC(Cl)=C(Cl)[CH]Br H298:-10.19 kcal/mol
-library:CHOFClBr_G4 label:FC(Cl)DC[CH]Br smiles:FC(Cl)=C[CH]Br H298:-7.61 kcal/mol
-library:CHOFClBr_G4 label:FC(F)DC(Cl)[CH]Br smiles:FC(F)=C(Cl)[CH]Br H298:-49.55 kcal/mol
-library:CHOFBr_G4 label:CDC(F)[CH]Br smiles:C=C(F)[CH]Br H298:-2.10 kcal/mol
-library:CHOFBr_G4 label:FC(Br)DC[CH]Br smiles:FC(Br)=C[CH]Br H298:5.17 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)DCBr smiles:Br[CH]C(Br)=CBr H298:54.65 kcal/mol
+library:CHOBr_G4 label:Br[CH]CDCBr smiles:Br[CH]C=CBr H298:48.01 kcal/mol
+library:CHOBr_G4 label:CCDC(Br)[CH]Br smiles:CC=C(Br)[CH]Br H298:40.20 kcal/mol
+library:CHOBr_G4 label:OCDC[CH]Br smiles:OC=C[CH]Br H298:0.40 kcal/mol
+library:CHOFClBr_G4 label:FCDC(Cl)[CH]Br smiles:FC=C(Cl)[CH]Br H298:-4.69 kcal/mol
+library:CHOFClBr_G4 label:FC(Cl)DC(Cl)[CH]Br smiles:FC(Cl)=C(Cl)[CH]Br H298:-10.21 kcal/mol
+library:CHOFClBr_G4 label:FC(Cl)DC[CH]Br smiles:FC(Cl)=C[CH]Br H298:-7.63 kcal/mol
+library:CHOFClBr_G4 label:FC(F)DC(Cl)[CH]Br smiles:FC(F)=C(Cl)[CH]Br H298:-49.57 kcal/mol
+library:CHOFBr_G4 label:CDC(F)[CH]Br smiles:C=C(F)[CH]Br H298:-2.11 kcal/mol
+library:CHOFBr_G4 label:FC(Br)DC[CH]Br smiles:FC(Br)=C[CH]Br H298:5.15 kcal/mol
 library:CHOFBr_G4 label:CC([CH]Br)DC(F)F smiles:CC([CH]Br)=C(F)F H298:-56.60 kcal/mol
 library:CHOFBr_G4 label:FC(F)DC(Br)[CH]Br smiles:FC(F)=C(Br)[CH]Br H298:-38.11 kcal/mol
-library:CHOFBr_G4 label:FCDC[CH]Br smiles:FC=C[CH]Br H298:-1.19 kcal/mol
-library:CHOFBr_G4 label:FCDC(Br)[CH]Br smiles:FC=C(Br)[CH]Br H298:6.65 kcal/mol
-library:CHOFBr_G4 label:FC(F)DC[CH]Br smiles:FC(F)=C[CH]Br H298:-48.19 kcal/mol
-library:CHOFBr_G4 label:FC(F)DC([CH]Br)CBr smiles:FC(F)=C([CH]Br)CBr H298:-49.48 kcal/mol
+library:CHOFBr_G4 label:FCDC[CH]Br smiles:FC=C[CH]Br H298:-1.21 kcal/mol
+library:CHOFBr_G4 label:FCDC(Br)[CH]Br smiles:FC=C(Br)[CH]Br H298:6.64 kcal/mol
+library:CHOFBr_G4 label:FC(F)DC[CH]Br smiles:FC(F)=C[CH]Br H298:-48.21 kcal/mol
+library:CHOFBr_G4 label:FC(F)DC([CH]Br)CBr smiles:FC(F)=C([CH]Br)CBr H298:-49.46 kcal/mol
 library:CHOClBr_G4 label:CDC(Cl)[CH]Br smiles:C=C(Cl)[CH]Br H298:37.11 kcal/mol
 """,
 )
@@ -2123,9 +2151,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.297037,-0.586456,-0.97946,-1.36131,-2.02864,-2.58063,-3.55367],'cal/(mol*K)','+|-',[0.116487,0.119602,0.112142,0.104743,0.0924379,0.0808901,0.0592456]),
-        H298 = (84.2982,'kcal/mol','+|-',0.186087),
-        S298 = (-1.17227,'cal/(mol*K)','+|-',0.316246),
+        Cpdata = ([-0.275131,-0.581132,-0.980326,-1.36445,-2.03632,-2.59642,-3.59125],'cal/(mol*K)','+|-',[0.116193,0.118901,0.111369,0.103967,0.091683,0.0802483,0.0600094]),
+        H298 = (84.3217,'kcal/mol','+|-',0.180955),
+        S298 = (-1.31917,'cal/(mol*K)','+|-',0.27231),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -2181,28 +2209,31 @@ library:CHOFCl_G4 label:CC([CH]Cl)DC(F)Cl smiles:CC([CH]Cl)=C(F)Cl H298:-27.98 k
 library:CHOFCl_G4 label:FCDC(Cl)[CH]Cl smiles:FC=C(Cl)[CH]Cl H298:-16.55 kcal/mol
 library:CHOFCl_G4 label:CDC(F)[CH]Cl smiles:C=C(F)[CH]Cl H298:-14.11 kcal/mol
 library:CHOFCl_G4 label:CC([CH]Cl)DCF smiles:CC([CH]Cl)=CF H298:-21.83 kcal/mol
-library:CHOFClBr_G4 label:FCDC([CH]Cl)CBr smiles:FC=C([CH]Cl)CBr H298:-14.66 kcal/mol
+library:CHOFClBr_G4 label:FCDC([CH]Cl)CBr smiles:FC=C([CH]Cl)CBr H298:-14.63 kcal/mol
 library:CHOClBr_G4 label:CCDC(Br)[CH]Cl smiles:CC=C(Br)[CH]Cl H298:28.40 kcal/mol
-library:CHOClBr_G4 label:CDC([CH]Cl)CBr smiles:C=C([CH]Cl)CBr H298:29.54 kcal/mol
-library:CHOClBr_G4 label:CDC([CH]Cl)C(Cl)Br smiles:C=C([CH]Cl)C(Cl)Br H298:25.81 kcal/mol
-library:CHOClBr_G4 label:CC(Br)DC(Cl)[CH]Cl smiles:CC(Br)=C(Cl)[CH]Cl H298:21.33 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CDCCBr smiles:Cl[CH]C=CCBr H298:28.41 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(DCCl)CBr smiles:Cl[CH]C(=CCl)CBr H298:22.08 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)DCCBr smiles:Cl[CH]C(Br)=CCBr H298:33.99 kcal/mol
-library:CHOClBr_G4 label:OC(Br)DC[CH]Cl smiles:OC(Br)=C[CH]Cl H298:-5.91 kcal/mol
+library:CHOClBr_G4 label:CDC([CH]Cl)CBr smiles:C=C([CH]Cl)CBr H298:29.50 kcal/mol
+library:CHOClBr_G4 label:CDC([CH]Cl)C(Cl)(Cl)Br smiles:C=C([CH]Cl)C(Cl)(Cl)Br H298:25.74 kcal/mol
+library:CHOClBr_G4 label:CDC([CH]Cl)C(Cl)Br smiles:C=C([CH]Cl)C(Cl)Br H298:25.84 kcal/mol
+library:CHOClBr_G4 label:CC(Br)DC(Cl)[CH]Cl smiles:CC(Br)=C(Cl)[CH]Cl H298:21.35 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CDCCBr smiles:Cl[CH]C=CCBr H298:28.45 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(DCCl)CBr smiles:Cl[CH]C(=CCl)CBr H298:22.11 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)DCCBr smiles:Cl[CH]C(Br)=CCBr H298:34.03 kcal/mol
+library:CHOClBr_G4 label:OC(Br)DC[CH]Cl smiles:OC(Br)=C[CH]Cl H298:-5.93 kcal/mol
 library:CHOClBr_G4 label:OC(Br)DC(Br)[CH]Cl smiles:OC(Br)=C(Br)[CH]Cl H298:1.28 kcal/mol
-library:CHOClBr_G4 label:CDC([CH]Cl)C(Br)Br smiles:C=C([CH]Cl)C(Br)Br H298:37.09 kcal/mol
-library:CHOClBr_G4 label:CC(Br)DC(Br)[CH]Cl smiles:CC(Br)=C(Br)[CH]Cl H298:33.20 kcal/mol
-library:CHOClBr_G4 label:CC(Br)DC[CH]Cl smiles:CC(Br)=C[CH]Cl H298:27.06 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CDCC(Br)Br smiles:Cl[CH]C=CC(Br)Br H298:35.42 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CDC(Cl)CBr smiles:Cl[CH]C=C(Cl)CBr H298:19.61 kcal/mol
+library:CHOClBr_G4 label:CDC([CH]Cl)C(Cl)(Br)Br smiles:C=C([CH]Cl)C(Cl)(Br)Br H298:37.52 kcal/mol
+library:CHOClBr_G4 label:CDC([CH]Cl)C(Br)Br smiles:C=C([CH]Cl)C(Br)Br H298:37.14 kcal/mol
+library:CHOClBr_G4 label:CC(Br)DC(Br)[CH]Cl smiles:CC(Br)=C(Br)[CH]Cl H298:32.71 kcal/mol
+library:CHOClBr_G4 label:CC(Br)DC[CH]Cl smiles:CC(Br)=C[CH]Cl H298:27.07 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CDCC(Br)Br smiles:Cl[CH]C=CC(Br)Br H298:35.46 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CDC(Cl)CBr smiles:Cl[CH]C=C(Cl)CBr H298:19.63 kcal/mol
 library:CHOClBr_G4 label:Cl[CH]C(DCCl)OBr smiles:Cl[CH]C(=CCl)OBr H298:25.55 kcal/mol
 library:CHOClBr_G4 label:OC(Br)DC(Cl)[CH]Cl smiles:OC(Br)=C(Cl)[CH]Cl H298:-10.13 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)DCCBr smiles:Cl[CH]C(Cl)=CCBr H298:22.43 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CDC(Br)CBr smiles:Cl[CH]C=C(Br)CBr H298:31.51 kcal/mol
-library:CHOClBr_G4 label:CDC([CH]Cl)OBr smiles:C=C([CH]Cl)OBr H298:31.44 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)DCCBr smiles:Cl[CH]C(Cl)=CCBr H298:22.46 kcal/mol
+library:CHOClBr_G4 label:CDC([CH]Cl)C(Br)(Br)Br smiles:C=C([CH]Cl)C(Br)(Br)Br H298:49.79 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CDC(Br)CBr smiles:Cl[CH]C=C(Br)CBr H298:31.55 kcal/mol
+library:CHOClBr_G4 label:CDC([CH]Cl)OBr smiles:C=C([CH]Cl)OBr H298:31.42 kcal/mol
 library:CHOClBr_G4 label:OCDC(Br)[CH]Cl smiles:OC=C(Br)[CH]Cl H298:-6.12 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CDCC(Cl)Br smiles:Cl[CH]C=CC(Cl)Br H298:25.98 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CDCC(Cl)Br smiles:Cl[CH]C=CC(Cl)Br H298:26.02 kcal/mol
 """,
 )
 
@@ -2218,9 +2249,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.417423,-0.566041,-0.91178,-1.2927,-1.99663,-2.57088,-3.52809],'cal/(mol*K)','+|-',[0.0983519,0.100982,0.0946832,0.0884364,0.0780469,0.0682969,0.0500221]),
-        H298 = (85.6558,'kcal/mol','+|-',0.157116),
-        S298 = (-0.912551,'cal/(mol*K)','+|-',0.267012),
+        Cpdata = ([-0.386883,-0.536176,-0.889276,-1.27496,-1.98269,-2.55733,-3.5178],'cal/(mol*K)','+|-',[0.0996349,0.101957,0.0954984,0.0891507,0.0786175,0.0688124,0.0514577]),
+        H298 = (85.6325,'kcal/mol','+|-',0.155168),
+        S298 = (-1.03551,'cal/(mol*K)','+|-',0.233504),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -2286,47 +2317,48 @@ library:CHOFCl_G4 label:OC(Cl)DC(F)[CH]F smiles:OC(Cl)=C(F)[CH]F H298:-93.49 kca
 library:CHOFCl_G4 label:F[CH]C(F)DCCCl smiles:F[CH]C(F)=CCCl H298:-61.91 kcal/mol
 library:CHOFCl_G4 label:F[CH]CDCC(F)Cl smiles:F[CH]C=CC(F)Cl H298:-65.09 kcal/mol
 library:CHOFCl_G4 label:F[CH]C(DCF)CCl smiles:F[CH]C(=CF)CCl H298:-61.46 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CDC(Cl)CBr smiles:F[CH]C=C(Cl)CBr H298:-17.08 kcal/mol
-library:CHOFClBr_G4 label:CC(Br)DC(Cl)[CH]F smiles:CC(Br)=C(Cl)[CH]F H298:-14.53 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CDCC(Cl)Br smiles:F[CH]C=CC(Cl)Br H298:-12.84 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)DCCBr smiles:F[CH]C(Cl)=CCBr H298:-13.75 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CDC(Cl)CBr smiles:F[CH]C=C(Cl)CBr H298:-17.05 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)DC(Cl)[CH]F smiles:CC(Br)=C(Cl)[CH]F H298:-14.51 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CDCC(Cl)Br smiles:F[CH]C=CC(Cl)Br H298:-12.81 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)DCCBr smiles:F[CH]C(Cl)=CCBr H298:-13.71 kcal/mol
 library:CHOFClBr_G4 label:OC(Br)DC(Cl)[CH]F smiles:OC(Br)=C(Cl)[CH]F H298:-45.18 kcal/mol
-library:CHOFBr_G4 label:CC(Br)DC(Br)[CH]F smiles:CC(Br)=C(Br)[CH]F H298:-3.00 kcal/mol
+library:CHOFBr_G4 label:CC(Br)DC(Br)[CH]F smiles:CC(Br)=C(Br)[CH]F H298:-2.98 kcal/mol
 library:CHOFBr_G4 label:OCDC(Br)[CH]F smiles:OC=C(Br)[CH]F H298:-41.63 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(DCF)CBr smiles:F[CH]C(=CF)CBr H298:-50.79 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDCC(F)Br smiles:F[CH]C=CC(F)Br H298:-53.04 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)DCCBr smiles:F[CH]C(F)=CCBr H298:-51.48 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(DCF)CBr smiles:F[CH]C(=CF)CBr H298:-50.76 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDCC(F)Br smiles:F[CH]C=CC(F)Br H298:-53.00 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)DCCBr smiles:F[CH]C(F)=CCBr H298:-51.44 kcal/mol
 library:CHOFBr_G4 label:OC(Br)DC(F)[CH]F smiles:OC(Br)=C(F)[CH]F H298:-81.09 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)DCC(F)Br smiles:F[CH]C(F)=CC(F)Br H298:-95.16 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(DCF)C(Br)Br smiles:F[CH]C(=CF)C(Br)Br H298:-41.87 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDCCBr smiles:F[CH]C=CCBr H298:-8.63 kcal/mol
-library:CHOFBr_G4 label:CDC([CH]F)OBr smiles:C=C([CH]F)OBr H298:-4.67 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDCC(F)(F)Br smiles:F[CH]C=CC(F)(F)Br H298:-105.24 kcal/mol
-library:CHOFBr_G4 label:CDC([CH]F)C(Br)(Br)Br smiles:C=C([CH]F)C(Br)(Br)Br H298:12.99 kcal/mol
-library:CHOFBr_G4 label:CDC([CH]F)C(F)Br smiles:C=C([CH]F)C(F)Br H298:-51.12 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDC(F)CBr smiles:F[CH]C=C(F)CBr H298:-54.42 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDC(Br)C(Br)Br smiles:F[CH]C=C(Br)C(Br)Br H298:2.69 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(DCF)C(F)Br smiles:F[CH]C(=CF)C(F)Br H298:-93.99 kcal/mol
+library:CHOFBr_G4 label:OC(Br)DC[CH]F smiles:OC(Br)=C[CH]F H298:-42.91 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)DCC(F)Br smiles:F[CH]C(F)=CC(F)Br H298:-95.13 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(DCF)C(Br)Br smiles:F[CH]C(=CF)C(Br)Br H298:-41.82 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDCCBr smiles:F[CH]C=CCBr H298:-8.59 kcal/mol
+library:CHOFBr_G4 label:CDC([CH]F)OBr smiles:C=C([CH]F)OBr H298:-4.68 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDCC(F)(F)Br smiles:F[CH]C=CC(F)(F)Br H298:-105.21 kcal/mol
+library:CHOFBr_G4 label:CDC([CH]F)C(Br)(Br)Br smiles:C=C([CH]F)C(Br)(Br)Br H298:13.05 kcal/mol
+library:CHOFBr_G4 label:CDC([CH]F)C(F)Br smiles:C=C([CH]F)C(F)Br H298:-51.08 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDC(F)CBr smiles:F[CH]C=C(F)CBr H298:-54.38 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDC(Br)C(Br)Br smiles:F[CH]C=C(Br)C(Br)Br H298:2.72 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(DCF)C(F)Br smiles:F[CH]C(=CF)C(F)Br H298:-93.96 kcal/mol
 library:CHOFBr_G4 label:OC(Br)DC(Br)[CH]F smiles:OC(Br)=C(Br)[CH]F H298:-34.01 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)DC(F)CBr smiles:F[CH]C(F)=C(F)CBr H298:-93.89 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)DCCBr smiles:F[CH]C(Br)=CCBr H298:-2.23 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)DC(F)CBr smiles:F[CH]C(F)=C(F)CBr H298:-93.85 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)DCCBr smiles:F[CH]C(Br)=CCBr H298:-2.19 kcal/mol
 library:CHOFBr_G4 label:CC(Br)DC[CH]F smiles:CC(Br)=C[CH]F H298:-9.65 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDC(F)C(F)Br smiles:F[CH]C=C(F)C(F)Br H298:-95.56 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDCC(Br)(Br)Br smiles:F[CH]C=CC(Br)(Br)Br H298:8.46 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)DCC(Br)Br smiles:F[CH]C(F)=CC(Br)Br H298:-44.19 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDC(F)C(Br)Br smiles:F[CH]C=C(F)C(Br)Br H298:-45.67 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)DC(Br)CBr smiles:F[CH]C(Br)=C(Br)CBr H298:2.49 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDC(F)C(F)Br smiles:F[CH]C=C(F)C(F)Br H298:-95.53 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDCC(Br)(Br)Br smiles:F[CH]C=CC(Br)(Br)Br H298:8.52 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)DCC(Br)Br smiles:F[CH]C(F)=CC(Br)Br H298:-44.15 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDC(F)C(Br)Br smiles:F[CH]C=C(F)C(Br)Br H298:-45.64 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)DC(Br)CBr smiles:F[CH]C(Br)=C(Br)CBr H298:2.53 kcal/mol
 library:CHOFBr_G4 label:CCDC(Br)[CH]F smiles:CC=C(Br)[CH]F H298:-7.84 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CBr)DC(F)F smiles:F[CH]C(CBr)=C(F)F H298:-96.91 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDCC(Br)Br smiles:F[CH]C=CC(Br)Br H298:-1.65 kcal/mol
-library:CHOFBr_G4 label:CDC([CH]F)CBr smiles:C=C([CH]F)CBr H298:-7.28 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDCC(F)(Br)Br smiles:F[CH]C=CC(F)(Br)Br H298:-46.38 kcal/mol
-library:CHOFBr_G4 label:CC(Br)DC(F)[CH]F smiles:CC(Br)=C(F)[CH]F H298:-52.38 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)DC(Br)CBr smiles:F[CH]C(F)=C(Br)CBr H298:-46.01 kcal/mol
-library:CHOFBr_G4 label:CDC([CH]F)C(F)(F)Br smiles:C=C([CH]F)C(F)(F)Br H298:-102.84 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(DCF)OBr smiles:F[CH]C(=CF)OBr H298:-45.18 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)DCC(Br)Br smiles:F[CH]C(Br)=CC(Br)Br H298:4.86 kcal/mol
-library:CHOFBr_G4 label:F[CH]CDC(Br)CBr smiles:F[CH]C=C(Br)CBr H298:-5.13 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CBr)DC(F)F smiles:F[CH]C(CBr)=C(F)F H298:-96.83 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDCC(Br)Br smiles:F[CH]C=CC(Br)Br H298:-1.59 kcal/mol
+library:CHOFBr_G4 label:CDC([CH]F)CBr smiles:C=C([CH]F)CBr H298:-7.12 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDCC(F)(Br)Br smiles:F[CH]C=CC(F)(Br)Br H298:-46.32 kcal/mol
+library:CHOFBr_G4 label:CC(Br)DC(F)[CH]F smiles:CC(Br)=C(F)[CH]F H298:-52.35 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)DC(Br)CBr smiles:F[CH]C(F)=C(Br)CBr H298:-45.97 kcal/mol
+library:CHOFBr_G4 label:CDC([CH]F)C(F)(F)Br smiles:C=C([CH]F)C(F)(F)Br H298:-102.82 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(DCF)OBr smiles:F[CH]C(=CF)OBr H298:-45.17 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)DCC(Br)Br smiles:F[CH]C(Br)=CC(Br)Br H298:4.91 kcal/mol
+library:CHOFBr_G4 label:F[CH]CDC(Br)CBr smiles:F[CH]C=C(Br)CBr H298:-5.09 kcal/mol
 """,
 )
 
@@ -2504,68 +2536,78 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.19197,-2.14962,-2.87797,-3.44523,-4.21784,-4.66526,-5.11791],'cal/(mol*K)','+|-',[0.134507,0.138105,0.12949,0.120947,0.106738,0.0934038,0.0684109]),
-        H298 = (93.8619,'kcal/mol','+|-',0.214874),
-        S298 = (3.18111,'cal/(mol*K)','+|-',0.36517),
+        Cpdata = ([-1.17733,-2.12595,-2.85583,-3.42914,-4.20173,-4.62964,-4.99879],'cal/(mol*K)','+|-',[0.125783,0.128715,0.120561,0.112547,0.0992497,0.0868714,0.0649621]),
+        H298 = (93.7666,'kcal/mol','+|-',0.19589),
+        S298 = (3.44361,'cal/(mol*K)','+|-',0.294784),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:Br[C](Br)CC(Br)Br smiles:Br[C](Br)CC(Br)Br H298:40.12 kcal/mol
-library:CHOBr_G4 label:CCC[C](Br)Br smiles:CCC[C](Br)Br H298:23.14 kcal/mol
-library:CHOBr_G4 label:BrC#CC[C](Br)Br smiles:BrC#CC[C](Br)Br H298:106.46 kcal/mol
-library:CHOBr_G4 label:COC(Br)[C](Br)Br smiles:COC(Br)[C](Br)Br H298:4.23 kcal/mol
-library:CHOBr_G4 label:CC[C](Br)Br smiles:CC[C](Br)Br H298:28.49 kcal/mol
-library:CHOBr_G4 label:OCC(Br)[C](Br)Br smiles:OCC(Br)[C](Br)Br H298:-5.68 kcal/mol
-library:CHOBr_G4 label:C#CC(Br)[C](Br)Br smiles:C#CC(Br)[C](Br)Br H298:101.84 kcal/mol
-library:CHOBr_G4 label:BrC[C](Br)Br smiles:BrC[C](Br)Br H298:39.54 kcal/mol
-library:CHOBr_G4 label:OC(CBr)[C](Br)Br smiles:OC(CBr)[C](Br)Br H298:-4.46 kcal/mol
-library:CHOBr_G4 label:BrCCC[C](Br)Br smiles:BrCCC[C](Br)Br H298:27.38 kcal/mol
-library:CHOBr_G4 label:BrCC[C](Br)Br smiles:BrCC[C](Br)Br H298:33.79 kcal/mol
-library:CHOBr_G4 label:CC(C)[C](Br)Br smiles:CC(C)[C](Br)Br H298:20.83 kcal/mol
-library:CHOBr_G4 label:CDCC[C](Br)Br smiles:C=CC[C](Br)Br H298:52.84 kcal/mol
-library:CHOBr_G4 label:OC(Br)C[C](Br)Br smiles:OC(Br)C[C](Br)Br H298:-6.67 kcal/mol
-library:CHOBr_G4 label:CC(Br)[C](Br)Br smiles:CC(Br)[C](Br)Br H298:30.61 kcal/mol
-library:CHOBr_G4 label:OCC[C](Br)Br smiles:OCC[C](Br)Br H298:-7.24 kcal/mol
-library:CHOBr_G4 label:BrOC(Br)C[C](Br)Br smiles:BrOC(Br)C[C](Br)Br H298:30.82 kcal/mol
-library:CHOBr_G4 label:BrCC(Br)[C](Br)Br smiles:BrCC(Br)[C](Br)Br H298:35.79 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)CC(Br)Br smiles:Br[C](Br)CC(Br)Br H298:40.67 kcal/mol
+library:CHOBr_G4 label:CCC[C](Br)Br smiles:CCC[C](Br)Br H298:23.17 kcal/mol
+library:CHOBr_G4 label:BrC#CC[C](Br)Br smiles:BrC#CC[C](Br)Br H298:106.35 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)COC(Br)Br smiles:Br[C](Br)COC(Br)Br H298:10.93 kcal/mol
+library:CHOBr_G4 label:COC(Br)[C](Br)Br smiles:COC(Br)[C](Br)Br H298:4.38 kcal/mol
+library:CHOBr_G4 label:CC[C](Br)Br smiles:CC[C](Br)Br H298:27.49 kcal/mol
+library:CHOBr_G4 label:OCC(Br)[C](Br)Br smiles:OCC(Br)[C](Br)Br H298:-5.65 kcal/mol
+library:CHOBr_G4 label:C#CC(Br)[C](Br)Br smiles:C#CC(Br)[C](Br)Br H298:101.85 kcal/mol
+library:CHOBr_G4 label:BrC[C](Br)Br smiles:BrC[C](Br)Br H298:39.57 kcal/mol
+library:CHOBr_G4 label:OC(CBr)[C](Br)Br smiles:OC(CBr)[C](Br)Br H298:-4.42 kcal/mol
+library:CHOBr_G4 label:BrCCC[C](Br)Br smiles:BrCCC[C](Br)Br H298:27.40 kcal/mol
+library:CHOBr_G4 label:BrCC[C](Br)Br smiles:BrCC[C](Br)Br H298:33.83 kcal/mol
+library:CHOBr_G4 label:BrCOC(Br)[C](Br)Br smiles:BrCOC(Br)[C](Br)Br H298:6.63 kcal/mol
+library:CHOBr_G4 label:CC(C)[C](Br)Br smiles:CC(C)[C](Br)Br H298:20.86 kcal/mol
+library:CHOBr_G4 label:BrOCC(Br)[C](Br)Br smiles:BrOCC(Br)[C](Br)Br H298:33.02 kcal/mol
+library:CHOBr_G4 label:CDCC[C](Br)Br smiles:C=CC[C](Br)Br H298:53.75 kcal/mol
+library:CHOBr_G4 label:OC(Br)C[C](Br)Br smiles:OC(Br)C[C](Br)Br H298:-6.63 kcal/mol
+library:CHOBr_G4 label:CC(Br)[C](Br)Br smiles:CC(Br)[C](Br)Br H298:30.65 kcal/mol
+library:CHOBr_G4 label:OCC[C](Br)Br smiles:OCC[C](Br)Br H298:-7.22 kcal/mol
+library:CHOBr_G4 label:BrOC(Br)C[C](Br)Br smiles:BrOC(Br)C[C](Br)Br H298:30.72 kcal/mol
+library:CHOBr_G4 label:OC(O)[C](Br)Br smiles:OC(O)[C](Br)Br H298:-46.46 kcal/mol
+library:CHOBr_G4 label:BrCC(Br)[C](Br)Br smiles:BrCC(Br)[C](Br)Br H298:35.85 kcal/mol
 library:CHOBr_G4 label:CC(OBr)[C](Br)Br smiles:CC(OBr)[C](Br)Br H298:24.78 kcal/mol
-library:CHOBr_G4 label:BrOCC[C](Br)Br smiles:BrOCC[C](Br)Br H298:28.26 kcal/mol
+library:CHOBr_G4 label:BrOCC[C](Br)Br smiles:BrOCC[C](Br)Br H298:28.78 kcal/mol
 library:CHOBr_G4 label:BrCDCC[C](Br)Br smiles:BrC=CC[C](Br)Br H298:57.81 kcal/mol
-library:CHOBr_G4 label:BrCOC[C](Br)Br smiles:BrCOC[C](Br)Br H298:5.46 kcal/mol
-library:CHOBr_G4 label:BrOC(Br)[C](Br)Br smiles:BrOC(Br)[C](Br)Br H298:39.80 kcal/mol
-library:CHOBr_G4 label:BrCC(Br)C[C](Br)Br smiles:BrCC(Br)C[C](Br)Br H298:31.11 kcal/mol
-library:CHOBr_G4 label:CC(O)[C](Br)Br smiles:CC(O)[C](Br)Br H298:-10.92 kcal/mol
-library:CHOBr_G4 label:BrOC[C](Br)Br smiles:BrOC[C](Br)Br H298:36.05 kcal/mol
+library:CHOBr_G4 label:BrCOC[C](Br)Br smiles:BrCOC[C](Br)Br H298:5.48 kcal/mol
+library:CHOBr_G4 label:BrOC(Br)[C](Br)Br smiles:BrOC(Br)[C](Br)Br H298:39.81 kcal/mol
+library:CHOBr_G4 label:BrCC(Br)C[C](Br)Br smiles:BrCC(Br)C[C](Br)Br H298:31.19 kcal/mol
+library:CHOBr_G4 label:ODC(Br)C[C](Br)Br smiles:O=C(Br)C[C](Br)Br H298:5.56 kcal/mol
+library:CHOBr_G4 label:CC(O)[C](Br)Br smiles:CC(O)[C](Br)Br H298:-10.88 kcal/mol
+library:CHOBr_G4 label:BrOC[C](Br)Br smiles:BrOC[C](Br)Br H298:36.03 kcal/mol
 library:CHOBr_G4 label:OC(OBr)[C](Br)Br smiles:OC(OBr)[C](Br)Br H298:-9.83 kcal/mol
-library:CHOBr_G4 label:COC[C](Br)Br smiles:COC[C](Br)Br H298:3.12 kcal/mol
-library:CHOBr_G4 label:C[C](Br)Br smiles:C[C](Br)Br H298:34.51 kcal/mol
-library:CHOBr_G4 label:CC(Br)C[C](Br)Br smiles:CC(Br)C[C](Br)Br H298:24.81 kcal/mol
-library:CHOBr_G4 label:Br[C](Br)C(Br)Br smiles:Br[C](Br)C(Br)Br H298:48.37 kcal/mol
-library:CHOBr_G4 label:OC(Br)[C](Br)Br smiles:OC(Br)[C](Br)Br H298:0.23 kcal/mol
-library:CHOBr_G4 label:OC[C](Br)Br smiles:OC[C](Br)Br H298:-0.63 kcal/mol
-library:CHOBr_G4 label:BrOC(OBr)[C](Br)Br smiles:BrOC(OBr)[C](Br)Br H298:29.63 kcal/mol
-library:CHOBr_G4 label:CDCC(Br)[C](Br)Br smiles:C=CC(Br)[C](Br)Br H298:56.46 kcal/mol
-library:CHOBr_G4 label:CC(CBr)[C](Br)Br smiles:CC(CBr)[C](Br)Br H298:25.78 kcal/mol
-library:CHOBr_G4 label:C#CC[C](Br)Br smiles:C#CC[C](Br)Br H298:96.04 kcal/mol
-library:CHOBr_G4 label:BrCCC(Br)[C](Br)Br smiles:BrCCC(Br)[C](Br)Br H298:32.56 kcal/mol
-library:CHOBr_G4 label:BrOOC[C](Br)Br smiles:BrOOC[C](Br)Br H298:51.88 kcal/mol
-library:CHOBr_G4 label:BrOOC(Br)[C](Br)Br smiles:BrOOC(Br)[C](Br)Br H298:56.80 kcal/mol
-library:CHOBr_G4 label:CDC(Br)C[C](Br)Br smiles:C=C(Br)C[C](Br)Br H298:56.28 kcal/mol
-library:CHOBr_G4 label:BrCC(CBr)[C](Br)Br smiles:BrCC(CBr)[C](Br)Br H298:31.50 kcal/mol
-library:CHOBr_G4 label:OOC[C](Br)Br smiles:OOC[C](Br)Br H298:17.58 kcal/mol
-library:CHOBr_G4 label:CCC(Br)[C](Br)Br smiles:CCC(Br)[C](Br)Br H298:23.96 kcal/mol
-library:CHOBr_G4 label:ODCC[C](Br)Br smiles:O=CC[C](Br)Br H298:11.48 kcal/mol
-library:CHOBr_G4 label:OOC(Br)[C](Br)Br smiles:OOC(Br)[C](Br)Br H298:20.99 kcal/mol
-library:CHOFBr_G4 label:C#CC(F)(Br)[C](Br)Br smiles:C#CC(F)(Br)[C](Br)Br H298:60.63 kcal/mol
-library:CHOFBr_G4 label:C#CC(F)(F)[C](Br)Br smiles:C#CC(F)(F)[C](Br)Br H298:4.71 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)CCC(Br)Br smiles:Br[C](Br)CCC(Br)Br H298:32.83 kcal/mol
+library:CHOBr_G4 label:COC[C](Br)Br smiles:COC[C](Br)Br H298:3.15 kcal/mol
+library:CHOBr_G4 label:C[C](Br)Br smiles:C[C](Br)Br H298:34.55 kcal/mol
+library:CHOBr_G4 label:CC(Br)C[C](Br)Br smiles:CC(Br)C[C](Br)Br H298:24.77 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)C(Br)Br smiles:Br[C](Br)C(Br)Br H298:48.38 kcal/mol
+library:CHOBr_G4 label:OC(Br)[C](Br)Br smiles:OC(Br)[C](Br)Br H298:0.28 kcal/mol
+library:CHOBr_G4 label:OC[C](Br)Br smiles:OC[C](Br)Br H298:-0.60 kcal/mol
+library:CHOBr_G4 label:BrOC(OBr)[C](Br)Br smiles:BrOC(OBr)[C](Br)Br H298:29.62 kcal/mol
+library:CHOBr_G4 label:CDCC(Br)[C](Br)Br smiles:C=CC(Br)[C](Br)Br H298:56.49 kcal/mol
+library:CHOBr_G4 label:CC(CBr)[C](Br)Br smiles:CC(CBr)[C](Br)Br H298:25.82 kcal/mol
+library:CHOBr_G4 label:C#CC[C](Br)Br smiles:C#CC[C](Br)Br H298:96.06 kcal/mol
+library:CHOBr_G4 label:ODCC(Br)[C](Br)Br smiles:O=CC(Br)[C](Br)Br H298:17.26 kcal/mol
+library:CHOBr_G4 label:BrCCC(Br)[C](Br)Br smiles:BrCCC(Br)[C](Br)Br H298:32.65 kcal/mol
+library:CHOBr_G4 label:BrOOC[C](Br)Br smiles:BrOOC[C](Br)Br H298:51.86 kcal/mol
+library:CHOBr_G4 label:BrOOC(Br)[C](Br)Br smiles:BrOOC(Br)[C](Br)Br H298:56.82 kcal/mol
+library:CHOBr_G4 label:CDC(Br)C[C](Br)Br smiles:C=C(Br)C[C](Br)Br H298:56.35 kcal/mol
+library:CHOBr_G4 label:BrCC(CBr)[C](Br)Br smiles:BrCC(CBr)[C](Br)Br H298:31.58 kcal/mol
+library:CHOBr_G4 label:OOC[C](Br)Br smiles:OOC[C](Br)Br H298:17.61 kcal/mol
+library:CHOBr_G4 label:CCC(Br)[C](Br)Br smiles:CCC(Br)[C](Br)Br H298:23.94 kcal/mol
+library:CHOBr_G4 label:ODCC[C](Br)Br smiles:O=CC[C](Br)Br H298:11.52 kcal/mol
+library:CHOBr_G4 label:OOC(Br)[C](Br)Br smiles:OOC(Br)[C](Br)Br H298:21.05 kcal/mol
+library:CHOFClBr_G4 label:C#CC(F)(Cl)[C](Br)Br smiles:C#CC(F)(Cl)[C](Br)Br H298:49.19 kcal/mol
+library:CHOFBr_G4 label:C#CC(F)(Br)[C](Br)Br smiles:C#CC(F)(Br)[C](Br)Br H298:60.64 kcal/mol
+library:CHOFBr_G4 label:C#CC(F)(F)[C](Br)Br smiles:C#CC(F)(F)[C](Br)Br H298:4.72 kcal/mol
 library:CHOFBr_G4 label:FC#CC(F)[C](Br)Br smiles:FC#CC(F)[C](Br)Br H298:25.53 kcal/mol
-library:CHOFBr_G4 label:FC#CC[C](Br)Br smiles:FC#CC[C](Br)Br H298:67.65 kcal/mol
-library:CHOFBr_G4 label:FC#CC(Br)[C](Br)Br smiles:FC#CC(Br)[C](Br)Br H298:73.55 kcal/mol
-library:CHOFBr_G4 label:C#CC(F)[C](Br)Br smiles:C#CC(F)[C](Br)Br H298:54.43 kcal/mol
-library:CHOClBr_G4 label:ClC#CC[C](Br)Br smiles:ClC#CC[C](Br)Br H298:95.40 kcal/mol
-library:CHOClBr_G4 label:C#CC(Cl)[C](Br)Br smiles:C#CC(Cl)[C](Br)Br H298:91.95 kcal/mol
+library:CHOFBr_G4 label:FC#CC[C](Br)Br smiles:FC#CC[C](Br)Br H298:67.63 kcal/mol
+library:CHOFBr_G4 label:FC#CC(Br)[C](Br)Br smiles:FC#CC(Br)[C](Br)Br H298:73.58 kcal/mol
+library:CHOFBr_G4 label:C#CC(F)[C](Br)Br smiles:C#CC(F)[C](Br)Br H298:54.44 kcal/mol
+library:CHOClBr_G4 label:C#CC(Cl)(Br)[C](Br)Br smiles:C#CC(Cl)(Br)[C](Br)Br H298:101.20 kcal/mol
+library:CHOClBr_G4 label:ClC#CC[C](Br)Br smiles:ClC#CC[C](Br)Br H298:95.38 kcal/mol
+library:CHOClBr_G4 label:C#CC(Cl)[C](Br)Br smiles:C#CC(Cl)[C](Br)Br H298:91.96 kcal/mol
+library:CHOClBr_G4 label:C#CC(Cl)(Cl)[C](Br)Br smiles:C#CC(Cl)(Cl)[C](Br)Br H298:90.89 kcal/mol
 """,
 )
 
@@ -2581,50 +2623,61 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.858948,-1.74583,-2.4483,-3.02148,-3.84165,-4.36667,-5.01023],'cal/(mol*K)','+|-',[0.164737,0.169143,0.158592,0.148129,0.130727,0.114396,0.0837859]),
-        H298 = (93.5587,'kcal/mol','+|-',0.263166),
-        S298 = (4.1303,'cal/(mol*K)','+|-',0.44724),
+        Cpdata = ([-0.712648,-1.58607,-2.28999,-2.8685,-3.71586,-4.27587,-4.99393],'cal/(mol*K)','+|-',[0.146779,0.1502,0.140685,0.131334,0.115816,0.101372,0.0758056]),
+        H298 = (93.444,'kcal/mol','+|-',0.228588),
+        S298 = (4.17242,'cal/(mol*K)','+|-',0.343989),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFClBr_G4 label:C#CC(F)[C](Cl)Br smiles:C#CC(F)[C](Cl)Br H298:42.56 kcal/mol
+library:CHOFClBr_G4 label:C#CC(F)(F)[C](Cl)Br smiles:C#CC(F)(F)[C](Cl)Br H298:-7.12 kcal/mol
+library:CHOFClBr_G4 label:C#CC(F)(Cl)[C](Cl)Br smiles:C#CC(F)(Cl)[C](Cl)Br H298:37.42 kcal/mol
+library:CHOFClBr_G4 label:C#CC(F)[C](Cl)Br smiles:C#CC(F)[C](Cl)Br H298:42.55 kcal/mol
 library:CHOFClBr_G4 label:FC#CC[C](Cl)Br smiles:FC#CC[C](Cl)Br H298:55.75 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Br)CCBr smiles:Cl[C](Br)CCBr H298:21.58 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)CCBr smiles:Cl[C](Br)CCBr H298:21.62 kcal/mol
 library:CHOClBr_G4 label:OC(O)[C](Cl)Br smiles:OC(O)[C](Cl)Br H298:-58.30 kcal/mol
 library:CHOClBr_G4 label:CC(OBr)[C](Cl)Br smiles:CC(OBr)[C](Cl)Br H298:12.81 kcal/mol
 library:CHOClBr_G4 label:ClC#CC[C](Cl)Br smiles:ClC#CC[C](Cl)Br H298:83.54 kcal/mol
-library:CHOClBr_G4 label:CC(Br)(Br)[C](Cl)Br smiles:CC(Br)(Br)[C](Cl)Br H298:26.99 kcal/mol
-library:CHOClBr_G4 label:CDCC[C](Cl)Br smiles:C=CC[C](Cl)Br H298:41.82 kcal/mol
-library:CHOClBr_G4 label:OC(Br)C[C](Cl)Br smiles:OC(Br)C[C](Cl)Br H298:-18.77 kcal/mol
-library:CHOClBr_G4 label:CC(Br)[C](Cl)Br smiles:CC(Br)[C](Cl)Br H298:18.71 kcal/mol
-library:CHOClBr_G4 label:OCC[C](Cl)Br smiles:OCC[C](Cl)Br H298:-19.03 kcal/mol
-library:CHOClBr_G4 label:OC(CBr)[C](Cl)Br smiles:OC(CBr)[C](Cl)Br H298:-16.22 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Br)C(Br)Br smiles:Cl[C](Br)C(Br)Br H298:36.65 kcal/mol
-library:CHOClBr_G4 label:CC(C)(Br)[C](Cl)Br smiles:CC(C)(Br)[C](Cl)Br H298:10.00 kcal/mol
-library:CHOClBr_G4 label:CC(C)[C](Cl)Br smiles:CC(C)[C](Cl)Br H298:8.81 kcal/mol
-library:CHOClBr_G4 label:OC(Br)(Br)[C](Cl)Br smiles:OC(Br)(Br)[C](Cl)Br H298:-3.02 kcal/mol
-library:CHOClBr_G4 label:CCC[C](Cl)Br smiles:CCC[C](Cl)Br H298:11.30 kcal/mol
-library:CHOClBr_G4 label:COC(Br)[C](Cl)Br smiles:COC(Br)[C](Cl)Br H298:-7.46 kcal/mol
-library:CHOClBr_G4 label:CC[C](Cl)Br smiles:CC[C](Cl)Br H298:16.52 kcal/mol
-library:CHOClBr_G4 label:OCC(Br)[C](Cl)Br smiles:OCC(Br)[C](Cl)Br H298:-17.43 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Br)CBr smiles:Cl[C](Br)CBr H298:27.66 kcal/mol
-library:CHOClBr_G4 label:OOC[C](Cl)Br smiles:OOC[C](Cl)Br H298:5.86 kcal/mol
-library:CHOClBr_G4 label:CCC(Br)[C](Cl)Br smiles:CCC(Br)[C](Cl)Br H298:12.36 kcal/mol
-library:CHOClBr_G4 label:ODCC[C](Cl)Br smiles:O=CC[C](Cl)Br H298:-1.27 kcal/mol
-library:CHOClBr_G4 label:CC(CBr)[C](Cl)Br smiles:CC(CBr)[C](Cl)Br H298:14.04 kcal/mol
-library:CHOClBr_G4 label:C#CC[C](Cl)Br smiles:C#CC[C](Cl)Br H298:84.08 kcal/mol
-library:CHOClBr_G4 label:ODCC(Br)[C](Cl)Br smiles:O=CC(Br)[C](Cl)Br H298:4.27 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)Br smiles:C[C](Cl)Br H298:22.29 kcal/mol
-library:CHOClBr_G4 label:OC(Br)[C](Cl)Br smiles:OC(Br)[C](Cl)Br H298:-11.37 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)C(Br)OBr smiles:Cl[C](Br)C(Br)OBr H298:28.07 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)[C](Cl)Br smiles:CC(Br)(Br)[C](Cl)Br H298:27.04 kcal/mol
+library:CHOClBr_G4 label:CDCC[C](Cl)Br smiles:C=CC[C](Cl)Br H298:41.84 kcal/mol
+library:CHOClBr_G4 label:OC(Br)C[C](Cl)Br smiles:OC(Br)C[C](Cl)Br H298:-18.73 kcal/mol
+library:CHOClBr_G4 label:CC(Br)[C](Cl)Br smiles:CC(Br)[C](Cl)Br H298:18.75 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)COCBr smiles:Cl[C](Br)COCBr H298:-6.17 kcal/mol
+library:CHOClBr_G4 label:OCC[C](Cl)Br smiles:OCC[C](Cl)Br H298:-19.01 kcal/mol
+library:CHOClBr_G4 label:OC(CBr)[C](Cl)Br smiles:OC(CBr)[C](Cl)Br H298:-16.19 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)C(Br)Br smiles:Cl[C](Br)C(Br)Br H298:36.66 kcal/mol
+library:CHOClBr_G4 label:CC(C)(Br)[C](Cl)Br smiles:CC(C)(Br)[C](Cl)Br H298:10.05 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)C[C](Cl)Br smiles:CC(Br)(Br)C[C](Cl)Br H298:19.13 kcal/mol
+library:CHOClBr_G4 label:CC(C)[C](Cl)Br smiles:CC(C)[C](Cl)Br H298:8.82 kcal/mol
+library:CHOClBr_G4 label:OC(Br)(Br)[C](Cl)Br smiles:OC(Br)(Br)[C](Cl)Br H298:-2.98 kcal/mol
+library:CHOClBr_G4 label:CCC[C](Cl)Br smiles:CCC[C](Cl)Br H298:11.32 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)C(Br)(Br)Br smiles:Cl[C](Br)C(Br)(Br)Br H298:49.18 kcal/mol
+library:CHOClBr_G4 label:COC(Br)[C](Cl)Br smiles:COC(Br)[C](Cl)Br H298:-7.40 kcal/mol
+library:CHOClBr_G4 label:CC[C](Cl)Br smiles:CC[C](Cl)Br H298:16.54 kcal/mol
+library:CHOClBr_G4 label:OCC(Br)[C](Cl)Br smiles:OCC(Br)[C](Cl)Br H298:-17.41 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)CBr smiles:Cl[C](Br)CBr H298:27.69 kcal/mol
+library:CHOClBr_G4 label:OOC[C](Cl)Br smiles:OOC[C](Cl)Br H298:5.88 kcal/mol
+library:CHOClBr_G4 label:CCC(Br)[C](Cl)Br smiles:CCC(Br)[C](Cl)Br H298:12.37 kcal/mol
+library:CHOClBr_G4 label:ODCC[C](Cl)Br smiles:O=CC[C](Cl)Br H298:-1.29 kcal/mol
+library:CHOClBr_G4 label:OOC(Br)[C](Cl)Br smiles:OOC(Br)[C](Cl)Br H298:9.20 kcal/mol
+library:CHOClBr_G4 label:C#CC(Cl)(Cl)[C](Cl)Br smiles:C#CC(Cl)(Cl)[C](Cl)Br H298:79.04 kcal/mol
+library:CHOClBr_G4 label:CC(CBr)[C](Cl)Br smiles:CC(CBr)[C](Cl)Br H298:14.07 kcal/mol
+library:CHOClBr_G4 label:C#CC[C](Cl)Br smiles:C#CC[C](Cl)Br H298:84.09 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)CC(Br)Br smiles:Cl[C](Br)CC(Br)Br H298:28.42 kcal/mol
+library:CHOClBr_G4 label:ODCC(Br)[C](Cl)Br smiles:O=CC(Br)[C](Cl)Br H298:4.31 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)Br smiles:C[C](Cl)Br H298:22.31 kcal/mol
+library:CHOClBr_G4 label:COC[C](Cl)Br smiles:COC[C](Cl)Br H298:-8.47 kcal/mol
+library:CHOClBr_G4 label:OC(Br)[C](Cl)Br smiles:OC(Br)[C](Cl)Br H298:-11.32 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)COOBr smiles:Cl[C](Br)COOBr H298:40.12 kcal/mol
 library:CHOClBr_G4 label:C#CC(Cl)[C](Cl)Br smiles:C#CC(Cl)[C](Cl)Br H298:80.12 kcal/mol
-library:CHOClBr_G4 label:CC(Br)C[C](Cl)Br smiles:CC(Br)C[C](Cl)Br H298:13.08 kcal/mol
-library:CHOClBr_G4 label:OC[C](Cl)Br smiles:OC[C](Cl)Br H298:-12.55 kcal/mol
-library:CHOClBr_G4 label:ODC(Br)C[C](Cl)Br smiles:O=C(Br)C[C](Cl)Br H298:-5.79 kcal/mol
-library:CHOClBr_G4 label:CC(O)[C](Cl)Br smiles:CC(O)[C](Cl)Br H298:-22.57 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Br)COBr smiles:Cl[C](Br)COBr H298:24.29 kcal/mol
-library:CHOClBr_G4 label:OC(OBr)[C](Cl)Br smiles:OC(OBr)[C](Cl)Br H298:-21.52 kcal/mol
+library:CHOClBr_G4 label:CC(Br)C[C](Cl)Br smiles:CC(Br)C[C](Cl)Br H298:13.12 kcal/mol
+library:CHOClBr_G4 label:OC[C](Cl)Br smiles:OC[C](Cl)Br H298:-12.53 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)C[C](Cl)Br smiles:O=C(Br)C[C](Cl)Br H298:-5.77 kcal/mol
+library:CHOClBr_G4 label:CC(O)[C](Cl)Br smiles:CC(O)[C](Cl)Br H298:-22.55 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Br)COBr smiles:Cl[C](Br)COBr H298:24.27 kcal/mol
+library:CHOClBr_G4 label:OC(OBr)[C](Cl)Br smiles:OC(OBr)[C](Cl)Br H298:-21.54 kcal/mol
 """,
 )
 
@@ -2640,15 +2693,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.450315,-1.47843,-2.32038,-2.99802,-3.92933,-4.48895,-5.1497],'cal/(mol*K)','+|-',[0.0698921,0.0717613,0.067285,0.0628459,0.0554628,0.048534,0.0355474]),
-        H298 = (92.1198,'kcal/mol','+|-',0.111652),
-        S298 = (3.72281,'cal/(mol*K)','+|-',0.189748),
+        Cpdata = ([-0.446355,-1.47501,-2.3157,-2.99059,-3.91813,-4.4785,-5.14413],'cal/(mol*K)','+|-',[0.0708004,0.0724506,0.067861,0.0633504,0.0558655,0.048898,0.0365657]),
+        H298 = (92.1113,'kcal/mol','+|-',0.110262),
+        S298 = (3.66045,'cal/(mol*K)','+|-',0.165927),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:ATcT_halogens label:Pentachloroethyl smiles:Cl[C](Cl)C(Cl)(Cl)Cl H298:6.00 kcal/mol
 library:CHOCl_G4 label:OC(Cl)(OCl)[C](Cl)Cl smiles:OC(Cl)(OCl)[C](Cl)Cl H298:-42.67 kcal/mol
 library:CHOCl_G4 label:Cl[C](Cl)C(Cl)C(Cl)Cl smiles:Cl[C](Cl)C(Cl)C(Cl)Cl H298:-11.60 kcal/mol
 library:CHOCl_G4 label:CC(Cl)([C](Cl)Cl)C(Cl)Cl smiles:CC(Cl)([C](Cl)Cl)C(Cl)Cl H298:-21.28 kcal/mol
@@ -2741,6 +2793,7 @@ library:CHOCl_G4 label:Cl[C](Cl)C(Cl)(Cl)C(Cl)(Cl)C(Cl)(Cl)Cl smiles:Cl[C](Cl)C(
 library:CHOCl_G4 label:CCC[C](Cl)Cl smiles:CCC[C](Cl)Cl H298:-0.74 kcal/mol
 library:CHOCl_G4 label:OC(Cl)([C](Cl)Cl)C(Cl)(Cl)Cl smiles:OC(Cl)([C](Cl)Cl)C(Cl)(Cl)Cl H298:-50.43 kcal/mol
 library:CHOCl_G4 label:CDC(Cl)C[C](Cl)Cl smiles:C=C(Cl)C[C](Cl)Cl H298:20.47 kcal/mol
+library:CHOCl_G4 label:Cl[C](Cl)C(Cl)(Cl)Cl smiles:Cl[C](Cl)C(Cl)(Cl)Cl H298:2.70 kcal/mol
 library:CHOCl_G4 label:ODCC(Cl)(Cl)[C](Cl)Cl smiles:O=CC(Cl)(Cl)[C](Cl)Cl H298:-19.19 kcal/mol
 library:CHOCl_G4 label:ClCC(Cl)([C](Cl)Cl)C(Cl)Cl smiles:ClCC(Cl)([C](Cl)Cl)C(Cl)Cl H298:-21.60 kcal/mol
 library:CHOCl_G4 label:Cl[C](Cl)C(Cl)CC(Cl)(Cl)Cl smiles:Cl[C](Cl)C(Cl)CC(Cl)(Cl)Cl H298:-23.21 kcal/mol
@@ -2811,43 +2864,45 @@ library:CHOCl_G4 label:CC(O)(Cl)[C](Cl)Cl smiles:CC(O)(Cl)[C](Cl)Cl H298:-46.17 
 library:CHOCl_G4 label:ODC(Cl)C(Cl)(Cl)[C](Cl)Cl smiles:O=C(Cl)C(Cl)(Cl)[C](Cl)Cl H298:-33.80 kcal/mol
 library:CHOFCl_G4 label:FC#CC[C](Cl)Cl smiles:FC#CC[C](Cl)Cl H298:43.87 kcal/mol
 library:CHOFCl_G4 label:C#CC(F)[C](Cl)Cl smiles:C#CC(F)[C](Cl)Cl H298:30.64 kcal/mol
-library:CHOClBr_G4 label:OC(OBr)[C](Cl)Cl smiles:OC(OBr)[C](Cl)Cl H298:-33.10 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)(Br)Br smiles:Cl[C](Cl)C(Cl)(Br)Br H298:25.77 kcal/mol
+library:CHOClBr_G4 label:OC(OBr)[C](Cl)Cl smiles:OC(OBr)[C](Cl)Cl H298:-33.11 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)(Br)Br smiles:Cl[C](Cl)C(Cl)(Br)Br H298:25.80 kcal/mol
 library:CHOClBr_G4 label:ODC(Br)C[C](Cl)Cl smiles:O=C(Br)C[C](Cl)Cl H298:-17.77 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)CC(Cl)Br smiles:Cl[C](Cl)CC(Cl)Br H298:5.39 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Br)CBr smiles:Cl[C](Cl)C(Br)CBr H298:12.15 kcal/mol
-library:CHOClBr_G4 label:CC(Br)C[C](Cl)Cl smiles:CC(Br)C[C](Cl)Cl H298:1.21 kcal/mol
-library:CHOClBr_G4 label:OC(Br)[C](Cl)Cl smiles:OC(Br)[C](Cl)Cl H298:-23.42 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)(Br)[C](Cl)Cl smiles:CC(Cl)(Br)[C](Cl)Cl H298:3.71 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)CBr smiles:Cl[C](Cl)C(Cl)CBr H298:2.21 kcal/mol
-library:CHOClBr_G4 label:CC(O)(Br)[C](Cl)Cl smiles:CC(O)(Br)[C](Cl)Cl H298:-33.94 kcal/mol
-library:CHOClBr_G4 label:ODCC(Br)[C](Cl)Cl smiles:O=CC(Br)[C](Cl)Cl H298:-7.65 kcal/mol
-library:CHOClBr_G4 label:CC(CBr)[C](Cl)Cl smiles:CC(CBr)[C](Cl)Cl H298:2.22 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)CCOBr smiles:Cl[C](Cl)CCOBr H298:5.62 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)COOBr smiles:Cl[C](Cl)COOBr H298:28.18 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)(Cl)Br smiles:Cl[C](Cl)C(Cl)(Cl)Br H298:13.98 kcal/mol
-library:CHOClBr_G4 label:CCC(Br)[C](Cl)Cl smiles:CCC(Br)[C](Cl)Cl H298:0.56 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)CCBr smiles:Cl[C](Cl)CCBr H298:10.01 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)CC(Br)Br smiles:Cl[C](Cl)CC(Br)Br H298:16.90 kcal/mol
-library:CHOClBr_G4 label:OC(Cl)(Br)[C](Cl)Cl smiles:OC(Cl)(Br)[C](Cl)Cl H298:-26.64 kcal/mol
-library:CHOClBr_G4 label:OCC(Br)[C](Cl)Cl smiles:OCC(Br)[C](Cl)Cl H298:-29.41 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)COBr smiles:Cl[C](Cl)COBr H298:12.38 kcal/mol
-library:CHOClBr_G4 label:COC(Br)[C](Cl)Cl smiles:COC(Br)[C](Cl)Cl H298:-19.13 kcal/mol
-library:CHOClBr_G4 label:OC(Br)(Br)[C](Cl)Cl smiles:OC(Br)(Br)[C](Cl)Cl H298:-14.66 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)COCBr smiles:Cl[C](Cl)COCBr H298:-18.03 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)CCCBr smiles:Cl[C](Cl)CCCBr H298:3.62 kcal/mol
-library:CHOClBr_G4 label:CC(C)(Br)[C](Cl)Cl smiles:CC(C)(Br)[C](Cl)Cl H298:-2.10 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)Br smiles:Cl[C](Cl)C(Cl)Br H298:13.77 kcal/mol
-library:CHOClBr_G4 label:OC(CBr)[C](Cl)Cl smiles:OC(CBr)[C](Cl)Cl H298:-28.09 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)OBr smiles:Cl[C](Cl)C(Cl)OBr H298:5.40 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Br)(Br)Br smiles:Cl[C](Cl)C(Br)(Br)Br H298:37.30 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Br)OBr smiles:Cl[C](Cl)C(Br)OBr H298:16.40 kcal/mol
-library:CHOClBr_G4 label:CC(Br)[C](Cl)Cl smiles:CC(Br)[C](Cl)Cl H298:6.71 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)C(Br)Br smiles:Cl[C](Cl)C(Br)Br H298:24.89 kcal/mol
-library:CHOClBr_G4 label:OC(Br)C[C](Cl)Cl smiles:OC(Br)C[C](Cl)Cl H298:-30.22 kcal/mol
-library:CHOClBr_G4 label:CC(Br)(Br)[C](Cl)Cl smiles:CC(Br)(Br)[C](Cl)Cl H298:15.23 kcal/mol
-library:CHOClBr_G4 label:CC(OBr)[C](Cl)Cl smiles:CC(OBr)[C](Cl)Cl H298:1.29 kcal/mol
-library:CHOClBr_G4 label:Cl[C](Cl)CBr smiles:Cl[C](Cl)CBr H298:15.56 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)CC(Cl)Br smiles:Cl[C](Cl)CC(Cl)Br H298:5.41 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Br)CBr smiles:Cl[C](Cl)C(Br)CBr H298:12.22 kcal/mol
+library:CHOClBr_G4 label:CC(Br)C[C](Cl)Cl smiles:CC(Br)C[C](Cl)Cl H298:1.24 kcal/mol
+library:CHOClBr_G4 label:OC(Br)[C](Cl)Cl smiles:OC(Br)[C](Cl)Cl H298:-23.37 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)(Br)[C](Cl)Cl smiles:CC(Cl)(Br)[C](Cl)Cl H298:3.74 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)CBr smiles:Cl[C](Cl)C(Cl)CBr H298:2.24 kcal/mol
+library:CHOClBr_G4 label:CC(O)(Br)[C](Cl)Cl smiles:CC(O)(Br)[C](Cl)Cl H298:-33.86 kcal/mol
+library:CHOClBr_G4 label:ODCC(Br)[C](Cl)Cl smiles:O=CC(Br)[C](Cl)Cl H298:-7.61 kcal/mol
+library:CHOClBr_G4 label:CC(CBr)[C](Cl)Cl smiles:CC(CBr)[C](Cl)Cl H298:2.24 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)CCOBr smiles:Cl[C](Cl)CCOBr H298:5.59 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)COOBr smiles:Cl[C](Cl)COOBr H298:28.16 kcal/mol
+library:CHOClBr_G4 label:OOC(Br)[C](Cl)Cl smiles:OOC(Br)[C](Cl)Cl H298:-2.70 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)(Cl)Br smiles:Cl[C](Cl)C(Cl)(Cl)Br H298:14.00 kcal/mol
+library:CHOClBr_G4 label:CCC(Br)[C](Cl)Cl smiles:CCC(Br)[C](Cl)Cl H298:0.59 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)CCBr smiles:Cl[C](Cl)CCBr H298:10.03 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)CC(Br)Br smiles:Cl[C](Cl)CC(Br)Br H298:16.95 kcal/mol
+library:CHOClBr_G4 label:OC(Cl)(Br)[C](Cl)Cl smiles:OC(Cl)(Br)[C](Cl)Cl H298:-26.62 kcal/mol
+library:CHOClBr_G4 label:OCC(Br)[C](Cl)Cl smiles:OCC(Br)[C](Cl)Cl H298:-29.38 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)COBr smiles:Cl[C](Cl)COBr H298:12.36 kcal/mol
+library:CHOClBr_G4 label:COC(Br)[C](Cl)Cl smiles:COC(Br)[C](Cl)Cl H298:-19.08 kcal/mol
+library:CHOClBr_G4 label:OC(Br)(Br)[C](Cl)Cl smiles:OC(Br)(Br)[C](Cl)Cl H298:-14.60 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)COCBr smiles:Cl[C](Cl)COCBr H298:-18.02 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)CCCBr smiles:Cl[C](Cl)CCCBr H298:3.64 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)C[C](Cl)Cl smiles:CC(Br)(Br)C[C](Cl)Cl H298:7.16 kcal/mol
+library:CHOClBr_G4 label:CC(C)(Br)[C](Cl)Cl smiles:CC(C)(Br)[C](Cl)Cl H298:-2.06 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)Br smiles:Cl[C](Cl)C(Cl)Br H298:13.80 kcal/mol
+library:CHOClBr_G4 label:OC(CBr)[C](Cl)Cl smiles:OC(CBr)[C](Cl)Cl H298:-28.07 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Cl)OBr smiles:Cl[C](Cl)C(Cl)OBr H298:5.38 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Br)(Br)Br smiles:Cl[C](Cl)C(Br)(Br)Br H298:37.35 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Br)OBr smiles:Cl[C](Cl)C(Br)OBr H298:16.41 kcal/mol
+library:CHOClBr_G4 label:CC(Br)[C](Cl)Cl smiles:CC(Br)[C](Cl)Cl H298:6.75 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)C(Br)Br smiles:Cl[C](Cl)C(Br)Br H298:24.93 kcal/mol
+library:CHOClBr_G4 label:OC(Br)C[C](Cl)Cl smiles:OC(Br)C[C](Cl)Cl H298:-30.19 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)[C](Cl)Cl smiles:CC(Br)(Br)[C](Cl)Cl H298:15.28 kcal/mol
+library:CHOClBr_G4 label:CC(OBr)[C](Cl)Cl smiles:CC(OBr)[C](Cl)Cl H298:1.28 kcal/mol
+library:CHOClBr_G4 label:Cl[C](Cl)CBr smiles:Cl[C](Cl)CBr H298:15.58 kcal/mol
 """,
 )
 
@@ -2863,82 +2918,82 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.432718,-1.42741,-2.23202,-2.8819,-3.76889,-4.29275,-4.92154],'cal/(mol*K)','+|-',[0.119864,0.12307,0.115393,0.10778,0.0951178,0.0832352,0.0609632]),
-        H298 = (96.6802,'kcal/mol','+|-',0.191482),
-        S298 = (4.587,'cal/(mol*K)','+|-',0.325415),
+        Cpdata = ([-0.432944,-1.42886,-2.23195,-2.87954,-3.76549,-4.2896,-4.92068],'cal/(mol*K)','+|-',[0.122027,0.124871,0.116961,0.109187,0.0962864,0.0842776,0.0630225]),
+        H298 = (96.582,'kcal/mol','+|-',0.190041),
+        S298 = (3.86519,'cal/(mol*K)','+|-',0.285982),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFBr_G4 label:CC(Br)C(Br)[C](F)Br smiles:CC(Br)C(Br)[C](F)Br H298:-19.63 kcal/mol
-library:CHOFBr_G4 label:CDCC[C](F)Br smiles:C=CC[C](F)Br H298:4.49 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CC(Br)CBr smiles:F[C](Br)CC(Br)CBr H298:-18.57 kcal/mol
-library:CHOFBr_G4 label:CCC(Br)[C](F)Br smiles:CCC(Br)[C](F)Br H298:-24.37 kcal/mol
-library:CHOFBr_G4 label:CC(O)[C](F)Br smiles:CC(O)[C](F)Br H298:-59.96 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CCOBr smiles:F[C](Br)CCOBr H298:-19.71 kcal/mol
-library:CHOFBr_G4 label:OC(CBr)[C](F)Br smiles:OC(CBr)[C](F)Br H298:-53.08 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)COOBr smiles:F[C](Br)COOBr H298:3.61 kcal/mol
-library:CHOFBr_G4 label:OOC[C](F)Br smiles:OOC[C](F)Br H298:-30.64 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CC(Br)(Br)Br smiles:F[C](Br)CC(Br)(Br)Br H298:2.88 kcal/mol
-library:CHOFBr_G4 label:ODCC(Br)[C](F)Br smiles:O=CC(Br)[C](F)Br H298:-30.78 kcal/mol
-library:CHOFBr_G4 label:OC[C](F)Br smiles:OC[C](F)Br H298:-49.57 kcal/mol
-library:CHOFBr_G4 label:C#CC(F)(F)[C](F)Br smiles:C#CC(F)(F)[C](F)Br H298:-43.48 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)[C](F)Br smiles:CC(Br)(Br)[C](F)Br H298:-10.13 kcal/mol
-library:CHOFBr_G4 label:COC(Br)(Br)[C](F)Br smiles:COC(Br)(Br)[C](F)Br H298:-37.65 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(CBr)CBr smiles:F[C](Br)C(CBr)CBr H298:-17.59 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(Br)[C](F)Br smiles:OC(Br)C(Br)[C](F)Br H298:-49.56 kcal/mol
-library:CHOFBr_G4 label:CC(C)(Br)[C](F)Br smiles:CC(C)(Br)[C](F)Br H298:-27.12 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CCC(Br)Br smiles:F[C](Br)CCC(Br)Br H298:-15.87 kcal/mol
-library:CHOFBr_G4 label:CC(C)[C](F)Br smiles:CC(C)[C](F)Br H298:-28.74 kcal/mol
-library:CHOFBr_G4 label:OC(OBr)[C](F)Br smiles:OC(OBr)[C](F)Br H298:-57.56 kcal/mol
-library:CHOFBr_G4 label:FC#CC(F)[C](F)Br smiles:FC#CC(F)[C](F)Br H298:-23.17 kcal/mol
-library:CHOFBr_G4 label:ODCC[C](F)Br smiles:O=CC[C](F)Br H298:-38.15 kcal/mol
-library:CHOFBr_G4 label:OC(Br)[C](F)Br smiles:OC(Br)[C](F)Br H298:-47.88 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(Br)OBr smiles:F[C](Br)C(Br)OBr H298:-7.73 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(Br)Br smiles:F[C](Br)C(Br)Br H298:0.25 kcal/mol
-library:CHOFBr_G4 label:CC[C](F)Br smiles:CC[C](F)Br H298:-21.30 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(Br)(Br)OBr smiles:F[C](Br)C(Br)(Br)OBr H298:-0.09 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C[C](F)Br smiles:OC(Br)C[C](F)Br H298:-55.31 kcal/mol
-library:CHOFBr_G4 label:OCC[C](F)Br smiles:OCC[C](F)Br H298:-56.83 kcal/mol
-library:CHOFBr_G4 label:OOC(Br)(Br)[C](F)Br smiles:OOC(Br)(Br)[C](F)Br H298:-19.06 kcal/mol
-library:CHOFBr_G4 label:C[C](F)Br smiles:C[C](F)Br H298:-15.87 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)C[C](F)Br smiles:CC(Br)(Br)C[C](F)Br H298:-17.69 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C[C](F)Br smiles:CC(Br)C[C](F)Br H298:-23.79 kcal/mol
-library:CHOFBr_G4 label:C#CC[C](F)Br smiles:C#CC[C](F)Br H298:46.74 kcal/mol
-library:CHOFBr_G4 label:COC[C](F)Br smiles:COC[C](F)Br H298:-45.21 kcal/mol
-library:CHOFBr_G4 label:OC([C](F)Br)C(Br)Br smiles:OC([C](F)Br)C(Br)Br H298:-45.64 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(Br)(Br)CBr smiles:F[C](Br)C(Br)(Br)CBr H298:-2.77 kcal/mol
-library:CHOFBr_G4 label:ODCC(Br)(Br)[C](F)Br smiles:O=CC(Br)(Br)[C](F)Br H298:-22.18 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(Br)OCBr smiles:F[C](Br)C(Br)OCBr H298:-40.65 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(Br)CBr smiles:F[C](Br)C(Br)CBr H298:-12.14 kcal/mol
-library:CHOFBr_G4 label:OCC(Br)(Br)[C](F)Br smiles:OCC(Br)(Br)[C](F)Br H298:-46.42 kcal/mol
-library:CHOFBr_G4 label:CC(Br)[C](F)Br smiles:CC(Br)[C](F)Br H298:-18.27 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(OBr)[C](F)Br smiles:CC(Br)(OBr)[C](F)Br H298:-18.61 kcal/mol
-library:CHOFBr_G4 label:C#CC(F)[C](F)Br smiles:C#CC(F)[C](F)Br H298:6.28 kcal/mol
-library:CHOFBr_G4 label:CC(OBr)[C](F)Br smiles:CC(OBr)[C](F)Br H298:-22.62 kcal/mol
-library:CHOFBr_G4 label:OC(O)[C](F)Br smiles:OC(O)[C](F)Br H298:-94.98 kcal/mol
-library:CHOFBr_G4 label:FC#CC[C](F)Br smiles:FC#CC[C](F)Br H298:18.31 kcal/mol
-library:CHOFBr_G4 label:CC(O)(Br)[C](F)Br smiles:CC(O)(Br)[C](F)Br H298:-59.04 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CCBr smiles:F[C](Br)CCBr H298:-15.41 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(CBr)OBr smiles:F[C](Br)C(CBr)OBr H298:-15.91 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)C[C](F)Br smiles:OC(Br)(Br)C[C](F)Br H298:-49.63 kcal/mol
-library:CHOFBr_G4 label:CC([C](F)Br)C(Br)Br smiles:CC([C](F)Br)C(Br)Br H298:-15.92 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CC(Br)Br smiles:F[C](Br)CC(Br)Br H298:-8.15 kcal/mol
-library:CHOFBr_G4 label:CCC(Br)(Br)[C](F)Br smiles:CCC(Br)(Br)[C](F)Br H298:-16.37 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)[C](F)Br smiles:OC(Br)(Br)[C](F)Br H298:-39.82 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(Br)C(Br)Br smiles:F[C](Br)C(Br)C(Br)Br H298:-2.55 kcal/mol
-library:CHOFBr_G4 label:CCC[C](F)Br smiles:CCC[C](F)Br H298:-26.64 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(Br)(Br)Br smiles:F[C](Br)C(Br)(Br)Br H298:12.26 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(OBr)[C](F)Br smiles:OC(Br)(OBr)[C](F)Br H298:-52.94 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CBr smiles:F[C](Br)CBr H298:-9.38 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)COCBr smiles:F[C](Br)COCBr H298:-45.07 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CCCBr smiles:F[C](Br)CCCBr H298:-22.03 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)C(OBr)OBr smiles:F[C](Br)C(OBr)OBr H298:-17.75 kcal/mol
-library:CHOFBr_G4 label:OCC(Br)[C](F)Br smiles:OCC(Br)[C](F)Br H298:-53.89 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)CC(Br)OBr smiles:F[C](Br)CC(Br)OBr H298:-17.41 kcal/mol
-library:CHOFBr_G4 label:F[C](Br)COC(Br)Br smiles:F[C](Br)COC(Br)Br H298:-37.08 kcal/mol
-library:CHOFBr_G4 label:CC(CBr)[C](F)Br smiles:CC(CBr)[C](F)Br H298:-22.98 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C(Br)[C](F)Br smiles:CC(Br)C(Br)[C](F)Br H298:-19.60 kcal/mol
+library:CHOFBr_G4 label:CDCC[C](F)Br smiles:C=CC[C](F)Br H298:4.51 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CC(Br)CBr smiles:F[C](Br)CC(Br)CBr H298:-18.51 kcal/mol
+library:CHOFBr_G4 label:CCC(Br)[C](F)Br smiles:CCC(Br)[C](F)Br H298:-24.32 kcal/mol
+library:CHOFBr_G4 label:CC(O)[C](F)Br smiles:CC(O)[C](F)Br H298:-59.93 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CCOBr smiles:F[C](Br)CCOBr H298:-19.73 kcal/mol
+library:CHOFBr_G4 label:OC(CBr)[C](F)Br smiles:OC(CBr)[C](F)Br H298:-53.05 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)COOBr smiles:F[C](Br)COOBr H298:3.60 kcal/mol
+library:CHOFBr_G4 label:OOC[C](F)Br smiles:OOC[C](F)Br H298:-30.61 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CC(Br)(Br)Br smiles:F[C](Br)CC(Br)(Br)Br H298:2.93 kcal/mol
+library:CHOFBr_G4 label:ODCC(Br)[C](F)Br smiles:O=CC(Br)[C](F)Br H298:-30.74 kcal/mol
+library:CHOFBr_G4 label:OC[C](F)Br smiles:OC[C](F)Br H298:-49.54 kcal/mol
+library:CHOFBr_G4 label:C#CC(F)(F)[C](F)Br smiles:C#CC(F)(F)[C](F)Br H298:-43.46 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)[C](F)Br smiles:CC(Br)(Br)[C](F)Br H298:-10.05 kcal/mol
+library:CHOFBr_G4 label:COC(Br)(Br)[C](F)Br smiles:COC(Br)(Br)[C](F)Br H298:-37.57 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(CBr)CBr smiles:F[C](Br)C(CBr)CBr H298:-17.54 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(Br)[C](F)Br smiles:OC(Br)C(Br)[C](F)Br H298:-49.51 kcal/mol
+library:CHOFBr_G4 label:CC(C)(Br)[C](F)Br smiles:CC(C)(Br)[C](F)Br H298:-27.06 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CCC(Br)Br smiles:F[C](Br)CCC(Br)Br H298:-15.83 kcal/mol
+library:CHOFBr_G4 label:CC(C)[C](F)Br smiles:CC(C)[C](F)Br H298:-28.71 kcal/mol
+library:CHOFBr_G4 label:OC(OBr)[C](F)Br smiles:OC(OBr)[C](F)Br H298:-57.57 kcal/mol
+library:CHOFBr_G4 label:FC#CC(F)[C](F)Br smiles:FC#CC(F)[C](F)Br H298:-23.16 kcal/mol
+library:CHOFBr_G4 label:ODCC[C](F)Br smiles:O=CC[C](F)Br H298:-38.14 kcal/mol
+library:CHOFBr_G4 label:OC(Br)[C](F)Br smiles:OC(Br)[C](F)Br H298:-47.81 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(Br)OBr smiles:F[C](Br)C(Br)OBr H298:-7.71 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(Br)Br smiles:F[C](Br)C(Br)Br H298:0.30 kcal/mol
+library:CHOFBr_G4 label:CC[C](F)Br smiles:CC[C](F)Br H298:-21.27 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(Br)(Br)OBr smiles:F[C](Br)C(Br)(Br)OBr H298:-0.05 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C[C](F)Br smiles:OC(Br)C[C](F)Br H298:-55.27 kcal/mol
+library:CHOFBr_G4 label:OCC[C](F)Br smiles:OCC[C](F)Br H298:-56.81 kcal/mol
+library:CHOFBr_G4 label:OOC(Br)(Br)[C](F)Br smiles:OOC(Br)(Br)[C](F)Br H298:-19.00 kcal/mol
+library:CHOFBr_G4 label:C[C](F)Br smiles:C[C](F)Br H298:-15.84 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)C[C](F)Br smiles:CC(Br)(Br)C[C](F)Br H298:-17.63 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C[C](F)Br smiles:CC(Br)C[C](F)Br H298:-23.74 kcal/mol
+library:CHOFBr_G4 label:C#CC[C](F)Br smiles:C#CC[C](F)Br H298:46.76 kcal/mol
+library:CHOFBr_G4 label:COC[C](F)Br smiles:COC[C](F)Br H298:-45.20 kcal/mol
+library:CHOFBr_G4 label:OC([C](F)Br)C(Br)Br smiles:OC([C](F)Br)C(Br)Br H298:-45.58 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(Br)(Br)CBr smiles:F[C](Br)C(Br)(Br)CBr H298:-2.68 kcal/mol
+library:CHOFBr_G4 label:ODCC(Br)(Br)[C](F)Br smiles:O=CC(Br)(Br)[C](F)Br H298:-22.11 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(Br)OCBr smiles:F[C](Br)C(Br)OCBr H298:-40.60 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(Br)CBr smiles:F[C](Br)C(Br)CBr H298:-12.06 kcal/mol
+library:CHOFBr_G4 label:OCC(Br)(Br)[C](F)Br smiles:OCC(Br)(Br)[C](F)Br H298:-46.36 kcal/mol
+library:CHOFBr_G4 label:CC(Br)[C](F)Br smiles:CC(Br)[C](F)Br H298:-18.20 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(OBr)[C](F)Br smiles:CC(Br)(OBr)[C](F)Br H298:-18.57 kcal/mol
+library:CHOFBr_G4 label:C#CC(F)[C](F)Br smiles:C#CC(F)[C](F)Br H298:6.29 kcal/mol
+library:CHOFBr_G4 label:CC(OBr)[C](F)Br smiles:CC(OBr)[C](F)Br H298:-22.63 kcal/mol
+library:CHOFBr_G4 label:OC(O)[C](F)Br smiles:OC(O)[C](F)Br H298:-94.96 kcal/mol
+library:CHOFBr_G4 label:FC#CC[C](F)Br smiles:FC#CC[C](F)Br H298:18.33 kcal/mol
+library:CHOFBr_G4 label:CC(O)(Br)[C](F)Br smiles:CC(O)(Br)[C](F)Br H298:-58.97 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CCBr smiles:F[C](Br)CCBr H298:-15.37 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(CBr)OBr smiles:F[C](Br)C(CBr)OBr H298:-15.89 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)C[C](F)Br smiles:OC(Br)(Br)C[C](F)Br H298:-49.58 kcal/mol
+library:CHOFBr_G4 label:CC([C](F)Br)C(Br)Br smiles:CC([C](F)Br)C(Br)Br H298:-15.87 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CC(Br)Br smiles:F[C](Br)CC(Br)Br H298:-8.10 kcal/mol
+library:CHOFBr_G4 label:CCC(Br)(Br)[C](F)Br smiles:CCC(Br)(Br)[C](F)Br H298:-16.31 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)[C](F)Br smiles:OC(Br)(Br)[C](F)Br H298:-39.74 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(Br)C(Br)Br smiles:F[C](Br)C(Br)C(Br)Br H298:-2.48 kcal/mol
+library:CHOFBr_G4 label:CCC[C](F)Br smiles:CCC[C](F)Br H298:-26.62 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(Br)(Br)Br smiles:F[C](Br)C(Br)(Br)Br H298:12.32 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(OBr)[C](F)Br smiles:OC(Br)(OBr)[C](F)Br H298:-52.90 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CBr smiles:F[C](Br)CBr H298:-9.33 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)COCBr smiles:F[C](Br)COCBr H298:-45.34 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CCCBr smiles:F[C](Br)CCCBr H298:-22.00 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)C(OBr)OBr smiles:F[C](Br)C(OBr)OBr H298:-17.78 kcal/mol
+library:CHOFBr_G4 label:OCC(Br)[C](F)Br smiles:OCC(Br)[C](F)Br H298:-53.84 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)CC(Br)OBr smiles:F[C](Br)CC(Br)OBr H298:-17.39 kcal/mol
+library:CHOFBr_G4 label:F[C](Br)COC(Br)Br smiles:F[C](Br)COC(Br)Br H298:-37.06 kcal/mol
+library:CHOFBr_G4 label:CC(CBr)[C](F)Br smiles:CC(CBr)[C](F)Br H298:-22.94 kcal/mol
 """,
 )
 
@@ -2954,9 +3009,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.232562,-1.19868,-1.97511,-2.58465,-3.46656,-4.05647,-4.82175],'cal/(mol*K)','+|-',[0.110509,0.113465,0.106387,0.099368,0.0876943,0.076739,0.0562053]),
-        H298 = (96.6428,'kcal/mol','+|-',0.176537),
-        S298 = (3.97979,'cal/(mol*K)','+|-',0.300018),
+        Cpdata = ([-0.233802,-1.18939,-1.96615,-2.5783,-3.4616,-4.05151,-4.81647],'cal/(mol*K)','+|-',[0.111807,0.114413,0.107165,0.100042,0.088222,0.077219,0.0577441]),
+        H298 = (96.6239,'kcal/mol','+|-',0.174124),
+        S298 = (3.50686,'cal/(mol*K)','+|-',0.26203),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -3007,41 +3062,42 @@ library:CHOFCl_G4 label:OC(O)(Cl)[C](F)Cl smiles:OC(O)(Cl)[C](F)Cl H298:-117.06 
 library:CHOFCl_G4 label:ODC(Cl)C[C](F)Cl smiles:O=C(Cl)C[C](F)Cl H298:-67.63 kcal/mol
 library:CHOFCl_G4 label:CC(O)[C](F)Cl smiles:CC(O)[C](F)Cl H298:-72.08 kcal/mol
 library:CHOFCl_G4 label:CDCC[C](F)Cl smiles:C=CC[C](F)Cl H298:-8.32 kcal/mol
-library:CHOFClBr_G4 label:CC(CBr)[C](F)Cl smiles:CC(CBr)[C](F)Cl H298:-35.80 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)CC(Br)Br smiles:F[C](Cl)CC(Br)Br H298:-20.62 kcal/mol
-library:CHOFClBr_G4 label:OCC(Br)[C](F)Cl smiles:OCC(Br)[C](F)Cl H298:-66.23 kcal/mol
-library:CHOFClBr_G4 label:OC(Br)(Br)[C](F)Cl smiles:OC(Br)(Br)[C](F)Cl H298:-52.13 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Br)(Br)Br smiles:F[C](Cl)C(Br)(Br)Br H298:-0.14 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)COBr smiles:F[C](Cl)COBr H298:-24.86 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Cl)CBr smiles:F[C](Cl)C(Cl)CBr H298:-35.13 kcal/mol
-library:CHOFClBr_G4 label:CC(O)(Br)[C](F)Cl smiles:CC(O)(Br)[C](F)Cl H298:-71.11 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Br)CBr smiles:F[C](Cl)C(Br)CBr H298:-24.47 kcal/mol
-library:CHOFClBr_G4 label:ODC(Br)C[C](F)Cl smiles:O=C(Br)C[C](F)Cl H298:-55.28 kcal/mol
-library:CHOFClBr_G4 label:CC(OBr)[C](F)Cl smiles:CC(OBr)[C](F)Cl H298:-35.51 kcal/mol
-library:CHOFClBr_G4 label:OC(Cl)(Br)[C](F)Cl smiles:OC(Cl)(Br)[C](F)Cl H298:-64.15 kcal/mol
-library:CHOFClBr_G4 label:CC(Br)[C](F)Cl smiles:CC(Br)[C](F)Cl H298:-30.81 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)CC(Cl)Br smiles:F[C](Cl)CC(Cl)Br H298:-32.15 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)CCCBr smiles:F[C](Cl)CCCBr H298:-34.71 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)COCBr smiles:F[C](Cl)COCBr H298:-60.76 kcal/mol
-library:CHOFClBr_G4 label:CC(Br)C[C](F)Cl smiles:CC(Br)C[C](F)Cl H298:-36.55 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)COOBr smiles:F[C](Cl)COOBr H298:-9.12 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)CCOBr smiles:F[C](Cl)CCOBr H298:-32.55 kcal/mol
-library:CHOFClBr_G4 label:OC(Br)C[C](F)Cl smiles:OC(Br)C[C](F)Cl H298:-67.67 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)CBr smiles:F[C](Cl)CBr H298:-22.11 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Cl)Br smiles:F[C](Cl)C(Cl)Br H298:-23.39 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Cl)(Br)Br smiles:F[C](Cl)C(Cl)(Br)Br H298:-11.92 kcal/mol
-library:CHOFClBr_G4 label:OC(Br)[C](F)Cl smiles:OC(Br)[C](F)Cl H298:-60.23 kcal/mol
-library:CHOFClBr_G4 label:OC(OBr)[C](F)Cl smiles:OC(OBr)[C](F)Cl H298:-68.72 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Br)OBr smiles:F[C](Cl)C(Br)OBr H298:-20.15 kcal/mol
-library:CHOFClBr_G4 label:CC(C)(Br)[C](F)Cl smiles:CC(C)(Br)[C](F)Cl H298:-39.30 kcal/mol
-library:CHOFClBr_G4 label:CC(Cl)(Br)[C](F)Cl smiles:CC(Cl)(Br)[C](F)Cl H298:-33.98 kcal/mol
-library:CHOFClBr_G4 label:CC(Br)(Br)[C](F)Cl smiles:CC(Br)(Br)[C](F)Cl H298:-22.56 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Cl)OBr smiles:F[C](Cl)C(Cl)OBr H298:-31.41 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)CCBr smiles:F[C](Cl)CCBr H298:-27.98 kcal/mol
-library:CHOFClBr_G4 label:OC(CBr)[C](F)Cl smiles:OC(CBr)[C](F)Cl H298:-65.87 kcal/mol
-library:CHOFClBr_G4 label:CCC(Br)[C](F)Cl smiles:CCC(Br)[C](F)Cl H298:-36.81 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Cl)(Cl)Br smiles:F[C](Cl)C(Cl)(Cl)Br H298:-23.53 kcal/mol
-library:CHOFClBr_G4 label:F[C](Cl)C(Br)Br smiles:F[C](Cl)C(Br)Br H298:-12.17 kcal/mol
+library:CHOFClBr_G4 label:CC(CBr)[C](F)Cl smiles:CC(CBr)[C](F)Cl H298:-35.78 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)CC(Br)Br smiles:F[C](Cl)CC(Br)Br H298:-20.57 kcal/mol
+library:CHOFClBr_G4 label:OCC(Br)[C](F)Cl smiles:OCC(Br)[C](F)Cl H298:-66.18 kcal/mol
+library:CHOFClBr_G4 label:OC(Br)(Br)[C](F)Cl smiles:OC(Br)(Br)[C](F)Cl H298:-52.07 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Br)(Br)Br smiles:F[C](Cl)C(Br)(Br)Br H298:-0.10 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)COBr smiles:F[C](Cl)COBr H298:-24.88 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Cl)CBr smiles:F[C](Cl)C(Cl)CBr H298:-35.10 kcal/mol
+library:CHOFClBr_G4 label:CC(O)(Br)[C](F)Cl smiles:CC(O)(Br)[C](F)Cl H298:-71.07 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Br)CBr smiles:F[C](Cl)C(Br)CBr H298:-24.40 kcal/mol
+library:CHOFClBr_G4 label:ODC(Br)C[C](F)Cl smiles:O=C(Br)C[C](F)Cl H298:-55.27 kcal/mol
+library:CHOFClBr_G4 label:CC(OBr)[C](F)Cl smiles:CC(OBr)[C](F)Cl H298:-35.52 kcal/mol
+library:CHOFClBr_G4 label:OC(Cl)(Br)[C](F)Cl smiles:OC(Cl)(Br)[C](F)Cl H298:-64.13 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)[C](F)Cl smiles:CC(Br)[C](F)Cl H298:-30.77 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)CC(Cl)Br smiles:F[C](Cl)CC(Cl)Br H298:-32.12 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)CCCBr smiles:F[C](Cl)CCCBr H298:-34.69 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)COCBr smiles:F[C](Cl)COCBr H298:-61.04 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)C[C](F)Cl smiles:CC(Br)C[C](F)Cl H298:-36.51 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)(Br)C[C](F)Cl smiles:CC(Br)(Br)C[C](F)Cl H298:-30.68 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)COOBr smiles:F[C](Cl)COOBr H298:-9.15 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)CCOBr smiles:F[C](Cl)CCOBr H298:-32.59 kcal/mol
+library:CHOFClBr_G4 label:OC(Br)C[C](F)Cl smiles:OC(Br)C[C](F)Cl H298:-67.64 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)CBr smiles:F[C](Cl)CBr H298:-22.08 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Cl)Br smiles:F[C](Cl)C(Cl)Br H298:-23.36 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Cl)(Br)Br smiles:F[C](Cl)C(Cl)(Br)Br H298:-11.89 kcal/mol
+library:CHOFClBr_G4 label:OC(Br)[C](F)Cl smiles:OC(Br)[C](F)Cl H298:-60.17 kcal/mol
+library:CHOFClBr_G4 label:OC(OBr)[C](F)Cl smiles:OC(OBr)[C](F)Cl H298:-68.73 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Br)OBr smiles:F[C](Cl)C(Br)OBr H298:-20.14 kcal/mol
+library:CHOFClBr_G4 label:CC(C)(Br)[C](F)Cl smiles:CC(C)(Br)[C](F)Cl H298:-39.25 kcal/mol
+library:CHOFClBr_G4 label:CC(Cl)(Br)[C](F)Cl smiles:CC(Cl)(Br)[C](F)Cl H298:-33.95 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)(Br)[C](F)Cl smiles:CC(Br)(Br)[C](F)Cl H298:-22.50 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Cl)OBr smiles:F[C](Cl)C(Cl)OBr H298:-31.43 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)CCBr smiles:F[C](Cl)CCBr H298:-27.96 kcal/mol
+library:CHOFClBr_G4 label:OC(CBr)[C](F)Cl smiles:OC(CBr)[C](F)Cl H298:-65.85 kcal/mol
+library:CHOFClBr_G4 label:CCC(Br)[C](F)Cl smiles:CCC(Br)[C](F)Cl H298:-36.62 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Cl)(Cl)Br smiles:F[C](Cl)C(Cl)(Cl)Br H298:-23.52 kcal/mol
+library:CHOFClBr_G4 label:F[C](Cl)C(Br)Br smiles:F[C](Cl)C(Br)Br H298:-12.14 kcal/mol
 """,
 )
 
@@ -3057,9 +3113,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.318184,-1.16131,-1.85832,-2.41649,-3.26427,-3.87628,-4.79145],'cal/(mol*K)','+|-',[0.05669,0.0582061,0.0545754,0.0509747,0.0449862,0.0393663,0.0288327]),
-        H298 = (100.526,'kcal/mol','+|-',0.0905617),
-        S298 = (2.83935,'cal/(mol*K)','+|-',0.153906),
+        Cpdata = ([-0.31705,-1.15724,-1.85433,-2.4141,-3.26386,-3.876,-4.79239],'cal/(mol*K)','+|-',[0.0575242,0.058865,0.055136,0.0514712,0.0453898,0.0397288,0.0297091]),
+        H298 = (100.512,'kcal/mol','+|-',0.0895861),
+        S298 = (2.80065,'cal/(mol*K)','+|-',0.134813),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -3082,7 +3138,7 @@ library:CHOF_G4 label:F[C](F)C(F)(F)F smiles:F[C](F)C(F)(F)F H298:-216.37 kcal/m
 library:CHOF_G4 label:OC(F)[C](F)F smiles:OC(F)[C](F)F H298:-155.98 kcal/mol
 library:CHOF_G4 label:FCDCC[C](F)F smiles:FC=CC[C](F)F H298:-96.76 kcal/mol
 library:CHOF_G4 label:OC(F)(F)C[C](F)F smiles:OC(F)(F)C[C](F)F H298:-226.05 kcal/mol
-library:CHOF_G4 label:CCC[C](F)F smiles:CCC[C](F)F H298:-82.00 kcal/mol
+library:CHOF_G4 label:CCC[C](F)F smiles:CCC[C](F)F H298:-81.99 kcal/mol
 library:CHOF_G4 label:FCC(F)(CF)[C](F)F smiles:FCC(F)(CF)[C](F)F H298:-212.69 kcal/mol
 library:CHOF_G4 label:OC(F)(F)[C](F)F smiles:OC(F)(F)[C](F)F H298:-211.75 kcal/mol
 library:CHOF_G4 label:CC(F)(F)C(F)[C](F)F smiles:CC(F)(F)C(F)[C](F)F H298:-226.23 kcal/mol
@@ -3099,7 +3155,7 @@ library:CHOF_G4 label:FOC(F)[C](F)F smiles:FOC(F)[C](F)F H298:-120.83 kcal/mol
 library:CHOF_G4 label:F[C](F)CC(F)(F)C(F)(F)F smiles:F[C](F)CC(F)(F)C(F)(F)F H298:-331.74 kcal/mol
 library:CHOF_G4 label:FOC(F)C[C](F)F smiles:FOC(F)C[C](F)F H298:-135.64 kcal/mol
 library:CHOF_G4 label:F[C](F)C(F)C(F)DC(F)F smiles:F[C](F)C(F)C(F)=C(F)F H298:-223.46 kcal/mol
-library:CHOF_G4 label:FC[C](F)F smiles:FC[C](F)F H298:-110.75 kcal/mol
+library:CHOF_G4 label:FC[C](F)F smiles:FC[C](F)F H298:-111.22 kcal/mol
 library:CHOF_G4 label:FCC(F)(F)C[C](F)F smiles:FCC(F)(F)C[C](F)F H298:-225.52 kcal/mol
 library:CHOF_G4 label:F[C](F)C(F)(F)C(F)C(F)F smiles:F[C](F)C(F)(F)C(F)C(F)F H298:-313.21 kcal/mol
 library:CHOF_G4 label:OC(F)(CF)[C](F)F smiles:OC(F)(CF)[C](F)F H298:-208.19 kcal/mol
@@ -3137,7 +3193,7 @@ library:CHOF_G4 label:CC([C](F)F)C(F)F smiles:CC([C](F)F)C(F)F H298:-180.49 kcal
 library:CHOF_G4 label:OC(F)C[C](F)F smiles:OC(F)C[C](F)F H298:-167.81 kcal/mol
 library:CHOF_G4 label:FCOC(F)(F)[C](F)F smiles:FCOC(F)(F)[C](F)F H298:-254.45 kcal/mol
 library:CHOF_G4 label:FCOC[C](F)F smiles:FCOC[C](F)F H298:-151.66 kcal/mol
-library:CHOF_G4 label:F[C](F)CCC(F)F smiles:F[C](F)CCC(F)F H298:-181.15 kcal/mol
+library:CHOF_G4 label:F[C](F)CCC(F)F smiles:F[C](F)CCC(F)F H298:-181.33 kcal/mol
 library:CHOF_G4 label:CDCC[C](F)F smiles:C=CC[C](F)F H298:-51.13 kcal/mol
 library:CHOF_G4 label:FCC(F)C(F)[C](F)F smiles:FCC(F)C(F)[C](F)F H298:-212.06 kcal/mol
 library:CHOF_G4 label:OOC(F)[C](F)F smiles:OOC(F)[C](F)F H298:-134.80 kcal/mol
@@ -3146,7 +3202,7 @@ library:CHOF_G4 label:F[C](F)C(C(F)(F)F)C(F)(F)F smiles:F[C](F)C(C(F)(F)F)C(F)(F
 library:CHOF_G4 label:F[C](F)C(F)C(F)(F)F smiles:F[C](F)C(F)C(F)(F)F H298:-269.18 kcal/mol
 library:CHOF_G4 label:F[C](F)C(F)(C(F)F)C(F)F smiles:F[C](F)C(F)(C(F)F)C(F)F H298:-312.65 kcal/mol
 library:CHOF_G4 label:FOCC(F)(F)[C](F)F smiles:FOCC(F)(F)[C](F)F H298:-175.89 kcal/mol
-library:CHOF_G4 label:CC(C)[C](F)F smiles:CC(C)[C](F)F H298:-84.04 kcal/mol
+library:CHOF_G4 label:CC(C)[C](F)F smiles:CC(C)[C](F)F H298:-83.84 kcal/mol
 library:CHOF_G4 label:FCDC(F)C(F)[C](F)F smiles:FC=C(F)C(F)[C](F)F H298:-178.62 kcal/mol
 library:CHOF_G4 label:FOCC(F)[C](F)F smiles:FOCC(F)[C](F)F H298:-126.13 kcal/mol
 library:CHOF_G4 label:FOC([C](F)F)C(F)F smiles:FOC([C](F)F)C(F)F H298:-175.30 kcal/mol
@@ -3169,7 +3225,7 @@ library:CHOF_G4 label:ODC(F)C(F)[C](F)F smiles:O=C(F)C(F)[C](F)F H298:-194.13 kc
 library:CHOF_G4 label:FCC(F)C[C](F)F smiles:FCC(F)C[C](F)F H298:-172.00 kcal/mol
 library:CHOF_G4 label:FCDCC(F)(F)[C](F)F smiles:FC=CC(F)(F)[C](F)F H298:-190.01 kcal/mol
 library:CHOF_G4 label:FCC([C](F)F)C(F)F smiles:FCC([C](F)F)C(F)F H298:-221.98 kcal/mol
-library:CHOF_G4 label:CC(C)(F)[C](F)F smiles:CC(C)(F)[C](F)F H298:-132.05 kcal/mol
+library:CHOF_G4 label:CC(C)(F)[C](F)F smiles:CC(C)(F)[C](F)F H298:-132.07 kcal/mol
 library:CHOF_G4 label:COC(F)(F)[C](F)F smiles:COC(F)(F)[C](F)F H298:-207.64 kcal/mol
 library:CHOF_G4 label:OC(F)(F)C(F)(F)[C](F)F smiles:OC(F)(F)C(F)(F)[C](F)F H298:-313.02 kcal/mol
 library:CHOF_G4 label:ODC(F)C[C](F)F smiles:O=C(F)C[C](F)F H298:-156.63 kcal/mol
@@ -3204,6 +3260,7 @@ library:CHOF_G4 label:FOC(F)(F)C[C](F)F smiles:FOC(F)(F)C[C](F)F H298:-188.11 kc
 library:CHOF_G4 label:F[C](F)C(C(F)F)C(F)F smiles:F[C](F)C(C(F)F)C(F)F H298:-273.48 kcal/mol
 library:CHOF_G4 label:FOC[C](F)F smiles:FOC[C](F)F H298:-74.25 kcal/mol
 library:CHOF_G4 label:F[C](F)C(F)(F)C(F)(F)C(F)F smiles:F[C](F)C(F)(F)C(F)(F)C(F)F H298:-360.70 kcal/mol
+library:CHOF_G4 label:F[C](F)C(C(F)F)C(F)(F)F smiles:F[C](F)C(C(F)F)C(F)(F)F H298:-330.11 kcal/mol
 library:CHOF_G4 label:COC(F)[C](F)F smiles:COC(F)[C](F)F H298:-151.34 kcal/mol
 library:CHOF_G4 label:CC(F)(CF)[C](F)F smiles:CC(F)(CF)[C](F)F H298:-172.97 kcal/mol
 library:CHOF_G4 label:FCDC(F)C[C](F)F smiles:FC=C(F)C[C](F)F H298:-138.76 kcal/mol
@@ -3222,8 +3279,9 @@ library:CHOF_G4 label:CC(F)(F)C[C](F)F smiles:CC(F)(F)C[C](F)F H298:-185.38 kcal
 library:CHOF_G4 label:CC(F)([C](F)F)C(F)(F)F smiles:CC(F)([C](F)F)C(F)(F)F H298:-281.15 kcal/mol
 library:CHOF_G4 label:F[C](F)CC(F)C(F)(F)F smiles:F[C](F)CC(F)C(F)(F)F H298:-282.10 kcal/mol
 library:CHOF_G4 label:FCC[C](F)F smiles:FCC[C](F)F H298:-119.66 kcal/mol
-library:CHOF_G4 label:CC(F)(F)[C](F)F smiles:CC(F)(F)[C](F)F H298:-174.07 kcal/mol
+library:CHOF_G4 label:CC(F)(F)[C](F)F smiles:CC(F)(F)[C](F)F H298:-174.09 kcal/mol
 library:CHOF_G4 label:CC(CF)[C](F)F smiles:CC(CF)[C](F)F H298:-126.71 kcal/mol
+library:CHOF_G4 label:FCC(F)([C](F)F)C(F)(F)F smiles:FCC(F)([C](F)F)C(F)(F)F H298:-318.78 kcal/mol
 library:CHOF_G4 label:OC([C](F)F)C(F)(F)F smiles:OC([C](F)F)C(F)(F)F H298:-264.04 kcal/mol
 library:CHOF_G4 label:ODCC(F)[C](F)F smiles:O=CC(F)[C](F)F H298:-133.10 kcal/mol
 library:CHOFCl_G4 label:CC(Cl)C[C](F)F smiles:CC(Cl)C[C](F)F H298:-90.13 kcal/mol
@@ -3264,111 +3322,111 @@ library:CHOFCl_G4 label:CC(O)(Cl)[C](F)F smiles:CC(O)(Cl)[C](F)F H298:-124.71 kc
 library:CHOFCl_G4 label:OC(Cl)C[C](F)F smiles:OC(Cl)C[C](F)F H298:-122.52 kcal/mol
 library:CHOFCl_G4 label:F[C](F)C(F)(Cl)Cl smiles:F[C](F)C(F)(Cl)Cl H298:-119.53 kcal/mol
 library:CHOFCl_G4 label:CC(Cl)(Cl)[C](F)F smiles:CC(Cl)(Cl)[C](F)F H298:-86.45 kcal/mol
-library:CHOFClBr_G4 label:F[C](F)C(F)(Cl)Br smiles:F[C](F)C(F)(Cl)Br H298:-107.18 kcal/mol
-library:CHOFClBr_G4 label:OC(Cl)(Br)[C](F)F smiles:OC(Cl)(Br)[C](F)F H298:-104.75 kcal/mol
-library:CHOFClBr_G4 label:F[C](F)C(Cl)(Br)Br smiles:F[C](F)C(Cl)(Br)Br H298:-52.60 kcal/mol
-library:CHOFClBr_G4 label:F[C](F)C(Cl)Br smiles:F[C](F)C(Cl)Br H298:-64.01 kcal/mol
-library:CHOFClBr_G4 label:CC(Cl)(Br)[C](F)F smiles:CC(Cl)(Br)[C](F)F H298:-74.94 kcal/mol
-library:CHOFClBr_G4 label:F[C](F)C(Cl)(Cl)Br smiles:F[C](F)C(Cl)(Cl)Br H298:-64.22 kcal/mol
-library:CHOFClBr_G4 label:F[C](F)C(Cl)OBr smiles:F[C](F)C(Cl)OBr H298:-72.15 kcal/mol
-library:CHOFClBr_G4 label:F[C](F)C(Cl)CBr smiles:F[C](F)C(Cl)CBr H298:-75.92 kcal/mol
-library:CHOFClBr_G4 label:F[C](F)CC(Cl)Br smiles:F[C](F)CC(Cl)Br H298:-74.16 kcal/mol
-library:CHOFBr_G4 label:CC(OBr)[C](F)F smiles:CC(OBr)[C](F)F H298:-76.70 kcal/mol
-library:CHOFBr_G4 label:CC(Br)[C](F)F smiles:CC(Br)[C](F)F H298:-71.51 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)OBr smiles:F[C](F)C(Br)OBr H298:-60.78 kcal/mol
-library:CHOFBr_G4 label:FCC(CBr)[C](F)F smiles:FCC(CBr)[C](F)F H298:-120.39 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)OBr smiles:F[C](F)C(F)OBr H298:-115.76 kcal/mol
-library:CHOFBr_G4 label:ODCC(F)(Br)[C](F)F smiles:O=CC(F)(Br)[C](F)F H298:-125.77 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)C(Br)Br smiles:F[C](F)C(Br)C(Br)Br H298:-56.55 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CC(F)(F)Br smiles:F[C](F)CC(F)(F)Br H298:-166.38 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)Br smiles:F[C](F)C(Br)Br H298:-52.85 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CC(Br)CBr smiles:F[C](F)CC(Br)CBr H298:-73.46 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C[C](F)F smiles:OC(Br)C[C](F)F H298:-109.81 kcal/mol
-library:CHOFBr_G4 label:COC(F)(Br)[C](F)F smiles:COC(F)(Br)[C](F)F H298:-147.26 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)[C](F)F smiles:CC(F)(Br)[C](F)F H298:-116.50 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C(F)[C](F)F smiles:CC(Br)C(F)[C](F)F H298:-121.04 kcal/mol
-library:CHOFBr_G4 label:CCC(Br)(Br)[C](F)F smiles:CCC(Br)(Br)[C](F)F H298:-69.26 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CCC(F)Br smiles:F[C](F)CCC(F)Br H298:-122.64 kcal/mol
-library:CHOFBr_G4 label:CCC(Br)[C](F)F smiles:CCC(Br)[C](F)F H298:-77.24 kcal/mol
-library:CHOFBr_G4 label:CC(F)(CBr)[C](F)F smiles:CC(F)(CBr)[C](F)F H298:-123.43 kcal/mol
-library:CHOFBr_G4 label:OC([C](F)F)C(F)Br smiles:OC([C](F)F)C(F)Br H298:-150.90 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)C[C](F)F smiles:OC(F)(Br)C[C](F)F H298:-163.12 kcal/mol
-library:CHOFBr_G4 label:COC(Br)(Br)[C](F)F smiles:COC(Br)(Br)[C](F)F H298:-90.44 kcal/mol
-library:CHOFBr_G4 label:FOC(OBr)[C](F)F smiles:FOC(OBr)[C](F)F H298:-76.67 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)C[C](F)F smiles:CC(Br)(Br)C[C](F)F H298:-72.20 kcal/mol
+library:CHOFClBr_G4 label:F[C](F)C(F)(Cl)Br smiles:F[C](F)C(F)(Cl)Br H298:-107.16 kcal/mol
+library:CHOFClBr_G4 label:OC(Cl)(Br)[C](F)F smiles:OC(Cl)(Br)[C](F)F H298:-104.72 kcal/mol
+library:CHOFClBr_G4 label:F[C](F)C(Cl)(Br)Br smiles:F[C](F)C(Cl)(Br)Br H298:-52.56 kcal/mol
+library:CHOFClBr_G4 label:F[C](F)C(Cl)Br smiles:F[C](F)C(Cl)Br H298:-63.98 kcal/mol
+library:CHOFClBr_G4 label:CC(Cl)(Br)[C](F)F smiles:CC(Cl)(Br)[C](F)F H298:-74.90 kcal/mol
+library:CHOFClBr_G4 label:F[C](F)C(Cl)(Cl)Br smiles:F[C](F)C(Cl)(Cl)Br H298:-64.19 kcal/mol
+library:CHOFClBr_G4 label:F[C](F)C(Cl)OBr smiles:F[C](F)C(Cl)OBr H298:-72.17 kcal/mol
+library:CHOFClBr_G4 label:F[C](F)C(Cl)CBr smiles:F[C](F)C(Cl)CBr H298:-75.90 kcal/mol
+library:CHOFClBr_G4 label:F[C](F)CC(Cl)Br smiles:F[C](F)CC(Cl)Br H298:-74.14 kcal/mol
+library:CHOFBr_G4 label:CC(OBr)[C](F)F smiles:CC(OBr)[C](F)F H298:-76.71 kcal/mol
+library:CHOFBr_G4 label:CC(Br)[C](F)F smiles:CC(Br)[C](F)F H298:-71.46 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)OBr smiles:F[C](F)C(Br)OBr H298:-60.76 kcal/mol
+library:CHOFBr_G4 label:FCC(CBr)[C](F)F smiles:FCC(CBr)[C](F)F H298:-120.37 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)OBr smiles:F[C](F)C(F)OBr H298:-115.77 kcal/mol
+library:CHOFBr_G4 label:ODCC(F)(Br)[C](F)F smiles:O=CC(F)(Br)[C](F)F H298:-125.74 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)C(Br)Br smiles:F[C](F)C(Br)C(Br)Br H298:-56.62 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CC(F)(F)Br smiles:F[C](F)CC(F)(F)Br H298:-166.36 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)Br smiles:F[C](F)C(Br)Br H298:-52.81 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CC(Br)CBr smiles:F[C](F)CC(Br)CBr H298:-73.40 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C[C](F)F smiles:OC(Br)C[C](F)F H298:-109.77 kcal/mol
+library:CHOFBr_G4 label:COC(F)(Br)[C](F)F smiles:COC(F)(Br)[C](F)F H298:-147.22 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)[C](F)F smiles:CC(F)(Br)[C](F)F H298:-116.46 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C(F)[C](F)F smiles:CC(Br)C(F)[C](F)F H298:-121.00 kcal/mol
+library:CHOFBr_G4 label:CCC(Br)(Br)[C](F)F smiles:CCC(Br)(Br)[C](F)F H298:-69.20 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CCC(F)Br smiles:F[C](F)CCC(F)Br H298:-122.62 kcal/mol
+library:CHOFBr_G4 label:CCC(Br)[C](F)F smiles:CCC(Br)[C](F)F H298:-77.20 kcal/mol
+library:CHOFBr_G4 label:CC(F)(CBr)[C](F)F smiles:CC(F)(CBr)[C](F)F H298:-123.40 kcal/mol
+library:CHOFBr_G4 label:OC([C](F)F)C(F)Br smiles:OC([C](F)F)C(F)Br H298:-150.88 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)C[C](F)F smiles:OC(F)(Br)C[C](F)F H298:-163.09 kcal/mol
+library:CHOFBr_G4 label:COC(Br)(Br)[C](F)F smiles:COC(Br)(Br)[C](F)F H298:-90.38 kcal/mol
+library:CHOFBr_G4 label:FOC(OBr)[C](F)F smiles:FOC(OBr)[C](F)F H298:-76.69 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)C[C](F)F smiles:CC(Br)(Br)C[C](F)F H298:-72.14 kcal/mol
 library:CHOFBr_G4 label:F[C](F)C(Br)OOBr smiles:F[C](F)C(Br)OOBr H298:-43.76 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)CCBr smiles:F[C](F)C(F)CCBr H298:-119.56 kcal/mol
-library:CHOFBr_G4 label:CC([C](F)F)C(F)Br smiles:CC([C](F)F)C(F)Br H298:-122.24 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)C[C](F)F smiles:CC(F)(Br)C[C](F)F H298:-126.29 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(Br)[C](F)F smiles:OC(Br)C(Br)[C](F)F H298:-103.62 kcal/mol
-library:CHOFBr_G4 label:OC(F)(CBr)[C](F)F smiles:OC(F)(CBr)[C](F)F H298:-160.59 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)C(Br)[C](F)F smiles:O=C(Br)C(Br)[C](F)F H298:-87.38 kcal/mol
-library:CHOFBr_G4 label:OOC(F)(Br)[C](F)F smiles:OOC(F)(Br)[C](F)F H298:-128.53 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)C[C](F)F smiles:O=C(Br)C[C](F)F H298:-97.00 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)(Br)CBr smiles:F[C](F)C(Br)(Br)CBr H298:-54.88 kcal/mol
-library:CHOFBr_G4 label:OC(CBr)[C](F)F smiles:OC(CBr)[C](F)F H298:-108.00 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(F)[C](F)F smiles:OC(Br)C(F)[C](F)F H298:-151.49 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)(F)OBr smiles:F[C](F)C(F)(F)OBr H298:-169.63 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CCBr smiles:F[C](F)CCBr H298:-70.18 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)(Br)Br smiles:F[C](F)C(F)(Br)Br H298:-94.70 kcal/mol
-library:CHOFBr_G4 label:F[C](F)COC(F)Br smiles:F[C](F)COC(F)Br H298:-147.98 kcal/mol
-library:CHOFBr_G4 label:F[C](F)COCBr smiles:F[C](F)COCBr H298:-97.16 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CCCBr smiles:F[C](F)CCCBr H298:-76.97 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CCC(Br)Br smiles:F[C](F)CCC(Br)Br H298:-70.50 kcal/mol
-library:CHOFBr_G4 label:CC(O)(Br)[C](F)F smiles:CC(O)(Br)[C](F)F H298:-112.49 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)(Br)OBr smiles:F[C](F)C(F)(Br)OBr H298:-109.73 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(CBr)CBr smiles:F[C](F)C(CBr)CBr H298:-71.98 kcal/mol
-library:CHOFBr_G4 label:CC([C](F)F)C(Br)Br smiles:CC([C](F)F)C(Br)Br H298:-69.84 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CC(F)CBr smiles:F[C](F)CC(F)CBr H298:-122.72 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(OBr)[C](F)F smiles:OC(Br)(OBr)[C](F)F H298:-106.15 kcal/mol
-library:CHOFBr_G4 label:OOC(Br)[C](F)F smiles:OOC(Br)[C](F)F H298:-80.23 kcal/mol
-library:CHOFBr_G4 label:COC(Br)[C](F)F smiles:COC(Br)[C](F)F H298:-96.50 kcal/mol
-library:CHOFBr_G4 label:OC(O)(Br)[C](F)F smiles:OC(O)(Br)[C](F)F H298:-145.15 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CBr smiles:F[C](F)CBr H298:-63.22 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CC(F)OBr smiles:F[C](F)CC(F)OBr H298:-128.74 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)CCBr smiles:F[C](F)C(F)CCBr H298:-119.55 kcal/mol
+library:CHOFBr_G4 label:CC([C](F)F)C(F)Br smiles:CC([C](F)F)C(F)Br H298:-122.22 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)C[C](F)F smiles:CC(F)(Br)C[C](F)F H298:-126.26 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(Br)[C](F)F smiles:OC(Br)C(Br)[C](F)F H298:-103.54 kcal/mol
+library:CHOFBr_G4 label:OC(F)(CBr)[C](F)F smiles:OC(F)(CBr)[C](F)F H298:-160.58 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)C(Br)[C](F)F smiles:O=C(Br)C(Br)[C](F)F H298:-87.35 kcal/mol
+library:CHOFBr_G4 label:OOC(F)(Br)[C](F)F smiles:OOC(F)(Br)[C](F)F H298:-128.50 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)C[C](F)F smiles:O=C(Br)C[C](F)F H298:-96.99 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)(Br)CBr smiles:F[C](F)C(Br)(Br)CBr H298:-54.81 kcal/mol
+library:CHOFBr_G4 label:OC(CBr)[C](F)F smiles:OC(CBr)[C](F)F H298:-107.99 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(F)[C](F)F smiles:OC(Br)C(F)[C](F)F H298:-151.46 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)(F)OBr smiles:F[C](F)C(F)(F)OBr H298:-169.65 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CCBr smiles:F[C](F)CCBr H298:-70.16 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)(Br)Br smiles:F[C](F)C(F)(Br)Br H298:-94.66 kcal/mol
+library:CHOFBr_G4 label:F[C](F)COC(F)Br smiles:F[C](F)COC(F)Br H298:-147.97 kcal/mol
+library:CHOFBr_G4 label:F[C](F)COCBr smiles:F[C](F)COCBr H298:-97.14 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CCCBr smiles:F[C](F)CCCBr H298:-76.95 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CCC(Br)Br smiles:F[C](F)CCC(Br)Br H298:-70.47 kcal/mol
+library:CHOFBr_G4 label:CC(O)(Br)[C](F)F smiles:CC(O)(Br)[C](F)F H298:-112.44 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)(Br)OBr smiles:F[C](F)C(F)(Br)OBr H298:-109.72 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(CBr)CBr smiles:F[C](F)C(CBr)CBr H298:-71.93 kcal/mol
+library:CHOFBr_G4 label:CC([C](F)F)C(Br)Br smiles:CC([C](F)F)C(Br)Br H298:-69.79 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CC(F)CBr smiles:F[C](F)CC(F)CBr H298:-122.70 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(OBr)[C](F)F smiles:OC(Br)(OBr)[C](F)F H298:-106.12 kcal/mol
+library:CHOFBr_G4 label:OOC(Br)[C](F)F smiles:OOC(Br)[C](F)F H298:-80.18 kcal/mol
+library:CHOFBr_G4 label:COC(Br)[C](F)F smiles:COC(Br)[C](F)F H298:-96.45 kcal/mol
+library:CHOFBr_G4 label:OC(O)(Br)[C](F)F smiles:OC(O)(Br)[C](F)F H298:-145.10 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CBr smiles:F[C](F)CBr H298:-63.19 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CC(F)OBr smiles:F[C](F)CC(F)OBr H298:-128.79 kcal/mol
 library:CHOFBr_G4 label:F[C](F)C(CBr)OBr smiles:F[C](F)C(CBr)OBr H298:-68.97 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)(Br)CBr smiles:F[C](F)C(F)(Br)CBr H298:-108.03 kcal/mol
-library:CHOFBr_G4 label:OC([C](F)F)C(Br)Br smiles:OC([C](F)F)C(Br)Br H298:-99.14 kcal/mol
-library:CHOFBr_G4 label:CC(F)(OBr)[C](F)F smiles:CC(F)(OBr)[C](F)F H298:-129.64 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(OBr)[C](F)F smiles:CC(Br)(OBr)[C](F)F H298:-72.56 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CCOBr smiles:F[C](F)CCOBr H298:-74.80 kcal/mol
-library:CHOFBr_G4 label:F[C](F)COOBr smiles:F[C](F)COOBr H298:-50.53 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)C[C](F)F smiles:OC(Br)(Br)C[C](F)F H298:-104.36 kcal/mol
-library:CHOFBr_G4 label:F[C](F)COBr smiles:F[C](F)COBr H298:-66.04 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)(F)CBr smiles:F[C](F)C(F)(F)CBr H298:-163.76 kcal/mol
-library:CHOFBr_G4 label:OOC(Br)(Br)[C](F)F smiles:OOC(Br)(Br)[C](F)F H298:-71.59 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)(Br)Br smiles:F[C](F)C(Br)(Br)Br H298:-41.00 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CC(F)Br smiles:F[C](F)CC(F)Br H298:-114.77 kcal/mol
-library:CHOFBr_G4 label:CC(CBr)[C](F)F smiles:CC(CBr)[C](F)F H298:-77.71 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)(Br)OBr smiles:F[C](F)C(Br)(Br)OBr H298:-52.61 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)[C](F)F smiles:CC(Br)(Br)[C](F)F H298:-63.49 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)OOBr smiles:F[C](F)C(F)OOBr H298:-97.83 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)Br smiles:F[C](F)C(F)Br H298:-104.03 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)COBr smiles:F[C](F)C(F)COBr H298:-116.84 kcal/mol
-library:CHOFBr_G4 label:OCC(F)(Br)[C](F)F smiles:OCC(F)(Br)[C](F)F H298:-151.25 kcal/mol
-library:CHOFBr_G4 label:OC(Br)[C](F)F smiles:OC(Br)[C](F)F H298:-100.96 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)OCBr smiles:F[C](F)C(Br)OCBr H298:-93.84 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(Br)CCBr smiles:F[C](F)C(Br)CCBr H298:-72.29 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CC(Br)Br smiles:F[C](F)CC(Br)Br H298:-62.57 kcal/mol
-library:CHOFBr_G4 label:FCC(OBr)[C](F)F smiles:FCC(OBr)[C](F)F H298:-117.05 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)[C](F)F smiles:OC(F)(Br)[C](F)F H298:-150.78 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(OBr)OBr smiles:F[C](F)C(OBr)OBr H298:-71.63 kcal/mol
-library:CHOFBr_G4 label:CCC(F)(Br)[C](F)F smiles:CCC(F)(Br)[C](F)F H298:-122.14 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(CBr)[C](F)F smiles:OC(Br)(CBr)[C](F)F H298:-104.42 kcal/mol
-library:CHOFBr_G4 label:OCC(Br)(Br)[C](F)F smiles:OCC(Br)(Br)[C](F)F H298:-99.38 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)[C](F)F smiles:OC(Br)(Br)[C](F)F H298:-92.64 kcal/mol
-library:CHOFBr_G4 label:F[C](F)COC(Br)Br smiles:F[C](F)COC(Br)Br H298:-91.30 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)(Br)CBr smiles:F[C](F)C(F)(Br)CBr H298:-107.97 kcal/mol
+library:CHOFBr_G4 label:OC([C](F)F)C(Br)Br smiles:OC([C](F)F)C(Br)Br H298:-99.08 kcal/mol
+library:CHOFBr_G4 label:CC(F)(OBr)[C](F)F smiles:CC(F)(OBr)[C](F)F H298:-129.66 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(OBr)[C](F)F smiles:CC(Br)(OBr)[C](F)F H298:-72.54 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CCOBr smiles:F[C](F)CCOBr H298:-74.82 kcal/mol
+library:CHOFBr_G4 label:F[C](F)COOBr smiles:F[C](F)COOBr H298:-50.55 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)C[C](F)F smiles:OC(Br)(Br)C[C](F)F H298:-104.30 kcal/mol
+library:CHOFBr_G4 label:F[C](F)COBr smiles:F[C](F)COBr H298:-66.06 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)(F)CBr smiles:F[C](F)C(F)(F)CBr H298:-163.74 kcal/mol
+library:CHOFBr_G4 label:OOC(Br)(Br)[C](F)F smiles:OOC(Br)(Br)[C](F)F H298:-71.53 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)(Br)Br smiles:F[C](F)C(Br)(Br)Br H298:-40.94 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CC(F)Br smiles:F[C](F)CC(F)Br H298:-114.74 kcal/mol
+library:CHOFBr_G4 label:CC(CBr)[C](F)F smiles:CC(CBr)[C](F)F H298:-77.69 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)(Br)OBr smiles:F[C](F)C(Br)(Br)OBr H298:-52.58 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)[C](F)F smiles:CC(Br)(Br)[C](F)F H298:-63.43 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)OOBr smiles:F[C](F)C(F)OOBr H298:-97.85 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)Br smiles:F[C](F)C(F)Br H298:-103.99 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)COBr smiles:F[C](F)C(F)COBr H298:-116.87 kcal/mol
+library:CHOFBr_G4 label:OCC(F)(Br)[C](F)F smiles:OCC(F)(Br)[C](F)F H298:-151.22 kcal/mol
+library:CHOFBr_G4 label:OC(Br)[C](F)F smiles:OC(Br)[C](F)F H298:-100.91 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)OCBr smiles:F[C](F)C(Br)OCBr H298:-93.80 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(Br)CCBr smiles:F[C](F)C(Br)CCBr H298:-72.23 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CC(Br)Br smiles:F[C](F)CC(Br)Br H298:-62.53 kcal/mol
+library:CHOFBr_G4 label:FCC(OBr)[C](F)F smiles:FCC(OBr)[C](F)F H298:-117.07 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)[C](F)F smiles:OC(F)(Br)[C](F)F H298:-150.76 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(OBr)OBr smiles:F[C](F)C(OBr)OBr H298:-71.66 kcal/mol
+library:CHOFBr_G4 label:CCC(F)(Br)[C](F)F smiles:CCC(F)(Br)[C](F)F H298:-122.10 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(CBr)[C](F)F smiles:OC(Br)(CBr)[C](F)F H298:-104.36 kcal/mol
+library:CHOFBr_G4 label:OCC(Br)(Br)[C](F)F smiles:OCC(Br)(Br)[C](F)F H298:-99.34 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)[C](F)F smiles:OC(Br)(Br)[C](F)F H298:-92.58 kcal/mol
+library:CHOFBr_G4 label:F[C](F)COC(Br)Br smiles:F[C](F)COC(Br)Br H298:-91.27 kcal/mol
 library:CHOFBr_G4 label:F[C](F)CC(Br)OBr smiles:F[C](F)CC(Br)OBr H298:-72.64 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C[C](F)F smiles:CC(Br)C[C](F)F H298:-78.92 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)C(Br)Br smiles:F[C](F)C(F)C(Br)Br H298:-103.90 kcal/mol
-library:CHOFBr_G4 label:OC(F)(OBr)[C](F)F smiles:OC(F)(OBr)[C](F)F H298:-164.55 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)CBr smiles:F[C](F)C(F)CBr H298:-113.21 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)C(F)Br smiles:F[C](F)C(F)C(F)Br H298:-155.11 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CC(Br)(Br)Br smiles:F[C](F)CC(Br)(Br)Br H298:-51.60 kcal/mol
-library:CHOFBr_G4 label:F[C](F)CC(F)(Br)Br smiles:F[C](F)CC(F)(Br)Br H298:-106.66 kcal/mol
-library:CHOFBr_G4 label:F[C](F)C(F)(F)Br smiles:F[C](F)C(F)(F)Br H298:-153.76 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)C(F)[C](F)F smiles:O=C(Br)C(F)[C](F)F H298:-135.19 kcal/mol
-library:CHOFBr_G4 label:OC(OBr)[C](F)F smiles:OC(OBr)[C](F)F H298:-110.31 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C[C](F)F smiles:CC(Br)C[C](F)F H298:-78.88 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)C(Br)Br smiles:F[C](F)C(F)C(Br)Br H298:-103.86 kcal/mol
+library:CHOFBr_G4 label:OC(F)(OBr)[C](F)F smiles:OC(F)(OBr)[C](F)F H298:-164.56 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)CBr smiles:F[C](F)C(F)CBr H298:-113.18 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)C(F)Br smiles:F[C](F)C(F)C(F)Br H298:-155.09 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CC(Br)(Br)Br smiles:F[C](F)CC(Br)(Br)Br H298:-51.52 kcal/mol
+library:CHOFBr_G4 label:F[C](F)CC(F)(Br)Br smiles:F[C](F)CC(F)(Br)Br H298:-106.61 kcal/mol
+library:CHOFBr_G4 label:F[C](F)C(F)(F)Br smiles:F[C](F)C(F)(F)Br H298:-153.73 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)C(F)[C](F)F smiles:O=C(Br)C(F)[C](F)F H298:-135.17 kcal/mol
+library:CHOFBr_G4 label:OC(OBr)[C](F)F smiles:OC(OBr)[C](F)F H298:-110.32 kcal/mol
 """,
 )
 
@@ -3384,92 +3442,92 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.133567,-1.16766,-1.99677,-2.662,-3.61533,-4.22481,-5.00004],'cal/(mol*K)','+|-',[0.111917,0.11491,0.107742,0.100634,0.0888115,0.0777166,0.0569213]),
-        H298 = (97.5558,'kcal/mol','+|-',0.178786),
-        S298 = (3.7069,'cal/(mol*K)','+|-',0.30384),
+        Cpdata = ([-0.0860589,-1.12834,-1.96863,-2.64147,-3.60194,-4.21276,-4.99222],'cal/(mol*K)','+|-',[0.113937,0.116592,0.109207,0.101948,0.0899025,0.07869,0.0588441]),
+        H298 = (97.5213,'kcal/mol','+|-',0.177441),
+        S298 = (3.87558,'cal/(mol*K)','+|-',0.267022),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
 library:CHOBr_G4 label:COC[CH]Br smiles:COC[CH]Br H298:0.08 kcal/mol
-library:CHOBr_G4 label:Br[CH]CCDCBr smiles:Br[CH]CC=CBr H298:54.42 kcal/mol
-library:CHOBr_G4 label:CC([CH]Br)OBr smiles:CC([CH]Br)OBr H298:21.83 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)OOBr smiles:Br[CH]C(Br)OOBr H298:52.45 kcal/mol
-library:CHOBr_G4 label:OC(Br)C[CH]Br smiles:OC(Br)C[CH]Br H298:-10.66 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)COBr smiles:Br[CH]C(Br)COBr H298:27.92 kcal/mol
-library:CHOBr_G4 label:Br[CH]COOBr smiles:Br[CH]COOBr H298:47.60 kcal/mol
-library:CHOBr_G4 label:C[CH]Br smiles:C[CH]Br H298:30.64 kcal/mol
-library:CHOBr_G4 label:Br[CH]CCOBr smiles:Br[CH]CCOBr H298:25.61 kcal/mol
-library:CHOBr_G4 label:CC(Br)(Br)C[CH]Br smiles:CC(Br)(Br)C[CH]Br H298:26.42 kcal/mol
+library:CHOBr_G4 label:Br[CH]CCDCBr smiles:Br[CH]CC=CBr H298:54.40 kcal/mol
+library:CHOBr_G4 label:CC([CH]Br)OBr smiles:CC([CH]Br)OBr H298:21.80 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)OOBr smiles:Br[CH]C(Br)OOBr H298:52.40 kcal/mol
+library:CHOBr_G4 label:OC(Br)C[CH]Br smiles:OC(Br)C[CH]Br H298:-10.63 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)COBr smiles:Br[CH]C(Br)COBr H298:27.90 kcal/mol
+library:CHOBr_G4 label:Br[CH]COOBr smiles:Br[CH]COOBr H298:47.54 kcal/mol
+library:CHOBr_G4 label:C[CH]Br smiles:C[CH]Br H298:30.65 kcal/mol
+library:CHOBr_G4 label:Br[CH]CCOBr smiles:Br[CH]CCOBr H298:25.56 kcal/mol
+library:CHOBr_G4 label:CC(Br)(Br)C[CH]Br smiles:CC(Br)(Br)C[CH]Br H298:26.45 kcal/mol
 library:CHOBr_G4 label:Br[CH]C(CBr)CBr smiles:Br[CH]C(CBr)CBr H298:27.15 kcal/mol
-library:CHOBr_G4 label:Br[CH]COBr smiles:Br[CH]COBr H298:32.14 kcal/mol
-library:CHOBr_G4 label:Br[CH]CCC(Br)Br smiles:Br[CH]CCC(Br)Br H298:29.72 kcal/mol
-library:CHOBr_G4 label:CC(Br)(Br)[CH]Br smiles:CC(Br)(Br)[CH]Br H298:33.14 kcal/mol
-library:CHOBr_G4 label:Br[CH]CC(Br)Br smiles:Br[CH]CC(Br)Br H298:36.34 kcal/mol
-library:CHOBr_G4 label:OOC[CH]Br smiles:OOC[CH]Br H298:13.77 kcal/mol
-library:CHOBr_G4 label:COC(Br)(Br)[CH]Br smiles:COC(Br)(Br)[CH]Br H298:4.80 kcal/mol
-library:CHOBr_G4 label:CC[CH]Br smiles:CC[CH]Br H298:25.37 kcal/mol
-library:CHOBr_G4 label:CDC(Br)C[CH]Br smiles:C=C(Br)C[CH]Br H298:52.37 kcal/mol
-library:CHOBr_G4 label:ODCC(Br)[CH]Br smiles:O=CC(Br)[CH]Br H298:11.74 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)(Br)OBr smiles:Br[CH]C(Br)(Br)OBr H298:41.64 kcal/mol
-library:CHOBr_G4 label:OC([CH]Br)CBr smiles:OC([CH]Br)CBr H298:-8.21 kcal/mol
-library:CHOBr_G4 label:C#CC(Br)[CH]Br smiles:C#CC(Br)[CH]Br H298:97.63 kcal/mol
-library:CHOBr_G4 label:CC(O)[CH]Br smiles:CC(O)[CH]Br H298:-14.06 kcal/mol
-library:CHOBr_G4 label:CCC(Br)[CH]Br smiles:CCC(Br)[CH]Br H298:21.17 kcal/mol
-library:CHOBr_G4 label:C#CC[CH]Br smiles:C#CC[CH]Br H298:91.96 kcal/mol
-library:CHOBr_G4 label:CC(C)(Br)[CH]Br smiles:CC(C)(Br)[CH]Br H298:17.99 kcal/mol
-library:CHOBr_G4 label:Br[CH]CBr smiles:Br[CH]CBr H298:35.29 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)CBr smiles:Br[CH]C(Br)CBr H298:32.27 kcal/mol
-library:CHOBr_G4 label:Br[CH]CC(Br)CBr smiles:Br[CH]CC(Br)CBr H298:26.33 kcal/mol
-library:CHOBr_G4 label:Br[CH]CC(Br)(Br)Br smiles:Br[CH]CC(Br)(Br)Br H298:45.81 kcal/mol
+library:CHOBr_G4 label:Br[CH]COBr smiles:Br[CH]COBr H298:32.11 kcal/mol
+library:CHOBr_G4 label:Br[CH]CCC(Br)Br smiles:Br[CH]CCC(Br)Br H298:29.74 kcal/mol
+library:CHOBr_G4 label:CC(Br)(Br)[CH]Br smiles:CC(Br)(Br)[CH]Br H298:33.18 kcal/mol
+library:CHOBr_G4 label:Br[CH]CC(Br)Br smiles:Br[CH]CC(Br)Br H298:36.37 kcal/mol
+library:CHOBr_G4 label:OOC[CH]Br smiles:OOC[CH]Br H298:13.76 kcal/mol
+library:CHOBr_G4 label:COC(Br)(Br)[CH]Br smiles:COC(Br)(Br)[CH]Br H298:4.84 kcal/mol
+library:CHOBr_G4 label:CC[CH]Br smiles:CC[CH]Br H298:25.38 kcal/mol
+library:CHOBr_G4 label:CDC(Br)C[CH]Br smiles:C=C(Br)C[CH]Br H298:52.38 kcal/mol
+library:CHOBr_G4 label:ODCC(Br)[CH]Br smiles:O=CC(Br)[CH]Br H298:11.77 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)(Br)OBr smiles:Br[CH]C(Br)(Br)OBr H298:41.67 kcal/mol
+library:CHOBr_G4 label:OC([CH]Br)CBr smiles:OC([CH]Br)CBr H298:-8.19 kcal/mol
+library:CHOBr_G4 label:C#CC(Br)[CH]Br smiles:C#CC(Br)[CH]Br H298:97.62 kcal/mol
+library:CHOBr_G4 label:CC(O)[CH]Br smiles:CC(O)[CH]Br H298:-14.07 kcal/mol
+library:CHOBr_G4 label:CCC(Br)[CH]Br smiles:CCC(Br)[CH]Br H298:21.19 kcal/mol
+library:CHOBr_G4 label:C#CC[CH]Br smiles:C#CC[CH]Br H298:91.92 kcal/mol
+library:CHOBr_G4 label:CC(C)(Br)[CH]Br smiles:CC(C)(Br)[CH]Br H298:18.04 kcal/mol
+library:CHOBr_G4 label:Br[CH]CBr smiles:Br[CH]CBr H298:35.31 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)CBr smiles:Br[CH]C(Br)CBr H298:32.33 kcal/mol
+library:CHOBr_G4 label:Br[CH]CC(Br)CBr smiles:Br[CH]CC(Br)CBr H298:26.40 kcal/mol
+library:CHOBr_G4 label:Br[CH]CC(Br)(Br)Br smiles:Br[CH]CC(Br)(Br)Br H298:45.87 kcal/mol
 library:CHOBr_G4 label:OC[CH]Br smiles:OC[CH]Br H298:-4.09 kcal/mol
-library:CHOBr_G4 label:CC(Br)[CH]Br smiles:CC(Br)[CH]Br H298:26.99 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)(Br)Br smiles:Br[CH]C(Br)(Br)Br H298:54.10 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(OBr)OBr smiles:Br[CH]C(OBr)OBr H298:24.14 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)C(Br)Br smiles:Br[CH]C(Br)C(Br)Br H298:40.44 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)OBr smiles:Br[CH]C(Br)OBr H298:35.25 kcal/mol
+library:CHOBr_G4 label:CC(Br)[CH]Br smiles:CC(Br)[CH]Br H298:27.02 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)(Br)Br smiles:Br[CH]C(Br)(Br)Br H298:54.12 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(OBr)OBr smiles:Br[CH]C(OBr)OBr H298:24.08 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)C(Br)Br smiles:Br[CH]C(Br)C(Br)Br H298:40.49 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)OBr smiles:Br[CH]C(Br)OBr H298:35.22 kcal/mol
 library:CHOBr_G4 label:OCC[CH]Br smiles:OCC[CH]Br H298:-10.76 kcal/mol
-library:CHOBr_G4 label:Br[CH]COC(Br)Br smiles:Br[CH]COC(Br)Br H298:7.79 kcal/mol
-library:CHOBr_G4 label:Br[CH]CC(Br)OBr smiles:Br[CH]CC(Br)OBr H298:26.60 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)Br smiles:Br[CH]C(Br)Br H298:43.28 kcal/mol
-library:CHOBr_G4 label:CC(Br)([CH]Br)OBr smiles:CC(Br)([CH]Br)OBr H298:24.94 kcal/mol
+library:CHOBr_G4 label:Br[CH]COC(Br)Br smiles:Br[CH]COC(Br)Br H298:7.75 kcal/mol
+library:CHOBr_G4 label:Br[CH]CC(Br)OBr smiles:Br[CH]CC(Br)OBr H298:26.58 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)Br smiles:Br[CH]C(Br)Br H298:43.29 kcal/mol
+library:CHOBr_G4 label:CC(Br)([CH]Br)OBr smiles:CC(Br)([CH]Br)OBr H298:24.95 kcal/mol
 library:CHOBr_G4 label:CCC[CH]Br smiles:CCC[CH]Br H298:19.81 kcal/mol
-library:CHOBr_G4 label:ODCC[CH]Br smiles:O=CC[CH]Br H298:7.13 kcal/mol
-library:CHOBr_G4 label:CC(Br)C[CH]Br smiles:CC(Br)C[CH]Br H298:22.04 kcal/mol
-library:CHOBr_G4 label:OC([CH]Br)OBr smiles:OC([CH]Br)OBr H298:-13.62 kcal/mol
-library:CHOBr_G4 label:CCC(Br)(Br)[CH]Br smiles:CCC(Br)(Br)[CH]Br H298:26.87 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)(Br)CBr smiles:Br[CH]C(Br)(Br)CBr H298:39.79 kcal/mol
-library:CHOBr_G4 label:ODC(Br)C[CH]Br smiles:O=C(Br)C[CH]Br H298:1.84 kcal/mol
-library:CHOBr_G4 label:OC(Br)(Br)[CH]Br smiles:OC(Br)(Br)[CH]Br H298:2.66 kcal/mol
-library:CHOBr_G4 label:CC([CH]Br)C(Br)Br smiles:CC([CH]Br)C(Br)Br H298:29.50 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(CBr)OBr smiles:Br[CH]C(CBr)OBr H298:28.43 kcal/mol
-library:CHOBr_G4 label:BrC#CC[CH]Br smiles:BrC#CC[CH]Br H298:102.28 kcal/mol
-library:CHOBr_G4 label:Br[CH]CCBr smiles:Br[CH]CCBr H298:30.25 kcal/mol
-library:CHOBr_G4 label:OC(O)[CH]Br smiles:OC(O)[CH]Br H298:-50.78 kcal/mol
+library:CHOBr_G4 label:ODCC[CH]Br smiles:O=CC[CH]Br H298:7.11 kcal/mol
+library:CHOBr_G4 label:CC(Br)C[CH]Br smiles:CC(Br)C[CH]Br H298:22.03 kcal/mol
+library:CHOBr_G4 label:OC([CH]Br)OBr smiles:OC([CH]Br)OBr H298:-13.67 kcal/mol
+library:CHOBr_G4 label:CCC(Br)(Br)[CH]Br smiles:CCC(Br)(Br)[CH]Br H298:26.91 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)(Br)CBr smiles:Br[CH]C(Br)(Br)CBr H298:39.86 kcal/mol
+library:CHOBr_G4 label:ODC(Br)C[CH]Br smiles:O=C(Br)C[CH]Br H298:1.83 kcal/mol
+library:CHOBr_G4 label:OC(Br)(Br)[CH]Br smiles:OC(Br)(Br)[CH]Br H298:2.68 kcal/mol
+library:CHOBr_G4 label:CC([CH]Br)C(Br)Br smiles:CC([CH]Br)C(Br)Br H298:29.55 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(CBr)OBr smiles:Br[CH]C(CBr)OBr H298:28.40 kcal/mol
+library:CHOBr_G4 label:BrC#CC[CH]Br smiles:BrC#CC[CH]Br H298:102.23 kcal/mol
+library:CHOBr_G4 label:Br[CH]CCBr smiles:Br[CH]CCBr H298:30.27 kcal/mol
+library:CHOBr_G4 label:OC(O)[CH]Br smiles:OC(O)[CH]Br H298:-50.79 kcal/mol
 library:CHOBr_G4 label:Br[CH]CCCBr smiles:Br[CH]CCCBr H298:24.26 kcal/mol
-library:CHOBr_G4 label:CDCC[CH]Br smiles:C=CC[CH]Br H298:50.65 kcal/mol
-library:CHOBr_G4 label:CC(Br)C(Br)[CH]Br smiles:CC(Br)C(Br)[CH]Br H298:24.02 kcal/mol
-library:CHOBr_G4 label:Br[CH]COCBr smiles:Br[CH]COCBr H298:1.44 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)CCBr smiles:Br[CH]C(Br)CCBr H298:25.17 kcal/mol
-library:CHOBr_G4 label:CC([CH]Br)CBr smiles:CC([CH]Br)CBr H298:22.83 kcal/mol
-library:CHOBr_G4 label:Br[CH]C(Br)OCBr smiles:Br[CH]C(Br)OCBr H298:2.65 kcal/mol
-library:CHOBr_G4 label:OCC(Br)[CH]Br smiles:OCC(Br)[CH]Br H298:-9.75 kcal/mol
-library:CHOBr_G4 label:CC(C)[CH]Br smiles:CC(C)[CH]Br H298:18.19 kcal/mol
-library:CHOFClBr_G4 label:FC#CC(Cl)[CH]Br smiles:FC#CC(Cl)[CH]Br H298:58.97 kcal/mol
-library:CHOFClBr_G4 label:C#CC(F)(Cl)[CH]Br smiles:C#CC(F)(Cl)[CH]Br H298:44.13 kcal/mol
+library:CHOBr_G4 label:CDCC[CH]Br smiles:C=CC[CH]Br H298:50.66 kcal/mol
+library:CHOBr_G4 label:CC(Br)C(Br)[CH]Br smiles:CC(Br)C(Br)[CH]Br H298:24.08 kcal/mol
+library:CHOBr_G4 label:Br[CH]COCBr smiles:Br[CH]COCBr H298:1.42 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)CCBr smiles:Br[CH]C(Br)CCBr H298:25.23 kcal/mol
+library:CHOBr_G4 label:CC([CH]Br)CBr smiles:CC([CH]Br)CBr H298:22.87 kcal/mol
+library:CHOBr_G4 label:Br[CH]C(Br)OCBr smiles:Br[CH]C(Br)OCBr H298:2.66 kcal/mol
+library:CHOBr_G4 label:OCC(Br)[CH]Br smiles:OCC(Br)[CH]Br H298:-9.74 kcal/mol
+library:CHOBr_G4 label:CC(C)[CH]Br smiles:CC(C)[CH]Br H298:18.20 kcal/mol
+library:CHOFClBr_G4 label:FC#CC(Cl)[CH]Br smiles:FC#CC(Cl)[CH]Br H298:58.94 kcal/mol
+library:CHOFClBr_G4 label:C#CC(F)(Cl)[CH]Br smiles:C#CC(F)(Cl)[CH]Br H298:44.10 kcal/mol
 library:CHOFBr_G4 label:FC#CC[CH]Br smiles:FC#CC[CH]Br H298:63.48 kcal/mol
-library:CHOFBr_G4 label:C#CC(F)[CH]Br smiles:C#CC(F)[CH]Br H298:49.33 kcal/mol
-library:CHOFBr_G4 label:FC#CC(F)[CH]Br smiles:FC#CC(F)[CH]Br H298:20.51 kcal/mol
-library:CHOFBr_G4 label:C#CC(F)(F)[CH]Br smiles:C#CC(F)(F)[CH]Br H298:-1.25 kcal/mol
-library:CHOFBr_G4 label:C#CC(F)(Br)[CH]Br smiles:C#CC(F)(Br)[CH]Br H298:55.95 kcal/mol
-library:CHOFBr_G4 label:FC#CC(F)(F)[CH]Br smiles:FC#CC(F)(F)[CH]Br H298:-30.39 kcal/mol
-library:CHOFBr_G4 label:FC#CC(Br)(Br)[CH]Br smiles:FC#CC(Br)(Br)[CH]Br H298:78.11 kcal/mol
-library:CHOFBr_G4 label:FC#CC(F)(Br)[CH]Br smiles:FC#CC(F)(Br)[CH]Br H298:27.70 kcal/mol
+library:CHOFBr_G4 label:C#CC(F)[CH]Br smiles:C#CC(F)[CH]Br H298:49.30 kcal/mol
+library:CHOFBr_G4 label:FC#CC(F)[CH]Br smiles:FC#CC(F)[CH]Br H298:20.48 kcal/mol
+library:CHOFBr_G4 label:C#CC(F)(F)[CH]Br smiles:C#CC(F)(F)[CH]Br H298:-1.30 kcal/mol
+library:CHOFBr_G4 label:C#CC(F)(Br)[CH]Br smiles:C#CC(F)(Br)[CH]Br H298:55.92 kcal/mol
+library:CHOFBr_G4 label:FC#CC(F)(F)[CH]Br smiles:FC#CC(F)(F)[CH]Br H298:-30.44 kcal/mol
+library:CHOFBr_G4 label:FC#CC(Br)(Br)[CH]Br smiles:FC#CC(Br)(Br)[CH]Br H298:78.15 kcal/mol
+library:CHOFBr_G4 label:FC#CC(F)(Br)[CH]Br smiles:FC#CC(F)(Br)[CH]Br H298:27.69 kcal/mol
 library:CHOClBr_G4 label:ClC#CC[CH]Br smiles:ClC#CC[CH]Br H298:91.24 kcal/mol
 library:CHOClBr_G4 label:C#CC(Cl)(Br)[CH]Br smiles:C#CC(Cl)(Br)[CH]Br H298:95.84 kcal/mol
-library:CHOClBr_G4 label:C#CC(Cl)(Cl)[CH]Br smiles:C#CC(Cl)(Cl)[CH]Br H298:85.09 kcal/mol
-library:CHOClBr_G4 label:C#CC(Cl)[CH]Br smiles:C#CC(Cl)[CH]Br H298:87.43 kcal/mol
+library:CHOClBr_G4 label:C#CC(Cl)(Cl)[CH]Br smiles:C#CC(Cl)(Cl)[CH]Br H298:85.05 kcal/mol
+library:CHOClBr_G4 label:C#CC(Cl)[CH]Br smiles:C#CC(Cl)[CH]Br H298:87.39 kcal/mol
 """,
 )
 
@@ -3485,9 +3543,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.197528,-0.86367,-1.76193,-2.47312,-3.48282,-4.13051,-4.95992],'cal/(mol*K)','+|-',[0.0620192,0.0636779,0.0597058,0.0557667,0.0492152,0.043067,0.0315432]),
-        H298 = (95.973,'kcal/mol','+|-',0.0990751),
-        S298 = (3.6424,'cal/(mol*K)','+|-',0.168374),
+        Cpdata = ([0.196281,-0.860331,-1.75784,-2.46694,-3.47216,-4.11959,-4.95488],'cal/(mol*K)','+|-',[0.062769,0.0642319,0.060163,0.056164,0.0495282,0.0433511,0.0324178]),
+        H298 = (95.9727,'kcal/mol','+|-',0.0977541),
+        S298 = (3.64388,'cal/(mol*K)','+|-',0.147105),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -3652,101 +3710,104 @@ library:CHOFCl_G4 label:FC#CC(F)[CH]Cl smiles:FC#CC(F)[CH]Cl H298:8.27 kcal/mol
 library:CHOFCl_G4 label:FC#CC(Cl)[CH]Cl smiles:FC#CC(Cl)[CH]Cl H298:46.86 kcal/mol
 library:CHOFCl_G4 label:C#CC(F)[CH]Cl smiles:C#CC(F)[CH]Cl H298:37.12 kcal/mol
 library:CHOFCl_G4 label:FC#CC[CH]Cl smiles:FC#CC[CH]Cl H298:51.25 kcal/mol
-library:CHOClBr_G4 label:ODCC(Cl)(Br)[CH]Cl smiles:O=CC(Cl)(Br)[CH]Cl H298:-4.37 kcal/mol
-library:CHOClBr_G4 label:OCC(Br)[CH]Cl smiles:OCC(Br)[CH]Cl H298:-21.36 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)OOBr smiles:Cl[CH]C(Cl)OOBr H298:28.98 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)(Br)OBr smiles:Cl[CH]C(Br)(Br)OBr H298:30.11 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)COBr smiles:Cl[CH]C(Cl)COBr H298:6.06 kcal/mol
-library:CHOClBr_G4 label:CC(Br)C(Br)[CH]Cl smiles:CC(Br)C(Br)[CH]Cl H298:12.12 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CC(Br)CBr smiles:Cl[CH]CC(Br)CBr H298:14.40 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)([CH]Cl)OBr smiles:CC(Cl)([CH]Cl)OBr H298:1.31 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)(Cl)CBr smiles:Cl[CH]C(Cl)(Cl)CBr H298:5.89 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)C(Br)Br smiles:Cl[CH]C(Cl)C(Br)Br H298:18.58 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)OBr smiles:Cl[CH]C(Cl)OBr H298:11.63 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(CCl)CBr smiles:Cl[CH]C(CCl)CBr H298:5.52 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)(Br)Br smiles:Cl[CH]C(Br)(Br)Br H298:42.05 kcal/mol
-library:CHOClBr_G4 label:CC([CH]Cl)C(Cl)Br smiles:CC([CH]Cl)C(Cl)Br H298:6.04 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)(Br)C[CH]Cl smiles:CC(Cl)(Br)C[CH]Cl H298:2.58 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)Br smiles:Cl[CH]C(Cl)Br H298:20.34 kcal/mol
-library:CHOClBr_G4 label:OC(Br)(Br)[CH]Cl smiles:OC(Br)(Br)[CH]Cl H298:-9.15 kcal/mol
-library:CHOClBr_G4 label:OC([CH]Cl)CBr smiles:OC([CH]Cl)CBr H298:-20.41 kcal/mol
-library:CHOClBr_G4 label:ODC(Br)C[CH]Cl smiles:O=C(Br)C[CH]Cl H298:-10.46 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)(Br)[CH]Cl smiles:CC(Cl)(Br)[CH]Cl H298:9.95 kcal/mol
-library:CHOClBr_G4 label:COC(Cl)(Br)[CH]Cl smiles:COC(Cl)(Br)[CH]Cl H298:-18.16 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CCCBr smiles:Cl[CH]CCCBr H298:11.81 kcal/mol
-library:CHOClBr_G4 label:OC([CH]Cl)C(Br)Br smiles:OC([CH]Cl)C(Br)Br H298:-13.37 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]COCBr smiles:Cl[CH]COCBr H298:-10.64 kcal/mol
-library:CHOClBr_G4 label:CCC(Br)(Br)[CH]Cl smiles:CCC(Br)(Br)[CH]Cl H298:15.10 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CCC(Cl)Br smiles:Cl[CH]CCC(Cl)Br H298:6.48 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)C(Cl)Br smiles:Cl[CH]C(Cl)C(Cl)Br H298:7.39 kcal/mol
-library:CHOClBr_G4 label:CC(Br)C[CH]Cl smiles:CC(Br)C[CH]Cl H298:9.21 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CCBr smiles:Cl[CH]CCBr H298:17.92 kcal/mol
-library:CHOClBr_G4 label:OCC(Br)(Br)[CH]Cl smiles:OCC(Br)(Br)[CH]Cl H298:-15.53 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CC(Br)(Br)Br smiles:Cl[CH]CC(Br)(Br)Br H298:33.78 kcal/mol
-library:CHOClBr_G4 label:CC([CH]Cl)C(Br)Br smiles:CC([CH]Cl)C(Br)Br H298:17.64 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)Br smiles:Cl[CH]C(Br)Br H298:31.39 kcal/mol
-library:CHOClBr_G4 label:OOC(Br)[CH]Cl smiles:OOC(Br)[CH]Cl H298:4.29 kcal/mol
-library:CHOClBr_G4 label:OC(Cl)(Br)C[CH]Cl smiles:OC(Cl)(Br)C[CH]Cl H298:-30.35 kcal/mol
-library:CHOClBr_G4 label:OC([CH]Cl)C(Cl)Br smiles:OC([CH]Cl)C(Cl)Br H298:-25.41 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CCC(Br)Br smiles:Cl[CH]CCC(Br)Br H298:17.96 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)OBr smiles:Cl[CH]C(Br)OBr H298:23.34 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(CBr)CBr smiles:Cl[CH]C(CBr)CBr H298:15.14 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CC(Cl)CBr smiles:Cl[CH]CC(Cl)CBr H298:3.97 kcal/mol
-library:CHOClBr_G4 label:OC(Cl)([CH]Cl)OBr smiles:OC(Cl)([CH]Cl)OBr H298:-34.58 kcal/mol
-library:CHOClBr_G4 label:OC(Br)C(Br)[CH]Cl smiles:OC(Br)C(Br)[CH]Cl H298:-19.97 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)(Br)CBr smiles:Cl[CH]C(Cl)(Br)CBr H298:16.70 kcal/mol
+library:CHOClBr_G4 label:ODCC(Cl)(Br)[CH]Cl smiles:O=CC(Cl)(Br)[CH]Cl H298:-4.32 kcal/mol
+library:CHOClBr_G4 label:OCC(Br)[CH]Cl smiles:OCC(Br)[CH]Cl H298:-21.32 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)OOBr smiles:Cl[CH]C(Cl)OOBr H298:28.96 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)(Br)OBr smiles:Cl[CH]C(Br)(Br)OBr H298:30.14 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)COBr smiles:Cl[CH]C(Cl)COBr H298:6.03 kcal/mol
+library:CHOClBr_G4 label:CC(Br)C(Br)[CH]Cl smiles:CC(Br)C(Br)[CH]Cl H298:12.20 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CC(Br)CBr smiles:Cl[CH]CC(Br)CBr H298:14.47 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)([CH]Cl)OBr smiles:CC(Cl)([CH]Cl)OBr H298:1.30 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)(Cl)CBr smiles:Cl[CH]C(Cl)(Cl)CBr H298:5.91 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)C(Br)Br smiles:Cl[CH]C(Cl)C(Br)Br H298:18.62 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)OBr smiles:Cl[CH]C(Cl)OBr H298:11.62 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(CCl)CBr smiles:Cl[CH]C(CCl)CBr H298:5.55 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)(Br)Br smiles:Cl[CH]C(Br)(Br)Br H298:42.09 kcal/mol
+library:CHOClBr_G4 label:CC([CH]Cl)C(Cl)Br smiles:CC([CH]Cl)C(Cl)Br H298:6.08 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)(Br)C[CH]Cl smiles:CC(Cl)(Br)C[CH]Cl H298:2.62 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)Br smiles:Cl[CH]C(Cl)Br H298:20.37 kcal/mol
+library:CHOClBr_G4 label:OC(Br)(Br)[CH]Cl smiles:OC(Br)(Br)[CH]Cl H298:-9.09 kcal/mol
+library:CHOClBr_G4 label:OC([CH]Cl)CBr smiles:OC([CH]Cl)CBr H298:-20.38 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)C[CH]Cl smiles:O=C(Br)C[CH]Cl H298:-10.45 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)(Br)[CH]Cl smiles:CC(Cl)(Br)[CH]Cl H298:9.99 kcal/mol
+library:CHOClBr_G4 label:COC(Cl)(Br)[CH]Cl smiles:COC(Cl)(Br)[CH]Cl H298:-18.12 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CCCBr smiles:Cl[CH]CCCBr H298:11.83 kcal/mol
+library:CHOClBr_G4 label:OC([CH]Cl)C(Br)Br smiles:OC([CH]Cl)C(Br)Br H298:-13.31 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]COCBr smiles:Cl[CH]COCBr H298:-10.61 kcal/mol
+library:CHOClBr_G4 label:CCC(Br)(Br)[CH]Cl smiles:CCC(Br)(Br)[CH]Cl H298:15.15 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CCC(Cl)Br smiles:Cl[CH]CCC(Cl)Br H298:6.50 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)C(Cl)Br smiles:Cl[CH]C(Cl)C(Cl)Br H298:7.40 kcal/mol
+library:CHOClBr_G4 label:CC(Br)C[CH]Cl smiles:CC(Br)C[CH]Cl H298:9.26 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CCBr smiles:Cl[CH]CCBr H298:17.94 kcal/mol
+library:CHOClBr_G4 label:OCC(Br)(Br)[CH]Cl smiles:OCC(Br)(Br)[CH]Cl H298:-15.48 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CC(Br)(Br)Br smiles:Cl[CH]CC(Br)(Br)Br H298:33.84 kcal/mol
+library:CHOClBr_G4 label:CC([CH]Cl)C(Br)Br smiles:CC([CH]Cl)C(Br)Br H298:17.70 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)Br smiles:Cl[CH]C(Br)Br H298:31.43 kcal/mol
+library:CHOClBr_G4 label:OOC(Cl)(Br)[CH]Cl smiles:OOC(Cl)(Br)[CH]Cl H298:0.06 kcal/mol
+library:CHOClBr_G4 label:OOC(Br)[CH]Cl smiles:OOC(Br)[CH]Cl H298:4.33 kcal/mol
+library:CHOClBr_G4 label:OC(Cl)(Br)C[CH]Cl smiles:OC(Cl)(Br)C[CH]Cl H298:-30.33 kcal/mol
+library:CHOClBr_G4 label:OC([CH]Cl)C(Cl)Br smiles:OC([CH]Cl)C(Cl)Br H298:-25.37 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CCC(Br)Br smiles:Cl[CH]CCC(Br)Br H298:18.00 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)OBr smiles:Cl[CH]C(Br)OBr H298:23.37 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(CBr)CBr smiles:Cl[CH]C(CBr)CBr H298:15.17 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CC(Cl)CBr smiles:Cl[CH]CC(Cl)CBr H298:4.00 kcal/mol
+library:CHOClBr_G4 label:OC(Cl)([CH]Cl)OBr smiles:OC(Cl)([CH]Cl)OBr H298:-34.57 kcal/mol
+library:CHOClBr_G4 label:OC(Br)C(Br)[CH]Cl smiles:OC(Br)C(Br)[CH]Cl H298:-19.91 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)(Br)CBr smiles:Cl[CH]C(Cl)(Br)CBr H298:16.75 kcal/mol
 library:CHOClBr_G4 label:Cl[CH]C(Br)COBr smiles:Cl[CH]C(Br)COBr H298:15.91 kcal/mol
-library:CHOClBr_G4 label:ODC(Br)C(Cl)[CH]Cl smiles:O=C(Br)C(Cl)[CH]Cl H298:-13.41 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)OOBr smiles:Cl[CH]C(Br)OOBr H298:40.19 kcal/mol
-library:CHOClBr_G4 label:CC(Br)[CH]Cl smiles:CC(Br)[CH]Cl H298:14.90 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)C(Cl)[CH]Cl smiles:O=C(Br)C(Cl)[CH]Cl H298:-13.40 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)OOBr smiles:Cl[CH]C(Br)OOBr H298:40.20 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)C(Br)[CH]Cl smiles:CC(Br)(Br)C(Br)[CH]Cl H298:18.22 kcal/mol
+library:CHOClBr_G4 label:CC(Br)[CH]Cl smiles:CC(Br)[CH]Cl H298:14.95 kcal/mol
 library:CHOClBr_G4 label:CC([CH]Cl)OBr smiles:CC([CH]Cl)OBr H298:9.87 kcal/mol
-library:CHOClBr_G4 label:CC([CH]Cl)CBr smiles:CC([CH]Cl)CBr H298:10.64 kcal/mol
+library:CHOClBr_G4 label:CC([CH]Cl)CBr smiles:CC([CH]Cl)CBr H298:10.68 kcal/mol
 library:CHOClBr_G4 label:Cl[CH]C(OCl)OBr smiles:Cl[CH]C(OCl)OBr H298:10.32 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)OCBr smiles:Cl[CH]C(Br)OCBr H298:-9.42 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CC(Cl)Br smiles:Cl[CH]CC(Cl)Br H298:12.79 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]COC(Cl)Br smiles:Cl[CH]COC(Cl)Br H298:-16.26 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)CCBr smiles:Cl[CH]C(Br)CCBr H298:13.20 kcal/mol
-library:CHOClBr_G4 label:OC(Br)(Br)C[CH]Cl smiles:OC(Br)(Br)C[CH]Cl H298:-18.13 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)(Br)OBr smiles:Cl[CH]C(Cl)(Br)OBr H298:18.45 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)(Br)Br smiles:Cl[CH]C(Cl)(Br)Br H298:30.49 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CC(Cl)(Cl)Br smiles:Cl[CH]CC(Cl)(Cl)Br H298:10.14 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CC(Cl)OBr smiles:Cl[CH]CC(Cl)OBr H298:2.94 kcal/mol
-library:CHOClBr_G4 label:OC(Cl)([CH]Cl)CBr smiles:OC(Cl)([CH]Cl)CBr H298:-31.48 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)CBr smiles:Cl[CH]C(Br)CBr H298:20.28 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(CBr)OBr smiles:Cl[CH]C(CBr)OBr H298:16.48 kcal/mol
-library:CHOClBr_G4 label:CC(C)(Br)[CH]Cl smiles:CC(C)(Br)[CH]Cl H298:6.09 kcal/mol
-library:CHOClBr_G4 label:CC(Br)C(Cl)[CH]Cl smiles:CC(Br)C(Cl)[CH]Cl H298:1.69 kcal/mol
-library:CHOClBr_G4 label:OCC(Cl)(Br)[CH]Cl smiles:OCC(Cl)(Br)[CH]Cl H298:-26.55 kcal/mol
-library:CHOClBr_G4 label:CCC(Br)[CH]Cl smiles:CCC(Br)[CH]Cl H298:8.86 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]COBr smiles:Cl[CH]COBr H298:19.95 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)C(Br)Br smiles:Cl[CH]C(Br)C(Br)Br H298:28.68 kcal/mol
-library:CHOClBr_G4 label:ODCC(Br)[CH]Cl smiles:O=CC(Br)[CH]Cl H298:-0.83 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]COOBr smiles:Cl[CH]COOBr H298:35.42 kcal/mol
-library:CHOClBr_G4 label:ODC(Br)C(Br)[CH]Cl smiles:O=C(Br)C(Br)[CH]Cl H298:-3.78 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CCOBr smiles:Cl[CH]CCOBr H298:13.55 kcal/mol
-library:CHOClBr_G4 label:OC([CH]Cl)OBr smiles:OC([CH]Cl)OBr H298:-25.58 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CBr smiles:Cl[CH]CBr H298:23.07 kcal/mol
-library:CHOClBr_G4 label:CCC(Cl)(Br)[CH]Cl smiles:CCC(Cl)(Br)[CH]Cl H298:3.63 kcal/mol
-library:CHOClBr_G4 label:OC(Br)C(Cl)[CH]Cl smiles:OC(Br)C(Cl)[CH]Cl H298:-30.15 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)CBr smiles:Cl[CH]C(Cl)CBr H298:10.15 kcal/mol
-library:CHOClBr_G4 label:COC(Br)(Br)[CH]Cl smiles:COC(Br)(Br)[CH]Cl H298:-6.82 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(CCl)OBr smiles:Cl[CH]C(CCl)OBr H298:5.60 kcal/mol
-library:CHOClBr_G4 label:CC(Br)(Br)[CH]Cl smiles:CC(Br)(Br)[CH]Cl H298:21.24 kcal/mol
-library:CHOClBr_G4 label:OC(Cl)(Br)[CH]Cl smiles:OC(Cl)(Br)[CH]Cl H298:-20.90 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)(Cl)OBr smiles:Cl[CH]C(Cl)(Cl)OBr H298:6.89 kcal/mol
-library:CHOClBr_G4 label:CC(Br)(Br)C[CH]Cl smiles:CC(Br)(Br)C[CH]Cl H298:14.38 kcal/mol
-library:CHOClBr_G4 label:ODCC(Br)(Br)[CH]Cl smiles:O=CC(Br)(Br)[CH]Cl H298:5.55 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)([CH]Cl)CBr smiles:CC(Cl)([CH]Cl)CBr H298:0.18 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]COC(Br)Br smiles:Cl[CH]COC(Br)Br H298:-4.42 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)OCBr smiles:Cl[CH]C(Br)OCBr H298:-9.38 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CC(Cl)Br smiles:Cl[CH]CC(Cl)Br H298:12.82 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]COC(Cl)Br smiles:Cl[CH]COC(Cl)Br H298:-16.23 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)CCBr smiles:Cl[CH]C(Br)CCBr H298:13.27 kcal/mol
+library:CHOClBr_G4 label:OC(Br)(Br)C[CH]Cl smiles:OC(Br)(Br)C[CH]Cl H298:-18.07 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)(Br)OBr smiles:Cl[CH]C(Cl)(Br)OBr H298:18.46 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)(Br)Br smiles:Cl[CH]C(Cl)(Br)Br H298:30.52 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CC(Cl)(Cl)Br smiles:Cl[CH]CC(Cl)(Cl)Br H298:10.15 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CC(Cl)OBr smiles:Cl[CH]CC(Cl)OBr H298:2.92 kcal/mol
+library:CHOClBr_G4 label:OC(Cl)([CH]Cl)CBr smiles:OC(Cl)([CH]Cl)CBr H298:-31.47 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)CBr smiles:Cl[CH]C(Br)CBr H298:20.35 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(CBr)OBr smiles:Cl[CH]C(CBr)OBr H298:16.50 kcal/mol
+library:CHOClBr_G4 label:OOC(Br)(Br)[CH]Cl smiles:OOC(Br)(Br)[CH]Cl H298:11.92 kcal/mol
+library:CHOClBr_G4 label:CC(C)(Br)[CH]Cl smiles:CC(C)(Br)[CH]Cl H298:6.14 kcal/mol
+library:CHOClBr_G4 label:CC(Br)C(Cl)[CH]Cl smiles:CC(Br)C(Cl)[CH]Cl H298:1.73 kcal/mol
+library:CHOClBr_G4 label:OCC(Cl)(Br)[CH]Cl smiles:OCC(Cl)(Br)[CH]Cl H298:-26.52 kcal/mol
+library:CHOClBr_G4 label:CCC(Br)[CH]Cl smiles:CCC(Br)[CH]Cl H298:8.91 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]COBr smiles:Cl[CH]COBr H298:19.94 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)C(Br)Br smiles:Cl[CH]C(Br)C(Br)Br H298:28.75 kcal/mol
+library:CHOClBr_G4 label:ODCC(Br)[CH]Cl smiles:O=CC(Br)[CH]Cl H298:-0.79 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]COOBr smiles:Cl[CH]COOBr H298:35.41 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)C(Br)[CH]Cl smiles:O=C(Br)C(Br)[CH]Cl H298:-3.75 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CCOBr smiles:Cl[CH]CCOBr H298:13.52 kcal/mol
+library:CHOClBr_G4 label:OC([CH]Cl)OBr smiles:OC([CH]Cl)OBr H298:-25.59 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CBr smiles:Cl[CH]CBr H298:23.11 kcal/mol
+library:CHOClBr_G4 label:CCC(Cl)(Br)[CH]Cl smiles:CCC(Cl)(Br)[CH]Cl H298:3.66 kcal/mol
+library:CHOClBr_G4 label:OC(Br)C(Cl)[CH]Cl smiles:OC(Br)C(Cl)[CH]Cl H298:-30.11 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)CBr smiles:Cl[CH]C(Cl)CBr H298:10.18 kcal/mol
+library:CHOClBr_G4 label:COC(Br)(Br)[CH]Cl smiles:COC(Br)(Br)[CH]Cl H298:-6.75 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(CCl)OBr smiles:Cl[CH]C(CCl)OBr H298:5.59 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)[CH]Cl smiles:CC(Br)(Br)[CH]Cl H298:21.30 kcal/mol
+library:CHOClBr_G4 label:OC(Cl)(Br)[CH]Cl smiles:OC(Cl)(Br)[CH]Cl H298:-20.87 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)(Cl)OBr smiles:Cl[CH]C(Cl)(Cl)OBr H298:6.88 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)C[CH]Cl smiles:CC(Br)(Br)C[CH]Cl H298:14.44 kcal/mol
+library:CHOClBr_G4 label:ODCC(Br)(Br)[CH]Cl smiles:O=CC(Br)(Br)[CH]Cl H298:5.59 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)([CH]Cl)CBr smiles:CC(Cl)([CH]Cl)CBr H298:0.21 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]COC(Br)Br smiles:Cl[CH]COC(Br)Br H298:-4.39 kcal/mol
 library:CHOClBr_G4 label:Cl[CH]CC(Br)OBr smiles:Cl[CH]CC(Br)OBr H298:14.57 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CC(Br)Br smiles:Cl[CH]CC(Br)Br H298:24.32 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)CCBr smiles:Cl[CH]C(Cl)CCBr H298:3.06 kcal/mol
-library:CHOClBr_G4 label:OC(Br)C[CH]Cl smiles:OC(Br)C[CH]Cl H298:-22.72 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Br)(Br)CBr smiles:Cl[CH]C(Br)(Br)CBr H298:28.11 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)OCBr smiles:Cl[CH]C(Cl)OCBr H298:-20.46 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(OBr)OBr smiles:Cl[CH]C(OBr)OBr H298:12.13 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]C(Cl)(Cl)Br smiles:Cl[CH]C(Cl)(Cl)Br H298:19.03 kcal/mol
-library:CHOClBr_G4 label:Cl[CH]CC(Cl)(Br)Br smiles:Cl[CH]CC(Cl)(Br)Br H298:22.01 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CC(Br)Br smiles:Cl[CH]CC(Br)Br H298:24.37 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)CCBr smiles:Cl[CH]C(Cl)CCBr H298:3.07 kcal/mol
+library:CHOClBr_G4 label:OC(Br)C[CH]Cl smiles:OC(Br)C[CH]Cl H298:-22.67 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Br)(Br)CBr smiles:Cl[CH]C(Br)(Br)CBr H298:28.18 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)OCBr smiles:Cl[CH]C(Cl)OCBr H298:-20.45 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(OBr)OBr smiles:Cl[CH]C(OBr)OBr H298:12.12 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]C(Cl)(Cl)Br smiles:Cl[CH]C(Cl)(Cl)Br H298:19.05 kcal/mol
+library:CHOClBr_G4 label:Cl[CH]CC(Cl)(Br)Br smiles:Cl[CH]CC(Cl)(Br)Br H298:22.05 kcal/mol
 """,
 )
 
@@ -3762,9 +3823,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.207512,-0.677416,-1.44112,-2.06484,-3.02331,-3.7022,-4.68962],'cal/(mol*K)','+|-',[0.045352,0.0465649,0.0436603,0.0407798,0.035989,0.031493,0.0230662]),
-        H298 = (98.9178,'kcal/mol','+|-',0.0724494),
-        S298 = (3.50882,'cal/(mol*K)','+|-',0.123125),
+        Cpdata = ([0.200318,-0.679221,-1.44023,-2.0621,-3.01867,-3.69711,-4.68644],'cal/(mol*K)','+|-',[0.0460736,0.0471475,0.0441608,0.0412255,0.0363547,0.0318205,0.0237953]),
+        H298 = (98.9072,'kcal/mol','+|-',0.0717534),
+        S298 = (3.27227,'cal/(mol*K)','+|-',0.107978),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -3826,7 +3887,7 @@ library:CHOF_G4 label:F[CH]C(F)(F)CC(F)F smiles:F[CH]C(F)(F)CC(F)F H298:-225.63 
 library:CHOF_G4 label:CDC(F)C(F)(F)[CH]F smiles:C=C(F)C(F)(F)[CH]F H298:-140.49 kcal/mol
 library:CHOF_G4 label:F[CH]CCC(F)(F)F smiles:F[CH]CCC(F)(F)F H298:-187.82 kcal/mol
 library:CHOF_G4 label:F[CH]CC(F)CF smiles:F[CH]CC(F)CF H298:-119.81 kcal/mol
-library:CHOF_G4 label:F[CH]C(F)CC(F)(F)F smiles:F[CH]C(F)CC(F)(F)F H298:-232.55 kcal/mol
+library:CHOF_G4 label:F[CH]C(F)CC(F)(F)F smiles:F[CH]C(F)CC(F)(F)F H298:-234.72 kcal/mol
 library:CHOF_G4 label:F[CH]CCDC(F)F smiles:F[CH]CC=C(F)F H298:-92.15 kcal/mol
 library:CHOF_G4 label:F[CH]C(F)(C(F)F)C(F)(F)F smiles:F[CH]C(F)(C(F)F)C(F)(F)F H298:-321.14 kcal/mol
 library:CHOF_G4 label:CC(F)C(F)(F)[CH]F smiles:CC(F)C(F)(F)[CH]F H298:-173.66 kcal/mol
@@ -4036,215 +4097,217 @@ library:CHOFCl_G4 label:F[CH]COOCl smiles:F[CH]COOCl H298:-2.89 kcal/mol
 library:CHOFCl_G4 label:F[CH]C(Cl)CCl smiles:F[CH]C(Cl)CCl H298:-36.03 kcal/mol
 library:CHOFCl_G4 label:CC([CH]F)OCl smiles:CC([CH]F)OCl H298:-28.76 kcal/mol
 library:CHOFCl_G4 label:F[CH]CC(F)OCl smiles:F[CH]CC(F)OCl H298:-79.94 kcal/mol
-library:CHOFClBr_G4 label:OCC(Cl)(Br)[CH]F smiles:OCC(Cl)(Br)[CH]F H298:-61.32 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)CBr smiles:F[CH]C(Cl)CBr H298:-25.11 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)CCBr smiles:F[CH]C(Cl)CCBr H298:-32.21 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)OCBr smiles:F[CH]C(Cl)OCBr H298:-55.30 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(F)(Cl)CBr smiles:F[CH]C(F)(Cl)CBr H298:-70.29 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(CCl)OBr smiles:F[CH]C(CCl)OBr H298:-29.26 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CC(Cl)(Br)Br smiles:F[CH]CC(Cl)(Br)Br H298:-13.30 kcal/mol
+library:CHOFClBr_G4 label:OCC(Cl)(Br)[CH]F smiles:OCC(Cl)(Br)[CH]F H298:-61.28 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)CBr smiles:F[CH]C(Cl)CBr H298:-25.08 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)CCBr smiles:F[CH]C(Cl)CCBr H298:-32.19 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)OCBr smiles:F[CH]C(Cl)OCBr H298:-55.29 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)(Br)C(Cl)[CH]F smiles:CC(Br)(Br)C(Cl)[CH]F H298:-26.87 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(F)(Cl)CBr smiles:F[CH]C(F)(Cl)CBr H298:-70.27 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(CCl)OBr smiles:F[CH]C(CCl)OBr H298:-29.28 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CC(Cl)(Br)Br smiles:F[CH]CC(Cl)(Br)Br H298:-13.24 kcal/mol
 library:CHOFClBr_G4 label:F[CH]C(Cl)(Cl)OBr smiles:F[CH]C(Cl)(Cl)OBr H298:-27.25 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)(Br)OBr smiles:F[CH]C(Cl)(Br)OBr H298:-16.06 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(F)C(Cl)Br smiles:F[CH]C(F)C(Cl)Br H298:-65.92 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)(Br)OBr smiles:F[CH]C(Cl)(Br)OBr H298:-16.04 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(F)C(Cl)Br smiles:F[CH]C(F)C(Cl)Br H298:-65.90 kcal/mol
 library:CHOFClBr_G4 label:CC(Cl)([CH]F)OBr smiles:CC(Cl)([CH]F)OBr H298:-33.04 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CC(Cl)(Cl)Br smiles:F[CH]CC(Cl)(Cl)Br H298:-25.23 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(F)(Cl)Br smiles:F[CH]C(F)(Cl)Br H298:-58.58 kcal/mol
-library:CHOFClBr_G4 label:CC(Cl)(Br)[CH]F smiles:CC(Cl)(Br)[CH]F H298:-24.87 kcal/mol
-library:CHOFClBr_G4 label:OC(Cl)([CH]F)CBr smiles:OC(Cl)([CH]F)CBr H298:-65.36 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CC(Cl)Br smiles:F[CH]CC(Cl)Br H298:-22.83 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CC(F)(Cl)Br smiles:F[CH]CC(F)(Cl)Br H298:-68.60 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CC(Cl)OBr smiles:F[CH]CC(Cl)OBr H298:-32.51 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CC(Cl)(Cl)Br smiles:F[CH]CC(Cl)(Cl)Br H298:-25.21 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(F)(Cl)Br smiles:F[CH]C(F)(Cl)Br H298:-58.55 kcal/mol
+library:CHOFClBr_G4 label:CC(Cl)(Br)[CH]F smiles:CC(Cl)(Br)[CH]F H298:-24.83 kcal/mol
+library:CHOFClBr_G4 label:OC(Cl)([CH]F)CBr smiles:OC(Cl)([CH]F)CBr H298:-65.34 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CC(Cl)Br smiles:F[CH]CC(Cl)Br H298:-22.79 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CC(F)(Cl)Br smiles:F[CH]CC(F)(Cl)Br H298:-68.56 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CC(Cl)OBr smiles:F[CH]CC(Cl)OBr H298:-32.53 kcal/mol
 library:CHOFClBr_G4 label:F[CH]C(OCl)OBr smiles:F[CH]C(OCl)OBr H298:-23.90 kcal/mol
-library:CHOFClBr_G4 label:CC([CH]F)C(Cl)Br smiles:CC([CH]F)C(Cl)Br H298:-29.24 kcal/mol
-library:CHOFClBr_G4 label:CC(Cl)(Br)C[CH]F smiles:CC(Cl)(Br)C[CH]F H298:-33.17 kcal/mol
-library:CHOFClBr_G4 label:OC(Br)C(Cl)[CH]F smiles:OC(Br)C(Cl)[CH]F H298:-64.85 kcal/mol
-library:CHOFClBr_G4 label:F[CH]COC(Cl)Br smiles:F[CH]COC(Cl)Br H298:-52.62 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)(Cl)Br smiles:F[CH]C(Cl)(Cl)Br H298:-16.08 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CC(Cl)CBr smiles:F[CH]CC(Cl)CBr H298:-32.04 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)C(Cl)Br smiles:F[CH]C(Cl)C(Cl)Br H298:-27.57 kcal/mol
-library:CHOFClBr_G4 label:CC(Br)C(Cl)[CH]F smiles:CC(Br)C(Cl)[CH]F H298:-33.36 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)Br smiles:F[CH]C(Cl)Br H298:-14.64 kcal/mol
-library:CHOFClBr_G4 label:OC([CH]F)C(Cl)Br smiles:OC([CH]F)C(Cl)Br H298:-60.52 kcal/mol
-library:CHOFClBr_G4 label:OC(Cl)(Br)C[CH]F smiles:OC(Cl)(Br)C[CH]F H298:-65.92 kcal/mol
+library:CHOFClBr_G4 label:CC([CH]F)C(Cl)Br smiles:CC([CH]F)C(Cl)Br H298:-29.21 kcal/mol
+library:CHOFClBr_G4 label:CC(Cl)(Br)C[CH]F smiles:CC(Cl)(Br)C[CH]F H298:-33.12 kcal/mol
+library:CHOFClBr_G4 label:OC(Br)C(Cl)[CH]F smiles:OC(Br)C(Cl)[CH]F H298:-64.82 kcal/mol
+library:CHOFClBr_G4 label:F[CH]COC(Cl)Br smiles:F[CH]COC(Cl)Br H298:-52.61 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)(Cl)Br smiles:F[CH]C(Cl)(Cl)Br H298:-16.05 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CC(Cl)CBr smiles:F[CH]CC(Cl)CBr H298:-32.02 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)C(Cl)Br smiles:F[CH]C(Cl)C(Cl)Br H298:-27.56 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)C(Cl)[CH]F smiles:CC(Br)C(Cl)[CH]F H298:-33.33 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)Br smiles:F[CH]C(Cl)Br H298:-14.60 kcal/mol
+library:CHOFClBr_G4 label:OC([CH]F)C(Cl)Br smiles:OC([CH]F)C(Cl)Br H298:-60.49 kcal/mol
+library:CHOFClBr_G4 label:OC(Cl)(Br)C[CH]F smiles:OC(Cl)(Br)C[CH]F H298:-65.89 kcal/mol
 library:CHOFClBr_G4 label:OC(Cl)([CH]F)OBr smiles:OC(Cl)([CH]F)OBr H298:-69.15 kcal/mol
-library:CHOFClBr_G4 label:ODC(Br)C(Cl)[CH]F smiles:O=C(Br)C(Cl)[CH]F H298:-48.34 kcal/mol
-library:CHOFClBr_G4 label:OC(Cl)(Br)[CH]F smiles:OC(Cl)(Br)[CH]F H298:-55.88 kcal/mol
-library:CHOFClBr_G4 label:CC(Cl)([CH]F)CBr smiles:CC(Cl)([CH]F)CBr H298:-34.82 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)(Cl)CBr smiles:F[CH]C(Cl)(Cl)CBr H298:-28.92 kcal/mol
-library:CHOFClBr_G4 label:F[CH]CCC(Cl)Br smiles:F[CH]CCC(Cl)Br H298:-28.78 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(CCl)CBr smiles:F[CH]C(CCl)CBr H298:-31.76 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)(Br)Br smiles:F[CH]C(Cl)(Br)Br H298:-4.53 kcal/mol
+library:CHOFClBr_G4 label:ODC(Br)C(Cl)[CH]F smiles:O=C(Br)C(Cl)[CH]F H298:-48.33 kcal/mol
+library:CHOFClBr_G4 label:OC(Cl)(Br)[CH]F smiles:OC(Cl)(Br)[CH]F H298:-55.84 kcal/mol
+library:CHOFClBr_G4 label:CC(Cl)([CH]F)CBr smiles:CC(Cl)([CH]F)CBr H298:-34.80 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)(Cl)CBr smiles:F[CH]C(Cl)(Cl)CBr H298:-28.90 kcal/mol
+library:CHOFClBr_G4 label:F[CH]CCC(Cl)Br smiles:F[CH]CCC(Cl)Br H298:-28.76 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(CCl)CBr smiles:F[CH]C(CCl)CBr H298:-31.81 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)(Br)Br smiles:F[CH]C(Cl)(Br)Br H298:-4.49 kcal/mol
 library:CHOFClBr_G4 label:F[CH]C(F)(Cl)OBr smiles:F[CH]C(F)(Cl)OBr H298:-72.54 kcal/mol
-library:CHOFClBr_G4 label:CCC(Cl)(Br)[CH]F smiles:CCC(Cl)(Br)[CH]F H298:-30.65 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)C(Br)Br smiles:F[CH]C(Cl)C(Br)Br H298:-16.32 kcal/mol
+library:CHOFClBr_G4 label:OOC(Cl)(Br)[CH]F smiles:OOC(Cl)(Br)[CH]F H298:-34.71 kcal/mol
+library:CHOFClBr_G4 label:CCC(Cl)(Br)[CH]F smiles:CCC(Cl)(Br)[CH]F H298:-30.60 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)C(Br)Br smiles:F[CH]C(Cl)C(Br)Br H298:-16.29 kcal/mol
 library:CHOFClBr_G4 label:F[CH]C(Cl)OBr smiles:F[CH]C(Cl)OBr H298:-22.91 kcal/mol
-library:CHOFClBr_G4 label:F[CH]C(Cl)COBr smiles:F[CH]C(Cl)COBr H298:-29.28 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)OBr smiles:F[CH]CC(F)OBr H298:-76.36 kcal/mol
-library:CHOFBr_G4 label:CC([CH]F)OBr smiles:CC([CH]F)OBr H298:-25.72 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(Br)OBr smiles:F[CH]C(F)C(Br)OBr H298:-62.95 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)OC(Br)Br smiles:F[CH]C(F)OC(Br)Br H298:-88.43 kcal/mol
+library:CHOFClBr_G4 label:F[CH]C(Cl)COBr smiles:F[CH]C(Cl)COBr H298:-29.31 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)OBr smiles:F[CH]CC(F)OBr H298:-76.39 kcal/mol
+library:CHOFBr_G4 label:CC([CH]F)OBr smiles:CC([CH]F)OBr H298:-25.73 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(Br)OBr smiles:F[CH]C(F)C(Br)OBr H298:-62.94 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)OC(Br)Br smiles:F[CH]C(F)OC(Br)Br H298:-88.39 kcal/mol
 library:CHOFBr_G4 label:F[CH]COOBr smiles:F[CH]COOBr H298:0.25 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CF)C(F)Br smiles:F[CH]C(CF)C(F)Br H298:-112.20 kcal/mol
-library:CHOFBr_G4 label:F[CH]CCOBr smiles:F[CH]CCOBr H298:-22.37 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(OBr)OBr smiles:F[CH]C(OBr)OBr H298:-21.80 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)[CH]F smiles:OC(Br)(Br)[CH]F H298:-44.22 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CBr)C(Br)Br smiles:F[CH]C(CBr)C(Br)Br H298:-15.88 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CBr)C(F)F smiles:F[CH]C(CBr)C(F)F H298:-121.84 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)(Br)Br smiles:F[CH]CC(F)(Br)Br H298:-55.99 kcal/mol
-library:CHOFBr_G4 label:OC([CH]F)C(F)(Br)Br smiles:OC([CH]F)C(F)(Br)Br H298:-92.29 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(F)[CH]F smiles:OC(Br)C(F)[CH]F H298:-103.23 kcal/mol
-library:CHOFBr_G4 label:CC([CH]F)C(Br)Br smiles:CC([CH]F)C(Br)Br H298:-17.81 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)OBr smiles:F[CH]C(F)(F)OBr H298:-121.62 kcal/mol
-library:CHOFBr_G4 label:F[CH]COC(Br)Br smiles:F[CH]COC(Br)Br H298:-40.66 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(Br)OBr smiles:F[CH]CC(Br)OBr H298:-20.62 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(F)OBr smiles:F[CH]C(F)C(F)OBr H298:-119.18 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CF)C(F)Br smiles:F[CH]C(CF)C(F)Br H298:-112.18 kcal/mol
+library:CHOFBr_G4 label:F[CH]CCOBr smiles:F[CH]CCOBr H298:-22.39 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(OBr)OBr smiles:F[CH]C(OBr)OBr H298:-21.82 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)[CH]F smiles:OC(Br)(Br)[CH]F H298:-44.15 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CBr)C(Br)Br smiles:F[CH]C(CBr)C(Br)Br H298:-16.33 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CBr)C(F)F smiles:F[CH]C(CBr)C(F)F H298:-121.81 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)(Br)Br smiles:F[CH]CC(F)(Br)Br H298:-55.94 kcal/mol
+library:CHOFBr_G4 label:OC([CH]F)C(F)(Br)Br smiles:OC([CH]F)C(F)(Br)Br H298:-92.23 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(F)[CH]F smiles:OC(Br)C(F)[CH]F H298:-103.19 kcal/mol
+library:CHOFBr_G4 label:CC([CH]F)C(Br)Br smiles:CC([CH]F)C(Br)Br H298:-17.79 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)OBr smiles:F[CH]C(F)(F)OBr H298:-121.63 kcal/mol
+library:CHOFBr_G4 label:F[CH]COC(Br)Br smiles:F[CH]COC(Br)Br H298:-40.62 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(Br)OBr smiles:F[CH]CC(Br)OBr H298:-20.63 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(F)OBr smiles:F[CH]C(F)C(F)OBr H298:-119.20 kcal/mol
 library:CHOFBr_G4 label:OC(F)([CH]F)C(F)Br smiles:OC(F)([CH]F)C(F)Br H298:-152.49 kcal/mol
-library:CHOFBr_G4 label:F[CH]COC(F)(F)Br smiles:F[CH]COC(F)(F)Br H298:-150.40 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(OBr)OBr smiles:F[CH]C(F)(OBr)OBr H298:-74.82 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(Br)Br smiles:F[CH]C(F)C(Br)Br H298:-54.35 kcal/mol
-library:CHOFBr_G4 label:COC(F)(Br)[CH]F smiles:COC(F)(Br)[CH]F H298:-97.53 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(Br)(Br)OBr smiles:F[CH]CC(Br)(Br)OBr H298:-14.40 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(Br)Br smiles:F[CH]C(F)(Br)Br H298:-46.26 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)COBr smiles:F[CH]C(F)(F)COBr H298:-118.71 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(OBr)C(F)F smiles:F[CH]C(OBr)C(F)F H298:-118.30 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)OOBr smiles:F[CH]C(F)(F)OOBr H298:-102.82 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(OBr)C(F)Br smiles:F[CH]C(OBr)C(F)Br H298:-61.51 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)COBr smiles:F[CH]C(F)COBr H298:-66.63 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)Br smiles:F[CH]C(F)(F)Br H298:-104.87 kcal/mol
-library:CHOFBr_G4 label:F[CH]CCBr smiles:F[CH]CCBr H298:-17.73 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)OOBr smiles:F[CH]C(F)OOBr H298:-49.69 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)(F)OBr smiles:F[CH]CC(F)(F)OBr H298:-133.56 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(Br)Br smiles:F[CH]CC(Br)Br H298:-11.28 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)C(Br)CBr smiles:F[CH]C(Br)C(Br)CBr H298:-17.67 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C[CH]F smiles:CC(Br)C[CH]F H298:-26.64 kcal/mol
-library:CHOFBr_G4 label:OCC(F)(Br)[CH]F smiles:OCC(F)(Br)[CH]F H298:-101.02 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)CBr smiles:F[CH]C(F)CBr H298:-63.08 kcal/mol
-library:CHOFBr_G4 label:F[CH]CBr smiles:F[CH]CBr H298:-12.68 kcal/mol
-library:CHOFBr_G4 label:F[CH]COC(Br)(Br)Br smiles:F[CH]COC(Br)(Br)Br H298:-29.47 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)(Br)C(Br)Br smiles:F[CH]C(Br)(Br)C(Br)Br H298:3.27 kcal/mol
-library:CHOFBr_G4 label:CC(F)([CH]F)CBr smiles:CC(F)([CH]F)CBr H298:-74.11 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CF)CBr smiles:F[CH]C(CF)CBr H298:-68.82 kcal/mol
-library:CHOFBr_G4 label:CC([CH]F)C(F)(Br)Br smiles:CC([CH]F)C(F)(Br)Br H298:-62.83 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(CBr)OBr smiles:F[CH]C(F)(CBr)OBr H298:-69.79 kcal/mol
-library:CHOFBr_G4 label:OC(Br)([CH]F)OBr smiles:OC(Br)([CH]F)OBr H298:-55.79 kcal/mol
+library:CHOFBr_G4 label:F[CH]COC(F)(F)Br smiles:F[CH]COC(F)(F)Br H298:-150.39 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(OBr)OBr smiles:F[CH]C(F)(OBr)OBr H298:-74.85 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(Br)Br smiles:F[CH]C(F)C(Br)Br H298:-54.30 kcal/mol
+library:CHOFBr_G4 label:COC(F)(Br)[CH]F smiles:COC(F)(Br)[CH]F H298:-97.48 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(Br)(Br)OBr smiles:F[CH]CC(Br)(Br)OBr H298:-14.35 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(Br)Br smiles:F[CH]C(F)(Br)Br H298:-46.21 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)COBr smiles:F[CH]C(F)(F)COBr H298:-118.72 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(OBr)C(F)F smiles:F[CH]C(OBr)C(F)F H298:-118.32 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)OOBr smiles:F[CH]C(F)(F)OOBr H298:-102.84 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(OBr)C(F)Br smiles:F[CH]C(OBr)C(F)Br H298:-61.52 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)COBr smiles:F[CH]C(F)COBr H298:-67.01 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)Br smiles:F[CH]C(F)(F)Br H298:-104.84 kcal/mol
+library:CHOFBr_G4 label:F[CH]CCBr smiles:F[CH]CCBr H298:-17.70 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)OOBr smiles:F[CH]C(F)OOBr H298:-49.70 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)(F)OBr smiles:F[CH]CC(F)(F)OBr H298:-133.57 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(Br)Br smiles:F[CH]CC(Br)Br H298:-11.23 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)C(Br)CBr smiles:F[CH]C(Br)C(Br)CBr H298:-17.57 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C[CH]F smiles:CC(Br)C[CH]F H298:-26.63 kcal/mol
+library:CHOFBr_G4 label:OCC(F)(Br)[CH]F smiles:OCC(F)(Br)[CH]F H298:-100.98 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)CBr smiles:F[CH]C(F)CBr H298:-63.06 kcal/mol
+library:CHOFBr_G4 label:F[CH]CBr smiles:F[CH]CBr H298:-12.63 kcal/mol
+library:CHOFBr_G4 label:F[CH]COC(Br)(Br)Br smiles:F[CH]COC(Br)(Br)Br H298:-29.41 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)(Br)C(Br)Br smiles:F[CH]C(Br)(Br)C(Br)Br H298:3.35 kcal/mol
+library:CHOFBr_G4 label:CC(F)([CH]F)CBr smiles:CC(F)([CH]F)CBr H298:-74.10 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CF)CBr smiles:F[CH]C(CF)CBr H298:-68.80 kcal/mol
+library:CHOFBr_G4 label:CC([CH]F)C(F)(Br)Br smiles:CC([CH]F)C(F)(Br)Br H298:-62.79 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(CBr)OBr smiles:F[CH]C(F)(CBr)OBr H298:-69.78 kcal/mol
+library:CHOFBr_G4 label:OC(Br)([CH]F)OBr smiles:OC(Br)([CH]F)OBr H298:-55.75 kcal/mol
 library:CHOFBr_G4 label:F[CH]CCC(F)(F)Br smiles:F[CH]CCC(F)(F)Br H298:-123.29 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)Br smiles:F[CH]C(F)Br H298:-54.24 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)Br smiles:F[CH]C(F)Br H298:-54.19 kcal/mol
 library:CHOFBr_G4 label:OC([CH]F)OBr smiles:OC([CH]F)OBr H298:-60.19 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CBr)OBr smiles:F[CH]C(CBr)OBr H298:-18.39 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(F)(F)Br smiles:F[CH]C(F)C(F)(F)Br H298:-156.94 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)(Br)Br smiles:F[CH]C(Br)(Br)Br H298:6.90 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)(Br)OOBr smiles:F[CH]C(Br)(Br)OOBr H298:13.12 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(CF)CBr smiles:F[CH]C(F)(CF)CBr H298:-114.59 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)(Br)OBr smiles:F[CH]CC(F)(Br)OBr H298:-71.61 kcal/mol
-library:CHOFBr_G4 label:OC(F)([CH]F)OBr smiles:OC(F)([CH]F)OBr H298:-115.16 kcal/mol
-library:CHOFBr_G4 label:CCC(Br)(Br)[CH]F smiles:CCC(Br)(Br)[CH]F H298:-19.41 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(Br)OCBr smiles:F[CH]C(F)(Br)OCBr H298:-90.52 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CBr)C(F)Br smiles:F[CH]C(CBr)C(F)Br H298:-64.45 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)C[CH]F smiles:OC(F)(Br)C[CH]F H298:-111.97 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)C(F)[CH]F smiles:OC(F)(Br)C(F)[CH]F H298:-153.73 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(Br)CCBr smiles:F[CH]C(F)(Br)CCBr H298:-65.97 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C[CH]F smiles:OC(Br)C[CH]F H298:-58.46 kcal/mol
-library:CHOFBr_G4 label:F[CH]COC(F)(Br)Br smiles:F[CH]COC(F)(Br)Br H298:-88.34 kcal/mol
-library:CHOFBr_G4 label:CC([CH]F)C(F)(F)Br smiles:CC([CH]F)C(F)(F)Br H298:-122.57 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)(F)Br smiles:F[CH]CC(F)(F)Br H298:-115.73 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C(F)(F)[CH]F smiles:CC(Br)C(F)(F)[CH]F H298:-123.72 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)C(Br)Br smiles:F[CH]C(Br)C(Br)Br H298:-4.94 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(Br)(Br)Br smiles:F[CH]C(F)C(Br)(Br)Br H298:-44.07 kcal/mol
-library:CHOFBr_G4 label:F[CH]CCC(Br)(Br)Br smiles:F[CH]CCC(Br)(Br)Br H298:-8.53 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(Br)CBr smiles:F[CH]C(F)(Br)CBr H298:-58.09 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)C[CH]F smiles:OC(Br)(Br)C[CH]F H298:-53.44 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)Br smiles:F[CH]CC(F)Br H298:-63.35 kcal/mol
-library:CHOFBr_G4 label:OC([CH]F)C(F)Br smiles:OC([CH]F)C(F)Br H298:-100.18 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)[CH]F smiles:CC(F)(Br)[CH]F H298:-66.04 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)C(F)[CH]F smiles:CC(F)(Br)C(F)[CH]F H298:-118.16 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)COBr smiles:F[CH]C(Br)COBr H298:-18.98 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)C[CH]F smiles:CC(F)(Br)C[CH]F H298:-75.17 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)OOBr smiles:F[CH]C(Br)OOBr H298:5.86 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)C(F)Br smiles:F[CH]CC(F)C(F)Br H298:-114.43 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)OBr smiles:F[CH]C(Br)OBr H298:-10.60 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)[CH]F smiles:OC(F)(Br)[CH]F H298:-101.34 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)C(F)(F)[CH]F smiles:O=C(Br)C(F)(F)[CH]F H298:-134.56 kcal/mol
-library:CHOFBr_G4 label:OC([CH]F)C(F)(F)Br smiles:OC([CH]F)C(F)(F)Br H298:-151.64 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)(CBr)OBr smiles:F[CH]C(Br)(CBr)OBr H298:-13.18 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(F)(F)[CH]F smiles:OC(Br)C(F)(F)[CH]F H298:-153.45 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(F)(Br)Br smiles:F[CH]C(F)C(F)(Br)Br H298:-97.96 kcal/mol
-library:CHOFBr_G4 label:CC([CH]F)C(F)Br smiles:CC([CH]F)C(F)Br H298:-70.13 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(Br)OBr smiles:F[CH]C(F)(Br)OBr H298:-60.74 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(F)(Br)[CH]F smiles:OC(Br)C(F)(Br)[CH]F H298:-96.35 kcal/mol
-library:CHOFBr_G4 label:CC([CH]F)C(Br)(Br)Br smiles:CC([CH]F)C(Br)(Br)Br H298:-8.39 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)C[CH]F smiles:CC(Br)(Br)C[CH]F H298:-21.32 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(Br)COBr smiles:F[CH]C(F)(Br)COBr H298:-62.07 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(Br)C(Br)Br smiles:F[CH]CC(Br)C(Br)Br H298:-13.46 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)C(F)Br smiles:F[CH]C(F)(F)C(F)Br H298:-156.13 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)C(F)(Br)[CH]F smiles:O=C(Br)C(F)(Br)[CH]F H298:-79.19 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(Br)C(Br)Br smiles:F[CH]C(F)(Br)C(Br)Br H298:-47.57 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CF)C(Br)Br smiles:F[CH]C(CF)C(Br)Br H298:-60.73 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CBr)OBr smiles:F[CH]C(CBr)OBr H298:-18.38 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(F)(F)Br smiles:F[CH]C(F)C(F)(F)Br H298:-156.91 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)(Br)Br smiles:F[CH]C(Br)(Br)Br H298:6.95 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)(Br)OOBr smiles:F[CH]C(Br)(Br)OOBr H298:13.14 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(CF)CBr smiles:F[CH]C(F)(CF)CBr H298:-114.57 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)(Br)OBr smiles:F[CH]CC(F)(Br)OBr H298:-71.60 kcal/mol
+library:CHOFBr_G4 label:OC(F)([CH]F)OBr smiles:OC(F)([CH]F)OBr H298:-115.18 kcal/mol
+library:CHOFBr_G4 label:CCC(Br)(Br)[CH]F smiles:CCC(Br)(Br)[CH]F H298:-19.35 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(Br)OCBr smiles:F[CH]C(F)(Br)OCBr H298:-90.48 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CBr)C(F)Br smiles:F[CH]C(CBr)C(F)Br H298:-64.40 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)C[CH]F smiles:OC(F)(Br)C[CH]F H298:-111.94 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)C(F)[CH]F smiles:OC(F)(Br)C(F)[CH]F H298:-153.70 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(Br)CCBr smiles:F[CH]C(F)(Br)CCBr H298:-65.91 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C[CH]F smiles:OC(Br)C[CH]F H298:-58.41 kcal/mol
+library:CHOFBr_G4 label:F[CH]COC(F)(Br)Br smiles:F[CH]COC(F)(Br)Br H298:-88.31 kcal/mol
+library:CHOFBr_G4 label:CC([CH]F)C(F)(F)Br smiles:CC([CH]F)C(F)(F)Br H298:-122.54 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)(F)Br smiles:F[CH]CC(F)(F)Br H298:-115.70 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C(F)(F)[CH]F smiles:CC(Br)C(F)(F)[CH]F H298:-123.69 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)C(Br)Br smiles:F[CH]C(Br)C(Br)Br H298:-4.87 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(Br)(Br)Br smiles:F[CH]C(F)C(Br)(Br)Br H298:-44.01 kcal/mol
+library:CHOFBr_G4 label:F[CH]CCC(Br)(Br)Br smiles:F[CH]CCC(Br)(Br)Br H298:-8.47 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(Br)CBr smiles:F[CH]C(F)(Br)CBr H298:-58.03 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)C[CH]F smiles:OC(Br)(Br)C[CH]F H298:-53.37 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)Br smiles:F[CH]CC(F)Br H298:-63.32 kcal/mol
+library:CHOFBr_G4 label:OC([CH]F)C(F)Br smiles:OC([CH]F)C(F)Br H298:-100.15 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)[CH]F smiles:CC(F)(Br)[CH]F H298:-66.00 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)C(F)[CH]F smiles:CC(F)(Br)C(F)[CH]F H298:-118.13 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)COBr smiles:F[CH]C(Br)COBr H298:-18.86 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)C[CH]F smiles:CC(F)(Br)C[CH]F H298:-75.12 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)OOBr smiles:F[CH]C(Br)OOBr H298:5.89 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)C(F)Br smiles:F[CH]CC(F)C(F)Br H298:-114.41 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)OBr smiles:F[CH]C(Br)OBr H298:-10.55 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)[CH]F smiles:OC(F)(Br)[CH]F H298:-101.31 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)C(F)(F)[CH]F smiles:O=C(Br)C(F)(F)[CH]F H298:-134.55 kcal/mol
+library:CHOFBr_G4 label:OC([CH]F)C(F)(F)Br smiles:OC([CH]F)C(F)(F)Br H298:-151.60 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)(CBr)OBr smiles:F[CH]C(Br)(CBr)OBr H298:-13.15 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(F)(F)[CH]F smiles:OC(Br)C(F)(F)[CH]F H298:-153.42 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(F)(Br)Br smiles:F[CH]C(F)C(F)(Br)Br H298:-97.92 kcal/mol
+library:CHOFBr_G4 label:CC([CH]F)C(F)Br smiles:CC([CH]F)C(F)Br H298:-70.09 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(Br)OBr smiles:F[CH]C(F)(Br)OBr H298:-60.73 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(F)(Br)[CH]F smiles:OC(Br)C(F)(Br)[CH]F H298:-96.28 kcal/mol
+library:CHOFBr_G4 label:CC([CH]F)C(Br)(Br)Br smiles:CC([CH]F)C(Br)(Br)Br H298:-8.32 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)C[CH]F smiles:CC(Br)(Br)C[CH]F H298:-21.24 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(Br)COBr smiles:F[CH]C(F)(Br)COBr H298:-62.06 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(Br)C(Br)Br smiles:F[CH]CC(Br)C(Br)Br H298:-13.39 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)C(F)Br smiles:F[CH]C(F)(F)C(F)Br H298:-156.10 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)C(F)(Br)[CH]F smiles:O=C(Br)C(F)(Br)[CH]F H298:-79.15 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(Br)C(Br)Br smiles:F[CH]C(F)(Br)C(Br)Br H298:-47.51 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CF)C(Br)Br smiles:F[CH]C(CF)C(Br)Br H298:-60.70 kcal/mol
 library:CHOFBr_G4 label:F[CH]C(F)(Br)OOBr smiles:F[CH]C(F)(Br)OOBr H298:-43.19 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(Br)(Br)Br smiles:F[CH]CC(Br)(Br)Br H298:-1.43 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)C(Br)Br smiles:F[CH]C(F)(F)C(Br)Br H298:-104.61 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)(Br)CCBr smiles:F[CH]C(Br)(Br)CCBr H298:-13.77 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(F)Br smiles:F[CH]C(F)C(F)Br H298:-105.64 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)C(F)[CH]F smiles:OC(Br)(Br)C(F)[CH]F H298:-95.84 kcal/mol
-library:CHOFBr_G4 label:CCC(Br)[CH]F smiles:CCC(Br)[CH]F H298:-25.42 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(CF)OBr smiles:F[CH]C(F)(CF)OBr H298:-118.36 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)(Br)OCBr smiles:F[CH]C(Br)(Br)OCBr H298:-34.47 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)(Br)CBr smiles:F[CH]CC(F)(Br)CBr H298:-68.13 kcal/mol
-library:CHOFBr_G4 label:CC(F)([CH]F)C(Br)Br smiles:CC(F)([CH]F)C(Br)Br H298:-64.97 kcal/mol
-library:CHOFBr_G4 label:OC(F)([CH]F)CBr smiles:OC(F)([CH]F)CBr H298:-111.12 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)CC(F)Br smiles:F[CH]C(F)CC(F)Br H298:-116.31 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(OBr)C(Br)Br smiles:F[CH]C(OBr)C(Br)Br H298:-10.96 kcal/mol
-library:CHOFBr_G4 label:F[CH]CCC(Br)Br smiles:F[CH]CCC(Br)Br H298:-17.26 kcal/mol
-library:CHOFBr_G4 label:OC([CH]F)CBr smiles:OC([CH]F)CBr H298:-55.24 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(Br)(Br)[CH]F smiles:OC(Br)C(Br)(Br)[CH]F H298:-45.87 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CBr)CBr smiles:F[CH]C(CBr)CBr H298:-19.62 kcal/mol
-library:CHOFBr_G4 label:F[CH]CCC(F)Br smiles:F[CH]CCC(F)Br H298:-69.85 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)CC(Br)Br smiles:F[CH]C(F)CC(Br)Br H298:-63.15 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(CBr)CBr smiles:F[CH]C(F)(CBr)CBr H298:-66.48 kcal/mol
-library:CHOFBr_G4 label:COC(Br)(Br)[CH]F smiles:COC(Br)(Br)[CH]F H298:-41.74 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(Br)(Br)Br smiles:F[CH]CC(Br)(Br)Br H298:-1.34 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)C(Br)Br smiles:F[CH]C(F)(F)C(Br)Br H298:-104.58 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)(Br)CCBr smiles:F[CH]C(Br)(Br)CCBr H298:-13.70 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(F)Br smiles:F[CH]C(F)C(F)Br H298:-105.62 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)C(F)[CH]F smiles:OC(Br)(Br)C(F)[CH]F H298:-95.78 kcal/mol
+library:CHOFBr_G4 label:CCC(Br)[CH]F smiles:CCC(Br)[CH]F H298:-25.37 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(CF)OBr smiles:F[CH]C(F)(CF)OBr H298:-118.37 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)(Br)OCBr smiles:F[CH]C(Br)(Br)OCBr H298:-34.41 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)(Br)CBr smiles:F[CH]CC(F)(Br)CBr H298:-68.07 kcal/mol
+library:CHOFBr_G4 label:CC(F)([CH]F)C(Br)Br smiles:CC(F)([CH]F)C(Br)Br H298:-64.93 kcal/mol
+library:CHOFBr_G4 label:OC(F)([CH]F)CBr smiles:OC(F)([CH]F)CBr H298:-111.11 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)CC(F)Br smiles:F[CH]C(F)CC(F)Br H298:-116.28 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(OBr)C(Br)Br smiles:F[CH]C(OBr)C(Br)Br H298:-10.94 kcal/mol
+library:CHOFBr_G4 label:F[CH]CCC(Br)Br smiles:F[CH]CCC(Br)Br H298:-17.22 kcal/mol
+library:CHOFBr_G4 label:OC([CH]F)CBr smiles:OC([CH]F)CBr H298:-55.21 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(Br)(Br)[CH]F smiles:OC(Br)C(Br)(Br)[CH]F H298:-45.79 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CBr)CBr smiles:F[CH]C(CBr)CBr H298:-19.56 kcal/mol
+library:CHOFBr_G4 label:F[CH]CCC(F)Br smiles:F[CH]CCC(F)Br H298:-69.83 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)CC(Br)Br smiles:F[CH]C(F)CC(Br)Br H298:-63.10 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(CBr)CBr smiles:F[CH]C(F)(CBr)CBr H298:-66.42 kcal/mol
+library:CHOFBr_G4 label:COC(Br)(Br)[CH]F smiles:COC(Br)(Br)[CH]F H298:-41.66 kcal/mol
 library:CHOFBr_G4 label:CC(F)([CH]F)OBr smiles:CC(F)([CH]F)OBr H298:-78.48 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(CF)OBr smiles:F[CH]C(CF)OBr H298:-66.08 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)OBr smiles:F[CH]C(F)OBr H298:-66.20 kcal/mol
-library:CHOFBr_G4 label:F[CH]CCC(F)(Br)Br smiles:F[CH]CCC(F)(Br)Br H298:-63.74 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)C(Br)OBr smiles:F[CH]C(Br)C(Br)OBr H298:-14.70 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)C[CH]F smiles:O=C(Br)C[CH]F H298:-45.94 kcal/mol
-library:CHOFBr_G4 label:OOC(F)(Br)[CH]F smiles:OOC(F)(Br)[CH]F H298:-77.44 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(OF)OBr smiles:F[CH]C(OF)OBr H298:-27.88 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)(F)CBr smiles:F[CH]CC(F)(F)CBr H298:-125.62 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)C(Br)(Br)Br smiles:F[CH]C(Br)C(Br)(Br)Br H298:5.06 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)OCBr smiles:F[CH]C(F)OCBr H298:-97.53 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)CCBr smiles:F[CH]C(F)CCBr H298:-70.47 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)C(F)[CH]F smiles:O=C(Br)C(F)[CH]F H298:-86.34 kcal/mol
-library:CHOFBr_G4 label:F[CH]COBr smiles:F[CH]COBr H298:-15.88 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(CF)OBr smiles:F[CH]C(CF)OBr H298:-66.09 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)OBr smiles:F[CH]C(F)OBr H298:-66.21 kcal/mol
+library:CHOFBr_G4 label:F[CH]CCC(F)(Br)Br smiles:F[CH]CCC(F)(Br)Br H298:-63.09 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)C(Br)OBr smiles:F[CH]C(Br)C(Br)OBr H298:-14.65 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)C[CH]F smiles:O=C(Br)C[CH]F H298:-45.92 kcal/mol
+library:CHOFBr_G4 label:OOC(F)(Br)[CH]F smiles:OOC(F)(Br)[CH]F H298:-77.37 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(OF)OBr smiles:F[CH]C(OF)OBr H298:-27.89 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)(F)CBr smiles:F[CH]CC(F)(F)CBr H298:-125.60 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)C(Br)(Br)Br smiles:F[CH]C(Br)C(Br)(Br)Br H298:5.15 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)OCBr smiles:F[CH]C(F)OCBr H298:-97.51 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)CCBr smiles:F[CH]C(F)CCBr H298:-70.45 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)C(F)[CH]F smiles:O=C(Br)C(F)[CH]F H298:-86.32 kcal/mol
+library:CHOFBr_G4 label:F[CH]COBr smiles:F[CH]COBr H298:-15.89 kcal/mol
 library:CHOFBr_G4 label:F[CH]C(F)(OF)OBr smiles:F[CH]C(F)(OF)OBr H298:-79.25 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C(F)(Br)[CH]F smiles:CC(Br)C(F)(Br)[CH]F H298:-66.16 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)OCBr smiles:F[CH]C(F)(F)OCBr H298:-150.52 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(Br)(Br)CBr smiles:F[CH]CC(Br)(Br)CBr H298:-15.17 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)CCBr smiles:F[CH]C(F)(F)CCBr H298:-122.63 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)(Br)OBr smiles:F[CH]C(Br)(Br)OBr H298:-4.36 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)(OBr)OBr smiles:F[CH]C(Br)(OBr)OBr H298:-17.34 kcal/mol
-library:CHOFBr_G4 label:CCC(F)(Br)[CH]F smiles:CCC(F)(Br)[CH]F H298:-71.81 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)[CH]F smiles:CC(Br)(Br)[CH]F H298:-13.66 kcal/mol
-library:CHOFBr_G4 label:OC(F)([CH]F)C(Br)Br smiles:OC(F)([CH]F)C(Br)Br H298:-100.20 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(F)CBr smiles:F[CH]C(F)C(F)CBr H298:-114.42 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(Br)CBr smiles:F[CH]CC(Br)CBr H298:-21.02 kcal/mol
-library:CHOFBr_G4 label:F[CH]COC(F)Br smiles:F[CH]COC(F)Br H298:-94.99 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)C(F)[CH]F smiles:CC(Br)(Br)C(F)[CH]F H298:-65.22 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C(F)[CH]F smiles:CC(Br)C(F)[CH]F H298:-71.89 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(Br)[CH]F smiles:OC(Br)C(Br)[CH]F H298:-53.98 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)C(Br)Br smiles:F[CH]CC(F)C(Br)Br H298:-62.90 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)(F)CBr smiles:F[CH]C(F)(F)CBr H298:-114.88 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)C(Br)[CH]F smiles:OC(Br)(Br)C(Br)[CH]F H298:-46.89 kcal/mol
-library:CHOFBr_G4 label:ODCC(F)(Br)[CH]F smiles:O=CC(F)(Br)[CH]F H298:-75.96 kcal/mol
-library:CHOFBr_G4 label:CC(F)([CH]F)C(F)Br smiles:CC(F)([CH]F)C(F)Br H298:-116.97 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(Br)Br smiles:F[CH]C(Br)Br H298:-3.60 kcal/mol
-library:CHOFBr_G4 label:F[CH]CCCBr smiles:F[CH]CCCBr H298:-24.03 kcal/mol
-library:CHOFBr_G4 label:OC([CH]F)C(Br)Br smiles:OC([CH]F)C(Br)Br H298:-49.05 kcal/mol
-library:CHOFBr_G4 label:OC([CH]F)C(Br)(Br)Br smiles:OC([CH]F)C(Br)(Br)Br H298:-38.39 kcal/mol
-library:CHOFBr_G4 label:F[CH]CC(F)CBr smiles:F[CH]CC(F)CBr H298:-70.77 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)C(Br)CBr smiles:F[CH]C(F)C(Br)CBr H298:-65.56 kcal/mol
-library:CHOFBr_G4 label:CC([CH]F)CBr smiles:CC([CH]F)CBr H298:-24.65 kcal/mol
-library:CHOFBr_G4 label:F[CH]COCBr smiles:F[CH]COCBr H298:-46.00 kcal/mol
-library:CHOFBr_G4 label:F[CH]C(F)OC(F)Br smiles:F[CH]C(F)OC(F)Br H298:-145.06 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C(F)(Br)[CH]F smiles:CC(Br)C(F)(Br)[CH]F H298:-66.09 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)OCBr smiles:F[CH]C(F)(F)OCBr H298:-150.50 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(Br)(Br)CBr smiles:F[CH]CC(Br)(Br)CBr H298:-15.08 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)CCBr smiles:F[CH]C(F)(F)CCBr H298:-122.61 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)(Br)OBr smiles:F[CH]C(Br)(Br)OBr H298:-4.33 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)(OBr)OBr smiles:F[CH]C(Br)(OBr)OBr H298:-17.31 kcal/mol
+library:CHOFBr_G4 label:CCC(F)(Br)[CH]F smiles:CCC(F)(Br)[CH]F H298:-71.76 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)[CH]F smiles:CC(Br)(Br)[CH]F H298:-13.59 kcal/mol
+library:CHOFBr_G4 label:OC(F)([CH]F)C(Br)Br smiles:OC(F)([CH]F)C(Br)Br H298:-100.17 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(F)CBr smiles:F[CH]C(F)C(F)CBr H298:-114.40 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(Br)CBr smiles:F[CH]CC(Br)CBr H298:-20.95 kcal/mol
+library:CHOFBr_G4 label:F[CH]COC(F)Br smiles:F[CH]COC(F)Br H298:-94.98 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)C(F)[CH]F smiles:CC(Br)(Br)C(F)[CH]F H298:-65.15 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C(F)[CH]F smiles:CC(Br)C(F)[CH]F H298:-71.86 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(Br)[CH]F smiles:OC(Br)C(Br)[CH]F H298:-53.91 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)C(Br)Br smiles:F[CH]CC(F)C(Br)Br H298:-63.18 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)(F)CBr smiles:F[CH]C(F)(F)CBr H298:-114.86 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)C(Br)[CH]F smiles:OC(Br)(Br)C(Br)[CH]F H298:-46.79 kcal/mol
+library:CHOFBr_G4 label:ODCC(F)(Br)[CH]F smiles:O=CC(F)(Br)[CH]F H298:-75.92 kcal/mol
+library:CHOFBr_G4 label:CC(F)([CH]F)C(F)Br smiles:CC(F)([CH]F)C(F)Br H298:-116.94 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(Br)Br smiles:F[CH]C(Br)Br H298:-3.55 kcal/mol
+library:CHOFBr_G4 label:F[CH]CCCBr smiles:F[CH]CCCBr H298:-24.01 kcal/mol
+library:CHOFBr_G4 label:OC([CH]F)C(Br)Br smiles:OC([CH]F)C(Br)Br H298:-48.99 kcal/mol
+library:CHOFBr_G4 label:OC([CH]F)C(Br)(Br)Br smiles:OC([CH]F)C(Br)(Br)Br H298:-38.31 kcal/mol
+library:CHOFBr_G4 label:F[CH]CC(F)CBr smiles:F[CH]CC(F)CBr H298:-70.75 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)C(Br)CBr smiles:F[CH]C(F)C(Br)CBr H298:-66.90 kcal/mol
+library:CHOFBr_G4 label:CC([CH]F)CBr smiles:CC([CH]F)CBr H298:-24.62 kcal/mol
+library:CHOFBr_G4 label:F[CH]COCBr smiles:F[CH]COCBr H298:-45.97 kcal/mol
+library:CHOFBr_G4 label:F[CH]C(F)OC(F)Br smiles:F[CH]C(F)OC(F)Br H298:-145.04 kcal/mol
 """,
 )
 
@@ -4260,74 +4323,84 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.366681,-1.46456,-2.2701,-2.92239,-3.86779,-4.44122,-5.05783],'cal/(mol*K)','+|-',[0.127605,0.131018,0.122845,0.11474,0.101261,0.0886106,0.0649003]),
-        H298 = (94.1527,'kcal/mol','+|-',0.203848),
-        S298 = (4.19277,'cal/(mol*K)','+|-',0.34643),
+        Cpdata = ([-0.74509,-1.82789,-2.57587,-3.16217,-3.98004,-4.45021,-4.89864],'cal/(mol*K)','+|-',[0.120271,0.123075,0.115278,0.107616,0.0949009,0.0830649,0.0621157]),
+        H298 = (93.9799,'kcal/mol','+|-',0.187306),
+        S298 = (3.71068,'cal/(mol*K)','+|-',0.281867),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
 library:CHOBr_G4 label:BrCO[C](Br)C(Br)Br smiles:BrCO[C](Br)C(Br)Br H298:7.61 kcal/mol
-library:CHOBr_G4 label:BrC[C](Br)OC(Br)Br smiles:BrC[C](Br)OC(Br)Br H298:7.68 kcal/mol
-library:CHOBr_G4 label:C[C](Br)OC(Br)Br smiles:C[C](Br)OC(Br)Br H298:2.36 kcal/mol
-library:CHOBr_G4 label:CO[C](Br)C(Br)Br smiles:CO[C](Br)C(Br)Br H298:3.27 kcal/mol
-library:CHOBr_G4 label:O[C](Br)CC(Br)Br smiles:O[C](Br)CC(Br)Br H298:-7.44 kcal/mol
-library:CHOBr_G4 label:O[C](Br)COBr smiles:O[C](Br)COBr H298:-11.59 kcal/mol
-library:CHOBr_G4 label:C[C](O)Br smiles:C[C](O)Br H298:-14.03 kcal/mol
-library:CHOBr_G4 label:O[C](Br)CCBr smiles:O[C](Br)CCBr H298:-14.44 kcal/mol
-library:CHOBr_G4 label:CC[C](O)Br smiles:CC[C](O)Br H298:-19.47 kcal/mol
-library:CHOBr_G4 label:BrCO[C](Br)CBr smiles:BrCO[C](Br)CBr H298:-1.00 kcal/mol
-library:CHOBr_G4 label:O[C](Br)CBr smiles:O[C](Br)CBr H298:-8.48 kcal/mol
-library:CHOBr_G4 label:CO[C](C)Br smiles:CO[C](C)Br H298:-10.50 kcal/mol
-library:CHOBr_G4 label:CO[C](Br)CBr smiles:CO[C](Br)CBr H298:-5.03 kcal/mol
-library:CHOBr_G4 label:O[C](Br)C(Br)OBr smiles:O[C](Br)C(Br)OBr H298:-7.39 kcal/mol
-library:CHOBr_G4 label:OC[C](O)Br smiles:OC[C](O)Br H298:-48.09 kcal/mol
-library:CHOBr_G4 label:C[C](Br)OCBr smiles:C[C](Br)OCBr H298:-6.22 kcal/mol
-library:CHOFClBr_G4 label:CO[C](Br)C(F)Cl smiles:CO[C](Br)C(F)Cl H298:-59.39 kcal/mol
+library:CHOBr_G4 label:BrC[C](Br)OC(Br)Br smiles:BrC[C](Br)OC(Br)Br H298:7.69 kcal/mol
+library:CHOBr_G4 label:C[C](Br)OC(Br)Br smiles:C[C](Br)OC(Br)Br H298:2.39 kcal/mol
+library:CHOBr_G4 label:CO[C](Br)C(Br)Br smiles:CO[C](Br)C(Br)Br H298:3.32 kcal/mol
+library:CHOBr_G4 label:O[C](Br)CC(Br)Br smiles:O[C](Br)CC(Br)Br H298:-7.39 kcal/mol
+library:CHOBr_G4 label:O[C](Br)COBr smiles:O[C](Br)COBr H298:-11.60 kcal/mol
+library:CHOBr_G4 label:C[C](O)Br smiles:C[C](O)Br H298:-14.00 kcal/mol
+library:CHOBr_G4 label:O[C](Br)CCBr smiles:O[C](Br)CCBr H298:-14.40 kcal/mol
+library:CHOBr_G4 label:CC[C](O)Br smiles:CC[C](O)Br H298:-19.44 kcal/mol
+library:CHOBr_G4 label:BrCO[C](Br)CBr smiles:BrCO[C](Br)CBr H298:-0.97 kcal/mol
+library:CHOBr_G4 label:O[C](Br)CBr smiles:O[C](Br)CBr H298:-8.43 kcal/mol
+library:CHOBr_G4 label:CO[C](C)Br smiles:CO[C](C)Br H298:-10.46 kcal/mol
+library:CHOBr_G4 label:CO[C](Br)CBr smiles:CO[C](Br)CBr H298:-4.98 kcal/mol
+library:CHOBr_G4 label:O[C](Br)C(Br)OBr smiles:O[C](Br)C(Br)OBr H298:-7.38 kcal/mol
+library:CHOBr_G4 label:OC[C](O)Br smiles:OC[C](O)Br H298:-48.06 kcal/mol
+library:CHOBr_G4 label:C[C](Br)OCBr smiles:C[C](Br)OCBr H298:-6.19 kcal/mol
+library:CHOFClBr_G4 label:CO[C](Br)C(F)Cl smiles:CO[C](Br)C(F)Cl H298:-59.36 kcal/mol
 library:CHOFClBr_G4 label:CC(F)(Cl)[C](O)Br smiles:CC(F)(Cl)[C](O)Br H298:-74.49 kcal/mol
-library:CHOFClBr_G4 label:O[C](Br)C(F)Cl smiles:O[C](Br)C(F)Cl H298:-62.32 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)CC(F)(F)Br smiles:O[C](Br)CC(F)(F)Br H298:-110.74 kcal/mol
-library:CHOFBr_G4 label:CO[C](Br)C(F)(F)Br smiles:CO[C](Br)C(F)(F)Br H298:-97.71 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)CC(F)Br smiles:O[C](Br)CC(F)Br H298:-59.20 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)CC(F)(Br)Br smiles:O[C](Br)CC(F)(Br)Br H298:-51.28 kcal/mol
-library:CHOFBr_G4 label:CO[C](Br)C(F)(F)F smiles:CO[C](Br)C(F)(F)F H298:-160.16 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(F)C(F)F smiles:O[C](Br)C(F)C(F)F H298:-159.34 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(F)(Br)Br smiles:O[C](Br)C(F)(Br)Br H298:-41.92 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(F)Br smiles:O[C](Br)C(F)Br H298:-49.86 kcal/mol
-library:CHOFBr_G4 label:CC(F)[C](O)Br smiles:CC(F)[C](O)Br H298:-65.88 kcal/mol
-library:CHOFBr_G4 label:CO[C](Br)CF smiles:CO[C](Br)CF H298:-51.80 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(F)CF smiles:O[C](Br)C(F)CF H298:-106.61 kcal/mol
-library:CHOFBr_G4 label:FC(F)[C](Br)OCBr smiles:FC(F)[C](Br)OCBr H298:-98.18 kcal/mol
-library:CHOFBr_G4 label:CC(F)(F)[C](O)Br smiles:CC(F)(F)[C](O)Br H298:-119.74 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(F)(Br)CF smiles:O[C](Br)C(F)(Br)CF H298:-100.40 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)CCF smiles:O[C](Br)CCF H298:-62.82 kcal/mol
-library:CHOFBr_G4 label:FC(Br)[C](Br)OCBr smiles:FC(Br)[C](Br)OCBr H298:-42.23 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)CC(F)F smiles:O[C](Br)CC(F)F H298:-116.66 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(F)(F)CF smiles:O[C](Br)C(F)(F)CF H298:-159.33 kcal/mol
-library:CHOFBr_G4 label:CO[C](Br)C(F)(Br)Br smiles:CO[C](Br)C(F)(Br)Br H298:-39.30 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)CC(F)(F)F smiles:O[C](Br)CC(F)(F)F H298:-175.26 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(Br)CF smiles:O[C](Br)C(Br)CF H298:-58.88 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)[C](O)Br smiles:CC(F)(Br)[C](O)Br H298:-62.71 kcal/mol
-library:CHOFBr_G4 label:CO[C](Br)C(F)F smiles:CO[C](Br)C(F)F H298:-103.45 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(Br)C(F)F smiles:O[C](Br)C(Br)C(F)F H298:-111.75 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)CF smiles:O[C](Br)CF H298:-55.24 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(F)(F)F smiles:O[C](Br)C(F)(F)F H298:-162.90 kcal/mol
-library:CHOFBr_G4 label:FC[C](Br)OCBr smiles:FC[C](Br)OCBr H298:-47.32 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(Br)C(F)Br smiles:O[C](Br)C(Br)C(F)Br H298:-51.73 kcal/mol
-library:CHOFBr_G4 label:FC[C](Br)OC(Br)Br smiles:FC[C](Br)OC(Br)Br H298:-38.13 kcal/mol
-library:CHOFBr_G4 label:O[C](Br)C(F)F smiles:O[C](Br)C(F)F H298:-106.53 kcal/mol
-library:CHOFBr_G4 label:CO[C](Br)C(F)Br smiles:CO[C](Br)C(F)Br H298:-47.35 kcal/mol
-library:CHOClBr_G4 label:O[C](Br)C(Cl)Cl smiles:O[C](Br)C(Cl)Cl H298:-21.67 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Br)OCBr smiles:ClC[C](Br)OCBr H298:-11.00 kcal/mol
-library:CHOClBr_G4 label:CO[C](Br)CCl smiles:CO[C](Br)CCl H298:-15.27 kcal/mol
-library:CHOClBr_G4 label:CO[C](Br)C(Cl)Br smiles:CO[C](Br)C(Cl)Br H298:-7.76 kcal/mol
-library:CHOClBr_G4 label:O[C](Br)CCl smiles:O[C](Br)CCl H298:-18.76 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)(Cl)[C](O)Br smiles:CC(Cl)(Cl)[C](O)Br H298:-32.62 kcal/mol
-library:CHOClBr_G4 label:O[C](Br)CCCl smiles:O[C](Br)CCCl H298:-25.02 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)[C](O)Br smiles:CC(Cl)[C](O)Br H298:-27.70 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)(Br)[C](O)Br smiles:CC(Cl)(Br)[C](O)Br H298:-20.86 kcal/mol
-library:CHOClBr_G4 label:CO[C](Br)C(Cl)Cl smiles:CO[C](Br)C(Cl)Cl H298:-18.56 kcal/mol
+library:CHOFClBr_G4 label:O[C](Br)C(F)(Cl)Br smiles:O[C](Br)C(F)(Cl)Br H298:-54.63 kcal/mol
+library:CHOFClBr_G4 label:O[C](Br)C(F)(F)Cl smiles:O[C](Br)C(F)(F)Cl H298:-113.64 kcal/mol
+library:CHOFClBr_G4 label:O[C](Br)C(F)Cl smiles:O[C](Br)C(F)Cl H298:-62.31 kcal/mol
+library:CHOFClBr_G4 label:O[C](Br)C(F)(Cl)Cl smiles:O[C](Br)C(F)(Cl)Cl H298:-66.59 kcal/mol
+library:CHOFClBr_G4 label:O[C](Br)C(Cl)CF smiles:O[C](Br)C(Cl)CF H298:-69.12 kcal/mol
+library:CHOFClBr_G4 label:O[C](Br)CC(F)Cl smiles:O[C](Br)CC(F)Cl H298:-72.30 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)CC(F)(F)Br smiles:O[C](Br)CC(F)(F)Br H298:-110.70 kcal/mol
+library:CHOFBr_G4 label:CO[C](Br)C(F)(F)Br smiles:CO[C](Br)C(F)(F)Br H298:-97.68 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)CC(F)Br smiles:O[C](Br)CC(F)Br H298:-59.16 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)CC(F)(Br)Br smiles:O[C](Br)CC(F)(Br)Br H298:-51.23 kcal/mol
+library:CHOFBr_G4 label:CO[C](Br)C(F)(F)F smiles:CO[C](Br)C(F)(F)F H298:-160.13 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(F)C(F)F smiles:O[C](Br)C(F)C(F)F H298:-159.32 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(F)(Br)Br smiles:O[C](Br)C(F)(Br)Br H298:-41.88 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(F)Br smiles:O[C](Br)C(F)Br H298:-49.81 kcal/mol
+library:CHOFBr_G4 label:CC(F)[C](O)Br smiles:CC(F)[C](O)Br H298:-65.86 kcal/mol
+library:CHOFBr_G4 label:CO[C](Br)CF smiles:CO[C](Br)CF H298:-51.77 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(F)CF smiles:O[C](Br)C(F)CF H298:-106.59 kcal/mol
+library:CHOFBr_G4 label:FC(F)[C](Br)OCBr smiles:FC(F)[C](Br)OCBr H298:-98.15 kcal/mol
+library:CHOFBr_G4 label:CC(F)(F)[C](O)Br smiles:CC(F)(F)[C](O)Br H298:-119.71 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(F)(Br)CF smiles:O[C](Br)C(F)(Br)CF H298:-100.34 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)CCF smiles:O[C](Br)CCF H298:-62.79 kcal/mol
+library:CHOFBr_G4 label:FC(Br)[C](Br)OCBr smiles:FC(Br)[C](Br)OCBr H298:-42.20 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)CC(F)F smiles:O[C](Br)CC(F)F H298:-116.64 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(F)(F)CF smiles:O[C](Br)C(F)(F)CF H298:-159.31 kcal/mol
+library:CHOFBr_G4 label:CO[C](Br)C(F)(Br)Br smiles:CO[C](Br)C(F)(Br)Br H298:-39.24 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)CC(F)(F)F smiles:O[C](Br)CC(F)(F)F H298:-175.24 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(Br)CF smiles:O[C](Br)C(Br)CF H298:-58.82 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)[C](O)Br smiles:CC(F)(Br)[C](O)Br H298:-62.67 kcal/mol
+library:CHOFBr_G4 label:CO[C](Br)C(F)F smiles:CO[C](Br)C(F)F H298:-103.42 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(Br)C(F)F smiles:O[C](Br)C(Br)C(F)F H298:-111.72 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)CF smiles:O[C](Br)CF H298:-55.22 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(F)(F)F smiles:O[C](Br)C(F)(F)F H298:-162.88 kcal/mol
+library:CHOFBr_G4 label:FC[C](Br)OCBr smiles:FC[C](Br)OCBr H298:-47.30 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(Br)C(F)Br smiles:O[C](Br)C(Br)C(F)Br H298:-51.56 kcal/mol
+library:CHOFBr_G4 label:FC[C](Br)OC(Br)Br smiles:FC[C](Br)OC(Br)Br H298:-38.11 kcal/mol
+library:CHOFBr_G4 label:O[C](Br)C(F)F smiles:O[C](Br)C(F)F H298:-106.51 kcal/mol
+library:CHOFBr_G4 label:CO[C](Br)C(F)Br smiles:CO[C](Br)C(F)Br H298:-47.30 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)C(Cl)Cl smiles:O[C](Br)C(Cl)Cl H298:-21.66 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)CC(Cl)Br smiles:O[C](Br)CC(Cl)Br H298:-19.26 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Br)OCBr smiles:ClC[C](Br)OCBr H298:-10.98 kcal/mol
+library:CHOClBr_G4 label:CO[C](Br)CCl smiles:CO[C](Br)CCl H298:-15.24 kcal/mol
+library:CHOClBr_G4 label:CO[C](Br)C(Cl)Br smiles:CO[C](Br)C(Cl)Br H298:-7.72 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)C(Cl)(Cl)Cl smiles:O[C](Br)C(Cl)(Cl)Cl H298:-22.64 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)CCl smiles:O[C](Br)CCl H298:-18.74 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)(Cl)[C](O)Br smiles:CC(Cl)(Cl)[C](O)Br H298:-32.61 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)CCCl smiles:O[C](Br)CCCl H298:-24.99 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)[C](O)Br smiles:CC(Cl)[C](O)Br H298:-27.69 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)(Br)[C](O)Br smiles:CC(Cl)(Br)[C](O)Br H298:-20.83 kcal/mol
+library:CHOClBr_G4 label:CO[C](Br)C(Cl)Cl smiles:CO[C](Br)C(Cl)Cl H298:-18.53 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)C(Cl)CCl smiles:O[C](Br)C(Cl)CCl H298:-30.73 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)C(Br)CCl smiles:O[C](Br)C(Br)CCl H298:-21.40 kcal/mol
+library:CHOClBr_G4 label:O[C](Br)CC(Cl)Cl smiles:O[C](Br)CC(Cl)Cl H298:-30.83 kcal/mol
 """,
 )
 
@@ -4343,9 +4416,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.10357,-1.13143,-2.01657,-2.71765,-3.69589,-4.29486,-5.00487],'cal/(mol*K)','+|-',[0.133279,0.136844,0.128308,0.119842,0.105763,0.0925508,0.0677862]),
-        H298 = (94.4051,'kcal/mol','+|-',0.212912),
-        S298 = (3.43196,'cal/(mol*K)','+|-',0.361835),
+        Cpdata = ([-0.137892,-1.16515,-2.04237,-2.73491,-3.7006,-4.29115,-4.98641],'cal/(mol*K)','+|-',[0.134468,0.137602,0.128885,0.120318,0.106102,0.0928694,0.0694474]),
+        H298 = (94.3874,'kcal/mol','+|-',0.209415),
+        S298 = (3.4988,'cal/(mol*K)','+|-',0.315137),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -4400,12 +4473,13 @@ library:CHOFCl_G4 label:CO[C](Cl)C(F)Cl smiles:CO[C](Cl)C(F)Cl H298:-71.01 kcal/
 library:CHOFCl_G4 label:O[C](Cl)CF smiles:O[C](Cl)CF H298:-68.00 kcal/mol
 library:CHOFCl_G4 label:CC(F)(Cl)[C](O)Cl smiles:CC(F)(Cl)[C](O)Cl H298:-86.86 kcal/mol
 library:CHOFCl_G4 label:O[C](Cl)CCF smiles:O[C](Cl)CCF H298:-75.27 kcal/mol
-library:CHOFClBr_G4 label:FC[C](Cl)OCBr smiles:FC[C](Cl)OCBr H298:-59.40 kcal/mol
-library:CHOClBr_G4 label:O[C](Cl)COBr smiles:O[C](Cl)COBr H298:-23.29 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Cl)OCBr smiles:ClC[C](Cl)OCBr H298:-22.95 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)OC(Cl)Br smiles:C[C](Cl)OC(Cl)Br H298:-22.02 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)OCBr smiles:C[C](Cl)OCBr H298:-18.31 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)OC(Br)Br smiles:C[C](Cl)OC(Br)Br H298:-9.63 kcal/mol
+library:CHOFClBr_G4 label:FC[C](Cl)OCBr smiles:FC[C](Cl)OCBr H298:-59.39 kcal/mol
+library:CHOClBr_G4 label:O[C](Cl)COBr smiles:O[C](Cl)COBr H298:-23.30 kcal/mol
+library:CHOClBr_G4 label:O[C](Cl)C(Br)OBr smiles:O[C](Cl)C(Br)OBr H298:-18.48 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Cl)OCBr smiles:ClC[C](Cl)OCBr H298:-22.94 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)OC(Cl)Br smiles:C[C](Cl)OC(Cl)Br H298:-22.00 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)OCBr smiles:C[C](Cl)OCBr H298:-18.29 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)OC(Br)Br smiles:C[C](Cl)OC(Br)Br H298:-9.60 kcal/mol
 """,
 )
 
@@ -4421,9 +4495,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.0614432,-1.27015,-2.21882,-2.91799,-3.86605,-4.454,-5.16472],'cal/(mol*K)','+|-',[0.13577,0.139402,0.130706,0.122083,0.10774,0.0942808,0.0690533]),
-        H298 = (98.7355,'kcal/mol','+|-',0.216892),
-        S298 = (3.48611,'cal/(mol*K)','+|-',0.368599),
+        Cpdata = ([-0.0735327,-1.27866,-2.21889,-2.90854,-3.84402,-4.426,-5.13878],'cal/(mol*K)','+|-',[0.138221,0.141442,0.132482,0.123676,0.109064,0.0954616,0.0713859]),
+        H298 = (98.7383,'kcal/mol','+|-',0.21526),
+        S298 = (3.48663,'cal/(mol*K)','+|-',0.323933),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -4470,18 +4544,18 @@ library:CHOFCl_G4 label:FC[C](F)OCCl smiles:FC[C](F)OCCl H298:-110.50 kcal/mol
 library:CHOFCl_G4 label:C[C](F)OCCl smiles:C[C](F)OCCl H298:-70.48 kcal/mol
 library:CHOFCl_G4 label:C[C](F)OC(F)Cl smiles:C[C](F)OC(F)Cl H298:-119.89 kcal/mol
 library:CHOFCl_G4 label:C[C](F)OC(Cl)Cl smiles:C[C](F)OC(Cl)Cl H298:-74.85 kcal/mol
-library:CHOFClBr_G4 label:C[C](F)OC(Cl)Br smiles:C[C](F)OC(Cl)Br H298:-62.29 kcal/mol
-library:CHOFBr_G4 label:C[C](F)OC(Br)Br smiles:C[C](F)OC(Br)Br H298:-49.90 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)OC(F)Br smiles:FC[C](F)OC(F)Br H298:-146.03 kcal/mol
-library:CHOFBr_G4 label:C[C](F)OC(F)(F)Br smiles:C[C](F)OC(F)(F)Br H298:-160.03 kcal/mol
-library:CHOFBr_G4 label:C[C](F)OC(F)(Br)Br smiles:C[C](F)OC(F)(Br)Br H298:-96.79 kcal/mol
-library:CHOFBr_G4 label:C[C](F)OC(Br)(Br)Br smiles:C[C](F)OC(Br)(Br)Br H298:-37.98 kcal/mol
-library:CHOFBr_G4 label:O[C](F)C(F)(Br)OBr smiles:O[C](F)C(F)(Br)OBr H298:-108.23 kcal/mol
-library:CHOFBr_G4 label:C[C](F)OC(F)Br smiles:C[C](F)OC(F)Br H298:-106.79 kcal/mol
-library:CHOFBr_G4 label:C[C](F)OCBr smiles:C[C](F)OCBr H298:-58.71 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)OCBr smiles:FC[C](F)OCBr H298:-98.70 kcal/mol
-library:CHOFBr_G4 label:O[C](F)COBr smiles:O[C](F)COBr H298:-63.38 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)OC(Br)Br smiles:FC[C](F)OC(Br)Br H298:-89.16 kcal/mol
+library:CHOFClBr_G4 label:C[C](F)OC(Cl)Br smiles:C[C](F)OC(Cl)Br H298:-62.28 kcal/mol
+library:CHOFBr_G4 label:C[C](F)OC(Br)Br smiles:C[C](F)OC(Br)Br H298:-49.88 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)OC(F)Br smiles:FC[C](F)OC(F)Br H298:-146.02 kcal/mol
+library:CHOFBr_G4 label:C[C](F)OC(F)(F)Br smiles:C[C](F)OC(F)(F)Br H298:-160.01 kcal/mol
+library:CHOFBr_G4 label:C[C](F)OC(F)(Br)Br smiles:C[C](F)OC(F)(Br)Br H298:-96.76 kcal/mol
+library:CHOFBr_G4 label:C[C](F)OC(Br)(Br)Br smiles:C[C](F)OC(Br)(Br)Br H298:-37.94 kcal/mol
+library:CHOFBr_G4 label:O[C](F)C(F)(Br)OBr smiles:O[C](F)C(F)(Br)OBr H298:-108.21 kcal/mol
+library:CHOFBr_G4 label:C[C](F)OC(F)Br smiles:C[C](F)OC(F)Br H298:-106.78 kcal/mol
+library:CHOFBr_G4 label:C[C](F)OCBr smiles:C[C](F)OCBr H298:-58.70 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)OCBr smiles:FC[C](F)OCBr H298:-98.69 kcal/mol
+library:CHOFBr_G4 label:O[C](F)COBr smiles:O[C](F)COBr H298:-63.40 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)OC(Br)Br smiles:FC[C](F)OC(Br)Br H298:-89.14 kcal/mol
 """,
 )
 
@@ -4497,21 +4571,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.855573,-1.68274,-2.30135,-2.78438,-3.52715,-4.06092,-4.83049],'cal/(mol*K)','+|-',[0.349461,0.358807,0.336425,0.314229,0.277314,0.24267,0.177737]),
-        H298 = (85.5773,'kcal/mol','+|-',0.55826),
-        S298 = (3.92811,'cal/(mol*K)','+|-',0.948739),
+        Cpdata = ([-0.82572,-1.62914,-2.25211,-2.76149,-3.54279,-4.07997,-4.80955],'cal/(mol*K)','+|-',[0.355768,0.36406,0.340997,0.318332,0.280721,0.245709,0.183741]),
+        H298 = (85.5595,'kcal/mol','+|-',0.55406),
+        S298 = (3.73091,'cal/(mol*K)','+|-',0.833775),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:BrC#C[C](Br)CBr smiles:BrC#C[C](Br)CBr H298:95.31 kcal/mol
-library:CHOBr_G4 label:C[C](Br)C#CBr smiles:C[C](Br)C#CBr H298:89.46 kcal/mol
-library:CHOBr_G4 label:C#C[C](Br)CBr smiles:C#C[C](Br)CBr H298:85.33 kcal/mol
+library:CHOBr_G4 label:BrC#C[C](Br)CBr smiles:BrC#C[C](Br)CBr H298:95.29 kcal/mol
+library:CHOBr_G4 label:C[C](Br)C#CBr smiles:C[C](Br)C#CBr H298:89.44 kcal/mol
+library:CHOBr_G4 label:C#C[C](Br)CBr smiles:C#C[C](Br)CBr H298:85.37 kcal/mol
 library:CHOBr_G4 label:C#C[C](C)Br smiles:C#C[C](C)Br H298:79.20 kcal/mol
-library:CHOFBr_G4 label:FC#C[C](Br)CBr smiles:FC#C[C](Br)CBr H298:58.24 kcal/mol
-library:CHOFBr_G4 label:FC#C[C](Br)C(Br)Br smiles:FC#C[C](Br)C(Br)Br H298:66.36 kcal/mol
-library:CHOFBr_G4 label:C[C](Br)C#CF smiles:C[C](Br)C#CF H298:52.54 kcal/mol
+library:CHOFBr_G4 label:FC#C[C](Br)CBr smiles:FC#C[C](Br)CBr H298:58.29 kcal/mol
+library:CHOFBr_G4 label:FC#C[C](Br)C(Br)Br smiles:FC#C[C](Br)C(Br)Br H298:66.41 kcal/mol
+library:CHOFBr_G4 label:C[C](Br)C#CF smiles:C[C](Br)C#CF H298:52.56 kcal/mol
 library:CHOClBr_G4 label:C[C](Br)C#CCl smiles:C[C](Br)C#CCl H298:78.67 kcal/mol
 """,
 )
@@ -4528,9 +4602,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.350307,-1.14379,-1.85988,-2.46117,-3.38361,-4.01596,-4.82728],'cal/(mol*K)','+|-',[0.285333,0.292964,0.27469,0.256567,0.226426,0.198139,0.145122]),
-        H298 = (85.0272,'kcal/mol','+|-',0.455817),
-        S298 = (4.01523,'cal/(mol*K)','+|-',0.774642),
+        Cpdata = ([-0.341286,-1.14288,-1.85552,-2.44808,-3.3592,-3.98766,-4.79635],'cal/(mol*K)','+|-',[0.279087,0.285592,0.2675,0.24972,0.220215,0.19275,0.144138]),
+        H298 = (84.9763,'kcal/mol','+|-',0.43464),
+        S298 = (4.00135,'cal/(mol*K)','+|-',0.654067),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -4546,8 +4620,9 @@ library:CHOCl_G4 label:ClC#C[C](Cl)C(Cl)(Cl)Cl smiles:ClC#C[C](Cl)C(Cl)(Cl)Cl H2
 library:CHOCl_G4 label:ClC#C[C](Cl)CCl smiles:ClC#C[C](Cl)CCl H298:62.87 kcal/mol
 library:CHOFCl_G4 label:FC#C[C](Cl)CCl smiles:FC#C[C](Cl)CCl H298:36.53 kcal/mol
 library:CHOFCl_G4 label:C[C](Cl)C#CF smiles:C[C](Cl)C#CF H298:40.76 kcal/mol
-library:CHOFClBr_G4 label:FC#C[C](Cl)CBr smiles:FC#C[C](Cl)CBr H298:46.61 kcal/mol
-library:CHOClBr_G4 label:C#C[C](Cl)CBr smiles:C#C[C](Cl)CBr H298:73.72 kcal/mol
+library:CHOFClBr_G4 label:FC#C[C](Cl)CBr smiles:FC#C[C](Cl)CBr H298:46.64 kcal/mol
+library:CHOClBr_G4 label:C#C[C](Cl)CBr smiles:C#C[C](Cl)CBr H298:73.75 kcal/mol
+library:CHOClBr_G4 label:C#C[C](Cl)C(Cl)Br smiles:C#C[C](Cl)C(Cl)Br H298:71.55 kcal/mol
 """,
 )
 
@@ -4563,9 +4638,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0421806,-0.803368,-1.58195,-2.23561,-3.19758,-3.85864,-4.81732],'cal/(mol*K)','+|-',[0.239728,0.246139,0.230786,0.21556,0.190236,0.16647,0.121926]),
-        H298 = (88.1641,'kcal/mol','+|-',0.382963),
-        S298 = (4.67363,'cal/(mol*K)','+|-',0.650829),
+        Cpdata = ([0.0249493,-0.845945,-1.61613,-2.2443,-3.17493,-3.82744,-4.79528],'cal/(mol*K)','+|-',[0.237179,0.242706,0.227332,0.212221,0.187147,0.163806,0.122494]),
+        H298 = (88.1297,'kcal/mol','+|-',0.369373),
+        S298 = (4.37416,'cal/(mol*K)','+|-',0.55585),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -4580,14 +4655,15 @@ library:CHOF_G4 label:C#C[C](F)C(F)F smiles:C#C[C](F)C(F)F H298:-60.55 kcal/mol
 library:CHOF_G4 label:FC#C[C](F)C(F)(F)F smiles:FC#C[C](F)C(F)(F)F H298:-144.47 kcal/mol
 library:CHOFCl_G4 label:FC#C[C](F)CCl smiles:FC#C[C](F)CCl H298:0.01 kcal/mol
 library:CHOFCl_G4 label:C#C[C](F)CCl smiles:C#C[C](F)CCl H298:27.19 kcal/mol
-library:CHOFBr_G4 label:C#C[C](F)C(F)(F)Br smiles:C#C[C](F)C(F)(F)Br H298:-53.60 kcal/mol
-library:CHOFBr_G4 label:C#C[C](F)C(Br)Br smiles:C#C[C](F)C(Br)Br H298:46.59 kcal/mol
-library:CHOFBr_G4 label:C#C[C](F)C(F)Br smiles:C#C[C](F)C(F)Br H298:-3.85 kcal/mol
-library:CHOFBr_G4 label:C#C[C](F)CBr smiles:C#C[C](F)CBr H298:37.39 kcal/mol
-library:CHOFBr_G4 label:C#C[C](F)C(Br)(Br)Br smiles:C#C[C](F)C(Br)(Br)Br H298:58.30 kcal/mol
-library:CHOFBr_G4 label:FC#C[C](F)CBr smiles:FC#C[C](F)CBr H298:10.14 kcal/mol
-library:CHOFBr_G4 label:FC#C[C](F)C(F)Br smiles:FC#C[C](F)C(F)Br H298:-31.15 kcal/mol
-library:CHOFBr_G4 label:FC#C[C](F)C(Br)Br smiles:FC#C[C](F)C(Br)Br H298:19.40 kcal/mol
+library:CHOFClBr_G4 label:C#C[C](F)C(Cl)Br smiles:C#C[C](F)C(Cl)Br H298:36.13 kcal/mol
+library:CHOFBr_G4 label:C#C[C](F)C(F)(F)Br smiles:C#C[C](F)C(F)(F)Br H298:-53.57 kcal/mol
+library:CHOFBr_G4 label:C#C[C](F)C(Br)Br smiles:C#C[C](F)C(Br)Br H298:46.63 kcal/mol
+library:CHOFBr_G4 label:C#C[C](F)C(F)Br smiles:C#C[C](F)C(F)Br H298:-3.83 kcal/mol
+library:CHOFBr_G4 label:C#C[C](F)CBr smiles:C#C[C](F)CBr H298:37.42 kcal/mol
+library:CHOFBr_G4 label:C#C[C](F)C(Br)(Br)Br smiles:C#C[C](F)C(Br)(Br)Br H298:58.36 kcal/mol
+library:CHOFBr_G4 label:FC#C[C](F)CBr smiles:FC#C[C](F)CBr H298:10.17 kcal/mol
+library:CHOFBr_G4 label:FC#C[C](F)C(F)Br smiles:FC#C[C](F)C(F)Br H298:-31.12 kcal/mol
+library:CHOFBr_G4 label:FC#C[C](F)C(Br)Br smiles:FC#C[C](F)C(Br)Br H298:19.44 kcal/mol
 """,
 )
 
@@ -4603,15 +4679,15 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.508658,-1.28308,-1.85049,-2.32013,-3.01906,-3.47614,-4.05416],'cal/(mol*K)','+|-',[0.988423,1.01486,0.951553,0.888774,0.784361,0.686374,0.502715]),
-        H298 = (84.5326,'kcal/mol','+|-',1.579),
-        S298 = (0.463834,'cal/(mol*K)','+|-',2.68344),
+        Cpdata = ([-0.491933,-1.27165,-1.8412,-2.31263,-3.01427,-3.47314,-4.05317],'cal/(mol*K)','+|-',[1.00626,1.02972,0.964485,0.900377,0.793997,0.69497,0.519696]),
+        H298 = (84.5219,'kcal/mol','+|-',1.56712),
+        S298 = (-0.852262,'cal/(mol*K)','+|-',2.35827),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOFBr_G4 label:CDC(F)[C](C)Br smiles:C=C(F)[C](C)Br H298:-12.03 kcal/mol
+library:CHOFBr_G4 label:CDC(F)[C](C)Br smiles:C=C(F)[C](C)Br H298:-12.01 kcal/mol
 """,
 )
 
@@ -4627,9 +4703,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.06079,-1.4982,-1.89189,-2.24122,-2.85895,-3.30708,-3.98505],'cal/(mol*K)','+|-',[0.570667,0.585929,0.54938,0.513134,0.452851,0.396279,0.290243]),
-        H298 = (86.2725,'kcal/mol','+|-',0.911635),
-        S298 = (-0.0146229,'cal/(mol*K)','+|-',1.54928),
+        Cpdata = ([-1.06079,-1.4982,-1.89189,-2.24122,-2.85895,-3.30708,-3.98505],'cal/(mol*K)','+|-',[0.580966,0.594507,0.556846,0.519833,0.458415,0.401241,0.300047]),
+        H298 = (86.2725,'kcal/mol','+|-',0.904775),
+        S298 = (-0.0146229,'cal/(mol*K)','+|-',1.36155),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -4653,9 +4729,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.660954,-0.778589,-1.0872,-1.44258,-2.11558,-2.64316,-3.5592],'cal/(mol*K)','+|-',[0.285333,0.292964,0.27469,0.256567,0.226426,0.198139,0.145122]),
-        H298 = (85.1266,'kcal/mol','+|-',0.455817),
-        S298 = (0.936419,'cal/(mol*K)','+|-',0.774642),
+        Cpdata = ([-0.709084,-0.820436,-1.12575,-1.48307,-2.16704,-2.69205,-3.55538],'cal/(mol*K)','+|-',[0.279087,0.285592,0.2675,0.24972,0.220215,0.19275,0.144138]),
+        H298 = (84.9698,'kcal/mol','+|-',0.43464),
+        S298 = (0.628117,'cal/(mol*K)','+|-',0.654067),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -4667,12 +4743,13 @@ library:CHOF_G4 label:CDC(F)[C](C)F smiles:C=C(F)[C](C)F H298:-62.00 kcal/mol
 library:CHOF_G4 label:CDC(F)[C](F)C(F)F smiles:C=C(F)[C](F)C(F)F H298:-152.17 kcal/mol
 library:CHOFCl_G4 label:FCDC[C](F)CCl smiles:FC=C[C](F)CCl H298:-64.87 kcal/mol
 library:CHOFCl_G4 label:CDC[C](F)CCl smiles:C=C[C](F)CCl H298:-21.01 kcal/mol
-library:CHOFBr_G4 label:CDC[C](F)CBr smiles:C=C[C](F)CBr H298:-10.64 kcal/mol
-library:CHOFBr_G4 label:CDC[C](F)C(F)Br smiles:C=C[C](F)C(F)Br H298:-52.63 kcal/mol
+library:CHOFClBr_G4 label:CDC[C](F)C(Cl)Br smiles:C=C[C](F)C(Cl)Br H298:-13.24 kcal/mol
+library:CHOFBr_G4 label:CDC[C](F)CBr smiles:C=C[C](F)CBr H298:-10.60 kcal/mol
+library:CHOFBr_G4 label:CDC[C](F)C(F)Br smiles:C=C[C](F)C(F)Br H298:-52.59 kcal/mol
 library:CHOFBr_G4 label:F[C](CDC(F)F)CBr smiles:F[C](C=C(F)F)CBr H298:-100.61 kcal/mol
-library:CHOFBr_G4 label:CDC(F)[C](F)C(Br)Br smiles:C=C(F)[C](F)C(Br)Br H298:-45.72 kcal/mol
-library:CHOFBr_G4 label:CDC[C](F)C(Br)(Br)Br smiles:C=C[C](F)C(Br)(Br)Br H298:9.44 kcal/mol
-library:CHOFBr_G4 label:CDC(F)[C](F)C(F)Br smiles:C=C(F)[C](F)C(F)Br H298:-95.77 kcal/mol
+library:CHOFBr_G4 label:CDC(F)[C](F)C(Br)Br smiles:C=C(F)[C](F)C(Br)Br H298:-45.70 kcal/mol
+library:CHOFBr_G4 label:CDC[C](F)C(Br)(Br)Br smiles:C=C[C](F)C(Br)(Br)Br H298:9.48 kcal/mol
+library:CHOFBr_G4 label:CDC(F)[C](F)C(F)Br smiles:C=C(F)[C](F)C(F)Br H298:-95.75 kcal/mol
 """,
 )
 
@@ -4688,97 +4765,101 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.12453,-2.24419,-3.04822,-3.63799,-4.41618,-4.88254,-5.43646],'cal/(mol*K)','+|-',[0.108494,0.111395,0.104447,0.0975557,0.0860949,0.0753394,0.0551802]),
-        H298 = (94.6479,'kcal/mol','+|-',0.173318),
-        S298 = (5.7896,'cal/(mol*K)','+|-',0.294546),
+        Cpdata = ([-1.19507,-2.29895,-3.09853,-3.68635,-4.45283,-4.89673,-5.39291],'cal/(mol*K)','+|-',[0.107883,0.110397,0.103404,0.0965306,0.0851255,0.0745087,0.0557174]),
+        H298 = (94.5923,'kcal/mol','+|-',0.168013),
+        S298 = (5.86938,'cal/(mol*K)','+|-',0.252833),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:BrC[C](Br)COBr smiles:BrC[C](Br)COBr H298:24.77 kcal/mol
-library:CHOBr_G4 label:C[C](Br)CBr smiles:C[C](Br)CBr H298:24.01 kcal/mol
-library:CHOBr_G4 label:BrC[C](Br)C(Br)OBr smiles:BrC[C](Br)C(Br)OBr H298:28.95 kcal/mol
-library:CHOBr_G4 label:CC[C](Br)CBr smiles:CC[C](Br)CBr H298:18.81 kcal/mol
-library:CHOBr_G4 label:OC[C](Br)C(Br)Br smiles:OC[C](Br)C(Br)Br H298:-2.59 kcal/mol
+library:CHOBr_G4 label:BrC[C](Br)COBr smiles:BrC[C](Br)COBr H298:24.76 kcal/mol
+library:CHOBr_G4 label:C[C](Br)CBr smiles:C[C](Br)CBr H298:24.07 kcal/mol
+library:CHOBr_G4 label:BrC[C](Br)C(Br)OBr smiles:BrC[C](Br)C(Br)OBr H298:28.97 kcal/mol
+library:CHOBr_G4 label:CC[C](Br)CBr smiles:CC[C](Br)CBr H298:18.85 kcal/mol
+library:CHOBr_G4 label:OC[C](Br)C(Br)Br smiles:OC[C](Br)C(Br)Br H298:-2.57 kcal/mol
 library:CHOBr_G4 label:C[C](Br)COBr smiles:C[C](Br)COBr H298:20.98 kcal/mol
-library:CHOBr_G4 label:BrC[C](Br)CBr smiles:BrC[C](Br)CBr H298:29.56 kcal/mol
-library:CHOBr_G4 label:C[C](Br)C(Br)OBr smiles:C[C](Br)C(Br)OBr H298:22.93 kcal/mol
-library:CHOBr_G4 label:BrCC[C](Br)CBr smiles:BrCC[C](Br)CBr H298:23.01 kcal/mol
-library:CHOBr_G4 label:OC[C](Br)CBr smiles:OC[C](Br)CBr H298:-11.18 kcal/mol
-library:CHOBr_G4 label:C[C](Br)CO smiles:C[C](Br)CO H298:-14.83 kcal/mol
-library:CHOBr_G4 label:BrC[C](Br)C(Br)Br smiles:BrC[C](Br)C(Br)Br H298:37.69 kcal/mol
-library:CHOBr_G4 label:C[C](Br)C(C)Br smiles:C[C](Br)C(C)Br H298:15.80 kcal/mol
-library:CHOBr_G4 label:C[C](Br)C(Br)Br smiles:C[C](Br)C(Br)Br H298:31.48 kcal/mol
-library:CHOBr_G4 label:C[C](C)Br smiles:C[C](C)Br H298:20.79 kcal/mol
-library:CHOBr_G4 label:CC[C](C)Br smiles:CC[C](C)Br H298:15.49 kcal/mol
-library:CHOBr_G4 label:C[C](Br)CC(Br)Br smiles:C[C](Br)CC(Br)Br H298:25.42 kcal/mol
-library:CHOBr_G4 label:CC(Br)[C](Br)CBr smiles:CC(Br)[C](Br)CBr H298:20.58 kcal/mol
-library:CHOBr_G4 label:BrC[C](Br)CC(Br)Br smiles:BrC[C](Br)CC(Br)Br H298:29.79 kcal/mol
-library:CHOBr_G4 label:CC[C](Br)C(Br)Br smiles:CC[C](Br)C(Br)Br H298:25.74 kcal/mol
-library:CHOBr_G4 label:C[C](Br)C(Br)CBr smiles:C[C](Br)C(Br)CBr H298:20.77 kcal/mol
-library:CHOBr_G4 label:C[C](Br)CCBr smiles:C[C](Br)CCBr H298:19.87 kcal/mol
-library:CHOBr_G4 label:BrCC[C](Br)C(Br)Br smiles:BrCC[C](Br)C(Br)Br H298:30.20 kcal/mol
-library:CHOFClBr_G4 label:C[C](Br)C(F)(F)Cl smiles:C[C](Br)C(F)(F)Cl H298:-82.51 kcal/mol
-library:CHOFClBr_G4 label:FC(Cl)[C](Br)CBr smiles:FC(Cl)[C](Br)CBr H298:-24.53 kcal/mol
+library:CHOBr_G4 label:BrC[C](Br)CBr smiles:BrC[C](Br)CBr H298:29.55 kcal/mol
+library:CHOBr_G4 label:C[C](Br)C(Br)OBr smiles:C[C](Br)C(Br)OBr H298:22.94 kcal/mol
+library:CHOBr_G4 label:BrCC[C](Br)CBr smiles:BrCC[C](Br)CBr H298:23.05 kcal/mol
+library:CHOBr_G4 label:OC[C](Br)CBr smiles:OC[C](Br)CBr H298:-11.14 kcal/mol
+library:CHOBr_G4 label:C[C](Br)CO smiles:C[C](Br)CO H298:-14.81 kcal/mol
+library:CHOBr_G4 label:BrC[C](Br)C(Br)Br smiles:BrC[C](Br)C(Br)Br H298:37.74 kcal/mol
+library:CHOBr_G4 label:C[C](Br)C(C)Br smiles:C[C](Br)C(C)Br H298:15.89 kcal/mol
+library:CHOBr_G4 label:C[C](Br)C(Br)Br smiles:C[C](Br)C(Br)Br H298:31.53 kcal/mol
+library:CHOBr_G4 label:C[C](C)Br smiles:C[C](C)Br H298:20.83 kcal/mol
+library:CHOBr_G4 label:CC[C](C)Br smiles:CC[C](C)Br H298:15.52 kcal/mol
+library:CHOBr_G4 label:C[C](Br)CC(Br)Br smiles:C[C](Br)CC(Br)Br H298:25.50 kcal/mol
+library:CHOBr_G4 label:CC(Br)[C](Br)CBr smiles:CC(Br)[C](Br)CBr H298:20.64 kcal/mol
+library:CHOBr_G4 label:BrC[C](Br)CC(Br)Br smiles:BrC[C](Br)CC(Br)Br H298:29.88 kcal/mol
+library:CHOBr_G4 label:CC[C](Br)C(Br)Br smiles:CC[C](Br)C(Br)Br H298:25.79 kcal/mol
+library:CHOBr_G4 label:C[C](Br)C(Br)CBr smiles:C[C](Br)C(Br)CBr H298:20.88 kcal/mol
+library:CHOBr_G4 label:C[C](Br)CCBr smiles:C[C](Br)CCBr H298:19.94 kcal/mol
+library:CHOBr_G4 label:BrCC[C](Br)C(Br)Br smiles:BrCC[C](Br)C(Br)Br H298:30.28 kcal/mol
+library:CHOBr_G4 label:BrC[C](Br)C(Br)CBr smiles:BrC[C](Br)C(Br)CBr H298:27.20 kcal/mol
+library:CHOFClBr_G4 label:C[C](Br)C(F)(F)Cl smiles:C[C](Br)C(F)(F)Cl H298:-82.50 kcal/mol
+library:CHOFClBr_G4 label:FC(Cl)[C](Br)CBr smiles:FC(Cl)[C](Br)CBr H298:-24.51 kcal/mol
+library:CHOFClBr_G4 label:OC[C](Br)C(F)Cl smiles:OC[C](Br)C(F)Cl H298:-65.85 kcal/mol
 library:CHOFClBr_G4 label:C[C](Br)C(F)(Cl)Cl smiles:C[C](Br)C(F)(Cl)Cl H298:-35.04 kcal/mol
 library:CHOFClBr_G4 label:C[C](Br)C(F)Cl smiles:C[C](Br)C(F)Cl H298:-31.22 kcal/mol
-library:CHOFClBr_G4 label:C[C](Br)C(F)(Cl)Br smiles:C[C](Br)C(F)(Cl)Br H298:-23.23 kcal/mol
-library:CHOFClBr_G4 label:CC[C](Br)C(F)Cl smiles:CC[C](Br)C(F)Cl H298:-36.77 kcal/mol
-library:CHOFBr_G4 label:CC[C](Br)C(F)Br smiles:CC[C](Br)C(F)Br H298:-25.48 kcal/mol
-library:CHOFBr_G4 label:FC(Br)[C](Br)C(Br)Br smiles:FC(Br)[C](Br)C(Br)Br H298:-4.62 kcal/mol
-library:CHOFBr_G4 label:CC(Br)[C](Br)C(F)Br smiles:CC(Br)[C](Br)C(F)Br H298:-21.95 kcal/mol
-library:CHOFBr_G4 label:FC[C](Br)COBr smiles:FC[C](Br)COBr H298:-20.65 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)[C](Br)CF smiles:OC(Br)(Br)[C](Br)CF H298:-49.19 kcal/mol
-library:CHOFBr_G4 label:C[C](Br)C(F)(F)F smiles:C[C](Br)C(F)(F)F H298:-132.33 kcal/mol
-library:CHOFBr_G4 label:CC[C](Br)CF smiles:CC[C](Br)CF H298:-27.34 kcal/mol
-library:CHOFBr_G4 label:C[C](Br)C(F)F smiles:C[C](Br)C(F)F H298:-75.21 kcal/mol
-library:CHOFBr_G4 label:CC[C](Br)C(F)(Br)Br smiles:CC[C](Br)C(F)(Br)Br H298:-16.89 kcal/mol
-library:CHOFBr_G4 label:FC[C](Br)CC(Br)Br smiles:FC[C](Br)CC(Br)Br H298:-16.58 kcal/mol
-library:CHOFBr_G4 label:CC[C](Br)C(F)(F)Br smiles:CC[C](Br)C(F)(F)Br H298:-75.42 kcal/mol
-library:CHOFBr_G4 label:CC(Br)[C](Br)CF smiles:CC(Br)[C](Br)CF H298:-26.22 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)[C](Br)CF smiles:CC(Br)(Br)[C](Br)CF H298:-18.80 kcal/mol
-library:CHOFBr_G4 label:FC(Br)[C](Br)COBr smiles:FC(Br)[C](Br)COBr H298:-17.28 kcal/mol
-library:CHOFBr_G4 label:FC(Br)(Br)[C](Br)CBr smiles:FC(Br)(Br)[C](Br)CBr H298:-4.77 kcal/mol
-library:CHOFBr_G4 label:FC[C](Br)CBr smiles:FC[C](Br)CBr H298:-17.44 kcal/mol
-library:CHOFBr_G4 label:CC[C](Br)C(F)F smiles:CC[C](Br)C(F)F H298:-80.45 kcal/mol
-library:CHOFBr_G4 label:FC(F)[C](Br)CCBr smiles:FC(F)[C](Br)CCBr H298:-75.36 kcal/mol
-library:CHOFBr_G4 label:FC(F)[C](Br)COBr smiles:FC(F)[C](Br)COBr H298:-72.40 kcal/mol
-library:CHOFBr_G4 label:OC[C](Br)C(F)(F)Br smiles:OC[C](Br)C(F)(F)Br H298:-103.47 kcal/mol
-library:CHOFBr_G4 label:OC[C](Br)C(F)F smiles:OC[C](Br)C(F)F H298:-108.72 kcal/mol
-library:CHOFBr_G4 label:C[C](Br)CF smiles:C[C](Br)CF H298:-22.29 kcal/mol
-library:CHOFBr_G4 label:FC(Br)[C](Br)CCBr smiles:FC(Br)[C](Br)CCBr H298:-19.77 kcal/mol
+library:CHOFClBr_G4 label:C[C](Br)C(F)(Cl)Br smiles:C[C](Br)C(F)(Cl)Br H298:-23.19 kcal/mol
+library:CHOFClBr_G4 label:CC[C](Br)C(F)Cl smiles:CC[C](Br)C(F)Cl H298:-36.78 kcal/mol
+library:CHOFBr_G4 label:CC[C](Br)C(F)Br smiles:CC[C](Br)C(F)Br H298:-25.47 kcal/mol
+library:CHOFBr_G4 label:FC(Br)[C](Br)C(Br)Br smiles:FC(Br)[C](Br)C(Br)Br H298:-4.57 kcal/mol
+library:CHOFBr_G4 label:CC(Br)[C](Br)C(F)Br smiles:CC(Br)[C](Br)C(F)Br H298:-21.89 kcal/mol
+library:CHOFBr_G4 label:OC[C](Br)C(F)(Br)Br smiles:OC[C](Br)C(F)(Br)Br H298:-45.07 kcal/mol
+library:CHOFBr_G4 label:FC[C](Br)COBr smiles:FC[C](Br)COBr H298:-20.68 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)[C](Br)CF smiles:OC(Br)(Br)[C](Br)CF H298:-49.14 kcal/mol
+library:CHOFBr_G4 label:C[C](Br)C(F)(F)F smiles:C[C](Br)C(F)(F)F H298:-132.32 kcal/mol
+library:CHOFBr_G4 label:CC[C](Br)CF smiles:CC[C](Br)CF H298:-27.32 kcal/mol
+library:CHOFBr_G4 label:C[C](Br)C(F)F smiles:C[C](Br)C(F)F H298:-75.20 kcal/mol
+library:CHOFBr_G4 label:CC[C](Br)C(F)(Br)Br smiles:CC[C](Br)C(F)(Br)Br H298:-16.84 kcal/mol
+library:CHOFBr_G4 label:FC[C](Br)CC(Br)Br smiles:FC[C](Br)CC(Br)Br H298:-16.52 kcal/mol
+library:CHOFBr_G4 label:CC[C](Br)C(F)(F)Br smiles:CC[C](Br)C(F)(F)Br H298:-75.38 kcal/mol
+library:CHOFBr_G4 label:CC(Br)[C](Br)CF smiles:CC(Br)[C](Br)CF H298:-26.17 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)[C](Br)CF smiles:CC(Br)(Br)[C](Br)CF H298:-18.75 kcal/mol
+library:CHOFBr_G4 label:FC(Br)[C](Br)COBr smiles:FC(Br)[C](Br)COBr H298:-17.29 kcal/mol
+library:CHOFBr_G4 label:FC(Br)(Br)[C](Br)CBr smiles:FC(Br)(Br)[C](Br)CBr H298:-4.74 kcal/mol
+library:CHOFBr_G4 label:FC[C](Br)CBr smiles:FC[C](Br)CBr H298:-17.40 kcal/mol
+library:CHOFBr_G4 label:CC[C](Br)C(F)F smiles:CC[C](Br)C(F)F H298:-80.44 kcal/mol
+library:CHOFBr_G4 label:FC(F)[C](Br)CCBr smiles:FC(F)[C](Br)CCBr H298:-75.85 kcal/mol
+library:CHOFBr_G4 label:FC(F)[C](Br)COBr smiles:FC(F)[C](Br)COBr H298:-72.41 kcal/mol
+library:CHOFBr_G4 label:OC[C](Br)C(F)(F)Br smiles:OC[C](Br)C(F)(F)Br H298:-103.45 kcal/mol
+library:CHOFBr_G4 label:OC[C](Br)C(F)F smiles:OC[C](Br)C(F)F H298:-108.71 kcal/mol
+library:CHOFBr_G4 label:C[C](Br)CF smiles:C[C](Br)CF H298:-22.27 kcal/mol
+library:CHOFBr_G4 label:FC(Br)[C](Br)CCBr smiles:FC(Br)[C](Br)CCBr H298:-19.76 kcal/mol
 library:CHOFBr_G4 label:OC[C](Br)CF smiles:OC[C](Br)CF H298:-56.62 kcal/mol
 library:CHOFBr_G4 label:OC[C](Br)C(F)(F)F smiles:OC[C](Br)C(F)(F)F H298:-165.95 kcal/mol
-library:CHOFBr_G4 label:C[C](Br)C(F)Br smiles:C[C](Br)C(F)Br H298:-19.47 kcal/mol
-library:CHOFBr_G4 label:C[C](Br)C(F)(Br)Br smiles:C[C](Br)C(F)(Br)Br H298:-11.09 kcal/mol
-library:CHOFBr_G4 label:FC(F)[C](Br)C(Br)Br smiles:FC(F)[C](Br)C(Br)Br H298:-60.46 kcal/mol
-library:CHOFBr_G4 label:FC(F)[C](Br)CBr smiles:FC(F)[C](Br)CBr H298:-68.74 kcal/mol
-library:CHOFBr_G4 label:FC(F)(Br)[C](Br)CBr smiles:FC(F)(Br)[C](Br)CBr H298:-63.19 kcal/mol
-library:CHOFBr_G4 label:FC(F)(F)[C](Br)CBr smiles:FC(F)(F)[C](Br)CBr H298:-126.04 kcal/mol
-library:CHOFBr_G4 label:FC[C](Br)C(Br)(Br)Br smiles:FC[C](Br)C(Br)(Br)Br H298:3.64 kcal/mol
-library:CHOFBr_G4 label:CC[C](Br)C(F)(F)F smiles:CC[C](Br)C(F)(F)F H298:-137.78 kcal/mol
-library:CHOFBr_G4 label:FC[C](Br)CCBr smiles:FC[C](Br)CCBr H298:-22.64 kcal/mol
-library:CHOFBr_G4 label:FC[C](Br)C(Br)OBr smiles:FC[C](Br)C(Br)OBr H298:-17.44 kcal/mol
-library:CHOFBr_G4 label:CC(Br)[C](Br)C(F)F smiles:CC(Br)[C](Br)C(F)F H298:-77.75 kcal/mol
-library:CHOFBr_G4 label:C[C](Br)C(F)(F)Br smiles:C[C](Br)C(F)(F)Br H298:-69.97 kcal/mol
-library:CHOFBr_G4 label:FC(Br)[C](Br)CBr smiles:FC(Br)[C](Br)CBr H298:-13.34 kcal/mol
+library:CHOFBr_G4 label:C[C](Br)C(F)Br smiles:C[C](Br)C(F)Br H298:-19.41 kcal/mol
+library:CHOFBr_G4 label:C[C](Br)C(F)(Br)Br smiles:C[C](Br)C(F)(Br)Br H298:-11.02 kcal/mol
+library:CHOFBr_G4 label:FC(F)[C](Br)C(Br)Br smiles:FC(F)[C](Br)C(Br)Br H298:-60.44 kcal/mol
+library:CHOFBr_G4 label:FC(F)[C](Br)CBr smiles:FC(F)[C](Br)CBr H298:-68.70 kcal/mol
+library:CHOFBr_G4 label:FC(F)(Br)[C](Br)CBr smiles:FC(F)(Br)[C](Br)CBr H298:-63.15 kcal/mol
+library:CHOFBr_G4 label:FC(F)(F)[C](Br)CBr smiles:FC(F)(F)[C](Br)CBr H298:-126.00 kcal/mol
+library:CHOFBr_G4 label:FC[C](Br)C(Br)(Br)Br smiles:FC[C](Br)C(Br)(Br)Br H298:3.68 kcal/mol
+library:CHOFBr_G4 label:CC[C](Br)C(F)(F)F smiles:CC[C](Br)C(F)(F)F H298:-137.77 kcal/mol
+library:CHOFBr_G4 label:FC[C](Br)CCBr smiles:FC[C](Br)CCBr H298:-22.62 kcal/mol
+library:CHOFBr_G4 label:FC[C](Br)C(Br)OBr smiles:FC[C](Br)C(Br)OBr H298:-17.41 kcal/mol
+library:CHOFBr_G4 label:CC(Br)[C](Br)C(F)F smiles:CC(Br)[C](Br)C(F)F H298:-77.70 kcal/mol
+library:CHOFBr_G4 label:C[C](Br)C(F)(F)Br smiles:C[C](Br)C(F)(F)Br H298:-69.93 kcal/mol
+library:CHOFBr_G4 label:FC(Br)[C](Br)CBr smiles:FC(Br)[C](Br)CBr H298:-13.33 kcal/mol
 library:CHOClBr_G4 label:C[C](Br)C(Cl)(Cl)Cl smiles:C[C](Br)C(Cl)(Cl)Cl H298:9.29 kcal/mol
-library:CHOClBr_G4 label:C[C](Br)C(Cl)Br smiles:C[C](Br)C(Cl)Br H298:20.57 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Br)CCBr smiles:ClC[C](Br)CCBr H298:13.16 kcal/mol
-library:CHOClBr_G4 label:CC(Br)[C](Br)CCl smiles:CC(Br)[C](Br)CCl H298:10.75 kcal/mol
-library:CHOClBr_G4 label:CC[C](Br)C(Cl)Cl smiles:CC[C](Br)C(Cl)Cl H298:3.91 kcal/mol
-library:CHOClBr_G4 label:ClC(Cl)[C](Br)CBr smiles:ClC(Cl)[C](Br)CBr H298:16.03 kcal/mol
-library:CHOClBr_G4 label:C[C](Br)C(Cl)(Br)Br smiles:C[C](Br)C(Cl)(Br)Br H298:32.18 kcal/mol
-library:CHOClBr_G4 label:CC[C](Br)C(Cl)Br smiles:CC[C](Br)C(Cl)Br H298:14.55 kcal/mol
-library:CHOClBr_G4 label:OC[C](Br)CCl smiles:OC[C](Br)CCl H298:-20.79 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Br)CBr smiles:ClC[C](Br)CBr H298:19.75 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Br)COBr smiles:ClC[C](Br)COBr H298:15.23 kcal/mol
-library:CHOClBr_G4 label:C[C](Br)C(Cl)Cl smiles:C[C](Br)C(Cl)Cl H298:9.66 kcal/mol
-library:CHOClBr_G4 label:CC[C](Br)CCl smiles:CC[C](Br)CCl H298:9.02 kcal/mol
-library:CHOClBr_G4 label:C[C](Br)C(Cl)(Cl)Br smiles:C[C](Br)C(Cl)(Cl)Br H298:20.53 kcal/mol
+library:CHOClBr_G4 label:C[C](Br)C(Cl)Br smiles:C[C](Br)C(Cl)Br H298:20.61 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Br)CCBr smiles:ClC[C](Br)CCBr H298:13.19 kcal/mol
+library:CHOClBr_G4 label:CC(Br)[C](Br)CCl smiles:CC(Br)[C](Br)CCl H298:10.79 kcal/mol
+library:CHOClBr_G4 label:CC[C](Br)C(Cl)Cl smiles:CC[C](Br)C(Cl)Cl H298:3.88 kcal/mol
+library:CHOClBr_G4 label:ClC(Cl)[C](Br)CBr smiles:ClC(Cl)[C](Br)CBr H298:16.05 kcal/mol
+library:CHOClBr_G4 label:C[C](Br)C(Cl)(Br)Br smiles:C[C](Br)C(Cl)(Br)Br H298:32.20 kcal/mol
+library:CHOClBr_G4 label:CC[C](Br)C(Cl)Br smiles:CC[C](Br)C(Cl)Br H298:14.57 kcal/mol
+library:CHOClBr_G4 label:OC[C](Br)C(Cl)Cl smiles:OC[C](Br)C(Cl)Cl H298:-24.97 kcal/mol
+library:CHOClBr_G4 label:OC[C](Br)CCl smiles:OC[C](Br)CCl H298:-20.78 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Br)CBr smiles:ClC[C](Br)CBr H298:19.78 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Br)COBr smiles:ClC[C](Br)COBr H298:15.21 kcal/mol
+library:CHOClBr_G4 label:C[C](Br)C(Cl)Cl smiles:C[C](Br)C(Cl)Cl H298:9.65 kcal/mol
+library:CHOClBr_G4 label:CC[C](Br)CCl smiles:CC[C](Br)CCl H298:9.04 kcal/mol
+library:CHOClBr_G4 label:C[C](Br)C(Cl)(Cl)Br smiles:C[C](Br)C(Cl)(Cl)Br H298:20.57 kcal/mol
 library:CHOClBr_G4 label:C[C](Br)CCl smiles:C[C](Br)CCl H298:14.16 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Br)C(Br)Br smiles:ClC[C](Br)C(Br)Br H298:27.64 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Br)C(Br)Br smiles:ClC[C](Br)C(Br)Br H298:27.63 kcal/mol
 """,
 )
 
@@ -4794,9 +4875,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.660649,-1.76914,-2.62677,-3.28641,-4.18142,-4.71444,-5.36404],'cal/(mol*K)','+|-',[0.0873652,0.0897017,0.0841063,0.0785573,0.0693284,0.0606675,0.0444342]),
-        H298 = (93.4595,'kcal/mol','+|-',0.139565),
-        S298 = (5.53628,'cal/(mol*K)','+|-',0.237185),
+        Cpdata = ([-0.650662,-1.75094,-2.60765,-3.26755,-4.16351,-4.69758,-5.34915],'cal/(mol*K)','+|-',[0.0882551,0.0903121,0.084591,0.0789683,0.0696382,0.060953,0.0455804]),
+        H298 = (93.4505,'kcal/mol','+|-',0.137445),
+        S298 = (5.47132,'cal/(mol*K)','+|-',0.206834),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -4896,40 +4977,42 @@ library:CHOFCl_G4 label:C[C](Cl)C(F)(F)F smiles:C[C](Cl)C(F)(F)F H298:-144.47 kc
 library:CHOFCl_G4 label:C[C](Cl)CF smiles:C[C](Cl)CF H298:-34.58 kcal/mol
 library:CHOFCl_G4 label:OC[C](Cl)CF smiles:OC[C](Cl)CF H298:-68.62 kcal/mol
 library:CHOFCl_G4 label:FC[C](Cl)CCl smiles:FC[C](Cl)CCl H298:-39.14 kcal/mol
-library:CHOFClBr_G4 label:CC(Br)[C](Cl)CF smiles:CC(Br)[C](Cl)CF H298:-38.00 kcal/mol
-library:CHOFClBr_G4 label:FC[C](Cl)CBr smiles:FC[C](Cl)CBr H298:-29.40 kcal/mol
-library:CHOFClBr_G4 label:FC[C](Cl)C(Br)Br smiles:FC[C](Cl)C(Br)Br H298:-20.38 kcal/mol
-library:CHOFClBr_G4 label:FC[C](Cl)COBr smiles:FC[C](Cl)COBr H298:-32.26 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)[C](Cl)CF smiles:CC(Br)[C](Cl)CF H298:-37.96 kcal/mol
+library:CHOFClBr_G4 label:FC[C](Cl)CBr smiles:FC[C](Cl)CBr H298:-29.36 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)(Br)[C](Cl)CF smiles:CC(Br)(Br)[C](Cl)CF H298:-30.63 kcal/mol
+library:CHOFClBr_G4 label:FC[C](Cl)C(Br)Br smiles:FC[C](Cl)C(Br)Br H298:-20.34 kcal/mol
+library:CHOFClBr_G4 label:FC[C](Cl)COBr smiles:FC[C](Cl)COBr H298:-32.29 kcal/mol
 library:CHOFClBr_G4 label:FC(Cl)[C](Cl)CBr smiles:FC(Cl)[C](Cl)CBr H298:-36.80 kcal/mol
-library:CHOFClBr_G4 label:FC[C](Cl)C(Cl)Br smiles:FC[C](Cl)C(Cl)Br H298:-31.68 kcal/mol
-library:CHOFClBr_G4 label:FC[C](Cl)CCBr smiles:FC[C](Cl)CCBr H298:-34.28 kcal/mol
-library:CHOFClBr_G4 label:FC(F)[C](Cl)CBr smiles:FC(F)[C](Cl)CBr H298:-80.76 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Cl)C(Cl)Br smiles:ClC[C](Cl)C(Cl)Br H298:5.13 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Br)CBr smiles:C[C](Cl)C(Br)CBr H298:8.85 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(C)(Cl)Br smiles:C[C](Cl)C(C)(Cl)Br H298:-1.19 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)CC(Cl)Br smiles:C[C](Cl)CC(Cl)Br H298:2.04 kcal/mol
-library:CHOClBr_G4 label:CC(Br)[C](Cl)CCl smiles:CC(Br)[C](Cl)CCl H298:-1.12 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Cl)(Cl)Br smiles:C[C](Cl)C(Cl)(Cl)Br H298:8.47 kcal/mol
-library:CHOClBr_G4 label:Cl[C](CBr)C(Cl)Cl smiles:Cl[C](CBr)C(Cl)Cl H298:4.24 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Cl)CCBr smiles:ClC[C](Cl)CCBr H298:1.49 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)CC(Br)Br smiles:C[C](Cl)CC(Br)Br H298:13.45 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Cl)(Br)Br smiles:C[C](Cl)C(Cl)(Br)Br H298:19.95 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)COBr smiles:C[C](Cl)COBr H298:9.00 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Cl)C(Br)Br smiles:ClC[C](Cl)C(Br)Br H298:15.85 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(C)(Br)Br smiles:C[C](Cl)C(C)(Br)Br H298:9.75 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Cl)CBr smiles:C[C](Cl)C(Cl)CBr H298:-1.49 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)CBr smiles:C[C](Cl)CBr H298:11.83 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Cl)Br smiles:C[C](Cl)C(Cl)Br H298:8.62 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Cl)OBr smiles:C[C](Cl)C(Cl)OBr H298:0.32 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)CCBr smiles:C[C](Cl)CCBr H298:7.77 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Cl)CBr smiles:ClC[C](Cl)CBr H298:7.80 kcal/mol
-library:CHOClBr_G4 label:ClC[C](Cl)COBr smiles:ClC[C](Cl)COBr H298:3.31 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(O)(Cl)Br smiles:C[C](Cl)C(O)(Cl)Br H298:-32.05 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(O)(Br)Br smiles:C[C](Cl)C(O)(Br)Br H298:-20.48 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(C)Br smiles:C[C](Cl)C(C)Br H298:3.78 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Br)(Br)Br smiles:C[C](Cl)C(Br)(Br)Br H298:31.60 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Br)Br smiles:C[C](Cl)C(Br)Br H298:19.24 kcal/mol
-library:CHOClBr_G4 label:C[C](Cl)C(Br)OBr smiles:C[C](Cl)C(Br)OBr H298:11.03 kcal/mol
+library:CHOFClBr_G4 label:FC[C](Cl)C(Cl)Br smiles:FC[C](Cl)C(Cl)Br H298:-31.65 kcal/mol
+library:CHOFClBr_G4 label:FC[C](Cl)CCBr smiles:FC[C](Cl)CCBr H298:-34.26 kcal/mol
+library:CHOFClBr_G4 label:FC(F)[C](Cl)CBr smiles:FC(F)[C](Cl)CBr H298:-80.73 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Cl)C(Cl)Br smiles:ClC[C](Cl)C(Cl)Br H298:5.16 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Br)CBr smiles:C[C](Cl)C(Br)CBr H298:8.95 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(C)(Cl)Br smiles:C[C](Cl)C(C)(Cl)Br H298:-1.12 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)CC(Cl)Br smiles:C[C](Cl)CC(Cl)Br H298:2.05 kcal/mol
+library:CHOClBr_G4 label:CC(Br)[C](Cl)CCl smiles:CC(Br)[C](Cl)CCl H298:-1.08 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Cl)(Cl)Br smiles:C[C](Cl)C(Cl)(Cl)Br H298:8.50 kcal/mol
+library:CHOClBr_G4 label:Cl[C](CBr)C(Cl)Cl smiles:Cl[C](CBr)C(Cl)Cl H298:4.26 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Cl)CCBr smiles:ClC[C](Cl)CCBr H298:1.50 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)CC(Br)Br smiles:C[C](Cl)CC(Br)Br H298:13.52 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Cl)(Br)Br smiles:C[C](Cl)C(Cl)(Br)Br H298:19.98 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)COBr smiles:C[C](Cl)COBr H298:8.99 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Cl)C(Br)Br smiles:ClC[C](Cl)C(Br)Br H298:15.87 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(C)(Br)Br smiles:C[C](Cl)C(C)(Br)Br H298:9.83 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Cl)CBr smiles:C[C](Cl)C(Cl)CBr H298:-1.46 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)CBr smiles:C[C](Cl)CBr H298:11.87 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Cl)Br smiles:C[C](Cl)C(Cl)Br H298:8.66 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Cl)OBr smiles:C[C](Cl)C(Cl)OBr H298:0.29 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)[C](Cl)CCl smiles:CC(Br)(Br)[C](Cl)CCl H298:5.78 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)CCBr smiles:C[C](Cl)CCBr H298:7.81 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Cl)CBr smiles:ClC[C](Cl)CBr H298:7.83 kcal/mol
+library:CHOClBr_G4 label:ClC[C](Cl)COBr smiles:ClC[C](Cl)COBr H298:3.29 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(O)(Cl)Br smiles:C[C](Cl)C(O)(Cl)Br H298:-31.99 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(O)(Br)Br smiles:C[C](Cl)C(O)(Br)Br H298:-20.38 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(C)Br smiles:C[C](Cl)C(C)Br H298:3.02 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Br)(Br)Br smiles:C[C](Cl)C(Br)(Br)Br H298:31.64 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Br)Br smiles:C[C](Cl)C(Br)Br H298:19.65 kcal/mol
+library:CHOClBr_G4 label:C[C](Cl)C(Br)OBr smiles:C[C](Cl)C(Br)OBr H298:11.06 kcal/mol
 """,
 )
 
@@ -4945,9 +5028,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.728544,-1.92787,-2.68421,-3.20251,-3.90566,-4.37599,-5.03676],'cal/(mol*K)','+|-',[0.0796495,0.0817796,0.0766784,0.0716195,0.0632057,0.0553097,0.04051]),
-        H298 = (97.6148,'kcal/mol','+|-',0.127239),
-        S298 = (4.76327,'cal/(mol*K)','+|-',0.216238),
+        Cpdata = ([-0.759753,-1.95172,-2.7021,-3.21475,-3.91006,-4.37474,-5.02968],'cal/(mol*K)','+|-',[0.0803086,0.0821803,0.0769744,0.071858,0.0633679,0.0554647,0.0414763]),
+        H298 = (97.6321,'kcal/mol','+|-',0.12507),
+        S298 = (4.77013,'cal/(mol*K)','+|-',0.188211),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -4977,6 +5060,7 @@ library:CHOF_G4 label:OC(F)[C](F)C(F)(F)F smiles:OC(F)[C](F)C(F)(F)F H298:-264.0
 library:CHOF_G4 label:FC[C](F)CC(F)(F)F smiles:FC[C](F)CC(F)(F)F H298:-233.87 kcal/mol
 library:CHOF_G4 label:C[C](F)CCF smiles:C[C](F)CCF H298:-78.82 kcal/mol
 library:CHOF_G4 label:OC(F)(F)[C](F)CF smiles:OC(F)(F)[C](F)CF H298:-215.76 kcal/mol
+library:CHOF_G4 label:FCC(F)(F)[C](F)C(F)(F)F smiles:FCC(F)(F)[C](F)C(F)(F)F H298:-320.90 kcal/mol
 library:CHOF_G4 label:FC[C](F)C(F)(F)CF smiles:FC[C](F)C(F)(F)CF H298:-216.35 kcal/mol
 library:CHOF_G4 label:OC[C](F)C(F)(F)F smiles:OC[C](F)C(F)(F)F H298:-213.59 kcal/mol
 library:CHOF_G4 label:C[C](F)CF smiles:C[C](F)CF H298:-72.41 kcal/mol
@@ -5021,6 +5105,8 @@ library:CHOF_G4 label:FOC(F)[C](F)C(F)(F)F smiles:FOC(F)[C](F)C(F)(F)F H298:-230
 library:CHOF_G4 label:FC[C](F)CC(F)F smiles:FC[C](F)CC(F)F H298:-174.52 kcal/mol
 library:CHOF_G4 label:C[C](F)C(O)F smiles:C[C](F)C(O)F H298:-118.43 kcal/mol
 library:CHOF_G4 label:C[C](F)C(C)(F)F smiles:C[C](F)C(C)(F)F H298:-139.18 kcal/mol
+library:CHOF_G4 label:F[C](C(F)F)C(F)(F)C(F)F smiles:F[C](C(F)F)C(F)(F)C(F)F H298:-314.85 kcal/mol
+library:CHOF_G4 label:FC[C](F)C(F)(F)C(F)(F)F smiles:FC[C](F)C(F)(F)C(F)(F)F H298:-321.51 kcal/mol
 library:CHOF_G4 label:FCC[C](F)C(F)F smiles:FCC[C](F)C(F)F H298:-172.15 kcal/mol
 library:CHOF_G4 label:C[C](F)C(F)(F)C(F)(F)F smiles:C[C](F)C(F)(F)C(F)(F)F H298:-282.55 kcal/mol
 library:CHOF_G4 label:C[C](C)F smiles:C[C](C)F H298:-29.49 kcal/mol
@@ -5057,56 +5143,56 @@ library:CHOFCl_G4 label:C[C](F)C(Cl)Cl smiles:C[C](F)C(Cl)Cl H298:-38.78 kcal/mo
 library:CHOFCl_G4 label:C[C](F)C(F)(Cl)Cl smiles:C[C](F)C(F)(Cl)Cl H298:-83.66 kcal/mol
 library:CHOFCl_G4 label:C[C](F)C(C)(Cl)Cl smiles:C[C](F)C(C)(Cl)Cl H298:-49.18 kcal/mol
 library:CHOFCl_G4 label:FC[C](F)C(F)Cl smiles:FC[C](F)C(F)Cl H298:-118.86 kcal/mol
-library:CHOFClBr_G4 label:C[C](F)C(Cl)(Br)Br smiles:C[C](F)C(Cl)(Br)Br H298:-16.59 kcal/mol
-library:CHOFClBr_G4 label:C[C](F)C(F)(Cl)Br smiles:C[C](F)C(F)(Cl)Br H298:-71.73 kcal/mol
+library:CHOFClBr_G4 label:C[C](F)C(Cl)(Br)Br smiles:C[C](F)C(Cl)(Br)Br H298:-16.53 kcal/mol
+library:CHOFClBr_G4 label:C[C](F)C(F)(Cl)Br smiles:C[C](F)C(F)(Cl)Br H298:-71.69 kcal/mol
 library:CHOFClBr_G4 label:C[C](F)C(Cl)OBr smiles:C[C](F)C(Cl)OBr H298:-34.29 kcal/mol
-library:CHOFClBr_G4 label:C[C](F)C(Cl)(Cl)Br smiles:C[C](F)C(Cl)(Cl)Br H298:-28.13 kcal/mol
-library:CHOFClBr_G4 label:FC[C](F)C(Cl)Br smiles:FC[C](F)C(Cl)Br H298:-67.01 kcal/mol
-library:CHOFClBr_G4 label:C[C](F)C(Cl)CBr smiles:C[C](F)C(Cl)CBr H298:-37.86 kcal/mol
-library:CHOFClBr_G4 label:C[C](F)CC(Cl)Br smiles:C[C](F)CC(Cl)Br H298:-35.01 kcal/mol
-library:CHOFBr_G4 label:C[C](F)CC(F)(F)Br smiles:C[C](F)CC(F)(F)Br H298:-127.12 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)C(F)Br smiles:FC[C](F)C(F)Br H298:-106.76 kcal/mol
-library:CHOFBr_G4 label:F[C](CBr)C(F)F smiles:F[C](CBr)C(F)F H298:-116.95 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(O)(F)Br smiles:C[C](F)C(O)(F)Br H298:-113.75 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)[C](F)CF smiles:CC(Br)(Br)[C](F)CF H298:-66.02 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)[C](F)CF smiles:CC(F)(Br)[C](F)CF H298:-118.93 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)C(F)CBr smiles:FC[C](F)C(F)CBr H298:-114.60 kcal/mol
-library:CHOFBr_G4 label:C[C](F)CC(Br)(Br)Br smiles:C[C](F)CC(Br)(Br)Br H298:-13.14 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)COBr smiles:FC[C](F)COBr H298:-69.01 kcal/mol
-library:CHOFBr_G4 label:CC(Br)[C](F)C(F)F smiles:CC(Br)[C](F)C(F)F H298:-125.23 kcal/mol
-library:CHOFBr_G4 label:F[C](C(F)F)C(F)Br smiles:F[C](C(F)F)C(F)Br H298:-157.12 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)CBr smiles:FC[C](F)CBr H298:-64.97 kcal/mol
-library:CHOFBr_G4 label:C[C](F)COBr smiles:C[C](F)COBr H298:-27.48 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)Br smiles:C[C](F)C(F)Br H298:-67.24 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)(Br)Br smiles:C[C](F)C(F)(Br)Br H298:-59.22 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)CC(Br)Br smiles:FC[C](F)CC(Br)Br H298:-65.05 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)(Br)OBr smiles:C[C](F)C(F)(Br)OBr H298:-74.35 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)CC(F)Br smiles:FC[C](F)CC(F)Br H298:-117.18 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)[C](F)CF smiles:OC(F)(Br)[C](F)CF H298:-154.35 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)OBr smiles:C[C](F)C(F)OBr H298:-77.97 kcal/mol
+library:CHOFClBr_G4 label:C[C](F)C(Cl)(Cl)Br smiles:C[C](F)C(Cl)(Cl)Br H298:-28.09 kcal/mol
+library:CHOFClBr_G4 label:FC[C](F)C(Cl)Br smiles:FC[C](F)C(Cl)Br H298:-66.96 kcal/mol
+library:CHOFClBr_G4 label:C[C](F)C(Cl)CBr smiles:C[C](F)C(Cl)CBr H298:-37.84 kcal/mol
+library:CHOFClBr_G4 label:C[C](F)CC(Cl)Br smiles:C[C](F)CC(Cl)Br H298:-34.99 kcal/mol
+library:CHOFBr_G4 label:C[C](F)CC(F)(F)Br smiles:C[C](F)CC(F)(F)Br H298:-127.08 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)C(F)Br smiles:FC[C](F)C(F)Br H298:-106.72 kcal/mol
+library:CHOFBr_G4 label:F[C](CBr)C(F)F smiles:F[C](CBr)C(F)F H298:-116.91 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(O)(F)Br smiles:C[C](F)C(O)(F)Br H298:-113.70 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)[C](F)CF smiles:CC(Br)(Br)[C](F)CF H298:-65.95 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)[C](F)CF smiles:CC(F)(Br)[C](F)CF H298:-118.89 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)C(F)CBr smiles:FC[C](F)C(F)CBr H298:-114.57 kcal/mol
+library:CHOFBr_G4 label:C[C](F)CC(Br)(Br)Br smiles:C[C](F)CC(Br)(Br)Br H298:-13.04 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)COBr smiles:FC[C](F)COBr H298:-69.03 kcal/mol
+library:CHOFBr_G4 label:CC(Br)[C](F)C(F)F smiles:CC(Br)[C](F)C(F)F H298:-124.97 kcal/mol
+library:CHOFBr_G4 label:F[C](C(F)F)C(F)Br smiles:F[C](C(F)F)C(F)Br H298:-157.09 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)CBr smiles:FC[C](F)CBr H298:-64.92 kcal/mol
+library:CHOFBr_G4 label:C[C](F)COBr smiles:C[C](F)COBr H298:-27.50 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)Br smiles:C[C](F)C(F)Br H298:-67.19 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)(Br)Br smiles:C[C](F)C(F)(Br)Br H298:-59.16 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)CC(Br)Br smiles:FC[C](F)CC(Br)Br H298:-65.00 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)(Br)OBr smiles:C[C](F)C(F)(Br)OBr H298:-74.32 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)CC(F)Br smiles:FC[C](F)CC(F)Br H298:-117.15 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)[C](F)CF smiles:OC(F)(Br)[C](F)CF H298:-154.32 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)OBr smiles:C[C](F)C(F)OBr H298:-77.99 kcal/mol
 library:CHOFBr_G4 label:C[C](F)C(F)(F)OBr smiles:C[C](F)C(F)(F)OBr H298:-133.63 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)C(F)(F)Br smiles:FC[C](F)C(F)(F)Br H298:-157.20 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)(F)CBr smiles:C[C](F)C(F)(F)CBr H298:-128.15 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)C(Br)(Br)Br smiles:FC[C](F)C(Br)(Br)Br H298:-44.44 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)CBr smiles:C[C](F)C(F)CBr H298:-75.48 kcal/mol
-library:CHOFBr_G4 label:F[C](COBr)C(F)F smiles:F[C](COBr)C(F)F H298:-119.65 kcal/mol
-library:CHOFBr_G4 label:F[C](CBr)C(F)(F)F smiles:F[C](CBr)C(F)(F)F H298:-173.46 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(Br)(Br)Br smiles:C[C](F)C(Br)(Br)Br H298:-5.17 kcal/mol
-library:CHOFBr_G4 label:C[C](F)CC(Br)Br smiles:C[C](F)CC(Br)Br H298:-23.22 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)(F)Br smiles:C[C](F)C(F)(F)Br H298:-118.50 kcal/mol
-library:CHOFBr_G4 label:F[C](CCBr)C(F)F smiles:F[C](CCBr)C(F)F H298:-122.97 kcal/mol
-library:CHOFBr_G4 label:C[C](F)CCBr smiles:C[C](F)CCBr H298:-30.31 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)C(F)Br smiles:C[C](F)C(F)C(F)Br H298:-117.89 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)CCBr smiles:FC[C](F)CCBr H298:-71.68 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)C(F)(Br)Br smiles:FC[C](F)C(F)(Br)Br H298:-98.66 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)C(F)OBr smiles:FC[C](F)C(F)OBr H298:-119.75 kcal/mol
-library:CHOFBr_G4 label:C[C](F)C(F)C(Br)Br smiles:C[C](F)C(F)C(Br)Br H298:-66.76 kcal/mol
-library:CHOFBr_G4 label:F[C](C(F)F)C(Br)Br smiles:F[C](C(F)F)C(Br)Br H298:-106.69 kcal/mol
-library:CHOFBr_G4 label:C[C](F)CC(F)Br smiles:C[C](F)CC(F)Br H298:-75.12 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)C(Br)Br smiles:FC[C](F)C(Br)Br H298:-55.75 kcal/mol
-library:CHOFBr_G4 label:FC[C](F)C(Br)OBr smiles:FC[C](F)C(Br)OBr H298:-63.96 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)[C](F)CF smiles:OC(Br)(Br)[C](F)CF H298:-97.22 kcal/mol
-library:CHOFBr_G4 label:C[C](F)CC(F)(Br)Br smiles:C[C](F)CC(F)(Br)Br H298:-68.28 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)C(F)(F)Br smiles:FC[C](F)C(F)(F)Br H298:-157.16 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)(F)CBr smiles:C[C](F)C(F)(F)CBr H298:-128.13 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)C(Br)(Br)Br smiles:FC[C](F)C(Br)(Br)Br H298:-44.39 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)CBr smiles:C[C](F)C(F)CBr H298:-75.46 kcal/mol
+library:CHOFBr_G4 label:F[C](COBr)C(F)F smiles:F[C](COBr)C(F)F H298:-119.68 kcal/mol
+library:CHOFBr_G4 label:F[C](CBr)C(F)(F)F smiles:F[C](CBr)C(F)(F)F H298:-173.43 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(Br)(Br)Br smiles:C[C](F)C(Br)(Br)Br H298:-5.09 kcal/mol
+library:CHOFBr_G4 label:C[C](F)CC(Br)Br smiles:C[C](F)CC(Br)Br H298:-23.17 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)(F)Br smiles:C[C](F)C(F)(F)Br H298:-118.47 kcal/mol
+library:CHOFBr_G4 label:F[C](CCBr)C(F)F smiles:F[C](CCBr)C(F)F H298:-122.95 kcal/mol
+library:CHOFBr_G4 label:C[C](F)CCBr smiles:C[C](F)CCBr H298:-30.33 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)C(F)Br smiles:C[C](F)C(F)C(F)Br H298:-117.87 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)CCBr smiles:FC[C](F)CCBr H298:-71.66 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)C(F)(Br)Br smiles:FC[C](F)C(F)(Br)Br H298:-98.60 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)C(F)OBr smiles:FC[C](F)C(F)OBr H298:-119.76 kcal/mol
+library:CHOFBr_G4 label:C[C](F)C(F)C(Br)Br smiles:C[C](F)C(F)C(Br)Br H298:-66.71 kcal/mol
+library:CHOFBr_G4 label:F[C](C(F)F)C(Br)Br smiles:F[C](C(F)F)C(Br)Br H298:-106.66 kcal/mol
+library:CHOFBr_G4 label:C[C](F)CC(F)Br smiles:C[C](F)CC(F)Br H298:-75.09 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)C(Br)Br smiles:FC[C](F)C(Br)Br H298:-55.69 kcal/mol
+library:CHOFBr_G4 label:FC[C](F)C(Br)OBr smiles:FC[C](F)C(Br)OBr H298:-63.93 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)[C](F)CF smiles:OC(Br)(Br)[C](F)CF H298:-97.15 kcal/mol
+library:CHOFBr_G4 label:C[C](F)CC(F)(Br)Br smiles:C[C](F)CC(F)(Br)Br H298:-68.25 kcal/mol
 """,
 )
 
@@ -13006,21 +13092,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.500795,-1.45715,-2.09245,-2.57767,-3.35609,-3.95866,-4.89919],'cal/(mol*K)','+|-',[0.373589,0.38358,0.359654,0.335925,0.296461,0.259425,0.190009]),
-        H298 = (95.3899,'kcal/mol','+|-',0.596805),
-        S298 = (-0.245925,'cal/(mol*K)','+|-',1.01424),
+        Cpdata = ([-0.758104,-1.6682,-2.31233,-2.8316,-3.65583,-4.26359,-5.16596],'cal/(mol*K)','+|-',[0.380332,0.389196,0.364541,0.340311,0.300103,0.262674,0.196427]),
+        H298 = (95.2979,'kcal/mol','+|-',0.592315),
+        S298 = (-0.120787,'cal/(mol*K)','+|-',0.891343),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:OCDCD[C]Br smiles:OC=C=[C]Br H298:54.70 kcal/mol
-library:CHOBr_G4 label:Br[C]DCDCDCBr smiles:Br[C]=C=C=CBr H298:134.65 kcal/mol
-library:CHOBr_G4 label:CDCDCD[C]Br smiles:C=C=C=[C]Br H298:129.92 kcal/mol
-library:CHOBr_G4 label:Br[C]DCDCCBr smiles:Br[C]=C=CCBr H298:91.40 kcal/mol
-library:CHOBr_G4 label:ODCD[C]Br smiles:O=C=[C]Br H298:53.55 kcal/mol
-library:CHOBr_G4 label:OC(Br)DCD[C]Br smiles:OC(Br)=C=[C]Br H298:61.22 kcal/mol
-library:CHOBr_G4 label:ODCDCD[C]Br smiles:O=C=C=[C]Br H298:74.61 kcal/mol
+library:CHOBr_G4 label:OCDCD[C]Br smiles:OC=C=[C]Br H298:54.71 kcal/mol
+library:CHOBr_G4 label:Br[C]DCDCDCBr smiles:Br[C]=C=C=CBr H298:134.54 kcal/mol
+library:CHOBr_G4 label:CDCDCD[C]Br smiles:C=C=C=[C]Br H298:129.89 kcal/mol
+library:CHOBr_G4 label:Br[C]DCDCCBr smiles:Br[C]=C=CCBr H298:91.39 kcal/mol
+library:CHOBr_G4 label:ODCD[C]Br smiles:O=C=[C]Br H298:52.94 kcal/mol
+library:CHOBr_G4 label:OC(Br)DCD[C]Br smiles:OC(Br)=C=[C]Br H298:61.21 kcal/mol
+library:CHOBr_G4 label:ODCDCD[C]Br smiles:O=C=C=[C]Br H298:74.60 kcal/mol
 """,
 )
 
@@ -13035,9 +13121,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.138551,-0.966398,-1.61384,-2.17883,-3.08606,-3.72396,-4.5964],'cal/(mol*K)','+|-',[0.312567,0.320926,0.300908,0.281055,0.248037,0.217051,0.158973]),
-        H298 = (95.1673,'kcal/mol','+|-',0.499323),
-        S298 = (2.29414,'cal/(mol*K)','+|-',0.848578),
+        Cpdata = ([-0.154618,-0.976143,-1.62147,-2.18484,-3.09001,-3.72652,-4.59724],'cal/(mol*K)','+|-',[0.318208,0.325625,0.304997,0.284724,0.251084,0.219769,0.164343]),
+        H298 = (95.178,'kcal/mol','+|-',0.495566),
+        S298 = (2.18226,'cal/(mol*K)','+|-',0.745751),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -13050,9 +13136,9 @@ library:CHOCl_G4 label:ODCD[C]Cl smiles:O=C=[C]Cl H298:39.72 kcal/mol
 library:CHOCl_G4 label:CDCDCD[C]Cl smiles:C=C=C=[C]Cl H298:119.05 kcal/mol
 library:CHOCl_G4 label:Cl[C]DCDCDC(Cl)Cl smiles:Cl[C]=C=C=C(Cl)Cl H298:109.57 kcal/mol
 library:CHOCl_G4 label:OCDCD[C]Cl smiles:OC=C=[C]Cl H298:43.83 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCDCDC(Cl)Br smiles:Cl[C]=C=C=C(Cl)Br H298:120.42 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCDCDC(Cl)Br smiles:Cl[C]=C=C=C(Cl)Br H298:120.48 kcal/mol
 library:CHOClBr_G4 label:OC(Br)DCD[C]Cl smiles:OC(Br)=C=[C]Cl H298:49.91 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCDC(Cl)CBr smiles:Cl[C]=C=C(Cl)CBr H298:72.97 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCDC(Cl)CBr smiles:Cl[C]=C=C(Cl)CBr H298:72.99 kcal/mol
 """,
 )
 
@@ -13067,9 +13153,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.420021,-1.06908,-1.66887,-2.18795,-2.99319,-3.55053,-4.3308],'cal/(mol*K)','+|-',[0.232974,0.239204,0.224283,0.209486,0.184876,0.16178,0.118491]),
-        H298 = (103.204,'kcal/mol','+|-',0.372173),
-        S298 = (1.35765,'cal/(mol*K)','+|-',0.632492),
+        Cpdata = ([-0.423163,-1.07399,-1.67409,-2.19205,-2.99365,-3.54873,-4.3315],'cal/(mol*K)','+|-',[0.237179,0.242706,0.227332,0.212221,0.187147,0.163806,0.122494]),
+        H298 = (103.207,'kcal/mol','+|-',0.369373),
+        S298 = (1.33428,'cal/(mol*K)','+|-',0.55585),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -13090,8 +13176,8 @@ library:CHOFCl_G4 label:F[C]DCDC(Cl)OCl smiles:F[C]=C=C(Cl)OCl H298:48.07 kcal/m
 library:CHOFCl_G4 label:F[C]DCDCOCl smiles:F[C]=C=COCl H298:52.59 kcal/mol
 library:CHOFCl_G4 label:F[C]DCDC(F)OCl smiles:F[C]=C=C(F)OCl H298:8.95 kcal/mol
 library:CHOFCl_G4 label:OC(Cl)DCD[C]F smiles:OC(Cl)=C=[C]F H298:9.17 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCDCDC(Cl)Br smiles:F[C]=C=C=C(Cl)Br H298:94.93 kcal/mol
-library:CHOFBr_G4 label:F[C]DCDCOBr smiles:F[C]=C=COBr H298:55.02 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCDCDC(Cl)Br smiles:F[C]=C=C=C(Cl)Br H298:94.98 kcal/mol
+library:CHOFBr_G4 label:F[C]DCDCOBr smiles:F[C]=C=COBr H298:55.01 kcal/mol
 library:CHOFBr_G4 label:OC(Br)DCD[C]F smiles:OC(Br)=C=[C]F H298:21.63 kcal/mol
 """,
 )
@@ -13107,70 +13193,73 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.223916,-0.944778,-1.6301,-2.2287,-3.14045,-3.76793,-4.68754],'cal/(mol*K)','+|-',[0.132084,0.135616,0.127157,0.118768,0.104815,0.0917207,0.0671782]),
-        H298 = (108.532,'kcal/mol','+|-',0.211002),
-        S298 = (1.41173,'cal/(mol*K)','+|-',0.35859),
+        Cpdata = ([-0.275344,-0.999163,-1.66376,-2.24084,-3.12829,-3.74905,-4.66764],'cal/(mol*K)','+|-',[0.131004,0.134058,0.125565,0.117219,0.10337,0.0904775,0.0676588]),
+        H298 = (108.469,'kcal/mol','+|-',0.204021),
+        S298 = (1.5399,'cal/(mol*K)','+|-',0.307021),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
 library:CHOBr_G4 label:CDCCD[C]Br smiles:C=CC=[C]Br H298:87.95 kcal/mol
-library:CHOBr_G4 label:CC(Br)C(Br)D[C]Br smiles:CC(Br)C(Br)=[C]Br H298:67.12 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(Br)OBr smiles:Br[C]=C(Br)OBr H298:80.08 kcal/mol
-library:CHOBr_G4 label:OC(O)D[C]Br smiles:OC(O)=[C]Br H298:-6.38 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(Br)CDCBr smiles:Br[C]=C(Br)C=CBr H298:98.01 kcal/mol
-library:CHOBr_G4 label:OCC(Br)D[C]Br smiles:OCC(Br)=[C]Br H298:33.84 kcal/mol
-library:CHOBr_G4 label:CC(C)D[C]Br smiles:CC(C)=[C]Br H298:56.37 kcal/mol
-library:CHOBr_G4 label:CC(D[C]Br)CBr smiles:CC(=[C]Br)CBr H298:61.66 kcal/mol
-library:CHOBr_G4 label:ODC(Br)CD[C]Br smiles:O=C(Br)C=[C]Br H298:42.13 kcal/mol
-library:CHOBr_G4 label:Br[C]DCOC(Br)Br smiles:Br[C]=COC(Br)Br H298:51.13 kcal/mol
-library:CHOBr_G4 label:Br[C]DCC(Br)OBr smiles:Br[C]=CC(Br)OBr H298:70.99 kcal/mol
+library:CHOBr_G4 label:CC(Br)C(Br)D[C]Br smiles:CC(Br)C(Br)=[C]Br H298:67.15 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)OBr smiles:Br[C]=C(Br)OBr H298:80.05 kcal/mol
+library:CHOBr_G4 label:OC(O)D[C]Br smiles:OC(O)=[C]Br H298:-6.39 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)CDCBr smiles:Br[C]=C(Br)C=CBr H298:97.97 kcal/mol
+library:CHOBr_G4 label:OCC(Br)D[C]Br smiles:OCC(Br)=[C]Br H298:33.86 kcal/mol
+library:CHOBr_G4 label:CC(C)D[C]Br smiles:CC(C)=[C]Br H298:56.36 kcal/mol
+library:CHOBr_G4 label:CC(D[C]Br)CBr smiles:CC(=[C]Br)CBr H298:61.75 kcal/mol
+library:CHOBr_G4 label:ODC(Br)CD[C]Br smiles:O=C(Br)C=[C]Br H298:42.11 kcal/mol
+library:CHOBr_G4 label:Br[C]DCOC(Br)Br smiles:Br[C]=COC(Br)Br H298:51.10 kcal/mol
+library:CHOBr_G4 label:Br[C]DCC(Br)OBr smiles:Br[C]=CC(Br)OBr H298:70.97 kcal/mol
 library:CHOBr_G4 label:CDCC(Br)D[C]Br smiles:C=CC(Br)=[C]Br H298:92.33 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(Br)Br smiles:Br[C]=C(Br)Br H298:87.72 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(OBr)OBr smiles:Br[C]=C(OBr)OBr H298:74.26 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)Br smiles:Br[C]=C(Br)Br H298:87.73 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(OBr)OBr smiles:Br[C]=C(OBr)OBr H298:74.23 kcal/mol
 library:CHOBr_G4 label:OC(Br)D[C]Br smiles:OC(Br)=[C]Br H298:41.50 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(Br)CCBr smiles:Br[C]=C(Br)CCBr H298:69.47 kcal/mol
-library:CHOBr_G4 label:OOC(Br)D[C]Br smiles:OOC(Br)=[C]Br H298:62.77 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)CCBr smiles:Br[C]=C(Br)CCBr H298:69.51 kcal/mol
+library:CHOBr_G4 label:OOC(Br)D[C]Br smiles:OOC(Br)=[C]Br H298:62.82 kcal/mol
 library:CHOBr_G4 label:Br[C]DC(Br)OCBr smiles:Br[C]=C(Br)OCBr H298:48.84 kcal/mol
-library:CHOBr_G4 label:Br[C]DCOBr smiles:Br[C]=COBr H298:74.51 kcal/mol
-library:CHOBr_G4 label:ODCCD[C]Br smiles:O=CC=[C]Br H298:45.04 kcal/mol
-library:CHOBr_G4 label:CC(Br)CD[C]Br smiles:CC(Br)C=[C]Br H298:62.59 kcal/mol
+library:CHOBr_G4 label:Br[C]DCOBr smiles:Br[C]=COBr H298:74.47 kcal/mol
+library:CHOBr_G4 label:ODCCD[C]Br smiles:O=CC=[C]Br H298:45.02 kcal/mol
+library:CHOBr_G4 label:CC(Br)CD[C]Br smiles:CC(Br)C=[C]Br H298:62.61 kcal/mol
 library:CHOBr_G4 label:Br[C]DCOCBr smiles:Br[C]=COCBr H298:43.04 kcal/mol
-library:CHOBr_G4 label:Br[C]DCCCBr smiles:Br[C]=CCCBr H298:65.33 kcal/mol
+library:CHOBr_G4 label:Br[C]DCCCBr smiles:Br[C]=CCCBr H298:65.32 kcal/mol
 library:CHOBr_G4 label:CCCD[C]Br smiles:CCC=[C]Br H298:59.83 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(Br)C#CBr smiles:Br[C]=C(Br)C#CBr H298:148.33 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(CBr)OBr smiles:Br[C]=C(CBr)OBr H298:73.16 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)C#CBr smiles:Br[C]=C(Br)C#CBr H298:148.27 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(CBr)OBr smiles:Br[C]=C(CBr)OBr H298:73.15 kcal/mol
 library:CHOBr_G4 label:OCD[C]Br smiles:OC=[C]Br H298:35.05 kcal/mol
-library:CHOBr_G4 label:CC(Br)D[C]Br smiles:CC(Br)=[C]Br H298:68.44 kcal/mol
+library:CHOBr_G4 label:CC(Br)D[C]Br smiles:CC(Br)=[C]Br H298:68.46 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)C(Br)Br smiles:Br[C]=C(Br)C(Br)Br H298:83.86 kcal/mol
 library:CHOBr_G4 label:OCCD[C]Br smiles:OCC=[C]Br H298:30.64 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(CBr)CBr smiles:Br[C]=C(CBr)CBr H298:67.15 kcal/mol
-library:CHOBr_G4 label:Br[C]DCCC(Br)Br smiles:Br[C]=CCC(Br)Br H298:71.50 kcal/mol
-library:CHOBr_G4 label:Br[C]DCC#CBr smiles:Br[C]=CC#CBr H298:141.93 kcal/mol
-library:CHOBr_G4 label:CCC(Br)D[C]Br smiles:CCC(Br)=[C]Br H298:62.82 kcal/mol
-library:CHOBr_G4 label:CC(O)D[C]Br smiles:CC(O)=[C]Br H298:23.53 kcal/mol
-library:CHOBr_G4 label:Br[C]DCCOBr smiles:Br[C]=CCOBr H298:67.30 kcal/mol
-library:CHOBr_G4 label:OC(D[C]Br)CBr smiles:OC(=[C]Br)CBr H298:31.24 kcal/mol
-library:CHOBr_G4 label:Br[C]DCBr smiles:Br[C]=CBr H298:78.82 kcal/mol
-library:CHOBr_G4 label:C#CC(Br)D[C]Br smiles:C#CC(Br)=[C]Br H298:137.92 kcal/mol
-library:CHOBr_G4 label:C#CCD[C]Br smiles:C#CC=[C]Br H298:131.36 kcal/mol
-library:CHOBr_G4 label:Br[C]DCCBr smiles:Br[C]=CCBr H298:71.49 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(Br)OOBr smiles:Br[C]=C(Br)OOBr H298:97.09 kcal/mol
-library:CHOBr_G4 label:Br[C]DCC(Br)Br smiles:Br[C]=CC(Br)Br H298:78.72 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(Br)COBr smiles:Br[C]=C(Br)COBr H298:70.59 kcal/mol
-library:CHOBr_G4 label:OOCD[C]Br smiles:OOC=[C]Br H298:57.34 kcal/mol
-library:CHOBr_G4 label:ODCC(Br)D[C]Br smiles:O=CC(Br)=[C]Br H298:50.72 kcal/mol
+library:CHOBr_G4 label:Br[C]DCC(Br)(Br)Br smiles:Br[C]=CC(Br)(Br)Br H298:89.51 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(CBr)CBr smiles:Br[C]=C(CBr)CBr H298:67.19 kcal/mol
+library:CHOBr_G4 label:Br[C]DCCC(Br)Br smiles:Br[C]=CCC(Br)Br H298:71.52 kcal/mol
+library:CHOBr_G4 label:Br[C]DCC#CBr smiles:Br[C]=CC#CBr H298:141.89 kcal/mol
+library:CHOBr_G4 label:CCC(Br)D[C]Br smiles:CCC(Br)=[C]Br H298:62.83 kcal/mol
+library:CHOBr_G4 label:CC(O)D[C]Br smiles:CC(O)=[C]Br H298:23.52 kcal/mol
+library:CHOBr_G4 label:Br[C]DCCOBr smiles:Br[C]=CCOBr H298:67.26 kcal/mol
+library:CHOBr_G4 label:OC(D[C]Br)CBr smiles:OC(=[C]Br)CBr H298:31.25 kcal/mol
+library:CHOBr_G4 label:Br[C]DCBr smiles:Br[C]=CBr H298:78.83 kcal/mol
+library:CHOBr_G4 label:C#CC(Br)D[C]Br smiles:C#CC(Br)=[C]Br H298:137.93 kcal/mol
+library:CHOBr_G4 label:C#CCD[C]Br smiles:C#CC=[C]Br H298:131.35 kcal/mol
+library:CHOBr_G4 label:Br[C]DCCBr smiles:Br[C]=CCBr H298:71.51 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)OOBr smiles:Br[C]=C(Br)OOBr H298:97.06 kcal/mol
+library:CHOBr_G4 label:Br[C]DCC(Br)Br smiles:Br[C]=CC(Br)Br H298:78.74 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)COBr smiles:Br[C]=C(Br)COBr H298:70.57 kcal/mol
+library:CHOBr_G4 label:OOCD[C]Br smiles:OOC=[C]Br H298:57.33 kcal/mol
+library:CHOBr_G4 label:ODCC(Br)D[C]Br smiles:O=CC(Br)=[C]Br H298:50.71 kcal/mol
+library:CHOBr_G4 label:Br[C]DCC(Br)CBr smiles:Br[C]=CC(Br)CBr H298:69.24 kcal/mol
 library:CHOBr_G4 label:CCD[C]Br smiles:CC=[C]Br H298:65.16 kcal/mol
 library:CHOBr_G4 label:CDC(Br)CD[C]Br smiles:C=C(Br)C=[C]Br H298:92.91 kcal/mol
-library:CHOBr_G4 label:OC(Br)CD[C]Br smiles:OC(Br)C=[C]Br H298:32.40 kcal/mol
-library:CHOBr_G4 label:CC(D[C]Br)OBr smiles:CC(=[C]Br)OBr H298:62.39 kcal/mol
-library:CHOBr_G4 label:COCD[C]Br smiles:COC=[C]Br H298:41.22 kcal/mol
-library:CHOBr_G4 label:CC(Br)(Br)CD[C]Br smiles:CC(Br)(Br)C=[C]Br H298:68.76 kcal/mol
-library:CHOBr_G4 label:COC(Br)D[C]Br smiles:COC(Br)=[C]Br H298:43.76 kcal/mol
-library:CHOBr_G4 label:Br[C]DC(Br)CBr smiles:Br[C]=C(Br)CBr H298:75.83 kcal/mol
-library:CHOBr_G4 label:Br[C]DCCDCBr smiles:Br[C]=CC=CBr H298:92.76 kcal/mol
-library:CHOBr_G4 label:CD[C]Br smiles:C=[C]Br H298:72.97 kcal/mol
-library:CHOBr_G4 label:CC(D[C]Br)C(Br)Br smiles:CC(=[C]Br)C(Br)Br H298:68.45 kcal/mol
+library:CHOBr_G4 label:OC(Br)CD[C]Br smiles:OC(Br)C=[C]Br H298:32.42 kcal/mol
+library:CHOBr_G4 label:CC(D[C]Br)OBr smiles:CC(=[C]Br)OBr H298:62.36 kcal/mol
+library:CHOBr_G4 label:COCD[C]Br smiles:COC=[C]Br H298:41.21 kcal/mol
+library:CHOBr_G4 label:CC(Br)(Br)CD[C]Br smiles:CC(Br)(Br)C=[C]Br H298:68.80 kcal/mol
+library:CHOBr_G4 label:COC(Br)D[C]Br smiles:COC(Br)=[C]Br H298:43.75 kcal/mol
+library:CHOBr_G4 label:Br[C]DC(Br)CBr smiles:Br[C]=C(Br)CBr H298:75.86 kcal/mol
+library:CHOBr_G4 label:Br[C]DCCDCBr smiles:Br[C]=CC=CBr H298:92.73 kcal/mol
+library:CHOBr_G4 label:CD[C]Br smiles:C=[C]Br H298:72.96 kcal/mol
+library:CHOBr_G4 label:CC(D[C]Br)C(Br)Br smiles:CC(=[C]Br)C(Br)Br H298:68.47 kcal/mol
 """,
 )
 
@@ -13185,9 +13274,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.361032,-1.11363,-1.76098,-2.31345,-3.1642,-3.76063,-4.63429],'cal/(mol*K)','+|-',[0.0730664,0.0750205,0.0703409,0.0657001,0.0579817,0.0507383,0.0371618]),
-        H298 = (108.792,'kcal/mol','+|-',0.116723),
-        S298 = (1.70863,'cal/(mol*K)','+|-',0.198365),
+        Cpdata = ([-0.349585,-1.10196,-1.74578,-2.29373,-3.1376,-3.73318,-4.61343],'cal/(mol*K)','+|-',[0.0733893,0.0750998,0.0703424,0.0656668,0.0579082,0.050686,0.0379028]),
+        H298 = (108.733,'kcal/mol','+|-',0.114294),
+        S298 = (1.71675,'cal/(mol*K)','+|-',0.171995),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -13295,87 +13384,92 @@ library:CHOCl_G4 label:OC(O)D[C]Cl smiles:OC(O)=[C]Cl H298:-17.15 kcal/mol
 library:CHOCl_G4 label:Cl[C]DC(CCl)C(Cl)Cl smiles:Cl[C]=C(CCl)C(Cl)Cl H298:31.61 kcal/mol
 library:CHOCl_G4 label:CC(D[C]Cl)C(Cl)Cl smiles:CC(=[C]Cl)C(Cl)Cl H298:34.44 kcal/mol
 library:CHOCl_G4 label:CDCCD[C]Cl smiles:C=CC=[C]Cl H298:76.43 kcal/mol
-library:CHOClBr_G4 label:CC(D[C]Cl)C(Cl)Br smiles:CC(=[C]Cl)C(Cl)Br H298:46.13 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Cl)(Br)Br smiles:Cl[C]=CC(Cl)(Br)Br H298:66.54 kcal/mol
+library:CHOClBr_G4 label:CC(D[C]Cl)C(Cl)Br smiles:CC(=[C]Cl)C(Cl)Br H298:46.15 kcal/mol
+library:CHOClBr_G4 label:CC(D[C]Cl)C(Cl)(Br)Br smiles:CC(=[C]Cl)C(Cl)(Br)Br H298:56.25 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Cl)(Br)Br smiles:Cl[C]=CC(Cl)(Br)Br H298:66.57 kcal/mol
 library:CHOClBr_G4 label:COC(Br)D[C]Cl smiles:COC(Br)=[C]Cl H298:32.84 kcal/mol
-library:CHOClBr_G4 label:CC(Br)(Br)CD[C]Cl smiles:CC(Br)(Br)C=[C]Cl H298:57.33 kcal/mol
-library:CHOClBr_G4 label:OC(D[C]Cl)C(Br)Br smiles:OC(=[C]Cl)C(Br)Br H298:28.63 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)CD[C]Cl smiles:CC(Br)(Br)C=[C]Cl H298:57.38 kcal/mol
+library:CHOClBr_G4 label:OC(D[C]Cl)C(Br)Br smiles:OC(=[C]Cl)C(Br)Br H298:28.65 kcal/mol
 library:CHOClBr_G4 label:Cl[C]DC(CBr)OBr smiles:Cl[C]=C(CBr)OBr H298:59.23 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Cl)Br smiles:Cl[C]=CC(Cl)Br H298:56.09 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCBr smiles:Cl[C]=CBr H298:67.30 kcal/mol
-library:CHOClBr_G4 label:OC(Br)CD[C]Cl smiles:OC(Br)C=[C]Cl H298:21.00 kcal/mol
-library:CHOClBr_G4 label:CDC(Br)CD[C]Cl smiles:C=C(Br)C=[C]Cl H298:81.24 kcal/mol
-library:CHOClBr_G4 label:OC(D[C]Cl)OBr smiles:OC(=[C]Cl)OBr H298:25.07 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCCBr smiles:Cl[C]=CCBr H298:60.02 kcal/mol
-library:CHOClBr_G4 label:ODCC(Br)D[C]Cl smiles:O=CC(Br)=[C]Cl H298:39.19 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Cl)OBr smiles:Cl[C]=CC(Cl)OBr H298:46.62 kcal/mol
-library:CHOClBr_G4 label:ODC(Br)C(Br)D[C]Cl smiles:O=C(Br)C(Br)=[C]Cl H298:36.92 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Cl)Br smiles:Cl[C]=CC(Cl)Br H298:56.11 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCBr smiles:Cl[C]=CBr H298:67.31 kcal/mol
+library:CHOClBr_G4 label:OC(Br)CD[C]Cl smiles:OC(Br)C=[C]Cl H298:21.03 kcal/mol
+library:CHOClBr_G4 label:CDC(Br)CD[C]Cl smiles:C=C(Br)C=[C]Cl H298:81.25 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)C(Cl)D[C]Cl smiles:CC(Br)(Br)C(Cl)=[C]Cl H298:52.15 kcal/mol
+library:CHOClBr_G4 label:OC(D[C]Cl)OBr smiles:OC(=[C]Cl)OBr H298:25.06 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCCBr smiles:Cl[C]=CCBr H298:60.05 kcal/mol
+library:CHOClBr_G4 label:ODCC(Br)D[C]Cl smiles:O=CC(Br)=[C]Cl H298:39.20 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Cl)OBr smiles:Cl[C]=CC(Cl)OBr H298:46.60 kcal/mol
+library:CHOClBr_G4 label:ODC(Br)C(Br)D[C]Cl smiles:O=C(Br)C(Br)=[C]Cl H298:36.93 kcal/mol
 library:CHOClBr_G4 label:Cl[C]DC(OCl)OBr smiles:Cl[C]=C(OCl)OBr H298:60.69 kcal/mol
-library:CHOClBr_G4 label:OC(Br)C(Cl)D[C]Cl smiles:OC(Br)C(Cl)=[C]Cl H298:14.33 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Br)OCBr smiles:Cl[C]=C(Br)OCBr H298:37.93 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Br)CBr smiles:Cl[C]=C(Br)CBr H298:64.48 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Br)CCBr smiles:Cl[C]=C(Br)CCBr H298:57.01 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCOC(Cl)Br smiles:Cl[C]=COC(Cl)Br H298:27.69 kcal/mol
+library:CHOClBr_G4 label:OC(Br)C(Cl)D[C]Cl smiles:OC(Br)C(Cl)=[C]Cl H298:14.36 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Br)OCBr smiles:Cl[C]=C(Br)OCBr H298:37.94 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Br)CBr smiles:Cl[C]=C(Br)CBr H298:64.52 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Br)CCBr smiles:Cl[C]=C(Br)CCBr H298:56.99 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCOC(Cl)Br smiles:Cl[C]=COC(Cl)Br H298:27.72 kcal/mol
 library:CHOClBr_G4 label:Cl[C]DCC(Br)DCBr smiles:Cl[C]=CC(Br)=CBr H298:87.09 kcal/mol
 library:CHOClBr_G4 label:Cl[C]DCCDCBr smiles:Cl[C]=CC=CBr H298:81.19 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)CCBr smiles:Cl[C]=C(Cl)CCBr H298:46.64 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Cl)DCBr smiles:Cl[C]=CC(Cl)=CBr H298:75.80 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(OBr)OBr smiles:Cl[C]=C(OBr)OBr H298:63.28 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)OCBr smiles:Cl[C]=C(Cl)OCBr H298:26.62 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)CBr smiles:Cl[C]=C(Cl)CBr H298:53.96 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)CCBr smiles:Cl[C]=C(Cl)CCBr H298:46.65 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Cl)DCBr smiles:Cl[C]=CC(Cl)=CBr H298:75.79 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(OBr)OBr smiles:Cl[C]=C(OBr)OBr H298:63.27 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)OCBr smiles:Cl[C]=C(Cl)OCBr H298:26.63 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)CBr smiles:Cl[C]=C(Cl)CBr H298:53.98 kcal/mol
 library:CHOClBr_G4 label:Cl[C]DC(Br)C(Br)Br smiles:Cl[C]=C(Br)C(Br)Br H298:72.75 kcal/mol
-library:CHOClBr_G4 label:CC(Br)C(Cl)D[C]Cl smiles:CC(Br)C(Cl)=[C]Cl H298:45.38 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCOC(Br)Br smiles:Cl[C]=COC(Br)Br H298:39.80 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Br)OBr smiles:Cl[C]=CC(Br)OBr H298:59.38 kcal/mol
-library:CHOClBr_G4 label:CCC(Br)D[C]Cl smiles:CCC(Br)=[C]Cl H298:51.57 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(CCl)OBr smiles:Cl[C]=C(CCl)OBr H298:48.73 kcal/mol
-library:CHOClBr_G4 label:CC(D[C]Cl)C(Br)Br smiles:CC(=[C]Cl)C(Br)Br H298:57.14 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Cl)(Cl)Br smiles:Cl[C]=CC(Cl)(Cl)Br H298:54.86 kcal/mol
-library:CHOClBr_G4 label:CC(D[C]Cl)CBr smiles:CC(=[C]Cl)CBr H298:50.29 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Br)Br smiles:Cl[C]=CC(Br)Br H298:67.36 kcal/mol
-library:CHOClBr_G4 label:OC(D[C]Cl)C(Cl)Br smiles:OC(=[C]Cl)C(Cl)Br H298:18.31 kcal/mol
-library:CHOClBr_G4 label:OC(Br)(Br)CD[C]Cl smiles:OC(Br)(Br)C=[C]Cl H298:27.04 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCCOBr smiles:Cl[C]=CCOBr H298:55.64 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)CDCBr smiles:Cl[C]=C(Cl)C=CBr H298:75.98 kcal/mol
-library:CHOClBr_G4 label:CDC(Br)C(Cl)D[C]Cl smiles:C=C(Br)C(Cl)=[C]Cl H298:75.66 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCOCBr smiles:Cl[C]=COCBr H298:31.86 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCCCBr smiles:Cl[C]=CCCBr H298:53.85 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCCC(Cl)Br smiles:Cl[C]=CCC(Cl)Br H298:48.11 kcal/mol
-library:CHOClBr_G4 label:OC(Br)C(Br)D[C]Cl smiles:OC(Br)C(Br)=[C]Cl H298:24.67 kcal/mol
-library:CHOClBr_G4 label:CC(Br)D[C]Cl smiles:CC(Br)=[C]Cl H298:57.09 kcal/mol
-library:CHOClBr_G4 label:CC(D[C]Cl)OBr smiles:CC(=[C]Cl)OBr H298:51.37 kcal/mol
+library:CHOClBr_G4 label:CC(Br)C(Cl)D[C]Cl smiles:CC(Br)C(Cl)=[C]Cl H298:45.41 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCOC(Br)Br smiles:Cl[C]=COC(Br)Br H298:39.83 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Br)OBr smiles:Cl[C]=CC(Br)OBr H298:59.39 kcal/mol
+library:CHOClBr_G4 label:CCC(Br)D[C]Cl smiles:CCC(Br)=[C]Cl H298:51.59 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(CCl)OBr smiles:Cl[C]=C(CCl)OBr H298:48.71 kcal/mol
+library:CHOClBr_G4 label:CC(D[C]Cl)C(Br)Br smiles:CC(=[C]Cl)C(Br)Br H298:57.18 kcal/mol
+library:CHOClBr_G4 label:CC(D[C]Cl)C(Cl)(Cl)Br smiles:CC(=[C]Cl)C(Cl)(Cl)Br H298:44.62 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Cl)(Cl)Br smiles:Cl[C]=CC(Cl)(Cl)Br H298:54.87 kcal/mol
+library:CHOClBr_G4 label:CC(D[C]Cl)CBr smiles:CC(=[C]Cl)CBr H298:50.31 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Br)Br smiles:Cl[C]=CC(Br)Br H298:67.40 kcal/mol
+library:CHOClBr_G4 label:OC(D[C]Cl)C(Cl)Br smiles:OC(=[C]Cl)C(Cl)Br H298:18.32 kcal/mol
+library:CHOClBr_G4 label:OC(Br)(Br)CD[C]Cl smiles:OC(Br)(Br)C=[C]Cl H298:27.09 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCCOBr smiles:Cl[C]=CCOBr H298:55.63 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)CDCBr smiles:Cl[C]=C(Cl)C=CBr H298:75.97 kcal/mol
+library:CHOClBr_G4 label:CDC(Br)C(Cl)D[C]Cl smiles:C=C(Br)C(Cl)=[C]Cl H298:75.67 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCOCBr smiles:Cl[C]=COCBr H298:31.89 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCCCBr smiles:Cl[C]=CCCBr H298:53.86 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCCC(Cl)Br smiles:Cl[C]=CCC(Cl)Br H298:48.13 kcal/mol
+library:CHOClBr_G4 label:OC(Br)C(Br)D[C]Cl smiles:OC(Br)C(Br)=[C]Cl H298:24.71 kcal/mol
+library:CHOClBr_G4 label:CC(Br)D[C]Cl smiles:CC(Br)=[C]Cl H298:57.12 kcal/mol
+library:CHOClBr_G4 label:CC(D[C]Cl)OBr smiles:CC(=[C]Cl)OBr H298:51.35 kcal/mol
+library:CHOClBr_G4 label:CC(Br)(Br)C(Br)D[C]Cl smiles:CC(Br)(Br)C(Br)=[C]Cl H298:62.63 kcal/mol
 library:CHOClBr_G4 label:Cl[C]DCCDC(Cl)Br smiles:Cl[C]=CC=C(Cl)Br H298:76.68 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(CCl)CBr smiles:Cl[C]=C(CCl)CBr H298:45.29 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(CCl)CBr smiles:Cl[C]=C(CCl)CBr H298:45.31 kcal/mol
 library:CHOClBr_G4 label:ODC(Br)C(Cl)D[C]Cl smiles:O=C(Br)C(Cl)=[C]Cl H298:26.59 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Br)CBr smiles:Cl[C]=CC(Br)CBr H298:57.16 kcal/mol
-library:CHOClBr_G4 label:CC(Br)CD[C]Cl smiles:CC(Br)C=[C]Cl H298:51.26 kcal/mol
-library:CHOClBr_G4 label:OC(Cl)(Br)CD[C]Cl smiles:OC(Cl)(Br)C=[C]Cl H298:15.01 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)OBr smiles:Cl[C]=C(Cl)OBr H298:60.42 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)C(Cl)Br smiles:Cl[C]=C(Cl)C(Cl)Br H298:52.89 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)OOBr smiles:Cl[C]=C(Cl)OOBr H298:74.53 kcal/mol
-library:CHOClBr_G4 label:OOC(Br)D[C]Cl smiles:OOC(Br)=[C]Cl H298:51.43 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)COBr smiles:Cl[C]=C(Cl)COBr H298:48.92 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)Br smiles:Cl[C]=C(Cl)Br H298:65.46 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Br)(Br)Br smiles:Cl[C]=CC(Br)(Br)Br H298:77.93 kcal/mol
-library:CHOClBr_G4 label:OC(Br)D[C]Cl smiles:OC(Br)=[C]Cl H298:30.49 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Br)OBr smiles:Cl[C]=C(Br)OBr H298:71.62 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Br)CBr smiles:Cl[C]=CC(Br)CBr H298:57.21 kcal/mol
+library:CHOClBr_G4 label:CC(Br)CD[C]Cl smiles:CC(Br)C=[C]Cl H298:51.29 kcal/mol
+library:CHOClBr_G4 label:OC(Cl)(Br)CD[C]Cl smiles:OC(Cl)(Br)C=[C]Cl H298:15.04 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)OBr smiles:Cl[C]=C(Cl)OBr H298:60.41 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)C(Cl)Br smiles:Cl[C]=C(Cl)C(Cl)Br H298:52.90 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)OOBr smiles:Cl[C]=C(Cl)OOBr H298:74.50 kcal/mol
+library:CHOClBr_G4 label:OOC(Br)D[C]Cl smiles:OOC(Br)=[C]Cl H298:51.49 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)COBr smiles:Cl[C]=C(Cl)COBr H298:48.89 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)Br smiles:Cl[C]=C(Cl)Br H298:65.47 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Br)(Br)Br smiles:Cl[C]=CC(Br)(Br)Br H298:77.98 kcal/mol
+library:CHOClBr_G4 label:CC(D[C]Cl)C(Br)(Br)Br smiles:CC(=[C]Cl)C(Br)(Br)Br H298:67.82 kcal/mol
+library:CHOClBr_G4 label:OC(Br)D[C]Cl smiles:OC(Br)=[C]Cl H298:30.50 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Br)OBr smiles:Cl[C]=C(Br)OBr H298:71.63 kcal/mol
 library:CHOClBr_G4 label:Cl[C]DC(Br)COBr smiles:Cl[C]=C(Br)COBr H298:59.26 kcal/mol
-library:CHOClBr_G4 label:CC(Cl)(Br)CD[C]Cl smiles:CC(Cl)(Br)C=[C]Cl H298:47.45 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Br)OOBr smiles:Cl[C]=C(Br)OOBr H298:85.78 kcal/mol
-library:CHOClBr_G4 label:CDC(Br)C(Br)D[C]Cl smiles:C=C(Br)C(Br)=[C]Cl H298:86.29 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCC(Cl)CBr smiles:Cl[C]=CC(Cl)CBr H298:46.27 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Cl)C(Br)Br smiles:Cl[C]=C(Cl)C(Br)Br H298:62.31 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCOBr smiles:Cl[C]=COBr H298:65.70 kcal/mol
-library:CHOClBr_G4 label:CDCC(Br)D[C]Cl smiles:C=CC(Br)=[C]Cl H298:80.88 kcal/mol
-library:CHOClBr_G4 label:OC(D[C]Cl)CBr smiles:OC(=[C]Cl)CBr H298:20.20 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Br)Br smiles:Cl[C]=C(Br)Br H298:76.58 kcal/mol
+library:CHOClBr_G4 label:CC(Cl)(Br)CD[C]Cl smiles:CC(Cl)(Br)C=[C]Cl H298:47.47 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Br)OOBr smiles:Cl[C]=C(Br)OOBr H298:85.77 kcal/mol
+library:CHOClBr_G4 label:CDC(Br)C(Br)D[C]Cl smiles:C=C(Br)C(Br)=[C]Cl H298:86.32 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCC(Cl)CBr smiles:Cl[C]=CC(Cl)CBr H298:46.30 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Cl)C(Br)Br smiles:Cl[C]=C(Cl)C(Br)Br H298:62.33 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCOBr smiles:Cl[C]=COBr H298:65.69 kcal/mol
+library:CHOClBr_G4 label:CDCC(Br)D[C]Cl smiles:C=CC(Br)=[C]Cl H298:80.91 kcal/mol
+library:CHOClBr_G4 label:OC(D[C]Cl)CBr smiles:OC(=[C]Cl)CBr H298:20.22 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Br)Br smiles:Cl[C]=C(Br)Br H298:76.60 kcal/mol
 library:CHOClBr_G4 label:ODC(Br)CD[C]Cl smiles:O=C(Br)C=[C]Cl H298:30.33 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCCC(Br)Br smiles:Cl[C]=CCC(Br)Br H298:60.04 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(Br)CDCBr smiles:Cl[C]=C(Br)C=CBr H298:86.63 kcal/mol
-library:CHOClBr_G4 label:OCC(Br)D[C]Cl smiles:OCC(Br)=[C]Cl H298:22.52 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DC(CBr)CBr smiles:Cl[C]=C(CBr)CBr H298:55.86 kcal/mol
-library:CHOClBr_G4 label:Cl[C]DCCDC(Br)Br smiles:Cl[C]=CC=C(Br)Br H298:88.54 kcal/mol
-library:CHOClBr_G4 label:CC(Br)C(Br)D[C]Cl smiles:CC(Br)C(Br)=[C]Cl H298:55.89 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCCC(Br)Br smiles:Cl[C]=CCC(Br)Br H298:60.09 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(Br)CDCBr smiles:Cl[C]=C(Br)C=CBr H298:86.62 kcal/mol
+library:CHOClBr_G4 label:OCC(Br)D[C]Cl smiles:OCC(Br)=[C]Cl H298:22.54 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DC(CBr)CBr smiles:Cl[C]=C(CBr)CBr H298:55.90 kcal/mol
+library:CHOClBr_G4 label:Cl[C]DCCDC(Br)Br smiles:Cl[C]=CC=C(Br)Br H298:88.53 kcal/mol
+library:CHOClBr_G4 label:CC(Br)C(Br)D[C]Cl smiles:CC(Br)C(Br)=[C]Cl H298:55.93 kcal/mol
 """,
 )
 
@@ -13390,9 +13484,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.396155,-1.1388,-1.77979,-2.31667,-3.14722,-3.74198,-4.63668],'cal/(mol*K)','+|-',[0.053138,0.0545591,0.0511559,0.0477808,0.0421676,0.0368997,0.0270262]),
-        H298 = (113.471,'kcal/mol','+|-',0.0848875),
-        S298 = (1.72419,'cal/(mol*K)','+|-',0.144263),
+        Cpdata = ([-0.395973,-1.13754,-1.77838,-2.31506,-3.14346,-3.73729,-4.63544],'cal/(mol*K)','+|-',[0.053787,0.0550406,0.051554,0.0481272,0.042441,0.0371478,0.027779]),
+        H298 = (113.448,'kcal/mol','+|-',0.0837659),
+        S298 = (1.69347,'cal/(mol*K)','+|-',0.126055),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -13418,7 +13512,7 @@ library:CHOF_G4 label:F[C]DC(F)CC(F)F smiles:F[C]=C(F)CC(F)F H298:-124.82 kcal/m
 library:CHOF_G4 label:F[C]DC(F)C#CF smiles:F[C]=C(F)C#CF H298:20.06 kcal/mol
 library:CHOF_G4 label:OC(D[C]F)C(F)F smiles:OC(=[C]F)C(F)F H298:-111.38 kcal/mol
 library:CHOF_G4 label:OC(D[C]F)CF smiles:OC(=[C]F)CF H298:-59.81 kcal/mol
-library:CHOF_G4 label:OCC(F)D[C]F smiles:OCC(F)=[C]F H298:-55.68 kcal/mol
+library:CHOF_G4 label:OCC(F)D[C]F smiles:OCC(F)=[C]F H298:-55.75 kcal/mol
 library:CHOF_G4 label:CDC(F)C(F)D[C]F smiles:C=C(F)C(F)=[C]F H298:-42.68 kcal/mol
 library:CHOF_G4 label:F[C]DC(F)C(F)F smiles:F[C]=C(F)C(F)F H298:-113.09 kcal/mol
 library:CHOF_G4 label:F[C]DC(F)OC(F)(F)F smiles:F[C]=C(F)OC(F)(F)F H298:-209.09 kcal/mol
@@ -13427,7 +13521,7 @@ library:CHOF_G4 label:CDCCD[C]F smiles:C=CC=[C]F H298:41.84 kcal/mol
 library:CHOF_G4 label:F[C]DCOC(F)(F)F smiles:F[C]=COC(F)(F)F H298:-167.75 kcal/mol
 library:CHOF_G4 label:F[C]DCC#CF smiles:F[C]=CC#CF H298:57.49 kcal/mol
 library:CHOF_G4 label:F[C]DC(F)C(F)(F)C(F)F smiles:F[C]=C(F)C(F)(F)C(F)F H298:-214.57 kcal/mol
-library:CHOF_G4 label:F[C]DCOC(F)F smiles:F[C]=COC(F)F H298:-111.13 kcal/mol
+library:CHOF_G4 label:F[C]DCOC(F)F smiles:F[C]=COC(F)F H298:-111.25 kcal/mol
 library:CHOF_G4 label:C#CCD[C]F smiles:C#CC=[C]F H298:85.37 kcal/mol
 library:CHOF_G4 label:CC(F)D[C]F smiles:CC(F)=[C]F H298:-22.27 kcal/mol
 library:CHOF_G4 label:F[C]DC(F)CDC(F)F smiles:F[C]=C(F)C=C(F)F H298:-88.35 kcal/mol
@@ -13493,7 +13587,7 @@ library:CHOF_G4 label:F[C]DC(F)C(F)(F)F smiles:F[C]=C(F)C(F)(F)F H298:-169.26 kc
 library:CHOF_G4 label:CC(F)(F)CD[C]F smiles:CC(F)(F)C=[C]F H298:-88.31 kcal/mol
 library:CHOF_G4 label:CDC(F)CD[C]F smiles:C=C(F)C=[C]F H298:-4.65 kcal/mol
 library:CHOF_G4 label:CCD[C]F smiles:CC=[C]F H298:19.28 kcal/mol
-library:CHOF_G4 label:OC(D[C]F)C(F)(F)F smiles:OC(=[C]F)C(F)(F)F H298:-168.12 kcal/mol
+library:CHOF_G4 label:OC(D[C]F)C(F)(F)F smiles:OC(=[C]F)C(F)(F)F H298:-168.08 kcal/mol
 library:CHOF_G4 label:F[C]DCCDC(F)F smiles:F[C]=CC=C(F)F H298:-51.48 kcal/mol
 library:CHOFCl_G4 label:OC(D[C]F)C(F)Cl smiles:OC(=[C]F)C(F)Cl H298:-65.77 kcal/mol
 library:CHOFCl_G4 label:CC(Cl)C(F)D[C]F smiles:CC(Cl)C(F)=[C]F H298:-32.88 kcal/mol
@@ -13574,176 +13668,180 @@ library:CHOFCl_G4 label:F[C]DCCDC(F)Cl smiles:F[C]=CC=C(F)Cl H298:-8.98 kcal/mol
 library:CHOFCl_G4 label:F[C]DC(F)CDCCl smiles:F[C]=C(F)C=CCl H298:-3.42 kcal/mol
 library:CHOFCl_G4 label:F[C]DC(Cl)Cl smiles:F[C]=C(Cl)Cl H298:40.48 kcal/mol
 library:CHOFCl_G4 label:OC(D[C]F)CCl smiles:OC(=[C]F)CCl H298:-22.48 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)C(Br)Br smiles:F[C]=C(Cl)C(Br)Br H298:30.06 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)C(Br)Br smiles:F[C]=C(Cl)C(Br)Br H298:30.09 kcal/mol
 library:CHOFClBr_G4 label:F[C]DC(Cl)Br smiles:F[C]=C(Cl)Br H298:33.83 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCC(Cl)CBr smiles:F[C]=CC(Cl)CBr H298:12.48 kcal/mol
-library:CHOFClBr_G4 label:OC(Br)C(Cl)D[C]F smiles:OC(Br)C(Cl)=[C]F H298:-17.67 kcal/mol
-library:CHOFClBr_G4 label:CC(Cl)(Br)CD[C]F smiles:CC(Cl)(Br)C=[C]F H298:13.20 kcal/mol
-library:CHOFClBr_G4 label:CC(D[C]F)C(Cl)Br smiles:CC(=[C]F)C(Cl)Br H298:12.86 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)OOBr smiles:F[C]=C(Cl)OOBr H298:42.76 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)COBr smiles:F[C]=C(Cl)COBr H298:16.33 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)CDCBr smiles:F[C]=C(Cl)C=CBr H298:43.54 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(F)C(Cl)Br smiles:F[C]=C(F)C(Cl)Br H298:-15.12 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)C(Cl)Br smiles:F[C]=C(Cl)C(Cl)Br H298:20.79 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)OBr smiles:F[C]=C(Cl)OBr H298:29.37 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(CCl)CBr smiles:F[C]=C(CCl)CBr H298:11.80 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCC(Cl)DCBr smiles:F[C]=CC(Cl)=CBr H298:41.71 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCC(F)(Cl)Br smiles:F[C]=CC(F)(Cl)Br H298:-21.26 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCCC(Cl)Br smiles:F[C]=CCC(Cl)Br H298:14.04 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCC(Cl)CBr smiles:F[C]=CC(Cl)CBr H298:12.50 kcal/mol
+library:CHOFClBr_G4 label:OC(Br)C(Cl)D[C]F smiles:OC(Br)C(Cl)=[C]F H298:-17.64 kcal/mol
+library:CHOFClBr_G4 label:CC(Cl)(Br)CD[C]F smiles:CC(Cl)(Br)C=[C]F H298:13.23 kcal/mol
+library:CHOFClBr_G4 label:CC(D[C]F)C(Cl)Br smiles:CC(=[C]F)C(Cl)Br H298:12.88 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)OOBr smiles:F[C]=C(Cl)OOBr H298:42.73 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)COBr smiles:F[C]=C(Cl)COBr H298:16.32 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)(Br)C(Cl)D[C]F smiles:CC(Br)(Br)C(Cl)=[C]F H298:19.99 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)CDCBr smiles:F[C]=C(Cl)C=CBr H298:43.52 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(F)C(Cl)Br smiles:F[C]=C(F)C(Cl)Br H298:-15.10 kcal/mol
+library:CHOFClBr_G4 label:CC(D[C]F)C(F)(Cl)Br smiles:CC(=[C]F)C(F)(Cl)Br H298:-29.35 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)C(Cl)Br smiles:F[C]=C(Cl)C(Cl)Br H298:20.80 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)OBr smiles:F[C]=C(Cl)OBr H298:29.36 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(CCl)CBr smiles:F[C]=C(CCl)CBr H298:11.82 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCC(Cl)DCBr smiles:F[C]=CC(Cl)=CBr H298:41.69 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCC(F)(Cl)Br smiles:F[C]=CC(F)(Cl)Br H298:-21.24 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCCC(Cl)Br smiles:F[C]=CCC(Cl)Br H298:14.07 kcal/mol
 library:CHOFClBr_G4 label:CDC(Br)C(Cl)D[C]F smiles:C=C(Br)C(Cl)=[C]F H298:43.09 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(CCl)OBr smiles:F[C]=C(CCl)OBr H298:17.63 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)CBr smiles:F[C]=C(Cl)CBr H298:21.56 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)CCBr smiles:F[C]=C(Cl)CCBr H298:13.69 kcal/mol
-library:CHOFClBr_G4 label:F[C]DC(Cl)OCBr smiles:F[C]=C(Cl)OCBr H298:-3.95 kcal/mol
+library:CHOFClBr_G4 label:CC(D[C]F)C(Cl)(Br)Br smiles:CC(=[C]F)C(Cl)(Br)Br H298:22.85 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(CCl)OBr smiles:F[C]=C(CCl)OBr H298:17.59 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)CBr smiles:F[C]=C(Cl)CBr H298:21.58 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)CCBr smiles:F[C]=C(Cl)CCBr H298:13.71 kcal/mol
+library:CHOFClBr_G4 label:F[C]DC(Cl)OCBr smiles:F[C]=C(Cl)OCBr H298:-3.93 kcal/mol
 library:CHOFClBr_G4 label:F[C]DCC(Cl)(Cl)Br smiles:F[C]=CC(Cl)(Cl)Br H298:21.21 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCCDC(Cl)Br smiles:F[C]=CC=C(Cl)Br H298:42.44 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCCDC(Cl)Br smiles:F[C]=CC=C(Cl)Br H298:42.43 kcal/mol
 library:CHOFClBr_G4 label:F[C]DC(OCl)OBr smiles:F[C]=C(OCl)OBr H298:29.54 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCC(Cl)Br smiles:F[C]=CC(Cl)Br H298:22.50 kcal/mol
-library:CHOFClBr_G4 label:OC(Cl)(Br)CD[C]F smiles:OC(Cl)(Br)C=[C]F H298:-18.52 kcal/mol
-library:CHOFClBr_G4 label:CC(Br)C(Cl)D[C]F smiles:CC(Br)C(Cl)=[C]F H298:13.18 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCOC(Cl)Br smiles:F[C]=COC(Cl)Br H298:-3.32 kcal/mol
-library:CHOFClBr_G4 label:OC(D[C]F)C(Cl)Br smiles:OC(=[C]F)C(Cl)Br H298:-14.36 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCC(Cl)OBr smiles:F[C]=CC(Cl)OBr H298:12.77 kcal/mol
-library:CHOFClBr_G4 label:F[C]DCC(Cl)(Br)Br smiles:F[C]=CC(Cl)(Br)Br H298:32.93 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCC(Cl)Br smiles:F[C]=CC(Cl)Br H298:22.52 kcal/mol
+library:CHOFClBr_G4 label:OC(Cl)(Br)CD[C]F smiles:OC(Cl)(Br)C=[C]F H298:-18.49 kcal/mol
+library:CHOFClBr_G4 label:CC(Br)C(Cl)D[C]F smiles:CC(Br)C(Cl)=[C]F H298:13.21 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCOC(Cl)Br smiles:F[C]=COC(Cl)Br H298:-3.29 kcal/mol
+library:CHOFClBr_G4 label:OC(D[C]F)C(Cl)Br smiles:OC(=[C]F)C(Cl)Br H298:-14.37 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCC(Cl)OBr smiles:F[C]=CC(Cl)OBr H298:12.75 kcal/mol
+library:CHOFClBr_G4 label:F[C]DCC(Cl)(Br)Br smiles:F[C]=CC(Cl)(Br)Br H298:32.96 kcal/mol
+library:CHOFClBr_G4 label:CC(D[C]F)C(Cl)(Cl)Br smiles:CC(=[C]F)C(Cl)(Cl)Br H298:11.16 kcal/mol
 library:CHOFClBr_G4 label:ODC(Br)C(Cl)D[C]F smiles:O=C(Br)C(Cl)=[C]F H298:-5.67 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(F)OBr smiles:F[C]=C(F)C(F)OBr H298:-67.13 kcal/mol
-library:CHOFBr_G4 label:ODCC(Br)D[C]F smiles:O=CC(Br)=[C]F H298:6.41 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(F)OBr smiles:F[C]=C(F)C(F)OBr H298:-67.14 kcal/mol
+library:CHOFBr_G4 label:ODCC(Br)D[C]F smiles:O=CC(Br)=[C]F H298:6.42 kcal/mol
 library:CHOFBr_G4 label:OC(D[C]F)CBr smiles:OC(=[C]F)CBr H298:-11.64 kcal/mol
-library:CHOFBr_G4 label:OOC(Br)D[C]F smiles:OOC(Br)=[C]F H298:19.23 kcal/mol
-library:CHOFBr_G4 label:F[C]DCOC(F)(F)Br smiles:F[C]=COC(F)(F)Br H298:-101.80 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(Br)DCBr smiles:F[C]=C(F)C(Br)=CBr H298:14.61 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(Br)CBr smiles:F[C]=C(F)C(Br)CBr H298:-16.64 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CBr)C(Br)Br smiles:F[C]=C(CBr)C(Br)Br H298:31.35 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)CDCBr smiles:F[C]=C(F)C=CBr H298:8.01 kcal/mol
+library:CHOFBr_G4 label:OOC(Br)D[C]F smiles:OOC(Br)=[C]F H298:19.28 kcal/mol
+library:CHOFBr_G4 label:F[C]DCOC(F)(F)Br smiles:F[C]=COC(F)(F)Br H298:-101.78 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(Br)DCBr smiles:F[C]=C(F)C(Br)=CBr H298:14.60 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(Br)CBr smiles:F[C]=C(F)C(Br)CBr H298:-16.59 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CBr)C(Br)Br smiles:F[C]=C(CBr)C(Br)Br H298:31.38 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)CDCBr smiles:F[C]=C(F)C=CBr H298:7.99 kcal/mol
 library:CHOFBr_G4 label:F[C]DCC(F)DC(F)Br smiles:F[C]=CC(F)=C(F)Br H298:-36.14 kcal/mol
-library:CHOFBr_G4 label:CDC(Br)C(Br)D[C]F smiles:C=C(Br)C(Br)=[C]F H298:53.71 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCDC(F)Br smiles:F[C]=CC=C(F)Br H298:3.81 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)OBr smiles:F[C]=C(Br)OBr H298:40.67 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)(Br)Br smiles:F[C]=CC(F)(Br)Br H298:-9.63 kcal/mol
+library:CHOFBr_G4 label:CDC(Br)C(Br)D[C]F smiles:C=C(Br)C(Br)=[C]F H298:53.73 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCDC(F)Br smiles:F[C]=CC=C(F)Br H298:3.82 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)OBr smiles:F[C]=C(Br)OBr H298:40.69 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)(Br)Br smiles:F[C]=CC(F)(Br)Br H298:-9.60 kcal/mol
 library:CHOFBr_G4 label:F[C]DCC(Br)DCBr smiles:F[C]=CC(Br)=CBr H298:52.85 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CBr)C(F)F smiles:F[C]=C(CBr)C(F)F H298:-77.02 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCC(Br)Br smiles:F[C]=CCC(Br)Br H298:25.60 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CF)C(F)Br smiles:F[C]=C(CF)C(F)Br H298:-67.89 kcal/mol
-library:CHOFBr_G4 label:CC(D[C]F)C(F)Br smiles:CC(=[C]F)C(F)Br H298:-27.21 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)C(Br)Br smiles:F[C]=CC(F)C(Br)Br H298:-18.83 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CBr)CBr smiles:F[C]=C(CBr)CBr H298:22.49 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CF)OBr smiles:F[C]=C(CF)OBr H298:-19.82 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(Br)(Br)OBr smiles:F[C]=CC(Br)(Br)OBr H298:31.99 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)C(Br)(Br)Br smiles:F[C]=C(Br)C(Br)(Br)Br H298:51.55 kcal/mol
-library:CHOFBr_G4 label:CDC(Br)CD[C]F smiles:C=C(Br)C=[C]F H298:46.94 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)CD[C]F smiles:OC(Br)(Br)C=[C]F H298:-6.44 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CBr)C(F)F smiles:F[C]=C(CBr)C(F)F H298:-77.01 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCC(Br)Br smiles:F[C]=CCC(Br)Br H298:25.65 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CF)C(F)Br smiles:F[C]=C(CF)C(F)Br H298:-67.86 kcal/mol
+library:CHOFBr_G4 label:CC(D[C]F)C(F)Br smiles:CC(=[C]F)C(F)Br H298:-27.19 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)C(Br)Br smiles:F[C]=CC(F)C(Br)Br H298:-18.79 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CBr)CBr smiles:F[C]=C(CBr)CBr H298:22.53 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CF)OBr smiles:F[C]=C(CF)OBr H298:-19.86 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(Br)(Br)OBr smiles:F[C]=CC(Br)(Br)OBr H298:32.01 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)C(Br)(Br)Br smiles:F[C]=C(Br)C(Br)(Br)Br H298:51.60 kcal/mol
+library:CHOFBr_G4 label:CDC(Br)CD[C]F smiles:C=C(Br)C=[C]F H298:46.95 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)CD[C]F smiles:OC(Br)(Br)C=[C]F H298:-6.38 kcal/mol
 library:CHOFBr_G4 label:F[C]DCCDCBr smiles:F[C]=CC=CBr H298:46.94 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCC(F)Br smiles:F[C]=CCC(F)Br H298:-26.65 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)(F)OBr smiles:F[C]=CC(F)(F)OBr H298:-86.50 kcal/mol
-library:CHOFBr_G4 label:OC(Br)CD[C]F smiles:OC(Br)C=[C]F H298:-12.80 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)COBr smiles:F[C]=C(Br)COBr H298:26.74 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCC(F)(Br)Br smiles:F[C]=CCC(F)(Br)Br H298:-19.96 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)C(Br)CBr smiles:F[C]=C(Br)C(Br)CBr H298:30.39 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(OBr)C(F)F smiles:F[C]=C(OBr)C(F)F H298:-68.66 kcal/mol
-library:CHOFBr_G4 label:F[C]DCOC(Br)(Br)Br smiles:F[C]=COC(Br)(Br)Br H298:19.68 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)OOBr smiles:F[C]=C(Br)OOBr H298:54.08 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(Br)Br smiles:F[C]=C(F)C(Br)Br H298:-4.56 kcal/mol
-library:CHOFBr_G4 label:CC(D[C]F)C(Br)(Br)Br smiles:CC(=[C]F)C(Br)(Br)Br H298:34.41 kcal/mol
-library:CHOFBr_G4 label:CC(D[C]F)C(F)(Br)Br smiles:CC(=[C]F)C(F)(Br)Br H298:-19.42 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)CD[C]F smiles:OC(F)(Br)C=[C]F H298:-64.65 kcal/mol
-library:CHOFBr_G4 label:CC(D[C]F)C(F)(F)Br smiles:CC(=[C]F)C(F)(F)Br H298:-78.86 kcal/mol
-library:CHOFBr_G4 label:OC(F)(Br)C(F)D[C]F smiles:OC(F)(Br)C(F)=[C]F H298:-101.19 kcal/mol
-library:CHOFBr_G4 label:OC(Br)D[C]F smiles:OC(Br)=[C]F H298:-1.02 kcal/mol
-library:CHOFBr_G4 label:F[C]DCOCBr smiles:F[C]=COCBr H298:0.18 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(F)(Br)Br smiles:F[C]=C(F)C(F)(Br)Br H298:-46.84 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)(F)Br smiles:F[C]=CC(F)(F)Br H298:-69.23 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCCBr smiles:F[C]=CCCBr H298:19.52 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)CC(Br)Br smiles:F[C]=C(F)CC(Br)Br H298:-14.38 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCC(F)Br smiles:F[C]=CCC(F)Br H298:-26.62 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)(F)OBr smiles:F[C]=CC(F)(F)OBr H298:-86.52 kcal/mol
+library:CHOFBr_G4 label:OC(Br)CD[C]F smiles:OC(Br)C=[C]F H298:-12.77 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)COBr smiles:F[C]=C(Br)COBr H298:26.73 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCC(F)(Br)Br smiles:F[C]=CCC(F)(Br)Br H298:-19.90 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)C(Br)CBr smiles:F[C]=C(Br)C(Br)CBr H298:30.45 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(OBr)C(F)F smiles:F[C]=C(OBr)C(F)F H298:-68.67 kcal/mol
+library:CHOFBr_G4 label:F[C]DCOC(Br)(Br)Br smiles:F[C]=COC(Br)(Br)Br H298:19.74 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)OOBr smiles:F[C]=C(Br)OOBr H298:54.07 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(Br)Br smiles:F[C]=C(F)C(Br)Br H298:-4.53 kcal/mol
+library:CHOFBr_G4 label:CC(D[C]F)C(Br)(Br)Br smiles:CC(=[C]F)C(Br)(Br)Br H298:34.45 kcal/mol
+library:CHOFBr_G4 label:CC(D[C]F)C(F)(Br)Br smiles:CC(=[C]F)C(F)(Br)Br H298:-19.39 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)CD[C]F smiles:OC(F)(Br)C=[C]F H298:-64.64 kcal/mol
+library:CHOFBr_G4 label:CC(D[C]F)C(F)(F)Br smiles:CC(=[C]F)C(F)(F)Br H298:-78.85 kcal/mol
+library:CHOFBr_G4 label:OC(F)(Br)C(F)D[C]F smiles:OC(F)(Br)C(F)=[C]F H298:-101.18 kcal/mol
+library:CHOFBr_G4 label:OC(Br)D[C]F smiles:OC(Br)=[C]F H298:-1.00 kcal/mol
+library:CHOFBr_G4 label:F[C]DCOCBr smiles:F[C]=COCBr H298:0.20 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(F)(Br)Br smiles:F[C]=C(F)C(F)(Br)Br H298:-46.81 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)(F)Br smiles:F[C]=CC(F)(F)Br H298:-69.22 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCCBr smiles:F[C]=CCCBr H298:19.54 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)CC(Br)Br smiles:F[C]=C(F)CC(Br)Br H298:-14.34 kcal/mol
 library:CHOFBr_G4 label:F[C]DC(F)CDC(F)Br smiles:F[C]=C(F)C=C(F)Br H298:-32.83 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)DC(Br)Br smiles:F[C]=CC(F)=C(Br)Br H298:12.32 kcal/mol
-library:CHOFBr_G4 label:CC(D[C]F)C(Br)Br smiles:CC(=[C]F)C(Br)Br H298:23.77 kcal/mol
-library:CHOFBr_G4 label:OC(D[C]F)C(Br)(Br)Br smiles:OC(=[C]F)C(Br)(Br)Br H298:7.57 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)(Br)CBr smiles:F[C]=CC(F)(Br)CBr H298:-20.89 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCC(F)(F)Br smiles:F[C]=CCC(F)(F)Br H298:-82.00 kcal/mol
-library:CHOFBr_G4 label:CC(D[C]F)CBr smiles:CC(=[C]F)CBr H298:16.63 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(F)D[C]F smiles:OC(Br)C(F)=[C]F H298:-51.30 kcal/mol
-library:CHOFBr_G4 label:COC(Br)D[C]F smiles:COC(Br)=[C]F H298:2.15 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(Br)CBr smiles:F[C]=CC(Br)CBr H298:23.19 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)OCBr smiles:F[C]=C(F)OCBr H298:-42.01 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(F)(F)Br smiles:F[C]=C(F)C(F)(F)Br H298:-105.47 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C(Br)D[C]F smiles:CC(Br)C(Br)=[C]F H298:23.69 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCBr smiles:F[C]=CCBr H298:26.00 kcal/mol
-library:CHOFBr_G4 label:CC(Br)CD[C]F smiles:CC(Br)C=[C]F H298:17.76 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)CBr smiles:F[C]=CC(F)CBr H298:-26.22 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCC(Br)(Br)Br smiles:F[C]=CCC(Br)(Br)Br H298:34.33 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)DC(Br)Br smiles:F[C]=CC(F)=C(Br)Br H298:12.33 kcal/mol
+library:CHOFBr_G4 label:CC(D[C]F)C(Br)Br smiles:CC(=[C]F)C(Br)Br H298:23.81 kcal/mol
+library:CHOFBr_G4 label:OC(D[C]F)C(Br)(Br)Br smiles:OC(=[C]F)C(Br)(Br)Br H298:7.60 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)(Br)CBr smiles:F[C]=CC(F)(Br)CBr H298:-20.84 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCC(F)(F)Br smiles:F[C]=CCC(F)(F)Br H298:-82.17 kcal/mol
+library:CHOFBr_G4 label:CC(D[C]F)CBr smiles:CC(=[C]F)CBr H298:16.65 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(F)D[C]F smiles:OC(Br)C(F)=[C]F H298:-51.26 kcal/mol
+library:CHOFBr_G4 label:COC(Br)D[C]F smiles:COC(Br)=[C]F H298:2.14 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(Br)CBr smiles:F[C]=CC(Br)CBr H298:23.25 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)OCBr smiles:F[C]=C(F)OCBr H298:-41.99 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(F)(F)Br smiles:F[C]=C(F)C(F)(F)Br H298:-105.46 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C(Br)D[C]F smiles:CC(Br)C(Br)=[C]F H298:23.73 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCBr smiles:F[C]=CCBr H298:26.03 kcal/mol
+library:CHOFBr_G4 label:CC(Br)CD[C]F smiles:CC(Br)C=[C]F H298:17.80 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)CBr smiles:F[C]=CC(F)CBr H298:-26.21 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCC(Br)(Br)Br smiles:F[C]=CCC(Br)(Br)Br H298:34.39 kcal/mol
 library:CHOFBr_G4 label:F[C]DC(Br)CDC(Br)Br smiles:F[C]=C(Br)C=C(Br)Br H298:63.52 kcal/mol
-library:CHOFBr_G4 label:ODC(Br)C(Br)D[C]F smiles:O=C(Br)C(Br)=[C]F H298:4.66 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(Br)(Br)Br smiles:F[C]=CC(Br)(Br)Br H298:44.46 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)Br smiles:F[C]=C(Br)Br H298:45.01 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CF)C(Br)Br smiles:F[C]=C(CF)C(Br)Br H298:-16.53 kcal/mol
-library:CHOFBr_G4 label:F[C]DCOC(F)Br smiles:F[C]=COC(F)Br H298:-48.10 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(Br)(Br)Br smiles:F[C]=C(F)C(Br)(Br)Br H298:6.37 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)CC(Br)Br smiles:F[C]=C(Br)CC(Br)Br H298:30.91 kcal/mol
-library:CHOFBr_G4 label:OC(D[C]F)C(F)(Br)Br smiles:OC(=[C]F)C(F)(Br)Br H298:-45.23 kcal/mol
-library:CHOFBr_G4 label:CDC(Br)C(F)D[C]F smiles:C=C(Br)C(F)=[C]F H298:7.72 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(F)Br smiles:F[C]=C(F)C(F)Br H298:-54.80 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(Br)C(Br)Br smiles:F[C]=CC(Br)C(Br)Br H298:31.13 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CBr)C(F)Br smiles:F[C]=C(CBr)C(F)Br H298:-19.71 kcal/mol
+library:CHOFBr_G4 label:ODC(Br)C(Br)D[C]F smiles:O=C(Br)C(Br)=[C]F H298:4.67 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(Br)(Br)Br smiles:F[C]=CC(Br)(Br)Br H298:44.50 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)Br smiles:F[C]=C(Br)Br H298:45.02 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CF)C(Br)Br smiles:F[C]=C(CF)C(Br)Br H298:-16.51 kcal/mol
+library:CHOFBr_G4 label:F[C]DCOC(F)Br smiles:F[C]=COC(F)Br H298:-48.08 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(Br)(Br)Br smiles:F[C]=C(F)C(Br)(Br)Br H298:6.41 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)CC(Br)Br smiles:F[C]=C(Br)CC(Br)Br H298:30.96 kcal/mol
+library:CHOFBr_G4 label:OC(D[C]F)C(F)(Br)Br smiles:OC(=[C]F)C(F)(Br)Br H298:-45.19 kcal/mol
+library:CHOFBr_G4 label:CDC(Br)C(F)D[C]F smiles:C=C(Br)C(F)=[C]F H298:7.73 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(F)Br smiles:F[C]=C(F)C(F)Br H298:-54.78 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(Br)C(Br)Br smiles:F[C]=CC(Br)C(Br)Br H298:31.19 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CBr)C(F)Br smiles:F[C]=C(CBr)C(F)Br H298:-19.67 kcal/mol
 library:CHOFBr_G4 label:ODC(Br)C(F)D[C]F smiles:O=C(Br)C(F)=[C]F H298:-40.11 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)OBr smiles:F[C]=CC(F)OBr H298:-30.88 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)C(F)Br smiles:F[C]=CC(F)C(F)Br H298:-69.71 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)C(Br)Br smiles:F[C]=C(Br)C(Br)Br H298:41.14 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)OBr smiles:F[C]=CC(F)OBr H298:-30.90 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)C(F)Br smiles:F[C]=CC(F)C(F)Br H298:-69.69 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)C(Br)Br smiles:F[C]=C(Br)C(Br)Br H298:41.17 kcal/mol
 library:CHOFBr_G4 label:ODC(Br)CD[C]F smiles:O=C(Br)C=[C]F H298:-3.74 kcal/mol
-library:CHOFBr_G4 label:F[C]DCOC(F)(Br)Br smiles:F[C]=COC(F)(Br)Br H298:-38.87 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(OBr)C(Br)Br smiles:F[C]=C(OBr)C(Br)Br H298:39.42 kcal/mol
-library:CHOFBr_G4 label:F[C]DCOBr smiles:F[C]=COBr H298:31.94 kcal/mol
+library:CHOFBr_G4 label:F[C]DCOC(F)(Br)Br smiles:F[C]=COC(F)(Br)Br H298:-38.82 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(OBr)C(Br)Br smiles:F[C]=C(OBr)C(Br)Br H298:39.43 kcal/mol
+library:CHOFBr_G4 label:F[C]DCOBr smiles:F[C]=COBr H298:31.93 kcal/mol
 library:CHOFBr_G4 label:F[C]DC(F)Br smiles:F[C]=C(F)Br H298:-2.68 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(Br)Br smiles:F[C]=CC(Br)Br H298:33.85 kcal/mol
-library:CHOFBr_G4 label:CC(D[C]F)OBr smiles:CC(=[C]F)OBr H298:20.14 kcal/mol
-library:CHOFBr_G4 label:F[C]DCOC(Br)Br smiles:F[C]=COC(Br)Br H298:7.49 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)OOBr smiles:F[C]=C(F)OOBr H298:5.44 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(Br)Br smiles:F[C]=CC(Br)Br H298:33.89 kcal/mol
+library:CHOFBr_G4 label:CC(D[C]F)OBr smiles:CC(=[C]F)OBr H298:20.11 kcal/mol
+library:CHOFBr_G4 label:F[C]DCOC(Br)Br smiles:F[C]=COC(Br)Br H298:7.51 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)OOBr smiles:F[C]=C(F)OOBr H298:5.42 kcal/mol
 library:CHOFBr_G4 label:F[C]DCC(Br)OBr smiles:F[C]=CC(Br)OBr H298:25.34 kcal/mol
 library:CHOFBr_G4 label:F[C]DC(Br)C(Br)DCBr smiles:F[C]=C(Br)C(Br)=CBr H298:60.51 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)C(Br)D[C]F smiles:OC(Br)(Br)C(Br)=[C]F H298:0.55 kcal/mol
-library:CHOFBr_G4 label:OCC(Br)D[C]F smiles:OCC(Br)=[C]F H298:-10.01 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(F)DCBr smiles:F[C]=C(F)C(F)=CBr H298:-34.11 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)COBr smiles:F[C]=C(F)COBr H298:-18.48 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)CBr smiles:F[C]=C(F)CBr H298:-13.84 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)(Br)OBr smiles:F[C]=CC(F)(Br)OBr H298:-24.32 kcal/mol
-library:CHOFBr_G4 label:OC(Br)C(Br)D[C]F smiles:OC(Br)C(Br)=[C]F H298:-7.33 kcal/mol
-library:CHOFBr_G4 label:CC(Br)C(F)D[C]F smiles:CC(Br)C(F)=[C]F H298:-22.14 kcal/mol
-library:CHOFBr_G4 label:CDCC(Br)D[C]F smiles:C=CC(Br)=[C]F H298:48.15 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)CC(F)Br smiles:F[C]=C(F)CC(F)Br H298:-66.37 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(OBr)OBr smiles:F[C]=C(OBr)OBr H298:32.33 kcal/mol
-library:CHOFBr_G4 label:OC(D[C]F)C(Br)Br smiles:OC(=[C]F)C(Br)Br H298:-3.14 kcal/mol
-library:CHOFBr_G4 label:F[C]DCCOBr smiles:F[C]=CCOBr H298:21.06 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)C(F)D[C]F smiles:CC(Br)(Br)C(F)=[C]F H298:-14.79 kcal/mol
-library:CHOFBr_G4 label:F[C]DCOOBr smiles:F[C]=COOBr H298:47.57 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)CD[C]F smiles:CC(Br)(Br)C=[C]F H298:23.69 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)CDCBr smiles:F[C]=C(Br)C=CBr H298:54.17 kcal/mol
-library:CHOFBr_G4 label:CC(Br)(Br)C(Br)D[C]F smiles:CC(Br)(Br)C(Br)=[C]F H298:30.48 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(OBr)C(F)Br smiles:F[C]=C(OBr)C(F)Br H298:-13.04 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)CDC(Br)Br smiles:F[C]=C(F)C=C(Br)Br H298:17.56 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)OCBr smiles:F[C]=C(Br)OCBr H298:6.73 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)CCBr smiles:F[C]=C(Br)CCBr H298:24.08 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)OC(Br)Br smiles:F[C]=C(Br)OC(Br)Br H298:15.70 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)C(Br)D[C]F smiles:OC(Br)(Br)C(Br)=[C]F H298:0.59 kcal/mol
+library:CHOFBr_G4 label:OCC(Br)D[C]F smiles:OCC(Br)=[C]F H298:-9.99 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(F)DCBr smiles:F[C]=C(F)C(F)=CBr H298:-34.12 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)COBr smiles:F[C]=C(F)COBr H298:-18.49 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)CBr smiles:F[C]=C(F)CBr H298:-13.81 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)(Br)OBr smiles:F[C]=CC(F)(Br)OBr H298:-24.30 kcal/mol
+library:CHOFBr_G4 label:OC(Br)C(Br)D[C]F smiles:OC(Br)C(Br)=[C]F H298:-7.29 kcal/mol
+library:CHOFBr_G4 label:CC(Br)C(F)D[C]F smiles:CC(Br)C(F)=[C]F H298:-22.11 kcal/mol
+library:CHOFBr_G4 label:CDCC(Br)D[C]F smiles:C=CC(Br)=[C]F H298:48.17 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)CC(F)Br smiles:F[C]=C(F)CC(F)Br H298:-66.35 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(OBr)OBr smiles:F[C]=C(OBr)OBr H298:32.31 kcal/mol
+library:CHOFBr_G4 label:OC(D[C]F)C(Br)Br smiles:OC(=[C]F)C(Br)Br H298:-3.13 kcal/mol
+library:CHOFBr_G4 label:F[C]DCCOBr smiles:F[C]=CCOBr H298:21.05 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)C(F)D[C]F smiles:CC(Br)(Br)C(F)=[C]F H298:-14.74 kcal/mol
+library:CHOFBr_G4 label:F[C]DCOOBr smiles:F[C]=COOBr H298:47.56 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)CD[C]F smiles:CC(Br)(Br)C=[C]F H298:23.75 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)CDCBr smiles:F[C]=C(Br)C=CBr H298:54.16 kcal/mol
+library:CHOFBr_G4 label:CC(Br)(Br)C(Br)D[C]F smiles:CC(Br)(Br)C(Br)=[C]F H298:30.54 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(OBr)C(F)Br smiles:F[C]=C(OBr)C(F)Br H298:-13.07 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)CDC(Br)Br smiles:F[C]=C(F)C=C(Br)Br H298:17.55 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)OCBr smiles:F[C]=C(Br)OCBr H298:6.75 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)CCBr smiles:F[C]=C(Br)CCBr H298:24.23 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)OC(Br)Br smiles:F[C]=C(Br)OC(Br)Br H298:15.69 kcal/mol
 library:CHOFBr_G4 label:F[C]DC(Br)C(Br)OBr smiles:F[C]=C(Br)C(Br)OBr H298:34.32 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)(F)CBr smiles:F[C]=CC(F)(F)CBr H298:-79.60 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)C(F)D[C]F smiles:CC(F)(Br)C(F)=[C]F H298:-67.43 kcal/mol
-library:CHOFBr_G4 label:OC(D[C]F)C(F)(F)Br smiles:OC(=[C]F)C(F)(F)Br H298:-103.72 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)(F)CBr smiles:F[C]=CC(F)(F)CBr H298:-79.58 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)C(F)D[C]F smiles:CC(F)(Br)C(F)=[C]F H298:-67.40 kcal/mol
+library:CHOFBr_G4 label:OC(D[C]F)C(F)(F)Br smiles:OC(=[C]F)C(F)(F)Br H298:-103.71 kcal/mol
 library:CHOFBr_G4 label:F[C]DCCDC(Br)Br smiles:F[C]=CC=C(Br)Br H298:54.27 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CF)CBr smiles:F[C]=C(CF)CBr H298:-25.48 kcal/mol
-library:CHOFBr_G4 label:CC(F)(Br)CD[C]F smiles:CC(F)(Br)C=[C]F H298:-28.82 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(Br)(Br)CBr smiles:F[C]=CC(Br)(Br)CBr H298:31.30 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(CBr)OBr smiles:F[C]=C(CBr)OBr H298:28.26 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)Br smiles:F[C]=CC(F)Br H298:-17.91 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(Br)DC(Br)Br smiles:F[C]=CC(Br)=C(Br)Br H298:61.60 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)OC(F)Br smiles:F[C]=C(F)OC(F)Br H298:-90.28 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(Br)CBr smiles:F[C]=C(Br)CBr H298:32.10 kcal/mol
-library:CHOFBr_G4 label:CC(Br)D[C]F smiles:CC(Br)=[C]F H298:24.55 kcal/mol
-library:CHOFBr_G4 label:F[C]DCC(F)DCBr smiles:F[C]=CC(F)=CBr H298:3.50 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CF)CBr smiles:F[C]=C(CF)CBr H298:-25.46 kcal/mol
+library:CHOFBr_G4 label:CC(F)(Br)CD[C]F smiles:CC(F)(Br)C=[C]F H298:-28.79 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(Br)(Br)CBr smiles:F[C]=CC(Br)(Br)CBr H298:31.38 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(CBr)OBr smiles:F[C]=C(CBr)OBr H298:28.24 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)Br smiles:F[C]=CC(F)Br H298:-17.89 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(Br)DC(Br)Br smiles:F[C]=CC(Br)=C(Br)Br H298:61.63 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)OC(F)Br smiles:F[C]=C(F)OC(F)Br H298:-90.27 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(Br)CBr smiles:F[C]=C(Br)CBr H298:32.13 kcal/mol
+library:CHOFBr_G4 label:CC(Br)D[C]F smiles:CC(Br)=[C]F H298:24.57 kcal/mol
+library:CHOFBr_G4 label:F[C]DCC(F)DCBr smiles:F[C]=CC(F)=CBr H298:3.48 kcal/mol
 library:CHOFBr_G4 label:F[C]DCBr smiles:F[C]=CBr H298:34.35 kcal/mol
 library:CHOFBr_G4 label:F[C]DC(F)C(Br)OBr smiles:F[C]=C(F)C(Br)OBr H298:-11.90 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)OC(Br)Br smiles:F[C]=C(F)OC(Br)Br H298:-33.01 kcal/mol
-library:CHOFBr_G4 label:CCC(Br)D[C]F smiles:CCC(Br)=[C]F H298:19.21 kcal/mol
-library:CHOFBr_G4 label:OC(Br)(Br)C(F)D[C]F smiles:OC(Br)(Br)C(F)=[C]F H298:-44.52 kcal/mol
-library:CHOFBr_G4 label:OC(D[C]F)C(F)Br smiles:OC(=[C]F)C(F)Br H298:-53.53 kcal/mol
-library:CHOFBr_G4 label:F[C]DC(F)C(F)CBr smiles:F[C]=C(F)C(F)CBr H298:-65.66 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)OC(Br)Br smiles:F[C]=C(F)OC(Br)Br H298:-32.95 kcal/mol
+library:CHOFBr_G4 label:CCC(Br)D[C]F smiles:CCC(Br)=[C]F H298:19.23 kcal/mol
+library:CHOFBr_G4 label:OC(Br)(Br)C(F)D[C]F smiles:OC(Br)(Br)C(F)=[C]F H298:-44.47 kcal/mol
+library:CHOFBr_G4 label:OC(D[C]F)C(F)Br smiles:OC(=[C]F)C(F)Br H298:-53.54 kcal/mol
+library:CHOFBr_G4 label:F[C]DC(F)C(F)CBr smiles:F[C]=C(F)C(F)CBr H298:-65.64 kcal/mol
 """,
 )
 
@@ -13791,15 +13889,15 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.174031,-0.863816,-1.52171,-2.09023,-2.99954,-3.66182,-4.61006],'cal/(mol*K)','+|-',[0.988423,1.01486,0.951553,0.888774,0.784361,0.686374,0.502715]),
-        H298 = (90.9819,'kcal/mol','+|-',1.579),
-        S298 = (1.16039,'cal/(mol*K)','+|-',2.68344),
+        Cpdata = ([-0.174031,-0.863816,-1.52171,-2.09023,-2.99954,-3.66182,-4.61006],'cal/(mol*K)','+|-',[1.00626,1.02972,0.964485,0.900377,0.793997,0.69497,0.519696]),
+        H298 = (90.8783,'kcal/mol','+|-',1.56712),
+        S298 = (1.16039,'cal/(mol*K)','+|-',2.35827),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:ATcT_halogens label:Chloroformyl smiles:O=[C]Cl H298:-4.91 kcal/mol
+library:CHOCl_G4 label:OD[C]Cl smiles:O=[C]Cl H298:-5.41 kcal/mol
 """,
 )
 
@@ -13814,15 +13912,15 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.402717,-0.899898,-1.45939,-2.01242,-2.89452,-3.54367,-4.54736],'cal/(mol*K)','+|-',[0.988423,1.01486,0.951553,0.888774,0.784361,0.686374,0.502715]),
-        H298 = (101.384,'kcal/mol','+|-',1.579),
-        S298 = (0.552887,'cal/(mol*K)','+|-',2.68344),
+        Cpdata = ([-0.402717,-0.899898,-1.45939,-2.01242,-2.89452,-3.54367,-4.54736],'cal/(mol*K)','+|-',[1.00626,1.02972,0.964485,0.900377,0.793997,0.69497,0.519696]),
+        H298 = (100.836,'kcal/mol','+|-',1.56712),
+        S298 = (0.552887,'cal/(mol*K)','+|-',2.35827),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:ATcT_halogens label:Fluoroformyl smiles:O=[C]F H298:-42.07 kcal/mol
+library:CHOF_G4 label:OD[C]F smiles:O=[C]F H298:-43.02 kcal/mol
 """,
 )
 
@@ -18134,9 +18232,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.46058,-2.59924,-3.68621,-4.60621,-6.0777,-7.22296,-9.13333],'cal/(mol*K)','+|-',[0.570667,0.585929,0.54938,0.513134,0.452851,0.396279,0.290243]),
-        H298 = (192.67,'kcal/mol','+|-',0.911635),
-        S298 = (-1.68686,'cal/(mol*K)','+|-',1.54928),
+        Cpdata = ([-1.46058,-2.59924,-3.68621,-4.60621,-6.0777,-7.22296,-9.13333],'cal/(mol*K)','+|-',[0.580966,0.594507,0.556846,0.519833,0.458415,0.401241,0.300047]),
+        H298 = (192.67,'kcal/mol','+|-',0.904775),
+        S298 = (-1.68686,'cal/(mol*K)','+|-',1.36155),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
@@ -18159,19 +18257,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.814423,-2.05803,-3.13571,-4.0568,-5.59406,-6.82149,-8.78544],'cal/(mol*K)','+|-',[0.442037,0.453859,0.425548,0.397472,0.350777,0.306956,0.224821]),
-        H298 = (196.466,'kcal/mol','+|-',0.706149),
-        S298 = (-0.141293,'cal/(mol*K)','+|-',1.20007),
+        Cpdata = ([-1.19766,-2.41025,-3.49516,-4.42152,-5.96821,-7.20171,-9.18029],'cal/(mol*K)','+|-',[0.450015,0.460503,0.431331,0.402661,0.355086,0.3108,0.232415]),
+        H298 = (196.298,'kcal/mol','+|-',0.700836),
+        S298 = (-0.701079,'cal/(mol*K)','+|-',1.05465),
     ),
     shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
 Dervied using the following species:
-library:CHOBr_G4 label:C#C[C]Br smiles:C#C[C]Br H298:138.67 kcal/mol
-library:CHOBr_G4 label:ODC(Br)[C]Br smiles:O=C(Br)[C]Br H298:59.23 kcal/mol
-library:CHOBr_G4 label:CC(DO)[C]Br smiles:CC(=O)[C]Br H298:47.98 kcal/mol
-library:CHOBr_G4 label:CC(Br)(Br)[C]Br smiles:CC(Br)(Br)[C]Br H298:87.04 kcal/mol
-library:CHOBr_G4 label:ODC[C]Br smiles:O=C[C]Br H298:61.35 kcal/mol
+library:CHOBr_G4 label:C#C[C]Br smiles:C#C[C]Br H298:138.06 kcal/mol
+library:CHOBr_G4 label:ODC(Br)[C]Br smiles:O=C(Br)[C]Br H298:59.21 kcal/mol
+library:CHOBr_G4 label:CC(DO)[C]Br smiles:CC(=O)[C]Br H298:47.96 kcal/mol
+library:CHOBr_G4 label:CC(Br)(Br)[C]Br smiles:CC(Br)(Br)[C]Br H298:87.08 kcal/mol
+library:CHOBr_G4 label:ODC[C]Br smiles:O=C[C]Br H298:61.32 kcal/mol
 """,
 )
 
