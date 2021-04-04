@@ -63,17 +63,19 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 4,
-    label = "OO",
-    group =
-"""
-multiplicity [1]
-1 *3 O  u0 p2 c0 {2,D}
-2 *2 O  u0 p2 c0 {1,D}
-""",
-    kinetics = None,
-)
+#Keep the dissociative adsorption reaction of triplet O2 in kinetic libraries,
+#and forbid the singlet O=O entry here
+#entry(
+#    index = 4,
+#    label = "OO",
+#    group =
+#"""
+#multiplicity [1]
+#1 *3 O  u0 p2 c0 {2,D}
+#2 *2 O  u0 p2 c0 {1,D}
+#""",
+#    kinetics = None,
+#)
 
 entry(
     index = 5,
@@ -167,7 +169,6 @@ L1: Adsorbate
     L2: CC
     L2: NN
     L2: NC
-    L2: OO
     L2: OC
         L3: CO2
     L2: ON
@@ -213,5 +214,18 @@ forbidden(
     shortDesc = u"""""",
     longDesc =u"""
 Any CN should not match *2 and *3 respectively because of duplicate reactions
+""",
+)
+
+forbidden(
+    label = "OO",
+    group =
+"""
+1 *3 O  u0 p2 c0 {2,D}
+2 *2 O  u0 p2 c0 {1,D}
+""",
+    shortDesc = u"""""",
+    longDesc =u"""
+The ground electronic state of gas phase O2 is triplet by default
 """,
 )
