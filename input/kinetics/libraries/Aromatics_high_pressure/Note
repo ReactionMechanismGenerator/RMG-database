@@ -1,0 +1,13 @@
+C7H8 H-abstraction
+C8H6 H-abstraction to initiate second C2H2 addition
+C10H7 H-recomb and H-abstraction to form Naphthalene
+C9H11 -> C9H10+H -> C9H9 -> C9H8 -> C9H7
+C10H10 biCPDyl -> C10H9 H-abstraction
+C6H5+C4H6->C10H10+H -> C10H9
+Indene+CH3->methylindene(C10H10)+H, C10H10->C10H9 H-abstraction
+C12H8->C12H7 H-abstraction to to initiate second C2H2 addition
+C14H9 H-recomb and H-abstraction to form C14H10, How to form 4-phenanthrenyl radical?
+
+Aromatics_high_pressure/C14H11_2, C14H11_18 should be same as C14H11_16, Change thermo of C14H11_18 after export
+
+Aromatics_high_pressure/C14H11_3, W18_1 should be same as W7_1, Change thermo of W18_1 after export
