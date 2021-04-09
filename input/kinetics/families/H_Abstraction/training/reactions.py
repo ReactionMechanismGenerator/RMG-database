@@ -52184,3 +52184,143 @@ Original entry: O + BROH <=> OH + BRO
 """,
 )
 
+entry(
+    index = 43055,
+    label = "CH2 + H2 <=> CH3_p23 + H_p",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(500000,'cm^3/(mol*s)'), n=2, Ea=(7230,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2 + H2 <=> H + CH3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CH2 + H2 <=> H + CH3
+""",
+)
+
+entry(
+    index = 43056,
+    label = "OH + CH3 <=> H2O_p + CH2_p1",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.6e+07,'cm^3/(mol*s)'), n=1.6, Ea=(5420,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3 + OH <=> CH2 + H2O""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CH3 + OH <=> CH2 + H2O
+""",
+)
+
+entry(
+    index = 43057,
+    label = "CH2 + CH4b <=> CH3_p1 + CH3_p23",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(2.46e+06,'cm^3/(mol*s)'), n=2, Ea=(8270,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH4 + CH2 <=> CH3 + CH3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CH4 + CH2 <=> CH3 + CH3
+""",
+)
+
+entry(
+    index = 43058,
+    label = "F + CH4b <=> HF + CH3_p1",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(1.33e+14,'cm^3/(mol*s)'), n=0.5, Ea=(700,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH4 + F <=> CH3 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CH4 + F <=> CH3 + HF
+""",
+)
+
+entry(
+    index = 43059,
+    label = "F + C2H2 <=> HF + C2H-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(6.2e+13,'cm^3/(mol*s)'), n=0, Ea=(19700,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C2H2 + F <=> C2H + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: C2H2 + F <=> C2H + HF
+""",
+)
+
+entry(
+    index = 43060,
+    label = "F + C4H10 <=> HF + pC4H9",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(3.89e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C4H10 + F <=> pC4H9 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: C4H10 + F <=> pC4H9 + HF
+""",
+)
+
+entry(
+    index = 43061,
+    label = "F + C4H10b <=> HF + CH3CHCH2CH3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(4.68e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C4H10 + F <=> sC4H9 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: C4H10 + F <=> sC4H9 + HF
+""",
+)
+
+entry(
+    index = 43062,
+    label = "F + iC4H10 <=> HF + ipC4H9",
+    degeneracy = 9.0,
+    kinetics = Arrhenius(A=(4.07e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is iC4H10 + F <=> iC4H9 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: iC4H10 + F <=> iC4H9 + HF
+""",
+)
+
+entry(
+    index = 43063,
+    label = "F + iC4H10b <=> HF + tC4H9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.75e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is iC4H10 + F <=> tC4H9 + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: iC4H10 + F <=> tC4H9 + HF
+""",
+)
+
+entry(
+    index = 43064,
+    label = "F + CH2CO <=> HF + HCCO_p1",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is F + CH2CO <=> HF + HCCO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: F + CH2CO <=> HF + HCCO
+""",
+)
+

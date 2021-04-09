@@ -59,3 +59,17 @@ Taken from entry: X <=> XI
 """,
 )
 
+entry(
+    index = 4,
+    label = "C2F4 <=> C2F4-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.731e+10,'s^-1'), n=0.827, Ea=(35644,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CF3CF <=> CF2:CF2""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CF3CF <=> CF2:CF2
+""",
+)
+
