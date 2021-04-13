@@ -23,7 +23,7 @@ entry(
     label = "R",
     group = 
 """
-1 *1 R u0
+1 *1 R ux
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2067,6 +2067,74 @@ u"""
 """,
 )
 
+entry(
+    index = 34,
+    label = "halogen",
+    group = 
+"""
+1 *1 R!H ux {2,[S,D,T]} {3,S}
+2 *2 R!H ux {1,[S,D,T]} {4,S}
+3   Val7 u0 {1,S}
+4   Val7 u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""top of halogen tree""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 35,
+    label = "halogen-3",
+    group = 
+"""
+1 *1 R!H ux {2,[S,D]} {3,S} {5,[S,D,T]}
+2 *2 R!H ux {1,[S,D]} {4,S} {5,[S,D,T]}
+3   Val7 u0 {1,S}
+4   Val7 u0 {2,S}
+5   R!H ux {1,[S,D,T]} {2,[S,D,T]} 
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""halogen-3""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 36,
+    label = "halogen-4",
+    group = 
+"""
+1 *1 R!H ux {2,[S,D]} {3,S} {5,[S,D,T]}
+2 *2 R!H ux {1,[S,D]} {4,S} {6,[S,D,T]}
+3   Val7 u0 {1,S}
+4   Val7 u0 {2,S}
+5   R!H ux {1,[S,D,T]} {6,[S,D,T]}
+6   R!H ux {2,[S,D,T]} {5,[S,D,T]}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""halogen-4""",
+    longDesc = 
+u"""
+""",
+)
 
 
 tree(
@@ -2148,6 +2216,9 @@ L1: R
         L3: p_Csj
             L4: p_Csj_C=C
             L4: p_Csj_CHO
+    L2: halogen
+        L3: halogen-3
+        L3: halogen-4
 """
 )
 
