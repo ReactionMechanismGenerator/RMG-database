@@ -168,9 +168,9 @@ entry(
     label = "CJ2_singlet-FO",
     group = 
 """
-1 * C u0 p1 {2,S} {3,S}
+1 * C u0 p1 {2,S} {3,[S,D]}
 2   F u0 p3 {1,S}
-3   O u0 {1,S}
+3   O u0 {1,[S,D]}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -304,9 +304,9 @@ entry(
     label = "CJ2_singlet-ClO",
     group = 
 """
-1 * C  u0 p1 {2,S} {3,S}
+1 * C  u0 p1 {2,S} {3,[S,D]}
 2   Cl u0 p3 {1,S}
-3   O  u0 {1,S}
+3   O  u0 {1,[S,D]}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -438,9 +438,9 @@ entry(
     label = "CJ2_singlet-BrO",
     group = 
 """
-1 * C  u0 p1 {2,S} {3,S}
+1 * C  u0 p1 {2,S} {3,[S,D]}
 2   Br u0 p3 {1,S}
-3   O  u0 {1,S}
+3   O  u0 {1,[S,D]}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
