@@ -4,14 +4,14 @@
 name = "CHOBr_G4"
 shortDesc = "CHOBr small molecule G4 thermo library"
 longDesc = """
-This library contains 1442 systematically generated non-cyclic closed and radical
-(multiplicity 1 or 2) small molecules comprised of at least
+This library contains 1442 systematically generated non-cyclic and
+636 cyclic (3 and 4 member rings) closed and radical small molecules comprised of at least
 1 bromine atom with hydrogen, oxygen, and carbon.  Each species was calculated
 using AutoTST's automated thermochemistry workflow as follows:
 1) Systematic conformer generation using dftb with the halorg-0-1 parameter set
 (https://www.dftb.org/parameters/download/halorg/halorg-0-1-cc/).
 2) Lowest energy conformer with DFT M062X-D3/JUN-CC-PVTZ using Gaussian 16.
-3) 1D hindered rotors at M062X-D3/JUN-CC-PVTZ in Gaussian 16.
+3) 1D hindered rotors at M062X-D3/JUN-CC-PVTZ in Gaussian 16. (small non-cylic species only)
 4) Single point energy evaluation with G4 method.
 5) NASA polynomial obtained from Arkane with 1D Hindered Rotors.
 
@@ -81191,6 +81191,34244 @@ IdealGasTranslation
 NonlinearRotor
 HarmonicOscillator
 Frequencies (cm^-1) = 67.8,79.4,105.3,313.9,408.0,413.9,518.5,666.3,673.8,695.5,789.6,982.2,1200.2,1234.7,1689.6,2197.5,3215.3,3216.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1442,
+    label = "BrC1(Br)CCC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {3,S}
+3  C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+4  C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75005,0.0218817,5.78383e-05,-1.19607e-07,6.57915e-11,3887.26,13.3361], Tmin=(10,'K'), Tmax=(610.126,'K')),
+            NASAPolynomial(coeffs=[2.53913,0.0429777,-2.63733e-05,7.75266e-09,-8.7694e-13,3790.13,16.5729], Tmin=(610.126,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 12.48 kcal/mol
+S298: 85.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.77682 -0.30012 0.00009
+Br 1.34778 -1.02335 -0.00007
+C 0.03585 0.45077 0.00000
+C 0.36216 1.49367 1.09117
+C 1.10327 2.31820 -0.00004
+C 0.36205 1.49368 -1.09119
+H 0.92123 1.14056 1.95682
+H -0.55271 1.98774 1.42578
+H 0.92129 3.39363 -0.00003
+H 2.17833 2.13316 -0.00010
+H 0.92104 1.14058 -1.95690
+H -0.55285 1.98776 -1.42570
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 117.9,163.3,225.4,292.7,325.8,332.4,559.9,703.9,779.0,847.1,917.4,925.1,1028.9,1041.4,1064.5,1116.8,1191.9,1228.9,1251.1,1270.5,1281.6,1463.6,1476.3,1495.6,3078.0,3080.7,3083.3,3132.9,3145.9,3151.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1443,
+    label = "BrCC1CDC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+5  C  u0 p0 c0 {3,S} {6,D} {10,S}
+6  C  u0 p0 c0 {2,S} {3,S} {5,D}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.64201,0.0315524,-3.76579e-07,-3.07008e-08,1.88311e-11,32532,15.2994], Tmin=(10,'K'), Tmax=(705.866,'K')),
+            NASAPolynomial(coeffs=[5.38721,0.0309758,-1.89419e-05,5.52509e-09,-6.19304e-13,32053.6,5.84429], Tmin=(705.866,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.48 kcal/mol
+S298: 89.82 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.32375 -0.52984 0.02577
+Br -2.27179 -0.62975 -0.02753
+C 0.17079 1.35537 0.47465
+C 1.37259 1.15563 -0.41131
+C -1.03830 2.13487 -0.05509
+C -1.17955 0.85994 0.08771
+H 0.42076 1.42835 1.53575
+H 2.12190 1.93576 -0.27611
+H 1.09828 1.07749 -1.46257
+H -1.41267 3.10945 -0.31102
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 38.2,119.8,221.3,277.3,345.8,423.2,504.2,630.9,746.7,824.6,872.8,979.4,1014.2,1065.1,1144.3,1221.9,1242.7,1393.7,1470.7,1789.2,3072.3,3091.2,3161.5,3306.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1444,
+    label = "CC1D[C]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+4 C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.48433,0.0436592,-5.39373e-05,3.99718e-08,-1.27472e-11,56099.6,14.448], Tmin=(10,'K'), Tmax=(723.425,'K')),
+            NASAPolynomial(coeffs=[6.83288,0.0251443,-1.55475e-05,4.59406e-09,-5.21537e-13,55615.1,-0.622751], Tmin=(723.425,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 116.60 kcal/mol
+S298: 89.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60036 -0.67672 -0.09236
+Br 1.60031 -0.67683 -0.09236
+C 0.00001 0.31695 0.42264
+C 0.00014 2.87598 -0.70422
+C 0.00005 1.84732 0.33913
+C 0.00006 1.28455 1.50823
+H -0.88609 2.77722 -1.33961
+H 0.00006 3.87126 -0.25062
+H 0.88651 2.77726 -1.33941
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 91.2,131.6,148.8,179.9,291.5,377.8,413.5,460.2,639.7,721.7,938.2,1042.8,1054.9,1079.9,1401.2,1462.2,1469.5,1855.3,3035.4,3103.1,3118.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1445,
+    label = "BrC(Br)C1CDC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+5  C  u0 p0 c0 {3,S} {6,D} {9,S}
+6  C  u0 p0 c0 {3,S} {5,D} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63928,0.0314712,7.80159e-06,-5.22599e-08,3.40642e-11,32656.4,13.989], Tmin=(10,'K'), Tmax=(622.474,'K')),
+            NASAPolynomial(coeffs=[5.21655,0.0322553,-2.04011e-05,6.12647e-09,-7.03451e-13,32248.5,5.42798], Tmin=(622.474,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.79 kcal/mol
+S298: 87.54 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61820 -0.76383 0.00941
+Br -1.61838 -0.76348 0.00941
+C 0.00016 1.57283 0.47377
+C 0.00002 0.30556 -0.33833
+C 0.64643 2.80934 -0.08720
+C -0.64573 2.80951 -0.08726
+H 0.00008 1.38948 1.54924
+H 0.00004 0.49345 -1.40817
+H 1.58652 3.29459 -0.28289
+H -1.58567 3.29504 -0.28299
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 63.1,155.1,156.9,268.8,294.9,374.3,627.4,658.3,690.9,828.8,876.4,929.7,1028.4,1055.4,1068.9,1154.1,1172.0,1218.5,1381.8,1728.7,3090.2,3159.9,3268.3,3317.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1446,
+    label = "BrC1D[C]C(Br)(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,D}
+7 C  u1 p0 c0 {5,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52792,0.041316,-8.60944e-06,-7.53589e-08,7.41747e-11,53865.8,16.383], Tmin=(10,'K'), Tmax=(493.965,'K')),
+            NASAPolynomial(coeffs=[7.04825,0.0289716,-2.02027e-05,6.52608e-09,-7.9189e-13,53320.8,-0.113638], Tmin=(493.965,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 112.40 kcal/mol
+S298: 95.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.79824 1.60463 -0.03399
+Br -1.79821 -1.60464 -0.03418
+Br 3.28796 0.00001 -0.04843
+C 0.43444 -0.00005 1.11445
+C -0.67797 0.00000 -0.00341
+C 1.43076 0.00001 -0.04262
+C 0.46789 0.00007 -0.96340
+H 0.43312 0.90461 1.72554
+H 0.43313 -0.90478 1.72545
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 50.7,143.4,178.1,236.3,247.3,290.4,387.4,425.1,481.7,633.2,846.0,876.2,959.7,1039.5,1101.3,1104.6,1197.7,1458.6,1613.1,3065.9,3141.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1447,
+    label = "BrC1DC(Br)C(Br)DC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {1,S} {6,D} {8,S}
+6 C  u0 p0 c0 {2,S} {5,D} {7,S}
+7 C  u0 p0 c0 {3,S} {6,S} {8,D}
+8 C  u0 p0 c0 {4,S} {5,S} {7,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.08221,0.0936344,-0.000296379,4.99667e-07,-3.29459e-10,54947.1,16.0567], Tmin=(10,'K'), Tmax=(375.143,'K')),
+            NASAPolynomial(coeffs=[9.59102,0.0242338,-1.88846e-05,6.53339e-09,-8.30424e-13,54458.7,-8.96307], Tmin=(375.143,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 115.73 kcal/mol
+S298: 103.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.03627 2.02532 -0.00003
+Br -2.03630 -2.02533 -0.00003
+Br 2.03631 -2.02532 0.00003
+Br 2.03627 2.02533 0.00003
+C -0.79081 0.66518 -0.00005
+C -0.79083 -0.66520 -0.00005
+C 0.79083 -0.66520 0.00007
+C 0.79081 0.66518 0.00007
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 52.6,72.8,82.7,103.1,106.4,145.5,223.8,245.0,392.8,548.2,555.9,589.1,609.3,942.6,952.5,1092.0,1675.8,1685.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1448,
+    label = "BrCC1(Br)[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+5 C  u0 p0 c0 {3,S} {6,D} {9,S}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70734,0.0247791,7.05045e-05,-2.50907e-07,2.19547e-10,58525.5,15.4544], Tmin=(10,'K'), Tmax=(419.676,'K')),
+            NASAPolynomial(coeffs=[5.16729,0.0306324,-2.10711e-05,6.80067e-09,-8.28378e-13,58228.9,7.60457], Tmin=(419.676,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 121.14 kcal/mol
+S298: 90.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.73890 -0.73221 -0.05344
+Br -2.01377 -0.29601 -0.13695
+C 0.61043 0.83626 0.28379
+C -0.63125 0.48031 1.04701
+C 0.62179 1.95782 -0.79272
+C 1.21471 2.19286 0.32436
+H -1.08307 1.37684 1.46792
+H -0.45177 -0.26494 1.81832
+H 0.26119 2.07240 -1.79723
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.9,121.2,258.1,299.3,311.3,394.6,501.6,619.3,728.1,735.0,856.6,918.4,938.3,1134.9,1183.6,1235.0,1458.3,1734.0,3109.0,3184.5,3347.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1449,
+    label = "Br[CH]C1CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3 C  u0 p0 c0 {2,S} {4,D} {7,S}
+4 C  u0 p0 c0 {2,S} {3,D} {8,S}
+5 C  u1 p0 c0 {1,S} {2,S} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80573,0.0164475,7.47818e-05,-2.12392e-07,1.69458e-10,51687.3,13.238], Tmin=(10,'K'), Tmax=(421.516,'K')),
+            NASAPolynomial(coeffs=[3.54242,0.0310695,-2.03939e-05,6.37103e-09,-7.58483e-13,51601.8,13.0033], Tmin=(421.516,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 107.06 kcal/mol
+S298: 82.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.46839 -0.00002 -0.04108
+C 1.42414 -0.00002 -0.39831
+C 2.74468 0.64504 -0.00333
+C 2.74463 -0.64512 -0.00313
+C 0.31334 0.00018 0.54927
+H 1.12601 -0.00018 -1.44685
+H 3.23171 1.58434 0.19710
+H 3.23156 -1.58440 0.19759
+H 0.44351 0.00037 1.62292
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 19.6,219.6,297.2,311.7,385.1,621.7,730.3,750.1,857.6,929.3,1004.9,1051.8,1084.5,1124.6,1218.4,1378.4,1729.0,3098.2,3223.3,3250.6,3301.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1450,
+    label = "CC1[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3 C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,D}
+5 C  u1 p0 c0 {2,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89485,0.010763,0.000147559,-6.23327e-07,8.90258e-10,58774.5,12.5136], Tmin=(10,'K'), Tmax=(176.52,'K')),
+            NASAPolynomial(coeffs=[3.02996,0.0303624,-1.89945e-05,5.71519e-09,-6.61626e-13,58805,15.1862], Tmin=(176.52,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 121.02 kcal/mol
+S298: 80.88 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.34120 -0.15074 0.00057
+C -1.81434 0.24186 0.45571
+C -2.63571 -0.84593 -0.18529
+C -0.34696 0.56464 -0.04035
+C -1.26598 1.41985 -0.31694
+H -1.99301 0.36786 1.52743
+H -3.70466 -0.62355 -0.07630
+H -2.45721 -1.81252 0.30061
+H -2.40938 -0.93845 -1.25037
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 122.9,162.5,267.9,390.8,439.1,480.1,742.3,834.4,883.4,1064.9,1097.1,1121.9,1377.6,1399.9,1478.1,1482.1,1813.9,3019.3,3060.8,3075.5,3121.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1451,
+    label = "BrC(Br)(Br)C1CDC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6  C  u0 p0 c0 {4,S} {7,D} {9,S}
+7  C  u0 p0 c0 {4,S} {6,D} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.35921,0.056614,-7.37902e-05,5.36645e-08,-1.62497e-11,36650.3,15.308], Tmin=(10,'K'), Tmax=(771.345,'K')),
+            NASAPolynomial(coeffs=[8.88702,0.0279482,-1.80452e-05,5.48469e-09,-6.34236e-13,35797.5,-9.92537], Tmin=(771.345,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.72 kcal/mol
+S298: 96.34 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.33429 0.00011 -1.22698
+Br 1.12874 1.60068 0.04078
+Br 1.12858 -1.60078 0.04069
+C -0.64762 -0.00001 1.60679
+C -0.01386 0.00000 0.21859
+C -1.96227 -0.64660 1.89579
+C -1.96227 0.64658 1.89580
+H 0.14790 -0.00001 2.35535
+H -2.46896 -1.58733 2.01783
+H -2.46898 1.58730 2.01782
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.2,132.2,138.4,172.8,173.1,204.8,288.8,370.6,464.3,661.1,675.8,729.4,854.8,873.6,922.9,1004.3,1036.9,1064.8,1185.2,1354.6,1726.6,3074.5,3274.7,3323.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1452,
+    label = "Br[C]DC1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {2,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.61713,0.0334575,-3.2213e-05,1.1639e-08,3.98637e-13,40745.5,15.4588], Tmin=(10,'K'), Tmax=(743.025,'K')),
+            NASAPolynomial(coeffs=[7.71159,0.0172508,-1.12759e-05,3.42341e-09,-3.9348e-13,39976,-4.16244], Tmin=(743.025,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 85.55 kcal/mol
+S298: 88.85 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.70854 -0.37393 -0.07227
+Br 2.88144 -0.19870 -0.07287
+O -0.51059 1.42496 -0.54613
+C -1.30588 0.82398 0.48638
+C 0.07505 0.49226 0.30667
+C 1.17936 -0.12449 0.57073
+H -1.65798 1.49183 1.26624
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 69.7,111.8,188.7,308.3,372.5,513.0,619.8,651.4,750.7,946.2,1084.4,1195.3,1266.1,1873.1,3168.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1453,
+    label = "CC1(Br)C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
+6  C  u0 p0 c0 {3,S} {4,S} {5,S} {9,S}
+7  C  u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43937,0.0534639,-5.36585e-05,3.38145e-08,-9.91998e-12,7955.3,15.3884], Tmin=(10,'K'), Tmax=(725.459,'K')),
+            NASAPolynomial(coeffs=[5.94559,0.0396451,-2.50858e-05,7.55723e-09,-8.71409e-13,7591.67,4.10176], Tmin=(725.459,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 21.75 kcal/mol
+S298: 97.00 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.74024 0.00001 -0.16127
+Br 1.52436 1.81976 -0.03816
+Br 1.52434 -1.81977 -0.03817
+C -0.83872 0.00000 0.30676
+C 0.04522 0.75537 -0.65112
+C 0.04521 -0.75536 -0.65114
+C -0.62727 -0.00002 1.79878
+H -0.40848 1.22995 -1.51141
+H -0.40848 -1.22993 -1.51143
+H -1.08228 0.88855 2.24274
+H 0.43858 0.00006 2.03348
+H -1.08213 -0.88870 2.24269
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 83.0,107.3,133.5,174.8,194.8,212.1,294.3,386.6,459.7,538.9,610.3,743.4,790.5,887.1,981.6,1061.9,1078.9,1110.3,1116.4,1241.9,1253.3,1348.2,1416.0,1474.8,1484.7,3055.4,3131.0,3141.9,3192.2,3200.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1454,
+    label = "BrC1[C]DCC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+5 C  u0 p0 c0 {3,S} {6,D} {9,S}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75428,0.0220144,3.49498e-05,-9.08743e-08,5.39735e-11,50295.4,15.02], Tmin=(10,'K'), Tmax=(616.477,'K')),
+            NASAPolynomial(coeffs=[4.75666,0.0299434,-1.94611e-05,5.94359e-09,-6.89951e-13,49897.5,8.44448], Tmin=(616.477,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 104.42 kcal/mol
+S298: 87.09 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.22288 -0.48178 0.03801
+Br -2.26789 -0.40975 -0.06336
+C 0.56785 0.47228 -0.48334
+C -0.59843 0.40077 0.55981
+C 0.58125 1.97232 -0.30638
+C -0.48417 1.89560 0.48979
+H 0.30243 0.09672 -1.47029
+H -0.35248 -0.07802 1.50299
+H 1.22650 2.73902 -0.70459
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 90.2,179.9,216.7,287.3,371.4,523.8,718.3,793.5,855.5,879.1,952.9,1068.0,1111.8,1160.9,1177.8,1198.3,1213.7,1591.7,3127.3,3163.2,3272.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1455,
+    label = "BrC(Br)C1(Br)[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {10,S}
+8  C  u1 p0 c0 {5,S} {6,S} {11,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.03335,0.097007,-0.000257137,4.00018e-07,-2.49712e-10,37989,19.0416], Tmin=(10,'K'), Tmax=(393.525,'K')),
+            NASAPolynomial(coeffs=[8.9963,0.0363961,-2.61048e-05,8.62558e-09,-1.06583e-12,37519.7,-4.16499], Tmin=(393.525,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.67 kcal/mol
+S298: 112.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.93454 2.10150 0.56740
+Br 3.02131 -0.40328 -0.27496
+Br -1.98606 -0.86017 -1.34451
+Br -0.60676 -1.29910 1.55301
+C 0.18001 0.74746 -0.34304
+C 1.68548 1.05012 -0.31471
+C -0.35704 -0.65906 -0.27624
+C 0.89522 1.23475 -1.49266
+H 2.05373 1.86102 0.30438
+H 0.36530 -1.33924 -0.71811
+H 0.87090 1.37557 -2.55889
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.8,70.3,80.8,101.6,106.5,139.3,169.5,191.3,323.6,380.4,424.2,482.4,577.7,663.4,694.9,850.3,922.8,979.0,1047.7,1119.3,1159.7,1164.4,1235.2,1352.0,3159.8,3163.9,3292.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1456,
+    label = "OC1OC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {4,S} {8,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91518,0.00518601,9.56534e-05,-2.00879e-07,1.26245e-10,-29463.1,11.851], Tmin=(10,'K'), Tmax=(533.694,'K')),
+            NASAPolynomial(coeffs=[3.38651,0.0274567,-1.83979e-05,5.86709e-09,-7.11387e-13,-29667.4,11.6268], Tmin=(533.694,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -54.77 kcal/mol
+S298: 76.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.20278 0.10177 -0.01682
+O 1.36041 -1.04287 -0.64019
+O 1.77798 1.26898 -0.05476
+C 1.72028 -0.02764 0.33419
+C 0.48411 -0.80594 0.41434
+H 2.57857 -0.28924 0.94689
+H 0.27437 -1.61725 1.10451
+H 0.91105 1.53709 -0.39437
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 175.1,295.1,344.9,471.3,526.1,667.8,738.4,883.7,1096.5,1130.1,1149.4,1254.6,1308.6,1353.6,1480.5,3155.1,3167.7,3721.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1457,
+    label = "BrC(Br)(Br)[C]1CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5  C  u0 p0 c0 {4,S} {7,S} {10,S} {11,S}
+6  C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+7  C  u1 p0 c0 {4,S} {5,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.28876,0.0691315,-0.000136506,1.78174e-07,-9.81447e-11,36446.9,15.9595], Tmin=(10,'K'), Tmax=(438.272,'K')),
+            NASAPolynomial(coeffs=[6.87548,0.0363963,-2.44686e-05,7.75029e-09,-9.30625e-13,36132.5,1.61437], Tmin=(438.272,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.69 kcal/mol
+S298: 100.58 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.12745 -1.60808 0.07288
+Br -1.12745 1.60808 0.07288
+Br 1.27706 0.00000 -1.39088
+C 1.80410 -0.76975 2.06966
+C 1.80410 0.76975 2.06966
+C -0.01496 0.00000 0.21589
+C 0.74336 0.00000 1.42558
+H 1.58377 -1.27041 3.00962
+H 2.51862 -1.29284 1.43767
+H 1.58377 1.27041 3.00962
+H 2.51862 1.29284 1.43767
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 77.2,88.7,111.0,141.0,151.0,184.2,271.3,320.8,357.8,455.0,686.2,724.9,786.5,847.3,988.0,1034.2,1047.0,1062.4,1080.1,1155.7,1427.1,1441.5,1506.1,3099.4,3100.4,3174.0,3186.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1458,
+    label = "BrC1[CH]OC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+5 C  u1 p0 c0 {2,S} {3,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86597,0.0138022,4.08762e-05,-7.4169e-08,3.59531e-11,11089.2,12.5151], Tmin=(10,'K'), Tmax=(706.702,'K')),
+            NASAPolynomial(coeffs=[3.202,0.0295123,-1.78376e-05,5.14999e-09,-5.72349e-13,10884.5,13.3762], Tmin=(706.702,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 26.00 kcal/mol
+S298: 79.26 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.32046 0.00030 -0.08670
+O -2.29242 0.10047 -0.57670
+C -0.65138 0.05096 0.74404
+C -1.56088 -0.99606 0.08386
+C -1.54161 0.99148 0.13038
+H -0.39458 0.04440 1.79586
+H -2.22293 -1.53807 0.76297
+H -1.10361 -1.65689 -0.65023
+H -1.63228 2.05818 -0.01027
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 148.5,188.4,236.3,438.6,556.4,873.9,905.1,911.0,1020.6,1065.8,1098.1,1140.5,1154.2,1238.2,1278.5,1409.6,1488.6,3081.9,3167.7,3193.0,3251.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1459,
+    label = "BrC1DC(Br)C(Br)(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {2,S} {7,S} {9,S}
+7  C  u0 p0 c0 {3,S} {6,S} {8,S} {10,S}
+8  C  u0 p0 c0 {4,S} {7,S} {9,D}
+9  C  u0 p0 c0 {5,S} {6,S} {8,D}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.17474,0.0922674,-7.35196e-05,-7.86773e-07,1.87041e-09,24654.3,18.837], Tmin=(10,'K'), Tmax=(230.23,'K')),
+            NASAPolynomial(coeffs=[9.22654,0.0362513,-2.86378e-05,1.00937e-08,-1.30576e-12,24245.5,-4.29894], Tmin=(230.23,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.38 kcal/mol
+S298: 115.03 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.85962 -0.81065 -1.31452
+Br 2.06735 0.29873 1.67848
+Br -0.84374 -2.67400 -0.16574
+Br -3.03067 0.55063 0.32603
+Br 0.11624 2.66205 -0.75102
+C 0.84329 -0.14334 0.20141
+C -0.41153 -0.97712 0.69265
+C -1.20927 0.22020 0.25715
+C -0.14137 0.94155 -0.12180
+H -0.39487 -1.18418 1.76060
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 34.6,71.3,78.3,86.3,105.6,120.8,150.5,202.7,238.1,326.4,471.3,485.5,531.9,562.8,617.4,788.3,908.4,918.5,1109.9,1135.4,1195.0,1220.6,1638.8,3137.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1460,
+    label = "Br[C]1CC(Br)(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+7 C  u1 p0 c0 {3,S} {4,S} {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45317,0.0473507,-5.14158e-05,2.86767e-08,-6.46086e-12,13536.4,17.3487], Tmin=(10,'K'), Tmax=(1034.43,'K')),
+            NASAPolynomial(coeffs=[10.4072,0.0204602,-1.24224e-05,3.54619e-09,-3.8731e-13,12097.7,-16.4358], Tmin=(1034.43,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 32.33 kcal/mol
+S298: 97.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.14685 -1.29909 -0.07393
+Br 1.21183 1.76640 -0.01757
+Br -3.07661 -0.14436 -0.07670
+O -0.37529 -0.37891 -0.86322
+C -0.35433 -0.41179 1.26903
+C 0.61747 -0.09929 0.10919
+C -1.29347 -0.73393 0.12397
+H -0.61903 0.45212 1.87932
+H -0.06927 -1.25390 1.89995
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.3,141.9,161.0,209.1,263.0,283.8,371.2,402.9,471.9,641.3,899.1,925.6,979.1,997.4,1101.6,1124.6,1140.5,1237.1,1458.3,3091.4,3150.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1461,
+    label = "BrC1DCC(Br)DC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {1,S} {4,D} {6,S}
+4 C  u0 p0 c0 {3,D} {5,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,D}
+6 C  u0 p0 c0 {3,S} {5,D} {8,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7358,0.021736,7.47311e-05,-2.61734e-07,2.28742e-10,52110.7,12.7102], Tmin=(10,'K'), Tmax=(423.401,'K')),
+            NASAPolynomial(coeffs=[5.5314,0.0264326,-1.8644e-05,6.11533e-09,-7.52903e-13,51764.5,3.29793], Tmin=(423.401,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 108.18 kcal/mol
+S298: 83.33 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.85740 -0.01260 0.00000
+Br -2.85741 0.01259 0.00000
+C 0.99710 0.07657 0.00000
+C 0.09909 1.05592 0.00000
+C -0.99710 -0.07655 0.00000
+C -0.09907 -1.05588 0.00000
+H 0.08143 2.13236 0.00000
+H -0.08140 -2.13232 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 90.5,147.7,224.2,275.0,356.2,492.8,560.0,647.6,727.4,836.5,870.6,1049.8,1130.8,1152.6,1628.3,1660.2,3286.2,3287.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1462,
+    label = "BrC1D[C]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83934,0.0121241,7.83493e-05,-2.4946e-07,2.13414e-10,64629.5,14.6439], Tmin=(10,'K'), Tmax=(425.932,'K')),
+            NASAPolynomial(coeffs=[5.34968,0.0180194,-1.31249e-05,4.39403e-09,-5.48343e-13,64318.7,6.50835], Tmin=(425.932,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 132.37 kcal/mol
+S298: 83.12 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.11920 -0.33313 -0.04792
+Br 2.15287 -0.30223 0.00358
+C -0.71891 0.91760 0.51197
+C 0.69520 0.79350 -0.06781
+C -0.02340 1.80272 -0.44516
+H -0.89584 1.15455 1.55764
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 74.5,276.4,308.2,415.2,483.5,583.3,831.9,916.2,1029.2,1250.8,1783.8,3142.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1463,
+    label = "[O]C1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u1 p2 c0 {3,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90089,0.00653684,0.000116848,-2.69236e-07,1.88015e-10,9151.22,12.6294], Tmin=(10,'K'), Tmax=(474.813,'K')),
+            NASAPolynomial(coeffs=[3.18634,0.0312582,-2.03318e-05,6.32668e-09,-7.52557e-13,9008.26,13.3245], Tmin=(474.813,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 22.24 kcal/mol
+S298: 79.46 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.33319 -0.10806 -0.02725
+O 2.67378 -0.78758 0.13372
+C 1.66605 -0.26422 -0.43254
+C 1.28080 1.24032 -0.08953
+C 0.46079 0.22268 0.54474
+H 1.30142 -0.59583 -1.41213
+H 2.02071 1.75067 0.51634
+H 0.87750 1.78874 -0.93296
+H 0.62609 -0.05347 1.57655
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 185.2,219.2,301.9,332.7,447.1,610.1,725.6,861.6,952.1,1004.8,1043.9,1062.7,1206.8,1267.9,1345.2,1376.5,1451.7,3033.3,3141.7,3222.4,3246.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1464,
+    label = "ODC1CC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {6,D}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {3,D} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70191,0.0253796,5.02815e-05,-2.026e-07,1.79949e-10,7949.74,13.5576], Tmin=(10,'K'), Tmax=(429.994,'K')),
+            NASAPolynomial(coeffs=[5.64882,0.0261613,-1.83515e-05,5.99026e-09,-7.34677e-13,7607.65,3.77713], Tmin=(429.994,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 20.49 kcal/mol
+S298: 85.47 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.62880 -0.65094 -0.07084
+Br 1.62880 -0.65094 -0.07084
+O -0.00000 2.64152 -0.93519
+C -0.00000 1.41965 1.33201
+C 0.00000 0.34529 0.20827
+C -0.00000 1.79503 -0.10225
+H -0.91591 1.53689 1.90598
+H 0.91591 1.53689 1.90598
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 94.8,152.6,215.1,222.3,358.4,430.4,587.4,628.3,784.9,862.9,942.6,1048.9,1056.9,1097.0,1401.9,1961.4,3109.7,3200.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1465,
+    label = "[O]C1C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u1 p2 c0 {4,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59545,0.0366926,-5.66436e-06,-1.31687e-07,1.63141e-10,38406.9,14.6553], Tmin=(10,'K'), Tmax=(393.386,'K')),
+            NASAPolynomial(coeffs=[7.03861,0.0204048,-1.49482e-05,5.02989e-09,-6.30548e-13,37991.1,-0.584957], Tmin=(393.386,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 81.23 kcal/mol
+S298: 89.39 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.28833 -0.51500 -0.03697
+Br -2.28830 -0.51503 -0.03696
+O -0.00012 2.58051 -0.46291
+C 0.00000 1.70738 0.45452
+C 0.63718 0.26328 0.17106
+C -0.63716 0.26323 0.17106
+H -0.00006 2.00349 1.51096
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 98.8,119.1,124.9,245.8,307.3,392.1,517.8,551.2,663.6,771.7,956.1,1288.0,1368.0,1922.8,3027.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1466,
+    label = "BrC1DC(Br)C(Br)O1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
+6 C  u0 p0 c0 {2,S} {5,S} {7,D}
+7 C  u0 p0 c0 {3,S} {4,S} {6,D}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.55398,0.0455458,-5.90112e-05,4.19561e-08,-1.25059e-11,11093.3,16.4106], Tmin=(10,'K'), Tmax=(772.203,'K')),
+            NASAPolynomial(coeffs=[7.77651,0.0236732,-1.65239e-05,5.27545e-09,-6.30629e-13,10441.2,-2.86906], Tmin=(772.203,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 27.29 kcal/mol
+S298: 95.30 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.57293 -0.90429 -0.24716
+Br -0.00706 2.27457 -0.01577
+Br 2.63505 -0.88357 -0.17623
+O 0.02172 -1.58306 0.67156
+C -0.99692 -0.53945 0.82171
+C 0.00138 0.45574 0.29756
+C 0.86410 -0.56776 0.23705
+H -1.31243 -0.46142 1.86026
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 69.2,80.4,106.1,241.2,263.2,399.5,422.6,481.9,538.0,725.2,825.2,987.8,1076.7,1148.8,1194.0,1251.0,1668.4,3144.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1467,
+    label = "[CH2]C1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6 C  u1 p0 c0 {4,S} {8,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72266,0.0217077,0.000141464,-4.97603e-07,4.67398e-10,14174.1,14.6527], Tmin=(10,'K'), Tmax=(391.565,'K')),
+            NASAPolynomial(coeffs=[6.47157,0.0287569,-2.01167e-05,6.62539e-09,-8.22122e-13,13689.5,0.529205], Tmin=(391.565,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 33.25 kcal/mol
+S298: 89.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.81781 -0.13201 -0.11566
+Br 1.25049 -1.10351 -0.02245
+O 0.26043 1.23000 1.23174
+C 0.44860 1.79373 -0.17223
+C 0.03982 0.40911 0.18814
+C 1.77632 2.17945 -0.54729
+H -0.37370 2.44868 -0.44387
+H 2.63036 1.58278 -0.25762
+H 1.92759 3.07807 -1.13021
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 149.4,164.6,183.8,236.2,276.5,359.8,402.7,457.5,566.6,625.9,727.4,929.7,1025.8,1107.9,1159.8,1267.2,1393.9,1463.1,3169.8,3177.4,3289.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1468,
+    label = "BrCC1CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
+6  C  u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73133,0.0294614,1.46054e-05,-3.87191e-08,1.7001e-11,5562.89,14.8811], Tmin=(10,'K'), Tmax=(880.977,'K')),
+            NASAPolynomial(coeffs=[5.20416,0.0364775,-2.06727e-05,5.6333e-09,-5.95573e-13,4771.62,4.9441], Tmin=(880.977,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 15.98 kcal/mol
+S298: 89.94 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.38918 -0.59430 -0.03192
+Br -2.45340 -0.52249 0.01064
+C -0.06131 1.04289 -0.46392
+C 0.98960 2.03392 0.01948
+C 0.99221 0.62119 0.51351
+C -1.48003 1.20373 -0.01283
+H 0.06083 0.68867 -1.48172
+H 1.74977 2.33211 -0.69253
+H 0.69814 2.80777 0.72283
+H 0.70195 0.41895 1.53659
+H -2.05478 1.84237 -0.68280
+H -1.55125 1.58726 1.00476
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 54.5,103.5,224.4,255.3,322.6,363.0,589.5,637.9,800.6,858.8,904.9,936.4,969.4,1066.1,1094.2,1098.6,1118.2,1205.3,1233.9,1245.8,1267.0,1401.5,1475.5,1477.8,3093.0,3132.8,3153.5,3176.1,3191.6,3226.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1469,
+    label = "BrCC1C(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+8  C  u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {8,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5714,0.0537869,0.000360208,-3.4754e-06,8.14345e-09,11877.8,16.7827], Tmin=(10,'K'), Tmax=(165.567,'K')),
+            NASAPolynomial(coeffs=[6.11166,0.0447238,-3.15837e-05,1.03854e-08,-1.28352e-12,11722,6.93069], Tmin=(165.567,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.35 kcal/mol
+S298: 106.84 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.64089 2.11937 -0.79627
+Br -1.53490 0.59611 1.56394
+Br -2.48741 -1.30250 -0.83728
+Br 3.19335 -1.07463 0.15406
+C 0.37004 -0.83831 -0.24155
+C -0.08636 0.36081 -1.05087
+C -1.02957 -0.28025 -0.07137
+C 1.38316 -0.74410 0.86389
+H 0.42343 -1.76628 -0.80321
+H -0.30163 0.20532 -2.09969
+H 1.21833 -1.50919 1.62092
+H 1.41874 0.23873 1.32563
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 38.2,62.4,97.6,121.3,134.9,176.0,195.8,233.6,421.7,435.1,474.3,630.6,669.9,745.0,810.1,911.6,918.1,1031.6,1083.3,1112.3,1184.7,1232.5,1242.7,1277.6,1384.4,1468.8,3113.8,3155.3,3189.4,3201.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1470,
+    label = "[O]C1(Br)CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u1 p2 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {3,S} {4,D} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86001,0.00894298,0.000102299,-2.56555e-07,1.80674e-10,32949.7,11.4527], Tmin=(10,'K'), Tmax=(511.227,'K')),
+            NASAPolynomial(coeffs=[6.09042,0.020075,-1.42309e-05,4.77362e-09,-6.03864e-13,32348.1,-1.46444], Tmin=(511.227,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.51 kcal/mol
+S298: 76.99 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.11789 -0.09727 0.00000
+O -1.15650 1.56658 -0.00001
+C -0.84967 0.36052 0.00001
+C -1.73188 -0.75764 0.63758
+C -1.73188 -0.75766 -0.63757
+H -1.99671 -1.09974 1.62283
+H -1.99672 -1.09978 -1.62282
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 228.8,265.2,321.9,383.0,462.5,511.2,667.6,767.2,810.4,917.9,940.5,1351.6,1773.3,3269.6,3329.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1471,
+    label = "BrC1D[C]C1C(Br)(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {7,S}
+5 C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+7 C  u0 p0 c0 {4,S} {5,S} {8,D}
+8 C  u1 p0 c0 {5,S} {7,D}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.14075,0.081922,-0.00017968,2.10547e-07,-9.81232e-11,68174.7,19.0668], Tmin=(10,'K'), Tmax=(524.34,'K')),
+            NASAPolynomial(coeffs=[10.4972,0.0258023,-1.91365e-05,6.42564e-09,-8.002e-13,67403.2,-11.6744], Tmin=(524.34,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 142.15 kcal/mol
+S298: 109.41 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.62871 1.84215 0.52515
+Br -0.55312 -1.24733 1.36499
+Br -2.52600 -0.27527 -0.96260
+Br 3.31194 0.06768 -0.23341
+C 0.28720 -0.20403 -1.21416
+C -0.75737 -0.01603 -0.12925
+C 1.76508 -0.62747 -0.90555
+C 0.99460 -1.49626 -1.46295
+H 0.11890 0.50971 -2.02325
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 29.1,48.2,112.6,135.5,163.9,178.2,209.4,296.4,309.8,424.7,478.4,506.5,645.8,719.7,771.7,958.9,971.2,1091.3,1340.4,1807.1,3091.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1472,
+    label = "CC1DCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {3,S}
+3  C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+4  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {3,S} {5,D} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4866,0.0425754,-4.10924e-05,2.29845e-08,-5.60619e-12,27835.8,13.7568], Tmin=(10,'K'), Tmax=(900.989,'K')),
+            NASAPolynomial(coeffs=[6.84971,0.0276446,-1.6235e-05,4.59185e-09,-5.02717e-13,27229.8,-2.11757], Tmin=(900.989,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 60.50 kcal/mol
+S298: 88.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61355 -0.70543 -0.09411
+Br 1.61349 -0.70554 -0.09411
+C 0.00001 0.35852 0.34150
+C 0.00013 2.91080 -0.76699
+C 0.00006 1.80594 0.20361
+C 0.00005 1.31993 1.42115
+H 0.00022 3.88393 -0.27115
+H 0.88168 2.83678 -1.41299
+H -0.88145 2.83693 -1.41296
+H 0.00005 1.45513 2.48910
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 105.6,133.0,150.9,178.8,271.7,351.5,410.4,457.1,603.9,777.7,809.1,966.9,1041.1,1049.9,1162.7,1194.7,1401.4,1471.2,1473.5,1829.6,3036.9,3097.8,3129.3,3289.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1473,
+    label = "Br[C]1CDCO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 C  u0 p0 c0 {4,S} {5,D} {6,S}
+4 C  u1 p0 c0 {1,S} {2,S} {3,S}
+5 C  u0 p0 c0 {2,S} {3,D} {7,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89528,0.00705315,9.36534e-05,-2.3177e-07,1.68229e-10,26747.6,12.4207], Tmin=(10,'K'), Tmax=(472.004,'K')),
+            NASAPolynomial(coeffs=[4.11466,0.0234167,-1.62596e-05,5.26734e-09,-6.41673e-13,26523.9,9.37668], Tmin=(472.004,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.97 kcal/mol
+S298: 77.82 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.26425 0.00248 -0.00001
+O 1.39913 -1.02736 0.00000
+C 1.61836 1.03597 0.00002
+C 0.57201 0.10726 0.00014
+C 2.45190 -0.07550 -0.00012
+H 1.71670 2.10497 -0.00009
+H 3.48535 -0.37916 0.00022
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 54.7,276.8,391.5,396.1,585.4,713.3,835.7,943.6,1027.8,1065.9,1227.3,1260.5,1485.4,3279.2,3321.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1474,
+    label = "Br[C]1C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {7,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+7 C  u1 p0 c0 {4,S} {5,S} {6,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.23002,0.0776444,-0.000209175,3.09366e-07,-1.81445e-10,42202,19.2556], Tmin=(10,'K'), Tmax=(419.337,'K')),
+            NASAPolynomial(coeffs=[8.81571,0.0243636,-1.85866e-05,6.36709e-09,-8.04895e-13,41733.5,-2.83777], Tmin=(419.337,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 90.00 kcal/mol
+S298: 107.07 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.45570 -0.86490 -0.62904
+Br 0.44761 -1.47915 1.46060
+Br 2.24502 -0.43786 -1.01358
+Br -0.16074 2.68222 0.43763
+C -0.71051 -0.04791 -0.97768
+C 0.52405 -0.30499 -0.07971
+C -0.16473 0.93806 -0.09140
+H -0.55929 -0.02168 -2.05362
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 20.1,64.8,86.4,104.1,152.3,204.1,293.1,394.2,451.6,535.8,592.3,645.2,874.4,1005.5,1083.3,1180.4,1422.8,3139.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1475,
+    label = "BrC1[C]DCC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+6 C  u0 p0 c0 {4,S} {7,D} {9,S}
+7 C  u1 p0 c0 {5,S} {6,D}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45981,0.0467179,-4.65333e-05,1.82876e-08,7.58463e-15,53692.8,16.6665], Tmin=(10,'K'), Tmax=(716.045,'K')),
+            NASAPolynomial(coeffs=[8.84298,0.0243719,-1.5906e-05,4.84037e-09,-5.58273e-13,52723.8,-8.88909], Tmin=(716.045,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 112.13 kcal/mol
+S298: 96.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.13894 -0.80607 -0.47547
+Br -0.27476 1.76963 0.00899
+Br 2.40115 -0.42402 -0.37617
+C -0.53231 -0.11467 0.46661
+C 0.71033 -1.09322 0.30585
+C -0.52978 -0.40990 1.94009
+C 0.54455 -1.18170 1.79379
+H 0.48400 -1.98713 -0.26901
+H -1.20155 -0.09958 2.72357
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 74.5,107.4,161.2,171.4,258.4,324.6,369.2,385.0,563.9,747.0,813.1,830.0,866.2,986.7,1065.7,1129.6,1192.6,1220.5,1593.2,3154.0,3282.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1476,
+    label = "BrC1(Br)OOC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {7,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 O  u0 p2 c0 {5,S} {8,S}
+7 C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+8 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.20833,0.0736855,-0.000142156,1.39074e-07,-5.37767e-11,9793.4,16.9097], Tmin=(10,'K'), Tmax=(629.046,'K')),
+            NASAPolynomial(coeffs=[11.521,0.0208266,-1.61102e-05,5.48921e-09,-6.86203e-13,8747.6,-19.3406], Tmin=(629.046,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 25.87 kcal/mol
+S298: 103.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.89157 -1.39676 -0.09058
+Br 1.49503 1.72791 -0.39531
+Br -1.89157 1.39676 -0.09059
+Br -1.49503 -1.72792 -0.39530
+O 0.69345 0.26058 1.81478
+O -0.69346 -0.26057 1.81479
+C 0.77549 0.13147 0.41463
+C -0.77549 -0.13146 0.41463
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 30.8,106.9,127.0,147.8,169.0,191.4,266.8,284.7,317.6,351.0,467.3,670.4,812.1,885.8,899.2,939.9,1015.4,1086.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1477,
+    label = "BrC1COC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {6,S} {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7593,0.031064,0.000329816,-2.79785e-06,6.6425e-09,-6952.84,14.8921], Tmin=(10,'K'), Tmax=(152.423,'K')),
+            NASAPolynomial(coeffs=[4.57686,0.0384994,-2.76664e-05,9.21753e-09,-1.1504e-12,-7011.32,11.3849], Tmin=(152.423,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -8.28 kcal/mol
+S298: 94.95 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.35995 -0.37019 -0.50430
+Br -0.37069 1.78633 0.01574
+Br -2.07353 -0.86446 -0.52659
+O -0.63548 -0.33821 1.81617
+C 0.75458 -0.99528 0.36530
+C 0.68470 -0.95289 1.89858
+C -0.53087 -0.12518 0.44863
+H 0.53531 -1.97061 -0.05936
+H 1.40155 -0.27800 2.37085
+H 0.64586 -1.91441 2.41411
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 43.4,102.6,135.2,167.7,273.0,287.0,326.7,403.6,544.6,724.2,869.6,950.7,977.1,1024.6,1034.9,1092.2,1153.0,1224.3,1255.3,1336.9,1510.3,3070.8,3135.5,3160.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1478,
+    label = "CC1(Br)[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {2,S}
+2  C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3  C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+5  C  u1 p0 c0 {2,S} {3,S} {11,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89672,0.00687262,0.000141791,-3.22422e-07,2.26346e-10,29805.2,12.3959], Tmin=(10,'K'), Tmax=(462.631,'K')),
+            NASAPolynomial(coeffs=[2.47406,0.0385942,-2.403e-05,7.27192e-09,-8.51094e-13,29729,15.9166], Tmin=(462.631,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 63.58 kcal/mol
+S298: 80.56 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.14666 -0.05772 -0.01823
+C -0.82221 0.15699 0.06220
+C -1.63113 -0.92507 -0.65616
+C -1.21757 1.61397 0.01237
+C -1.53177 -0.85630 0.81003
+H -2.54690 -0.59350 -1.14685
+H -1.10716 -1.71347 -1.19293
+H -0.84972 2.08814 -0.90130
+H -0.81558 2.15607 0.87255
+H -2.30941 1.69441 0.03538
+H -1.28836 -1.54888 1.60071
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 232.4,250.2,277.9,281.5,364.5,433.6,529.3,767.0,874.7,903.8,942.5,1035.6,1052.6,1076.6,1118.8,1135.6,1359.1,1409.6,1458.0,1476.3,1492.0,3036.1,3074.5,3109.2,3121.0,3154.9,3248.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1479,
+    label = "BrC(Br)(Br)C1CO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {5,S} {6,S}
+5  C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
+7  C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43621,0.0551009,-7.94621e-05,7.26169e-08,-2.90542e-11,-2372.71,15.6028], Tmin=(10,'K'), Tmax=(580.698,'K')),
+            NASAPolynomial(coeffs=[6.64299,0.0330117,-2.24036e-05,7.11109e-09,-8.52867e-13,-2745.14,1.87489], Tmin=(580.698,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 1.05 kcal/mol
+S298: 96.69 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30939 0.06080 -1.26162
+Br -1.16059 1.57799 0.06429
+Br -1.11064 -1.62877 -0.00257
+O 1.74869 0.76610 1.78788
+C 0.62127 -0.04661 1.55722
+C 1.92130 -0.65850 1.84688
+C -0.00693 -0.01148 0.17508
+H -0.14250 -0.02798 2.33431
+H 2.51159 -1.08716 1.04261
+H 2.09188 -1.06514 2.84157
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 72.3,130.6,143.0,171.3,196.4,204.8,285.2,379.7,468.3,680.1,714.4,837.1,890.4,966.4,1084.8,1098.7,1160.5,1166.6,1298.1,1400.7,1515.9,3103.7,3120.1,3204.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1480,
+    label = "OC1C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  O  u0 p2 c0 {4,S} {10,S}
+4  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
+6  C  u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.58035,0.0363657,-1.58227e-05,-1.18933e-08,1.06e-11,-8702.51,14.4962], Tmin=(10,'K'), Tmax=(719.861,'K')),
+            NASAPolynomial(coeffs=[6.19011,0.0296643,-1.81122e-05,5.27939e-09,-5.91445e-13,-9280.35,1.35968], Tmin=(719.861,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -12.28 kcal/mol
+S298: 89.31 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.21767 -0.56989 -0.04916
+Br -2.41005 -0.33370 -0.03115
+O 0.80819 2.32880 -0.22073
+C 0.02326 1.38472 0.41010
+C 0.47388 -0.04716 0.59962
+C -0.61073 0.26469 -0.38587
+H -0.55514 1.80727 1.22741
+H 0.23432 -0.56139 1.52082
+H -0.37617 0.21842 -1.44167
+H 1.64647 1.91752 -0.47280
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 116.6,148.6,179.1,198.5,223.7,318.3,482.2,680.3,712.4,863.4,893.4,1005.3,1013.3,1098.7,1119.1,1194.7,1225.4,1271.6,1345.3,1424.4,3149.9,3199.8,3205.0,3735.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1481,
+    label = "BrC1CC(Br)(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
+7  C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+8  C  u0 p0 c0 {4,S} {5,S} {7,S} {12,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.61805,0.0475305,0.000331559,-2.93273e-06,6.6217e-09,6619.01,16.641], Tmin=(10,'K'), Tmax=(167.409,'K')),
+            NASAPolynomial(coeffs=[5.4129,0.0464406,-3.31649e-05,1.10078e-08,-1.37057e-12,6500.35,9.44065], Tmin=(167.409,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 19.68 kcal/mol
+S298: 104.80 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.13153 -0.80147 0.19084
+Br -1.80513 0.52435 1.45108
+Br -1.96388 -1.41504 -1.08918
+Br 0.34925 2.14255 -0.83032
+C 1.31124 -0.28980 0.65614
+C 0.27878 -1.41758 0.88946
+C -0.76714 -0.52550 0.17036
+C 0.42146 0.24366 -0.47728
+H 1.38834 0.40008 1.49253
+H 0.06098 -1.69370 1.91953
+H 0.50473 -2.30563 0.29808
+H 0.66752 -0.22925 -1.42663
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 42.3,82.5,98.1,126.2,141.5,209.3,270.0,291.1,372.0,429.8,500.2,607.4,718.7,831.8,919.5,938.9,974.7,1037.9,1081.2,1118.2,1175.4,1220.9,1242.3,1260.7,1290.8,1470.3,3096.3,3130.9,3151.5,3167.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1482,
+    label = "O[C]1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {6,S} {9,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71575,0.0232433,0.000112677,-4.09115e-07,3.87597e-10,16247,14.8661], Tmin=(10,'K'), Tmax=(387.883,'K')),
+            NASAPolynomial(coeffs=[5.8249,0.0295986,-2.05884e-05,6.73843e-09,-8.31423e-13,15872,3.96272], Tmin=(387.883,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 37.27 kcal/mol
+S298: 89.66 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.29355 -1.06438 0.00879
+Br -1.81869 -0.18634 -0.13063
+O 1.48603 2.20765 -0.78593
+C 0.28767 1.42484 1.31279
+C 0.00973 0.38793 0.21134
+C 0.42445 1.73317 -0.12110
+H -0.56832 1.81446 1.85910
+H 1.17961 1.26225 1.91671
+H 1.54936 1.76158 -1.64190
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 105.6,157.7,192.2,241.8,323.2,370.1,389.4,485.3,623.3,757.6,939.4,986.4,1014.6,1063.1,1082.9,1305.5,1434.3,1525.8,3089.2,3173.3,3761.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1483,
+    label = "BrC[C]1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {6,S} {8,S} {9,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.66839,0.0344305,-2.37834e-05,6.42482e-09,-1.43704e-13,17049.1,16.5546], Tmin=(10,'K'), Tmax=(1109.01,'K')),
+            NASAPolynomial(coeffs=[9.28069,0.0194337,-1.05945e-05,2.76165e-09,-2.79422e-13,15481.7,-12.5565], Tmin=(1109.01,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 38.70 kcal/mol
+S298: 92.83 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.36908 -0.55771 0.04806
+Br 2.58678 -0.32231 -0.10951
+O -0.92869 1.91992 0.17313
+C -1.20432 0.79829 -0.69853
+C 1.00460 0.42218 0.80540
+C 0.10036 1.05912 -0.16870
+H -1.50538 1.03767 -1.71173
+H 1.37246 1.14905 1.52784
+H 0.53914 -0.42265 1.32045
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 17.2,127.3,160.1,306.5,319.3,423.4,623.6,646.2,703.1,865.3,906.6,1048.8,1087.1,1158.2,1226.2,1252.8,1446.3,1506.2,3060.9,3154.4,3186.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1484,
+    label = "BrC(Br)C1(Br)CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {6,S} {8,S} {10,S} {11,S}
+8  C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+9  C  u0 p0 c0 {4,S} {5,S} {6,S} {12,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.98619,0.100864,-0.000233558,3.18174e-07,-1.75966e-10,17310,18.8846], Tmin=(10,'K'), Tmax=(441.193,'K')),
+            NASAPolynomial(coeffs=[9.60773,0.0408308,-2.94551e-05,9.7653e-09,-1.20907e-12,16725.7,-7.64232], Tmin=(441.193,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 42.05 kcal/mol
+S298: 115.35 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.04165 2.31677 -0.41243
+Br -2.84223 -0.53499 0.14142
+Br -0.17665 -2.24589 0.35569
+Br 1.54804 0.77033 1.71091
+Br 2.58438 -0.41293 -1.12235
+C -0.16251 0.59027 -0.62270
+C -0.62136 -0.25823 -1.79204
+C -0.99339 -0.66576 -0.39932
+C 1.29965 0.77874 -0.23439
+H -1.40574 0.14606 -2.42133
+H 0.13260 -0.84549 -2.30462
+H 1.62279 1.76423 -0.54698
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 46.1,53.6,84.5,106.4,124.0,139.4,166.5,189.8,211.6,324.3,370.5,376.6,448.6,587.8,641.3,669.5,700.0,835.5,906.9,977.5,1028.9,1095.8,1108.3,1174.2,1251.9,1307.4,1448.7,3139.3,3185.9,3232.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1485,
+    label = "BrC1(Br)CCO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  O  u0 p2 c0 {5,S} {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6  C  u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71778,0.0293629,-1.02906e-06,-1.95443e-08,9.75287e-12,-9686.33,13.598], Tmin=(10,'K'), Tmax=(898.37,'K')),
+            NASAPolynomial(coeffs=[6.31063,0.0281173,-1.61455e-05,4.43451e-09,-4.71156e-13,-10567.8,-0.946213], Tmin=(898.37,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -14.54 kcal/mol
+S298: 86.11 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.60396 -0.68459 0.00068
+Br -1.60363 -0.68515 0.00070
+O -0.00025 1.36365 -1.04839
+C -0.00027 1.59086 1.07319
+C -0.00006 0.47822 0.01172
+C -0.00079 2.52129 -0.15698
+H 0.89368 1.62100 1.69283
+H -0.89402 1.62038 1.69314
+H 0.89711 3.12451 -0.30736
+H -0.89939 3.12351 -0.30726
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 56.5,161.9,233.2,278.7,314.5,338.1,609.6,790.3,860.7,939.7,968.6,1073.0,1079.4,1082.1,1155.5,1201.5,1255.0,1343.5,1473.9,1519.4,3066.8,3114.0,3126.6,3177.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1486,
+    label = "Br[CH]C1(Br)OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {5,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+6 C  u1 p0 c0 {2,S} {5,S} {7,S}
+7 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63831,0.0308955,2.80521e-05,-1.79504e-07,1.72392e-10,19401.3,14.6359], Tmin=(10,'K'), Tmax=(437.532,'K')),
+            NASAPolynomial(coeffs=[7.17957,0.0211105,-1.58467e-05,5.38744e-09,-6.77921e-13,18875.2,-1.99237], Tmin=(437.532,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.38 kcal/mol
+S298: 88.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.24792 -0.37509 0.00042
+Br 2.35550 -0.22500 0.00033
+O -0.29338 1.52855 -0.75320
+O -0.29129 1.52699 0.75248
+C -0.45595 0.38423 -0.00003
+C 0.55776 -0.67138 -0.00131
+H 0.30119 -1.71840 -0.01233
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.5,143.8,195.3,306.4,312.0,316.4,478.1,677.4,721.9,805.6,824.3,1052.6,1264.8,1348.3,3268.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1487,
+    label = "Br[C]1C(Br)CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {4,S} {7,S} {10,S}
+6  C  u0 p0 c0 {2,S} {4,S} {7,S} {11,S}
+7  C  u1 p0 c0 {3,S} {5,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83227,0.0239498,0.000589095,-5.46503e-06,1.53611e-08,24354.1,12.8206], Tmin=(10,'K'), Tmax=(124.178,'K')),
+            NASAPolynomial(coeffs=[4.30815,0.0418692,-2.89834e-05,9.37947e-09,-1.14457e-12,24316.6,10.4853], Tmin=(124.178,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 54.10 kcal/mol
+S298: 92.01 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.28774 -0.98010 -0.41252
+Br -2.28774 -0.98010 -0.41252
+Br 0.00000 2.28487 -0.11216
+C 0.00000 -1.29491 1.53729
+C 1.09323 -0.29924 1.05295
+C -1.09323 -0.29924 1.05295
+C 0.00000 0.59074 0.62278
+H 0.00000 -2.25010 1.01641
+H 0.00000 -1.45399 2.61785
+H 1.80380 0.07800 1.78616
+H -1.80380 0.07800 1.78616
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 32.1,68.2,83.0,239.7,251.7,306.5,358.7,409.0,435.6,554.9,832.9,893.2,914.4,1007.7,1078.4,1112.1,1128.8,1160.5,1175.6,1190.7,1267.9,1269.2,1464.2,3082.2,3122.0,3122.7,3163.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1488,
+    label = "OC1DC(Br)C1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {8,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68687,0.0271713,5.43507e-05,-2.49925e-07,2.46441e-10,14529.9,14.7724], Tmin=(10,'K'), Tmax=(393.779,'K')),
+            NASAPolynomial(coeffs=[5.89664,0.0254281,-1.78744e-05,5.87102e-09,-7.24928e-13,14195.3,4.13285], Tmin=(393.779,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 33.66 kcal/mol
+S298: 88.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.14602 -0.62893 -0.11042
+Br 2.24426 -0.50276 -0.06444
+O -0.18912 2.74682 -0.34502
+C -0.65602 0.39844 0.81639
+C -0.03255 1.52260 0.11998
+C 0.69736 0.44900 0.25117
+H -0.90499 0.35003 1.87352
+H -1.07306 3.06449 -0.11854
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 75.7,127.5,175.2,296.5,377.6,424.6,525.0,539.5,602.0,816.6,1025.7,1118.8,1216.2,1233.8,1331.9,1949.1,3127.9,3783.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1489,
+    label = "BrC1D[C]CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4 C  u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,D}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75205,0.0217146,3.6755e-05,-9.69119e-08,5.95145e-11,50202.1,15.0248], Tmin=(10,'K'), Tmax=(589.978,'K')),
+            NASAPolynomial(coeffs=[4.50087,0.0302724,-1.96688e-05,6.01816e-09,-7.00486e-13,49876.4,9.79624], Tmin=(589.978,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 104.22 kcal/mol
+S298: 86.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.89272 -0.70059 -0.06567
+Br 2.08296 -0.44117 0.00168
+C -0.69897 0.73029 0.58394
+C -0.96803 2.15650 -0.00798
+C 0.68539 0.78430 -0.01891
+C 0.47601 2.02654 -0.44901
+H -0.73330 0.67488 1.67206
+H -1.18712 2.93061 0.73112
+H -1.70438 2.17037 -0.81188
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 84.3,176.0,246.8,326.6,403.0,430.4,583.0,820.3,858.1,966.1,1023.0,1051.7,1081.7,1152.1,1193.1,1217.4,1470.4,1624.0,3075.5,3110.2,3141.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1490,
+    label = "[CH]DC1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {5,D} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76521,0.017584,0.000136524,-4.2354e-07,3.63156e-10,55247.5,14.1374], Tmin=(10,'K'), Tmax=(419.212,'K')),
+            NASAPolynomial(coeffs=[5.78048,0.0299793,-2.09847e-05,6.89593e-09,-8.5265e-13,54800.7,2.85263], Tmin=(419.212,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 114.64 kcal/mol
+S298: 87.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61796 -0.63812 -0.08317
+Br -1.61797 -0.63812 -0.08317
+C 0.00000 1.38709 1.35938
+C 0.00000 0.38380 0.23400
+C 0.00000 1.81403 -0.08702
+C 0.00001 2.72390 -0.99258
+H -0.91903 1.51068 1.92522
+H 0.91903 1.51068 1.92522
+H 0.00001 3.79404 -1.11097
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 115.8,159.3,208.7,245.6,361.9,409.4,425.3,602.5,700.1,738.4,781.0,903.8,942.8,1036.1,1058.4,1146.7,1440.2,1786.8,3113.6,3206.2,3293.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1491,
+    label = "[CH2]C1(Br)CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,D}
+6 C  u1 p0 c0 {3,S} {8,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69621,0.0239871,0.00013512,-4.92039e-07,4.662e-10,52932.8,15.2238], Tmin=(10,'K'), Tmax=(393.203,'K')),
+            NASAPolynomial(coeffs=[6.8746,0.0281286,-1.98243e-05,6.5817e-09,-8.21847e-13,52400.9,-0.728822], Tmin=(393.203,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 110.37 kcal/mol
+S298: 91.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.05189 -0.59831 -0.01639
+Br 2.27866 -0.31976 -0.14283
+C -0.67615 0.85634 0.04431
+C 0.03595 1.07717 1.35655
+C 0.70214 0.46683 0.42791
+C -1.00392 1.92685 -0.88140
+H -0.07182 1.50260 2.33887
+H -0.33592 2.77955 -0.93626
+H -1.87762 1.88708 -1.51417
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 76.3,148.3,165.7,273.3,309.5,373.2,420.4,467.7,518.3,576.4,761.0,791.9,930.6,995.3,1065.6,1208.0,1445.5,1771.1,3158.8,3288.7,3298.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1492,
+    label = "BrC1D[C]C(Br)(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,D}
+7 C  u1 p0 c0 {5,S} {6,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.50692,0.0430179,-1.73233e-05,-9.66064e-08,1.10805e-10,46347.9,18.7393], Tmin=(10,'K'), Tmax=(462.644,'K')),
+            NASAPolynomial(coeffs=[8.72316,0.0202344,-1.58075e-05,5.47003e-09,-6.94174e-13,45626.4,-4.9865], Tmin=(462.644,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 97.40 kcal/mol
+S298: 99.63 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.75764 -1.58540 -0.01953
+Br 1.68553 1.61871 -0.01939
+Br -3.15482 -0.01534 -0.03407
+O -0.42820 -0.03426 -0.85719
+C 0.64616 -0.00811 0.13809
+C -1.33748 -0.02328 0.23338
+C -0.41975 -0.02774 1.19722
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 7.9,142.5,182.0,251.1,252.9,290.7,406.0,408.7,496.1,703.0,714.1,958.1,1020.5,1084.5,1629.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1493,
+    label = "Br[C]1CCC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+5  C  u0 p0 c0 {1,S} {3,S} {6,S} {11,S}
+6  C  u1 p0 c0 {2,S} {4,S} {5,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74944,0.0321672,-5.00885e-06,-1.24867e-08,5.85896e-12,24499.3,15.1579], Tmin=(10,'K'), Tmax=(1058.42,'K')),
+            NASAPolynomial(coeffs=[7.96283,0.0276144,-1.4671e-05,3.74918e-09,-3.73452e-13,22970.5,-8.41717], Tmin=(1058.42,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 53.61 kcal/mol
+S298: 90.98 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.94830 -0.68174 -0.10414
+Br 2.05132 -0.55162 0.01125
+C -0.84891 2.10994 0.23254
+C 0.48930 2.02548 -0.57833
+C -0.63207 0.65575 0.73316
+C 0.67108 0.68973 0.07610
+H -1.75051 2.25974 -0.35934
+H -0.81511 2.83533 1.04811
+H 0.36483 1.99729 -1.66780
+H 1.24411 2.78144 -0.33856
+H -0.72558 0.40855 1.78785
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 64.0,88.9,199.5,251.9,327.0,390.3,445.2,751.6,828.9,904.5,915.5,988.6,1060.4,1112.8,1117.1,1164.6,1187.2,1196.1,1269.5,1286.7,1457.1,1477.3,3023.9,3069.0,3082.1,3136.3,3152.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1494,
+    label = "ODC1C(Br)C1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {7,D}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+7 C  u0 p0 c0 {4,D} {5,S} {6,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.41979,0.0583211,-0.000114338,1.29383e-07,-6.02292e-11,12079.1,16.2194], Tmin=(10,'K'), Tmax=(517.632,'K')),
+            NASAPolynomial(coeffs=[7.68738,0.0253432,-1.87738e-05,6.30354e-09,-7.85337e-13,11637.3,-1.55903], Tmin=(517.632,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 29.62 kcal/mol
+S298: 97.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.45850 -0.39354 -0.45199
+Br 0.37410 1.80295 0.05581
+Br 2.19256 -0.83830 -0.46238
+O -0.18441 -0.85031 2.56470
+C -0.71763 -1.02041 0.05581
+C 0.53851 -0.10164 0.21532
+C -0.12229 -0.74582 1.38530
+H -0.50224 -1.97932 -0.40645
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 61.9,87.4,124.0,150.8,157.8,241.5,413.4,467.1,627.0,697.3,709.1,789.9,922.8,1041.8,1085.7,1179.3,1955.1,3160.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1495,
+    label = "BrC(Br)C1(Br)OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 O  u0 p2 c0 {4,S} {6,S}
+6 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+7 C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+8 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.44489,0.0522529,-7.67096e-05,5.97977e-08,-1.89865e-11,1578.78,15.6079], Tmin=(10,'K'), Tmax=(745.757,'K')),
+            NASAPolynomial(coeffs=[9.13491,0.0217335,-1.53238e-05,4.92219e-09,-5.9066e-13,730.107,-10.1739], Tmin=(745.757,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 8.66 kcal/mol
+S298: 95.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.89276 -0.00001 -0.83054
+Br -1.27098 -1.62370 -0.15911
+Br -1.27100 1.62368 -0.15915
+O 1.38875 -0.75498 1.84165
+O 1.38873 0.75510 1.84160
+C 0.88636 0.00002 0.81264
+C -0.63102 0.00000 0.69358
+H -1.02910 0.00001 1.70459
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.1,105.9,112.3,158.6,272.7,316.5,346.2,439.9,503.4,690.7,716.8,801.6,919.5,1067.5,1166.9,1215.0,1373.1,3161.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1496,
+    label = "Br[C](Br)C1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {7,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+7 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+8 C  u1 p0 c0 {3,S} {4,S} {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.12824,0.0885091,-0.000235962,3.49933e-07,-2.06655e-10,18752.4,19.5326], Tmin=(10,'K'), Tmax=(415.986,'K')),
+            NASAPolynomial(coeffs=[9.28733,0.0292853,-2.24077e-05,7.68799e-09,-9.72829e-13,18240,-4.77935], Tmin=(415.986,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.97 kcal/mol
+S298: 111.15 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.92852 1.04232 -0.31262
+Br -1.34893 -1.45701 0.94823
+Br 2.07828 -1.36460 -0.61164
+Br 2.36409 1.61605 0.57586
+O -0.74113 -0.24174 -1.54653
+C -0.00985 0.68064 -0.69542
+C -1.28168 0.00343 -0.31138
+C 1.33707 0.30227 -0.26809
+H -0.11644 1.72918 -0.97262
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 22.1,54.2,64.7,128.7,153.2,179.8,214.3,264.8,342.6,386.7,441.2,572.6,744.0,783.2,864.5,943.5,1088.2,1156.7,1276.6,1380.1,3119.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1497,
+    label = "OC1(Br)CDC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {8,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74167,0.0198214,0.000120636,-4.15442e-07,3.76277e-10,13855.5,14.5048], Tmin=(10,'K'), Tmax=(409.31,'K')),
+            NASAPolynomial(coeffs=[6.5894,0.0248035,-1.7867e-05,5.99487e-09,-7.52251e-13,13347.6,-0.0475366], Tmin=(409.31,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 32.34 kcal/mol
+S298: 87.76 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.06686 -0.59434 0.00148
+Br -2.30356 -0.32091 -0.12613
+O 0.89786 1.75535 -0.94161
+C 0.63494 0.82535 0.03322
+C -0.04256 1.11069 1.31805
+C -0.71956 0.47329 0.39855
+H 0.03219 1.54550 2.30002
+H 1.83275 1.98950 -0.90353
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 78.3,158.5,261.1,290.5,336.7,382.8,433.6,537.2,596.3,797.5,875.2,989.5,1037.8,1230.1,1392.0,1745.1,3291.2,3796.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1498,
+    label = "BrC1(Br)OC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+7 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29138,0.0626827,-0.000119673,1.13449e-07,-4.21292e-11,3686.31,15.638], Tmin=(10,'K'), Tmax=(657.591,'K')),
+            NASAPolynomial(coeffs=[11.079,0.0153119,-1.16176e-05,3.90268e-09,-4.82554e-13,2662.09,-18.6687], Tmin=(657.591,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 13.11 kcal/mol
+S298: 96.72 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.75234 -1.59405 -0.10634
+Br -1.75234 1.59405 -0.10633
+Br 1.75234 1.59405 -0.10636
+Br 1.75234 -1.59405 -0.10638
+O 0.00001 -0.00001 1.45852
+C -0.74065 -0.00000 0.26845
+C 0.74065 -0.00000 0.26844
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 64.3,99.3,126.0,179.5,197.2,199.7,325.8,375.7,416.2,555.3,760.2,776.8,796.8,988.4,1327.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1499,
+    label = "[CH2]C1DC(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,D}
+6 C  u1 p0 c0 {4,S} {8,S} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68966,0.0267653,6.10986e-05,-2.36923e-07,2.14351e-10,46447.9,15.4591], Tmin=(10,'K'), Tmax=(412.042,'K')),
+            NASAPolynomial(coeffs=[5.25036,0.0304547,-2.09186e-05,6.74765e-09,-8.21862e-13,46159.4,7.37265], Tmin=(412.042,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 97.19 kcal/mol
+S298: 90.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.11395 -0.61237 -0.11775
+Br 2.20399 -0.50362 -0.06274
+C -0.67344 0.40912 0.80704
+C -0.04337 1.58758 0.12290
+C 0.66377 0.44732 0.25782
+C -0.22286 2.87154 -0.29139
+H -0.90293 0.37968 1.86843
+H 0.57049 3.40463 -0.80203
+H -1.16344 3.38186 -0.12763
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 71.1,130.0,162.9,287.3,392.7,436.6,479.0,532.5,605.3,783.4,790.2,1013.5,1030.8,1141.6,1213.3,1242.0,1474.8,1633.2,3140.9,3159.2,3258.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1500,
+    label = "Br[C]1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.49133,0.0436247,-5.52449e-05,3.75788e-08,-1.04736e-11,39382.2,16.8086], Tmin=(10,'K'), Tmax=(841.759,'K')),
+            NASAPolynomial(coeffs=[8.5344,0.0196601,-1.25401e-05,3.75663e-09,-4.28425e-13,38533.2,-6.6525], Tmin=(841.759,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 83.35 kcal/mol
+S298: 94.51 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.91837 -1.19818 -0.24376
+Br 0.69508 1.79133 -0.09373
+Br -2.51275 -0.38601 -0.25398
+C -0.16282 -0.37671 1.76903
+C 0.46237 -0.07144 0.39693
+C -0.85187 -0.63705 0.49899
+H 0.23736 -1.21875 2.33257
+H -0.44793 0.47985 2.37930
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 52.0,106.6,171.0,222.6,298.7,353.8,416.9,517.0,591.0,885.7,940.3,994.4,1043.6,1072.3,1358.3,1451.3,3078.8,3159.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1501,
+    label = "BrCC1(Br)C[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+7  C  u1 p0 c0 {3,S} {4,S} {5,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42794,0.0569102,-8.18479e-05,8.37871e-08,-3.93509e-11,33357.5,17.5151], Tmin=(10,'K'), Tmax=(492.016,'K')),
+            NASAPolynomial(coeffs=[5.67538,0.0386388,-2.61441e-05,8.30979e-09,-9.99638e-13,33136.3,8.26646], Tmin=(492.016,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 72.20 kcal/mol
+S298: 101.41 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.15030 2.04132 -0.11081
+Br -2.79252 -0.48224 -0.10883
+Br 1.90333 -1.73284 -0.19655
+C -0.09672 0.55070 0.26330
+C 0.05336 -0.09764 1.65518
+C -1.40788 0.88939 -0.40543
+C 0.45329 -0.77407 0.41972
+H 0.81053 0.32437 2.31382
+H -0.85416 -0.42855 2.15951
+H -1.82051 1.81911 -0.01800
+H -1.28696 0.95616 -1.48533
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 42.4,76.3,123.4,160.8,184.9,280.8,322.2,420.6,471.6,509.5,630.5,781.1,861.3,944.3,977.8,1010.2,1065.6,1127.1,1196.6,1252.2,1390.0,1454.4,1471.0,3081.4,3105.9,3162.9,3174.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1502,
+    label = "CDC1C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4  C  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {5,D} {9,S} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65934,0.0295845,1.534e-05,-6.56996e-08,4.284e-11,26560.9,13.8682], Tmin=(10,'K'), Tmax=(592.156,'K')),
+            NASAPolynomial(coeffs=[4.77811,0.0329628,-2.09189e-05,6.30844e-09,-7.27419e-13,26236.7,7.43814], Tmin=(592.156,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 57.61 kcal/mol
+S298: 86.88 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.33387 -0.46068 0.03283
+Br 2.33386 -0.46069 -0.03284
+C -0.56432 0.13385 -0.50731
+C 0.56431 0.13384 0.50731
+C 0.00000 1.38159 0.00001
+C 0.00002 2.69910 -0.00000
+H -0.35832 -0.18336 -1.52308
+H 0.35831 -0.18339 1.52307
+H -0.72705 3.26223 -0.57586
+H 0.72711 3.26221 0.57585
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 110.1,129.0,189.7,198.3,316.2,491.9,529.8,658.7,787.2,809.4,924.6,958.0,1033.8,1042.8,1112.1,1131.1,1190.8,1220.9,1463.1,1827.6,3144.9,3178.2,3182.0,3230.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1503,
+    label = "BrC1(Br)OCO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+7 H  u0 p0 c0 {6,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6762,0.0273829,-1.44203e-06,-3.16639e-08,2.18982e-11,-24253.2,12.6413], Tmin=(10,'K'), Tmax=(644.369,'K')),
+            NASAPolynomial(coeffs=[5.50161,0.0248965,-1.62441e-05,4.95288e-09,-5.73112e-13,-24672,3.21207], Tmin=(644.369,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -43.73 kcal/mol
+S298: 82.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.60624 -0.66186 0.00005
+Br -1.60624 -0.66186 0.00004
+O -0.00001 1.42224 1.02263
+O 0.00000 1.42210 -1.02281
+C -0.00000 0.48943 -0.00003
+C 0.00001 2.42883 -0.00016
+H 0.91206 3.03307 -0.00019
+H -0.91204 3.03308 -0.00020
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 124.1,162.6,240.5,293.1,317.0,346.4,743.0,954.1,956.8,1044.8,1046.2,1089.0,1136.1,1139.3,1384.1,1542.2,3046.3,3118.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1504,
+    label = "BrC1[CH]OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u1 p0 c0 {3,S} {4,S} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90675,0.00617376,9.15941e-05,-2.17537e-07,1.53146e-10,21917.1,12.6762], Tmin=(10,'K'), Tmax=(480.623,'K')),
+            NASAPolynomial(coeffs=[3.77986,0.0240407,-1.66337e-05,5.35912e-09,-6.49448e-13,21735.1,11.1755], Tmin=(480.623,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 47.31 kcal/mol
+S298: 77.94 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.27120 0.01902 -0.08919
+O -1.44658 -1.02974 0.01435
+O -2.24113 0.07630 -0.54713
+C -0.63849 -0.07870 0.69879
+C -1.53762 0.95762 0.24065
+H -0.43963 -0.32211 1.73804
+H -1.49386 2.01041 0.00926
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 162.2,232.3,257.3,528.0,578.2,873.0,920.9,930.6,1058.4,1133.8,1162.8,1240.4,1363.7,3164.4,3264.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1505,
+    label = "BrC(Br)(Br)[C]1CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+6 C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+7 C  u1 p0 c0 {4,S} {5,S} {6,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29561,0.0682662,-0.000149012,1.89277e-07,-9.75741e-11,22490.5,16.5524], Tmin=(10,'K'), Tmax=(472.543,'K')),
+            NASAPolynomial(coeffs=[8.12215,0.0274101,-1.93212e-05,6.30702e-09,-7.72518e-13,22034.4,-3.1147], Tmin=(472.543,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 50.71 kcal/mol
+S298: 100.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.41785 -0.11609 -1.23860
+Br -1.03821 1.64756 -0.08108
+Br -1.19140 -1.57038 0.02995
+O 1.43438 0.86340 2.03792
+C 1.64808 -0.59554 2.24553
+C -0.04130 -0.00592 0.20341
+C 0.54618 -0.00479 1.52692
+H 1.50386 -0.92833 3.26909
+H 2.51471 -0.97923 1.71312
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 76.1,95.6,128.8,141.5,155.3,183.9,284.0,369.4,397.4,486.5,701.7,756.4,956.4,982.7,1068.7,1091.3,1188.6,1467.9,1569.0,3112.6,3216.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1506,
+    label = "[CH2]C1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8  C  u1 p0 c0 {5,S} {10,S} {11,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {8,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.21864,0.0745088,-3.22562e-05,-3.01029e-07,4.60454e-10,36535.9,16.9416], Tmin=(10,'K'), Tmax=(342.364,'K')),
+            NASAPolynomial(coeffs=[9.81197,0.0352562,-2.58059e-05,8.73139e-09,-1.10205e-12,35863,-11.0339], Tmin=(342.364,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 79.77 kcal/mol
+S298: 107.91 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.72560 1.65303 -0.12867
+Br 1.72170 -1.51471 -0.37500
+Br -1.72169 -1.51472 -0.37500
+Br -1.72560 1.65302 -0.12866
+C -0.00000 -0.05058 1.60635
+C 0.75492 0.02765 0.26083
+C -0.75492 0.02765 0.26083
+C -0.00000 -1.21779 2.46238
+H 0.00000 0.90302 2.12592
+H 0.00018 -1.08875 3.53604
+H -0.00006 -2.21755 2.05212
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 63.8,101.8,127.7,150.0,163.7,179.3,181.6,194.1,206.4,312.4,413.6,455.6,531.3,575.6,727.6,764.7,798.6,825.3,1012.1,1089.2,1137.8,1203.9,1349.8,1461.9,3160.0,3179.1,3291.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1507,
+    label = "BrCC1D[C]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.64294,0.0357276,-2.8176e-05,1.10776e-08,-1.73485e-12,58488.4,15.9892], Tmin=(10,'K'), Tmax=(1394.15,'K')),
+            NASAPolynomial(coeffs=[10.7471,0.0162517,-8.19699e-06,1.99038e-09,-1.88991e-13,56419.4,-20.9608], Tmin=(1394.15,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 121.09 kcal/mol
+S298: 91.88 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.53667 -0.40286 0.07286
+Br -2.56215 -0.34169 -0.13553
+C 1.03531 0.56904 -0.72586
+C -1.18885 0.54186 0.99423
+C -0.11106 1.08502 0.18686
+C 0.69820 1.94350 -0.34334
+H 0.83475 0.12920 -1.69824
+H -0.83608 -0.23180 1.67571
+H -1.70857 1.32540 1.54470
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 35.7,109.6,129.2,315.1,357.4,432.0,569.4,619.1,684.8,872.4,900.5,974.1,1052.8,1157.2,1219.3,1246.1,1451.9,1855.0,3096.4,3152.6,3162.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1508,
+    label = "Br[C]1CC(Br)(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5  C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {4,S} {7,S} {10,S} {11,S}
+7  C  u1 p0 c0 {3,S} {5,S} {6,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75084,0.031674,0.00034932,-2.79117e-06,6.36038e-09,27661.5,15.7618], Tmin=(10,'K'), Tmax=(156.891,'K')),
+            NASAPolynomial(coeffs=[4.49768,0.0419605,-2.94219e-05,9.6553e-09,-1.19347e-12,27602,12.3917], Tmin=(156.891,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 60.74 kcal/mol
+S298: 97.96 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.75493 1.61415 0.00000
+Br 1.82572 -1.59284 0.00000
+Br -3.26034 -0.03209 -0.00000
+C 0.66599 -0.01577 0.00000
+C -0.42433 -0.01599 1.11768
+C -0.42433 -0.01598 -1.11768
+C -1.40846 0.17380 -0.00000
+H -0.34003 0.78536 1.85756
+H -0.49219 -0.97494 1.64540
+H -0.34003 0.78536 -1.85756
+H -0.49218 -0.97494 -1.64540
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 23.9,124.3,145.1,180.9,232.7,239.9,295.1,380.2,453.8,589.7,829.1,833.0,927.6,975.0,1004.3,1037.0,1119.1,1126.1,1164.0,1221.0,1282.0,1448.1,1462.8,3024.1,3027.6,3078.4,3079.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1509,
+    label = "BrC1DCC1C(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {4,S} {9,S}
+6  C  u0 p0 c0 {3,S} {4,S} {7,D}
+7  C  u0 p0 c0 {4,S} {6,D} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.46017,0.0532735,-7.06613e-05,5.79912e-08,-2.09354e-11,34884.7,17.1885], Tmin=(10,'K'), Tmax=(634.235,'K')),
+            NASAPolynomial(coeffs=[6.71242,0.0327622,-2.21508e-05,7.00001e-09,-8.35923e-13,34472.2,2.97915], Tmin=(634.235,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 75.04 kcal/mol
+S298: 99.58 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.95357 1.80829 0.05329
+Br 2.58560 -0.98500 -0.08174
+Br -3.21089 -0.05525 -0.09779
+C -0.18846 -0.76298 0.62590
+C 0.82652 -0.12288 -0.28457
+C -1.60041 -0.92168 0.17053
+C -0.91736 -2.01797 0.16322
+H 0.03609 -0.62385 1.68473
+H 0.57043 -0.22617 -1.33517
+H -0.81798 -3.07831 0.01818
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.5,62.3,132.6,170.9,241.5,296.5,346.4,411.7,480.2,661.5,680.5,759.1,843.9,977.1,1047.2,1061.5,1164.6,1171.1,1221.7,1383.2,1786.9,3091.5,3159.8,3311.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1510,
+    label = "BrC(Br)(Br)C1(Br)OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {7,S}
+2 Br u0 p3 c0 {8,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 O  u0 p2 c0 {5,S} {7,S}
+7 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+8 C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.1414,0.0783899,-0.000159924,1.63582e-07,-6.5646e-11,7621.37,16.6674], Tmin=(10,'K'), Tmax=(609.313,'K')),
+            NASAPolynomial(coeffs=[12.1005,0.019575,-1.51328e-05,5.1611e-09,-6.46007e-13,6529.6,-22.1166], Tmin=(609.313,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 21.70 kcal/mol
+S298: 103.61 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.49181 0.22638 0.00012
+Br -0.31835 -1.13094 -1.61093
+Br -2.15683 0.90406 0.00053
+Br -0.31823 -1.13255 1.60980
+O 0.55861 2.11902 -0.75561
+O 0.55862 2.11843 0.75735
+C 0.71450 0.99363 0.00043
+C -0.44482 -0.03407 -0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 45.4,101.3,110.2,144.3,165.7,181.4,222.6,276.5,332.5,346.4,433.7,629.7,715.7,734.9,802.9,938.3,991.7,1368.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1511,
+    label = "BrC1DC(Br)C(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,D}
+7  C  u0 p0 c0 {3,S} {4,S} {6,D}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.60134,0.0446445,-4.29571e-05,2.42336e-08,-6.26163e-12,20165.2,16.2842], Tmin=(10,'K'), Tmax=(794.853,'K')),
+            NASAPolynomial(coeffs=[5.77799,0.0336908,-2.22858e-05,6.89603e-09,-8.08536e-13,19819.2,6.28291], Tmin=(794.853,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 45.48 kcal/mol
+S298: 96.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.70141 -0.71473 -0.27603
+Br 2.71480 -0.78466 -0.20551
+Br 0.06971 2.12866 0.03113
+C -1.07777 -0.60210 0.83340
+C -0.06395 -1.78505 0.67426
+C 0.90570 -0.70614 0.23554
+C 0.01609 0.29246 0.32564
+H -1.43278 -0.41124 1.84455
+H -0.34226 -2.50479 -0.09742
+H 0.18632 -2.30364 1.60406
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 64.5,81.5,106.2,219.5,257.4,370.7,417.7,450.3,518.4,619.2,886.8,903.5,990.9,1084.2,1101.3,1123.3,1178.2,1210.7,1247.2,1473.2,1653.3,3062.9,3124.3,3131.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1512,
+    label = "Br[CH]C1(Br)C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,S} {9,S}
+7  C  u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+8  C  u1 p0 c0 {4,S} {5,S} {11,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.14631,0.0859398,-0.000200143,2.85406e-07,-1.66751e-10,32418.2,19.2824], Tmin=(10,'K'), Tmax=(417.21,'K')),
+            NASAPolynomial(coeffs=[8.1649,0.0378239,-2.71508e-05,8.97873e-09,-1.11024e-12,31999.5,-0.542272], Tmin=(417.21,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 71.32 kcal/mol
+S298: 111.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.81176 1.18665 1.75705
+Br 2.15022 -2.04644 0.18264
+Br 1.03106 2.22934 -1.12409
+Br -2.55182 -1.09311 -0.87408
+C -0.15262 -0.12044 0.41742
+C 1.34627 -0.30609 0.40020
+C 0.68125 0.38203 -0.74827
+C -1.05382 -1.23569 0.22736
+H 1.92346 0.29778 1.08751
+H 0.54581 -0.17158 -1.66923
+H -1.01532 -2.12041 0.84813
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 35.0,52.5,90.5,104.3,108.6,192.7,221.0,244.3,328.7,425.4,458.9,487.1,662.9,717.5,770.1,866.2,909.3,1025.4,1062.3,1112.7,1217.3,1240.5,1261.0,1355.6,3192.9,3210.6,3224.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1513,
+    label = "Br[C]1OOC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 O  u0 p2 c0 {4,S} {7,S}
+6 C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+7 C  u1 p0 c0 {3,S} {5,S} {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.41201,0.0541761,-9.16024e-05,7.87975e-08,-2.69732e-11,26175.7,16.8635], Tmin=(10,'K'), Tmax=(704.401,'K')),
+            NASAPolynomial(coeffs=[9.92369,0.0171991,-1.28614e-05,4.27487e-09,-5.24401e-13,25258.4,-12.2698], Tmin=(704.401,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 57.50 kcal/mol
+S298: 97.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.85174 -1.18138 -0.43570
+Br 0.69595 1.79889 -0.13851
+Br -2.41573 -0.31239 -0.44544
+O 0.56140 -0.19616 1.85827
+O -0.86475 -0.60141 1.88927
+C 0.50198 -0.08177 0.44112
+C -0.86729 -0.63466 0.51010
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.3,98.1,144.1,166.9,259.6,308.2,324.7,396.5,464.7,690.8,867.3,930.1,952.0,1178.0,1214.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1514,
+    label = "OC1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {6,S} {10,S}
+6  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {1,S} {2,S} {6,S} {8,S}
+8  C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.0923,0.0842713,-0.000174773,1.96571e-07,-8.82997e-11,-747.552,16.519], Tmin=(10,'K'), Tmax=(542.969,'K')),
+            NASAPolynomial(coeffs=[10.6975,0.0282445,-1.99936e-05,6.52932e-09,-7.98534e-13,-1573.43,-15.5271], Tmin=(542.969,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 5.41 kcal/mol
+S298: 105.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.73528 1.66692 -0.12636
+Br 1.71991 -1.51362 -0.37345
+Br -1.71991 -1.51364 -0.37339
+Br -1.73530 1.66690 -0.12628
+O 0.00006 -1.20288 2.33504
+C 0.00003 -0.07566 1.56077
+C 0.76753 0.04349 0.24856
+C -0.76752 0.04348 0.24859
+H 0.00004 0.81505 2.18139
+H 0.00012 -1.98930 1.77256
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.8,101.1,126.2,140.6,170.0,179.1,192.9,193.0,236.4,307.7,484.7,495.4,539.8,757.8,814.9,877.3,885.1,1098.7,1102.9,1231.9,1323.1,1428.9,3172.6,3762.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1515,
+    label = "Br[C]1OC(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+6 C  u1 p0 c0 {2,S} {3,S} {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74892,0.022799,1.35083e-05,-5.90618e-08,3.81957e-11,-4391.56,14.4926], Tmin=(10,'K'), Tmax=(630.218,'K')),
+            NASAPolynomial(coeffs=[6.15211,0.0210556,-1.44968e-05,4.57741e-09,-5.42371e-13,-4962.75,1.87961], Tmin=(630.218,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -4.45 kcal/mol
+S298: 85.05 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.24798 -0.45334 0.00001
+Br 2.30645 -0.39104 0.00001
+O -0.00818 0.97395 -1.01714
+O -0.00818 0.97400 1.01709
+C -0.98562 1.04768 -0.00003
+C 0.92871 0.95334 -0.00002
+H -1.57430 1.96347 -0.00005
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.1,256.6,284.3,293.8,311.8,551.1,746.8,918.7,983.1,1008.1,1054.7,1178.4,1279.3,1288.2,3141.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1516,
+    label = "Br[C]1CDCC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u1 p0 c0 {1,S} {2,S} {5,S}
+4 C  u0 p0 c0 {2,S} {5,D} {8,S}
+5 C  u0 p0 c0 {3,S} {4,D} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92708,0.00451795,0.000105111,-2.14228e-07,1.34247e-10,37765,11.9306], Tmin=(10,'K'), Tmax=(514.3,'K')),
+            NASAPolynomial(coeffs=[2.2251,0.032815,-2.13429e-05,6.62534e-09,-7.85841e-13,37740.9,17.0736], Tmin=(514.3,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.90 kcal/mol
+S298: 76.89 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.30839 -0.00053 0.00018
+C 1.61120 -1.06250 -0.00021
+C 0.55446 0.03926 -0.00004
+C 2.56203 0.14146 -0.00037
+C 1.51147 1.05647 -0.00021
+H 1.63603 -1.69461 -0.89359
+H 1.63632 -1.69459 0.89317
+H 3.63890 0.22376 -0.00062
+H 1.44756 2.13599 -0.00019
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 128.1,260.9,368.8,380.7,488.4,882.5,886.0,918.5,975.8,1007.9,1065.4,1075.5,1174.4,1216.9,1321.7,1433.0,1487.8,3045.9,3092.2,3222.9,3248.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1517,
+    label = "ODC1OC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {5,D}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {2,S} {3,D} {4,S}
+6 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92433,0.00468196,7.32521e-05,-1.6207e-07,1.05086e-10,-19044.9,11.8906], Tmin=(10,'K'), Tmax=(529.177,'K')),
+            NASAPolynomial(coeffs=[4.09791,0.0193509,-1.36282e-05,4.45277e-09,-5.46445e-13,-19287.1,9.04951], Tmin=(529.177,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -34.36 kcal/mol
+S298: 74.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.26219 -0.13407 -0.05423
+O -1.34129 1.10878 -0.40491
+O -2.54050 -0.90312 -0.04476
+C -0.44357 0.44533 0.58731
+C -1.68291 -0.09935 0.07320
+H -0.36334 0.97121 1.53230
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 157.9,296.6,478.8,628.4,690.1,712.0,938.0,1123.6,1142.6,1254.4,2042.5,3181.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1518,
+    label = "BrC(Br)(Br)C1CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
+7  C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.44914,0.0521608,-4.62693e-05,2.26748e-08,-4.79109e-12,10006.2,14.9494], Tmin=(10,'K'), Tmax=(1007.35,'K')),
+            NASAPolynomial(coeffs=[7.69326,0.0353082,-2.11749e-05,6.06729e-09,-6.69511e-13,9151.12,-5.55712], Tmin=(1007.35,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 25.80 kcal/mol
+S298: 95.94 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.14274 -1.60133 0.09690
+Br 1.14277 1.60132 0.09692
+Br -1.20292 0.00002 -1.36142
+C -0.73547 -0.00000 1.51541
+C -2.01878 -0.75346 1.75294
+C -2.01878 0.75344 1.75295
+C -0.01021 0.00000 0.19979
+H -0.02182 -0.00001 2.33320
+H -2.47845 -1.25191 0.90824
+H -2.10634 -1.28266 2.69481
+H -2.10635 1.28262 2.69483
+H -2.47846 1.25190 0.90826
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 79.2,134.0,138.7,177.5,186.1,204.5,282.0,355.1,428.0,660.9,672.9,773.5,848.5,849.5,943.6,983.3,1063.7,1087.1,1124.5,1148.9,1193.5,1240.0,1376.7,1461.8,1495.3,3144.6,3146.0,3160.4,3228.4,3240.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1519,
+    label = "CC1(Br)[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5 C  u1 p0 c0 {2,S} {3,S} {9,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89852,0.00687715,0.000119176,-2.85659e-07,2.07936e-10,13830,12.3869], Tmin=(10,'K'), Tmax=(455.674,'K')),
+            NASAPolynomial(coeffs=[3.28464,0.0306605,-1.96669e-05,6.06207e-09,-7.17263e-13,13694.9,12.7706], Tmin=(455.674,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 31.56 kcal/mol
+S298: 79.15 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.14826 -0.05737 -0.00918
+O -1.51413 -0.83488 0.73474
+C -0.79937 0.11604 -0.08486
+C -1.25334 1.54695 -0.00915
+C -1.53317 -0.98928 -0.63530
+H -0.87557 2.10716 -0.86792
+H -2.34657 1.58027 -0.01066
+H -0.88124 2.02268 0.90217
+H -2.45715 -1.06533 -1.20425
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 204.0,278.3,299.6,328.2,391.7,501.7,724.3,835.5,894.7,1043.4,1060.8,1104.7,1177.2,1405.2,1436.0,1472.6,1487.0,3045.1,3123.9,3130.0,3142.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1520,
+    label = "BrC(Br)C1D[C]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u1 p0 c0 {4,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43684,0.0566422,-9.61e-05,9.96367e-08,-4.38631e-11,62877.6,18.1036], Tmin=(10,'K'), Tmax=(538.717,'K')),
+            NASAPolynomial(coeffs=[7.05932,0.0297452,-2.12079e-05,6.95712e-09,-8.53678e-13,62487.3,2.868], Tmin=(538.717,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 130.65 kcal/mol
+S298: 101.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.75019 -0.09756 -0.40225
+Br -2.11784 -1.16923 -0.40415
+Br -0.88815 1.80845 0.01830
+C 1.41560 -1.20959 0.47915
+C -1.11153 0.02025 0.79986
+C 0.16260 -0.57694 1.14674
+C 1.09324 -1.06258 1.90441
+H 1.33182 -2.14023 -0.07498
+H -1.73835 0.15522 1.67719
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 25.4,53.1,111.6,158.6,217.9,321.5,367.9,439.8,587.2,602.5,660.3,706.0,905.3,1001.2,1044.8,1141.0,1217.2,1253.2,1837.3,3148.4,3152.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1521,
+    label = "BrCC1D[C]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+5 C  u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u1 p0 c0 {4,S} {6,D}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.40418,0.0586283,-0.000104879,1.13245e-07,-5.12415e-11,60759.3,18.0441], Tmin=(10,'K'), Tmax=(528.45,'K')),
+            NASAPolynomial(coeffs=[7.33684,0.0288608,-2.03837e-05,6.64996e-09,-8.13245e-13,60343.7,1.57956], Tmin=(528.45,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 126.49 kcal/mol
+S298: 101.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.27827 -1.05117 -0.36749
+Br -0.82137 1.77273 -0.00803
+Br 2.89198 -0.11968 -0.27982
+C -0.88144 -0.07457 0.57635
+C 1.55093 -1.44832 0.31446
+C 0.40640 -0.82071 0.95837
+C -0.41902 -0.48321 1.90226
+H 2.06846 -2.10919 1.00928
+H 1.25822 -1.99554 -0.58110
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 29.7,47.5,118.8,172.9,197.8,302.7,378.8,443.6,448.8,617.0,678.4,723.4,876.4,964.3,1051.4,1164.8,1222.7,1452.1,1834.0,3096.4,3161.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1522,
+    label = "BrC1O[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+7 C  u1 p0 c0 {4,S} {5,S} {9,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.40149,0.0549916,-7.88674e-05,6.26542e-08,-2.05821e-11,15658.2,16.8347], Tmin=(10,'K'), Tmax=(717.511,'K')),
+            NASAPolynomial(coeffs=[8.68618,0.0255304,-1.72772e-05,5.42861e-09,-6.43243e-13,14899.8,-6.90657], Tmin=(717.511,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.83 kcal/mol
+S298: 98.59 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.16678 -0.80475 -0.47929
+Br 0.38689 1.80504 0.12031
+Br -2.40490 -0.28867 -0.44034
+O -0.72935 -1.48047 1.48691
+C 0.49007 -0.11331 0.43227
+C -0.71928 -1.05225 0.10606
+C 0.28295 -0.59756 1.78230
+H -0.50485 -1.87887 -0.56524
+H 0.81041 -0.60512 2.72241
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 59.6,97.2,142.3,167.7,228.8,295.2,316.3,365.2,416.3,532.2,761.5,878.7,910.2,1002.8,1102.3,1150.9,1200.8,1260.9,1354.2,3165.4,3271.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1523,
+    label = "OC1(Br)[C](Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {9,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+7 C  u1 p0 c0 {3,S} {5,S} {6,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.33992,0.0615545,-0.000104348,9.85675e-08,-3.80788e-11,18664.6,17.9946], Tmin=(10,'K'), Tmax=(620.448,'K')),
+            NASAPolynomial(coeffs=[8.87886,0.0258453,-1.80179e-05,5.80642e-09,-7.02271e-13,17977.3,-6.08378], Tmin=(620.448,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.02 kcal/mol
+S298: 102.39 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.66531 -0.21692 -0.20747
+Br -1.78305 -1.77453 -0.08820
+Br -1.11710 2.20732 -0.01156
+O 0.62686 -0.47151 1.72299
+C 0.75061 -0.21031 0.39996
+C -0.25693 -0.70058 -0.67295
+C -0.13613 0.68521 -0.27806
+H 0.09290 -1.07148 -1.63124
+H 0.96652 -1.35806 1.90680
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 30.9,79.6,120.3,131.5,176.1,272.1,347.1,434.8,440.1,576.3,578.5,610.8,795.2,964.8,1015.3,1152.7,1188.3,1285.2,1477.5,3155.1,3761.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1524,
+    label = "BrC(Br)C1(Br)CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {5,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
+8  C  u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.55517,0.0539449,0.000264341,-2.4528e-06,5.33423e-09,11577.1,17.1277], Tmin=(10,'K'), Tmax=(178.983,'K')),
+            NASAPolynomial(coeffs=[5.8551,0.0459878,-3.30533e-05,1.10253e-08,-1.37784e-12,11425.2,8.04496], Tmin=(178.983,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 29.69 kcal/mol
+S298: 106.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.42171 -1.04991 1.40877
+Br 3.19134 0.29063 -0.35302
+Br -1.32568 1.91923 0.36503
+Br -2.60145 -0.90704 -0.57615
+C 0.24116 -0.39765 -0.39137
+C 0.87174 -1.20659 -1.50441
+C 1.44962 0.12871 -1.13810
+C -1.05843 0.29763 -0.69749
+H 0.33647 -1.30168 -2.44464
+H 1.41924 -2.09063 -1.20159
+H 1.27254 0.97014 -1.79717
+H -1.06033 0.63766 -1.73023
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.9,70.6,100.4,108.0,139.7,172.8,209.3,341.6,362.9,446.9,502.7,591.6,655.6,693.5,905.8,916.8,929.8,959.7,1084.4,1104.2,1166.6,1173.7,1203.5,1278.1,1320.7,1465.6,3131.4,3140.3,3180.4,3231.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1525,
+    label = "BrC1DC(C(Br)Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+7  C  u0 p0 c0 {3,S} {4,S} {8,S} {10,S}
+8  C  u0 p0 c0 {6,S} {7,S} {9,D}
+9  C  u0 p0 c0 {5,S} {6,S} {8,D}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.13717,0.0988478,-2.39214e-05,-1.41892e-06,3.32679e-09,38303.3,20.0212], Tmin=(10,'K'), Tmax=(213.867,'K')),
+            NASAPolynomial(coeffs=[10.0513,0.0344153,-2.70904e-05,9.52559e-09,-1.23044e-12,37859.2,-6.14038], Tmin=(213.867,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 83.78 kcal/mol
+S298: 119.74 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.23151 1.62096 -1.56243
+Br 1.23034 1.52687 1.65490
+Br -2.43059 -0.30733 1.61625
+Br -2.43007 -0.20859 -1.63181
+Br 2.39411 -2.24793 -0.06546
+C 0.87874 0.50388 0.01485
+C -1.55256 -0.92097 -0.02783
+C -0.13830 -0.56430 -0.01680
+C 1.12225 -0.92566 -0.02696
+H -1.69628 -1.99668 -0.06049
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 11.0,50.2,59.2,62.1,75.6,127.9,139.7,172.2,211.5,335.7,379.3,501.0,532.4,537.2,636.6,684.1,693.4,809.9,1132.1,1155.7,1182.1,1253.1,1842.9,3161.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1526,
+    label = "BrCC1(Br)C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,S} {9,S}
+7  C  u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+8  C  u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.58489,0.0520556,0.000351712,-3.32208e-06,7.731e-09,10888.4,16.6829], Tmin=(10,'K'), Tmax=(165.47,'K')),
+            NASAPolynomial(coeffs=[5.87553,0.045558,-3.24474e-05,1.07372e-08,-1.3332e-12,10745.7,7.73082], Tmin=(165.47,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 28.33 kcal/mol
+S298: 106.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.64538 -1.87584 0.75904
+Br 2.52749 -0.85440 -0.96620
+Br 1.16949 1.81598 1.06015
+Br -2.20609 1.26852 -0.92692
+C -0.28276 -0.64114 0.11764
+C 1.13931 -1.11309 0.33907
+C 0.57112 -0.00367 1.18603
+C -0.66624 0.06856 -1.14888
+H 1.27798 -2.06916 0.82680
+H 0.35711 -0.24908 2.21812
+H 0.14912 0.69827 -1.49731
+H -0.94553 -0.64315 -1.92336
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.4,64.7,86.2,109.1,122.5,185.6,206.9,298.7,394.0,443.9,543.7,603.8,679.6,746.6,810.1,888.0,917.3,1005.1,1086.1,1088.7,1186.1,1237.5,1247.6,1271.7,1335.0,1456.3,3113.9,3182.7,3193.7,3201.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1527,
+    label = "BrC1DCCO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4 C  u0 p0 c0 {3,S} {5,D} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94358,0.00328534,8.47886e-05,-1.57363e-07,8.93797e-11,6280.12,10.8104], Tmin=(10,'K'), Tmax=(563.938,'K')),
+            NASAPolynomial(coeffs=[1.91498,0.0302477,-2.03715e-05,6.48996e-09,-7.84787e-13,6308.99,17.6625], Tmin=(563.938,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 16.06 kcal/mol
+S298: 73.15 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30333 -0.00449 -0.00000
+O -1.33318 -1.01606 0.00001
+C -2.48384 -0.08212 0.00001
+C -1.49861 1.06634 -0.00000
+C -0.55836 0.11790 0.00000
+H -3.07985 -0.23299 -0.90320
+H -3.07984 -0.23298 0.90322
+H -1.54645 2.13890 -0.00002
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 216.0,281.2,394.0,582.1,661.0,877.9,928.8,960.2,995.2,1103.9,1136.8,1187.9,1288.2,1483.5,1637.8,3065.4,3130.8,3315.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1528,
+    label = "BrC1CD[C]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3 C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+4 C  u0 p0 c0 {2,S} {5,D} {9,S}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94466,0.0032271,9.46168e-05,-1.72056e-07,9.67961e-11,48429.4,12.321], Tmin=(10,'K'), Tmax=(557.041,'K')),
+            NASAPolynomial(coeffs=[1.14269,0.0352024,-2.3409e-05,7.40275e-09,-8.91274e-13,48557.7,22.5485], Tmin=(557.041,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 99.93 kcal/mol
+S298: 76.77 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.21697 -0.00001 -0.06376
+C 0.66672 0.03112 0.57986
+C 1.59753 -1.07468 -0.02194
+C 1.55992 1.09605 -0.00782
+C 2.39087 0.14773 -0.43379
+H 0.59046 0.01670 1.66766
+H 2.05855 -1.75243 0.70041
+H 1.14731 -1.63820 -0.83935
+H 1.50742 2.17284 0.00495
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 191.1,261.7,343.7,519.9,783.3,835.0,843.0,941.2,991.9,1044.4,1070.0,1129.9,1179.7,1190.2,1231.7,1471.9,1601.4,3076.5,3101.5,3141.0,3270.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1529,
+    label = "CC1(Br)OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6 H  u0 p0 c0 {5,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89265,0.00743009,0.000108997,-2.76762e-07,2.09824e-10,-7151.56,11.0273], Tmin=(10,'K'), Tmax=(446.235,'K')),
+            NASAPolynomial(coeffs=[3.85661,0.026374,-1.72753e-05,5.39965e-09,-6.44834e-13,-7333.74,9.09479], Tmin=(446.235,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -10.23 kcal/mol
+S298: 75.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.14754 -0.01690 -0.00000
+O 1.43238 -0.88656 0.75478
+O 1.43240 -0.88648 -0.75481
+C 0.80848 0.07258 0.00003
+C 1.33446 1.47990 0.00002
+H 2.42620 1.43959 0.00050
+H 0.98052 2.01092 0.88612
+H 0.98132 2.01053 -0.88663
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 202.9,281.6,314.2,328.3,412.3,542.3,766.6,849.8,981.5,1100.8,1108.9,1388.4,1416.0,1469.3,1479.8,3057.8,3144.4,3147.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1530,
+    label = "BrC1(Br)CDCC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {3,S}
+3  C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4  C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {3,S} {6,D} {9,S}
+6  C  u0 p0 c0 {4,S} {5,D} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78819,0.0173687,8.53868e-05,-2.15615e-07,1.53175e-10,20985.9,13.2336], Tmin=(10,'K'), Tmax=(475.455,'K')),
+            NASAPolynomial(coeffs=[3.43594,0.0361487,-2.37609e-05,7.395e-09,-8.75778e-13,20840.6,12.7911], Tmin=(475.455,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 46.27 kcal/mol
+S298: 83.83 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60564 -0.65381 -0.00251
+Br 1.60564 -0.65382 -0.00251
+C 0.00000 0.48766 -0.01116
+C 0.00000 1.62745 1.06519
+C 0.00000 1.56223 -1.05179
+C 0.00001 2.54680 -0.14501
+H 0.89381 1.64995 1.69283
+H -0.89381 1.64996 1.69283
+H 0.00000 1.49519 -2.13054
+H 0.00001 3.62712 -0.22306
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 148.7,162.6,234.6,314.5,329.7,370.9,577.2,795.5,865.6,899.5,952.9,992.4,1027.4,1062.8,1115.7,1140.9,1236.1,1306.7,1474.1,1622.9,3067.1,3121.8,3204.4,3246.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1531,
+    label = "BrC1(Br)[CH]C(Br)(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+7 C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+8 C  u1 p0 c0 {6,S} {7,S} {9,S}
+9 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.13886,0.0761798,-0.000137974,1.2804e-07,-4.70434e-11,17769,17.4334], Tmin=(10,'K'), Tmax=(661.326,'K')),
+            NASAPolynomial(coeffs=[12.0138,0.0225002,-1.6219e-05,5.30181e-09,-6.44986e-13,16595.2,-21.7131], Tmin=(661.326,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 41.93 kcal/mol
+S298: 105.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.14509 1.60601 -0.01975
+Br -2.14508 -1.60601 -0.01961
+Br 2.14508 -1.60601 -0.01961
+Br 2.14509 1.60601 -0.01975
+O 0.00000 -0.00004 -0.91741
+C -1.01683 0.00001 0.08272
+C 1.01683 0.00001 0.08272
+C 0.00000 0.00005 1.14647
+H 0.00000 0.00005 2.22288
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 40.6,60.2,116.5,162.6,169.0,212.9,236.2,274.8,354.8,403.5,409.3,453.2,567.1,755.8,858.8,936.4,987.5,1052.5,1184.2,1234.3,3292.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1532,
+    label = "BrCC1[C](Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {4,S} {7,S} {9,S}
+6  C  u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+7  C  u1 p0 c0 {3,S} {4,S} {5,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.41408,0.0608722,-0.000138608,2.70247e-07,-2.253e-10,34056.3,18.0463], Tmin=(10,'K'), Tmax=(344.492,'K')),
+            NASAPolynomial(coeffs=[4.61707,0.0412304,-2.83791e-05,9.1219e-09,-1.10595e-12,34007.1,14.0131], Tmin=(344.492,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 73.49 kcal/mol
+S298: 102.19 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.35987 -1.18196 -0.31701
+Br -2.86126 -0.56443 -0.15697
+Br 0.43671 2.14073 -0.15781
+C -0.27878 -0.56284 1.09608
+C 1.27534 -0.48217 1.14361
+C -0.98708 -1.18103 -0.07902
+C 0.45994 0.70539 1.00608
+H -0.74211 -0.79717 2.05532
+H 1.77394 -0.71011 2.07987
+H -0.54048 -0.90536 -1.03098
+H -1.04395 -2.26536 0.00769
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.2,59.2,83.3,126.0,182.4,384.3,420.4,452.0,486.7,547.4,664.3,835.7,867.7,913.0,987.9,1053.8,1119.4,1154.9,1197.3,1235.4,1298.7,1398.4,1470.9,3094.4,3106.2,3158.5,3182.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1533,
+    label = "Br[C]1CC1(Br)C(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {11,S}
+8  C  u1 p0 c0 {4,S} {5,S} {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.18618,0.082369,-0.000187193,2.67688e-07,-1.58286e-10,36310.6,19.0313], Tmin=(10,'K'), Tmax=(411.281,'K')),
+            NASAPolynomial(coeffs=[7.68263,0.0386374,-2.76969e-05,9.15032e-09,-1.13075e-12,35940.7,1.33353], Tmin=(411.281,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.93 kcal/mol
+S298: 110.22 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.26020 -1.29342 1.38046
+Br 1.13311 1.92915 0.50564
+Br 2.62442 -0.67447 -0.72144
+Br -3.19521 0.36276 -0.39591
+C -0.24217 -0.45828 -0.37267
+C -0.86198 -1.28021 -1.53024
+C 0.97247 0.38035 -0.67968
+C -1.50755 -0.08236 -0.99258
+H -0.36963 -1.23152 -2.50170
+H -1.24713 -2.26548 -1.27553
+H 0.87800 0.79913 -1.67792
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 34.5,53.4,85.2,105.9,138.0,173.2,222.1,312.7,347.5,436.1,469.0,522.2,642.5,690.4,856.3,910.8,957.1,1022.9,1066.4,1117.6,1163.0,1236.0,1359.8,1453.7,3081.0,3150.6,3166.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1534,
+    label = "Br[C]DC1C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {9,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+7 C  u0 p0 c0 {5,S} {6,S} {8,D}
+8 C  u1 p0 c0 {4,S} {7,D}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.1819,0.0822885,-0.000198448,2.67158e-07,-1.44239e-10,59392.4,19.2452], Tmin=(10,'K'), Tmax=(452.992,'K')),
+            NASAPolynomial(coeffs=[9.21555,0.0290104,-2.20274e-05,7.52064e-09,-9.48319e-13,58845.8,-5.08578], Tmin=(452.992,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 124.60 kcal/mol
+S298: 109.61 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.26297 -1.81055 -0.45222
+Br -0.14505 2.33024 -0.91763
+Br -0.87972 0.65779 1.73804
+Br 3.21862 -0.89450 0.10272
+C -0.97803 -0.49517 -1.04159
+C -0.41088 0.57527 -0.12588
+C 0.42748 -0.53882 -0.61150
+C 1.56562 -1.15959 -0.62491
+H -1.20605 -0.19443 -2.05879
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 40.4,46.6,80.8,97.2,157.2,184.1,223.0,315.7,399.6,429.6,494.8,644.5,667.3,718.3,872.5,902.4,1051.6,1155.1,1216.9,1783.9,3167.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1535,
+    label = "BrC1CO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+5 H  u0 p0 c0 {3,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.02332,-0.00261817,8.67186e-05,-1.51851e-07,8.44339e-11,-6008.91,10.9055], Tmin=(10,'K'), Tmax=(569.375,'K')),
+            NASAPolynomial(coeffs=[1.93062,0.0240921,-1.52848e-05,4.62421e-09,-5.34979e-13,-5965.26,18.1136], Tmin=(569.375,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -8.79 kcal/mol
+S298: 70.99 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.01113 0.03012 -0.03675
+O -1.72829 -0.71414 -0.38709
+C -0.83931 -0.18412 0.53360
+C -1.88079 0.67597 -0.02133
+H -0.86087 -0.58422 1.54213
+H -2.76846 0.90423 0.56476
+H -1.61312 1.38774 -0.79732
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 290.7,327.1,553.6,829.5,918.6,1006.1,1087.2,1148.4,1170.1,1271.0,1334.0,1515.6,3102.1,3164.7,3203.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1536,
+    label = "BrC1O[C]1C(Br)(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 O  u0 p2 c0 {6,S} {8,S}
+6 C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
+7 C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+8 C  u1 p0 c0 {5,S} {6,S} {7,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.09518,0.0897596,-0.000229051,3.16212e-07,-1.72963e-10,24807.1,18.9863], Tmin=(10,'K'), Tmax=(449.102,'K')),
+            NASAPolynomial(coeffs=[10.0948,0.0274163,-2.08243e-05,7.11117e-09,-8.96782e-13,24178.4,-9.1795], Tmin=(449.102,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.11 kcal/mol
+S298: 110.58 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.53112 0.05690 0.12955
+Br -1.45871 -1.30279 -1.28485
+Br -0.82901 1.82428 -0.73625
+Br -1.85014 -0.06064 1.67174
+O 1.14606 -1.38687 0.91688
+C 1.82664 -0.75018 -0.21003
+C -0.75262 0.04719 0.06034
+C 0.63143 -0.24400 0.39568
+H 1.83434 -1.34455 -1.11756
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 38.3,57.9,81.6,120.5,144.8,150.1,201.6,270.6,319.1,359.1,468.6,560.4,647.9,719.6,737.7,963.5,1027.2,1132.3,1264.8,1534.6,3180.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1537,
+    label = "Br[C]1CDC1C(Br)(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {5,S}
+4 Br u0 p3 c0 {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 C  u0 p0 c0 {5,S} {7,S} {8,D}
+7 C  u1 p0 c0 {4,S} {6,S} {8,S}
+8 C  u0 p0 c0 {6,D} {7,S} {9,S}
+9 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.08979,0.0887588,-0.00021724,2.84064e-07,-1.46943e-10,61407.5,19.3046], Tmin=(10,'K'), Tmax=(474.56,'K')),
+            NASAPolynomial(coeffs=[10.4996,0.0263024,-1.98268e-05,6.73716e-09,-8.4657e-13,60704.2,-10.9206], Tmin=(474.56,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 128.86 kcal/mol
+S298: 111.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.33382 -0.34814 1.81741
+Br -1.29485 1.86005 -0.31878
+Br -2.23996 -1.19928 -0.63233
+Br 3.41531 -0.05059 -0.11996
+C -0.76962 -0.02925 -0.07084
+C 0.42252 -0.28748 -0.86369
+C 1.78668 0.07345 -1.19847
+C 1.03779 -0.98481 -1.80335
+H 1.00175 -1.80297 -2.50401
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.7,50.5,93.9,111.7,152.8,160.4,203.0,288.6,315.1,344.2,451.9,529.5,646.5,694.6,838.5,854.9,997.8,1072.6,1215.0,1754.0,3279.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1538,
+    label = "[CH2]C1(Br)CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {2,S}
+2  C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3  C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4  C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+5  C  u1 p0 c0 {2,S} {10,S} {11,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88725,0.00770315,0.000146518,-3.47851e-07,2.54153e-10,26582.4,11.967], Tmin=(10,'K'), Tmax=(446.818,'K')),
+            NASAPolynomial(coeffs=[2.69499,0.0384571,-2.41371e-05,7.35183e-09,-8.63563e-13,26488.5,14.5154], Tmin=(446.818,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 57.25 kcal/mol
+S298: 80.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.16123 -0.08012 -0.00001
+C 0.82751 0.24515 -0.00001
+C 1.63195 -0.76465 -0.75985
+C 1.63181 -0.76476 0.75983
+C 1.10551 1.66669 0.00003
+H 1.10850 -1.56880 -1.26188
+H 2.51339 -0.39987 -1.27750
+H 2.51315 -0.40001 1.27766
+H 1.10830 -1.56899 1.26168
+H 1.10926 2.22369 -0.93078
+H 1.10990 2.22349 0.93096
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 138.1,245.7,267.9,289.5,371.4,405.4,656.4,765.1,775.1,870.1,941.3,1000.7,1061.4,1087.0,1113.3,1135.8,1181.0,1369.9,1456.1,1464.8,1493.1,3133.4,3136.6,3138.8,3222.5,3234.5,3244.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1539,
+    label = "BrC1CCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {5,S} {7,S} {11,S} {12,S}
+7  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.546,0.0447179,-2.52919e-05,2.14979e-09,1.96905e-12,5377.35,15.8296], Tmin=(10,'K'), Tmax=(1035.16,'K')),
+            NASAPolynomial(coeffs=[9.35068,0.0305867,-1.68405e-05,4.45155e-09,-4.57253e-13,3730.96,-14.5229], Tmin=(1035.16,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 16.30 kcal/mol
+S298: 95.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.27666 -0.51493 -0.48488
+Br 0.42510 1.74944 -0.33126
+Br 1.93470 -1.06980 -0.42182
+C -0.78333 -0.72676 0.73755
+C -0.83892 -0.09851 2.14407
+C 0.69983 0.10833 2.04532
+C 0.57406 -0.01270 0.50430
+H -0.60504 -1.80006 0.78416
+H -1.21230 -0.74293 2.94015
+H -1.37951 0.84832 2.14729
+H 1.11709 1.04277 2.41695
+H 1.25974 -0.73532 2.45260
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 70.9,104.7,148.7,168.5,268.5,291.6,339.4,414.7,500.6,666.9,750.3,839.9,908.5,961.8,982.0,1039.0,1076.5,1096.8,1200.3,1230.1,1250.4,1259.8,1278.4,1472.7,1488.2,3087.8,3091.1,3123.6,3148.9,3160.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1540,
+    label = "BrC1OOC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {6,S}
+5 C  u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72789,0.0282098,-9.7373e-06,-1.09258e-08,7.3741e-12,1865.21,13.5884], Tmin=(10,'K'), Tmax=(864.325,'K')),
+            NASAPolynomial(coeffs=[7.34624,0.0206686,-1.26235e-05,3.62093e-09,-3.97087e-13,895.924,-5.32932], Tmin=(864.325,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 8.20 kcal/mol
+S298: 84.89 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.29540 -0.40499 -0.05307
+Br -2.29540 -0.40499 0.05307
+O 0.42236 1.63591 0.60534
+O -0.42236 1.63591 -0.60534
+C 0.52378 0.22511 0.54706
+C -0.52378 0.22511 -0.54706
+H 0.33287 -0.26332 1.49817
+H -0.33287 -0.26332 -1.49817
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 82.6,166.9,189.2,284.7,310.2,577.5,728.3,886.6,901.0,906.6,1047.6,1099.3,1178.0,1253.6,1256.7,1297.0,3165.5,3166.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1541,
+    label = "BrC1(Br)[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84151,0.0110322,9.55992e-05,-2.85726e-07,2.31356e-10,64044.3,13.3], Tmin=(10,'K'), Tmax=(454.731,'K')),
+            NASAPolynomial(coeffs=[6.33091,0.0164123,-1.21283e-05,4.1278e-09,-5.2311e-13,63535.8,0.150776], Tmin=(454.731,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 131.29 kcal/mol
+S298: 80.79 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.59663 -0.43738 0.01140
+Br 1.59663 -0.43738 0.01140
+C 0.00000 0.66277 -0.10368
+C 0.00000 2.06148 0.50616
+C 0.00000 1.96149 -0.78316
+H -0.00000 2.50211 1.48586
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 175.1,235.0,302.4,336.9,390.5,631.9,769.9,812.7,937.0,1026.9,1713.3,3336.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1542,
+    label = "BrC1(Br)CO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+6 H  u0 p0 c0 {5,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87086,0.00924079,9.78359e-05,-2.71236e-07,2.16442e-10,-2829.51,12.7122], Tmin=(10,'K'), Tmax=(437.222,'K')),
+            NASAPolynomial(coeffs=[4.57444,0.0225551,-1.56037e-05,5.05591e-09,-6.17617e-13,-3079.82,7.74094], Tmin=(437.222,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -1.66 kcal/mol
+S298: 79.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61219 -0.47680 -0.01449
+Br -1.61219 -0.47680 -0.01456
+O -0.00002 1.68484 0.83141
+C 0.00000 0.60263 -0.00198
+C 0.00001 1.93398 -0.60506
+H -0.92893 2.33865 -0.99614
+H 0.92897 2.33865 -0.99610
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 168.8,264.9,293.8,366.6,378.5,631.2,812.0,989.8,1037.0,1114.5,1165.4,1338.1,1509.9,3115.0,3222.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1543,
+    label = "OC1O[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {4,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+5 C  u1 p0 c0 {1,S} {2,S} {4,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88648,0.00765386,9.60721e-05,-2.45552e-07,1.81946e-10,-4300.35,12.5123], Tmin=(10,'K'), Tmax=(469.897,'K')),
+            NASAPolynomial(coeffs=[4.59943,0.0220422,-1.5162e-05,4.9109e-09,-6.00529e-13,-4593.21,7.20791], Tmin=(469.897,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -4.68 kcal/mol
+S298: 78.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.39461 -0.11489 0.01034
+O -1.15105 1.22427 0.00986
+O -2.74070 -0.61954 -0.25317
+C -1.63758 -0.15541 0.37629
+C -0.45996 0.15083 -0.40617
+H -1.58067 -0.30291 1.45330
+H -3.51161 -0.48637 0.31067
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 195.9,240.3,315.0,393.9,495.1,642.6,679.5,998.9,1083.5,1203.0,1287.4,1330.0,1528.6,3135.2,3798.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1544,
+    label = "BrC1COC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  O  u0 p2 c0 {4,S} {5,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96396,0.00221769,0.0001024,-1.85644e-07,1.09033e-10,-9657.84,11.7842], Tmin=(10,'K'), Tmax=(440.014,'K')),
+            NASAPolynomial(coeffs=[-0.131906,0.0395059,-2.49004e-05,7.50916e-09,-8.69513e-13,-9297.92,28.1759], Tmin=(440.014,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -15.48 kcal/mol
+S298: 75.82 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.33928 0.00000 -0.05945
+O 2.45562 0.00000 -0.26194
+C 0.51196 0.00000 0.56663
+C 1.47915 1.03707 -0.02336
+C 1.47915 -1.03707 -0.02336
+H 0.45746 0.00000 1.65252
+H 1.12667 1.49667 -0.95440
+H 1.84866 1.81138 0.65661
+H 1.12667 -1.49667 -0.95440
+H 1.84866 -1.81138 0.65661
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 100.9,255.6,290.7,504.2,812.4,892.4,905.5,1013.2,1025.5,1051.5,1106.0,1147.9,1168.8,1251.9,1261.0,1306.1,1370.9,1503.9,1528.8,3021.9,3031.3,3080.1,3081.2,3143.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1545,
+    label = "O[C]1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {5,S} {9,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+5 C  u1 p0 c0 {2,S} {3,S} {4,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89978,0.00630509,0.000112616,-2.46227e-07,1.61566e-10,13107.1,12.8032], Tmin=(10,'K'), Tmax=(511.146,'K')),
+            NASAPolynomial(coeffs=[3.40785,0.0308716,-2.02723e-05,6.38667e-09,-7.68566e-13,12886.8,12.199], Tmin=(511.146,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.07 kcal/mol
+S298: 79.58 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.21333 -0.09805 -0.05526
+O -1.93996 -1.25985 -0.15190
+C -1.48353 1.19255 -0.44144
+C -0.46592 0.66740 0.59260
+C -1.72196 -0.02911 0.34559
+H -2.01113 2.11180 -0.19820
+H -1.21249 1.08712 -1.49018
+H -0.27531 1.22410 1.50186
+H -1.41962 -1.89745 0.35551
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 126.5,254.7,327.6,384.3,480.1,561.9,735.5,871.5,973.4,980.9,1042.6,1071.7,1091.3,1192.9,1308.1,1431.3,1505.9,3096.1,3175.9,3183.6,3763.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1546,
+    label = "BrCC1[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,D}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6103,0.0348814,-2.43057e-05,5.47409e-09,7.98898e-13,61135.7,15.9937], Tmin=(10,'K'), Tmax=(921.575,'K')),
+            NASAPolynomial(coeffs=[7.59868,0.0228313,-1.32556e-05,3.67501e-09,-3.93492e-13,60177.2,-4.13428], Tmin=(921.575,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 126.30 kcal/mol
+S298: 91.27 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.21827 -0.55258 0.02852
+Br -2.22035 -0.57895 -0.02194
+C 0.20100 1.45766 0.45681
+C 1.40355 1.20488 -0.39806
+C -1.23287 0.95874 0.02062
+C -0.98614 2.21522 -0.09473
+H 0.40685 1.47322 1.52908
+H 1.15864 1.17897 -1.45822
+H 2.19431 1.93213 -0.20888
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.6,105.6,211.5,282.9,351.8,440.0,480.6,618.3,739.2,826.4,949.4,984.7,1103.5,1155.0,1222.7,1375.5,1463.1,1815.1,3088.0,3090.7,3168.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1547,
+    label = "BrC(Br)DC1CO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u0 p0 c0 {1,S} {2,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71081,0.0261617,5.02977e-05,-2.44716e-07,2.59257e-10,13213.8,13.4766], Tmin=(10,'K'), Tmax=(359.021,'K')),
+            NASAPolynomial(coeffs=[5.06204,0.0269032,-1.87964e-05,6.13266e-09,-7.53304e-13,13015,6.92409], Tmin=(359.021,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.93 kcal/mol
+S298: 85.45 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.56487 -0.86009 -0.00006
+Br -1.67731 -0.67994 0.00002
+O 0.98602 2.49416 0.00004
+C -0.45420 2.84837 0.00008
+C 0.06437 1.51260 0.00004
+C -0.00093 0.19775 0.00001
+H -0.80425 3.29771 -0.92565
+H -0.80421 3.29767 0.92585
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 114.8,163.6,185.3,236.2,336.3,427.4,448.8,769.0,828.3,999.1,1039.7,1091.0,1137.6,1201.5,1498.7,1878.4,3109.1,3208.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1548,
+    label = "Br[C]1OC1C(Br)(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {7,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {8,S}
+6 C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+7 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+8 C  u1 p0 c0 {4,S} {5,S} {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.15376,0.0836871,-0.000196627,2.52479e-07,-1.29443e-10,23744.9,18.6525], Tmin=(10,'K'), Tmax=(477.093,'K')),
+            NASAPolynomial(coeffs=[9.81347,0.0278515,-2.10778e-05,7.17593e-09,-9.02694e-13,23109.4,-8.54824], Tmin=(477.093,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 53.86 kcal/mol
+S298: 108.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.87689 -0.88468 1.66445
+Br -1.10276 1.94158 0.16871
+Br -2.13905 -0.73574 -1.27042
+Br 3.56324 0.09345 -0.22178
+O 1.19225 -1.43616 -0.72912
+C 0.56739 -0.11160 -0.71173
+C -0.79015 0.01649 -0.05679
+C 1.76725 -0.47669 0.02909
+H 0.63615 0.40905 -1.66393
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 40.3,60.8,114.8,131.2,157.1,158.8,220.3,263.4,299.9,367.2,508.6,579.7,705.8,741.1,815.7,973.4,1057.3,1114.9,1298.7,1436.7,3154.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1549,
+    label = "CC1C[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+5  C  u1 p0 c0 {1,S} {2,S} {3,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83886,0.0144009,7.44113e-05,-1.62398e-07,1.08203e-10,29485.9,12.6365], Tmin=(10,'K'), Tmax=(389.088,'K')),
+            NASAPolynomial(coeffs=[1.33991,0.0400913,-2.46305e-05,7.30245e-09,-8.35398e-13,29680.3,22.3335], Tmin=(389.088,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 62.91 kcal/mol
+S298: 81.24 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.41449 -0.14115 -0.00138
+C 1.59467 -0.06663 0.44917
+C 1.22508 1.36006 -0.03023
+C 2.79359 -0.78340 -0.14013
+C 0.39645 0.19449 -0.35806
+H 1.43520 -0.25194 1.51126
+H 0.87454 2.08008 0.70551
+H 1.83655 1.79405 -0.81974
+H 2.68591 -1.86820 -0.03715
+H 2.90050 -0.55733 -1.20500
+H 3.71564 -0.48365 0.36899
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 157.8,186.1,242.0,310.3,384.1,525.5,760.1,844.9,911.6,950.1,1035.6,1060.3,1077.6,1130.9,1156.1,1253.4,1388.8,1408.3,1465.5,1489.1,1497.1,3030.7,3092.3,3097.0,3100.1,3116.8,3173.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1550,
+    label = "Br[C](Br)C1OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {5,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+6 C  u1 p0 c0 {1,S} {2,S} {5,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.58375,0.0440414,-9.10335e-05,1.24169e-07,-7.22898e-11,20096.2,14.7629], Tmin=(10,'K'), Tmax=(412.759,'K')),
+            NASAPolynomial(coeffs=[5.65984,0.0239222,-1.79183e-05,6.07679e-09,-7.63702e-13,19924.9,6.58404], Tmin=(412.759,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 44.77 kcal/mol
+S298: 89.85 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.98250 -1.31495 -0.00001
+Br 1.89533 0.14653 -0.00000
+O -1.78292 1.73220 0.74633
+O -1.78276 1.73233 -0.74640
+C -0.61653 1.55774 0.00008
+C 0.03269 0.23885 0.00003
+H 0.07932 2.39876 0.00023
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 42.0,134.0,145.0,179.1,312.5,419.5,562.7,819.2,821.2,886.0,1137.0,1139.9,1274.9,1395.1,3113.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1551,
+    label = "Br[CH]C1DC(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 C  u1 p0 c0 {3,S} {5,S} {9,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4213,0.058479,-0.000106929,1.2123e-07,-5.8109e-11,48376.6,17.8258], Tmin=(10,'K'), Tmax=(498.397,'K')),
+            NASAPolynomial(coeffs=[6.95246,0.0301389,-2.16357e-05,7.13894e-09,-8.8023e-13,48024.6,3.24896], Tmin=(498.397,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 101.87 kcal/mol
+S298: 101.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.19827 2.29685 -0.11910
+Br 2.84929 -1.11118 -0.06164
+Br -3.01929 -0.78640 -0.00063
+C 0.31875 0.53824 0.80801
+C -0.18461 -0.69287 0.12229
+C 1.14268 -0.51886 0.26342
+C -1.27158 -1.38931 -0.30728
+H 0.18124 0.73030 1.86834
+H -1.20227 -2.32784 -0.83893
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 50.2,65.0,88.9,158.3,184.6,294.0,395.6,493.9,552.9,567.5,647.2,704.1,839.2,1018.3,1126.7,1206.3,1229.5,1298.1,1638.8,3142.4,3226.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1552,
+    label = "Br[C]1CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u1 p0 c0 {1,S} {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {4,D} {5,S}
+4 C  u0 p0 c0 {2,S} {3,D} {6,S}
+5 H  u0 p0 c0 {3,S}
+6 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94137,0.00351447,6.35641e-05,-1.30972e-07,8.02468e-11,56274.3,10.6253], Tmin=(10,'K'), Tmax=(551.299,'K')),
+            NASAPolynomial(coeffs=[3.69637,0.0183762,-1.24722e-05,4.02551e-09,-4.93262e-13,56102.5,9.85808], Tmin=(551.299,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 115.15 kcal/mol
+S298: 71.44 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.99198 0.00000 -0.03736
+C 0.91343 0.00002 0.53857
+C 2.02129 -0.66005 -0.09522
+C 2.02133 0.66003 -0.09521
+H 2.49135 -1.58319 -0.39057
+H 2.49148 1.58315 -0.39047
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 265.6,276.8,442.9,747.3,911.1,929.3,929.4,1069.1,1230.2,1652.0,3262.0,3304.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1553,
+    label = "BrC1[C]DCO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {5,D} {7,S}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93219,0.00405003,8.0474e-05,-1.62018e-07,9.77416e-11,40366.3,12.4372], Tmin=(10,'K'), Tmax=(551.258,'K')),
+            NASAPolynomial(coeffs=[3.12737,0.0249164,-1.71923e-05,5.54364e-09,-6.73872e-13,40226.8,13.7698], Tmin=(551.258,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 83.77 kcal/mol
+S298: 76.27 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.21375 0.00285 -0.08496
+O -1.45420 -0.94879 0.05536
+C -0.59443 0.10045 0.60503
+C -2.34633 0.07807 -0.34505
+C -1.55929 1.09149 0.00822
+H -0.53766 0.02958 1.68844
+H -3.30981 -0.15893 -0.76690
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 152.8,283.6,349.4,651.8,781.8,843.6,903.8,936.8,1071.4,1153.8,1211.4,1243.3,1584.1,3155.3,3284.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1554,
+    label = "BrC1D[C]OC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u1 p0 c0 {2,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92617,0.00489822,8.75065e-05,-2.00392e-07,1.39222e-10,43917.9,11.8352], Tmin=(10,'K'), Tmax=(472.857,'K')),
+            NASAPolynomial(coeffs=[3.16079,0.0245399,-1.65694e-05,5.22931e-09,-6.24162e-13,43843.1,13.398], Tmin=(472.857,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 90.91 kcal/mol
+S298: 75.62 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30224 0.00055 -0.00003
+O -2.50958 -0.19622 0.00010
+C -1.61208 0.96499 0.00011
+C -0.53252 -0.07595 -0.00009
+C -1.52745 -1.15574 -0.00001
+H -1.73475 1.57537 -0.89972
+H -1.73461 1.57529 0.90001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 155.2,259.9,365.7,377.0,880.2,889.5,921.0,987.0,1104.9,1165.3,1242.8,1312.0,1486.9,3047.8,3110.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1555,
+    label = "Br[C]1C(Br)C1C(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {5,S} {8,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {11,S}
+8  C  u1 p0 c0 {4,S} {5,S} {6,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.49798,0.0617343,0.000250746,-2.79582e-06,6.48378e-09,36896,18.793], Tmin=(10,'K'), Tmax=(175.083,'K')),
+            NASAPolynomial(coeffs=[6.71931,0.041343,-3.03756e-05,1.02449e-08,-1.2879e-12,36701.6,6.53632], Tmin=(175.083,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 80.07 kcal/mol
+S298: 111.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.84284 2.10209 0.56262
+Br -2.65596 1.09768 -0.72858
+Br -1.86994 -1.58476 0.90257
+Br 2.64904 -1.51445 -0.59973
+C 0.00308 0.04437 -0.61260
+C 0.72797 0.51173 0.66227
+C -1.42912 -0.43438 -0.61895
+C 1.09719 -0.72188 0.00343
+H 0.23291 0.62234 -1.50871
+H 0.20665 0.49114 1.61372
+H -1.64350 -1.03224 -1.50071
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 24.3,50.4,64.0,102.0,129.7,182.3,200.5,271.6,415.5,457.9,517.5,551.8,668.2,703.6,858.7,968.7,1017.1,1038.3,1084.1,1165.9,1172.0,1220.5,1266.1,1401.5,3102.8,3149.9,3163.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1556,
+    label = "Br[C]1CDCC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4 C  u1 p0 c0 {2,S} {3,S} {6,S}
+5 C  u0 p0 c0 {3,S} {6,D} {8,S}
+6 C  u0 p0 c0 {4,S} {5,D} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71539,0.0244944,3.61492e-05,-1.11596e-07,7.56422e-11,38961.3,15.2519], Tmin=(10,'K'), Tmax=(547.272,'K')),
+            NASAPolynomial(coeffs=[4.95158,0.030238,-2.01002e-05,6.26887e-09,-7.40937e-13,38604.7,8.01117], Tmin=(547.272,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.05 kcal/mol
+S298: 88.41 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.98679 -0.61156 -0.09531
+Br 2.07382 -0.50975 0.00387
+C -0.70022 0.68371 0.65346
+C 0.67496 0.70576 0.01222
+C -0.79111 2.09838 0.10803
+C 0.50596 2.03472 -0.39710
+H -0.74892 0.54679 1.73261
+H -1.59096 2.82201 0.10240
+H 1.15607 2.74169 -0.89431
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 65.5,174.1,199.0,326.6,385.0,413.6,505.1,687.1,893.5,918.6,946.0,982.0,1051.9,1146.0,1183.1,1222.0,1318.2,1440.9,3127.2,3228.9,3264.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1557,
+    label = "ODC1OC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {6,D}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 C  u0 p0 c0 {3,S} {4,D} {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75116,0.019631,7.41527e-05,-2.87507e-07,2.66138e-10,-15121.4,13.4468], Tmin=(10,'K'), Tmax=(415.402,'K')),
+            NASAPolynomial(coeffs=[6.62281,0.0180138,-1.40175e-05,4.86804e-09,-6.21218e-13,-15584.6,-0.58816], Tmin=(415.402,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -25.67 kcal/mol
+S298: 83.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61206 -0.66090 -0.06177
+Br 1.61206 -0.66090 -0.06177
+O 0.00000 1.34953 1.19766
+O 0.00000 2.81526 -0.67321
+C 0.00000 0.35882 0.09913
+C 0.00000 1.79868 -0.07776
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 122.0,161.8,242.3,277.1,356.8,620.9,621.0,669.1,767.5,1040.0,1137.4,2049.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1558,
+    label = "[CH2]C1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6  C  u1 p0 c0 {3,S} {10,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73848,0.0210156,0.000153616,-4.98238e-07,4.56273e-10,29368.4,14.7025], Tmin=(10,'K'), Tmax=(383.552,'K')),
+            NASAPolynomial(coeffs=[4.85668,0.03807,-2.53831e-05,8.08644e-09,-9.80528e-13,29071.4,7.62588], Tmin=(383.552,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 63.60 kcal/mol
+S298: 90.59 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.27267 -1.08211 -0.00413
+Br 1.81424 -0.17013 -0.13491
+C -0.41823 1.79840 -0.17613
+C -0.25256 1.36339 1.29477
+C -0.01594 0.36950 0.21857
+C -1.71484 2.13350 -0.72942
+H 0.41986 2.35958 -0.57634
+H 0.60414 1.74131 1.84073
+H -1.16043 1.25505 1.87796
+H -1.78872 2.80309 -1.57588
+H -2.62030 1.68090 -0.34691
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 146.2,164.4,178.3,196.8,262.1,370.4,404.0,429.7,549.9,666.5,757.3,829.1,874.7,1000.5,1044.9,1073.1,1118.2,1193.1,1228.8,1371.1,1456.4,1471.2,3137.1,3164.8,3169.3,3230.5,3276.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1559,
+    label = "CC1C(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7  C  u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70692,0.0355129,0.000323438,-2.42183e-06,5.03016e-09,9369.76,14.9638], Tmin=(10,'K'), Tmax=(174.768,'K')),
+            NASAPolynomial(coeffs=[4.81074,0.0434225,-2.91689e-05,9.30982e-09,-1.12981e-12,9280.52,10.1144], Tmin=(174.768,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 24.65 kcal/mol
+S298: 97.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.35853 -0.52650 -0.53316
+Br 2.25879 -0.86977 -0.24597
+Br 0.38449 1.72991 -0.24332
+C -0.12146 -0.64628 1.49923
+C -0.63655 -1.06416 0.13308
+C 0.53233 -0.12444 0.24025
+C -0.89547 0.24115 2.44595
+H 0.44949 -1.42557 1.99844
+H -0.41832 -2.06620 -0.21184
+H -1.56515 -0.37198 3.05678
+H -0.20845 0.76797 3.11463
+H -1.49700 0.98048 1.91665
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 87.7,105.0,146.3,168.3,174.8,184.1,261.4,409.2,448.0,458.1,662.6,715.9,813.0,884.8,1000.4,1028.4,1062.2,1137.8,1148.2,1239.7,1270.0,1381.1,1413.8,1485.8,1489.7,3046.9,3110.6,3133.6,3152.2,3198.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1560,
+    label = "Br[C](Br)C1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
+7  C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+8  C  u1 p0 c0 {3,S} {4,S} {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.40269,0.0685519,8.96328e-05,-1.39367e-06,2.89867e-09,32209.3,19.302], Tmin=(10,'K'), Tmax=(209.217,'K')),
+            NASAPolynomial(coeffs=[7.21562,0.0404351,-2.98495e-05,1.01322e-08,-1.28133e-12,31951.7,4.52942], Tmin=(209.217,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.85 kcal/mol
+S298: 112.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.95344 0.75760 -0.44753
+Br 1.11130 -1.28841 1.22131
+Br -2.38570 -1.16891 -0.57882
+Br -1.87844 1.77915 0.57502
+C 0.06600 0.40080 -1.02974
+C 0.76343 -0.78872 -1.66822
+C 1.30162 -0.24790 -0.38610
+C -1.28167 0.33659 -0.46429
+H 0.29683 1.37186 -1.46187
+H 1.32881 -0.61068 -2.57569
+H 0.25720 -1.74621 -1.62131
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 21.1,39.6,64.4,130.0,154.3,179.2,216.1,258.2,348.3,378.1,442.1,518.0,675.3,793.3,821.8,856.5,962.8,1042.3,1093.7,1099.0,1172.3,1244.4,1352.4,1459.2,3132.2,3142.0,3234.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1561,
+    label = "BrC1DC(Br)C[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u1 p0 c0 {3,S} {6,S} {9,S}
+5 C  u0 p0 c0 {1,S} {3,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68695,0.0270428,2.34305e-05,-9.07789e-08,6.43567e-11,38778.5,14.4364], Tmin=(10,'K'), Tmax=(539.958,'K')),
+            NASAPolynomial(coeffs=[5.02972,0.0298272,-1.96732e-05,6.10788e-09,-7.20043e-13,38447.9,7.06719], Tmin=(539.958,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 81.75 kcal/mol
+S298: 87.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.96942 -0.64316 0.00017
+Br 2.00393 -0.58982 -0.00012
+C -0.78517 2.23177 -0.00003
+C 0.74698 2.13691 -0.00024
+C -0.70308 0.70518 0.00016
+C 0.69371 0.74905 -0.00008
+H -1.23149 2.67452 -0.89593
+H -1.23124 2.67476 0.89586
+H 1.54027 2.86747 -0.00034
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 93.7,124.2,211.2,310.8,408.2,424.9,447.4,560.2,897.6,925.4,967.8,1046.1,1068.8,1119.1,1199.6,1260.1,1442.3,1511.0,3045.7,3096.2,3262.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1562,
+    label = "Br[C]1CDC(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u1 p0 c0 {3,S} {5,S} {8,S}
+7 C  u0 p0 c0 {4,S} {5,S} {8,D}
+8 C  u0 p0 c0 {6,S} {7,D} {9,S}
+9 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.15805,0.0857553,-0.00022588,3.35144e-07,-1.98739e-10,42124.9,17.977], Tmin=(10,'K'), Tmax=(413.879,'K')),
+            NASAPolynomial(coeffs=[8.96073,0.0296742,-2.26286e-05,7.75013e-09,-9.797e-13,41644.6,-4.89858], Tmin=(413.879,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 90.32 kcal/mol
+S298: 107.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.00020 1.30428 1.60667
+Br 0.00020 1.30433 -1.60664
+Br -2.85368 -0.95352 -0.00012
+Br 2.85368 -0.95352 0.00010
+C 0.00000 0.19523 -0.00000
+C -1.01004 -0.94185 -0.00016
+C 1.01004 -0.94185 0.00011
+C 0.00000 -1.90626 -0.00005
+H 0.00000 -2.98668 -0.00008
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 19.5,63.6,89.3,91.7,159.9,176.0,245.8,272.2,369.7,426.9,443.7,578.8,715.3,907.5,924.5,941.4,1048.0,1164.7,1305.9,1458.1,3249.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1563,
+    label = "BrC1(Br)CC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+7 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.32295,0.0607706,-9.69725e-05,8.42411e-08,-2.97633e-11,18771.5,15.6178], Tmin=(10,'K'), Tmax=(677.386,'K')),
+            NASAPolynomial(coeffs=[9.45608,0.0245541,-1.6775e-05,5.3126e-09,-6.33494e-13,17940.6,-11.5821], Tmin=(677.386,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.24 kcal/mol
+S298: 97.45 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.72654 1.59151 -0.13527
+Br 1.72655 -1.59150 -0.13528
+Br -1.72654 -1.59150 -0.13529
+Br -1.72655 1.59150 -0.13527
+C 0.76179 0.00000 0.36841
+C -0.00000 -0.00001 1.66963
+C -0.76179 -0.00000 0.36841
+H 0.00000 -0.91635 2.24998
+H -0.00001 0.91633 2.24999
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 60.6,104.4,127.7,175.6,181.0,195.3,352.5,357.1,390.3,525.5,658.3,691.7,904.4,924.7,1001.3,1069.8,1094.6,1251.0,1447.4,3135.9,3228.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1564,
+    label = "BrC1DC(Br)CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+4  C  u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,D}
+6  C  u0 p0 c0 {2,S} {3,S} {5,D}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73928,0.0234617,2.82723e-05,-6.98094e-08,3.80137e-11,18764.6,12.8997], Tmin=(10,'K'), Tmax=(662.851,'K')),
+            NASAPolynomial(coeffs=[4.05743,0.0332916,-2.05617e-05,6.0481e-09,-6.8279e-13,18464.3,9.54854], Tmin=(662.851,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 41.83 kcal/mol
+S298: 83.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.96766 -0.64842 0.00000
+Br 1.96767 -0.64841 -0.00000
+C 0.78650 2.20644 0.00003
+C -0.78652 2.20643 -0.00003
+C -0.66832 0.69645 -0.00001
+C 0.66831 0.69645 0.00001
+H 1.24376 2.63860 -0.89393
+H 1.24367 2.63855 0.89406
+H -1.24378 2.63859 0.89393
+H -1.24369 2.63854 -0.89406
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 96.6,180.5,223.1,289.1,397.0,454.1,489.2,823.9,873.3,888.9,1037.1,1082.4,1083.8,1112.5,1155.0,1195.5,1253.8,1468.6,1481.6,1669.8,3056.0,3060.1,3105.6,3118.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1565,
+    label = "[CH]DC1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {4,D} {7,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89076,0.0067861,9.31364e-05,-2.14289e-07,1.42039e-10,38098.7,12.39], Tmin=(10,'K'), Tmax=(529.393,'K')),
+            NASAPolynomial(coeffs=[4.96397,0.0218717,-1.53281e-05,5.06292e-09,-6.30965e-13,37660.1,4.82525], Tmin=(529.393,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 79.54 kcal/mol
+S298: 77.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.22998 -0.15942 -0.05178
+O -1.29212 1.18462 -0.37333
+C -0.48185 0.47823 0.56482
+C -1.71869 -0.06814 0.05132
+C -2.68234 -0.90041 -0.10657
+H -0.39495 0.91883 1.55312
+H -3.02016 -1.87412 0.18857
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 156.9,302.1,362.1,481.8,583.2,641.8,668.5,759.1,901.0,1085.8,1137.6,1262.3,1830.7,3165.7,3350.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1566,
+    label = "BrC[C]1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {2,S} {4,S} {7,S} {9,S}
+6  C  u0 p0 c0 {3,S} {7,S} {10,S} {11,S}
+7  C  u1 p0 c0 {4,S} {5,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.31047,0.0707371,-0.000184893,3.50016e-07,-2.71206e-10,33854.2,18.5389], Tmin=(10,'K'), Tmax=(363.518,'K')),
+            NASAPolynomial(coeffs=[5.56161,0.0391804,-2.66779e-05,8.50714e-09,-1.02535e-12,33735.3,10.5732], Tmin=(363.518,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 73.35 kcal/mol
+S298: 104.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.43498 2.46113 -0.07017
+Br 2.84055 -0.94015 -0.12437
+Br -2.52999 -1.31439 -0.23409
+C 0.60589 0.94054 0.61189
+C 1.05877 -0.13687 -0.35749
+C -0.98298 -1.28020 1.09428
+C 0.04333 -0.38588 0.63096
+H 1.27296 1.29647 1.39057
+H 0.83939 -0.05717 -1.41727
+H -0.66208 -2.31990 1.12122
+H -1.44534 -0.97554 2.02992
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 30.1,46.0,91.3,136.3,183.6,201.2,301.9,445.3,470.2,580.0,595.0,745.0,866.4,988.0,1021.2,1028.9,1037.2,1157.5,1160.6,1173.8,1206.7,1457.5,1527.4,3110.0,3155.3,3163.8,3185.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1567,
+    label = "Br[C]1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59431,0.0352227,-2.76347e-06,-1.25247e-07,1.38411e-10,24249.3,16.3735], Tmin=(10,'K'), Tmax=(439.141,'K')),
+            NASAPolynomial(coeffs=[8.10928,0.0161497,-1.29407e-05,4.55592e-09,-5.85313e-13,23640.1,-4.11408], Tmin=(439.141,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 53.01 kcal/mol
+S298: 92.19 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.11398 -1.02284 -0.19123
+Br -0.52000 1.76350 -0.03022
+Br 2.54103 -0.43933 -0.19464
+O 0.17920 -0.55261 1.45055
+C -0.46593 -0.13403 0.23530
+C 0.76923 -0.88690 0.25783
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 78.8,118.5,176.1,239.4,332.5,395.2,462.3,597.7,745.7,759.0,1024.3,1396.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1568,
+    label = "BrC1D[C]C(Br)DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,D} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {6,D}
+5 C  u0 p0 c0 {2,S} {3,D} {6,S}
+6 C  u1 p0 c0 {4,D} {5,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.64984,0.0356124,-4.12239e-05,2.52239e-08,-6.38342e-12,80387.9,13.957], Tmin=(10,'K'), Tmax=(902.51,'K')),
+            NASAPolynomial(coeffs=[7.59476,0.0181282,-1.21646e-05,3.75838e-09,-4.37351e-13,79675.8,-4.67031], Tmin=(902.51,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 164.42 kcal/mol
+S298: 86.93 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.87447 -0.01490 -0.02513
+Br 2.87450 -0.01488 -0.02519
+C -0.00017 0.91692 0.09146
+C -1.02677 -0.04546 -0.13149
+C 1.02684 -0.04544 -0.13037
+C 0.00003 -0.95041 0.33949
+H -0.00060 1.78843 0.74653
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 94.4,100.8,151.3,241.4,377.1,510.1,520.3,740.2,785.9,967.4,1063.3,1178.0,1309.1,1396.1,3126.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1569,
+    label = "BrC1(Br)CDCO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {3,S} {5,D} {8,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82661,0.0122644,0.00012038,-3.33245e-07,2.61697e-10,9669.59,13.2455], Tmin=(10,'K'), Tmax=(449.177,'K')),
+            NASAPolynomial(coeffs=[5.0958,0.0275765,-1.96309e-05,6.47064e-09,-7.98455e-13,9287.09,5.14951], Tmin=(449.177,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 23.61 kcal/mol
+S298: 82.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60139 -0.62442 0.00366
+Br 1.60139 -0.62442 0.00366
+O -0.00000 1.43248 -1.03855
+C -0.00000 0.47816 0.05577
+C -0.00000 1.62219 1.02989
+C -0.00000 2.41498 -0.04240
+H 0.00000 1.69511 2.10125
+H -0.00001 3.46218 -0.30899
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 165.3,173.2,240.6,323.1,340.8,431.3,709.7,786.7,808.0,893.7,961.8,997.6,1048.6,1165.1,1276.6,1623.2,3247.6,3320.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1570,
+    label = "BrCDC1CDC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,D}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 C  u0 p0 c0 {2,S} {3,D} {8,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76914,0.0180761,0.000105599,-3.49277e-07,3.09745e-10,49872.5,14.1647], Tmin=(10,'K'), Tmax=(409.58,'K')),
+            NASAPolynomial(coeffs=[5.5648,0.026258,-1.85539e-05,6.11338e-09,-7.56255e-13,49509.7,4.47109], Tmin=(409.58,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 103.71 kcal/mol
+S298: 85.93 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.28406 -0.59805 -0.00000
+Br 2.34022 -0.50519 0.00000
+C 0.19604 1.34528 0.00000
+C -1.00986 2.15946 0.00000
+C -1.14822 0.85226 0.00000
+C 1.50722 1.21482 0.00000
+H -1.44174 3.14521 0.00000
+H 2.20498 2.03719 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 55.9,187.8,259.0,264.0,421.6,438.0,513.5,695.7,708.6,780.8,901.2,1019.4,1046.2,1243.8,1633.3,1877.8,3242.8,3294.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1571,
+    label = "BrC(Br)C1CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {4,S} {5,S} {11,S}
+7  C  u0 p0 c0 {2,S} {3,S} {4,S} {12,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45559,0.0558649,-9.78078e-05,1.78369e-07,-1.495e-10,8351.19,16.841], Tmin=(10,'K'), Tmax=(355.659,'K')),
+            NASAPolynomial(coeffs=[3.92832,0.0452032,-3.02991e-05,9.57186e-09,-1.14697e-12,8351.37,15.5243], Tmin=(355.659,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 22.42 kcal/mol
+S298: 99.58 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.23747 -0.02716 -0.20931
+Br -2.49628 -1.11931 -0.19591
+Br -1.15909 1.81995 0.03803
+C 0.32447 -0.63125 -0.10664
+C 0.98422 -1.82809 0.55149
+C 1.58929 -0.46585 0.68903
+C -0.94978 -0.08890 0.45349
+H 0.41175 -0.56390 -1.18484
+H 1.46214 -2.54375 -0.10636
+H 0.52317 -2.25975 1.43439
+H 1.54108 0.03512 1.64752
+H -1.00088 -0.15503 1.53680
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.1,60.5,125.2,161.7,231.2,268.3,315.1,378.3,574.5,636.5,674.8,851.1,918.4,930.7,949.6,1073.1,1089.8,1105.4,1147.4,1168.6,1213.9,1234.5,1275.1,1396.3,1473.9,3135.6,3150.4,3185.8,3191.5,3230.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1572,
+    label = "BrC1DCCC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+3  C  u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,D}
+5  C  u0 p0 c0 {2,S} {4,D} {10,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {3,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96781,0.00203806,0.000108217,-2.01191e-07,1.21216e-10,18209.8,10.9258], Tmin=(10,'K'), Tmax=(429.477,'K')),
+            NASAPolynomial(coeffs=[-0.148227,0.0404694,-2.63445e-05,8.20634e-09,-9.77956e-13,18562.4,27.2942], Tmin=(429.477,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.94 kcal/mol
+S298: 74.34 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.35431 -0.00519 0.00001
+C -2.59650 0.11464 0.00004
+C -1.54733 -1.05688 -0.00002
+C -0.53187 0.06082 -0.00002
+C -1.40863 1.06664 -0.00002
+H -3.22985 0.15285 -0.89163
+H -3.22969 0.15283 0.89182
+H -1.55538 -1.68981 -0.89155
+H -1.55533 -1.68994 0.89141
+H -1.32444 2.14452 -0.00009
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 201.2,262.5,375.4,395.0,768.6,857.6,885.9,889.9,929.6,1037.5,1089.8,1106.7,1162.7,1185.5,1219.2,1272.5,1467.9,1484.1,1651.8,3043.0,3058.3,3090.1,3110.4,3231.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1573,
+    label = "Br[CH]C1C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+8  C  u1 p0 c0 {4,S} {5,S} {11,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.17376,0.081872,-0.000168811,2.0967e-07,-1.07441e-10,33662.5,19.3577], Tmin=(10,'K'), Tmax=(472.36,'K')),
+            NASAPolynomial(coeffs=[8.46935,0.0370282,-2.64076e-05,8.68884e-09,-1.07004e-12,33162.2,-2.21874], Tmin=(472.36,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 73.76 kcal/mol
+S298: 111.24 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.93310 2.53420 -0.44104
+Br -0.91362 -0.25319 1.76673
+Br -1.66914 -2.02331 -0.80730
+Br 3.33709 -0.41191 -0.07015
+C 0.58220 -0.05981 -0.83076
+C -0.71171 0.72422 -1.04557
+C -0.74243 -0.45837 -0.13159
+C 1.70343 0.49403 -0.09742
+H 0.85004 -0.71648 -1.65350
+H -1.19739 0.60243 -2.00521
+H 1.61527 1.31083 0.60245
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 28.2,60.0,90.1,102.1,156.8,163.4,206.2,296.1,357.6,418.0,430.3,487.1,621.2,717.2,782.8,785.4,895.0,1035.1,1068.2,1155.0,1212.8,1227.7,1262.9,1369.3,3154.4,3195.6,3250.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1574,
+    label = "BrC(Br)C1(Br)[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+6 C  u0 p0 c0 {4,S} {7,D} {9,S}
+7 C  u1 p0 c0 {4,S} {6,D}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.35524,0.0549844,-7.47592e-05,5.38821e-08,-1.57501e-11,62282.7,17.5128], Tmin=(10,'K'), Tmax=(811.283,'K')),
+            NASAPolynomial(coeffs=[9.95753,0.0224323,-1.4573e-05,4.42461e-09,-5.09629e-13,61211.4,-12.9586], Tmin=(811.283,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 129.49 kcal/mol
+S298: 99.63 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.44037 -0.23608 -0.42040
+Br -0.62799 1.83908 0.17160
+Br -2.08754 -1.00227 -0.31905
+C 0.70145 -0.68815 0.39003
+C -0.39693 -0.02853 -0.41873
+C 0.65288 -0.84855 1.92283
+C 0.55286 -1.90971 1.19975
+H -0.14890 0.03434 -1.47211
+H 0.71771 -0.21029 2.78360
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.3,111.5,144.3,177.4,205.0,266.1,305.3,398.2,572.9,616.5,675.3,742.2,769.9,888.4,926.8,1139.6,1157.6,1236.8,1732.0,3184.1,3346.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1575,
+    label = "BrC1CD[C]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u1 p0 c0 {2,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93047,0.00403508,7.92926e-05,-1.54698e-07,8.97726e-11,37751,12.1415], Tmin=(10,'K'), Tmax=(577.403,'K')),
+            NASAPolynomial(coeffs=[3.20331,0.0252332,-1.77595e-05,5.83138e-09,-7.19843e-13,37565.6,12.9174], Tmin=(577.403,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.57 kcal/mol
+S298: 75.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.17566 0.01368 -0.06719
+O -1.44482 -1.07388 -0.00242
+C -0.66322 0.03549 0.57350
+C -1.61897 1.03790 -0.01771
+C -2.25674 -0.06052 -0.43351
+H -0.63799 -0.06968 1.65755
+H -1.71808 2.10472 -0.02015
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 222.0,270.7,417.5,637.3,689.2,743.3,899.8,933.4,1102.8,1134.0,1179.7,1239.3,1544.8,3127.7,3346.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1576,
+    label = "Br[C]1OC(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {7,S} {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+7 C  u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
+8 C  u1 p0 c0 {4,S} {5,S} {6,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.17877,0.0841259,-0.000218917,3.24436e-07,-1.92915e-10,16629.1,18.7577], Tmin=(10,'K'), Tmax=(412.273,'K')),
+            NASAPolynomial(coeffs=[8.72288,0.0303352,-2.32074e-05,7.96272e-09,-1.00773e-12,16172,-3.07698], Tmin=(412.273,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.60 kcal/mol
+S298: 108.70 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.44675 2.28749 -0.74530
+Br -0.25145 0.46255 1.79060
+Br -2.62942 -0.99115 -0.29842
+Br 2.48371 -1.39671 -0.06250
+O -0.03906 -1.30756 -1.34283
+C 0.04551 0.45350 -0.14611
+C -1.00750 -0.27590 -1.04982
+C 0.93880 -0.59310 -0.68176
+H -1.28405 0.27694 -1.94432
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.1,54.4,95.7,107.1,153.9,184.4,235.0,290.6,349.3,398.9,486.5,590.0,774.6,910.5,917.9,990.6,1145.9,1182.7,1232.6,1289.9,3150.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1577,
+    label = "OC1(Br)C(Br)DC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {8,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {5,S} {7,D}
+7 C  u0 p0 c0 {3,S} {5,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.32306,0.0598569,-0.000106749,1.00215e-07,-3.75406e-11,15835.5,16.8578], Tmin=(10,'K'), Tmax=(647.109,'K')),
+            NASAPolynomial(coeffs=[9.81237,0.0197441,-1.37673e-05,4.42246e-09,-5.32678e-13,14995.6,-11.625], Tmin=(647.109,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 37.20 kcal/mol
+S298: 98.76 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.36585 2.37111 -0.43816
+Br 2.41522 -1.00081 -0.14747
+Br -2.03007 -1.64081 -0.12968
+O -0.03706 1.10523 2.02175
+C -0.08554 0.74037 0.70336
+C 0.71810 -0.37301 0.20007
+C -0.57881 -0.56055 0.20936
+H -0.70146 1.78521 2.18512
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 70.1,72.9,97.2,156.2,240.1,276.1,328.9,406.7,524.3,573.1,591.8,637.7,946.7,1001.9,1219.3,1372.7,1803.6,3797.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1578,
+    label = "BrC(Br)C1(Br)OC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  O  u0 p2 c0 {7,S} {8,S}
+7  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+8  C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+9  C  u0 p0 c0 {4,S} {5,S} {7,S} {10,S}
+10 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.95704,0.105022,-0.000274054,3.8857e-07,-2.18545e-10,899.149,19.2531], Tmin=(10,'K'), Tmax=(436.763,'K')),
+            NASAPolynomial(coeffs=[10.8698,0.0325541,-2.51748e-05,8.68648e-09,-1.10271e-12,207.946,-12.3669], Tmin=(436.763,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 9.32 kcal/mol
+S298: 115.70 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.36915 2.13351 0.35375
+Br -2.87794 0.89928 0.11652
+Br -1.75336 -2.04748 -0.32884
+Br 2.70739 -0.02995 -1.28836
+Br 1.69954 -0.90497 1.67140
+O -0.66269 0.27289 -1.54326
+C 0.03739 0.35614 -0.30103
+C -1.35489 -0.14790 -0.41863
+C 1.20468 -0.60401 -0.18572
+H 0.91141 -1.57205 -0.57822
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 35.2,50.4,83.8,108.2,112.0,125.5,169.4,201.3,207.5,333.0,367.4,405.3,518.1,552.3,690.2,710.2,783.6,799.2,986.3,1075.4,1163.6,1232.5,1352.2,3173.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1579,
+    label = "OC1(Br)OC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {5,S} {8,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+7 H  u0 p0 c0 {6,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73838,0.0207941,9.91925e-05,-3.44733e-07,3.09812e-10,-26532,14.16], Tmin=(10,'K'), Tmax=(411.034,'K')),
+            NASAPolynomial(coeffs=[5.96216,0.026132,-1.87409e-05,6.2302e-09,-7.74931e-13,-26942.7,2.63644], Tmin=(411.034,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -48.00 kcal/mol
+S298: 86.70 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.32249 -0.16453 -0.21516
+Br 2.36686 -0.07236 -0.20168
+O -0.00130 -0.35272 1.40162
+O -0.34665 1.64717 0.13972
+C -0.51448 0.31370 0.25892
+C 0.54959 -0.68063 0.14451
+H 0.41716 -1.69473 -0.21647
+H 0.60275 1.83196 0.05463
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 122.0,151.4,220.1,236.9,353.3,380.6,532.6,632.9,681.9,759.7,909.7,1105.0,1134.6,1248.5,1338.4,1429.4,3179.2,3692.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1580,
+    label = "O[C]1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7316,0.0206319,0.000105401,-3.831e-07,3.50741e-10,159.592,14.7945], Tmin=(10,'K'), Tmax=(413.719,'K')),
+            NASAPolynomial(coeffs=[7.10031,0.0210915,-1.60192e-05,5.52735e-09,-7.04637e-13,-401.82,-1.90069], Tmin=(413.719,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 5.02 kcal/mol
+S298: 87.82 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.22065 -1.13074 -0.01063
+Br -1.82619 -0.09061 -0.10440
+O 0.33297 1.28376 1.16815
+O 1.71255 2.17835 -0.47646
+C 0.02661 0.37583 0.11416
+C 0.49246 1.73841 -0.12808
+H 1.71524 2.36481 -1.42386
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 129.6,165.1,212.9,268.4,331.2,364.1,505.4,547.4,741.7,785.4,948.1,1112.4,1263.3,1458.2,3802.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1581,
+    label = "Br[C]1CDC1C(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+5 C  u0 p0 c0 {4,S} {6,S} {7,D}
+6 C  u1 p0 c0 {3,S} {5,S} {7,S}
+7 C  u0 p0 c0 {5,D} {6,S} {9,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39234,0.0612173,-0.000121119,1.48024e-07,-7.5642e-11,57077.9,18.139], Tmin=(10,'K'), Tmax=(471.165,'K')),
+            NASAPolynomial(coeffs=[7.07677,0.0299379,-2.15381e-05,7.12355e-09,-8.80225e-13,56730.7,3.13652], Tmin=(471.165,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 119.22 kcal/mol
+S298: 102.32 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.67772 -0.84139 -0.01500
+Br -0.69723 1.75049 -0.10077
+Br 3.14914 -0.13916 0.00602
+C -0.97808 -0.07717 0.58742
+C 0.15522 -0.90496 0.19338
+C 1.55532 -1.23505 0.37723
+C 0.67239 -1.85293 -0.56803
+H -1.05873 0.03843 1.66472
+H 0.53328 -2.56595 -1.36387
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.1,51.2,123.2,158.7,177.5,287.5,328.7,444.5,495.6,620.9,671.7,807.1,853.9,994.3,1072.0,1142.8,1181.8,1251.3,1770.1,3152.2,3281.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1582,
+    label = "BrC1(Br)[CH]C(Br)(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {6,S} {7,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+8  C  u1 p0 c0 {6,S} {7,S} {11,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.18419,0.0755507,-0.000126146,1.19979e-07,-4.70118e-11,30074.8,17.6571], Tmin=(10,'K'), Tmax=(610.508,'K')),
+            NASAPolynomial(coeffs=[9.59288,0.0335615,-2.29796e-05,7.32285e-09,-8.79428e-13,29292.2,-10.0986], Tmin=(610.508,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 66.53 kcal/mol
+S298: 106.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.22184 1.60996 -0.02170
+Br -2.22168 -1.60999 -0.02187
+Br 2.22168 -1.60999 -0.02205
+Br 2.22184 1.60997 -0.02188
+C 0.00005 0.00003 1.16324
+C -1.07220 0.00004 0.03353
+C 1.07220 0.00004 0.03344
+C -0.00004 0.00014 -0.97177
+H 0.00007 0.89543 1.78190
+H 0.00007 -0.89536 1.78193
+H -0.00008 0.00025 -2.05222
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 28.5,64.7,114.1,141.9,165.8,214.8,226.1,293.5,331.7,390.2,404.4,486.7,519.8,649.1,840.0,892.8,988.2,1041.1,1048.5,1124.2,1157.1,1214.3,1289.0,1458.0,3110.3,3177.8,3245.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1583,
+    label = "[CH]DC1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {5,D} {7,S}
+7 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75729,0.017495,0.000126767,-4.16482e-07,3.58963e-10,41505.6,14.0852], Tmin=(10,'K'), Tmax=(435.171,'K')),
+            NASAPolynomial(coeffs=[7.69418,0.0199923,-1.51831e-05,5.25646e-09,-6.73303e-13,40796.6,-5.84106], Tmin=(435.171,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.17 kcal/mol
+S298: 86.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61093 -0.63820 -0.08014
+Br 1.61095 -0.63816 -0.08014
+O -0.00001 1.27830 1.26507
+C -0.00000 0.39144 0.17123
+C -0.00002 1.82514 -0.02777
+C -0.00008 2.95363 -0.62990
+H -0.00009 3.42502 -1.59189
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 122.6,163.5,222.7,283.1,362.5,455.9,487.7,589.5,641.7,727.8,736.8,936.3,1146.2,1828.0,3361.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1584,
+    label = "BrCDC1OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u0 p0 c0 {1,S} {4,D} {6,S}
+6 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89645,0.00694641,8.20434e-05,-2.11082e-07,1.5565e-10,16305.3,11.2606], Tmin=(10,'K'), Tmax=(475.99,'K')),
+            NASAPolynomial(coeffs=[4.71206,0.0186502,-1.33206e-05,4.39277e-09,-5.41916e-13,16017.4,5.72286], Tmin=(475.99,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.08 kcal/mol
+S298: 74.75 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.28122 -0.49279 0.00000
+O 2.18179 -0.36535 0.00000
+O 2.50858 1.14732 0.00000
+C 1.28148 0.61667 0.00000
+C 0.00000 0.89702 0.00000
+H -0.36897 1.90997 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 139.3,219.4,408.9,516.4,703.5,713.2,753.1,1007.7,1104.3,1249.9,1913.4,3258.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1585,
+    label = "CC1D[C]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+3 C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {2,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84805,0.0154706,9.51159e-05,-3.84685e-07,5.00186e-10,54483.2,12.6258], Tmin=(10,'K'), Tmax=(194.878,'K')),
+            NASAPolynomial(coeffs=[3.12572,0.0302971,-1.90073e-05,5.72924e-09,-6.63726e-13,54511.4,14.9293], Tmin=(194.878,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 112.54 kcal/mol
+S298: 81.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.27762 -0.18590 -0.04699
+C -0.37818 0.73913 0.50583
+C -2.61773 -0.89857 0.01825
+C -1.73725 0.26935 -0.07897
+C -1.25552 1.40945 -0.44985
+H -0.24706 1.01187 1.54910
+H -2.96438 -1.04908 1.04613
+H -3.48956 -0.76944 -0.63018
+H -2.08356 -1.80306 -0.29196
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 115.1,138.4,305.0,312.6,422.0,563.2,675.4,888.6,941.1,1046.2,1056.5,1072.7,1244.0,1403.3,1465.2,1472.4,1873.3,3031.5,3096.3,3111.9,3141.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1586,
+    label = "CC1(Br)O[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+6 C  u1 p0 c0 {2,S} {3,S} {4,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71808,0.0252245,0.000104063,-4.4653e-07,4.91881e-10,13945.6,14.8244], Tmin=(10,'K'), Tmax=(333.15,'K')),
+            NASAPolynomial(coeffs=[5.16582,0.0304061,-2.0861e-05,6.75402e-09,-8.27381e-13,13723.9,7.55188], Tmin=(333.15,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 32.67 kcal/mol
+S298: 89.77 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.28474 -0.36132 -0.16373
+Br 2.40137 -0.19751 -0.18250
+O 0.04806 0.11312 1.44319
+C -0.56110 0.46982 0.16132
+C -0.50837 1.91995 -0.21938
+C 0.57287 -0.42017 0.31206
+H 0.47865 2.32466 0.01761
+H -1.27296 2.48329 0.32182
+H -0.69282 2.02894 -1.29091
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 112.3,139.5,195.3,230.8,295.8,371.7,419.2,577.9,605.9,701.7,932.6,1036.9,1095.3,1154.0,1408.0,1434.8,1469.5,1484.6,3050.1,3129.5,3136.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1587,
+    label = "Br[CH]C1(Br)CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
+7  C  u1 p0 c0 {3,S} {4,S} {11,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42633,0.0545746,-6.05705e-05,3.89907e-08,-1.09046e-11,29355.7,17.6885], Tmin=(10,'K'), Tmax=(798.361,'K')),
+            NASAPolynomial(coeffs=[7.54667,0.0339307,-2.17837e-05,6.60211e-09,-7.62421e-13,28697.8,-1.26188], Tmin=(798.361,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.26 kcal/mol
+S298: 101.56 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.14195 2.10512 -0.18235
+Br 2.74433 -0.48373 -0.19731
+Br -1.88466 -1.79882 0.01611
+C -0.06949 0.44779 0.18093
+C 0.47514 0.32383 1.57994
+C 1.38431 0.72220 0.45030
+C -0.51771 -0.68156 -0.59603
+H 0.22358 1.08501 2.30903
+H 0.55123 -0.68546 1.96993
+H 1.73031 1.74474 0.39285
+H -0.25881 -0.80814 -1.63835
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.0,91.4,124.9,141.3,210.0,257.6,349.4,436.3,452.0,518.7,599.9,714.6,823.9,922.3,943.6,1010.0,1071.7,1083.8,1121.3,1243.8,1265.4,1370.8,1461.8,3140.6,3212.1,3224.2,3233.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1588,
+    label = "BrC1CC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+5 H  u0 p0 c0 {2,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.05845,-0.00542046,0.000117384,-1.96095e-07,1.05067e-10,7559.47,10.2943], Tmin=(10,'K'), Tmax=(584.711,'K')),
+            NASAPolynomial(coeffs=[0.7419,0.0327367,-2.01861e-05,6.00201e-09,-6.86494e-13,7682.89,22.2538], Tmin=(584.711,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 18.33 kcal/mol
+S298: 70.53 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.03178 0.00000 -0.03990
+C -0.80456 0.00000 0.57232
+C -1.84736 -0.75744 -0.18825
+C -1.84736 0.75744 -0.18825
+H -0.82712 0.00000 1.65357
+H -1.54552 -1.25406 -1.10264
+H -2.59930 -1.28768 0.38667
+H -2.59930 1.28768 0.38667
+H -1.54552 1.25406 -1.10264
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 266.7,302.4,537.9,760.2,811.1,888.7,952.8,1059.6,1072.4,1084.2,1120.0,1187.6,1230.7,1286.9,1460.2,1489.1,3135.5,3138.3,3199.2,3219.4,3233.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1589,
+    label = "BrC(Br)[C]1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {5,S} {8,S} {10,S}
+7  C  u0 p0 c0 {3,S} {4,S} {8,S} {11,S}
+8  C  u1 p0 c0 {5,S} {6,S} {7,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42702,0.0691914,0.000202619,-2.54047e-06,5.79601e-09,37403.2,19.9241], Tmin=(10,'K'), Tmax=(183.655,'K')),
+            NASAPolynomial(coeffs=[7.41477,0.0399634,-2.93097e-05,9.87914e-09,-1.24176e-12,37159.5,4.79776], Tmin=(183.655,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 81.28 kcal/mol
+S298: 114.73 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.64355 2.61624 -0.47715
+Br -2.99588 -1.40443 0.25990
+Br 2.04452 0.07816 1.60625
+Br 1.99868 -1.16519 -1.42009
+C -1.05720 0.70873 -0.67139
+C -1.60361 -0.04688 0.52883
+C 0.97718 -0.94727 0.22973
+C -0.27839 -0.28718 0.01377
+H -1.45839 0.53175 -1.66429
+H -1.77795 0.46765 1.46853
+H 0.87624 -1.93093 0.67810
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 15.1,31.6,65.2,75.6,143.5,179.4,193.0,238.3,312.7,421.1,500.7,586.7,590.1,660.7,779.2,992.2,1012.7,1026.6,1055.8,1124.9,1167.9,1170.9,1237.0,1507.7,3157.0,3161.4,3162.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1590,
+    label = "CC1C(Br)DC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+5  C  u0 p0 c0 {1,S} {3,S} {6,D}
+6  C  u0 p0 c0 {2,S} {3,S} {5,D}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84367,0.0201167,0.000353822,-2.69755e-06,6.19937e-09,32291.2,12.7434], Tmin=(10,'K'), Tmax=(151.333,'K')),
+            NASAPolynomial(coeffs=[4.2267,0.0340118,-2.19846e-05,6.80195e-09,-8.05768e-13,32252.1,10.7101], Tmin=(151.333,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.24 kcal/mol
+S298: 87.45 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.24482 -0.59192 -0.04808
+Br -2.24482 -0.59192 -0.04808
+C 0.00000 1.62197 0.56773
+C 0.00000 2.80613 -0.37786
+C 0.64615 0.30126 0.20416
+C -0.64615 0.30126 0.20416
+H 0.00000 1.90510 1.62542
+H 0.88314 3.43375 -0.21372
+H 0.00000 2.47796 -1.42140
+H -0.88313 3.43375 -0.21372
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 96.2,119.2,139.3,181.4,329.8,374.8,487.4,513.8,576.6,874.1,876.1,995.3,1099.6,1115.7,1220.4,1393.5,1408.5,1485.3,1491.8,1851.4,3026.1,3043.3,3088.7,3111.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1591,
+    label = "BrC1CC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83516,0.0139797,5.94624e-05,-1.29938e-07,7.93298e-11,10136.1,13.0298], Tmin=(10,'K'), Tmax=(548.422,'K')),
+            NASAPolynomial(coeffs=[3.13159,0.0310281,-1.97608e-05,5.9879e-09,-6.93806e-13,10034.1,14.3677], Tmin=(548.422,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 24.25 kcal/mol
+S298: 80.87 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.31266 -0.26121 -0.02165
+Br 2.31266 -0.26121 0.02165
+C -0.55045 0.33010 0.50199
+C 0.00000 1.63737 0.00000
+C 0.55045 0.33010 -0.50199
+H -0.33399 0.03038 1.51816
+H 0.58906 2.21911 0.70032
+H -0.58906 2.21911 -0.70032
+H 0.33399 0.03038 -1.51816
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 124.5,213.5,221.1,356.5,585.8,595.6,870.9,917.3,941.7,984.8,1075.9,1102.5,1106.8,1223.5,1230.2,1310.3,1461.8,3138.5,3208.2,3208.9,3230.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1592,
+    label = "CDC1OC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u0 p0 c0 {4,D} {7,S} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91759,0.00499371,9.42919e-05,-1.94954e-07,1.20764e-10,8268.47,11.8349], Tmin=(10,'K'), Tmax=(540.518,'K')),
+            NASAPolynomial(coeffs=[3.31141,0.0275413,-1.84035e-05,5.86389e-09,-7.11694e-13,8070.16,11.9457], Tmin=(540.518,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 20.19 kcal/mol
+S298: 76.20 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.27540 -0.16625 -0.06282
+O 1.24357 1.21197 -0.35703
+C 0.41853 0.49241 0.58597
+C 1.65490 -0.01655 0.09045
+C 2.64200 -0.87049 -0.05511
+H 0.29923 0.95696 1.55872
+H 3.47038 -0.66036 -0.71925
+H 2.62839 -1.80587 0.48756
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 155.2,291.8,365.2,493.2,634.1,734.0,762.0,836.7,902.9,1045.7,1116.3,1167.2,1263.5,1446.8,1891.6,3174.4,3176.6,3267.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1593,
+    label = "OC1(Br)[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {9,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+6 C  u1 p0 c0 {4,S} {5,S} {8,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68946,0.0250417,0.0001232,-4.59977e-07,4.40658e-10,17532.2,15.0676], Tmin=(10,'K'), Tmax=(389.399,'K')),
+            NASAPolynomial(coeffs=[6.5847,0.0288046,-2.03533e-05,6.74626e-09,-8.40228e-13,17052.7,0.568801], Tmin=(389.399,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 40.00 kcal/mol
+S298: 91.08 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.33315 -0.23933 -0.20125
+Br 2.38707 -0.12297 -0.21249
+O -0.33264 1.74727 -0.01546
+C -0.51716 0.44929 0.33277
+C 0.56625 -0.62936 0.30908
+C 0.02101 -0.09884 1.54314
+H 0.35230 -1.62343 -0.06769
+H 0.30961 0.18459 2.54182
+H -0.30888 1.81481 -0.97974
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 98.6,128.9,195.0,227.5,277.0,342.5,406.4,490.2,583.5,614.4,802.8,925.7,987.4,1039.9,1144.4,1166.8,1269.0,1446.7,3165.3,3269.6,3760.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1594,
+    label = "BrC1COO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9452,0.00341407,9.10087e-05,-1.82661e-07,1.13925e-10,613.698,12.2758], Tmin=(10,'K'), Tmax=(504.361,'K')),
+            NASAPolynomial(coeffs=[1.98461,0.0297843,-1.9601e-05,6.08325e-09,-7.17389e-13,673.832,19.0281], Tmin=(504.361,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 4.84 kcal/mol
+S298: 76.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.27147 0.01829 -0.08557
+O 2.16786 -0.07202 -0.62010
+O 1.36225 -1.07078 0.10953
+C 0.56771 -0.06202 0.67915
+C 1.52243 0.98329 0.14224
+H 0.41036 -0.19045 1.74772
+H 1.11473 1.76581 -0.49775
+H 2.19467 1.39942 0.90115
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 119.7,277.2,288.0,556.8,860.1,896.2,924.1,982.7,1068.0,1092.1,1138.6,1252.4,1278.5,1342.8,1499.8,3042.2,3135.1,3141.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1595,
+    label = "BrCDC1CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,S} {9,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {2,S} {5,D} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69382,0.0267382,2.56614e-05,-7.90163e-08,4.86499e-11,26124.6,14.9078], Tmin=(10,'K'), Tmax=(601.889,'K')),
+            NASAPolynomial(coeffs=[4.51558,0.0334107,-2.12064e-05,6.38913e-09,-7.35758e-13,25805.9,9.5347], Tmin=(601.889,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.65 kcal/mol
+S298: 88.35 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.10977 -0.69394 -0.08486
+Br 2.31307 -0.44724 0.04448
+C -1.12729 2.14540 -0.05679
+C -1.10726 0.79718 0.65329
+C 0.07408 1.28984 -0.02810
+C 1.32279 1.11631 -0.39047
+H -1.16522 3.03929 0.56188
+H -1.68130 2.21611 -0.98893
+H -1.14036 0.76181 1.73597
+H 1.89750 1.83149 -0.96330
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 53.6,152.2,193.5,310.0,352.1,428.4,563.4,696.4,780.8,823.6,935.4,984.7,1015.2,1068.3,1097.1,1116.1,1224.1,1263.5,1451.0,1823.6,3104.9,3176.1,3190.9,3217.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1596,
+    label = "[CH2]C1(Br)CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+5 C  u1 p0 c0 {3,S} {8,S} {9,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85119,0.0112737,0.000121038,-3.4023e-07,2.82983e-10,12409.6,12.7129], Tmin=(10,'K'), Tmax=(407.29,'K')),
+            NASAPolynomial(coeffs=[3.8639,0.0303502,-1.99352e-05,6.27045e-09,-7.52584e-13,12249.3,10.7079], Tmin=(407.29,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 28.99 kcal/mol
+S298: 81.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.15169 -0.06742 0.00475
+O -1.55836 -0.60973 0.81453
+C -0.85073 0.21161 -0.04317
+C -1.60917 -0.92176 -0.59568
+C -1.16563 1.62333 -0.11519
+H -1.07386 -1.81963 -0.89105
+H -2.57210 -0.74082 -1.06782
+H -0.75065 2.23055 -0.90801
+H -1.69262 2.08851 0.70844
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 99.1,261.8,281.5,292.8,392.3,464.1,590.4,765.7,896.8,945.1,1040.1,1104.0,1125.9,1170.1,1390.7,1444.1,1514.1,3102.4,3166.4,3207.6,3285.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1597,
+    label = "BrC1(Br)CC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89515,0.00699284,0.000118746,-2.7963e-07,1.98872e-10,10792.5,12.1183], Tmin=(10,'K'), Tmax=(468.475,'K')),
+            NASAPolynomial(coeffs=[3.33999,0.0310726,-2.02777e-05,6.32946e-09,-7.54555e-13,10632.3,12.1106], Tmin=(468.475,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 25.54 kcal/mol
+S298: 78.68 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61181 -0.49094 -0.00003
+Br 1.61181 -0.49095 0.00003
+C 0.00000 0.57571 0.00000
+C -0.00001 1.86337 0.76016
+C 0.00002 1.86338 -0.76016
+H 0.91417 2.13783 1.27318
+H -0.91422 2.13782 1.27313
+H 0.91422 2.13783 -1.27312
+H -0.91416 2.13784 -1.27316
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 168.8,239.4,275.2,360.4,374.3,617.1,762.3,881.1,927.5,965.2,1066.6,1094.0,1131.0,1175.2,1259.3,1454.2,1480.6,3144.6,3145.6,3229.4,3241.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1598,
+    label = "BrC1DC(Br)C(Br)[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5 C  u1 p0 c0 {4,S} {7,S} {9,S}
+6 C  u0 p0 c0 {2,S} {4,S} {7,D}
+7 C  u0 p0 c0 {3,S} {5,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.49057,0.0494014,-6.01967e-05,4.01252e-08,-1.1189e-11,40074.8,17.4043], Tmin=(10,'K'), Tmax=(823.01,'K')),
+            NASAPolynomial(coeffs=[8.33668,0.0258483,-1.72694e-05,5.35258e-09,-6.26338e-13,39277.2,-5.0315], Tmin=(823.01,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 85.15 kcal/mol
+S298: 98.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.69737 -0.76626 -0.26869
+Br 0.10263 2.16168 0.00963
+Br 2.68554 -0.86260 -0.19278
+C -1.09288 -0.55754 0.86422
+C -0.05283 -1.65539 0.73065
+C -0.00882 0.34771 0.30976
+C 0.88260 -0.73420 0.27142
+H -1.46862 -0.33253 1.86126
+H -0.07765 -2.71969 0.89672
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 63.1,66.8,97.7,203.5,246.3,385.9,433.6,438.4,481.8,532.8,680.5,923.3,935.5,1032.9,1098.1,1180.1,1198.0,1247.4,1477.4,3125.8,3276.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1599,
+    label = "BrC(Br)DC1CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {1,S} {2,S} {5,D}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63764,0.0313806,6.64267e-06,-5.28275e-08,3.67974e-11,25976.4,12.9389], Tmin=(10,'K'), Tmax=(576.441,'K')),
+            NASAPolynomial(coeffs=[4.75373,0.0327576,-2.06767e-05,6.21928e-09,-7.16434e-13,25696.2,6.85477], Tmin=(576.441,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.49 kcal/mol
+S298: 85.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60846 -0.79878 0.00008
+Br 1.60826 -0.79918 -0.00017
+C -0.76605 2.77163 0.00026
+C 0.76677 2.77142 0.00013
+C 0.00019 1.52413 0.00003
+C 0.00002 0.21499 -0.00001
+H -1.27991 3.05915 -0.91308
+H -1.27978 3.05887 0.91376
+H 1.28055 3.05880 -0.91330
+H 1.28073 3.05853 0.91355
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 113.3,168.2,170.3,183.5,331.9,400.3,437.7,751.1,779.4,826.5,887.0,1023.6,1046.7,1079.1,1089.3,1111.7,1163.8,1450.4,1468.5,1831.1,3111.4,3111.5,3186.3,3199.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1600,
+    label = "Br[CH]C1OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+5 C  u1 p0 c0 {1,S} {4,S} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80906,0.01658,2.94514e-05,-8.23058e-08,5.30741e-11,17840,12.0746], Tmin=(10,'K'), Tmax=(570.043,'K')),
+            NASAPolynomial(coeffs=[4.70627,0.0217883,-1.45251e-05,4.52743e-09,-5.34122e-13,17550.8,6.61083], Tmin=(570.043,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.41 kcal/mol
+S298: 78.30 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.23611 -0.14601 0.00016
+O 1.91860 -0.52456 0.74433
+O 1.91845 -0.52454 -0.74483
+C 1.55621 0.60438 -0.00019
+C 0.17102 1.05916 -0.00004
+H 2.29134 1.41356 -0.00025
+H -0.08737 2.10826 -0.00011
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 108.8,152.5,323.8,445.7,566.7,707.5,812.4,835.1,1039.8,1131.5,1269.6,1290.6,1406.6,3091.2,3238.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1601,
+    label = "Br[C]1OCC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
+7 C  u1 p0 c0 {3,S} {4,S} {5,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43183,0.0570869,-0.000103616,1.18421e-07,-5.74785e-11,14203.2,16.9408], Tmin=(10,'K'), Tmax=(491.891,'K')),
+            NASAPolynomial(coeffs=[6.74632,0.0301339,-2.14244e-05,7.02631e-09,-8.62969e-13,13877.1,3.30191], Tmin=(491.891,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 33.89 kcal/mol
+S298: 99.03 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.64964 -1.37610 -0.39679
+Br 0.91323 1.75696 -0.27078
+Br -2.39625 -0.23657 -0.46790
+O -0.98688 -0.23816 1.98531
+C 0.50548 -0.05530 0.48387
+C 0.47156 -0.06502 2.03066
+C -0.91413 -0.39504 0.62690
+H 0.73361 0.87357 2.51583
+H 0.95233 -0.92605 2.49468
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 44.5,93.6,128.0,163.5,246.6,293.5,316.1,365.7,453.6,559.1,902.2,917.7,1025.3,1037.0,1137.7,1176.1,1197.4,1330.8,1490.4,3097.2,3177.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1602,
+    label = "BrC1[C]DCC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+4 C  u0 p0 c0 {2,S} {5,D} {9,S}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94841,0.00299889,9.36022e-05,-1.67934e-07,9.34883e-11,49226.6,12.3341], Tmin=(10,'K'), Tmax=(557.33,'K')),
+            NASAPolynomial(coeffs=[0.886941,0.0358211,-2.39369e-05,7.594e-09,-9.16186e-13,49399.4,23.8024], Tmin=(557.33,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 101.50 kcal/mol
+S298: 76.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.24992 -0.01113 -0.08815
+C -1.59380 0.96630 0.00273
+C -0.57245 -0.03718 0.64802
+C -2.43188 -0.25752 -0.38313
+C -1.51358 -1.07943 0.11880
+H -2.05621 1.64715 0.72593
+H -1.17003 1.52201 -0.83645
+H -0.44997 0.02594 1.72654
+H -3.40056 -0.35843 -0.84918
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 165.9,274.9,365.3,584.8,788.6,836.3,864.7,900.5,962.6,1049.1,1091.1,1127.3,1194.5,1205.3,1220.6,1463.1,1602.8,3035.7,3114.2,3143.0,3250.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1603,
+    label = "OC1DC(Br)C1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {4,S} {8,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87446,0.00982225,9.95297e-05,-2.83145e-07,2.39966e-10,15074.3,11.3011], Tmin=(10,'K'), Tmax=(394.712,'K')),
+            NASAPolynomial(coeffs=[3.65156,0.0263127,-1.72219e-05,5.3954e-09,-6.45408e-13,14981,10.7648], Tmin=(394.712,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 33.98 kcal/mol
+S298: 76.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.38357 -0.12161 0.00003
+O -2.57108 -1.06252 -0.00010
+C -1.44290 1.39675 0.00001
+C -1.66070 -0.09226 -0.00005
+C -0.42478 0.27451 -0.00000
+H -1.61823 1.97408 0.91409
+H -1.61819 1.97414 -0.91405
+H -3.44969 -0.66562 -0.00013
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 162.6,184.3,324.6,357.1,513.1,517.0,756.8,978.6,1078.8,1108.4,1110.3,1185.0,1316.8,1528.0,1980.9,3008.8,3069.6,3808.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1604,
+    label = "CC1DC[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,D}
+4 C  u1 p0 c0 {1,S} {3,S} {5,S}
+5 C  u0 p0 c0 {3,D} {4,S} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {2,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70128,0.0254843,-3.28878e-06,-1.49622e-08,8.63095e-12,49109.4,12.9015], Tmin=(10,'K'), Tmax=(774.177,'K')),
+            NASAPolynomial(coeffs=[4.58028,0.0262977,-1.52402e-05,4.26408e-09,-4.62873e-13,48812.9,7.84946], Tmin=(774.177,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 101.92 kcal/mol
+S298: 82.11 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.35464 -0.16044 -0.04246
+C 2.70157 -0.93492 -0.07228
+C 1.72189 0.15271 0.07346
+C 0.43057 0.54692 0.56303
+C 1.32520 1.39532 -0.16299
+H 2.96711 -1.33304 0.91331
+H 2.24745 -1.75887 -0.63405
+H 3.60869 -0.60814 -0.58560
+H 1.51391 2.35517 -0.61485
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 119.9,123.5,254.4,309.9,400.5,520.7,755.0,820.2,954.2,1019.8,1041.3,1166.1,1230.6,1397.8,1470.4,1473.2,1783.2,3034.0,3093.6,3125.8,3274.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1605,
+    label = "BrC1OC1C(Br)(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {6,S} {7,S}
+6  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {1,S} {5,S} {6,S} {10,S}
+8  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.18334,0.0821144,-0.000191784,2.64276e-07,-1.4807e-10,-496.635,17.7347], Tmin=(10,'K'), Tmax=(435.333,'K')),
+            NASAPolynomial(coeffs=[8.46467,0.0335876,-2.45779e-05,8.21742e-09,-1.02298e-12,-956.462,-3.35248], Tmin=(435.333,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 5.68 kcal/mol
+S298: 107.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.55272 0.11013 0.20718
+Br 1.01529 1.88696 -0.52166
+Br 2.02215 -0.37976 1.51653
+Br 1.13767 -1.18200 -1.44316
+O -1.18218 -1.40756 0.71820
+C -0.63382 -0.09749 0.58194
+C -1.78025 -0.54733 -0.20863
+C 0.78084 0.02420 0.04768
+H -0.81683 0.57048 1.42116
+H -1.71002 -0.82293 -1.25424
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.5,69.5,105.7,134.8,154.6,156.2,221.6,264.0,306.0,366.7,524.7,618.1,719.5,753.6,844.8,948.1,1034.7,1101.8,1134.3,1260.5,1298.0,1418.0,3144.4,3190.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1606,
+    label = "[CH2]C1DCC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3 C  u0 p0 c0 {2,S} {4,D} {5,S}
+4 C  u0 p0 c0 {2,S} {3,D} {7,S}
+5 C  u1 p0 c0 {3,S} {8,S} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89067,0.00681529,0.000114466,-2.51211e-07,1.63899e-10,44856.5,12.5741], Tmin=(10,'K'), Tmax=(520.52,'K')),
+            NASAPolynomial(coeffs=[3.82989,0.0303892,-2.00555e-05,6.36366e-09,-7.72097e-13,44549.8,9.82074], Tmin=(520.52,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 93.22 kcal/mol
+S298: 79.41 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.27460 -0.16195 -0.07089
+C -0.46943 0.54601 0.61616
+C -1.73790 0.05678 0.03242
+C -1.33632 1.30929 -0.26591
+C -2.60797 -0.99144 -0.07222
+H -0.31376 0.75651 1.66964
+H -1.46591 2.22630 -0.81392
+H -2.41020 -1.93116 0.42816
+H -3.51132 -0.90710 -0.66544
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 140.8,267.1,335.1,429.0,437.8,577.0,645.1,789.9,800.2,924.7,1016.9,1064.2,1150.5,1184.7,1225.5,1473.0,1594.7,3145.6,3155.3,3253.8,3284.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1607,
+    label = "BrCC1(Br)CDC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+5  C  u0 p0 c0 {3,S} {6,D} {9,S}
+6  C  u0 p0 c0 {3,S} {5,D} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72311,0.0235346,7.46441e-05,-2.3189e-07,1.87975e-10,30360.1,14.7506], Tmin=(10,'K'), Tmax=(433.811,'K')),
+            NASAPolynomial(coeffs=[4.25063,0.0353056,-2.35769e-05,7.44696e-09,-8.92972e-13,30157.8,10.8421], Tmin=(433.811,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 65.19 kcal/mol
+S298: 88.66 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.65267 -0.86481 -0.03211
+Br 2.05316 -0.24712 -0.11570
+C -0.62755 0.84791 0.17726
+C 0.63538 0.60660 0.96152
+C -0.77589 1.86730 -0.86934
+C -1.39341 2.10781 0.24897
+H 0.47801 -0.05038 1.81376
+H 1.05863 1.55761 1.28486
+H -0.53598 2.12053 -1.88726
+H -2.04923 2.71223 0.85149
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 53.4,123.2,276.8,300.5,313.0,374.7,470.8,639.6,701.7,833.2,889.3,923.4,936.5,1011.5,1049.8,1165.1,1251.7,1262.6,1458.5,1710.3,3097.7,3174.9,3270.6,3318.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1608,
+    label = "CC1DC(Br)[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,D}
+4 C  u1 p0 c0 {3,S} {5,S} {9,S}
+5 C  u0 p0 c0 {1,S} {3,D} {4,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {2,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9181,0.00973427,0.000233795,-1.40774e-06,2.9689e-09,52129.9,12.0606], Tmin=(10,'K'), Tmax=(118.975,'K')),
+            NASAPolynomial(coeffs=[3.32306,0.0297393,-1.84176e-05,5.48104e-09,-6.27861e-13,52144,13.6646], Tmin=(118.975,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 107.91 kcal/mol
+S298: 80.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.36080 -0.15725 0.00583
+C 2.75738 -0.91093 0.02108
+C 1.67382 0.08196 -0.02141
+C 1.32297 1.52449 -0.11946
+C 0.40555 0.41558 -0.03086
+H 3.40794 -0.79724 -0.85440
+H 2.36858 -1.93233 0.04185
+H 3.38706 -0.75491 0.90490
+H 1.50603 2.32163 0.60747
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 127.5,159.7,206.7,361.0,437.1,454.5,675.9,945.1,973.6,1012.6,1050.7,1083.7,1253.1,1401.1,1469.9,1476.4,1848.6,3022.7,3040.1,3075.9,3115.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1609,
+    label = "BrCC1[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+6  C  u1 p0 c0 {3,S} {4,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6336,0.0356306,-9.15712e-06,-1.36492e-08,8.01351e-12,33146.5,15.5109], Tmin=(10,'K'), Tmax=(899.041,'K')),
+            NASAPolynomial(coeffs=[6.89276,0.0309557,-1.7751e-05,4.87985e-09,-5.19315e-13,32163.4,-2.07423], Tmin=(899.041,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.96 kcal/mol
+S298: 92.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.93487 -0.15326 -0.16410
+Br 2.97116 -0.02159 -0.15904
+C 0.08367 0.03033 -0.10006
+C -1.21953 0.23842 0.68914
+C 1.24480 -0.60108 0.61980
+C -0.42616 1.36234 0.25697
+H -0.01794 -0.27947 -1.13983
+H -1.26829 -0.06929 1.72833
+H 1.28875 -0.30881 1.66768
+H 1.24211 -1.68652 0.53093
+H -0.61138 2.28379 -0.27217
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 60.0,100.1,147.2,248.1,290.2,388.1,550.9,565.9,671.8,828.7,857.5,914.3,990.7,1020.9,1073.6,1097.1,1165.8,1186.6,1236.5,1265.6,1386.6,1471.3,3099.7,3110.7,3156.8,3169.9,3255.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1610,
+    label = "CC1(Br)C(Br)DC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+6  C  u0 p0 c0 {2,S} {4,S} {7,D}
+7  C  u0 p0 c0 {3,S} {4,S} {6,D}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.32345,0.0638256,-0.000123222,1.48955e-07,-7.49409e-11,31614.7,15.9516], Tmin=(10,'K'), Tmax=(480.347,'K')),
+            NASAPolynomial(coeffs=[7.27212,0.0309434,-2.05388e-05,6.44069e-09,-7.67478e-13,31235.4,-0.203068], Tmin=(480.347,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 68.78 kcal/mol
+S298: 98.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.00002 2.34035 -0.49917
+Br 2.25240 -1.31184 -0.14689
+Br -2.25237 -1.31188 -0.14689
+C -0.00001 0.74181 0.73207
+C -0.00001 1.21903 2.16529
+C 0.65160 -0.48822 0.23287
+C -0.65159 -0.48824 0.23287
+H -0.88450 1.82801 2.36830
+H 0.00000 0.35535 2.83815
+H 0.88446 1.82803 2.36829
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 72.8,73.2,97.9,141.4,218.3,240.2,301.3,396.5,519.5,520.8,531.7,584.4,873.7,955.4,1073.9,1090.4,1291.0,1407.3,1473.5,1485.5,1827.2,3039.3,3116.8,3126.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1611,
+    label = "BrCC1(Br)O[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+7 C  u1 p0 c0 {3,S} {4,S} {5,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.46685,0.0532958,-7.81129e-05,6.74543e-08,-2.48325e-11,17623.6,17.3473], Tmin=(10,'K'), Tmax=(633.509,'K')),
+            NASAPolynomial(coeffs=[7.33917,0.0288459,-2.02216e-05,6.53312e-09,-7.91368e-13,17133,0.433266], Tmin=(633.509,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 40.65 kcal/mol
+S298: 99.48 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.02643 1.69218 -0.01902
+Br -2.93081 -0.55542 -0.08160
+Br 2.98034 -0.51806 0.04490
+O 0.34276 -0.95475 -1.00922
+C -0.06908 -0.22132 0.17957
+C -1.25849 -0.76131 0.92048
+C 1.15600 -1.00842 0.07859
+H -1.13011 -1.82993 1.08558
+H -1.39149 -0.24047 1.86672
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.5,81.1,93.4,156.2,270.5,306.3,356.3,470.3,549.4,575.2,701.4,724.0,898.1,1018.1,1074.8,1181.2,1250.4,1411.2,1455.2,3107.3,3179.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1612,
+    label = "[CH]DC1CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,D}
+3 C  u0 p0 c0 {2,S} {4,D} {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,D}
+5 C  u1 p0 c0 {2,D} {7,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86233,0.00902616,0.000101857,-2.64292e-07,1.93209e-10,75900,11.6412], Tmin=(10,'K'), Tmax=(491.224,'K')),
+            NASAPolynomial(coeffs=[5.846,0.0198802,-1.37555e-05,4.53433e-09,-5.667e-13,75379.3,0.164659], Tmin=(491.224,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 154.84 kcal/mol
+S298: 77.32 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.28561 -0.13800 -0.00009
+C -1.91755 -0.05262 0.00010
+C -1.38026 1.31830 0.00025
+C -0.50645 0.34641 0.00008
+C -2.90110 -0.88124 0.00006
+H -1.61491 2.36947 0.00036
+H -3.14947 -1.92455 -0.00005
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 164.5,232.3,407.5,420.5,435.8,520.4,680.8,766.9,808.2,935.0,1031.9,1641.3,1844.6,3282.2,3333.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1613,
+    label = "BrC1DC(C(Br)(Br)Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+7  C  u0 p0 c0 {5,S} {6,S} {8,D}
+8  C  u0 p0 c0 {4,S} {5,S} {7,D}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.08116,0.0906944,-0.000237688,3.53472e-07,-2.09438e-10,40157.4,17.843], Tmin=(10,'K'), Tmax=(414.979,'K')),
+            NASAPolynomial(coeffs=[9.26535,0.0310847,-2.22199e-05,7.3204e-09,-9.02537e-13,39644.1,-6.55297], Tmin=(414.979,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 86.65 kcal/mol
+S298: 108.45 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.78911 -0.50367 1.60657
+Br -0.36695 1.89392 0.00010
+Br -1.78933 -0.50359 -1.60631
+Br 3.43646 -0.05924 -0.00031
+C 1.07447 -2.19707 -0.00009
+C -0.73607 -0.02903 0.00007
+C 0.49841 -0.78562 -0.00004
+C 1.78926 -0.88637 -0.00016
+H 1.02810 -2.78575 0.91780
+H 1.02793 -2.78575 -0.91798
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 25.8,57.1,85.8,121.7,149.0,163.7,209.0,275.5,299.3,347.1,442.1,513.0,655.0,696.0,812.0,985.2,1072.7,1093.8,1098.4,1171.2,1515.7,1880.6,3052.8,3130.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1614,
+    label = "BrC1[CH]C(Br)(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+7 C  u1 p0 c0 {5,S} {6,S} {9,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43147,0.0498776,-4.38606e-05,-1.26632e-08,3.19893e-11,15416.4,17.2249], Tmin=(10,'K'), Tmax=(527.076,'K')),
+            NASAPolynomial(coeffs=[8.25526,0.0272149,-1.9052e-05,6.15518e-09,-7.45788e-13,14714.1,-4.79548], Tmin=(527.076,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.28 kcal/mol
+S298: 98.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.96548 -0.18007 -0.02444
+Br 0.89304 1.79633 0.00035
+Br 2.34198 -1.07433 -0.02542
+O -0.27917 -0.60103 -0.95088
+C -1.19920 -1.10210 0.03231
+C 0.59754 -0.14856 0.06431
+C -0.30413 -0.64860 1.11332
+H -1.44063 -2.15443 -0.10878
+H -0.32489 -0.60954 2.18908
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 43.5,120.8,140.4,185.3,256.9,299.5,341.9,358.7,440.6,527.7,723.7,894.3,917.0,957.5,1026.6,1125.1,1187.5,1241.2,1277.9,3124.5,3287.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1615,
+    label = "BrC(Br)C1(Br)CDC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+6  C  u0 p0 c0 {4,S} {7,D} {9,S}
+7  C  u0 p0 c0 {4,S} {6,D} {10,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.3863,0.0530895,-6.11397e-05,3.79588e-08,-9.73178e-12,33319.1,16.7735], Tmin=(10,'K'), Tmax=(902.403,'K')),
+            NASAPolynomial(coeffs=[9.485,0.0260563,-1.62044e-05,4.76207e-09,-5.35017e-13,32218.4,-12.0229], Tmin=(902.403,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 71.97 kcal/mol
+S298: 98.34 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.44915 -0.15833 -0.41638
+Br -0.62387 1.86064 0.23499
+Br -2.10835 -0.94906 -0.34828
+C 0.68193 -0.70883 0.37936
+C -0.39737 0.01898 -0.40445
+C 0.63639 -1.04909 1.79847
+C 0.56105 -2.04669 0.96673
+H -0.15367 0.10406 -1.45711
+H 0.67397 -0.65476 2.79865
+H 0.49533 -3.09942 0.75628
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 32.7,109.5,144.4,180.3,203.4,278.4,306.8,384.0,532.4,637.3,669.1,736.9,841.9,887.5,961.8,1000.8,1059.2,1169.0,1218.4,1260.7,1711.5,3186.3,3279.1,3325.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1616,
+    label = "BrC(Br)C1[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {4,S} {7,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
+7  C  u1 p0 c0 {4,S} {5,S} {11,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.46495,0.0539618,-5.88525e-05,3.77359e-08,-1.0697e-11,36330.4,17.592], Tmin=(10,'K'), Tmax=(774.79,'K')),
+            NASAPolynomial(coeffs=[7.0171,0.0356231,-2.33487e-05,7.18668e-09,-8.39718e-13,35779.9,1.36132], Tmin=(774.79,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.12 kcal/mol
+S298: 101.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.07660 0.12135 -0.23788
+Br 1.45200 1.77435 -0.03555
+Br 1.93254 -1.41487 -0.31076
+C -0.36152 -0.19190 1.00207
+C -1.30616 -0.69336 -0.08481
+C 1.11623 0.00830 0.76208
+C -0.99117 -1.52263 1.05102
+H -0.75519 0.57880 1.66631
+H -0.92178 -0.90627 -1.07612
+H 1.67412 0.01219 1.69445
+H -1.51950 -2.11633 1.77964
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 41.0,69.0,122.7,166.0,202.5,252.4,316.8,430.9,494.2,554.9,664.6,676.7,869.2,886.8,1007.6,1025.2,1041.3,1088.1,1167.4,1169.2,1219.6,1253.6,1374.6,3097.8,3150.4,3169.4,3258.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1617,
+    label = "BrC1(Br)CDCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {6,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6  C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+7  C  u0 p0 c0 {5,S} {8,D} {9,S}
+8  C  u0 p0 c0 {6,S} {7,D} {10,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.24675,0.0690082,-0.000108956,9.41364e-08,-3.32256e-11,26740.9,15.9404], Tmin=(10,'K'), Tmax=(675.892,'K')),
+            NASAPolynomial(coeffs=[10.0213,0.0289157,-1.99796e-05,6.37407e-09,-7.63929e-13,25825.2,-14.0891], Tmin=(675.892,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 59.58 kcal/mol
+S298: 101.21 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.70655 1.58499 -0.24671
+Br -1.70651 -1.58501 -0.24680
+Br 1.70656 -1.58498 -0.24674
+Br 1.70652 1.58502 -0.24671
+C -0.80928 -0.00002 0.46813
+C 0.80927 0.00000 0.46814
+C -0.66923 -0.00006 1.95756
+C 0.66920 -0.00003 1.95757
+H -1.43786 -0.00010 2.71747
+H 1.43782 -0.00001 2.71749
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 43.2,109.8,125.9,161.3,167.1,182.9,246.1,312.8,351.6,382.3,447.7,596.0,810.1,846.2,865.6,876.3,957.4,1044.3,1069.0,1136.1,1298.4,1611.6,3229.4,3258.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1618,
+    label = "Br[C]DC1C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,D}
+5 C  u0 p0 c0 {1,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 C  u1 p0 c0 {3,S} {4,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.3571,0.0626045,-0.000144868,1.78664e-07,-8.74781e-11,80280,17.3057], Tmin=(10,'K'), Tmax=(499.911,'K')),
+            NASAPolynomial(coeffs=[8.78126,0.0192034,-1.46418e-05,4.99759e-09,-6.29122e-13,79737.7,-5.10205], Tmin=(499.911,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 165.12 kcal/mol
+S298: 99.48 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.72495 2.47697 0.00011
+Br -2.60717 -1.58834 0.00011
+Br 3.28855 -0.62825 -0.00000
+C 0.36856 -0.51179 -0.00033
+C -0.54121 0.64690 -0.00070
+C -1.08975 -0.54391 -0.00089
+C 1.51656 -1.11014 0.00065
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 46.5,78.2,86.5,153.4,182.8,332.9,424.4,454.1,514.4,573.0,641.8,887.4,1046.8,1685.9,1900.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1619,
+    label = "BrC(Br)(Br)C1[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+7 C  u1 p0 c0 {4,S} {5,S} {9,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39655,0.0557973,-8.1349e-05,6.57688e-08,-2.1981e-11,23263.7,16.4294], Tmin=(10,'K'), Tmax=(706.137,'K')),
+            NASAPolynomial(coeffs=[8.69781,0.0257678,-1.75595e-05,5.54519e-09,-6.59546e-13,22515,-7.30156], Tmin=(706.137,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 51.98 kcal/mol
+S298: 98.03 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.37440 -0.26861 -1.15436
+Br -1.34093 -1.44875 0.07659
+Br -0.89435 1.72318 -0.10810
+O 1.77614 0.67388 1.84050
+C 0.53190 -0.04016 1.60937
+C -0.00852 -0.00816 0.19378
+C 1.76141 -0.68482 2.01774
+H -0.24683 0.14805 2.34551
+H 2.46000 -1.34408 1.51076
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 70.0,130.3,144.0,171.3,196.8,204.8,285.3,384.1,476.2,674.2,712.7,804.4,868.4,975.8,1033.5,1093.5,1143.6,1306.2,1427.6,3141.8,3167.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1620,
+    label = "Br[C](Br)C1C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6 C  u0 p0 c0 {1,S} {5,S} {7,D}
+7 C  u0 p0 c0 {2,S} {5,S} {6,D}
+8 C  u1 p0 c0 {3,S} {4,S} {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.30284,0.0801611,3.26649e-06,-1.27522e-06,2.93628e-09,56781.8,20.8304], Tmin=(10,'K'), Tmax=(211.235,'K')),
+            NASAPolynomial(coeffs=[8.74987,0.0304867,-2.3701e-05,8.27573e-09,-1.06443e-12,56432.4,0.196815], Tmin=(211.235,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 119.63 kcal/mol
+S298: 115.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.96181 2.30300 -0.11003
+Br 2.12921 -2.19147 -0.20672
+Br -1.24903 -0.11306 1.71791
+Br -2.99865 0.00672 -0.97915
+C -0.10195 -0.00990 -0.96919
+C 1.17149 0.67739 -0.48631
+C 1.21940 -0.61406 -0.51429
+C -1.31970 -0.08468 -0.15260
+H -0.33220 0.00596 -2.03616
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 9.2,34.6,51.8,83.4,147.9,168.7,181.4,259.0,373.7,422.3,526.4,552.5,577.7,827.0,842.6,1032.7,1069.0,1142.9,1353.0,1848.0,3088.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1621,
+    label = "BrC1DC(Br)O[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,D}
+5 C  u1 p0 c0 {3,S} {4,S} {7,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,D}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.60866,0.0341094,-2.48269e-05,-1.40339e-08,2.11579e-11,30167.1,15.0283], Tmin=(10,'K'), Tmax=(574.597,'K')),
+            NASAPolynomial(coeffs=[7.20887,0.0194261,-1.35907e-05,4.36619e-09,-5.25492e-13,29582,-1.83679], Tmin=(574.597,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.62 kcal/mol
+S298: 88.56 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.12272 -0.53123 0.00002
+Br -2.06250 -0.58817 -0.00018
+O -0.85463 2.00787 0.00024
+C 0.71952 0.68140 0.00012
+C 0.56461 2.06097 0.00002
+C -0.68058 0.61197 0.00040
+H 1.10813 2.98997 0.00037
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.2,94.8,239.8,327.2,383.7,402.0,469.5,563.4,812.5,1010.2,1061.3,1118.1,1257.3,1542.8,3295.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1622,
+    label = "BrC1DC[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u1 p0 c0 {4,S} {7,S} {8,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,D}
+7 C  u0 p0 c0 {5,S} {6,D} {9,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45036,0.048096,-3.89708e-05,-1.64318e-08,3.17769e-11,41007.7,16.3841], Tmin=(10,'K'), Tmax=(537.318,'K')),
+            NASAPolynomial(coeffs=[8.08523,0.0272619,-1.89706e-05,6.10089e-09,-7.36596e-13,40312.3,-4.9337], Tmin=(537.318,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.06 kcal/mol
+S298: 96.50 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.25269 -1.60775 -0.33647
+Br -1.25267 1.60776 -0.33646
+Br 2.39871 -0.00001 -0.42050
+C -0.53591 -0.00000 0.52294
+C -0.60235 -0.00001 2.03674
+C 0.96636 -0.00001 0.74143
+C 0.78717 -0.00001 2.13137
+H -1.44040 -0.00002 2.71447
+H 1.48152 -0.00002 2.96043
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.8,95.3,154.7,165.7,291.0,315.9,380.5,405.0,455.1,518.6,717.6,921.4,921.8,946.7,996.2,1056.7,1216.3,1305.8,1439.0,3232.4,3275.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1623,
+    label = "BrC1DC(Br)C(Br)(Br)O1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+7 C  u0 p0 c0 {3,S} {6,S} {8,D}
+8 C  u0 p0 c0 {4,S} {5,S} {7,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.26585,0.0725226,-0.000152613,1.70681e-07,-7.63566e-11,14003.3,17.2004], Tmin=(10,'K'), Tmax=(543.503,'K')),
+            NASAPolynomial(coeffs=[9.85738,0.0240112,-1.87276e-05,6.45576e-09,-8.16308e-13,13286.8,-10.5809], Tmin=(543.503,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 34.08 kcal/mol
+S298: 103.33 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.85598 -0.46386 -1.60323
+Br 1.85599 -0.46393 1.60321
+Br -0.56447 2.35916 0.00003
+Br -2.96677 -1.00060 -0.00001
+O -0.18261 -1.53754 -0.00003
+C 0.76689 -0.42930 -0.00001
+C -0.39782 0.52656 0.00002
+C -1.17987 -0.55998 -0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 55.1,62.4,80.9,124.3,148.8,246.1,296.8,344.2,432.6,449.3,534.8,558.0,773.9,776.7,1006.5,1115.9,1153.3,1674.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1624,
+    label = "C[C]1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {6,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {8,S}
+6  C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+7  C  u0 p0 c0 {8,S} {9,S} {10,S} {11,S}
+8  C  u1 p0 c0 {5,S} {6,S} {7,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.02639,0.0960996,-0.000273168,4.46623e-07,-2.88778e-10,36770.5,17.8216], Tmin=(10,'K'), Tmax=(402.803,'K')),
+            NASAPolynomial(coeffs=[9.00841,0.0327302,-2.24201e-05,7.17771e-09,-8.67548e-13,36320.7,-5.19939], Tmin=(402.803,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (249.434,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 80.03 kcal/mol
+S298: 109.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.76909 1.60713 -0.27106
+Br 1.76628 -1.60193 -0.28262
+Br -1.76641 -1.60182 -0.28258
+Br -1.76898 1.60724 -0.27105
+C 0.76655 0.00206 0.23467
+C -0.76656 0.00210 0.23468
+C 0.00008 -0.03822 2.90491
+C 0.00001 0.00330 1.43979
+H 0.00025 -1.08024 3.25601
+H 0.89388 0.44677 3.30791
+H -0.89380 0.44654 3.30801
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.1,63.4,95.4,115.2,132.9,168.5,174.4,182.4,294.1,394.6,448.4,558.4,622.3,639.7,752.5,961.6,971.0,1004.7,1136.4,1390.7,1458.8,1460.0,1549.3,3006.7,3078.4,3121.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1625,
+    label = "C[C]1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+4  C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+5  C  u0 p0 c0 {6,S} {9,S} {10,S} {11,S}
+6  C  u1 p0 c0 {3,S} {4,S} {5,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.37617,0.0646132,-0.000197719,4.25823e-07,-3.47193e-10,31081,16.41], Tmin=(10,'K'), Tmax=(390.089,'K')),
+            NASAPolynomial(coeffs=[4.15883,0.0380351,-2.41799e-05,7.32182e-09,-8.48871e-13,31161.1,15.1801], Tmin=(390.089,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 67.34 kcal/mol
+S298: 97.75 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.36819 -0.49978 -0.03289
+Br 2.39346 -0.46356 0.02227
+C -0.53912 0.04766 0.53949
+C 0.55248 0.08253 -0.50635
+C -0.09703 2.74418 -0.00830
+C 0.00090 1.28080 0.05182
+H -0.37343 -0.35162 1.53473
+H 0.38644 -0.26415 -1.52134
+H 0.83965 3.18410 -0.36209
+H -0.89068 3.04791 -0.70776
+H -0.34975 3.16971 0.96815
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.3,63.4,100.1,164.6,188.6,259.2,421.7,547.1,557.1,718.6,918.6,973.1,1016.7,1027.3,1035.0,1118.6,1144.1,1177.3,1393.7,1463.0,1466.3,1542.5,2994.6,3067.9,3115.0,3153.7,3157.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1626,
+    label = "BrC(Br)C1OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {5,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68695,0.0331032,-2.72211e-05,1.07441e-08,-1.61048e-12,366.375,14.3021], Tmin=(10,'K'), Tmax=(1219.67,'K')),
+            NASAPolynomial(coeffs=[10.1543,0.0146381,-7.888e-06,2.02195e-09,-2.00905e-13,-1415.41,-19.0203], Tmin=(1219.67,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 5.40 kcal/mol
+S298: 87.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.22206 -1.14106 -0.05751
+Br 1.85294 -0.10173 -0.05741
+O -0.87817 1.90455 -0.89754
+O -1.69467 1.93477 0.36026
+C -0.35730 1.58983 0.33880
+C 0.03401 0.15584 0.63484
+H 0.33659 2.31695 0.77076
+H 0.10503 -0.00769 1.70771
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 72.2,153.0,168.4,200.5,358.1,517.2,643.9,703.7,826.4,913.3,985.5,1139.5,1171.7,1255.7,1320.0,1428.2,3086.8,3146.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1627,
+    label = "OC1(Br)CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {5,S} {10,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+8  H  u0 p0 c0 {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56462,0.0373538,8.80495e-05,-4.03427e-07,4.05815e-10,-5826.62,15.8374], Tmin=(10,'K'), Tmax=(387.194,'K')),
+            NASAPolynomial(coeffs=[7.11684,0.0334449,-2.38294e-05,7.90941e-09,-9.84265e-13,-6347.48,-1.10345], Tmin=(387.194,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -5.83 kcal/mol
+S298: 96.24 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.42353 -0.23552 -0.22455
+Br 2.21268 -0.75660 -0.23036
+Br 0.38568 1.86413 -0.02385
+O -0.50390 -2.24898 -0.05129
+C -0.67937 -0.94767 0.30869
+C -0.09360 -0.54822 1.63057
+C 0.52568 -0.01524 0.35537
+H -0.63321 0.16456 2.24221
+H 0.44324 -1.32211 2.16926
+H -0.41433 -2.30398 -1.01241
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 85.4,105.3,158.8,186.7,248.2,317.0,354.0,363.5,405.9,498.8,583.6,697.2,852.1,917.2,968.6,1044.0,1090.8,1160.6,1264.9,1390.6,1450.7,3140.8,3238.7,3763.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1628,
+    label = "BrCC1(Br)OC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {5,S} {6,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6  C  u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+7  C  u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+8  H  u0 p0 c0 {6,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5152,0.0494536,-5.52347e-05,3.61127e-08,-1.0396e-11,-6896,16.5246], Tmin=(10,'K'), Tmax=(766.851,'K')),
+            NASAPolynomial(coeffs=[6.84216,0.0320997,-2.12897e-05,6.60236e-09,-7.75419e-13,-7406.26,1.35713], Tmin=(766.851,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -8.09 kcal/mol
+S298: 97.64 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.94003 -1.37167 -0.26099
+Br -2.60869 -0.15308 -0.20672
+Br 0.85107 2.10913 -0.10162
+O -0.53271 -1.62792 1.10804
+C 0.26780 -0.66698 0.44078
+C -0.97056 -1.17557 -0.15183
+C 0.40031 0.66120 1.13558
+H -0.94771 -1.89584 -0.96234
+H 1.19047 0.62838 1.88316
+H -0.55065 0.92553 1.59415
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 42.8,93.5,124.0,185.6,228.2,300.5,368.1,399.1,591.0,673.7,691.1,782.8,865.6,932.7,1055.4,1122.9,1187.0,1250.9,1279.2,1408.6,1457.3,3111.2,3179.8,3182.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1629,
+    label = "BrCC1D[C]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+3 C  u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {2,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78308,0.020598,1.3754e-05,-3.54711e-08,1.70084e-11,58490.2,12.9187], Tmin=(10,'K'), Tmax=(778.488,'K')),
+            NASAPolynomial(coeffs=[4.21024,0.0272068,-1.59428e-05,4.48646e-09,-4.88307e-13,58157,9.2515], Tmin=(778.488,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 120.41 kcal/mol
+S298: 81.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30942 -0.17525 -0.05354
+C -2.43831 -0.80032 0.31897
+C -0.23636 1.02369 0.35321
+C -1.49215 0.44189 -0.06975
+C -2.58710 0.25972 -0.71427
+H -3.00057 -0.75322 1.25242
+H -2.09762 -1.79734 0.03857
+H -0.17951 1.18050 1.42962
+H -0.02853 1.95384 -0.17565
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 84.3,131.0,294.3,366.5,585.0,616.1,758.7,874.4,974.0,999.6,1046.8,1068.1,1154.5,1217.7,1455.4,1502.0,1889.8,3063.5,3093.5,3146.7,3157.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1630,
+    label = "BrC(Br)[C]1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {4,S} {7,S} {10,S}
+6  C  u0 p0 c0 {2,S} {3,S} {7,S} {11,S}
+7  C  u1 p0 c0 {4,S} {5,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68267,0.040328,0.000353268,-3.16926e-06,7.45757e-09,35063.2,17.4814], Tmin=(10,'K'), Tmax=(159.672,'K')),
+            NASAPolynomial(coeffs=[5.28786,0.040532,-2.83302e-05,9.25936e-09,-1.14004e-12,34960.4,11.0689], Tmin=(159.672,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 75.72 kcal/mol
+S298: 103.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.01525 -0.08581 -0.26937
+Br 0.81498 1.77414 0.16256
+Br 2.58810 -0.93402 -0.19575
+C -0.81644 -1.21366 1.48378
+C -1.57442 -1.34015 0.15864
+C 0.80087 -0.12822 -0.47206
+C -0.20362 -0.90102 0.19720
+H -0.55699 -2.13682 2.00158
+H -1.07608 -0.38759 2.14517
+H -1.84675 -2.32108 -0.21627
+H 0.66736 -0.05682 -1.54633
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 17.3,37.5,114.9,148.2,171.0,264.1,303.8,400.4,493.8,518.1,626.3,736.0,862.9,951.3,1002.6,1039.7,1063.4,1089.9,1139.2,1191.1,1244.8,1432.7,1514.3,3077.1,3151.8,3161.3,3173.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1631,
+    label = "ODC1C(Br)DC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,D}
+4 C  u0 p0 c0 {3,D} {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.62594,0.0322189,-4.0147e-05,2.52491e-08,-6.34123e-12,21146.9,13.3741], Tmin=(10,'K'), Tmax=(943.882,'K')),
+            NASAPolynomial(coeffs=[8.45434,0.011757,-7.62918e-06,2.28156e-09,-2.57958e-13,20235.4,-9.64133], Tmin=(943.882,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 46.40 kcal/mol
+S298: 83.58 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.18404 -0.57787 0.00000
+Br -2.18414 -0.57772 0.00000
+O 0.00032 2.97224 0.00000
+C 0.00021 1.78324 0.00000
+C 0.67049 0.49734 0.00000
+C -0.67055 0.49741 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 88.9,134.4,158.6,342.3,489.2,539.7,640.7,653.8,956.2,1000.5,1645.3,1988.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1632,
+    label = "BrC(Br)(Br)C1DCC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6  C  u0 p0 c0 {4,S} {5,S} {7,D}
+7  C  u0 p0 c0 {4,S} {6,D} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.33332,0.0643048,-0.000121141,1.42687e-07,-7.03929e-11,38048.3,15.1633], Tmin=(10,'K'), Tmax=(487.794,'K')),
+            NASAPolynomial(coeffs=[7.271,0.0320151,-2.18478e-05,6.98382e-09,-8.43372e-13,37664.1,-1.00704], Tmin=(487.794,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 81.63 kcal/mol
+S298: 97.49 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.71974 -1.60616 -0.74671
+Br 1.94799 0.00006 0.05254
+Br -0.71984 1.60601 -0.74691
+C -1.65475 0.00012 2.44561
+C -0.01070 0.00001 0.15888
+C -0.45267 0.00008 1.54158
+C -0.19096 0.00018 2.80774
+H -2.23763 0.91611 2.55678
+H -2.23759 -0.91588 2.55693
+H 0.53528 0.00030 3.60128
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 86.2,94.2,105.9,153.4,154.8,196.2,296.9,364.1,386.0,628.8,682.7,772.9,787.6,989.9,1004.8,1025.2,1073.7,1102.4,1191.8,1519.1,1838.6,3051.1,3124.7,3296.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1633,
+    label = "[CH2]C1DC(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {4,D} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,D}
+5 C  u1 p0 c0 {3,S} {6,S} {7,S}
+6 H  u0 p0 c0 {5,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89675,0.00657605,9.23975e-05,-2.17237e-07,1.48506e-10,32551.7,12.4751], Tmin=(10,'K'), Tmax=(508.651,'K')),
+            NASAPolynomial(coeffs=[4.6069,0.0220103,-1.51021e-05,4.89782e-09,-6.01573e-13,32207.6,6.8563], Tmin=(508.651,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 68.48 kcal/mol
+S298: 77.73 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.31192 -0.14177 -0.04739
+O 1.22860 1.25177 -0.14870
+C 1.70825 -0.05932 0.11005
+C 0.42747 0.33179 0.52503
+C 2.79644 -0.76102 -0.09890
+H 3.65797 -0.32718 -0.58976
+H 2.83767 -1.79384 0.22114
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 154.2,277.9,365.7,458.4,567.1,697.0,725.8,838.0,932.8,1091.6,1174.6,1443.6,1887.8,3173.0,3265.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1634,
+    label = "BrC1(Br)[CH]OC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+6 C  u1 p0 c0 {3,S} {4,S} {9,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.54682,0.0382059,-3.38785e-05,1.56247e-08,-2.94595e-12,13492.9,14.4025], Tmin=(10,'K'), Tmax=(1202.29,'K')),
+            NASAPolynomial(coeffs=[9.08496,0.0197808,-1.08911e-05,2.87833e-09,-2.95537e-13,12161.2,-13.3361], Tmin=(1202.29,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 31.75 kcal/mol
+S298: 88.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61126 -0.68851 -0.00003
+Br 1.61100 -0.68897 -0.00005
+O 0.00068 2.60378 0.10816
+C -0.00000 0.49361 0.03988
+C 0.00024 1.63844 -0.99902
+C 0.00019 1.57009 1.00292
+H 0.90516 1.73114 -1.59870
+H -0.90480 1.73169 -1.59845
+H 0.00078 1.70604 2.07217
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 73.2,158.0,205.4,241.7,298.6,320.1,361.7,550.7,863.3,903.9,1031.5,1036.4,1123.2,1140.9,1149.4,1268.0,1388.5,1489.4,3096.5,3173.0,3271.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1635,
+    label = "BrCC1OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87125,0.0153887,2.23022e-05,-4.37438e-08,1.99311e-11,-4461.36,12.0732], Tmin=(10,'K'), Tmax=(798.987,'K')),
+            NASAPolynomial(coeffs=[4.41498,0.0237367,-1.41529e-05,4.01492e-09,-4.38351e-13,-4901.59,7.36086], Tmin=(798.987,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -4.98 kcal/mol
+S298: 78.21 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.41159 -0.09717 0.01228
+O 1.98944 -0.94819 -0.26243
+O 2.68294 0.34894 0.00838
+C 1.39087 0.08196 0.44460
+C 0.29333 0.84224 -0.24296
+H 1.26969 -0.08428 1.51759
+H 0.16619 1.83540 0.18738
+H 0.48562 0.89866 -1.31216
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 84.2,187.8,351.1,435.5,666.1,796.0,870.8,922.6,1031.6,1148.2,1180.0,1243.4,1305.8,1438.1,1467.3,3102.0,3104.4,3184.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1636,
+    label = "Br[C]1C(Br)CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {5,S} {8,S} {11,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+8  C  u1 p0 c0 {4,S} {6,S} {7,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45068,0.0636791,0.000117934,-1.50893e-06,3.13924e-09,27044.6,18.7393], Tmin=(10,'K'), Tmax=(203.149,'K')),
+            NASAPolynomial(coeffs=[6.76072,0.041128,-3.02753e-05,1.02553e-08,-1.29497e-12,26822.1,5.88116], Tmin=(203.149,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 60.44 kcal/mol
+S298: 110.09 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.98447 -0.70178 -0.32919
+Br -1.21848 -1.33569 1.42158
+Br -2.41546 0.19886 -1.14024
+Br 0.43214 2.16110 0.68084
+C 0.17118 -1.27982 -1.23140
+C 1.23629 -0.15135 -1.12319
+C -0.75251 -0.45509 -0.28480
+C 0.31697 0.55403 -0.20596
+H 0.48482 -2.23188 -0.80796
+H -0.23493 -1.41916 -2.23289
+H 1.52537 0.35766 -2.04144
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 24.6,58.2,81.3,113.4,136.6,183.0,263.9,322.3,358.6,417.6,467.7,477.9,584.2,846.1,908.7,961.8,1019.9,1099.3,1117.4,1146.7,1185.8,1240.7,1262.7,1462.0,3101.9,3116.4,3172.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1637,
+    label = "Br[CH]C1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+7  C  u1 p0 c0 {3,S} {4,S} {11,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39403,0.0557495,-6.34752e-05,4.15718e-08,-1.16978e-11,30705.9,17.4264], Tmin=(10,'K'), Tmax=(803.144,'K')),
+            NASAPolynomial(coeffs=[7.95869,0.0330154,-2.10154e-05,6.32694e-09,-7.26876e-13,29972.7,-3.5948], Tmin=(803.144,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 66.99 kcal/mol
+S298: 101.15 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.43715 1.65321 -0.01455
+Br 2.68975 -0.64309 -0.10557
+Br -2.95587 -0.25034 0.02364
+C -0.20968 -1.28489 -0.21482
+C 0.10015 -1.00109 1.24687
+C 0.82487 -0.21952 0.20615
+C -1.48253 -0.99328 -0.85585
+H 0.27971 -2.16031 -0.63656
+H -0.65941 -0.47346 1.81334
+H 0.65486 -1.74719 1.80394
+H -1.65800 -1.21860 -1.89773
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 39.5,87.3,135.4,155.8,189.1,287.5,313.1,376.7,447.9,508.9,658.6,673.9,788.1,830.1,945.5,1041.2,1082.5,1094.2,1133.5,1236.4,1283.7,1362.4,1458.8,3129.1,3139.5,3231.2,3232.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1638,
+    label = "BrCC1DC(Br)[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
+5 C  u0 p0 c0 {4,S} {6,S} {7,D}
+6 C  u1 p0 c0 {3,S} {5,S} {7,S}
+7 C  u0 p0 c0 {2,S} {5,D} {6,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59113,0.0493989,0.000164126,-1.88653e-06,4.24621e-09,54789.9,17.9706], Tmin=(10,'K'), Tmax=(182.784,'K')),
+            NASAPolynomial(coeffs=[6.24518,0.0317755,-2.32566e-05,7.83083e-09,-9.8384e-13,54625.3,7.82803], Tmin=(182.784,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 114.68 kcal/mol
+S298: 103.16 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.89576 -0.84959 -0.17842
+Br 0.07976 2.39492 -0.04556
+Br 2.82678 -1.09250 -0.19806
+C -1.19143 -1.58658 0.46927
+C -0.13129 -0.58490 0.54820
+C 1.28476 -0.37072 0.82457
+C 0.35862 0.63542 0.41427
+H -1.39176 -2.02093 1.45070
+H -0.90947 -2.38741 -0.21685
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 29.0,53.4,74.4,105.7,199.3,308.2,426.7,463.5,496.5,522.9,666.4,829.6,858.0,1075.3,1149.5,1219.7,1241.8,1442.7,1827.1,3079.7,3132.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1639,
+    label = "BrC(Br)(Br)C1(Br)[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 O  u0 p2 c0 {6,S} {8,S}
+6 C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+7 C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+8 C  u1 p0 c0 {5,S} {6,S} {9,S}
+9 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.14387,0.077506,-0.000145843,1.4202e-07,-5.48828e-11,26113.2,18.0369], Tmin=(10,'K'), Tmax=(629.038,'K')),
+            NASAPolynomial(coeffs=[11.6278,0.0235575,-1.71983e-05,5.67994e-09,-6.96756e-13,25045.8,-18.9602], Tmin=(629.038,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 58.54 kcal/mol
+S298: 106.74 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.49242 0.18151 -0.06998
+Br -0.34473 -1.47702 -1.31429
+Br -0.32968 -0.73063 1.81242
+Br -2.14319 0.90760 -0.22073
+O 0.61650 2.25548 0.31361
+C 0.72654 0.95181 -0.26986
+C -0.43014 -0.02090 -0.00810
+C 0.56936 2.14110 -1.06387
+H 1.25456 2.67303 -1.71764
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.3,101.5,110.8,144.5,164.8,181.4,222.0,264.8,322.3,338.6,422.5,605.3,700.5,719.9,783.4,867.7,930.7,1061.0,1117.0,1405.8,3168.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1640,
+    label = "Br[C](Br)C1(Br)CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {5,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
+8  C  u1 p0 c0 {3,S} {4,S} {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.17956,0.0828348,-0.000189709,2.72031e-07,-1.60911e-10,30644.1,18.9766], Tmin=(10,'K'), Tmax=(411.452,'K')),
+            NASAPolynomial(coeffs=[7.75942,0.0383111,-2.73938e-05,9.03682e-09,-1.11566e-12,30267.3,0.948558], Tmin=(411.452,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 67.68 kcal/mol
+S298: 110.16 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.91078 2.31879 0.45706
+Br 2.81030 -0.42841 -0.28153
+Br -0.40753 -1.23781 1.62948
+Br -1.88247 -1.17958 -1.21369
+C 0.05984 0.78290 -0.37574
+C 0.68229 1.08063 -1.71813
+C 1.54719 1.01001 -0.49341
+C -0.54073 -0.50431 -0.08636
+H 0.72445 0.25198 -2.41659
+H 0.50711 2.05336 -2.16233
+H 1.94373 1.92490 -0.07556
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.0,64.1,86.6,103.2,143.7,176.1,203.2,329.5,354.3,380.4,444.5,552.5,605.3,815.5,856.6,927.6,943.3,1007.6,1075.2,1090.6,1135.0,1259.9,1350.5,1460.1,3141.3,3211.2,3234.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1641,
+    label = "BrC(Br)DC1CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+7  C  u0 p0 c0 {5,S} {6,S} {8,D}
+8  C  u0 p0 c0 {3,S} {4,S} {7,D}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.19847,0.0790079,-0.000169779,2.12194e-07,-1.08045e-10,31858.8,17.7833], Tmin=(10,'K'), Tmax=(477.269,'K')),
+            NASAPolynomial(coeffs=[8.75458,0.0324417,-2.34265e-05,7.76193e-09,-9.59968e-13,31328.4,-4.91193], Tmin=(477.269,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.93 kcal/mol
+S298: 106.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.16270 -0.01899 -1.61795
+Br 2.16277 -0.01901 1.61792
+Br -2.96708 -1.03910 0.00000
+Br -1.45564 1.79884 0.00002
+C 0.59070 -1.96621 -0.00001
+C 1.27037 -0.60288 0.00001
+C -0.17362 -0.70660 0.00003
+C -1.33190 -0.08501 0.00002
+H 0.63532 -2.54841 0.91731
+H 0.63528 -2.54838 -0.91734
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 44.8,47.9,58.1,120.8,172.2,208.9,270.7,315.9,351.0,364.6,487.7,521.2,632.5,800.2,871.0,976.5,1026.0,1033.6,1074.1,1159.0,1445.0,1800.1,3104.6,3190.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1642,
+    label = "BrC1C(Br)C1C(Br)(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {9,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {1,S} {6,S} {8,S} {11,S}
+8  C  u0 p0 c0 {2,S} {6,S} {7,S} {12,S}
+9  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.24322,0.0870897,7.87495e-05,-1.68635e-06,3.63724e-09,15857.2,18.2967], Tmin=(10,'K'), Tmax=(208.745,'K')),
+            NASAPolynomial(coeffs=[8.52808,0.0442349,-3.30593e-05,1.12995e-08,-1.43494e-12,15509.3,-1.96861], Tmin=(208.745,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.24 kcal/mol
+S298: 116.11 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.64867 -1.81271 -0.12672
+Br 2.64868 1.81271 -0.12672
+Br -1.95028 -1.60349 -0.90831
+Br -1.73552 0.00001 1.84576
+Br -1.95029 1.60347 -0.90833
+C 0.29349 0.00000 -0.23892
+C 1.25138 -0.75220 0.64723
+C 1.25138 0.75221 0.64723
+C -1.20303 0.00000 -0.04650
+H 0.55478 0.00001 -1.29236
+H 0.87065 -1.22281 1.54472
+H 0.87065 1.22281 1.54472
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.9,57.4,77.4,89.1,125.1,139.4,149.8,169.8,227.9,270.6,329.6,401.2,480.1,579.4,630.8,689.5,782.3,925.6,929.7,1000.9,1053.3,1084.0,1101.1,1203.5,1252.2,1253.0,1386.8,3169.4,3193.6,3200.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1643,
+    label = "BrCC1[C](Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+7  C  u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
+8  C  u1 p0 c0 {4,S} {5,S} {6,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45004,0.0672074,0.000244313,-2.90647e-06,6.74679e-09,36864.9,18.6561], Tmin=(10,'K'), Tmax=(178.265,'K')),
+            NASAPolynomial(coeffs=[7.37474,0.0393864,-2.85012e-05,9.51403e-09,-1.18755e-12,36629.3,3.80493], Tmin=(178.265,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 80.17 kcal/mol
+S298: 112.02 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.47900 -0.79628 -1.27044
+Br 1.53004 -0.25742 1.76318
+Br -3.26151 -0.97824 -0.15548
+Br -0.51925 2.39458 -0.24148
+C -0.43349 -0.69997 -0.50665
+C 1.00453 -0.25620 -0.10813
+C -1.42248 -1.16583 0.53190
+C 0.04711 0.68486 -0.60311
+H -0.48369 -1.26423 -1.43898
+H -1.38052 -0.58061 1.44677
+H -1.29922 -2.22465 0.75568
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 33.6,36.7,74.6,104.5,124.4,130.1,193.5,238.3,401.2,427.2,480.0,543.1,596.5,696.6,859.1,870.2,960.6,1041.2,1128.4,1141.1,1234.6,1306.4,1403.2,1471.3,3094.2,3107.9,3184.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1644,
+    label = "BrC1DC(Br)C1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,D}
+6 C  u0 p0 c0 {3,S} {4,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56228,0.0418675,-6.48399e-05,5.62375e-08,-2.02025e-11,37583.6,15.6615], Tmin=(10,'K'), Tmax=(658.982,'K')),
+            NASAPolynomial(coeffs=[7.27224,0.0193482,-1.35805e-05,4.38032e-09,-5.29265e-13,37094.6,-0.689686], Tmin=(658.982,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 79.55 kcal/mol
+S298: 91.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.00002 2.46794 -0.13874
+Br -2.25518 -1.23788 -0.08905
+Br 2.25520 -1.23785 -0.08905
+C -0.00001 0.75962 0.87897
+C -0.65148 -0.44242 0.32354
+C 0.65148 -0.44241 0.32356
+H -0.00001 1.02382 1.93293
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 74.4,75.7,111.6,270.3,392.4,428.6,526.0,573.1,584.1,975.8,1030.4,1150.2,1255.6,1830.9,3139.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1645,
+    label = "BrC1DC(Br)C1(Br)C(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
+8  C  u0 p0 c0 {4,S} {6,S} {9,D}
+9  C  u0 p0 c0 {5,S} {6,S} {8,D}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.14737,0.0977266,-2.28051e-05,-1.39862e-06,3.27788e-09,37668.4,18.9773], Tmin=(10,'K'), Tmax=(213.643,'K')),
+            NASAPolynomial(coeffs=[9.90929,0.0347509,-2.73742e-05,9.6285e-09,-1.24392e-12,37234.2,-6.60672], Tmin=(213.643,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.48 kcal/mol
+S298: 117.38 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.39352 -0.00000 2.10839
+Br -2.18211 -1.62171 -0.56446
+Br -2.18211 1.62171 -0.56446
+Br 2.24165 -2.25479 -0.38274
+Br 2.24165 2.25479 -0.38274
+C 0.09360 -0.00000 0.19560
+C -1.10166 0.00000 -0.73477
+C 1.36681 -0.65129 -0.20770
+C 1.36681 0.65129 -0.20770
+H -0.74798 0.00000 -1.76235
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 28.6,44.8,65.0,75.8,84.3,108.7,143.5,156.2,227.9,314.8,466.9,478.0,511.8,558.6,587.8,685.5,722.0,972.8,986.1,1170.5,1172.3,1257.6,1827.7,3150.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1646,
+    label = "Br[C]1C(Br)DC(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {9,S}
+6 C  u1 p0 c0 {2,S} {5,S} {8,S}
+7 C  u0 p0 c0 {3,S} {5,S} {8,D}
+8 C  u0 p0 c0 {4,S} {6,S} {7,D}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39549,0.0718708,7.71103e-05,-1.75413e-06,4.10599e-09,41123.7,18.8343], Tmin=(10,'K'), Tmax=(193.098,'K')),
+            NASAPolynomial(coeffs=[7.83274,0.0325046,-2.53071e-05,8.82694e-09,-1.1334e-12,40854.4,2.18761], Tmin=(193.098,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 88.28 kcal/mol
+S298: 110.19 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.40113 -2.65645 -0.49076
+Br -2.85324 -0.33064 0.31851
+Br 2.81278 0.38279 0.32662
+Br -0.35682 2.68346 -0.42471
+C 0.11730 -1.08347 0.65353
+C -1.01871 -0.16118 0.24492
+C 0.98950 0.12510 0.35705
+C -0.12929 0.89997 0.04186
+H 0.11234 -1.45332 1.67780
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.1,44.0,73.7,85.3,111.1,189.4,247.7,249.5,450.4,492.1,504.6,580.0,668.9,950.2,954.6,1086.4,1157.5,1185.0,1244.2,1500.6,3128.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1647,
+    label = "BrC(Br)C1DCC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {2,S} {5,S} {9,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {3,S} {5,D} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6769,0.0367726,-2.56044e-05,8.71866e-09,-1.16477e-12,33860,14.4216], Tmin=(10,'K'), Tmax=(1998.32,'K')),
+            NASAPolynomial(coeffs=[4.42697,0.0292373,-1.54191e-05,3.80968e-09,-3.61597e-13,34764.9,13.2981], Tmin=(1998.32,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 72.29 kcal/mol
+S298: 89.95 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.22895 -1.26429 -0.09191
+Br -1.81855 -0.11437 -0.01084
+C 1.70207 2.42500 0.24688
+C 0.03415 0.17971 0.56161
+C 0.54014 1.47003 0.12714
+C 0.43362 2.56238 -0.55453
+H 2.63813 2.19113 -0.26400
+H 1.83255 3.00443 1.16313
+H 0.03720 0.05558 1.64082
+H -0.13182 3.17931 -1.23032
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 74.8,105.5,150.8,179.0,316.6,372.5,589.2,651.8,757.0,788.4,985.6,998.9,1023.8,1072.3,1101.3,1145.2,1152.8,1245.3,1522.7,1856.8,3045.6,3116.0,3152.0,3295.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1648,
+    label = "Br[CH]C1DCC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u0 p0 c0 {2,S} {4,D} {5,S}
+4 C  u0 p0 c0 {2,S} {3,D} {8,S}
+5 C  u1 p0 c0 {1,S} {3,S} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89735,0.00678218,0.0001177,-2.73445e-07,1.91937e-10,45983.2,12.0196], Tmin=(10,'K'), Tmax=(474.471,'K')),
+            NASAPolynomial(coeffs=[3.31217,0.0310641,-2.02341e-05,6.30842e-09,-7.51719e-13,45820.9,12.1114], Tmin=(474.471,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 95.46 kcal/mol
+S298: 78.37 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.37597 -0.10996 -0.00007
+C -2.21889 -0.96706 0.00007
+C -1.43908 0.31944 0.00008
+C -2.78181 0.41008 0.00015
+C -0.21704 0.90241 0.00004
+H -2.25002 -1.56734 0.91244
+H -2.25010 -1.56727 -0.91234
+H -3.66492 1.02320 0.00021
+H -0.05294 1.97082 0.00008
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 143.4,174.0,326.9,393.9,477.9,656.0,664.9,784.7,953.3,983.7,1034.5,1068.1,1108.4,1212.1,1256.1,1489.3,1604.4,3039.9,3103.5,3221.8,3290.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1649,
+    label = "BrCDC1CDC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,D}
+3 C  u0 p0 c0 {2,S} {4,D} {6,S}
+4 C  u0 p0 c0 {2,S} {3,D} {7,S}
+5 C  u0 p0 c0 {1,S} {2,D} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90634,0.00580255,9.8554e-05,-2.14149e-07,1.38286e-10,47237,11.0973], Tmin=(10,'K'), Tmax=(525.34,'K')),
+            NASAPolynomial(coeffs=[3.79331,0.026597,-1.77372e-05,5.65575e-09,-6.87409e-13,46973.8,8.95178], Tmin=(525.34,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 97.71 kcal/mol
+S298: 75.20 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.36089 -0.10948 0.00000
+C -1.44682 0.26693 -0.00000
+C -2.88618 0.26363 -0.00000
+C -2.27924 -0.90301 0.00000
+C -0.27887 0.87841 -0.00000
+H -3.80437 0.82633 -0.00000
+H -2.34166 -1.97767 0.00000
+H -0.13831 1.94744 -0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 144.8,228.0,384.8,449.2,681.1,691.1,710.3,873.8,907.5,926.5,1052.3,1088.1,1245.4,1596.7,1855.2,3244.8,3264.7,3309.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1650,
+    label = "BrC1[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+5 C  u1 p0 c0 {3,S} {4,S} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81041,0.0235024,0.000198712,-1.59354e-06,3.48518e-09,37579.8,13.7884], Tmin=(10,'K'), Tmax=(167.148,'K')),
+            NASAPolynomial(coeffs=[4.50239,0.0273615,-1.91603e-05,6.29148e-09,-7.78397e-13,37528.1,10.8345], Tmin=(167.148,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 79.34 kcal/mol
+S298: 87.12 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.36820 -0.22274 -0.02767
+Br -2.36822 -0.22272 0.02764
+C 0.54870 0.32016 0.52252
+C -0.54869 0.32024 -0.52244
+C 0.00000 1.53640 0.00014
+H 0.37394 -0.04078 1.53054
+H -0.37394 -0.04055 -1.53052
+H 0.00052 2.61168 -0.00039
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 44.0,110.2,189.9,200.7,369.4,555.0,575.2,900.4,917.3,1001.4,1028.9,1085.7,1153.5,1168.1,1323.7,3159.9,3163.1,3296.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1651,
+    label = "BrC1(Br)CDC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {3,S} {4,D} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85677,0.00980021,0.00010432,-2.85867e-07,2.20943e-10,35132.1,11.9894], Tmin=(10,'K'), Tmax=(462.484,'K')),
+            NASAPolynomial(coeffs=[5.50672,0.0210126,-1.46958e-05,4.83272e-09,-5.9882e-13,34707,2.35533], Tmin=(462.484,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 73.88 kcal/mol
+S298: 78.35 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60971 -0.46615 -0.00011
+Br 1.60971 -0.46615 0.00011
+C 0.00000 0.67148 0.00000
+C -0.00005 1.96869 0.65306
+C 0.00005 1.96870 -0.65305
+H -0.00011 2.48866 1.59535
+H 0.00011 2.48868 -1.59533
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 167.6,256.5,306.8,337.8,364.6,561.3,762.8,902.6,948.1,965.5,1076.8,1183.4,1696.3,3274.1,3319.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1652,
+    label = "Br[C]1CDCC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u1 p0 c0 {3,S} {4,S} {7,S}
+6 C  u0 p0 c0 {4,S} {7,D} {8,S}
+7 C  u0 p0 c0 {5,S} {6,D} {9,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45035,0.0480963,-3.8974e-05,-1.64224e-08,3.17688e-11,41007.6,16.3842], Tmin=(10,'K'), Tmax=(537.334,'K')),
+            NASAPolynomial(coeffs=[8.08534,0.0272616,-1.89702e-05,6.10074e-09,-7.36576e-13,40312.2,-4.93413], Tmin=(537.334,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.06 kcal/mol
+S298: 96.50 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.25269 -1.60775 -0.33646
+Br 1.25267 1.60776 -0.33646
+Br -2.39871 -0.00001 -0.42050
+C 0.53591 0.00000 0.52295
+C -0.96636 -0.00000 0.74143
+C 0.60235 0.00000 2.03674
+C -0.78717 0.00000 2.13137
+H 1.44040 0.00001 2.71447
+H -1.48152 0.00001 2.96043
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.8,95.3,154.7,165.7,291.0,315.9,380.5,405.0,455.1,518.6,717.6,921.4,921.8,946.7,996.2,1056.7,1216.3,1305.8,1439.0,3232.4,3275.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1653,
+    label = "CC1[C](Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
+5  C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+6  C  u1 p0 c0 {2,S} {3,S} {4,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.61801,0.0373294,-1.85574e-05,-6.07111e-11,1.99246e-12,31469,15.2765], Tmin=(10,'K'), Tmax=(1065.64,'K')),
+            NASAPolynomial(coeffs=[8.12333,0.0275237,-1.47564e-05,3.81858e-09,-3.85572e-13,30105.4,-8.63837], Tmin=(1065.64,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 67.65 kcal/mol
+S298: 91.79 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.86905 -0.61079 -0.14259
+Br -1.95500 -0.51728 -0.11640
+C 0.02388 1.72162 0.54392
+C 0.70734 0.41628 1.03417
+C 0.19485 2.26395 -0.85951
+C -0.72826 0.49260 0.84161
+H -0.00926 2.49697 1.31264
+H 1.12689 0.38973 2.03433
+H 0.25850 1.46024 -1.59519
+H 1.10361 2.86996 -0.92918
+H -0.65812 2.89885 -1.11895
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 68.9,111.7,152.3,182.5,388.5,422.2,447.6,490.0,585.1,773.1,895.7,948.1,1007.2,1063.1,1117.0,1131.8,1198.1,1288.7,1388.3,1409.7,1484.3,1490.4,3040.6,3071.4,3104.2,3137.2,3156.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1654,
+    label = "OC1DCC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {4,S} {8,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u0 p0 c0 {3,S} {4,D} {7,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89451,0.00670893,0.00010283,-2.35997e-07,1.59647e-10,11649.4,12.0486], Tmin=(10,'K'), Tmax=(507.247,'K')),
+            NASAPolynomial(coeffs=[4.21913,0.025712,-1.71295e-05,5.46952e-09,-6.65682e-13,11339,7.96838], Tmin=(507.247,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 27.08 kcal/mol
+S298: 77.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.30641 -0.14175 -0.06452
+O 2.50950 -0.97877 -0.12775
+C 0.48869 0.56720 0.61141
+C 1.70639 0.06020 0.01879
+C 1.40568 1.29187 -0.28765
+H 0.30673 0.78665 1.65947
+H 1.57272 2.20784 -0.82271
+H 2.16444 -1.71883 0.38822
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 136.1,265.1,353.4,446.6,488.6,579.2,747.3,789.6,990.2,1026.4,1100.9,1196.1,1233.1,1359.8,1898.6,3135.4,3313.3,3786.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1655,
+    label = "Br[C]DC1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u1 p0 c0 {3,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39953,0.0537955,-7.51141e-05,5.78047e-08,-1.83571e-11,56476.1,16.8248], Tmin=(10,'K'), Tmax=(741.941,'K')),
+            NASAPolynomial(coeffs=[8.78105,0.0247823,-1.64578e-05,5.09961e-09,-5.97951e-13,55677.6,-7.53159], Tmin=(741.941,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 117.88 kcal/mol
+S298: 98.09 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.82581 -1.61691 -0.16524
+Br 1.82589 1.61687 -0.16525
+Br -3.44974 0.00002 -0.12160
+C 0.11574 0.00003 1.64662
+C 0.88463 0.00001 0.34574
+C -0.57423 0.00005 0.31863
+C -1.63912 0.00002 -0.41590
+H 0.10469 -0.91920 2.22622
+H 0.10475 0.91927 2.22621
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.5,94.1,136.2,194.5,218.3,257.5,364.3,405.4,509.0,609.7,625.0,829.9,940.7,952.4,1031.9,1064.3,1168.0,1443.7,1808.3,3109.5,3200.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1656,
+    label = "BrC1[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+6 C  u1 p0 c0 {4,S} {5,S} {8,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.54737,0.04064,1.12866e-05,-2.00256e-07,2.31544e-10,40980.5,16.3346], Tmin=(10,'K'), Tmax=(390.556,'K')),
+            NASAPolynomial(coeffs=[7.47575,0.0243031,-1.7749e-05,5.97282e-09,-7.49343e-13,40491.4,-1.25749], Tmin=(390.556,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 86.75 kcal/mol
+S298: 95.08 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.49148 -0.46793 -0.21562
+Br 0.35131 1.74983 -0.01077
+Br 2.21969 -0.87852 -0.21690
+C -0.70464 -1.08459 0.27810
+C 0.49673 -0.14084 0.37004
+C -0.11332 -0.69753 1.53502
+H -0.54898 -2.06491 -0.16222
+H -0.30705 -0.51559 2.57821
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 87.3,100.6,161.3,189.3,221.3,365.0,394.7,416.3,592.8,644.6,896.9,933.5,1008.5,1086.3,1171.6,1320.0,3147.1,3284.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1657,
+    label = "BrCDC1[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,D} {5,S}
+3 C  u0 p0 c0 {2,S} {5,D} {6,S}
+4 C  u0 p0 c0 {1,S} {2,D} {7,S}
+5 C  u1 p0 c0 {2,S} {3,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88568,0.00788135,9.5135e-05,-2.45392e-07,1.84325e-10,74383.6,12.5781], Tmin=(10,'K'), Tmax=(459.352,'K')),
+            NASAPolynomial(coeffs=[4.30192,0.02309,-1.60283e-05,5.19751e-09,-6.34228e-13,74146.7,8.73103], Tmin=(459.352,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 151.69 kcal/mol
+S298: 78.47 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30960 -0.10244 0.03175
+C -1.51824 0.17409 -0.06157
+C -2.85428 0.19325 0.16847
+C -0.30916 0.82618 -0.15017
+C -2.30718 -1.04130 -0.16179
+H -3.70507 0.78794 0.46349
+H -0.19764 1.88403 -0.34438
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 141.2,156.5,377.4,435.8,573.7,692.8,840.9,863.1,959.7,1090.4,1184.4,1248.1,1644.8,3219.4,3255.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1658,
+    label = "[CH2]C1(Br)CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
+6  C  u1 p0 c0 {3,S} {10,S} {11,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71336,0.0248441,0.000128188,-4.57405e-07,4.49195e-10,28893.7,14.9071], Tmin=(10,'K'), Tmax=(357.794,'K')),
+            NASAPolynomial(coeffs=[4.52023,0.0386989,-2.57975e-05,8.20146e-09,-9.92363e-13,28689.6,9.79752], Tmin=(357.794,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 62.68 kcal/mol
+S298: 91.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.31121 -0.21267 -0.25878
+Br 2.36331 -0.10709 -0.24307
+C -0.50431 0.43384 0.34981
+C 0.00864 -0.22759 1.60765
+C 0.56535 -0.60564 0.25899
+C -0.32096 1.83502 0.04588
+H -0.60845 -0.96224 2.11230
+H 0.61577 0.39389 2.25692
+H 0.32067 -1.57584 -0.14931
+H -0.84405 2.58617 0.62565
+H 0.20022 2.13614 -0.85500
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 113.4,150.1,157.6,203.4,267.5,351.0,382.0,497.4,602.5,640.4,775.8,882.6,923.7,1004.7,1067.1,1075.3,1099.9,1122.5,1252.3,1376.6,1457.8,1464.2,3136.8,3151.6,3214.7,3230.4,3262.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1659,
+    label = "BrC(Br)(Br)C1[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {7,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+7  C  u1 p0 c0 {4,S} {5,S} {11,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.33012,0.0559674,-6.02568e-05,3.50107e-08,-8.41924e-12,37765.7,16.621], Tmin=(10,'K'), Tmax=(956.013,'K')),
+            NASAPolynomial(coeffs=[9.91847,0.0284014,-1.70054e-05,4.84971e-09,-5.32071e-13,36506,-14.8677], Tmin=(956.013,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 81.03 kcal/mol
+S298: 99.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.28225 -0.27594 -1.25077
+Br 1.33471 -1.44456 0.16013
+Br 0.92244 1.72331 -0.07424
+C -0.66116 0.00902 1.57231
+C -2.03392 0.64323 1.84308
+C -0.00518 0.00314 0.21538
+C -1.83205 -0.80690 1.90781
+H 0.08351 0.17047 2.35024
+H -2.10200 1.22360 2.76092
+H -2.60185 1.05798 1.01335
+H -2.30730 -1.64125 1.41521
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 76.0,132.0,138.4,173.0,184.5,203.9,280.6,349.3,434.3,559.4,662.6,670.4,828.2,890.4,907.1,952.6,1044.3,1069.1,1088.2,1117.1,1254.3,1349.5,1454.7,3097.1,3115.5,3175.2,3249.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1660,
+    label = "BrC1D[C]C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5 C  u0 p0 c0 {2,S} {4,S} {7,S} {9,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,D}
+7 C  u1 p0 c0 {5,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.57401,0.0448311,-4.7508e-05,2.71073e-08,-6.51069e-12,52131.5,17.1038], Tmin=(10,'K'), Tmax=(926.758,'K')),
+            NASAPolynomial(coeffs=[7.93528,0.0260073,-1.70409e-05,5.19069e-09,-5.98517e-13,51323.1,-3.60509], Tmin=(926.758,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 108.94 kcal/mol
+S298: 97.26 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.55201 2.18527 0.00314
+Br -2.89921 -0.67632 -0.16599
+Br 2.53036 -1.22928 -0.11525
+C -0.09230 0.35308 -0.30271
+C -1.21386 -0.13697 0.67661
+C 0.77203 -0.76471 0.23790
+C -0.22904 -1.22293 0.99089
+H -0.36056 0.28503 -1.35559
+H -1.47081 0.55581 1.47279
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 61.2,82.3,134.1,207.6,240.7,363.7,437.9,444.5,578.2,715.2,831.3,881.9,1025.0,1082.4,1138.6,1167.2,1180.4,1208.9,1610.4,3131.7,3159.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1661,
+    label = "BrC(Br)C1[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {10,S}
+8  C  u1 p0 c0 {5,S} {6,S} {11,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.16694,0.0803302,-0.000151018,1.65386e-07,-7.45582e-11,40620.5,18.9797], Tmin=(10,'K'), Tmax=(534.403,'K')),
+            NASAPolynomial(coeffs=[9.16687,0.0354208,-2.49634e-05,8.13399e-09,-9.93802e-13,39979.3,-6.2069], Tmin=(534.403,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.62 kcal/mol
+S298: 110.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.95427 0.54641 -0.48087
+Br -0.89242 -1.17177 1.29582
+Br 2.34635 -1.13908 -0.52354
+Br 1.57974 1.82471 0.57765
+C -0.09126 0.34587 -1.23760
+C -1.19988 -0.33949 -0.42044
+C 1.36940 0.51879 -0.87791
+C -0.71258 -0.92860 -1.62710
+H -0.44986 1.24919 -1.73584
+H 1.89701 0.96335 -1.71623
+H -0.42013 -1.90106 -1.98680
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.3,56.9,74.8,123.2,165.5,173.4,225.4,288.3,327.0,378.2,427.2,521.8,569.8,673.1,690.1,836.5,919.7,1005.5,1035.9,1116.5,1173.9,1234.2,1277.3,1362.6,3075.9,3158.0,3274.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1662,
+    label = "BrC1[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,D} {6,S}
+4 C  u1 p0 c0 {2,S} {3,D}
+5 H  u0 p0 c0 {2,S}
+6 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94355,0.00329132,6.17652e-05,-1.22152e-07,7.17242e-11,61692.2,11.169], Tmin=(10,'K'), Tmax=(574.781,'K')),
+            NASAPolynomial(coeffs=[3.59966,0.0188059,-1.29658e-05,4.2426e-09,-5.25718e-13,61515,10.7522], Tmin=(574.781,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 125.89 kcal/mol
+S298: 72.38 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.93859 0.04060 -0.04415
+C -0.90886 -0.36004 0.47253
+C -2.05069 0.58091 0.02224
+C -1.96955 -0.58555 -0.51907
+H -0.87707 -0.80773 1.46089
+H -2.39884 1.57476 0.23009
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 262.7,320.7,561.7,725.4,764.3,895.6,939.3,1037.7,1252.4,1730.2,3152.5,3343.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1663,
+    label = "BrC1[CH]C(Br)(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {4,S} {7,S} {10,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+7  C  u1 p0 c0 {5,S} {6,S} {11,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.41578,0.0511837,-4.8101e-05,2.38113e-08,-4.85764e-12,27994.7,17.74], Tmin=(10,'K'), Tmax=(1106.65,'K')),
+            NASAPolynomial(coeffs=[10.0012,0.0273806,-1.58372e-05,4.37498e-09,-4.66831e-13,26537.1,-14.6983], Tmin=(1106.65,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 61.42 kcal/mol
+S298: 100.39 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.09294 -0.12509 -0.03874
+Br 1.08875 1.80128 -0.00080
+Br 2.31575 -1.17874 -0.03905
+C -0.35396 -0.56641 1.14822
+C -1.31060 -1.04415 0.01908
+C 0.63082 -0.12297 0.02737
+C -0.34488 -0.55072 -0.98273
+H -0.73624 0.26028 1.74404
+H 0.02244 -1.35705 1.79712
+H -1.58100 -2.09917 0.00069
+H -0.33802 -0.50942 -2.06284
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.8,123.3,139.9,177.3,257.1,277.5,345.1,354.0,453.6,496.8,624.4,829.4,888.0,937.3,1001.3,1044.0,1097.0,1115.7,1158.2,1215.9,1245.2,1298.3,1461.4,3100.7,3111.2,3168.2,3237.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1664,
+    label = "BrCC1D[C]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {2,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74945,0.0253164,-2.00477e-05,8.0584e-09,-1.3123e-12,43363.4,12.9259], Tmin=(10,'K'), Tmax=(1370.32,'K')),
+            NASAPolynomial(coeffs=[7.68317,0.0138337,-7.47836e-06,1.94334e-09,-1.96667e-13,42285.3,-7.29132], Tmin=(1370.32,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 90.31 kcal/mol
+S298: 81.49 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.26823 -0.14367 -0.07029
+O -2.09602 -0.80277 0.46854
+C -0.30510 0.98487 0.33858
+C -1.53706 0.28841 -0.02593
+C -2.68636 0.12136 -0.72480
+H -0.26060 1.17578 1.41124
+H -0.18803 1.90686 -0.22646
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 65.3,137.2,301.9,364.9,450.0,628.3,867.0,884.2,1103.5,1213.7,1288.1,1457.2,1706.3,3099.6,3177.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1665,
+    label = "BrC[C]1OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 O  u0 p2 c0 {2,S} {5,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u1 p0 c0 {2,S} {3,S} {4,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81329,0.0197495,1.0906e-06,-1.84362e-08,9.69633e-12,21176.3,12.9977], Tmin=(10,'K'), Tmax=(833.512,'K')),
+            NASAPolynomial(coeffs=[5.84809,0.0182416,-1.10554e-05,3.16359e-09,-3.46972e-13,20550.3,1.83092], Tmin=(833.512,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 46.04 kcal/mol
+S298: 80.51 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.39265 -0.10201 -0.02810
+O -2.01645 -0.96953 0.21041
+O -2.72122 0.35051 -0.11414
+C -0.29069 0.86165 0.23664
+C -1.41272 0.09100 -0.37991
+H -0.43573 0.97270 1.31465
+H -0.18513 1.83384 -0.24160
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 61.9,167.3,343.3,396.6,667.1,752.8,855.0,924.5,965.7,1148.6,1226.9,1440.0,1482.1,3064.9,3160.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1666,
+    label = "BrC1DC(Br)C(Br)(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {8,S}
+6  C  u0 p0 c0 {5,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {3,S} {6,S} {8,D}
+8  C  u0 p0 c0 {4,S} {5,S} {7,D}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.26697,0.0737454,-0.000154555,1.97699e-07,-1.0475e-10,22427.9,17.1257], Tmin=(10,'K'), Tmax=(456.664,'K')),
+            NASAPolynomial(coeffs=[7.77828,0.03423,-2.47589e-05,8.21483e-09,-1.01729e-12,22015.9,-1.10279], Tmin=(456.664,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 50.98 kcal/mol
+S298: 104.11 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.93125 -0.37821 1.60575
+Br 1.93124 -0.37823 -1.60575
+Br -3.09919 -0.84931 0.00001
+Br -0.58623 2.19225 -0.00001
+C 0.81385 -0.52651 0.00000
+C -0.16242 -1.75532 0.00002
+C -1.24600 -0.69640 0.00001
+C -0.40437 0.34774 0.00000
+H -0.10173 -2.37227 0.89845
+H -0.10173 -2.37229 -0.89841
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.6,72.2,84.0,122.0,146.0,236.0,280.0,310.9,417.6,439.2,507.2,545.2,651.4,899.3,938.9,1011.1,1103.6,1108.9,1137.8,1239.1,1471.5,1649.7,3075.1,3137.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1667,
+    label = "CC1CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {9,S}
+5  C  u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+12 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.8628,0.0117587,8.18833e-05,-1.45883e-07,7.81403e-11,3291.28,11.9657], Tmin=(10,'K'), Tmax=(574.038,'K')),
+            NASAPolynomial(coeffs=[0.567589,0.0439204,-2.61979e-05,7.55818e-09,-8.44444e-13,3518.01,24.7138], Tmin=(574.038,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 10.80 kcal/mol
+S298: 79.45 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.41584 -0.13926 -0.02666
+C 1.54642 -0.08221 -0.44012
+C 1.18086 1.33741 -0.05073
+C 0.41792 0.17572 0.51080
+C 2.81929 -0.73297 0.05364
+H 1.24649 -0.36482 -1.44479
+H 1.83027 1.87854 0.63110
+H 0.69308 1.95572 -0.79497
+H 0.53933 -0.08109 1.55528
+H 3.05701 -0.41452 1.07406
+H 2.73287 -1.82464 0.05433
+H 3.66839 -0.46272 -0.58340
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 176.7,202.1,245.6,300.2,401.7,592.9,796.4,842.7,901.9,924.6,1027.1,1066.6,1082.1,1101.5,1134.5,1189.9,1235.7,1259.7,1397.5,1417.5,1478.2,1490.6,1499.9,3027.3,3093.3,3096.5,3128.3,3155.2,3189.4,3221.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1668,
+    label = "OC1(Br)[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,D}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70611,0.0235532,9.28768e-05,-3.77171e-07,3.66222e-10,41414,15.2591], Tmin=(10,'K'), Tmax=(397.423,'K')),
+            NASAPolynomial(coeffs=[7.15615,0.0205406,-1.5442e-05,5.30671e-09,-6.75655e-13,40889.4,-1.35258], Tmin=(397.423,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.06 kcal/mol
+S298: 89.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.02302 -0.58413 -0.00686
+Br 2.26035 -0.30750 -0.13291
+O -0.92650 1.83760 -0.76868
+C -0.67191 0.86196 0.13790
+C 0.75378 0.50005 0.52774
+C 0.03253 1.13390 1.40921
+H -1.58121 1.53062 -1.40764
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 70.5,131.2,252.4,295.4,338.6,403.4,466.8,541.2,582.5,842.5,892.0,1197.9,1343.2,1745.4,3793.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1669,
+    label = "BrC1[CH]OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+6 C  u1 p0 c0 {3,S} {4,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65223,0.0314442,-7.15211e-06,-2.14378e-08,1.44857e-11,12122.8,15.1161], Tmin=(10,'K'), Tmax=(733.771,'K')),
+            NASAPolynomial(coeffs=[6.33922,0.0263975,-1.64622e-05,4.85248e-09,-5.46901e-13,11470,1.22349], Tmin=(733.771,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 28.83 kcal/mol
+S298: 89.06 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.33081 -0.41066 -0.05599
+Br -2.28662 -0.43796 0.05117
+O -0.53664 1.70170 -0.56559
+C 0.52113 0.30708 0.61736
+C -0.54882 0.26139 -0.49024
+C 0.33091 1.74352 0.50604
+H 0.38433 -0.23619 1.54504
+H -0.29717 -0.19911 -1.44081
+H 0.83992 2.65135 0.79020
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 86.6,155.8,191.9,225.2,315.2,464.7,471.1,733.2,885.8,911.9,968.1,1060.3,1117.3,1138.7,1184.3,1235.6,1250.3,1360.3,3171.8,3183.7,3261.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1670,
+    label = "BrC1(Br)[CH]OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 C  u1 p0 c0 {4,S} {5,S} {7,S}
+7 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69989,0.0244498,7.62846e-05,-3.15522e-07,3.01605e-10,24975.1,14.7043], Tmin=(10,'K'), Tmax=(404.784,'K')),
+            NASAPolynomial(coeffs=[6.74773,0.0219122,-1.65165e-05,5.64617e-09,-7.1435e-13,24502.4,-0.0342948], Tmin=(404.784,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 54.36 kcal/mol
+S298: 87.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.57415 -0.71811 -0.00004
+Br 1.63968 -0.59889 0.01544
+O -0.01754 1.43133 -1.02797
+O -0.18672 2.52488 -0.04893
+C 0.01243 0.49523 0.04696
+C -0.05650 1.61168 0.96997
+H -0.39509 1.80393 1.97482
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 130.8,160.9,205.9,281.7,299.7,327.5,412.7,660.8,866.1,928.7,942.3,1090.1,1174.7,1342.4,3276.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1671,
+    label = "[CH2]C1DC(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u0 p0 c0 {2,S} {4,D} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,D}
+5 C  u1 p0 c0 {3,S} {8,S} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87724,0.00954897,0.000104693,-2.66936e-07,2.06913e-10,45891.3,12.1102], Tmin=(10,'K'), Tmax=(417.051,'K')),
+            NASAPolynomial(coeffs=[2.89977,0.031644,-2.05256e-05,6.36199e-09,-7.53577e-13,45862.2,14.6448], Tmin=(417.051,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 95.32 kcal/mol
+S298: 78.98 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.34753 -0.13520 -0.00003
+C -1.42402 1.41149 0.00006
+C -1.72546 -0.09211 0.00002
+C -0.44255 0.31107 -0.00002
+C -2.70195 -1.03043 0.00004
+H -1.59715 1.98541 0.91372
+H -1.59721 1.98547 -0.91355
+H -3.74840 -0.75228 0.00009
+H -2.45680 -2.08659 0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 113.4,173.8,365.1,406.6,463.7,529.7,728.2,784.9,959.7,1028.2,1032.3,1065.4,1159.2,1216.9,1465.0,1496.5,1649.0,3038.6,3104.7,3153.3,3247.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1672,
+    label = "Br[C]DC1CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,D}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 C  u1 p0 c0 {2,S} {3,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68186,0.0272428,4.43007e-05,-2.28689e-07,2.27272e-10,78018.8,14.9557], Tmin=(10,'K'), Tmax=(405.237,'K')),
+            NASAPolynomial(coeffs=[6.55633,0.0211304,-1.54741e-05,5.20679e-09,-6.5262e-13,77603,1.42928], Tmin=(405.237,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 159.72 kcal/mol
+S298: 88.33 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.45871 -0.56986 0.00002
+Br -2.60050 -0.40284 -0.00006
+C -0.17111 1.21361 0.00004
+C 1.00106 2.09404 -0.00020
+C 1.22738 0.80564 -0.00006
+C -1.45598 1.04232 0.00053
+H 1.35463 3.11076 -0.00042
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 51.4,141.8,245.0,262.2,401.7,425.0,439.7,634.2,764.2,853.3,974.3,1070.9,1649.1,1874.4,3291.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1673,
+    label = "BrCDC1OC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u0 p0 c0 {3,S} {6,D} {8,S}
+8 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4644,0.047266,-3.92995e-05,-3.33921e-08,5.48908e-11,15966,16.0858], Tmin=(10,'K'), Tmax=(487.403,'K')),
+            NASAPolynomial(coeffs=[8.34681,0.0236523,-1.72687e-05,5.74102e-09,-7.09921e-13,15294.6,-5.96522], Tmin=(487.403,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 37.18 kcal/mol
+S298: 95.34 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.53643 -1.61073 -0.28139
+Br 1.53646 1.61072 -0.28139
+Br -2.89043 0.00001 -0.38834
+O 0.61835 0.00000 1.88498
+C 0.79431 0.00000 0.46196
+C -0.49315 0.00001 1.06638
+C -1.80180 0.00001 1.15664
+H -2.32910 0.00001 2.09942
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 55.0,60.7,169.4,179.8,310.1,320.4,357.6,441.0,493.9,713.4,725.5,761.7,807.6,1030.4,1135.4,1260.5,1879.4,3233.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1674,
+    label = "Br[C]1OC(Br)(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+7 C  u1 p0 c0 {3,S} {4,S} {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.47287,0.0459605,-5.58684e-05,2.36022e-08,2.11199e-12,-1063.99,16.3103], Tmin=(10,'K'), Tmax=(631.306,'K')),
+            NASAPolynomial(coeffs=[9.5938,0.0175351,-1.2938e-05,4.25464e-09,-5.17474e-13,-2043.21,-12.0389], Tmin=(631.306,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 3.11 kcal/mol
+S298: 94.44 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.19951 -1.20442 0.00001
+Br 1.02821 1.78476 -0.00001
+Br -2.98075 -0.19611 0.00000
+O -0.31776 -0.47467 -1.01632
+O -0.31776 -0.47466 1.01632
+C 0.59113 -0.12336 0.00000
+C -1.18444 -0.85220 0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 51.4,146.3,151.9,213.1,274.1,298.4,398.6,406.3,581.1,812.1,875.1,979.6,995.9,1127.6,1197.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1675,
+    label = "BrC1(Br)[CH]CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {6,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6  C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+7  C  u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+8  C  u1 p0 c0 {6,S} {7,S} {11,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.16747,0.0742983,-0.000115719,9.97748e-08,-3.52209e-11,32642.6,18.3952], Tmin=(10,'K'), Tmax=(675.947,'K')),
+            NASAPolynomial(coeffs=[10.3551,0.0317649,-2.13332e-05,6.68517e-09,-7.91736e-13,31670.9,-13.466], Tmin=(675.947,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 71.63 kcal/mol
+S298: 107.81 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.09086 1.10886 0.01729
+Br -1.17459 -1.86506 -0.57407
+Br 2.11102 -1.11185 0.03309
+Br 1.19549 1.89223 -0.52693
+C -0.77104 -0.26966 0.45673
+C 0.71928 0.29467 0.48048
+C -0.65569 -0.43916 2.00393
+C 0.59034 0.38950 1.93069
+H -1.49593 -0.04520 2.58051
+H -0.48412 -1.48373 2.29253
+H 1.24576 0.83082 2.66740
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 32.2,107.6,122.6,145.5,161.5,182.8,241.3,280.6,305.9,359.3,443.4,472.6,544.4,665.0,839.8,893.2,943.6,961.9,1022.0,1094.0,1114.6,1244.0,1280.0,1448.6,3023.9,3096.6,3242.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1676,
+    label = "BrC1OC(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {7,S} {8,S}
+6  C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+7  C  u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
+8  C  u0 p0 c0 {4,S} {5,S} {6,S} {10,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29707,0.0726,-0.00015174,1.99524e-07,-1.09974e-10,-3940.62,16.9633], Tmin=(10,'K'), Tmax=(437.692,'K')),
+            NASAPolynomial(coeffs=[7.29223,0.0360888,-2.66137e-05,8.93979e-09,-1.1163e-12,-4290.35,0.989907], Tmin=(437.692,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -1.45 kcal/mol
+S298: 103.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.56769 0.00000 -0.60891
+Br 0.47619 0.00000 1.79237
+Br -1.50809 -2.11403 -0.16135
+Br -1.50809 2.11403 -0.16135
+O -0.60084 0.00000 -1.80910
+C 0.66348 0.00000 -0.11438
+C -0.09801 -1.04006 -0.99069
+C -0.09801 1.04006 -0.99069
+H 0.51615 -1.74918 -1.53952
+H 0.51615 1.74918 -1.53952
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 33.2,87.4,110.3,118.9,159.0,200.9,285.5,289.5,366.1,412.0,599.1,640.8,817.1,894.1,955.2,986.3,997.6,1090.9,1197.6,1251.8,1273.0,1300.7,3149.9,3153.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1677,
+    label = "BrC1(Br)[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+7 C  u1 p0 c0 {5,S} {6,S} {8,S}
+8 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.2887,0.0664732,-7.25497e-05,-1.15987e-07,2.29362e-10,44847.3,16.4798], Tmin=(10,'K'), Tmax=(372.533,'K')),
+            NASAPolynomial(coeffs=[10.275,0.0221116,-1.73494e-05,6.09735e-09,-7.86699e-13,44114,-13.1813], Tmin=(372.533,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 95.42 kcal/mol
+S298: 101.81 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.76197 -1.60307 -0.11993
+Br -1.76199 1.60308 -0.11954
+Br 1.76196 1.60309 -0.11963
+Br 1.76198 -1.60305 -0.11999
+C -0.77067 -0.00005 0.38299
+C 0.77068 -0.00004 0.38296
+C 0.00003 -0.00018 1.58515
+H 0.00006 -0.00017 2.66174
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 46.2,95.3,117.7,169.5,170.1,184.3,214.4,337.4,387.1,424.7,501.1,639.4,660.9,890.1,936.6,1100.8,1322.9,3285.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1678,
+    label = "C[C]1C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+6  C  u0 p0 c0 {7,S} {9,S} {10,S} {11,S}
+7  C  u1 p0 c0 {4,S} {5,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.12633,0.0888162,-0.000282775,5.44377e-07,-4.04901e-10,33740.6,18.1447], Tmin=(10,'K'), Tmax=(391.82,'K')),
+            NASAPolynomial(coeffs=[6.85963,0.0359284,-2.37413e-05,7.39789e-09,-8.76226e-13,33561.4,5.07891], Tmin=(391.82,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 73.54 kcal/mol
+S298: 107.05 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.48198 -0.28660 -0.54440
+Br 0.38338 1.78014 0.24207
+Br 2.25156 -0.73733 -0.55520
+C -0.69254 -1.03624 -0.18723
+C 0.50341 -0.15891 0.15964
+C -0.30392 -1.26064 2.56531
+C -0.12766 -0.98158 1.13587
+H -0.55343 -1.87420 -0.86443
+H 0.64902 -1.18492 3.09698
+H -0.73259 -2.25436 2.72507
+H -0.99239 -0.52962 3.01465
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.1,55.9,87.3,92.1,143.4,157.8,219.4,364.8,387.7,466.2,577.6,618.5,735.7,942.7,964.4,1022.6,1030.9,1129.7,1165.8,1392.4,1461.1,1463.0,1540.6,3000.9,3074.6,3118.6,3139.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1679,
+    label = "BrCC1(Br)CO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  O  u0 p2 c0 {4,S} {5,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5  C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+7  H  u0 p0 c0 {5,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68327,0.0282215,1.35379e-05,-5.16092e-08,2.96954e-11,-8458.68,14.6152], Tmin=(10,'K'), Tmax=(674.024,'K')),
+            NASAPolynomial(coeffs=[4.87655,0.0322073,-1.99619e-05,5.88573e-09,-6.65443e-13,-8870.94,7.46413], Tmin=(674.024,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -12.07 kcal/mol
+S298: 87.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.58312 -0.91313 -0.00142
+Br 2.04462 -0.24623 -0.10746
+O -0.67906 1.61331 -0.94953
+C -0.64174 0.79477 0.16934
+C -1.46186 2.01427 0.19315
+C 0.65817 0.69196 0.91606
+H -2.53794 1.92221 0.07659
+H -1.10139 2.90263 0.70833
+H 0.54010 0.14872 1.85100
+H 1.05177 1.69172 1.09954
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 63.4,120.9,281.6,295.1,312.2,399.3,516.1,657.7,790.0,885.7,918.7,970.7,1087.5,1122.5,1173.8,1202.7,1252.7,1374.9,1454.9,1518.0,3098.1,3100.3,3175.9,3202.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1680,
+    label = "Br[C]1OC1C(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {5,S} {9,S}
+7 C  u1 p0 c0 {3,S} {4,S} {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.47787,0.0534884,-8.2983e-05,7.93632e-08,-3.27909e-11,18874.9,17.6282], Tmin=(10,'K'), Tmax=(566.125,'K')),
+            NASAPolynomial(coeffs=[6.75721,0.030318,-2.15909e-05,7.06804e-09,-8.65446e-13,18503.6,3.67306], Tmin=(566.125,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.11 kcal/mol
+S298: 100.02 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.03178 1.82986 0.11123
+Br -2.25948 -1.14401 -0.28957
+Br 2.88426 -0.04348 -0.35186
+O 0.92501 -1.78938 0.80132
+C 0.19097 -0.52487 1.03541
+C -0.63032 -0.06830 -0.12880
+C 1.64451 -0.66497 0.96154
+H -0.28145 -0.45489 2.01112
+H -0.10447 -0.16411 -1.07342
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 33.5,68.0,128.0,165.0,260.5,307.8,343.0,428.4,526.8,671.6,693.4,775.9,999.6,1090.0,1117.7,1156.9,1210.6,1305.1,1444.7,3163.2,3177.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1681,
+    label = "BrC1OOC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 O  u0 p2 c0 {4,S} {7,S}
+6 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+7 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.49405,0.0497592,-6.97121e-05,5.2551e-08,-1.63244e-11,5563.86,15.991], Tmin=(10,'K'), Tmax=(753.988,'K')),
+            NASAPolynomial(coeffs=[8.56776,0.0228426,-1.61636e-05,5.20409e-09,-6.25548e-13,4798.76,-7.05398], Tmin=(753.988,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 16.48 kcal/mol
+S298: 95.51 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.42359 -0.31036 -0.38994
+Br 2.16964 -0.77572 -0.44937
+Br 0.34838 1.79358 0.09086
+O -0.58464 -1.52977 1.37342
+O 0.37677 -0.45439 1.70328
+C -0.67709 -1.06552 0.03270
+C 0.48590 -0.10855 0.34806
+H -0.49497 -1.84451 -0.70228
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 59.7,98.8,147.7,179.1,271.5,287.8,334.3,381.0,617.4,775.5,887.0,895.0,926.8,1072.9,1096.8,1231.4,1262.0,3161.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1682,
+    label = "BrC1(Br)COC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {7,S} {8,S}
+6  C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+7  C  u0 p0 c0 {5,S} {6,S} {9,S} {10,S}
+8  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.26702,0.0710843,-0.000125495,1.2736e-07,-5.34064e-11,-2239.83,17.3082], Tmin=(10,'K'), Tmax=(571.027,'K')),
+            NASAPolynomial(coeffs=[8.84821,0.0319883,-2.27954e-05,7.45947e-09,-9.12712e-13,-2877.23,-6.49052], Tmin=(571.027,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 2.01 kcal/mol
+S298: 104.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.34052 1.81307 -0.49981
+Br -1.99839 -1.25013 -0.02651
+Br 1.33635 -1.80974 -0.49203
+Br 1.99856 1.25446 -0.01958
+O 0.68933 -0.39865 1.81825
+C -0.78569 0.20897 0.42453
+C -0.57230 0.31040 1.94816
+C 0.74407 -0.21638 0.44497
+H -1.27495 -0.23139 2.57994
+H -0.41599 1.33456 2.29593
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.0,108.3,125.0,150.4,167.0,190.1,277.1,284.4,315.2,359.0,463.4,624.7,749.4,882.6,949.5,964.0,1014.9,1059.1,1104.3,1157.3,1332.3,1501.0,3073.2,3156.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1683,
+    label = "BrC(Br)(Br)C1(Br)[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+8  C  u1 p0 c0 {5,S} {6,S} {11,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.23621,0.071229,-4.6107e-05,-1.68557e-07,2.57308e-10,40350.1,17.7985], Tmin=(10,'K'), Tmax=(377.234,'K')),
+            NASAPolynomial(coeffs=[9.41516,0.0359622,-2.61647e-05,8.78255e-09,-1.10015e-12,39668.6,-8.8405], Tmin=(377.234,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.16 kcal/mol
+S298: 108.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.49979 0.14619 -0.04683
+Br 0.37249 -0.81230 1.78915
+Br 2.14415 0.91672 -0.21624
+Br 0.33382 -1.42383 -1.36203
+C -0.72970 0.98396 -0.18245
+C -0.67070 2.41836 0.35595
+C 0.41134 -0.00671 0.00013
+C -0.64628 2.11962 -1.07701
+H -1.57573 2.80768 0.81846
+H 0.25002 2.73130 0.84501
+H -1.13578 2.43227 -1.98496
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 51.9,102.1,111.2,143.0,164.9,180.9,216.6,239.8,285.8,327.8,397.0,467.8,551.4,677.2,696.0,820.7,913.3,932.8,981.0,1061.8,1074.9,1080.1,1326.3,1445.4,3089.1,3166.3,3262.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1684,
+    label = "[CH2]C1C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7  C  u1 p0 c0 {4,S} {10,S} {11,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.46635,0.0499982,4.18156e-05,-3.60959e-07,4.39889e-10,32285.5,16.4782], Tmin=(10,'K'), Tmax=(344.558,'K')),
+            NASAPolynomial(coeffs=[6.99641,0.0372997,-2.60277e-05,8.5352e-09,-1.05495e-12,31874.4,0.772724], Tmin=(344.558,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.35 kcal/mol
+S298: 100.68 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.46317 -0.38368 -0.42828
+Br -2.16056 -0.52133 -0.65214
+Br -0.21819 1.82670 0.36038
+C 0.06568 -0.97254 1.32394
+C 0.66939 -0.98418 -0.09003
+C -0.47476 -0.07379 0.19344
+C -0.63444 -2.12077 1.86080
+H 0.64340 -0.39378 2.03780
+H 0.44657 -1.84695 -0.70531
+H -0.56638 -2.35187 2.91510
+H -1.23387 -2.75848 1.22476
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 87.2,105.5,159.0,166.3,183.8,191.9,235.1,332.9,426.2,447.8,551.1,673.0,757.9,776.3,843.1,996.8,1060.0,1070.4,1163.6,1205.4,1258.5,1366.2,1464.8,3166.0,3172.1,3194.0,3281.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1685,
+    label = "Br[CH]C1DCC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {3,S} {4,D} {8,S}
+6 C  u1 p0 c0 {2,S} {4,S} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70531,0.0247715,6.53216e-05,-2.22932e-07,1.84951e-10,46691.4,15.6147], Tmin=(10,'K'), Tmax=(443.308,'K')),
+            NASAPolynomial(coeffs=[5.21372,0.0307487,-2.11812e-05,6.82718e-09,-8.29734e-13,46365.2,7.39369], Tmin=(443.308,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 97.61 kcal/mol
+S298: 90.23 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.17681 -0.62367 -0.09795
+Br -2.29498 -0.46656 0.05149
+C 1.08488 0.85868 0.68596
+C -0.10625 1.34577 -0.03804
+C 0.98783 2.12961 -0.01072
+C -1.38898 1.10082 -0.43321
+H 1.13985 0.74113 1.76374
+H 1.49944 3.02185 -0.32521
+H -1.96844 1.78597 -1.03608
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 53.4,141.4,193.9,292.9,362.6,430.1,568.5,578.1,667.7,702.9,833.2,970.2,1030.1,1131.8,1187.4,1238.9,1264.6,1598.6,3147.0,3223.3,3291.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1686,
+    label = "Br[CH]C1DCO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {4,D} {5,S}
+4 C  u0 p0 c0 {2,S} {3,D} {6,S}
+5 C  u1 p0 c0 {1,S} {3,S} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90024,0.006331,9.18173e-05,-2.1298e-07,1.44196e-10,35059.3,12.5825], Tmin=(10,'K'), Tmax=(510.791,'K')),
+            NASAPolynomial(coeffs=[4.41538,0.0226052,-1.56114e-05,5.06921e-09,-6.2159e-13,34741.7,7.85006], Tmin=(510.791,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 73.45 kcal/mol
+S298: 77.84 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.33763 -0.11032 0.00805
+O -1.99332 -0.93017 -0.01494
+C -1.44123 0.36116 -0.02946
+C -2.82393 0.21055 -0.07544
+C -0.25109 0.91820 -0.01695
+H -3.66135 0.37491 0.59441
+H -0.11154 1.98808 -0.02537
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 137.9,213.8,413.9,463.0,683.0,718.5,744.0,814.6,936.7,1108.1,1146.9,1260.3,1869.5,3182.3,3249.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1687,
+    label = "BrC(Br)(Br)C1DCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  Br u0 p3 c0 {7,S}
+6  C  u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+8  C  u0 p0 c0 {6,S} {7,S} {9,D}
+9  C  u0 p0 c0 {6,S} {8,D} {10,S}
+10 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.86412,0.110935,-0.000290241,3.98059e-07,-2.14284e-10,40721.2,19.6403], Tmin=(10,'K'), Tmax=(457.574,'K')),
+            NASAPolynomial(coeffs=[12.2156,0.0291865,-2.22562e-05,7.61618e-09,-9.61533e-13,39865.4,-18.1641], Tmin=(457.574,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 88.68 kcal/mol
+S298: 117.68 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.53525 1.60869 0.06391
+Br 2.53524 -1.60868 0.06389
+Br -1.32532 -1.60563 -1.07187
+Br -1.32514 1.60533 -1.07234
+Br -2.65107 0.00028 1.37466
+C 1.55052 0.00000 0.61957
+C -1.20164 0.00001 0.05012
+C 0.09065 0.00002 0.73577
+C 0.77340 -0.00001 1.85042
+H 0.80865 -0.00003 2.92615
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 14.0,54.9,61.7,107.2,109.3,154.8,164.2,184.2,215.2,276.5,319.8,368.5,473.9,486.5,608.3,699.9,701.6,828.1,856.2,1001.7,1109.0,1170.5,1801.9,3297.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1688,
+    label = "CC1C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
+6  C  u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.62811,0.0351262,-4.4011e-06,-1.66815e-08,8.36466e-12,5720.33,14.347], Tmin=(10,'K'), Tmax=(925.945,'K')),
+            NASAPolynomial(coeffs=[5.9122,0.0347958,-1.93149e-05,5.17924e-09,-5.40788e-13,4888.52,1.29573], Tmin=(925.945,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 16.48 kcal/mol
+S298: 89.74 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.21633 -0.61604 -0.05609
+Br 2.39760 -0.36481 -0.03444
+C -0.00051 1.38454 0.45756
+C -0.48918 -0.04115 0.59762
+C 0.60366 0.27630 -0.36483
+C -0.79380 2.48570 -0.20791
+H 0.58684 1.70442 1.31474
+H -0.24446 -0.57506 1.50579
+H 0.38261 0.25032 -1.42404
+H -0.12450 3.27580 -0.56182
+H -1.36531 2.11175 -1.06045
+H -1.50082 2.93028 0.49973
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 116.8,152.9,182.3,196.3,238.2,293.1,439.6,644.3,674.0,818.6,878.9,971.4,1001.3,1046.3,1088.8,1133.2,1137.0,1227.5,1231.1,1282.3,1403.0,1414.9,1488.5,1494.9,3040.3,3105.0,3122.1,3144.4,3198.2,3205.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1689,
+    label = "BrC1COC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  O  u0 p2 c0 {5,S} {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82028,0.0268926,2.68147e-06,-1.95825e-08,8.40635e-12,-9442.54,14.2742], Tmin=(10,'K'), Tmax=(1010.43,'K')),
+            NASAPolynomial(coeffs=[7.29492,0.0256309,-1.3992e-05,3.65515e-09,-3.70723e-13,-10782.5,-5.6809], Tmin=(1010.43,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -14.15 kcal/mol
+S298: 87.47 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.28189 -0.45005 -0.04343
+Br 2.27866 -0.44360 0.06207
+O 0.49558 1.67338 -0.63194
+C -0.55091 0.24621 0.53794
+C -0.40977 1.77922 0.49978
+C 0.51485 0.27927 -0.56405
+H -0.30026 -0.27028 1.45790
+H 0.08365 2.21343 1.37517
+H -1.30721 2.34308 0.24161
+H 0.34708 -0.22375 -1.51365
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.5,156.0,194.1,278.1,299.7,552.3,664.2,857.3,928.5,960.3,1028.5,1032.9,1087.1,1153.5,1177.9,1232.8,1246.8,1274.2,1354.4,1504.3,3053.3,3129.0,3143.0,3178.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1690,
+    label = "Br[C]1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u1 p0 c0 {2,S} {3,S} {4,S}
+6 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86291,0.00976264,8.46566e-05,-2.43541e-07,1.94559e-10,20822.7,14.5902], Tmin=(10,'K'), Tmax=(448.553,'K')),
+            NASAPolynomial(coeffs=[5.16773,0.018646,-1.36683e-05,4.58002e-09,-5.70831e-13,20499.2,7.04028], Tmin=(448.553,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 45.24 kcal/mol
+S298: 82.47 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.86500 -0.41991 -0.03830
+Br -1.90985 -0.37164 -0.00671
+O 0.00260 1.69120 -0.58908
+C 0.74621 1.04681 0.48152
+C -0.69852 1.03018 0.37261
+H 1.26302 1.71275 1.16325
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 84.9,287.8,329.6,405.0,518.7,668.2,762.1,996.4,1094.2,1255.6,1398.6,3183.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1691,
+    label = "BrCC1[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+4 C  u0 p0 c0 {2,S} {5,D} {9,S}
+5 C  u1 p0 c0 {2,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.8444,0.0128396,7.03283e-05,-1.6285e-07,1.09e-10,58042.7,12.9466], Tmin=(10,'K'), Tmax=(489.432,'K')),
+            NASAPolynomial(coeffs=[2.9182,0.0313803,-2.01184e-05,6.14953e-09,-7.1874e-13,58001.9,15.4108], Tmin=(489.432,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 119.45 kcal/mol
+S298: 80.63 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30613 -0.14188 0.00737
+C -1.49026 0.34561 0.48218
+C -0.34047 0.94900 -0.25552
+C -2.26842 -0.91543 -0.12973
+C -2.84311 0.22575 -0.16054
+H -1.40256 0.38666 1.56846
+H -0.50445 0.97725 -1.33072
+H -0.07485 1.93781 0.11943
+H -2.07922 -1.96551 -0.23359
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 72.9,186.8,332.5,396.8,602.5,632.6,697.8,836.7,872.6,949.0,988.7,1100.6,1155.9,1220.6,1372.8,1465.1,1763.0,3094.9,3100.4,3173.9,3361.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1692,
+    label = "CC1(Br)C[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+6  C  u1 p0 c0 {2,S} {3,S} {4,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.813,0.0203531,0.000219789,-1.10452e-06,1.71013e-09,30576.7,14.7651], Tmin=(10,'K'), Tmax=(212.09,'K')),
+            NASAPolynomial(coeffs=[3.5823,0.0399411,-2.651e-05,8.41673e-09,-1.01932e-12,30552.2,14.7124], Tmin=(212.09,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 65.93 kcal/mol
+S298: 91.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.20691 -0.44273 -0.13451
+Br 2.33351 -0.28342 -0.18183
+C -0.55542 0.60611 0.16155
+C -0.00801 0.60793 1.60262
+C -0.51892 1.84292 -0.70093
+C 0.61402 -0.16623 0.52148
+H -0.56439 0.07180 2.36836
+H 0.45578 1.53127 1.94992
+H 0.38980 2.41494 -0.48607
+H -1.38837 2.47673 -0.50755
+H -0.51383 1.57616 -1.76097
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 82.8,132.7,217.2,230.7,282.2,334.4,389.4,497.4,518.9,786.4,874.0,933.3,973.8,1053.5,1094.9,1104.0,1161.1,1372.9,1410.0,1458.7,1472.9,1489.3,3037.5,3083.8,3111.5,3122.4,3166.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1693,
+    label = "BrC1(Br)CD[C]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {3,S} {6,D} {9,S}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79012,0.0165393,0.000101571,-2.90055e-07,2.31794e-10,50807.5,13.8647], Tmin=(10,'K'), Tmax=(435.633,'K')),
+            NASAPolynomial(coeffs=[4.37044,0.0317757,-2.17029e-05,6.95853e-09,-8.42993e-13,50561.8,9.30756], Tmin=(435.633,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 105.53 kcal/mol
+S298: 85.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61639 -0.61005 -0.00159
+Br -1.61638 -0.61007 -0.00159
+C -0.00000 0.53877 0.02600
+C -0.00001 1.65705 -1.07464
+C -0.00001 1.58366 1.10365
+C -0.00003 2.52475 0.16408
+H -0.89902 1.68878 -1.69050
+H 0.89902 1.68881 -1.69048
+H -0.00001 1.50146 2.17778
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 157.6,167.1,231.5,314.1,321.4,357.9,558.9,801.5,837.3,838.9,989.8,1005.4,1064.8,1074.9,1151.8,1224.3,1469.0,1601.3,3092.1,3154.1,3284.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1694,
+    label = "BrC1DC(Br)C1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u0 p0 c0 {3,S} {5,S} {7,D}
+7 C  u0 p0 c0 {4,S} {5,S} {6,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.26926,0.0728686,-0.000193488,2.69444e-07,-1.47542e-10,39402.9,16.4064], Tmin=(10,'K'), Tmax=(449.515,'K')),
+            NASAPolynomial(coeffs=[9.26523,0.0195135,-1.54459e-05,5.39279e-09,-6.89199e-13,38863.8,-7.72639], Tmin=(449.515,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 84.19 kcal/mol
+S298: 99.84 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.69828 0.00022 1.61011
+Br -1.69835 -0.00022 -1.61003
+Br 1.62087 -2.26018 0.00029
+Br 1.62086 2.26019 -0.00036
+C -0.57136 -0.00000 0.00001
+C 0.73747 -0.65449 0.00007
+C 0.73746 0.65449 -0.00010
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 61.0,69.2,76.9,88.8,161.4,245.8,333.3,490.9,520.6,563.6,587.3,644.5,1026.2,1152.1,1818.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1695,
+    label = "Br[C]1CC(Br)(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6  C  u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {3,S} {5,S} {8,S} {11,S}
+8  C  u1 p0 c0 {4,S} {6,S} {7,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43255,0.064758,8.71831e-05,-1.25347e-06,2.54247e-09,29245.4,18.549], Tmin=(10,'K'), Tmax=(212.1,'K')),
+            NASAPolynomial(coeffs=[6.81839,0.0411398,-3.03336e-05,1.02884e-08,-1.30043e-12,29011.3,5.33125], Tmin=(212.1,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.83 kcal/mol
+S298: 109.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.21204 0.86533 0.81892
+Br 1.66501 -1.86936 -0.74120
+Br -0.65711 2.17554 -0.67409
+Br -3.04699 -0.83786 0.32693
+C 0.83661 -0.36212 0.21701
+C -0.15442 -0.86077 1.31408
+C -0.36876 0.17225 -0.63709
+C -1.22682 -0.52593 0.32347
+H -0.04725 -1.90747 1.60700
+H -0.14362 -0.23172 2.21282
+H -0.38214 -0.07883 -1.69399
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 27.0,58.3,100.2,141.9,151.0,179.8,235.0,268.4,313.3,400.5,478.4,521.5,656.0,834.5,923.9,944.5,973.5,1079.5,1118.4,1133.8,1182.1,1209.6,1283.3,1453.9,3025.4,3101.9,3149.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1696,
+    label = "BrCC1(Br)CDC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+6  C  u0 p0 c0 {4,S} {7,D} {10,S}
+7  C  u0 p0 c0 {3,S} {4,S} {6,D}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.44853,0.0536902,-7.12304e-05,5.76011e-08,-2.03144e-11,32430.2,17.0565], Tmin=(10,'K'), Tmax=(651.138,'K')),
+            NASAPolynomial(coeffs=[6.95488,0.0321504,-2.16103e-05,6.79771e-09,-8.08798e-13,31973.5,1.64473], Tmin=(651.138,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.18 kcal/mol
+S298: 99.38 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.38843 1.95366 -0.03781
+Br -2.77170 -0.95169 -0.01740
+Br 3.05870 -0.62257 -0.16132
+C -0.03306 -0.00519 0.13831
+C -0.95150 -0.79494 -0.75845
+C 0.48141 -0.50364 1.44074
+C 1.33460 -0.43486 0.46331
+H -1.06664 -0.33936 -1.73915
+H -0.58943 -1.81877 -0.85225
+H 0.21751 -0.68948 2.46651
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 43.1,75.3,91.0,143.2,281.7,303.5,397.0,413.8,502.0,530.7,671.6,783.1,826.2,921.5,998.7,1012.9,1165.5,1247.5,1262.1,1458.8,1771.5,3098.7,3176.2,3309.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1697,
+    label = "OC1(Br)OC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 O  u0 p2 c0 {6,S} {8,S}
+6 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+7 C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52823,0.040156,6.2084e-05,-3.69163e-07,3.88751e-10,-22952.3,15.8213], Tmin=(10,'K'), Tmax=(394.659,'K')),
+            NASAPolynomial(coeffs=[8.79181,0.0240925,-1.85728e-05,6.46341e-09,-8.28673e-13,-23658.1,-8.35744], Tmin=(394.659,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -39.97 kcal/mol
+S298: 95.69 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.46320 -0.20274 -0.16424
+Br -2.20310 -0.82917 -0.16669
+Br -0.47423 1.87473 -0.03635
+O 0.11980 -0.48763 1.43426
+O 0.66745 -2.20022 -0.14404
+C 0.71338 -0.89694 0.18725
+C -0.47029 -0.02271 0.26757
+H -0.26219 -2.47800 -0.19611
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 94.2,100.6,159.8,194.8,250.5,308.7,338.7,369.7,385.5,583.9,630.6,698.9,789.6,1000.2,1143.2,1333.2,1408.9,3680.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1698,
+    label = "Br[C]1OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u1 p0 c0 {1,S} {2,S} {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93627,0.00395109,4.63785e-05,-1.11245e-07,7.45656e-11,24191,10.7293], Tmin=(10,'K'), Tmax=(535.741,'K')),
+            NASAPolynomial(coeffs=[4.93039,0.00990273,-7.73065e-06,2.68427e-09,-3.42359e-13,23892.5,4.76241], Tmin=(535.741,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (83.1447,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 51.20 kcal/mol
+S298: 70.66 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.98051 0.00001 -0.02681
+O -1.81186 0.77144 -0.11875
+O -1.81160 -0.77157 -0.11867
+C -0.88834 0.00013 0.47297
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 296.6,302.7,571.7,774.9,872.2,1400.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1699,
+    label = "CC1(Br)OC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  O  u0 p2 c0 {4,S} {5,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+6  C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+7  H  u0 p0 c0 {5,S}
+8  H  u0 p0 c0 {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75715,0.022706,0.000116797,-4.63526e-07,5.15558e-10,-10603.7,14.0102], Tmin=(10,'K'), Tmax=(309.301,'K')),
+            NASAPolynomial(coeffs=[3.99651,0.035667,-2.39283e-05,7.62972e-09,-9.24869e-13,-10695.4,11.8948], Tmin=(309.301,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -16.13 kcal/mol
+S298: 88.02 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.31441 -0.27590 -0.18861
+Br -2.39008 -0.14020 -0.19004
+O -0.01904 -0.08855 1.42928
+C 0.52123 0.40915 0.22279
+C -0.55102 -0.58569 0.22504
+C 0.38243 1.87484 -0.07306
+H -0.36468 -1.63047 0.00194
+H -0.63576 2.19900 0.15266
+H 1.08506 2.44347 0.54061
+H 0.60005 2.06987 -1.12524
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 124.4,151.0,200.0,222.0,294.0,376.0,414.1,580.9,676.9,754.6,885.1,1009.1,1058.8,1125.1,1153.6,1273.1,1406.8,1423.4,1473.6,1483.3,3056.7,3136.9,3143.7,3178.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1700,
+    label = "Br[C]1CC(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
+5 C  u1 p0 c0 {1,S} {4,S} {7,S}
+6 C  u0 p0 c0 {2,S} {4,S} {7,D}
+7 C  u0 p0 c0 {3,S} {5,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6223,0.0450811,0.000144133,-1.53426e-06,3.31197e-09,39785.7,15.8266], Tmin=(10,'K'), Tmax=(187.662,'K')),
+            NASAPolynomial(coeffs=[5.75523,0.0328792,-2.41954e-05,8.18361e-09,-1.03181e-12,39647.1,7.54457], Tmin=(187.662,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 84.70 kcal/mol
+S298: 97.62 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.85401 -0.69365 0.00530
+Br 2.85401 -0.69365 -0.00530
+Br 0.00000 2.07717 0.00000
+C 0.00000 -1.89932 0.00000
+C -1.00462 -0.74903 -0.10122
+C 1.00462 -0.74903 0.10122
+C 0.00000 0.21440 0.00000
+H 0.09052 -2.52376 -0.89334
+H -0.09052 -2.52376 0.89334
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 68.9,83.8,107.7,145.3,210.3,247.1,397.0,424.3,498.7,571.1,941.1,966.8,970.9,1064.6,1115.1,1152.1,1258.8,1447.5,1520.7,3055.0,3109.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1701,
+    label = "BrC1C(Br)C1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
+6 C  u0 p0 c0 {3,S} {4,S} {5,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63336,0.0375621,-3.15629e-05,1.33987e-08,-2.2937e-12,13625.2,15.1071], Tmin=(10,'K'), Tmax=(1321.99,'K')),
+            NASAPolynomial(coeffs=[9.77066,0.0189923,-1.04926e-05,2.7732e-09,-2.84333e-13,12002.5,-16.215], Tmin=(1321.99,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 32.04 kcal/mol
+S298: 90.84 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.47582 1.81450 -0.07119
+Br 1.47583 -1.81450 -0.07119
+Br -2.77385 -0.00000 -0.06033
+C 0.03055 0.75564 0.61657
+C 0.03055 -0.75564 0.61657
+C -0.86147 0.00000 -0.31805
+H -0.40591 1.22846 1.48737
+H -0.40592 -1.22847 1.48736
+H -0.60901 0.00001 -1.37016
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 85.7,104.8,170.6,205.8,245.5,396.1,558.0,675.1,727.8,921.4,933.2,1013.9,1036.2,1096.6,1196.3,1217.6,1247.4,1325.6,3189.3,3197.7,3208.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1702,
+    label = "BrC(Br)C1[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {2,S} {3,S} {10,S}
+6  C  u1 p0 c0 {3,S} {4,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63828,0.0315851,1.83292e-05,-6.83422e-08,4.18411e-11,33714.3,15.2457], Tmin=(10,'K'), Tmax=(622.425,'K')),
+            NASAPolynomial(coeffs=[4.6959,0.036766,-2.30218e-05,6.86508e-09,-7.84371e-13,33350.7,8.78095], Tmin=(622.425,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 72.03 kcal/mol
+S298: 90.77 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.78025 -0.34338 -0.00607
+Br -1.34737 -1.16876 -0.02626
+C -0.37259 1.50597 -0.43584
+C -1.43386 2.46520 0.12709
+C -0.05654 0.27002 0.34930
+C -0.01375 2.81842 0.12264
+H -0.32996 1.36377 -1.51371
+H -2.11846 2.94438 -0.57040
+H -1.90493 2.17965 1.06682
+H -0.10197 0.43040 1.42230
+H 0.56510 3.64907 -0.25270
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 80.3,142.2,157.5,259.0,274.6,339.0,553.6,626.8,664.4,793.1,825.3,916.2,988.9,1055.9,1069.5,1096.2,1127.4,1166.4,1213.2,1242.5,1384.2,1461.8,3085.5,3128.3,3158.3,3163.8,3236.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1703,
+    label = "CDC1C(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+6  C  u0 p0 c0 {4,S} {5,S} {7,D}
+7  C  u0 p0 c0 {6,D} {9,S} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42409,0.0538245,-6.86033e-05,5.09368e-08,-1.61712e-11,30279.7,16.0911], Tmin=(10,'K'), Tmax=(724.712,'K')),
+            NASAPolynomial(coeffs=[7.68616,0.0303003,-1.99131e-05,6.14649e-09,-7.20091e-13,29661.9,-3.09862], Tmin=(724.712,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 65.93 kcal/mol
+S298: 97.39 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.46083 -0.32690 -0.48293
+Br 2.19896 -0.76874 -0.53416
+Br 0.36819 1.78669 0.18775
+C -0.70674 -1.02706 -0.07566
+C 0.50857 -0.13512 0.19255
+C -0.11825 -0.90456 1.25955
+C -0.15697 -1.20299 2.54264
+H -0.52738 -1.91798 -0.66747
+H -0.93084 -1.84735 2.94605
+H 0.57725 -0.80311 3.23392
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 79.5,98.1,129.0,160.0,163.8,238.3,395.2,436.0,502.6,581.4,681.0,800.5,823.8,937.0,960.3,1055.4,1113.2,1128.5,1211.7,1459.1,1815.9,3148.4,3171.3,3236.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1704,
+    label = "BrC1[CH]C(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {3,S} {6,S} {9,S}
+5  C  u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
+6  C  u1 p0 c0 {4,S} {5,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69897,0.0314725,3.3925e-06,-2.74247e-08,1.32711e-11,26072.2,14.9376], Tmin=(10,'K'), Tmax=(875.178,'K')),
+            NASAPolynomial(coeffs=[6.19372,0.032185,-1.85926e-05,5.13937e-09,-5.49261e-13,25171.5,0.583861], Tmin=(875.178,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.74 kcal/mol
+S298: 90.07 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.77151 -0.03990 0.04820
+Br 2.77151 -0.03991 -0.04847
+C -0.00006 1.14370 0.00028
+C -0.87238 0.02457 -0.63464
+C 0.87241 0.02471 0.63517
+C -0.00005 -0.98009 0.00051
+H 0.51826 1.77091 -0.72526
+H -0.51849 1.77078 0.72584
+H -1.01532 0.01780 -1.71440
+H 1.01592 0.01816 1.71484
+H -0.00008 -2.06174 0.00071
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 32.3,132.0,152.7,311.4,323.9,430.4,463.2,608.2,825.2,881.8,928.0,937.9,1009.5,1058.7,1095.2,1134.4,1163.8,1206.0,1231.5,1272.2,1308.5,1463.3,3091.4,3109.9,3112.0,3152.9,3226.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1705,
+    label = "BrC1DCCC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,S} {9,S}
+5  C  u0 p0 c0 {2,S} {4,S} {6,D}
+6  C  u0 p0 c0 {3,S} {5,D} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76635,0.0214678,3.83657e-05,-8.59956e-08,4.65859e-11,19485.9,14.3345], Tmin=(10,'K'), Tmax=(655.54,'K')),
+            NASAPolynomial(coeffs=[3.97954,0.0338161,-2.11211e-05,6.2628e-09,-7.11097e-13,19164.6,11.1591], Tmin=(655.54,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.23 kcal/mol
+S298: 85.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.92339 -0.67677 -0.08729
+Br -2.04668 -0.52143 0.00689
+C 0.87951 2.13953 0.06647
+C 0.70143 0.68940 0.62954
+C -0.67083 0.75064 0.02598
+C -0.56059 2.01073 -0.40802
+H 1.07327 2.90197 0.82781
+H 1.62953 2.20951 -0.72423
+H 0.75695 0.58125 1.71119
+H -1.24171 2.70216 -0.88462
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 85.9,159.7,251.9,320.2,394.4,429.6,626.2,827.6,875.2,904.1,938.3,1005.3,1103.4,1123.5,1166.6,1208.9,1227.2,1264.3,1474.4,1639.4,3050.7,3112.0,3130.9,3233.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1706,
+    label = "BrCC1DC(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {2,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {4,S} {5,S} {7,D}
+7  C  u0 p0 c0 {3,S} {4,S} {6,D}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69337,0.0392319,0.000331644,-3.132e-06,7.54944e-09,31905.9,16.37], Tmin=(10,'K'), Tmax=(158.141,'K')),
+            NASAPolynomial(coeffs=[5.44092,0.0359413,-2.52006e-05,8.23843e-09,-1.01356e-12,31799.5,9.54455], Tmin=(158.141,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.18 kcal/mol
+S298: 99.77 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.39093 2.29141 0.03792
+Br -3.18667 -0.25366 -0.16324
+Br 2.01833 -2.00116 -0.01522
+C 0.45620 0.66883 -0.65068
+C -1.61061 -0.17558 1.04320
+C -0.37578 -0.14951 0.26847
+C 0.76796 -0.65048 -0.11119
+H 0.20336 0.86939 -1.68759
+H -1.73962 0.74004 1.61975
+H -1.68093 -1.04956 1.68768
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 28.8,62.8,97.8,129.3,162.6,331.2,410.6,491.4,517.7,571.3,642.5,759.3,895.8,1020.9,1087.2,1167.0,1193.1,1228.1,1254.1,1462.3,1872.6,3101.6,3147.1,3171.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1707,
+    label = "Br[C]1OCC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6 C  u1 p0 c0 {2,S} {3,S} {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71499,0.0314984,-1.6577e-05,-1.38989e-10,1.9519e-12,11532,15.3044], Tmin=(10,'K'), Tmax=(1057.04,'K')),
+            NASAPolynomial(coeffs=[8.47669,0.0206485,-1.13536e-05,2.98292e-09,-3.03972e-13,10124.8,-9.82673], Tmin=(1057.04,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 27.61 kcal/mol
+S298: 89.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.93947 -0.65324 -0.08838
+Br -2.00705 -0.54775 -0.00664
+O -0.61278 1.84608 -0.54653
+C 0.67299 0.73896 0.74103
+C 0.73045 2.09239 0.00739
+C -0.70569 0.74579 0.25822
+H 0.89560 0.65363 1.79883
+H 1.46295 2.17648 -0.79315
+H 0.72263 2.97310 0.65261
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.1,137.8,198.5,298.6,363.5,391.9,475.1,889.3,910.4,922.3,1025.4,1123.0,1151.7,1161.1,1185.1,1238.7,1339.6,1491.8,3084.3,3168.7,3176.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1708,
+    label = "Br[C]1C(Br)DCC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5 C  u1 p0 c0 {2,S} {4,S} {7,S}
+6 C  u0 p0 c0 {4,S} {7,D} {9,S}
+7 C  u0 p0 c0 {3,S} {5,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.49057,0.0494012,-6.01961e-05,4.01243e-08,-1.11886e-11,40074.8,17.4043], Tmin=(10,'K'), Tmax=(823.019,'K')),
+            NASAPolynomial(coeffs=[8.33674,0.0258481,-1.72693e-05,5.35253e-09,-6.26331e-13,39277.1,-5.0318], Tmin=(823.019,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 85.15 kcal/mol
+S298: 98.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.69736 -0.76626 -0.26869
+Br -0.10261 2.16168 0.00964
+Br -2.68554 -0.86259 -0.19278
+C 1.09288 -0.55756 0.86423
+C 0.00882 0.34771 0.30979
+C 0.05282 -1.65540 0.73064
+C -0.88261 -0.73420 0.27142
+H 1.46862 -0.33256 1.86127
+H 0.07760 -2.71969 0.89676
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 63.1,66.8,97.7,203.5,246.3,385.9,433.6,438.4,481.8,532.8,680.5,923.3,935.5,1032.9,1098.1,1180.1,1198.0,1247.4,1477.4,3125.8,3276.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1709,
+    label = "BrC[C]1C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+7  C  u0 p0 c0 {4,S} {8,S} {10,S} {11,S}
+8  C  u1 p0 c0 {5,S} {6,S} {7,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.3904,0.0719878,0.000151573,-2.09826e-06,4.6294e-09,37139.7,19.2518], Tmin=(10,'K'), Tmax=(194.212,'K')),
+            NASAPolynomial(coeffs=[7.71288,0.0391391,-2.86067e-05,9.63519e-09,-1.21148e-12,36865.8,2.75438], Tmin=(194.212,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 80.82 kcal/mol
+S298: 113.61 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.64857 2.45553 -0.36762
+Br 2.64861 -0.91702 -0.74617
+Br 0.86678 -0.01238 1.79510
+Br -2.78442 -1.27294 0.04713
+C 0.31745 0.90014 -1.05140
+C 0.94468 -0.14801 -0.13146
+C -1.24062 -1.39066 -1.25908
+C -0.21401 -0.43695 -0.91905
+H 0.87460 1.21036 -1.93103
+H -1.70169 -1.19792 -2.22522
+H -0.90214 -2.42140 -1.17330
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.5,33.9,71.3,92.0,127.2,153.6,174.9,244.8,373.7,399.2,467.1,500.3,613.7,642.2,759.1,874.5,1000.6,1026.4,1034.2,1165.2,1179.0,1204.0,1457.0,1520.8,3108.1,3140.9,3182.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1710,
+    label = "BrC(Br)DC1OC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+7 C  u0 p0 c0 {5,S} {6,S} {8,D}
+8 C  u0 p0 c0 {3,S} {4,S} {7,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.18334,0.0793014,-0.000181838,2.1744e-07,-1.0279e-10,19428.7,17.7074], Tmin=(10,'K'), Tmax=(517.9,'K')),
+            NASAPolynomial(coeffs=[10.5228,0.0226151,-1.76579e-05,6.10039e-09,-7.73099e-13,18668.5,-12.8723], Tmin=(517.9,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 45.06 kcal/mol
+S298: 105.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.24501 -0.01818 1.61006
+Br 2.24503 -0.01819 -1.61005
+Br -1.73927 1.81489 -0.00001
+Br -2.83420 -1.24125 0.00000
+O 0.55391 -1.65674 -0.00001
+C 1.27700 -0.41321 -0.00000
+C -0.14487 -0.47525 -0.00001
+C -1.38404 -0.03668 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.7,53.7,59.5,115.2,173.2,220.3,286.0,326.1,336.0,389.5,530.6,554.9,745.6,755.9,830.2,1073.4,1180.8,1872.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1711,
+    label = "BrC(Br)DC1CDC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,D}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {3,S} {4,D} {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {3,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73053,0.022177,8.73383e-05,-3.2431e-07,3.03079e-10,50199.6,12.8137], Tmin=(10,'K'), Tmax=(398.04,'K')),
+            NASAPolynomial(coeffs=[5.77738,0.0259105,-1.83154e-05,6.03858e-09,-7.47569e-13,49844.1,2.40602], Tmin=(398.04,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 104.47 kcal/mol
+S298: 84.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61953 -0.74160 0.00000
+Br 1.61933 -0.74200 -0.00000
+C 0.00020 1.57293 0.00000
+C 0.65803 2.84807 0.00000
+C -0.65723 2.84827 0.00000
+C 0.00002 0.25447 0.00000
+H 1.58715 3.39169 -0.00000
+H -1.58618 3.39218 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 112.5,165.5,219.4,221.6,344.3,413.6,457.4,712.9,783.2,902.6,902.9,953.3,1083.2,1100.0,1584.3,1860.7,3270.1,3314.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1712,
+    label = "Br[C](Br)C1(Br)CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
+7 C  u1 p0 c0 {2,S} {3,S} {5,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.41148,0.0583973,-0.000103521,1.11233e-07,-5.02619e-11,15512.6,17.3818], Tmin=(10,'K'), Tmax=(528.191,'K')),
+            NASAPolynomial(coeffs=[7.25868,0.0292625,-2.07822e-05,6.80286e-09,-8.3377e-13,15106.2,1.27695], Tmin=(528.191,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.57 kcal/mol
+S298: 100.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.10465 0.03548 -0.77050
+Br -1.24750 1.69123 -0.04576
+Br -1.48227 -1.51792 -0.25297
+O 1.16044 -1.13174 1.65846
+C 0.83050 -0.13383 0.75637
+C 1.33869 0.23963 2.08077
+C -0.57220 -0.00519 0.35318
+H 0.64293 0.57696 2.84494
+H 2.37079 0.56566 2.16840
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.6,79.9,118.4,159.8,248.3,293.1,322.7,370.1,442.2,530.8,813.5,838.4,962.8,988.3,1106.0,1120.3,1177.7,1384.4,1512.0,3109.1,3215.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1713,
+    label = "BrC1D[C]C(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u0 p0 c0 {1,S} {3,S} {6,S} {9,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,D}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75018,0.0223927,3.0092e-05,-8.01523e-08,4.69928e-11,50924.2,15.0563], Tmin=(10,'K'), Tmax=(627.322,'K')),
+            NASAPolynomial(coeffs=[4.67721,0.0297255,-1.91092e-05,5.78839e-09,-6.67849e-13,50547.3,8.93913], Tmin=(627.322,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 105.65 kcal/mol
+S298: 87.07 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.69121 -0.19515 -0.18042
+Br 2.75697 -0.14769 -0.12483
+C -0.02677 1.18807 -0.21400
+C -1.07708 0.47998 0.71556
+C 0.94757 0.10244 0.23794
+C 0.02205 -0.50755 0.97583
+H 0.23106 2.20392 0.10080
+H -0.29453 1.15542 -1.27140
+H -1.43270 1.06227 1.56221
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 67.7,188.1,239.6,335.6,393.8,451.2,586.4,837.8,864.3,937.7,1019.9,1060.6,1101.1,1147.3,1201.0,1214.4,1461.0,1618.4,3050.8,3129.4,3143.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1714,
+    label = "Br[C]1OCO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+5 C  u1 p0 c0 {1,S} {2,S} {3,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94396,0.003601,8.23863e-05,-1.75224e-07,1.14948e-10,-5645.23,11.9809], Tmin=(10,'K'), Tmax=(486.579,'K')),
+            NASAPolynomial(coeffs=[2.58239,0.0253105,-1.69578e-05,5.30641e-09,-6.28058e-13,-5637.21,16.2897], Tmin=(486.579,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -7.70 kcal/mol
+S298: 75.24 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.29452 0.00000 0.05719
+O 1.39503 1.02205 -0.11371
+O 1.39503 -1.02205 -0.11371
+C 2.30317 0.00000 0.31508
+C 0.57878 0.00000 -0.53822
+H 3.24292 0.00000 -0.24360
+H 2.45296 0.00000 1.40011
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 170.0,260.7,277.5,630.7,945.7,951.4,1043.3,1054.2,1090.8,1125.6,1175.0,1376.1,1531.3,3040.6,3117.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1715,
+    label = "OC1[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {9,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u1 p0 c0 {4,S} {5,S} {8,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69885,0.0240625,0.000127694,-4.67369e-07,4.44098e-10,18840.5,14.7863], Tmin=(10,'K'), Tmax=(391.069,'K')),
+            NASAPolynomial(coeffs=[6.56601,0.0286782,-2.01997e-05,6.68708e-09,-8.32491e-13,18356.7,0.327398], Tmin=(391.069,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 42.58 kcal/mol
+S298: 90.32 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.24672 -1.09805 -0.01277
+Br 1.85254 -0.12793 -0.10440
+O -1.69976 2.06524 -0.69883
+C -0.47409 1.80049 -0.11976
+C 0.00197 0.37735 0.24954
+C -0.30753 1.34517 1.26682
+H 0.28934 2.43016 -0.57172
+H -0.85330 1.34031 2.19883
+H -2.36382 1.47879 -0.31506
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 131.8,157.3,173.5,235.5,281.5,335.7,362.6,463.1,563.5,682.7,825.0,906.5,1005.1,1047.2,1151.4,1257.0,1299.5,1423.8,3135.8,3237.5,3780.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1716,
+    label = "[CH2]C1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+5 C  u1 p0 c0 {3,S} {8,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88124,0.00806395,0.000122936,-3.02898e-07,2.23135e-10,11489.8,12.5431], Tmin=(10,'K'), Tmax=(458.639,'K')),
+            NASAPolynomial(coeffs=[3.77934,0.0303288,-1.97935e-05,6.19309e-09,-7.40771e-13,11274.3,10.5043], Tmin=(458.639,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 27.02 kcal/mol
+S298: 80.05 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.36765 -0.12479 -0.01057
+O 1.16780 1.17772 -0.27680
+C 1.59621 -0.24256 -0.36940
+C 0.48789 0.25964 0.48059
+C 2.89882 -0.56609 0.15574
+H 1.28893 -0.70778 -1.30191
+H 0.55809 0.33548 1.56244
+H 3.28469 -0.04324 1.02188
+H 3.49609 -1.34442 -0.29979
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 187.8,223.5,254.6,305.1,454.8,570.4,650.0,687.1,880.7,1008.2,1072.7,1111.9,1167.7,1259.7,1268.6,1393.8,1463.9,3147.2,3159.5,3168.2,3279.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1717,
+    label = "BrC1DC[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u1 p0 c0 {2,S} {5,S} {8,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,D}
+5 C  u0 p0 c0 {3,S} {4,D} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92707,0.00451823,0.000105109,-2.1422e-07,1.34239e-10,37764.9,11.9305], Tmin=(10,'K'), Tmax=(514.316,'K')),
+            NASAPolynomial(coeffs=[2.22524,0.0328148,-2.13426e-05,6.62527e-09,-7.85832e-13,37740.8,17.0728], Tmin=(514.316,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.90 kcal/mol
+S298: 76.89 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.30839 -0.00053 -0.00002
+C 1.61121 -1.06251 0.00003
+C 2.56203 0.14148 0.00007
+C 0.55446 0.03925 -0.00003
+C 1.51146 1.05647 0.00003
+H 1.63624 -1.69461 -0.89335
+H 1.63614 -1.69460 0.89342
+H 3.63890 0.22379 0.00009
+H 1.44753 2.13598 0.00003
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 128.1,260.9,368.8,380.7,488.4,882.5,885.9,918.5,975.8,1007.9,1065.3,1075.5,1174.4,1216.9,1321.7,1433.0,1487.8,3045.9,3092.2,3222.9,3248.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1718,
+    label = "Br[C]1CCO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+5 C  u1 p0 c0 {1,S} {2,S} {3,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.95124,0.00304887,0.000100231,-1.95763e-07,1.20813e-10,9637.39,12.8702], Tmin=(10,'K'), Tmax=(492.367,'K')),
+            NASAPolynomial(coeffs=[1.21932,0.0342094,-2.2015e-05,6.74458e-09,-7.89931e-13,9797.73,23.0108], Tmin=(492.367,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 22.86 kcal/mol
+S298: 78.00 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.32454 0.00181 0.04346
+O -1.29433 -1.05149 -0.09636
+C -1.53808 1.07459 -0.03464
+C -2.41666 -0.16912 0.22493
+C -0.52402 0.02831 -0.45347
+H -1.86562 1.75745 -0.82112
+H -1.28046 1.64548 0.86071
+H -3.24633 -0.32944 -0.46693
+H -2.73947 -0.32776 1.25641
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 122.8,260.5,308.7,446.2,788.2,857.9,935.7,957.6,1032.1,1092.6,1138.8,1150.7,1189.1,1235.2,1338.0,1472.2,1513.7,3062.5,3068.7,3112.3,3131.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1719,
+    label = "CC1[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+4  C  u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+5  C  u1 p0 c0 {2,S} {3,S} {11,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88833,0.00988226,0.000133345,-3.60096e-07,3.18723e-10,30831.8,12.5624], Tmin=(10,'K'), Tmax=(287.682,'K')),
+            NASAPolynomial(coeffs=[1.69926,0.0403201,-2.53633e-05,7.69563e-09,-8.98362e-13,30957.8,20.3961], Tmin=(287.682,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 65.67 kcal/mol
+S298: 81.54 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.39874 -0.13828 -0.04000
+C -1.59953 0.01307 -0.43296
+C -0.44106 0.19317 0.54832
+C -2.88464 -0.64437 0.04155
+C -1.16637 1.33720 0.04639
+H -1.31970 -0.24186 -1.45630
+H -0.54642 -0.15986 1.56855
+H -3.10473 -0.37626 1.07879
+H -2.81374 -1.73439 -0.02736
+H -3.72983 -0.31822 -0.57379
+H -0.89186 2.27614 -0.40961
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 166.0,193.0,237.6,271.7,383.8,559.0,590.3,838.0,843.5,950.1,983.6,1012.6,1102.4,1114.4,1122.0,1182.1,1250.9,1380.9,1407.4,1489.6,1495.4,3032.2,3088.8,3099.9,3114.6,3158.6,3244.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1720,
+    label = "CC1(Br)CDC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {2,S}
+2  C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3  C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+4  C  u0 p0 c0 {2,S} {5,D} {9,S}
+5  C  u0 p0 c0 {2,S} {4,D} {10,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89836,0.00681205,0.00012942,-3.01576e-07,2.15308e-10,27782.2,10.9775], Tmin=(10,'K'), Tmax=(460.205,'K')),
+            NASAPolynomial(coeffs=[2.94795,0.0340671,-2.1326e-05,6.48352e-09,-7.61619e-13,27668.5,12.6398], Tmin=(460.205,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 59.41 kcal/mol
+S298: 76.96 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.14454 -0.09345 0.00010
+C -0.87975 0.15116 -0.00007
+C -1.17458 1.63401 -0.00005
+C -1.66966 -0.89801 -0.65176
+C -1.66978 -0.89806 0.65138
+H -2.25935 1.78702 -0.00007
+H -0.75140 2.11728 0.88445
+H -0.75135 2.11732 -0.88450
+H -1.96693 -1.34270 -1.58603
+H -1.96723 -1.34283 1.58556
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 223.5,267.3,287.1,312.5,368.5,443.5,699.1,813.0,878.7,906.4,992.1,1054.0,1071.8,1119.1,1314.2,1408.2,1476.9,1490.1,1702.6,3034.0,3108.9,3120.9,3264.3,3309.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1721,
+    label = "CC1DC(Br)[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,D}
+5 C  u1 p0 c0 {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {1,S} {4,D} {5,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73507,0.0318248,0.00021403,-1.79032e-06,3.77519e-09,50727.1,14.9378], Tmin=(10,'K'), Tmax=(180.865,'K')),
+            NASAPolynomial(coeffs=[5.22748,0.0294107,-1.96612e-05,6.24463e-09,-7.54781e-13,50623.1,8.90656], Tmin=(180.865,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 105.97 kcal/mol
+S298: 92.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.24280 -0.56675 -0.05626
+Br -2.22371 -0.60279 -0.07754
+C -0.08771 2.92918 -0.21343
+C 0.02261 1.51558 0.17237
+C -0.66222 0.35763 0.72247
+C 0.68390 0.37191 0.25465
+H 0.85733 3.31982 -0.59727
+H -0.40448 3.52926 0.64670
+H -0.86030 3.03902 -0.98272
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 77.4,109.4,116.4,153.6,275.6,435.9,467.5,515.1,528.3,765.0,1018.1,1036.4,1151.2,1231.8,1398.3,1467.9,1471.8,1827.1,3033.9,3093.5,3128.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1722,
+    label = "Br[C]1CCC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
+5  C  u0 p0 c0 {4,S} {7,S} {10,S} {11,S}
+6  C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+7  C  u1 p0 c0 {3,S} {5,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74467,0.0337154,0.000441181,-3.94657e-06,9.85905e-09,25564.1,14.5814], Tmin=(10,'K'), Tmax=(146.453,'K')),
+            NASAPolynomial(coeffs=[4.92762,0.0404556,-2.78107e-05,8.9683e-09,-1.09269e-12,25487.6,9.71707], Tmin=(146.453,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.68 kcal/mol
+S298: 96.75 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.23609 -1.61037 -0.37645
+Br -1.23675 1.61011 -0.37630
+Br 2.34225 0.00032 -0.49418
+C -0.65317 -0.00014 2.08232
+C 0.90622 -0.00027 2.21826
+C -0.50282 0.00002 0.53245
+C 0.94916 0.00027 0.72019
+H -1.14451 -0.89357 2.46466
+H -1.14430 0.89333 2.46480
+H 1.33154 -0.88947 2.69667
+H 1.33171 0.88848 2.69734
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 44.6,58.6,99.4,162.3,247.2,288.3,297.4,362.2,453.7,513.7,764.4,826.0,912.6,988.6,1002.9,1087.3,1127.8,1144.7,1189.0,1256.4,1267.8,1457.1,1476.4,3029.2,3069.3,3102.0,3167.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1723,
+    label = "BrCC1DC(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+6  C  u0 p0 c0 {3,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {5,S} {6,S} {8,D}
+8  C  u0 p0 c0 {4,S} {5,S} {7,D}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39208,0.0718154,0.000119427,-1.96221e-06,4.41908e-09,34174.1,18.7446], Tmin=(10,'K'), Tmax=(194.861,'K')),
+            NASAPolynomial(coeffs=[7.9279,0.0346891,-2.57229e-05,8.73237e-09,-1.10313e-12,33891.1,1.55287], Tmin=(194.861,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 74.69 kcal/mol
+S298: 111.26 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.64781 -1.62430 -1.21798
+Br -0.19047 -1.38996 1.64702
+Br 3.24659 0.28870 -0.19043
+Br -1.67519 2.43440 0.25899
+C -0.53800 -0.47837 -0.05699
+C 1.69596 0.54937 -1.39523
+C 0.43960 0.44549 -0.65722
+C -0.64127 0.96486 -0.12771
+H 1.77890 -0.23075 -2.15098
+H 1.82386 1.53339 -1.84221
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 20.5,48.8,63.9,87.2,125.7,157.6,176.5,309.9,372.0,499.5,516.8,551.5,629.1,676.5,799.3,897.6,1088.9,1190.3,1207.3,1228.6,1465.1,1858.9,3102.9,3171.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1724,
+    label = "Br[CH]C1DC(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 C  u1 p0 c0 {2,S} {4,S} {7,S}
+7 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72316,0.0227225,6.10475e-05,-2.36501e-07,2.10124e-10,36793.9,15.5241], Tmin=(10,'K'), Tmax=(432.768,'K')),
+            NASAPolynomial(coeffs=[6.29609,0.0219729,-1.61827e-05,5.44388e-09,-6.80777e-13,36355.5,2.77434], Tmin=(432.768,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 77.67 kcal/mol
+S298: 88.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.40966 -0.53927 -0.05732
+Br 2.49706 -0.45242 0.02409
+O -0.95135 1.96853 -0.01962
+C 0.14239 1.07000 0.05885
+C -1.11788 0.69629 0.53685
+C 1.41477 1.07320 -0.25966
+H 1.91622 1.92424 -0.69641
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 59.2,189.6,210.0,313.6,378.7,435.8,574.2,710.4,755.9,770.1,990.7,1171.4,1264.3,1876.6,3235.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1725,
+    label = "BrC1DCC(Br)O1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
+5 C  u0 p0 c0 {4,S} {6,D} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78125,0.0183692,5.49509e-05,-1.48204e-07,1.01088e-10,8233.07,14.3198], Tmin=(10,'K'), Tmax=(529.82,'K')),
+            NASAPolynomial(coeffs=[4.92421,0.0270372,-1.85604e-05,5.91377e-09,-7.09383e-13,7869.19,7.24055], Tmin=(529.82,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 20.70 kcal/mol
+S298: 84.79 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.57201 -0.17355 -0.21330
+Br 2.62698 -0.14164 -0.15009
+O 0.02482 -0.56635 0.86206
+C -0.98620 0.48690 0.70553
+C 0.00145 1.29821 -0.07907
+C 0.84948 0.29216 0.15794
+H -1.31022 0.84381 1.68128
+H -0.00056 2.25488 -0.56525
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 74.8,192.2,253.5,343.7,434.0,523.7,680.2,735.8,827.7,948.2,978.9,1120.3,1173.4,1206.2,1259.8,1628.5,3140.3,3324.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1726,
+    label = "BrCC1DC[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,D}
+5 C  u1 p0 c0 {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {4,D} {5,S} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.62807,0.0386252,-4.14723e-05,3.10339e-08,-1.16318e-11,53696.8,17.4407], Tmin=(10,'K'), Tmax=(563.855,'K')),
+            NASAPolynomial(coeffs=[4.72425,0.0308489,-2.07854e-05,6.57505e-09,-7.87372e-13,53573.2,12.7803], Tmin=(563.855,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 111.65 kcal/mol
+S298: 95.45 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.28443 -0.53069 -0.12835
+Br -2.32470 -0.53808 0.02720
+C 1.47366 1.05206 0.75757
+C 0.14968 1.31843 0.19212
+C -1.28073 1.12803 0.26248
+C -0.59744 1.88227 -0.74559
+H 1.42844 0.79616 1.81422
+H 2.16852 1.87190 0.58389
+H -0.65859 2.45429 -1.65715
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 8.1,78.9,182.1,261.8,340.9,401.4,481.9,636.3,774.4,859.1,882.6,973.8,1085.3,1149.8,1218.7,1260.2,1473.0,1763.9,3105.2,3174.5,3274.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1727,
+    label = "BrC1(Br)[C]DCO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5 C  u0 p0 c0 {3,S} {6,D} {7,S}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75402,0.01961,7.17283e-05,-2.4211e-07,2.02108e-10,43905.2,13.9697], Tmin=(10,'K'), Tmax=(448.83,'K')),
+            NASAPolynomial(coeffs=[6.04722,0.0226191,-1.66864e-05,5.60496e-09,-6.99283e-13,43463.2,2.11261], Tmin=(448.83,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 91.70 kcal/mol
+S298: 84.75 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.60112 -0.61043 0.00261
+Br -1.60103 -0.61059 0.00260
+O -0.00003 1.48910 -0.95151
+C 0.00000 0.47373 0.09151
+C -0.00027 2.47186 0.08418
+C -0.00011 1.60438 1.08790
+H -0.00046 3.52313 -0.15176
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 115.8,166.3,257.6,329.6,351.9,353.6,718.7,732.7,845.0,923.9,954.2,1078.9,1207.2,1604.5,3295.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1728,
+    label = "Br[C]DC1CC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {1,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85147,0.0125563,5.93782e-05,-1.24597e-07,7.46666e-11,50366.4,11.9329], Tmin=(10,'K'), Tmax=(546.241,'K')),
+            NASAPolynomial(coeffs=[2.71251,0.0310909,-1.95126e-05,5.85153e-09,-6.73072e-13,50338.7,15.3469], Tmin=(546.241,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 104.10 kcal/mol
+S298: 78.10 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.49409 0.05404 -0.00011
+C 2.34684 0.92131 0.00018
+C 2.85389 -0.51138 0.00022
+C 1.40385 -0.22773 0.00005
+C 0.20186 -0.69770 0.00001
+H 2.43258 1.50067 0.91506
+H 2.43282 1.50068 -0.91466
+H 3.29448 -0.89982 0.91425
+H 3.29470 -0.89977 -0.91373
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 130.2,167.6,328.0,366.2,601.7,765.8,821.1,856.6,900.1,1045.9,1069.7,1072.5,1115.8,1172.0,1451.9,1470.7,1836.7,3111.5,3113.7,3189.6,3204.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1729,
+    label = "Br[C]1C(Br)OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
+7 C  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+8 C  u1 p0 c0 {4,S} {6,S} {7,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.19649,0.0824119,-0.000206617,2.95562e-07,-1.70242e-10,15847.7,19.0967], Tmin=(10,'K'), Tmax=(424.748,'K')),
+            NASAPolynomial(coeffs=[8.70429,0.0305429,-2.34415e-05,8.05699e-09,-1.02064e-12,15379.9,-2.75918], Tmin=(424.748,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 38.03 kcal/mol
+S298: 109.22 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.84047 -0.82385 -0.38079
+Br -2.42974 0.09596 -1.09706
+Br -1.08310 -1.31087 1.45640
+Br 0.49081 2.27935 0.61135
+O 0.09095 -1.16070 -1.11547
+C 1.12690 -0.16384 -1.12858
+C -0.72131 -0.39336 -0.24374
+C 0.30312 0.67175 -0.22599
+H 1.37460 0.17750 -2.13265
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 39.0,41.5,77.5,111.3,142.9,191.1,282.2,313.5,361.5,417.3,479.3,545.1,716.8,900.1,934.8,993.3,1113.0,1171.6,1231.3,1297.1,3123.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1730,
+    label = "BrC1DCC1(Br)C(Br)(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  Br u0 p3 c0 {8,S}
+6  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+8  C  u0 p0 c0 {5,S} {6,S} {9,D}
+9  C  u0 p0 c0 {6,S} {8,D} {10,S}
+10 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.89446,0.106061,-0.000256947,3.24739e-07,-1.61436e-10,40153.6,19.4185], Tmin=(10,'K'), Tmax=(494.32,'K')),
+            NASAPolynomial(coeffs=[12.4784,0.028509,-2.16183e-05,7.36455e-09,-9.26299e-13,39206.1,-20.0662], Tmin=(494.32,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.48 kcal/mol
+S298: 116.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.10056 2.44997 -0.13937
+Br 2.51396 0.21103 -0.75806
+Br 0.83044 -0.18751 1.95001
+Br 0.49650 -2.22499 -0.46408
+Br -3.31481 -0.33559 0.05166
+C -0.35286 0.52850 -0.59064
+C 0.78189 -0.32767 -0.00485
+C -1.72496 0.05538 -0.78012
+C -1.03263 0.21450 -1.86895
+H -0.92208 0.22396 -2.93828
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 27.0,53.2,91.8,103.4,122.7,146.2,169.3,185.9,222.5,268.7,330.9,412.3,426.9,529.7,583.7,701.8,721.3,784.6,891.9,992.5,1015.9,1197.9,1772.2,3312.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1731,
+    label = "Br[CH]C1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+7 C  u1 p0 c0 {3,S} {5,S} {9,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.32766,0.058411,-8.75119e-05,7.05373e-08,-2.30743e-11,15789.3,17.7941], Tmin=(10,'K'), Tmax=(729.763,'K')),
+            NASAPolynomial(coeffs=[9.71079,0.0234235,-1.55965e-05,4.8398e-09,-5.67883e-13,14857.7,-10.99], Tmin=(729.763,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 37.22 kcal/mol
+S298: 101.05 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.21206 -1.38492 -0.21670
+Br -1.38342 1.72419 -0.12945
+Br 3.36856 -0.24085 -0.17638
+O -0.32247 -0.27623 1.56928
+C 0.56485 -0.50602 0.35735
+C -0.85820 -0.09215 0.34237
+C 1.65994 0.40665 0.17524
+H 0.75499 -1.56136 0.19053
+H 1.56740 1.47569 0.29390
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 43.6,72.3,139.9,180.1,217.5,271.8,356.4,387.6,404.1,487.4,574.4,704.1,805.0,995.0,1100.3,1159.3,1220.2,1268.0,1406.8,3179.9,3249.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1732,
+    label = "BrC(Br)[C]1OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 O  u0 p2 c0 {3,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.60726,0.0388802,-5.16972e-05,3.73844e-08,-1.12342e-11,24946.6,15.2195], Tmin=(10,'K'), Tmax=(772.56,'K')),
+            NASAPolynomial(coeffs=[7.4296,0.0190897,-1.32721e-05,4.22612e-09,-5.04193e-13,24356.1,-2.23469], Tmin=(772.56,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 54.37 kcal/mol
+S298: 90.16 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.32169 -1.09330 -0.08156
+Br -1.82618 -0.19621 -0.03847
+O 0.55468 2.14007 -0.83623
+O 1.48058 2.18946 0.39561
+C -0.04013 0.17145 0.64704
+C 0.27891 1.58049 0.35457
+H -0.05762 -0.01502 1.71646
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 71.5,122.2,152.9,175.9,357.0,471.3,588.2,661.5,718.9,906.7,960.4,1135.4,1227.3,1530.8,3171.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1733,
+    label = "BrC1OC(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  O  u0 p2 c0 {8,S} {9,S}
+7  C  u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+8  C  u0 p0 c0 {3,S} {6,S} {7,S} {10,S}
+9  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.01364,0.0988524,-0.000238947,3.15751e-07,-1.66532e-10,-40.1633,18.7539], Tmin=(10,'K'), Tmax=(464.069,'K')),
+            NASAPolynomial(coeffs=[10.6865,0.0327166,-2.51778e-05,8.65673e-09,-1.09595e-12,-752.314,-12.3727], Tmin=(464.069,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 7.32 kcal/mol
+S298: 113.72 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.77244 2.38530 -0.15585
+Br 1.05298 0.67825 1.76791
+Br 2.71778 -0.38792 -1.10850
+Br -0.42052 -2.21907 0.73866
+Br -2.64579 -0.40413 -0.57562
+O -0.05880 -0.66780 -1.55766
+C 0.13787 0.67359 0.07914
+C 0.90633 0.32412 -1.23280
+C -0.72793 -0.59849 -0.32804
+H 0.95235 1.11200 -1.97944
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 28.3,80.2,98.4,114.8,131.3,163.7,172.5,189.8,211.9,300.5,372.3,383.5,485.7,635.7,679.0,846.3,903.9,937.0,965.8,989.2,1083.3,1234.0,1287.3,3156.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1734,
+    label = "CC1[C](Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+6  C  u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+7  C  u1 p0 c0 {3,S} {4,S} {5,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.58466,0.0481769,0.000196382,-1.74167e-06,3.46957e-09,34158.7,16.4596], Tmin=(10,'K'), Tmax=(198.187,'K')),
+            NASAPolynomial(coeffs=[6.0235,0.0382767,-2.63037e-05,8.53374e-09,-1.04795e-12,33984.8,6.69265], Tmin=(198.187,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 74.05 kcal/mol
+S298: 101.99 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.02042 -1.21440 -0.09780
+Br 0.69652 1.69018 -0.54079
+Br -2.43448 -0.57377 -0.46807
+C -0.20763 -0.19053 1.65365
+C 0.48509 -0.05744 0.27169
+C -0.72734 1.00034 2.43290
+C -0.80778 -0.66725 0.39719
+H 0.24122 -0.96419 2.28026
+H -1.16264 1.75548 1.77638
+H -1.49879 0.66671 3.13403
+H 0.08016 1.46084 3.00998
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.3,97.5,130.8,144.0,165.3,180.6,253.8,398.0,427.2,478.7,544.8,654.1,803.4,901.6,1015.8,1047.1,1103.3,1134.2,1294.7,1386.0,1409.7,1483.5,1488.2,3042.8,3077.4,3108.3,3140.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1735,
+    label = "BrC1DCCDC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,D} {5,S}
+3 C  u0 p0 c0 {2,D} {4,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {2,S} {4,D} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91533,0.00503998,9.37376e-05,-1.90329e-07,1.1515e-10,50943.6,10.7044], Tmin=(10,'K'), Tmax=(556.554,'K')),
+            NASAPolynomial(coeffs=[3.41832,0.0276982,-1.877e-05,6.05606e-09,-7.42448e-13,50703.3,10.1553], Tmin=(556.554,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 105.00 kcal/mol
+S298: 73.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.28605 -0.02692 -0.00000
+C 0.57708 0.08509 0.00000
+C 1.46455 1.07581 0.00000
+C 2.60473 -0.01770 0.00000
+C 1.71553 -1.00541 0.00000
+H 1.43375 2.15383 0.00000
+H 3.68401 0.04553 0.00000
+H 1.72279 -2.08394 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 213.4,251.7,385.5,518.1,597.8,729.7,754.2,837.2,858.5,1012.1,1090.4,1139.1,1210.8,1627.2,1654.8,3221.6,3263.1,3270.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1736,
+    label = "BrC1D[C]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,D}
+4 C  u1 p0 c0 {2,S} {3,D}
+5 H  u0 p0 c0 {2,S}
+6 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94682,0.00333761,6.39673e-05,-1.37519e-07,8.9384e-11,64296.2,10.5996], Tmin=(10,'K'), Tmax=(510.61,'K')),
+            NASAPolynomial(coeffs=[3.46551,0.0181237,-1.18295e-05,3.69388e-09,-4.41487e-13,64201.8,11.192], Tmin=(510.61,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 131.07 kcal/mol
+S298: 71.31 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.98424 -0.03578 0.00000
+C 2.17201 -0.57639 0.00000
+C 0.82392 0.24168 0.00001
+C 1.92283 0.90580 -0.00001
+H 2.46796 -1.08712 -0.91783
+H 2.46802 -1.08706 0.91784
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 264.1,275.7,473.1,731.6,766.5,1023.4,1048.4,1084.2,1510.9,1826.7,3055.5,3135.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1737,
+    label = "BrC1(Br)CD[C]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80382,0.0139273,0.000113731,-3.39637e-07,2.76144e-10,41271,13.8057], Tmin=(10,'K'), Tmax=(448.248,'K')),
+            NASAPolynomial(coeffs=[6.22647,0.0226498,-1.69904e-05,5.78763e-09,-7.29768e-13,40749,0.661673], Tmin=(448.248,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 86.42 kcal/mol
+S298: 83.91 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.60788 -0.58278 0.00847
+Br -1.60789 -0.58277 0.00849
+O -0.00005 1.44645 -1.08072
+C -0.00001 0.51609 0.05350
+C 0.00002 1.66532 1.02738
+C 0.00004 2.39583 -0.08793
+H 0.00031 1.75917 2.09441
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 163.5,194.9,234.4,322.4,337.6,445.2,658.8,683.8,734.0,911.1,956.8,1114.1,1161.6,1554.7,3353.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1738,
+    label = "BrC1[CH]C(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+6 C  u1 p0 c0 {4,S} {5,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7074,0.0251362,3.58754e-05,-1.14567e-07,7.91426e-11,13122,14.6926], Tmin=(10,'K'), Tmax=(539.846,'K')),
+            NASAPolynomial(coeffs=[5.04393,0.0302784,-2.02165e-05,6.32697e-09,-7.49827e-13,12758.5,7.03802], Tmin=(539.846,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.74 kcal/mol
+S298: 87.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.13196 -0.50928 0.00173
+Br -2.13196 -0.50928 0.00173
+O -0.00000 1.15536 -1.01154
+C 1.01809 1.16412 -0.01252
+C -1.01809 1.16411 -0.01252
+C -0.00000 1.23196 1.05163
+H 1.75516 1.95219 -0.15682
+H -1.75516 1.95218 -0.15682
+H 0.00000 1.14104 2.12526
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 50.3,216.0,253.3,263.6,286.3,448.8,468.3,691.8,901.0,916.1,955.9,973.0,1115.9,1141.9,1188.3,1218.4,1266.6,1308.7,3124.4,3126.7,3278.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1739,
+    label = "BrC(Br)C1[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {8,S}
+6 C  u1 p0 c0 {3,S} {4,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6445,0.0331727,-1.60422e-05,-6.0839e-09,5.96605e-12,18448.5,15.1734], Tmin=(10,'K'), Tmax=(841.864,'K')),
+            NASAPolynomial(coeffs=[7.20061,0.0243336,-1.46491e-05,4.1814e-09,-4.58325e-13,17564.2,-3.06641], Tmin=(841.864,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 41.45 kcal/mol
+S298: 89.56 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.75852 -0.43724 0.01402
+Br 1.42235 -1.05658 0.01785
+O 1.28719 2.40277 -0.07755
+C 0.23740 1.51466 0.42957
+C 0.02974 0.26251 -0.36990
+C -0.01509 2.80235 -0.18841
+H 0.25708 1.38275 1.50926
+H 0.07070 0.45033 -1.43810
+H -0.37130 3.75128 0.20607
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 75.1,154.9,156.9,266.2,295.5,386.1,654.9,675.8,794.2,832.5,952.8,1058.1,1122.8,1150.0,1161.2,1208.7,1303.4,1450.1,3136.9,3151.4,3174.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1740,
+    label = "[CH2]C1(Br)C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
+6  C  u0 p0 c0 {3,S} {4,S} {5,S} {9,S}
+7  C  u1 p0 c0 {4,S} {10,S} {11,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.31274,0.0599608,-7.57889e-05,5.47794e-08,-1.66807e-11,32021.9,16.4], Tmin=(10,'K'), Tmax=(762.482,'K')),
+            NASAPolynomial(coeffs=[8.71806,0.0316044,-2.00048e-05,6.00548e-09,-6.88927e-13,31197.6,-8.21183], Tmin=(762.482,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.76 kcal/mol
+S298: 99.81 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.77142 -0.00000 -0.13264
+Br 1.52846 -1.81486 -0.02652
+Br 1.52846 1.81486 -0.02652
+C -0.80858 0.00000 0.33251
+C 0.04895 -0.75703 -0.64190
+C 0.04895 0.75703 -0.64190
+C -0.61179 -0.00000 1.76279
+H -0.41859 -1.23209 -1.49442
+H -0.41859 1.23209 -1.49442
+H -0.61029 -0.93490 2.30923
+H -0.61034 0.93490 2.30923
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 84.6,99.0,131.9,158.1,174.3,179.2,264.8,385.3,457.0,503.3,589.4,650.3,744.6,771.3,883.0,1025.0,1071.7,1074.2,1096.7,1239.4,1243.9,1389.8,1454.2,3158.6,3194.9,3203.2,3271.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1741,
+    label = "Br[C](Br)C1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {4,S} {5,S} {11,S}
+7  C  u1 p0 c0 {2,S} {3,S} {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39807,0.061883,-0.000134674,2.40973e-07,-1.87028e-10,29094.1,18.1697], Tmin=(10,'K'), Tmax=(350.599,'K')),
+            NASAPolynomial(coeffs=[4.97099,0.0404102,-2.77137e-05,8.89127e-09,-1.07689e-12,29005.5,12.5391], Tmin=(350.599,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 63.70 kcal/mol
+S298: 102.83 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.26864 -0.01610 -0.10351
+Br -1.21252 1.81039 0.03553
+Br -2.48606 -1.13858 -0.07026
+C 0.35384 -0.59031 -0.35045
+C 0.93574 -1.82134 0.32078
+C 1.52925 -0.47599 0.58989
+C -0.94624 -0.05609 0.08657
+H 0.58799 -0.47829 -1.40864
+H 0.37209 -2.28375 1.12394
+H 1.48144 -2.50890 -0.31397
+H 1.37098 -0.01654 1.55631
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 23.1,61.5,132.8,141.7,202.4,271.0,310.3,361.1,514.2,605.3,768.6,859.6,917.0,937.5,964.9,1074.2,1082.3,1103.2,1162.3,1227.9,1247.1,1360.1,1469.3,3103.8,3141.3,3203.5,3234.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1742,
+    label = "OC1(Br)[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {7,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85644,0.00967589,0.000103504,-2.79669e-07,2.12388e-10,38905.3,12.4044], Tmin=(10,'K'), Tmax=(472.724,'K')),
+            NASAPolynomial(coeffs=[5.72217,0.020334,-1.42283e-05,4.70458e-09,-5.86355e-13,38433.5,1.67588], Tmin=(472.724,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 81.37 kcal/mol
+S298: 79.10 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.09215 -0.11875 0.00634
+O 1.14741 1.50619 0.03772
+C 0.86653 0.17902 -0.08050
+C 1.80961 -0.86566 0.50165
+C 1.75422 -0.75789 -0.79100
+H 2.12501 -1.22153 1.46617
+H 0.33878 1.99540 0.22944
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 154.1,262.1,309.4,338.8,445.2,529.0,744.4,785.2,888.5,942.4,1195.3,1340.6,1694.6,3315.0,3802.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1743,
+    label = "BrC1OC(Br)O1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78317,0.0217204,1.6874e-05,-5.04744e-08,2.7333e-11,-25913.4,13.0842], Tmin=(10,'K'), Tmax=(719.578,'K')),
+            NASAPolynomial(coeffs=[5.64473,0.0243424,-1.56284e-05,4.68679e-09,-5.34015e-13,-26517.1,2.38264], Tmin=(719.578,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -47.21 kcal/mol
+S298: 82.41 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.11886 -0.49874 0.00000
+Br 2.11886 -0.49874 0.00000
+O 0.00000 1.11442 1.02048
+O 0.00000 1.11442 -1.02048
+C -0.96856 1.09809 0.00000
+C 0.96856 1.09809 0.00000
+H -1.64557 1.95195 -0.00000
+H 1.64557 1.95195 -0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 53.9,270.6,290.4,290.5,299.5,592.9,760.6,957.4,962.0,982.9,1011.1,1143.9,1218.2,1275.4,1301.9,1311.0,3119.0,3125.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1744,
+    label = "Br[C]DC1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u1 p0 c0 {3,S} {6,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.36719,0.0537822,-8.90961e-05,7.36558e-08,-2.39694e-11,44190.1,17.0339], Tmin=(10,'K'), Tmax=(745.585,'K')),
+            NASAPolynomial(coeffs=[10.6494,0.0147141,-1.04971e-05,3.37631e-09,-4.04165e-13,43104.2,-15.9604], Tmin=(745.585,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 93.26 kcal/mol
+S298: 97.16 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.63567 -1.61070 -0.25861
+Br 1.63567 1.61070 -0.25861
+Br -3.14531 0.00000 -0.29290
+O 0.55725 0.00000 1.82292
+C 0.84019 0.00000 0.43600
+C -0.51375 0.00000 0.92588
+C -1.80464 -0.00000 0.93326
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 51.7,57.3,168.5,185.6,302.9,308.9,345.8,424.0,473.2,646.8,730.6,785.0,969.4,1196.2,1864.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1745,
+    label = "CC1DCC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {2,S}
+2  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+4  C  u0 p0 c0 {2,S} {3,S} {5,D}
+5  C  u0 p0 c0 {2,S} {4,D} {10,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {3,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80722,0.0174198,5.64856e-05,-1.49725e-07,1.16641e-10,26265.8,12.0847], Tmin=(10,'K'), Tmax=(332.408,'K')),
+            NASAPolynomial(coeffs=[2.37423,0.0346635,-2.1326e-05,6.32988e-09,-7.24676e-13,26361,17.4198], Tmin=(332.408,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.50 kcal/mol
+S298: 80.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.32019 -0.18108 -0.06135
+C 0.41714 0.62329 0.60206
+C 2.61753 -0.97188 -0.05171
+C 1.68607 0.16531 0.02876
+C 1.28276 1.35882 -0.31427
+H 0.23182 0.86482 1.64392
+H 3.46051 -0.75936 -0.71355
+H 2.99964 -1.22887 0.94231
+H 2.08542 -1.85317 -0.42738
+H 1.40809 2.26124 -0.88702
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 128.9,141.1,278.8,314.0,421.9,542.9,738.3,792.8,962.5,986.7,1039.5,1065.4,1140.4,1177.8,1256.0,1403.2,1473.7,1476.4,1838.1,3033.0,3091.5,3122.6,3143.4,3289.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1746,
+    label = "CC1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8  C  u0 p0 c0 {5,S} {10,S} {11,S} {12,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {8,S}
+11 H  u0 p0 c0 {8,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.09918,0.0858929,-0.000182225,2.37442e-07,-1.26991e-10,13574.6,16.3421], Tmin=(10,'K'), Tmax=(454.925,'K')),
+            NASAPolynomial(coeffs=[8.49651,0.0384357,-2.5746e-05,8.12943e-09,-9.73713e-13,13083.5,-5.44576], Tmin=(454.925,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 34.01 kcal/mol
+S298: 106.01 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.72969 1.66309 -0.11888
+Br 1.72683 -1.49741 -0.41462
+Br -1.72683 -1.49742 -0.41462
+Br -1.72969 1.66309 -0.11887
+C 0.00000 -0.06441 1.56383
+C 0.76184 0.03320 0.25632
+C -0.76184 0.03320 0.25632
+C 0.00000 -1.28670 2.45160
+H -0.00000 0.87340 2.11437
+H 0.88653 -1.27497 3.09257
+H -0.00000 -2.21271 1.87677
+H -0.88652 -1.27496 3.09258
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 65.2,99.4,125.9,138.6,176.7,179.8,180.9,193.2,211.7,314.9,434.1,454.2,537.6,727.4,772.2,824.3,882.6,1013.2,1058.7,1108.6,1138.5,1242.6,1369.8,1411.3,1483.6,1487.2,3048.2,3113.1,3137.7,3156.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1747,
+    label = "BrC1OCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  O  u0 p2 c0 {6,S} {7,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6  C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+7  C  u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
+8  H  u0 p0 c0 {6,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.55688,0.0473659,-5.27732e-05,3.79262e-08,-1.28904e-11,-5715.28,15.8334], Tmin=(10,'K'), Tmax=(632.174,'K')),
+            NASAPolynomial(coeffs=[5.46912,0.0352665,-2.40641e-05,7.6507e-09,-9.17589e-13,-5957.05,7.48489], Tmin=(632.174,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -5.86 kcal/mol
+S298: 95.74 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.32116 1.80590 0.13426
+Br -2.18786 -0.71635 -0.47061
+Br 2.42377 -0.29269 -0.38868
+O 0.54904 -1.72170 1.18386
+C -0.50649 -0.10440 0.33790
+C 0.63727 -1.08474 -0.05980
+C -0.29413 -0.68655 1.74801
+H 0.47331 -1.74171 -0.91042
+H -1.17093 -1.09776 2.24850
+H 0.26896 -0.02292 2.41058
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.6,102.0,149.2,178.4,264.3,293.4,340.0,371.9,595.1,706.8,857.7,926.6,1011.8,1020.4,1056.4,1101.5,1151.8,1222.2,1272.5,1345.4,1501.3,3062.7,3142.3,3147.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1748,
+    label = "BrC1(Br)CCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {8,S}
+6  C  u0 p0 c0 {5,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {6,S} {8,S} {11,S} {12,S}
+8  C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29324,0.0662704,-8.43508e-05,6.35669e-08,-2.06463e-11,9063.78,16.3738], Tmin=(10,'K'), Tmax=(706.639,'K')),
+            NASAPolynomial(coeffs=[8.21337,0.0384195,-2.52311e-05,7.79134e-09,-9.13665e-13,8368.43,-5.65462], Tmin=(706.639,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 24.56 kcal/mol
+S298: 102.66 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.07984 1.87403 -0.67850
+Br 2.13277 -1.00231 0.13017
+Br -1.07980 -1.87408 -0.67841
+Br -2.13277 1.00232 0.12997
+C 0.71833 0.33119 0.44384
+C 0.54480 0.55278 1.96583
+C -0.54491 -0.55262 1.96584
+C -0.71836 -0.33115 0.44382
+H 1.43511 0.39058 2.57017
+H 0.12833 1.54082 2.16526
+H -0.12845 -1.54064 2.16538
+H -1.43525 -0.39036 2.57012
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 54.5,109.6,121.4,158.3,167.8,195.9,267.9,300.5,307.5,372.7,451.2,583.2,684.8,751.4,865.3,918.3,928.9,1014.2,1049.9,1073.2,1121.2,1196.9,1255.6,1268.1,1468.7,1479.2,3096.4,3097.7,3159.5,3168.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1749,
+    label = "C[C]1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+3  C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+4  C  u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
+5  C  u1 p0 c0 {2,S} {3,S} {4,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76422,0.0244849,1.35485e-05,-3.16988e-08,1.32627e-11,29154.5,12.8697], Tmin=(10,'K'), Tmax=(901.602,'K')),
+            NASAPolynomial(coeffs=[4.26878,0.0328966,-1.81649e-05,4.85265e-09,-5.05338e-13,28630.6,8.08719], Tmin=(901.602,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 62.45 kcal/mol
+S298: 83.38 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.26210 -0.17271 -0.05389
+C 1.31126 1.37084 -0.41025
+C 0.39727 0.68136 0.60082
+C 2.27221 -1.19030 -0.06110
+C 1.67639 0.11730 0.26641
+H 1.76909 2.31387 -0.11017
+H 1.02054 1.34280 -1.46111
+H 0.17427 1.14261 1.55618
+H 2.23501 -1.87291 0.79390
+H 1.71942 -1.67171 -0.88391
+H 3.31232 -1.08485 -0.38390
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 100.7,114.4,240.7,279.6,407.5,484.7,702.4,862.4,898.5,930.6,1010.9,1035.1,1058.2,1082.7,1133.9,1180.0,1391.8,1433.1,1466.7,1471.6,1503.3,2979.2,3064.0,3064.9,3106.4,3134.5,3163.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1750,
+    label = "CC1O[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+5 C  u1 p0 c0 {1,S} {2,S} {3,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.8689,0.0121135,9.10595e-05,-2.7594e-07,2.67677e-10,12385.9,12.591], Tmin=(10,'K'), Tmax=(262.743,'K')),
+            NASAPolynomial(coeffs=[2.58986,0.0315858,-2.01087e-05,6.13276e-09,-7.17237e-13,12453.2,17.0521], Tmin=(262.743,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 28.74 kcal/mol
+S298: 80.24 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.27105 0.14654 -0.01069
+O -1.20074 -1.22035 -0.51822
+C -1.74193 -0.20747 0.43977
+C -2.15350 1.10492 -0.15770
+C -0.38215 -0.73747 0.42684
+H -2.42475 -0.65207 1.16182
+H -3.12841 1.01675 -0.64799
+H -2.24433 1.85402 0.63636
+H -1.41772 1.45546 -0.88375
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 143.6,170.1,306.8,363.3,427.9,575.4,717.7,899.7,1003.3,1053.0,1120.3,1184.6,1309.8,1407.2,1447.2,1479.5,1495.4,3038.9,3101.2,3125.5,3144.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1751,
+    label = "BrC(Br)C1OC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {6,S} {7,S}
+6  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+8  C  u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.22223,0.0787222,-0.000175579,2.3474e-07,-1.28741e-10,-2238.4,18.4351], Tmin=(10,'K'), Tmax=(443.091,'K')),
+            NASAPolynomial(coeffs=[8.14404,0.0342905,-2.51636e-05,8.42712e-09,-1.05013e-12,-2674.56,-1.30356], Tmin=(443.091,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 2.13 kcal/mol
+S298: 107.85 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.68244 0.98033 1.43534
+Br 2.75850 -0.73996 -1.05469
+Br -2.77093 -1.20637 0.46683
+Br -1.75308 1.50510 -0.99451
+O 0.61782 -1.51614 0.61845
+C -0.09766 -0.66790 -0.32050
+C 1.27378 -0.40759 0.14577
+C -1.29354 0.05221 0.22670
+H -0.22159 -1.09922 -1.31063
+H -1.10939 0.49971 1.19741
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.6,56.6,79.2,114.9,169.6,202.3,253.1,306.0,365.3,388.3,466.3,633.2,682.8,782.9,806.3,982.2,1092.1,1125.7,1161.2,1213.5,1294.3,1434.4,3157.9,3183.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1752,
+    label = "Br[CH]C1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
+6  C  u1 p0 c0 {2,S} {3,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.61442,0.0355265,-7.08362e-06,-1.84536e-08,1.09028e-11,27612.6,16.1425], Tmin=(10,'K'), Tmax=(826.749,'K')),
+            NASAPolynomial(coeffs=[6.26077,0.0324127,-1.90147e-05,5.34372e-09,-5.80076e-13,26843.9,1.87617], Tmin=(826.749,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 59.96 kcal/mol
+S298: 93.13 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.80368 -0.39204 -0.03367
+Br -2.92787 -0.26349 -0.07988
+C -0.09359 0.33241 -0.16924
+C 0.66812 1.65189 -0.42884
+C 1.24013 0.62156 0.47896
+C -1.28836 0.28127 0.65971
+H -0.07325 -0.35748 -1.00545
+H 1.09518 1.76828 -1.41787
+H 0.29065 2.56324 0.02307
+H 1.25887 0.81509 1.54406
+H -1.38259 0.83166 1.58689
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 30.7,123.6,169.9,250.3,305.2,363.2,451.3,595.2,715.3,779.9,858.3,936.0,956.9,1054.4,1095.6,1103.8,1172.4,1200.2,1226.5,1272.3,1388.4,1464.6,3134.7,3177.0,3188.7,3210.4,3231.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1753,
+    label = "Br[C](Br)C1DC(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {1,S} {4,S} {5,D}
+7 C  u1 p0 c0 {2,S} {3,S} {5,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.33681,0.066559,-0.000159192,2.35931e-07,-1.43147e-10,50139.4,16.8135], Tmin=(10,'K'), Tmax=(402.432,'K')),
+            NASAPolynomial(coeffs=[7.06908,0.0294617,-2.09164e-05,6.86327e-09,-8.44126e-13,49839,2.20476], Tmin=(402.432,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 105.49 kcal/mol
+S298: 100.13 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.19966 -0.02558 0.00024
+Br -0.94507 1.80682 -0.00025
+Br -2.59581 -0.95756 -0.00008
+C 0.85440 -2.16565 0.00026
+C 0.23354 -0.77046 0.00004
+C 1.56770 -0.87119 0.00015
+C -0.93250 -0.07760 -0.00007
+H 0.80179 -2.75954 0.91562
+H 0.80195 -2.75976 -0.91497
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.0,55.1,143.0,144.8,192.8,227.1,333.0,358.6,437.2,550.1,789.4,863.7,957.4,1038.6,1070.4,1130.8,1270.1,1491.8,1644.2,3043.0,3113.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1754,
+    label = "BrC1D[C]C(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,D}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72757,0.0237572,1.68021e-05,-7.64987e-08,5.43068e-11,42882.3,15.0141], Tmin=(10,'K'), Tmax=(571.699,'K')),
+            NASAPolynomial(coeffs=[6.11894,0.0214648,-1.50685e-05,4.84458e-09,-5.82962e-13,42372.9,2.75043], Tmin=(571.699,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 89.57 kcal/mol
+S298: 86.46 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.64362 -0.10839 -0.18453
+Br -2.68916 -0.08790 -0.12409
+O -0.01548 -0.67934 0.62135
+C 0.98423 0.40344 0.67083
+C -0.89541 0.27699 0.10060
+C -0.00306 1.25939 -0.08334
+H 1.20314 0.66592 1.70254
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 64.0,176.2,232.3,367.2,427.0,478.9,641.0,759.5,914.3,973.2,1084.8,1162.3,1233.0,1558.5,3158.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1755,
+    label = "Br[C](Br)C1(Br)CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
+7  C  u1 p0 c0 {2,S} {3,S} {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.44273,0.0550478,-6.86251e-05,5.58142e-08,-2.06898e-11,27835.3,16.5707], Tmin=(10,'K'), Tmax=(607.382,'K')),
+            NASAPolynomial(coeffs=[6.13235,0.037335,-2.48814e-05,7.80091e-09,-9.27459e-13,27508.6,4.93585], Tmin=(607.382,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 61.21 kcal/mol
+S298: 99.35 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.10263 -0.00001 -0.80964
+Br 1.38461 -1.60362 -0.15048
+Br 1.38464 1.60360 -0.15051
+C -0.85127 0.00002 0.74135
+C -1.31996 0.75552 1.95551
+C -1.31997 -0.75543 1.95553
+C 0.54656 0.00000 0.35448
+H -0.56075 1.27365 2.53115
+H -2.27119 1.26799 1.88425
+H -2.27120 -1.26790 1.88430
+H -0.56076 -1.27355 2.53120
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.5,80.6,124.3,162.7,231.9,269.9,321.4,383.2,421.5,498.6,770.9,799.6,854.4,949.9,955.4,1008.5,1067.6,1095.0,1152.9,1181.1,1341.5,1458.1,1485.7,3141.8,3144.2,3229.8,3241.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1756,
+    label = "BrC1DCCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6  C  u0 p0 c0 {3,S} {5,S} {7,D}
+7  C  u0 p0 c0 {4,S} {6,D} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.50192,0.0458824,-4.23085e-05,2.01773e-08,-3.93006e-12,21631,15.2922], Tmin=(10,'K'), Tmax=(1161.73,'K')),
+            NASAPolynomial(coeffs=[9.92915,0.0237524,-1.37346e-05,3.77991e-09,-4.01381e-13,20137.7,-16.6789], Tmin=(1161.73,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 48.44 kcal/mol
+S298: 93.81 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.21984 1.60438 -0.37259
+Br 1.21983 -1.60440 -0.37256
+Br -2.37100 -0.00001 -0.42123
+C 0.69437 0.00003 2.08348
+C 0.53660 0.00000 0.52190
+C -0.94220 0.00002 0.77712
+C -0.82598 0.00007 2.10953
+H 1.18079 0.89602 2.47551
+H 1.18071 -0.89600 2.47553
+H -1.54143 0.00012 2.92010
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 70.9,97.8,149.5,167.6,291.6,318.1,391.2,451.4,458.3,658.8,838.2,874.1,921.5,985.9,1017.0,1116.1,1124.6,1226.7,1249.1,1472.8,1637.7,3066.3,3124.5,3236.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1757,
+    label = "BrC1DCC(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  Br u0 p3 c0 {8,S}
+6  C  u0 p0 c0 {1,S} {2,S} {7,S} {9,S}
+7  C  u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
+8  C  u0 p0 c0 {5,S} {7,S} {9,D}
+9  C  u0 p0 c0 {6,S} {8,D} {10,S}
+10 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.99002,0.0996313,-0.000239595,3.10943e-07,-1.60386e-10,27587.6,18.0794], Tmin=(10,'K'), Tmax=(475.022,'K')),
+            NASAPolynomial(coeffs=[11.1039,0.0313067,-2.38436e-05,8.1479e-09,-1.02738e-12,26816.7,-15.0256], Tmin=(475.022,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 62.25 kcal/mol
+S298: 112.46 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.14276 -1.58554 -0.45456
+Br -2.14274 1.58557 -0.45454
+Br 0.69302 1.58321 1.43165
+Br 0.69302 -1.58327 1.43159
+Br 2.85406 0.00002 -1.37272
+C -0.99690 0.00001 -0.55814
+C 0.34559 -0.00001 0.34804
+C 1.03842 0.00001 -0.98551
+C -0.07394 0.00002 -1.73116
+H -0.28967 0.00002 -2.78897
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.8,71.4,91.3,111.4,125.5,152.3,169.2,186.7,237.0,294.3,378.8,450.2,483.4,547.4,635.0,809.0,859.8,885.8,890.6,1046.2,1133.6,1236.7,1621.9,3259.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1758,
+    label = "BrC1OC1(Br)C(Br)(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {9,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  O  u0 p2 c0 {7,S} {8,S}
+7  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+8  C  u0 p0 c0 {2,S} {6,S} {7,S} {10,S}
+9  C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.94571,0.103491,-0.000252613,3.28414e-07,-1.68982e-10,3239.93,18.8514], Tmin=(10,'K'), Tmax=(476.842,'K')),
+            NASAPolynomial(coeffs=[11.6297,0.0306453,-2.3462e-05,8.03998e-09,-1.01543e-12,2411.75,-16.6128], Tmin=(476.842,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 14.02 kcal/mol
+S298: 114.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.05477 -1.91513 -0.11011
+Br -3.37605 0.68301 0.04861
+Br 1.25724 -0.24090 1.90972
+Br 1.47383 2.04530 -0.29039
+Br 2.13395 -0.94151 -1.10788
+O -0.96286 0.55009 -1.51088
+C -0.50330 -0.07533 -0.34448
+C -1.51364 0.99630 -0.28634
+C 0.97532 0.16567 0.01843
+H -1.24425 2.00219 0.01290
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 30.0,83.9,95.7,114.2,135.6,147.3,160.5,188.1,210.0,237.6,365.0,373.6,457.9,599.2,654.5,733.9,758.2,815.2,973.3,997.4,1122.2,1275.3,1359.1,3190.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1759,
+    label = "BrC1(Br)[CH]OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 O  u0 p2 c0 {7,S} {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+7 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8 C  u1 p0 c0 {5,S} {6,S} {9,S}
+9 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.08701,0.083562,-0.000174091,1.87615e-07,-7.97953e-11,19784.9,18.3367], Tmin=(10,'K'), Tmax=(574.911,'K')),
+            NASAPolynomial(coeffs=[11.7266,0.0234513,-1.72559e-05,5.74859e-09,-7.10785e-13,18791.5,-18.5619], Tmin=(574.911,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 46.13 kcal/mol
+S298: 108.49 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.73165 -1.58671 -0.23182
+Br 1.72968 1.58856 -0.23317
+Br -1.69588 1.58066 -0.26112
+Br -1.69383 -1.58226 -0.26278
+O -0.83623 -0.00136 1.85794
+C 0.79003 0.00052 0.48487
+C -0.81581 -0.00063 0.42414
+C 0.54054 0.00075 1.91010
+H 1.09449 -0.00177 2.83305
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 15.0,104.8,125.7,152.9,166.4,184.0,199.9,250.2,306.9,308.0,348.5,452.4,595.0,815.3,855.3,908.0,943.0,1102.3,1154.9,1332.3,3289.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1760,
+    label = "Br[C]1CCC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3  C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+4  C  u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
+5  C  u1 p0 c0 {1,S} {3,S} {4,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {3,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.95472,0.00306641,0.000129557,-2.68997e-07,1.83993e-10,24380.4,12.7239], Tmin=(10,'K'), Tmax=(373.992,'K')),
+            NASAPolynomial(coeffs=[0.338771,0.0417413,-2.55627e-05,7.52199e-09,-8.53544e-13,24650.9,26.6123], Tmin=(373.992,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 52.45 kcal/mol
+S298: 79.31 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.37981 0.00000 0.00985
+C 2.57365 0.00000 0.02147
+C 1.47332 1.11471 0.01696
+C 1.47332 -1.11471 0.01696
+C 0.48925 0.00000 -0.17934
+H 3.22168 0.00000 0.89912
+H 3.18881 0.00000 -0.87945
+H 1.53464 1.86360 -0.78119
+H 1.37810 1.65087 0.97091
+H 1.53464 -1.86360 -0.78119
+H 1.37810 -1.65087 0.97091
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 101.1,152.6,252.8,356.0,737.2,774.0,812.6,906.8,916.0,997.9,1026.1,1094.8,1129.0,1175.8,1201.8,1220.5,1271.1,1274.7,1459.6,1467.0,1493.0,3003.3,3006.9,3044.5,3047.7,3078.4,3136.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1761,
+    label = "BrCDC1CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6  C  u0 p0 c0 {4,S} {5,S} {7,D}
+7  C  u0 p0 c0 {3,S} {6,D} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4491,0.0501421,-5.44145e-05,3.22973e-08,-8.04194e-12,29314.3,16.1567], Tmin=(10,'K'), Tmax=(910.596,'K')),
+            NASAPolynomial(coeffs=[8.58204,0.0275946,-1.72725e-05,5.10491e-09,-5.76409e-13,28379.5,-8.12603], Tmin=(910.596,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 63.89 kcal/mol
+S298: 96.58 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.39910 -1.61858 -0.35184
+Br 1.39965 1.61832 -0.35194
+Br -2.71224 0.00016 -0.38552
+C 0.82046 0.00003 2.08036
+C 0.84188 -0.00001 0.55760
+C -0.41708 0.00023 1.26938
+C -1.72985 0.00025 1.23341
+H 1.11836 -0.91660 2.58311
+H 1.11873 0.91660 2.58299
+H -2.35740 0.00036 2.11461
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 46.5,57.8,162.8,164.1,295.2,299.8,363.1,419.7,437.1,629.9,713.2,810.0,846.8,992.7,999.1,1037.4,1074.2,1132.0,1263.6,1446.6,1811.9,3107.1,3193.1,3217.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1762,
+    label = "BrC1DC[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 C  u0 p0 c0 {4,S} {5,D} {6,S}
+4 C  u1 p0 c0 {2,S} {3,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89528,0.00705323,9.36533e-05,-2.31772e-07,1.68233e-10,26747.6,12.4213], Tmin=(10,'K'), Tmax=(471.998,'K')),
+            NASAPolynomial(coeffs=[4.11462,0.0234167,-1.62595e-05,5.26729e-09,-6.41666e-13,26523.9,9.37753], Tmin=(471.998,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.97 kcal/mol
+S298: 77.82 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.26425 0.00247 0.00003
+O 1.39917 -1.02737 -0.00006
+C 1.61832 1.03597 0.00001
+C 2.45189 -0.07548 0.00011
+C 0.57201 0.10726 -0.00031
+H 1.71664 2.10497 -0.00006
+H 3.48536 -0.37909 0.00049
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 54.6,276.8,391.5,396.1,585.4,713.3,835.7,943.6,1027.8,1065.9,1227.3,1260.5,1485.5,3279.2,3321.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1763,
+    label = "Br[C](Br)C1DCC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {4,S} {5,D} {9,S}
+7 C  u1 p0 c0 {2,S} {3,S} {5,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.40565,0.0561331,-8.47159e-05,7.21658e-08,-2.55489e-11,48895.6,17.6286], Tmin=(10,'K'), Tmax=(667.196,'K')),
+            NASAPolynomial(coeffs=[8.32916,0.0266155,-1.83538e-05,5.85634e-09,-7.02554e-13,48238.6,-4.13208], Tmin=(667.196,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 102.91 kcal/mol
+S298: 100.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.02043 -0.08383 -0.36118
+Br -0.96720 1.78307 0.11756
+Br -2.45995 -1.03884 -0.27413
+C 1.64365 -0.62140 0.98259
+C 0.23036 -0.74794 0.56864
+C 0.91698 -1.87080 0.82014
+C -0.90591 -0.08692 0.18814
+H 1.96266 -0.20639 1.93379
+H 0.96184 -2.94509 0.83029
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.3,57.1,123.8,172.5,227.0,297.5,351.5,392.5,474.0,568.1,626.8,816.9,868.8,1006.1,1031.4,1129.4,1186.7,1248.3,1606.7,3146.0,3297.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1764,
+    label = "Br[C]DC1CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {1,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81661,0.0164252,1.65888e-05,-4.69579e-08,2.70877e-11,38318.9,11.8193], Tmin=(10,'K'), Tmax=(644.455,'K')),
+            NASAPolynomial(coeffs=[4.43996,0.0208948,-1.32231e-05,3.95909e-09,-4.52845e-13,38065.4,7.74235], Tmin=(644.455,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 79.99 kcal/mol
+S298: 77.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.46669 0.04647 -0.00016
+O -2.18402 0.91673 0.00027
+C -2.86594 -0.38197 0.00032
+C -1.43326 -0.23155 0.00016
+C -0.21554 -0.67311 -0.00003
+H -3.38667 -0.62033 0.92508
+H -3.38689 -0.62027 -0.92433
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 125.5,166.9,364.9,396.2,627.7,785.9,961.3,990.5,1095.6,1110.2,1204.3,1501.7,1872.1,3098.3,3195.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1765,
+    label = "OC1C[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {9,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5 C  u1 p0 c0 {1,S} {3,S} {4,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89407,0.00698131,0.000117635,-2.73976e-07,1.92036e-10,14584.8,12.8073], Tmin=(10,'K'), Tmax=(477.418,'K')),
+            NASAPolynomial(coeffs=[3.44052,0.0308103,-2.01622e-05,6.31824e-09,-7.55716e-13,14399.9,12.2695], Tmin=(477.418,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 33.07 kcal/mol
+S298: 80.00 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.23184 -0.07238 0.01469
+O -1.86328 -1.29035 0.20136
+C -1.71573 -0.05905 -0.40766
+C -1.43269 1.25001 0.40079
+C -0.43523 0.64808 -0.50197
+H -2.42879 0.05352 -1.22203
+H -1.28746 1.17383 1.47632
+H -1.97096 2.13946 0.07885
+H -1.01896 -1.54486 0.59480
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 130.4,248.2,256.9,395.6,459.7,555.1,749.9,858.6,876.7,992.2,1037.3,1079.9,1144.4,1260.1,1324.9,1412.3,1454.3,3093.5,3127.8,3179.6,3768.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1766,
+    label = "Br[CH]C1(Br)C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {5,S} {7,D}
+7 C  u0 p0 c0 {3,S} {5,S} {6,D}
+8 C  u1 p0 c0 {4,S} {5,S} {9,S}
+9 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.16996,0.0874521,-0.000140749,-1.91441e-07,6.19645e-10,55220.4,19.1938], Tmin=(10,'K'), Tmax=(275.634,'K')),
+            NASAPolynomial(coeffs=[9.74132,0.0289273,-2.27331e-05,8.00004e-09,-1.03429e-12,54718.2,-6.57932], Tmin=(275.634,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 116.69 kcal/mol
+S298: 112.47 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.33154 -0.00538 2.30076
+Br 0.78392 2.25255 -1.36058
+Br 0.76626 -2.25757 -1.36150
+Br -2.78780 0.00995 0.17221
+C 0.04764 -0.00012 0.76352
+C 0.48374 0.64900 -0.50797
+C 0.47869 -0.65208 -0.50821
+C -1.30469 0.00492 1.31122
+H -1.51913 0.00550 2.36770
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 19.8,49.8,73.1,73.6,148.7,152.8,197.1,263.4,281.0,393.3,506.6,559.8,592.8,626.2,722.2,892.5,942.3,1204.3,1244.7,1828.9,3265.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1767,
+    label = "Br[CH]C1DC(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 C  u1 p0 c0 {2,S} {4,S} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59351,0.0367136,-2.9871e-05,1.19271e-08,-1.80101e-12,47691.5,14.9905], Tmin=(10,'K'), Tmax=(1102.5,'K')),
+            NASAPolynomial(coeffs=[9.02041,0.019933,-1.09978e-05,2.90779e-09,-2.9846e-13,46318.1,-12.5224], Tmin=(1102.5,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 99.66 kcal/mol
+S298: 89.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.25186 -0.66137 -0.00000
+Br -2.35767 -0.50033 -0.00000
+C 1.03600 2.26681 -0.00001
+C -0.12758 1.26655 0.00002
+C 1.12601 0.79398 0.00002
+C -1.47602 1.17076 0.00000
+H 1.24769 2.82530 -0.91483
+H 1.24772 2.82534 0.91478
+H -2.14234 2.02028 -0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 57.3,118.3,154.3,268.6,355.0,428.3,437.8,619.6,715.1,827.0,956.9,1035.6,1066.5,1096.2,1205.7,1300.0,1490.3,1653.2,3041.2,3110.2,3237.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1768,
+    label = "BrC1(Br)[C]DCC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5 C  u0 p0 c0 {3,S} {6,D} {9,S}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79921,0.0157946,9.64198e-05,-2.59985e-07,1.96759e-10,52067.3,13.9294], Tmin=(10,'K'), Tmax=(457.501,'K')),
+            NASAPolynomial(coeffs=[4.20703,0.0320422,-2.18118e-05,6.96169e-09,-8.3964e-13,51822.6,10.0147], Tmin=(457.501,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 107.97 kcal/mol
+S298: 84.77 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.60357 -0.64233 -0.00526
+Br -1.60357 -0.64233 -0.00526
+C 0.00000 1.67565 0.97314
+C 0.00000 0.47641 -0.05074
+C 0.00000 2.59823 -0.24965
+C 0.00000 1.56120 -1.08300
+H 0.90245 1.71027 1.58796
+H -0.90244 1.71027 1.58796
+H 0.00000 3.67341 -0.34592
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 143.7,164.5,248.6,324.5,340.4,390.0,627.6,806.0,827.4,876.2,931.4,975.0,1060.4,1115.3,1185.8,1203.6,1460.7,1599.8,3055.7,3127.8,3255.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1769,
+    label = "BrC1CDCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+6  C  u0 p0 c0 {4,S} {7,D} {9,S}
+7  C  u0 p0 c0 {5,S} {6,D} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.49455,0.0459473,-4.17426e-05,1.92742e-08,-3.58844e-12,23056.8,15.9206], Tmin=(10,'K'), Tmax=(1234.09,'K')),
+            NASAPolynomial(coeffs=[11.0611,0.0214221,-1.19328e-05,3.17065e-09,-3.26189e-13,21189.3,-22.1752], Tmin=(1234.09,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 51.28 kcal/mol
+S298: 95.05 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.39834 -0.33888 -0.44822
+Br 2.14719 -0.78907 -0.51008
+Br 0.32713 1.77055 0.10079
+C -0.71565 -1.08189 0.22162
+C 0.53744 -0.13729 0.43022
+C -0.62578 -1.30002 1.70640
+C 0.46535 -0.54091 1.87048
+H -0.51027 -1.93570 -0.42072
+H -1.23811 -1.89899 2.36699
+H 1.12079 -0.29528 2.69418
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 72.6,106.4,158.4,170.4,253.4,329.4,366.3,379.7,549.4,785.9,816.2,876.1,927.6,957.0,996.3,1061.0,1142.6,1189.7,1217.2,1301.9,1613.9,3135.0,3220.7,3251.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1770,
+    label = "BrC1DCC(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {2,S} {4,S} {6,D}
+6  C  u0 p0 c0 {3,S} {5,D} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76026,0.021792,3.79192e-05,-8.66958e-08,4.76123e-11,19410.8,14.3774], Tmin=(10,'K'), Tmax=(647.101,'K')),
+            NASAPolynomial(coeffs=[3.98554,0.0338429,-2.11775e-05,6.29224e-09,-7.15782e-13,19100.2,11.2137], Tmin=(647.101,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.09 kcal/mol
+S298: 86.06 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.67641 -0.09836 -0.24722
+Br 2.73725 -0.07513 -0.18132
+C -1.03957 0.21007 0.82747
+C -0.02059 1.23186 0.22161
+C 0.91489 0.04318 0.25322
+C 0.02616 -0.84236 0.71760
+H -1.40810 0.44197 1.82549
+H 0.24006 2.07632 0.86590
+H -0.28725 1.59155 -0.77352
+H 0.04056 -1.89427 0.96139
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 69.4,186.0,238.7,326.0,396.2,426.3,557.2,851.5,877.6,895.7,963.8,1015.4,1093.9,1116.7,1179.7,1200.7,1210.2,1272.3,1474.6,1633.6,3064.9,3120.4,3129.2,3250.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1771,
+    label = "BrC1CC(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,S} {11,S}
+7  C  u0 p0 c0 {3,S} {4,S} {6,S} {12,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.66612,0.0430392,-2.3597e-05,3.05158e-09,9.3141e-13,3792.97,15.6748], Tmin=(10,'K'), Tmax=(1226.55,'K')),
+            NASAPolynomial(coeffs=[12.0593,0.024736,-1.23034e-05,2.94093e-09,-2.74633e-13,1051.9,-29.312], Tmin=(1226.55,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 13.11 kcal/mol
+S298: 96.12 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.68069 -0.94367 -0.25566
+Br 2.68069 -0.94367 -0.25566
+Br 0.00000 2.31968 -0.00377
+C -1.06561 -0.39792 0.69337
+C 0.00000 -1.47420 1.00905
+C 1.06561 -0.39792 0.69337
+C 0.00000 0.37610 -0.10309
+H -1.40343 0.14321 1.57427
+H 0.00000 -1.89629 2.01410
+H 0.00000 -2.27425 0.26831
+H 1.40343 0.14321 1.57427
+H 0.00000 0.11592 -1.15938
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.0,85.8,121.2,202.3,259.0,309.4,357.6,414.3,584.8,686.7,811.3,902.2,946.2,954.2,1036.1,1088.0,1088.9,1150.5,1187.5,1224.3,1242.1,1269.5,1281.6,1294.6,1480.0,3091.4,3134.7,3139.4,3146.0,3160.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1772,
+    label = "Br[C]1C(Br)DC1C(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {9,S}
+6 C  u0 p0 c0 {5,S} {7,S} {8,D}
+7 C  u1 p0 c0 {3,S} {6,S} {8,S}
+8 C  u0 p0 c0 {4,S} {6,D} {7,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.31093,0.0775616,-4.07733e-05,-8.04045e-07,1.85701e-09,58774.9,20.2783], Tmin=(10,'K'), Tmax=(225.086,'K')),
+            NASAPolynomial(coeffs=[8.35135,0.0315716,-2.47319e-05,8.67877e-09,-1.11987e-12,58437.6,1.02541], Tmin=(225.086,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 123.46 kcal/mol
+S298: 113.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.28988 -1.44078 -0.96591
+Br 2.17042 1.09206 1.08714
+Br -2.66911 -1.79049 0.56884
+Br -1.61838 2.33193 -0.64294
+C 1.25660 -0.51413 0.45293
+C -0.07771 -0.22387 -0.04139
+C -1.35296 -0.78639 -0.48218
+C -1.04085 0.60278 -0.41810
+H 1.24130 -1.21550 1.28294
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 15.5,50.9,59.7,66.5,130.7,175.2,210.3,356.8,429.7,463.1,495.8,538.5,639.5,680.7,850.8,1086.7,1135.2,1197.6,1236.4,1804.1,3152.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1773,
+    label = "OC1OC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {5,S} {8,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7757,0.0165032,0.00013832,-4.64936e-07,4.2933e-10,-26600.2,14.0531], Tmin=(10,'K'), Tmax=(392.885,'K')),
+            NASAPolynomial(coeffs=[5.94542,0.0260195,-1.86834e-05,6.23724e-09,-7.79396e-13,-27014.7,2.50809], Tmin=(392.885,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -48.16 kcal/mol
+S298: 86.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.83899 -0.14843 -0.10967
+Br 1.24828 -1.08793 0.00100
+O 0.23559 1.28591 1.18729
+O 1.73610 2.03530 -0.56876
+C 0.47535 1.74783 -0.19266
+C -0.00289 0.40976 0.16257
+H -0.23189 2.50078 -0.52463
+H 2.29852 1.25642 -0.43954
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 151.7,163.4,203.6,281.1,352.8,380.4,486.2,538.3,676.6,778.3,1007.6,1099.4,1173.5,1295.8,1358.5,1479.7,3187.1,3718.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1774,
+    label = "Br[C]1COC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+5 C  u1 p0 c0 {1,S} {3,S} {4,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.967,0.00239781,0.000117302,-2.65206e-07,1.98598e-10,13562.8,12.2649], Tmin=(10,'K'), Tmax=(340.782,'K')),
+            NASAPolynomial(coeffs=[1.27804,0.0339592,-2.16163e-05,6.55145e-09,-7.60998e-13,13746,22.343], Tmin=(340.782,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.72 kcal/mol
+S298: 77.18 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.23486 -1.33339 0.00000
+O 0.25354 2.49428 0.00000
+C 0.25354 1.49449 1.04861
+C 0.25354 1.49449 -1.04861
+C 0.38875 0.42756 0.00000
+H -0.68594 1.48536 1.62215
+H 1.09437 1.62229 1.74395
+H 1.09437 1.62229 -1.74395
+H -0.68594 1.48536 -1.62215
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 127.0,254.1,254.2,382.3,845.6,891.2,920.8,1001.1,1018.4,1110.0,1113.4,1123.5,1147.6,1284.0,1354.3,1483.0,1508.2,2975.8,2987.0,3024.0,3024.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1775,
+    label = "[CH2]C1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {9,S}
+5  C  u1 p0 c0 {2,S} {10,S} {11,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89154,0.00716541,0.000142148,-3.22276e-07,2.24328e-10,26187.2,12.7464], Tmin=(10,'K'), Tmax=(469.606,'K')),
+            NASAPolynomial(coeffs=[2.6019,0.0387268,-2.43887e-05,7.44943e-09,-8.77112e-13,26081.4,15.5776], Tmin=(469.606,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 56.41 kcal/mol
+S298: 81.40 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.36978 -0.13463 -0.01811
+C 1.61342 -0.15365 -0.43505
+C 1.23831 1.30019 -0.11409
+C 0.46357 0.19880 0.50989
+C 2.82569 -0.76045 0.08357
+H 1.29126 -0.48898 -1.41516
+H 0.77539 1.86639 -0.91353
+H 1.90438 1.87179 0.52484
+H 0.59018 -0.01329 1.56330
+H 3.25402 -0.42641 1.02175
+H 3.28097 -1.60692 -0.41312
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 182.4,189.1,234.3,304.8,405.8,506.0,600.2,771.0,823.3,871.4,930.3,1025.7,1065.8,1088.5,1098.2,1197.7,1220.7,1258.4,1375.5,1463.6,1474.0,3130.4,3156.5,3167.3,3196.7,3226.2,3263.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1776,
+    label = "Br[C]1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 Br u0 p3 c0 {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+7 C  u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
+8 C  u1 p0 c0 {5,S} {6,S} {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.05061,0.099714,-0.000219333,1.45962e-10,4.25682e-10,45349.1,18.4804], Tmin=(10,'K'), Tmax=(283.222,'K')),
+            NASAPolynomial(coeffs=[11.1235,0.0238954,-2.00796e-05,7.30889e-09,-9.63244e-13,44738.6,-12.9871], Tmin=(283.222,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 97.28 kcal/mol
+S298: 112.63 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.76517 1.59795 -0.73428
+Br -1.76531 -1.60624 -0.71606
+Br 1.76520 -1.60629 -0.71618
+Br 1.76517 1.59790 -0.73439
+Br 0.00011 0.01615 2.80286
+C -0.78329 -0.00120 -0.20602
+C 0.78326 -0.00122 -0.20607
+C 0.00002 0.00552 0.98401
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 28.8,49.9,76.0,93.3,108.7,146.9,170.1,177.9,241.1,391.8,460.3,539.5,571.0,633.2,659.6,827.0,1092.2,1425.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1777,
+    label = "[CH]DC1C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,D}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u0 p0 c0 {2,S} {3,S} {4,D}
+6 C  u1 p0 c0 {3,D} {7,S}
+7 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6163,0.034231,-3.69502e-05,2.03431e-08,-4.51567e-12,92317.2,14.7833], Tmin=(10,'K'), Tmax=(1048.67,'K')),
+            NASAPolynomial(coeffs=[8.73327,0.0147131,-9.0324e-06,2.59514e-09,-2.84625e-13,91244,-10.1464], Tmin=(1048.67,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 188.04 kcal/mol
+S298: 87.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.20019 -0.56431 -0.00004
+Br -2.22123 -0.53666 -0.00000
+C 0.03809 1.75185 0.00007
+C 0.66393 0.46467 0.00001
+C -0.67732 0.48329 0.00002
+C 0.22321 3.11705 0.00011
+H -0.75101 3.63269 0.00013
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 88.2,108.6,140.5,336.8,466.8,502.1,518.1,558.1,883.3,948.4,1005.2,1158.2,1534.6,1707.3,3028.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1778,
+    label = "BrC(Br)[C]1CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+4  C  u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {11,S}
+6  C  u1 p0 c0 {3,S} {4,S} {5,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.66279,0.0397724,-2.63286e-05,8.32893e-09,-9.90219e-13,32436.4,15.1267], Tmin=(10,'K'), Tmax=(1499.81,'K')),
+            NASAPolynomial(coeffs=[13.2668,0.0176743,-7.74397e-06,1.63108e-09,-1.34306e-13,29160.1,-36.4185], Tmin=(1499.81,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.71 kcal/mol
+S298: 92.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.10134 -1.35464 0.08479
+Br -1.87118 0.05970 0.03210
+C 1.02200 2.21606 0.83027
+C 1.86639 2.11472 -0.45256
+C -0.04937 0.21401 -0.65561
+C 0.56431 1.45684 -0.32641
+H 1.34394 1.66663 1.71270
+H 0.55691 3.17512 1.04610
+H 2.76131 1.49638 -0.44255
+H 1.94395 3.00677 -1.07027
+H -0.08158 -0.03208 -1.71119
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 78.5,94.6,140.3,159.8,305.9,326.6,398.3,637.0,714.0,758.9,840.8,984.3,1012.3,1042.0,1065.6,1079.9,1107.0,1156.9,1234.3,1431.8,1441.7,1522.0,3097.5,3098.6,3170.7,3177.2,3183.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1779,
+    label = "Br[C]DC1OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {1,S} {4,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79687,0.0174437,7.89294e-06,-5.70806e-08,4.63383e-11,46065.2,11.9001], Tmin=(10,'K'), Tmax=(526.62,'K')),
+            NASAPolynomial(coeffs=[5.78091,0.0129655,-9.5207e-06,3.15594e-09,-3.88225e-13,45709.4,2.20616], Tmin=(526.62,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (108.088,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 95.29 kcal/mol
+S298: 76.84 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.44053 0.04709 0.00004
+O -2.27239 0.91747 -0.00006
+O -2.74878 -0.54503 -0.00005
+C -1.46080 -0.16129 -0.00003
+C -0.24737 -0.61002 -0.00004
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 123.6,153.1,408.4,446.4,618.6,780.6,953.5,1178.4,1922.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1780,
+    label = "CC1(Br)[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+6  C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+7  C  u1 p0 c0 {4,S} {5,S} {11,S}
+8  H  u0 p0 c0 {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.17535,0.0660108,-9.54733e-05,7.73318e-08,-2.56073e-11,35635.4,17.063], Tmin=(10,'K'), Tmax=(747.706,'K')),
+            NASAPolynomial(coeffs=[9.91034,0.0285209,-1.73351e-05,5.05157e-09,-5.66895e-13,34669.1,-13.1984], Tmin=(747.706,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 77.13 kcal/mol
+S298: 101.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.46878 -0.16841 -0.14385
+Br -0.41095 1.85117 -0.06313
+Br -2.28253 -0.75359 -0.14739
+C 0.70237 -0.98638 0.27662
+C -0.51278 -0.04233 0.35837
+C 0.64581 -2.38557 -0.30146
+C 0.11409 -0.56866 1.52442
+H 0.78088 -2.35351 -1.38501
+H 1.44258 -2.99378 0.13319
+H -0.31681 -2.84786 -0.07497
+H 0.26081 -0.42798 2.58194
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 67.4,103.2,146.5,174.7,197.7,222.7,251.1,294.6,360.7,408.4,473.4,513.9,644.0,812.6,864.1,1013.6,1055.7,1087.5,1156.9,1357.7,1405.9,1477.0,1481.3,3053.4,3132.5,3141.0,3277.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1781,
+    label = "[CH2]C1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
+6  C  u1 p0 c0 {3,S} {10,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71204,0.0252138,0.000117819,-4.17285e-07,4.04868e-10,28701,15.0327], Tmin=(10,'K'), Tmax=(360.228,'K')),
+            NASAPolynomial(coeffs=[4.32188,0.0391072,-2.6084e-05,8.28524e-09,-1.00121e-12,28522.9,10.8522], Tmin=(360.228,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 62.27 kcal/mol
+S298: 91.50 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.38168 -0.36079 -0.03538
+Br 2.22716 -0.57249 -0.04696
+C 0.01086 1.44729 0.43853
+C -0.59015 0.28302 -0.37543
+C 0.49523 0.00350 0.58629
+C 0.76314 2.49113 -0.22832
+H -0.59898 1.76422 1.27971
+H -0.36868 0.26408 -1.43412
+H 0.25182 -0.49509 1.51508
+H 0.55189 3.53103 -0.01910
+H 1.49777 2.25115 -0.98590
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 117.7,158.2,191.2,198.6,226.0,296.5,431.8,536.7,645.3,684.0,763.2,839.3,962.8,1016.2,1046.9,1087.2,1147.2,1216.0,1227.8,1284.7,1373.1,1464.6,3152.9,3170.1,3201.2,3208.7,3278.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1782,
+    label = "Br[C](Br)C1DCO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {3,S} {4,D} {7,S}
+6 C  u1 p0 c0 {1,S} {2,S} {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70864,0.0239216,7.16306e-05,-2.97286e-07,2.84122e-10,39030.8,14.9196], Tmin=(10,'K'), Tmax=(404.552,'K')),
+            NASAPolynomial(coeffs=[6.54912,0.0217152,-1.61419e-05,5.47815e-09,-6.90242e-13,38589.3,1.16915], Tmin=(404.552,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.23 kcal/mol
+S298: 88.02 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.80100 -0.25739 -0.00129
+Br -1.32077 -1.14730 0.00758
+O -1.56792 2.23774 -0.01918
+C -0.37537 1.49384 -0.02584
+C -0.30720 2.87829 -0.07454
+C -0.02650 0.22430 -0.00875
+H -0.01030 3.68365 0.58820
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 114.8,164.5,202.5,237.0,337.3,430.1,462.7,729.2,800.2,825.1,943.7,1116.3,1203.9,1865.2,3190.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1783,
+    label = "Br[CH]C1DCC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {4,S} {5,D} {8,S}
+7 C  u1 p0 c0 {3,S} {5,S} {9,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.33682,0.0559857,-7.73486e-05,5.6403e-08,-1.66252e-11,48669.4,16.9824], Tmin=(10,'K'), Tmax=(807.078,'K')),
+            NASAPolynomial(coeffs=[10.1787,0.0220766,-1.4327e-05,4.34597e-09,-5.00174e-13,47565,-14.5593], Tmin=(807.078,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 102.48 kcal/mol
+S298: 98.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.87880 1.61440 -0.10865
+Br -1.87880 -1.61440 -0.10865
+Br 3.44824 0.00000 -0.04425
+C -0.84613 0.00000 0.34371
+C 0.62109 -0.00000 0.23167
+C 0.06932 0.00000 1.45749
+C 1.67278 0.00000 -0.64255
+H 0.17341 -0.00002 2.52824
+H 1.55145 0.00001 -1.71592
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.4,103.1,131.3,166.8,186.7,262.2,360.3,442.8,509.0,574.0,648.6,674.8,722.3,887.9,1005.2,1114.9,1178.9,1291.3,1606.6,3237.3,3293.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1784,
+    label = "BrC1(Br)CC(Br)(Br)O1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {7,S} {8,S}
+6  C  u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+8  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.28046,0.0688713,-0.000111988,1.0245e-07,-3.8711e-11,-5854.56,16.5664], Tmin=(10,'K'), Tmax=(629.746,'K')),
+            NASAPolynomial(coeffs=[9.23305,0.031062,-2.19297e-05,7.11228e-09,-8.63402e-13,-6604.29,-9.39874], Tmin=(629.746,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -5.21 kcal/mol
+S298: 102.61 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.14431 -1.59798 -0.03937
+Br 2.14461 1.59793 -0.03938
+Br -2.14461 1.59793 -0.03938
+Br -2.14431 -1.59798 -0.03937
+O 0.00000 0.00018 -0.87182
+C 0.00000 0.00017 1.25371
+C 1.02380 0.00008 0.10264
+C -1.02380 0.00008 0.10264
+H 0.00000 -0.89757 1.86692
+H 0.00000 0.89807 1.86669
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.7,73.0,119.3,173.5,174.6,221.4,242.3,318.4,356.9,416.8,426.5,613.7,647.7,899.7,904.9,994.0,1028.7,1071.7,1121.7,1132.6,1252.1,1460.9,3125.0,3193.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1785,
+    label = "BrC1CDC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,D} {6,S}
+4 C  u0 p0 c0 {2,S} {3,D} {7,S}
+5 H  u0 p0 c0 {2,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9536,0.00265383,6.73604e-05,-1.22451e-07,6.78921e-11,32845.5,9.84617], Tmin=(10,'K'), Tmax=(581.227,'K')),
+            NASAPolynomial(coeffs=[2.33591,0.0244618,-1.64703e-05,5.30185e-09,-6.49411e-13,32853.3,15.2216], Tmin=(581.227,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 68.61 kcal/mol
+S298: 69.96 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.98720 0.00000 -0.05933
+C 0.90875 -0.00001 0.60327
+C 1.96079 0.65085 -0.18193
+C 1.96078 -0.65084 -0.18196
+H 0.83937 -0.00002 1.68595
+H 2.36536 1.58767 -0.52283
+H 2.36542 -1.58766 -0.52281
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 276.6,315.9,500.6,720.8,883.1,910.4,947.6,1037.4,1073.7,1166.1,1256.8,1705.2,3150.9,3273.5,3319.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1786,
+    label = "BrC1DCOC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,D}
+6 C  u0 p0 c0 {3,S} {5,D} {8,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76134,0.0206341,3.65591e-05,-1.05102e-07,6.90995e-11,9491.34,14.3899], Tmin=(10,'K'), Tmax=(562.667,'K')),
+            NASAPolynomial(coeffs=[5.02341,0.0263318,-1.77382e-05,5.56761e-09,-6.60084e-13,9117.1,6.96336], Tmin=(562.667,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 23.20 kcal/mol
+S298: 85.05 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.97276 -0.63218 -0.08819
+Br -2.11528 -0.48185 0.00098
+O 0.91379 1.99192 0.08267
+C 0.70322 0.65150 0.61918
+C -0.67956 0.68975 0.02504
+C -0.40068 1.93149 -0.38382
+H 0.80387 0.64487 1.70281
+H -0.86384 2.77453 -0.87442
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 80.3,203.9,245.7,346.6,398.3,435.8,729.8,848.3,867.3,957.0,1006.1,1141.2,1184.0,1223.7,1280.1,1651.2,3143.2,3261.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1787,
+    label = "[CH2]C1C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u0 p0 c0 {2,S} {3,S} {4,D}
+6 C  u1 p0 c0 {3,S} {8,S} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6791,0.0277818,9.58687e-05,-4.09928e-07,4.2673e-10,54689.1,14.6768], Tmin=(10,'K'), Tmax=(362.22,'K')),
+            NASAPolynomial(coeffs=[5.96421,0.0291745,-2.01659e-05,6.58086e-09,-8.11254e-13,54348.9,3.56178], Tmin=(362.22,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 113.78 kcal/mol
+S298: 90.22 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.25035 -0.55350 -0.05057
+Br 2.25035 -0.55350 -0.05057
+C -0.00000 1.68942 0.54377
+C -0.64413 0.31936 0.25060
+C 0.64413 0.31936 0.25060
+C 0.00000 2.74393 -0.44414
+H -0.00000 2.02094 1.58379
+H 0.00001 3.78525 -0.14687
+H -0.00001 2.50643 -1.50187
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 96.9,108.2,140.1,288.2,327.5,338.6,476.2,500.0,572.0,623.6,767.6,909.2,1054.1,1109.4,1125.9,1375.6,1465.7,1859.2,3084.9,3154.4,3262.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1788,
+    label = "BrC1(Br)C[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {3,S}
+3  C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4  C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+6  C  u1 p0 c0 {4,S} {5,S} {11,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.61298,0.0357024,-7.97189e-06,-1.6746e-08,9.94719e-12,27976.6,15.5783], Tmin=(10,'K'), Tmax=(841.783,'K')),
+            NASAPolynomial(coeffs=[6.32015,0.0323278,-1.8868e-05,5.2751e-09,-5.70027e-13,27184.7,0.987084], Tmin=(841.783,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 60.69 kcal/mol
+S298: 92.05 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.62608 -0.62485 -0.00001
+Br 1.57834 -0.70967 0.00001
+C 0.00565 0.46450 0.00000
+C 0.04517 1.56033 -1.10987
+C 0.04516 1.56033 1.10988
+C 0.12964 2.56672 0.00000
+H 0.90649 1.48693 -1.78399
+H -0.86127 1.58981 -1.72727
+H 0.90648 1.48692 1.78400
+H -0.86128 1.58981 1.72727
+H 0.22675 3.64352 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 15.0,163.1,223.4,241.3,291.2,329.0,332.3,580.1,806.2,806.4,918.4,964.7,984.1,1003.8,1041.2,1060.2,1129.6,1226.3,1277.6,1287.0,1444.3,1457.7,3013.2,3016.6,3050.5,3052.5,3224.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1789,
+    label = "BrC1[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u1 p0 c0 {2,S} {3,S} {6,S}
+5 H  u0 p0 c0 {3,S}
+6 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.95667,0.00246044,5.76296e-05,-1.05694e-07,5.8463e-11,19859.3,11.2882], Tmin=(10,'K'), Tmax=(590.94,'K')),
+            NASAPolynomial(coeffs=[2.77584,0.0206393,-1.43696e-05,4.69954e-09,-5.79607e-13,19821,14.859], Tmin=(590.94,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 42.68 kcal/mol
+S298: 72.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.96810 0.02399 -0.04754
+O -1.80533 -0.58484 -0.43378
+C -0.85586 -0.17798 0.56845
+C -1.91655 0.67588 0.11847
+H -0.87824 -0.72282 1.50510
+H -1.92822 1.57451 -0.49228
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 288.4,328.0,599.7,764.6,871.2,966.1,1069.7,1138.2,1255.0,1390.0,3163.9,3184.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1790,
+    label = "CC1(Br)OC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  O  u0 p2 c0 {5,S} {6,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7  C  u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+8  H  u0 p0 c0 {7,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52832,0.0439416,6.52007e-05,-4.45419e-07,5.48769e-10,-6767.16,15.622], Tmin=(10,'K'), Tmax=(330.78,'K')),
+            NASAPolynomial(coeffs=[6.86874,0.0335421,-2.36598e-05,7.81334e-09,-9.70581e-13,-7152.24,0.721498], Tmin=(330.78,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -7.57 kcal/mol
+S298: 97.11 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.44091 -0.15768 -0.15656
+Br -0.40618 1.84655 -0.02945
+Br -2.25958 -0.74400 -0.16559
+O 0.08669 -0.54441 1.41983
+C 0.69510 -0.94074 0.18646
+C -0.48738 -0.05909 0.25823
+C 0.65954 -2.40366 -0.16286
+H 0.88718 -2.54016 -1.22226
+H 1.41139 -2.93560 0.42507
+H -0.32620 -2.81820 0.05338
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 88.6,111.0,154.9,181.4,203.6,265.1,303.2,356.5,384.0,492.6,589.3,731.4,767.8,935.7,1022.5,1100.0,1128.3,1387.5,1410.9,1473.7,1479.4,3059.2,3136.7,3151.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1791,
+    label = "CC1(Br)CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
+6  C  u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84228,0.0164505,0.000200749,-8.28621e-07,1.14597e-09,4788.34,13.9255], Tmin=(10,'K'), Tmax=(182.527,'K')),
+            NASAPolynomial(coeffs=[2.56917,0.0443502,-2.8532e-05,8.8146e-09,-1.04362e-12,4834.81,17.9021], Tmin=(182.527,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 14.58 kcal/mol
+S298: 88.56 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.28313 -0.26496 -0.24429
+Br 2.35576 -0.14618 -0.24155
+C -0.54166 0.42446 0.32161
+C -0.00010 -0.10786 1.62594
+C 0.55737 -0.59418 0.31535
+C -0.34715 1.86494 -0.07718
+H -0.58573 -0.80986 2.20821
+H 0.59415 0.58720 2.21037
+H 0.32314 -1.60093 -0.00070
+H -1.11866 2.49267 0.37576
+H 0.63172 2.21700 0.25934
+H -0.39766 1.97951 -1.16312
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 118.5,154.2,211.0,229.6,288.8,355.9,405.3,537.2,597.3,794.3,889.2,919.1,949.5,1057.0,1070.6,1094.0,1119.0,1163.3,1261.2,1344.8,1416.3,1465.7,1477.5,1491.1,3046.2,3123.0,3124.0,3134.5,3210.2,3225.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1792,
+    label = "Br[C]1CC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3 C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+4 C  u1 p0 c0 {1,S} {2,S} {3,S}
+5 H  u0 p0 c0 {2,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96248,0.00220347,7.70273e-05,-1.37389e-07,7.68526e-11,33895.9,10.75], Tmin=(10,'K'), Tmax=(542.926,'K')),
+            NASAPolynomial(coeffs=[1.21736,0.0297896,-1.95261e-05,6.14366e-09,-7.39334e-13,34085.5,21.3178], Tmin=(542.926,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.78 kcal/mol
+S298: 72.22 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.03326 0.00000 0.01937
+C 1.89892 -0.77330 0.09491
+C 1.89892 0.77330 0.09491
+C 0.78004 0.00000 -0.45267
+H 2.56852 -1.27772 -0.59824
+H 1.77992 -1.28337 1.04771
+H 1.77992 1.28337 1.04771
+H 2.56852 1.27772 -0.59824
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 222.1,296.4,469.7,746.2,833.7,843.9,1007.8,1027.8,1077.0,1077.3,1148.7,1297.3,1447.4,1476.5,3100.8,3100.9,3173.8,3186.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1793,
+    label = "OC1DC(Br)[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {7,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,D}
+5 C  u1 p0 c0 {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {1,S} {4,D} {5,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65376,0.0302145,2.36987e-05,-1.7619e-07,1.81004e-10,36408.4,15.5374], Tmin=(10,'K'), Tmax=(412.585,'K')),
+            NASAPolynomial(coeffs=[6.71182,0.0207359,-1.51683e-05,5.09702e-09,-6.37952e-13,35984.4,1.411], Tmin=(412.585,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 77.07 kcal/mol
+S298: 89.85 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.25248 -0.55739 -0.04834
+Br 2.24852 -0.56703 -0.07458
+O 0.13384 2.78943 -0.18574
+C -0.00784 1.52810 0.14213
+C 0.66250 0.39566 0.69938
+C -0.69497 0.39411 0.21645
+H -0.69046 3.13223 -0.55980
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 75.2,122.5,166.6,267.2,438.6,466.0,511.9,555.0,606.6,840.8,1150.8,1201.3,1360.6,1873.0,3754.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1794,
+    label = "ODC1[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,D}
+3 C  u0 p0 c0 {2,D} {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u1 p0 c0 {3,S} {4,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90099,0.00673408,6.88678e-05,-1.8851e-07,1.44238e-10,42318.5,11.7266], Tmin=(10,'K'), Tmax=(468.774,'K')),
+            NASAPolynomial(coeffs=[5.08166,0.0140812,-1.03884e-05,3.48386e-09,-4.34607e-13,42016.4,4.88337], Tmin=(468.774,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (108.088,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.60 kcal/mol
+S298: 74.79 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.73686 -1.04265 0.00000
+O 2.40548 1.49701 0.00000
+C 1.22303 1.45685 0.00000
+C 0.00000 0.64961 0.00000
+C -0.13199 1.97962 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 158.2,298.0,436.9,545.8,617.3,793.6,935.1,1581.7,1959.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1795,
+    label = "BrC1DCO[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,D}
+4 C  u1 p0 c0 {2,S} {3,S} {6,S}
+5 C  u0 p0 c0 {2,S} {3,D} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89863,0.00625209,9.10325e-05,-2.04418e-07,1.33207e-10,28529.2,10.6823], Tmin=(10,'K'), Tmax=(533.803,'K')),
+            NASAPolynomial(coeffs=[4.6179,0.0225694,-1.58168e-05,5.20546e-09,-6.45653e-13,28143.1,4.76699], Tmin=(533.803,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 60.47 kcal/mol
+S298: 74.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.31750 -0.00000 -0.00003
+O 2.59118 0.00000 0.00006
+C 0.54427 0.00000 0.00001
+C 1.55367 0.96093 -0.00004
+C 1.55369 -0.96093 0.00010
+H 1.73667 2.02247 -0.00021
+H 1.73669 -2.02246 0.00031
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 243.1,267.6,396.4,435.0,458.1,598.9,798.9,949.6,1017.5,1073.6,1182.8,1275.4,1529.6,3280.5,3289.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1796,
+    label = "BrC1CC(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {6,S} {8,S} {11,S} {12,S}
+8  C  u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
+9  C  u0 p0 c0 {4,S} {5,S} {6,S} {8,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.02902,0.096683,-0.000215387,2.86748e-07,-1.56101e-10,11306,18.4078], Tmin=(10,'K'), Tmax=(446.97,'K')),
+            NASAPolynomial(coeffs=[9.211,0.0413596,-2.97252e-05,9.82925e-09,-1.21479e-12,10753.4,-6.43859], Tmin=(446.97,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 29.99 kcal/mol
+S298: 113.54 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.92607 -0.34150 -1.16210
+Br -2.14016 1.60651 -0.39047
+Br -2.06923 -1.54712 -0.64010
+Br 0.19675 -1.24438 1.91461
+Br 0.99289 1.65361 0.93601
+C 1.03413 -0.64328 -0.88444
+C 0.01968 0.08075 -1.78953
+C -0.96211 0.07829 -0.59319
+C 0.29846 -0.08014 0.36674
+H 0.90601 -1.72282 -0.91306
+H -0.30695 -0.43673 -2.68917
+H 0.33851 1.09698 -2.02382
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.3,77.6,96.5,117.8,126.3,148.7,175.4,195.7,221.5,277.3,360.3,414.6,479.1,556.3,633.6,739.9,849.4,884.3,941.5,998.0,1022.5,1065.7,1133.2,1229.8,1247.9,1274.3,1470.8,3099.6,3143.7,3170.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1797,
+    label = "Br[C]1OOC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {6,S}
+5 C  u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+6 C  u1 p0 c0 {2,S} {4,S} {5,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67542,0.0291406,-1.18136e-05,-2.05782e-08,1.75005e-11,23098.8,15.1584], Tmin=(10,'K'), Tmax=(667.883,'K')),
+            NASAPolynomial(coeffs=[7.05373,0.0193239,-1.31601e-05,4.11703e-09,-4.84077e-13,22415.2,-1.51552], Tmin=(667.883,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 50.38 kcal/mol
+S298: 87.66 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.84758 -0.65442 -0.08734
+Br -1.93288 -0.54233 -0.00686
+O 0.82027 2.02815 -0.06840
+O -0.58226 1.87015 -0.51376
+C 0.72067 0.82047 0.68320
+C -0.71889 0.81042 0.35779
+H 1.07055 0.91473 1.70831
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 72.7,143.0,239.7,297.9,372.0,432.9,613.0,868.0,917.3,934.6,1150.0,1177.6,1185.6,1273.7,3149.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1798,
+    label = "BrC1C(Br)C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,S} {10,S}
+7  C  u0 p0 c0 {3,S} {6,S} {8,S} {11,S}
+8  C  u0 p0 c0 {4,S} {5,S} {7,S} {12,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.26304,0.0772149,-0.000208779,4.33531e-07,-3.68211e-10,7119.63,17.428], Tmin=(10,'K'), Tmax=(342.131,'K')),
+            NASAPolynomial(coeffs=[5.12397,0.0462021,-3.2229e-05,1.04377e-08,-1.2712e-12,7046.46,11.2377], Tmin=(342.131,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 20.59 kcal/mol
+S298: 105.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.00000 2.87647 -0.07604
+Br 2.75060 -0.24856 -0.15332
+Br -0.00000 -2.47211 -0.12423
+Br -2.75060 -0.24856 -0.15332
+C 0.00000 0.93598 -0.12766
+C 1.06245 0.18669 0.69161
+C 0.00000 -0.90441 1.02319
+C -1.06245 0.18669 0.69161
+H 0.00000 0.64250 -1.17509
+H 1.32088 0.72777 1.60120
+H 0.00000 -1.28149 2.04233
+H -1.32088 0.72777 1.60120
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 32.4,84.3,94.2,107.4,135.2,181.4,259.2,341.5,431.7,479.5,567.1,630.9,831.3,833.3,878.4,961.4,1026.1,1081.7,1121.8,1172.7,1175.2,1215.5,1231.2,1268.9,1275.9,1302.7,3117.4,3120.0,3147.7,3151.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1799,
+    label = "BrC1[CH]CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3 C  u1 p0 c0 {2,S} {5,S} {7,S}
+4 C  u0 p0 c0 {2,S} {5,D} {8,S}
+5 C  u0 p0 c0 {3,S} {4,D} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92465,0.00437551,0.000100022,-1.88985e-07,1.08173e-10,38104.7,11.5766], Tmin=(10,'K'), Tmax=(571.25,'K')),
+            NASAPolynomial(coeffs=[2.16854,0.0339301,-2.29e-05,7.35372e-09,-8.97203e-13,38023.7,16.6009], Tmin=(571.25,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 79.55 kcal/mol
+S298: 75.96 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.23860 0.00000 -0.09505
+C 0.59912 0.00000 0.66068
+C 1.54895 -1.02265 0.06782
+C 1.54895 1.02265 0.06781
+C 2.38193 -0.00000 -0.39548
+H 0.44799 0.00001 1.73929
+H 1.54532 -2.10146 0.04272
+H 1.54534 2.10146 0.04273
+H 3.33876 -0.00001 -0.90303
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 174.9,251.4,373.5,541.0,543.5,695.5,899.9,923.5,935.5,958.4,962.3,1138.4,1177.0,1195.7,1206.7,1325.0,1437.8,3120.7,3205.9,3250.8,3261.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1800,
+    label = "BrC1CC(Br)(Br)O1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {6,S} {7,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {4,S} {5,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5238,0.0452475,-4.02355e-05,1.81592e-08,-3.30839e-12,-8420.36,16.6587], Tmin=(10,'K'), Tmax=(1252.73,'K')),
+            NASAPolynomial(coeffs=[10.8359,0.0218999,-1.22796e-05,3.282e-09,-3.39454e-13,-10252.4,-20.2658], Tmin=(1252.73,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -11.29 kcal/mol
+S298: 96.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.99620 -0.14742 -0.06239
+Br 1.01761 1.79333 -0.00110
+Br 2.27744 -1.14826 -0.06357
+O -0.31205 -0.50419 -0.90843
+C -0.33664 -0.56952 1.21729
+C -1.24044 -1.00812 0.05590
+C 0.60164 -0.12021 0.08167
+H -0.72650 0.24566 1.82212
+H 0.04431 -1.37252 1.84576
+H -1.42865 -2.07063 -0.08249
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 30.3,141.0,148.8,197.6,275.2,296.8,376.7,382.9,561.3,627.7,882.1,921.2,968.7,1005.7,1051.9,1084.4,1132.5,1252.7,1266.2,1291.8,1465.5,3116.1,3136.5,3183.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1801,
+    label = "BrC1O[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5 C  u1 p0 c0 {2,S} {3,S} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94267,0.00336809,7.72729e-05,-1.48439e-07,8.63056e-11,-4180.58,11.8338], Tmin=(10,'K'), Tmax=(560.508,'K')),
+            NASAPolynomial(coeffs=[2.54211,0.0261864,-1.81095e-05,5.82489e-09,-7.05251e-13,-4225.01,15.983], Tmin=(560.508,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -4.82 kcal/mol
+S298: 74.70 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.23346 0.00000 -0.08222
+O 1.42314 -1.02098 0.07670
+O 1.42314 1.02098 0.07670
+C 0.61954 0.00000 0.60820
+C 2.15177 -0.00000 -0.53741
+H 0.53169 0.00000 1.69444
+H 3.24124 0.00000 -0.46871
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 185.9,283.0,307.7,698.3,947.3,954.3,963.7,977.4,1064.6,1186.2,1186.8,1255.4,1309.1,3101.5,3120.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1802,
+    label = "CC1[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5  C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+6  C  u1 p0 c0 {3,S} {4,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71376,0.0269264,0.000145016,-6.24822e-07,7.40044e-10,33673.6,14.5821], Tmin=(10,'K'), Tmax=(298.765,'K')),
+            NASAPolynomial(coeffs=[4.54876,0.0383033,-2.53504e-05,8.036e-09,-9.7207e-13,33523,9.87776], Tmin=(298.765,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 72.28 kcal/mol
+S298: 91.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.14887 -1.20174 -0.01478
+Br 1.85275 -0.02001 -0.12462
+C -0.55617 1.76825 -0.05385
+C -0.02831 0.36438 0.26699
+C -1.93188 2.04188 -0.63239
+C -0.34555 1.28010 1.32022
+H 0.22235 2.42106 -0.45427
+H -1.91492 1.95025 -1.72291
+H -2.24059 3.06199 -0.38247
+H -2.67936 1.35041 -0.23909
+H -0.85207 1.25008 2.27199
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 133.8,157.2,170.9,172.8,250.1,302.9,372.3,420.5,515.2,646.0,819.3,850.5,985.7,1022.0,1052.5,1106.2,1142.6,1270.2,1368.7,1405.6,1487.1,1489.4,3039.5,3074.3,3104.2,3134.9,3255.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1803,
+    label = "OC1(Br)CO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {4,S} {8,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+6 H  u0 p0 c0 {5,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90337,0.00600437,9.96526e-05,-2.1842e-07,1.41914e-10,-28854.6,11.6268], Tmin=(10,'K'), Tmax=(523.645,'K')),
+            NASAPolynomial(coeffs=[3.89102,0.0265513,-1.77922e-05,5.69121e-09,-6.92821e-13,-29133.7,9.00093], Tmin=(523.645,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -53.48 kcal/mol
+S298: 76.37 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.15455 -0.08171 -0.01272
+O -1.49078 -0.59933 0.85811
+O -1.13668 1.49865 -0.17709
+C -0.80166 0.19218 -0.04070
+C -1.66023 -0.85430 -0.57083
+H -2.63518 -0.57713 -0.96417
+H -1.22645 -1.78392 -0.92635
+H -0.75658 1.99890 0.55684
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 262.8,291.9,316.9,364.9,468.9,566.7,767.2,938.3,974.8,1106.3,1134.9,1177.2,1272.3,1446.9,1531.8,3110.3,3214.3,3778.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1804,
+    label = "Br[C]1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+5 C  u1 p0 c0 {2,S} {3,S} {4,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81899,0.0149528,5.96099e-05,-1.55272e-07,1.09608e-10,36297.4,14.7018], Tmin=(10,'K'), Tmax=(490.691,'K')),
+            NASAPolynomial(coeffs=[3.99004,0.0269359,-1.79151e-05,5.61528e-09,-6.67822e-13,36119.5,12.3573], Tmin=(490.691,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 76.25 kcal/mol
+S298: 84.27 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.89611 -0.43875 -0.05262
+Br -1.94406 -0.38861 -0.01907
+C 0.04596 1.89876 -0.46294
+C 0.72023 0.98050 0.57392
+C -0.71021 0.94024 0.35109
+H -0.01512 2.96235 -0.23538
+H 0.22736 1.67602 -1.51297
+H 1.13014 1.40232 1.48515
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 69.6,223.4,290.3,418.2,455.2,527.0,847.7,885.6,961.0,1027.7,1063.2,1083.3,1192.7,1340.4,1454.6,3084.4,3159.9,3168.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1805,
+    label = "BrC(Br)C1D[C]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {9,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59453,0.0404156,-4.5548e-05,3.33442e-08,-1.13822e-11,62612.8,15.227], Tmin=(10,'K'), Tmax=(640.62,'K')),
+            NASAPolynomial(coeffs=[5.39231,0.0291903,-1.92641e-05,5.99158e-09,-7.07869e-13,62382.4,7.35438], Tmin=(640.62,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 129.44 kcal/mol
+S298: 91.41 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.11939 -1.31939 -0.06832
+Br -1.84091 0.05806 -0.02243
+C 1.97575 2.28448 0.18231
+C 0.03580 0.23559 0.52718
+C 0.59928 1.46588 0.02745
+C 0.75459 2.56633 -0.61358
+H 2.86147 1.86584 -0.29661
+H 2.16157 2.80623 1.12162
+H 0.03767 0.16086 1.61082
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 72.9,107.2,150.6,183.4,291.5,369.8,594.3,626.6,692.6,766.8,977.0,1010.8,1056.8,1069.7,1142.1,1224.0,1502.0,1893.6,3065.5,3150.1,3152.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1806,
+    label = "OC1C(Br)DC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {8,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52155,0.047756,-9.7061e-05,1.30625e-07,-7.42992e-11,15398,15.2457], Tmin=(10,'K'), Tmax=(424.401,'K')),
+            NASAPolynomial(coeffs=[5.90945,0.0252497,-1.75142e-05,5.66864e-09,-6.91039e-13,15195.3,5.77209], Tmin=(424.401,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 35.64 kcal/mol
+S298: 91.88 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.23702 -0.57947 -0.04549
+Br -2.24211 -0.57335 -0.04653
+O 0.03229 2.61251 -0.50504
+C 0.00722 1.65071 0.50435
+C 0.64833 0.33108 0.23626
+C -0.65259 0.33354 0.23588
+H 0.00798 2.07904 1.51029
+H -0.10579 3.47762 -0.10854
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.0,94.4,119.5,168.8,337.4,396.9,563.7,568.7,593.7,923.0,1011.3,1044.2,1169.9,1304.5,1430.1,1821.0,3061.0,3835.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1807,
+    label = "Br[C]1COO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {5,S}
+4 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5 C  u1 p0 c0 {1,S} {3,S} {4,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9246,0.00497054,8.78825e-05,-2.00467e-07,1.38325e-10,21946.8,12.7014], Tmin=(10,'K'), Tmax=(477.793,'K')),
+            NASAPolynomial(coeffs=[3.20669,0.0246349,-1.67186e-05,5.2944e-09,-6.33258e-13,21859.5,14.0037], Tmin=(477.793,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 47.26 kcal/mol
+S298: 77.40 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30429 0.01542 -0.04428
+O -2.41418 -0.15541 -0.27820
+O -1.30059 -1.05822 0.07678
+C -1.56973 0.99027 0.05059
+C -0.52626 0.00442 0.47570
+H -2.01831 1.60604 0.83651
+H -1.33779 1.59505 -0.83296
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 145.4,259.8,302.8,458.5,852.3,883.3,939.5,994.3,1098.3,1135.2,1145.6,1315.5,1486.9,3034.9,3090.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1808,
+    label = "BrCC1(Br)[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,D}
+7 C  u1 p0 c0 {4,S} {6,D}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4117,0.0571658,-9.70709e-05,9.84484e-08,-4.18939e-11,61354.2,17.641], Tmin=(10,'K'), Tmax=(559.633,'K')),
+            NASAPolynomial(coeffs=[7.44451,0.0283411,-1.98112e-05,6.41223e-09,-7.79403e-13,60902.8,0.526017], Tmin=(559.633,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 127.63 kcal/mol
+S298: 100.53 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.78559 -1.79695 -0.12164
+Br -2.63343 -0.26787 -0.06033
+Br 0.91474 2.35339 -0.18003
+C 0.21321 -0.67481 0.38277
+C -0.96238 -1.25194 -0.36889
+C 0.47451 0.80167 0.67067
+C 0.20697 0.02703 1.67592
+H -1.14646 -2.27702 -0.04871
+H -0.78872 -1.23466 -1.44393
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 39.6,78.6,108.1,177.7,185.6,297.3,392.6,452.8,472.1,575.0,665.5,808.0,835.8,900.1,1164.8,1212.2,1248.3,1449.2,1778.5,3100.6,3164.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1809,
+    label = "[O]C1(Br)CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u1 p2 c0 {4,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7026,0.0232777,0.000115116,-4.56409e-07,4.44587e-10,35619.8,15.3235], Tmin=(10,'K'), Tmax=(395.065,'K')),
+            NASAPolynomial(coeffs=[7.77806,0.0197845,-1.50288e-05,5.20865e-09,-6.6773e-13,35003.1,-4.28373], Tmin=(395.065,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 75.68 kcal/mol
+S298: 90.05 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.02366 -0.58552 0.01714
+Br 2.23223 -0.34233 -0.10433
+O -0.90421 1.78007 -1.01727
+C -0.71584 0.94020 -0.12764
+C 0.01755 1.24500 1.22568
+C 0.72216 0.56008 0.41013
+H -0.20929 1.76286 2.14070
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 63.8,135.9,245.7,296.4,323.4,360.5,443.7,521.2,601.7,685.4,798.0,928.5,1363.6,1836.5,3307.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1810,
+    label = "BrC(Br)(Br)C1(Br)[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {6,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7 C  u0 p0 c0 {5,S} {8,D} {9,S}
+8 C  u1 p0 c0 {5,S} {7,D}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.20192,0.0737105,-8.37099e-05,-8.45364e-08,1.83736e-10,67351.9,17.9665], Tmin=(10,'K'), Tmax=(393.373,'K')),
+            NASAPolynomial(coeffs=[10.8873,0.0263386,-2.04301e-05,7.11146e-09,-9.10616e-13,66509.1,-14.9673], Tmin=(393.373,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 140.62 kcal/mol
+S298: 107.46 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.48829 -0.19129 -0.16695
+Br 2.17211 -0.74461 -0.46563
+Br 0.28826 1.78141 -0.83140
+Br 0.29094 0.14151 1.93746
+C -0.70958 -0.91253 -0.54802
+C 0.40689 -0.00283 -0.02379
+C -0.58873 -2.45611 -0.54448
+C -0.54023 -1.84509 -1.67590
+H -0.61596 -3.24643 0.18153
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 42.4,103.7,111.8,145.5,163.1,182.7,219.4,244.5,290.0,346.5,401.1,581.1,664.6,705.9,745.4,790.4,910.2,929.4,1096.9,1733.4,3346.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1811,
+    label = "BrC1DC(C(Br)Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {10,S}
+6  C  u0 p0 c0 {4,S} {5,S} {7,D}
+7  C  u0 p0 c0 {3,S} {4,S} {6,D}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65621,0.0421264,0.000244029,-2.25696e-06,5.01695e-09,35965.8,16.5932], Tmin=(10,'K'), Tmax=(174.445,'K')),
+            NASAPolynomial(coeffs=[5.57167,0.0358238,-2.52479e-05,8.30529e-09,-1.02778e-12,35841.7,9.05628], Tmin=(174.445,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 77.27 kcal/mol
+S298: 100.20 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.33720 -1.06101 -0.42115
+Br 0.93643 1.83158 0.13798
+Br -2.98656 -0.02988 -0.35418
+C -0.95027 -1.97310 1.13448
+C 1.06248 -0.03581 0.71191
+C -0.23086 -0.69070 0.71052
+C -1.48737 -0.78048 0.41852
+H -1.18902 -2.12916 2.18835
+H -0.75977 -2.89275 0.57772
+H 1.53743 -0.02174 1.68870
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 27.2,57.8,95.3,157.0,225.7,283.7,339.2,402.1,476.9,615.0,664.6,801.4,982.3,1063.8,1074.5,1101.1,1145.6,1155.5,1240.6,1519.4,1900.4,3048.1,3123.2,3152.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1812,
+    label = "BrC1DC(Br)CDC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,D} {6,S}
+4 C  u0 p0 c0 {2,S} {3,D} {5,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {3,S} {5,D} {8,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76253,0.0189427,9.06191e-05,-2.96047e-07,2.54904e-10,52128.9,12.9857], Tmin=(10,'K'), Tmax=(421.912,'K')),
+            NASAPolynomial(coeffs=[5.36714,0.0267349,-1.88724e-05,6.19516e-09,-7.63262e-13,51788.7,4.20257], Tmin=(421.912,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 108.16 kcal/mol
+S298: 83.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.00562 -0.59265 0.00000
+Br -2.00559 -0.59268 -0.00000
+C 0.66645 0.68919 0.00000
+C -0.66644 0.68920 -0.00000
+C -0.66342 2.26780 -0.00000
+C 0.66328 2.26794 -0.00000
+H -1.45525 3.00084 -0.00001
+H 1.45502 3.00108 -0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 95.3,153.2,261.0,265.2,395.2,472.3,582.7,582.7,822.9,823.2,926.1,1026.5,1092.5,1187.9,1628.8,1676.9,3240.0,3276.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1813,
+    label = "BrC1DC[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4 C  u1 p0 c0 {3,S} {6,S} {8,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,D}
+6 C  u0 p0 c0 {4,S} {5,D} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7154,0.0244936,3.61537e-05,-1.11606e-07,7.56491e-11,38961.4,15.2519], Tmin=(10,'K'), Tmax=(547.264,'K')),
+            NASAPolynomial(coeffs=[4.95151,0.0302382,-2.01004e-05,6.26894e-09,-7.40948e-13,38604.8,8.0115], Tmin=(547.264,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.05 kcal/mol
+S298: 88.41 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.98680 -0.61156 -0.09531
+Br 2.07383 -0.50975 0.00387
+C -0.70022 0.68370 0.65345
+C -0.79110 2.09837 0.10804
+C 0.67496 0.70575 0.01220
+C 0.50596 2.03471 -0.39710
+H -0.74891 0.54677 1.73260
+H -1.59094 2.82201 0.10243
+H 1.15607 2.74169 -0.89431
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 65.5,174.1,199.0,326.6,385.0,413.6,505.1,687.1,893.5,918.6,946.0,982.0,1051.9,1146.0,1183.1,1222.0,1318.2,1440.9,3127.2,3228.9,3264.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1814,
+    label = "BrC(Br)[C]1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {6,S} {8,S} {9,S} {10,S}
+6  C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+7  C  u0 p0 c0 {3,S} {4,S} {8,S} {11,S}
+8  C  u1 p0 c0 {5,S} {6,S} {7,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.12189,0.0876042,-0.000207586,2.97203e-07,-1.7332e-10,38094,20.0365], Tmin=(10,'K'), Tmax=(418.778,'K')),
+            NASAPolynomial(coeffs=[8.41983,0.0370005,-2.63313e-05,8.65795e-09,-1.06641e-12,37650.3,-0.911574], Tmin=(418.778,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.64 kcal/mol
+S298: 113.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.65878 0.94753 0.35598
+Br -1.26010 -1.66905 -0.93993
+Br 2.58756 -1.02518 0.35852
+Br 1.42864 1.86803 -0.67082
+C -0.77328 -0.79300 1.88324
+C -1.21134 -0.35522 0.48773
+C 1.36579 0.55500 0.76623
+C 0.03631 0.08641 1.02821
+H -0.45996 -1.82930 2.01096
+H -1.30553 -0.37257 2.73572
+H 1.85419 0.99606 1.62949
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 20.5,37.1,59.5,111.4,151.7,167.0,251.1,285.4,350.8,366.4,403.1,464.3,576.6,662.4,792.5,936.1,992.2,1015.1,1042.1,1071.7,1118.4,1230.8,1429.0,1505.3,3075.5,3155.9,3160.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1815,
+    label = "BrC(Br)[C]1CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {9,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.599,0.0414019,-6.98908e-05,1.16332e-07,-9.28491e-11,19088.1,15.4253], Tmin=(10,'K'), Tmax=(338.934,'K')),
+            NASAPolynomial(coeffs=[4.20803,0.0324299,-2.22869e-05,7.16399e-09,-8.69179e-13,19057,13.2972], Tmin=(338.934,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 42.86 kcal/mol
+S298: 91.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.52544 -0.96047 -0.02872
+Br -1.70781 -0.58209 -0.03693
+O -0.47669 2.63498 0.05915
+C 0.99363 2.68771 -0.05575
+C 0.03191 0.22100 0.40982
+C 0.19284 1.50493 -0.29894
+H 1.49736 2.84864 0.89590
+H 1.36469 3.26385 -0.89887
+H 0.02426 0.31540 1.49662
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.8,128.1,152.9,218.7,274.2,368.9,617.9,675.5,761.2,909.4,975.7,1066.7,1096.1,1140.3,1165.0,1200.5,1447.8,1536.8,3088.0,3098.0,3196.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1816,
+    label = "BrC(Br)C1C(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {1,S} {6,S} {8,S} {11,S}
+8  C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+9  C  u0 p0 c0 {4,S} {5,S} {6,S} {12,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29912,0.0831567,0.000161208,-2.37476e-06,5.32237e-09,14892.4,18.7414], Tmin=(10,'K'), Tmax=(192.467,'K')),
+            NASAPolynomial(coeffs=[8.20369,0.0446658,-3.32322e-05,1.13095e-08,-1.43108e-12,14586.1,0.10905], Tmin=(192.467,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 37.25 kcal/mol
+S298: 116.80 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.28236 2.70218 0.29376
+Br -2.59003 -0.94954 -1.38285
+Br -1.63866 -0.28762 1.60661
+Br 2.92856 0.55379 -0.65588
+Br 1.64079 -2.17447 0.49998
+C 0.16568 -0.09697 -0.77628
+C -0.66385 1.17762 -0.80751
+C -1.26270 -0.09001 -0.26578
+C 1.33755 -0.27239 0.14178
+H 0.30877 -0.56936 -1.74322
+H -1.01733 1.50698 -1.77585
+H 1.20827 0.20085 1.10884
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 34.6,52.9,68.3,85.5,107.6,122.9,162.1,175.3,215.3,308.9,395.9,432.8,481.1,603.1,648.2,715.5,756.0,886.0,911.2,1024.4,1097.1,1124.0,1158.1,1211.4,1241.2,1268.6,1381.6,3162.1,3185.3,3199.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1817,
+    label = "C[C]1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+4 C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5 C  u1 p0 c0 {2,S} {3,S} {4,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78456,0.018574,3.11262e-05,-7.52481e-08,4.45191e-11,12838.8,12.7661], Tmin=(10,'K'), Tmax=(576.51,'K')),
+            NASAPolynomial(coeffs=[3.27977,0.0298503,-1.84395e-05,5.45836e-09,-6.21458e-13,12767.8,13.803], Tmin=(576.51,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 29.69 kcal/mol
+S298: 80.82 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.23287 -0.18878 -0.04047
+O 1.23032 1.19087 -0.56229
+C 0.36572 0.78132 0.50949
+C 2.27317 -1.06545 -0.02117
+C 1.68357 0.24244 0.34985
+H 0.09430 1.53758 1.23724
+H 3.21898 -0.91712 -0.54987
+H 1.59448 -1.62963 -0.67695
+H 2.46534 -1.66032 0.87517
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 135.3,137.8,298.2,354.0,439.1,613.4,701.2,879.3,964.8,1034.6,1099.1,1140.4,1248.6,1391.6,1466.4,1469.1,1500.8,3002.1,3090.1,3126.3,3177.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1818,
+    label = "Br[C]1OC(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+7 C  u1 p0 c0 {3,S} {4,S} {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.50259,0.0527002,-9.13996e-05,1.10802e-07,-5.98976e-11,12789.3,17.2983], Tmin=(10,'K'), Tmax=(436.028,'K')),
+            NASAPolynomial(coeffs=[5.63123,0.0331726,-2.42216e-05,8.08999e-09,-1.00665e-12,12603.7,8.7957], Tmin=(436.028,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.92 kcal/mol
+S298: 98.88 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.85395 2.15769 0.02607
+Br -2.88238 -0.48977 -0.13884
+Br 2.27770 -1.40945 -0.09028
+O -0.32863 -1.08035 0.94075
+C -0.10623 0.47278 -0.49641
+C -1.14368 0.04604 0.56162
+C 0.52411 -0.81151 -0.11492
+H -0.41789 0.64086 -1.52140
+H -1.32280 0.71176 1.40059
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 45.1,76.7,142.9,176.8,200.1,325.1,394.9,424.2,541.1,734.5,906.7,919.9,972.7,1103.6,1151.1,1163.4,1214.6,1234.1,1285.4,3169.4,3178.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1819,
+    label = "Br[C]1CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u1 p0 c0 {1,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,D}
+6 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82604,0.0132559,7.93951e-05,-2.64332e-07,2.32303e-10,58332.1,14.6374], Tmin=(10,'K'), Tmax=(419.41,'K')),
+            NASAPolynomial(coeffs=[5.61849,0.0176134,-1.29131e-05,4.34961e-09,-5.45472e-13,57993,5.29798], Tmin=(419.41,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 119.93 kcal/mol
+S298: 83.54 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.22518 -0.31584 -0.04461
+Br 2.22041 -0.31614 -0.02053
+C -0.67909 0.76009 0.56006
+C 0.03035 1.78990 -0.17942
+C 0.67690 0.67654 0.10690
+H -0.00211 2.75993 -0.64550
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 80.6,250.6,296.9,391.2,478.1,532.8,807.4,915.9,1018.9,1222.0,1709.8,3292.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1820,
+    label = "BrC1DCC(Br)DC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {1,S} {5,D} {7,S}
+5 C  u0 p0 c0 {4,D} {6,S} {8,S}
+6 C  u0 p0 c0 {2,S} {5,S} {7,D}
+7 C  u0 p0 c0 {3,S} {4,S} {6,D}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42446,0.0536211,-8.7492e-05,7.82075e-08,-2.85479e-11,53537.7,15.786], Tmin=(10,'K'), Tmax=(654.614,'K')),
+            NASAPolynomial(coeffs=[8.55444,0.0222745,-1.56636e-05,5.05652e-09,-6.11194e-13,52866.1,-6.78952], Tmin=(654.614,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 111.90 kcal/mol
+S298: 95.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.88657 -0.71438 0.00011
+Br -2.84340 -0.80028 0.00012
+Br -0.06129 2.12186 -0.00034
+C 1.03800 -0.83603 0.00014
+C 0.13025 -1.80441 0.00028
+C -0.99358 -0.69886 0.00014
+C -0.08755 0.27754 -0.00002
+H 0.11141 -2.88151 0.00049
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 78.6,89.1,104.4,162.0,229.9,315.3,406.8,439.1,563.7,571.4,711.6,872.6,934.0,1087.1,1129.5,1647.2,1679.0,3280.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1821,
+    label = "BrC1C[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5  C  u0 p0 c0 {4,S} {7,S} {9,S} {10,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+7  C  u1 p0 c0 {5,S} {6,S} {11,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4493,0.0518299,-5.09454e-05,2.74267e-08,-6.26282e-12,28703,16.9873], Tmin=(10,'K'), Tmax=(966.964,'K')),
+            NASAPolynomial(coeffs=[8.37358,0.0314599,-1.93465e-05,5.64116e-09,-6.30363e-13,27750.6,-6.60413], Tmin=(966.964,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 62.86 kcal/mol
+S298: 99.46 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.32259 -0.36979 -0.53685
+Br 2.05624 -0.90544 -0.52192
+Br 0.39364 1.79591 0.00073
+C -0.76664 -0.97431 0.45325
+C -0.81047 -0.90921 2.00594
+C 0.54736 -0.12501 0.49404
+C 0.57296 -0.33225 1.94322
+H -0.55255 -1.97077 0.07630
+H -1.56882 -0.21463 2.38776
+H -0.93473 -1.87094 2.51510
+H 1.34142 -0.12280 2.67382
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 45.8,102.6,136.5,161.7,236.9,283.8,324.0,372.9,455.3,517.7,630.9,819.5,927.0,935.0,941.9,1024.5,1077.5,1098.0,1202.5,1241.5,1251.9,1284.1,1452.9,3022.3,3068.6,3151.7,3235.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1822,
+    label = "Br[C](Br)C1(Br)OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 O  u0 p2 c0 {4,S} {6,S}
+6 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+7 C  u1 p0 c0 {2,S} {3,S} {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.38365,0.0595507,-0.00011655,1.18578e-07,-4.81084e-11,22846.2,16.9864], Tmin=(10,'K'), Tmax=(597.83,'K')),
+            NASAPolynomial(coeffs=[9.44766,0.0189772,-1.47486e-05,5.05387e-09,-6.35176e-13,22121.1,-9.14927], Tmin=(597.83,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 51.03 kcal/mol
+S298: 98.93 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.10797 0.00000 -0.72111
+Br -1.34887 1.61868 -0.15927
+Br -1.34883 -1.61870 -0.15924
+O 1.19883 0.75662 1.85282
+O 1.19885 -0.75653 1.85285
+C 0.82946 0.00002 0.77443
+C -0.58626 0.00000 0.34916
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 25.4,78.0,114.5,157.4,265.9,308.8,326.9,364.5,459.1,628.5,778.1,851.4,947.8,1080.2,1388.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1823,
+    label = "BrC1(Br)CC(Br)(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {8,S}
+6  C  u0 p0 c0 {5,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
+8  C  u0 p0 c0 {5,S} {7,S} {11,S} {12,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {8,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.30323,0.0679386,-9.52982e-05,8.40076e-08,-3.24436e-11,8618.51,16.7448], Tmin=(10,'K'), Tmax=(599.27,'K')),
+            NASAPolynomial(coeffs=[7.35258,0.04091,-2.76444e-05,8.74503e-09,-1.04599e-12,8133.18,-0.717556], Tmin=(599.27,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 23.71 kcal/mol
+S298: 103.84 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.01714 1.62290 -0.00012
+Br -2.40077 -1.55162 0.00010
+Br 2.40077 -1.55162 0.00012
+Br 2.01714 1.62290 -0.00010
+C -1.08426 -0.10010 0.00000
+C -0.00001 -0.21254 1.10372
+C 1.08426 -0.10010 0.00001
+C 0.00001 -0.21269 -1.10369
+H -0.00001 0.57212 1.85763
+H -0.00001 -1.19039 1.58465
+H 0.00001 -1.19061 -1.58449
+H 0.00001 0.57187 -1.85771
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 25.8,76.9,119.3,154.2,174.6,221.8,232.1,323.1,348.9,411.3,430.9,560.6,586.4,814.9,843.4,923.3,980.1,1056.2,1069.8,1073.1,1082.5,1197.9,1239.7,1281.9,1447.7,1460.3,3101.3,3104.4,3168.1,3168.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1824,
+    label = "Br[CH]C1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+6 C  u1 p0 c0 {2,S} {4,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.57784,0.0378082,-3.15716e-05,1.26761e-08,-1.81815e-12,13170.3,15.9804], Tmin=(10,'K'), Tmax=(1023.65,'K')),
+            NASAPolynomial(coeffs=[8.8567,0.0207484,-1.18012e-05,3.20527e-09,-3.36694e-13,11902.7,-10.5235], Tmin=(1023.65,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 31.12 kcal/mol
+S298: 92.08 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.79005 -0.38569 0.00229
+Br 2.90691 -0.29192 -0.03494
+O -0.72284 1.51021 -0.57020
+C 0.09432 0.32806 -0.20185
+C -1.20399 0.67543 0.41327
+C 1.34915 0.60102 0.46240
+H 0.08434 -0.45215 -0.95669
+H -1.29434 1.07548 1.41973
+H 1.46560 1.38414 1.19830
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 37.3,116.7,197.0,251.8,308.6,375.1,447.2,650.8,671.7,777.9,942.8,1073.2,1112.3,1165.7,1217.6,1257.9,1273.9,1407.1,3147.2,3172.9,3231.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1825,
+    label = "Br[C](Br)C1DCC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {3,S} {4,D} {9,S}
+6 C  u1 p0 c0 {1,S} {2,S} {4,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6423,0.0320926,2.65484e-05,-1.58485e-07,1.53841e-10,48258.1,14.2361], Tmin=(10,'K'), Tmax=(410.029,'K')),
+            NASAPolynomial(coeffs=[5.37658,0.0300637,-2.05001e-05,6.57508e-09,-7.97498e-13,47990.7,5.88902], Tmin=(410.029,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 100.88 kcal/mol
+S298: 88.70 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.18149 -1.30262 0.00005
+Br -1.80062 -0.10004 -0.00005
+C 1.81525 2.30803 0.00002
+C 0.56384 1.46983 0.00002
+C 0.40960 2.79954 -0.00003
+C 0.06075 0.20840 -0.00000
+H 2.41182 2.36533 -0.91322
+H 2.41177 2.36539 0.91328
+H -0.25080 3.64748 -0.00009
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 114.8,139.0,170.8,190.1,333.0,366.0,405.5,524.2,786.2,829.1,979.1,987.1,1037.8,1070.7,1102.3,1227.1,1492.4,1603.1,3042.3,3108.2,3296.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1826,
+    label = "Br[C]1C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u1 p0 c0 {1,S} {5,S} {6,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,D}
+6 C  u0 p0 c0 {3,S} {4,S} {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5244,0.0447458,-8.35922e-05,8.13975e-08,-3.16427e-11,60282.7,16.4709], Tmin=(10,'K'), Tmax=(622.962,'K')),
+            NASAPolynomial(coeffs=[8.22107,0.0145887,-1.09783e-05,3.68913e-09,-4.57634e-13,59697.5,-3.96497], Tmin=(622.962,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 124.65 kcal/mol
+S298: 93.06 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.00414 2.56153 -0.09101
+Br -2.24340 -1.27884 -0.06769
+Br 2.24751 -1.27177 -0.06749
+C -0.00121 0.77743 0.75176
+C -0.66012 -0.42164 0.28387
+C 0.66150 -0.41954 0.28384
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 69.9,75.6,106.6,251.2,431.6,434.4,516.5,529.7,571.7,993.1,1193.1,1764.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1827,
+    label = "BrC[C]1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+6  C  u0 p0 c0 {3,S} {7,S} {10,S} {11,S}
+7  C  u1 p0 c0 {4,S} {5,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.35604,0.0635594,-0.000114682,1.45386e-07,-8.02972e-11,34606,18.1035], Tmin=(10,'K'), Tmax=(432.522,'K')),
+            NASAPolynomial(coeffs=[6.13173,0.0378895,-2.56575e-05,8.16821e-09,-9.84385e-13,34365.9,7.03874], Tmin=(432.522,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 74.85 kcal/mol
+S298: 103.72 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.52535 -0.89009 -0.27304
+Br 0.68679 1.76490 -0.03658
+Br -3.03070 -0.17306 -0.14103
+C 0.27464 -0.65566 1.68899
+C 0.84250 -0.12896 0.37325
+C -1.44575 -1.45971 -0.34616
+C -0.30851 -0.97459 0.38185
+H 0.85054 -1.40961 2.22543
+H -0.23669 0.05917 2.33462
+H -1.85248 -2.38902 0.04650
+H -1.28921 -1.50835 -1.42125
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 33.6,40.4,116.3,158.9,189.8,252.6,346.3,360.4,421.8,469.7,564.8,735.2,871.3,935.8,990.1,1017.1,1038.4,1070.9,1163.7,1194.4,1427.2,1461.7,1531.2,3070.4,3112.2,3147.3,3186.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1828,
+    label = "CDC1OC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u0 p0 c0 {5,D} {7,S} {8,S}
+7 H  u0 p0 c0 {6,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.77678,0.0168151,0.000118475,-3.76378e-07,3.25163e-10,11833.1,13.4468], Tmin=(10,'K'), Tmax=(419.866,'K')),
+            NASAPolynomial(coeffs=[5.84698,0.0261479,-1.86692e-05,6.19789e-09,-7.70663e-13,11403.2,2.20601], Tmin=(419.866,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 28.14 kcal/mol
+S298: 84.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60940 -0.67343 -0.07747
+Br 1.60944 -0.67335 -0.07748
+O -0.00002 1.25388 1.27136
+C 0.00000 0.35770 0.16098
+C -0.00004 1.77202 -0.00930
+C -0.00011 2.92177 -0.64002
+H -0.00012 2.94016 -1.72139
+H -0.00015 3.85744 -0.09609
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 121.9,163.2,219.2,275.4,359.9,478.6,504.1,664.3,724.1,800.6,847.0,937.5,1103.0,1146.3,1443.3,1892.2,3175.9,3270.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1829,
+    label = "Br[C](Br)C1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {1,S} {4,S} {5,S} {9,S}
+7 C  u1 p0 c0 {2,S} {3,S} {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.58747,0.0495314,0.000141052,-1.66133e-06,3.69283e-09,15068,17.3858], Tmin=(10,'K'), Tmax=(185.795,'K')),
+            NASAPolynomial(coeffs=[6.08391,0.0329131,-2.45297e-05,8.35735e-09,-1.05832e-12,14911.2,7.81915], Tmin=(185.795,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 35.74 kcal/mol
+S298: 101.88 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.31392 -0.28612 -0.21608
+Br 2.23004 -1.47599 -0.05625
+Br 1.55553 1.66907 -0.13508
+O -1.06061 0.43113 1.39537
+C -0.40792 -0.40649 0.38512
+C -1.55330 0.47992 0.10379
+C 0.97025 -0.09723 0.01766
+H -0.62113 -1.46643 0.49312
+H -1.45594 1.41638 -0.43604
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 28.4,74.2,102.4,135.5,203.3,261.5,294.6,385.1,564.1,674.5,707.3,847.4,943.8,1081.2,1114.3,1153.5,1260.2,1274.7,1388.2,3161.4,3168.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1830,
+    label = "BrC(Br)(Br)C1[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6 C  u0 p0 c0 {4,S} {7,D} {9,S}
+7 C  u1 p0 c0 {4,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29524,0.0593284,-8.93258e-05,7.13897e-08,-2.29831e-11,65469.8,16.7678], Tmin=(10,'K'), Tmax=(744.829,'K')),
+            NASAPolynomial(coeffs=[10.2092,0.0221979,-1.45493e-05,4.46016e-09,-5.1834e-13,64439.8,-14.5512], Tmin=(744.829,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 135.98 kcal/mol
+S298: 99.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.43983 1.86141 -0.22540
+Br 1.63681 -1.08900 0.17626
+Br -1.27509 -0.69967 -1.09368
+C -0.54386 -0.03367 1.64180
+C -0.01456 -0.01310 0.22291
+C -2.05796 0.29202 1.97837
+C -1.64773 -0.91488 2.10210
+H 0.22394 0.31582 2.33321
+H -2.69331 1.15594 1.99443
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 59.7,129.8,141.9,167.2,182.1,204.9,285.3,348.2,481.0,638.7,685.1,697.8,737.4,886.4,958.1,980.2,1098.6,1340.8,1754.3,3102.5,3355.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1831,
+    label = "Br[C]1CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u1 p0 c0 {1,S} {2,S} {3,S}
+5 H  u0 p0 c0 {3,S}
+6 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9577,0.00249798,5.86077e-05,-1.12557e-07,6.5814e-11,18541.9,11.4193], Tmin=(10,'K'), Tmax=(555.216,'K')),
+            NASAPolynomial(coeffs=[2.88273,0.0196572,-1.31859e-05,4.18909e-09,-5.05638e-13,18516.1,14.6661], Tmin=(555.216,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 40.06 kcal/mol
+S298: 72.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.01082 -0.02624 0.02391
+O 1.72456 0.81159 0.16746
+C 1.97872 -0.64460 0.06143
+C 0.83298 0.06187 -0.49522
+H 1.90391 -1.16471 1.01244
+H 2.80823 -0.91312 -0.58623
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 279.8,314.2,482.0,788.8,970.1,1012.0,1097.5,1160.3,1363.7,1514.4,3113.2,3216.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1832,
+    label = "BrC1[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4 C  u1 p0 c0 {2,S} {3,S} {8,S}
+5 H  u0 p0 c0 {2,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94726,0.00303684,7.98456e-05,-1.45356e-07,8.11049e-11,35150.4,11.3219], Tmin=(10,'K'), Tmax=(573.628,'K')),
+            NASAPolynomial(coeffs=[1.93721,0.0289994,-1.92832e-05,6.15567e-09,-7.50019e-13,35184.5,18.1889], Tmin=(573.628,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 73.36 kcal/mol
+S298: 73.80 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.99612 -0.01423 -0.04901
+C 0.85130 0.02784 0.59896
+C 1.94756 -0.64212 -0.22561
+C 1.83823 0.81831 -0.09670
+H 0.84310 -0.08178 1.67715
+H 2.71380 -1.18101 0.33108
+H 1.67779 -1.11283 -1.16953
+H 1.80687 1.64962 -0.78335
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 253.4,286.4,464.1,543.8,833.8,875.6,937.3,967.0,1054.0,1077.6,1092.5,1191.5,1294.2,1453.0,3080.3,3154.8,3170.3,3254.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1833,
+    label = "BrC1[CH]OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7 C  u1 p0 c0 {4,S} {5,S} {9,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39824,0.0536209,-7.12651e-05,5.08545e-08,-1.48659e-11,15613.5,16.763], Tmin=(10,'K'), Tmax=(804.202,'K')),
+            NASAPolynomial(coeffs=[9.38041,0.0238663,-1.57668e-05,4.84742e-09,-5.63793e-13,14651.4,-10.7939], Tmin=(804.202,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.71 kcal/mol
+S298: 98.08 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.45264 -0.33868 -0.39631
+Br -0.30582 1.76501 0.10076
+Br -2.18519 -0.74741 -0.47704
+O -0.48680 -0.47237 1.73844
+C 0.66880 -1.12092 0.07758
+C -0.51757 -0.13220 0.35396
+C 0.46485 -1.45080 1.49110
+H 0.50882 -1.86468 -0.69631
+H 1.03190 -1.89527 2.29403
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 67.7,101.1,150.4,170.8,208.4,292.9,335.8,376.3,428.0,535.7,785.5,898.4,910.1,972.9,1056.2,1134.4,1168.1,1202.2,1314.5,3163.5,3263.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1834,
+    label = "BrC1(Br)C[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6 C  u1 p0 c0 {3,S} {4,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72872,0.022866,5.40282e-05,-1.61958e-07,1.18453e-10,13315.3,14.7414], Tmin=(10,'K'), Tmax=(495.303,'K')),
+            NASAPolynomial(coeffs=[4.77399,0.0310246,-2.09521e-05,6.62986e-09,-7.93366e-13,13008.1,8.37741], Tmin=(495.303,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 31.11 kcal/mol
+S298: 87.44 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.58354 -0.68478 0.00390
+Br -1.62063 -0.61302 -0.00008
+O 0.03170 1.38754 -1.05625
+C 0.03467 1.63255 1.06050
+C 0.00034 0.48517 0.02310
+C 0.02504 2.48436 -0.18209
+H 0.93931 1.65634 1.67203
+H -0.84692 1.68961 1.70155
+H 0.59184 3.36392 -0.46634
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 108.0,163.6,239.7,293.8,323.0,337.6,610.1,641.9,870.9,932.2,985.0,1010.3,1042.3,1099.3,1126.4,1240.6,1284.6,1464.0,3071.4,3122.3,3192.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1835,
+    label = "BrCC1DCC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {3,S} {5,D} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67537,0.0346969,-1.88719e-05,1.5635e-09,1.29893e-12,30751.9,15.4481], Tmin=(10,'K'), Tmax=(1107.94,'K')),
+            NASAPolynomial(coeffs=[8.84352,0.0228915,-1.21674e-05,3.11225e-09,-3.10313e-13,29186,-11.9132], Tmin=(1107.94,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 66.02 kcal/mol
+S298: 91.22 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.08963 -0.64510 0.00295
+Br -2.14034 -0.56036 -0.08108
+C 1.29647 1.15091 0.39549
+C -1.51089 1.23809 0.46757
+C -0.11162 1.44056 0.08578
+C 0.78109 1.98142 -0.69793
+H 1.83316 1.52803 1.26069
+H -1.65115 1.26861 1.54703
+H -2.17490 1.94585 -0.02554
+H 1.03719 2.58248 -1.55326
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 33.8,65.7,199.3,276.8,328.6,429.4,538.7,645.0,756.3,820.2,884.5,976.4,1017.8,1106.7,1135.6,1206.3,1229.5,1277.3,1472.1,1822.5,3101.2,3141.6,3168.3,3290.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1836,
+    label = "BrC1CC1(Br)C(Br)(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {9,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {2,S} {6,S} {8,S} {10,S}
+8  C  u0 p0 c0 {6,S} {7,S} {11,S} {12,S}
+9  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.96639,0.101168,-0.000225964,2.90901e-07,-1.51556e-10,16767.7,18.7744], Tmin=(10,'K'), Tmax=(468.013,'K')),
+            NASAPolynomial(coeffs=[10.1821,0.0394961,-2.83036e-05,9.33972e-09,-1.15235e-12,16092.2,-10.5587], Tmin=(468.013,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 41.04 kcal/mol
+S298: 115.37 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.03550 -1.93523 -0.14061
+Br -3.33319 0.68982 0.06953
+Br 1.04723 -0.07749 1.95087
+Br 2.24171 -1.02967 -0.87860
+Br 1.51682 2.01300 -0.38942
+C -0.46972 -0.12148 -0.50178
+C -1.51469 0.97359 -0.47276
+C -0.98597 0.48403 -1.78851
+C 0.94414 0.15689 0.00411
+H -1.18151 1.94040 -0.12219
+H -1.62156 -0.15901 -2.38456
+H -0.33713 1.14551 -2.35153
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 33.4,79.4,100.2,113.0,134.0,146.5,169.1,187.5,204.7,231.4,349.6,368.2,450.0,565.1,608.5,679.4,697.3,884.1,923.8,942.0,963.6,1089.6,1099.6,1145.9,1231.3,1307.3,1457.3,3146.2,3210.7,3239.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1837,
+    label = "OC1(Br)[C](Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {9,S}
+6 C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+7 C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+8 C  u1 p0 c0 {4,S} {6,S} {7,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.05032,0.0901989,-0.000212525,2.60868e-07,-1.25994e-10,21924.1,19.451], Tmin=(10,'K'), Tmax=(508.458,'K')),
+            NASAPolynomial(coeffs=[11.4196,0.0243584,-1.82894e-05,6.19516e-09,-7.76243e-13,21073.1,-15.2652], Tmin=(508.458,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 50.51 kcal/mol
+S298: 111.93 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.52712 -0.57523 -0.39922
+Br -2.18500 -0.65973 -0.96734
+Br -0.32862 -1.58495 1.49791
+Br -0.21897 2.65982 0.60593
+O 0.60271 0.27378 -2.23316
+C 0.71855 0.08781 -0.89331
+C -0.49878 -0.37480 -0.01153
+C 0.03773 0.94747 0.02959
+H 0.82466 -0.55016 -2.68820
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 23.7,61.4,91.8,94.7,145.1,171.7,201.5,250.5,325.5,368.1,424.1,530.0,573.9,616.4,663.6,795.7,991.9,1185.3,1293.8,1475.5,3763.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1838,
+    label = "OC1D[C]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {4,S} {7,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86677,0.00949549,9.71487e-05,-2.71667e-07,2.17023e-10,41844,12.7217], Tmin=(10,'K'), Tmax=(440.329,'K')),
+            NASAPolynomial(coeffs=[4.79961,0.0217195,-1.50019e-05,4.88239e-09,-5.9927e-13,41561.1,6.70789], Tmin=(440.329,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 87.12 kcal/mol
+S298: 79.34 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.25938 -0.15981 -0.04861
+O 2.42951 -0.95355 0.12375
+C 0.44290 0.73344 0.48996
+C 1.73582 0.15168 -0.03279
+C 1.38230 1.31943 -0.48093
+H 0.28075 1.09251 1.50234
+H 2.99536 -1.09811 -0.64821
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 117.1,252.9,299.0,402.8,502.0,559.5,758.6,904.7,1030.2,1081.3,1222.8,1294.0,1891.5,3141.8,3749.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1839,
+    label = "Br[C](Br)C1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {10,S}
+7  C  u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
+8  C  u1 p0 c0 {3,S} {4,S} {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.47857,0.0637555,0.000238239,-2.73164e-06,6.29838e-09,31865.9,18.8598], Tmin=(10,'K'), Tmax=(177.703,'K')),
+            NASAPolynomial(coeffs=[6.93951,0.0406786,-2.97648e-05,1.00142e-08,-1.25696e-12,31656.4,5.70626], Tmin=(177.703,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.12 kcal/mol
+S298: 111.54 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.36092 2.50385 -0.10104
+Br -3.15529 -1.17460 -0.13785
+Br 2.50812 -0.76792 -1.24218
+Br 1.41487 -0.46020 1.75744
+C -0.28471 -0.49692 -0.64367
+C -1.05456 0.83790 -0.76010
+C -1.51193 -0.21291 0.18332
+C 1.04585 -0.69085 -0.06301
+H -0.43984 -1.10807 -1.52982
+H -1.59716 0.98595 -1.68449
+H -1.36832 -0.04104 1.24185
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 19.0,47.4,84.4,93.1,159.0,181.1,211.1,225.2,324.1,387.9,507.0,668.1,689.9,795.2,813.7,924.3,983.0,1053.3,1088.1,1142.5,1208.8,1228.4,1284.2,1367.5,3137.6,3200.9,3208.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1840,
+    label = "BrC1D[C]C1C(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {9,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,D}
+7 C  u1 p0 c0 {4,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.44767,0.0539791,-8.90338e-05,8.73006e-08,-3.60137e-11,75812.1,17.5704], Tmin=(10,'K'), Tmax=(575.167,'K')),
+            NASAPolynomial(coeffs=[7.30686,0.0271404,-1.904e-05,6.17184e-09,-7.50576e-13,75368.2,1.08657], Tmin=(575.167,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (199.547,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 156.21 kcal/mol
+S298: 99.45 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.58479 -0.94595 -0.07843
+Br -0.85407 1.78941 0.05917
+Br 3.13827 -0.09796 -0.09956
+C 0.19548 -0.83756 0.58822
+C -0.81141 -0.14788 -0.29642
+C 1.56750 -0.98276 0.23407
+C 0.90939 -2.20384 0.11722
+H -0.07846 -0.81759 1.64970
+H -0.56673 -0.24309 -1.34976
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 38.0,74.4,130.5,169.3,232.7,305.4,384.9,478.1,514.5,629.8,677.8,793.6,1023.4,1106.2,1170.7,1212.6,1376.8,1493.7,3033.9,3166.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1841,
+    label = "OC1(Br)CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  O  u0 p2 c0 {3,S} {10,S}
+3  C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6  H  u0 p0 c0 {4,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91181,0.00524363,0.000113789,-2.23145e-07,1.32812e-10,-12882.6,11.5684], Tmin=(10,'K'), Tmax=(552.163,'K')),
+            NASAPolynomial(coeffs=[2.37966,0.0360783,-2.35895e-05,7.45326e-09,-9.02412e-13,-13014.2,15.3258], Tmin=(552.163,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -21.58 kcal/mol
+S298: 77.03 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.17656 -0.07875 -0.00093
+O -1.12131 1.53825 -0.10948
+C -0.77938 0.21683 -0.01281
+C -1.62157 -0.76054 -0.74890
+C -1.61362 -0.74056 0.78079
+H -1.13969 -1.59194 -1.24673
+H -2.48831 -0.35160 -1.25640
+H -2.47917 -0.31941 1.28165
+H -1.12804 -1.55836 1.29799
+H -0.88643 1.97735 0.71754
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 257.9,280.3,304.8,417.3,464.6,480.5,765.2,803.6,913.3,960.1,998.3,1053.8,1086.5,1175.7,1178.6,1287.9,1392.9,1446.9,1493.8,3137.9,3146.2,3231.8,3245.0,3775.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1842,
+    label = "BrC1CC(Br)(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  C  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+7  C  u0 p0 c0 {4,S} {6,S} {11,S} {12,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52232,0.043578,-1.85082e-05,-8.99849e-09,7.5105e-12,5118.55,15.7107], Tmin=(10,'K'), Tmax=(859.294,'K')),
+            NASAPolynomial(coeffs=[7.47965,0.0349195,-2.04358e-05,5.71874e-09,-6.1797e-13,4078.01,-4.87823], Tmin=(859.294,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 15.75 kcal/mol
+S298: 95.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.22164 -0.09476 0.00002
+Br 1.81818 -1.61753 0.00001
+Br 1.77079 1.58889 -0.00003
+C -1.38003 0.56371 0.00000
+C -0.43230 0.01917 -1.09195
+C 0.66277 -0.04002 -0.00000
+C -0.43228 0.01920 1.09195
+H -1.45727 1.64780 -0.00002
+H -0.71268 -0.98936 -1.40047
+H -0.24166 0.63884 -1.96679
+H -0.71266 -0.98932 1.40051
+H -0.24163 0.63889 1.96677
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.9,137.1,173.4,205.2,224.1,279.7,380.0,390.0,504.7,580.7,818.7,823.0,899.7,959.0,1022.8,1041.5,1077.3,1090.2,1178.8,1227.6,1259.5,1269.3,1283.0,1458.0,1479.1,3088.4,3092.4,3143.1,3157.9,3163.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1843,
+    label = "BrC(Br)C1D[C]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52557,0.0458447,-8.44496e-05,8.91778e-08,-3.87071e-11,48035.7,14.585], Tmin=(10,'K'), Tmax=(554.076,'K')),
+            NASAPolynomial(coeffs=[7.12,0.0198959,-1.4201e-05,4.65477e-09,-5.7042e-13,47637.4,-0.633746], Tmin=(554.076,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 100.42 kcal/mol
+S298: 90.01 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.62925 -0.66077 -0.05001
+Br -1.62901 -0.66122 -0.04999
+O -0.00052 2.22576 -0.88581
+C -0.00000 0.19230 0.63437
+C -0.00018 1.60836 0.28104
+C -0.00050 2.93529 0.56402
+H 0.00004 0.04797 1.70993
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 61.5,115.3,149.0,180.5,278.7,424.5,455.5,634.1,641.4,900.9,1152.1,1170.1,1302.6,1689.7,3175.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1844,
+    label = "OC1(Br)C[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {9,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6 C  u1 p0 c0 {2,S} {4,S} {5,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72592,0.0222439,0.000108659,-3.77268e-07,3.45132e-10,15900.8,15.1454], Tmin=(10,'K'), Tmax=(398.329,'K')),
+            NASAPolynomial(coeffs=[5.57799,0.0301613,-2.10074e-05,6.86624e-09,-8.45399e-13,15542.9,5.27451], Tmin=(398.329,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.52 kcal/mol
+S298: 89.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.23253 -0.41833 -0.03250
+Br 2.33017 -0.31254 -0.10275
+O -0.43900 1.50010 -1.04712
+C -0.53916 0.61388 -0.01431
+C 0.00241 1.05688 1.34015
+C 0.61738 -0.04933 0.57210
+H -0.57307 0.81337 2.22980
+H 0.49499 2.02801 1.36307
+H -0.31119 1.00961 -1.86978
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 87.5,129.2,221.7,280.0,328.6,378.9,440.8,518.2,591.1,830.9,913.0,932.2,1017.1,1061.2,1170.1,1295.3,1393.8,1451.2,3094.6,3181.3,3770.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1845,
+    label = "ODC1C(Br)C1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {6,D}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
+6 C  u0 p0 c0 {3,D} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.64506,0.0337928,-2.87802e-05,1.17224e-08,-1.75196e-12,8160.56,13.9597], Tmin=(10,'K'), Tmax=(1081.34,'K')),
+            NASAPolynomial(coeffs=[9.15446,0.0166262,-9.42452e-06,2.53734e-09,-2.63733e-13,6781.18,-13.9194], Tmin=(1081.34,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 20.90 kcal/mol
+S298: 86.68 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.32482 -0.45743 -0.02840
+Br -2.32482 -0.45743 0.02840
+O -0.00000 2.64376 0.00000
+C 0.58766 0.19076 0.50053
+C -0.58766 0.19076 -0.50053
+C 0.00000 1.45646 0.00000
+H 0.35757 -0.07884 1.52747
+H -0.35757 -0.07884 -1.52747
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 85.1,124.8,175.6,189.1,378.0,581.7,611.2,702.1,794.4,927.5,974.9,1022.4,1099.7,1171.8,1213.1,1959.3,3155.8,3163.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1846,
+    label = "BrC1D[C]C1DC(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {5,S} {6,D} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {7,D}
+6 C  u0 p0 c0 {2,S} {3,S} {4,D}
+7 C  u1 p0 c0 {4,S} {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.38226,0.0615711,-0.000141328,1.7569e-07,-8.72944e-11,77611.3,17.4018], Tmin=(10,'K'), Tmax=(491.419,'K')),
+            NASAPolynomial(coeffs=[8.43286,0.0204607,-1.58427e-05,5.45553e-09,-6.90678e-13,77114.9,-3.37622], Tmin=(491.419,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 159.79 kcal/mol
+S298: 99.60 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.22771 -0.09444 0.00000
+Br -0.94457 1.77012 -0.00001
+Br -2.58458 -0.99283 0.00001
+C 0.24680 -0.81685 0.00000
+C 1.58296 -0.93002 0.00001
+C -0.94243 -0.10193 0.00000
+C 0.87108 -2.13454 0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 24.2,53.5,144.2,183.1,193.4,329.0,338.6,403.7,540.1,545.2,820.7,937.8,1185.2,1298.6,1726.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1847,
+    label = "Br[C](Br)C1(Br)OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+7 C  u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
+8 C  u1 p0 c0 {3,S} {4,S} {6,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.16089,0.085407,-0.000218519,3.13559e-07,-1.80069e-10,17287.3,19.1777], Tmin=(10,'K'), Tmax=(426.816,'K')),
+            NASAPolynomial(coeffs=[9.1039,0.0297108,-2.27804e-05,7.82523e-09,-9.90878e-13,16780,-4.43398], Tmin=(426.816,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 40.99 kcal/mol
+S298: 109.98 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.04156 2.30996 0.22738
+Br -2.84775 -0.35511 -0.13203
+Br 0.65148 -1.10854 1.73442
+Br 1.56829 -1.33618 -1.34722
+O -0.73268 0.95093 -1.54517
+C -0.09079 0.76576 -0.31061
+C -1.53448 1.02738 -0.38692
+C 0.51242 -0.53741 -0.03404
+H -1.93684 2.00358 -0.13851
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.1,57.5,88.7,101.1,143.6,178.8,213.3,325.8,355.6,385.0,473.6,622.2,694.6,801.0,846.6,959.0,1061.0,1142.1,1274.5,1399.9,3180.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1848,
+    label = "CC1(Br)CDC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+5  C  u0 p0 c0 {3,S} {6,D} {10,S}
+6  C  u0 p0 c0 {2,S} {3,S} {5,D}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74051,0.0229103,0.000126253,-4.84685e-07,5.11308e-10,29697.6,14.3455], Tmin=(10,'K'), Tmax=(335.883,'K')),
+            NASAPolynomial(coeffs=[4.6572,0.0341311,-2.27198e-05,7.22446e-09,-8.75155e-13,29511.1,9.06419], Tmin=(335.883,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.04 kcal/mol
+S298: 89.07 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.01040 -0.65541 -0.02770
+Br -2.28107 -0.30833 -0.15303
+C 0.65530 0.84312 0.11150
+C 1.07556 1.96609 -0.80835
+C -0.03633 1.00176 1.41770
+C -0.71598 0.46641 0.44584
+H 0.34535 2.77981 -0.74625
+H 1.13169 1.61996 -1.84357
+H 2.05912 2.35040 -0.52614
+H 0.06594 1.31632 2.44137
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 79.0,147.9,221.4,273.5,290.3,381.2,423.5,479.4,526.5,781.9,811.2,950.4,1011.8,1073.3,1099.8,1309.5,1408.1,1475.2,1487.8,1765.0,3037.2,3113.5,3123.9,3300.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1849,
+    label = "CC1DC(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+5  C  u0 p0 c0 {6,S} {8,S} {9,S} {10,S}
+6  C  u0 p0 c0 {4,S} {5,S} {7,D}
+7  C  u0 p0 c0 {3,S} {4,S} {6,D}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.23679,0.0744729,-0.000191332,3.01474e-07,-1.90755e-10,29688.8,15.733], Tmin=(10,'K'), Tmax=(416.56,'K')),
+            NASAPolynomial(coeffs=[7.40477,0.0307223,-2.03664e-05,6.37781e-09,-7.59204e-13,29373.9,-0.336926], Tmin=(416.56,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 65.13 kcal/mol
+S298: 99.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.40725 1.61303 -0.34887
+Br 1.40722 -1.61302 -0.34895
+Br -2.62606 0.00003 -0.46999
+C 0.43377 0.00000 0.24699
+C -0.16417 -0.00013 2.97565
+C -0.31289 -0.00002 1.51403
+C -1.00012 -0.00000 0.39886
+H -1.13627 -0.00012 3.47360
+H 0.40128 0.88262 3.29337
+H 0.40119 -0.88298 3.29323
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 67.1,94.9,101.8,125.1,140.4,174.5,309.6,329.7,498.8,516.9,557.6,625.6,785.8,1023.3,1047.0,1148.5,1206.7,1402.0,1468.7,1472.6,1878.8,3036.5,3097.6,3130.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1850,
+    label = "ODC1O[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {5,D}
+4 C  u1 p0 c0 {1,S} {2,S} {5,S}
+5 C  u0 p0 c0 {2,S} {3,D} {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87249,0.00916428,7.28034e-05,-2.26625e-07,1.90264e-10,4602.42,12.4962], Tmin=(10,'K'), Tmax=(437.527,'K')),
+            NASAPolynomial(coeffs=[5.5665,0.0135211,-1.01656e-05,3.45783e-09,-4.35829e-13,4264.25,3.55334], Tmin=(437.527,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (108.088,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 12.81 kcal/mol
+S298: 77.30 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.30013 -0.11379 -0.03696
+O 1.30296 1.19772 -0.14653
+O 2.72761 -0.76808 -0.10575
+C 1.74823 -0.14951 0.08085
+C 0.46177 0.24042 0.47108
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 151.7,243.6,350.3,503.9,611.9,643.2,1023.9,1214.4,2085.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1851,
+    label = "BrC1(Br)[CH]CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5 C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+6 C  u1 p0 c0 {4,S} {5,S} {9,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.66469,0.0292775,3.45871e-05,-1.55049e-07,1.35389e-10,14369.9,14.083], Tmin=(10,'K'), Tmax=(439.545,'K')),
+            NASAPolynomial(coeffs=[5.18584,0.0304604,-2.07273e-05,6.6208e-09,-7.99549e-13,14091.1,6.3436], Tmin=(439.545,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 33.43 kcal/mol
+S298: 87.68 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61250 -0.66915 -0.00073
+Br -1.61225 -0.66958 -0.00078
+O -0.00014 1.43057 -1.00614
+C -0.00004 0.50254 0.03358
+C -0.00053 2.54447 -0.04800
+C -0.00024 1.54344 1.06231
+H 0.89752 3.16306 -0.16243
+H -0.89899 3.16249 -0.16240
+H -0.00145 1.54288 2.13933
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 98.7,157.3,206.5,281.2,307.6,323.9,346.9,612.7,895.7,923.2,936.8,958.1,1054.9,1107.0,1124.3,1254.8,1324.8,1486.9,3020.8,3068.4,3280.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1852,
+    label = "BrC(Br)[C]1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
+7 C  u1 p0 c0 {4,S} {5,S} {6,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.38899,0.0625347,-0.000134276,1.83383e-07,-1.04719e-10,20266.9,17.7116], Tmin=(10,'K'), Tmax=(423.672,'K')),
+            NASAPolynomial(coeffs=[6.7331,0.0309623,-2.24951e-05,7.49249e-09,-9.30731e-13,19983.6,4.45011], Tmin=(423.672,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 46.07 kcal/mol
+S298: 101.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.35329 -0.13926 -0.16775
+Br -2.08696 -1.54018 -0.02745
+Br -1.67008 1.71337 -0.01175
+O 0.83887 -0.38567 1.24990
+C 1.59692 0.45477 0.33279
+C -0.90139 -0.09683 -0.57169
+C 0.42896 -0.28597 -0.04146
+H 1.58723 1.51091 0.58079
+H -0.91377 -0.04501 -1.65491
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 41.6,79.8,105.5,118.1,172.7,317.9,331.9,416.3,546.7,630.8,689.2,713.2,960.1,993.0,1113.8,1128.2,1231.3,1271.7,1554.0,3179.2,3184.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1853,
+    label = "BrC1CDC1C(Br)(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {6,S}
+5  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+7  C  u0 p0 c0 {5,S} {6,S} {8,D}
+8  C  u0 p0 c0 {5,S} {7,D} {10,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.13775,0.0846034,-0.000192178,2.47715e-07,-1.28661e-10,38530.3,18.4898], Tmin=(10,'K'), Tmax=(469.974,'K')),
+            NASAPolynomial(coeffs=[9.36838,0.0315736,-2.29238e-05,7.62399e-09,-9.45372e-13,37944.6,-6.86472], Tmin=(469.974,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 83.37 kcal/mol
+S298: 109.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.32745 -0.06277 -0.09592
+Br -1.42326 1.84128 -0.05268
+Br -0.25296 -0.54779 1.74730
+Br -2.15769 -1.20781 -0.75505
+C 1.76367 0.46235 -1.20587
+C -0.75771 -0.01513 -0.07206
+C 0.41781 -0.07241 -0.93492
+C 1.03068 -0.55128 -1.97930
+H 1.95011 1.47491 -1.55099
+H 1.04902 -1.21792 -2.82371
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.3,56.3,98.0,112.3,153.8,162.3,204.5,298.8,313.1,367.6,468.1,569.4,666.9,696.5,803.2,829.5,997.4,1031.1,1077.7,1166.1,1263.8,1814.5,3146.2,3298.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1854,
+    label = "BrC1CC(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
+7  C  u0 p0 c0 {2,S} {6,S} {8,S} {12,S}
+8  C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.62081,0.0474507,0.00034667,-3.09369e-06,7.07248e-09,7344.51,15.5348], Tmin=(10,'K'), Tmax=(165.349,'K')),
+            NASAPolynomial(coeffs=[5.44873,0.0462643,-3.29553e-05,1.09156e-08,-1.35689e-12,7225.23,8.22701], Tmin=(165.349,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 21.13 kcal/mol
+S298: 102.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.76349 -0.92232 -0.25053
+Br -2.76349 -0.92232 -0.25053
+Br 0.00000 2.32354 -0.41996
+Br 0.00000 -0.04956 1.71469
+C 1.06082 -0.39400 -1.01304
+C 0.00000 -1.47182 -1.31534
+C -1.06082 -0.39400 -1.01304
+C 0.00000 0.38538 -0.17638
+H 1.31322 0.19101 -1.89531
+H 0.00000 -2.26168 -0.56388
+H 0.00000 -1.90046 -2.31719
+H -1.31322 0.19101 -1.89531
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 56.7,80.2,98.7,111.6,171.7,181.3,222.0,339.2,354.2,476.7,483.3,597.8,718.7,832.8,902.2,936.5,986.5,1029.9,1081.2,1093.3,1200.6,1234.6,1261.9,1268.7,1280.1,1481.4,3095.5,3129.9,3132.5,3162.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1855,
+    label = "OC1CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  O  u0 p2 c0 {4,S} {10,S}
+4  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74355,0.0211783,0.000121071,-4.03053e-07,3.70288e-10,-8014.07,14.0102], Tmin=(10,'K'), Tmax=(384.324,'K')),
+            NASAPolynomial(coeffs=[4.73561,0.0345056,-2.32601e-05,7.4449e-09,-9.04329e-13,-8265.01,7.90014], Tmin=(384.324,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -10.95 kcal/mol
+S298: 87.83 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.27011 -1.06738 0.01919
+Br -1.83594 -0.18438 -0.12754
+O 1.66347 1.99343 -0.78043
+C 0.43357 1.74658 -0.20701
+C 0.25260 1.40701 1.26692
+C -0.01667 0.36971 0.20858
+H -0.32848 2.37091 -0.66148
+H 1.14531 1.26962 1.86799
+H -0.59685 1.82384 1.79677
+H 2.25940 1.26005 -0.57882
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 152.1,164.5,187.2,226.3,264.0,366.7,436.3,485.4,693.8,785.1,900.8,949.3,1030.0,1067.1,1121.4,1127.9,1248.5,1331.0,1427.6,1462.3,3133.5,3174.4,3225.8,3757.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1856,
+    label = "BrC1DCCD[C]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,D} {4,S} {6,S}
+3 C  u0 p0 c0 {1,S} {2,D} {5,S}
+4 C  u0 p0 c0 {2,S} {5,D} {7,S}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91342,0.00517777,8.60819e-05,-1.80559e-07,1.11148e-10,78071.4,11.9892], Tmin=(10,'K'), Tmax=(556.145,'K')),
+            NASAPolynomial(coeffs=[3.99349,0.0239833,-1.69138e-05,5.5681e-09,-6.89155e-13,77762.8,8.9552], Tmin=(556.145,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 158.82 kcal/mol
+S298: 76.06 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.26382 -0.00350 0.00033
+C 1.62480 0.87766 0.02991
+C 0.58493 -0.06687 -0.22955
+C 2.65427 -0.08743 -0.15323
+C 1.62079 -0.97633 0.26772
+H 1.59571 1.73748 0.70143
+H 3.72925 -0.09706 -0.20212
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 199.9,278.2,385.8,529.8,566.7,721.7,809.1,949.0,1016.0,1074.0,1227.1,1308.6,1351.8,3108.8,3290.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1857,
+    label = "BrCC1(Br)OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {5,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+6 C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+7 H  u0 p0 c0 {6,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67759,0.027848,1.51996e-05,-8.42133e-08,6.42551e-11,-2533.83,14.6948], Tmin=(10,'K'), Tmax=(534.626,'K')),
+            NASAPolynomial(coeffs=[5.87275,0.0254503,-1.74269e-05,5.5443e-09,-6.64463e-13,-2969,3.60431], Tmin=(534.626,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -0.40 kcal/mol
+S298: 87.44 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61514 -0.85157 -0.00553
+Br -2.02713 -0.28077 -0.10106
+O 0.66048 1.62902 -0.97282
+O 1.37815 1.94101 0.31778
+C 0.62195 0.80973 0.12181
+C -0.67285 0.71418 0.89305
+H -0.52876 0.20487 1.84333
+H -1.05516 1.72336 1.03831
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 60.6,119.0,291.9,308.6,324.4,408.2,550.4,684.9,777.4,880.2,927.7,1035.0,1176.6,1250.1,1388.6,1454.7,3110.5,3187.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1858,
+    label = "CC1DC(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {2,S} {3,S} {5,D}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82762,0.0223378,0.000365738,-2.92484e-06,6.88531e-09,28032.3,13.3911], Tmin=(10,'K'), Tmax=(150.586,'K')),
+            NASAPolynomial(coeffs=[4.43989,0.0336539,-2.17086e-05,6.69721e-09,-7.90994e-13,27982.6,10.5581], Tmin=(150.586,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 60.85 kcal/mol
+S298: 89.37 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.13002 -0.64674 -0.11778
+Br 2.22571 -0.52804 -0.07047
+C -0.66773 0.35449 0.83308
+C -0.23666 2.89555 -0.28680
+C -0.01941 1.51321 0.16501
+C 0.67153 0.41292 0.27400
+H -0.91203 0.29561 1.88993
+H 0.64304 3.28844 -0.80206
+H -1.09179 2.92855 -0.97130
+H -0.47463 3.54774 0.56053
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 80.9,120.7,129.3,160.8,300.1,402.6,469.0,523.9,558.8,750.1,997.0,1028.3,1053.7,1133.9,1186.0,1253.8,1403.7,1471.2,1475.3,1890.5,3033.2,3091.9,3124.8,3137.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1859,
+    label = "BrCC1CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+4  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+5  C  u0 p0 c0 {1,S} {2,S} {11,S} {12,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+12 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96018,0.00253786,0.000131557,-2.46886e-07,1.50871e-10,3690.59,11.7633], Tmin=(10,'K'), Tmax=(420.999,'K')),
+            NASAPolynomial(coeffs=[-0.834197,0.0480417,-3.03979e-05,9.30164e-09,-1.09626e-12,4094.71,30.7508], Tmin=(420.999,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 11.38 kcal/mol
+S298: 77.58 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.27139 -0.18831 -0.00000
+C 1.54825 0.67749 0.00001
+C 1.99492 -0.54405 0.75556
+C 1.99493 -0.54402 -0.75557
+C 0.13476 1.20351 0.00000
+H 2.24975 1.51094 0.00003
+H 1.23542 -1.13820 1.25052
+H 2.94457 -0.49970 1.27679
+H 1.23544 -1.13816 -1.25056
+H 2.94459 -0.49966 -1.27679
+H -0.07410 1.79898 -0.88926
+H -0.07411 1.79899 0.88926
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 108.7,165.8,331.9,414.5,608.1,763.3,792.0,800.4,862.9,967.8,1000.2,1062.7,1087.0,1097.1,1119.3,1195.8,1203.7,1239.3,1273.1,1393.7,1461.5,1474.5,1505.8,3082.9,3111.5,3136.8,3140.0,3142.2,3218.4,3230.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1860,
+    label = "BrC1CDCC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {2,S}
+2  C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3  C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {2,S} {5,D} {9,S}
+5  C  u0 p0 c0 {3,S} {4,D} {10,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96731,0.00202169,0.000105695,-1.90933e-07,1.11174e-10,18843,11.677], Tmin=(10,'K'), Tmax=(444.861,'K')),
+            NASAPolynomial(coeffs=[-0.418431,0.0414768,-2.74096e-05,8.64034e-09,-1.03862e-12,19233,29.281], Tmin=(444.861,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 41.18 kcal/mol
+S298: 75.73 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.27059 -0.00600 -0.08480
+C 0.58030 -0.00659 0.63067
+C 1.54942 1.05974 0.02229
+C 1.50683 -1.04874 0.07752
+C 2.38038 -0.14524 -0.38554
+H 0.44642 0.02473 1.71098
+H 1.99510 1.75281 0.74381
+H 1.11267 1.63003 -0.80057
+H 1.46208 -2.12958 0.10096
+H 3.35302 -0.22302 -0.85688
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 169.0,263.0,349.6,540.2,768.6,871.0,890.6,934.3,955.0,1013.8,1027.2,1105.0,1140.6,1192.2,1212.1,1233.0,1317.9,1476.2,1627.4,3047.7,3106.8,3121.2,3194.0,3230.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1861,
+    label = "OC1(Br)[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {4,S} {7,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u1 p0 c0 {2,S} {4,S} {6,S}
+6 H  u0 p0 c0 {5,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88729,0.00693514,9.35423e-05,-2.13856e-07,1.4016e-10,-2962.14,12.1711], Tmin=(10,'K'), Tmax=(537.876,'K')),
+            NASAPolynomial(coeffs=[5.16258,0.0217339,-1.54459e-05,5.16131e-09,-6.48521e-13,-3450.59,3.54412], Tmin=(537.876,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -2.04 kcal/mol
+S298: 77.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.11389 -0.08583 -0.00114
+O 1.54836 -0.70176 0.76176
+O 1.15927 1.50432 -0.13813
+C 0.82322 0.20083 -0.11120
+C 1.69426 -0.80920 -0.61376
+H 1.54859 -1.74191 -1.14965
+H 0.67166 1.97558 0.55024
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 273.3,297.8,331.5,396.0,492.0,569.2,696.2,850.5,916.6,1125.8,1164.5,1280.6,1511.7,3174.5,3776.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1862,
+    label = "BrCC1C[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
+6  C  u1 p0 c0 {2,S} {3,S} {4,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68606,0.0314866,2.85919e-06,-2.6911e-08,1.32173e-11,31669.9,15.668], Tmin=(10,'K'), Tmax=(861.603,'K')),
+            NASAPolynomial(coeffs=[5.91618,0.0325327,-1.88077e-05,5.20946e-09,-5.58167e-13,30862.4,2.78569], Tmin=(861.603,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 67.85 kcal/mol
+S298: 91.34 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.21825 -0.43112 -0.06773
+Br -1.96581 -0.77468 0.04572
+C 0.05429 1.45777 -0.37808
+C -1.24848 2.16471 0.09256
+C 1.03356 0.98226 0.65407
+C -1.27224 0.85236 -0.56013
+H 0.51575 1.87943 -1.26974
+H -1.43649 2.22569 1.16284
+H -1.56763 3.04243 -0.46502
+H 1.70893 1.77499 0.97390
+H 0.54099 0.53788 1.51781
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 43.0,119.2,191.6,264.1,315.6,445.0,501.9,621.4,799.7,865.1,880.5,899.0,1013.9,1042.0,1090.6,1118.5,1186.7,1238.6,1273.2,1387.8,1463.8,1470.4,3095.4,3096.4,3115.9,3164.4,3175.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1863,
+    label = "CC1(Br)C(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,S} {9,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8  C  u0 p0 c0 {5,S} {10,S} {11,S} {12,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {8,S}
+11 H  u0 p0 c0 {8,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.37865,0.0664336,6.24998e-05,-8.75459e-07,1.53008e-09,12040.7,16.8079], Tmin=(10,'K'), Tmax=(248.604,'K')),
+            NASAPolynomial(coeffs=[7.32237,0.0423715,-2.9995e-05,9.94375e-09,-1.23995e-12,11722.8,0.822716], Tmin=(248.604,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.88 kcal/mol
+S298: 107.15 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.27307 -1.38336 0.30744
+Br 2.21659 -1.37022 -0.78157
+Br -1.24325 1.68932 -0.95613
+Br 1.26629 1.60588 0.99414
+C -0.43148 -0.80203 0.55469
+C 0.40805 -0.72180 -0.69776
+C -0.00548 0.55377 -0.00494
+C 0.11514 -1.31363 1.86820
+H -0.08562 -0.91198 -1.64202
+H 1.16783 -1.05489 1.98303
+H -0.44788 -0.88632 2.70115
+H 0.01880 -2.40137 1.90066
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 71.3,90.0,105.2,139.8,158.4,172.2,212.0,216.2,278.0,318.0,425.5,520.4,556.4,683.7,784.4,835.5,867.6,1017.8,1069.5,1096.6,1135.3,1238.9,1313.8,1415.1,1476.1,1482.2,3059.0,3133.0,3152.8,3199.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1864,
+    label = "BrC(Br)C1[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+5 C  u0 p0 c0 {3,S} {6,D} {9,S}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.64779,0.0308642,2.56074e-05,-1.33971e-07,1.17268e-10,60893,15.2792], Tmin=(10,'K'), Tmax=(451.245,'K')),
+            NASAPolynomial(coeffs=[5.42702,0.0298821,-2.02908e-05,6.4721e-09,-7.8065e-13,60581.9,6.44277], Tmin=(451.245,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 125.92 kcal/mol
+S298: 90.31 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.81696 -0.09298 0.01059
+Br 1.21972 -1.23131 0.01452
+C 0.50822 1.50178 0.44970
+C 0.06508 0.32496 -0.35908
+C 1.76225 2.35410 -0.06488
+C 0.59170 2.85900 -0.17344
+H 0.37476 1.38109 1.52423
+H 0.13762 0.49526 -1.42859
+H 2.82767 2.23461 -0.08847
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 65.6,153.5,156.5,268.6,296.8,347.9,625.5,648.4,663.5,709.0,876.9,959.5,1000.3,1094.5,1167.9,1202.8,1366.6,1756.4,3117.8,3172.3,3358.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1865,
+    label = "BrCC1DCC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+3  C  u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+4  C  u0 p0 c0 {2,S} {3,S} {5,D}
+5  C  u0 p0 c0 {2,S} {4,D} {10,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {3,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84698,0.0182372,2.53576e-05,-4.49705e-08,1.88504e-11,30432.3,12.1825], Tmin=(10,'K'), Tmax=(853.156,'K')),
+            NASAPolynomial(coeffs=[3.74568,0.0306094,-1.73122e-05,4.71732e-09,-4.99224e-13,30016.6,10.1176], Tmin=(853.156,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.65 kcal/mol
+S298: 80.08 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.36119 -0.15541 -0.08363
+C 2.35961 -0.85184 0.33520
+C 0.19828 0.96571 0.46135
+C 1.45192 0.32223 0.08463
+C 2.53885 0.30153 -0.61818
+H 2.95314 -0.89850 1.25132
+H 2.08337 -1.83341 -0.05544
+H 0.04833 1.92512 -0.03097
+H 0.08665 1.06725 1.54031
+H 3.17836 0.75324 -1.35636
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 83.2,122.0,316.3,367.7,589.1,694.0,780.3,886.7,963.1,1003.7,1041.0,1076.4,1103.2,1138.0,1221.9,1232.6,1468.1,1523.8,1850.0,3040.0,3096.5,3107.0,3163.4,3286.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1866,
+    label = "BrC1[C]DC1C(Br)(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {6,S}
+5 C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+7 C  u0 p0 c0 {5,S} {6,S} {8,D}
+8 C  u1 p0 c0 {5,S} {7,D}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.11867,0.0856941,-0.00020152,2.54392e-07,-1.27483e-10,67534,19.2211], Tmin=(10,'K'), Tmax=(488.883,'K')),
+            NASAPolynomial(coeffs=[10.3525,0.0265076,-1.99218e-05,6.75328e-09,-8.47001e-13,66826.7,-10.501], Tmin=(488.883,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 140.96 kcal/mol
+S298: 110.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.29219 -0.06716 0.16046
+Br -1.20451 1.78470 -0.60469
+Br -2.29076 -0.74459 1.06674
+Br -0.26800 -1.18418 -1.39350
+C 1.78787 0.75297 1.08059
+C -0.75172 -0.00266 0.10092
+C 0.36219 0.12554 1.01943
+C 1.03174 0.05093 2.12398
+H 1.90704 1.83215 1.03528
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 25.7,54.0,105.4,107.4,153.9,161.0,202.2,299.3,336.5,368.4,470.0,591.8,654.7,677.7,748.9,907.8,1000.5,1050.1,1253.7,1835.7,3146.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1867,
+    label = "BrCC1(Br)CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
+7  C  u0 p0 c0 {3,S} {4,S} {11,S} {12,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56225,0.0482227,-3.61335e-05,1.35943e-08,-2.05628e-12,7674.17,16.4581], Tmin=(10,'K'), Tmax=(1481.02,'K')),
+            NASAPolynomial(coeffs=[11.8435,0.0258563,-1.34805e-05,3.39726e-09,-3.34995e-13,5221.23,-26.7466], Tmin=(1481.02,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 21.03 kcal/mol
+S298: 98.63 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.02110 2.00869 -0.17824
+Br 2.85560 -0.55045 -0.18942
+Br -2.16886 -1.52393 0.02520
+C 0.00370 0.39349 0.17450
+C 0.54562 0.21180 1.57060
+C 1.46697 0.62720 0.46248
+C -0.45865 -0.78918 -0.62272
+H 0.30724 0.94634 2.33078
+H 0.59407 -0.81303 1.92439
+H 1.81848 1.64918 0.43497
+H -0.61970 -0.53710 -1.66878
+H 0.25688 -1.60588 -0.54451
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 52.1,100.9,118.6,136.8,216.8,297.2,359.0,431.0,516.8,593.4,673.5,815.8,874.4,915.7,936.7,986.6,1071.7,1084.3,1123.4,1203.9,1249.3,1273.6,1333.9,1458.9,1469.6,3108.7,3138.0,3176.8,3210.0,3229.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1868,
+    label = "BrC[C]1CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
+5 C  u1 p0 c0 {2,S} {3,S} {4,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88495,0.0201582,8.13422e-06,-2.08557e-08,8.17969e-12,15628.7,13.0805], Tmin=(10,'K'), Tmax=(1022.69,'K')),
+            NASAPolynomial(coeffs=[6.1272,0.0226596,-1.20665e-05,3.08937e-09,-3.0816e-13,14580.7,-0.669121], Tmin=(1022.69,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 35.21 kcal/mol
+S298: 82.30 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.45395 -0.10379 -0.04625
+O -2.07673 -0.88626 0.33928
+C -2.84212 0.22729 -0.24416
+C -0.26485 0.85205 0.26979
+C -1.39765 0.10846 -0.29807
+H -3.33642 0.84993 0.50070
+H -3.43870 -0.03254 -1.11526
+H -0.32352 0.95393 1.35688
+H -0.14814 1.82460 -0.20335
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 41.8,146.7,285.8,366.7,607.1,732.4,849.3,922.9,977.0,1013.9,1097.2,1149.0,1199.4,1218.6,1432.9,1469.9,1546.8,3058.6,3088.7,3162.9,3182.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1869,
+    label = "BrC(Br)C1CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {3,S} {4,S} {10,S} {11,S}
+6  C  u0 p0 c0 {1,S} {2,S} {3,S} {12,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69998,0.0308197,1.13652e-05,-3.62394e-08,1.64741e-11,5647.84,13.6945], Tmin=(10,'K'), Tmax=(864.18,'K')),
+            NASAPolynomial(coeffs=[5.19842,0.036643,-2.0889e-05,5.72776e-09,-6.09125e-13,4912.43,3.92752], Tmin=(864.18,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 16.21 kcal/mol
+S298: 87.79 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61683 -0.81354 -0.01604
+Br -1.61683 -0.81353 -0.01604
+C 0.00001 1.52195 -0.44957
+C 0.75255 2.71568 0.08961
+C -0.75252 2.71569 0.08961
+C 0.00000 0.25692 0.33756
+H 0.00000 1.37801 -1.52417
+H 1.27913 3.33670 -0.62564
+H 1.26048 2.60565 1.04180
+H -1.27911 3.33671 -0.62564
+H -1.26046 2.60566 1.04180
+H 0.00000 0.42351 1.41121
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 79.9,141.1,157.5,257.0,273.4,344.9,628.4,648.0,772.4,842.6,861.6,930.7,961.3,1060.0,1081.7,1127.7,1151.8,1167.5,1194.7,1222.9,1249.6,1400.0,1470.2,1501.5,3135.2,3138.9,3151.3,3176.7,3215.6,3230.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1870,
+    label = "BrC1DCC(Br)[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4 C  u1 p0 c0 {3,S} {6,S} {8,S}
+5 C  u0 p0 c0 {3,S} {6,D} {9,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82047,0.0127533,0.000134284,-3.65795e-07,2.86763e-10,39273.4,14.5527], Tmin=(10,'K'), Tmax=(444.597,'K')),
+            NASAPolynomial(coeffs=[4.76045,0.0316888,-2.2019e-05,7.15839e-09,-8.76064e-13,38919.1,7.73509], Tmin=(444.597,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.62 kcal/mol
+S298: 86.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.65182 0.00000 -0.27700
+Br -2.71610 0.00000 -0.19874
+C 1.05026 0.00000 0.89746
+C -0.00338 -1.03320 0.54822
+C -0.00338 1.03320 0.54821
+C -0.90404 0.00000 0.28888
+H 1.44908 0.00000 1.91087
+H -0.01793 -2.11047 0.52170
+H -0.01794 2.11048 0.52170
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 70.7,186.9,244.9,322.0,422.1,462.5,523.8,557.8,695.2,912.5,922.4,942.2,1098.3,1146.9,1174.2,1219.6,1234.0,1456.6,3122.2,3271.4,3276.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1871,
+    label = "CC1(Br)CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7  C  u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59797,0.0391547,0.000116607,-6.01642e-07,7.52827e-10,9171.34,15.5429], Tmin=(10,'K'), Tmax=(296.599,'K')),
+            NASAPolynomial(coeffs=[5.16062,0.0430218,-2.90857e-05,9.34675e-09,-1.14063e-12,8968.94,8.05386], Tmin=(296.599,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 24.20 kcal/mol
+S298: 97.50 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.41539 -0.19058 -0.19865
+Br -2.24230 -0.72310 -0.20567
+Br -0.37350 1.85184 -0.03841
+C 0.69064 -0.95259 0.28037
+C 0.09971 -0.55369 1.61600
+C -0.51261 -0.03162 0.34629
+C 0.58013 -2.37519 -0.22077
+H 0.63487 0.16298 2.22800
+H -0.43920 -1.31731 2.16846
+H 0.62198 -2.40733 -1.31243
+H 1.40819 -2.96806 0.17558
+H -0.35889 -2.82731 0.10445
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 83.7,112.1,156.2,185.1,213.9,272.5,305.2,358.8,372.1,464.7,544.9,672.5,828.7,873.3,932.1,1024.9,1071.1,1087.6,1109.0,1162.2,1316.5,1414.2,1457.8,1479.4,1487.0,3051.4,3126.2,3131.5,3135.6,3225.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1872,
+    label = "BrCC1(Br)OC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {6,S} {7,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+8  C  u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+9  H  u0 p0 c0 {8,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.2384,0.0746466,-0.000141654,1.54773e-07,-6.95016e-11,-3023.24,18.0376], Tmin=(10,'K'), Tmax=(536.302,'K')),
+            NASAPolynomial(coeffs=[8.90922,0.0323509,-2.33561e-05,7.71873e-09,-9.5155e-13,-3631.5,-5.78755], Tmin=(536.302,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 0.55 kcal/mol
+S298: 106.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.82136 2.18994 0.18667
+Br -2.27647 0.81115 -0.64259
+Br -1.22974 -2.08095 0.20467
+Br 2.58558 -0.90654 -0.58310
+O -0.71003 0.29101 1.66603
+C 0.35814 0.39130 0.71425
+C -0.97049 -0.16467 0.38268
+C 1.55927 -0.46777 1.02296
+H 2.23598 0.05416 1.69682
+H 1.23707 -1.41128 1.45761
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 40.0,55.2,104.0,111.7,167.7,195.8,273.3,332.1,360.1,392.9,443.5,602.3,682.6,767.2,775.6,881.3,971.2,1085.2,1173.7,1250.7,1378.2,1457.7,3113.5,3185.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1873,
+    label = "BrCC1[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {2,S} {9,S} {10,S}
+5  C  u1 p0 c0 {2,S} {3,S} {11,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92164,0.00486905,0.000127938,-2.56102e-07,1.59638e-10,31108.4,13.2664], Tmin=(10,'K'), Tmax=(507.145,'K')),
+            NASAPolynomial(coeffs=[1.34465,0.0410578,-2.60181e-05,7.95818e-09,-9.36555e-13,31165.8,21.938], Tmin=(507.145,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 65.96 kcal/mol
+S298: 81.07 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.42114 0.11217 0.02264
+C 1.42780 -0.24483 0.45380
+C 2.15894 0.94810 -0.17145
+C 0.27852 -0.86860 -0.28416
+C 2.78641 -0.37367 -0.10850
+H 1.31956 -0.25668 1.53726
+H 2.51503 1.74554 0.47774
+H 1.77343 1.30653 -1.12505
+H 0.07432 -1.88594 0.04777
+H 0.42939 -0.85756 -1.36264
+H 3.71820 -0.74383 0.29444
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 92.1,176.2,310.5,359.3,557.7,632.5,770.6,815.7,848.7,930.6,998.5,1046.7,1056.9,1084.4,1121.2,1198.6,1231.4,1246.7,1386.7,1461.7,1475.5,3086.7,3097.2,3115.1,3160.0,3164.6,3225.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1874,
+    label = "OC1[C](Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {9,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
+6 C  u1 p0 c0 {2,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.60847,0.0340939,-1.31592e-06,-5.71009e-08,4.76621e-11,16760,15.5592], Tmin=(10,'K'), Tmax=(538.901,'K')),
+            NASAPolynomial(coeffs=[5.98254,0.0284469,-1.89281e-05,5.9195e-09,-7.01666e-13,16330.2,3.96011], Tmin=(538.901,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 38.25 kcal/mol
+S298: 91.03 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.84821 -0.60735 -0.11499
+Br -1.95165 -0.49560 -0.09466
+O 0.25703 2.13117 -0.92375
+C 0.04170 1.76390 0.38667
+C 0.70496 0.49129 1.01889
+C -0.72569 0.58109 0.79006
+H 0.02867 2.65107 1.01709
+H 1.13351 0.54474 2.01502
+H 0.27584 1.34037 -1.47815
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 61.4,100.6,154.7,255.9,399.2,449.4,464.7,544.4,607.3,779.6,898.7,971.4,1065.1,1138.9,1164.4,1268.8,1328.8,1432.3,3128.2,3150.0,3777.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1875,
+    label = "BrCC1[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+6  C  u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
+7  C  u1 p0 c0 {4,S} {5,S} {11,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.36975,0.057378,-6.92204e-05,4.8759e-08,-1.47513e-11,36156.6,17.6749], Tmin=(10,'K'), Tmax=(755.155,'K')),
+            NASAPolynomial(coeffs=[7.92429,0.0332529,-2.12997e-05,6.45357e-09,-7.45766e-13,35468.7,-3.01904], Tmin=(755.155,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 77.87 kcal/mol
+S298: 101.94 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.13174 -1.17862 -0.39474
+Br -0.80989 1.76454 -0.21085
+Br 2.77608 -0.39342 -0.42853
+C 0.37249 -0.68210 1.14250
+C -0.88124 -0.02693 0.55924
+C 1.71232 0.01116 1.18101
+C -0.74545 -0.18980 1.97060
+H 0.44583 -1.75858 0.97844
+H 1.61717 1.09387 1.22005
+H 2.30754 -0.34422 2.02154
+H -1.32499 -0.40270 2.85388
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 41.7,56.4,161.8,164.9,210.8,267.7,310.0,358.8,405.4,448.2,624.8,663.9,829.0,871.9,926.2,1026.9,1065.6,1104.7,1158.1,1239.3,1273.7,1370.5,1459.9,3089.6,3103.6,3176.6,3264.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1876,
+    label = "BrC1DCC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u0 p0 c0 {3,S} {4,D} {7,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86159,0.0100494,9.5713e-05,-2.71175e-07,2.19062e-10,35251.3,13.979], Tmin=(10,'K'), Tmax=(434.45,'K')),
+            NASAPolynomial(coeffs=[4.68939,0.0223473,-1.55224e-05,5.05206e-09,-6.19279e-13,34991.4,8.51193], Tmin=(434.45,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 74.05 kcal/mol
+S298: 82.00 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.15159 -0.35144 -0.06299
+Br 2.18554 -0.32164 -0.01408
+C -0.68872 0.83292 0.60004
+C 0.66161 0.71201 0.05976
+C -0.00005 1.76157 -0.32995
+H -0.92662 1.06113 1.63450
+H -0.09869 2.65759 -0.91602
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 83.0,270.1,299.0,411.3,473.6,570.2,783.8,902.2,1014.2,1036.4,1175.1,1258.2,1768.6,3146.0,3309.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1877,
+    label = "BrCC1DC[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,D}
+4 C  u1 p0 c0 {3,S} {5,S} {8,S}
+5 C  u0 p0 c0 {3,D} {4,S} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79681,0.0198221,1.9386e-05,-4.48889e-08,2.18392e-11,53896.1,12.8609], Tmin=(10,'K'), Tmax=(754.448,'K')),
+            NASAPolynomial(coeffs=[4.22523,0.0277197,-1.65345e-05,4.71795e-09,-5.1905e-13,53542,8.99668], Tmin=(754.448,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 111.28 kcal/mol
+S298: 81.29 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.35585 -0.12800 0.01608
+C 0.27771 0.98176 -0.05340
+C 1.50362 0.19043 -0.04777
+C 2.97198 0.23275 -0.04777
+C 2.13402 -0.95893 -0.03744
+H 0.22759 1.65029 0.80792
+H 0.19552 1.58083 -0.96276
+H 3.64488 0.60594 0.72938
+H 2.06272 -2.03297 -0.01928
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 78.3,138.0,297.6,331.6,630.3,702.0,748.4,874.0,942.0,971.8,1006.9,1015.1,1150.1,1202.8,1258.2,1449.0,1806.6,3045.8,3075.3,3125.9,3284.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1878,
+    label = "Br[C]1CC(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
+6 C  u1 p0 c0 {2,S} {3,S} {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74589,0.0272566,4.97655e-07,-2.27664e-08,1.17775e-11,10913,15.0767], Tmin=(10,'K'), Tmax=(857.204,'K')),
+            NASAPolynomial(coeffs=[6.55801,0.0251234,-1.49989e-05,4.24079e-09,-4.60643e-13,10027.2,-0.411815], Tmin=(857.204,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 26.24 kcal/mol
+S298: 88.20 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.66265 -0.09847 -0.14343
+Br -2.70728 -0.08396 -0.07209
+O -0.02657 -0.84451 0.36328
+C 0.02187 1.26997 0.07371
+C 0.91514 0.18116 0.69680
+C -0.83111 0.07273 -0.30001
+H -0.41385 1.95631 0.80458
+H 0.44786 1.82997 -0.75863
+H 1.10505 0.21172 1.76787
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 51.8,160.2,187.3,341.8,384.9,447.6,583.7,879.1,932.2,961.8,973.5,1077.4,1093.0,1136.8,1236.8,1252.1,1286.1,1464.7,3070.6,3130.8,3139.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1879,
+    label = "OC1[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {7,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89039,0.00729158,9.48421e-05,-2.37808e-07,1.73146e-10,39599.1,12.6609], Tmin=(10,'K'), Tmax=(478.041,'K')),
+            NASAPolynomial(coeffs=[4.60481,0.0217874,-1.48854e-05,4.80743e-09,-5.87523e-13,39296.9,7.29474], Tmin=(478.041,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.53 kcal/mol
+S298: 78.40 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.32683 -0.12421 -0.00060
+O -2.55084 -0.86886 -0.14605
+C -1.83871 0.13159 0.44867
+C -0.40213 0.51033 -0.02265
+C -1.34885 1.35177 -0.29620
+H -2.06836 0.14051 1.51337
+H -2.42602 -0.80434 -1.10291
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 131.1,253.2,407.9,448.5,526.6,540.5,747.1,941.9,977.0,1183.3,1273.9,1422.5,1764.4,3130.4,3761.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1880,
+    label = "BrC(Br)(Br)C1D[C]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {5,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u1 p0 c0 {4,S} {6,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.21258,0.0738362,-0.000181848,2.25641e-07,-1.09057e-10,53052.1,16.0426], Tmin=(10,'K'), Tmax=(509.925,'K')),
+            NASAPolynomial(coeffs=[10.5494,0.0162839,-1.25519e-05,4.30639e-09,-5.4348e-13,52303.8,-14.4121], Tmin=(509.925,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 111.44 kcal/mol
+S298: 99.46 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.81929 -1.60912 -0.58715
+Br -0.81946 1.60899 -0.58723
+Br 1.93684 0.00009 -0.16067
+O -1.31989 0.00005 2.31845
+C 0.01754 0.00000 0.16935
+C -0.20875 0.00002 1.61899
+C 0.21224 0.00009 2.90818
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 56.9,109.1,109.9,156.3,158.7,191.5,243.6,359.5,407.2,453.4,656.2,710.4,940.2,1261.8,1680.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1881,
+    label = "[O]C1(Br)CC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u1 p2 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.8883,0.00742406,0.000119754,-2.85384e-07,2.03841e-10,6176.19,11.7573], Tmin=(10,'K'), Tmax=(471.927,'K')),
+            NASAPolynomial(coeffs=[3.69351,0.0301637,-1.95522e-05,6.09503e-09,-7.28011e-13,5959.74,10.0627], Tmin=(471.927,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 16.40 kcal/mol
+S298: 78.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.17357 -0.07552 -0.00003
+O 1.13772 1.57177 -0.00005
+C 0.78932 0.38712 0.00010
+C 1.67070 -0.72818 -0.73318
+C 1.67059 -0.72806 0.73331
+H 2.50959 -0.29067 -1.26103
+H 1.08531 -1.46756 -1.26419
+H 2.50948 -0.29060 1.26119
+H 1.08522 -1.46748 1.26430
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 216.0,255.6,262.8,313.4,445.3,460.0,749.7,799.5,896.1,994.3,1038.7,1058.8,1187.1,1201.0,1441.0,1445.8,1481.8,3153.3,3154.2,3253.3,3269.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1882,
+    label = "[O]C1CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u1 p2 c0 {3,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86874,0.00882541,0.000101495,-2.68217e-07,2.0171e-10,35586.2,12.5879], Tmin=(10,'K'), Tmax=(472.451,'K')),
+            NASAPolynomial(coeffs=[5.32543,0.020908,-1.43837e-05,4.68221e-09,-5.77258e-13,35176.1,3.76869], Tmin=(472.451,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 74.70 kcal/mol
+S298: 79.08 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30785 -0.10839 -0.01130
+O -2.45030 -0.96414 -0.33899
+C -1.87241 -0.14136 0.43881
+C -1.37808 1.28334 -0.15019
+C -0.45780 0.43267 0.05808
+H -2.09442 -0.14014 1.51260
+H -1.82809 2.19894 -0.48555
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 134.8,255.9,358.8,391.4,459.8,586.4,683.8,813.5,854.6,971.4,1284.4,1370.5,1852.3,3031.3,3326.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1883,
+    label = "CC1(Br)[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,D}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71596,0.0257231,0.000107348,-4.80289e-07,5.48271e-10,58295.4,15.0979], Tmin=(10,'K'), Tmax=(323.582,'K')),
+            NASAPolynomial(coeffs=[5.28021,0.0298237,-2.0307e-05,6.55337e-09,-8.01869e-13,58071.5,7.42022], Tmin=(323.582,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 120.83 kcal/mol
+S298: 90.51 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.97607 -0.63919 -0.04238
+Br -2.24004 -0.29169 -0.15414
+C 0.69289 0.85512 0.21393
+C 1.03759 1.99751 -0.70461
+C -0.74753 0.45991 0.58674
+C -0.00747 0.97485 1.51638
+H 0.31325 2.80590 -0.57198
+H 1.03484 1.67485 -1.74954
+H 2.03809 2.37601 -0.47478
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 69.8,130.8,197.9,292.9,305.2,390.2,463.8,467.5,518.7,804.6,823.0,1048.5,1078.0,1202.1,1401.9,1468.9,1475.8,1780.6,3038.9,3113.8,3123.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1884,
+    label = "BrC1CCC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
+6  C  u0 p0 c0 {2,S} {3,S} {5,S} {12,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79086,0.0233527,3.67217e-05,-6.78266e-08,3.01484e-11,2461.46,13.6346], Tmin=(10,'K'), Tmax=(800.394,'K')),
+            NASAPolynomial(coeffs=[3.68746,0.0395557,-2.30412e-05,6.43693e-09,-6.95529e-13,1975.56,10.9716], Tmin=(800.394,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 9.60 kcal/mol
+S298: 86.01 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.10900 -0.60635 -0.04504
+Br -2.10900 -0.60635 0.04504
+C 0.62271 0.56563 0.44700
+C 0.75387 2.08476 0.19570
+C -0.75387 2.08476 -0.19570
+C -0.62271 0.56563 -0.44700
+H 0.38916 0.32838 1.48303
+H 1.06170 2.69212 1.04755
+H 1.39946 2.29933 -0.65742
+H -1.06170 2.69212 -1.04755
+H -1.39946 2.29933 0.65742
+H -0.38916 0.32838 -1.48303
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 84.4,140.6,231.8,290.5,309.6,442.9,627.8,746.1,821.5,898.5,938.4,967.5,1004.8,1076.4,1088.8,1178.7,1201.1,1236.4,1246.9,1253.0,1281.1,1294.4,1480.3,1494.1,3081.6,3084.1,3125.6,3135.4,3138.9,3153.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1885,
+    label = "CDC1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {6,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6  C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+7  C  u0 p0 c0 {5,S} {6,S} {8,D}
+8  C  u0 p0 c0 {7,D} {9,S} {10,S}
+9  H  u0 p0 c0 {8,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.14252,0.081536,-0.000169349,1.95901e-07,-9.12942e-11,34373.8,15.9752], Tmin=(10,'K'), Tmax=(522.128,'K')),
+            NASAPolynomial(coeffs=[9.86339,0.0300478,-2.14312e-05,7.03575e-09,-8.63966e-13,33671.9,-12.0817], Tmin=(522.128,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 75.08 kcal/mol
+S298: 103.74 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.74312 -1.59750 -0.25445
+Br -1.74313 1.59749 -0.25447
+Br 1.74312 1.59749 -0.25447
+Br 1.74312 -1.59750 -0.25445
+C -0.77556 -0.00000 0.25512
+C 0.77556 -0.00000 0.25512
+C 0.00000 0.00001 1.49235
+C 0.00000 0.00008 2.81122
+H -0.92920 0.00010 3.37082
+H 0.92920 0.00011 3.37082
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 54.6,91.5,121.5,127.8,149.4,173.2,182.0,195.2,309.0,463.1,496.6,556.4,593.8,740.1,792.9,836.7,949.0,966.2,1094.2,1129.7,1455.4,1800.7,3150.7,3240.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1886,
+    label = "BrC1C(Br)C1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {5,S} {7,S} {9,S}
+7 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.34598,0.0658673,-0.00013908,1.76877e-07,-9.28165e-11,17456.8,16.3544], Tmin=(10,'K'), Tmax=(461.451,'K')),
+            NASAPolynomial(coeffs=[7.51391,0.0297384,-2.16386e-05,7.20795e-09,-8.94898e-13,17072.1,-0.530049], Tmin=(461.451,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 40.65 kcal/mol
+S298: 99.85 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.23545 -1.46341 -0.54740
+Br -2.23545 -1.46341 0.54740
+Br -1.22197 1.58421 -1.03801
+Br 1.22197 1.58421 1.03801
+C 0.43840 -0.79282 -0.60822
+C -0.43840 -0.79282 0.60822
+C 0.00000 0.52036 0.00000
+H -0.02182 -1.03205 -1.55863
+H 0.02182 -1.03205 1.55862
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 71.8,89.6,98.1,150.5,166.2,219.9,224.7,422.5,451.8,609.2,734.6,767.9,914.9,927.7,1056.2,1067.4,1213.4,1224.4,1307.2,3195.9,3201.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1887,
+    label = "Br[CH]C1C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 C  u1 p0 c0 {3,S} {4,S} {9,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.35758,0.0620046,-0.000116151,1.27487e-07,-5.77231e-11,55133.3,17.4967], Tmin=(10,'K'), Tmax=(531.761,'K')),
+            NASAPolynomial(coeffs=[7.91105,0.0277527,-1.95326e-05,6.35783e-09,-7.76263e-13,54649.1,-1.59539], Tmin=(531.761,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 115.43 kcal/mol
+S298: 101.26 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.33060 -2.24942 -0.19273
+Br 1.33026 2.24962 -0.19272
+Br -2.50196 -0.00018 -0.39248
+C -0.26074 -0.00003 1.47799
+C 0.71666 -0.64519 0.49157
+C 0.71656 0.64529 0.49158
+C -1.70253 -0.00014 1.29898
+H 0.01253 -0.00001 2.53697
+H -2.39373 -0.00020 2.12965
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 34.0,50.5,101.5,161.5,197.5,295.0,335.7,387.7,531.3,554.7,578.0,711.6,800.5,988.7,1033.8,1137.3,1266.1,1357.0,1855.2,3063.4,3232.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1888,
+    label = "CDC1C(Br)DC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,D}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u0 p0 c0 {2,S} {3,S} {4,D}
+6 C  u0 p0 c0 {3,D} {7,S} {8,S}
+7 H  u0 p0 c0 {6,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72626,0.0230708,7.20866e-05,-2.76685e-07,2.58606e-10,49425.2,13.2877], Tmin=(10,'K'), Tmax=(399.717,'K')),
+            NASAPolynomial(coeffs=[5.53566,0.0260534,-1.82472e-05,5.97276e-09,-7.3546e-13,49112.1,4.11018], Tmin=(399.717,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 102.88 kcal/mol
+S298: 84.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.23203 -0.56964 -0.00000
+Br 2.23202 -0.56964 -0.00001
+C 0.00000 1.68111 0.00001
+C -0.65812 0.38864 0.00000
+C 0.65813 0.38863 0.00000
+C 0.00000 3.00176 0.00003
+H -0.92912 3.55709 0.00003
+H 0.92912 3.55709 0.00003
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 97.2,127.7,153.6,347.1,439.3,495.3,514.1,575.1,683.2,772.1,958.9,962.0,1069.9,1445.8,1682.4,1895.8,3163.3,3249.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1889,
+    label = "BrC1(Br)[CH]CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5  C  u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+6  C  u1 p0 c0 {4,S} {5,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63312,0.0319468,1.31712e-05,-5.68585e-08,3.43612e-11,26791,14.6434], Tmin=(10,'K'), Tmax=(639.218,'K')),
+            NASAPolynomial(coeffs=[4.63214,0.03643,-2.25393e-05,6.65732e-09,-7.55037e-13,26444,8.55529], Tmin=(639.218,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 58.25 kcal/mol
+S298: 89.45 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61301 -0.69370 -0.00049
+Br -1.61310 -0.69353 -0.00049
+C 0.00008 1.60724 -1.05463
+C 0.00000 0.48255 0.01648
+C 0.00022 2.64568 0.11670
+C 0.00009 1.48982 1.07475
+H 0.89105 1.61378 -1.68130
+H -0.89094 1.61397 -1.68122
+H 0.88620 3.29055 0.16260
+H -0.88558 3.29079 0.16262
+H 0.00006 1.39213 2.15185
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.8,156.3,214.3,259.0,306.1,316.2,460.5,519.5,749.8,813.0,899.8,939.7,984.0,1036.4,1088.6,1109.9,1191.4,1210.6,1265.3,1305.4,1451.6,1474.3,3017.2,3052.4,3099.6,3160.9,3226.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1890,
+    label = "BrCC1CO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  O  u0 p2 c0 {3,S} {4,S}
+3  C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9629,0.00265521,0.000127219,-2.82207e-07,2.07317e-10,-10418.5,12.7203], Tmin=(10,'K'), Tmax=(347.487,'K')),
+            NASAPolynomial(coeffs=[0.928231,0.0375878,-2.35742e-05,7.09454e-09,-8.20625e-13,-10207.6,24.1531], Tmin=(347.487,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -16.80 kcal/mol
+S298: 78.81 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.45166 -0.11368 0.01504
+O 2.67911 0.44774 0.00105
+C 1.36642 0.12615 0.46532
+C 2.19402 -0.88338 -0.20085
+C 0.25866 0.82918 -0.26537
+H 1.26021 0.08341 1.54858
+H 2.68256 -1.65366 0.39264
+H 1.98240 -1.15268 -1.23458
+H 0.09885 1.84180 0.10322
+H 0.43666 0.84630 -1.33938
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 85.5,182.4,332.3,391.9,651.4,815.0,864.4,868.5,969.0,1046.1,1107.2,1155.7,1170.5,1192.9,1237.0,1293.1,1433.8,1480.4,1528.3,3087.6,3101.1,3120.8,3170.4,3178.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1891,
+    label = "BrC(Br)[C]1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 O  u0 p2 c0 {6,S} {8,S}
+6 C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+7 C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+8 C  u1 p0 c0 {5,S} {6,S} {7,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.18226,0.0822484,-0.000192276,2.49311e-07,-1.29793e-10,24043.8,19.9928], Tmin=(10,'K'), Tmax=(469.007,'K')),
+            NASAPolynomial(coeffs=[9.41588,0.0290842,-2.22443e-05,7.62133e-09,-9.62728e-13,23459.1,-5.36112], Tmin=(469.007,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 54.41 kcal/mol
+S298: 111.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.93706 0.82823 -1.48427
+Br -2.56697 -0.73943 1.25420
+Br 1.74952 1.57225 0.91473
+Br 2.81257 -1.19316 -0.44260
+O -0.56159 -1.50330 -0.64090
+C -1.28249 -0.37566 -0.12533
+C 1.35882 0.11460 -0.32227
+C 0.12014 -0.55772 0.10897
+H 1.28210 0.56268 -1.31356
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 17.2,55.8,57.0,110.2,165.6,202.4,265.1,287.7,347.3,385.8,497.4,623.3,678.6,717.7,762.7,972.5,1055.1,1140.3,1193.5,1486.2,3097.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1892,
+    label = "CDC1CDC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,D}
+3 C  u0 p0 c0 {2,S} {4,D} {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,D}
+5 C  u0 p0 c0 {2,D} {7,S} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90401,0.00598314,9.91531e-05,-2.18321e-07,1.4264e-10,47212.9,11.0446], Tmin=(10,'K'), Tmax=(520.94,'K')),
+            NASAPolynomial(coeffs=[3.92549,0.0261189,-1.72803e-05,5.48948e-09,-6.667e-13,46935.2,8.31107], Tmin=(520.94,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 97.68 kcal/mol
+S298: 75.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.73507 -1.11571 0.00000
+C 1.16858 1.41244 0.00000
+C -0.21380 1.87856 0.00000
+C 0.00000 0.58190 0.00000
+C 2.47493 1.61712 0.00000
+H -0.90201 2.70649 0.00000
+H 2.88456 2.61924 0.00000
+H 3.16654 0.78409 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 168.3,244.9,417.4,455.8,521.3,699.4,770.7,786.6,822.3,999.3,1033.9,1088.1,1453.9,1650.4,1871.8,3159.5,3244.3,3288.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1893,
+    label = "Br[C]1CCDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u1 p0 c0 {1,S} {3,S} {6,S}
+5 C  u0 p0 c0 {3,S} {6,D} {9,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68698,0.0270402,2.34515e-05,-9.08315e-08,6.43984e-11,38778.6,14.4364], Tmin=(10,'K'), Tmax=(539.889,'K')),
+            NASAPolynomial(coeffs=[5.02935,0.0298284,-1.96744e-05,6.10839e-09,-7.20116e-13,38448.1,7.0689], Tmin=(539.889,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 81.75 kcal/mol
+S298: 87.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.96942 -0.64315 0.00001
+Br -2.00392 -0.58983 -0.00008
+C 0.78516 2.23178 0.00015
+C 0.70308 0.70518 0.00005
+C -0.74699 2.13691 0.00010
+C -0.69371 0.74905 0.00002
+H 1.23132 2.67460 0.89609
+H 1.23139 2.67471 -0.89570
+H -1.54029 2.86747 0.00017
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 93.7,124.2,211.2,310.8,408.2,424.9,447.4,560.2,897.6,925.4,967.8,1046.1,1068.8,1119.1,1199.6,1260.1,1442.3,1511.0,3045.7,3096.2,3262.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1894,
+    label = "[CH]DC1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {4,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {5,D} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7108,0.0241108,7.61049e-05,-2.59549e-07,2.21424e-10,54593.8,15.1869], Tmin=(10,'K'), Tmax=(429.222,'K')),
+            NASAPolynomial(coeffs=[5.27308,0.0307673,-2.13005e-05,6.89901e-09,-8.41951e-13,54264.2,6.69452], Tmin=(429.222,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 113.34 kcal/mol
+S298: 89.50 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.33008 -0.42424 -0.03220
+Br 2.32085 -0.44377 0.02438
+C -0.56093 0.16436 0.50656
+C 0.55829 0.16735 -0.49323
+C -0.00603 1.44555 0.03484
+C -0.02225 2.72973 0.05313
+H -0.35322 -0.14488 1.52471
+H 0.34756 -0.09562 -1.52334
+H 0.51427 3.57893 -0.33555
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 110.8,136.4,195.1,203.8,303.5,471.4,593.9,647.4,731.4,757.5,792.0,873.2,1012.9,1033.9,1132.6,1188.2,1236.2,1784.3,3178.0,3185.0,3290.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1895,
+    label = "BrC1CDCO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {2,S} {4,D} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94354,0.00323048,8.39147e-05,-1.52371e-07,8.43346e-11,6554.32,11.5573], Tmin=(10,'K'), Tmax=(579.917,'K')),
+            NASAPolynomial(coeffs=[1.78708,0.0309974,-2.12545e-05,6.86711e-09,-8.38923e-13,6587.64,18.9168], Tmin=(579.917,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 16.60 kcal/mol
+S298: 74.59 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.22853 0.00633 -0.08680
+O -1.40656 -1.03691 0.07481
+C -0.59071 0.04599 0.61612
+C -1.55877 1.03291 0.03204
+C -2.25412 -0.03075 -0.38070
+H -0.50479 -0.03979 1.69790
+H -1.63630 2.10426 0.01137
+H -3.18343 -0.27970 -0.87453
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 196.9,271.9,398.7,695.7,738.2,856.5,897.3,950.0,960.1,1040.9,1167.2,1182.2,1231.5,1301.2,1621.0,3137.2,3236.4,3311.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1896,
+    label = "OC1(Br)[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {9,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u1 p0 c0 {3,S} {4,S} {8,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87846,0.00753317,0.000117032,-2.59944e-07,1.69654e-10,15115.1,12.258], Tmin=(10,'K'), Tmax=(527.612,'K')),
+            NASAPolynomial(coeffs=[4.38432,0.0296899,-1.98545e-05,6.38913e-09,-7.84446e-13,14699.9,6.7126], Tmin=(527.612,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 34.19 kcal/mol
+S298: 79.16 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.14346 -0.07661 -0.01827
+O -1.16482 1.53572 -0.09517
+C -0.82852 0.21721 0.03996
+C -1.68355 -0.82207 -0.64659
+C -1.57969 -0.74112 0.82867
+H -1.21024 -1.64219 -1.18165
+H -2.58685 -0.43695 -1.12040
+H -1.37024 -1.43332 1.62982
+H -0.98466 1.98406 0.74082
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 245.9,264.7,298.6,368.0,411.9,499.3,541.3,786.6,884.6,926.4,996.7,1061.1,1068.5,1119.0,1299.4,1390.0,1449.0,3080.8,3166.0,3245.7,3774.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1897,
+    label = "O[C]1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {6,S} {9,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5184,0.0410953,-4.07445e-05,2.14486e-08,-4.65512e-12,16055.3,15.7363], Tmin=(10,'K'), Tmax=(1049.8,'K')),
+            NASAPolynomial(coeffs=[8.71837,0.0212819,-1.24338e-05,3.4699e-09,-3.73614e-13,14963.6,-9.60318], Tmin=(1049.8,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.98 kcal/mol
+S298: 92.20 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.42976 -0.37140 0.00148
+Br -2.30781 -0.53038 -0.05440
+O -0.43667 2.50795 -0.15179
+C 0.58803 0.19521 -0.42967
+C -0.52975 0.02622 0.60989
+C 0.00078 1.31498 0.24475
+H 0.38393 -0.04972 -1.46724
+H -0.34784 -0.45633 1.56355
+H -1.16517 2.78621 0.42049
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 69.0,100.1,182.1,201.9,261.8,379.4,473.4,598.2,634.6,737.8,983.2,1005.4,1034.4,1051.9,1147.7,1175.9,1318.6,1594.0,3159.2,3171.2,3764.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1898,
+    label = "BrC(Br)C1CO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  O  u0 p2 c0 {4,S} {5,S}
+4  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {2,S} {4,S} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71166,0.0321053,-1.13695e-05,-6.09672e-09,3.96759e-12,-7157.47,14.3019], Tmin=(10,'K'), Tmax=(1033.29,'K')),
+            NASAPolynomial(coeffs=[7.88514,0.0247623,-1.35035e-05,3.53431e-09,-3.59654e-13,-8490.43,-8.24604], Tmin=(1033.29,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -9.41 kcal/mol
+S298: 88.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.63879 -0.76716 -0.02058
+Br 1.60015 -0.81484 -0.00982
+O 0.84316 2.53960 0.05806
+C 0.00153 1.51351 -0.44856
+C -0.57172 2.74205 0.11641
+C -0.00398 0.24654 0.35635
+H 0.02196 1.37368 -1.52774
+H -1.00689 2.72637 1.11417
+H -0.96766 3.49982 -0.55670
+H 0.00482 0.44085 1.42478
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 76.0,149.2,156.7,264.3,287.7,378.5,652.6,678.4,844.8,873.0,949.9,1089.3,1120.1,1156.6,1159.5,1166.3,1218.5,1283.9,1424.4,1525.3,3090.2,3135.0,3164.9,3182.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1899,
+    label = "CC1OC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  O  u0 p2 c0 {3,S} {4,S}
+3  C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+5  C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82477,0.0148382,5.16146e-05,-1.03068e-07,5.82383e-11,-11815.3,11.9045], Tmin=(10,'K'), Tmax=(556.372,'K')),
+            NASAPolynomial(coeffs=[1.94002,0.0351528,-2.13913e-05,6.26317e-09,-7.07537e-13,-11710.2,18.9513], Tmin=(556.372,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -19.35 kcal/mol
+S298: 78.72 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.41789 -0.12363 -0.02539
+O 1.11332 1.21146 -0.14556
+C 1.53364 -0.15652 -0.39675
+C 0.43429 0.19147 0.50248
+C 2.90011 -0.54521 0.09582
+H 1.25197 -0.50982 -1.38739
+H 0.50711 0.14772 1.58507
+H 3.00468 -1.63504 0.09832
+H 3.67351 -0.13360 -0.56057
+H 3.07404 -0.17240 1.10844
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 174.4,202.1,241.2,301.1,456.9,663.9,764.0,885.2,990.9,1041.6,1070.7,1152.6,1182.6,1264.7,1301.2,1408.3,1447.3,1483.6,1498.3,3038.4,3105.8,3117.3,3136.4,3156.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1900,
+    label = "BrC1[CH]CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4  C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+5  C  u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+6  C  u1 p0 c0 {4,S} {5,S} {11,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69083,0.0311504,6.00994e-06,-3.22154e-08,1.58507e-11,26444.3,15.6104], Tmin=(10,'K'), Tmax=(837.552,'K')),
+            NASAPolynomial(coeffs=[5.83926,0.0331127,-1.93948e-05,5.43005e-09,-5.86911e-13,25655.7,3.06705], Tmin=(837.552,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 57.48 kcal/mol
+S298: 91.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.26143 -0.48953 0.05113
+Br 2.29491 -0.45340 -0.07085
+C -0.57045 0.33436 -0.50032
+C 0.52168 0.33267 0.59509
+C -0.55066 1.89364 -0.48731
+C 0.49952 1.79691 0.58152
+H -0.29818 -0.14589 -1.43495
+H 0.36357 -0.23627 1.50831
+H -0.24363 2.35060 -1.43762
+H -1.49420 2.35778 -0.18118
+H 1.10011 2.53075 1.10173
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 40.2,143.0,189.4,251.0,292.7,440.5,502.6,600.5,820.5,900.8,928.9,942.8,1002.8,1045.5,1074.1,1109.1,1192.8,1198.6,1232.4,1279.4,1303.4,1447.8,3011.2,3062.9,3135.0,3164.2,3224.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1901,
+    label = "BrC(Br)C1(Br)C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {2,S} {6,S} {8,S} {10,S}
+8  C  u0 p0 c0 {3,S} {6,S} {7,S} {11,S}
+9  C  u0 p0 c0 {4,S} {5,S} {6,S} {12,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+12 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.3099,0.0820784,0.000164056,-2.37408e-06,5.33279e-09,14265.8,17.6354], Tmin=(10,'K'), Tmax=(191.295,'K')),
+            NASAPolynomial(coeffs=[8.03943,0.0452477,-3.38098e-05,1.15357e-08,-1.46204e-12,13971.3,-0.327679], Tmin=(191.295,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 35.97 kcal/mol
+S298: 114.37 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.37186 -0.00001 2.15431
+Br 2.16255 -1.79653 -0.26296
+Br 2.16253 1.79654 -0.26296
+Br -1.66613 1.61490 -1.03594
+Br -1.66613 -1.61490 -1.03595
+C -0.05733 -0.00000 0.72731
+C 1.22017 -0.75253 1.04402
+C 1.22017 0.75252 1.04403
+C -0.62693 0.00000 -0.66515
+H 1.27711 -1.23955 2.00878
+H 1.27710 1.23954 2.00879
+H 0.17552 0.00000 -1.39626
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 45.0,54.8,75.8,100.2,107.2,108.5,135.9,178.4,203.5,342.0,397.1,469.8,521.0,574.6,700.7,702.2,749.1,862.5,912.4,995.7,1090.0,1094.2,1151.6,1230.8,1243.8,1261.6,1317.7,3168.2,3194.6,3202.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1902,
+    label = "BrC1[CH]C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+7  C  u0 p0 c0 {4,S} {5,S} {8,S} {10,S}
+8  C  u1 p0 c0 {6,S} {7,S} {11,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.23973,0.0749903,-0.000131931,1.39425e-07,-6.17904e-11,31328.1,17.9192], Tmin=(10,'K'), Tmax=(538.607,'K')),
+            NASAPolynomial(coeffs=[8.35158,0.0370267,-2.62036e-05,8.55826e-09,-1.04718e-12,30777.5,-3.57941], Tmin=(538.607,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 68.97 kcal/mol
+S298: 107.26 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.45392 0.00000 1.77313
+Br -2.58986 0.00000 -0.58902
+Br 1.52525 -2.15308 -0.16612
+Br 1.52526 2.15308 -0.16612
+C -0.66347 0.00000 -0.13828
+C 0.04843 -1.09343 -1.01246
+C 0.04843 1.09343 -1.01246
+C 0.53892 -0.00000 -1.86682
+H -0.59309 -1.86623 -1.42763
+H -0.59309 1.86624 -1.42763
+H 1.11661 -0.00000 -2.78031
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.0,86.0,106.8,111.9,156.6,189.7,228.8,274.9,360.2,388.7,501.3,511.3,591.6,778.6,850.6,933.6,956.7,995.0,1054.8,1129.2,1169.2,1180.8,1264.6,1282.9,3143.3,3143.9,3238.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1903,
+    label = "BrC1DC(Br)C1C(Br)(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+8  C  u0 p0 c0 {4,S} {6,S} {9,D}
+9  C  u0 p0 c0 {5,S} {6,S} {8,D}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.85866,0.114733,-0.00034036,5.40988e-07,-3.37237e-10,40810,19.5475], Tmin=(10,'K'), Tmax=(396.274,'K')),
+            NASAPolynomial(coeffs=[11.1494,0.0310459,-2.35782e-05,8.04955e-09,-1.01514e-12,40152.9,-12.7759], Tmin=(396.274,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 88.75 kcal/mol
+S298: 117.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.76901 -0.00001 1.84493
+Br 2.12682 -1.60255 -0.57075
+Br 2.12680 1.60258 -0.57072
+Br -2.33620 -2.24889 -0.16782
+Br -2.33624 2.24887 -0.16783
+C -0.20182 0.00001 -0.89693
+C 1.08925 0.00001 -0.08186
+C -1.46862 -0.64801 -0.41986
+C -1.46863 0.64800 -0.41986
+H 0.04264 0.00002 -1.96225
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 21.1,47.6,56.9,81.8,118.1,140.5,171.1,185.9,208.3,248.7,416.1,418.7,508.6,514.1,584.8,697.8,733.9,933.6,979.7,1049.7,1184.3,1352.6,1846.6,3074.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1904,
+    label = "BrC[C]1CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+3  C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+4  C  u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
+5  C  u1 p0 c0 {2,S} {3,S} {4,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {3,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79331,0.0226669,2.00086e-05,-3.96954e-08,1.6585e-11,29390.9,12.2802], Tmin=(10,'K'), Tmax=(877.371,'K')),
+            NASAPolynomial(coeffs=[4.00228,0.0335108,-1.86989e-05,5.04105e-09,-5.28961e-13,28900.2,8.71186], Tmin=(877.371,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 62.86 kcal/mol
+S298: 81.91 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.35397 0.19327 0.00001
+C -2.27025 0.40636 0.77116
+C -2.27023 0.40647 -0.77111
+C -0.23350 -1.22544 -0.00004
+C -1.48036 -0.54653 -0.00006
+H -1.75143 1.20773 1.29380
+H -3.17784 0.06841 1.26723
+H -3.17766 0.06862 -1.26756
+H -1.75135 1.20806 -1.29335
+H -0.00248 -1.78112 0.90480
+H -0.00228 -1.78119 -0.90481
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 85.5,112.0,264.2,332.0,334.3,687.1,742.9,800.3,885.0,980.8,997.2,1036.2,1065.8,1079.8,1126.2,1154.6,1188.7,1426.4,1441.8,1475.9,1560.1,3092.4,3093.3,3122.6,3162.6,3175.1,3198.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1905,
+    label = "OC1DCC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {5,S} {8,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u0 p0 c0 {4,S} {5,D} {7,S}
+7 H  u0 p0 c0 {6,S}
+8 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74456,0.0196644,0.000119341,-4.11491e-07,3.73671e-10,13983.4,13.5306], Tmin=(10,'K'), Tmax=(407.734,'K')),
+            NASAPolynomial(coeffs=[6.49223,0.0248275,-1.78135e-05,5.96176e-09,-7.46899e-13,13492.4,-0.534214], Tmin=(407.734,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 32.57 kcal/mol
+S298: 85.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.61352 -0.69693 -0.07597
+Br -1.61352 -0.69693 -0.07597
+O -0.00000 2.72016 -0.86843
+C 0.00000 0.39689 0.29897
+C -0.00001 1.81564 0.08699
+C 0.00000 1.42317 1.33903
+H -0.00004 1.60207 2.39889
+H -0.00004 3.60759 -0.48364
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 117.2,156.0,196.2,263.3,350.5,394.2,528.6,545.8,637.5,751.1,839.4,994.2,1127.8,1168.8,1383.7,1875.2,3302.6,3762.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1906,
+    label = "[CH2]C1DCC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {3,S} {4,D} {7,S}
+6 C  u1 p0 c0 {4,S} {8,S} {9,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74271,0.0196459,0.000136124,-4.44878e-07,3.94545e-10,46982.8,14.1567], Tmin=(10,'K'), Tmax=(410.023,'K')),
+            NASAPolynomial(coeffs=[6.13257,0.0294153,-2.06471e-05,6.80912e-09,-8.44699e-13,46508.7,1.36639], Tmin=(410.023,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 98.33 kcal/mol
+S298: 87.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61527 -0.66981 -0.08437
+Br 1.61529 -0.66977 -0.08437
+C -0.00000 0.38968 0.30132
+C -0.00002 1.84677 0.10615
+C -0.00002 1.36197 1.36660
+C -0.00006 2.86935 -0.80425
+H 0.00000 1.51291 2.43235
+H -0.00010 3.90274 -0.47812
+H -0.00006 2.66293 -1.86708
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 116.3,156.1,188.3,248.0,351.0,427.1,441.0,457.0,613.5,685.8,792.9,851.7,933.8,1057.9,1167.6,1211.0,1470.0,1584.8,3159.1,3260.3,3284.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1907,
+    label = "BrCC1[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+5 C  u1 p0 c0 {2,S} {3,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92873,0.00478184,0.000112113,-2.49058e-07,1.72991e-10,15531.7,13.2626], Tmin=(10,'K'), Tmax=(453.65,'K')),
+            NASAPolynomial(coeffs=[2.14792,0.0327799,-2.112e-05,6.48343e-09,-7.60697e-13,15566.7,19.0519], Tmin=(453.65,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 34.76 kcal/mol
+S298: 79.87 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.39269 -0.10907 -0.00773
+O 2.04847 -0.91597 -0.22682
+C 1.42909 0.17992 0.52839
+C 0.31206 0.88453 -0.16982
+C 2.79154 0.20027 0.01677
+H 1.26997 -0.04936 1.57968
+H 0.50361 0.98544 -1.23655
+H 0.11874 1.86003 0.27632
+H 3.26784 0.76087 -0.78638
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 84.3,191.6,336.0,416.9,627.7,747.4,857.2,882.1,978.3,1053.8,1104.5,1137.7,1187.5,1237.4,1309.9,1436.9,1465.1,3099.9,3126.0,3141.0,3173.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1908,
+    label = "Br[C]1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5351,0.0476187,-8.49636e-05,9.77995e-08,-4.84012e-11,38831.4,17.2633], Tmin=(10,'K'), Tmax=(480.429,'K')),
+            NASAPolynomial(coeffs=[6.0724,0.0264934,-1.9006e-05,6.27366e-09,-7.741e-13,38587.6,6.8823], Tmin=(480.429,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 82.31 kcal/mol
+S298: 96.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.69919 -0.33362 0.00129
+Br -1.79027 -1.76073 -0.05187
+Br -1.00897 2.20499 -0.01644
+C 0.78708 -0.27181 -0.44536
+C -0.24567 -0.74028 0.58793
+C -0.07977 0.64657 0.23894
+H 0.65906 -0.54068 -1.48914
+H 0.07310 -1.13880 1.54581
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 38.9,86.7,147.8,182.0,229.7,433.5,474.4,587.2,608.6,891.2,993.8,1015.6,1061.9,1163.5,1179.4,1393.8,3157.8,3161.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1909,
+    label = "O[C]1C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {7,S} {9,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+7 C  u1 p0 c0 {4,S} {5,S} {6,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.26337,0.0681552,-0.000133824,1.45204e-07,-6.34413e-11,20191.9,17.5909], Tmin=(10,'K'), Tmax=(556.009,'K')),
+            NASAPolynomial(coeffs=[9.26119,0.025006,-1.74159e-05,5.62875e-09,-6.83549e-13,19525,-7.82459], Tmin=(556.009,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 46.24 kcal/mol
+S298: 102.75 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.51592 -0.27932 -0.50888
+Br -2.27667 -0.73455 -0.52912
+Br -0.38781 1.78192 0.23401
+O 0.21994 -1.24434 2.42294
+C 0.70301 -1.05302 -0.15917
+C -0.51381 -0.16364 0.19518
+C 0.12682 -0.98273 1.13556
+H 0.58636 -1.88004 -0.85410
+H 0.95768 -1.85087 2.58086
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 46.0,77.7,88.4,148.4,156.8,226.8,358.5,375.5,380.5,495.9,565.2,610.0,759.2,977.3,1013.3,1078.4,1154.6,1326.6,1715.8,3138.1,3758.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1910,
+    label = "BrC[C]1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {7,S}
+6 C  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+7 C  u1 p0 c0 {4,S} {5,S} {6,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.35285,0.061066,-0.00010716,1.07595e-07,-4.44501e-11,19945.9,17.7088], Tmin=(10,'K'), Tmax=(580.803,'K')),
+            NASAPolynomial(coeffs=[8.32801,0.0268021,-1.86695e-05,6.02268e-09,-7.29877e-13,19368,-3.59032], Tmin=(580.803,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 45.51 kcal/mol
+S298: 101.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.62859 -0.75384 -0.20423
+Br -0.56207 1.69673 -0.00015
+Br 2.99553 -0.14566 -0.10851
+O -0.25473 -0.76746 1.40731
+C -0.82739 -0.19521 0.20180
+C 1.50747 -1.58588 -0.26958
+C 0.22920 -1.14154 0.18141
+H 1.50797 -1.83212 -1.32764
+H 1.90392 -2.39549 0.33852
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 44.4,50.5,120.5,166.8,207.1,283.5,350.5,363.2,445.3,484.6,649.3,724.7,850.3,971.6,1028.5,1147.9,1209.4,1446.5,1607.0,3126.9,3204.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1911,
+    label = "CDC1CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {5,D} {9,S} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76342,0.0195903,0.000113722,-3.57637e-07,3.15991e-10,27146.3,13.4319], Tmin=(10,'K'), Tmax=(391.695,'K')),
+            NASAPolynomial(coeffs=[4.19801,0.0353059,-2.36401e-05,7.51276e-09,-9.07019e-13,26957.7,9.76906], Tmin=(391.695,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 58.79 kcal/mol
+S298: 85.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61703 -0.66408 -0.08862
+Br 1.61707 -0.66401 -0.08863
+C -0.00002 1.33925 1.41615
+C -0.00000 0.35081 0.25523
+C -0.00004 1.78075 0.00634
+C -0.00011 2.74848 -0.88626
+H 0.91513 1.42227 1.99687
+H -0.91518 1.42225 1.99688
+H -0.00013 2.53099 -1.94931
+H -0.00013 3.79202 -0.58942
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 110.6,158.4,205.0,232.2,359.2,417.3,453.6,570.1,727.4,787.1,937.3,947.3,1003.5,1042.8,1073.9,1119.9,1130.4,1436.5,1468.7,1832.1,3108.0,3144.8,3192.1,3229.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1912,
+    label = "BrC1CC1C(Br)(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {10,S}
+7  C  u0 p0 c0 {5,S} {6,S} {11,S} {12,S}
+8  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.2089,0.0786277,-0.000154261,1.99727e-07,-1.09681e-10,12539.7,17.7763], Tmin=(10,'K'), Tmax=(438.385,'K')),
+            NASAPolynomial(coeffs=[7.21751,0.0420514,-2.91096e-05,9.40452e-09,-1.14482e-12,12188.2,1.7428], Tmin=(438.385,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 31.73 kcal/mol
+S298: 107.68 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.50317 0.10597 0.20301
+Br 0.79267 1.86804 -0.57542
+Br 2.12630 -0.20322 1.47426
+Br 1.20261 -1.18349 -1.42139
+C -0.59827 -0.27211 0.67745
+C -1.78364 -0.69768 -0.13814
+C -1.17813 -1.66078 0.83693
+C 0.75234 0.00963 0.07403
+H -0.80784 0.41505 1.49046
+H -1.65296 -0.88291 -1.19519
+H -0.64038 -2.50444 0.41933
+H -1.69712 -1.85742 1.76734
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 46.0,64.8,116.9,133.5,157.9,163.0,217.4,264.8,295.1,354.0,471.1,583.1,674.2,687.3,848.6,925.9,931.6,977.3,1071.2,1081.8,1106.3,1137.9,1231.4,1256.8,1378.0,1467.1,3145.3,3170.3,3212.7,3237.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1913,
+    label = "BrC1[CH]CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5  C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+6  C  u0 p0 c0 {4,S} {7,S} {9,S} {10,S}
+7  C  u1 p0 c0 {5,S} {6,S} {11,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42061,0.0516206,-4.90382e-05,2.46279e-08,-5.11267e-12,29455.1,16.9631], Tmin=(10,'K'), Tmax=(1084.41,'K')),
+            NASAPolynomial(coeffs=[9.80456,0.0280724,-1.64654e-05,4.60301e-09,-4.96113e-13,28070.5,-14.3531], Tmin=(1084.41,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.35 kcal/mol
+S298: 99.09 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.30475 1.78625 0.14171
+Br 2.20146 -0.70522 -0.48668
+Br -2.46281 -0.30084 -0.37544
+C 0.51559 -0.12918 0.35885
+C -0.61916 -1.11199 -0.08934
+C 0.38942 -0.68611 1.80932
+C -0.50173 -1.74326 1.22711
+H -0.47637 -1.66289 -1.01463
+H -0.11674 0.01981 2.48085
+H 1.32377 -1.00407 2.27844
+H -0.95450 -2.63644 1.63416
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 52.6,100.1,141.8,172.1,241.6,276.7,335.9,358.7,445.7,515.6,645.3,823.0,914.6,948.9,961.0,990.6,1060.5,1091.9,1135.7,1210.1,1269.3,1292.0,1447.5,3016.5,3092.8,3149.6,3232.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1914,
+    label = "OC1DC(Br)[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {7,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,D}
+4 C  u1 p0 c0 {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {3,D} {4,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88464,0.0075692,9.57949e-05,-2.39008e-07,1.71743e-10,34010,12.7228], Tmin=(10,'K'), Tmax=(488.658,'K')),
+            NASAPolynomial(coeffs=[4.91588,0.0213469,-1.47018e-05,4.7905e-09,-5.90039e-13,33643.9,5.77176], Tmin=(488.658,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 71.46 kcal/mol
+S298: 78.68 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.34282 -0.12802 -0.04581
+O -2.52475 -1.00281 -0.03235
+C -1.72996 0.03734 0.07763
+C -1.42745 1.30973 -0.15246
+C -0.47847 0.48337 0.56417
+H -1.65240 2.27491 -0.57123
+H -3.33293 -0.75430 -0.50269
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 135.5,252.8,335.3,479.5,529.6,589.6,749.9,817.4,973.3,1140.0,1181.9,1390.1,1829.3,3288.1,3755.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1915,
+    label = "BrC(Br)(Br)C1D[C]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u1 p0 c0 {4,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29154,0.0664619,-0.000132328,1.49426e-07,-6.83998e-11,66955.9,15.9266], Tmin=(10,'K'), Tmax=(530.274,'K')),
+            NASAPolynomial(coeffs=[8.64349,0.0260905,-1.81274e-05,5.8516e-09,-7.10473e-13,66388.3,-6.49832], Tmin=(530.274,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 139.07 kcal/mol
+S298: 98.95 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.63343 -1.60607 -0.77896
+Br 1.95284 0.00010 0.27266
+Br -0.63356 1.60584 -0.77929
+C -1.98161 0.00014 2.23769
+C -0.00752 0.00001 0.19168
+C -0.54504 0.00013 1.52741
+C -0.61222 0.00048 2.81079
+H -2.56325 0.92127 2.19478
+H -2.56301 -0.92116 2.19532
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 74.7,103.7,109.9,153.3,153.4,195.6,285.8,364.7,379.8,641.7,647.1,708.0,771.0,1000.3,1024.9,1061.2,1069.0,1498.6,1871.0,3069.0,3156.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1916,
+    label = "[CH2]C1(Br)OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+6 C  u1 p0 c0 {4,S} {8,S} {9,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.64301,0.0310984,6.5302e-05,-2.98375e-07,2.97143e-10,13769.6,15.0829], Tmin=(10,'K'), Tmax=(387.994,'K')),
+            NASAPolynomial(coeffs=[6.07647,0.0296874,-2.07775e-05,6.80841e-09,-8.39606e-13,13402.6,3.35016], Tmin=(387.994,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 32.52 kcal/mol
+S298: 91.33 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.31900 -0.25439 -0.18252
+Br 2.37934 -0.13367 -0.19963
+O 0.03630 -0.01089 1.43815
+C -0.52006 0.45612 0.22199
+C 0.55156 -0.56235 0.25704
+C -0.38188 1.86057 -0.10493
+H 0.34437 -1.61141 0.07067
+H -0.86709 2.26530 -0.98091
+H 0.22244 2.48901 0.53567
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 95.4,121.4,143.3,220.9,295.4,365.7,423.1,537.3,621.9,680.6,754.1,879.7,1002.3,1063.3,1143.8,1269.9,1363.5,1436.7,3167.9,3177.2,3300.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1917,
+    label = "Br[C]1CC(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4  C  u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+5  C  u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
+6  C  u1 p0 c0 {2,S} {4,S} {5,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76187,0.0302625,1.64832e-06,-2.03285e-08,8.91642e-12,25345.8,14.4362], Tmin=(10,'K'), Tmax=(994.754,'K')),
+            NASAPolynomial(coeffs=[7.03636,0.0295908,-1.61806e-05,4.24755e-09,-4.33507e-13,24076.1,-4.45155], Tmin=(994.754,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 55.22 kcal/mol
+S298: 89.02 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.72376 0.00000 -0.23413
+Br -2.77706 0.00000 -0.18475
+C 1.03767 0.00000 0.76368
+C 0.01187 -1.11177 0.40098
+C 0.01187 1.11177 0.40098
+C -0.99837 0.00000 0.39325
+H 1.32124 0.00000 1.81305
+H -0.11418 -1.91811 1.13091
+H 0.19726 -1.56000 -0.58363
+H -0.11418 1.91811 1.13091
+H 0.19726 1.56000 -0.58363
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 45.9,166.3,177.0,233.5,317.4,392.5,526.6,809.4,815.2,907.2,939.5,1009.1,1020.9,1098.3,1119.2,1142.7,1210.0,1247.0,1257.1,1276.1,1453.6,1471.4,3014.7,3018.9,3066.0,3068.8,3144.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1918,
+    label = "BrC1OCO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96127,0.00241901,8.71092e-05,-1.67979e-07,1.02683e-10,-26621.9,11.4614], Tmin=(10,'K'), Tmax=(488.908,'K')),
+            NASAPolynomial(coeffs=[1.33379,0.0306262,-2.00201e-05,6.17383e-09,-7.24319e-13,-26445.1,21.4371], Tmin=(488.908,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -49.38 kcal/mol
+S298: 74.20 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.27091 0.00000 -0.09091
+O 1.39088 -1.02419 0.14502
+O 1.39088 1.02419 0.14502
+C 0.60555 0.00000 0.66135
+C 2.15220 0.00000 -0.50689
+H 0.44732 0.00000 1.73966
+H 3.20549 0.00000 -0.20877
+H 2.02844 0.00000 -1.59606
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 144.8,280.1,280.7,653.9,938.7,946.6,1007.8,1055.8,1093.8,1138.4,1141.7,1258.3,1262.8,1404.6,1544.4,3030.7,3097.5,3117.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1919,
+    label = "OC1(Br)CDC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {8,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {3,S} {4,D} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88305,0.00727318,0.000104764,-2.38176e-07,1.57402e-10,11669.2,11.5221], Tmin=(10,'K'), Tmax=(527.077,'K')),
+            NASAPolynomial(coeffs=[4.79269,0.0252452,-1.71743e-05,5.59596e-09,-6.9292e-13,11227.8,4.43837], Tmin=(527.077,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 27.18 kcal/mol
+S298: 76.85 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.13269 -0.12168 -0.00453
+O 1.09665 1.56124 -0.07762
+C 0.86965 0.20560 -0.00235
+C 1.72810 -0.76857 0.66725
+C 1.74895 -0.75215 -0.64209
+H 2.07463 -1.19077 1.59559
+H 2.12724 -1.14552 -1.57061
+H 0.58878 1.99591 0.61780
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 259.3,293.6,305.9,354.8,456.7,481.5,727.6,874.5,912.1,938.6,994.2,1092.1,1250.3,1386.0,1685.5,3259.3,3302.3,3792.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1920,
+    label = "OC1[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {9,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
+5 C  u1 p0 c0 {3,S} {4,S} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85632,0.0102973,0.000124686,-3.32707e-07,2.61899e-10,16585.4,12.7397], Tmin=(10,'K'), Tmax=(433.628,'K')),
+            NASAPolynomial(coeffs=[4.07086,0.03023,-2.00615e-05,6.36104e-09,-7.67479e-13,16360.8,9.50864], Tmin=(433.628,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 37.28 kcal/mol
+S298: 81.27 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.38766 -0.11305 -0.03383
+O -2.80203 -0.69626 0.01888
+C -1.63345 -0.07885 -0.43133
+C -0.46573 0.15327 0.53882
+C -1.22820 1.26324 0.00748
+H -1.39565 -0.40653 -1.44136
+H -0.57801 -0.18753 1.56351
+H -0.99974 2.21486 -0.45018
+H -3.21436 -0.12008 0.67138
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 169.8,191.3,227.5,273.8,390.0,560.6,632.2,830.7,874.0,967.9,1027.6,1063.9,1114.4,1153.9,1255.3,1290.2,1413.0,3133.0,3150.3,3230.8,3809.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1921,
+    label = "BrCDC1C(Br)DC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,D}
+5 C  u0 p0 c0 {1,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+7 C  u0 p0 c0 {3,S} {4,D} {8,S}
+8 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4235,0.0550337,-9.68663e-05,9.55422e-08,-3.8596e-11,52207.2,16.3723], Tmin=(10,'K'), Tmax=(593.959,'K')),
+            NASAPolynomial(coeffs=[8.14485,0.023238,-1.65691e-05,5.41604e-09,-6.61609e-13,51646.3,-3.94591], Tmin=(593.959,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 109.27 kcal/mol
+S298: 96.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.21914 2.41810 0.00000
+Br 2.87864 -1.18195 0.00000
+Br -3.07065 -0.80559 0.00000
+C -0.24404 -0.70410 0.00000
+C 0.40117 0.59052 0.00000
+C 1.18465 -0.46841 0.00000
+C -1.29358 -1.50008 0.00000
+H -1.23869 -2.57726 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 52.3,90.2,90.7,178.3,182.8,356.6,462.0,500.9,528.9,578.5,689.8,730.2,981.6,1011.4,1233.2,1664.5,1902.5,3243.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1922,
+    label = "Br[C](Br)C1CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {3,S} {4,S} {10,S} {11,S}
+6  C  u1 p0 c0 {1,S} {2,S} {3,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6593,0.0332202,-2.52475e-06,-2.09272e-08,1.09076e-11,26467.6,15.2396], Tmin=(10,'K'), Tmax=(870.004,'K')),
+            NASAPolynomial(coeffs=[6.20716,0.0319764,-1.84325e-05,5.09574e-09,-5.45216e-13,25628,1.02512], Tmin=(870.004,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 57.58 kcal/mol
+S298: 90.84 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.88183 0.29858 0.01780
+Br -0.82353 -1.42582 0.03092
+C -0.73055 1.47866 -0.26923
+C -1.73793 1.78570 0.84265
+C -2.21595 1.56041 -0.55892
+C 0.02223 0.22351 -0.34933
+H -0.13478 2.32499 -0.59602
+H -1.73004 2.79195 1.24589
+H -1.91814 1.00172 1.56882
+H -2.54865 2.41105 -1.14311
+H -2.73561 0.63391 -0.77197
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 60.2,151.8,169.5,185.0,317.8,434.1,459.5,753.1,783.2,809.3,845.0,877.4,1017.6,1053.3,1082.8,1107.7,1162.0,1199.0,1226.8,1372.1,1460.9,1488.2,3138.9,3141.6,3160.1,3223.9,3237.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1923,
+    label = "BrC1DCCDC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {1,S} {4,D} {6,S}
+4 C  u0 p0 c0 {3,D} {5,S} {7,S}
+5 C  u0 p0 c0 {4,S} {6,D} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79127,0.0157616,0.000113474,-3.5066e-07,2.98185e-10,52237.1,13.0428], Tmin=(10,'K'), Tmax=(422.026,'K')),
+            NASAPolynomial(coeffs=[5.4158,0.0266847,-1.89006e-05,6.22896e-09,-7.70052e-13,51865.5,3.8299], Tmin=(422.026,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 108.34 kcal/mol
+S298: 83.21 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.05460 -0.57769 0.00003
+Br 2.05460 -0.57769 -0.00003
+C -0.79144 0.77985 0.00001
+C -0.78916 2.10873 0.00001
+C 0.78916 2.10873 -0.00000
+C 0.79145 0.77985 -0.00001
+H -1.53590 2.88746 0.00003
+H 1.53590 2.88746 -0.00002
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 83.7,187.2,238.1,365.1,390.1,416.0,489.1,737.3,751.1,783.4,890.3,1091.7,1121.0,1155.1,1642.5,1662.3,3253.8,3265.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1924,
+    label = "Br[CH]C1CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+5 C  u1 p0 c0 {1,S} {3,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80639,0.0181971,2.73777e-05,-5.87001e-08,2.97165e-11,11840,13.0618], Tmin=(10,'K'), Tmax=(700.763,'K')),
+            NASAPolynomial(coeffs=[3.77613,0.0287461,-1.74135e-05,5.04177e-09,-5.61883e-13,11589.4,11.3792], Tmin=(700.763,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 27.67 kcal/mol
+S298: 81.33 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.51425 -0.03800 -0.03075
+O -2.40957 -0.67564 0.51469
+C -1.36187 -0.14903 -0.35050
+C -2.72015 0.43743 -0.30646
+C -0.24365 0.50529 0.30651
+H -1.11558 -0.79883 -1.18695
+H -2.87822 1.38159 0.21451
+H -3.40131 0.24636 -1.13580
+H -0.37290 1.14385 1.16978
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 56.4,214.6,317.0,333.4,463.4,718.9,749.9,862.5,945.6,1081.8,1145.0,1154.6,1181.7,1214.6,1260.8,1410.6,1517.6,3071.1,3143.1,3160.4,3224.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1925,
+    label = "OC1(Br)C(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {6,S} {10,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+7  C  u0 p0 c0 {2,S} {6,S} {8,S} {9,S}
+8  C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.14836,0.0778176,-0.000142382,1.40851e-07,-5.60567e-11,-2106.2,17.4479], Tmin=(10,'K'), Tmax=(608.067,'K')),
+            NASAPolynomial(coeffs=[10.7058,0.0281027,-1.97436e-05,6.39361e-09,-7.75809e-13,-3025.29,-15.253], Tmin=(608.067,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 2.55 kcal/mol
+S298: 106.08 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.26215 -1.41912 0.35400
+Br -2.23784 -1.35490 -0.74888
+Br 1.24161 1.67869 -0.99978
+Br -1.22515 1.59494 1.02852
+O -0.19482 -1.25189 1.65873
+C 0.41100 -0.80357 0.53311
+C -0.43285 -0.72237 -0.70793
+C 0.00610 0.56614 -0.03055
+H 0.06106 -0.92516 -1.64936
+H 0.16509 -0.78758 2.42671
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 71.0,88.8,100.2,137.0,163.8,170.0,211.3,253.4,323.2,360.9,438.7,572.9,592.0,719.9,797.6,864.1,897.0,1054.3,1138.4,1242.5,1252.5,1398.2,3203.2,3765.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1926,
+    label = "CC1(Br)[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+4 C  u0 p0 c0 {2,S} {5,D} {9,S}
+5 C  u1 p0 c0 {2,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88046,0.00838264,0.000124951,-3.23391e-07,2.50951e-10,55787.8,12.3161], Tmin=(10,'K'), Tmax=(435.647,'K')),
+            NASAPolynomial(coeffs=[3.85831,0.0293403,-1.86693e-05,5.74467e-09,-6.80761e-13,55592.8,10.1442], Tmin=(435.647,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 115.06 kcal/mol
+S298: 79.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.10718 -0.07454 0.00717
+C -0.86667 0.11938 -0.08583
+C -1.25086 1.56790 0.06049
+C -1.69806 -1.05924 0.48764
+C -1.64730 -0.91380 -0.79205
+H -0.81275 2.16249 -0.74705
+H -2.33945 1.66298 0.01834
+H -0.88884 1.97693 1.00853
+H -1.93268 -1.47885 1.44785
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 195.7,251.2,293.6,311.0,365.9,489.2,720.2,722.4,836.4,923.5,1051.9,1078.7,1206.3,1402.8,1470.3,1477.1,1726.7,3035.9,3107.9,3120.1,3336.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1927,
+    label = "BrCC1DC(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+5  C  u0 p0 c0 {3,S} {4,S} {6,D}
+6  C  u0 p0 c0 {2,S} {3,S} {5,D}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5799,0.042967,-8.33767e-05,1.68318e-07,-1.44065e-10,32583.7,14.6692], Tmin=(10,'K'), Tmax=(376.433,'K')),
+            NASAPolynomial(coeffs=[3.54974,0.0355676,-2.31297e-05,7.13992e-09,-8.40845e-13,32640.7,15.5118], Tmin=(376.433,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.73 kcal/mol
+S298: 90.15 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.25443 -0.55644 -0.00000
+Br 2.18939 -0.68811 -0.00000
+C 1.09793 2.30411 -0.00003
+C -1.53981 1.28327 -0.00000
+C -0.08004 1.31804 0.00006
+C 1.10751 0.81530 0.00004
+H 1.33637 2.85131 -0.91535
+H 1.33649 2.85136 0.91522
+H -1.95493 1.76626 0.88674
+H -1.95483 1.76623 -0.88681
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.9,54.8,179.0,244.3,336.4,418.8,434.3,637.5,791.3,864.1,975.4,1036.4,1072.0,1092.9,1164.2,1167.8,1244.7,1458.8,1525.9,1929.7,3036.6,3074.7,3106.5,3124.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1928,
+    label = "BrC1D[C]CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,D}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88941,0.0130203,2.30536e-05,-4.60103e-08,2.19859e-11,40174.9,11.7136], Tmin=(10,'K'), Tmax=(759.77,'K')),
+            NASAPolynomial(coeffs=[4.4874,0.0204807,-1.262e-05,3.66974e-09,-4.0838e-13,39777.8,6.97792], Tmin=(759.77,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 83.53 kcal/mol
+S298: 76.33 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.28775 -0.00572 -0.00001
+O -1.40324 -0.93408 0.00005
+C -2.53976 0.01544 0.00005
+C -0.55351 0.18353 -0.00002
+C -1.50251 1.11569 -0.00010
+H -3.13523 -0.10754 0.90628
+H -3.13535 -0.10768 -0.90608
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 80.5,280.5,393.9,408.6,822.8,935.4,945.9,981.3,1088.2,1092.0,1257.1,1474.9,1634.6,3081.5,3151.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1929,
+    label = "BrC1CC(Br)O1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  O  u0 p2 c0 {5,S} {6,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78617,0.0217779,3.1287e-05,-6.71803e-08,3.32273e-11,-10775.7,14.095], Tmin=(10,'K'), Tmax=(733.403,'K')),
+            NASAPolynomial(coeffs=[4.39885,0.032634,-1.99545e-05,5.79424e-09,-6.4563e-13,-11247.5,8.72595], Tmin=(733.403,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -16.93 kcal/mol
+S298: 85.48 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.18519 -0.50039 0.02256
+Br 2.18519 -0.50039 0.02256
+O 0.00000 0.95243 -1.09062
+C 0.00000 1.28413 1.00884
+C -1.02397 1.09132 -0.11940
+C 1.02397 1.09132 -0.11940
+H 0.00000 0.52091 1.78257
+H 0.00000 2.27987 1.45639
+H -1.70850 1.90331 -0.35676
+H 1.70850 1.90331 -0.35676
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 38.5,261.4,277.8,283.1,284.9,536.0,575.4,871.6,926.2,938.9,1001.0,1010.3,1083.9,1102.7,1234.9,1254.7,1268.5,1279.9,1318.0,1468.7,3091.8,3128.1,3132.0,3176.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1930,
+    label = "Br[CH]C1CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {3,S} {5,D} {8,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 C  u1 p0 c0 {2,S} {3,S} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.64507,0.0314268,4.1944e-05,-2.09726e-07,2.03524e-10,53289.9,15.7835], Tmin=(10,'K'), Tmax=(402.803,'K')),
+            NASAPolynomial(coeffs=[5.63974,0.0299255,-2.06375e-05,6.68029e-09,-8.15959e-13,52980.7,6.13063], Tmin=(402.803,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 110.93 kcal/mol
+S298: 92.06 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.29828 -0.45398 -0.07376
+Br 2.18086 -0.53491 0.11122
+C 0.19521 1.54021 -0.45019
+C -0.32018 1.57415 1.00480
+C -0.95668 0.80659 0.19021
+C 1.45311 0.91287 -0.83129
+H -0.03570 2.39090 -1.09709
+H -0.12271 1.97643 1.98225
+H 2.03942 1.24071 -1.67770
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 39.4,122.6,188.4,266.7,274.4,416.0,451.5,554.5,680.1,732.4,768.0,950.4,1004.3,1039.9,1151.7,1263.6,1356.8,1791.6,3062.8,3233.1,3302.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1931,
+    label = "OC1C(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {5,S} {10,S}
+5  C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {9,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.37717,0.0568733,-7.79899e-05,6.16142e-08,-2.04918e-11,-4882.37,15.9713], Tmin=(10,'K'), Tmax=(702.784,'K')),
+            NASAPolynomial(coeffs=[8.20447,0.0293978,-1.93465e-05,5.98403e-09,-7.02421e-13,-5560.87,-5.615], Tmin=(702.784,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -3.83 kcal/mol
+S298: 97.77 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.35374 -0.52982 -0.49910
+Br -0.34920 1.73943 -0.19061
+Br -2.27761 -0.84357 -0.25441
+O 0.86272 0.14677 2.31662
+C 0.12786 -0.65697 1.48246
+C 0.61683 -1.08169 0.10701
+C -0.54742 -0.12162 0.22789
+H -0.42763 -1.39558 2.05204
+H 0.39575 -2.08124 -0.24502
+H 1.50378 0.65322 1.80005
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 89.3,101.9,143.5,165.7,170.7,218.1,260.9,425.0,489.9,502.7,697.5,741.1,863.8,887.1,1035.9,1098.4,1123.9,1221.6,1257.1,1328.2,1432.5,3167.1,3195.0,3763.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1932,
+    label = "BrC(Br)(Br)C1CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {8,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {9,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {6,S} {8,S} {11,S} {12,S}
+8  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+9  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.13613,0.0916583,-6.89473e-05,-4.98528e-07,1.04845e-09,18020.5,18.727], Tmin=(10,'K'), Tmax=(264.782,'K')),
+            NASAPolynomial(coeffs=[9.15922,0.0429052,-3.20291e-05,1.09526e-08,-1.39173e-12,17553.5,-5.12303], Tmin=(264.782,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.57 kcal/mol
+S298: 116.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.97342 -1.41033 -0.07766
+Br 1.95820 1.61350 0.10483
+Br -1.09915 -0.14551 1.93623
+Br -1.55527 1.62949 -0.68738
+Br -2.57959 -1.37059 -0.62893
+C 0.16739 -0.75768 -0.53807
+C 0.85521 -0.36238 -1.83075
+C 1.55626 -0.15928 -0.52260
+C -1.12766 -0.16170 -0.02914
+H 0.18055 -1.81831 -0.31009
+H 0.49766 0.53487 -2.32335
+H 1.19846 -1.14979 -2.49142
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 35.0,62.2,76.1,113.3,126.7,156.8,161.8,191.0,221.3,249.3,335.8,377.0,466.1,484.2,623.2,681.1,713.3,828.4,915.9,961.4,1029.7,1088.9,1092.6,1143.8,1264.9,1372.4,1460.3,3143.0,3167.1,3235.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1933,
+    label = "CC1(Br)[C](Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+6  C  u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+7  C  u1 p0 c0 {3,S} {4,S} {5,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.29699,0.0676357,-0.000132712,1.73687e-07,-9.60134e-11,32846.1,17.6622], Tmin=(10,'K'), Tmax=(436.9,'K')),
+            NASAPolynomial(coeffs=[6.76293,0.0359034,-2.37659e-05,7.44469e-09,-8.86873e-13,32543.2,3.81104], Tmin=(436.9,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 71.46 kcal/mol
+S298: 103.44 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.88820 -1.57470 -0.32921
+Br 2.68036 -0.32543 -0.18164
+Br -0.89008 2.31989 0.04176
+C -0.29160 -0.70665 0.49551
+C 0.74545 -0.24555 -0.55394
+C 0.04225 -1.34089 1.82392
+C -0.08684 0.67599 0.16009
+H 0.59458 -0.50010 -1.59800
+H -0.77937 -1.19046 2.52823
+H 0.20912 -2.41377 1.70224
+H 0.94753 -0.88464 2.23209
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 35.7,81.4,131.5,140.3,182.2,216.6,282.9,314.3,438.4,496.4,530.0,606.8,767.8,948.9,999.7,1075.0,1088.7,1165.1,1177.8,1405.6,1430.1,1474.1,1483.9,3049.7,3131.3,3132.4,3160.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1934,
+    label = "BrC1CCO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  O  u0 p2 c0 {4,S} {5,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96545,0.00214555,0.000104337,-1.90652e-07,1.12843e-10,-11608.8,12.3734], Tmin=(10,'K'), Tmax=(436.212,'K')),
+            NASAPolynomial(coeffs=[-0.14914,0.0398851,-2.54698e-05,7.78303e-09,-9.11835e-13,-11249.9,28.8093], Tmin=(436.212,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -19.34 kcal/mol
+S298: 77.06 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.28680 0.00049 -0.09322
+O 1.35707 -1.04752 0.22337
+C 1.48853 1.07047 0.09629
+C 0.57228 0.00033 0.70004
+C 2.18114 -0.14057 -0.56312
+H 1.02234 1.80130 -0.56061
+H 2.09770 1.57669 0.84811
+H 0.37197 -0.04482 1.76888
+H 1.99600 -0.26384 -1.63431
+H 3.24172 -0.28782 -0.34537
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 103.2,274.0,276.5,539.7,769.8,867.5,930.4,939.3,1011.2,1061.2,1079.6,1155.9,1199.4,1244.7,1258.9,1283.2,1363.0,1475.8,1519.3,3053.2,3084.8,3110.8,3128.3,3164.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1935,
+    label = "O[C]1OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 O  u0 p2 c0 {5,S} {7,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u1 p0 c0 {2,S} {3,S} {4,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89622,0.0065841,9.26128e-05,-2.16268e-07,1.46723e-10,-3163.73,12.6654], Tmin=(10,'K'), Tmax=(512.041,'K')),
+            NASAPolynomial(coeffs=[4.5615,0.0224687,-1.56781e-05,5.13206e-09,-6.32375e-13,-3508.22,7.20245], Tmin=(512.041,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -2.49 kcal/mol
+S298: 78.13 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.20396 -0.14768 -0.04093
+O 1.32779 1.08702 -0.55507
+O 2.04156 -1.08316 -0.13787
+C 0.41376 0.74994 0.50740
+C 1.72670 0.13341 0.35000
+H 0.19838 1.53014 1.22806
+H 2.14277 -1.69236 0.60375
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 142.5,283.2,330.1,467.9,536.6,658.1,766.4,888.1,1076.4,1120.3,1249.8,1270.0,1461.7,3185.2,3806.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1936,
+    label = "OC1(Br)[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {9,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+7 C  u1 p0 c0 {5,S} {6,S} {8,S}
+8 H  u0 p0 c0 {7,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42054,0.0518456,3.8694e-05,-3.9341e-07,4.72171e-10,21194.7,16.7646], Tmin=(10,'K'), Tmax=(366.667,'K')),
+            NASAPolynomial(coeffs=[9.33856,0.0267451,-2.0048e-05,6.89575e-09,-8.79923e-13,20495.5,-9.46598], Tmin=(366.667,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 48.30 kcal/mol
+S298: 101.11 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.46673 -0.20671 -0.16601
+Br -0.42597 1.86678 -0.04489
+Br -2.24629 -0.79062 -0.17146
+O 0.58176 -2.27007 -0.15026
+C 0.69454 -0.98671 0.28789
+C -0.51482 -0.02692 0.36245
+C 0.10414 -0.57050 1.53284
+H 0.20910 -0.48922 2.60158
+H 0.62710 -2.27629 -1.11621
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 67.4,97.4,142.3,153.2,177.1,236.9,306.3,350.5,377.4,406.1,534.8,566.4,666.4,852.8,896.2,1040.3,1163.5,1261.5,1429.8,3277.0,3764.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1937,
+    label = "[CH2]C1(Br)C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,S} {9,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8  C  u1 p0 c0 {5,S} {10,S} {11,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {8,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.04644,0.0885082,-0.000179948,2.03494e-07,-9.25649e-11,35629.5,18.224], Tmin=(10,'K'), Tmax=(535.16,'K')),
+            NASAPolynomial(coeffs=[10.5669,0.0322969,-2.23928e-05,7.22155e-09,-8.76219e-13,34824.6,-13.3563], Tmin=(535.16,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 77.97 kcal/mol
+S298: 110.44 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.29549 -1.38854 0.34070
+Br 2.22270 -1.38574 -0.75163
+Br -1.22717 1.67893 -0.98008
+Br 1.26671 1.58885 1.00916
+C -0.41379 -0.80026 0.57327
+C 0.41678 -0.73312 -0.68034
+C 0.00154 0.55566 -0.01160
+C 0.11267 -1.25706 1.84271
+H -0.08234 -0.93981 -1.61812
+H -0.29474 -0.86321 2.76469
+H 0.83752 -2.06051 1.87397
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 70.3,88.3,99.4,121.9,142.3,158.2,170.5,205.9,255.9,304.6,424.6,511.7,528.4,612.8,699.4,778.9,825.4,852.2,1043.8,1073.2,1117.5,1242.6,1337.8,1445.9,3162.4,3202.5,3278.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1938,
+    label = "Br[C]1CC(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5  C  u0 p0 c0 {4,S} {7,S} {9,S} {10,S}
+6  C  u0 p0 c0 {2,S} {4,S} {7,S} {11,S}
+7  C  u1 p0 c0 {3,S} {5,S} {6,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42339,0.0599019,-0.00013748,2.73844e-07,-2.31308e-10,25978.2,17.8479], Tmin=(10,'K'), Tmax=(347.669,'K')),
+            NASAPolynomial(coeffs=[4.46076,0.041276,-2.82522e-05,9.04244e-09,-1.09285e-12,25946.5,14.5207], Tmin=(347.669,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 57.38 kcal/mol
+S298: 101.46 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.85486 -0.57886 -0.22800
+Br 0.73045 2.23699 0.00962
+Br 2.36118 -1.37818 -0.17443
+C -1.21296 0.04768 0.63551
+C -0.33058 -1.08038 1.25614
+C -0.08126 0.39798 -0.36374
+C 0.67423 -0.71927 0.20356
+H -1.50774 0.85142 1.30285
+H -0.75026 -2.08814 1.18920
+H -0.02827 -0.89452 2.29468
+H -0.29715 0.45709 -1.42727
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 30.7,64.8,136.8,152.0,211.7,285.9,342.2,380.6,511.5,610.1,831.8,902.9,945.2,965.0,1060.2,1089.5,1119.9,1163.0,1185.0,1217.4,1246.8,1282.1,1454.2,3020.5,3082.7,3145.6,3165.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1939,
+    label = "[CH2]C1(Br)OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u1 p0 c0 {4,S} {6,S} {7,S}
+6 H  u0 p0 c0 {5,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85089,0.00994694,0.000106369,-2.85037e-07,2.13896e-10,17647.9,11.7243], Tmin=(10,'K'), Tmax=(479.968,'K')),
+            NASAPolynomial(coeffs=[5.95158,0.0205339,-1.45164e-05,4.82334e-09,-6.03336e-13,17122.6,-0.239336], Tmin=(479.968,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.18 kcal/mol
+S298: 78.01 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.12437 -0.03507 0.00010
+O 1.49195 -0.80065 -0.74992
+O 1.49209 -0.80080 0.74949
+C 0.81042 0.14435 -0.00005
+C 1.27948 1.52327 0.00005
+H 2.35126 1.68031 0.00005
+H 0.59004 2.35308 0.00007
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 154.7,294.3,313.1,320.3,427.3,551.2,588.8,773.6,807.9,995.6,1131.8,1328.3,1436.8,3173.8,3309.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1940,
+    label = "C[C]1OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5 C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6 C  u1 p0 c0 {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68754,0.0297336,9.55419e-05,-5.04488e-07,6.35337e-10,15932.7,14.7127], Tmin=(10,'K'), Tmax=(300.321,'K')),
+            NASAPolynomial(coeffs=[5.36458,0.0302128,-2.08091e-05,6.76219e-09,-8.31118e-13,15729.1,6.92624], Tmin=(300.321,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.76 kcal/mol
+S298: 90.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.12580 -1.23921 -0.02415
+Br 1.83223 0.02278 -0.11791
+O -0.39834 1.19048 1.24538
+C -0.05018 0.36684 0.14258
+C -1.85393 2.26241 -0.56800
+C -0.59762 1.67106 -0.05643
+H -2.70365 1.58526 -0.40093
+H -2.05874 3.20852 -0.05909
+H -1.76552 2.45573 -1.63976
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 118.2,131.2,163.0,194.1,281.1,350.7,426.7,444.6,695.3,718.3,927.5,970.6,1043.4,1134.1,1391.9,1463.3,1467.0,1502.8,3004.2,3092.7,3129.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1941,
+    label = "BrC1C[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {2,S}
+2  C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3  C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+4  C  u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
+5  C  u1 p0 c0 {3,S} {4,S} {11,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.95896,0.00304419,0.000150572,-3.49346e-07,2.69604e-10,25745.9,12.3449], Tmin=(10,'K'), Tmax=(330.214,'K')),
+            NASAPolynomial(coeffs=[0.742307,0.0420086,-2.64243e-05,7.98898e-09,-9.28807e-13,25958.4,24.2993], Tmin=(330.214,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 55.30 kcal/mol
+S298: 79.37 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.31455 0.00000 -0.05995
+C 0.55939 0.00000 0.54101
+C 1.49412 1.10302 -0.02454
+C 1.49412 -1.10302 -0.02454
+C 2.48903 0.00000 -0.25296
+H 0.50569 0.00000 1.62722
+H 1.75739 1.91455 0.66394
+H 1.10405 1.55932 -0.94521
+H 1.10405 -1.55932 -0.94521
+H 1.75739 -1.91455 0.66394
+H 3.56059 0.00000 -0.40033
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 105.8,209.7,255.9,296.1,492.0,775.8,792.1,887.5,949.7,962.7,996.9,1033.4,1060.1,1112.5,1205.3,1235.3,1245.6,1280.7,1292.1,1451.8,1469.2,2994.9,2999.5,3044.7,3047.9,3138.5,3217.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1942,
+    label = "Br[C]1OC(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,D}
+6 C  u1 p0 c0 {2,S} {4,S} {5,S}
+7 C  u0 p0 c0 {3,S} {4,S} {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.4351,0.0549172,-0.000102538,1.01562e-07,-4.048e-11,32105.5,16.6336], Tmin=(10,'K'), Tmax=(605.552,'K')),
+            NASAPolynomial(coeffs=[8.79384,0.0195199,-1.48565e-05,5.03117e-09,-6.27712e-13,31456.5,-6.53127], Tmin=(605.552,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.24 kcal/mol
+S298: 97.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.00000 2.26498 0.00000
+Br -2.75162 -0.87552 0.00885
+Br 2.75162 -0.87552 -0.00886
+O -0.00000 -1.65221 0.00001
+C -0.00000 0.41697 0.00001
+C -0.94029 -0.60602 -0.15115
+C 0.94030 -0.60602 0.15117
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 56.2,80.2,109.1,209.2,241.8,286.0,416.1,431.0,513.9,575.0,794.3,1057.3,1152.5,1159.5,1548.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1943,
+    label = "[CH]DC1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+7 C  u0 p0 c0 {5,S} {6,S} {8,D}
+8 C  u1 p0 c0 {7,D} {9,S}
+9 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.08867,0.0809437,-0.000157625,1.56757e-07,-6.14274e-11,62659.1,17.5208], Tmin=(10,'K'), Tmax=(622.988,'K')),
+            NASAPolynomial(coeffs=[12.2439,0.0221611,-1.60916e-05,5.29965e-09,-6.4898e-13,61518.4,-22.3153], Tmin=(622.988,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 131.28 kcal/mol
+S298: 106.32 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.73268 1.59611 -0.24408
+Br 1.73268 -1.59611 -0.24407
+Br -1.73980 -1.59717 -0.22716
+Br -1.73980 1.59717 -0.22717
+C 0.76651 0.00000 0.25654
+C -0.76764 0.00000 0.27360
+C -0.00631 0.00000 1.53492
+C -0.01607 0.00002 2.82038
+H 0.63916 0.00002 3.67415
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 54.4,95.6,123.9,133.3,153.0,175.5,184.1,196.3,308.7,449.0,483.9,542.6,670.2,730.1,747.5,780.9,789.1,870.2,1116.1,1751.6,3303.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1944,
+    label = "BrC(Br)DC1C(Br)DC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {6,S} {7,S} {8,D}
+6 C  u0 p0 c0 {1,S} {5,S} {7,D}
+7 C  u0 p0 c0 {2,S} {5,S} {6,D}
+8 C  u0 p0 c0 {3,S} {4,S} {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.11176,0.0888925,-0.000253411,3.81306e-07,-2.24944e-10,55288.6,17.2821], Tmin=(10,'K'), Tmax=(418.31,'K')),
+            NASAPolynomial(coeffs=[9.97505,0.0232638,-1.80762e-05,6.2494e-09,-7.94205e-13,54714.4,-9.84775], Tmin=(418.31,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 116.40 kcal/mol
+S298: 105.66 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.20578 -2.24151 0.00000
+Br -2.20580 2.24150 0.00000
+Br 2.31073 1.62162 -0.00000
+Br 2.31075 -1.62160 -0.00000
+C 0.00677 -0.00001 0.00000
+C -1.27825 -0.65927 0.00000
+C -1.27826 0.65926 0.00000
+C 1.32529 0.00000 -0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 45.0,47.4,76.1,99.9,152.9,154.6,250.4,261.9,454.8,473.9,492.1,573.9,592.8,813.6,1014.9,1053.6,1653.7,1906.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1945,
+    label = "BrC1DCC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,D}
+4 C  u0 p0 c0 {2,S} {3,D} {7,S}
+5 H  u0 p0 c0 {2,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.95765,0.00251768,6.80232e-05,-1.28192e-07,7.47404e-11,35035.3,9.95219], Tmin=(10,'K'), Tmax=(543.534,'K')),
+            NASAPolynomial(coeffs=[2.32781,0.0236062,-1.52723e-05,4.75611e-09,-5.68279e-13,35078.1,15.5858], Tmin=(543.534,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 72.95 kcal/mol
+S298: 70.12 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.02805 -0.01798 0.00001
+C -2.08997 -0.69692 -0.00001
+C -0.82238 0.08548 -0.00001
+C -1.88210 0.81858 -0.00002
+H -2.42143 -1.19413 0.91405
+H -2.42142 -1.19414 -0.91407
+H -2.37231 1.77457 -0.00004
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 283.8,295.0,435.9,751.1,821.8,989.0,991.9,1079.9,1110.1,1181.9,1524.8,1801.3,3043.6,3112.3,3313.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1946,
+    label = "BrCDC1CO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u0 p0 c0 {1,S} {4,D} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92445,0.00503223,9.89537e-05,-2.24126e-07,1.55902e-10,9310.48,11.3152], Tmin=(10,'K'), Tmax=(465.918,'K')),
+            NASAPolynomial(coeffs=[2.81343,0.0280226,-1.83709e-05,5.71843e-09,-6.77749e-13,9268,14.2598], Tmin=(465.918,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 22.27 kcal/mol
+S298: 75.31 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.40180 -0.09609 -0.00003
+O 1.93421 -0.95336 0.00006
+C 2.83001 0.22414 0.00006
+C 1.39458 0.28016 0.00003
+C 0.22561 0.88044 -0.00000
+H 3.38462 0.36396 0.92463
+H 3.38465 0.36395 -0.92449
+H 0.11878 1.95352 -0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 139.9,195.9,396.9,454.8,710.2,726.8,770.8,999.6,1022.4,1065.6,1095.2,1197.7,1256.5,1500.5,1882.3,3105.2,3201.9,3254.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1947,
+    label = "OC1(Br)O[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+6 C  u1 p0 c0 {2,S} {3,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75784,0.0178618,0.000118162,-3.97389e-07,3.4905e-10,-2171.05,15.0275], Tmin=(10,'K'), Tmax=(426.095,'K')),
+            NASAPolynomial(coeffs=[7.17985,0.0208248,-1.5789e-05,5.44929e-09,-6.95203e-13,-2781.19,-2.30011], Tmin=(426.095,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 0.33 kcal/mol
+S298: 87.81 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.67719 -0.79587 0.02618
+Br 2.08485 -0.28619 -0.10580
+O -0.02481 1.21971 1.15471
+O -1.43532 1.86736 -0.70105
+C -0.73649 0.89647 -0.09280
+C 0.69770 0.99202 0.01932
+H -2.35408 1.84470 -0.40163
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 82.3,188.3,297.0,309.6,344.5,391.5,475.6,554.1,632.7,684.4,1022.7,1180.1,1274.5,1506.7,3772.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1948,
+    label = "OC1CDC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,S} {8,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87025,0.00964475,0.00010436,-2.86968e-07,2.32555e-10,13279.4,12.0916], Tmin=(10,'K'), Tmax=(419.525,'K')),
+            NASAPolynomial(coeffs=[3.94556,0.0263266,-1.74987e-05,5.53989e-09,-6.6716e-13,13120,9.96878], Tmin=(419.525,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.45 kcal/mol
+S298: 78.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.36722 -0.12750 -0.01552
+O 2.53896 -0.83034 -0.36042
+C 1.80164 0.03689 0.45835
+C 1.30350 1.30618 -0.16367
+C 0.41150 0.40039 0.09952
+H 2.12594 0.01639 1.50257
+H 1.58412 2.25687 -0.58278
+H 2.73110 -1.62885 0.14157
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 141.1,172.1,284.7,419.2,461.2,588.3,777.8,862.0,1010.0,1010.4,1055.3,1191.9,1296.9,1416.3,1764.4,3054.2,3289.3,3816.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1949,
+    label = "BrCC1DCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  Br u0 p3 c0 {5,S}
+4  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+5  C  u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {4,S} {5,S} {7,D}
+7  C  u0 p0 c0 {4,S} {6,D} {10,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.40963,0.0583138,-9.71834e-05,1.05993e-07,-5.00772e-11,32406.1,17.3911], Tmin=(10,'K'), Tmax=(501.109,'K')),
+            NASAPolynomial(coeffs=[6.51065,0.0335606,-2.30881e-05,7.41785e-09,-8.98723e-13,32095.3,4.57306], Tmin=(501.109,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.23 kcal/mol
+S298: 100.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.30886 -1.05041 -0.39317
+Br -0.83712 1.79155 -0.00657
+Br 2.92715 -0.10955 -0.28839
+C -0.82613 -0.10605 0.51341
+C 1.60397 -1.46176 0.28861
+C 0.40659 -0.81565 0.82871
+C -0.38329 -0.52177 1.83213
+H 2.10672 -2.07962 1.03004
+H 1.37148 -2.04273 -0.60328
+H -0.62564 -0.55172 2.88069
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 27.6,51.0,120.7,167.1,207.3,274.4,352.7,438.7,450.9,581.7,674.8,800.5,828.0,885.5,987.8,1104.7,1154.4,1222.3,1238.4,1467.3,1814.7,3101.9,3170.8,3290.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1950,
+    label = "BrC(Br)C1(Br)OC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {6,S} {7,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+7  C  u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
+8  C  u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.23585,0.0781544,-0.000175565,2.39851e-07,-1.3497e-10,-3005.16,17.9214], Tmin=(10,'K'), Tmax=(431.598,'K')),
+            NASAPolynomial(coeffs=[7.88134,0.0351005,-2.5933e-05,8.72268e-09,-1.09021e-12,-3406.16,-0.58697], Tmin=(431.598,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 0.58 kcal/mol
+S298: 106.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.92282 2.05954 0.65094
+Br 2.99340 -0.37646 -0.28578
+Br -1.95113 -0.73786 -1.39864
+Br -0.64009 -1.41911 1.48869
+O 0.85223 1.18585 -1.38046
+C 0.20326 0.73870 -0.20769
+C 1.64784 1.00840 -0.23355
+C -0.35425 -0.66391 -0.28310
+H 2.04842 1.90532 0.22666
+H 0.37474 -1.30528 -0.76913
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.2,75.8,103.1,110.0,135.6,175.0,221.3,316.4,391.6,445.6,529.0,673.4,701.3,720.9,808.5,943.0,1039.7,1148.6,1160.5,1229.1,1278.4,1381.1,3165.7,3178.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1951,
+    label = "BrC1(Br)O[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6 C  u1 p0 c0 {3,S} {4,S} {7,S}
+7 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75201,0.019904,5.96074e-05,-2.00176e-07,1.62644e-10,-1278.75,13.8917], Tmin=(10,'K'), Tmax=(459.788,'K')),
+            NASAPolynomial(coeffs=[5.63872,0.0234719,-1.72205e-05,5.7387e-09,-7.10802e-13,-1663.45,3.95849], Tmin=(459.788,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 1.85 kcal/mol
+S298: 84.26 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.58726 -0.66570 0.00001
+Br -1.62533 -0.58851 -0.00001
+O 0.02715 1.45429 -1.01781
+O 0.02713 1.45430 1.01780
+C -0.00806 0.49562 -0.00000
+C 0.02835 2.40856 -0.00001
+H 0.77640 3.20339 -0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 161.4,169.4,245.1,302.8,331.5,345.1,773.6,922.5,957.0,978.4,1030.3,1047.6,1189.0,1253.2,3106.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1952,
+    label = "BrC1DC(Br)OC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {3,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73461,0.0223804,2.97897e-05,-1.01706e-07,7.35985e-11,9171.43,13.6514], Tmin=(10,'K'), Tmax=(513.956,'K')),
+            NASAPolynomial(coeffs=[4.70126,0.0268219,-1.80928e-05,5.69884e-09,-6.7855e-13,8914.04,8.09396], Tmin=(513.956,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 22.60 kcal/mol
+S298: 83.80 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.07844 -0.57730 0.00008
+Br -2.03041 -0.61491 -0.00018
+O -0.89301 1.98120 0.00011
+C 0.57622 2.15323 0.00023
+C 0.68748 0.64522 0.00010
+C -0.65089 0.62285 0.00001
+H 0.89324 2.67497 -0.90495
+H 0.89310 2.67479 0.90557
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 97.3,197.3,230.5,308.6,395.1,472.0,553.5,876.0,978.6,996.3,1079.3,1098.4,1159.7,1284.6,1480.5,1673.0,3074.5,3144.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1953,
+    label = "BrC1C[C]1C(Br)(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {5,S} {8,S} {10,S} {11,S}
+7  C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+8  C  u1 p0 c0 {5,S} {6,S} {7,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.06653,0.0927619,-0.000233156,3.46219e-07,-2.07217e-10,39040.9,19.4085], Tmin=(10,'K'), Tmax=(409.613,'K')),
+            NASAPolynomial(coeffs=[8.87085,0.0360808,-2.55909e-05,8.39542e-09,-1.03246e-12,38565.4,-3.41344], Tmin=(409.613,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 84.66 kcal/mol
+S298: 112.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.41569 0.03836 0.12080
+Br 1.87120 0.33542 1.62681
+Br 0.49103 1.67497 -0.95139
+Br 1.64647 -1.34332 -1.13112
+C -1.78590 -1.01136 -0.08349
+C -1.15380 -1.66468 1.14467
+C 0.71826 0.02431 0.07181
+C -0.54743 -0.51612 0.47106
+H -1.80244 -1.53252 -1.03464
+H -0.70428 -2.65014 1.02525
+H -1.63504 -1.50029 2.10668
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.5,48.6,84.1,110.6,143.9,153.5,193.8,265.7,285.8,332.7,412.8,493.9,536.6,692.9,773.3,901.8,953.8,1029.1,1039.6,1066.2,1097.8,1207.0,1425.3,1482.1,3086.1,3164.4,3172.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1954,
+    label = "[CH]DC1C(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u1 p0 c0 {6,D} {9,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.44182,0.0498551,-2.09688e-05,-1.05475e-07,1.28544e-10,58412.2,16.7749], Tmin=(10,'K'), Tmax=(435.328,'K')),
+            NASAPolynomial(coeffs=[8.11798,0.0283047,-2.05074e-05,6.82804e-09,-8.48046e-13,57802.1,-4.22677], Tmin=(435.328,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 121.85 kcal/mol
+S298: 98.63 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.45446 -0.38128 -0.43249
+Br 2.19536 -0.78023 -0.49126
+Br 0.33830 1.78252 0.12186
+C -0.69430 -1.03758 0.00645
+C 0.50306 -0.13090 0.20625
+C -0.11211 -0.86279 1.35208
+C -0.13784 -1.11418 2.61156
+H -0.51076 -1.96952 -0.51774
+H 0.38580 -0.89311 3.52583
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 81.1,101.0,134.3,163.5,165.4,236.7,392.6,433.8,481.9,653.6,670.8,737.0,764.5,803.2,863.7,1055.5,1133.5,1213.3,1770.0,3168.8,3298.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1955,
+    label = "BrCC1(Br)[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+6  C  u1 p0 c0 {3,S} {4,S} {11,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71121,0.0251583,8.69317e-05,-2.76297e-07,2.35923e-10,32807.3,15.2841], Tmin=(10,'K'), Tmax=(402.661,'K')),
+            NASAPolynomial(coeffs=[3.81576,0.0398467,-2.63718e-05,8.29251e-09,-9.92406e-13,32671.3,13.2917], Tmin=(402.661,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.27 kcal/mol
+S298: 91.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.61382 -0.89301 -0.01827
+Br 2.04635 -0.25905 -0.11224
+C -0.65103 0.81260 0.19214
+C -0.81634 1.83455 -0.92850
+C 0.64525 0.66511 0.93305
+C -1.47196 1.99647 0.37086
+H -1.41120 1.53313 -1.78799
+H 0.04579 2.45126 -1.18679
+H 0.53263 0.08746 1.84820
+H 1.06366 1.64618 1.15924
+H -1.60471 2.75170 1.12998
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 63.3,121.7,238.3,268.1,289.8,378.2,421.9,493.1,633.4,791.4,866.0,901.9,936.4,959.7,1063.1,1069.8,1140.1,1185.0,1248.6,1337.8,1450.1,1461.3,3076.3,3095.1,3157.2,3168.4,3245.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1956,
+    label = "ODC1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {7,S}
+5 O  u0 p2 c0 {8,D}
+6 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+7 C  u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
+8 C  u0 p0 c0 {5,D} {6,S} {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.11767,0.0874717,-0.000228625,3.11712e-07,-1.67004e-10,16666.6,16.4589], Tmin=(10,'K'), Tmax=(459.331,'K')),
+            NASAPolynomial(coeffs=[10.5154,0.0230494,-1.82454e-05,6.36823e-09,-8.13516e-13,15987,-13.4756], Tmin=(459.331,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.74 kcal/mol
+S298: 104.44 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.74050 1.60651 -0.23937
+Br 1.74055 -1.60645 -0.23938
+Br -1.74051 -1.60650 -0.23935
+Br -1.74057 1.60647 -0.23920
+O 0.00008 -0.00006 2.69087
+C 0.79508 0.00001 0.24474
+C -0.79507 -0.00003 0.24479
+C 0.00004 -0.00003 1.50686
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 28.2,90.4,121.2,124.2,146.1,159.3,175.5,205.8,296.9,494.3,563.5,668.0,737.7,755.3,765.0,944.9,1060.7,1950.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1957,
+    label = "BrC1CC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.60199,0.0347268,-2.45377e-06,-5.82482e-08,5.03978e-11,14231.4,15.5856], Tmin=(10,'K'), Tmax=(524.734,'K')),
+            NASAPolynomial(coeffs=[5.94323,0.0287263,-1.9165e-05,6.00725e-09,-7.13557e-13,13822.6,4.24618], Tmin=(524.734,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 33.25 kcal/mol
+S298: 91.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.44080 -0.47862 -0.24544
+Br -0.32260 1.75349 -0.00369
+Br -2.18636 -0.85418 -0.25501
+C 0.68241 -1.05478 0.26875
+C 0.09706 -0.69121 1.61189
+C -0.49646 -0.12622 0.35111
+H 0.48726 -2.04202 -0.12838
+H 0.65443 0.00351 2.23004
+H -0.45432 -1.45247 2.15298
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 94.2,116.7,170.9,206.7,343.6,374.7,432.5,597.4,663.7,893.6,930.2,949.1,1046.2,1087.0,1124.3,1232.3,1289.5,1456.3,3138.4,3201.8,3231.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1958,
+    label = "CC1(Br)CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {2,S}
+2  C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3  C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4  C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+5  C  u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+12 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93427,0.00421148,0.00013844,-2.784e-07,1.78399e-10,2332.51,11.0755], Tmin=(10,'K'), Tmax=(473.228,'K')),
+            NASAPolynomial(coeffs=[0.543046,0.0447171,-2.74846e-05,8.2237e-09,-9.53804e-13,2520.89,23.498], Tmin=(473.228,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 8.84 kcal/mol
+S298: 77.08 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.17519 -0.06217 0.00010
+C -0.76808 0.16788 -0.00007
+C -1.56277 -0.85334 -0.75840
+C -1.56288 -0.85320 0.75832
+C -1.16441 1.62300 -0.00024
+H -2.44660 -0.50172 -1.28167
+H -1.03180 -1.65329 -1.25926
+H -2.44680 -0.50147 1.28139
+H -1.03199 -1.65304 1.25942
+H -2.25742 1.70372 -0.00034
+H -0.78402 2.13776 -0.88703
+H -0.78416 2.13793 0.88650
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 236.8,264.0,287.5,297.0,377.8,471.4,766.6,801.8,877.3,939.9,942.1,1038.2,1068.9,1085.8,1129.2,1181.6,1205.7,1333.9,1417.2,1459.4,1478.5,1491.7,1498.7,3030.4,3100.3,3114.3,3131.2,3134.5,3219.2,3231.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1959,
+    label = "BrC1DCOC1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u0 p0 c0 {2,S} {4,D} {8,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94639,0.00321636,8.62448e-05,-1.64989e-07,9.74975e-11,7648.65,10.9873], Tmin=(10,'K'), Tmax=(535.939,'K')),
+            NASAPolynomial(coeffs=[1.91633,0.0297009,-1.96005e-05,6.13113e-09,-7.30234e-13,7703.49,17.9964], Tmin=(535.939,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 18.78 kcal/mol
+S298: 73.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.34644 -0.00556 -0.00004
+O 2.56490 0.13242 0.00007
+C 1.61090 -0.98995 0.00011
+C 0.51423 0.04936 -0.00000
+C 1.46892 0.98476 -0.00002
+H 1.72756 -1.59420 0.90253
+H 1.72764 -1.59434 -0.90219
+H 1.58668 2.05856 -0.00007
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 224.9,258.7,388.7,421.9,862.9,883.9,952.8,1005.6,1007.9,1105.8,1156.6,1225.6,1304.5,1480.6,1653.5,3072.1,3137.3,3253.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1960,
+    label = "Br[C](Br)C1CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6 C  u1 p0 c0 {1,S} {2,S} {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.61318,0.0401656,-6.84089e-05,1.23828e-07,-1.06554e-10,13764.7,15.1959], Tmin=(10,'K'), Tmax=(336.672,'K')),
+            NASAPolynomial(coeffs=[3.98945,0.03278,-2.25152e-05,7.23229e-09,-8.76891e-13,13755.9,14.0357], Tmin=(336.672,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 32.22 kcal/mol
+S298: 90.61 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.89573 0.22005 0.02985
+Br -0.91125 -1.36856 0.01982
+O -2.00139 1.55915 -0.66060
+C -0.65512 1.52181 -0.20011
+C -1.77641 1.82969 0.72104
+C 0.03791 0.22362 -0.24839
+H -0.02713 2.35005 -0.52854
+H -1.93382 2.86175 1.03065
+H -2.12295 1.06216 1.40907
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 57.9,145.0,157.2,177.7,317.2,430.8,502.2,811.5,841.7,851.5,962.8,1080.3,1127.6,1156.9,1165.7,1266.8,1381.7,1508.9,3088.8,3113.8,3188.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1961,
+    label = "Br[C]1CC1C(Br)(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {5,S} {8,S} {10,S} {11,S}
+7  C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+8  C  u1 p0 c0 {4,S} {5,S} {6,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.16717,0.0820014,-0.000170945,2.14658e-07,-1.10977e-10,38482.7,18.742], Tmin=(10,'K'), Tmax=(468.815,'K')),
+            NASAPolynomial(coeffs=[8.47778,0.0366908,-2.59724e-05,8.50438e-09,-1.04399e-12,37984.8,-2.8556], Tmin=(468.815,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 83.32 kcal/mol
+S298: 109.91 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.82725 1.93952 0.26558
+Br -0.87530 -0.95475 1.61797
+Br -2.29703 -0.49427 -1.21316
+Br 3.46750 0.09207 -0.21673
+C 0.51980 -0.30484 -0.83678
+C 1.11829 -1.72644 -0.91019
+C -0.75564 0.00214 -0.08842
+C 1.76725 -0.65808 -0.14774
+H 0.58560 0.28526 -1.74888
+H 1.51965 -2.03320 -1.87363
+H 0.61912 -2.51826 -0.35648
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 38.0,52.5,123.0,131.9,161.5,167.1,216.2,248.2,280.2,355.8,457.2,526.5,668.5,691.1,809.2,905.9,960.6,1029.9,1055.0,1078.1,1106.5,1257.7,1372.2,1453.7,3100.8,3129.8,3182.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1962,
+    label = "BrC(Br)DC1OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {5,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u0 p0 c0 {1,S} {2,S} {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69119,0.0262736,5.13263e-05,-2.85084e-07,3.06678e-10,20906.9,12.869], Tmin=(10,'K'), Tmax=(378.411,'K')),
+            NASAPolynomial(coeffs=[6.88741,0.0175853,-1.37181e-05,4.77524e-09,-6.10969e-13,20485.3,-1.81912], Tmin=(378.411,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 46.12 kcal/mol
+S298: 83.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.63641 -0.73890 0.00000
+Br -1.63641 -0.73889 0.00000
+O -0.77665 2.59275 0.00000
+O 0.77666 2.59274 0.00000
+C 0.00000 1.51086 0.00000
+C 0.00000 0.19560 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 109.8,159.0,194.3,244.0,335.7,441.9,505.5,743.0,839.5,1072.0,1156.6,1913.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1963,
+    label = "BrCC1(Br)[CH]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+7  C  u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
+8  C  u1 p0 c0 {5,S} {6,S} {11,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.09839,0.0849824,-0.000168647,1.90061e-07,-8.69156e-11,38496.3,18.9916], Tmin=(10,'K'), Tmax=(530.487,'K')),
+            NASAPolynomial(coeffs=[9.90851,0.0336323,-2.34496e-05,7.59066e-09,-9.23459e-13,37773.8,-9.54593], Tmin=(530.487,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 83.54 kcal/mol
+S298: 111.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.06415 2.11165 0.23887
+Br -2.12261 0.99104 -0.74862
+Br -1.43129 -1.97319 0.27579
+Br 2.39818 -1.12259 -0.64381
+C 0.39502 0.36589 0.86425
+C -1.03746 -0.05269 0.47225
+C 1.51937 -0.62936 1.03922
+C -0.72788 0.42475 1.77651
+H 1.13756 -1.55748 1.45903
+H 2.29541 -0.21367 1.67941
+H -1.12221 0.87756 2.67027
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 40.8,48.7,99.3,103.8,154.5,177.3,203.9,265.1,333.8,363.4,407.2,432.4,529.5,636.4,677.7,820.1,900.1,909.2,1027.1,1113.2,1189.2,1251.1,1340.4,1449.4,3109.3,3179.1,3279.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1964,
+    label = "BrC1DC(Br)C1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u0 p0 c0 {2,S} {3,S} {4,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80181,0.017483,4.34108e-05,-1.63139e-07,1.50469e-10,37473.3,12.4376], Tmin=(10,'K'), Tmax=(390.613,'K')),
+            NASAPolynomial(coeffs=[4.34036,0.0223495,-1.51431e-05,4.83619e-09,-5.85039e-13,37352,9.33191], Tmin=(390.613,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.52 kcal/mol
+S298: 79.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.24710 -0.33776 -0.00004
+Br -2.24710 -0.33776 0.00002
+C -0.00001 1.94224 0.00006
+C 0.64545 0.57619 0.00000
+C -0.64545 0.57619 0.00002
+H 0.00001 2.53768 0.91573
+H -0.00002 2.53775 -0.91556
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 105.2,165.7,331.9,374.0,433.7,577.7,900.8,972.1,1088.6,1107.7,1162.1,1524.2,1864.8,3043.6,3116.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1965,
+    label = "CC1OC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  O  u0 p2 c0 {4,S} {5,S}
+4  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6  C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.77865,0.0216286,0.000162685,-7.35082e-07,9.56985e-10,-8938.01,13.8255], Tmin=(10,'K'), Tmax=(265.715,'K')),
+            NASAPolynomial(coeffs=[4.17357,0.0351404,-2.34278e-05,7.44142e-09,-9.00327e-13,-9027.68,11.1511], Tmin=(265.715,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -12.75 kcal/mol
+S298: 88.28 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.13784 -1.21441 -0.01093
+Br -1.84259 -0.02308 -0.11964
+O 0.32194 1.20496 1.22269
+C 0.55083 1.72160 -0.13423
+C 0.04200 0.37989 0.17316
+C 1.96451 2.03803 -0.52217
+H -0.20626 2.44603 -0.43081
+H 2.03053 2.14705 -1.60954
+H 2.65365 1.25553 -0.20278
+H 2.26883 2.98674 -0.06912
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 143.1,162.1,172.7,194.6,286.5,361.0,423.1,465.4,718.9,739.5,916.2,1009.4,1048.1,1128.2,1181.8,1306.9,1408.6,1443.4,1481.3,1493.5,3044.9,3108.5,3127.3,3152.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1966,
+    label = "BrC1D[C]CC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,D}
+5 C  u1 p0 c0 {3,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94904,0.00305868,9.60153e-05,-1.79095e-07,1.04462e-10,48901.8,11.6415], Tmin=(10,'K'), Tmax=(528.789,'K')),
+            NASAPolynomial(coeffs=[1.1297,0.0346223,-2.25588e-05,7.00656e-09,-8.31535e-13,49056.8,22.0936], Tmin=(528.789,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 100.87 kcal/mol
+S298: 75.40 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.34359 -0.00168 -0.00007
+C 1.59791 0.96757 0.00003
+C 2.65612 -0.19840 0.00015
+C 0.52294 -0.11606 0.00003
+C 1.42731 -1.08876 0.00011
+H 1.62043 1.58861 0.89992
+H 1.62053 1.58850 -0.89992
+H 3.27954 -0.25222 -0.89497
+H 3.27941 -0.25215 0.89537
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 191.7,261.9,388.6,399.4,808.4,827.3,853.5,995.2,1004.6,1053.4,1061.2,1147.4,1161.3,1221.5,1460.6,1475.6,1635.1,3044.6,3069.2,3108.5,3127.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1967,
+    label = "BrC1OC(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {6,S} {7,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+7  C  u0 p0 c0 {3,S} {4,S} {5,S} {10,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.8691,0.0197778,0.000651233,-6.52763e-06,2.00921e-08,-10138,9.31693], Tmin=(10,'K'), Tmax=(112.717,'K')),
+            NASAPolynomial(coeffs=[4.23845,0.0387223,-2.74102e-05,8.98159e-09,-1.10391e-12,-10166.7,7.43808], Tmin=(112.717,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -14.72 kcal/mol
+S298: 83.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.62630 0.00000 -0.13885
+Br 1.32210 2.19058 -0.21476
+Br 1.32210 -2.19058 -0.21476
+O 0.61288 0.00000 1.45861
+C -0.68222 0.00000 -0.21809
+C 0.01439 1.02885 0.68634
+C 0.01439 -1.02885 0.68634
+H -0.39654 0.00000 -1.26397
+H -0.60635 1.69562 1.28021
+H -0.60635 -1.69562 1.28021
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 32.6,100.0,132.8,206.1,277.5,286.2,297.0,553.0,610.9,792.7,882.6,972.8,977.1,1004.5,1091.0,1163.1,1182.1,1231.5,1270.0,1273.3,1305.9,3142.9,3146.2,3185.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1968,
+    label = "Br[CH]C1CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+4  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+5  C  u1 p0 c0 {1,S} {2,S} {11,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80134,0.019004,4.11169e-05,-7.60806e-08,3.63398e-11,24740.6,12.8937], Tmin=(10,'K'), Tmax=(715.153,'K')),
+            NASAPolynomial(coeffs=[2.75922,0.0369163,-2.1798e-05,6.19508e-09,-6.80975e-13,24580.6,15.4116], Tmin=(715.153,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 53.55 kcal/mol
+S298: 82.35 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.28250 -0.16193 0.00387
+C -1.51227 0.71879 -0.03830
+C -2.04013 -0.53152 -0.72934
+C -2.05825 -0.46625 0.76511
+C -0.10983 1.10606 -0.04714
+H -2.16802 1.58449 -0.07793
+H -1.30623 -1.17729 -1.19782
+H -2.97518 -0.43844 -1.27040
+H -1.33242 -1.06147 1.30696
+H -3.00407 -0.32132 1.27527
+H 0.22124 2.11917 0.12635
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 86.8,151.2,201.8,379.4,458.1,652.3,776.5,785.6,836.0,845.3,1023.5,1051.5,1075.5,1097.4,1109.3,1201.5,1217.2,1276.3,1379.1,1459.5,1487.7,3134.2,3136.0,3143.2,3218.8,3233.5,3236.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1969,
+    label = "BrC1OC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81112,0.0162674,3.12808e-05,-8.71439e-08,5.7143e-11,-3997.46,12.9037], Tmin=(10,'K'), Tmax=(556.749,'K')),
+            NASAPolynomial(coeffs=[4.61171,0.0219079,-1.46096e-05,4.55988e-09,-5.38833e-13,-4263.17,7.92448], Tmin=(556.749,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -3.99 kcal/mol
+S298: 79.88 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.34928 -0.20240 0.02610
+Br -2.34928 -0.20240 -0.02610
+O 0.00000 1.43111 0.00000
+C 0.53776 0.22632 -0.49094
+C -0.53776 0.22632 0.49094
+H 0.36547 0.00160 -1.53776
+H -0.36547 0.00160 1.53776
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 131.7,206.0,231.6,386.4,660.4,692.8,811.0,945.7,1071.1,1132.8,1259.9,1262.9,1368.7,3182.3,3182.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1970,
+    label = "CDC1CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3  C  u0 p0 c0 {1,S} {2,S} {4,S} {8,S}
+4  C  u0 p0 c0 {2,S} {3,S} {5,D}
+5  C  u0 p0 c0 {4,D} {9,S} {10,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92475,0.00457249,0.000112863,-2.22021e-07,1.34732e-10,24018.7,12.0222], Tmin=(10,'K'), Tmax=(528.295,'K')),
+            NASAPolynomial(coeffs=[1.80621,0.0365955,-2.34403e-05,7.24722e-09,-8.61355e-13,24019.5,18.7802], Tmin=(528.295,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 51.69 kcal/mol
+S298: 77.63 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.27561 -0.15543 -0.06397
+C 1.33212 1.34258 -0.26173
+C 0.44176 0.46116 0.61044
+C 1.68239 -0.05247 0.05247
+C 2.50177 -1.07411 -0.08404
+H 1.85408 2.16229 0.22726
+H 0.98719 1.56838 -1.26722
+H 0.35622 0.67648 1.66903
+H 2.27844 -2.03883 0.36032
+H 3.42201 -0.99140 -0.65343
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 138.4,257.1,325.0,438.6,509.2,681.9,774.2,911.5,937.6,946.9,1016.6,1066.6,1095.2,1107.5,1139.6,1226.2,1440.3,1473.6,1840.4,3103.8,3139.7,3174.5,3188.0,3222.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1971,
+    label = "OC1DC(Br)C1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {6,S} {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u0 p0 c0 {3,S} {5,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.40359,0.0552969,-5.98683e-05,-5.59486e-08,1.22951e-10,16509,15.7255], Tmin=(10,'K'), Tmax=(395.084,'K')),
+            NASAPolynomial(coeffs=[8.63148,0.0232279,-1.73137e-05,5.88721e-09,-7.42784e-13,15933.1,-6.70161], Tmin=(395.084,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 38.55 kcal/mol
+S298: 96.75 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.41784 1.61375 -0.32579
+Br 1.41782 -1.61375 -0.32582
+Br -2.62934 0.00001 -0.46592
+O -0.12308 -0.00004 2.82165
+C 0.43757 0.00000 0.27452
+C -0.30212 -0.00001 1.52027
+C -1.01188 0.00001 0.41601
+H -0.97768 -0.00007 3.27539
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 62.3,93.5,112.0,153.4,185.6,309.6,330.0,416.6,515.8,575.1,626.6,631.0,855.4,1134.4,1193.1,1354.9,1926.6,3761.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1972,
+    label = "BrC1CC(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
+6  C  u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79243,0.0219504,4.42308e-05,-8.07025e-08,3.71907e-11,2837.32,13.1024], Tmin=(10,'K'), Tmax=(757.315,'K')),
+            NASAPolynomial(coeffs=[3.2171,0.0407062,-2.40491e-05,6.80878e-09,-7.44467e-13,2473.75,12.7424], Tmin=(757.315,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 10.31 kcal/mol
+S298: 84.60 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.68971 -0.29276 0.00000
+Br 2.68971 -0.29276 0.00000
+C -1.05657 0.79328 -0.00000
+C 0.00000 0.51078 -1.09014
+C 1.05657 0.79328 -0.00000
+C 0.00000 0.51079 1.09014
+H -1.40449 1.82443 -0.00001
+H 0.00000 1.13911 -1.98162
+H 0.00000 -0.54132 -1.37897
+H 1.40449 1.82443 -0.00001
+H 0.00000 -0.54131 1.37898
+H 0.00000 1.13913 1.98161
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.4,188.9,239.4,298.4,309.3,475.1,536.4,799.8,808.2,879.7,914.6,1026.0,1027.7,1047.0,1088.0,1146.8,1221.4,1247.3,1260.1,1271.5,1283.6,1288.5,1469.3,1492.4,3083.3,3086.4,3122.1,3126.8,3145.0,3155.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1973,
+    label = "BrC1C(Br)(Br)CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+8  C  u0 p0 c0 {7,S} {9,S} {11,S} {12,S}
+9  C  u0 p0 c0 {4,S} {5,S} {6,S} {8,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {8,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.01426,0.0995985,-0.000241214,3.54384e-07,-2.12245e-10,10792.9,18.0691], Tmin=(10,'K'), Tmax=(407.864,'K')),
+            NASAPolynomial(coeffs=[8.85287,0.0423381,-3.06276e-05,1.01734e-08,-1.26151e-12,10316.6,-4.86261], Tmin=(407.864,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 28.98 kcal/mol
+S298: 113.11 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.30426 -0.44609 0.00000
+Br 0.47943 1.60217 2.49396
+Br 0.46371 -1.53157 1.91227
+Br 0.47943 1.60217 -2.49396
+Br 0.46371 -1.53157 -1.91227
+C -0.61832 0.48062 0.00000
+C 0.46371 0.23333 1.09298
+C 1.55387 0.39851 0.00000
+C 0.46371 0.23333 -1.09298
+H -0.87278 1.53868 0.00000
+H 2.34788 -0.34510 0.00000
+H 1.97614 1.40310 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 39.5,76.0,93.3,98.0,123.9,140.4,158.7,180.5,233.6,332.4,379.6,427.4,490.3,532.6,626.1,733.9,838.0,930.9,962.2,978.5,1052.3,1067.2,1131.8,1224.8,1234.5,1257.5,1457.3,3103.5,3134.8,3172.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1974,
+    label = "BrC1(Br)OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {5,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84638,0.010721,8.17924e-05,-2.53936e-07,2.07771e-10,3757.7,11.9763], Tmin=(10,'K'), Tmax=(456.84,'K')),
+            NASAPolynomial(coeffs=[6.49168,0.0132051,-1.05708e-05,3.73272e-09,-4.81658e-13,3248.38,-1.64243], Tmin=(456.84,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (108.088,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 11.32 kcal/mol
+S298: 77.27 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.60950 -0.45026 -0.00001
+Br -1.60950 -0.45026 -0.00006
+O 0.00001 1.73959 -0.76010
+O -0.00001 1.73942 0.76038
+C 0.00000 0.61438 0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 171.1,294.0,296.7,370.1,396.1,756.2,786.5,904.9,1347.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1975,
+    label = "BrCDC1OC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u0 p0 c0 {2,S} {5,D} {8,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.67858,0.0281953,2.2174e-06,-4.55808e-08,3.26956e-11,11979.9,14.6764], Tmin=(10,'K'), Tmax=(608.813,'K')),
+            NASAPolynomial(coeffs=[5.98055,0.0243627,-1.61602e-05,5.00747e-09,-5.87436e-13,11490.4,2.99441], Tmin=(608.813,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 28.36 kcal/mol
+S298: 87.03 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.70836 -0.30256 -0.13755
+Br -2.79949 -0.13752 -0.15480
+O 0.32969 1.30971 -0.40913
+C 1.26694 0.76760 0.55382
+C -0.09251 0.34496 0.45594
+C -1.15981 -0.35377 0.76523
+H 1.62366 1.46514 1.30391
+H -1.15953 -1.09289 1.55122
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 72.0,120.2,192.6,310.2,416.7,549.5,647.5,717.6,750.1,756.9,1002.2,1068.5,1155.6,1239.0,1283.1,1881.7,3178.2,3251.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1976,
+    label = "BrC1D[C]CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,S} {4,D} {6,S}
+3 C  u0 p0 c0 {1,S} {2,S} {5,D}
+4 C  u0 p0 c0 {2,D} {5,S} {7,S}
+5 C  u1 p0 c0 {3,D} {4,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9134,0.00517897,8.6071e-05,-1.80529e-07,1.11122e-10,78071.3,11.9893], Tmin=(10,'K'), Tmax=(556.189,'K')),
+            NASAPolynomial(coeffs=[3.99407,0.0239815,-1.6912e-05,5.56737e-09,-6.89052e-13,77762.5,8.95228], Tmin=(556.189,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 158.82 kcal/mol
+S298: 76.06 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.26382 -0.00350 0.00033
+C 1.62480 0.87766 0.02991
+C 0.58493 -0.06687 -0.22955
+C 2.65427 -0.08742 -0.15324
+C 1.62080 -0.97633 0.26772
+H 1.59571 1.73748 0.70143
+H 3.72925 -0.09706 -0.20211
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 199.9,278.2,385.8,529.8,566.7,721.7,809.1,949.1,1016.0,1074.0,1227.2,1308.7,1351.8,3108.8,3290.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1977,
+    label = "BrC1DCC(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
+6  C  u0 p0 c0 {3,S} {5,S} {7,D}
+7  C  u0 p0 c0 {4,S} {6,D} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6154,0.0437671,-3.78688e-05,1.68892e-08,-3.10332e-12,20633.7,16.3199], Tmin=(10,'K'), Tmax=(1185.31,'K')),
+            NASAPolynomial(coeffs=[8.77221,0.0263649,-1.58466e-05,4.50323e-09,-4.90951e-13,19411.2,-9.43544], Tmin=(1185.31,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 46.41 kcal/mol
+S298: 96.22 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.89325 -0.62490 -0.19159
+Br -0.60847 2.20633 0.02594
+Br -2.48272 -1.25767 -0.14556
+C 1.18475 -0.11073 0.65700
+C 0.08250 0.40330 -0.32241
+C -0.72434 -0.74701 0.21236
+C 0.25147 -1.24064 0.98701
+H 1.45167 0.57695 1.45603
+H 0.34431 0.37739 -1.37726
+H 0.36526 -2.11576 1.60972
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 62.0,82.6,135.5,192.4,238.0,355.6,418.6,437.3,574.5,752.6,850.4,893.7,947.1,983.2,1124.3,1155.0,1177.1,1190.9,1222.6,1251.9,1623.7,3142.8,3149.8,3251.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1978,
+    label = "BrC1(Br)OC(Br)(Br)O1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {7,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {7,S} {8,S}
+6 O  u0 p2 c0 {7,S} {8,S}
+7 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+8 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.26572,0.06899,-0.000125616,1.17041e-07,-4.33745e-11,-20041.5,15.5555], Tmin=(10,'K'), Tmax=(652.993,'K')),
+            NASAPolynomial(coeffs=[11.0265,0.0214504,-1.64123e-05,5.54979e-09,-6.89915e-13,-21055.1,-18.578], Tmin=(652.993,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -33.59 kcal/mol
+S298: 99.54 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.08236 1.59934 -0.00003
+Br 2.08235 -1.59935 0.00000
+Br -2.08236 -1.59934 0.00003
+Br -2.08235 1.59935 0.00000
+O -0.00001 -0.00001 -1.01672
+O 0.00001 0.00001 1.01672
+C 0.97106 -0.00000 -0.00001
+C -0.97106 0.00000 0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 46.2,70.9,121.6,175.2,185.9,226.1,240.2,328.5,376.0,418.2,443.8,688.7,856.0,881.3,951.1,993.9,1106.8,1160.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1979,
+    label = "BrC1CCC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {2,S}
+2  C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+3  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+4  C  u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+5  C  u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+12 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.99191,-5.90171e-05,0.000128228,-2.15831e-07,1.16654e-10,1866.18,11.443], Tmin=(10,'K'), Tmax=(543.47,'K')),
+            NASAPolynomial(coeffs=[-1.24745,0.0477439,-2.92146e-05,8.58738e-09,-9.71356e-13,2299.2,32.2695], Tmin=(543.47,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 7.58 kcal/mol
+S298: 75.89 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.37560 0.00000 -0.04751
+C 0.51690 0.00000 0.49721
+C 1.44506 -1.08791 -0.07259
+C 2.55801 0.00000 -0.12329
+C 1.44506 1.08791 -0.07259
+H 0.48772 0.00000 1.58593
+H 1.60436 -1.97914 0.53705
+H 1.13685 -1.38898 -1.07616
+H 3.21213 0.00000 -0.99688
+H 3.17358 0.00000 0.77953
+H 1.60436 1.97914 0.53705
+H 1.13685 1.38898 -1.07616
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 143.2,246.2,293.9,476.6,703.4,781.6,820.3,913.6,913.7,950.7,1026.1,1043.2,1104.5,1189.2,1218.9,1248.2,1251.5,1260.4,1286.9,1292.0,1475.4,1485.0,1506.0,3066.5,3070.9,3074.9,3108.7,3119.9,3127.6,3141.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1980,
+    label = "BrCDC1C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5  C  u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
+6  C  u0 p0 c0 {4,S} {5,S} {7,D}
+7  C  u0 p0 c0 {3,S} {6,D} {10,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.47962,0.0536241,-8.18172e-05,8.88556e-08,-4.4085e-11,28788.7,16.9093], Tmin=(10,'K'), Tmax=(468.051,'K')),
+            NASAPolynomial(coeffs=[5.54728,0.0359537,-2.51876e-05,8.19543e-09,-1.00203e-12,28595.1,8.50376], Tmin=(468.051,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 62.87 kcal/mol
+S298: 98.92 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.15696 2.49305 0.01395
+Br 2.78780 -1.12908 -0.11492
+Br -2.77681 -1.14436 -0.12055
+C 0.42917 0.69322 -0.42147
+C 1.31754 -0.05167 0.55571
+C -0.06966 -0.45182 0.32542
+C -1.04036 -1.28857 0.61710
+H 0.61960 0.60477 -1.48509
+H 1.59800 0.42900 1.48594
+H -0.92889 -2.12710 1.29181
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 46.6,76.3,123.9,184.0,208.2,228.5,352.8,494.2,637.9,659.6,719.2,838.9,846.6,998.6,1033.3,1038.8,1123.2,1190.9,1215.2,1270.1,1805.8,3177.3,3181.2,3216.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1981,
+    label = "[CH2]C1CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3 C  u0 p0 c0 {2,S} {4,D} {7,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,D}
+5 C  u1 p0 c0 {2,S} {8,S} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86461,0.00898352,0.000125124,-3.09837e-07,2.24992e-10,52701,12.5688], Tmin=(10,'K'), Tmax=(476.811,'K')),
+            NASAPolynomial(coeffs=[4.64201,0.0285584,-1.85539e-05,5.83658e-09,-7.05242e-13,52330.2,6.28326], Tmin=(476.811,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 109.00 kcal/mol
+S298: 80.54 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.33263 -0.14050 -0.01031
+C 1.84575 0.04043 0.48588
+C 1.31222 1.33077 -0.21398
+C 0.43868 0.44000 0.09516
+C 2.59450 -0.94571 -0.26464
+H 2.11228 0.12450 1.54081
+H 1.62503 2.24498 -0.68548
+H 2.39137 -1.10462 -1.31763
+H 3.36640 -1.54009 0.20864
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 138.9,246.3,301.1,377.8,411.7,482.3,588.7,689.8,729.9,902.4,966.7,1056.1,1118.8,1136.2,1375.5,1465.1,1793.4,3083.8,3152.4,3259.5,3303.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1982,
+    label = "Br[C]1OC1(Br)C(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 O  u0 p2 c0 {6,S} {8,S}
+6 C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+7 C  u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
+8 C  u1 p0 c0 {4,S} {5,S} {6,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.21678,0.0785458,-0.000172531,2.10753e-07,-1.03896e-10,21921.3,19.1319], Tmin=(10,'K'), Tmax=(493.472,'K')),
+            NASAPolynomial(coeffs=[9.32141,0.0290627,-2.21179e-05,7.5495e-09,-9.50827e-13,21318.8,-6.00774], Tmin=(493.472,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 50.10 kcal/mol
+S298: 109.02 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.03104 1.81262 -0.95683
+Br 1.69893 1.06230 1.30966
+Br 2.18022 -1.49861 -0.59100
+Br -2.73103 -1.06310 0.74481
+O -0.76354 -0.98187 -1.34833
+C -0.22525 0.10438 -0.55096
+C 1.28284 0.21970 -0.40682
+C -1.00632 -0.98653 -0.00483
+H 1.70275 0.86755 -1.16996
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.6,64.9,88.1,110.5,147.9,207.6,219.8,343.0,361.0,432.6,522.0,623.8,690.4,704.4,773.9,968.1,1074.7,1163.6,1247.1,1433.2,3167.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1983,
+    label = "OC1(Br)CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  O  u0 p2 c0 {4,S} {10,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5  C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+7  H  u0 p0 c0 {5,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79024,0.0159746,0.000139429,-4.07103e-07,3.41605e-10,-10050.2,14.3065], Tmin=(10,'K'), Tmax=(413.367,'K')),
+            NASAPolynomial(coeffs=[4.50319,0.0349939,-2.36369e-05,7.56696e-09,-9.18394e-13,-10330.6,8.81838], Tmin=(413.367,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -15.15 kcal/mol
+S298: 87.31 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.29139 -0.23822 -0.23679
+Br -2.33547 -0.14954 -0.24122
+O 0.27112 1.71671 -0.11343
+C 0.51979 0.44714 0.30366
+C -0.00525 0.05501 1.64825
+C -0.56838 -0.58283 0.39211
+H -0.60272 0.81322 2.14247
+H 0.59003 -0.57431 2.29862
+H -0.33168 -1.61703 0.18516
+H 0.04120 1.70022 -1.05242
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 114.2,149.5,212.1,287.7,342.6,394.4,471.8,571.7,623.1,813.4,906.4,945.9,1011.4,1073.3,1086.6,1141.5,1254.4,1298.0,1401.6,1462.7,3143.8,3213.0,3240.1,3759.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1984,
+    label = "BrC1C[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {4,S} {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+5 C  u1 p0 c0 {2,S} {3,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94038,0.00355466,9.83257e-05,-1.85604e-07,1.08393e-10,10939.8,12.7301], Tmin=(10,'K'), Tmax=(540.226,'K')),
+            NASAPolynomial(coeffs=[1.47014,0.0344957,-2.27118e-05,7.10984e-09,-8.48367e-13,11022.1,21.4179], Tmin=(540.226,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 25.48 kcal/mol
+S298: 77.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.25494 0.00155 -0.08647
+O 1.36544 -1.05755 0.13299
+C 1.53995 1.06203 0.02092
+C 0.58519 0.01981 0.63510
+C 2.30577 -0.16849 -0.39185
+H 2.02271 1.72467 0.74570
+H 1.10426 1.66261 -0.78104
+H 0.45787 -0.02100 1.71533
+H 2.82909 -0.44031 -1.30229
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 133.3,275.1,287.5,566.9,603.9,866.6,912.2,957.1,982.9,1032.6,1081.0,1132.4,1230.2,1245.1,1261.9,1329.0,1468.4,3052.1,3100.6,3131.0,3184.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1985,
+    label = "[CH2]C1(Br)CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {2,S}
+2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 C  u0 p0 c0 {2,S} {4,D} {6,S}
+4 C  u0 p0 c0 {2,S} {3,D} {7,S}
+5 C  u1 p0 c0 {2,S} {8,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84475,0.0102874,0.000130106,-3.30313e-07,2.41982e-10,51075.3,11.7313], Tmin=(10,'K'), Tmax=(480.334,'K')),
+            NASAPolynomial(coeffs=[5.3473,0.0277998,-1.8344e-05,5.85904e-09,-7.16765e-13,50584.6,1.97866], Tmin=(480.334,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 105.89 kcal/mol
+S298: 79.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.12440 -0.09791 -0.00004
+C -0.86385 0.22140 0.00002
+C -1.71382 -0.81157 -0.64852
+C -1.71377 -0.81149 0.64876
+C -1.15559 1.64864 -0.00006
+H -2.05117 -1.20312 -1.59339
+H -2.05106 -1.20291 1.59372
+H -2.19534 1.95748 -0.00004
+H -0.37432 2.39342 -0.00011
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 139.3,271.9,303.2,307.4,370.3,443.6,510.8,691.3,833.8,842.8,873.6,1001.8,1018.4,1060.5,1219.8,1444.7,1711.7,3157.6,3255.2,3288.1,3303.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1986,
+    label = "BrC1OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9579,0.00242216,4.83471e-05,-9.31458e-08,5.33065e-11,193.945,10.0389], Tmin=(10,'K'), Tmax=(584.757,'K')),
+            NASAPolynomial(coeffs=[3.44797,0.0157892,-1.12827e-05,3.72733e-09,-4.61129e-13,84.6816,10.7812], Tmin=(584.757,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (108.088,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 3.48 kcal/mol
+S298: 69.03 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.97878 -0.00000 -0.04214
+O 1.75546 -0.75566 -0.20089
+O 1.75537 0.75573 -0.20080
+C 0.87161 -0.00006 0.51452
+H 0.94093 -0.00015 1.60133
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 313.3,336.7,655.9,798.4,905.4,1145.2,1297.2,1346.6,3137.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1987,
+    label = "CDC1[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,S} {4,D} {5,S}
+3 C  u0 p0 c0 {1,S} {2,S} {5,D}
+4 C  u0 p0 c0 {2,D} {6,S} {7,S}
+5 C  u1 p0 c0 {2,S} {3,D}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88156,0.00776989,9.78073e-05,-2.44861e-07,1.76258e-10,74241.6,12.3632], Tmin=(10,'K'), Tmax=(488.677,'K')),
+            NASAPolynomial(coeffs=[4.99958,0.0215447,-1.48472e-05,4.82913e-09,-5.94329e-13,73858.6,4.96907], Tmin=(488.677,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 151.44 kcal/mol
+S298: 78.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.28280 -0.14137 0.00951
+C 1.78373 0.10119 -0.01136
+C 0.47253 0.44390 -0.03856
+C 2.80093 -0.82744 0.01320
+C 1.35570 1.50718 -0.02827
+H 2.66848 -1.81366 -0.41693
+H 3.75202 -0.58722 0.47404
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 160.4,273.4,403.0,418.9,453.6,510.3,734.2,808.2,1017.1,1109.1,1145.9,1455.7,1652.2,3150.2,3250.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1988,
+    label = "Br[CH]C1(Br)OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+7 C  u1 p0 c0 {3,S} {5,S} {9,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.37812,0.0589442,-9.49916e-05,8.6489e-08,-3.25548e-11,15561.7,17.7489], Tmin=(10,'K'), Tmax=(632.042,'K')),
+            NASAPolynomial(coeffs=[8.45697,0.0268016,-1.87087e-05,6.0269e-09,-7.28456e-13,14919.7,-4.42344], Tmin=(632.042,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 36.77 kcal/mol
+S298: 101.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.95211 -1.40719 -0.25456
+Br 2.60591 -0.18413 -0.20857
+Br -0.83283 2.16189 -0.07938
+O 0.51094 -1.53178 1.19586
+C -0.26433 -0.61950 0.45309
+C 0.97073 -1.19606 -0.09411
+C -0.42346 0.71459 1.00546
+H 0.94305 -1.98301 -0.83995
+H -0.46200 0.87306 2.07414
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 29.6,89.3,117.8,154.2,214.9,266.1,356.3,374.0,394.7,612.5,690.5,735.7,797.0,915.1,1067.9,1126.5,1234.2,1276.6,1407.5,3180.9,3230.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1989,
+    label = "BrC1D[C]OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {3,S} {5,S} {7,D}
+7 C  u1 p0 c0 {4,S} {6,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42632,0.0514005,-8.02751e-05,6.29371e-08,-1.95775e-11,48206.4,16.1834], Tmin=(10,'K'), Tmax=(773.256,'K')),
+            NASAPolynomial(coeffs=[10.262,0.0160403,-1.16819e-05,3.79948e-09,-4.57922e-13,47149.2,-15.037], Tmin=(773.256,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 101.18 kcal/mol
+S298: 95.33 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.25180 1.61049 -0.32348
+Br -1.25179 -1.61050 -0.32348
+Br 2.43760 0.00000 -0.36528
+O -0.62445 0.00000 1.91402
+C -0.49570 0.00000 0.46980
+C 0.97646 0.00000 0.71937
+C 0.73675 0.00001 2.16354
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 57.8,98.6,153.7,165.5,287.6,313.4,370.7,419.4,471.7,708.9,798.1,940.3,1036.8,1136.3,1278.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1990,
+    label = "Br[C](Br)C1CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {3,S} {5,D} {8,S}
+5 C  u0 p0 c0 {3,S} {4,D} {9,S}
+6 C  u1 p0 c0 {1,S} {2,S} {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.56367,0.0384867,-3.25097e-05,1.26319e-08,-1.46982e-12,53199.6,15.5484], Tmin=(10,'K'), Tmax=(934.24,'K')),
+            NASAPolynomial(coeffs=[8.46634,0.021859,-1.28183e-05,3.57948e-09,-3.85191e-13,52093.1,-8.78975], Tmin=(934.24,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 110.70 kcal/mol
+S298: 91.38 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.87870 0.21947 0.02121
+Br 0.94190 -1.32729 0.01813
+C 0.66833 1.58531 -0.17423
+C 2.12518 1.74814 -0.52600
+C 1.85586 1.83882 0.73238
+C -0.01268 0.27443 -0.26894
+H -0.03022 2.39940 -0.37530
+H 2.83256 1.73603 -1.33711
+H 2.16567 1.95773 1.75616
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.2,144.7,155.1,177.9,316.8,425.5,487.3,664.0,769.8,804.5,864.7,936.5,1009.3,1047.4,1067.5,1148.3,1351.8,1731.2,3083.8,3261.2,3311.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1991,
+    label = "Br[C](Br)C1DC(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {9,S}
+6 C  u0 p0 c0 {5,S} {7,D} {8,S}
+7 C  u0 p0 c0 {2,S} {5,S} {6,D}
+8 C  u1 p0 c0 {3,S} {4,S} {6,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.10308,0.0915211,-0.000266782,4.34511e-07,-2.80376e-10,50642,19.7469], Tmin=(10,'K'), Tmax=(382.001,'K')),
+            NASAPolynomial(coeffs=[9.05335,0.0292153,-2.21277e-05,7.54491e-09,-9.5096e-13,50187.4,-3.23357], Tmin=(382.001,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 107.31 kcal/mol
+S298: 111.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.72553 2.33226 -0.46165
+Br -2.49545 -1.86420 0.20075
+Br 1.99362 -1.80751 -0.46168
+Br 2.46753 1.26631 0.37130
+C -1.13374 0.90556 0.79196
+C -0.04644 -0.03626 0.37955
+C -1.30615 -0.49133 0.44857
+C 1.28879 -0.16951 0.12963
+H -1.22099 1.30920 1.79682
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 33.9,47.5,66.3,70.1,152.0,177.5,233.2,282.0,378.2,418.0,515.2,564.9,573.9,817.1,902.1,1018.7,1128.5,1214.4,1275.4,1647.7,3141.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1992,
+    label = "BrCDC1CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3  C  u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+4  C  u0 p0 c0 {2,S} {3,S} {5,D}
+5  C  u0 p0 c0 {1,S} {4,D} {10,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {3,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92815,0.00447016,0.000114703,-2.30868e-07,1.44436e-10,23331.8,11.4688], Tmin=(10,'K'), Tmax=(507.144,'K')),
+            NASAPolynomial(coeffs=[1.71909,0.0364861,-2.31522e-05,7.08672e-09,-8.34441e-13,23368.2,18.7763], Tmin=(507.144,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 50.33 kcal/mol
+S298: 76.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.44472 0.09545 0.00006
+C 2.83691 -0.39126 -0.00014
+C 2.15385 0.98247 0.00001
+C 1.37349 -0.25274 -0.00006
+C 0.21269 -0.85814 -0.00007
+H 3.32776 -0.71803 -0.91290
+H 3.32783 -0.71817 0.91254
+H 2.18907 1.57179 -0.91241
+H 2.18915 1.57164 0.91251
+H 0.06968 -1.92989 -0.00016
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 144.3,183.4,336.6,368.0,680.0,751.7,761.5,789.5,932.0,992.9,1047.3,1078.4,1088.6,1093.8,1166.7,1254.3,1451.1,1468.6,1837.4,3110.3,3111.0,3184.2,3197.1,3219.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1993,
+    label = "BrC1OC(Br)(Br)O1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {6,S} {7,S}
+5 O  u0 p2 c0 {6,S} {7,S}
+6 C  u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+7 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.52014,0.0450675,-5.31735e-05,3.21002e-08,-7.83382e-12,-23019.3,15.5234], Tmin=(10,'K'), Tmax=(955.549,'K')),
+            NASAPolynomial(coeffs=[9.68607,0.0192564,-1.26557e-05,3.83173e-09,-4.37939e-13,-24197.6,-13.9433], Tmin=(955.549,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -40.50 kcal/mol
+S298: 93.23 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.90366 -0.19299 0.00000
+Br 0.87582 1.79424 -0.00002
+Br 2.29134 -1.07947 0.00001
+O -0.28047 -0.57108 1.01875
+O -0.28047 -0.57110 -1.01873
+C -1.14409 -1.03431 0.00001
+C 0.57248 -0.13450 0.00000
+H -1.30492 -2.11186 0.00002
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.5,141.8,148.2,203.9,287.6,311.2,385.3,393.7,639.3,812.7,921.3,977.1,987.5,1040.1,1149.0,1274.0,1295.1,3128.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1994,
+    label = "[CH]DC1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {8,S}
+4 C  u0 p0 c0 {2,S} {3,S} {5,D}
+5 C  u1 p0 c0 {4,D} {9,S}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90278,0.00593181,0.000109446,-2.29214e-07,1.43758e-10,51892.3,12.5789], Tmin=(10,'K'), Tmax=(535.332,'K')),
+            NASAPolynomial(coeffs=[3.34927,0.0312102,-2.06253e-05,6.54402e-09,-7.93506e-13,51648.6,12.0738], Tmin=(535.332,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 107.11 kcal/mol
+S298: 78.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.23433 -0.14034 -0.05468
+C 1.39095 1.29166 -0.26320
+C 0.50032 0.42752 0.59666
+C 1.74697 -0.12481 0.00552
+C 2.54823 -1.11772 -0.14408
+H 1.04545 1.53154 -1.26483
+H 1.95442 2.08281 0.22649
+H 0.45684 0.59819 1.66588
+H 2.62590 -2.16062 0.11687
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 142.3,268.9,310.6,425.0,539.0,686.4,743.2,785.1,875.9,895.6,1002.5,1069.6,1085.0,1126.6,1232.7,1448.8,1799.3,3104.9,3177.1,3194.8,3277.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1995,
+    label = "BrC1DC(Br)OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 O  u0 p2 c0 {3,S} {6,S}
+5 C  u0 p0 c0 {1,S} {3,S} {6,D}
+6 C  u0 p0 c0 {2,S} {4,S} {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75868,0.0193291,6.35831e-05,-2.46899e-07,2.2633e-10,21570.7,12.934], Tmin=(10,'K'), Tmax=(417.485,'K')),
+            NASAPolynomial(coeffs=[6.11343,0.0189231,-1.4561e-05,5.00114e-09,-6.3256e-13,21181,1.31816], Tmin=(417.485,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 47.16 kcal/mol
+S298: 81.87 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.14251 -0.54019 0.00000
+Br 2.14251 -0.54019 0.00000
+O 0.73442 1.95055 0.00000
+O -0.73442 1.95055 0.00000
+C -0.66778 0.55035 0.00000
+C 0.66778 0.55034 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 101.7,218.2,232.0,308.4,384.7,492.0,577.7,876.9,1001.6,1074.6,1200.0,1717.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1996,
+    label = "BrC1(Br)[CH]CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u1 p0 c0 {3,S} {6,S} {7,S}
+5 C  u0 p0 c0 {3,S} {6,D} {8,S}
+6 C  u0 p0 c0 {4,S} {5,D} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80631,0.0137788,0.000137126,-3.81886e-07,3.02789e-10,40207.7,13.289], Tmin=(10,'K'), Tmax=(444.151,'K')),
+            NASAPolynomial(coeffs=[5.17303,0.031154,-2.1803e-05,7.13735e-09,-8.7828e-13,39793.5,4.50852], Tmin=(444.151,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 84.56 kcal/mol
+S298: 84.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.60898 -0.63483 -0.00000
+Br -1.60899 -0.63482 0.00000
+C 0.00000 0.49628 0.00000
+C 0.00001 1.60716 1.02626
+C 0.00000 1.60716 -1.02626
+C 0.00002 2.55628 0.00000
+H 0.00009 1.59883 2.10437
+H -0.00008 1.59883 -2.10437
+H 0.00004 3.63905 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 153.9,161.2,221.1,299.4,331.0,409.8,547.1,559.0,721.0,910.8,935.3,954.6,959.0,996.3,1169.3,1202.9,1310.0,1430.8,3213.0,3265.1,3274.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1997,
+    label = "BrC1DC[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 C  u1 p0 c0 {3,S} {4,S} {5,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,D}
+4 C  u0 p0 c0 {2,S} {3,D} {6,S}
+5 H  u0 p0 c0 {2,S}
+6 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9401,0.00356386,6.37415e-05,-1.30509e-07,7.92289e-11,58831.6,11.172], Tmin=(10,'K'), Tmax=(558.254,'K')),
+            NASAPolynomial(coeffs=[3.75606,0.0184244,-1.25742e-05,4.0793e-09,-5.02287e-13,58641.1,10.0627], Tmin=(558.254,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 120.24 kcal/mol
+S298: 72.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.98405 -0.00607 0.00417
+C 1.96133 0.72972 0.02177
+C 0.86595 0.01442 -0.02599
+C 2.08655 -0.74425 -0.13107
+H 2.45353 1.68277 0.09555
+H 2.50535 -1.46981 0.57032
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 290.3,306.6,433.0,709.2,781.0,963.8,978.7,992.8,1240.2,1724.2,3061.7,3302.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1998,
+    label = "CC1(Br)[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+5  C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+6  C  u1 p0 c0 {3,S} {4,S} {11,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.42284,0.0484725,-4.98734e-05,3.10965e-08,-8.60309e-12,32113.2,15.2913], Tmin=(10,'K'), Tmax=(800.662,'K')),
+            NASAPolynomial(coeffs=[6.70684,0.032066,-1.91365e-05,5.50346e-09,-6.11841e-13,31587.3,0.178002], Tmin=(800.662,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 69.36 kcal/mol
+S298: 93.95 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.33914 -0.25879 -0.21627
+Br 2.42015 -0.12038 -0.20486
+C -0.52911 0.42160 0.35277
+C 0.55825 -0.63886 0.23507
+C -0.38923 1.88588 0.01619
+C 0.00541 -0.25008 1.49907
+H 0.36429 -1.59133 -0.24602
+H -1.12033 2.47444 0.57541
+H -0.54887 2.05082 -1.05212
+H 0.61562 2.22651 0.27945
+H -0.01823 -0.40053 2.56417
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 102.0,110.8,142.1,192.0,220.6,276.3,368.6,390.8,492.4,585.1,759.9,883.9,996.1,1001.7,1071.7,1108.7,1146.5,1167.3,1386.0,1406.4,1475.4,1484.3,3048.1,3128.3,3130.1,3162.0,3285.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 1999,
+    label = "CC1(Br)CO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  O  u0 p2 c0 {3,S} {4,S}
+3  C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4  C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+5  C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+6  H  u0 p0 c0 {4,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92828,0.00515366,0.000131484,-3.1393e-07,2.39338e-10,-12320.5,11.726], Tmin=(10,'K'), Tmax=(402.455,'K')),
+            NASAPolynomial(coeffs=[1.92466,0.0357414,-2.23025e-05,6.71789e-09,-7.80208e-13,-12245.7,18.4948], Tmin=(402.455,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -20.40 kcal/mol
+S298: 77.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.16628 -0.05042 -0.00741
+O -1.47068 -0.71708 0.83269
+C -0.79962 0.13705 -0.03175
+C -1.55612 -0.98679 -0.58598
+C -1.22502 1.57914 -0.08048
+H -1.02584 -1.87392 -0.91993
+H -2.53620 -0.81225 -1.02645
+H -2.31782 1.62879 -0.11469
+H -0.81286 2.07424 -0.96229
+H -0.87703 2.10794 0.81035
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 215.5,275.7,297.1,315.6,393.5,486.2,763.5,899.3,914.2,1020.2,1105.8,1130.6,1146.6,1176.3,1388.6,1418.0,1473.0,1485.8,1523.8,3045.0,3097.5,3122.0,3135.9,3199.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2000,
+    label = "[CH2]C1(Br)CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7  C  u1 p0 c0 {4,S} {10,S} {11,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.48257,0.0474364,6.84955e-05,-4.39209e-07,5.12151e-10,32943.7,16.5027], Tmin=(10,'K'), Tmax=(348.221,'K')),
+            NASAPolynomial(coeffs=[7.21648,0.0369376,-2.58141e-05,8.48374e-09,-1.05073e-12,32487.2,-0.392199], Tmin=(348.221,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 71.67 kcal/mol
+S298: 100.66 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.43678 -0.24062 -0.19907
+Br 0.36006 1.84504 -0.03897
+Br 2.24092 -0.73650 -0.20503
+C -0.65539 -0.98549 0.27988
+C -0.08636 -0.57031 1.61633
+C 0.52103 -0.03107 0.34802
+C -0.52154 -2.33363 -0.23945
+H 0.47094 -1.31469 2.17610
+H -0.65063 0.13406 2.21643
+H -0.79453 -3.18139 0.37770
+H -0.31906 -2.49207 -1.29150
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 82.4,103.4,138.6,154.6,185.4,244.6,280.8,347.9,371.6,454.1,511.5,625.7,677.2,810.3,870.3,970.5,1039.8,1082.7,1091.0,1135.7,1347.9,1450.8,1458.1,3133.8,3153.0,3228.4,3265.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2001,
+    label = "Br[C](Br)C1(Br)CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {8,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {5,S} {7,D} {9,S}
+7 C  u0 p0 c0 {2,S} {5,S} {6,D}
+8 C  u1 p0 c0 {3,S} {4,S} {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.11096,0.0876071,-0.000215844,2.87206e-07,-1.51615e-10,55707.9,19.7912], Tmin=(10,'K'), Tmax=(464.765,'K')),
+            NASAPolynomial(coeffs=[10.1441,0.0270763,-2.04839e-05,6.97767e-09,-8.78377e-13,55054.1,-8.75066], Tmin=(464.765,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 117.48 kcal/mol
+S298: 111.82 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.03825 2.03307 0.99612
+Br 3.12459 -0.60354 -0.41763
+Br -0.89130 -1.67346 1.11727
+Br -2.56746 -0.01112 -1.07117
+C 0.18490 0.54147 -0.40050
+C 0.81907 0.90250 -1.69248
+C 1.53338 0.20049 -0.86252
+C -0.92449 -0.39856 -0.25350
+H 0.68035 1.45147 -2.60644
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 21.8,52.0,73.7,83.5,138.8,182.0,249.0,306.4,366.8,381.1,429.1,534.2,555.0,774.1,819.7,916.4,1007.2,1041.0,1266.8,1767.4,3311.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2002,
+    label = "BrC1DCOO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {5,S}
+3 O  u0 p2 c0 {2,S} {4,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,D}
+5 C  u0 p0 c0 {2,S} {4,D} {6,S}
+6 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92428,0.00457808,7.29048e-05,-1.56521e-07,9.81636e-11,18141.8,10.8261], Tmin=(10,'K'), Tmax=(548.077,'K')),
+            NASAPolynomial(coeffs=[4.11219,0.0198065,-1.42037e-05,4.6966e-09,-5.80859e-13,17871.9,7.7581], Tmin=(548.077,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.54 kcal/mol
+S298: 72.73 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.29664 0.00837 0.00000
+O -2.49679 -0.08301 0.00000
+O -1.36703 -1.01412 0.00000
+C -0.54129 0.11288 0.00000
+C -1.56427 0.96700 0.00000
+H -1.83841 2.00496 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 237.0,269.6,404.6,595.8,647.3,874.1,948.3,1022.4,1155.4,1246.2,1681.6,3328.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2003,
+    label = "BrC1DCC1DC(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,D}
+5 C  u0 p0 c0 {1,S} {4,S} {6,D}
+6 C  u0 p0 c0 {4,S} {5,D} {8,S}
+7 C  u0 p0 c0 {2,S} {3,S} {4,D}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.37696,0.0551515,-9.06752e-05,7.96303e-08,-2.81852e-11,52789,16.1008], Tmin=(10,'K'), Tmax=(679.574,'K')),
+            NASAPolynomial(coeffs=[9.27458,0.0204378,-1.40529e-05,4.4632e-09,-5.32885e-13,51987.4,-10.0736], Tmin=(679.574,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 110.46 kcal/mol
+S298: 96.17 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.24872 -0.06380 0.00000
+Br -0.95770 1.79434 0.00000
+Br -2.62348 -0.98620 0.00000
+C 0.18782 -0.78543 0.00000
+C 1.61400 -0.90578 0.00000
+C 0.93017 -2.02941 0.00000
+C -0.94073 -0.10399 0.00000
+H 0.88869 -3.10449 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 52.8,76.2,139.0,186.0,218.5,336.0,342.1,422.3,504.2,542.8,781.4,795.3,920.2,1035.9,1095.1,1621.8,1883.0,3302.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2004,
+    label = "BrC1D[C]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {4,S} {5,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59057,0.0358987,-5.90262e-06,-1.27608e-07,1.48721e-10,66579.7,15.9889], Tmin=(10,'K'), Tmax=(424.484,'K')),
+            NASAPolynomial(coeffs=[8.03091,0.0159359,-1.26757e-05,4.45576e-09,-5.72683e-13,66005.6,-3.95023], Tmin=(424.484,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 137.14 kcal/mol
+S298: 91.51 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.35669 -1.59819 -0.15000
+Br -1.35669 1.59819 -0.15000
+Br 2.57358 0.00000 -0.22373
+C -0.47803 0.00000 0.52517
+C 1.02562 0.00000 0.73642
+C 0.26789 0.00000 1.79347
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 59.5,92.4,177.7,289.5,372.4,402.1,465.5,509.8,658.5,864.9,1016.8,1764.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2005,
+    label = "BrCC1(Br)[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+6 C  u1 p0 c0 {3,S} {4,S} {9,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69411,0.0261738,3.75158e-05,-1.30062e-07,9.64902e-11,17516.7,15.493], Tmin=(10,'K'), Tmax=(505.173,'K')),
+            NASAPolynomial(coeffs=[5.09723,0.0303803,-2.0453e-05,6.45518e-09,-7.70815e-13,17179.5,7.74757], Tmin=(505.173,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.54 kcal/mol
+S298: 89.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.66494 -0.84751 -0.03003
+Br 2.07027 -0.27392 -0.10885
+O -1.35558 1.98505 0.35348
+C -0.60416 0.77316 0.07914
+C 0.64751 0.62786 0.90094
+C -0.82301 1.79839 -0.90215
+H 1.02539 1.61689 1.15677
+H 0.48548 0.03311 1.79748
+H -0.17509 2.52312 -1.38885
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 51.8,128.3,289.3,298.1,327.2,379.7,515.4,662.4,754.2,843.4,862.9,969.4,1049.2,1151.0,1169.8,1247.4,1431.1,1464.1,3104.2,3153.7,3177.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2006,
+    label = "BrC(Br)C1OC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {5,S} {6,S}
+5  C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {1,S} {4,S} {5,S} {9,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {10,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.72841,0.0340366,0.000269661,-2.24565e-06,5.04159e-09,-5369.79,15.898], Tmin=(10,'K'), Tmax=(163.355,'K')),
+            NASAPolynomial(coeffs=[4.6709,0.0387096,-2.80757e-05,9.42032e-09,-1.18193e-12,-5437.61,11.9253], Tmin=(163.355,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -5.08 kcal/mol
+S298: 97.19 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.73356 -0.03474 -0.44874
+Br -2.20562 -1.14587 -0.32357
+Br -1.00721 1.83014 0.13383
+O 0.90690 -1.78190 0.90670
+C 0.19662 -0.53982 1.07382
+C 1.66302 -0.62382 1.06100
+C -0.58978 -0.06461 -0.11212
+H -0.31038 -0.42955 2.03070
+H 2.25030 -0.53130 1.96943
+H -0.03991 -0.14791 -1.04321
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 35.0,79.4,126.4,166.5,260.5,292.7,368.9,417.5,586.4,677.8,715.8,831.0,902.3,1056.7,1117.8,1145.2,1160.2,1212.8,1276.2,1301.8,1440.1,3136.1,3162.1,3184.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2007,
+    label = "Br[C]1CDC(Br)C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u1 p0 c0 {1,S} {3,S} {6,S}
+5 C  u0 p0 c0 {2,S} {3,S} {6,D}
+6 C  u0 p0 c0 {4,S} {5,D} {9,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70423,0.0336379,-2.3666e-05,7.64257e-09,-8.4226e-13,38814.3,13.993], Tmin=(10,'K'), Tmax=(1301.51,'K')),
+            NASAPolynomial(coeffs=[10.577,0.0163409,-8.13972e-06,1.94789e-09,-1.82173e-13,36701.3,-22.2197], Tmin=(1301.51,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 81.91 kcal/mol
+S298: 87.71 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.85157 -0.03943 -0.00529
+Br -2.85157 -0.03943 0.00529
+C -0.00000 1.16584 0.00000
+C 0.99057 0.00507 0.10293
+C -0.99057 0.00507 -0.10293
+C -0.00000 -0.97171 0.00000
+H 0.09389 1.79303 -0.89099
+H -0.09390 1.79304 0.89099
+H 0.00000 -2.05177 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 75.0,150.2,152.9,243.8,336.3,381.4,483.6,853.9,924.9,948.0,1004.7,1042.3,1061.7,1157.5,1177.7,1316.1,1432.9,1490.7,3058.2,3110.2,3249.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2008,
+    label = "BrC(Br)(Br)C1OC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {8,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {9,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  O  u0 p2 c0 {7,S} {8,S}
+7  C  u0 p0 c0 {6,S} {8,S} {9,S} {10,S}
+8  C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+9  C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.92252,0.106508,-0.000273405,3.74561e-07,-2.02636e-10,4898.2,19.2712], Tmin=(10,'K'), Tmax=(454.411,'K')),
+            NASAPolynomial(coeffs=[11.5189,0.0308379,-2.36208e-05,8.10231e-09,-1.02444e-12,4116.94,-15.4207], Tmin=(454.411,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 17.35 kcal/mol
+S298: 116.10 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.01040 -1.42079 -0.07739
+Br 1.97721 1.59311 0.09929
+Br -2.57378 -1.37861 -0.63703
+Br -1.23537 -0.02980 1.94501
+Br -1.46544 1.58400 -0.83030
+O 0.84196 -0.42207 -1.58117
+C 0.17074 -0.79993 -0.36398
+C 1.51755 -0.20711 -0.39860
+C -1.15977 -0.14746 -0.01256
+H 0.13773 -1.87262 -0.18471
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 27.9,61.3,78.6,112.5,125.7,153.7,163.6,192.3,225.2,256.2,336.5,383.1,469.7,534.9,635.6,719.4,772.4,832.2,968.6,1044.3,1134.2,1318.8,1414.5,3142.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2009,
+    label = "Br[CH]C1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {9,S}
+6  C  u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
+7  C  u1 p0 c0 {3,S} {4,S} {11,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63993,0.0419191,0.000179172,-1.4134e-06,2.71948e-09,29964.1,17.5429], Tmin=(10,'K'), Tmax=(196.397,'K')),
+            NASAPolynomial(coeffs=[5.00134,0.0417339,-2.97704e-05,9.90496e-09,-1.23709e-12,29857.5,11.8385], Tmin=(196.397,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 65.49 kcal/mol
+S298: 102.40 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.75802 -2.22113 -0.04485
+Br 1.35294 2.37533 -0.06421
+Br -3.14766 -0.26488 -0.02258
+C -0.31814 -0.08570 0.51642
+C 0.86862 -0.53655 -0.35841
+C 1.04678 0.58464 0.59257
+C -1.46783 0.56019 -0.09014
+H -0.53387 -0.73220 1.36221
+H 0.80874 -0.31779 -1.41630
+H 1.61819 0.41464 1.49545
+H -1.38557 1.37350 -0.79652
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 35.3,84.4,98.9,185.6,196.4,258.3,290.9,388.8,449.7,607.7,684.8,766.4,781.6,907.0,1004.3,1023.7,1079.4,1143.2,1198.3,1220.3,1232.0,1289.2,1380.3,3154.7,3202.2,3208.0,3237.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2010,
+    label = "Br[C]1C(Br)C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {9,S}
+6  C  u0 p0 c0 {2,S} {5,S} {8,S} {10,S}
+7  C  u0 p0 c0 {3,S} {5,S} {8,S} {11,S}
+8  C  u1 p0 c0 {4,S} {6,S} {7,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.54961,0.0569158,0.000330385,-3.49616e-06,8.45506e-09,26529.8,17.4748], Tmin=(10,'K'), Tmax=(163.975,'K')),
+            NASAPolynomial(coeffs=[6.43122,0.0414784,-3.02116e-05,1.01162e-08,-1.26444e-12,26361.5,6.53397], Tmin=(163.975,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 59.36 kcal/mol
+S298: 107.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.92880 0.00000 0.81864
+Br 0.41101 -2.28089 -1.20586
+Br 0.41101 2.28089 -1.20586
+Br 2.36200 0.00000 1.38874
+C -1.24400 0.00000 -0.16996
+C -0.23789 -1.09571 0.27701
+C -0.23789 1.09571 0.27701
+C 0.66914 0.00000 0.66602
+H -1.49384 0.00000 -1.22596
+H -0.56744 -1.79871 1.03884
+H -0.56744 1.79871 1.03884
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 21.6,60.6,75.5,101.3,113.3,196.3,252.3,323.1,375.2,382.0,497.0,570.0,748.3,844.9,958.5,976.9,1080.4,1115.0,1142.9,1155.5,1176.4,1215.9,1216.5,1265.1,3134.0,3135.1,3173.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2011,
+    label = "Br[C]1OCDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,D}
+5 C  u1 p0 c0 {2,S} {3,S} {4,S}
+6 C  u0 p0 c0 {3,S} {4,D} {7,S}
+7 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.60867,0.0341083,-2.48192e-05,-1.40516e-08,2.1171e-11,30167.1,15.0282], Tmin=(10,'K'), Tmax=(574.559,'K')),
+            NASAPolynomial(coeffs=[7.20862,0.0194268,-1.35914e-05,4.36647e-09,-5.2553e-13,29582,-1.83569], Tmin=(574.559,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.62 kcal/mol
+S298: 88.56 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.12272 -0.53123 0.00004
+Br -2.06250 -0.58817 -0.00011
+O -0.85463 2.00787 0.00009
+C 0.71952 0.68140 0.00007
+C -0.68059 0.61197 0.00034
+C 0.56461 2.06097 -0.00012
+H 1.10813 2.98997 0.00010
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 49.2,94.8,239.8,327.2,383.7,402.0,469.5,563.4,812.5,1010.2,1061.4,1118.1,1257.3,1542.8,3295.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2012,
+    label = "BrCC1C(Br)(Br)C1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {1,S} {2,S} {6,S} {8,S}
+8  C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+9  C  u0 p0 c0 {5,S} {6,S} {11,S} {12,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {9,S}
+12 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.23212,0.0880865,7.87529e-05,-1.70331e-06,3.65733e-09,16307.7,18.6342], Tmin=(10,'K'), Tmax=(210.219,'K')),
+            NASAPolynomial(coeffs=[8.742,0.0434455,-3.22644e-05,1.09876e-08,-1.39231e-12,15943,-2.51833], Tmin=(210.219,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 40.17 kcal/mol
+S298: 117.03 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.47502 0.04162 -1.35666
+Br -1.33102 -2.08595 0.70373
+Br 0.70178 0.33628 2.08053
+Br -0.43086 2.46897 0.01769
+Br 3.27610 -0.43245 -1.09573
+C 0.43189 -0.22749 -0.84340
+C -0.95883 -0.46488 -0.27647
+C -0.05501 0.60312 0.32757
+C 1.52321 -1.25581 -0.74045
+H 0.42787 0.30783 -1.78869
+H 1.39715 -2.02984 -1.49637
+H 1.59305 -1.70404 0.24658
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.5,58.3,66.2,106.2,116.2,138.0,178.8,180.8,200.4,214.4,332.3,428.8,465.4,535.6,634.5,734.8,780.1,839.4,904.2,929.4,1065.1,1108.4,1169.3,1226.7,1254.4,1373.3,1465.7,3111.6,3155.5,3189.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2013,
+    label = "ODC1CDC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 O  u0 p2 c0 {3,D}
+3 C  u0 p0 c0 {2,D} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,D} {6,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91222,0.00578165,7.78744e-05,-1.90982e-07,1.36356e-10,19450.9,11.1337], Tmin=(10,'K'), Tmax=(484.903,'K')),
+            NASAPolynomial(coeffs=[4.35807,0.0186286,-1.29845e-05,4.21409e-09,-5.14794e-13,19213.3,7.30217], Tmin=(484.903,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 42.22 kcal/mol
+S298: 73.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.33294 -0.11668 -0.00000
+O -2.80988 -0.85535 -0.00000
+C -1.90087 -0.08236 0.00000
+C -1.37683 1.26254 0.00001
+C -0.49856 0.25178 0.00000
+H -1.51648 2.33479 0.00001
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 176.4,245.0,389.7,610.3,640.9,810.2,857.5,1023.0,1077.3,1602.0,1978.3,3228.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2014,
+    label = "BrC1DCC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u0 p0 c0 {4,S} {5,D} {7,S}
+7 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.61106,0.0340217,1.85465e-05,-1.85397e-07,1.98206e-10,37347.6,15.2118], Tmin=(10,'K'), Tmax=(410.012,'K')),
+            NASAPolynomial(coeffs=[7.3324,0.0205003,-1.53378e-05,5.22444e-09,-6.59643e-13,36850.9,-1.75907], Tmin=(410.012,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 79.14 kcal/mol
+S298: 90.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.39146 -1.61013 -0.16007
+Br -1.39145 1.61014 -0.16007
+Br 2.62887 -0.00000 -0.23688
+C -0.43940 0.00000 0.45135
+C 1.00120 -0.00001 0.61511
+C 0.30133 -0.00000 1.71783
+H 0.21256 -0.00001 2.78991
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 68.4,99.0,172.3,266.2,345.3,412.4,423.2,532.1,634.3,802.3,953.4,1034.9,1184.1,1757.9,3305.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2015,
+    label = "BrC(Br)(Br)[C]1OO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 O  u0 p2 c0 {4,S} {7,S}
+6 C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+7 C  u1 p0 c0 {4,S} {5,S} {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.30822,0.0648723,-0.000136624,1.46659e-07,-6.20378e-11,29647.4,15.9184], Tmin=(10,'K'), Tmax=(577.718,'K')),
+            NASAPolynomial(coeffs=[10.1537,0.0174755,-1.35619e-05,4.64895e-09,-5.84784e-13,28856.4,-13.3512], Tmin=(577.718,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.72 kcal/mol
+S298: 97.78 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.51164 0.00009 -1.08818
+Br -1.09860 -1.61283 -0.09436
+Br -1.09877 1.61272 -0.09433
+O 1.35897 -0.77271 2.13715
+O 1.35889 0.77279 2.13717
+C -0.03203 0.00000 0.16540
+C 0.40835 0.00000 1.58387
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 67.3,109.7,133.0,155.3,161.9,191.9,286.1,383.7,484.6,638.5,708.4,737.0,941.8,962.6,1509.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2016,
+    label = "BrCC1CDC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+4  C  u0 p0 c0 {2,S} {5,D} {9,S}
+5  C  u0 p0 c0 {2,S} {4,D} {10,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92234,0.00489068,0.000117934,-2.43537e-07,1.55813e-10,30346,12.6243], Tmin=(10,'K'), Tmax=(499.67,'K')),
+            NASAPolynomial(coeffs=[1.95176,0.0362639,-2.30737e-05,7.07262e-09,-8.32942e-13,30348.3,18.8155], Tmin=(499.67,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.32 kcal/mol
+S298: 79.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.39475 0.11592 -0.00036
+C -1.45096 -0.20042 0.49928
+C -0.31740 -0.87659 -0.22421
+C -2.22353 0.92198 -0.13402
+C -2.83926 -0.21247 -0.09861
+H -1.33609 -0.21399 1.58563
+H -0.10117 -1.87267 0.16213
+H -0.48372 -0.91911 -1.29989
+H -2.20064 1.96754 -0.38649
+H -3.70781 -0.81388 -0.30336
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 76.7,183.2,336.1,417.2,620.8,656.2,796.9,856.0,876.9,952.6,1010.9,1033.5,1076.6,1143.0,1210.7,1240.0,1391.5,1470.2,1732.5,3067.8,3091.1,3161.5,3264.9,3314.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2017,
+    label = "BrC1[CH]CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 O  u0 p2 c0 {3,S} {4,S}
+3 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+4 C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+5 C  u1 p0 c0 {3,S} {4,S} {9,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86287,0.0135523,4.54292e-05,-8.44248e-08,4.25228e-11,12644.4,12.4985], Tmin=(10,'K'), Tmax=(676.474,'K')),
+            NASAPolynomial(coeffs=[3.15729,0.0300317,-1.8402e-05,5.37521e-09,-6.03183e-13,12458.3,13.5454], Tmin=(676.474,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 29.12 kcal/mol
+S298: 79.29 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.27839 0.00256 -0.10096
+O 1.46246 -1.01354 0.12655
+C 0.66012 -0.05950 0.74536
+C 2.22379 0.03850 -0.55505
+C 1.44401 1.05144 0.22686
+H 0.39221 -0.25200 1.78059
+H 3.29400 -0.04997 -0.33636
+H 2.06311 0.01506 -1.64040
+H 1.32704 2.12296 0.21429
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 133.9,200.0,251.8,431.2,507.6,886.7,914.8,935.1,957.6,1005.4,1091.5,1112.5,1143.7,1234.7,1281.2,1358.4,1483.2,3019.5,3068.3,3152.8,3268.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2018,
+    label = "BrC(Br)(Br)C1(Br)CO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {6,S} {7,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+7  C  u0 p0 c0 {5,S} {6,S} {9,S} {10,S}
+8  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.18504,0.0760252,-0.000140011,1.42718e-07,-5.89972e-11,525.361,17.2049], Tmin=(10,'K'), Tmax=(584.172,'K')),
+            NASAPolynomial(coeffs=[9.9595,0.0296387,-2.09028e-05,6.79135e-09,-8.26589e-13,-266.132,-11.8363], Tmin=(584.172,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 7.69 kcal/mol
+S298: 105.19 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.49383 0.17465 -0.00211
+Br 0.31533 -1.17215 -1.57304
+Br 0.34291 -1.10090 1.64222
+Br 2.16315 0.89641 -0.03981
+O -0.58741 2.09068 -0.82850
+C -0.72044 0.99889 0.00619
+C -0.62656 2.33684 0.59846
+C 0.42508 -0.02463 0.01004
+H 0.30862 2.68220 1.02673
+H -1.54237 2.79536 0.95904
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.7,104.0,112.2,144.4,166.3,184.9,219.4,270.1,333.2,338.6,421.3,572.5,691.3,722.2,817.2,901.9,994.9,1090.5,1119.6,1175.1,1355.5,1506.6,3122.5,3227.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2019,
+    label = "OC1CC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  O  u0 p2 c0 {3,S} {10,S}
+3  C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
+6  H  u0 p0 c0 {3,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91522,0.00519656,0.000116259,-2.35331e-07,1.45843e-10,-11589.8,12.0103], Tmin=(10,'K'), Tmax=(524.783,'K')),
+            NASAPolynomial(coeffs=[2.24308,0.0359574,-2.31595e-05,7.19814e-09,-8.58388e-13,-11662.3,16.6357], Tmin=(524.783,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -19.00 kcal/mol
+S298: 77.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.39605 -0.11647 -0.02768
+O -2.75463 -0.65976 0.07690
+C -1.56957 -0.13237 -0.43067
+C -1.25143 1.28448 -0.04648
+C -0.43907 0.15068 0.51884
+H -1.30234 -0.44037 -1.44044
+H -1.92889 1.78036 0.64052
+H -0.80368 1.92219 -0.79910
+H -0.57438 -0.10833 1.56062
+H -2.65492 -1.61594 0.14199
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 193.9,230.9,312.5,345.8,434.3,615.1,832.0,899.7,913.9,969.3,1059.7,1082.5,1110.1,1179.4,1214.7,1253.3,1293.9,1423.8,1474.9,3115.1,3140.2,3200.2,3233.9,3798.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2020,
+    label = "BrC(Br)DC1[C]DC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,D} {6,S}
+4 C  u0 p0 c0 {3,S} {6,D} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {3,D}
+6 C  u1 p0 c0 {3,S} {4,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.59887,0.0405611,-6.35824e-05,5.8584e-08,-2.28576e-11,76248.3,15.214], Tmin=(10,'K'), Tmax=(602.563,'K')),
+            NASAPolynomial(coeffs=[6.53232,0.021088,-1.51069e-05,4.95161e-09,-6.05954e-13,75894.8,2.54779], Tmin=(602.563,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 156.32 kcal/mol
+S298: 90.32 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.53994 -0.82522 -0.01232
+Br 1.66108 -0.57303 0.01414
+C -0.11588 1.64646 -0.00515
+C -0.82726 2.78112 0.10142
+C -0.01136 0.26320 -0.00490
+C 0.54629 2.92686 -0.14850
+H -1.79091 3.23266 0.27903
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 57.8,115.2,174.1,197.1,342.8,402.7,480.9,810.6,860.9,889.9,1006.3,1167.4,1243.8,1679.5,3259.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2021,
+    label = "OC1D[C]C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {5,S} {7,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {4,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5432,0.0422526,-3.60002e-05,-6.89685e-08,1.16891e-10,43432.3,14.6793], Tmin=(10,'K'), Tmax=(392.199,'K')),
+            NASAPolynomial(coeffs=[7.429,0.0196183,-1.44378e-05,4.8752e-09,-6.12572e-13,42996.7,-2.09694], Tmin=(392.199,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 91.34 kcal/mol
+S298: 90.38 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60342 -0.66483 -0.07727
+Br 1.60356 -0.66456 -0.07727
+O -0.00048 2.79393 -0.69000
+C -0.00002 0.37413 0.40536
+C -0.00017 1.86256 0.23175
+C -0.00010 1.39353 1.44626
+H 0.00064 2.39580 -1.57145
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 54.9,118.3,154.1,185.1,281.3,371.5,500.7,548.2,619.3,796.4,1034.0,1126.8,1254.0,1916.8,3775.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2022,
+    label = "BrCC1OC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  O  u0 p2 c0 {4,S} {5,S}
+4  C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+6  C  u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71312,0.0284629,5.06877e-06,-3.00205e-08,1.5179e-11,-8608.22,14.9926], Tmin=(10,'K'), Tmax=(819.602,'K')),
+            NASAPolynomial(coeffs=[5.72534,0.0297532,-1.76269e-05,4.98031e-09,-5.42282e-13,-9311.24,3.40851], Tmin=(819.602,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -12.41 kcal/mol
+S298: 88.67 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.02796 -0.71228 0.05068
+Br 2.30097 -0.39387 -0.09804
+O -1.12718 2.00394 0.24089
+C 0.09195 1.38647 -0.24454
+C -1.24422 0.92969 -0.63560
+C 0.92988 0.70052 0.79354
+H 0.64353 1.99722 -0.95816
+H -1.66357 1.13392 -1.61582
+H 0.34539 0.03086 1.41943
+H 1.47121 1.42150 1.40460
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 39.1,165.2,194.3,292.5,351.9,435.5,634.8,661.6,811.2,839.6,926.8,1058.2,1079.0,1141.8,1194.4,1239.2,1277.3,1307.5,1449.6,1474.7,3110.4,3124.4,3161.9,3185.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2023,
+    label = "BrC1(Br)[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {3,S}
+3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u1 p0 c0 {3,S} {4,S} {8,S}
+6 H  u0 p0 c0 {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83419,0.0119396,0.00012045,-3.48687e-07,2.86848e-10,38366.7,14.1037], Tmin=(10,'K'), Tmax=(430.678,'K')),
+            NASAPolynomial(coeffs=[5.20969,0.0253275,-1.73013e-05,5.59836e-09,-6.85786e-13,38005.6,5.80945], Tmin=(430.678,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 80.58 kcal/mol
+S298: 84.15 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60629 -0.49268 -0.01485
+Br 1.63154 -0.45338 -0.00034
+C -0.00356 0.61157 0.05021
+C -0.02441 1.95852 -0.65868
+C -0.02924 1.82445 0.80584
+H 0.89199 2.26738 -1.16094
+H -0.93572 2.25018 -1.18058
+H -0.49662 2.22725 1.68905
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 164.0,218.0,246.0,334.6,355.7,412.9,565.1,861.1,923.0,954.3,1007.6,1067.5,1087.5,1307.8,1446.6,3074.2,3149.6,3269.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2024,
+    label = "BrC(Br)DC1C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {9,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,S} {10,S}
+7  C  u0 p0 c0 {5,S} {6,S} {8,D}
+8  C  u0 p0 c0 {3,S} {4,S} {7,D}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.40112,0.0687054,4.7883e-05,-1.18689e-06,2.5499e-09,31369.8,17.5805], Tmin=(10,'K'), Tmax=(211.088,'K')),
+            NASAPolynomial(coeffs=[7.343,0.0366779,-2.77368e-05,9.54379e-09,-1.21688e-12,31108.3,2.44299], Tmin=(211.088,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 68.95 kcal/mol
+S298: 107.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.96493 2.28062 -0.50551
+Br -1.96441 -2.28095 0.50553
+Br 2.16379 1.41126 0.76754
+Br 2.16399 -1.41091 -0.76755
+C -1.39021 0.65322 0.38476
+C -1.39011 -0.65342 -0.38476
+C -0.14642 0.00003 -0.00004
+C 1.16978 0.00011 -0.00002
+H -1.70193 0.65947 1.42326
+H -1.70192 -0.65973 -1.42324
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 41.4,42.5,78.9,86.0,163.0,209.3,213.4,262.5,368.4,435.0,545.7,654.8,666.9,806.5,871.9,1021.2,1032.3,1034.0,1141.1,1190.9,1225.5,1790.7,3175.5,3179.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2025,
+    label = "Br[C](Br)C1CDC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {6,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {4,S} {6,D} {9,S}
+6 C  u0 p0 c0 {1,S} {4,S} {5,D}
+7 C  u1 p0 c0 {2,S} {3,S} {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.37203,0.062111,-0.000120035,1.38994e-07,-6.67741e-11,55001.8,18.3468], Tmin=(10,'K'), Tmax=(501.254,'K')),
+            NASAPolynomial(coeffs=[7.53467,0.028893,-2.063e-05,6.78454e-09,-8.34668e-13,54584.5,1.13941], Tmin=(501.254,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 115.16 kcal/mol
+S298: 103.00 cal/mol/K
+
+Coordinates (Angstoms):
+Br -3.08235 -0.30189 -0.40487
+Br 2.57567 -1.00302 -0.24457
+Br 0.85381 1.70384 -0.01870
+C -0.15608 -0.94468 0.71704
+C -1.03811 -0.35875 1.83254
+C -1.59016 -0.51085 0.67731
+C 0.92013 -0.17110 0.07167
+H 0.07669 -2.01063 0.73460
+H -1.04078 -0.03954 2.85927
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 21.2,52.5,130.6,147.3,185.3,281.2,321.4,420.3,470.5,547.4,742.5,763.8,839.0,961.4,1036.9,1077.6,1155.9,1353.6,1787.0,3090.4,3305.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2026,
+    label = "BrC1DC(C(Br)(Br)Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {7,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+7  C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+8  C  u0 p0 c0 {6,S} {7,S} {9,D}
+9  C  u0 p0 c0 {5,S} {6,S} {8,D}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.83329,0.117616,-0.000358227,5.82484e-07,-3.70756e-10,40572.2,20.7623], Tmin=(10,'K'), Tmax=(388.403,'K')),
+            NASAPolynomial(coeffs=[11.2478,0.0309586,-2.35594e-05,8.0509e-09,-1.01583e-12,39918.6,-11.8752], Tmin=(388.403,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 88.34 kcal/mol
+S298: 120.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.30149 -2.19736 -0.03443
+Br -1.65780 1.78887 -0.70259
+Br -1.46424 -1.36259 -1.30774
+Br -2.11341 -0.33799 1.66677
+Br 2.52758 2.12257 0.03764
+C 1.43956 -0.69945 0.93109
+C -1.10771 0.04947 0.01181
+C 0.31313 0.06773 0.32894
+C 1.47564 0.65719 0.38139
+H 1.49956 -0.92227 1.99293
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 14.6,50.9,54.5,69.3,112.7,134.1,157.5,172.0,216.5,281.1,364.4,417.1,515.8,541.7,583.8,675.9,713.6,849.3,1023.7,1109.5,1163.3,1259.3,1856.4,3141.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2027,
+    label = "Br[C]DC1CC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {9,S}
+5 C  u0 p0 c0 {3,S} {4,S} {6,D}
+6 C  u1 p0 c0 {2,S} {5,D}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.64181,0.0313253,-3.81257e-06,-3.19309e-08,2.26694e-11,53171.5,15.5429], Tmin=(10,'K'), Tmax=(647.27,'K')),
+            NASAPolynomial(coeffs=[5.80576,0.0276078,-1.75732e-05,5.28831e-09,-6.07317e-13,52689.1,4.482], Tmin=(647.27,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 110.41 kcal/mol
+S298: 89.86 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.69040 -0.41718 -0.08700
+Br -2.88335 -0.21885 -0.07278
+C 0.57785 1.68415 -0.40193
+C 1.31716 0.78988 0.56629
+C -0.09403 0.53514 0.27283
+C -1.12981 -0.20577 0.49511
+H 0.79335 1.57471 -1.46098
+H 0.33447 2.69453 -0.08159
+H 1.59821 1.17171 1.54100
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 63.6,120.0,202.0,270.3,349.3,457.7,550.9,606.6,822.4,876.2,939.2,984.7,1057.8,1096.0,1144.2,1232.3,1449.2,1820.9,3107.1,3175.0,3198.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2028,
+    label = "[CH2]C1DC(Br)C1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {6,D} {7,S}
+6 C  u0 p0 c0 {3,S} {4,S} {5,D}
+7 C  u1 p0 c0 {5,S} {8,S} {9,S}
+8 H  u0 p0 c0 {7,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.40345,0.0549606,-4.91544e-05,-6.08307e-08,1.11153e-10,48368,16.4573], Tmin=(10,'K'), Tmax=(407.414,'K')),
+            NASAPolynomial(coeffs=[8.09255,0.0280054,-2.0169e-05,6.70404e-09,-8.32859e-13,47827.6,-3.89806], Tmin=(407.414,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 101.99 kcal/mol
+S298: 98.81 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.38695 -1.61495 -0.32922
+Br -1.38691 1.61498 -0.32920
+Br 2.60400 -0.00001 -0.43526
+C -0.44380 -0.00000 0.27542
+C 0.27760 -0.00002 1.57892
+C 0.98619 -0.00003 0.42820
+C 0.14188 -0.00004 2.93551
+H 1.01365 -0.00005 3.57869
+H -0.83977 -0.00003 3.39174
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 56.2,95.8,112.3,151.4,177.8,310.0,315.0,441.9,496.8,527.8,553.4,653.4,787.2,835.9,1027.1,1144.9,1258.9,1471.5,1622.2,3162.1,3263.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2029,
+    label = "BrC1OC1(Br)Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.60238,0.0347508,-9.58384e-06,-7.29296e-08,7.71824e-11,-202.084,15.5373], Tmin=(10,'K'), Tmax=(476.409,'K')),
+            NASAPolynomial(coeffs=[7.1989,0.0205158,-1.50212e-05,5.0068e-09,-6.20492e-13,-725.906,-1.0482], Tmin=(476.409,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 4.42 kcal/mol
+S298: 90.42 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.47347 -0.46575 -0.19063
+Br 2.21778 -0.85260 -0.19860
+Br 0.33207 1.74153 -0.00431
+O -0.09868 -0.67961 1.41291
+C -0.68829 -1.05653 0.17261
+C 0.46669 -0.15707 0.25897
+H -0.55393 -2.09295 -0.11902
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 95.0,121.9,173.3,224.3,350.5,393.9,436.1,683.8,755.4,791.9,976.7,1110.8,1273.2,1357.1,3175.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2030,
+    label = "BrC1D[C]C(Br)DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,D}
+5 C  u0 p0 c0 {2,S} {4,S} {7,D}
+6 C  u0 p0 c0 {3,S} {4,D} {7,S}
+7 C  u1 p0 c0 {5,D} {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43332,0.0556661,-0.000104366,1.03633e-07,-4.142e-11,79906.8,16.4726], Tmin=(10,'K'), Tmax=(603.671,'K')),
+            NASAPolynomial(coeffs=[8.84767,0.0197899,-1.52211e-05,5.18539e-09,-6.49366e-13,79253.1,-6.91574], Tmin=(603.671,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 164.27 kcal/mol
+S298: 97.01 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.00019 1.99313 0.04607
+Br -2.87533 -0.74009 -0.02546
+Br 2.87519 -0.74026 -0.02545
+C -0.00002 0.13643 -0.33436
+C -1.03857 -0.81936 -0.12689
+C 1.03842 -0.81956 -0.12715
+C -0.00011 -1.48876 0.61665
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 56.2,81.8,125.0,194.1,204.3,250.3,441.9,454.2,563.5,593.0,791.8,820.8,1114.6,1250.1,1413.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2031,
+    label = "OC1DC[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {3,S} {7,S}
+3 C  u0 p0 c0 {2,S} {4,S} {5,D}
+4 C  u1 p0 c0 {1,S} {3,S} {5,S}
+5 C  u0 p0 c0 {3,D} {4,S} {6,S}
+6 H  u0 p0 c0 {5,S}
+7 H  u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.8824,0.00786705,9.66287e-05,-2.47558e-07,1.82696e-10,33342.2,12.7871], Tmin=(10,'K'), Tmax=(475.419,'K')),
+            NASAPolynomial(coeffs=[4.85686,0.0214127,-1.47158e-05,4.78225e-09,-5.87355e-13,33003.8,6.22606], Tmin=(475.419,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 70.15 kcal/mol
+S298: 78.93 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.33683 -0.12434 -0.04332
+O -2.59043 -0.93591 -0.12713
+C -1.74449 0.05054 0.05891
+C -0.50102 0.50545 0.56532
+C -1.44988 1.32674 -0.14782
+H -1.68199 2.29257 -0.56033
+H -2.21129 -1.74965 0.23511
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 127.0,239.2,342.9,471.4,513.6,585.0,776.0,821.9,980.7,1154.7,1195.3,1377.4,1845.7,3294.2,3752.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2032,
+    label = "CC1DC(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+3  C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+4  C  u0 p0 c0 {2,S} {3,S} {5,D}
+5  C  u0 p0 c0 {1,S} {2,S} {4,D}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {3,S}
+10 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71526,0.0238127,5.39353e-06,-2.13397e-08,9.5884e-12,28923.3,11.4763], Tmin=(10,'K'), Tmax=(853.355,'K')),
+            NASAPolynomial(coeffs=[3.61789,0.0304158,-1.70178e-05,4.60957e-09,-4.86564e-13,28716.1,10.6192], Tmin=(853.355,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 61.80 kcal/mol
+S298: 79.11 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.39154 -0.15837 -0.00004
+C 1.33842 1.50046 0.00006
+C 2.73053 -0.99135 0.00007
+C 1.63886 -0.00445 0.00002
+C 0.39797 0.34867 0.00000
+H 1.49387 2.08032 -0.91383
+H 1.49382 2.08027 0.91399
+H 3.37013 -0.86224 0.88088
+H 2.34128 -2.01324 0.00002
+H 3.37026 -0.86220 -0.88064
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 134.7,162.8,196.4,346.9,435.2,453.0,698.2,966.8,1010.1,1046.1,1073.2,1088.6,1120.6,1191.1,1405.6,1473.5,1479.3,1526.8,1926.4,3025.0,3028.7,3078.9,3093.5,3111.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2033,
+    label = "C[C]1CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+4  C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+5  C  u0 p0 c0 {6,S} {9,S} {10,S} {11,S}
+6  C  u1 p0 c0 {3,S} {4,S} {5,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81282,0.02487,0.000459418,-3.87308e-06,9.58216e-09,31486.1,13.4193], Tmin=(10,'K'), Tmax=(144.226,'K')),
+            NASAPolynomial(coeffs=[4.61134,0.0370099,-2.34306e-05,7.10376e-09,-8.26433e-13,31427.5,9.87689], Tmin=(144.226,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 68.07 kcal/mol
+S298: 91.80 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.35712 -1.06597 -0.06292
+Br 1.78450 -0.26803 -0.13635
+C -0.25225 1.25663 1.47650
+C -0.03273 0.33909 0.28208
+C -1.08998 2.61727 -0.82990
+C -0.38805 1.70021 0.07970
+H 0.62517 1.55151 2.05355
+H -1.14218 1.08963 2.08652
+H -2.16608 2.38462 -0.86298
+H -0.99028 3.65611 -0.50167
+H -0.70700 2.52867 -1.85127
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 55.7,85.0,151.8,184.6,238.6,293.1,345.8,438.8,534.4,720.3,901.0,953.6,972.2,1020.3,1036.6,1067.8,1137.6,1393.7,1435.9,1465.4,1467.2,1525.1,2984.2,3055.9,3067.8,3111.4,3127.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2034,
+    label = "BrC1DC(Br)C(Br)(Br)[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 Br u0 p3 c0 {8,S}
+5 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 C  u1 p0 c0 {5,S} {8,S} {9,S}
+7 C  u0 p0 c0 {3,S} {5,S} {8,D}
+8 C  u0 p0 c0 {4,S} {6,S} {7,D}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.21569,0.0755345,-0.000149193,1.59007e-07,-6.81448e-11,42206.2,18.2666], Tmin=(10,'K'), Tmax=(565.666,'K')),
+            NASAPolynomial(coeffs=[10.1074,0.0268013,-1.99649e-05,6.70587e-09,-8.34084e-13,41426.5,-11.0553], Tmin=(565.666,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 90.39 kcal/mol
+S298: 106.79 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.93398 -0.40337 1.60899
+Br -1.93401 -0.40332 -1.60898
+Br 0.61189 2.22065 0.00002
+Br 3.08403 -0.90994 -0.00002
+C -0.81818 -0.51213 -0.00001
+C 0.18462 -1.64519 -0.00004
+C 0.39434 0.39842 -0.00000
+C 1.23082 -0.72850 -0.00002
+H 0.07291 -2.71624 -0.00004
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 42.6,56.1,81.4,118.5,144.0,237.4,278.9,303.3,438.7,443.5,452.7,531.8,550.2,708.4,938.7,946.5,1032.8,1180.1,1225.7,1475.8,3285.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2035,
+    label = "OC1(Br)C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {5,S} {10,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6  C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+7  C  u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
+8  H  u0 p0 c0 {6,S}
+9  H  u0 p0 c0 {7,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.36083,0.0534458,-6.19399e-05,3.84144e-08,-9.77316e-12,-6658.1,16.3889], Tmin=(10,'K'), Tmax=(915.489,'K')),
+            NASAPolynomial(coeffs=[9.88027,0.0249607,-1.52679e-05,4.42749e-09,-4.92068e-13,-7851.8,-14.488], Tmin=(915.489,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -7.47 kcal/mol
+S298: 97.44 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.43925 1.76814 -0.30705
+Br 1.59611 -1.83255 0.00446
+Br -2.73131 -0.21438 -0.22051
+O -0.54290 1.29607 1.61474
+C 0.01204 0.71494 0.51556
+C 0.09710 -0.78870 0.57942
+C -0.81814 -0.13126 -0.41989
+H -0.35146 -1.20531 1.47306
+H -0.53119 -0.15786 -1.46251
+H -1.16176 1.98236 1.32916
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 86.5,96.8,141.0,176.0,214.4,277.5,287.0,373.2,457.5,580.0,688.0,751.9,874.5,923.1,1024.4,1047.4,1129.4,1209.6,1237.4,1305.2,1397.2,3194.6,3211.6,3756.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2036,
+    label = "Br[CH]C1(Br)CO1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5 C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+6 C  u1 p0 c0 {2,S} {4,S} {9,S}
+7 H  u0 p0 c0 {5,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.61817,0.0336391,8.47829e-06,-9.32217e-08,8.37679e-11,13369.8,15.4193], Tmin=(10,'K'), Tmax=(469.739,'K')),
+            NASAPolynomial(coeffs=[5.64862,0.0294326,-1.98682e-05,6.30222e-09,-7.56604e-13,13034.7,5.62133], Tmin=(469.739,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 31.54 kcal/mol
+S298: 90.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.24602 -0.42226 0.02202
+Br 2.35999 -0.25095 0.02448
+O -0.22189 1.44801 0.80072
+C -0.45384 0.39536 -0.07789
+C -0.39201 1.78130 -0.59002
+C 0.55707 -0.64598 -0.24069
+H -1.32128 2.28725 -0.83789
+H 0.51083 2.12283 -1.09099
+H 0.32937 -1.61614 -0.65290
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 52.1,147.4,189.7,277.2,290.7,312.7,443.9,597.4,710.4,805.2,897.9,947.7,1083.7,1123.4,1163.2,1256.9,1346.3,1502.7,3100.8,3206.5,3261.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2037,
+    label = "BrC1(Br)COO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 O  u0 p2 c0 {3,S} {5,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+7 H  u0 p0 c0 {6,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68689,0.0329597,-2.69719e-05,1.05783e-08,-1.5693e-12,3502.67,14.3488], Tmin=(10,'K'), Tmax=(1214.78,'K')),
+            NASAPolynomial(coeffs=[10.0651,0.0147587,-7.95643e-06,2.04093e-09,-2.0296e-13,1746.35,-18.5142], Tmin=(1214.78,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 11.62 kcal/mol
+S298: 87.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.60073 -0.67322 0.00899
+Br 1.60129 -0.67223 0.00900
+O -0.00172 2.52409 -0.15327
+O -0.00025 1.36197 -1.06711
+C -0.00001 0.46651 0.00296
+C -0.00053 1.62466 0.98865
+H -0.90383 1.72697 1.59225
+H 0.90324 1.72828 1.59134
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 23.7,163.8,229.7,273.8,316.2,340.0,631.8,864.2,904.2,938.0,1050.9,1085.3,1120.2,1130.8,1331.4,1497.6,3076.1,3143.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2038,
+    label = "BrC(Br)C1(Br)[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+7 C  u1 p0 c0 {4,S} {5,S} {9,S}
+8 H  u0 p0 c0 {6,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.41441,0.0516646,-6.37687e-05,4.14078e-08,-1.09533e-11,21576.4,17.2293], Tmin=(10,'K'), Tmax=(885.149,'K')),
+            NASAPolynomial(coeffs=[9.82874,0.0226781,-1.46473e-05,4.41103e-09,-5.03945e-13,20440.8,-12.9335], Tmin=(885.149,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 48.49 kcal/mol
+S298: 98.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.42971 -0.16494 -0.32737
+Br 0.52747 1.87963 0.22787
+Br 2.14913 -0.85887 -0.29631
+O -0.51450 -2.11897 0.50006
+C -0.67321 -0.70388 0.31500
+C 0.42114 0.03820 -0.43312
+C -0.56874 -1.30386 1.61215
+H 0.20214 0.11552 -1.49347
+H 0.19749 -1.30012 2.38189
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 39.0,110.0,150.9,185.2,207.5,303.2,328.6,388.4,584.7,632.7,688.5,786.8,833.5,943.0,1030.4,1134.3,1166.6,1245.3,1434.3,3167.5,3169.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2039,
+    label = "BrC(Br)C1(Br)CO1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {7,S}
+4  O  u0 p2 c0 {5,S} {6,S}
+5  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6  C  u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
+7  C  u0 p0 c0 {2,S} {3,S} {5,S} {10,S}
+8  H  u0 p0 c0 {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.50323,0.0503235,-5.88048e-05,4.11558e-08,-1.27605e-11,-4911.76,16.1356], Tmin=(10,'K'), Tmax=(718.032,'K')),
+            NASAPolynomial(coeffs=[6.68056,0.0326233,-2.18282e-05,6.82424e-09,-8.07078e-13,-5368.04,1.85935], Tmin=(718.032,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -4.13 kcal/mol
+S298: 97.01 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.85417 -0.00700 -0.90394
+Br -1.25862 1.63312 -0.11721
+Br -1.31720 -1.60871 -0.15728
+O 1.44207 0.75076 1.80099
+C 0.90655 -0.04367 0.79049
+C 1.56256 -0.68144 1.93777
+C -0.60281 -0.00963 0.70269
+H 0.96326 -1.12172 2.73210
+H 2.56495 -1.07810 1.80669
+H -1.00486 -0.00697 1.71252
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 48.8,106.0,115.3,158.5,256.7,305.0,340.1,424.9,479.4,662.0,704.7,830.0,905.4,972.7,1116.8,1129.0,1159.9,1172.7,1230.3,1366.3,1516.5,3102.9,3150.1,3207.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2040,
+    label = "CC1CDC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+4  C  u0 p0 c0 {2,S} {5,D} {10,S}
+5  C  u0 p0 c0 {1,S} {2,S} {4,D}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {3,S}
+10 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88124,0.0105824,0.000110686,-3.10214e-07,2.83017e-10,30503,11.941], Tmin=(10,'K'), Tmax=(279.098,'K')),
+            NASAPolynomial(coeffs=[2.15937,0.0352602,-2.19442e-05,6.59536e-09,-7.63942e-13,30599.1,18.0505], Tmin=(279.098,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 64.84 kcal/mol
+S298: 79.37 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.37642 -0.15016 -0.01334
+C 1.77217 0.11860 0.49621
+C 2.62834 -0.90110 -0.23150
+C 1.23713 1.37357 -0.20390
+C 0.38263 0.44547 0.06693
+H 2.00675 0.20026 1.56234
+H 2.50131 -1.90025 0.20122
+H 2.36269 -0.95265 -1.29174
+H 3.69148 -0.64501 -0.15654
+H 1.49095 2.33412 -0.61492
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 141.2,176.3,282.0,393.7,418.6,496.3,750.3,779.4,896.7,982.2,1007.3,1098.0,1116.5,1237.7,1395.5,1407.8,1487.5,1493.3,1787.1,3021.9,3041.6,3082.7,3106.4,3302.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2041,
+    label = "BrC1DCC(Br)(Br)C1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {2,S} {5,S} {7,S}
+5  C  u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
+6  C  u0 p0 c0 {3,S} {5,S} {7,D}
+7  C  u0 p0 c0 {4,S} {6,D} {10,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.5219,0.0418256,-8.83507e-06,-6.05592e-08,5.61641e-11,21759.1,15.6599], Tmin=(10,'K'), Tmax=(517.569,'K')),
+            NASAPolynomial(coeffs=[6.43351,0.0328502,-2.20258e-05,6.9276e-09,-8.24994e-13,21276.6,1.7804], Tmin=(517.569,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 48.68 kcal/mol
+S298: 94.14 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.78831 1.60681 -0.02233
+Br 1.78826 -1.60683 -0.02233
+Br -3.25919 0.00001 -0.03032
+C 0.64917 0.00001 0.01925
+C -0.42814 0.00002 1.15873
+C -1.38849 0.00002 -0.01184
+C -0.46398 0.00002 -0.97927
+H -0.43017 0.89680 1.78076
+H -0.43018 -0.89675 1.78079
+H -0.45939 0.00002 -2.05841
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 53.2,142.6,180.4,232.9,233.4,292.1,375.0,410.8,460.3,598.4,873.1,879.1,911.2,1023.9,1039.4,1101.2,1130.2,1198.7,1263.1,1472.3,1628.0,3078.8,3138.6,3261.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2042,
+    label = "Br[C]1CDC(Br)O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {5,S} {6,S}
+4 C  u0 p0 c0 {5,S} {6,D} {7,S}
+5 C  u1 p0 c0 {1,S} {3,S} {4,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65682,0.0298793,-6.46866e-06,-4.40441e-08,3.85384e-11,28838.7,14.3305], Tmin=(10,'K'), Tmax=(562.849,'K')),
+            NASAPolynomial(coeffs=[6.75032,0.0203622,-1.43314e-05,4.62329e-09,-5.58115e-13,28293,-0.57022], Tmin=(562.849,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 61.86 kcal/mol
+S298: 86.38 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.74628 -0.07770 -0.00870
+Br -2.74628 -0.07770 0.00870
+O -0.00000 -0.84661 0.00001
+C -0.00000 1.23700 0.00000
+C 0.92898 0.20664 0.15002
+C -0.92898 0.20664 -0.15001
+H -0.00000 2.30986 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 59.3,150.2,217.7,292.8,364.5,470.0,547.8,703.4,820.1,1025.1,1026.3,1174.8,1234.8,1485.4,3328.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2043,
+    label = "ODC1CC1Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {5,D}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+5 C  u0 p0 c0 {2,D} {3,S} {4,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+8 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91638,0.00520148,9.68326e-05,-2.07138e-07,1.33216e-10,4401.02,12.135], Tmin=(10,'K'), Tmax=(519.067,'K')),
+            NASAPolynomial(coeffs=[3.30636,0.0274544,-1.81958e-05,5.7439e-09,-6.91064e-13,4227.89,12.4003], Tmin=(519.067,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 12.53 kcal/mol
+S298: 76.97 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.26522 -0.11942 -0.05622
+O -2.38815 -1.12840 -0.09436
+C -1.43601 1.25028 -0.28737
+C -0.46765 0.41625 0.60242
+C -1.70388 -0.16403 0.04830
+H -1.13545 1.45774 -1.31161
+H -1.97257 2.06117 0.19872
+H -0.42413 0.67311 1.65553
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 124.8,242.2,389.9,508.1,572.5,713.4,787.7,934.9,996.9,1052.7,1079.0,1100.2,1215.1,1409.5,1958.4,3109.3,3167.8,3198.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2044,
+    label = "Br[C]DC1CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 C  u0 p0 c0 {3,S} {4,S} {5,D}
+3 C  u0 p0 c0 {2,S} {4,D} {6,S}
+4 C  u0 p0 c0 {2,S} {3,D} {7,S}
+5 C  u1 p0 c0 {1,S} {2,D}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86979,0.00958619,9.16543e-05,-2.58098e-07,2.0911e-10,75676.2,11.811], Tmin=(10,'K'), Tmax=(428.873,'K')),
+            NASAPolynomial(coeffs=[4.40398,0.0223925,-1.53522e-05,4.95178e-09,-6.03289e-13,75466.8,7.77888], Tmin=(428.873,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 154.31 kcal/mol
+S298: 77.34 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.41500 0.06278 0.00000
+C -1.48537 -0.22355 0.00000
+C -2.92303 -0.40684 -0.00001
+C -2.49608 0.82983 -0.00000
+C -0.27565 -0.69599 -0.00002
+H -3.74356 -1.10486 0.00009
+H -2.70046 1.88702 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 135.9,151.9,379.8,383.1,608.7,676.0,833.3,883.5,903.2,1037.6,1083.2,1607.5,1853.1,3257.7,3305.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2045,
+    label = "BrC1C(Br)(Br)OC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {7,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {9,S}
+5  Br u0 p3 c0 {9,S}
+6  O  u0 p2 c0 {8,S} {9,S}
+7  C  u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+8  C  u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+9  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.01104,0.100067,-0.000250047,3.44109e-07,-1.89053e-10,-2282.58,18.3067], Tmin=(10,'K'), Tmax=(445.926,'K')),
+            NASAPolynomial(coeffs=[10.4416,0.0334141,-2.58387e-05,8.91326e-09,-1.13117e-12,-2945.27,-11.5405], Tmin=(445.926,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 2.87 kcal/mol
+S298: 112.96 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.36313 -0.63442 0.00000
+Br 0.37353 -1.47815 -2.04744
+Br 0.67207 1.68925 -2.24659
+Br 0.37353 -1.47815 2.04744
+Br 0.67207 1.68925 2.24659
+O 1.33617 0.15943 0.00000
+C -0.76304 0.41679 0.00000
+C 0.37353 0.18289 -1.03536
+C 0.37353 0.18289 1.03536
+H -1.07576 1.45669 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 27.9,75.8,96.0,98.9,120.2,151.9,177.2,180.4,236.5,338.1,355.8,423.5,489.2,588.2,672.5,854.5,914.8,917.4,977.1,1058.2,1095.5,1203.6,1244.1,3163.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2046,
+    label = "BrC1OC(Br)(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  O  u0 p2 c0 {7,S} {8,S}
+6  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+7  C  u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
+8  C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.28052,0.0744591,-0.000163896,2.27668e-07,-1.31909e-10,-5353.74,18.1834], Tmin=(10,'K'), Tmax=(417.948,'K')),
+            NASAPolynomial(coeffs=[7.27113,0.036267,-2.68267e-05,9.03152e-09,-1.12969e-12,-5687.32,2.41238], Tmin=(417.948,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -4.23 kcal/mol
+S298: 106.38 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.08062 2.38126 -0.73972
+Br 3.05228 -0.50833 0.31633
+Br -1.08692 -1.99380 -0.95103
+Br -2.21168 0.23621 1.03542
+O 0.36239 -0.82759 1.14777
+C 0.38535 0.53083 -0.47605
+C 1.27731 0.18834 0.72329
+C -0.60102 -0.47471 0.19080
+H 0.75984 0.15727 -1.42384
+H 1.41411 0.95966 1.47842
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 22.7,84.2,99.0,142.7,149.5,204.2,245.6,289.5,383.6,422.4,565.9,646.8,825.0,893.1,946.2,989.6,1023.4,1094.5,1174.1,1218.9,1278.9,1283.6,3139.6,3170.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2047,
+    label = "BrC(Br)(Br)C1OO1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {7,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 O  u0 p2 c0 {4,S} {6,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
+7 C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.39349,0.0578738,-0.000102679,9.98863e-08,-3.95294e-11,4394.18,14.9812], Tmin=(10,'K'), Tmax=(607.296,'K')),
+            NASAPolynomial(coeffs=[8.67843,0.0230641,-1.67002e-05,5.50202e-09,-6.75015e-13,3752.27,-7.87973], Tmin=(607.296,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 14.40 kcal/mol
+S298: 95.00 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.44217 0.00009 -1.12295
+Br 1.11790 1.60769 -0.05777
+Br 1.11775 -1.60778 -0.05782
+O -1.58451 0.75165 1.90995
+O -1.58454 -0.75162 1.90993
+C -0.47532 0.00000 1.59635
+C 0.01445 0.00000 0.14934
+H 0.34620 -0.00003 2.31602
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 71.1,129.4,143.8,173.3,185.9,203.6,284.7,390.2,518.2,692.9,737.2,826.8,933.1,1032.9,1157.3,1320.5,1412.2,3110.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2048,
+    label = "BrC(Br)(Br)C1(Br)CC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {8,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {5,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {5,S} {6,S} {11,S} {12,S}
+8  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.20472,0.0729508,-0.000107293,9.29808e-08,-3.39622e-11,13197.5,16.4753], Tmin=(10,'K'), Tmax=(644.865,'K')),
+            NASAPolynomial(coeffs=[8.91973,0.0375013,-2.48343e-05,7.7341e-09,-9.13777e-13,12460.4,-8.58906], Tmin=(644.865,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 33.01 kcal/mol
+S298: 104.25 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.48817 0.12498 0.00007
+Br -0.34861 -1.14100 1.60616
+Br -2.15813 0.91018 -0.00022
+Br -0.34851 -1.14150 -1.60582
+C 0.74504 0.99035 -0.00013
+C 0.67786 2.29168 -0.75513
+C 0.67780 2.29193 0.75443
+C -0.40272 -0.00512 -0.00001
+H 1.57810 2.59574 -1.27385
+H -0.24804 2.52573 -1.26608
+H 1.57801 2.59615 1.27311
+H -0.24813 2.52615 1.26525
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 53.6,106.1,113.7,144.9,168.6,187.4,217.7,258.4,314.4,335.5,402.1,556.1,676.7,682.9,770.5,856.9,944.2,951.3,957.5,1072.3,1100.1,1163.4,1182.6,1287.9,1454.7,1481.6,3153.4,3154.5,3239.0,3249.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2049,
+    label = "CC1CC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4  C  u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+5  C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+6  C  u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {6,S}
+12 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84353,0.0172494,0.000231213,-1.13091e-06,1.88068e-09,6378.63,13.629], Tmin=(10,'K'), Tmax=(151.369,'K')),
+            NASAPolynomial(coeffs=[2.85577,0.0433519,-2.74574e-05,8.36133e-09,-9.77879e-13,6408.54,16.5294], Tmin=(151.369,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 17.80 kcal/mol
+S298: 88.57 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.17725 -1.17923 0.00831
+Br 1.83732 -0.07997 -0.14579
+C -0.49604 1.73201 -0.13848
+C -0.30159 1.33384 1.31866
+C -0.01602 0.35400 0.22315
+C -1.86750 2.00722 -0.71039
+H 0.29043 2.35863 -0.54971
+H -1.19184 1.15519 1.91256
+H 0.54060 1.73682 1.86917
+H -2.13779 3.05410 -0.53809
+H -2.63228 1.37823 -0.24995
+H -1.88464 1.82660 -1.78980
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 142.7,163.7,181.6,190.2,272.0,367.2,407.2,439.2,659.5,786.0,868.1,899.1,991.6,1045.2,1074.7,1097.8,1146.4,1184.1,1249.9,1389.7,1414.8,1470.4,1488.3,1495.0,3038.9,3101.8,3124.6,3135.5,3151.8,3225.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2050,
+    label = "BrC1[CH]CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3  C  u0 p0 c0 {1,S} {2,S} {5,S} {8,S}
+4  C  u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
+5  C  u1 p0 c0 {3,S} {4,S} {11,S}
+6  H  u0 p0 c0 {2,S}
+7  H  u0 p0 c0 {2,S}
+8  H  u0 p0 c0 {3,S}
+9  H  u0 p0 c0 {4,S}
+10 H  u0 p0 c0 {4,S}
+11 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93672,0.00395665,0.000125381,-2.45808e-07,1.52227e-10,25331.6,13.2069], Tmin=(10,'K'), Tmax=(494.172,'K')),
+            NASAPolynomial(coeffs=[0.700988,0.042085,-2.6587e-05,8.08636e-09,-9.45937e-13,25505.7,25.0619], Tmin=(494.172,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 54.40 kcal/mol
+S298: 80.51 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.30284 0.00019 -0.10294
+C -1.52952 -1.04815 0.11953
+C -0.58705 0.00418 0.75345
+C -2.31256 0.12624 -0.55817
+C -1.42902 1.06562 0.21224
+H -2.11185 -1.58870 0.87008
+H -1.05526 -1.76376 -0.55087
+H -0.31682 -0.04175 1.80611
+H -2.20415 0.17597 -1.64978
+H -3.38374 0.18037 -0.33122
+H -1.37871 2.14392 0.29641
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 87.6,239.3,245.8,396.8,508.6,736.8,826.1,901.0,904.2,973.2,984.5,1045.3,1073.5,1118.4,1194.5,1208.6,1238.4,1288.2,1322.9,1451.6,1475.0,3010.5,3049.5,3073.9,3129.0,3143.9,3209.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2051,
+    label = "ODC1C[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 O  u0 p2 c0 {5,D}
+3 C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+4 C  u1 p0 c0 {1,S} {3,S} {5,S}
+5 C  u0 p0 c0 {2,D} {3,S} {4,S}
+6 H  u0 p0 c0 {3,S}
+7 H  u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83675,0.0133467,5.65173e-05,-1.59455e-07,1.21459e-10,25830.8,12.8521], Tmin=(10,'K'), Tmax=(459.847,'K')),
+            NASAPolynomial(coeffs=[4.22941,0.0226526,-1.53348e-05,4.87387e-09,-5.86036e-13,25660.2,9.80034], Tmin=(459.847,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 55.26 kcal/mol
+S298: 79.55 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.32513 -0.11222 0.01609
+O 2.62254 -1.03008 0.06257
+C 1.44569 1.33180 0.06082
+C 1.77170 -0.19275 -0.04454
+C 0.47594 0.25537 -0.23521
+H 1.81786 1.94217 -0.76766
+H 1.42139 1.85976 1.01768
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 95.4,201.5,356.1,437.7,543.7,600.6,836.9,923.7,1017.4,1086.2,1231.2,1429.6,1874.1,3030.1,3106.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2052,
+    label = "BrC1(Br)[CH]O1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 C  u1 p0 c0 {3,S} {4,S} {6,S}
+6 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85477,0.00992095,9.33093e-05,-2.64514e-07,2.06145e-10,23477.7,14.0546], Tmin=(10,'K'), Tmax=(467.029,'K')),
+            NASAPolynomial(coeffs=[5.96246,0.0174378,-1.29552e-05,4.40079e-09,-5.55337e-13,23002,2.50557], Tmin=(467.029,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 50.61 kcal/mol
+S298: 81.85 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.62492 -0.42706 0.01175
+Br 1.59230 -0.48199 -0.00032
+O 0.04161 1.77201 -0.73871
+C -0.00007 0.60550 0.07802
+C 0.00959 1.91933 0.64185
+H 0.75174 2.49181 1.19073
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 170.5,268.7,301.4,361.4,390.9,677.2,753.2,878.6,974.1,1117.9,1393.6,3170.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2053,
+    label = "BrC(Br)C1C(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {1,S} {5,S} {7,S} {10,S}
+7  C  u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
+8  C  u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.20412,0.0824198,-0.00021964,4.2062e-07,-3.31546e-10,12043.6,18.687], Tmin=(10,'K'), Tmax=(348.794,'K')),
+            NASAPolynomial(coeffs=[5.9569,0.0447266,-3.1203e-05,1.01134e-08,-1.23279e-12,11888.8,8.83984], Tmin=(348.794,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 30.59 kcal/mol
+S298: 108.91 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.87971 1.87238 0.72816
+Br -2.71321 -1.34231 -0.72213
+Br 2.12856 -1.45354 0.93422
+Br 2.50689 1.18407 -0.89222
+C -0.01699 -0.09520 -0.50718
+C -0.69787 0.36114 0.75184
+C -1.04794 -0.97489 0.15899
+C 1.44344 -0.44648 -0.60414
+H -0.36644 0.39738 -1.41036
+H -0.14188 0.33079 1.68078
+H -0.71679 -1.84146 0.71647
+H 1.65260 -1.07512 -1.46495
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.6,66.1,85.6,101.5,132.1,185.0,212.1,305.5,399.2,457.1,564.6,584.1,661.3,766.5,887.9,926.7,1005.6,1047.9,1079.9,1104.5,1172.4,1201.8,1238.6,1253.2,1255.8,1404.1,3151.9,3158.8,3189.9,3200.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2054,
+    label = "BrCC1C(Br)DC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C  u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
+6  C  u0 p0 c0 {2,S} {4,S} {7,D}
+7  C  u0 p0 c0 {3,S} {4,S} {6,D}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69996,0.0385527,0.000344892,-3.25626e-06,7.90503e-09,34453.8,15.9248], Tmin=(10,'K'), Tmax=(156.72,'K')),
+            NASAPolynomial(coeffs=[5.44283,0.0356221,-2.47706e-05,8.04709e-09,-9.85389e-13,34348.1,9.11848], Tmin=(156.72,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 74.22 kcal/mol
+S298: 98.79 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.02685 -0.82872 -0.02576
+Br -0.17619 2.43593 -0.04578
+Br -2.87625 -1.15819 -0.06095
+C 0.21869 -0.66646 0.62439
+C 1.15434 -1.41721 -0.28669
+C -0.43294 0.62741 0.19614
+C -1.21122 -0.40510 0.19343
+H 0.42866 -0.81599 1.68661
+H 0.92862 -1.24514 -1.33833
+H 1.16501 -2.48644 -0.07477
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.3,75.9,91.0,132.9,169.6,324.3,404.4,448.3,517.8,579.1,657.6,862.9,899.6,998.7,1062.9,1146.4,1210.2,1237.1,1392.0,1469.7,1852.6,3070.8,3092.6,3162.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2055,
+    label = "Br[C]DC1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
+6 C  u0 p0 c0 {4,S} {5,S} {7,D}
+7 C  u1 p0 c0 {3,S} {6,D}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45844,0.0548304,-8.95333e-05,9.02775e-08,-3.90093e-11,55758.6,17.7521], Tmin=(10,'K'), Tmax=(545.737,'K')),
+            NASAPolynomial(coeffs=[6.84259,0.0300261,-2.13564e-05,6.99306e-09,-8.56916e-13,55389.2,3.47504], Tmin=(545.737,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 116.44 kcal/mol
+S298: 100.43 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.23850 2.55984 0.00354
+Br -2.60206 -1.45470 -0.07917
+Br 2.98461 -0.96783 -0.06743
+C -0.57077 0.70315 -0.43996
+C -1.26990 -0.18969 0.54858
+C 0.15507 -0.38457 0.25353
+C 1.23567 -1.06461 0.46978
+H -0.78439 0.59447 -1.49723
+H -1.55759 0.21404 1.51278
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 42.6,77.1,119.1,191.8,216.6,228.3,359.6,480.7,614.4,649.8,659.8,859.5,908.7,1017.2,1032.6,1149.1,1190.3,1236.1,1801.2,3177.1,3182.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2056,
+    label = "BrC1D[C]C1(Br)C(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 Br u0 p3 c0 {7,S}
+5 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
+7 C  u0 p0 c0 {4,S} {5,S} {8,D}
+8 C  u1 p0 c0 {5,S} {7,D}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.18633,0.0805811,-0.000183452,2.30213e-07,-1.15849e-10,64921.4,19.3947], Tmin=(10,'K'), Tmax=(485.048,'K')),
+            NASAPolynomial(coeffs=[9.54881,0.0281122,-2.1193e-05,7.19809e-09,-9.04014e-13,64304.2,-6.69731], Tmin=(485.048,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 135.59 kcal/mol
+S298: 109.73 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.00294 2.28483 -0.46553
+Br -1.07750 0.29515 1.78629
+Br -2.28703 -0.93553 -0.94115
+Br 2.25833 -1.68033 0.26653
+C 0.21918 0.49859 -0.77714
+C -1.17163 0.47153 -0.17079
+C 1.18194 -0.69286 -0.82275
+C 0.65589 -0.30177 -1.94004
+H -1.69847 1.40268 -0.35065
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 25.8,49.0,83.0,107.0,149.4,203.1,234.7,316.0,397.5,460.8,473.7,584.9,661.3,686.1,818.3,881.7,1141.9,1156.3,1233.1,1783.4,3174.0
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2057,
+    label = "BrCDC1[C]DC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 C  u0 p0 c0 {4,S} {5,D} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {6,D}
+5 C  u0 p0 c0 {2,S} {3,D} {7,S}
+6 C  u1 p0 c0 {3,S} {4,D}
+7 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.58887,0.0369648,-4.50824e-05,2.88289e-08,-7.51358e-12,75480.6,16.0484], Tmin=(10,'K'), Tmax=(895.882,'K')),
+            NASAPolynomial(coeffs=[8.19086,0.0164176,-1.06797e-05,3.22843e-09,-3.69674e-13,74656,-5.64753], Tmin=(895.882,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 154.70 kcal/mol
+S298: 90.91 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.30781 -0.53834 0.01078
+Br -2.32832 -0.49216 -0.01736
+C -0.12952 1.32841 0.01863
+C 1.13725 0.88944 -0.02857
+C -1.50419 1.18077 0.10398
+C 0.97926 2.27729 -0.09845
+H -2.17890 2.01213 0.25676
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 54.1,55.9,255.8,281.4,398.9,436.6,486.6,588.7,725.2,904.4,1111.7,1262.3,1290.2,1712.1,3222.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2058,
+    label = "[O]C1C(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u1 p2 c0 {4,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
+6 C  u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65294,0.0305107,3.46712e-05,-1.67452e-07,1.52243e-10,12571.2,14.3438], Tmin=(10,'K'), Tmax=(427.952,'K')),
+            NASAPolynomial(coeffs=[5.40962,0.0301913,-2.06411e-05,6.6241e-09,-8.03152e-13,12273.4,5.63727], Tmin=(427.952,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 29.93 kcal/mol
+S298: 88.65 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.78307 -0.67492 -0.05856
+Br 1.78301 -0.67502 -0.05853
+O 0.00010 2.97417 -0.22162
+C 0.00023 1.73400 -0.45913
+C -0.72811 0.76000 0.60883
+C 0.72810 0.76009 0.60871
+H 0.00003 1.30947 -1.47051
+H -1.22880 1.31020 1.39559
+H 1.22878 1.31014 1.39558
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 95.9,159.6,191.4,219.9,271.5,376.3,426.1,574.2,735.1,757.2,971.4,994.4,1020.0,1155.4,1242.4,1274.9,1354.0,1365.8,3036.2,3194.3,3205.5
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2059,
+    label = "[CH2]C1(Br)OC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {6,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+6 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+7 C  u1 p0 c0 {5,S} {8,S} {9,S}
+8 H  u0 p0 c0 {7,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.48575,0.0444508,7.42305e-05,-4.45541e-07,4.87524e-10,17084.1,16.507], Tmin=(10,'K'), Tmax=(377.496,'K')),
+            NASAPolynomial(coeffs=[8.89016,0.0277765,-2.08054e-05,7.14046e-09,-9.09122e-13,16386.8,-8.13202], Tmin=(377.496,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 39.95 kcal/mol
+S298: 99.24 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.44401 -0.21348 -0.16517
+Br -2.25302 -0.74749 -0.18534
+Br -0.37940 1.84182 -0.02170
+O 0.06633 -0.55458 1.42616
+C 0.69160 -0.97908 0.20027
+C -0.49013 -0.06210 0.26703
+C 0.61725 -2.38876 -0.11796
+H 1.19635 -2.79213 -0.93537
+H -0.04506 -3.02143 0.45773
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 88.4,105.9,155.2,168.0,192.3,257.3,308.1,355.2,379.3,490.8,562.3,629.1,716.8,766.5,926.3,1011.7,1132.3,1321.5,1437.4,3179.1,3303.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2060,
+    label = "Br[C]1CDC(Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
+5 C  u1 p0 c0 {2,S} {4,S} {7,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,D}
+7 C  u0 p0 c0 {5,S} {6,D} {9,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.63873,0.0439128,0.000167439,-1.7404e-06,3.87782e-09,40091.1,16.9702], Tmin=(10,'K'), Tmax=(179.305,'K')),
+            NASAPolynomial(coeffs=[5.58471,0.0337145,-2.50989e-05,8.54707e-09,-1.08207e-12,39968,9.43759], Tmin=(179.305,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 85.30 kcal/mol
+S298: 99.88 cal/mol/K
+
+Coordinates (Angstoms):
+Br -0.09240 2.06436 -0.09658
+Br 2.88592 -0.71897 0.02431
+Br -2.81935 -0.80643 0.02215
+C 0.01910 0.24099 0.61796
+C 1.03429 -0.68016 -0.03970
+C -0.96950 -0.76923 0.05749
+C 0.04516 -1.57200 -0.46472
+H 0.06771 0.34419 1.70083
+H 0.06237 -2.52538 -0.97267
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.9,69.1,114.2,183.6,199.9,245.2,397.7,415.1,521.2,679.8,890.8,940.3,953.6,1015.4,1137.2,1165.8,1195.1,1315.1,1455.4,3130.4,3248.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2061,
+    label = "Br[C](Br)C1(Br)CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {7,S}
+3 Br u0 p3 c0 {7,S}
+4 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {4,S} {6,D} {8,S}
+6 C  u0 p0 c0 {4,S} {5,D} {9,S}
+7 C  u1 p0 c0 {2,S} {3,S} {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.34008,0.0596514,-9.45632e-05,8.22253e-08,-2.91768e-11,53715.2,16.9681], Tmin=(10,'K'), Tmax=(673.359,'K')),
+            NASAPolynomial(coeffs=[9.20678,0.024801,-1.69292e-05,5.36288e-09,-6.39854e-13,52925.2,-9.01526], Tmin=(673.359,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 112.62 kcal/mol
+S298: 99.84 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.10293 0.00001 -0.78045
+Br 1.35119 -1.60844 -0.14153
+Br 1.35113 1.60848 -0.14147
+C -0.84142 -0.00004 0.84452
+C -1.33971 0.65018 2.06360
+C -1.33969 -0.65038 2.06355
+C 0.54623 -0.00000 0.39048
+H -1.56548 1.59597 2.52385
+H -1.56544 -1.59623 2.52370
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 30.4,77.2,114.4,160.0,238.7,297.9,299.3,374.3,419.0,463.4,717.2,808.1,882.8,894.6,966.1,1043.3,1049.6,1266.1,1707.8,3277.3,3324.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2062,
+    label = "BrCC1(Br)[C](Br)C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {7,S}
+4  Br u0 p3 c0 {8,S}
+5  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+6  C  u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+7  C  u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
+8  C  u1 p0 c0 {4,S} {5,S} {6,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {7,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.07727,0.0944528,-0.000279157,5.07426e-07,-3.69236e-10,35790.7,19.8379], Tmin=(10,'K'), Tmax=(360.207,'K')),
+            NASAPolynomial(coeffs=[7.7866,0.0380248,-2.6968e-05,8.829e-09,-1.08325e-12,35478.2,2.2988], Tmin=(360.207,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.03 kcal/mol
+S298: 113.01 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.17955 0.21242 2.05180
+Br 2.70732 -1.38426 -0.13382
+Br -2.32625 -0.98398 -1.28452
+Br 0.56714 2.46731 -0.78067
+C -0.12035 -0.29789 0.46022
+C 1.41095 -0.13220 0.66420
+C -0.71505 -1.47033 -0.27161
+C 0.64745 0.74416 -0.17102
+H 1.77469 0.14619 1.64815
+H -0.00462 -1.85122 -1.00314
+H -1.01078 -2.25950 0.41684
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 31.7,43.9,63.8,88.6,104.8,173.1,192.4,286.6,353.7,442.2,471.6,542.9,602.3,677.7,828.9,893.9,942.9,1023.9,1128.3,1179.2,1192.8,1250.9,1424.9,1458.9,3107.2,3159.5,3178.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2063,
+    label = "BrC1CDCC1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {4,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {7,S}
+4  C  u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+5  C  u0 p0 c0 {3,S} {6,D} {9,S}
+6  C  u0 p0 c0 {4,S} {5,D} {10,S}
+7  H  u0 p0 c0 {3,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7677,0.0226472,3.08397e-05,-6.99536e-08,3.59116e-11,19778.1,13.6124], Tmin=(10,'K'), Tmax=(709.048,'K')),
+            NASAPolynomial(coeffs=[4.4533,0.0327852,-2.02367e-05,5.92808e-09,-6.65579e-13,19328.8,8.0578], Tmin=(709.048,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 43.83 kcal/mol
+S298: 84.75 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.25733 -0.46918 0.05826
+Br -2.25733 -0.46918 -0.05826
+C 0.58124 0.40141 -0.52044
+C -0.58124 0.40141 0.52044
+C 0.53289 1.89841 -0.40671
+C -0.53289 1.89841 0.40671
+H 0.34456 -0.04255 -1.48441
+H -0.34456 -0.04255 1.48441
+H 1.16113 2.66479 -0.84054
+H -1.16113 2.66479 0.84054
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 89.4,175.2,208.5,276.8,360.6,506.8,751.6,785.0,880.8,947.4,966.2,971.7,1032.1,1144.2,1172.6,1176.3,1196.1,1220.6,1308.7,1614.6,3143.9,3145.4,3213.9,3243.7
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2064,
+    label = "BrC1(Br)COC1",
+    molecule = 
+"""
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {4,S}
+3  O  u0 p2 c0 {5,S} {6,S}
+4  C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5  C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+6  C  u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
+7  H  u0 p0 c0 {5,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74211,0.0285188,7.6465e-08,-1.92669e-08,9.14899e-12,-6774.48,13.4919], Tmin=(10,'K'), Tmax=(932.097,'K')),
+            NASAPolynomial(coeffs=[6.43602,0.0276168,-1.56245e-05,4.23108e-09,-4.43897e-13,-7739.69,-1.79895], Tmin=(932.097,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -8.80 kcal/mol
+S298: 85.77 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.69605 -0.50890 0.00000
+Br 1.49396 -0.85120 -0.00000
+O 0.55187 2.47987 0.00000
+C 0.01450 0.43038 0.00000
+C 0.17999 1.55670 -1.04050
+C 0.17999 1.55670 1.04050
+H -0.76207 1.83288 -1.52788
+H 0.96760 1.41811 -1.78481
+H 0.96760 1.41811 1.78481
+H -0.76207 1.83288 1.52788
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 61.8,163.5,234.8,291.4,326.8,334.0,590.7,826.8,920.6,960.1,1026.4,1054.7,1089.3,1102.9,1144.4,1166.2,1304.7,1364.7,1495.0,1518.6,3030.7,3039.7,3105.7,3106.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2065,
+    label = "Br[C]1C(Br)OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {6,S}
+5 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+6 C  u0 p0 c0 {2,S} {4,S} {7,S} {9,S}
+7 C  u1 p0 c0 {3,S} {5,S} {6,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6527,0.04132,0.000123619,-1.22249e-06,2.5561e-09,13712.9,16.5138], Tmin=(10,'K'), Tmax=(189.053,'K')),
+            NASAPolynomial(coeffs=[5.13099,0.0351408,-2.6494e-05,9.10141e-09,-1.15931e-12,13612.2,10.6581], Tmin=(189.053,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 32.76 kcal/mol
+S298: 97.90 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.14669 -1.03152 -0.39296
+Br 2.14669 -1.03154 -0.39296
+Br 0.00001 2.31317 -0.16098
+O -0.00001 -1.17324 1.52216
+C -1.03239 -0.28637 1.08885
+C 1.03239 -0.28638 1.08885
+C 0.00000 0.69690 0.69335
+H -1.75630 -0.05653 1.86893
+H 1.75630 -0.05654 1.86893
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 47.9,51.2,79.9,260.4,271.2,314.0,358.9,412.6,494.3,678.5,901.1,935.5,956.7,1110.7,1149.6,1180.9,1220.3,1242.6,1315.0,3124.7,3127.4
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2066,
+    label = "Br[CH]C1(Br)CC1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {3,S}
+2  Br u0 p3 c0 {6,S}
+3  C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4  C  u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+5  C  u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
+6  C  u1 p0 c0 {2,S} {3,S} {11,S}
+7  H  u0 p0 c0 {4,S}
+8  H  u0 p0 c0 {4,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {5,S}
+11 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71044,0.0253611,7.89779e-05,-2.48375e-07,2.0778e-10,26855,15.5385], Tmin=(10,'K'), Tmax=(409.531,'K')),
+            NASAPolynomial(coeffs=[3.70405,0.0397463,-2.61719e-05,8.19605e-09,-9.77701e-13,26735.4,14.0972], Tmin=(409.531,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 58.41 kcal/mol
+S298: 91.33 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.81472 -0.79924 -0.04504
+Br -2.17606 -0.28419 -0.08551
+C 0.53278 0.72412 0.18859
+C 1.17598 2.06004 0.46704
+C 0.56298 1.76748 -0.88524
+C -0.67430 0.31481 0.86740
+H 0.64892 2.72631 1.14147
+H 2.25605 2.09074 0.54114
+H 1.23293 1.61117 -1.72112
+H -0.38409 2.23222 -1.13819
+H -0.69152 0.06103 1.91939
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 45.9,143.7,247.4,259.0,277.2,366.7,466.5,507.4,691.6,770.7,818.6,932.0,948.7,1010.6,1061.7,1092.3,1139.2,1181.1,1254.5,1360.2,1457.2,1487.7,3138.9,3142.7,3212.8,3227.7,3240.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2067,
+    label = "BrC(Br)C1DCC1(Br)Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {5,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  Br u0 p3 c0 {6,S}
+5  C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+6  C  u0 p0 c0 {3,S} {4,S} {7,S} {9,S}
+7  C  u0 p0 c0 {5,S} {6,S} {8,D}
+8  C  u0 p0 c0 {5,S} {7,D} {10,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.16432,0.0834193,-0.000194543,2.63565e-07,-1.44579e-10,36144.5,19.245], Tmin=(10,'K'), Tmax=(444.966,'K')),
+            NASAPolynomial(coeffs=[8.79307,0.0328199,-2.39702e-05,8.00575e-09,-9.95875e-13,35643.6,-3.35255], Tmin=(444.966,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 78.55 kcal/mol
+S298: 110.36 cal/mol/K
+
+Coordinates (Angstoms):
+Br 2.39947 -1.52538 -0.68505
+Br 2.19737 1.42623 0.59056
+Br -1.72072 1.65606 -0.66404
+Br -2.89233 -1.18586 0.40409
+C 1.29772 -0.31163 0.41286
+C -1.36769 -0.26046 -0.40088
+C -0.15881 -0.43312 0.39967
+C 0.45890 -0.83524 1.47911
+H -1.25125 -0.67074 -1.40073
+H 0.43808 -1.27374 2.46185
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 17.3,50.4,74.2,115.5,162.0,183.6,205.5,276.4,363.0,437.8,486.2,579.8,668.6,686.4,824.9,835.7,1004.4,1097.5,1146.0,1158.7,1241.7,1820.3,3150.0,3296.9
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2068,
+    label = "BrCC1O[C]1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 C  u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+6 C  u1 p0 c0 {2,S} {3,S} {4,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6591,0.0321249,-1.46224e-05,-6.19987e-09,5.55333e-12,15635.9,15.8311], Tmin=(10,'K'), Tmax=(864.006,'K')),
+            NASAPolynomial(coeffs=[7.06787,0.0241546,-1.43456e-05,4.04986e-09,-4.39973e-13,14755.3,-1.80319], Tmin=(864.006,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 35.80 kcal/mol
+S298: 90.53 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.31354 -0.43145 -0.07627
+Br 2.12604 -0.66310 0.04002
+O 1.10543 2.01271 0.14267
+C -0.13783 1.36005 -0.35725
+C -1.01751 0.81453 0.72550
+C 1.22435 0.89866 -0.60037
+H -0.63240 1.91809 -1.14837
+H -1.61047 1.59519 1.20093
+H -0.45219 0.25463 1.46736
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 36.7,146.4,188.9,305.4,338.4,413.5,586.0,651.9,758.6,868.2,985.3,1058.7,1127.4,1178.6,1235.6,1304.4,1455.2,1476.1,3103.2,3151.5,3180.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2069,
+    label = "Br[CH]C1(Br)CDC1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {3,S}
+2 Br u0 p3 c0 {6,S}
+3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+4 C  u0 p0 c0 {3,S} {5,D} {7,S}
+5 C  u0 p0 c0 {3,S} {4,D} {8,S}
+6 C  u1 p0 c0 {2,S} {3,S} {9,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68846,0.0260356,9.55144e-05,-3.64809e-07,3.4731e-10,52649.7,16.0574], Tmin=(10,'K'), Tmax=(391.348,'K')),
+            NASAPolynomial(coeffs=[5.91088,0.029866,-2.09159e-05,6.86273e-09,-8.47329e-13,52272.5,4.82332], Tmin=(391.348,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 109.68 kcal/mol
+S298: 92.48 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.93588 -0.68705 -0.07343
+Br 2.18790 -0.29012 -0.09168
+C -0.48103 0.77866 0.22099
+C -0.45746 1.87564 -0.74505
+C -0.98392 2.14509 0.41472
+C 0.64092 0.13487 0.87788
+H -0.19469 2.16031 -1.74869
+H -1.47930 2.81692 1.09369
+H 0.54220 -0.38169 1.82258
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 26.5,139.3,240.8,252.5,286.9,358.0,452.2,483.6,701.8,716.4,848.6,886.3,944.8,1011.8,1051.7,1243.7,1301.4,1706.6,3227.0,3275.2,3321.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2070,
+    label = "BrC1D[C]CC1(Br)Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {4,S}
+3 Br u0 p3 c0 {6,S}
+4 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5 C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+6 C  u0 p0 c0 {3,S} {4,S} {7,D}
+7 C  u1 p0 c0 {5,S} {6,D}
+8 H  u0 p0 c0 {5,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.45881,0.0476066,-5.3784e-05,3.20179e-08,-7.80203e-12,52459.2,16.0531], Tmin=(10,'K'), Tmax=(950.328,'K')),
+            NASAPolynomial(coeffs=[9.44721,0.022401,-1.39994e-05,4.10852e-09,-4.59982e-13,51321,-12.5324], Tmin=(950.328,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 109.67 kcal/mol
+S298: 95.04 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.19241 -1.61355 -0.38303
+Br 1.19240 1.61356 -0.38301
+Br -2.40218 0.00000 -0.32876
+C 0.53417 -0.00000 0.53867
+C 0.79840 -0.00001 2.08745
+C -0.94747 -0.00001 0.81533
+C -0.71360 -0.00004 2.12565
+H 1.28952 0.90035 2.45771
+H 1.28957 -0.90035 2.45770
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 69.4,96.2,163.2,168.2,283.2,315.9,403.9,447.8,454.8,614.2,817.3,870.0,987.0,1029.6,1076.8,1085.8,1210.0,1468.2,1626.7,3088.3,3152.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2071,
+    label = "BrC1DCC(Br)(Br)O1",
+    molecule = 
+"""
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {5,S}
+3 Br u0 p3 c0 {7,S}
+4 O  u0 p2 c0 {5,S} {7,S}
+5 C  u0 p0 c0 {1,S} {2,S} {4,S} {6,S}
+6 C  u0 p0 c0 {5,S} {7,D} {8,S}
+7 C  u0 p0 c0 {3,S} {4,S} {6,D}
+8 H  u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.57334,0.0364297,3.03538e-05,-1.94815e-07,1.82707e-10,11429,15.5543], Tmin=(10,'K'), Tmax=(448.234,'K')),
+            NASAPolynomial(coeffs=[7.67167,0.0255266,-1.90635e-05,6.45067e-09,-8.08605e-13,10803.7,-3.80566], Tmin=(448.234,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 27.98 kcal/mol
+S298: 92.92 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.71356 1.60253 -0.03471
+Br -1.71356 -1.60253 -0.03472
+Br 3.13009 0.00000 -0.05611
+O 0.42991 0.00001 -0.88425
+C -0.62476 -0.00000 0.12651
+C 0.41794 -0.00001 1.20409
+C 1.29976 -0.00001 0.20123
+H 0.39938 -0.00012 2.27679
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 57.5,142.9,183.5,234.6,251.4,301.2,395.1,476.7,542.8,691.9,780.4,781.3,981.8,997.5,1160.9,1187.6,1632.6,3330.1
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2072,
+    label = "Br[C]1COC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 Br u0 p3 c0 {6,S}
+3 O  u0 p2 c0 {4,S} {5,S}
+4 C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5 C  u0 p0 c0 {1,S} {3,S} {6,S} {9,S}
+6 C  u1 p0 c0 {2,S} {4,S} {5,S}
+7 H  u0 p0 c0 {4,S}
+8 H  u0 p0 c0 {4,S}
+9 H  u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.74001,0.0318548,-1.85466e-05,2.74063e-09,7.11221e-13,13248.3,15.0485], Tmin=(10,'K'), Tmax=(1170.4,'K')),
+            NASAPolynomial(coeffs=[9.63037,0.018266,-9.51578e-06,2.37256e-09,-2.30307e-13,11421.4,-16.2102], Tmin=(1170.4,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 31.04 kcal/mol
+S298: 89.52 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.88488 -0.68281 -0.10246
+Br -2.00955 -0.53917 0.00256
+O 0.89525 2.02502 0.17975
+C -0.37769 2.01611 -0.54158
+C 0.66345 0.75555 0.72869
+C -0.70002 0.74086 0.17876
+H -0.98055 2.89651 -0.29494
+H -0.23271 1.94669 -1.62699
+H 0.90023 0.65113 1.78533
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 58.7,134.1,198.6,252.3,344.1,388.9,539.6,875.5,927.9,968.7,988.3,1106.0,1124.2,1153.5,1193.8,1258.3,1348.3,1489.4,3022.1,3077.5,3136.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2073,
+    label = "BrC(Br)C1(Br)[CH]C1",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {6,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+6  C  u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
+7  C  u1 p0 c0 {4,S} {5,S} {11,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {5,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.34831,0.0548838,-5.71205e-05,3.18175e-08,-7.32032e-12,35715.4,17.2264], Tmin=(10,'K'), Tmax=(995.714,'K')),
+            NASAPolynomial(coeffs=[10.0406,0.0279993,-1.66199e-05,4.70077e-09,-5.1194e-13,34382.6,-15.0314], Tmin=(995.714,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 76.92 kcal/mol
+S298: 100.13 cal/mol/K
+
+Coordinates (Angstoms):
+Br -2.42714 -0.12664 -0.36750
+Br 0.54917 1.86090 0.24068
+Br 2.16950 -0.87053 -0.30383
+C -0.66405 -0.76637 0.22895
+C -0.57234 -1.25776 1.66957
+C 0.42682 0.02882 -0.45016
+C -0.56964 -2.18141 0.53215
+H 0.36515 -1.06025 2.18974
+H -1.45678 -1.16423 2.29666
+H 0.24653 0.13052 -1.51562
+H -1.08319 -3.07594 0.21898
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 45.7,106.3,147.6,179.6,199.5,246.8,283.6,384.2,454.2,545.0,623.1,672.0,786.4,907.0,939.1,987.1,1056.8,1067.0,1088.4,1162.3,1246.6,1345.5,1446.0,3080.3,3160.0,3167.0,3260.3
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2074,
+    label = "BrC1D[C]OC1Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {4,S}
+2 Br u0 p3 c0 {5,S}
+3 O  u0 p2 c0 {4,S} {6,S}
+4 C  u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
+5 C  u0 p0 c0 {2,S} {4,S} {6,D}
+6 C  u1 p0 c0 {3,S} {5,D}
+7 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70206,0.0261099,7.2259e-06,-6.04436e-08,4.45112e-11,45618.1,15.1305], Tmin=(10,'K'), Tmax=(583.828,'K')),
+            NASAPolynomial(coeffs=[6.44468,0.0209878,-1.47322e-05,4.73066e-09,-5.68417e-13,45064.9,1.37993], Tmin=(583.828,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 95.08 kcal/mol
+S298: 87.19 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.95709 -0.61042 -0.07694
+Br -2.07770 -0.47403 -0.00422
+O 0.81153 2.01851 0.00238
+C 0.67769 0.69582 0.60088
+C -0.70274 0.72695 0.04051
+C -0.48751 2.09032 -0.45171
+H 0.80458 0.72942 1.68324
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 74.2,169.4,227.4,329.3,389.0,423.0,629.3,843.2,854.7,981.5,1133.3,1176.3,1245.3,1269.1,3117.8
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2075,
+    label = "BrCC1(Br)[CH]C1Br",
+    molecule = 
+"""
+multiplicity 2
+1  Br u0 p3 c0 {4,S}
+2  Br u0 p3 c0 {5,S}
+3  Br u0 p3 c0 {6,S}
+4  C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+5  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+6  C  u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
+7  C  u1 p0 c0 {4,S} {5,S} {11,S}
+8  H  u0 p0 c0 {5,S}
+9  H  u0 p0 c0 {6,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.55064,0.0519125,0.000159811,-1.53377e-06,3.05099e-09,34951.6,17.2077], Tmin=(10,'K'), Tmax=(202.026,'K')),
+            NASAPolynomial(coeffs=[6.08055,0.0395109,-2.79452e-05,9.24536e-09,-1.15041e-12,34772.5,7.14504], Tmin=(202.026,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 75.73 kcal/mol
+S298: 104.13 cal/mol/K
+
+Coordinates (Angstoms):
+Br 1.13609 2.01728 -0.14538
+Br -2.90476 -0.49922 -0.15282
+Br 2.08621 -1.62202 0.04915
+C 0.01242 0.39552 0.15876
+C -1.46233 0.72172 0.43361
+C 0.47000 -0.76683 -0.67649
+C -0.56663 0.30249 1.46661
+H -1.82341 1.73776 0.31498
+H 0.71714 -0.46274 -1.69141
+H -0.29628 -1.54027 -0.68767
+H -0.43242 -0.01346 2.48600
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 43.8,80.7,103.1,115.9,144.4,197.0,291.8,369.7,416.8,496.5,573.0,665.3,802.0,891.4,918.0,988.3,1021.9,1133.2,1160.7,1175.8,1251.4,1377.9,1459.1,3106.7,3160.3,3177.8,3293.2
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2076,
+    label = "BrC1DCC[CH]1",
+    molecule = 
+"""
+multiplicity 2
+1 Br u0 p3 c0 {5,S}
+2 C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3 C  u1 p0 c0 {2,S} {5,S} {8,S}
+4 C  u0 p0 c0 {2,S} {5,D} {9,S}
+5 C  u0 p0 c0 {1,S} {3,S} {4,D}
+6 H  u0 p0 c0 {2,S}
+7 H  u0 p0 c0 {2,S}
+8 H  u0 p0 c0 {3,S}
+9 H  u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92324,0.00452417,0.0001015,-1.95933e-07,1.14761e-10,38111.3,10.7203], Tmin=(10,'K'), Tmax=(558.669,'K')),
+            NASAPolynomial(coeffs=[2.31494,0.0333205,-2.2216e-05,7.06754e-09,-8.5673e-13,38021.4,15.1295], Tmin=(558.669,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 79.58 kcal/mol
+S298: 74.37 cal/mol/K
+
+Coordinates (Angstoms):
+Br -1.32759 -0.00000 -0.00001
+C 2.62938 -0.00000 0.00003
+C 1.49298 -1.03101 -0.00002
+C 1.49297 1.03102 0.00006
+C 0.55896 0.00001 0.00001
+H 3.26287 -0.00003 0.89367
+H 3.26290 0.00003 -0.89359
+H 1.44711 -2.10888 -0.00033
+H 1.44710 2.10889 0.00011
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 216.1,270.5,382.8,464.5,510.0,601.8,883.5,903.0,926.0,968.0,1077.3,1126.2,1151.4,1213.0,1254.3,1434.5,1500.8,3034.4,3080.3,3254.7,3259.6
+""",
+    rank = 5,
+)
+
+entry(
+    index = 2077,
+    label = "BrC1C(Br)C(Br)(Br)C1Br",
+    molecule = 
+"""
+1  Br u0 p3 c0 {6,S}
+2  Br u0 p3 c0 {7,S}
+3  Br u0 p3 c0 {8,S}
+4  Br u0 p3 c0 {8,S}
+5  Br u0 p3 c0 {9,S}
+6  C  u0 p0 c0 {1,S} {7,S} {9,S} {10,S}
+7  C  u0 p0 c0 {2,S} {6,S} {8,S} {11,S}
+8  C  u0 p0 c0 {3,S} {4,S} {7,S} {9,S}
+9  C  u0 p0 c0 {5,S} {6,S} {8,S} {12,S}
+10 H  u0 p0 c0 {6,S}
+11 H  u0 p0 c0 {7,S}
+12 H  u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.36796,0.0768512,0.000238792,-2.96254e-06,6.83909e-09,8873.39,17.3715], Tmin=(10,'K'), Tmax=(180.629,'K')),
+            NASAPolynomial(coeffs=[7.68701,0.0454316,-3.36326e-05,1.13938e-08,-1.43641e-12,8612.59,1.02558], Tmin=(180.629,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: 25.13 kcal/mol
+S298: 113.20 cal/mol/K
+
+Coordinates (Angstoms):
+Br 3.13056 -0.00000 0.47541
+Br 0.19784 -2.75787 -0.57648
+Br -1.82101 0.00000 -1.34468
+Br -1.98486 0.00000 1.84365
+Br 0.19784 2.75787 -0.57648
+C 1.31134 0.00000 -0.19861
+C 0.34737 -1.06770 0.34658
+C -0.79219 0.00000 0.29984
+C 0.34737 1.06770 0.34658
+H 1.36913 0.00000 -1.28445
+H 0.56718 -1.31162 1.38404
+H 0.56718 1.31162 1.38404
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 32.4,75.6,89.5,90.3,109.3,119.9,148.0,201.9,218.7,325.0,362.9,484.8,512.9,632.8,644.8,847.7,853.5,886.2,1013.3,1019.1,1092.0,1128.5,1181.9,1193.6,1254.6,1266.1,1299.8,3135.0,3137.2,3154.9
 """,
     rank = 5,
 )
