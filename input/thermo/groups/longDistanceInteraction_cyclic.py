@@ -2210,11 +2210,24 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.432595,-0.550928,-0.551879,-0.532868,-0.482725,-0.359799,-0.024179],'cal/(mol*K)','+|-',[0.181042,0.199543,0.212396,0.211207,0.177764,0.140977,0.208802]),
+        H298 = (2.99563,'kcal/mol','+|-',0.778715),
+        S298 = (2.91945,'cal/(mol*K)','+|-',0.597458),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CC1(Br)C(Br)C1Br smiles:CC1(Br)C(Br)C1Br H298:21.75 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1(Br)CC1Br smiles:BrC(Br)C1(Br)CC1Br H298:29.69 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)C(Br)C1Br smiles:BrCC1(Br)C(Br)C1Br H298:28.33 kcal/mol
+library:CHOBr_G4 label:CC1(Br)CC1Br smiles:CC1(Br)CC1Br H298:14.58 kcal/mol
+library:CHOBr_G4 label:BrC1CC1(Br)C(Br)(Br)Br smiles:BrC1CC1(Br)C(Br)(Br)Br H298:41.04 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C(Br)C1(Br)Br smiles:CC1(Br)C(Br)C1(Br)Br H298:30.88 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)CC1Br smiles:BrCC1(Br)CC1Br H298:21.03 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1(Br)C(Br)C1Br smiles:BrC(Br)C1(Br)C(Br)C1Br H298:35.97 kcal/mol
 """,
 )
 
@@ -2231,11 +2244,25 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.40627,-0.532866,-0.523301,-0.512252,-0.492881,-0.352207,0.077302],'cal/(mol*K)','+|-',[0.176464,0.194497,0.207026,0.205866,0.173269,0.137413,0.203522]),
+        H298 = (3.30934,'kcal/mol','+|-',0.759025),
+        S298 = (3.30225,'cal/(mol*K)','+|-',0.582352),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)C1(Cl)Cl H298:-14.43 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)CC1Cl smiles:ClCC1(Cl)CC1Cl H298:-12.44 kcal/mol
+library:CHOCl_G4 label:ClC1CC1(Cl)C(Cl)(Cl)Cl smiles:ClC1CC1(Cl)C(Cl)(Cl)Cl H298:-16.85 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1Cl smiles:ClCC1(Cl)C(Cl)C1Cl H298:-15.42 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1Cl smiles:CC1(Cl)C(Cl)C1Cl H298:-11.79 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)CC1Cl smiles:ClC(Cl)C1(Cl)CC1Cl H298:-15.08 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)C(Cl)C1Cl smiles:ClC(Cl)C1(Cl)C(Cl)C1Cl H298:-17.17 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298:-17.43 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)CC1Cl smiles:CC1(Cl)CC1Cl H298:-8.25 kcal/mol
 """,
 )
 
@@ -2252,11 +2279,25 @@ entry(
 6    Cs  u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469696,-0.47023,-0.350213,-0.247283,-0.127519,0.0174823,0.378251],'cal/(mol*K)','+|-',[0.175714,0.19367,0.206145,0.204991,0.172533,0.136828,0.202657]),
+        H298 = (5.48298,'kcal/mol','+|-',0.755797),
+        S298 = (2.75772,'cal/(mol*K)','+|-',0.579875),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC(F)C1(F)C(F)C1F smiles:FC(F)C1(F)C(F)C1F H298:-213.01 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1(F)F smiles:CC1(F)C(F)C1(F)F H298:-169.15 kcal/mol
+library:CHOF_G4 label:FCC1(F)CC1F smiles:FCC1(F)CC1F H298:-125.52 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1(F)F smiles:FCC1(F)C(F)C1(F)F H298:-206.91 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1F smiles:CC1(F)C(F)C1F H298:-122.49 kcal/mol
+library:CHOF_G4 label:FC(F)C1(F)CC1F smiles:FC(F)C1(F)CC1F H298:-176.02 kcal/mol
+library:CHOF_G4 label:CC1(F)CC1F smiles:CC1(F)CC1F H298:-84.36 kcal/mol
+library:CHOF_G4 label:FC1CC1(F)C(F)(F)F smiles:FC1CC1(F)C(F)(F)F H298:-232.92 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1F smiles:FCC1(F)C(F)C1F H298:-163.11 kcal/mol
 """,
 )
 
@@ -2294,11 +2335,32 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.358298,-0.55223,-0.62483,-0.645159,-0.608977,-0.468318,-0.111348],'cal/(mol*K)','+|-',[0.174239,0.192045,0.204415,0.20327,0.171084,0.13568,0.200956]),
+        H298 = (3.12054,'kcal/mol','+|-',0.749454),
+        S298 = (2.53217,'cal/(mol*K)','+|-',0.575008),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CC1(Br)C(Br)C1Br smiles:CC1(Br)C(Br)C1Br H298:21.75 kcal/mol
+library:CHOBr_G4 label:OC1C(Br)C1Br smiles:OC1C(Br)C1Br H298:-12.28 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1(Br)C(Br)C1Br smiles:Br[CH]C1(Br)C(Br)C1Br H298:71.32 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)C(Br)C1Br smiles:BrCC1(Br)C(Br)C1Br H298:28.33 kcal/mol
+library:CHOBr_G4 label:BrC1CC1Br smiles:BrC1CC1Br H298:24.25 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C1C(Br)(Br)Br smiles:BrC1C(Br)C1C(Br)(Br)Br H298:39.24 kcal/mol
+library:CHOBr_G4 label:CC1C(Br)C1Br smiles:CC1C(Br)C1Br H298:16.48 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C1Br smiles:BrC1C(Br)C1Br H298:32.04 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1Br smiles:[CH2]C1(Br)C(Br)C1Br H298:69.76 kcal/mol
+library:CHOBr_G4 label:[CH2]C1C(Br)C1Br smiles:[CH2]C1C(Br)C1Br H298:62.27 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)C1C(Br)C1Br smiles:Br[C](Br)C1C(Br)C1Br H298:70.12 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C1(Br)Br smiles:BrC1C(Br)C1(Br)Br H298:40.65 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1(Br)C(Br)C1Br smiles:BrC(Br)C1(Br)C(Br)C1Br H298:35.97 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)C1Br smiles:OC1(Br)C(Br)C1Br H298:-7.47 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1C(Br)C1Br smiles:BrC(Br)C1C(Br)C1Br H298:30.59 kcal/mol
+library:CHOBr_G4 label:[O]C1C(Br)C1Br smiles:[O]C1C(Br)C1Br H298:29.93 kcal/mol
 """,
 )
 
@@ -2315,11 +2377,30 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.251981,-0.391746,-0.44753,-0.468683,-0.442189,-0.31602,-0.0171671],'cal/(mol*K)','+|-',[0.17291,0.19058,0.202856,0.20172,0.16978,0.134645,0.199424]),
+        H298 = (3.38762,'kcal/mol','+|-',0.743739),
+        S298 = (2.55331,'cal/(mol*K)','+|-',0.570623),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:[CH2]C1C(Cl)C1Cl smiles:[CH2]C1C(Cl)C1Cl H298:39.83 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)C1Cl smiles:ClC1C(Cl)C1Cl H298:-1.36 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1Cl smiles:ClCC1(Cl)C(Cl)C1Cl H298:-15.42 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1Cl smiles:CC1(Cl)C(Cl)C1Cl H298:-11.79 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)C1(Cl)Cl smiles:ClC1C(Cl)C1(Cl)Cl H298:-4.26 kcal/mol
+library:CHOCl_G4 label:Cl[C](Cl)C1C(Cl)C1Cl smiles:Cl[C](Cl)C1C(Cl)C1Cl H298:24.74 kcal/mol
+library:CHOCl_G4 label:ClC1CC1Cl smiles:ClC1CC1Cl H298:1.58 kcal/mol
+library:CHOCl_G4 label:[O]C1C(Cl)C1Cl smiles:[O]C1C(Cl)C1Cl H298:7.33 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1C(Cl)C1Cl smiles:ClC(Cl)C1C(Cl)C1Cl H298:-14.53 kcal/mol
+library:CHOCl_G4 label:OC1C(Cl)C1Cl smiles:OC1C(Cl)C1Cl H298:-34.53 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)C(Cl)C1Cl smiles:ClC(Cl)C1(Cl)C(Cl)C1Cl H298:-17.17 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C(Cl)C1Cl smiles:OC1(Cl)C(Cl)C1Cl H298:-41.51 kcal/mol
+library:CHOCl_G4 label:CC1C(Cl)C1Cl smiles:CC1C(Cl)C1Cl H298:-5.93 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)C1C(Cl)(Cl)Cl smiles:ClC1C(Cl)C1C(Cl)(Cl)Cl H298:-17.75 kcal/mol
 """,
 )
 
@@ -2336,11 +2417,35 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.286066,-0.381768,-0.364513,-0.309906,-0.206938,-0.0606194,0.191],'cal/(mol*K)','+|-',[0.167495,0.184611,0.196503,0.195403,0.164462,0.130428,0.193178]),
+        H298 = (5.5334,'kcal/mol','+|-',0.720445),
+        S298 = (2.32086,'cal/(mol*K)','+|-',0.552752),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)C(F)C1F smiles:OC1(F)C(F)C1F H298:-155.55 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1F smiles:[CH2]C1(F)C(F)C1F H298:-75.61 kcal/mol
+library:CHOF_G4 label:FC1C(F)C1(F)F smiles:FC1C(F)C1(F)F H298:-157.26 kcal/mol
+library:CHOF_G4 label:FC1C(F)C1F smiles:FC1C(F)C1F H298:-110.69 kcal/mol
+library:CHOF_G4 label:[CH2]C1C(F)C1F smiles:[CH2]C1C(F)C1F H298:-34.20 kcal/mol
+library:CHOF_G4 label:FC1C(F)C1C(F)(F)F smiles:FC1C(F)C1C(F)(F)F H298:-233.19 kcal/mol
+library:CHOF_G4 label:FC(F)C1(F)C(F)C1F smiles:FC(F)C1(F)C(F)C1F H298:-213.01 kcal/mol
+library:CHOF_G4 label:F[CH]C1C(F)C1F smiles:F[CH]C1C(F)C1F H298:-77.85 kcal/mol
+library:CHOF_G4 label:F[C](F)C1C(F)C1F smiles:F[C](F)C1C(F)C1F H298:-128.93 kcal/mol
+library:CHOF_G4 label:[O]C1C(F)C1F smiles:[O]C1C(F)C1F H298:-65.28 kcal/mol
+library:CHOF_G4 label:FCC1C(F)C1F smiles:FCC1C(F)C1F H298:-121.27 kcal/mol
+library:CHOF_G4 label:FC1CC1F smiles:FC1CC1F H298:-73.26 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)C(F)C1F smiles:F[C](F)C1(F)C(F)C1F H298:-166.03 kcal/mol
+library:CHOF_G4 label:OC1C(F)C1F smiles:OC1C(F)C1F H298:-106.89 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1F smiles:CC1(F)C(F)C1F H298:-122.49 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1F smiles:F[CH]C1(F)C(F)C1F H298:-117.51 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1F smiles:FCC1(F)C(F)C1F H298:-163.11 kcal/mol
+library:CHOF_G4 label:FC(F)C1C(F)C1F smiles:FC(F)C1C(F)C1F H298:-174.80 kcal/mol
+library:CHOF_G4 label:CC1C(F)C1F smiles:CC1C(F)C1F H298:-80.02 kcal/mol
 """,
 )
 
@@ -2378,11 +2483,21 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.552206,0.445171,0.363102,0.254796,0.0590491,0.018891,0.177896],'cal/(mol*K)','+|-',[0.389578,0.429391,0.457049,0.45449,0.382526,0.303365,0.449315]),
+        H298 = (2.4478,'kcal/mol','+|-',1.67569),
+        S298 = (3.85512,'cal/(mol*K)','+|-',1.28565),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC(Br)C1(Br)[CH]C1Br smiles:BrC(Br)C1(Br)[CH]C1Br H298:82.67 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[C](Br)C1Br smiles:CC1(Br)[C](Br)C1Br H298:71.46 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[CH]C1Br smiles:CC1(Br)[CH]C1Br H298:69.36 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.03 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)[CH]C1Br smiles:BrCC1(Br)[CH]C1Br H298:75.73 kcal/mol
 """,
 )
 
@@ -2399,11 +2514,21 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.969117,0.84818,0.657084,0.508653,0.245849,0.236684,0.545361],'cal/(mol*K)','+|-',[0.780807,0.860599,0.916033,0.910905,0.766671,0.608016,0.900533]),
+        H298 = (6.29222,'kcal/mol','+|-',3.35849),
+        S298 = (5.20946,'cal/(mol*K)','+|-',2.57675),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClCC1(Cl)[C](Cl)C1Cl smiles:ClCC1(Cl)[C](Cl)C1Cl H298:34.60 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)[CH]C1Cl smiles:ClCC1(Cl)[CH]C1Cl H298:43.03 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)[CH]C1Cl smiles:ClC(Cl)C1(Cl)[CH]C1Cl H298:39.29 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1Cl smiles:CC1(Cl)[C](Cl)C1Cl H298:38.27 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[CH]C1Cl smiles:CC1(Cl)[CH]C1Cl H298:47.41 kcal/mol
 """,
 )
 
@@ -2420,11 +2545,23 @@ entry(
 6    Cs  u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.112047,0.274138,0.382153,0.407604,0.394517,0.419403,0.593439],'cal/(mol*K)','+|-',[0.342077,0.377035,0.401321,0.399074,0.335884,0.266376,0.39453]),
+        H298 = (5.62601,'kcal/mol','+|-',1.47138),
+        S298 = (1.77744,'cal/(mol*K)','+|-',1.12889),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:CC1(F)[C](F)C1F smiles:CC1(F)[C](F)C1F H298:-69.54 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)C(F)F smiles:F[C]1C(F)C1(F)C(F)F H298:-159.06 kcal/mol
+library:CHOF_G4 label:FC(F)C1(F)[CH]C1F smiles:FC(F)C1(F)[CH]C1F H298:-120.56 kcal/mol
+library:CHOF_G4 label:FC1[CH]C1(F)C(F)(F)F smiles:FC1[CH]C1(F)C(F)(F)F H298:-177.67 kcal/mol
+library:CHOF_G4 label:FCC1(F)[CH]C1F smiles:FCC1(F)[CH]C1F H298:-69.36 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1F smiles:FCC1(F)[C](F)C1F H298:-109.98 kcal/mol
+library:CHOF_G4 label:CC1(F)[CH]C1F smiles:CC1(F)[CH]C1F H298:-28.24 kcal/mol
 """,
 )
 
@@ -2460,11 +2597,17 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.30768,-1.99896,-1.60528,-1.27261,-0.791702,-0.351685,0.362914],'cal/(mol*K)','+|-',[1.46788,1.61788,1.7221,1.71246,1.4413,1.14304,1.69296]),
+        H298 = (5.19405,'kcal/mol','+|-',6.31378),
+        S298 = (5.46116,'cal/(mol*K)','+|-',4.84417),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1D[C]C1Br smiles:BrC1=[C]C1Br H298:132.37 kcal/mol
 """,
 )
 
@@ -2480,11 +2623,17 @@ entry(
 5    H   u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.31306,-1.67026,-1.15663,-0.796598,-0.346766,0.0239968,0.823279],'cal/(mol*K)','+|-',[1.46774,1.61773,1.72194,1.7123,1.44117,1.14293,1.6928]),
+        H298 = (9.07546,'kcal/mol','+|-',6.31319),
+        S298 = (4.56114,'cal/(mol*K)','+|-',4.84371),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C1F smiles:FC1=[C]C1F H298:34.93 kcal/mol
 """,
 )
 
@@ -2518,11 +2667,29 @@ entry(
 4    Br1s u0 p3 c0 {1,S}
 5    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.214688,-0.26457,-0.340698,-0.318422,-0.23341,-0.159327,-0.113336],'cal/(mol*K)','+|-',[0.265048,0.292134,0.310952,0.309211,0.26025,0.206394,0.30569]),
+        H298 = (1.86256,'kcal/mol','+|-',1.14005),
+        S298 = (1.70271,'cal/(mol*K)','+|-',0.87469),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:[O]C1C(Br)DC1Br smiles:[O]C1C(Br)=C1Br H298:81.23 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)DC1Br smiles:OC1(Br)C(Br)=C1Br H298:37.20 kcal/mol
+library:CHOBr_G4 label:CC1C(Br)DC1Br smiles:CC1C(Br)=C1Br H298:69.24 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C(Br)DC1Br smiles:CC1(Br)C(Br)=C1Br H298:68.78 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1Br smiles:BrC1=C(Br)C1Br H298:79.55 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1(Br)C(Br)Br smiles:BrC1=C(Br)C1(Br)C(Br)Br H298:82.48 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1(Br)Br smiles:BrC1=C(Br)C1(Br)Br H298:84.19 kcal/mol
+library:CHOBr_G4 label:[CH2]C1C(Br)DC1Br smiles:[CH2]C1C(Br)=C1Br H298:113.78 kcal/mol
+library:CHOBr_G4 label:OC1C(Br)DC1Br smiles:OC1C(Br)=C1Br H298:35.64 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1C(Br)DC1Br smiles:Br[CH]C1C(Br)=C1Br H298:115.43 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1C(Br)(Br)Br smiles:BrC1=C(Br)C1C(Br)(Br)Br H298:88.75 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1 smiles:BrC1=C(Br)C1 H298:78.52 kcal/mol
+library:CHOBr_G4 label:BrCC1C(Br)DC1Br smiles:BrCC1C(Br)=C1Br H298:74.22 kcal/mol
 """,
 )
 
@@ -2537,11 +2704,32 @@ entry(
 4    Cl1s u0 p3 c0 {1,S}
 5    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.239963,-0.233991,-0.277575,-0.261366,-0.19091,-0.118522,-0.0842916],'cal/(mol*K)','+|-',[0.264213,0.291213,0.309971,0.308236,0.25943,0.205743,0.304726]),
+        H298 = (2.69132,'kcal/mol','+|-',1.13646),
+        S298 = (1.26122,'cal/(mol*K)','+|-',0.871933),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C1 smiles:ClC1=C(Cl)C1 H298:56.52 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C1Cl smiles:ClC1=C(Cl)C1Cl H298:46.20 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C1(Cl)Cl smiles:ClC1=C(Cl)C1(Cl)Cl H298:39.98 kcal/mol
+library:CHOCl_G4 label:[O]C1(Cl)C(Cl)DC1Cl smiles:[O]C1(Cl)C(Cl)=C1Cl H298:49.84 kcal/mol
+library:CHOCl_G4 label:CC1C(Cl)DC1Cl smiles:CC1C(Cl)=C1Cl H298:47.20 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C1C(Cl)(Cl)Cl smiles:ClC1=C(Cl)C1C(Cl)(Cl)Cl H298:32.70 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1(Cl)C(Cl)DC1Cl smiles:Cl[CH]C1(Cl)C(Cl)=C1Cl H298:75.06 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)C(Cl)DC1Cl smiles:[CH2]C1(Cl)C(Cl)=C1Cl H298:82.23 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)DC1Cl smiles:ClCC1(Cl)C(Cl)=C1Cl H298:32.14 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C1(Cl)C(Cl)Cl smiles:ClC1=C(Cl)C1(Cl)C(Cl)Cl H298:27.88 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C(Cl)DC1Cl smiles:OC1(Cl)C(Cl)=C1Cl H298:3.90 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)DC1Cl smiles:CC1(Cl)C(Cl)=C1Cl H298:35.83 kcal/mol
+library:CHOCl_G4 label:[CH2]C1C(Cl)DC1Cl smiles:[CH2]C1C(Cl)=C1Cl H298:92.46 kcal/mol
+library:CHOCl_G4 label:OC1C(Cl)DC1Cl smiles:OC1C(Cl)=C1Cl H298:13.97 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1C(Cl)DC1Cl smiles:Cl[CH]C1C(Cl)=C1Cl H298:82.46 kcal/mol
+library:CHOCl_G4 label:ClCC1C(Cl)DC1Cl smiles:ClCC1C(Cl)=C1Cl H298:41.66 kcal/mol
 """,
 )
 
@@ -2556,11 +2744,34 @@ entry(
 4    F1s u0 p3 c0 {1,S}
 5    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.460226,-0.455514,-0.457633,-0.379787,-0.212826,-0.0994828,-0.0208657],'cal/(mol*K)','+|-',[0.261181,0.287872,0.306415,0.304699,0.256453,0.203382,0.30123]),
+        H298 = (7.50285,'kcal/mol','+|-',1.12342),
+        S298 = (1.03235,'cal/(mol*K)','+|-',0.861928),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1C(F)DC1F smiles:[CH2]C1C(F)=C1F H298:27.93 kcal/mol
+library:CHOF_G4 label:OC1C(F)DC1F smiles:OC1C(F)=C1F H298:-52.30 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)C(F)DC1F smiles:[CH2]C1(F)C(F)=C1F H298:-24.40 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1C(F)(F)F smiles:FC1=C(F)C1C(F)(F)F H298:-172.57 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)DC1F smiles:CC1(F)C(F)=C1F H298:-71.51 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1 smiles:FC1=C(F)C1 H298:-9.43 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1F smiles:FC1=C(F)C1F H298:-61.21 kcal/mol
+library:CHOF_G4 label:[O]C1(F)C(F)DC1F smiles:[O]C1(F)C(F)=C1F H298:-54.92 kcal/mol
+library:CHOF_G4 label:OC1(F)C(F)DC1F smiles:OC1(F)C(F)=C1F H298:-105.85 kcal/mol
+library:CHOF_G4 label:CC1C(F)DC1F smiles:CC1C(F)=C1F H298:-17.42 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1(F)C(F)F smiles:FC1=C(F)C1(F)C(F)F H298:-162.38 kcal/mol
+library:CHOF_G4 label:FCC1C(F)DC1F smiles:FCC1C(F)=C1F H298:-60.10 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1(F)F smiles:FC1=C(F)C1(F)F H298:-111.26 kcal/mol
+library:CHOF_G4 label:[O]C1C(F)DC1F smiles:[O]C1C(F)=C1F H298:4.47 kcal/mol
+library:CHOF_G4 label:F[CH]C1C(F)DC1F smiles:F[CH]C1C(F)=C1F H298:-16.88 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)DC1F smiles:F[CH]C1(F)C(F)=C1F H298:-65.63 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)DC1F smiles:FCC1(F)C(F)=C1F H298:-111.28 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)C(F)DC1F smiles:F[C](F)C1(F)C(F)=C1F H298:-116.22 kcal/mol
 """,
 )
 
@@ -2598,11 +2809,27 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.369235,-0.678769,-0.807667,-0.857273,-0.819367,-0.646032,-0.265096],'cal/(mol*K)','+|-',[0.220133,0.242629,0.258258,0.256812,0.216148,0.171418,0.253888]),
+        H298 = (4.04044,'kcal/mol','+|-',0.94686),
+        S298 = (3.31055,'cal/(mol*K)','+|-',0.726466),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrCC1C(Br)C1(Br)Br smiles:BrCC1C(Br)C1(Br)Br H298:30.35 kcal/mol
+library:CHOBr_G4 label:CC1C(Br)C1(Br)Br smiles:CC1C(Br)C1(Br)Br H298:24.65 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1C(Br)C1(Br)Br smiles:Br[CH]C1C(Br)C1(Br)Br H298:73.76 kcal/mol
+library:CHOBr_G4 label:[CH2]C1C(Br)C1(Br)Br smiles:[CH2]C1C(Br)C1(Br)Br H298:70.35 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1C(Br)C1(Br)Br smiles:BrC(Br)C1C(Br)C1(Br)Br H298:37.25 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C(Br)C1(Br)Br smiles:CC1(Br)C(Br)C1(Br)Br H298:30.88 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C1(Br)Br smiles:BrC1C(Br)C1(Br)Br H298:40.65 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)C1(Br)Br smiles:OC1(Br)C(Br)C1(Br)Br H298:2.55 kcal/mol
+library:CHOBr_G4 label:OC1C(Br)C1(Br)Br smiles:OC1C(Br)C1(Br)Br H298:-3.83 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1(Br)Br smiles:[CH2]C1(Br)C(Br)C1(Br)Br H298:77.97 kcal/mol
+library:CHOBr_G4 label:BrC1CC1(Br)Br smiles:BrC1CC1(Br)Br H298:33.25 kcal/mol
 """,
 )
 
@@ -2619,11 +2846,29 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.347698,-0.540407,-0.594455,-0.604019,-0.567891,-0.424377,-0.0515813],'cal/(mol*K)','+|-',[0.183415,0.202158,0.21518,0.213975,0.180094,0.142825,0.211539]),
+        H298 = (3.96235,'kcal/mol','+|-',0.788922),
+        S298 = (2.85402,'cal/(mol*K)','+|-',0.60529),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)C1(Cl)Cl H298:-14.43 kcal/mol
+library:CHOCl_G4 label:[CH2]C1C(Cl)C1(Cl)Cl smiles:[CH2]C1C(Cl)C1(Cl)Cl H298:36.31 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)C1(Cl)Cl smiles:ClC1C(Cl)C1(Cl)Cl H298:-4.26 kcal/mol
+library:CHOCl_G4 label:CC1C(Cl)C1(Cl)Cl smiles:CC1C(Cl)C1(Cl)Cl H298:-9.27 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)C(Cl)C1(Cl)Cl smiles:[CH2]C1(Cl)C(Cl)C1(Cl)Cl H298:32.74 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C(Cl)C1(Cl)Cl smiles:OC1(Cl)C(Cl)C1(Cl)Cl H298:-42.76 kcal/mol
+library:CHOCl_G4 label:ClCC1C(Cl)C1(Cl)Cl smiles:ClCC1C(Cl)C1(Cl)Cl H298:-13.77 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1C(Cl)C1(Cl)Cl smiles:Cl[CH]C1C(Cl)C1(Cl)Cl H298:28.17 kcal/mol
+library:CHOCl_G4 label:OC1C(Cl)C1(Cl)Cl smiles:OC1C(Cl)C1(Cl)Cl H298:-37.51 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1C(Cl)C1(Cl)Cl smiles:ClC(Cl)C1C(Cl)C1(Cl)Cl H298:-18.54 kcal/mol
+library:CHOCl_G4 label:ClC1CC1(Cl)Cl smiles:ClC1CC1(Cl)Cl H298:-1.14 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)(Cl)C1(Cl)Cl smiles:ClC1C(Cl)(Cl)C1(Cl)Cl H298:-5.46 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298:-17.43 kcal/mol
 """,
 )
 
@@ -2640,11 +2885,31 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.41788,-0.49472,-0.435466,-0.369547,-0.254313,-0.0974198,0.239998],'cal/(mol*K)','+|-',[0.179565,0.197915,0.210663,0.209484,0.176314,0.139827,0.207098]),
+        H298 = (8.05265,'kcal/mol','+|-',0.772361),
+        S298 = (2.5907,'cal/(mol*K)','+|-',0.592584),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1(F)F smiles:[CH2]C1(F)C(F)C1(F)F H298:-122.05 kcal/mol
+library:CHOF_G4 label:FC1C(F)C1(F)F smiles:FC1C(F)C1(F)F H298:-157.26 kcal/mol
+library:CHOF_G4 label:OC1C(F)C1(F)F smiles:OC1C(F)C1(F)F H298:-154.02 kcal/mol
+library:CHOF_G4 label:[CH2]C1C(F)C1(F)F smiles:[CH2]C1C(F)C1(F)F H298:-81.65 kcal/mol
+library:CHOF_G4 label:FC1CC1(F)F smiles:FC1CC1(F)F H298:-120.27 kcal/mol
+library:CHOF_G4 label:FC(F)C1C(F)C1(F)F smiles:FC(F)C1C(F)C1(F)F H298:-221.96 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1(F)F smiles:CC1(F)C(F)C1(F)F H298:-169.15 kcal/mol
+library:CHOF_G4 label:F[CH]C1C(F)C1(F)F smiles:F[CH]C1C(F)C1(F)F H298:-124.99 kcal/mol
+library:CHOF_G4 label:OC1(F)C(F)C1(F)F smiles:OC1(F)C(F)C1(F)F H298:-199.77 kcal/mol
+library:CHOF_G4 label:FCC1C(F)C1(F)F smiles:FCC1C(F)C1(F)F H298:-169.36 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1(F)F smiles:FCC1(F)C(F)C1(F)F H298:-206.91 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1(F)F smiles:F[CH]C1(F)C(F)C1(F)F H298:-163.39 kcal/mol
+library:CHOF_G4 label:CC1C(F)C1(F)F smiles:CC1C(F)C1(F)F H298:-127.50 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)C1(F)F smiles:FC1C(F)(F)C1(F)F H298:-200.97 kcal/mol
+library:CHOF_G4 label:F[C](F)C1C(F)C1(F)F smiles:F[C](F)C1C(F)C1(F)F H298:-175.50 kcal/mol
 """,
 )
 
@@ -2680,11 +2945,25 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.346971,-0.464919,-0.501447,-0.48262,-0.380147,-0.225397,0.043951],'cal/(mol*K)','+|-',[0.28837,0.317839,0.338312,0.336418,0.28315,0.224554,0.332588]),
+        H298 = (4.92231,'kcal/mol','+|-',1.24037),
+        S298 = (1.47817,'cal/(mol*K)','+|-',0.951655),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)C1(Br)Br smiles:Br[C]1C(Br)C1(Br)Br H298:90.00 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1Br smiles:OC1(Br)[C](Br)C1Br H298:43.02 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C1C(Br)Br smiles:Br[C]1C(Br)C1C(Br)Br H298:80.07 kcal/mol
+library:CHOBr_G4 label:CC1[C](Br)C1Br smiles:CC1[C](Br)C1Br H298:67.65 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC1Br smiles:Br[C]1CC1Br H298:76.25 kcal/mol
+library:CHOBr_G4 label:OC1[C](Br)C1Br smiles:OC1[C](Br)C1Br H298:38.25 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C1Br smiles:Br[C]1C(Br)C1Br H298:82.31 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[C](Br)C1Br smiles:CC1(Br)[C](Br)C1Br H298:71.46 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.03 kcal/mol
 """,
 )
 
@@ -2700,11 +2979,25 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.361202,-0.396873,-0.365843,-0.343216,-0.277712,-0.126832,0.168133],'cal/(mol*K)','+|-',[0.287692,0.317093,0.337517,0.335628,0.282484,0.224027,0.331806]),
+        H298 = (5.68414,'kcal/mol','+|-',1.23745),
+        S298 = (1.6787,'cal/(mol*K)','+|-',0.949418),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1[C](Cl)C1Cl smiles:OC1[C](Cl)C1Cl H298:16.35 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)[C](Cl)C1Cl smiles:ClCC1(Cl)[C](Cl)C1Cl H298:34.60 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1Cl smiles:Cl[C]1C(Cl)C1Cl H298:49.47 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1Cl smiles:OC1(Cl)[C](Cl)C1Cl H298:9.72 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1C(Cl)Cl smiles:Cl[C]1C(Cl)C1C(Cl)Cl H298:35.74 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1Cl smiles:CC1(Cl)[C](Cl)C1Cl H298:38.27 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC1Cl smiles:Cl[C]1CC1Cl H298:53.85 kcal/mol
+library:CHOCl_G4 label:CC1[C](Cl)C1Cl smiles:CC1[C](Cl)C1Cl H298:45.50 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)C1(Cl)Cl H298:46.71 kcal/mol
 """,
 )
 
@@ -2720,11 +3013,28 @@ entry(
 5    H   u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.289402,-0.254776,-0.200562,-0.151479,-0.0779337,0.0480944,0.270126],'cal/(mol*K)','+|-',[0.261721,0.288467,0.307048,0.305329,0.256983,0.203803,0.301852]),
+        H298 = (7.4438,'kcal/mol','+|-',1.12574),
+        S298 = (1.44708,'cal/(mol*K)','+|-',0.863709),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:CC1(F)[C](F)C1F smiles:CC1(F)[C](F)C1F H298:-69.54 kcal/mol
+library:CHOF_G4 label:F[C]1CC1F smiles:F[C]1CC1F H298:-18.01 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1C(F)F smiles:F[C]1C(F)C1C(F)F H298:-121.18 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)C(F)F smiles:F[C]1C(F)C1(F)C(F)F H298:-159.06 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1F smiles:F[C]1C(F)C1F H298:-57.33 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)F smiles:F[C]1C(F)C1(F)F H298:-103.09 kcal/mol
+library:CHOF_G4 label:OC1[C](F)C1F smiles:OC1[C](F)C1F H298:-52.19 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1C(F)(F)F smiles:F[C]1C(F)C1C(F)(F)F H298:-179.38 kcal/mol
+library:CHOF_G4 label:OC1(F)[C](F)C1F smiles:OC1(F)[C](F)C1F H298:-101.15 kcal/mol
+library:CHOF_G4 label:CC1[C](F)C1F smiles:CC1[C](F)C1F H298:-25.67 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1F smiles:FCC1(F)[C](F)C1F H298:-109.98 kcal/mol
+library:CHOF_G4 label:FCC1[C](F)C1F smiles:FCC1[C](F)C1F H298:-68.48 kcal/mol
 """,
 )
 
@@ -2760,11 +3070,21 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0960961,-0.258711,-0.303876,-0.320898,-0.31965,-0.212733,0.0330053],'cal/(mol*K)','+|-',[0.406461,0.447999,0.476856,0.474186,0.399103,0.316512,0.468787]),
+        H298 = (6.26591,'kcal/mol','+|-',1.74831),
+        S298 = (2.53036,'cal/(mol*K)','+|-',1.34137),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)C1(Br)Br smiles:Br[C]1C(Br)C1(Br)Br H298:90.00 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC1(Br)Br smiles:Br[C]1CC1(Br)Br H298:83.35 kcal/mol
+library:CHOBr_G4 label:BrCC1[C](Br)C1(Br)Br smiles:BrCC1[C](Br)C1(Br)Br H298:80.17 kcal/mol
+library:CHOBr_G4 label:CC1[C](Br)C1(Br)Br smiles:CC1[C](Br)C1(Br)Br H298:74.05 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1(Br)Br smiles:OC1(Br)[C](Br)C1(Br)Br H298:50.51 kcal/mol
 """,
 )
 
@@ -2780,11 +3100,24 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.354153,-0.452523,-0.426691,-0.402198,-0.339363,-0.187277,0.159793],'cal/(mol*K)','+|-',[0.300139,0.330811,0.352119,0.350148,0.294705,0.233719,0.346161]),
+        H298 = (6.28543,'kcal/mol','+|-',1.29099),
+        S298 = (2.18953,'cal/(mol*K)','+|-',0.990493),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1[C](Cl)C1(Cl)Cl smiles:CC1[C](Cl)C1(Cl)Cl H298:41.16 kcal/mol
+library:CHOCl_G4 label:ClCC1[C](Cl)C1(Cl)Cl smiles:ClCC1[C](Cl)C1(Cl)Cl H298:36.67 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)(Cl)C1(Cl)Cl H298:43.80 kcal/mol
+library:CHOCl_G4 label:OC1[C](Cl)C1(Cl)Cl smiles:OC1[C](Cl)C1(Cl)Cl H298:12.01 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1(Cl)Cl smiles:OC1(Cl)[C](Cl)C1(Cl)Cl H298:6.51 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)C1(Cl)Cl H298:46.71 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC1(Cl)Cl smiles:Cl[C]1CC1(Cl)Cl H298:49.81 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1(Cl)Cl smiles:CC1(Cl)[C](Cl)C1(Cl)Cl H298:35.98 kcal/mol
 """,
 )
 
@@ -2800,11 +3133,26 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.379639,-0.339897,-0.258373,-0.199793,-0.109738,0.0270713,0.319077],'cal/(mol*K)','+|-',[0.280395,0.30905,0.328956,0.327115,0.275319,0.218344,0.32339]),
+        H298 = (9.8234,'kcal/mol','+|-',1.20606),
+        S298 = (1.82717,'cal/(mol*K)','+|-',0.925337),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(C(F)F)C1(F)F smiles:F[C]1C(C(F)F)C1(F)F H298:-168.44 kcal/mol
+library:CHOF_G4 label:OC1(F)[C](F)C1(F)F smiles:OC1(F)[C](F)C1(F)F H298:-146.52 kcal/mol
+library:CHOF_G4 label:CC1[C](F)C1(F)F smiles:CC1[C](F)C1(F)F H298:-73.76 kcal/mol
+library:CHOF_G4 label:FCC1[C](F)C1(F)F smiles:FCC1[C](F)C1(F)F H298:-115.48 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)F smiles:F[C]1C(F)C1(F)F H298:-103.09 kcal/mol
+library:CHOF_G4 label:CC1(F)[C](F)C1(F)F smiles:CC1(F)[C](F)C1(F)F H298:-115.50 kcal/mol
+library:CHOF_G4 label:OC1[C](F)C1(F)F smiles:OC1[C](F)C1(F)F H298:-99.10 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1(F)F smiles:FCC1(F)[C](F)C1(F)F H298:-155.11 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)(F)C1(F)F smiles:F[C]1C(F)(F)C1(F)F H298:-148.39 kcal/mol
+library:CHOF_G4 label:F[C]1CC1(F)F smiles:F[C]1CC1(F)F H298:-65.97 kcal/mol
 """,
 )
 
@@ -2842,11 +3190,21 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.18112,0.0419643,-0.0177598,-0.0815083,-0.172199,-0.144483,0.0120179],'cal/(mol*K)','+|-',[0.38845,0.428147,0.455725,0.453174,0.381418,0.302487,0.448014]),
+        H298 = (5.70474,'kcal/mol','+|-',1.67084),
+        S298 = (4.21485,'cal/(mol*K)','+|-',1.28193),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)C1(Br)Br smiles:Br[C]1C(Br)C1(Br)Br H298:90.00 kcal/mol
+library:CHOBr_G4 label:BrC1[CH]C1(Br)Br smiles:BrC1[CH]C1(Br)Br H298:86.75 kcal/mol
+library:CHOBr_G4 label:C[C]1C(Br)C1(Br)Br smiles:C[C]1C(Br)C1(Br)Br H298:73.54 kcal/mol
+library:CHOBr_G4 label:BrC[C]1C(Br)C1(Br)Br smiles:BrC[C]1C(Br)C1(Br)Br H298:80.82 kcal/mol
+library:CHOBr_G4 label:O[C]1C(Br)C1(Br)Br smiles:O[C]1C(Br)C1(Br)Br H298:46.24 kcal/mol
 """,
 )
 
@@ -2863,11 +3221,20 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0328703,0.065607,0.117562,0.104597,0.0207608,0.0260465,0.189919],'cal/(mol*K)','+|-',[0.400668,0.441614,0.470059,0.467428,0.393415,0.312001,0.462105]),
+        H298 = (5.63899,'kcal/mol','+|-',1.72339),
+        S298 = (2.62246,'cal/(mol*K)','+|-',1.32225),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:C[C]1C(Cl)C1(Cl)Cl smiles:C[C]1C(Cl)C1(Cl)Cl H298:40.93 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]C1(Cl)Cl smiles:ClC1[CH]C1(Cl)Cl H298:53.59 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)C1(Cl)Cl H298:46.71 kcal/mol
+library:CHOCl_G4 label:O[C]1C(Cl)C1(Cl)Cl smiles:O[C]1C(Cl)C1(Cl)Cl H298:11.28 kcal/mol
 """,
 )
 
@@ -2905,11 +3272,19 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.309918,-0.598703,-0.664265,-0.684144,-0.680956,-0.566913,-0.17035],'cal/(mol*K)','+|-',[0.411745,0.453823,0.483055,0.48035,0.404291,0.320627,0.474881]),
+        H298 = (5.49321,'kcal/mol','+|-',1.77104),
+        S298 = (4.60216,'cal/(mol*K)','+|-',1.35881),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC(Br)C1(Br)CC1(Br)Br smiles:BrC(Br)C1(Br)CC1(Br)Br H298:42.05 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C(Br)C1(Br)Br smiles:CC1(Br)C(Br)C1(Br)Br H298:30.88 kcal/mol
+library:CHOBr_G4 label:CC1(Br)CC1(Br)Br smiles:CC1(Br)CC1(Br)Br H298:24.20 kcal/mol
 """,
 )
 
@@ -2926,11 +3301,22 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.387751,-0.582045,-0.590618,-0.584213,-0.544388,-0.390162,0.060055],'cal/(mol*K)','+|-',[0.245512,0.270602,0.288032,0.28642,0.241068,0.191181,0.283158]),
+        H298 = (3.95142,'kcal/mol','+|-',1.05602),
+        S298 = (3.3853,'cal/(mol*K)','+|-',0.810219),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)C1(Cl)Cl H298:-14.43 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)CC1(Cl)Cl smiles:ClC(Cl)C1(Cl)CC1(Cl)Cl H298:-15.33 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)CC1(Cl)Cl smiles:CC1(Cl)CC1(Cl)Cl H298:-10.66 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)CC1(Cl)Cl smiles:ClCC1(Cl)CC1(Cl)Cl H298:-14.47 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)(Cl)C1(Cl)Cl H298:-15.48 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298:-17.43 kcal/mol
 """,
 )
 
@@ -2947,11 +3333,22 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    Cs  u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.508537,-0.562465,-0.435307,-0.332349,-0.17396,0.0295643,0.459956],'cal/(mol*K)','+|-',[0.24057,0.265155,0.282234,0.280654,0.236215,0.187332,0.277458]),
+        H298 = (7.99075,'kcal/mol','+|-',1.03476),
+        S298 = (2.99401,'cal/(mol*K)','+|-',0.793909),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC(F)C1(F)CC1(F)F smiles:FC(F)C1(F)CC1(F)F H298:-222.60 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)(F)C1(F)F smiles:CC1(F)C(F)(F)C1(F)F H298:-213.21 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1(F)F smiles:CC1(F)C(F)C1(F)F H298:-169.15 kcal/mol
+library:CHOF_G4 label:FCC1(F)CC1(F)F smiles:FCC1(F)CC1(F)F H298:-172.09 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1(F)F smiles:FCC1(F)C(F)C1(F)F H298:-206.91 kcal/mol
+library:CHOF_G4 label:CC1(F)CC1(F)F smiles:CC1(F)CC1(F)F H298:-131.70 kcal/mol
 """,
 )
 
@@ -2987,11 +3384,24 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.904522,-0.883729,-0.79682,-0.697731,-0.500443,-0.285519,0.0856742],'cal/(mol*K)','+|-',[0.238724,0.263119,0.280068,0.2785,0.234402,0.185894,0.275329]),
+        H298 = (0.732597,'kcal/mol','+|-',1.02682),
+        S298 = (3.07337,'cal/(mol*K)','+|-',0.787815),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1DC(Br)C1Br smiles:OC1=C(Br)C1Br H298:33.66 kcal/mol
+library:CHOBr_G4 label:[CH2]C1DC(Br)C1Br smiles:[CH2]C1=C(Br)C1Br H298:97.19 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1DC(Br)C1Br smiles:Br[CH]C1=C(Br)C1Br H298:101.87 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1Br smiles:BrC1=C(Br)C1Br H298:79.55 kcal/mol
+library:CHOBr_G4 label:BrCC1DC(Br)C1Br smiles:BrCC1=C(Br)C1Br H298:69.18 kcal/mol
+library:CHOBr_G4 label:CC1DC(Br)C1Br smiles:CC1=C(Br)C1Br H298:60.85 kcal/mol
+library:CHOBr_G4 label:BrC1DCC1Br smiles:BrC1=CC1Br H298:74.05 kcal/mol
+library:CHOBr_G4 label:BrC1DC(C(Br)(Br)Br)C1Br smiles:BrC1=C(C(Br)(Br)Br)C1Br H298:88.34 kcal/mol
 """,
 )
 
@@ -3007,11 +3417,25 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.817538,-0.73994,-0.643428,-0.558089,-0.405507,-0.229105,0.166631],'cal/(mol*K)','+|-',[0.225744,0.248813,0.26484,0.263357,0.221657,0.175787,0.260358]),
+        H298 = (0.799395,'kcal/mol','+|-',0.970991),
+        S298 = (3.10292,'cal/(mol*K)','+|-',0.74498),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C1Cl smiles:ClC1=C(Cl)C1Cl H298:46.20 kcal/mol
+library:CHOCl_G4 label:ClC1DC(C(Cl)(Cl)Cl)C1Cl smiles:ClC1=C(C(Cl)(Cl)Cl)C1Cl H298:32.54 kcal/mol
+library:CHOCl_G4 label:CC1DC(Cl)C1Cl smiles:CC1=C(Cl)C1Cl H298:38.94 kcal/mol
+library:CHOCl_G4 label:ClC1DC(C(Cl)Cl)C1Cl smiles:ClC1=C(C(Cl)Cl)C1Cl H298:34.66 kcal/mol
+library:CHOCl_G4 label:OC1DC(Cl)C1Cl smiles:OC1=C(Cl)C1Cl H298:11.41 kcal/mol
+library:CHOCl_G4 label:[CH2]C1DC(Cl)C1Cl smiles:[CH2]C1=C(Cl)C1Cl H298:75.20 kcal/mol
+library:CHOCl_G4 label:ClCC1DC(Cl)C1Cl smiles:ClCC1=C(Cl)C1Cl H298:35.88 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1DC(Cl)C1Cl smiles:Cl[CH]C1=C(Cl)C1Cl H298:68.50 kcal/mol
+library:CHOCl_G4 label:ClC1DCC1Cl smiles:ClC1=CC1Cl H298:51.11 kcal/mol
 """,
 )
 
@@ -3027,11 +3451,24 @@ entry(
 5    H   u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.922042,-0.759736,-0.58182,-0.439739,-0.238999,-0.0616863,0.317271],'cal/(mol*K)','+|-',[0.238513,0.262887,0.279821,0.278254,0.234195,0.18573,0.275086]),
+        H298 = (2.18944,'kcal/mol','+|-',1.02592),
+        S298 = (2.61167,'cal/(mol*K)','+|-',0.787121),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1DC(F)C1F smiles:[CH2]C1=C(F)C1F H298:3.19 kcal/mol
+library:CHOF_G4 label:OC1DC(F)C1F smiles:OC1=C(F)C1F H298:-62.45 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1F smiles:FC1=C(F)C1F H298:-61.21 kcal/mol
+library:CHOF_G4 label:FC1DC(C(F)(F)F)C1F smiles:FC1=C(C(F)(F)F)C1F H298:-181.34 kcal/mol
+library:CHOF_G4 label:CC1DC(F)C1F smiles:CC1=C(F)C1F H298:-35.31 kcal/mol
+library:CHOF_G4 label:F[CH]C1DC(F)C1F smiles:F[CH]C1=C(F)C1F H298:-39.18 kcal/mol
+library:CHOF_G4 label:FC1DCC1F smiles:FC1=CC1F H298:-24.36 kcal/mol
+library:CHOF_G4 label:FCC1DC(F)C1F smiles:FCC1=C(F)C1F H298:-74.58 kcal/mol
 """,
 )
 
@@ -3067,11 +3504,17 @@ entry(
 5    Cs   u1 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.345692,0.440369,0.433913,0.396098,0.236099,0.182697,0.190717],'cal/(mol*K)','+|-',[0.73127,0.806001,0.857918,0.853114,0.718032,0.569441,0.843401]),
+        H298 = (-0.403946,'kcal/mol','+|-',3.14541),
+        S298 = (2.48652,'cal/(mol*K)','+|-',2.41328),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:[CH2]C1(Br)CDC1Br smiles:[CH2]C1(Br)C=C1Br H298:110.37 kcal/mol
 """,
 )
 
@@ -3087,11 +3530,20 @@ entry(
 5    Cs   u1 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.474896,-0.262307,-0.0943508,-0.0311071,-0.0749269,0.0723242,0.451102],'cal/(mol*K)','+|-',[0.604811,0.666618,0.709557,0.705584,0.593862,0.470967,0.69755]),
+        H298 = (1.36958,'kcal/mol','+|-',2.60147),
+        S298 = (6.61448,'cal/(mol*K)','+|-',1.99595),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[CH]C1(Cl)CDC1Cl smiles:Cl[CH]C1(Cl)C=C1Cl H298:80.49 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)CDC1Cl smiles:[CH2]C1(Cl)C=C1Cl H298:87.76 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1(Cl)C(Cl)DC1Cl smiles:Cl[CH]C1(Cl)C(Cl)=C1Cl H298:75.06 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)C(Cl)DC1Cl smiles:[CH2]C1(Cl)C(Cl)=C1Cl H298:82.23 kcal/mol
 """,
 )
 
@@ -3129,11 +3581,17 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.284598,-1.14814,-1.94835,-2.54741,-2.16244,-1.88051,-1.29436],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (12.3439,'kcal/mol','+|-',5.97046),
+        S298 = (9.94055,'cal/(mol*K)','+|-',4.58076),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:ODC1C(Br)C1(Br)Br smiles:O=C1C(Br)C1(Br)Br H298:29.62 kcal/mol
 """,
 )
 
@@ -3150,11 +3608,17 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0755714,-0.505997,-1.2508,-2.01474,-1.88965,-1.70113,-0.80753],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (14.3504,'kcal/mol','+|-',5.97046),
+        S298 = (9.13831,'cal/(mol*K)','+|-',4.58076),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ODC1C(Cl)C1(Cl)Cl smiles:O=C1C(Cl)C1(Cl)Cl H298:-2.28 kcal/mol
 """,
 )
 
@@ -3171,11 +3635,17 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.75255,0.297064,-0.245502,-0.905259,-0.918396,-0.847185,-0.155812],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (29.5886,'kcal/mol','+|-',5.97046),
+        S298 = (8.73006,'cal/(mol*K)','+|-',4.58076),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:ODC1C(F)C1(F)F smiles:O=C1C(F)C1(F)F H298:-114.43 kcal/mol
 """,
 )
 
@@ -3211,11 +3681,18 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.624841,-0.625789,-0.560264,-0.528588,-0.480058,-0.34059,-0.0110602],'cal/(mol*K)','+|-',[0.327987,0.361505,0.384791,0.382637,0.32205,0.255404,0.37828]),
+        H298 = (1.12768,'kcal/mol','+|-',1.41077),
+        S298 = (3.19107,'cal/(mol*K)','+|-',1.0824),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)CDC1Br smiles:OC1(Br)C=C1Br H298:32.34 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)DC1Br smiles:OC1(Br)C(Br)=C1Br H298:37.20 kcal/mol
 """,
 )
 
@@ -3231,11 +3708,18 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.13617,-1.14728,-0.99404,-0.861659,-0.694239,-0.417467,0.177619],'cal/(mol*K)','+|-',[0.655759,0.722772,0.769329,0.765021,0.643887,0.51064,0.756311]),
+        H298 = (2.63922,'kcal/mol','+|-',2.82062),
+        S298 = (6.18131,'cal/(mol*K)','+|-',2.16408),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)CDC1Cl smiles:OC1(Cl)C=C1Cl H298:9.27 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C(Cl)DC1Cl smiles:OC1(Cl)C(Cl)=C1Cl H298:3.90 kcal/mol
 """,
 )
 
@@ -3273,11 +3757,17 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.39685,-1.23423,-1.38855,-1.61038,-1.6461,-1.55976,-2.82032],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (3.23854,'kcal/mol','+|-',2.98523),
+        S298 = (4.26202,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1(Br)OC1(Br)Br smiles:BrC1(Br)OC1(Br)Br H298:13.11 kcal/mol
 """,
 )
 
@@ -3294,11 +3784,17 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.13122,-1.12282,-1.329,-1.495,-1.43477,-1.32466,-2.67968],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (3.38707,'kcal/mol','+|-',2.98523),
+        S298 = (3.82241,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1(Cl)OC1(Cl)Cl smiles:ClC1(Cl)OC1(Cl)Cl H298:-35.57 kcal/mol
 """,
 )
 
@@ -3315,11 +3811,17 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.14078,-0.937296,-0.974515,-1.09354,-0.963216,-0.820046,-2.19892],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (8.98972,'kcal/mol','+|-',2.98523),
+        S298 = (2.71653,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1(F)OC1(F)F smiles:FC1(F)OC1(F)F H298:-213.67 kcal/mol
 """,
 )
 
@@ -3355,11 +3857,24 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.904522,-0.883729,-0.79682,-0.697731,-0.500443,-0.285519,0.0856742],'cal/(mol*K)','+|-',[0.238724,0.263119,0.280068,0.2785,0.234402,0.185894,0.275329]),
+        H298 = (0.732597,'kcal/mol','+|-',1.02682),
+        S298 = (3.07337,'cal/(mol*K)','+|-',0.787815),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1DC(Br)C1Br smiles:OC1=C(Br)C1Br H298:33.66 kcal/mol
+library:CHOBr_G4 label:[CH2]C1DC(Br)C1Br smiles:[CH2]C1=C(Br)C1Br H298:97.19 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1DC(Br)C1Br smiles:Br[CH]C1=C(Br)C1Br H298:101.87 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1Br smiles:BrC1=C(Br)C1Br H298:79.55 kcal/mol
+library:CHOBr_G4 label:BrCC1DC(Br)C1Br smiles:BrCC1=C(Br)C1Br H298:69.18 kcal/mol
+library:CHOBr_G4 label:CC1DC(Br)C1Br smiles:CC1=C(Br)C1Br H298:60.85 kcal/mol
+library:CHOBr_G4 label:BrC1DCC1Br smiles:BrC1=CC1Br H298:74.05 kcal/mol
+library:CHOBr_G4 label:BrC1DC(C(Br)(Br)Br)C1Br smiles:BrC1=C(C(Br)(Br)Br)C1Br H298:88.34 kcal/mol
 """,
 )
 
@@ -3375,11 +3890,25 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.817538,-0.73994,-0.643428,-0.558089,-0.405507,-0.229105,0.166631],'cal/(mol*K)','+|-',[0.225744,0.248813,0.26484,0.263357,0.221657,0.175787,0.260358]),
+        H298 = (0.799395,'kcal/mol','+|-',0.970991),
+        S298 = (3.10292,'cal/(mol*K)','+|-',0.74498),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C1Cl smiles:ClC1=C(Cl)C1Cl H298:46.20 kcal/mol
+library:CHOCl_G4 label:ClC1DC(C(Cl)(Cl)Cl)C1Cl smiles:ClC1=C(C(Cl)(Cl)Cl)C1Cl H298:32.54 kcal/mol
+library:CHOCl_G4 label:CC1DC(Cl)C1Cl smiles:CC1=C(Cl)C1Cl H298:38.94 kcal/mol
+library:CHOCl_G4 label:ClC1DC(C(Cl)Cl)C1Cl smiles:ClC1=C(C(Cl)Cl)C1Cl H298:34.66 kcal/mol
+library:CHOCl_G4 label:OC1DC(Cl)C1Cl smiles:OC1=C(Cl)C1Cl H298:11.41 kcal/mol
+library:CHOCl_G4 label:[CH2]C1DC(Cl)C1Cl smiles:[CH2]C1=C(Cl)C1Cl H298:75.20 kcal/mol
+library:CHOCl_G4 label:ClCC1DC(Cl)C1Cl smiles:ClCC1=C(Cl)C1Cl H298:35.88 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1DC(Cl)C1Cl smiles:Cl[CH]C1=C(Cl)C1Cl H298:68.50 kcal/mol
+library:CHOCl_G4 label:ClC1DCC1Cl smiles:ClC1=CC1Cl H298:51.11 kcal/mol
 """,
 )
 
@@ -3395,11 +3924,24 @@ entry(
 5    H   u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.922042,-0.759736,-0.58182,-0.439739,-0.238999,-0.0616863,0.317271],'cal/(mol*K)','+|-',[0.238513,0.262887,0.279821,0.278254,0.234195,0.18573,0.275086]),
+        H298 = (2.18944,'kcal/mol','+|-',1.02592),
+        S298 = (2.61167,'cal/(mol*K)','+|-',0.787121),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1DC(F)C1F smiles:[CH2]C1=C(F)C1F H298:3.19 kcal/mol
+library:CHOF_G4 label:OC1DC(F)C1F smiles:OC1=C(F)C1F H298:-62.45 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1F smiles:FC1=C(F)C1F H298:-61.21 kcal/mol
+library:CHOF_G4 label:FC1DC(C(F)(F)F)C1F smiles:FC1=C(C(F)(F)F)C1F H298:-181.34 kcal/mol
+library:CHOF_G4 label:CC1DC(F)C1F smiles:CC1=C(F)C1F H298:-35.31 kcal/mol
+library:CHOF_G4 label:F[CH]C1DC(F)C1F smiles:F[CH]C1=C(F)C1F H298:-39.18 kcal/mol
+library:CHOF_G4 label:FC1DCC1F smiles:FC1=CC1F H298:-24.36 kcal/mol
+library:CHOF_G4 label:FCC1DC(F)C1F smiles:FCC1=C(F)C1F H298:-74.58 kcal/mol
 """,
 )
 
@@ -3435,11 +3977,21 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0960961,-0.258711,-0.303876,-0.320898,-0.31965,-0.212733,0.0330053],'cal/(mol*K)','+|-',[0.406461,0.447999,0.476856,0.474186,0.399103,0.316512,0.468787]),
+        H298 = (6.26591,'kcal/mol','+|-',1.74831),
+        S298 = (2.53036,'cal/(mol*K)','+|-',1.34137),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)C1(Br)Br smiles:Br[C]1C(Br)C1(Br)Br H298:90.00 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC1(Br)Br smiles:Br[C]1CC1(Br)Br H298:83.35 kcal/mol
+library:CHOBr_G4 label:BrCC1[C](Br)C1(Br)Br smiles:BrCC1[C](Br)C1(Br)Br H298:80.17 kcal/mol
+library:CHOBr_G4 label:CC1[C](Br)C1(Br)Br smiles:CC1[C](Br)C1(Br)Br H298:74.05 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1(Br)Br smiles:OC1(Br)[C](Br)C1(Br)Br H298:50.51 kcal/mol
 """,
 )
 
@@ -3455,11 +4007,24 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.354153,-0.452523,-0.426691,-0.402198,-0.339363,-0.187277,0.159793],'cal/(mol*K)','+|-',[0.300139,0.330811,0.352119,0.350148,0.294705,0.233719,0.346161]),
+        H298 = (6.28543,'kcal/mol','+|-',1.29099),
+        S298 = (2.18953,'cal/(mol*K)','+|-',0.990493),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1[C](Cl)C1(Cl)Cl smiles:CC1[C](Cl)C1(Cl)Cl H298:41.16 kcal/mol
+library:CHOCl_G4 label:ClCC1[C](Cl)C1(Cl)Cl smiles:ClCC1[C](Cl)C1(Cl)Cl H298:36.67 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)(Cl)C1(Cl)Cl H298:43.80 kcal/mol
+library:CHOCl_G4 label:OC1[C](Cl)C1(Cl)Cl smiles:OC1[C](Cl)C1(Cl)Cl H298:12.01 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1(Cl)Cl smiles:OC1(Cl)[C](Cl)C1(Cl)Cl H298:6.51 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)C1(Cl)Cl H298:46.71 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC1(Cl)Cl smiles:Cl[C]1CC1(Cl)Cl H298:49.81 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1(Cl)Cl smiles:CC1(Cl)[C](Cl)C1(Cl)Cl H298:35.98 kcal/mol
 """,
 )
 
@@ -3475,11 +4040,26 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.379639,-0.339897,-0.258373,-0.199793,-0.109738,0.0270713,0.319077],'cal/(mol*K)','+|-',[0.280395,0.30905,0.328956,0.327115,0.275319,0.218344,0.32339]),
+        H298 = (9.8234,'kcal/mol','+|-',1.20606),
+        S298 = (1.82717,'cal/(mol*K)','+|-',0.925337),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(C(F)F)C1(F)F smiles:F[C]1C(C(F)F)C1(F)F H298:-168.44 kcal/mol
+library:CHOF_G4 label:OC1(F)[C](F)C1(F)F smiles:OC1(F)[C](F)C1(F)F H298:-146.52 kcal/mol
+library:CHOF_G4 label:CC1[C](F)C1(F)F smiles:CC1[C](F)C1(F)F H298:-73.76 kcal/mol
+library:CHOF_G4 label:FCC1[C](F)C1(F)F smiles:FCC1[C](F)C1(F)F H298:-115.48 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)F smiles:F[C]1C(F)C1(F)F H298:-103.09 kcal/mol
+library:CHOF_G4 label:CC1(F)[C](F)C1(F)F smiles:CC1(F)[C](F)C1(F)F H298:-115.50 kcal/mol
+library:CHOF_G4 label:OC1[C](F)C1(F)F smiles:OC1[C](F)C1(F)F H298:-99.10 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1(F)F smiles:FCC1(F)[C](F)C1(F)F H298:-155.11 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)(F)C1(F)F smiles:F[C]1C(F)(F)C1(F)F H298:-148.39 kcal/mol
+library:CHOF_G4 label:F[C]1CC1(F)F smiles:F[C]1CC1(F)F H298:-65.97 kcal/mol
 """,
 )
 
@@ -3515,11 +4095,21 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.23056,-0.226829,-0.145557,-0.073861,0.00277703,0.094243,0.286762],'cal/(mol*K)','+|-',[0.389578,0.429391,0.457049,0.45449,0.382526,0.303365,0.449315]),
+        H298 = (6.36631,'kcal/mol','+|-',1.67569),
+        S298 = (1.81355,'cal/(mol*K)','+|-',1.28565),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrCC1(Br)C[C]1Br smiles:BrCC1(Br)C[C]1Br H298:72.20 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC1(Br)C(Br)Br smiles:Br[C]1CC1(Br)C(Br)Br H298:78.93 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C[C]1Br smiles:CC1(Br)C[C]1Br H298:65.93 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[C](Br)C1Br smiles:CC1(Br)[C](Br)C1Br H298:71.46 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.03 kcal/mol
 """,
 )
 
@@ -3535,11 +4125,25 @@ entry(
 5    Cs  u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.556639,-0.409144,-0.217105,-0.0834623,0.0425654,0.171019,0.488709],'cal/(mol*K)','+|-',[0.322932,0.355933,0.37886,0.376739,0.317086,0.251468,0.372449]),
+        H298 = (8.37828,'kcal/mol','+|-',1.38903),
+        S298 = (1.90277,'cal/(mol*K)','+|-',1.06571),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FCC1(F)C[C]1F smiles:FCC1(F)C[C]1F H298:-70.95 kcal/mol
+library:CHOF_G4 label:CC1(F)C[C]1F smiles:CC1(F)C[C]1F H298:-29.76 kcal/mol
+library:CHOF_G4 label:CC1(F)[C](F)C1F smiles:CC1(F)[C](F)C1F H298:-69.54 kcal/mol
+library:CHOF_G4 label:F[C]1CC1(F)C(F)(F)F smiles:F[C]1CC1(F)C(F)(F)F H298:-179.07 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)C(F)F smiles:F[C]1C(F)C1(F)C(F)F H298:-159.06 kcal/mol
+library:CHOF_G4 label:CC1(F)[C](F)C1(F)F smiles:CC1(F)[C](F)C1(F)F H298:-115.50 kcal/mol
+library:CHOF_G4 label:F[C]1CC1(F)C(F)F smiles:F[C]1CC1(F)C(F)F H298:-122.23 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1(F)F smiles:FCC1(F)[C](F)C1(F)F H298:-155.11 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1F smiles:FCC1(F)[C](F)C1F H298:-109.98 kcal/mol
 """,
 )
 
@@ -3577,11 +4181,21 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.01558,-1.02628,-0.934745,-0.850763,-0.620545,-0.393594,0.124572],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (2.38445,'kcal/mol','+|-',1.72353),
+        S298 = (3.72842,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CDC1C(Br)C1Br smiles:C=C1C(Br)C1Br H298:57.61 kcal/mol
+library:CHOBr_G4 label:[CH]DC1C(Br)C1Br smiles:[CH]=C1C(Br)C1Br H298:113.34 kcal/mol
+library:CHOBr_G4 label:BrCDC1C(Br)C1Br smiles:BrC=C1C(Br)C1Br H298:62.87 kcal/mol
+library:CHOBr_G4 label:BrC(Br)DC1C(Br)C1Br smiles:BrC(Br)=C1C(Br)C1Br H298:68.95 kcal/mol
+library:CHOBr_G4 label:Br[C]DC1C(Br)C1Br smiles:Br[C]=C1C(Br)C1Br H298:116.44 kcal/mol
 """,
 )
 
@@ -3598,11 +4212,21 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.591383,-0.592093,-0.538057,-0.521374,-0.474002,-0.364087,0.199526],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (2.71705,'kcal/mol','+|-',1.72353),
+        S298 = (3.74337,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClCDC1C(Cl)C1Cl smiles:ClC=C1C(Cl)C1Cl H298:29.81 kcal/mol
+library:CHOCl_G4 label:[CH]DC1C(Cl)C1Cl smiles:[CH]=C1C(Cl)C1Cl H298:91.43 kcal/mol
+library:CHOCl_G4 label:CDC1C(Cl)C1Cl smiles:C=C1C(Cl)C1Cl H298:35.91 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)DC1C(Cl)C1Cl smiles:ClC(Cl)=C1C(Cl)C1Cl H298:24.76 kcal/mol
+library:CHOCl_G4 label:Cl[C]DC1C(Cl)C1Cl smiles:Cl[C]=C1C(Cl)C1Cl H298:83.67 kcal/mol
 """,
 )
 
@@ -3619,11 +4243,21 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.538911,-0.41838,-0.274658,-0.195573,-0.126018,-0.0531567,0.469314],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (4.93724,'kcal/mol','+|-',1.72353),
+        S298 = (3.25813,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC(F)DC1C(F)C1F smiles:FC(F)=C1C(F)C1F H298:-130.08 kcal/mol
+library:CHOF_G4 label:[CH]DC1C(F)C1F smiles:[CH]=C1C(F)C1F H298:17.81 kcal/mol
+library:CHOF_G4 label:CDC1C(F)C1F smiles:C=C1C(F)C1F H298:-37.13 kcal/mol
+library:CHOF_G4 label:F[C]DC1C(F)C1F smiles:F[C]=C1C(F)C1F H298:-23.52 kcal/mol
+library:CHOF_G4 label:FCDC1C(F)C1F smiles:FC=C1C(F)C1F H298:-81.55 kcal/mol
 """,
 )
 
@@ -3661,11 +4295,21 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.32752,-0.943291,-1.22103,-1.35329,-1.35997,-1.11369,-0.486185],'cal/(mol*K)','+|-',[0.347015,0.382478,0.407114,0.404835,0.340733,0.270221,0.400225]),
+        H298 = (7.79336,'kcal/mol','+|-',1.49262),
+        S298 = (5.28693,'cal/(mol*K)','+|-',1.14519),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:[CH2]C1C(Br)(Br)C1(Br)Br smiles:[CH2]C1C(Br)(Br)C1(Br)Br H298:79.77 kcal/mol
+library:CHOBr_G4 label:OC1C(Br)(Br)C1(Br)Br smiles:OC1C(Br)(Br)C1(Br)Br H298:5.41 kcal/mol
+library:CHOBr_G4 label:BrC1(Br)CC1(Br)Br smiles:BrC1(Br)CC1(Br)Br H298:43.24 kcal/mol
+library:CHOBr_G4 label:CC1C(Br)(Br)C1(Br)Br smiles:CC1C(Br)(Br)C1(Br)Br H298:34.01 kcal/mol
+library:CHOBr_G4 label:BrCC1C(Br)(Br)C1(Br)Br smiles:BrCC1C(Br)(Br)C1(Br)Br H298:40.17 kcal/mol
 """,
 )
 
@@ -3682,11 +4326,23 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.444959,-0.864023,-0.945181,-0.949606,-0.865941,-0.630401,-0.0261051],'cal/(mol*K)','+|-',[0.299406,0.330003,0.351259,0.349293,0.293985,0.233148,0.345316]),
+        H298 = (6.57846,'kcal/mol','+|-',1.28783),
+        S298 = (3.56831,'cal/(mol*K)','+|-',0.988074),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1C(Cl)(Cl)C1(Cl)Cl smiles:OC1C(Cl)(Cl)C1(Cl)Cl H298:-40.01 kcal/mol
+library:CHOCl_G4 label:[CH2]C1C(Cl)(Cl)C1(Cl)Cl smiles:[CH2]C1C(Cl)(Cl)C1(Cl)Cl H298:33.75 kcal/mol
+library:CHOCl_G4 label:CC1C(Cl)(Cl)C1(Cl)Cl smiles:CC1C(Cl)(Cl)C1(Cl)Cl H298:-12.06 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)(Cl)C1(Cl)Cl H298:-15.48 kcal/mol
+library:CHOCl_G4 label:ClCC1C(Cl)(Cl)C1(Cl)Cl smiles:ClCC1C(Cl)(Cl)C1(Cl)Cl H298:-16.09 kcal/mol
+library:CHOCl_G4 label:ClC1(Cl)CC1(Cl)Cl smiles:ClC1(Cl)CC1(Cl)Cl H298:-3.17 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)(Cl)C1(Cl)Cl smiles:ClC1C(Cl)(Cl)C1(Cl)Cl H298:-5.46 kcal/mol
 """,
 )
 
@@ -3703,11 +4359,27 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.430399,-0.534327,-0.464462,-0.392462,-0.269477,-0.0937827,0.291527],'cal/(mol*K)','+|-',[0.180748,0.19922,0.212052,0.210865,0.177476,0.140749,0.208464]),
+        H298 = (11.0998,'kcal/mol','+|-',0.777453),
+        S298 = (2.10134,'cal/(mol*K)','+|-',0.596491),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[CH]C1C(F)(F)C1(F)F smiles:F[CH]C1C(F)(F)C1(F)F H298:-170.95 kcal/mol
+library:CHOF_G4 label:OC1(F)C(F)(F)C1(F)F smiles:OC1(F)C(F)(F)C1(F)F H298:-243.76 kcal/mol
+library:CHOF_G4 label:FC1(F)CC1(F)F smiles:FC1(F)CC1(F)F H298:-166.90 kcal/mol
+library:CHOF_G4 label:OC1C(F)(F)C1(F)F smiles:OC1C(F)(F)C1(F)F H298:-198.70 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)(F)C1(F)F smiles:CC1(F)C(F)(F)C1(F)F H298:-213.21 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)C(F)(F)C1(F)F smiles:[CH2]C1(F)C(F)(F)C1(F)F H298:-166.12 kcal/mol
+library:CHOF_G4 label:FCC1C(F)(F)C1(F)F smiles:FCC1C(F)(F)C1(F)F H298:-215.49 kcal/mol
+library:CHOF_G4 label:FC1(F)C(F)(F)C1(F)F smiles:FC1(F)C(F)(F)C1(F)F H298:-244.57 kcal/mol
+library:CHOF_G4 label:CC1C(F)(F)C1(F)F smiles:CC1C(F)(F)C1(F)F H298:-174.36 kcal/mol
+library:CHOF_G4 label:[CH2]C1C(F)(F)C1(F)F smiles:[CH2]C1C(F)(F)C1(F)F H298:-128.14 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)C1(F)F smiles:FC1C(F)(F)C1(F)F H298:-200.97 kcal/mol
 """,
 )
 
@@ -3745,11 +4417,22 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0851238,-0.155831,-0.161762,-0.167469,-0.185279,-0.117513,0.12418],'cal/(mol*K)','+|-',[0.273242,0.301165,0.320564,0.318769,0.268295,0.212774,0.31514]),
+        H298 = (2.39732,'kcal/mol','+|-',1.1753),
+        S298 = (2.74968,'cal/(mol*K)','+|-',0.90173),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[CH]C1(Br)C(Br)C1Br smiles:Br[CH]C1(Br)C(Br)C1Br H298:71.32 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1(Br)CC1Br smiles:Br[CH]C1(Br)CC1Br H298:64.26 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)C1(Br)CC1Br smiles:Br[C](Br)C1(Br)CC1Br H298:67.68 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)CC1Br smiles:[CH2]C1(Br)CC1Br H298:62.68 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1Br smiles:[CH2]C1(Br)C(Br)C1Br H298:69.76 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1(Br)Br smiles:[CH2]C1(Br)C(Br)C1(Br)Br H298:77.97 kcal/mol
 """,
 )
 
@@ -3766,11 +4449,20 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.00979017,-0.0509049,-0.036096,-0.0141614,-0.0481653,-0.0065526,0.270137],'cal/(mol*K)','+|-',[0.403121,0.444317,0.472937,0.470289,0.395823,0.313911,0.464934]),
+        H298 = (2.72521,'kcal/mol','+|-',1.73394),
+        S298 = (2.76835,'cal/(mol*K)','+|-',1.33034),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:[CH2]C1(Cl)CC1Cl smiles:[CH2]C1(Cl)CC1Cl H298:39.31 kcal/mol
+library:CHOCl_G4 label:Cl[C](Cl)C1(Cl)CC1Cl smiles:Cl[C](Cl)C1(Cl)CC1Cl H298:22.90 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)C(Cl)C1(Cl)Cl smiles:[CH2]C1(Cl)C(Cl)C1(Cl)Cl H298:32.74 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1(Cl)CC1Cl smiles:Cl[CH]C1(Cl)CC1Cl H298:30.73 kcal/mol
 """,
 )
 
@@ -3787,11 +4479,24 @@ entry(
 6    Cs  u1 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.232378,-0.141905,-0.0349576,0.022064,0.0934376,0.204884,0.469979],'cal/(mol*K)','+|-',[0.245087,0.270134,0.287534,0.285924,0.240651,0.19085,0.282668]),
+        H298 = (5.00984,'kcal/mol','+|-',1.0542),
+        S298 = (2.33382,'cal/(mol*K)','+|-',0.808817),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1(F)F smiles:[CH2]C1(F)C(F)C1(F)F H298:-122.05 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1F smiles:[CH2]C1(F)C(F)C1F H298:-75.61 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)CC1F smiles:[CH2]C1(F)CC1F H298:-37.37 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)CC1F smiles:F[CH]C1(F)CC1F H298:-79.40 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)C(F)C1F smiles:F[C](F)C1(F)C(F)C1F H298:-166.03 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)CC1F smiles:F[C](F)C1(F)CC1F H298:-128.96 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1(F)F smiles:F[CH]C1(F)C(F)C1(F)F H298:-163.39 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1F smiles:F[CH]C1(F)C(F)C1F H298:-117.51 kcal/mol
 """,
 )
 
@@ -3827,11 +4532,19 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.662147,-0.555145,-0.428997,-0.341754,-0.230288,-0.102402,0.194361],'cal/(mol*K)','+|-',[0.584848,0.644616,0.686137,0.682296,0.574261,0.455422,0.674527]),
+        H298 = (4.58656,'kcal/mol','+|-',2.51561),
+        S298 = (1.68519,'cal/(mol*K)','+|-',1.93007),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1Br smiles:OC1(Br)[C](Br)C1Br H298:43.02 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1(Br)Br smiles:OC1(Br)[C](Br)C1(Br)Br H298:50.51 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C[C]1Br smiles:OC1(Br)C[C]1Br H298:36.52 kcal/mol
 """,
 )
 
@@ -3847,11 +4560,19 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.730745,-0.582157,-0.429314,-0.292964,-0.116339,0.0214841,0.286705],'cal/(mol*K)','+|-',[0.582196,0.641692,0.683026,0.679202,0.571656,0.453357,0.671468]),
+        H298 = (5.18476,'kcal/mol','+|-',2.5042),
+        S298 = (1.40973,'cal/(mol*K)','+|-',1.92131),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1Cl smiles:OC1(Cl)[C](Cl)C1Cl H298:9.72 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1(Cl)Cl smiles:OC1(Cl)[C](Cl)C1(Cl)Cl H298:6.51 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C[C]1Cl smiles:OC1(Cl)C[C]1Cl H298:14.10 kcal/mol
 """,
 )
 
@@ -3867,11 +4588,19 @@ entry(
 5    O2s u0 p2 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.47215,-0.297918,-0.191319,-0.115348,-0.0141981,0.092452,0.314713],'cal/(mol*K)','+|-',[0.576669,0.6356,0.676542,0.672754,0.566229,0.449053,0.665094]),
+        H298 = (6.43601,'kcal/mol','+|-',2.48043),
+        S298 = (1.41946,'cal/(mol*K)','+|-',1.90307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)[C](F)C1(F)F smiles:OC1(F)[C](F)C1(F)F H298:-146.52 kcal/mol
+library:CHOF_G4 label:OC1(F)C[C]1F smiles:OC1(F)C[C]1F H298:-63.07 kcal/mol
+library:CHOF_G4 label:OC1(F)[C](F)C1F smiles:OC1(F)[C](F)C1F H298:-101.15 kcal/mol
 """,
 )
 
@@ -3909,11 +4638,18 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.643612,0.265239,0.0966499,-0.0313117,-0.147995,-0.110469,0.150322],'cal/(mol*K)','+|-',[0.634647,0.699503,0.744561,0.740392,0.623158,0.494201,0.731962]),
+        H298 = (5.79508,'kcal/mol','+|-',2.72981),
+        S298 = (3.24766,'cal/(mol*K)','+|-',2.09441),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1Br smiles:OC1(Br)[C](Br)C1Br H298:43.02 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[CH]C1Br smiles:OC1(Br)[CH]C1Br H298:40.00 kcal/mol
 """,
 )
 
@@ -3930,11 +4666,18 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.4516,0.582084,0.224823,0.0759412,-0.0223387,0.065722,0.439488],'cal/(mol*K)','+|-',[1.26692,1.39639,1.48634,1.47801,1.24398,0.986553,1.46119]),
+        H298 = (12.5587,'kcal/mol','+|-',5.44941),
+        S298 = (5.73465,'cal/(mol*K)','+|-',4.18098),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)[CH]C1Cl smiles:OC1(Cl)[CH]C1Cl H298:18.43 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1Cl smiles:OC1(Cl)[C](Cl)C1Cl H298:9.72 kcal/mol
 """,
 )
 
@@ -3951,11 +4694,18 @@ entry(
 6    O2s u0 p2 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.493543,0.240497,0.100494,0.0590936,0.0772911,0.16213,0.361644],'cal/(mol*K)','+|-',[0.627768,0.691921,0.73649,0.732366,0.616403,0.488844,0.724027]),
+        H298 = (8.5936,'kcal/mol','+|-',2.70022),
+        S298 = (1.98984,'cal/(mol*K)','+|-',2.07171),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)[CH]C1F smiles:OC1(F)[CH]C1F H298:-60.50 kcal/mol
+library:CHOF_G4 label:OC1(F)[C](F)C1F smiles:OC1(F)[C](F)C1F H298:-101.15 kcal/mol
 """,
 )
 
@@ -3991,11 +4741,23 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.873171,-0.934591,-0.858873,-0.755761,-0.5742,-0.387141,-0.0327787],'cal/(mol*K)','+|-',[0.238724,0.263119,0.280068,0.2785,0.234402,0.185894,0.275329]),
+        H298 = (-0.35964,'kcal/mol','+|-',1.02682),
+        S298 = (3.47923,'cal/(mol*K)','+|-',0.787816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(C(Br)Br)C1(Br)Br smiles:BrC1=C(C(Br)Br)C1(Br)Br H298:83.78 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1(Br)Br smiles:BrC1=C(Br)C1(Br)Br H298:84.19 kcal/mol
+library:CHOBr_G4 label:BrCC1DC(Br)C1(Br)Br smiles:BrCC1=C(Br)C1(Br)Br H298:74.69 kcal/mol
+library:CHOBr_G4 label:CC1DC(Br)C1(Br)Br smiles:CC1=C(Br)C1(Br)Br H298:65.13 kcal/mol
+library:CHOBr_G4 label:OC1DC(Br)C1(Br)Br smiles:OC1=C(Br)C1(Br)Br H298:38.55 kcal/mol
+library:CHOBr_G4 label:BrC1DCC1(Br)Br smiles:BrC1=CC1(Br)Br H298:79.14 kcal/mol
+library:CHOBr_G4 label:[CH2]C1DC(Br)C1(Br)Br smiles:[CH2]C1=C(Br)C1(Br)Br H298:101.99 kcal/mol
 """,
 )
 
@@ -4011,11 +4773,25 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.00689,-0.861762,-0.658207,-0.498428,-0.265137,-0.0551843,0.378778],'cal/(mol*K)','+|-',[0.238513,0.262887,0.279821,0.278254,0.234195,0.185731,0.275086]),
+        H298 = (3.54426,'kcal/mol','+|-',1.02592),
+        S298 = (2.3373,'cal/(mol*K)','+|-',0.787121),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DCC1(F)F smiles:FC1=CC1(F)F H298:-74.86 kcal/mol
+library:CHOF_G4 label:F[CH]C1DC(F)C1(F)F smiles:F[CH]C1=C(F)C1(F)F H298:-88.66 kcal/mol
+library:CHOF_G4 label:FCC1DC(F)C1(F)F smiles:FCC1=C(F)C1(F)F H298:-124.05 kcal/mol
+library:CHOF_G4 label:F[C](F)C1DC(F)C1(F)F smiles:F[C](F)C1=C(F)C1(F)F H298:-133.95 kcal/mol
+library:CHOF_G4 label:OC1DC(F)C1(F)F smiles:OC1=C(F)C1(F)F H298:-112.71 kcal/mol
+library:CHOF_G4 label:CC1DC(F)C1(F)F smiles:CC1=C(F)C1(F)F H298:-86.34 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1(F)F smiles:FC1=C(F)C1(F)F H298:-111.26 kcal/mol
+library:CHOF_G4 label:FC1DC(C(F)F)C1(F)F smiles:FC1=C(C(F)F)C1(F)F H298:-173.81 kcal/mol
+library:CHOF_G4 label:[CH2]C1DC(F)C1(F)F smiles:[CH2]C1=C(F)C1(F)F H298:-46.79 kcal/mol
 """,
 )
 
@@ -4051,11 +4827,25 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.346971,-0.464919,-0.501447,-0.48262,-0.380147,-0.225397,0.043951],'cal/(mol*K)','+|-',[0.28837,0.317839,0.338312,0.336418,0.28315,0.224554,0.332588]),
+        H298 = (4.92231,'kcal/mol','+|-',1.24037),
+        S298 = (1.47817,'cal/(mol*K)','+|-',0.951655),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)C1(Br)Br smiles:Br[C]1C(Br)C1(Br)Br H298:90.00 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1Br smiles:OC1(Br)[C](Br)C1Br H298:43.02 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C1C(Br)Br smiles:Br[C]1C(Br)C1C(Br)Br H298:80.07 kcal/mol
+library:CHOBr_G4 label:CC1[C](Br)C1Br smiles:CC1[C](Br)C1Br H298:67.65 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC1Br smiles:Br[C]1CC1Br H298:76.25 kcal/mol
+library:CHOBr_G4 label:OC1[C](Br)C1Br smiles:OC1[C](Br)C1Br H298:38.25 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C1Br smiles:Br[C]1C(Br)C1Br H298:82.31 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[C](Br)C1Br smiles:CC1(Br)[C](Br)C1Br H298:71.46 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.03 kcal/mol
 """,
 )
 
@@ -4071,11 +4861,25 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.361202,-0.396873,-0.365843,-0.343216,-0.277712,-0.126832,0.168133],'cal/(mol*K)','+|-',[0.287692,0.317093,0.337517,0.335628,0.282484,0.224027,0.331806]),
+        H298 = (5.68414,'kcal/mol','+|-',1.23745),
+        S298 = (1.6787,'cal/(mol*K)','+|-',0.949418),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1[C](Cl)C1Cl smiles:OC1[C](Cl)C1Cl H298:16.35 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)[C](Cl)C1Cl smiles:ClCC1(Cl)[C](Cl)C1Cl H298:34.60 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1Cl smiles:Cl[C]1C(Cl)C1Cl H298:49.47 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1Cl smiles:OC1(Cl)[C](Cl)C1Cl H298:9.72 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1C(Cl)Cl smiles:Cl[C]1C(Cl)C1C(Cl)Cl H298:35.74 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1Cl smiles:CC1(Cl)[C](Cl)C1Cl H298:38.27 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC1Cl smiles:Cl[C]1CC1Cl H298:53.85 kcal/mol
+library:CHOCl_G4 label:CC1[C](Cl)C1Cl smiles:CC1[C](Cl)C1Cl H298:45.50 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)C1(Cl)Cl H298:46.71 kcal/mol
 """,
 )
 
@@ -4091,11 +4895,28 @@ entry(
 5    H   u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.289402,-0.254776,-0.200562,-0.151479,-0.0779337,0.0480944,0.270126],'cal/(mol*K)','+|-',[0.261721,0.288467,0.307048,0.305329,0.256983,0.203803,0.301852]),
+        H298 = (7.4438,'kcal/mol','+|-',1.12574),
+        S298 = (1.44708,'cal/(mol*K)','+|-',0.863709),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:CC1(F)[C](F)C1F smiles:CC1(F)[C](F)C1F H298:-69.54 kcal/mol
+library:CHOF_G4 label:F[C]1CC1F smiles:F[C]1CC1F H298:-18.01 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1C(F)F smiles:F[C]1C(F)C1C(F)F H298:-121.18 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)C(F)F smiles:F[C]1C(F)C1(F)C(F)F H298:-159.06 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1F smiles:F[C]1C(F)C1F H298:-57.33 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)F smiles:F[C]1C(F)C1(F)F H298:-103.09 kcal/mol
+library:CHOF_G4 label:OC1[C](F)C1F smiles:OC1[C](F)C1F H298:-52.19 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1C(F)(F)F smiles:F[C]1C(F)C1C(F)(F)F H298:-179.38 kcal/mol
+library:CHOF_G4 label:OC1(F)[C](F)C1F smiles:OC1(F)[C](F)C1F H298:-101.15 kcal/mol
+library:CHOF_G4 label:CC1[C](F)C1F smiles:CC1[C](F)C1F H298:-25.67 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1F smiles:FCC1(F)[C](F)C1F H298:-109.98 kcal/mol
+library:CHOF_G4 label:FCC1[C](F)C1F smiles:FCC1[C](F)C1F H298:-68.48 kcal/mol
 """,
 )
 
@@ -4131,11 +4952,21 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.23056,-0.226829,-0.145557,-0.073861,0.00277703,0.094243,0.286762],'cal/(mol*K)','+|-',[0.389578,0.429391,0.457049,0.45449,0.382526,0.303365,0.449315]),
+        H298 = (6.36631,'kcal/mol','+|-',1.67569),
+        S298 = (1.81355,'cal/(mol*K)','+|-',1.28565),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrCC1(Br)C[C]1Br smiles:BrCC1(Br)C[C]1Br H298:72.20 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC1(Br)C(Br)Br smiles:Br[C]1CC1(Br)C(Br)Br H298:78.93 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C[C]1Br smiles:CC1(Br)C[C]1Br H298:65.93 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[C](Br)C1Br smiles:CC1(Br)[C](Br)C1Br H298:71.46 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.03 kcal/mol
 """,
 )
 
@@ -4151,11 +4982,21 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.24169,-1.22266,-0.972049,-0.80157,-0.617234,-0.274124,0.588337],'cal/(mol*K)','+|-',[0.818936,0.902625,0.960766,0.955387,0.80411,0.637707,0.944509]),
+        H298 = (13.4393,'kcal/mol','+|-',3.52249),
+        S298 = (5.02823,'cal/(mol*K)','+|-',2.70258),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)C[C]1Cl smiles:CC1(Cl)C[C]1Cl H298:43.36 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)[C](Cl)C1Cl smiles:ClCC1(Cl)[C](Cl)C1Cl H298:34.60 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1Cl smiles:CC1(Cl)[C](Cl)C1Cl H298:38.27 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C[C]1Cl smiles:ClCC1(Cl)C[C]1Cl H298:38.50 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1(Cl)Cl smiles:CC1(Cl)[C](Cl)C1(Cl)Cl H298:35.98 kcal/mol
 """,
 )
 
@@ -4171,11 +5012,25 @@ entry(
 5    Cs  u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.556639,-0.409144,-0.217105,-0.0834623,0.0425654,0.171019,0.488709],'cal/(mol*K)','+|-',[0.322932,0.355933,0.37886,0.376739,0.317086,0.251468,0.372449]),
+        H298 = (8.37828,'kcal/mol','+|-',1.38903),
+        S298 = (1.90277,'cal/(mol*K)','+|-',1.06571),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FCC1(F)C[C]1F smiles:FCC1(F)C[C]1F H298:-70.95 kcal/mol
+library:CHOF_G4 label:CC1(F)C[C]1F smiles:CC1(F)C[C]1F H298:-29.76 kcal/mol
+library:CHOF_G4 label:CC1(F)[C](F)C1F smiles:CC1(F)[C](F)C1F H298:-69.54 kcal/mol
+library:CHOF_G4 label:F[C]1CC1(F)C(F)(F)F smiles:F[C]1CC1(F)C(F)(F)F H298:-179.07 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)C(F)F smiles:F[C]1C(F)C1(F)C(F)F H298:-159.06 kcal/mol
+library:CHOF_G4 label:CC1(F)[C](F)C1(F)F smiles:CC1(F)[C](F)C1(F)F H298:-115.50 kcal/mol
+library:CHOF_G4 label:F[C]1CC1(F)C(F)F smiles:F[C]1CC1(F)C(F)F H298:-122.23 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1(F)F smiles:FCC1(F)[C](F)C1(F)F H298:-155.11 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1F smiles:FCC1(F)[C](F)C1F H298:-109.98 kcal/mol
 """,
 )
 
@@ -4213,11 +5068,18 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.95787,-2.06846,-1.96488,-1.93392,-1.61925,-1.19422,0.0478036],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (5.13695,'kcal/mol','+|-',5.97046),
+        S298 = (9.03415,'cal/(mol*K)','+|-',4.58076),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CDC1C(Br)C1(Br)Br smiles:C=C1C(Br)C1(Br)Br H298:65.93 kcal/mol
+library:CHOBr_G4 label:[CH]DC1C(Br)C1(Br)Br smiles:[CH]=C1C(Br)C1(Br)Br H298:121.85 kcal/mol
 """,
 )
 
@@ -4234,11 +5096,21 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.67302,-0.563322,-0.344209,-0.244085,-0.161688,-0.0584151,0.550238],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (8.95487,'kcal/mol','+|-',1.72353),
+        S298 = (4.08474,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH]DC1C(F)C1(F)F smiles:[CH]=C1C(F)C1(F)F H298:-27.97 kcal/mol
+library:CHOF_G4 label:CDC1C(F)C1(F)F smiles:C=C1C(F)C1(F)F H298:-83.20 kcal/mol
+library:CHOF_G4 label:F[C]DC1C(F)C1(F)F smiles:F[C]=C1C(F)C1(F)F H298:-69.31 kcal/mol
+library:CHOF_G4 label:FC(F)DC1C(F)C1(F)F smiles:FC(F)=C1C(F)C1(F)F H298:-175.77 kcal/mol
+library:CHOF_G4 label:FCDC1C(F)C1(F)F smiles:FC=C1C(F)C1(F)F H298:-127.42 kcal/mol
 """,
 )
 
@@ -4276,11 +5148,27 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.369235,-0.678769,-0.807667,-0.857273,-0.819367,-0.646032,-0.265096],'cal/(mol*K)','+|-',[0.220133,0.242629,0.258258,0.256812,0.216148,0.171418,0.253888]),
+        H298 = (4.04044,'kcal/mol','+|-',0.94686),
+        S298 = (3.31055,'cal/(mol*K)','+|-',0.726466),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrCC1C(Br)C1(Br)Br smiles:BrCC1C(Br)C1(Br)Br H298:30.35 kcal/mol
+library:CHOBr_G4 label:CC1C(Br)C1(Br)Br smiles:CC1C(Br)C1(Br)Br H298:24.65 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1C(Br)C1(Br)Br smiles:Br[CH]C1C(Br)C1(Br)Br H298:73.76 kcal/mol
+library:CHOBr_G4 label:[CH2]C1C(Br)C1(Br)Br smiles:[CH2]C1C(Br)C1(Br)Br H298:70.35 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1C(Br)C1(Br)Br smiles:BrC(Br)C1C(Br)C1(Br)Br H298:37.25 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C(Br)C1(Br)Br smiles:CC1(Br)C(Br)C1(Br)Br H298:30.88 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C1(Br)Br smiles:BrC1C(Br)C1(Br)Br H298:40.65 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)C1(Br)Br smiles:OC1(Br)C(Br)C1(Br)Br H298:2.55 kcal/mol
+library:CHOBr_G4 label:OC1C(Br)C1(Br)Br smiles:OC1C(Br)C1(Br)Br H298:-3.83 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1(Br)Br smiles:[CH2]C1(Br)C(Br)C1(Br)Br H298:77.97 kcal/mol
+library:CHOBr_G4 label:BrC1CC1(Br)Br smiles:BrC1CC1(Br)Br H298:33.25 kcal/mol
 """,
 )
 
@@ -4297,11 +5185,29 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.347698,-0.540407,-0.594455,-0.604019,-0.567891,-0.424377,-0.0515813],'cal/(mol*K)','+|-',[0.183415,0.202158,0.21518,0.213975,0.180094,0.142825,0.211539]),
+        H298 = (3.96235,'kcal/mol','+|-',0.788922),
+        S298 = (2.85402,'cal/(mol*K)','+|-',0.60529),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)C1(Cl)Cl H298:-14.43 kcal/mol
+library:CHOCl_G4 label:[CH2]C1C(Cl)C1(Cl)Cl smiles:[CH2]C1C(Cl)C1(Cl)Cl H298:36.31 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)C1(Cl)Cl smiles:ClC1C(Cl)C1(Cl)Cl H298:-4.26 kcal/mol
+library:CHOCl_G4 label:CC1C(Cl)C1(Cl)Cl smiles:CC1C(Cl)C1(Cl)Cl H298:-9.27 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)C(Cl)C1(Cl)Cl smiles:[CH2]C1(Cl)C(Cl)C1(Cl)Cl H298:32.74 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C(Cl)C1(Cl)Cl smiles:OC1(Cl)C(Cl)C1(Cl)Cl H298:-42.76 kcal/mol
+library:CHOCl_G4 label:ClCC1C(Cl)C1(Cl)Cl smiles:ClCC1C(Cl)C1(Cl)Cl H298:-13.77 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1C(Cl)C1(Cl)Cl smiles:Cl[CH]C1C(Cl)C1(Cl)Cl H298:28.17 kcal/mol
+library:CHOCl_G4 label:OC1C(Cl)C1(Cl)Cl smiles:OC1C(Cl)C1(Cl)Cl H298:-37.51 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1C(Cl)C1(Cl)Cl smiles:ClC(Cl)C1C(Cl)C1(Cl)Cl H298:-18.54 kcal/mol
+library:CHOCl_G4 label:ClC1CC1(Cl)Cl smiles:ClC1CC1(Cl)Cl H298:-1.14 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)(Cl)C1(Cl)Cl smiles:ClC1C(Cl)(Cl)C1(Cl)Cl H298:-5.46 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298:-17.43 kcal/mol
 """,
 )
 
@@ -4318,11 +5224,31 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.41788,-0.49472,-0.435466,-0.369547,-0.254313,-0.0974198,0.239998],'cal/(mol*K)','+|-',[0.179565,0.197915,0.210663,0.209484,0.176314,0.139827,0.207098]),
+        H298 = (8.05265,'kcal/mol','+|-',0.772361),
+        S298 = (2.5907,'cal/(mol*K)','+|-',0.592584),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1(F)F smiles:[CH2]C1(F)C(F)C1(F)F H298:-122.05 kcal/mol
+library:CHOF_G4 label:FC1C(F)C1(F)F smiles:FC1C(F)C1(F)F H298:-157.26 kcal/mol
+library:CHOF_G4 label:OC1C(F)C1(F)F smiles:OC1C(F)C1(F)F H298:-154.02 kcal/mol
+library:CHOF_G4 label:[CH2]C1C(F)C1(F)F smiles:[CH2]C1C(F)C1(F)F H298:-81.65 kcal/mol
+library:CHOF_G4 label:FC1CC1(F)F smiles:FC1CC1(F)F H298:-120.27 kcal/mol
+library:CHOF_G4 label:FC(F)C1C(F)C1(F)F smiles:FC(F)C1C(F)C1(F)F H298:-221.96 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1(F)F smiles:CC1(F)C(F)C1(F)F H298:-169.15 kcal/mol
+library:CHOF_G4 label:F[CH]C1C(F)C1(F)F smiles:F[CH]C1C(F)C1(F)F H298:-124.99 kcal/mol
+library:CHOF_G4 label:OC1(F)C(F)C1(F)F smiles:OC1(F)C(F)C1(F)F H298:-199.77 kcal/mol
+library:CHOF_G4 label:FCC1C(F)C1(F)F smiles:FCC1C(F)C1(F)F H298:-169.36 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1(F)F smiles:FCC1(F)C(F)C1(F)F H298:-206.91 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1(F)F smiles:F[CH]C1(F)C(F)C1(F)F H298:-163.39 kcal/mol
+library:CHOF_G4 label:CC1C(F)C1(F)F smiles:CC1C(F)C1(F)F H298:-127.50 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)C1(F)F smiles:FC1C(F)(F)C1(F)F H298:-200.97 kcal/mol
+library:CHOF_G4 label:F[C](F)C1C(F)C1(F)F smiles:F[C](F)C1C(F)C1(F)F H298:-175.50 kcal/mol
 """,
 )
 
@@ -4360,11 +5286,21 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.209556,0.235238,0.25402,0.225349,0.136124,0.130213,0.198261],'cal/(mol*K)','+|-',[0.367617,0.405185,0.431284,0.42887,0.360962,0.286264,0.423987]),
+        H298 = (5.25965,'kcal/mol','+|-',1.58123),
+        S298 = (2.94521,'cal/(mol*K)','+|-',1.21318),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC(Br)[C]1C(Br)C1Br smiles:BrC(Br)[C]1C(Br)C1Br H298:81.28 kcal/mol
+library:CHOBr_G4 label:C[C]1C(Br)C1Br smiles:C[C]1C(Br)C1Br H298:67.34 kcal/mol
+library:CHOBr_G4 label:BrC1[CH]C1Br smiles:BrC1[CH]C1Br H298:79.34 kcal/mol
+library:CHOBr_G4 label:O[C]1C(Br)C1Br smiles:O[C]1C(Br)C1Br H298:36.98 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C1Br smiles:Br[C]1C(Br)C1Br H298:82.31 kcal/mol
 """,
 )
 
@@ -4381,11 +5317,21 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.207972,0.301031,0.327319,0.320825,0.26256,0.255287,0.283369],'cal/(mol*K)','+|-',[0.367005,0.40451,0.430566,0.428155,0.360361,0.285787,0.42328]),
+        H298 = (5.94478,'kcal/mol','+|-',1.5786),
+        S298 = (1.92723,'cal/(mol*K)','+|-',1.21116),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1[CH]C1Cl smiles:ClC1[CH]C1Cl H298:57.59 kcal/mol
+library:CHOCl_G4 label:O[C]1C(Cl)C1Cl smiles:O[C]1C(Cl)C1Cl H298:14.56 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1Cl smiles:Cl[C]1C(Cl)C1Cl H298:49.47 kcal/mol
+library:CHOCl_G4 label:C[C]1C(Cl)C1Cl smiles:C[C]1C(Cl)C1Cl H298:45.81 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)[C]1C(Cl)C1Cl smiles:ClC(Cl)[C]1C(Cl)C1Cl H298:38.99 kcal/mol
 """,
 )
 
@@ -4402,11 +5348,23 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0226973,0.266709,0.432203,0.520342,0.57097,0.556635,0.547222],'cal/(mol*K)','+|-',[0.316492,0.348835,0.371305,0.369226,0.310762,0.246453,0.365022]),
+        H298 = (8.96298,'kcal/mol','+|-',1.36133),
+        S298 = (1.42146,'cal/(mol*K)','+|-',1.04446),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC(F)[C]1C(F)C1F smiles:FC(F)[C]1C(F)C1F H298:-119.28 kcal/mol
+library:CHOF_G4 label:FC1[CH]C1F smiles:FC1[CH]C1F H298:-16.56 kcal/mol
+library:CHOF_G4 label:FC1[C](C(F)(F)F)C1F smiles:FC1[C](C(F)(F)F)C1F H298:-176.68 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1F smiles:F[C]1C(F)C1F H298:-57.33 kcal/mol
+library:CHOF_G4 label:O[C]1C(F)C1F smiles:O[C]1C(F)C1F H298:-58.98 kcal/mol
+library:CHOF_G4 label:FC[C]1C(F)C1F smiles:FC[C]1C(F)C1F H298:-68.64 kcal/mol
+library:CHOF_G4 label:C[C]1C(F)C1F smiles:C[C]1C(F)C1F H298:-27.58 kcal/mol
 """,
 )
 
@@ -4442,11 +5400,17 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.67042,-2.07634,-2.31327,-2.57046,-2.42853,-2.30052,-5.39168],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (11.6265,'kcal/mol','+|-',8.4435),
+        S298 = (8.59653,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OC1(Br)Br smiles:Br[C]1OC1(Br)Br H298:53.01 kcal/mol
 """,
 )
 
@@ -4462,11 +5426,17 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.66771,-1.68425,-1.46358,-1.58646,-1.29863,-1.10412,-4.20877],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (19.5392,'kcal/mol','+|-',8.4435),
+        S298 = (6.03735,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC1(F)F smiles:F[C]1OC1(F)F H298:-109.85 kcal/mol
 """,
 )
 
@@ -4502,11 +5472,18 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.624841,-0.625789,-0.560264,-0.528588,-0.480058,-0.34059,-0.0110602],'cal/(mol*K)','+|-',[0.327987,0.361505,0.384791,0.382637,0.32205,0.255404,0.37828]),
+        H298 = (1.12768,'kcal/mol','+|-',1.41077),
+        S298 = (3.19107,'cal/(mol*K)','+|-',1.0824),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)CDC1Br smiles:OC1(Br)C=C1Br H298:32.34 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)DC1Br smiles:OC1(Br)C(Br)=C1Br H298:37.20 kcal/mol
 """,
 )
 
@@ -4522,11 +5499,18 @@ entry(
 5    O2s u0 p2 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.20325,-1.0731,-0.885536,-0.739882,-0.502114,-0.166316,0.425089],'cal/(mol*K)','+|-',[0.654981,0.721915,0.768416,0.764114,0.643124,0.510035,0.755414]),
+        H298 = (5.59493,'kcal/mol','+|-',2.81727),
+        S298 = (5.67933,'cal/(mol*K)','+|-',2.16151),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)C(F)DC1F smiles:OC1(F)C(F)=C1F H298:-105.85 kcal/mol
+library:CHOF_G4 label:OC1(F)CDC1F smiles:OC1(F)C=C1F H298:-68.67 kcal/mol
 """,
 )
 
@@ -4564,11 +5548,19 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.56564,-4.01755,-4.34518,-4.60358,-4.30281,-3.78779,-5.67679],'cal/(mol*K)','+|-',[0.801397,0.883294,0.94019,0.934926,0.786889,0.624049,0.92428]),
+        H298 = (7.01073,'kcal/mol','+|-',3.44705),
+        S298 = (12.815,'cal/(mol*K)','+|-',2.6447),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC(Br)C1(Br)OC1(Br)Br smiles:BrC(Br)C1(Br)OC1(Br)Br H298:9.32 kcal/mol
+library:CHOBr_G4 label:CC1(Br)OC1(Br)Br smiles:CC1(Br)OC1(Br)Br H298:-7.57 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)OC1(Br)Br smiles:BrCC1(Br)OC1(Br)Br H298:0.55 kcal/mol
 """,
 )
 
@@ -4585,11 +5577,19 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.6549,-1.75176,-1.90425,-2.05585,-1.92752,-1.66207,-2.58795],'cal/(mol*K)','+|-',[0.400698,0.441647,0.470095,0.467463,0.393444,0.312025,0.46214]),
+        H298 = (3.71472,'kcal/mol','+|-',1.72352),
+        S298 = (6.08001,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)OC1(Cl)Cl smiles:ClC(Cl)C1(Cl)OC1(Cl)Cl H298:-49.28 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)OC1(Cl)Cl smiles:CC1(Cl)OC1(Cl)Cl H298:-44.42 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)OC1(Cl)Cl smiles:ClCC1(Cl)OC1(Cl)Cl H298:-46.52 kcal/mol
 """,
 )
 
@@ -4606,11 +5606,19 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    Cs  u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.23722,-3.22592,-3.18852,-3.22692,-2.86951,-2.29534,-4.19803],'cal/(mol*K)','+|-',[0.801397,0.883294,0.94019,0.934926,0.786889,0.624049,0.92428]),
+        H298 = (16.3513,'kcal/mol','+|-',3.44705),
+        S298 = (10.4955,'cal/(mol*K)','+|-',2.6447),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC(F)C1(F)OC1(F)F smiles:FC(F)C1(F)OC1(F)F H298:-264.27 kcal/mol
+library:CHOF_G4 label:CC1(F)OC1(F)F smiles:CC1(F)OC1(F)F H298:-177.62 kcal/mol
+library:CHOF_G4 label:FCC1(F)OC1(F)F smiles:FCC1(F)OC1(F)F H298:-215.32 kcal/mol
 """,
 )
 
@@ -4648,11 +5656,17 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.71535,-3.85808,-4.12315,-4.26852,-3.73621,-3.09598,-5.17672],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (5.61636,'kcal/mol','+|-',5.97046),
+        S298 = (9.80688,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)OC1Br smiles:OC1(Br)OC1Br H298:-48.00 kcal/mol
 """,
 )
 
@@ -4669,11 +5683,17 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.21745,-3.30962,-3.67204,-3.82867,-3.27975,-2.68627,-4.8733],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (5.85805,'kcal/mol','+|-',5.97046),
+        S298 = (9.2621,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)OC1Cl smiles:OC1(Cl)OC1Cl H298:-73.01 kcal/mol
 """,
 )
 
@@ -4690,11 +5710,17 @@ entry(
 6    O2s u0 p2 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.91228,-2.42439,-2.38236,-2.48469,-1.98023,-1.52137,-4.09293],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (8.75077,'kcal/mol','+|-',5.97046),
+        S298 = (7.20217,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)OC1F smiles:OC1(F)OC1F H298:-160.57 kcal/mol
 """,
 )
 
@@ -4730,11 +5756,19 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.20092,-3.17764,-3.39329,-3.62131,-3.35697,-2.95864,-5.26825],'cal/(mol*K)','+|-',[1.06015,1.16849,1.24375,1.23679,1.04096,0.825539,1.22271]),
+        H298 = (13.9621,'kcal/mol','+|-',4.56002),
+        S298 = (9.87047,'cal/(mol*K)','+|-',3.49861),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CC1(Br)O[C]1Br smiles:CC1(Br)O[C]1Br H298:32.67 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)O[C]1Br smiles:BrCC1(Br)O[C]1Br H298:40.65 kcal/mol
+library:CHOBr_G4 label:Br[C]1OC1(Br)C(Br)Br smiles:Br[C]1OC1(Br)C(Br)Br H298:50.10 kcal/mol
 """,
 )
 
@@ -4750,11 +5784,18 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.85628,-1.74337,-1.71556,-1.76619,-1.59895,-1.36098,-2.40878],'cal/(mol*K)','+|-',[0.601048,0.66247,0.705142,0.701194,0.590167,0.468037,0.69321]),
+        H298 = (7.2461,'kcal/mol','+|-',2.58529),
+        S298 = (4.47782,'cal/(mol*K)','+|-',1.98353),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)O[C]1Cl smiles:CC1(Cl)O[C]1Cl H298:8.92 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)O[C]1Cl smiles:ClCC1(Cl)O[C]1Cl H298:6.42 kcal/mol
 """,
 )
 
@@ -4770,11 +5811,20 @@ entry(
 5    Cs  u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.34595,-2.64974,-2.42024,-2.42614,-2.03326,-1.56102,-3.87779],'cal/(mol*K)','+|-',[0.981507,1.08181,1.15149,1.14505,0.963738,0.764301,1.13201]),
+        H298 = (19.8476,'kcal/mol','+|-',4.22176),
+        S298 = (7.39115,'cal/(mol*K)','+|-',3.23909),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC1(F)C(F)F smiles:F[C]1OC1(F)C(F)F H298:-160.82 kcal/mol
+library:CHOF_G4 label:CC1(F)O[C]1F smiles:CC1(F)O[C]1F H298:-73.25 kcal/mol
+library:CHOF_G4 label:FCC1(F)O[C]1F smiles:FCC1(F)O[C]1F H298:-111.31 kcal/mol
+library:CHOF_G4 label:F[C]1OC1(F)C(F)(F)F smiles:F[C]1OC1(F)C(F)(F)F H298:-216.56 kcal/mol
 """,
 )
 
@@ -4812,11 +5862,22 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0851238,-0.155831,-0.161762,-0.167469,-0.185279,-0.117513,0.12418],'cal/(mol*K)','+|-',[0.273242,0.301165,0.320564,0.318769,0.268295,0.212774,0.31514]),
+        H298 = (2.39732,'kcal/mol','+|-',1.1753),
+        S298 = (2.74968,'cal/(mol*K)','+|-',0.90173),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[CH]C1(Br)C(Br)C1Br smiles:Br[CH]C1(Br)C(Br)C1Br H298:71.32 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1(Br)CC1Br smiles:Br[CH]C1(Br)CC1Br H298:64.26 kcal/mol
+library:CHOBr_G4 label:Br[C](Br)C1(Br)CC1Br smiles:Br[C](Br)C1(Br)CC1Br H298:67.68 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)CC1Br smiles:[CH2]C1(Br)CC1Br H298:62.68 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1Br smiles:[CH2]C1(Br)C(Br)C1Br H298:69.76 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1(Br)Br smiles:[CH2]C1(Br)C(Br)C1(Br)Br H298:77.97 kcal/mol
 """,
 )
 
@@ -4833,11 +5894,20 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.00979017,-0.0509049,-0.036096,-0.0141614,-0.0481653,-0.0065526,0.270137],'cal/(mol*K)','+|-',[0.403121,0.444317,0.472937,0.470289,0.395823,0.313911,0.464934]),
+        H298 = (2.72521,'kcal/mol','+|-',1.73394),
+        S298 = (2.76835,'cal/(mol*K)','+|-',1.33034),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:[CH2]C1(Cl)CC1Cl smiles:[CH2]C1(Cl)CC1Cl H298:39.31 kcal/mol
+library:CHOCl_G4 label:Cl[C](Cl)C1(Cl)CC1Cl smiles:Cl[C](Cl)C1(Cl)CC1Cl H298:22.90 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)C(Cl)C1(Cl)Cl smiles:[CH2]C1(Cl)C(Cl)C1(Cl)Cl H298:32.74 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1(Cl)CC1Cl smiles:Cl[CH]C1(Cl)CC1Cl H298:30.73 kcal/mol
 """,
 )
 
@@ -4854,11 +5924,24 @@ entry(
 6    Cs  u1 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.232378,-0.141905,-0.0349576,0.022064,0.0934376,0.204884,0.469979],'cal/(mol*K)','+|-',[0.245087,0.270134,0.287534,0.285924,0.240651,0.19085,0.282668]),
+        H298 = (5.00984,'kcal/mol','+|-',1.0542),
+        S298 = (2.33382,'cal/(mol*K)','+|-',0.808817),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1(F)F smiles:[CH2]C1(F)C(F)C1(F)F H298:-122.05 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1F smiles:[CH2]C1(F)C(F)C1F H298:-75.61 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)CC1F smiles:[CH2]C1(F)CC1F H298:-37.37 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)CC1F smiles:F[CH]C1(F)CC1F H298:-79.40 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)C(F)C1F smiles:F[C](F)C1(F)C(F)C1F H298:-166.03 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)CC1F smiles:F[C](F)C1(F)CC1F H298:-128.96 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1(F)F smiles:F[CH]C1(F)C(F)C1(F)F H298:-163.39 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1F smiles:F[CH]C1(F)C(F)C1F H298:-117.51 kcal/mol
 """,
 )
 
@@ -4896,11 +5979,18 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.643612,0.265239,0.0966499,-0.0313117,-0.147995,-0.110469,0.150322],'cal/(mol*K)','+|-',[0.634647,0.699503,0.744561,0.740392,0.623158,0.494201,0.731962]),
+        H298 = (5.79508,'kcal/mol','+|-',2.72981),
+        S298 = (3.24766,'cal/(mol*K)','+|-',2.09441),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1Br smiles:OC1(Br)[C](Br)C1Br H298:43.02 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[CH]C1Br smiles:OC1(Br)[CH]C1Br H298:40.00 kcal/mol
 """,
 )
 
@@ -4917,11 +6007,18 @@ entry(
 6    O2s u0 p2 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.493543,0.240497,0.100494,0.0590936,0.0772911,0.16213,0.361644],'cal/(mol*K)','+|-',[0.627768,0.691921,0.73649,0.732366,0.616403,0.488844,0.724027]),
+        H298 = (8.5936,'kcal/mol','+|-',2.70022),
+        S298 = (1.98984,'cal/(mol*K)','+|-',2.07171),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)[CH]C1F smiles:OC1(F)[CH]C1F H298:-60.50 kcal/mol
+library:CHOF_G4 label:OC1(F)[C](F)C1F smiles:OC1(F)[C](F)C1F H298:-101.15 kcal/mol
 """,
 )
 
@@ -4957,11 +6054,21 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.09773,-0.956008,-0.769949,-0.666568,-0.623615,-0.435425,0.035498],'cal/(mol*K)','+|-',[0.460774,0.507862,0.540575,0.537549,0.452433,0.358806,0.531428]),
+        H298 = (1.8627,'kcal/mol','+|-',1.98193),
+        S298 = (7.40796,'cal/(mol*K)','+|-',1.52061),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CC1(Br)C(Br)DC1Br smiles:CC1(Br)C(Br)=C1Br H298:68.78 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1(Br)C(Br)Br smiles:BrC1=C(Br)C1(Br)C(Br)Br H298:82.48 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)CDC1Br smiles:BrCC1(Br)C=C1Br H298:70.18 kcal/mol
+library:CHOBr_G4 label:BrC1DCC1(Br)C(Br)(Br)Br smiles:BrC1=CC1(Br)C(Br)(Br)Br H298:87.48 kcal/mol
+library:CHOBr_G4 label:CC1(Br)CDC1Br smiles:CC1(Br)C=C1Br H298:64.04 kcal/mol
 """,
 )
 
@@ -4977,11 +6084,22 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.549959,-0.525325,-0.444794,-0.395951,-0.353602,-0.2154,0.0873492],'cal/(mol*K)','+|-',[0.208041,0.229302,0.244072,0.242705,0.204275,0.162002,0.239942]),
+        H298 = (1.19907,'kcal/mol','+|-',0.894849),
+        S298 = (3.67465,'cal/(mol*K)','+|-',0.686561),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClCC1(Cl)CDC1Cl smiles:ClCC1(Cl)C=C1Cl H298:37.24 kcal/mol
+library:CHOCl_G4 label:ClC1DCC1(Cl)C(Cl)(Cl)Cl smiles:ClC1=CC1(Cl)C(Cl)(Cl)Cl H298:30.26 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)DC1Cl smiles:ClCC1(Cl)C(Cl)=C1Cl H298:32.14 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C1(Cl)C(Cl)Cl smiles:ClC1=C(Cl)C1(Cl)C(Cl)Cl H298:27.88 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)DC1Cl smiles:CC1(Cl)C(Cl)=C1Cl H298:35.83 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)CDC1Cl smiles:CC1(Cl)C=C1Cl H298:41.34 kcal/mol
 """,
 )
 
@@ -4997,11 +6115,23 @@ entry(
 5    Cs  u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.908759,-0.680609,-0.434752,-0.288492,-0.138417,0.0418626,0.383938],'cal/(mol*K)','+|-',[0.199243,0.219604,0.233749,0.232441,0.195636,0.155151,0.229794]),
+        H298 = (3.14246,'kcal/mol','+|-',0.857003),
+        S298 = (2.9053,'cal/(mol*K)','+|-',0.657524),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FCC1(F)CDC1F smiles:FCC1(F)C=C1F H298:-75.39 kcal/mol
+library:CHOF_G4 label:FC1DCC1(F)C(F)F smiles:FC1=CC1(F)C(F)F H298:-128.27 kcal/mol
+library:CHOF_G4 label:CC1(F)CDC1F smiles:CC1(F)C=C1F H298:-34.44 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)DC1F smiles:CC1(F)C(F)=C1F H298:-71.51 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1(F)C(F)F smiles:FC1=C(F)C1(F)C(F)F H298:-162.38 kcal/mol
+library:CHOF_G4 label:FC1DCC1(F)C(F)(F)F smiles:FC1=CC1(F)C(F)(F)F H298:-185.06 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)DC1F smiles:FCC1(F)C(F)=C1F H298:-111.28 kcal/mol
 """,
 )
 
@@ -5035,11 +6165,21 @@ entry(
 4    Br1s u0 p3 c0 {1,S}
 5    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.167812,-0.148183,-0.025515,-0.0345929,-0.140123,-0.166473,0.0318751],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (-3.51291,'kcal/mol','+|-',1.72353),
+        S298 = (-0.474555,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]DC1C(Br)DC1Br smiles:Br[C]=C1C(Br)=C1Br H298:165.12 kcal/mol
+library:CHOBr_G4 label:[CH]DC1C(Br)DC1Br smiles:[CH]=C1C(Br)=C1Br H298:188.04 kcal/mol
+library:CHOBr_G4 label:CDC1C(Br)DC1Br smiles:C=C1C(Br)=C1Br H298:102.88 kcal/mol
+library:CHOBr_G4 label:BrCDC1C(Br)DC1Br smiles:BrC=C1C(Br)=C1Br H298:109.27 kcal/mol
+library:CHOBr_G4 label:BrC(Br)DC1C(Br)DC1Br smiles:BrC(Br)=C1C(Br)=C1Br H298:116.40 kcal/mol
 """,
 )
 
@@ -5054,11 +6194,21 @@ entry(
 4    Cl1s u0 p3 c0 {1,S}
 5    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0965403,-0.189876,-0.140102,-0.216777,-0.39488,-0.420213,-0.107372],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (-1.94379,'kcal/mol','+|-',1.72353),
+        S298 = (0.209306,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]DC1C(Cl)DC1Cl smiles:Cl[C]=C1C(Cl)=C1Cl H298:133.13 kcal/mol
+library:CHOCl_G4 label:ClCDC1C(Cl)DC1Cl smiles:ClC=C1C(Cl)=C1Cl H298:76.67 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)DC1C(Cl)DC1Cl smiles:ClC(Cl)=C1C(Cl)=C1Cl H298:72.89 kcal/mol
+library:CHOCl_G4 label:CDC1C(Cl)DC1Cl smiles:C=C1C(Cl)=C1Cl H298:81.00 kcal/mol
+library:CHOCl_G4 label:[CH]DC1C(Cl)DC1Cl smiles:[CH]=C1C(Cl)=C1Cl H298:166.36 kcal/mol
 """,
 )
 
@@ -5073,11 +6223,21 @@ entry(
 4    F1s u0 p3 c0 {1,S}
 5    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0452922,-0.28638,-0.312246,-0.39779,-0.532816,-0.531056,-0.185938],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (6.09491,'kcal/mol','+|-',1.72353),
+        S298 = (0.329218,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FCDC1C(F)DC1F smiles:FC=C1C(F)=C1F H298:-23.99 kcal/mol
+library:CHOF_G4 label:CDC1C(F)DC1F smiles:C=C1C(F)=C1F H298:14.26 kcal/mol
+library:CHOF_G4 label:FC(F)DC1C(F)DC1F smiles:FC(F)=C1C(F)=C1F H298:-67.31 kcal/mol
+library:CHOF_G4 label:F[C]DC1C(F)DC1F smiles:F[C]=C1C(F)=C1F H298:37.52 kcal/mol
+library:CHOF_G4 label:[CH]DC1C(F)DC1F smiles:[CH]=C1C(F)=C1F H298:99.00 kcal/mol
 """,
 )
 
@@ -5115,11 +6275,18 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0479605,-0.392251,-0.597132,-0.75175,-0.931863,-0.894849,-0.624572],'cal/(mol*K)','+|-',[0.601048,0.662471,0.705142,0.701195,0.590167,0.468037,0.693211]),
+        H298 = (7.77319,'kcal/mol','+|-',2.58529),
+        S298 = (3.84211,'cal/(mol*K)','+|-',1.98353),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:C[C]1C(Br)(Br)C1(Br)Br smiles:C[C]1C(Br)(Br)C1(Br)Br H298:80.03 kcal/mol
+library:CHOBr_G4 label:BrC1(Br)[CH]C1(Br)Br smiles:BrC1(Br)[CH]C1(Br)Br H298:95.42 kcal/mol
 """,
 )
 
@@ -5136,11 +6303,20 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.00445713,-0.235166,-0.240499,-0.274494,-0.339193,-0.235411,0.214861],'cal/(mol*K)','+|-',[0.47347,0.521855,0.55547,0.55236,0.464899,0.368692,0.54607]),
+        H298 = (8.11424,'kcal/mol','+|-',2.03654),
+        S298 = (4.67587,'cal/(mol*K)','+|-',1.56251),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1(Cl)[CH]C1(Cl)Cl smiles:ClC1(Cl)[CH]C1(Cl)Cl H298:51.80 kcal/mol
+library:CHOCl_G4 label:O[C]1C(Cl)(Cl)C1(Cl)Cl smiles:O[C]1C(Cl)(Cl)C1(Cl)Cl H298:9.33 kcal/mol
+library:CHOCl_G4 label:C[C]1C(Cl)(Cl)C1(Cl)Cl smiles:C[C]1C(Cl)(Cl)C1(Cl)Cl H298:37.98 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)(Cl)C1(Cl)Cl H298:43.80 kcal/mol
 """,
 )
 
@@ -5157,11 +6333,21 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.197528,-0.00638861,0.195275,0.303169,0.371077,0.423484,0.581803],'cal/(mol*K)','+|-',[0.369359,0.407105,0.433328,0.430902,0.362672,0.287621,0.425995]),
+        H298 = (13.6946,'kcal/mol','+|-',1.58872),
+        S298 = (1.27514,'cal/(mol*K)','+|-',1.21893),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:O[C]1C(F)(F)C1(F)F smiles:O[C]1C(F)(F)C1(F)F H298:-151.81 kcal/mol
+library:CHOF_G4 label:FC1(F)[CH]C1(F)F smiles:FC1(F)[CH]C1(F)F H298:-109.55 kcal/mol
+library:CHOF_G4 label:C[C]1C(F)(F)C1(F)F smiles:C[C]1C(F)(F)C1(F)F H298:-121.96 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)(F)C1(F)F smiles:F[C]1C(F)(F)C1(F)F H298:-148.39 kcal/mol
+library:CHOF_G4 label:FC[C]1C(F)(F)C1(F)F smiles:FC[C]1C(F)(F)C1(F)F H298:-161.07 kcal/mol
 """,
 )
 
@@ -5199,11 +6385,18 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.835696,-1.57802,-1.7729,-1.83274,-1.71121,-1.35722,-0.354062],'cal/(mol*K)','+|-',[1.04792,1.15501,1.22941,1.22252,1.02895,0.816016,1.2086]),
+        H298 = (11.4729,'kcal/mol','+|-',4.50741),
+        S298 = (7.48321,'cal/(mol*K)','+|-',3.45825),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)CC1(Br)Br smiles:OC1(Br)CC1(Br)Br H298:-5.83 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)C1(Br)Br smiles:OC1(Br)C(Br)C1(Br)Br H298:2.55 kcal/mol
 """,
 )
 
@@ -5220,11 +6413,19 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    O2s u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.668647,-0.976073,-0.954726,-0.836608,-0.582196,-0.241575,0.529596],'cal/(mol*K)','+|-',[0.5897,0.649963,0.691829,0.687956,0.579024,0.4592,0.680122]),
+        H298 = (16.6553,'kcal/mol','+|-',2.53648),
+        S298 = (4.95422,'cal/(mol*K)','+|-',1.94608),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)C(F)(F)C1(F)F smiles:OC1(F)C(F)(F)C1(F)F H298:-243.76 kcal/mol
+library:CHOF_G4 label:OC1(F)CC1(F)F smiles:OC1(F)CC1(F)F H298:-164.58 kcal/mol
+library:CHOF_G4 label:OC1(F)C(F)C1(F)F smiles:OC1(F)C(F)C1(F)F H298:-199.77 kcal/mol
 """,
 )
 
@@ -5262,11 +6463,20 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.58139,-4.02692,-4.38466,-4.67413,-4.3951,-3.83665,-5.62018],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.809669,0.681466,0.540442,0.80045]),
+        H298 = (6.81413,'kcal/mol','+|-',2.98523),
+        S298 = (12.3468,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrCC1(Br)OC1Br smiles:BrCC1(Br)OC1Br H298:-8.09 kcal/mol
+library:CHOBr_G4 label:CC1(Br)OC1Br smiles:CC1(Br)OC1Br H298:-16.13 kcal/mol
+library:CHOBr_G4 label:BrC1OC1(Br)C(Br)(Br)Br smiles:BrC1OC1(Br)C(Br)(Br)Br H298:14.02 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1(Br)OC1Br smiles:BrC(Br)C1(Br)OC1Br H298:0.58 kcal/mol
 """,
 )
 
@@ -5283,11 +6493,20 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.43786,-3.62701,-3.88845,-4.18122,-3.96482,-3.44411,-5.27208],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.809669,0.681466,0.540442,0.80045]),
+        H298 = (7.12358,'kcal/mol','+|-',2.98523),
+        S298 = (11.8721,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)OC1Cl smiles:CC1(Cl)OC1Cl H298:-40.76 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)OC1Cl smiles:ClC(Cl)C1(Cl)OC1Cl H298:-46.09 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)OC1Cl smiles:ClCC1(Cl)OC1Cl H298:-43.21 kcal/mol
+library:CHOCl_G4 label:ClC1OC1(Cl)C(Cl)(Cl)Cl smiles:ClC1OC1(Cl)C(Cl)(Cl)Cl H298:-45.55 kcal/mol
 """,
 )
 
@@ -5304,11 +6523,20 @@ entry(
 6    Cs  u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.04845,-3.02862,-3.12731,-3.25925,-2.98579,-2.47753,-4.48542],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.809669,0.681466,0.540442,0.80045]),
+        H298 = (12.6568,'kcal/mol','+|-',2.98523),
+        S298 = (10.6152,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1OC1(F)C(F)(F)F smiles:FC1OC1(F)C(F)(F)F H298:-270.11 kcal/mol
+library:CHOF_G4 label:FCC1(F)OC1F smiles:FCC1(F)OC1F H298:-165.47 kcal/mol
+library:CHOF_G4 label:FC(F)C1(F)OC1F smiles:FC(F)C1(F)OC1F H298:-214.98 kcal/mol
+library:CHOF_G4 label:CC1(F)OC1F smiles:CC1(F)OC1F H298:-126.68 kcal/mol
 """,
 )
 
@@ -5342,11 +6570,17 @@ entry(
 4    Br1s u0 p3 c0 {1,S}
 5    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.352591,-0.134774,0.106867,0.0804023,-0.126641,-0.0875674,0.202849],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (-1.7472,'kcal/mol','+|-',2.98523),
+        S298 = (-0.896529,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:ODC1C(Br)DC1Br smiles:O=C1C(Br)=C1Br H298:46.40 kcal/mol
 """,
 )
 
@@ -5361,11 +6595,17 @@ entry(
 4    Cl1s u0 p3 c0 {1,S}
 5    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.228205,-0.187607,-0.0787573,-0.151145,-0.325879,-0.23664,0.0885074],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (-0.60101,'kcal/mol','+|-',2.98523),
+        S298 = (-0.203454,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ODC1C(Cl)DC1Cl smiles:O=C1C(Cl)=C1Cl H298:24.72 kcal/mol
 """,
 )
 
@@ -5380,11 +6620,17 @@ entry(
 4    F1s u0 p3 c0 {1,S}
 5    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.204883,-0.312747,-0.291898,-0.378996,-0.531839,-0.410703,-0.0182547],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (4.46358,'kcal/mol','+|-',2.98523),
+        S298 = (-0.061545,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:ODC1C(F)DC1F smiles:O=C1C(F)=C1F H298:-44.04 kcal/mol
 """,
 )
 
@@ -5418,11 +6664,21 @@ entry(
 4    Br1s u0 p3 c0 {2,S}
 5    Br1s u0 p3 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.957421,-0.925553,-0.812704,-0.695414,-0.476832,-0.271059,0.0802761],'cal/(mol*K)','+|-',[0.523205,0.576673,0.613819,0.610382,0.513734,0.407421,0.603432]),
+        H298 = (0.608124,'kcal/mol','+|-',2.25046),
+        S298 = (3.34308,'cal/(mol*K)','+|-',1.72664),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrCC1DC(Br)[C]1Br smiles:BrCC1=C(Br)[C]1Br H298:114.68 kcal/mol
+library:CHOBr_G4 label:CC1DC(Br)[C]1Br smiles:CC1=C(Br)[C]1Br H298:105.97 kcal/mol
+library:CHOBr_G4 label:OC1DC(Br)[C]1Br smiles:OC1=C(Br)[C]1Br H298:77.07 kcal/mol
+library:CHOBr_G4 label:Br[C]1CDC1Br smiles:Br[C]1C=C1Br H298:119.93 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)DC1Br smiles:Br[C]1C(Br)=C1Br H298:124.65 kcal/mol
 """,
 )
 
@@ -5437,11 +6693,21 @@ entry(
 4    Cl1s u0 p3 c0 {1,S}
 5    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.05081,-1.78854,-1.46623,-1.17285,-0.734731,-0.289276,0.746707],'cal/(mol*K)','+|-',[0.880814,0.970826,1.03336,1.02757,0.864868,0.685891,1.01587]),
+        H298 = (-0.573543,'kcal/mol','+|-',3.78865),
+        S298 = (5.56341,'cal/(mol*K)','+|-',2.90679),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC1Cl smiles:Cl[C]1C(Cl)=C1Cl H298:92.49 kcal/mol
+library:CHOCl_G4 label:CC1DC(Cl)[C]1Cl smiles:CC1=C(Cl)[C]1Cl H298:85.02 kcal/mol
+library:CHOCl_G4 label:ClCC1DC(Cl)[C]1Cl smiles:ClCC1=C(Cl)[C]1Cl H298:83.11 kcal/mol
+library:CHOCl_G4 label:OC1DC(Cl)[C]1Cl smiles:OC1=C(Cl)[C]1Cl H298:56.31 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CDC1Cl smiles:Cl[C]1C=C1Cl H298:98.22 kcal/mol
 """,
 )
 
@@ -5456,11 +6722,22 @@ entry(
 4    F1s u0 p3 c0 {2,S}
 5    F1s u0 p3 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.12921,-0.905788,-0.659994,-0.457799,-0.200481,0.00456938,0.490068],'cal/(mol*K)','+|-',[0.425872,0.469393,0.499628,0.496831,0.418162,0.331627,0.491174]),
+        H298 = (0.951265,'kcal/mol','+|-',1.8318),
+        S298 = (2.11119,'cal/(mol*K)','+|-',1.40543),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC1C(F)(F)F smiles:F[C]1C(F)=C1C(F)(F)F H298:-130.50 kcal/mol
+library:CHOF_G4 label:CC1DC(F)[C]1F smiles:CC1=C(F)[C]1F H298:14.75 kcal/mol
+library:CHOF_G4 label:FCC1DC(F)[C]1F smiles:FCC1=C(F)[C]1F H298:-24.55 kcal/mol
+library:CHOF_G4 label:OC1DC(F)[C]1F smiles:OC1=C(F)[C]1F H298:-13.06 kcal/mol
+library:CHOF_G4 label:F[C]1CDC1F smiles:F[C]1C=C1F H298:26.71 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DC1F smiles:F[C]1C(F)=C1F H298:-11.23 kcal/mol
 """,
 )
 
@@ -5496,11 +6773,17 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.82872,-1.61622,-1.24659,-1.03451,-0.824553,-0.51252,0.155137],'cal/(mol*K)','+|-',[1.53526,1.69215,1.80114,1.79106,1.50746,1.19551,1.77067]),
+        H298 = (2.38496,'kcal/mol','+|-',6.6036),
+        S298 = (6.06055,'cal/(mol*K)','+|-',5.06652),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)[C]DC1Br smiles:OC1(Br)[C]=C1Br H298:87.06 kcal/mol
 """,
 )
 
@@ -5516,11 +6799,17 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.70519,-1.57545,-1.18501,-0.875499,-0.56192,-0.241428,0.344842],'cal/(mol*K)','+|-',[1.53516,1.69205,1.80104,1.79095,1.50737,1.19543,1.77056]),
+        H298 = (2.68973,'kcal/mol','+|-',6.6032),
+        S298 = (5.74454,'cal/(mol*K)','+|-',5.06622),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)[C]DC1Cl smiles:OC1(Cl)[C]=C1Cl H298:63.92 kcal/mol
 """,
 )
 
@@ -5536,11 +6825,17 @@ entry(
 5    O2s u0 p2 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.9654,-1.54049,-1.12902,-0.814142,-0.431879,-0.0420279,0.578846],'cal/(mol*K)','+|-',[1.53483,1.69168,1.80065,1.79057,1.50705,1.19518,1.77018]),
+        H298 = (6.97452,'kcal/mol','+|-',6.60177),
+        S298 = (4.40117,'cal/(mol*K)','+|-',5.06512),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)[C]DC1F smiles:OC1(F)[C]=C1F H298:-12.69 kcal/mol
 """,
 )
 
@@ -5578,11 +6873,21 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.18112,0.0419643,-0.0177598,-0.0815083,-0.172199,-0.144483,0.0120179],'cal/(mol*K)','+|-',[0.38845,0.428147,0.455725,0.453174,0.381418,0.302487,0.448014]),
+        H298 = (5.70474,'kcal/mol','+|-',1.67084),
+        S298 = (4.21485,'cal/(mol*K)','+|-',1.28193),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)C1(Br)Br smiles:Br[C]1C(Br)C1(Br)Br H298:90.00 kcal/mol
+library:CHOBr_G4 label:BrC1[CH]C1(Br)Br smiles:BrC1[CH]C1(Br)Br H298:86.75 kcal/mol
+library:CHOBr_G4 label:C[C]1C(Br)C1(Br)Br smiles:C[C]1C(Br)C1(Br)Br H298:73.54 kcal/mol
+library:CHOBr_G4 label:BrC[C]1C(Br)C1(Br)Br smiles:BrC[C]1C(Br)C1(Br)Br H298:80.82 kcal/mol
+library:CHOBr_G4 label:O[C]1C(Br)C1(Br)Br smiles:O[C]1C(Br)C1(Br)Br H298:46.24 kcal/mol
 """,
 )
 
@@ -5599,11 +6904,20 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0328703,0.065607,0.117562,0.104597,0.0207608,0.0260465,0.189919],'cal/(mol*K)','+|-',[0.400668,0.441614,0.470059,0.467428,0.393415,0.312001,0.462105]),
+        H298 = (5.63899,'kcal/mol','+|-',1.72339),
+        S298 = (2.62246,'cal/(mol*K)','+|-',1.32225),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:C[C]1C(Cl)C1(Cl)Cl smiles:C[C]1C(Cl)C1(Cl)Cl H298:40.93 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]C1(Cl)Cl smiles:ClC1[CH]C1(Cl)Cl H298:53.59 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)C1(Cl)Cl H298:46.71 kcal/mol
+library:CHOCl_G4 label:O[C]1C(Cl)C1(Cl)Cl smiles:O[C]1C(Cl)C1(Cl)Cl H298:11.28 kcal/mol
 """,
 )
 
@@ -5620,11 +6934,22 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.372609,0.145706,0.567158,0.768895,0.907523,0.957037,1.13604],'cal/(mol*K)','+|-',[0.677779,0.747043,0.795162,0.79071,0.665509,0.527788,0.781707]),
+        H298 = (22.9423,'kcal/mol','+|-',2.91533),
+        S298 = (3.41873,'cal/(mol*K)','+|-',2.23675),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC(F)[C]1C(F)C1(F)F smiles:FC(F)[C]1C(F)C1(F)F H298:-164.68 kcal/mol
+library:CHOF_G4 label:FC1[CH]C1(F)F smiles:FC1[CH]C1(F)F H298:-64.25 kcal/mol
+library:CHOF_G4 label:FC[C]1C(F)C1(F)F smiles:FC[C]1C(F)C1(F)F H298:-114.02 kcal/mol
+library:CHOF_G4 label:O[C]1C(F)C1(F)F smiles:O[C]1C(F)C1(F)F H298:-105.21 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)F smiles:F[C]1C(F)C1(F)F H298:-103.09 kcal/mol
+library:CHOF_G4 label:C[C]1C(F)C1(F)F smiles:C[C]1C(F)C1(F)F H298:-75.73 kcal/mol
 """,
 )
 
@@ -5660,11 +6985,17 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.98445,-2.38215,-2.6184,-2.86367,-2.63963,-2.41385,-5.41919],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (10.9753,'kcal/mol','+|-',8.4435),
+        S298 = (5.81384,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OC1Br smiles:Br[C]1OC1Br H298:45.24 kcal/mol
 """,
 )
 
@@ -5680,11 +7011,17 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.50283,-2.836,-2.81594,-2.96865,-2.62816,-2.33508,-5.14388],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (11.4542,'kcal/mol','+|-',8.4435),
+        S298 = (5.73702,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OC1Cl smiles:Cl[C]1OC1Cl H298:21.46 kcal/mol
 """,
 )
 
@@ -5700,11 +7037,17 @@ entry(
 5    H   u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.40014,-1.66015,-1.64388,-1.82708,-1.6002,-1.44175,-4.63294],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (14.3022,'kcal/mol','+|-',8.4435),
+        S298 = (4.6397,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC1F smiles:F[C]1OC1F H298:-59.45 kcal/mol
 """,
 )
 
@@ -5742,11 +7085,17 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.40589,-3.56645,-3.80544,-3.95295,-3.50302,-2.9758,-5.18084],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (6.51728,'kcal/mol','+|-',5.97046),
+        S298 = (10.4869,'cal/(mol*K)','+|-',4.58076),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)OC1(Br)Br smiles:OC1(Br)OC1(Br)Br H298:-39.97 kcal/mol
 """,
 )
 
@@ -5763,11 +7112,17 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.79126,-2.94418,-3.33833,-3.51229,-3.03421,-2.50861,-4.77351],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (7.04943,'kcal/mol','+|-',5.97046),
+        S298 = (9.72662,'cal/(mol*K)','+|-',4.58076),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)OC1(Cl)Cl smiles:OC1(Cl)OC1(Cl)Cl H298:-76.86 kcal/mol
 """,
 )
 
@@ -5784,11 +7139,17 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    O2s u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.73213,-2.2459,-2.20696,-2.2359,-1.66027,-1.16538,-3.66927],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (14.065,'kcal/mol','+|-',5.97046),
+        S298 = (7.46157,'cal/(mol*K)','+|-',4.58076),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)OC1(F)F smiles:OC1(F)OC1(F)F H298:-210.89 kcal/mol
 """,
 )
 
@@ -5824,11 +7185,17 @@ entry(
 5    Cs   u1 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.345692,0.440369,0.433913,0.396098,0.236099,0.182697,0.190717],'cal/(mol*K)','+|-',[0.73127,0.806001,0.857918,0.853114,0.718032,0.569441,0.843401]),
+        H298 = (-0.403946,'kcal/mol','+|-',3.14541),
+        S298 = (2.48652,'cal/(mol*K)','+|-',2.41328),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:[CH2]C1(Br)CDC1Br smiles:[CH2]C1(Br)C=C1Br H298:110.37 kcal/mol
 """,
 )
 
@@ -5844,11 +7211,22 @@ entry(
 5    Cs  u1 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3872,-0.716357,-0.249963,-0.0349542,0.169558,0.47527,0.956653],'cal/(mol*K)','+|-',[0.535946,0.590716,0.628766,0.625246,0.526244,0.417342,0.618126]),
+        H298 = (5.3502,'kcal/mol','+|-',2.30527),
+        S298 = (4.83182,'cal/(mol*K)','+|-',1.76868),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)C(F)DC1F smiles:[CH2]C1(F)C(F)=C1F H298:-24.40 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)CDC1F smiles:F[CH]C1(F)C=C1F H298:-29.36 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)CDC1F smiles:F[C](F)C1(F)C=C1F H298:-80.27 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)DC1F smiles:F[CH]C1(F)C(F)=C1F H298:-65.63 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)CDC1F smiles:[CH2]C1(F)C=C1F H298:12.29 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)C(F)DC1F smiles:F[C](F)C1(F)C(F)=C1F H298:-116.22 kcal/mol
 """,
 )
 
@@ -5882,11 +7260,21 @@ entry(
 4    Br1s u0 p3 c0 {1,S}
 5    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.957421,-0.925553,-0.812704,-0.695414,-0.476832,-0.271059,0.0802761],'cal/(mol*K)','+|-',[0.523205,0.576673,0.613819,0.610382,0.513734,0.407421,0.603432]),
+        H298 = (0.608124,'kcal/mol','+|-',2.25046),
+        S298 = (3.34308,'cal/(mol*K)','+|-',1.72664),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrCC1DC(Br)[C]1Br smiles:BrCC1=C(Br)[C]1Br H298:114.68 kcal/mol
+library:CHOBr_G4 label:CC1DC(Br)[C]1Br smiles:CC1=C(Br)[C]1Br H298:105.97 kcal/mol
+library:CHOBr_G4 label:OC1DC(Br)[C]1Br smiles:OC1=C(Br)[C]1Br H298:77.07 kcal/mol
+library:CHOBr_G4 label:Br[C]1CDC1Br smiles:Br[C]1C=C1Br H298:119.93 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)DC1Br smiles:Br[C]1C(Br)=C1Br H298:124.65 kcal/mol
 """,
 )
 
@@ -5901,11 +7289,22 @@ entry(
 4    F1s u0 p3 c0 {1,S}
 5    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.12921,-0.905788,-0.659994,-0.457799,-0.200481,0.00456938,0.490068],'cal/(mol*K)','+|-',[0.425872,0.469393,0.499628,0.496831,0.418162,0.331627,0.491174]),
+        H298 = (0.951265,'kcal/mol','+|-',1.8318),
+        S298 = (2.11119,'cal/(mol*K)','+|-',1.40543),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC1C(F)(F)F smiles:F[C]1C(F)=C1C(F)(F)F H298:-130.50 kcal/mol
+library:CHOF_G4 label:CC1DC(F)[C]1F smiles:CC1=C(F)[C]1F H298:14.75 kcal/mol
+library:CHOF_G4 label:FCC1DC(F)[C]1F smiles:FCC1=C(F)[C]1F H298:-24.55 kcal/mol
+library:CHOF_G4 label:OC1DC(F)[C]1F smiles:OC1=C(F)[C]1F H298:-13.06 kcal/mol
+library:CHOF_G4 label:F[C]1CDC1F smiles:F[C]1C=C1F H298:26.71 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DC1F smiles:F[C]1C(F)=C1F H298:-11.23 kcal/mol
 """,
 )
 
@@ -5943,11 +7342,17 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.82074,1.78461,1.45558,0.924067,0.0451603,-0.195846,0.367904],'cal/(mol*K)','+|-',[1.61395,1.77889,1.89347,1.88287,1.58473,1.25679,1.86143]),
+        H298 = (10.0137,'kcal/mol','+|-',6.9421),
+        S298 = (6.79024,'cal/(mol*K)','+|-',5.32623),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CC1(Br)[CH]C1(Br)Br smiles:CC1(Br)[CH]C1(Br)Br H298:77.13 kcal/mol
 """,
 )
 
@@ -5964,11 +7369,18 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.700989,0.614197,0.504987,0.274942,-0.146171,-0.167671,0.460179],'cal/(mol*K)','+|-',[1.17645,1.29667,1.38019,1.37247,1.15515,0.916101,1.35684]),
+        H298 = (6.92237,'kcal/mol','+|-',5.06025),
+        S298 = (4.96972,'cal/(mol*K)','+|-',3.88241),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)[CH]C1(Cl)Cl smiles:CC1(Cl)[CH]C1(Cl)Cl H298:43.68 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1(Cl)Cl smiles:CC1(Cl)[C](Cl)C1(Cl)Cl H298:35.98 kcal/mol
 """,
 )
 
@@ -5985,11 +7397,21 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    Cs  u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0518363,0.155084,0.272501,0.309046,0.350366,0.438709,0.666291],'cal/(mol*K)','+|-',[0.413433,0.455683,0.485035,0.482319,0.405948,0.321941,0.476827]),
+        H298 = (8.24253,'kcal/mol','+|-',1.7783),
+        S298 = (1.87898,'cal/(mol*K)','+|-',1.36438),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:CC1(F)[CH]C1(F)F smiles:CC1(F)[CH]C1(F)F H298:-75.72 kcal/mol
+library:CHOF_G4 label:CC1(F)[C](F)C1(F)F smiles:CC1(F)[C](F)C1(F)F H298:-115.50 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1(F)F smiles:FCC1(F)[C](F)C1(F)F H298:-155.11 kcal/mol
+library:CHOF_G4 label:FC(F)C1(F)[CH]C1(F)F smiles:FC(F)C1(F)[CH]C1(F)F H298:-165.85 kcal/mol
+library:CHOF_G4 label:FCC1(F)[CH]C1(F)F smiles:FCC1(F)[CH]C1(F)F H298:-116.35 kcal/mol
 """,
 )
 
@@ -6027,11 +7449,24 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.432595,-0.550928,-0.551879,-0.532868,-0.482725,-0.359799,-0.024179],'cal/(mol*K)','+|-',[0.181042,0.199543,0.212396,0.211207,0.177764,0.140977,0.208802]),
+        H298 = (2.99563,'kcal/mol','+|-',0.778715),
+        S298 = (2.91945,'cal/(mol*K)','+|-',0.597458),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CC1(Br)C(Br)C1Br smiles:CC1(Br)C(Br)C1Br H298:21.75 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1(Br)CC1Br smiles:BrC(Br)C1(Br)CC1Br H298:29.69 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)C(Br)C1Br smiles:BrCC1(Br)C(Br)C1Br H298:28.33 kcal/mol
+library:CHOBr_G4 label:CC1(Br)CC1Br smiles:CC1(Br)CC1Br H298:14.58 kcal/mol
+library:CHOBr_G4 label:BrC1CC1(Br)C(Br)(Br)Br smiles:BrC1CC1(Br)C(Br)(Br)Br H298:41.04 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C(Br)C1(Br)Br smiles:CC1(Br)C(Br)C1(Br)Br H298:30.88 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)CC1Br smiles:BrCC1(Br)CC1Br H298:21.03 kcal/mol
+library:CHOBr_G4 label:BrC(Br)C1(Br)C(Br)C1Br smiles:BrC(Br)C1(Br)C(Br)C1Br H298:35.97 kcal/mol
 """,
 )
 
@@ -6048,11 +7483,25 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.40627,-0.532866,-0.523301,-0.512252,-0.492881,-0.352207,0.077302],'cal/(mol*K)','+|-',[0.176464,0.194497,0.207026,0.205866,0.173269,0.137413,0.203522]),
+        H298 = (3.30934,'kcal/mol','+|-',0.759025),
+        S298 = (3.30225,'cal/(mol*K)','+|-',0.582352),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)C1(Cl)Cl H298:-14.43 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)CC1Cl smiles:ClCC1(Cl)CC1Cl H298:-12.44 kcal/mol
+library:CHOCl_G4 label:ClC1CC1(Cl)C(Cl)(Cl)Cl smiles:ClC1CC1(Cl)C(Cl)(Cl)Cl H298:-16.85 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1Cl smiles:ClCC1(Cl)C(Cl)C1Cl H298:-15.42 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1Cl smiles:CC1(Cl)C(Cl)C1Cl H298:-11.79 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)CC1Cl smiles:ClC(Cl)C1(Cl)CC1Cl H298:-15.08 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)C(Cl)C1Cl smiles:ClC(Cl)C1(Cl)C(Cl)C1Cl H298:-17.17 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298:-17.43 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)CC1Cl smiles:CC1(Cl)CC1Cl H298:-8.25 kcal/mol
 """,
 )
 
@@ -6069,11 +7518,25 @@ entry(
 6    Cs  u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469696,-0.47023,-0.350213,-0.247283,-0.127519,0.0174823,0.378251],'cal/(mol*K)','+|-',[0.175714,0.19367,0.206145,0.204991,0.172533,0.136828,0.202657]),
+        H298 = (5.48298,'kcal/mol','+|-',0.755797),
+        S298 = (2.75772,'cal/(mol*K)','+|-',0.579875),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC(F)C1(F)C(F)C1F smiles:FC(F)C1(F)C(F)C1F H298:-213.01 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1(F)F smiles:CC1(F)C(F)C1(F)F H298:-169.15 kcal/mol
+library:CHOF_G4 label:FCC1(F)CC1F smiles:FCC1(F)CC1F H298:-125.52 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1(F)F smiles:FCC1(F)C(F)C1(F)F H298:-206.91 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1F smiles:CC1(F)C(F)C1F H298:-122.49 kcal/mol
+library:CHOF_G4 label:FC(F)C1(F)CC1F smiles:FC(F)C1(F)CC1F H298:-176.02 kcal/mol
+library:CHOF_G4 label:CC1(F)CC1F smiles:CC1(F)CC1F H298:-84.36 kcal/mol
+library:CHOF_G4 label:FC1CC1(F)C(F)(F)F smiles:FC1CC1(F)C(F)(F)F H298:-232.92 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1F smiles:FCC1(F)C(F)C1F H298:-163.11 kcal/mol
 """,
 )
 
@@ -6109,11 +7572,18 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.60803,-1.21083,-0.825857,-0.586766,-0.447257,-0.247511,0.19339],'cal/(mol*K)','+|-',[1.08428,1.19509,1.27207,1.26495,1.06465,0.844333,1.25054]),
+        H298 = (4.38243,'kcal/mol','+|-',4.66383),
+        S298 = (5.80183,'cal/(mol*K)','+|-',3.57826),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrCC1(Br)[C]DC1Br smiles:BrCC1(Br)[C]=C1Br H298:127.63 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[C]DC1Br smiles:CC1(Br)[C]=C1Br H298:120.83 kcal/mol
 """,
 )
 
@@ -6129,11 +7599,20 @@ entry(
 5    Cs  u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.42102,-1.75291,-1.00212,-0.530647,-0.159929,0.208084,0.922582],'cal/(mol*K)','+|-',[0.800293,0.882077,0.938894,0.933638,0.785805,0.623189,0.923007]),
+        H298 = (10.7794,'kcal/mol','+|-',3.4423),
+        S298 = (4.19638,'cal/(mol*K)','+|-',2.64106),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C1(F)C(F)F smiles:FC1=[C]C1(F)C(F)F H298:-68.13 kcal/mol
+library:CHOF_G4 label:FC1D[C]C1(F)C(F)(F)F smiles:FC1=[C]C1(F)C(F)(F)F H298:-124.51 kcal/mol
+library:CHOF_G4 label:CC1(F)[C]DC1F smiles:CC1(F)[C]=C1F H298:23.28 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C]DC1F smiles:FCC1(F)[C]=C1F H298:-17.43 kcal/mol
 """,
 )
 
@@ -6169,11 +7648,17 @@ entry(
 5    O2s  u1 p2 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0858446,-0.566321,-0.775345,-0.980863,-1.35626,-1.37032,-0.959344],'cal/(mol*K)','+|-',[1.53526,1.69215,1.80114,1.79106,1.50746,1.19551,1.77067]),
+        H298 = (-9.28206,'kcal/mol','+|-',6.6036),
+        S298 = (10.3012,'cal/(mol*K)','+|-',5.06652),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:[O]C1(Br)CDC1Br smiles:[O]C1(Br)C=C1Br H298:75.68 kcal/mol
 """,
 )
 
@@ -6189,11 +7674,18 @@ entry(
 5    O2s  u1 p2 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.510313,-0.769223,-0.825459,-0.853597,-0.963408,-0.853086,-0.387056],'cal/(mol*K)','+|-',[0.902974,0.995251,1.05936,1.05343,0.886627,0.703147,1.04143]),
+        H298 = (-3.09292,'kcal/mol','+|-',3.88396),
+        S298 = (8.20065,'cal/(mol*K)','+|-',2.97992),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:[O]C1(Cl)C(Cl)DC1Cl smiles:[O]C1(Cl)C(Cl)=C1Cl H298:49.84 kcal/mol
+library:CHOCl_G4 label:[O]C1(Cl)CDC1Cl smiles:[O]C1(Cl)C=C1Cl H298:53.37 kcal/mol
 """,
 )
 
@@ -6227,11 +7719,17 @@ entry(
 4    Br1s u0 p3 c0 {1,S}
 5    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.121855,-0.180164,-0.298643,-0.308185,-0.255173,-0.176279,-0.109881],'cal/(mol*K)','+|-',[1.06299,1.17162,1.24708,1.2401,1.04374,0.82775,1.22598]),
+        H298 = (2.04678,'kcal/mol','+|-',4.57223),
+        S298 = (1.33095,'cal/(mol*K)','+|-',3.50798),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)DC1Br smiles:Br[C]1C(Br)=C1Br H298:124.65 kcal/mol
 """,
 )
 
@@ -6246,11 +7744,18 @@ entry(
 4    Cl1s u0 p3 c0 {1,S}
 5    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.40631,0.208244,-0.0524293,-0.209686,-0.333781,-0.373137,-0.722125],'cal/(mol*K)','+|-',[0.633216,0.697926,0.742881,0.738722,0.621752,0.493086,0.730311]),
+        H298 = (5.61261,'kcal/mol','+|-',2.72365),
+        S298 = (2.88687,'cal/(mol*K)','+|-',2.08968),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC1Cl smiles:Cl[C]1C(Cl)=C1Cl H298:92.49 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)[CH]1 smiles:ClC1=C(Cl)[CH]1 H298:103.33 kcal/mol
 """,
 )
 
@@ -6265,11 +7770,18 @@ entry(
 4    F1s u0 p3 c0 {1,S}
 5    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.164652,-0.0559376,-0.2742,-0.365715,-0.380159,-0.358417,-0.634364],'cal/(mol*K)','+|-',[0.622519,0.686136,0.730332,0.726243,0.61125,0.484757,0.717974]),
+        H298 = (9.95362,'kcal/mol','+|-',2.67764),
+        S298 = (2.95293,'cal/(mol*K)','+|-',2.05439),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)[CH]1 smiles:FC1=C(F)[CH]1 H298:35.92 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DC1F smiles:F[C]1C(F)=C1F H298:-11.23 kcal/mol
 """,
 )
 
@@ -6307,11 +7819,18 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.541777,-0.133492,-0.398226,-0.535352,-0.606504,-0.511246,-0.111961],'cal/(mol*K)','+|-',[0.770471,0.849207,0.903907,0.898847,0.756523,0.599967,0.888612]),
+        H298 = (7.0409,'kcal/mol','+|-',3.31403),
+        S298 = (4.90091,'cal/(mol*K)','+|-',2.54264),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1(Br)Br smiles:OC1(Br)[C](Br)C1(Br)Br H298:50.51 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[CH]C1(Br)Br smiles:OC1(Br)[CH]C1(Br)Br H298:48.30 kcal/mol
 """,
 )
 
@@ -6328,11 +7847,18 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.735947,-0.281136,-0.639874,-0.781925,-0.809,-0.557615,0.344563],'cal/(mol*K)','+|-',[1.5247,1.68051,1.78876,1.77875,1.4971,1.18729,1.75849]),
+        H298 = (15.9507,'kcal/mol','+|-',6.55819),
+        S298 = (7.99462,'cal/(mol*K)','+|-',5.03169),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)[CH]C1(Cl)Cl smiles:OC1(Cl)[CH]C1(Cl)Cl H298:14.59 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1(Cl)Cl smiles:OC1(Cl)[C](Cl)C1(Cl)Cl H298:6.51 kcal/mol
 """,
 )
 
@@ -6368,11 +7894,19 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.662147,-0.555145,-0.428997,-0.341754,-0.230288,-0.102402,0.194361],'cal/(mol*K)','+|-',[0.584848,0.644616,0.686137,0.682296,0.574261,0.455422,0.674527]),
+        H298 = (4.58656,'kcal/mol','+|-',2.51561),
+        S298 = (1.68519,'cal/(mol*K)','+|-',1.93007),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1Br smiles:OC1(Br)[C](Br)C1Br H298:43.02 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1(Br)Br smiles:OC1(Br)[C](Br)C1(Br)Br H298:50.51 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C[C]1Br smiles:OC1(Br)C[C]1Br H298:36.52 kcal/mol
 """,
 )
 
@@ -6388,11 +7922,19 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.730745,-0.582157,-0.429314,-0.292964,-0.116339,0.0214841,0.286705],'cal/(mol*K)','+|-',[0.582196,0.641692,0.683026,0.679202,0.571656,0.453357,0.671468]),
+        H298 = (5.18476,'kcal/mol','+|-',2.5042),
+        S298 = (1.40973,'cal/(mol*K)','+|-',1.92131),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1Cl smiles:OC1(Cl)[C](Cl)C1Cl H298:9.72 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1(Cl)Cl smiles:OC1(Cl)[C](Cl)C1(Cl)Cl H298:6.51 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C[C]1Cl smiles:OC1(Cl)C[C]1Cl H298:14.10 kcal/mol
 """,
 )
 
@@ -6408,11 +7950,19 @@ entry(
 5    O2s u0 p2 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.47215,-0.297918,-0.191319,-0.115348,-0.0141981,0.092452,0.314713],'cal/(mol*K)','+|-',[0.576669,0.6356,0.676542,0.672754,0.566229,0.449053,0.665094]),
+        H298 = (6.43601,'kcal/mol','+|-',2.48043),
+        S298 = (1.41946,'cal/(mol*K)','+|-',1.90307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)[C](F)C1(F)F smiles:OC1(F)[C](F)C1(F)F H298:-146.52 kcal/mol
+library:CHOF_G4 label:OC1(F)C[C]1F smiles:OC1(F)C[C]1F H298:-63.07 kcal/mol
+library:CHOF_G4 label:OC1(F)[C](F)C1F smiles:OC1(F)[C](F)C1F H298:-101.15 kcal/mol
 """,
 )
 
@@ -6450,11 +8000,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.256753,-0.557636,-0.872113,-1.14323,-0.966413,-0.864251,-0.487313],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (5.68971,'kcal/mol','+|-',2.98523),
+        S298 = (3.4975,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:ODC1C(Br)C1Br smiles:O=C1C(Br)C1Br H298:20.90 kcal/mol
 """,
 )
 
@@ -6471,11 +8027,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.18186,-0.0774975,-0.445446,-0.82509,-0.782155,-0.723086,-0.401579],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (6.11139,'kcal/mol','+|-',2.98523),
+        S298 = (3.50089,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ODC1C(Cl)C1Cl smiles:O=C1C(Cl)C1Cl H298:-0.08 kcal/mol
 """,
 )
 
@@ -6492,11 +8054,17 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.532305,0.3279,-0.0796423,-0.454273,-0.408091,-0.383106,-0.15203],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (9.67791,'kcal/mol','+|-',2.98523),
+        S298 = (3.04615,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:ODC1C(F)C1F smiles:O=C1C(F)C1F H298:-70.75 kcal/mol
 """,
 )
 
@@ -6534,11 +8102,19 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.80577,-3.07903,-3.39609,-3.66873,-3.43355,-3.01446,-5.17485],'cal/(mol*K)','+|-',[1.06015,1.16849,1.24375,1.23679,1.04096,0.825539,1.22271]),
+        H298 = (5.53923,'kcal/mol','+|-',4.56002),
+        S298 = (12.1475,'cal/(mol*K)','+|-',3.49861),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C](Br)C1(Br)OC1Br smiles:Br[C](Br)C1(Br)OC1Br H298:40.99 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)OC1Br smiles:[CH2]C1(Br)OC1Br H298:32.52 kcal/mol
+library:CHOBr_G4 label:Br[CH]C1(Br)OC1Br smiles:Br[CH]C1(Br)OC1Br H298:36.77 kcal/mol
 """,
 )
 
@@ -6555,11 +8131,19 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.9424,-2.90683,-3.12331,-3.31301,-3.05586,-2.64607,-4.79381],'cal/(mol*K)','+|-',[1.06015,1.16849,1.24375,1.23679,1.04096,0.825539,1.22271]),
+        H298 = (6.57188,'kcal/mol','+|-',4.56002),
+        S298 = (11.3373,'cal/(mol*K)','+|-',3.49861),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[CH]C1(Cl)OC1Cl smiles:Cl[CH]C1(Cl)OC1Cl H298:0.72 kcal/mol
+library:CHOCl_G4 label:Cl[C](Cl)C1(Cl)OC1Cl smiles:Cl[C](Cl)C1(Cl)OC1Cl H298:-5.39 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)OC1Cl smiles:[CH2]C1(Cl)OC1Cl H298:7.50 kcal/mol
 """,
 )
 
@@ -6597,11 +8181,19 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.309918,-0.598703,-0.664265,-0.684144,-0.680956,-0.566913,-0.17035],'cal/(mol*K)','+|-',[0.411745,0.453823,0.483055,0.48035,0.404291,0.320627,0.474881]),
+        H298 = (5.49321,'kcal/mol','+|-',1.77104),
+        S298 = (4.60216,'cal/(mol*K)','+|-',1.35881),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC(Br)C1(Br)CC1(Br)Br smiles:BrC(Br)C1(Br)CC1(Br)Br H298:42.05 kcal/mol
+library:CHOBr_G4 label:CC1(Br)C(Br)C1(Br)Br smiles:CC1(Br)C(Br)C1(Br)Br H298:30.88 kcal/mol
+library:CHOBr_G4 label:CC1(Br)CC1(Br)Br smiles:CC1(Br)CC1(Br)Br H298:24.20 kcal/mol
 """,
 )
 
@@ -6618,11 +8210,22 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.387751,-0.582045,-0.590618,-0.584213,-0.544388,-0.390162,0.060055],'cal/(mol*K)','+|-',[0.245512,0.270602,0.288032,0.28642,0.241068,0.191181,0.283158]),
+        H298 = (3.95142,'kcal/mol','+|-',1.05602),
+        S298 = (3.3853,'cal/(mol*K)','+|-',0.810219),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)C(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)C1(Cl)Cl H298:-14.43 kcal/mol
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)CC1(Cl)Cl smiles:ClC(Cl)C1(Cl)CC1(Cl)Cl H298:-15.33 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)CC1(Cl)Cl smiles:CC1(Cl)CC1(Cl)Cl H298:-10.66 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)CC1(Cl)Cl smiles:ClCC1(Cl)CC1(Cl)Cl H298:-14.47 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)(Cl)C1(Cl)Cl smiles:CC1(Cl)C(Cl)(Cl)C1(Cl)Cl H298:-15.48 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298:-17.43 kcal/mol
 """,
 )
 
@@ -6639,11 +8242,22 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    Cs  u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.508537,-0.562465,-0.435307,-0.332349,-0.17396,0.0295643,0.459956],'cal/(mol*K)','+|-',[0.24057,0.265155,0.282234,0.280654,0.236215,0.187332,0.277458]),
+        H298 = (7.99075,'kcal/mol','+|-',1.03476),
+        S298 = (2.99401,'cal/(mol*K)','+|-',0.793909),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC(F)C1(F)CC1(F)F smiles:FC(F)C1(F)CC1(F)F H298:-222.60 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)(F)C1(F)F smiles:CC1(F)C(F)(F)C1(F)F H298:-213.21 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)C1(F)F smiles:CC1(F)C(F)C1(F)F H298:-169.15 kcal/mol
+library:CHOF_G4 label:FCC1(F)CC1(F)F smiles:FCC1(F)CC1(F)F H298:-172.09 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)C1(F)F smiles:FCC1(F)C(F)C1(F)F H298:-206.91 kcal/mol
+library:CHOF_G4 label:CC1(F)CC1(F)F smiles:CC1(F)CC1(F)F H298:-131.70 kcal/mol
 """,
 )
 
@@ -6681,11 +8295,18 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.731226,-0.94314,-0.974298,-0.971481,-0.833216,-0.668017,-0.123252],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (3.2615,'kcal/mol','+|-',2.98523),
+        S298 = (3.78992,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:CDC1C(Br)(Br)C1(Br)Br smiles:C=C1C(Br)(Br)C1(Br)Br H298:75.08 kcal/mol
+library:CHOBr_G4 label:[CH]DC1C(Br)(Br)C1(Br)Br smiles:[CH]=C1C(Br)(Br)C1(Br)Br H298:131.28 kcal/mol
 """,
 )
 
@@ -6702,11 +8323,19 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.804509,-0.908365,-0.825136,-0.816022,-0.741732,-0.561139,0.240794],'cal/(mol*K)','+|-',[0.490754,0.540905,0.575746,0.572523,0.481869,0.382151,0.566004]),
+        H298 = (4.59135,'kcal/mol','+|-',2.11088),
+        S298 = (3.56906,'cal/(mol*K)','+|-',1.61954),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClCDC1C(Cl)(Cl)C1(Cl)Cl smiles:ClC=C1C(Cl)(Cl)C1(Cl)Cl H298:24.95 kcal/mol
+library:CHOCl_G4 label:CDC1C(Cl)(Cl)C1(Cl)Cl smiles:C=C1C(Cl)(Cl)C1(Cl)Cl H298:30.70 kcal/mol
+library:CHOCl_G4 label:[CH]DC1C(Cl)(Cl)C1(Cl)Cl smiles:[CH]=C1C(Cl)(Cl)C1(Cl)Cl H298:86.70 kcal/mol
 """,
 )
 
@@ -6723,11 +8352,20 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.678747,-0.617168,-0.406659,-0.330694,-0.228433,-0.059872,0.609349],'cal/(mol*K)','+|-',[0.490754,0.540905,0.575746,0.572523,0.481869,0.382151,0.566004]),
+        H298 = (13.0624,'kcal/mol','+|-',2.11088),
+        S298 = (3.365,'cal/(mol*K)','+|-',1.61954),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]DC1C(F)(F)C1(F)F smiles:F[C]=C1C(F)(F)C1(F)F H298:-114.92 kcal/mol
+library:CHOF_G4 label:[CH]DC1C(F)(F)C1(F)F smiles:[CH]=C1C(F)(F)C1(F)F H298:-73.50 kcal/mol
+library:CHOF_G4 label:FCDC1C(F)(F)C1(F)F smiles:FC=C1C(F)(F)C1(F)F H298:-172.90 kcal/mol
+library:CHOF_G4 label:CDC1C(F)(F)C1(F)F smiles:C=C1C(F)(F)C1(F)F H298:-129.13 kcal/mol
 """,
 )
 
@@ -6765,11 +8403,19 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.435218,-0.574827,-0.585069,-0.589052,-0.561489,-0.430836,-0.0132777],'cal/(mol*K)','+|-',[0.302785,0.333728,0.355224,0.353235,0.297304,0.235779,0.349213]),
+        H298 = (3.39021,'kcal/mol','+|-',1.30237),
+        S298 = (2.44881,'cal/(mol*K)','+|-',0.999226),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)C(Br)C1(Br)Br smiles:OC1(Br)C(Br)C1(Br)Br H298:2.55 kcal/mol
+library:CHOBr_G4 label:OC1(Br)CC1Br smiles:OC1(Br)CC1Br H298:-15.15 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)C1Br smiles:OC1(Br)C(Br)C1Br H298:-7.47 kcal/mol
 """,
 )
 
@@ -6786,11 +8432,19 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.647868,-0.991832,-1.02314,-0.971382,-0.800726,-0.521717,0.140046],'cal/(mol*K)','+|-',[0.605438,0.667309,0.710293,0.706316,0.594477,0.471456,0.698274]),
+        H298 = (6.97378,'kcal/mol','+|-',2.60417),
+        S298 = (4.79193,'cal/(mol*K)','+|-',1.99802),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)C(Cl)C1(Cl)Cl smiles:OC1(Cl)C(Cl)C1(Cl)Cl H298:-42.76 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)CC1Cl smiles:OC1(Cl)CC1Cl H298:-38.38 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C(Cl)C1Cl smiles:OC1(Cl)C(Cl)C1Cl H298:-41.51 kcal/mol
 """,
 )
 
@@ -6807,11 +8461,19 @@ entry(
 6    O2s u0 p2 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.257168,-0.374889,-0.391623,-0.360072,-0.253761,-0.107108,0.199735],'cal/(mol*K)','+|-',[0.294078,0.32413,0.345009,0.343077,0.288754,0.228999,0.339171]),
+        H298 = (5.43987,'kcal/mol','+|-',1.26492),
+        S298 = (2.17653,'cal/(mol*K)','+|-',0.970491),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)C(F)C1F smiles:OC1(F)C(F)C1F H298:-155.55 kcal/mol
+library:CHOF_G4 label:OC1(F)CC1F smiles:OC1(F)CC1F H298:-117.59 kcal/mol
+library:CHOF_G4 label:OC1(F)C(F)C1(F)F smiles:OC1(F)C(F)C1(F)F H298:-199.77 kcal/mol
 """,
 )
 
@@ -6849,11 +8511,18 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.541777,-0.133492,-0.398226,-0.535352,-0.606504,-0.511246,-0.111961],'cal/(mol*K)','+|-',[0.770471,0.849207,0.903907,0.898847,0.756523,0.599967,0.888612]),
+        H298 = (7.0409,'kcal/mol','+|-',3.31403),
+        S298 = (4.90091,'cal/(mol*K)','+|-',2.54264),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)[C](Br)C1(Br)Br smiles:OC1(Br)[C](Br)C1(Br)Br H298:50.51 kcal/mol
+library:CHOBr_G4 label:OC1(Br)[CH]C1(Br)Br smiles:OC1(Br)[CH]C1(Br)Br H298:48.30 kcal/mol
 """,
 )
 
@@ -6870,11 +8539,18 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    O2s u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.707476,0.146538,-0.0309724,-0.0430658,0.0411958,0.262889,0.838009],'cal/(mol*K)','+|-',[1.25744,1.38594,1.47521,1.46695,1.23468,0.97917,1.45025]),
+        H298 = (22.5949,'kcal/mol','+|-',5.40863),
+        S298 = (4.5215,'cal/(mol*K)','+|-',4.14969),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)[C](F)C1(F)F smiles:OC1(F)[C](F)C1(F)F H298:-146.52 kcal/mol
+library:CHOF_G4 label:OC1(F)[CH]C1(F)F smiles:OC1(F)[CH]C1(F)F H298:-107.36 kcal/mol
 """,
 )
 
@@ -6912,11 +8588,18 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Cs   u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.413415,0.0468343,-0.143015,-0.260987,-0.400886,-0.366184,-0.0385242],'cal/(mol*K)','+|-',[0.648725,0.71502,0.761077,0.756816,0.636981,0.505163,0.748199]),
+        H298 = (4.93435,'kcal/mol','+|-',2.79036),
+        S298 = (3.9056,'cal/(mol*K)','+|-',2.14087),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1(Br)Br smiles:[CH2]C1(Br)C(Br)C1(Br)Br H298:77.97 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)CC1(Br)Br smiles:[CH2]C1(Br)CC1(Br)Br H298:71.67 kcal/mol
 """,
 )
 
@@ -6933,11 +8616,19 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cs   u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.205381,-0.0914395,-0.180864,-0.233094,-0.329301,-0.183616,0.388195],'cal/(mol*K)','+|-',[0.970426,1.0696,1.13849,1.13212,0.952858,0.755673,1.11923]),
+        H298 = (6.57937,'kcal/mol','+|-',4.1741),
+        S298 = (5.30251,'cal/(mol*K)','+|-',3.20252),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:[CH2]C1(Cl)C(Cl)C1(Cl)Cl smiles:[CH2]C1(Cl)C(Cl)C1(Cl)Cl H298:32.74 kcal/mol
+library:CHOCl_G4 label:Cl[CH]C1(Cl)CC1(Cl)Cl smiles:Cl[CH]C1(Cl)CC1(Cl)Cl H298:27.98 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)CC1(Cl)Cl smiles:[CH2]C1(Cl)CC1(Cl)Cl H298:36.44 kcal/mol
 """,
 )
 
@@ -6954,11 +8645,21 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    Cs  u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0724262,-0.0524623,0.0346236,0.0833824,0.125238,0.255086,0.569638],'cal/(mol*K)','+|-',[0.346278,0.381665,0.406249,0.403975,0.340009,0.269647,0.399375]),
+        H298 = (7.3346,'kcal/mol','+|-',1.48945),
+        S298 = (2.67753,'cal/(mol*K)','+|-',1.14276),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1(F)F smiles:[CH2]C1(F)C(F)C1(F)F H298:-122.05 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)C(F)(F)C1(F)F smiles:[CH2]C1(F)C(F)(F)C1(F)F H298:-166.12 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)CC1(F)F smiles:[CH2]C1(F)CC1(F)F H298:-84.82 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1(F)F smiles:F[CH]C1(F)C(F)C1(F)F H298:-163.39 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)CC1(F)F smiles:F[C](F)C1(F)CC1(F)F H298:-175.47 kcal/mol
 """,
 )
 
@@ -6994,11 +8695,17 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.48069,-2.99166,-3.11829,-3.21734,-2.74895,-2.29983,-4.91479],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (12.0654,'kcal/mol','+|-',8.4435),
+        S298 = (7.20842,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)O[C]1Br smiles:OC1(Br)O[C]1Br H298:0.33 kcal/mol
 """,
 )
 
@@ -7014,11 +8721,17 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.63985,-3.14713,-3.19278,-3.19843,-2.56085,-2.02708,-4.47371],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (12.8745,'kcal/mol','+|-',8.4435),
+        S298 = (6.849,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)O[C]1Cl smiles:OC1(Cl)O[C]1Cl H298:-23.71 kcal/mol
 """,
 )
 
@@ -7034,11 +8747,17 @@ entry(
 5    O2s u0 p2 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.11136,-1.98309,-1.6407,-1.59023,-1.01161,-0.619022,-3.46605],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (15.6091,'kcal/mol','+|-',8.4435),
+        S298 = (5.09852,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)O[C]1F smiles:OC1(F)O[C]1F H298:-107.07 kcal/mol
 """,
 )
 
@@ -7076,11 +8795,17 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0506977,-0.513242,-0.959619,-1.28234,-1.15179,-1.0637,-0.798058],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (7.35232,'kcal/mol','+|-',2.98523),
+        S298 = (4.57411,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:ODC1C(Br)(Br)C1(Br)Br smiles:O=C1C(Br)(Br)C1(Br)Br H298:39.74 kcal/mol
 """,
 )
 
@@ -7097,11 +8822,17 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0430368,-0.367071,-0.794554,-1.15573,-1.06877,-0.950185,-0.415343],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (8.83092,'kcal/mol','+|-',2.98523),
+        S298 = (3.67368,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ODC1C(Cl)(Cl)C1(Cl)Cl smiles:O=C1C(Cl)(Cl)C1(Cl)Cl H298:-3.30 kcal/mol
 """,
 )
 
@@ -7118,11 +8849,17 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.3827,0.0380549,-0.19925,-0.472837,-0.490349,-0.471259,-0.020801],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (19.9234,'kcal/mol','+|-',2.98523),
+        S298 = (3.91361,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:ODC1C(F)(F)C1(F)F smiles:O=C1C(F)(F)C1(F)F H298:-158.09 kcal/mol
 """,
 )
 
@@ -7160,11 +8897,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.66062,-1.60668,-1.76947,-1.95767,-1.86528,-1.66696,-2.86079],'cal/(mol*K)','+|-',[0.69403,0.764954,0.814228,0.809669,0.681465,0.540442,0.80045]),
+        H298 = (1.81073,'kcal/mol','+|-',2.98523),
+        S298 = (4.15488,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1OC1Br smiles:BrC1OC1Br H298:-3.99 kcal/mol
 """,
 )
 
@@ -7181,11 +8924,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.51911,-1.4655,-1.63706,-1.80787,-1.703,-1.53279,-2.7918],'cal/(mol*K)','+|-',[0.69403,0.764954,0.814228,0.809669,0.681465,0.540442,0.80045]),
+        H298 = (1.80514,'kcal/mol','+|-',2.98523),
+        S298 = (4.01338,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1OC1Cl smiles:ClC1OC1Cl H298:-28.67 kcal/mol
 """,
 )
 
@@ -7202,11 +8951,17 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.04465,-0.950035,-1.13748,-1.34787,-1.30438,-1.19189,-2.60966],'cal/(mol*K)','+|-',[0.69403,0.764954,0.814228,0.809669,0.681465,0.540442,0.80045]),
+        H298 = (3.35164,'kcal/mol','+|-',2.98523),
+        S298 = (3.42854,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1OC1F smiles:FC1OC1F H298:-113.69 kcal/mol
 """,
 )
 
@@ -7242,11 +8997,23 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.873171,-0.934591,-0.858873,-0.755761,-0.5742,-0.387141,-0.0327787],'cal/(mol*K)','+|-',[0.238724,0.263119,0.280068,0.2785,0.234402,0.185894,0.275329]),
+        H298 = (-0.35964,'kcal/mol','+|-',1.02682),
+        S298 = (3.47923,'cal/(mol*K)','+|-',0.787816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(C(Br)Br)C1(Br)Br smiles:BrC1=C(C(Br)Br)C1(Br)Br H298:83.78 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C1(Br)Br smiles:BrC1=C(Br)C1(Br)Br H298:84.19 kcal/mol
+library:CHOBr_G4 label:BrCC1DC(Br)C1(Br)Br smiles:BrCC1=C(Br)C1(Br)Br H298:74.69 kcal/mol
+library:CHOBr_G4 label:CC1DC(Br)C1(Br)Br smiles:CC1=C(Br)C1(Br)Br H298:65.13 kcal/mol
+library:CHOBr_G4 label:OC1DC(Br)C1(Br)Br smiles:OC1=C(Br)C1(Br)Br H298:38.55 kcal/mol
+library:CHOBr_G4 label:BrC1DCC1(Br)Br smiles:BrC1=CC1(Br)Br H298:79.14 kcal/mol
+library:CHOBr_G4 label:[CH2]C1DC(Br)C1(Br)Br smiles:[CH2]C1=C(Br)C1(Br)Br H298:101.99 kcal/mol
 """,
 )
 
@@ -7262,11 +9029,22 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.54815,-1.54454,-1.39451,-1.25179,-0.977309,-0.6086,0.277221],'cal/(mol*K)','+|-',[0.508223,0.56016,0.596242,0.592904,0.499023,0.395755,0.586153]),
+        H298 = (0.601229,'kcal/mol','+|-',2.18602),
+        S298 = (5.58493,'cal/(mol*K)','+|-',1.6772),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C1(Cl)Cl smiles:ClC1=C(Cl)C1(Cl)Cl H298:39.98 kcal/mol
+library:CHOCl_G4 label:OC1DC(Cl)C1(Cl)Cl smiles:OC1=C(Cl)C1(Cl)Cl H298:5.30 kcal/mol
+library:CHOCl_G4 label:[CH2]C1DC(Cl)C1(Cl)Cl smiles:[CH2]C1=C(Cl)C1(Cl)Cl H298:69.10 kcal/mol
+library:CHOCl_G4 label:ClC1DCC1(Cl)Cl smiles:ClC1=CC1(Cl)Cl H298:44.96 kcal/mol
+library:CHOCl_G4 label:ClC1DC(C(Cl)Cl)C1(Cl)Cl smiles:ClC1=C(C(Cl)Cl)C1(Cl)Cl H298:28.92 kcal/mol
+library:CHOCl_G4 label:CC1DC(Cl)C1(Cl)Cl smiles:CC1=C(Cl)C1(Cl)Cl H298:31.73 kcal/mol
 """,
 )
 
@@ -7282,11 +9060,25 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.00689,-0.861762,-0.658207,-0.498428,-0.265137,-0.0551843,0.378778],'cal/(mol*K)','+|-',[0.238513,0.262887,0.279821,0.278254,0.234195,0.185731,0.275086]),
+        H298 = (3.54426,'kcal/mol','+|-',1.02592),
+        S298 = (2.3373,'cal/(mol*K)','+|-',0.787121),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DCC1(F)F smiles:FC1=CC1(F)F H298:-74.86 kcal/mol
+library:CHOF_G4 label:F[CH]C1DC(F)C1(F)F smiles:F[CH]C1=C(F)C1(F)F H298:-88.66 kcal/mol
+library:CHOF_G4 label:FCC1DC(F)C1(F)F smiles:FCC1=C(F)C1(F)F H298:-124.05 kcal/mol
+library:CHOF_G4 label:F[C](F)C1DC(F)C1(F)F smiles:F[C](F)C1=C(F)C1(F)F H298:-133.95 kcal/mol
+library:CHOF_G4 label:OC1DC(F)C1(F)F smiles:OC1=C(F)C1(F)F H298:-112.71 kcal/mol
+library:CHOF_G4 label:CC1DC(F)C1(F)F smiles:CC1=C(F)C1(F)F H298:-86.34 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1(F)F smiles:FC1=C(F)C1(F)F H298:-111.26 kcal/mol
+library:CHOF_G4 label:FC1DC(C(F)F)C1(F)F smiles:FC1=C(C(F)F)C1(F)F H298:-173.81 kcal/mol
+library:CHOF_G4 label:[CH2]C1DC(F)C1(F)F smiles:[CH2]C1=C(F)C1(F)F H298:-46.79 kcal/mol
 """,
 )
 
@@ -7324,11 +9116,21 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.552206,0.445171,0.363102,0.254796,0.0590491,0.018891,0.177896],'cal/(mol*K)','+|-',[0.389578,0.429391,0.457049,0.45449,0.382526,0.303365,0.449315]),
+        H298 = (2.4478,'kcal/mol','+|-',1.67569),
+        S298 = (3.85512,'cal/(mol*K)','+|-',1.28565),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC(Br)C1(Br)[CH]C1Br smiles:BrC(Br)C1(Br)[CH]C1Br H298:82.67 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[C](Br)C1Br smiles:CC1(Br)[C](Br)C1Br H298:71.46 kcal/mol
+library:CHOBr_G4 label:CC1(Br)[CH]C1Br smiles:CC1(Br)[CH]C1Br H298:69.36 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.03 kcal/mol
+library:CHOBr_G4 label:BrCC1(Br)[CH]C1Br smiles:BrCC1(Br)[CH]C1Br H298:75.73 kcal/mol
 """,
 )
 
@@ -7345,11 +9147,23 @@ entry(
 6    Cs  u0 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.112047,0.274138,0.382153,0.407604,0.394517,0.419403,0.593439],'cal/(mol*K)','+|-',[0.342077,0.377035,0.401321,0.399074,0.335884,0.266376,0.39453]),
+        H298 = (5.62601,'kcal/mol','+|-',1.47138),
+        S298 = (1.77744,'cal/(mol*K)','+|-',1.12889),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:CC1(F)[C](F)C1F smiles:CC1(F)[C](F)C1F H298:-69.54 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C1(F)C(F)F smiles:F[C]1C(F)C1(F)C(F)F H298:-159.06 kcal/mol
+library:CHOF_G4 label:FC(F)C1(F)[CH]C1F smiles:FC(F)C1(F)[CH]C1F H298:-120.56 kcal/mol
+library:CHOF_G4 label:FC1[CH]C1(F)C(F)(F)F smiles:FC1[CH]C1(F)C(F)(F)F H298:-177.67 kcal/mol
+library:CHOF_G4 label:FCC1(F)[CH]C1F smiles:FCC1(F)[CH]C1F H298:-69.36 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1F smiles:FCC1(F)[C](F)C1F H298:-109.98 kcal/mol
+library:CHOF_G4 label:CC1(F)[CH]C1F smiles:CC1(F)[CH]C1F H298:-28.24 kcal/mol
 """,
 )
 
@@ -7387,11 +9201,18 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Cs   u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.413415,0.0468343,-0.143015,-0.260987,-0.400886,-0.366184,-0.0385242],'cal/(mol*K)','+|-',[0.648725,0.71502,0.761077,0.756816,0.636981,0.505163,0.748199]),
+        H298 = (4.93435,'kcal/mol','+|-',2.79036),
+        S298 = (3.9056,'cal/(mol*K)','+|-',2.14087),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1(Br)Br smiles:[CH2]C1(Br)C(Br)C1(Br)Br H298:77.97 kcal/mol
+library:CHOBr_G4 label:[CH2]C1(Br)CC1(Br)Br smiles:[CH2]C1(Br)CC1(Br)Br H298:71.67 kcal/mol
 """,
 )
 
@@ -7408,11 +9229,21 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    Cs  u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0724262,-0.0524623,0.0346236,0.0833824,0.125238,0.255086,0.569638],'cal/(mol*K)','+|-',[0.346278,0.381665,0.406249,0.403975,0.340009,0.269647,0.399375]),
+        H298 = (7.3346,'kcal/mol','+|-',1.48945),
+        S298 = (2.67753,'cal/(mol*K)','+|-',1.14276),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)C(F)C1(F)F smiles:[CH2]C1(F)C(F)C1(F)F H298:-122.05 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)C(F)(F)C1(F)F smiles:[CH2]C1(F)C(F)(F)C1(F)F H298:-166.12 kcal/mol
+library:CHOF_G4 label:[CH2]C1(F)CC1(F)F smiles:[CH2]C1(F)CC1(F)F H298:-84.82 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)C(F)C1(F)F smiles:F[CH]C1(F)C(F)C1(F)F H298:-163.39 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)CC1(F)F smiles:F[C](F)C1(F)CC1(F)F H298:-175.47 kcal/mol
 """,
 )
 
@@ -7448,11 +9279,17 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.39664,-2.14933,-1.78247,-1.44878,-1.00226,-0.611179,0.0991765],'cal/(mol*K)','+|-',[1.46788,1.61788,1.7221,1.71246,1.4413,1.14304,1.69296]),
+        H298 = (2.67903,'kcal/mol','+|-',6.31378),
+        S298 = (6.23413,'cal/(mol*K)','+|-',4.84417),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1D[C]C1(Br)Br smiles:BrC1=[C]C1(Br)Br H298:137.14 kcal/mol
 """,
 )
 
@@ -7468,11 +9305,17 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.19593,-1.93624,-1.53975,-1.23496,-0.834048,-0.430752,0.448288],'cal/(mol*K)','+|-',[1.47817,1.62923,1.73418,1.72447,1.45141,1.15106,1.70483]),
+        H298 = (3.68654,'kcal/mol','+|-',6.35807),
+        S298 = (4.88891,'cal/(mol*K)','+|-',4.87815),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]C1(Cl)Cl smiles:ClC1=[C]C1(Cl)Cl H298:102.64 kcal/mol
 """,
 )
 
@@ -7488,11 +9331,17 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.55402,-2.03056,-1.51119,-1.06706,-0.471802,0.00461146,0.925794],'cal/(mol*K)','+|-',[1.46774,1.61773,1.72194,1.7123,1.44117,1.14293,1.6928]),
+        H298 = (11.1041,'kcal/mol','+|-',6.31319),
+        S298 = (4.06476,'cal/(mol*K)','+|-',4.84371),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C1(F)F smiles:FC1=[C]C1(F)F H298:-16.25 kcal/mol
 """,
 )
 
@@ -7530,11 +9379,17 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.07911,-2.89292,-3.28605,-3.63984,-3.49251,-3.1918,-5.71722],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (4.90482,'kcal/mol','+|-',5.97046),
+        S298 = (10.5328,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1OC1(Br)Br smiles:BrC1OC1(Br)Br H298:4.42 kcal/mol
 """,
 )
 
@@ -7551,11 +9406,17 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.74409,-2.60381,-3.0069,-3.33236,-3.15043,-2.86071,-5.47296],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (5.07149,'kcal/mol','+|-',5.97046),
+        S298 = (9.93267,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1OC1(Cl)Cl smiles:ClC1OC1(Cl)Cl H298:-32.24 kcal/mol
 """,
 )
 
@@ -7572,11 +9433,17 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.31536,-2.02657,-2.16082,-2.43868,-2.23627,-1.98484,-4.82641],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (12.0431,'kcal/mol','+|-',5.97046),
+        S298 = (8.18691,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1OC1(F)F smiles:FC1OC1(F)F H298:-163.98 kcal/mol
 """,
 )
 
@@ -7614,11 +9481,19 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.435218,-0.574827,-0.585069,-0.589052,-0.561489,-0.430836,-0.0132777],'cal/(mol*K)','+|-',[0.302785,0.333728,0.355224,0.353235,0.297304,0.235779,0.349213]),
+        H298 = (3.39021,'kcal/mol','+|-',1.30237),
+        S298 = (2.44881,'cal/(mol*K)','+|-',0.999226),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:OC1(Br)C(Br)C1(Br)Br smiles:OC1(Br)C(Br)C1(Br)Br H298:2.55 kcal/mol
+library:CHOBr_G4 label:OC1(Br)CC1Br smiles:OC1(Br)CC1Br H298:-15.15 kcal/mol
+library:CHOBr_G4 label:OC1(Br)C(Br)C1Br smiles:OC1(Br)C(Br)C1Br H298:-7.47 kcal/mol
 """,
 )
 
@@ -7635,11 +9510,19 @@ entry(
 6    O2s u0 p2 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.257168,-0.374889,-0.391623,-0.360072,-0.253761,-0.107108,0.199735],'cal/(mol*K)','+|-',[0.294078,0.32413,0.345009,0.343077,0.288754,0.228999,0.339171]),
+        H298 = (5.43987,'kcal/mol','+|-',1.26492),
+        S298 = (2.17653,'cal/(mol*K)','+|-',0.970491),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:OC1(F)C(F)C1F smiles:OC1(F)C(F)C1F H298:-155.55 kcal/mol
+library:CHOF_G4 label:OC1(F)CC1F smiles:OC1(F)CC1F H298:-117.59 kcal/mol
+library:CHOF_G4 label:OC1(F)C(F)C1(F)F smiles:OC1(F)C(F)C1(F)F H298:-199.77 kcal/mol
 """,
 )
 
@@ -7677,11 +9560,17 @@ entry(
 6    Br1s u0 p3 c0 {2,S}
 7    Cs   u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.91527,-3.39992,-3.81843,-4.0907,-3.80315,-3.3532,-5.38901],'cal/(mol*K)','+|-',[1.60279,1.76659,1.88038,1.86985,1.57378,1.2481,1.84856]),
+        H298 = (3.85897,'kcal/mol','+|-',6.89409),
+        S298 = (11.3068,'cal/(mol*K)','+|-',5.2894),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:[CH2]C1(Br)OC1(Br)Br smiles:[CH2]C1(Br)OC1(Br)Br H298:39.95 kcal/mol
 """,
 )
 
@@ -7698,11 +9587,18 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cs   u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.78477,-2.76331,-3.03744,-3.28485,-3.038,-2.62422,-4.78507],'cal/(mol*K)','+|-',[1.26712,1.39661,1.48657,1.47825,1.24418,0.986708,1.46142]),
+        H298 = (5.5149,'kcal/mol','+|-',5.45026),
+        S298 = (10.9242,'cal/(mol*K)','+|-',4.18164),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[CH]C1(Cl)OC1(Cl)Cl smiles:Cl[CH]C1(Cl)OC1(Cl)Cl H298:-3.53 kcal/mol
+library:CHOCl_G4 label:[CH2]C1(Cl)OC1(Cl)Cl smiles:[CH2]C1(Cl)OC1(Cl)Cl H298:3.30 kcal/mol
 """,
 )
 
@@ -7719,11 +9615,19 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    Cs  u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.80967,-2.43471,-2.47201,-2.6236,-2.23886,-1.73419,-3.91626],'cal/(mol*K)','+|-',[1.13335,1.24917,1.32963,1.32218,1.11283,0.882539,1.30713]),
+        H298 = (15.0207,'kcal/mol','+|-',4.87486),
+        S298 = (8.75881,'cal/(mol*K)','+|-',3.74017),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)OC1(F)F smiles:[CH2]C1(F)OC1(F)F H298:-129.43 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)OC1(F)F smiles:F[C](F)C1(F)OC1(F)F H298:-216.61 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)OC1(F)F smiles:F[CH]C1(F)OC1(F)F H298:-169.29 kcal/mol
 """,
 )
 
@@ -7759,11 +9663,18 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.67799,-1.35515,-0.915198,-0.694165,-0.565855,-0.282752,0.34777],'cal/(mol*K)','+|-',[1.06606,1.175,1.25069,1.24368,1.04676,0.830141,1.22952]),
+        H298 = (4.5302,'kcal/mol','+|-',4.58544),
+        S298 = (5.81413,'cal/(mol*K)','+|-',3.51812),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClCC1(Cl)[C]DC1Cl smiles:ClCC1(Cl)[C]=C1Cl H298:94.08 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)[C]DC1Cl smiles:CC1(Cl)[C]=C1Cl H298:97.96 kcal/mol
 """,
 )
 
@@ -7801,11 +9712,20 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.62928,-1.68971,-1.50825,-1.43126,-1.23492,-0.940007,0.462086],'cal/(mol*K)','+|-',[0.981507,1.08181,1.15149,1.14505,0.963738,0.764301,1.13201]),
+        H298 = (7.10335,'kcal/mol','+|-',4.22176),
+        S298 = (8.68118,'cal/(mol*K)','+|-',3.23909),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CDC1C(Cl)C1(Cl)Cl smiles:C=C1C(Cl)C1(Cl)Cl H298:33.01 kcal/mol
+library:CHOCl_G4 label:ClCDC1C(Cl)C1(Cl)Cl smiles:ClC=C1C(Cl)C1(Cl)Cl H298:27.15 kcal/mol
+library:CHOCl_G4 label:Cl[C]DC1C(Cl)C1(Cl)Cl smiles:Cl[C]=C1C(Cl)C1(Cl)Cl H298:80.82 kcal/mol
+library:CHOCl_G4 label:[CH]DC1C(Cl)C1(Cl)Cl smiles:[CH]=C1C(Cl)C1(Cl)Cl H298:88.69 kcal/mol
 """,
 )
 
@@ -7822,11 +9742,21 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.67302,-0.563322,-0.344209,-0.244085,-0.161688,-0.0584151,0.550238],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (8.95487,'kcal/mol','+|-',1.72353),
+        S298 = (4.08474,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH]DC1C(F)C1(F)F smiles:[CH]=C1C(F)C1(F)F H298:-27.97 kcal/mol
+library:CHOF_G4 label:CDC1C(F)C1(F)F smiles:C=C1C(F)C1(F)F H298:-83.20 kcal/mol
+library:CHOF_G4 label:F[C]DC1C(F)C1(F)F smiles:F[C]=C1C(F)C1(F)F H298:-69.31 kcal/mol
+library:CHOF_G4 label:FC(F)DC1C(F)C1(F)F smiles:FC(F)=C1C(F)C1(F)F H298:-175.77 kcal/mol
+library:CHOF_G4 label:FCDC1C(F)C1(F)F smiles:FC=C1C(F)C1(F)F H298:-127.42 kcal/mol
 """,
 )
 
@@ -7862,11 +9792,17 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.06803,-1.69093,-1.35205,-1.03664,-0.625273,-0.246521,0.532612],'cal/(mol*K)','+|-',[1.45964,1.6088,1.71243,1.70285,1.43322,1.13662,1.68346]),
+        H298 = (5.17064,'kcal/mol','+|-',6.27835),
+        S298 = (5.53078,'cal/(mol*K)','+|-',4.81698),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]C1Cl smiles:ClC1=[C]C1Cl H298:109.27 kcal/mol
 """,
 )
 
@@ -7902,11 +9838,18 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.85628,-1.74337,-1.71556,-1.76619,-1.59895,-1.36098,-2.40878],'cal/(mol*K)','+|-',[0.601048,0.66247,0.705142,0.701194,0.590167,0.468037,0.69321]),
+        H298 = (7.2461,'kcal/mol','+|-',2.58529),
+        S298 = (4.47782,'cal/(mol*K)','+|-',1.98353),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:CC1(Cl)O[C]1Cl smiles:CC1(Cl)O[C]1Cl H298:8.92 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)O[C]1Cl smiles:ClCC1(Cl)O[C]1Cl H298:6.42 kcal/mol
 """,
 )
 
@@ -7942,11 +9885,22 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.549959,-0.525325,-0.444794,-0.395951,-0.353602,-0.2154,0.0873492],'cal/(mol*K)','+|-',[0.208041,0.229302,0.244072,0.242705,0.204275,0.162002,0.239942]),
+        H298 = (1.19907,'kcal/mol','+|-',0.894849),
+        S298 = (3.67465,'cal/(mol*K)','+|-',0.686561),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClCC1(Cl)CDC1Cl smiles:ClCC1(Cl)C=C1Cl H298:37.24 kcal/mol
+library:CHOCl_G4 label:ClC1DCC1(Cl)C(Cl)(Cl)Cl smiles:ClC1=CC1(Cl)C(Cl)(Cl)Cl H298:30.26 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)C(Cl)DC1Cl smiles:ClCC1(Cl)C(Cl)=C1Cl H298:32.14 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C1(Cl)C(Cl)Cl smiles:ClC1=C(Cl)C1(Cl)C(Cl)Cl H298:27.88 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)C(Cl)DC1Cl smiles:CC1(Cl)C(Cl)=C1Cl H298:35.83 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)CDC1Cl smiles:CC1(Cl)C=C1Cl H298:41.34 kcal/mol
 """,
 )
 
@@ -7962,11 +9916,23 @@ entry(
 5    Cs  u0 p0 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.908759,-0.680609,-0.434752,-0.288492,-0.138417,0.0418626,0.383938],'cal/(mol*K)','+|-',[0.199243,0.219604,0.233749,0.232441,0.195636,0.155151,0.229794]),
+        H298 = (3.14246,'kcal/mol','+|-',0.857003),
+        S298 = (2.9053,'cal/(mol*K)','+|-',0.657524),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FCC1(F)CDC1F smiles:FCC1(F)C=C1F H298:-75.39 kcal/mol
+library:CHOF_G4 label:FC1DCC1(F)C(F)F smiles:FC1=CC1(F)C(F)F H298:-128.27 kcal/mol
+library:CHOF_G4 label:CC1(F)CDC1F smiles:CC1(F)C=C1F H298:-34.44 kcal/mol
+library:CHOF_G4 label:CC1(F)C(F)DC1F smiles:CC1(F)C(F)=C1F H298:-71.51 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C1(F)C(F)F smiles:FC1=C(F)C1(F)C(F)F H298:-162.38 kcal/mol
+library:CHOF_G4 label:FC1DCC1(F)C(F)(F)F smiles:FC1=CC1(F)C(F)(F)F H298:-185.06 kcal/mol
+library:CHOF_G4 label:FCC1(F)C(F)DC1F smiles:FCC1(F)C(F)=C1F H298:-111.28 kcal/mol
 """,
 )
 
@@ -8004,11 +9970,19 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.6549,-1.75176,-1.90425,-2.05585,-1.92752,-1.66207,-2.58795],'cal/(mol*K)','+|-',[0.400698,0.441647,0.470095,0.467463,0.393444,0.312025,0.46214]),
+        H298 = (3.71472,'kcal/mol','+|-',1.72352),
+        S298 = (6.08001,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC(Cl)C1(Cl)OC1(Cl)Cl smiles:ClC(Cl)C1(Cl)OC1(Cl)Cl H298:-49.28 kcal/mol
+library:CHOCl_G4 label:CC1(Cl)OC1(Cl)Cl smiles:CC1(Cl)OC1(Cl)Cl H298:-44.42 kcal/mol
+library:CHOCl_G4 label:ClCC1(Cl)OC1(Cl)Cl smiles:ClCC1(Cl)OC1(Cl)Cl H298:-46.52 kcal/mol
 """,
 )
 
@@ -8046,11 +10020,18 @@ entry(
 6    Cl1s u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.03139,-1.64852,-1.72734,-1.66965,-1.43123,-1.00585,0.133673],'cal/(mol*K)','+|-',[1.04134,1.14776,1.22169,1.21485,1.02249,0.810895,1.20102]),
+        H298 = (12.0206,'kcal/mol','+|-',4.47912),
+        S298 = (7.49706,'cal/(mol*K)','+|-',3.43655),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:OC1(Cl)CC1(Cl)Cl smiles:OC1(Cl)CC1(Cl)Cl H298:-40.93 kcal/mol
+library:CHOCl_G4 label:OC1(Cl)C(Cl)C1(Cl)Cl smiles:OC1(Cl)C(Cl)C1(Cl)Cl H298:-42.76 kcal/mol
 """,
 )
 
@@ -8086,11 +10067,17 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.98095,-2.42124,-2.54067,-2.68884,-2.38513,-2.14215,-5.03046],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (12.433,'kcal/mol','+|-',8.4435),
+        S298 = (8.06536,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OC1(Cl)Cl smiles:Cl[C]1OC1(Cl)Cl H298:17.40 kcal/mol
 """,
 )
 
@@ -8128,11 +10115,19 @@ entry(
 6    Cs  u1 p0 c0 {1,S}
 7    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.73127,-2.29551,-2.38609,-2.6533,-2.37791,-1.92241,-4.19327],'cal/(mol*K)','+|-',[1.06015,1.16849,1.24375,1.23679,1.04096,0.825539,1.22271]),
+        H298 = (11.8913,'kcal/mol','+|-',4.56002),
+        S298 = (8.80564,'cal/(mol*K)','+|-',3.49861),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[CH2]C1(F)OC1F smiles:[CH2]C1(F)OC1F H298:-78.19 kcal/mol
+library:CHOF_G4 label:F[CH]C1(F)OC1F smiles:F[CH]C1(F)OC1F H298:-118.84 kcal/mol
+library:CHOF_G4 label:F[C](F)C1(F)OC1F smiles:F[C](F)C1(F)OC1F H298:-166.52 kcal/mol
 """,
 )
 
@@ -8168,11 +10163,17 @@ entry(
 5    O2s u1 p2 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.864461,-0.856398,-0.799088,-0.762583,-0.727306,-0.521054,-0.0487449],'cal/(mol*K)','+|-',[0.954294,1.05182,1.11957,1.1133,0.937018,0.743111,1.10062]),
+        H298 = (3.6228,'kcal/mol','+|-',4.10471),
+        S298 = (6.50665,'cal/(mol*K)','+|-',3.14928),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:[O]C1(F)C(F)DC1F smiles:[O]C1(F)C(F)=C1F H298:-54.92 kcal/mol
 """,
 )
 
@@ -8210,11 +10211,21 @@ entry(
 6    F1s u0 p3 c0 {2,S}
 7    Cs  u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0518363,0.155084,0.272501,0.309046,0.350366,0.438709,0.666291],'cal/(mol*K)','+|-',[0.413433,0.455683,0.485035,0.482319,0.405948,0.321941,0.476827]),
+        H298 = (8.24253,'kcal/mol','+|-',1.7783),
+        S298 = (1.87898,'cal/(mol*K)','+|-',1.36438),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:CC1(F)[CH]C1(F)F smiles:CC1(F)[CH]C1(F)F H298:-75.72 kcal/mol
+library:CHOF_G4 label:CC1(F)[C](F)C1(F)F smiles:CC1(F)[C](F)C1(F)F H298:-115.50 kcal/mol
+library:CHOF_G4 label:FCC1(F)[C](F)C1(F)F smiles:FCC1(F)[C](F)C1(F)F H298:-155.11 kcal/mol
+library:CHOF_G4 label:FC(F)C1(F)[CH]C1(F)F smiles:FC(F)C1(F)[CH]C1(F)F H298:-165.85 kcal/mol
+library:CHOF_G4 label:FCC1(F)[CH]C1(F)F smiles:FCC1(F)[CH]C1(F)F H298:-116.35 kcal/mol
 """,
 )
 
@@ -8275,11 +10286,19 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.000971755,0.0368803,0.12,0.0917542,0.00105311,-0.035156,0.0745815],'cal/(mol*K)','+|-',[0.512575,0.564957,0.601347,0.597981,0.503296,0.399143,0.591172]),
+        H298 = (-1.48882,'kcal/mol','+|-',2.20474),
+        S298 = (-0.395566,'cal/(mol*K)','+|-',1.69156),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)DC1Br smiles:BrC1=C(Br)C(Br)=C1Br H298:115.73 kcal/mol
+library:CHOBr_G4 label:BrC1DCC(Br)DC1Br smiles:BrC1=CC(Br)=C1Br H298:111.90 kcal/mol
+library:CHOBr_G4 label:BrC1DCCDC1Br smiles:BrC1=CC=C1Br H298:108.34 kcal/mol
 """,
 )
 
@@ -8295,11 +10314,19 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0423023,0.0259615,0.0705198,0.0097063,-0.121638,-0.160942,0.015129],'cal/(mol*K)','+|-',[0.512575,0.564957,0.601347,0.597981,0.503296,0.399143,0.591172]),
+        H298 = (-1.16455,'kcal/mol','+|-',2.20474),
+        S298 = (0.0600909,'cal/(mol*K)','+|-',1.69156),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)DC1Cl smiles:ClC1=C(Cl)C(Cl)=C1Cl H298:71.08 kcal/mol
+library:CHOCl_G4 label:ClC1DCC(Cl)DC1Cl smiles:ClC1=CC(Cl)=C1Cl H298:77.61 kcal/mol
+library:CHOCl_G4 label:ClC1DCCDC1Cl smiles:ClC1=CC=C1Cl H298:84.97 kcal/mol
 """,
 )
 
@@ -8315,11 +10342,18 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.142889,-0.00770589,-0.0209617,-0.136591,-0.315656,-0.354131,-0.090197],'cal/(mol*K)','+|-',[0.566673,0.624583,0.664815,0.661092,0.556415,0.44127,0.653565]),
+        H298 = (1.4022,'kcal/mol','+|-',2.43743),
+        S298 = (0.777274,'cal/(mol*K)','+|-',1.87009),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DCCDC1F smiles:FC1=CC=C1F H298:13.73 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)DC1F smiles:FC1=CC(F)=C1F H298:-25.49 kcal/mol
 """,
 )
 
@@ -8355,11 +10389,19 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.00830067,0.0112,0.0998188,0.0770401,-0.00389147,-0.0324434,0.0849044],'cal/(mol*K)','+|-',[0.512575,0.564957,0.601347,0.597981,0.503296,0.399143,0.591172]),
+        H298 = (-1.57804,'kcal/mol','+|-',2.20474),
+        S298 = (-0.28751,'cal/(mol*K)','+|-',1.69156),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)DC1Br smiles:BrC1=C(Br)C(Br)=C1Br H298:115.73 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)CDC1 smiles:BrC1=C(Br)C=C1 H298:108.16 kcal/mol
+library:CHOBr_G4 label:BrC1DCC(Br)DC1Br smiles:BrC1=CC(Br)=C1Br H298:111.90 kcal/mol
 """,
 )
 
@@ -8375,11 +10417,19 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0620385,-0.00347022,0.0312671,-0.0180505,-0.133203,-0.163562,0.0156229],'cal/(mol*K)','+|-',[0.512575,0.564957,0.601347,0.597981,0.503296,0.399143,0.591172]),
+        H298 = (-1.08015,'kcal/mol','+|-',2.20474),
+        S298 = (0.158809,'cal/(mol*K)','+|-',1.69156),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)DC1Cl smiles:ClC1=C(Cl)C(Cl)=C1Cl H298:71.08 kcal/mol
+library:CHOCl_G4 label:ClC1DCC(Cl)DC1Cl smiles:ClC1=CC(Cl)=C1Cl H298:77.61 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)CDC1 smiles:ClC1=C(Cl)C=C1 H298:85.14 kcal/mol
 """,
 )
 
@@ -8395,11 +10445,18 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.228955,0.0575269,0.0123413,-0.115136,-0.30257,-0.34362,-0.077528],'cal/(mol*K)','+|-',[0.566673,0.624583,0.664815,0.661092,0.556415,0.44127,0.653565]),
+        H298 = (2.48691,'kcal/mol','+|-',2.43743),
+        S298 = (0.928272,'cal/(mol*K)','+|-',1.87009),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DCC(F)DC1F smiles:FC1=CC(F)=C1F H298:-25.49 kcal/mol
+library:CHOF_G4 label:FC1DC(F)CDC1 smiles:FC1=C(F)C=C1 H298:15.90 kcal/mol
 """,
 )
 
@@ -8439,11 +10496,18 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.66918,-1.39385,-1.14386,-1.11044,-0.951001,-0.653044,0.374842],'cal/(mol*K)','+|-',[1.56618,1.72623,1.83743,1.82714,1.53783,1.21959,1.80633]),
+        H298 = (1.68194,'kcal/mol','+|-',6.73662),
+        S298 = (4.12428,'cal/(mol*K)','+|-',5.16858),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1[C]DCC1Br smiles:BrC1[C]=CC1Br H298:104.42 kcal/mol
+library:CHOBr_G4 label:BrC1D[C]C(Br)C1Br smiles:BrC1=[C]C(Br)C1Br H298:108.94 kcal/mol
 """,
 )
 
@@ -8461,11 +10525,17 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.03696,-0.552701,-0.337288,-0.296956,-0.199023,-0.132943,0.577493],'cal/(mol*K)','+|-',[1.82383,2.01022,2.1397,2.12772,1.79082,1.42022,2.1035]),
+        H298 = (0.709031,'kcal/mol','+|-',7.84486),
+        S298 = (2.13241,'cal/(mol*K)','+|-',6.01887),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1[C]DCC1Cl smiles:ClC1[C]=CC1Cl H298:82.17 kcal/mol
 """,
 )
 
@@ -8483,11 +10553,18 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.941128,-0.346121,-0.0186681,0.0408204,0.178647,0.298156,0.963029],'cal/(mol*K)','+|-',[1.53272,1.68936,1.79817,1.78811,1.50498,1.19354,1.76775]),
+        H298 = (1.25379,'kcal/mol','+|-',6.59271),
+        S298 = (2.61791,'cal/(mol*K)','+|-',5.05817),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C(F)C1F smiles:FC1=[C]C(F)C1F H298:-39.17 kcal/mol
+library:CHOF_G4 label:FC1[C]DCC1F smiles:FC1[C]=CC1F H298:4.31 kcal/mol
 """,
 )
 
@@ -8523,11 +10600,20 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0405581,-0.112825,-0.233873,-0.280894,-0.28694,-0.219125,-0.147696],'cal/(mol*K)','+|-',[0.466403,0.514066,0.547179,0.544115,0.45796,0.363189,0.53792]),
+        H298 = (0.301693,'kcal/mol','+|-',2.00614),
+        S298 = (1.47599,'cal/(mol*K)','+|-',1.53918),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1Br smiles:BrC1=C(Br)C(Br)(Br)C1Br H298:56.38 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)C1 smiles:BrC1=C(Br)C(Br)C1 H298:45.48 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)CC1 smiles:BrC1=C(Br)CC1 H298:41.83 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1 smiles:BrC1=C(Br)C(Br)(Br)C1 H298:50.98 kcal/mol
 """,
 )
 
@@ -8543,11 +10629,21 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.00940152,-0.0576765,-0.120759,-0.182765,-0.222019,-0.177472,-0.0738942],'cal/(mol*K)','+|-',[0.478496,0.527395,0.561366,0.558223,0.469834,0.372606,0.551867]),
+        H298 = (0.534935,'kcal/mol','+|-',2.05816),
+        S298 = (1.24882,'cal/(mol*K)','+|-',1.57909),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1 smiles:ClC1=C(Cl)C(Cl)(Cl)C1 H298:5.45 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1 smiles:ClC1=C(Cl)C(Cl)C1 H298:11.35 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H298:0.06 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)CC1 smiles:ClC1=C(Cl)CC1 H298:18.55 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)C1Cl H298:4.22 kcal/mol
 """,
 )
 
@@ -8563,11 +10659,20 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.27958,-0.321377,-0.345716,-0.320703,-0.200842,-0.0906357,0.0124778],'cal/(mol*K)','+|-',[0.451646,0.497801,0.529866,0.5269,0.44347,0.351698,0.5209]),
+        H298 = (3.01227,'kcal/mol','+|-',1.94267),
+        S298 = (0.745391,'cal/(mol*K)','+|-',1.49049),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1 smiles:FC1=C(F)C(F)(F)C1 H298:-151.47 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)C1 smiles:FC1=C(F)C(F)C1 H298:-99.56 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1F smiles:FC1=C(F)C(F)(F)C1F H298:-194.57 kcal/mol
+library:CHOF_G4 label:FC1DC(F)CC1 smiles:FC1=C(F)CC1 H298:-54.20 kcal/mol
 """,
 )
 
@@ -8605,11 +10710,20 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.252509,-0.274418,-0.279567,-0.28149,-0.234063,-0.162555,0.00881567],'cal/(mol*K)','+|-',[0.452881,0.499162,0.531315,0.52834,0.444682,0.352659,0.522324]),
+        H298 = (0.663099,'kcal/mol','+|-',1.94798),
+        S298 = (2.05437,'cal/(mol*K)','+|-',1.49456),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1Br smiles:BrC1=C(Br)C(Br)(Br)C1Br H298:56.38 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)C1 smiles:BrC1=C(Br)C(Br)C1 H298:45.48 kcal/mol
+library:CHOBr_G4 label:BrC1DCCC1Br smiles:BrC1=CCC1Br H298:43.23 kcal/mol
+library:CHOBr_G4 label:BrC1DCC(Br)C1Br smiles:BrC1=CC(Br)C1Br H298:46.41 kcal/mol
 """,
 )
 
@@ -8626,11 +10740,20 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.108238,-0.0997628,-0.0640231,-0.0458915,-0.070938,-0.0836424,0.0363649],'cal/(mol*K)','+|-',[0.410462,0.452408,0.481549,0.478853,0.403031,0.319627,0.473401]),
+        H298 = (0.617671,'kcal/mol','+|-',1.76552),
+        S298 = (1.39998,'cal/(mol*K)','+|-',1.35457),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DCCC1Cl smiles:ClC1=CCC1Cl H298:20.39 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1 smiles:ClC1=C(Cl)C(Cl)C1 H298:11.35 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H298:0.06 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)C1Cl H298:4.22 kcal/mol
 """,
 )
 
@@ -8647,11 +10770,21 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.2501,-0.19694,-0.194505,-0.182011,-0.111212,-0.0398357,0.12822],'cal/(mol*K)','+|-',[0.426263,0.469824,0.500087,0.497287,0.418546,0.331932,0.491625]),
+        H298 = (1.56643,'kcal/mol','+|-',1.83349),
+        S298 = (1.78792,'cal/(mol*K)','+|-',1.40672),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)C(F)C1 smiles:FC1=C(F)C(F)C1 H298:-99.56 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)C1F smiles:FC1=CC(F)C1F H298:-102.43 kcal/mol
+library:CHOF_G4 label:FC1DCCC1F smiles:FC1=CCC1F H298:-55.33 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1F smiles:FC1=C(F)C(F)(F)C1F H298:-194.57 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)(F)C1F smiles:FC1=CC(F)(F)C1F H298:-154.18 kcal/mol
 """,
 )
 
@@ -8689,11 +10822,20 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0789949,-0.211796,-0.250156,-0.241647,-0.220024,-0.214678,-0.115792],'cal/(mol*K)','+|-',[0.452881,0.499162,0.531315,0.52834,0.444682,0.352659,0.522324]),
+        H298 = (-0.288343,'kcal/mol','+|-',1.94798),
+        S298 = (2.07918,'cal/(mol*K)','+|-',1.49456),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1Br smiles:BrC1=C(Br)C(Br)(Br)C1Br H298:56.38 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1 smiles:BrC1=C(Br)C(Br)(Br)C1 H298:50.98 kcal/mol
+library:CHOBr_G4 label:BrC1DCCC1(Br)Br smiles:BrC1=CCC1(Br)Br H298:48.44 kcal/mol
+library:CHOBr_G4 label:BrC1DCC(Br)(Br)C1(Br)Br smiles:BrC1=CC(Br)(Br)C1(Br)Br H298:62.25 kcal/mol
 """,
 )
 
@@ -8710,11 +10852,20 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.118767,-0.14192,-0.183917,-0.223843,-0.239723,-0.194116,0.0447353],'cal/(mol*K)','+|-',[0.450598,0.496646,0.528637,0.525677,0.442441,0.350882,0.519691]),
+        H298 = (0.0949558,'kcal/mol','+|-',1.93816),
+        S298 = (1.84642,'cal/(mol*K)','+|-',1.48703),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1 smiles:ClC1=C(Cl)C(Cl)(Cl)C1 H298:5.45 kcal/mol
+library:CHOCl_G4 label:ClC1DCC(Cl)(Cl)C1(Cl)Cl smiles:ClC1=CC(Cl)(Cl)C1(Cl)Cl H298:4.39 kcal/mol
+library:CHOCl_G4 label:ClC1DCCC1(Cl)Cl smiles:ClC1=CCC1(Cl)Cl H298:14.06 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H298:0.06 kcal/mol
 """,
 )
 
@@ -8731,11 +10882,20 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.190842,-0.150656,-0.135477,-0.127385,-0.0751215,-0.0055093,0.187821],'cal/(mol*K)','+|-',[0.449745,0.495705,0.527635,0.524681,0.441603,0.350217,0.518707]),
+        H298 = (2.29651,'kcal/mol','+|-',1.93449),
+        S298 = (1.35672,'cal/(mol*K)','+|-',1.48421),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DCCC1(F)F smiles:FC1=CCC1(F)F H298:-108.28 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1 smiles:FC1=C(F)C(F)(F)C1 H298:-151.47 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1F smiles:FC1=C(F)C(F)(F)C1F H298:-194.57 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)(F)C1(F)F smiles:FC1=CC(F)(F)C1(F)F H298:-204.58 kcal/mol
 """,
 )
 
@@ -8775,11 +10935,18 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.570177,-0.546057,-0.441877,-0.405598,-0.345551,-0.303588,0.0398732],'cal/(mol*K)','+|-',[0.557458,0.614426,0.654003,0.650341,0.547366,0.434093,0.642936]),
+        H298 = (0.551262,'kcal/mol','+|-',2.39779),
+        S298 = (2.08309,'cal/(mol*K)','+|-',1.83968),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1Br smiles:BrC1=C(Br)C(Br)(Br)C1Br H298:56.38 kcal/mol
+library:CHOBr_G4 label:BrC1CDCC1(Br)Br smiles:BrC1C=CC1(Br)Br H298:51.28 kcal/mol
 """,
 )
 
@@ -8797,11 +10964,18 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.773412,-0.679813,-0.598067,-0.652598,-0.664076,-0.527637,0.421019],'cal/(mol*K)','+|-',[1.09588,1.20787,1.28567,1.27847,1.07604,0.853362,1.26392]),
+        H298 = (0.964917,'kcal/mol','+|-',4.7137),
+        S298 = (4.2059,'cal/(mol*K)','+|-',3.61653),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1CDCC1(Cl)Cl smiles:ClC1C=CC1(Cl)Cl H298:16.93 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H298:0.06 kcal/mol
 """,
 )
 
@@ -8819,11 +10993,19 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.257643,-0.0960508,0.0112308,0.00157445,0.0152485,0.0604488,0.40628],'cal/(mol*K)','+|-',[0.489879,0.539941,0.57472,0.571502,0.48101,0.381469,0.564995]),
+        H298 = (1.16281,'kcal/mol','+|-',2.10712),
+        S298 = (1.62474,'cal/(mol*K)','+|-',1.61666),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1CDCC1(F)F smiles:FC1C=CC1(F)F H298:-108.40 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1F smiles:FC1=C(F)C(F)(F)C1F H298:-194.57 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)(F)C1F smiles:FC1=CC(F)(F)C1F H298:-154.18 kcal/mol
 """,
 )
 
@@ -8861,11 +11043,18 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.357,-3.68698,-4.23334,-4.34619,-3.82804,-3.03151,-1.58741],'cal/(mol*K)','+|-',[1.13334,1.24916,1.32963,1.32218,1.11283,0.882537,1.30713]),
+        H298 = (11.8056,'kcal/mol','+|-',4.87486),
+        S298 = (10.8767,'cal/(mol*K)','+|-',3.74017),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)O1 smiles:BrC1=C(Br)C(Br)O1 H298:27.29 kcal/mol
+library:CHOBr_G4 label:BrC1DCOC1Br smiles:BrC1=COC1Br H298:23.20 kcal/mol
 """,
 )
 
@@ -8882,11 +11071,18 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.3062,-3.7364,-4.38365,-4.48957,-3.86777,-3.01921,-1.59878],'cal/(mol*K)','+|-',[1.09736,1.2095,1.28741,1.2802,1.07749,0.854513,1.26562]),
+        H298 = (13.7733,'kcal/mol','+|-',4.72006),
+        S298 = (11.2181,'cal/(mol*K)','+|-',3.6214),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)O1 smiles:ClC1=C(Cl)C(Cl)O1 H298:-7.82 kcal/mol
+library:CHOCl_G4 label:ClC1DCOC1Cl smiles:ClC1=COC1Cl H298:0.06 kcal/mol
 """,
 )
 
@@ -8903,11 +11099,18 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.15318,-3.52444,-4.1117,-4.17288,-3.47148,-2.62372,-1.36383],'cal/(mol*K)','+|-',[1.09736,1.2095,1.28741,1.2802,1.07749,0.854513,1.26562]),
+        H298 = (20.0747,'kcal/mol','+|-',4.72006),
+        S298 = (10.2785,'cal/(mol*K)','+|-',3.6214),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)C(F)O1 smiles:FC1=C(F)C(F)O1 H298:-121.00 kcal/mol
+library:CHOF_G4 label:FC1DCOC1F smiles:FC1=COC1F H298:-75.54 kcal/mol
 """,
 )
 
@@ -8943,11 +11146,19 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0677495,-0.16156,-0.312429,-0.396654,-0.439491,-0.399624,-0.259813],'cal/(mol*K)','+|-',[0.566672,0.624582,0.664814,0.661091,0.556414,0.441269,0.653564]),
+        H298 = (1.06281,'kcal/mol','+|-',2.43743),
+        S298 = (1.66202,'cal/(mol*K)','+|-',1.87008),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)O1 smiles:BrC1=C(Br)C(Br)O1 H298:27.29 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)O1 smiles:BrC1=C(Br)C(Br)(Br)O1 H298:34.08 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)OC1 smiles:BrC1=C(Br)OC1 H298:22.60 kcal/mol
 """,
 )
 
@@ -8963,11 +11174,19 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0326675,0.0710243,0.0315803,-0.0459456,-0.148374,-0.174795,-0.0933971],'cal/(mol*K)','+|-',[0.490753,0.540904,0.575746,0.572522,0.481869,0.38215,0.566004]),
+        H298 = (0.180537,'kcal/mol','+|-',2.11088),
+        S298 = (0.902932,'cal/(mol*K)','+|-',1.61954),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)OC1 smiles:ClC1=C(Cl)OC1 H298:-0.86 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)O1 smiles:ClC1=C(Cl)C(Cl)(Cl)O1 H298:-12.61 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)O1 smiles:ClC1=C(Cl)C(Cl)O1 H298:-7.82 kcal/mol
 """,
 )
 
@@ -8983,11 +11202,19 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.181292,-0.0756944,-0.169344,-0.26995,-0.367116,-0.38827,-0.229617],'cal/(mol*K)','+|-',[0.981506,1.08181,1.15149,1.14504,0.963737,0.7643,1.13201]),
+        H298 = (7.77746,'kcal/mol','+|-',4.22175),
+        S298 = (1.68154,'cal/(mol*K)','+|-',3.23908),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)OC1 smiles:FC1=C(F)OC1 H298:-72.69 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)O1 smiles:FC1=C(F)C(F)(F)O1 H298:-173.72 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)O1 smiles:FC1=C(F)C(F)O1 H298:-121.00 kcal/mol
 """,
 )
 
@@ -9027,11 +11254,17 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.26185,-0.804369,-0.42559,-0.366024,-0.382448,-0.26229,0.323342],'cal/(mol*K)','+|-',[1.78038,1.96232,2.08872,2.07702,1.74815,1.38638,2.05337]),
+        H298 = (1.54852,'kcal/mol','+|-',7.65794),
+        S298 = (3.47556,'cal/(mol*K)','+|-',5.87545),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1[C]DCC1(Br)Br smiles:BrC1[C]=CC1(Br)Br H298:112.13 kcal/mol
 """,
 )
 
@@ -9049,11 +11282,17 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.368574,-0.0187932,0.182562,0.211308,0.222996,0.239979,0.524199],'cal/(mol*K)','+|-',[0.849505,0.936318,0.996629,0.991049,0.834126,0.661511,0.979765]),
+        H298 = (1.7382,'kcal/mol','+|-',3.65398),
+        S298 = (1.18189,'cal/(mol*K)','+|-',2.80346),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1[C]DCC1(F)F smiles:FC1[C]=CC1(F)F H298:-46.85 kcal/mol
 """,
 )
 
@@ -9093,11 +11332,17 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.949273,-0.759475,-0.712979,-1.01075,-1.15264,-1.10378,-0.784915],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (3.22911,'kcal/mol','+|-',2.98523),
+        S298 = (5.25656,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1(Br)OOC1(Br)Br smiles:BrC1(Br)OOC1(Br)Br H298:25.87 kcal/mol
 """,
 )
 
@@ -9115,11 +11360,17 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.775458,-0.634187,-0.634532,-0.894421,-0.966035,-0.892677,-0.632383],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (2.87333,'kcal/mol','+|-',2.98523),
+        S298 = (5.09167,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1(Cl)OOC1(Cl)Cl smiles:ClC1(Cl)OOC1(Cl)Cl H298:-23.83 kcal/mol
 """,
 )
 
@@ -9137,11 +11388,17 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.85325,-0.597444,-0.46,-0.627393,-0.5659,-0.429684,-0.185794],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (4.13515,'kcal/mol','+|-',2.98523),
+        S298 = (2.81159,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1(F)OOC1(F)F smiles:FC1(F)OOC1(F)F H298:-210.61 kcal/mol
 """,
 )
 
@@ -9181,11 +11438,19 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.626539,-0.682816,-0.801583,-0.907096,-0.896646,-0.821493,-1.55457],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.506892,'kcal/mol','+|-',1.236),
+        S298 = (3.69259,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1COC1(Br)Br smiles:BrC1COC1(Br)Br H298:-8.28 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)(Br)OC1(Br)Br smiles:BrC1C(Br)(Br)OC1(Br)Br H298:2.87 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)(Br)C1Br smiles:BrC1OC(Br)(Br)C1Br H298:-4.23 kcal/mol
 """,
 )
 
@@ -9203,11 +11468,19 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.487931,-0.443902,-0.573028,-0.733204,-0.775676,-0.704618,-1.40567],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337123,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.408678,'kcal/mol','+|-',1.236),
+        S298 = (3.17785,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1C(Cl)(Cl)OC1(Cl)Cl smiles:ClC1C(Cl)(Cl)OC1(Cl)Cl H298:-57.50 kcal/mol
+library:CHOCl_G4 label:ClC1COC1(Cl)Cl smiles:ClC1COC1(Cl)Cl H298:-44.14 kcal/mol
+library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1Cl smiles:ClC1OC(Cl)(Cl)C1Cl H298:-52.43 kcal/mol
 """,
 )
 
@@ -9225,11 +11498,19 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.471001,-0.376872,-0.445919,-0.514076,-0.4442,-0.343858,-1.10022],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337123,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (1.30632,'kcal/mol','+|-',1.236),
+        S298 = (2.36209,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1COC1(F)F smiles:FC1COC1(F)F H298:-177.30 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)OC1(F)F smiles:FC1C(F)(F)OC1(F)F H298:-282.63 kcal/mol
+library:CHOF_G4 label:FC1OC(F)(F)C1F smiles:FC1OC(F)(F)C1F H298:-228.01 kcal/mol
 """,
 )
 
@@ -9269,11 +11550,21 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.361061,-0.513787,-0.578728,-0.590326,-0.576506,-0.483152,-0.209003],'cal/(mol*K)','+|-',[0.140861,0.155256,0.165257,0.164331,0.138311,0.109689,0.16246]),
+        H298 = (1.03441,'kcal/mol','+|-',0.605886),
+        S298 = (1.8641,'cal/(mol*K)','+|-',0.464858),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1CC(Br)(Br)C1Br smiles:BrC1CC(Br)(Br)C1Br H298:19.68 kcal/mol
+library:CHOBr_G4 label:BrC1CC(Br)C1Br smiles:BrC1CC(Br)C1Br H298:13.11 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C(Br)C1Br smiles:BrC1C(Br)C(Br)C1Br H298:20.59 kcal/mol
+library:CHOBr_G4 label:BrC1CCC1Br smiles:BrC1CCC1Br H298:9.60 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C(Br)(Br)C1Br smiles:BrC1C(Br)C(Br)(Br)C1Br H298:25.13 kcal/mol
 """,
 )
 
@@ -9291,11 +11582,21 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.284088,-0.385869,-0.404241,-0.401458,-0.43258,-0.382589,-0.116871],'cal/(mol*K)','+|-',[0.140861,0.155256,0.165257,0.164331,0.138311,0.109689,0.16246]),
+        H298 = (1.1609,'kcal/mol','+|-',0.605886),
+        S298 = (1.85463,'cal/(mol*K)','+|-',0.464858),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1C(Cl)C(Cl)(Cl)C1Cl smiles:ClC1C(Cl)C(Cl)(Cl)C1Cl H298:-30.99 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)(Cl)C1Cl smiles:ClC1CC(Cl)(Cl)C1Cl H298:-25.77 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)C(Cl)C1Cl smiles:ClC1C(Cl)C(Cl)C1Cl H298:-24.21 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)C1Cl smiles:ClC1CC(Cl)C1Cl H298:-20.69 kcal/mol
+library:CHOCl_G4 label:ClC1CCC1Cl smiles:ClC1CCC1Cl H298:-13.18 kcal/mol
 """,
 )
 
@@ -9313,11 +11614,21 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.281445,-0.32784,-0.311909,-0.273269,-0.245774,-0.170802,0.0308143],'cal/(mol*K)','+|-',[0.140861,0.155256,0.165257,0.164331,0.138311,0.109689,0.16246]),
+        H298 = (2.10945,'kcal/mol','+|-',0.605886),
+        S298 = (1.50703,'cal/(mol*K)','+|-',0.464858),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1C(F)C(F)C1F smiles:FC1C(F)C(F)C1F H298:-175.87 kcal/mol
+library:CHOF_G4 label:FC1CCC1F smiles:FC1CCC1F H298:-91.19 kcal/mol
+library:CHOF_G4 label:FC1CC(F)(F)C1F smiles:FC1CC(F)(F)C1F H298:-188.90 kcal/mol
+library:CHOF_G4 label:FC1C(F)C(F)(F)C1F smiles:FC1C(F)C(F)(F)C1F H298:-229.30 kcal/mol
+library:CHOF_G4 label:FC1CC(F)C1F smiles:FC1CC(F)C1F H298:-136.75 kcal/mol
 """,
 )
 
@@ -9357,11 +11668,22 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.327898,-0.613452,-0.738483,-0.785847,-0.822384,-0.746351,-0.434969],'cal/(mol*K)','+|-',[0.188623,0.207898,0.22129,0.220051,0.185208,0.146881,0.217545]),
+        H298 = (1.21623,'kcal/mol','+|-',0.811323),
+        S298 = (2.67057,'cal/(mol*K)','+|-',0.622477),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1CC(Br)(Br)C1Br smiles:BrC1CC(Br)(Br)C1Br H298:19.68 kcal/mol
+library:CHOBr_G4 label:BrC1CCC1(Br)Br smiles:BrC1CCC1(Br)Br H298:16.30 kcal/mol
+library:CHOBr_G4 label:BrC1CC(Br)(Br)C1(Br)Br smiles:BrC1CC(Br)(Br)C1(Br)Br H298:29.99 kcal/mol
+library:CHOBr_G4 label:BrC1CC(Br)C1(Br)Br smiles:BrC1CC(Br)C1(Br)Br H298:21.13 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)(Br)CC1(Br)Br smiles:BrC1C(Br)(Br)CC1(Br)Br H298:28.98 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C(Br)(Br)C1Br smiles:BrC1C(Br)C(Br)(Br)C1Br H298:25.13 kcal/mol
 """,
 )
 
@@ -9379,11 +11701,22 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.378327,-0.540203,-0.611319,-0.660851,-0.704092,-0.604334,-0.191325],'cal/(mol*K)','+|-',[0.188623,0.207898,0.22129,0.220051,0.185208,0.146881,0.217545]),
+        H298 = (1.36497,'kcal/mol','+|-',0.811323),
+        S298 = (2.6893,'cal/(mol*K)','+|-',0.622477),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1C(Cl)C(Cl)(Cl)C1Cl smiles:ClC1C(Cl)C(Cl)(Cl)C1Cl H298:-30.99 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)(Cl)CC1(Cl)Cl smiles:ClC1C(Cl)(Cl)CC1(Cl)Cl H298:-28.88 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)(Cl)C1Cl smiles:ClC1CC(Cl)(Cl)C1Cl H298:-25.77 kcal/mol
+library:CHOCl_G4 label:ClC1CCC1(Cl)Cl smiles:ClC1CCC1(Cl)Cl H298:-18.54 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)(Cl)C1(Cl)Cl smiles:ClC1CC(Cl)(Cl)C1(Cl)Cl H298:-25.97 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)C1(Cl)Cl smiles:ClC1CC(Cl)C1(Cl)Cl H298:-24.30 kcal/mol
 """,
 )
 
@@ -9401,11 +11734,22 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469514,-0.478264,-0.404351,-0.373545,-0.340172,-0.222053,0.116623],'cal/(mol*K)','+|-',[0.188623,0.207898,0.22129,0.220051,0.185208,0.146881,0.217545]),
+        H298 = (3.23001,'kcal/mol','+|-',0.811323),
+        S298 = (2.15664,'cal/(mol*K)','+|-',0.622477),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1CCC1(F)F smiles:FC1CCC1(F)F H298:-143.70 kcal/mol
+library:CHOF_G4 label:FC1CC(F)C1(F)F smiles:FC1CC(F)C1(F)F H298:-185.92 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)CC1(F)F smiles:FC1C(F)(F)CC1(F)F H298:-239.57 kcal/mol
+library:CHOF_G4 label:FC1CC(F)(F)C1F smiles:FC1CC(F)(F)C1F H298:-188.90 kcal/mol
+library:CHOF_G4 label:FC1C(F)C(F)(F)C1F smiles:FC1C(F)C(F)(F)C1F H298:-229.30 kcal/mol
+library:CHOF_G4 label:FC1CC(F)(F)C1(F)F smiles:FC1CC(F)(F)C1(F)F H298:-237.91 kcal/mol
 """,
 )
 
@@ -9443,11 +11787,22 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.173547,-0.234461,-0.243635,-0.223,-0.191438,-0.132948,0.00213761],'cal/(mol*K)','+|-',[0.295047,0.325199,0.346146,0.344208,0.289706,0.229754,0.340289]),
+        H298 = (0.745781,'kcal/mol','+|-',1.26909),
+        S298 = (0.317212,'cal/(mol*K)','+|-',0.973689),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)CC1Br smiles:Br[C]1C(Br)CC1Br H298:54.10 kcal/mol
+library:CHOBr_G4 label:Br[C]1CCC1Br smiles:Br[C]1CCC1Br H298:53.61 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)CC1(Br)Br smiles:Br[C]1C(Br)CC1(Br)Br H298:60.44 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC(Br)(Br)C1Br smiles:Br[C]1CC(Br)(Br)C1Br H298:64.83 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC(Br)C1Br smiles:Br[C]1CC(Br)C1Br H298:57.38 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C(Br)C1Br smiles:Br[C]1C(Br)C(Br)C1Br H298:59.36 kcal/mol
 """,
 )
 
@@ -9464,11 +11819,22 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.254463,-0.32685,-0.278467,-0.191379,-0.140305,-0.125329,0.0884196],'cal/(mol*K)','+|-',[0.271004,0.298699,0.317939,0.316159,0.266098,0.211032,0.312559]),
+        H298 = (1.49238,'kcal/mol','+|-',1.16567),
+        S298 = (1.50733,'cal/(mol*K)','+|-',0.894346),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1CCC1Cl smiles:Cl[C]1CCC1Cl H298:31.41 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C(Cl)C1Cl smiles:Cl[C]1C(Cl)C(Cl)C1Cl H298:16.55 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)CC1Cl smiles:Cl[C]1C(Cl)CC1Cl H298:23.35 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)C1Cl smiles:Cl[C]1CC(Cl)C1Cl H298:23.97 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)(Cl)C1Cl smiles:Cl[C]1CC(Cl)(Cl)C1Cl H298:19.49 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)CC1(Cl)Cl smiles:Cl[C]1C(Cl)CC1(Cl)Cl H298:16.61 kcal/mol
 """,
 )
 
@@ -9485,11 +11851,24 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.362714,-0.310273,-0.211102,-0.134882,-0.137356,-0.0860584,0.105166],'cal/(mol*K)','+|-',[0.249793,0.27532,0.293054,0.291414,0.245271,0.194514,0.288096]),
+        H298 = (1.9069,'kcal/mol','+|-',1.07444),
+        S298 = (1.04014,'cal/(mol*K)','+|-',0.824346),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1CC(F)(F)C1F smiles:F[C]1CC(F)(F)C1F H298:-140.77 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1F smiles:F[C]1C(F)C(F)C1F H298:-132.35 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)CC1(F)F smiles:F[C]1C(F)CC1(F)F H298:-141.39 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1(F)F smiles:F[C]1C(F)C(F)C1(F)F H298:-182.20 kcal/mol
+library:CHOF_G4 label:F[C]1CCC1F smiles:F[C]1CCC1F H298:-43.42 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)C1F smiles:F[C]1CC(F)C1F H298:-88.93 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)CC1F smiles:F[C]1C(F)CC1F H298:-88.67 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)(F)C1F smiles:F[C]1C(F)C(F)(F)C1F H298:-181.47 kcal/mol
 """,
 )
 
@@ -9527,11 +11906,18 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.702292,-0.528968,-0.435951,-0.388648,-0.266865,-0.131059,0.146182],'cal/(mol*K)','+|-',[1.45082,1.59908,1.70208,1.69255,1.42455,1.12976,1.67328]),
+        H298 = (2.37159,'kcal/mol','+|-',6.24041),
+        S298 = (3.64245,'cal/(mol*K)','+|-',4.78787),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1D[C]CC1Br smiles:BrC1=[C]CC1Br H298:104.22 kcal/mol
+library:CHOBr_G4 label:BrC1D[C]C(Br)C1Br smiles:BrC1=[C]C(Br)C1Br H298:108.94 kcal/mol
 """,
 )
 
@@ -9548,11 +11934,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.234238,-0.0921238,0.0261451,0.102752,0.102794,0.0774407,0.147096],'cal/(mol*K)','+|-',[0.806323,0.888723,0.945969,0.940672,0.791726,0.627885,0.929962]),
+        H298 = (1.0428,'kcal/mol','+|-',3.46824),
+        S298 = (0.999917,'cal/(mol*K)','+|-',2.66096),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]CC1Cl smiles:ClC1=[C]CC1Cl H298:81.64 kcal/mol
 """,
 )
 
@@ -9569,11 +11961,19 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.710589,-0.451928,-0.357063,-0.275791,-0.103075,0.0408753,0.364295],'cal/(mol*K)','+|-',[1.30006,1.43292,1.52521,1.51667,1.27652,1.01236,1.49941]),
+        H298 = (5.35722,'kcal/mol','+|-',5.59195),
+        S298 = (3.15907,'cal/(mol*K)','+|-',4.29035),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C(F)C1F smiles:FC1=[C]C(F)C1F H298:-39.17 kcal/mol
+library:CHOF_G4 label:FC1D[C]C(F)(F)C1F smiles:FC1=[C]C(F)(F)C1F H298:-90.34 kcal/mol
+library:CHOF_G4 label:FC1D[C]CC1F smiles:FC1=[C]CC1F H298:6.58 kcal/mol
 """,
 )
 
@@ -9611,11 +12011,17 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.00189,-1.23169,-0.944849,-1.4379,-1.68336,-1.635,-1.32587],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (3.33475,'kcal/mol','+|-',8.4435),
+        S298 = (9.28713,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OOC1(Br)Br smiles:Br[C]1OOC1(Br)Br H298:57.50 kcal/mol
 """,
 )
 
@@ -9632,11 +12038,17 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.26684,-1.60329,-1.30589,-1.63087,-1.56946,-1.37964,-0.992693],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (4.16471,'kcal/mol','+|-',8.4435),
+        S298 = (8.41416,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OOC1(Cl)Cl smiles:Cl[C]1OOC1(Cl)Cl H298:21.91 kcal/mol
 """,
 )
 
@@ -9676,11 +12088,18 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.43122,-1.90847,-2.25791,-2.50139,-2.41723,-2.11493,-3.15943],'cal/(mol*K)','+|-',[1.27859,1.40925,1.50002,1.49162,1.25544,0.995638,1.47464]),
+        H298 = (2.87293,'kcal/mol','+|-',5.49959),
+        S298 = (8.18385,'cal/(mol*K)','+|-',4.21948),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1O[CH]C1(Br)Br smiles:BrC1O[CH]C1(Br)Br H298:36.83 kcal/mol
+library:CHOBr_G4 label:Br[C]1OC(Br)C1(Br)Br smiles:Br[C]1OC(Br)C1(Br)Br H298:39.60 kcal/mol
 """,
 )
 
@@ -9698,11 +12117,18 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.855394,-0.81928,-0.845188,-0.895016,-0.774996,-0.606699,-1.27963],'cal/(mol*K)','+|-',[0.646107,0.712134,0.758005,0.753761,0.63441,0.503125,0.745179]),
+        H298 = (3.3293,'kcal/mol','+|-',2.7791),
+        S298 = (2.93854,'cal/(mol*K)','+|-',2.13223),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)C1(F)F smiles:F[C]1OC(F)C1(F)F H298:-174.30 kcal/mol
+library:CHOF_G4 label:FC1O[CH]C1(F)F smiles:FC1O[CH]C1(F)F H298:-127.31 kcal/mol
 """,
 )
 
@@ -9742,11 +12168,17 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.54016,-1.45773,-1.31509,-1.47556,-1.49,-1.37279,-0.861485],'cal/(mol*K)','+|-',[0.69403,0.764954,0.814228,0.809669,0.681465,0.540442,0.80045]),
+        H298 = (1.5187,'kcal/mol','+|-',2.98523),
+        S298 = (4.3944,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1OOC1Br smiles:BrC1OOC1Br H298:8.20 kcal/mol
 """,
 )
 
@@ -9764,11 +12196,17 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.41309,-1.29731,-1.14266,-1.34912,-1.38524,-1.22444,-0.762324],'cal/(mol*K)','+|-',[0.69403,0.764954,0.814228,0.809669,0.681465,0.540442,0.80045]),
+        H298 = (1.7066,'kcal/mol','+|-',2.98523),
+        S298 = (4.3107,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1OOC1Cl smiles:ClC1OOC1Cl H298:-16.10 kcal/mol
 """,
 )
 
@@ -9786,11 +12224,17 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.87825,-0.73492,-0.707397,-0.963514,-0.971019,-0.854304,-0.62553],'cal/(mol*K)','+|-',[0.69403,0.764954,0.814228,0.809669,0.681465,0.540442,0.80045]),
+        H298 = (2.3585,'kcal/mol','+|-',2.98523),
+        S298 = (3.77564,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1OOC1F smiles:FC1OOC1F H298:-102.90 kcal/mol
 """,
 )
 
@@ -9828,11 +12272,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.688657,-0.601068,-0.542178,-0.551829,-0.487148,-0.371522,-0.00302736],'cal/(mol*K)','+|-',[0.716537,0.789762,0.840633,0.835926,0.703565,0.557968,0.826408]),
+        H298 = (2.79929,'kcal/mol','+|-',3.08204),
+        S298 = (3.32346,'cal/(mol*K)','+|-',2.36465),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1CDCC1Br smiles:Br[C]1C=CC1Br H298:82.05 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)DCC1Br smiles:Br[C]1C(Br)=CC1Br H298:85.15 kcal/mol
+library:CHOBr_G4 label:Br[C]1CDC(Br)C1Br smiles:Br[C]1C=C(Br)C1Br H298:85.30 kcal/mol
 """,
 )
 
@@ -9849,11 +12301,18 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.576183,-0.579539,-0.641644,-0.715048,-0.590969,-0.43571,0.2123],'cal/(mol*K)','+|-',[1.63833,1.80576,1.92208,1.91131,1.60867,1.27577,1.88955]),
+        H298 = (3.25466,'kcal/mol','+|-',7.04697),
+        S298 = (3.26018,'cal/(mol*K)','+|-',5.40669),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC(Cl)C1Cl smiles:Cl[C]1C(Cl)=C(Cl)C1Cl H298:43.88 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CDCC1Cl smiles:Cl[C]1C=CC1Cl H298:59.56 kcal/mol
 """,
 )
 
@@ -9870,11 +12329,19 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0589844,-0.0856598,-0.148975,-0.238877,-0.258016,-0.237484,0.084223],'cal/(mol*K)','+|-',[0.707349,0.779635,0.829853,0.825207,0.694543,0.550814,0.815811]),
+        H298 = (4.63541,'kcal/mol','+|-',3.04252),
+        S298 = (1.93868,'cal/(mol*K)','+|-',2.33433),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1CDC(F)C1F smiles:F[C]1C=C(F)C1F H298:-56.04 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DCC1F smiles:F[C]1C(F)=CC1F H298:-58.81 kcal/mol
+library:CHOF_G4 label:F[C]1CDCC1F smiles:F[C]1C=CC1F H298:-13.52 kcal/mol
 """,
 )
 
@@ -9910,11 +12377,20 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.435432,0.240499,0.0534464,-0.0629968,-0.196335,-0.234983,-0.279874],'cal/(mol*K)','+|-',[0.632288,0.696903,0.741793,0.73764,0.620841,0.492364,0.729241]),
+        H298 = (0.823677,'kcal/mol','+|-',2.71966),
+        S298 = (2.87772,'cal/(mol*K)','+|-',2.08662),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C[CH]1 smiles:BrC1=C(Br)C[CH]1 H298:81.75 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)[CH]1 smiles:BrC1=C(Br)C(Br)[CH]1 H298:85.15 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC(Br)DC1Br smiles:Br[C]1CC(Br)=C1Br H298:84.70 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)[CH]1 smiles:BrC1=C(Br)C(Br)(Br)[CH]1 H298:90.39 kcal/mol
 """,
 )
 
@@ -9930,11 +12406,21 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.41563,0.268552,0.0920187,-0.0284044,-0.14817,-0.181674,-0.188268],'cal/(mol*K)','+|-',[0.64933,0.715687,0.761787,0.757522,0.637575,0.505635,0.748896]),
+        H298 = (0.940566,'kcal/mol','+|-',2.79296),
+        S298 = (2.57841,'cal/(mol*K)','+|-',2.14286),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC(Cl)C1Cl smiles:Cl[C]1C(Cl)=C(Cl)C1Cl H298:43.88 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C[CH]1 smiles:ClC1=C(Cl)C[CH]1 H298:58.44 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)(Cl)[CH]1 H298:45.32 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)DC1Cl smiles:Cl[C]1CC(Cl)=C1Cl H298:50.63 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)[CH]1 H298:51.17 kcal/mol
 """,
 )
 
@@ -9950,11 +12436,21 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0859406,-0.00752882,-0.0891593,-0.152574,-0.170006,-0.139965,-0.115828],'cal/(mol*K)','+|-',[0.614755,0.677578,0.721223,0.717185,0.603626,0.478711,0.709019]),
+        H298 = (3.72267,'kcal/mol','+|-',2.64425),
+        S298 = (2.06006,'cal/(mol*K)','+|-',2.02876),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC(F)C1(F)F smiles:F[C]1C(F)=C(F)C1(F)F H298:-148.51 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)DC1F smiles:F[C]1CC(F)=C1F H298:-54.48 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)[CH]1 smiles:FC1=C(F)C(F)(F)[CH]1 H298:-109.99 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)[CH]1 smiles:FC1=C(F)C(F)[CH]1 H298:-58.81 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C[CH]1 smiles:FC1=C(F)C[CH]1 H298:-13.30 kcal/mol
 """,
 )
 
@@ -9992,11 +12488,18 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.708952,0.482848,0.238757,0.0550461,-0.141839,-0.233256,-0.319114],'cal/(mol*K)','+|-',[0.701074,0.772718,0.822491,0.817886,0.688382,0.545927,0.808574]),
+        H298 = (-0.591241,'kcal/mol','+|-',3.01553),
+        S298 = (4.62682,'cal/(mol*K)','+|-',2.31362),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC[CH]C1(Br)Br smiles:BrC1=C[CH]C1(Br)Br H298:87.06 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)[CH]1 smiles:BrC1=C(Br)C(Br)(Br)[CH]1 H298:90.39 kcal/mol
 """,
 )
 
@@ -10013,11 +12516,19 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.338661,0.290153,0.227665,0.15956,0.047565,0.0146653,0.0964535],'cal/(mol*K)','+|-',[0.665664,0.73369,0.78095,0.776577,0.653613,0.518354,0.767735]),
+        H298 = (2.89566,'kcal/mol','+|-',2.86322),
+        S298 = (3.71747,'cal/(mol*K)','+|-',2.19677),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC(F)C1(F)F smiles:F[C]1C(F)=C(F)C1(F)F H298:-148.51 kcal/mol
+library:CHOF_G4 label:FC1DC[CH]C1(F)F smiles:FC1=C[CH]C1(F)F H298:-65.62 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)[CH]1 smiles:FC1=C(F)C(F)(F)[CH]1 H298:-109.99 kcal/mol
 """,
 )
 
@@ -10055,11 +12566,17 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.306105,-0.0610376,-0.0953702,-0.283936,-0.379676,-0.401213,-0.316817],'cal/(mol*K)','+|-',[1.78038,1.96232,2.08872,2.07702,1.74815,1.38638,2.05337]),
+        H298 = (4.46071,'kcal/mol','+|-',7.65794),
+        S298 = (6.46899,'cal/(mol*K)','+|-',5.87545),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1CDCC1(Br)Br smiles:Br[C]1C=CC1(Br)Br H298:87.06 kcal/mol
 """,
 )
 
@@ -10076,11 +12593,19 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0208231,-0.0646239,-0.0534124,-0.152061,-0.255087,-0.247216,0.388695],'cal/(mol*K)','+|-',[1.38682,1.52855,1.627,1.6179,1.36172,1.07992,1.59947]),
+        H298 = (8.72792,'kcal/mol','+|-',5.96514),
+        S298 = (3.61525,'cal/(mol*K)','+|-',4.57668),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC(F)C1(F)F smiles:F[C]1C(F)=C(F)C1(F)F H298:-148.51 kcal/mol
+library:CHOF_G4 label:F[C]1CDCC1(F)F smiles:F[C]1C=CC1(F)F H298:-65.62 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DCC1(F)F smiles:F[C]1C(F)=CC1(F)F H298:-109.99 kcal/mol
 """,
 )
 
@@ -10118,11 +12643,18 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.292351,-0.239092,-0.337491,-0.447706,-0.500669,-0.527271,-1.47078],'cal/(mol*K)','+|-',[0.639294,0.704625,0.750012,0.745813,0.62772,0.497819,0.737321]),
+        H298 = (0.682342,'kcal/mol','+|-',2.74979),
+        S298 = (2.62381,'cal/(mol*K)','+|-',2.10974),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OC(Br)C1(Br)Br smiles:Br[C]1OC(Br)C1(Br)Br H298:39.60 kcal/mol
+library:CHOBr_G4 label:Br[C]1OCC1(Br)Br smiles:Br[C]1OCC1(Br)Br H298:33.89 kcal/mol
 """,
 )
 
@@ -10139,11 +12671,19 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.29547,-0.384248,-0.107958,-0.184085,-0.210045,-0.168727,-1.99761],'cal/(mol*K)','+|-',[1.29221,1.42427,1.51601,1.50752,1.26882,1.00625,1.49036]),
+        H298 = (5.31498,'kcal/mol','+|-',5.5582),
+        S298 = (2.63541,'cal/(mol*K)','+|-',4.26445),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OCC1(F)F smiles:F[C]1OCC1(F)F H298:-125.33 kcal/mol
+library:CHOF_G4 label:F[C]1OC(F)(F)C1(F)F smiles:F[C]1OC(F)(F)C1(F)F H298:-227.57 kcal/mol
+library:CHOF_G4 label:F[C]1OC(F)C1(F)F smiles:F[C]1OC(F)C1(F)F H298:-174.30 kcal/mol
 """,
 )
 
@@ -10179,11 +12719,20 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.435432,0.240499,0.0534464,-0.0629968,-0.196335,-0.234983,-0.279874],'cal/(mol*K)','+|-',[0.632288,0.696903,0.741793,0.73764,0.620841,0.492364,0.729241]),
+        H298 = (0.823677,'kcal/mol','+|-',2.71966),
+        S298 = (2.87772,'cal/(mol*K)','+|-',2.08662),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C[CH]1 smiles:BrC1=C(Br)C[CH]1 H298:81.75 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)[CH]1 smiles:BrC1=C(Br)C(Br)[CH]1 H298:85.15 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC(Br)DC1Br smiles:Br[C]1CC(Br)=C1Br H298:84.70 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)[CH]1 smiles:BrC1=C(Br)C(Br)(Br)[CH]1 H298:90.39 kcal/mol
 """,
 )
 
@@ -10199,11 +12748,21 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.41563,0.268552,0.0920187,-0.0284044,-0.14817,-0.181674,-0.188268],'cal/(mol*K)','+|-',[0.64933,0.715687,0.761787,0.757522,0.637575,0.505635,0.748896]),
+        H298 = (0.940566,'kcal/mol','+|-',2.79296),
+        S298 = (2.57841,'cal/(mol*K)','+|-',2.14286),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC(Cl)C1Cl smiles:Cl[C]1C(Cl)=C(Cl)C1Cl H298:43.88 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C[CH]1 smiles:ClC1=C(Cl)C[CH]1 H298:58.44 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)(Cl)[CH]1 H298:45.32 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)DC1Cl smiles:Cl[C]1CC(Cl)=C1Cl H298:50.63 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)[CH]1 H298:51.17 kcal/mol
 """,
 )
 
@@ -10219,11 +12778,21 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0859406,-0.00752882,-0.0891593,-0.152574,-0.170006,-0.139965,-0.115828],'cal/(mol*K)','+|-',[0.614755,0.677578,0.721223,0.717185,0.603626,0.478711,0.709019]),
+        H298 = (3.72267,'kcal/mol','+|-',2.64425),
+        S298 = (2.06006,'cal/(mol*K)','+|-',2.02876),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC(F)C1(F)F smiles:F[C]1C(F)=C(F)C1(F)F H298:-148.51 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)DC1F smiles:F[C]1CC(F)=C1F H298:-54.48 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)[CH]1 smiles:FC1=C(F)C(F)(F)[CH]1 H298:-109.99 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)[CH]1 smiles:FC1=C(F)C(F)[CH]1 H298:-58.81 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C[CH]1 smiles:FC1=C(F)C[CH]1 H298:-13.30 kcal/mol
 """,
 )
 
@@ -10261,11 +12830,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.270328,0.155595,0.0372841,-0.0587404,-0.14644,-0.173387,-0.189164],'cal/(mol*K)','+|-',[0.649671,0.716063,0.762187,0.75792,0.63791,0.5059,0.74929]),
+        H298 = (0.860071,'kcal/mol','+|-',2.79443),
+        S298 = (4.12347,'cal/(mol*K)','+|-',2.14399),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)[CH]1 smiles:BrC1=C(Br)C(Br)[CH]1 H298:85.15 kcal/mol
+library:CHOBr_G4 label:BrC1DC[CH]C1Br smiles:BrC1=C[CH]C1Br H298:82.05 kcal/mol
+library:CHOBr_G4 label:Br[C]1CDC(Br)C1Br smiles:Br[C]1C=C(Br)C1Br H298:85.30 kcal/mol
 """,
 )
 
@@ -10282,11 +12859,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.402267,0.319139,0.228487,0.138157,-0.00458927,-0.0801329,-0.108598],'cal/(mol*K)','+|-',[0.646023,0.712042,0.757907,0.753663,0.634328,0.503059,0.745082]),
+        H298 = (0.347434,'kcal/mol','+|-',2.77874),
+        S298 = (3.37118,'cal/(mol*K)','+|-',2.13195),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC(Cl)C1Cl smiles:Cl[C]1C(Cl)=C(Cl)C1Cl H298:43.88 kcal/mol
+library:CHOCl_G4 label:ClC1DC[CH]C1Cl smiles:ClC1=C[CH]C1Cl H298:59.56 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)[CH]1 H298:51.17 kcal/mol
 """,
 )
 
@@ -10303,11 +12888,19 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.390569,0.345434,0.202068,0.0843278,-0.037603,-0.0870504,-0.0553824],'cal/(mol*K)','+|-',[0.62911,0.6934,0.738064,0.733932,0.617721,0.489889,0.725575]),
+        H298 = (2.93421,'kcal/mol','+|-',2.70599),
+        S298 = (3.62677,'cal/(mol*K)','+|-',2.07613),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1CDC(F)C1F smiles:F[C]1C=C(F)C1F H298:-56.04 kcal/mol
+library:CHOF_G4 label:FC1DC[CH]C1F smiles:FC1=C[CH]C1F H298:-13.52 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)[CH]1 smiles:FC1=C(F)C(F)[CH]1 H298:-58.81 kcal/mol
 """,
 )
 
@@ -10345,11 +12938,18 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.292351,-0.239092,-0.337491,-0.447706,-0.500669,-0.527271,-1.47078],'cal/(mol*K)','+|-',[0.639294,0.704625,0.750012,0.745813,0.62772,0.497819,0.737321]),
+        H298 = (0.682342,'kcal/mol','+|-',2.74979),
+        S298 = (2.62381,'cal/(mol*K)','+|-',2.10974),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OC(Br)C1(Br)Br smiles:Br[C]1OC(Br)C1(Br)Br H298:39.60 kcal/mol
+library:CHOBr_G4 label:Br[C]1OCC1(Br)Br smiles:Br[C]1OCC1(Br)Br H298:33.89 kcal/mol
 """,
 )
 
@@ -10366,11 +12966,17 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.37495,-1.09418,-1.14747,-1.28148,-1.19479,-1.04819,-2.44229],'cal/(mol*K)','+|-',[1.50898,1.66319,1.77032,1.76041,1.48166,1.17504,1.74036]),
+        H298 = (1.28084,'kcal/mol','+|-',6.49058),
+        S298 = (4.55823,'cal/(mol*K)','+|-',4.97981),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OCC1(Cl)Cl smiles:Cl[C]1OCC1(Cl)Cl H298:-0.87 kcal/mol
 """,
 )
 
@@ -10410,11 +13016,18 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.231773,-0.376652,-0.469487,-0.574439,-0.611774,-0.53019,-0.0905791],'cal/(mol*K)','+|-',[0.540476,0.595709,0.63408,0.63053,0.530692,0.42087,0.623351]),
+        H298 = (1.13558,'kcal/mol','+|-',2.32475),
+        S298 = (2.70816,'cal/(mol*K)','+|-',1.78363),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1(Br)CDCC1(Br)Br smiles:BrC1(Br)C=CC1(Br)Br H298:59.58 kcal/mol
+library:CHOBr_G4 label:BrC1DCC(Br)(Br)C1(Br)Br smiles:BrC1=CC(Br)(Br)C1(Br)Br H298:62.25 kcal/mol
 """,
 )
 
@@ -10432,11 +13045,18 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.278731,-0.377519,-0.427328,-0.476159,-0.454191,-0.352387,0.202376],'cal/(mol*K)','+|-',[0.539999,0.595182,0.63352,0.629973,0.530223,0.420498,0.6228]),
+        H298 = (0.737809,'kcal/mol','+|-',2.3227),
+        S298 = (1.9182,'cal/(mol*K)','+|-',1.78206),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DCC(Cl)(Cl)C1(Cl)Cl smiles:ClC1=CC(Cl)(Cl)C1(Cl)Cl H298:4.39 kcal/mol
+library:CHOCl_G4 label:ClC1(Cl)CDCC1(Cl)Cl smiles:ClC1(Cl)C=CC1(Cl)Cl H298:12.75 kcal/mol
 """,
 )
 
@@ -10454,11 +13074,18 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.361574,-0.197925,-0.101463,-0.110111,-0.0430171,0.0664854,0.529081],'cal/(mol*K)','+|-',[0.539821,0.594986,0.633311,0.629766,0.530048,0.420359,0.622595]),
+        H298 = (2.28158,'kcal/mol','+|-',2.32193),
+        S298 = (1.50731,'cal/(mol*K)','+|-',1.78147),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DCC(F)(F)C1(F)F smiles:FC1=CC(F)(F)C1(F)F H298:-204.58 kcal/mol
+library:CHOF_G4 label:FC1(F)CDCC1(F)F smiles:FC1(F)C=CC1(F)F H298:-160.87 kcal/mol
 """,
 )
 
@@ -10494,11 +13121,18 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.268453,-0.441978,-0.563056,-0.604936,-0.528336,-0.380037,-0.0885324],'cal/(mol*K)','+|-',[0.801396,0.883293,0.940189,0.934925,0.786888,0.624048,0.924279]),
+        H298 = (-0.373645,'kcal/mol','+|-',3.44705),
+        S298 = (2.62974,'cal/(mol*K)','+|-',2.6447),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)O[CH]1 smiles:BrC1=C(Br)O[CH]1 H298:64.62 kcal/mol
+library:CHOBr_G4 label:Br[C]1OC(Br)DC1Br smiles:Br[C]1OC(Br)=C1Br H298:69.24 kcal/mol
 """,
 )
 
@@ -10514,11 +13148,18 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.105621,-0.172493,-0.221417,-0.246959,-0.224827,-0.147446,0.070318],'cal/(mol*K)','+|-',[0.749638,0.826245,0.879466,0.874542,0.736067,0.583744,0.864585]),
+        H298 = (-1.13789,'kcal/mol','+|-',3.22442),
+        S298 = (1.73236,'cal/(mol*K)','+|-',2.47389),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OC(Cl)DC1Cl smiles:Cl[C]1OC(Cl)=C1Cl H298:34.40 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)O[CH]1 smiles:ClC1=C(Cl)O[CH]1 H298:41.29 kcal/mol
 """,
 )
 
@@ -10556,11 +13197,17 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.3654,-2.30196,-2.63893,-2.69014,-2.41356,-1.99446,-1.04845],'cal/(mol*K)','+|-',[1.79198,1.9751,2.10232,2.09055,1.75953,1.39541,2.06675]),
+        H298 = (7.25266,'kcal/mol','+|-',7.70783),
+        S298 = (8.01351,'cal/(mol*K)','+|-',5.91373),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)O1 smiles:BrC1=C(Br)C(Br)(Br)O1 H298:34.08 kcal/mol
 """,
 )
 
@@ -10577,11 +13224,18 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.04689,-1.64876,-1.87317,-1.87631,-1.51379,-1.09256,-0.460361],'cal/(mol*K)','+|-',[0.548679,0.60475,0.643703,0.640099,0.538746,0.427257,0.632811]),
+        H298 = (11.1077,'kcal/mol','+|-',2.36003),
+        S298 = (4.32308,'cal/(mol*K)','+|-',1.8107),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)C(F)(F)O1 smiles:FC1=C(F)C(F)(F)O1 H298:-173.72 kcal/mol
+library:CHOF_G4 label:FC1DCOC1(F)F smiles:FC1=COC1(F)F H298:-129.80 kcal/mol
 """,
 )
 
@@ -10619,11 +13273,22 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.173547,-0.234461,-0.243635,-0.223,-0.191438,-0.132948,0.00213761],'cal/(mol*K)','+|-',[0.295047,0.325199,0.346146,0.344208,0.289706,0.229754,0.340289]),
+        H298 = (0.745781,'kcal/mol','+|-',1.26909),
+        S298 = (0.317212,'cal/(mol*K)','+|-',0.973689),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)CC1Br smiles:Br[C]1C(Br)CC1Br H298:54.10 kcal/mol
+library:CHOBr_G4 label:Br[C]1CCC1Br smiles:Br[C]1CCC1Br H298:53.61 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)CC1(Br)Br smiles:Br[C]1C(Br)CC1(Br)Br H298:60.44 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC(Br)(Br)C1Br smiles:Br[C]1CC(Br)(Br)C1Br H298:64.83 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC(Br)C1Br smiles:Br[C]1CC(Br)C1Br H298:57.38 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C(Br)C1Br smiles:Br[C]1C(Br)C(Br)C1Br H298:59.36 kcal/mol
 """,
 )
 
@@ -10640,11 +13305,22 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.254463,-0.32685,-0.278467,-0.191379,-0.140305,-0.125329,0.0884196],'cal/(mol*K)','+|-',[0.271004,0.298699,0.317939,0.316159,0.266098,0.211032,0.312559]),
+        H298 = (1.49238,'kcal/mol','+|-',1.16567),
+        S298 = (1.50733,'cal/(mol*K)','+|-',0.894346),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1CCC1Cl smiles:Cl[C]1CCC1Cl H298:31.41 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C(Cl)C1Cl smiles:Cl[C]1C(Cl)C(Cl)C1Cl H298:16.55 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)CC1Cl smiles:Cl[C]1C(Cl)CC1Cl H298:23.35 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)C1Cl smiles:Cl[C]1CC(Cl)C1Cl H298:23.97 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)(Cl)C1Cl smiles:Cl[C]1CC(Cl)(Cl)C1Cl H298:19.49 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)CC1(Cl)Cl smiles:Cl[C]1C(Cl)CC1(Cl)Cl H298:16.61 kcal/mol
 """,
 )
 
@@ -10661,11 +13337,24 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.362714,-0.310273,-0.211102,-0.134882,-0.137356,-0.0860584,0.105166],'cal/(mol*K)','+|-',[0.249793,0.27532,0.293054,0.291414,0.245271,0.194514,0.288096]),
+        H298 = (1.9069,'kcal/mol','+|-',1.07444),
+        S298 = (1.04014,'cal/(mol*K)','+|-',0.824346),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1CC(F)(F)C1F smiles:F[C]1CC(F)(F)C1F H298:-140.77 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1F smiles:F[C]1C(F)C(F)C1F H298:-132.35 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)CC1(F)F smiles:F[C]1C(F)CC1(F)F H298:-141.39 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1(F)F smiles:F[C]1C(F)C(F)C1(F)F H298:-182.20 kcal/mol
+library:CHOF_G4 label:F[C]1CCC1F smiles:F[C]1CCC1F H298:-43.42 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)C1F smiles:F[C]1CC(F)C1F H298:-88.93 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)CC1F smiles:F[C]1C(F)CC1F H298:-88.67 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)(F)C1F smiles:F[C]1C(F)C(F)(F)C1F H298:-181.47 kcal/mol
 """,
 )
 
@@ -10703,11 +13392,18 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.190752,0.0339871,-0.0491533,-0.099449,-0.184761,-0.159625,-0.105511],'cal/(mol*K)','+|-',[0.541498,0.596835,0.635279,0.631723,0.531695,0.421666,0.62453]),
+        H298 = (0.402319,'kcal/mol','+|-',2.32915),
+        S298 = (2.04375,'cal/(mol*K)','+|-',1.78701),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)CC1(Br)Br smiles:Br[C]1C(Br)CC1(Br)Br H298:60.44 kcal/mol
+library:CHOBr_G4 label:Br[C]1CCC1(Br)Br smiles:Br[C]1CCC1(Br)Br H298:56.68 kcal/mol
 """,
 )
 
@@ -10724,11 +13420,19 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.524508,-0.651453,-0.46968,-0.345964,-0.493891,-0.496012,0.241417],'cal/(mol*K)','+|-',[0.953042,1.05044,1.1181,1.11184,0.935789,0.742136,1.09918]),
+        H298 = (2.82827,'kcal/mol','+|-',4.09932),
+        S298 = (4.46997,'cal/(mol*K)','+|-',3.14515),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1CC(Cl)C1(Cl)Cl smiles:Cl[C]1CC(Cl)C1(Cl)Cl H298:18.20 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CCC1(Cl)Cl smiles:Cl[C]1CCC1(Cl)Cl H298:23.79 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)CC1(Cl)Cl smiles:Cl[C]1C(Cl)CC1(Cl)Cl H298:16.61 kcal/mol
 """,
 )
 
@@ -10745,11 +13449,22 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.802124,-0.59305,-0.242322,-0.0991163,-0.185149,-0.0648075,0.519737],'cal/(mol*K)','+|-',[0.621472,0.684982,0.729103,0.725021,0.610221,0.483941,0.716766]),
+        H298 = (6.62244,'kcal/mol','+|-',2.67314),
+        S298 = (3.97,'cal/(mol*K)','+|-',2.05093),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)CC1(F)F smiles:F[C]1C(F)CC1(F)F H298:-141.39 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)(F)C1(F)F smiles:F[C]1CC(F)(F)C1(F)F H298:-190.62 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)C1(F)F smiles:F[C]1CC(F)C1(F)F H298:-139.17 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1(F)F smiles:F[C]1C(F)C(F)C1(F)F H298:-182.20 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)(F)CC1(F)F smiles:F[C]1C(F)(F)CC1(F)F H298:-192.97 kcal/mol
+library:CHOF_G4 label:F[C]1CCC1(F)F smiles:F[C]1CCC1(F)F H298:-96.74 kcal/mol
 """,
 )
 
@@ -10785,11 +13500,19 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0611581,-0.0409755,-0.075638,-0.102299,-0.103422,-0.102164,-0.133593],'cal/(mol*K)','+|-',[0.649671,0.716063,0.762187,0.75792,0.63791,0.5059,0.74929]),
+        H298 = (2.93558,'kcal/mol','+|-',2.79443),
+        S298 = (2.55631,'cal/(mol*K)','+|-',2.14399),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1CC(Br)DC1Br smiles:Br[C]1CC(Br)=C1Br H298:84.70 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)DCC1Br smiles:Br[C]1C(Br)=CC1Br H298:85.15 kcal/mol
+library:CHOBr_G4 label:Br[C]1CCDC1Br smiles:Br[C]1CC=C1Br H298:81.75 kcal/mol
 """,
 )
 
@@ -10805,11 +13528,19 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0892578,-0.0109689,-0.01679,-0.0202117,-0.0630024,-0.110865,-0.0572875],'cal/(mol*K)','+|-',[0.646023,0.712042,0.757907,0.753663,0.634328,0.503059,0.745082]),
+        H298 = (2.39419,'kcal/mol','+|-',2.77874),
+        S298 = (0.984638,'cal/(mol*K)','+|-',2.13195),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC(Cl)C1Cl smiles:Cl[C]1C(Cl)=C(Cl)C1Cl H298:43.88 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CCDC1Cl smiles:Cl[C]1CC=C1Cl H298:58.44 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)DC1Cl smiles:Cl[C]1CC(Cl)=C1Cl H298:50.63 kcal/mol
 """,
 )
 
@@ -10825,11 +13556,21 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0810854,-0.151261,-0.208268,-0.259693,-0.267094,-0.238353,-0.0868424],'cal/(mol*K)','+|-',[0.596355,0.657298,0.699637,0.69572,0.585559,0.464383,0.687798]),
+        H298 = (4.72034,'kcal/mol','+|-',2.5651),
+        S298 = (1.64892,'cal/(mol*K)','+|-',1.96804),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC(F)C1(F)F smiles:F[C]1C(F)=C(F)C1(F)F H298:-148.51 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)DC1F smiles:F[C]1CC(F)=C1F H298:-54.48 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DCC1F smiles:F[C]1C(F)=CC1F H298:-58.81 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DCC1(F)F smiles:F[C]1C(F)=CC1(F)F H298:-109.99 kcal/mol
+library:CHOF_G4 label:F[C]1CCDC1F smiles:F[C]1CC=C1F H298:-13.30 kcal/mol
 """,
 )
 
@@ -10869,11 +13610,18 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.86294,-2.134,-2.36144,-2.51919,-2.36166,-1.93317,-3.08049],'cal/(mol*K)','+|-',[1.27073,1.40059,1.49081,1.48246,1.24773,0.989523,1.46558]),
+        H298 = (1.00522,'kcal/mol','+|-',5.46581),
+        S298 = (7.19048,'cal/(mol*K)','+|-',4.19357),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1[CH]OC1Br smiles:BrC1[CH]OC1Br H298:28.83 kcal/mol
+library:CHOBr_G4 label:Br[C]1OC(Br)C1Br smiles:Br[C]1OC(Br)C1Br H298:30.92 kcal/mol
 """,
 )
 
@@ -10913,11 +13661,17 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.64582,1.16557,0.538422,-0.0553396,-0.952859,-1.2244,-0.819802],'cal/(mol*K)','+|-',[1.71045,1.88525,2.00668,1.99545,1.67948,1.33193,1.97272]),
+        H298 = (6.34314,'kcal/mol','+|-',7.35716),
+        S298 = (7.0305,'cal/(mol*K)','+|-',5.64468),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1(Br)[CH]CC1(Br)Br smiles:BrC1(Br)[CH]CC1(Br)Br H298:71.63 kcal/mol
 """,
 )
 
@@ -10935,11 +13689,19 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.142809,-0.00987034,0.0478691,0.0608075,0.0151223,0.0786346,0.387778],'cal/(mol*K)','+|-',[0.651525,0.718107,0.764362,0.760083,0.639731,0.507344,0.751428]),
+        H298 = (5.72308,'kcal/mol','+|-',2.80241),
+        S298 = (2.11428,'cal/(mol*K)','+|-',2.15011),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1(F)[CH]CC1(F)F smiles:FC1(F)[CH]CC1(F)F H298:-147.47 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)(F)C1(F)F smiles:F[C]1CC(F)(F)C1(F)F H298:-190.62 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)(F)C1(F)F smiles:FC1[CH]C(F)(F)C1(F)F H298:-188.19 kcal/mol
 """,
 )
 
@@ -10979,11 +13741,19 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.689065,-0.839539,-0.992925,-1.11629,-1.10789,-1.00481,-1.61753],'cal/(mol*K)','+|-',[0.295935,0.326178,0.347188,0.345244,0.290578,0.230445,0.341313]),
+        H298 = (1.42504,'kcal/mol','+|-',1.27291),
+        S298 = (3.19947,'cal/(mol*K)','+|-',0.976621),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1OC(Br)C1(Br)Br smiles:BrC1OC(Br)C1(Br)Br H298:-1.45 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)(Br)C1(Br)Br smiles:BrC1OC(Br)(Br)C1(Br)Br H298:7.32 kcal/mol
+library:CHOBr_G4 label:BrC1OCC1(Br)Br smiles:BrC1OCC1(Br)Br H298:-5.86 kcal/mol
 """,
 )
 
@@ -11001,11 +13771,19 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.53091,-1.5679,-1.74303,-2.01923,-2.04671,-1.82249,-2.85409],'cal/(mol*K)','+|-',[0.591871,0.652356,0.694376,0.690488,0.581156,0.460891,0.682626]),
+        H298 = (2.76532,'kcal/mol','+|-',2.54581),
+        S298 = (6.08505,'cal/(mol*K)','+|-',1.95324),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1OC(Cl)C1(Cl)Cl smiles:ClC1OC(Cl)C1(Cl)Cl H298:-49.42 kcal/mol
+library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1(Cl)Cl smiles:ClC1OC(Cl)(Cl)C1(Cl)Cl H298:-53.54 kcal/mol
+library:CHOCl_G4 label:ClC1OCC1(Cl)Cl smiles:ClC1OCC1(Cl)Cl H298:-41.67 kcal/mol
 """,
 )
 
@@ -11023,11 +13801,19 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.35144,-1.17056,-1.2119,-1.36764,-1.35951,-1.16646,-2.59728],'cal/(mol*K)','+|-',[0.620759,0.684196,0.728268,0.72419,0.609521,0.483386,0.715944]),
+        H298 = (5.40113,'kcal/mol','+|-',2.67007),
+        S298 = (5.27402,'cal/(mol*K)','+|-',2.04858),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1OC(F)(F)C1(F)F smiles:FC1OC(F)(F)C1(F)F H298:-276.91 kcal/mol
+library:CHOF_G4 label:FC1OCC1(F)F smiles:FC1OCC1(F)F H298:-172.00 kcal/mol
+library:CHOF_G4 label:FC1OC(F)C1(F)F smiles:FC1OC(F)C1(F)F H298:-221.98 kcal/mol
 """,
 )
 
@@ -11067,11 +13853,17 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.53893,-2.24371,-2.06827,-2.56666,-2.72275,-2.48153,-1.64712],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (4.20137,'kcal/mol','+|-',5.97046),
+        S298 = (11.0903,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1OOC1(Br)Br smiles:BrC1OOC1(Br)Br H298:16.48 kcal/mol
 """,
 )
 
@@ -11089,11 +13881,17 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.26397,-1.91502,-1.80437,-2.32637,-2.39204,-2.13248,-1.39612],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (4.08231,'kcal/mol','+|-',5.97046),
+        S298 = (10.6839,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1OOC1(Cl)Cl smiles:ClC1OOC1(Cl)Cl H298:-20.46 kcal/mol
 """,
 )
 
@@ -11111,11 +13909,17 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.79504,-1.36222,-1.18596,-1.61093,-1.54881,-1.28752,-0.806112],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (5.97071,'kcal/mol','+|-',5.97046),
+        S298 = (8.66425,'cal/(mol*K)','+|-',4.58075),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1OOC1(F)F smiles:FC1OOC1(F)F H298:-157.28 kcal/mol
 """,
 )
 
@@ -11155,11 +13959,18 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.07076,-1.20416,-1.61965,-2.01194,-2.17174,-2.09713,-4.06352],'cal/(mol*K)','+|-',[1.02515,1.12991,1.20269,1.19596,1.00659,0.798286,1.18234]),
+        H298 = (4.29651,'kcal/mol','+|-',4.40948),
+        S298 = (8.88634,'cal/(mol*K)','+|-',3.38311),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1(Br)COC1(Br)Br smiles:BrC1(Br)COC1(Br)Br H298:2.01 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)(Br)C1(Br)Br smiles:BrC1OC(Br)(Br)C1(Br)Br H298:7.32 kcal/mol
 """,
 )
 
@@ -11177,11 +13988,18 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.17245,-1.14954,-1.54504,-1.84985,-1.87065,-1.70607,-3.56182],'cal/(mol*K)','+|-',[1.02515,1.12991,1.20269,1.19596,1.00659,0.798286,1.18234]),
+        H298 = (3.44572,'kcal/mol','+|-',4.40948),
+        S298 = (8.43037,'cal/(mol*K)','+|-',3.38311),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1(Cl)COC1(Cl)Cl smiles:ClC1(Cl)COC1(Cl)Cl H298:-46.61 kcal/mol
+library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1(Cl)Cl smiles:ClC1OC(Cl)(Cl)C1(Cl)Cl H298:-53.54 kcal/mol
 """,
 )
 
@@ -11199,11 +14017,17 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.815501,-0.651908,-0.602197,-0.811581,-0.806029,-0.635813,-1.38414],'cal/(mol*K)','+|-',[1.52054,1.67593,1.78388,1.77389,1.49301,1.18405,1.7537]),
+        H298 = (5.5126,'kcal/mol','+|-',6.54031),
+        S298 = (4.9147,'cal/(mol*K)','+|-',5.01796),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1OC(F)(F)C1(F)F smiles:FC1OC(F)(F)C1(F)F H298:-276.91 kcal/mol
 """,
 )
 
@@ -11243,11 +14067,19 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.849776,-0.931992,-1.04996,-1.13635,-1.06647,-0.943568,-1.58058],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (-0.0361684,'kcal/mol','+|-',1.236),
+        S298 = (1.19659,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1COC1Br smiles:BrC1COC1Br H298:-14.15 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)C1Br smiles:BrC1OC(Br)C1Br H298:-14.72 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)(Br)C1Br smiles:BrC1OC(Br)(Br)C1Br H298:-4.23 kcal/mol
 """,
 )
 
@@ -11265,11 +14097,19 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.773793,-0.796826,-0.850856,-0.927682,-0.945725,-0.861071,-1.46778],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.660531,'kcal/mol','+|-',1.236),
+        S298 = (3.22979,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1COC1Cl smiles:ClC1COC1Cl H298:-37.55 kcal/mol
+library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1Cl smiles:ClC1OC(Cl)(Cl)C1Cl H298:-52.43 kcal/mol
+library:CHOCl_G4 label:ClC1OC(Cl)C1Cl smiles:ClC1OC(Cl)C1Cl H298:-46.96 kcal/mol
 """,
 )
 
@@ -11287,11 +14127,19 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.480214,-0.456664,-0.597852,-0.701618,-0.651403,-0.554441,-1.32124],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (1.52292,'kcal/mol','+|-',1.236),
+        S298 = (2.86812,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1COC1F smiles:FC1COC1F H298:-119.84 kcal/mol
+library:CHOF_G4 label:FC1OC(F)(F)C1F smiles:FC1OC(F)(F)C1F H298:-228.01 kcal/mol
+library:CHOF_G4 label:FC1OC(F)C1F smiles:FC1OC(F)C1F H298:-171.20 kcal/mol
 """,
 )
 
@@ -11331,11 +14179,19 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.292554,0.127055,-0.0250132,-0.152375,-0.356436,-0.390882,-0.2153],'cal/(mol*K)','+|-',[0.343111,0.378174,0.402534,0.40028,0.336899,0.267181,0.395723]),
+        H298 = (2.26304,'kcal/mol','+|-',1.47582),
+        S298 = (2.50943,'cal/(mol*K)','+|-',1.13231),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1CC(Br)(Br)C1Br smiles:Br[C]1CC(Br)(Br)C1Br H298:64.83 kcal/mol
+library:CHOBr_G4 label:BrC1[CH]C(Br)C1(Br)Br smiles:BrC1[CH]C(Br)C1(Br)Br H298:68.97 kcal/mol
+library:CHOBr_G4 label:BrC1[CH]CC1(Br)Br smiles:BrC1[CH]CC1(Br)Br H298:64.35 kcal/mol
 """,
 )
 
@@ -11353,11 +14209,19 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.188704,0.138727,0.0504063,-0.0253163,-0.186311,-0.208804,0.0205212],'cal/(mol*K)','+|-',[0.34256,0.377567,0.401887,0.399637,0.336358,0.266752,0.395087]),
+        H298 = (2.67509,'kcal/mol','+|-',1.47345),
+        S298 = (2.54477,'cal/(mol*K)','+|-',1.13049),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1[CH]CC1(Cl)Cl smiles:ClC1[CH]CC1(Cl)Cl H298:30.36 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)(Cl)C1Cl smiles:Cl[C]1CC(Cl)(Cl)C1Cl H298:19.49 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]C(Cl)C1(Cl)Cl smiles:ClC1[CH]C(Cl)C1(Cl)Cl H298:24.69 kcal/mol
 """,
 )
 
@@ -11375,11 +14239,21 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0985358,0.00789701,0.0834758,0.0752187,0.0138078,0.0501143,0.264],'cal/(mol*K)','+|-',[0.300665,0.331391,0.352737,0.350762,0.295222,0.234129,0.346768]),
+        H298 = (4.27136,'kcal/mol','+|-',1.29325),
+        S298 = (1.7906,'cal/(mol*K)','+|-',0.99223),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1CC(F)(F)C1F smiles:F[C]1CC(F)(F)C1F H298:-140.77 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)(F)C1(F)F smiles:FC1[CH]C(F)(F)C1(F)F H298:-188.19 kcal/mol
+library:CHOF_G4 label:FC1[CH]CC1(F)F smiles:FC1[CH]CC1(F)F H298:-95.16 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)(F)C1F smiles:F[C]1C(F)C(F)(F)C1F H298:-181.47 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)C1(F)F smiles:FC1[CH]C(F)C1(F)F H298:-137.25 kcal/mol
 """,
 )
 
@@ -11415,11 +14289,19 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0611581,-0.0409755,-0.075638,-0.102299,-0.103422,-0.102164,-0.133593],'cal/(mol*K)','+|-',[0.649671,0.716063,0.762187,0.75792,0.63791,0.5059,0.74929]),
+        H298 = (2.93558,'kcal/mol','+|-',2.79443),
+        S298 = (2.55631,'cal/(mol*K)','+|-',2.14399),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1CC(Br)DC1Br smiles:Br[C]1CC(Br)=C1Br H298:84.70 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)DCC1Br smiles:Br[C]1C(Br)=CC1Br H298:85.15 kcal/mol
+library:CHOBr_G4 label:Br[C]1CCDC1Br smiles:Br[C]1CC=C1Br H298:81.75 kcal/mol
 """,
 )
 
@@ -11435,11 +14317,19 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0892578,-0.0109689,-0.01679,-0.0202117,-0.0630024,-0.110865,-0.0572875],'cal/(mol*K)','+|-',[0.646023,0.712042,0.757907,0.753663,0.634328,0.503059,0.745082]),
+        H298 = (2.39419,'kcal/mol','+|-',2.77874),
+        S298 = (0.984638,'cal/(mol*K)','+|-',2.13195),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC(Cl)C1Cl smiles:Cl[C]1C(Cl)=C(Cl)C1Cl H298:43.88 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CCDC1Cl smiles:Cl[C]1CC=C1Cl H298:58.44 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)DC1Cl smiles:Cl[C]1CC(Cl)=C1Cl H298:50.63 kcal/mol
 """,
 )
 
@@ -11455,11 +14345,21 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0810854,-0.151261,-0.208268,-0.259693,-0.267094,-0.238353,-0.0868424],'cal/(mol*K)','+|-',[0.596355,0.657298,0.699637,0.69572,0.585559,0.464383,0.687798]),
+        H298 = (4.72034,'kcal/mol','+|-',2.5651),
+        S298 = (1.64892,'cal/(mol*K)','+|-',1.96804),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC(F)C1(F)F smiles:F[C]1C(F)=C(F)C1(F)F H298:-148.51 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)DC1F smiles:F[C]1CC(F)=C1F H298:-54.48 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DCC1F smiles:F[C]1C(F)=CC1F H298:-58.81 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DCC1(F)F smiles:F[C]1C(F)=CC1(F)F H298:-109.99 kcal/mol
+library:CHOF_G4 label:F[C]1CCDC1F smiles:F[C]1CC=C1F H298:-13.30 kcal/mol
 """,
 )
 
@@ -11497,11 +14397,20 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.252509,-0.274418,-0.279567,-0.28149,-0.234063,-0.162555,0.00881567],'cal/(mol*K)','+|-',[0.452881,0.499162,0.531315,0.52834,0.444682,0.352659,0.522324]),
+        H298 = (0.663099,'kcal/mol','+|-',1.94798),
+        S298 = (2.05437,'cal/(mol*K)','+|-',1.49456),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1Br smiles:BrC1=C(Br)C(Br)(Br)C1Br H298:56.38 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)C1 smiles:BrC1=C(Br)C(Br)C1 H298:45.48 kcal/mol
+library:CHOBr_G4 label:BrC1DCCC1Br smiles:BrC1=CCC1Br H298:43.23 kcal/mol
+library:CHOBr_G4 label:BrC1DCC(Br)C1Br smiles:BrC1=CC(Br)C1Br H298:46.41 kcal/mol
 """,
 )
 
@@ -11518,11 +14427,20 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.108238,-0.0997628,-0.0640231,-0.0458915,-0.070938,-0.0836424,0.0363649],'cal/(mol*K)','+|-',[0.410462,0.452408,0.481549,0.478853,0.403031,0.319627,0.473401]),
+        H298 = (0.617671,'kcal/mol','+|-',1.76552),
+        S298 = (1.39998,'cal/(mol*K)','+|-',1.35457),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DCCC1Cl smiles:ClC1=CCC1Cl H298:20.39 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1 smiles:ClC1=C(Cl)C(Cl)C1 H298:11.35 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H298:0.06 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)C1Cl H298:4.22 kcal/mol
 """,
 )
 
@@ -11539,11 +14457,21 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.2501,-0.19694,-0.194505,-0.182011,-0.111212,-0.0398357,0.12822],'cal/(mol*K)','+|-',[0.426263,0.469824,0.500087,0.497287,0.418546,0.331932,0.491625]),
+        H298 = (1.56643,'kcal/mol','+|-',1.83349),
+        S298 = (1.78792,'cal/(mol*K)','+|-',1.40672),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)C(F)C1 smiles:FC1=C(F)C(F)C1 H298:-99.56 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)C1F smiles:FC1=CC(F)C1F H298:-102.43 kcal/mol
+library:CHOF_G4 label:FC1DCCC1F smiles:FC1=CCC1F H298:-55.33 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1F smiles:FC1=C(F)C(F)(F)C1F H298:-194.57 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)(F)C1F smiles:FC1=CC(F)(F)C1F H298:-154.18 kcal/mol
 """,
 )
 
@@ -11581,11 +14509,18 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.442709,-0.266901,-0.332682,-0.427974,-0.438965,-0.46144,-1.41708],'cal/(mol*K)','+|-',[0.635368,0.700297,0.745406,0.741232,0.623865,0.494762,0.732793]),
+        H298 = (0.604877,'kcal/mol','+|-',2.73291),
+        S298 = (2.20963,'cal/(mol*K)','+|-',2.09679),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OCC1Br smiles:Br[C]1OCC1Br H298:27.61 kcal/mol
+library:CHOBr_G4 label:Br[C]1OC(Br)C1Br smiles:Br[C]1OC(Br)C1Br H298:30.92 kcal/mol
 """,
 )
 
@@ -11602,11 +14537,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.49671,-0.899039,-0.663564,-0.77801,-0.961562,-0.944726,-2.51032],'cal/(mol*K)','+|-',[1.13739,1.25362,1.33437,1.3269,1.1168,0.885685,1.31179]),
+        H298 = (1.33617,'kcal/mol','+|-',4.89224),
+        S298 = (3.53907,'cal/(mol*K)','+|-',3.75351),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OCC1Cl smiles:Cl[C]1OCC1Cl H298:4.57 kcal/mol
+library:CHOCl_G4 label:Cl[C]1OC(Cl)(Cl)C1Cl smiles:Cl[C]1OC(Cl)(Cl)C1Cl H298:-8.45 kcal/mol
+library:CHOCl_G4 label:Cl[C]1OC(Cl)C1Cl smiles:Cl[C]1OC(Cl)C1Cl H298:-4.11 kcal/mol
 """,
 )
 
@@ -11644,11 +14587,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.688657,-0.601068,-0.542178,-0.551829,-0.487148,-0.371522,-0.00302736],'cal/(mol*K)','+|-',[0.716537,0.789762,0.840633,0.835926,0.703565,0.557968,0.826408]),
+        H298 = (2.79929,'kcal/mol','+|-',3.08204),
+        S298 = (3.32346,'cal/(mol*K)','+|-',2.36465),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1CDCC1Br smiles:Br[C]1C=CC1Br H298:82.05 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)DCC1Br smiles:Br[C]1C(Br)=CC1Br H298:85.15 kcal/mol
+library:CHOBr_G4 label:Br[C]1CDC(Br)C1Br smiles:Br[C]1C=C(Br)C1Br H298:85.30 kcal/mol
 """,
 )
 
@@ -11665,11 +14616,19 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0589844,-0.0856598,-0.148975,-0.238877,-0.258016,-0.237484,0.084223],'cal/(mol*K)','+|-',[0.707349,0.779635,0.829854,0.825207,0.694543,0.550814,0.815811]),
+        H298 = (4.63541,'kcal/mol','+|-',3.04252),
+        S298 = (1.93868,'cal/(mol*K)','+|-',2.33433),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1CDC(F)C1F smiles:F[C]1C=C(F)C1F H298:-56.04 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)DCC1F smiles:F[C]1C(F)=CC1F H298:-58.81 kcal/mol
+library:CHOF_G4 label:F[C]1CDCC1F smiles:F[C]1C=CC1F H298:-13.52 kcal/mol
 """,
 )
 
@@ -11707,11 +14666,18 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.190752,0.0339871,-0.0491533,-0.099449,-0.184761,-0.159625,-0.105511],'cal/(mol*K)','+|-',[0.541498,0.596835,0.635279,0.631723,0.531695,0.421666,0.62453]),
+        H298 = (0.402319,'kcal/mol','+|-',2.32915),
+        S298 = (2.04375,'cal/(mol*K)','+|-',1.78701),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)CC1(Br)Br smiles:Br[C]1C(Br)CC1(Br)Br H298:60.44 kcal/mol
+library:CHOBr_G4 label:Br[C]1CCC1(Br)Br smiles:Br[C]1CCC1(Br)Br H298:56.68 kcal/mol
 """,
 )
 
@@ -11749,11 +14715,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.522071,-0.44791,-0.500362,-0.574189,-0.548203,-0.494944,-1.32334],'cal/(mol*K)','+|-',[0.422976,0.466201,0.496231,0.493453,0.415319,0.329372,0.487834]),
+        H298 = (1.23255,'kcal/mol','+|-',1.81935),
+        S298 = (2.25902,'cal/(mol*K)','+|-',1.39587),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)OC1(Br)Br smiles:Br[C]1C(Br)OC1(Br)Br H298:38.03 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)OC1Br smiles:Br[C]1C(Br)OC1Br H298:32.76 kcal/mol
+library:CHOBr_G4 label:Br[C]1COC1Br smiles:Br[C]1COC1Br H298:31.04 kcal/mol
 """,
 )
 
@@ -11770,11 +14744,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.62354,-0.51288,-0.50407,-0.55296,-0.564731,-0.525808,-1.23314],'cal/(mol*K)','+|-',[0.412494,0.454648,0.483933,0.481224,0.405026,0.32121,0.475744]),
+        H298 = (1.68509,'kcal/mol','+|-',1.77426),
+        S298 = (1.95016,'cal/(mol*K)','+|-',1.36128),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)OC1Cl smiles:Cl[C]1C(Cl)OC1Cl H298:-1.81 kcal/mol
+library:CHOCl_G4 label:Cl[C]1COC1Cl smiles:Cl[C]1COC1Cl H298:7.71 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)OC1(Cl)Cl smiles:Cl[C]1C(Cl)OC1(Cl)Cl H298:-8.23 kcal/mol
 """,
 )
 
@@ -11791,11 +14773,19 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.367305,-0.159625,-0.185028,-0.270188,-0.329693,-0.319171,-1.15745],'cal/(mol*K)','+|-',[0.406382,0.447912,0.476763,0.474094,0.399026,0.316451,0.468696]),
+        H298 = (2.74861,'kcal/mol','+|-',1.74797),
+        S298 = (1.73597,'cal/(mol*K)','+|-',1.34111),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)OC1(F)F smiles:F[C]1C(F)OC1(F)F H298:-177.37 kcal/mol
+library:CHOF_G4 label:F[C]1COC1F smiles:F[C]1COC1F H298:-70.04 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)OC1F smiles:F[C]1C(F)OC1F H298:-121.58 kcal/mol
 """,
 )
 
@@ -11833,11 +14823,17 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.754034,-0.778813,-0.990088,-1.19763,-1.22642,-1.16328,-2.74817],'cal/(mol*K)','+|-',[1.62553,1.79165,1.90705,1.89637,1.5961,1.2658,1.87478]),
+        H298 = (-1.74802,'kcal/mol','+|-',6.99189),
+        S298 = (2.23452,'cal/(mol*K)','+|-',5.36443),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)OC1(Br)Br smiles:Br[C]1C(Br)OC1(Br)Br H298:38.03 kcal/mol
 """,
 )
 
@@ -11854,11 +14850,18 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.483628,-0.19131,-0.234019,-0.361775,-0.546035,-0.592577,-2.17621],'cal/(mol*K)','+|-',[1.17526,1.29536,1.3788,1.37108,1.15398,0.915174,1.35547]),
+        H298 = (2.8738,'kcal/mol','+|-',5.05513),
+        S298 = (5.38763,'cal/(mol*K)','+|-',3.87848),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1COC1(Cl)Cl smiles:Cl[C]1COC1(Cl)Cl H298:0.53 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)OC1(Cl)Cl smiles:Cl[C]1C(Cl)OC1(Cl)Cl H298:-8.23 kcal/mol
 """,
 )
 
@@ -11875,11 +14878,19 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.366658,-0.0664933,-0.0291642,-0.121776,-0.139168,-0.102402,-0.944025],'cal/(mol*K)','+|-',[0.406383,0.447912,0.476763,0.474094,0.399026,0.316451,0.468696]),
+        H298 = (2.73203,'kcal/mol','+|-',1.74797),
+        S298 = (1.29151,'cal/(mol*K)','+|-',1.34111),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)OC1(F)F smiles:F[C]1C(F)OC1(F)F H298:-177.37 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)(F)OC1(F)F smiles:F[C]1C(F)(F)OC1(F)F H298:-232.03 kcal/mol
+library:CHOF_G4 label:F[C]1COC1(F)F smiles:F[C]1COC1(F)F H298:-127.47 kcal/mol
 """,
 )
 
@@ -11919,11 +14930,19 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.689065,-0.839539,-0.992925,-1.11629,-1.10789,-1.00481,-1.61753],'cal/(mol*K)','+|-',[0.295935,0.326178,0.347188,0.345244,0.290578,0.230445,0.341313]),
+        H298 = (1.42504,'kcal/mol','+|-',1.27291),
+        S298 = (3.19947,'cal/(mol*K)','+|-',0.976621),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1OC(Br)C1(Br)Br smiles:BrC1OC(Br)C1(Br)Br H298:-1.45 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)(Br)C1(Br)Br smiles:BrC1OC(Br)(Br)C1(Br)Br H298:7.32 kcal/mol
+library:CHOBr_G4 label:BrC1OCC1(Br)Br smiles:BrC1OCC1(Br)Br H298:-5.86 kcal/mol
 """,
 )
 
@@ -11963,11 +14982,18 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.144069,-0.607821,-0.904161,-1.08241,-1.27042,-1.20322,-0.732931],'cal/(mol*K)','+|-',[0.499733,0.550802,0.586281,0.582999,0.490686,0.389143,0.576361]),
+        H298 = (2.03596,'kcal/mol','+|-',2.1495),
+        S298 = (3.88053,'cal/(mol*K)','+|-',1.64918),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1(Br)CCC1(Br)Br smiles:BrC1(Br)CCC1(Br)Br H298:24.56 kcal/mol
+library:CHOBr_G4 label:BrC1CC(Br)(Br)C1(Br)Br smiles:BrC1CC(Br)(Br)C1(Br)Br H298:29.99 kcal/mol
 """,
 )
 
@@ -11985,11 +15011,18 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.425703,-0.785769,-0.97614,-1.02513,-1.04686,-0.902757,-0.351875],'cal/(mol*K)','+|-',[0.499733,0.550802,0.586281,0.582999,0.490686,0.389143,0.576361]),
+        H298 = (2.19908,'kcal/mol','+|-',2.1495),
+        S298 = (3.47664,'cal/(mol*K)','+|-',1.64918),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1(Cl)CCC1(Cl)Cl smiles:ClC1(Cl)CCC1(Cl)Cl H298:-22.69 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)(Cl)C1(Cl)Cl smiles:ClC1CC(Cl)(Cl)C1(Cl)Cl H298:-25.97 kcal/mol
 """,
 )
 
@@ -12007,11 +15040,18 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.680927,-0.710109,-0.640608,-0.585876,-0.502058,-0.321876,0.17409],'cal/(mol*K)','+|-',[0.499734,0.550803,0.586282,0.582999,0.490687,0.389143,0.576361]),
+        H298 = (4.36749,'kcal/mol','+|-',2.1495),
+        S298 = (3.04592,'cal/(mol*K)','+|-',1.64918),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1(F)CCC1(F)F smiles:FC1(F)CCC1(F)F H298:-195.96 kcal/mol
+library:CHOF_G4 label:FC1CC(F)(F)C1(F)F smiles:FC1CC(F)(F)C1(F)F H298:-237.91 kcal/mol
 """,
 )
 
@@ -12049,11 +15089,20 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0789949,-0.211796,-0.250156,-0.241647,-0.220024,-0.214678,-0.115792],'cal/(mol*K)','+|-',[0.452881,0.499162,0.531315,0.52834,0.444682,0.352659,0.522324]),
+        H298 = (-0.288343,'kcal/mol','+|-',1.94798),
+        S298 = (2.07918,'cal/(mol*K)','+|-',1.49456),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1Br smiles:BrC1=C(Br)C(Br)(Br)C1Br H298:56.38 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1 smiles:BrC1=C(Br)C(Br)(Br)C1 H298:50.98 kcal/mol
+library:CHOBr_G4 label:BrC1DCCC1(Br)Br smiles:BrC1=CCC1(Br)Br H298:48.44 kcal/mol
+library:CHOBr_G4 label:BrC1DCC(Br)(Br)C1(Br)Br smiles:BrC1=CC(Br)(Br)C1(Br)Br H298:62.25 kcal/mol
 """,
 )
 
@@ -12070,11 +15119,20 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.118767,-0.14192,-0.183917,-0.223843,-0.239723,-0.194116,0.0447353],'cal/(mol*K)','+|-',[0.450598,0.496646,0.528637,0.525677,0.442441,0.350882,0.519691]),
+        H298 = (0.0949558,'kcal/mol','+|-',1.93816),
+        S298 = (1.84642,'cal/(mol*K)','+|-',1.48703),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1 smiles:ClC1=C(Cl)C(Cl)(Cl)C1 H298:5.45 kcal/mol
+library:CHOCl_G4 label:ClC1DCC(Cl)(Cl)C1(Cl)Cl smiles:ClC1=CC(Cl)(Cl)C1(Cl)Cl H298:4.39 kcal/mol
+library:CHOCl_G4 label:ClC1DCCC1(Cl)Cl smiles:ClC1=CCC1(Cl)Cl H298:14.06 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H298:0.06 kcal/mol
 """,
 )
 
@@ -12091,11 +15149,20 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.190842,-0.150656,-0.135477,-0.127385,-0.0751215,-0.0055093,0.187821],'cal/(mol*K)','+|-',[0.449745,0.495705,0.527635,0.524681,0.441603,0.350217,0.518707]),
+        H298 = (2.29651,'kcal/mol','+|-',1.93449),
+        S298 = (1.35672,'cal/(mol*K)','+|-',1.48421),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DCCC1(F)F smiles:FC1=CCC1(F)F H298:-108.28 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1 smiles:FC1=C(F)C(F)(F)C1 H298:-151.47 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1F smiles:FC1=C(F)C(F)(F)C1F H298:-194.57 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)(F)C1(F)F smiles:FC1=CC(F)(F)C1(F)F H298:-204.58 kcal/mol
 """,
 )
 
@@ -12135,11 +15202,17 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.692882,-1.30398,-1.92218,-2.33029,-2.35478,-2.15243,-3.95557],'cal/(mol*K)','+|-',[1.72558,1.90193,2.02443,2.0131,1.69434,1.34371,1.99018]),
+        H298 = (5.11114,'kcal/mol','+|-',7.42225),
+        S298 = (12.6163,'cal/(mol*K)','+|-',5.69462),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1(Br)[CH]OC1(Br)Br smiles:BrC1(Br)[CH]OC1(Br)Br H298:46.13 kcal/mol
 """,
 )
 
@@ -12157,11 +15230,17 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.4906,-0.460541,-0.47364,-0.543159,-0.454335,-0.325347,-0.680903],'cal/(mol*K)','+|-',[1.17508,1.29516,1.37859,1.37087,1.1538,0.915034,1.35526]),
+        H298 = (4.15211,'kcal/mol','+|-',5.05436),
+        S298 = (2.69623,'cal/(mol*K)','+|-',3.87789),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)(F)C1(F)F smiles:F[C]1OC(F)(F)C1(F)F H298:-227.57 kcal/mol
 """,
 )
 
@@ -12201,11 +15280,18 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.570177,-0.546057,-0.441877,-0.405598,-0.345551,-0.303588,0.0398732],'cal/(mol*K)','+|-',[0.557458,0.614426,0.654003,0.650341,0.547366,0.434093,0.642936]),
+        H298 = (0.551262,'kcal/mol','+|-',2.39779),
+        S298 = (2.08309,'cal/(mol*K)','+|-',1.83968),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1Br smiles:BrC1=C(Br)C(Br)(Br)C1Br H298:56.38 kcal/mol
+library:CHOBr_G4 label:BrC1CDCC1(Br)Br smiles:BrC1C=CC1(Br)Br H298:51.28 kcal/mol
 """,
 )
 
@@ -12223,11 +15309,19 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.257643,-0.0960508,0.0112308,0.00157445,0.0152485,0.0604488,0.40628],'cal/(mol*K)','+|-',[0.489879,0.539941,0.57472,0.571502,0.48101,0.381469,0.564995]),
+        H298 = (1.16281,'kcal/mol','+|-',2.10712),
+        S298 = (1.62474,'cal/(mol*K)','+|-',1.61666),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1CDCC1(F)F smiles:FC1C=CC1(F)F H298:-108.40 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)C1F smiles:FC1=C(F)C(F)(F)C1F H298:-194.57 kcal/mol
+library:CHOF_G4 label:FC1DCC(F)(F)C1F smiles:FC1=CC(F)(F)C1F H298:-154.18 kcal/mol
 """,
 )
 
@@ -12265,11 +15359,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.61083,-1.82457,-1.4052,-1.80396,-1.9614,-1.8022,-1.36104],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (3.34232,'kcal/mol','+|-',8.4435),
+        S298 = (6.46504,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OOC1Br smiles:Br[C]1OOC1Br H298:50.38 kcal/mol
 """,
 )
 
@@ -12286,11 +15386,17 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.96852,-0.968146,-0.557309,-0.925117,-0.892909,-0.74948,-0.609762],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (7.10397,'kcal/mol','+|-',8.4435),
+        S298 = (5.02132,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OOC1F smiles:F[C]1OOC1F H298:-53.88 kcal/mol
 """,
 )
 
@@ -12328,11 +15434,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.270328,0.155595,0.0372841,-0.0587404,-0.14644,-0.173387,-0.189164],'cal/(mol*K)','+|-',[0.649671,0.716063,0.762187,0.75792,0.63791,0.5059,0.74929]),
+        H298 = (0.860071,'kcal/mol','+|-',2.79443),
+        S298 = (4.12347,'cal/(mol*K)','+|-',2.14399),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)[CH]1 smiles:BrC1=C(Br)C(Br)[CH]1 H298:85.15 kcal/mol
+library:CHOBr_G4 label:BrC1DC[CH]C1Br smiles:BrC1=C[CH]C1Br H298:82.05 kcal/mol
+library:CHOBr_G4 label:Br[C]1CDC(Br)C1Br smiles:Br[C]1C=C(Br)C1Br H298:85.30 kcal/mol
 """,
 )
 
@@ -12349,11 +15463,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.402267,0.319139,0.228487,0.138157,-0.00458927,-0.0801329,-0.108598],'cal/(mol*K)','+|-',[0.646023,0.712042,0.757907,0.753663,0.634328,0.503059,0.745082]),
+        H298 = (0.347434,'kcal/mol','+|-',2.77874),
+        S298 = (3.37118,'cal/(mol*K)','+|-',2.13195),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)DC(Cl)C1Cl smiles:Cl[C]1C(Cl)=C(Cl)C1Cl H298:43.88 kcal/mol
+library:CHOCl_G4 label:ClC1DC[CH]C1Cl smiles:ClC1=C[CH]C1Cl H298:59.56 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)[CH]1 H298:51.17 kcal/mol
 """,
 )
 
@@ -12370,11 +15492,19 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.390569,0.345434,0.202068,0.0843278,-0.037603,-0.0870504,-0.0553824],'cal/(mol*K)','+|-',[0.62911,0.6934,0.738064,0.733932,0.617721,0.489889,0.725575]),
+        H298 = (2.93421,'kcal/mol','+|-',2.70599),
+        S298 = (3.62677,'cal/(mol*K)','+|-',2.07613),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1CDC(F)C1F smiles:F[C]1C=C(F)C1F H298:-56.04 kcal/mol
+library:CHOF_G4 label:FC1DC[CH]C1F smiles:FC1=C[CH]C1F H298:-13.52 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)[CH]1 smiles:FC1=C(F)C(F)[CH]1 H298:-58.81 kcal/mol
 """,
 )
 
@@ -12412,11 +15542,18 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.442709,-0.266901,-0.332682,-0.427974,-0.438965,-0.46144,-1.41708],'cal/(mol*K)','+|-',[0.635368,0.700297,0.745406,0.741232,0.623865,0.494762,0.732793]),
+        H298 = (0.604877,'kcal/mol','+|-',2.73291),
+        S298 = (2.20963,'cal/(mol*K)','+|-',2.09679),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OCC1Br smiles:Br[C]1OCC1Br H298:27.61 kcal/mol
+library:CHOBr_G4 label:Br[C]1OC(Br)C1Br smiles:Br[C]1OC(Br)C1Br H298:30.92 kcal/mol
 """,
 )
 
@@ -12433,11 +15570,19 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.872607,-0.0189734,0.0600324,-0.0765455,-0.108435,-0.11997,-2.05766],'cal/(mol*K)','+|-',[1.13739,1.25362,1.33437,1.3269,1.1168,0.885685,1.31179]),
+        H298 = (2.35847,'kcal/mol','+|-',4.89224),
+        S298 = (2.2917,'cal/(mol*K)','+|-',3.75351),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OCC1F smiles:F[C]1OCC1F H298:-74.16 kcal/mol
+library:CHOF_G4 label:F[C]1OC(F)C1F smiles:F[C]1OC(F)C1F H298:-124.37 kcal/mol
+library:CHOF_G4 label:F[C]1OC(F)(F)C1F smiles:F[C]1OC(F)(F)C1F H298:-179.32 kcal/mol
 """,
 )
 
@@ -12477,11 +15622,17 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.32757,1.2335,0.929079,0.533305,-0.15938,-0.298447,-0.186683],'cal/(mol*K)','+|-',[1.43841,1.5854,1.68753,1.67808,1.41237,1.12009,1.65897]),
+        H298 = (4.20025,'kcal/mol','+|-',6.18703),
+        S298 = (4.39587,'cal/(mol*K)','+|-',4.74692),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1C[CH]C1(Br)Br smiles:BrC1C[CH]C1(Br)Br H298:62.86 kcal/mol
 """,
 )
 
@@ -12499,11 +15650,19 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.262135,0.16747,0.0449016,-0.0168143,-0.158458,-0.188178,0.0176148],'cal/(mol*K)','+|-',[0.477072,0.525826,0.559696,0.556562,0.468436,0.371497,0.550225]),
+        H298 = (2.46094,'kcal/mol','+|-',2.05203),
+        S298 = (2.52456,'cal/(mol*K)','+|-',1.57439),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1CC(Cl)C1(Cl)Cl smiles:Cl[C]1CC(Cl)C1(Cl)Cl H298:18.20 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]C(Cl)(Cl)C1Cl smiles:ClC1[CH]C(Cl)(Cl)C1Cl H298:22.59 kcal/mol
+library:CHOCl_G4 label:ClC1C[CH]C1(Cl)Cl smiles:ClC1C[CH]C1(Cl)Cl H298:29.23 kcal/mol
 """,
 )
 
@@ -12521,11 +15680,21 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0456603,0.0492439,0.0968855,0.0973006,0.0394923,0.06316,0.262793],'cal/(mol*K)','+|-',[0.319207,0.351827,0.37449,0.372393,0.313428,0.248567,0.368153]),
+        H298 = (4.50787,'kcal/mol','+|-',1.37301),
+        S298 = (1.61448,'cal/(mol*K)','+|-',1.05342),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1C[CH]C1(F)F smiles:FC1C[CH]C1(F)F H298:-94.83 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)[CH]C1(F)F smiles:FC1C(F)(F)[CH]C1(F)F H298:-189.01 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)C1(F)F smiles:F[C]1CC(F)C1(F)F H298:-139.17 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)(F)C1F smiles:FC1[CH]C(F)(F)C1F H298:-138.82 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1(F)F smiles:F[C]1C(F)C(F)C1(F)F H298:-182.20 kcal/mol
 """,
 )
 
@@ -12565,11 +15734,17 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.1847,-1.48261,-1.83127,-2.11709,-2.14552,-1.86797,-2.87447],'cal/(mol*K)','+|-',[1.50233,1.65586,1.76252,1.75265,1.47513,1.16987,1.73269]),
+        H298 = (2.68932,'kcal/mol','+|-',6.46198),
+        S298 = (10.183,'cal/(mol*K)','+|-',4.95787),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1[CH]OC1(Br)Br smiles:BrC1[CH]OC1(Br)Br H298:36.71 kcal/mol
 """,
 )
 
@@ -12587,11 +15762,18 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.544102,-0.667717,-0.910006,-0.983695,-0.822287,-0.670812,-1.38557],'cal/(mol*K)','+|-',[0.619372,0.682668,0.72664,0.722572,0.608159,0.482306,0.714345]),
+        H298 = (1.2867,'kcal/mol','+|-',2.66411),
+        S298 = (3.52669,'cal/(mol*K)','+|-',2.044),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OC(Cl)(Cl)C1Cl smiles:Cl[C]1OC(Cl)(Cl)C1Cl H298:-8.45 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]OC1(Cl)Cl smiles:ClC1[CH]OC1(Cl)Cl H298:1.00 kcal/mol
 """,
 )
 
@@ -12631,11 +15813,22 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.327898,-0.613452,-0.738483,-0.785847,-0.822384,-0.746351,-0.434969],'cal/(mol*K)','+|-',[0.188623,0.207898,0.22129,0.220051,0.185208,0.146881,0.217545]),
+        H298 = (1.21623,'kcal/mol','+|-',0.811323),
+        S298 = (2.67057,'cal/(mol*K)','+|-',0.622477),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1CC(Br)(Br)C1Br smiles:BrC1CC(Br)(Br)C1Br H298:19.68 kcal/mol
+library:CHOBr_G4 label:BrC1CCC1(Br)Br smiles:BrC1CCC1(Br)Br H298:16.30 kcal/mol
+library:CHOBr_G4 label:BrC1CC(Br)(Br)C1(Br)Br smiles:BrC1CC(Br)(Br)C1(Br)Br H298:29.99 kcal/mol
+library:CHOBr_G4 label:BrC1CC(Br)C1(Br)Br smiles:BrC1CC(Br)C1(Br)Br H298:21.13 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)(Br)CC1(Br)Br smiles:BrC1C(Br)(Br)CC1(Br)Br H298:28.98 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)C(Br)(Br)C1Br smiles:BrC1C(Br)C(Br)(Br)C1Br H298:25.13 kcal/mol
 """,
 )
 
@@ -12653,11 +15846,22 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.378327,-0.540203,-0.611319,-0.660851,-0.704092,-0.604334,-0.191325],'cal/(mol*K)','+|-',[0.188623,0.207898,0.22129,0.220051,0.185208,0.146881,0.217545]),
+        H298 = (1.36497,'kcal/mol','+|-',0.811323),
+        S298 = (2.6893,'cal/(mol*K)','+|-',0.622477),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1C(Cl)C(Cl)(Cl)C1Cl smiles:ClC1C(Cl)C(Cl)(Cl)C1Cl H298:-30.99 kcal/mol
+library:CHOCl_G4 label:ClC1C(Cl)(Cl)CC1(Cl)Cl smiles:ClC1C(Cl)(Cl)CC1(Cl)Cl H298:-28.88 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)(Cl)C1Cl smiles:ClC1CC(Cl)(Cl)C1Cl H298:-25.77 kcal/mol
+library:CHOCl_G4 label:ClC1CCC1(Cl)Cl smiles:ClC1CCC1(Cl)Cl H298:-18.54 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)(Cl)C1(Cl)Cl smiles:ClC1CC(Cl)(Cl)C1(Cl)Cl H298:-25.97 kcal/mol
+library:CHOCl_G4 label:ClC1CC(Cl)C1(Cl)Cl smiles:ClC1CC(Cl)C1(Cl)Cl H298:-24.30 kcal/mol
 """,
 )
 
@@ -12675,11 +15879,22 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469514,-0.478264,-0.404351,-0.373545,-0.340172,-0.222053,0.116623],'cal/(mol*K)','+|-',[0.188623,0.207898,0.22129,0.220051,0.185208,0.146881,0.217545]),
+        H298 = (3.23001,'kcal/mol','+|-',0.811323),
+        S298 = (2.15664,'cal/(mol*K)','+|-',0.622477),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1CCC1(F)F smiles:FC1CCC1(F)F H298:-143.70 kcal/mol
+library:CHOF_G4 label:FC1CC(F)C1(F)F smiles:FC1CC(F)C1(F)F H298:-185.92 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)CC1(F)F smiles:FC1C(F)(F)CC1(F)F H298:-239.57 kcal/mol
+library:CHOF_G4 label:FC1CC(F)(F)C1F smiles:FC1CC(F)(F)C1F H298:-188.90 kcal/mol
+library:CHOF_G4 label:FC1C(F)C(F)(F)C1F smiles:FC1C(F)C(F)(F)C1F H298:-229.30 kcal/mol
+library:CHOF_G4 label:FC1CC(F)(F)C1(F)F smiles:FC1CC(F)(F)C1(F)F H298:-237.91 kcal/mol
 """,
 )
 
@@ -12719,11 +15934,19 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0382685,-0.11845,-0.184365,-0.232113,-0.310778,-0.285041,-0.104606],'cal/(mol*K)','+|-',[0.383139,0.422293,0.449495,0.446978,0.376203,0.298351,0.441889]),
+        H298 = (1.06145,'kcal/mol','+|-',1.648),
+        S298 = (1.86237,'cal/(mol*K)','+|-',1.2644),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1[CH]CC1Br smiles:BrC1[CH]CC1Br H298:57.48 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC(Br)C1Br smiles:Br[C]1CC(Br)C1Br H298:57.38 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C(Br)C1Br smiles:Br[C]1C(Br)C(Br)C1Br H298:59.36 kcal/mol
 """,
 )
 
@@ -12741,11 +15964,21 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.135089,0.133851,0.0833175,0.0044104,-0.11622,-0.11299,0.017678],'cal/(mol*K)','+|-',[0.278653,0.307129,0.326912,0.325082,0.273608,0.216988,0.321381]),
+        H298 = (1.6654,'kcal/mol','+|-',1.19857),
+        S298 = (1.2168,'cal/(mol*K)','+|-',0.919587),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1[CH]C(Cl)C1Cl smiles:ClC1[CH]C(Cl)C1Cl H298:27.79 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]C(Cl)(Cl)C1Cl smiles:ClC1[CH]C(Cl)(Cl)C1Cl H298:22.59 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C(Cl)C1Cl smiles:Cl[C]1C(Cl)C(Cl)C1Cl H298:16.55 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)C1Cl smiles:Cl[C]1CC(Cl)C1Cl H298:23.97 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]CC1Cl smiles:ClC1[CH]CC1Cl H298:35.14 kcal/mol
 """,
 )
 
@@ -12763,11 +15996,22 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0621482,0.129216,0.171778,0.167594,0.0826443,0.0745445,0.174002],'cal/(mol*K)','+|-',[0.268522,0.295963,0.315027,0.313263,0.263661,0.209099,0.309697]),
+        H298 = (2.93861,'kcal/mol','+|-',1.15499),
+        S298 = (0.932757,'cal/(mol*K)','+|-',0.886154),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)C(F)C1F smiles:F[C]1C(F)C(F)C1F H298:-132.35 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)(F)C1F smiles:FC1[CH]C(F)(F)C1F H298:-138.82 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1(F)F smiles:F[C]1C(F)C(F)C1(F)F H298:-182.20 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)C1F smiles:FC1[CH]C(F)C1F H298:-85.07 kcal/mol
+library:CHOF_G4 label:FC1[CH]CC1F smiles:FC1[CH]CC1F H298:-42.55 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)C1F smiles:F[C]1CC(F)C1F H298:-88.93 kcal/mol
 """,
 )
 
@@ -12807,11 +16051,19 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.292554,0.127055,-0.0250132,-0.152375,-0.356436,-0.390882,-0.2153],'cal/(mol*K)','+|-',[0.343111,0.378174,0.402534,0.40028,0.336899,0.267181,0.395723]),
+        H298 = (2.26304,'kcal/mol','+|-',1.47582),
+        S298 = (2.50943,'cal/(mol*K)','+|-',1.13231),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1CC(Br)(Br)C1Br smiles:Br[C]1CC(Br)(Br)C1Br H298:64.83 kcal/mol
+library:CHOBr_G4 label:BrC1[CH]C(Br)C1(Br)Br smiles:BrC1[CH]C(Br)C1(Br)Br H298:68.97 kcal/mol
+library:CHOBr_G4 label:BrC1[CH]CC1(Br)Br smiles:BrC1[CH]CC1(Br)Br H298:64.35 kcal/mol
 """,
 )
 
@@ -12829,11 +16081,19 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.188704,0.138727,0.0504063,-0.0253163,-0.186311,-0.208804,0.0205212],'cal/(mol*K)','+|-',[0.34256,0.377567,0.401887,0.399637,0.336358,0.266752,0.395087]),
+        H298 = (2.67509,'kcal/mol','+|-',1.47345),
+        S298 = (2.54477,'cal/(mol*K)','+|-',1.13049),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1[CH]CC1(Cl)Cl smiles:ClC1[CH]CC1(Cl)Cl H298:30.36 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)(Cl)C1Cl smiles:Cl[C]1CC(Cl)(Cl)C1Cl H298:19.49 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]C(Cl)C1(Cl)Cl smiles:ClC1[CH]C(Cl)C1(Cl)Cl H298:24.69 kcal/mol
 """,
 )
 
@@ -12851,11 +16111,21 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0985358,0.00789701,0.0834758,0.0752187,0.0138078,0.0501143,0.264],'cal/(mol*K)','+|-',[0.300665,0.331391,0.352737,0.350762,0.295222,0.234129,0.346768]),
+        H298 = (4.27136,'kcal/mol','+|-',1.29325),
+        S298 = (1.7906,'cal/(mol*K)','+|-',0.99223),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1CC(F)(F)C1F smiles:F[C]1CC(F)(F)C1F H298:-140.77 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)(F)C1(F)F smiles:FC1[CH]C(F)(F)C1(F)F H298:-188.19 kcal/mol
+library:CHOF_G4 label:FC1[CH]CC1(F)F smiles:FC1[CH]CC1(F)F H298:-95.16 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)(F)C1F smiles:F[C]1C(F)C(F)(F)C1F H298:-181.47 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)C1(F)F smiles:FC1[CH]C(F)C1(F)F H298:-137.25 kcal/mol
 """,
 )
 
@@ -12891,11 +16161,18 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.17987,-3.44812,-3.97048,-4.10308,-3.66182,-2.98121,-1.77757],'cal/(mol*K)','+|-',[1.87944,2.0715,2.20494,2.19259,1.84541,1.46352,2.16763]),
+        H298 = (14.1624,'kcal/mol','+|-',8.08403),
+        S298 = (10.1259,'cal/(mol*K)','+|-',6.20236),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1OC(Br)DC1Br smiles:Br[C]1OC(Br)=C1Br H298:69.24 kcal/mol
+library:CHOBr_G4 label:Br[C]1OCDC1Br smiles:Br[C]1OC=C1Br H298:64.62 kcal/mol
 """,
 )
 
@@ -12911,11 +16188,18 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.695007,-1.42817,-1.80254,-1.87061,-1.60542,-1.25989,-0.750607],'cal/(mol*K)','+|-',[1.05064,1.15801,1.2326,1.2257,1.03162,0.818134,1.21174]),
+        H298 = (9.85007,'kcal/mol','+|-',4.51911),
+        S298 = (4.99954,'cal/(mol*K)','+|-',3.46723),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)DC1F smiles:F[C]1OC(F)=C1F H298:-72.27 kcal/mol
+library:CHOF_G4 label:F[C]1OCDC1F smiles:F[C]1OC=C1F H298:-28.82 kcal/mol
 """,
 )
 
@@ -12951,11 +16235,18 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.268453,-0.441978,-0.563056,-0.604936,-0.528336,-0.380037,-0.0885324],'cal/(mol*K)','+|-',[0.801396,0.883293,0.940189,0.934925,0.786888,0.624048,0.924279]),
+        H298 = (-0.373645,'kcal/mol','+|-',3.44705),
+        S298 = (2.62974,'cal/(mol*K)','+|-',2.6447),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)O[CH]1 smiles:BrC1=C(Br)O[CH]1 H298:64.62 kcal/mol
+library:CHOBr_G4 label:Br[C]1OC(Br)DC1Br smiles:Br[C]1OC(Br)=C1Br H298:69.24 kcal/mol
 """,
 )
 
@@ -12971,11 +16262,18 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.105621,-0.172493,-0.221417,-0.246959,-0.224827,-0.147446,0.070318],'cal/(mol*K)','+|-',[0.749638,0.826245,0.879466,0.874542,0.736067,0.583744,0.864585]),
+        H298 = (-1.13789,'kcal/mol','+|-',3.22442),
+        S298 = (1.73236,'cal/(mol*K)','+|-',2.47389),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OC(Cl)DC1Cl smiles:Cl[C]1OC(Cl)=C1Cl H298:34.40 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)O[CH]1 smiles:ClC1=C(Cl)O[CH]1 H298:41.29 kcal/mol
 """,
 )
 
@@ -12991,11 +16289,18 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.51505,-0.527616,-0.620684,-0.622689,-0.485699,-0.304302,0.129467],'cal/(mol*K)','+|-',[1.49927,1.65249,1.75893,1.74908,1.47213,1.16749,1.72917]),
+        H298 = (6.62774,'kcal/mol','+|-',6.44883),
+        S298 = (3.68936,'cal/(mol*K)','+|-',4.94778),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)DC1F smiles:F[C]1OC(F)=C1F H298:-72.27 kcal/mol
+library:CHOF_G4 label:FC1DC(F)O[CH]1 smiles:FC1=C(F)O[CH]1 H298:-28.82 kcal/mol
 """,
 )
 
@@ -13031,11 +16336,19 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0677495,-0.16156,-0.312429,-0.396654,-0.439491,-0.399624,-0.259813],'cal/(mol*K)','+|-',[0.566672,0.624582,0.664814,0.661091,0.556414,0.441269,0.653564]),
+        H298 = (1.06281,'kcal/mol','+|-',2.43743),
+        S298 = (1.66202,'cal/(mol*K)','+|-',1.87008),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)O1 smiles:BrC1=C(Br)C(Br)O1 H298:27.29 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)O1 smiles:BrC1=C(Br)C(Br)(Br)O1 H298:34.08 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)OC1 smiles:BrC1=C(Br)OC1 H298:22.60 kcal/mol
 """,
 )
 
@@ -13051,11 +16364,19 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0326675,0.0710243,0.0315803,-0.0459456,-0.148374,-0.174795,-0.0933971],'cal/(mol*K)','+|-',[0.490753,0.540904,0.575746,0.572522,0.481869,0.38215,0.566004]),
+        H298 = (0.180537,'kcal/mol','+|-',2.11088),
+        S298 = (0.902932,'cal/(mol*K)','+|-',1.61954),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)OC1 smiles:ClC1=C(Cl)OC1 H298:-0.86 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)O1 smiles:ClC1=C(Cl)C(Cl)(Cl)O1 H298:-12.61 kcal/mol
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)O1 smiles:ClC1=C(Cl)C(Cl)O1 H298:-7.82 kcal/mol
 """,
 )
 
@@ -13095,11 +16416,19 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.849776,-0.931992,-1.04996,-1.13635,-1.06647,-0.943568,-1.58058],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (-0.0361684,'kcal/mol','+|-',1.236),
+        S298 = (1.19659,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1COC1Br smiles:BrC1COC1Br H298:-14.15 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)C1Br smiles:BrC1OC(Br)C1Br H298:-14.72 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)(Br)C1Br smiles:BrC1OC(Br)(Br)C1Br H298:-4.23 kcal/mol
 """,
 )
 
@@ -13117,11 +16446,19 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.773793,-0.796826,-0.850856,-0.927682,-0.945725,-0.861071,-1.46778],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.660531,'kcal/mol','+|-',1.236),
+        S298 = (3.22979,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1COC1Cl smiles:ClC1COC1Cl H298:-37.55 kcal/mol
+library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1Cl smiles:ClC1OC(Cl)(Cl)C1Cl H298:-52.43 kcal/mol
+library:CHOCl_G4 label:ClC1OC(Cl)C1Cl smiles:ClC1OC(Cl)C1Cl H298:-46.96 kcal/mol
 """,
 )
 
@@ -13139,11 +16476,19 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.480214,-0.456664,-0.597852,-0.701618,-0.651403,-0.554441,-1.32124],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (1.52292,'kcal/mol','+|-',1.236),
+        S298 = (2.86812,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1COC1F smiles:FC1COC1F H298:-119.84 kcal/mol
+library:CHOF_G4 label:FC1OC(F)(F)C1F smiles:FC1OC(F)(F)C1F H298:-228.01 kcal/mol
+library:CHOF_G4 label:FC1OC(F)C1F smiles:FC1OC(F)C1F H298:-171.20 kcal/mol
 """,
 )
 
@@ -13183,11 +16528,18 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.759136,-0.762004,-0.694688,-0.67912,-0.605274,-0.455737,0.11002],'cal/(mol*K)','+|-',[0.540476,0.595708,0.63408,0.63053,0.530691,0.420869,0.62335]),
+        H298 = (0.521511,'kcal/mol','+|-',2.32475),
+        S298 = (2.35199,'cal/(mol*K)','+|-',1.78363),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DCC(Br)C1Br smiles:BrC1=CC(Br)C1Br H298:46.41 kcal/mol
+library:CHOBr_G4 label:BrC1CDCC1Br smiles:BrC1C=CC1Br H298:43.83 kcal/mol
 """,
 )
 
@@ -13205,11 +16557,18 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.408081,-0.341183,-0.324515,-0.350866,-0.308464,-0.249952,0.170483],'cal/(mol*K)','+|-',[0.591538,0.651989,0.693986,0.6901,0.580829,0.460632,0.682243]),
+        H298 = (0.260542,'kcal/mol','+|-',2.54438),
+        S298 = (1.50162,'cal/(mol*K)','+|-',1.95214),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)C1Cl H298:4.22 kcal/mol
+library:CHOCl_G4 label:ClC1CDCC1Cl smiles:ClC1C=CC1Cl H298:21.58 kcal/mol
 """,
 )
 
@@ -13227,11 +16586,18 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.371151,-0.212581,-0.126564,-0.131065,-0.0618147,0.0172916,0.392581],'cal/(mol*K)','+|-',[0.535036,0.589713,0.627698,0.624184,0.52535,0.416634,0.617077]),
+        H298 = (0.498564,'kcal/mol','+|-',2.30135),
+        S298 = (1.61519,'cal/(mol*K)','+|-',1.76568),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DCC(F)C1F smiles:FC1=CC(F)C1F H298:-102.43 kcal/mol
+library:CHOF_G4 label:FC1CDCC1F smiles:FC1C=CC1F H298:-55.96 kcal/mol
 """,
 )
 
@@ -13290,11 +16656,17 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.851102,-1.38618,-1.73214,-1.7343,-1.29094,-0.775357,-0.0717988],'cal/(mol*K)','+|-',[1.76943,1.95026,2.07588,2.06426,1.7374,1.37786,2.04075]),
+        H298 = (34.8171,'kcal/mol','+|-',7.61087),
+        S298 = (4.1238,'cal/(mol*K)','+|-',5.83934),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]OC1(F)F smiles:FC1=[C]OC1(F)F H298:-59.98 kcal/mol
 """,
 )
 
@@ -13330,11 +16702,17 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.554183,0.651717,0.647928,0.485428,-0.0374965,-0.184644,-0.190746],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (-5.42037,'kcal/mol','+|-',2.98523),
+        S298 = (-2.39698,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC(Br)OO1 smiles:BrC1=C(Br)OO1 H298:47.16 kcal/mol
 """,
 )
 
@@ -13350,11 +16728,17 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.561856,0.66139,0.684643,0.526283,0.000982745,-0.150167,-0.153463],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (-5.15346,'kcal/mol','+|-',2.98523),
+        S298 = (-2.49385,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)OO1 smiles:ClC1=C(Cl)OO1 H298:23.62 kcal/mol
 """,
 )
 
@@ -13370,11 +16754,17 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.47956,0.671657,0.756506,0.553851,-0.0244948,-0.216366,-0.228269],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (2.26407,'kcal/mol','+|-',2.98523),
+        S298 = (-2.25465,'cal/(mol*K)','+|-',2.29038),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)OO1 smiles:FC1=C(F)OO1 H298:-45.98 kcal/mol
 """,
 )
 
@@ -13414,11 +16804,19 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0382685,-0.11845,-0.184365,-0.232113,-0.310778,-0.285041,-0.104606],'cal/(mol*K)','+|-',[0.383139,0.422293,0.449495,0.446978,0.376203,0.298351,0.441889]),
+        H298 = (1.06145,'kcal/mol','+|-',1.648),
+        S298 = (1.86237,'cal/(mol*K)','+|-',1.2644),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1[CH]CC1Br smiles:BrC1[CH]CC1Br H298:57.48 kcal/mol
+library:CHOBr_G4 label:Br[C]1CC(Br)C1Br smiles:Br[C]1CC(Br)C1Br H298:57.38 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)C(Br)C1Br smiles:Br[C]1C(Br)C(Br)C1Br H298:59.36 kcal/mol
 """,
 )
 
@@ -13436,11 +16834,21 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.135089,0.133851,0.0833175,0.0044104,-0.11622,-0.11299,0.017678],'cal/(mol*K)','+|-',[0.278653,0.307129,0.326912,0.325082,0.273608,0.216988,0.321381]),
+        H298 = (1.6654,'kcal/mol','+|-',1.19857),
+        S298 = (1.2168,'cal/(mol*K)','+|-',0.919587),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1[CH]C(Cl)C1Cl smiles:ClC1[CH]C(Cl)C1Cl H298:27.79 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]C(Cl)(Cl)C1Cl smiles:ClC1[CH]C(Cl)(Cl)C1Cl H298:22.59 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)C(Cl)C1Cl smiles:Cl[C]1C(Cl)C(Cl)C1Cl H298:16.55 kcal/mol
+library:CHOCl_G4 label:Cl[C]1CC(Cl)C1Cl smiles:Cl[C]1CC(Cl)C1Cl H298:23.97 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]CC1Cl smiles:ClC1[CH]CC1Cl H298:35.14 kcal/mol
 """,
 )
 
@@ -13458,11 +16866,22 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0621482,0.129216,0.171778,0.167594,0.0826443,0.0745445,0.174002],'cal/(mol*K)','+|-',[0.268522,0.295963,0.315027,0.313263,0.263661,0.209099,0.309697]),
+        H298 = (2.93861,'kcal/mol','+|-',1.15499),
+        S298 = (0.932757,'cal/(mol*K)','+|-',0.886154),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)C(F)C1F smiles:F[C]1C(F)C(F)C1F H298:-132.35 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)(F)C1F smiles:FC1[CH]C(F)(F)C1F H298:-138.82 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1(F)F smiles:F[C]1C(F)C(F)C1(F)F H298:-182.20 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)C1F smiles:FC1[CH]C(F)C1F H298:-85.07 kcal/mol
+library:CHOF_G4 label:FC1[CH]CC1F smiles:FC1[CH]CC1F H298:-42.55 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)C1F smiles:F[C]1CC(F)C1F H298:-88.93 kcal/mol
 """,
 )
 
@@ -13498,11 +16917,17 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.151339,0.0814864,0.381563,0.420191,0.314963,0.239835,0.357181],'cal/(mol*K)','+|-',[0.75449,0.831594,0.885159,0.880203,0.740831,0.587523,0.870181]),
+        H298 = (-3.1262,'kcal/mol','+|-',3.24529),
+        S298 = (-1.48573,'cal/(mol*K)','+|-',2.48991),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1D[C]C(Br)DC1Br smiles:BrC1=[C]C(Br)=C1Br H298:164.27 kcal/mol
 """,
 )
 
@@ -13518,11 +16943,17 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.152646,0.0615465,0.374776,0.301219,0.0136116,-0.0807927,0.264506],'cal/(mol*K)','+|-',[0.75449,0.831594,0.885159,0.880203,0.740831,0.587523,0.870181]),
+        H298 = (-2.20868,'kcal/mol','+|-',3.24529),
+        S298 = (-0.462659,'cal/(mol*K)','+|-',2.48991),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]C(Cl)DC1Cl smiles:ClC1=[C]C(Cl)=C1Cl H298:130.17 kcal/mol
 """,
 )
 
@@ -13558,11 +16989,17 @@ entry(
 5    Br1s u0 p3 c0 {1,S}
 6    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.151339,0.0814864,0.381563,0.420191,0.314963,0.239835,0.357181],'cal/(mol*K)','+|-',[0.75449,0.831594,0.885159,0.880203,0.740831,0.587523,0.870181]),
+        H298 = (-3.1262,'kcal/mol','+|-',3.24529),
+        S298 = (-1.48573,'cal/(mol*K)','+|-',2.48991),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1D[C]C(Br)DC1Br smiles:BrC1=[C]C(Br)=C1Br H298:164.27 kcal/mol
 """,
 )
 
@@ -13578,11 +17015,17 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.152646,0.0615465,0.374776,0.301219,0.0136116,-0.0807927,0.264506],'cal/(mol*K)','+|-',[0.75449,0.831594,0.885159,0.880203,0.740831,0.587523,0.870181]),
+        H298 = (-2.20868,'kcal/mol','+|-',3.24529),
+        S298 = (-0.462659,'cal/(mol*K)','+|-',2.48991),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]C(Cl)DC1Cl smiles:ClC1=[C]C(Cl)=C1Cl H298:130.17 kcal/mol
 """,
 )
 
@@ -13620,11 +17063,18 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.708952,0.482848,0.238757,0.0550461,-0.141839,-0.233256,-0.319114],'cal/(mol*K)','+|-',[0.701074,0.772718,0.822491,0.817886,0.688382,0.545927,0.808574]),
+        H298 = (-0.591241,'kcal/mol','+|-',3.01553),
+        S298 = (4.62682,'cal/(mol*K)','+|-',2.31362),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1DC[CH]C1(Br)Br smiles:BrC1=C[CH]C1(Br)Br H298:87.06 kcal/mol
+library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)[CH]1 smiles:BrC1=C(Br)C(Br)(Br)[CH]1 H298:90.39 kcal/mol
 """,
 )
 
@@ -13641,11 +17091,18 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.43172,1.03297,0.611811,0.282368,-0.186474,-0.394728,-0.360322],'cal/(mol*K)','+|-',[1.40292,1.54629,1.64589,1.63667,1.37752,1.09245,1.61804]),
+        H298 = (0.258467,'kcal/mol','+|-',6.03437),
+        S298 = (8.9303,'cal/(mol*K)','+|-',4.62979),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)(Cl)[CH]1 H298:45.32 kcal/mol
+library:CHOCl_G4 label:ClC1DC[CH]C1(Cl)Cl smiles:ClC1=C[CH]C1(Cl)Cl H298:53.34 kcal/mol
 """,
 )
 
@@ -13662,11 +17119,19 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.338661,0.290153,0.227665,0.15956,0.047565,0.0146653,0.0964535],'cal/(mol*K)','+|-',[0.665664,0.73369,0.78095,0.776577,0.653613,0.518354,0.767735]),
+        H298 = (2.89566,'kcal/mol','+|-',2.86322),
+        S298 = (3.71747,'cal/(mol*K)','+|-',2.19677),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)DC(F)C1(F)F smiles:F[C]1C(F)=C(F)C1(F)F H298:-148.51 kcal/mol
+library:CHOF_G4 label:FC1DC[CH]C1(F)F smiles:FC1=C[CH]C1(F)F H298:-65.62 kcal/mol
+library:CHOF_G4 label:FC1DC(F)C(F)(F)[CH]1 smiles:FC1=C(F)C(F)(F)[CH]1 H298:-109.99 kcal/mol
 """,
 )
 
@@ -13706,11 +17171,19 @@ entry(
 7    Br1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.626539,-0.682816,-0.801583,-0.907096,-0.896646,-0.821493,-1.55457],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.506892,'kcal/mol','+|-',1.236),
+        S298 = (3.69259,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1COC1(Br)Br smiles:BrC1COC1(Br)Br H298:-8.28 kcal/mol
+library:CHOBr_G4 label:BrC1C(Br)(Br)OC1(Br)Br smiles:BrC1C(Br)(Br)OC1(Br)Br H298:2.87 kcal/mol
+library:CHOBr_G4 label:BrC1OC(Br)(Br)C1Br smiles:BrC1OC(Br)(Br)C1Br H298:-4.23 kcal/mol
 """,
 )
 
@@ -13728,11 +17201,19 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.487931,-0.443902,-0.573028,-0.733204,-0.775676,-0.704618,-1.40567],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337123,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.408678,'kcal/mol','+|-',1.236),
+        S298 = (3.17785,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1C(Cl)(Cl)OC1(Cl)Cl smiles:ClC1C(Cl)(Cl)OC1(Cl)Cl H298:-57.50 kcal/mol
+library:CHOCl_G4 label:ClC1COC1(Cl)Cl smiles:ClC1COC1(Cl)Cl H298:-44.14 kcal/mol
+library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1Cl smiles:ClC1OC(Cl)(Cl)C1Cl H298:-52.43 kcal/mol
 """,
 )
 
@@ -13750,11 +17231,19 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.471001,-0.376872,-0.445919,-0.514076,-0.4442,-0.343858,-1.10022],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337123,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (1.30632,'kcal/mol','+|-',1.236),
+        S298 = (2.36209,'cal/(mol*K)','+|-',0.948307),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1COC1(F)F smiles:FC1COC1(F)F H298:-177.30 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)OC1(F)F smiles:FC1C(F)(F)OC1(F)F H298:-282.63 kcal/mol
+library:CHOF_G4 label:FC1OC(F)(F)C1F smiles:FC1OC(F)(F)C1F H298:-228.01 kcal/mol
 """,
 )
 
@@ -13792,11 +17281,17 @@ entry(
 6    Br1s u0 p3 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.355155,-0.268468,-0.173543,-0.117441,-0.143737,-0.147423,-0.0271524],'cal/(mol*K)','+|-',[1.65744,1.82682,1.94449,1.9336,1.62744,1.29065,1.91159]),
+        H298 = (0.256533,'kcal/mol','+|-',7.12915),
+        S298 = (3.57325,'cal/(mol*K)','+|-',5.46975),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1D[C]CC1(Br)Br smiles:BrC1=[C]CC1(Br)Br H298:109.67 kcal/mol
 """,
 )
 
@@ -13813,11 +17308,18 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.612203,-0.338983,-0.174545,-0.0829752,0.0467626,0.16453,0.497946],'cal/(mol*K)','+|-',[1.44691,1.59477,1.6975,1.688,1.42072,1.12671,1.66878]),
+        H298 = (7.53477,'kcal/mol','+|-',6.2236),
+        S298 = (2.21502,'cal/(mol*K)','+|-',4.77497),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C(F)(F)C1(F)F smiles:FC1=[C]C(F)(F)C1(F)F H298:-139.37 kcal/mol
+library:CHOF_G4 label:FC1D[C]CC1(F)F smiles:FC1=[C]CC1(F)F H298:-44.76 kcal/mol
 """,
 )
 
@@ -13855,11 +17357,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.522071,-0.44791,-0.500362,-0.574189,-0.548203,-0.494944,-1.32334],'cal/(mol*K)','+|-',[0.422976,0.466201,0.496231,0.493453,0.415319,0.329372,0.487834]),
+        H298 = (1.23255,'kcal/mol','+|-',1.81935),
+        S298 = (2.25902,'cal/(mol*K)','+|-',1.39587),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:Br[C]1C(Br)OC1(Br)Br smiles:Br[C]1C(Br)OC1(Br)Br H298:38.03 kcal/mol
+library:CHOBr_G4 label:Br[C]1C(Br)OC1Br smiles:Br[C]1C(Br)OC1Br H298:32.76 kcal/mol
+library:CHOBr_G4 label:Br[C]1COC1Br smiles:Br[C]1COC1Br H298:31.04 kcal/mol
 """,
 )
 
@@ -13876,11 +17386,19 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.62354,-0.51288,-0.50407,-0.55296,-0.564731,-0.525808,-1.23314],'cal/(mol*K)','+|-',[0.412494,0.454648,0.483933,0.481224,0.405026,0.32121,0.475744]),
+        H298 = (1.68509,'kcal/mol','+|-',1.77426),
+        S298 = (1.95016,'cal/(mol*K)','+|-',1.36128),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1C(Cl)OC1Cl smiles:Cl[C]1C(Cl)OC1Cl H298:-1.81 kcal/mol
+library:CHOCl_G4 label:Cl[C]1COC1Cl smiles:Cl[C]1COC1Cl H298:7.71 kcal/mol
+library:CHOCl_G4 label:Cl[C]1C(Cl)OC1(Cl)Cl smiles:Cl[C]1C(Cl)OC1(Cl)Cl H298:-8.23 kcal/mol
 """,
 )
 
@@ -13897,11 +17415,19 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.367305,-0.159625,-0.185028,-0.270188,-0.329693,-0.319171,-1.15745],'cal/(mol*K)','+|-',[0.406382,0.447912,0.476763,0.474094,0.399026,0.316451,0.468696]),
+        H298 = (2.74861,'kcal/mol','+|-',1.74797),
+        S298 = (1.73597,'cal/(mol*K)','+|-',1.34111),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)OC1(F)F smiles:F[C]1C(F)OC1(F)F H298:-177.37 kcal/mol
+library:CHOF_G4 label:F[C]1COC1F smiles:F[C]1COC1F H298:-70.04 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)OC1F smiles:F[C]1C(F)OC1F H298:-121.58 kcal/mol
 """,
 )
 
@@ -13939,11 +17465,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Br1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.998261,-1.52963,-1.81095,-1.96788,-1.86435,-1.48246,-0.684985],'cal/(mol*K)','+|-',[1.79197,1.9751,2.10232,2.09055,1.75953,1.39541,2.06675]),
+        H298 = (26.4646,'kcal/mol','+|-',7.70782),
+        S298 = (6.63679,'cal/(mol*K)','+|-',5.91372),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOBr_G4 label:BrC1D[C]OC1Br smiles:BrC1=[C]OC1Br H298:95.08 kcal/mol
 """,
 )
 
@@ -13960,11 +17492,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.06176,-1.65188,-1.98217,-2.16451,-1.95834,-1.50391,-0.668436],'cal/(mol*K)','+|-',[1.76943,1.95026,2.07588,2.06426,1.7374,1.37786,2.04075]),
+        H298 = (27.7538,'kcal/mol','+|-',7.61087),
+        S298 = (6.87464,'cal/(mol*K)','+|-',5.83934),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]OC1Cl smiles:ClC1=[C]OC1Cl H298:71.26 kcal/mol
 """,
 )
 
@@ -13981,11 +17519,17 @@ entry(
 6    H   u0 p0 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.869418,-1.45147,-1.90038,-2.02997,-1.68844,-1.20024,-0.494368],'cal/(mol*K)','+|-',[1.76943,1.95026,2.07588,2.06426,1.7374,1.37786,2.04075]),
+        H298 = (32.8701,'kcal/mol','+|-',7.61087),
+        S298 = (5.74405,'cal/(mol*K)','+|-',5.83934),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]OC1F smiles:FC1=[C]OC1F H298:-5.52 kcal/mol
 """,
 )
 
@@ -14021,11 +17565,18 @@ entry(
 5    Cl1s u0 p3 c0 {1,S}
 6    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.10871,-3.54285,-4.15947,-4.26046,-3.71664,-2.98308,-1.78862],'cal/(mol*K)','+|-',[1.85796,2.04783,2.17974,2.16753,1.82432,1.4468,2.14285]),
+        H298 = (16.1673,'kcal/mol','+|-',7.99164),
+        S298 = (10.6455,'cal/(mol*K)','+|-',6.13148),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OC(Cl)DC1Cl smiles:Cl[C]1OC(Cl)=C1Cl H298:34.40 kcal/mol
+library:CHOCl_G4 label:Cl[C]1OCDC1Cl smiles:Cl[C]1OC=C1Cl H298:41.29 kcal/mol
 """,
 )
 
@@ -14041,11 +17592,18 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.695007,-1.42817,-1.80254,-1.87061,-1.60542,-1.25989,-0.750607],'cal/(mol*K)','+|-',[1.05064,1.15801,1.2326,1.2257,1.03162,0.818134,1.21174]),
+        H298 = (9.85007,'kcal/mol','+|-',4.51911),
+        S298 = (4.99954,'cal/(mol*K)','+|-',3.46723),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)DC1F smiles:F[C]1OC(F)=C1F H298:-72.27 kcal/mol
+library:CHOF_G4 label:F[C]1OCDC1F smiles:F[C]1OC=C1F H298:-28.82 kcal/mol
 """,
 )
 
@@ -14085,11 +17643,17 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.46482,-2.0559,-2.50961,-2.59445,-2.20741,-1.78995,-2.83155],'cal/(mol*K)','+|-',[1.50898,1.66319,1.77032,1.76041,1.48166,1.17504,1.74036]),
+        H298 = (2.95798,'kcal/mol','+|-',6.49058),
+        S298 = (7.75483,'cal/(mol*K)','+|-',4.97981),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1O[CH]C1(Cl)Cl smiles:ClC1O[CH]C1(Cl)Cl H298:1.83 kcal/mol
 """,
 )
 
@@ -14107,11 +17671,18 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.855394,-0.81928,-0.845188,-0.895016,-0.774996,-0.606699,-1.27963],'cal/(mol*K)','+|-',[0.646107,0.712134,0.758005,0.753761,0.63441,0.503125,0.745179]),
+        H298 = (3.3293,'kcal/mol','+|-',2.7791),
+        S298 = (2.93854,'cal/(mol*K)','+|-',2.13223),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)C1(F)F smiles:F[C]1OC(F)C1(F)F H298:-174.30 kcal/mol
+library:CHOF_G4 label:FC1O[CH]C1(F)F smiles:FC1O[CH]C1(F)F H298:-127.31 kcal/mol
 """,
 )
 
@@ -14151,11 +17722,17 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.1742,0.77476,0.370746,0.0880899,-0.427714,-0.545755,-0.0461042],'cal/(mol*K)','+|-',[1.71045,1.88525,2.00668,1.99545,1.67948,1.33193,1.97272]),
+        H298 = (7.93426,'kcal/mol','+|-',7.35716),
+        S298 = (6.3204,'cal/(mol*K)','+|-',5.64468),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1(Cl)[CH]CC1(Cl)Cl smiles:ClC1(Cl)[CH]CC1(Cl)Cl H298:25.64 kcal/mol
 """,
 )
 
@@ -14173,11 +17750,19 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.142809,-0.00987034,0.0478691,0.0608075,0.0151223,0.0786346,0.387778],'cal/(mol*K)','+|-',[0.651525,0.718107,0.764362,0.760083,0.639731,0.507344,0.751428]),
+        H298 = (5.72308,'kcal/mol','+|-',2.80241),
+        S298 = (2.11428,'cal/(mol*K)','+|-',2.15011),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1(F)[CH]CC1(F)F smiles:FC1(F)[CH]CC1(F)F H298:-147.47 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)(F)C1(F)F smiles:F[C]1CC(F)(F)C1(F)F H298:-190.62 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)(F)C1(F)F smiles:FC1[CH]C(F)(F)C1(F)F H298:-188.19 kcal/mol
 """,
 )
 
@@ -14217,11 +17802,17 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.01031,-0.583663,-0.318665,-0.26114,-0.242151,-0.156364,0.645042],'cal/(mol*K)','+|-',[1.76852,1.94925,2.0748,2.06319,1.7365,1.37715,2.0397]),
+        H298 = (2.18825,'kcal/mol','+|-',7.60693),
+        S298 = (3.30825,'cal/(mol*K)','+|-',5.83631),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1CD[C]C1(Cl)Cl smiles:ClC1C=[C]C1(Cl)Cl H298:78.55 kcal/mol
 """,
 )
 
@@ -14261,11 +17852,17 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.878737,-0.510965,-0.275667,-0.231797,-0.234368,-0.163234,0.625364],'cal/(mol*K)','+|-',[1.76852,1.94925,2.0748,2.06319,1.7365,1.37715,2.0397]),
+        H298 = (1.70843,'kcal/mol','+|-',7.60693),
+        S298 = (3.41549,'cal/(mol*K)','+|-',5.83631),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1[C]DCC1(Cl)Cl smiles:ClC1[C]=CC1(Cl)Cl H298:78.07 kcal/mol
 """,
 )
 
@@ -14283,11 +17880,17 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.368574,-0.0187932,0.182562,0.211308,0.222996,0.239979,0.524199],'cal/(mol*K)','+|-',[0.849505,0.936318,0.996629,0.991049,0.834126,0.661511,0.979765]),
+        H298 = (1.7382,'kcal/mol','+|-',3.65398),
+        S298 = (1.18189,'cal/(mol*K)','+|-',2.80346),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1[C]DCC1(F)F smiles:FC1[C]=CC1(F)F H298:-46.85 kcal/mol
 """,
 )
 
@@ -14327,11 +17930,18 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.544102,-0.667717,-0.910006,-0.983695,-0.822287,-0.670812,-1.38557],'cal/(mol*K)','+|-',[0.619372,0.682668,0.72664,0.722572,0.608159,0.482306,0.714345]),
+        H298 = (1.2867,'kcal/mol','+|-',2.66411),
+        S298 = (3.52669,'cal/(mol*K)','+|-',2.044),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OC(Cl)(Cl)C1Cl smiles:Cl[C]1OC(Cl)(Cl)C1Cl H298:-8.45 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]OC1(Cl)Cl smiles:ClC1[CH]OC1(Cl)Cl H298:1.00 kcal/mol
 """,
 )
 
@@ -14349,11 +17959,18 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.46232,-1.40188,-1.50695,-1.51608,-1.10258,-0.735972,-2.14366],'cal/(mol*K)','+|-',[1.23874,1.36533,1.45328,1.44514,1.21632,0.964612,1.42869]),
+        H298 = (5.18098,'kcal/mol','+|-',5.32821),
+        S298 = (5.32735,'cal/(mol*K)','+|-',4.088),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)(F)C1F smiles:F[C]1OC(F)(F)C1F H298:-179.32 kcal/mol
+library:CHOF_G4 label:FC1[CH]OC1(F)F smiles:FC1[CH]OC1(F)F H298:-131.59 kcal/mol
 """,
 )
 
@@ -14393,11 +18010,19 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.262135,0.16747,0.0449016,-0.0168143,-0.158458,-0.188178,0.0176148],'cal/(mol*K)','+|-',[0.477072,0.525826,0.559696,0.556562,0.468436,0.371497,0.550225]),
+        H298 = (2.46094,'kcal/mol','+|-',2.05203),
+        S298 = (2.52456,'cal/(mol*K)','+|-',1.57439),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1CC(Cl)C1(Cl)Cl smiles:Cl[C]1CC(Cl)C1(Cl)Cl H298:18.20 kcal/mol
+library:CHOCl_G4 label:ClC1[CH]C(Cl)(Cl)C1Cl smiles:ClC1[CH]C(Cl)(Cl)C1Cl H298:22.59 kcal/mol
+library:CHOCl_G4 label:ClC1C[CH]C1(Cl)Cl smiles:ClC1C[CH]C1(Cl)Cl H298:29.23 kcal/mol
 """,
 )
 
@@ -14415,11 +18040,21 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0456603,0.0492439,0.0968855,0.0973006,0.0394923,0.06316,0.262793],'cal/(mol*K)','+|-',[0.319207,0.351827,0.37449,0.372393,0.313428,0.248567,0.368153]),
+        H298 = (4.50787,'kcal/mol','+|-',1.37301),
+        S298 = (1.61448,'cal/(mol*K)','+|-',1.05342),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1C[CH]C1(F)F smiles:FC1C[CH]C1(F)F H298:-94.83 kcal/mol
+library:CHOF_G4 label:FC1C(F)(F)[CH]C1(F)F smiles:FC1C(F)(F)[CH]C1(F)F H298:-189.01 kcal/mol
+library:CHOF_G4 label:F[C]1CC(F)C1(F)F smiles:F[C]1CC(F)C1(F)F H298:-139.17 kcal/mol
+library:CHOF_G4 label:FC1[CH]C(F)(F)C1F smiles:FC1[CH]C(F)(F)C1F H298:-138.82 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)C(F)C1(F)F smiles:F[C]1C(F)C(F)C1(F)F H298:-182.20 kcal/mol
 """,
 )
 
@@ -14459,11 +18094,18 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.72185,-1.89276,-2.14671,-2.33001,-2.07993,-1.6879,-2.88419],'cal/(mol*K)','+|-',[1.23874,1.36533,1.45328,1.44514,1.21632,0.964612,1.42869]),
+        H298 = (1.6011,'kcal/mol','+|-',5.32821),
+        S298 = (6.94451,'cal/(mol*K)','+|-',4.088),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1[CH]OC1Cl smiles:ClC1[CH]OC1Cl H298:5.78 kcal/mol
+library:CHOCl_G4 label:Cl[C]1OC(Cl)C1Cl smiles:Cl[C]1OC(Cl)C1Cl H298:-4.11 kcal/mol
 """,
 )
 
@@ -14481,11 +18123,18 @@ entry(
 7    H   u0 p0 c0 {1,S}
 8    H   u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.39422,-1.42629,-1.68337,-1.81807,-1.51114,-1.17474,-2.58284],'cal/(mol*K)','+|-',[1.23874,1.36533,1.45328,1.44514,1.21632,0.964612,1.42869]),
+        H298 = (3.82671,'kcal/mol','+|-',5.32821),
+        S298 = (5.73002,'cal/(mol*K)','+|-',4.088),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)C1F smiles:F[C]1OC(F)C1F H298:-124.37 kcal/mol
+library:CHOF_G4 label:FC1[CH]OC1F smiles:FC1[CH]OC1F H298:-75.85 kcal/mol
 """,
 )
 
@@ -14523,11 +18172,18 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.70581,-3.16219,-3.92261,-4.05334,-3.50883,-2.74905,-1.47155],'cal/(mol*K)','+|-',[1.09736,1.2095,1.28741,1.2802,1.07749,0.854514,1.26562]),
+        H298 = (13.8185,'kcal/mol','+|-',4.72006),
+        S298 = (10.5517,'cal/(mol*K)','+|-',3.62141),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)O1 smiles:ClC1=C(Cl)C(Cl)(Cl)O1 H298:-12.61 kcal/mol
+library:CHOCl_G4 label:ClC1DCOC1(Cl)Cl smiles:ClC1=COC1(Cl)Cl H298:-5.12 kcal/mol
 """,
 )
 
@@ -14544,11 +18200,18 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.04689,-1.64876,-1.87317,-1.87631,-1.51379,-1.09256,-0.460361],'cal/(mol*K)','+|-',[0.548679,0.60475,0.643703,0.640099,0.538746,0.427257,0.632811]),
+        H298 = (11.1077,'kcal/mol','+|-',2.36003),
+        S298 = (4.32308,'cal/(mol*K)','+|-',1.8107),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1DC(F)C(F)(F)O1 smiles:FC1=C(F)C(F)(F)O1 H298:-173.72 kcal/mol
+library:CHOF_G4 label:FC1DCOC1(F)F smiles:FC1=COC1(F)F H298:-129.80 kcal/mol
 """,
 )
 
@@ -14586,11 +18249,17 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.68699,0.456533,0.243095,-0.0298391,-0.374368,-0.528116,-0.0553107],'cal/(mol*K)','+|-',[1.76852,1.94925,2.0748,2.06319,1.7365,1.37715,2.0397]),
+        H298 = (3.20044,'kcal/mol','+|-',7.60693),
+        S298 = (5.77002,'cal/(mol*K)','+|-',5.83631),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1CDCC1(Cl)Cl smiles:Cl[C]1C=CC1(Cl)Cl H298:53.34 kcal/mol
 """,
 )
 
@@ -14628,11 +18297,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.234238,-0.0921238,0.0261451,0.102752,0.102794,0.0774407,0.147096],'cal/(mol*K)','+|-',[0.806323,0.888723,0.945969,0.940672,0.791726,0.627885,0.929962]),
+        H298 = (1.0428,'kcal/mol','+|-',3.46824),
+        S298 = (0.999917,'cal/(mol*K)','+|-',2.66096),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]CC1Cl smiles:ClC1=[C]CC1Cl H298:81.64 kcal/mol
 """,
 )
 
@@ -14672,11 +18347,17 @@ entry(
 7    Cl1s u0 p3 c0 {2,S}
 8    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.741204,-0.600809,-0.529903,-0.544048,-0.504301,-0.364293,0.609958],'cal/(mol*K)','+|-',[1.75872,1.93845,2.06331,2.05176,1.72688,1.36952,2.0284]),
+        H298 = (3.35113,'kcal/mol','+|-',7.56479),
+        S298 = (3.04652,'cal/(mol*K)','+|-',5.80398),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1(Cl)[C]DCC1(Cl)Cl smiles:ClC1(Cl)[C]=CC1(Cl)Cl H298:75.03 kcal/mol
 """,
 )
 
@@ -14714,11 +18395,17 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.97945,-2.24088,-1.76048,-2.06934,-1.93294,-1.6444,-1.08711],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (3.90332,'kcal/mol','+|-',8.4435),
+        S298 = (6.11382,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:Cl[C]1OOC1Cl smiles:Cl[C]1OOC1Cl H298:26.68 kcal/mol
 """,
 )
 
@@ -14756,11 +18443,17 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.430554,-0.21586,-0.144109,-0.120997,-0.129775,-0.0864394,0.27069],'cal/(mol*K)','+|-',[1.65495,1.82407,1.94157,1.9307,1.62499,1.28871,1.90872]),
+        H298 = (1.6945,'kcal/mol','+|-',7.11844),
+        S298 = (2.98537,'cal/(mol*K)','+|-',5.46153),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]CC1(Cl)Cl smiles:ClC1=[C]CC1(Cl)Cl H298:75.96 kcal/mol
 """,
 )
 
@@ -14798,11 +18491,17 @@ entry(
 6    Cl1s u0 p3 c0 {1,S}
 7    Cl1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.518945,-1.17562,-1.68459,-1.85643,-1.68352,-1.30373,-0.617699],'cal/(mol*K)','+|-',[1.76943,1.95026,2.07588,2.06426,1.7374,1.37786,2.04075]),
+        H298 = (27.3522,'kcal/mol','+|-',7.61087),
+        S298 = (6.28379,'cal/(mol*K)','+|-',5.83934),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOCl_G4 label:ClC1D[C]OC1(Cl)Cl smiles:ClC1=[C]OC1(Cl)Cl H298:65.63 kcal/mol
 """,
 )
 
@@ -14840,11 +18539,19 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.366658,-0.0664933,-0.0291642,-0.121776,-0.139168,-0.102402,-0.944025],'cal/(mol*K)','+|-',[0.406383,0.447912,0.476763,0.474094,0.399026,0.316451,0.468696]),
+        H298 = (2.73203,'kcal/mol','+|-',1.74797),
+        S298 = (1.29151,'cal/(mol*K)','+|-',1.34111),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1C(F)OC1(F)F smiles:F[C]1C(F)OC1(F)F H298:-177.37 kcal/mol
+library:CHOF_G4 label:F[C]1C(F)(F)OC1(F)F smiles:F[C]1C(F)(F)OC1(F)F H298:-232.03 kcal/mol
+library:CHOF_G4 label:F[C]1COC1(F)F smiles:F[C]1COC1(F)F H298:-127.47 kcal/mol
 """,
 )
 
@@ -14884,11 +18591,18 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.973026,-0.424227,-0.108082,-0.0361404,0.147553,0.357051,1.21331],'cal/(mol*K)','+|-',[1.56528,1.72524,1.83637,1.82608,1.53694,1.21888,1.80529]),
+        H298 = (6.60619,'kcal/mol','+|-',6.73273),
+        S298 = (2.36247,'cal/(mol*K)','+|-',5.1656),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C(F)(F)C1(F)F smiles:FC1=[C]C(F)(F)C1(F)F H298:-139.37 kcal/mol
+library:CHOF_G4 label:FC1(F)[C]DCC1(F)F smiles:FC1(F)[C]=CC1(F)F H298:-98.26 kcal/mol
 """,
 )
 
@@ -14926,11 +18640,17 @@ entry(
 6    F1s u0 p3 c0 {1,S}
 7    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.00597,-0.87435,-0.337387,-0.604055,-0.487248,-0.321,-0.179995],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (8.67447,'kcal/mol','+|-',8.4435),
+        S298 = (6.19108,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OOC1(F)F smiles:F[C]1OOC1(F)F H298:-107.94 kcal/mol
 """,
 )
 
@@ -14970,11 +18690,17 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.4906,-0.460541,-0.47364,-0.543159,-0.454335,-0.325347,-0.680903],'cal/(mol*K)','+|-',[1.17508,1.29516,1.37859,1.37087,1.1538,0.915034,1.35526]),
+        H298 = (4.15211,'kcal/mol','+|-',5.05436),
+        S298 = (2.69623,'cal/(mol*K)','+|-',3.87789),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:F[C]1OC(F)(F)C1(F)F smiles:F[C]1OC(F)(F)C1(F)F H298:-227.57 kcal/mol
 """,
 )
 
@@ -15014,11 +18740,18 @@ entry(
 7    F1s u0 p3 c0 {2,S}
 8    H   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.822086,-0.207702,0.183284,0.249799,0.309164,0.376533,0.990252],'cal/(mol*K)','+|-',[1.47109,1.62143,1.72587,1.71621,1.44446,1.14554,1.69667]),
+        H298 = (3.21777,'kcal/mol','+|-',6.32762),
+        S298 = (2.50647,'cal/(mol*K)','+|-',4.85478),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C(F)(F)C1F smiles:FC1=[C]C(F)(F)C1F H298:-90.34 kcal/mol
+library:CHOF_G4 label:FC1CD[C]C1(F)F smiles:FC1C=[C]C1(F)F H298:-47.44 kcal/mol
 """,
 )
 
@@ -15054,11 +18787,17 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.265723,-0.313904,-0.174731,-0.322853,-0.592547,-0.620139,-0.0381819],'cal/(mol*K)','+|-',[0.895989,0.987552,1.05116,1.04528,0.879768,0.697708,1.03338]),
+        H298 = (3.13569,'kcal/mol','+|-',3.85392),
+        S298 = (0.533865,'cal/(mol*K)','+|-',2.95687),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C(F)DC1F smiles:FC1=[C]C(F)=C1F H298:25.50 kcal/mol
 """,
 )
 
@@ -15094,11 +18833,17 @@ entry(
 5    F1s u0 p3 c0 {1,S}
 6    F1s u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.265723,-0.313904,-0.174731,-0.322853,-0.592547,-0.620139,-0.0381819],'cal/(mol*K)','+|-',[0.895989,0.987552,1.05116,1.04528,0.879768,0.697708,1.03338]),
+        H298 = (3.13569,'kcal/mol','+|-',3.85392),
+        S298 = (0.533865,'cal/(mol*K)','+|-',2.95687),
+    ),
+    shortDesc = """Fitted using sklearn Ridge regression with alpha = 1e-06""",
     longDesc = 
 """
-
+Dervied using the following species:
+library:CHOF_G4 label:FC1D[C]C(F)DC1F smiles:FC1=[C]C(F)=C1F H298:25.50 kcal/mol
 """,
 )
 
