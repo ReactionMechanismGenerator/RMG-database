@@ -2189,8 +2189,13 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.436187,-0.518008,-0.475131,-0.430801,-0.367708,-0.231508,0.143791],'cal/(mol*K)','+|-',[0.181042,0.199543,0.212396,0.211207,0.177764,0.140977,0.208802]),
+        H298 = (3.92932,'kcal/mol','+|-',2.70925),
+        S298 = (2.99314,'cal/(mol*K)','+|-',0.559288),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -2199,7 +2204,7 @@ entry(
 
 entry(
     index = 80,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sCsCs)",
+    label = "3ring-Cs(BrCsH)-Cs(BrCsCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2233,7 +2238,7 @@ library:CHOBr_G4 label:BrC(Br)C1(Br)C(Br)C1Br smiles:BrC(Br)C1(Br)C(Br)C1Br H298
 
 entry(
     index = 81,
-    label = "3ring-Cs(Cl1sCsH)-Cs(Cl1sCsCs)",
+    label = "3ring-Cs(ClCsH)-Cs(ClCsCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2268,7 +2273,7 @@ library:CHOCl_G4 label:CC1(Cl)CC1Cl smiles:CC1(Cl)CC1Cl H298:-8.25 kcal/mol
 
 entry(
     index = 82,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sCsCs)_624",
+    label = "3ring-Cs(FCsH)-Cs(FCsCs)_624",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2314,8 +2319,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.298782,-0.441915,-0.478958,-0.474583,-0.419368,-0.281652,0.0208283],'cal/(mol*K)','+|-',[0.174239,0.192045,0.204415,0.20327,0.171084,0.13568,0.200956]),
+        H298 = (4.01385,'kcal/mol','+|-',2.64545),
+        S298 = (2.46878,'cal/(mol*K)','+|-',0.257076),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -2324,7 +2334,7 @@ entry(
 
 entry(
     index = 84,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sCsH)",
+    label = "3ring-Cs(BrCsH)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2366,7 +2376,7 @@ library:CHOBr_G4 label:[O]C1C(Br)C1Br smiles:[O]C1C(Br)C1Br H298:29.93 kcal/mol
 
 entry(
     index = 85,
-    label = "3ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)",
+    label = "3ring-Cs(ClCsH)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2406,7 +2416,7 @@ library:CHOCl_G4 label:ClC1C(Cl)C1C(Cl)(Cl)Cl smiles:ClC1C(Cl)C1C(Cl)(Cl)Cl H298
 
 entry(
     index = 86,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sCsH)",
+    label = "3ring-Cs(FCsH)-Cs(FCsH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2462,8 +2472,13 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.544457,0.522496,0.467446,0.390351,0.233138,0.224993,0.438899],'cal/(mol*K)','+|-',[0.389578,0.429391,0.457049,0.45449,0.382526,0.303365,0.449315]),
+        H298 = (4.78868,'kcal/mol','+|-',4.10889),
+        S298 = (3.61401,'cal/(mol*K)','+|-',3.45734),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -2472,7 +2487,7 @@ entry(
 
 entry(
     index = 88,
-    label = "3ring-Cs(Br1sCsCs)-Cs(Br1sCsH)",
+    label = "3ring-Cs(BrCsCs)-Cs(BrCsH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2503,7 +2518,7 @@ library:CHOBr_G4 label:BrCC1(Br)[CH]C1Br smiles:BrCC1(Br)[CH]C1Br H298:75.73 kca
 
 entry(
     index = 89,
-    label = "3ring-Cs(Cl1sCsCs)-Cs(Cl1sCsH)_424",
+    label = "3ring-Cs(ClCsCs)-Cs(ClCsH)_424",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2534,7 +2549,7 @@ library:CHOCl_G4 label:CC1(Cl)[CH]C1Cl smiles:CC1(Cl)[CH]C1Cl H298:47.41 kcal/mo
 
 entry(
     index = 90,
-    label = "3ring-Cs(F1sCsCs)-Cs(F1sCsH)_607",
+    label = "3ring-Cs(FCsCs)-Cs(FCsH)_607",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -2577,8 +2592,13 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.31037,-1.83461,-1.38096,-1.0346,-0.569234,-0.163844,0.593097],'cal/(mol*K)','+|-',[1.46788,1.61788,1.7221,1.71246,1.4413,1.14304,1.69296]),
+        H298 = (7.13476,'kcal/mol','+|-',5.48914),
+        S298 = (5.01115,'cal/(mol*K)','+|-',1.27282),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -2587,7 +2607,7 @@ entry(
 
 entry(
     index = 92,
-    label = "3ring-Cs(Br1sCdH)-Cd(Br1sCd)",
+    label = "3ring-Cs(BrCdH)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2613,7 +2633,7 @@ library:CHOBr_G4 label:BrC1D[C]C1Br smiles:BrC1=[C]C1Br H298:132.37 kcal/mol
 
 entry(
     index = 93,
-    label = "3ring-Cs(F1sCdH)-Cd(F1sCd)_612",
+    label = "3ring-Cs(FCdH)-Cd(FCd)_612",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2648,8 +2668,13 @@ entry(
 4    Val7 u0 p3 c0 {1,S}
 5    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.304959,-0.318025,-0.358635,-0.319858,-0.212382,-0.125777,-0.0728311],'cal/(mol*K)','+|-',[0.265048,0.292134,0.310952,0.309211,0.26025,0.206394,0.30569]),
+        H298 = (4.01891,'kcal/mol','+|-',6.09101),
+        S298 = (1.33209,'cal/(mol*K)','+|-',0.681507),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -2658,7 +2683,7 @@ entry(
 
 entry(
     index = 95,
-    label = "3ring-Cd(Br1sCs)=Cd(Br1sCs)",
+    label = "3ring-Cd(BrCs)=Cd(BrCs)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2695,7 +2720,7 @@ library:CHOBr_G4 label:BrCC1C(Br)DC1Br smiles:BrCC1C(Br)=C1Br H298:74.22 kcal/mo
 
 entry(
     index = 96,
-    label = "3ring-Cd(Cl1sCs)=Cd(Cl1sCs)",
+    label = "3ring-Cd(ClCs)=Cd(ClCs)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2735,7 +2760,7 @@ library:CHOCl_G4 label:ClCC1C(Cl)DC1Cl smiles:ClCC1C(Cl)=C1Cl H298:41.66 kcal/mo
 
 entry(
     index = 97,
-    label = "3ring-Cd(F1sCs)=Cd(F1sCs)",
+    label = "3ring-Cd(FCs)=Cd(FCs)",
     group = 
 """
 1 *2 Cd  u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2788,8 +2813,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.378271,-0.571299,-0.612529,-0.61028,-0.54719,-0.389276,-0.0255598],'cal/(mol*K)','+|-',[0.220133,0.242629,0.258258,0.256812,0.216148,0.171418,0.253888]),
+        H298 = (5.35181,'kcal/mol','+|-',4.67864),
+        S298 = (2.91842,'cal/(mol*K)','+|-',0.728442),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -2798,7 +2828,7 @@ entry(
 
 entry(
     index = 99,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sCsH)",
+    label = "3ring-Cs(BrBrCs)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -2835,7 +2865,7 @@ library:CHOBr_G4 label:BrC1CC1(Br)Br smiles:BrC1CC1(Br)Br H298:33.25 kcal/mol
 
 entry(
     index = 100,
-    label = "3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)_385",
+    label = "3ring-Cs(ClClCs)-Cs(ClCsH)_385",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -2874,7 +2904,7 @@ library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298
 
 entry(
     index = 101,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sCsH)",
+    label = "3ring-Cs(FFCs)-Cs(FCsH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -2925,8 +2955,13 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.332525,-0.372189,-0.355951,-0.325772,-0.245264,-0.101378,0.160737],'cal/(mol*K)','+|-',[0.28837,0.317839,0.338312,0.336418,0.28315,0.224554,0.332588]),
+        H298 = (6.01675,'kcal/mol','+|-',2.58646),
+        S298 = (1.53465,'cal/(mol*K)','+|-',0.251431),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -2935,7 +2970,7 @@ entry(
 
 entry(
     index = 103,
-    label = "3ring-Cs(Br1sCs)-Cs(Br1sCsH)",
+    label = "3ring-Cs(BrCs)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2969,7 +3004,7 @@ library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.
 
 entry(
     index = 104,
-    label = "3ring-Cs(Cl1sCs)-Cs(Cl1sCsH)",
+    label = "3ring-Cs(ClCs)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3003,7 +3038,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)C1(Cl)Cl H298:46.71
 
 entry(
     index = 105,
-    label = "3ring-Cs(F1sCs)-Cs(F1sCsH)",
+    label = "3ring-Cs(FCs)-Cs(FCsH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3050,8 +3085,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.276629,-0.350377,-0.329647,-0.30763,-0.25625,-0.124313,0.170625],'cal/(mol*K)','+|-',[0.406461,0.447999,0.476856,0.474186,0.399103,0.316512,0.468787]),
+        H298 = (7.45825,'kcal/mol','+|-',4.09661),
+        S298 = (2.18235,'cal/(mol*K)','+|-',0.7033),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3060,7 +3100,7 @@ entry(
 
 entry(
     index = 107,
-    label = "3ring-Cs(Br1sCs)-Cs(Br1sBr1sCs)",
+    label = "3ring-Cs(BrCs)-Cs(BrBrCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3090,7 +3130,7 @@ library:CHOBr_G4 label:OC1(Br)[C](Br)C1(Br)Br smiles:OC1(Br)[C](Br)C1(Br)Br H298
 
 entry(
     index = 108,
-    label = "3ring-Cs(Cl1sCs)-Cs(Cl1sCl1sCs)",
+    label = "3ring-Cs(ClCs)-Cs(ClClCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3123,7 +3163,7 @@ library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1(Cl)Cl smiles:CC1(Cl)[C](Cl)C1(Cl)Cl H298
 
 entry(
     index = 109,
-    label = "3ring-Cs(F1sCs)-Cs(F1sF1sCs)",
+    label = "3ring-Cs(FCs)-Cs(FFCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3169,8 +3209,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.106995,0.0537857,0.0499011,0.0115443,-0.0757191,-0.0592183,0.100968],'cal/(mol*K)','+|-',[0.38845,0.428147,0.455725,0.453174,0.381418,0.302487,0.448014]),
+        H298 = (5.67187,'kcal/mol','+|-',0.0929845),
+        S298 = (3.41865,'cal/(mol*K)','+|-',2.25198),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3179,7 +3224,7 @@ entry(
 
 entry(
     index = 111,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)",
+    label = "3ring-Cs(BrCsH)-Cs(BrBrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -3210,7 +3255,7 @@ library:CHOBr_G4 label:O[C]1C(Br)C1(Br)Br smiles:O[C]1C(Br)C1(Br)Br H298:46.24 k
 
 entry(
     index = 112,
-    label = "3ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)_498",
+    label = "3ring-Cs(ClCsH)-Cs(ClClCs)_498",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -3251,8 +3296,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.402069,-0.581071,-0.563397,-0.533569,-0.466435,-0.30917,0.116554],'cal/(mol*K)','+|-',[0.411745,0.453823,0.483055,0.48035,0.404291,0.320627,0.474881]),
+        H298 = (5.81179,'kcal/mol','+|-',4.07685),
+        S298 = (3.66049,'cal/(mol*K)','+|-',1.6773),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3261,7 +3311,7 @@ entry(
 
 entry(
     index = 114,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sCsCs)",
+    label = "3ring-Cs(BrBrCs)-Cs(BrCsCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -3290,7 +3340,7 @@ library:CHOBr_G4 label:CC1(Br)CC1(Br)Br smiles:CC1(Br)CC1(Br)Br H298:24.20 kcal/
 
 entry(
     index = 115,
-    label = "3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsCs)_471",
+    label = "3ring-Cs(ClClCs)-Cs(ClCsCs)_471",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -3322,7 +3372,7 @@ library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298
 
 entry(
     index = 116,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sCsCs)_574",
+    label = "3ring-Cs(FFCs)-Cs(FCsCs)_574",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -3364,8 +3414,13 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.881367,-0.794468,-0.674023,-0.565186,-0.38165,-0.192103,0.189859],'cal/(mol*K)','+|-',[0.238724,0.263119,0.280068,0.2785,0.234402,0.185894,0.275329]),
+        H298 = (1.24048,'kcal/mol','+|-',1.64501),
+        S298 = (2.92932,'cal/(mol*K)','+|-',0.550979),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3374,7 +3429,7 @@ entry(
 
 entry(
     index = 118,
-    label = "3ring-Cs(Br1sCdH)-Cd(Br1sCd)_242",
+    label = "3ring-Cs(BrCdH)-Cd(BrCd)_242",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3407,7 +3462,7 @@ library:CHOBr_G4 label:BrC1DC(C(Br)(Br)Br)C1Br smiles:BrC1=C(C(Br)(Br)Br)C1Br H2
 
 entry(
     index = 119,
-    label = "3ring-Cs(Cl1sCdH)-Cd(Cl1sCd)",
+    label = "3ring-Cs(ClCdH)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3441,7 +3496,7 @@ library:CHOCl_G4 label:ClC1DCC1Cl smiles:ClC1=CC1Cl H298:51.11 kcal/mol
 
 entry(
     index = 120,
-    label = "3ring-Cs(F1sCdH)-Cd(F1sCd)",
+    label = "3ring-Cs(FCdH)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3484,8 +3539,13 @@ entry(
 5    Cs   u1 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.064602,0.089031,0.169781,0.182495,0.080586,0.127511,0.32091],'cal/(mol*K)','+|-',[0.73127,0.806001,0.857918,0.853114,0.718032,0.569441,0.843401]),
+        H298 = (0.482817,'kcal/mol','+|-',2.50814),
+        S298 = (4.5505,'cal/(mol*K)','+|-',5.83782),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3494,7 +3554,7 @@ entry(
 
 entry(
     index = 122,
-    label = "3ring-Cs(Br1sCdCs)-Cd(Br1sCd)",
+    label = "3ring-Cs(BrCdCs)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3520,7 +3580,7 @@ library:CHOBr_G4 label:[CH2]C1(Br)CDC1Br smiles:[CH2]C1(Br)C=C1Br H298:110.37 kc
 
 entry(
     index = 123,
-    label = "3ring-Cs(Cl1sCdCs)-Cd(Cl1sCd)",
+    label = "3ring-Cs(ClCdCs)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3560,8 +3620,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.181174,-0.452358,-1.14822,-1.82247,-1.65683,-1.47628,-0.752567],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (18.761,'kcal/mol','+|-',18.861),
+        S298 = (9.26964,'cal/(mol*K)','+|-',1.23168),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3570,7 +3635,7 @@ entry(
 
 entry(
     index = 125,
-    label = "3ring-Cs(Br1sCOH)-Cs(Br1sBr1sCO)",
+    label = "3ring-Cs(BrCOH)-Cs(BrBrCO)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -3597,7 +3662,7 @@ library:CHOBr_G4 label:ODC1C(Br)C1(Br)Br smiles:O=C1C(Br)C1(Br)Br H298:29.62 kca
 
 entry(
     index = 126,
-    label = "3ring-Cs(Cl1sCOH)-Cs(Cl1sCl1sCO)",
+    label = "3ring-Cs(ClCOH)-Cs(ClClCO)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -3624,7 +3689,7 @@ library:CHOCl_G4 label:ODC1C(Cl)C1(Cl)Cl smiles:O=C1C(Cl)C1(Cl)Cl H298:-2.28 kca
 
 entry(
     index = 127,
-    label = "3ring-Cs(F1sCOH)-Cs(F1sF1sCO)",
+    label = "3ring-Cs(FCOH)-Cs(FFCO)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -3661,8 +3726,13 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.880505,-0.886535,-0.777152,-0.695124,-0.587148,-0.379028,0.0832794],'cal/(mol*K)','+|-',[0.327987,0.361505,0.384791,0.382637,0.32205,0.255404,0.37828]),
+        H298 = (1.88345,'kcal/mol','+|-',2.13764),
+        S298 = (4.68619,'cal/(mol*K)','+|-',4.22884),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3671,7 +3741,7 @@ entry(
 
 entry(
     index = 129,
-    label = "3ring-Cs(Br1sO2sCd)-Cd(Br1sCd)",
+    label = "3ring-Cs(BrO2sCd)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3698,7 +3768,7 @@ library:CHOBr_G4 label:OC1(Br)C(Br)DC1Br smiles:OC1(Br)C(Br)=C1Br H298:37.20 kca
 
 entry(
     index = 130,
-    label = "3ring-Cs(Cl1sO2sCd)-Cd(Cl1sCd)_453",
+    label = "3ring-Cs(ClO2sCd)-Cd(ClCd)_453",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3736,8 +3806,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.22295,-1.09812,-1.23069,-1.39964,-1.34803,-1.23482,-2.56631],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (5.20511,'kcal/mol','+|-',6.55682),
+        S298 = (3.60032,'cal/(mol*K)','+|-',1.59264),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3746,7 +3821,7 @@ entry(
 
 entry(
     index = 132,
-    label = "3ring-Cs(Br1sBr1sO2s)-Cs(Br1sBr1sO2s)",
+    label = "3ring-Cs(BrBrO2s)-Cs(BrBrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3773,7 +3848,7 @@ library:CHOBr_G4 label:BrC1(Br)OC1(Br)Br smiles:BrC1(Br)OC1(Br)Br H298:13.11 kca
 
 entry(
     index = 133,
-    label = "3ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sCl1sO2s)",
+    label = "3ring-Cs(ClClO2s)-Cs(ClClO2s)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3800,7 +3875,7 @@ library:CHOCl_G4 label:ClC1(Cl)OC1(Cl)Cl smiles:ClC1(Cl)OC1(Cl)Cl H298:-35.57 kc
 
 entry(
     index = 134,
-    label = "3ring-Cs(F1sF1sO2s)-Cs(F1sF1sO2s)",
+    label = "3ring-Cs(FFO2s)-Cs(FFO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3837,8 +3912,13 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.881367,-0.794468,-0.674023,-0.565186,-0.38165,-0.192103,0.189859],'cal/(mol*K)','+|-',[0.238724,0.263119,0.280068,0.2785,0.234402,0.185894,0.275329]),
+        H298 = (1.24048,'kcal/mol','+|-',1.64501),
+        S298 = (2.92932,'cal/(mol*K)','+|-',0.550979),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3847,7 +3927,7 @@ entry(
 
 entry(
     index = 136,
-    label = "3ring-Cd(Br1sCd)-Cs(Br1sCdH)",
+    label = "3ring-Cd(BrCd)-Cs(BrCdH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3880,7 +3960,7 @@ library:CHOBr_G4 label:BrC1DC(C(Br)(Br)Br)C1Br smiles:BrC1=C(C(Br)(Br)Br)C1Br H2
 
 entry(
     index = 137,
-    label = "3ring-Cd(Cl1sCd)-Cs(Cl1sCdH)",
+    label = "3ring-Cd(ClCd)-Cs(ClCdH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3914,7 +3994,7 @@ library:CHOCl_G4 label:ClC1DCC1Cl smiles:ClC1=CC1Cl H298:51.11 kcal/mol
 
 entry(
     index = 138,
-    label = "3ring-Cd(F1sCd)-Cs(F1sCdH)",
+    label = "3ring-Cd(FCd)-Cs(FCdH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3957,8 +4037,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.276629,-0.350377,-0.329647,-0.30763,-0.25625,-0.124313,0.170625],'cal/(mol*K)','+|-',[0.406461,0.447999,0.476856,0.474186,0.399103,0.316512,0.468787]),
+        H298 = (7.45825,'kcal/mol','+|-',4.09661),
+        S298 = (2.18235,'cal/(mol*K)','+|-',0.7033),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3967,7 +4052,7 @@ entry(
 
 entry(
     index = 140,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sCs)",
+    label = "3ring-Cs(BrBrCs)-Cs(BrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3997,7 +4082,7 @@ library:CHOBr_G4 label:OC1(Br)[C](Br)C1(Br)Br smiles:OC1(Br)[C](Br)C1(Br)Br H298
 
 entry(
     index = 141,
-    label = "3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCs)",
+    label = "3ring-Cs(ClClCs)-Cs(ClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4030,7 +4115,7 @@ library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1(Cl)Cl smiles:CC1(Cl)[C](Cl)C1(Cl)Cl H298
 
 entry(
     index = 142,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sCs)",
+    label = "3ring-Cs(FFCs)-Cs(FCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4075,8 +4160,13 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.393599,-0.317987,-0.181331,-0.0786616,0.0226712,0.132631,0.387736],'cal/(mol*K)','+|-',[0.389578,0.429391,0.457049,0.45449,0.382526,0.303365,0.449315]),
+        H298 = (7.3723,'kcal/mol','+|-',2.84536),
+        S298 = (1.85816,'cal/(mol*K)','+|-',0.126176),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4085,7 +4175,7 @@ entry(
 
 entry(
     index = 144,
-    label = "3ring-Cs(Br1sCsCs)-Cs(Br1sCs)",
+    label = "3ring-Cs(BrCsCs)-Cs(BrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4115,7 +4205,7 @@ library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.
 
 entry(
     index = 145,
-    label = "3ring-Cs(F1sCsCs)-Cs(F1sCs)",
+    label = "3ring-Cs(FCsCs)-Cs(FCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4160,8 +4250,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.715291,-0.678918,-0.582487,-0.52257,-0.406855,-0.270279,0.264471],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (3.34625,'kcal/mol','+|-',2.77568),
+        S298 = (3.57664,'cal/(mol*K)','+|-',0.551878),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4170,7 +4265,7 @@ entry(
 
 entry(
     index = 147,
-    label = "3ring-Cs(Br1sCdH)-Cs(Br1sCdH)",
+    label = "3ring-Cs(BrCdH)-Cs(BrCdH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4201,7 +4296,7 @@ library:CHOBr_G4 label:Br[C]DC1C(Br)C1Br smiles:Br[C]=C1C(Br)C1Br H298:116.44 kc
 
 entry(
     index = 148,
-    label = "3ring-Cs(Cl1sCdH)-Cs(Cl1sCdH)",
+    label = "3ring-Cs(ClCdH)-Cs(ClCdH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4232,7 +4327,7 @@ library:CHOCl_G4 label:Cl[C]DC1C(Cl)C1Cl smiles:Cl[C]=C1C(Cl)C1Cl H298:83.67 kca
 
 entry(
     index = 149,
-    label = "3ring-Cs(F1sCdH)-Cs(F1sCdH)",
+    label = "3ring-Cs(FCdH)-Cs(FCdH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4274,8 +4369,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.400959,-0.780547,-0.876891,-0.898453,-0.831796,-0.612625,-0.0735877],'cal/(mol*K)','+|-',[0.347015,0.382478,0.407114,0.404835,0.340733,0.270221,0.400225]),
+        H298 = (8.49054,'kcal/mol','+|-',4.67982),
+        S298 = (3.65219,'cal/(mol*K)','+|-',3.1889),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4284,7 +4384,7 @@ entry(
 
 entry(
     index = 151,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sCs)",
+    label = "3ring-Cs(BrBrCs)-Cs(BrBrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4315,7 +4415,7 @@ library:CHOBr_G4 label:BrCC1C(Br)(Br)C1(Br)Br smiles:BrCC1C(Br)(Br)C1(Br)Br H298
 
 entry(
     index = 152,
-    label = "3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sCs)",
+    label = "3ring-Cs(ClClCs)-Cs(ClClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4348,7 +4448,7 @@ library:CHOCl_G4 label:ClC1C(Cl)(Cl)C1(Cl)Cl smiles:ClC1C(Cl)(Cl)C1(Cl)Cl H298:-
 
 entry(
     index = 153,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)",
+    label = "3ring-Cs(FFCs)-Cs(FFCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4396,8 +4496,13 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.109097,-0.116214,-0.0776052,-0.0531888,-0.0466689,0.0269395,0.288099],'cal/(mol*K)','+|-',[0.273242,0.301165,0.320564,0.318769,0.268295,0.212774,0.31514]),
+        H298 = (3.37746,'kcal/mol','+|-',2.84632),
+        S298 = (2.61728,'cal/(mol*K)','+|-',0.491328),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4406,7 +4511,7 @@ entry(
 
 entry(
     index = 155,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sCsCs)_253",
+    label = "3ring-Cs(BrCsH)-Cs(BrCsCs)_253",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4438,7 +4543,7 @@ library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1(Br)Br smiles:[CH2]C1(Br)C(Br)C1(Br)Br 
 
 entry(
     index = 156,
-    label = "3ring-Cs(Cl1sCsH)-Cs(Cl1sCsCs)_417",
+    label = "3ring-Cs(ClCsH)-Cs(ClCsCs)_417",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4468,7 +4573,7 @@ library:CHOCl_G4 label:Cl[CH]C1(Cl)CC1Cl smiles:Cl[CH]C1(Cl)CC1Cl H298:30.73 kca
 
 entry(
     index = 157,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sCsCs)",
+    label = "3ring-Cs(FCsH)-Cs(FCsCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4512,8 +4617,13 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.621681,-0.478407,-0.349877,-0.250022,-0.120275,0.0038447,0.26526],'cal/(mol*K)','+|-',[0.584848,0.644616,0.686137,0.682296,0.574261,0.455422,0.674527]),
+        H298 = (5.40244,'kcal/mol','+|-',1.88749),
+        S298 = (1.50479,'cal/(mol*K)','+|-',0.312608),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4522,7 +4632,7 @@ entry(
 
 entry(
     index = 159,
-    label = "3ring-Cs(Br1sCs)-Cs(Br1sO2sCs)",
+    label = "3ring-Cs(BrCs)-Cs(BrO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4550,7 +4660,7 @@ library:CHOBr_G4 label:OC1(Br)C[C]1Br smiles:OC1(Br)C[C]1Br H298:36.52 kcal/mol
 
 entry(
     index = 160,
-    label = "3ring-Cs(Cl1sCs)-Cs(Cl1sO2sCs)",
+    label = "3ring-Cs(ClCs)-Cs(ClO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4578,7 +4688,7 @@ library:CHOCl_G4 label:OC1(Cl)C[C]1Cl smiles:OC1(Cl)C[C]1Cl H298:14.10 kcal/mol
 
 entry(
     index = 161,
-    label = "3ring-Cs(F1sCs)-Cs(F1sO2sCs)",
+    label = "3ring-Cs(FCs)-Cs(FO2sCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4617,8 +4727,13 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.862918,0.362607,0.140656,0.0345744,-0.0310142,0.0391277,0.317151],'cal/(mol*K)','+|-',[0.634647,0.699503,0.744561,0.740392,0.623158,0.494201,0.731962]),
+        H298 = (8.98246,'kcal/mol','+|-',6.79707),
+        S298 = (3.65738,'cal/(mol*K)','+|-',3.81146),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4627,7 +4742,7 @@ entry(
 
 entry(
     index = 163,
-    label = "3ring-Cs(Br1sO2sCs)-Cs(Br1sCsH)",
+    label = "3ring-Cs(BrO2sCs)-Cs(BrCsH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4655,7 +4770,7 @@ library:CHOBr_G4 label:OC1(Br)[CH]C1Br smiles:OC1(Br)[CH]C1Br H298:40.00 kcal/mo
 
 entry(
     index = 164,
-    label = "3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCsH)",
+    label = "3ring-Cs(ClO2sCs)-Cs(ClCsH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4683,7 +4798,7 @@ library:CHOCl_G4 label:OC1(Cl)[C](Cl)C1Cl smiles:OC1(Cl)[C](Cl)C1Cl H298:9.72 kc
 
 entry(
     index = 165,
-    label = "3ring-Cs(F1sO2sCs)-Cs(F1sCsH)_578",
+    label = "3ring-Cs(FO2sCs)-Cs(FCsH)_578",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -4721,8 +4836,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.940031,-0.898176,-0.75854,-0.627094,-0.419669,-0.221163,0.173],'cal/(mol*K)','+|-',[0.238724,0.263119,0.280068,0.2785,0.234402,0.185894,0.275329]),
+        H298 = (1.59231,'kcal/mol','+|-',5.52095),
+        S298 = (2.90827,'cal/(mol*K)','+|-',1.61493),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4731,7 +4851,7 @@ entry(
 
 entry(
     index = 167,
-    label = "3ring-Cd(Br1sCd)-Cs(Br1sBr1sCd)",
+    label = "3ring-Cd(BrCd)-Cs(BrBrCd)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4763,7 +4883,7 @@ library:CHOBr_G4 label:[CH2]C1DC(Br)C1(Br)Br smiles:[CH2]C1=C(Br)C1(Br)Br H298:1
 
 entry(
     index = 168,
-    label = "3ring-Cd(F1sCd)-Cs(F1sF1sCd)",
+    label = "3ring-Cd(FCd)-Cs(FFCd)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4807,8 +4927,13 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.332525,-0.372189,-0.355951,-0.325772,-0.245264,-0.101378,0.160737],'cal/(mol*K)','+|-',[0.28837,0.317839,0.338312,0.336418,0.28315,0.224554,0.332588]),
+        H298 = (6.01675,'kcal/mol','+|-',2.58646),
+        S298 = (1.53465,'cal/(mol*K)','+|-',0.251431),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4817,7 +4942,7 @@ entry(
 
 entry(
     index = 170,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sCs)",
+    label = "3ring-Cs(BrCsH)-Cs(BrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4851,7 +4976,7 @@ library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.
 
 entry(
     index = 171,
-    label = "3ring-Cs(Cl1sCsH)-Cs(Cl1sCs)",
+    label = "3ring-Cs(ClCsH)-Cs(ClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4885,7 +5010,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)C1(Cl)Cl H298:46.71
 
 entry(
     index = 172,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sCs)",
+    label = "3ring-Cs(FCsH)-Cs(FCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4932,8 +5057,13 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.676296,-0.619544,-0.444904,-0.319631,-0.190631,-0.002954,0.454603],'cal/(mol*K)','+|-',[0.389578,0.429391,0.457049,0.45449,0.382526,0.303365,0.449315]),
+        H298 = (9.39463,'kcal/mol','+|-',7.28876),
+        S298 = (2.91485,'cal/(mol*K)','+|-',3.66157),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -4942,7 +5072,7 @@ entry(
 
 entry(
     index = 174,
-    label = "3ring-Cs(Br1sCs)-Cs(Br1sCsCs)",
+    label = "3ring-Cs(BrCs)-Cs(BrCsCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4972,7 +5102,7 @@ library:CHOBr_G4 label:BrCC1(Br)[C](Br)C1Br smiles:BrCC1(Br)[C](Br)C1Br H298:78.
 
 entry(
     index = 175,
-    label = "3ring-Cs(Cl1sCs)-Cs(Cl1sCsCs)",
+    label = "3ring-Cs(ClCs)-Cs(ClCsCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5002,7 +5132,7 @@ library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1(Cl)Cl smiles:CC1(Cl)[C](Cl)C1(Cl)Cl H298
 
 entry(
     index = 176,
-    label = "3ring-Cs(F1sCs)-Cs(F1sCsCs)",
+    label = "3ring-Cs(FCs)-Cs(FCsCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5047,8 +5177,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.31544,-1.31589,-1.15454,-1.089,-0.890469,-0.626318,0.299021],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (7.04591,'kcal/mol','+|-',5.39935),
+        S298 = (6.55945,'cal/(mol*K)','+|-',6.99952),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5057,7 +5192,7 @@ entry(
 
 entry(
     index = 178,
-    label = "3ring-Cs(Br1sBr1sCd)-Cs(Br1sCdH)",
+    label = "3ring-Cs(BrBrCd)-Cs(BrCdH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -5085,7 +5220,7 @@ library:CHOBr_G4 label:[CH]DC1C(Br)C1(Br)Br smiles:[CH]=C1C(Br)C1(Br)Br H298:121
 
 entry(
     index = 179,
-    label = "3ring-Cs(F1sF1sCd)-Cs(F1sCdH)",
+    label = "3ring-Cs(FFCd)-Cs(FCdH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -5127,8 +5262,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.378271,-0.571299,-0.612529,-0.61028,-0.54719,-0.389276,-0.0255598],'cal/(mol*K)','+|-',[0.220133,0.242629,0.258258,0.256812,0.216148,0.171418,0.253888]),
+        H298 = (5.35181,'kcal/mol','+|-',4.67864),
+        S298 = (2.91842,'cal/(mol*K)','+|-',0.728442),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5137,7 +5277,7 @@ entry(
 
 entry(
     index = 181,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)_264",
+    label = "3ring-Cs(BrCsH)-Cs(BrBrCs)_264",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -5174,7 +5314,7 @@ library:CHOBr_G4 label:BrC1CC1(Br)Br smiles:BrC1CC1(Br)Br H298:33.25 kcal/mol
 
 entry(
     index = 182,
-    label = "3ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)",
+    label = "3ring-Cs(ClCsH)-Cs(ClClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -5213,7 +5353,7 @@ library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298
 
 entry(
     index = 183,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sF1sCs)",
+    label = "3ring-Cs(FCsH)-Cs(FFCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -5265,8 +5405,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.146742,0.267659,0.337847,0.355505,0.323218,0.314045,0.342951],'cal/(mol*K)','+|-',[0.367617,0.405185,0.431284,0.42887,0.360962,0.286264,0.423987]),
+        H298 = (6.72247,'kcal/mol','+|-',3.94069),
+        S298 = (2.09797,'cal/(mol*K)','+|-',1.55218),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5275,7 +5420,7 @@ entry(
 
 entry(
     index = 185,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sCsH)_268",
+    label = "3ring-Cs(BrCsH)-Cs(BrCsH)_268",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5306,7 +5451,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)C1Br smiles:Br[C]1C(Br)C1Br H298:82.31 kcal/mo
 
 entry(
     index = 186,
-    label = "3ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)_390",
+    label = "3ring-Cs(ClCsH)-Cs(ClCsH)_390",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5337,7 +5482,7 @@ library:CHOCl_G4 label:ClC(Cl)[C]1C(Cl)C1Cl smiles:ClC(Cl)[C]1C(Cl)C1Cl H298:38.
 
 entry(
     index = 187,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sCsH)_575",
+    label = "3ring-Cs(FCsH)-Cs(FCsH)_575",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5380,8 +5525,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.66906,-1.8803,-1.88843,-2.07846,-1.86358,-1.70232,-4.80022],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (15.5828,'kcal/mol','+|-',11.1902),
+        S298 = (7.31694,'cal/(mol*K)','+|-',3.61923),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5390,7 +5540,7 @@ entry(
 
 entry(
     index = 189,
-    label = "3ring-Cs(Br1sBr1sO2s)-Cs(Br1sO2s)",
+    label = "3ring-Cs(BrBrO2s)-Cs(BrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5416,7 +5566,7 @@ library:CHOBr_G4 label:Br[C]1OC1(Br)Br smiles:Br[C]1OC1(Br)Br H298:53.01 kcal/mo
 
 entry(
     index = 190,
-    label = "3ring-Cs(F1sF1sO2s)-Cs(F1sO2s)",
+    label = "3ring-Cs(FFO2s)-Cs(FO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5452,8 +5602,13 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.914045,-0.849444,-0.7229,-0.634235,-0.491086,-0.253453,0.207014],'cal/(mol*K)','+|-',[0.327987,0.361505,0.384791,0.382637,0.32205,0.255404,0.37828]),
+        H298 = (3.3613,'kcal/mol','+|-',6.31765),
+        S298 = (4.4352,'cal/(mol*K)','+|-',3.51893),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5462,7 +5617,7 @@ entry(
 
 entry(
     index = 192,
-    label = "3ring-Cd(Br1sCd)-Cs(Br1sO2sCd)",
+    label = "3ring-Cd(BrCd)-Cs(BrO2sCd)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5489,7 +5644,7 @@ library:CHOBr_G4 label:OC1(Br)C(Br)DC1Br smiles:OC1(Br)C(Br)=C1Br H298:37.20 kca
 
 entry(
     index = 193,
-    label = "3ring-Cd(F1sCd)-Cs(F1sO2sCd)_642",
+    label = "3ring-Cd(FCd)-Cs(FO2sCd)_642",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5527,8 +5682,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.81925,-2.99841,-3.14598,-3.29545,-3.03328,-2.58173,-4.15426],'cal/(mol*K)','+|-',[0.801397,0.883294,0.94019,0.934926,0.786889,0.624049,0.92428]),
+        H298 = (9.02558,'kcal/mol','+|-',13.1096),
+        S298 = (9.79684,'cal/(mol*K)','+|-',6.84284),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5537,7 +5697,7 @@ entry(
 
 entry(
     index = 195,
-    label = "3ring-Cs(Br1sBr1sO2s)-Cs(Br1sO2sCs)",
+    label = "3ring-Cs(BrBrO2s)-Cs(BrO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -5566,7 +5726,7 @@ library:CHOBr_G4 label:BrCC1(Br)OC1(Br)Br smiles:BrCC1(Br)OC1(Br)Br H298:0.55 kc
 
 entry(
     index = 196,
-    label = "3ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sO2sCs)",
+    label = "3ring-Cs(ClClO2s)-Cs(ClO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -5595,7 +5755,7 @@ library:CHOCl_G4 label:ClCC1(Cl)OC1(Cl)Cl smiles:ClCC1(Cl)OC1(Cl)Cl H298:-46.52 
 
 entry(
     index = 197,
-    label = "3ring-Cs(F1sF1sO2s)-Cs(F1sO2sCs)",
+    label = "3ring-Cs(FFO2s)-Cs(FO2sCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -5635,8 +5795,13 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.28169,-3.19736,-3.39252,-3.52729,-2.99873,-2.43454,-4.71432],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (6.74173,'kcal/mol','+|-',3.48815),
+        S298 = (8.75705,'cal/(mol*K)','+|-',2.74768),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5645,7 +5810,7 @@ entry(
 
 entry(
     index = 199,
-    label = "3ring-Cs(Br1sO2sO2s)-Cs(Br1sO2sH)",
+    label = "3ring-Cs(BrO2sO2s)-Cs(BrO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5672,7 +5837,7 @@ library:CHOBr_G4 label:OC1(Br)OC1Br smiles:OC1(Br)OC1Br H298:-48.00 kcal/mol
 
 entry(
     index = 200,
-    label = "3ring-Cs(Cl1sO2sO2s)-Cs(Cl1sO2sH)",
+    label = "3ring-Cs(ClO2sO2s)-Cs(ClO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5699,7 +5864,7 @@ library:CHOCl_G4 label:OC1(Cl)OC1Cl smiles:OC1(Cl)OC1Cl H298:-73.01 kcal/mol
 
 entry(
     index = 201,
-    label = "3ring-Cs(F1sO2sO2s)-Cs(F1sO2sH)",
+    label = "3ring-Cs(FO2sO2s)-Cs(FO2sH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5736,8 +5901,13 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.80105,-2.52358,-2.5097,-2.60455,-2.32973,-1.96021,-3.85161],'cal/(mol*K)','+|-',[1.06015,1.16849,1.24375,1.23679,1.04096,0.825539,1.22271]),
+        H298 = (13.6853,'kcal/mol','+|-',12.6106),
+        S298 = (7.24648,'cal/(mol*K)','+|-',5.39847),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5746,7 +5916,7 @@ entry(
 
 entry(
     index = 203,
-    label = "3ring-Cs(Br1sO2s)-Cs(Br1sO2sCs)",
+    label = "3ring-Cs(BrO2s)-Cs(BrO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5774,7 +5944,7 @@ library:CHOBr_G4 label:Br[C]1OC1(Br)C(Br)Br smiles:Br[C]1OC1(Br)C(Br)Br H298:50.
 
 entry(
     index = 204,
-    label = "3ring-Cs(Cl1sO2s)-Cs(Cl1sO2sCs)",
+    label = "3ring-Cs(ClO2s)-Cs(ClO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5801,7 +5971,7 @@ library:CHOCl_G4 label:ClCC1(Cl)O[C]1Cl smiles:ClCC1(Cl)O[C]1Cl H298:6.42 kcal/m
 
 entry(
     index = 205,
-    label = "3ring-Cs(F1sO2s)-Cs(F1sO2sCs)",
+    label = "3ring-Cs(FO2s)-Cs(FO2sCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5841,8 +6011,13 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.109097,-0.116214,-0.0776052,-0.0531888,-0.0466689,0.0269395,0.288099],'cal/(mol*K)','+|-',[0.273242,0.301165,0.320564,0.318769,0.268295,0.212774,0.31514]),
+        H298 = (3.37746,'kcal/mol','+|-',2.84632),
+        S298 = (2.61728,'cal/(mol*K)','+|-',0.491328),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5851,7 +6026,7 @@ entry(
 
 entry(
     index = 207,
-    label = "3ring-Cs(Br1sCsCs)-Cs(Br1sCsH)_275",
+    label = "3ring-Cs(BrCsCs)-Cs(BrCsH)_275",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5883,7 +6058,7 @@ library:CHOBr_G4 label:[CH2]C1(Br)C(Br)C1(Br)Br smiles:[CH2]C1(Br)C(Br)C1(Br)Br 
 
 entry(
     index = 208,
-    label = "3ring-Cs(Cl1sCsCs)-Cs(Cl1sCsH)_466",
+    label = "3ring-Cs(ClCsCs)-Cs(ClCsH)_466",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5913,7 +6088,7 @@ library:CHOCl_G4 label:Cl[CH]C1(Cl)CC1Cl smiles:Cl[CH]C1(Cl)CC1Cl H298:30.73 kca
 
 entry(
     index = 209,
-    label = "3ring-Cs(F1sCsCs)-Cs(F1sCsH)",
+    label = "3ring-Cs(FCsCs)-Cs(FCsH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5958,8 +6133,13 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.568578,0.252868,0.098572,0.013891,-0.035352,0.0258305,0.255983],'cal/(mol*K)','+|-',[0.634647,0.699503,0.744561,0.740392,0.623158,0.494201,0.731962]),
+        H298 = (7.19434,'kcal/mol','+|-',3.9577),
+        S298 = (2.61875,'cal/(mol*K)','+|-',1.77883),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -5968,7 +6148,7 @@ entry(
 
 entry(
     index = 211,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sO2sCs)",
+    label = "3ring-Cs(BrCsH)-Cs(BrO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5996,7 +6176,7 @@ library:CHOBr_G4 label:OC1(Br)[CH]C1Br smiles:OC1(Br)[CH]C1Br H298:40.00 kcal/mo
 
 entry(
     index = 212,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sO2sCs)_645",
+    label = "3ring-Cs(FCsH)-Cs(FO2sCs)_645",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -6034,8 +6214,13 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.852149,-0.720647,-0.549832,-0.450337,-0.371878,-0.202987,0.168928],'cal/(mol*K)','+|-',[0.460774,0.507862,0.540575,0.537549,0.452433,0.358806,0.531428]),
+        H298 = (2.06808,'kcal/mol','+|-',1.97568),
+        S298 = (4.66264,'cal/(mol*K)','+|-',4.81688),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6044,7 +6229,7 @@ entry(
 
 entry(
     index = 214,
-    label = "3ring-Cd(Br1sCd)-Cs(Br1sCsCd)",
+    label = "3ring-Cd(BrCd)-Cs(BrCsCd)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6074,7 +6259,7 @@ library:CHOBr_G4 label:CC1(Br)CDC1Br smiles:CC1(Br)C=C1Br H298:64.04 kcal/mol
 
 entry(
     index = 215,
-    label = "3ring-Cd(Cl1sCd)-Cs(Cl1sCsCd)",
+    label = "3ring-Cd(ClCd)-Cs(ClCsCd)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6105,7 +6290,7 @@ library:CHOCl_G4 label:CC1(Cl)CDC1Cl smiles:CC1(Cl)C=C1Cl H298:41.34 kcal/mol
 
 entry(
     index = 216,
-    label = "3ring-Cd(F1sCd)-Cs(F1sCsCd)_567",
+    label = "3ring-Cd(FCd)-Cs(FCsCd)_567",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6146,8 +6331,13 @@ entry(
 4    Val7 u0 p3 c0 {1,S}
 5    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.103215,-0.208146,-0.159288,-0.216387,-0.35594,-0.372581,-0.087145],'cal/(mol*K)','+|-',[0.400699,0.441647,0.470095,0.467463,0.393445,0.312025,0.46214]),
+        H298 = (0.212737,'kcal/mol','+|-',10.3083),
+        S298 = (0.021323,'cal/(mol*K)','+|-',0.867216),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6156,7 +6346,7 @@ entry(
 
 entry(
     index = 218,
-    label = "3ring-Cd(Br1sCd)=Cd(Br1sCd)",
+    label = "3ring-Cd(BrCd)=Cd(BrCd)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6185,7 +6375,7 @@ library:CHOBr_G4 label:BrC(Br)DC1C(Br)DC1Br smiles:BrC(Br)=C1C(Br)=C1Br H298:116
 
 entry(
     index = 219,
-    label = "3ring-Cd(Cl1sCd)=Cd(Cl1sCd)",
+    label = "3ring-Cd(ClCd)=Cd(ClCd)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6214,7 +6404,7 @@ library:CHOCl_G4 label:[CH]DC1C(Cl)DC1Cl smiles:[CH]=C1C(Cl)=C1Cl H298:166.36 kc
 
 entry(
     index = 220,
-    label = "3ring-Cd(F1sCd)=Cd(F1sCd)",
+    label = "3ring-Cd(FCd)=Cd(FCd)",
     group = 
 """
 1 *1 Cd  u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6254,8 +6444,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0483701,-0.211269,-0.214119,-0.241025,-0.299993,-0.235592,0.057364],'cal/(mol*K)','+|-',[0.601048,0.662471,0.705142,0.701195,0.590167,0.468037,0.693211]),
+        H298 = (9.86068,'kcal/mol','+|-',6.6493),
+        S298 = (3.26437,'cal/(mol*K)','+|-',3.5449),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6264,7 +6459,7 @@ entry(
 
 entry(
     index = 222,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sCs)_285",
+    label = "3ring-Cs(BrBrCs)-Cs(BrBrCs)_285",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6292,7 +6487,7 @@ library:CHOBr_G4 label:BrC1(Br)[CH]C1(Br)Br smiles:BrC1(Br)[CH]C1(Br)Br H298:95.
 
 entry(
     index = 223,
-    label = "3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sCs)_413",
+    label = "3ring-Cs(ClClCs)-Cs(ClClCs)_413",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6322,7 +6517,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)(Cl)C1(Cl)Cl smiles:Cl[C]1C(Cl)(Cl)C1(Cl)Cl H2
 
 entry(
     index = 224,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)_536",
+    label = "3ring-Cs(FFCs)-Cs(FFCs)_536",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6364,8 +6559,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.752172,-1.27705,-1.36381,-1.33467,-1.1467,-0.799397,0.087767],'cal/(mol*K)','+|-',[1.04792,1.15501,1.22941,1.22252,1.02895,0.816016,1.2086]),
+        H298 = (14.0641,'kcal/mol','+|-',7.32902),
+        S298 = (6.21871,'cal/(mol*K)','+|-',3.57653),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6374,7 +6574,7 @@ entry(
 
 entry(
     index = 226,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sO2sCs)",
+    label = "3ring-Cs(BrBrCs)-Cs(BrO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -6402,7 +6602,7 @@ library:CHOBr_G4 label:OC1(Br)C(Br)C1(Br)Br smiles:OC1(Br)C(Br)C1(Br)Br H298:2.5
 
 entry(
     index = 227,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sO2sCs)",
+    label = "3ring-Cs(FFCs)-Cs(FO2sCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -6442,8 +6642,13 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.3559,-3.56085,-3.80014,-4.0382,-3.7819,-3.25276,-5.12589],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.809669,0.681466,0.540442,0.80045]),
+        H298 = (8.86484,'kcal/mol','+|-',6.57516),
+        S298 = (11.6114,'cal/(mol*K)','+|-',1.78952),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6452,7 +6657,7 @@ entry(
 
 entry(
     index = 229,
-    label = "3ring-Cs(Br1sO2sH)-Cs(Br1sO2sCs)",
+    label = "3ring-Cs(BrO2sH)-Cs(BrO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -6482,7 +6687,7 @@ library:CHOBr_G4 label:BrC(Br)C1(Br)OC1Br smiles:BrC(Br)C1(Br)OC1Br H298:0.58 kc
 
 entry(
     index = 230,
-    label = "3ring-Cs(Cl1sO2sH)-Cs(Cl1sO2sCs)",
+    label = "3ring-Cs(ClO2sH)-Cs(ClO2sCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -6512,7 +6717,7 @@ library:CHOCl_G4 label:ClC1OC1(Cl)C(Cl)(Cl)Cl smiles:ClC1OC1(Cl)C(Cl)(Cl)Cl H298
 
 entry(
     index = 231,
-    label = "3ring-Cs(F1sO2sH)-Cs(F1sO2sCs)",
+    label = "3ring-Cs(FO2sH)-Cs(FO2sCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -6551,8 +6756,13 @@ entry(
 4    Val7 u0 p3 c0 {1,S}
 5    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.261893,-0.211709,-0.0879294,-0.149913,-0.32812,-0.24497,0.0910339],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (0.705123,'kcal/mol','+|-',6.60997),
+        S298 = (-0.387176,'cal/(mol*K)','+|-',0.893566),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6561,7 +6771,7 @@ entry(
 
 entry(
     index = 233,
-    label = "3ring-Cd(Br1sCO)=Cd(Br1sCO)",
+    label = "3ring-Cd(BrCO)=Cd(BrCO)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6586,7 +6796,7 @@ library:CHOBr_G4 label:ODC1C(Br)DC1Br smiles:O=C1C(Br)=C1Br H298:46.40 kcal/mol
 
 entry(
     index = 234,
-    label = "3ring-Cd(Cl1sCO)=Cd(Cl1sCO)",
+    label = "3ring-Cd(ClCO)=Cd(ClCO)",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6611,7 +6821,7 @@ library:CHOCl_G4 label:ODC1C(Cl)DC1Cl smiles:O=C1C(Cl)=C1Cl H298:24.72 kcal/mol
 
 entry(
     index = 235,
-    label = "3ring-Cd(F1sCO)=Cd(F1sCO)",
+    label = "3ring-Cd(FCO)=Cd(FCO)",
     group = 
 """
 1 *1 Cd  u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6645,8 +6855,13 @@ entry(
 4    Val7 u0 p3 c0 {2,S}
 5    Val7 u0 p3 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.37915,-1.20663,-0.979643,-0.775354,-0.470681,-0.185255,0.439017],'cal/(mol*K)','+|-',[0.523205,0.576673,0.613819,0.610382,0.513734,0.407421,0.603432]),
+        H298 = (0.328615,'kcal/mol','+|-',1.59982),
+        S298 = (3.67256,'cal/(mol*K)','+|-',3.49907),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6655,7 +6870,7 @@ entry(
 
 entry(
     index = 237,
-    label = "3ring-Cs(Br1sCd)-Cd(Br1sCd)",
+    label = "3ring-Cs(BrCd)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u1 p0 c0 {2,S} {3,S} {5,S}
@@ -6684,7 +6899,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)DC1Br smiles:Br[C]1C(Br)=C1Br H298:124.65 kcal
 
 entry(
     index = 238,
-    label = "3ring-Cs(Cl1sCd)-Cd(Cl1sCd)",
+    label = "3ring-Cs(ClCd)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u1 p0 c0 {2,S} {3,S} {4,S}
@@ -6713,7 +6928,7 @@ library:CHOCl_G4 label:Cl[C]1CDC1Cl smiles:Cl[C]1C=C1Cl H298:98.22 kcal/mol
 
 entry(
     index = 239,
-    label = "3ring-Cs(F1sCd)-Cd(F1sCd)",
+    label = "3ring-Cs(FCd)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u1 p0 c0 {2,S} {3,S} {5,S}
@@ -6753,8 +6968,13 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.8331,-1.57739,-1.18687,-0.90805,-0.606117,-0.265325,0.359608],'cal/(mol*K)','+|-',[1.53526,1.69215,1.80114,1.79106,1.50746,1.19551,1.77067]),
+        H298 = (4.0164,'kcal/mol','+|-',5.13266),
+        S298 = (5.40209,'cal/(mol*K)','+|-',1.7622),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6763,7 +6983,7 @@ entry(
 
 entry(
     index = 241,
-    label = "3ring-Cs(Br1sO2sCd)-Cd(Br1sCd)_293",
+    label = "3ring-Cs(BrO2sCd)-Cd(BrCd)_293",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6789,7 +7009,7 @@ library:CHOBr_G4 label:OC1(Br)[C]DC1Br smiles:OC1(Br)[C]=C1Br H298:87.06 kcal/mo
 
 entry(
     index = 242,
-    label = "3ring-Cs(Cl1sO2sCd)-Cd(Cl1sCd)_470",
+    label = "3ring-Cs(ClO2sCd)-Cd(ClCd)_470",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6815,7 +7035,7 @@ library:CHOCl_G4 label:OC1(Cl)[C]DC1Cl smiles:OC1(Cl)[C]=C1Cl H298:63.92 kcal/mo
 
 entry(
     index = 243,
-    label = "3ring-Cs(F1sO2sCd)-Cd(F1sCd)",
+    label = "3ring-Cs(FO2sCd)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6852,8 +7072,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0528729,0.0844258,0.22232,0.263995,0.252028,0.279533,0.445992],'cal/(mol*K)','+|-',[0.38845,0.428147,0.455725,0.453174,0.381418,0.302487,0.448014]),
+        H298 = (11.4287,'kcal/mol','+|-',19.9423),
+        S298 = (3.41868,'cal/(mol*K)','+|-',1.59239),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6862,7 +7087,7 @@ entry(
 
 entry(
     index = 245,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sCsH)_297",
+    label = "3ring-Cs(BrBrCs)-Cs(BrCsH)_297",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -6893,7 +7118,7 @@ library:CHOBr_G4 label:O[C]1C(Br)C1(Br)Br smiles:O[C]1C(Br)C1(Br)Br H298:46.24 k
 
 entry(
     index = 246,
-    label = "3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)",
+    label = "3ring-Cs(ClClCs)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -6923,7 +7148,7 @@ library:CHOCl_G4 label:O[C]1C(Cl)C1(Cl)Cl smiles:O[C]1C(Cl)C1(Cl)Cl H298:11.28 k
 
 entry(
     index = 247,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sCsH)_586",
+    label = "3ring-Cs(FFCs)-Cs(FCsH)_586",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -6965,8 +7190,13 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.96247,-2.29277,-2.35941,-2.55313,-2.28933,-2.06356,-5.06534],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (12.2439,'kcal/mol','+|-',3.5971),
+        S298 = (5.39685,'cal/(mol*K)','+|-',1.31368),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -6975,7 +7205,7 @@ entry(
 
 entry(
     index = 249,
-    label = "3ring-Cs(Br1sO2sH)-Cs(Br1sO2s)",
+    label = "3ring-Cs(BrO2sH)-Cs(BrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7001,7 +7231,7 @@ library:CHOBr_G4 label:Br[C]1OC1Br smiles:Br[C]1OC1Br H298:45.24 kcal/mol
 
 entry(
     index = 250,
-    label = "3ring-Cs(Cl1sO2sH)-Cs(Cl1sO2s)",
+    label = "3ring-Cs(ClO2sH)-Cs(ClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7027,7 +7257,7 @@ library:CHOCl_G4 label:Cl[C]1OC1Cl smiles:Cl[C]1OC1Cl H298:21.46 kcal/mol
 
 entry(
     index = 251,
-    label = "3ring-Cs(F1sO2sH)-Cs(F1sO2s)",
+    label = "3ring-Cs(FO2sH)-Cs(FO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7064,8 +7294,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.97643,-2.91884,-3.11691,-3.23371,-2.7325,-2.2166,-4.54121],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62846,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (9.21057,'kcal/mol','+|-',8.42494),
+        S298 = (9.22503,'cal/(mol*K)','+|-',3.1476),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7074,7 +7309,7 @@ entry(
 
 entry(
     index = 253,
-    label = "3ring-Cs(Br1sO2sO2s)-Cs(Br1sBr1sO2s)",
+    label = "3ring-Cs(BrO2sO2s)-Cs(BrBrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7101,7 +7336,7 @@ library:CHOBr_G4 label:OC1(Br)OC1(Br)Br smiles:OC1(Br)OC1(Br)Br H298:-39.97 kcal
 
 entry(
     index = 254,
-    label = "3ring-Cs(Cl1sO2sO2s)-Cs(Cl1sCl1sO2s)",
+    label = "3ring-Cs(ClO2sO2s)-Cs(ClClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7128,7 +7363,7 @@ library:CHOCl_G4 label:OC1(Cl)OC1(Cl)Cl smiles:OC1(Cl)OC1(Cl)Cl H298:-76.86 kcal
 
 entry(
     index = 255,
-    label = "3ring-Cs(F1sO2sO2s)-Cs(F1sF1sO2s)",
+    label = "3ring-Cs(FO2sO2s)-Cs(FFO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7165,8 +7400,13 @@ entry(
 5    Cs   u1 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.520754,-0.137994,0.091975,0.180572,0.202828,0.328983,0.573685],'cal/(mol*K)','+|-',[0.73127,0.806001,0.857918,0.853114,0.718032,0.569441,0.843401]),
+        H298 = (2.47313,'kcal/mol','+|-',8.13759),
+        S298 = (3.65917,'cal/(mol*K)','+|-',3.31676),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7175,7 +7415,7 @@ entry(
 
 entry(
     index = 257,
-    label = "3ring-Cd(Br1sCd)-Cs(Br1sCdCs)",
+    label = "3ring-Cd(BrCd)-Cs(BrCdCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7201,7 +7441,7 @@ library:CHOBr_G4 label:[CH2]C1(Br)CDC1Br smiles:[CH2]C1(Br)C=C1Br H298:110.37 kc
 
 entry(
     index = 258,
-    label = "3ring-Cd(F1sCd)-Cs(F1sCdCs)",
+    label = "3ring-Cd(FCd)-Cs(FCdCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7241,8 +7481,13 @@ entry(
 4    Val7 u0 p3 c0 {1,S}
 5    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.04332,-0.91567,-0.736349,-0.576606,-0.338656,-0.133245,0.285172],'cal/(mol*K)','+|-',[0.523205,0.576673,0.613819,0.610382,0.513734,0.407421,0.603432]),
+        H298 = (0.779695,'kcal/mol','+|-',0.485275),
+        S298 = (2.72714,'cal/(mol*K)','+|-',1.74216),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7251,7 +7496,7 @@ entry(
 
 entry(
     index = 260,
-    label = "3ring-Cd(Br1sCd)-Cs(Br1sCd)",
+    label = "3ring-Cd(BrCd)-Cs(BrCd)",
     group = 
 """
 1 *2 Cs   u1 p0 c0 {2,S} {3,S} {4,S}
@@ -7280,7 +7525,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)DC1Br smiles:Br[C]1C(Br)=C1Br H298:124.65 kcal
 
 entry(
     index = 261,
-    label = "3ring-Cd(F1sCd)-Cs(F1sCd)",
+    label = "3ring-Cd(FCd)-Cs(FCd)",
     group = 
 """
 1 *2 Cs  u1 p0 c0 {2,S} {3,S} {4,S}
@@ -7321,8 +7566,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.857855,0.851297,0.744356,0.502685,0.0831184,0.025064,0.498125],'cal/(mol*K)','+|-',[1.61395,1.77889,1.89347,1.88287,1.58473,1.25679,1.86143]),
+        H298 = (8.39287,'kcal/mol','+|-',3.10228),
+        S298 = (4.54631,'cal/(mol*K)','+|-',4.96571),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7331,7 +7581,7 @@ entry(
 
 entry(
     index = 263,
-    label = "3ring-Cs(Br1sCsCs)-Cs(Br1sBr1sCs)",
+    label = "3ring-Cs(BrCsCs)-Cs(BrBrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7358,7 +7608,7 @@ library:CHOBr_G4 label:CC1(Br)[CH]C1(Br)Br smiles:CC1(Br)[CH]C1(Br)Br H298:77.13
 
 entry(
     index = 264,
-    label = "3ring-Cs(Cl1sCsCs)-Cs(Cl1sCl1sCs)_459",
+    label = "3ring-Cs(ClCsCs)-Cs(ClClCs)_459",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7386,7 +7636,7 @@ library:CHOCl_G4 label:CC1(Cl)[C](Cl)C1(Cl)Cl smiles:CC1(Cl)[C](Cl)C1(Cl)Cl H298
 
 entry(
     index = 265,
-    label = "3ring-Cs(F1sCsCs)-Cs(F1sF1sCs)",
+    label = "3ring-Cs(FCsCs)-Cs(FFCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7428,8 +7678,13 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.436187,-0.518008,-0.475131,-0.430801,-0.367708,-0.231508,0.143791],'cal/(mol*K)','+|-',[0.181042,0.199543,0.212396,0.211207,0.177764,0.140977,0.208802]),
+        H298 = (3.92932,'kcal/mol','+|-',2.70925),
+        S298 = (2.99314,'cal/(mol*K)','+|-',0.559288),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7438,7 +7693,7 @@ entry(
 
 entry(
     index = 267,
-    label = "3ring-Cs(Br1sCsCs)-Cs(Br1sCsH)_319",
+    label = "3ring-Cs(BrCsCs)-Cs(BrCsH)_319",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -7472,7 +7727,7 @@ library:CHOBr_G4 label:BrC(Br)C1(Br)C(Br)C1Br smiles:BrC(Br)C1(Br)C(Br)C1Br H298
 
 entry(
     index = 268,
-    label = "3ring-Cs(Cl1sCsCs)-Cs(Cl1sCsH)",
+    label = "3ring-Cs(ClCsCs)-Cs(ClCsH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -7507,7 +7762,7 @@ library:CHOCl_G4 label:CC1(Cl)CC1Cl smiles:CC1(Cl)CC1Cl H298:-8.25 kcal/mol
 
 entry(
     index = 269,
-    label = "3ring-Cs(F1sCsCs)-Cs(F1sCsH)_554",
+    label = "3ring-Cs(FCsCs)-Cs(FCsH)_554",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -7552,8 +7807,13 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.01452,-1.48187,-0.913988,-0.558706,-0.303593,-0.0197135,0.557986],'cal/(mol*K)','+|-',[1.08428,1.19509,1.27207,1.26495,1.06465,0.844333,1.25054]),
+        H298 = (7.58092,'kcal/mol','+|-',9.04668),
+        S298 = (4.99911,'cal/(mol*K)','+|-',2.27045),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7562,7 +7822,7 @@ entry(
 
 entry(
     index = 271,
-    label = "3ring-Cd(Br1sCd)-Cs(Br1sCsCd)_321",
+    label = "3ring-Cd(BrCd)-Cs(BrCsCd)_321",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7589,7 +7849,7 @@ library:CHOBr_G4 label:CC1(Br)[C]DC1Br smiles:CC1(Br)[C]=C1Br H298:120.83 kcal/m
 
 entry(
     index = 272,
-    label = "3ring-Cd(F1sCd)-Cs(F1sCsCd)",
+    label = "3ring-Cd(FCd)-Cs(FCsCd)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7628,8 +7888,13 @@ entry(
 5    O2s  u1 p2 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.298079,-0.667772,-0.800402,-0.91723,-1.15983,-1.1117,-0.6732],'cal/(mol*K)','+|-',[1.53526,1.69215,1.80114,1.79106,1.50746,1.19551,1.77067]),
+        H298 = (-6.18749,'kcal/mol','+|-',8.75277),
+        S298 = (9.25092,'cal/(mol*K)','+|-',2.97063),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7638,7 +7903,7 @@ entry(
 
 entry(
     index = 274,
-    label = "3ring-Cs(Br1sO2sCd)-Cd(Br1sCd)_322",
+    label = "3ring-Cs(BrO2sCd)-Cd(BrCd)_322",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7664,7 +7929,7 @@ library:CHOBr_G4 label:[O]C1(Br)CDC1Br smiles:[O]C1(Br)C=C1Br H298:75.68 kcal/mo
 
 entry(
     index = 275,
-    label = "3ring-Cs(Cl1sO2sCd)-Cd(Cl1sCd)",
+    label = "3ring-Cs(ClO2sCd)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7700,8 +7965,13 @@ entry(
 4    Val7 u0 p3 c0 {1,S}
 5    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.149702,-0.00928587,-0.208424,-0.294529,-0.323038,-0.302611,-0.48879],'cal/(mol*K)','+|-',[1.06299,1.17162,1.24708,1.2401,1.04374,0.82775,1.22598]),
+        H298 = (5.871,'kcal/mol','+|-',7.9195),
+        S298 = (2.39025,'cal/(mol*K)','+|-',1.83595),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7710,7 +7980,7 @@ entry(
 
 entry(
     index = 277,
-    label = "3ring-Cd(Br1sCs)=Cd(Br1sCs)_326",
+    label = "3ring-Cd(BrCs)=Cd(BrCs)_326",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -7735,7 +8005,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)DC1Br smiles:Br[C]1C(Br)=C1Br H298:124.65 kcal
 
 entry(
     index = 278,
-    label = "3ring-Cd(Cl1sCs)=Cd(Cl1sCs)_392",
+    label = "3ring-Cd(ClCs)=Cd(ClCs)_392",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {3,S} {4,S}
@@ -7761,7 +8031,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)[CH]1 smiles:ClC1=C(Cl)[CH]1 H298:103.33 kcal/m
 
 entry(
     index = 279,
-    label = "3ring-Cd(F1sCs)=Cd(F1sCs)_560",
+    label = "3ring-Cd(FCs)=Cd(FCs)_560",
     group = 
 """
 1 *2 Cd  u0 p0 c0 {2,D} {3,S} {4,S}
@@ -7798,8 +8068,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.638862,-0.207314,-0.51905,-0.658638,-0.707752,-0.534431,0.116301],'cal/(mol*K)','+|-',[0.770471,0.849207,0.903907,0.898847,0.756523,0.599967,0.888612]),
+        H298 = (11.4958,'kcal/mol','+|-',12.6004),
+        S298 = (6.44777,'cal/(mol*K)','+|-',4.37517),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7808,7 +8083,7 @@ entry(
 
 entry(
     index = 281,
-    label = "3ring-Cs(Br1sO2sCs)-Cs(Br1sBr1sCs)",
+    label = "3ring-Cs(BrO2sCs)-Cs(BrBrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7836,7 +8111,7 @@ library:CHOBr_G4 label:OC1(Br)[CH]C1(Br)Br smiles:OC1(Br)[CH]C1(Br)Br H298:48.30
 
 entry(
     index = 282,
-    label = "3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCl1sCs)",
+    label = "3ring-Cs(ClO2sCs)-Cs(ClClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7874,8 +8149,13 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.621681,-0.478407,-0.349877,-0.250022,-0.120275,0.0038447,0.26526],'cal/(mol*K)','+|-',[0.584848,0.644616,0.686137,0.682296,0.574261,0.455422,0.674527]),
+        H298 = (5.40244,'kcal/mol','+|-',1.88749),
+        S298 = (1.50479,'cal/(mol*K)','+|-',0.312608),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7884,7 +8164,7 @@ entry(
 
 entry(
     index = 284,
-    label = "3ring-Cs(Br1sO2sCs)-Cs(Br1sCs)",
+    label = "3ring-Cs(BrO2sCs)-Cs(BrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7912,7 +8192,7 @@ library:CHOBr_G4 label:OC1(Br)C[C]1Br smiles:OC1(Br)C[C]1Br H298:36.52 kcal/mol
 
 entry(
     index = 285,
-    label = "3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCs)",
+    label = "3ring-Cs(ClO2sCs)-Cs(ClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7940,7 +8220,7 @@ library:CHOCl_G4 label:OC1(Cl)C[C]1Cl smiles:OC1(Cl)C[C]1Cl H298:14.10 kcal/mol
 
 entry(
     index = 286,
-    label = "3ring-Cs(F1sO2sCs)-Cs(F1sCs)",
+    label = "3ring-Cs(FO2sCs)-Cs(FCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7979,8 +8259,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.152471,-0.102411,-0.465734,-0.807531,-0.718886,-0.656814,-0.346974],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (7.15967,'kcal/mol','+|-',4.38206),
+        S298 = (3.34818,'cal/(mol*K)','+|-',0.523142),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -7989,7 +8274,7 @@ entry(
 
 entry(
     index = 288,
-    label = "3ring-Cs(Br1sCOH)-Cs(Br1sCOH)",
+    label = "3ring-Cs(BrCOH)-Cs(BrCOH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8016,7 +8301,7 @@ library:CHOBr_G4 label:ODC1C(Br)C1Br smiles:O=C1C(Br)C1Br H298:20.90 kcal/mol
 
 entry(
     index = 289,
-    label = "3ring-Cs(Cl1sCOH)-Cs(Cl1sCOH)",
+    label = "3ring-Cs(ClCOH)-Cs(ClCOH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8043,7 +8328,7 @@ library:CHOCl_G4 label:ODC1C(Cl)C1Cl smiles:O=C1C(Cl)C1Cl H298:-0.08 kcal/mol
 
 entry(
     index = 290,
-    label = "3ring-Cs(F1sCOH)-Cs(F1sCOH)",
+    label = "3ring-Cs(FCOH)-Cs(FCOH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8081,8 +8366,13 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.87409,-2.99293,-3.2597,-3.49087,-3.2447,-2.83026,-4.98433],'cal/(mol*K)','+|-',[1.06015,1.16849,1.24375,1.23679,1.04096,0.825539,1.22271]),
+        H298 = (6.05555,'kcal/mol','+|-',1.46039),
+        S298 = (11.7424,'cal/(mol*K)','+|-',1.1458),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8091,7 +8381,7 @@ entry(
 
 entry(
     index = 292,
-    label = "3ring-Cs(Br1sO2sH)-Cs(Br1sO2sCs)_331",
+    label = "3ring-Cs(BrO2sH)-Cs(BrO2sCs)_331",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8120,7 +8410,7 @@ library:CHOBr_G4 label:Br[CH]C1(Br)OC1Br smiles:Br[CH]C1(Br)OC1Br H298:36.77 kca
 
 entry(
     index = 293,
-    label = "3ring-Cs(Cl1sO2sH)-Cs(Cl1sO2sCs)_389",
+    label = "3ring-Cs(ClO2sH)-Cs(ClO2sCs)_389",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8160,8 +8450,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.402069,-0.581071,-0.563397,-0.533569,-0.466435,-0.30917,0.116554],'cal/(mol*K)','+|-',[0.411745,0.453823,0.483055,0.48035,0.404291,0.320627,0.474881]),
+        H298 = (5.81179,'kcal/mol','+|-',4.07685),
+        S298 = (3.66049,'cal/(mol*K)','+|-',1.6773),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8170,7 +8465,7 @@ entry(
 
 entry(
     index = 295,
-    label = "3ring-Cs(Br1sCsCs)-Cs(Br1sBr1sCs)_333",
+    label = "3ring-Cs(BrCsCs)-Cs(BrBrCs)_333",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8199,7 +8494,7 @@ library:CHOBr_G4 label:CC1(Br)CC1(Br)Br smiles:CC1(Br)CC1(Br)Br H298:24.20 kcal/
 
 entry(
     index = 296,
-    label = "3ring-Cs(Cl1sCsCs)-Cs(Cl1sCl1sCs)",
+    label = "3ring-Cs(ClCsCs)-Cs(ClClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8231,7 +8526,7 @@ library:CHOCl_G4 label:ClCC1(Cl)C(Cl)C1(Cl)Cl smiles:ClCC1(Cl)C(Cl)C1(Cl)Cl H298
 
 entry(
     index = 297,
-    label = "3ring-Cs(F1sCsCs)-Cs(F1sF1sCs)_605",
+    label = "3ring-Cs(FCsCs)-Cs(FFCs)_605",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8274,8 +8569,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.738161,-0.822891,-0.735364,-0.706066,-0.601127,-0.429676,0.242297],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (6.97175,'kcal/mol','+|-',10.6328),
+        S298 = (3.57466,'cal/(mol*K)','+|-',0.425031),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8284,7 +8584,7 @@ entry(
 
 entry(
     index = 299,
-    label = "3ring-Cs(Br1sBr1sCd)-Cs(Br1sBr1sCd)",
+    label = "3ring-Cs(BrBrCd)-Cs(BrBrCd)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8312,7 +8612,7 @@ library:CHOBr_G4 label:[CH]DC1C(Br)(Br)C1(Br)Br smiles:[CH]=C1C(Br)(Br)C1(Br)Br 
 
 entry(
     index = 300,
-    label = "3ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCl1sCd)",
+    label = "3ring-Cs(ClClCd)-Cs(ClClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8341,7 +8641,7 @@ library:CHOCl_G4 label:[CH]DC1C(Cl)(Cl)C1(Cl)Cl smiles:[CH]=C1C(Cl)(Cl)C1(Cl)Cl 
 
 entry(
     index = 301,
-    label = "3ring-Cs(F1sF1sCd)-Cs(F1sF1sCd)",
+    label = "3ring-Cs(FFCd)-Cs(FFCd)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8382,8 +8682,13 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.446751,-0.647183,-0.666611,-0.640169,-0.538659,-0.35322,0.108834],'cal/(mol*K)','+|-',[0.302785,0.333728,0.355224,0.353235,0.297304,0.235779,0.349213]),
+        H298 = (5.26795,'kcal/mol','+|-',3.59592),
+        S298 = (3.13909,'cal/(mol*K)','+|-',2.87572),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8392,7 +8697,7 @@ entry(
 
 entry(
     index = 303,
-    label = "3ring-Cs(Br1sO2sCs)-Cs(Br1sCsH)_337",
+    label = "3ring-Cs(BrO2sCs)-Cs(BrCsH)_337",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8421,7 +8726,7 @@ library:CHOBr_G4 label:OC1(Br)C(Br)C1Br smiles:OC1(Br)C(Br)C1Br H298:-7.47 kcal/
 
 entry(
     index = 304,
-    label = "3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCsH)_468",
+    label = "3ring-Cs(ClO2sCs)-Cs(ClCsH)_468",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8450,7 +8755,7 @@ library:CHOCl_G4 label:OC1(Cl)C(Cl)C1Cl smiles:OC1(Cl)C(Cl)C1Cl H298:-41.51 kcal
 
 entry(
     index = 305,
-    label = "3ring-Cs(F1sO2sCs)-Cs(F1sCsH)",
+    label = "3ring-Cs(FO2sCs)-Cs(FCsH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8490,8 +8795,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.624626,0.006523,-0.214599,-0.289209,-0.282654,-0.124179,0.363024],'cal/(mol*K)','+|-',[0.770471,0.849207,0.903907,0.898847,0.756523,0.599967,0.888612]),
+        H298 = (14.8179,'kcal/mol','+|-',21.9967),
+        S298 = (4.7112,'cal/(mol*K)','+|-',0.536567),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8500,7 +8810,7 @@ entry(
 
 entry(
     index = 307,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sO2sCs)_338",
+    label = "3ring-Cs(BrBrCs)-Cs(BrO2sCs)_338",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8528,7 +8838,7 @@ library:CHOBr_G4 label:OC1(Br)[CH]C1(Br)Br smiles:OC1(Br)[CH]C1(Br)Br H298:48.30
 
 entry(
     index = 308,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sO2sCs)_602",
+    label = "3ring-Cs(FFCs)-Cs(FO2sCs)_602",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8567,8 +8877,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.182123,-0.0323558,-0.0964185,-0.1369,-0.20165,-0.098238,0.306436],'cal/(mol*K)','+|-',[0.648725,0.71502,0.761077,0.756816,0.636981,0.505163,0.748199]),
+        H298 = (6.28277,'kcal/mol','+|-',2.45461),
+        S298 = (3.96188,'cal/(mol*K)','+|-',2.62679),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8577,7 +8892,7 @@ entry(
 
 entry(
     index = 310,
-    label = "3ring-Cs(Br1sBr1sCs)-Cs(Br1sCsCs)_339",
+    label = "3ring-Cs(BrBrCs)-Cs(BrCsCs)_339",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8605,7 +8920,7 @@ library:CHOBr_G4 label:[CH2]C1(Br)CC1(Br)Br smiles:[CH2]C1(Br)CC1(Br)Br H298:71.
 
 entry(
     index = 311,
-    label = "3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsCs)",
+    label = "3ring-Cs(ClClCs)-Cs(ClCsCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8634,7 +8949,7 @@ library:CHOCl_G4 label:[CH2]C1(Cl)CC1(Cl)Cl smiles:[CH2]C1(Cl)CC1(Cl)Cl H298:36.
 
 entry(
     index = 312,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sCsCs)",
+    label = "3ring-Cs(FFCs)-Cs(FCsCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -8675,8 +8990,13 @@ entry(
 5    O2s  u0 p2 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.41063,-2.70729,-2.65059,-2.66867,-2.10714,-1.64864,-4.28485],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (13.5163,'kcal/mol','+|-',3.71398),
+        S298 = (6.38531,'cal/(mol*K)','+|-',2.25759),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8685,7 +9005,7 @@ entry(
 
 entry(
     index = 314,
-    label = "3ring-Cs(Br1sO2sO2s)-Cs(Br1sO2s)",
+    label = "3ring-Cs(BrO2sO2s)-Cs(BrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8711,7 +9031,7 @@ library:CHOBr_G4 label:OC1(Br)O[C]1Br smiles:OC1(Br)O[C]1Br H298:0.33 kcal/mol
 
 entry(
     index = 315,
-    label = "3ring-Cs(Cl1sO2sO2s)-Cs(Cl1sO2s)",
+    label = "3ring-Cs(ClO2sO2s)-Cs(ClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8737,7 +9057,7 @@ library:CHOCl_G4 label:OC1(Cl)O[C]1Cl smiles:OC1(Cl)O[C]1Cl H298:-23.71 kcal/mol
 
 entry(
     index = 316,
-    label = "3ring-Cs(F1sO2sO2s)-Cs(F1sO2s)",
+    label = "3ring-Cs(FO2sO2s)-Cs(FO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8774,8 +9094,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.158811,-0.280753,-0.651141,-0.970302,-0.903636,-0.828381,-0.411401],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (12.0355,'kcal/mol','+|-',13.7419),
+        S298 = (4.0538,'cal/(mol*K)','+|-',0.932595),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8784,7 +9109,7 @@ entry(
 
 entry(
     index = 318,
-    label = "3ring-Cs(Br1sBr1sCO)-Cs(Br1sBr1sCO)",
+    label = "3ring-Cs(BrBrCO)-Cs(BrBrCO)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8811,7 +9136,7 @@ library:CHOBr_G4 label:ODC1C(Br)(Br)C1(Br)Br smiles:O=C1C(Br)(Br)C1(Br)Br H298:3
 
 entry(
     index = 319,
-    label = "3ring-Cs(Cl1sCl1sCO)-Cs(Cl1sCl1sCO)",
+    label = "3ring-Cs(ClClCO)-Cs(ClClCO)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8838,7 +9163,7 @@ library:CHOCl_G4 label:ODC1C(Cl)(Cl)C1(Cl)Cl smiles:O=C1C(Cl)(Cl)C1(Cl)Cl H298:-
 
 entry(
     index = 320,
-    label = "3ring-Cs(F1sF1sCO)-Cs(F1sF1sCO)",
+    label = "3ring-Cs(FFCO)-Cs(FFCO)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8876,8 +9201,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.40813,-1.34074,-1.51467,-1.70447,-1.62422,-1.46388,-2.75408],'cal/(mol*K)','+|-',[0.69403,0.764954,0.814228,0.809669,0.681465,0.540442,0.80045]),
+        H298 = (2.3225,'kcal/mol','+|-',1.78253),
+        S298 = (3.8656,'cal/(mol*K)','+|-',0.770121),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8886,7 +9216,7 @@ entry(
 
 entry(
     index = 322,
-    label = "3ring-Cs(Br1sO2sH)-Cs(Br1sO2sH)",
+    label = "3ring-Cs(BrO2sH)-Cs(BrO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8913,7 +9243,7 @@ library:CHOBr_G4 label:BrC1OC1Br smiles:BrC1OC1Br H298:-3.99 kcal/mol
 
 entry(
     index = 323,
-    label = "3ring-Cs(Cl1sO2sH)-Cs(Cl1sO2sH)",
+    label = "3ring-Cs(ClO2sH)-Cs(ClO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8940,7 +9270,7 @@ library:CHOCl_G4 label:ClC1OC1Cl smiles:ClC1OC1Cl H298:-28.67 kcal/mol
 
 entry(
     index = 324,
-    label = "3ring-Cs(F1sO2sH)-Cs(F1sO2sH)",
+    label = "3ring-Cs(FO2sH)-Cs(FO2sH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8977,8 +9307,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.14274,-1.11363,-0.97053,-0.835326,-0.605549,-0.350308,0.20774],'cal/(mol*K)','+|-',[0.238724,0.263119,0.280068,0.2785,0.234402,0.185894,0.275329]),
+        H298 = (1.26195,'kcal/mol','+|-',4.06818),
+        S298 = (3.80049,'cal/(mol*K)','+|-',3.29495),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -8987,7 +9322,7 @@ entry(
 
 entry(
     index = 326,
-    label = "3ring-Cs(Br1sBr1sCd)-Cd(Br1sCd)",
+    label = "3ring-Cs(BrBrCd)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9019,7 +9354,7 @@ library:CHOBr_G4 label:[CH2]C1DC(Br)C1(Br)Br smiles:[CH2]C1=C(Br)C1(Br)Br H298:1
 
 entry(
     index = 327,
-    label = "3ring-Cs(Cl1sCl1sCd)-Cd(Cl1sCd)",
+    label = "3ring-Cs(ClClCd)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9050,7 +9385,7 @@ library:CHOCl_G4 label:CC1DC(Cl)C1(Cl)Cl smiles:CC1=C(Cl)C1(Cl)Cl H298:31.73 kca
 
 entry(
     index = 328,
-    label = "3ring-Cs(F1sF1sCd)-Cd(F1sCd)",
+    label = "3ring-Cs(FFCd)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9095,8 +9430,13 @@ entry(
 6    Cs   u0 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.332126,0.359654,0.372628,0.3312,0.226783,0.219147,0.385667],'cal/(mol*K)','+|-',[0.389578,0.429391,0.457049,0.45449,0.382526,0.303365,0.449315]),
+        H298 = (4.0369,'kcal/mol','+|-',4.49467),
+        S298 = (2.81628,'cal/(mol*K)','+|-',2.93828),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9105,7 +9445,7 @@ entry(
 
 entry(
     index = 330,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sCsCs)_351",
+    label = "3ring-Cs(BrCsH)-Cs(BrCsCs)_351",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -9136,7 +9476,7 @@ library:CHOBr_G4 label:BrCC1(Br)[CH]C1Br smiles:BrCC1(Br)[CH]C1Br H298:75.73 kca
 
 entry(
     index = 331,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sCsCs)_551",
+    label = "3ring-Cs(FCsH)-Cs(FCsCs)_551",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -9180,8 +9520,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.170494,-0.002814,-0.0541957,-0.0888023,-0.137824,-0.055549,0.265557],'cal/(mol*K)','+|-',[0.648725,0.71502,0.761077,0.756816,0.636981,0.505163,0.748199]),
+        H298 = (6.13448,'kcal/mol','+|-',3.39447),
+        S298 = (3.29156,'cal/(mol*K)','+|-',1.73675),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9190,7 +9535,7 @@ entry(
 
 entry(
     index = 333,
-    label = "3ring-Cs(Br1sCsCs)-Cs(Br1sBr1sCs)_352",
+    label = "3ring-Cs(BrCsCs)-Cs(BrBrCs)_352",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9218,7 +9563,7 @@ library:CHOBr_G4 label:[CH2]C1(Br)CC1(Br)Br smiles:[CH2]C1(Br)CC1(Br)Br H298:71.
 
 entry(
     index = 334,
-    label = "3ring-Cs(F1sCsCs)-Cs(F1sF1sCs)_610",
+    label = "3ring-Cs(FCsCs)-Cs(FFCs)_610",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9259,8 +9604,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.3822,-2.03871,-1.61114,-1.25027,-0.76937,-0.345773,0.491086],'cal/(mol*K)','+|-',[1.46788,1.61788,1.7221,1.71246,1.4413,1.14304,1.69296]),
+        H298 = (5.82322,'kcal/mol','+|-',9.20207),
+        S298 = (5.0626,'cal/(mol*K)','+|-',2.19013),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9269,7 +9619,7 @@ entry(
 
 entry(
     index = 336,
-    label = "3ring-Cs(Br1sBr1sCd)-Cd(Br1sCd)_353",
+    label = "3ring-Cs(BrBrCd)-Cd(BrCd)_353",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9295,7 +9645,7 @@ library:CHOBr_G4 label:BrC1D[C]C1(Br)Br smiles:BrC1=[C]C1(Br)Br H298:137.14 kcal
 
 entry(
     index = 337,
-    label = "3ring-Cs(Cl1sCl1sCd)-Cd(Cl1sCd)_482",
+    label = "3ring-Cs(ClClCd)-Cd(ClCd)_482",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9321,7 +9671,7 @@ library:CHOCl_G4 label:ClC1D[C]C1(Cl)Cl smiles:ClC1=[C]C1(Cl)Cl H298:102.64 kcal
 
 entry(
     index = 338,
-    label = "3ring-Cs(F1sF1sCd)-Cd(F1sCd)_637",
+    label = "3ring-Cs(FFCd)-Cd(FCd)_637",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9358,8 +9708,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.71285,-2.50777,-2.81792,-3.13696,-2.95974,-2.67912,-5.33886],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (7.3398,'kcal/mol','+|-',8.14805),
+        S298 = (9.55079,'cal/(mol*K)','+|-',2.43735),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9368,7 +9723,7 @@ entry(
 
 entry(
     index = 340,
-    label = "3ring-Cs(Br1sO2sH)-Cs(Br1sBr1sO2s)",
+    label = "3ring-Cs(BrO2sH)-Cs(BrBrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9395,7 +9750,7 @@ library:CHOBr_G4 label:BrC1OC1(Br)Br smiles:BrC1OC1(Br)Br H298:4.42 kcal/mol
 
 entry(
     index = 341,
-    label = "3ring-Cs(Cl1sO2sH)-Cs(Cl1sCl1sO2s)",
+    label = "3ring-Cs(ClO2sH)-Cs(ClClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9422,7 +9777,7 @@ library:CHOCl_G4 label:ClC1OC1(Cl)Cl smiles:ClC1OC1(Cl)Cl H298:-32.24 kcal/mol
 
 entry(
     index = 342,
-    label = "3ring-Cs(F1sO2sH)-Cs(F1sF1sO2s)",
+    label = "3ring-Cs(FO2sH)-Cs(FFO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9460,8 +9815,13 @@ entry(
 6    O2s  u0 p2 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.346193,-0.474858,-0.488346,-0.474562,-0.407625,-0.268972,0.0932286],'cal/(mol*K)','+|-',[0.302785,0.333728,0.355224,0.353235,0.297304,0.235779,0.349213]),
+        H298 = (4.41504,'kcal/mol','+|-',2.89866),
+        S298 = (2.31267,'cal/(mol*K)','+|-',0.385062),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9470,7 +9830,7 @@ entry(
 
 entry(
     index = 344,
-    label = "3ring-Cs(Br1sCsH)-Cs(Br1sO2sCs)_359",
+    label = "3ring-Cs(BrCsH)-Cs(BrO2sCs)_359",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -9499,7 +9859,7 @@ library:CHOBr_G4 label:OC1(Br)C(Br)C1Br smiles:OC1(Br)C(Br)C1Br H298:-7.47 kcal/
 
 entry(
     index = 345,
-    label = "3ring-Cs(F1sCsH)-Cs(F1sO2sCs)",
+    label = "3ring-Cs(FCsH)-Cs(FO2sCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -9539,8 +9899,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u1 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.83657,-2.86598,-3.10929,-3.33305,-3.02667,-2.57054,-4.69678],'cal/(mol*K)','+|-',[1.60279,1.76659,1.88038,1.86985,1.57378,1.2481,1.84856]),
+        H298 = (8.13152,'kcal/mol','+|-',12.0468),
+        S298 = (10.3299,'cal/(mol*K)','+|-',2.74804),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9549,7 +9914,7 @@ entry(
 
 entry(
     index = 347,
-    label = "3ring-Cs(Br1sBr1sO2s)-Cs(Br1sO2sCs)_361",
+    label = "3ring-Cs(BrBrO2s)-Cs(BrO2sCs)_361",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9576,7 +9941,7 @@ library:CHOBr_G4 label:[CH2]C1(Br)OC1(Br)Br smiles:[CH2]C1(Br)OC1(Br)Br H298:39.
 
 entry(
     index = 348,
-    label = "3ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sO2sCs)_492",
+    label = "3ring-Cs(ClClO2s)-Cs(ClO2sCs)_492",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9604,7 +9969,7 @@ library:CHOCl_G4 label:[CH2]C1(Cl)OC1(Cl)Cl smiles:[CH2]C1(Cl)OC1(Cl)Cl H298:3.3
 
 entry(
     index = 349,
-    label = "3ring-Cs(F1sF1sO2s)-Cs(F1sO2sCs)_553",
+    label = "3ring-Cs(FFO2s)-Cs(FO2sCs)_553",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9643,8 +10008,13 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.67799,-1.35515,-0.915198,-0.694165,-0.565855,-0.282752,0.34777],'cal/(mol*K)','+|-',[1.06606,1.175,1.25069,1.24368,1.04676,0.830141,1.22952]),
+        H298 = (4.5302,'kcal/mol','+|-',4.58544),
+        S298 = (5.81413,'cal/(mol*K)','+|-',3.51812),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9653,7 +10023,7 @@ entry(
 
 entry(
     index = 351,
-    label = "3ring-Cs(Cl1sCsCd)-Cd(Cl1sCd)",
+    label = "3ring-Cs(ClCsCd)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9691,8 +10061,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.15115,-1.12652,-0.92623,-0.837672,-0.698304,-0.499211,0.506162],'cal/(mol*K)','+|-',[0.981507,1.08181,1.15149,1.14505,0.963738,0.764301,1.13201]),
+        H298 = (8.02911,'kcal/mol','+|-',2.61844),
+        S298 = (6.38296,'cal/(mol*K)','+|-',6.50035),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9701,7 +10076,7 @@ entry(
 
 entry(
     index = 353,
-    label = "3ring-Cs(Cl1sCdH)-Cs(Cl1sCl1sCd)",
+    label = "3ring-Cs(ClCdH)-Cs(ClClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9731,7 +10106,7 @@ library:CHOCl_G4 label:[CH]DC1C(Cl)C1(Cl)Cl smiles:[CH]=C1C(Cl)C1(Cl)Cl H298:88.
 
 entry(
     index = 354,
-    label = "3ring-Cs(F1sCdH)-Cs(F1sF1sCd)",
+    label = "3ring-Cs(FCdH)-Cs(FFCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9772,8 +10147,13 @@ entry(
 5    H    u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.06803,-1.69093,-1.35205,-1.03664,-0.625273,-0.246521,0.532612],'cal/(mol*K)','+|-',[1.45964,1.6088,1.71243,1.70285,1.43322,1.13662,1.68346]),
+        H298 = (5.17064,'kcal/mol','+|-',6.27835),
+        S298 = (5.53078,'cal/(mol*K)','+|-',4.81698),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9782,7 +10162,7 @@ entry(
 
 entry(
     index = 356,
-    label = "3ring-Cd(Cl1sCd)-Cs(Cl1sCdH)_427",
+    label = "3ring-Cd(ClCd)-Cs(ClCdH)_427",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9818,8 +10198,13 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.85628,-1.74337,-1.71556,-1.76619,-1.59895,-1.36098,-2.40878],'cal/(mol*K)','+|-',[0.601048,0.66247,0.705142,0.701194,0.590167,0.468037,0.69321]),
+        H298 = (7.2461,'kcal/mol','+|-',2.58529),
+        S298 = (4.47782,'cal/(mol*K)','+|-',1.98353),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9828,7 +10213,7 @@ entry(
 
 entry(
     index = 358,
-    label = "3ring-Cs(Cl1sO2sCs)-Cs(Cl1sO2s)",
+    label = "3ring-Cs(ClO2sCs)-Cs(ClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9865,8 +10250,13 @@ entry(
 5    Cs   u0 p0 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.729359,-0.602967,-0.439773,-0.342222,-0.246009,-0.0867687,0.235644],'cal/(mol*K)','+|-',[0.208041,0.229302,0.244072,0.242705,0.204275,0.162002,0.239942]),
+        H298 = (2.17076,'kcal/mol','+|-',2.74837),
+        S298 = (3.28998,'cal/(mol*K)','+|-',1.08803),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9875,7 +10265,7 @@ entry(
 
 entry(
     index = 360,
-    label = "3ring-Cs(Cl1sCsCd)-Cd(Cl1sCd)_446",
+    label = "3ring-Cs(ClCsCd)-Cd(ClCd)_446",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9906,7 +10296,7 @@ library:CHOCl_G4 label:CC1(Cl)CDC1Cl smiles:CC1(Cl)C=C1Cl H298:41.34 kcal/mol
 
 entry(
     index = 361,
-    label = "3ring-Cs(F1sCsCd)-Cd(F1sCd)",
+    label = "3ring-Cs(FCsCd)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9949,8 +10339,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.6549,-1.75176,-1.90425,-2.05585,-1.92752,-1.66207,-2.58795],'cal/(mol*K)','+|-',[0.400698,0.441647,0.470095,0.467463,0.393444,0.312025,0.46214]),
+        H298 = (3.71472,'kcal/mol','+|-',1.72352),
+        S298 = (6.08001,'cal/(mol*K)','+|-',1.32235),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -9959,7 +10354,7 @@ entry(
 
 entry(
     index = 363,
-    label = "3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCl1sO2s)",
+    label = "3ring-Cs(ClO2sCs)-Cs(ClClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -9999,8 +10394,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    O2s  u0 p2 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.03139,-1.64852,-1.72734,-1.66965,-1.43123,-1.00585,0.133673],'cal/(mol*K)','+|-',[1.04134,1.14776,1.22169,1.21485,1.02249,0.810895,1.20102]),
+        H298 = (12.0206,'kcal/mol','+|-',4.47912),
+        S298 = (7.49706,'cal/(mol*K)','+|-',3.43655),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10009,7 +10409,7 @@ entry(
 
 entry(
     index = 365,
-    label = "3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCl1sCs)_462",
+    label = "3ring-Cs(ClO2sCs)-Cs(ClClCs)_462",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -10047,8 +10447,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.98095,-2.42124,-2.54067,-2.68884,-2.38513,-2.14215,-5.03046],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (12.433,'kcal/mol','+|-',8.4435),
+        S298 = (8.06536,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10057,7 +10462,7 @@ entry(
 
 entry(
     index = 367,
-    label = "3ring-Cs(Cl1sO2s)-Cs(Cl1sCl1sO2s)",
+    label = "3ring-Cs(ClO2s)-Cs(ClClO2s)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -10094,8 +10499,13 @@ entry(
 6    Cs   u1 p0 c0 {1,S}
 7    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.73127,-2.29551,-2.38609,-2.6533,-2.37791,-1.92241,-4.19327],'cal/(mol*K)','+|-',[1.06015,1.16849,1.24375,1.23679,1.04096,0.825539,1.22271]),
+        H298 = (11.8913,'kcal/mol','+|-',4.56002),
+        S298 = (8.80564,'cal/(mol*K)','+|-',3.49861),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10104,7 +10514,7 @@ entry(
 
 entry(
     index = 369,
-    label = "3ring-Cs(F1sO2sCs)-Cs(F1sO2sH)",
+    label = "3ring-Cs(FO2sCs)-Cs(FO2sH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -10143,8 +10553,13 @@ entry(
 5    O2s  u1 p2 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.864461,-0.856398,-0.799088,-0.762583,-0.727306,-0.521054,-0.0487449],'cal/(mol*K)','+|-',[0.954294,1.05182,1.11957,1.1133,0.937018,0.743111,1.10062]),
+        H298 = (3.6228,'kcal/mol','+|-',4.10471),
+        S298 = (6.50665,'cal/(mol*K)','+|-',3.14928),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10153,7 +10568,7 @@ entry(
 
 entry(
     index = 371,
-    label = "3ring-Cd(F1sCd)-Cs(F1sO2sCd)",
+    label = "3ring-Cd(FCd)-Cs(FO2sCd)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -10190,8 +10605,13 @@ entry(
 6    Val7 u0 p3 c0 {2,S}
 7    Cs   u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0518363,0.155084,0.272501,0.309046,0.350366,0.438709,0.666291],'cal/(mol*K)','+|-',[0.413433,0.455683,0.485035,0.482319,0.405948,0.321941,0.476827]),
+        H298 = (8.24253,'kcal/mol','+|-',1.7783),
+        S298 = (1.87898,'cal/(mol*K)','+|-',1.36438),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10200,7 +10620,7 @@ entry(
 
 entry(
     index = 373,
-    label = "3ring-Cs(F1sF1sCs)-Cs(F1sCsCs)_622",
+    label = "3ring-Cs(FFCs)-Cs(FCsCs)_622",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -10266,8 +10686,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0614065,0.0183786,0.0565194,-0.0117102,-0.145414,-0.18341,-0.000162167],'cal/(mol*K)','+|-',[0.512575,0.564957,0.601347,0.597981,0.503296,0.399143,0.591172]),
+        H298 = (-0.417057,'kcal/mol','+|-',3.16769),
+        S298 = (0.147266,'cal/(mol*K)','+|-',1.18252),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10276,7 +10701,7 @@ entry(
 
 entry(
     index = 376,
-    label = "4ring-Cd(Br1sCd)-Cd(Br1sCd)",
+    label = "4ring-Cd(BrCd)-Cd(BrCd)",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,S} {3,D} {5,S}
@@ -10304,7 +10729,7 @@ library:CHOBr_G4 label:BrC1DCCDC1Br smiles:BrC1=CC=C1Br H298:108.34 kcal/mol
 
 entry(
     index = 377,
-    label = "4ring-Cd(Cl1sCd)-Cd(Cl1sCd)",
+    label = "4ring-Cd(ClCd)-Cd(ClCd)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,S} {3,D} {5,S}
@@ -10332,7 +10757,7 @@ library:CHOCl_G4 label:ClC1DCCDC1Cl smiles:ClC1=CC=C1Cl H298:84.97 kcal/mol
 
 entry(
     index = 378,
-    label = "4ring-Cd(F1sCd)-Cd(F1sCd)",
+    label = "4ring-Cd(FCd)-Cd(FCd)",
     group = 
 """
 1 *2 Cd  u0 p0 c0 {2,S} {3,D} {5,S}
@@ -10369,8 +10794,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0942309,0.0217522,0.0478091,-0.0187155,-0.146555,-0.179875,0.00766643],'cal/(mol*K)','+|-',[0.512575,0.564957,0.601347,0.597981,0.503296,0.399143,0.591172]),
+        H298 = (-0.0570933,'kcal/mol','+|-',4.43438),
+        S298 = (0.266524,'cal/(mol*K)','+|-',1.23001),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10379,7 +10809,7 @@ entry(
 
 entry(
     index = 380,
-    label = "4ring-Cd(Br1sCd)=Cd(Br1sCd)",
+    label = "4ring-Cd(BrCd)=Cd(BrCd)",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -10407,7 +10837,7 @@ library:CHOBr_G4 label:BrC1DCC(Br)DC1Br smiles:BrC1=CC(Br)=C1Br H298:111.90 kcal
 
 entry(
     index = 381,
-    label = "4ring-Cd(Cl1sCd)=Cd(Cl1sCd)",
+    label = "4ring-Cd(ClCd)=Cd(ClCd)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -10435,7 +10865,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)CDC1 smiles:ClC1=C(Cl)C=C1 H298:85.14 kcal/mol
 
 entry(
     index = 382,
-    label = "4ring-Cd(F1sCd)=Cd(F1sCd)",
+    label = "4ring-Cd(FCd)=Cd(FCd)",
     group = 
 """
 1 *2 Cd  u0 p0 c0 {2,D} {4,S} {5,S}
@@ -10474,8 +10904,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.21576,-0.764224,-0.499939,-0.455525,-0.323792,-0.16261,0.638455],'cal/(mol*K)','+|-',[1.56618,1.72623,1.83743,1.82714,1.53783,1.21959,1.80633]),
+        H298 = (1.21492,'kcal/mol','+|-',0.975236),
+        S298 = (2.9582,'cal/(mol*K)','+|-',2.07724),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10484,7 +10919,7 @@ entry(
 
 entry(
     index = 384,
-    label = "4ring-Cs(Br1sCdH)-Cs(Br1sCdH)",
+    label = "4ring-Cs(BrCdH)-Cs(BrCdH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -10513,7 +10948,7 @@ library:CHOBr_G4 label:BrC1D[C]C(Br)C1Br smiles:BrC1=[C]C(Br)C1Br H298:108.94 kc
 
 entry(
     index = 385,
-    label = "4ring-Cs(Cl1sCdH)-Cs(Cl1sCdH)",
+    label = "4ring-Cs(ClCdH)-Cs(ClCdH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -10541,7 +10976,7 @@ library:CHOCl_G4 label:ClC1[C]DCC1Cl smiles:ClC1[C]=CC1Cl H298:82.17 kcal/mol
 
 entry(
     index = 386,
-    label = "4ring-Cs(F1sCdH)-Cs(F1sCdH)_627",
+    label = "4ring-Cs(FCdH)-Cs(FCdH)_627",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -10580,8 +11015,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0765401,-0.16396,-0.233449,-0.261454,-0.2366,-0.162411,-0.0697041],'cal/(mol*K)','+|-',[0.466403,0.514066,0.547179,0.544115,0.45796,0.363189,0.53792]),
+        H298 = (1.28297,'kcal/mol','+|-',3.00431),
+        S298 = (1.15673,'cal/(mol*K)','+|-',0.747807),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10590,7 +11030,7 @@ entry(
 
 entry(
     index = 388,
-    label = "4ring-Cd(Br1sCs)=Cd(Br1sCs)",
+    label = "4ring-Cd(BrCs)=Cd(BrCs)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -10619,7 +11059,7 @@ library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)C1 smiles:BrC1=C(Br)C(Br)(Br)C1 H298:5
 
 entry(
     index = 389,
-    label = "4ring-Cd(Cl1sCs)=Cd(Cl1sCs)_435",
+    label = "4ring-Cd(ClCs)=Cd(ClCs)_435",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -10649,7 +11089,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)C1Cl H298:4.22 
 
 entry(
     index = 390,
-    label = "4ring-Cd(F1sCs)=Cd(F1sCs)_580",
+    label = "4ring-Cd(FCs)=Cd(FCs)_580",
     group = 
 """
 1 *2 Cd  u0 p0 c0 {2,D} {4,S} {5,S}
@@ -10689,8 +11129,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.203616,-0.190374,-0.179365,-0.169797,-0.138738,-0.0953444,0.0578002],'cal/(mol*K)','+|-',[0.452881,0.499162,0.531315,0.52834,0.444682,0.352659,0.522324]),
+        H298 = (0.949067,'kcal/mol','+|-',1.07027),
+        S298 = (1.74742,'cal/(mol*K)','+|-',0.658138),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10699,7 +11144,7 @@ entry(
 
 entry(
     index = 392,
-    label = "4ring-Cd(Br1sCd)-Cs(Br1sCsH)",
+    label = "4ring-Cd(BrCd)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -10729,7 +11174,7 @@ library:CHOBr_G4 label:BrC1DCC(Br)C1Br smiles:BrC1=CC(Br)C1Br H298:46.41 kcal/mo
 
 entry(
     index = 393,
-    label = "4ring-Cd(Cl1sCd)-Cs(Cl1sCsH)_433",
+    label = "4ring-Cd(ClCd)-Cs(ClCsH)_433",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -10759,7 +11204,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)C1Cl H298:4.22 
 
 entry(
     index = 394,
-    label = "4ring-Cd(F1sCd)-Cs(F1sCsH)_582",
+    label = "4ring-Cd(FCd)-Cs(FCsH)_582",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -10801,8 +11246,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.129535,-0.168124,-0.18985,-0.197625,-0.17829,-0.138101,0.0389214],'cal/(mol*K)','+|-',[0.452881,0.499162,0.531315,0.52834,0.444682,0.352659,0.522324]),
+        H298 = (0.701041,'kcal/mol','+|-',2.78989),
+        S298 = (1.76077,'cal/(mol*K)','+|-',0.737533),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10811,7 +11261,7 @@ entry(
 
 entry(
     index = 396,
-    label = "4ring-Cd(Br1sCd)-Cs(Br1sBr1sCs)",
+    label = "4ring-Cd(BrCd)-Cs(BrBrCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -10841,7 +11291,7 @@ library:CHOBr_G4 label:BrC1DCC(Br)(Br)C1(Br)Br smiles:BrC1=CC(Br)(Br)C1(Br)Br H2
 
 entry(
     index = 397,
-    label = "4ring-Cd(Cl1sCd)-Cs(Cl1sCl1sCs)",
+    label = "4ring-Cd(ClCd)-Cs(ClClCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -10871,7 +11321,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H2
 
 entry(
     index = 398,
-    label = "4ring-Cd(F1sCd)-Cs(F1sF1sCs)_581",
+    label = "4ring-Cd(FCd)-Cs(FFCs)_581",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -10913,8 +11363,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.533744,-0.44064,-0.342904,-0.352207,-0.33146,-0.256925,0.289057],'cal/(mol*K)','+|-',[0.557458,0.614426,0.654003,0.650341,0.547366,0.434093,0.642936]),
+        H298 = (0.892996,'kcal/mol','+|-',0.624106),
+        S298 = (2.63791,'cal/(mol*K)','+|-',2.75424),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -10923,7 +11378,7 @@ entry(
 
 entry(
     index = 400,
-    label = "4ring-Cs(Br1sBr1sCd)-Cs(Br1sCdH)",
+    label = "4ring-Cs(BrBrCd)-Cs(BrCdH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -10952,7 +11407,7 @@ library:CHOBr_G4 label:BrC1CDCC1(Br)Br smiles:BrC1C=CC1(Br)Br H298:51.28 kcal/mo
 
 entry(
     index = 401,
-    label = "4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCdH)_479",
+    label = "4ring-Cs(ClClCd)-Cs(ClCdH)_479",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -10981,7 +11436,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H2
 
 entry(
     index = 402,
-    label = "4ring-Cs(F1sF1sCd)-Cs(F1sCdH)",
+    label = "4ring-Cs(FFCd)-Cs(FCdH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -11022,8 +11477,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.27213,-3.64927,-4.2429,-4.33621,-3.72243,-2.89148,-1.51667],'cal/(mol*K)','+|-',[1.13334,1.24916,1.32963,1.32218,1.11283,0.882537,1.30713]),
+        H298 = (15.2179,'kcal/mol','+|-',8.63935),
+        S298 = (10.7911,'cal/(mol*K)','+|-',0.951226),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11032,7 +11492,7 @@ entry(
 
 entry(
     index = 404,
-    label = "4ring-Cs(Br1sO2sH)-Cd(Br1sCd)",
+    label = "4ring-Cs(BrO2sH)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11060,7 +11520,7 @@ library:CHOBr_G4 label:BrC1DCOC1Br smiles:BrC1=COC1Br H298:23.20 kcal/mol
 
 entry(
     index = 405,
-    label = "4ring-Cs(Cl1sO2sH)-Cd(Cl1sCd)",
+    label = "4ring-Cs(ClO2sH)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11088,7 +11548,7 @@ library:CHOCl_G4 label:ClC1DCOC1Cl smiles:ClC1=COC1Cl H298:0.06 kcal/mol
 
 entry(
     index = 406,
-    label = "4ring-Cs(F1sO2sH)-Cd(F1sCd)",
+    label = "4ring-Cs(FO2sH)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11126,8 +11586,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0721247,-0.05541,-0.150064,-0.237517,-0.318327,-0.320896,-0.194276],'cal/(mol*K)','+|-',[0.566672,0.624582,0.664814,0.661091,0.556414,0.441269,0.653564]),
+        H298 = (3.00694,'kcal/mol','+|-',8.30976),
+        S298 = (1.4155,'cal/(mol*K)','+|-',0.888004),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11136,7 +11601,7 @@ entry(
 
 entry(
     index = 408,
-    label = "4ring-Cd(Br1sCs)=Cd(Br1sO2s)",
+    label = "4ring-Cd(BrCs)=Cd(BrO2s)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -11164,7 +11629,7 @@ library:CHOBr_G4 label:BrC1DC(Br)OC1 smiles:BrC1=C(Br)OC1 H298:22.60 kcal/mol
 
 entry(
     index = 409,
-    label = "4ring-Cd(Cl1sCs)=Cd(Cl1sO2s)_445",
+    label = "4ring-Cd(ClCs)=Cd(ClO2s)_445",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -11192,7 +11657,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)O1 smiles:ClC1=C(Cl)C(Cl)O1 H298:-7.82 kca
 
 entry(
     index = 410,
-    label = "4ring-Cd(F1sCs)=Cd(F1sO2s)_555",
+    label = "4ring-Cd(FCs)=Cd(FO2s)_555",
     group = 
 """
 1 *1 Cd  u0 p0 c0 {2,D} {4,S} {5,S}
@@ -11232,8 +11697,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.815212,-0.411581,-0.121514,-0.077358,-0.079726,-0.0111555,0.423771],'cal/(mol*K)','+|-',[1.78038,1.96232,2.08872,2.07702,1.74815,1.38638,2.05337]),
+        H298 = (1.64336,'kcal/mol','+|-',0.268248),
+        S298 = (2.32872,'cal/(mol*K)','+|-',3.24374),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11242,7 +11712,7 @@ entry(
 
 entry(
     index = 412,
-    label = "4ring-Cs(Br1sCdH)-Cs(Br1sBr1sCd)",
+    label = "4ring-Cs(BrCdH)-Cs(BrBrCd)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11270,7 +11740,7 @@ library:CHOBr_G4 label:BrC1[C]DCC1(Br)Br smiles:BrC1[C]=CC1(Br)Br H298:112.13 kc
 
 entry(
     index = 413,
-    label = "4ring-Cs(F1sCdH)-Cs(F1sF1sCd)",
+    label = "4ring-Cs(FCdH)-Cs(FFCd)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11310,8 +11780,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.859327,-0.663702,-0.602504,-0.844188,-0.894858,-0.808714,-0.534364],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (3.41253,'kcal/mol','+|-',1.3012),
+        S298 = (4.38661,'cal/(mol*K)','+|-',2.73299),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11320,7 +11795,7 @@ entry(
 
 entry(
     index = 415,
-    label = "4ring-Cs(Br1sBr1sO2s)-Cs(Br1sBr1sO2s)",
+    label = "4ring-Cs(BrBrO2s)-Cs(BrBrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11348,7 +11823,7 @@ library:CHOBr_G4 label:BrC1(Br)OOC1(Br)Br smiles:BrC1(Br)OOC1(Br)Br H298:25.87 k
 
 entry(
     index = 416,
-    label = "4ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sCl1sO2s)",
+    label = "4ring-Cs(ClClO2s)-Cs(ClClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11376,7 +11851,7 @@ library:CHOCl_G4 label:ClC1(Cl)OOC1(Cl)Cl smiles:ClC1(Cl)OOC1(Cl)Cl H298:-23.83 
 
 entry(
     index = 417,
-    label = "4ring-Cs(F1sF1sO2s)-Cs(F1sF1sO2s)",
+    label = "4ring-Cs(FFO2s)-Cs(FFO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11416,8 +11891,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.52849,-0.501197,-0.606843,-0.718125,-0.705507,-0.623323,-1.35349],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.74063,'kcal/mol','+|-',0.984714),
+        S298 = (3.07751,'cal/(mol*K)','+|-',1.3418),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11426,7 +11906,7 @@ entry(
 
 entry(
     index = 419,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sBr1sO2s)",
+    label = "4ring-Cs(BrCsH)-Cs(BrBrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -11456,7 +11936,7 @@ library:CHOBr_G4 label:BrC1OC(Br)(Br)C1Br smiles:BrC1OC(Br)(Br)C1Br H298:-4.23 k
 
 entry(
     index = 420,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sO2s)",
+    label = "4ring-Cs(ClCsH)-Cs(ClClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -11486,7 +11966,7 @@ library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1Cl smiles:ClC1OC(Cl)(Cl)C1Cl H298:-52.43 
 
 entry(
     index = 421,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sF1sO2s)",
+    label = "4ring-Cs(FCsH)-Cs(FFO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -11528,8 +12008,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.308865,-0.409165,-0.431626,-0.421684,-0.418287,-0.345514,-0.0983532],'cal/(mol*K)','+|-',[0.140861,0.155256,0.165257,0.164331,0.138311,0.109689,0.16246]),
+        H298 = (1.43492,'kcal/mol','+|-',1.17515),
+        S298 = (1.74192,'cal/(mol*K)','+|-',0.406952),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11538,7 +12023,7 @@ entry(
 
 entry(
     index = 423,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sCsH)",
+    label = "4ring-Cs(BrCsH)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -11570,7 +12055,7 @@ library:CHOBr_G4 label:BrC1C(Br)C(Br)(Br)C1Br smiles:BrC1C(Br)C(Br)(Br)C1Br H298
 
 entry(
     index = 424,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)",
+    label = "4ring-Cs(ClCsH)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -11602,7 +12087,7 @@ library:CHOCl_G4 label:ClC1CCC1Cl smiles:ClC1CCC1Cl H298:-13.18 kcal/mol
 
 entry(
     index = 425,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sCsH)_568",
+    label = "4ring-Cs(FCsH)-Cs(FCsH)_568",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -11646,8 +12131,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.391913,-0.543973,-0.584718,-0.606748,-0.622216,-0.524246,-0.16989],'cal/(mol*K)','+|-',[0.188623,0.207898,0.22129,0.220051,0.185208,0.146881,0.217545]),
+        H298 = (1.93707,'kcal/mol','+|-',2.24437),
+        S298 = (2.5055,'cal/(mol*K)','+|-',0.604539),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11656,7 +12146,7 @@ entry(
 
 entry(
     index = 427,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)",
+    label = "4ring-Cs(BrCsH)-Cs(BrBrCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -11689,7 +12179,7 @@ library:CHOBr_G4 label:BrC1C(Br)C(Br)(Br)C1Br smiles:BrC1C(Br)C(Br)(Br)C1Br H298
 
 entry(
     index = 428,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)_467",
+    label = "4ring-Cs(ClCsH)-Cs(ClClCs)_467",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -11722,7 +12212,7 @@ library:CHOCl_G4 label:ClC1CC(Cl)C1(Cl)Cl smiles:ClC1CC(Cl)C1(Cl)Cl H298:-24.30 
 
 entry(
     index = 429,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sF1sCs)",
+    label = "4ring-Cs(FCsH)-Cs(FFCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -11766,8 +12256,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.263575,-0.290528,-0.244401,-0.183087,-0.156366,-0.114778,0.0652411],'cal/(mol*K)','+|-',[0.295047,0.325199,0.346146,0.344208,0.289706,0.229754,0.340289]),
+        H298 = (1.38169,'kcal/mol','+|-',1.17684),
+        S298 = (0.954894,'cal/(mol*K)','+|-',1.19924),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11776,7 +12271,7 @@ entry(
 
 entry(
     index = 431,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sCs)",
+    label = "4ring-Cs(BrCsH)-Cs(BrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11808,7 +12303,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)C(Br)C1Br smiles:Br[C]1C(Br)C(Br)C1Br H298:59.
 
 entry(
     index = 432,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCs)",
+    label = "4ring-Cs(ClCsH)-Cs(ClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11840,7 +12335,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)CC1(Cl)Cl smiles:Cl[C]1C(Cl)CC1(Cl)Cl H298:16.
 
 entry(
     index = 433,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sCs)",
+    label = "4ring-Cs(FCsH)-Cs(FCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11885,8 +12380,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.54904,-0.357673,-0.255623,-0.187229,-0.0890487,-0.00424767,0.219191],'cal/(mol*K)','+|-',[1.45082,1.59908,1.70208,1.69255,1.42455,1.12976,1.67328]),
+        H298 = (2.92387,'kcal/mol','+|-',4.41919),
+        S298 = (2.60048,'cal/(mol*K)','+|-',2.81408),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -11895,7 +12395,7 @@ entry(
 
 entry(
     index = 435,
-    label = "4ring-Cd(Br1sCd)-Cs(Br1sCsH)_243",
+    label = "4ring-Cd(BrCd)-Cs(BrCsH)_243",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11923,7 +12423,7 @@ library:CHOBr_G4 label:BrC1D[C]C(Br)C1Br smiles:BrC1=[C]C(Br)C1Br H298:108.94 kc
 
 entry(
     index = 436,
-    label = "4ring-Cd(Cl1sCd)-Cs(Cl1sCsH)",
+    label = "4ring-Cd(ClCd)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11950,7 +12450,7 @@ library:CHOCl_G4 label:ClC1D[C]CC1Cl smiles:ClC1=[C]CC1Cl H298:81.64 kcal/mol
 
 entry(
     index = 437,
-    label = "4ring-Cd(F1sCd)-Cs(F1sCsH)_626",
+    label = "4ring-Cd(FCd)-Cs(FCsH)_626",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11990,8 +12490,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.13437,-1.41749,-1.12537,-1.53438,-1.62641,-1.50732,-1.15928],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (3.74973,'kcal/mol','+|-',1.17374),
+        S298 = (8.85065,'cal/(mol*K)','+|-',1.23457),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12000,7 +12505,7 @@ entry(
 
 entry(
     index = 439,
-    label = "4ring-Cs(Br1sBr1sO2s)-Cs(Br1sO2s)",
+    label = "4ring-Cs(BrBrO2s)-Cs(BrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12027,7 +12532,7 @@ library:CHOBr_G4 label:Br[C]1OOC1(Br)Br smiles:Br[C]1OOC1(Br)Br H298:57.50 kcal/
 
 entry(
     index = 440,
-    label = "4ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sO2s)",
+    label = "4ring-Cs(ClClO2s)-Cs(ClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12066,8 +12571,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.14331,-1.36388,-1.55155,-1.6982,-1.59611,-1.36081,-2.21953],'cal/(mol*K)','+|-',[1.27859,1.40925,1.50002,1.49162,1.25544,0.995638,1.47464]),
+        H298 = (3.10112,'kcal/mol','+|-',0.645405),
+        S298 = (5.56119,'cal/(mol*K)','+|-',7.41799),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12076,7 +12586,7 @@ entry(
 
 entry(
     index = 442,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sO2sH)",
+    label = "4ring-Cs(BrBrCs)-Cs(BrO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -12105,7 +12615,7 @@ library:CHOBr_G4 label:Br[C]1OC(Br)C1(Br)Br smiles:Br[C]1OC(Br)C1(Br)Br H298:39.
 
 entry(
     index = 443,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sO2sH)",
+    label = "4ring-Cs(FFCs)-Cs(FO2sH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -12146,8 +12656,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.27717,-1.16332,-1.05505,-1.26273,-1.28209,-1.15051,-0.74978],'cal/(mol*K)','+|-',[0.69403,0.764954,0.814228,0.809669,0.681465,0.540442,0.80045]),
+        H298 = (1.86127,'kcal/mol','+|-',0.881493),
+        S298 = (4.16025,'cal/(mol*K)','+|-',0.671396),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12156,7 +12671,7 @@ entry(
 
 entry(
     index = 445,
-    label = "4ring-Cs(Br1sO2sH)-Cs(Br1sO2sH)",
+    label = "4ring-Cs(BrO2sH)-Cs(BrO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -12184,7 +12699,7 @@ library:CHOBr_G4 label:BrC1OOC1Br smiles:BrC1OOC1Br H298:8.20 kcal/mol
 
 entry(
     index = 446,
-    label = "4ring-Cs(Cl1sO2sH)-Cs(Cl1sO2sH)",
+    label = "4ring-Cs(ClO2sH)-Cs(ClO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -12212,7 +12727,7 @@ library:CHOCl_G4 label:ClC1OOC1Cl smiles:ClC1OOC1Cl H298:-16.10 kcal/mol
 
 entry(
     index = 447,
-    label = "4ring-Cs(F1sO2sH)-Cs(F1sO2sH)",
+    label = "4ring-Cs(FO2sH)-Cs(FO2sH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -12251,8 +12766,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.441275,-0.422089,-0.444266,-0.501918,-0.445378,-0.348239,0.0978319],'cal/(mol*K)','+|-',[0.716537,0.789762,0.840633,0.835926,0.703565,0.557968,0.826408]),
+        H298 = (3.56312,'kcal/mol','+|-',1.91227),
+        S298 = (2.84077,'cal/(mol*K)','+|-',1.56375),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12261,7 +12781,7 @@ entry(
 
 entry(
     index = 449,
-    label = "4ring-Cs(Br1sCd)-Cs(Br1sCdH)",
+    label = "4ring-Cs(BrCd)-Cs(BrCdH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12290,7 +12810,7 @@ library:CHOBr_G4 label:Br[C]1CDC(Br)C1Br smiles:Br[C]1C=C(Br)C1Br H298:85.30 kca
 
 entry(
     index = 450,
-    label = "4ring-Cs(Cl1sCd)-Cs(Cl1sCdH)",
+    label = "4ring-Cs(ClCd)-Cs(ClCdH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12318,7 +12838,7 @@ library:CHOCl_G4 label:Cl[C]1CDCC1Cl smiles:Cl[C]1C=CC1Cl H298:59.56 kcal/mol
 
 entry(
     index = 451,
-    label = "4ring-Cs(F1sCd)-Cs(F1sCdH)",
+    label = "4ring-Cs(FCd)-Cs(FCdH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12357,8 +12877,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.312334,0.167174,0.0187686,-0.0813251,-0.171504,-0.185541,-0.194657],'cal/(mol*K)','+|-',[0.632288,0.696903,0.741793,0.73764,0.620841,0.492364,0.729241]),
+        H298 = (1.82897,'kcal/mol','+|-',3.28207),
+        S298 = (2.5054,'cal/(mol*K)','+|-',0.827382),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12367,7 +12892,7 @@ entry(
 
 entry(
     index = 453,
-    label = "4ring-Cd(Br1sCs)=Cd(Br1sCs)_265",
+    label = "4ring-Cd(BrCs)=Cd(BrCs)_265",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {5,S}
@@ -12396,7 +12921,7 @@ library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)[CH]1 smiles:BrC1=C(Br)C(Br)(Br)[CH]1 
 
 entry(
     index = 454,
-    label = "4ring-Cd(Cl1sCs)=Cd(Cl1sCs)",
+    label = "4ring-Cd(ClCs)=Cd(ClCs)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {5,S}
@@ -12426,7 +12951,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)[CH]1 H298:51.
 
 entry(
     index = 455,
-    label = "4ring-Cd(F1sCs)=Cd(F1sCs)",
+    label = "4ring-Cd(FCs)=Cd(FCs)",
     group = 
 """
 1 *1 Cd  u0 p0 c0 {2,D} {3,S} {5,S}
@@ -12467,8 +12992,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.523806,0.386501,0.233211,0.107303,-0.047137,-0.109295,-0.11133],'cal/(mol*K)','+|-',[0.701074,0.772718,0.822491,0.817886,0.688382,0.545927,0.808574]),
+        H298 = (1.15221,'kcal/mol','+|-',4.93122),
+        S298 = (4.17214,'cal/(mol*K)','+|-',1.28602),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12477,7 +13007,7 @@ entry(
 
 entry(
     index = 457,
-    label = "4ring-Cd(Br1sCd)-Cs(Br1sBr1sCs)_266",
+    label = "4ring-Cd(BrCd)-Cs(BrBrCs)_266",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12505,7 +13035,7 @@ library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)[CH]1 smiles:BrC1=C(Br)C(Br)(Br)[CH]1 
 
 entry(
     index = 458,
-    label = "4ring-Cd(F1sCd)-Cs(F1sF1sCs)_596",
+    label = "4ring-Cd(FCd)-Cs(FFCs)_596",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12545,8 +13075,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.163464,-0.0628308,-0.0743913,-0.217999,-0.317381,-0.324215,0.035939],'cal/(mol*K)','+|-',[1.78038,1.96232,2.08872,2.07702,1.74815,1.38638,2.05337]),
+        H298 = (6.59431,'kcal/mol','+|-',6.03475),
+        S298 = (5.04212,'cal/(mol*K)','+|-',4.0358),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12555,7 +13090,7 @@ entry(
 
 entry(
     index = 460,
-    label = "4ring-Cs(Br1sCd)-Cs(Br1sBr1sCd)",
+    label = "4ring-Cs(BrCd)-Cs(BrBrCd)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12582,7 +13117,7 @@ library:CHOBr_G4 label:Br[C]1CDCC1(Br)Br smiles:Br[C]1C=CC1(Br)Br H298:87.06 kca
 
 entry(
     index = 461,
-    label = "4ring-Cs(F1sCd)-Cs(F1sF1sCd)",
+    label = "4ring-Cs(FCd)-Cs(FFCd)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12622,8 +13157,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.79391,-0.31167,-0.222724,-0.315895,-0.355357,-0.347999,-1.7342],'cal/(mol*K)','+|-',[0.639294,0.704625,0.750012,0.745813,0.62772,0.497819,0.737321]),
+        H298 = (2.99866,'kcal/mol','+|-',6.55154),
+        S298 = (2.62961,'cal/(mol*K)','+|-',0.0164049),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12632,7 +13172,7 @@ entry(
 
 entry(
     index = 463,
-    label = "4ring-Cs(Br1sO2s)-Cs(Br1sBr1sCs)",
+    label = "4ring-Cs(BrO2s)-Cs(BrBrCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12660,7 +13200,7 @@ library:CHOBr_G4 label:Br[C]1OCC1(Br)Br smiles:Br[C]1OCC1(Br)Br H298:33.89 kcal/
 
 entry(
     index = 464,
-    label = "4ring-Cs(F1sO2s)-Cs(F1sF1sCs)",
+    label = "4ring-Cs(FO2s)-Cs(FFCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12699,8 +13239,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.312334,0.167174,0.0187686,-0.0813251,-0.171504,-0.185541,-0.194657],'cal/(mol*K)','+|-',[0.632288,0.696903,0.741793,0.73764,0.620841,0.492364,0.729241]),
+        H298 = (1.82897,'kcal/mol','+|-',3.28207),
+        S298 = (2.5054,'cal/(mol*K)','+|-',0.827382),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12709,7 +13254,7 @@ entry(
 
 entry(
     index = 466,
-    label = "4ring-Cd(Br1sCs)=Cd(Br1sCs)_277",
+    label = "4ring-Cd(BrCs)=Cd(BrCs)_277",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {3,S} {5,S}
@@ -12738,7 +13283,7 @@ library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)[CH]1 smiles:BrC1=C(Br)C(Br)(Br)[CH]1 
 
 entry(
     index = 467,
-    label = "4ring-Cd(Cl1sCs)=Cd(Cl1sCs)_461",
+    label = "4ring-Cd(ClCs)=Cd(ClCs)_461",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {3,S} {5,S}
@@ -12768,7 +13313,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)[CH]1 H298:51.
 
 entry(
     index = 468,
-    label = "4ring-Cd(F1sCs)=Cd(F1sCs)_565",
+    label = "4ring-Cd(FCs)=Cd(FCs)_565",
     group = 
 """
 1 *2 Cd  u0 p0 c0 {2,D} {3,S} {5,S}
@@ -12809,8 +13354,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.354388,0.273389,0.155946,0.0545815,-0.0628774,-0.113523,-0.117715],'cal/(mol*K)','+|-',[0.649671,0.716063,0.762187,0.75792,0.63791,0.5059,0.74929]),
+        H298 = (1.38057,'kcal/mol','+|-',2.73937),
+        S298 = (3.70714,'cal/(mol*K)','+|-',0.765061),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12819,7 +13369,7 @@ entry(
 
 entry(
     index = 470,
-    label = "4ring-Cs(Br1sCsH)-Cd(Br1sCd)",
+    label = "4ring-Cs(BrCsH)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12848,7 +13398,7 @@ library:CHOBr_G4 label:Br[C]1CDC(Br)C1Br smiles:Br[C]1C=C(Br)C1Br H298:85.30 kca
 
 entry(
     index = 471,
-    label = "4ring-Cs(Cl1sCsH)-Cd(Cl1sCd)",
+    label = "4ring-Cs(ClCsH)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12877,7 +13427,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)[CH]1 H298:51.
 
 entry(
     index = 472,
-    label = "4ring-Cs(F1sCsH)-Cd(F1sCd)_652",
+    label = "4ring-Cs(FCsH)-Cd(FCd)_652",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12917,8 +13467,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.83365,-0.666636,-0.74248,-0.864593,-0.84773,-0.787731,-1.95653],'cal/(mol*K)','+|-',[0.639294,0.704625,0.750012,0.745813,0.62772,0.497819,0.737321]),
+        H298 = (0.981591,'kcal/mol','+|-',0.846404),
+        S298 = (3.59102,'cal/(mol*K)','+|-',2.73568),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -12927,7 +13482,7 @@ entry(
 
 entry(
     index = 474,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sO2s)",
+    label = "4ring-Cs(BrBrCs)-Cs(BrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12955,7 +13510,7 @@ library:CHOBr_G4 label:Br[C]1OCC1(Br)Br smiles:Br[C]1OCC1(Br)Br H298:33.89 kcal/
 
 entry(
     index = 475,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sO2s)",
+    label = "4ring-Cs(ClClCs)-Cs(ClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12994,8 +13549,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.290693,-0.317365,-0.332759,-0.386903,-0.369661,-0.272031,0.213626],'cal/(mol*K)','+|-',[0.540476,0.595709,0.63408,0.63053,0.530692,0.42087,0.623351]),
+        H298 = (1.38499,'kcal/mol','+|-',1.60307),
+        S298 = (2.04456,'cal/(mol*K)','+|-',1.22063),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13004,7 +13564,7 @@ entry(
 
 entry(
     index = 477,
-    label = "4ring-Cs(Br1sBr1sCd)-Cs(Br1sBr1sCd)",
+    label = "4ring-Cs(BrBrCd)-Cs(BrBrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13033,7 +13593,7 @@ library:CHOBr_G4 label:BrC1DCC(Br)(Br)C1(Br)Br smiles:BrC1=CC(Br)(Br)C1(Br)Br H2
 
 entry(
     index = 478,
-    label = "4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCl1sCd)",
+    label = "4ring-Cs(ClClCd)-Cs(ClClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -13062,7 +13622,7 @@ library:CHOCl_G4 label:ClC1(Cl)CDCC1(Cl)Cl smiles:ClC1(Cl)C=CC1(Cl)Cl H298:12.75
 
 entry(
     index = 479,
-    label = "4ring-Cs(F1sF1sCd)-Cs(F1sF1sCd)_646",
+    label = "4ring-Cs(FFCd)-Cs(FFCd)_646",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -13101,8 +13661,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.187037,-0.307235,-0.392237,-0.425947,-0.376582,-0.263742,-0.0091072],'cal/(mol*K)','+|-',[0.801396,0.883293,0.940189,0.934925,0.786888,0.624048,0.924279]),
+        H298 = (-0.755768,'kcal/mol','+|-',1.08081),
+        S298 = (2.18105,'cal/(mol*K)','+|-',1.26909),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13111,7 +13676,7 @@ entry(
 
 entry(
     index = 481,
-    label = "4ring-Cd(Br1sO2s)=Cd(Br1sCs)",
+    label = "4ring-Cd(BrO2s)=Cd(BrCs)",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -13138,7 +13703,7 @@ library:CHOBr_G4 label:Br[C]1OC(Br)DC1Br smiles:Br[C]1OC(Br)=C1Br H298:69.24 kca
 
 entry(
     index = 482,
-    label = "4ring-Cd(Cl1sO2s)=Cd(Cl1sCs)",
+    label = "4ring-Cd(ClO2s)=Cd(ClCs)",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -13176,8 +13741,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.20615,-1.97536,-2.25605,-2.28323,-1.96368,-1.54351,-0.754406],'cal/(mol*K)','+|-',[1.79198,1.9751,2.10232,2.09055,1.75953,1.39541,2.06675]),
+        H298 = (9.18018,'kcal/mol','+|-',5.45185),
+        S298 = (6.1683,'cal/(mol*K)','+|-',5.21906),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13186,7 +13756,7 @@ entry(
 
 entry(
     index = 484,
-    label = "4ring-Cs(Br1sBr1sO2s)-Cd(Br1sCd)",
+    label = "4ring-Cs(BrBrO2s)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13213,7 +13783,7 @@ library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)O1 smiles:BrC1=C(Br)C(Br)(Br)O1 H298:3
 
 entry(
     index = 485,
-    label = "4ring-Cs(F1sF1sO2s)-Cd(F1sCd)",
+    label = "4ring-Cs(FFO2s)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13252,8 +13822,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.263575,-0.290528,-0.244401,-0.183087,-0.156366,-0.114778,0.0652411],'cal/(mol*K)','+|-',[0.295047,0.325199,0.346146,0.344208,0.289706,0.229754,0.340289]),
+        H298 = (1.38169,'kcal/mol','+|-',1.17684),
+        S298 = (0.954894,'cal/(mol*K)','+|-',1.19924),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13262,7 +13837,7 @@ entry(
 
 entry(
     index = 487,
-    label = "4ring-Cs(Br1sCs)-Cs(Br1sCsH)",
+    label = "4ring-Cs(BrCs)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13294,7 +13869,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)C(Br)C1Br smiles:Br[C]1C(Br)C(Br)C1Br H298:59.
 
 entry(
     index = 488,
-    label = "4ring-Cs(Cl1sCs)-Cs(Cl1sCsH)",
+    label = "4ring-Cs(ClCs)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13326,7 +13901,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)CC1(Cl)Cl smiles:Cl[C]1C(Cl)CC1(Cl)Cl H298:16.
 
 entry(
     index = 489,
-    label = "4ring-Cs(F1sCs)-Cs(F1sCsH)",
+    label = "4ring-Cs(FCs)-Cs(FCsH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13371,8 +13946,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.378627,-0.403505,-0.253718,-0.18151,-0.287934,-0.240148,0.218548],'cal/(mol*K)','+|-',[0.541498,0.596835,0.635279,0.631723,0.531695,0.421666,0.62453]),
+        H298 = (3.28434,'kcal/mol','+|-',6.27008),
+        S298 = (3.49457,'cal/(mol*K)','+|-',2.56215),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13381,7 +13961,7 @@ entry(
 
 entry(
     index = 491,
-    label = "4ring-Cs(Br1sCs)-Cs(Br1sBr1sCs)",
+    label = "4ring-Cs(BrCs)-Cs(BrBrCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13409,7 +13989,7 @@ library:CHOBr_G4 label:Br[C]1CCC1(Br)Br smiles:Br[C]1CCC1(Br)Br H298:56.68 kcal/
 
 entry(
     index = 492,
-    label = "4ring-Cs(Cl1sCs)-Cs(Cl1sCl1sCs)",
+    label = "4ring-Cs(ClCs)-Cs(ClClCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13438,7 +14018,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)CC1(Cl)Cl smiles:Cl[C]1C(Cl)CC1(Cl)Cl H298:16.
 
 entry(
     index = 493,
-    label = "4ring-Cs(F1sCs)-Cs(F1sF1sCs)",
+    label = "4ring-Cs(FCs)-Cs(FFCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13480,8 +14060,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0176619,-0.0677351,-0.100232,-0.127401,-0.144506,-0.150461,-0.0925743],'cal/(mol*K)','+|-',[0.649671,0.716063,0.762187,0.75792,0.63791,0.5059,0.74929]),
+        H298 = (3.35004,'kcal/mol','+|-',2.4344),
+        S298 = (1.72996,'cal/(mol*K)','+|-',1.57793),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13490,7 +14075,7 @@ entry(
 
 entry(
     index = 495,
-    label = "4ring-Cd(Br1sCd)-Cs(Br1sCs)",
+    label = "4ring-Cd(BrCd)-Cs(BrCs)",
     group = 
 """
 1 *2 Cs   u1 p0 c0 {2,S} {3,S} {5,S}
@@ -13518,7 +14103,7 @@ library:CHOBr_G4 label:Br[C]1CCDC1Br smiles:Br[C]1CC=C1Br H298:81.75 kcal/mol
 
 entry(
     index = 496,
-    label = "4ring-Cd(Cl1sCd)-Cs(Cl1sCs)",
+    label = "4ring-Cd(ClCd)-Cs(ClCs)",
     group = 
 """
 1 *2 Cs   u1 p0 c0 {2,S} {3,S} {5,S}
@@ -13546,7 +14131,7 @@ library:CHOCl_G4 label:Cl[C]1CC(Cl)DC1Cl smiles:Cl[C]1CC(Cl)=C1Cl H298:50.63 kca
 
 entry(
     index = 497,
-    label = "4ring-Cd(F1sCd)-Cs(F1sCs)",
+    label = "4ring-Cd(FCd)-Cs(FCs)",
     group = 
 """
 1 *2 Cs  u1 p0 c0 {2,S} {3,S} {5,S}
@@ -13588,8 +14173,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.86294,-2.134,-2.36144,-2.51919,-2.36166,-1.93317,-3.08049],'cal/(mol*K)','+|-',[1.27073,1.40059,1.49081,1.48246,1.24773,0.989523,1.46558]),
+        H298 = (1.00522,'kcal/mol','+|-',5.46581),
+        S298 = (7.19048,'cal/(mol*K)','+|-',4.19357),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13598,7 +14188,7 @@ entry(
 
 entry(
     index = 499,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sO2sH)",
+    label = "4ring-Cs(BrCsH)-Cs(BrO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -13639,8 +14229,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.751506,0.57785,0.293146,0.00273395,-0.468868,-0.572883,-0.216012],'cal/(mol*K)','+|-',[1.71045,1.88525,2.00668,1.99545,1.67948,1.33193,1.97272]),
+        H298 = (6.03311,'kcal/mol','+|-',0.876897),
+        S298 = (4.57239,'cal/(mol*K)','+|-',6.95258),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13649,7 +14244,7 @@ entry(
 
 entry(
     index = 501,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sCs)",
+    label = "4ring-Cs(BrBrCs)-Cs(BrBrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13677,7 +14272,7 @@ library:CHOBr_G4 label:BrC1(Br)[CH]CC1(Br)Br smiles:BrC1(Br)[CH]CC1(Br)Br H298:7
 
 entry(
     index = 502,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)_577",
+    label = "4ring-Cs(FFCs)-Cs(FFCs)_577",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13719,8 +14314,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.19047,-1.19267,-1.31595,-1.50105,-1.5047,-1.33125,-2.3563],'cal/(mol*K)','+|-',[0.295935,0.326178,0.347188,0.345244,0.290578,0.230445,0.341313]),
+        H298 = (3.19716,'kcal/mol','+|-',4.04583),
+        S298 = (4.85285,'cal/(mol*K)','+|-',2.97636),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13729,7 +14329,7 @@ entry(
 
 entry(
     index = 504,
-    label = "4ring-Cs(Br1sO2sH)-Cs(Br1sBr1sCs)",
+    label = "4ring-Cs(BrO2sH)-Cs(BrBrCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -13759,7 +14359,7 @@ library:CHOBr_G4 label:BrC1OCC1(Br)Br smiles:BrC1OCC1(Br)Br H298:-5.86 kcal/mol
 
 entry(
     index = 505,
-    label = "4ring-Cs(Cl1sO2sH)-Cs(Cl1sCl1sCs)_396",
+    label = "4ring-Cs(ClO2sH)-Cs(ClClCs)_396",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -13789,7 +14389,7 @@ library:CHOCl_G4 label:ClC1OCC1(Cl)Cl smiles:ClC1OCC1(Cl)Cl H298:-41.67 kcal/mol
 
 entry(
     index = 506,
-    label = "4ring-Cs(F1sO2sH)-Cs(F1sF1sCs)",
+    label = "4ring-Cs(FO2sH)-Cs(FFCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -13831,8 +14431,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.19931,-1.84032,-1.6862,-2.16799,-2.2212,-1.96718,-1.28312],'cal/(mol*K)','+|-',[1.38806,1.52991,1.62845,1.61934,1.36293,1.08088,1.6009]),
+        H298 = (4.75146,'kcal/mol','+|-',2.11515),
+        S298 = (10.1462,'cal/(mol*K)','+|-',2.5987),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13841,7 +14446,7 @@ entry(
 
 entry(
     index = 508,
-    label = "4ring-Cs(Br1sO2sH)-Cs(Br1sBr1sO2s)",
+    label = "4ring-Cs(BrO2sH)-Cs(BrBrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -13869,7 +14474,7 @@ library:CHOBr_G4 label:BrC1OOC1(Br)Br smiles:BrC1OOC1(Br)Br H298:16.48 kcal/mol
 
 entry(
     index = 509,
-    label = "4ring-Cs(Cl1sO2sH)-Cs(Cl1sCl1sO2s)",
+    label = "4ring-Cs(ClO2sH)-Cs(ClClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -13897,7 +14502,7 @@ library:CHOCl_G4 label:ClC1OOC1(Cl)Cl smiles:ClC1OOC1(Cl)Cl H298:-20.46 kcal/mol
 
 entry(
     index = 510,
-    label = "4ring-Cs(F1sO2sH)-Cs(F1sF1sO2s)",
+    label = "4ring-Cs(FO2sH)-Cs(FFO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -13937,8 +14542,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.01957,-1.00187,-1.25563,-1.55779,-1.61614,-1.47967,-3.00316],'cal/(mol*K)','+|-',[1.02515,1.12991,1.20269,1.19596,1.00659,0.798286,1.18234]),
+        H298 = (4.41828,'kcal/mol','+|-',2.07761),
+        S298 = (7.41047,'cal/(mol*K)','+|-',4.34678),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -13947,7 +14557,7 @@ entry(
 
 entry(
     index = 512,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sO2s)",
+    label = "4ring-Cs(BrBrCs)-Cs(BrBrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -13976,7 +14586,7 @@ library:CHOBr_G4 label:BrC1OC(Br)(Br)C1(Br)Br smiles:BrC1OC(Br)(Br)C1(Br)Br H298
 
 entry(
     index = 513,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sO2s)",
+    label = "4ring-Cs(ClClCs)-Cs(ClClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -14005,7 +14615,7 @@ library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1(Cl)Cl smiles:ClC1OC(Cl)(Cl)C1(Cl)Cl H298
 
 entry(
     index = 514,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sF1sO2s)",
+    label = "4ring-Cs(FFCs)-Cs(FFO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -14045,8 +14655,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.701261,-0.728494,-0.832889,-0.921883,-0.887866,-0.78636,-1.45653],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.715761,'kcal/mol','+|-',1.56202),
+        S298 = (2.4315,'cal/(mol*K)','+|-',2.16929),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14055,7 +14670,7 @@ entry(
 
 entry(
     index = 516,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sO2sH)_300",
+    label = "4ring-Cs(BrCsH)-Cs(BrO2sH)_300",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -14085,7 +14700,7 @@ library:CHOBr_G4 label:BrC1OC(Br)(Br)C1Br smiles:BrC1OC(Br)(Br)C1Br H298:-4.23 k
 
 entry(
     index = 517,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sO2sH)",
+    label = "4ring-Cs(ClCsH)-Cs(ClO2sH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -14115,7 +14730,7 @@ library:CHOCl_G4 label:ClC1OC(Cl)C1Cl smiles:ClC1OC(Cl)C1Cl H298:-46.96 kcal/mol
 
 entry(
     index = 518,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sO2sH)",
+    label = "4ring-Cs(FCsH)-Cs(FO2sH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -14157,8 +14772,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.127574,0.0912263,0.0362896,-0.0341575,-0.176313,-0.183191,0.0230737],'cal/(mol*K)','+|-',[0.343111,0.378174,0.402534,0.40028,0.336899,0.267181,0.395723]),
+        H298 = (3.06983,'kcal/mol','+|-',2.12151),
+        S298 = (2.2816,'cal/(mol*K)','+|-',0.851171),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14167,7 +14787,7 @@ entry(
 
 entry(
     index = 520,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sCsH)",
+    label = "4ring-Cs(BrBrCs)-Cs(BrCsH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14197,7 +14817,7 @@ library:CHOBr_G4 label:BrC1[CH]CC1(Br)Br smiles:BrC1[CH]CC1(Br)Br H298:64.35 kca
 
 entry(
     index = 521,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)_491",
+    label = "4ring-Cs(ClClCs)-Cs(ClCsH)_491",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14227,7 +14847,7 @@ library:CHOCl_G4 label:ClC1[CH]C(Cl)C1(Cl)Cl smiles:ClC1[CH]C(Cl)C1(Cl)Cl H298:2
 
 entry(
     index = 522,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sCsH)",
+    label = "4ring-Cs(FFCs)-Cs(FCsH)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14269,8 +14889,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0176619,-0.0677351,-0.100232,-0.127401,-0.144506,-0.150461,-0.0925743],'cal/(mol*K)','+|-',[0.649671,0.716063,0.762187,0.75792,0.63791,0.5059,0.74929]),
+        H298 = (3.35004,'kcal/mol','+|-',2.4344),
+        S298 = (1.72996,'cal/(mol*K)','+|-',1.57793),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14279,7 +14904,7 @@ entry(
 
 entry(
     index = 524,
-    label = "4ring-Cs(Br1sCs)-Cd(Br1sCd)",
+    label = "4ring-Cs(BrCs)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u1 p0 c0 {2,S} {3,S} {5,S}
@@ -14307,7 +14932,7 @@ library:CHOBr_G4 label:Br[C]1CCDC1Br smiles:Br[C]1CC=C1Br H298:81.75 kcal/mol
 
 entry(
     index = 525,
-    label = "4ring-Cs(Cl1sCs)-Cd(Cl1sCd)",
+    label = "4ring-Cs(ClCs)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u1 p0 c0 {2,S} {3,S} {5,S}
@@ -14335,7 +14960,7 @@ library:CHOCl_G4 label:Cl[C]1CC(Cl)DC1Cl smiles:Cl[C]1CC(Cl)=C1Cl H298:50.63 kca
 
 entry(
     index = 526,
-    label = "4ring-Cs(F1sCs)-Cd(F1sCd)",
+    label = "4ring-Cs(FCs)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u1 p0 c0 {2,S} {3,S} {5,S}
@@ -14376,8 +15001,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.203616,-0.190374,-0.179365,-0.169797,-0.138738,-0.0953444,0.0578002],'cal/(mol*K)','+|-',[0.452881,0.499162,0.531315,0.52834,0.444682,0.352659,0.522324]),
+        H298 = (0.949067,'kcal/mol','+|-',1.07027),
+        S298 = (1.74742,'cal/(mol*K)','+|-',0.658138),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14386,7 +15016,7 @@ entry(
 
 entry(
     index = 528,
-    label = "4ring-Cs(Br1sCsH)-Cd(Br1sCd)_305",
+    label = "4ring-Cs(BrCsH)-Cd(BrCd)_305",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14416,7 +15046,7 @@ library:CHOBr_G4 label:BrC1DCC(Br)C1Br smiles:BrC1=CC(Br)C1Br H298:46.41 kcal/mo
 
 entry(
     index = 529,
-    label = "4ring-Cs(Cl1sCsH)-Cd(Cl1sCd)_440",
+    label = "4ring-Cs(ClCsH)-Cd(ClCd)_440",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14446,7 +15076,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)C1Cl H298:4.22 
 
 entry(
     index = 530,
-    label = "4ring-Cs(F1sCsH)-Cd(F1sCd)",
+    label = "4ring-Cs(FCsH)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14488,8 +15118,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.96971,-0.58297,-0.498123,-0.602992,-0.700264,-0.703083,-1.9637],'cal/(mol*K)','+|-',[0.635368,0.700297,0.745406,0.741232,0.623865,0.494762,0.732793]),
+        H298 = (0.970523,'kcal/mol','+|-',1.0342),
+        S298 = (2.87435,'cal/(mol*K)','+|-',1.88011),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14498,7 +15133,7 @@ entry(
 
 entry(
     index = 532,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sO2s)",
+    label = "4ring-Cs(BrCsH)-Cs(BrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14526,7 +15161,7 @@ library:CHOBr_G4 label:Br[C]1OC(Br)C1Br smiles:Br[C]1OC(Br)C1Br H298:30.92 kcal/
 
 entry(
     index = 533,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sO2s)",
+    label = "4ring-Cs(ClCsH)-Cs(ClO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14566,8 +15201,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.373821,-0.343364,-0.345576,-0.395353,-0.372582,-0.304503,0.0405978],'cal/(mol*K)','+|-',[0.716537,0.789762,0.840633,0.835926,0.703565,0.557968,0.826408]),
+        H298 = (3.71735,'kcal/mol','+|-',2.59667),
+        S298 = (2.63107,'cal/(mol*K)','+|-',1.95837),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14576,7 +15216,7 @@ entry(
 
 entry(
     index = 535,
-    label = "4ring-Cs(Br1sCdH)-Cs(Br1sCd)",
+    label = "4ring-Cs(BrCdH)-Cs(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14605,7 +15245,7 @@ library:CHOBr_G4 label:Br[C]1CDC(Br)C1Br smiles:Br[C]1C=C(Br)C1Br H298:85.30 kca
 
 entry(
     index = 536,
-    label = "4ring-Cs(F1sCdH)-Cs(F1sCd)",
+    label = "4ring-Cs(FCdH)-Cs(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14645,8 +15285,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.190752,0.0339871,-0.0491533,-0.099449,-0.184761,-0.159625,-0.105511],'cal/(mol*K)','+|-',[0.541498,0.596835,0.635279,0.631723,0.531695,0.421666,0.62453]),
+        H298 = (0.402319,'kcal/mol','+|-',2.32915),
+        S298 = (2.04375,'cal/(mol*K)','+|-',1.78701),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14655,7 +15300,7 @@ entry(
 
 entry(
     index = 538,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sCs)",
+    label = "4ring-Cs(BrBrCs)-Cs(BrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14694,8 +15339,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.504305,-0.373472,-0.396487,-0.465779,-0.480876,-0.446641,-1.23798],'cal/(mol*K)','+|-',[0.422976,0.466201,0.496231,0.493453,0.415319,0.329372,0.487834]),
+        H298 = (1.88875,'kcal/mol','+|-',1.55656),
+        S298 = (1.98172,'cal/(mol*K)','+|-',0.525898),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14704,7 +15354,7 @@ entry(
 
 entry(
     index = 540,
-    label = "4ring-Cs(Br1sCs)-Cs(Br1sO2sH)",
+    label = "4ring-Cs(BrCs)-Cs(BrO2sH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14733,7 +15383,7 @@ library:CHOBr_G4 label:Br[C]1COC1Br smiles:Br[C]1COC1Br H298:31.04 kcal/mol
 
 entry(
     index = 541,
-    label = "4ring-Cs(Cl1sCs)-Cs(Cl1sO2sH)",
+    label = "4ring-Cs(ClCs)-Cs(ClO2sH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14762,7 +15412,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)OC1(Cl)Cl smiles:Cl[C]1C(Cl)OC1(Cl)Cl H298:-8.
 
 entry(
     index = 542,
-    label = "4ring-Cs(F1sCs)-Cs(F1sO2sH)",
+    label = "4ring-Cs(FCs)-Cs(FO2sH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14802,8 +15452,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.534773,-0.345539,-0.417757,-0.560394,-0.637208,-0.61942,-1.95613],'cal/(mol*K)','+|-',[1.62553,1.79165,1.90705,1.89637,1.5961,1.2658,1.87478]),
+        H298 = (1.28594,'kcal/mol','+|-',5.25688),
+        S298 = (2.97122,'cal/(mol*K)','+|-',4.29027),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14812,7 +15467,7 @@ entry(
 
 entry(
     index = 544,
-    label = "4ring-Cs(Br1sCs)-Cs(Br1sBr1sO2s)",
+    label = "4ring-Cs(BrCs)-Cs(BrBrO2s)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14839,7 +15494,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)OC1(Br)Br smiles:Br[C]1C(Br)OC1(Br)Br H298:38.
 
 entry(
     index = 545,
-    label = "4ring-Cs(Cl1sCs)-Cs(Cl1sCl1sO2s)",
+    label = "4ring-Cs(ClCs)-Cs(ClClO2s)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14867,7 +15522,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)OC1(Cl)Cl smiles:Cl[C]1C(Cl)OC1(Cl)Cl H298:-8.
 
 entry(
     index = 546,
-    label = "4ring-Cs(F1sCs)-Cs(F1sF1sO2s)",
+    label = "4ring-Cs(FCs)-Cs(FFO2s)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14908,8 +15563,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.689065,-0.839539,-0.992925,-1.11629,-1.10789,-1.00481,-1.61753],'cal/(mol*K)','+|-',[0.295935,0.326178,0.347188,0.345244,0.290578,0.230445,0.341313]),
+        H298 = (1.42504,'kcal/mol','+|-',1.27291),
+        S298 = (3.19947,'cal/(mol*K)','+|-',0.976621),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14918,7 +15578,7 @@ entry(
 
 entry(
     index = 548,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sO2sH)_311",
+    label = "4ring-Cs(BrBrCs)-Cs(BrO2sH)_311",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -14960,8 +15620,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.4169,-0.701233,-0.840303,-0.897805,-0.939779,-0.809284,-0.303572],'cal/(mol*K)','+|-',[0.499733,0.550802,0.586281,0.582999,0.490686,0.389143,0.576361]),
+        H298 = (2.86751,'kcal/mol','+|-',2.60316),
+        S298 = (3.4677,'cal/(mol*K)','+|-',0.834754),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -14970,7 +15635,7 @@ entry(
 
 entry(
     index = 550,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sCs)_312",
+    label = "4ring-Cs(BrBrCs)-Cs(BrBrCs)_312",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -14999,7 +15664,7 @@ library:CHOBr_G4 label:BrC1CC(Br)(Br)C1(Br)Br smiles:BrC1CC(Br)(Br)C1(Br)Br H298
 
 entry(
     index = 551,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sCs)_423",
+    label = "4ring-Cs(ClClCs)-Cs(ClClCs)_423",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15028,7 +15693,7 @@ library:CHOCl_G4 label:ClC1CC(Cl)(Cl)C1(Cl)Cl smiles:ClC1CC(Cl)(Cl)C1(Cl)Cl H298
 
 entry(
     index = 552,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)_600",
+    label = "4ring-Cs(FFCs)-Cs(FFCs)_600",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15068,8 +15733,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.129535,-0.168124,-0.18985,-0.197625,-0.17829,-0.138101,0.0389214],'cal/(mol*K)','+|-',[0.452881,0.499162,0.531315,0.52834,0.444682,0.352659,0.522324]),
+        H298 = (0.701041,'kcal/mol','+|-',2.78989),
+        S298 = (1.76077,'cal/(mol*K)','+|-',0.737533),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15078,7 +15748,7 @@ entry(
 
 entry(
     index = 554,
-    label = "4ring-Cs(Br1sBr1sCs)-Cd(Br1sCd)",
+    label = "4ring-Cs(BrBrCs)-Cd(BrCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15108,7 +15778,7 @@ library:CHOBr_G4 label:BrC1DCC(Br)(Br)C1(Br)Br smiles:BrC1=CC(Br)(Br)C1(Br)Br H2
 
 entry(
     index = 555,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cd(Cl1sCd)",
+    label = "4ring-Cs(ClClCs)-Cd(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15138,7 +15808,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)(Cl)C1Cl smiles:ClC1=C(Cl)C(Cl)(Cl)C1Cl H2
 
 entry(
     index = 556,
-    label = "4ring-Cs(F1sF1sCs)-Cd(F1sCd)_552",
+    label = "4ring-Cs(FFCs)-Cd(FCd)_552",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15180,8 +15850,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.591741,-0.88226,-1.19791,-1.43672,-1.40456,-1.23889,-2.31824],'cal/(mol*K)','+|-',[1.72558,1.90193,2.02443,2.0131,1.69434,1.34371,1.99018]),
+        H298 = (4.63162,'kcal/mol','+|-',1.35627),
+        S298 = (7.65627,'cal/(mol*K)','+|-',14.0291),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15190,7 +15865,7 @@ entry(
 
 entry(
     index = 558,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sO2s)_314",
+    label = "4ring-Cs(BrBrCs)-Cs(BrBrO2s)_314",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -15218,7 +15893,7 @@ library:CHOBr_G4 label:BrC1(Br)[CH]OC1(Br)Br smiles:BrC1(Br)[CH]OC1(Br)Br H298:4
 
 entry(
     index = 559,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sF1sO2s)_635",
+    label = "4ring-Cs(FFCs)-Cs(FFO2s)_635",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -15258,8 +15933,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.41391,-0.321054,-0.215323,-0.202012,-0.165151,-0.12157,0.223077],'cal/(mol*K)','+|-',[0.557458,0.614426,0.654003,0.650341,0.547366,0.434093,0.642936]),
+        H298 = (0.857036,'kcal/mol','+|-',0.864859),
+        S298 = (1.85391,'cal/(mol*K)','+|-',0.648205),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15268,7 +15948,7 @@ entry(
 
 entry(
     index = 561,
-    label = "4ring-Cs(Br1sCdH)-Cs(Br1sBr1sCd)_316",
+    label = "4ring-Cs(BrCdH)-Cs(BrBrCd)_316",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -15297,7 +15977,7 @@ library:CHOBr_G4 label:BrC1CDCC1(Br)Br smiles:BrC1C=CC1(Br)Br H298:51.28 kcal/mo
 
 entry(
     index = 562,
-    label = "4ring-Cs(F1sCdH)-Cs(F1sF1sCd)_650",
+    label = "4ring-Cs(FCdH)-Cs(FFCd)_650",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -15338,8 +16018,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.28967,-1.39636,-0.981254,-1.36454,-1.42715,-1.27584,-0.985401],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (5.22314,'kcal/mol','+|-',5.31978),
+        S298 = (5.74318,'cal/(mol*K)','+|-',2.04173),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15348,7 +16033,7 @@ entry(
 
 entry(
     index = 564,
-    label = "4ring-Cs(Br1sO2sH)-Cs(Br1sO2s)",
+    label = "4ring-Cs(BrO2sH)-Cs(BrO2s)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15375,7 +16060,7 @@ library:CHOBr_G4 label:Br[C]1OOC1Br smiles:Br[C]1OOC1Br H298:50.38 kcal/mol
 
 entry(
     index = 565,
-    label = "4ring-Cs(F1sO2sH)-Cs(F1sO2s)",
+    label = "4ring-Cs(FO2sH)-Cs(FO2s)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15413,8 +16098,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.354388,0.273389,0.155946,0.0545815,-0.0628774,-0.113523,-0.117715],'cal/(mol*K)','+|-',[0.649671,0.716063,0.762187,0.75792,0.63791,0.5059,0.74929]),
+        H298 = (1.38057,'kcal/mol','+|-',2.73937),
+        S298 = (3.70714,'cal/(mol*K)','+|-',0.765061),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15423,7 +16113,7 @@ entry(
 
 entry(
     index = 567,
-    label = "4ring-Cd(Br1sCd)-Cs(Br1sCsH)_323",
+    label = "4ring-Cd(BrCd)-Cs(BrCsH)_323",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15452,7 +16142,7 @@ library:CHOBr_G4 label:Br[C]1CDC(Br)C1Br smiles:Br[C]1C=C(Br)C1Br H298:85.30 kca
 
 entry(
     index = 568,
-    label = "4ring-Cd(Cl1sCd)-Cs(Cl1sCsH)_483",
+    label = "4ring-Cd(ClCd)-Cs(ClCsH)_483",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15481,7 +16171,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)C(Cl)[CH]1 smiles:ClC1=C(Cl)C(Cl)[CH]1 H298:51.
 
 entry(
     index = 569,
-    label = "4ring-Cd(F1sCd)-Cs(F1sCsH)",
+    label = "4ring-Cd(FCd)-Cs(FCsH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15521,8 +16211,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.657658,-0.142937,-0.136325,-0.25226,-0.2737,-0.290705,-1.73737],'cal/(mol*K)','+|-',[0.635368,0.700297,0.745406,0.741232,0.623865,0.494762,0.732793]),
+        H298 = (1.48167,'kcal/mol','+|-',2.47996),
+        S298 = (2.25067,'cal/(mol*K)','+|-',0.116065),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15531,7 +16226,7 @@ entry(
 
 entry(
     index = 571,
-    label = "4ring-Cs(Br1sO2s)-Cs(Br1sCsH)",
+    label = "4ring-Cs(BrO2s)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15559,7 +16254,7 @@ library:CHOBr_G4 label:Br[C]1OC(Br)C1Br smiles:Br[C]1OC(Br)C1Br H298:30.92 kcal/
 
 entry(
     index = 572,
-    label = "4ring-Cs(F1sO2s)-Cs(F1sCsH)",
+    label = "4ring-Cs(FO2s)-Cs(FCsH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -15600,8 +16295,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.514682,0.483405,0.356955,0.204597,-0.0927819,-0.141155,0.0312416],'cal/(mol*K)','+|-',[1.43841,1.5854,1.68753,1.67808,1.41237,1.12009,1.65897]),
+        H298 = (3.72302,'kcal/mol','+|-',2.20753),
+        S298 = (2.84497,'cal/(mol*K)','+|-',2.83622),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15610,7 +16310,7 @@ entry(
 
 entry(
     index = 574,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)_325",
+    label = "4ring-Cs(BrCsH)-Cs(BrBrCs)_325",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -15638,7 +16338,7 @@ library:CHOBr_G4 label:BrC1C[CH]C1(Br)Br smiles:BrC1C[CH]C1(Br)Br H298:62.86 kca
 
 entry(
     index = 575,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)",
+    label = "4ring-Cs(ClCsH)-Cs(ClClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -15668,7 +16368,7 @@ library:CHOCl_G4 label:ClC1C[CH]C1(Cl)Cl smiles:ClC1C[CH]C1(Cl)Cl H298:29.23 kca
 
 entry(
     index = 576,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sF1sCs)_620",
+    label = "4ring-Cs(FCsH)-Cs(FFCs)_620",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -15712,8 +16412,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.864401,-1.07516,-1.37064,-1.55039,-1.4839,-1.26939,-2.13002],'cal/(mol*K)','+|-',[1.50233,1.65586,1.76252,1.75265,1.47513,1.16987,1.73269]),
+        H298 = (1.98801,'kcal/mol','+|-',1.9836),
+        S298 = (6.85485,'cal/(mol*K)','+|-',9.41344),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15722,7 +16427,7 @@ entry(
 
 entry(
     index = 578,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sBr1sO2s)_327",
+    label = "4ring-Cs(BrCsH)-Cs(BrBrO2s)_327",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -15750,7 +16455,7 @@ library:CHOBr_G4 label:BrC1[CH]OC1(Br)Br smiles:BrC1[CH]OC1(Br)Br H298:36.71 kca
 
 entry(
     index = 579,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sO2s)_485",
+    label = "4ring-Cs(ClCsH)-Cs(ClClO2s)_485",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -15791,8 +16496,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.391913,-0.543973,-0.584718,-0.606748,-0.622216,-0.524246,-0.16989],'cal/(mol*K)','+|-',[0.188623,0.207898,0.22129,0.220051,0.185208,0.146881,0.217545]),
+        H298 = (1.93707,'kcal/mol','+|-',2.24437),
+        S298 = (2.5055,'cal/(mol*K)','+|-',0.604539),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15801,7 +16511,7 @@ entry(
 
 entry(
     index = 581,
-    label = "4ring-Cs(Br1sBr1sCs)-Cs(Br1sCsH)_332",
+    label = "4ring-Cs(BrBrCs)-Cs(BrCsH)_332",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -15834,7 +16544,7 @@ library:CHOBr_G4 label:BrC1C(Br)C(Br)(Br)C1Br smiles:BrC1C(Br)C(Br)(Br)C1Br H298
 
 entry(
     index = 582,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)",
+    label = "4ring-Cs(ClClCs)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -15867,7 +16577,7 @@ library:CHOCl_G4 label:ClC1CC(Cl)C1(Cl)Cl smiles:ClC1CC(Cl)C1(Cl)Cl H298:-24.30 
 
 entry(
     index = 583,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sCsH)_559",
+    label = "4ring-Cs(FFCs)-Cs(FCsH)_559",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -15912,8 +16622,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0529896,0.0482057,0.0235768,-0.0200362,-0.114785,-0.107829,0.0290247],'cal/(mol*K)','+|-',[0.383139,0.422293,0.449495,0.446978,0.376203,0.298351,0.441889]),
+        H298 = (1.88849,'kcal/mol','+|-',1.91652),
+        S298 = (1.33731,'cal/(mol*K)','+|-',0.952758),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -15922,7 +16637,7 @@ entry(
 
 entry(
     index = 585,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sCsH)_335",
+    label = "4ring-Cs(BrCsH)-Cs(BrCsH)_335",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -15952,7 +16667,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)C(Br)C1Br smiles:Br[C]1C(Br)C(Br)C1Br H298:59.
 
 entry(
     index = 586,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)_429",
+    label = "4ring-Cs(ClCsH)-Cs(ClCsH)_429",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -15984,7 +16699,7 @@ library:CHOCl_G4 label:ClC1[CH]CC1Cl smiles:ClC1[CH]CC1Cl H298:35.14 kcal/mol
 
 entry(
     index = 587,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sCsH)_619",
+    label = "4ring-Cs(FCsH)-Cs(FCsH)_619",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -16029,8 +16744,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.127574,0.0912263,0.0362896,-0.0341575,-0.176313,-0.183191,0.0230737],'cal/(mol*K)','+|-',[0.343111,0.378174,0.402534,0.40028,0.336899,0.267181,0.395723]),
+        H298 = (3.06983,'kcal/mol','+|-',2.12151),
+        S298 = (2.2816,'cal/(mol*K)','+|-',0.851171),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16039,7 +16759,7 @@ entry(
 
 entry(
     index = 589,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)_336",
+    label = "4ring-Cs(BrCsH)-Cs(BrBrCs)_336",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -16069,7 +16789,7 @@ library:CHOBr_G4 label:BrC1[CH]CC1(Br)Br smiles:BrC1[CH]CC1(Br)Br H298:64.35 kca
 
 entry(
     index = 590,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)_473",
+    label = "4ring-Cs(ClCsH)-Cs(ClClCs)_473",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -16099,7 +16819,7 @@ library:CHOCl_G4 label:ClC1[CH]C(Cl)C1(Cl)Cl smiles:ClC1[CH]C(Cl)C1(Cl)Cl H298:2
 
 entry(
     index = 591,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sF1sCs)_616",
+    label = "4ring-Cs(FCsH)-Cs(FFCs)_616",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -16141,8 +16861,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.43744,-2.43815,-2.88651,-2.98685,-2.63362,-2.12055,-1.26409],'cal/(mol*K)','+|-',[1.87944,2.0715,2.20494,2.19259,1.84541,1.46352,2.16763]),
+        H298 = (12.0062,'kcal/mol','+|-',6.09856),
+        S298 = (7.56272,'cal/(mol*K)','+|-',7.24977),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16151,7 +16876,7 @@ entry(
 
 entry(
     index = 593,
-    label = "4ring-Cs(Br1sO2s)-Cd(Br1sCd)",
+    label = "4ring-Cs(BrO2s)-Cd(BrCd)",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,S} {4,D} {5,S}
@@ -16178,7 +16903,7 @@ library:CHOBr_G4 label:Br[C]1OCDC1Br smiles:Br[C]1OC=C1Br H298:64.62 kcal/mol
 
 entry(
     index = 594,
-    label = "4ring-Cs(F1sO2s)-Cd(F1sCd)",
+    label = "4ring-Cs(FO2s)-Cd(FCd)",
     group = 
 """
 1 *2 Cd  u0 p0 c0 {2,S} {4,D} {5,S}
@@ -16215,8 +16940,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.296375,-0.380696,-0.468386,-0.491528,-0.412954,-0.277262,0.0370842],'cal/(mol*K)','+|-',[0.801396,0.883293,0.940189,0.934925,0.786888,0.624048,0.924279]),
+        H298 = (1.7054,'kcal/mol','+|-',8.55992),
+        S298 = (2.68382,'cal/(mol*K)','+|-',1.95924),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16225,7 +16955,7 @@ entry(
 
 entry(
     index = 596,
-    label = "4ring-Cd(Br1sCs)=Cd(Br1sO2s)_341",
+    label = "4ring-Cd(BrCs)=Cd(BrO2s)_341",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -16252,7 +16982,7 @@ library:CHOBr_G4 label:Br[C]1OC(Br)DC1Br smiles:Br[C]1OC(Br)=C1Br H298:69.24 kca
 
 entry(
     index = 597,
-    label = "4ring-Cd(Cl1sCs)=Cd(Cl1sO2s)",
+    label = "4ring-Cd(ClCs)=Cd(ClO2s)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -16279,7 +17009,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)O[CH]1 smiles:ClC1=C(Cl)O[CH]1 H298:41.29 kcal/
 
 entry(
     index = 598,
-    label = "4ring-Cd(F1sCs)=Cd(F1sO2s)",
+    label = "4ring-Cd(FCs)=Cd(FO2s)",
     group = 
 """
 1 *1 Cd  u0 p0 c0 {2,D} {4,S} {5,S}
@@ -16316,8 +17046,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.017541,-0.0452679,-0.140424,-0.2213,-0.293932,-0.28721,-0.176605],'cal/(mol*K)','+|-',[0.566672,0.624582,0.664814,0.661091,0.556414,0.441269,0.653564]),
+        H298 = (0.621673,'kcal/mol','+|-',1.24772),
+        S298 = (1.28248,'cal/(mol*K)','+|-',1.07351),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16326,7 +17061,7 @@ entry(
 
 entry(
     index = 600,
-    label = "4ring-Cd(Br1sO2s)=Cd(Br1sCs)_343",
+    label = "4ring-Cd(BrO2s)=Cd(BrCs)_343",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -16354,7 +17089,7 @@ library:CHOBr_G4 label:BrC1DC(Br)OC1 smiles:BrC1=C(Br)OC1 H298:22.60 kcal/mol
 
 entry(
     index = 601,
-    label = "4ring-Cd(Cl1sO2s)=Cd(Cl1sCs)_448",
+    label = "4ring-Cd(ClO2s)=Cd(ClCs)_448",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,D} {4,S} {5,S}
@@ -16394,8 +17129,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.701261,-0.728494,-0.832889,-0.921883,-0.887866,-0.78636,-1.45653],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.715761,'kcal/mol','+|-',1.56202),
+        S298 = (2.4315,'cal/(mol*K)','+|-',2.16929),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16404,7 +17144,7 @@ entry(
 
 entry(
     index = 603,
-    label = "4ring-Cs(Br1sO2sH)-Cs(Br1sCsH)",
+    label = "4ring-Cs(BrO2sH)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -16434,7 +17174,7 @@ library:CHOBr_G4 label:BrC1OC(Br)(Br)C1Br smiles:BrC1OC(Br)(Br)C1Br H298:-4.23 k
 
 entry(
     index = 604,
-    label = "4ring-Cs(Cl1sO2sH)-Cs(Cl1sCsH)_477",
+    label = "4ring-Cs(ClO2sH)-Cs(ClCsH)_477",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -16464,7 +17204,7 @@ library:CHOCl_G4 label:ClC1OC(Cl)C1Cl smiles:ClC1OC(Cl)C1Cl H298:-46.96 kcal/mol
 
 entry(
     index = 605,
-    label = "4ring-Cs(F1sO2sH)-Cs(F1sCsH)_643",
+    label = "4ring-Cs(FO2sH)-Cs(FCsH)_643",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -16506,8 +17246,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.512789,-0.438589,-0.381922,-0.387017,-0.325184,-0.229466,0.224361],'cal/(mol*K)','+|-',[0.540476,0.595708,0.63408,0.63053,0.530691,0.420869,0.62335]),
+        H298 = (0.426872,'kcal/mol','+|-',0.289005),
+        S298 = (1.82293,'cal/(mol*K)','+|-',0.923364),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16516,7 +17261,7 @@ entry(
 
 entry(
     index = 607,
-    label = "4ring-Cs(Br1sCdH)-Cs(Br1sCdH)_348",
+    label = "4ring-Cs(BrCdH)-Cs(BrCdH)_348",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -16545,7 +17290,7 @@ library:CHOBr_G4 label:BrC1CDCC1Br smiles:BrC1C=CC1Br H298:43.83 kcal/mol
 
 entry(
     index = 608,
-    label = "4ring-Cs(Cl1sCdH)-Cs(Cl1sCdH)_490",
+    label = "4ring-Cs(ClCdH)-Cs(ClCdH)_490",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -16574,7 +17319,7 @@ library:CHOCl_G4 label:ClC1CDCC1Cl smiles:ClC1C=CC1Cl H298:21.58 kcal/mol
 
 entry(
     index = 609,
-    label = "4ring-Cs(F1sCdH)-Cs(F1sCdH)",
+    label = "4ring-Cs(FCdH)-Cs(FCdH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -16614,8 +17359,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.851102,-1.38618,-1.73214,-1.7343,-1.29094,-0.775357,-0.0717988],'cal/(mol*K)','+|-',[1.76943,1.95026,2.07588,2.06426,1.7374,1.37786,2.04075]),
+        H298 = (34.8171,'kcal/mol','+|-',7.61087),
+        S298 = (4.1238,'cal/(mol*K)','+|-',5.83934),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16624,7 +17374,7 @@ entry(
 
 entry(
     index = 611,
-    label = "4ring-Cs(Br1sBr1sO2s)-Cd(Br1sCd)_349",
+    label = "4ring-Cs(BrBrO2s)-Cd(BrCd)_349",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -16645,7 +17395,7 @@ entry(
 
 entry(
     index = 612,
-    label = "4ring-Cs(F1sF1sO2s)-Cd(F1sCd)_641",
+    label = "4ring-Cs(FFO2s)-Cd(FCd)_641",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -16682,8 +17432,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.531866,0.661588,0.696359,0.521854,-0.0203362,-0.183726,-0.190826],'cal/(mol*K)','+|-',[0.69403,0.764955,0.814228,0.80967,0.681466,0.540443,0.800451]),
+        H298 = (-2.76992,'kcal/mol','+|-',8.72321),
+        S298 = (-2.38183,'cal/(mol*K)','+|-',0.240636),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16692,7 +17447,7 @@ entry(
 
 entry(
     index = 614,
-    label = "4ring-Cd(Br1sO2s)=Cd(Br1sO2s)",
+    label = "4ring-Cd(BrO2s)=Cd(BrO2s)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {5,S}
@@ -16718,7 +17473,7 @@ library:CHOBr_G4 label:BrC1DC(Br)OO1 smiles:BrC1=C(Br)OO1 H298:47.16 kcal/mol
 
 entry(
     index = 615,
-    label = "4ring-Cd(Cl1sO2s)=Cd(Cl1sO2s)",
+    label = "4ring-Cd(ClO2s)=Cd(ClO2s)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {5,S}
@@ -16744,7 +17499,7 @@ library:CHOCl_G4 label:ClC1DC(Cl)OO1 smiles:ClC1=C(Cl)OO1 H298:23.62 kcal/mol
 
 entry(
     index = 616,
-    label = "4ring-Cd(F1sO2s)=Cd(F1sO2s)",
+    label = "4ring-Cd(FO2s)=Cd(FO2s)",
     group = 
 """
 1 *1 Cd  u0 p0 c0 {2,D} {3,S} {5,S}
@@ -16782,8 +17537,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0529896,0.0482057,0.0235768,-0.0200362,-0.114785,-0.107829,0.0290247],'cal/(mol*K)','+|-',[0.383139,0.422293,0.449495,0.446978,0.376203,0.298351,0.441889]),
+        H298 = (1.88849,'kcal/mol','+|-',1.91652),
+        S298 = (1.33731,'cal/(mol*K)','+|-',0.952758),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16792,7 +17552,7 @@ entry(
 
 entry(
     index = 618,
-    label = "4ring-Cs(Br1sCsH)-Cs(Br1sCsH)_354",
+    label = "4ring-Cs(BrCsH)-Cs(BrCsH)_354",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -16822,7 +17582,7 @@ library:CHOBr_G4 label:Br[C]1C(Br)C(Br)C1Br smiles:Br[C]1C(Br)C(Br)C1Br H298:59.
 
 entry(
     index = 619,
-    label = "4ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)_422",
+    label = "4ring-Cs(ClCsH)-Cs(ClCsH)_422",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -16854,7 +17614,7 @@ library:CHOCl_G4 label:ClC1[CH]CC1Cl smiles:ClC1[CH]CC1Cl H298:35.14 kcal/mol
 
 entry(
     index = 620,
-    label = "4ring-Cs(F1sCsH)-Cs(F1sCsH)",
+    label = "4ring-Cs(FCsH)-Cs(FCsH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -16897,8 +17657,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.151993,0.0715164,0.378169,0.360705,0.164287,0.0795212,0.310843],'cal/(mol*K)','+|-',[0.75449,0.831594,0.885159,0.880203,0.740831,0.587523,0.870181]),
+        H298 = (-2.66744,'kcal/mol','+|-',1.29757),
+        S298 = (-0.974195,'cal/(mol*K)','+|-',1.44684),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16907,7 +17672,7 @@ entry(
 
 entry(
     index = 622,
-    label = "4ring-Cd(Br1sCd)-Cd(Br1sCd)_356",
+    label = "4ring-Cd(BrCd)-Cd(BrCd)_356",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,S} {3,D} {5,S}
@@ -16933,7 +17698,7 @@ library:CHOBr_G4 label:BrC1D[C]C(Br)DC1Br smiles:BrC1=[C]C(Br)=C1Br H298:164.27 
 
 entry(
     index = 623,
-    label = "4ring-Cd(Cl1sCd)-Cd(Cl1sCd)_487",
+    label = "4ring-Cd(ClCd)-Cd(ClCd)_487",
     group = 
 """
 1 *2 Cd   u0 p0 c0 {2,S} {3,D} {5,S}
@@ -16969,8 +17734,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.151993,0.0715164,0.378169,0.360705,0.164287,0.0795212,0.310843],'cal/(mol*K)','+|-',[0.75449,0.831594,0.885159,0.880203,0.740831,0.587523,0.870181]),
+        H298 = (-2.66744,'kcal/mol','+|-',1.29757),
+        S298 = (-0.974195,'cal/(mol*K)','+|-',1.44684),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -16979,7 +17749,7 @@ entry(
 
 entry(
     index = 625,
-    label = "4ring-Cd(Br1sCd)=Cd(Br1sCd)_357",
+    label = "4ring-Cd(BrCd)=Cd(BrCd)_357",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {5,S}
@@ -17005,7 +17775,7 @@ library:CHOBr_G4 label:BrC1D[C]C(Br)DC1Br smiles:BrC1=[C]C(Br)=C1Br H298:164.27 
 
 entry(
     index = 626,
-    label = "4ring-Cd(Cl1sCd)=Cd(Cl1sCd)_488",
+    label = "4ring-Cd(ClCd)=Cd(ClCd)_488",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,D} {3,S} {5,S}
@@ -17042,8 +17812,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.826444,0.60199,0.359411,0.165658,-0.0935827,-0.20444,-0.194327],'cal/(mol*K)','+|-',[0.701074,0.772718,0.822491,0.817886,0.688382,0.545927,0.808574]),
+        H298 = (0.854295,'kcal/mol','+|-',3.63641),
+        S298 = (5.7582,'cal/(mol*K)','+|-',5.56899),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17052,7 +17827,7 @@ entry(
 
 entry(
     index = 628,
-    label = "4ring-Cs(Br1sBr1sCs)-Cd(Br1sCd)_358",
+    label = "4ring-Cs(BrBrCs)-Cd(BrCd)_358",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17080,7 +17855,7 @@ library:CHOBr_G4 label:BrC1DC(Br)C(Br)(Br)[CH]1 smiles:BrC1=C(Br)C(Br)(Br)[CH]1 
 
 entry(
     index = 629,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cd(Cl1sCd)_460",
+    label = "4ring-Cs(ClClCs)-Cd(ClCd)_460",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17108,7 +17883,7 @@ library:CHOCl_G4 label:ClC1DC[CH]C1(Cl)Cl smiles:ClC1=C[CH]C1(Cl)Cl H298:53.34 k
 
 entry(
     index = 630,
-    label = "4ring-Cs(F1sF1sCs)-Cd(F1sCd)",
+    label = "4ring-Cs(FFCs)-Cd(FCd)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17149,8 +17924,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.52849,-0.501197,-0.606843,-0.718125,-0.705507,-0.623323,-1.35349],'cal/(mol*K)','+|-',[0.287356,0.316721,0.337122,0.335235,0.282154,0.223764,0.331418]),
+        H298 = (0.74063,'kcal/mol','+|-',0.984714),
+        S298 = (3.07751,'cal/(mol*K)','+|-',1.3418),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17159,7 +17939,7 @@ entry(
 
 entry(
     index = 632,
-    label = "4ring-Cs(Br1sBr1sO2s)-Cs(Br1sCsH)",
+    label = "4ring-Cs(BrBrO2s)-Cs(BrCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -17189,7 +17969,7 @@ library:CHOBr_G4 label:BrC1OC(Br)(Br)C1Br smiles:BrC1OC(Br)(Br)C1Br H298:-4.23 k
 
 entry(
     index = 633,
-    label = "4ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sCsH)_436",
+    label = "4ring-Cs(ClClO2s)-Cs(ClCsH)_436",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -17219,7 +17999,7 @@ library:CHOCl_G4 label:ClC1OC(Cl)(Cl)C1Cl smiles:ClC1OC(Cl)(Cl)C1Cl H298:-52.43 
 
 entry(
     index = 634,
-    label = "4ring-Cs(F1sF1sO2s)-Cs(F1sCsH)",
+    label = "4ring-Cs(FFO2s)-Cs(FCsH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -17260,8 +18040,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.483679,-0.303725,-0.174044,-0.100208,-0.0484872,0.0085535,0.235397],'cal/(mol*K)','+|-',[1.65744,1.82682,1.94449,1.9336,1.62744,1.29065,1.91159]),
+        H298 = (3.89565,'kcal/mol','+|-',10.293),
+        S298 = (2.89414,'cal/(mol*K)','+|-',1.92083),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17270,7 +18055,7 @@ entry(
 
 entry(
     index = 636,
-    label = "4ring-Cd(Br1sCd)-Cs(Br1sBr1sCs)_362",
+    label = "4ring-Cd(BrCd)-Cs(BrBrCs)_362",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17297,7 +18082,7 @@ library:CHOBr_G4 label:BrC1D[C]CC1(Br)Br smiles:BrC1=[C]CC1(Br)Br H298:109.67 kc
 
 entry(
     index = 637,
-    label = "4ring-Cd(F1sCd)-Cs(F1sF1sCs)",
+    label = "4ring-Cd(FCd)-Cs(FFCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17336,8 +18121,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.504305,-0.373472,-0.396487,-0.465779,-0.480876,-0.446641,-1.23798],'cal/(mol*K)','+|-',[0.422976,0.466201,0.496231,0.493453,0.415319,0.329372,0.487834]),
+        H298 = (1.88875,'kcal/mol','+|-',1.55656),
+        S298 = (1.98172,'cal/(mol*K)','+|-',0.525898),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17346,7 +18136,7 @@ entry(
 
 entry(
     index = 639,
-    label = "4ring-Cs(Br1sO2sH)-Cs(Br1sCs)",
+    label = "4ring-Cs(BrO2sH)-Cs(BrCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17375,7 +18165,7 @@ library:CHOBr_G4 label:Br[C]1COC1Br smiles:Br[C]1COC1Br H298:31.04 kcal/mol
 
 entry(
     index = 640,
-    label = "4ring-Cs(Cl1sO2sH)-Cs(Cl1sCs)",
+    label = "4ring-Cs(ClO2sH)-Cs(ClCs)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17404,7 +18194,7 @@ library:CHOCl_G4 label:Cl[C]1C(Cl)OC1(Cl)Cl smiles:Cl[C]1C(Cl)OC1(Cl)Cl H298:-8.
 
 entry(
     index = 641,
-    label = "4ring-Cs(F1sO2sH)-Cs(F1sCs)",
+    label = "4ring-Cs(FO2sH)-Cs(FCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17444,8 +18234,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.97648,-1.54433,-1.89783,-2.05412,-1.83704,-1.39554,-0.61593],'cal/(mol*K)','+|-',[1.79197,1.9751,2.10232,2.09055,1.75953,1.39541,2.06675]),
+        H298 = (29.0295,'kcal/mol','+|-',6.77589),
+        S298 = (6.41849,'cal/(mol*K)','+|-',1.19214),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17454,7 +18249,7 @@ entry(
 
 entry(
     index = 643,
-    label = "4ring-Cs(Br1sO2sH)-Cd(Br1sCd)_364",
+    label = "4ring-Cs(BrO2sH)-Cd(BrCd)_364",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17481,7 +18276,7 @@ library:CHOBr_G4 label:BrC1D[C]OC1Br smiles:BrC1=[C]OC1Br H298:95.08 kcal/mol
 
 entry(
     index = 644,
-    label = "4ring-Cs(Cl1sO2sH)-Cd(Cl1sCd)_500",
+    label = "4ring-Cs(ClO2sH)-Cd(ClCd)_500",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17508,7 +18303,7 @@ library:CHOCl_G4 label:ClC1D[C]OC1Cl smiles:ClC1=[C]OC1Cl H298:71.26 kcal/mol
 
 entry(
     index = 645,
-    label = "4ring-Cs(F1sO2sH)-Cd(F1sCd)_649",
+    label = "4ring-Cs(FO2sH)-Cd(FCd)_649",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17545,8 +18340,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.40186,-2.48551,-2.981,-3.06554,-2.66103,-2.12148,-1.26961],'cal/(mol*K)','+|-',[1.85796,2.04783,2.17974,2.16753,1.82432,1.4468,2.14285]),
+        H298 = (13.0087,'kcal/mol','+|-',8.93391),
+        S298 = (7.82252,'cal/(mol*K)','+|-',7.98459),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17555,7 +18355,7 @@ entry(
 
 entry(
     index = 647,
-    label = "4ring-Cd(Cl1sCd)-Cs(Cl1sO2s)",
+    label = "4ring-Cd(ClCd)-Cs(ClO2s)",
     group = 
 """
 1 *1 Cd   u0 p0 c0 {2,S} {4,D} {5,S}
@@ -17582,7 +18382,7 @@ library:CHOCl_G4 label:Cl[C]1OCDC1Cl smiles:Cl[C]1OC=C1Cl H298:41.29 kcal/mol
 
 entry(
     index = 648,
-    label = "4ring-Cd(F1sCd)-Cs(F1sO2s)",
+    label = "4ring-Cd(FCd)-Cs(FO2s)",
     group = 
 """
 1 *1 Cd  u0 p0 c0 {2,S} {4,D} {5,S}
@@ -17621,8 +18421,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.16011,-1.43759,-1.6774,-1.74473,-1.4912,-1.19832,-2.05559],'cal/(mol*K)','+|-',[1.50898,1.66319,1.77032,1.76041,1.48166,1.17504,1.74036]),
+        H298 = (3.14364,'kcal/mol','+|-',0.525126),
+        S298 = (5.34668,'cal/(mol*K)','+|-',6.81126),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17631,7 +18436,7 @@ entry(
 
 entry(
     index = 650,
-    label = "4ring-Cs(Cl1sO2sH)-Cs(Cl1sCl1sCs)",
+    label = "4ring-Cs(ClO2sH)-Cs(ClClCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -17659,7 +18464,7 @@ library:CHOCl_G4 label:ClC1O[CH]C1(Cl)Cl smiles:ClC1O[CH]C1(Cl)Cl H298:1.83 kcal
 
 entry(
     index = 651,
-    label = "4ring-Cs(F1sO2sH)-Cs(F1sF1sCs)_644",
+    label = "4ring-Cs(FO2sH)-Cs(FFCs)_644",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -17700,8 +18505,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.515695,0.382445,0.209308,0.0744487,-0.206296,-0.23356,0.170837],'cal/(mol*K)','+|-',[1.71045,1.88525,2.00668,1.99545,1.67948,1.33193,1.97272]),
+        H298 = (6.82867,'kcal/mol','+|-',3.12708),
+        S298 = (4.21734,'cal/(mol*K)','+|-',5.94835),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17710,7 +18520,7 @@ entry(
 
 entry(
     index = 653,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sCs)",
+    label = "4ring-Cs(ClClCs)-Cs(ClClCs)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17738,7 +18548,7 @@ library:CHOCl_G4 label:ClC1(Cl)[CH]CC1(Cl)Cl smiles:ClC1(Cl)[CH]CC1(Cl)Cl H298:2
 
 entry(
     index = 654,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)",
+    label = "4ring-Cs(FFCs)-Cs(FFCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17780,8 +18590,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.01031,-0.583663,-0.318665,-0.26114,-0.242151,-0.156364,0.645042],'cal/(mol*K)','+|-',[1.76852,1.94925,2.0748,2.06319,1.7365,1.37715,2.0397]),
+        H298 = (2.18825,'kcal/mol','+|-',7.60693),
+        S298 = (3.30825,'cal/(mol*K)','+|-',5.83631),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17790,7 +18605,7 @@ entry(
 
 entry(
     index = 656,
-    label = "4ring-Cs(Cl1sCdH)-Cs(Cl1sCl1sCd)",
+    label = "4ring-Cs(ClCdH)-Cs(ClClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -17830,8 +18645,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.623656,-0.264879,-0.0465525,-0.0102445,-0.005686,0.0383725,0.574782],'cal/(mol*K)','+|-',[1.76852,1.94925,2.0748,2.06319,1.7365,1.37715,2.0397]),
+        H298 = (1.72331,'kcal/mol','+|-',0.0421011),
+        S298 = (2.29869,'cal/(mol*K)','+|-',3.15879),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17840,7 +18660,7 @@ entry(
 
 entry(
     index = 658,
-    label = "4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCdH)",
+    label = "4ring-Cs(ClClCd)-Cs(ClCdH)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17868,7 +18688,7 @@ library:CHOCl_G4 label:ClC1[C]DCC1(Cl)Cl smiles:ClC1[C]=CC1(Cl)Cl H298:78.07 kca
 
 entry(
     index = 659,
-    label = "4ring-Cs(F1sF1sCd)-Cs(F1sCdH)_606",
+    label = "4ring-Cs(FFCd)-Cs(FCdH)_606",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -17908,8 +18728,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.00321,-1.0348,-1.20848,-1.24989,-0.962433,-0.703392,-1.76462],'cal/(mol*K)','+|-',[0.619372,0.682668,0.72664,0.722572,0.608159,0.482306,0.714345]),
+        H298 = (3.23384,'kcal/mol','+|-',5.50734),
+        S298 = (4.42702,'cal/(mol*K)','+|-',2.54652),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17918,7 +18743,7 @@ entry(
 
 entry(
     index = 661,
-    label = "4ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sCsH)",
+    label = "4ring-Cs(ClClO2s)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -17947,7 +18772,7 @@ library:CHOCl_G4 label:ClC1[CH]OC1(Cl)Cl smiles:ClC1[CH]OC1(Cl)Cl H298:1.00 kcal
 
 entry(
     index = 662,
-    label = "4ring-Cs(F1sF1sO2s)-Cs(F1sCsH)_636",
+    label = "4ring-Cs(FFO2s)-Cs(FCsH)_636",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -17988,8 +18813,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.108237,0.108357,0.0708935,0.0402431,-0.0594828,-0.062509,0.140204],'cal/(mol*K)','+|-',[0.477072,0.525826,0.559696,0.556562,0.468436,0.371497,0.550225]),
+        H298 = (3.4844,'kcal/mol','+|-',2.8948),
+        S298 = (2.06952,'cal/(mol*K)','+|-',1.28705),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -17998,7 +18828,7 @@ entry(
 
 entry(
     index = 664,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)_428",
+    label = "4ring-Cs(ClClCs)-Cs(ClCsH)_428",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -18028,7 +18858,7 @@ library:CHOCl_G4 label:ClC1C[CH]C1(Cl)Cl smiles:ClC1C[CH]C1(Cl)Cl H298:29.23 kca
 
 entry(
     index = 665,
-    label = "4ring-Cs(F1sF1sCs)-Cs(F1sCsH)_579",
+    label = "4ring-Cs(FFCs)-Cs(FCsH)_579",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -18072,8 +18902,13 @@ entry(
 7    H    u0 p0 c0 {1,S}
 8    H    u0 p0 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.55804,-1.65953,-1.91504,-2.07404,-1.79554,-1.43132,-2.73351],'cal/(mol*K)','+|-',[1.23874,1.36533,1.45328,1.44514,1.21632,0.964612,1.42869]),
+        H298 = (2.71391,'kcal/mol','+|-',3.14749),
+        S298 = (6.33726,'cal/(mol*K)','+|-',1.71755),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18082,7 +18917,7 @@ entry(
 
 entry(
     index = 667,
-    label = "4ring-Cs(Cl1sO2sH)-Cs(Cl1sCsH)",
+    label = "4ring-Cs(ClO2sH)-Cs(ClCsH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -18111,7 +18946,7 @@ library:CHOCl_G4 label:Cl[C]1OC(Cl)C1Cl smiles:Cl[C]1OC(Cl)C1Cl H298:-4.11 kcal/
 
 entry(
     index = 668,
-    label = "4ring-Cs(F1sO2sH)-Cs(F1sCsH)",
+    label = "4ring-Cs(FO2sH)-Cs(FCsH)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -18151,8 +18986,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.37635,-2.40548,-2.89789,-2.96482,-2.51131,-1.92081,-0.965956],'cal/(mol*K)','+|-',[1.09736,1.2095,1.28741,1.2802,1.07749,0.854514,1.26562]),
+        H298 = (12.4631,'kcal/mol','+|-',3.83365),
+        S298 = (7.43739,'cal/(mol*K)','+|-',8.8086),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18161,7 +19001,7 @@ entry(
 
 entry(
     index = 670,
-    label = "4ring-Cd(Cl1sCd)-Cs(Cl1sCl1sO2s)",
+    label = "4ring-Cd(ClCd)-Cs(ClClO2s)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18189,7 +19029,7 @@ library:CHOCl_G4 label:ClC1DCOC1(Cl)Cl smiles:ClC1=COC1(Cl)Cl H298:-5.12 kcal/mo
 
 entry(
     index = 671,
-    label = "4ring-Cd(F1sCd)-Cs(F1sF1sO2s)",
+    label = "4ring-Cd(FCd)-Cs(FFO2s)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18228,8 +19068,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.68699,0.456533,0.243095,-0.0298391,-0.374368,-0.528116,-0.0553107],'cal/(mol*K)','+|-',[1.76852,1.94925,2.0748,2.06319,1.7365,1.37715,2.0397]),
+        H298 = (3.20044,'kcal/mol','+|-',7.60693),
+        S298 = (5.77002,'cal/(mol*K)','+|-',5.83631),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18238,7 +19083,7 @@ entry(
 
 entry(
     index = 673,
-    label = "4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCd)",
+    label = "4ring-Cs(ClClCd)-Cs(ClCd)",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18276,8 +19121,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.234238,-0.0921238,0.0261451,0.102752,0.102794,0.0774407,0.147096],'cal/(mol*K)','+|-',[0.806323,0.888723,0.945969,0.940672,0.791726,0.627885,0.929962]),
+        H298 = (1.0428,'kcal/mol','+|-',3.46824),
+        S298 = (0.999917,'cal/(mol*K)','+|-',2.66096),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18286,7 +19136,7 @@ entry(
 
 entry(
     index = 675,
-    label = "4ring-Cs(Cl1sCsH)-Cd(Cl1sCd)_472",
+    label = "4ring-Cs(ClCsH)-Cd(ClCd)_472",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18325,8 +19175,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.741204,-0.600809,-0.529903,-0.544048,-0.504301,-0.364293,0.609958],'cal/(mol*K)','+|-',[1.75872,1.93845,2.06331,2.05176,1.72688,1.36952,2.0284]),
+        H298 = (3.35113,'kcal/mol','+|-',7.56479),
+        S298 = (3.04652,'cal/(mol*K)','+|-',5.80398),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18335,7 +19190,7 @@ entry(
 
 entry(
     index = 677,
-    label = "4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCl1sCd)_475",
+    label = "4ring-Cs(ClClCd)-Cs(ClClCd)_475",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18374,8 +19229,13 @@ entry(
 6    H    u0 p0 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.97945,-2.24088,-1.76048,-2.06934,-1.93294,-1.6444,-1.08711],'cal/(mol*K)','+|-',[1.96301,2.16362,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (3.90332,'kcal/mol','+|-',8.4435),
+        S298 = (6.11382,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18384,7 +19244,7 @@ entry(
 
 entry(
     index = 679,
-    label = "4ring-Cs(Cl1sO2s)-Cs(Cl1sO2sH)",
+    label = "4ring-Cs(ClO2s)-Cs(ClO2sH)",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18422,8 +19282,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.430554,-0.21586,-0.144109,-0.120997,-0.129775,-0.0864394,0.27069],'cal/(mol*K)','+|-',[1.65495,1.82407,1.94157,1.9307,1.62499,1.28871,1.90872]),
+        H298 = (1.6945,'kcal/mol','+|-',7.11844),
+        S298 = (2.98537,'cal/(mol*K)','+|-',5.46153),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18432,7 +19297,7 @@ entry(
 
 entry(
     index = 681,
-    label = "4ring-Cs(Cl1sCl1sCs)-Cd(Cl1sCd)_495",
+    label = "4ring-Cs(ClClCs)-Cd(ClCd)_495",
     group = 
 """
 1 *1 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18470,8 +19335,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.518945,-1.17562,-1.68459,-1.85643,-1.68352,-1.30373,-0.617699],'cal/(mol*K)','+|-',[1.76943,1.95026,2.07588,2.06426,1.7374,1.37786,2.04075]),
+        H298 = (27.3522,'kcal/mol','+|-',7.61087),
+        S298 = (6.28379,'cal/(mol*K)','+|-',5.83934),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18480,7 +19350,7 @@ entry(
 
 entry(
     index = 683,
-    label = "4ring-Cd(Cl1sCd)-Cs(Cl1sCl1sO2s)_499",
+    label = "4ring-Cd(ClCd)-Cs(ClClO2s)_499",
     group = 
 """
 1 *2 Cs   u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18518,8 +19388,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.366658,-0.0664933,-0.0291642,-0.121776,-0.139168,-0.102402,-0.944025],'cal/(mol*K)','+|-',[0.406383,0.447912,0.476763,0.474094,0.399026,0.316451,0.468696]),
+        H298 = (2.73203,'kcal/mol','+|-',1.74797),
+        S298 = (1.29151,'cal/(mol*K)','+|-',1.34111),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18528,7 +19403,7 @@ entry(
 
 entry(
     index = 685,
-    label = "4ring-Cs(F1sF1sO2s)-Cs(F1sCs)",
+    label = "4ring-Cs(FFO2s)-Cs(FCs)",
     group = 
 """
 1 *1 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18569,8 +19444,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.973026,-0.424227,-0.108082,-0.0361404,0.147553,0.357051,1.21331],'cal/(mol*K)','+|-',[1.56528,1.72524,1.83637,1.82608,1.53694,1.21888,1.80529]),
+        H298 = (6.60619,'kcal/mol','+|-',6.73273),
+        S298 = (2.36247,'cal/(mol*K)','+|-',5.1656),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18579,7 +19459,7 @@ entry(
 
 entry(
     index = 687,
-    label = "4ring-Cs(F1sF1sCd)-Cs(F1sF1sCd)",
+    label = "4ring-Cs(FFCd)-Cs(FFCd)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18619,8 +19499,13 @@ entry(
 6    Val7 u0 p3 c0 {1,S}
 7    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.00597,-0.87435,-0.337387,-0.604055,-0.487248,-0.321,-0.179995],'cal/(mol*K)','+|-',[1.96301,2.16361,2.30298,2.29009,1.92747,1.5286,2.26401]),
+        H298 = (8.67447,'kcal/mol','+|-',8.4435),
+        S298 = (6.19108,'cal/(mol*K)','+|-',6.47816),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18629,7 +19514,7 @@ entry(
 
 entry(
     index = 689,
-    label = "4ring-Cs(F1sO2s)-Cs(F1sF1sO2s)",
+    label = "4ring-Cs(FO2s)-Cs(FFO2s)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18668,8 +19553,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.4906,-0.460541,-0.47364,-0.543159,-0.454335,-0.325347,-0.680903],'cal/(mol*K)','+|-',[1.17508,1.29516,1.37859,1.37087,1.1538,0.915034,1.35526]),
+        H298 = (4.15211,'kcal/mol','+|-',5.05436),
+        S298 = (2.69623,'cal/(mol*K)','+|-',3.87789),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18678,7 +19568,7 @@ entry(
 
 entry(
     index = 691,
-    label = "4ring-Cs(F1sF1sO2s)-Cs(F1sF1sCs)",
+    label = "4ring-Cs(FFO2s)-Cs(FFCs)",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -18718,8 +19608,13 @@ entry(
 7    Val7 u0 p3 c0 {2,S}
 8    H    u0 p0 c0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.822086,-0.207702,0.183284,0.249799,0.309164,0.376533,0.990252],'cal/(mol*K)','+|-',[1.47109,1.62143,1.72587,1.71621,1.44446,1.14554,1.69667]),
+        H298 = (3.21777,'kcal/mol','+|-',6.32762),
+        S298 = (2.50647,'cal/(mol*K)','+|-',4.85478),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18728,7 +19623,7 @@ entry(
 
 entry(
     index = 693,
-    label = "4ring-Cs(F1sF1sCd)-Cs(F1sCdH)_632",
+    label = "4ring-Cs(FFCd)-Cs(FCdH)_632",
     group = 
 """
 1 *2 Cs  u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -18767,8 +19662,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.265723,-0.313904,-0.174731,-0.322853,-0.592547,-0.620139,-0.0381819],'cal/(mol*K)','+|-',[0.895989,0.987552,1.05116,1.04528,0.879768,0.697708,1.03338]),
+        H298 = (3.13569,'kcal/mol','+|-',3.85392),
+        S298 = (0.533865,'cal/(mol*K)','+|-',2.95687),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18777,7 +19677,7 @@ entry(
 
 entry(
     index = 695,
-    label = "4ring-Cd(F1sCd)=Cd(F1sCd)_638",
+    label = "4ring-Cd(FCd)=Cd(FCd)_638",
     group = 
 """
 1 *2 Cd  u0 p0 c0 {2,D} {3,S} {5,S}
@@ -18813,8 +19713,13 @@ entry(
 5    Val7 u0 p3 c0 {1,S}
 6    Val7 u0 p3 c0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.265723,-0.313904,-0.174731,-0.322853,-0.592547,-0.620139,-0.0381819],'cal/(mol*K)','+|-',[0.895989,0.987552,1.05116,1.04528,0.879768,0.697708,1.03338]),
+        H298 = (3.13569,'kcal/mol','+|-',3.85392),
+        S298 = (0.533865,'cal/(mol*K)','+|-',2.95687),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -18823,7 +19728,7 @@ entry(
 
 entry(
     index = 697,
-    label = "4ring-Cd(F1sCd)-Cd(F1sCd)_639",
+    label = "4ring-Cd(FCd)-Cd(FCd)_639",
     group = 
 """
 1 *1 Cd  u0 p0 c0 {2,S} {3,D} {5,S}
@@ -18929,624 +19834,624 @@ L1: R
     L2: halogen
         L3: halogen-3
             L4: 3ring-Cs(Val7CsH)-Cs(Val7CsCs)
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sCsCs)
-                L5: 3ring-Cs(Cl1sCsH)-Cs(Cl1sCsCs)
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sCsCs)_624
+                L5: 3ring-Cs(BrCsH)-Cs(BrCsCs)
+                L5: 3ring-Cs(ClCsH)-Cs(ClCsCs)
+                L5: 3ring-Cs(FCsH)-Cs(FCsCs)_624
             L4: 3ring-Cs(Val7CsH)-Cs(Val7CsH)
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sCsH)
-                L5: 3ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sCsH)
+                L5: 3ring-Cs(BrCsH)-Cs(BrCsH)
+                L5: 3ring-Cs(ClCsH)-Cs(ClCsH)
+                L5: 3ring-Cs(FCsH)-Cs(FCsH)
             L4: 3ring-Cs(Val7CsCs)-Cs(Val7CsH)
-                L5: 3ring-Cs(Br1sCsCs)-Cs(Br1sCsH)
-                L5: 3ring-Cs(Cl1sCsCs)-Cs(Cl1sCsH)_424
-                L5: 3ring-Cs(F1sCsCs)-Cs(F1sCsH)_607
+                L5: 3ring-Cs(BrCsCs)-Cs(BrCsH)
+                L5: 3ring-Cs(ClCsCs)-Cs(ClCsH)_424
+                L5: 3ring-Cs(FCsCs)-Cs(FCsH)_607
             L4: 3ring-Cs(Val7CdH)-Cd(Val7Cd)
-                L5: 3ring-Cs(Br1sCdH)-Cd(Br1sCd)
-                L5: 3ring-Cs(F1sCdH)-Cd(F1sCd)_612
+                L5: 3ring-Cs(BrCdH)-Cd(BrCd)
+                L5: 3ring-Cs(FCdH)-Cd(FCd)_612
             L4: 3ring-Cd(Val7Cs)=Cd(Val7Cs)
-                L5: 3ring-Cd(Br1sCs)=Cd(Br1sCs)
-                L5: 3ring-Cd(Cl1sCs)=Cd(Cl1sCs)
-                L5: 3ring-Cd(F1sCs)=Cd(F1sCs)
+                L5: 3ring-Cd(BrCs)=Cd(BrCs)
+                L5: 3ring-Cd(ClCs)=Cd(ClCs)
+                L5: 3ring-Cd(FCs)=Cd(FCs)
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7CsH)
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sCsH)
-                L5: 3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)_385
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sCsH)
+                L5: 3ring-Cs(BrBrCs)-Cs(BrCsH)
+                L5: 3ring-Cs(ClClCs)-Cs(ClCsH)_385
+                L5: 3ring-Cs(FFCs)-Cs(FCsH)
             L4: 3ring-Cs(Val7Cs)-Cs(Val7CsH)
-                L5: 3ring-Cs(Br1sCs)-Cs(Br1sCsH)
-                L5: 3ring-Cs(Cl1sCs)-Cs(Cl1sCsH)
-                L5: 3ring-Cs(F1sCs)-Cs(F1sCsH)
+                L5: 3ring-Cs(BrCs)-Cs(BrCsH)
+                L5: 3ring-Cs(ClCs)-Cs(ClCsH)
+                L5: 3ring-Cs(FCs)-Cs(FCsH)
             L4: 3ring-Cs(Val7Cs)-Cs(Val7Val7Cs)
-                L5: 3ring-Cs(Br1sCs)-Cs(Br1sBr1sCs)
-                L5: 3ring-Cs(Cl1sCs)-Cs(Cl1sCl1sCs)
-                L5: 3ring-Cs(F1sCs)-Cs(F1sF1sCs)
+                L5: 3ring-Cs(BrCs)-Cs(BrBrCs)
+                L5: 3ring-Cs(ClCs)-Cs(ClClCs)
+                L5: 3ring-Cs(FCs)-Cs(FFCs)
             L4: 3ring-Cs(Val7CsH)-Cs(Val7Val7Cs)
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)
-                L5: 3ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)_498
+                L5: 3ring-Cs(BrCsH)-Cs(BrBrCs)
+                L5: 3ring-Cs(ClCsH)-Cs(ClClCs)_498
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7CsCs)
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sCsCs)
-                L5: 3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsCs)_471
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sCsCs)_574
+                L5: 3ring-Cs(BrBrCs)-Cs(BrCsCs)
+                L5: 3ring-Cs(ClClCs)-Cs(ClCsCs)_471
+                L5: 3ring-Cs(FFCs)-Cs(FCsCs)_574
             L4: 3ring-Cs(Val7CdH)-Cd(Val7Cd)_61
-                L5: 3ring-Cs(Br1sCdH)-Cd(Br1sCd)_242
-                L5: 3ring-Cs(Cl1sCdH)-Cd(Cl1sCd)
-                L5: 3ring-Cs(F1sCdH)-Cd(F1sCd)
+                L5: 3ring-Cs(BrCdH)-Cd(BrCd)_242
+                L5: 3ring-Cs(ClCdH)-Cd(ClCd)
+                L5: 3ring-Cs(FCdH)-Cd(FCd)
             L4: 3ring-Cs(Val7CdCs)-Cd(Val7Cd)
-                L5: 3ring-Cs(Br1sCdCs)-Cd(Br1sCd)
-                L5: 3ring-Cs(Cl1sCdCs)-Cd(Cl1sCd)
+                L5: 3ring-Cs(BrCdCs)-Cd(BrCd)
+                L5: 3ring-Cs(ClCdCs)-Cd(ClCd)
             L4: 3ring-Cs(Val7COH)-Cs(Val7Val7CO)
-                L5: 3ring-Cs(Br1sCOH)-Cs(Br1sBr1sCO)
-                L5: 3ring-Cs(Cl1sCOH)-Cs(Cl1sCl1sCO)
-                L5: 3ring-Cs(F1sCOH)-Cs(F1sF1sCO)
+                L5: 3ring-Cs(BrCOH)-Cs(BrBrCO)
+                L5: 3ring-Cs(ClCOH)-Cs(ClClCO)
+                L5: 3ring-Cs(FCOH)-Cs(FFCO)
             L4: 3ring-Cs(Val7O2sCd)-Cd(Val7Cd)
-                L5: 3ring-Cs(Br1sO2sCd)-Cd(Br1sCd)
-                L5: 3ring-Cs(Cl1sO2sCd)-Cd(Cl1sCd)_453
+                L5: 3ring-Cs(BrO2sCd)-Cd(BrCd)
+                L5: 3ring-Cs(ClO2sCd)-Cd(ClCd)_453
             L4: 3ring-Cs(Val7Val7O2s)-Cs(Val7Val7O2s)
-                L5: 3ring-Cs(Br1sBr1sO2s)-Cs(Br1sBr1sO2s)
-                L5: 3ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sCl1sO2s)
-                L5: 3ring-Cs(F1sF1sO2s)-Cs(F1sF1sO2s)
+                L5: 3ring-Cs(BrBrO2s)-Cs(BrBrO2s)
+                L5: 3ring-Cs(ClClO2s)-Cs(ClClO2s)
+                L5: 3ring-Cs(FFO2s)-Cs(FFO2s)
             L4: 3ring-Cd(Val7Cd)-Cs(Val7CdH)
-                L5: 3ring-Cd(Br1sCd)-Cs(Br1sCdH)
-                L5: 3ring-Cd(Cl1sCd)-Cs(Cl1sCdH)
-                L5: 3ring-Cd(F1sCd)-Cs(F1sCdH)
+                L5: 3ring-Cd(BrCd)-Cs(BrCdH)
+                L5: 3ring-Cd(ClCd)-Cs(ClCdH)
+                L5: 3ring-Cd(FCd)-Cs(FCdH)
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7Cs)
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sCs)
-                L5: 3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCs)
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sCs)
+                L5: 3ring-Cs(BrBrCs)-Cs(BrCs)
+                L5: 3ring-Cs(ClClCs)-Cs(ClCs)
+                L5: 3ring-Cs(FFCs)-Cs(FCs)
             L4: 3ring-Cs(Val7CsCs)-Cs(Val7Cs)
-                L5: 3ring-Cs(Br1sCsCs)-Cs(Br1sCs)
-                L5: 3ring-Cs(F1sCsCs)-Cs(F1sCs)
+                L5: 3ring-Cs(BrCsCs)-Cs(BrCs)
+                L5: 3ring-Cs(FCsCs)-Cs(FCs)
             L4: 3ring-Cs(Val7CdH)-Cs(Val7CdH)
-                L5: 3ring-Cs(Br1sCdH)-Cs(Br1sCdH)
-                L5: 3ring-Cs(Cl1sCdH)-Cs(Cl1sCdH)
-                L5: 3ring-Cs(F1sCdH)-Cs(F1sCdH)
+                L5: 3ring-Cs(BrCdH)-Cs(BrCdH)
+                L5: 3ring-Cs(ClCdH)-Cs(ClCdH)
+                L5: 3ring-Cs(FCdH)-Cs(FCdH)
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7Val7Cs)
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sCs)
-                L5: 3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sCs)
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)
+                L5: 3ring-Cs(BrBrCs)-Cs(BrBrCs)
+                L5: 3ring-Cs(ClClCs)-Cs(ClClCs)
+                L5: 3ring-Cs(FFCs)-Cs(FFCs)
             L4: 3ring-Cs(Val7CsH)-Cs(Val7CsCs)_72
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sCsCs)_253
-                L5: 3ring-Cs(Cl1sCsH)-Cs(Cl1sCsCs)_417
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sCsCs)
+                L5: 3ring-Cs(BrCsH)-Cs(BrCsCs)_253
+                L5: 3ring-Cs(ClCsH)-Cs(ClCsCs)_417
+                L5: 3ring-Cs(FCsH)-Cs(FCsCs)
             L4: 3ring-Cs(Val7Cs)-Cs(Val7O2sCs)
-                L5: 3ring-Cs(Br1sCs)-Cs(Br1sO2sCs)
-                L5: 3ring-Cs(Cl1sCs)-Cs(Cl1sO2sCs)
-                L5: 3ring-Cs(F1sCs)-Cs(F1sO2sCs)
+                L5: 3ring-Cs(BrCs)-Cs(BrO2sCs)
+                L5: 3ring-Cs(ClCs)-Cs(ClO2sCs)
+                L5: 3ring-Cs(FCs)-Cs(FO2sCs)
             L4: 3ring-Cs(Val7O2sCs)-Cs(Val7CsH)
-                L5: 3ring-Cs(Br1sO2sCs)-Cs(Br1sCsH)
-                L5: 3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCsH)
-                L5: 3ring-Cs(F1sO2sCs)-Cs(F1sCsH)_578
+                L5: 3ring-Cs(BrO2sCs)-Cs(BrCsH)
+                L5: 3ring-Cs(ClO2sCs)-Cs(ClCsH)
+                L5: 3ring-Cs(FO2sCs)-Cs(FCsH)_578
             L4: 3ring-Cd(Val7Cd)-Cs(Val7Val7Cd)
-                L5: 3ring-Cd(Br1sCd)-Cs(Br1sBr1sCd)
-                L5: 3ring-Cd(F1sCd)-Cs(F1sF1sCd)
+                L5: 3ring-Cd(BrCd)-Cs(BrBrCd)
+                L5: 3ring-Cd(FCd)-Cs(FFCd)
             L4: 3ring-Cs(Val7CsH)-Cs(Val7Cs)
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sCs)
-                L5: 3ring-Cs(Cl1sCsH)-Cs(Cl1sCs)
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sCs)
+                L5: 3ring-Cs(BrCsH)-Cs(BrCs)
+                L5: 3ring-Cs(ClCsH)-Cs(ClCs)
+                L5: 3ring-Cs(FCsH)-Cs(FCs)
             L4: 3ring-Cs(Val7Cs)-Cs(Val7CsCs)
-                L5: 3ring-Cs(Br1sCs)-Cs(Br1sCsCs)
-                L5: 3ring-Cs(Cl1sCs)-Cs(Cl1sCsCs)
-                L5: 3ring-Cs(F1sCs)-Cs(F1sCsCs)
+                L5: 3ring-Cs(BrCs)-Cs(BrCsCs)
+                L5: 3ring-Cs(ClCs)-Cs(ClCsCs)
+                L5: 3ring-Cs(FCs)-Cs(FCsCs)
             L4: 3ring-Cs(Val7Val7Cd)-Cs(Val7CdH)
-                L5: 3ring-Cs(Br1sBr1sCd)-Cs(Br1sCdH)
-                L5: 3ring-Cs(F1sF1sCd)-Cs(F1sCdH)
+                L5: 3ring-Cs(BrBrCd)-Cs(BrCdH)
+                L5: 3ring-Cs(FFCd)-Cs(FCdH)
             L4: 3ring-Cs(Val7CsH)-Cs(Val7Val7Cs)_83
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)_264
-                L5: 3ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sF1sCs)
+                L5: 3ring-Cs(BrCsH)-Cs(BrBrCs)_264
+                L5: 3ring-Cs(ClCsH)-Cs(ClClCs)
+                L5: 3ring-Cs(FCsH)-Cs(FFCs)
             L4: 3ring-Cs(Val7CsH)-Cs(Val7CsH)_87
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sCsH)_268
-                L5: 3ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)_390
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sCsH)_575
+                L5: 3ring-Cs(BrCsH)-Cs(BrCsH)_268
+                L5: 3ring-Cs(ClCsH)-Cs(ClCsH)_390
+                L5: 3ring-Cs(FCsH)-Cs(FCsH)_575
             L4: 3ring-Cs(Val7Val7O2s)-Cs(Val7O2s)
-                L5: 3ring-Cs(Br1sBr1sO2s)-Cs(Br1sO2s)
-                L5: 3ring-Cs(F1sF1sO2s)-Cs(F1sO2s)
+                L5: 3ring-Cs(BrBrO2s)-Cs(BrO2s)
+                L5: 3ring-Cs(FFO2s)-Cs(FO2s)
             L4: 3ring-Cd(Val7Cd)-Cs(Val7O2sCd)
-                L5: 3ring-Cd(Br1sCd)-Cs(Br1sO2sCd)
-                L5: 3ring-Cd(F1sCd)-Cs(F1sO2sCd)_642
+                L5: 3ring-Cd(BrCd)-Cs(BrO2sCd)
+                L5: 3ring-Cd(FCd)-Cs(FO2sCd)_642
             L4: 3ring-Cs(Val7Val7O2s)-Cs(Val7O2sCs)
-                L5: 3ring-Cs(Br1sBr1sO2s)-Cs(Br1sO2sCs)
-                L5: 3ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sO2sCs)
-                L5: 3ring-Cs(F1sF1sO2s)-Cs(F1sO2sCs)
+                L5: 3ring-Cs(BrBrO2s)-Cs(BrO2sCs)
+                L5: 3ring-Cs(ClClO2s)-Cs(ClO2sCs)
+                L5: 3ring-Cs(FFO2s)-Cs(FO2sCs)
             L4: 3ring-Cs(Val7O2sO2s)-Cs(Val7O2sH)
-                L5: 3ring-Cs(Br1sO2sO2s)-Cs(Br1sO2sH)
-                L5: 3ring-Cs(Cl1sO2sO2s)-Cs(Cl1sO2sH)
-                L5: 3ring-Cs(F1sO2sO2s)-Cs(F1sO2sH)
+                L5: 3ring-Cs(BrO2sO2s)-Cs(BrO2sH)
+                L5: 3ring-Cs(ClO2sO2s)-Cs(ClO2sH)
+                L5: 3ring-Cs(FO2sO2s)-Cs(FO2sH)
             L4: 3ring-Cs(Val7O2s)-Cs(Val7O2sCs)
-                L5: 3ring-Cs(Br1sO2s)-Cs(Br1sO2sCs)
-                L5: 3ring-Cs(Cl1sO2s)-Cs(Cl1sO2sCs)
-                L5: 3ring-Cs(F1sO2s)-Cs(F1sO2sCs)
+                L5: 3ring-Cs(BrO2s)-Cs(BrO2sCs)
+                L5: 3ring-Cs(ClO2s)-Cs(ClO2sCs)
+                L5: 3ring-Cs(FO2s)-Cs(FO2sCs)
             L4: 3ring-Cs(Val7CsCs)-Cs(Val7CsH)_94
-                L5: 3ring-Cs(Br1sCsCs)-Cs(Br1sCsH)_275
-                L5: 3ring-Cs(Cl1sCsCs)-Cs(Cl1sCsH)_466
-                L5: 3ring-Cs(F1sCsCs)-Cs(F1sCsH)
+                L5: 3ring-Cs(BrCsCs)-Cs(BrCsH)_275
+                L5: 3ring-Cs(ClCsCs)-Cs(ClCsH)_466
+                L5: 3ring-Cs(FCsCs)-Cs(FCsH)
             L4: 3ring-Cs(Val7CsH)-Cs(Val7O2sCs)
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sO2sCs)
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sO2sCs)_645
+                L5: 3ring-Cs(BrCsH)-Cs(BrO2sCs)
+                L5: 3ring-Cs(FCsH)-Cs(FO2sCs)_645
             L4: 3ring-Cd(Val7Cd)-Cs(Val7CsCd)
-                L5: 3ring-Cd(Br1sCd)-Cs(Br1sCsCd)
-                L5: 3ring-Cd(Cl1sCd)-Cs(Cl1sCsCd)
-                L5: 3ring-Cd(F1sCd)-Cs(F1sCsCd)_567
+                L5: 3ring-Cd(BrCd)-Cs(BrCsCd)
+                L5: 3ring-Cd(ClCd)-Cs(ClCsCd)
+                L5: 3ring-Cd(FCd)-Cs(FCsCd)_567
             L4: 3ring-Cd(Val7Cd)=Cd(Val7Cd)
-                L5: 3ring-Cd(Br1sCd)=Cd(Br1sCd)
-                L5: 3ring-Cd(Cl1sCd)=Cd(Cl1sCd)
-                L5: 3ring-Cd(F1sCd)=Cd(F1sCd)
+                L5: 3ring-Cd(BrCd)=Cd(BrCd)
+                L5: 3ring-Cd(ClCd)=Cd(ClCd)
+                L5: 3ring-Cd(FCd)=Cd(FCd)
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7Val7Cs)_104
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sCs)_285
-                L5: 3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sCs)_413
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)_536
+                L5: 3ring-Cs(BrBrCs)-Cs(BrBrCs)_285
+                L5: 3ring-Cs(ClClCs)-Cs(ClClCs)_413
+                L5: 3ring-Cs(FFCs)-Cs(FFCs)_536
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7O2sCs)
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sO2sCs)
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sO2sCs)
+                L5: 3ring-Cs(BrBrCs)-Cs(BrO2sCs)
+                L5: 3ring-Cs(FFCs)-Cs(FO2sCs)
             L4: 3ring-Cs(Val7O2sH)-Cs(Val7O2sCs)
-                L5: 3ring-Cs(Br1sO2sH)-Cs(Br1sO2sCs)
-                L5: 3ring-Cs(Cl1sO2sH)-Cs(Cl1sO2sCs)
-                L5: 3ring-Cs(F1sO2sH)-Cs(F1sO2sCs)
+                L5: 3ring-Cs(BrO2sH)-Cs(BrO2sCs)
+                L5: 3ring-Cs(ClO2sH)-Cs(ClO2sCs)
+                L5: 3ring-Cs(FO2sH)-Cs(FO2sCs)
             L4: 3ring-Cd(Val7CO)=Cd(Val7CO)
-                L5: 3ring-Cd(Br1sCO)=Cd(Br1sCO)
-                L5: 3ring-Cd(Cl1sCO)=Cd(Cl1sCO)
-                L5: 3ring-Cd(F1sCO)=Cd(F1sCO)
+                L5: 3ring-Cd(BrCO)=Cd(BrCO)
+                L5: 3ring-Cd(ClCO)=Cd(ClCO)
+                L5: 3ring-Cd(FCO)=Cd(FCO)
             L4: 3ring-Cs(Val7Cd)-Cd(Val7Cd)
-                L5: 3ring-Cs(Br1sCd)-Cd(Br1sCd)
-                L5: 3ring-Cs(Cl1sCd)-Cd(Cl1sCd)
-                L5: 3ring-Cs(F1sCd)-Cd(F1sCd)
+                L5: 3ring-Cs(BrCd)-Cd(BrCd)
+                L5: 3ring-Cs(ClCd)-Cd(ClCd)
+                L5: 3ring-Cs(FCd)-Cd(FCd)
             L4: 3ring-Cs(Val7O2sCd)-Cd(Val7Cd)_112
-                L5: 3ring-Cs(Br1sO2sCd)-Cd(Br1sCd)_293
-                L5: 3ring-Cs(Cl1sO2sCd)-Cd(Cl1sCd)_470
-                L5: 3ring-Cs(F1sO2sCd)-Cd(F1sCd)
+                L5: 3ring-Cs(BrO2sCd)-Cd(BrCd)_293
+                L5: 3ring-Cs(ClO2sCd)-Cd(ClCd)_470
+                L5: 3ring-Cs(FO2sCd)-Cd(FCd)
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7CsH)_116
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sCsH)_297
-                L5: 3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sCsH)_586
+                L5: 3ring-Cs(BrBrCs)-Cs(BrCsH)_297
+                L5: 3ring-Cs(ClClCs)-Cs(ClCsH)
+                L5: 3ring-Cs(FFCs)-Cs(FCsH)_586
             L4: 3ring-Cs(Val7O2sH)-Cs(Val7O2s)
-                L5: 3ring-Cs(Br1sO2sH)-Cs(Br1sO2s)
-                L5: 3ring-Cs(Cl1sO2sH)-Cs(Cl1sO2s)
-                L5: 3ring-Cs(F1sO2sH)-Cs(F1sO2s)
+                L5: 3ring-Cs(BrO2sH)-Cs(BrO2s)
+                L5: 3ring-Cs(ClO2sH)-Cs(ClO2s)
+                L5: 3ring-Cs(FO2sH)-Cs(FO2s)
             L4: 3ring-Cs(Val7O2sO2s)-Cs(Val7Val7O2s)
-                L5: 3ring-Cs(Br1sO2sO2s)-Cs(Br1sBr1sO2s)
-                L5: 3ring-Cs(Cl1sO2sO2s)-Cs(Cl1sCl1sO2s)
-                L5: 3ring-Cs(F1sO2sO2s)-Cs(F1sF1sO2s)
+                L5: 3ring-Cs(BrO2sO2s)-Cs(BrBrO2s)
+                L5: 3ring-Cs(ClO2sO2s)-Cs(ClClO2s)
+                L5: 3ring-Cs(FO2sO2s)-Cs(FFO2s)
             L4: 3ring-Cd(Val7Cd)-Cs(Val7CdCs)
-                L5: 3ring-Cd(Br1sCd)-Cs(Br1sCdCs)
-                L5: 3ring-Cd(F1sCd)-Cs(F1sCdCs)
+                L5: 3ring-Cd(BrCd)-Cs(BrCdCs)
+                L5: 3ring-Cd(FCd)-Cs(FCdCs)
             L4: 3ring-Cd(Val7Cd)-Cs(Val7Cd)
-                L5: 3ring-Cd(Br1sCd)-Cs(Br1sCd)
-                L5: 3ring-Cd(F1sCd)-Cs(F1sCd)
+                L5: 3ring-Cd(BrCd)-Cs(BrCd)
+                L5: 3ring-Cd(FCd)-Cs(FCd)
             L4: 3ring-Cs(Val7CsCs)-Cs(Val7Val7Cs)
-                L5: 3ring-Cs(Br1sCsCs)-Cs(Br1sBr1sCs)
-                L5: 3ring-Cs(Cl1sCsCs)-Cs(Cl1sCl1sCs)_459
-                L5: 3ring-Cs(F1sCsCs)-Cs(F1sF1sCs)
+                L5: 3ring-Cs(BrCsCs)-Cs(BrBrCs)
+                L5: 3ring-Cs(ClCsCs)-Cs(ClClCs)_459
+                L5: 3ring-Cs(FCsCs)-Cs(FFCs)
             L4: 3ring-Cs(Val7CsCs)-Cs(Val7CsH)_138
-                L5: 3ring-Cs(Br1sCsCs)-Cs(Br1sCsH)_319
-                L5: 3ring-Cs(Cl1sCsCs)-Cs(Cl1sCsH)
-                L5: 3ring-Cs(F1sCsCs)-Cs(F1sCsH)_554
+                L5: 3ring-Cs(BrCsCs)-Cs(BrCsH)_319
+                L5: 3ring-Cs(ClCsCs)-Cs(ClCsH)
+                L5: 3ring-Cs(FCsCs)-Cs(FCsH)_554
             L4: 3ring-Cd(Val7Cd)-Cs(Val7CsCd)_140
-                L5: 3ring-Cd(Br1sCd)-Cs(Br1sCsCd)_321
-                L5: 3ring-Cd(F1sCd)-Cs(F1sCsCd)
+                L5: 3ring-Cd(BrCd)-Cs(BrCsCd)_321
+                L5: 3ring-Cd(FCd)-Cs(FCsCd)
             L4: 3ring-Cs(Val7O2sCd)-Cd(Val7Cd)_141
-                L5: 3ring-Cs(Br1sO2sCd)-Cd(Br1sCd)_322
-                L5: 3ring-Cs(Cl1sO2sCd)-Cd(Cl1sCd)
+                L5: 3ring-Cs(BrO2sCd)-Cd(BrCd)_322
+                L5: 3ring-Cs(ClO2sCd)-Cd(ClCd)
             L4: 3ring-Cd(Val7Cs)=Cd(Val7Cs)_145
-                L5: 3ring-Cd(Br1sCs)=Cd(Br1sCs)_326
-                L5: 3ring-Cd(Cl1sCs)=Cd(Cl1sCs)_392
-                L5: 3ring-Cd(F1sCs)=Cd(F1sCs)_560
+                L5: 3ring-Cd(BrCs)=Cd(BrCs)_326
+                L5: 3ring-Cd(ClCs)=Cd(ClCs)_392
+                L5: 3ring-Cd(FCs)=Cd(FCs)_560
             L4: 3ring-Cs(Val7O2sCs)-Cs(Val7Val7Cs)
-                L5: 3ring-Cs(Br1sO2sCs)-Cs(Br1sBr1sCs)
-                L5: 3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCl1sCs)
+                L5: 3ring-Cs(BrO2sCs)-Cs(BrBrCs)
+                L5: 3ring-Cs(ClO2sCs)-Cs(ClClCs)
             L4: 3ring-Cs(Val7O2sCs)-Cs(Val7Cs)
-                L5: 3ring-Cs(Br1sO2sCs)-Cs(Br1sCs)
-                L5: 3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCs)
-                L5: 3ring-Cs(F1sO2sCs)-Cs(F1sCs)
+                L5: 3ring-Cs(BrO2sCs)-Cs(BrCs)
+                L5: 3ring-Cs(ClO2sCs)-Cs(ClCs)
+                L5: 3ring-Cs(FO2sCs)-Cs(FCs)
             L4: 3ring-Cs(Val7COH)-Cs(Val7COH)
-                L5: 3ring-Cs(Br1sCOH)-Cs(Br1sCOH)
-                L5: 3ring-Cs(Cl1sCOH)-Cs(Cl1sCOH)
-                L5: 3ring-Cs(F1sCOH)-Cs(F1sCOH)
+                L5: 3ring-Cs(BrCOH)-Cs(BrCOH)
+                L5: 3ring-Cs(ClCOH)-Cs(ClCOH)
+                L5: 3ring-Cs(FCOH)-Cs(FCOH)
             L4: 3ring-Cs(Val7O2sH)-Cs(Val7O2sCs)_150
-                L5: 3ring-Cs(Br1sO2sH)-Cs(Br1sO2sCs)_331
-                L5: 3ring-Cs(Cl1sO2sH)-Cs(Cl1sO2sCs)_389
+                L5: 3ring-Cs(BrO2sH)-Cs(BrO2sCs)_331
+                L5: 3ring-Cs(ClO2sH)-Cs(ClO2sCs)_389
             L4: 3ring-Cs(Val7CsCs)-Cs(Val7Val7Cs)_152
-                L5: 3ring-Cs(Br1sCsCs)-Cs(Br1sBr1sCs)_333
-                L5: 3ring-Cs(Cl1sCsCs)-Cs(Cl1sCl1sCs)
-                L5: 3ring-Cs(F1sCsCs)-Cs(F1sF1sCs)_605
+                L5: 3ring-Cs(BrCsCs)-Cs(BrBrCs)_333
+                L5: 3ring-Cs(ClCsCs)-Cs(ClClCs)
+                L5: 3ring-Cs(FCsCs)-Cs(FFCs)_605
             L4: 3ring-Cs(Val7Val7Cd)-Cs(Val7Val7Cd)
-                L5: 3ring-Cs(Br1sBr1sCd)-Cs(Br1sBr1sCd)
-                L5: 3ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCl1sCd)
-                L5: 3ring-Cs(F1sF1sCd)-Cs(F1sF1sCd)
+                L5: 3ring-Cs(BrBrCd)-Cs(BrBrCd)
+                L5: 3ring-Cs(ClClCd)-Cs(ClClCd)
+                L5: 3ring-Cs(FFCd)-Cs(FFCd)
             L4: 3ring-Cs(Val7O2sCs)-Cs(Val7CsH)_156
-                L5: 3ring-Cs(Br1sO2sCs)-Cs(Br1sCsH)_337
-                L5: 3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCsH)_468
-                L5: 3ring-Cs(F1sO2sCs)-Cs(F1sCsH)
+                L5: 3ring-Cs(BrO2sCs)-Cs(BrCsH)_337
+                L5: 3ring-Cs(ClO2sCs)-Cs(ClCsH)_468
+                L5: 3ring-Cs(FO2sCs)-Cs(FCsH)
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7O2sCs)_157
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sO2sCs)_338
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sO2sCs)_602
+                L5: 3ring-Cs(BrBrCs)-Cs(BrO2sCs)_338
+                L5: 3ring-Cs(FFCs)-Cs(FO2sCs)_602
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7CsCs)_158
-                L5: 3ring-Cs(Br1sBr1sCs)-Cs(Br1sCsCs)_339
-                L5: 3ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsCs)
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sCsCs)
+                L5: 3ring-Cs(BrBrCs)-Cs(BrCsCs)_339
+                L5: 3ring-Cs(ClClCs)-Cs(ClCsCs)
+                L5: 3ring-Cs(FFCs)-Cs(FCsCs)
             L4: 3ring-Cs(Val7O2sO2s)-Cs(Val7O2s)
-                L5: 3ring-Cs(Br1sO2sO2s)-Cs(Br1sO2s)
-                L5: 3ring-Cs(Cl1sO2sO2s)-Cs(Cl1sO2s)
-                L5: 3ring-Cs(F1sO2sO2s)-Cs(F1sO2s)
+                L5: 3ring-Cs(BrO2sO2s)-Cs(BrO2s)
+                L5: 3ring-Cs(ClO2sO2s)-Cs(ClO2s)
+                L5: 3ring-Cs(FO2sO2s)-Cs(FO2s)
             L4: 3ring-Cs(Val7Val7CO)-Cs(Val7Val7CO)
-                L5: 3ring-Cs(Br1sBr1sCO)-Cs(Br1sBr1sCO)
-                L5: 3ring-Cs(Cl1sCl1sCO)-Cs(Cl1sCl1sCO)
-                L5: 3ring-Cs(F1sF1sCO)-Cs(F1sF1sCO)
+                L5: 3ring-Cs(BrBrCO)-Cs(BrBrCO)
+                L5: 3ring-Cs(ClClCO)-Cs(ClClCO)
+                L5: 3ring-Cs(FFCO)-Cs(FFCO)
             L4: 3ring-Cs(Val7O2sH)-Cs(Val7O2sH)
-                L5: 3ring-Cs(Br1sO2sH)-Cs(Br1sO2sH)
-                L5: 3ring-Cs(Cl1sO2sH)-Cs(Cl1sO2sH)
-                L5: 3ring-Cs(F1sO2sH)-Cs(F1sO2sH)
+                L5: 3ring-Cs(BrO2sH)-Cs(BrO2sH)
+                L5: 3ring-Cs(ClO2sH)-Cs(ClO2sH)
+                L5: 3ring-Cs(FO2sH)-Cs(FO2sH)
             L4: 3ring-Cs(Val7Val7Cd)-Cd(Val7Cd)
-                L5: 3ring-Cs(Br1sBr1sCd)-Cd(Br1sCd)
-                L5: 3ring-Cs(Cl1sCl1sCd)-Cd(Cl1sCd)
-                L5: 3ring-Cs(F1sF1sCd)-Cd(F1sCd)
+                L5: 3ring-Cs(BrBrCd)-Cd(BrCd)
+                L5: 3ring-Cs(ClClCd)-Cd(ClCd)
+                L5: 3ring-Cs(FFCd)-Cd(FCd)
             L4: 3ring-Cs(Val7CsH)-Cs(Val7CsCs)_170
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sCsCs)_351
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sCsCs)_551
+                L5: 3ring-Cs(BrCsH)-Cs(BrCsCs)_351
+                L5: 3ring-Cs(FCsH)-Cs(FCsCs)_551
             L4: 3ring-Cs(Val7CsCs)-Cs(Val7Val7Cs)_171
-                L5: 3ring-Cs(Br1sCsCs)-Cs(Br1sBr1sCs)_352
-                L5: 3ring-Cs(F1sCsCs)-Cs(F1sF1sCs)_610
+                L5: 3ring-Cs(BrCsCs)-Cs(BrBrCs)_352
+                L5: 3ring-Cs(FCsCs)-Cs(FFCs)_610
             L4: 3ring-Cs(Val7Val7Cd)-Cd(Val7Cd)_172
-                L5: 3ring-Cs(Br1sBr1sCd)-Cd(Br1sCd)_353
-                L5: 3ring-Cs(Cl1sCl1sCd)-Cd(Cl1sCd)_482
-                L5: 3ring-Cs(F1sF1sCd)-Cd(F1sCd)_637
+                L5: 3ring-Cs(BrBrCd)-Cd(BrCd)_353
+                L5: 3ring-Cs(ClClCd)-Cd(ClCd)_482
+                L5: 3ring-Cs(FFCd)-Cd(FCd)_637
             L4: 3ring-Cs(Val7O2sH)-Cs(Val7Val7O2s)
-                L5: 3ring-Cs(Br1sO2sH)-Cs(Br1sBr1sO2s)
-                L5: 3ring-Cs(Cl1sO2sH)-Cs(Cl1sCl1sO2s)
-                L5: 3ring-Cs(F1sO2sH)-Cs(F1sF1sO2s)
+                L5: 3ring-Cs(BrO2sH)-Cs(BrBrO2s)
+                L5: 3ring-Cs(ClO2sH)-Cs(ClClO2s)
+                L5: 3ring-Cs(FO2sH)-Cs(FFO2s)
             L4: 3ring-Cs(Val7CsH)-Cs(Val7O2sCs)_178
-                L5: 3ring-Cs(Br1sCsH)-Cs(Br1sO2sCs)_359
-                L5: 3ring-Cs(F1sCsH)-Cs(F1sO2sCs)
+                L5: 3ring-Cs(BrCsH)-Cs(BrO2sCs)_359
+                L5: 3ring-Cs(FCsH)-Cs(FO2sCs)
             L4: 3ring-Cs(Val7Val7O2s)-Cs(Val7O2sCs)_180
-                L5: 3ring-Cs(Br1sBr1sO2s)-Cs(Br1sO2sCs)_361
-                L5: 3ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sO2sCs)_492
-                L5: 3ring-Cs(F1sF1sO2s)-Cs(F1sO2sCs)_553
+                L5: 3ring-Cs(BrBrO2s)-Cs(BrO2sCs)_361
+                L5: 3ring-Cs(ClClO2s)-Cs(ClO2sCs)_492
+                L5: 3ring-Cs(FFO2s)-Cs(FO2sCs)_553
             L4: 3ring-Cs(Val7CsCd)-Cd(Val7Cd)
-                L5: 3ring-Cs(Cl1sCsCd)-Cd(Cl1sCd)
+                L5: 3ring-Cs(ClCsCd)-Cd(ClCd)
             L4: 3ring-Cs(Val7CdH)-Cs(Val7Val7Cd)
-                L5: 3ring-Cs(Cl1sCdH)-Cs(Cl1sCl1sCd)
-                L5: 3ring-Cs(F1sCdH)-Cs(F1sF1sCd)
+                L5: 3ring-Cs(ClCdH)-Cs(ClClCd)
+                L5: 3ring-Cs(FCdH)-Cs(FFCd)
             L4: 3ring-Cd(Val7Cd)-Cs(Val7CdH)_192
-                L5: 3ring-Cd(Cl1sCd)-Cs(Cl1sCdH)_427
+                L5: 3ring-Cd(ClCd)-Cs(ClCdH)_427
             L4: 3ring-Cs(Val7O2sCs)-Cs(Val7O2s)
-                L5: 3ring-Cs(Cl1sO2sCs)-Cs(Cl1sO2s)
+                L5: 3ring-Cs(ClO2sCs)-Cs(ClO2s)
             L4: 3ring-Cs(Val7CsCd)-Cd(Val7Cd)_196
-                L5: 3ring-Cs(Cl1sCsCd)-Cd(Cl1sCd)_446
-                L5: 3ring-Cs(F1sCsCd)-Cd(F1sCd)
+                L5: 3ring-Cs(ClCsCd)-Cd(ClCd)_446
+                L5: 3ring-Cs(FCsCd)-Cd(FCd)
             L4: 3ring-Cs(Val7O2sCs)-Cs(Val7Val7O2s)
-                L5: 3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCl1sO2s)
+                L5: 3ring-Cs(ClO2sCs)-Cs(ClClO2s)
             L4: 3ring-Cs(Val7O2sCs)-Cs(Val7Val7Cs)_200
-                L5: 3ring-Cs(Cl1sO2sCs)-Cs(Cl1sCl1sCs)_462
+                L5: 3ring-Cs(ClO2sCs)-Cs(ClClCs)_462
             L4: 3ring-Cs(Val7O2s)-Cs(Val7Val7O2s)
-                L5: 3ring-Cs(Cl1sO2s)-Cs(Cl1sCl1sO2s)
+                L5: 3ring-Cs(ClO2s)-Cs(ClClO2s)
             L4: 3ring-Cs(Val7O2sCs)-Cs(Val7O2sH)
-                L5: 3ring-Cs(F1sO2sCs)-Cs(F1sO2sH)
+                L5: 3ring-Cs(FO2sCs)-Cs(FO2sH)
             L4: 3ring-Cd(Val7Cd)-Cs(Val7O2sCd)_212
-                L5: 3ring-Cd(F1sCd)-Cs(F1sO2sCd)
+                L5: 3ring-Cd(FCd)-Cs(FO2sCd)
             L4: 3ring-Cs(Val7Val7Cs)-Cs(Val7CsCs)_213
-                L5: 3ring-Cs(F1sF1sCs)-Cs(F1sCsCs)_622
+                L5: 3ring-Cs(FFCs)-Cs(FCsCs)_622
         L3: halogen-4
             L4: 4ring-Cd(Val7Cd)-Cd(Val7Cd)
-                L5: 4ring-Cd(Br1sCd)-Cd(Br1sCd)
-                L5: 4ring-Cd(Cl1sCd)-Cd(Cl1sCd)
-                L5: 4ring-Cd(F1sCd)-Cd(F1sCd)
+                L5: 4ring-Cd(BrCd)-Cd(BrCd)
+                L5: 4ring-Cd(ClCd)-Cd(ClCd)
+                L5: 4ring-Cd(FCd)-Cd(FCd)
             L4: 4ring-Cd(Val7Cd)=Cd(Val7Cd)
-                L5: 4ring-Cd(Br1sCd)=Cd(Br1sCd)
-                L5: 4ring-Cd(Cl1sCd)=Cd(Cl1sCd)
-                L5: 4ring-Cd(F1sCd)=Cd(F1sCd)
+                L5: 4ring-Cd(BrCd)=Cd(BrCd)
+                L5: 4ring-Cd(ClCd)=Cd(ClCd)
+                L5: 4ring-Cd(FCd)=Cd(FCd)
             L4: 4ring-Cs(Val7CdH)-Cs(Val7CdH)
-                L5: 4ring-Cs(Br1sCdH)-Cs(Br1sCdH)
-                L5: 4ring-Cs(Cl1sCdH)-Cs(Cl1sCdH)
-                L5: 4ring-Cs(F1sCdH)-Cs(F1sCdH)_627
+                L5: 4ring-Cs(BrCdH)-Cs(BrCdH)
+                L5: 4ring-Cs(ClCdH)-Cs(ClCdH)
+                L5: 4ring-Cs(FCdH)-Cs(FCdH)_627
             L4: 4ring-Cd(Val7Cs)=Cd(Val7Cs)
-                L5: 4ring-Cd(Br1sCs)=Cd(Br1sCs)
-                L5: 4ring-Cd(Cl1sCs)=Cd(Cl1sCs)_435
-                L5: 4ring-Cd(F1sCs)=Cd(F1sCs)_580
+                L5: 4ring-Cd(BrCs)=Cd(BrCs)
+                L5: 4ring-Cd(ClCs)=Cd(ClCs)_435
+                L5: 4ring-Cd(FCs)=Cd(FCs)_580
             L4: 4ring-Cd(Val7Cd)-Cs(Val7CsH)
-                L5: 4ring-Cd(Br1sCd)-Cs(Br1sCsH)
-                L5: 4ring-Cd(Cl1sCd)-Cs(Cl1sCsH)_433
-                L5: 4ring-Cd(F1sCd)-Cs(F1sCsH)_582
+                L5: 4ring-Cd(BrCd)-Cs(BrCsH)
+                L5: 4ring-Cd(ClCd)-Cs(ClCsH)_433
+                L5: 4ring-Cd(FCd)-Cs(FCsH)_582
             L4: 4ring-Cd(Val7Cd)-Cs(Val7Val7Cs)
-                L5: 4ring-Cd(Br1sCd)-Cs(Br1sBr1sCs)
-                L5: 4ring-Cd(Cl1sCd)-Cs(Cl1sCl1sCs)
-                L5: 4ring-Cd(F1sCd)-Cs(F1sF1sCs)_581
+                L5: 4ring-Cd(BrCd)-Cs(BrBrCs)
+                L5: 4ring-Cd(ClCd)-Cs(ClClCs)
+                L5: 4ring-Cd(FCd)-Cs(FFCs)_581
             L4: 4ring-Cs(Val7Val7Cd)-Cs(Val7CdH)
-                L5: 4ring-Cs(Br1sBr1sCd)-Cs(Br1sCdH)
-                L5: 4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCdH)_479
-                L5: 4ring-Cs(F1sF1sCd)-Cs(F1sCdH)
+                L5: 4ring-Cs(BrBrCd)-Cs(BrCdH)
+                L5: 4ring-Cs(ClClCd)-Cs(ClCdH)_479
+                L5: 4ring-Cs(FFCd)-Cs(FCdH)
             L4: 4ring-Cs(Val7O2sH)-Cd(Val7Cd)
-                L5: 4ring-Cs(Br1sO2sH)-Cd(Br1sCd)
-                L5: 4ring-Cs(Cl1sO2sH)-Cd(Cl1sCd)
-                L5: 4ring-Cs(F1sO2sH)-Cd(F1sCd)
+                L5: 4ring-Cs(BrO2sH)-Cd(BrCd)
+                L5: 4ring-Cs(ClO2sH)-Cd(ClCd)
+                L5: 4ring-Cs(FO2sH)-Cd(FCd)
             L4: 4ring-Cd(Val7Cs)=Cd(Val7O2s)
-                L5: 4ring-Cd(Br1sCs)=Cd(Br1sO2s)
-                L5: 4ring-Cd(Cl1sCs)=Cd(Cl1sO2s)_445
-                L5: 4ring-Cd(F1sCs)=Cd(F1sO2s)_555
+                L5: 4ring-Cd(BrCs)=Cd(BrO2s)
+                L5: 4ring-Cd(ClCs)=Cd(ClO2s)_445
+                L5: 4ring-Cd(FCs)=Cd(FO2s)_555
             L4: 4ring-Cs(Val7CdH)-Cs(Val7Val7Cd)
-                L5: 4ring-Cs(Br1sCdH)-Cs(Br1sBr1sCd)
-                L5: 4ring-Cs(F1sCdH)-Cs(F1sF1sCd)
+                L5: 4ring-Cs(BrCdH)-Cs(BrBrCd)
+                L5: 4ring-Cs(FCdH)-Cs(FFCd)
             L4: 4ring-Cs(Val7Val7O2s)-Cs(Val7Val7O2s)
-                L5: 4ring-Cs(Br1sBr1sO2s)-Cs(Br1sBr1sO2s)
-                L5: 4ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sCl1sO2s)
-                L5: 4ring-Cs(F1sF1sO2s)-Cs(F1sF1sO2s)
+                L5: 4ring-Cs(BrBrO2s)-Cs(BrBrO2s)
+                L5: 4ring-Cs(ClClO2s)-Cs(ClClO2s)
+                L5: 4ring-Cs(FFO2s)-Cs(FFO2s)
             L4: 4ring-Cs(Val7CsH)-Cs(Val7Val7O2s)
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sBr1sO2s)
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sO2s)
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sF1sO2s)
+                L5: 4ring-Cs(BrCsH)-Cs(BrBrO2s)
+                L5: 4ring-Cs(ClCsH)-Cs(ClClO2s)
+                L5: 4ring-Cs(FCsH)-Cs(FFO2s)
             L4: 4ring-Cs(Val7CsH)-Cs(Val7CsH)
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sCsH)
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sCsH)_568
+                L5: 4ring-Cs(BrCsH)-Cs(BrCsH)
+                L5: 4ring-Cs(ClCsH)-Cs(ClCsH)
+                L5: 4ring-Cs(FCsH)-Cs(FCsH)_568
             L4: 4ring-Cs(Val7CsH)-Cs(Val7Val7Cs)
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)_467
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sF1sCs)
+                L5: 4ring-Cs(BrCsH)-Cs(BrBrCs)
+                L5: 4ring-Cs(ClCsH)-Cs(ClClCs)_467
+                L5: 4ring-Cs(FCsH)-Cs(FFCs)
             L4: 4ring-Cs(Val7CsH)-Cs(Val7Cs)
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sCs)
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCs)
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sCs)
+                L5: 4ring-Cs(BrCsH)-Cs(BrCs)
+                L5: 4ring-Cs(ClCsH)-Cs(ClCs)
+                L5: 4ring-Cs(FCsH)-Cs(FCs)
             L4: 4ring-Cd(Val7Cd)-Cs(Val7CsH)_62
-                L5: 4ring-Cd(Br1sCd)-Cs(Br1sCsH)_243
-                L5: 4ring-Cd(Cl1sCd)-Cs(Cl1sCsH)
-                L5: 4ring-Cd(F1sCd)-Cs(F1sCsH)_626
+                L5: 4ring-Cd(BrCd)-Cs(BrCsH)_243
+                L5: 4ring-Cd(ClCd)-Cs(ClCsH)
+                L5: 4ring-Cd(FCd)-Cs(FCsH)_626
             L4: 4ring-Cs(Val7Val7O2s)-Cs(Val7O2s)
-                L5: 4ring-Cs(Br1sBr1sO2s)-Cs(Br1sO2s)
-                L5: 4ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sO2s)
+                L5: 4ring-Cs(BrBrO2s)-Cs(BrO2s)
+                L5: 4ring-Cs(ClClO2s)-Cs(ClO2s)
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7O2sH)
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sO2sH)
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sO2sH)
+                L5: 4ring-Cs(BrBrCs)-Cs(BrO2sH)
+                L5: 4ring-Cs(FFCs)-Cs(FO2sH)
             L4: 4ring-Cs(Val7O2sH)-Cs(Val7O2sH)
-                L5: 4ring-Cs(Br1sO2sH)-Cs(Br1sO2sH)
-                L5: 4ring-Cs(Cl1sO2sH)-Cs(Cl1sO2sH)
-                L5: 4ring-Cs(F1sO2sH)-Cs(F1sO2sH)
+                L5: 4ring-Cs(BrO2sH)-Cs(BrO2sH)
+                L5: 4ring-Cs(ClO2sH)-Cs(ClO2sH)
+                L5: 4ring-Cs(FO2sH)-Cs(FO2sH)
             L4: 4ring-Cs(Val7Cd)-Cs(Val7CdH)
-                L5: 4ring-Cs(Br1sCd)-Cs(Br1sCdH)
-                L5: 4ring-Cs(Cl1sCd)-Cs(Cl1sCdH)
-                L5: 4ring-Cs(F1sCd)-Cs(F1sCdH)
+                L5: 4ring-Cs(BrCd)-Cs(BrCdH)
+                L5: 4ring-Cs(ClCd)-Cs(ClCdH)
+                L5: 4ring-Cs(FCd)-Cs(FCdH)
             L4: 4ring-Cd(Val7Cs)=Cd(Val7Cs)_84
-                L5: 4ring-Cd(Br1sCs)=Cd(Br1sCs)_265
-                L5: 4ring-Cd(Cl1sCs)=Cd(Cl1sCs)
-                L5: 4ring-Cd(F1sCs)=Cd(F1sCs)
+                L5: 4ring-Cd(BrCs)=Cd(BrCs)_265
+                L5: 4ring-Cd(ClCs)=Cd(ClCs)
+                L5: 4ring-Cd(FCs)=Cd(FCs)
             L4: 4ring-Cd(Val7Cd)-Cs(Val7Val7Cs)_85
-                L5: 4ring-Cd(Br1sCd)-Cs(Br1sBr1sCs)_266
-                L5: 4ring-Cd(F1sCd)-Cs(F1sF1sCs)_596
+                L5: 4ring-Cd(BrCd)-Cs(BrBrCs)_266
+                L5: 4ring-Cd(FCd)-Cs(FFCs)_596
             L4: 4ring-Cs(Val7Cd)-Cs(Val7Val7Cd)
-                L5: 4ring-Cs(Br1sCd)-Cs(Br1sBr1sCd)
-                L5: 4ring-Cs(F1sCd)-Cs(F1sF1sCd)
+                L5: 4ring-Cs(BrCd)-Cs(BrBrCd)
+                L5: 4ring-Cs(FCd)-Cs(FFCd)
             L4: 4ring-Cs(Val7O2s)-Cs(Val7Val7Cs)
-                L5: 4ring-Cs(Br1sO2s)-Cs(Br1sBr1sCs)
-                L5: 4ring-Cs(F1sO2s)-Cs(F1sF1sCs)
+                L5: 4ring-Cs(BrO2s)-Cs(BrBrCs)
+                L5: 4ring-Cs(FO2s)-Cs(FFCs)
             L4: 4ring-Cd(Val7Cs)=Cd(Val7Cs)_96
-                L5: 4ring-Cd(Br1sCs)=Cd(Br1sCs)_277
-                L5: 4ring-Cd(Cl1sCs)=Cd(Cl1sCs)_461
-                L5: 4ring-Cd(F1sCs)=Cd(F1sCs)_565
+                L5: 4ring-Cd(BrCs)=Cd(BrCs)_277
+                L5: 4ring-Cd(ClCs)=Cd(ClCs)_461
+                L5: 4ring-Cd(FCs)=Cd(FCs)_565
             L4: 4ring-Cs(Val7CsH)-Cd(Val7Cd)
-                L5: 4ring-Cs(Br1sCsH)-Cd(Br1sCd)
-                L5: 4ring-Cs(Cl1sCsH)-Cd(Cl1sCd)
-                L5: 4ring-Cs(F1sCsH)-Cd(F1sCd)_652
+                L5: 4ring-Cs(BrCsH)-Cd(BrCd)
+                L5: 4ring-Cs(ClCsH)-Cd(ClCd)
+                L5: 4ring-Cs(FCsH)-Cd(FCd)_652
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7O2s)
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sO2s)
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sO2s)
+                L5: 4ring-Cs(BrBrCs)-Cs(BrO2s)
+                L5: 4ring-Cs(ClClCs)-Cs(ClO2s)
             L4: 4ring-Cs(Val7Val7Cd)-Cs(Val7Val7Cd)
-                L5: 4ring-Cs(Br1sBr1sCd)-Cs(Br1sBr1sCd)
-                L5: 4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCl1sCd)
-                L5: 4ring-Cs(F1sF1sCd)-Cs(F1sF1sCd)_646
+                L5: 4ring-Cs(BrBrCd)-Cs(BrBrCd)
+                L5: 4ring-Cs(ClClCd)-Cs(ClClCd)
+                L5: 4ring-Cs(FFCd)-Cs(FFCd)_646
             L4: 4ring-Cd(Val7O2s)=Cd(Val7Cs)
-                L5: 4ring-Cd(Br1sO2s)=Cd(Br1sCs)
-                L5: 4ring-Cd(Cl1sO2s)=Cd(Cl1sCs)
+                L5: 4ring-Cd(BrO2s)=Cd(BrCs)
+                L5: 4ring-Cd(ClO2s)=Cd(ClCs)
             L4: 4ring-Cs(Val7Val7O2s)-Cd(Val7Cd)
-                L5: 4ring-Cs(Br1sBr1sO2s)-Cd(Br1sCd)
-                L5: 4ring-Cs(F1sF1sO2s)-Cd(F1sCd)
+                L5: 4ring-Cs(BrBrO2s)-Cd(BrCd)
+                L5: 4ring-Cs(FFO2s)-Cd(FCd)
             L4: 4ring-Cs(Val7Cs)-Cs(Val7CsH)
-                L5: 4ring-Cs(Br1sCs)-Cs(Br1sCsH)
-                L5: 4ring-Cs(Cl1sCs)-Cs(Cl1sCsH)
-                L5: 4ring-Cs(F1sCs)-Cs(F1sCsH)
+                L5: 4ring-Cs(BrCs)-Cs(BrCsH)
+                L5: 4ring-Cs(ClCs)-Cs(ClCsH)
+                L5: 4ring-Cs(FCs)-Cs(FCsH)
             L4: 4ring-Cs(Val7Cs)-Cs(Val7Val7Cs)
-                L5: 4ring-Cs(Br1sCs)-Cs(Br1sBr1sCs)
-                L5: 4ring-Cs(Cl1sCs)-Cs(Cl1sCl1sCs)
-                L5: 4ring-Cs(F1sCs)-Cs(F1sF1sCs)
+                L5: 4ring-Cs(BrCs)-Cs(BrBrCs)
+                L5: 4ring-Cs(ClCs)-Cs(ClClCs)
+                L5: 4ring-Cs(FCs)-Cs(FFCs)
             L4: 4ring-Cd(Val7Cd)-Cs(Val7Cs)
-                L5: 4ring-Cd(Br1sCd)-Cs(Br1sCs)
-                L5: 4ring-Cd(Cl1sCd)-Cs(Cl1sCs)
-                L5: 4ring-Cd(F1sCd)-Cs(F1sCs)
+                L5: 4ring-Cd(BrCd)-Cs(BrCs)
+                L5: 4ring-Cd(ClCd)-Cs(ClCs)
+                L5: 4ring-Cd(FCd)-Cs(FCs)
             L4: 4ring-Cs(Val7CsH)-Cs(Val7O2sH)
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sO2sH)
+                L5: 4ring-Cs(BrCsH)-Cs(BrO2sH)
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7Val7Cs)
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sCs)
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)_577
+                L5: 4ring-Cs(BrBrCs)-Cs(BrBrCs)
+                L5: 4ring-Cs(FFCs)-Cs(FFCs)_577
             L4: 4ring-Cs(Val7O2sH)-Cs(Val7Val7Cs)
-                L5: 4ring-Cs(Br1sO2sH)-Cs(Br1sBr1sCs)
-                L5: 4ring-Cs(Cl1sO2sH)-Cs(Cl1sCl1sCs)_396
-                L5: 4ring-Cs(F1sO2sH)-Cs(F1sF1sCs)
+                L5: 4ring-Cs(BrO2sH)-Cs(BrBrCs)
+                L5: 4ring-Cs(ClO2sH)-Cs(ClClCs)_396
+                L5: 4ring-Cs(FO2sH)-Cs(FFCs)
             L4: 4ring-Cs(Val7O2sH)-Cs(Val7Val7O2s)
-                L5: 4ring-Cs(Br1sO2sH)-Cs(Br1sBr1sO2s)
-                L5: 4ring-Cs(Cl1sO2sH)-Cs(Cl1sCl1sO2s)
-                L5: 4ring-Cs(F1sO2sH)-Cs(F1sF1sO2s)
+                L5: 4ring-Cs(BrO2sH)-Cs(BrBrO2s)
+                L5: 4ring-Cs(ClO2sH)-Cs(ClClO2s)
+                L5: 4ring-Cs(FO2sH)-Cs(FFO2s)
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7Val7O2s)
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sO2s)
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sO2s)
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sF1sO2s)
+                L5: 4ring-Cs(BrBrCs)-Cs(BrBrO2s)
+                L5: 4ring-Cs(ClClCs)-Cs(ClClO2s)
+                L5: 4ring-Cs(FFCs)-Cs(FFO2s)
             L4: 4ring-Cs(Val7CsH)-Cs(Val7O2sH)_119
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sO2sH)_300
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sO2sH)
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sO2sH)
+                L5: 4ring-Cs(BrCsH)-Cs(BrO2sH)_300
+                L5: 4ring-Cs(ClCsH)-Cs(ClO2sH)
+                L5: 4ring-Cs(FCsH)-Cs(FO2sH)
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7CsH)
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sCsH)
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)_491
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sCsH)
+                L5: 4ring-Cs(BrBrCs)-Cs(BrCsH)
+                L5: 4ring-Cs(ClClCs)-Cs(ClCsH)_491
+                L5: 4ring-Cs(FFCs)-Cs(FCsH)
             L4: 4ring-Cs(Val7Cs)-Cd(Val7Cd)
-                L5: 4ring-Cs(Br1sCs)-Cd(Br1sCd)
-                L5: 4ring-Cs(Cl1sCs)-Cd(Cl1sCd)
-                L5: 4ring-Cs(F1sCs)-Cd(F1sCd)
+                L5: 4ring-Cs(BrCs)-Cd(BrCd)
+                L5: 4ring-Cs(ClCs)-Cd(ClCd)
+                L5: 4ring-Cs(FCs)-Cd(FCd)
             L4: 4ring-Cs(Val7CsH)-Cd(Val7Cd)_124
-                L5: 4ring-Cs(Br1sCsH)-Cd(Br1sCd)_305
-                L5: 4ring-Cs(Cl1sCsH)-Cd(Cl1sCd)_440
-                L5: 4ring-Cs(F1sCsH)-Cd(F1sCd)
+                L5: 4ring-Cs(BrCsH)-Cd(BrCd)_305
+                L5: 4ring-Cs(ClCsH)-Cd(ClCd)_440
+                L5: 4ring-Cs(FCsH)-Cd(FCd)
             L4: 4ring-Cs(Val7CsH)-Cs(Val7O2s)
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sO2s)
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sO2s)
+                L5: 4ring-Cs(BrCsH)-Cs(BrO2s)
+                L5: 4ring-Cs(ClCsH)-Cs(ClO2s)
             L4: 4ring-Cs(Val7CdH)-Cs(Val7Cd)
-                L5: 4ring-Cs(Br1sCdH)-Cs(Br1sCd)
-                L5: 4ring-Cs(F1sCdH)-Cs(F1sCd)
+                L5: 4ring-Cs(BrCdH)-Cs(BrCd)
+                L5: 4ring-Cs(FCdH)-Cs(FCd)
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7Cs)
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sCs)
+                L5: 4ring-Cs(BrBrCs)-Cs(BrCs)
             L4: 4ring-Cs(Val7Cs)-Cs(Val7O2sH)
-                L5: 4ring-Cs(Br1sCs)-Cs(Br1sO2sH)
-                L5: 4ring-Cs(Cl1sCs)-Cs(Cl1sO2sH)
-                L5: 4ring-Cs(F1sCs)-Cs(F1sO2sH)
+                L5: 4ring-Cs(BrCs)-Cs(BrO2sH)
+                L5: 4ring-Cs(ClCs)-Cs(ClO2sH)
+                L5: 4ring-Cs(FCs)-Cs(FO2sH)
             L4: 4ring-Cs(Val7Cs)-Cs(Val7Val7O2s)
-                L5: 4ring-Cs(Br1sCs)-Cs(Br1sBr1sO2s)
-                L5: 4ring-Cs(Cl1sCs)-Cs(Cl1sCl1sO2s)
-                L5: 4ring-Cs(F1sCs)-Cs(F1sF1sO2s)
+                L5: 4ring-Cs(BrCs)-Cs(BrBrO2s)
+                L5: 4ring-Cs(ClCs)-Cs(ClClO2s)
+                L5: 4ring-Cs(FCs)-Cs(FFO2s)
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7O2sH)_130
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sO2sH)_311
+                L5: 4ring-Cs(BrBrCs)-Cs(BrO2sH)_311
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7Val7Cs)_131
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sCs)_312
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sCs)_423
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)_600
+                L5: 4ring-Cs(BrBrCs)-Cs(BrBrCs)_312
+                L5: 4ring-Cs(ClClCs)-Cs(ClClCs)_423
+                L5: 4ring-Cs(FFCs)-Cs(FFCs)_600
             L4: 4ring-Cs(Val7Val7Cs)-Cd(Val7Cd)
-                L5: 4ring-Cs(Br1sBr1sCs)-Cd(Br1sCd)
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cd(Cl1sCd)
-                L5: 4ring-Cs(F1sF1sCs)-Cd(F1sCd)_552
+                L5: 4ring-Cs(BrBrCs)-Cd(BrCd)
+                L5: 4ring-Cs(ClClCs)-Cd(ClCd)
+                L5: 4ring-Cs(FFCs)-Cd(FCd)_552
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7Val7O2s)_133
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sBr1sO2s)_314
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sF1sO2s)_635
+                L5: 4ring-Cs(BrBrCs)-Cs(BrBrO2s)_314
+                L5: 4ring-Cs(FFCs)-Cs(FFO2s)_635
             L4: 4ring-Cs(Val7CdH)-Cs(Val7Val7Cd)_135
-                L5: 4ring-Cs(Br1sCdH)-Cs(Br1sBr1sCd)_316
-                L5: 4ring-Cs(F1sCdH)-Cs(F1sF1sCd)_650
+                L5: 4ring-Cs(BrCdH)-Cs(BrBrCd)_316
+                L5: 4ring-Cs(FCdH)-Cs(FFCd)_650
             L4: 4ring-Cs(Val7O2sH)-Cs(Val7O2s)
-                L5: 4ring-Cs(Br1sO2sH)-Cs(Br1sO2s)
-                L5: 4ring-Cs(F1sO2sH)-Cs(F1sO2s)
+                L5: 4ring-Cs(BrO2sH)-Cs(BrO2s)
+                L5: 4ring-Cs(FO2sH)-Cs(FO2s)
             L4: 4ring-Cd(Val7Cd)-Cs(Val7CsH)_142
-                L5: 4ring-Cd(Br1sCd)-Cs(Br1sCsH)_323
-                L5: 4ring-Cd(Cl1sCd)-Cs(Cl1sCsH)_483
-                L5: 4ring-Cd(F1sCd)-Cs(F1sCsH)
+                L5: 4ring-Cd(BrCd)-Cs(BrCsH)_323
+                L5: 4ring-Cd(ClCd)-Cs(ClCsH)_483
+                L5: 4ring-Cd(FCd)-Cs(FCsH)
             L4: 4ring-Cs(Val7O2s)-Cs(Val7CsH)
-                L5: 4ring-Cs(Br1sO2s)-Cs(Br1sCsH)
-                L5: 4ring-Cs(F1sO2s)-Cs(F1sCsH)
+                L5: 4ring-Cs(BrO2s)-Cs(BrCsH)
+                L5: 4ring-Cs(FO2s)-Cs(FCsH)
             L4: 4ring-Cs(Val7CsH)-Cs(Val7Val7Cs)_144
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)_325
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sF1sCs)_620
+                L5: 4ring-Cs(BrCsH)-Cs(BrBrCs)_325
+                L5: 4ring-Cs(ClCsH)-Cs(ClClCs)
+                L5: 4ring-Cs(FCsH)-Cs(FFCs)_620
             L4: 4ring-Cs(Val7CsH)-Cs(Val7Val7O2s)_146
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sBr1sO2s)_327
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sO2s)_485
+                L5: 4ring-Cs(BrCsH)-Cs(BrBrO2s)_327
+                L5: 4ring-Cs(ClCsH)-Cs(ClClO2s)_485
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7CsH)_151
-                L5: 4ring-Cs(Br1sBr1sCs)-Cs(Br1sCsH)_332
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sCsH)_559
+                L5: 4ring-Cs(BrBrCs)-Cs(BrCsH)_332
+                L5: 4ring-Cs(ClClCs)-Cs(ClCsH)
+                L5: 4ring-Cs(FFCs)-Cs(FCsH)_559
             L4: 4ring-Cs(Val7CsH)-Cs(Val7CsH)_154
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sCsH)_335
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)_429
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sCsH)_619
+                L5: 4ring-Cs(BrCsH)-Cs(BrCsH)_335
+                L5: 4ring-Cs(ClCsH)-Cs(ClCsH)_429
+                L5: 4ring-Cs(FCsH)-Cs(FCsH)_619
             L4: 4ring-Cs(Val7CsH)-Cs(Val7Val7Cs)_155
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sBr1sCs)_336
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCl1sCs)_473
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sF1sCs)_616
+                L5: 4ring-Cs(BrCsH)-Cs(BrBrCs)_336
+                L5: 4ring-Cs(ClCsH)-Cs(ClClCs)_473
+                L5: 4ring-Cs(FCsH)-Cs(FFCs)_616
             L4: 4ring-Cs(Val7O2s)-Cd(Val7Cd)
-                L5: 4ring-Cs(Br1sO2s)-Cd(Br1sCd)
-                L5: 4ring-Cs(F1sO2s)-Cd(F1sCd)
+                L5: 4ring-Cs(BrO2s)-Cd(BrCd)
+                L5: 4ring-Cs(FO2s)-Cd(FCd)
             L4: 4ring-Cd(Val7Cs)=Cd(Val7O2s)_160
-                L5: 4ring-Cd(Br1sCs)=Cd(Br1sO2s)_341
-                L5: 4ring-Cd(Cl1sCs)=Cd(Cl1sO2s)
-                L5: 4ring-Cd(F1sCs)=Cd(F1sO2s)
+                L5: 4ring-Cd(BrCs)=Cd(BrO2s)_341
+                L5: 4ring-Cd(ClCs)=Cd(ClO2s)
+                L5: 4ring-Cd(FCs)=Cd(FO2s)
             L4: 4ring-Cd(Val7O2s)=Cd(Val7Cs)_162
-                L5: 4ring-Cd(Br1sO2s)=Cd(Br1sCs)_343
-                L5: 4ring-Cd(Cl1sO2s)=Cd(Cl1sCs)_448
+                L5: 4ring-Cd(BrO2s)=Cd(BrCs)_343
+                L5: 4ring-Cd(ClO2s)=Cd(ClCs)_448
             L4: 4ring-Cs(Val7O2sH)-Cs(Val7CsH)
-                L5: 4ring-Cs(Br1sO2sH)-Cs(Br1sCsH)
-                L5: 4ring-Cs(Cl1sO2sH)-Cs(Cl1sCsH)_477
-                L5: 4ring-Cs(F1sO2sH)-Cs(F1sCsH)_643
+                L5: 4ring-Cs(BrO2sH)-Cs(BrCsH)
+                L5: 4ring-Cs(ClO2sH)-Cs(ClCsH)_477
+                L5: 4ring-Cs(FO2sH)-Cs(FCsH)_643
             L4: 4ring-Cs(Val7CdH)-Cs(Val7CdH)_167
-                L5: 4ring-Cs(Br1sCdH)-Cs(Br1sCdH)_348
-                L5: 4ring-Cs(Cl1sCdH)-Cs(Cl1sCdH)_490
-                L5: 4ring-Cs(F1sCdH)-Cs(F1sCdH)
+                L5: 4ring-Cs(BrCdH)-Cs(BrCdH)_348
+                L5: 4ring-Cs(ClCdH)-Cs(ClCdH)_490
+                L5: 4ring-Cs(FCdH)-Cs(FCdH)
             L4: 4ring-Cs(Val7Val7O2s)-Cd(Val7Cd)_168
-                L5: 4ring-Cs(Br1sBr1sO2s)-Cd(Br1sCd)_349
-                L5: 4ring-Cs(F1sF1sO2s)-Cd(F1sCd)_641
+                L5: 4ring-Cs(BrBrO2s)-Cd(BrCd)_349
+                L5: 4ring-Cs(FFO2s)-Cd(FCd)_641
             L4: 4ring-Cd(Val7O2s)=Cd(Val7O2s)
-                L5: 4ring-Cd(Br1sO2s)=Cd(Br1sO2s)
-                L5: 4ring-Cd(Cl1sO2s)=Cd(Cl1sO2s)
-                L5: 4ring-Cd(F1sO2s)=Cd(F1sO2s)
+                L5: 4ring-Cd(BrO2s)=Cd(BrO2s)
+                L5: 4ring-Cd(ClO2s)=Cd(ClO2s)
+                L5: 4ring-Cd(FO2s)=Cd(FO2s)
             L4: 4ring-Cs(Val7CsH)-Cs(Val7CsH)_173
-                L5: 4ring-Cs(Br1sCsH)-Cs(Br1sCsH)_354
-                L5: 4ring-Cs(Cl1sCsH)-Cs(Cl1sCsH)_422
-                L5: 4ring-Cs(F1sCsH)-Cs(F1sCsH)
+                L5: 4ring-Cs(BrCsH)-Cs(BrCsH)_354
+                L5: 4ring-Cs(ClCsH)-Cs(ClCsH)_422
+                L5: 4ring-Cs(FCsH)-Cs(FCsH)
             L4: 4ring-Cd(Val7Cd)-Cd(Val7Cd)_175
-                L5: 4ring-Cd(Br1sCd)-Cd(Br1sCd)_356
-                L5: 4ring-Cd(Cl1sCd)-Cd(Cl1sCd)_487
+                L5: 4ring-Cd(BrCd)-Cd(BrCd)_356
+                L5: 4ring-Cd(ClCd)-Cd(ClCd)_487
             L4: 4ring-Cd(Val7Cd)=Cd(Val7Cd)_176
-                L5: 4ring-Cd(Br1sCd)=Cd(Br1sCd)_357
-                L5: 4ring-Cd(Cl1sCd)=Cd(Cl1sCd)_488
+                L5: 4ring-Cd(BrCd)=Cd(BrCd)_357
+                L5: 4ring-Cd(ClCd)=Cd(ClCd)_488
             L4: 4ring-Cs(Val7Val7Cs)-Cd(Val7Cd)_177
-                L5: 4ring-Cs(Br1sBr1sCs)-Cd(Br1sCd)_358
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cd(Cl1sCd)_460
-                L5: 4ring-Cs(F1sF1sCs)-Cd(F1sCd)
+                L5: 4ring-Cs(BrBrCs)-Cd(BrCd)_358
+                L5: 4ring-Cs(ClClCs)-Cd(ClCd)_460
+                L5: 4ring-Cs(FFCs)-Cd(FCd)
             L4: 4ring-Cs(Val7Val7O2s)-Cs(Val7CsH)
-                L5: 4ring-Cs(Br1sBr1sO2s)-Cs(Br1sCsH)
-                L5: 4ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sCsH)_436
-                L5: 4ring-Cs(F1sF1sO2s)-Cs(F1sCsH)
+                L5: 4ring-Cs(BrBrO2s)-Cs(BrCsH)
+                L5: 4ring-Cs(ClClO2s)-Cs(ClCsH)_436
+                L5: 4ring-Cs(FFO2s)-Cs(FCsH)
             L4: 4ring-Cd(Val7Cd)-Cs(Val7Val7Cs)_181
-                L5: 4ring-Cd(Br1sCd)-Cs(Br1sBr1sCs)_362
-                L5: 4ring-Cd(F1sCd)-Cs(F1sF1sCs)
+                L5: 4ring-Cd(BrCd)-Cs(BrBrCs)_362
+                L5: 4ring-Cd(FCd)-Cs(FFCs)
             L4: 4ring-Cs(Val7O2sH)-Cs(Val7Cs)
-                L5: 4ring-Cs(Br1sO2sH)-Cs(Br1sCs)
-                L5: 4ring-Cs(Cl1sO2sH)-Cs(Cl1sCs)
-                L5: 4ring-Cs(F1sO2sH)-Cs(F1sCs)
+                L5: 4ring-Cs(BrO2sH)-Cs(BrCs)
+                L5: 4ring-Cs(ClO2sH)-Cs(ClCs)
+                L5: 4ring-Cs(FO2sH)-Cs(FCs)
             L4: 4ring-Cs(Val7O2sH)-Cd(Val7Cd)_183
-                L5: 4ring-Cs(Br1sO2sH)-Cd(Br1sCd)_364
-                L5: 4ring-Cs(Cl1sO2sH)-Cd(Cl1sCd)_500
-                L5: 4ring-Cs(F1sO2sH)-Cd(F1sCd)_649
+                L5: 4ring-Cs(BrO2sH)-Cd(BrCd)_364
+                L5: 4ring-Cs(ClO2sH)-Cd(ClCd)_500
+                L5: 4ring-Cs(FO2sH)-Cd(FCd)_649
             L4: 4ring-Cd(Val7Cd)-Cs(Val7O2s)
-                L5: 4ring-Cd(Cl1sCd)-Cs(Cl1sO2s)
-                L5: 4ring-Cd(F1sCd)-Cs(F1sO2s)
+                L5: 4ring-Cd(ClCd)-Cs(ClO2s)
+                L5: 4ring-Cd(FCd)-Cs(FO2s)
             L4: 4ring-Cs(Val7O2sH)-Cs(Val7Val7Cs)_185
-                L5: 4ring-Cs(Cl1sO2sH)-Cs(Cl1sCl1sCs)
-                L5: 4ring-Cs(F1sO2sH)-Cs(F1sF1sCs)_644
+                L5: 4ring-Cs(ClO2sH)-Cs(ClClCs)
+                L5: 4ring-Cs(FO2sH)-Cs(FFCs)_644
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7Val7Cs)_187
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCl1sCs)
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sF1sCs)
+                L5: 4ring-Cs(ClClCs)-Cs(ClClCs)
+                L5: 4ring-Cs(FFCs)-Cs(FFCs)
             L4: 4ring-Cs(Val7CdH)-Cs(Val7Val7Cd)_188
-                L5: 4ring-Cs(Cl1sCdH)-Cs(Cl1sCl1sCd)
+                L5: 4ring-Cs(ClCdH)-Cs(ClClCd)
             L4: 4ring-Cs(Val7Val7Cd)-Cs(Val7CdH)_190
-                L5: 4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCdH)
-                L5: 4ring-Cs(F1sF1sCd)-Cs(F1sCdH)_606
+                L5: 4ring-Cs(ClClCd)-Cs(ClCdH)
+                L5: 4ring-Cs(FFCd)-Cs(FCdH)_606
             L4: 4ring-Cs(Val7Val7O2s)-Cs(Val7CsH)_191
-                L5: 4ring-Cs(Cl1sCl1sO2s)-Cs(Cl1sCsH)
-                L5: 4ring-Cs(F1sF1sO2s)-Cs(F1sCsH)_636
+                L5: 4ring-Cs(ClClO2s)-Cs(ClCsH)
+                L5: 4ring-Cs(FFO2s)-Cs(FCsH)_636
             L4: 4ring-Cs(Val7Val7Cs)-Cs(Val7CsH)_193
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cs(Cl1sCsH)_428
-                L5: 4ring-Cs(F1sF1sCs)-Cs(F1sCsH)_579
+                L5: 4ring-Cs(ClClCs)-Cs(ClCsH)_428
+                L5: 4ring-Cs(FFCs)-Cs(FCsH)_579
             L4: 4ring-Cs(Val7O2sH)-Cs(Val7CsH)_194
-                L5: 4ring-Cs(Cl1sO2sH)-Cs(Cl1sCsH)
-                L5: 4ring-Cs(F1sO2sH)-Cs(F1sCsH)
+                L5: 4ring-Cs(ClO2sH)-Cs(ClCsH)
+                L5: 4ring-Cs(FO2sH)-Cs(FCsH)
             L4: 4ring-Cd(Val7Cd)-Cs(Val7Val7O2s)
-                L5: 4ring-Cd(Cl1sCd)-Cs(Cl1sCl1sO2s)
-                L5: 4ring-Cd(F1sCd)-Cs(F1sF1sO2s)
+                L5: 4ring-Cd(ClCd)-Cs(ClClO2s)
+                L5: 4ring-Cd(FCd)-Cs(FFO2s)
             L4: 4ring-Cs(Val7Val7Cd)-Cs(Val7Cd)
-                L5: 4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCd)
+                L5: 4ring-Cs(ClClCd)-Cs(ClCd)
             L4: 4ring-Cs(Val7CsH)-Cd(Val7Cd)_201
-                L5: 4ring-Cs(Cl1sCsH)-Cd(Cl1sCd)_472
+                L5: 4ring-Cs(ClCsH)-Cd(ClCd)_472
             L4: 4ring-Cs(Val7Val7Cd)-Cs(Val7Val7Cd)_202
-                L5: 4ring-Cs(Cl1sCl1sCd)-Cs(Cl1sCl1sCd)_475
+                L5: 4ring-Cs(ClClCd)-Cs(ClClCd)_475
             L4: 4ring-Cs(Val7O2s)-Cs(Val7O2sH)
-                L5: 4ring-Cs(Cl1sO2s)-Cs(Cl1sO2sH)
+                L5: 4ring-Cs(ClO2s)-Cs(ClO2sH)
             L4: 4ring-Cs(Val7Val7Cs)-Cd(Val7Cd)_204
-                L5: 4ring-Cs(Cl1sCl1sCs)-Cd(Cl1sCd)_495
+                L5: 4ring-Cs(ClClCs)-Cd(ClCd)_495
             L4: 4ring-Cd(Val7Cd)-Cs(Val7Val7O2s)_206
-                L5: 4ring-Cd(Cl1sCd)-Cs(Cl1sCl1sO2s)_499
+                L5: 4ring-Cd(ClCd)-Cs(ClClO2s)_499
             L4: 4ring-Cs(Val7Val7O2s)-Cs(Val7Cs)
-                L5: 4ring-Cs(F1sF1sO2s)-Cs(F1sCs)
+                L5: 4ring-Cs(FFO2s)-Cs(FCs)
             L4: 4ring-Cs(Val7Val7Cd)-Cs(Val7Val7Cd)_208
-                L5: 4ring-Cs(F1sF1sCd)-Cs(F1sF1sCd)
+                L5: 4ring-Cs(FFCd)-Cs(FFCd)
             L4: 4ring-Cs(Val7O2s)-Cs(Val7Val7O2s)
-                L5: 4ring-Cs(F1sO2s)-Cs(F1sF1sO2s)
+                L5: 4ring-Cs(FO2s)-Cs(FFO2s)
             L4: 4ring-Cs(Val7Val7O2s)-Cs(Val7Val7Cs)
-                L5: 4ring-Cs(F1sF1sO2s)-Cs(F1sF1sCs)
+                L5: 4ring-Cs(FFO2s)-Cs(FFCs)
             L4: 4ring-Cs(Val7Val7Cd)-Cs(Val7CdH)_214
-                L5: 4ring-Cs(F1sF1sCd)-Cs(F1sCdH)_632
+                L5: 4ring-Cs(FFCd)-Cs(FCdH)_632
             L4: 4ring-Cd(Val7Cd)=Cd(Val7Cd)_215
-                L5: 4ring-Cd(F1sCd)=Cd(F1sCd)_638
+                L5: 4ring-Cd(FCd)=Cd(FCd)_638
             L4: 4ring-Cd(Val7Cd)-Cd(Val7Cd)_216
-                L5: 4ring-Cd(F1sCd)-Cd(F1sCd)_639
+                L5: 4ring-Cd(FCd)-Cd(FCd)_639
 """
 )
 
