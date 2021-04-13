@@ -2,9 +2,24 @@
 # encoding: utf-8
 
 name = "CHOClBr_G4"
-shortDesc = ""
+shortDesc = "CHOClBr small molecule G4 thermo library"
 longDesc = """
+This library contains 2040 systematically generated non-cyclic closed and radical
+(multiplicity 1 or 2) small molecules comprised of at least
+1 chlorine atom and 1 bromine atom with hydrogen, oxygen, and carbon.  Each species was calculated
+using AutoTST's automated thermochemistry workflow as follows:
+1) Systematic conformer generation using dftb with the halorg-0-1 parameter set
+(https://www.dftb.org/parameters/download/halorg/halorg-0-1-cc/).
+2) Lowest energy conformer with DFT M062X-D3/JUN-CC-PVTZ using Gaussian 16.
+3) 1D hindered rotors at M062X-D3/JUN-CC-PVTZ in Gaussian 16.
+4) Single point energy evaluation with G4 method.
+5) NASA polynomial obtained from Arkane with 1D Hindered Rotors.
 
+This library should be used as a supporting library for chlororbromine-containing systems.
+The approximate uncertainty for enthalpies of formation with the G4 method is ~1.5 kcal/mol.
+
+Note: This library was used to train thermo groups (group and radical) for chlororbromine-containing
+species.
 """
 entry(
     index = 0,

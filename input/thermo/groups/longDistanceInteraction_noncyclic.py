@@ -35,9 +35,9 @@ JPCA, 1998, 102, 4551-4558
 March-16-2018
 
 Refit NNI interaction terms for chlorine (intCl) and dervied terms for fluroine (intF) and bromine (intBr)
-from species in RMG thermo libraries (primarily from CHOF_G4, CHOCl_G4, CHOBr_G4 libraries).
+from species in RMG thermo libraries (primarily halogen G4 thermo libraries).
 
-August-7-2020
+April-6-2021
 """
 entry(
     index = 0,
