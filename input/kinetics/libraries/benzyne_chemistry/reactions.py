@@ -20,7 +20,7 @@ entry(
         arrhenius = [
             Arrhenius(
                 A = (1.95e+90, '1/s'),
-                n = 21.3,
+                n = -21.3,
                 Ea = (139390, 'cal/mol'),
                 T0 = (1, 'K'),
             ),
