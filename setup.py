@@ -42,10 +42,10 @@ scripts = [
 
 scripts = ['scripts/' + scriptName for scriptName in scripts]
 
-# Initiate the build and/or installation
+# Initiate the installation and/or build 
 setup(
     name='RMG-database',
-    version='3.0.0',
+    version='3.1.0',
     description='Reaction Mechanism Generator Database',
     author='William H. Green and the RMG Team',
     author_email='rmg_dev@mit.edu',
