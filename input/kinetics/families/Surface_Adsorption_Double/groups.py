@@ -57,3 +57,17 @@ L1: Adsorbate
 L1: VacantSite
 """
 )
+
+forbidden(
+    label = "adjacent_radical",
+    group =
+"""
+1 *1 R!H u2 {2,S}
+2    R!H u1 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+forbid atom adjacent to adsorbing atom to have unpaired electrons
+""",
+)
