@@ -9,7 +9,6 @@ env:
     - secure: Y4tbLIssPDkRQZp2lLUtou/YZr3APmhfD3o3tUcv1mqveeg6NBYZ8o6bLSULO3wdm88s1sug23VbP+Gt74XN4Ylbt4GjhKkOxvd+Vut7dR0o0cxsH372AWHYPicCOkuYAfeDK5cqxeXkGibHW1eBdduAAT82wcW5NcD9USyv9ig=
 
 stages:
-  - test
   - name: deploy
     if: branch = stable AND type = push
 
@@ -23,30 +22,10 @@ before_install:
   # Update conda
   - conda update --yes conda
   - conda info -a
-  # Set git info
-  - git config --global user.name "Travis Deploy"
-  - git config --global user.email "rmg_dev@mit.edu"
+
 
 jobs:
   include:
-    - stage: test
-      install:
-        # This is the RMG-database project, so need to fetch RMG-Py
-        - git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
-        - cd RMG-Py
-        - conda env create -q -f environment.yml
-        - source activate rmg_env
-        - conda list
-        # Install Q2DTor
-        - git clone -b arkanepy3 https://github.com/mjohnson541/Q2DTor.git external/Q2DTor
-        - make
-      script:
-        - make test-unittests
-        - make test-functional
-        - make test-database
-      after_success:
-        - cd $TRAVIS_BUILD_DIR
-        - bash ./deploy.sh
     - stage: deploy
       install:
         # Setup conda build
