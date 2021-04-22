@@ -24,8 +24,8 @@ entry(
     label = "MultipleBond",
     group = 
 """
-1 *1 [Cd,Cdd,Ct] u0 {2,[D,T]}
-2 *2 [Cd,Cdd,Ct] u0 {1,[D,T]}
+1 *1 [Cd,Cdd,Ct,O2d] u0 {2,[D,T]}
+2 *2 [Cd,Cdd,Ct,CO] u0 {1,[D,T]}
 """,
     kinetics = None,
 )
@@ -58,6 +58,17 @@ entry(
 """
 1 *1 Ct u0 {2,T}
 2 *2 Ct u0 {1,T}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 171,
+    label = "CO_O2d",
+    group =
+"""
+1 *1 O2d u0 {2,D}
+2 *2 CO u0 {1,D}
 """,
     kinetics = None,
 )
@@ -815,6 +826,7 @@ entry(
 tree(
 """
 L1: MultipleBond
+    L2: CO_O2d
     L2: Ct_Ct
     L2: Cd_Cd
         L3: Cd/unsub_Cd/unsub
@@ -872,3 +884,19 @@ L1: X_Y
         L3: Br2
        """
 )
+
+# forbidden(
+#     label = "O-X",
+#     group =
+# """
+# 1 *1 O2s u0 {2,S} {3,S}
+# 2 *2 C u0 {1,S} {4,S}
+# 3 *3 Val7 u0 {1,S}
+# 4 *4 Val7 u0 {2,S}
+# """,
+#     shortDesc = """""",
+#     longDesc =
+# """
+
+# """,
+# )
