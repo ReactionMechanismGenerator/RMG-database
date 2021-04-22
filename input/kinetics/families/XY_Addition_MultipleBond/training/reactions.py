@@ -233,3 +233,45 @@ Original entry: CF3CCH + HBR <=> BTP
 """,
 )
 
+entry(
+    index = 19,
+    label = "C3H2F4 <=> C3HF3-2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+51,'s^-1'), n=-10.897, Ea=(102870,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CHFCHCF3 <=> HF + CF3CCH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: NIST_Fluorine/reduced
+Original entry: CHFCHCF3 <=> HF + CF3CCH
+""",
+)
+
+entry(
+    index = 20,
+    label = "C3H2F4-2 <=> C3HF3 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.1e+44,'s^-1'), n=-8.492, Ea=(99304,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2CFCF3 <=> CF3CCH + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: NIST_Fluorine/reduced
+Original entry: CH2CFCF3 <=> CF3CCH + HF
+""",
+)
+
+entry(
+    index = 21,
+    label = "CF3OH <=> CF2O + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.94e+11,'s^-1'), n=0.45, Ea=(45.2,'kcal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """CF3OH Decomposition""",
+    longDesc = 
+"""
+https://pubs.acs.org/doi/pdf/10.1021/jp709796n
+""",
+)
+
+
