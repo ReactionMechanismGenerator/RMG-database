@@ -6188,13 +6188,13 @@ entry(
     shortDesc = """The chemkin file reaction is CH2CFCF3 + O2 <=> E-CHCFCF3 + HO2""",
 )
 
-entry(
-    index = 761,
-    label = "Z-CHCFCF3 <=> E-CHCFCF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.552e+09,'s^-1'), n=-0.654, Ea=(129,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is Z-CHCFCF3 <=> E-CHCFCF3""",
-)
+# entry(
+#     index = 761,
+#     label = "Z-CHCFCF3 <=> E-CHCFCF3",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(6.552e+09,'s^-1'), n=-0.654, Ea=(129,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is Z-CHCFCF3 <=> E-CHCFCF3""",
+# )
 
 entry(
     index = 762,
@@ -6207,11 +6207,12 @@ entry(
 
 entry(
     index = 763,
-    label = "Z-CHCFCF3 + O <=> CHOCFCF3",
+    label = "E-CHCFCF3 + O <=> CHOCFCF3",
     degeneracy = 1.0,
     duplicate = True,
     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(2.581e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.955e+31,'cm^6/(mol^2*s)'), n=-17.107, Ea=(9405,'cal/mol'), T0=(1,'K')), efficiencies={}),
     shortDesc = """The chemkin file reaction is Z-CHCFCF3 + O <=> CHOCFCF3""",
+    longDesc = "Z-CHCFCF3 changed to E-CHCFCF3"
 )
 
 entry(

@@ -1737,17 +1737,6 @@ multiplicity 2
 7 C u1 p0 c0 {6,D} {8,S}
 8 H u0 p0 c0 {7,S}
 
-Z-CHCFCF3
-multiplicity 2
-1 F u0 p3 c0 {5,S}
-2 F u0 p3 c0 {5,S}
-3 F u0 p3 c0 {5,S}
-4 F u0 p3 c0 {6,S}
-5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
-6 C u0 p0 c0 {4,S} {5,S} {7,D}
-7 C u1 p0 c0 {6,D} {8,S}
-8 H u0 p0 c0 {7,S}
-
 CHOCFCF3
 multiplicity 2
 1 F u0 p3 c0 {6,S}
