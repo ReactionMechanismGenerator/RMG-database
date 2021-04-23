@@ -4176,7 +4176,7 @@ entry(
 
 entry(
     index = 172,
-    label = "CH3CO + CF3 <=> CF3COCH3",
+    label = "C2H3O + CF3 <=> CF3COCH3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -4238,7 +4238,7 @@ entry(
 )
 entry(
     index = 179,
-    label = "CHO + C2H3 <=> C3H4O-2",
+    label = "CHO + C2H3 <=> C3H4O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.8e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4252,7 +4252,7 @@ Original entry: C2H3 + HCO <=> C2H3CHO
 
 entry(
     index = 180,
-    label = "C2H3 + C2H3 <=> C4H6-6",
+    label = "C2H3 + C2H3 <=> C4H6-4",
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(1.5e+42,'cm^3/(mol*s)'), n=-8.84, Ea=(12483,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4266,7 +4266,7 @@ Original entry: C2H3 + C2H3 <=> C4H6
 
 entry(
     index = 181,
-    label = "H + C3H3 <=> C3H4-3",
+    label = "H + C3H3 <=> C3H4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4280,7 +4280,7 @@ Original entry: C3H3 + H <=> pC3H4
 
 entry(
     index = 182,
-    label = "H + C3H3-2 <=> C3H4-4",
+    label = "H + C3H3-2 <=> C3H4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4308,7 +4308,7 @@ Original entry: CH3CCH2 + CH3 <=> iC4H8
 
 entry(
     index = 184,
-    label = "H + C3H3O <=> C3H4O-3",
+    label = "H + C3H3O <=> C3H4O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4350,7 +4350,7 @@ Original entry: iC4H3 + H <=> C4H4
 
 entry(
     index = 187,
-    label = "C4H6-7 <=> C4H5 + H",
+    label = "C4H6-2 <=> C4H5 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.7e+36,'s^-1'), n=-6.27, Ea=(112353,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4392,7 +4392,7 @@ Original entry: C4H612 <=> iC4H5 + H
 
 entry(
     index = 190,
-    label = "C4H6-10 <=> C4H5-2 + H",
+    label = "C4H6-3 <=> C4H5-2 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+15,'s^-1'), n=0, Ea=(87300,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4434,7 +4434,7 @@ Original entry: CH2CHCHCHO + H <=> CH3CHCHCHO
 
 entry(
     index = 193,
-    label = "C2H3O + CH3 <=> C3H6O-3",
+    label = "C2H3O + CH3 <=> C3H6O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+15,'cm^3/(mol*s)'), n=-0.8, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4462,7 +4462,7 @@ Original entry: C6H3 + H <=> l-C6H4
 
 entry(
     index = 195,
-    label = "CH3 + C6H5 <=> C7H8-6",
+    label = "CH3 + C6H5 <=> C7H8-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.38e+13,'cm^3/(mol*s)'), n=0, Ea=(46,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4546,7 +4546,7 @@ Original entry: C2H4OH + O2 <=> HOC2H4O2
 
 entry(
     index = 201,
-    label = "H + CH2F <=> CH3F-2",
+    label = "H + CH2F <=> CH3F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.03e+21,'cm^3/(mol*s)'), n=-3.38, Ea=(3460,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4560,7 +4560,7 @@ Original entry: CH2F + H <=> CH3F
 
 entry(
     index = 202,
-    label = "H + CHF2 <=> CH2F2-2",
+    label = "H + CHF2 <=> CH2F2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.75e+06,'cm^3/(mol*s)'), n=-0.32, Ea=(7690,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4574,7 +4574,7 @@ Original entry: CHF2 + H <=> CH2F2
 
 entry(
     index = 203,
-    label = "F + CFO <=> CF2O-2",
+    label = "F + CFO <=> CF2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
@@ -4998,7 +4998,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 10,
-    shortDesc = """The chemkin file reaction is CH3CO + CF3 <=> CF3COCH3""",
+    shortDesc = """The chemkin file reaction is C2H3O + CF3 <=> CF3COCH3""",
     longDesc = 
 """
 Training reaction from kinetics library: 2-BTP
