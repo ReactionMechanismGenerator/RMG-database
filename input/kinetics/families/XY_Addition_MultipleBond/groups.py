@@ -24,8 +24,8 @@ entry(
     label = "MultipleBond",
     group = 
 """
-1 *1 [Cd,Cdd,Ct,O2d] u0 {2,[D,T]}
-2 *2 [Cd,Cdd,Ct,CO] u0 {1,[D,T]}
+1 *1 [Cd,Cdd,Ct,CO,O2d] u0 {2,[D,T]}
+2 *2 [Cd,Cdd,Ct,CO,O2d] u0 {1,[D,T]}
 """,
     kinetics = None,
 )
@@ -67,8 +67,8 @@ entry(
     label = "CO_O2d",
     group =
 """
-1 *1 O2d u0 {2,D}
-2 *2 CO u0 {1,D}
+1 *1 [CO,O2d] u0 {2,D}
+2 *2 [CO,O2d] u0 {1,D}
 """,
     kinetics = None,
 )
