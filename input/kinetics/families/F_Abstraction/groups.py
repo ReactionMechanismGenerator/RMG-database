@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "X_F_or_Xrad_F_Xbirad_F_Xtrirad_F",
-    group = "OR{Xtrirad_H, Xbirad_H, Xrad_H, X_H}",
+    group = "OR{Xtrirad_H, Xbirad_H, Xrad_F, X_H}",
     kinetics = None,
 )
 
@@ -82,7 +82,7 @@ entry(
 
 entry(
     index = 7,
-    label = "CH2_triplet_H",
+    label = "C_triplet_F",
     group =
 """
 1 *1 Cs u2 {2,S} {3,S}
@@ -94,7 +94,7 @@ entry(
 
 entry(
     index = 8,
-    label = "CH2_triplet_H-F",
+    label = "C_triplet_F-F",
     group =
 """
 1 *1 Cs  u2 {2,S} {3,S}
@@ -106,7 +106,7 @@ entry(
 
 entry(
     index = 9,
-    label = "CH2_triplet_H-Cl",
+    label = "C_triplet_F-Cl",
     group =
 """
 1 *1 Cs   u2 {2,S} {3,S}
@@ -118,7 +118,7 @@ entry(
 
 entry(
     index = 10,
-    label = "CH2_triplet_H-Br",
+    label = "C_triplet_F-Br",
     group =
 """
 1 *1 Cs   u2 {2,S} {3,S}
@@ -142,7 +142,7 @@ entry(
 
 entry(
     index = 12,
-    label = "CH2_singlet_H",
+    label = "C_singlet_F",
     group =
 """
 1 *1 C u0 p1 {2,S} {3,S}
@@ -154,7 +154,7 @@ entry(
 
 entry(
     index = 13,
-    label = "CH2_singlet_H-F",
+    label = "C_singlet_F-F",
     group =
 """
 1 *1 C   u0 p1 {2,S} {3,S}
@@ -166,7 +166,7 @@ entry(
 
 entry(
     index = 14,
-    label = "CH2_singlet_H-Cl",
+    label = "C_singlet_F-Cl",
     group =
 """
 1 *1 C    u0 p1 {2,S} {3,S}
@@ -178,7 +178,7 @@ entry(
 
 entry(
     index = 15,
-    label = "CH2_singlet_H-Br",
+    label = "C_singlet_F-Br",
     group =
 """
 1 *1 C    u0 p1 {2,S} {3,S}
@@ -212,7 +212,7 @@ entry(
 
 entry(
     index = 18,
-    label = "Xrad_H",
+    label = "Xrad_F",
     group =
 """
 1 *1 R!H!Val7 u1 {2,S}
@@ -223,7 +223,7 @@ entry(
 
 entry(
     index = 19,
-    label = "C_rad_H",
+    label = "C_rad_F",
     group =
 """
 1 *1 C u1 {2,S}
@@ -247,7 +247,7 @@ entry(
 
 entry(
     index = 21,
-    label = "CH3_rad_H",
+    label = "C_rad_H2F",
     group =
 """
 1 *1 Cs u1 {2,S} {3,S} {4,S}
@@ -260,7 +260,7 @@ entry(
 
 entry(
     index = 22,
-    label = "CH3_rad_H-HF",
+    label = "C_rad_F-HF",
     group =
 """
 1 *1 Cs  u1 {2,S} {3,S} {4,S}
@@ -273,7 +273,7 @@ entry(
 
 entry(
     index = 23,
-    label = "CH3_rad_H-HCl",
+    label = "C_rad_F-HCl",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -286,7 +286,7 @@ entry(
 
 entry(
     index = 24,
-    label = "CH3_rad_H-HBr",
+    label = "C_rad_F-HBr",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -299,7 +299,7 @@ entry(
 
 entry(
     index = 25,
-    label = "CH3_rad_H-FF",
+    label = "C_rad_F-FF",
     group =
 """
 1 *1 Cs  u1 {2,S} {3,S} {4,S}
@@ -312,7 +312,7 @@ entry(
 
 entry(
     index = 26,
-    label = "CH3_rad_H-FCl",
+    label = "C_rad_F-FCl",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -325,7 +325,7 @@ entry(
 
 entry(
     index = 27,
-    label = "CH3_rad_H-FBr",
+    label = "C_rad_F-FBr",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -338,7 +338,7 @@ entry(
 
 entry(
     index = 28,
-    label = "CH3_rad_H-ClCl",
+    label = "C_rad_F-ClCl",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -351,7 +351,7 @@ entry(
 
 entry(
     index = 29,
-    label = "CH3_rad_H-ClBr",
+    label = "C_rad_F-ClBr",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -364,7 +364,7 @@ entry(
 
 entry(
     index = 30,
-    label = "CH3_rad_H-BrBr",
+    label = "C_rad_F-BrBr",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -17065,30 +17065,30 @@ L1: X_F_or_Xrad_F_Xbirad_F_Xtrirad_F
         L3: C_quartet_H
     L2: Xbirad_H
         L3: C/H_or_Val7/2_triplet_/H_or_Val7/
-            L4: CH2_triplet_H
-            L4: CH2_triplet_H-F
-            L4: CH2_triplet_H-Cl
-            L4: CH2_triplet_H-Br
+            L4: C_triplet_F
+            L4: C_triplet_F-F
+            L4: C_triplet_F-Cl
+            L4: C_triplet_F-Br
         L3: C/H_or_Val7/2_singlet_/H_or_Val7/
-            L4: CH2_singlet_H
-            L4: CH2_singlet_H-F
-            L4: CH2_singlet_H-Cl
-            L4: CH2_singlet_H-Br
+            L4: C_singlet_F
+            L4: C_singlet_F-F
+            L4: C_singlet_F-Cl
+            L4: C_singlet_F-Br
         L3: NH_triplet_H
         L3: NH_singlet_H
-    L2: Xrad_H
-        L3: C_rad_H
+    L2: Xrad_F
+        L3: C_rad_F
             L4: C/H_or_Val7/3_rad_/H_or_Val7/
-                L5: CH3_rad_H
-                L5: CH3_rad_H-HF
-                L5: CH3_rad_H-HCl
-                L5: CH3_rad_H-HBr
-                L5: CH3_rad_H-FF
-                L5: CH3_rad_H-FCl
-                L5: CH3_rad_H-FBr
-                L5: CH3_rad_H-ClCl
-                L5: CH3_rad_H-ClBr
-                L5: CH3_rad_H-BrBr
+                L5: C_rad_H2F
+                L5: C_rad_F-HF
+                L5: C_rad_F-HCl
+                L5: C_rad_F-HBr
+                L5: C_rad_F-FF
+                L5: C_rad_F-FCl
+                L5: C_rad_F-FBr
+                L5: C_rad_F-ClCl
+                L5: C_rad_F-ClBr
+                L5: C_rad_F-BrBr
             L4: Cs/H_or_Val7/2/OneDeN
                 L5: Cs/H2/OneDeN
                 L5: Cs/H2/OneDeN-F
