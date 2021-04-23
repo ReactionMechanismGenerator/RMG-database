@@ -11071,6 +11071,7 @@ entry(
     index = 1374,
     label = "CH4 + F <=> CH3 + HF",
     degeneracy = 1.0,
+    allow_max_rate_violation=True,
     kinetics = Arrhenius(A=(1.33e+14,'cm^3/(mol*s)'), n=0.5, Ea=(700,'cal/mol'), T0=(1,'K')),
     shortDesc = """The chemkin file reaction is CH4 + F <=> CH3 + HF""",
 )
@@ -11714,6 +11715,7 @@ entry(
     duplicate = True,
     kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(2e+14,'cm^3/(mol*s)'), n=0, Ea=(9560,'cal/mol'), T0=(1,'K')), Arrhenius(A=(5.72e+12,'cm^3/(mol*s)'), n=1.74, Ea=(7700,'cal/mol'), T0=(1,'K'))]),
     shortDesc = """The chemkin file reaction is CF3CCH + H <=> C2H2 + CF3""",
+    allow_max_rate_violation=True,
 )
 
 entry(
