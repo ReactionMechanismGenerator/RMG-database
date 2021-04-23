@@ -94,7 +94,7 @@ entry(
 
 entry(
     index = 8,
-    label = "CH2_triplet_H-F",
+    label = "CHF_triplet",
     group =
 """
 1 *1 Cs  u2 {2,S} {3,S}
@@ -106,7 +106,7 @@ entry(
 
 entry(
     index = 9,
-    label = "CH2_triplet_H-Cl",
+    label = "CHCl_triplet",
     group =
 """
 1 *1 Cs   u2 {2,S} {3,S}
@@ -118,7 +118,7 @@ entry(
 
 entry(
     index = 10,
-    label = "CH2_triplet_H-Br",
+    label = "CHBr_triplet",
     group =
 """
 1 *1 Cs   u2 {2,S} {3,S}
@@ -142,7 +142,7 @@ entry(
 
 entry(
     index = 12,
-    label = "CH2_singlet_H",
+    label = "CH2_singlet",
     group =
 """
 1 *1 C u0 p1 {2,S} {3,S}
@@ -154,7 +154,7 @@ entry(
 
 entry(
     index = 13,
-    label = "CH2_singlet_H-F",
+    label = "CHF_singlet",
     group =
 """
 1 *1 C   u0 p1 {2,S} {3,S}
@@ -166,7 +166,7 @@ entry(
 
 entry(
     index = 14,
-    label = "CH2_singlet_H-Cl",
+    label = "CHCl_singlet",
     group =
 """
 1 *1 C    u0 p1 {2,S} {3,S}
@@ -178,7 +178,7 @@ entry(
 
 entry(
     index = 15,
-    label = "CH2_singlet_H-Br",
+    label = "CHBr_singlet",
     group =
 """
 1 *1 C    u0 p1 {2,S} {3,S}
@@ -247,7 +247,7 @@ entry(
 
 entry(
     index = 21,
-    label = "CH3_rad_H",
+    label = "CH3_rad",
     group =
 """
 1 *1 Cs u1 {2,S} {3,S} {4,S}
@@ -260,7 +260,7 @@ entry(
 
 entry(
     index = 22,
-    label = "CH3_rad_H-HF",
+    label = "CH2F",
     group =
 """
 1 *1 Cs  u1 {2,S} {3,S} {4,S}
@@ -273,7 +273,7 @@ entry(
 
 entry(
     index = 23,
-    label = "CH3_rad_H-HCl",
+    label = "CH2Cl",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -286,7 +286,7 @@ entry(
 
 entry(
     index = 24,
-    label = "CH3_rad_H-HBr",
+    label = "CH2Br",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -299,7 +299,7 @@ entry(
 
 entry(
     index = 25,
-    label = "CH3_rad_H-FF",
+    label = "CHF2",
     group =
 """
 1 *1 Cs  u1 {2,S} {3,S} {4,S}
@@ -312,7 +312,7 @@ entry(
 
 entry(
     index = 26,
-    label = "CH3_rad_H-FCl",
+    label = "CHFCl",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -325,7 +325,7 @@ entry(
 
 entry(
     index = 27,
-    label = "CH3_rad_H-FBr",
+    label = "CHFBr",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -338,7 +338,7 @@ entry(
 
 entry(
     index = 28,
-    label = "CH3_rad_H-ClCl",
+    label = "CHCl2",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -351,7 +351,7 @@ entry(
 
 entry(
     index = 29,
-    label = "CH3_rad_H-ClBr",
+    label = "CHClBr",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -364,7 +364,7 @@ entry(
 
 entry(
     index = 30,
-    label = "CH3_rad_H-BrBr",
+    label = "CHBr2",
     group =
 """
 1 *1 Cs   u1 {2,S} {3,S} {4,S}
@@ -2446,7 +2446,7 @@ entry(
 
 entry(
     index = 192,
-    label = "C_methane-HHF",
+    label = "CH3F",
     group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
@@ -2460,7 +2460,7 @@ entry(
 
 entry(
     index = 193,
-    label = "C_methane-HHCl",
+    label = "CH3Cl",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2474,7 +2474,7 @@ entry(
 
 entry(
     index = 194,
-    label = "C_methane-HHBr",
+    label = "CH3Br",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2488,7 +2488,7 @@ entry(
 
 entry(
     index = 195,
-    label = "C_methane-HFF",
+    label = "CH2F2",
     group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
@@ -2502,7 +2502,7 @@ entry(
 
 entry(
     index = 196,
-    label = "C_methane-HFCl",
+    label = "CH2FCl",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2516,7 +2516,7 @@ entry(
 
 entry(
     index = 197,
-    label = "C_methane-HFBr",
+    label = "CH2FBr",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2530,7 +2530,7 @@ entry(
 
 entry(
     index = 198,
-    label = "C_methane-HClCl",
+    label = "CH2Cl2",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2544,7 +2544,7 @@ entry(
 
 entry(
     index = 199,
-    label = "C_methane-HClBr",
+    label = "CH2ClBr",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2558,7 +2558,7 @@ entry(
 
 entry(
     index = 200,
-    label = "C_methane-HBrBr",
+    label = "CH2Br2",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2572,7 +2572,7 @@ entry(
 
 entry(
     index = 201,
-    label = "C_methane-FFF",
+    label = "CHF3",
     group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
@@ -2586,7 +2586,7 @@ entry(
 
 entry(
     index = 202,
-    label = "C_methane-FFCl",
+    label = "CHF2Cl",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2600,7 +2600,7 @@ entry(
 
 entry(
     index = 203,
-    label = "C_methane-FFBr",
+    label = "CHF2Br",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2614,7 +2614,7 @@ entry(
 
 entry(
     index = 204,
-    label = "C_methane-FClCl",
+    label = "CHFCl2",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2628,7 +2628,7 @@ entry(
 
 entry(
     index = 205,
-    label = "C_methane-FClBr",
+    label = "CHFClBr",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2642,7 +2642,7 @@ entry(
 
 entry(
     index = 206,
-    label = "C_methane-FBrBr",
+    label = "CHFBr2",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2656,7 +2656,7 @@ entry(
 
 entry(
     index = 207,
-    label = "C_methane-ClClCl",
+    label = "CHCl3",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2670,7 +2670,7 @@ entry(
 
 entry(
     index = 208,
-    label = "C_methane-ClClBr",
+    label = "CHCl2Br",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2684,7 +2684,7 @@ entry(
 
 entry(
     index = 209,
-    label = "C_methane-ClBrBr",
+    label = "CHClBr2",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -2698,7 +2698,7 @@ entry(
 
 entry(
     index = 210,
-    label = "C_methane-BrBrBr",
+    label = "CHBr3",
     group =
 """
 1 *1 C    u0 {2,S} {3,S} {4,S} {5,S}
@@ -17087,29 +17087,29 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
     L2: Xbirad_H
         L3: C/H_or_Val7/2_triplet_/H_or_Val7/
             L4: CH2_triplet_H
-            L4: CH2_triplet_H-F
-            L4: CH2_triplet_H-Cl
-            L4: CH2_triplet_H-Br
+            L4: CHF_triplet
+            L4: CHCl_triplet
+            L4: CHBr_triplet
         L3: C/H_or_Val7/2_singlet_/H_or_Val7/
-            L4: CH2_singlet_H
-            L4: CH2_singlet_H-F
-            L4: CH2_singlet_H-Cl
-            L4: CH2_singlet_H-Br
+            L4: CH2_singlet
+            L4: CHF_singlet
+            L4: CHCl_singlet
+            L4: CHBr_singlet
         L3: NH_triplet_H
         L3: NH_singlet_H
     L2: Xrad_H
         L3: C_rad_H
             L4: C/H_or_Val7/3_rad_/H_or_Val7/
-                L5: CH3_rad_H
-                L5: CH3_rad_H-HF
-                L5: CH3_rad_H-HCl
-                L5: CH3_rad_H-HBr
-                L5: CH3_rad_H-FF
-                L5: CH3_rad_H-FCl
-                L5: CH3_rad_H-FBr
-                L5: CH3_rad_H-ClCl
-                L5: CH3_rad_H-ClBr
-                L5: CH3_rad_H-BrBr
+                L5: CH3_rad
+                L5: CH2F
+                L5: CH2Cl
+                L5: CH2Br
+                L5: CHF2
+                L5: CHFCl
+                L5: CHFBr
+                L5: CHCl2
+                L5: CHClBr
+                L5: CHBr2
             L4: Cs/H_or_Val7/2/OneDeN
                 L5: Cs/H2/OneDeN
                 L5: Cs/H2/OneDeN-F
@@ -17271,25 +17271,25 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: Cs_H
             L4: C_methane-H_or_Val7-3
                 L5: C_methane
-                L5: C_methane-HHF
-                L5: C_methane-HHCl
-                L5: C_methane-HHBr
-                L5: C_methane-HFF
-                L5: C_methane-HFCl
-                L5: C_methane-HFBr
-                L5: C_methane-HClCl
-                L5: C_methane-HClBr
-                L5: C_methane-HBrBr
-                L5: C_methane-FFF
-                L5: C_methane-FFCl
-                L5: C_methane-FFBr
-                L5: C_methane-FClCl
-                L5: C_methane-FClBr
-                L5: C_methane-FBrBr
-                L5: C_methane-ClClCl
-                L5: C_methane-ClClBr
-                L5: C_methane-ClBrBr
-                L5: C_methane-BrBrBr
+                L5: CH3F
+                L5: CH3Cl
+                L5: CH3Br
+                L5: CH2F2
+                L5: CH2FCl
+                L5: CH2FBr
+                L5: CH2Cl2
+                L5: CH2ClBr
+                L5: CH2Br2
+                L5: CHF3
+                L5: CHF2Cl
+                L5: CHF2Br
+                L5: CHFCl2
+                L5: CHFClBr
+                L5: CHFBr2
+                L5: CHCl3
+                L5: CHCl2Br
+                L5: CHClBr2
+                L5: CHBr3
             L4: C_pri-H_or_Val7-2
                 L5: C_pri
                     L6: C/H3/Cs
