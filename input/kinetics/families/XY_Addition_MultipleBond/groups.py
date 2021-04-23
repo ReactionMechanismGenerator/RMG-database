@@ -64,11 +64,29 @@ entry(
 
 entry(
     index = 171,
+    label = "C_O",
+    group = "OR{CO_O2d, O2d_CO}",
+    kinetics = None,
+)
+
+entry(
+    index = 172,
     label = "CO_O2d",
     group =
 """
-1 *1 [CO,O2d] u0 {2,D}
-2 *2 [CO,O2d] u0 {1,D}
+1 *1 CO  u0 {2,D}
+2 *2 O2d u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 173,
+    label = "O2d_CO",
+    group =
+"""
+1 *1 O2d  u0 {2,D}
+2 *2 CO u0 {1,D}
 """,
     kinetics = None,
 )
@@ -826,7 +844,9 @@ entry(
 tree(
 """
 L1: MultipleBond
-    L2: CO_O2d
+    L2: C_O
+        L3: CO_O2d
+        L3: O2d_CO
     L2: Ct_Ct
     L2: Cd_Cd
         L3: Cd/unsub_Cd/unsub
