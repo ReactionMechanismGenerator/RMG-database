@@ -52226,19 +52226,19 @@ Original entry: CH4 + CH2 <=> CH3 + CH3
 """,
 )
 
-entry(
-    index = 43058,
-    label = "F + CH4b <=> HF + CH3_p1",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(A=(1.33e+14,'cm^3/(mol*s)'), n=0.5, Ea=(700,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """The chemkin file reaction is CH4 + F <=> CH3 + HF""",
-    longDesc = 
-"""
-Training reaction from kinetics library: YF
-Original entry: CH4 + F <=> CH3 + HF
-""",
-)
+# entry(
+#     index = 43058,
+#     label = "F + CH4b <=> HF + CH3_p1",
+#     degeneracy = 4.0,
+#     kinetics = Arrhenius(A=(1.33e+14,'cm^3/(mol*s)'), n=0.5, Ea=(700,'cal/mol'), T0=(1,'K')),
+#     rank = 10,
+#     shortDesc = """The chemkin file reaction is CH4 + F <=> CH3 + HF""",
+#     longDesc = 
+# """
+# Training reaction from kinetics library: YF
+# Original entry: CH4 + F <=> CH3 + HF
+# """,
+# )
 
 entry(
     index = 43059,
