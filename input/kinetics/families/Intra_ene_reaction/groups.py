@@ -31,7 +31,7 @@ entry(
 3 *3 C u0 {2,[D,T]} {4,[S,D]}
 4 *4 C u0 {3,[S,D]} {5,[D,T]}
 5 *5 C u0 {1,[S,D]} {4,[D,T]}
-6 *6 H u0 {1,S}
+6 *6 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -42,7 +42,7 @@ entry(
     group = 
 """
 1 *1 C u0 {2,S}
-2 *6 H u0 {1,S}
+2 *6 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -67,7 +67,7 @@ entry(
 3 *3 Cd u0 {2,D} {4,S}
 4 *4 Cd u0 {3,S} {5,D}
 5 *5 Cd u0 {1,S} {4,D}
-6 *6 H  u0 {1,S}
+6 *6 [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -82,7 +82,7 @@ entry(
 3  *3 Cd u0 {2,D} {4,S}
 4  *4 Cd u0 {3,S} {5,D}
 5  *5 Cd u0 {1,S} {4,D} {10,S}
-6  *6 H  u0 {1,S}
+6  *6 [H,Val7]  u0 {1,S}
 7     Cd u0 {1,S} {8,D}
 8     Cd u0 {7,D} {9,S}
 9     Cd u0 {8,S} {10,D}
@@ -101,7 +101,7 @@ entry(
 3  *3 Cd u0 {2,D} {4,S} {7,S}
 4  *4 Cd u0 {3,S} {5,D} {10,S}
 5  *5 Cd u0 {1,S} {4,D}
-6  *6 H  u0 {1,S}
+6  *6 [H,Val7]  u0 {1,S}
 7     Cd u0 {3,S} {8,D}
 8     Cd u0 {7,D} {9,S}
 9     Cd u0 {8,S} {10,D}
@@ -120,7 +120,7 @@ entry(
 3 *3 Cd  u0 {2,D} {4,S} {7,S}
 4 *4 Cd  u0 {3,S} {5,D} {8,S}
 5 *5 Cdd u0 {1,D} {4,D}
-6 *6 H   u0 {1,S}
+6 *6 [H,Val7]   u0 {1,S}
 7    R   u0 {3,S}
 8    R   u0 {4,S}
 """,
@@ -137,7 +137,7 @@ entry(
 3 *3 Cd u0 {2,D} {4,S} {7,S}
 4 *4 Cd u0 {3,S} {5,D} {8,S}
 5 *5 Cd u0 {1,S} {4,D} {9,S}
-6 *6 H  u0 {1,S}
+6 *6 [H,Val7]  u0 {1,S}
 7    R  u0 {3,S}
 8    R  u0 {4,S}
 9    R  u0 {5,S}
@@ -155,7 +155,7 @@ entry(
 3 *3 Ct u0 {2,T} {4,S}
 4 *4 Cd u0 {3,S} {5,D} {7,S}
 5 *5 Cd u0 {1,S} {4,D} {8,S}
-6 *6 H  u0 {1,S}
+6 *6 [H,Val7]  u0 {1,S}
 7    R  u0 {4,S}
 8    R  u0 {5,S}
 """,
@@ -168,8 +168,8 @@ entry(
     group = 
 """
 1 *1 Cd u0 {2,S} {3,S}
-2 *6 H  u0 {1,S}
-3    H  u0 {1,S}
+2 *6 [H,Val7]  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -180,7 +180,7 @@ entry(
     group = 
 """
 1 *1 Cd u0 {2,S} {3,S}
-2 *6 H  u0 {1,S}
+2 *6 [H,Val7]  u0 {1,S}
 3    C  u0 {1,S}
 """,
     kinetics = None,
@@ -192,9 +192,9 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {3,S} {4,S}
-2 *6 H  u0 {1,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
+2 *6 [H,Val7]  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
+4    [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -205,8 +205,8 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {3,S} {4,S}
-2 *6 H  u0 {1,S}
-3    H  u0 {1,S}
+2 *6 [H,Val7]  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
 4    C  u0 {1,S}
 """,
     kinetics = None,
@@ -218,7 +218,7 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {3,S} {4,S}
-2 *6 H  u0 {1,S}
+2 *6 [H,Val7]  u0 {1,S}
 3    C  u0 {1,S}
 4    C  u0 {1,S}
 """,
@@ -231,7 +231,7 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {3,S}
-2 *6 H  u0 {1,S}
+2 *6 [H,Val7]  u0 {1,S}
 3    C  u1 {1,S}
 """,
     kinetics = None,
@@ -243,7 +243,7 @@ entry(
     group = 
 """
 1 *1 Cd u0 {2,S} {3,D}
-2 *6 H  u0 {1,S}
+2 *6 [H,Val7]  u0 {1,S}
 3    C  u0 {1,D}
 """,
     kinetics = None,
@@ -255,8 +255,8 @@ entry(
     group = 
 """
 1 *2 Cd u0 {2,S} {3,S}
-2    H  u0 {1,S}
-3    H  u0 {1,S}
+2    [H,Val7]  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -267,7 +267,7 @@ entry(
     group = 
 """
 1 *2 Cd u0 {2,S} {3,S}
-2    H  u0 {1,S}
+2    [H,Val7]  u0 {1,S}
 3    C  u0 {1,S}
 """,
     kinetics = None,
@@ -313,7 +313,7 @@ entry(
     group = 
 """
 1 *2 Ct u0 {2,S}
-2    H  u0 {1,S}
+2    [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -335,7 +335,7 @@ entry(
     group = 
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S}
-2 *6 H   u0 {1,S}
+2 *6 [H,Val7]   u0 {1,S}
 3    O   u1 {1,S}
 4    CO  u0 {1,S}
 """,
@@ -348,7 +348,7 @@ entry(
     group = 
 """
 1 *2 Cd  u0 {2,S} {3,S}
-2    H   u0 {1,S}
+2    [H,Val7]   u0 {1,S}
 3    CO  u0 {1,S}
 """,
     kinetics = None,
@@ -360,8 +360,8 @@ entry(
     group = 
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S}
-2 *6 H   u0 {1,S}
-3    H   u0 {1,S}
+2 *6 [H,Val7]   u0 {1,S}
+3    [H,Val7]   u0 {1,S}
 4    CO  u0 {1,S}
 """,
     kinetics = None,
@@ -397,7 +397,7 @@ entry(
     group = 
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S}
-2 *6 H   u0 {1,S}
+2 *6 [H,Val7]   u0 {1,S}
 3    O   u1 {1,S}
 4    C   u0 {1,S}
 """,
@@ -447,7 +447,7 @@ forbidden(
 3 *3 C   u0 {2,[D,T]} {4,[S,D]}
 4 *4 C   u0 {3,[S,D]} {5,[D,T]}
 5 *5 C   u0 {1,[S,D]} {4,[D,T]} {7,S}
-6 *6 H   u0 {1,S}
+6 *6 [H,Val7]   u0 {1,S}
 7    R!H u1 {5,S}
 """,
     shortDesc = u"""""",
