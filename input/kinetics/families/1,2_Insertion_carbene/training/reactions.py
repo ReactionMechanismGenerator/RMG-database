@@ -331,3 +331,31 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 """,
 )
 
+entry(
+    index = 12,
+    label = "CHF_r1 + H2_r23 <=> CF_p123",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.25e+17,'cm^3/(mol*s)'), n=-2.85, Ea=(13000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 13,
+    label = "CF4_r23 + CF2_r1 => FC(F)(F)C(F)(F)F_p123",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(51000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 14,
+    label = "CF2_r1 + H2_r23 <=> FCF_p123",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.7e+06,'cm^3/(mol*s)'), n=-0.71, Ea=(40900,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
