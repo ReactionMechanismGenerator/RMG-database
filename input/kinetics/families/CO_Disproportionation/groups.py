@@ -14,7 +14,7 @@ atom labels:
 R_rad(*1) + H(*4)C_rad(*3)=O(*2) <=> R(*1)H(*4) + [C-](*3)#[O+](*2)
 """
 
-template(reactants=["Y_rad_birad_trirad_quadrad", "HCO_HCS"], products=["Y_H", "CO_CS"], ownReverse=False)
+template(reactants=["Y_rad_birad_trirad_quadrad", "HCO_HCS_YCO_YCS"], products=["Y_H", "CO_CS"], ownReverse=False)
 
 reverse = "CO_Addition"
 reversible = True
@@ -38,12 +38,12 @@ entry(
 
 entry(
     index = 1,
-    label = "HCO_HCS",
+    label = "HCO_HCS_YCO_YCS",
     group =
 """
-1 *3 C       u1 p0 c0 {2,S} {3,D}
-2 *4 H       u0 p0 c0 {1,S}
-3 *2 [O,S2d] u0 p2 c0 {1,D}
+1 *3 C        u1 p0 c0 {2,S} {3,D}
+2 *4 [H,Val7] u0 px c0 {1,S}
+3 *2 [O,S2d]  u0 p2 c0 {1,D}
 """,
     kinetics = None,
 )
@@ -4281,6 +4281,18 @@ entry(
 
 entry(
     index = 346,
+    label = "HCO_YCO",
+    group =
+"""
+1 *3 C        u1 p0 c0 {2,S} {3,D}
+2 *4 [H,Val7] u0 px c0 {1,S}
+3 *2 O        u0 p2 c0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 347,
     label = "HCO",
     group =
 """
@@ -4292,13 +4304,52 @@ entry(
 )
 
 entry(
-    index = 347,
-    label = "HCS",
+    index = 348,
+    label = "FCO",
     group =
 """
 1 *3 C   u1 p0 c0 {2,S} {3,D}
-2 *4 H   u0 p0 c0 {1,S}
-3 *2 S2d u0 p2 c0 {1,D}
+2 *4 F1s u0 p3 c0 {1,S}
+3 *2 O   u0 p2 c0 {1,D}
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 349,
+    label = "ClCO",
+    group =
+"""
+1 *3 C    u1 p0 c0 {2,S} {3,D}
+2 *4 Cl1s u0 p3 c0 {1,S}
+3 *2 O    u0 p2 c0 {1,D}
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 350,
+    label = "BrCO",
+    group =
+"""
+1 *3 C    u1 p0 c0 {2,S} {3,D}
+2 *4 Br1s u0 p3 c0 {1,S}
+3 *2 O    u0 p2 c0 {1,D}
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 351,
+    label = "HCS_YCS",
+    group =
+"""
+1 *3 C          u1 p0 c0 {2,S} {3,D}
+2 *4 [H,Val7]   u0 px c0 {1,S}
+3 *2 S2d        u0 p2 c0 {1,D}
 """,
     kinetics = None,
 )
@@ -4650,9 +4701,13 @@ L1: Y_rad_birad_trirad_quadrad
             L4: N5s_rad
             L4: N5dc_rad
             L4: N5t_rad
-L1: HCO_HCS
-    L2: HCO
-    L2: HCS
+L1: HCO_HCS_YCO_YCS
+    L2: HCO_YCO
+        L3: HCO
+        L3: FCO
+        L3: ClCO
+        L3: BrCO
+    L2: HCS_YCS
 """
 )
 
@@ -4674,9 +4729,9 @@ forbidden(
     label = "OS_XH_birad_singlet",
     group =
 """
-1 *3 [O,S] u0 p3 {2,[S,D,T]}
-2 *2 R!H!Val7   ux {1,[S,D,T]} {3,S}
-3 *4 H     u0 {2,S}
+1 *3 [O,S]     u0 p3 {2,[S,D,T]}
+2 *2 R!H!Val7  ux {1,[S,D,T]} {3,S}
+3 *4 [H,Val7]  u0 {2,S}
 """,
     shortDesc = """""",
     longDesc =
@@ -4689,9 +4744,9 @@ forbidden(
     label = "O_Orad",
     group =
 """
-1 *2 O u0 {2,S} {3,S}
-2 *3 O u1 {1,S}
-3 *4 H u0 {1,S}
+1 *2 O        u0 {2,S} {3,S}
+2 *3 O        u1 {1,S}
+3 *4 [H,Val7] u0 {1,S}
 """,
     shortDesc = """""",
     longDesc =
@@ -4704,9 +4759,9 @@ forbidden(
     label = "XH_N_birad_singlet",
     group =
 """
-1 *3 N   u0 p2 {2,[S,D]}
+1 *3 N        u0 p2 {2,[S,D]}
 2 *2 R!H!Val7 ux {1,[S,D]} {3,S}
-3 *4 H   u0 {2,S}
+3 *4 [H,Val7] u0 {2,S}
 """,
     shortDesc = """""",
     longDesc =
@@ -4719,9 +4774,9 @@ forbidden(
     label = "XH_birad_singlet",
     group =
 """
-1 *3 [C,Si] u0 p1 {2,[S,D,T]}
-2 *2 R!H!Val7    ux {1,[S,D,T]} {3,S}
-3 *4 H      u0 {2,S}
+1 *3 [C,Si]   u0 p1 {2,[S,D,T]}
+2 *2 R!H!Val7 ux {1,[S,D,T]} {3,S}
+3 *4 [H,Val7] u0 {2,S}
 """,
     shortDesc = """""",
     longDesc =
@@ -4734,9 +4789,9 @@ forbidden(
     label = "XH_quadrad_singlet",
     group =
 """
-1 *3 [C,Si] u0 p2 {2,[S,D,T]}
-2 *2 R!H!Val7    ux {1,[S,D,T]} {3,S}
-3 *4 H      u0 {2,S}
+1 *3 [C,Si]   u0 p2 {2,[S,D,T]}
+2 *2 R!H!Val7 ux {1,[S,D,T]} {3,S}
+3 *4 [H,Val7] u0 {2,S}
 """,
     shortDesc = """""",
     longDesc =

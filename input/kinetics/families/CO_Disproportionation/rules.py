@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 485,
-    label = "Y_rad_birad_trirad_quadrad;HCO_HCS",
+    label = "Y_rad_birad_trirad_quadrad;HCO_HCS_YCO_YCS",
     kinetics = ArrheniusEP(
         A = (3e+11, 'cm^3/(mol*s)'),
         n = 0,
