@@ -884,3 +884,234 @@ Laboratories, Livermore, California, 1991
 """,
 )
 
+entry(
+    index = 37,
+    label = "HF",
+    molecule = 
+"""
+1 F u0 p3 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43657,0.000486021,-1.2524e-06,1.36475e-09,-4.09574e-13,-33800.1,1.20682], Tmin=(298,'K'), Tmax=(1250,'K')),
+            NASAPolynomial(coeffs=[2.7813,0.00103959,-2.41735e-07,2.68416e-11,-1.09766e-15,-33504.2,5.0197], Tmin=(1250,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-281.113,'kJ/mol'),
+        Cp0 = (29.1007,'J/mol/K'),
+        CpInf = (37.4151,'J/mol/K'),
+    ),
+    shortDesc = u"""71STUPRO""",
+    longDesc = 
+u"""
+71STUPRO
+Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+F
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+""",
+)
+
+entry(
+    index = 38,
+    label = "F",
+    molecule = 
+"""
+multiplicity 2
+1 F u1 p3 c0
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.90371,-0.000635296,2.64735e-07,7.69063e-11,-5.45254e-14,8672.27,2.70828], Tmin=(298,'K'), Tmax=(1400,'K')),
+            NASAPolynomial(coeffs=[2.65117,-0.00014013,5.19236e-08,-8.84954e-12,5.9028e-16,8758.29,4.07857], Tmin=(1400,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (3000,'K'),
+        E0 = (72.8916,'kJ/mol'),
+        Cp0 = (20.7862,'J/mol/K'),
+        CpInf = (20.7862,'J/mol/K'),
+    ),
+    shortDesc = u"""71STUPRO""",
+    longDesc = 
+u"""
+71STUPRO
+********************************
+*** Hydrogen/Oxygen/Fluorine ***
+********************************
+Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+[F]
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+""",
+)
+
+entry(
+    index = 39,
+    label = "Br2",
+    molecule = 
+"""
+1 Br u0 p3 c0 {2,S}
+2 Br u0 p3 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.34375,0.00634804,-1.36289e-05,1.31573e-08,-4.67761e-12,2531.64,9.07775], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.18756,-0.00138705,9.35013e-07,-2.07121e-10,1.41849e-14,2103.48,0.0761703], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+        E0 = (21.4067,'kJ/mol'),
+        Cp0 = (29.1007,'J/mol/K'),
+        CpInf = (37.4151,'J/mol/K'),
+    ),
+    shortDesc = """J12/61""",
+    longDesc = 
+"""
+J12/61
+BR2               J12/61BR  20   00   00   0G   300.00   5000.00  1000.00      1
+0.44479495E+01 0.10051208E-03-0.16393816E-07 0.22685621E-11-0.10236774E-15    2
+0.23659941E+04 0.40888431E+01 0.38469580E+01 0.26111841E-02-0.40034147E-05    3
+0.28120689E-08-0.73256202E-12 0.24846984E+04 0.69696985E+01                   4.
+BrBr
+_imported from 2-BTP/2-BTP_thermo.txt.
+""",
+)
+
+entry(
+    index = 40,
+    label = "HBr",
+    molecule = 
+"""
+1 Br u0 p3 c0 {2,S}
+2 H  u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.48118,0.000342734,-1.80533e-06,3.61181e-09,-1.74298e-12,-5355.37,4.01309], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.83372,0.00148518,-5.13137e-07,8.73711e-11,-5.72363e-15,-5176.21,7.43754], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+        E0 = (-44.4806,'kJ/mol'),
+        Cp0 = (29.1007,'J/mol/K'),
+        CpInf = (37.4151,'J/mol/K'),
+    ),
+    shortDesc = """J 9/65""",
+    longDesc = 
+"""
+J 9/65
+HBR               J 9/65H   1BR  1    0    0G   300.00   5000.00  1000.00      1
+0.27935804E+01 0.15655925E-02-0.56171064E-06 0.95783142E-10-0.61813990E-14    2
+-0.52338384E+04 0.76423703E+01 0.36056690E+01-0.59529431E-03 0.65029568E-06    3
+0.93781219E-09-0.71141852E-12-0.54389455E+04 0.34831774E+01                   4.
+Br
+_imported from 2-BTP/2-BTP_thermo.txt.
+""",
+)
+
+entry(
+    index = 41,
+    label = "Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u1 p3 c0
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.48422,0.000161406,-5.63461e-07,7.46724e-10,-2.58956e-13,12708.4,6.86657], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.08902,0.000711612,-2.69887e-07,4.15012e-11,-2.3138e-15,12855.6,9.07043], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+        E0 = (105.654,'kJ/mol'),
+        Cp0 = (20.7862,'J/mol/K'),
+        CpInf = (20.7862,'J/mol/K'),
+    ),
+    shortDesc = """J 6/74""",
+    longDesc = 
+"""
+J 6/74
+BR                J 6/74BR  1    0    0    0G   300.00   5000.00  1000.00      1
+0.20843207E+01 0.71949483E-03-0.27419924E-06 0.42422650E-10-0.23791570E-14    2
+0.12858837E+05 0.90838003E+01 0.24611551E+01 0.33319275E-03-0.10080655E-05    3
+0.12262126E-08-0.44283510E-12 0.12711920E 05 0.69494733E+01                   4.
+[Br]
+_imported from 2-BTP/2-BTP_thermo.txt.
+""",
+)
+
+entry(
+    index = 42,
+    label = "F2",
+    molecule = 
+"""
+1 F u0 p3 c0 {2,S}
+2 F u0 p3 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.66955,0.00529418,-6.47091e-06,3.91833e-09,-9.38451e-13,-980.801,7.82659], Tmin=(298,'K'), Tmax=(1150,'K')),
+            NASAPolynomial(coeffs=[4.05774,0.000600034,-2.19218e-07,4.31508e-11,-3.12588e-15,-1324.39,0.863214], Tmin=(1150,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-8.80492,'kJ/mol'),
+        Cp0 = (29.1007,'J/mol/K'),
+        CpInf = (37.4151,'J/mol/K'),
+    ),
+    shortDesc = u"""71STUPRO""",
+    longDesc = 
+u"""
+71STUPRO
+Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+FF
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+""",
+)
+
+
+entry(
+    index = 43,
+    label = "NOJ",
+    molecule = 
+"""
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.97,7.06,7.2,7.37,7.72,8,8.46],'cal/(mol*K)'),
+        H298 = (21.85,'kcal/mol'),
+        S298 = (49.02,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+""",
+)
+
+entry(
+    index = 44,
+    label = "NO2J",
+    molecule = 
+"""
+multiplicity 2
+1 N u1 p0 c+1 {2,D} {3,S}
+2 O u0 p2 c0 {1,D}
+3 O u0 p3 c-1 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.86,9.57,10.29,10.92,11.84,12.44,13.19],'cal/(mol*K)'),
+        H298 = (8.33,'kcal/mol'),
+        S298 = (57.31,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+""",
+)
