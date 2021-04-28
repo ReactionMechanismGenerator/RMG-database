@@ -64,6 +64,7 @@ default = {
     '1,2_NH3_elimination',
     '1,3_NH3_elimination',
     'Retroene',
+    '1,2_XY_interchange',
 }
 
 # Peroxide chemistry families that are likely relevant in liquid-phase
