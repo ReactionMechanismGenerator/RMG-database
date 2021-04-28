@@ -1115,3 +1115,24 @@ u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
 )
+
+entry(
+    index = 45,
+    label = "CO",
+    molecule = 
+"""
+1 C u0 p1 c-1 {2,T}
+2 O u0 p1 c+1 {1,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.95,7.02,7.12,7.26,7.58,7.86,8.35],'cal/(mol*K)'),
+        H298 = (-26.31,'kcal/mol'),
+        S298 = (47.2,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+""",
+)
