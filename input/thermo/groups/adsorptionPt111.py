@@ -979,7 +979,7 @@ entry(
  O-N=O
    |
 ***********
-"""
+""",
     metal = "Pt",
     facet = "111",
 )
@@ -2545,7 +2545,6 @@ entry(
     label = "N+O-*",
     group =
 """
-metal Pd facet 111
 1 X u0 p0 c0
 2 O u0 p1 c-1 {3,S}
 3 N ux px c+1 {2,S}
@@ -2557,7 +2556,9 @@ metal Pd facet 111
         S298=(-22.53, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from (OR2)*, H298 lowered to -10 kcal/mol""",
-    longDesc=u"""Made up by David"""
+    longDesc=u"""Made up by David""",
+    metal = "Pd",
+    facet = "111",
 )
 
 

@@ -21,11 +21,14 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 "Kinetics of ammonia oxidation on stepped platinum surfacesII. Simulation results"
+DOI: https://doi.org/10.1016/j.susc.2004.12.007
 
 A factor from paper / surface site density of Pt
 3e11 1/s / 2.483e-05 mol/m^2 = 7.449e+16 m^2/(mol*s)
 Surface Science 576 (2005) 131–144
-"""
+""",
+    metal="Pt",
+    facet="533",
 )
 
 entry(
@@ -45,7 +48,9 @@ https://doi.org/10.1016/j.susc.2011.08.014
 
 A factor from paper / surface site density of Pt
 2e15 1/s / 2.483e-05 mol/m^2 = 4.966e+16 m^2/(mol*s)
-"""
+""",
+    metal="Pt",
+    facet="533",
 )
 
 entry(
@@ -68,7 +73,9 @@ A factor from paper / surface site density of Pt
 
 Ea from "N2O formation and dissociation during ammonia combustion: A combined DFT and experimental study"
 https://doi.org/10.1016/j.proci.2016.05.004
-"""
+""",
+    metal="Pt",
+    facet="533",
 )
 
 entry(
@@ -87,7 +94,9 @@ Ea from "N2O formation and dissociation during ammonia combustion: A combined DF
 https://doi.org/10.1016/j.proci.2016.05.004
 
 A factor made up
-"""
+""",
+    metal="Pt",
+    facet="111",
 )
 
 entry(
@@ -106,7 +115,9 @@ Ea from "NO pairing and transformation to N2O on Cu (111) and Pt (111) from firs
 A. Bogicevic, K.C. Hass, Surf. Sci. 506 (2002) L237-L242.
 
 A factor made up
-"""
+""",
+    metal="Pt",
+    facet="111",
 )
 
 # entry(
@@ -146,5 +157,7 @@ entry(
     https://doi.org/10.1016/j.proci.2016.05.004
 
     A made up
-    """
+    """,
+    metal="Pt",
+    facet="100",
 )

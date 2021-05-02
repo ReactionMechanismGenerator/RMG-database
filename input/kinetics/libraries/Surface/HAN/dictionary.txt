@@ -2,7 +2,6 @@ X
 1 X u0 p0 c0
 
 X_Pd
-metal Pd
 1 X u0 p0 c0
 
 N2
@@ -88,7 +87,6 @@ HAN
 10 H u0 p0 c0 {6,S} {1,H}
 
 HAN_Pd 
-metal Pd
 1  O u0 p2 c0 {5,S} {8,S}
 2  O u0 p3 c-1 {6,S} {7,H}
 3  O u0 p3 c-1 {6,S} {8,H}
@@ -102,7 +100,6 @@ metal Pd
 11 X u0 p0 c0
 
 HAN_Ir
-metal Ir
 1  O u0 p2 c0 {5,S} {8,S}
 2  O u0 p3 c-1 {6,S} {7,H}
 3  O u0 p3 c-1 {6,S} {8,H}
@@ -129,19 +126,16 @@ HAN_X
 11 X u0 p0 c0
 
 HO_Pd
-metal Pd
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
 3 X u0 p0 c0 {1,S}
 
 HO_Ir
-metal Ir
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
 3 X u0 p0 c0 {1,S}
 
 NH2O_Pd
-metal Pd
 1 O u0 p2 c0 {2,S} {5,S}
 2 N u0 p1 c0 {1,S} {3,S} {4,S}
 3 H u0 p0 c0 {2,S}
