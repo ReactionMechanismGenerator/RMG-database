@@ -75,7 +75,7 @@ Erxn = 0.14 eV
 )
 
 entry(
-    index = 9,
+    index = 19,
     label = "NH2_X + Ni_4 <=> NHX_1 + HX_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -99,7 +99,7 @@ entry(
 
 entry(
     index = 5,
-    label = "NH2_Pt + Ni_4 <=> NHX_2 + HX_5",
+    label = "NH2_X + Ni_4 <=> NHX_2 + HX_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
         A = (1.2415e+18, 'm^2/(mol*s)'),
@@ -233,7 +233,7 @@ Catalysts, 2015, 5, 871-904. Reaction R18
 #)
 
 entry(
-    index = 10,
+    index = 18,
     label = "CX_3 + HX_5 <=> CHX_1 + Ni_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(

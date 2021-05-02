@@ -622,7 +622,8 @@ https://doi.org/10.1016/j.susc.2011.08.014
 
 A factor from paper / surface site density of Pt
 6.1e12 1/s / 2.483e-05 mol/m^2 = 1.51463e+18 m^2/(mol*s)
-"""
+""",
+    metal="Pt"
 )
 
 entry(
@@ -644,5 +645,6 @@ https://doi.org/10.1016/j.susc.2011.08.014
 
 A factor from paper / surface site density of Pt
 1e13 1/s / 2.483e05 mol/m^2 = 2.483e+18 m^2/(mol*s)
-"""
+""",
+    metal="Pt"
 )

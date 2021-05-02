@@ -12,7 +12,6 @@ entry(
     label = 'HAN_Ir',
     molecule = 
 """
-metal Ir
 1  O u0 p2 c0 {5,S} {8,S}
 2  O u0 p3 c-1 {6,S} {7,H}
 3  O u0 p3 c-1 {6,S} {8,H}
@@ -34,5 +33,7 @@ metal Ir
     shortDesc = """Estimated from gas phase and Banerjee""",
     longDesc = 
 """
-"""
+""",
+    metal = "Ir",
+    facet = "100",
 )
