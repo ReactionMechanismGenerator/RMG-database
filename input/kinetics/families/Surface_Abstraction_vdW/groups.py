@@ -600,8 +600,8 @@ L1: AdsorbateVdW
 
 L1: Adsorbate1
     L2: *O
-        L2: *=O
-        L2: *OH
+        L3: *=O
+        L3: *OH
     L2: *C
         L3: *=C
             L4: *=C=R
