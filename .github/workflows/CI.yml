@@ -8,7 +8,7 @@ jobs:
     strategy:
       max-parallel: 5
     env: # update this if needed to match a pull request on the RMG-database
-      RMG_PY_BRANCH: master
+      RMG_PY_BRANCH: cde
     defaults:
       run:
         shell: bash -l {0}
