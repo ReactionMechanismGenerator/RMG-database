@@ -605,7 +605,7 @@ This is R63 in Table 4
 
 entry(
     index = 59,
-    label = "H2NX + O_Pt <=> HNX + HO_Pt",
+    label = "H2NX + O* <=> HNX + OH_4*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A = (2.4567e+17, 'm^2/(mol*s)'),
@@ -628,7 +628,7 @@ A factor from paper / surface site density of Pt
 
 entry(
     index = 60,
-    label = "HNX-2 + O_Pt <=> NX + HO_Pt",
+    label = "HNX-2 + O* <=> NX + OH_4*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A = (4.027e+17, 'm^2/(mol*s)'),
