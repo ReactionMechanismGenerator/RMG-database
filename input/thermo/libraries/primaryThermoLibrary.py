@@ -1136,3 +1136,39 @@ u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
 )
+
+entry(
+    index = 46,
+    label = "OCCCO",
+    molecule = 
+"""
+1 O u0 p2 c0 {4,D}
+2 O u0 p2 c0 {5,D}
+3 C u0 p0 c0 {4,D} {5,D}
+4 C u0 p0 c0 {1,D} {3,D}
+5 C u0 p0 c0 {2,D} {3,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs = [3.88307,0.00992983,2.02201e-05,-5.95807e-08,4.18218e-11,-12941.2,7.57621], Tmin = (10, 'K'), Tmax = (516.845, 'K'),),
+            NASAPolynomial(coeffs = [4.29366,0.0133667,-8.95161e-06,2.80908e-09,-3.33808e-13,-13072,5.01164], Tmin = (516.845, 'K'), Tmax = (3000, 'K'),),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""G4 calculation""",
+    longDesc = 
+u"""
+# Coordinates for 1 in Input Orientation (angstroms):
+#   O    0.0883   -2.4210    0.0000
+#   O    0.0883    2.4210    0.0000
+#   C   -0.1785    0.0000    0.0000
+#   C   -0.0285   -1.2648    0.0000
+#   C   -0.0285    1.2648    0.0000
+
+#   Enthalpy of formation (298 K)   =   -22.381 kcal/mol
+#   Entropy of formation (298 K)    =    65.801 cal/(mol*K)
+
+HarmonicOscillator(frequencies = ([55.6209, 577.002, 595.072, 598.128, 598.906, 801.916, 1644.01, 2280.9, 2412.53], 'cm^-1'))
+""",
+)
