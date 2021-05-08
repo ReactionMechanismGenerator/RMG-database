@@ -82,7 +82,7 @@ entry(
     index = 4,
     label = "N2O + Pt <=> N2 + O_Pt",
     kinetics = SurfaceArrhenius(
-        A=(1.0e18, 'm^2/(mol*s)'),
+        A=(1.0e18, 'm**3/(s*mol)'),
         n = 0.,
         Ea=(147.0, 'kJ/mol'),
         Tmin = (298, 'K'),
