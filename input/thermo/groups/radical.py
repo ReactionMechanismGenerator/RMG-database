@@ -12439,6 +12439,29 @@ entry(
 3   N   u0 {1,D}
 """,
     thermo = ThermoData(
+        Tdata=([300,400,500,600,800,1000,1500],'K'), 
+        Cpdata=([5.28217,1.42099,-3.86345,-8.97042,-15.9178,-20.3522,-25.06],'J/(mol*K)'), 
+        H298=(428.303,'kJ/mol'),
+        S298=(12.3017,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Derived from OCDN/[NH]CDO in CHON_G4 thermolibrary
+""",
+)
+
+entry(
+    index = 4930000,
+    label = "O0scN5dc=COJ",
+    group = 
+"""
+1   Cd   u0 {2,S} {3,D}
+2 * O2s  u1 {1,S}
+3   N5dc u0 {1,D} {4,S}
+4   O0sc u0 {3,S}
+""",
+    thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-9.58496,-8.79662,-8.0527,-8.55566,-10.0922,-11.8503,-16.2634],'J/(mol*K)'),
         H298 = (158.992,'kJ/mol'),
@@ -12450,6 +12473,7 @@ entry(
 
 """,
 )
+
 
 entry(
     index = 494,
@@ -15677,6 +15701,7 @@ L1: Radical
                     L6: RC=COJ
                         L7: C=COJ
                         L7: N=COJ
+                            L8: O0scN5dc=COJ
                     L6: OJC=O
                         L7: OC=OOJ
                 L5: OCOJ
