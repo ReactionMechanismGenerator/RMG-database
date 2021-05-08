@@ -90,7 +90,7 @@ entry(
 
 entry( 
     index = 4,
-    label = "HAN_Pd + X_Pd <=> HO_Pd + NH2O_Pd + HONO",
+    label = "HAN_X + X <=> HO_X + NH2O_Pd + HONO",
     kinetics = SurfaceArrhenius(
         A = (5e22, 'cm^2/(mol*s)'),
         n = 0,
@@ -107,7 +107,7 @@ entry(
 
 entry( 
     index = 5,
-    label = "HAN_Ir <=> HO_Ir + NH2OH + NO2",
+    label = "HAN_X <=> HO_X + NH2OH + NO2",
     kinetics = SurfaceArrhenius(
         A = (7.7e13, '1/s'),
         n = 0,

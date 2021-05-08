@@ -80,7 +80,7 @@ https://doi.org/10.1016/j.proci.2016.05.004
 
 entry(
     index = 4,
-    label = "N2O + Pt111 <=> N2 + O_Pt111",
+    label = "N2O + Pt <=> N2 + O_Pt",
     kinetics = SurfaceArrhenius(
         A=(1.0e18, 'm^2/(mol*s)'),
         n = 0.,
@@ -101,7 +101,7 @@ A factor made up
 
 entry(
     index = 5,
-    label = "NO_Pt111 + NO_Pt111 <=> N2O + O_Pt111 + Pt111",
+    label = "NO_Pt + NO_Pt <=> N2O + O_Pt + Pt",
     kinetics = SurfaceArrhenius(
         A=(1.0e18, 'm^2/(mol*s)'),
         n = 0.,
@@ -122,7 +122,7 @@ A factor made up
 
 # entry(
 #     index = 6,
-#     label = "NO_Pt100 + N_Pt100 <=> N2O + Pt100 + Pt100",
+#     label = "NO_Pt + N_Pt <=> N2O + Pt + Pt",
 #     kinetics = SurfaceArrhenius(
 #         A=(1.0e18, 'm^2/(mol*s)'),
 #         n = 0.,
@@ -141,7 +141,7 @@ A factor made up
 
 entry(
     index = 7,
-    label = "N2O_Pt100 <=> N2O + Pt100",
+    label = "N2O_Pt <=> N2O + Pt",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A=(1e13, '1/s'),

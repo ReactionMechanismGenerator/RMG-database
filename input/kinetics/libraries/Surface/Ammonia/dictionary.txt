@@ -1,12 +1,6 @@
 Pt
 1 X u0 p0 c0
 
-Pt111
-1 X u0 p0 c0
-
-Pt100
-1 X u0 p0 c0
-
 N2
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -16,10 +10,6 @@ N_Pt
 2 X u0 p0 c0 {1,T}
 
 O_Pt
-1 O u0 p2 c0 {2,D}
-2 X u0 p0 c0 {1,D}
-
-O_Pt111
 1 O u0 p2 c0 {2,D}
 2 X u0 p0 c0 {1,D}
 
@@ -33,21 +23,11 @@ N2O
 2 N u0 p0 c+1 {1,D} {3,D}
 3 N u0 p2 c-1 {2,D}
 
-NO_Pt111
-1 N u0 p1 c0 {2,D} {3,S}
-2 O u0 p2 c0 {1,D}
-3 X u0 p0 c0 {1,S}
-
-NO_Pt100
-1 N u0 p1 c0 {2,D} {3,S}
-2 O u0 p2 c0 {1,D}
-3 X u0 p0 c0 {1,S}
-
 N_Pt100
 1 N u0 p1 c0 {2,T}
 2 X u0 p0 c0 {1,T}
 
-N2O_Pt100 
+N2O_Pt 
 1 O u0 p2 c0 {2,D}
 2 N u0 p0 c+1 {1,D} {3,D}
 3 N u0 p2 c-1 {2,D}
