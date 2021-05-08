@@ -9595,14 +9595,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.8532,11.0458,6.19232,1.63176,-4.64424,-8.53536,-15.9829],'J/(mol*K)'),
-        H298 = (438.663,'kJ/mol'),
-        S298 = (7.12357,'J/(mol*K)'),
+        Cpdata = ([3.55,2.64,1.48,0.39,-1.11,-2.04,-3.82],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (104.843,'kcal/mol','+|-',7.64701),
+        S298 = (3.08,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library                 | Number of Species
+thermo_DFT_CCSDTF12_BAC |         1
 """,
 )
 
@@ -9618,14 +9620,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.58597,-5.80395,-8.7662,-11.0768,-14.324,-16.3676,-18.708],'J/(mol*K)'),
-        H298 = (393.258,'kJ/mol'),
-        S298 = (0.575878,'J/(mol*K)'),
+        Cpdata = ([-0.571321,-1.30951,-2.00091,-2.55386,-3.34676,-3.85861,-4.47922],'cal/(mol*K)','+|-',[0.342737,0.354486,0.36355,0.364192,0.36684,0.365807,0.32948]),
+        H298 = (93.6523,'kcal/mol','+|-',2.70363),
+        S298 = (0.999012,'cal/(mol*K)','+|-',0.82553),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         8
 """,
 )
 
@@ -9642,14 +9646,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.17364,0.526339,-1.56312,-4.04119,-8.28715,-11.0029,-15.4736],'J/(mol*K)'),
-        H298 = (342.422,'kJ/mol'),
-        S298 = (-4.66094,'J/(mol*K)'),
+        Cpdata = ([0.280506,0.125798,-0.373595,-0.965867,-1.98068,-2.62977,-3.69828],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (81.8407,'kcal/mol','+|-',5.40726),
+        S298 = (-1.11399,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
@@ -9666,14 +9672,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.31137,-4.08151,-5.05929,-6.59864,-9.61356,-12.7552,-18.2312],'J/(mol*K)'),
-        H298 = (303.519,'kJ/mol'),
-        S298 = (-8.01983,'J/(mol*K)'),
+        Cpdata = ([-1.03044,-0.975505,-1.2092,-1.57711,-2.29769,-3.04857,-4.35736],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (72.5429,'kcal/mol','+|-',5.40726),
+        S298 = (-1.91678,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
@@ -9690,14 +9698,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.95318,3.13485,0.33421,-2.701,-7.67123,-10.5415,-15.8149],'J/(mol*K)'),
-        H298 = (275.434,'kJ/mol'),
-        S298 = (4.69758,'J/(mol*K)'),
+        Cpdata = ([1.18384,0.749247,0.0798779,-0.645554,-1.83347,-2.51949,-3.77985],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (65.8304,'kcal/mol','+|-',7.64701),
+        S298 = (1.12275,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
@@ -9713,14 +9723,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.0538838,-1.876,-4.04855,-6.08546,-9.70524,-12.7382,-17.9892],'J/(mol*K)'),
-        H298 = (436.377,'kJ/mol'),
-        S298 = (7.19164,'J/(mol*K)'),
+        Cpdata = ([-0.0128785,-0.448374,-0.967625,-1.45446,-2.31961,-3.04451,-4.29951],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (104.297,'kcal/mol','+|-',7.64701),
+        S298 = (3.09627,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
@@ -9736,14 +9748,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.26669,-1.87614,-5.88538,-8.95583,-13.0988,-15.6997,-18.3991],'J/(mol*K)'),
-        H298 = (388.334,'kJ/mol'),
-        S298 = (-4.02418,'J/(mol*K)'),
+        Cpdata = ([0.302746,-0.448407,-1.40664,-2.14049,-3.13069,-3.75231,-4.39749],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (92.8141,'kcal/mol','+|-',5.40726),
+        S298 = (1.50721,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
@@ -9759,14 +9773,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.29692,-8.29409,-11.2699,-13.4031,-16.5816,-18.4631,-19.9014],'J/(mol*K)'),
-        H298 = (371.563,'kJ/mol'),
-        S298 = (2.01997,'J/(mol*K)'),
+        Cpdata = ([-0.933852,-1.87599,-2.5946,-3.12273,-3.91057,-4.377,-4.76146],'cal/(mol*K)','+|-',[0.279844,0.289437,0.296837,0.297361,0.299523,0.29868,0.269019]),
+        H298 = (89.2703,'kcal/mol','+|-',2.2075),
+        S298 = (1.0778,'cal/(mol*K)','+|-',0.674043),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         12
 """,
 )
 
@@ -9782,14 +9798,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.80826,-12.344,-15.0884,-16.9587,-18.722,-18.5848,-14.5979],'J/(mol*K)'),
-        H298 = (273.333,'kJ/mol'),
-        S298 = (-3.14275,'J/(mol*K)'),
+        Cpdata = ([-2.10522,-2.95028,-3.6062,-4.05323,-4.47466,-4.44188,-3.48899],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (65.328,'kcal/mol','+|-',7.64701),
+        S298 = (-0.751135,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
@@ -9805,14 +9823,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.60436,-6.81991,-9.0924,-11.5084,-13.7941,-14.5737,-13.827],'J/(mol*K)'),
-        H298 = (311.145,'kJ/mol'),
-        S298 = (4.53151,'J/(mol*K)'),
+        Cpdata = ([-1.33947,-1.63,-2.17313,-2.75057,-3.29687,-3.4832,-3.30474],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (74.3655,'kcal/mol','+|-',5.40726),
+        S298 = (1.77177,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
@@ -9828,14 +9848,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.42994,-4.90751,-5.57809,-6.41818,-8.08512,-9.63419,-13.0091],'J/(mol*K)'),
-        H298 = (324.92,'kJ/mol'),
-        S298 = (-3.22872,'J/(mol*K)'),
+        Cpdata = ([-1.05878,-1.17292,-1.33319,-1.53398,-1.93239,-2.30263,-3.10925],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (77.6576,'kcal/mol','+|-',5.40726),
+        S298 = (0.605743,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
@@ -9851,14 +9873,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.80085,-5.80744,-7.57663,-9.14825,-11.7549,-13.7367,-16.6315],'J/(mol*K)'),
-        H298 = (383.839,'kJ/mol'),
-        S298 = (-5.21955,'J/(mol*K)'),
+        Cpdata = ([-0.908425,-1.38801,-1.81086,-2.18648,-2.80949,-3.28314,-3.97503],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (91.7397,'kcal/mol','+|-',5.40726),
+        S298 = (1.62438,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
@@ -9874,14 +9898,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.889156,-3.17426,-6.57797,-9.40356,-13.6201,-16.3703,-19.6483],'J/(mol*K)'),
-        H298 = (390.332,'kJ/mol'),
-        S298 = (4.50509,'J/(mol*K)'),
+        Cpdata = ([0.212513,-0.758665,-1.57217,-2.2475,-3.25529,-3.9126,-4.69606],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (93.2916,'kcal/mol','+|-',7.64701),
+        S298 = (3.25991,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
@@ -9895,11 +9921,18 @@ entry(
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 """,
-    thermo = 'CCsJN',
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.316725,0.148625,-0.189229,-0.602291,-1.44175,-2.19135,-3.5735],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (81.979,'kcal/mol','+|-',5.40726),
+        S298 = (15.4999,'cal/(mol*K)','+|-',1.65106),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library                 | Number of Species
+thermo_DFT_CCSDTF12_BAC |         2
 """,
 )
 
@@ -9915,14 +9948,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.34639,0.0642418,-2.22164,-4.63062,-8.66372,-11.6685,-16.1145],'J/(mol*K)'),
-        H298 = (388.92,'kJ/mol'),
-        S298 = (-10.2036,'J/(mol*K)'),
+        Cpdata = ([0.300071,0.00693007,-0.50745,-1.05652,-2.00475,-2.72439,-3.83063],'cal/(mol*K)','+|-',[0.186563,0.192958,0.197892,0.198241,0.199682,0.19912,0.179346]),
+        H298 = (93.0214,'kcal/mol','+|-',1.47167),
+        S298 = (-0.103144,'cal/(mol*K)','+|-',0.449362),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         27
 """,
 )
 
@@ -9938,14 +9973,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.81722,3.24544,2.72474,1.22104,-2.23308,-5.66919,-12.8356],'J/(mol*K)'),
-        H298 = (404.243,'kJ/mol'),
-        S298 = (-14.4918,'J/(mol*K)'),
+        Cpdata = ([0.441665,0.347839,0.0356143,-0.424082,-1.36186,-2.18248,-3.70389],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (96.4997,'kcal/mol','+|-',5.40726),
+        S298 = (-0.875975,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library                 | Number of Species
+CHON_G4                 |         1
+thermo_DFT_CCSDTF12_BAC |         1
 """,
 )
 
@@ -9961,14 +9999,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.491933,-0.720255,-2.86803,-5.09749,-8.94641,-12.0652,-17.2889],'J/(mol*K)'),
-        H298 = (432.825,'kJ/mol'),
-        S298 = (-2.63962,'J/(mol*K)'),
+        Cpdata = ([0.0583226,-0.202751,-0.667305,-1.17395,-2.07454,-2.81566,-4.08773],'cal/(mol*K)','+|-',[0.484704,0.50132,0.514137,0.515045,0.51879,0.517329,0.465955]),
+        H298 = (103.254,'kcal/mol','+|-',3.82351),
+        S298 = (0.0909492,'cal/(mol*K)','+|-',1.16748),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         4
 """,
 )
 
@@ -9986,14 +10026,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.05016,0.29288,-2.17568,-4.97896,-10.1671,-14.393,-21.2966],'J/(mol*K)'),
-        H298 = (424.73,'kJ/mol'),
-        S298 = (-14.8665,'J/(mol*K)'),
+        Cpdata = ([1.12991,0.921418,0.430364,-0.17601,-1.2784,-2.20251,-3.79111],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (100.825,'kcal/mol','+|-',7.64701),
+        S298 = (-0.741201,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
@@ -10011,14 +10053,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.27482,3.34223,2.42357,0.716726,-3.09483,-6.83265,-14.3794],'J/(mol*K)'),
-        H298 = (421.503,'kJ/mol'),
-        S298 = (-9.69349,'J/(mol*K)'),
+        Cpdata = ([0.7827,0.798812,0.579247,0.171301,-0.739681,-1.63304,-3.43675],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (100.741,'kcal/mol','+|-',7.64701),
+        S298 = (-0.939371,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
@@ -10035,14 +10079,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.334539,-0.181647,-0.845982,-1.98298,-4.81941,-7.87964,-14.2395],'J/(mol*K)'),
-        H298 = (374.018,'kJ/mol'),
-        S298 = (-11.1917,'J/(mol*K)'),
+        Cpdata = ([-0.0392518,-0.0140184,-0.19299,-0.486332,-1.17976,-1.90617,-3.4042],'cal/(mol*K)','+|-',[0.433532,0.448394,0.459858,0.46067,0.46402,0.462714,0.416763]),
+        H298 = (89.212,'kcal/mol','+|-',3.41985),
+        S298 = (-0.970474,'cal/(mol*K)','+|-',1.04422),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         5
 """,
 )
 
@@ -10059,14 +10105,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.55707,4.38485,1.99807,-0.696803,-5.27072,-8.57746,-14.1022],'J/(mol*K)'),
-        H298 = (389.255,'kJ/mol'),
-        S298 = (-9.12797,'J/(mol*K)'),
+        Cpdata = ([1.08917,1.048,0.477549,-0.16654,-1.25973,-2.05006,-3.3705],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (93.0341,'kcal/mol','+|-',5.40726),
+        S298 = (-0.80421,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
@@ -10083,14 +10131,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.315332,0.568578,-0.652395,-2.70945,-6.57117,-9.32981,-14.8325],'J/(mol*K)'),
-        H298 = (331.765,'kJ/mol'),
-        S298 = (-9.5881,'J/(mol*K)'),
+        Cpdata = ([0.0753661,0.135893,-0.155926,-0.647574,-1.57055,-2.22988,-3.54504],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (79.2936,'kcal/mol','+|-',7.64701),
+        S298 = (-0.914183,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
@@ -10106,14 +10156,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.2,-0.7,-1.4,-1.9,-2.8,-3.4,-4.5],'cal/(mol*K)'),
-        H298 = (92.1,'kcal/mol'),
-        S298 = (2.5,'cal/(mol*K)'),
+        Cpdata = ([-0.601594,-1.01158,-1.45068,-1.85957,-2.53372,-3.07265,-3.91638],'cal/(mol*K)','+|-',[0.259085,0.267967,0.274818,0.275303,0.277305,0.276524,0.249063]),
+        H298 = (92.4295,'kcal/mol','+|-',2.04375),
+        S298 = (0.684909,'cal/(mol*K)','+|-',0.624042),
     ),
-    shortDesc = """""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         13
+NOx2018 |         1
 """,
 )
 
@@ -10129,14 +10182,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-9.49236,-8.5813,-8.63032,-9.10002,-10.0385,-11.4238,-14.1214],'J/(mol*K)'),
-        H298 = (329.078,'kJ/mol'),
-        S298 = (-10.2951,'J/(mol*K)'),
+        Cpdata = ([-2.38873,-2.13598,-2.06256,-2.12206,-2.34969,-2.67721,-3.38033],'cal/(mol*K)','+|-',[0.433532,0.448394,0.459858,0.46067,0.46402,0.462714,0.416763]),
+        H298 = (78.5558,'kcal/mol','+|-',3.41985),
+        S298 = (-2.39339,'cal/(mol*K)','+|-',1.04422),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         5
 """,
 )
 
@@ -10152,14 +10207,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.4665,-7.70578,-11.17,-13.75,-16.6445,-18.2536,-20.0442],'J/(mol*K)'),
-        H298 = (392.461,'kJ/mol'),
-        S298 = (-9.03706,'J/(mol*K)'),
+        Cpdata = ([-0.673712,-1.55375,-2.21243,-2.74183,-3.48078,-3.9129,-4.37654],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (93.5172,'kcal/mol','+|-',5.40726),
+        S298 = (3.52587,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
@@ -10420,13 +10477,8 @@ entry(
 2   N   u0 {1,S}
 3   O2d u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.499049,-2.566,-5.4926,-8.03919,-12.3239,-15.6108,-20.2366],'J/(mol*K)'),
-        H298 = (352.267,'kJ/mol'),
-        S298 = (5.58481,'J/(mol*K)'),
-    ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    thermo = "COJ-N3dOd",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -10435,6 +10487,79 @@ entry(
 
 entry(
     index = 408,
+    label = "COJ-N3sOd",
+    group = 
+"""
+1 * CO  u1 {2,S} {3,D}
+2   N3s u0 {1,S}
+3   O2d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.422649,-1.16149,-1.80537,-2.31811,-3.13585,-3.77377,-4.75958],'cal/(mol*K)','+|-',[0.559688,0.578874,0.593675,0.594722,0.599047,0.597361,0.538038]),
+        H298 = (93.9771,'kcal/mol','+|-',4.41501),
+        S298 = (1.52003,'cal/(mol*K)','+|-',1.34808),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library  | Number of Species
+CHON_G4  |         2
+BurcatNS |         1
+""",
+)
+
+entry(
+    index = 409,
+    label = "COJ-N3dOd",
+    group = 
+"""
+1 * CO  u1 {2,S} {3,D}
+2   N3d u0 {1,S}
+3   O2d u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.721828,0.153041,-0.448633,-0.995896,-1.93507,-2.68155,-3.8358],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (74.7042,'kcal/mol','+|-',7.64701),
+        S298 = (-0.648652,'cal/(mol*K)','+|-',2.33495),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
+""",
+)
+
+entry(
+    index = 410,
+    label = "COJ-N1scOd",
+    group = 
+"""
+1 * CO   u1 {2,S} {3,D}
+2   N1sc u0 {1,S}
+3   O2d  u0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.499072,-0.113927,-0.897231,-1.7484,-3.35208,-4.53554,-5.89121],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (74.1717,'kcal/mol','+|-',7.64701),
+        S298 = (3.82631,'cal/(mol*K)','+|-',2.33495),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
+""",
+)
+
+entry(
+    index = 411,
     label = "HCdsJO",
     group = 
 """
@@ -10456,7 +10581,7 @@ entry(
 )
 
 entry(
-    index = 409,
+    index = 412,
     label = "CCJ=O",
     group = 
 """
@@ -10473,7 +10598,7 @@ entry(
 )
 
 entry(
-    index = 410,
+    index = 413,
     label = "CC(C)CJ=O",
     group = 
 """
@@ -10499,7 +10624,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 411,
+    index = 414,
     label = "CC(C)2CJ=O",
     group = 
 """
@@ -10526,7 +10651,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 412,
+    index = 415,
     label = "CC(C)(C=O)CJ=O",
     group = 
 """
@@ -10554,7 +10679,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 413,
+    index = 416,
     label = "C=CC(C)(C=O)CJ=O",
     group = 
 """
@@ -10583,7 +10708,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 414,
+    index = 417,
     label = "C=CC(C)2CJ=O",
     group = 
 """
@@ -10611,7 +10736,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 415,
+    index = 418,
     label = "CC(C)(O)CJ=O",
     group = 
 """
@@ -10638,7 +10763,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 416,
+    index = 419,
     label = "C=CC(C)(O)CJ=O",
     group = 
 """
@@ -10666,7 +10791,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 417,
+    index = 420,
     label = "CCCJ=O",
     group = 
 """
@@ -10691,7 +10816,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 418,
+    index = 421,
     label = "C=OCCJ=O",
     group = 
 """
@@ -10717,7 +10842,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 419,
+    index = 422,
     label = "C=OC=OCJ=O",
     group = 
 """
@@ -10744,7 +10869,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 420,
+    index = 423,
     label = "C=C(C)CJ=O",
     group = 
 """
@@ -10770,7 +10895,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 421,
+    index = 424,
     label = "CsCJ=O",
     group = 
 """
@@ -10792,7 +10917,7 @@ entry(
 )
 
 entry(
-    index = 422,
+    index = 425,
     label = "C=CCJ=O",
     group = 
 """
@@ -10817,7 +10942,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 423,
+    index = 426,
     label = "OC=OCJ=O",
     group = 
 """
@@ -10843,7 +10968,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 424,
+    index = 427,
     label = "(O)CJO",
     group = 
 """
@@ -10860,7 +10985,7 @@ entry(
 )
 
 entry(
-    index = 425,
+    index = 428,
     label = "(O)CJOH",
     group = 
 """
@@ -10883,7 +11008,7 @@ entry(
 )
 
 entry(
-    index = 426,
+    index = 429,
     label = "(O)CJOC",
     group = 
 """
@@ -10908,7 +11033,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 427,
+    index = 430,
     label = "(O)CJOCH3",
     group = 
 """
@@ -10934,7 +11059,7 @@ entry(
 )
 
 entry(
-    index = 428,
+    index = 431,
     label = "(O)CJOCC",
     group = 
 """
@@ -10960,7 +11085,7 @@ entry(
 )
 
 entry(
-    index = 429,
+    index = 432,
     label = "(O)CJOCC2",
     group = 
 """
@@ -10986,7 +11111,7 @@ entry(
 )
 
 entry(
-    index = 430,
+    index = 433,
     label = "(O)CJOCC3",
     group = 
 """
@@ -11012,7 +11137,7 @@ entry(
 )
 
 entry(
-    index = 431,
+    index = 434,
     label = "SCJ=O",
     group = 
 """
@@ -11035,7 +11160,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 432,
+    index = 435,
     label = "Cds_P",
     group = 
 """
@@ -11057,7 +11182,7 @@ entry(
 )
 
 entry(
-    index = 433,
+    index = 436,
     label = "C=C=CJ",
     group = 
 """
@@ -11080,7 +11205,7 @@ entry(
 )
 
 entry(
-    index = 434,
+    index = 437,
     label = "N=C=CJ",
     group = 
 """
@@ -11091,19 +11216,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.92302,-3.87776,-5.86459,-7.91273,-11.031,-13.2669,-16.8954],'J/(mol*K)'),
-        H298 = (369.234,'kJ/mol'),
-        S298 = (-5.93117,'J/(mol*K)'),
+        Cpdata = ([-0.407605,-0.73148,-1.258,-1.78763,-2.6058,-3.19554,-4.11804],'cal/(mol*K)','+|-',[0.433532,0.448394,0.459858,0.46067,0.46402,0.462714,0.416763]),
+        H298 = (90.8645,'kcal/mol','+|-',3.41985),
+        S298 = (-0.427035,'cal/(mol*K)','+|-',1.04422),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         5
 """,
 )
 
 entry(
-    index = 435,
+    index = 438,
     label = "Cds_S",
     group = 
 """
@@ -11125,7 +11252,7 @@ entry(
 )
 
 entry(
-    index = 436,
+    index = 439,
     label = "C=CJC=O",
     group = 
 """
@@ -11150,7 +11277,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 437,
+    index = 440,
     label = "C=CJC=C",
     group = 
 """
@@ -11172,7 +11299,7 @@ entry(
 )
 
 entry(
-    index = 438,
+    index = 441,
     label = "cyclobutadiene-C1",
     group = 
 """
@@ -11195,7 +11322,7 @@ entry(
 )
 
 entry(
-    index = 439,
+    index = 442,
     label = "bicyclo[2.2.0]hexa-1(4),2,5-triene-C2",
     group = 
 """
@@ -11220,7 +11347,7 @@ entry(
 )
 
 entry(
-    index = 440,
+    index = 443,
     label = "1,3-cyclopentadiene-vinyl-2",
     group = 
 """
@@ -11244,7 +11371,7 @@ entry(
 )
 
 entry(
-    index = 441,
+    index = 444,
     label = "cyclopropenyl-vinyl",
     group = 
 """
@@ -11266,7 +11393,7 @@ entry(
 )
 
 entry(
-    index = 442,
+    index = 445,
     label = "cyclobutene-vinyl",
     group = 
 """
@@ -11289,7 +11416,7 @@ entry(
 )
 
 entry(
-    index = 443,
+    index = 446,
     label = "bicyclo[2.1.0]pent-2-ene-C2",
     group = 
 """
@@ -11313,7 +11440,7 @@ entry(
 )
 
 entry(
-    index = 444,
+    index = 447,
     label = "tricyclo[2.1.1.0(1,4)]hex-2-ene-C2",
     group = 
 """
@@ -11338,7 +11465,7 @@ entry(
 )
 
 entry(
-    index = 445,
+    index = 448,
     label = "bicyclo[2.2.0]hexa-2,5-diene-C2",
     group = 
 """
@@ -11363,7 +11490,7 @@ entry(
 )
 
 entry(
-    index = 446,
+    index = 449,
     label = "cyclopentene-vinyl",
     group = 
 """
@@ -11387,7 +11514,7 @@ entry(
 )
 
 entry(
-    index = 447,
+    index = 450,
     label = "bicyclo[2.1.1]hex-2-ene-C2",
     group = 
 """
@@ -11412,7 +11539,7 @@ entry(
 )
 
 entry(
-    index = 448,
+    index = 451,
     label = "1,3-cyclopentadiene-vinyl-1",
     group = 
 """
@@ -11436,7 +11563,7 @@ entry(
 )
 
 entry(
-    index = 449,
+    index = 452,
     label = "CCCJ=C=O",
     group = 
 """
@@ -11462,7 +11589,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 450,
+    index = 453,
     label = "CC(C)CJ=C=O",
     group = 
 """
@@ -11489,7 +11616,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 451,
+    index = 454,
     label = "C=C(C)CJ=C=O",
     group = 
 """
@@ -11516,7 +11643,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 452,
+    index = 455,
     label = "OC=CJCb",
     group = 
 """
@@ -11539,7 +11666,7 @@ Fit to CCSD(T)-F12/cc-pVDZ-F12//M06/vtz calculations for OC=[C]c1ccccc1
 )
 
 entry(
-    index = 453,
+    index = 456,
     label = "N=C=CJC",
     group = 
 """
@@ -11550,19 +11677,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.07662,-4.81991,-7.34354,-9.45507,-12.8991,-15.5773,-19.5204],'J/(mol*K)'),
-        H298 = (345.84,'kJ/mol'),
-        S298 = (0.774208,'J/(mol*K)'),
+        Cpdata = ([-0.496325,-1.15198,-1.75515,-2.25981,-3.08296,-3.72306,-4.66548],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (82.6578,'kcal/mol','+|-',5.40726),
+        S298 = (2.36821,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
 entry(
-    index = 454,
+    index = 457,
     label = "S2s-CJ=C",
     group = 
 """
@@ -11584,7 +11713,7 @@ entry(
 )
 
 entry(
-    index = 455,
+    index = 458,
     label = "C=CJO",
     group = 
 """
@@ -11608,7 +11737,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 456,
+    index = 459,
     label = "CdJ-NN",
     group = 
 """
@@ -11618,19 +11747,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.97657,-2.2041,-5.32888,-7.99133,-12.3333,-15.391,-19.6103],'J/(mol*K)'),
-        H298 = (404.968,'kJ/mol'),
-        S298 = (8.19458,'J/(mol*K)'),
+        Cpdata = ([0.271177,-0.491195,-1.24146,-1.88011,-2.92087,-3.65583,-4.67219],'cal/(mol*K)','+|-',[0.242352,0.25066,0.257069,0.257522,0.259395,0.258665,0.232977]),
+        H298 = (96.8487,'kcal/mol','+|-',1.91175),
+        S298 = (2.3934,'cal/(mol*K)','+|-',0.583738),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         16
 """,
 )
 
 entry(
-    index = 457,
+    index = 460,
     label = "CdJ-CdN",
     group = 
 """
@@ -11640,19 +11771,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.18369,-4.23173,-7.03311,-9.35183,-12.8111,-15.2187,-18.7271],'J/(mol*K)'),
-        H298 = (445.085,'kJ/mol'),
-        S298 = (5.80115,'J/(mol*K)'),
+        Cpdata = ([-0.246763,-0.97702,-1.64513,-2.20026,-3.03428,-3.61837,-4.47094],'cal/(mol*K)','+|-',[0.259085,0.267967,0.274818,0.275303,0.277305,0.276524,0.249063]),
+        H298 = (106.358,'kcal/mol','+|-',2.04375),
+        S298 = (1.89601,'cal/(mol*K)','+|-',0.624042),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library  | Number of Species
+CHON_G4  |         13
+BurcatNS |         1
 """,
 )
 
 entry(
-    index = 458,
+    index = 461,
     label = "CdJ-CddN",
     group = 
 """
@@ -11662,19 +11796,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.3921,-2.08105,-5.04651,-7.48487,-11.2668,-13.9403,-17.7653],'J/(mol*K)'),
-        H298 = (371.87,'kJ/mol'),
-        S298 = (2.60652,'J/(mol*K)'),
+        Cpdata = ([0.33272,-0.497384,-1.20615,-1.78893,-2.69282,-3.33181,-4.24601],'cal/(mol*K)','+|-',[0.433532,0.448394,0.459858,0.46067,0.46402,0.462714,0.416763]),
+        H298 = (88.879,'kcal/mol','+|-',3.41985),
+        S298 = (0.622973,'cal/(mol*K)','+|-',1.04422),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         5
 """,
 )
 
 entry(
-    index = 459,
+    index = 462,
     label = "CdJ-NdO",
     group = 
 """
@@ -11684,19 +11820,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.33945,-1.92324,-6.02047,-9.57875,-15.2601,-19.0789,-23.7518],'J/(mol*K)'),
-        H298 = (437.007,'kJ/mol'),
-        S298 = (7.57533,'J/(mol*K)'),
+        Cpdata = ([0.543964,-0.456943,-1.43846,-2.3004,-3.65957,-4.57571,-5.70241],'cal/(mol*K)','+|-',[0.306554,0.317062,0.325169,0.325743,0.328111,0.327188,0.294696]),
+        H298 = (104.207,'kcal/mol','+|-',2.4182),
+        S298 = (2.37822,'cal/(mol*K)','+|-',0.738377),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         10
 """,
 )
 
 entry(
-    index = 460,
+    index = 463,
     label = "CdJ-NdC",
     group = 
 """
@@ -11706,19 +11844,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.00763889,-2.36896,-5.21801,-7.8464,-11.991,-15.0452,-19.5882],'J/(mol*K)'),
-        H298 = (431.362,'kJ/mol'),
-        S298 = (4.60475,'J/(mol*K)'),
+        Cpdata = ([-0.0344394,-0.604978,-1.27733,-1.89139,-2.86056,-3.58664,-4.67446],'cal/(mol*K)','+|-',[0.242352,0.25066,0.257069,0.257522,0.259395,0.258665,0.232977]),
+        H298 = (102.585,'kcal/mol','+|-',1.91175),
+        S298 = (2.06891,'cal/(mol*K)','+|-',0.583738),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         16
 """,
 )
 
 entry(
-    index = 461,
+    index = 464,
     label = "CdJ-HN3d",
     group = 
 """
@@ -11728,19 +11868,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.535181,-3.60589,-6.39413,-8.86095,-12.7727,-15.5717,-19.8329],'J/(mol*K)'),
-        H298 = (415.298,'kJ/mol'),
-        S298 = (5.57767,'J/(mol*K)'),
+        Cpdata = ([-0.119528,-0.846913,-1.49559,-2.06838,-2.99142,-3.66818,-4.72172],'cal/(mol*K)','+|-',[0.292287,0.302307,0.310037,0.310584,0.312842,0.311961,0.280981]),
+        H298 = (99.6029,'kcal/mol','+|-',2.30566),
+        S298 = (1.92971,'cal/(mol*K)','+|-',0.704015),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         11
 """,
 )
 
 entry(
-    index = 462,
+    index = 465,
     label = "CdJ-H(N3dOs)",
     group = 
 """
@@ -11751,19 +11893,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.72438,-0.600728,-4.42251,-7.70232,-13.0613,-16.7127,-21.0715],'J/(mol*K)'),
-        H298 = (440.68,'kJ/mol'),
-        S298 = (7.40719,'J/(mol*K)'),
+        Cpdata = ([0.680219,-0.111093,-1.02327,-1.82134,-3.10184,-3.98842,-5.07666],'cal/(mol*K)','+|-',[0.433532,0.448394,0.459858,0.46067,0.46402,0.462714,0.416763]),
+        H298 = (105.345,'kcal/mol','+|-',3.41985),
+        S298 = (2.15023,'cal/(mol*K)','+|-',1.04422),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         5
 """,
 )
 
 entry(
-    index = 463,
+    index = 466,
     label = "CdJ-H(N3dCO)",
     group = 
 """
@@ -11775,19 +11919,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.19479,-3.60166,-4.82249,-6.06327,-8.74387,-11.0941,-15.1265],'J/(mol*K)'),
-        H298 = (411.286,'kJ/mol'),
-        S298 = (-2.27887,'J/(mol*K)'),
+        Cpdata = ([-0.524567,-0.860815,-1.1526,-1.44915,-2.08983,-2.65156,-3.61531],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (98.2996,'kcal/mol','+|-',7.64701),
+        S298 = (-0.544662,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 464,
+    index = 467,
     label = "CdJ-H(N3dN3d)",
     group = 
 """
@@ -11798,19 +11944,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.175838,-2.38908,-4.71217,-6.73125,-10.4295,-13.5563,-18.2391],'J/(mol*K)'),
-        H298 = (426.882,'kJ/mol'),
-        S298 = (5.53135,'J/(mol*K)'),
+        Cpdata = ([0.0420264,-0.571003,-1.12624,-1.60881,-2.49271,-3.24004,-4.35926],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (102.027,'kcal/mol','+|-',5.40726),
+        S298 = (1.32202,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
 entry(
-    index = 465,
+    index = 468,
     label = "CdJ-H(N3dCd)",
     group = 
 """
@@ -11821,19 +11969,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.23929,-2.28161,-6.55411,-9.87574,-14.8878,-18.2186,-21.9295],'J/(mol*K)'),
-        H298 = (422.544,'kJ/mol'),
-        S298 = (13.1379,'J/(mol*K)'),
+        Cpdata = ([0.535202,-0.545317,-1.56647,-2.36036,-3.55827,-4.35435,-5.24126],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (100.99,'kcal/mol','+|-',5.40726),
+        S298 = (3.14002,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
 entry(
-    index = 466,
+    index = 469,
     label = "CdJ-HN5dc",
     group = 
 """
@@ -11843,19 +11993,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.58018,-0.431227,-3.62097,-6.67779,-11.585,-15.0896,-19.8118],'J/(mol*K)'),
-        H298 = (490.037,'kJ/mol'),
-        S298 = (7.65582,'J/(mol*K)'),
+        Cpdata = ([0.671546,-0.100592,-0.875238,-1.58186,-2.6959,-3.4998,-4.61796],'cal/(mol*K)','+|-',[0.484704,0.50132,0.514137,0.515045,0.51879,0.517329,0.465955]),
+        H298 = (117.391,'kcal/mol','+|-',3.82351),
+        S298 = (3.28211,'cal/(mol*K)','+|-',1.16748),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         4
 """,
 )
 
 entry(
-    index = 467,
+    index = 470,
     label = "CtJ",
     group = 
 """
@@ -11871,7 +12023,7 @@ entry(
 )
 
 entry(
-    index = 468,
+    index = 471,
     label = "Acetyl",
     group = 
 """
@@ -11893,7 +12045,7 @@ entry(
 )
 
 entry(
-    index = 469,
+    index = 472,
     label = "CbJ",
     group = 
 """
@@ -11915,7 +12067,7 @@ entry(
 )
 
 entry(
-    index = 470,
+    index = 473,
     label = "C=SJ",
     group = 
 """
@@ -11931,7 +12083,7 @@ entry(
 )
 
 entry(
-    index = 471,
+    index = 474,
     label = "C=SJ-S2s",
     group = 
 """
@@ -11948,7 +12100,7 @@ entry(
 )
 
 entry(
-    index = 472,
+    index = 475,
     label = "C=SJ-H",
     group = 
 """
@@ -11970,7 +12122,7 @@ entry(
 )
 
 entry(
-    index = 473,
+    index = 476,
     label = "C=SJ-C",
     group = 
 """
@@ -11987,7 +12139,7 @@ entry(
 )
 
 entry(
-    index = 474,
+    index = 477,
     label = "C=SJ-Cd",
     group = 
 """
@@ -12009,7 +12161,7 @@ entry(
 )
 
 entry(
-    index = 475,
+    index = 478,
     label = "C=SJ-Cs",
     group = 
 """
@@ -12031,7 +12183,7 @@ entry(
 )
 
 entry(
-    index = 476,
+    index = 479,
     label = "OJ",
     group = 
 """
@@ -12046,7 +12198,7 @@ entry(
 )
 
 entry(
-    index = 477,
+    index = 480,
     label = "HOJ",
     group = 
 """
@@ -12067,7 +12219,7 @@ entry(
 )
 
 entry(
-    index = 478,
+    index = 481,
     label = "COJ",
     group = 
 """
@@ -12083,7 +12235,7 @@ entry(
 )
 
 entry(
-    index = 479,
+    index = 482,
     label = "CCOJ",
     group = 
 """
@@ -12107,7 +12259,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 480,
+    index = 483,
     label = "C=OCOJ",
     group = 
 """
@@ -12132,7 +12284,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 481,
+    index = 484,
     label = "C=CC(C)(C=O)OJ",
     group = 
 """
@@ -12160,7 +12312,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 482,
+    index = 485,
     label = "CC(C)(C=O)OJ",
     group = 
 """
@@ -12187,7 +12339,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 483,
+    index = 486,
     label = "C=OC=OOJ",
     group = 
 """
@@ -12213,7 +12365,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 484,
+    index = 487,
     label = "CC(C)OJ",
     group = 
 """
@@ -12238,7 +12390,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 485,
+    index = 488,
     label = "CC(C)2OJ",
     group = 
 """
@@ -12264,7 +12416,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 486,
+    index = 489,
     label = "C=CC(C)2OJ",
     group = 
 """
@@ -12291,7 +12443,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 487,
+    index = 490,
     label = "CC(C)(O)OJ",
     group = 
 """
@@ -12317,7 +12469,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 488,
+    index = 491,
     label = "C=CC(C)(O)OJ",
     group = 
 """
@@ -12344,7 +12496,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 489,
+    index = 492,
     label = "C=C(C)OJ",
     group = 
 """
@@ -12369,7 +12521,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 490,
+    index = 493,
     label = "CdsOJ",
     group = 
 """
@@ -12385,7 +12537,7 @@ entry(
 )
 
 entry(
-    index = 491,
+    index = 494,
     label = "RC=COJ",
     group = 
 """
@@ -12406,7 +12558,7 @@ entry(
 )
 
 entry(
-    index = 492,
+    index = 495,
     label = "C=COJ",
     group = 
 """
@@ -12430,7 +12582,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 493,
+    index = 496,
     label = "N=COJ",
     group = 
 """
@@ -12439,10 +12591,10 @@ entry(
 3   N   u0 {1,D}
 """,
     thermo = ThermoData(
-        Tdata=([300,400,500,600,800,1000,1500],'K'), 
-        Cpdata=([5.28217,1.42099,-3.86345,-8.97042,-15.9178,-20.3522,-25.06],'J/(mol*K)'), 
-        H298=(428.303,'kJ/mol'),
-        S298=(12.3017,'J/(mol*K)'),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.28217,1.42099,-3.86345,-8.97042,-15.9178,-20.3522,-25.06],'J/(mol*K)'),
+        H298 = (428.303,'kJ/mol'),
+        S298 = (12.3017,'J/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
@@ -12452,31 +12604,32 @@ Derived from OCDN/[NH]CDO in CHON_G4 thermolibrary
 )
 
 entry(
-    index = 4930000,
+    index = 497,
     label = "O0scN5dc=COJ",
     group = 
 """
-1   Cd   u0 {2,S} {3,D}
-2 * O2s  u1 {1,S}
-3   N5dc u0 {1,D} {4,S}
-4   O0sc u0 {3,S}
+1   Cd   u0 {2,D} {3,S}
+2   N5dc u0 {1,D} {4,S}
+3 * O2s  u1 {1,S}
+4   O0sc u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-9.58496,-8.79662,-8.0527,-8.55566,-10.0922,-11.8503,-16.2634],'J/(mol*K)'),
-        H298 = (158.992,'kJ/mol'),
-        S298 = (-7.51805,'J/(mol*K)'),
+        Cpdata = ([-2.29086,-2.10244,-1.92464,-2.04485,-2.41209,-2.83228,-3.88704],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (38,'kcal/mol','+|-',7.64701),
+        S298 = (-1.79686,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
-
 entry(
-    index = 494,
+    index = 498,
     label = "OJC=O",
     group = 
 """
@@ -12498,7 +12651,7 @@ entry(
 )
 
 entry(
-    index = 495,
+    index = 499,
     label = "OC=OOJ",
     group = 
 """
@@ -12523,7 +12676,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 496,
+    index = 500,
     label = "OCOJ",
     group = 
 """
@@ -12547,7 +12700,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 497,
+    index = 501,
     label = "SCOJ",
     group = 
 """
@@ -12570,7 +12723,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 498,
+    index = 502,
     label = "CsOJ",
     group = 
 """
@@ -12591,7 +12744,7 @@ entry(
 )
 
 entry(
-    index = 499,
+    index = 503,
     label = "H3COJ",
     group = 
 """
@@ -12615,7 +12768,7 @@ entry(
 )
 
 entry(
-    index = 500,
+    index = 504,
     label = "CbOJ",
     group = 
 """
@@ -12631,7 +12784,7 @@ entry(
 )
 
 entry(
-    index = 501,
+    index = 505,
     label = "OOJ",
     group = 
 """
@@ -12647,7 +12800,7 @@ entry(
 )
 
 entry(
-    index = 502,
+    index = 506,
     label = "ROOJ",
     group = 
 """
@@ -12669,7 +12822,7 @@ entry(
 )
 
 entry(
-    index = 503,
+    index = 507,
     label = "C(=O)OOJ",
     group = 
 """
@@ -12692,7 +12845,7 @@ entry(
 )
 
 entry(
-    index = 504,
+    index = 508,
     label = "C3COOJ",
     group = 
 """
@@ -12717,7 +12870,7 @@ entry(
 )
 
 entry(
-    index = 505,
+    index = 509,
     label = "SOOJ",
     group = 
 """
@@ -12740,7 +12893,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 506,
+    index = 510,
     label = "HOOJ",
     group = 
 """
@@ -12762,7 +12915,7 @@ entry(
 )
 
 entry(
-    index = 507,
+    index = 511,
     label = "SOJ",
     group = 
 """
@@ -12778,7 +12931,7 @@ entry(
 )
 
 entry(
-    index = 508,
+    index = 512,
     label = "O2sJ-S2s",
     group = 
 """
@@ -12800,7 +12953,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 509,
+    index = 513,
     label = "O2sJ-S4d",
     group = 
 """
@@ -12817,7 +12970,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 510,
+    index = 514,
     label = "O2sJ-(S4d-OdO)",
     group = 
 """
@@ -12841,7 +12994,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 511,
+    index = 515,
     label = "O2sJ-(S4d-OdC)",
     group = 
 """
@@ -12865,7 +13018,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 512,
+    index = 516,
     label = "O2sJ-(S4d-OdH)",
     group = 
 """
@@ -12889,7 +13042,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 513,
+    index = 517,
     label = "O2sJ-(S4d-CdC)",
     group = 
 """
@@ -12913,7 +13066,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 514,
+    index = 518,
     label = "O2sJ-S6d",
     group = 
 """
@@ -12935,39 +13088,53 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 515,
+    index = 519,
     label = "O2sJ-N",
     group = 
 """
 1 * O2s u1 {2,S}
 2   N   u0 {1,S}
 """,
-    thermo = 'O2sJ-N3s',
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.13345,-2.58476,-2.90062,-3.15718,-3.65124,-4.05451,-4.70057],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (78.4973,'kcal/mol','+|-',7.64701),
+        S298 = (-2.91538,'cal/(mol*K)','+|-',2.33495),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+NOx2018 |         1
 """,
 )
 
 entry(
-    index = 516,
+    index = 520,
     label = "O2sJ-N3s",
     group = 
 """
 1 * O2s u1 {2,S}
 2   N3s u0 {1,S}
 """,
-    thermo = 'O2sJ-N3sC',
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.07024,-2.09471,-3.09097,-3.88147,-4.78544,-5.28189,-5.50911],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (77.8328,'kcal/mol','+|-',7.64701),
+        S298 = (1.10935,'cal/(mol*K)','+|-',2.33495),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library                 | Number of Species
+thermo_DFT_CCSDTF12_BAC |         1
 """,
 )
 
 entry(
-    index = 517,
+    index = 521,
     label = "O2sJ-N3sC",
     group = 
 """
@@ -12977,19 +13144,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.95666,-8.30392,-10.4418,-11.9018,-14.2655,-16.1736,-18.5966],'J/(mol*K)'),
-        H298 = (327.882,'kJ/mol'),
-        S298 = (3.22862,'J/(mol*K)'),
+        Cpdata = ([-1.18467,-1.98468,-2.49564,-2.8446,-3.40953,-3.86558,-4.44468],'cal/(mol*K)','+|-',[0.484704,0.50132,0.514137,0.515045,0.51879,0.517329,0.465955]),
+        H298 = (78.3656,'kcal/mol','+|-',3.82351),
+        S298 = (1.86324,'cal/(mol*K)','+|-',1.16748),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         4
 """,
 )
 
 entry(
-    index = 518,
+    index = 522,
     label = "O2sJ-N3sCO",
     group = 
 """
@@ -13000,19 +13169,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.80695,-9.17585,-11.1673,-12.1719,-13.6433,-14.6347,-16.2533],'J/(mol*K)'),
-        H298 = (317.059,'kJ/mol'),
-        S298 = (3.29589,'J/(mol*K)'),
+        Cpdata = ([-1.38789,-2.19308,-2.66905,-2.90916,-3.26082,-3.49777,-3.88463],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (75.7788,'kcal/mol','+|-',5.40726),
+        S298 = (0.787736,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
 entry(
-    index = 519,
+    index = 523,
     label = "O2sJ-N3sO2s",
     group = 
 """
@@ -13022,19 +13193,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.49247,-14.5591,-18.7597,-21.1308,-24.037,-25.4752,-25.7812],'J/(mol*K)'),
-        H298 = (337.881,'kJ/mol'),
-        S298 = (3.72329,'J/(mol*K)'),
+        Cpdata = ([-2.02975,-3.4797,-4.48366,-5.05038,-5.74497,-6.08873,-6.16185],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (80.7556,'kcal/mol','+|-',5.40726),
+        S298 = (0.889887,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
 entry(
-    index = 520,
+    index = 524,
     label = "O2sJ-N3s(N5sdcO0sc)",
     group = 
 """
@@ -13045,19 +13218,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.50052,-2.35159,-6.76321,-10.6251,-17.0766,-21.9786,-28.6277],'J/(mol*K)'),
-        H298 = (340.144,'kJ/mol'),
-        S298 = (17.5768,'J/(mol*K)'),
+        Cpdata = ([0.597638,-0.562043,-1.61644,-2.53945,-4.08141,-5.25301,-6.84218],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (81.2963,'kcal/mol','+|-',7.64701),
+        S298 = (4.20095,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 521,
+    index = 525,
     label = "O2sJ-N5sdtc",
     group = 
 """
@@ -13066,19 +13241,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-12.452,-13.7444,-13.9339,-14.0699,-14.6564,-15.3839,-17.2753],'J/(mol*K)'),
-        H298 = (431.96,'kJ/mol'),
-        S298 = (-8.08566,'J/(mol*K)'),
+        Cpdata = ([-2.34251,-2.57305,-2.70248,-2.86048,-3.19731,-3.51306,-4.13793],'cal/(mol*K)','+|-',[0.559688,0.578874,0.593675,0.594722,0.599047,0.597361,0.538038]),
+        H298 = (105.445,'kcal/mol','+|-',4.41501),
+        S298 = (-2.26956,'cal/(mol*K)','+|-',1.34808),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         3
 """,
 )
 
 entry(
-    index = 522,
+    index = 526,
     label = "O2sJ-N5dcOd",
     group = 
 """
@@ -13088,19 +13265,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.39039,-6.26822,-9.33998,-11.4358,-14.5602,-16.8834,-20.3064],'J/(mol*K)'),
-        H298 = (400.951,'kJ/mol'),
-        S298 = (16.5987,'J/(mol*K)'),
+        Cpdata = ([-0.571317,-1.49814,-2.23231,-2.73321,-3.47997,-4.03524,-4.85333],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (95.8295,'kcal/mol','+|-',7.64701),
+        S298 = (3.96717,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 523,
+    index = 527,
     label = "O2sJ-N5dcOdO0sc",
     group = 
 """
@@ -13111,19 +13290,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.87864,-2.55224,-5.6484,-7.7404,-10.9202,-13.2633,-16.6105],'J/(mol*K)'),
-        H298 = (431.801,'kJ/mol'),
-        S298 = (-4.97896,'J/(mol*K)'),
+        Cpdata = ([0.612301,-0.522464,-1.34442,-1.86965,-2.69711,-3.33151,-4.14472],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (101.829,'kcal/mol','+|-',7.64701),
+        S298 = (0.408085,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 524,
+    index = 528,
     label = "O2sJ-N1sc",
     group = 
 """
@@ -13132,19 +13313,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.37293,-7.06222,-9.51612,-11.2729,-13.4699,-14.9722,-17.077],'J/(mol*K)'),
-        H298 = (347.821,'kJ/mol'),
-        S298 = (2.24576,'J/(mol*K)'),
+        Cpdata = ([-1.04515,-1.68791,-2.27441,-2.69428,-3.21939,-3.57845,-4.0815],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (83.1312,'kcal/mol','+|-',5.40726),
+        S298 = (0.53675,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
 entry(
-    index = 525,
+    index = 529,
     label = "O2sJ-N3dN3d",
     group = 
 """
@@ -13152,12 +13335,7 @@ entry(
 2 * O2s u1 {1,S}
 3   N3d u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-6.29692,-10.2926,-12.6566,-14.1838,-16.3385,-17.5728,-18.6188],'J/(mol*K)'),
-        H298 = (664.976,'kJ/mol'),
-        S298 = (5.17262,'J/(mol*K)'),
-    ),
+    thermo = None,
     shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
     longDesc = 
 """
@@ -13166,7 +13344,7 @@ entry(
 )
 
 entry(
-    index = 526,
+    index = 530,
     label = "O2sJ-N3dCd",
     group = 
 """
@@ -13176,19 +13354,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.28771,-10.3803,-11.9598,-13.1984,-15.0803,-16.3293,-16.2292],'J/(mol*K)'),
-        H298 = (355.56,'kJ/mol'),
-        S298 = (-8.0332,'J/(mol*K)'),
+        Cpdata = ([-1.52895,-2.21685,-2.83263,-3.28145,-3.84029,-4.1937,-4.24312],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (84.6666,'kcal/mol','+|-',5.40726),
+        S298 = (0.284987,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library        | Number of Species
+NOx2018        |         1
+NitrogenCurran |         1
 """,
 )
 
 entry(
-    index = 527,
+    index = 531,
     label = "SiJ",
     group = 
 """
@@ -13203,7 +13384,7 @@ entry(
 )
 
 entry(
-    index = 528,
+    index = 532,
     label = "SJ",
     group = 
 """
@@ -13218,7 +13399,7 @@ entry(
 )
 
 entry(
-    index = 529,
+    index = 533,
     label = "S2J",
     group = 
 """
@@ -13233,7 +13414,7 @@ entry(
 )
 
 entry(
-    index = 530,
+    index = 534,
     label = "S2J-H",
     group = 
 """
@@ -13254,7 +13435,7 @@ entry(
 )
 
 entry(
-    index = 531,
+    index = 535,
     label = "S2J-C",
     group = 
 """
@@ -13270,7 +13451,7 @@ entry(
 )
 
 entry(
-    index = 532,
+    index = 536,
     label = "S2J-Cs",
     group = 
 """
@@ -13287,7 +13468,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 533,
+    index = 537,
     label = "S2sJ-(CsHHH)",
     group = 
 """
@@ -13312,7 +13493,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 534,
+    index = 538,
     label = "S2J-(Cs-Cb)",
     group = 
 """
@@ -13335,7 +13516,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 535,
+    index = 539,
     label = "S2J-Ct",
     group = 
 """
@@ -13356,7 +13537,7 @@ entry(
 )
 
 entry(
-    index = 536,
+    index = 540,
     label = "S2J-Cb",
     group = 
 """
@@ -13377,7 +13558,7 @@ entry(
 )
 
 entry(
-    index = 537,
+    index = 541,
     label = "S2J-Cd",
     group = 
 """
@@ -13399,7 +13580,7 @@ entry(
 )
 
 entry(
-    index = 538,
+    index = 542,
     label = "S2J-C=S",
     group = 
 """
@@ -13421,7 +13602,7 @@ entry(
 )
 
 entry(
-    index = 539,
+    index = 543,
     label = "S2J-CO",
     group = 
 """
@@ -13443,7 +13624,7 @@ entry(
 )
 
 entry(
-    index = 540,
+    index = 544,
     label = "S2J-S2s",
     group = 
 """
@@ -13459,7 +13640,7 @@ entry(
 )
 
 entry(
-    index = 541,
+    index = 545,
     label = "S2J-S2s-H",
     group = 
 """
@@ -13481,7 +13662,7 @@ entry(
 )
 
 entry(
-    index = 542,
+    index = 546,
     label = "S2J-S2s-Cs",
     group = 
 """
@@ -13503,7 +13684,7 @@ entry(
 )
 
 entry(
-    index = 543,
+    index = 547,
     label = "S2J-S2s-S2s",
     group = 
 """
@@ -13525,7 +13706,7 @@ entry(
 )
 
 entry(
-    index = 544,
+    index = 548,
     label = "S2sJ-O",
     group = 
 """
@@ -13547,7 +13728,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 545,
+    index = 549,
     label = "S4sJ",
     group = 
 """
@@ -13562,7 +13743,7 @@ entry(
 )
 
 entry(
-    index = 546,
+    index = 550,
     label = "S4sJ-CCC",
     group = 
 """
@@ -13586,7 +13767,7 @@ Calculated at CBS-QB3
 )
 
 entry(
-    index = 547,
+    index = 551,
     label = "S4sJ-OCC",
     group = 
 """
@@ -13610,7 +13791,7 @@ Based on radical calculations at CBS-QB3
 )
 
 entry(
-    index = 548,
+    index = 552,
     label = "S4dJ",
     group = 
 """
@@ -13625,7 +13806,7 @@ entry(
 )
 
 entry(
-    index = 549,
+    index = 553,
     label = "S4dJ-OdH",
     group = 
 """
@@ -13648,7 +13829,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 550,
+    index = 554,
     label = "S4dJ-OdO",
     group = 
 """
@@ -13671,7 +13852,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 551,
+    index = 555,
     label = "S6sJ",
     group = 
 """
@@ -13686,7 +13867,7 @@ entry(
 )
 
 entry(
-    index = 552,
+    index = 556,
     label = "S6sJ-CCCCC",
     group = 
 """
@@ -13712,7 +13893,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 553,
+    index = 557,
     label = "S6dJ",
     group = 
 """
@@ -13727,7 +13908,7 @@ entry(
 )
 
 entry(
-    index = 554,
+    index = 558,
     label = "S6dJ-OdOCC",
     group = 
 """
@@ -13752,7 +13933,7 @@ Based on radical calculations at CBS-QB3
 )
 
 entry(
-    index = 555,
+    index = 559,
     label = "S6ddJ",
     group = 
 """
@@ -13767,7 +13948,7 @@ entry(
 )
 
 entry(
-    index = 556,
+    index = 560,
     label = "S6ddJ-OdOdH",
     group = 
 """
@@ -13791,7 +13972,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 557,
+    index = 561,
     label = "S6ddJ-OdOdO",
     group = 
 """
@@ -13815,22 +13996,30 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 )
 
 entry(
-    index = 558,
+    index = 562,
     label = "NJ",
     group = 
 """
 1 * N u1
 """,
-    thermo = 'N3sJ',
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.854047,-1.33668,-1.79985,-2.22342,-2.95226,-3.49864,-4.36924],'cal/(mol*K)','+|-',[0.559688,0.578874,0.593675,0.594722,0.599047,0.597361,0.538038]),
+        H298 = (80.0692,'kcal/mol','+|-',4.41501),
+        S298 = (-0.547996,'cal/(mol*K)','+|-',1.34808),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library   | Number of Species
+CHON_G4   |         2
+primaryNS |         1
 """,
 )
 
 entry(
-    index = 559,
+    index = 563,
     label = "N5scJ-HNO",
     group = 
 """
@@ -13841,19 +14030,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.23096,2.78632,-0.890733,-4.71711,-11.537,-16.9037,-24.8648],'J/(mol*K)'),
-        H298 = (244.093,'kJ/mol'),
-        S298 = (9.44819,'J/(mol*K)'),
+        Cpdata = ([1.1115,0.470131,-0.390842,-1.25099,-2.77084,-3.95345,-5.68024],'cal/(mol*K)','+|-',[0.484704,0.50132,0.514137,0.515045,0.51879,0.517329,0.465955]),
+        H298 = (57.8867,'kcal/mol','+|-',3.82351),
+        S298 = (3.0319,'cal/(mol*K)','+|-',1.16748),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         4
 """,
 )
 
 entry(
-    index = 560,
+    index = 564,
     label = "N5scJ-NNO",
     group = 
 """
@@ -13864,19 +14055,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.26078,-4.51709,-6.33547,-8.68178,-12.6875,-15.8402,-20.7728],'J/(mol*K)'),
-        H298 = (243.145,'kJ/mol'),
-        S298 = (6.887,'J/(mol*K)'),
+        Cpdata = ([-0.779344,-1.07961,-1.51421,-2.07499,-3.03239,-3.78589,-4.96481],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (58.1131,'kcal/mol','+|-',7.64701),
+        S298 = (3.02346,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 561,
+    index = 565,
     label = "N5scJ-HOO",
     group = 
 """
@@ -13887,19 +14080,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.33189,-3.30638,-6.33549,-9.29979,-13.9065,-17.5137,-22.8214],'J/(mol*K)'),
-        H298 = (249.25,'kJ/mol'),
-        S298 = (-4.29011,'J/(mol*K)'),
+        Cpdata = ([-0.29064,-0.701212,-1.30106,-1.93321,-2.9918,-3.8425,-5.15937],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (59.7974,'kcal/mol','+|-',5.40726),
+        S298 = (0.77446,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
 entry(
-    index = 562,
+    index = 566,
     label = "N5scJ-NOO",
     group = 
 """
@@ -13910,19 +14105,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.490477,-4.77156,-9.06461,-12.6536,-18.0458,-21.5371,-25.0925],'J/(mol*K)'),
-        H298 = (268.345,'kJ/mol'),
-        S298 = (16.9494,'J/(mol*K)'),
+        Cpdata = ([0.117227,-1.14043,-2.16649,-3.02428,-4.31304,-5.14749,-5.99724],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (64.1359,'kcal/mol','+|-',7.64701),
+        S298 = (4.051,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 563,
+    index = 567,
     label = "N5scJ-CHO",
     group = 
 """
@@ -13933,19 +14130,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.68916,-0.596662,-3.96519,-7.11111,-12.1745,-15.8829,-21.1153],'J/(mol*K)'),
-        H298 = (221.895,'kJ/mol'),
-        S298 = (9.67402,'J/(mol*K)'),
+        Cpdata = ([0.36995,-0.397558,-1.17306,-1.88688,-3.02589,-3.85021,-4.99774],'cal/(mol*K)','+|-',[0.433532,0.448394,0.459858,0.46067,0.46402,0.462714,0.416763]),
+        H298 = (53.239,'kcal/mol','+|-',3.41985),
+        S298 = (2.59972,'cal/(mol*K)','+|-',1.04422),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         5
 """,
 )
 
 entry(
-    index = 564,
+    index = 568,
     label = "N5scJ-CNO",
     group = 
 """
@@ -13956,19 +14155,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.18288,-10.1337,-12.6351,-14.4515,-17.1056,-18.8129,-21.0934],'J/(mol*K)'),
-        H298 = (242.269,'kJ/mol'),
-        S298 = (21.4951,'J/(mol*K)'),
+        Cpdata = ([-1.23874,-2.42202,-3.01985,-3.45399,-4.08834,-4.4964,-5.04144],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (57.9036,'kcal/mol','+|-',7.64701),
+        S298 = (7.32062,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 565,
+    index = 569,
     label = "N5scJ-COO",
     group = 
 """
@@ -13979,19 +14180,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.5935,-4.28154,-7.14307,-9.65718,-13.7651,-16.838,-21.2973],'J/(mol*K)'),
-        H298 = (252.716,'kJ/mol'),
-        S298 = (2.97211,'J/(mol*K)'),
+        Cpdata = ([-0.380856,-1.02331,-1.70723,-2.30812,-3.28993,-4.02437,-5.09016],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (60.4005,'kcal/mol','+|-',7.64701),
+        S298 = (2.89352,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 566,
+    index = 570,
     label = "N5scJ-CCO",
     group = 
 """
@@ -14002,19 +14205,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.68915,-13.5775,-15.5782,-17.0545,-19.0312,-20.0961,-21.1052],'J/(mol*K)'),
-        H298 = (231.664,'kJ/mol'),
-        S298 = (-4.55651,'J/(mol*K)'),
+        Cpdata = ([-2.07675,-3.24509,-3.72328,-4.07612,-4.54857,-4.80308,-5.04425],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (55.3689,'kcal/mol','+|-',7.64701),
+        S298 = (4.65473,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 567,
+    index = 571,
     label = "N5dcJ-NOd",
     group = 
 """
@@ -14024,19 +14229,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.39198,-3.81228,-7.35331,-10.7644,-15.958,-19.1788,-22.8709],'J/(mol*K)'),
-        H298 = (334.654,'kJ/mol'),
-        S298 = (10.2785,'J/(mol*K)'),
+        Cpdata = ([-0.0936855,-0.911156,-1.75748,-2.57276,-3.81404,-4.58384,-5.46628],'cal/(mol*K)','+|-',[0.559688,0.578874,0.593675,0.594722,0.599047,0.597361,0.538038]),
+        H298 = (79.9842,'kcal/mol','+|-',4.41501),
+        S298 = (3.18434,'cal/(mol*K)','+|-',1.34808),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         3
 """,
 )
 
 entry(
-    index = 568,
+    index = 572,
     label = "N5dcJ-NdO",
     group = 
 """
@@ -14046,19 +14253,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.499652,-2.21608,-5.07031,-7.71348,-12.0168,-14.9458,-19.6336],'J/(mol*K)'),
-        H298 = (330.642,'kJ/mol'),
-        S298 = (6.64296,'J/(mol*K)'),
+        Cpdata = ([0.0528932,-0.563491,-1.22191,-1.84089,-2.8473,-3.54106,-4.65082],'cal/(mol*K)','+|-',[0.395759,0.409326,0.419791,0.420532,0.42359,0.422398,0.380451]),
+        H298 = (77.2721,'kcal/mol','+|-',3.12188),
+        S298 = (2.15303,'cal/(mol*K)','+|-',0.95324),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         6
 """,
 )
 
 entry(
-    index = 569,
+    index = 573,
     label = "N5dcJ-CdO",
     group = 
 """
@@ -14068,19 +14277,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.630065,-3.07143,-5.60254,-7.95144,-11.7011,-14.4828,-19.0124],'J/(mol*K)'),
-        H298 = (292.28,'kJ/mol'),
-        S298 = (1.06787,'J/(mol*K)'),
+        Cpdata = ([-0.15727,-0.740506,-1.34637,-1.90661,-2.79857,-3.46128,-4.5392],'cal/(mol*K)','+|-',[0.202136,0.209065,0.21441,0.214789,0.21635,0.215741,0.194317]),
+        H298 = (69.9908,'kcal/mol','+|-',1.59451),
+        S298 = (1.04206,'cal/(mol*K)','+|-',0.486871),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         23
 """,
 )
 
 entry(
-    index = 570,
+    index = 574,
     label = "N3sJ-NN",
     group = 
 """
@@ -14090,19 +14301,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.34071,-5.69699,-7.91406,-9.88987,-12.9386,-14.9969,-17.7496],'J/(mol*K)'),
-        H298 = (312.632,'kJ/mol'),
-        S298 = (-0.792667,'J/(mol*K)'),
+        Cpdata = ([-0.962794,-1.4084,-1.80024,-2.18844,-2.84533,-3.33593,-4.11853],'cal/(mol*K)','+|-',[0.366402,0.378962,0.388651,0.389337,0.392168,0.391064,0.352229]),
+        H298 = (74.3637,'kcal/mol','+|-',2.8903),
+        S298 = (-0.20953,'cal/(mol*K)','+|-',0.882529),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         7
 """,
 )
 
 entry(
-    index = 571,
+    index = 575,
     label = "N3sJ-NO",
     group = 
 """
@@ -14112,19 +14325,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.34109,-6.50259,-10.1593,-12.9651,-16.8921,-19.2488,-21.4789],'J/(mol*K)'),
-        H298 = (324.57,'kJ/mol'),
-        S298 = (5.85483,'J/(mol*K)'),
+        Cpdata = ([-0.574151,-1.55747,-2.43037,-3.10538,-4.04163,-4.60687,-5.14081],'cal/(mol*K)','+|-',[0.279844,0.289437,0.296837,0.297361,0.299523,0.29868,0.269019]),
+        H298 = (77.3413,'kcal/mol','+|-',2.2075),
+        S298 = (1.86243,'cal/(mol*K)','+|-',0.674043),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         12
 """,
 )
 
 entry(
-    index = 572,
+    index = 576,
     label = "N3sJ-OO",
     group = 
 """
@@ -14134,19 +14349,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.13984,-7.76932,-11.2129,-13.2285,-15.9222,-17.5188,-19.276],'J/(mol*K)'),
-        H298 = (311.479,'kJ/mol'),
-        S298 = (2.11221,'J/(mol*K)'),
+        Cpdata = ([-1.07435,-1.98968,-2.66702,-3.096,-3.709,-4.11153,-4.64995],'cal/(mol*K)','+|-',[0.559688,0.578874,0.593675,0.594722,0.599047,0.597361,0.538038]),
+        H298 = (74.0275,'kcal/mol','+|-',4.41501),
+        S298 = (1.01572,'cal/(mol*K)','+|-',1.34808),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         3
 """,
 )
 
 entry(
-    index = 573,
+    index = 577,
     label = "N3sJ-CN",
     group = 
 """
@@ -14156,19 +14373,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.80393,-7.37641,-9.47396,-11.2655,-13.9993,-15.8916,-18.271],'J/(mol*K)'),
-        H298 = (351.185,'kJ/mol'),
-        S298 = (-2.7415,'J/(mol*K)'),
+        Cpdata = ([-1.25502,-1.86688,-2.33285,-2.72128,-3.33924,-3.77036,-4.33007],'cal/(mol*K)','+|-',[0.235116,0.243176,0.249393,0.249833,0.25165,0.250942,0.226021]),
+        H298 = (83.7547,'kcal/mol','+|-',1.85467),
+        S298 = (0.457913,'cal/(mol*K)','+|-',0.566309),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         17
 """,
 )
 
 entry(
-    index = 574,
+    index = 578,
     label = "N3sJ-CO",
     group = 
 """
@@ -14178,19 +14397,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-8.19861,-11.8128,-13.9282,-15.0709,-16.1492,-16.3336,-16.3143],'J/(mol*K)'),
-        H298 = (332.252,'kJ/mol'),
-        S298 = (-0.98057,'J/(mol*K)'),
+        Cpdata = ([-1.95896,-2.79294,-3.28053,-3.54704,-3.80502,-3.85856,-3.88148],'cal/(mol*K)','+|-',[0.292287,0.302307,0.310037,0.310584,0.312842,0.311961,0.280981]),
+        H298 = (79.4362,'kcal/mol','+|-',2.30566),
+        S298 = (0.853757,'cal/(mol*K)','+|-',0.704015),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         11
 """,
 )
 
 entry(
-    index = 575,
+    index = 579,
     label = "N3sJ-CtO",
     group = 
 """
@@ -14200,25 +14421,28 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-26.6987,-32.4179,-35.63,-37.6419,-41.0509,-44.038,-47.8704],'J/(mol*K)'),
-        H298 = (301.079,'kJ/mol'),
-        S298 = (-75.7278,'J/(mol*K)'),
+        Cpdata = ([-6.38114,-7.74806,-8.51577,-8.99663,-9.81139,-10.5253,-11.4413],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (71.9595,'kcal/mol','+|-',5.40726),
+        S298 = (-18.0994,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
+NOx2018 |         1
 """,
 )
 
 entry(
-    index = 576,
+    index = 580,
     label = "N3sJ",
     group = 
 """
 1 * N3s u1 p1
 """,
-    thermo = 'NHJ_C',
+    thermo = "NHJ_C",
     shortDesc = """""",
     longDesc = 
 """
@@ -14227,7 +14451,7 @@ entry(
 )
 
 entry(
-    index = 577,
+    index = 581,
     label = "NH2J",
     group = 
 """
@@ -14249,7 +14473,7 @@ entry(
 )
 
 entry(
-    index = 578,
+    index = 582,
     label = "NHJ_C",
     group = 
 """
@@ -14259,19 +14483,46 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.79,-1.23,-1.64,-2.02,-2.66,-3.2,-4.16],'cal/(mol*K)'),
-        H298 = (99.653,'kcal/mol'),
-        S298 = (0.92,'cal/(mol*K)'),
+        Cpdata = ([-0.829226,-1.32033,-1.6963,-2.02019,-2.62689,-3.13466,-4.0486],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (91.2329,'kcal/mol','+|-',5.40726),
+        S298 = (0.687048,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Calculated in relation to CH3NH2 from thermo_DFT_CCSDTF12_BAC values""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
+NOx2018 |         1
 """,
 )
 
 entry(
-    index = 579,
+    index = 583,
+    label = "NHJ_Cs",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   Cs  u0 p0 {1,S}
+3   H   u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.570775,-0.838458,-1.21679,-1.64469,-2.4257,-3.06912,-4.19678],'cal/(mol*K)','+|-',[0.166252,0.171951,0.176348,0.176659,0.177943,0.177443,0.159821]),
+        H298 = (100.32,'kcal/mol','+|-',1.31145),
+        S298 = (0.212448,'cal/(mol*K)','+|-',0.400441),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         34
+""",
+)
+
+entry(
+    index = 584,
     label = "NHJ_Cd",
     group = 
 """
@@ -14281,19 +14532,46 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-6.36968,-7.21186,-7.55213,-8.1556,-9.51515,-10.9959,-14.5568],'J/(mol*K)'),
-        H298 = (353.261,'kJ/mol'),
-        S298 = (-3.90709,'J/(mol*K)'),
+        Cpdata = ([-1.45072,-1.61154,-1.67422,-1.81725,-2.20519,-2.61996,-3.56672],'cal/(mol*K)','+|-',[0.292287,0.302307,0.310037,0.310584,0.312842,0.311961,0.280981]),
+        H298 = (85.9414,'kcal/mol','+|-',2.30566),
+        S298 = (0.166404,'cal/(mol*K)','+|-',0.704015),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         11
 """,
 )
 
 entry(
-    index = 580,
+    index = 585,
+    label = "NHJ_CO",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   CO  u0 p0 {1,S} {4,D}
+3   H   u0 p0 {1,S}
+4   O2d u0 p2 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.416666,-0.782373,-1.31729,-1.88976,-2.8675,-3.64046,-4.86888],'cal/(mol*K)','+|-',[0.484704,0.50132,0.514137,0.515045,0.51879,0.517329,0.465955]),
+        H298 = (111.251,'kcal/mol','+|-',3.82351),
+        S298 = (0.824852,'cal/(mol*K)','+|-',1.16748),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         4
+""",
+)
+
+entry(
+    index = 586,
     label = "NHJ_O",
     group = 
 """
@@ -14303,19 +14581,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.26,-1.89,-2.4,-2.79,-3.17,-3.37,-3.65],'cal/(mol*K)'),
-        H298 = (85.023,'kcal/mol'),
-        S298 = (-0.27,'cal/(mol*K)'),
+        Cpdata = ([-1.48335,-1.95298,-2.39837,-2.73219,-3.21109,-3.54283,-4.01569],'cal/(mol*K)','+|-',[0.206678,0.213763,0.219229,0.219616,0.221213,0.22059,0.198684]),
+        H298 = (86.0097,'kcal/mol','+|-',1.63035),
+        S298 = (-0.501044,'cal/(mol*K)','+|-',0.497813),
     ),
-    shortDesc = """Calculated w.r.t NH2OH and [NH]OH, both from thermo_DFT_CCSDTF12_BAC""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         22
 """,
 )
 
 entry(
-    index = 581,
+    index = 587,
     label = "NHJ_N",
     group = 
 """
@@ -14325,19 +14605,45 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.77,-2.62,-3.28,-3.79,-4.57,-5.11,-5.85],'cal/(mol*K)'),
-        H298 = (82.283,'kcal/mol'),
-        S298 = (-0.33,'cal/(mol*K)'),
+        Cpdata = ([-0.951457,-1.49401,-1.98862,-2.45949,-3.22837,-3.79711,-4.62345],'cal/(mol*K)','+|-',[0.484704,0.50132,0.514137,0.515045,0.51879,0.517329,0.465955]),
+        H298 = (99.2221,'kcal/mol','+|-',3.82351),
+        S298 = (0.541678,'cal/(mol*K)','+|-',1.16748),
     ),
-    shortDesc = """Calculated w.r.t NH2NH2 and [NH]NH2, both from thermo_DFT_CCSDTF12_BAC""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         4
 """,
 )
 
 entry(
-    index = 582,
+    index = 588,
+    label = "NHJ_N3s",
+    group = 
+"""
+1 * N3s u1 p1 {2,S} {3,S}
+2   N3s u0 {1,S}
+3   H   u0 p0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.4561,-2.14888,-2.71195,-3.15914,-3.80414,-4.20346,-4.59283],'cal/(mol*K)','+|-',[0.186563,0.192958,0.197892,0.198241,0.199682,0.19912,0.179346]),
+        H298 = (83.3417,'kcal/mol','+|-',1.47167),
+        S298 = (0.0726961,'cal/(mol*K)','+|-',0.449362),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         27
+""",
+)
+
+entry(
+    index = 589,
     label = "NHJ_N3d",
     group = 
 """
@@ -14347,19 +14653,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-2.70038,-4.63454,-6.10735,-7.60395,-10.2929,-12.3802,-15.6322],'J/(mol*K)'),
-        H298 = (339.161,'kJ/mol'),
-        S298 = (1.25886,'J/(mol*K)'),
+        Cpdata = ([-0.567867,-0.913583,-1.17252,-1.40525,-1.83184,-2.23112,-2.92752],'cal/(mol*K)','+|-',[0.559688,0.578874,0.593675,0.594722,0.599047,0.597361,0.538038]),
+        H298 = (81.5651,'kcal/mol','+|-',4.41501),
+        S298 = (-0.164809,'cal/(mol*K)','+|-',1.34808),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library        | Number of Species
+CHON_G4        |         1
+NitrogenCurran |         1
+primaryNS      |         1
 """,
 )
 
 entry(
-    index = 583,
+    index = 590,
     label = "NHJ_N5dc",
     group = 
 """
@@ -14369,19 +14679,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.78518,1.52507,-3.04956,-6.60718,-12.0808,-15.9009,-20.6874],'J/(mol*K)'),
-        H298 = (434.288,'kJ/mol'),
-        S298 = (2.72516,'J/(mol*K)'),
+        Cpdata = ([1.38269,0.364501,-0.728862,-1.57915,-2.88737,-3.80041,-4.94441],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (103.797,'kcal/mol','+|-',7.64701),
+        S298 = (0.651328,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 584,
+    index = 591,
     label = "NJ_CC",
     group = 
 """
@@ -14391,19 +14703,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-4.88844,-7.02096,-9.05679,-10.9554,-13.6124,-15.7099,-19.2836],'J/(mol*K)'),
-        H298 = (389.974,'kJ/mol'),
-        S298 = (-10.0809,'J/(mol*K)'),
+        Cpdata = ([-1.53894,-1.93802,-2.25931,-2.58767,-3.15567,-3.64973,-4.58888],'cal/(mol*K)','+|-',[0.395759,0.409326,0.419791,0.420532,0.42359,0.422398,0.380451]),
+        H298 = (93.0969,'kcal/mol','+|-',3.12188),
+        S298 = (1.52012,'cal/(mol*K)','+|-',0.95324),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         6
 """,
 )
 
 entry(
-    index = 585,
+    index = 592,
     label = "NJ_CCd",
     group = 
 """
@@ -14413,19 +14727,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.94584,-1.87787,-2.86025,-4.58312,-8.42517,-11.1267,-15.6176],'J/(mol*K)'),
-        H298 = (350.499,'kJ/mol'),
-        S298 = (-11.7385,'J/(mol*K)'),
+        Cpdata = ([-0.465066,-0.448823,-0.683615,-1.09539,-2.01366,-2.65935,-3.73268],'cal/(mol*K)','+|-',[0.685475,0.708973,0.7271,0.728383,0.733679,0.731614,0.658959]),
+        H298 = (83.7713,'kcal/mol','+|-',5.40726),
+        S298 = (-0.622407,'cal/(mol*K)','+|-',1.65106),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         2
 """,
 )
 
 entry(
-    index = 586,
+    index = 593,
     label = "NJ_CCO",
     group = 
 """
@@ -14436,19 +14752,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.961761,-0.807363,-3.28705,-5.60897,-9.76264,-13.2901,-19.6482],'J/(mol*K)'),
-        H298 = (450.927,'kJ/mol'),
-        S298 = (3.87449,'J/(mol*K)'),
+        Cpdata = ([0.229866,-0.192964,-0.785624,-1.34057,-2.33333,-3.1764,-4.69603],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (107.774,'kcal/mol','+|-',7.64701),
+        S298 = (3.10919,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         1
 """,
 )
 
 entry(
-    index = 587,
+    index = 594,
     label = "N3dJ",
     group = 
 """
@@ -14463,7 +14781,7 @@ entry(
 )
 
 entry(
-    index = 588,
+    index = 595,
     label = "N3dJ_C",
     group = 
 """
@@ -14472,19 +14790,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.2,-0.6,-1.07,-1.56,-2.44,-3.15,-4.26],'cal/(mol*K)'),
-        H298 = (88.343,'kcal/mol'),
-        S298 = (-0.71,'cal/(mol*K)'),
+        Cpdata = ([-0.235836,-0.809546,-1.42566,-2.00872,-3.01202,-3.77722,-4.87525],'cal/(mol*K)','+|-',[0.183201,0.189481,0.194326,0.194669,0.196084,0.195532,0.176114]),
+        H298 = (94.8366,'kcal/mol','+|-',1.44515),
+        S298 = (1.53686,'cal/(mol*K)','+|-',0.441265),
     ),
-    shortDesc = """Calculated w.r.t NH=CH2 and [N]=CH2, both from thermo_DFT_CCSDTF12_BAC""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         28
 """,
 )
 
 entry(
-    index = 589,
+    index = 596,
     label = "N3dJ_Cdd",
     group = 
 """
@@ -14493,19 +14813,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-5.67103,-7.14899,-8.76464,-10.2906,-12.8917,-14.9076,-18.0576],'J/(mol*K)'),
-        H298 = (257.412,'kJ/mol'),
-        S298 = (-1.20388,'J/(mol*K)'),
+        Cpdata = ([-1.28045,-1.66606,-2.06015,-2.42609,-3.03953,-3.51353,-4.2604],'cal/(mol*K)','+|-',[0.268865,0.278082,0.285192,0.285696,0.287773,0.286963,0.258465]),
+        H298 = (70.5582,'kcal/mol','+|-',2.1209),
+        S298 = (-0.321545,'cal/(mol*K)','+|-',0.647599),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library                 | Number of Species
+CHON_G4                 |         11
+thermo_DFT_CCSDTF12_BAC |         2
 """,
 )
 
 entry(
-    index = 590,
+    index = 597,
     label = "N3dJ_O",
     group = 
 """
@@ -14526,7 +14849,7 @@ entry(
 )
 
 entry(
-    index = 591,
+    index = 598,
     label = "N3dJ_N",
     group = 
 """
@@ -14535,19 +14858,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.14,-0.51,-0.97,-1.46,-2.33,-3.02,-4.16],'cal/(mol*K)'),
-        H298 = (64.083,'kcal/mol'),
-        S298 = (1.49,'cal/(mol*K)'),
+        Cpdata = ([-1.15,-1.38,-1.57,-1.79,-2.22,-2.61,-3.41],'cal/(mol*K)','+|-',[0.969407,1.00264,1.02827,1.03009,1.03758,1.03466,0.931909]),
+        H298 = (89.9829,'kcal/mol','+|-',7.64701),
+        S298 = (-4.54,'cal/(mol*K)','+|-',2.33495),
     ),
-    shortDesc = """Calculated w.r.t HN=NH and [N]=NH, both from thermo_DFT_CCSDTF12_BAC""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library                 | Number of Species
+thermo_DFT_CCSDTF12_BAC |         1
 """,
 )
 
 entry(
-    index = 592,
+    index = 599,
     label = "N3dJ_N5dc",
     group = 
 """
@@ -14556,19 +14881,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0356123,-2.98703,-5.6088,-7.86526,-11.8936,-15.0898,-19.6396],'J/(mol*K)'),
-        H298 = (413.171,'kJ/mol'),
-        S298 = (2.89249,'J/(mol*K)'),
+        Cpdata = ([-0.0875893,-0.727441,-1.31982,-1.84928,-2.76785,-3.48701,-4.55753],'cal/(mol*K)','+|-',[0.559688,0.578874,0.593675,0.594722,0.599047,0.597361,0.538038]),
+        H298 = (96.5608,'kcal/mol','+|-',4.41501),
+        S298 = (1.56905,'cal/(mol*K)','+|-',1.34808),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library | Number of Species
+CHON_G4 |         3
 """,
 )
 
 entry(
-    index = 593,
+    index = 600,
     label = "N3dJ_N3d",
     group = 
 """
@@ -14577,19 +14904,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.05081,-2.13979,-6.00346,-9.14917,-13.5357,-16.2931,-19.6448],'J/(mol*K)'),
-        H298 = (306.397,'kJ/mol'),
-        S298 = (18.8295,'J/(mol*K)'),
+        Cpdata = ([0.0896163,-0.870304,-1.74078,-2.43478,-3.43839,-4.09331,-4.86542],'cal/(mol*K)','+|-',[0.279844,0.289437,0.296837,0.297361,0.299523,0.29868,0.269019]),
+        H298 = (72.0763,'kcal/mol','+|-',2.2075),
+        S298 = (2.58957,'cal/(mol*K)','+|-',0.674043),
     ),
-    shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library   | Number of Species
+CHON_G4   |         11
+primaryNS |         1
 """,
 )
 
 entry(
-    index = 594,
+    index = 601,
     label = "RJ2_triplet",
     group = 
 """
@@ -14604,7 +14934,7 @@ entry(
 )
 
 entry(
-    index = 595,
+    index = 602,
     label = "CJ2_triplet",
     group = 
 """
@@ -14619,7 +14949,7 @@ entry(
 )
 
 entry(
-    index = 596,
+    index = 603,
     label = "OsCsJ2H_triplet",
     group = 
 """
@@ -14645,7 +14975,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 597,
+    index = 604,
     label = "CsJ2_triplet",
     group = 
 """
@@ -14660,7 +14990,7 @@ entry(
 )
 
 entry(
-    index = 598,
+    index = 605,
     label = "CH2_triplet",
     group = 
 """
@@ -14682,7 +15012,7 @@ entry(
 )
 
 entry(
-    index = 599,
+    index = 606,
     label = "CsJ2_P_triplet",
     group = 
 """
@@ -14699,7 +15029,7 @@ entry(
 )
 
 entry(
-    index = 600,
+    index = 607,
     label = "CsCVal7_triplet",
     group = 
 """
@@ -14716,7 +15046,7 @@ entry(
 )
 
 entry(
-    index = 601,
+    index = 608,
     label = "CsCF_triplet",
     group = 
 """
@@ -14733,7 +15063,7 @@ entry(
 )
 
 entry(
-    index = 602,
+    index = 609,
     label = "CsCCl_triplet",
     group = 
 """
@@ -14757,7 +15087,7 @@ CHOCl_G4 |         3
 )
 
 entry(
-    index = 603,
+    index = 610,
     label = "CsCBr_triplet",
     group = 
 """
@@ -14781,7 +15111,7 @@ CHOBr_G4 |         5
 )
 
 entry(
-    index = 604,
+    index = 611,
     label = "CsCsJ2_triplet",
     group = 
 """
@@ -14798,7 +15128,7 @@ entry(
 )
 
 entry(
-    index = 605,
+    index = 612,
     label = "CCJ2_triplet",
     group = 
 """
@@ -14823,7 +15153,7 @@ entry(
 )
 
 entry(
-    index = 606,
+    index = 613,
     label = "PhCH_triplet",
     group = 
 """
@@ -14845,7 +15175,7 @@ entry(
 )
 
 entry(
-    index = 607,
+    index = 614,
     label = "AllylJ2_triplet",
     group = 
 """
@@ -14867,7 +15197,7 @@ entry(
 )
 
 entry(
-    index = 608,
+    index = 615,
     label = "CsJ2_S_triplet",
     group = 
 """
@@ -14884,7 +15214,7 @@ entry(
 )
 
 entry(
-    index = 609,
+    index = 616,
     label = "CdJ2_triplet",
     group = 
 """
@@ -14899,7 +15229,7 @@ entry(
 )
 
 entry(
-    index = 610,
+    index = 617,
     label = "CCdJ2_triplet",
     group = 
 """
@@ -14915,7 +15245,7 @@ entry(
 )
 
 entry(
-    index = 611,
+    index = 618,
     label = "CdCdJ2_triplet",
     group = 
 """
@@ -14941,7 +15271,7 @@ Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 )
 
 entry(
-    index = 612,
+    index = 619,
     label = "(CO)CdJ2_triplet",
     group = 
 """
@@ -14966,19 +15296,14 @@ Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 )
 
 entry(
-    index = 613,
+    index = 620,
     label = "NCdJ2_triplet",
     group = 
 """
 1 * Cd  u2 {2,D}
 2   N3d u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.67688,-8.56951,-13.0936,-17.1322,-23.6155,-28.3134,-35.4124],'J/(mol*K)'),
-        H298 = (587.145,'kJ/mol'),
-        S298 = (22.0742,'J/(mol*K)'),
-    ),
+    thermo = None,
     shortDesc = """Derived from nitrogen species in RMG thermo libraries""",
     longDesc = 
 """
@@ -14987,7 +15312,7 @@ entry(
 )
 
 entry(
-    index = 614,
+    index = 621,
     label = "CdJ2-Sd_triplet",
     group = 
 """
@@ -15008,7 +15333,7 @@ entry(
 )
 
 entry(
-    index = 615,
+    index = 622,
     label = "Oa_triplet",
     group = 
 """
@@ -15028,7 +15353,7 @@ entry(
 )
 
 entry(
-    index = 616,
+    index = 623,
     label = "SiJ2_triplet",
     group = 
 """
@@ -15043,7 +15368,7 @@ entry(
 )
 
 entry(
-    index = 617,
+    index = 624,
     label = "SJ2_triplet",
     group = 
 """
@@ -15063,7 +15388,7 @@ entry(
 )
 
 entry(
-    index = 618,
+    index = 625,
     label = "NJ2_triplet",
     group = 
 """
@@ -15078,7 +15403,7 @@ entry(
 )
 
 entry(
-    index = 619,
+    index = 626,
     label = "N3sJ2",
     group = 
 """
@@ -15093,7 +15418,7 @@ entry(
 )
 
 entry(
-    index = 620,
+    index = 627,
     label = "NHJ2",
     group = 
 """
@@ -15114,7 +15439,7 @@ entry(
 )
 
 entry(
-    index = 621,
+    index = 628,
     label = "NJ2_C",
     group = 
 """
@@ -15135,7 +15460,7 @@ entry(
 )
 
 entry(
-    index = 622,
+    index = 629,
     label = "NJ2_O",
     group = 
 """
@@ -15156,7 +15481,7 @@ entry(
 )
 
 entry(
-    index = 623,
+    index = 630,
     label = "RJ3",
     group = 
 """
@@ -15171,7 +15496,7 @@ entry(
 )
 
 entry(
-    index = 624,
+    index = 631,
     label = "CJ3",
     group = 
 """
@@ -15191,7 +15516,7 @@ entry(
 )
 
 entry(
-    index = 625,
+    index = 632,
     label = "SiJ3",
     group = 
 """
@@ -15615,6 +15940,9 @@ L1: Radical
                     L6: COCl1sO2d
                     L6: COF1sO2d
                     L6: COJ-NOd
+                        L7: COJ-N3sOd
+                        L7: COJ-N3dOd
+                        L7: COJ-N1scOd
                     L6: HCdsJO
                     L6: CCJ=O
                         L7: CC(C)CJ=O
@@ -15787,9 +16115,12 @@ L1: Radical
             L4: N3sJ
                 L5: NH2J
                 L5: NHJ_C
+                    L6: NHJ_Cs
                     L6: NHJ_Cd
+                    L6: NHJ_CO
                 L5: NHJ_O
                 L5: NHJ_N
+                    L6: NHJ_N3s
                     L6: NHJ_N3d
                     L6: NHJ_N5dc
                 L5: NJ_CC
