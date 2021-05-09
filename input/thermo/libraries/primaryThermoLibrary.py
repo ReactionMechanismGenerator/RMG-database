@@ -903,13 +903,17 @@ entry(
         Cp0 = (29.1007,'J/mol/K'),
         CpInf = (37.4151,'J/mol/K'),
     ),
-    shortDesc = u"""71STUPRO""",
+    shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
     longDesc = 
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-F
-Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt which is described as
+the updated NIST HFC mechanism in https://doi.org/10.1016/j.jfluchem.2019.05.002
+"71STUPRO" presumably refers to the
+JANAF Thermochemical Tables, Second Edition
+by Daniel R. Stull and H. Prophet. (1971)
+http://dx.doi.org/10.6028/NBS.NSRDS.37
 """,
 )
 
@@ -932,16 +936,19 @@ multiplicity 2
         Cp0 = (20.7862,'J/mol/K'),
         CpInf = (20.7862,'J/mol/K'),
     ),
-    shortDesc = u"""71STUPRO""",
+    shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
     longDesc = 
 u"""
 71STUPRO
-********************************
-*** Hydrogen/Oxygen/Fluorine ***
-********************************
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-[F]
-Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt which is described as
+the updated NIST HFC mechanism in https://doi.org/10.1016/j.jfluchem.2019.05.002
+"71STUPRO" presumably refers to the
+JANAF Thermochemical Tables, Second Edition
+by Daniel R. Stull and H. Prophet. (1971)
+http://dx.doi.org/10.6028/NBS.NSRDS.37
+which it does indeed match (p.679).
+The data pre-date 1954.
 """,
 )
 
@@ -964,16 +971,16 @@ entry(
         Cp0 = (29.1007,'J/mol/K'),
         CpInf = (37.4151,'J/mol/K'),
     ),
-    shortDesc = """J12/61""",
+    shortDesc = """Burcat""",
     longDesc = 
 """
-J12/61
-BR2               J12/61BR  20   00   00   0G   300.00   5000.00  1000.00      1
-0.44479495E+01 0.10051208E-03-0.16393816E-07 0.22685621E-11-0.10236774E-15    2
-0.23659941E+04 0.40888431E+01 0.38469580E+01 0.26111841E-02-0.40034147E-05    3
-0.28120689E-08-0.73256202E-12 0.24846984E+04 0.69696985E+01                   4.
 BrBr
-_imported from 2-BTP/2-BTP_thermo.txt.
+7726-95-6
+From Burcat's thermo http://garfield.chem.elte.hu/Burcat/BURCAT.THR
+which has been matched to ATcT version 1.112 Core ARGONNE 4.2.2011
+Br2  GAS  Calculated from CODATA Key Values and Gurvich's 89 Tables
+HF298=30.88+/-0.11 kJ REF=ATcT C   {HF298=30.91 kJ HF0=45.705 kJ. REF= Gurvich.}
+Max Lst Sq Error Cp @ 6000 K 0.36 %.
 """,
 )
 
@@ -996,16 +1003,16 @@ entry(
         Cp0 = (29.1007,'J/mol/K'),
         CpInf = (37.4151,'J/mol/K'),
     ),
-    shortDesc = """J 9/65""",
+    shortDesc = """Burcat""",
     longDesc = 
 """
-J 9/65
-HBR               J 9/65H   1BR  1    0    0G   300.00   5000.00  1000.00      1
-0.27935804E+01 0.15655925E-02-0.56171064E-06 0.95783142E-10-0.61813990E-14    2
--0.52338384E+04 0.76423703E+01 0.36056690E+01-0.59529431E-03 0.65029568E-06    3
-0.93781219E-09-0.71141852E-12-0.54389455E+04 0.34831774E+01                   4.
-Br
-_imported from 2-BTP/2-BTP_thermo.txt.
+From Burcat's thermo http://garfield.chem.elte.hu/Burcat/BURCAT.THR
+which has been matched to ATcT version 1.112 Core ARGONNE 4.2.2011
+10035-10-6
+HBr HYDROBROMIC ACID CALCULATED FROM ORIGINAL TABLES  REF=Shenyavskaya & Yougman
+JPCRD 33,(2004),923  HF298=-35.85+/-0.15 kJ  REF=ATcT C  {HF298=-36.05+/-0.15 kJ
+REF=Ruscic ATcT D;  HF298=-36.29+/-0.16 kJ  REF=Gurvich 89}  Max Lst Sq Error Cp 
+@ 6000 K 0.33%
 """,
 )
 
@@ -1028,16 +1035,14 @@ multiplicity 2
         Cp0 = (20.7862,'J/mol/K'),
         CpInf = (20.7862,'J/mol/K'),
     ),
-    shortDesc = """J 6/74""",
+    shortDesc = """Burcat""",
     longDesc = 
 """
-J 6/74
-BR                J 6/74BR  1    0    0    0G   300.00   5000.00  1000.00      1
-0.20843207E+01 0.71949483E-03-0.27419924E-06 0.42422650E-10-0.23791570E-14    2
-0.12858837E+05 0.90838003E+01 0.24611551E+01 0.33319275E-03-0.10080655E-05    3
-0.12262126E-08-0.44283510E-12 0.12711920E 05 0.69494733E+01                   4.
-[Br]
-_imported from 2-BTP/2-BTP_thermo.txt.
+From Burcat's thermo http://garfield.chem.elte.hu/Burcat/BURCAT.THR
+which has been matched to ATcT version 1.112 Core ARGONNE 4.2.2011
+10097-32-2
+BR   Calculated by Ruscic ATcT C  HF298=111.852+/-0.06 kJ  REF=ATcT C
+{HF298=111.86+/-0.06  REF=JANAF 82}  Max Lst Sq Error Cp @ 1200 K 0.19%
 """,
 )
 
@@ -1060,13 +1065,18 @@ entry(
         Cp0 = (29.1007,'J/mol/K'),
         CpInf = (37.4151,'J/mol/K'),
     ),
-    shortDesc = u"""71STUPRO""",
+    shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
     longDesc = 
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 FF
-Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt which is described as
+the updated NIST HFC mechanism in https://doi.org/10.1016/j.jfluchem.2019.05.002
+"71STUPRO" presumably refers to the
+JANAF Thermochemical Tables, Second Edition
+by Daniel R. Stull and H. Prophet. (1971)
+http://dx.doi.org/10.6028/NBS.NSRDS.37
 """,
 )
 
