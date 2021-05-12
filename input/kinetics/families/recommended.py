@@ -147,3 +147,23 @@ surface_development = {
     'Surface_EleyRideal_Addition_Multiple_Bond',
     'Surface_Migration',
 }
+
+# Electrochemical families!
+electrochem = {
+    'Surface_Proton_Electron_Reduction_Alpha',
+    'Surface_Proton_Electron_Reduction_Alpha_vdW',
+    'Surface_Proton_Electron_Reduction_Beta',
+    'Surface_Proton_Electron_Reduction_Beta_vdW',
+    'Surface_Proton_Electron_Reduction_Beta_Dissociation',
+}
+
+electrochem_development = {
+    #'Surface_Proton_Electron_Reduction_Alpha_Dissociation',
+    #'Surface_Proton_Electron_Reduction_Alpha_Heyrovsky',
+    #'Surface_Proton_Electron_Reduction_Alpha_vdW_Heyrovsky',
+    #'Surface_Proton_Electron_Reduction_Alpha_Dissociation_Heyrovsky',
+    'Surface_Proton_Electron_Reduction_Beta_Dissociation_Bidentate',
+    'Surface_Proton_Electron_Reduction_Bidentate',
+    'Surface_Proton_Electron_Reduction_Bidentate_Adsorption'
+   # 'Surface_Proton_Electron_Reduction_Beta_Radical',
+}
