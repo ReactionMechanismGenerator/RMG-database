@@ -1,0 +1,29 @@
+H
+1 *4 H u0 p0 c+1
+
+e
+1 * e u0 p0 c-1
+
+CO2X
+1 *1 O u0 p2 c0 {2,D}
+2 *2 C u0 p0 c0 {1,D} {3,D}
+3    O u0 p2 c0 {2,D}
+4 *3 X u0 p0 c0
+
+CO2HX
+1 *1 O u0 p2 c0 {2,S} {4,S}
+2 *2 C u0 p0 c0 {1,S} {3,D} {5,S}
+3    O u0 p2 c0 {2,D}
+4 *4 H u0 p0 c0 {1,S}
+5 *3 X u0 p0 c0 {2,S}
+
+N2X
+1 *1 N u0 p1 c0 {2,T}
+2 *2 N u0 p1 c0 {1,T}
+3 *3 X u0 p0 c0
+
+HNNX
+1 *1 N u0 p1 c0 {2,D} {3,S}
+2 *2 N u0 p1 c0 {1,D} {4,S}
+3 *4 H u0 p0 c0 {1,S}
+4 *3 X u0 p0 c0 {2,S}
