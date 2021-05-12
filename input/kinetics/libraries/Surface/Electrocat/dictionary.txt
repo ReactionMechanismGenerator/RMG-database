@@ -1,0 +1,16 @@
+H
+1 H u0 p0 c+1
+
+e
+1 e u0 p0 c-1
+
+HX
+1 H u0 p0 c0 {2,S}
+2 X u0 p0 c0 {1,S}
+
+X
+1 X u0 p0 c0
+
+H2
+1 H u0 p0 c0 {2,S}
+2 H u0 p0 c0 {1,S}
