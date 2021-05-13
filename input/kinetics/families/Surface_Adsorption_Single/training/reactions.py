@@ -93,7 +93,7 @@ A = ((2.24E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 46 g/mol * molar ga
 """,
     metal = "Pt",
     facet = "111",
-
+)
 # entry(
 #     index = 2,
 #     label = "NO_X <=> NO + Pt",
