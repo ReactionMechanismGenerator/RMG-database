@@ -226,8 +226,8 @@ A = 3.1E12(1/s)/2.483E-9(mol/cm^2) = 1.248E21 cm^2/(mol*s)
 # https://doi.org/10.1021/acscatal.8b04251
 # ((2.4e3 /Pa) / s) * (2.4e-9 mol/cm2) * sqrt(2 * pi * 18 g/mol * molar gas constant * 298 kelvin)
 # """,
-# 	metal = "Pt",
-#     facet = "111",
+#       metal = "Pt",
+#       facet = "111",
 # )
 
 entry(

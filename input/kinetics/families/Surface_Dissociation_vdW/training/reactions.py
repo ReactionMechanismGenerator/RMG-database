@@ -275,3 +275,183 @@ A (at 500K) = 7.1E11(1/s)/2.483E-9(mol/cm^2) = 2.859E20 cm^2/(mol*s)
     facet = "111",
 )
 
+entry(
+    index = 37,
+    label = "X_4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(2.08e+23,'cm^2/(mol*s)'), n=0, Ea=(100350,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Rh111
+Original entry: NH3_X + X <=> NH2_X + H_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Rh111 = 2.656E-9(mol/cm^2) to calculate the A factor.
+Using the method proposed by Campbell et al. to calculate A actor.
+Ea = 1.04eV = 100349.6J/mol
+This is reaction (1) in Table S5
+""",
+    metal = "Rh",
+    facet = "111",
+)
+
+entry(
+    index = 38,
+    label = "H* + OH* <=> H2O* + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.47e+21,'cm^2/(mol*s)'), n=0, Ea=(63683.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Rh111
+Original entry: H_X + OH_X <=> H2O_X + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Rh111 = 2.656E-9(mol/cm^2) to calculate the A factor.
+The A factor is calculated by equation (5) which assumed qTS/qIS = 1
+Ea = 0.66eV = 63683.4J/mol
+
+This is reaction (5) in Table S5
+""",
+    metal = "Rh",
+    facet = "111",
+)
+
+entry(
+    index = 39,
+    label = "X_4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(2.06e+23,'cm^2/(mol*s)'), n=0, Ea=(97454.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pd211
+Original entry: NH3_X + X <=> NH2_X + H_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Pd211 = 2.688E-9(mol/cm^2) to calculate the A factor.
+Using the method proposed by Campbell et al. to calculate A actor.
+Ea = 1.01eV = 97454.9/mol
+This is reaction (1) in Table S4
+""",
+    metal = "Pd",
+    facet = "211",
+)
+
+entry(
+    index = 40,
+    label = "H* + OH* <=> H2O* + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.44e+21,'cm^2/(mol*s)'), n=0, Ea=(91665.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pd211
+Original entry: H_X + OH_X <=> H2O_X + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Pd211 = 2.688E-9(mol/cm^2) to calculate the A factor.
+The A factor is calculated by equation (5) which assumed qTS/qIS = 1
+Ea = 0.95eV = 91665.5J/mol
+
+This is reaction (5) in Table S4
+""",
+    metal = "Pd",
+    facet = "211",
+)
+
+entry(
+    index = 41,
+    label = "X_4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(2.18e+23,'cm^2/(mol*s)'), n=0, Ea=(104209,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pd111
+Original entry: NH3_X + X <=> NH2_X + H_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Pd111 = 2.534E-9(mol/cm^2) to calculate the A factor.
+Using the method proposed by Campbell et al. to calculate A actor.
+Ea = 1.08eV = 104209.2J/mol
+This is reaction (1) in Table S5
+""",
+    metal = "Pd",
+    facet = "111",
+)
+
+entry(
+    index = 42,
+    label = "H* + OH* <=> H2O* + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.47e+21,'cm^2/(mol*s)'), n=0, Ea=(64648.3,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pd111
+Original entry: H_X + OH_X <=> H2O_X + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Pd111 = 2.534E-9(mol/cm^2) to calculate the A factor.
+The A factor is calculated by equation (5) which assumed qTS/qIS = 1
+Ea = 0.67eV = 64648.3J/mol
+
+This is reaction (5) in Table S5
+""",
+    metal = "Pd",
+    facet = "111",
+)
+
+entry(
+    index = 43,
+    label = "X_4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(8.21e+21,'cm^2/(mol*s)'), n=0, Ea=(109034,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Popa_Rh111
+Original entry: NH3_X + X <=> NH2_X + H_X
+Based primarily on "Ab initio density-functional theory study of 
+NHx dehydrogenation and reverse reactions on the Rh(111) surface"
+C. Popa, W. K. Offermans, R. A. van Santen, and A. P. J. Jansen
+American Physical Society Vol. 74, Iss. 15—15, 2006
+https://doi.org/10.1103/PhysRevB.74.155428
+
+This is reaction 1 in TABLE VI.
+
+This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
+A (at 300K)= 2.18E13(1/s)/2.656E-9(mol/cm^2) = 8.21E21 cm^2/(mol*s)
+Ea = 1.13eV = 109033.7J/mol
+""",
+    metal = "Rh",
+    facet = "111",
+)
+
