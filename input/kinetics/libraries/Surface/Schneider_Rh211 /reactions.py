@@ -426,6 +426,7 @@ https://doi.org/10.1016/j.jcat.2020.01.029
 This reaction used RMG's surface site density of Rh211 = 2.817E-9(mol/cm^2) to calculate the A factor.
 Using the method proposed by Campbell et al. to calculate A actor.
 Ea = 0.92eV = 88770.8J/mol
+
 This is reaction (1) in Table S4
 """,
     metal = "Rh",

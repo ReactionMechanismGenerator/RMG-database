@@ -374,6 +374,8 @@ Original entry: NO_X + O_X <=> NO2_X + X
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
 https://doi.org/10.1116/1.4903225
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 4.41E13(1/s)/2.483E-9(mol/cm^2) = 1.776E22 cm^2/(mol*s)
 Ea = 1.2eV * 96490J/eV mol = 115788J/mol
 """,
@@ -395,6 +397,7 @@ Original entry: NH2_X + X <=> NH_X + H_X
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 5.0E12(1/s)/2.483E-9(mol/cm^2) = 2.014E21 cm^2/(mol*s)
 """,
@@ -416,6 +419,7 @@ Original entry: NH_X + X <=> N_X + H_X
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 7.2E12(1/s)/2.483E-9(mol/cm^2) = 2.8997E21 cm^2/(mol*s)
 """,
@@ -437,6 +441,7 @@ Original entry: NH2_X + X <=> NH_X + H_X
 "Ammonia Dehydrogenation over Platinum-Group Metal Surfaces. Structure, Stability, and Reactivity of Adsorbed NHx Species"
 Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
 https://doi.org/10.1021/jp064742b
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 500K) = 1.1E13(1/s)/2.483E-9(mol/cm^2) = 4.430E21 cm^2/(mol*s)
 """,
@@ -458,6 +463,7 @@ Original entry: NH_X + X <=> N_X + H_X
 "Ammonia Dehydrogenation over Platinum-Group Metal Surfaces. Structure, Stability, and Reactivity of Adsorbed NHx Species"
 Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
 https://doi.org/10.1021/jp064742b
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 500K) = 1.3E13(1/s)/2.483E-9(mol/cm^2) = 5.236E21 cm^2/(mol*s)
 """,
@@ -778,4 +784,3 @@ Table S3. Reaction rate constant at different temperatures
     metal = "Rh",
     facet = "111",
 )
-

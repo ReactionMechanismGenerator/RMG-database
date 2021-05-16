@@ -26,6 +26,8 @@ https://doi.org/10.1021/acscatal.8b04251
 # "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 # DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 # https://doi.org/10.1021/acscatal.8b04251
+
+# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 # A = ((1.8E3 /pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 32 g/mol * molar gas constant * 298 kelvin)
 # """,
 # 	metal = "Pt",
@@ -48,6 +50,8 @@ https://doi.org/10.1021/acscatal.8b04251
 # "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 # DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 # https://doi.org/10.1021/acscatal.8b04251
+# 
+# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 # A = ((2.5E3 /pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 17 g/mol * molar gas constant * 298 kelvin)
 # """,
 #     metal = "Pt",
@@ -69,8 +73,9 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 5.2E12(1/s)/2.483E-9(mol/cm^2) 1.007E21 cm^2/(mol*s)
+A = 5.2E12(1/s)/2.483E-9(mol/cm^2) = 1.007E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -91,6 +96,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 5.5E12(1/s)/2.483E-9(mol/cm^2) = 2.215E21 cm^2/(mol*s)
 """,
@@ -113,6 +119,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 7.8E12(1/s)/2.483E-9(mol/cm^2) = 3.141E21 cm^2/(mol*s)
 """,
@@ -135,6 +142,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 4.9E13(1/s)/2.483E-9(mol/cm^2) = 1.973E22 cm^2/(mol*s)
 """,
@@ -157,6 +165,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 1.5E13(1/s)/2.483E-9(mol/cm^2) = 6.041E21 cm^2/(mol*s)
 """,
@@ -179,6 +188,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 5.9E12(1/s)/2.483E-9(mol/cm^2) = 2.376E21 cm^2/(mol*s)
 """,
@@ -201,6 +211,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 3.1E12(1/s)/2.483E-9(mol/cm^2) = 1.248E21 cm^2/(mol*s)
 """,
@@ -224,7 +235,9 @@ A = 3.1E12(1/s)/2.483E-9(mol/cm^2) = 1.248E21 cm^2/(mol*s)
 # "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 # DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 # https://doi.org/10.1021/acscatal.8b04251
-# ((2.4e3 /Pa) / s) * (2.4e-9 mol/cm2) * sqrt(2 * pi * 18 g/mol * molar gas constant * 298 kelvin)
+
+# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+# A = ((2.4e3 /Pa) / s) * (2.4e-9 mol/cm2) * sqrt(2 * pi * 18 g/mol * molar gas constant * 298 kelvin)
 # """,
 #       metal = "Pt",
 #       facet = "111",
@@ -245,7 +258,9 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
-((6.8E-2 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 28 g/mol * molar gas constant * 298 kelvin)
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = ((6.8E-2 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 28 g/mol * molar gas constant * 298 kelvin)
 """,
     metal = "Pt",
     facet = "111",
@@ -266,6 +281,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 8.3E12(1/s)/2.483E-9(mol/cm^2) = 3.343E21 cm^2/(mol*s)
 """,
@@ -289,7 +305,9 @@ A = 8.3E12(1/s)/2.483E-9(mol/cm^2) = 3.343E21 cm^2/(mol*s)
 # "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 # DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 # https://doi.org/10.1021/acscatal.8b04251
-# ((1.9E3 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 30 g/mol * molar gas constant * 298 kelvin)
+
+# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+# A = ((1.9E3 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 30 g/mol * molar gas constant * 298 kelvin)
 # """,
 #     metal = "Pt",
 #     facet = "111",
@@ -310,6 +328,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 4.3E12(1/s)/2.483E-9(mol/cm^2) = 1.732E21 cm^2/(mol*s)
 """,
@@ -333,7 +352,9 @@ A = 4.3E12(1/s)/2.483E-9(mol/cm^2) = 1.732E21 cm^2/(mol*s)
 # "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 # DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 # https://doi.org/10.1021/acscatal.8b04251
-# ((1.6E3 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 44 g/mol * molar gas constant * 298 kelvin)
+# 
+#This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+# A = ((1.6E3 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 44 g/mol * molar gas constant * 298 kelvin)
 # """,
 #     metal = "Pt",
 #     facet = "111",

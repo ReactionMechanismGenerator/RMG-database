@@ -29,6 +29,7 @@ Rh(111) Surface toward Understanding NOx Reduction Pathways"
 Atsushi Ishikawa and Yoshitaka Tateyama
 J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
+
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
 The modified Arrhenius parameters is calculed from 
 Table 2. Activation Energy (Ea) 
@@ -56,6 +57,7 @@ Rh(111) Surface toward Understanding NOx Reduction Pathways"
 Atsushi Ishikawa and Yoshitaka Tateyama
 J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
+
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
 The modified Arrhenius parameters is calculed from 
 Table 2. Activation Energy (Ea) 
@@ -83,6 +85,7 @@ Rh(111) Surface toward Understanding NOx Reduction Pathways"
 Atsushi Ishikawa and Yoshitaka Tateyama
 J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
+
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
 The modified Arrhenius parameters is calculed from 
 Table 2. Activation Energy (Ea) 
@@ -110,6 +113,7 @@ Rh(111) Surface toward Understanding NOx Reduction Pathways"
 Atsushi Ishikawa and Yoshitaka Tateyama
 J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
+
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
 The modified Arrhenius parameters is calculed from 
 Table 2. Activation Energy (Ea) 
@@ -137,6 +141,7 @@ Rh(111) Surface toward Understanding NOx Reduction Pathways"
 Atsushi Ishikawa and Yoshitaka Tateyama
 J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
+
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
 The modified Arrhenius parameters is calculed from 
 Table 2. Activation Energy (Ea) 

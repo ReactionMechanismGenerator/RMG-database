@@ -127,3 +127,14 @@ NX
 1 *4 N u0 p1 c0 {2,T}
 2 *5 X u0 p0 c0 {1,T}
 
+HNOX
+1    O u0 p2 c0 {2,D}
+2 *2 N u0 p1 c0 {1,D} {3,S}
+3 *3 H u0 p0 c0 {2,S}
+4 *1 X u0 p0 c0
+
+NOX
+1    O u0 p2 c0 {2,D}
+2 *2 N u0 p1 c0 {1,D} {3,S}
+3 *1 X u0 p0 c0 {2,S}
+
