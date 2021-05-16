@@ -247,6 +247,7 @@ Original entry: NH3_X + X <=> NH2_X + H_X
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K)= 5.6E11(1/s)/2.483E-9(mol/cm^2) = 2.255E20 cm^2/(mol*s)
 """,
@@ -268,6 +269,7 @@ Original entry: NH3_X + X <=> NH2_X + H_X
 "Ammonia Dehydrogenation over Platinum-Group Metal Surfaces. Structure, Stability, and Reactivity of Adsorbed NHx Species"
 Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
 https://doi.org/10.1021/jp064742b
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 500K) = 7.1E11(1/s)/2.483E-9(mol/cm^2) = 2.859E20 cm^2/(mol*s)
 """,
@@ -294,6 +296,7 @@ https://doi.org/10.1016/j.jcat.2020.01.029
 This reaction used RMG's surface site density of Rh111 = 2.656E-9(mol/cm^2) to calculate the A factor.
 Using the method proposed by Campbell et al. to calculate A actor.
 Ea = 1.04eV = 100349.6J/mol
+
 This is reaction (1) in Table S5
 """,
     metal = "Rh",
@@ -345,6 +348,7 @@ https://doi.org/10.1016/j.jcat.2020.01.029
 This reaction used RMG's surface site density of Pd211 = 2.688E-9(mol/cm^2) to calculate the A factor.
 Using the method proposed by Campbell et al. to calculate A actor.
 Ea = 1.01eV = 97454.9/mol
+
 This is reaction (1) in Table S4
 """,
     metal = "Pd",
@@ -396,6 +400,7 @@ https://doi.org/10.1016/j.jcat.2020.01.029
 This reaction used RMG's surface site density of Pd111 = 2.534E-9(mol/cm^2) to calculate the A factor.
 Using the method proposed by Campbell et al. to calculate A actor.
 Ea = 1.08eV = 104209.2J/mol
+
 This is reaction (1) in Table S5
 """,
     metal = "Pd",
@@ -454,4 +459,3 @@ Ea = 1.13eV = 109033.7J/mol
     metal = "Rh",
     facet = "111",
 )
-

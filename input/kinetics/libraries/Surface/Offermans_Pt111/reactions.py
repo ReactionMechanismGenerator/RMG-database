@@ -25,6 +25,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K from p.62)= 8.6E12(1/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^2/(mol*s)
 """,
@@ -47,6 +48,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K)= 5.6E11(1/s)/2.483E-9(mol/cm^2) = 2.255E20 cm^2/(mol*s)
 """,
@@ -69,6 +71,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 5.0E12(1/s)/2.483E-9(mol/cm^2) = 2.014E21 cm^2/(mol*s)
 """,
@@ -91,6 +94,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 7.2E12(1/s)/2.483E-9(mol/cm^2) = 2.8997E21 cm^2/(mol*s)
 """,
@@ -113,6 +117,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 1.2E12(1/s)/2.483E-9(mol/cm^2) = 4.833E20 cm^2/(mol*s)
 """,
@@ -135,6 +140,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 6.1E12(1/s)/2.483E-9(mol/cm^2) = 2.457E21 cm^2/(mol*s)
 """,
@@ -157,6 +163,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 7.6E12(1/s)/2.483E-9(mol/cm^2) = 3.061E21 cm^2/(mol*s)
 """,
@@ -179,6 +186,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 1.6E11(1/s)/2.483E-9(mol/cm^2) = 6.444E19 cm^2/(mol*s)
 """,
@@ -201,6 +209,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 3.4E12(1/s)/2.483E-9(mol/cm^2) = 1.369E21 cm^2/(mol*s)
 """,
@@ -223,6 +232,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 5.1E11(1/s)/2.483E-9(mol/cm^2) = 2.054E20 cm^2/(mol*s)
 """,
@@ -245,6 +255,7 @@ entry(
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 7.1E12(1/s)/2.483E-9(mol/cm^2) = 2.859E21 cm^2/(mol*s)
 """,

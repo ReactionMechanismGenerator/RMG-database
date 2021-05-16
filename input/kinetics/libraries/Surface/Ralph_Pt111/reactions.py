@@ -27,6 +27,7 @@ entry(
 Surface Morphology and Kinetics at Atmospheric Pressure."
 Krähnert, Ralph(2005) A Doctoral Thesis.
 http://dx.doi.org/10.14279/depositonce-1270
+
 A = k/exp(Ea/RT) = 9.34(mol/m^2/s)/exp(135300J/mol / 8.314J/molK / 298K) = 4.91E16 cm^2/mol/s
 """,
     metal = "Pt",
@@ -49,6 +50,7 @@ entry(
 Surface Morphology and Kinetics at Atmospheric Pressure."
 Krähnert, Ralph(2005) A Doctoral Thesis.
 http://dx.doi.org/10.14279/depositonce-1270
+
 A = k/exp(Ea/RT) = 64.2(mol/m^2/s)/exp(139000J/mol / 8.314J/molK / 298K) = 7.06E17 cm^2/mol/s
 """,
     metal = "Pt",
@@ -71,6 +73,7 @@ entry(
 Surface Morphology and Kinetics at Atmospheric Pressure."
 Krähnert, Ralph(2005) A Doctoral Thesis.
 http://dx.doi.org/10.14279/depositonce-1270
+
 A = k/exp(Ea/RT) = 1.09E-10(mol/m^2/s)/exp(181000J/mol / 8.314J/molK / 298K) = 5.21E9 cm^2/mol/s
 """,
 	metal = "Pt",
@@ -93,6 +96,7 @@ entry(
 Surface Morphology and Kinetics at Atmospheric Pressure."
 Krähnert, Ralph(2005) A Doctoral Thesis.
 http://dx.doi.org/10.14279/depositonce-1270
+
 A = k/exp(Ea/RT) = 2.17(mol/m^2/s)/exp(60900J/mol / 8.314J/molK / 298K) = 4.09E9 cm^2/mol/s
 """,
     metal = "Pt",
@@ -115,6 +119,7 @@ entry(
 Surface Morphology and Kinetics at Atmospheric Pressure."
 Krähnert, Ralph(2005) A Doctoral Thesis.
 http://dx.doi.org/10.14279/depositonce-1270
+
 A = k/exp(Ea/RT) = 1.24(mol/m^2/s)/exp(154800J/mol / 8.314J/molK / 298K) = 3.19E17 cm^2/mol/s
 """,
     metal = "Pt",
@@ -137,6 +142,7 @@ entry(
 Surface Morphology and Kinetics at Atmospheric Pressure."
 Krähnert, Ralph(2005) A Doctoral Thesis.
 http://dx.doi.org/10.14279/depositonce-1270
+
 A = k/exp(Ea/RT) = 5.2(mol/m^2/s)/exp(155200J/mol / 8.314J/molK / 298K) = 1.45E18 cm^2/mol/s
 """,
     metal = "Pt",
