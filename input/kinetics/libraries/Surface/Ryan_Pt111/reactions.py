@@ -25,6 +25,8 @@ entry(
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
 https://doi.org/10.1116/1.4903225
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = ((3.19E7 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 32 g/mol * molar gas constant * 298 kelvin)
 """,
 	metal = "Pt",
@@ -46,6 +48,8 @@ entry(
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
 https://doi.org/10.1116/1.4903225
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 4.41E13(1/s)/2.483E-9(mol/cm^2) = 1.776E22 cm^2/(mol*s)
 Ea = 1.2eV * 96490J/eV mol = 115788J/mol
 """,
@@ -68,6 +72,8 @@ entry(
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
 https://doi.org/10.1116/1.4903225
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = ((2.78E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 30 g/mol * molar gas constant * 298 kelvin)
 """,
 	metal = "Pt",
@@ -89,6 +95,8 @@ entry(
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
 https://doi.org/10.1116/1.4903225
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = ((2.24E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 46 g/mol * molar gas constant * 298 kelvin)
 """,
 	metal = "Pt",

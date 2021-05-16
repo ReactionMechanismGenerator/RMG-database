@@ -22,6 +22,7 @@ Original entry: NH3_X + OH_X <=> NH2_X + H2O_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 4.9E13(1/s)/2.483E-9(mol/cm^2) = 1.973E22 cm^2/(mol*s)
 """,
@@ -43,6 +44,7 @@ Original entry: NH3_X + OH_X <=> NH2_X + H2O_X
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
+
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 1.6E11(1/s)/2.483E-9(mol/cm^2) = 6.444E19 cm^2/(mol*s)
 """,
@@ -155,4 +157,3 @@ Ea = 0.24eV = 23157.6J/mol
     metal = "Rh",
     facet = "111",
 )
-
