@@ -115,6 +115,7 @@ A factor from paper / surface site density of Cu
 """,
     metal = "Cu",
 )
+
 entry(
     index = 40,
     label = "H2NX + O* <=> OH* + HNX",
