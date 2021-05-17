@@ -294,7 +294,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Abstraction_Single_vdW""",
+    shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.

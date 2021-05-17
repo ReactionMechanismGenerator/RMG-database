@@ -204,7 +204,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Abstraction_Single_vdW""",
+    shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
@@ -227,7 +227,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Abstraction_Single_vdW""",
+    shortDesc = u"""Surface_AbstractionvdW""",
     longDesc = u"""
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
