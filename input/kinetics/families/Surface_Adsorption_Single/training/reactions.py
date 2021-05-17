@@ -28,6 +28,7 @@ entry(
     This is R48""",
     metal = "Pt",
 )
+
 entry(
     index = 49,
     label = "NO_X <=> NO + Pt",
@@ -91,7 +92,9 @@ A = ((2.24E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 46 g/mol * molar ga
 """,
     metal = "Pt",
     facet = "111",
-)entry(
+)
+
+entry(
     index = 52,
     label = "NO_X <=> NO + Pt",
     degeneracy = 1.0,
@@ -113,5 +116,51 @@ This is R15 in Table 1
 """,
     metal = "Pt",
     facet = "111",
+)
+
+entry(
+    index = 53,
+    label = "Pt + NO <=> NO_X",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.1556, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Scheuer_Pt
+Original entry: NO + X <=> NO_X
+"Dual layer automotive ammonia oxidation catalysts: Experiments and computer simulation"
+Scheuer et al. Applied Catalysis B: Environmental 111–112 (2012) 445–455
+https://doi.org/10.1016/j.apcatb.2011.10.032
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = ((290/Pa)/s)*(2.483e-9(mol/cm^2))*sqrt(2*pi*(30(g/mol))*the molar gas constant*(298 kelvin)) = 0.1556
+
+This is R7 in Table 1
+""",
+    metal = "Pt",
+)
+
+entry(
+    index = 54,
+    label = "NO2X <=> NO2 + Pt",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(5.24e+22,'1/s'), n=0, Ea=(100000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Scheuer_Pt
+Original entry: NO2_X <=> NO2 + X
+"Dual layer automotive ammonia oxidation catalysts: Experiments and computer simulation"
+Scheuer et al. Applied Catalysis B: Environmental 111–112 (2012) 445–455
+https://doi.org/10.1016/j.apcatb.2011.10.032
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.3E14(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.24E22 (1/s)
+
+This is R13 in Table 1
+""",
+    metal = "Pt",
 )
 

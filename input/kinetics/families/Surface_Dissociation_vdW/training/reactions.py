@@ -233,6 +233,7 @@ A factor from paper / surface site density of Cu
 """,
     metal = "Cu",
 )
+
 entry(
     index = 35,
     label = "X_4 + NH3_X <=> NH2_X + H*",
@@ -459,3 +460,4 @@ Ea = 1.13eV = 109033.7J/mol
     metal = "Rh",
     facet = "111",
 )
+
