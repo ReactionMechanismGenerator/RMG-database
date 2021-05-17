@@ -67,6 +67,7 @@ entry(
     Catalysts, 2015, 5, 871-904""",
 	metal = "Ni",
 )
+
 entry(
     index = 12,
     label = "H3NX <=> H3N + X",
@@ -109,7 +110,9 @@ A (at 300K from p.62)= 8.6E12(1/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
-)entry(
+)
+
+entry(
     index = 14,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
@@ -155,5 +158,28 @@ This is R19 in Table 1
 """,
     metal = "Pt",
     facet = "111",
+)
+
+entry(
+    index = 16,
+    label = "X + H3N <=> H3NX",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.00768, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Scheuer_Pt
+Original entry: NH3 + X <=> NH3_X
+"Dual layer automotive ammonia oxidation catalysts: Experiments and computer simulation"
+Scheuer et al. Applied Catalysis B: Environmental 111–112 (2012) 445–455
+https://doi.org/10.1016/j.apcatb.2011.10.032
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = ((19/Pa)/s)*(2.483e-9(mol/cm^2))*sqrt(2*pi*(17(g/mol))*the molar gas constant*(298 kelvin))= 0.00768
+
+This is R1 in Table 1
+""",
+    metal = "Pt",
 )
 
