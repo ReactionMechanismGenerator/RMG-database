@@ -237,7 +237,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Abstraction_Single_vdW""",
+    shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 Based primarily on 
 "Density-functional theory study of NHx oxidation 
@@ -267,7 +267,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Abstraction_Single_vdW""",
+    shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 Based primarily on 
 "Density-functional theory study of NHx oxidation 
