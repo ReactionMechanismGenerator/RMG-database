@@ -440,3 +440,18 @@ u"""
 Geometry could not converge at wB97x-D3/6-311++G(3df,3pd) (alongd ref - xq1492)
 """,
 )
+
+entry(
+    label = "vdW_radical",
+    group = 
+"""
+multiplicity [2,3,4,5]
+1 Xv u0 p0 c0
+""",
+    shortDesc = u"""vdW with radicals""",
+    longDesc = 
+u"""
+Forbid physisorbed vdW adsorbates with radicals.
+If adsorbate has radical(s), it should chemisorb with surface.
+""",
+)
