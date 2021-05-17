@@ -183,3 +183,102 @@ This is R1 in Table 1
     metal = "Pt",
 )
 
+entry(
+    index = 17,
+    label = "H2OX <=> H2O + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.38e+24,'1/s'), n=0, Ea=(18333.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pt111
+Original entry: H2O_X <=> H2O + X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 5.9E15(1/s)/2.483E-9(mol/cm^2) = 2.38E24 cm^2/(mol*s)
+Ea = 0.19eV = 18333.1J/mol
+
+This is R10 in Table S2 and S4
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 18,
+    label = "N2OX <=> N2O + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(5.64e+24,'1/s'), n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Double/Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pt111
+Original entry: N2O_X <=> N2O + X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.4E16(1/s)/2.483E-9(mol/cm^2) = 5.64E24 cm^2/(mol*s)
+
+This is R15 in Table S2 and S4
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 19,
+    label = "H2OX <=> H2O + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.4e+24,'1/s'), n=0, Ea=(24122.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pt211
+Original entry: H2O_X <=> H2O + X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
+A = 3.7E15(1/s)/2.634E-9(mol/cm^2) = 1.40E24 cm^2/(mol*s)
+Ea = 0.25eV = 24122.5J/mol
+
+This is R10 in Table S2 and S4
+""",
+    metal = "Pt",
+    facet = "211",
+)
+
+entry(
+    index = 20,
+    label = "N2OX <=> N2O + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(5.69e+25,'1/s'), n=0, Ea=(9649,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Double/Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pt211
+Original entry: N2O_X <=> N2O + X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
+A = 1.5E17(1/s)/2.634E-9(mol/cm^2) = 5.69E25 cm^2/(mol*s)
+Ea = 0.1eV = 9649J/mol
+
+This is R15 in Table S2 and S4
+""",
+    metal = "Pt",
+    facet = "211",
+)
+
