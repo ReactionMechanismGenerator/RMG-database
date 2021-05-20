@@ -39,9 +39,9 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 Xv  ux px cx
-2 *2 R!H ux px cx {3,D}
-3 *3 R!H ux px cx {2,D}
+1 *1 Xv  u0 p0 c0
+2 *2 R!H u0 px cx {3,D}
+3 *3 R!H u0 px cx {2,D}
 """,
     kinetics = None,
 )
@@ -151,7 +151,7 @@ forbidden(
     label = "CO",
     group =
 """
-1 *1 Xv ux
+1 *1 Xv u0
 2 *3 O  ux {3,D}
 3 *2 C  ux {2,D}
 """,
@@ -165,7 +165,7 @@ forbidden(
     label = "NO",
     group =
 """
-1 *1 Xv ux
+1 *1 Xv u0
 2 *3 O  ux {3,D}
 3 *2 N  ux {2,D}
 """,
@@ -179,7 +179,7 @@ forbidden(
     label = "CN",
     group =
 """
-1 *1 Xv ux
+1 *1 Xv u0
 2 *3 N  ux {3,D}
 3 *2 C  ux {2,D}
 """,

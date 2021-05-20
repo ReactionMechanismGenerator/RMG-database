@@ -35,8 +35,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H ux px cx {2,S}
-2 *2 R   ux px cx {1,S}
+1 *1 R!H u0 px cx {2,S}
+2 *2 R   u0 px cx {1,S}
 3 *3 Xv  u0 p0 c0
 """,
     kinetics = None,
@@ -58,7 +58,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H ux px cx {2,S}
+1 *1 R!H u0 px cx {2,S}
 2 *2 H   u0 p0 c0 {1,S}
 3 *3 Xv  u0 p0 c0
 """,
@@ -71,7 +71,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 C  ux px cx {2,S}
+1 *1 C  u0 px cx {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
 """,
@@ -84,7 +84,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 O  ux px cx {2,S}
+1 *1 O  u0 px cx {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
 """,
@@ -97,7 +97,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 N  ux px cx {2,S}
+1 *1 N  u0 px cx {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
 """,
