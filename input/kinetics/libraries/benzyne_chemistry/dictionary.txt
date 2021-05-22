@@ -210,4 +210,118 @@ C7H6
 12 H u0 p0 c0 {6,S}
 13 H u0 p0 c0 {6,S}
 
+propyne
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+
+acetylene
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
+
+1_int
+1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {5,S} {8,S} {9,S} {14,S}
+3  C u0 p0 c0 {1,S} {15,S} {16,S} {17,S}
+4  C u0 p0 c0 {1,S} {5,D} {10,S}
+5  C u0 p0 c0 {2,S} {4,D} {11,S}
+6  C u0 p0 c0 {1,S} {8,D} {18,S}
+7  C u0 p0 c0 {1,S} {9,D} {21,S}
+8  C u0 p0 c0 {2,S} {6,D} {19,S}
+9  C u0 p0 c0 {2,S} {7,D} {20,S}
+10 C u0 p0 c0 {4,S} {12,D} {22,S}
+11 C u0 p0 c0 {5,S} {13,D} {25,S}
+12 C u0 p0 c0 {10,D} {13,S} {23,S}
+13 C u0 p0 c0 {11,D} {12,S} {24,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {6,S}
+19 H u0 p0 c0 {8,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {7,S}
+22 H u0 p0 c0 {10,S}
+23 H u0 p0 c0 {12,S}
+24 H u0 p0 c0 {13,S}
+25 H u0 p0 c0 {11,S}
+
+2_int
+1  C u0 p0 c0 {4,S} {5,S} {9,S} {15,S}
+2  C u0 p0 c0 {6,S} {7,S} {8,S} {14,S}
+3  C u0 p0 c0 {4,S} {16,S} {17,S} {18,S}
+4  C u0 p0 c0 {1,S} {3,S} {7,D}
+5  C u0 p0 c0 {1,S} {6,S} {10,D}
+6  C u0 p0 c0 {2,S} {5,S} {11,D}
+7  C u0 p0 c0 {2,S} {4,D} {19,S}
+8  C u0 p0 c0 {2,S} {9,D} {20,S}
+9  C u0 p0 c0 {1,S} {8,D} {21,S}
+10 C u0 p0 c0 {5,D} {12,S} {22,S}
+11 C u0 p0 c0 {6,D} {13,S} {25,S}
+12 C u0 p0 c0 {10,S} {13,D} {23,S}
+13 C u0 p0 c0 {11,S} {12,D} {24,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {7,S}
+20 H u0 p0 c0 {8,S}
+21 H u0 p0 c0 {9,S}
+22 H u0 p0 c0 {10,S}
+23 H u0 p0 c0 {12,S}
+24 H u0 p0 c0 {13,S}
+25 H u0 p0 c0 {11,S}
+
+1_methylnaphthalene
+1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,D}
+3  C u0 p0 c0 {2,S} {4,D} {7,S}
+4  C u0 p0 c0 {3,D} {6,S} {8,S}
+5  C u0 p0 c0 {2,D} {9,S} {15,S}
+6  C u0 p0 c0 {4,S} {9,D} {17,S}
+7  C u0 p0 c0 {3,S} {10,D} {18,S}
+8  C u0 p0 c0 {4,S} {11,D} {21,S}
+9  C u0 p0 c0 {5,S} {6,D} {16,S}
+10 C u0 p0 c0 {7,D} {11,S} {19,S}
+11 C u0 p0 c0 {8,D} {10,S} {20,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {9,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {7,S}
+19 H u0 p0 c0 {10,S}
+20 H u0 p0 c0 {11,S}
+21 H u0 p0 c0 {8,S}
+
+2_methylnaphthalene
+1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {5,D} {6,S}
+3  C u0 p0 c0 {4,D} {5,S} {8,S}
+4  C u0 p0 c0 {3,D} {7,S} {9,S}
+5  C u0 p0 c0 {2,D} {3,S} {15,S}
+6  C u0 p0 c0 {2,S} {9,D} {21,S}
+7  C u0 p0 c0 {4,S} {10,D} {16,S}
+8  C u0 p0 c0 {3,S} {11,D} {19,S}
+9  C u0 p0 c0 {4,S} {6,D} {20,S}
+10 C u0 p0 c0 {7,D} {11,S} {17,S}
+11 C u0 p0 c0 {8,D} {10,S} {18,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {7,S}
+17 H u0 p0 c0 {10,S}
+18 H u0 p0 c0 {11,S}
+19 H u0 p0 c0 {8,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {6,S}
 
