@@ -9,6 +9,7 @@ C. Xu, M. Braun-Unkhoff, C. Naumann, and P. Frank, Proc. Comb. Ins., 31 (2007) 2
 M. Derudi, D. Polino, and C. Cavallotti, Phys. Chem. Chem. Phys., 2011, 13, 21308-21318
 o-benzyne + benzene  = naphthalene + C2H2, geometry from Comandini et al.,2011 and recalculated at CBS-QB3
 o-benzyne + naphthalene = anthracene + C2H2 and recalculated at CBS-QB3
+o-benzyne + toluene chemistry calculated at CBS-QB3 by Jeehyun Yang
 
 """
 entry(
