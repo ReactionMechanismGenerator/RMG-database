@@ -77,7 +77,7 @@ entry(
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Ralph_Pt111
+Training reaction from kinetics library: Surface/Krahnert_Pt111
 Original entry: NH3_X <=> NH3 + X
 "Ammonia Oxidation over Polycrystalline Platinum: 
 Surface Morphology and Kinetics at Atmospheric Pressure."

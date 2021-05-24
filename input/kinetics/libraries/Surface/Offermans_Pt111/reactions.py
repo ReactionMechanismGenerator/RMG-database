@@ -11,7 +11,7 @@ https://doi.org/10.6100/IR630067
 """
 
 entry(
-    index = 5,
+    index = 1,
     label = "N2 + X <=> N2_X",
     kinetics = SurfaceArrhenius(
         A = (3.464E21, 'cm^3/(mol*s)'), 
@@ -34,7 +34,7 @@ A (at 300K from p.62)= 8.6E12(1/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 12,
+    index = 2,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
         A = (2.255E20, 'cm^2/(mol*s)'), 
@@ -57,7 +57,7 @@ A (at 300K)= 5.6E11(1/s)/2.483E-9(mol/cm^2) = 2.255E20 cm^2/(mol*s)
 )
 
 entry(
-    index = 13,
+    index = 3,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
         A = (2.014E21, 'cm^2/(mol*s)'), 
@@ -80,7 +80,7 @@ A (at 300K) = 5.0E12(1/s)/2.483E-9(mol/cm^2) = 2.014E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 14,
+    index = 4,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
         A = (2.08997E21, 'cm^2/(mol*s)'), 
@@ -103,7 +103,7 @@ A (at 300K) = 7.2E12(1/s)/2.483E-9(mol/cm^2) = 2.8997E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 15,
+    index = 5,
     label = "NH3_X +O_X <=> NH2_X + OH_X",
     kinetics = SurfaceArrhenius(
         A = (4.833E20, 'cm^2/(mol*s)'), 
@@ -126,7 +126,7 @@ A (at 300K) = 1.2E12(1/s)/2.483E-9(mol/cm^2) = 4.833E20 cm^2/(mol*s)
 )
 
 entry(
-    index = 16,
+    index = 6,
     label = "NH2_X +O_X <=> NH_X + OH_X",
     kinetics = SurfaceArrhenius(
         A = (2.457E21, 'cm^2/(mol*s)'), 
@@ -149,7 +149,7 @@ A (at 300K) = 6.1E12(1/s)/2.483E-9(mol/cm^2) = 2.457E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 17,
+    index = 7,
     label = "NH_X + O_X <=> N_X + OH_X",
     kinetics = SurfaceArrhenius(
         A = (3.061E21, 'cm^2/(mol*s)'), 
@@ -172,7 +172,7 @@ A (at 300K) = 7.6E12(1/s)/2.483E-9(mol/cm^2) = 3.061E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 18,
+    index = 8,
     label = "NH3_X + OH_X <=> NH2_X + H2O_X",
     kinetics = SurfaceArrhenius(
         A = (6.444E19, 'cm^2/(mol*s)'), 
@@ -195,7 +195,7 @@ A (at 300K) = 1.6E11(1/s)/2.483E-9(mol/cm^2) = 6.444E19 cm^2/(mol*s)
 )
 
 entry(
-    index = 19,
+    index = 9,
     label = "NH2_X + OH_X <=> NH_X + H2O_X",
     kinetics = SurfaceArrhenius(
         A = (1.369E21, 'cm^2/(mol*s)'), 
@@ -218,7 +218,7 @@ A (at 300K) = 3.4E12(1/s)/2.483E-9(mol/cm^2) = 1.369E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 20,
+    index = 10,
     label = "NH_X + OH_X <=> N_X + H2O_X",
     kinetics = SurfaceArrhenius(
         A = (2.054E20, 'cm^2/(mol*s)'), 
@@ -241,7 +241,7 @@ A (at 300K) = 5.1E11(1/s)/2.483E-9(mol/cm^2) = 2.054E20 cm^2/(mol*s)
 )
 
 entry(
-    index = 24,
+    index = 11,
     label = "N_X + O_X <=> NO_X + X",
     kinetics = SurfaceArrhenius(
         A = (2.859E21, 'cm^2/(mol*s)'),  

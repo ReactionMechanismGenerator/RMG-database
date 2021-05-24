@@ -90,7 +90,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u""" """,
+    shortDesc = u"""""",
     longDesc = u"""
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
