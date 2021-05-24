@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Ralph_Pt111"
+name = "Kraehnert_Pt111"
 shortDesc = u""
 longDesc = u"""
 Based primarily on 
@@ -12,7 +12,7 @@ http://dx.doi.org/10.14279/depositonce-1270
 """
 
 entry(
-    index = 24,
+    index = 1,
     label = "N_X + O_X <=> NO_X + X",
     kinetics = SurfaceArrhenius(
         A = (4.91E16, 'cm^2/(mol*s)'),  
@@ -35,7 +35,7 @@ A = k/exp(Ea/RT) = 9.34(mol/m^2/s)/exp(135300J/mol / 8.314J/molK / 298K) = 4.91E
 )
 
 entry(
-    index = 49,
+    index = 2,
     label = "N_X + N_X <=> N2 + X + X",
     kinetics = SurfaceArrhenius(
         A = (7.06E17, 'cm^2/(mol*s)'),  
@@ -58,7 +58,7 @@ A = k/exp(Ea/RT) = 64.2(mol/m^2/s)/exp(139000J/mol / 8.314J/molK / 298K) = 7.06E
 )
 
 entry(
-    index = 50,
+    index = 3,
     label = "O_X + O_X <=> O2 + X + X",
     kinetics = SurfaceArrhenius(
         A = (5.21E9, 'cm^2/(mol*s)'),  
@@ -81,7 +81,7 @@ A = k/exp(Ea/RT) = 1.09E-10(mol/m^2/s)/exp(181000J/mol / 8.314J/molK / 298K) = 5
 )
 
 entry(
-    index = 58,
+    index = 4,
     label = "NH3_X <=> NH3 + X",
     kinetics = SurfaceArrhenius(
         A = (3.09E9, '1/s'),  
@@ -104,7 +104,7 @@ A = k/exp(Ea/RT) = 2.17(mol/m^2/s)/exp(60900J/mol / 8.314J/molK / 298K) = 4.09E9
 )
 
 entry(
-    index = 76,
+    index = 5,
     label = "NO_X <=> NO + X",
     kinetics = SurfaceArrhenius(
         A = (3.19E17, '1/s'),  
@@ -127,7 +127,7 @@ A = k/exp(Ea/RT) = 1.24(mol/m^2/s)/exp(154800J/mol / 8.314J/molK / 298K) = 3.19E
 )
 
 entry(
-    index = 80,
+    index = 6,
     label = "N_X + NO_X <=> N2O + X + X",
     kinetics = SurfaceArrhenius(
         A = (1.45E18, 'cm^2/(mol*s)'),  
