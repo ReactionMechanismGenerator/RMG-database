@@ -377,7 +377,7 @@ entry(
     shortDesc = """Surface_Dissociation""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Ryan_Pt111
+Training reaction from kinetics library: Surface/Arevalo_Pt111
 Original entry: NO_X + O_X <=> NO2_X + X
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)

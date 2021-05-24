@@ -11,7 +11,7 @@ https://doi.org/10.1021/jp064742b
 """
 
 entry(
-    index = 16,
+    index = 1,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
         A = (2.859E20, 'cm^2/(mol*s)'), 
@@ -34,7 +34,7 @@ A (at 500K) = 7.1E11(1/s)/2.483E-9(mol/cm^2) = 2.859E20 cm^2/(mol*s)
 )
 
 entry(
-    index = 17,
+    index = 2,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
         A = (4.430E21, 'cm^2/(mol*s)'), 
@@ -57,7 +57,7 @@ A (at 500K) = 1.1E13(1/s)/2.483E-9(mol/cm^2) = 4.430E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 18,
+    index = 3,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
         A = (5.236E21, 'cm^2/(mol*s)'), 
