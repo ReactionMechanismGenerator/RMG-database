@@ -38,7 +38,7 @@ entry(
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Ralph_Pt111
+Training reaction from kinetics library: Surface/Krahnert_Pt111
 Original entry: NO_X <=> NO + X
 "Ammonia Oxidation over Polycrystalline Platinum: 
 Surface Morphology and Kinetics at Atmospheric Pressure."
@@ -60,7 +60,7 @@ entry(
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Ryan_Pt111
+Training reaction from kinetics library: Surface/Arevalo_Pt111
 Original entry: NO + X <=> NO_X
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
@@ -81,7 +81,7 @@ entry(
     rank = 3,
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Ryan_Pt111
+Training reaction from kinetics library: Surface/Arevalo_Pt111
 Original entry: NO2 + X  <=> NO2_X
 "First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
 Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
