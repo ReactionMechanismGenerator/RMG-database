@@ -1,19 +1,19 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Lu_Ir111"
+name = "Roldan_Ir111"
 shortDesc = u""
 longDesc = u"""
 Based primarily on 
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 and
 
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 """
 #skip R1
@@ -32,7 +32,7 @@ entry(
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
@@ -59,7 +59,7 @@ entry(
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
@@ -86,7 +86,7 @@ entry(
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
@@ -112,7 +112,7 @@ entry(
     shortDesc = u"""Surface_Dissociation_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -139,7 +139,7 @@ entry(
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -168,7 +168,7 @@ entry(
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -197,7 +197,7 @@ entry(
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -224,7 +224,7 @@ entry(
     shortDesc = u"""Surface_Dissociation_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -251,7 +251,7 @@ entry(
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -278,7 +278,7 @@ entry(
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -305,7 +305,7 @@ entry(
     shortDesc = u"""Surface_Dissociation_Double_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -332,7 +332,7 @@ entry(
     shortDesc = u"""Surface_Bidentate_Dissociation""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -359,7 +359,7 @@ entry(
     shortDesc = u"""""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -386,7 +386,7 @@ entry(
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -413,7 +413,7 @@ entry(
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -440,7 +440,7 @@ entry(
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -467,7 +467,7 @@ entry(
     shortDesc = u"""""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -494,7 +494,7 @@ entry(
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -522,7 +522,7 @@ entry(
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
@@ -549,7 +549,7 @@ entry(
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
@@ -576,7 +576,7 @@ entry(
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
@@ -602,7 +602,7 @@ entry(
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -629,7 +629,7 @@ entry(
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
-Xiuyuan Lu et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
@@ -657,7 +657,7 @@ entry(
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to estimate A factor.
@@ -684,7 +684,7 @@ entry(
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
-Xiuyuan Lu et al. Nanoscale Adv., 2021, 3, 1624
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to estimate A factor.
