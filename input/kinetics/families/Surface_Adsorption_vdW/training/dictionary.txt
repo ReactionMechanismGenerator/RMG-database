@@ -71,3 +71,70 @@ N2O
 2    N u0 p0 c+1 {1,D} {3,D}
 3    N u0 p2 c-1 {2,D}
 
+CO2-2
+1 *1 O u0 p2 c0 {3,D}
+2    O u0 p2 c0 {3,D}
+3    C u0 p0 c0 {1,D} {2,D}
+
+CO2X-2
+1 *1 O u0 p2 c0 {3,D}
+2    O u0 p2 c0 {3,D}
+3    C u0 p0 c0 {1,D} {2,D}
+4 *2 X u0 p0 c0
+
+CH4O
+1 *1 O u0 p2 c0 {2,S} {6,S}
+2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+6    H u0 p0 c0 {1,S}
+
+CH4OX
+1 *1 O u0 p2 c0 {2,S} {6,S}
+2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+6    H u0 p0 c0 {1,S}
+7 *2 X u0 p0 c0
+
+CH2O
+1 *1 O u0 p2 c0 {2,D}
+2    C u0 p0 c0 {1,D} {3,S} {4,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+
+CH2OX
+1 *1 O u0 p2 c0 {2,D}
+2    C u0 p0 c0 {1,D} {3,S} {4,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5 *2 X u0 p0 c0
+
+H4N2
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    N u0 p1 c0 {1,S} {5,S} {6,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {2,S}
+6    H u0 p0 c0 {2,S}
+
+H4N2X
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    N u0 p1 c0 {1,S} {5,S} {6,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {2,S}
+6    H u0 p0 c0 {2,S}
+7 *2 X u0 p0 c0
+
+H2X
+1 *1 H u0 p0 c0 {2,S}
+2    H u0 p0 c0 {1,S}
+3 *2 X u0 p0 c0
+
+H2
+1 *1 H u0 p0 c0 {2,S}
+2    H u0 p0 c0 {1,S}
+
