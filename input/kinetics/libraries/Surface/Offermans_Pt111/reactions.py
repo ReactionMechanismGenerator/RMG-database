@@ -27,7 +27,7 @@ Offermans, W. K. (2007). Technische Universiteit Eindhoven.
 https://doi.org/10.6100/IR630067
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A (at 300K from p.62)= 8.6E12(1/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^2/(mol*s)
+A (at 300K from p.62)= 8.6E12(cm/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^3/(mol*s)
 """,
     metal = "Pt",
     facet = "111",

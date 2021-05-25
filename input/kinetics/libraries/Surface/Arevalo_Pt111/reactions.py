@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Ryan_Pt111"
+name = "Arevalo_Pt111"
 shortDesc = u""
 longDesc = u"""
 This library is built to import training reactions, based on:

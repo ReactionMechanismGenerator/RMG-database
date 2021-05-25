@@ -72,7 +72,7 @@ entry(
     index = 12,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.09e+09,'1/s'), n=0, Ea=(60900,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.48e+09,'1/s'), n=0, Ea=(60900,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -84,7 +84,7 @@ Surface Morphology and Kinetics at Atmospheric Pressure."
 Krähnert, Ralph(2005) A Doctoral Thesis.
 http://dx.doi.org/10.14279/depositonce-1270
 
-A = k/exp(Ea/RT) = 2.17(mol/m^2/s)/exp(60900J/mol / 8.314J/molK / 298K) = 4.09E9 cm^2/mol/s
+A = k/exp(Ea/RT) = 2.17(1/s)/exp(60900J/mol / 8.314J/molK / 658K) = 1.48E09 (1/s)
 """,
     metal = "Pt",
     facet = "111",
@@ -106,7 +106,7 @@ Offermans, W. K. (2007). Technische Universiteit Eindhoven.
 https://doi.org/10.6100/IR630067
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A (at 300K from p.62)= 8.6E12(1/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^2/(mol*s)
+A (at 300K from p.62)= 8.6E12(cm/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^3/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -142,7 +142,7 @@ entry(
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4.03e+21,'1/s'), n=0, Ea=(40300,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption""",
+    shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Rebrov_Pt111
@@ -152,7 +152,7 @@ Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E13(1/s)/2.483E-9(mol/cm^2) = 4.03E21 cm^2/(mol*s)
+A = 1E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 4.03E21 (1/s)
 
 This is R19 in Table 1
 """,
