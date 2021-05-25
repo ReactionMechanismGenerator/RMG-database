@@ -186,3 +186,78 @@ This is R6 in Table S2 and S4
     facet = "211",
 )
 
+entry(
+    index = 8,
+    label = "H2NX-2 + H4N2X <=> H3N2X + H3NX-2",
+    degeneracy = 4.0,
+    kinetics = SurfaceArrhenius(A=(3.38e+20,'cm^2/(mol*s)'), n=0.156, Ea=(40526,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Cu111
+Original entry: N2H4_X + NH2_X <=> N2H3_X + NH3_X
+"Micro-kinetic simulations of the catalytic decomposition 
+of hydrazine on the Cu(111) surface"
+Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
+DOI:10.1039/C6FD00186F
+
+This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
+A and n was calculated by numpy.linalg.lstsq from Table 1
+
+This is R38 in Table 1
+""",
+    metal = "Cu",
+    facet = "111",
+)
+
+entry(
+    index = 9,
+    label = "H2NX-2 + H4N2X <=> H3N2X + H3NX-2",
+    degeneracy = 4.0,
+    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(19298,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: N2H4_X + NH2_X <=> N2H3_X + NH3_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 0.2eV = 19298J/mol
+
+This is R16 in Table 3
+""",
+    metal = "Ir",
+    facet = "111",
+)
+
+entry(
+    index = 10,
+    label = "H2NX-2 + H2N2X <=> HN2X + H3NX-2",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(98419.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: N2H2_X + NH2_X <=> N2H_X + NH3_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 1.02eV = 98419.8J/mol
+
+This is R20 in Table 3
+""",
+    metal = "Ir",
+    facet = "111",
+)
+

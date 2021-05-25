@@ -150,3 +150,67 @@ NO2X
 3 *2 N u0 p1 c0 {1,S} {2,D}
 4 *3 X u0 p0 c0 {1,S}
 
+H3N2X
+1 *1 N u0 p1 c0 {2,S} {3,S} {6,S}
+2    N u0 p1 c0 {1,S} {4,S} {5,S}
+3 *2 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+6 *3 X u0 p0 c0 {1,S}
+
+H2N2X
+1    N u0 p1 c0 {2,S} {3,S} {4,S}
+2 *1 N u0 p1 c0 {1,S} {5,D}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5 *3 X u0 p0 c0 {2,D}
+
+H2N2X2
+1 *1 N u0 p1 c0 {2,S} {3,S} {5,S}
+2    N u0 p1 c0 {1,S} {4,S} {6,S}
+3 *2 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {2,S}
+5 *3 X u0 p0 c0 {1,S}
+6    X u0 p0 c0 {2,S}
+
+HN2X2
+1    N u0 p1 c0 {2,S} {3,S} {4,S}
+2 *1 N u0 p1 c0 {1,S} {5,D}
+3    H u0 p0 c0 {1,S}
+4    X u0 p0 c0 {1,S}
+5 *3 X u0 p0 c0 {2,D}
+
+HN2X2-2
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    N u0 p1 c0 {1,S} {5,D}
+3 *2 H u0 p0 c0 {1,S}
+4 *3 X u0 p0 c0 {1,S}
+5    X u0 p0 c0 {2,D}
+
+N2X2
+1    N u0 p1 c0 {2,S} {3,D}
+2 *1 N u0 p1 c0 {1,S} {4,D}
+3    X u0 p0 c0 {1,D}
+4 *3 X u0 p0 c0 {2,D}
+
+H3N2X-2
+1 *1 N u0 p1 c0 {2,S} {3,S} {6,S}
+2 *2 N u0 p1 c0 {1,S} {4,S} {5,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+6 *3 X u0 p0 c0 {1,S}
+
+H2NX
+1 *2 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4 *4 X u0 p0 c0 {1,S}
+
+H2N2X-2
+1 *2 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 *1 N u0 p1 c0 {1,S} {5,D}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5 *3 X u0 p0 c0 {2,D}
+
