@@ -174,7 +174,7 @@ Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
 This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
-A = 1.29E8(mol/cm^2/s)/2.630E-9(mol/cm^2) = 4.90E16 (1/s)
+A = 1.29E8(cm/s)/2.630E-9(mol/cm^2) = 4.90E16 (cm^3/(mol*s))
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is A2 in Table 3

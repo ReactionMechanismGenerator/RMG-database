@@ -5,13 +5,6 @@ name = "Vlachos_Pt111"
 shortDesc = u""
 longDesc = u"""
 Primarily based on:
-"Microkinetic Modeling of Ethane Total Oxidation on Pt"
-D.G. Vlachos et al. (2014)
-Industrial & Engineering Chemistry Research,53(24), 10051-10058.
-DOI: 10.1021/ie5004587
-
-and 
-
 "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
 D.G. Vlachos et al. (2007)
@@ -113,7 +106,7 @@ This is R3 in Table 1
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.44E13(1/s)/2.483E-9(mol/cm^2) = 5.80E21 cm^2/(mol*s)
+# A = 1.44E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.80E21 (1/s)
 
 # This is R4 in Table 1
 # """,
@@ -164,7 +157,7 @@ This is R5 in Table 1
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 5.66E15(1/s)/2.483E-9(mol/cm^2) = 2.28E24 cm^2/(mol*s)
+# A = 5.66E15(mol/cm^2/s)/2.483E-9(mol/cm^2) = 2.28E24 (1/s)
 
 # This is R6 in Table 1
 # """,
@@ -215,7 +208,7 @@ This is R7 in Table 1
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 3.63E12(1/s)/2.483E-9(mol/cm^2) = 1.46E21 cm^2/(mol*s)
+# A = 3.63E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.46E21 (1/s)
 
 # This is R8 in Table 1
 # """,
@@ -533,7 +526,7 @@ This is R19 in Table 1
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.44E14(1/s)/2.483E-9(mol/cm^2) = 5.80E22 cm^2/(mol*s)
+# A = 1.44E14(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.80E22 (1/s)
 
 # This is R20 in Table 1
 # """,
@@ -584,7 +577,7 @@ This is R21 in Table 1
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 2.03E12(1/s)/2.483E-9(mol/cm^2) = 8.18E20 cm^2/(mol*s)
+# A = 2.03E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 8.18E20 (1/s)
 
 # This is R22 in Table 1
 # """,
@@ -635,7 +628,7 @@ This is R23 in Table 1
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.37E13(1/s)/2.483E-9(mol/cm^2) = 1.76E22 cm^2/(mol*s)
+# A = 4.37E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.76E22 (1/s)
 
 # This is R24 in Table 1
 # """,
@@ -740,7 +733,7 @@ This is R27 in Table 1
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.12E13(1/s)/2.483E-9(mol/cm^2) = 4.51E21 cm^2/(mol*s)
+# A = 1.12E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 4.51E21 (1/s)
 
 # This is R28 in Table 1
 # """,
@@ -1061,7 +1054,7 @@ This is R39 in Table 1
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.83E12(1/s)/2.483E-9(mol/cm^2) = 1.95E21 cm^2/(mol*s)
+# A = 4.83E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.95E21 (1/s)
 
 # This is R40 in Table 1
 # """,
@@ -1147,7 +1140,7 @@ Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 DOI: 10.1021/ie070322c
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 6.17E10(1/s)/2.483E-9(mol/cm^2) = 2.48E19 cm^2/(mol*s)
+A = 6.17E10(cm^2/mol/s)/2.483E-9(mol/cm^2) = 2.48E19 cm^4/(mol^2*s)
 
 This is R43 in Table 1
 """,
@@ -1229,7 +1222,7 @@ This is R47 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.30E13(1/s)/2.483E-9(mol/cm^2) = 1.73E22 cm^2/(mol*s)
+# A = 4.30E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.73E22 (1/s)
 
 # This is R48 in Table 2
 # """,
@@ -1280,7 +1273,7 @@ This is R49 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 5.22E13(1/s)/2.483E-9(mol/cm^2) = 2.10E22 cm^2/(mol*s)
+# A = 5.22E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 2.10E22 (1/s)
 
 # This is R50 in Table 2
 # """,
@@ -1331,7 +1324,7 @@ This is R51 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.57E13(1/s)/2.483E-9(mol/cm^2) = 6.32E21 cm^2/(mol*s)
+# A = 1.57E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 6.32E21 (1/s)
 
 # This is R52 in Table 2
 # """,
@@ -1382,7 +1375,7 @@ This is R53 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.42E12(1/s)/2.483E-9(mol/cm^2) = 1.78E21 cm^2/(mol*s)
+# A = 4.42E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.78E21 (1/s)
 
 # This is R54 in Table 2
 # """,
@@ -2186,7 +2179,7 @@ This is R83 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 2.11E12(1/s)/2.483E-9(mol/cm^2) = 8.50E20 cm^2/(mol*s)
+# A = 2.11E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 8.50E20 (1/s)
 
 # This is R84 in Table 2
 # """,
@@ -2237,7 +2230,7 @@ This is R85 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.73E12(1/s)/2.483E-9(mol/cm^2) = 1.90E21 cm^2/(mol*s)
+# A = 4.73E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.90E21 (1/s)
 
 # This is R86 in Table 2
 # """,
@@ -2288,7 +2281,7 @@ This is R87 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 8.06E12(1/s)/2.483E-9(mol/cm^2) = 3.25E21 cm^2/(mol*s)
+# A = 8.06E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 3.25E21 (1/s)
 
 # This is R88 in Table 2
 # """,
@@ -2339,7 +2332,7 @@ This is R89 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 6.21E13(1/s)/2.483E-9(mol/cm^2) = 2.50E22 cm^2/(mol*s)
+# A = 6.21E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 2.50E22 (1/s)
 
 # This is R90 in Table 2
 # """,
@@ -2390,7 +2383,7 @@ This is R91 in Table 2
 # DOI: 10.1021/ie070322c
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.35E13(1/s)/2.483E-9(mol/cm^2) = 5.44E21 cm^2/(mol*s)
+# A = 1.35E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.44E21 (1/s)
 
 # This is R92 in Table 2
 # """,

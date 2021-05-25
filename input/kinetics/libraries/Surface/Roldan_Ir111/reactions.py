@@ -337,7 +337,7 @@ DOI: 10.1039/c9cp06525c
 
 This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
 to estimate a default(1E13) A factor.
-A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+A = 1E13(mol/cm^2/s)/2.587E-9(mol/cm^2) = 3.87E21 (1/s)
 Ea = 1.43eV = 137980.7J/mol
 
 This is R15 in Table 3

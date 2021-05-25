@@ -33,7 +33,7 @@ entry(
     index = 49,
     label = "NO_X <=> NO + Pt",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.19e+17,'1/s'), n=0, Ea=(154800,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.41e+16,'1/s'), n=0, Ea=(154800,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -45,7 +45,7 @@ Surface Morphology and Kinetics at Atmospheric Pressure."
 Krähnert, Ralph(2005) A Doctoral Thesis.
 http://dx.doi.org/10.14279/depositonce-1270
 
-A = k/exp(Ea/RT) = 1.24(mol/m^2/s)/exp(154800J/mol / 8.314J/molK / 298K) = 3.19E17 cm^2/mol/s
+A = k/exp(Ea/RT) = 1.24(1/s)/exp(154800J/mol / 8.314J/molK / 658K) = 2.41E16 (1/s)
 """,
     metal = "Pt",
     facet = "111",
