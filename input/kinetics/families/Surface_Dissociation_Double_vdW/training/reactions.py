@@ -179,3 +179,55 @@ This is R14 in Table 1
     facet = "111",
 )
 
+entry(
+    index = 40,
+    label = "X_4 + CO2* <=> O* + CO*",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(1.68e+19,'cm^2/(mol*s)'), n=0.177, Ea=(26.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_Double_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: CO2_X + X <=> CO_X + O_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 4.18E10(1/s)/2.483E-9(mol/cm^2) = 1.68E19 cm^2/(mol*s)
+
+This is R9 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 41,
+    label = "X_4 + H2N2X <=> HNX-2 + HNX",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(70437.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_Double_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: N2H2_X + X <=> NH_X + NH_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 0.73eV = 70437.7J/mol
+
+This is R14 in Table 3
+""",
+    metal = "Ir",
+    facet = "111",
+)
+

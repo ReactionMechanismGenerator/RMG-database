@@ -923,3 +923,409 @@ This is R9 in Table S2 and S4
     facet = "211",
 )
 
+entry(
+    index = 77,
+    label = "O* + H2O* <=> OH_2* + OH_4*",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(1.74e+19,'cm^2/(mol*s)'), n=0.082, Ea=(8.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: O_X + H2O_X <=> OH_X + OH_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 4.32E10(1/s)/2.483E-9(mol/cm^2) = 1.74E19 cm^2/(mol*s)
+
+This is R17 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 78,
+    label = "CH2X + H2O* <=> OH_2* + CH3X",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(3.3e+19,'cm^2/(mol*s)'), n=0.099, Ea=(14.1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: CH2_X + H2O_X <=> CH3_X + OH_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 8.19E10(1/s)/2.483E-9(mol/cm^2) = 3.30E19 cm^2/(mol*s)
+
+This is R69 in Table 2
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 79,
+    label = "CHX + H2O* <=> OH_2* + CH2X-2",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(7.29e+19,'cm^2/(mol*s)'), n=0.269, Ea=(34,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: CH_X + H2O_X <=> CH2_X + OH_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.81E11(1/s)/2.483E-9(mol/cm^2) = 7.29E19 cm^2/(mol*s)
+
+This is R71 in Table 2
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 80,
+    label = "CX + H2O* <=> OH_2* + CHX-2",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(4.19e+19,'cm^2/(mol*s)'), n=0.09, Ea=(15.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: C_X + H2O_X <=> CH_X + OH_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.04E11(1/s)/2.483E-9(mol/cm^2) = 4.19E19 cm^2/(mol*s)
+
+This is R73 in Table 2
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 81,
+    label = "CH2X + H2O* <=> OH_2* + CH3X",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(2.3e+19,'cm^2/(mol*s)'), n=-0.7208, Ea=(20.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Rh
+Original entry: CH2_X + H2O_X <=> CH3_X + OH_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 5.73E+10(1/s)/2.49E-9(mol/cm^2) = 2.30E+19 cm^2/(mol*s)
+
+This is R69 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 82,
+    label = "CHX + H2O* <=> OH_2* + CH2X-2",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(2.61e+20,'cm^2/(mol*s)'), n=-0.5033, Ea=(21.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Rh
+Original entry: CH_X + H2O_X <=> CH2_X + OH_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 6.49E+11(1/s)/2.49E-9(mol/cm^2) = 2.61E+20 cm^2/(mol*s)
+
+This is R71 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 83,
+    label = "CX + H2O* <=> OH_2* + CHX-2",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(3.91e+20,'cm^2/(mol*s)'), n=-0.3882, Ea=(17,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Rh
+Original entry: C_X + H2O_X <=> CH_X + OH_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 9.74E+11(1/s)/2.49E-9(mol/cm^2) = 3.91E+20 cm^2/(mol*s)
+
+This is R73 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 84,
+    label = "H2NX + H2NX-2 <=> H3NX + HNX",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.16e+20,'cm^2/(mol*s)'), n=0.667, Ea=(43420,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Cu111
+Original entry: NH2_X + NH2_X <=> NH_X + NH3_X
+"Micro-kinetic simulations of the catalytic decomposition 
+of hydrazine on the Cu(111) surface"
+Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
+DOI:10.1039/C6FD00186F
+
+This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
+A and n was calculated by numpy.linalg.lstsq from Table 1
+
+This is R36 in Table 1
+""",
+    metal = "Cu",
+    facet = "111",
+)
+
+entry(
+    index = 85,
+    label = "H3N2X + H2NX <=> H3NX + H2N2X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.02e+19,'cm^2/(mol*s)'), n=1.073, Ea=(51140,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Cu111
+Original entry: N2H3_X + NH2_X <=> NN=[Pt] + NH3_X
+"Micro-kinetic simulations of the catalytic decomposition 
+of hydrazine on the Cu(111) surface"
+Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
+DOI:10.1039/C6FD00186F
+
+This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
+A and n was calculated by numpy.linalg.lstsq from Table 1
+
+This is R42 in Table 1
+""",
+    metal = "Cu",
+    facet = "111",
+)
+
+entry(
+    index = 86,
+    label = "H2N2X2 + H2NX <=> H3NX + HN2X2",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.94e+20,'cm^2/(mol*s)'), n=0.577, Ea=(24122,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Cu111
+Original entry: [Pt]NN[Pt] + NH2_X <=> [Pt]NN=[Pt] + NH3_X
+"Micro-kinetic simulations of the catalytic decomposition 
+of hydrazine on the Cu(111) surface"
+Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
+DOI:10.1039/C6FD00186F
+
+This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
+A and n was calculated by numpy.linalg.lstsq from Table 1
+
+This is R44 in Table 1
+""",
+    metal = "Cu",
+    facet = "111",
+)
+
+entry(
+    index = 87,
+    label = "HN2X2-2 + H2NX <=> H3NX + N2X2",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.04e+19,'cm^2/(mol*s)'), n=0.86, Ea=(7719,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Cu111
+Original entry: [Pt]NN=[Pt] + NH2_X <=> [Pt]=NN=[Pt] + NH3_X
+"Micro-kinetic simulations of the catalytic decomposition 
+of hydrazine on the Cu(111) surface"
+Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
+DOI:10.1039/C6FD00186F
+
+This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
+A and n was calculated by numpy.linalg.lstsq from Table 1
+
+This is R48 in Table 1
+""",
+    metal = "Cu",
+    facet = "111",
+)
+
+entry(
+    index = 88,
+    label = "H2N2X2 + H2NX <=> H3NX + HN2X2",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(18333.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: [Pt]NN[Pt] + NH2_X <=> [Pt]NN=[Pt] + NH3_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 0.19eV = 18333.1J/mol
+
+This is R18 in Table 3
+""",
+    metal = "Ir",
+    facet = "111",
+)
+
+entry(
+    index = 89,
+    label = "H3N2X + H2NX <=> H3NX + H2N2X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(35701.3,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: N2H3_X + NH2_X <=> NN=[Pt] + NH3_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 0.37eV = 35701.3J/mol
+
+This is R19 in Table 3
+""",
+    metal = "Ir",
+    facet = "111",
+)
+
+entry(
+    index = 90,
+    label = "HN2X2-2 + H2NX <=> H3NX + N2X2",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(53069.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: [Pt]NN=[Pt] + NH2_X <=> N2_X + NH3_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 0.55eV = 53069.5J/mol
+
+This is R21 in Table 3
+""",
+    metal = "Ir",
+    facet = "111",
+)
+
+entry(
+    index = 91,
+    label = "H2NX + H2NX-2 <=> H3NX + HNX",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(32806.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: NH2_X + NH2_X <=> NH_X + NH3_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 0.34eV = 32806.6J/mol
+
+This is R25 in Table 3
+""",
+    metal = "Ir",
+    facet = "111",
+)
+
+entry(
+    index = 92,
+    label = "HNX-2 + H2NX <=> H3NX + NX",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(94560.2,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: NH_X + NH2_X <=> N_X + NH3_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 0.98eV = 94560.2J/mol
+
+This is R26 in Table 3
+""",
+    metal = "Ir",
+    facet = "111",
+)
+

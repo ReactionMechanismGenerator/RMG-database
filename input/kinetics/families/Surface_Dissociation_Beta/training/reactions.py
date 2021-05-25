@@ -55,3 +55,28 @@ Erxn = 0.09 eV
 """,
     metal = "Cu",
 )
+entry(
+    index = 30,
+    label = "Cu + H2N2X <=> HN2X + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.09e+19,'cm^2/(mol*s)'), n=1.002, Ea=(108069,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_Beta""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Cu111
+Original entry: NN=[Pt] + X <=> [Pt]N=N + H_X
+"Micro-kinetic simulations of the catalytic decomposition 
+of hydrazine on the Cu(111) surface"
+Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
+DOI:10.1039/C6FD00186F
+
+This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
+A and n was calculated by numpy.linalg.lstsq from Table 1
+
+This is R14 in Table 1
+""",
+    metal = "Cu",
+    facet = "111",
+)
+

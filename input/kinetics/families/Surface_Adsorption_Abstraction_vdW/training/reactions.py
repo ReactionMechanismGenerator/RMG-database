@@ -53,3 +53,29 @@ Erxn = -1.81 eV
 """,
     metal = "Cu",
 )
+entry(
+    index = 45,
+    label = "HOX + CO2X <=> CHO2X + OX",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(2.15e+19,'cm^2/(mol*s)'), n=0.097, Ea=(26.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: CO2_X + OH_X <=> COOH_X + O_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 5.35E10(1/s)/2.483E-9(mol/cm^2) = 2.15E19 cm^2/(mol*s)
+
+This is R35 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+

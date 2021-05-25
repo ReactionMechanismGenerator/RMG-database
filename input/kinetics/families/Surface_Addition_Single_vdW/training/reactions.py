@@ -221,3 +221,105 @@ Erxn = 0.01 eV
     metal = "Cu",
 )
 
+entry(
+    index = 49,
+    label = "X_5 + HCOO* <=> CO2* + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.27e+19,'cm^2/(mol*s)'), n=0.549, Ea=(1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Addition_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: COOH_X + X <=> CO2_X + H_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.06E11(1/s)/2.483E-9(mol/cm^2) = 4.27E19 cm^2/(mol*s)
+
+This is R31 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 50,
+    label = "X_5 + CH3O_1* <=> CH2O* + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(5.03e+19,'cm^2/(mol*s)'), n=0.192, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Addition_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: CH3O_X + X <=> CH2O_X + H_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.25E11(1/s)/2.483E-9(mol/cm^2) = 5.03E19 cm^2/(mol*s)
+
+This is R95 in Table 2
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 51,
+    label = "X_5 + CH2OH* <=> CH2O_2* + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.59e+19,'cm^2/(mol*s)'), n=-0.104, Ea=(7.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Addition_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: CH2OH_X + X <=> CH2O_X + H_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.14E11(1/s)/2.483E-9(mol/cm^2) = 4.59E19 cm^2/(mol*s)
+
+This is R103 in Table 2
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 52,
+    label = "X_5 + HCOO* <=> CO2* + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.02e+18,'cm^2/(mol*s)'), n=-0.4424, Ea=(7.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Addition_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Rh
+Original entry: COOH_X + X <=> CO2_X + H_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 1.00E+10(1/s)/2.49E-9(mol/cm^2) = 4.02E+18 cm^2/(mol*s)
+
+This is R33 in Table 4
+""",
+    metal = "Rh",
+)
+
