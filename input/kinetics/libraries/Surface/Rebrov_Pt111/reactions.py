@@ -344,14 +344,14 @@ entry(
        Tmin = (200, 'K'),
        Tmax = (3000, 'K'),
    ),
-   shortDesc = u"""Surface_Adsorption""",
+   shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E13(1/s)/2.483E-9(mol/cm^2) = 4.03E21 cm^2/(mol*s)
+A = 1E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 4.03E21 (1/s)
 
 This is R19 in Table 1 
 """,
