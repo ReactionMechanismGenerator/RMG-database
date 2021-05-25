@@ -23,3 +23,89 @@ NO2X
 3    N u0 p1 c0 {1,S} {2,D}
 4 *2 X u0 p0 c0 {1,S}
 
+HO
+multiplicity 2
+1 *1 O u1 p2 c0 {2,S}
+2    H u0 p0 c0 {1,S}
+
+HOX
+1 *1 O u0 p2 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3 *2 X u0 p0 c0 {1,S}
+
+H
+multiplicity 2
+1 *1 H u1 p0 c0
+
+HX
+1 *1 H u0 p0 c0 {2,S}
+2 *2 X u0 p0 c0 {1,S}
+
+CH
+multiplicity 2
+1 *1 C u1 p1 c0 {2,S}
+2    H u0 p0 c0 {1,S}
+
+CHX
+1 *1 C u0 p1 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3 *2 X u0 p0 c0 {1,S}
+
+CH3
+multiplicity 2
+1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+
+CH3X
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5 *2 X u0 p0 c0 {1,S}
+
+CH3O
+multiplicity 2
+1 *1 O u1 p2 c0 {2,S}
+2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+
+CH3OX
+1 *1 O u0 p2 c0 {2,S} {6,S}
+2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+6 *2 X u0 p0 c0 {1,S}
+
+CHO
+multiplicity 2
+1    O u0 p2 c0 {2,D}
+2 *1 C u1 p0 c0 {1,D} {3,S}
+3    H u0 p0 c0 {2,S}
+
+CHOX
+1    O u0 p2 c0 {2,D}
+2 *1 C u0 p0 c0 {1,D} {3,S} {4,S}
+3    H u0 p0 c0 {2,S}
+4 *2 X u0 p0 c0 {2,S}
+
+CH3O-2
+multiplicity 2
+1    O u0 p2 c0 {2,S} {5,S}
+2 *1 C u1 p0 c0 {1,S} {3,S} {4,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {1,S}
+
+CH3OX-2
+1    O u0 p2 c0 {2,S} {5,S}
+2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {1,S}
+6 *2 X u0 p0 c0 {2,S}
+
