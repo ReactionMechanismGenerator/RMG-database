@@ -1381,7 +1381,7 @@ A factor from paper / surface site density of Pt
 
 entry(
     index = 8,
-    label = "NH2p_Pt + OH_2*  <=> HNX + H2O*",
+    label = "H2NX-2 + OH_2*  <=> HNX + H2O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
         A = (1.36931e+17, 'm^2/(mol*s)'),
