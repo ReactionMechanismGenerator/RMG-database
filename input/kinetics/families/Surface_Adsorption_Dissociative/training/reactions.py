@@ -10,7 +10,7 @@ training set for generating rate rules to populate this kinetics family.
 
 entry(
    index = 1,
-   label = "H2 + Ni_3 + Ni_4 <=> HX_3 + HX_4",
+   label = "H2 + X_3 + X_4 <=> HX_3 + HX_4",
    degeneracy = 2,
    kinetics = StickingCoefficient(
        A = 3.2E-2,
@@ -31,7 +31,7 @@ Catalysts, 2015, 5, 871-904
 
 entry(
    index = 2,
-   label = "H2 + Ni_3 + Ni_4 <=> HX_3 + HX_4",
+   label = "H2 + X_3 + X_4 <=> HX_3 + HX_4",
    degeneracy = 2,
    kinetics = StickingCoefficient(
        A = 0.046,
@@ -54,7 +54,7 @@ entry(
 
 # entry(
 #    index = 6,
-#    label = "HX_4 + HOX_1 <=> H2O + Ni_3 + Ni_4",
+#    label = "HX_4 + HOX_1 <=> H2O + X_3 + Ni_4",
 #    degeneracy = 1,
 #    kinetics = SurfaceArrhenius(
 #        A = (4.02e14, 'm^2/(mol*s)'),
@@ -76,7 +76,7 @@ entry(
 # )
 entry(
     index = 3,
-    label = "Ni_3 + Ni_4 + H2 <=> HX_3 + HX_4",
+    label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.129, n=0.858, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -99,7 +99,7 @@ This is R11 in Table 1
 
 entry(
     index = 4,
-    label = "Ni_3 + Ni_4 + CH4 <=> CH3X + HX_4",
+    label = "X_3 + X_4 + CH4 <=> CH3X + HX_4",
     degeneracy = 2.0,
     kinetics = StickingCoefficient(A=0.116, n=0.154, Ea=(9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -122,7 +122,7 @@ This is R55 in Table 2
 
 entry(
     index = 5,
-    label = "Ni_3 + Ni_4 + H2 <=> HX_3 + HX_4",
+    label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.87, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -144,7 +144,7 @@ This is R1 in Table 2 (set A)
 
 entry(
     index = 6,
-    label = "Ni_3 + Ni_4 + H2 <=> HX_3 + HX_4",
+    label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.773, n=0.9387, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -165,7 +165,7 @@ This is R1 in Table 4
 
 entry(
     index = 7,
-    label = "Ni_3 + Ni_4 + CH4 <=> CH3X + HX_4",
+    label = "X_3 + X_4 + CH4 <=> CH3X + HX_4",
     degeneracy = 2.0,
     kinetics = StickingCoefficient(A=0.572, n=0.7883, Ea=(14.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -186,7 +186,7 @@ This is R55 in Table 4
 
 entry(
     index = 8,
-    label = "Ni_3 + Ni_4 + H2 <=> HX_3 + HX_4",
+    label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0236, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
