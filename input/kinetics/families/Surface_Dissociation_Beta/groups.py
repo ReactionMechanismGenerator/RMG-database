@@ -35,7 +35,7 @@ entry(
     label = "Adsorbate1",
     group =
 """
-1 *1 Xo   ux p0 c0 {2,[S,D]}
+1 *1 Xo  ux p0 c0 {2,[S,D]}
 2 *2 R!H ux px cx {1,[S,D]} {3,[D,T]}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
@@ -48,7 +48,7 @@ entry(
     group =
 """
 1 *5 Xo ux px cx {2,S}
-2 *4 R ux px cx {1,S}
+2 *4 R  ux px cx {1,S}
 """,
     kinetics = None,
 )
@@ -58,7 +58,7 @@ entry(
     label = "*C",
     group =
 """
-1 *1 Xo   ux p0 c0 {2,[S,D]}
+1 *1 Xo  ux p0 c0 {2,[S,D]}
 2 *2 C   ux px cx {1,[S,D]} {3,[D,T]}
 3 *3 R!H ux px cx {2,[D,T]}
 """,
@@ -70,7 +70,7 @@ entry(
     label = "*-C=",
     group =
 """
-1 *1 Xo   ux p0 c0 {2,S}
+1 *1 Xo  ux p0 c0 {2,S}
 2 *2 C   u0 p0 c0 {1,S} {3,D}
 3 *3 R!H ux px cx {2,D}
 """,
@@ -84,8 +84,8 @@ entry(
     group =
 """
 1 *1 Xo ux p0 c0 {2,S}
-2 *2 C u0 p0 c0 {1,S} {3,D}
-3 *3 O ux px cx {2,D}
+2 *2 C  u0 p0 c0 {1,S} {3,D}
+3 *3 O  ux px cx {2,D}
 """,
     kinetics = None,
 )
@@ -96,8 +96,8 @@ entry(
     group =
 """
 1 *1 Xo ux p0 c0 {2,S}
-2 *2 C u0 p0 c0 {1,S} {3,D}
-3 *3 C u0 p0 c0 {2,D}
+2 *2 C  u0 p0 c0 {1,S} {3,D}
+3 *3 C  u0 p0 c0 {2,D}
 """,
     kinetics = None,
 )
@@ -108,8 +108,8 @@ entry(
     group =
 """
 1 *1 Xo ux p0 c0 {2,S}
-2 *2 C u0 p0 c0 {1,S} {3,T}
-3 *3 C ux px cx {2,T}
+2 *2 C  u0 p0 c0 {1,S} {3,T}
+3 *3 C  ux px cx {2,T}
 """,
     kinetics = None,
 )
@@ -120,7 +120,7 @@ entry(
     group =
 """
 1 *5 Xo u0 p0 c0 {2,S}
-2 *4 H u0 p0 c0 {1,S}
+2 *4 H  u0 p0 c0 {1,S}
 """,
     kinetics = None,
 )
@@ -131,7 +131,7 @@ entry(
     group =
 """
 1 *5 Xo u0 p0 c0 {2,S}
-2 *4 O u0 p2 c0 {1,S}
+2 *4 O  u0 p2 c0 {1,S}
 """,
     kinetics = None,
 )
@@ -142,7 +142,7 @@ entry(
     group =
 """
 1 *5 Xo u0 p0 c0 {2,S}
-2 *4 C u0 p0 c0 {1,S}
+2 *4 C  u0 p0 c0 {1,S}
 """,
     kinetics = None,
 )
@@ -195,6 +195,44 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 15,
+    label = "*N",
+    group =
+"""
+1 *1 Xo  ux p0 c0 {2,S}
+2 *2 N   ux px cx {1,S} {3,D}
+3 *3 R!H ux px cx {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 16,
+    label = "*-N=N",
+    group =
+"""
+1 *1 Xo ux p0 c0 {2,S}
+2 *2 N  ux px cx {1,S} {3,D}
+3 *3 N  ux px cx {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 17,
+    label = "*-N=NH",
+    group =
+"""
+1 *1 Xo u0 p0 c0 {2,S}
+2 *2 N  u0 p1 c0 {1,S} {3,D}
+3 *3 N  u0 p1 c0 {2,D} {4,S}
+4    H  u0 p0 c0 {3,S}
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: Adsorbate1
@@ -207,6 +245,9 @@ L1: Adsorbate1
         L3: *=C
             L4: *=C=C
             L4: *=C=O
+    L2: *N
+        L3: *-N=N
+            L4: *-N=NH
 L1: Adsorbate2
     L2: H-*
     L2: O-*
