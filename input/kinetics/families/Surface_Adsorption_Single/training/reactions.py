@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 48,
-    label = "NO + Pt <=> NO_X",
+    label = "NO + X <=> NO_X",
     degeneracy = 1,
     kinetics = StickingCoefficient(
         A = 0.85,
@@ -32,7 +32,7 @@ entry(
 
 entry(
     index = 49,
-    label = "NO_X <=> NO + Pt",
+    label = "NO_X <=> NO + X",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(2.41e+16,'1/s'), n=0, Ea=(154800,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -54,7 +54,7 @@ A = k/exp(Ea/RT) = 1.24(1/s)/exp(154800J/mol / 8.314J/molK / 658K) = 2.41E16 (1/
 
 entry(
     index = 50,
-    label = "Pt + NO <=> NO_X",
+    label = "X + NO <=> NO_X",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=1.4917e-06, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -76,7 +76,7 @@ A = ((2.78E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 30 g/mol * molar ga
 
 entry(
     index = 51,
-    label = "Pt + NO2 <=> NO2X",
+    label = "X + NO2 <=> NO2X",
     degeneracy = 2.0,
     kinetics = StickingCoefficient(A=1.4884e-06, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -120,7 +120,7 @@ A = ((2.24E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 46 g/mol * molar ga
 
 entry(
     index = 52,
-    label = "NO_X <=> NO + Pt",
+    label = "NO_X <=> NO + X",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4.03e+24,'1/s'), n=0, Ea=(140000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -144,7 +144,7 @@ This is R15 in Table 1
 
 entry(
     index = 53,
-    label = "Pt + NO <=> NO_X",
+    label = "X + NO <=> NO_X",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.1556, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -167,7 +167,7 @@ This is R7 in Table 1
 
 entry(
     index = 54,
-    label = "NO2X <=> NO2 + Pt",
+    label = "NO2X <=> NO2 + X",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(5.24e+22,'1/s'), n=0, Ea=(100000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -190,7 +190,7 @@ This is R13 in Table 1
 
 entry(
     index = 55,
-    label = "NO_X <=> NO + Pt",
+    label = "NO_X <=> NO + X",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.05e+26,'1/s'), n=0, Ea=(184296,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -215,7 +215,7 @@ This is R13 in Table S2 and S4
 
 entry(
     index = 56,
-    label = "NO_X <=> NO + Pt",
+    label = "NO_X <=> NO + X",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4.94e+25,'1/s'), n=0, Ea=(224822,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -240,7 +240,7 @@ This is R13 in Table S2 and S4
 
 entry(
     index = 57,
-    label = "Pt + HO <=> HOX",
+    label = "X + HO <=> HOX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.999, n=2, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -263,7 +263,7 @@ This is R19 in Table 1
 
 entry(
     index = 58,
-    label = "Pt + H <=> HX",
+    label = "X + H <=> HX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.384, n=1.832, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -286,7 +286,7 @@ This is R23 in Table 1
 
 entry(
     index = 59,
-    label = "Pt + CH <=> CHX",
+    label = "X + CH <=> CHX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0135, n=0.051, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -309,7 +309,7 @@ This is R49 in Table 2
 
 entry(
     index = 60,
-    label = "Pt + CH3 <=> CH3X",
+    label = "X + CH3 <=> CH3X",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.16, n=-0.099, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -332,7 +332,7 @@ This is R53 in Table 2
 
 entry(
     index = 61,
-    label = "Pt + CH3O <=> CH3OX",
+    label = "X + CH3O <=> CH3OX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.149, n=0.054, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -355,7 +355,7 @@ This is R85 in Table 2
 
 entry(
     index = 62,
-    label = "Pt + CHO <=> CHOX",
+    label = "X + CHO <=> CHOX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0114, n=0.096, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -378,7 +378,7 @@ This is R89 in Table 2
 
 entry(
     index = 63,
-    label = "Pt + CH3O-2 <=> CH3OX-2",
+    label = "X + CH3O-2 <=> CH3OX-2",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0526, n=0.233, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
