@@ -50,6 +50,67 @@ entry(
 
 entry(
     index = 3,
+    label = "H",
+    group =
+"""
+multiplicity [2]
+1 *1 H u1 p0 c0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
+    label = "C",
+    group =
+"""
+multiplicity [2]
+1 *1 C u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "C-H",
+    group =
+"""
+multiplicity [2]
+1 *1 C u1 p1 cx {2,S}
+2    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "CH=O",
+    group =
+"""
+multiplicity [2]
+1    O u0 p2 cx {2,D}
+2 *1 C u1 p0 cx {1,D} {3,S}
+3    H u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
+    label = "CH2-H",
+    group =
+"""
+multiplicity [2]
+1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
     label = "N",
     group =
 """
@@ -60,7 +121,7 @@ multiplicity [2]
 )
 
 entry(
-    index = 4,
+    index = 9,
     label = "N=O",
     group =
 """
@@ -71,11 +132,97 @@ multiplicity [2]
     kinetics = None,
 )
 
+entry(
+    index = 10,
+    label = "O",
+    group =
+"""
+multiplicity [2]
+1 *1 O u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "O-H",
+    group =
+"""
+multiplicity [2]
+1 *1 O u1 p2 c0 {2,S}
+2    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 12,
+    label = "O-C",
+    group =
+"""
+multiplicity [2]
+1 *1 O u1 p2 cx {2,S}
+2    C u0 p0 cx {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "O-CH3",
+    group =
+"""
+multiplicity [2]
+1 *1 O u1 p2 c0 {2,S}
+2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "O-N",
+    group =
+"""
+multiplicity [2]
+1 *1 O u1 p2 cx {2,S}
+2    N u0 p1 cx {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 15,
+    label = "O-N=O",
+    group =
+"""
+multiplicity [2]
+1 *1 O u1 p2 cx {3,S}
+2    O u0 p2 cx {3,D}
+3    N u0 p1 cx {1,S} {2,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Adsorbate
+    L2: H
+    L2: C
+        L3: C-H
+        L3: CH=O
+        L3: CH2-H 
     L2: N
         L3: N=O
+    L2: O
+        L3: O-H
+        L3: O-C
+            L4: O-CH3
+        L3: O-N
+            L4: O-N=O
 
 L1: VacantSite
 """
