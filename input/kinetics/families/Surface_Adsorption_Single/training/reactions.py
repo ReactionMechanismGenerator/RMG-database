@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 48,
+    index = 1,
     label = "NO + X <=> NO_X",
     degeneracy = 1,
     kinetics = StickingCoefficient(
@@ -31,10 +31,10 @@ entry(
 )
 
 entry(
-    index = 49,
+    index = 2,
     label = "NO_X <=> NO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.41e+16,'1/s'), n=0, Ea=(154800,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.41e16,'1/s'), n=0, Ea=(154800,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -53,7 +53,7 @@ A = k/exp(Ea/RT) = 1.24(1/s)/exp(154800J/mol / 8.314J/molK / 658K) = 2.41E16 (1/
 )
 
 entry(
-    index = 50,
+    index = 3,
     label = "X + NO <=> NO_X",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=1.4917e-06, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -69,17 +69,20 @@ https://doi.org/10.1116/1.4903225
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = ((2.78E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 30 g/mol * molar gas constant * 298 kelvin)
+
+This is R3 in Table 1
 """,
     metal = "Pt",
     facet = "111",
 )
 
 entry(
-    index = 51,
+    index = 4,
     label = "X + NO2 <=> NO2X",
     degeneracy = 2.0,
     kinetics = StickingCoefficient(A=1.4884e-06, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Arevalo_Pt111
@@ -90,6 +93,8 @@ https://doi.org/10.1116/1.4903225
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = ((2.24E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 46 g/mol * molar gas constant * 298 kelvin)
+
+This is R7 in Table 1
 """,
     metal = "Pt",
     facet = "111",
@@ -119,10 +124,10 @@ A = ((2.24E2 /bar) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 46 g/mol * molar ga
 # )
 
 entry(
-    index = 52,
+    index = 5,
     label = "NO_X <=> NO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.03e+24,'1/s'), n=0, Ea=(140000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.03e24,'1/s'), n=0, Ea=(140000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -143,7 +148,7 @@ This is R15 in Table 1
 )
 
 entry(
-    index = 53,
+    index = 6,
     label = "X + NO <=> NO_X",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.1556, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -166,10 +171,10 @@ This is R7 in Table 1
 )
 
 entry(
-    index = 54,
+    index = 7,
     label = "NO2X <=> NO2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(5.24e+22,'1/s'), n=0, Ea=(100000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(5.24e22,'1/s'), n=0, Ea=(100000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -189,10 +194,10 @@ This is R13 in Table 1
 )
 
 entry(
-    index = 55,
+    index = 8,
     label = "NO_X <=> NO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.05e+26,'1/s'), n=0, Ea=(184296,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.05e26,'1/s'), n=0, Ea=(184296,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -214,10 +219,10 @@ This is R13 in Table S2 and S4
 )
 
 entry(
-    index = 56,
+    index = 9,
     label = "NO_X <=> NO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.94e+25,'1/s'), n=0, Ea=(224822,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.94e25,'1/s'), n=0, Ea=(224822,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -239,7 +244,7 @@ This is R13 in Table S2 and S4
 )
 
 entry(
-    index = 57,
+    index = 10,
     label = "X + HO <=> HOX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.999, n=2, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -262,7 +267,7 @@ This is R19 in Table 1
 )
 
 entry(
-    index = 58,
+    index = 11,
     label = "X + H <=> HX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.384, n=1.832, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -285,7 +290,7 @@ This is R23 in Table 1
 )
 
 entry(
-    index = 59,
+    index = 12,
     label = "X + CH <=> CHX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0135, n=0.051, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -308,7 +313,7 @@ This is R49 in Table 2
 )
 
 entry(
-    index = 60,
+    index = 13,
     label = "X + CH3 <=> CH3X",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.16, n=-0.099, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -331,7 +336,7 @@ This is R53 in Table 2
 )
 
 entry(
-    index = 61,
+    index = 14,
     label = "X + CH3O <=> CH3OX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.149, n=0.054, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -354,7 +359,7 @@ This is R85 in Table 2
 )
 
 entry(
-    index = 62,
+    index = 15,
     label = "X + CHO <=> CHOX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0114, n=0.096, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -377,7 +382,7 @@ This is R89 in Table 2
 )
 
 entry(
-    index = 63,
+    index = 16,
     label = "X + CH3O-2 <=> CH3OX-2",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0526, n=0.233, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -394,6 +399,29 @@ Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 DOI: 10.1021/ie070322c
 
 This is R91 in Table 2
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 17,
+    label = "X + CHO2 <=> CHO2X",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.0634, n=-0.089, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: COOH + X <=> COOH_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This is R27 in Table 1
 """,
     metal = "Pt",
     facet = "111",

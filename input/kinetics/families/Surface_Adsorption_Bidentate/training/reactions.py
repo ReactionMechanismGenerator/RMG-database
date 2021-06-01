@@ -34,7 +34,7 @@ entry(
     index = 2,
     label = "N2X2 <=> N2 + X + X-2",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.68e+16,'1/s'), n=0, Ea=(10807,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.68e16,'1/s'), n=0, Ea=(10807,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Bidentate""",
     longDesc = 

@@ -9,10 +9,10 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 5,
+    index = 1,
     label = "H2O + X <=> H2OX",
     kinetics = StickingCoefficient(
-        A = 1.0E-1,
+        A = 1.0e-1,
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -29,10 +29,10 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 2,
     label = "CO2 + X <=> CO2X",
     kinetics = StickingCoefficient(
-        A = 7.0E-6,
+        A = 7.0e-6,
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -49,10 +49,10 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 3,
     label = "CH4 + X <=> CH4X",
     kinetics = StickingCoefficient(
-        A = 8.0E-3,
+        A = 8.0e-3,
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -69,10 +69,10 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 4,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.48e+09,'1/s'), n=0, Ea=(60900,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.48e09,'1/s'), n=0, Ea=(60900,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -91,10 +91,10 @@ A = k/exp(Ea/RT) = 2.17(1/s)/exp(60900J/mol / 8.314J/molK / 658K) = 1.48E09 (1/s
 )
 
 entry(
-    index = 13,
+    index = 5,
     label = "X + N2 <=> N2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.464e+21,'cm^3/(mol*s)'), n=0, Ea=(4000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.464e21,'cm^3/(mol*s)'), n=0, Ea=(4000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """N2 Surface_Adsorption_vdW""",
     longDesc = 
@@ -113,10 +113,10 @@ A (at 300K from p.62)= 8.6E12(cm/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^3/(mol*s)
 )
 
 entry(
-    index = 14,
+    index = 6,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.03e+17,'1/s'), n=0, Ea=(75200,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.03e17,'1/s'), n=0, Ea=(75200,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -137,10 +137,10 @@ This is R2 in Table 1
 )
 
 entry(
-    index = 15,
+    index = 7,
     label = "H2OX <=> H2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.03e+21,'1/s'), n=0, Ea=(40300,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.03e21,'1/s'), n=0, Ea=(40300,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -161,7 +161,7 @@ This is R19 in Table 1
 )
 
 entry(
-    index = 16,
+    index = 8,
     label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.00768, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -184,12 +184,12 @@ This is R1 in Table 1
 )
 
 entry(
-    index = 17,
+    index = 9,
     label = "H2OX <=> H2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.38e+24,'1/s'), n=0, Ea=(18333.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.38e24,'1/s'), n=0, Ea=(18333.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption""",
+    shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Schneider_Pt111
@@ -209,12 +209,12 @@ This is R10 in Table S2 and S4
 )
 
 entry(
-    index = 18,
+    index = 10,
     label = "N2OX <=> N2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(5.64e+24,'1/s'), n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(5.64e24,'1/s'), n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption_Double/Surface_Adsorption_vdW""",
+    shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Schneider_Pt111
@@ -233,12 +233,12 @@ This is R15 in Table S2 and S4
 )
 
 entry(
-    index = 19,
+    index = 11,
     label = "H2OX <=> H2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.4e+24,'1/s'), n=0, Ea=(24122.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.4e24,'1/s'), n=0, Ea=(24122.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption""",
+    shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Schneider_Pt211
@@ -258,12 +258,12 @@ This is R10 in Table S2 and S4
 )
 
 entry(
-    index = 20,
+    index = 12,
     label = "N2OX <=> N2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(5.69e+25,'1/s'), n=0, Ea=(9649,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(5.69e25,'1/s'), n=0, Ea=(9649,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption_Double/Surface_Adsorption_vdW""",
+    shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Schneider_Pt211
@@ -283,7 +283,7 @@ This is R15 in Table S2 and S4
 )
 
 entry(
-    index = 21,
+    index = 13,
     label = "X + CO2-2 <=> CO2X-2",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.195, n=0.25, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -306,7 +306,7 @@ This is R7 in Table 1
 )
 
 entry(
-    index = 22,
+    index = 14,
     label = "X + H2O <=> H2OX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.108, n=1.162, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -329,7 +329,7 @@ This is R21 in Table 1
 )
 
 entry(
-    index = 23,
+    index = 15,
     label = "X + CH4O <=> CH4OX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.334, n=0.258, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -352,7 +352,7 @@ This is R83 in Table 2
 )
 
 entry(
-    index = 24,
+    index = 16,
     label = "X + CH2O <=> CH2OX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0877, n=0.098, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -375,7 +375,7 @@ This is R87 in Table 2
 )
 
 entry(
-    index = 25,
+    index = 17,
     label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.00015, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -397,12 +397,12 @@ This is R11 in Table 2 (set A)
 )
 
 entry(
-    index = 26,
+    index = 18,
     label = "X + H2O <=> H2OX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0772, n=1.4067, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption""",
+    shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Vlachos_Rh
@@ -418,7 +418,7 @@ This is R13 in Table 4
 )
 
 entry(
-    index = 27,
+    index = 19,
     label = "X + CO2-2 <=> CO2X-2",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.367, n=-2.3294, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -439,7 +439,7 @@ This is R21 in Table 4
 )
 
 entry(
-    index = 28,
+    index = 20,
     label = "X + H4N2 <=> H4N2X",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=1.17e-06, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -461,7 +461,7 @@ This is R0 in Table 2 at T=300K
 )
 
 entry(
-    index = 29,
+    index = 21,
     label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.000188, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -483,7 +483,7 @@ This is R3 in Table 2 at T=300K
 )
 
 entry(
-    index = 30,
+    index = 22,
     label = "X + N2 <=> N2X",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=5.5e-05, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -505,10 +505,10 @@ This is R5 in Table 2 at T=300K
 )
 
 entry(
-    index = 31,
+    index = 23,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.68e+16,'1/s'), n=0, Ea=(88574.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.68e16,'1/s'), n=0, Ea=(88574.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -531,10 +531,10 @@ This is D1 in Table 3
 )
 
 entry(
-    index = 32,
+    index = 24,
     label = "H2X <=> H2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.69e+16,'1/s'), n=0, Ea=(30972.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.69e16,'1/s'), n=0, Ea=(30972.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """H2 Surface_Adsorption_vdW""",
     longDesc = 
@@ -557,10 +557,10 @@ This is D3 in Table 3
 )
 
 entry(
-    index = 33,
+    index = 25,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.9e+16,'1/s'), n=0, Ea=(72149.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.9e16,'1/s'), n=0, Ea=(72149.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -583,12 +583,12 @@ This is D1 in Table 3
 )
 
 entry(
-    index = 34,
+    index = 26,
     label = "X + N2 <=> N2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.9e+16,'cm^3/(mol*s)'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.9e16,'cm^3/(mol*s)'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption_Bidentate""",
+    shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Roldan_Ru0001
@@ -609,10 +609,10 @@ This is A2 in Table 3
 )
 
 entry(
-    index = 35,
+    index = 27,
     label = "H2X <=> H2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.9e+16,'1/s'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.9e16,'1/s'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """H2 Surface_Adsorption_vdW""",
     longDesc = 

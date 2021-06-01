@@ -473,7 +473,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = u"""
 "Micro-kinetic simulations of the catalytic decomposition 
 of hydrazine on the Cu(111) surface"
