@@ -13,7 +13,7 @@ entry(
     label = "OCX_3 + HOX_5 <=> HOCXO_1 + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A=(4.02E14, 'm^2/(mol*s)'),
+        A=(4.02e14, 'm^2/(mol*s)'),
         n = 0.0,
         Ea=(11.5, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -30,11 +30,11 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 2,
     label = "HOCXO_1 + X_4 <=> OCX_3 + HOX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A=(1.46E20, 'm^2/(mol*s)'),
+        A=(1.46e20, 'm^2/(mol*s)'),
         n = -0.213,
         Ea=(54300.0, 'J/mol'),
         Tmin = (298, 'K'),
@@ -45,13 +45,13 @@ entry(
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
-Catalysts, 2015, 5, 871-904. Reaction R4
-""",
+Catalysts, 2015, 5, 871-904. Reaction R44
+""", #This is Reaction R44
     metal = 'Ni',
 )
 
 entry(
-    index = 10,
+    index = 3,
     label = "OCX_3 + HOX_5 <=> HOCXO_1 + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -68,13 +68,13 @@ Reaction 10 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-4.667E11 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.586e16 m^2/(mol*s)
-""",
+4.667E11 1/s / 2.943e‐5 mol/m^2 = 1.586e16 m^2/(mol*s)
+""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
     metal = "Cu",
 )
 
 entry(
-    index = 9,
+    index = 4,
     label = "NH2_X + X_4 <=> NHX_1 + HX_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -167,11 +167,11 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 6,
     label = "CH2X_3 + HX_5 <=> CH3X_1 + X_4",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
-        A=(3.09E19, 'm^2/(mol*s)'),
+        A=(3.09e19, 'm^2/(mol*s)'),
         n = -0.087,
         Ea=(57200.0, 'J/mol'),
         Tmin = (298, 'K'),
@@ -189,11 +189,11 @@ Catalysts, 2015, 5, 871-904. Reaction R16
 
 
 entry(
-    index = 18,
+    index = 7,
     label = "CHX_3 + HX_5 <=> CH2X_1 + X_4",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A=(9.77E20, 'm^2/(mol*s)'),
+        A=(9.77e20, 'm^2/(mol*s)'),
         n = -0.087,
         Ea=(81000.0, 'J/mol'),
         Tmin = (298, 'K'),
@@ -209,9 +209,9 @@ Catalysts, 2015, 5, 871-904. Reaction R18
     metal = "Ni",
 )
 
-#Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R20.
+#Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R9.
 #entry(
-#    index = 19,
+#    index = 8,
 #    label = "CHX_1 + X_4 <=> CX_3 + HX_5",
 #    degeneracy = 1,
 #    kinetics = SurfaceArrhenius(
@@ -232,7 +232,7 @@ Catalysts, 2015, 5, 871-904. Reaction R18
 #)
 
 entry(
-    index = 20,
+    index = 9,
     label = "CX_3 + HX_5 <=> CHX_1 + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -253,7 +253,7 @@ Catalysts, 2015, 5, 871-904. Reaction R20
 )
 
 entry(
-    index = 28,
+    index = 10,
     label = "HCOO* + X_4 <=> HCO* + OX_3",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -270,13 +270,13 @@ Reaction 28 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-2.570E12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 8.733e16 m^2/(mol*s)
-""",
+2.570E12 1/s / 2.943e‐5 mol/m^2 = 8.733e16 m^2/(mol*s)
+""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
     metal = "Cu",
 )
 
 entry(
-    index = 31,
+    index = 11,
     label = "HCOH* + HX_5 <=> CH2OH* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -293,13 +293,13 @@ Reaction 32 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-3.698E12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.257e17 m^2/(mol*s)
-""",
+3.698E12 1/s / 2.943e‐5 mol/m^2 = 1.257e17 m^2/(mol*s)
+""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
     metal = "Cu",
 )
 
 entry(
-    index = 32,
+    index = 12,
     label = "HOX_1 + X_4 <=> OX_3 + HX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -320,7 +320,7 @@ Catalysts, 2015, 5, 871-904. Reaction R32
 )
 
 entry(
-    index = 15,
+    index = 13,
     label = "HOX_1 + X_4 <=> OX_3 + HX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -337,13 +337,13 @@ Reaction 15 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-2.193E13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 7.452e17 m^2/(mol*s)
-""",
+2.193E13 1/s / 2.943e‐5 mol/m^2 = 7.452e17 m^2/(mol*s)
+""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
     metal = "Cu",
 )
 
 entry(
-    index = 36,
+    index = 14,
     label = "CH3O2* + X_4 <=> CH2OH*_2 + OX_3",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -360,13 +360,13 @@ Reaction 36 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-5.485E13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.864e18 m^2/(mol*s)
-""",
+5.485E13 1/s / 2.943e‐5 mol/m^2 = 1.864e18 m^2/(mol*s)
+""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
     metal = "Cu",
 )
 
 entry(
-    index = 48,
+    index = 15,
     label = "CXHO_1 + X_4 <=> OCX_3 + HX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -381,13 +381,13 @@ entry(
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
-Catalysts, 2015, 5, 871-904. Reaction R8
-""",
+Catalysts, 2015, 5, 871-904. Reaction R48
+""", #This is Reaction R48 not R8
     metal = "Ni",
 )
 
 entry(
-    index = 26,
+    index = 16,
     label = "OCX_3 + HX_5 <=> CXHO_1 + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -404,16 +404,16 @@ Reaction 26 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-9.240E12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 3.140e17 m^2/(mol*s)
-""",
+9.240E12 1/s / 2.943e‐5 mol/m^2 = 3.140e17 m^2/(mol*s)
+""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
     metal = "Cu",
 )
 
 entry(
-    index = 49,
+    index = 17,
     label = "NOX + OX <=> NO2X + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.776e+22,'cm^2/(mol*s)'), n=0, Ea=(115788,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.776e22,'cm^2/(mol*s)'), n=0, Ea=(115788,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -427,16 +427,18 @@ https://doi.org/10.1116/1.4903225
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A (at 300K) = 4.41E13(1/s)/2.483E-9(mol/cm^2) = 1.776E22 cm^2/(mol*s)
 Ea = 1.2eV * 96490J/eV mol = 115788J/mol
+
+This is R5 in Table 1
 """,
     metal = "Pt",
     facet = "111",
 )
 
 entry(
-    index = 50,
+    index = 18,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(2.014e+21,'cm^2/(mol*s)'), n=0, Ea=(110000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.014e21,'cm^2/(mol*s)'), n=0, Ea=(110000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -455,10 +457,10 @@ A (at 300K) = 5.0E12(1/s)/2.483E-9(mol/cm^2) = 2.014E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 51,
+    index = 19,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.08997e+21,'cm^2/(mol*s)'), n=0, Ea=(118000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.08997e21,'cm^2/(mol*s)'), n=0, Ea=(118000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -477,10 +479,10 @@ A (at 300K) = 7.2E12(1/s)/2.483E-9(mol/cm^2) = 2.8997E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 52,
+    index = 20,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(4.43e+21,'cm^2/(mol*s)'), n=0, Ea=(101000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.43e21,'cm^2/(mol*s)'), n=0, Ea=(101000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -499,10 +501,10 @@ A (at 500K) = 1.1E13(1/s)/2.483E-9(mol/cm^2) = 4.430E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 53,
+    index = 21,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(5.236e+21,'cm^2/(mol*s)'), n=0, Ea=(116000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(5.236e21,'cm^2/(mol*s)'), n=0, Ea=(116000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -521,10 +523,10 @@ A (at 500K) = 1.3E13(1/s)/2.483E-9(mol/cm^2) = 5.236E21 cm^2/(mol*s)
 )
 
 entry(
-    index = 54,
+    index = 22,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(2.33e+23,'cm^2/(mol*s)'), n=0, Ea=(83946.3,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.33e23,'cm^2/(mol*s)'), n=0, Ea=(83946.3,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -547,10 +549,10 @@ This is reaction (2) in Table S5
 )
 
 entry(
-    index = 55,
+    index = 23,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.33e+23,'cm^2/(mol*s)'), n=0, Ea=(98419.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.33e23,'cm^2/(mol*s)'), n=0, Ea=(98419.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -573,10 +575,10 @@ This is reaction (3) in Table S5
 )
 
 entry(
-    index = 56,
+    index = 24,
     label = "HX_5 + OX <=> HOX_1 + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.47e+21,'cm^2/(mol*s)'), n=0, Ea=(61753.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.47e21,'cm^2/(mol*s)'), n=0, Ea=(61753.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -599,10 +601,10 @@ This is reaction (4) in Table S5
 )
 
 entry(
-    index = 57,
+    index = 25,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(2.23e+23,'cm^2/(mol*s)'), n=0, Ea=(152454,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.23e23,'cm^2/(mol*s)'), n=0, Ea=(152454,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -625,10 +627,10 @@ This is reaction (2) in Table S4
 )
 
 entry(
-    index = 58,
+    index = 26,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.23e+23,'cm^2/(mol*s)'), n=0, Ea=(118683,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.23e23,'cm^2/(mol*s)'), n=0, Ea=(118683,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -651,10 +653,10 @@ This is reaction (3) in Table S4
 )
 
 entry(
-    index = 59,
+    index = 27,
     label = "HX_5 + OX <=> HOX_1 + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.44e+21,'cm^2/(mol*s)'), n=0, Ea=(123507,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.44e21,'cm^2/(mol*s)'), n=0, Ea=(123507,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -677,10 +679,10 @@ This is reaction (4) in Table S4
 )
 
 entry(
-    index = 60,
+    index = 28,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(2.44e+23,'cm^2/(mol*s)'), n=0, Ea=(85876.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.44e23,'cm^2/(mol*s)'), n=0, Ea=(85876.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -703,10 +705,10 @@ This is reaction (2) in Table S5
 )
 
 entry(
-    index = 61,
+    index = 29,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.44e+23,'cm^2/(mol*s)'), n=0, Ea=(113858,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.44e23,'cm^2/(mol*s)'), n=0, Ea=(113858,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -729,10 +731,10 @@ This is reaction (3) in Table S5
 )
 
 entry(
-    index = 62,
+    index = 30,
     label = "HX_5 + OX <=> HOX_1 + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.47e+21,'cm^2/(mol*s)'), n=0, Ea=(97454.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.47e21,'cm^2/(mol*s)'), n=0, Ea=(97454.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -755,10 +757,10 @@ This is reaction (4) in Table S5
 )
 
 entry(
-    index = 63,
+    index = 31,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(6.33e+21,'cm^2/(mol*s)'), n=0, Ea=(92630.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(6.33e21,'cm^2/(mol*s)'), n=0, Ea=(92630.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -782,10 +784,10 @@ Ea = 0.86eV = 92630.4J/mol
 )
 
 entry(
-    index = 64,
+    index = 32,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(7.94e+21,'cm^2/(mol*s)'), n=0, Ea=(97454.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(7.94e21,'cm^2/(mol*s)'), n=0, Ea=(97454.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -809,10 +811,10 @@ Ea = 1.91eV = 97454.9J/mol
 )
 
 entry(
-    index = 65,
+    index = 33,
     label = "NOX + OX <=> NO2X + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.52e+19,'cm^2/(mol*s)'), n=1.015, Ea=(155285,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(6.52e19,'cm^2/(mol*s)'), n=1.015, Ea=(155285,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -835,10 +837,10 @@ Table S3. Reaction rate constant at different temperatures
 )
 
 entry(
-    index = 66,
+    index = 34,
     label = "X_4 + NO2X <=> OX + NOX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.29e+20,'cm^2/(mol*s)'), n=0, Ea=(83000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.29e20,'cm^2/(mol*s)'), n=0, Ea=(83000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -858,10 +860,10 @@ This is R12 in Table 1
 )
 
 entry(
-    index = 67,
+    index = 35,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(8.34e+19,'cm^2/(mol*s)'), n=0, Ea=(56929.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(8.34e19,'cm^2/(mol*s)'), n=0, Ea=(56929.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -893,10 +895,10 @@ This is reaction 2 from Table 2
 )
 
 entry(
-    index = 68,
+    index = 36,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.46e+19,'cm^2/(mol*s)'), n=0, Ea=(107104,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.46e19,'cm^2/(mol*s)'), n=0, Ea=(107104,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -928,10 +930,10 @@ This is reaction 3 from Table 2
 )
 
 entry(
-    index = 69,
+    index = 37,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(2.31e+20,'cm^2/(mol*s)'), n=0, Ea=(86841,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.31e20,'cm^2/(mol*s)'), n=0, Ea=(86841,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -956,10 +958,10 @@ This is reaction 2 from Table 2
 )
 
 entry(
-    index = 70,
+    index = 38,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.36e+21,'cm^2/(mol*s)'), n=0, Ea=(100350,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.36e21,'cm^2/(mol*s)'), n=0, Ea=(100350,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -984,10 +986,10 @@ This is reaction 3 from Table 2
 )
 
 entry(
-    index = 71,
+    index = 39,
     label = "X_4 + HOX_1 <=> OX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(7.85e+20,'cm^2/(mol*s)'), n=1.872, Ea=(27.1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(7.85e20,'cm^2/(mol*s)'), n=1.872, Ea=(27.1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1010,12 +1012,12 @@ This is R13 in Table 1
 )
 
 entry(
-    index = 72,
+    index = 40,
     label = "X_4 + CH3X_1 <=> CH2X_3 + HX_5",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(4.47e+19,'cm^2/(mol*s)'), n=0.419, Ea=(15.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.47e19,'cm^2/(mol*s)'), n=0.419, Ea=(15.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption_Dissociative""",
+    shortDesc = """Surface_Dissociation""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Vlachos_Pt111
@@ -1036,10 +1038,10 @@ This is R57 in Table 2
 )
 
 entry(
-    index = 73,
+    index = 41,
     label = "X_4 + CH2X_1 <=> CHX_3 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(2.1e+19,'cm^2/(mol*s)'), n=0.222, Ea=(9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.1e19,'cm^2/(mol*s)'), n=0.222, Ea=(9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1062,10 +1064,10 @@ This is R59 in Table 2
 )
 
 entry(
-    index = 74,
+    index = 42,
     label = "X_4 + CHX_1 <=> CX_3 + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.67e+19,'cm^2/(mol*s)'), n=0.398, Ea=(31.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.67e19,'cm^2/(mol*s)'), n=0.398, Ea=(31.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1088,12 +1090,12 @@ This is R61 in Table 2
 )
 
 entry(
-    index = 75,
+    index = 43,
     label = "X_4 + CXHO_1 <=> OCX_3 + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.86e+19,'cm^2/(mol*s)'), n=0.33, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.86e19,'cm^2/(mol*s)'), n=0.33, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Dissociation_vdW""",
+    shortDesc = """Surface_Dissociation""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Vlachos_Pt111
@@ -1114,10 +1116,10 @@ This is R99 in Table 2
 )
 
 entry(
-    index = 76,
+    index = 44,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(7.22e+20,'cm^2/(mol*s)'), n=0, Ea=(5.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(7.22e20,'cm^2/(mol*s)'), n=0, Ea=(5.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1139,10 +1141,10 @@ This is R5 in Table 2 (set A)
 )
 
 entry(
-    index = 77,
+    index = 45,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(7.6e+20,'cm^2/(mol*s)'), n=0, Ea=(20.1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(7.6e20,'cm^2/(mol*s)'), n=0, Ea=(20.1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1164,12 +1166,12 @@ This is R7 in Table 2 (set A)
 )
 
 entry(
-    index = 78,
+    index = 46,
     label = "X_4 + CH3X_1 <=> CH2X_3 + HX_5",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(1e+19,'cm^2/(mol*s)'), n=0.0862, Ea=(12.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e19,'cm^2/(mol*s)'), n=0.0862, Ea=(12.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption_Dissociative""",
+    shortDesc = """Surface_Dissociation""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Vlachos_Rh
@@ -1188,10 +1190,10 @@ This is R57 in Table 4
 )
 
 entry(
-    index = 79,
+    index = 47,
     label = "X_4 + CH2X_1 <=> CHX_3 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(2.21e+19,'cm^2/(mol*s)'), n=-0.1312, Ea=(21.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.21e19,'cm^2/(mol*s)'), n=-0.1312, Ea=(21.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1212,10 +1214,10 @@ This is R59 in Table 4
 )
 
 entry(
-    index = 80,
+    index = 48,
     label = "X_4 + CHX_1 <=> CX_3 + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.84e+21,'cm^2/(mol*s)'), n=-0.2464, Ea=(28.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.84e21,'cm^2/(mol*s)'), n=-0.2464, Ea=(28.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1236,10 +1238,10 @@ This is R61 in Table 4
 )
 
 entry(
-    index = 81,
+    index = 49,
     label = "X_4 + H3N2X <=> H2N2X + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.34e+17,'cm^2/(mol*s)'), n=1.942, Ea=(121577,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.34e17,'cm^2/(mol*s)'), n=1.942, Ea=(121577,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1261,10 +1263,10 @@ This is R10 in Table 1
 )
 
 entry(
-    index = 82,
+    index = 50,
     label = "X_4 + H2N2X2 <=> HN2X2 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(1.07e+19,'cm^2/(mol*s)'), n=1.134, Ea=(141840,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.07e19,'cm^2/(mol*s)'), n=1.134, Ea=(141840,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1286,10 +1288,10 @@ This is R16 in Table 1
 )
 
 entry(
-    index = 83,
+    index = 51,
     label = "X_4 + HN2X2-2 <=> N2X2 + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.43e+18,'cm^2/(mol*s)'), n=1.285, Ea=(16403,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.43e18,'cm^2/(mol*s)'), n=1.285, Ea=(16403,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1311,10 +1313,10 @@ This is R18 in Table 1
 )
 
 entry(
-    index = 84,
+    index = 52,
     label = "X_4 + H3N2X-2 <=> NHX_1 + H2NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.87e+16,'cm^2/(mol*s)'), n=2.065, Ea=(86841,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.87e16,'cm^2/(mol*s)'), n=2.065, Ea=(86841,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1336,10 +1338,10 @@ This is R22 in Table 1
 )
 
 entry(
-    index = 85,
+    index = 53,
     label = "X_4 + H2N2X-2 <=> NX + H2NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.03e+19,'cm^2/(mol*s)'), n=0.559, Ea=(130262,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.03e19,'cm^2/(mol*s)'), n=0.559, Ea=(130262,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1361,10 +1363,10 @@ This is R24 in Table 1
 )
 
 entry(
-    index = 86,
+    index = 54,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(5.67e+19,'cm^2/(mol*s)'), n=0.513, Ea=(135086,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(5.67e19,'cm^2/(mol*s)'), n=0.513, Ea=(135086,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1386,10 +1388,10 @@ This is R32 in Table 1
 )
 
 entry(
-    index = 87,
+    index = 55,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.66e+19,'cm^2/(mol*s)'), n=0.853, Ea=(172717,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.66e19,'cm^2/(mol*s)'), n=0.853, Ea=(172717,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1411,10 +1413,10 @@ This is R34 in Table 1
 )
 
 entry(
-    index = 88,
+    index = 56,
     label = "X_4 + H3N2X <=> H2N2X + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(98419.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(98419.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1437,10 +1439,10 @@ This is R6 in Table 3
 )
 
 entry(
-    index = 89,
+    index = 57,
     label = "X_4 + H2N2X2 <=> HN2X2 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(67543,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(67543,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1463,10 +1465,10 @@ This is R8 in Table 3
 )
 
 entry(
-    index = 90,
+    index = 58,
     label = "X_4 + HN2X2-2 <=> N2X2 + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(126402,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(126402,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1489,10 +1491,10 @@ This is R10 in Table 3
 )
 
 entry(
-    index = 91,
+    index = 59,
     label = "X_4 + H3N2X-2 <=> NHX_1 + H2NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(75262.2,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(75262.2,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1515,10 +1517,10 @@ This is R12 in Table 3
 )
 
 entry(
-    index = 92,
+    index = 60,
     label = "X_4 + H2N2X-2 <=> NX + H2NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(70437.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(70437.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1541,10 +1543,10 @@ This is R13 in Table 3
 )
 
 entry(
-    index = 93,
+    index = 61,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(1.43e+21,'cm^2/(mol*s)'), n=0, Ea=(151613,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.43e21,'cm^2/(mol*s)'), n=0, Ea=(151613,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1567,10 +1569,10 @@ This is R3 in Table 3
 )
 
 entry(
-    index = 94,
+    index = 62,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.68e+21,'cm^2/(mol*s)'), n=0, Ea=(88354.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.68e21,'cm^2/(mol*s)'), n=0, Ea=(88354.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1593,10 +1595,10 @@ This is R5 in Table 3
 )
 
 entry(
-    index = 95,
+    index = 63,
     label = "X_4 + NH2_X <=> NHX_1 + HX_5",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(1.52e+21,'cm^2/(mol*s)'), n=0, Ea=(62155,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.52e21,'cm^2/(mol*s)'), n=0, Ea=(62155,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1619,10 +1621,10 @@ This is R3 in Table 3
 )
 
 entry(
-    index = 96,
+    index = 64,
     label = "X_4 + NHX_2 <=> NX + HX_5",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.71e+21,'cm^2/(mol*s)'), n=0, Ea=(99817.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.71e21,'cm^2/(mol*s)'), n=0, Ea=(99817.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1642,5 +1644,55 @@ This is R5 in Table 3
 """,
     metal = "Ru",
     facet = "0001",
+)
+
+entry(
+    index = 65,
+    label = "X_4 + HOCXO_1 <=> OCX_3 + HOX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.3e20,'cm^2/(mol*s)'), n=-0.4123, Ea=(7.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Rh
+Original entry: COOH_X + X <=> CO_X + OH_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 1.07E+12(1/s)/2.49E-9(mol/cm^2) = 4.30E+20 cm^2/(mol*s)
+
+This is R31 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 66,
+    label = "X_4 + HOCXO_1 <=> OCX_3 + HOX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.4e17,'cm^2/(mol*s)'), n=0.024, Ea=(5.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: COOH_X + X <=> CO_X + OH_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 8.43E08(1/s)/2.483E-9(mol/cm^2) = 3.40E17 cm^2/(mol*s)
+
+This is R29 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
 )
 

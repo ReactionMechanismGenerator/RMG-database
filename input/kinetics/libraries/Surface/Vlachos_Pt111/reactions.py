@@ -385,7 +385,7 @@ entry(
        Tmin = (200, 'K'),
        Tmax = (3000, 'K'),
    ),
-   shortDesc = u"""Surface_Dissociation""",
+   shortDesc = u"""Surface_Dissociation_vdW""",
    longDesc = u"""
 "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
@@ -412,7 +412,7 @@ This is R15 in Table 1
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Dissociation""",
+#     shortDesc = u"""Surface_Dissociation_vdW""",
 #     longDesc = u"""
 # "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 # Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
@@ -1189,7 +1189,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Adsorption_Triple bonds""",
+    shortDesc = u"""Surface_Adsorption_Quadruple bonds""",
     longDesc = u"""
 "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
@@ -1213,7 +1213,7 @@ This is R47 in Table 2
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_Triple bonds""",
+#     shortDesc = u"""Surface_Adsorption_Quadruple bonds""",
 #     longDesc = u"""
 # "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 # Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
@@ -1444,7 +1444,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Adsorption_Dissociative""",
+    shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
 "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
@@ -1471,7 +1471,7 @@ This is R57 in Table 2
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_Dissociative""",
+#     shortDesc = u"""Surface_Dissociation""",
 #     longDesc = u"""
 # "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 # Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
@@ -2509,7 +2509,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Dissociation_vdW""",
+    shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
 "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
@@ -2536,7 +2536,7 @@ This is R97 in Table 2
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Dissociation_vdW""",
+#     shortDesc = u"""Surface_Dissociation""",
 #     longDesc = u"""
 # "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 # Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"

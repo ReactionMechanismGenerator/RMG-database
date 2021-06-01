@@ -12,7 +12,7 @@ entry(
     index = 1,
     label = "HOX + H3NX <=> H2NX + H2OX",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(1.97e+22,'cm^2/(mol*s)'), n=0, Ea=(33771.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.97e22,'cm^2/(mol*s)'), n=0, Ea=(33771.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
@@ -37,7 +37,7 @@ entry(
     index = 2,
     label = "HOX + H3NX <=> H2NX + H2OX",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(6.444e+19,'cm^2/(mol*s)'), n=0, Ea=(73000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(6.444e19,'cm^2/(mol*s)'), n=0, Ea=(73000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
@@ -59,7 +59,7 @@ entry(
     index = 3,
     label = "HOX + H3NX <=> H2NX + H2OX",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(2.47e+21,'cm^2/(mol*s)'), n=0, Ea=(68507.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.47e21,'cm^2/(mol*s)'), n=0, Ea=(68507.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
@@ -85,7 +85,7 @@ entry(
     index = 4,
     label = "HOX + H3NX <=> H2NX + H2OX",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(2.44e+21,'cm^2/(mol*s)'), n=0, Ea=(70437.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.44e21,'cm^2/(mol*s)'), n=0, Ea=(70437.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
@@ -111,7 +111,7 @@ entry(
     index = 5,
     label = "HOX + H3NX <=> H2NX + H2OX",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(2.47e+21,'cm^2/(mol*s)'), n=0, Ea=(44385.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.47e21,'cm^2/(mol*s)'), n=0, Ea=(44385.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
@@ -137,7 +137,7 @@ entry(
     index = 6,
     label = "HOX + H3NX <=> H2NX + H2OX",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(1.727e+21,'cm^2/(mol*s)'), n=0, Ea=(23157.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.727e21,'cm^2/(mol*s)'), n=0, Ea=(23157.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
@@ -165,7 +165,7 @@ entry(
     index = 7,
     label = "HOX + H3NX <=> H2NX + H2OX",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(3.11e+21,'cm^2/(mol*s)'), n=0, Ea=(80086.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.11e21,'cm^2/(mol*s)'), n=0, Ea=(80086.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
@@ -190,7 +190,7 @@ entry(
     index = 8,
     label = "H2NX-2 + H4N2X <=> H3N2X + H3NX-2",
     degeneracy = 4.0,
-    kinetics = SurfaceArrhenius(A=(3.38e+20,'cm^2/(mol*s)'), n=0.156, Ea=(40526,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.38e20,'cm^2/(mol*s)'), n=0.156, Ea=(40526,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
@@ -215,8 +215,9 @@ entry(
     index = 9,
     label = "H2NX-2 + H4N2X <=> H3N2X + H3NX-2",
     degeneracy = 4.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(19298,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(19298,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
+    shortDesc = """Surface_Abstraction_Single_vdW""",    
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Roldan_Ir111
@@ -240,8 +241,9 @@ entry(
     index = 10,
     label = "H2NX-2 + H2N2X <=> HN2X + H3NX-2",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(98419.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(98419.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
+    shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Roldan_Ir111

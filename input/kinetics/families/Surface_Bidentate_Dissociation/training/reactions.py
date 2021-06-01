@@ -11,8 +11,9 @@ entry(
     index = 1,
     label = "H2N2X2 <=> HNX + HNX-2",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.49e+20,'1/s'), n=0.299, Ea=(76227,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.49e20,'1/s'), n=0.299, Ea=(76227,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
+    shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Roldan_Cu111
@@ -35,7 +36,7 @@ entry(
     index = 2,
     label = "HN2X2 <=> HNX + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(8.81e+19,'1/s'), n=0.619, Ea=(137016,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(8.81e19,'1/s'), n=0.619, Ea=(137016,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
@@ -60,7 +61,7 @@ entry(
     index = 3,
     label = "N2X2 <=> NX-2 + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.62e+20,'1/s'), n=0.06, Ea=(452538,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.62e20,'1/s'), n=0.06, Ea=(452538,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
@@ -85,7 +86,7 @@ entry(
     index = 4,
     label = "HN2X2 <=> HNX + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'1/s'), n=0, Ea=(137981,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'1/s'), n=0, Ea=(137981,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
@@ -111,7 +112,7 @@ entry(
     index = 5,
     label = "NX-2 + NX <=> N2X2",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.55e+21,'cm^2/(mol*s)'), n=0, Ea=(187423,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.55e21,'cm^2/(mol*s)'), n=0, Ea=(187423,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
