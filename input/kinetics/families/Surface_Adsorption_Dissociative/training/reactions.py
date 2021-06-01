@@ -53,7 +53,7 @@ entry(
 )
 
 # entry(
-#    index = 6,
+#    index = 3,
 #    label = "HX_4 + HOX_1 <=> H2O + X_3 + Ni_4",
 #    degeneracy = 1,
 #    kinetics = SurfaceArrhenius(
@@ -74,8 +74,9 @@ entry(
 #     """,
 #     metal = "Pt"
 # )
+
 entry(
-    index = 3,
+    index = 4,
     label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.129, n=0.858, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -98,7 +99,7 @@ This is R11 in Table 1
 )
 
 entry(
-    index = 4,
+    index = 5,
     label = "X_3 + X_4 + CH4 <=> CH3X + HX_4",
     degeneracy = 2.0,
     kinetics = StickingCoefficient(A=0.116, n=0.154, Ea=(9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -121,7 +122,7 @@ This is R55 in Table 2
 )
 
 entry(
-    index = 5,
+    index = 6,
     label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.87, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -143,7 +144,7 @@ This is R1 in Table 2 (set A)
 )
 
 entry(
-    index = 6,
+    index = 7,
     label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.773, n=0.9387, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -164,7 +165,7 @@ This is R1 in Table 4
 )
 
 entry(
-    index = 7,
+    index = 8,
     label = "X_3 + X_4 + CH4 <=> CH3X + HX_4",
     degeneracy = 2.0,
     kinetics = StickingCoefficient(A=0.572, n=0.7883, Ea=(14.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -185,7 +186,7 @@ This is R55 in Table 4
 )
 
 entry(
-    index = 8,
+    index = 9,
     label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.0236, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),

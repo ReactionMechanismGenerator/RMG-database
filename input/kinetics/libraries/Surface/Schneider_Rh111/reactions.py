@@ -525,7 +525,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Dissociation""",
+    shortDesc = u"""Surface_Dissociation_vdW""",
     longDesc = u"""
 "DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
 Hanyu Ma, and William F.Schneider

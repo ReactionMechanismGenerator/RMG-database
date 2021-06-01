@@ -109,3 +109,17 @@ CH3OX-2
 5    H u0 p0 c0 {1,S}
 6 *2 X u0 p0 c0 {2,S}
 
+CHO2
+multiplicity 2
+1    O u0 p2 c0 {3,S} {4,S}
+2    O u0 p2 c0 {3,D}
+3 *1 C u1 p0 c0 {1,S} {2,D}
+4    H u0 p0 c0 {1,S}
+
+CHO2X
+1    O u0 p2 c0 {3,S} {4,S}
+2    O u0 p2 c0 {3,D}
+3 *1 C u0 p0 c0 {1,S} {2,D} {5,S}
+4    H u0 p0 c0 {1,S}
+5 *2 X u0 p0 c0 {3,S}
+

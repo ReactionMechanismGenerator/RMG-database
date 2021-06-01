@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 9,
+    index = 1,
     label = "CO* + O* <=> CO2* + X_4",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -26,14 +26,14 @@ Reaction 9 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-1.195e12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 4.060e16 m^2/(mol*s)
-""",
+1.195e12 1/s / 2.943e‐5 mol/m^2 = 4.060e16 m^2/(mol*s)
+""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
     metal = "Cu",
 )
 
-# duplicate of 9
+# duplicate of 1
 # entry(
-#     index = 42,
+#     index = 2,
 #     label = "CO2* + X_4 <=> CO* + O*",
 #     kinetics = SurfaceArrhenius(
 #         A = (4.64E19, 'm^2/(mol*s)'),
@@ -53,7 +53,7 @@ A factor from paper / surface site density of Cu
 # )
 
 entry(
-    index = 35,
+    index = 3,
     label = "HCOOH* + X_4 <=> HCOH* + O*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -70,18 +70,18 @@ Reaction 35 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-4.828e11 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.641e16 m^2/(mol*s)
-""",
+4.828e11 1/s / 2.943e‐5 mol/m^2 = 1.641e16 m^2/(mol*s)
+""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
     metal = "Cu",
 )
 
 entry(
-    index = 36,
+    index = 4,
     label = "X_4 + N2OX <=> O* + N2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(9.12e+19,'cm^2/(mol*s)'), n=1.004, Ea=(63657,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(9.12e19,'cm^2/(mol*s)'), n=1.004, Ea=(63657,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Addition_Single_vdW""",
+    shortDesc = """Surface_Dissociation_Double_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Ishikawa_Rh111
@@ -103,10 +103,10 @@ Table S3. Reaction rate constant at different temperatures
 )
 
 entry(
-    index = 37,
+    index = 5,
     label = "CO* + O* <=> CO2* + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.73e+20,'cm^2/(mol*s)'), n=1.001, Ea=(119598,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.73e20,'cm^2/(mol*s)'), n=1.001, Ea=(119598,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation_Double_vdW""",
     longDesc = 
@@ -130,10 +130,10 @@ Table S3. Reaction rate constant at different temperatures
 )
 
 entry(
-    index = 38,
+    index = 6,
     label = "HNX + O* <=> HNOX + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.03e+21,'cm^2/(mol*s)'), n=0, Ea=(73000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.03e21,'cm^2/(mol*s)'), n=0, Ea=(73000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation_Double_vdW""",
     longDesc = 
@@ -154,12 +154,12 @@ This is R9 in Table 1
 )
 
 entry(
-    index = 39,
+    index = 7,
     label = "X_4 + N2OX <=> O* + N2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.01e+17,'cm^2/(mol*s)'), n=0, Ea=(72200,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.01e17,'cm^2/(mol*s)'), n=0, Ea=(72200,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Addition_Single_vdW""",
+    shortDesc = """Surface_Dissociation_Double_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Rebrov_Pt111
@@ -178,10 +178,10 @@ This is R14 in Table 1
 )
 
 entry(
-    index = 40,
+    index = 8,
     label = "X_4 + CO2* <=> O* + CO*",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(1.68e+19,'cm^2/(mol*s)'), n=0.177, Ea=(26.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.68e19,'cm^2/(mol*s)'), n=0.177, Ea=(26.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation_Double_vdW""",
     longDesc = 
@@ -204,10 +204,10 @@ This is R9 in Table 1
 )
 
 entry(
-    index = 41,
+    index = 9,
     label = "X_4 + H2N2X <=> HNX-2 + HNX",
     degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(3.87e+21,'cm^2/(mol*s)'), n=0, Ea=(70437.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(70437.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation_Double_vdW""",
     longDesc = 

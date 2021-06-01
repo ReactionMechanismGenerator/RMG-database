@@ -356,7 +356,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Surface_Abstraction_Single_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
 Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
@@ -464,7 +464,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Surface_Abstraction_Single_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
 Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
