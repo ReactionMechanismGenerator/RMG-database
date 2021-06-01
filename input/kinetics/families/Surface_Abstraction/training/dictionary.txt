@@ -93,3 +93,14 @@ CH2X
 3    H u0 p0 c0 {1,S}
 4 *5 X u0 p0 c0 {1,D}
 
+COX
+1    O u0 p2 c0 {2,D}
+2 *1 C u0 p0 c0 {1,D} {3,D}
+3 *2 X u0 p0 c0 {2,D}
+
+CHOX
+1    O u0 p2 c0 {2,D}
+2 *1 C u0 p0 c0 {1,D} {3,S} {4,S}
+3 *4 H u0 p0 c0 {2,S}
+4 *2 X u0 p0 c0 {2,S}
+
