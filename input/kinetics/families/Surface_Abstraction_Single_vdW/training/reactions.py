@@ -263,3 +263,81 @@ This is R20 in Table 3
     facet = "111",
 )
 
+entry(
+    index = 11,
+    label = "HOX + H3NX <=> H2NX + H2OX",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(12,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: NH3_X + OH_X <=> NH2_X + H2O_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
+
+Surface site density used in this paper is 2.5E-9 mol/cm^2
+A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
+
+This is R62 in Appendix A
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 12,
+    label = "CNX + H2OX-2 <=> HOX-2 + CHNX",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(3.4,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: CN_X + H2O_X <=> HCN_X + OH_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
+
+Surface site density used in this paper is 2.5E-9 mol/cm^2
+A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
+
+This is R90 in Appendix A
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 13,
+    label = "CHOX + H2OX-2 <=> HOX-2 + CH2OX",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(18.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: HCO_X + H2O_X <=> CH2O_X + OH_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
+
+Surface site density used in this paper is 2.5E-9 mol/cm^2
+A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
+
+This is R103 in Appendix A
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
