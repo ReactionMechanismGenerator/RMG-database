@@ -162,15 +162,6 @@ CH2X-2
 3 *3 H u0 p0 c0 {1,S}
 4 *5 X u0 p0 c0 {1,D}
 
-CX
-1 *4 C u0 p1 c0 {2,D}
-2 *5 X u0 p0 c0 {1,D}
-
-CHX-2
-1 *4 C u0 p1 c0 {2,S} {3,S}
-2 *3 H u0 p0 c0 {1,S}
-3 *5 X u0 p0 c0 {1,S}
-
 H3N2X
 1 *4 N u0 p1 c0 {2,S} {3,S} {6,S}
 2    N u0 p1 c0 {1,S} {4,S} {5,S}
@@ -213,4 +204,30 @@ N2X2
 2    N u0 p1 c0 {1,S} {4,D}
 3 *5 X u0 p0 c0 {1,D}
 4    X u0 p0 c0 {2,D}
+
+H2OX
+1 *3 O u0 p2 c0 {2,S} {3,S}
+2 *2 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4 *1 X u0 p0 c0
+
+HX
+1 *2 H u0 p0 c0 {2,S}
+2 *1 X u0 p0 c0 {1,S}
+
+CHO2X
+1 *3 O u0 p2 c0 {3,S} {4,S}
+2    O u0 p2 c0 {3,D}
+3 *4 C u0 p0 c0 {1,S} {2,D} {5,S}
+4    H u0 p0 c0 {1,S}
+5 *5 X u0 p0 c0 {3,S}
+
+CX
+1 *4 C u0 p0 c0 {2,Q}
+2 *5 X u0 p0 c0 {1,Q}
+
+CHX-2
+1 *4 C u0 p0 c0 {2,S} {3,T}
+2 *3 H u0 p0 c0 {1,S}
+3 *5 X u0 p0 c0 {1,T}
 

@@ -106,7 +106,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Addition_Single_vdW""",
+    shortDesc = u"""Surface_Dissociation_Double_vdW""",
     longDesc = u"""
 "First-Principles Microkinetic Analysis of NO + CO Reactions on
 Rh(111) Surface toward Understanding NOx Reduction Pathways"

@@ -68,7 +68,7 @@ entry(
        Tmin = (200, 'K'),
        Tmax = (3000, 'K'),
    ),
-   shortDesc = u"""Surface_Dissociation""",
+   shortDesc = u"""Surface_Dissociation_vdW""",
    longDesc = u"""
 "Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
 Vlachos et al. (2008)
@@ -93,7 +93,7 @@ This is R7 in Table 4
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Dissociation""",
+#     shortDesc = u"""Surface_Dissociation_vdW""",
 #     longDesc = u"""
 # "Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
 # Vlachos et al. (2008)
@@ -118,7 +118,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Adsorption""",
+    shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
 "Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
 Vlachos et al. (2008)
@@ -140,7 +140,7 @@ This is R13 in Table 4
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption""",
+#     shortDesc = u"""Surface_Adsorption_vdW""",
 #     longDesc = u"""
 # "Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
 # Vlachos et al. (2008)
@@ -510,7 +510,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Adsorption_Dissociative""",
+    shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
 "Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
 Vlachos et al. (2008)
@@ -532,7 +532,7 @@ This is R55 in Table 4
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_Dissociative""",
+#     shortDesc = u"""Surface_Dissociation""",
 #     longDesc = u"""
 # "Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
 # Vlachos et al. (2008)

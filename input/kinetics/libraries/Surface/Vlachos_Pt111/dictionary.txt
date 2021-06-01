@@ -68,11 +68,11 @@ H2O_X
 4 X u0 p0 c0
 
 COOH_X
-1 O u0 p2 c0 {3,S} {5,S}
+1 O u0 p2 c0 {3,S} {4,S}
 2 O u0 p2 c0 {3,D}
-3 C u0 p0 c0 {1,S} {2,D} {4,S}
-4 H u0 p0 c0 {3,S}
-5 X u0 p0 c0 {1,S}
+3 C u0 p0 c0 {1,S} {2,D} {5,S}
+4 H u0 p0 c0 {1,S}
+5 X u0 p0 c0 {3,S}
 
 COOH
 multiplicity 2
@@ -108,8 +108,8 @@ C
 1 C u2 p1 c0
 
 C_X
-1 C u0 p1 c0 {2,D}
-2 X u0 p0 c0 {1,D}
+1 C u0 p0 c0 {2,Q}
+2 X u0 p0 c0 {1,Q}
 
 CH
 multiplicity 2
