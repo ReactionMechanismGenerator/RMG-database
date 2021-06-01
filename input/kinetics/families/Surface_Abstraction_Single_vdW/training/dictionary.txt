@@ -65,3 +65,38 @@ HN2X
 3    H u0 p0 c0 {2,S}
 4 *1 X u0 p0 c0 {1,S}
 
+CNX
+1    N u0 p1 c0 {2,T}
+2 *4 C u0 p0 c0 {1,T} {3,S}
+3 *5 X u0 p0 c0 {2,S}
+
+H2OX-2
+1 *2 O u0 p2 c0 {2,S} {3,S}
+2 *3 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4 *1 X u0 p0 c0
+
+HOX-2
+1 *2 O u0 p2 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3 *1 X u0 p0 c0 {1,S}
+
+CHNX
+1    N u0 p1 c0 {2,T}
+2 *4 C u0 p0 c0 {1,T} {3,S}
+3 *3 H u0 p0 c0 {2,S}
+4 *5 X u0 p0 c0
+
+CHOX
+1    O u0 p2 c0 {2,D}
+2 *4 C u0 p0 c0 {1,D} {3,S} {4,S}
+3    H u0 p0 c0 {2,S}
+4 *5 X u0 p0 c0 {2,S}
+
+CH2OX
+1    O u0 p2 c0 {2,D}
+2 *4 C u0 p0 c0 {1,D} {3,S} {4,S}
+3    H u0 p0 c0 {2,S}
+4 *3 H u0 p0 c0 {2,S}
+5 *5 X u0 p0 c0
+

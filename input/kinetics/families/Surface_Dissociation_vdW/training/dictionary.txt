@@ -166,3 +166,26 @@ H2NX
 3    H u0 p0 c0 {1,S}
 4 *4 X u0 p0 c0 {1,S}
 
+CNX
+1    N u0 p1 c0 {2,T}
+2 *1 C u0 p0 c0 {1,T} {3,S}
+3 *3 X u0 p0 c0 {2,S}
+
+CHNX
+1    N u0 p1 c0 {2,T}
+2 *1 C u0 p0 c0 {1,T} {3,S}
+3 *2 H u0 p0 c0 {2,S}
+4 *3 X u0 p0 c0
+
+CNX-2
+1    N u0 p1 c0 {2,T}
+2 *2 C u0 p0 c0 {1,T} {3,S}
+3 *4 X u0 p0 c0 {2,S}
+
+C2N2X
+1    N u0 p1 c0 {3,T}
+2    N u0 p1 c0 {4,T}
+3 *1 C u0 p0 c0 {1,T} {4,S}
+4 *2 C u0 p0 c0 {2,T} {3,S}
+5 *3 X u0 p0 c0
+

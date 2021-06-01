@@ -78,3 +78,31 @@ This is R35 in Table 1
     facet = "111",
 )
 
+entry(
+    index = 4,
+    label = "OX + CHO2X <=> CO2X + HOX",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(8.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: COOH_X + O_X <=> CO2_X + OH_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
+
+Surface site density used in this paper is 2.5E-9 mol/cm^2
+A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
+
+This is R36 in Appendix A
+
+This reaction is the least important ones for typical DOC conditions.
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
