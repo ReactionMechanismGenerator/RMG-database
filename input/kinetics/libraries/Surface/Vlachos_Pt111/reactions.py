@@ -91,7 +91,7 @@ This is R3 in Table 1
 #     index = 4,
 #     label = "O_X <=> O + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (5.80E21, '1/s'),  
+#         A = (1.44E13, '1/s'),  
 #         n = -0.250,
 #         Ea = (85.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -105,46 +105,19 @@ This is R3 in Table 1
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
 
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.44E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.80E21 (1/s)
-
 # This is R4 in Table 1
 # """,
 # 	metal = "Pt",
 #     facet = "111",
 # )
 
-entry(
-    index = 5,
-    label = "CO + X <=> CO_X",
-    kinetics = StickingCoefficient(
-        A = 1,
-        n = 0,
-        Ea = (0, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Surface_Adsorption_Double""",
-    longDesc = u"""
-"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
-Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
-D.G. Vlachos et al. (2007)
-Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
-DOI: 10.1021/ie070322c
-
-This is R5 in Table 1
-""",
-	metal = "Pt",
-    facet = "111",
-)
-
 # entry(
-#     index = 6,
-#     label = "CO_X <=> CO + X",
-#     kinetics = SurfaceArrhenius(
-#         A = (2.28E24, '1/s'),  
-#         n = -0.500,
-#         Ea = (40, 'kcal/mol'),  
+#     index = 5,
+#     label = "CO + X <=> CO_X",
+#     kinetics = StickingCoefficient(
+#         A = 1,
+#         n = 0,
+#         Ea = (0, 'kcal/mol'),
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
@@ -156,14 +129,35 @@ This is R5 in Table 1
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
 
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 5.66E15(mol/cm^2/s)/2.483E-9(mol/cm^2) = 2.28E24 (1/s)
-
-# This is R6 in Table 1
+# This is R5 in Table 1
 # """,
 # 	metal = "Pt",
 #     facet = "111",
 # )
+
+entry(
+    index = 6,
+    label = "CO_X <=> CO + X",
+    kinetics = SurfaceArrhenius(
+        A = (5.66E15, '1/s'),  
+        n = -0.500,
+        Ea = (40, 'kcal/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_Double""",
+    longDesc = u"""
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This is R6 in Table 1
+""",
+	metal = "Pt",
+    facet = "111",
+)
 
 entry(
     index = 7,
@@ -193,7 +187,7 @@ This is R7 in Table 1
 #     index = 8,
 #     label = "CO2_X <=> CO2 + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.46E21, '1/s'),  
+#         A = (3.63E12, '1/s'),  
 #         n = -0.250,
 #         Ea = (3.6, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -206,9 +200,6 @@ This is R7 in Table 1
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 3.63E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.46E21 (1/s)
 
 # This is R8 in Table 1
 # """,
@@ -483,37 +474,13 @@ This is R17 in Table 1
 #     facet = "111",
 # )
 
-entry(
-    index = 19,
-    label = "OH + X <=> OH_X",
-    kinetics = StickingCoefficient(
-        A = 0.999,
-        n = 2.000,
-        Ea = (0, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Surface_Adsorption_Single""",
-    longDesc = u"""
-"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
-Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
-D.G. Vlachos et al. (2007)
-Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
-DOI: 10.1021/ie070322c
-
-This is R19 in Table 1
-""",
-	metal = "Pt",
-    facet = "111",
-)
-
 # entry(
-#     index = 20,
-#     label = "OH_X <=> OH + X",
-#     kinetics = SurfaceArrhenius(
-#         A = (5.80E22, '1/s'),  
+#     index = 19,
+#     label = "OH + X <=> OH_X",
+#     kinetics = StickingCoefficient(
+#         A = 0.999,
 #         n = 2.000,
-#         Ea = (63.0, 'kcal/mol'),  
+#         Ea = (0, 'kcal/mol'),
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
@@ -525,14 +492,35 @@ This is R19 in Table 1
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
 
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.44E14(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.80E22 (1/s)
-
-# This is R20 in Table 1
+# This is R19 in Table 1
 # """,
 # 	metal = "Pt",
 #     facet = "111",
 # )
+
+entry(
+    index = 20,
+    label = "OH_X <=> OH + X",
+    kinetics = SurfaceArrhenius(
+        A = (1.44E14, '1/s'),  
+        n = 2.000,
+        Ea = (63.0, 'kcal/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_Single""",
+    longDesc = u"""
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
+
+This is R20 in Table 1
+""",
+	metal = "Pt",
+    facet = "111",
+)
 
 entry(
     index = 21,
@@ -562,7 +550,7 @@ This is R21 in Table 1
 #     index = 22,
 #     label = "H2O_X <=> H2O + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (8.18E20, '1/s'),  
+#         A = (2.03E12, '1/s'),  
 #         n = 1.372,
 #         Ea = (10, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -575,9 +563,6 @@ This is R21 in Table 1
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 2.03E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 8.18E20 (1/s)
 
 # This is R22 in Table 1
 # """,
@@ -613,7 +598,7 @@ This is R23 in Table 1
 #     index = 24,
 #     label = "H_X <=> H + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.76E22, '1/s'),  
+#         A = (4.37E13, '1/s'),  
 #         n = 1.890,
 #         Ea = (62.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -626,9 +611,6 @@ This is R23 in Table 1
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.37E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.76E22 (1/s)
 
 # This is R24 in Table 1
 # """,
@@ -718,7 +700,7 @@ This is R27 in Table 1
 #     index = 28,
 #     label = "COOH_X <=> COOH + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (4.51E21, '1/s'),  
+#         A = (1.12E13, '1/s'),  
 #         n = 0.089,
 #         Ea = (55.3, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -731,9 +713,6 @@ This is R27 in Table 1
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.12E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 4.51E21 (1/s)
 
 # This is R28 in Table 1
 # """,
@@ -1039,7 +1018,7 @@ This is R39 in Table 1
 #     index = 40,
 #     label = "HCOO_XX <=> HCOO + X + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.95E21, '1/s'),  
+#         A = (4.83E12, '1/s'),  
 #         n = -0.201,
 #         Ea = (53.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -1052,9 +1031,6 @@ This is R39 in Table 1
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.83E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.95E21 (1/s)
 
 # This is R40 in Table 1
 # """,
@@ -1207,7 +1183,7 @@ This is R47 in Table 2
 #     index = 48,
 #     label = "C_X <=> C + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.73E22, '1/s'),  
+#         A = (4.30E13, '1/s'),  
 #         n = -0.156,
 #         Ea = (157.7, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -1220,9 +1196,6 @@ This is R47 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.30E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.73E22 (1/s)
 
 # This is R48 in Table 2
 # """,
@@ -1258,7 +1231,7 @@ This is R49 in Table 2
 #     index = 50,
 #     label = "CH_X <=> CH + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (2.10E22, '1/s'),  
+#         A = (5.22E13, '1/s'),  
 #         n = -0.051,
 #         Ea = (157.1, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -1271,9 +1244,6 @@ This is R49 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 5.22E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 2.10E22 (1/s)
 
 # This is R50 in Table 2
 # """,
@@ -1309,7 +1279,7 @@ This is R51 in Table 2
 #     index = 52,
 #     label = "CH2_X <=> CH2 + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (6.32E21, '1/s'),  
+#         A = (1.57E13, '1/s'),  
 #         n = -0.118,
 #         Ea = (91.6, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -1322,9 +1292,6 @@ This is R51 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.57E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 6.32E21 (1/s)
 
 # This is R52 in Table 2
 # """,
@@ -1360,7 +1327,7 @@ This is R53 in Table 2
 #     index = 54,
 #     label = "CH3_X <=> CH3 + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.78E21, '1/s'),  
+#         A = (4.42E12, '1/s'),  
 #         n = 0.099,
 #         Ea = (45.3, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -1373,9 +1340,6 @@ This is R53 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.42E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.78E21 (1/s)
 
 # This is R54 in Table 2
 # """,
@@ -2164,7 +2128,7 @@ This is R83 in Table 2
 #     index = 84,
 #     label = "CH3OH_X <=> CH3OH + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (8.50E20, '1/s'),  
+#         A = (2.11E12, '1/s'),  
 #         n = -0.258,
 #         Ea = (9.5, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -2177,9 +2141,6 @@ This is R83 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 2.11E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 8.50E20 (1/s)
 
 # This is R84 in Table 2
 # """,
@@ -2215,7 +2176,7 @@ This is R85 in Table 2
 #     index = 86,
 #     label = "CH3O_X <=> CH3O + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.90E21, '1/s'),  
+#         A = (4.73E12, '1/s'),  
 #         n = -0.054,
 #         Ea = (37.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -2228,9 +2189,6 @@ This is R85 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 4.73E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.90E21 (1/s)
 
 # This is R86 in Table 2
 # """,
@@ -2266,7 +2224,7 @@ This is R87 in Table 2
 #     index = 88,
 #     label = "CH2O_X <=> CH2O + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (3.25E21, '1/s'),  
+#         A = (8.06E12, '1/s'),  
 #         n = -0.098,
 #         Ea = (12.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -2279,9 +2237,6 @@ This is R87 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 8.06E12(mol/cm^2/s)/2.483E-9(mol/cm^2) = 3.25E21 (1/s)
 
 # This is R88 in Table 2
 # """,
@@ -2317,7 +2272,7 @@ This is R89 in Table 2
 #     index = 90,
 #     label = "HCO_X <=> HCO + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (2.50E22, '1/s'),  
+#         A = (6.21E13, '1/s'),  
 #         n = -0.096,
 #         Ea = (55.5, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -2330,9 +2285,6 @@ This is R89 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 6.21E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 2.50E22 (1/s)
 
 # This is R90 in Table 2
 # """,
@@ -2368,7 +2320,7 @@ This is R91 in Table 2
 #     index = 92,
 #     label = "CH2OH_X <=> CH2OH + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (5.44E21, '1/s'),  
+#         A = (1.35E13, '1/s'),  
 #         n = -0.233,
 #         Ea = (50.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
@@ -2381,9 +2333,6 @@ This is R91 in Table 2
 # D.G. Vlachos et al. (2007)
 # Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 # DOI: 10.1021/ie070322c
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 1.35E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.44E21 (1/s)
 
 # This is R92 in Table 2
 # """,

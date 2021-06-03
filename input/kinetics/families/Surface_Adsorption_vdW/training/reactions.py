@@ -94,7 +94,7 @@ entry(
     index = 5,
     label = "X + N2 <=> N2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.464e21,'cm^3/(mol*s)'), n=0, Ea=(4000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(8.6e12,'cm^3/(mol*s)'), n=0, Ea=(4000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """N2 Surface_Adsorption_vdW""",
     longDesc = 
@@ -104,9 +104,6 @@ Original entry: N2 + X <=> N2_X
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
 Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
 https://doi.org/10.6100/IR630067
-
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A (at 300K from p.62)= 8.6E12(cm/s)/2.483E-9(mol/cm^2) = 3.464E21 cm^3/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -116,7 +113,7 @@ entry(
     index = 6,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.03e17,'1/s'), n=0, Ea=(75200,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e9,'1/s'), n=0, Ea=(75200,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -126,9 +123,6 @@ Original entry: NH3_X <=> NH3 + X
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
-
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E9(mol/cm^2/s)/2.483E-9(mol/cm^2) = 4.03E17 (1/s)
 
 This is R2 in Table 1
 """,
@@ -140,7 +134,7 @@ entry(
     index = 7,
     label = "H2OX <=> H2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.03e21,'1/s'), n=0, Ea=(40300,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(40300,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -150,9 +144,6 @@ Original entry: H2O_X <=> H2O + X
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
-
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 4.03E21 (1/s)
 
 This is R19 in Table 1
 """,
@@ -187,7 +178,7 @@ entry(
     index = 9,
     label = "H2OX <=> H2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.38e24,'1/s'), n=0, Ea=(18333.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(5.9e15,'1/s'), n=0, Ea=(18333.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -198,8 +189,6 @@ Original entry: H2O_X <=> H2O + X
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 5.9E15(1/s)/2.483E-9(mol/cm^2) = 2.38E24 cm^2/(mol*s)
 Ea = 0.19eV = 18333.1J/mol
 
 This is R10 in Table S2 and S4
@@ -212,7 +201,7 @@ entry(
     index = 10,
     label = "N2OX <=> N2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(5.64e24,'1/s'), n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.4e16,'1/s'), n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -236,7 +225,7 @@ entry(
     index = 11,
     label = "H2OX <=> H2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.4e24,'1/s'), n=0, Ea=(24122.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.7e15,'1/s'), n=0, Ea=(24122.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -247,8 +236,6 @@ Original entry: H2O_X <=> H2O + X
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
-A = 3.7E15(1/s)/2.634E-9(mol/cm^2) = 1.40E24 cm^2/(mol*s)
 Ea = 0.25eV = 24122.5J/mol
 
 This is R10 in Table S2 and S4
@@ -261,7 +248,7 @@ entry(
     index = 12,
     label = "N2OX <=> N2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(5.69e25,'1/s'), n=0, Ea=(9649,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.5e17,'1/s'), n=0, Ea=(9649,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -272,8 +259,6 @@ Original entry: N2O_X <=> N2O + X
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
-A = 1.5E17(1/s)/2.634E-9(mol/cm^2) = 5.69E25 cm^2/(mol*s)
 Ea = 0.1eV = 9649J/mol
 
 This is R15 in Table S2 and S4
@@ -508,7 +493,7 @@ entry(
     index = 23,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.68e16,'1/s'), n=0, Ea=(88574.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(9.53e7,'1/s'), n=0, Ea=(88574.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -520,8 +505,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
-A = 9.53E7(mol/cm^2/s)/2.587E-9(mol/cm^2) = 3.68E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D1 in Table 3
@@ -534,7 +517,7 @@ entry(
     index = 24,
     label = "H2X <=> H2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.69e16,'1/s'), n=0, Ea=(30972.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(9.54e7,'1/s'), n=0, Ea=(30972.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """H2 Surface_Adsorption_vdW""",
     longDesc = 
@@ -546,8 +529,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
-A = 9.54E7(mol/cm^2/s)/2.587E-9(mol/cm^2) = 3.69E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D3 in Table 3
@@ -560,7 +541,7 @@ entry(
     index = 25,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.9e16,'1/s'), n=0, Ea=(72149.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.29e8,'1/s'), n=0, Ea=(72149.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -572,8 +553,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
-A = 1.29E8(mol/cm^2/s)/2.630E-9(mol/cm^2) = 4.90E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D1 in Table 3
@@ -586,7 +565,7 @@ entry(
     index = 26,
     label = "X + N2 <=> N2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.9e16,'cm^3/(mol*s)'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.29e8,'cm^3/(mol*s)'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -598,8 +577,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
-A = 1.29E8(cm/s)/2.630E-9(mol/cm^2) = 4.90E16 (cm^3/(mol*s))
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is A2 in Table 3
@@ -612,7 +589,7 @@ entry(
     index = 27,
     label = "H2X <=> H2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.9e16,'1/s'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.29e8,'1/s'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """H2 Surface_Adsorption_vdW""",
     longDesc = 
@@ -624,8 +601,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
-A = 1.29E8(mol/cm^2/s)/2.630E-9(mol/cm^2) = 4.90E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D3 in Table 3
@@ -638,7 +613,7 @@ entry(
     index = 28,
     label = "CO2X-2 <=> CO2-2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(3.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(3.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -651,9 +626,6 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
 This is R8 in Appendix A
 """,
     metal = "Pt",
@@ -664,7 +636,7 @@ entry(
     index = 29,
     label = "H2OX <=> H2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(10.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(10.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption""",
     longDesc = 
@@ -677,9 +649,6 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
 This is R16 in Appendix A
 """,
     metal = "Pt",
@@ -690,7 +659,7 @@ entry(
     index = 30,
     label = "H3NX <=> H3N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(20.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(20.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -703,9 +672,6 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
 This is R44 in Appendix A
 """,
     metal = "Pt",
@@ -716,7 +682,7 @@ entry(
     index = 31,
     label = "CHNX <=> CHN + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(21.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(21.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -729,9 +695,6 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
 This is R82 in Appendix A
 """,
     metal = "Pt",
@@ -742,7 +705,7 @@ entry(
     index = 32,
     label = "CH2OX <=> CH2O + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(14.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(14.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -755,9 +718,6 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
 This is R96 in Appendix A
 """,
     metal = "Pt",
@@ -768,7 +728,7 @@ entry(
     index = 33,
     label = "C2N2X <=> C2N2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(21,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(21,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
@@ -781,14 +741,35 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
 This is R122 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
     metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 34,
+    label = "N2X <=> N2 + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(9.52e7,'1/s'), n=0, Ea=(10807,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: N2_X <=> N2 + X
+"Kinetic and mechanistic analysis of NH3 decomposition 
+on Ru(0001), Ru(111) and Ir(111) surfaces"
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
+DOI: 10.1039/d1na00015b
+
+Ea was calculated from A factor and k rate constant in Table 3
+
+This is D2 in Table 3
+""",
+    metal = "Ir",
     facet = "111",
 )
 

@@ -39,7 +39,7 @@ This is R0 in Table 2 at T=300K
 #     index = 2,
 #     label = "N2H4_X <=> N2H4 + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.45e28, '1/s'),  
+#         A = (4.27e19, '1/s'),  
 #         n = -3.337,
 #         Ea = (0, 'J/mol'),  
 #         Tmin = (200, 'K'),
@@ -52,7 +52,6 @@ This is R0 in Table 2 at T=300K
 # Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 # DOI:10.1039/C6FD00186F
 
-# This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to calculate the A factor.
 # A and n was calculated by numpy.linalg.lstsq from Table 1
 
 # This is R1 in Table 1
@@ -66,7 +65,7 @@ This is R0 in Table 2 at T=300K
 #     index = 3,
 #     label = "NH3_X <=> NH3 + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (4.39E25, '1/s'),  
+#         A = (1.29E15, '1/s'),  
 #         n = -2.186,
 #         Ea = (0, 'J/mol'),  
 #         Tmin = (200, 'K'),
@@ -79,7 +78,6 @@ This is R0 in Table 2 at T=300K
 # Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 # DOI:10.1039/C6FD00186F
 
-# This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to calculate the A factor.
 # A and n was calculated by numpy.linalg.lstsq from Table 1
 
 # This is R2 in Table 1
@@ -116,7 +114,7 @@ This is R3 in Table 2 at T=300K
 #     index = 5,
 #     label = "N2_X <=> N2 + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (4.33E26, '1/s'),  
+#         A = (1.27E18, '1/s'),  
 #         n = -2.938,
 #         Ea = (0, 'J/mol'),  
 #         Tmin = (200, 'K'),
@@ -129,7 +127,6 @@ This is R3 in Table 2 at T=300K
 # Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 # DOI:10.1039/C6FD00186F
 
-# This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to calculate the A factor.
 # A and n was calculated by numpy.linalg.lstsq from Table 1
 
 # This is R4 in Table 1
@@ -467,7 +464,7 @@ entry(
     index = 18,
     label = "[Pt]NN[Pt] <=> NH_X + NH_X",
     kinetics = SurfaceArrhenius(
-        A = (1.49E20, '1/s'),  
+        A = (4.39E11, '1/s'),  
         n = 0.299,
         Ea = (76227, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -480,7 +477,6 @@ of hydrazine on the Cu(111) surface"
 Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 DOI:10.1039/C6FD00186F
 
-This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
 A and n was calculated by numpy.linalg.lstsq from Table 1
 
 This is R26 in Table 1
@@ -495,7 +491,7 @@ entry(
     index = 19,
     label = "[Pt]NN=[Pt] <=> NH_X + N_X",
     kinetics = SurfaceArrhenius(
-        A = (8.81E19, '1/s'),  
+        A = (2.59E11, '1/s'),  
         n = 0.619,
         Ea = (137016, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -508,7 +504,6 @@ of hydrazine on the Cu(111) surface"
 Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 DOI:10.1039/C6FD00186F
 
-This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
 A and n was calculated by numpy.linalg.lstsq from Table 1
 
 This is R28 in Table 1
@@ -803,7 +798,7 @@ entry(
     index = 30,
     label = "[Pt]=NN=[Pt] <=> N_X + N_X",
     kinetics = SurfaceArrhenius(
-        A = (1.62E20, '1/s'), 
+        A = (4.77E11, '1/s'), 
         n = 0.06,
         Ea = (452538, 'J/mol'),
         Tmin = (200, 'K'),
@@ -816,7 +811,6 @@ of hydrazine on the Cu(111) surface"
 Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 DOI:10.1039/C6FD00186F
 
-This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
 A and n was calculated by numpy.linalg.lstsq from Table 1
 
 This is R50 in Table 1

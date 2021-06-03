@@ -45,7 +45,7 @@ entry(
     index = 2,
     label = "O_X <=> O + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (86, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -58,9 +58,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R2 in Appendix A
 
@@ -205,7 +202,7 @@ entry(
     index = 8,
     label = "CO2_X <=> CO2 + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (3.6, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -218,9 +215,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R8 in Appendix A
 """,
@@ -316,7 +310,7 @@ entry(
     index = 12,
     label = "H_X <=> H + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (60.9, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -329,9 +323,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R12 in Appendix A
 
@@ -422,7 +413,7 @@ entry(
     index = 16,
     label = "H2O_X <=> H2O + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (10.3, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -435,9 +426,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R16 in Appendix A
 """,
@@ -476,7 +464,7 @@ entry(
     index = 18,
     label = "OH_X <=> OH + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (63, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -489,9 +477,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R18 in Appendix A
 
@@ -699,7 +684,7 @@ entry(
     index = 26,
     label = "COOH_X <=> COOH + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (56.3, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -712,9 +697,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R26 in Appendix A
 
@@ -1099,7 +1081,7 @@ entry(
     index = 40,
     label = "N_X <=> N + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (107.4, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -1112,9 +1094,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R40 in Appendix A
 
@@ -1205,7 +1184,7 @@ entry(
     index = 44,
     label = "NH3_X <=> NH3 + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (20.7, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -1218,9 +1197,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R44 in Appendix A
 """,
@@ -1259,7 +1235,7 @@ entry(
     index = 46,
     label = "NH2_X <=> NH2 + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (54.6, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -1272,9 +1248,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R46 in Appendix A
 
@@ -1315,7 +1288,7 @@ entry(
     index = 48,
     label = "NH_X <=> NH + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (83, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -1328,9 +1301,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R48 in Appendix A
 
@@ -1866,7 +1836,7 @@ entry(
     index = 68,
     label = "NO_X <=> NO + X",
     kinetics = SurfaceArrhenius(
-        A = (4E24, '1/s'),  
+        A = (1E16, '1/s'),  
         n = 0.0,
         Ea = (30.5, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -1879,9 +1849,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E16(1/s)/2.5E-9(mol/cm^2) = 4E24 cm^2/(mol*s)
 
 This is R68 in Appendix A
 """,
@@ -1918,7 +1885,7 @@ entry(
     index = 70,
     label = "NO2_X <=> NO2 + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (23.5, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -1931,9 +1898,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R70 in Appendix A
 """,
@@ -2247,7 +2211,7 @@ entry(
     index = 82,
     label = "HCN_X <=> HCN + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (21.3, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -2260,9 +2224,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R82 in Appendix A
 """,
@@ -2301,7 +2262,7 @@ entry(
     index = 84,
     label = "CN_X <=> CN + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (78.2, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -2314,9 +2275,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R84 in Appendix A
 
@@ -2632,7 +2590,7 @@ entry(
     index = 96,
     label = "CH2O_X <=> CH2O + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (14.7, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -2645,9 +2603,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R96 in Appendix A
 """,
@@ -2686,7 +2641,7 @@ entry(
     index = 98,
     label = "HCO_X <=> HCO + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (54.4, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -2699,9 +2654,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R98 in Appendix A
 
@@ -3074,7 +3026,7 @@ entry(
     index = 112,
     label = "C_X <=> C + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (158.2, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -3087,9 +3039,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R112 in Appendix A
 
@@ -3240,7 +3189,7 @@ entry(
     index = 118,
     label = "N2O_X <=> N2O + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (6.7, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -3253,9 +3202,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R118 in Appendix A
 """,
@@ -3349,7 +3295,7 @@ entry(
     index = 122,
     label = "C2N2_X <=> C2N2 + X",
     kinetics = SurfaceArrhenius(
-        A = (4E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (21, 'kcal/mol'),  
         Tmin = (200, 'K'),
@@ -3362,9 +3308,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R122 in Appendix A
 
