@@ -46,7 +46,7 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R44
-""", #This is Reaction R44
+""", 
     metal = 'Ni',
 )
 
@@ -69,7 +69,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 4.667E11 1/s / 2.943e‐5 mol/m^2 = 1.586e16 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""",
     metal = "Cu",
 )
 
@@ -269,7 +269,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 2.570E12 1/s / 2.943e‐5 mol/m^2 = 8.733e16 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -292,7 +292,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 3.698E12 1/s / 2.943e‐5 mol/m^2 = 1.257e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -336,7 +336,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 2.193E13 1/s / 2.943e‐5 mol/m^2 = 7.452e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -359,7 +359,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 5.485E13 1/s / 2.943e‐5 mol/m^2 = 1.864e18 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -380,7 +380,7 @@ entry(
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
 Catalysts, 2015, 5, 871-904. Reaction R48
-""", #This is Reaction R48 not R8
+""", 
     metal = "Ni",
 )
 
@@ -403,7 +403,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 9.240E12 1/s / 2.943e‐5 mol/m^2 = 3.140e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -1438,53 +1438,53 @@ This is R6 in Table 3
 
 entry(
     index = 57,
-    label = "X_4 + H2N2X2 <=> HN2X2 + HX_5",
-    degeneracy = 2.0,
-    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(67543,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    label = "HX_5 + OCX_3 <=> CXHO_1 + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(30.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Roldan_Ir111
-Original entry: [Pt]NN[Pt] + X <=> [Pt]NN=[Pt] + H_X
-"Mechanistic study of hydrazine decomposition on Ir(111)"
-Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
-DOI: 10.1039/c9cp06525c
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: CO_X + H_X <=> HCO_X + X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
-to estimate a default(1E13) A factor.
-A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
-Ea = 0.7eV = 67543J/mol
+Surface site density used in this paper is 2.5E-9 mol/cm^2
+A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
 
-This is R8 in Table 3
+This is R106 in Appendix A
 """,
-    metal = "Ir",
+    metal = "Pt",
     facet = "111",
 )
 
 entry(
     index = 58,
-    label = "X_4 + HN2X2-2 <=> N2X2 + HX_5",
+    label = "NOX + NX <=> N2OX + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(126402,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(19.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Roldan_Ir111
-Original entry: [Pt]NN=[Pt] + X <=> N2_X + H_X
-"Mechanistic study of hydrazine decomposition on Ir(111)"
-Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
-DOI: 10.1039/c9cp06525c
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: N_X + NO_X <=> N2O_X + X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
-to estimate a default(1E13) A factor.
-A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
-Ea = 1.31eV = 126401.9J/mol
+Surface site density used in this paper is 2.5E-9 mol/cm^2
+A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
 
-This is R10 in Table 3
+This is R120 in Appendix A
 """,
-    metal = "Ir",
+    metal = "Pt",
     facet = "111",
 )
 
@@ -1819,58 +1819,6 @@ Surface site density used in this paper is 2.5E-9 mol/cm^2
 A = 3E12(1/s)/2.5E-9(mol/cm^2) = 1.2E21 cm^2/(mol*s)
 
 This is R80 in Appendix A
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 72,
-    label = "HX_5 + OCX_3 <=> CXHO_1 + X_4",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(30.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Dissociation""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: CO_X + H_X <=> HCO_X + X
-"A detailed microkinetic model for diesel engine emissions oxidation 
-on platinum based diesel oxidation catalysts (DOC)"
-Hom Sharma & Ashish Mhadeshwar. (2012). 
-Applied Catalysis B: Environmental, 127, 190-204
-DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
-
-This is R106 in Appendix A
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 73,
-    label = "NOX + NX <=> N2OX + X_4",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(19.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Dissociation""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: N_X + NO_X <=> N2O_X + X
-"A detailed microkinetic model for diesel engine emissions oxidation 
-on platinum based diesel oxidation catalysts (DOC)"
-Hom Sharma & Ashish Mhadeshwar. (2012). 
-Applied Catalysis B: Environmental, 127, 190-204
-DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
-
-This is R120 in Appendix A
 """,
     metal = "Pt",
     facet = "111",

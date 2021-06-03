@@ -14,7 +14,7 @@ entry(
     index = 2,
     label = "NH3_X <=> NH3 + X",
     kinetics = SurfaceArrhenius(
-        A = (4.03E17, '1/s'),  
+        A = (1E9, '1/s'),  
         n = 0.0,
         Ea = (75200, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -25,9 +25,6 @@ entry(
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
-
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E9(mol/cm^2/s)/2.483E-9(mol/cm^2) = 4.03E17 (1/s)
 
 This is R2 in Table 1 
 """,
@@ -263,7 +260,7 @@ entry(
     index = 15,
     label = "NO_X <=> NO + X",
     kinetics = SurfaceArrhenius(
-        A = (4.03E24, '1/s'),  
+        A = (1E16, '1/s'),  
         n = 0.0,
         Ea = (140000, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -274,9 +271,6 @@ entry(
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
-
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E16(1/s)/2.483E-9(mol/cm^2) = 4.03E24 cm^2/(mol*s)
 
 This is R15 in Table 1 
 """,
@@ -338,7 +332,7 @@ entry(
    index = 19,
    label = "H2O_X <=> H2O + X",
    kinetics = SurfaceArrhenius(
-       A = (4.03E21, '1/s'),  
+       A = (1E13, '1/s'),  
        n = 0.0,
        Ea = (40300, 'J/mol'),  
        Tmin = (200, 'K'),
@@ -349,9 +343,6 @@ entry(
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
-
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E13(mol/cm^2/s)/2.483E-9(mol/cm^2) = 4.03E21 (1/s)
 
 This is R19 in Table 1 
 """,

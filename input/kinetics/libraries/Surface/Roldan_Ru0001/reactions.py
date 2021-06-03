@@ -16,7 +16,7 @@ entry(
     index = 1,
     label = "NH3_X <=> NH3 + X",
     kinetics = SurfaceArrhenius(
-        A = (4.90E16, '1/s'),  
+        A = (1.29E8, '1/s'),  
         n = 0.0,
         Ea = (72149.60, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -29,8 +29,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
-A = 1.29E8(mol/cm^2/s)/2.630E-9(mol/cm^2) = 4.90E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D1 in Table 3
@@ -160,7 +158,7 @@ entry(
     index = 6,
     label = "N2 + X <=> N2_X",
     kinetics = SurfaceArrhenius(
-        A = (4.90E16, 'cm^3/(mol*s)'),  
+        A = (1.29E8, 'cm^3/(mol*s)'),  
         n = 0.0,
         Ea = (24482.97, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -173,8 +171,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
-A = 1.29E8(cm/s)/2.630E-9(mol/cm^2) = 4.90E16 (cm^3/(mol*s))
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is A2 in Table 3
@@ -217,7 +213,7 @@ entry(
     index = 8,
     label = "H2_X <=> H2 + X",
     kinetics = SurfaceArrhenius(
-        A = (4.90E16, '1/s'),  
+        A = (1.29E8, '1/s'),  
         n = 0.0,
         Ea = (24482.97, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -230,8 +226,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
-A = 1.29E8(mol/cm^2/s)/2.630E-9(mol/cm^2) = 4.90E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D3 in Table 3

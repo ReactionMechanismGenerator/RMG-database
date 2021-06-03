@@ -95,7 +95,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 6.793e13 1/s / 2.943e‐5 mol/m^2 = 2.308e18 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -118,7 +118,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 1.436e11 1/s / 2.943e‐5 mol/m^2 = 4.879e15 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -162,7 +162,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 1.302e14 1/s / 2.943e‐5 mol/m^2 = 4.424e18 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -171,7 +171,7 @@ entry(
     label = "CH3O* + H* <=> CH3OH_2* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A = (4.349e22, 'm^2/(mol*s)'),
+        A = (4.349e17, 'm^2/(mol*s)'),
         n = 0.,
         Ea = (10.8384576, 'kcal/mol'),
         Tmin = (298, 'K'),
@@ -184,8 +184,8 @@ Reaction 25 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-1.28e18 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 4.349e22 m^2/(mol*s)
-""", #Ting-Chen: A in the paper is 1.28e13; so 1.28e13 1/s / 2.943e‐5 mol/m^2 = 4.349e17 m^2/(mol*s)
+1.28e13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 4.349e17 m^2/(mol*s)
+""", 
     metal = "Cu",
 )
 
@@ -208,7 +208,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 5.685e12 1/s / 2.943e‐5 mol/m^2 = 1.932e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -231,7 +231,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 8.189e12 1/s / 2.943e‐5 mol/m^2 = 2.783e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""",
     metal = "Cu",
 )
 
@@ -254,7 +254,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 5.242e12 1/s / 2.943e‐5 mol/m^2 = 1.781e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 

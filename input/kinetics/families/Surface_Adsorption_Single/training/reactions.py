@@ -127,7 +127,7 @@ entry(
     index = 5,
     label = "NO_X <=> NO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.03e24,'1/s'), n=0, Ea=(140000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e16,'1/s'), n=0, Ea=(140000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -137,9 +137,6 @@ Original entry: NO_X <=> NO + X
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
-
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E16(1/s)/2.483E-9(mol/cm^2) = 4.03E24 cm^2/(mol*s)
 
 This is R15 in Table 1
 """,
@@ -174,7 +171,7 @@ entry(
     index = 7,
     label = "NO2X <=> NO2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(5.24e22,'1/s'), n=0, Ea=(100000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.3e14,'1/s'), n=0, Ea=(100000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -185,9 +182,6 @@ Original entry: NO2_X <=> NO2 + X
 Scheuer et al. Applied Catalysis B: Environmental 111–112 (2012) 445–455
 https://doi.org/10.1016/j.apcatb.2011.10.032
 
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1.3E14(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.24E22 (1/s)
-
 This is R13 in Table 1
 """,
     metal = "Pt",
@@ -197,7 +191,7 @@ entry(
     index = 8,
     label = "NO_X <=> NO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.05e26,'1/s'), n=0, Ea=(184296,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.6e17,'1/s'), n=0, Ea=(184296,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -208,8 +202,6 @@ Original entry: NO_X <=> NO + X
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 2.6E17(1/s)/2.483E-9(mol/cm^2) = 1.05E26 cm^2/(mol*s)
 Ea = 1.91eV = 184295.9J/mol
 
 This is R13 in Table S2 and S4
@@ -222,7 +214,7 @@ entry(
     index = 9,
     label = "NO_X <=> NO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.94e25,'1/s'), n=0, Ea=(224822,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.3e17,'1/s'), n=0, Ea=(224822,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -233,8 +225,6 @@ Original entry: NO_X <=> NO + X
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
-A = 1.3E17(1/s)/2.634E-9(mol/cm^2) = 4.94E25 cm^2/(mol*s)
 Ea = 2.33eV = 224821.7J/mol
 
 This is R13 in Table S2 and S4
@@ -245,22 +235,22 @@ This is R13 in Table S2 and S4
 
 entry(
     index = 10,
-    label = "X + HO <=> HOX",
+    label = "HOX <=> X + HO",
     degeneracy = 1.0,
-    kinetics = StickingCoefficient(A=0.999, n=2, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.44e14,'1/s'), n=2.00, Ea=(63.0, 'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Vlachos_Pt111
-Original entry: OH + X <=> OH_X
+Original entry: OH_X <=> OH + X
 "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
 Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
 D.G. Vlachos et al. (2007)
 Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 DOI: 10.1021/ie070322c
 
-This is R19 in Table 1
+This is R20 in Table 1
 """,
     metal = "Pt",
     facet = "111",
@@ -431,7 +421,7 @@ entry(
     index = 18,
     label = "HX <=> H + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(60.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(60.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -443,9 +433,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R12 in Appendix A
 
@@ -459,7 +446,7 @@ entry(
     index = 19,
     label = "HOX <=> HO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(63,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(63,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -471,9 +458,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R18 in Appendix A
 
@@ -487,7 +471,7 @@ entry(
     index = 20,
     label = "CHO2X <=> CHO2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(56.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(56.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -499,9 +483,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R26 in Appendix A
 
@@ -515,7 +496,7 @@ entry(
     index = 21,
     label = "H2NX <=> H2N + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(54.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(54.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -527,9 +508,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R46 in Appendix A
 
@@ -543,7 +521,7 @@ entry(
     index = 22,
     label = "NO_X <=> NO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+24,'1/s'), n=0, Ea=(30.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e16,'1/s'), n=0, Ea=(30.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -556,9 +534,6 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E16(1/s)/2.5E-9(mol/cm^2) = 4E24 cm^2/(mol*s)
-
 This is R68 in Appendix A
 """,
     metal = "Pt",
@@ -569,7 +544,7 @@ entry(
     index = 23,
     label = "NO2X <=> NO2 + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(23.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(23.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -582,9 +557,6 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
 This is R70 in Appendix A
 """,
     metal = "Pt",
@@ -595,7 +567,7 @@ entry(
     index = 24,
     label = "CNX <=> CN + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(78.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(78.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -607,9 +579,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R84 in Appendix A
 
@@ -623,7 +592,7 @@ entry(
     index = 25,
     label = "CHOX <=> CHO + X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'1/s'), n=0, Ea=(54.4,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(54.4,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
@@ -635,9 +604,6 @@ on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
-
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
 
 This is R98 in Appendix A
 

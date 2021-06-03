@@ -22,7 +22,7 @@ entry(
     index = 2,
     label = "NH3_X <=> NH3 + X",
     kinetics = SurfaceArrhenius(
-        A = (3.68E16, '1/s'),  
+        A = (9.53E7, '1/s'),  
         n = 0.0,
         Ea = (88574.75, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -35,8 +35,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
-A = 9.53E7(mol/cm^2/s)/2.587E-9(mol/cm^2) = 3.68E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D1 in Table 3
@@ -47,23 +45,21 @@ This is D1 in Table 3
 
 entry(
     index = 3,
-    label = "N2_X <=> N2 + X + X",
+    label = "N2_X <=> N2 + X",
     kinetics = SurfaceArrhenius(
-        A = (3.68E16, '1/s'),  
+        A = (9.52E7, '1/s'),  
         n = 0.0,
         Ea = (10806.96, 'J/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Adsorption_Bidentate""",
+    shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
-A = 9.52E7(mol/cm^2/s)/2.587E-9(mol/cm^2) = 3.68E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D2 in Table 3
@@ -76,7 +72,7 @@ entry(
     index = 4,
     label = "H2_X <=> H2 + X",
     kinetics = SurfaceArrhenius(
-        A = (3.69E16, '1/s'),  
+        A = (9.53E7, '1/s'),  
         n = 0.0,
         Ea = (30972.36, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -89,8 +85,6 @@ on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to calculate the A factor.
-A = 9.54E7(mol/cm^2/s)/2.587E-9(mol/cm^2) = 3.69E16 (1/s)
 Ea was calculated from A factor and k rate constant in Table 3
 
 This is D3 in Table 3
@@ -157,23 +151,20 @@ This is R6 in Table 3
 
 entry(
     index = 8,
-    label = "[Pt]NN[Pt] + X <=> [Pt]NN=[Pt] + H_X",
+    label = "[Pt]NN[Pt] <=> N2H_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (67543, 'J/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Dissociation""",
+    shortDesc = u"""""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
 Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
-to estimate a default(1E13) A factor.
-A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
 Ea = 0.7eV = 67543J/mol
 
 This is R8 in Table 3
@@ -186,7 +177,7 @@ This is R8 in Table 3
 
 entry(
     index = 10,
-    label = "[Pt]NN=[Pt] + X <=> N2_X + H_X",
+    label = "N2H_X + X <=> N2_X + H_X",
     kinetics = SurfaceArrhenius(
         A = (3.87E21, 'cm^2/(mol*s)'),  
         n = 0.0,
@@ -194,7 +185,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Dissociation""",
+    shortDesc = u"""Surface_Addition_Single_vdW""",
     longDesc = u"""
 "Mechanistic study of hydrazine decomposition on Ir(111)"
 Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
@@ -323,7 +314,7 @@ entry(
     index = 15,
     label = "[Pt]NN=[Pt] <=> NH_X + N_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, '1/s'),  
+        A = (1E13, '1/s'),  
         n = 0.0,
         Ea = (137980.7, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -335,9 +326,6 @@ entry(
 Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
-to estimate a default(1E13) A factor.
-A = 1E13(mol/cm^2/s)/2.587E-9(mol/cm^2) = 3.87E21 (1/s)
 Ea = 1.43eV = 137980.7J/mol
 
 This is R15 in Table 3
@@ -483,7 +471,7 @@ This is R20 in Table 3
 
 entry(
     index = 21,
-    label = "[Pt]NN=[Pt] + NH2_X <=> N2_X + NH3_X",
+    label = "[Pt]NN=[Pt] + NH2_X <=> [Pt]=NN=[Pt] + NH3_X",
     kinetics = SurfaceArrhenius(
         A = (3.87E21, 'cm^2/(mol*s)'),  
         n = 0.0,
