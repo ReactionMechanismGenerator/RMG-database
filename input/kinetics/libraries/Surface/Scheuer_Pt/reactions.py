@@ -115,7 +115,7 @@ This is R3 in Table 1
 #     index = 6,
 #     label = "NO_X <=> NO + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.13E25, '1/s'),  
+#         A = (6E17, '1/s'),  
 #         n = 0.0,
 #         Ea = (126000, 'J/mol'),  
 #         Tmin = (200, 'K'),
@@ -126,9 +126,6 @@ This is R3 in Table 1
 # "Dual layer automotive ammonia oxidation catalysts: Experiments and computer simulation"
 # Scheuer et al. Applied Catalysis B: Environmental 111–112 (2012) 445–455
 # https://doi.org/10.1016/j.apcatb.2011.10.032
-
-# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A = 6E17(mol/cm^2/s)/2.483E-9(mol/cm^2) = 1.13E25 (1/s)
 
 # This is R6 in Table 1 
 # """,
@@ -284,7 +281,7 @@ entry(
    index = 13,
    label = "NO2_X <=> NO2 + X",
    kinetics = SurfaceArrhenius(
-       A = (5.24E22, '1/s'),  
+       A = (1.3E14, '1/s'),  
        n = 0.0,
        Ea = (100000, 'J/mol'),  
        Tmin = (200, 'K'),
@@ -295,9 +292,6 @@ entry(
 "Dual layer automotive ammonia oxidation catalysts: Experiments and computer simulation"
 Scheuer et al. Applied Catalysis B: Environmental 111–112 (2012) 445–455
 https://doi.org/10.1016/j.apcatb.2011.10.032
-
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1.3E14(mol/cm^2/s)/2.483E-9(mol/cm^2) = 5.24E22 (1/s)
 
 This is R13 in Table 1 
 """,
