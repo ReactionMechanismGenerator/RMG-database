@@ -248,7 +248,7 @@ entry(
     index = 10,
     label = "H2O_X <=> H2O + X",
     kinetics = SurfaceArrhenius(
-        A = (1.40E24, '1/s'), 
+        A = (3.7E15, '1/s'), 
         n = 0.0,
         Ea = (24122.5, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -260,8 +260,6 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
-A = 3.7E15(1/s)/2.634E-9(mol/cm^2) = 1.40E24 cm^2/(mol*s)
 Ea = 0.25eV = 24122.5J/mol
 
 This is R10 in Table S2 and S4
@@ -326,7 +324,7 @@ entry(
     index = 13,
     label = "NO_X <=> NO + X",
     kinetics = SurfaceArrhenius(
-        A = (4.94E25, '1/s'),   
+        A = (1.3E17, '1/s'),   
         n = 0.0,
         Ea = (224821.7, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -338,8 +336,6 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
-A = 1.3E17(1/s)/2.634E-9(mol/cm^2) = 4.94E25 cm^2/(mol*s)
 Ea = 2.33eV = 224821.7J/mol
 
 This is R13 in Table S2 and S4
@@ -378,7 +374,7 @@ entry(
     index = 15,
     label = "N2O_X <=> N2O + X",
     kinetics = SurfaceArrhenius(
-        A = (5.69E25, '1/s'), 
+        A = (1.5E17, '1/s'), 
         n = 0.0,
         Ea = (9649, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -390,8 +386,6 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
-A = 1.5E17(1/s)/2.634E-9(mol/cm^2) = 5.69E25 cm^2/(mol*s)
 Ea = 0.1eV = 9649J/mol
 
 This is R15 in Table S2 and S4

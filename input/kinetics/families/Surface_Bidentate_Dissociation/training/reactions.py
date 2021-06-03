@@ -7,11 +7,12 @@ longDesc = u"""
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
+
 entry(
     index = 1,
     label = "H2N2X2 <=> HNX + HNX-2",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.49e20,'1/s'), n=0.299, Ea=(76227,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.39e11,'1/s'), n=0.299, Ea=(76227,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
@@ -23,7 +24,6 @@ of hydrazine on the Cu(111) surface"
 Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 DOI:10.1039/C6FD00186F
 
-This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
 A and n was calculated by numpy.linalg.lstsq from Table 1
 
 This is R26 in Table 1
@@ -36,7 +36,7 @@ entry(
     index = 2,
     label = "HN2X2 <=> HNX + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(8.81e19,'1/s'), n=0.619, Ea=(137016,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.59e11,'1/s'), n=0.619, Ea=(137016,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
@@ -48,7 +48,6 @@ of hydrazine on the Cu(111) surface"
 Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 DOI:10.1039/C6FD00186F
 
-This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
 A and n was calculated by numpy.linalg.lstsq from Table 1
 
 This is R28 in Table 1
@@ -61,7 +60,7 @@ entry(
     index = 3,
     label = "N2X2 <=> NX-2 + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.62e20,'1/s'), n=0.06, Ea=(452538,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4.77e11,'1/s'), n=0.06, Ea=(452538,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
@@ -73,7 +72,6 @@ of hydrazine on the Cu(111) surface"
 Tafreshi, S. S., Roldan, A. & de Leeuw, N. H. (2017). Faraday Discussions, 197, 41-57. 
 DOI:10.1039/C6FD00186F
 
-This reaction used RMG's surface site density of Cu111 = 2.943E-9(mol/cm^2) to estimate A factor.
 A and n was calculated by numpy.linalg.lstsq from Table 1
 
 This is R50 in Table 1
@@ -86,7 +84,7 @@ entry(
     index = 4,
     label = "HN2X2 <=> HNX + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.87e21,'1/s'), n=0, Ea=(137981,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(137981,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Bidentate_Dissociation""",
     longDesc = 
@@ -97,9 +95,6 @@ Original entry: [Pt]NN=[Pt] <=> NH_X + N_X
 Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
-to estimate a default(1E13) A factor.
-A = 1E13(mol/cm^2/s)/2.587E-9(mol/cm^2) = 3.87E21 (1/s)
 Ea = 1.43eV = 137980.7J/mol
 
 This is R15 in Table 3

@@ -27,7 +27,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 2.3626e13 1/s / 2.943e‐5 mol/m^2 = 8.028e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""",
     metal = "Cu",
 )
 
@@ -97,7 +97,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 3.658e13 1/s / 2.943e‐5 mol/m^2 = 1.243e18 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -120,7 +120,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 6.244e14 1/s / 2.943e‐5 mol/m^2 = 2.122e19 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -145,7 +145,7 @@ Spontaneous in this direction, so 1e13 and barrierless assumed in paper
 
 A factor from paper / surface site density of Cu
 1.001e13 1/s / 2.943e‐5 mol/m^2 = 3.401e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -168,7 +168,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 1.815e13 1/s / 2.943e‐5 mol/m^2 = 6.167e17 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -191,7 +191,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 9.518e14 1/s / 2.943e‐5 mol/m^2 = 3.234e19 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -214,7 +214,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 6.405e13 1/s / 2.943e‐5 mol/m^2 = 2.176e18 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -237,7 +237,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 1.536e12 1/s / 2.943e‐5 mol/m^2 = 5.219e16 m^2/(mol*s)
-""", #Ting-Chen: I think the unit of the A factor in the paper is 1/s rather than m^4/(mol^2 * s)
+""", 
     metal = "Cu",
 )
 
@@ -366,6 +366,32 @@ A = 1E11(1/s)/2.5E-9(mol/cm^2) = 4E19 cm^2/(mol*s)
 This is R32 in Appendix A
 """,
     metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 15,
+    label = "X_5 + HN2X <=> N2X + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.87e21,'cm^2/(mol*s)'), n=0, Ea=(126402,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Addition_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Roldan_Ir111
+Original entry: N2H_X + X <=> N2_X + H_X
+"Mechanistic study of hydrazine decomposition on Ir(111)"
+Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+DOI: 10.1039/c9cp06525c
+
+This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+to estimate a default(1E13) A factor.
+A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+Ea = 1.31eV = 126401.9J/mol
+
+This is R10 in Table 3
+""",
+    metal = "Ir",
     facet = "111",
 )
 
