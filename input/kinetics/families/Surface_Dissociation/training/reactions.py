@@ -98,7 +98,7 @@ entry(
 
 entry(
     index = 5,
-    label = "NH2_X + Ni_4 <=> NHX_2 + HX_5",
+    label = "NH2_X + X_4 <=> NHX_2 + HX_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
         A = (1.2415e+18, 'm^2/(mol*s)'),
@@ -122,7 +122,7 @@ entry(
 
 entry(
     index = 6,
-    label = "NHX_2 + Ni_4 <=> NX + HX_5",
+    label = "NHX_2 + X_4 <=> NX + HX_5",
     kinetics = SurfaceArrhenius(
         A = (1.78776e+18, 'm^2/(mol*s)'),
         n = 0,
@@ -167,28 +167,6 @@ entry(
 )
 
 entry(
-    index = 6,
-    label = "CH2X_3 + HX_5 <=> CH3X_1 + X_4",
-    degeneracy = 3,
-    kinetics = SurfaceArrhenius(
-        A=(3.09e19, 'm^2/(mol*s)'),
-        n = -0.087,
-        Ea=(57200.0, 'J/mol'),
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank=10,
-    shortDesc = u"""Default""",
-    longDesc = u"""
-"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
-Delgado et al
-Catalysts, 2015, 5, 871-904. Reaction R16
-""",
-    metal = "Ni",
-)
-
-
-entry(
     index = 7,
     label = "CHX_3 + HX_5 <=> CH2X_1 + X_4",
     degeneracy = 2,
@@ -209,6 +187,26 @@ Catalysts, 2015, 5, 871-904. Reaction R18
     metal = "Ni",
 )
 
+entry(
+    index = 8,
+    label = "CH2X_3 + HX_5 <=> CH3X_1 + X_4",
+    degeneracy = 3,
+    kinetics = SurfaceArrhenius(
+        A=(3.09e19, 'm^2/(mol*s)'),
+        n = -0.087,
+        Ea=(57200.0, 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=10,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+"Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+Delgado et al
+Catalysts, 2015, 5, 871-904. Reaction R16
+""",
+    metal = "Ni",
+)
 #Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R9.
 #entry(
 #    index = 8,
@@ -276,7 +274,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 11,
+    index = 74,
     label = "HCOH* + HX_5 <=> CH2OH* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(

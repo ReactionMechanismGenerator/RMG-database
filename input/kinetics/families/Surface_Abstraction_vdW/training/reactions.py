@@ -1281,7 +1281,7 @@ This is R26 in Table 3
 )
 
 entry(
-    index = 6,
+    index = 51,
     label = "H3NX + O* <=> H2NX + OH_4*",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
@@ -1305,7 +1305,7 @@ A factor from paper / surface site density of Pt
 )
 
 entry(
-    index = 7,
+    index = 52,
     label = "H3NX + HOr_Pt <=> H2NX + H2O_Pt",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
@@ -1329,7 +1329,7 @@ A factor from paper / surface site density of Pt
 )
 
 entry(
-    index = 8,
+    index = 53,
     label = "H2NX-2 + OH_2*  <=> HNX + H2O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -1353,7 +1353,7 @@ A factor from paper / surface site density of Pt
 )
 
 entry(
-    index = 9,
+    index = 54,
     label = "HNX-2 + OH_2*  <=> NX + H2O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -1377,7 +1377,7 @@ A factor from paper / surface site density of Pt
 )
 
 entry(
-    index = 10,
+    index = 55,
     label = "HNX-2 + OH_2*  <=> NX + H2O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -1401,7 +1401,7 @@ A factor from paper / surface site density of Pt
 )
 
 entry(
-    index = 11,
+    index = 56,
     label = "HOr_Pt + HO123_Pt  <=> O* + H2O*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -1424,7 +1424,7 @@ A factor from paper / surface site density of Pt
     facet="533"
 )
 entry(
-    index = 51,
+    index = 57,
     label = "CO* + H2OX <=> HX + CHO2X",
     degeneracy = 2.0,
     kinetics = SurfaceArrhenius(A=(1.34e20,'cm^2/(mol*s)'), n=-0.2222, Ea=(19.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1448,7 +1448,7 @@ This is R35 in Table 4
 )
 
 entry(
-    index = 52,
+    index = 58,
     label = "CX + H2O* <=> OH_2* + CHX-2",
     degeneracy = 2.0,
     kinetics = SurfaceArrhenius(A=(3.91e20,'cm^2/(mol*s)'), n=-0.3882, Ea=(17,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1472,7 +1472,7 @@ This is R73 in Table 4
 )
 
 entry(
-    index = 53,
+    index = 59,
     label = "CO* + H2OX <=> HX + CHO2X",
     degeneracy = 2.0,
     kinetics = SurfaceArrhenius(A=(4.43e19,'cm^2/(mol*s)'), n=0.492, Ea=(23.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1498,7 +1498,7 @@ This is R33 in Table 1
 )
 
 entry(
-    index = 54,
+    index = 60,
     label = "CX + H2O* <=> OH_2* + CHX-2",
     degeneracy = 2.0,
     kinetics = SurfaceArrhenius(A=(4.19e19,'cm^2/(mol*s)'), n=0.09, Ea=(15.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1524,7 +1524,7 @@ This is R73 in Table 2
 )
 
 entry(
-    index = 55,
+    index = 61,
     label = "OH_2* + OH_4* <=> H2O* + O*",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(22.1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1550,7 +1550,7 @@ This is R24 in Appendix A
 )
 
 entry(
-    index = 56,
+    index = 62,
     label = "CHO2X + HX <=> H2OX + CO*",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(5.4,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1578,7 +1578,7 @@ This reaction is the least important ones for typical DOC conditions.
 )
 
 entry(
-    index = 57,
+    index = 63,
     label = "OH_4* + H2NX <=> H3NX + O*",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(16.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1604,7 +1604,7 @@ This is R56 in Appendix A
 )
 
 entry(
-    index = 58,
+    index = 64,
     label = "H2NX-2 + OH_2* <=> H2O* + HNX",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(12.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1630,7 +1630,7 @@ This is R64 in Appendix A
 )
 
 entry(
-    index = 59,
+    index = 65,
     label = "HNX-2 + OH_2* <=> H2O* + NX",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(22.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1656,7 +1656,7 @@ This is R66 in Appendix A
 )
 
 entry(
-    index = 60,
+    index = 66,
     label = "OH_4* + CNX <=> CHNX + O*",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(27.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1682,7 +1682,7 @@ This is R88 in Appendix A
 )
 
 entry(
-    index = 61,
+    index = 67,
     label = "OH_4* + CHOX <=> CH2OX + O*",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(30.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1708,7 +1708,7 @@ This is R101 in Appendix A
 )
 
 entry(
-    index = 62,
+    index = 68,
     label = "CO* + H2O* <=> OH_2* + HCO*",
     degeneracy = 2.0,
     kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(36.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
