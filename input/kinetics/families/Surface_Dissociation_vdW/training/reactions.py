@@ -53,7 +53,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 5,
     label = "NH3_X + X_4 <=> NH2_X + H*",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
