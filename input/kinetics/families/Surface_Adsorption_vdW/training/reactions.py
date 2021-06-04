@@ -70,85 +70,96 @@ entry(
 
 entry(
     index = 4,
-    label = "H3NX <=> H3N + X",
+    label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.48e09,'1/s'), n=0, Ea=(60900,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Krahnert_Pt111
-Original entry: NH3_X <=> NH3 + X
-"Ammonia Oxidation over Polycrystalline Platinum: 
-Surface Morphology and Kinetics at Atmospheric Pressure."
-Krähnert, Ralph(2005) A Doctoral Thesis.
-http://dx.doi.org/10.14279/depositonce-1270
+Training reaction from kinetics library: Surface/Schneider_Rh111
+Original entry: NH3 + X <=> NH3_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-A = k/exp(Ea/RT) = 2.17(1/s)/exp(60900J/mol / 8.314J/molK / 658K) = 1.48E09 (1/s)
+This is reaction (2) in Table S3
 """,
-    metal = "Pt",
+    metal = "Rh",
     facet = "111",
 )
 
 entry(
     index = 5,
-    label = "X + N2 <=> N2X",
+    label = "X + H2O <=> H2OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(8.6e12,'cm^3/(mol*s)'), n=0, Ea=(4000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(27017.2,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """N2 Surface_Adsorption_vdW""",
+    shortDesc = """Surface_Adsorption""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Offermans_Pt111
-Original entry: N2 + X <=> N2_X
-"Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
-Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
-https://doi.org/10.6100/IR630067
+Training reaction from kinetics library: Surface/Schneider_Rh111
+Original entry: H2O + X <=> H2O_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+Ea = 0.28eV = 27017.2J/mol
+
+This is reaction (10) in Table S3
 """,
-    metal = "Pt",
+    metal = "Rh",
     facet = "111",
 )
 
 entry(
     index = 6,
-    label = "H3NX <=> H3N + X",
+    label = "X + N2O <=> N2OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e9,'1/s'), n=0, Ea=(75200,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(32806.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption_vdW""",
+    shortDesc = """Surface_Adsorption_Double/Surface_Adsorption_vdW""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Rebrov_Pt111
-Original entry: NH3_X <=> NH3 + X
-"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
-Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
-https://doi.org/10.1016/S1385-8947(02)00068-2
+Training reaction from kinetics library: Surface/Schneider_Rh111
+Original entry: N2O + X <=> N2O_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-This is R2 in Table 1
+Ea = 0.34eV = 32806.6J/mol
+
+This is reaction (15) in Table S3
 """,
-    metal = "Pt",
+    metal = "Rh",
     facet = "111",
 )
 
 entry(
     index = 7,
-    label = "H2OX <=> H2O + X",
+    label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(40300,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Rebrov_Pt111
-Original entry: H2O_X <=> H2O + X
-"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
-Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
-https://doi.org/10.1016/S1385-8947(02)00068-2
+Training reaction from kinetics library: Surface/Schneider_Pt211
+Original entry: NH3 + X <=> NH3_X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
 
-This is R19 in Table 1
+This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
+A = ((2.5E3 /pa) / s) * (2.634E-9 mol/cm2) * sqrt(2 * pi * 17 g/mol * molar gas constant * 298 kelvin)
+ 
+This is R2 in Table S2 and S4
 """,
     metal = "Pt",
-    facet = "111",
+    facet = "211",
 )
 
 entry(
@@ -176,94 +187,92 @@ This is R1 in Table 1
 
 entry(
     index = 9,
-    label = "H2OX <=> H2O + X",
+    label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(5.9e15,'1/s'), n=0, Ea=(18333.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Schneider_Pt111
-Original entry: H2O_X <=> H2O + X
-"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
-https://doi.org/10.1021/acscatal.8b04251
+Training reaction from kinetics library: Surface/Schneider_Pd211
+Original entry: NH3 + X <=> NH3_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-Ea = 0.19eV = 18333.1J/mol
-
-This is R10 in Table S2 and S4
+This is reaction (2) in Table S2
 """,
-    metal = "Pt",
-    facet = "111",
+    metal = "Pd",
+    facet = "211",
 )
 
 entry(
     index = 10,
-    label = "N2OX <=> N2O + X",
+    label = "X + H2O <=> H2OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.4e16,'1/s'), n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(30876.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption_vdW""",
+    shortDesc = """Surface_Adsorption""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Schneider_Pt111
-Original entry: N2O_X <=> N2O + X
-"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
-https://doi.org/10.1021/acscatal.8b04251
+Training reaction from kinetics library: Surface/Schneider_Pd211
+Original entry: H2O + X <=> H2O_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+Ea = 0.32eV = 30876.8J/mol
 
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1.4E16(1/s)/2.483E-9(mol/cm^2) = 5.64E24 cm^2/(mol*s)
-
-This is R15 in Table S2 and S4
+This is reaction (10) in Table S2
 """,
-    metal = "Pt",
-    facet = "111",
+    metal = "Pd",
+    facet = "211",
 )
 
 entry(
     index = 11,
-    label = "H2OX <=> H2O + X",
+    label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.7e15,'1/s'), n=0, Ea=(24122.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Schneider_Pt211
-Original entry: H2O_X <=> H2O + X
-"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
-https://doi.org/10.1021/acscatal.8b04251
+Training reaction from kinetics library: Surface/Schneider_Rh211
+Original entry: NH3 + X <=> NH3_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-Ea = 0.25eV = 24122.5J/mol
-
-This is R10 in Table S2 and S4
+This is reaction (2) in Table S2
 """,
-    metal = "Pt",
+    metal = "Rh",
     facet = "211",
 )
 
 entry(
     index = 12,
-    label = "N2OX <=> N2O + X",
+    label = "X + H2O <=> H2OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.5e17,'1/s'), n=0, Ea=(9649,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(43420.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    shortDesc = """Surface_Adsorption_vdW""",
+    shortDesc = """Surface_Adsorption""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Schneider_Pt211
-Original entry: N2O_X <=> N2O + X
-"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
-https://doi.org/10.1021/acscatal.8b04251
+Training reaction from kinetics library: Surface/Schneider_Rh211
+Original entry: H2O + X <=> H2O_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-Ea = 0.1eV = 9649J/mol
+Ea = 0.45eV = 43420.5J/mol
 
-This is R15 in Table S2 and S4
+This is reaction (10) in Table S2
 """,
-    metal = "Pt",
+    metal = "Rh",
     facet = "211",
 )
 
@@ -491,257 +500,137 @@ This is R5 in Table 2 at T=300K
 
 entry(
     index = 23,
-    label = "H3NX <=> H3N + X",
+    label = "X + CO2-2 <=> CO2X-2",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(9.53e7,'1/s'), n=0, Ea=(88574.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Roldan_Ir111
-Original entry: NH3_X <=> NH3 + X
-"Kinetic and mechanistic analysis of NH3 decomposition 
-on Ru(0001), Ru(111) and Ir(111) surfaces"
-Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
-DOI: 10.1039/d1na00015b
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: CO2 + X <=> CO2_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
 
-Ea was calculated from A factor and k rate constant in Table 3
-
-This is D1 in Table 3
+This is R7 in Appendix A
 """,
-    metal = "Ir",
+    metal = "Pt",
     facet = "111",
 )
 
 entry(
     index = 24,
-    label = "H2X <=> H2 + X",
+    label = "X + H2O <=> H2OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(9.54e7,'1/s'), n=0, Ea=(30972.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """H2 Surface_Adsorption_vdW""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Roldan_Ir111
-Original entry: H2_X <=> H2 + X
-"Kinetic and mechanistic analysis of NH3 decomposition 
-on Ru(0001), Ru(111) and Ir(111) surfaces"
-Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
-DOI: 10.1039/d1na00015b
-
-Ea was calculated from A factor and k rate constant in Table 3
-
-This is D3 in Table 3
-""",
-    metal = "Ir",
-    facet = "111",
-)
-
-entry(
-    index = 25,
-    label = "H3NX <=> H3N + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.29e8,'1/s'), n=0, Ea=(72149.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Roldan_Ru0001
-Original entry: NH3_X <=> NH3 + X
-"Kinetic and mechanistic analysis of NH3 decomposition 
-on Ru(0001), Ru(111) and Ir(111) surfaces"
-Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
-DOI: 10.1039/d1na00015b
-
-Ea was calculated from A factor and k rate constant in Table 3
-
-This is D1 in Table 3
-""",
-    metal = "Ru",
-    facet = "0001",
-)
-
-entry(
-    index = 26,
-    label = "X + N2 <=> N2X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.29e8,'cm^3/(mol*s)'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Roldan_Ru0001
-Original entry: N2 + X <=> N2_X
-"Kinetic and mechanistic analysis of NH3 decomposition 
-on Ru(0001), Ru(111) and Ir(111) surfaces"
-Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
-DOI: 10.1039/d1na00015b
-
-Ea was calculated from A factor and k rate constant in Table 3
-
-This is A2 in Table 3
-""",
-    metal = "Ru",
-    facet = "0001",
-)
-
-entry(
-    index = 27,
-    label = "H2X <=> H2 + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.29e8,'1/s'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """H2 Surface_Adsorption_vdW""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Roldan_Ru0001
-Original entry: H2_X <=> H2 + X
-"Kinetic and mechanistic analysis of NH3 decomposition 
-on Ru(0001), Ru(111) and Ir(111) surfaces"
-Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
-DOI: 10.1039/d1na00015b
-
-Ea was calculated from A factor and k rate constant in Table 3
-
-This is D3 in Table 3
-""",
-    metal = "Ru",
-    facet = "0001",
-)
-
-entry(
-    index = 28,
-    label = "CO2X-2 <=> CO2-2 + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(3.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: CO2_X <=> CO2 + X
-"A detailed microkinetic model for diesel engine emissions oxidation 
-on platinum based diesel oxidation catalysts (DOC)"
-Hom Sharma & Ashish Mhadeshwar. (2012). 
-Applied Catalysis B: Environmental, 127, 190-204
-DOI: 10.1016/j.apcatb.2012.08.021
-
-This is R8 in Appendix A
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 29,
-    label = "H2OX <=> H2O + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(10.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: H2O_X <=> H2O + X
+Original entry: H2O + X <=> H2O_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R16 in Appendix A
+This is R15 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
 entry(
-    index = 30,
-    label = "H3NX <=> H3N + X",
+    index = 25,
+    label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(20.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: NH3_X <=> NH3 + X
+Original entry: NH3 + X <=> NH3_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R44 in Appendix A
+This is R43 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
 entry(
-    index = 31,
-    label = "CHNX <=> CHN + X",
+    index = 26,
+    label = "X + CHN <=> CHNX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(21.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: HCN_X <=> HCN + X
+Original entry: HCN + X <=> HCN_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R82 in Appendix A
+This is R81 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
 entry(
-    index = 32,
-    label = "CH2OX <=> CH2O + X",
+    index = 27,
+    label = "X + CH2O <=> CH2OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(14.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: CH2O_X <=> CH2O + X
+Original entry: CH2O + X <=> CH2O_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R96 in Appendix A
+This is R95 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
 entry(
-    index = 33,
-    label = "C2N2X <=> C2N2 + X",
+    index = 28,
+    label = "X + C2N2 <=> C2N2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(21,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: C2N2_X <=> C2N2 + X
+Original entry: C2N2 + X <=> C2N2_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R122 in Appendix A
+This is R121 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
@@ -750,26 +639,47 @@ This reaction is the least important ones for typical DOC conditions.
 )
 
 entry(
-    index = 34,
-    label = "N2X <=> N2 + X",
+    index = 29,
+    label = "X + H3N <=> H3NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(9.52e7,'1/s'), n=0, Ea=(10807,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Roldan_Ir111
-Original entry: N2_X <=> N2 + X
-"Kinetic and mechanistic analysis of NH3 decomposition 
-on Ru(0001), Ru(111) and Ir(111) surfaces"
-Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
-DOI: 10.1039/d1na00015b
+Training reaction from kinetics library: Surface/Schneider_Pd111
+Original entry: NH3 + X <=> NH3_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-Ea was calculated from A factor and k rate constant in Table 3
-
-This is D2 in Table 3
+This is reaction (2) in Table S3
 """,
-    metal = "Ir",
+    metal = "Pd",
+    facet = "111",
+)
+
+entry(
+    index = 30,
+    label = "X + H2O <=> H2OX",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(20262.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Pd111
+Original entry: H2O + X <=> H2O_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+Ea = 0.21eV = 20262.9J/mol
+
+This is reaction (10) in Table S3
+""",
+    metal = "Pd",
     facet = "111",
 )
 

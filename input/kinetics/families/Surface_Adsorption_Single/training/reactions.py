@@ -7,6 +7,7 @@ longDesc = u"""
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
+
 entry(
     index = 1,
     label = "NO + X <=> NO_X",
@@ -31,21 +32,22 @@ entry(
 
 entry(
     index = 2,
-    label = "NO_X <=> NO + X",
+    label = "X + HO <=> HOX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.41e16,'1/s'), n=0, Ea=(154800,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=0.999, n=2, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Krahnert_Pt111
-Original entry: NO_X <=> NO + X
-"Ammonia Oxidation over Polycrystalline Platinum: 
-Surface Morphology and Kinetics at Atmospheric Pressure."
-Krähnert, Ralph(2005) A Doctoral Thesis.
-http://dx.doi.org/10.14279/depositonce-1270
+Training reaction from kinetics library: Surface/Vlachos_Pt111
+Original entry: OH + X <=> OH_X
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+D.G. Vlachos et al. (2007)
+Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+DOI: 10.1021/ie070322c
 
-A = k/exp(Ea/RT) = 1.24(1/s)/exp(154800J/mol / 8.314J/molK / 658K) = 2.41E16 (1/s)
+This is R19 in Table 1
 """,
     metal = "Pt",
     facet = "111",
@@ -101,22 +103,25 @@ This is R7 in Table 1
 
 entry(
     index = 5,
-    label = "NO_X <=> NO + X",
+    label = "X + NO <=> NO_X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e16,'1/s'), n=0, Ea=(140000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(241225,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Rebrov_Pt111
-Original entry: NO_X <=> NO + X
-"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
-Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
-https://doi.org/10.1016/S1385-8947(02)00068-2
+Training reaction from kinetics library: Surface/Schneider_Rh111
+Original entry: NO + X <=> NO_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-This is R15 in Table 1
+Ea = 2.5eV = 241225J/mol
+
+This is reaction (13) in Table S3
 """,
-    metal = "Pt",
+    metal = "Rh",
     facet = "111",
 )
 
@@ -145,42 +150,45 @@ This is R7 in Table 1
 
 entry(
     index = 7,
-    label = "NO2X <=> NO2 + X",
+    label = "X + NO <=> NO_X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.3e14,'1/s'), n=0, Ea=(100000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=0.88, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Scheuer_Pt
-Original entry: NO2_X <=> NO2 + X
-"Dual layer automotive ammonia oxidation catalysts: Experiments and computer simulation"
-Scheuer et al. Applied Catalysis B: Environmental 111–112 (2012) 445–455
-https://doi.org/10.1016/j.apcatb.2011.10.032
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: NO + X <=> NO_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R13 in Table 1
+This is R67 in Appendix A
 """,
     metal = "Pt",
+    facet = "111",
 )
 
 entry(
     index = 8,
-    label = "NO_X <=> NO + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.6e17,'1/s'), n=0, Ea=(184296,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    label = "X + NO2 <=> NO2X",
+    degeneracy = 2.0,
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Schneider_Pt111
-Original entry: NO_X <=> NO + X
-"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
-https://doi.org/10.1021/acscatal.8b04251
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: NO2 + X <=> NO2_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
 
-Ea = 1.91eV = 184295.9J/mol
-
-This is R13 in Table S2 and S4
+This is R69 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
@@ -188,45 +196,49 @@ This is R13 in Table S2 and S4
 
 entry(
     index = 9,
-    label = "NO_X <=> NO + X",
+    label = "X + CN <=> CNX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.3e17,'1/s'), n=0, Ea=(224822,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Schneider_Pt211
-Original entry: NO_X <=> NO + X
-"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
-https://doi.org/10.1021/acscatal.8b04251
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: CN + X <=> CN_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
 
-Ea = 2.33eV = 224821.7J/mol
+This is R83 in Appendix A
 
-This is R13 in Table S2 and S4
+This reaction is the least important ones for typical DOC conditions.
 """,
     metal = "Pt",
-    facet = "211",
+    facet = "111",
 )
 
 entry(
     index = 10,
-    label = "HOX <=> X + HO",
+    label = "X + CHO <=> CHOX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.44e14,'1/s'), n=2.00, Ea=(63.0, 'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
-Training reaction from kinetics library: Surface/Vlachos_Pt111
-Original entry: OH_X <=> OH + X
-"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
-Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
-D.G. Vlachos et al. (2007)
-Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
-DOI: 10.1021/ie070322c
+Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
+Original entry: HCO + X <=> HCO_X
+"A detailed microkinetic model for diesel engine emissions oxidation 
+on platinum based diesel oxidation catalysts (DOC)"
+Hom Sharma & Ashish Mhadeshwar. (2012). 
+Applied Catalysis B: Environmental, 127, 190-204
+DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R20 in Table 1
+This is R97 in Appendix A
+
+This reaction is the least important ones for typical DOC conditions.
 """,
     metal = "Pt",
     facet = "111",
@@ -395,22 +407,22 @@ This is R27 in Table 1
 
 entry(
     index = 18,
-    label = "HX <=> H + X",
+    label = "X + H <=> HX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(60.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: H_X <=> H + X
+Original entry: H + X <=> H_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R12 in Appendix A
+This is R11 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
@@ -420,22 +432,22 @@ This reaction is the least important ones for typical DOC conditions.
 
 entry(
     index = 19,
-    label = "HOX <=> HO + X",
+    label = "X + HO <=> HOX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(63,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: OH_X <=> OH + X
+Original entry: OH + X <=> OH_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R18 in Appendix A
+This is R17 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
@@ -445,22 +457,22 @@ This reaction is the least important ones for typical DOC conditions.
 
 entry(
     index = 20,
-    label = "CHO2X <=> CHO2 + X",
+    label = "X + CHO2 <=> CHO2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(56.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: COOH_X <=> COOH + X
+Original entry: COOH + X <=> COOH_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R26 in Appendix A
+This is R25 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
@@ -470,118 +482,22 @@ This reaction is the least important ones for typical DOC conditions.
 
 entry(
     index = 21,
-    label = "H2NX <=> H2N + X",
+    label = "X + H2N <=> H2NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(54.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Single""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: NH2_X <=> NH2 + X
+Original entry: NH2 + X <=> NH2_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R46 in Appendix A
-
-This reaction is the least important ones for typical DOC conditions.
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 22,
-    label = "NO_X <=> NO + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e16,'1/s'), n=0, Ea=(30.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Adsorption_Single""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: NO_X <=> NO + X
-"A detailed microkinetic model for diesel engine emissions oxidation 
-on platinum based diesel oxidation catalysts (DOC)"
-Hom Sharma & Ashish Mhadeshwar. (2012). 
-Applied Catalysis B: Environmental, 127, 190-204
-DOI: 10.1016/j.apcatb.2012.08.021
-
-This is R68 in Appendix A
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 23,
-    label = "NO2X <=> NO2 + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(23.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Adsorption_Single""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: NO2_X <=> NO2 + X
-"A detailed microkinetic model for diesel engine emissions oxidation 
-on platinum based diesel oxidation catalysts (DOC)"
-Hom Sharma & Ashish Mhadeshwar. (2012). 
-Applied Catalysis B: Environmental, 127, 190-204
-DOI: 10.1016/j.apcatb.2012.08.021
-
-This is R70 in Appendix A
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 24,
-    label = "CNX <=> CN + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(78.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Adsorption_Single""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: CN_X <=> CN + X
-"A detailed microkinetic model for diesel engine emissions oxidation 
-on platinum based diesel oxidation catalysts (DOC)"
-Hom Sharma & Ashish Mhadeshwar. (2012). 
-Applied Catalysis B: Environmental, 127, 190-204
-DOI: 10.1016/j.apcatb.2012.08.021
-
-This is R84 in Appendix A
-
-This reaction is the least important ones for typical DOC conditions.
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 25,
-    label = "CHOX <=> CHO + X",
-    degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1e13,'1/s'), n=0, Ea=(54.4,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
-    rank = 3,
-    shortDesc = """Surface_Adsorption_Single""",
-    longDesc = 
-"""
-Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: HCO_X <=> HCO + X
-"A detailed microkinetic model for diesel engine emissions oxidation 
-on platinum based diesel oxidation catalysts (DOC)"
-Hom Sharma & Ashish Mhadeshwar. (2012). 
-Applied Catalysis B: Environmental, 127, 190-204
-DOI: 10.1016/j.apcatb.2012.08.021
-
-This is R98 in Appendix A
+This is R45 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
