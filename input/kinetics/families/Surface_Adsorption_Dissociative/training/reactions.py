@@ -209,25 +209,22 @@ This is R7 in Table 2 at T=300K
 
 entry(
     index = 10,
-    label = "HX_3 + HX_4 <=> H2 + X_3 + X_4",
+    label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+21,'cm^2/(mol*s)'), n=0, Ea=(17.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """H2 Surface_Adsorption_Dissociative""",
     longDesc = 
 """
 Training reaction from kinetics library: Surface/Mhadeshwar_Pt111
-Original entry: H_X + H_X <=> H2 + X + X
+Original entry: H2 + X + X <=> H_X + H_X
 "A detailed microkinetic model for diesel engine emissions oxidation 
 on platinum based diesel oxidation catalysts (DOC)"
 Hom Sharma & Ashish Mhadeshwar. (2012). 
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
-This is R14 in Appendix A
+This is R13 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
