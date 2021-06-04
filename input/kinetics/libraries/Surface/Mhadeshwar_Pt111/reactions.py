@@ -14,40 +14,13 @@ DOI: 10.1016/j.apcatb.2012.08.021
 
 #---------------------O2 adsorption/desorption------------------------
 
-# Reverse reaction of R2
-# entry(
-#     index = 1,
-#     label = "O + X <=> O_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Double""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R1 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
-# """,
-#     metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 2,
-    label = "O_X <=> O + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 1,
+    label = "O + X <=> O_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (86, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -59,13 +32,40 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R2 in Appendix A
+This is R1 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
     metal = "Pt",
     facet = "111",
 )
+
+#Reverse reaction of R1
+# entry(
+#     index = 2,
+#     label = "O_X <=> O + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (86, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Double""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R2 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
+# """,
+#     metal = "Pt",
+#     facet = "111",
+# )
 
 entry(
    index = 3,
@@ -173,38 +173,14 @@ This is R5 in Appendix A
 #     facet = "111",
 # )
 
-# Reverse reaction of R8
-# entry(
-#     index = 7,
-#     label = "CO2 + X <=> CO2_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_vdW""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R7 in Appendix A
-# """,
-# 	metal = "Pt",
-#     facet = "111",
-# )
 
 entry(
-    index = 8,
-    label = "CO2_X <=> CO2 + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 7,
+    label = "CO2 + X <=> CO2_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (3.6, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -216,11 +192,36 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R8 in Appendix A
+This is R7 in Appendix A
 """,
 	metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R7
+# entry(
+#     index = 8,
+#     label = "CO2_X <=> CO2 + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (3.6, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_vdW""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R8 in Appendix A
+# """,
+# 	metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R9
 # entry(
@@ -279,40 +280,13 @@ This is R10 in Appendix A
 
 #---------------------H2 oxidation-----------------------------------
 
-# Reverse reaction of R12
-# entry(
-#     index = 11,
-#     label = "H + X <=> H_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R11 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
-# """,
-# 	metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 12,
-    label = "H_X <=> H + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 11,
+    label = "H + X <=> H_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (60.9, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -324,7 +298,7 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R12 in Appendix A
+This is R11 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
@@ -332,18 +306,18 @@ This reaction is the least important ones for typical DOC conditions.
     facet = "111",
 )
 
-# Reverse reaction of R14
+# Reverse reaction of R11
 # entry(
-#     index = 13,
-#     label = "H2 + X + X <=> H_X + H_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 12,
+#     label = "H_X <=> H + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
+#         Ea = (60.9, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""H2 Surface_Adsorption_Dissociative""",
+#     shortDesc = u"""Surface_Adsorption_Single""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -351,19 +325,21 @@ This reaction is the least important ones for typical DOC conditions.
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R13 in Appendix A
+# This is R12 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
 # """,
-#     metal = "Pt",
+# 	metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 14,
-    label = "H_X + H_X <=> H2 + X + X",
-    kinetics = SurfaceArrhenius(
-        A = (4E21, 'cm^2/(mol*s)'),  
+    index = 13,
+    label = "H2 + X + X <=> H_X + H_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (17.6, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -375,27 +351,24 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
-This is R14 in Appendix A
+This is R13 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
-# Reverse reaction of R16
+# Reverse reaction of R13
 # entry(
-#     index = 15,
-#     label = "H2O + X <=> H2O_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 14,
+#     label = "H_X + H_X <=> H2 + X + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (4E21, 'cm^2/(mol*s)'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
+#         Ea = (17.6, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption""",
+#     shortDesc = u"""H2 Surface_Adsorption_Dissociative""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -403,19 +376,22 @@ This is R14 in Appendix A
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R15 in Appendix A
+# Surface site density used in this paper is 2.5E-9 mol/cm^2
+# A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
+
+# This is R14 in Appendix A
 # """,
-# 	metal = "Pt",
+#     metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 16,
-    label = "H2O_X <=> H2O + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 15,
+    label = "H2O + X <=> H2O_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (10.3, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -427,24 +403,24 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R16 in Appendix A
+This is R15 in Appendix A
 """,
 	metal = "Pt",
     facet = "111",
 )
 
-# Reverse reaction of R18
+# Reverse reaction of R15
 # entry(
-#     index = 17,
-#     label = "OH + X <=> OH_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 16,
+#     label = "H2O_X <=> H2O + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
+#         Ea = (10.3, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
+#     shortDesc = u"""Surface_Adsorption""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -452,21 +428,19 @@ This is R16 in Appendix A
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R17 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
+# This is R16 in Appendix A
 # """,
 # 	metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 18,
-    label = "OH_X <=> OH + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 17,
+    label = "OH + X <=> OH_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (63, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -478,13 +452,40 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R18 in Appendix A
+This is R17 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
 	metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R17
+# entry(
+#     index = 18,
+#     label = "OH_X <=> OH + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (63, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Single""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R18 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
+# """,
+# 	metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R20
 # entry(
@@ -653,40 +654,13 @@ This is R24 in Appendix A
 
 #-----------------Water promoted CO oxidation------------------------
 
-# Reverse reaction of R26
-# entry(
-#     index = 25,
-#     label = "COOH + X <=> COOH_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R25 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
-# """,
-# 	metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 26,
-    label = "COOH_X <=> COOH + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 25,
+    label = "COOH + X <=> COOH_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (56.3, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -698,13 +672,40 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R26 in Appendix A
+This is R25 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
 	metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R25
+# entry(
+#     index = 26,
+#     label = "COOH_X <=> COOH + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (56.3, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Single""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R26 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
+# """,
+# 	metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R28
 # entry(
@@ -1050,40 +1051,13 @@ This reaction is the least important ones for typical DOC conditions.
 
 #---------------------NH3 oxidation----------------------------------
 
-# Reverse reaction of R40
-# entry(
-#     index = 39,
-#     label = "N + X <=> N_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Triple""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R39 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
-# """,
-#     metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 40,
-    label = "N_X <=> N + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 39,
+    label = "N + X <=> N_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (107.4, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -1095,7 +1069,7 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R40 in Appendix A
+This is R39 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
@@ -1103,18 +1077,18 @@ This reaction is the least important ones for typical DOC conditions.
     facet = "111",
 )
 
-# Reverse reaction of R42
+# Reverse reaction of R39
 # entry(
-#     index = 41,
-#     label = "N2 + X + X <=> N_X + N_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 40,
+#     label = "N_X <=> N + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
 #         n = 0.0,
-#         Ea = (27.9, 'kcal/mol'),
+#         Ea = (107.4, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
+#     shortDesc = u"""Surface_Adsorption_Triple""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -1122,19 +1096,21 @@ This reaction is the least important ones for typical DOC conditions.
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R41 in Appendix A
+# This is R40 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
 # """,
 #     metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 42,
-    label = "N_X + N_X <=> N2 + X + X",
-    kinetics = SurfaceArrhenius(
-        A = (4E21, 'cm^2/(mol*s)'),  
+    index = 41,
+    label = "N2 + X + X <=> N_X + N_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (16.7, 'kcal/mol'),  
+        Ea = (27.9, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -1146,27 +1122,24 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-Surface site density used in this paper is 2.5E-9 mol/cm^2
-A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
-
-This is R42 in Appendix A
+This is R41 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
-# Reverse reaction of R44
+# Reverse reaction of R41
 # entry(
-#     index = 43,
-#     label = "NH3 + X <=> NH3_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 42,
+#     label = "N_X + N_X <=> N2 + X + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (4E21, 'cm^2/(mol*s)'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
+#         Ea = (16.7, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_vdW""",
+#     shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -1174,19 +1147,22 @@ This is R42 in Appendix A
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R43 in Appendix A
+# Surface site density used in this paper is 2.5E-9 mol/cm^2
+# A = 1E13(1/s)/2.5E-9(mol/cm^2) = 4E21 cm^2/(mol*s)
+
+# This is R42 in Appendix A
 # """,
 #     metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 44,
-    label = "NH3_X <=> NH3 + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 43,
+    label = "NH3 + X <=> NH3_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (20.7, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -1198,24 +1174,24 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R44 in Appendix A
+This is R43 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
-# Reverse reaction of R46
+# Reverse reaction of R43
 # entry(
-#     index = 45,
-#     label = "NH2 + X <=> NH2_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 44,
+#     label = "NH3_X <=> NH3 + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
+#         Ea = (20.7, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
+#     shortDesc = u"""Surface_Adsorption_vdW""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -1223,21 +1199,19 @@ This is R44 in Appendix A
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R45 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
+# This is R44 in Appendix A
 # """,
 #     metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 46,
-    label = "NH2_X <=> NH2 + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 45,
+    label = "NH2 + X <=> NH2_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (54.6, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -1249,7 +1223,7 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R46 in Appendix A
+This is R45 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
@@ -1257,18 +1231,18 @@ This reaction is the least important ones for typical DOC conditions.
     facet = "111",
 )
 
-# Reverse reaction of R48
+# Reverse reaction of R45
 # entry(
-#     index = 47,
-#     label = "NH + X <=> NH_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 46,
+#     label = "NH2_X <=> NH2 + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
+#         Ea = (54.6, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_Double""",
+#     shortDesc = u"""Surface_Adsorption_Single""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -1276,7 +1250,7 @@ This reaction is the least important ones for typical DOC conditions.
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R47 in Appendix A
+# This is R46 in Appendix A
 
 # This reaction is the least important ones for typical DOC conditions.
 # """,
@@ -1285,12 +1259,12 @@ This reaction is the least important ones for typical DOC conditions.
 # )
 
 entry(
-    index = 48,
-    label = "NH_X <=> NH + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 47,
+    label = "NH + X <=> NH_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (83, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -1302,13 +1276,40 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R48 in Appendix A
+This is R47 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
     metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R47
+# entry(
+#     index = 48,
+#     label = "NH_X <=> NH + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (83, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Double""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R48 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
+# """,
+#     metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R50
 # entry(
@@ -1807,38 +1808,13 @@ This is R66 in Appendix A
 
 #---------------------NO oxidation----------------------------------
 
-# Reverse reaction of R68
-# entry(
-#     index = 67,
-#     label = "NO + X <=> NO_X",
-#     kinetics = StickingCoefficient(
-#         A = 0.88,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R67 in Appendix A
-# """,
-#     metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 68,
-    label = "NO_X <=> NO + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E16, '1/s'),  
+    index = 67,
+    label = "NO + X <=> NO_X",
+    kinetics = StickingCoefficient(
+        A = 0.88,
         n = 0.0,
-        Ea = (30.5, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -1850,20 +1826,20 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R68 in Appendix A
+This is R67 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
-# Reverse reaction of R70
+# Reverse reaction of R67
 # entry(
-#     index = 69,
-#     label = "NO2 + X <=> NO2_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 68,
+#     label = "NO_X <=> NO + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E16, '1/s'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
+#         Ea = (30.5, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
@@ -1875,19 +1851,19 @@ This is R68 in Appendix A
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R69 in Appendix A
+# This is R68 in Appendix A
 # """,
 #     metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 70,
-    label = "NO2_X <=> NO2 + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 69,
+    label = "NO2 + X <=> NO2_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (23.5, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -1899,11 +1875,36 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R70 in Appendix A
+This is R69 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R69
+# entry(
+#     index = 70,
+#     label = "NO2_X <=> NO2 + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (23.5, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Single""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R70 in Appendix A
+# """,
+#     metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R72
 # entry(
@@ -2182,38 +2183,14 @@ This is R80 in Appendix A
 
 #---------------------HCN oxidation----------------------------------
 
-# Reverse reaction of R82
-# entry(
-#     index = 81,
-#     label = "HCN + X <=> HCN_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_vdW""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R81 in Appendix A
-# """,
-#     metal = "Pt",
-#     facet = "111",
-# )
 
 entry(
-    index = 82,
-    label = "HCN_X <=> HCN + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 81,
+    label = "HCN + X <=> HCN_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (21.3, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -2225,24 +2202,24 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R82 in Appendix A
+This is R81 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
 
-# Reverse reaction of R84
+# Reverse reaction of R81
 # entry(
-#     index = 83,
-#     label = "CN + X <=> CN_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
+#     index = 82,
+#     label = "HCN_X <=> HCN + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
+#         Ea = (21.3, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
+#     shortDesc = u"""Surface_Adsorption_vdW""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -2250,21 +2227,19 @@ This is R82 in Appendix A
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R83 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
+# This is R82 in Appendix A
 # """,
 #     metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 84,
-    label = "CN_X <=> CN + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 83,
+    label = "CN + X <=> CN_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (78.2, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -2276,13 +2251,40 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R84 in Appendix A
+This is R83 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
     metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R83
+# entry(
+#     index = 84,
+#     label = "CN_X <=> CN + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (78.2, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Single""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R84 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
+# """,
+#     metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R86
 # entry(
@@ -2561,38 +2563,13 @@ This is R94 in Appendix A
 
 #---------------------CH2O oxidation---------------------------------
 
-# Reverse reaction of R96
-# entry(
-#     index = 95,
-#     label = "CH2O + X <=> CH2O_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,  
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),  
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_vdW""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R95 in Appendix A
-# """,
-# 	metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 96,
-    label = "CH2O_X <=> CH2O + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 95,
+    label = "CH2O + X <=> CH2O_X",
+    kinetics = StickingCoefficient(
+        A = 1,  
         n = 0.0,
-        Ea = (14.7, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -2604,24 +2581,24 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R96 in Appendix A
+This is R95 in Appendix A
 """,
 	metal = "Pt",
     facet = "111",
 )
 
-# Reverse reaction of R98
+# Reverse reaction of R95
 # entry(
-#     index = 97,
-#     label = "HCO + X <=> HCO_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,  
+#     index = 96,
+#     label = "CH2O_X <=> CH2O + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
 #         n = 0.0,
-#         Ea = (0, 'kcal/mol'),  
+#         Ea = (14.7, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
+#     shortDesc = u"""Surface_Adsorption_vdW""",
 #     longDesc = u"""
 # "A detailed microkinetic model for diesel engine emissions oxidation 
 # on platinum based diesel oxidation catalysts (DOC)"
@@ -2629,21 +2606,19 @@ This is R96 in Appendix A
 # Applied Catalysis B: Environmental, 127, 190-204
 # DOI: 10.1016/j.apcatb.2012.08.021
 
-# This is R97 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
+# This is R96 in Appendix A
 # """,
 # 	metal = "Pt",
 #     facet = "111",
 # )
 
 entry(
-    index = 98,
-    label = "HCO_X <=> HCO + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 97,
+    label = "HCO + X <=> HCO_X",
+    kinetics = StickingCoefficient(
+        A = 1,  
         n = 0.0,
-        Ea = (54.4, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -2655,13 +2630,40 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R98 in Appendix A
+This is R97 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
 	metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R97
+# entry(
+#     index = 98,
+#     label = "HCO_X <=> HCO + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (54.4, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Single""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R98 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
+# """,
+# 	metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R100
 # entry(
@@ -2995,40 +2997,13 @@ This is R109 in Appendix A
 
 #---------------------C foramtion and oxidation----------------------
 
-# Reverse reaction of R112
-# entry(
-#     index = 111,
-#     label = "C + X <=> C_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Quadruple bonds""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R111 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
-# """,
-# 	metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 112,
-    label = "C_X <=> C + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 111,
+    label = "C + X <=> C_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (158.2, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -3040,13 +3015,40 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R112 in Appendix A
+This is R111 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
 	metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R111
+# entry(
+#     index = 112,
+#     label = "C_X <=> C + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (158.2, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Quadruple bonds""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R112 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
+# """,
+# 	metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R114
 # entry(
@@ -3160,38 +3162,13 @@ This is R115 in Appendix A
 
 #---------------------N2O and C2N2 formation/decomposition-----------
 
-# Reverse reaction of R118
-# entry(
-#     index = 117,
-#     label = "N2O + X <=> N2O_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Double""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R117 in Appendix A
-# """,
-#     metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 118,
-    label = "N2O_X <=> N2O + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 117,
+    label = "N2O + X <=> N2O_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (6.7, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -3203,11 +3180,36 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R118 in Appendix A
+This is R117 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R117
+# entry(
+#     index = 118,
+#     label = "N2O_X <=> N2O + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (6.7, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Double""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R118 in Appendix A
+# """,
+#     metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R120
 # entry(
@@ -3264,40 +3266,13 @@ This is R120 in Appendix A
     facet = "111",
 )
 
-# Reverse reaction of R122
-# entry(
-#     index = 121,
-#     label = "C2N2 + X <=> C2N2_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (,0 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_vdW""",
-#     longDesc = u"""
-# "A detailed microkinetic model for diesel engine emissions oxidation 
-# on platinum based diesel oxidation catalysts (DOC)"
-# Hom Sharma & Ashish Mhadeshwar. (2012). 
-# Applied Catalysis B: Environmental, 127, 190-204
-# DOI: 10.1016/j.apcatb.2012.08.021
-
-# This is R121 in Appendix A
-
-# This reaction is the least important ones for typical DOC conditions.
-# """,
-#     metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 122,
-    label = "C2N2_X <=> C2N2 + X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+    index = 121,
+    label = "C2N2 + X <=> C2N2_X",
+    kinetics = StickingCoefficient(
+        A = 1,
         n = 0.0,
-        Ea = (21, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -3309,13 +3284,40 @@ Hom Sharma & Ashish Mhadeshwar. (2012).
 Applied Catalysis B: Environmental, 127, 190-204
 DOI: 10.1016/j.apcatb.2012.08.021
 
-This is R122 in Appendix A
+This is R121 in Appendix A
 
 This reaction is the least important ones for typical DOC conditions.
 """,
     metal = "Pt",
     facet = "111",
 )
+
+# Reverse reaction of R121
+# entry(
+#     index = 122,
+#     label = "C2N2_X <=> C2N2 + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (21, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_vdW""",
+#     longDesc = u"""
+# "A detailed microkinetic model for diesel engine emissions oxidation 
+# on platinum based diesel oxidation catalysts (DOC)"
+# Hom Sharma & Ashish Mhadeshwar. (2012). 
+# Applied Catalysis B: Environmental, 127, 190-204
+# DOI: 10.1016/j.apcatb.2012.08.021
+
+# This is R122 in Appendix A
+
+# This reaction is the least important ones for typical DOC conditions.
+# """,
+#     metal = "Pt",
+#     facet = "111",
+# )
 
 # Reverse reaction of R124
 # entry(

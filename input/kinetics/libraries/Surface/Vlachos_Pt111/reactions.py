@@ -111,37 +111,13 @@ This is R3 in Table 1
 #     facet = "111",
 # )
 
-# entry(
-#     index = 5,
-#     label = "CO + X <=> CO_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Double""",
-#     longDesc = u"""
-# "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
-# Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
-# D.G. Vlachos et al. (2007)
-# Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
-# DOI: 10.1021/ie070322c
-
-# This is R5 in Table 1
-# """,
-# 	metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 6,
-    label = "CO_X <=> CO + X",
-    kinetics = SurfaceArrhenius(
-        A = (5.66E15, '1/s'),  
-        n = -0.500,
-        Ea = (40, 'kcal/mol'),  
+    index = 5,
+    label = "CO + X <=> CO_X",
+    kinetics = StickingCoefficient(
+        A = 1,
+        n = 0,
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -153,11 +129,35 @@ D.G. Vlachos et al. (2007)
 Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 DOI: 10.1021/ie070322c
 
-This is R6 in Table 1
+This is R5 in Table 1
 """,
 	metal = "Pt",
     facet = "111",
 )
+
+# entry(
+#     index = 6,
+#     label = "CO_X <=> CO + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (5.66E15, '1/s'),  
+#         n = -0.500,
+#         Ea = (40, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Double""",
+#     longDesc = u"""
+# "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+# Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+# D.G. Vlachos et al. (2007)
+# Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+# DOI: 10.1021/ie070322c
+
+# This is R6 in Table 1
+# """,
+# 	metal = "Pt",
+#     facet = "111",
+# )
 
 entry(
     index = 7,
@@ -474,37 +474,13 @@ This is R17 in Table 1
 #     facet = "111",
 # )
 
-# entry(
-#     index = 19,
-#     label = "OH + X <=> OH_X",
-#     kinetics = StickingCoefficient(
-#         A = 0.999,
-#         n = 2.000,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
-#     longDesc = u"""
-# "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
-# Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
-# D.G. Vlachos et al. (2007)
-# Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
-# DOI: 10.1021/ie070322c
-
-# This is R19 in Table 1
-# """,
-# 	metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 20,
-    label = "OH_X <=> OH + X",
-    kinetics = SurfaceArrhenius(
-        A = (1.44E14, '1/s'),  
+    index = 19,
+    label = "OH + X <=> OH_X",
+    kinetics = StickingCoefficient(
+        A = 0.999,
         n = 2.000,
-        Ea = (63.0, 'kcal/mol'),  
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -516,11 +492,35 @@ D.G. Vlachos et al. (2007)
 Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 DOI: 10.1021/ie070322c
 
-This is R20 in Table 1
+This is R19 in Table 1
 """,
 	metal = "Pt",
     facet = "111",
 )
+
+# entry(
+#     index = 20,
+#     label = "OH_X <=> OH + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1.44E14, '1/s'),  
+#         n = 2.000,
+#         Ea = (63.0, 'kcal/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Single""",
+#     longDesc = u"""
+# "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, 
+# Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+# D.G. Vlachos et al. (2007)
+# Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+# DOI: 10.1021/ie070322c
+
+# This is R20 in Table 1
+# """,
+# 	metal = "Pt",
+#     facet = "111",
+# )
 
 entry(
     index = 21,
