@@ -1394,7 +1394,7 @@ entry(
     index = 57,
     label = "HX_5 + OCX_3 <=> CXHO_1 + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(30.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(30.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1420,7 +1420,7 @@ entry(
     index = 58,
     label = "NOX + NX <=> N2OX + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(19.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(19.8,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1652,7 +1652,7 @@ entry(
     index = 67,
     label = "HX_5 + OX <=> HOX_1 + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(8.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(8.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1678,7 +1678,7 @@ entry(
     index = 68,
     label = "HOX_5 + OCX_3 <=> HOCXO_1 + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(18.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(18.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1704,7 +1704,7 @@ entry(
     index = 69,
     label = "HX_5 + NHX_1 <=> NH2_X + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(16.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(16.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1730,7 +1730,7 @@ entry(
     index = 70,
     label = "HX_5 + NX <=> NHX_2 + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(24.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(24.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1756,7 +1756,7 @@ entry(
     index = 71,
     label = "NOX + OX <=> NO2X + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.2e+21,'cm^2/(mol*s)'), n=0.93, Ea=(21.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.2e21,'cm^2/(mol*s)'), n=0.93, Ea=(21.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -1776,5 +1776,83 @@ This is R80 in Appendix A
 """,
     metal = "Pt",
     facet = "111",
+)
+
+entry(
+    index = 72,
+    label = "X_4 + NH2_X <=> NHX_1 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(2.19e23,'cm^2/(mol*s)'), n=0, Ea=(117718,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Rh211
+Original entry: NH2_X + X <=> NH_X + H_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Rh211 = 2.817E-9(mol/cm^2) to calculate the A factor.
+Using the method proposed by Campbell et al. to calculate A actor.
+Ea = 1.22eV = 117717.8J/mol
+
+This is reaction (2) in Table S4
+""",
+    metal = "Rh",
+    facet = "211",
+)
+
+entry(
+    index = 73,
+    label = "X_4 + NHX_2 <=> NX + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.19e23,'cm^2/(mol*s)'), n=0, Ea=(88770.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Rh211
+Original entry: NH_X + X <=> N_X + H_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Rh211 = 2.817E-9(mol/cm^2) to calculate the A factor.
+Using the method proposed by Campbell et al. to calculate A actor.
+Ea = 0.92eV = 88770.8J/mol
+
+This is reaction (3) in Table S4
+""",
+    metal = "Rh",
+    facet = "211",
+)
+
+entry(
+    index = 74,
+    label = "HX_5 + OX <=> HOX_1 + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.33e21,'cm^2/(mol*s)'), n=0, Ea=(85876.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Rh211
+Original entry: H_X + O_X <=> OH_X + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Rh211 = 2.817E-9(mol/cm^2) to calculate the A factor.
+The A factor is calculated by equation (5) which assumed qTS/qIS = 1
+Ea = 0.89eV = 85876.1J/mol
+
+This is reaction (4) in Table S4
+""",
+    metal = "Rh",
+    facet = "211",
 )
 
