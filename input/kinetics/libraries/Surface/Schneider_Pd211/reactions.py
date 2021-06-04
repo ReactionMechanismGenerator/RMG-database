@@ -11,54 +11,52 @@ Journal of Catalysis 383 (2020) 322–330
 https://doi.org/10.1016/j.jcat.2020.01.029
 """
 
-# Commet out since the authors assumed sitcking coefficient ≈ 1
-# entry(
-#     index = 1,
-#     label = "O2 + X + X <=> O_X + O_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0,
-#         Ea = (28947, 'J/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""O2 Surface_Adsorption_Dissociative""",
-#     longDesc = u"""
-# "DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
-# Hanyu Ma, and William F.Schneider
-# Journal of Catalysis 383 (2020) 322–330
-# https://doi.org/10.1016/j.jcat.2020.01.029
+entry(
+    index = 1,
+    label = "O2 + X + X <=> O_X + O_X",
+    kinetics = StickingCoefficient(
+        A = 1,
+        n = 0,
+        Ea = (28947, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""O2 Surface_Adsorption_Dissociative""",
+    longDesc = u"""
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-#Ea = 0.3eV = 28947J/mol
-# This is reaction (1) in Table S2
-# """,
-#     metal = "Pd",
-#     facet = "211",
-# )
+Ea = 0.3eV = 28947J/mol
+This is reaction (1) in Table S2
+""",
+    metal = "Pd",
+    facet = "211",
+)
 
-# Commet out since the authors assumed sitcking coefficient ≈ 1
-# entry(
-#     index = 2,
-#     label = "NH3 + X <=> NH3_X",
-#    kinetics = StickingCoefficient(
-#        A = 1,
-#         n = 0,
-#         Ea = (0, 'J/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_vdW""",
-#     longDesc = u"""
-# "DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
-# Hanyu Ma, and William F.Schneider
-# Journal of Catalysis 383 (2020) 322–330
-# https://doi.org/10.1016/j.jcat.2020.01.029
+entry(
+    index = 2,
+    label = "NH3 + X <=> NH3_X",
+   kinetics = StickingCoefficient(
+       A = 1,
+        n = 0,
+        Ea = (0, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_vdW""",
+    longDesc = u"""
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-# This is reaction (2) in Table S2
-# """,
-#     metal = "Pd",
-#     facet = "211",
-# )
+This is reaction (2) in Table S2
+""",
+    metal = "Pd",
+    facet = "211",
+)
 
 entry(
     index = 3,
@@ -249,56 +247,54 @@ This is reaction (9) in Table S2
     facet = "211",
 )
 
-# Commet out since the authors assumed sitcking coefficient ≈ 1
-# entry(
-#     index = 10,
-#     label = "H2O + X <=> H2O_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (30876.8, 'J/mol'),  
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption""",
-#     longDesc = u"""
-# "DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
-# Hanyu Ma, and William F.Schneider
-# Journal of Catalysis 383 (2020) 322–330
-# https://doi.org/10.1016/j.jcat.2020.01.029
-# Ea = 0.32eV = 30876.8J/mol
-# 
-# This is reaction (10) in Table S2
-# """,
-#       metal = "Pd",
-#       facet = "211",
-# )
+entry(
+    index = 10,
+    label = "H2O + X <=> H2O_X",
+    kinetics = StickingCoefficient(
+        A = 1,
+        n = 0.0,
+        Ea = (30876.8, 'J/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_vdW""",
+    longDesc = u"""
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+Ea = 0.32eV = 30876.8J/mol
 
-# Commet out since the authors assumed sitcking coefficient ≈ 1
-# entry(
-#     index = 11,
-#     label = "N2 + X + X <=> N_X + N_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,
-#         n = 0.0,
-#         Ea = (119647.6, 'J/mol'),  
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
-#     longDesc = u"""
-# "DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
-# Hanyu Ma, and William F.Schneider
-# Journal of Catalysis 383 (2020) 322–330
-# https://doi.org/10.1016/j.jcat.2020.01.029
+This is reaction (10) in Table S2
+""",
+      metal = "Pd",
+      facet = "211",
+)
 
-# Ea = 1.24eV = 119647.6J/mol
+entry(
+    index = 11,
+    label = "N2 + X + X <=> N_X + N_X",
+    kinetics = StickingCoefficient(
+        A = 1,
+        n = 0.0,
+        Ea = (119647.6, 'J/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
+    longDesc = u"""
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-# This is reaction (11) in Table S2
-# """,
-#     metal = "Pd",
-#     facet = "211",
-# )
+Ea = 1.24eV = 119647.6J/mol
+
+This is reaction (11) in Table S2
+""",
+    metal = "Pd",
+    facet = "211",
+)
 
 entry(
     index = 12,
@@ -327,31 +323,30 @@ This is reaction (12) in Table S2
     facet = "211",
 )
 
-# Commet out since the authors assumed sitcking coefficient ≈ 1
-# entry(
-#     index = 13,
-#     label = "NO + X <=> NO_X",
-#     kinetics = StickingCoefficient(
-#         A = 1, 
-#         n = 0.0,
-#         Ea = (225786.6, 'J/mol'),  
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Single""",
-#     longDesc = u"""
-# "DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
-# Hanyu Ma, and William F.Schneider
-# Journal of Catalysis 383 (2020) 322–330
-# https://doi.org/10.1016/j.jcat.2020.01.029
+entry(
+    index = 13,
+    label = "NO_X <=> NO + X",
+    kinetics = SurfaceArrhenius(
+        A = (6.55E14, '1/s'),  
+        n = 0.0,
+        Ea = (225786.6, 'J/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_Single""",
+    longDesc = u"""
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-# Ea = 2.34eV = 225786.6J/mol
+Ea = 2.34eV = 225786.6J/mol
 
-# This is reaction (13) in Table S2
-# """,
-#     metal = "Pd",
-#     facet = "211",
-# )
+This is reaction (13) in Table S2
+""",
+    metal = "Pd",
+    facet = "211",
+)
 
 entry(
     index = 14,
@@ -380,31 +375,30 @@ This is reaction (14) in Table S2
     facet = "211",
 )
 
-# Commet out since the authors assumed sitcking coefficient ≈ 1
-# entry(
-#     index = 15,
-#     label = "N2O + X <=> N2O_X",
-#     kinetics = StickingCoefficient(
-#         A = 1,  
-#         n = 0.0,
-#         Ea = (36666.2, 'J/mol'),  
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Surface_Adsorption_Double/Surface_Adsorption_vdW""",
-#     longDesc = u"""
-# "DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
-# Hanyu Ma, and William F.Schneider
-# Journal of Catalysis 383 (2020) 322–330
-# https://doi.org/10.1016/j.jcat.2020.01.029
+entry(
+    index = 15,
+    label = "N2O_X <=> N2O + X",
+    kinetics = SurfaceArrhenius(
+        A = (1.69E13, '1/s'), 
+        n = 0.0,
+        Ea = (36666.2, 'J/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_Double/Surface_Adsorption_vdW""",
+    longDesc = u"""
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
 
-# Ea = 0.38eV = 36666.2J/mol
+Ea = 0.38eV = 36666.2J/mol
 
-# This is reaction (15) in Table S2
-# """,
-#     metal = "Pd",
-#     facet = "211",
-# )
+This is reaction (15) in Table S2
+""",
+    metal = "Pd",
+    facet = "211",
+)
 
 entry(
     index = 16,
