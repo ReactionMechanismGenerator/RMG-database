@@ -884,7 +884,7 @@ entry(
     index = 35,
     label = "H* + OH* <=> H2O* + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(12.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(12.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
     longDesc = 
@@ -910,7 +910,7 @@ entry(
     index = 36,
     label = "H* + NH2_X <=> NH3_X + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(7.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(7.3,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation_vdW""",
     longDesc = 
@@ -936,7 +936,7 @@ entry(
     index = 37,
     label = "H* + CNX <=> CHNX + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(13.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(13.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation_vdW""",
     longDesc = 
@@ -962,7 +962,7 @@ entry(
     index = 38,
     label = "H* + HCO* <=> CH2O* + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(20.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(20.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation_vdW""",
     longDesc = 
@@ -988,7 +988,7 @@ entry(
     index = 39,
     label = "CNX + CNX-2 <=> C2N2X + X_4",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4e+19,'cm^2/(mol*s)'), n=0, Ea=(28.1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(4e19,'cm^2/(mol*s)'), n=0, Ea=(28.1,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation_vdW""",
     longDesc = 
@@ -1010,5 +1010,57 @@ This reaction is the least important ones for typical DOC conditions.
 """,
     metal = "Pt",
     facet = "111",
+)
+
+entry(
+    index = 40,
+    label = "X_4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(1.96e23,'cm^2/(mol*s)'), n=0, Ea=(88770.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Rh211
+Original entry: NH3_X + X <=> NH2_X + H_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Rh211 = 2.817E-9(mol/cm^2) to calculate the A factor.
+Using the method proposed by Campbell et al. to calculate A actor.
+Ea = 0.92eV = 88770.8J/mol
+
+This is reaction (1) in Table S4
+""",
+    metal = "Rh",
+    facet = "211",
+)
+
+entry(
+    index = 41,
+    label = "H* + OH* <=> H2O* + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.33e21,'cm^2/(mol*s)'), n=0, Ea=(96490,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Schneider_Rh211
+Original entry: H_X + OH_X <=> H2O_X + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Rh211 = 2.817E-9(mol/cm^2) to calculate the A factor.
+The A factor is calculated by equation (5) which assumed qTS/qIS = 1
+Ea = 1eV = 96490J/mol
+
+This is reaction (5) in Table S4
+""",
+    metal = "Rh",
+    facet = "211",
 )
 
