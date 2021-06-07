@@ -48,7 +48,11 @@ entry(
 entry(
     index = 2,
     label = "{ene,yne}",
-    group = "OR{ene, yne}",
+    group = 
+"""
+1 *1 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {2,[D,T]}
+2 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc]     u0 {1,[D,T]}
+""",
     kinetics = None,
 )
 
