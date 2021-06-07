@@ -21,6 +21,9 @@ recipe(actions=[
     ['FORM_BOND', '*2', 1, '*6'],
 ])
 
+reactantNum = 2
+productNum = 1
+
 entry(
     index = 0,
     label = "diene_out",
