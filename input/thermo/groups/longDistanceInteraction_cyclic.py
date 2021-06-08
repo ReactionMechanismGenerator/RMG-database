@@ -2130,7 +2130,7 @@ entry(
 )
 
 entry(
-    index = 11111,
+    index = 77,
     label = "intVal7",
     group = 
 """
@@ -2152,7 +2152,7 @@ entry(
 )
 
 entry(
-    index = 1119,
+    index = 78,
     label = "Cs(Val7)2-Cs(Val7)2",
     group = 
 """
@@ -2184,28 +2184,7 @@ library:CHOClBr_G4  |         18
 )
 
 entry(
-    index = 11191,
-    label = "3ring-Cs(Val7)2-Cs(Val7)2",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {7,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
-5    Val7        u0 {1,S}
-6    Val7        u0 {2,S}
-7    [C,H,N,O,S] u0 {1,S} {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1120,
+    index = 79,
     label = "Cs(Cl)2-Cs(Cl)2",
     group = 
 """
@@ -2234,27 +2213,7 @@ library:CHOCl_G4 |         55
 )
 
 entry(
-    index = 1120111,
-    label = "3ring-Cs(Cl)2-Cs(Cl)2",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {7,S}
-3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
-5    Cl1s        u0 {1,S}
-6    Cl1s        u0 {2,S}
-7    [C,H,N,O,S] u0 {1,S} {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 1121,
+    index = 80,
     label = "Cs(F)2-Cs(F)2",
     group = 
 """
@@ -2284,28 +2243,7 @@ library:CHOFBr_G4 |         2
 )
 
 entry(
-    index = 1121983725,
-    label = "3ring-Cs(F)2-Cs(F)2",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {7,S}
-3    F1s         u0 {1,S}
-4    F1s         u0 {2,S}
-5    F1s         u0 {1,S}
-6    F1s         u0 {2,S}
-7    [C,H,N,O,S] u0 {1,S} {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-
-entry(
-    index = 1122,
+    index = 81,
     label = "Cs(Br)2-Cs(Br)2",
     group = 
 """
@@ -2335,31 +2273,117 @@ library:CHOFBr_G4 |         1
 )
 
 entry(
-    index = 11221241,
-    label = "3ring-Cs(Br)2-Cs(Br)2",
+    index = 82,
+    label = "3ring-Cs(Val7)2-Cs(Val7)2",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {7,S}
-3    Br1s        u0 {1,S}
-4    Br1s        u0 {2,S}
-5    Br1s        u0 {1,S}
-6    Br1s        u0 {2,S}
-7    [C,H,N,O,S] u0 {1,S} {2,S}
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {6,S}
+2 *2 Cs          u0 {1,S} {3,S} {5,S} {7,S}
+3    [C,H,N,O,S] u0 {1,S} {2,S}
+4    Val7        u0 {1,S}
+5    Val7        u0 {2,S}
+6    Val7        u0 {1,S}
+7    Val7        u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.59132,0.398617,0.432198,0.437949,0.265727,0.165963,0.656101],'cal/(mol*K)','+|-',[0.232183,0.243631,0.28074,0.288399,0.247734,0.214168,0.448033]),
+        H298 = (4.65189,'kcal/mol','+|-',3.05811),
+        S298 = (-1.30202,'cal/(mol*K)','+|-',1.06276),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
-Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOBr_G4  |         6
-library:CHOFBr_G4 |         1
+
 """,
 )
 
 entry(
-    index = 1123,
+    index = 83,
+    label = "3ring-Cs(Cl)2-Cs(Cl)2",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {6,S}
+2 *2 Cs          u0 {1,S} {3,S} {5,S} {7,S}
+3    [C,H,N,O,S] u0 {1,S} {2,S}
+4    Cl1s        u0 {1,S}
+5    Cl1s        u0 {2,S}
+6    Cl1s        u0 {1,S}
+7    Cl1s        u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.632941,0.405579,0.479952,0.524674,0.36498,0.256557,0.748332],'cal/(mol*K)','+|-',[0.232183,0.243631,0.28074,0.288399,0.247734,0.214168,0.448033]),
+        H298 = (3.63542,'kcal/mol','+|-',1.27661),
+        S298 = (-1.61346,'cal/(mol*K)','+|-',0.702335),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         10
+""",
+)
+
+entry(
+    index = 84,
+    label = "3ring-Cs(F)2-Cs(F)2",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {6,S}
+2 *2 Cs          u0 {1,S} {3,S} {5,S} {7,S}
+3    [C,H,N,O,S] u0 {1,S} {2,S}
+4    F1s         u0 {1,S}
+5    F1s         u0 {2,S}
+6    F1s         u0 {1,S}
+7    F1s         u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.388895,0.227591,0.226941,0.269136,0.179437,0.117268,0.588238],'cal/(mol*K)','+|-',[0.164698,0.172818,0.199141,0.204574,0.175729,0.151919,0.31781]),
+        H298 = (6.41036,'kcal/mol','+|-',0.905553),
+        S298 = (-0.688462,'cal/(mol*K)','+|-',0.498197),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         12
+""",
+)
+
+entry(
+    index = 85,
+    label = "3ring-Cs(Br)2-Cs(Br)2",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {6,S}
+2 *2 Cs          u0 {1,S} {3,S} {5,S} {7,S}
+3    [C,H,N,O,S] u0 {1,S} {2,S}
+4    Br1s        u0 {1,S}
+5    Br1s        u0 {2,S}
+6    Br1s        u0 {1,S}
+7    Br1s        u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.752123,0.56268,0.5897,0.520037,0.252765,0.124064,0.631734],'cal/(mol*K)','+|-',[0.278916,0.292668,0.337246,0.346448,0.297598,0.257275,0.538212]),
+        H298 = (3.90988,'kcal/mol','+|-',1.53356),
+        S298 = (-1.60415,'cal/(mol*K)','+|-',0.843699),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         7
+""",
+)
+
+entry(
+    index = 86,
     label = "Cs(Val7)2-C(Val7)",
     group = 
 """
@@ -2384,15 +2408,15 @@ entry(
 )
 
 entry(
-    index = 112300001,
+    index = 87,
     label = "3ring-Cs(Val7)2-C(Val7)",
     group = 
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 [Cs,Cd]     u0 {1,S} {5,[S,D]} {6,S}
-3    Val7        u0 {1,S}
+2 *2 [Cs,Cd]     u0 {1,S} {3,[S,D]} {6,S}
+3    [C,H,N,O,S] u0 {1,S} {2,[S,D]}
 4    Val7        u0 {1,S}
-5    [C,H,N,O,S] u0 {1,S} {2,[S,D]}
+5    Val7        u0 {1,S}
 6    Val7        u0 {2,S}
 """,
     thermo = ThermoData(
@@ -2408,9 +2432,224 @@ entry(
 """,
 )
 
+entry(
+    index = 88,
+    label = "3ring-Cs(Val7)2-Cs(Val7)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {6,S}
+2 *2 Cs          u0 {1,S} {3,S} {5,S} {7,S}
+3    [C,N,O,S]   u0 {1,S} {2,S}
+4    Val7        u0 {1,S}
+5    Val7        u0 {2,S}
+6    Val7        u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.654673,0.289199,0.194016,0.142786,-0.047627,-0.127424,0.278206],'cal/(mol*K)','+|-',[0.208125,0.218387,0.25165,0.258516,0.222065,0.191977,0.401609]),
+        H298 = (5.58291,'kcal/mol','+|-',2.04998),
+        S298 = (-1.23185,'cal/(mol*K)','+|-',0.817197),
+    ),
+    shortDesc = """Average of children""",
+    longDesc = 
+"""
+
+""",
+)
 
 entry(
-    index = 1124,
+    index = 89,
+    label = "3ring-Cs(Cl)2-Cs(Cl)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {6,S}
+2 *2 Cs          u0 {1,S} {3,S} {5,S} {7,S}
+3    [C,N,O,S]   u0 {1,S} {2,S}
+4    Cl1s        u0 {1,S}
+5    Cl1s        u0 {2,S}
+6    Cl1s        u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.6639,0.30411,0.223223,0.18223,-0.0194462,-0.10263,0.303512],'cal/(mol*K)','+|-',[0.208125,0.218387,0.25165,0.258516,0.222065,0.191977,0.401609]),
+        H298 = (4.78016,'kcal/mol','+|-',1.14433),
+        S298 = (-1.68008,'cal/(mol*K)','+|-',0.629561),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         23
+""",
+)
+
+entry(
+    index = 90,
+    label = "3ring-Cs(F)2-Cs(F)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {6,S}
+2 *2 Cs          u0 {1,S} {3,S} {5,S} {7,S}
+3    [C,N,O,S]   u0 {1,S} {2,S}
+4    F1s         u0 {1,S}
+5    F1s         u0 {2,S}
+6    F1s         u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.581084,0.244418,0.152527,0.156392,0.0435641,-0.0193261,0.453625],'cal/(mol*K)','+|-',[0.195935,0.205596,0.236912,0.243376,0.209059,0.180733,0.378088]),
+        H298 = (6.73748,'kcal/mol','+|-',1.07731),
+        S298 = (-1.13529,'cal/(mol*K)','+|-',0.592689),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         25
+""",
+)
+
+entry(
+    index = 91,
+    label = "3ring-Cs(Br)2-Cs(Br)",
+    group = 
+"""
+1 *1 Cs          u0 {2,S} {3,S} {4,S} {6,S}
+2 *2 Cs          u0 {1,S} {3,S} {5,S} {7,S}
+3    [C,N,O,S]   u0 {1,S} {2,S}
+4    Br1s        u0 {1,S}
+5    Br1s        u0 {2,S}
+6    Br1s        u0 {1,S}
+7    [C,H,N,O,S] u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.719035,0.319068,0.206297,0.0897363,-0.166999,-0.260315,0.0774824],'cal/(mol*K)','+|-',[0.258404,0.271145,0.312445,0.32097,0.275712,0.238355,0.498631]),
+        H298 = (5.23109,'kcal/mol','+|-',1.42078),
+        S298 = (-0.88018,'cal/(mol*K)','+|-',0.781652),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         18
+""",
+)
+
+entry(
+    index = 92,
+    label = "3ring-Cs(Val7)2-Cds(Val7)",
+    group = 
+"""
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {3,D} {6,S}
+3    [C,N,O,S] u0 {1,S} {2,D}
+4    Val7      u0 {1,S}
+5    Val7      u0 {1,S}
+6    Val7      u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0321042,0.410515,0.832681,1.06861,1.01097,0.847777,1.63748],'cal/(mol*K)','+|-',[0.386192,0.405234,0.466957,0.479698,0.412059,0.356228,0.745218]),
+        H298 = (-3.51415,'kcal/mol','+|-',1.75756),
+        S298 = (-1.57406,'cal/(mol*K)','+|-',0.634561),
+    ),
+    shortDesc = """Average of children""",
+    longDesc = 
+"""
+
+""",
+)
+
+entry(
+    index = 93,
+    label = "3ring-Cs(Cl)2-Cds(Cl)",
+    group = 
+"""
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {3,D} {6,S}
+3    [C,N,O,S] u0 {1,S} {2,D}
+4    Cl1s      u0 {1,S}
+5    Cl1s      u0 {1,S}
+6    Cl1s      u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.113755,0.474914,0.894815,1.13638,1.08259,0.932673,1.69048],'cal/(mol*K)','+|-',[0.386192,0.405234,0.466957,0.479698,0.412059,0.356228,0.745218]),
+        H298 = (-3.26364,'kcal/mol','+|-',2.12339),
+        S298 = (-1.50529,'cal/(mol*K)','+|-',1.1682),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         5
+""",
+)
+
+entry(
+    index = 94,
+    label = "3ring-Cs(F)2-Cds(F)",
+    group = 
+"""
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {3,D} {6,S}
+3    [C,N,O,S] u0 {1,S} {2,D}
+4    F1s       u0 {1,S}
+5    F1s       u0 {1,S}
+6    F1s       u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.0947649,0.264295,0.573717,0.761629,0.702552,0.539439,1.40592],'cal/(mol*K)','+|-',[0.364344,0.382308,0.440539,0.452559,0.388747,0.336074,0.703057]),
+        H298 = (-2.78782,'kcal/mol','+|-',2.00326),
+        S298 = (-1.29681,'cal/(mol*K)','+|-',1.10211),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         6
+""",
+)
+
+entry(
+    index = 95,
+    label = "3ring-Cs(Br)2-Cds(Br)",
+    group = 
+"""
+1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Cd        u0 {1,S} {3,D} {6,S}
+3    [C,N,O,S] u0 {1,S} {2,D}
+4    Br1s      u0 {1,S}
+5    Br1s      u0 {1,S}
+6    Br1s      u0 {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0773224,0.492336,1.02951,1.30781,1.24778,1.07122,1.81604],'cal/(mol*K)','+|-',[0.374942,0.393428,0.453354,0.465723,0.400055,0.34585,0.723508]),
+        H298 = (-4.49098,'kcal/mol','+|-',2.06153),
+        S298 = (-1.92009,'cal/(mol*K)','+|-',1.13417),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         6
+""",
+)
+
+entry(
+    index = 96,
     label = "Cs(Val7)2-Cs(Val7)",
     group = 
 """
@@ -2442,27 +2681,7 @@ library:CHOClBr_G4  |         88
 )
 
 entry(
-    index = 112432451351,
-    label = "3ring-Cs(Val7)2-Cs(Val7)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {7,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
-5    Val7        u0 {1,S}
-6    [C,N,O,S] u0 {1,S} {2,S}
-7    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 1125,
+    index = 97,
     label = "Cs(Cl)2-Cs(Cl)",
     group = 
 """
@@ -2493,27 +2712,7 @@ library:CHOClBr_G4 |         4
 )
 
 entry(
-    index = 11252352,
-    label = "3ring-Cs(Cl)2-Cs(Cl)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {7,S}
-3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
-5    Cl1s        u0 {1,S}
-6    [C,N,O,S] u0 {1,S} {2,S}
-7    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 1126,
+    index = 98,
     label = "Cs(F)2-Cs(F)",
     group = 
 """
@@ -2544,27 +2743,7 @@ library:CHOFBr_G4 |         31
 )
 
 entry(
-    index = 112623526,
-    label = "3ring-Cs(F)2-Cs(F)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {7,S}
-3    F1s         u0 {1,S}
-4    F1s         u0 {2,S}
-5    F1s         u0 {1,S}
-6    [C,N,O,S] u0 {1,S} {2,S}
-7    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 1127,
+    index = 99,
     label = "Cs(Br)2-Cs(Br)",
     group = 
 """
@@ -2595,27 +2774,7 @@ library:CHOClBr_G4 |         6
 )
 
 entry(
-    index = 11274363621,
-    label = "3ring-Cs(Br)2-Cs(Br)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {5,S} {6,S}
-2 *2 Cs          u0 {1,S} {4,S} {6,S} {7,S}
-3    Br1s        u0 {1,S}
-4    Br1s        u0 {2,S}
-5    Br1s        u0 {1,S}
-6    [C,N,O,S] u0 {1,S} {2,S}
-7    [C,H,N,O,S] u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 1128,
+    index = 100,
     label = "Cs(Val7)2-Cds(Val7)",
     group = 
 """
@@ -2646,83 +2805,7 @@ library:CHOClBr_G4  |         25
 )
 
 entry(
-    index = 11288888,
-    label = "3ring-Cs(Val7)2-Cds(Val7)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cd          u0 {1,S} {5,D} {6,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {1,S}
-5    [C,N,O,S] u0 {1,S} {2,D}
-6    Val7        u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 11288885,
-    label = "3ring-Cs(F)2-Cds(F)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cd          u0 {1,S} {5,D} {6,S}
-3    F1s        u0 {1,S}
-4    F1s        u0 {1,S}
-5    [C,N,O,S] u0 {1,S} {2,D}
-6    F1s        u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 11288884,
-    label = "3ring-Cs(Cl)2-Cds(Cl)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cd          u0 {1,S} {5,D} {6,S}
-3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {1,S}
-5    [C,N,O,S] u0 {1,S} {2,D}
-6    Cl1s        u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 11288883,
-    label = "3ring-Cs(Br)2-Cds(Br)",
-    group = 
-"""
-1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cd          u0 {1,S} {5,D} {6,S}
-3    Br1s        u0 {1,S}
-4    Br1s        u0 {1,S}
-5    [C,N,O,S] u0 {1,S} {2,D}
-6    Br1s        u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
-"""
-""",
-)
-
-entry(
-    index = 1129,
+    index = 101,
     label = "Cs(Cl)2-Cds(Cl)",
     group = 
 """
@@ -2752,7 +2835,7 @@ library:CHOClBr_G4 |         3
 )
 
 entry(
-    index = 1130,
+    index = 102,
     label = "Cs(F)2-Cds(F)",
     group = 
 """
@@ -2781,7 +2864,7 @@ library:CHOFBr_G4 |         6
 )
 
 entry(
-    index = 1131,
+    index = 103,
     label = "Cs(Br)2-Cds(Br)",
     group = 
 """
@@ -2810,38 +2893,15 @@ library:CHOClBr_G4 |         2
 """,
 )
 
-# entry(
-#     index = 1132,
-#     label = "C(Val7)-C(Val7)",
-#     group = 
-# """
-# 1 *1 [Cs,Cd] u0 {2,S} {3,S}
-# 2 *2 [Cs,Cd] u0 {1,S} {4,S}
-# 3    Val7    u0 {1,S}
-# 4    Val7    u0 {2,S}
-# """,
-#     thermo = ThermoData(
-#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-#         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-#         H298 = (0,'kcal/mol'),
-#         S298 = (0,'cal/(mol*K)'),
-#     ),
-#     shortDesc = """""",
-#     longDesc = 
-# """
-
-# """,
-# )
-
 entry(
-    index = 1133,
+    index = 104,
     label = "Cs(Val7)-Cs(Val7)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S}
-2 *2 Cs          u0 {1,S} {4,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
+1 *1 Cs   u0 {2,S} {3,S}
+2 *2 Cs   u0 {1,S} {4,S}
+3    Val7 u0 {1,S}
+4    Val7 u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2862,14 +2922,14 @@ library:CHOClBr_G4  |         53
 )
 
 entry(
-    index = 1134,
+    index = 105,
     label = "Cs(Cl)-Cs(Cl)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S}
-2 *2 Cs          u0 {1,S} {4,S}
-3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
+1 *1 Cs   u0 {2,S} {3,S}
+2 *2 Cs   u0 {1,S} {4,S}
+3    Cl1s u0 {1,S}
+4    Cl1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2889,14 +2949,14 @@ library:CHOClBr_G4 |         19
 )
 
 entry(
-    index = 1135,
+    index = 106,
     label = "Cs(F)-Cs(F)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S}
-2 *2 Cs          u0 {1,S} {4,S}
-3    F1s         u0 {1,S}
-4    F1s         u0 {2,S}
+1 *1 Cs  u0 {2,S} {3,S}
+2 *2 Cs  u0 {1,S} {4,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2917,14 +2977,14 @@ library:CHOFBr_G4   |         46
 )
 
 entry(
-    index = 1136,
+    index = 107,
     label = "Cs(Br)-Cs(Br)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S}
-2 *2 Cs          u0 {1,S} {4,S}
-3    Br1s        u0 {1,S}
-4    Br1s        u0 {2,S}
+1 *1 Cs   u0 {2,S} {3,S}
+2 *2 Cs   u0 {1,S} {4,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2945,14 +3005,14 @@ library:CHOClBr_G4  |         13
 )
 
 entry(
-    index = 1137,
+    index = 108,
     label = "Cs(Val7)-Cds(Val7)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S}
-2 *2 Cd          u0 {1,S} {4,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
+1 *1 Cs   u0 {2,S} {3,S}
+2 *2 Cd   u0 {1,S} {4,S}
+3    Val7 u0 {1,S}
+4    Val7 u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2973,14 +3033,14 @@ library:CHOClBr_G4  |         22
 )
 
 entry(
-    index = 1138,
+    index = 109,
     label = "Cs(Cl)-Cds(Cl)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S}
-2 *2 Cd          u0 {1,S} {4,S}
-3    Cl          u0 {1,S}
-4    Cl          u0 {2,S}
+1 *1 Cs u0 {2,S} {3,S}
+2 *2 Cd u0 {1,S} {4,S}
+3    Cl u0 {1,S}
+4    Cl u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3000,14 +3060,14 @@ library:CHOClBr_G4 |         8
 )
 
 entry(
-    index = 1139,
+    index = 110,
     label = "Cs(F)-Cds(F)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S}
-2 *2 Cd          u0 {1,S} {4,S}
-3    F           u0 {1,S}
-4    F           u0 {2,S}
+1 *1 Cs u0 {2,S} {3,S}
+2 *2 Cd u0 {1,S} {4,S}
+3    F  u0 {1,S}
+4    F  u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3028,14 +3088,14 @@ library:CHOFBr_G4   |         16
 )
 
 entry(
-    index = 1140,
+    index = 111,
     label = "Cs(Br)-Cds(Br)",
     group = 
 """
-1 *1 Cs          u0 {2,S} {3,S}
-2 *2 Cd          u0 {1,S} {4,S}
-3    Br        u0 {1,S}
-4    Br        u0 {2,S}
+1 *1 Cs u0 {2,S} {3,S}
+2 *2 Cd u0 {1,S} {4,S}
+3    Br u0 {1,S}
+4    Br u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3056,14 +3116,14 @@ library:CHOClBr_G4  |         8
 )
 
 entry(
-    index = 1141,
+    index = 112,
     label = "Cds(Val7)-Cds(Val7)",
     group = 
 """
-1 *1 Cd        u0 {2,S} {3,S}
-2 *2 Cd        u0 {1,S} {4,S}
-3    Val7      u0 {1,S}
-4    Val7      u0 {2,S}
+1 *1 Cd   u0 {2,S} {3,S}
+2 *2 Cd   u0 {1,S} {4,S}
+3    Val7 u0 {1,S}
+4    Val7 u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3084,14 +3144,14 @@ library:CHOClBr_G4  |         5
 )
 
 entry(
-    index = 1142,
+    index = 113,
     label = "Cds(Cl)-Cds(Cl)",
     group = 
 """
-1 *1 Cd        u0 {2,S} {3,S}
-2 *2 Cd        u0 {1,S} {4,S}
-3    Cl1s      u0 {1,S}
-4    Cl1s      u0 {2,S}
+1 *1 Cd   u0 {2,S} {3,S}
+2 *2 Cd   u0 {1,S} {4,S}
+3    Cl1s u0 {1,S}
+4    Cl1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3111,14 +3171,14 @@ library:CHOClBr_G4 |         3
 )
 
 entry(
-    index = 1143,
+    index = 114,
     label = "Cds(F)-Cds(F)",
     group = 
 """
-1 *1 Cd        u0 {2,S} {3,S}
-2 *2 Cd        u0 {1,S} {4,S}
-3    F1s       u0 {1,S}
-4    F1s       u0 {2,S}
+1 *1 Cd  u0 {2,S} {3,S}
+2 *2 Cd  u0 {1,S} {4,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3139,14 +3199,14 @@ library:CHOFBr_G4   |         4
 )
 
 entry(
-    index = 1144,
+    index = 115,
     label = "Cds(Br)-Cds(Br)",
     group = 
 """
-1 *1 Cd        u0 {2,S} {3,S}
-2 *2 Cd        u0 {1,S} {4,S}
-3    Br1s      u0 {1,S}
-4    Br1s      u0 {2,S}
+1 *1 Cd   u0 {2,S} {3,S}
+2 *2 Cd   u0 {1,S} {4,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3167,14 +3227,14 @@ library:CHOClBr_G4  |         3
 )
 
 entry(
-    index = 1145,
+    index = 116,
     label = "Cds(Val7)=Cds(Val7)",
     group = 
 """
-1 *1 Cd          u0 {2,D} {3,S}
-2 *2 Cd          u0 {1,D} {4,S}
-3    Val7        u0 {1,S}
-4    Val7        u0 {2,S}
+1 *1 Cd   u0 {2,D} {3,S}
+2 *2 Cd   u0 {1,D} {4,S}
+3    Val7 u0 {1,S}
+4    Val7 u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3195,14 +3255,14 @@ library:CHOClBr_G4  |         36
 )
 
 entry(
-    index = 1146,
+    index = 117,
     label = "Cds(Cl)=Cds(Cl)",
     group = 
 """
-1 *1 Cd          u0 {2,D} {3,S}
-2 *2 Cd          u0 {1,D} {4,S}
-3    Cl1s        u0 {1,S}
-4    Cl1s        u0 {2,S}
+1 *1 Cd   u0 {2,D} {3,S}
+2 *2 Cd   u0 {1,D} {4,S}
+3    Cl1s u0 {1,S}
+4    Cl1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3222,14 +3282,14 @@ library:CHOClBr_G4 |         16
 )
 
 entry(
-    index = 1147,
+    index = 118,
     label = "Cds(F)=Cds(F)",
     group = 
 """
-1 *1 Cd          u0 {2,D} {3,S}
-2 *2 Cd          u0 {1,D} {4,S}
-3    F1s         u0 {1,S}
-4    F1s         u0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S}
+2 *2 Cd  u0 {1,D} {4,S}
+3    F1s u0 {1,S}
+4    F1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3250,14 +3310,14 @@ library:CHOFBr_G4   |         38
 )
 
 entry(
-    index = 1148,
+    index = 119,
     label = "Cds(Br)=Cds(Br)",
     group = 
 """
-1 *1 Cd          u0 {2,D} {3,S}
-2 *2 Cd          u0 {1,D} {4,S}
-3    Br1s        u0 {1,S}
-4    Br1s        u0 {2,S}
+1 *1 Cd   u0 {2,D} {3,S}
+2 *2 Cd   u0 {1,D} {4,S}
+3    Br1s u0 {1,S}
+4    Br1s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3278,7 +3338,7 @@ library:CHOClBr_G4  |         7
 )
 
 entry(
-    index = 1157,
+    index = 120,
     label = "Cd(Val7)-CO",
     group = 
 """
@@ -3287,8 +3347,13 @@ entry(
 3    Val7 u0 {1,S}
 4    O2d  u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.577925,-0.788183,-0.609241,-0.53437,-0.493207,-0.31593,0.818213],'cal/(mol*K)','+|-',[0.284322,0.317783,0.321275,0.315984,0.275274,0.236583,0.201251]),
+        H298 = (1.35653,'kcal/mol','+|-',0.475899),
+        S298 = (-1.12056,'cal/(mol*K)','+|-',1.35684),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3296,7 +3361,7 @@ entry(
 )
 
 entry(
-    index = 1158,
+    index = 121,
     label = "Cd(F)-CO",
     group = 
 """
@@ -3323,7 +3388,7 @@ library:CHOFBr_G4 |         3
 )
 
 entry(
-    index = 1159,
+    index = 122,
     label = "Cd(Cl)-CO",
     group = 
 """
@@ -3351,7 +3416,7 @@ library:CHOClBr_G4  |         2
 )
 
 entry(
-    index = 1160,
+    index = 123,
     label = "Cd(Br)-CO",
     group = 
 """
@@ -3379,7 +3444,7 @@ library:CHOClBr_G4  |         4
 )
 
 entry(
-    index = 1161,
+    index = 124,
     label = "Cs(Val7)3-CO",
     group = 
 """
@@ -3409,7 +3474,7 @@ library:CHOClBr_G4  |         8
 )
 
 entry(
-    index = 1162,
+    index = 125,
     label = "Cs(F)3-CO",
     group = 
 """
@@ -3434,7 +3499,7 @@ CsCOFFF group accounts for this interaction
 )
 
 entry(
-    index = 1163,
+    index = 126,
     label = "Cs(Cl)3-CO",
     group = 
 """
@@ -3459,7 +3524,7 @@ CsClClClCO group accounts for this interaction
 )
 
 entry(
-    index = 1164,
+    index = 127,
     label = "Cs(Br)3-CO",
     group = 
 """
@@ -3484,7 +3549,7 @@ CsBrBrBrCO group accounts for this interaction
 )
 
 entry(
-    index = 1165,
+    index = 128,
     label = "Cs(Val7)2-CO",
     group = 
 """
@@ -3514,7 +3579,7 @@ library:CHOClBr_G4  |         12
 )
 
 entry(
-    index = 1166,
+    index = 129,
     label = "Cs(F)2-CO",
     group = 
 """
@@ -3543,7 +3608,7 @@ library:CHOFBr_G4 |         9
 )
 
 entry(
-    index = 1167,
+    index = 130,
     label = "Cs(Cl)2-CO",
     group = 
 """
@@ -3572,7 +3637,7 @@ library:CHOClBr_G4 |         5
 )
 
 entry(
-    index = 1168,
+    index = 131,
     label = "Cs(Br)2-CO",
     group = 
 """
@@ -3601,7 +3666,7 @@ library:CHOClBr_G4 |         3
 )
 
 entry(
-    index = 1169,
+    index = 132,
     label = "Cs(Val7)-CO",
     group = 
 """
@@ -3612,8 +3677,13 @@ entry(
 5    [C,H,O,N,S] u0 {1,S}
 6    O2d         u0 {2,D}
 """,
-    thermo = None,
-    shortDesc = """Derived from Chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.802389,0.623417,0.469854,0.309602,0.145382,0.0163653,0.0865849],'cal/(mol*K)','+|-',[0.131486,0.14696,0.148575,0.146129,0.127302,0.109409,0.0930695]),
+        H298 = (2.43718,'kcal/mol','+|-',0.227036),
+        S298 = (-0.200624,'cal/(mol*K)','+|-',0.658194),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3621,7 +3691,7 @@ entry(
 )
 
 entry(
-    index = 1170,
+    index = 133,
     label = "Cs(F)-CO",
     group = 
 """
@@ -3651,7 +3721,7 @@ library:CHOFBr_G4   |         13
 )
 
 entry(
-    index = 1171,
+    index = 134,
     label = "Cs(Cl)-CO",
     group = 
 """
@@ -3681,7 +3751,7 @@ library:CHOClBr_G4  |         9
 )
 
 entry(
-    index = 1172,
+    index = 135,
     label = "Cs(Br)-CO",
     group = 
 """
@@ -3711,7 +3781,7 @@ library:CHOClBr_G4  |         9
 )
 
 entry(
-    index = 1173,
+    index = 136,
     label = "Cs(Val7)3-COs",
     group = 
 """
@@ -3722,8 +3792,13 @@ entry(
 5    Val7 u0 {1,S}
 6    O2s  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from chlorine species in thermo libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.125761,-0.0670559,-0.0752097,0.0760566,0.269919,0.347356,0.63103],'cal/(mol*K)','+|-',[0.119581,0.133655,0.135123,0.132898,0.115776,0.0995031,0.0846431]),
+        H298 = (3.90645,'kcal/mol','+|-',10.0036),
+        S298 = (0.152602,'cal/(mol*K)','+|-',3.24584),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
 
@@ -3731,7 +3806,7 @@ entry(
 )
 
 entry(
-    index = 1174,
+    index = 137,
     label = "Cs(Val7)3-CsOs",
     group = 
 """
@@ -3761,7 +3836,7 @@ library:CHOClBr_G4  |         12
 )
 
 entry(
-    index = 1175,
+    index = 138,
     label = "Cs(F)3-CsOs",
     group = 
 """
@@ -3790,7 +3865,7 @@ library:CHOFBr_G4 |         6
 )
 
 entry(
-    index = 1176,
+    index = 139,
     label = "Cs(Cl)3-CsOs",
     group = 
 """
@@ -3818,7 +3893,7 @@ library:CHOClBr_G4 |         1
 )
 
 entry(
-    index = 77,
+    index = 140,
     label = "Cs(Br)3-CsOs",
     group = 
 """
@@ -3846,7 +3921,7 @@ library:CHOFBr_G4 |         1
 )
 
 entry(
-    index = 78,
+    index = 141,
     label = "Cs(Val7)3-CdOs",
     group = 
 """
@@ -3876,7 +3951,7 @@ library:CHOClBr_G4  |         4
 )
 
 entry(
-    index = 79,
+    index = 142,
     label = "Cs(F)3-CdOs",
     group = 
 """
@@ -3904,7 +3979,7 @@ library:CHOFBr_G4 |         1
 )
 
 entry(
-    index = 80,
+    index = 143,
     label = "Cs(Cl)3-CdOs",
     group = 
 """
@@ -3932,7 +4007,7 @@ library:CHOClBr_G4 |         1
 )
 
 entry(
-    index = 81,
+    index = 144,
     label = "Cs(Br)3-CdOs",
     group = 
 """
@@ -3960,7 +4035,7 @@ library:CHOFBr_G4 |         1
 )
 
 entry(
-    index = 82,
+    index = 145,
     label = "Cd(Val7)2=CdOs",
     group = 
 """
@@ -3989,7 +4064,7 @@ library:CHOClBr_G4  |         11
 )
 
 entry(
-    index = 83,
+    index = 146,
     label = "Cd(F)2=CdOs",
     group = 
 """
@@ -4017,7 +4092,7 @@ library:CHOFBr_G4 |         14
 )
 
 entry(
-    index = 84,
+    index = 147,
     label = "Cd(Cl)2=CdOs",
     group = 
 """
@@ -4044,7 +4119,7 @@ library:CHOClBr_G4 |         6
 )
 
 entry(
-    index = 85,
+    index = 148,
     label = "Cd(Br)2=CdOs",
     group = 
 """
@@ -4070,7 +4145,7 @@ library:CHOBr_G4 |         14
 )
 
 entry(
-    index = 86,
+    index = 149,
     label = "Cd(Val7)=CdOs",
     group = 
 """
@@ -4080,17 +4155,21 @@ entry(
 4    [C,H,O,N,S] u0 {1,S}
 5    O2s         u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """Derived from RMG Thermo Libraries""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.825371,-1.54547,-1.66254,-1.43475,-0.878869,-0.462229,-0.266472],'cal/(mol*K)','+|-',[0.106117,0.118606,0.119909,0.117935,0.10274,0.0882997,0.0751128]),
+        H298 = (6.53508,'kcal/mol','+|-',2.08212),
+        S298 = (1.97563,'cal/(mol*K)','+|-',0.166355),
+    ),
+    shortDesc = """Average of children""",
     longDesc = 
 """
-Fitted using sklearn Ridge regression with alpha = 1e-06
-Library| Number of Species
+
 """,
 )
 
 entry(
-    index = 87,
+    index = 150,
     label = "Cd(F)=CdOs",
     group = 
 """
@@ -4119,7 +4198,7 @@ library:CHOFBr_G4   |         29
 )
 
 entry(
-    index = 88,
+    index = 151,
     label = "Cd(Cl)=CdOs",
     group = 
 """
@@ -4148,7 +4227,7 @@ library:CHOClBr_G4  |         19
 )
 
 entry(
-    index = 89,
+    index = 152,
     label = "Cd(Br)=CdOs",
     group = 
 """
@@ -4175,7 +4254,6 @@ library:CHOFBr_G4   |         12
 library:CHOClBr_G4  |         7
 """,
 )
-
 
 tree(
 """
@@ -4256,7 +4334,7 @@ L1: R
         L3: p_Csj
             L4: p_Csj_C=C
             L4: p_Csj_CHO
-   L2: intVal7
+    L2: intVal7
         L3: Cs(Val7)2-Cs(Val7)2
             L4: Cs(Cl)2-Cs(Cl)2
             L4: Cs(F)2-Cs(F)2
