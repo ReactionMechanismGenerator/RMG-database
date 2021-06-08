@@ -163,6 +163,272 @@ u"""
 """,
 )
 
+entry(
+    index = 15,
+    label = "ThreeMember-Val7",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {1,S} {2,[S,D]}
+4   Val7 u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 16,
+    label = "ThreeMember-F",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {1,S} {2,[S,D]}
+4   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 17,
+    label = "ThreeMember-Cl",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {1,S} {2,[S,D]}
+4   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 18,
+    label = "ThreeMember-Br",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {1,S} {2,[S,D]}
+4   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 20,
+    label = "ThreeMember-F2",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2   R!H u0 {1,S} {3,[S,D]}
+3   R!H u0 {1,S} {2,[S,D]}
+4   F1s u0 {1,S}
+5   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 21,
+    label = "ThreeMember-Cl2",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2   R!H u0 {1,S} {3,[S,D]}
+3   R!H u0 {1,S} {2,[S,D]}
+4   Cl1s u0 {1,S}
+5   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 22,
+    label = "ThreeMember-Br2",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,S} {5,S}
+2   R!H u0 {1,S} {3,[S,D]}
+3   R!H u0 {1,S} {2,[S,D]}
+4   Br1s u0 {1,S}
+5   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 23,
+    label = "FourMember-Val7",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {4,S} {5,S}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {1,S} {3,[S,D]}
+5   Val7 u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 23,
+    label = "FourMember-F",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {4,S} {5,S}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {1,S} {3,[S,D]}
+5   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 25,
+    label = "FourMember-Cl",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {4,S} {5,S}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {1,S} {3,[S,D]}
+5   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 26,
+    label = "FourMember-Br",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {4,S} {5,S}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {1,S} {3,[S,D]}
+5   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 28,
+    label = "FourMember-F2",
+    group = 
+"""
+1 * R!H u0 {2,S} {4,S} {5,S} {6,S}
+2   R!H u0 {1,S} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {1,S} {3,[S,D]}
+5   F1s u0 {1,S}
+6   F1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 29,
+    label = "FourMember-Cl2",
+    group = 
+"""
+1 * R!H u0 {2,S} {4,S} {5,S} {6,S}
+2   R!H u0 {1,S} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {1,S} {3,[S,D]}
+5   Cl1s u0 {1,S}
+6   Cl1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 30,
+    label = "FourMember-Br2",
+    group = 
+"""
+1 * R!H u0 {2,S} {4,S} {5,S} {6,S}
+2   R!H u0 {1,S} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {1,S} {3,[S,D]}
+5   Br1s u0 {1,S}
+6   Br1s u0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
 tree(
 """
 L1: R
@@ -171,6 +437,20 @@ L1: R
         L3: ketene_1C-C_1C-H
         L3: biketene
         L3: ketene_2C-H
+    L2: ThreeMember-Val7
+        L3: ThreeMember-F
+            L4: ThreeMember-F2
+        L3: ThreeMember-Cl
+            L4: ThreeMember-Cl2
+        L3: ThreeMember-Br
+            L4: ThreeMember-Br2
+    L2: FourMember-Val7
+        L3: FourMember-F
+            L4: FourMember-F2
+        L3: FourMember-Cl
+            L4: FourMember-Cl2
+        L3: FourMember-Br
+            L4: FourMember-Br2
 """
 )
 
