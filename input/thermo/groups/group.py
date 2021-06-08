@@ -69,23 +69,6 @@ entry(
 
 entry(
     index = 4,
-    label = "CJ2_singlet-FF",
-    group = 
-"""
-1 * C u0 p1 {2,S} {3,S}
-2   F u0 p3 {1,S}
-3   F u0 p3 {1,S}
-""",
-    thermo = None,
-    shortDesc = """Derived from fluoro-carbene species in CHOF_G4 library""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 5,
     label = "CJ2_singlet-FC",
     group = 
 """
@@ -95,21 +78,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.4991,7.56479,8.3499,8.85944,9.50565,9.86451,9.67794],'cal/(mol*K)','+|-',[0.480518,0.552258,0.564543,0.55626,0.482353,0.416025,0.339051]),
-        H298 = (28.8678,'kcal/mol','+|-',1.71301),
-        S298 = (32.7239,'cal/(mol*K)','+|-',1.16752),
+        Cpdata = ([6.48086,7.55331,8.34579,8.85957,9.50859,9.86596,9.68007],'cal/(mol*K)','+|-',[0.458952,0.512965,0.518602,0.510062,0.444347,0.381892,0.324859]),
+        H298 = (28.8627,'kcal/mol','+|-',1.55893),
+        S298 = (32.7067,'cal/(mol*K)','+|-',1.34712),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         3
+Library         | Number of Species
+library:CHOF_G4 |         3
 """,
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "CJ2_singlet-FCs",
     group = 
 """
@@ -119,21 +102,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.6544,7.16452,7.67224,8.06051,8.63597,8.93427,9.50193],'cal/(mol*K)','+|-',[0.372875,0.428544,0.438077,0.43165,0.374298,0.322829,0.263098]),
-        H298 = (32.4595,'kcal/mol','+|-',1.32927),
-        S298 = (34.043,'cal/(mol*K)','+|-',0.905976),
+        Cpdata = ([6.65912,7.17202,7.681,8.06686,8.64447,8.94235,9.50425],'cal/(mol*K)','+|-',[0.356148,0.398062,0.402437,0.39581,0.344814,0.296349,0.252092]),
+        H298 = (32.4309,'kcal/mol','+|-',1.20973),
+        S298 = (33.378,'cal/(mol*K)','+|-',1.04537),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         6
+Library         | Number of Species
+library:CHOF_G4 |         6
 """,
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "CJ2_singlet-FCO",
     group = 
 """
@@ -144,21 +127,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.8535,8.27139,8.5114,8.65639,8.91107,9.09017,9.27003],'cal/(mol*K)','+|-',[0.483527,0.555716,0.568078,0.559743,0.485373,0.41863,0.341174]),
-        H298 = (39.3047,'kcal/mol','+|-',1.72373),
-        S298 = (33.4494,'cal/(mol*K)','+|-',1.17483),
+        Cpdata = ([7.85244,8.27105,8.51182,8.65719,8.91191,9.09035,9.27007],'cal/(mol*K)','+|-',[0.46182,0.51617,0.521842,0.513249,0.447123,0.384278,0.326889]),
+        H298 = (39.3001,'kcal/mol','+|-',1.56867),
+        S298 = (32.7557,'cal/(mol*K)','+|-',1.35554),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         3
+Library         | Number of Species
+library:CHOF_G4 |         3
 """,
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "CJ2_singlet-FO",
     group = 
 """
@@ -168,21 +151,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.10766,7.30467,8.40938,9.18815,9.90307,10.4767,10.8485],'cal/(mol*K)','+|-',[0.371969,0.427502,0.437012,0.430601,0.373389,0.322045,0.262459]),
-        H298 = (-10.8482,'kcal/mol','+|-',1.32604),
-        S298 = (28.2506,'cal/(mol*K)','+|-',0.903775),
+        Cpdata = ([6.15158,7.35621,8.47629,9.26757,9.9612,10.4747,10.8347],'cal/(mol*K)','+|-',[0.356212,0.398134,0.402509,0.395881,0.344876,0.296403,0.252137]),
+        H298 = (-10.7849,'kcal/mol','+|-',1.20995),
+        S298 = (27.2985,'cal/(mol*K)','+|-',1.04556),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         5
+Library         | Number of Species
+library:CHOF_G4 |         5
 """,
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CJ2_singlet-Cl",
     group = 
 """
@@ -198,7 +181,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CJ2_singlet-ClCl",
     group = 
 """
@@ -208,21 +191,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.0595,11.9895,12.5825,12.9238,13.3539,13.5813,13.7185],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (54.3567,'kcal/mol','+|-',2.95256),
-        S298 = (63.3912,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([11.0595,11.9895,12.5825,12.9238,13.3539,13.5813,13.7185],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (54.3567,'kcal/mol','+|-',2.68696),
+        S298 = (62.0138,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CJ2_singlet-ClC",
     group = 
 """
@@ -232,21 +215,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.01184,8.21551,9.18066,9.74126,10.3431,10.6291,10.5688],'cal/(mol*K)','+|-',[0.590806,0.679011,0.694116,0.683932,0.593062,0.511511,0.41687]),
-        H298 = (67.962,'kcal/mol','+|-',2.10617),
-        S298 = (34.2821,'cal/(mol*K)','+|-',1.43548),
+        Cpdata = ([6.98301,8.19814,9.17523,9.74291,10.3496,10.633,10.5735],'cal/(mol*K)','+|-',[0.564297,0.630708,0.637639,0.627139,0.546339,0.469549,0.399426]),
+        H298 = (67.9545,'kcal/mol','+|-',1.91676),
+        S298 = (34.2533,'cal/(mol*K)','+|-',1.65633),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         2
+Library          | Number of Species
+library:CHOCl_G4 |         2
 """,
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CJ2_singlet-ClCs",
     group = 
 """
@@ -256,39 +239,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.06955,8.70057,8.97448,9.06346,9.20606,9.23058,9.37988],'cal/(mol*K)','+|-',[0.373122,0.428827,0.438366,0.431935,0.374546,0.323043,0.263273]),
-        H298 = (72.893,'kcal/mol','+|-',1.33015),
-        S298 = (36.8816,'cal/(mol*K)','+|-',0.906575),
+        Cpdata = ([8.0748,8.70371,8.97619,9.0628,9.20815,9.23266,9.37842],'cal/(mol*K)','+|-',[0.356381,0.398323,0.4027,0.396069,0.34504,0.296543,0.252257]),
+        H298 = (72.936,'kcal/mol','+|-',1.21053),
+        S298 = (36.3231,'cal/(mol*K)','+|-',1.04605),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         6
+Library          | Number of Species
+library:CHOCl_G4 |         6
 """,
 )
 
 entry(
-    index = 13,
-    label = "CJ2_singlet-ClCO",
-    group = 
-"""
-1 * C   u0 p1 {2,S} {3,S}
-2   CO  u0 {1,S} {4,D}
-3   Cl  u0 p3 {1,S}
-4   O2d u0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 14,
+    index = 12,
     label = "CJ2_singlet-ClO",
     group = 
 """
@@ -298,21 +263,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.41137,8.27666,9.05676,9.63919,10.1058,10.512,10.6901],'cal/(mol*K)','+|-',[0.372153,0.427714,0.437228,0.430814,0.373573,0.322204,0.262589]),
-        H298 = (38.7115,'kcal/mol','+|-',1.32669),
-        S298 = (31.5038,'cal/(mol*K)','+|-',0.904221),
+        Cpdata = ([7.40478,8.26045,9.04246,9.63079,10.0709,10.4283,10.6358],'cal/(mol*K)','+|-',[0.356427,0.398374,0.402752,0.39612,0.345085,0.296581,0.252289]),
+        H298 = (38.6414,'kcal/mol','+|-',1.21068),
+        S298 = (30.7524,'cal/(mol*K)','+|-',1.04619),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         5
+Library          | Number of Species
+library:CHOCl_G4 |         5
 """,
 )
 
 entry(
-    index = 15,
+    index = 13,
     label = "CJ2_singlet-Br",
     group = 
 """
@@ -328,7 +293,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 14,
     label = "CJ2_singlet-BrBr",
     group = 
 """
@@ -338,21 +303,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8507,12.5829,12.9374,13.188,13.522,13.693,13.7791],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (80.9121,'kcal/mol','+|-',2.95256),
-        S298 = (69.0191,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([11.8507,12.5829,12.9374,13.188,13.522,13.693,13.7791],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (80.9121,'kcal/mol','+|-',2.68696),
+        S298 = (67.6417,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         1
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 17,
+    index = 15,
     label = "CJ2_singlet-BrC",
     group = 
 """
@@ -362,21 +327,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.42867,8.57692,9.46091,10.0323,10.5663,10.6839,10.5164],'cal/(mol*K)','+|-',[0.590396,0.67854,0.693634,0.683458,0.59265,0.511155,0.41658]),
-        H298 = (80.6611,'kcal/mol','+|-',2.10471),
-        S298 = (36.9619,'cal/(mol*K)','+|-',1.43449),
+        Cpdata = ([7.40092,8.56007,9.45576,10.0343,10.5735,10.6883,10.5209],'cal/(mol*K)','+|-',[0.563907,0.630272,0.637198,0.626705,0.545962,0.469224,0.39915]),
+        H298 = (80.6579,'kcal/mol','+|-',1.91543),
+        S298 = (36.9603,'cal/(mol*K)','+|-',1.65518),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         2
+Library          | Number of Species
+library:CHOBr_G4 |         2
 """,
 )
 
 entry(
-    index = 18,
+    index = 16,
     label = "CJ2_singlet-BrCs",
     group = 
 """
@@ -386,39 +351,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.33757,8.77681,8.98166,9.08369,9.31807,9.42932,9.70167],'cal/(mol*K)','+|-',[0.416171,0.478303,0.488943,0.48177,0.41776,0.360314,0.293648]),
-        H298 = (85.6964,'kcal/mol','+|-',1.48361),
-        S298 = (39.4755,'cal/(mol*K)','+|-',1.01117),
+        Cpdata = ([8.32734,8.76794,8.97614,9.07865,9.3147,9.42441,9.69898],'cal/(mol*K)','+|-',[0.397492,0.444272,0.449154,0.441757,0.384842,0.330751,0.281356]),
+        H298 = (85.7003,'kcal/mol','+|-',1.35017),
+        S298 = (38.8905,'cal/(mol*K)','+|-',1.16672),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         4
+Library          | Number of Species
+library:CHOBr_G4 |         4
 """,
 )
 
 entry(
-    index = 19,
-    label = "CJ2_singlet-BrCO",
-    group = 
-"""
-1 * C   u0 p1 {2,S} {3,S}
-2   CO  u0 {1,S} {4,D}
-3   Br  u0 p3 {1,S}
-4   O2d u0 {2,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 20,
+    index = 17,
     label = "CJ2_singlet-BrO",
     group = 
 """
@@ -428,21 +375,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.12626,8.76445,9.41893,9.88812,10.1502,10.4411,10.5849],'cal/(mol*K)','+|-',[0.372431,0.428034,0.437555,0.431136,0.373853,0.322445,0.262785]),
-        H298 = (52.3298,'kcal/mol','+|-',1.32769),
-        S298 = (34.1613,'cal/(mol*K)','+|-',0.904898),
+        Cpdata = ([8.12948,8.73413,9.37924,9.84826,10.084,10.3323,10.4985],'cal/(mol*K)','+|-',[0.35639,0.398332,0.402709,0.396078,0.345048,0.29655,0.252263]),
+        H298 = (52.293,'kcal/mol','+|-',1.21055),
+        S298 = (33.3616,'cal/(mol*K)','+|-',1.04608),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         5
+Library          | Number of Species
+library:CHOBr_G4 |         5
 """,
 )
 
 entry(
-    index = 21,
+    index = 18,
     label = "CsJ2_singlet-HH",
     group = 
 """
@@ -467,7 +414,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 22,
+    index = 19,
     label = "CsJ2_singlet-OsH",
     group = 
 """
@@ -492,7 +439,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 23,
+    index = 20,
     label = "CdJ2_singlet-Od",
     group = 
 """
@@ -513,7 +460,7 @@ entry(
 )
 
 entry(
-    index = 24,
+    index = 21,
     label = "CdJ2_singlet-Sd",
     group = 
 """
@@ -534,7 +481,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 22,
     label = "CdJ2_singlet-(Cdd-Od)",
     group = 
 """
@@ -559,7 +506,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 26,
+    index = 23,
     label = "CsJ2_singlet-CH",
     group = 
 """
@@ -576,7 +523,7 @@ entry(
 )
 
 entry(
-    index = 27,
+    index = 24,
     label = "CsJ2_singlet-CsH",
     group = 
 """
@@ -601,7 +548,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 28,
+    index = 25,
     label = "CsJ2_singlet-CtH",
     group = 
 """
@@ -626,7 +573,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 29,
+    index = 26,
     label = "CdJ2_singlet-Cd",
     group = 
 """
@@ -642,7 +589,7 @@ entry(
 )
 
 entry(
-    index = 30,
+    index = 27,
     label = "CdJ2_singlet-Cds",
     group = 
 """
@@ -666,7 +613,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 31,
+    index = 28,
     label = "CdJ2_singlet-(Cdd-Cds)",
     group = 
 """
@@ -691,7 +638,7 @@ J. Phys. Chem. A 2012, 116, 9033-9057.
 )
 
 entry(
-    index = 32,
+    index = 29,
     label = "CsJ2_singlet-(Cds-Cds-Cds-C)C",
     group = 
 """
@@ -711,7 +658,7 @@ entry(
 )
 
 entry(
-    index = 33,
+    index = 30,
     label = "CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_5_ring",
     group = 
 """
@@ -739,7 +686,7 @@ Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 )
 
 entry(
-    index = 34,
+    index = 31,
     label = "CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring",
     group = 
 """
@@ -767,7 +714,7 @@ Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
 )
 
 entry(
-    index = 35,
+    index = 32,
     label = "CtJ2_singlet-N5tc",
     group = 
 """
@@ -790,7 +737,7 @@ thermo_DFT_CCSDTF12_BAC |         2
 )
 
 entry(
-    index = 36,
+    index = 33,
     label = "CsJ2_singlet-N5tc",
     group = 
 """
@@ -813,7 +760,7 @@ primaryNS |         1
 )
 
 entry(
-    index = 37,
+    index = 34,
     label = "Cbf",
     group = 
 """
@@ -828,7 +775,7 @@ entry(
 )
 
 entry(
-    index = 38,
+    index = 35,
     label = "Cbf-CbCbCbf",
     group = 
 """
@@ -851,7 +798,7 @@ entry(
 )
 
 entry(
-    index = 39,
+    index = 36,
     label = "Cbf-CbCbfCbf",
     group = 
 """
@@ -874,7 +821,7 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 37,
     label = "Cbf-CbfCbfCbf",
     group = 
 """
@@ -912,7 +859,7 @@ Examples from the original source do not include Benzo[c]phenanthrene.
 )
 
 entry(
-    index = 41,
+    index = 38,
     label = "Cb",
     group = 
 """
@@ -927,7 +874,7 @@ entry(
 )
 
 entry(
-    index = 42,
+    index = 39,
     label = "Cb-H",
     group = 
 """
@@ -948,7 +895,7 @@ entry(
 )
 
 entry(
-    index = 43,
+    index = 40,
     label = "Cb-O2s",
     group = 
 """
@@ -969,7 +916,7 @@ entry(
 )
 
 entry(
-    index = 44,
+    index = 41,
     label = "Cb-S",
     group = 
 """
@@ -990,7 +937,7 @@ entry(
 )
 
 entry(
-    index = 45,
+    index = 42,
     label = "Cb-C",
     group = 
 """
@@ -1006,7 +953,7 @@ entry(
 )
 
 entry(
-    index = 46,
+    index = 43,
     label = "Cb-Cs",
     group = 
 """
@@ -1027,7 +974,7 @@ entry(
 )
 
 entry(
-    index = 47,
+    index = 44,
     label = "Cb-Cds",
     group = 
 """
@@ -1043,7 +990,7 @@ entry(
 )
 
 entry(
-    index = 48,
+    index = 45,
     label = "Cb-(Cds-O2d)",
     group = 
 """
@@ -1065,7 +1012,7 @@ entry(
 )
 
 entry(
-    index = 49,
+    index = 46,
     label = "Cb-(Cds-Cd)",
     group = 
 """
@@ -1082,7 +1029,7 @@ entry(
 )
 
 entry(
-    index = 50,
+    index = 47,
     label = "Cb-(Cds-Cds)",
     group = 
 """
@@ -1104,7 +1051,7 @@ entry(
 )
 
 entry(
-    index = 51,
+    index = 48,
     label = "Cb-(Cds-Cdd)",
     group = 
 """
@@ -1121,7 +1068,7 @@ entry(
 )
 
 entry(
-    index = 52,
+    index = 49,
     label = "Cb-(Cds-Cdd-O2d)",
     group = 
 """
@@ -1139,7 +1086,7 @@ entry(
 )
 
 entry(
-    index = 53,
+    index = 50,
     label = "Cb-(Cds-Cdd-S2d)",
     group = 
 """
@@ -1157,7 +1104,7 @@ entry(
 )
 
 entry(
-    index = 54,
+    index = 51,
     label = "Cb-(Cds-Cdd-Cd)",
     group = 
 """
@@ -1175,7 +1122,7 @@ entry(
 )
 
 entry(
-    index = 55,
+    index = 52,
     label = "Cb-Ct",
     group = 
 """
@@ -1196,7 +1143,7 @@ entry(
 )
 
 entry(
-    index = 56,
+    index = 53,
     label = "Cb-(CtN3t)",
     group = 
 """
@@ -1218,7 +1165,7 @@ entry(
 )
 
 entry(
-    index = 57,
+    index = 54,
     label = "Cb-Cb",
     group = 
 """
@@ -1239,7 +1186,7 @@ entry(
 )
 
 entry(
-    index = 58,
+    index = 55,
     label = "Cb-Cl",
     group = 
 """
@@ -1260,7 +1207,7 @@ Thermochemical Kinetics 2nd Ed., by Sidney Benson
 )
 
 entry(
-    index = 59,
+    index = 56,
     label = "Cb-I",
     group = 
 """
@@ -1282,7 +1229,7 @@ Cpdata at 1500K was not in the book, Cpdata at 1500K = Cpdata at 1000K + 0.2
 )
 
 entry(
-    index = 60,
+    index = 57,
     label = "Cb-N3s",
     group = 
 """
@@ -1303,7 +1250,7 @@ entry(
 )
 
 entry(
-    index = 61,
+    index = 58,
     label = "Ct",
     group = 
 """
@@ -1318,7 +1265,7 @@ entry(
 )
 
 entry(
-    index = 62,
+    index = 59,
     label = "CtBrC",
     group = 
 """
@@ -1328,23 +1275,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.53226,7.72112,7.96603,8.05651,8.51245,8.85766,9.00327],'cal/(mol*K)','+|-',[0.120214,0.138162,0.141235,0.139163,0.120673,0.10408,0.0848226]),
-        H298 = (40.6636,'kcal/mol','+|-',0.428554),
-        S298 = (35.9327,'cal/(mol*K)','+|-',0.292085),
+        Cpdata = ([7.54012,7.7363,7.98519,8.0843,8.52825,8.85917,9.00549],'cal/(mol*K)','+|-',[0.114933,0.128459,0.129871,0.127732,0.111275,0.0956351,0.0813527]),
+        H298 = (40.4941,'kcal/mol','+|-',0.390394),
+        S298 = (35.5952,'cal/(mol*K)','+|-',0.337351),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOBr_G4   |         39
-CHOFBr_G4  |         2
-CHOClBr_G4 |         2
+Library            | Number of Species
+library:CHOBr_G4   |         39
+library:CHOFBr_G4  |         2
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 63,
+    index = 60,
     label = "CtCCl",
     group = 
 """
@@ -1354,23 +1301,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.38542,7.64583,7.94497,8.07341,8.56204,8.93336,8.98031],'cal/(mol*K)','+|-',[0.0945988,0.108722,0.111141,0.10951,0.09496,0.0819021,0.0667484]),
-        H298 = (30.1852,'kcal/mol','+|-',0.337237),
-        S298 = (34.0252,'cal/(mol*K)','+|-',0.229847),
+        Cpdata = ([7.37993,7.6457,7.95033,8.08433,8.56604,8.92671,8.97691],'cal/(mol*K)','+|-',[0.0904592,0.101105,0.102216,0.100533,0.0875805,0.0752707,0.0640296]),
+        H298 = (30.0848,'kcal/mol','+|-',0.307264),
+        S298 = (33.8569,'cal/(mol*K)','+|-',0.265516),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         40
-CHOFCl_G4  |         2
-CHOClBr_G4 |         32
+Library            | Number of Species
+library:CHOCl_G4   |         40
+library:CHOFCl_G4  |         2
+library:CHOClBr_G4 |         32
 """,
 )
 
 entry(
-    index = 64,
+    index = 61,
     label = "CtCF",
     group = 
 """
@@ -1380,24 +1327,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.62698,7.04095,7.4374,7.65538,8.2991,8.78587,8.96122],'cal/(mol*K)','+|-',[0.0709538,0.0815469,0.0833609,0.0821379,0.0712246,0.0614306,0.0500646]),
-        H298 = (3.36637,'kcal/mol','+|-',0.252944),
-        S298 = (31.8101,'cal/(mol*K)','+|-',0.172397),
+        Cpdata = ([6.6323,7.05117,7.45191,7.67589,8.31151,8.78211,8.95691],'cal/(mol*K)','+|-',[0.067934,0.075929,0.0767634,0.0754993,0.0657721,0.0565276,0.0480856]),
+        H298 = (3.28757,'kcal/mol','+|-',0.230753),
+        S298 = (31.7523,'cal/(mol*K)','+|-',0.1994),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         42
-CHOFCl_G4   |         34
-CHOFClBr_G4 |         12
-CHOFBr_G4   |         51
+Library             | Number of Species
+library:CHOF_G4     |         42
+library:CHOFCl_G4   |         34
+library:CHOFClBr_G4 |         12
+library:CHOFBr_G4   |         51
 """,
 )
 
 entry(
-    index = 65,
+    index = 62,
     label = "Ct-CtH",
     group = 
 """
@@ -1419,7 +1366,7 @@ entry(
 )
 
 entry(
-    index = 66,
+    index = 63,
     label = "Ct-StH",
     group = 
 """
@@ -1441,7 +1388,7 @@ entry(
 )
 
 entry(
-    index = 67,
+    index = 64,
     label = "Ct-CtOs",
     group = 
 """
@@ -1463,7 +1410,7 @@ entry(
 )
 
 entry(
-    index = 68,
+    index = 65,
     label = "Ct-CtS",
     group = 
 """
@@ -1480,7 +1427,7 @@ entry(
 )
 
 entry(
-    index = 69,
+    index = 66,
     label = "Ct-CtS2",
     group = 
 """
@@ -1502,7 +1449,7 @@ entry(
 )
 
 entry(
-    index = 70,
+    index = 67,
     label = "Ct-CtS4",
     group = 
 """
@@ -1524,7 +1471,7 @@ entry(
 )
 
 entry(
-    index = 71,
+    index = 68,
     label = "Ct-CtS6",
     group = 
 """
@@ -1546,7 +1493,7 @@ entry(
 )
 
 entry(
-    index = 72,
+    index = 69,
     label = "Ct-CtC",
     group = 
 """
@@ -1563,7 +1510,7 @@ entry(
 )
 
 entry(
-    index = 73,
+    index = 70,
     label = "Ct-CtCs",
     group = 
 """
@@ -1585,7 +1532,7 @@ entry(
 )
 
 entry(
-    index = 74,
+    index = 71,
     label = "Ct-CtCds",
     group = 
 """
@@ -1602,7 +1549,7 @@ entry(
 )
 
 entry(
-    index = 75,
+    index = 72,
     label = "Ct-Ct(Cds-O2d)",
     group = 
 """
@@ -1620,7 +1567,7 @@ entry(
 )
 
 entry(
-    index = 76,
+    index = 73,
     label = "Ct-Ct(Cds-Cd)",
     group = 
 """
@@ -1638,7 +1585,7 @@ entry(
 )
 
 entry(
-    index = 77,
+    index = 74,
     label = "Ct-Ct(Cds-Cds)",
     group = 
 """
@@ -1661,7 +1608,7 @@ entry(
 )
 
 entry(
-    index = 78,
+    index = 75,
     label = "Ct-Ct(Cds-Cdd)",
     group = 
 """
@@ -1679,7 +1626,7 @@ entry(
 )
 
 entry(
-    index = 79,
+    index = 76,
     label = "Ct-Ct(Cds-Cdd-O2d)",
     group = 
 """
@@ -1698,7 +1645,7 @@ entry(
 )
 
 entry(
-    index = 80,
+    index = 77,
     label = "Ct-Ct(Cds-Cdd-S2d)",
     group = 
 """
@@ -1717,7 +1664,7 @@ entry(
 )
 
 entry(
-    index = 81,
+    index = 78,
     label = "Ct-Ct(Cds-Cdd-Cd)",
     group = 
 """
@@ -1736,7 +1683,7 @@ entry(
 )
 
 entry(
-    index = 82,
+    index = 79,
     label = "Ct-CtCt",
     group = 
 """
@@ -1758,7 +1705,7 @@ entry(
 )
 
 entry(
-    index = 83,
+    index = 80,
     label = "Ct-Ct(CtN3t)",
     group = 
 """
@@ -1784,7 +1731,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 84,
+    index = 81,
     label = "Ct-CtCb",
     group = 
 """
@@ -1806,7 +1753,7 @@ entry(
 )
 
 entry(
-    index = 85,
+    index = 82,
     label = "Ct-HN",
     group = 
 """
@@ -1823,7 +1770,7 @@ entry(
 )
 
 entry(
-    index = 86,
+    index = 83,
     label = "Ct-HN5tc",
     group = 
 """
@@ -1847,7 +1794,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 87,
+    index = 84,
     label = "Ct-NtN",
     group = 
 """
@@ -1864,7 +1811,7 @@ entry(
 )
 
 entry(
-    index = 88,
+    index = 85,
     label = "Ct-N5tcN",
     group = 
 """
@@ -1888,7 +1835,7 @@ CHON_G4 |         8
 )
 
 entry(
-    index = 89,
+    index = 86,
     label = "Ct-N3tN",
     group = 
 """
@@ -1912,7 +1859,7 @@ CHON_G4 |         14
 )
 
 entry(
-    index = 90,
+    index = 87,
     label = "Ct-N3tN3s",
     group = 
 """
@@ -1937,7 +1884,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 91,
+    index = 88,
     label = "Ct-NtO",
     group = 
 """
@@ -1954,7 +1901,7 @@ entry(
 )
 
 entry(
-    index = 92,
+    index = 89,
     label = "Ct-N3tO",
     group = 
 """
@@ -1971,7 +1918,7 @@ entry(
 )
 
 entry(
-    index = 93,
+    index = 90,
     label = "Ct-N3tOs",
     group = 
 """
@@ -1995,7 +1942,7 @@ CHON_G4 |         18
 )
 
 entry(
-    index = 94,
+    index = 91,
     label = "Ct-N5tcO",
     group = 
 """
@@ -2019,7 +1966,7 @@ CHON_G4 |         4
 )
 
 entry(
-    index = 95,
+    index = 92,
     label = "Ct-NtC",
     group = 
 """
@@ -2036,7 +1983,7 @@ entry(
 )
 
 entry(
-    index = 96,
+    index = 93,
     label = "Ct-N5tcC",
     group = 
 """
@@ -2053,7 +2000,7 @@ entry(
 )
 
 entry(
-    index = 97,
+    index = 94,
     label = "Ct-(N5tcO)C",
     group = 
 """
@@ -2078,7 +2025,7 @@ CHON_G4 |         9
 )
 
 entry(
-    index = 98,
+    index = 95,
     label = "Ct-N3tC",
     group = 
 """
@@ -2102,7 +2049,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 99,
+    index = 96,
     label = "Ct-N3tCb",
     group = 
 """
@@ -2124,7 +2071,7 @@ entry(
 )
 
 entry(
-    index = 100,
+    index = 97,
     label = "Ct-N3tCO",
     group = 
 """
@@ -2150,7 +2097,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 101,
+    index = 98,
     label = "Ct-N3tCt",
     group = 
 """
@@ -2174,7 +2121,7 @@ CHON_G4 |         2
 )
 
 entry(
-    index = 102,
+    index = 99,
     label = "Ct-CtCt(N3t)",
     group = 
 """
@@ -2197,7 +2144,7 @@ entry(
 )
 
 entry(
-    index = 103,
+    index = 100,
     label = "Ct-N3tCd",
     group = 
 """
@@ -2223,7 +2170,7 @@ CHN      |         1
 )
 
 entry(
-    index = 104,
+    index = 101,
     label = "Ct-N3tCs",
     group = 
 """
@@ -2251,7 +2198,7 @@ CHON                    |         6
 )
 
 entry(
-    index = 105,
+    index = 102,
     label = "Ct-N3tCs(HHH)",
     group = 
 """
@@ -2276,7 +2223,7 @@ entry(
 )
 
 entry(
-    index = 106,
+    index = 103,
     label = "Ct-CtN",
     group = 
 """
@@ -2300,7 +2247,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 107,
+    index = 104,
     label = "Ct-CtN3sd",
     group = 
 """
@@ -2324,7 +2271,7 @@ CHON_G4 |         58
 )
 
 entry(
-    index = 108,
+    index = 105,
     label = "Ct-CtN5sdtc",
     group = 
 """
@@ -2348,7 +2295,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 109,
+    index = 106,
     label = "Ct-CtNOO",
     group = 
 """
@@ -2375,7 +2322,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 110,
+    index = 107,
     label = "Cdd",
     group = 
 """
@@ -2390,7 +2337,7 @@ entry(
 )
 
 entry(
-    index = 111,
+    index = 108,
     label = "Cdd-OdOd",
     group = 
 """
@@ -2412,7 +2359,7 @@ entry(
 )
 
 entry(
-    index = 112,
+    index = 109,
     label = "Cdd-OdSd",
     group = 
 """
@@ -2434,7 +2381,7 @@ entry(
 )
 
 entry(
-    index = 113,
+    index = 110,
     label = "Cdd-SdSd",
     group = 
 """
@@ -2451,7 +2398,7 @@ entry(
 )
 
 entry(
-    index = 114,
+    index = 111,
     label = "Cdd-S2dS2d",
     group = 
 """
@@ -2473,7 +2420,7 @@ entry(
 )
 
 entry(
-    index = 115,
+    index = 112,
     label = "Cdd-S4S4",
     group = 
 """
@@ -2495,7 +2442,7 @@ entry(
 )
 
 entry(
-    index = 116,
+    index = 113,
     label = "Cdd-S2S4",
     group = 
 """
@@ -2517,7 +2464,7 @@ entry(
 )
 
 entry(
-    index = 117,
+    index = 114,
     label = "Cdd-CdOd",
     group = 
 """
@@ -2534,7 +2481,7 @@ entry(
 )
 
 entry(
-    index = 118,
+    index = 115,
     label = "Cdd-CdsOd",
     group = 
 """
@@ -2556,7 +2503,7 @@ entry(
 )
 
 entry(
-    index = 119,
+    index = 116,
     label = "Cdd-(CdN)Od",
     group = 
 """
@@ -2581,7 +2528,7 @@ CHON_G4 |         8
 )
 
 entry(
-    index = 120,
+    index = 117,
     label = "Cdd-CddOd",
     group = 
 """
@@ -2598,7 +2545,7 @@ entry(
 )
 
 entry(
-    index = 121,
+    index = 118,
     label = "Cdd-(Cdd-O2d)O2d",
     group = 
 """
@@ -2616,7 +2563,7 @@ entry(
 )
 
 entry(
-    index = 122,
+    index = 119,
     label = "Cdd-(Cdd-Cd)O2d",
     group = 
 """
@@ -2634,7 +2581,7 @@ entry(
 )
 
 entry(
-    index = 123,
+    index = 120,
     label = "Cdd-(CddN)Od",
     group = 
 """
@@ -2659,7 +2606,7 @@ CHON_G4 |         5
 )
 
 entry(
-    index = 124,
+    index = 121,
     label = "Cdd-CdSd",
     group = 
 """
@@ -2681,7 +2628,7 @@ entry(
 )
 
 entry(
-    index = 125,
+    index = 122,
     label = "Cdd-CdsSd",
     group = 
 """
@@ -2698,7 +2645,7 @@ entry(
 )
 
 entry(
-    index = 126,
+    index = 123,
     label = "Cdd-CdsS2d",
     group = 
 """
@@ -2720,7 +2667,7 @@ entry(
 )
 
 entry(
-    index = 127,
+    index = 124,
     label = "Cdd-CdsS4d",
     group = 
 """
@@ -2742,7 +2689,7 @@ entry(
 )
 
 entry(
-    index = 128,
+    index = 125,
     label = "Cdd-CdsS6d",
     group = 
 """
@@ -2764,7 +2711,7 @@ entry(
 )
 
 entry(
-    index = 129,
+    index = 126,
     label = "Cdd-CddSd",
     group = 
 """
@@ -2781,7 +2728,7 @@ entry(
 )
 
 entry(
-    index = 130,
+    index = 127,
     label = "Cdd-(Cdd-S2d)S2d",
     group = 
 """
@@ -2799,7 +2746,7 @@ entry(
 )
 
 entry(
-    index = 131,
+    index = 128,
     label = "Cdd-(Cdd-Cd)S2d",
     group = 
 """
@@ -2817,7 +2764,7 @@ entry(
 )
 
 entry(
-    index = 132,
+    index = 129,
     label = "Cdd-CdCd",
     group = 
 """
@@ -2834,7 +2781,7 @@ entry(
 )
 
 entry(
-    index = 133,
+    index = 130,
     label = "Cdd-CddCdd",
     group = 
 """
@@ -2851,7 +2798,7 @@ entry(
 )
 
 entry(
-    index = 134,
+    index = 131,
     label = "Cdd-(Cdd-O2d)(Cdd-O2d)",
     group = 
 """
@@ -2870,7 +2817,7 @@ entry(
 )
 
 entry(
-    index = 135,
+    index = 132,
     label = "Cdd-(Cdd-S2d)(Cdd-S2d)",
     group = 
 """
@@ -2889,7 +2836,7 @@ entry(
 )
 
 entry(
-    index = 136,
+    index = 133,
     label = "Cdd-(Cdd-O2d)(Cdd-Cd)",
     group = 
 """
@@ -2908,7 +2855,7 @@ entry(
 )
 
 entry(
-    index = 137,
+    index = 134,
     label = "Cdd-(Cdd-S2d)(Cdd-Cd)",
     group = 
 """
@@ -2927,7 +2874,7 @@ entry(
 )
 
 entry(
-    index = 138,
+    index = 135,
     label = "Cdd-(Cdd-Cd)(Cdd-Cd)",
     group = 
 """
@@ -2946,7 +2893,7 @@ entry(
 )
 
 entry(
-    index = 139,
+    index = 136,
     label = "Cdd-(Cdd-O2d)(Cdd-N3d)",
     group = 
 """
@@ -2972,7 +2919,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 140,
+    index = 137,
     label = "Cdd-CddCds",
     group = 
 """
@@ -2989,7 +2936,7 @@ entry(
 )
 
 entry(
-    index = 141,
+    index = 138,
     label = "Cdd-(Cdd-O2d)Cds",
     group = 
 """
@@ -3019,7 +2966,7 @@ CHOClBr_G4 |         1
 )
 
 entry(
-    index = 142,
+    index = 139,
     label = "Cdd-(Cdd-S2d)Cds",
     group = 
 """
@@ -3037,7 +2984,7 @@ entry(
 )
 
 entry(
-    index = 143,
+    index = 140,
     label = "Cdd-(Cdd-Cd)Cds",
     group = 
 """
@@ -3055,7 +3002,7 @@ entry(
 )
 
 entry(
-    index = 144,
+    index = 141,
     label = "Cdd-CdsCds",
     group = 
 """
@@ -3077,7 +3024,7 @@ entry(
 )
 
 entry(
-    index = 145,
+    index = 142,
     label = "Cdd-NC",
     group = 
 """
@@ -3101,7 +3048,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 146,
+    index = 143,
     label = "Cdd-N3dCd",
     group = 
 """
@@ -3125,7 +3072,7 @@ CHON_G4 |         44
 )
 
 entry(
-    index = 147,
+    index = 144,
     label = "Cdd-N3dCdd",
     group = 
 """
@@ -3149,7 +3096,7 @@ CHON_G4 |         8
 )
 
 entry(
-    index = 148,
+    index = 145,
     label = "Cdd-(N3dH)Cdd",
     group = 
 """
@@ -3174,7 +3121,7 @@ CHON_G4 |         12
 )
 
 entry(
-    index = 149,
+    index = 146,
     label = "Cdd-NO",
     group = 
 """
@@ -3198,7 +3145,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 150,
+    index = 147,
     label = "Cdd-N3dOd",
     group = 
 """
@@ -3223,7 +3170,7 @@ CHON    |         3
 )
 
 entry(
-    index = 151,
+    index = 148,
     label = "Cdd-NN",
     group = 
 """
@@ -3247,7 +3194,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 152,
+    index = 149,
     label = "Cdd-N3dN3d",
     group = 
 """
@@ -3271,7 +3218,7 @@ CHON_G4 |         24
 )
 
 entry(
-    index = 153,
+    index = 150,
     label = "Cds",
     group = 
 """
@@ -3286,7 +3233,7 @@ entry(
 )
 
 entry(
-    index = 154,
+    index = 151,
     label = "COBrBrO",
     group = 
 """
@@ -3297,21 +3244,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.8529,16.0692,16.7669,17.3279,18.1456,18.6561,19.2045],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-28.3191,'kcal/mol','+|-',2.95256),
-        S298 = (73.6438,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([14.8529,16.0692,16.7669,17.3279,18.1456,18.6561,19.2045],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-28.3191,'kcal/mol','+|-',2.68696),
+        S298 = (72.2664,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         1
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 155,
+    index = 152,
     label = "CdBrBrC",
     group = 
 """
@@ -3322,24 +3269,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8911,12.6269,13.379,13.8939,14.7842,15.3221,15.7807],'cal/(mol*K)','+|-',[0.119579,0.137432,0.140489,0.138428,0.120036,0.10353,0.0843745]),
-        H298 = (18.387,'kcal/mol','+|-',0.42629),
-        S298 = (47.1512,'cal/(mol*K)','+|-',0.290542),
+        Cpdata = ([11.8901,12.6285,13.3828,13.8938,14.779,15.3148,15.774],'cal/(mol*K)','+|-',[0.114239,0.127683,0.129086,0.126961,0.110603,0.0950576,0.0808615]),
+        H298 = (18.3744,'kcal/mol','+|-',0.388037),
+        S298 = (46.7116,'cal/(mol*K)','+|-',0.335314),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         57
-CHOFClBr_G4 |         2
-CHOFBr_G4   |         18
-CHOClBr_G4  |         10
+Library             | Number of Species
+library:CHOBr_G4    |         57
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         18
+library:CHOClBr_G4  |         10
 """,
 )
 
 entry(
-    index = 156,
+    index = 153,
     label = "CdBrBrCdd",
     group = 
 """
@@ -3350,24 +3297,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.9502,12.7019,13.3155,13.7821,14.5777,15.0445,15.4525],'cal/(mol*K)','+|-',[0.155706,0.178952,0.182933,0.180249,0.1563,0.134808,0.109865]),
-        H298 = (20.8555,'kcal/mol','+|-',0.555079),
-        S298 = (47.947,'cal/(mol*K)','+|-',0.37832),
+        Cpdata = ([11.9269,12.6684,13.2809,13.7509,14.5568,15.0306,15.4469],'cal/(mol*K)','+|-',[0.148744,0.16625,0.168076,0.165309,0.144011,0.123769,0.105285]),
+        H298 = (20.9178,'kcal/mol','+|-',0.505242),
+        S298 = (47.5191,'cal/(mol*K)','+|-',0.436595),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         15
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         6
-CHOClBr_G4  |         4
+Library             | Number of Species
+library:CHOBr_G4    |         15
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         6
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 157,
+    index = 154,
     label = "Cd(Cdd-Od)BrBr",
     group = 
 """
@@ -3379,21 +3326,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3475,19.7117,20.8152,21.7194,23.0359,23.855,24.72],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (14.2101,'kcal/mol','+|-',2.95256),
-        S298 = (79.8852,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([18.3475,19.7117,20.8152,21.7194,23.0359,23.855,24.72],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (14.2101,'kcal/mol','+|-',2.68696),
+        S298 = (78.5078,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         1
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 158,
+    index = 155,
     label = "COBrClO",
     group = 
 """
@@ -3404,21 +3351,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.251,15.7064,16.5387,17.1489,18.0358,18.5864,19.1679],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-40.5587,'kcal/mol','+|-',2.95256),
-        S298 = (72.0675,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([14.251,15.7064,16.5387,17.1489,18.0358,18.5864,19.1679],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-40.5587,'kcal/mol','+|-',2.68696),
+        S298 = (72.0675,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 159,
+    index = 156,
     label = "CdBrCCl",
     group = 
 """
@@ -3429,22 +3376,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3503,12.2686,13.0575,13.6258,14.5833,15.1567,15.6962],'cal/(mol*K)','+|-',[0.0994227,0.114266,0.116808,0.115094,0.0998022,0.0860786,0.0701521]),
-        H298 = (7.31075,'kcal/mol','+|-',0.354433),
-        S298 = (44.9698,'cal/(mol*K)','+|-',0.241568),
+        Cpdata = ([11.3464,12.2707,13.0638,13.6294,14.581,15.1517,15.6915],'cal/(mol*K)','+|-',[0.0950173,0.1062,0.107367,0.105599,0.0919935,0.0790634,0.067256]),
+        H298 = (7.27805,'kcal/mol','+|-',0.322747),
+        S298 = (44.6626,'cal/(mol*K)','+|-',0.278895),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         14
-CHOClBr_G4  |         67
+Library             | Number of Species
+library:CHOFClBr_G4 |         14
+library:CHOClBr_G4  |         67
 """,
 )
 
 entry(
-    index = 160,
+    index = 157,
     label = "Cd(Cdd-O2d)ClBr",
     group = 
 """
@@ -3456,21 +3403,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.0253,19.4989,20.6291,21.5582,22.9189,23.7744,24.6953],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (4.1688,'kcal/mol','+|-',2.95256),
-        S298 = (78.3906,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([18.0253,19.4989,20.6291,21.5582,22.9189,23.7744,24.6953],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (4.1688,'kcal/mol','+|-',2.68696),
+        S298 = (78.3906,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 161,
+    index = 158,
     label = "COClClO",
     group = 
 """
@@ -3481,21 +3428,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.6488,15.2632,16.2837,16.9581,17.9245,18.5184,19.1285],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-53.0276,'kcal/mol','+|-',2.95256),
-        S298 = (67.7597,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([13.6488,15.2632,16.2837,16.9581,17.9245,18.5184,19.1285],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-53.0276,'kcal/mol','+|-',2.68696),
+        S298 = (66.3823,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 162,
+    index = 159,
     label = "CdCClCl",
     group = 
 """
@@ -3506,23 +3453,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.0157,12.1575,13.0669,13.7142,14.6887,15.2685,15.8766],'cal/(mol*K)','+|-',[0.0976422,0.11222,0.114716,0.113033,0.098015,0.0845371,0.0688958]),
-        H298 = (-5.3781,'kcal/mol','+|-',0.348086),
-        S298 = (41.4752,'cal/(mol*K)','+|-',0.237242),
+        Cpdata = ([10.998,12.1429,13.0579,13.7039,14.6775,15.2557,15.8664],'cal/(mol*K)','+|-',[0.0933062,0.104287,0.105433,0.103697,0.0903369,0.0776397,0.0660448]),
+        H298 = (-5.3747,'kcal/mol','+|-',0.316935),
+        S298 = (41.0753,'cal/(mol*K)','+|-',0.273873),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         103
-CHOFCl_G4  |         8
-CHOClBr_G4 |         37
+Library            | Number of Species
+library:CHOCl_G4   |         103
+library:CHOFCl_G4  |         8
+library:CHOClBr_G4 |         37
 """,
 )
 
 entry(
-    index = 163,
+    index = 160,
     label = "CdCddClCl",
     group = 
 """
@@ -3533,23 +3480,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.1947,12.1765,12.8905,13.4327,14.3309,14.8579,15.3141],'cal/(mol*K)','+|-',[0.138643,0.159342,0.162886,0.160497,0.139172,0.120035,0.0978257]),
-        H298 = (-1.73724,'kcal/mol','+|-',0.49425),
-        S298 = (42.544,'cal/(mol*K)','+|-',0.336861),
+        Cpdata = ([11.1764,12.167,12.8872,13.4298,14.3291,14.8568,15.3195],'cal/(mol*K)','+|-',[0.132731,0.148352,0.149982,0.147512,0.128507,0.110445,0.0939508]),
+        H298 = (-1.76257,'kcal/mol','+|-',0.450849),
+        S298 = (42.0342,'cal/(mol*K)','+|-',0.389592),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         19
-CHOFCl_G4  |         4
-CHOClBr_G4 |         8
+Library            | Number of Species
+library:CHOCl_G4   |         19
+library:CHOFCl_G4  |         4
+library:CHOClBr_G4 |         8
 """,
 )
 
 entry(
-    index = 164,
+    index = 161,
     label = "Cd(Cdd-Od)ClCl",
     group = 
 """
@@ -3561,21 +3508,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.635,19.2806,20.4418,21.3984,22.8049,23.6952,24.6658],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-6.13992,'kcal/mol','+|-',2.95256),
-        S298 = (74.1495,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([17.635,19.2806,20.4418,21.3984,22.8049,23.6952,24.6658],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-6.13992,'kcal/mol','+|-',2.68696),
+        S298 = (72.7721,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 165,
+    index = 162,
     label = "COBrFO",
     group = 
 """
@@ -3586,21 +3533,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.9681,14.5466,15.6413,16.4113,17.5327,18.2426,19.0098],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-85.6424,'kcal/mol','+|-',2.95256),
-        S298 = (69.0582,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([12.9681,14.5466,15.6413,16.4113,17.5327,18.2426,19.0098],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-85.6424,'kcal/mol','+|-',2.68696),
+        S298 = (69.0582,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 166,
+    index = 163,
     label = "CdBrCF",
     group = 
 """
@@ -3611,21 +3558,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.7294,11.8264,12.6955,13.3172,14.3,14.9049,15.5121],'cal/(mol*K)','+|-',[0.0932458,0.107167,0.109551,0.107944,0.0936018,0.0807307,0.0657937]),
-        H298 = (-30.8812,'kcal/mol','+|-',0.332413),
-        S298 = (42.4586,'cal/(mol*K)','+|-',0.22656),
+        Cpdata = ([10.689,11.7829,12.6587,13.2835,14.2731,14.8807,15.4983],'cal/(mol*K)','+|-',[0.0891327,0.0996226,0.100717,0.0990588,0.0862962,0.0741669,0.0630907]),
+        H298 = (-30.8332,'kcal/mol','+|-',0.302759),
+        S298 = (42.282,'cal/(mol*K)','+|-',0.261623),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         97
+Library           | Number of Species
+library:CHOFBr_G4 |         97
 """,
 )
 
 entry(
-    index = 167,
+    index = 164,
     label = "Cd(Cdd-O2d)FBr",
     group = 
 """
@@ -3637,21 +3584,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.3679,18.9651,20.1468,21.1261,22.5815,23.5206,24.5882],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-27.1033,'kcal/mol','+|-',2.95256),
-        S298 = (75.8337,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([17.3679,18.9651,20.1468,21.1261,22.5815,23.5206,24.5882],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-27.1033,'kcal/mol','+|-',2.68696),
+        S298 = (75.8337,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 168,
+    index = 165,
     label = "COClFO",
     group = 
 """
@@ -3662,21 +3609,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.4165,14.0483,15.2955,16.1797,17.4077,18.1727,18.9666],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-98.531,'kcal/mol','+|-',2.95256),
-        S298 = (66.1682,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([12.4165,14.0483,15.2955,16.1797,17.4077,18.1727,18.9666],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-98.531,'kcal/mol','+|-',2.68696),
+        S298 = (66.1682,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 169,
+    index = 166,
     label = "CdCClF",
     group = 
 """
@@ -3687,22 +3634,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.0601,11.2945,12.2608,12.9567,14.048,14.732,15.4604],'cal/(mol*K)','+|-',[0.0888591,0.102125,0.104397,0.102866,0.0891983,0.0769328,0.0626985]),
-        H298 = (-43.1382,'kcal/mol','+|-',0.316775),
-        S298 = (39.5328,'cal/(mol*K)','+|-',0.215901),
+        Cpdata = ([10.0538,11.2951,12.2676,12.9602,14.0442,14.7257,15.4579],'cal/(mol*K)','+|-',[0.0849944,0.0949972,0.0960411,0.0944596,0.0822896,0.0707235,0.0601615]),
+        H298 = (-43.1905,'kcal/mol','+|-',0.288702),
+        S298 = (39.2073,'cal/(mol*K)','+|-',0.249476),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFCl_G4   |         62
-CHOFClBr_G4 |         45
+Library             | Number of Species
+library:CHOFCl_G4   |         62
+library:CHOFClBr_G4 |         45
 """,
 )
 
 entry(
-    index = 170,
+    index = 167,
     label = "Cd(Cdd-O2d)FCl",
     group = 
 """
@@ -3714,21 +3661,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.8933,18.6957,19.9263,20.9432,22.4563,23.4346,24.5487],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-38.4637,'kcal/mol','+|-',2.95256),
-        S298 = (72.8961,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([16.8933,18.6957,19.9263,20.9432,22.4563,23.4346,24.5487],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-38.4637,'kcal/mol','+|-',2.68696),
+        S298 = (72.8961,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 171,
+    index = 168,
     label = "COFFO",
     group = 
 """
@@ -3739,21 +3686,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.2109,12.9945,14.3775,15.3664,16.8001,17.7376,18.7973],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-145.202,'kcal/mol','+|-',2.95256),
-        S298 = (61.8225,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([11.2109,12.9945,14.3775,15.3664,16.8001,17.7376,18.7973],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-145.202,'kcal/mol','+|-',2.68696),
+        S298 = (60.445,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 172,
+    index = 169,
     label = "CdCFF",
     group = 
 """
@@ -3764,24 +3711,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.42561,10.7472,11.7802,12.5581,13.7204,14.4647,15.3357],'cal/(mol*K)','+|-',[0.0801689,0.0921378,0.0941874,0.0928056,0.080475,0.069409,0.0565667]),
-        H298 = (-86.9001,'kcal/mol','+|-',0.285795),
-        S298 = (36.4859,'cal/(mol*K)','+|-',0.194787),
+        Cpdata = ([9.40846,10.7294,11.7676,12.5436,13.7045,14.4458,15.3205],'cal/(mol*K)','+|-',[0.0766384,0.0856578,0.0865991,0.085173,0.0741995,0.0637705,0.0542469]),
+        H298 = (-86.9223,'kcal/mol','+|-',0.260319),
+        S298 = (36.1603,'cal/(mol*K)','+|-',0.224949),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         102
-CHOFCl_G4   |         31
-CHOFClBr_G4 |         6
-CHOFBr_G4   |         81
+Library             | Number of Species
+library:CHOF_G4     |         102
+library:CHOFCl_G4   |         31
+library:CHOFClBr_G4 |         6
+library:CHOFBr_G4   |         81
 """,
 )
 
 entry(
-    index = 173,
+    index = 170,
     label = "CdCddFF",
     group = 
 """
@@ -3792,24 +3739,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.89331,10.2631,11.3446,12.1241,13.3367,14.1187,15.0479],'cal/(mol*K)','+|-',[0.120334,0.1383,0.141376,0.139302,0.120794,0.104183,0.0849071]),
-        H298 = (-81.2229,'kcal/mol','+|-',0.428981),
-        S298 = (37.1859,'cal/(mol*K)','+|-',0.292376),
+        Cpdata = ([8.87396,10.2441,11.3291,12.11,13.3279,14.1121,15.049],'cal/(mol*K)','+|-',[0.115302,0.128872,0.130288,0.128143,0.111633,0.0959425,0.0816142]),
+        H298 = (-81.1532,'kcal/mol','+|-',0.391649),
+        S298 = (36.8071,'cal/(mol*K)','+|-',0.338436),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         19
-CHOFCl_G4   |         8
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         16
+Library             | Number of Species
+library:CHOF_G4     |         19
+library:CHOFCl_G4   |         8
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         16
 """,
 )
 
 entry(
-    index = 174,
+    index = 171,
     label = "Cd(Cdd-Od)FF",
     group = 
 """
@@ -3821,39 +3768,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.1986,18.012,19.3239,20.4165,22.0587,23.1389,24.4086],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-73.8337,'kcal/mol','+|-',2.95256),
-        S298 = (69.1822,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([16.1986,18.012,19.3239,20.4165,22.0587,23.1389,24.4086],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-73.8337,'kcal/mol','+|-',2.68696),
+        S298 = (67.8047,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 175,
-    label = "COBrHO",
-    group = 
-"""
-1 * CO u0 {2,S} {3,S} {4,D}
-2   H  u0 {1,S}
-3   Br u0 {1,S}
-4   O  u0 {1,D}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 176,
+    index = 172,
     label = "CdBrCH",
     group = 
 """
@@ -3864,24 +3793,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.40569,9.50824,10.4846,11.2566,12.4858,13.3329,14.5174],'cal/(mol*K)','+|-',[0.0885984,0.101826,0.104091,0.102564,0.0889366,0.0767071,0.0625145]),
-        H298 = (10.1628,'kcal/mol','+|-',0.315846),
-        S298 = (37.2536,'cal/(mol*K)','+|-',0.215268),
+        Cpdata = ([8.37395,9.50052,10.4952,11.2754,12.5107,13.3495,14.5268],'cal/(mol*K)','+|-',[0.0851625,0.0951851,0.096231,0.0946464,0.0824523,0.0708633,0.0602805]),
+        H298 = (10.1118,'kcal/mol','+|-',0.289273),
+        S298 = (37.0162,'cal/(mol*K)','+|-',0.249969),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         79
-CHOFClBr_G4 |         6
-CHOFBr_G4   |         27
-CHOClBr_G4  |         18
+Library             | Number of Species
+library:CHOBr_G4    |         79
+library:CHOFClBr_G4 |         6
+library:CHOFBr_G4   |         27
+library:CHOClBr_G4  |         18
 """,
 )
 
 entry(
-    index = 177,
+    index = 173,
     label = "CdBrCddH",
     group = 
 """
@@ -3892,24 +3821,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.15331,9.17945,10.0774,10.8053,12.0717,12.9415,14.1155],'cal/(mol*K)','+|-',[0.137848,0.158428,0.161953,0.159577,0.138374,0.119347,0.0972649]),
-        H298 = (12.5562,'kcal/mol','+|-',0.491417),
-        S298 = (38.4356,'cal/(mol*K)','+|-',0.33493),
+        Cpdata = ([8.13676,9.15516,10.0522,10.7829,12.0573,12.9322,14.1118],'cal/(mol*K)','+|-',[0.131682,0.147179,0.148796,0.146346,0.127491,0.109572,0.0932081]),
+        H298 = (12.6041,'kcal/mol','+|-',0.447285),
+        S298 = (38.3861,'cal/(mol*K)','+|-',0.386513),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         17
-CHOFClBr_G4 |         2
-CHOFBr_G4   |         6
-CHOClBr_G4  |         6
+Library             | Number of Species
+library:CHOBr_G4    |         17
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         6
+library:CHOClBr_G4  |         6
 """,
 )
 
 entry(
-    index = 178,
+    index = 174,
     label = "Cd(Cdd-Od)BrH",
     group = 
 """
@@ -3921,21 +3850,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.7956,16.6724,17.9852,19.0614,20.7366,21.9109,23.5205],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (2.25528,'kcal/mol','+|-',2.95256),
-        S298 = (70.5685,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([14.7956,16.6724,17.9852,19.0614,20.7366,21.9109,23.5205],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (2.25528,'kcal/mol','+|-',2.68696),
+        S298 = (70.5685,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         1
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 179,
+    index = 175,
     label = "COClHO",
     group = 
 """
@@ -3946,21 +3875,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.7154,12.0444,13.1242,14.0367,15.4773,16.5071,17.9425],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-44.188,'kcal/mol','+|-',2.95256),
-        S298 = (61.943,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([10.7154,12.0444,13.1242,14.0367,15.4773,16.5071,17.9425],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-44.188,'kcal/mol','+|-',2.68696),
+        S298 = (61.943,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 180,
+    index = 176,
     label = "CdCClH",
     group = 
 """
@@ -3971,23 +3900,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.07436,9.30622,10.3225,11.1302,12.3659,13.2299,14.4837],'cal/(mol*K)','+|-',[0.0731681,0.0840918,0.0859625,0.0847013,0.0734474,0.0633478,0.051627]),
-        H298 = (-1.55969,'kcal/mol','+|-',0.260838),
-        S298 = (34.69,'cal/(mol*K)','+|-',0.177777),
+        Cpdata = ([8.03487,9.29092,10.3316,11.1503,12.3934,13.2474,14.496],'cal/(mol*K)','+|-',[0.0704715,0.0787651,0.0796306,0.0783193,0.0682288,0.058639,0.0498817]),
+        H298 = (-1.63415,'kcal/mol','+|-',0.239372),
+        S298 = (34.514,'cal/(mol*K)','+|-',0.206848),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         104
-CHOFCl_G4  |         18
-CHOClBr_G4 |         87
+Library            | Number of Species
+library:CHOCl_G4   |         104
+library:CHOFCl_G4  |         18
+library:CHOClBr_G4 |         87
 """,
 )
 
 entry(
-    index = 181,
+    index = 177,
     label = "CdCddClH",
     group = 
 """
@@ -3998,23 +3927,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.84129,8.93976,9.86814,10.6136,11.9064,12.8118,14.0543],'cal/(mol*K)','+|-',[0.124162,0.142698,0.145873,0.143733,0.124636,0.107497,0.0876077]),
-        H298 = (1.44247,'kcal/mol','+|-',0.442626),
-        S298 = (35.7764,'cal/(mol*K)','+|-',0.301676),
+        Cpdata = ([7.79395,8.87548,9.80458,10.5573,11.8703,12.7885,14.0471],'cal/(mol*K)','+|-',[0.118698,0.132667,0.134125,0.131916,0.11492,0.0987679,0.0840177]),
+        H298 = (1.56024,'kcal/mol','+|-',0.403183),
+        S298 = (35.7457,'cal/(mol*K)','+|-',0.348402),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         19
-CHOFCl_G4  |         6
-CHOClBr_G4 |         16
+Library            | Number of Species
+library:CHOCl_G4   |         19
+library:CHOFCl_G4  |         6
+library:CHOClBr_G4 |         16
 """,
 )
 
 entry(
-    index = 182,
+    index = 178,
     label = "Cd(Cdd-Od)ClH",
     group = 
 """
@@ -4026,21 +3955,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.3677,16.3272,17.7335,18.8545,20.5975,21.8169,23.478],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-7.571,'kcal/mol','+|-',2.95256),
-        S298 = (67.7298,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([14.3677,16.3272,17.7335,18.8545,20.5975,21.8169,23.478],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-7.571,'kcal/mol','+|-',2.68696),
+        S298 = (67.7298,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 183,
+    index = 179,
     label = "COFHO",
     group = 
 """
@@ -4051,21 +3980,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.59802,10.8724,12.1205,13.2195,14.8776,16.0631,17.7557],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-91.7554,'kcal/mol','+|-',2.95256),
-        S298 = (58.89,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([9.59802,10.8724,12.1205,13.2195,14.8776,16.0631,17.7557],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-91.7554,'kcal/mol','+|-',2.68696),
+        S298 = (58.89,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 184,
+    index = 180,
     label = "CdCFH",
     group = 
 """
@@ -4076,24 +4005,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.43593,8.69819,9.75318,10.6128,11.9327,12.8803,14.3011],'cal/(mol*K)','+|-',[0.059666,0.0685739,0.0700993,0.0690709,0.0598938,0.0516579,0.0421]),
-        H298 = (-39.1837,'kcal/mol','+|-',0.212704),
-        S298 = (32.3423,'cal/(mol*K)','+|-',0.144971),
+        Cpdata = ([7.40499,8.6932,9.77093,10.6413,11.9701,12.9059,14.3173],'cal/(mol*K)','+|-',[0.057643,0.0644269,0.0651349,0.0640623,0.0558086,0.0479645,0.0408014]),
+        H298 = (-39.2931,'kcal/mol','+|-',0.195797),
+        S298 = (32.2153,'cal/(mol*K)','+|-',0.169194),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         102
-CHOFCl_G4   |         81
-CHOFClBr_G4 |         36
-CHOFBr_G4   |         141
+Library             | Number of Species
+library:CHOF_G4     |         102
+library:CHOFCl_G4   |         81
+library:CHOFClBr_G4 |         36
+library:CHOFBr_G4   |         141
 """,
 )
 
 entry(
-    index = 185,
+    index = 181,
     label = "CdCddFH",
     group = 
 """
@@ -4104,24 +4033,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.85661,8.05208,9.11854,9.97185,11.4171,12.4518,13.931],'cal/(mol*K)','+|-',[0.105197,0.120902,0.123592,0.121779,0.105598,0.0910778,0.0742264]),
-        H298 = (-34.9589,'kcal/mol','+|-',0.375018),
-        S298 = (32.9579,'cal/(mol*K)','+|-',0.255597),
+        Cpdata = ([6.81752,7.99609,9.0615,9.91994,11.3832,12.4296,13.925],'cal/(mol*K)','+|-',[0.100584,0.112421,0.113657,0.111785,0.097383,0.0836954,0.0711962]),
+        H298 = (-34.8167,'kcal/mol','+|-',0.341655),
+        S298 = (32.9759,'cal/(mol*K)','+|-',0.295234),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         19
-CHOFCl_G4   |         16
-CHOFClBr_G4 |         5
-CHOFBr_G4   |         22
+Library             | Number of Species
+library:CHOF_G4     |         19
+library:CHOFCl_G4   |         16
+library:CHOFClBr_G4 |         5
+library:CHOFBr_G4   |         22
 """,
 )
 
 entry(
-    index = 186,
+    index = 182,
     label = "Cd(Cdd-Od)FH",
     group = 
 """
@@ -4133,21 +4062,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.6989,15.6397,17.1223,18.3248,20.2056,21.5323,23.3522],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-38.074,'kcal/mol','+|-',2.95256),
-        S298 = (64.9946,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([13.6989,15.6397,17.1223,18.3248,20.2056,21.5323,23.3522],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-38.074,'kcal/mol','+|-',2.68696),
+        S298 = (64.9946,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 187,
+    index = 183,
     label = "COBrOO",
     group = 
 """
@@ -4156,12 +4085,7 @@ entry(
 3   Br u0 {1,S}
 4   O  u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.6292,12.883,14.4842,15.5841,16.7235,17.1257,16.7967],'cal/(mol*K)','+|-',[0.217606,0.250094,0.255657,0.251906,0.218437,0.1884,0.153542]),
-        H298 = (-45.4297,'kcal/mol','+|-',0.775747),
-        S298 = (36.0781,'cal/(mol*K)','+|-',0.528718),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -4175,7 +4099,7 @@ CHOClBr_G4  |         3
 )
 
 entry(
-    index = 188,
+    index = 184,
     label = "COBrOO_H",
     group = 
 """
@@ -4185,54 +4109,23 @@ entry(
 4   O  u0 {1,D}
 5   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.95661,11.7981,13.0221,13.9185,15.1141,15.7304,15.9897],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-46.843,'kcal/mol','+|-',2.68696),
+        S298 = (40.5855,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 189,
-    label = "COBrOO_F",
-    group = 
-"""
-1 * CO u0 {2,S} {3,S} {4,D}
-2   O  u0 {1,S} {5,S}
-3   Br u0 {1,S}
-4   O  u0 {1,D}
-5   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 190,
-    label = "COBrOO_Cl",
-    group = 
-"""
-1 * CO u0 {2,S} {3,S} {4,D}
-2   O  u0 {1,S} {5,S}
-3   Br u0 {1,S}
-4   O  u0 {1,D}
-5   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 191,
+    index = 185,
     label = "COBrOO_Br",
     group = 
 """
@@ -4242,16 +4135,23 @@ entry(
 4   O  u0 {1,D}
 5   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7062,12.6387,14.0224,15.0609,16.4089,17.0679,17.152],'cal/(mol*K)','+|-',[0.82203,0.918773,0.928869,0.913573,0.79587,0.684008,0.581857]),
+        H298 = (-48.782,'kcal/mol','+|-',2.7922),
+        S298 = (39.6635,'cal/(mol*K)','+|-',2.41283),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 192,
+    index = 186,
     label = "COBrOO_C",
     group = 
 """
@@ -4261,35 +4161,26 @@ entry(
 4   O  u0 {1,D}
 5   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7507,13.0663,14.7229,15.8531,16.9327,17.2173,16.8147],'cal/(mol*K)','+|-',[0.224929,0.2514,0.254163,0.249977,0.217771,0.187162,0.159211]),
+        H298 = (-45.2994,'kcal/mol','+|-',0.764019),
+        S298 = (34.6526,'cal/(mol*K)','+|-',0.660212),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         3
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         6
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 193,
-    label = "COBrOO_O",
-    group = 
-"""
-1 * CO u0 {2,S} {3,S} {4,D}
-2   O  u0 {1,S} {5,S}
-3   Br u0 {1,S}
-4   O  u0 {1,D}
-5   O  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 194,
+    index = 187,
     label = "CdBrCO",
     group = 
 """
@@ -4298,12 +4189,7 @@ entry(
 3   Br u0 {1,S}
 4   C  u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.84488,8.45135,9.05382,9.58008,10.3948,10.8908,11.2435],'cal/(mol*K)','+|-',[0.0927652,0.106615,0.108986,0.107387,0.0931193,0.0803146,0.0654546]),
-        H298 = (12.4381,'kcal/mol','+|-',0.3307),
-        S298 = (18.2787,'cal/(mol*K)','+|-',0.225392),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -4317,7 +4203,7 @@ CHOClBr_G4  |         27
 )
 
 entry(
-    index = 195,
+    index = 188,
     label = "CdBrCddO",
     group = 
 """
@@ -4326,12 +4212,7 @@ entry(
 3   Br  u0 {1,S}
 4   Cdd u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.68277,7.97037,8.51241,9.07043,9.97839,10.5028,10.8887],'cal/(mol*K)','+|-',[0.204332,0.234838,0.240062,0.23654,0.205112,0.176908,0.144176]),
-        H298 = (17.3145,'kcal/mol','+|-',0.728427),
-        S298 = (19.4906,'cal/(mol*K)','+|-',0.496467),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -4345,7 +4226,7 @@ CHOClBr_G4  |         4
 )
 
 entry(
-    index = 196,
+    index = 189,
     label = "Cd(Cdd-Od)BrO",
     group = 
 """
@@ -4357,21 +4238,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.7483,14.938,16.0867,17.1569,18.7784,19.7704,20.6771],'cal/(mol*K)','+|-',[0.585871,0.67334,0.688318,0.67822,0.588108,0.507238,0.413388]),
-        H298 = (11.7236,'kcal/mol','+|-',2.08858),
-        S298 = (51.7787,'cal/(mol*K)','+|-',1.42349),
+        Cpdata = ([13.4372,14.5427,15.7008,16.8049,18.5372,19.6075,20.6312],'cal/(mol*K)','+|-',[0.560484,0.626446,0.63333,0.622901,0.542647,0.466376,0.396727]),
+        H298 = (12.3472,'kcal/mol','+|-',1.9038),
+        S298 = (52.242,'cal/(mol*K)','+|-',1.64513),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         2
+Library          | Number of Species
+library:CHOBr_G4 |         2
 """,
 )
 
 entry(
-    index = 197,
+    index = 190,
     label = "CdBrCddO_H",
     group = 
 """
@@ -4381,54 +4262,26 @@ entry(
 4   Cdd u0 {1,D}
 5   H   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.07124,6.95113,7.41714,8.09109,9.32299,10.0643,10.6574],'cal/(mol*K)','+|-',[0.252276,0.281966,0.285065,0.28037,0.244248,0.209918,0.178568]),
+        H298 = (19.6742,'kcal/mol','+|-',0.856911),
+        S298 = (21.0679,'cal/(mol*K)','+|-',0.740482),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         3
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         3
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 198,
-    label = "CdBrCddO_F",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   Br  u0 {1,S}
-4   Cdd u0 {1,D}
-5   F   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 199,
-    label = "CdBrCddO_Cl",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   Br  u0 {1,S}
-4   Cdd u0 {1,D}
-5   Cl  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 200,
+    index = 191,
     label = "CdBrCddO_Br",
     group = 
 """
@@ -4438,54 +4291,25 @@ entry(
 4   Cdd u0 {1,D}
 5   Br  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.99138,8.70545,9.37029,9.82478,10.4737,10.8335,11.1376],'cal/(mol*K)','+|-',[0.309512,0.345938,0.349739,0.34398,0.299662,0.257544,0.219082]),
+        H298 = (15.067,'kcal/mol','+|-',1.05132),
+        S298 = (18.6261,'cal/(mol*K)','+|-',0.908481),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         3
+library:CHOFBr_G4  |         3
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 201,
-    label = "CdBrCddO_C",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   Br  u0 {1,S}
-4   Cdd u0 {1,D}
-5   C   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 202,
-    label = "CdBrCddO_O",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   Br  u0 {1,S}
-4   Cdd u0 {1,D}
-5   O   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 203,
+    index = 192,
     label = "CdBrCO_H",
     group = 
 """
@@ -4495,16 +4319,26 @@ entry(
 4   C  u0 {1,D}
 5   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.51694,7.6631,8.09271,8.66176,9.70136,10.3408,10.9413],'cal/(mol*K)','+|-',[0.131327,0.146782,0.148395,0.145952,0.127147,0.109276,0.0929568]),
+        H298 = (14.9531,'kcal/mol','+|-',0.446079),
+        S298 = (19.5271,'cal/(mol*K)','+|-',0.385471),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         10
+library:CHOFClBr_G4 |         3
+library:CHOFBr_G4   |         16
+library:CHOClBr_G4  |         10
 """,
 )
 
 entry(
-    index = 204,
+    index = 193,
     label = "CdBrCO_F",
     group = 
 """
@@ -4514,16 +4348,23 @@ entry(
 4   C  u0 {1,D}
 5   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.27975,8.32303,9.22247,9.89865,10.8575,11.3793,11.773],'cal/(mol*K)','+|-',[0.48293,0.539765,0.545697,0.536711,0.467562,0.401844,0.341832]),
+        H298 = (11.3892,'kcal/mol','+|-',1.64038),
+        S298 = (18.6975,'cal/(mol*K)','+|-',1.4175),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 205,
+    index = 194,
     label = "CdBrCO_Cl",
     group = 
 """
@@ -4533,16 +4374,23 @@ entry(
 4   C  u0 {1,D}
 5   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.17976,8.20068,9.1356,9.74423,10.6768,11.1972,11.5754],'cal/(mol*K)','+|-',[0.582737,0.651318,0.658475,0.647632,0.564192,0.484893,0.412478]),
+        H298 = (14.4419,'kcal/mol','+|-',1.97939),
+        S298 = (19.557,'cal/(mol*K)','+|-',1.71045),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 206,
+    index = 195,
     label = "CdBrCO_Br",
     group = 
 """
@@ -4552,16 +4400,26 @@ entry(
 4   C  u0 {1,D}
 5   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.10881,8.06609,8.96202,9.62765,10.5838,11.0989,11.4788],'cal/(mol*K)','+|-',[0.16079,0.179713,0.181688,0.178696,0.155673,0.133793,0.113812]),
+        H298 = (12.1429,'kcal/mol','+|-',0.546159),
+        S298 = (17.836,'cal/(mol*K)','+|-',0.471952),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         11
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         12
+library:CHOClBr_G4  |         7
 """,
 )
 
 entry(
-    index = 207,
+    index = 196,
     label = "CdBrCO_C",
     group = 
 """
@@ -4571,16 +4429,26 @@ entry(
 4   C  u0 {1,D}
 5   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.58175,7.74494,8.03721,8.47225,9.38842,10.0446,10.6639],'cal/(mol*K)','+|-',[0.189961,0.212317,0.21465,0.211115,0.183915,0.158065,0.13446]),
+        H298 = (15.3718,'kcal/mol','+|-',0.645242),
+        S298 = (17.9495,'cal/(mol*K)','+|-',0.557573),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         8
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         7
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 208,
+    index = 197,
     label = "CdBrCO_O",
     group = 
 """
@@ -4590,16 +4458,26 @@ entry(
 4   C  u0 {1,D}
 5   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.38646,10.2896,10.9469,11.2207,11.4613,11.6489,11.6162],'cal/(mol*K)','+|-',[0.205678,0.229884,0.23241,0.228583,0.199133,0.171144,0.145585]),
+        H298 = (6.84264,'kcal/mol','+|-',0.69863),
+        S298 = (14.8732,'cal/(mol*K)','+|-',0.603707),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         6
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         6
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 209,
+    index = 198,
     label = "COClOO",
     group = 
 """
@@ -4608,12 +4486,7 @@ entry(
 3   Cl u0 {1,S}
 4   O  u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.0863,12.4243,14.0742,15.1924,16.3723,16.7847,16.6471],'cal/(mol*K)','+|-',[0.264962,0.30452,0.311294,0.306727,0.265973,0.2294,0.186956]),
-        H298 = (-57.4862,'kcal/mol','+|-',0.944567),
-        S298 = (36.5418,'cal/(mol*K)','+|-',0.643779),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -4626,7 +4499,7 @@ CHOClBr_G4 |         1
 )
 
 entry(
-    index = 210,
+    index = 199,
     label = "COClOO_H",
     group = 
 """
@@ -4636,35 +4509,23 @@ entry(
 4   O  u0 {1,D}
 5   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.84381,11.8388,13.1808,14.0665,15.22,15.7969,15.9968],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-59.7173,'kcal/mol','+|-',2.68696),
+        S298 = (37.5725,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 211,
-    label = "COClOO_F",
-    group = 
-"""
-1 * CO u0 {2,S} {3,S} {4,D}
-2   O  u0 {1,S} {5,S}
-3   Cl u0 {1,S}
-4   O  u0 {1,D}
-5   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 212,
+    index = 200,
     label = "COClOO_Cl",
     group = 
 """
@@ -4674,16 +4535,23 @@ entry(
 4   O  u0 {1,D}
 5   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.0578,12.5185,13.9919,14.9915,16.305,16.9789,17.1254],'cal/(mol*K)','+|-',[0.840409,0.939315,0.949637,0.933999,0.813665,0.699301,0.594866]),
+        H298 = (-60.0253,'kcal/mol','+|-',2.85463),
+        S298 = (39.083,'cal/(mol*K)','+|-',2.46677),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 213,
+    index = 201,
     label = "COClOO_Br",
     group = 
 """
@@ -4693,16 +4561,23 @@ entry(
 4   O  u0 {1,D}
 5   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.2695,12.5936,14.0712,15.0292,16.2664,16.8826,16.9835],'cal/(mol*K)','+|-',[0.82203,0.918773,0.928869,0.913573,0.79587,0.684008,0.581857]),
+        H298 = (-60.8383,'kcal/mol','+|-',2.7922),
+        S298 = (37.2196,'cal/(mol*K)','+|-',2.41283),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 214,
+    index = 202,
     label = "COClOO_C",
     group = 
 """
@@ -4712,35 +4587,24 @@ entry(
 4   O  u0 {1,D}
 5   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3033,12.7329,14.4878,15.687,16.8058,17.0472,16.7925],'cal/(mol*K)','+|-',[0.305003,0.340898,0.344644,0.338968,0.295296,0.253791,0.21589]),
+        H298 = (-57.3888,'kcal/mol','+|-',1.03601),
+        S298 = (35.1567,'cal/(mol*K)','+|-',0.895244),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         4
+library:CHOFCl_G4 |         3
 """,
 )
 
 entry(
-    index = 215,
-    label = "COClOO_O",
-    group = 
-"""
-1 * CO u0 {2,S} {3,S} {4,D}
-2   O  u0 {1,S} {5,S}
-3   Cl u0 {1,S}
-4   O  u0 {1,D}
-5   O  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 216,
+    index = 203,
     label = "CdCClO",
     group = 
 """
@@ -4749,12 +4613,7 @@ entry(
 3   Cl u0 {1,S}
 4   C  u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.35537,8.15155,8.78872,9.34639,10.2196,10.7592,11.1595],'cal/(mol*K)','+|-',[0.0942948,0.108373,0.110783,0.109158,0.0946548,0.0816389,0.0665339]),
-        H298 = (0.403727,'kcal/mol','+|-',0.336153),
-        S298 = (15.5093,'cal/(mol*K)','+|-',0.229109),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -4768,7 +4627,7 @@ CHOClBr_G4  |         20
 )
 
 entry(
-    index = 217,
+    index = 204,
     label = "CdClCddO",
     group = 
 """
@@ -4777,12 +4636,7 @@ entry(
 3   Cl  u0 {1,S}
 4   Cdd u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.44892,7.93259,8.51799,9.06198,9.95124,10.4648,10.8514],'cal/(mol*K)','+|-',[0.234382,0.269375,0.275367,0.271327,0.235277,0.202924,0.165379]),
-        H298 = (4.66086,'kcal/mol','+|-',0.835553),
-        S298 = (16.31,'cal/(mol*K)','+|-',0.56948),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -4796,7 +4650,7 @@ CHOClBr_G4  |         2
 )
 
 entry(
-    index = 218,
+    index = 205,
     label = "Cd(Cdd-Od)ClO",
     group = 
 """
@@ -4808,22 +4662,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.5302,15.0416,16.3015,17.36,18.9226,19.9083,20.8767],'cal/(mol*K)','+|-',[0.478525,0.549967,0.562201,0.553953,0.480352,0.414299,0.337645]),
-        H298 = (-1.12052,'kcal/mol','+|-',1.7059),
-        S298 = (49.1843,'cal/(mol*K)','+|-',1.16267),
+        Cpdata = ([13.0844,14.4982,15.7872,16.901,18.6149,19.7081,20.8494],'cal/(mol*K)','+|-',[0.458423,0.512374,0.518004,0.509474,0.443834,0.381452,0.324485]),
+        H298 = (-0.338593,'kcal/mol','+|-',1.55713),
+        S298 = (49.749,'cal/(mol*K)','+|-',1.34556),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         2
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOCl_G4   |         2
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 219,
+    index = 206,
     label = "CdClCddO_H",
     group = 
 """
@@ -4833,35 +4687,24 @@ entry(
 4   Cdd u0 {1,D}
 5   H   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.54749,6.61114,7.15702,7.87171,9.19034,9.99352,10.6565],'cal/(mol*K)','+|-',[0.325534,0.363845,0.367843,0.361786,0.315174,0.270875,0.230422]),
+        H298 = (7.16596,'kcal/mol','+|-',1.10575),
+        S298 = (17.3054,'cal/(mol*K)','+|-',0.955508),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         3
+library:CHOFCl_G4 |         3
 """,
 )
 
 entry(
-    index = 220,
-    label = "CdClCddO_F",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   Cl  u0 {1,S}
-4   Cdd u0 {1,D}
-5   F   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 221,
+    index = 207,
     label = "CdClCddO_Cl",
     group = 
 """
@@ -4871,16 +4714,24 @@ entry(
 4   Cdd u0 {1,D}
 5   Cl  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.75559,8.44291,9.11021,9.59579,10.3107,10.6981,11.0499],'cal/(mol*K)','+|-',[0.40871,0.45681,0.46183,0.454225,0.395704,0.340086,0.289297]),
+        H298 = (3.54991,'kcal/mol','+|-',1.38827),
+        S298 = (15.9817,'cal/(mol*K)','+|-',1.19965),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         3
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 222,
+    index = 208,
     label = "CdClCddO_Br",
     group = 
 """
@@ -4890,54 +4741,24 @@ entry(
 4   Cdd u0 {1,D}
 5   Br  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.37422,8.11779,8.77593,9.24289,9.99942,10.4546,10.9078],'cal/(mol*K)','+|-',[0.465019,0.519746,0.525458,0.516805,0.450221,0.38694,0.329154]),
+        H298 = (3.59508,'kcal/mol','+|-',1.57954),
+        S298 = (17.2942,'cal/(mol*K)','+|-',1.36493),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         2
 """,
 )
 
 entry(
-    index = 223,
-    label = "CdClCddO_C",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   Cl  u0 {1,S}
-4   Cdd u0 {1,D}
-5   C   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 224,
-    label = "CdClCddO_O",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   Cl  u0 {1,S}
-4   Cdd u0 {1,D}
-5   O   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 225,
+    index = 209,
     label = "CdCClO_H",
     group = 
 """
@@ -4947,16 +4768,25 @@ entry(
 4   C  u0 {1,D}
 5   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.91505,7.16843,7.66239,8.31427,9.49016,10.2084,10.9062],'cal/(mol*K)','+|-',[0.154358,0.172524,0.17442,0.171548,0.149446,0.12844,0.109259]),
+        H298 = (2.52227,'kcal/mol','+|-',0.52431),
+        S298 = (16.2151,'cal/(mol*K)','+|-',0.453072),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         13
+library:CHOFCl_G4  |         11
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 226,
+    index = 210,
     label = "CdCClO_F",
     group = 
 """
@@ -4966,16 +4796,24 @@ entry(
 4   C  u0 {1,D}
 5   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.72932,8.0502,9.01652,9.66049,10.6483,11.2235,11.6661],'cal/(mol*K)','+|-',[0.484118,0.541092,0.547038,0.53803,0.468711,0.402832,0.342672]),
+        H298 = (-1.00288,'kcal/mol','+|-',1.64441),
+        S298 = (15.3268,'cal/(mol*K)','+|-',1.42098),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         2
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 227,
+    index = 211,
     label = "CdCClO_Cl",
     group = 
 """
@@ -4985,16 +4823,25 @@ entry(
 4   C  u0 {1,D}
 5   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.7373,7.89558,8.85839,9.54778,10.5155,11.049,11.5156],'cal/(mol*K)','+|-',[0.188812,0.211033,0.213352,0.209839,0.182803,0.15711,0.133647]),
+        H298 = (0.450579,'kcal/mol','+|-',0.641341),
+        S298 = (14.8024,'cal/(mol*K)','+|-',0.554202),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         14
+library:CHOFCl_G4  |         7
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 228,
+    index = 212,
     label = "CdCClO_Br",
     group = 
 """
@@ -5004,16 +4851,24 @@ entry(
 4   C  u0 {1,D}
 5   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.61687,7.67232,8.57684,9.26611,10.3039,10.8852,11.337],'cal/(mol*K)','+|-',[0.226777,0.253466,0.256251,0.252031,0.21956,0.1887,0.160519]),
+        H298 = (0.364511,'kcal/mol','+|-',0.770297),
+        S298 = (16.0643,'cal/(mol*K)','+|-',0.665637),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         6
+library:CHOClBr_G4  |         8
 """,
 )
 
 entry(
-    index = 229,
+    index = 213,
     label = "CdCClO_C",
     group = 
 """
@@ -5023,16 +4878,26 @@ entry(
 4   C  u0 {1,D}
 5   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.27155,7.62228,7.9195,8.34306,9.23832,9.89573,10.5823],'cal/(mol*K)','+|-',[0.173601,0.194032,0.196164,0.192934,0.168077,0.144453,0.12288]),
+        H298 = (3.10784,'kcal/mol','+|-',0.589675),
+        S298 = (16.1396,'cal/(mol*K)','+|-',0.509556),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOCl_G4    |         12
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         7
 """,
 )
 
 entry(
-    index = 230,
+    index = 214,
     label = "CdCClO_O",
     group = 
 """
@@ -5042,16 +4907,26 @@ entry(
 4   C  u0 {1,D}
 5   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.90418,10.1489,10.826,11.1609,11.4408,11.6328,11.4831],'cal/(mol*K)','+|-',[0.251343,0.280923,0.28401,0.279334,0.243345,0.209142,0.177908]),
+        H298 = (-5.57316,'kcal/mol','+|-',0.853742),
+        S298 = (12.1248,'cal/(mol*K)','+|-',0.737744),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOCl_G4    |         6
+library:CHOFCl_G4   |         2
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         2
 """,
 )
 
 entry(
-    index = 231,
+    index = 215,
     label = "COFOO",
     group = 
 """
@@ -5060,12 +4935,7 @@ entry(
 3   F  u0 {1,S}
 4   O  u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.05567,11.2793,12.8028,13.8788,15.2076,15.8172,15.9694],'cal/(mol*K)','+|-',[0.29545,0.33956,0.347114,0.342021,0.296578,0.255796,0.208468]),
-        H298 = (-103.341,'kcal/mol','+|-',1.05326),
-        S298 = (34.2796,'cal/(mol*K)','+|-',0.717857),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -5078,7 +4948,7 @@ CHOFBr_G4 |         1
 )
 
 entry(
-    index = 232,
+    index = 216,
     label = "COFOO_H",
     group = 
 """
@@ -5088,16 +4958,23 @@ entry(
 4   O  u0 {1,D}
 5   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.84696,10.8873,12.4655,13.5767,14.9792,15.6844,15.944],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-107.023,'kcal/mol','+|-',2.68696),
+        S298 = (34.2804,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 233,
+    index = 217,
     label = "COFOO_F",
     group = 
 """
@@ -5107,16 +4984,23 @@ entry(
 4   O  u0 {1,D}
 5   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.6225,9.92804,11.8428,13.2444,14.9239,15.8729,16.7621],'cal/(mol*K)','+|-',[0.886471,0.990798,1.00169,0.98519,0.85826,0.737628,0.62747]),
+        H298 = (-104.665,'kcal/mol','+|-',3.01109),
+        S298 = (36.0632,'cal/(mol*K)','+|-',2.60197),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 234,
+    index = 218,
     label = "COFOO_Cl",
     group = 
 """
@@ -5126,16 +5010,23 @@ entry(
 4   O  u0 {1,D}
 5   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.27209,11.7594,13.2888,14.2175,15.4366,16.0985,16.425],'cal/(mol*K)','+|-',[0.840409,0.939315,0.949637,0.933999,0.813665,0.699301,0.594866]),
+        H298 = (-104.835,'kcal/mol','+|-',2.85463),
+        S298 = (36.784,'cal/(mol*K)','+|-',2.46677),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 235,
+    index = 219,
     label = "COFOO_Br",
     group = 
 """
@@ -5145,16 +5036,23 @@ entry(
 4   O  u0 {1,D}
 5   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.69937,12.0774,13.4375,14.309,15.4335,15.9885,16.1402],'cal/(mol*K)','+|-',[0.82203,0.918773,0.928869,0.913573,0.79587,0.684008,0.581857]),
+        H298 = (-105.582,'kcal/mol','+|-',2.7922),
+        S298 = (34.9159,'cal/(mol*K)','+|-',2.41283),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 236,
+    index = 220,
     label = "COFOO_C",
     group = 
 """
@@ -5164,35 +5062,23 @@ entry(
 4   O  u0 {1,D}
 5   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.52426,11.9342,13.4982,14.6444,16.0161,16.4762,16.3368],'cal/(mol*K)','+|-',[0.403349,0.450818,0.455772,0.448266,0.390513,0.335624,0.285502]),
+        H298 = (-104.685,'kcal/mol','+|-',1.37006),
+        S298 = (31.6308,'cal/(mol*K)','+|-',1.18391),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 237,
-    label = "COFOO_O",
-    group = 
-"""
-1 * CO u0 {2,S} {3,S} {4,D}
-2   O  u0 {1,S} {5,S}
-3   F  u0 {1,S}
-4   O  u0 {1,D}
-5   O  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 238,
+    index = 221,
     label = "CdCFO",
     group = 
 """
@@ -5201,12 +5087,7 @@ entry(
 3   F  u0 {1,S}
 4   C  u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.48124,7.36014,8.11725,8.7856,9.8226,10.4951,11.0622],'cal/(mol*K)','+|-',[0.0932786,0.107205,0.109589,0.107982,0.0936347,0.0807591,0.0658169]),
-        H298 = (-41.8157,'kcal/mol','+|-',0.33253),
-        S298 = (12.5079,'cal/(mol*K)','+|-',0.226639),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -5220,7 +5101,7 @@ CHOFBr_G4   |         26
 )
 
 entry(
-    index = 239,
+    index = 222,
     label = "CdCddFO",
     group = 
 """
@@ -5229,12 +5110,7 @@ entry(
 3   F   u0 {1,S}
 4   Cdd u0 {1,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.41997,7.39129,8.18373,8.83083,9.8356,10.4096,10.814],'cal/(mol*K)','+|-',[0.2555,0.293645,0.300178,0.295774,0.256476,0.221208,0.18028]),
-        H298 = (-37.2323,'kcal/mol','+|-',0.910837),
-        S298 = (13.2005,'cal/(mol*K)','+|-',0.62079),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -5247,7 +5123,7 @@ CHOFBr_G4 |         3
 )
 
 entry(
-    index = 240,
+    index = 223,
     label = "Cd(Cdd-Od)FO",
     group = 
 """
@@ -5259,22 +5135,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.6636,14.2807,15.6019,16.7152,18.3753,19.4704,20.673],'cal/(mol*K)','+|-',[0.47857,0.550019,0.562254,0.554006,0.480397,0.414339,0.337677]),
-        H298 = (-42.5571,'kcal/mol','+|-',1.70606),
-        S298 = (45.4053,'cal/(mol*K)','+|-',1.16278),
+        Cpdata = ([12.3229,13.8046,15.1155,16.2604,18.0529,19.2469,20.6285],'cal/(mol*K)','+|-',[0.458839,0.512839,0.518474,0.509936,0.444237,0.381798,0.324779]),
+        H298 = (-41.0725,'kcal/mol','+|-',1.55855),
+        S298 = (46.1614,'cal/(mol*K)','+|-',1.34679),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOF_G4   |         2
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOF_G4   |         2
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 241,
+    index = 224,
     label = "CdCddFO_H",
     group = 
 """
@@ -5284,16 +5160,23 @@ entry(
 4   Cdd u0 {1,D}
 5   H   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.87219,5.94266,6.51216,7.27909,8.73542,9.64789,10.4718],'cal/(mol*K)','+|-',[0.45963,0.513723,0.519368,0.510815,0.445003,0.382456,0.325339]),
+        H298 = (-34.9238,'kcal/mol','+|-',1.56123),
+        S298 = (15.3986,'cal/(mol*K)','+|-',1.34911),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         3
 """,
 )
 
 entry(
-    index = 242,
+    index = 225,
     label = "CdCddFO_F",
     group = 
 """
@@ -5303,16 +5186,23 @@ entry(
 4   Cdd u0 {1,D}
 5   F   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.19247,7.53098,8.43971,9.10511,10.1236,10.6961,11.1359],'cal/(mol*K)','+|-',[0.472205,0.527778,0.533578,0.524791,0.457178,0.39292,0.334241]),
+        H298 = (-35.2254,'kcal/mol','+|-',1.60395),
+        S298 = (12.7676,'cal/(mol*K)','+|-',1.38602),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         3
 """,
 )
 
 entry(
-    index = 243,
+    index = 226,
     label = "CdCddFO_Cl",
     group = 
 """
@@ -5322,16 +5212,23 @@ entry(
 4   Cdd u0 {1,D}
 5   Cl  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.75811,6.86379,7.83595,8.58048,9.70639,10.3192,10.8108],'cal/(mol*K)','+|-',[0.568818,0.635761,0.642747,0.632163,0.550716,0.473311,0.402626]),
+        H298 = (-36.2883,'kcal/mol','+|-',1.93211),
+        S298 = (13.5763,'cal/(mol*K)','+|-',1.6696),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         2
 """,
 )
 
 entry(
-    index = 244,
+    index = 227,
     label = "CdCddFO_Br",
     group = 
 """
@@ -5341,54 +5238,23 @@ entry(
 4   Cdd u0 {1,D}
 5   Br  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.20893,7.1579,7.94948,8.54527,9.527,10.1277,10.7162],'cal/(mol*K)','+|-',[0.465005,0.51973,0.525442,0.516789,0.450207,0.386928,0.329144]),
+        H298 = (-37.2501,'kcal/mol','+|-',1.57949),
+        S298 = (14.3196,'cal/(mol*K)','+|-',1.36488),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 245,
-    label = "CdCddFO_C",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   F   u0 {1,S}
-4   Cdd u0 {1,D}
-5   C   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 246,
-    label = "CdCddFO_O",
-    group = 
-"""
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   O   u0 {1,S} {5,S}
-3   F   u0 {1,S}
-4   Cdd u0 {1,D}
-5   O   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 247,
+    index = 228,
     label = "CdCFO_H",
     group = 
 """
@@ -5398,16 +5264,25 @@ entry(
 4   C  u0 {1,D}
 5   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.88463,6.47466,7.17805,7.97498,9.38106,10.2361,10.9593],'cal/(mol*K)','+|-',[0.183447,0.205037,0.20729,0.203877,0.177609,0.152646,0.129849]),
+        H298 = (-39.1205,'kcal/mol','+|-',0.623119),
+        S298 = (12.8109,'cal/(mol*K)','+|-',0.538455),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         14
+library:CHOFCl_G4 |         2
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 248,
+    index = 229,
     label = "CdCFO_F",
     group = 
 """
@@ -5417,16 +5292,25 @@ entry(
 4   C  u0 {1,D}
 5   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.27829,7.41949,8.38977,9.14194,10.2335,10.881,11.5164],'cal/(mol*K)','+|-',[0.204396,0.228451,0.230961,0.227158,0.197891,0.170077,0.144677]),
+        H298 = (-41.9647,'kcal/mol','+|-',0.694274),
+        S298 = (11.6796,'cal/(mol*K)','+|-',0.599943),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         15
+library:CHOFCl_G4 |         2
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 249,
+    index = 230,
     label = "CdCFO_Cl",
     group = 
 """
@@ -5436,16 +5320,23 @@ entry(
 4   C  u0 {1,D}
 5   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.93879,7.14763,8.12358,8.87116,9.98122,10.6154,11.2095],'cal/(mol*K)','+|-',[0.296248,0.331112,0.334751,0.329238,0.28682,0.246506,0.209692]),
+        H298 = (-41.3368,'kcal/mol','+|-',1.00627),
+        S298 = (12.2195,'cal/(mol*K)','+|-',0.869547),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         8
 """,
 )
 
 entry(
-    index = 250,
+    index = 231,
     label = "CdCFO_Br",
     group = 
 """
@@ -5455,16 +5346,23 @@ entry(
 4   C  u0 {1,D}
 5   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.91031,7.16151,8.17291,8.92017,10.0037,10.6371,11.2255],'cal/(mol*K)','+|-',[0.252348,0.282046,0.285146,0.28045,0.244317,0.209978,0.178619]),
+        H298 = (-42.0315,'kcal/mol','+|-',0.857155),
+        S298 = (12.6333,'cal/(mol*K)','+|-',0.740693),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         11
 """,
 )
 
 entry(
-    index = 251,
+    index = 232,
     label = "CdCFO_C",
     group = 
 """
@@ -5474,16 +5372,26 @@ entry(
 4   C  u0 {1,D}
 5   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.28718,6.499,6.89199,7.45845,8.56733,9.38579,10.3543],'cal/(mol*K)','+|-',[0.157075,0.17556,0.17749,0.174567,0.152076,0.130701,0.111182]),
+        H298 = (-38.4108,'kcal/mol','+|-',0.533538),
+        S298 = (13.9319,'cal/(mol*K)','+|-',0.461046),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         12
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         4
+library:CHOFBr_G4   |         10
 """,
 )
 
 entry(
-    index = 252,
+    index = 233,
     label = "CdCFO_O",
     group = 
 """
@@ -5493,16 +5401,25 @@ entry(
 4   C  u0 {1,D}
 5   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.00896,9.1868,10.0476,10.5524,11.0566,11.4256,11.4686],'cal/(mol*K)','+|-',[0.275983,0.308463,0.311852,0.306717,0.2672,0.229644,0.195349]),
+        H298 = (-47.198,'kcal/mol','+|-',0.937435),
+        S298 = (9.97191,'cal/(mol*K)','+|-',0.810065),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         6
+library:CHOFCl_G4 |         1
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 253,
+    index = 234,
     label = "COBrCO",
     group = 
 """
@@ -5513,24 +5430,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.0443,12.2825,13.0421,13.6005,14.3203,14.695,14.6613],'cal/(mol*K)','+|-',[0.15381,0.176773,0.180705,0.178054,0.154397,0.133166,0.108527]),
-        H298 = (-29.836,'kcal/mol','+|-',0.548319),
-        S298 = (43.5021,'cal/(mol*K)','+|-',0.373712),
+        Cpdata = ([11.048,12.2821,13.0383,13.596,14.3176,14.6956,14.6623],'cal/(mol*K)','+|-',[0.146908,0.164198,0.166002,0.163268,0.142233,0.122242,0.103986]),
+        H298 = (-29.8061,'kcal/mol','+|-',0.499006),
+        S298 = (43.5225,'cal/(mol*K)','+|-',0.431206),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         9
-CHOFClBr_G4 |         2
-CHOFBr_G4   |         11
-CHOClBr_G4  |         8
+Library             | Number of Species
+library:CHOBr_G4    |         9
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         11
+library:CHOClBr_G4  |         8
 """,
 )
 
 entry(
-    index = 254,
+    index = 235,
     label = "COBrCsO",
     group = 
 """
@@ -5541,24 +5458,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.1797,11.154,11.9627,12.6369,13.6522,14.292,14.9772],'cal/(mol*K)','+|-',[0.115427,0.13266,0.135611,0.133621,0.115867,0.0999347,0.0814445]),
-        H298 = (-32.6061,'kcal/mol','+|-',0.411487),
-        S298 = (45.181,'cal/(mol*K)','+|-',0.280453),
+        Cpdata = ([10.1473,11.1117,11.9224,12.5982,13.6143,14.2579,14.948],'cal/(mol*K)','+|-',[0.110438,0.123436,0.124792,0.122737,0.106924,0.0918952,0.0781714]),
+        H298 = (-32.4605,'kcal/mol','+|-',0.375128),
+        S298 = (45.1704,'cal/(mol*K)','+|-',0.324159),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         15
-CHOFClBr_G4 |         7
-CHOFBr_G4   |         22
-CHOClBr_G4  |         14
+Library             | Number of Species
+library:CHOBr_G4    |         15
+library:CHOFClBr_G4 |         7
+library:CHOFBr_G4   |         22
+library:CHOClBr_G4  |         14
 """,
 )
 
 entry(
-    index = 255,
+    index = 236,
     label = "CdBrCC",
     group = 
 """
@@ -5569,24 +5486,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.23239,9.08202,9.52339,9.96241,10.641,10.9934,11.0227],'cal/(mol*K)','+|-',[0.14949,0.171809,0.175631,0.173054,0.150061,0.129426,0.10548]),
-        H298 = (12.0115,'kcal/mol','+|-',0.532921),
-        S298 = (17.5799,'cal/(mol*K)','+|-',0.363218),
+        Cpdata = ([8.28789,9.11572,9.53369,9.95822,10.6268,10.9847,11.0136],'cal/(mol*K)','+|-',[0.14303,0.159863,0.16162,0.158958,0.138478,0.119015,0.101241]),
+        H298 = (12.0178,'kcal/mol','+|-',0.485833),
+        S298 = (17.583,'cal/(mol*K)','+|-',0.419822),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         15
-CHOFClBr_G4 |         7
-CHOFBr_G4   |         30
-CHOClBr_G4  |         20
+Library             | Number of Species
+library:CHOBr_G4    |         15
+library:CHOFClBr_G4 |         7
+library:CHOFBr_G4   |         30
+library:CHOClBr_G4  |         20
 """,
 )
 
 entry(
-    index = 256,
+    index = 237,
     label = "CdBrCsCd",
     group = 
 """
@@ -5597,24 +5514,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.95215,8.65629,9.20499,9.62911,10.3256,10.7009,11.0195],'cal/(mol*K)','+|-',[0.0906525,0.104187,0.106504,0.104942,0.0909986,0.0784855,0.0639639]),
-        H298 = (10.3483,'kcal/mol','+|-',0.323168),
-        S298 = (15.4277,'cal/(mol*K)','+|-',0.220259),
+        Cpdata = ([7.96952,8.66325,9.20277,9.61133,10.2971,10.6755,10.9937],'cal/(mol*K)','+|-',[0.0868988,0.0971257,0.098193,0.0965761,0.0841334,0.0723081,0.0615095]),
+        H298 = (10.4107,'kcal/mol','+|-',0.295171),
+        S298 = (13.6746,'cal/(mol*K)','+|-',0.255066),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         54
-CHOFClBr_G4 |         14
-CHOFBr_G4   |         75
-CHOClBr_G4  |         41
+Library             | Number of Species
+library:CHOBr_G4    |         54
+library:CHOFClBr_G4 |         14
+library:CHOFBr_G4   |         75
+library:CHOClBr_G4  |         41
 """,
 )
 
 entry(
-    index = 257,
+    index = 238,
     label = "CdBrCtCd",
     group = 
 """
@@ -5625,23 +5542,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.44187,9.03983,10.1224,9.60488,10.2839,10.7362,11.2817],'cal/(mol*K)','+|-',[0.265245,0.304845,0.311627,0.307055,0.266258,0.229645,0.187156]),
-        H298 = (10.5743,'kcal/mol','+|-',0.945577),
-        S298 = (17.6626,'cal/(mol*K)','+|-',0.644468),
+        Cpdata = ([8.47486,9.05857,10.1251,9.59149,10.2689,10.7335,11.2767],'cal/(mol*K)','+|-',[0.25344,0.283267,0.28638,0.281664,0.245375,0.210887,0.179392]),
+        H298 = (10.6173,'kcal/mol','+|-',0.860865),
+        S298 = (17.6261,'cal/(mol*K)','+|-',0.743899),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOBr_G4   |         6
-CHOFBr_G4  |         3
-CHOClBr_G4 |         2
+Library            | Number of Species
+library:CHOBr_G4   |         6
+library:CHOFBr_G4  |         3
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 258,
+    index = 239,
     label = "CdBrCddC",
     group = 
 """
@@ -5652,24 +5569,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.08435,8.57377,9.03308,9.40037,10.0388,10.3618,10.5848],'cal/(mol*K)','+|-',[0.201591,0.231688,0.236842,0.233367,0.202361,0.174534,0.142242]),
-        H298 = (13.4805,'kcal/mol','+|-',0.718655),
-        S298 = (16.9742,'cal/(mol*K)','+|-',0.489807),
+        Cpdata = ([8.11437,8.60881,9.06423,9.42483,10.0515,10.3708,10.5828],'cal/(mol*K)','+|-',[0.192577,0.215241,0.217606,0.214023,0.186448,0.160242,0.136311]),
+        H298 = (13.4929,'kcal/mol','+|-',0.654129),
+        S298 = (15.3132,'cal/(mol*K)','+|-',0.565252),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         7
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         7
-CHOClBr_G4  |         4
+Library             | Number of Species
+library:CHOBr_G4    |         7
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         7
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 259,
+    index = 240,
     label = "Cd(Cdd-Od)CBr",
     group = 
 """
@@ -5681,24 +5598,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.5571,15.7125,16.6396,17.3984,18.5526,19.263,20.0317],'cal/(mol*K)','+|-',[0.242221,0.278384,0.284577,0.280402,0.243146,0.209711,0.17091]),
-        H298 = (2.0736,'kcal/mol','+|-',0.863499),
-        S298 = (49.764,'cal/(mol*K)','+|-',0.588526),
+        Cpdata = ([14.5522,15.6635,16.5687,17.3143,18.4713,19.1966,19.9853],'cal/(mol*K)','+|-',[0.231449,0.258688,0.261531,0.257224,0.224084,0.192588,0.163826]),
+        H298 = (2.35829,'kcal/mol','+|-',0.786168),
+        S298 = (48.6509,'cal/(mol*K)','+|-',0.679351),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         3
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         6
-CHOClBr_G4  |         3
+Library             | Number of Species
+library:CHOBr_G4    |         3
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         6
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 260,
+    index = 241,
     label = "COCClO",
     group = 
 """
@@ -5709,23 +5626,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.5914,11.8451,12.6167,13.2224,14.0395,14.4934,14.6394],'cal/(mol*K)','+|-',[0.183857,0.211306,0.216006,0.212837,0.184558,0.15918,0.129728]),
-        H298 = (-41.8655,'kcal/mol','+|-',0.655433),
-        S298 = (40.6938,'cal/(mol*K)','+|-',0.446717),
+        Cpdata = ([10.5958,11.8466,12.6149,13.2197,14.0375,14.4943,14.6403],'cal/(mol*K)','+|-',[0.175607,0.196273,0.19843,0.195163,0.170018,0.146121,0.124299]),
+        H298 = (-41.845,'kcal/mol','+|-',0.596486),
+        S298 = (40.6434,'cal/(mol*K)','+|-',0.515441),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         10
-CHOFCl_G4  |         8
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOCl_G4   |         10
+library:CHOFCl_G4  |         8
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 261,
+    index = 242,
     label = "COCsClO",
     group = 
 """
@@ -5736,23 +5653,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.85506,10.9622,11.8168,12.5161,13.5699,14.244,14.9485],'cal/(mol*K)','+|-',[0.136634,0.157033,0.160526,0.158171,0.137156,0.118296,0.0964083]),
-        H298 = (-44.7684,'kcal/mol','+|-',0.487089),
-        S298 = (42.0146,'cal/(mol*K)','+|-',0.331981),
+        Cpdata = ([9.80935,10.9137,11.7773,12.4794,13.5311,14.2054,14.9134],'cal/(mol*K)','+|-',[0.130789,0.146181,0.147787,0.145354,0.126626,0.108829,0.0925759]),
+        H298 = (-44.6301,'kcal/mol','+|-',0.444252),
+        S298 = (41.947,'cal/(mol*K)','+|-',0.383891),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         22
-CHOFCl_G4  |         14
-CHOClBr_G4 |         6
+Library            | Number of Species
+library:CHOCl_G4   |         22
+library:CHOFCl_G4  |         14
+library:CHOClBr_G4 |         6
 """,
 )
 
 entry(
-    index = 262,
+    index = 243,
     label = "CdCCCl",
     group = 
 """
@@ -5763,24 +5680,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.74827,8.85784,9.41817,9.93055,10.7147,11.1055,11.0823],'cal/(mol*K)','+|-',[0.155837,0.179102,0.183087,0.180401,0.156432,0.134921,0.109957]),
-        H298 = (0.0247896,'kcal/mol','+|-',0.555544),
-        S298 = (14.0054,'cal/(mol*K)','+|-',0.378637),
+        Cpdata = ([7.80594,8.89258,9.42901,9.92724,10.7017,11.0975,11.0728],'cal/(mol*K)','+|-',[0.149061,0.166603,0.168434,0.16566,0.144317,0.124033,0.105509]),
+        H298 = (0.0398753,'kcal/mol','+|-',0.506317),
+        S298 = (14.063,'cal/(mol*K)','+|-',0.437523),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         22
-CHOFCl_G4   |         16
-CHOFClBr_G4 |         9
-CHOClBr_G4  |         18
+Library             | Number of Species
+library:CHOCl_G4    |         22
+library:CHOFCl_G4   |         16
+library:CHOFClBr_G4 |         9
+library:CHOClBr_G4  |         18
 """,
 )
 
 entry(
-    index = 263,
+    index = 244,
     label = "CdCsCdCl",
     group = 
 """
@@ -5791,24 +5708,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.55596,8.32131,8.89446,9.3577,10.1166,10.5297,10.8938],'cal/(mol*K)','+|-',[0.0904726,0.10398,0.106293,0.104733,0.090818,0.0783297,0.063837]),
-        H298 = (-1.51023,'kcal/mol','+|-',0.322527),
-        S298 = (12.8814,'cal/(mol*K)','+|-',0.219822),
+        Cpdata = ([7.57414,8.32103,8.88097,9.32909,10.0786,10.4966,10.864],'cal/(mol*K)','+|-',[0.0866693,0.0968692,0.0979337,0.096321,0.0839112,0.0721171,0.061347]),
+        H298 = (-1.4191,'kcal/mol','+|-',0.294391),
+        S298 = (11.448,'cal/(mol*K)','+|-',0.254392),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         108
-CHOFCl_G4   |         34
-CHOFClBr_G4 |         18
-CHOClBr_G4  |         60
+Library             | Number of Species
+library:CHOCl_G4    |         108
+library:CHOFCl_G4   |         34
+library:CHOFClBr_G4 |         18
+library:CHOClBr_G4  |         60
 """,
 )
 
 entry(
-    index = 264,
+    index = 245,
     label = "CdCtCdCl",
     group = 
 """
@@ -5819,24 +5736,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.88057,8.51032,9.62127,9.16703,10.0009,10.5339,11.0764],'cal/(mol*K)','+|-',[0.238947,0.274621,0.28073,0.276611,0.239859,0.206877,0.1686]),
-        H298 = (-0.800178,'kcal/mol','+|-',0.851826),
-        S298 = (14.4503,'cal/(mol*K)','+|-',0.580571),
+        Cpdata = ([7.92906,8.54197,9.63439,9.16462,9.99384,10.5342,11.0711],'cal/(mol*K)','+|-',[0.228348,0.255222,0.258026,0.253777,0.221081,0.190007,0.161631]),
+        H298 = (-0.782599,'kcal/mol','+|-',0.775633),
+        S298 = (14.4047,'cal/(mol*K)','+|-',0.670247),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         6
-CHOFCl_G4   |         2
-CHOFClBr_G4 |         1
-CHOClBr_G4  |         4
+Library             | Number of Species
+library:CHOCl_G4    |         6
+library:CHOFCl_G4   |         2
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 265,
+    index = 246,
     label = "CdCddCCl",
     group = 
 """
@@ -5847,24 +5764,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.81938,8.3764,8.87298,9.24504,9.91995,10.283,10.5764],'cal/(mol*K)','+|-',[0.184945,0.212556,0.217285,0.214097,0.185651,0.160122,0.130496]),
-        H298 = (0.832565,'kcal/mol','+|-',0.659313),
-        S298 = (13.9833,'cal/(mol*K)','+|-',0.449361),
+        Cpdata = ([7.8313,8.36785,8.85347,9.21792,9.88745,10.2546,10.5524],'cal/(mol*K)','+|-',[0.176715,0.197512,0.199683,0.196394,0.171091,0.147044,0.125084]),
+        H298 = (0.970092,'kcal/mol','+|-',0.600251),
+        S298 = (12.7722,'cal/(mol*K)','+|-',0.518695),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         12
-CHOFCl_G4   |         4
-CHOFClBr_G4 |         1
-CHOClBr_G4  |         7
+Library             | Number of Species
+library:CHOCl_G4    |         12
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         7
 """,
 )
 
 entry(
-    index = 266,
+    index = 247,
     label = "Cd(Cdd-Od)CCl",
     group = 
 """
@@ -5876,22 +5793,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.2714,15.5562,16.5089,17.285,18.4734,19.2069,19.9873],'cal/(mol*K)','+|-',[0.321664,0.369687,0.377911,0.372366,0.322892,0.278491,0.226964]),
-        H298 = (-8.11511,'kcal/mol','+|-',1.1467),
-        S298 = (46.4267,'cal/(mol*K)','+|-',0.781548),
+        Cpdata = ([14.2707,15.523,16.4611,17.2272,18.4168,19.1602,19.9515],'cal/(mol*K)','+|-',[0.307282,0.343445,0.347219,0.341502,0.297503,0.255688,0.217503]),
+        H298 = (-7.89309,'kcal/mol','+|-',1.04375),
+        S298 = (45.2149,'cal/(mol*K)','+|-',0.901935),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOCl_G4  |         4
-CHOFCl_G4 |         3
+Library           | Number of Species
+library:CHOCl_G4  |         4
+library:CHOFCl_G4 |         3
 """,
 )
 
 entry(
-    index = 267,
+    index = 248,
     label = "COCFO",
     group = 
 """
@@ -5902,23 +5819,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.22943,10.5464,11.5362,12.3222,13.3664,13.9897,14.5745],'cal/(mol*K)','+|-',[0.215176,0.247301,0.252803,0.249094,0.215998,0.186296,0.151827]),
-        H298 = (-87.6805,'kcal/mol','+|-',0.767085),
-        S298 = (37.9621,'cal/(mol*K)','+|-',0.522815),
+        Cpdata = ([9.23263,10.5474,11.5349,12.3198,13.3639,13.9892,14.5744],'cal/(mol*K)','+|-',[0.205518,0.229705,0.232229,0.228405,0.198978,0.171011,0.145472]),
+        H298 = (-87.6666,'kcal/mol','+|-',0.698087),
+        S298 = (37.8601,'cal/(mol*K)','+|-',0.603238),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOF_G4   |         11
-CHOFCl_G4 |         1
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOF_G4   |         11
+library:CHOFCl_G4 |         1
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 268,
+    index = 249,
     label = "COCsFO",
     group = 
 """
@@ -5929,24 +5846,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.51238,9.7683,10.8324,11.7091,13.0166,13.8663,14.7376],'cal/(mol*K)','+|-',[0.142546,0.163828,0.167472,0.165015,0.143091,0.123414,0.10058]),
-        H298 = (-89.8252,'kcal/mol','+|-',0.508166),
-        S298 = (39.556,'cal/(mol*K)','+|-',0.346346),
+        Cpdata = ([8.47889,9.73184,10.8042,11.681,12.9809,13.8226,14.6963],'cal/(mol*K)','+|-',[0.136642,0.152723,0.154401,0.151859,0.132293,0.113699,0.096719]),
+        H298 = (-89.7583,'kcal/mol','+|-',0.464133),
+        S298 = (39.5243,'cal/(mol*K)','+|-',0.401071),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         22
-CHOFCl_G4   |         6
-CHOFClBr_G4 |         2
-CHOFBr_G4   |         9
+Library             | Number of Species
+library:CHOF_G4     |         22
+library:CHOFCl_G4   |         6
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         9
 """,
 )
 
 entry(
-    index = 269,
+    index = 250,
     label = "CdCCF",
     group = 
 """
@@ -5957,24 +5874,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.78714,8.13666,8.89332,9.53102,10.4675,10.9499,11.0244],'cal/(mol*K)','+|-',[0.142112,0.163329,0.166962,0.164513,0.142655,0.123039,0.100274]),
-        H298 = (-39.4225,'kcal/mol','+|-',0.506618),
-        S298 = (10.8955,'cal/(mol*K)','+|-',0.345291),
+        Cpdata = ([6.84185,8.17109,8.90566,9.53062,10.4587,10.9456,11.018],'cal/(mol*K)','+|-',[0.135914,0.15191,0.153579,0.15105,0.131589,0.113094,0.0962042]),
+        H298 = (-39.4074,'kcal/mol','+|-',0.461663),
+        S298 = (10.9471,'cal/(mol*K)','+|-',0.398937),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         22
-CHOFCl_G4   |         14
-CHOFClBr_G4 |         6
-CHOFBr_G4   |         27
+Library             | Number of Species
+library:CHOF_G4     |         22
+library:CHOFCl_G4   |         14
+library:CHOFClBr_G4 |         6
+library:CHOFBr_G4   |         27
 """,
 )
 
 entry(
-    index = 270,
+    index = 251,
     label = "CdCsCdF",
     group = 
 """
@@ -5985,24 +5902,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.05481,7.87906,8.4741,8.95192,9.71289,10.1521,10.6128],'cal/(mol*K)','+|-',[0.0835635,0.0960392,0.0981756,0.0967352,0.0838825,0.0723479,0.0589619]),
-        H298 = (-40.7437,'kcal/mol','+|-',0.297897),
-        S298 = (10.6035,'cal/(mol*K)','+|-',0.203035),
+        Cpdata = ([7.05217,7.83009,8.40202,8.86663,9.63048,10.0836,10.5666],'cal/(mol*K)','+|-',[0.0801372,0.0895683,0.0905525,0.0890614,0.0775869,0.0666818,0.0567234]),
+        H298 = (-40.5208,'kcal/mol','+|-',0.272203),
+        S298 = (9.33294,'cal/(mol*K)','+|-',0.235219),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         108
-CHOFCl_G4   |         46
-CHOFClBr_G4 |         26
-CHOFBr_G4   |         97
+Library             | Number of Species
+library:CHOF_G4     |         108
+library:CHOFCl_G4   |         46
+library:CHOFClBr_G4 |         26
+library:CHOFBr_G4   |         97
 """,
 )
 
 entry(
-    index = 271,
+    index = 252,
     label = "CdCtCdF",
     group = 
 """
@@ -6013,24 +5930,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.81544,7.58852,8.81763,8.44556,9.44655,10.1128,10.8098],'cal/(mol*K)','+|-',[0.210842,0.24232,0.247711,0.244076,0.211647,0.182544,0.148769]),
-        H298 = (-38.5774,'kcal/mol','+|-',0.751635),
-        S298 = (11.5989,'cal/(mol*K)','+|-',0.512284),
+        Cpdata = ([6.86677,7.62252,8.83227,8.44351,9.43778,10.1102,10.8027],'cal/(mol*K)','+|-',[0.201539,0.225258,0.227733,0.223983,0.195126,0.1677,0.142655]),
+        H298 = (-38.5778,'kcal/mol','+|-',0.684571),
+        S298 = (11.4554,'cal/(mol*K)','+|-',0.591559),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         6
-CHOFCl_G4   |         4
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         6
+Library             | Number of Species
+library:CHOF_G4     |         6
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         6
 """,
 )
 
 entry(
-    index = 272,
+    index = 253,
     label = "CdCddCF",
     group = 
 """
@@ -6041,24 +5958,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.87064,7.56576,8.17949,8.64795,9.46354,9.93621,10.4467],'cal/(mol*K)','+|-',[0.172186,0.197893,0.202295,0.199327,0.172844,0.149076,0.121494]),
-        H298 = (-36.5736,'kcal/mol','+|-',0.613829),
-        S298 = (11.2165,'cal/(mol*K)','+|-',0.418362),
+        Cpdata = ([6.86732,7.52812,8.12541,8.58424,9.39979,9.88388,10.4094],'cal/(mol*K)','+|-',[0.164589,0.183959,0.18598,0.182918,0.159351,0.136953,0.116501]),
+        H298 = (-36.3509,'kcal/mol','+|-',0.559061),
+        S298 = (10.1841,'cal/(mol*K)','+|-',0.483101),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         12
-CHOFCl_G4   |         4
-CHOFClBr_G4 |         4
-CHOFBr_G4   |         10
+Library             | Number of Species
+library:CHOF_G4     |         12
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         4
+library:CHOFBr_G4   |         10
 """,
 )
 
 entry(
-    index = 273,
+    index = 254,
     label = "Cd(Cdd-Od)CF",
     group = 
 """
@@ -6070,21 +5987,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.2731,14.8399,15.9997,16.9109,18.2099,19.0283,20.0356],'cal/(mol*K)','+|-',[0.423039,0.486197,0.497013,0.489721,0.424654,0.366261,0.298494]),
-        H298 = (-39.5676,'kcal/mol','+|-',1.5081),
-        S298 = (43.6038,'cal/(mol*K)','+|-',1.02786),
+        Cpdata = ([13.2549,14.8052,15.9616,16.8703,18.1745,19.0009,20.0166],'cal/(mol*K)','+|-',[0.404085,0.451641,0.456604,0.449085,0.391226,0.336238,0.286023]),
+        H298 = (-39.3914,'kcal/mol','+|-',1.37256),
+        S298 = (42.2437,'cal/(mol*K)','+|-',1.18607),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         4
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 274,
+    index = 255,
     label = "Cds-OdHH",
     group = 
 """
@@ -6107,7 +6024,7 @@ entry(
 )
 
 entry(
-    index = 275,
+    index = 256,
     label = "Cds-OdOsH",
     group = 
 """
@@ -6132,7 +6049,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 276,
+    index = 257,
     label = "CO-SH",
     group = 
 """
@@ -6150,7 +6067,7 @@ entry(
 )
 
 entry(
-    index = 277,
+    index = 258,
     label = "CO-S2H",
     group = 
 """
@@ -6173,7 +6090,7 @@ entry(
 )
 
 entry(
-    index = 278,
+    index = 259,
     label = "CO-S4H",
     group = 
 """
@@ -6196,7 +6113,7 @@ entry(
 )
 
 entry(
-    index = 279,
+    index = 260,
     label = "CO-S6H",
     group = 
 """
@@ -6219,7 +6136,7 @@ entry(
 )
 
 entry(
-    index = 280,
+    index = 261,
     label = "Cds-OdOsOs",
     group = 
 """
@@ -6244,7 +6161,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 281,
+    index = 262,
     label = "CO-CsSs",
     group = 
 """
@@ -6267,7 +6184,7 @@ entry(
 )
 
 entry(
-    index = 282,
+    index = 263,
     label = "CO-OsSs",
     group = 
 """
@@ -6290,7 +6207,7 @@ entry(
 )
 
 entry(
-    index = 283,
+    index = 264,
     label = "Cds-OdCH",
     group = 
 """
@@ -6308,7 +6225,7 @@ entry(
 )
 
 entry(
-    index = 284,
+    index = 265,
     label = "Cds-OdCsH",
     group = 
 """
@@ -6333,7 +6250,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 285,
+    index = 266,
     label = "Cds-OdCdsH",
     group = 
 """
@@ -6351,7 +6268,7 @@ entry(
 )
 
 entry(
-    index = 286,
+    index = 267,
     label = "Cds-O2d(Cds-O2d)H",
     group = 
 """
@@ -6377,7 +6294,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 287,
+    index = 268,
     label = "Cds-O2d(Cds-Cd)H",
     group = 
 """
@@ -6403,7 +6320,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 288,
+    index = 269,
     label = "Cds-O2d(Cds-Cds)H",
     group = 
 """
@@ -6427,7 +6344,7 @@ entry(
 )
 
 entry(
-    index = 289,
+    index = 270,
     label = "Cds-O2d(Cds-Cdd)H",
     group = 
 """
@@ -6446,7 +6363,7 @@ entry(
 )
 
 entry(
-    index = 290,
+    index = 271,
     label = "Cds-O2d(Cds-Cdd-O2d)H",
     group = 
 """
@@ -6466,7 +6383,7 @@ entry(
 )
 
 entry(
-    index = 291,
+    index = 272,
     label = "Cds-O2d(Cds-Cdd-Cd)H",
     group = 
 """
@@ -6486,7 +6403,7 @@ entry(
 )
 
 entry(
-    index = 292,
+    index = 273,
     label = "Cds-OdCtH",
     group = 
 """
@@ -6504,7 +6421,7 @@ entry(
 )
 
 entry(
-    index = 293,
+    index = 274,
     label = "Cds-OdCbH",
     group = 
 """
@@ -6522,7 +6439,7 @@ entry(
 )
 
 entry(
-    index = 294,
+    index = 275,
     label = "Cds-OdCOs",
     group = 
 """
@@ -6540,7 +6457,7 @@ entry(
 )
 
 entry(
-    index = 295,
+    index = 276,
     label = "Cds-OdCsOs",
     group = 
 """
@@ -6565,7 +6482,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 296,
+    index = 277,
     label = "Cds-OdCdsOs",
     group = 
 """
@@ -6583,7 +6500,7 @@ entry(
 )
 
 entry(
-    index = 297,
+    index = 278,
     label = "Cds-O2d(Cds-O2d)O2s",
     group = 
 """
@@ -6609,7 +6526,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 298,
+    index = 279,
     label = "Cds-O2d(Cds-Cd)O2s",
     group = 
 """
@@ -6635,7 +6552,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 299,
+    index = 280,
     label = "Cds-O2d(Cds-Cds)O2s",
     group = 
 """
@@ -6659,7 +6576,7 @@ entry(
 )
 
 entry(
-    index = 300,
+    index = 281,
     label = "Cds-O2d(Cds-Cdd)O2s",
     group = 
 """
@@ -6678,7 +6595,7 @@ entry(
 )
 
 entry(
-    index = 301,
+    index = 282,
     label = "Cds-O2d(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -6698,7 +6615,7 @@ entry(
 )
 
 entry(
-    index = 302,
+    index = 283,
     label = "Cds-O2d(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -6718,7 +6635,7 @@ entry(
 )
 
 entry(
-    index = 303,
+    index = 284,
     label = "Cds-OdCtOs",
     group = 
 """
@@ -6736,7 +6653,7 @@ entry(
 )
 
 entry(
-    index = 304,
+    index = 285,
     label = "Cds-OdCbOs",
     group = 
 """
@@ -6759,7 +6676,7 @@ entry(
 )
 
 entry(
-    index = 305,
+    index = 286,
     label = "Cds-OdCC",
     group = 
 """
@@ -6777,7 +6694,7 @@ entry(
 )
 
 entry(
-    index = 306,
+    index = 287,
     label = "Cds-OdCsCs",
     group = 
 """
@@ -6802,7 +6719,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 307,
+    index = 288,
     label = "Cds-OdCdsCs",
     group = 
 """
@@ -6820,7 +6737,7 @@ entry(
 )
 
 entry(
-    index = 308,
+    index = 289,
     label = "Cds-O2d(Cds-O2d)Cs",
     group = 
 """
@@ -6846,7 +6763,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 309,
+    index = 290,
     label = "Cds-O2d(Cds-Cd)Cs",
     group = 
 """
@@ -6872,7 +6789,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 310,
+    index = 291,
     label = "Cds-O2d(Cds-Cds)Cs",
     group = 
 """
@@ -6896,7 +6813,7 @@ entry(
 )
 
 entry(
-    index = 311,
+    index = 292,
     label = "Cds-O2d(Cds-Cdd)Cs",
     group = 
 """
@@ -6915,7 +6832,7 @@ entry(
 )
 
 entry(
-    index = 312,
+    index = 293,
     label = "Cds-O2d(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -6935,7 +6852,7 @@ entry(
 )
 
 entry(
-    index = 313,
+    index = 294,
     label = "Cds-O2d(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -6955,7 +6872,7 @@ entry(
 )
 
 entry(
-    index = 314,
+    index = 295,
     label = "Cds-OdCdsCds",
     group = 
 """
@@ -6973,7 +6890,7 @@ entry(
 )
 
 entry(
-    index = 315,
+    index = 296,
     label = "Cds-O2d(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -7000,7 +6917,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 316,
+    index = 297,
     label = "Cds-O2d(Cds-Cd)(Cds-O2d)",
     group = 
 """
@@ -7020,7 +6937,7 @@ entry(
 )
 
 entry(
-    index = 317,
+    index = 298,
     label = "Cds-O2d(Cds-Cds)(Cds-O2d)",
     group = 
 """
@@ -7040,7 +6957,7 @@ entry(
 )
 
 entry(
-    index = 318,
+    index = 299,
     label = "Cds-O2d(Cds-Cdd)(Cds-O2d)",
     group = 
 """
@@ -7060,7 +6977,7 @@ entry(
 )
 
 entry(
-    index = 319,
+    index = 300,
     label = "Cds-O2d(Cds-Cdd-O2d)(Cds-O2d)",
     group = 
 """
@@ -7081,7 +6998,7 @@ entry(
 )
 
 entry(
-    index = 320,
+    index = 301,
     label = "Cds-O2d(Cds-Cdd-Cd)(Cds-O2d)",
     group = 
 """
@@ -7102,7 +7019,7 @@ entry(
 )
 
 entry(
-    index = 321,
+    index = 302,
     label = "Cds-O2d(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -7122,7 +7039,7 @@ entry(
 )
 
 entry(
-    index = 322,
+    index = 303,
     label = "Cds-O2d(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -7147,7 +7064,7 @@ entry(
 )
 
 entry(
-    index = 323,
+    index = 304,
     label = "Cds-O2d(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -7167,7 +7084,7 @@ entry(
 )
 
 entry(
-    index = 324,
+    index = 305,
     label = "Cds-O2d(Cds-Cdd-O2d)(Cds-Cds)",
     group = 
 """
@@ -7188,7 +7105,7 @@ entry(
 )
 
 entry(
-    index = 325,
+    index = 306,
     label = "Cds-O2d(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -7209,7 +7126,7 @@ entry(
 )
 
 entry(
-    index = 326,
+    index = 307,
     label = "Cds-O2d(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -7229,7 +7146,7 @@ entry(
 )
 
 entry(
-    index = 327,
+    index = 308,
     label = "Cds-O2d(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -7251,7 +7168,7 @@ entry(
 )
 
 entry(
-    index = 328,
+    index = 309,
     label = "Cds-O2d(Cds-Cdd-Cd)(Cds-Cdd-O2d)",
     group = 
 """
@@ -7273,7 +7190,7 @@ entry(
 )
 
 entry(
-    index = 329,
+    index = 310,
     label = "Cds-O2d(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -7295,7 +7212,7 @@ entry(
 )
 
 entry(
-    index = 330,
+    index = 311,
     label = "Cds-OdCtCs",
     group = 
 """
@@ -7313,7 +7230,7 @@ entry(
 )
 
 entry(
-    index = 331,
+    index = 312,
     label = "Cds-OdCtCds",
     group = 
 """
@@ -7331,7 +7248,7 @@ entry(
 )
 
 entry(
-    index = 332,
+    index = 313,
     label = "Cds-OdCt(Cds-O2d)",
     group = 
 """
@@ -7350,7 +7267,7 @@ entry(
 )
 
 entry(
-    index = 333,
+    index = 314,
     label = "Cds-OdCt(Cds-Cd)",
     group = 
 """
@@ -7369,7 +7286,7 @@ entry(
 )
 
 entry(
-    index = 334,
+    index = 315,
     label = "Cds-OdCt(Cds-Cds)",
     group = 
 """
@@ -7388,7 +7305,7 @@ entry(
 )
 
 entry(
-    index = 335,
+    index = 316,
     label = "Cds-OdCt(Cds-Cdd)",
     group = 
 """
@@ -7407,7 +7324,7 @@ entry(
 )
 
 entry(
-    index = 336,
+    index = 317,
     label = "Cds-OdCt(Cds-Cdd-O2d)",
     group = 
 """
@@ -7427,7 +7344,7 @@ entry(
 )
 
 entry(
-    index = 337,
+    index = 318,
     label = "Cds-OdCt(Cds-Cdd-Cd)",
     group = 
 """
@@ -7447,7 +7364,7 @@ entry(
 )
 
 entry(
-    index = 338,
+    index = 319,
     label = "Cds-OdCtCt",
     group = 
 """
@@ -7465,7 +7382,7 @@ entry(
 )
 
 entry(
-    index = 339,
+    index = 320,
     label = "Cds-OdCbCs",
     group = 
 """
@@ -7483,7 +7400,7 @@ entry(
 )
 
 entry(
-    index = 340,
+    index = 321,
     label = "Cds-OdCbCds",
     group = 
 """
@@ -7501,7 +7418,7 @@ entry(
 )
 
 entry(
-    index = 341,
+    index = 322,
     label = "Cds-OdCb(Cds-O2d)",
     group = 
 """
@@ -7520,7 +7437,7 @@ entry(
 )
 
 entry(
-    index = 342,
+    index = 323,
     label = "Cds-OdCb(Cds-Cd)",
     group = 
 """
@@ -7539,7 +7456,7 @@ entry(
 )
 
 entry(
-    index = 343,
+    index = 324,
     label = "Cds-OdCb(Cds-Cds)",
     group = 
 """
@@ -7558,7 +7475,7 @@ entry(
 )
 
 entry(
-    index = 344,
+    index = 325,
     label = "Cds-OdCb(Cds-Cdd)",
     group = 
 """
@@ -7577,7 +7494,7 @@ entry(
 )
 
 entry(
-    index = 345,
+    index = 326,
     label = "Cds-OdCb(Cds-Cdd-O2d)",
     group = 
 """
@@ -7597,7 +7514,7 @@ entry(
 )
 
 entry(
-    index = 346,
+    index = 327,
     label = "Cds-OdCb(Cds-Cdd-Cd)",
     group = 
 """
@@ -7617,7 +7534,7 @@ entry(
 )
 
 entry(
-    index = 347,
+    index = 328,
     label = "Cds-OdCbCt",
     group = 
 """
@@ -7635,7 +7552,7 @@ entry(
 )
 
 entry(
-    index = 348,
+    index = 329,
     label = "Cds-OdCbCb",
     group = 
 """
@@ -7653,7 +7570,7 @@ entry(
 )
 
 entry(
-    index = 349,
+    index = 330,
     label = "Cds-CdHH",
     group = 
 """
@@ -7671,7 +7588,7 @@ entry(
 )
 
 entry(
-    index = 350,
+    index = 331,
     label = "Cds-CdsHH",
     group = 
 """
@@ -7694,7 +7611,7 @@ entry(
 )
 
 entry(
-    index = 351,
+    index = 332,
     label = "Cds-CddHH",
     group = 
 """
@@ -7712,7 +7629,7 @@ entry(
 )
 
 entry(
-    index = 352,
+    index = 333,
     label = "Cds-(Cdd-O2d)HH",
     group = 
 """
@@ -7736,7 +7653,7 @@ entry(
 )
 
 entry(
-    index = 353,
+    index = 334,
     label = "Cds-(Cdd-S2d)HH",
     group = 
 """
@@ -7755,7 +7672,7 @@ entry(
 )
 
 entry(
-    index = 354,
+    index = 335,
     label = "Cds-(Cdd-Cd)HH",
     group = 
 """
@@ -7774,7 +7691,7 @@ entry(
 )
 
 entry(
-    index = 355,
+    index = 336,
     label = "Cds-CdOsH",
     group = 
 """
@@ -7799,7 +7716,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 356,
+    index = 337,
     label = "Cds-CdsOsH",
     group = 
 """
@@ -7822,7 +7739,7 @@ entry(
 )
 
 entry(
-    index = 357,
+    index = 338,
     label = "Cds-CddOsH",
     group = 
 """
@@ -7840,7 +7757,7 @@ entry(
 )
 
 entry(
-    index = 358,
+    index = 339,
     label = "Cds-(Cdd-O2d)OsH",
     group = 
 """
@@ -7864,7 +7781,7 @@ entry(
 )
 
 entry(
-    index = 359,
+    index = 340,
     label = "Cds-(Cdd-Cd)OsH",
     group = 
 """
@@ -7883,7 +7800,7 @@ entry(
 )
 
 entry(
-    index = 360,
+    index = 341,
     label = "Cds-CdSH",
     group = 
 """
@@ -7901,7 +7818,7 @@ entry(
 )
 
 entry(
-    index = 361,
+    index = 342,
     label = "Cds-CdsSH",
     group = 
 """
@@ -7919,7 +7836,7 @@ entry(
 )
 
 entry(
-    index = 362,
+    index = 343,
     label = "Cds-CdsS2H",
     group = 
 """
@@ -7942,7 +7859,7 @@ entry(
 )
 
 entry(
-    index = 363,
+    index = 344,
     label = "Cds-CdsS4H",
     group = 
 """
@@ -7965,7 +7882,7 @@ entry(
 )
 
 entry(
-    index = 364,
+    index = 345,
     label = "Cds-CdsS6H",
     group = 
 """
@@ -7988,7 +7905,7 @@ entry(
 )
 
 entry(
-    index = 365,
+    index = 346,
     label = "Cds-CddSsH",
     group = 
 """
@@ -8006,7 +7923,7 @@ entry(
 )
 
 entry(
-    index = 366,
+    index = 347,
     label = "Cds-(Cdd-S2d)SsH",
     group = 
 """
@@ -8025,7 +7942,7 @@ entry(
 )
 
 entry(
-    index = 367,
+    index = 348,
     label = "Cds-(Cdd-Cd)SsH",
     group = 
 """
@@ -8044,7 +7961,7 @@ entry(
 )
 
 entry(
-    index = 368,
+    index = 349,
     label = "Cds-CdOsOs",
     group = 
 """
@@ -8069,7 +7986,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 369,
+    index = 350,
     label = "Cds-CdsOsOs",
     group = 
 """
@@ -8087,7 +8004,7 @@ entry(
 )
 
 entry(
-    index = 370,
+    index = 351,
     label = "Cds-CddOsOs",
     group = 
 """
@@ -8105,7 +8022,7 @@ entry(
 )
 
 entry(
-    index = 371,
+    index = 352,
     label = "Cds-(Cdd-O2d)OsOs",
     group = 
 """
@@ -8129,7 +8046,7 @@ entry(
 )
 
 entry(
-    index = 372,
+    index = 353,
     label = "Cds-(Cdd-Cd)OsOs",
     group = 
 """
@@ -8148,7 +8065,7 @@ entry(
 )
 
 entry(
-    index = 373,
+    index = 354,
     label = "Cds-CdSsSs",
     group = 
 """
@@ -8166,7 +8083,7 @@ entry(
 )
 
 entry(
-    index = 374,
+    index = 355,
     label = "Cds-CdsSsSs",
     group = 
 """
@@ -8184,7 +8101,7 @@ entry(
 )
 
 entry(
-    index = 375,
+    index = 356,
     label = "Cds-CddSsSs",
     group = 
 """
@@ -8202,7 +8119,7 @@ entry(
 )
 
 entry(
-    index = 376,
+    index = 357,
     label = "Cds-(Cdd-S2d)SsSs",
     group = 
 """
@@ -8221,7 +8138,7 @@ entry(
 )
 
 entry(
-    index = 377,
+    index = 358,
     label = "Cds-(Cdd-Cd)SsSs",
     group = 
 """
@@ -8240,7 +8157,7 @@ entry(
 )
 
 entry(
-    index = 378,
+    index = 359,
     label = "Cds-CdCH",
     group = 
 """
@@ -8258,7 +8175,7 @@ entry(
 )
 
 entry(
-    index = 379,
+    index = 360,
     label = "Cds-CdsCsH",
     group = 
 """
@@ -8281,7 +8198,7 @@ entry(
 )
 
 entry(
-    index = 380,
+    index = 361,
     label = "Cds-CdsCdsH",
     group = 
 """
@@ -8299,7 +8216,7 @@ entry(
 )
 
 entry(
-    index = 381,
+    index = 362,
     label = "Cd-Cd(CO)H",
     group = 
 """
@@ -8325,7 +8242,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 382,
+    index = 363,
     label = "Cd-Cd(CO-O)H",
     group = 
 """
@@ -8350,7 +8267,7 @@ Set to zero to avoid double counting with Cds-O2d(Cds-Cds)O2s
 )
 
 entry(
-    index = 383,
+    index = 364,
     label = "Cds-Cds(Cds-Cd)H",
     group = 
 """
@@ -8369,7 +8286,7 @@ entry(
 )
 
 entry(
-    index = 384,
+    index = 365,
     label = "Cds-Cds(Cds-Cds)H",
     group = 
 """
@@ -8393,7 +8310,7 @@ entry(
 )
 
 entry(
-    index = 385,
+    index = 366,
     label = "Cds-Cds(Cds-Cdd)H",
     group = 
 """
@@ -8412,7 +8329,7 @@ entry(
 )
 
 entry(
-    index = 386,
+    index = 367,
     label = "Cd-Cd(CCO)H",
     group = 
 """
@@ -8439,7 +8356,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 387,
+    index = 368,
     label = "Cds-Cds(Cds-Cdd-S2d)H",
     group = 
 """
@@ -8459,7 +8376,7 @@ entry(
 )
 
 entry(
-    index = 388,
+    index = 369,
     label = "Cds-Cds(Cds-Cdd-Cd)H",
     group = 
 """
@@ -8479,7 +8396,7 @@ entry(
 )
 
 entry(
-    index = 389,
+    index = 370,
     label = "Cds-CdsCtH",
     group = 
 """
@@ -8502,7 +8419,7 @@ entry(
 )
 
 entry(
-    index = 390,
+    index = 371,
     label = "Cds-CdsCbH",
     group = 
 """
@@ -8525,7 +8442,7 @@ entry(
 )
 
 entry(
-    index = 391,
+    index = 372,
     label = "Cds-(Cds-Os)CbH",
     group = 
 """
@@ -8549,7 +8466,7 @@ Fitted to CBS-QB3 calculations for OC=Cc1ccccc1
 )
 
 entry(
-    index = 392,
+    index = 373,
     label = "Cds-CddCsH",
     group = 
 """
@@ -8567,7 +8484,7 @@ entry(
 )
 
 entry(
-    index = 393,
+    index = 374,
     label = "Cds-(Cdd-O2d)CsH",
     group = 
 """
@@ -8593,7 +8510,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 394,
+    index = 375,
     label = "Cds-(Cdd-S2d)CsH",
     group = 
 """
@@ -8612,7 +8529,7 @@ entry(
 )
 
 entry(
-    index = 395,
+    index = 376,
     label = "Cds-(Cdd-Cd)CsH",
     group = 
 """
@@ -8631,7 +8548,7 @@ entry(
 )
 
 entry(
-    index = 396,
+    index = 377,
     label = "Cds-CddCdsH",
     group = 
 """
@@ -8649,7 +8566,7 @@ entry(
 )
 
 entry(
-    index = 397,
+    index = 378,
     label = "Cds-(Cdd-O2d)(Cds-O2d)H",
     group = 
 """
@@ -8669,7 +8586,7 @@ entry(
 )
 
 entry(
-    index = 398,
+    index = 379,
     label = "Cds-(Cdd-O2d)(Cds-Cd)H",
     group = 
 """
@@ -8696,7 +8613,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 399,
+    index = 380,
     label = "Cds-(Cdd-O2d)(Cds-Cds)H",
     group = 
 """
@@ -8716,7 +8633,7 @@ entry(
 )
 
 entry(
-    index = 400,
+    index = 381,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)H",
     group = 
 """
@@ -8736,7 +8653,7 @@ entry(
 )
 
 entry(
-    index = 401,
+    index = 382,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -8762,7 +8679,7 @@ entry(
 )
 
 entry(
-    index = 402,
+    index = 383,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -8783,7 +8700,7 @@ entry(
 )
 
 entry(
-    index = 403,
+    index = 384,
     label = "Cds-(Cdd-S2d)(Cds-Cd)H",
     group = 
 """
@@ -8803,7 +8720,7 @@ entry(
 )
 
 entry(
-    index = 404,
+    index = 385,
     label = "Cds-(Cdd-S2d)(Cds-Cds)H",
     group = 
 """
@@ -8823,7 +8740,7 @@ entry(
 )
 
 entry(
-    index = 405,
+    index = 386,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)H",
     group = 
 """
@@ -8843,7 +8760,7 @@ entry(
 )
 
 entry(
-    index = 406,
+    index = 387,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -8864,7 +8781,7 @@ entry(
 )
 
 entry(
-    index = 407,
+    index = 388,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -8885,7 +8802,7 @@ entry(
 )
 
 entry(
-    index = 408,
+    index = 389,
     label = "Cds-(Cdd-Cd)(Cds-O2d)H",
     group = 
 """
@@ -8905,7 +8822,7 @@ entry(
 )
 
 entry(
-    index = 409,
+    index = 390,
     label = "Cds-(Cdd-Cd)(Cds-Cd)H",
     group = 
 """
@@ -8925,7 +8842,7 @@ entry(
 )
 
 entry(
-    index = 410,
+    index = 391,
     label = "Cds-(Cdd-Cd)(Cds-Cds)H",
     group = 
 """
@@ -8945,7 +8862,7 @@ entry(
 )
 
 entry(
-    index = 411,
+    index = 392,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)H",
     group = 
 """
@@ -8965,7 +8882,7 @@ entry(
 )
 
 entry(
-    index = 412,
+    index = 393,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -8986,7 +8903,7 @@ entry(
 )
 
 entry(
-    index = 413,
+    index = 394,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -9007,7 +8924,7 @@ entry(
 )
 
 entry(
-    index = 414,
+    index = 395,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -9028,7 +8945,7 @@ entry(
 )
 
 entry(
-    index = 415,
+    index = 396,
     label = "Cds-CddCtH",
     group = 
 """
@@ -9046,7 +8963,7 @@ entry(
 )
 
 entry(
-    index = 416,
+    index = 397,
     label = "Cds-(Cdd-O2d)CtH",
     group = 
 """
@@ -9065,7 +8982,7 @@ entry(
 )
 
 entry(
-    index = 417,
+    index = 398,
     label = "Cds-(Cdd-S2d)CtH",
     group = 
 """
@@ -9084,7 +9001,7 @@ entry(
 )
 
 entry(
-    index = 418,
+    index = 399,
     label = "Cds-(Cdd-Cd)CtH",
     group = 
 """
@@ -9103,7 +9020,7 @@ entry(
 )
 
 entry(
-    index = 419,
+    index = 400,
     label = "Cds-CddCbH",
     group = 
 """
@@ -9121,7 +9038,7 @@ entry(
 )
 
 entry(
-    index = 420,
+    index = 401,
     label = "Cds-(Cdd-O2d)CbH",
     group = 
 """
@@ -9140,7 +9057,7 @@ entry(
 )
 
 entry(
-    index = 421,
+    index = 402,
     label = "Cds-(Cdd-S2d)CbH",
     group = 
 """
@@ -9159,7 +9076,7 @@ entry(
 )
 
 entry(
-    index = 422,
+    index = 403,
     label = "Cds-(Cdd-Cd)CbH",
     group = 
 """
@@ -9178,7 +9095,7 @@ entry(
 )
 
 entry(
-    index = 423,
+    index = 404,
     label = "Cds-(Cdd-Cd)C=SH",
     group = 
 """
@@ -9198,7 +9115,7 @@ entry(
 )
 
 entry(
-    index = 424,
+    index = 405,
     label = "Cds-(Cdd-S2d)C=SH",
     group = 
 """
@@ -9218,7 +9135,7 @@ entry(
 )
 
 entry(
-    index = 425,
+    index = 406,
     label = "Cds-CdsC=SH",
     group = 
 """
@@ -9242,7 +9159,7 @@ entry(
 )
 
 entry(
-    index = 426,
+    index = 407,
     label = "Cds-CdCO",
     group = 
 """
@@ -9260,7 +9177,7 @@ entry(
 )
 
 entry(
-    index = 427,
+    index = 408,
     label = "Cds-CdsCdsOs",
     group = 
 """
@@ -9278,7 +9195,7 @@ entry(
 )
 
 entry(
-    index = 428,
+    index = 409,
     label = "Cds-Cds(Cds-O2d)O2s",
     group = 
 """
@@ -9302,7 +9219,7 @@ entry(
 )
 
 entry(
-    index = 429,
+    index = 410,
     label = "Cds-Cds(Cds-Cd)O2s",
     group = 
 """
@@ -9321,7 +9238,7 @@ entry(
 )
 
 entry(
-    index = 430,
+    index = 411,
     label = "Cds-Cds(Cds-Cds)O2s",
     group = 
 """
@@ -9345,7 +9262,7 @@ entry(
 )
 
 entry(
-    index = 431,
+    index = 412,
     label = "Cds-Cds(Cds-Cdd)O2s",
     group = 
 """
@@ -9364,7 +9281,7 @@ entry(
 )
 
 entry(
-    index = 432,
+    index = 413,
     label = "Cds-Cds(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -9384,7 +9301,7 @@ entry(
 )
 
 entry(
-    index = 433,
+    index = 414,
     label = "Cds-Cds(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -9404,7 +9321,7 @@ entry(
 )
 
 entry(
-    index = 434,
+    index = 415,
     label = "Cds-CdsCtOs",
     group = 
 """
@@ -9422,7 +9339,7 @@ entry(
 )
 
 entry(
-    index = 435,
+    index = 416,
     label = "Cds-CdsCbOs",
     group = 
 """
@@ -9445,7 +9362,7 @@ entry(
 )
 
 entry(
-    index = 436,
+    index = 417,
     label = "Cds-CddCdsOs",
     group = 
 """
@@ -9463,7 +9380,7 @@ entry(
 )
 
 entry(
-    index = 437,
+    index = 418,
     label = "Cds-(Cdd-O2d)(Cds-O2d)O2s",
     group = 
 """
@@ -9483,7 +9400,7 @@ entry(
 )
 
 entry(
-    index = 438,
+    index = 419,
     label = "Cds-(Cdd-O2d)(Cds-Cd)O2s",
     group = 
 """
@@ -9503,7 +9420,7 @@ entry(
 )
 
 entry(
-    index = 439,
+    index = 420,
     label = "Cds-(Cdd-O2d)(Cds-Cds)O2s",
     group = 
 """
@@ -9523,7 +9440,7 @@ entry(
 )
 
 entry(
-    index = 440,
+    index = 421,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)O2s",
     group = 
 """
@@ -9543,7 +9460,7 @@ entry(
 )
 
 entry(
-    index = 441,
+    index = 422,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -9569,7 +9486,7 @@ entry(
 )
 
 entry(
-    index = 442,
+    index = 423,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -9590,7 +9507,7 @@ entry(
 )
 
 entry(
-    index = 443,
+    index = 424,
     label = "Cds-(Cdd-Cd)(Cds-Cd)O2s",
     group = 
 """
@@ -9610,7 +9527,7 @@ entry(
 )
 
 entry(
-    index = 444,
+    index = 425,
     label = "Cds-(Cdd-Cd)(Cds-Cds)O2s",
     group = 
 """
@@ -9630,7 +9547,7 @@ entry(
 )
 
 entry(
-    index = 445,
+    index = 426,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)O2s",
     group = 
 """
@@ -9650,7 +9567,7 @@ entry(
 )
 
 entry(
-    index = 446,
+    index = 427,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -9671,7 +9588,7 @@ entry(
 )
 
 entry(
-    index = 447,
+    index = 428,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -9692,7 +9609,7 @@ entry(
 )
 
 entry(
-    index = 448,
+    index = 429,
     label = "Cds-CddCtOs",
     group = 
 """
@@ -9710,7 +9627,7 @@ entry(
 )
 
 entry(
-    index = 449,
+    index = 430,
     label = "Cds-(Cdd-O2d)CtOs",
     group = 
 """
@@ -9729,7 +9646,7 @@ entry(
 )
 
 entry(
-    index = 450,
+    index = 431,
     label = "Cds-(Cdd-Cd)CtOs",
     group = 
 """
@@ -9748,7 +9665,7 @@ entry(
 )
 
 entry(
-    index = 451,
+    index = 432,
     label = "Cds-CddCbOs",
     group = 
 """
@@ -9766,7 +9683,7 @@ entry(
 )
 
 entry(
-    index = 452,
+    index = 433,
     label = "Cds-(Cdd-O2d)CbOs",
     group = 
 """
@@ -9785,7 +9702,7 @@ entry(
 )
 
 entry(
-    index = 453,
+    index = 434,
     label = "Cds-(Cdd-Cd)CbOs",
     group = 
 """
@@ -9804,7 +9721,7 @@ entry(
 )
 
 entry(
-    index = 454,
+    index = 435,
     label = "Cd-CdCsOs",
     group = 
 """
@@ -9829,7 +9746,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 455,
+    index = 436,
     label = "Cds-CdsCsOs",
     group = 
 """
@@ -9852,7 +9769,7 @@ entry(
 )
 
 entry(
-    index = 456,
+    index = 437,
     label = "Cds-CddCsOs",
     group = 
 """
@@ -9870,7 +9787,7 @@ entry(
 )
 
 entry(
-    index = 457,
+    index = 438,
     label = "Cds-(Cdd-O2d)CsOs",
     group = 
 """
@@ -9894,7 +9811,7 @@ entry(
 )
 
 entry(
-    index = 458,
+    index = 439,
     label = "Cds-(Cdd-Cd)CsOs",
     group = 
 """
@@ -9913,7 +9830,7 @@ entry(
 )
 
 entry(
-    index = 459,
+    index = 440,
     label = "Cds-CdCS",
     group = 
 """
@@ -9931,7 +9848,7 @@ entry(
 )
 
 entry(
-    index = 460,
+    index = 441,
     label = "Cds-CdsCsSs",
     group = 
 """
@@ -9949,7 +9866,7 @@ entry(
 )
 
 entry(
-    index = 461,
+    index = 442,
     label = "Cds-CdsCsS2",
     group = 
 """
@@ -9972,7 +9889,7 @@ entry(
 )
 
 entry(
-    index = 462,
+    index = 443,
     label = "Cds-CdsCsS4",
     group = 
 """
@@ -9995,7 +9912,7 @@ entry(
 )
 
 entry(
-    index = 463,
+    index = 444,
     label = "Cds-CdsCsS6",
     group = 
 """
@@ -10018,7 +9935,7 @@ entry(
 )
 
 entry(
-    index = 464,
+    index = 445,
     label = "Cds-CdsCdsSs",
     group = 
 """
@@ -10036,7 +9953,7 @@ entry(
 )
 
 entry(
-    index = 465,
+    index = 446,
     label = "Cds-Cds(Cds-Cd)S2s",
     group = 
 """
@@ -10055,7 +9972,7 @@ entry(
 )
 
 entry(
-    index = 466,
+    index = 447,
     label = "Cds-Cds(Cds-Cds)S2s",
     group = 
 """
@@ -10074,7 +9991,7 @@ entry(
 )
 
 entry(
-    index = 467,
+    index = 448,
     label = "Cds-Cds(Cds-Cdd)S2s",
     group = 
 """
@@ -10093,7 +10010,7 @@ entry(
 )
 
 entry(
-    index = 468,
+    index = 449,
     label = "Cds-Cds(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -10113,7 +10030,7 @@ entry(
 )
 
 entry(
-    index = 469,
+    index = 450,
     label = "Cds-Cds(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -10133,7 +10050,7 @@ entry(
 )
 
 entry(
-    index = 470,
+    index = 451,
     label = "Cds-CdsCtSs",
     group = 
 """
@@ -10151,7 +10068,7 @@ entry(
 )
 
 entry(
-    index = 471,
+    index = 452,
     label = "Cds-CdsCbSs",
     group = 
 """
@@ -10169,7 +10086,7 @@ entry(
 )
 
 entry(
-    index = 472,
+    index = 453,
     label = "Cds-CddCsSs",
     group = 
 """
@@ -10187,7 +10104,7 @@ entry(
 )
 
 entry(
-    index = 473,
+    index = 454,
     label = "Cds-(Cdd-S2d)CsSs",
     group = 
 """
@@ -10206,7 +10123,7 @@ entry(
 )
 
 entry(
-    index = 474,
+    index = 455,
     label = "Cds-(Cdd-Cd)CsSs",
     group = 
 """
@@ -10225,7 +10142,7 @@ entry(
 )
 
 entry(
-    index = 475,
+    index = 456,
     label = "Cds-CddCdsSs",
     group = 
 """
@@ -10243,7 +10160,7 @@ entry(
 )
 
 entry(
-    index = 476,
+    index = 457,
     label = "Cds-(Cdd-S2d)(Cds-Cd)S2s",
     group = 
 """
@@ -10263,7 +10180,7 @@ entry(
 )
 
 entry(
-    index = 477,
+    index = 458,
     label = "Cds-(Cdd-S2d)(Cds-Cds)S2s",
     group = 
 """
@@ -10283,7 +10200,7 @@ entry(
 )
 
 entry(
-    index = 478,
+    index = 459,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)S2s",
     group = 
 """
@@ -10303,7 +10220,7 @@ entry(
 )
 
 entry(
-    index = 479,
+    index = 460,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -10324,7 +10241,7 @@ entry(
 )
 
 entry(
-    index = 480,
+    index = 461,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -10345,7 +10262,7 @@ entry(
 )
 
 entry(
-    index = 481,
+    index = 462,
     label = "Cds-(Cdd-Cd)(Cds-Cd)S2s",
     group = 
 """
@@ -10365,7 +10282,7 @@ entry(
 )
 
 entry(
-    index = 482,
+    index = 463,
     label = "Cds-(Cdd-Cd)(Cds-Cds)S2s",
     group = 
 """
@@ -10385,7 +10302,7 @@ entry(
 )
 
 entry(
-    index = 483,
+    index = 464,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)S2s",
     group = 
 """
@@ -10405,7 +10322,7 @@ entry(
 )
 
 entry(
-    index = 484,
+    index = 465,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -10426,7 +10343,7 @@ entry(
 )
 
 entry(
-    index = 485,
+    index = 466,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -10447,7 +10364,7 @@ entry(
 )
 
 entry(
-    index = 486,
+    index = 467,
     label = "Cds-CddCtSs",
     group = 
 """
@@ -10465,7 +10382,7 @@ entry(
 )
 
 entry(
-    index = 487,
+    index = 468,
     label = "Cds-(Cdd-S2d)CtSs",
     group = 
 """
@@ -10484,7 +10401,7 @@ entry(
 )
 
 entry(
-    index = 488,
+    index = 469,
     label = "Cds-(Cdd-Cd)CtSs",
     group = 
 """
@@ -10503,7 +10420,7 @@ entry(
 )
 
 entry(
-    index = 489,
+    index = 470,
     label = "Cds-CddCbSs",
     group = 
 """
@@ -10521,7 +10438,7 @@ entry(
 )
 
 entry(
-    index = 490,
+    index = 471,
     label = "Cds-(Cdd-S2d)CbSs",
     group = 
 """
@@ -10540,7 +10457,7 @@ entry(
 )
 
 entry(
-    index = 491,
+    index = 472,
     label = "Cds-(Cdd-Cd)CbSs",
     group = 
 """
@@ -10559,7 +10476,7 @@ entry(
 )
 
 entry(
-    index = 492,
+    index = 473,
     label = "Cds-(Cdd-S2d)C=SSs",
     group = 
 """
@@ -10579,7 +10496,7 @@ entry(
 )
 
 entry(
-    index = 493,
+    index = 474,
     label = "Cds-CdsC=SSs",
     group = 
 """
@@ -10598,7 +10515,7 @@ entry(
 )
 
 entry(
-    index = 494,
+    index = 475,
     label = "Cds-CdCC",
     group = 
 """
@@ -10616,7 +10533,7 @@ entry(
 )
 
 entry(
-    index = 495,
+    index = 476,
     label = "Cds-CdsCsCs",
     group = 
 """
@@ -10639,7 +10556,7 @@ entry(
 )
 
 entry(
-    index = 496,
+    index = 477,
     label = "Cds-CdsCdsCs",
     group = 
 """
@@ -10657,7 +10574,7 @@ entry(
 )
 
 entry(
-    index = 497,
+    index = 478,
     label = "Cd-CdCs(CO)",
     group = 
 """
@@ -10683,7 +10600,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 498,
+    index = 479,
     label = "Cds-Cds(Cds-Cd)Cs",
     group = 
 """
@@ -10702,7 +10619,7 @@ entry(
 )
 
 entry(
-    index = 499,
+    index = 480,
     label = "Cds-Cds(Cds-Cds)Cs",
     group = 
 """
@@ -10726,7 +10643,7 @@ entry(
 )
 
 entry(
-    index = 500,
+    index = 481,
     label = "Cds-Cds(Cds-Cdd)Cs",
     group = 
 """
@@ -10745,7 +10662,7 @@ entry(
 )
 
 entry(
-    index = 501,
+    index = 482,
     label = "Cd-CdCs(CCO)",
     group = 
 """
@@ -10772,7 +10689,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 502,
+    index = 483,
     label = "Cds-Cds(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -10792,7 +10709,7 @@ entry(
 )
 
 entry(
-    index = 503,
+    index = 484,
     label = "Cds-Cds(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -10812,7 +10729,7 @@ entry(
 )
 
 entry(
-    index = 504,
+    index = 485,
     label = "Cds-CdsCdsCds",
     group = 
 """
@@ -10830,7 +10747,7 @@ entry(
 )
 
 entry(
-    index = 505,
+    index = 486,
     label = "Cds-Cds(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -10850,7 +10767,7 @@ entry(
 )
 
 entry(
-    index = 506,
+    index = 487,
     label = "Cds-Cds(Cds-O2d)(Cds-Cd)",
     group = 
 """
@@ -10870,7 +10787,7 @@ entry(
 )
 
 entry(
-    index = 507,
+    index = 488,
     label = "Cds-Cds(Cds-O2d)(Cds-Cds)",
     group = 
 """
@@ -10895,7 +10812,7 @@ AG Vandeputte, added 7 kcal/mol to the following value (see phd M Sabbe)
 )
 
 entry(
-    index = 508,
+    index = 489,
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd)",
     group = 
 """
@@ -10915,7 +10832,7 @@ entry(
 )
 
 entry(
-    index = 509,
+    index = 490,
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -10936,7 +10853,7 @@ entry(
 )
 
 entry(
-    index = 510,
+    index = 491,
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -10957,7 +10874,7 @@ entry(
 )
 
 entry(
-    index = 511,
+    index = 492,
     label = "Cds-Cds(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -10977,7 +10894,7 @@ entry(
 )
 
 entry(
-    index = 512,
+    index = 493,
     label = "Cds-Cds(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -11002,7 +10919,7 @@ AG Vandeputte, added 7 kcal/mol to the following value (see phd M Sabbe)
 )
 
 entry(
-    index = 513,
+    index = 494,
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd)",
     group = 
 """
@@ -11022,7 +10939,7 @@ entry(
 )
 
 entry(
-    index = 514,
+    index = 495,
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-O2d)",
     group = 
 """
@@ -11043,7 +10960,7 @@ entry(
 )
 
 entry(
-    index = 515,
+    index = 496,
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-S2d)",
     group = 
 """
@@ -11064,7 +10981,7 @@ entry(
 )
 
 entry(
-    index = 516,
+    index = 497,
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
@@ -11085,7 +11002,7 @@ entry(
 )
 
 entry(
-    index = 517,
+    index = 498,
     label = "Cds-Cds(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -11105,7 +11022,7 @@ entry(
 )
 
 entry(
-    index = 518,
+    index = 499,
     label = "Cds-Cds(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -11127,7 +11044,7 @@ entry(
 )
 
 entry(
-    index = 519,
+    index = 500,
     label = "Cds-Cds(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -11149,7 +11066,7 @@ entry(
 )
 
 entry(
-    index = 520,
+    index = 501,
     label = "Cds-Cds(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -11171,7 +11088,7 @@ entry(
 )
 
 entry(
-    index = 521,
+    index = 502,
     label = "Cds-Cds(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -11193,7 +11110,7 @@ entry(
 )
 
 entry(
-    index = 522,
+    index = 503,
     label = "Cds-Cds(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -11215,7 +11132,7 @@ entry(
 )
 
 entry(
-    index = 523,
+    index = 504,
     label = "Cds-CdsCtCs",
     group = 
 """
@@ -11238,7 +11155,7 @@ entry(
 )
 
 entry(
-    index = 524,
+    index = 505,
     label = "Cds-CdsCtCds",
     group = 
 """
@@ -11256,7 +11173,7 @@ entry(
 )
 
 entry(
-    index = 525,
+    index = 506,
     label = "Cds-CdsCt(Cds-O2d)",
     group = 
 """
@@ -11275,7 +11192,7 @@ entry(
 )
 
 entry(
-    index = 526,
+    index = 507,
     label = "Cds-CdsCt(Cds-Cd)",
     group = 
 """
@@ -11294,7 +11211,7 @@ entry(
 )
 
 entry(
-    index = 527,
+    index = 508,
     label = "Cds-Cds(Cds-Cds)Ct",
     group = 
 """
@@ -11318,7 +11235,7 @@ entry(
 )
 
 entry(
-    index = 528,
+    index = 509,
     label = "Cds-Cds(Cds-Cdd)Ct",
     group = 
 """
@@ -11337,7 +11254,7 @@ entry(
 )
 
 entry(
-    index = 529,
+    index = 510,
     label = "Cds-Cds(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -11357,7 +11274,7 @@ entry(
 )
 
 entry(
-    index = 530,
+    index = 511,
     label = "Cds-Cds(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -11377,7 +11294,7 @@ entry(
 )
 
 entry(
-    index = 531,
+    index = 512,
     label = "Cds-Cds(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -11397,7 +11314,7 @@ entry(
 )
 
 entry(
-    index = 532,
+    index = 513,
     label = "Cds-CdsCtCt",
     group = 
 """
@@ -11420,7 +11337,7 @@ entry(
 )
 
 entry(
-    index = 533,
+    index = 514,
     label = "Cds-CdsCbCs",
     group = 
 """
@@ -11443,7 +11360,7 @@ entry(
 )
 
 entry(
-    index = 534,
+    index = 515,
     label = "Cds-CdsCbCds",
     group = 
 """
@@ -11461,7 +11378,7 @@ entry(
 )
 
 entry(
-    index = 535,
+    index = 516,
     label = "Cds-CdsCb(Cds-O2d)",
     group = 
 """
@@ -11480,7 +11397,7 @@ entry(
 )
 
 entry(
-    index = 536,
+    index = 517,
     label = "Cds-Cds(Cds-Cd)Cb",
     group = 
 """
@@ -11499,7 +11416,7 @@ entry(
 )
 
 entry(
-    index = 537,
+    index = 518,
     label = "Cds-Cds(Cds-Cds)Cb",
     group = 
 """
@@ -11523,7 +11440,7 @@ entry(
 )
 
 entry(
-    index = 538,
+    index = 519,
     label = "Cds-Cds(Cds-Cdd)Cb",
     group = 
 """
@@ -11542,7 +11459,7 @@ entry(
 )
 
 entry(
-    index = 539,
+    index = 520,
     label = "Cds-Cds(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -11562,7 +11479,7 @@ entry(
 )
 
 entry(
-    index = 540,
+    index = 521,
     label = "Cds-Cds(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -11582,7 +11499,7 @@ entry(
 )
 
 entry(
-    index = 541,
+    index = 522,
     label = "Cds-Cds(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -11602,7 +11519,7 @@ entry(
 )
 
 entry(
-    index = 542,
+    index = 523,
     label = "Cds-CdsCbCt",
     group = 
 """
@@ -11625,7 +11542,7 @@ entry(
 )
 
 entry(
-    index = 543,
+    index = 524,
     label = "Cds-CdsCbCb",
     group = 
 """
@@ -11648,7 +11565,7 @@ entry(
 )
 
 entry(
-    index = 544,
+    index = 525,
     label = "Cds-CddCsCs",
     group = 
 """
@@ -11666,7 +11583,7 @@ entry(
 )
 
 entry(
-    index = 545,
+    index = 526,
     label = "Cds-(Cdd-O2d)CsCs",
     group = 
 """
@@ -11692,7 +11609,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 546,
+    index = 527,
     label = "Cds-(Cdd-S2d)CsCs",
     group = 
 """
@@ -11711,7 +11628,7 @@ entry(
 )
 
 entry(
-    index = 547,
+    index = 528,
     label = "Cds-(Cdd-Cd)CsCs",
     group = 
 """
@@ -11730,7 +11647,7 @@ entry(
 )
 
 entry(
-    index = 548,
+    index = 529,
     label = "Cds-CddCdsCs",
     group = 
 """
@@ -11748,7 +11665,7 @@ entry(
 )
 
 entry(
-    index = 549,
+    index = 530,
     label = "Cds-(Cdd-O2d)(Cds-O2d)Cs",
     group = 
 """
@@ -11768,7 +11685,7 @@ entry(
 )
 
 entry(
-    index = 550,
+    index = 531,
     label = "Cds-(Cdd-O2d)(Cds-Cd)Cs",
     group = 
 """
@@ -11788,7 +11705,7 @@ entry(
 )
 
 entry(
-    index = 551,
+    index = 532,
     label = "Cds-(Cdd-O2d)(Cds-Cds)Cs",
     group = 
 """
@@ -11808,7 +11725,7 @@ entry(
 )
 
 entry(
-    index = 552,
+    index = 533,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Cs",
     group = 
 """
@@ -11828,7 +11745,7 @@ entry(
 )
 
 entry(
-    index = 553,
+    index = 534,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -11854,7 +11771,7 @@ entry(
 )
 
 entry(
-    index = 554,
+    index = 535,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -11875,7 +11792,7 @@ entry(
 )
 
 entry(
-    index = 555,
+    index = 536,
     label = "Cds-(Cdd-S2d)(Cds-Cd)Cs",
     group = 
 """
@@ -11895,7 +11812,7 @@ entry(
 )
 
 entry(
-    index = 556,
+    index = 537,
     label = "Cds-(Cdd-S2d)(Cds-Cds)Cs",
     group = 
 """
@@ -11915,7 +11832,7 @@ entry(
 )
 
 entry(
-    index = 557,
+    index = 538,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Cs",
     group = 
 """
@@ -11935,7 +11852,7 @@ entry(
 )
 
 entry(
-    index = 558,
+    index = 539,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -11956,7 +11873,7 @@ entry(
 )
 
 entry(
-    index = 559,
+    index = 540,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -11977,7 +11894,7 @@ entry(
 )
 
 entry(
-    index = 560,
+    index = 541,
     label = "Cds-(Cdd-Cd)(Cds-Cd)Cs",
     group = 
 """
@@ -11997,7 +11914,7 @@ entry(
 )
 
 entry(
-    index = 561,
+    index = 542,
     label = "Cds-(Cdd-Cd)(Cds-Cds)Cs",
     group = 
 """
@@ -12017,7 +11934,7 @@ entry(
 )
 
 entry(
-    index = 562,
+    index = 543,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Cs",
     group = 
 """
@@ -12037,7 +11954,7 @@ entry(
 )
 
 entry(
-    index = 563,
+    index = 544,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -12058,7 +11975,7 @@ entry(
 )
 
 entry(
-    index = 564,
+    index = 545,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -12079,7 +11996,7 @@ entry(
 )
 
 entry(
-    index = 565,
+    index = 546,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -12100,7 +12017,7 @@ entry(
 )
 
 entry(
-    index = 566,
+    index = 547,
     label = "Cds-CddCdsCds",
     group = 
 """
@@ -12118,7 +12035,7 @@ entry(
 )
 
 entry(
-    index = 567,
+    index = 548,
     label = "Cds-(Cdd-O2d)(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -12139,7 +12056,7 @@ entry(
 )
 
 entry(
-    index = 568,
+    index = 549,
     label = "Cds-(Cdd-O2d)(Cds-Cd)(Cds-O2d)",
     group = 
 """
@@ -12160,7 +12077,7 @@ entry(
 )
 
 entry(
-    index = 569,
+    index = 550,
     label = "Cds-(Cdd-O2d)(Cds-Cds)(Cds-O2d)",
     group = 
 """
@@ -12181,7 +12098,7 @@ entry(
 )
 
 entry(
-    index = 570,
+    index = 551,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-O2d)",
     group = 
 """
@@ -12202,7 +12119,7 @@ entry(
 )
 
 entry(
-    index = 571,
+    index = 552,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-O2d)",
     group = 
 """
@@ -12224,7 +12141,7 @@ entry(
 )
 
 entry(
-    index = 572,
+    index = 553,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-O2d)",
     group = 
 """
@@ -12246,7 +12163,7 @@ entry(
 )
 
 entry(
-    index = 573,
+    index = 554,
     label = "Cds-(Cdd-O2d)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -12267,7 +12184,7 @@ entry(
 )
 
 entry(
-    index = 574,
+    index = 555,
     label = "Cds-(Cdd-O2d)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -12288,7 +12205,7 @@ entry(
 )
 
 entry(
-    index = 575,
+    index = 556,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -12309,7 +12226,7 @@ entry(
 )
 
 entry(
-    index = 576,
+    index = 557,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cds)",
     group = 
 """
@@ -12331,7 +12248,7 @@ entry(
 )
 
 entry(
-    index = 577,
+    index = 558,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -12353,7 +12270,7 @@ entry(
 )
 
 entry(
-    index = 578,
+    index = 559,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -12374,7 +12291,7 @@ entry(
 )
 
 entry(
-    index = 579,
+    index = 560,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -12397,7 +12314,7 @@ entry(
 )
 
 entry(
-    index = 580,
+    index = 561,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12420,7 +12337,7 @@ entry(
 )
 
 entry(
-    index = 581,
+    index = 562,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12443,7 +12360,7 @@ entry(
 )
 
 entry(
-    index = 582,
+    index = 563,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -12464,7 +12381,7 @@ entry(
 )
 
 entry(
-    index = 583,
+    index = 564,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cd)",
     group = 
 """
@@ -12485,7 +12402,7 @@ entry(
 )
 
 entry(
-    index = 584,
+    index = 565,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cds)",
     group = 
 """
@@ -12506,7 +12423,7 @@ entry(
 )
 
 entry(
-    index = 585,
+    index = 566,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd)",
     group = 
 """
@@ -12527,7 +12444,7 @@ entry(
 )
 
 entry(
-    index = 586,
+    index = 567,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -12549,7 +12466,7 @@ entry(
 )
 
 entry(
-    index = 587,
+    index = 568,
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12571,7 +12488,7 @@ entry(
 )
 
 entry(
-    index = 588,
+    index = 569,
     label = "Cds-(Cdd-S2d)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -12592,7 +12509,7 @@ entry(
 )
 
 entry(
-    index = 589,
+    index = 570,
     label = "Cds-(Cdd-S2d)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -12613,7 +12530,7 @@ entry(
 )
 
 entry(
-    index = 590,
+    index = 571,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -12634,7 +12551,7 @@ entry(
 )
 
 entry(
-    index = 591,
+    index = 572,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cds)",
     group = 
 """
@@ -12656,7 +12573,7 @@ entry(
 )
 
 entry(
-    index = 592,
+    index = 573,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -12678,7 +12595,7 @@ entry(
 )
 
 entry(
-    index = 593,
+    index = 574,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -12699,7 +12616,7 @@ entry(
 )
 
 entry(
-    index = 594,
+    index = 575,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -12722,7 +12639,7 @@ entry(
 )
 
 entry(
-    index = 595,
+    index = 576,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12745,7 +12662,7 @@ entry(
 )
 
 entry(
-    index = 596,
+    index = 577,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12768,7 +12685,7 @@ entry(
 )
 
 entry(
-    index = 597,
+    index = 578,
     label = "Cds-(Cdd-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -12789,7 +12706,7 @@ entry(
 )
 
 entry(
-    index = 598,
+    index = 579,
     label = "Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -12810,7 +12727,7 @@ entry(
 )
 
 entry(
-    index = 599,
+    index = 580,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -12831,7 +12748,7 @@ entry(
 )
 
 entry(
-    index = 600,
+    index = 581,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cds)",
     group = 
 """
@@ -12853,7 +12770,7 @@ entry(
 )
 
 entry(
-    index = 601,
+    index = 582,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cds)",
     group = 
 """
@@ -12875,7 +12792,7 @@ entry(
 )
 
 entry(
-    index = 602,
+    index = 583,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -12897,7 +12814,7 @@ entry(
 )
 
 entry(
-    index = 603,
+    index = 584,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -12918,7 +12835,7 @@ entry(
 )
 
 entry(
-    index = 604,
+    index = 585,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -12941,7 +12858,7 @@ entry(
 )
 
 entry(
-    index = 605,
+    index = 586,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -12964,7 +12881,7 @@ entry(
 )
 
 entry(
-    index = 606,
+    index = 587,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -12987,7 +12904,7 @@ entry(
 )
 
 entry(
-    index = 607,
+    index = 588,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -13010,7 +12927,7 @@ entry(
 )
 
 entry(
-    index = 608,
+    index = 589,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -13033,7 +12950,7 @@ entry(
 )
 
 entry(
-    index = 609,
+    index = 590,
     label = "Cds-CddCtCs",
     group = 
 """
@@ -13051,7 +12968,7 @@ entry(
 )
 
 entry(
-    index = 610,
+    index = 591,
     label = "Cds-(Cdd-O2d)CtCs",
     group = 
 """
@@ -13070,7 +12987,7 @@ entry(
 )
 
 entry(
-    index = 611,
+    index = 592,
     label = "Cds-(Cdd-S2d)CtCs",
     group = 
 """
@@ -13089,7 +13006,7 @@ entry(
 )
 
 entry(
-    index = 612,
+    index = 593,
     label = "Cds-(Cdd-Cd)CtCs",
     group = 
 """
@@ -13108,7 +13025,7 @@ entry(
 )
 
 entry(
-    index = 613,
+    index = 594,
     label = "Cds-CddCtCds",
     group = 
 """
@@ -13126,7 +13043,7 @@ entry(
 )
 
 entry(
-    index = 614,
+    index = 595,
     label = "Cds-(Cdd-O2d)(Cds-O2d)Ct",
     group = 
 """
@@ -13146,7 +13063,7 @@ entry(
 )
 
 entry(
-    index = 615,
+    index = 596,
     label = "Cds-(Cdd-O2d)(Cds-Cd)Ct",
     group = 
 """
@@ -13166,7 +13083,7 @@ entry(
 )
 
 entry(
-    index = 616,
+    index = 597,
     label = "Cds-(Cdd-O2d)(Cds-Cds)Ct",
     group = 
 """
@@ -13186,7 +13103,7 @@ entry(
 )
 
 entry(
-    index = 617,
+    index = 598,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Ct",
     group = 
 """
@@ -13206,7 +13123,7 @@ entry(
 )
 
 entry(
-    index = 618,
+    index = 599,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -13227,7 +13144,7 @@ entry(
 )
 
 entry(
-    index = 619,
+    index = 600,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -13248,7 +13165,7 @@ entry(
 )
 
 entry(
-    index = 620,
+    index = 601,
     label = "Cds-(Cdd-S2d)(Cds-Cd)Ct",
     group = 
 """
@@ -13268,7 +13185,7 @@ entry(
 )
 
 entry(
-    index = 621,
+    index = 602,
     label = "Cds-(Cdd-S2d)(Cds-Cds)Ct",
     group = 
 """
@@ -13288,7 +13205,7 @@ entry(
 )
 
 entry(
-    index = 622,
+    index = 603,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Ct",
     group = 
 """
@@ -13308,7 +13225,7 @@ entry(
 )
 
 entry(
-    index = 623,
+    index = 604,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -13329,7 +13246,7 @@ entry(
 )
 
 entry(
-    index = 624,
+    index = 605,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -13350,7 +13267,7 @@ entry(
 )
 
 entry(
-    index = 625,
+    index = 606,
     label = "Cds-(Cdd-Cd)(Cds-Cd)Ct",
     group = 
 """
@@ -13370,7 +13287,7 @@ entry(
 )
 
 entry(
-    index = 626,
+    index = 607,
     label = "Cds-(Cdd-Cd)(Cds-Cds)Ct",
     group = 
 """
@@ -13390,7 +13307,7 @@ entry(
 )
 
 entry(
-    index = 627,
+    index = 608,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Ct",
     group = 
 """
@@ -13410,7 +13327,7 @@ entry(
 )
 
 entry(
-    index = 628,
+    index = 609,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -13431,7 +13348,7 @@ entry(
 )
 
 entry(
-    index = 629,
+    index = 610,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -13452,7 +13369,7 @@ entry(
 )
 
 entry(
-    index = 630,
+    index = 611,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -13473,7 +13390,7 @@ entry(
 )
 
 entry(
-    index = 631,
+    index = 612,
     label = "Cds-CddCtCt",
     group = 
 """
@@ -13491,7 +13408,7 @@ entry(
 )
 
 entry(
-    index = 632,
+    index = 613,
     label = "Cds-(Cdd-O2d)CtCt",
     group = 
 """
@@ -13510,7 +13427,7 @@ entry(
 )
 
 entry(
-    index = 633,
+    index = 614,
     label = "Cds-(Cdd-S2d)CtCt",
     group = 
 """
@@ -13529,7 +13446,7 @@ entry(
 )
 
 entry(
-    index = 634,
+    index = 615,
     label = "Cds-(Cdd-Cd)CtCt",
     group = 
 """
@@ -13548,7 +13465,7 @@ entry(
 )
 
 entry(
-    index = 635,
+    index = 616,
     label = "Cds-CddCbCs",
     group = 
 """
@@ -13566,7 +13483,7 @@ entry(
 )
 
 entry(
-    index = 636,
+    index = 617,
     label = "Cds-(Cdd-O2d)CbCs",
     group = 
 """
@@ -13585,7 +13502,7 @@ entry(
 )
 
 entry(
-    index = 637,
+    index = 618,
     label = "Cds-(Cdd-S2d)CbCs",
     group = 
 """
@@ -13604,7 +13521,7 @@ entry(
 )
 
 entry(
-    index = 638,
+    index = 619,
     label = "Cds-(Cdd-Cd)CbCs",
     group = 
 """
@@ -13623,7 +13540,7 @@ entry(
 )
 
 entry(
-    index = 639,
+    index = 620,
     label = "Cds-CddCbCds",
     group = 
 """
@@ -13641,7 +13558,7 @@ entry(
 )
 
 entry(
-    index = 640,
+    index = 621,
     label = "Cds-(Cdd-O2d)(Cds-O2d)Cb",
     group = 
 """
@@ -13661,7 +13578,7 @@ entry(
 )
 
 entry(
-    index = 641,
+    index = 622,
     label = "Cds-(Cdd-O2d)(Cds-Cd)Cb",
     group = 
 """
@@ -13681,7 +13598,7 @@ entry(
 )
 
 entry(
-    index = 642,
+    index = 623,
     label = "Cds-(Cdd-O2d)(Cds-Cds)Cb",
     group = 
 """
@@ -13701,7 +13618,7 @@ entry(
 )
 
 entry(
-    index = 643,
+    index = 624,
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Cb",
     group = 
 """
@@ -13721,7 +13638,7 @@ entry(
 )
 
 entry(
-    index = 644,
+    index = 625,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -13742,7 +13659,7 @@ entry(
 )
 
 entry(
-    index = 645,
+    index = 626,
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -13763,7 +13680,7 @@ entry(
 )
 
 entry(
-    index = 646,
+    index = 627,
     label = "Cds-(Cdd-S2d)(Cds-Cd)Cb",
     group = 
 """
@@ -13783,7 +13700,7 @@ entry(
 )
 
 entry(
-    index = 647,
+    index = 628,
     label = "Cds-(Cdd-S2d)(Cds-Cds)Cb",
     group = 
 """
@@ -13803,7 +13720,7 @@ entry(
 )
 
 entry(
-    index = 648,
+    index = 629,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Cb",
     group = 
 """
@@ -13823,7 +13740,7 @@ entry(
 )
 
 entry(
-    index = 649,
+    index = 630,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -13844,7 +13761,7 @@ entry(
 )
 
 entry(
-    index = 650,
+    index = 631,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -13865,7 +13782,7 @@ entry(
 )
 
 entry(
-    index = 651,
+    index = 632,
     label = "Cds-(Cdd-Cd)(Cds-Cd)Cb",
     group = 
 """
@@ -13885,7 +13802,7 @@ entry(
 )
 
 entry(
-    index = 652,
+    index = 633,
     label = "Cds-(Cdd-Cd)(Cds-Cds)Cb",
     group = 
 """
@@ -13905,7 +13822,7 @@ entry(
 )
 
 entry(
-    index = 653,
+    index = 634,
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Cb",
     group = 
 """
@@ -13925,7 +13842,7 @@ entry(
 )
 
 entry(
-    index = 654,
+    index = 635,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -13946,7 +13863,7 @@ entry(
 )
 
 entry(
-    index = 655,
+    index = 636,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -13967,7 +13884,7 @@ entry(
 )
 
 entry(
-    index = 656,
+    index = 637,
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -13988,7 +13905,7 @@ entry(
 )
 
 entry(
-    index = 657,
+    index = 638,
     label = "Cds-CddCbCt",
     group = 
 """
@@ -14006,7 +13923,7 @@ entry(
 )
 
 entry(
-    index = 658,
+    index = 639,
     label = "Cds-(Cdd-O2d)CbCt",
     group = 
 """
@@ -14025,7 +13942,7 @@ entry(
 )
 
 entry(
-    index = 659,
+    index = 640,
     label = "Cds-(Cdd-S2d)CbCt",
     group = 
 """
@@ -14044,7 +13961,7 @@ entry(
 )
 
 entry(
-    index = 660,
+    index = 641,
     label = "Cds-(Cdd-Cd)CbCt",
     group = 
 """
@@ -14063,7 +13980,7 @@ entry(
 )
 
 entry(
-    index = 661,
+    index = 642,
     label = "Cds-CddCbCb",
     group = 
 """
@@ -14081,7 +13998,7 @@ entry(
 )
 
 entry(
-    index = 662,
+    index = 643,
     label = "Cds-(Cdd-O2d)CbCb",
     group = 
 """
@@ -14100,7 +14017,7 @@ entry(
 )
 
 entry(
-    index = 663,
+    index = 644,
     label = "Cds-(Cdd-S2d)CbCb",
     group = 
 """
@@ -14119,7 +14036,7 @@ entry(
 )
 
 entry(
-    index = 664,
+    index = 645,
     label = "Cds-(Cdd-Cd)CbCb",
     group = 
 """
@@ -14138,7 +14055,7 @@ entry(
 )
 
 entry(
-    index = 665,
+    index = 646,
     label = "Cds-CdsC=SC=S",
     group = 
 """
@@ -14158,7 +14075,7 @@ entry(
 )
 
 entry(
-    index = 666,
+    index = 647,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cd)",
     group = 
 """
@@ -14179,7 +14096,7 @@ entry(
 )
 
 entry(
-    index = 667,
+    index = 648,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cds)",
     group = 
 """
@@ -14200,7 +14117,7 @@ entry(
 )
 
 entry(
-    index = 668,
+    index = 649,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd)",
     group = 
 """
@@ -14221,7 +14138,7 @@ entry(
 )
 
 entry(
-    index = 669,
+    index = 650,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd-Cd)",
     group = 
 """
@@ -14243,7 +14160,7 @@ entry(
 )
 
 entry(
-    index = 670,
+    index = 651,
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd-S2d)",
     group = 
 """
@@ -14265,7 +14182,7 @@ entry(
 )
 
 entry(
-    index = 671,
+    index = 652,
     label = "Cds-(Cdd-S2d)C=SCs",
     group = 
 """
@@ -14285,7 +14202,7 @@ entry(
 )
 
 entry(
-    index = 672,
+    index = 653,
     label = "Cds-(Cdd-S2d)C=SCt",
     group = 
 """
@@ -14305,7 +14222,7 @@ entry(
 )
 
 entry(
-    index = 673,
+    index = 654,
     label = "Cds-(Cdd-S2d)C=SCb",
     group = 
 """
@@ -14325,7 +14242,7 @@ entry(
 )
 
 entry(
-    index = 674,
+    index = 655,
     label = "Cds-(Cdd-Cd)C=SC=S",
     group = 
 """
@@ -14346,7 +14263,7 @@ entry(
 )
 
 entry(
-    index = 675,
+    index = 656,
     label = "Cds-(Cdd-S2d)(Cds-Cd)C=S",
     group = 
 """
@@ -14367,7 +14284,7 @@ entry(
 )
 
 entry(
-    index = 676,
+    index = 657,
     label = "Cds-(Cdd-S2d)(Cds-Cds)C=S",
     group = 
 """
@@ -14388,7 +14305,7 @@ entry(
 )
 
 entry(
-    index = 677,
+    index = 658,
     label = "Cds-(Cdd-S2d)(Cds-Cdd)C=S",
     group = 
 """
@@ -14409,7 +14326,7 @@ entry(
 )
 
 entry(
-    index = 678,
+    index = 659,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)C=S",
     group = 
 """
@@ -14431,7 +14348,7 @@ entry(
 )
 
 entry(
-    index = 679,
+    index = 660,
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)C=S",
     group = 
 """
@@ -14453,7 +14370,7 @@ entry(
 )
 
 entry(
-    index = 680,
+    index = 661,
     label = "Cds-CdsCbC=S",
     group = 
 """
@@ -14472,7 +14389,7 @@ entry(
 )
 
 entry(
-    index = 681,
+    index = 662,
     label = "Cds-CdsCtC=S",
     group = 
 """
@@ -14491,7 +14408,7 @@ entry(
 )
 
 entry(
-    index = 682,
+    index = 663,
     label = "Cds-CdsC=SCs",
     group = 
 """
@@ -14515,7 +14432,7 @@ entry(
 )
 
 entry(
-    index = 683,
+    index = 664,
     label = "Cds-CdsC=S(Cds-Cd)",
     group = 
 """
@@ -14535,7 +14452,7 @@ entry(
 )
 
 entry(
-    index = 684,
+    index = 665,
     label = "Cds-CdsC=S(Cds-Cds)",
     group = 
 """
@@ -14555,7 +14472,7 @@ entry(
 )
 
 entry(
-    index = 685,
+    index = 666,
     label = "Cds-CdsC=S(Cds-Cdd)",
     group = 
 """
@@ -14575,7 +14492,7 @@ entry(
 )
 
 entry(
-    index = 686,
+    index = 667,
     label = "Cds-CdsC=S(Cds-Cdd-Cd)",
     group = 
 """
@@ -14596,7 +14513,7 @@ entry(
 )
 
 entry(
-    index = 687,
+    index = 668,
     label = "Cds-CdsC=S(Cds-Cdd-S2d)",
     group = 
 """
@@ -14617,7 +14534,7 @@ entry(
 )
 
 entry(
-    index = 688,
+    index = 669,
     label = "Cds-(Cdd-S2d)C=SC=S",
     group = 
 """
@@ -14638,7 +14555,7 @@ entry(
 )
 
 entry(
-    index = 689,
+    index = 670,
     label = "C=S-SsSs",
     group = 
 """
@@ -14656,7 +14573,7 @@ entry(
 )
 
 entry(
-    index = 690,
+    index = 671,
     label = "C=S-CH",
     group = 
 """
@@ -14674,7 +14591,7 @@ entry(
 )
 
 entry(
-    index = 691,
+    index = 672,
     label = "C=S-CsH",
     group = 
 """
@@ -14692,7 +14609,7 @@ entry(
 )
 
 entry(
-    index = 692,
+    index = 673,
     label = "C=S2-CsH",
     group = 
 """
@@ -14715,7 +14632,7 @@ entry(
 )
 
 entry(
-    index = 693,
+    index = 674,
     label = "C=S4-CsH",
     group = 
 """
@@ -14738,7 +14655,7 @@ entry(
 )
 
 entry(
-    index = 694,
+    index = 675,
     label = "C=S-CdsH",
     group = 
 """
@@ -14761,7 +14678,7 @@ entry(
 )
 
 entry(
-    index = 695,
+    index = 676,
     label = "C=S-(Cds-Cd)H",
     group = 
 """
@@ -14780,7 +14697,7 @@ entry(
 )
 
 entry(
-    index = 696,
+    index = 677,
     label = "C=S-(Cds-Cdd)H",
     group = 
 """
@@ -14799,7 +14716,7 @@ entry(
 )
 
 entry(
-    index = 697,
+    index = 678,
     label = "C=S-(Cds-Cdd-Cd)H",
     group = 
 """
@@ -14819,7 +14736,7 @@ entry(
 )
 
 entry(
-    index = 698,
+    index = 679,
     label = "C=S-(Cds-Cdd-S2d)H",
     group = 
 """
@@ -14839,7 +14756,7 @@ entry(
 )
 
 entry(
-    index = 699,
+    index = 680,
     label = "C=S-(Cds-Cds)H",
     group = 
 """
@@ -14858,7 +14775,7 @@ entry(
 )
 
 entry(
-    index = 700,
+    index = 681,
     label = "C=S-CtH",
     group = 
 """
@@ -14881,7 +14798,7 @@ entry(
 )
 
 entry(
-    index = 701,
+    index = 682,
     label = "C=S-C=SH",
     group = 
 """
@@ -14905,7 +14822,7 @@ entry(
 )
 
 entry(
-    index = 702,
+    index = 683,
     label = "C=S-CC",
     group = 
 """
@@ -14923,7 +14840,7 @@ entry(
 )
 
 entry(
-    index = 703,
+    index = 684,
     label = "C=S-CbCds",
     group = 
 """
@@ -14941,7 +14858,7 @@ entry(
 )
 
 entry(
-    index = 704,
+    index = 685,
     label = "C=S-Cb(Cds-Cd)",
     group = 
 """
@@ -14960,7 +14877,7 @@ entry(
 )
 
 entry(
-    index = 705,
+    index = 686,
     label = "C=S-Cb(Cds-Cds)",
     group = 
 """
@@ -14979,7 +14896,7 @@ entry(
 )
 
 entry(
-    index = 706,
+    index = 687,
     label = "C=S-Cb(Cds-Cdd)",
     group = 
 """
@@ -14998,7 +14915,7 @@ entry(
 )
 
 entry(
-    index = 707,
+    index = 688,
     label = "C=S-Cb(Cds-Cdd-S2d)",
     group = 
 """
@@ -15018,7 +14935,7 @@ entry(
 )
 
 entry(
-    index = 708,
+    index = 689,
     label = "C=S-Cb(Cds-Cdd-Cd)",
     group = 
 """
@@ -15038,7 +14955,7 @@ entry(
 )
 
 entry(
-    index = 709,
+    index = 690,
     label = "C=S-CtCt",
     group = 
 """
@@ -15056,7 +14973,7 @@ entry(
 )
 
 entry(
-    index = 710,
+    index = 691,
     label = "C=S-CbCb",
     group = 
 """
@@ -15074,7 +14991,7 @@ entry(
 )
 
 entry(
-    index = 711,
+    index = 692,
     label = "C=S-CdsCds",
     group = 
 """
@@ -15092,7 +15009,7 @@ entry(
 )
 
 entry(
-    index = 712,
+    index = 693,
     label = "C=S-(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -15112,7 +15029,7 @@ entry(
 )
 
 entry(
-    index = 713,
+    index = 694,
     label = "C=S-(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -15132,7 +15049,7 @@ entry(
 )
 
 entry(
-    index = 714,
+    index = 695,
     label = "C=S-(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -15153,7 +15070,7 @@ entry(
 )
 
 entry(
-    index = 715,
+    index = 696,
     label = "C=S-(Cds-Cdd-S2d)(Cds-Cds)",
     group = 
 """
@@ -15174,7 +15091,7 @@ entry(
 )
 
 entry(
-    index = 716,
+    index = 697,
     label = "C=S-(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -15194,7 +15111,7 @@ entry(
 )
 
 entry(
-    index = 717,
+    index = 698,
     label = "C=S-(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -15214,7 +15131,7 @@ entry(
 )
 
 entry(
-    index = 718,
+    index = 699,
     label = "C=S-(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -15236,7 +15153,7 @@ entry(
 )
 
 entry(
-    index = 719,
+    index = 700,
     label = "C=S-(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -15258,7 +15175,7 @@ entry(
 )
 
 entry(
-    index = 720,
+    index = 701,
     label = "C=S-(Cds-Cdd-Cd)(Cds-Cdd-S2d)",
     group = 
 """
@@ -15280,7 +15197,7 @@ entry(
 )
 
 entry(
-    index = 721,
+    index = 702,
     label = "C=S-CtCds",
     group = 
 """
@@ -15298,7 +15215,7 @@ entry(
 )
 
 entry(
-    index = 722,
+    index = 703,
     label = "C=S-Ct(Cds-Cd)",
     group = 
 """
@@ -15317,7 +15234,7 @@ entry(
 )
 
 entry(
-    index = 723,
+    index = 704,
     label = "C=S-Ct(Cds-Cds)",
     group = 
 """
@@ -15336,7 +15253,7 @@ entry(
 )
 
 entry(
-    index = 724,
+    index = 705,
     label = "C=S-Ct(Cds-Cdd)",
     group = 
 """
@@ -15355,7 +15272,7 @@ entry(
 )
 
 entry(
-    index = 725,
+    index = 706,
     label = "C=S-Ct(Cds-Cdd-Cd)",
     group = 
 """
@@ -15375,7 +15292,7 @@ entry(
 )
 
 entry(
-    index = 726,
+    index = 707,
     label = "C=S-Ct(Cds-Cdd-S2d)",
     group = 
 """
@@ -15395,7 +15312,7 @@ entry(
 )
 
 entry(
-    index = 727,
+    index = 708,
     label = "C=S-CbCt",
     group = 
 """
@@ -15413,7 +15330,7 @@ entry(
 )
 
 entry(
-    index = 728,
+    index = 709,
     label = "C=S-CsCs",
     group = 
 """
@@ -15436,7 +15353,7 @@ entry(
 )
 
 entry(
-    index = 729,
+    index = 710,
     label = "C=S-CdsCs",
     group = 
 """
@@ -15459,7 +15376,7 @@ entry(
 )
 
 entry(
-    index = 730,
+    index = 711,
     label = "C=S-(Cds-Cd)Cs",
     group = 
 """
@@ -15478,7 +15395,7 @@ entry(
 )
 
 entry(
-    index = 731,
+    index = 712,
     label = "C=S-(Cds-Cds)Cs",
     group = 
 """
@@ -15497,7 +15414,7 @@ entry(
 )
 
 entry(
-    index = 732,
+    index = 713,
     label = "C=S-(Cds-Cdd)Cs",
     group = 
 """
@@ -15516,7 +15433,7 @@ entry(
 )
 
 entry(
-    index = 733,
+    index = 714,
     label = "C=S-(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -15536,7 +15453,7 @@ entry(
 )
 
 entry(
-    index = 734,
+    index = 715,
     label = "C=S-(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -15556,7 +15473,7 @@ entry(
 )
 
 entry(
-    index = 735,
+    index = 716,
     label = "C=S-CtCs",
     group = 
 """
@@ -15579,7 +15496,7 @@ entry(
 )
 
 entry(
-    index = 736,
+    index = 717,
     label = "C=S-CbCs",
     group = 
 """
@@ -15602,7 +15519,7 @@ entry(
 )
 
 entry(
-    index = 737,
+    index = 718,
     label = "C=S-C=SCs",
     group = 
 """
@@ -15626,7 +15543,7 @@ entry(
 )
 
 entry(
-    index = 738,
+    index = 719,
     label = "C=S-CtC=S",
     group = 
 """
@@ -15645,7 +15562,7 @@ entry(
 )
 
 entry(
-    index = 739,
+    index = 720,
     label = "C=S-(Cds-Cd)C=S",
     group = 
 """
@@ -15664,7 +15581,7 @@ entry(
 )
 
 entry(
-    index = 740,
+    index = 721,
     label = "C=S-(Cds-Cdd)C=S",
     group = 
 """
@@ -15684,7 +15601,7 @@ entry(
 )
 
 entry(
-    index = 741,
+    index = 722,
     label = "C=S-(Cds-Cdd-Cd)C=S",
     group = 
 """
@@ -15705,7 +15622,7 @@ entry(
 )
 
 entry(
-    index = 742,
+    index = 723,
     label = "C=S-(Cds-Cdd-S2d)C=S",
     group = 
 """
@@ -15726,7 +15643,7 @@ entry(
 )
 
 entry(
-    index = 743,
+    index = 724,
     label = "C=S-(Cds-Cds)C=S",
     group = 
 """
@@ -15746,7 +15663,7 @@ entry(
 )
 
 entry(
-    index = 744,
+    index = 725,
     label = "C=S-C=SC=S",
     group = 
 """
@@ -15766,7 +15683,7 @@ entry(
 )
 
 entry(
-    index = 745,
+    index = 726,
     label = "C=S-CbC=S",
     group = 
 """
@@ -15785,7 +15702,7 @@ entry(
 )
 
 entry(
-    index = 746,
+    index = 727,
     label = "C=S-HH",
     group = 
 """
@@ -15803,7 +15720,7 @@ entry(
 )
 
 entry(
-    index = 747,
+    index = 728,
     label = "C=S2d-HH",
     group = 
 """
@@ -15826,7 +15743,7 @@ entry(
 )
 
 entry(
-    index = 748,
+    index = 729,
     label = "C=S4d-HH",
     group = 
 """
@@ -15849,7 +15766,7 @@ entry(
 )
 
 entry(
-    index = 749,
+    index = 730,
     label = "C=S6dd-HH",
     group = 
 """
@@ -15872,7 +15789,7 @@ entry(
 )
 
 entry(
-    index = 750,
+    index = 731,
     label = "C=S6ddd-HH",
     group = 
 """
@@ -15895,7 +15812,7 @@ entry(
 )
 
 entry(
-    index = 751,
+    index = 732,
     label = "C=S-SH",
     group = 
 """
@@ -15913,7 +15830,7 @@ entry(
 )
 
 entry(
-    index = 752,
+    index = 733,
     label = "C=S-S2H",
     group = 
 """
@@ -15936,7 +15853,7 @@ entry(
 )
 
 entry(
-    index = 753,
+    index = 734,
     label = "C=S-S4H",
     group = 
 """
@@ -15959,7 +15876,7 @@ entry(
 )
 
 entry(
-    index = 754,
+    index = 735,
     label = "C=S-S6H",
     group = 
 """
@@ -15982,7 +15899,7 @@ entry(
 )
 
 entry(
-    index = 755,
+    index = 736,
     label = "C=S6-S2H",
     group = 
 """
@@ -16005,7 +15922,7 @@ entry(
 )
 
 entry(
-    index = 756,
+    index = 737,
     label = "C=S-CSs",
     group = 
 """
@@ -16023,7 +15940,7 @@ entry(
 )
 
 entry(
-    index = 757,
+    index = 738,
     label = "C=S-CbSs",
     group = 
 """
@@ -16041,7 +15958,7 @@ entry(
 )
 
 entry(
-    index = 758,
+    index = 739,
     label = "C=S-CdsSs",
     group = 
 """
@@ -16059,7 +15976,7 @@ entry(
 )
 
 entry(
-    index = 759,
+    index = 740,
     label = "C=S-(Cds-Cd)S2s",
     group = 
 """
@@ -16078,7 +15995,7 @@ entry(
 )
 
 entry(
-    index = 760,
+    index = 741,
     label = "C=S-(Cds-Cds)S2s",
     group = 
 """
@@ -16097,7 +16014,7 @@ entry(
 )
 
 entry(
-    index = 761,
+    index = 742,
     label = "C=S-(Cds-Cdd)S2s",
     group = 
 """
@@ -16116,7 +16033,7 @@ entry(
 )
 
 entry(
-    index = 762,
+    index = 743,
     label = "C=S-(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -16136,7 +16053,7 @@ entry(
 )
 
 entry(
-    index = 763,
+    index = 744,
     label = "C=S-(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -16156,7 +16073,7 @@ entry(
 )
 
 entry(
-    index = 764,
+    index = 745,
     label = "C=S-S(CO)",
     group = 
 """
@@ -16179,7 +16096,7 @@ entry(
 )
 
 entry(
-    index = 765,
+    index = 746,
     label = "C=S-CtSs",
     group = 
 """
@@ -16197,7 +16114,7 @@ entry(
 )
 
 entry(
-    index = 766,
+    index = 747,
     label = "C=S-CsSs",
     group = 
 """
@@ -16220,7 +16137,7 @@ entry(
 )
 
 entry(
-    index = 767,
+    index = 748,
     label = "C=S-C=SSs",
     group = 
 """
@@ -16239,7 +16156,7 @@ entry(
 )
 
 entry(
-    index = 768,
+    index = 749,
     label = "Cds-CdIH",
     group = 
 """
@@ -16263,7 +16180,7 @@ Cpdata at 1500K was not in the book, Cpdata at 1500K = Cpdata at 1000K + 0.7
 )
 
 entry(
-    index = 769,
+    index = 750,
     label = "C=S-OsH",
     group = 
 """
@@ -16281,7 +16198,7 @@ entry(
 )
 
 entry(
-    index = 770,
+    index = 751,
     label = "C=S2-OsH",
     group = 
 """
@@ -16304,7 +16221,7 @@ entry(
 )
 
 entry(
-    index = 771,
+    index = 752,
     label = "C=S4-OsH",
     group = 
 """
@@ -16327,7 +16244,7 @@ entry(
 )
 
 entry(
-    index = 772,
+    index = 753,
     label = "C=S-CsOs",
     group = 
 """
@@ -16350,7 +16267,7 @@ entry(
 )
 
 entry(
-    index = 773,
+    index = 754,
     label = "C=S-OsOs",
     group = 
 """
@@ -16373,7 +16290,7 @@ entry(
 )
 
 entry(
-    index = 774,
+    index = 755,
     label = "C=S-OsS",
     group = 
 """
@@ -16396,7 +16313,7 @@ entry(
 )
 
 entry(
-    index = 775,
+    index = 756,
     label = "Cd-HHN",
     group = 
 """
@@ -16422,7 +16339,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 776,
+    index = 757,
     label = "Cd-N3dHH",
     group = 
 """
@@ -16448,7 +16365,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 777,
+    index = 758,
     label = "CO-HNO",
     group = 
 """
@@ -16473,7 +16390,7 @@ CHON_G4 |         13
 )
 
 entry(
-    index = 778,
+    index = 759,
     label = "Cds-OdN3sH",
     group = 
 """
@@ -16499,7 +16416,7 @@ CHON    |         1
 )
 
 entry(
-    index = 779,
+    index = 760,
     label = "CO-CNO",
     group = 
 """
@@ -16525,7 +16442,7 @@ CHON    |         1
 )
 
 entry(
-    index = 780,
+    index = 761,
     label = "Cds-OdN3sCs",
     group = 
 """
@@ -16552,7 +16469,7 @@ CHON     |         1
 )
 
 entry(
-    index = 781,
+    index = 762,
     label = "Cd-HNN",
     group = 
 """
@@ -16577,7 +16494,7 @@ CHON_G4 |         75
 )
 
 entry(
-    index = 782,
+    index = 763,
     label = "Cd-NNN",
     group = 
 """
@@ -16603,7 +16520,7 @@ BurcatNS |         2
 )
 
 entry(
-    index = 783,
+    index = 764,
     label = "CO-NNOd",
     group = 
 """
@@ -16628,7 +16545,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 784,
+    index = 765,
     label = "CO-N3sN3sOd",
     group = 
 """
@@ -16653,7 +16570,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 785,
+    index = 766,
     label = "CO-NN3dOd",
     group = 
 """
@@ -16678,7 +16595,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 786,
+    index = 767,
     label = "CO-NOO",
     group = 
 """
@@ -16704,7 +16621,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 787,
+    index = 768,
     label = "Cd-HNO",
     group = 
 """
@@ -16729,7 +16646,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 788,
+    index = 769,
     label = "Cd-HN3dO",
     group = 
 """
@@ -16754,7 +16671,7 @@ CHON_G4 |         22
 )
 
 entry(
-    index = 789,
+    index = 770,
     label = "Cd-HNdOH",
     group = 
 """
@@ -16780,7 +16697,7 @@ CHON_G4 |         16
 )
 
 entry(
-    index = 790,
+    index = 771,
     label = "Cd-NNO",
     group = 
 """
@@ -16805,7 +16722,7 @@ CHON_G4 |         12
 )
 
 entry(
-    index = 791,
+    index = 772,
     label = "Cd-OONd",
     group = 
 """
@@ -16830,7 +16747,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 792,
+    index = 773,
     label = "Cd-OON3d",
     group = 
 """
@@ -16855,7 +16772,7 @@ CHON_G4 |         5
 )
 
 entry(
-    index = 793,
+    index = 774,
     label = "Cd-CHN",
     group = 
 """
@@ -16880,7 +16797,7 @@ CHON_G4 |         10
 )
 
 entry(
-    index = 794,
+    index = 775,
     label = "Cd-HN(CO)",
     group = 
 """
@@ -16906,7 +16823,7 @@ CHON_G4 |         6
 )
 
 entry(
-    index = 795,
+    index = 776,
     label = "Cd-N3dCsH",
     group = 
 """
@@ -16931,7 +16848,7 @@ CHON_G4 |         48
 )
 
 entry(
-    index = 796,
+    index = 777,
     label = "Cd-N3dCdH",
     group = 
 """
@@ -16956,7 +16873,7 @@ CHON_G4 |         15
 )
 
 entry(
-    index = 797,
+    index = 778,
     label = "Cd-N5dcCH",
     group = 
 """
@@ -16981,7 +16898,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 798,
+    index = 779,
     label = "Cd-CNNd",
     group = 
 """
@@ -17006,7 +16923,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 799,
+    index = 780,
     label = "Cd-CsNNd",
     group = 
 """
@@ -17031,7 +16948,7 @@ CHON_G4 |         14
 )
 
 entry(
-    index = 800,
+    index = 781,
     label = "Cd-CdNNd",
     group = 
 """
@@ -17056,7 +16973,7 @@ CHON_G4 |         2
 )
 
 entry(
-    index = 801,
+    index = 782,
     label = "Cd-NNCd",
     group = 
 """
@@ -17081,7 +16998,7 @@ CHON_G4 |         10
 )
 
 entry(
-    index = 802,
+    index = 783,
     label = "Cd-NNCdd",
     group = 
 """
@@ -17106,7 +17023,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 803,
+    index = 784,
     label = "Cd-NN(CddOd)",
     group = 
 """
@@ -17132,7 +17049,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 804,
+    index = 785,
     label = "Cd-CNO",
     group = 
 """
@@ -17157,7 +17074,7 @@ CHON_G4 |         13
 )
 
 entry(
-    index = 805,
+    index = 786,
     label = "Cd-CCN",
     group = 
 """
@@ -17182,7 +17099,7 @@ CHON_G4 |         4
 )
 
 entry(
-    index = 806,
+    index = 787,
     label = "Cd-N3dCsCs",
     group = 
 """
@@ -17207,7 +17124,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 807,
+    index = 788,
     label = "Cds-CNH",
     group = 
 """
@@ -17234,7 +17151,7 @@ NitrogenCurran |         1
 )
 
 entry(
-    index = 808,
+    index = 789,
     label = "Cd-CddNH",
     group = 
 """
@@ -17259,7 +17176,7 @@ CHON_G4 |         19
 )
 
 entry(
-    index = 809,
+    index = 790,
     label = "Cd-(CddOd)NH",
     group = 
 """
@@ -17285,7 +17202,7 @@ CHON_G4 |         6
 )
 
 entry(
-    index = 810,
+    index = 791,
     label = "Cd-CdHN3s",
     group = 
 """
@@ -17312,7 +17229,7 @@ CHON_G4 |         49
 )
 
 entry(
-    index = 811,
+    index = 792,
     label = "Cd-CdHN1s",
     group = 
 """
@@ -17339,7 +17256,7 @@ NOx2018 |         1
 )
 
 entry(
-    index = 812,
+    index = 793,
     label = "Cds-CCN",
     group = 
 """
@@ -17364,7 +17281,7 @@ CHON_G4 |         8
 )
 
 entry(
-    index = 813,
+    index = 794,
     label = "Cd-CdCsN3s",
     group = 
 """
@@ -17391,7 +17308,7 @@ CHON_G4 |         10
 )
 
 entry(
-    index = 814,
+    index = 795,
     label = "Cs",
     group = 
 """
@@ -17406,7 +17323,7 @@ entry(
 )
 
 entry(
-    index = 815,
+    index = 796,
     label = "CsBrBrBrBr",
     group = 
 """
@@ -17418,21 +17335,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([22.2,23.1653,23.8955,24.4568,25.1755,25.5076,25.5753],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (24.6832,'kcal/mol','+|-',2.95256),
-        S298 = (85.6413,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([22.2,23.1653,23.8955,24.4568,25.1755,25.5076,25.5753],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (24.6832,'kcal/mol','+|-',2.68696),
+        S298 = (80.7033,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         1
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 816,
+    index = 797,
     label = "CsBrBrBrCl",
     group = 
 """
@@ -17444,21 +17361,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.5643,23.1885,24.0245,24.435,24.881,25.2672,25.6222],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (12.7167,'kcal/mol','+|-',2.95256),
-        S298 = (85.5498,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([21.5643,23.1885,24.0245,24.435,24.881,25.2672,25.6222],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (12.7167,'kcal/mol','+|-',2.68696),
+        S298 = (83.3666,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 817,
+    index = 798,
     label = "CsBrBrClCl",
     group = 
 """
@@ -17470,21 +17387,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.3493,22.6417,23.4642,24.1032,24.9405,25.3519,25.5121],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (0.684689,'kcal/mol','+|-',2.95256),
-        S298 = (83.4994,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([21.3493,22.6417,23.4642,24.1032,24.9405,25.3519,25.5121],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (0.684689,'kcal/mol','+|-',2.68696),
+        S298 = (82.122,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 818,
+    index = 799,
     label = "CsBrClClCl",
     group = 
 """
@@ -17496,21 +17413,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.8351,22.4252,23.2785,23.9436,24.8249,25.2707,25.483],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-11.415,'kcal/mol','+|-',2.95256),
-        S298 = (79.8417,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([20.8351,22.4252,23.2785,23.9436,24.8249,25.2707,25.483],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-11.415,'kcal/mol','+|-',2.68696),
+        S298 = (77.6585,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 819,
+    index = 800,
     label = "CsClClClCl",
     group = 
 """
@@ -17522,21 +17439,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.2225,22.1656,23.0904,23.7842,24.7107,25.1888,25.4468],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-23.6447,'kcal/mol','+|-',2.95256),
-        S298 = (74.184,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([20.2225,22.1656,23.0904,23.7842,24.7107,25.1888,25.4468],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-23.6447,'kcal/mol','+|-',2.68696),
+        S298 = (69.246,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 820,
+    index = 801,
     label = "CsBrBrBrF",
     group = 
 """
@@ -17548,21 +17465,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.5813,21.9256,22.8586,23.5934,24.5831,25.1034,25.4039],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-30.6932,'kcal/mol','+|-',2.95256),
-        S298 = (82.8693,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([20.5813,21.9256,22.8586,23.5934,24.5831,25.1034,25.4039],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-30.6932,'kcal/mol','+|-',2.68696),
+        S298 = (80.6861,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 821,
+    index = 802,
     label = "CsBrBrClF",
     group = 
 """
@@ -17574,21 +17491,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.0652,21.6695,22.6414,23.41,24.4547,25.0156,25.371],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-43.4525,'kcal/mol','+|-',2.95256),
-        S298 = (82.1635,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([20.0652,21.6695,22.6414,23.41,24.4547,25.0156,25.371],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-43.4525,'kcal/mol','+|-',2.68696),
+        S298 = (82.1635,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         1
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 822,
+    index = 803,
     label = "CsBrClClF",
     group = 
 """
@@ -17600,21 +17517,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([19.4819,21.4138,22.4447,23.2423,24.3344,24.9305,25.3363],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-56.2348,'kcal/mol','+|-',2.95256),
-        S298 = (79.2811,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([19.4819,21.4138,22.4447,23.2423,24.3344,24.9305,25.3363],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-56.2348,'kcal/mol','+|-',2.68696),
+        S298 = (79.2811,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         1
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 823,
+    index = 804,
     label = "CsClClClF",
     group = 
 """
@@ -17626,21 +17543,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.8318,21.0799,22.248,23.0786,24.22,24.8486,25.2953],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-69.1504,'kcal/mol','+|-',2.95256),
-        S298 = (74.1839,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([18.8318,21.0799,22.248,23.0786,24.22,24.8486,25.2953],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-69.1504,'kcal/mol','+|-',2.68696),
+        S298 = (72.0008,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 824,
+    index = 805,
     label = "CsBrBrFF",
     group = 
 """
@@ -17652,21 +17569,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.6639,20.5895,21.7368,22.6455,23.9155,24.6395,25.2097],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-90.989,'kcal/mol','+|-',2.95256),
-        S298 = (77.9294,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([18.6639,20.5895,21.7368,22.6455,23.9155,24.6395,25.2097],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-90.989,'kcal/mol','+|-',2.68696),
+        S298 = (76.5519,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 825,
+    index = 806,
     label = "CsBrClFF",
     group = 
 """
@@ -17678,21 +17595,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.028,20.262,21.5329,22.4736,23.7937,24.553,25.1701],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-104.398,'kcal/mol','+|-',2.95256),
-        S298 = (76.397,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([18.028,20.262,21.5329,22.4736,23.7937,24.553,25.1701],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-104.398,'kcal/mol','+|-',2.68696),
+        S298 = (76.397,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         1
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 826,
+    index = 807,
     label = "CsClClFF",
     group = 
 """
@@ -17704,21 +17621,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.3593,19.8372,21.3215,22.305,23.6817,24.4741,25.1243],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-117.942,'kcal/mol','+|-',2.95256),
-        S298 = (72.0906,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([17.3593,19.8372,21.3215,22.305,23.6817,24.4741,25.1243],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-117.942,'kcal/mol','+|-',2.68696),
+        S298 = (70.7131,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 827,
+    index = 808,
     label = "CsBrFFF",
     group = 
 """
@@ -17730,21 +17647,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.5248,18.9875,20.5814,21.6768,23.2336,24.1601,24.9908],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-155.373,'kcal/mol','+|-',2.95256),
-        S298 = (71.2145,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([16.5248,18.9875,20.5814,21.6768,23.2336,24.1601,24.9908],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-155.373,'kcal/mol','+|-',2.68696),
+        S298 = (69.0313,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 828,
+    index = 809,
     label = "CsClFFF",
     group = 
 """
@@ -17756,21 +17673,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.8883,18.4822,20.2974,21.4942,23.1292,24.0935,24.9411],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-169.46,'kcal/mol','+|-',2.95256),
-        S298 = (68.2906,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([15.8883,18.4822,20.2974,21.4942,23.1292,24.0935,24.9411],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-169.46,'kcal/mol','+|-',2.68696),
+        S298 = (66.1075,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 829,
+    index = 810,
     label = "CsFFFF",
     group = 
 """
@@ -17782,21 +17699,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.5516,17.115,19.1533,20.6268,22.5802,23.7364,24.7585],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-223.07,'kcal/mol','+|-',2.95256),
-        S298 = (62.5103,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([14.5516,17.115,19.1533,20.6268,22.5802,23.7364,24.7585],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-223.07,'kcal/mol','+|-',2.68696),
+        S298 = (57.5723,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 830,
+    index = 811,
     label = "CsBrBrBrH",
     group = 
 """
@@ -17808,21 +17725,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.3414,18.8145,19.956,20.8998,22.2982,23.1982,24.2369],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (11.7505,'kcal/mol','+|-',2.95256),
-        S298 = (79.2433,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([17.3414,18.8145,19.956,20.8998,22.2982,23.1982,24.2369],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (11.7505,'kcal/mol','+|-',2.68696),
+        S298 = (77.0601,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         1
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 831,
+    index = 812,
     label = "CsBrBrClH",
     group = 
 """
@@ -17834,21 +17751,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.9025,18.5486,19.7307,20.7085,22.1589,23.0942,24.1796],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-0.0714357,'kcal/mol','+|-',2.95256),
-        S298 = (78.6122,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([16.9025,18.5486,19.7307,20.7085,22.1589,23.0942,24.1796],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-0.0714357,'kcal/mol','+|-',2.68696),
+        S298 = (78.6122,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 832,
+    index = 813,
     label = "CsBrClClH",
     group = 
 """
@@ -17860,21 +17777,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.4103,18.2942,19.5216,20.5204,22.0122,22.9858,24.1415],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-12.0198,'kcal/mol','+|-',2.95256),
-        S298 = (75.7978,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([16.4103,18.2942,19.5216,20.5204,22.0122,22.9858,24.1415],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-12.0198,'kcal/mol','+|-',2.68696),
+        S298 = (75.7978,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 833,
+    index = 814,
     label = "CsClClClH",
     group = 
 """
@@ -17886,21 +17803,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.8415,17.951,19.3099,20.338,21.8768,22.8853,24.0947],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-24.1628,'kcal/mol','+|-',2.95256),
-        S298 = (70.7634,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([15.8415,17.951,19.3099,20.338,21.8768,22.8853,24.0947],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-24.1628,'kcal/mol','+|-',2.68696),
+        S298 = (68.5802,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 834,
+    index = 815,
     label = "CsBrBrFH",
     group = 
 """
@@ -17912,21 +17829,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.764,17.5897,18.9005,19.9895,21.63,22.7153,24.0264],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-41.743,'kcal/mol','+|-',2.95256),
-        S298 = (75.8694,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([15.764,17.5897,18.9005,19.9895,21.63,22.7153,24.0264],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-41.743,'kcal/mol','+|-',2.68696),
+        S298 = (75.8694,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 835,
+    index = 816,
     label = "CsBrClFH",
     group = 
 """
@@ -17938,21 +17855,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.2097,17.2605,18.6731,19.7903,21.4797,22.6048,23.981],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-54.6156,'kcal/mol','+|-',2.95256),
-        S298 = (74.3988,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([15.2097,17.2605,18.6731,19.7903,21.4797,22.6048,23.981],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-54.6156,'kcal/mol','+|-',2.68696),
+        S298 = (75.7762,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         1
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 836,
+    index = 817,
     label = "CsClClFH",
     group = 
 """
@@ -17964,21 +17881,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.6377,16.8328,18.4205,19.5917,21.347,22.5116,23.9284],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-67.6634,'kcal/mol','+|-',2.95256),
-        S298 = (70.1509,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([14.6377,16.8328,18.4205,19.5917,21.347,22.5116,23.9284],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-67.6634,'kcal/mol','+|-',2.68696),
+        S298 = (70.1509,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 837,
+    index = 818,
     label = "CsBrFFH",
     group = 
 """
@@ -17990,21 +17907,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9378,16.071,17.7129,18.9804,20.9017,22.1953,23.7984],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-101.149,'kcal/mol','+|-',2.95256),
-        S298 = (70.1269,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([13.9378,16.071,17.7129,18.9804,20.9017,22.1953,23.7984],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-101.149,'kcal/mol','+|-',2.68696),
+        S298 = (70.1269,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 838,
+    index = 819,
     label = "CsClFFH",
     group = 
 """
@@ -18016,21 +17933,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.4197,15.5913,17.3673,18.7412,20.7724,22.1199,23.7446],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-115.092,'kcal/mol','+|-',2.95256),
-        S298 = (67.2325,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([13.4197,15.5913,17.3673,18.7412,20.7724,22.1199,23.7446],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-115.092,'kcal/mol','+|-',2.68696),
+        S298 = (67.2325,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 839,
+    index = 820,
     label = "CsFFFH",
     group = 
 """
@@ -18042,21 +17959,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.153,14.485,16.4416,17.9392,20.1419,21.6556,23.5768],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-166.457,'kcal/mol','+|-',2.95256),
-        S298 = (62.0138,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([12.153,14.485,16.4416,17.9392,20.1419,21.6556,23.5768],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-166.457,'kcal/mol','+|-',2.68696),
+        S298 = (59.8307,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 840,
+    index = 821,
     label = "CsBrBrHH",
     group = 
 """
@@ -18068,21 +17985,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.1955,15.0566,16.5168,17.7072,19.5902,20.9458,22.8923],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (1.10843,'kcal/mol','+|-',2.95256),
-        S298 = (70.1875,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([13.1955,15.0566,16.5168,17.7072,19.5902,20.9458,22.8923],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (1.10843,'kcal/mol','+|-',2.68696),
+        S298 = (68.8101,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         1
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 841,
+    index = 822,
     label = "CsBrClHH",
     group = 
 """
@@ -18094,21 +18011,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.7529,14.6412,16.1975,17.4575,19.4322,20.8422,22.839],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-10.4491,'kcal/mol','+|-',2.95256),
-        S298 = (68.7931,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([12.7529,14.6412,16.1975,17.4575,19.4322,20.8422,22.839],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-10.4491,'kcal/mol','+|-',2.68696),
+        S298 = (68.7931,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 842,
+    index = 823,
     label = "CsClClHH",
     group = 
 """
@@ -18120,21 +18037,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.3459,14.2143,15.8271,17.1717,19.2681,20.7457,22.7888],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-22.2439,'kcal/mol','+|-',2.95256),
-        S298 = (64.6134,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([12.3459,14.2143,15.8271,17.1717,19.2681,20.7457,22.7888],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-22.2439,'kcal/mol','+|-',2.68696),
+        S298 = (63.236,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 843,
+    index = 824,
     label = "CsBrFHH",
     group = 
 """
@@ -18146,21 +18063,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.7798,13.6441,15.278,16.6424,18.812,20.3959,22.6805],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-50.061,'kcal/mol','+|-',2.95256),
-        S298 = (66.038,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([11.7798,13.6441,15.278,16.6424,18.812,20.3959,22.6805],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-50.061,'kcal/mol','+|-',2.68696),
+        S298 = (66.038,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 844,
+    index = 825,
     label = "CsClFHH",
     group = 
 """
@@ -18172,21 +18089,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3221,13.2296,14.9546,16.3944,18.635,20.272,22.631],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-62.8507,'kcal/mol','+|-',2.95256),
-        S298 = (63.2032,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([11.3221,13.2296,14.9546,16.3944,18.635,20.272,22.631],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-62.8507,'kcal/mol','+|-',2.68696),
+        S298 = (63.2032,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 845,
+    index = 826,
     label = "CsFFHH",
     group = 
 """
@@ -18198,21 +18115,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.2798,12.0626,13.8553,15.4847,18.0137,19.822,22.4513],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (-107.857,'kcal/mol','+|-',2.95256),
-        S298 = (58.8814,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([10.2798,12.0626,13.8553,15.4847,18.0137,19.822,22.4513],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-107.857,'kcal/mol','+|-',2.68696),
+        S298 = (57.504,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 846,
+    index = 827,
     label = "CsBrHHH",
     group = 
 """
@@ -18222,16 +18139,23 @@ entry(
 4   H  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.1894,11.855,13.416,14.7962,17.0822,18.8397,21.6182],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-8.40784,'kcal/mol','+|-',2.68696),
+        S298 = (56.5576,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 847,
+    index = 828,
     label = "CsClHHH",
     group = 
 """
@@ -18241,16 +18165,23 @@ entry(
 4   H  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.83687,11.4168,13.0205,14.4951,16.8804,18.6969,21.5672],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-19.5024,'kcal/mol','+|-',2.68696),
+        S298 = (53.799,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 848,
+    index = 829,
     label = "CsFHHH",
     group = 
 """
@@ -18260,16 +18191,23 @@ entry(
 4   H  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.01515,10.407,12.0218,13.5815,16.1931,18.2209,21.4256],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-56.4324,'kcal/mol','+|-',2.68696),
+        S298 = (50.9749,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 849,
+    index = 830,
     label = "CsBrBrBrO",
     group = 
 """
@@ -18279,12 +18217,7 @@ entry(
 4   Br u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.3633,18.4532,19.2425,19.8333,20.7539,21.1785,21.3004],'cal/(mol*K)','+|-',[0.151432,0.17404,0.177912,0.175302,0.15201,0.131108,0.10685]),
-        H298 = (14.148,'kcal/mol','+|-',0.539843),
-        S298 = (57.2131,'cal/(mol*K)','+|-',0.367935),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -18297,7 +18230,7 @@ CHOClBr_G4 |         2
 )
 
 entry(
-    index = 850,
+    index = 831,
     label = "CsBrBrBrO_H",
     group = 
 """
@@ -18308,56 +18241,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.9415,19.2322,20.0553,20.6436,21.3312,21.574,21.3939],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (11.5569,'kcal/mol','+|-',2.68696),
+        S298 = (54.6089,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 851,
-    label = "CsBrBrBrO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   Br u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 852,
-    label = "CsBrBrBrO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   Br u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 853,
+    index = 832,
     label = "CsBrBrBrO_Br",
     group = 
 """
@@ -18368,16 +18268,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.5466,19.0977,20.1464,20.8004,21.4866,21.7759,21.5754],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (11.4229,'kcal/mol','+|-',2.69382),
+        S298 = (53.8633,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 854,
+    index = 833,
     label = "CsBrBrBrO_C",
     group = 
 """
@@ -18388,16 +18295,25 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.3107,18.3729,19.1485,19.7253,20.6969,21.2111,21.3549],'cal/(mol*K)','+|-',[0.165442,0.184912,0.186944,0.183865,0.160177,0.137663,0.117104]),
+        H298 = (14.3385,'kcal/mol','+|-',0.561958),
+        S298 = (55.3779,'cal/(mol*K)','+|-',0.485604),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         14
+library:CHOFBr_G4  |         8
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 855,
+    index = 834,
     label = "CsBrBrBrO_O",
     group = 
 """
@@ -18408,16 +18324,24 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.4692,18.7155,19.6086,20.2408,20.9499,20.9877,21.0464],'cal/(mol*K)','+|-',[0.358176,0.400329,0.404728,0.398063,0.346778,0.298037,0.253527]),
+        H298 = (14.28,'kcal/mol','+|-',1.21662),
+        S298 = (52.3713,'cal/(mol*K)','+|-',1.05132),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOBr_G4  |         4
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 856,
+    index = 835,
     label = "CsBrBrClO",
     group = 
 """
@@ -18427,12 +18351,7 @@ entry(
 4   Br u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.1996,18.3305,19.0709,19.6222,20.5007,20.9242,21.0633],'cal/(mol*K)','+|-',[0.20875,0.239916,0.245253,0.241655,0.209547,0.180733,0.147293]),
-        H298 = (1.59819,'kcal/mol','+|-',0.744177),
-        S298 = (54.98,'cal/(mol*K)','+|-',0.507201),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -18444,7 +18363,7 @@ CHOClBr_G4  |         14
 )
 
 entry(
-    index = 857,
+    index = 836,
     label = "CsBrBrClO_H",
     group = 
 """
@@ -18455,56 +18374,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.4823,18.8648,19.7815,20.4428,21.2264,21.5157,21.3466],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-0.879702,'kcal/mol','+|-',2.68696),
+        S298 = (56.2114,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 858,
-    label = "CsBrBrClO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   Cl u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 859,
-    label = "CsBrBrClO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   Cl u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 860,
+    index = 837,
     label = "CsBrBrClO_Br",
     group = 
 """
@@ -18515,16 +18401,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.0297,19.0806,20.294,20.8263,21.2561,21.5251,21.5958],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-0.76647,'kcal/mol','+|-',2.69382),
+        S298 = (54.5171,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 861,
+    index = 838,
     label = "CsBrBrClO_C",
     group = 
 """
@@ -18535,16 +18428,24 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.2547,18.2268,18.8908,19.4189,20.3654,20.8906,21.0677],'cal/(mol*K)','+|-',[0.241694,0.270139,0.273107,0.26861,0.234003,0.201113,0.171078]),
+        H298 = (1.53885,'kcal/mol','+|-',0.820967),
+        S298 = (54.4346,'cal/(mol*K)','+|-',0.709422),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         2
+library:CHOClBr_G4  |         9
 """,
 )
 
 entry(
-    index = 862,
+    index = 839,
     label = "CsBrBrClO_O",
     group = 
 """
@@ -18555,16 +18456,23 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.961,18.4115,19.3866,20.0337,20.7732,20.7836,20.8427],'cal/(mol*K)','+|-',[0.457858,0.511742,0.517365,0.508846,0.443287,0.380981,0.324085]),
+        H298 = (2.17643,'kcal/mol','+|-',1.55521),
+        S298 = (52.6707,'cal/(mol*K)','+|-',1.3439),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         3
 """,
 )
 
 entry(
-    index = 863,
+    index = 840,
     label = "CsBrClClO",
     group = 
 """
@@ -18574,12 +18482,7 @@ entry(
 4   Cl u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.7744,18.0576,18.8404,19.4251,20.3525,20.8157,21.0078],'cal/(mol*K)','+|-',[0.20875,0.239916,0.245253,0.241655,0.209547,0.180733,0.147293]),
-        H298 = (-10.6892,'kcal/mol','+|-',0.744177),
-        S298 = (52.4242,'cal/(mol*K)','+|-',0.507201),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -18591,7 +18494,7 @@ CHOClBr_G4  |         14
 )
 
 entry(
-    index = 864,
+    index = 841,
     label = "CsBrClClO_H",
     group = 
 """
@@ -18602,56 +18505,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.9724,18.6553,19.5843,20.2605,21.0792,21.4064,21.3158],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-13.4638,'kcal/mol','+|-',2.68696),
+        S298 = (52.5049,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 865,
-    label = "CsBrClClO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   Cl u0 {1,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 866,
-    label = "CsBrClClO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   Cl u0 {1,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 867,
+    index = 842,
     label = "CsBrClClO_Br",
     group = 
 """
@@ -18662,16 +18532,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.846,18.6184,19.75,20.4698,21.2545,21.6072,21.4736],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-12.9658,'kcal/mol','+|-',2.69382),
+        S298 = (50.1721,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 868,
+    index = 843,
     label = "CsBrClClO_C",
     group = 
 """
@@ -18682,16 +18559,24 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.8147,17.9494,18.6701,19.2275,20.2072,20.7693,21.0079],'cal/(mol*K)','+|-',[0.241694,0.270139,0.273107,0.26861,0.234003,0.201113,0.171078]),
+        H298 = (-10.7754,'kcal/mol','+|-',0.820967),
+        S298 = (52.1121,'cal/(mol*K)','+|-',0.709422),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         2
+library:CHOClBr_G4  |         9
 """,
 )
 
 entry(
-    index = 869,
+    index = 844,
     label = "CsBrClClO_O",
     group = 
 """
@@ -18702,16 +18587,23 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.5375,18.1971,19.2131,19.8637,20.6119,20.6592,20.8172],'cal/(mol*K)','+|-',[0.457858,0.511742,0.517365,0.508846,0.443287,0.380981,0.324085]),
+        H298 = (-9.94288,'kcal/mol','+|-',1.55521),
+        S298 = (50.2399,'cal/(mol*K)','+|-',1.3439),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         3
 """,
 )
 
 entry(
-    index = 870,
+    index = 845,
     label = "CsClClClO",
     group = 
 """
@@ -18721,12 +18613,7 @@ entry(
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.0862,17.8162,18.8603,19.5755,20.5155,20.9764,21.2635],'cal/(mol*K)','+|-',[0.120908,0.13896,0.142051,0.139967,0.12137,0.104681,0.0853123]),
-        H298 = (-22.6274,'kcal/mol','+|-',0.431028),
-        S298 = (48.4736,'cal/(mol*K)','+|-',0.293772),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -18739,7 +18626,7 @@ CHOClBr_G4 |         3
 )
 
 entry(
-    index = 871,
+    index = 846,
     label = "CsClClClO_H",
     group = 
 """
@@ -18750,36 +18637,23 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.231,18.3606,19.3697,20.0779,20.9465,21.3091,21.2709],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-26.1298,'kcal/mol','+|-',2.68696),
+        S298 = (46.0247,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 872,
-    label = "CsClClClO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   Cl u0 {1,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 873,
+    index = 847,
     label = "CsClClClO_Cl",
     group = 
 """
@@ -18790,16 +18664,23 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.0375,18.3208,19.6031,20.4296,21.3178,21.6959,21.5288],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-24.363,'kcal/mol','+|-',2.69773),
+        S298 = (45.8389,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 874,
+    index = 848,
     label = "CsClClClO_Br",
     group = 
 """
@@ -18810,16 +18691,23 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.108,18.1881,19.4281,20.2287,21.1094,21.4982,21.3585],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-25.154,'kcal/mol','+|-',2.69382),
+        S298 = (45.6467,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 875,
+    index = 849,
     label = "CsClClClO_C",
     group = 
 """
@@ -18830,16 +18718,25 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.1045,17.7861,18.805,19.4897,20.4605,21.018,21.2995],'cal/(mol*K)','+|-',[0.139482,0.155897,0.15761,0.155015,0.135043,0.116062,0.0987294]),
+        H298 = (-22.2503,'kcal/mol','+|-',0.473781),
+        S298 = (47.0584,'cal/(mol*K)','+|-',0.409408),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         31
+library:CHOFCl_G4  |         1
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 876,
+    index = 850,
     label = "CsClClClO_O",
     group = 
 """
@@ -18850,16 +18747,24 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.1327,17.9119,18.9855,19.7759,20.6885,20.8974,21.1619],'cal/(mol*K)','+|-',[0.252372,0.282074,0.285173,0.280477,0.244341,0.209998,0.178636]),
+        H298 = (-21.8914,'kcal/mol','+|-',0.857237),
+        S298 = (44.748,'cal/(mol*K)','+|-',0.740764),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         6
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 877,
+    index = 851,
     label = "CsBrBrFO",
     group = 
 """
@@ -18869,12 +18774,7 @@ entry(
 4   Br u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.5841,17.747,18.5454,19.1455,20.0919,20.5791,20.8904],'cal/(mol*K)','+|-',[0.167283,0.192258,0.196535,0.193652,0.167922,0.144831,0.118034]),
-        H298 = (-44.0282,'kcal/mol','+|-',0.596351),
-        S298 = (53.6812,'cal/(mol*K)','+|-',0.406449),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -18885,7 +18785,7 @@ CHOFBr_G4 |         25
 )
 
 entry(
-    index = 878,
+    index = 852,
     label = "CsBrBrFO_H",
     group = 
 """
@@ -18896,56 +18796,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.3194,17.7896,18.8591,19.6562,20.6644,21.1231,21.1881],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-47.3248,'kcal/mol','+|-',2.68696),
+        S298 = (53.4356,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 879,
-    label = "CsBrBrFO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   F  u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 880,
-    label = "CsBrBrFO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   F  u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 881,
+    index = 853,
     label = "CsBrBrFO_Br",
     group = 
 """
@@ -18956,16 +18823,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.3359,18.1917,19.3901,20.1629,21.0129,21.3949,21.283],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-46.4568,'kcal/mol','+|-',2.69382),
+        S298 = (53.7554,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 882,
+    index = 854,
     label = "CsBrBrFO_C",
     group = 
 """
@@ -18976,16 +18850,23 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.6091,17.6567,18.3784,18.9222,19.908,20.5181,20.8788],'cal/(mol*K)','+|-',[0.189289,0.211566,0.21389,0.210368,0.183265,0.157506,0.133984]),
+        H298 = (-44.0102,'kcal/mol','+|-',0.64296),
+        S298 = (54.0673,'cal/(mol*K)','+|-',0.555601),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         18
 """,
 )
 
 entry(
-    index = 883,
+    index = 855,
     label = "CsBrBrFO_O",
     group = 
 """
@@ -18996,16 +18877,23 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.4532,17.8749,18.8514,19.5445,20.3479,20.484,20.7374],'cal/(mol*K)','+|-',[0.358176,0.400329,0.404728,0.398063,0.346778,0.298037,0.253527]),
+        H298 = (-43.175,'kcal/mol','+|-',1.21662),
+        S298 = (50.9162,'cal/(mol*K)','+|-',1.05132),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         5
 """,
 )
 
 entry(
-    index = 884,
+    index = 856,
     label = "CsBrClFO",
     group = 
 """
@@ -19015,12 +18903,7 @@ entry(
 4   Cl u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.7639,17.1399,18.0433,18.7404,19.8482,20.4387,20.8633],'cal/(mol*K)','+|-',[0.222443,0.255652,0.261339,0.257505,0.223292,0.192587,0.156954]),
-        H298 = (-57.2202,'kcal/mol','+|-',0.792989),
-        S298 = (51.0703,'cal/(mol*K)','+|-',0.54047),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -19031,7 +18914,7 @@ CHOFClBr_G4 |         14
 )
 
 entry(
-    index = 885,
+    index = 857,
     label = "CsBrClFO_H",
     group = 
 """
@@ -19042,56 +18925,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.6688,17.4301,18.5788,19.4394,20.5363,21.0447,21.1443],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-60.5176,'kcal/mol','+|-',2.68696),
+        S298 = (53.3255,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 886,
-    label = "CsBrClFO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   F  u0 {1,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 887,
-    label = "CsBrClFO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   F  u0 {1,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 888,
+    index = 858,
     label = "CsBrClFO_Br",
     group = 
 """
@@ -19102,16 +18952,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.9477,17.9591,19.1694,19.9485,20.8283,21.2517,21.2288],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-58.923,'kcal/mol','+|-',2.69382),
+        S298 = (52.543,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 889,
+    index = 859,
     label = "CsBrClFO_C",
     group = 
 """
@@ -19122,16 +18979,23 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.7024,16.9388,17.7776,18.4281,19.5963,20.3299,20.8977],'cal/(mol*K)','+|-',[0.265871,0.297161,0.300426,0.295479,0.25741,0.22123,0.188191]),
+        H298 = (-57.337,'kcal/mol','+|-',0.903088),
+        S298 = (52.0528,'cal/(mol*K)','+|-',0.780385),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         9
 """,
 )
 
 entry(
-    index = 890,
+    index = 860,
     label = "CsBrClFO_O",
     group = 
 """
@@ -19142,16 +19006,23 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.9131,17.4653,18.4899,19.2569,20.2001,20.3407,20.5419],'cal/(mol*K)','+|-',[0.457858,0.511742,0.517365,0.508846,0.443287,0.380981,0.324085]),
+        H298 = (-55.9423,'kcal/mol','+|-',1.55521),
+        S298 = (49.6852,'cal/(mol*K)','+|-',1.3439),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         3
 """,
 )
 
 entry(
-    index = 891,
+    index = 861,
     label = "CsClClFO",
     group = 
 """
@@ -19161,12 +19032,7 @@ entry(
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.1762,16.9105,17.9699,18.7582,19.8987,20.4579,20.7724],'cal/(mol*K)','+|-',[0.214755,0.246817,0.252308,0.248606,0.215575,0.185932,0.15153]),
-        H298 = (-70.2117,'kcal/mol','+|-',0.765585),
-        S298 = (47.0964,'cal/(mol*K)','+|-',0.521792),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -19178,7 +19044,7 @@ CHOFClBr_G4 |         3
 )
 
 entry(
-    index = 892,
+    index = 862,
     label = "CsClClFO_H",
     group = 
 """
@@ -19189,36 +19055,23 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.9385,17.0965,18.3209,19.2266,20.3924,20.9471,21.0999],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-73.7874,'kcal/mol','+|-',2.68696),
+        S298 = (47.6908,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 893,
-    label = "CsClClFO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   F  u0 {1,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 894,
+    index = 863,
     label = "CsClClFO_Cl",
     group = 
 """
@@ -19229,16 +19082,23 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.1187,17.5842,18.9546,19.8386,20.8276,21.2885,21.263],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-71.0945,'kcal/mol','+|-',2.69773),
+        S298 = (47.3071,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 895,
+    index = 864,
     label = "CsClClFO_Br",
     group = 
 """
@@ -19249,16 +19109,23 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.2203,17.5137,18.822,19.6723,20.6421,21.1067,21.1031],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-72.0156,'kcal/mol','+|-',2.69382),
+        S298 = (48.4353,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 896,
+    index = 865,
     label = "CsClClFO_C",
     group = 
 """
@@ -19269,16 +19136,24 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.1808,16.5891,17.5401,18.2556,19.4362,20.1263,20.5987],'cal/(mol*K)','+|-',[0.281517,0.314648,0.318106,0.312868,0.272558,0.234249,0.199266]),
+        H298 = (-70.1915,'kcal/mol','+|-',0.956234),
+        S298 = (46.5714,'cal/(mol*K)','+|-',0.82631),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         7
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 897,
+    index = 866,
     label = "CsClClFO_O",
     group = 
 """
@@ -19289,16 +19164,24 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.1573,17.118,18.274,19.1298,20.1841,20.4161,20.6435],'cal/(mol*K)','+|-',[0.397843,0.444664,0.44955,0.442147,0.385182,0.331043,0.281604]),
+        H298 = (-68.4393,'kcal/mol','+|-',1.35136),
+        S298 = (45.0894,'cal/(mol*K)','+|-',1.16775),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         3
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 898,
+    index = 867,
     label = "CsBrFFO",
     group = 
 """
@@ -19308,12 +19191,7 @@ entry(
 4   F  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.6601,16.2223,17.2998,18.1427,19.3657,19.9912,20.5078],'cal/(mol*K)','+|-',[0.170802,0.196302,0.200669,0.197725,0.171454,0.147878,0.120517]),
-        H298 = (-106.939,'kcal/mol','+|-',0.608895),
-        S298 = (48.445,'cal/(mol*K)','+|-',0.414999),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -19324,7 +19202,7 @@ CHOFBr_G4 |         24
 )
 
 entry(
-    index = 899,
+    index = 868,
     label = "CsBrFFO_H",
     group = 
 """
@@ -19335,56 +19213,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.3298,16.4707,17.7565,18.7263,20.0084,20.6618,20.9789],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-110.997,'kcal/mol','+|-',2.68696),
+        S298 = (48.8676,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 900,
-    label = "CsBrFFO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   F  u0 {1,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 901,
-    label = "CsBrFFO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   F  u0 {1,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 902,
+    index = 869,
     label = "CsBrFFO_Br",
     group = 
 """
@@ -19395,16 +19240,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.2533,17.3719,18.5859,19.3778,20.2941,20.7657,20.8915],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-108.397,'kcal/mol','+|-',2.69382),
+        S298 = (46.2273,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 903,
+    index = 870,
     label = "CsBrFFO_C",
     group = 
 """
@@ -19415,16 +19267,23 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.6343,16.0787,17.0983,17.8979,19.1506,19.8918,20.4862],'cal/(mol*K)','+|-',[0.194947,0.21789,0.220284,0.216657,0.188743,0.162214,0.137989]),
+        H298 = (-107.264,'kcal/mol','+|-',0.662179),
+        S298 = (49.2168,'cal/(mol*K)','+|-',0.572209),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         17
 """,
 )
 
 entry(
-    index = 904,
+    index = 871,
     label = "CsBrFFO_O",
     group = 
 """
@@ -19435,16 +19294,23 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.552,16.3313,17.5732,18.5117,19.6752,19.9979,20.3537],'cal/(mol*K)','+|-',[0.358176,0.400329,0.404728,0.398063,0.346778,0.298037,0.253527]),
+        H298 = (-104.959,'kcal/mol','+|-',1.21662),
+        S298 = (44.7705,'cal/(mol*K)','+|-',1.05132),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         5
 """,
 )
 
 entry(
-    index = 905,
+    index = 872,
     label = "CsClFFO",
     group = 
 """
@@ -19454,12 +19320,7 @@ entry(
 4   F  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9139,15.8223,17.0385,17.9331,19.2329,19.9163,20.452],'cal/(mol*K)','+|-',[0.214755,0.246817,0.252308,0.248606,0.215575,0.185932,0.15153]),
-        H298 = (-120.15,'kcal/mol','+|-',0.765585),
-        S298 = (44.0898,'cal/(mol*K)','+|-',0.521792),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -19471,7 +19332,7 @@ CHOFClBr_G4 |         3
 )
 
 entry(
-    index = 906,
+    index = 873,
     label = "CsClFFO_H",
     group = 
 """
@@ -19482,36 +19343,23 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.5665,15.9799,17.4173,18.4553,19.8382,20.5551,20.9329],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-124.793,'kcal/mol','+|-',2.68696),
+        S298 = (44.6505,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 907,
-    label = "CsClFFO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   F  u0 {1,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 908,
+    index = 874,
     label = "CsClFFO_Cl",
     group = 
 """
@@ -19522,16 +19370,23 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.2958,16.588,18.0174,18.9851,20.1332,20.7365,20.9683],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-120.636,'kcal/mol','+|-',2.69773),
+        S298 = (44.4319,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 909,
+    index = 875,
     label = "CsClFFO_Br",
     group = 
 """
@@ -19542,16 +19397,23 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.5087,16.6441,17.9839,18.8854,19.9689,20.5514,20.7972],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-121.617,'kcal/mol','+|-',2.69382),
+        S298 = (44.1171,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 910,
+    index = 876,
     label = "CsClFFO_C",
     group = 
 """
@@ -19562,16 +19424,24 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.7901,15.4506,16.5667,17.4058,18.7627,19.5672,20.2168],'cal/(mol*K)','+|-',[0.281517,0.314648,0.318106,0.312868,0.272558,0.234249,0.199266]),
+        H298 = (-120.439,'kcal/mol','+|-',0.956234),
+        S298 = (43.8656,'cal/(mol*K)','+|-',0.82631),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         7
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 911,
+    index = 877,
     label = "CsClFFO_O",
     group = 
 """
@@ -19582,16 +19452,24 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.9319,16.06,17.3975,18.3381,19.5149,19.878,20.3979],'cal/(mol*K)','+|-',[0.397843,0.444664,0.44955,0.442147,0.385182,0.331043,0.281604]),
+        H298 = (-117.674,'kcal/mol','+|-',1.35136),
+        S298 = (41.7849,'cal/(mol*K)','+|-',1.16775),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         3
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 912,
+    index = 878,
     label = "CsFFFO",
     group = 
 """
@@ -19601,12 +19479,7 @@ entry(
 4   F  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.9925,14.1956,15.7491,16.8707,18.3955,19.2489,20.2545],'cal/(mol*K)','+|-',[0.111238,0.127846,0.13069,0.128772,0.111663,0.0963084,0.0784892]),
-        H298 = (-171.877,'kcal/mol','+|-',0.396555),
-        S298 = (41.0235,'cal/(mol*K)','+|-',0.270276),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -19619,7 +19492,7 @@ CHOFBr_G4 |         8
 )
 
 entry(
-    index = 913,
+    index = 879,
     label = "CsFFFO_H",
     group = 
 """
@@ -19630,16 +19503,23 @@ entry(
 5   F  u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.5935,14.3242,16.2602,17.5419,19.2232,20.1319,20.7221],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-178.067,'kcal/mol','+|-',2.68696),
+        S298 = (37.4148,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 914,
+    index = 880,
     label = "CsFFFO_F",
     group = 
 """
@@ -19650,16 +19530,23 @@ entry(
 5   F  u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.503,14.5755,16.6613,17.8556,19.2973,20.1113,20.6377],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-169.133,'kcal/mol','+|-',2.70116),
+        S298 = (37.8762,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 915,
+    index = 881,
     label = "CsFFFO_Cl",
     group = 
 """
@@ -19670,16 +19557,23 @@ entry(
 5   F  u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.7971,14.8103,16.7176,17.8486,19.2616,20.0664,20.6007],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-172.176,'kcal/mol','+|-',2.69773),
+        S298 = (37.9822,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 916,
+    index = 882,
     label = "CsFFFO_Br",
     group = 
 """
@@ -19690,16 +19584,23 @@ entry(
 5   F  u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8919,14.6999,16.4455,17.5675,19.007,19.849,20.4434],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-173.049,'kcal/mol','+|-',2.69382),
+        S298 = (37.858,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 917,
+    index = 883,
     label = "CsFFFO_C",
     group = 
 """
@@ -19710,16 +19611,25 @@ entry(
 5   F  u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8741,13.9739,15.504,16.6292,18.2193,19.1892,20.2658],'cal/(mol*K)','+|-',[0.129438,0.144671,0.146261,0.143852,0.125319,0.107705,0.0916199]),
+        H298 = (-172.147,'kcal/mol','+|-',0.439664),
+        S298 = (39.7375,'cal/(mol*K)','+|-',0.379927),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         33
+library:CHOFCl_G4 |         1
+library:CHOFBr_G4 |         5
 """,
 )
 
 entry(
-    index = 918,
+    index = 884,
     label = "CsFFFO_O",
     group = 
 """
@@ -19730,16 +19640,25 @@ entry(
 5   F  u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.1683,14.6688,16.3024,17.4342,18.8555,19.4296,20.259],'cal/(mol*K)','+|-',[0.230805,0.257968,0.260803,0.256508,0.22346,0.192052,0.16337]),
+        H298 = (-169.052,'kcal/mol','+|-',0.783979),
+        S298 = (36.9339,'cal/(mol*K)','+|-',0.677459),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         6
+library:CHOFCl_G4 |         1
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 919,
+    index = 885,
     label = "CsBrBrHO",
     group = 
 """
@@ -19749,12 +19668,7 @@ entry(
 4   Br u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.4368,15.0833,16.3509,17.3216,18.7127,19.4564,20.094],'cal/(mol*K)','+|-',[0.0991652,0.11397,0.116505,0.114796,0.0995438,0.0858556,0.0699704]),
-        H298 = (2.51501,'kcal/mol','+|-',0.353516),
-        S298 = (49.131,'cal/(mol*K)','+|-',0.240942),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -19768,7 +19682,7 @@ CHOClBr_G4  |         9
 )
 
 entry(
-    index = 920,
+    index = 886,
     label = "CsBrBrHO_H",
     group = 
 """
@@ -19779,56 +19693,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.0712,16.7168,18.1284,18.8854,19.8201,20.2441,20.3851],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-0.0246798,'kcal/mol','+|-',2.68696),
+        S298 = (47.4619,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 921,
-    label = "CsBrBrHO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 922,
-    label = "CsBrBrHO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 923,
+    index = 887,
     label = "CsBrBrHO_Br",
     group = 
 """
@@ -19839,16 +19720,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.3119,15.8954,17.0585,17.8481,18.8492,19.4828,20.0985],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (0.562503,'kcal/mol','+|-',2.69382),
+        S298 = (48.5314,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 924,
+    index = 888,
     label = "CsBrBrHO_C",
     group = 
 """
@@ -19859,16 +19747,26 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.4548,15.2013,16.5055,17.4868,18.9179,19.7183,20.2844],'cal/(mol*K)','+|-',[0.107218,0.119837,0.121153,0.119158,0.103806,0.0892158,0.0758921]),
+        H298 = (2.41527,'kcal/mol','+|-',0.36419),
+        S298 = (49.6035,'cal/(mol*K)','+|-',0.314707),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         24
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         21
+library:CHOClBr_G4  |         8
 """,
 )
 
 entry(
-    index = 925,
+    index = 889,
     label = "CsBrBrHO_O",
     group = 
 """
@@ -19879,16 +19777,25 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.48,14.8666,16.0503,17.0042,18.2357,18.7337,19.5507],'cal/(mol*K)','+|-',[0.231518,0.258765,0.261609,0.257301,0.224151,0.192645,0.163875]),
+        H298 = (3.63883,'kcal/mol','+|-',0.786402),
+        S298 = (48.2842,'cal/(mol*K)','+|-',0.679553),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         5
+library:CHOFBr_G4  |         3
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 926,
+    index = 890,
     label = "CsBrClHO",
     group = 
 """
@@ -19898,12 +19805,7 @@ entry(
 4   Cl u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.2538,14.8788,16.0494,16.9491,18.3321,19.1356,20.0602],'cal/(mol*K)','+|-',[0.142782,0.164099,0.167749,0.165288,0.143327,0.123618,0.100746]),
-        H298 = (-9.48474,'kcal/mol','+|-',0.509005),
-        S298 = (46.5423,'cal/(mol*K)','+|-',0.346918),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -19915,7 +19817,7 @@ CHOClBr_G4  |         25
 )
 
 entry(
-    index = 927,
+    index = 891,
     label = "CsBrClHO_H",
     group = 
 """
@@ -19926,56 +19828,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.5774,16.2954,17.8421,18.6543,19.6412,20.1019,20.3013],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-12.4906,'kcal/mol','+|-',2.68696),
+        S298 = (47.4328,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 928,
-    label = "CsBrClHO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 929,
-    label = "CsBrClHO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 930,
+    index = 892,
     label = "CsBrClHO_Br",
     group = 
 """
@@ -19986,16 +19855,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.8364,15.6998,16.8946,17.7096,18.7497,19.4098,20.0571],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-11.6456,'kcal/mol','+|-',2.69382),
+        S298 = (48.5484,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 931,
+    index = 893,
     label = "CsBrClHO_C",
     group = 
 """
@@ -20006,16 +19882,24 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.2909,14.9216,16.0843,16.9683,18.3808,19.2559,20.177],'cal/(mol*K)','+|-',[0.156505,0.174924,0.176846,0.173934,0.151525,0.130227,0.110779]),
+        H298 = (-9.63762,'kcal/mol','+|-',0.531604),
+        S298 = (47.9006,'cal/(mol*K)','+|-',0.459375),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         8
+library:CHOClBr_G4  |         18
 """,
 )
 
 entry(
-    index = 932,
+    index = 894,
     label = "CsBrClHO_O",
     group = 
 """
@@ -20026,16 +19910,24 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.9006,14.487,15.7348,16.7256,18.0673,18.6443,19.6166],'cal/(mol*K)','+|-',[0.327819,0.366399,0.370425,0.364325,0.317386,0.272777,0.23204]),
+        H298 = (-8.51777,'kcal/mol','+|-',1.11351),
+        S298 = (47.2025,'cal/(mol*K)','+|-',0.962215),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         5
 """,
 )
 
 entry(
-    index = 933,
+    index = 895,
     label = "CsClClHO",
     group = 
 """
@@ -20045,12 +19937,7 @@ entry(
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.6157,14.4743,15.8317,16.8555,18.3112,19.1416,20.0642],'cal/(mol*K)','+|-',[0.103929,0.119445,0.122102,0.12031,0.104325,0.0899798,0.0733315]),
-        H298 = (-22.3052,'kcal/mol','+|-',0.370497),
-        S298 = (42.6126,'cal/(mol*K)','+|-',0.252516),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -20063,7 +19950,7 @@ CHOClBr_G4 |         9
 )
 
 entry(
-    index = 934,
+    index = 896,
     label = "CsClClHO_H",
     group = 
 """
@@ -20074,36 +19961,23 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.5383,17.3852,18.9344,19.7328,20.6797,21.0699,21.0423],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-24.8679,'kcal/mol','+|-',2.68696),
+        S298 = (43.2226,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 935,
-    label = "CsClClHO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 936,
+    index = 897,
     label = "CsClClHO_Cl",
     group = 
 """
@@ -20114,16 +19988,23 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.2333,15.3683,16.6579,17.5418,18.6659,19.3787,20.1061],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-23.3052,'kcal/mol','+|-',2.69773),
+        S298 = (43.506,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 937,
+    index = 898,
     label = "CsClClHO_Br",
     group = 
 """
@@ -20134,16 +20015,23 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.2984,15.4947,16.7439,17.5771,18.6453,19.3251,20.0016],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-23.988,'kcal/mol','+|-',2.69382),
+        S298 = (43.0458,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 938,
+    index = 899,
     label = "CsClClHO_C",
     group = 
 """
@@ -20154,16 +20042,25 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.6374,14.5093,15.8674,16.891,18.3977,19.3038,20.1726],'cal/(mol*K)','+|-',[0.116415,0.130116,0.131546,0.12938,0.112711,0.0968687,0.0824021]),
+        H298 = (-22.3741,'kcal/mol','+|-',0.39543),
+        S298 = (42.8497,'cal/(mol*K)','+|-',0.341703),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         33
+library:CHOFCl_G4  |         8
+library:CHOClBr_G4 |         6
 """,
 )
 
 entry(
-    index = 939,
+    index = 900,
     label = "CsClClHO_O",
     group = 
 """
@@ -20174,16 +20071,25 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2992,14.0146,15.3705,16.4271,17.8335,18.4924,19.5863],'cal/(mol*K)','+|-',[0.23115,0.258354,0.261193,0.256892,0.223794,0.192339,0.163615]),
+        H298 = (-20.5293,'kcal/mol','+|-',0.785152),
+        S298 = (42.9261,'cal/(mol*K)','+|-',0.678473),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         6
+library:CHOFCl_G4  |         1
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 940,
+    index = 901,
     label = "CsBrFHO",
     group = 
 """
@@ -20193,12 +20099,7 @@ entry(
 4   F  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.3599,14.1063,15.3815,16.377,17.8719,18.747,19.7499],'cal/(mol*K)','+|-',[0.139186,0.159965,0.163524,0.161125,0.139717,0.120505,0.0982086]),
-        H298 = (-53.9333,'kcal/mol','+|-',0.496185),
-        S298 = (44.8931,'cal/(mol*K)','+|-',0.33818),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -20209,7 +20110,7 @@ CHOFBr_G4 |         36
 )
 
 entry(
-    index = 941,
+    index = 902,
     label = "CsBrFHO_H",
     group = 
 """
@@ -20220,56 +20121,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.366,15.0814,16.8307,17.8396,19.0801,19.7177,20.1357],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-58.0641,'kcal/mol','+|-',2.68696),
+        S298 = (44.6123,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 942,
-    label = "CsBrFHO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 943,
-    label = "CsBrFHO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 944,
+    index = 903,
     label = "CsBrFHO_Br",
     group = 
 """
@@ -20280,16 +20148,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.3972,14.5332,15.9645,16.968,18.2814,19.1065,19.8907],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-56.0652,'kcal/mol','+|-',2.69382),
+        S298 = (45.852,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 945,
+    index = 904,
     label = "CsBrFHO_C",
     group = 
 """
@@ -20300,16 +20175,23 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.3104,14.1001,15.3575,16.3368,17.8866,18.8655,19.8507],'cal/(mol*K)','+|-',[0.154938,0.173173,0.175076,0.172193,0.150008,0.128924,0.10967]),
+        H298 = (-54.0053,'kcal/mol','+|-',0.526282),
+        S298 = (46.5161,'cal/(mol*K)','+|-',0.454776),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         27
 """,
 )
 
 entry(
-    index = 946,
+    index = 905,
     label = "CsBrFHO_O",
     group = 
 """
@@ -20320,16 +20202,23 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.3902,14.167,15.585,16.6704,18.0791,18.681,19.6425],'cal/(mol*K)','+|-',[0.304132,0.339925,0.34366,0.338001,0.294454,0.253067,0.215274]),
+        H298 = (-53.2817,'kcal/mol','+|-',1.03305),
+        S298 = (45.1606,'cal/(mol*K)','+|-',0.89269),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         7
 """,
 )
 
 entry(
-    index = 947,
+    index = 906,
     label = "CsClFHO",
     group = 
 """
@@ -20339,12 +20228,7 @@ entry(
 4   F  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8079,13.6445,14.9954,16.0418,17.6237,18.5886,19.733],'cal/(mol*K)','+|-',[0.142991,0.164339,0.167995,0.16553,0.143537,0.1238,0.100894]),
-        H298 = (-67.2347,'kcal/mol','+|-',0.509752),
-        S298 = (41.1579,'cal/(mol*K)','+|-',0.347426),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -20356,7 +20240,7 @@ CHOFClBr_G4 |         9
 )
 
 entry(
-    index = 948,
+    index = 907,
     label = "CsClFHO_H",
     group = 
 """
@@ -20367,36 +20251,23 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.9122,14.6355,16.4751,17.5686,18.884,19.5691,20.0448],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-71.5129,'kcal/mol','+|-',2.68696),
+        S298 = (40.4057,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 949,
-    label = "CsClFHO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 950,
+    index = 908,
     label = "CsClFHO_Cl",
     group = 
 """
@@ -20407,16 +20278,23 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8685,14.2581,15.7736,16.8182,18.18,19.0424,19.912],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-68.5069,'kcal/mol','+|-',2.69773),
+        S298 = (42.1701,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 951,
+    index = 909,
     label = "CsClFHO_Br",
     group = 
 """
@@ -20427,16 +20305,23 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8949,14.4136,15.919,16.904,18.195,19.0131,19.8168],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-69.237,'kcal/mol','+|-',2.69382),
+        S298 = (43.0305,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 952,
+    index = 910,
     label = "CsClFHO_C",
     group = 
 """
@@ -20447,16 +20332,24 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8533,13.5768,14.8478,15.845,17.4667,18.5404,19.7321],'cal/(mol*K)','+|-',[0.163576,0.182826,0.184835,0.181792,0.15837,0.13611,0.115783]),
+        H298 = (-67.3417,'kcal/mol','+|-',0.55562),
+        S298 = (42.7596,'cal/(mol*K)','+|-',0.480127),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         18
+library:CHOFClBr_G4 |         6
 """,
 )
 
 entry(
-    index = 953,
+    index = 911,
     label = "CsClFHO_O",
     group = 
 """
@@ -20467,16 +20360,24 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.2807,13.3194,14.9259,16.1307,17.6874,18.4158,19.5884],'cal/(mol*K)','+|-',[0.30347,0.339185,0.342912,0.337265,0.293813,0.252516,0.214805]),
+        H298 = (-65.8312,'kcal/mol','+|-',1.0308),
+        S298 = (41.6608,'cal/(mol*K)','+|-',0.890747),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         5
+library:CHOFClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 954,
+    index = 912,
     label = "CsFFHO",
     group = 
 """
@@ -20486,12 +20387,7 @@ entry(
 4   F  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.6024,12.5209,13.9583,15.09,16.778,17.8588,19.3066],'cal/(mol*K)','+|-',[0.0971304,0.111632,0.114115,0.112441,0.0975012,0.084094,0.0685347]),
-        H298 = (-116.299,'kcal/mol','+|-',0.346262),
-        S298 = (38.6182,'cal/(mol*K)','+|-',0.235998),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -20505,7 +20401,7 @@ CHOFBr_G4   |         18
 )
 
 entry(
-    index = 955,
+    index = 913,
     label = "CsFFHO_H",
     group = 
 """
@@ -20516,16 +20412,23 @@ entry(
 5   F  u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.8761,13.3866,15.1761,16.351,17.9092,18.8225,19.7206],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-121.407,'kcal/mol','+|-',2.68696),
+        S298 = (36.3944,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 956,
+    index = 914,
     label = "CsFFHO_F",
     group = 
 """
@@ -20536,16 +20439,23 @@ entry(
 5   F  u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.6158,13.0363,14.6913,15.8183,17.3227,18.3399,19.5583],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-115.084,'kcal/mol','+|-',2.70116),
+        S298 = (37.9899,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 957,
+    index = 915,
     label = "CsFFHO_Cl",
     group = 
 """
@@ -20556,16 +20466,23 @@ entry(
 5   F  u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.6822,13.3811,15.1162,16.1859,17.6063,18.5367,19.5822],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-117.456,'kcal/mol','+|-',2.69773),
+        S298 = (37.8446,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 958,
+    index = 916,
     label = "CsFFHO_Br",
     group = 
 """
@@ -20576,16 +20493,23 @@ entry(
 5   F  u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.4891,13.3999,15.2952,16.3535,17.7284,18.6064,19.5175],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-118.252,'kcal/mol','+|-',2.69382),
+        S298 = (37.3215,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 959,
+    index = 917,
     label = "CsFFHO_C",
     group = 
 """
@@ -20596,16 +20520,26 @@ entry(
 5   F  u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.4831,12.4405,13.8798,15.0077,16.7524,17.9348,19.3779],'cal/(mol*K)','+|-',[0.110869,0.123917,0.125279,0.123216,0.107341,0.0922537,0.0784764]),
+        H298 = (-116.484,'kcal/mol','+|-',0.376591),
+        S298 = (39.2806,'cal/(mol*K)','+|-',0.325423),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         33
+library:CHOFCl_G4   |         6
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         13
 """,
 )
 
 entry(
-    index = 960,
+    index = 918,
     label = "CsFFHO_O",
     group = 
 """
@@ -20616,16 +20550,25 @@ entry(
 5   F  u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.649,12.4396,13.9127,15.1151,16.7775,17.6591,19.1578],'cal/(mol*K)','+|-',[0.207528,0.231952,0.234501,0.230639,0.200924,0.172683,0.146895]),
+        H298 = (-113.973,'kcal/mol','+|-',0.704915),
+        S298 = (37.6361,'cal/(mol*K)','+|-',0.609138),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         6
+library:CHOFCl_G4 |         2
+library:CHOFBr_G4 |         4
 """,
 )
 
 entry(
-    index = 961,
+    index = 919,
     label = "CsBrHHO",
     group = 
 """
@@ -20635,12 +20578,7 @@ entry(
 4   H  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.45313,11.3574,12.8899,14.0962,15.9092,17.092,18.7982],'cal/(mol*K)','+|-',[0.0786121,0.0903486,0.0923584,0.0910034,0.0789122,0.0680611,0.0554683]),
-        H298 = (-5.79178,'kcal/mol','+|-',0.280246),
-        S298 = (39.3386,'cal/(mol*K)','+|-',0.191004),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -20654,7 +20592,7 @@ CHOClBr_G4  |         24
 )
 
 entry(
-    index = 962,
+    index = 920,
     label = "CsBrHHO_H",
     group = 
 """
@@ -20665,56 +20603,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.41928,11.5535,13.1861,14.4327,16.2793,17.4897,18.9868],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-5.90462,'kcal/mol','+|-',2.68696),
+        S298 = (39.0101,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 963,
-    label = "CsBrHHO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 964,
-    label = "CsBrHHO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 965,
+    index = 921,
     label = "CsBrHHO_Br",
     group = 
 """
@@ -20725,16 +20630,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.02381,11.4363,13.1218,14.2823,15.9397,17.1204,18.6765],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-6.86919,'kcal/mol','+|-',2.69382),
+        S298 = (39.517,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 966,
+    index = 922,
     label = "CsBrHHO_C",
     group = 
 """
@@ -20745,16 +20657,26 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.47159,11.4713,13.0278,14.2384,16.0923,17.3414,18.9851],'cal/(mol*K)','+|-',[0.0866801,0.0968813,0.0979459,0.096333,0.0839216,0.0721261,0.0613547]),
+        H298 = (-5.69871,'kcal/mol','+|-',0.294428),
+        S298 = (40.3331,'cal/(mol*K)','+|-',0.254424),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         30
+library:CHOFClBr_G4 |         9
+library:CHOFBr_G4   |         31
+library:CHOClBr_G4  |         21
 """,
 )
 
 entry(
-    index = 967,
+    index = 923,
     label = "CsBrHHO_O",
     group = 
 """
@@ -20765,16 +20687,26 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.0321,11.6853,13.096,14.245,15.8329,16.7403,18.5155],'cal/(mol*K)','+|-',[0.188261,0.210417,0.21273,0.209226,0.18227,0.156651,0.133257]),
+        H298 = (-5.27719,'kcal/mol','+|-',0.63947),
+        S298 = (38.5213,'cal/(mol*K)','+|-',0.552585),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         6
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         6
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 968,
+    index = 924,
     label = "CsClHHO",
     group = 
 """
@@ -20784,12 +20716,7 @@ entry(
 4   H  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.1541,11.1017,12.6495,13.8529,15.6712,16.8708,18.6265],'cal/(mol*K)','+|-',[0.0891754,0.102489,0.104769,0.103232,0.0895159,0.0772067,0.0629217]),
-        H298 = (-17.9509,'kcal/mol','+|-',0.317903),
-        S298 = (36.4849,'cal/(mol*K)','+|-',0.21667),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -20802,7 +20729,7 @@ CHOClBr_G4 |         18
 )
 
 entry(
-    index = 969,
+    index = 925,
     label = "CsClHHO_H",
     group = 
 """
@@ -20813,36 +20740,23 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.00383,11.1258,12.8184,14.1338,16.0782,17.349,18.9079],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-18.1768,'kcal/mol','+|-',2.68696),
+        S298 = (36.2112,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 970,
-    label = "CsClHHO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   H  u0 {1,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 971,
+    index = 926,
     label = "CsClHHO_Cl",
     group = 
 """
@@ -20853,16 +20767,23 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.44099,11.0455,12.993,14.2516,15.9924,17.2027,18.7623],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-19.0855,'kcal/mol','+|-',2.69773),
+        S298 = (37.2046,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 972,
+    index = 927,
     label = "CsClHHO_Br",
     group = 
 """
@@ -20873,16 +20794,23 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.47254,10.9947,12.8254,14.0438,15.7851,17.0199,18.6341],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-18.9355,'kcal/mol','+|-',2.69382),
+        S298 = (38.3428,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 973,
+    index = 928,
     label = "CsClHHO_C",
     group = 
 """
@@ -20893,16 +20821,25 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.14706,11.1779,12.7406,13.9452,15.8143,17.0853,18.7537],'cal/(mol*K)','+|-',[0.0994198,0.11112,0.112341,0.110491,0.0962559,0.0827267,0.0703722]),
+        H298 = (-17.9083,'kcal/mol','+|-',0.337701),
+        S298 = (37.0533,'cal/(mol*K)','+|-',0.291817),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         33
+library:CHOFCl_G4  |         21
+library:CHOClBr_G4 |         13
 """,
 )
 
 entry(
-    index = 974,
+    index = 929,
     label = "CsClHHO_O",
     group = 
 """
@@ -20913,16 +20850,25 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.4445,11.2253,12.7198,13.9189,15.5943,16.5579,18.4051],'cal/(mol*K)','+|-',[0.201984,0.225755,0.228236,0.224478,0.195556,0.16807,0.14297]),
+        H298 = (-17.1754,'kcal/mol','+|-',0.686083),
+        S298 = (35.6331,'cal/(mol*K)','+|-',0.592865),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         6
+library:CHOFCl_G4  |         3
+library:CHOClBr_G4 |         4
 """,
 )
 
 entry(
-    index = 975,
+    index = 930,
     label = "CsFHHO",
     group = 
 """
@@ -20932,12 +20878,7 @@ entry(
 4   H  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.19395,10.0621,11.652,12.9697,14.9832,16.3353,18.3593],'cal/(mol*K)','+|-',[0.0867651,0.0997188,0.101937,0.100442,0.0870963,0.0751198,0.061221]),
-        H298 = (-61.1569,'kcal/mol','+|-',0.30931),
-        S298 = (33.7271,'cal/(mol*K)','+|-',0.210814),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -20951,7 +20892,7 @@ CHOFBr_G4   |         24
 )
 
 entry(
-    index = 976,
+    index = 931,
     label = "CsFHHO_H",
     group = 
 """
@@ -20962,16 +20903,23 @@ entry(
 5   F  u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.87152,10.0778,11.933,13.3803,15.5189,16.9627,18.7962],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-62.0385,'kcal/mol','+|-',2.68696),
+        S298 = (33.0763,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 977,
+    index = 932,
     label = "CsFHHO_F",
     group = 
 """
@@ -20982,16 +20930,23 @@ entry(
 5   F  u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.70785,9.15691,11.3656,13.0177,15.3755,17.0249,19.0833],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-62.8741,'kcal/mol','+|-',2.70116),
+        S298 = (34.1695,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 978,
+    index = 933,
     label = "CsFHHO_Cl",
     group = 
 """
@@ -21002,16 +20957,23 @@ entry(
 5   F  u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.08836,9.65131,11.8014,13.3187,15.4488,16.9182,18.7433],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-62.2039,'kcal/mol','+|-',2.69773),
+        S298 = (34.4347,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 979,
+    index = 934,
     label = "CsFHHO_Br",
     group = 
 """
@@ -21022,16 +20984,23 @@ entry(
 5   F  u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.09543,9.61578,11.6715,13.1306,15.2408,16.7257,18.6034],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-61.9458,'kcal/mol','+|-',2.69382),
+        S298 = (35.6213,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 980,
+    index = 935,
     label = "CsFHHO_C",
     group = 
 """
@@ -21042,16 +21011,26 @@ entry(
 5   F  u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.21203,10.1065,11.641,12.8965,14.8944,16.3292,18.3457],'cal/(mol*K)','+|-',[0.100608,0.112448,0.113684,0.111812,0.0974061,0.0837153,0.0712131]),
+        H298 = (-61.0187,'kcal/mol','+|-',0.341736),
+        S298 = (34.7453,'cal/(mol*K)','+|-',0.295304),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         33
+library:CHOFCl_G4   |         13
+library:CHOFClBr_G4 |         6
+library:CHOFBr_G4   |         16
 """,
 )
 
 entry(
-    index = 981,
+    index = 936,
     label = "CsFHHO_O",
     group = 
 """
@@ -21062,16 +21041,26 @@ entry(
 5   F  u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.11042,10.0075,11.763,13.2685,15.4098,16.6117,18.582],'cal/(mol*K)','+|-',[0.178632,0.199655,0.201849,0.198525,0.172947,0.148639,0.126441]),
+        H298 = (-60.6589,'kcal/mol','+|-',0.606762),
+        S298 = (32.2976,'cal/(mol*K)','+|-',0.524321),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         6
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         7
 """,
 )
 
 entry(
-    index = 982,
+    index = 937,
     label = "CsBrBrOO",
     group = 
 """
@@ -21081,12 +21070,7 @@ entry(
 4   Br u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.4317,16.2897,17.2922,17.8377,18.2847,18.3798,17.7485],'cal/(mol*K)','+|-',[0.208809,0.239983,0.245322,0.241723,0.209606,0.180783,0.147334]),
-        H298 = (-3.60237,'kcal/mol','+|-',0.744386),
-        S298 = (25.3216,'cal/(mol*K)','+|-',0.507344),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -21099,7 +21083,7 @@ CHOClBr_G4 |         3
 )
 
 entry(
-    index = 983,
+    index = 938,
     label = "CsBrBrOO_HH",
     group = 
 """
@@ -21111,16 +21095,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.1547,16.67,17.1857,17.2484,17.288,17.4742,17.292],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-3.9872,'kcal/mol','+|-',2.68696),
+        S298 = (24.1572,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 984,
+    index = 939,
     label = "CsBrBrOO_HF",
     group = 
 """
@@ -21132,16 +21123,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.2041,15.1954,16.5184,17.3175,18.0412,18.221,17.6335],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-1.26526,'kcal/mol','+|-',2.70116),
+        S298 = (27.7839,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 985,
+    index = 940,
     label = "CsBrBrOO_HCl",
     group = 
 """
@@ -21153,16 +21151,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.9437,16.1348,17.3167,17.7108,17.7637,17.8387,17.5589],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-2.2138,'kcal/mol','+|-',2.69773),
+        S298 = (27.8548,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 986,
+    index = 941,
     label = "CsBrBrOO_HBr",
     group = 
 """
@@ -21174,16 +21179,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.7828,16.204,17.1425,17.6463,18.0174,18.0167,17.3459],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-3.26418,'kcal/mol','+|-',2.69382),
+        S298 = (25.4986,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 987,
+    index = 942,
     label = "CsBrBrOO_HC",
     group = 
 """
@@ -21195,79 +21207,25 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.6786,16.0595,16.8165,17.2414,17.5513,17.6124,17.2696],'cal/(mol*K)','+|-',[0.325874,0.364225,0.368227,0.362164,0.315503,0.271158,0.230663]),
+        H298 = (-3.67588,'kcal/mol','+|-',1.1069),
+        S298 = (25.9258,'cal/(mol*K)','+|-',0.956505),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         2
+library:CHOFBr_G4  |         3
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 988,
-    label = "CsBrBrOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 989,
-    label = "CsBrBrOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 990,
-    label = "CsBrBrOO_FCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 991,
+    index = 943,
     label = "CsBrBrOO_FBr",
     group = 
 """
@@ -21279,79 +21237,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.6733,17.9578,19.4663,20.1343,20.3969,20.1317,18.4779],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-1.16353,'kcal/mol','+|-',2.70766),
+        S298 = (23.4202,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 992,
-    label = "CsBrBrOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 993,
-    label = "CsBrBrOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 994,
-    label = "CsBrBrOO_ClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 995,
+    index = 944,
     label = "CsBrBrOO_ClBr",
     group = 
 """
@@ -21363,58 +21265,23 @@ entry(
 6   Cl u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.4978,17.6735,19.2778,19.931,20.2793,20.1473,18.7592],'cal/(mol*K)','+|-',[0.796188,0.889889,0.899668,0.884853,0.77085,0.662504,0.563565]),
+        H298 = (-2.96492,'kcal/mol','+|-',2.70442),
+        S298 = (23.4149,'cal/(mol*K)','+|-',2.33697),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 996,
-    label = "CsBrBrOO_ClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 997,
-    label = "CsBrBrOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 998,
+    index = 945,
     label = "CsBrBrOO_BrBr",
     group = 
 """
@@ -21426,16 +21293,23 @@ entry(
 6   Br u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.363,17.5115,19.2406,19.8124,20.0744,19.9564,18.7066],'cal/(mol*K)','+|-',[0.799093,0.893136,0.902951,0.888082,0.773663,0.664922,0.565621]),
+        H298 = (-4.0737,'kcal/mol','+|-',2.71429),
+        S298 = (18.8148,'cal/(mol*K)','+|-',2.3455),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 999,
+    index = 946,
     label = "CsBrBrOO_BrC",
     group = 
 """
@@ -21447,100 +21321,24 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.7056,15.6999,17.0836,17.8439,18.421,18.4879,17.6878],'cal/(mol*K)','+|-',[0.462353,0.516766,0.522444,0.513841,0.447639,0.384722,0.327266]),
+        H298 = (-4.15597,'kcal/mol','+|-',1.57048),
+        S298 = (22.583,'cal/(mol*K)','+|-',1.3571),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOBr_G4  |         2
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1000,
-    label = "CsBrBrOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1001,
-    label = "CsBrBrOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1002,
-    label = "CsBrBrOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1003,
-    label = "CsBrBrOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1004,
+    index = 947,
     label = "CsBrClOO",
     group = 
 """
@@ -21550,12 +21348,7 @@ entry(
 4   Cl u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.8971,15.8102,16.833,17.4294,17.9904,18.1243,17.5525],'cal/(mol*K)','+|-',[0.262923,0.302176,0.308898,0.304366,0.263926,0.227634,0.185517]),
-        H298 = (-16.1987,'kcal/mol','+|-',0.937297),
-        S298 = (23.6355,'cal/(mol*K)','+|-',0.638824),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -21567,7 +21360,7 @@ CHOClBr_G4  |         7
 )
 
 entry(
-    index = 1005,
+    index = 948,
     label = "CsBrClOO_HH",
     group = 
 """
@@ -21579,16 +21372,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.132,15.7846,16.525,16.822,17.1646,17.3923,17.2215],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-16.8053,'kcal/mol','+|-',2.68696),
+        S298 = (24.314,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1006,
+    index = 949,
     label = "CsBrClOO_HF",
     group = 
 """
@@ -21600,16 +21400,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.8887,15.0126,16.3144,17.0803,17.8039,18.0367,17.6082],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-13.2997,'kcal/mol','+|-',2.70116),
+        S298 = (26.6011,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1007,
+    index = 950,
     label = "CsBrClOO_HCl",
     group = 
 """
@@ -21621,16 +21428,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.5895,15.2743,16.4586,17.166,17.8058,17.9551,17.3927],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-14.5505,'kcal/mol','+|-',2.69773),
+        S298 = (26.8062,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1008,
+    index = 951,
     label = "CsBrClOO_HBr",
     group = 
 """
@@ -21642,16 +21456,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.277,15.7346,16.7615,17.3375,17.8131,17.8757,17.2609],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-15.4358,'kcal/mol','+|-',2.69382),
+        S298 = (25.8103,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1009,
+    index = 952,
     label = "CsBrClOO_HC",
     group = 
 """
@@ -21663,79 +21484,24 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.8529,15.3927,16.2099,16.6413,17.0615,17.2233,17.057],'cal/(mol*K)','+|-',[0.459217,0.513261,0.518901,0.510356,0.444603,0.382112,0.325047]),
+        H298 = (-16.9754,'kcal/mol','+|-',1.55983),
+        S298 = (25.0765,'cal/(mol*K)','+|-',1.3479),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         2
 """,
 )
 
 entry(
-    index = 1010,
-    label = "CsBrClOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1011,
-    label = "CsBrClOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1012,
-    label = "CsBrClOO_FCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1013,
+    index = 953,
     label = "CsBrClOO_FBr",
     group = 
 """
@@ -21747,79 +21513,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.1571,17.5771,19.1445,19.8214,20.1042,19.862,18.2757],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-13.2381,'kcal/mol','+|-',2.70766),
+        S298 = (22.4488,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1014,
-    label = "CsBrClOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1015,
-    label = "CsBrClOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1016,
-    label = "CsBrClOO_ClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1017,
+    index = 954,
     label = "CsBrClOO_ClBr",
     group = 
 """
@@ -21831,79 +21541,23 @@ entry(
 6   Cl u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.3007,17.3381,18.8322,19.5469,19.9643,19.8566,18.4861],'cal/(mol*K)','+|-',[0.796188,0.889889,0.899668,0.884853,0.77085,0.662504,0.563565]),
+        H298 = (-14.9908,'kcal/mol','+|-',2.70442),
+        S298 = (22.4433,'cal/(mol*K)','+|-',2.33697),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1018,
-    label = "CsBrClOO_ClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1019,
-    label = "CsBrClOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1020,
-    label = "CsBrClOO_BrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1021,
+    index = 955,
     label = "CsBrClOO_BrC",
     group = 
 """
@@ -21915,100 +21569,23 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.2496,15.4598,16.9182,17.6905,18.2959,18.3654,17.5419],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-18.8377,'kcal/mol','+|-',2.69382),
+        S298 = (20.0503,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1022,
-    label = "CsBrClOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1023,
-    label = "CsBrClOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1024,
-    label = "CsBrClOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1025,
-    label = "CsBrClOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Br u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1026,
+    index = 956,
     label = "CsClClOO",
     group = 
 """
@@ -22018,12 +21595,7 @@ entry(
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.6488,15.9971,17.2143,17.9121,18.4889,18.5564,17.7902],'cal/(mol*K)','+|-',[0.197881,0.227424,0.232483,0.229072,0.198637,0.171322,0.139624]),
-        H298 = (-28.0095,'kcal/mol','+|-',0.70543),
-        S298 = (19.1311,'cal/(mol*K)','+|-',0.480793),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -22037,7 +21609,7 @@ CHOClBr_G4  |         3
 )
 
 entry(
-    index = 1027,
+    index = 957,
     label = "CsClClOO_HH",
     group = 
 """
@@ -22049,16 +21621,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.1664,14.9359,15.8833,16.4029,17.0259,17.2979,17.1606],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-29.6993,'kcal/mol','+|-',2.68696),
+        S298 = (18.928,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1028,
+    index = 958,
     label = "CsClClOO_HF",
     group = 
 """
@@ -22070,16 +21649,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.9399,14.3951,15.8651,16.7401,17.6133,17.9268,17.5423],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-26.2338,'kcal/mol','+|-',2.70116),
+        S298 = (21.1012,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1029,
+    index = 959,
     label = "CsClClOO_HCl",
     group = 
 """
@@ -22091,16 +21677,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.7427,14.7774,16.0632,16.8525,17.6076,17.8234,17.3118],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-27.4116,'kcal/mol','+|-',2.69773),
+        S298 = (21.1084,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1030,
+    index = 960,
     label = "CsClClOO_HBr",
     group = 
 """
@@ -22112,16 +21705,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.277,15.1137,16.2574,16.9294,17.5446,17.6929,17.1577],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-28.2376,'kcal/mol','+|-',2.69382),
+        S298 = (21.6134,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1031,
+    index = 961,
     label = "CsClClOO_HC",
     group = 
 """
@@ -22133,58 +21733,24 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.9687,16.9282,17.8255,18.3108,18.6113,18.4767,17.5711],'cal/(mol*K)','+|-',[0.357026,0.399044,0.403429,0.396786,0.345665,0.29708,0.252714]),
+        H298 = (-28.7688,'kcal/mol','+|-',1.21272),
+        S298 = (18.4391,'cal/(mol*K)','+|-',1.04795),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         4
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1032,
-    label = "CsClClOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1033,
-    label = "CsClClOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1034,
+    index = 962,
     label = "CsClClOO_FCl",
     group = 
 """
@@ -22196,16 +21762,23 @@ entry(
 6   F  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.4915,17.3342,19.1175,19.7845,20.0248,19.7468,18.1528],'cal/(mol*K)','+|-',[0.798219,0.89216,0.901963,0.887111,0.772817,0.664194,0.565002]),
+        H298 = (-24.0627,'kcal/mol','+|-',2.71132),
+        S298 = (17.4628,'cal/(mol*K)','+|-',2.34294),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1035,
+    index = 963,
     label = "CsClClOO_FBr",
     group = 
 """
@@ -22217,58 +21790,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.7031,17.2473,18.8624,19.5228,19.7839,19.5344,17.9836],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-25.0641,'kcal/mol','+|-',2.70766),
+        S298 = (17.2902,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1036,
-    label = "CsClClOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1037,
-    label = "CsClClOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1038,
+    index = 964,
     label = "CsClClOO_ClCl",
     group = 
 """
@@ -22280,16 +21818,23 @@ entry(
 6   Cl u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.8124,17.1597,18.741,19.4936,19.9182,19.7821,18.3586],'cal/(mol*K)','+|-',[0.803657,0.898237,0.908108,0.893154,0.778082,0.668719,0.568851]),
+        H298 = (-26.2127,'kcal/mol','+|-',2.72979),
+        S298 = (14.8675,'cal/(mol*K)','+|-',2.3589),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1039,
+    index = 965,
     label = "CsClClOO_ClBr",
     group = 
 """
@@ -22301,16 +21846,23 @@ entry(
 6   Cl u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.8563,16.9182,18.4405,19.1981,19.6806,19.6176,18.3166],'cal/(mol*K)','+|-',[0.796188,0.889889,0.899668,0.884853,0.77085,0.662504,0.563565]),
+        H298 = (-27.1743,'kcal/mol','+|-',2.70442),
+        S298 = (18.8133,'cal/(mol*K)','+|-',2.33697),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1040,
+    index = 966,
     label = "CsClClOO_ClC",
     group = 
 """
@@ -22322,58 +21874,23 @@ entry(
 6   Cl u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.6533,15.3337,16.9652,17.805,18.3115,18.3859,17.9331],'cal/(mol*K)','+|-',[0.405368,0.453075,0.458054,0.450511,0.392468,0.337305,0.286931]),
+        H298 = (-26.5086,'kcal/mol','+|-',1.37692),
+        S298 = (17.9943,'cal/(mol*K)','+|-',1.18984),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         4
 """,
 )
 
 entry(
-    index = 1041,
-    label = "CsClClOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1042,
-    label = "CsClClOO_BrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1043,
+    index = 967,
     label = "CsClClOO_BrC",
     group = 
 """
@@ -22385,100 +21902,23 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.8361,15.0853,16.5695,17.3668,18.0184,18.1281,17.3744],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-30.9632,'kcal/mol','+|-',2.69382),
+        S298 = (16.3482,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1044,
-    label = "CsClClOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1045,
-    label = "CsClClOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1046,
-    label = "CsClClOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1047,
-    label = "CsClClOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   Cl u0 {1,S}
-5   Cl u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1048,
+    index = 968,
     label = "CsBrFOO",
     group = 
 """
@@ -22488,12 +21928,7 @@ entry(
 4   F  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.4113,14.4445,15.6693,16.4469,17.2319,17.4979,17.1277],'cal/(mol*K)','+|-',[0.277597,0.319041,0.326138,0.321353,0.278657,0.240339,0.195871]),
-        H298 = (-64.6008,'kcal/mol','+|-',0.989609),
-        S298 = (21.0411,'cal/(mol*K)','+|-',0.674478),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -22504,7 +21939,7 @@ CHOFBr_G4 |         9
 )
 
 entry(
-    index = 1049,
+    index = 969,
     label = "CsBrFOO_HH",
     group = 
 """
@@ -22516,16 +21951,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.1366,13.9273,15.0935,15.9157,16.8763,17.2199,16.9745],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-66.5976,'kcal/mol','+|-',2.68696),
+        S298 = (21.4981,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1050,
+    index = 970,
     label = "CsBrFOO_HF",
     group = 
 """
@@ -22537,37 +21979,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2548,14.3008,15.6881,16.5497,17.391,17.675,17.2758],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-62.0973,'kcal/mol','+|-',2.70116),
+        S298 = (23.2026,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1051,
-    label = "CsBrFOO_HCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1052,
+    index = 971,
     label = "CsBrFOO_HBr",
     group = 
 """
@@ -22579,16 +22007,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.7269,14.5315,15.6889,16.3824,17.0568,17.276,16.9106],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-64.1746,'kcal/mol','+|-',2.69382),
+        S298 = (22.6454,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1053,
+    index = 972,
     label = "CsBrFOO_HC",
     group = 
 """
@@ -22600,79 +22035,23 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8461,14.0319,15.4003,16.2281,17.0238,17.2798,17.0147],'cal/(mol*K)','+|-',[0.459613,0.513704,0.519349,0.510797,0.444987,0.382442,0.325328]),
+        H298 = (-65.9726,'kcal/mol','+|-',1.56118),
+        S298 = (22.0267,'cal/(mol*K)','+|-',1.34906),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1054,
-    label = "CsBrFOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1055,
-    label = "CsBrFOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1056,
-    label = "CsBrFOO_FCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1057,
+    index = 973,
     label = "CsBrFOO_FBr",
     group = 
 """
@@ -22684,163 +22063,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.9144,15.4007,16.6852,17.3085,17.6699,17.6741,16.9441],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-57.8798,'kcal/mol','+|-',2.70766),
+        S298 = (21.8472,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1058,
-    label = "CsBrFOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1059,
-    label = "CsBrFOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1060,
-    label = "CsBrFOO_ClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1061,
-    label = "CsBrFOO_ClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1062,
-    label = "CsBrFOO_ClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1063,
-    label = "CsBrFOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1064,
-    label = "CsBrFOO_BrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1065,
+    index = 974,
     label = "CsBrFOO_BrC",
     group = 
 """
@@ -22852,100 +22091,23 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.754,14.9434,16.3301,17.0666,17.6712,17.8216,17.2972],'cal/(mol*K)','+|-',[0.564418,0.630843,0.637775,0.627273,0.546456,0.46965,0.399511]),
+        H298 = (-65.0605,'kcal/mol','+|-',1.91717),
+        S298 = (19.5,'cal/(mol*K)','+|-',1.65668),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1066,
-    label = "CsBrFOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1067,
-    label = "CsBrFOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1068,
-    label = "CsBrFOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1069,
-    label = "CsBrFOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1070,
+    index = 975,
     label = "CsClFOO",
     group = 
 """
@@ -22955,12 +22117,7 @@ entry(
 4   F  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8322,14.3201,15.7602,16.6404,17.5165,17.8137,17.414],'cal/(mol*K)','+|-',[0.26301,0.302277,0.309001,0.304468,0.264015,0.22771,0.185579]),
-        H298 = (-77.4106,'kcal/mol','+|-',0.93761),
-        S298 = (16.9165,'cal/(mol*K)','+|-',0.639038),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -22972,7 +22129,7 @@ CHOFClBr_G4 |         3
 )
 
 entry(
-    index = 1071,
+    index = 976,
     label = "CsClFOO_HH",
     group = 
 """
@@ -22984,16 +22141,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.3021,13.2848,14.5805,15.5109,16.6339,17.0814,16.9345],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-80.0581,'kcal/mol','+|-',2.68696),
+        S298 = (18.7819,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1072,
+    index = 977,
     label = "CsClFOO_HF",
     group = 
 """
@@ -23005,16 +22169,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.3521,13.7732,15.2654,16.1561,17.0808,17.4608,17.2401],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-74.3646,'kcal/mol','+|-',2.70116),
+        S298 = (19.6397,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1073,
+    index = 978,
     label = "CsClFOO_HCl",
     group = 
 """
@@ -23026,16 +22197,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.1559,13.5672,15.032,15.926,16.8914,17.3005,17.1082],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-76.3993,'kcal/mol','+|-',2.69773),
+        S298 = (20.2068,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1074,
+    index = 979,
     label = "CsClFOO_HBr",
     group = 
 """
@@ -23047,16 +22225,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.9823,13.91,15.2054,16.0138,16.8584,17.1829,16.8981],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-77.1442,'kcal/mol','+|-',2.69382),
+        S298 = (20.8622,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1075,
+    index = 980,
     label = "CsClFOO_HC",
     group = 
 """
@@ -23068,58 +22253,23 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8566,14.6906,16.4155,17.3491,18.105,18.2745,17.6858],'cal/(mol*K)','+|-',[0.561611,0.627706,0.634604,0.624154,0.543739,0.467314,0.397525]),
+        H298 = (-79.8356,'kcal/mol','+|-',1.90763),
+        S298 = (15.1565,'cal/(mol*K)','+|-',1.64844),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         2
 """,
 )
 
 entry(
-    index = 1076,
-    label = "CsClFOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1077,
-    label = "CsClFOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1078,
+    index = 981,
     label = "CsClFOO_FCl",
     group = 
 """
@@ -23131,16 +22281,23 @@ entry(
 6   F  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.0203,15.4483,17.2184,18.0802,18.6892,18.7386,17.7181],'cal/(mol*K)','+|-',[0.798219,0.89216,0.901963,0.887111,0.772817,0.664194,0.565002]),
+        H298 = (-70.7892,'kcal/mol','+|-',2.71132),
+        S298 = (17.395,'cal/(mol*K)','+|-',2.34294),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1079,
+    index = 982,
     label = "CsClFOO_FBr",
     group = 
 """
@@ -23152,100 +22309,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2197,15.2261,16.8226,17.6505,18.2707,18.379,17.5295],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-71.7134,'kcal/mol','+|-',2.70766),
+        S298 = (18.8365,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1080,
-    label = "CsClFOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1081,
-    label = "CsClFOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1082,
-    label = "CsClFOO_ClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1083,
-    label = "CsClFOO_ClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1084,
+    index = 983,
     label = "CsClFOO_ClC",
     group = 
 """
@@ -23257,58 +22337,23 @@ entry(
 6   Cl u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8015,14.6529,16.364,17.2072,17.8495,18.0848,17.7878],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-78.7856,'kcal/mol','+|-',2.69773),
+        S298 = (13.4059,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1085,
-    label = "CsClFOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1086,
-    label = "CsClFOO_BrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1087,
+    index = 984,
     label = "CsClFOO_BrC",
     group = 
 """
@@ -23320,100 +22365,23 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8444,14.4075,15.8979,16.6261,17.2664,17.5106,17.1994],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-79.4526,'kcal/mol','+|-',2.69382),
+        S298 = (15.2957,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1088,
-    label = "CsClFOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1089,
-    label = "CsClFOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1090,
-    label = "CsClFOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1091,
-    label = "CsClFOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   Cl u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1092,
+    index = 985,
     label = "CsFFOO",
     group = 
 """
@@ -23423,12 +22391,7 @@ entry(
 4   F  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.5929,13.2366,14.7874,15.7616,16.7963,17.2268,17.0373],'cal/(mol*K)','+|-',[0.198271,0.227872,0.232941,0.229523,0.199028,0.17166,0.139899]),
-        H298 = (-127.083,'kcal/mol','+|-',0.706818),
-        S298 = (13.6571,'cal/(mol*K)','+|-',0.481739),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -23441,7 +22404,7 @@ CHOFBr_G4 |         4
 )
 
 entry(
-    index = 1093,
+    index = 986,
     label = "CsFFOO_HH",
     group = 
 """
@@ -23453,16 +22416,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.28197,11.6442,13.3902,14.6254,16.0288,16.6588,16.91],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-132.502,'kcal/mol','+|-',2.68696),
+        S298 = (12.9716,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 1094,
+    index = 987,
     label = "CsFFOO_HF",
     group = 
 """
@@ -23474,16 +22444,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7543,13.4687,14.947,15.8226,16.7112,17.0602,16.8456],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-125.981,'kcal/mol','+|-',2.70116),
+        S298 = (13.4411,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 1095,
+    index = 988,
     label = "CsFFOO_HCl",
     group = 
 """
@@ -23495,16 +22472,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7316,13.0564,14.4855,15.4061,16.4021,16.8282,16.7057],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-127.979,'kcal/mol','+|-',2.69773),
+        S298 = (15.5567,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1096,
+    index = 989,
     label = "CsFFOO_HBr",
     group = 
 """
@@ -23516,16 +22500,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.8535,13.208,14.5747,15.4341,16.3592,16.7438,16.5685],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-128.656,'kcal/mol','+|-',2.69382),
+        S298 = (16.4704,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1097,
+    index = 990,
     label = "CsFFOO_HC",
     group = 
 """
@@ -23537,37 +22528,23 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.042,13.9022,15.5708,16.553,17.5034,17.7944,17.4894],'cal/(mol*K)','+|-',[0.398938,0.445888,0.450788,0.443365,0.386243,0.331955,0.28238]),
+        H298 = (-130.734,'kcal/mol','+|-',1.35508),
+        S298 = (11.7839,'cal/(mol*K)','+|-',1.17096),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 1098,
-    label = "CsFFOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1099,
+    index = 991,
     label = "CsFFOO_FF",
     group = 
 """
@@ -23579,16 +22556,23 @@ entry(
 6   F  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3807,13.4429,15.2782,16.2624,17.1415,17.5058,17.1972],'cal/(mol*K)','+|-',[0.807645,0.902695,0.912615,0.897586,0.781943,0.672038,0.571674]),
+        H298 = (-116.153,'kcal/mol','+|-',2.74334),
+        S298 = (11.6908,'cal/(mol*K)','+|-',2.3706),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 1100,
+    index = 992,
     label = "CsFFOO_FCl",
     group = 
 """
@@ -23600,16 +22584,23 @@ entry(
 6   F  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.6148,13.6169,15.3345,16.2825,17.1166,17.4259,17.002],'cal/(mol*K)','+|-',[0.798219,0.89216,0.901963,0.887111,0.772817,0.664194,0.565002]),
+        H298 = (-119.446,'kcal/mol','+|-',2.71132),
+        S298 = (14.7594,'cal/(mol*K)','+|-',2.34294),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1101,
+    index = 993,
     label = "CsFFOO_FBr",
     group = 
 """
@@ -23621,16 +22612,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.94642,13.0941,15.1138,15.9912,16.7702,17.1423,16.9494],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-120.505,'kcal/mol','+|-',2.70766),
+        S298 = (16.1716,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1102,
+    index = 994,
     label = "CsFFOO_FC",
     group = 
 """
@@ -23642,79 +22640,23 @@ entry(
 6   F  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.1577,14.0981,15.6457,16.4454,17.1123,17.3239,16.9403],'cal/(mol*K)','+|-',[0.406995,0.454893,0.459892,0.452318,0.394043,0.338658,0.288082]),
+        H298 = (-123.297,'kcal/mol','+|-',1.38244),
+        S298 = (12.3488,'cal/(mol*K)','+|-',1.19461),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 1103,
-    label = "CsFFOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1104,
-    label = "CsFFOO_ClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1105,
-    label = "CsFFOO_ClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1106,
+    index = 995,
     label = "CsFFOO_ClC",
     group = 
 """
@@ -23726,58 +22668,23 @@ entry(
 6   Cl u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.13037,11.9399,13.8997,15.0995,16.3416,16.8469,16.6306],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-130.067,'kcal/mol','+|-',2.69773),
+        S298 = (7.47446,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1107,
-    label = "CsFFOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1108,
-    label = "CsFFOO_BrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1109,
+    index = 996,
     label = "CsFFOO_BrC",
     group = 
 """
@@ -23789,100 +22696,23 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.32999,11.9684,13.8933,15.098,16.3827,16.9531,16.8625],'cal/(mol*K)','+|-',[0.564418,0.630843,0.637775,0.627273,0.546456,0.46965,0.399511]),
+        H298 = (-128.272,'kcal/mol','+|-',1.91717),
+        S298 = (12.2174,'cal/(mol*K)','+|-',1.65668),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1110,
-    label = "CsFFOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1111,
-    label = "CsFFOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1112,
-    label = "CsFFOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1113,
-    label = "CsFFOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   F  u0 {1,S}
-5   F  u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1114,
+    index = 997,
     label = "CsBrHOO",
     group = 
 """
@@ -23892,12 +22722,7 @@ entry(
 4   H  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.2611,13.8442,15.1607,15.907,16.6399,16.9367,16.7074],'cal/(mol*K)','+|-',[0.161597,0.185723,0.189855,0.187069,0.162214,0.139908,0.114022]),
-        H298 = (-12.7152,'kcal/mol','+|-',0.576081),
-        S298 = (14.8744,'cal/(mol*K)','+|-',0.392634),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -23911,7 +22736,7 @@ CHOClBr_G4  |         6
 )
 
 entry(
-    index = 1115,
+    index = 998,
     label = "CsBrHOO_HH",
     group = 
 """
@@ -23923,16 +22748,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.8432,13.6926,15.1305,15.8556,16.6418,16.8576,16.5048],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-12.0444,'kcal/mol','+|-',2.68696),
+        S298 = (14.6491,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1116,
+    index = 999,
     label = "CsBrHOO_HF",
     group = 
 """
@@ -23944,16 +22776,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.56375,12.6793,14.4305,15.3139,16.2139,16.5776,16.4323],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-10.993,'kcal/mol','+|-',2.70116),
+        S298 = (18.3947,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1117,
+    index = 1000,
     label = "CsBrHOO_HCl",
     group = 
 """
@@ -23965,16 +22804,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7661,12.8274,14.0936,14.8976,15.7625,16.1591,16.1883],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-12.0829,'kcal/mol','+|-',2.69773),
+        S298 = (18.9878,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1118,
+    index = 1001,
     label = "CsBrHOO_HBr",
     group = 
 """
@@ -23986,16 +22832,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.591,12.3166,13.5776,14.3863,15.3118,15.7891,15.9829],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-12.3121,'kcal/mol','+|-',2.69382),
+        S298 = (17.7158,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1119,
+    index = 1002,
     label = "CsBrHOO_HC",
     group = 
 """
@@ -24007,79 +22860,26 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.4374,14.2153,15.5987,16.3512,17.0043,17.1898,16.8768],'cal/(mol*K)','+|-',[0.222595,0.248792,0.251526,0.247384,0.215512,0.185221,0.157559]),
+        H298 = (-12.9835,'kcal/mol','+|-',0.756093),
+        S298 = (15.5752,'cal/(mol*K)','+|-',0.653363),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         3
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         6
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 1120,
-    label = "CsBrHOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1121,
-    label = "CsBrHOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1122,
-    label = "CsBrHOO_FCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1123,
+    index = 1003,
     label = "CsBrHOO_FBr",
     group = 
 """
@@ -24091,79 +22891,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.9338,13.3756,14.5242,15.0649,15.4761,15.7229,15.8661],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-8.9201,'kcal/mol','+|-',2.70766),
+        S298 = (17.9291,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1124,
-    label = "CsBrHOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1125,
-    label = "CsBrHOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1126,
-    label = "CsBrHOO_ClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1127,
+    index = 1004,
     label = "CsBrHOO_ClBr",
     group = 
 """
@@ -24175,58 +22919,23 @@ entry(
 6   Cl u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3096,13.3959,15.0351,15.904,16.6892,16.9933,16.6352],'cal/(mol*K)','+|-',[0.796188,0.889889,0.899668,0.884853,0.77085,0.662504,0.563565]),
+        H298 = (-11.7353,'kcal/mol','+|-',2.70442),
+        S298 = (16.8277,'cal/(mol*K)','+|-',2.33697),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1128,
-    label = "CsBrHOO_ClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1129,
-    label = "CsBrHOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1130,
+    index = 1005,
     label = "CsBrHOO_BrBr",
     group = 
 """
@@ -24238,16 +22947,23 @@ entry(
 6   Br u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3423,13.2464,14.8302,15.6977,16.5215,16.8766,16.6044],'cal/(mol*K)','+|-',[0.799093,0.893136,0.902951,0.888082,0.773663,0.664922,0.565621]),
+        H298 = (-12.2929,'kcal/mol','+|-',2.71429),
+        S298 = (13.5025,'cal/(mol*K)','+|-',2.3455),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1131,
+    index = 1006,
     label = "CsBrHOO_BrC",
     group = 
 """
@@ -24259,100 +22975,25 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.5245,13.9924,15.3542,16.0151,16.4924,16.6449,16.3807],'cal/(mol*K)','+|-',[0.306868,0.342982,0.346751,0.341041,0.297102,0.255343,0.21721]),
+        H298 = (-12.6139,'kcal/mol','+|-',1.04234),
+        S298 = (14.7598,'cal/(mol*K)','+|-',0.900719),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         3
+library:CHOFBr_G4  |         3
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1132,
-    label = "CsBrHOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1133,
-    label = "CsBrHOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1134,
-    label = "CsBrHOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1135,
-    label = "CsBrHOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Br u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1136,
+    index = 1007,
     label = "CsClHOO",
     group = 
 """
@@ -24362,12 +23003,7 @@ entry(
 4   H  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.7034,13.3907,14.7394,15.4767,16.2209,16.5293,16.4058],'cal/(mol*K)','+|-',[0.175566,0.201777,0.206266,0.20324,0.176236,0.152002,0.123878]),
-        H298 = (-25.2043,'kcal/mol','+|-',0.625878),
-        S298 = (12.3464,'cal/(mol*K)','+|-',0.426574),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -24381,7 +23017,7 @@ CHOClBr_G4  |         4
 )
 
 entry(
-    index = 1137,
+    index = 1008,
     label = "CsClHOO_HH",
     group = 
 """
@@ -24393,16 +23029,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3858,13.2519,14.7599,15.5151,16.3472,16.6081,16.3553],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-25.0247,'kcal/mol','+|-',2.68696),
+        S298 = (11.9073,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1138,
+    index = 1009,
     label = "CsClHOO_HF",
     group = 
 """
@@ -24414,16 +23057,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.4809,12.3539,13.9894,14.9316,15.9348,16.3775,16.3352],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-23.6578,'kcal/mol','+|-',2.70116),
+        S298 = (14.3725,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1139,
+    index = 1010,
     label = "CsClHOO_HCl",
     group = 
 """
@@ -24435,16 +23085,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3359,12.6246,13.9079,14.7155,15.5954,16.0133,16.0996],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-24.8613,'kcal/mol','+|-',2.69773),
+        S298 = (14.8662,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1140,
+    index = 1011,
     label = "CsClHOO_HBr",
     group = 
 """
@@ -24456,16 +23113,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3372,12.2245,13.4635,14.2576,15.1712,15.653,15.8891],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-25.0225,'kcal/mol','+|-',2.69382),
+        S298 = (16.3447,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1141,
+    index = 1012,
     label = "CsClHOO_HC",
     group = 
 """
@@ -24477,58 +23141,24 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.6379,14.4905,15.7477,16.3688,16.8476,16.8741,16.4032],'cal/(mol*K)','+|-',[0.302306,0.337883,0.341596,0.335971,0.292685,0.251547,0.213981]),
+        H298 = (-26.1373,'kcal/mol','+|-',1.02685),
+        S298 = (11.6871,'cal/(mol*K)','+|-',0.887329),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         4
+library:CHOFCl_G4 |         3
 """,
 )
 
 entry(
-    index = 1142,
-    label = "CsClHOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1143,
-    label = "CsClHOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1144,
+    index = 1013,
     label = "CsClHOO_FCl",
     group = 
 """
@@ -24540,16 +23170,23 @@ entry(
 6   F  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.60884,13.3691,15.411,16.1419,16.6411,16.7666,16.3354],'cal/(mol*K)','+|-',[0.798219,0.89216,0.901963,0.887111,0.772817,0.664194,0.565002]),
+        H298 = (-22.1637,'kcal/mol','+|-',2.71132),
+        S298 = (13.6762,'cal/(mol*K)','+|-',2.34294),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1145,
+    index = 1014,
     label = "CsClHOO_FBr",
     group = 
 """
@@ -24561,58 +23198,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.54425,13.3235,15.3667,16.1117,16.6492,16.7885,16.3003],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-22.9498,'kcal/mol','+|-',2.70766),
+        S298 = (14.6971,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1146,
-    label = "CsClHOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1147,
-    label = "CsClHOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1148,
+    index = 1015,
     label = "CsClHOO_ClCl",
     group = 
 """
@@ -24624,16 +23226,23 @@ entry(
 6   Cl u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.94423,13.2588,14.919,15.6864,16.3457,16.6242,16.4487],'cal/(mol*K)','+|-',[0.803657,0.898237,0.908108,0.893154,0.778082,0.668719,0.568851]),
+        H298 = (-23.2269,'kcal/mol','+|-',2.72979),
+        S298 = (12.4187,'cal/(mol*K)','+|-',2.3589),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1149,
+    index = 1016,
     label = "CsClHOO_ClBr",
     group = 
 """
@@ -24645,16 +23254,23 @@ entry(
 6   Cl u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.0559,13.1134,14.649,15.421,16.1231,16.4494,16.3414],'cal/(mol*K)','+|-',[0.796188,0.889889,0.899668,0.884853,0.77085,0.662504,0.563565]),
+        H298 = (-23.6616,'kcal/mol','+|-',2.70442),
+        S298 = (14.8937,'cal/(mol*K)','+|-',2.33697),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1150,
+    index = 1017,
     label = "CsClHOO_ClC",
     group = 
 """
@@ -24666,58 +23282,24 @@ entry(
 6   Cl u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.4589,13.1542,14.5969,15.322,15.9564,16.2539,16.3071],'cal/(mol*K)','+|-',[0.363851,0.406672,0.411141,0.404371,0.352272,0.302759,0.257544]),
+        H298 = (-24.3355,'kcal/mol','+|-',1.2359),
+        S298 = (13.0665,'cal/(mol*K)','+|-',1.06798),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         4
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1151,
-    label = "CsClHOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1152,
-    label = "CsClHOO_BrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1153,
+    index = 1018,
     label = "CsClHOO_BrC",
     group = 
 """
@@ -24729,100 +23311,24 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3757,12.8005,14.2983,15.118,15.8447,16.2176,16.3885],'cal/(mol*K)','+|-',[0.462631,0.517077,0.522759,0.514151,0.447908,0.384953,0.327463]),
+        H298 = (-24.8084,'kcal/mol','+|-',1.57143),
+        S298 = (13.1906,'cal/(mol*K)','+|-',1.35792),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         2
 """,
 )
 
 entry(
-    index = 1154,
-    label = "CsClHOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1155,
-    label = "CsClHOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1156,
-    label = "CsClHOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1157,
-    label = "CsClHOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   Cl u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1158,
+    index = 1019,
     label = "CsFHOO",
     group = 
 """
@@ -24832,12 +23338,7 @@ entry(
 4   H  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.8292,11.2462,12.7308,13.7012,14.8047,15.4098,15.8185],'cal/(mol*K)','+|-',[0.188677,0.216846,0.22167,0.218418,0.189398,0.163354,0.13313]),
-        H298 = (-71.8804,'kcal/mol','+|-',0.672619),
-        S298 = (10.4359,'cal/(mol*K)','+|-',0.458431),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -24850,7 +23351,7 @@ CHOFBr_G4 |         5
 )
 
 entry(
-    index = 1159,
+    index = 1020,
     label = "CsFHOO_HH",
     group = 
 """
@@ -24862,16 +23363,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.00169,11.8634,13.5848,14.5335,15.6441,16.1072,16.1243],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-74.1141,'kcal/mol','+|-',2.68696),
+        S298 = (8.7887,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 1160,
+    index = 1021,
     label = "CsFHOO_HF",
     group = 
 """
@@ -24883,16 +23391,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.43753,11.5662,13.4502,14.3783,15.3581,15.8153,15.9111],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-71.3608,'kcal/mol','+|-',2.70116),
+        S298 = (11.4852,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 1161,
+    index = 1022,
     label = "CsFHOO_HCl",
     group = 
 """
@@ -24904,16 +23419,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.89143,11.4218,12.8644,13.7761,14.8386,15.4072,15.7477],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-72.5238,'kcal/mol','+|-',2.69773),
+        S298 = (12.3742,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1162,
+    index = 1023,
     label = "CsFHOO_HBr",
     group = 
 """
@@ -24925,16 +23447,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.83811,10.8951,12.3077,13.2519,14.4061,15.0624,15.539],'cal/(mol*K)','+|-',[0.793065,0.886399,0.896139,0.881382,0.767827,0.659906,0.561354]),
+        H298 = (-72.5855,'kcal/mol','+|-',2.69382),
+        S298 = (13.9557,'cal/(mol*K)','+|-',2.32781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1163,
+    index = 1024,
     label = "CsFHOO_HC",
     group = 
 """
@@ -24946,37 +23475,23 @@ entry(
 6   H  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.96038,12.47,13.7362,14.5731,15.4955,15.888,15.9413],'cal/(mol*K)','+|-',[0.398938,0.445888,0.450788,0.443365,0.386243,0.331955,0.28238]),
+        H298 = (-74.6789,'kcal/mol','+|-',1.35508),
+        S298 = (9.04762,'cal/(mol*K)','+|-',1.17096),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 1164,
-    label = "CsFHOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1165,
+    index = 1025,
     label = "CsFHOO_FF",
     group = 
 """
@@ -24988,16 +23503,23 @@ entry(
 6   F  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.25051,9.82179,11.9378,13.1495,14.2123,14.8789,15.7715],'cal/(mol*K)','+|-',[0.807645,0.902695,0.912615,0.897586,0.781943,0.672038,0.571674]),
+        H298 = (-64.0189,'kcal/mol','+|-',2.74334),
+        S298 = (12.5139,'cal/(mol*K)','+|-',2.3706),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 1166,
+    index = 1026,
     label = "CsFHOO_FCl",
     group = 
 """
@@ -25009,16 +23531,23 @@ entry(
 6   F  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.13956,10.2568,11.9987,13.0931,14.3154,15.0807,15.7383],'cal/(mol*K)','+|-',[0.798219,0.89216,0.901963,0.887111,0.772817,0.664194,0.565002]),
+        H298 = (-66.21,'kcal/mol','+|-',2.71132),
+        S298 = (13.6102,'cal/(mol*K)','+|-',2.34294),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1167,
+    index = 1027,
     label = "CsFHOO_FBr",
     group = 
 """
@@ -25030,16 +23559,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.57963,9.79374,11.5751,12.6198,13.8217,14.6523,15.5152],'cal/(mol*K)','+|-',[0.797141,0.890955,0.900745,0.885913,0.771773,0.663298,0.564239]),
+        H298 = (-66.5654,'kcal/mol','+|-',2.70766),
+        S298 = (15.3717,'cal/(mol*K)','+|-',2.33977),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1168,
+    index = 1028,
     label = "CsFHOO_FC",
     group = 
 """
@@ -25051,79 +23587,23 @@ entry(
 6   F  u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.9568,10.6245,12.4503,13.5355,14.5941,15.1824,15.7684],'cal/(mol*K)','+|-',[0.406995,0.454893,0.459892,0.452318,0.394043,0.338658,0.288082]),
+        H298 = (-69.1372,'kcal/mol','+|-',1.38244),
+        S298 = (10.8587,'cal/(mol*K)','+|-',1.19461),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 1169,
-    label = "CsFHOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1170,
-    label = "CsFHOO_ClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1171,
-    label = "CsFHOO_ClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1172,
+    index = 1029,
     label = "CsFHOO_ClC",
     group = 
 """
@@ -25135,58 +23615,23 @@ entry(
 6   Cl u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.4117,11.9697,13.4319,14.2725,15.088,15.4722,15.5891],'cal/(mol*K)','+|-',[0.566,0.632611,0.639563,0.629031,0.547988,0.470966,0.400631]),
+        H298 = (-71.9933,'kcal/mol','+|-',1.92254),
+        S298 = (8.93678,'cal/(mol*K)','+|-',1.66133),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         2
 """,
 )
 
 entry(
-    index = 1173,
-    label = "CsFHOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1174,
-    label = "CsFHOO_BrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1175,
+    index = 1030,
     label = "CsFHOO_BrC",
     group = 
 """
@@ -25198,100 +23643,23 @@ entry(
 6   Br u0 {2,S}
 7   C  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.79533,11.4374,13.0777,14.0304,14.9687,15.4603,15.7928],'cal/(mol*K)','+|-',[0.463019,0.517511,0.523198,0.514582,0.448284,0.385276,0.327738]),
+        H298 = (-72.207,'kcal/mol','+|-',1.57275),
+        S298 = (10.9476,'cal/(mol*K)','+|-',1.35906),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1176,
-    label = "CsFHOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1177,
-    label = "CsFHOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1178,
-    label = "CsFHOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1179,
-    label = "CsFHOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   H  u0 {1,S}
-5   F  u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1180,
+    index = 1031,
     label = "CsBrOOO",
     group = 
 """
@@ -25310,1239 +23678,7 @@ entry(
 )
 
 entry(
-    index = 1181,
-    label = "CsBrOOO_HHH",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   H  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1182,
-    label = "CsBrOOO_HHF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1183,
-    label = "CsBrOOO_HHCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1184,
-    label = "CsBrOOO_HHBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1185,
-    label = "CsBrOOO_HHC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1186,
-    label = "CsBrOOO_HHO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1187,
-    label = "CsBrOOO_HFF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1188,
-    label = "CsBrOOO_HFCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1189,
-    label = "CsBrOOO_HFBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1190,
-    label = "CsBrOOO_HFC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1191,
-    label = "CsBrOOO_HFO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1192,
-    label = "CsBrOOO_HClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1193,
-    label = "CsBrOOO_HClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1194,
-    label = "CsBrOOO_HClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1195,
-    label = "CsBrOOO_HClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1196,
-    label = "CsBrOOO_HBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1197,
-    label = "CsBrOOO_HBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1198,
-    label = "CsBrOOO_HBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1199,
-    label = "CsBrOOO_HCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1200,
-    label = "CsBrOOO_HCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1201,
-    label = "CsBrOOO_HOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1202,
-    label = "CsBrOOO_FFF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1203,
-    label = "CsBrOOO_FFCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1204,
-    label = "CsBrOOO_FFBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1205,
-    label = "CsBrOOO_FFC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1206,
-    label = "CsBrOOO_FFO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1207,
-    label = "CsBrOOO_FClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1208,
-    label = "CsBrOOO_FClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1209,
-    label = "CsBrOOO_FClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1210,
-    label = "CsBrOOO_FClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1211,
-    label = "CsBrOOO_FBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1212,
-    label = "CsBrOOO_FBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1213,
-    label = "CsBrOOO_FBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1214,
-    label = "CsBrOOO_FCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1215,
-    label = "CsBrOOO_FCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1216,
-    label = "CsBrOOO_FOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1217,
-    label = "CsBrOOO_ClClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1218,
-    label = "CsBrOOO_ClClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1219,
-    label = "CsBrOOO_ClClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1220,
-    label = "CsBrOOO_ClClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1221,
-    label = "CsBrOOO_ClBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1222,
-    label = "CsBrOOO_ClBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1223,
-    label = "CsBrOOO_ClBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1224,
-    label = "CsBrOOO_ClCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1225,
-    label = "CsBrOOO_ClCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1226,
-    label = "CsBrOOO_ClOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1227,
-    label = "CsBrOOO_BrBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1228,
-    label = "CsBrOOO_BrBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1229,
-    label = "CsBrOOO_BrBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1230,
-    label = "CsBrOOO_BrCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1231,
-    label = "CsBrOOO_BrCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1232,
-    label = "CsBrOOO_BrOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1233,
-    label = "CsBrOOO_CCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1234,
-    label = "CsBrOOO_CCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1235,
-    label = "CsBrOOO_COO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1236,
-    label = "CsBrOOO_OOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Br u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1237,
+    index = 1032,
     label = "CsClOOO",
     group = 
 """
@@ -26561,1239 +23697,7 @@ entry(
 )
 
 entry(
-    index = 1238,
-    label = "CsClOOO_HHH",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   H  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1239,
-    label = "CsClOOO_HHF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1240,
-    label = "CsClOOO_HHCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1241,
-    label = "CsClOOO_HHBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1242,
-    label = "CsClOOO_HHC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1243,
-    label = "CsClOOO_HHO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1244,
-    label = "CsClOOO_HFF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1245,
-    label = "CsClOOO_HFCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1246,
-    label = "CsClOOO_HFBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1247,
-    label = "CsClOOO_HFC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1248,
-    label = "CsClOOO_HFO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1249,
-    label = "CsClOOO_HClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1250,
-    label = "CsClOOO_HClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1251,
-    label = "CsClOOO_HClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1252,
-    label = "CsClOOO_HClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1253,
-    label = "CsClOOO_HBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1254,
-    label = "CsClOOO_HBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1255,
-    label = "CsClOOO_HBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1256,
-    label = "CsClOOO_HCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1257,
-    label = "CsClOOO_HCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1258,
-    label = "CsClOOO_HOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1259,
-    label = "CsClOOO_FFF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1260,
-    label = "CsClOOO_FFCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1261,
-    label = "CsClOOO_FFBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1262,
-    label = "CsClOOO_FFC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1263,
-    label = "CsClOOO_FFO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1264,
-    label = "CsClOOO_FClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1265,
-    label = "CsClOOO_FClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1266,
-    label = "CsClOOO_FClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1267,
-    label = "CsClOOO_FClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1268,
-    label = "CsClOOO_FBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1269,
-    label = "CsClOOO_FBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1270,
-    label = "CsClOOO_FBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1271,
-    label = "CsClOOO_FCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1272,
-    label = "CsClOOO_FCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1273,
-    label = "CsClOOO_FOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1274,
-    label = "CsClOOO_ClClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1275,
-    label = "CsClOOO_ClClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1276,
-    label = "CsClOOO_ClClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1277,
-    label = "CsClOOO_ClClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1278,
-    label = "CsClOOO_ClBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1279,
-    label = "CsClOOO_ClBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1280,
-    label = "CsClOOO_ClBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1281,
-    label = "CsClOOO_ClCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1282,
-    label = "CsClOOO_ClCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1283,
-    label = "CsClOOO_ClOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1284,
-    label = "CsClOOO_BrBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1285,
-    label = "CsClOOO_BrBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1286,
-    label = "CsClOOO_BrBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1287,
-    label = "CsClOOO_BrCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1288,
-    label = "CsClOOO_BrCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1289,
-    label = "CsClOOO_BrOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1290,
-    label = "CsClOOO_CCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1291,
-    label = "CsClOOO_CCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1292,
-    label = "CsClOOO_COO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1293,
-    label = "CsClOOO_OOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   Cl u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1294,
+    index = 1033,
     label = "CsFOOO",
     group = 
 """
@@ -27812,1239 +23716,7 @@ entry(
 )
 
 entry(
-    index = 1295,
-    label = "CsFOOO_HHH",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   H  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1296,
-    label = "CsFOOO_HHF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1297,
-    label = "CsFOOO_HHCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1298,
-    label = "CsFOOO_HHBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1299,
-    label = "CsFOOO_HHC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1300,
-    label = "CsFOOO_HHO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   H  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1301,
-    label = "CsFOOO_HFF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1302,
-    label = "CsFOOO_HFCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1303,
-    label = "CsFOOO_HFBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1304,
-    label = "CsFOOO_HFC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1305,
-    label = "CsFOOO_HFO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1306,
-    label = "CsFOOO_HClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1307,
-    label = "CsFOOO_HClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1308,
-    label = "CsFOOO_HClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1309,
-    label = "CsFOOO_HClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1310,
-    label = "CsFOOO_HBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1311,
-    label = "CsFOOO_HBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1312,
-    label = "CsFOOO_HBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1313,
-    label = "CsFOOO_HCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1314,
-    label = "CsFOOO_HCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1315,
-    label = "CsFOOO_HOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1316,
-    label = "CsFOOO_FFF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   F  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1317,
-    label = "CsFOOO_FFCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1318,
-    label = "CsFOOO_FFBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1319,
-    label = "CsFOOO_FFC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1320,
-    label = "CsFOOO_FFO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1321,
-    label = "CsFOOO_FClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1322,
-    label = "CsFOOO_FClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1323,
-    label = "CsFOOO_FClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1324,
-    label = "CsFOOO_FClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1325,
-    label = "CsFOOO_FBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1326,
-    label = "CsFOOO_FBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1327,
-    label = "CsFOOO_FBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1328,
-    label = "CsFOOO_FCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1329,
-    label = "CsFOOO_FCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1330,
-    label = "CsFOOO_FOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1331,
-    label = "CsFOOO_ClClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   Cl u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1332,
-    label = "CsFOOO_ClClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1333,
-    label = "CsFOOO_ClClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1334,
-    label = "CsFOOO_ClClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1335,
-    label = "CsFOOO_ClBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1336,
-    label = "CsFOOO_ClBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1337,
-    label = "CsFOOO_ClBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1338,
-    label = "CsFOOO_ClCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1339,
-    label = "CsFOOO_ClCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1340,
-    label = "CsFOOO_ClOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1341,
-    label = "CsFOOO_BrBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   Br u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1342,
-    label = "CsFOOO_BrBrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1343,
-    label = "CsFOOO_BrBrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   Br u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1344,
-    label = "CsFOOO_BrCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1345,
-    label = "CsFOOO_BrCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1346,
-    label = "CsFOOO_BrOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1347,
-    label = "CsFOOO_CCC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-8   C  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1348,
-    label = "CsFOOO_CCO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1349,
-    label = "CsFOOO_COO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1350,
-    label = "CsFOOO_OOO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   O  u0 {1,S} {8,S}
-5   F  u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-8   O  u0 {4,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1351,
+    index = 1034,
     label = "CsBrBrBrC",
     group = 
 """
@@ -29063,7 +23735,7 @@ entry(
 )
 
 entry(
-    index = 1352,
+    index = 1035,
     label = "CsBrBrBrCs",
     group = 
 """
@@ -29075,24 +23747,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.4122,18.53,19.363,20.053,21.0386,21.5434,21.503],'cal/(mol*K)','+|-',[0.12646,0.145341,0.148574,0.146394,0.126943,0.109487,0.0892298]),
-        H298 = (12.1483,'kcal/mol','+|-',0.450821),
-        S298 = (55.293,'cal/(mol*K)','+|-',0.307262),
+        Cpdata = ([17.4104,18.5039,19.3228,20.0086,20.9972,21.5108,21.4839],'cal/(mol*K)','+|-',[0.120848,0.13507,0.136555,0.134306,0.117002,0.100557,0.0855398]),
+        H298 = (12.2189,'kcal/mol','+|-',0.410487),
+        S298 = (52.7871,'cal/(mol*K)','+|-',0.354714),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         34
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         26
-CHOClBr_G4  |         8
+Library             | Number of Species
+library:CHOBr_G4    |         34
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         26
+library:CHOClBr_G4  |         8
 """,
 )
 
 entry(
-    index = 1353,
+    index = 1036,
     label = "CsBrBrBrCd",
     group = 
 """
@@ -29104,23 +23776,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.6507,18.7216,19.4984,20.0983,20.8697,21.2687,21.3253],'cal/(mol*K)','+|-',[0.163824,0.188282,0.192471,0.189647,0.164449,0.141836,0.115593]),
-        H298 = (14.9465,'kcal/mol','+|-',0.584018),
-        S298 = (55.9949,'cal/(mol*K)','+|-',0.398044),
+        Cpdata = ([17.6292,18.6734,19.4383,20.0361,20.8169,21.229,21.3052],'cal/(mol*K)','+|-',[0.156521,0.174941,0.176864,0.173951,0.15154,0.13024,0.11079]),
+        H298 = (15.0594,'kcal/mol','+|-',0.531657),
+        S298 = (53.3979,'cal/(mol*K)','+|-',0.45942),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOBr_G4   |         13
-CHOFBr_G4  |         14
-CHOClBr_G4 |         5
+Library            | Number of Species
+library:CHOBr_G4   |         13
+library:CHOFBr_G4  |         14
+library:CHOClBr_G4 |         5
 """,
 )
 
 entry(
-    index = 1354,
+    index = 1037,
     label = "CsBrBrBrCt",
     group = 
 """
@@ -29132,23 +23804,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.8789,19.0202,19.82,20.4219,21.1404,21.4729,20.3221],'cal/(mol*K)','+|-',[0.293773,0.337632,0.345143,0.340079,0.294894,0.254344,0.207285]),
-        H298 = (19.5485,'kcal/mol','+|-',1.04728),
-        S298 = (58.7245,'cal/(mol*K)','+|-',0.713781),
+        Cpdata = ([17.8778,19.0177,19.8164,20.4147,21.1363,21.4725,20.3203],'cal/(mol*K)','+|-',[0.280588,0.313609,0.317055,0.311834,0.271658,0.233476,0.198608]),
+        H298 = (19.5876,'kcal/mol','+|-',0.953076),
+        S298 = (56.351,'cal/(mol*K)','+|-',0.823581),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOBr_G4   |         5
-CHOFBr_G4  |         2
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOBr_G4   |         5
+library:CHOFBr_G4  |         2
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1355,
+    index = 1038,
     label = "CsBrBrBrCO",
     group = 
 """
@@ -29161,41 +23833,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([18.3381,19.3802,19.9425,20.3137,20.7951,21.0537,21.1577],'cal/(mol*K)','+|-',[0.371968,0.427501,0.437011,0.430599,0.373388,0.322044,0.262458]),
-        H298 = (19.4336,'kcal/mol','+|-',1.32603),
-        S298 = (57.4391,'cal/(mol*K)','+|-',0.903772),
+        Cpdata = ([18.339,19.3787,19.9395,20.3085,20.7873,21.0445,21.1481],'cal/(mol*K)','+|-',[0.355278,0.39709,0.401453,0.394843,0.343972,0.295625,0.251476]),
+        H298 = (19.486,'kcal/mol','+|-',1.20678),
+        S298 = (54.8491,'cal/(mol*K)','+|-',1.04281),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOBr_G4  |         4
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOBr_G4  |         4
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1356,
-    label = "CsC2sBrBrBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   C  u0 p1 {1,S}
-3   Br u0 {1,S}
-4   Br u0 {1,S}
-5   Br u0 {1,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1357,
+    index = 1039,
     label = "CsBrBrCCl",
     group = 
 """
@@ -29207,22 +23860,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.1505,18.421,19.2811,19.9264,20.8319,21.339,21.3908],'cal/(mol*K)','+|-',[0.109646,0.126016,0.128819,0.126929,0.110065,0.0949301,0.0773659]),
-        H298 = (1.88513,'kcal/mol','+|-',0.39088),
-        S298 = (53.9752,'cal/(mol*K)','+|-',0.266408),
+        Cpdata = ([17.1417,18.3825,19.2262,19.8678,20.7793,21.2972,21.3669],'cal/(mol*K)','+|-',[0.104797,0.11713,0.118417,0.116467,0.101462,0.0872011,0.0741783]),
+        H298 = (1.96595,'kcal/mol','+|-',0.355966),
+        S298 = (53.4133,'cal/(mol*K)','+|-',0.307601),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         14
-CHOClBr_G4  |         50
+Library             | Number of Species
+library:CHOFClBr_G4 |         14
+library:CHOClBr_G4  |         50
 """,
 )
 
 entry(
-    index = 1358,
+    index = 1040,
     label = "CsBrCClCl",
     group = 
 """
@@ -29234,22 +23887,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.6796,18.0784,19.0151,19.7259,20.7023,21.2349,21.2948],'cal/(mol*K)','+|-',[0.109646,0.126016,0.128819,0.126929,0.110065,0.0949301,0.0773659]),
-        H298 = (-9.91184,'kcal/mol','+|-',0.39088),
-        S298 = (51.4551,'cal/(mol*K)','+|-',0.266408),
+        Cpdata = ([16.6709,18.0399,18.9602,19.6674,20.6498,21.193,21.271],'cal/(mol*K)','+|-',[0.104797,0.11713,0.118417,0.116467,0.101462,0.0872011,0.0741783]),
+        H298 = (-9.83102,'kcal/mol','+|-',0.355966),
+        S298 = (50.8933,'cal/(mol*K)','+|-',0.307601),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         14
-CHOClBr_G4  |         50
+Library             | Number of Species
+library:CHOFClBr_G4 |         14
+library:CHOClBr_G4  |         50
 """,
 )
 
 entry(
-    index = 1359,
+    index = 1041,
     label = "CsCClClCl",
     group = 
 """
@@ -29268,7 +23921,7 @@ entry(
 )
 
 entry(
-    index = 1360,
+    index = 1042,
     label = "CsClClClCs",
     group = 
 """
@@ -29280,24 +23933,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.0977,17.6655,18.7188,19.5381,20.6723,21.2955,21.5677],'cal/(mol*K)','+|-',[0.103232,0.118644,0.121283,0.119503,0.103626,0.0893762,0.0728396]),
-        H298 = (-23.5535,'kcal/mol','+|-',0.368012),
-        S298 = (47.3338,'cal/(mol*K)','+|-',0.250822),
+        Cpdata = ([16.1022,17.6555,18.6988,19.5154,20.651,21.2792,21.5583],'cal/(mol*K)','+|-',[0.0986582,0.110269,0.111481,0.109645,0.0955186,0.0820931,0.0698331]),
+        H298 = (-23.5003,'kcal/mol','+|-',0.335114),
+        S298 = (44.9396,'cal/(mol*K)','+|-',0.289582),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library                  | Number of Species
-CHOCl_G4                 |         159
-Chlorinated_Hydrocarbons |         2
-CHOFCl_G4                |         5
-CHOClBr_G4               |         8
+Library                          | Number of Species
+library:CHOCl_G4                 |         159
+library:Chlorinated_Hydrocarbons |         2
+library:CHOFCl_G4                |         5
+library:CHOClBr_G4               |         8
 """,
 )
 
 entry(
-    index = 1361,
+    index = 1043,
     label = "CsClClClCd",
     group = 
 """
@@ -29309,23 +23962,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.5485,18.1615,19.1699,19.9271,20.8583,21.3585,21.568],'cal/(mol*K)','+|-',[0.132198,0.151935,0.155315,0.153036,0.132703,0.114455,0.0932784]),
-        H298 = (-19.1204,'kcal/mol','+|-',0.471276),
-        S298 = (47.6374,'cal/(mol*K)','+|-',0.321203),
+        Cpdata = ([16.53,18.1179,19.112,19.8641,20.803,21.3165,21.5443],'cal/(mol*K)','+|-',[0.126408,0.141284,0.142837,0.140485,0.122385,0.105183,0.089475]),
+        H298 = (-18.963,'kcal/mol','+|-',0.429371),
+        S298 = (45.247,'cal/(mol*K)','+|-',0.371032),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         56
-CHOFCl_G4  |         2
-CHOClBr_G4 |         3
+Library            | Number of Species
+library:CHOCl_G4   |         56
+library:CHOFCl_G4  |         2
+library:CHOClBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1362,
+    index = 1044,
     label = "CsClClClCt",
     group = 
 """
@@ -29337,22 +23990,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.4022,17.977,18.9309,19.5531,20.45,20.9133,19.9295],'cal/(mol*K)','+|-',[0.293513,0.337333,0.344837,0.339778,0.294633,0.254119,0.207101]),
-        H298 = (-13.3593,'kcal/mol','+|-',1.04635),
-        S298 = (50.1763,'cal/(mol*K)','+|-',0.713149),
+        Cpdata = ([16.4813,18.0801,19.0329,19.7064,20.5602,21.0009,20.0364],'cal/(mol*K)','+|-',[0.282198,0.31541,0.318876,0.313625,0.273218,0.234816,0.199748]),
+        H298 = (-14.4261,'kcal/mol','+|-',0.958548),
+        S298 = (47.3564,'cal/(mol*K)','+|-',0.82831),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOCl_G4  |         7
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOCl_G4  |         7
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1363,
+    index = 1045,
     label = "CsClClClCO",
     group = 
 """
@@ -29365,22 +24018,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([17.0668,18.4444,19.2517,19.8568,20.6651,21.0835,21.284],'cal/(mol*K)','+|-',[0.24002,0.275854,0.281991,0.277854,0.240937,0.207806,0.169357]),
-        H298 = (-14.0361,'kcal/mol','+|-',0.855652),
-        S298 = (47.6053,'cal/(mol*K)','+|-',0.583178),
+        Cpdata = ([17.1079,18.5013,19.3066,19.9099,20.7215,21.1436,21.347],'cal/(mol*K)','+|-',[0.230355,0.257465,0.260294,0.256008,0.223024,0.191677,0.163052]),
+        H298 = (-14.3003,'kcal/mol','+|-',0.78245),
+        S298 = (45.123,'cal/(mol*K)','+|-',0.676138),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         8
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOCl_G4   |         8
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1364,
+    index = 1046,
     label = "CsC2sClClCl",
     group = 
 """
@@ -29392,21 +24045,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.314,17.5106,18.3821,19.1881,20.2325,20.8086,20.941],'cal/(mol*K)','+|-',[0.908394,1.04401,1.06724,1.05158,0.911862,0.786473,0.640958]),
-        H298 = (-18.1,'kcal/mol','+|-',3.23835),
-        S298 = (51.087,'cal/(mol*K)','+|-',2.20713),
+        Cpdata = ([16.3087,17.5074,18.3803,19.1888,20.2304,20.8065,20.9425],'cal/(mol*K)','+|-',[0.867617,0.969725,0.980381,0.964237,0.840007,0.72194,0.614124]),
+        H298 = (-18.143,'kcal/mol','+|-',2.94705),
+        S298 = (49.4623,'cal/(mol*K)','+|-',2.54663),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1365,
+    index = 1047,
     label = "CsBrBrCF",
     group = 
 """
@@ -29418,21 +24071,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([16.7544,18.0281,18.8845,19.5378,20.4598,20.9579,20.9593],'cal/(mol*K)','+|-',[0.0902607,0.103736,0.106044,0.104488,0.0906053,0.0781463,0.0636875]),
-        H298 = (-40.6379,'kcal/mol','+|-',0.321772),
-        S298 = (52.2334,'cal/(mol*K)','+|-',0.219307),
+        Cpdata = ([16.7578,18.0158,18.8627,19.5179,20.4374,20.9427,20.9573],'cal/(mol*K)','+|-',[0.0863424,0.0965038,0.0975643,0.0959577,0.0835947,0.0718451,0.0611156]),
+        H298 = (-40.6885,'kcal/mol','+|-',0.293281),
+        S298 = (51.7771,'cal/(mol*K)','+|-',0.253432),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         105
+Library           | Number of Species
+library:CHOFBr_G4 |         105
 """,
 )
 
 entry(
-    index = 1366,
+    index = 1048,
     label = "CsBrCClF",
     group = 
 """
@@ -29444,21 +24097,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.9075,17.4004,18.4071,19.1786,20.2529,20.8563,21.042],'cal/(mol*K)','+|-',[0.122479,0.140765,0.143897,0.141785,0.122947,0.106041,0.0864209]),
-        H298 = (-53.176,'kcal/mol','+|-',0.436629),
-        S298 = (49.7257,'cal/(mol*K)','+|-',0.297589),
+        Cpdata = ([15.8946,17.3593,18.352,19.1211,20.2014,20.8155,21.0196],'cal/(mol*K)','+|-',[0.117041,0.130815,0.132253,0.130075,0.113317,0.0973894,0.0828451]),
+        H298 = (-53.1066,'kcal/mol','+|-',0.397556),
+        S298 = (50.4256,'cal/(mol*K)','+|-',0.34354),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         50
+Library             | Number of Species
+library:CHOFClBr_G4 |         50
 """,
 )
 
 entry(
-    index = 1367,
+    index = 1049,
     label = "CsCClClF",
     group = 
 """
@@ -29470,22 +24123,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([15.4764,17.0706,18.1014,18.9072,20.0563,20.7001,20.8521],'cal/(mol*K)','+|-',[0.122072,0.140296,0.143417,0.141313,0.122538,0.105688,0.0861331]),
-        H298 = (-66.044,'kcal/mol','+|-',0.435175),
-        S298 = (46.1573,'cal/(mol*K)','+|-',0.296598),
+        Cpdata = ([15.4564,17.0257,18.0467,18.8505,20.003,20.656,20.8275],'cal/(mol*K)','+|-',[0.116651,0.130379,0.131812,0.129642,0.112939,0.0970648,0.082569]),
+        H298 = (-65.9861,'kcal/mol','+|-',0.396231),
+        S298 = (45.4594,'cal/(mol*K)','+|-',0.342395),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFCl_G4   |         39
-CHOFClBr_G4 |         12
+Library             | Number of Species
+library:CHOFCl_G4   |         39
+library:CHOFClBr_G4 |         12
 """,
 )
 
 entry(
-    index = 1368,
+    index = 1050,
     label = "CsBrCFF",
     group = 
 """
@@ -29497,21 +24150,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.9331,16.4747,17.5504,18.3961,19.6055,20.2969,20.5681],'cal/(mol*K)','+|-',[0.0897499,0.103149,0.105444,0.103897,0.0900926,0.0777041,0.0633271]),
-        H298 = (-99.8076,'kcal/mol','+|-',0.319951),
-        S298 = (47.6314,'cal/(mol*K)','+|-',0.218066),
+        Cpdata = ([14.9365,16.4625,17.5288,18.3764,19.5833,20.2818,20.5661],'cal/(mol*K)','+|-',[0.0858528,0.0959566,0.0970111,0.0954136,0.0831207,0.0714377,0.0607691]),
+        H298 = (-99.8577,'kcal/mol','+|-',0.291618),
+        S298 = (47.1589,'cal/(mol*K)','+|-',0.251995),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         106
+Library           | Number of Species
+library:CHOFBr_G4 |         106
 """,
 )
 
 entry(
-    index = 1369,
+    index = 1051,
     label = "CsCClFF",
     group = 
 """
@@ -29523,22 +24176,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.0665,15.9019,17.1353,18.0838,19.4211,20.2032,20.5969],'cal/(mol*K)','+|-',[0.122072,0.140296,0.143417,0.141313,0.122538,0.105688,0.0861331]),
-        H298 = (-113.473,'kcal/mol','+|-',0.435175),
-        S298 = (43.826,'cal/(mol*K)','+|-',0.296598),
+        Cpdata = ([14.0464,15.8571,17.0805,18.0272,19.3678,20.1591,20.5723],'cal/(mol*K)','+|-',[0.116651,0.130379,0.131812,0.129642,0.112939,0.0970648,0.082569]),
+        H298 = (-113.415,'kcal/mol','+|-',0.396231),
+        S298 = (43.1281,'cal/(mol*K)','+|-',0.342395),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFCl_G4   |         39
-CHOFClBr_G4 |         12
+Library             | Number of Species
+library:CHOFCl_G4   |         39
+library:CHOFClBr_G4 |         12
 """,
 )
 
 entry(
-    index = 1370,
+    index = 1052,
     label = "CsCFFF",
     group = 
 """
@@ -29557,7 +24210,7 @@ entry(
 )
 
 entry(
-    index = 1371,
+    index = 1053,
     label = "CsCsFFF",
     group = 
 """
@@ -29569,24 +24222,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.8025,14.7724,16.1296,17.1653,18.6358,19.5347,20.3499],'cal/(mol*K)','+|-',[0.0912707,0.104897,0.107231,0.105657,0.0916192,0.0790208,0.0644001]),
-        H298 = (-166.202,'kcal/mol','+|-',0.325372),
-        S298 = (40.767,'cal/(mol*K)','+|-',0.221761),
+        Cpdata = ([12.7923,14.7513,16.1046,17.141,18.6146,19.5217,20.3458],'cal/(mol*K)','+|-',[0.0872655,0.0975356,0.0986074,0.0969836,0.0844884,0.0726132,0.061769]),
+        H298 = (-166.19,'kcal/mol','+|-',0.296416),
+        S298 = (38.4273,'cal/(mol*K)','+|-',0.256142),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         163
-CHOFCl_G4   |         7
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         39
+Library             | Number of Species
+library:CHOF_G4     |         163
+library:CHOFCl_G4   |         7
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         39
 """,
 )
 
 entry(
-    index = 1372,
+    index = 1054,
     label = "CsCdFFF",
     group = 
 """
@@ -29598,22 +24251,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.4564,14.563,16.0716,17.223,18.7632,19.6983,20.5762],'cal/(mol*K)','+|-',[0.126307,0.145164,0.148393,0.146216,0.126789,0.109354,0.0891214]),
-        H298 = (-162.787,'kcal/mol','+|-',0.450273),
-        S298 = (39.9303,'cal/(mol*K)','+|-',0.306888),
+        Cpdata = ([12.4372,14.5133,16.0067,17.1514,18.6971,19.6456,20.5474],'cal/(mol*K)','+|-',[0.120832,0.135052,0.136536,0.134288,0.116987,0.100544,0.0855283]),
+        H298 = (-162.605,'kcal/mol','+|-',0.410432),
+        S298 = (37.5117,'cal/(mol*K)','+|-',0.354666),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOF_G4   |         56
-CHOFBr_G4 |         9
+Library           | Number of Species
+library:CHOF_G4   |         56
+library:CHOFBr_G4 |         9
 """,
 )
 
 entry(
-    index = 1373,
+    index = 1055,
     label = "CsCtFFF",
     group = 
 """
@@ -29625,22 +24278,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.1194,14.498,16.1566,17.208,18.765,19.6945,19.3936],'cal/(mol*K)','+|-',[0.276555,0.317844,0.324914,0.320147,0.277611,0.239437,0.195136]),
-        H298 = (-154.242,'kcal/mol','+|-',0.985896),
-        S298 = (42.4617,'cal/(mol*K)','+|-',0.671947),
+        Cpdata = ([12.2078,14.6265,16.2829,17.4353,18.9144,19.8042,19.4953],'cal/(mol*K)','+|-',[0.265822,0.297106,0.300371,0.295425,0.257363,0.22119,0.188157]),
+        H298 = (-154.711,'kcal/mol','+|-',0.902923),
+        S298 = (39.4848,'cal/(mol*K)','+|-',0.780243),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOF_G4   |         7
-CHOFBr_G4 |         2
+Library           | Number of Species
+library:CHOF_G4   |         7
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1374,
+    index = 1056,
     label = "CsCOFFF",
     group = 
 """
@@ -29653,23 +24306,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.0778,14.9931,16.316,17.2764,18.5673,19.3777,20.2829],'cal/(mol*K)','+|-',[0.214803,0.246872,0.252363,0.248661,0.215623,0.185973,0.151564]),
-        H298 = (-153.488,'kcal/mol','+|-',0.765753),
-        S298 = (40.76,'cal/(mol*K)','+|-',0.521907),
+        Cpdata = ([13.0991,15.0679,16.4158,17.391,18.7041,19.5209,20.4179],'cal/(mol*K)','+|-',[0.207384,0.231791,0.234338,0.230479,0.200785,0.172563,0.146793]),
+        H298 = (-154.157,'kcal/mol','+|-',0.704425),
+        S298 = (38.1709,'cal/(mol*K)','+|-',0.608715),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOF_G4   |         8
-CHOFCl_G4 |         1
-CHOFBr_G4 |         3
+Library           | Number of Species
+library:CHOF_G4   |         8
+library:CHOFCl_G4 |         1
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1375,
+    index = 1057,
     label = "CsC2sFFF",
     group = 
 """
@@ -29681,21 +24334,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.7525,14.2262,15.7246,16.843,18.4414,19.4616,20.1203],'cal/(mol*K)','+|-',[0.908293,1.0439,1.06712,1.05146,0.91176,0.786385,0.640886]),
-        H298 = (-155.717,'kcal/mol','+|-',3.23799),
-        S298 = (40.6065,'cal/(mol*K)','+|-',2.20688),
+        Cpdata = ([11.7478,14.2187,15.7159,16.8367,18.4329,19.4535,20.118],'cal/(mol*K)','+|-',[0.867522,0.969618,0.980273,0.964131,0.839914,0.721861,0.614057]),
+        H298 = (-155.688,'kcal/mol','+|-',2.94672),
+        S298 = (39.0884,'cal/(mol*K)','+|-',2.54635),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 1376,
+    index = 1058,
     label = "CsBrBrCH",
     group = 
 """
@@ -29707,24 +24360,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.6551,15.0942,16.256,17.22,18.5476,19.3769,19.9874],'cal/(mol*K)','+|-',[0.0828955,0.0952715,0.0973908,0.0959619,0.0832119,0.0717696,0.0584906]),
-        H298 = (4.79193,'kcal/mol','+|-',0.295515),
-        S298 = (48.876,'cal/(mol*K)','+|-',0.201412),
+        Cpdata = ([13.6801,15.1196,16.2762,17.24,18.5595,19.3884,19.9971],'cal/(mol*K)','+|-',[0.0792601,0.088588,0.0895615,0.0880867,0.0767378,0.065952,0.0561026]),
+        H298 = (4.72977,'kcal/mol','+|-',0.269224),
+        S298 = (48.5998,'cal/(mol*K)','+|-',0.232644),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         46
-CHOFClBr_G4 |         4
-CHOFBr_G4   |         44
-CHOClBr_G4  |         21
+Library             | Number of Species
+library:CHOBr_G4    |         46
+library:CHOFClBr_G4 |         4
+library:CHOFBr_G4   |         44
+library:CHOClBr_G4  |         21
 """,
 )
 
 entry(
-    index = 1377,
+    index = 1059,
     label = "CsBrBrCsH",
     group = 
 """
@@ -29736,24 +24389,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.8055,15.4986,16.769,17.7972,19.2211,20.013,20.525],'cal/(mol*K)','+|-',[0.065305,0.0750549,0.0767245,0.0755988,0.0655544,0.0565401,0.0460789]),
-        H298 = (2.56116,'kcal/mol','+|-',0.232807),
-        S298 = (47.9185,'cal/(mol*K)','+|-',0.158672),
+        Cpdata = ([13.8001,15.5037,16.7814,17.809,19.2274,20.0158,20.522],'cal/(mol*K)','+|-',[0.0624991,0.0698545,0.0706221,0.0694592,0.0605102,0.0520053,0.0442387]),
+        H298 = (2.53974,'kcal/mol','+|-',0.212292),
+        S298 = (47.9485,'cal/(mol*K)','+|-',0.183448),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         75
-CHOFClBr_G4 |         10
-CHOFBr_G4   |         74
-CHOClBr_G4  |         33
+Library             | Number of Species
+library:CHOBr_G4    |         75
+library:CHOFClBr_G4 |         10
+library:CHOFBr_G4   |         74
+library:CHOClBr_G4  |         33
 """,
 )
 
 entry(
-    index = 1378,
+    index = 1060,
     label = "CsBrCClH",
     group = 
 """
@@ -29765,22 +24418,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.2524,14.8939,16.126,17.1406,18.5972,19.4825,20.2423],'cal/(mol*K)','+|-',[0.0673062,0.0773548,0.0790755,0.0779154,0.0675632,0.0582726,0.0474909]),
-        H298 = (-7.96045,'kcal/mol','+|-',0.239941),
-        S298 = (46.3993,'cal/(mol*K)','+|-',0.163534),
+        Cpdata = ([13.2511,14.9016,16.1391,17.157,18.6073,19.4897,20.2453],'cal/(mol*K)','+|-',[0.0643584,0.0719326,0.072723,0.0715255,0.0623103,0.0535523,0.0455547]),
+        H298 = (-8.00812,'kcal/mol','+|-',0.218607),
+        S298 = (47.5123,'cal/(mol*K)','+|-',0.188905),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         53
-CHOClBr_G4  |         112
+Library             | Number of Species
+library:CHOFClBr_G4 |         53
+library:CHOClBr_G4  |         112
 """,
 )
 
 entry(
-    index = 1379,
+    index = 1061,
     label = "CsCClClH",
     group = 
 """
@@ -29792,23 +24445,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.6667,14.3235,15.6018,16.6377,18.1077,19.0613,19.8792],'cal/(mol*K)','+|-',[0.0821716,0.0944396,0.0965404,0.095124,0.0824854,0.0711429,0.0579799]),
-        H298 = (-17.6924,'kcal/mol','+|-',0.292935),
-        S298 = (43.7009,'cal/(mol*K)','+|-',0.199653),
+        Cpdata = ([12.6693,14.3316,15.6114,16.6565,18.1229,19.0789,19.9028],'cal/(mol*K)','+|-',[0.0786682,0.0879265,0.0888927,0.0874289,0.0761647,0.0654595,0.0556836]),
+        H298 = (-17.8391,'kcal/mol','+|-',0.267214),
+        S298 = (43.4152,'cal/(mol*K)','+|-',0.230907),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOCl_G4   |         72
-CHOFCl_G4  |         17
-CHOClBr_G4 |         18
+Library            | Number of Species
+library:CHOCl_G4   |         72
+library:CHOFCl_G4  |         17
+library:CHOClBr_G4 |         18
 """,
 )
 
 entry(
-    index = 1380,
+    index = 1062,
     label = "CsCsClClH",
     group = 
 """
@@ -29820,24 +24473,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.9467,14.8218,16.1741,17.2659,18.7964,19.6715,20.4338],'cal/(mol*K)','+|-',[0.0600193,0.06898,0.0705145,0.0694799,0.0602485,0.0519638,0.0423493]),
-        H298 = (-20.9422,'kcal/mol','+|-',0.213964),
-        S298 = (42.3064,'cal/(mol*K)','+|-',0.145829),
+        Cpdata = ([12.9394,14.8259,16.187,17.278,18.8003,19.6727,20.4305],'cal/(mol*K)','+|-',[0.0576018,0.0643808,0.0650883,0.0640164,0.0557687,0.0479302,0.0407722]),
+        H298 = (-20.8833,'kcal/mol','+|-',0.195657),
+        S298 = (42.1902,'cal/(mol*K)','+|-',0.169073),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library                  | Number of Species
-CHOCl_G4                 |         162
-Chlorinated_Hydrocarbons |         2
-CHOFCl_G4                |         26
-CHOClBr_G4               |         41
+Library                          | Number of Species
+library:CHOCl_G4                 |         162
+library:Chlorinated_Hydrocarbons |         2
+library:CHOFCl_G4                |         26
+library:CHOClBr_G4               |         41
 """,
 )
 
 entry(
-    index = 1381,
+    index = 1063,
     label = "CsBrCFH",
     group = 
 """
@@ -29849,21 +24502,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.6116,14.3531,15.6497,16.7106,18.2306,19.1515,19.9835],'cal/(mol*K)','+|-',[0.0647582,0.0744264,0.076082,0.0749658,0.0650054,0.0560666,0.045693]),
-        H298 = (-48.2752,'kcal/mol','+|-',0.230858),
-        S298 = (43.8772,'cal/(mol*K)','+|-',0.157343),
+        Cpdata = ([12.6207,14.3794,15.6842,16.7464,18.2547,19.1714,19.9951],'cal/(mol*K)','+|-',[0.0619771,0.069271,0.0700322,0.068879,0.0600047,0.0515708,0.0438691]),
+        H298 = (-48.3341,'kcal/mol','+|-',0.210518),
+        S298 = (45.1612,'cal/(mol*K)','+|-',0.181915),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         183
+Library           | Number of Species
+library:CHOFBr_G4 |         183
 """,
 )
 
 entry(
-    index = 1382,
+    index = 1064,
     label = "CsCClFH",
     group = 
 """
@@ -29875,22 +24528,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.0304,13.7733,15.0641,16.1288,17.7187,18.7304,19.7378],'cal/(mol*K)','+|-',[0.0676875,0.077793,0.0795235,0.0783568,0.0679459,0.0586028,0.0477599]),
-        H298 = (-60.7464,'kcal/mol','+|-',0.2413),
-        S298 = (40.6186,'cal/(mol*K)','+|-',0.164461),
+        Cpdata = ([12.0186,13.7781,15.0814,16.1526,17.7326,18.7404,19.7511],'cal/(mol*K)','+|-',[0.0648041,0.0724308,0.0732267,0.0720209,0.0627418,0.0539232,0.0458702]),
+        H298 = (-60.8642,'kcal/mol','+|-',0.220121),
+        S298 = (41.6647,'cal/(mol*K)','+|-',0.190213),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFCl_G4   |         105
-CHOFClBr_G4 |         58
+Library             | Number of Species
+library:CHOFCl_G4   |         105
+library:CHOFClBr_G4 |         58
 """,
 )
 
 entry(
-    index = 1383,
+    index = 1065,
     label = "CsCFFH",
     group = 
 """
@@ -29902,24 +24555,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.4901,12.2468,13.7227,14.959,16.7822,18.0139,19.3176],'cal/(mol*K)','+|-',[0.0779171,0.0895498,0.0915418,0.0901988,0.0782145,0.0674594,0.0549779]),
-        H298 = (-103.641,'kcal/mol','+|-',0.277768),
-        S298 = (38.8963,'cal/(mol*K)','+|-',0.189315),
+        Cpdata = ([10.4817,12.2471,13.7262,14.9741,16.793,18.0279,19.3402],'cal/(mol*K)','+|-',[0.074663,0.08345,0.084367,0.0829777,0.072287,0.0621268,0.0528486]),
+        H298 = (-103.639,'kcal/mol','+|-',0.253609),
+        S298 = (38.6996,'cal/(mol*K)','+|-',0.219151),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         71
-CHOFCl_G4   |         14
-CHOFClBr_G4 |         2
-CHOFBr_G4   |         36
+Library             | Number of Species
+library:CHOF_G4     |         71
+library:CHOFCl_G4   |         14
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         36
 """,
 )
 
 entry(
-    index = 1384,
+    index = 1066,
     label = "CsCsFFH",
     group = 
 """
@@ -29931,24 +24584,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3297,13.1589,14.4985,15.6113,17.2724,18.3427,19.5756],'cal/(mol*K)','+|-',[0.0528507,0.0607411,0.0620923,0.0611813,0.0530525,0.0457573,0.0372912]),
-        H298 = (-107.411,'kcal/mol','+|-',0.188408),
-        S298 = (38.0506,'cal/(mol*K)','+|-',0.128412),
+        Cpdata = ([11.3203,13.1763,14.5351,15.6492,17.3004,18.366,19.588],'cal/(mol*K)','+|-',[0.0508108,0.0567906,0.0574147,0.0564692,0.0491938,0.0422794,0.0359653]),
+        H298 = (-107.32,'kcal/mol','+|-',0.17259),
+        S298 = (38.0344,'cal/(mol*K)','+|-',0.14914),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         163
-CHOFCl_G4   |         38
-CHOFClBr_G4 |         9
-CHOFBr_G4   |         103
+Library             | Number of Species
+library:CHOF_G4     |         163
+library:CHOFCl_G4   |         38
+library:CHOFClBr_G4 |         9
+library:CHOFBr_G4   |         103
 """,
 )
 
 entry(
-    index = 1385,
+    index = 1067,
     label = "CsBrCHH",
     group = 
 """
@@ -29960,24 +24613,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.60714,11.3502,12.7826,14.0053,15.799,17.0943,18.7376],'cal/(mol*K)','+|-',[0.0611201,0.0702451,0.0718077,0.0707542,0.0613535,0.0529168,0.043126]),
-        H298 = (-3.61451,'kcal/mol','+|-',0.217888),
-        S298 = (39.4067,'cal/(mol*K)','+|-',0.148504),
+        Cpdata = ([9.61806,11.3613,12.7909,14.0145,15.808,17.106,18.7447],'cal/(mol*K)','+|-',[0.0584563,0.0653359,0.0660538,0.0649661,0.056596,0.0486412,0.041377]),
+        H298 = (-3.60888,'kcal/mol','+|-',0.198559),
+        S298 = (39.3121,'cal/(mol*K)','+|-',0.171581),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         63
-CHOFClBr_G4 |         20
-CHOFBr_G4   |         76
-CHOClBr_G4  |         48
+Library             | Number of Species
+library:CHOBr_G4    |         63
+library:CHOFClBr_G4 |         20
+library:CHOFBr_G4   |         76
+library:CHOClBr_G4  |         48
 """,
 )
 
 entry(
-    index = 1386,
+    index = 1068,
     label = "CsBrCsHH",
     group = 
 """
@@ -29989,24 +24642,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.1467,11.9455,13.3867,14.5914,16.4048,17.6368,19.1929],'cal/(mol*K)','+|-',[0.0484643,0.0556998,0.0569389,0.0561035,0.0486493,0.0419596,0.0341961]),
-        H298 = (-5.65225,'kcal/mol','+|-',0.172771),
-        S298 = (38.1737,'cal/(mol*K)','+|-',0.117754),
+        Cpdata = ([10.1598,11.9693,13.4133,14.6137,16.4193,17.646,19.1935],'cal/(mol*K)','+|-',[0.0463846,0.0518435,0.0524132,0.0515501,0.0449085,0.0385964,0.0328324]),
+        H298 = (-5.63802,'kcal/mol','+|-',0.157555),
+        S298 = (38.3601,'cal/(mol*K)','+|-',0.136148),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         114
-CHOFClBr_G4 |         38
-CHOFBr_G4   |         148
-CHOClBr_G4  |         76
+Library             | Number of Species
+library:CHOBr_G4    |         114
+library:CHOFClBr_G4 |         38
+library:CHOFBr_G4   |         148
+library:CHOClBr_G4  |         76
 """,
 )
 
 entry(
-    index = 1387,
+    index = 1069,
     label = "CsCClHH",
     group = 
 """
@@ -30018,24 +24671,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.2051,10.9015,12.3424,13.5855,15.4688,16.8304,18.5266],'cal/(mol*K)','+|-',[0.0691911,0.0795211,0.0812901,0.0800975,0.0694553,0.0599046,0.0488209]),
-        H298 = (-14.2491,'kcal/mol','+|-',0.246661),
-        S298 = (36.647,'cal/(mol*K)','+|-',0.168114),
+        Cpdata = ([9.20604,10.9068,12.3483,13.5972,15.4794,16.8446,18.5436],'cal/(mol*K)','+|-',[0.0662126,0.074005,0.0748182,0.0735862,0.0641055,0.0550952,0.0468672]),
+        H298 = (-14.3277,'kcal/mol','+|-',0.224905),
+        S298 = (36.5006,'cal/(mol*K)','+|-',0.194347),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         72
-CHOFCl_G4   |         45
-CHOFClBr_G4 |         2
-CHOClBr_G4  |         39
+Library             | Number of Species
+library:CHOCl_G4    |         72
+library:CHOFCl_G4   |         45
+library:CHOFClBr_G4 |         2
+library:CHOClBr_G4  |         39
 """,
 )
 
 entry(
-    index = 1388,
+    index = 1070,
     label = "CsClCsHH",
     group = 
 """
@@ -30047,25 +24700,25 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.73272,11.5646,13.0312,14.2592,16.118,17.3667,19.0044],'cal/(mol*K)','+|-',[0.0497673,0.0571974,0.0584697,0.0576119,0.0499573,0.0430878,0.0351156]),
-        H298 = (-16.8453,'kcal/mol','+|-',0.177416),
-        S298 = (35.5317,'cal/(mol*K)','+|-',0.12092),
+        Cpdata = ([9.74959,11.6025,13.0787,14.3041,16.1514,17.3936,19.0137],'cal/(mol*K)','+|-',[0.0477666,0.0533881,0.0539748,0.053086,0.0462465,0.0397463,0.0338105]),
+        H298 = (-16.7696,'kcal/mol','+|-',0.162249),
+        S298 = (35.5198,'cal/(mol*K)','+|-',0.140205),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library                  | Number of Species
-CHOCl_G4                 |         157
-Chlorinated_Hydrocarbons |         2
-CHOFCl_G4                |         74
-CHOFClBr_G4              |         4
-CHOClBr_G4               |         108
+Library                          | Number of Species
+library:CHOCl_G4                 |         157
+library:Chlorinated_Hydrocarbons |         2
+library:CHOFCl_G4                |         74
+library:CHOFClBr_G4              |         4
+library:CHOClBr_G4               |         108
 """,
 )
 
 entry(
-    index = 1389,
+    index = 1071,
     label = "CsCFHH",
     group = 
 """
@@ -30077,24 +24730,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.41057,10.0665,11.5773,12.8925,14.9184,16.4036,18.3112],'cal/(mol*K)','+|-',[0.0666238,0.0765705,0.0782738,0.0771255,0.0668782,0.0576818,0.0470094]),
-        H298 = (-51.768,'kcal/mol','+|-',0.237508),
-        S298 = (34.3127,'cal/(mol*K)','+|-',0.161876),
+        Cpdata = ([8.40036,10.0504,11.5589,12.8817,14.9099,16.4035,18.324],'cal/(mol*K)','+|-',[0.0638133,0.0713233,0.0721071,0.0709197,0.0617825,0.0530987,0.0451689]),
+        H298 = (-51.738,'kcal/mol','+|-',0.216756),
+        S298 = (34.3106,'cal/(mol*K)','+|-',0.187305),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         72
-CHOFCl_G4   |         36
-CHOFClBr_G4 |         13
-CHOFBr_G4   |         64
+Library             | Number of Species
+library:CHOF_G4     |         72
+library:CHOFCl_G4   |         36
+library:CHOFClBr_G4 |         13
+library:CHOFBr_G4   |         64
 """,
 )
 
 entry(
-    index = 1390,
+    index = 1072,
     label = "CsCsFHH",
     group = 
 """
@@ -30106,24 +24759,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.92,10.6315,12.0624,13.2994,15.2486,16.6277,18.5671],'cal/(mol*K)','+|-',[0.0435109,0.050007,0.0511194,0.0503694,0.043677,0.0376711,0.0307011]),
-        H298 = (-54.87,'kcal/mol','+|-',0.155113),
-        S298 = (33.6507,'cal/(mol*K)','+|-',0.105719),
+        Cpdata = ([8.92795,10.6748,12.1236,13.3608,15.3005,16.6721,18.5891],'cal/(mol*K)','+|-',[0.0419294,0.046864,0.047379,0.0465988,0.0405951,0.0348893,0.0296788]),
+        H298 = (-54.739,'kcal/mol','+|-',0.142422),
+        S298 = (33.7597,'cal/(mol*K)','+|-',0.123071),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         163
-CHOFCl_G4   |         103
-CHOFClBr_G4 |         49
-CHOFBr_G4   |         195
+Library             | Number of Species
+library:CHOF_G4     |         163
+library:CHOFCl_G4   |         103
+library:CHOFClBr_G4 |         49
+library:CHOFBr_G4   |         195
 """,
 )
 
 entry(
-    index = 1391,
+    index = 1073,
     label = "CsBrBrCO",
     group = 
 """
@@ -30133,12 +24786,7 @@ entry(
 4   Br u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.5433,16.1629,17.0347,17.6132,18.2123,18.3306,17.6446],'cal/(mol*K)','+|-',[0.0864582,0.0993661,0.101576,0.100086,0.0867883,0.0748541,0.0610044]),
-        H298 = (1.69082,'kcal/mol','+|-',0.308216),
-        S298 = (23.897,'cal/(mol*K)','+|-',0.210068),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -30152,7 +24800,7 @@ CHOClBr_G4  |         16
 )
 
 entry(
-    index = 1392,
+    index = 1074,
     label = "CsBrBrCO_H",
     group = 
 """
@@ -30163,16 +24811,26 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.9397,16.5951,17.3931,17.9053,18.3989,18.4679,17.7107],'cal/(mol*K)','+|-',[0.110067,0.123021,0.124373,0.122325,0.106565,0.0915864,0.0779087]),
+        H298 = (1.85071,'kcal/mol','+|-',0.373867),
+        S298 = (24.1189,'cal/(mol*K)','+|-',0.32307),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         16
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         28
+library:CHOClBr_G4  |         11
 """,
 )
 
 entry(
-    index = 1393,
+    index = 1075,
     label = "CsBrBrCO_F",
     group = 
 """
@@ -30183,16 +24841,23 @@ entry(
 5   Br u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.6755,16.4523,17.5283,17.9973,18.2962,18.3556,17.7803],'cal/(mol*K)','+|-',[0.466153,0.521014,0.526739,0.518065,0.451319,0.387884,0.329957]),
+        H298 = (4.34956,'kcal/mol','+|-',1.58339),
+        S298 = (24.5804,'cal/(mol*K)','+|-',1.36825),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1394,
+    index = 1076,
     label = "CsBrBrCO_Cl",
     group = 
 """
@@ -30203,16 +24868,23 @@ entry(
 5   Br u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.0999,16.2863,17.6264,18.2813,18.7847,18.8932,18.2097],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (2.08732,'kcal/mol','+|-',2.69773),
+        S298 = (25.4307,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1395,
+    index = 1077,
     label = "CsBrBrCO_Br",
     group = 
 """
@@ -30223,16 +24895,25 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.1821,15.7339,16.7071,17.271,17.7888,17.9661,17.4065],'cal/(mol*K)','+|-',[0.168368,0.188183,0.190251,0.187118,0.16301,0.140098,0.119176]),
+        H298 = (2.52252,'kcal/mol','+|-',0.571898),
+        S298 = (23.7876,'cal/(mol*K)','+|-',0.494194),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         13
+library:CHOFBr_G4  |         11
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1396,
+    index = 1078,
     label = "CsBrBrCO_C",
     group = 
 """
@@ -30243,16 +24924,25 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.5732,15.7091,16.996,17.8226,18.6493,18.785,17.828],'cal/(mol*K)','+|-',[0.244341,0.273097,0.276098,0.271551,0.236565,0.203315,0.172951]),
+        H298 = (-2.93488,'kcal/mol','+|-',0.829956),
+        S298 = (16.2068,'cal/(mol*K)','+|-',0.71719),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         6
+library:CHOFBr_G4  |         4
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1397,
+    index = 1079,
     label = "CsBrBrCO_O",
     group = 
 """
@@ -30263,16 +24953,25 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.7645,14.9417,15.7554,16.3294,17.1395,17.1577,16.7901],'cal/(mol*K)','+|-',[0.268936,0.300586,0.303889,0.298885,0.260377,0.22378,0.19036]),
+        H298 = (3.81688,'kcal/mol','+|-',0.913498),
+        S298 = (23.0916,'cal/(mol*K)','+|-',0.789381),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         4
+library:CHOFBr_G4  |         4
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1398,
+    index = 1080,
     label = "CsBrCClO",
     group = 
 """
@@ -30282,12 +24981,7 @@ entry(
 4   Cl u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9494,15.837,16.8196,17.4768,18.1622,18.2947,17.5929],'cal/(mol*K)','+|-',[0.120931,0.138986,0.142077,0.139993,0.121393,0.1047,0.0853284]),
-        H298 = (-10.9098,'kcal/mol','+|-',0.431109),
-        S298 = (21.6756,'cal/(mol*K)','+|-',0.293827),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -30299,7 +24993,7 @@ CHOClBr_G4  |         33
 )
 
 entry(
-    index = 1399,
+    index = 1081,
     label = "CsBrCClO_H",
     group = 
 """
@@ -30310,16 +25004,24 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.2723,16.2305,17.1723,17.8157,18.4667,18.5611,17.6803],'cal/(mol*K)','+|-',[0.149206,0.166766,0.168598,0.165822,0.144458,0.124154,0.105612]),
+        H298 = (-10.8174,'kcal/mol','+|-',0.506811),
+        S298 = (22.9482,'cal/(mol*K)','+|-',0.43795),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         11
+library:CHOClBr_G4  |         18
 """,
 )
 
 entry(
-    index = 1400,
+    index = 1082,
     label = "CsBrCClO_F",
     group = 
 """
@@ -30330,16 +25032,23 @@ entry(
 5   Br u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.4299,15.9053,17.1087,17.8731,18.5945,18.7346,17.8929],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-7.86104,'kcal/mol','+|-',2.70116),
+        S298 = (24.3013,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1401,
+    index = 1083,
     label = "CsBrCClO_Cl",
     group = 
 """
@@ -30350,16 +25059,23 @@ entry(
 5   Br u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.4021,15.8673,17.2077,17.9899,18.7886,18.9889,18.1546],'cal/(mol*K)','+|-',[0.794217,0.887686,0.897441,0.882663,0.768942,0.660864,0.56217]),
+        H298 = (-10.0862,'kcal/mol','+|-',2.69773),
+        S298 = (24.1092,'cal/(mol*K)','+|-',2.33119),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1402,
+    index = 1084,
     label = "CsBrCClO_Br",
     group = 
 """
@@ -30370,16 +25086,24 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.4026,15.3038,16.4482,17.0472,17.5573,17.7527,17.3226],'cal/(mol*K)','+|-',[0.257962,0.288321,0.291489,0.286689,0.249753,0.214649,0.182593]),
+        H298 = (-9.90815,'kcal/mol','+|-',0.876224),
+        S298 = (23.3524,'cal/(mol*K)','+|-',0.757171),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         2
+library:CHOClBr_G4  |         8
 """,
 )
 
 entry(
-    index = 1403,
+    index = 1085,
     label = "CsBrCClO_C",
     group = 
 """
@@ -30390,16 +25114,24 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.2767,15.4944,16.7819,17.5492,18.2174,18.2715,17.5266],'cal/(mol*K)','+|-',[0.397149,0.443889,0.448766,0.441377,0.38451,0.330466,0.281114]),
+        H298 = (-15.7442,'kcal/mol','+|-',1.349),
+        S298 = (14.9535,'cal/(mol*K)','+|-',1.16571),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 1404,
+    index = 1086,
     label = "CsBrCClO_O",
     group = 
 """
@@ -30410,16 +25142,24 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.9513,14.2276,15.0662,15.6622,16.5732,16.7248,16.7803],'cal/(mol*K)','+|-',[0.397309,0.444067,0.448947,0.441554,0.384665,0.330599,0.281227]),
+        H298 = (-9.2815,'kcal/mol','+|-',1.34955),
+        S298 = (21.0276,'cal/(mol*K)','+|-',1.16618),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 1405,
+    index = 1087,
     label = "CsCClClO",
     group = 
 """
@@ -30429,12 +25169,7 @@ entry(
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.389,15.3514,16.3795,17.07,17.8052,17.9899,17.3758],'cal/(mol*K)','+|-',[0.0843206,0.0969094,0.0990652,0.0976118,0.0846426,0.0730035,0.0594962]),
-        H298 = (-22.8011,'kcal/mol','+|-',0.300596),
-        S298 = (18.6838,'cal/(mol*K)','+|-',0.204874),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -30448,7 +25183,7 @@ CHOClBr_G4  |         12
 )
 
 entry(
-    index = 1406,
+    index = 1088,
     label = "CsCClClO_H",
     group = 
 """
@@ -30459,16 +25194,25 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.7387,15.7058,16.6672,17.3257,18.0337,18.1703,17.3778],'cal/(mol*K)','+|-',[0.118722,0.132694,0.134152,0.131943,0.114944,0.0987882,0.084035]),
+        H298 = (-23.0711,'kcal/mol','+|-',0.403265),
+        S298 = (18.3139,'cal/(mol*K)','+|-',0.348474),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         32
+library:CHOFCl_G4  |         11
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1407,
+    index = 1089,
     label = "CsCClClO_F",
     group = 
 """
@@ -30479,16 +25223,23 @@ entry(
 5   Cl u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.991,15.6067,16.8349,17.6209,18.3773,18.5438,17.7452],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-19.9774,'kcal/mol','+|-',2.70116),
+        S298 = (18.8845,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1408,
+    index = 1090,
     label = "CsCClClO_Cl",
     group = 
 """
@@ -30499,16 +25250,24 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.0257,15.0419,16.2104,16.9064,17.565,17.7944,17.3326],'cal/(mol*K)','+|-',[0.156018,0.17438,0.176296,0.173393,0.151053,0.129822,0.110434]),
+        H298 = (-21.0854,'kcal/mol','+|-',0.52995),
+        S298 = (18.0948,'cal/(mol*K)','+|-',0.457946),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         32
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1409,
+    index = 1091,
     label = "CsCClClO_Br",
     group = 
 """
@@ -30519,16 +25278,24 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.0066,14.987,16.0804,16.7447,17.4237,17.6802,17.1057],'cal/(mol*K)','+|-',[0.258169,0.288552,0.291723,0.286919,0.249953,0.214821,0.182739]),
+        H298 = (-22.0312,'kcal/mol','+|-',0.876927),
+        S298 = (18.4332,'cal/(mol*K)','+|-',0.757779),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         2
+library:CHOClBr_G4  |         8
 """,
 )
 
 entry(
-    index = 1410,
+    index = 1092,
     label = "CsCClClO_C",
     group = 
 """
@@ -30539,16 +25306,25 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.136,15.5204,16.7917,17.5076,18.0913,18.1534,17.5743],'cal/(mol*K)','+|-',[0.204721,0.228814,0.231329,0.227519,0.198206,0.170347,0.144907]),
+        H298 = (-25.7941,'kcal/mol','+|-',0.695379),
+        S298 = (14.2989,'cal/(mol*K)','+|-',0.600898),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         15
+library:CHOFCl_G4  |         1
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1411,
+    index = 1093,
     label = "CsCClClO_O",
     group = 
 """
@@ -30559,16 +25335,24 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.0582,14.8727,15.8545,16.5144,17.2939,17.2462,16.6879],'cal/(mol*K)','+|-',[0.275754,0.308207,0.311594,0.306463,0.266979,0.229454,0.195187]),
+        H298 = (-21.1339,'kcal/mol','+|-',0.936659),
+        S298 = (17.6317,'cal/(mol*K)','+|-',0.809395),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         8
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1412,
+    index = 1094,
     label = "CsBrCFO",
     group = 
 """
@@ -30578,12 +25362,7 @@ entry(
 4   F  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.904,14.8838,16.0095,16.7781,17.6155,17.8602,17.2953],'cal/(mol*K)','+|-',[0.112322,0.129092,0.131963,0.130027,0.112751,0.0972469,0.079254]),
-        H298 = (-55.5978,'kcal/mol','+|-',0.40042),
-        S298 = (20.0622,'cal/(mol*K)','+|-',0.27291),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -30594,7 +25373,7 @@ CHOFBr_G4 |         58
 )
 
 entry(
-    index = 1413,
+    index = 1095,
     label = "CsBrCFO_H",
     group = 
 """
@@ -30605,16 +25384,23 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.0029,15.0762,16.2014,16.983,17.8621,18.1353,17.5063],'cal/(mol*K)','+|-',[0.151965,0.16985,0.171716,0.168888,0.147129,0.126449,0.107565]),
+        H298 = (-56.0478,'kcal/mol','+|-',0.516182),
+        S298 = (20.84,'cal/(mol*K)','+|-',0.446048),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         28
 """,
 )
 
 entry(
-    index = 1414,
+    index = 1096,
     label = "CsBrCFO_F",
     group = 
 """
@@ -30625,36 +25411,23 @@ entry(
 5   Br u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.4559,14.5139,15.9086,16.785,17.6833,17.9957,17.4423],'cal/(mol*K)','+|-',[0.465316,0.520078,0.525793,0.517135,0.450508,0.387187,0.329364]),
+        H298 = (-52.3038,'kcal/mol','+|-',1.58055),
+        S298 = (21.4849,'cal/(mol*K)','+|-',1.3658),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1415,
-    label = "CsBrCFO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   F  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1416,
+    index = 1097,
     label = "CsBrCFO_Br",
     group = 
 """
@@ -30665,16 +25438,23 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.6785,14.7179,15.9705,16.6872,17.3371,17.5653,17.0513],'cal/(mol*K)','+|-',[0.2075,0.23192,0.234468,0.230607,0.200896,0.17266,0.146874]),
+        H298 = (-54.4333,'kcal/mol','+|-',0.704817),
+        S298 = (21.7539,'cal/(mol*K)','+|-',0.609054),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         16
 """,
 )
 
 entry(
-    index = 1417,
+    index = 1098,
     label = "CsBrCFO_C",
     group = 
 """
@@ -30685,16 +25465,23 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.5151,14.7349,16.0462,16.8283,17.5049,17.6123,17.0398],'cal/(mol*K)','+|-',[0.326108,0.364486,0.368492,0.362424,0.31573,0.271353,0.230828]),
+        H298 = (-59.3432,'kcal/mol','+|-',1.10769),
+        S298 = (16.7635,'cal/(mol*K)','+|-',0.957192),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         6
 """,
 )
 
 entry(
-    index = 1418,
+    index = 1099,
     label = "CsBrCFO_O",
     group = 
 """
@@ -30705,16 +25492,23 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.1253,14.4551,15.2701,15.8454,16.6188,16.6047,16.203],'cal/(mol*K)','+|-',[0.357602,0.399688,0.40408,0.397426,0.346222,0.297559,0.253121]),
+        H298 = (-52.9714,'kcal/mol','+|-',1.21467),
+        S298 = (20.2314,'cal/(mol*K)','+|-',1.04964),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         5
 """,
 )
 
 entry(
-    index = 1419,
+    index = 1100,
     label = "CsCClFO",
     group = 
 """
@@ -30724,12 +25518,7 @@ entry(
 4   F  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.3519,14.5607,15.7159,16.496,17.3994,17.6879,17.1349],'cal/(mol*K)','+|-',[0.128194,0.147333,0.150611,0.148401,0.128684,0.110989,0.0904532]),
-        H298 = (-69.0461,'kcal/mol','+|-',0.457002),
-        S298 = (16.3597,'cal/(mol*K)','+|-',0.311474),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -30741,7 +25530,7 @@ CHOFClBr_G4 |         12
 )
 
 entry(
-    index = 1420,
+    index = 1101,
     label = "CsCClFO_H",
     group = 
 """
@@ -30752,16 +25541,24 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.3359,14.7333,15.9448,16.7619,17.7005,17.9963,17.3627],'cal/(mol*K)','+|-',[0.178571,0.199587,0.20178,0.198457,0.172888,0.148588,0.126398]),
+        H298 = (-69.4989,'kcal/mol','+|-',0.606555),
+        S298 = (16.7016,'cal/(mol*K)','+|-',0.524142),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         18
+library:CHOFClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1421,
+    index = 1102,
     label = "CsCClFO_F",
     group = 
 """
@@ -30772,16 +25569,23 @@ entry(
 5   Cl u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.4804,14.8237,16.1876,17.062,17.9726,18.2597,17.6104],'cal/(mol*K)','+|-',[0.795228,0.888816,0.898583,0.883786,0.769921,0.661705,0.562885]),
+        H298 = (-65.461,'kcal/mol','+|-',2.70116),
+        S298 = (17.5061,'cal/(mol*K)','+|-',2.33416),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1422,
+    index = 1103,
     label = "CsCClFO_Cl",
     group = 
 """
@@ -30792,16 +25596,23 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.3665,14.5695,15.7923,16.507,17.2432,17.492,16.8716],'cal/(mol*K)','+|-',[0.307949,0.344191,0.347974,0.342243,0.298149,0.256243,0.217975]),
+        H298 = (-67.0079,'kcal/mol','+|-',1.04602),
+        S298 = (17.5332,'cal/(mol*K)','+|-',0.903894),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         7
 """,
 )
 
 entry(
-    index = 1423,
+    index = 1104,
     label = "CsCClFO_Br",
     group = 
 """
@@ -30812,16 +25623,23 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.0673,14.2761,15.5615,16.3127,17.1102,17.4334,16.9346],'cal/(mol*K)','+|-',[0.286303,0.319997,0.323514,0.318186,0.277192,0.238231,0.202654]),
+        H298 = (-67.496,'kcal/mol','+|-',0.97249),
+        S298 = (18.4946,'cal/(mol*K)','+|-',0.840358),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         8
 """,
 )
 
 entry(
-    index = 1424,
+    index = 1105,
     label = "CsCClFO_C",
     group = 
 """
@@ -30832,16 +25650,24 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2557,14.3514,15.4969,16.179,16.8811,17.056,16.6741],'cal/(mol*K)','+|-',[0.39724,0.44399,0.448869,0.441477,0.384598,0.330541,0.281178]),
+        H298 = (-73.0063,'kcal/mol','+|-',1.34931),
+        S298 = (13.3026,'cal/(mol*K)','+|-',1.16598),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         3
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1425,
+    index = 1106,
     label = "CsCClFO_O",
     group = 
 """
@@ -30852,16 +25678,24 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2445,13.9563,14.8894,15.5545,16.412,16.4736,16.2153],'cal/(mol*K)','+|-',[0.460278,0.514447,0.5201,0.511536,0.445631,0.382995,0.325798]),
+        H298 = (-67.9618,'kcal/mol','+|-',1.56343),
+        S298 = (15.9562,'cal/(mol*K)','+|-',1.35101),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         2
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1426,
+    index = 1107,
     label = "CsCFFO",
     group = 
 """
@@ -30871,12 +25705,7 @@ entry(
 4   F  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.8949,13.1345,14.4005,15.2627,16.2919,16.7267,16.5574],'cal/(mol*K)','+|-',[0.0800284,0.0919764,0.0940224,0.092643,0.080334,0.0692874,0.0564677]),
-        H298 = (-117.454,'kcal/mol','+|-',0.285295),
-        S298 = (14.4921,'cal/(mol*K)','+|-',0.194446),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -30889,7 +25718,7 @@ CHOFBr_G4 |         30
 )
 
 entry(
-    index = 1427,
+    index = 1108,
     label = "CsCFFO_H",
     group = 
 """
@@ -30900,16 +25729,25 @@ entry(
 5   F  u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7499,13.1398,14.5353,15.488,16.6487,17.1331,16.9111],'cal/(mol*K)','+|-',[0.125272,0.140015,0.141554,0.139223,0.121285,0.104238,0.0886711]),
+        H298 = (-119.819,'kcal/mol','+|-',0.425513),
+        S298 = (13.1015,'cal/(mol*K)','+|-',0.367699),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         32
+library:CHOFCl_G4 |         2
+library:CHOFBr_G4 |         6
 """,
 )
 
 entry(
-    index = 1428,
+    index = 1109,
     label = "CsCFFO_F",
     group = 
 """
@@ -30920,16 +25758,24 @@ entry(
 5   F  u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7631,13.0691,14.4147,15.2403,16.1305,16.5366,16.3777],'cal/(mol*K)','+|-',[0.159191,0.177926,0.179881,0.176919,0.154125,0.132462,0.11268]),
+        H298 = (-112.575,'kcal/mol','+|-',0.540727),
+        S298 = (14.5764,'cal/(mol*K)','+|-',0.467258),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         32
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1429,
+    index = 1110,
     label = "CsCFFO_Cl",
     group = 
 """
@@ -30940,16 +25786,23 @@ entry(
 5   F  u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.8865,13.5637,14.9033,15.6874,16.5265,16.8485,16.3504],'cal/(mol*K)','+|-',[0.308258,0.344536,0.348322,0.342586,0.298448,0.2565,0.218194]),
+        H298 = (-116.107,'kcal/mol','+|-',1.04706),
+        S298 = (13.739,'cal/(mol*K)','+|-',0.904799),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         7
 """,
 )
 
 entry(
-    index = 1430,
+    index = 1111,
     label = "CsCFFO_Br",
     group = 
 """
@@ -30960,16 +25813,23 @@ entry(
 5   F  u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.4613,13.1353,14.6814,15.5366,16.4234,16.8246,16.5184],'cal/(mol*K)','+|-',[0.2079,0.232367,0.23492,0.231052,0.201284,0.172992,0.147157]),
+        H298 = (-116.711,'kcal/mol','+|-',0.706176),
+        S298 = (14.5975,'cal/(mol*K)','+|-',0.610228),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         16
 """,
 )
 
 entry(
-    index = 1431,
+    index = 1112,
     label = "CsCFFO_C",
     group = 
 """
@@ -30980,16 +25840,25 @@ entry(
 5   F  u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.0937,13.1678,14.3972,15.1849,16.0425,16.3726,16.3291],'cal/(mol*K)','+|-',[0.183073,0.204619,0.206867,0.203461,0.177247,0.152335,0.129585]),
+        H298 = (-121.071,'kcal/mol','+|-',0.621848),
+        S298 = (11.5239,'cal/(mol*K)','+|-',0.537358),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         16
+library:CHOFCl_G4 |         1
+library:CHOFBr_G4 |         4
 """,
 )
 
 entry(
-    index = 1432,
+    index = 1113,
     label = "CsCFFO_O",
     group = 
 """
@@ -31000,16 +25869,25 @@ entry(
 5   F  u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.2845,12.9147,13.8617,14.5822,15.5696,15.7934,15.8376],'cal/(mol*K)','+|-',[0.252507,0.282223,0.285325,0.280626,0.244471,0.210109,0.178731]),
+        H298 = (-114.755,'kcal/mol','+|-',0.857693),
+        S298 = (13.2456,'cal/(mol*K)','+|-',0.741158),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         8
+library:CHOFCl_G4 |         1
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1433,
+    index = 1114,
     label = "CsBrCHO",
     group = 
 """
@@ -31019,12 +25897,7 @@ entry(
 4   H  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.4045,12.3718,13.621,14.5309,15.6574,16.1899,16.3217],'cal/(mol*K)','+|-',[0.0615776,0.0707709,0.0723452,0.0712838,0.0618127,0.0533129,0.0434488]),
-        H298 = (-5.43336,'kcal/mol','+|-',0.219519),
-        S298 = (15.5822,'cal/(mol*K)','+|-',0.149615),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -31038,7 +25911,7 @@ CHOClBr_G4  |         49
 )
 
 entry(
-    index = 1434,
+    index = 1115,
     label = "CsBrCHO_H",
     group = 
 """
@@ -31049,16 +25922,26 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.8036,12.9595,14.2,15.1005,16.1991,16.6747,16.5869],'cal/(mol*K)','+|-',[0.0807682,0.0902736,0.0912656,0.0897627,0.0781979,0.0672068,0.0571701]),
+        H298 = (-5.4393,'kcal/mol','+|-',0.274347),
+        S298 = (16.2895,'cal/(mol*K)','+|-',0.237071),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         24
+library:CHOFClBr_G4 |         11
+library:CHOFBr_G4   |         43
+library:CHOClBr_G4  |         28
 """,
 )
 
 entry(
-    index = 1435,
+    index = 1116,
     label = "CsBrCHO_F",
     group = 
 """
@@ -31069,16 +25952,23 @@ entry(
 5   Br u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.76314,11.985,13.4747,14.3762,15.4439,16.0262,16.2736],'cal/(mol*K)','+|-',[0.366923,0.410105,0.414612,0.407784,0.355246,0.305315,0.259718]),
+        H298 = (-4.01439,'kcal/mol','+|-',1.24633),
+        S298 = (17.8905,'cal/(mol*K)','+|-',1.07699),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         5
 """,
 )
 
 entry(
-    index = 1436,
+    index = 1117,
     label = "CsBrCHO_Cl",
     group = 
 """
@@ -31089,16 +25979,23 @@ entry(
 5   Br u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7694,12.8162,14.0477,14.7772,15.576,15.9955,16.0645],'cal/(mol*K)','+|-',[0.464094,0.518712,0.524412,0.515777,0.449325,0.38617,0.328499]),
+        H298 = (-5.45384,'kcal/mol','+|-',1.5764),
+        S298 = (17.9214,'cal/(mol*K)','+|-',1.36221),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1437,
+    index = 1118,
     label = "CsBrCHO_Br",
     group = 
 """
@@ -31109,16 +26006,26 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.84106,11.7295,13.1078,14.0109,15.0571,15.6598,15.9645],'cal/(mol*K)','+|-',[0.11586,0.129496,0.130919,0.128763,0.112173,0.0964069,0.0820093]),
+        H298 = (-4.88823,'kcal/mol','+|-',0.393545),
+        S298 = (17.3358,'cal/(mol*K)','+|-',0.340074),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         23
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         28
+library:CHOClBr_G4  |         11
 """,
 )
 
 entry(
-    index = 1438,
+    index = 1119,
     label = "CsBrCHO_C",
     group = 
 """
@@ -31129,16 +26036,26 @@ entry(
 5   Br u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.2336,12.2597,13.6141,14.5546,15.6553,16.1224,16.1966],'cal/(mol*K)','+|-',[0.164992,0.18441,0.186436,0.183366,0.159742,0.137289,0.116786]),
+        H298 = (-8.54182,'kcal/mol','+|-',0.560432),
+        S298 = (12.0782,'cal/(mol*K)','+|-',0.484286),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         10
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         10
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 1439,
+    index = 1120,
     label = "CsBrCHO_O",
     group = 
 """
@@ -31149,16 +26066,26 @@ entry(
 5   Br u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.0339,11.5711,12.6814,13.4547,14.5791,14.9614,15.5521],'cal/(mol*K)','+|-',[0.18424,0.205923,0.208185,0.204757,0.178377,0.153305,0.13041]),
+        H298 = (-3.19903,'kcal/mol','+|-',0.62581),
+        S298 = (15.5801,'cal/(mol*K)','+|-',0.540781),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         6
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         9
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 1440,
+    index = 1121,
     label = "CsCClHO",
     group = 
 """
@@ -31168,12 +26095,7 @@ entry(
 4   H  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.81745,11.9188,13.2374,14.1848,15.3747,15.9694,16.18],'cal/(mol*K)','+|-',[0.0668073,0.0767814,0.0784894,0.0773379,0.0670624,0.0578407,0.0471389]),
-        H298 = (-17.7685,'kcal/mol','+|-',0.238163),
-        S298 = (12.8645,'cal/(mol*K)','+|-',0.162322),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -31187,7 +26109,7 @@ CHOClBr_G4  |         29
 )
 
 entry(
-    index = 1441,
+    index = 1122,
     label = "CsCClHO_H",
     group = 
 """
@@ -31198,16 +26120,25 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.2464,12.5272,13.8199,14.7461,15.926,16.4606,16.4174],'cal/(mol*K)','+|-',[0.0989949,0.110645,0.111861,0.110019,0.0958445,0.0823732,0.0700714]),
+        H298 = (-17.5191,'kcal/mol','+|-',0.336257),
+        S298 = (12.818,'cal/(mol*K)','+|-',0.29057),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         32
+library:CHOFCl_G4  |         28
+library:CHOClBr_G4 |         6
 """,
 )
 
 entry(
-    index = 1442,
+    index = 1123,
     label = "CsCClHO_F",
     group = 
 """
@@ -31218,16 +26149,24 @@ entry(
 5   Cl u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.41123,11.5869,13.0395,13.9313,14.9497,15.5447,15.9624],'cal/(mol*K)','+|-',[0.364874,0.407816,0.412297,0.405508,0.353263,0.30361,0.258269]),
+        H298 = (-16.2931,'kcal/mol','+|-',1.23937),
+        S298 = (14.9375,'cal/(mol*K)','+|-',1.07098),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFCl_G4   |         3
+library:CHOFClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1443,
+    index = 1124,
     label = "CsCClHO_Cl",
     group = 
 """
@@ -31238,16 +26177,25 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.30069,11.4581,12.9616,13.9405,15.0794,15.7166,16.0429],'cal/(mol*K)','+|-',[0.138106,0.15436,0.156056,0.153486,0.133711,0.114918,0.0977556]),
+        H298 = (-16.7556,'kcal/mol','+|-',0.469108),
+        S298 = (14.4191,'cal/(mol*K)','+|-',0.40537),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOCl_G4   |         32
+library:CHOFCl_G4  |         11
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1444,
+    index = 1125,
     label = "CsCClHO_Br",
     group = 
 """
@@ -31258,16 +26206,24 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.57013,11.6143,12.9654,13.8239,14.819,15.4301,15.7669],'cal/(mol*K)','+|-',[0.164237,0.183565,0.185582,0.182526,0.15901,0.136661,0.116251]),
+        H298 = (-16.6037,'kcal/mol','+|-',0.557865),
+        S298 = (15.6697,'cal/(mol*K)','+|-',0.482068),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         11
+library:CHOClBr_G4  |         16
 """,
 )
 
 entry(
-    index = 1445,
+    index = 1126,
     label = "CsCClHO_C",
     group = 
 """
@@ -31278,16 +26234,26 @@ entry(
 5   Cl u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.50037,11.7647,13.281,14.3055,15.4591,15.9654,16.2322],'cal/(mol*K)','+|-',[0.166808,0.186439,0.188488,0.185384,0.1615,0.1388,0.118071]),
+        H298 = (-21.0588,'kcal/mol','+|-',0.566599),
+        S298 = (9.63264,'cal/(mol*K)','+|-',0.489615),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOCl_G4    |         16
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 1446,
+    index = 1127,
     label = "CsCClHO_O",
     group = 
 """
@@ -31298,16 +26264,26 @@ entry(
 5   Cl u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.94665,11.5993,12.6806,13.4646,14.5743,14.943,15.3367],'cal/(mol*K)','+|-',[0.230119,0.257202,0.260028,0.255746,0.222796,0.191481,0.162885]),
+        H298 = (-16.0006,'kcal/mol','+|-',0.78165),
+        S298 = (12.9183,'cal/(mol*K)','+|-',0.675447),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOCl_G4    |         8
+library:CHOFCl_G4   |         2
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         2
 """,
 )
 
 entry(
-    index = 1447,
+    index = 1128,
     label = "CsCFHO",
     group = 
 """
@@ -31317,12 +26293,7 @@ entry(
 4   H  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.22865,10.3914,11.9148,13.0267,14.4607,15.2575,15.841],'cal/(mol*K)','+|-',[0.0681607,0.0783369,0.0800795,0.0789046,0.068421,0.0590125,0.0480939]),
-        H298 = (-61.8215,'kcal/mol','+|-',0.242987),
-        S298 = (10.5712,'cal/(mol*K)','+|-',0.16561),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -31336,7 +26307,7 @@ CHOFBr_G4   |         49
 )
 
 entry(
-    index = 1448,
+    index = 1129,
     label = "CsCFHO_H",
     group = 
 """
@@ -31347,16 +26318,26 @@ entry(
 5   F  u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.63443,11.198,12.7926,13.9072,15.3522,16.0609,16.2408],'cal/(mol*K)','+|-',[0.113503,0.126861,0.128255,0.126143,0.109891,0.0944455,0.0803408]),
+        H298 = (-62.0751,'kcal/mol','+|-',0.385538),
+        S298 = (9.97366,'cal/(mol*K)','+|-',0.333155),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         32
+library:CHOFCl_G4   |         6
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         9
 """,
 )
 
 entry(
-    index = 1449,
+    index = 1130,
     label = "CsCFHO_F",
     group = 
 """
@@ -31367,16 +26348,25 @@ entry(
 5   F  u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.51525,9.7136,11.4887,12.6898,14.1593,15.0585,15.88],'cal/(mol*K)','+|-',[0.150773,0.168517,0.170368,0.167563,0.145974,0.125457,0.106721]),
+        H298 = (-59.7433,'kcal/mol','+|-',0.512131),
+        S298 = (12.038,'cal/(mol*K)','+|-',0.442548),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         31
+library:CHOFCl_G4 |         2
+library:CHOFBr_G4 |         6
 """,
 )
 
 entry(
-    index = 1450,
+    index = 1131,
     label = "CsCFHO_Cl",
     group = 
 """
@@ -31387,16 +26377,23 @@ entry(
 5   F  u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.99039,10.1471,11.7125,12.7494,14.0324,14.8535,15.4954],'cal/(mol*K)','+|-',[0.211582,0.236482,0.239081,0.235144,0.204849,0.176056,0.149764]),
+        H298 = (-60.0738,'kcal/mol','+|-',0.718683),
+        S298 = (12.2618,'cal/(mol*K)','+|-',0.621036),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         16
 """,
 )
 
 entry(
-    index = 1451,
+    index = 1132,
     label = "CsCFHO_Br",
     group = 
 """
@@ -31407,16 +26404,23 @@ entry(
 5   F  u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.19299,10.2599,11.777,12.7884,14.0172,14.783,15.4799],'cal/(mol*K)','+|-',[0.173131,0.193506,0.195632,0.192411,0.167621,0.144061,0.122547]),
+        H298 = (-60.6189,'kcal/mol','+|-',0.588076),
+        S298 = (13.0035,'cal/(mol*K)','+|-',0.508174),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         24
 """,
 )
 
 entry(
-    index = 1452,
+    index = 1133,
     label = "CsCFHO_C",
     group = 
 """
@@ -31427,16 +26431,26 @@ entry(
 5   F  u0 {1,S}
 6   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.45459,10.6536,12.1833,13.2387,14.4616,15.0762,15.6448],'cal/(mol*K)','+|-',[0.151342,0.169153,0.171011,0.168195,0.146525,0.125931,0.107124]),
+        H298 = (-64.7219,'kcal/mol','+|-',0.514064),
+        S298 = (8.39188,'cal/(mol*K)','+|-',0.444218),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         16
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         9
 """,
 )
 
 entry(
-    index = 1453,
+    index = 1134,
     label = "CsCFHO_O",
     group = 
 """
@@ -31447,16 +26461,25 @@ entry(
 5   F  u0 {1,S}
 6   O  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.9614,9.55423,10.8755,11.9454,13.4887,14.165,15.0481],'cal/(mol*K)','+|-',[0.231933,0.259229,0.262078,0.257762,0.224552,0.192991,0.164169]),
+        H298 = (-59.884,'kcal/mol','+|-',0.787811),
+        S298 = (10.9415,'cal/(mol*K)','+|-',0.680771),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         8
+library:CHOFCl_G4 |         2
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1454,
+    index = 1135,
     label = "CsBrCOO",
     group = 
 """
@@ -31466,12 +26489,7 @@ entry(
 4   O  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.187,13.424,14.4479,15.03,15.4427,15.2289,13.8402],'cal/(mol*K)','+|-',[0.1817,0.208828,0.213473,0.210341,0.182394,0.157313,0.128207]),
-        H298 = (-11.9517,'kcal/mol','+|-',0.647747),
-        S298 = (-9.0467,'cal/(mol*K)','+|-',0.441478),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -31485,7 +26503,7 @@ CHOClBr_G4  |         4
 )
 
 entry(
-    index = 1455,
+    index = 1136,
     label = "CsBrCOO_HH",
     group = 
 """
@@ -31497,58 +26515,26 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.6167,13.8294,14.7234,15.2317,15.6108,15.3599,13.8511],'cal/(mol*K)','+|-',[0.223225,0.249496,0.252237,0.248084,0.216121,0.185744,0.158005]),
+        H298 = (-11.971,'kcal/mol','+|-',0.758232),
+        S298 = (-10.0607,'cal/(mol*K)','+|-',0.655211),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         3
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         6
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 1456,
-    label = "CsBrCOO_HF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1457,
-    label = "CsBrCOO_HCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1458,
+    index = 1137,
     label = "CsBrCOO_HBr",
     group = 
 """
@@ -31560,247 +26546,25 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.725,12.8351,13.8791,14.3768,14.7091,14.578,13.3852],'cal/(mol*K)','+|-',[0.330215,0.369077,0.373133,0.366988,0.319706,0.27477,0.233735]),
+        H298 = (-11.8383,'kcal/mol','+|-',1.12165),
+        S298 = (-8.48919,'cal/(mol*K)','+|-',0.969247),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         2
+library:CHOFBr_G4  |         3
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1459,
-    label = "CsBrCOO_HC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1460,
-    label = "CsBrCOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1461,
-    label = "CsBrCOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1462,
-    label = "CsBrCOO_FCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1463,
-    label = "CsBrCOO_FBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1464,
-    label = "CsBrCOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1465,
-    label = "CsBrCOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1466,
-    label = "CsBrCOO_ClCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1467,
-    label = "CsBrCOO_ClBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1468,
-    label = "CsBrCOO_ClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1469,
-    label = "CsBrCOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1470,
+    index = 1138,
     label = "CsBrCOO_BrBr",
     group = 
 """
@@ -31812,121 +26576,24 @@ entry(
 6   Br u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.88477,13.0434,15.037,15.9061,16.143,15.6836,14.1609],'cal/(mol*K)','+|-',[0.472206,0.527779,0.533579,0.524792,0.457179,0.392921,0.334241]),
+        H298 = (-12.2398,'kcal/mol','+|-',1.60395),
+        S298 = (-12.8808,'cal/(mol*K)','+|-',1.38602),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOBr_G4  |         2
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1471,
-    label = "CsBrCOO_BrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1472,
-    label = "CsBrCOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1473,
-    label = "CsBrCOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1474,
-    label = "CsBrCOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1475,
-    label = "CsBrCOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1476,
+    index = 1139,
     label = "CsCClOO",
     group = 
 """
@@ -31936,12 +26603,7 @@ entry(
 4   O  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.2021,12.7685,13.9537,14.568,14.9918,14.8264,13.5524],'cal/(mol*K)','+|-',[0.18667,0.214539,0.219311,0.216094,0.187383,0.161616,0.131713]),
-        H298 = (-24.8739,'kcal/mol','+|-',0.665463),
-        S298 = (-11.5513,'cal/(mol*K)','+|-',0.453553),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -31955,7 +26617,7 @@ CHOClBr_G4  |         4
 )
 
 entry(
-    index = 1477,
+    index = 1140,
     label = "CsCClOO_HH",
     group = 
 """
@@ -31967,37 +26629,24 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.7516,13.388,14.4808,15.0143,15.4258,15.1809,13.6461],'cal/(mol*K)','+|-',[0.301414,0.336887,0.340588,0.33498,0.291822,0.250805,0.213349]),
+        H298 = (-25.5248,'kcal/mol','+|-',1.02382),
+        S298 = (-13.8133,'cal/(mol*K)','+|-',0.884711),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         4
+library:CHOFCl_G4 |         3
 """,
 )
 
 entry(
-    index = 1478,
-    label = "CsCClOO_HF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1479,
+    index = 1141,
     label = "CsCClOO_HCl",
     group = 
 """
@@ -32009,16 +26658,24 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.80264,12.3466,13.6275,14.2119,14.5005,14.298,13.2018],'cal/(mol*K)','+|-',[0.363277,0.40603,0.410492,0.403732,0.351716,0.302281,0.257138]),
+        H298 = (-24.2276,'kcal/mol','+|-',1.23395),
+        S298 = (-11.3185,'cal/(mol*K)','+|-',1.06629),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         4
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1480,
+    index = 1142,
     label = "CsCClOO_HBr",
     group = 
 """
@@ -32030,163 +26687,24 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.1264,12.2498,13.2385,13.6662,13.8667,13.7133,12.7792],'cal/(mol*K)','+|-',[0.461862,0.516217,0.52189,0.513296,0.447164,0.384313,0.326919]),
+        H298 = (-25.5024,'kcal/mol','+|-',1.56881),
+        S298 = (-10.2419,'cal/(mol*K)','+|-',1.35566),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         2
 """,
 )
 
 entry(
-    index = 1481,
-    label = "CsCClOO_HC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1482,
-    label = "CsCClOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1483,
-    label = "CsCClOO_FF",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   F  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1484,
-    label = "CsCClOO_FCl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Cl u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1485,
-    label = "CsCClOO_FBr",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   Br u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1486,
-    label = "CsCClOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1487,
-    label = "CsCClOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1488,
+    index = 1143,
     label = "CsCClOO_ClCl",
     group = 
 """
@@ -32198,16 +26716,23 @@ entry(
 6   Cl u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.59139,12.9525,14.7608,15.5415,15.7849,15.5191,13.9717],'cal/(mol*K)','+|-',[0.422661,0.472403,0.477594,0.469729,0.40921,0.351694,0.299171]),
+        H298 = (-21.3417,'kcal/mol','+|-',1.43566),
+        S298 = (-14.4666,'cal/(mol*K)','+|-',1.24059),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         4
 """,
 )
 
 entry(
-    index = 1489,
+    index = 1144,
     label = "CsCClOO_ClBr",
     group = 
 """
@@ -32219,58 +26744,23 @@ entry(
 6   Cl u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.86041,12.9248,14.3965,15.0212,15.3776,15.2017,13.6936],'cal/(mol*K)','+|-',[0.796188,0.889889,0.899668,0.884853,0.77085,0.662504,0.563565]),
+        H298 = (-25.8697,'kcal/mol','+|-',2.70442),
+        S298 = (-11.8709,'cal/(mol*K)','+|-',2.33697),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1490,
-    label = "CsCClOO_ClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1491,
-    label = "CsCClOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1492,
+    index = 1145,
     label = "CsCClOO_BrBr",
     group = 
 """
@@ -32282,121 +26772,23 @@ entry(
 6   Br u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.87766,12.8641,14.3025,14.8805,15.2111,15.0481,13.5945],'cal/(mol*K)','+|-',[0.799093,0.893136,0.902951,0.888082,0.773663,0.664922,0.565621]),
+        H298 = (-26.2564,'kcal/mol','+|-',2.71429),
+        S298 = (-13.6406,'cal/(mol*K)','+|-',2.3455),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1493,
-    label = "CsCClOO_BrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1494,
-    label = "CsCClOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1495,
-    label = "CsCClOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1496,
-    label = "CsCClOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1497,
-    label = "CsCClOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1498,
+    index = 1146,
     label = "CsCFOO",
     group = 
 """
@@ -32406,12 +26798,7 @@ entry(
 4   O  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.97828,11.2977,12.3807,13.0047,13.5822,13.6151,12.7439],'cal/(mol*K)','+|-',[0.175813,0.202061,0.206556,0.203525,0.176484,0.152216,0.124052]),
-        H298 = (-71.2673,'kcal/mol','+|-',0.626757),
-        S298 = (-12.8551,'cal/(mol*K)','+|-',0.427173),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -32425,7 +26812,7 @@ CHOFBr_G4   |         7
 )
 
 entry(
-    index = 1499,
+    index = 1147,
     label = "CsCFOO_HH",
     group = 
 """
@@ -32437,16 +26824,23 @@ entry(
 6   H  u0 {2,S}
 7   H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.23824,12.039,13.3164,13.9637,14.569,14.4872,13.2544],'cal/(mol*K)','+|-',[0.397724,0.444531,0.449416,0.442015,0.385067,0.330944,0.28152]),
+        H298 = (-75.3526,'kcal/mol','+|-',1.35095),
+        S298 = (-16.7854,'cal/(mol*K)','+|-',1.1674),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 1500,
+    index = 1148,
     label = "CsCFOO_HF",
     group = 
 """
@@ -32458,16 +26852,23 @@ entry(
 6   H  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.86166,11.1355,12.3049,12.9718,13.5685,13.6313,12.8104],'cal/(mol*K)','+|-',[0.406045,0.453831,0.458818,0.451263,0.393123,0.337868,0.28741]),
+        H298 = (-69.9171,'kcal/mol','+|-',1.37922),
+        S298 = (-13.322,'cal/(mol*K)','+|-',1.19182),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 1501,
+    index = 1149,
     label = "CsCFOO_HCl",
     group = 
 """
@@ -32479,16 +26880,23 @@ entry(
 6   H  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.49511,11.9124,12.8465,13.2553,13.501,13.3447,12.3742],'cal/(mol*K)','+|-',[0.565021,0.631517,0.638457,0.627943,0.54704,0.470151,0.399938]),
+        H298 = (-74.0427,'kcal/mol','+|-',1.91922),
+        S298 = (-13.4742,'cal/(mol*K)','+|-',1.65845),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         2
 """,
 )
 
 entry(
-    index = 1502,
+    index = 1150,
     label = "CsCFOO_HBr",
     group = 
 """
@@ -32500,58 +26908,23 @@ entry(
 6   H  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.14535,11.4714,12.4708,12.9958,13.4393,13.407,12.4907],'cal/(mol*K)','+|-',[0.461713,0.51605,0.521721,0.51313,0.447019,0.384189,0.326813]),
+        H298 = (-73.4287,'kcal/mol','+|-',1.56831),
+        S298 = (-12.4738,'cal/(mol*K)','+|-',1.35522),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         3
 """,
 )
 
 entry(
-    index = 1503,
-    label = "CsCFOO_HC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1504,
-    label = "CsCFOO_HO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   H  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1505,
+    index = 1151,
     label = "CsCFOO_FF",
     group = 
 """
@@ -32563,16 +26936,23 @@ entry(
 6   F  u0 {2,S}
 7   F  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.64317,11.0708,12.2955,12.8321,13.1019,13.0347,12.2001],'cal/(mol*K)','+|-',[0.429918,0.480514,0.485794,0.477795,0.416236,0.357733,0.304308]),
+        H298 = (-61.4319,'kcal/mol','+|-',1.46031),
+        S298 = (-13.3897,'cal/(mol*K)','+|-',1.2619),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         4
 """,
 )
 
 entry(
-    index = 1506,
+    index = 1152,
     label = "CsCFOO_FCl",
     group = 
 """
@@ -32584,16 +26964,23 @@ entry(
 6   F  u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.94866,10.8623,12.5265,13.1957,13.6765,13.7173,12.8543],'cal/(mol*K)','+|-',[0.798219,0.89216,0.901963,0.887111,0.772817,0.664194,0.565002]),
+        H298 = (-69.8301,'kcal/mol','+|-',2.71132),
+        S298 = (-13.5327,'cal/(mol*K)','+|-',2.34294),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1507,
+    index = 1153,
     label = "CsCFOO_FBr",
     group = 
 """
@@ -32605,58 +26992,23 @@ entry(
 6   F  u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.17202,11.14,12.8338,13.4813,13.8512,13.8409,12.8909],'cal/(mol*K)','+|-',[0.569179,0.636164,0.643155,0.632564,0.551066,0.473611,0.402881]),
+        H298 = (-68.9163,'kcal/mol','+|-',1.93334),
+        S298 = (-12.5211,'cal/(mol*K)','+|-',1.67066),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1508,
-    label = "CsCFOO_FC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1509,
-    label = "CsCFOO_FO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   F  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1510,
+    index = 1154,
     label = "CsCFOO_ClCl",
     group = 
 """
@@ -32668,16 +27020,23 @@ entry(
 6   Cl u0 {2,S}
 7   Cl u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.16465,10.984,12.5201,13.2338,13.8101,13.9021,13.0703],'cal/(mol*K)','+|-',[0.803657,0.898237,0.908108,0.893154,0.778082,0.668719,0.568851]),
+        H298 = (-71.569,'kcal/mol','+|-',2.72979),
+        S298 = (-15.3141,'cal/(mol*K)','+|-',2.3589),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1511,
+    index = 1155,
     label = "CsCFOO_ClBr",
     group = 
 """
@@ -32689,58 +27048,23 @@ entry(
 6   Cl u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.64726,11.0871,12.381,12.9997,13.4438,13.4456,12.5102],'cal/(mol*K)','+|-',[0.796188,0.889889,0.899668,0.884853,0.77085,0.662504,0.563565]),
+        H298 = (-71.7946,'kcal/mol','+|-',2.70442),
+        S298 = (-12.3859,'cal/(mol*K)','+|-',2.33697),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 1512,
-    label = "CsCFOO_ClC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1513,
-    label = "CsCFOO_ClO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   Cl u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1514,
+    index = 1156,
     label = "CsCFOO_BrBr",
     group = 
 """
@@ -32752,121 +27076,23 @@ entry(
 6   Br u0 {2,S}
 7   Br u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.7279,11.0044,12.2873,12.8682,13.3237,13.3806,12.5411],'cal/(mol*K)','+|-',[0.571857,0.639158,0.646181,0.635541,0.553659,0.47584,0.404777]),
+        H298 = (-70.9071,'kcal/mol','+|-',1.94244),
+        S298 = (-13.8327,'cal/(mol*K)','+|-',1.67852),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1515,
-    label = "CsCFOO_BrC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1516,
-    label = "CsCFOO_BrO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   Br u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1517,
-    label = "CsCFOO_CC",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   C  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1518,
-    label = "CsCFOO_CO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1519,
-    label = "CsCFOO_OO",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   O  u0 {1,S} {7,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   O  u0 {2,S}
-7   O  u0 {3,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1520,
+    index = 1157,
     label = "CsBrBrCC",
     group = 
 """
@@ -32878,24 +27104,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.9848,15.2596,15.9896,16.5405,17.1724,17.4386,17.0386],'cal/(mol*K)','+|-',[0.149337,0.171633,0.175451,0.172877,0.149907,0.129294,0.105372]),
-        H298 = (5.51692,'kcal/mol','+|-',0.532375),
-        S298 = (24.9006,'cal/(mol*K)','+|-',0.362846),
+        Cpdata = ([13.9956,15.2553,15.9743,16.5197,17.1478,17.4175,17.0227],'cal/(mol*K)','+|-',[0.142704,0.159499,0.161251,0.158596,0.138163,0.118743,0.10101]),
+        H298 = (5.5783,'kcal/mol','+|-',0.484725),
+        S298 = (23.1043,'cal/(mol*K)','+|-',0.418865),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         12
-CHOFClBr_G4 |         2
-CHOFBr_G4   |         14
-CHOClBr_G4  |         9
+Library             | Number of Species
+library:CHOBr_G4    |         12
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         14
+library:CHOClBr_G4  |         9
 """,
 )
 
 entry(
-    index = 1521,
+    index = 1158,
     label = "CsBrBrCsCs",
     group = 
 """
@@ -32907,24 +27133,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([14.0149,15.386,16.1965,16.8103,17.6137,17.882,17.5188],'cal/(mol*K)','+|-',[0.112863,0.129714,0.132599,0.130654,0.113294,0.0977154,0.0796359]),
-        H298 = (2.55179,'kcal/mol','+|-',0.402349),
-        S298 = (23.0258,'cal/(mol*K)','+|-',0.274225),
+        Cpdata = ([13.9938,15.373,16.1911,16.8027,17.6035,17.863,17.4965],'cal/(mol*K)','+|-',[0.108015,0.120727,0.122053,0.120044,0.104577,0.0898786,0.076456]),
+        H298 = (2.42193,'kcal/mol','+|-',0.366896),
+        S298 = (20.4156,'cal/(mol*K)','+|-',0.317045),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         19
-CHOFClBr_G4 |         6
-CHOFBr_G4   |         29
-CHOClBr_G4  |         15
+Library             | Number of Species
+library:CHOBr_G4    |         19
+library:CHOFClBr_G4 |         6
+library:CHOFBr_G4   |         29
+library:CHOClBr_G4  |         15
 """,
 )
 
 entry(
-    index = 1522,
+    index = 1159,
     label = "CsBrCCCl",
     group = 
 """
@@ -32936,22 +27162,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.5696,14.9243,15.699,16.2857,17.0413,17.3248,16.8986],'cal/(mol*K)','+|-',[0.13211,0.151834,0.155211,0.152934,0.132615,0.114379,0.0932163]),
-        H298 = (-7.8729,'kcal/mol','+|-',0.470962),
-        S298 = (21.9754,'cal/(mol*K)','+|-',0.320989),
+        Cpdata = ([13.5535,14.913,15.6928,16.2772,17.0279,17.3055,16.8777],'cal/(mol*K)','+|-',[0.12629,0.141153,0.142704,0.140354,0.122271,0.105086,0.0893919]),
+        H298 = (-7.92968,'kcal/mol','+|-',0.428972),
+        S298 = (20.8261,'cal/(mol*K)','+|-',0.370688),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFClBr_G4 |         13
-CHOClBr_G4  |         30
+Library             | Number of Species
+library:CHOFClBr_G4 |         13
+library:CHOClBr_G4  |         30
 """,
 )
 
 entry(
-    index = 1523,
+    index = 1160,
     label = "CsCCClCl",
     group = 
 """
@@ -32963,24 +27189,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.152,14.64,15.4351,16.0703,16.8266,17.1288,16.5686],'cal/(mol*K)','+|-',[0.135387,0.155599,0.159061,0.156727,0.135904,0.117216,0.0955281]),
-        H298 = (-17.4834,'kcal/mol','+|-',0.482642),
-        S298 = (20.112,'cal/(mol*K)','+|-',0.32895),
+        Cpdata = ([13.1244,14.6131,15.4131,16.0481,16.7991,17.0989,16.5491],'cal/(mol*K)','+|-',[0.129479,0.144717,0.146307,0.143898,0.125358,0.107739,0.0916488]),
+        H298 = (-17.5163,'kcal/mol','+|-',0.439803),
+        S298 = (18.4137,'cal/(mol*K)','+|-',0.380046),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         41
-CHOFCl_G4   |         4
-CHOFClBr_G4 |         1
-CHOClBr_G4  |         8
+Library             | Number of Species
+library:CHOCl_G4    |         41
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         8
 """,
 )
 
 entry(
-    index = 1524,
+    index = 1161,
     label = "CsClClCsCs",
     group = 
 """
@@ -32992,24 +27218,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.4719,15.0106,15.7943,16.3897,17.1827,17.4287,16.9428],'cal/(mol*K)','+|-',[0.117396,0.134923,0.137924,0.1359,0.117844,0.101639,0.0828339]),
-        H298 = (-20.6328,'kcal/mol','+|-',0.418506),
-        S298 = (17.9232,'cal/(mol*K)','+|-',0.285237),
+        Cpdata = ([13.4119,14.9825,15.795,16.3881,17.1624,17.3885,16.9126],'cal/(mol*K)','+|-',[0.113348,0.126687,0.12808,0.12597,0.109741,0.0943162,0.0802308]),
+        H298 = (-20.8063,'kcal/mol','+|-',0.38501),
+        S298 = (15.0339,'cal/(mol*K)','+|-',0.332699),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         73
-CHOFCl_G4   |         8
-CHOFClBr_G4 |         1
-CHOClBr_G4  |         9
+Library             | Number of Species
+library:CHOCl_G4    |         73
+library:CHOFCl_G4   |         8
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         9
 """,
 )
 
 entry(
-    index = 1525,
+    index = 1162,
     label = "CsBrCCF",
     group = 
 """
@@ -33021,21 +27247,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.2262,14.6469,15.3962,15.9577,16.6734,16.9381,16.5545],'cal/(mol*K)','+|-',[0.118265,0.135922,0.138946,0.136907,0.118717,0.102392,0.0834474]),
-        H298 = (-49.3413,'kcal/mol','+|-',0.421606),
-        S298 = (19.6583,'cal/(mol*K)','+|-',0.28735),
+        Cpdata = ([13.2097,14.6405,15.3979,15.957,16.6661,16.9217,16.533],'cal/(mol*K)','+|-',[0.113133,0.126448,0.127837,0.125732,0.109533,0.0941377,0.080079]),
+        H298 = (-49.4454,'kcal/mol','+|-',0.384281),
+        S298 = (18.6004,'cal/(mol*K)','+|-',0.332069),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         57
+Library           | Number of Species
+library:CHOFBr_G4 |         57
 """,
 )
 
 entry(
-    index = 1526,
+    index = 1163,
     label = "CsCCClF",
     group = 
 """
@@ -33047,22 +27273,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.3841,13.8916,14.6902,15.3272,16.2184,16.6085,16.3437],'cal/(mol*K)','+|-',[0.130721,0.150238,0.15358,0.151326,0.13122,0.113176,0.0922363]),
-        H298 = (-61.7874,'kcal/mol','+|-',0.466011),
-        S298 = (16.5321,'cal/(mol*K)','+|-',0.317614),
+        Cpdata = ([12.3588,13.8734,14.6814,15.3158,16.1991,16.5816,16.3175],'cal/(mol*K)','+|-',[0.124994,0.139704,0.141239,0.138913,0.121016,0.104007,0.0884742]),
+        H298 = (-61.858,'kcal/mol','+|-',0.424569),
+        S298 = (15.4224,'cal/(mol*K)','+|-',0.366882),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOFCl_G4   |         27
-CHOFClBr_G4 |         17
+Library             | Number of Species
+library:CHOFCl_G4   |         27
+library:CHOFClBr_G4 |         17
 """,
 )
 
 entry(
-    index = 1527,
+    index = 1164,
     label = "CsCCFF",
     group = 
 """
@@ -33074,24 +27300,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.719,12.4038,13.4243,14.2405,15.3273,15.913,15.8863],'cal/(mol*K)','+|-',[0.130342,0.149801,0.153133,0.150887,0.130839,0.112848,0.0919683]),
-        H298 = (-105.968,'kcal/mol','+|-',0.464657),
-        S298 = (15.4426,'cal/(mol*K)','+|-',0.316692),
+        Cpdata = ([10.7063,12.3772,13.3945,14.2092,15.2922,15.8758,15.8591],'cal/(mol*K)','+|-',[0.124625,0.139292,0.140822,0.138503,0.120659,0.1037,0.088213]),
+        H298 = (-105.936,'kcal/mol','+|-',0.423315),
+        S298 = (13.8618,'cal/(mol*K)','+|-',0.365799),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         41
-CHOFCl_G4   |         3
-CHOFClBr_G4 |         2
-CHOFBr_G4   |         11
+Library             | Number of Species
+library:CHOF_G4     |         41
+library:CHOFCl_G4   |         3
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         11
 """,
 )
 
 entry(
-    index = 1528,
+    index = 1165,
     label = "CsCsCsFF",
     group = 
 """
@@ -33103,24 +27329,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5154,13.0729,13.917,14.5901,15.5892,16.0557,16.046],'cal/(mol*K)','+|-',[0.100895,0.115958,0.118537,0.116798,0.10128,0.087353,0.0711907]),
-        H298 = (-110.065,'kcal/mol','+|-',0.359681),
-        S298 = (14.2267,'cal/(mol*K)','+|-',0.245144),
+        Cpdata = ([11.5074,13.0482,13.8956,14.5573,15.5358,15.9842,15.989],'cal/(mol*K)','+|-',[0.0970827,0.108508,0.109701,0.107894,0.0939932,0.0807821,0.0687179]),
+        H298 = (-110.153,'kcal/mol','+|-',0.329762),
+        S298 = (11.5802,'cal/(mol*K)','+|-',0.284957),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         76
-CHOFCl_G4   |         9
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         33
+Library             | Number of Species
+library:CHOF_G4     |         76
+library:CHOFCl_G4   |         9
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         33
 """,
 )
 
 entry(
-    index = 1529,
+    index = 1166,
     label = "CsBrCCH",
     group = 
 """
@@ -33132,24 +27358,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.96866,11.3913,12.4029,13.2398,14.3431,15.0075,15.4414],'cal/(mol*K)','+|-',[0.117444,0.134978,0.13798,0.135956,0.117892,0.101681,0.0828677]),
-        H298 = (-2.24303,'kcal/mol','+|-',0.418677),
-        S298 = (17.0965,'cal/(mol*K)','+|-',0.285354),
+        Cpdata = ([9.97362,11.3903,12.3966,13.2309,14.3357,15.0039,15.4352],'cal/(mol*K)','+|-',[0.112237,0.125446,0.126825,0.124736,0.108665,0.093392,0.0794447]),
+        H298 = (-2.20236,'kcal/mol','+|-',0.381238),
+        S298 = (16.8186,'cal/(mol*K)','+|-',0.329439),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         24
-CHOFClBr_G4 |         3
-CHOFBr_G4   |         28
-CHOClBr_G4  |         14
+Library             | Number of Species
+library:CHOBr_G4    |         24
+library:CHOFClBr_G4 |         3
+library:CHOFBr_G4   |         28
+library:CHOClBr_G4  |         14
 """,
 )
 
 entry(
-    index = 1530,
+    index = 1167,
     label = "CsBrCsCsH",
     group = 
 """
@@ -33161,24 +27387,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.94605,11.396,12.471,13.3333,14.579,15.2575,15.7926],'cal/(mol*K)','+|-',[0.0826673,0.0950093,0.0971228,0.0956979,0.082983,0.0715721,0.0583296]),
-        H298 = (-3.83905,'kcal/mol','+|-',0.294702),
-        S298 = (15.3677,'cal/(mol*K)','+|-',0.200857),
+        Cpdata = ([9.92943,11.3939,12.4794,13.3354,14.5748,15.2394,15.7663],'cal/(mol*K)','+|-',[0.0793878,0.0887308,0.0897058,0.0882286,0.0768614,0.0660582,0.056193]),
+        H298 = (-3.92514,'kcal/mol','+|-',0.269658),
+        S298 = (14.1937,'cal/(mol*K)','+|-',0.233019),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         37
-CHOFClBr_G4 |         10
-CHOFBr_G4   |         68
-CHOClBr_G4  |         29
+Library             | Number of Species
+library:CHOBr_G4    |         37
+library:CHOFClBr_G4 |         10
+library:CHOFBr_G4   |         68
+library:CHOClBr_G4  |         29
 """,
 )
 
 entry(
-    index = 1531,
+    index = 1168,
     label = "CsCCClH",
     group = 
 """
@@ -33190,24 +27416,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.16325,10.6765,11.7764,12.6948,13.9744,14.7845,15.3096],'cal/(mol*K)','+|-',[0.109363,0.125691,0.128487,0.126602,0.109781,0.0946852,0.0771663]),
-        H298 = (-13.1538,'kcal/mol','+|-',0.389872),
-        S298 = (14.2898,'cal/(mol*K)','+|-',0.265721),
+        Cpdata = ([9.16103,10.6744,11.7741,12.6897,13.9658,14.7722,15.2958],'cal/(mol*K)','+|-',[0.104619,0.116932,0.118217,0.11627,0.10129,0.0870532,0.0740526]),
+        H298 = (-13.1103,'kcal/mol','+|-',0.355362),
+        S298 = (14.0408,'cal/(mol*K)','+|-',0.307079),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         41
-CHOFCl_G4   |         14
-CHOFClBr_G4 |         6
-CHOClBr_G4  |         19
+Library             | Number of Species
+library:CHOCl_G4    |         41
+library:CHOFCl_G4   |         14
+library:CHOFClBr_G4 |         6
+library:CHOClBr_G4  |         19
 """,
 )
 
 entry(
-    index = 1532,
+    index = 1169,
     label = "CsCsCsClH",
     group = 
 """
@@ -33219,25 +27445,25 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.37603,10.8757,11.964,12.8431,14.1535,14.8999,15.5761],'cal/(mol*K)','+|-',[0.0832924,0.0957276,0.0978571,0.0964214,0.0836103,0.0721132,0.0587706]),
-        H298 = (-15.2695,'kcal/mol','+|-',0.29693),
-        S298 = (12.6282,'cal/(mol*K)','+|-',0.202376),
+        Cpdata = ([9.35355,10.8732,11.9792,12.854,14.1525,14.8806,15.5519],'cal/(mol*K)','+|-',[0.080283,0.0897313,0.0907173,0.0892235,0.0777281,0.0668031,0.0568266]),
+        H298 = (-15.3587,'kcal/mol','+|-',0.272698),
+        S298 = (11.0853,'cal/(mol*K)','+|-',0.235647),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library                  | Number of Species
-CHOCl_G4                 |         74
-Chlorinated_Hydrocarbons |         3
-CHOFCl_G4                |         29
-CHOFClBr_G4              |         12
-CHOClBr_G4               |         33
+Library                          | Number of Species
+library:CHOCl_G4                 |         74
+library:Chlorinated_Hydrocarbons |         3
+library:CHOFCl_G4                |         29
+library:CHOFClBr_G4              |         12
+library:CHOClBr_G4               |         33
 """,
 )
 
 entry(
-    index = 1533,
+    index = 1170,
     label = "CsCCFH",
     group = 
 """
@@ -33249,24 +27475,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.01653,9.5087,10.6909,11.7025,13.1613,14.1292,14.9033],'cal/(mol*K)','+|-',[0.1039,0.119412,0.122068,0.120277,0.104296,0.0899548,0.0733111]),
-        H298 = (-52.0569,'kcal/mol','+|-',0.370394),
-        S298 = (12.0936,'cal/(mol*K)','+|-',0.252446),
+        Cpdata = ([8.02419,9.51351,10.6918,11.6977,13.1515,14.1121,14.8835],'cal/(mol*K)','+|-',[0.0994618,0.111167,0.112389,0.110538,0.0962966,0.0827617,0.0704019]),
+        H298 = (-51.9786,'kcal/mol','+|-',0.337843),
+        S298 = (12.0266,'cal/(mol*K)','+|-',0.291941),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         41
-CHOFCl_G4   |         11
-CHOFClBr_G4 |         9
-CHOFBr_G4   |         26
+Library             | Number of Species
+library:CHOF_G4     |         41
+library:CHOFCl_G4   |         11
+library:CHOFClBr_G4 |         9
+library:CHOFBr_G4   |         26
 """,
 )
 
 entry(
-    index = 1534,
+    index = 1171,
     label = "CsCsCsFH",
     group = 
 """
@@ -33278,24 +27504,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.49154,9.97409,11.0744,11.9677,13.3429,14.2021,15.1414],'cal/(mol*K)','+|-',[0.0757731,0.0870857,0.0890229,0.0877169,0.0760624,0.0656031,0.0534651]),
-        H298 = (-55.1509,'kcal/mol','+|-',0.270125),
-        S298 = (10.6968,'cal/(mol*K)','+|-',0.184106),
+        Cpdata = ([8.49781,9.99003,11.0976,11.9819,13.3433,14.1804,15.1117],'cal/(mol*K)','+|-',[0.0730724,0.0816721,0.0825696,0.0812099,0.070747,0.0608032,0.0517227]),
+        H298 = (-55.1925,'kcal/mol','+|-',0.248206),
+        S298 = (9.34494,'cal/(mol*K)','+|-',0.214482),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         76
-CHOFCl_G4   |         32
-CHOFClBr_G4 |         11
-CHOFBr_G4   |         71
+Library             | Number of Species
+library:CHOF_G4     |         76
+library:CHOFCl_G4   |         32
+library:CHOFClBr_G4 |         11
+library:CHOFBr_G4   |         71
 """,
 )
 
 entry(
-    index = 1535,
+    index = 1172,
     label = "CsBrCCO",
     group = 
 """
@@ -33305,12 +27531,7 @@ entry(
 4   O  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.4839,12.3943,13.2831,13.8604,14.4559,14.4541,13.4233],'cal/(mol*K)','+|-',[0.164112,0.188613,0.192809,0.18998,0.164738,0.142085,0.115796]),
-        H298 = (-6.75758,'kcal/mol','+|-',0.585045),
-        S298 = (-9.46279,'cal/(mol*K)','+|-',0.398743),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -33324,7 +27545,7 @@ CHOClBr_G4  |         6
 )
 
 entry(
-    index = 1536,
+    index = 1173,
     label = "CsBrCCO_H",
     group = 
 """
@@ -33335,56 +27556,26 @@ entry(
 5   Br u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.804,12.8317,13.6803,14.215,14.7311,14.6266,13.3977],'cal/(mol*K)','+|-',[0.189831,0.212171,0.214503,0.21097,0.183789,0.157957,0.134367]),
+        H298 = (-6.74359,'kcal/mol','+|-',0.6448),
+        S298 = (-11.3649,'cal/(mol*K)','+|-',0.557191),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         4
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         10
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 1537,
-    label = "CsBrCCO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1538,
-    label = "CsBrCCO_Cl",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   Cl u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1539,
+    index = 1174,
     label = "CsBrCCO_Br",
     group = 
 """
@@ -33395,56 +27586,25 @@ entry(
 5   Br u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.76323,11.6072,12.6948,13.295,13.9171,14.0308,13.3006],'cal/(mol*K)','+|-',[0.261801,0.292612,0.295827,0.290956,0.25347,0.217844,0.18531]),
+        H298 = (-6.96254,'kcal/mol','+|-',0.889264),
+        S298 = (-12.1222,'cal/(mol*K)','+|-',0.76844),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOBr_G4   |         4
+library:CHOFBr_G4  |         4
+library:CHOClBr_G4 |         2
 """,
 )
 
 entry(
-    index = 1540,
-    label = "CsBrCCO_C",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   C  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1541,
-    label = "CsBrCCO_O",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   Br u0 {1,S}
-6   O  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1542,
+    index = 1175,
     label = "CsCCClO",
     group = 
 """
@@ -33454,12 +27614,7 @@ entry(
 4   O  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.95921,11.9351,12.8264,13.4089,14.0484,14.0917,13.1085],'cal/(mol*K)','+|-',[0.158522,0.182188,0.186241,0.183509,0.159127,0.137246,0.111852]),
-        H298 = (-18.6266,'kcal/mol','+|-',0.565117),
-        S298 = (-11.9338,'cal/(mol*K)','+|-',0.385161),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -33473,7 +27628,7 @@ CHOClBr_G4  |         7
 )
 
 entry(
-    index = 1543,
+    index = 1176,
     label = "CsCCClO_H",
     group = 
 """
@@ -33484,36 +27639,26 @@ entry(
 5   Cl u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.1978,12.3141,13.1733,13.7296,14.3649,14.3435,13.1825],'cal/(mol*K)','+|-',[0.192425,0.215071,0.217435,0.213854,0.186302,0.160116,0.136204]),
+        H298 = (-19.1468,'kcal/mol','+|-',0.653614),
+        S298 = (-14.5943,'cal/(mol*K)','+|-',0.564807),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOCl_G4    |         10
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         4
 """,
 )
 
 entry(
-    index = 1544,
-    label = "CsCCClO_F",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   F  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1545,
+    index = 1177,
     label = "CsCCClO_Cl",
     group = 
 """
@@ -33524,16 +27669,24 @@ entry(
 5   Cl u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.51808,11.5329,12.6427,13.2297,13.7119,13.7455,12.9545],'cal/(mol*K)','+|-',[0.270744,0.302607,0.305933,0.300895,0.262128,0.225285,0.19164]),
+        H298 = (-16.7784,'kcal/mol','+|-',0.919641),
+        S298 = (-14.8344,'cal/(mol*K)','+|-',0.794689),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         9
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 1546,
+    index = 1178,
     label = "CsCCClO_Br",
     group = 
 """
@@ -33544,56 +27697,24 @@ entry(
 5   Cl u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.55103,11.3923,12.369,12.9361,13.544,13.6201,12.7432],'cal/(mol*K)','+|-',[0.401718,0.448995,0.453929,0.446454,0.388934,0.334268,0.284348]),
+        H298 = (-19.8372,'kcal/mol','+|-',1.36452),
+        S298 = (-14.1762,'cal/(mol*K)','+|-',1.17912),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 1547,
-    label = "CsCCClO_C",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   C  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1548,
-    label = "CsCCClO_O",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   Cl u0 {1,S}
-6   O  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1549,
+    index = 1179,
     label = "CsCCFO",
     group = 
 """
@@ -33603,12 +27724,7 @@ entry(
 4   O  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.55566,10.6995,11.8042,12.488,13.2726,13.432,12.7083],'cal/(mol*K)','+|-',[0.13469,0.154798,0.158242,0.15592,0.135204,0.116612,0.0950364]),
-        H298 = (-63.7289,'kcal/mol','+|-',0.480158),
-        S298 = (-13.798,'cal/(mol*K)','+|-',0.327256),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -33622,7 +27738,7 @@ CHOFBr_G4   |         18
 )
 
 entry(
-    index = 1550,
+    index = 1180,
     label = "CsCCFO_H",
     group = 
 """
@@ -33633,16 +27749,26 @@ entry(
 5   F  u0 {1,S}
 6   H  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.85316,11.2556,12.3839,13.0381,13.7885,13.8726,12.9246],'cal/(mol*K)','+|-',[0.168254,0.188055,0.190121,0.186991,0.162899,0.140003,0.119095]),
+        H298 = (-64.8017,'kcal/mol','+|-',0.57151),
+        S298 = (-16.8604,'cal/(mol*K)','+|-',0.493858),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         10
+library:CHOFCl_G4   |         4
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         10
 """,
 )
 
 entry(
-    index = 1551,
+    index = 1181,
     label = "CsCCFO_F",
     group = 
 """
@@ -33653,16 +27779,23 @@ entry(
 5   F  u0 {1,S}
 6   F  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.08378,10.1656,11.4621,12.159,12.8607,13.0426,12.5497],'cal/(mol*K)','+|-',[0.275012,0.307377,0.310755,0.305638,0.26626,0.228836,0.194661]),
+        H298 = (-59.8833,'kcal/mol','+|-',0.934136),
+        S298 = (-15.7361,'cal/(mol*K)','+|-',0.807215),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         10
 """,
 )
 
 entry(
-    index = 1552,
+    index = 1182,
     label = "CsCCFO_Cl",
     group = 
 """
@@ -33673,16 +27806,23 @@ entry(
 5   F  u0 {1,S}
 6   Cl u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.68511,9.41585,10.5174,11.2014,11.9763,12.2052,11.9073],'cal/(mol*K)','+|-',[0.46365,0.518216,0.523911,0.515283,0.448895,0.385801,0.328185]),
+        H298 = (-63.7351,'kcal/mol','+|-',1.57489),
+        S298 = (-15.275,'cal/(mol*K)','+|-',1.36091),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         3
 """,
 )
 
 entry(
-    index = 1553,
+    index = 1183,
     label = "CsCCFO_Br",
     group = 
 """
@@ -33693,56 +27833,24 @@ entry(
 5   F  u0 {1,S}
 6   Br u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.29819,10.3201,11.47,12.1271,12.8273,12.961,12.3144],'cal/(mol*K)','+|-',[0.274302,0.306584,0.309953,0.304849,0.265573,0.228245,0.194159]),
+        H298 = (-63.5713,'kcal/mol','+|-',0.931726),
+        S298 = (-15.2006,'cal/(mol*K)','+|-',0.805132),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         8
 """,
 )
 
 entry(
-    index = 1554,
-    label = "CsCCFO_C",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   C  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1555,
-    label = "CsCCFO_O",
-    group = 
-"""
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   O  u0 {1,S} {6,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
-5   F  u0 {1,S}
-6   O  u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 1556,
+    index = 1184,
     label = "CsBrCCC",
     group = 
 """
@@ -33754,24 +27862,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.54855,10.52,11.0952,11.5673,12.3491,12.6698,12.4641],'cal/(mol*K)','+|-',[0.185715,0.213442,0.21819,0.214989,0.186424,0.160789,0.13104]),
-        H298 = (-2.86688,'kcal/mol','+|-',0.662059),
-        S298 = (-9.37656,'cal/(mol*K)','+|-',0.451233),
+        Cpdata = ([9.53654,10.523,11.1064,11.5717,12.3499,12.6533,12.4366],'cal/(mol*K)','+|-',[0.177638,0.198544,0.200725,0.19742,0.171985,0.147812,0.125737]),
+        H298 = (-2.96948,'kcal/mol','+|-',0.603385),
+        S298 = (-14.3915,'cal/(mol*K)','+|-',0.521403),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         6
-CHOFClBr_G4 |         1
-CHOFBr_G4   |         10
-CHOClBr_G4  |         7
+Library             | Number of Species
+library:CHOBr_G4    |         6
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         10
+library:CHOClBr_G4  |         7
 """,
 )
 
 entry(
-    index = 1557,
+    index = 1185,
     label = "CsCCCCl",
     group = 
 """
@@ -33783,25 +27891,25 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.21509,10.4368,11.1091,11.6359,12.4374,12.6709,12.2742],'cal/(mol*K)','+|-',[0.167756,0.192801,0.19709,0.194198,0.168396,0.14524,0.118367]),
-        H298 = (-13.7218,'kcal/mol','+|-',0.598034),
-        S298 = (-12.3612,'cal/(mol*K)','+|-',0.407596),
+        Cpdata = ([9.18883,10.4244,11.1134,11.6367,12.4297,12.6434,12.2473],'cal/(mol*K)','+|-',[0.160945,0.179886,0.181863,0.178868,0.155823,0.133921,0.113921]),
+        H298 = (-13.8241,'kcal/mol','+|-',0.546684),
+        S298 = (-18.0895,'cal/(mol*K)','+|-',0.472406),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library                  | Number of Species
-CHOCl_G4                 |         20
-Chlorinated_Hydrocarbons |         4
-CHOFCl_G4                |         4
-CHOFClBr_G4              |         1
-CHOClBr_G4               |         5
+Library                          | Number of Species
+library:CHOCl_G4                 |         20
+library:Chlorinated_Hydrocarbons |         4
+library:CHOFCl_G4                |         4
+library:CHOFClBr_G4              |         1
+library:CHOClBr_G4               |         5
 """,
 )
 
 entry(
-    index = 1558,
+    index = 1186,
     label = "CsCCCF",
     group = 
 """
@@ -33813,24 +27921,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.38048,9.51432,10.1781,10.6966,11.4614,11.7498,11.6067],'cal/(mol*K)','+|-',[0.154098,0.177104,0.181044,0.178388,0.154686,0.133415,0.108731]),
-        H298 = (-55.7617,'kcal/mol','+|-',0.549345),
-        S298 = (-13.1389,'cal/(mol*K)','+|-',0.374412),
+        Cpdata = ([8.38817,9.52721,10.1952,10.7036,11.4571,11.7191,11.5682],'cal/(mol*K)','+|-',[0.147916,0.165323,0.16714,0.164388,0.143208,0.12308,0.104699]),
+        H298 = (-55.7918,'kcal/mol','+|-',0.502427),
+        S298 = (-18.2843,'cal/(mol*K)','+|-',0.434162),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         20
-CHOFCl_G4   |         5
-CHOFClBr_G4 |         2
-CHOFBr_G4   |         15
+Library             | Number of Species
+library:CHOF_G4     |         20
+library:CHOFCl_G4   |         5
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         15
 """,
 )
 
 entry(
-    index = 1559,
+    index = 1187,
     label = "Cs-HHHH",
     group = 
 """
@@ -33854,7 +27962,7 @@ entry(
 )
 
 entry(
-    index = 1560,
+    index = 1188,
     label = "Cs-CHHH",
     group = 
 """
@@ -33873,7 +27981,7 @@ entry(
 )
 
 entry(
-    index = 1561,
+    index = 1189,
     label = "Cs-CsHHH",
     group = 
 """
@@ -33897,7 +28005,7 @@ entry(
 )
 
 entry(
-    index = 1562,
+    index = 1190,
     label = "Cs-CdsHHH",
     group = 
 """
@@ -33916,7 +28024,7 @@ entry(
 )
 
 entry(
-    index = 1563,
+    index = 1191,
     label = "Cs-(Cds-O2d)HHH",
     group = 
 """
@@ -33943,7 +28051,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1564,
+    index = 1192,
     label = "Cs-(Cds-Cd)HHH",
     group = 
 """
@@ -33963,7 +28071,7 @@ entry(
 )
 
 entry(
-    index = 1565,
+    index = 1193,
     label = "Cs-(Cds-Cds)HHH",
     group = 
 """
@@ -33988,7 +28096,7 @@ entry(
 )
 
 entry(
-    index = 1566,
+    index = 1194,
     label = "Cs-(Cds-Cdd)HHH",
     group = 
 """
@@ -34008,7 +28116,7 @@ entry(
 )
 
 entry(
-    index = 1567,
+    index = 1195,
     label = "Cs-(Cds-Cdd-O2d)HHH",
     group = 
 """
@@ -34036,7 +28144,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1568,
+    index = 1196,
     label = "Cs-(Cds-Cdd-S2d)HHH",
     group = 
 """
@@ -34057,7 +28165,7 @@ entry(
 )
 
 entry(
-    index = 1569,
+    index = 1197,
     label = "Cs-(Cds-Cdd-Cd)HHH",
     group = 
 """
@@ -34078,7 +28186,7 @@ entry(
 )
 
 entry(
-    index = 1570,
+    index = 1198,
     label = "Cs-CtHHH",
     group = 
 """
@@ -34102,7 +28210,7 @@ entry(
 )
 
 entry(
-    index = 1571,
+    index = 1199,
     label = "Cs-(CtN3t)HHH",
     group = 
 """
@@ -34129,7 +28237,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 1572,
+    index = 1200,
     label = "Cs-CbHHH",
     group = 
 """
@@ -34153,7 +28261,7 @@ entry(
 )
 
 entry(
-    index = 1573,
+    index = 1201,
     label = "Cs-C=SHHH",
     group = 
 """
@@ -34178,7 +28286,7 @@ entry(
 )
 
 entry(
-    index = 1574,
+    index = 1202,
     label = "Cs-OsHHH",
     group = 
 """
@@ -34204,7 +28312,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1575,
+    index = 1203,
     label = "Cs-OsOsHH",
     group = 
 """
@@ -34230,7 +28338,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1576,
+    index = 1204,
     label = "Cs-OsOsOsH",
     group = 
 """
@@ -34254,7 +28362,7 @@ entry(
 )
 
 entry(
-    index = 1577,
+    index = 1205,
     label = "Cs-OsSHH",
     group = 
 """
@@ -34273,7 +28381,7 @@ entry(
 )
 
 entry(
-    index = 1578,
+    index = 1206,
     label = "Cs-OsS2HH",
     group = 
 """
@@ -34297,7 +28405,7 @@ entry(
 )
 
 entry(
-    index = 1579,
+    index = 1207,
     label = "Cs-OsS4HH",
     group = 
 """
@@ -34321,7 +28429,7 @@ entry(
 )
 
 entry(
-    index = 1580,
+    index = 1208,
     label = "Cs-OsSSH",
     group = 
 """
@@ -34340,7 +28448,7 @@ entry(
 )
 
 entry(
-    index = 1581,
+    index = 1209,
     label = "Cs-OsS2S2H",
     group = 
 """
@@ -34364,7 +28472,7 @@ entry(
 )
 
 entry(
-    index = 1582,
+    index = 1210,
     label = "Cs-OsS4S2H",
     group = 
 """
@@ -34388,7 +28496,7 @@ entry(
 )
 
 entry(
-    index = 1583,
+    index = 1211,
     label = "Cs-OsOsSH",
     group = 
 """
@@ -34407,7 +28515,7 @@ entry(
 )
 
 entry(
-    index = 1584,
+    index = 1212,
     label = "Cs-OsOsS2H",
     group = 
 """
@@ -34431,7 +28539,7 @@ entry(
 )
 
 entry(
-    index = 1585,
+    index = 1213,
     label = "Cs-OsOsS4H",
     group = 
 """
@@ -34455,7 +28563,7 @@ entry(
 )
 
 entry(
-    index = 1586,
+    index = 1214,
     label = "Cs-SsHHH",
     group = 
 """
@@ -34474,7 +28582,7 @@ entry(
 )
 
 entry(
-    index = 1587,
+    index = 1215,
     label = "Cs-S2sHHH",
     group = 
 """
@@ -34498,7 +28606,7 @@ entry(
 )
 
 entry(
-    index = 1588,
+    index = 1216,
     label = "Cs-S4HHH",
     group = 
 """
@@ -34522,7 +28630,7 @@ entry(
 )
 
 entry(
-    index = 1589,
+    index = 1217,
     label = "Cs-S6HHH",
     group = 
 """
@@ -34546,7 +28654,7 @@ entry(
 )
 
 entry(
-    index = 1590,
+    index = 1218,
     label = "Cs-SsSsHH",
     group = 
 """
@@ -34570,7 +28678,7 @@ entry(
 )
 
 entry(
-    index = 1591,
+    index = 1219,
     label = "Cs-SsSsSsH",
     group = 
 """
@@ -34594,7 +28702,7 @@ entry(
 )
 
 entry(
-    index = 1592,
+    index = 1220,
     label = "Cs-CCHH",
     group = 
 """
@@ -34613,7 +28721,7 @@ entry(
 )
 
 entry(
-    index = 1593,
+    index = 1221,
     label = "Cs-CsCsHH",
     group = 
 """
@@ -34637,7 +28745,7 @@ entry(
 )
 
 entry(
-    index = 1594,
+    index = 1222,
     label = "Cs-CdsCsHH",
     group = 
 """
@@ -34656,7 +28764,7 @@ entry(
 )
 
 entry(
-    index = 1595,
+    index = 1223,
     label = "Cs-(Cds-O2d)CsHH",
     group = 
 """
@@ -34683,7 +28791,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1596,
+    index = 1224,
     label = "Cs-(Cds-Cd)CsHH",
     group = 
 """
@@ -34703,7 +28811,7 @@ entry(
 )
 
 entry(
-    index = 1597,
+    index = 1225,
     label = "Cs-(Cds-Cds)CsHH",
     group = 
 """
@@ -34728,7 +28836,7 @@ entry(
 )
 
 entry(
-    index = 1598,
+    index = 1226,
     label = "Cs-(Cds-Cdd)CsHH",
     group = 
 """
@@ -34748,7 +28856,7 @@ entry(
 )
 
 entry(
-    index = 1599,
+    index = 1227,
     label = "Cs-(Cds-Cdd-O2d)CsHH",
     group = 
 """
@@ -34774,7 +28882,7 @@ entry(
 )
 
 entry(
-    index = 1600,
+    index = 1228,
     label = "Cs-(Cds-Cdd-S2d)CsHH",
     group = 
 """
@@ -34795,7 +28903,7 @@ entry(
 )
 
 entry(
-    index = 1601,
+    index = 1229,
     label = "Cs-(Cds-Cdd-Cd)CsHH",
     group = 
 """
@@ -34816,7 +28924,7 @@ entry(
 )
 
 entry(
-    index = 1602,
+    index = 1230,
     label = "Cs-CdsCdsHH",
     group = 
 """
@@ -34835,7 +28943,7 @@ entry(
 )
 
 entry(
-    index = 1603,
+    index = 1231,
     label = "Cs-(Cds-O2d)(Cds-O2d)HH",
     group = 
 """
@@ -34863,7 +28971,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1604,
+    index = 1232,
     label = "Cs-(Cds-O2d)(Cds-Cd)HH",
     group = 
 """
@@ -34891,7 +28999,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1605,
+    index = 1233,
     label = "Cs-(Cds-O2d)(Cds-Cds)HH",
     group = 
 """
@@ -34917,7 +29025,7 @@ entry(
 )
 
 entry(
-    index = 1606,
+    index = 1234,
     label = "Cs-(Cds-O2d)(Cds-Cdd)HH",
     group = 
 """
@@ -34938,7 +29046,7 @@ entry(
 )
 
 entry(
-    index = 1607,
+    index = 1235,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)HH",
     group = 
 """
@@ -34960,7 +29068,7 @@ entry(
 )
 
 entry(
-    index = 1608,
+    index = 1236,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -34982,7 +29090,7 @@ entry(
 )
 
 entry(
-    index = 1609,
+    index = 1237,
     label = "Cs-(Cds-Cd)(Cds-Cd)HH",
     group = 
 """
@@ -35003,7 +29111,7 @@ entry(
 )
 
 entry(
-    index = 1610,
+    index = 1238,
     label = "Cs-(Cds-Cds)(Cds-Cds)HH",
     group = 
 """
@@ -35029,7 +29137,7 @@ entry(
 )
 
 entry(
-    index = 1611,
+    index = 1239,
     label = "Cs-(Cds-Cdd)(Cds-Cds)HH",
     group = 
 """
@@ -35050,7 +29158,7 @@ entry(
 )
 
 entry(
-    index = 1612,
+    index = 1240,
     label = "Cs-Cd(CCO)HH",
     group = 
 """
@@ -35079,7 +29187,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1613,
+    index = 1241,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)HH",
     group = 
 """
@@ -35101,7 +29209,7 @@ entry(
 )
 
 entry(
-    index = 1614,
+    index = 1242,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)HH",
     group = 
 """
@@ -35123,7 +29231,7 @@ entry(
 )
 
 entry(
-    index = 1615,
+    index = 1243,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)HH",
     group = 
 """
@@ -35144,7 +29252,7 @@ entry(
 )
 
 entry(
-    index = 1616,
+    index = 1244,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)HH",
     group = 
 """
@@ -35172,7 +29280,7 @@ entry(
 )
 
 entry(
-    index = 1617,
+    index = 1245,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -35195,7 +29303,7 @@ entry(
 )
 
 entry(
-    index = 1618,
+    index = 1246,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)HH",
     group = 
 """
@@ -35218,7 +29326,7 @@ entry(
 )
 
 entry(
-    index = 1619,
+    index = 1247,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -35241,7 +29349,7 @@ entry(
 )
 
 entry(
-    index = 1620,
+    index = 1248,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -35264,7 +29372,7 @@ entry(
 )
 
 entry(
-    index = 1621,
+    index = 1249,
     label = "Cs-CtCsHH",
     group = 
 """
@@ -35288,7 +29396,7 @@ entry(
 )
 
 entry(
-    index = 1622,
+    index = 1250,
     label = "Cs-CtCdsHH",
     group = 
 """
@@ -35307,7 +29415,7 @@ entry(
 )
 
 entry(
-    index = 1623,
+    index = 1251,
     label = "Cs-(Cds-O2d)CtHH",
     group = 
 """
@@ -35332,7 +29440,7 @@ entry(
 )
 
 entry(
-    index = 1624,
+    index = 1252,
     label = "Cs-(Cds-Cd)CtHH",
     group = 
 """
@@ -35352,7 +29460,7 @@ entry(
 )
 
 entry(
-    index = 1625,
+    index = 1253,
     label = "Cs-(Cds-Cds)CtHH",
     group = 
 """
@@ -35377,7 +29485,7 @@ entry(
 )
 
 entry(
-    index = 1626,
+    index = 1254,
     label = "Cs-(Cds-Cdd)CtHH",
     group = 
 """
@@ -35397,7 +29505,7 @@ entry(
 )
 
 entry(
-    index = 1627,
+    index = 1255,
     label = "Cs-(Cds-Cdd-O2d)CtHH",
     group = 
 """
@@ -35418,7 +29526,7 @@ entry(
 )
 
 entry(
-    index = 1628,
+    index = 1256,
     label = "Cs-(Cds-Cdd-S2d)CtHH",
     group = 
 """
@@ -35439,7 +29547,7 @@ entry(
 )
 
 entry(
-    index = 1629,
+    index = 1257,
     label = "Cs-(Cds-Cdd-Cd)CtHH",
     group = 
 """
@@ -35460,7 +29568,7 @@ entry(
 )
 
 entry(
-    index = 1630,
+    index = 1258,
     label = "Cs-CtCtHH",
     group = 
 """
@@ -35484,7 +29592,7 @@ entry(
 )
 
 entry(
-    index = 1631,
+    index = 1259,
     label = "Cs-CbCsHH",
     group = 
 """
@@ -35508,7 +29616,7 @@ entry(
 )
 
 entry(
-    index = 1632,
+    index = 1260,
     label = "Cs-CbCdsHH",
     group = 
 """
@@ -35527,7 +29635,7 @@ entry(
 )
 
 entry(
-    index = 1633,
+    index = 1261,
     label = "Cs-(Cds-O2d)CbHH",
     group = 
 """
@@ -35552,7 +29660,7 @@ entry(
 )
 
 entry(
-    index = 1634,
+    index = 1262,
     label = "Cs-(Cds-Cd)CbHH",
     group = 
 """
@@ -35572,7 +29680,7 @@ entry(
 )
 
 entry(
-    index = 1635,
+    index = 1263,
     label = "Cs-(Cds-Cds)CbHH",
     group = 
 """
@@ -35597,7 +29705,7 @@ entry(
 )
 
 entry(
-    index = 1636,
+    index = 1264,
     label = "Cs-(Cds-Cdd)CbHH",
     group = 
 """
@@ -35617,7 +29725,7 @@ entry(
 )
 
 entry(
-    index = 1637,
+    index = 1265,
     label = "Cs-(Cds-Cdd-O2d)CbHH",
     group = 
 """
@@ -35638,7 +29746,7 @@ entry(
 )
 
 entry(
-    index = 1638,
+    index = 1266,
     label = "Cs-(Cds-Cdd-S2d)CbHH",
     group = 
 """
@@ -35659,7 +29767,7 @@ entry(
 )
 
 entry(
-    index = 1639,
+    index = 1267,
     label = "Cs-(Cds-Cdd-Cd)CbHH",
     group = 
 """
@@ -35680,7 +29788,7 @@ entry(
 )
 
 entry(
-    index = 1640,
+    index = 1268,
     label = "Cs-CbCtHH",
     group = 
 """
@@ -35704,7 +29812,7 @@ entry(
 )
 
 entry(
-    index = 1641,
+    index = 1269,
     label = "Cs-CbCbHH",
     group = 
 """
@@ -35728,7 +29836,7 @@ entry(
 )
 
 entry(
-    index = 1642,
+    index = 1270,
     label = "Cs-C=SCtHH",
     group = 
 """
@@ -35748,7 +29856,7 @@ entry(
 )
 
 entry(
-    index = 1643,
+    index = 1271,
     label = "Cs-C=SCsHH",
     group = 
 """
@@ -35773,7 +29881,7 @@ entry(
 )
 
 entry(
-    index = 1644,
+    index = 1272,
     label = "Cs-C=S(Cds-Cd)HH",
     group = 
 """
@@ -35794,7 +29902,7 @@ entry(
 )
 
 entry(
-    index = 1645,
+    index = 1273,
     label = "Cs-C=S(Cds-Cdd)HH",
     group = 
 """
@@ -35815,7 +29923,7 @@ entry(
 )
 
 entry(
-    index = 1646,
+    index = 1274,
     label = "Cs-C=S(Cds-Cdd-Cd)HH",
     group = 
 """
@@ -35837,7 +29945,7 @@ entry(
 )
 
 entry(
-    index = 1647,
+    index = 1275,
     label = "Cs-C=S(Cds-Cdd-S2d)HH",
     group = 
 """
@@ -35859,7 +29967,7 @@ entry(
 )
 
 entry(
-    index = 1648,
+    index = 1276,
     label = "Cs-C=S(Cds-Cds)HH",
     group = 
 """
@@ -35880,7 +29988,7 @@ entry(
 )
 
 entry(
-    index = 1649,
+    index = 1277,
     label = "Cs-C=SC=SHH",
     group = 
 """
@@ -35901,7 +30009,7 @@ entry(
 )
 
 entry(
-    index = 1650,
+    index = 1278,
     label = "Cs-C=SCbHH",
     group = 
 """
@@ -35921,7 +30029,7 @@ entry(
 )
 
 entry(
-    index = 1651,
+    index = 1279,
     label = "Cs-CCCH",
     group = 
 """
@@ -35940,7 +30048,7 @@ entry(
 )
 
 entry(
-    index = 1652,
+    index = 1280,
     label = "Cs-CsCsCsH",
     group = 
 """
@@ -35964,7 +30072,7 @@ entry(
 )
 
 entry(
-    index = 1653,
+    index = 1281,
     label = "Cs-CdsCsCsH",
     group = 
 """
@@ -35983,7 +30091,7 @@ entry(
 )
 
 entry(
-    index = 1654,
+    index = 1282,
     label = "Cs-(Cds-O2d)CsCsH",
     group = 
 """
@@ -36010,7 +30118,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1655,
+    index = 1283,
     label = "Cs-(Cds-Cd)CsCsH",
     group = 
 """
@@ -36030,7 +30138,7 @@ entry(
 )
 
 entry(
-    index = 1656,
+    index = 1284,
     label = "Cs-(Cds-Cds)CsCsH",
     group = 
 """
@@ -36055,7 +30163,7 @@ entry(
 )
 
 entry(
-    index = 1657,
+    index = 1285,
     label = "Cs-(Cds-Cdd)CsCsH",
     group = 
 """
@@ -36075,7 +30183,7 @@ entry(
 )
 
 entry(
-    index = 1658,
+    index = 1286,
     label = "Cs-(Cds-Cdd-O2d)CsCsH",
     group = 
 """
@@ -36103,7 +30211,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1659,
+    index = 1287,
     label = "Cs-(Cds-Cdd-S2d)CsCsH",
     group = 
 """
@@ -36124,7 +30232,7 @@ entry(
 )
 
 entry(
-    index = 1660,
+    index = 1288,
     label = "Cs-(Cds-Cdd-Cd)CsCsH",
     group = 
 """
@@ -36150,7 +30258,7 @@ entry(
 )
 
 entry(
-    index = 1661,
+    index = 1289,
     label = "Cs-CtCsCsH",
     group = 
 """
@@ -36174,7 +30282,7 @@ entry(
 )
 
 entry(
-    index = 1662,
+    index = 1290,
     label = "Cs-CbCsCsH",
     group = 
 """
@@ -36198,7 +30306,7 @@ entry(
 )
 
 entry(
-    index = 1663,
+    index = 1291,
     label = "Cs-CdsCdsCsH",
     group = 
 """
@@ -36217,7 +30325,7 @@ entry(
 )
 
 entry(
-    index = 1664,
+    index = 1292,
     label = "Cs-(Cds-O2d)(Cds-O2d)CsH",
     group = 
 """
@@ -36238,7 +30346,7 @@ entry(
 )
 
 entry(
-    index = 1665,
+    index = 1293,
     label = "Cs-(Cds-O2d)(Cds-Cd)CsH",
     group = 
 """
@@ -36266,7 +30374,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1666,
+    index = 1294,
     label = "Cs-(Cds-O2d)(Cds-Cds)CsH",
     group = 
 """
@@ -36287,7 +30395,7 @@ entry(
 )
 
 entry(
-    index = 1667,
+    index = 1295,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsH",
     group = 
 """
@@ -36308,7 +30416,7 @@ entry(
 )
 
 entry(
-    index = 1668,
+    index = 1296,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsH",
     group = 
 """
@@ -36330,7 +30438,7 @@ entry(
 )
 
 entry(
-    index = 1669,
+    index = 1297,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -36352,7 +30460,7 @@ entry(
 )
 
 entry(
-    index = 1670,
+    index = 1298,
     label = "Cs-(Cds-Cd)(Cds-Cd)CsH",
     group = 
 """
@@ -36373,7 +30481,7 @@ entry(
 )
 
 entry(
-    index = 1671,
+    index = 1299,
     label = "Cs-(Cds-Cds)(Cds-Cds)CsH",
     group = 
 """
@@ -36399,7 +30507,7 @@ entry(
 )
 
 entry(
-    index = 1672,
+    index = 1300,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsH",
     group = 
 """
@@ -36420,7 +30528,7 @@ entry(
 )
 
 entry(
-    index = 1673,
+    index = 1301,
     label = "Cs-CsCd(CCO)H",
     group = 
 """
@@ -36449,7 +30557,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1674,
+    index = 1302,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsH",
     group = 
 """
@@ -36471,7 +30579,7 @@ entry(
 )
 
 entry(
-    index = 1675,
+    index = 1303,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsH",
     group = 
 """
@@ -36493,7 +30601,7 @@ entry(
 )
 
 entry(
-    index = 1676,
+    index = 1304,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsH",
     group = 
 """
@@ -36514,7 +30622,7 @@ entry(
 )
 
 entry(
-    index = 1677,
+    index = 1305,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsH",
     group = 
 """
@@ -36544,7 +30652,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1678,
+    index = 1306,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -36567,7 +30675,7 @@ entry(
 )
 
 entry(
-    index = 1679,
+    index = 1307,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsH",
     group = 
 """
@@ -36590,7 +30698,7 @@ entry(
 )
 
 entry(
-    index = 1680,
+    index = 1308,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -36613,7 +30721,7 @@ entry(
 )
 
 entry(
-    index = 1681,
+    index = 1309,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -36636,7 +30744,7 @@ entry(
 )
 
 entry(
-    index = 1682,
+    index = 1310,
     label = "Cs-CtCdsCsH",
     group = 
 """
@@ -36655,7 +30763,7 @@ entry(
 )
 
 entry(
-    index = 1683,
+    index = 1311,
     label = "Cs-(Cds-O2d)CtCsH",
     group = 
 """
@@ -36675,7 +30783,7 @@ entry(
 )
 
 entry(
-    index = 1684,
+    index = 1312,
     label = "Cs-(Cds-Cd)CtCsH",
     group = 
 """
@@ -36695,7 +30803,7 @@ entry(
 )
 
 entry(
-    index = 1685,
+    index = 1313,
     label = "Cs-(Cds-Cds)CtCsH",
     group = 
 """
@@ -36720,7 +30828,7 @@ entry(
 )
 
 entry(
-    index = 1686,
+    index = 1314,
     label = "Cs-(Cds-Cdd)CtCsH",
     group = 
 """
@@ -36740,7 +30848,7 @@ entry(
 )
 
 entry(
-    index = 1687,
+    index = 1315,
     label = "Cs-(Cds-Cdd-O2d)CtCsH",
     group = 
 """
@@ -36761,7 +30869,7 @@ entry(
 )
 
 entry(
-    index = 1688,
+    index = 1316,
     label = "Cs-(Cds-Cdd-S2d)CtCsH",
     group = 
 """
@@ -36782,7 +30890,7 @@ entry(
 )
 
 entry(
-    index = 1689,
+    index = 1317,
     label = "Cs-(Cds-Cdd-Cd)CtCsH",
     group = 
 """
@@ -36803,7 +30911,7 @@ entry(
 )
 
 entry(
-    index = 1690,
+    index = 1318,
     label = "Cs-CbCdsCsH",
     group = 
 """
@@ -36822,7 +30930,7 @@ entry(
 )
 
 entry(
-    index = 1691,
+    index = 1319,
     label = "Cs-(Cds-O2d)CbCsH",
     group = 
 """
@@ -36842,7 +30950,7 @@ entry(
 )
 
 entry(
-    index = 1692,
+    index = 1320,
     label = "Cs-(Cds-Cd)CbCsH",
     group = 
 """
@@ -36862,7 +30970,7 @@ entry(
 )
 
 entry(
-    index = 1693,
+    index = 1321,
     label = "Cs-(Cds-Cds)CbCsH",
     group = 
 """
@@ -36887,7 +30995,7 @@ entry(
 )
 
 entry(
-    index = 1694,
+    index = 1322,
     label = "Cs-(Cds-Cdd)CbCsH",
     group = 
 """
@@ -36907,7 +31015,7 @@ entry(
 )
 
 entry(
-    index = 1695,
+    index = 1323,
     label = "Cs-(Cds-Cdd-O2d)CbCsH",
     group = 
 """
@@ -36928,7 +31036,7 @@ entry(
 )
 
 entry(
-    index = 1696,
+    index = 1324,
     label = "Cs-(Cds-Cdd-Cd)CbCsH",
     group = 
 """
@@ -36949,7 +31057,7 @@ entry(
 )
 
 entry(
-    index = 1697,
+    index = 1325,
     label = "Cs-CtCtCsH",
     group = 
 """
@@ -36973,7 +31081,7 @@ entry(
 )
 
 entry(
-    index = 1698,
+    index = 1326,
     label = "Cs-CbCtCsH",
     group = 
 """
@@ -36997,7 +31105,7 @@ entry(
 )
 
 entry(
-    index = 1699,
+    index = 1327,
     label = "Cs-CbCbCsH",
     group = 
 """
@@ -37021,7 +31129,7 @@ entry(
 )
 
 entry(
-    index = 1700,
+    index = 1328,
     label = "Cs-CdsCdsCdsH",
     group = 
 """
@@ -37040,7 +31148,7 @@ entry(
 )
 
 entry(
-    index = 1701,
+    index = 1329,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)H",
     group = 
 """
@@ -37062,7 +31170,7 @@ entry(
 )
 
 entry(
-    index = 1702,
+    index = 1330,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)H",
     group = 
 """
@@ -37084,7 +31192,7 @@ entry(
 )
 
 entry(
-    index = 1703,
+    index = 1331,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)H",
     group = 
 """
@@ -37106,7 +31214,7 @@ entry(
 )
 
 entry(
-    index = 1704,
+    index = 1332,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)H",
     group = 
 """
@@ -37128,7 +31236,7 @@ entry(
 )
 
 entry(
-    index = 1705,
+    index = 1333,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -37151,7 +31259,7 @@ entry(
 )
 
 entry(
-    index = 1706,
+    index = 1334,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37174,7 +31282,7 @@ entry(
 )
 
 entry(
-    index = 1707,
+    index = 1335,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)H",
     group = 
 """
@@ -37203,7 +31311,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1708,
+    index = 1336,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)H",
     group = 
 """
@@ -37225,7 +31333,7 @@ entry(
 )
 
 entry(
-    index = 1709,
+    index = 1337,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)H",
     group = 
 """
@@ -37247,7 +31355,7 @@ entry(
 )
 
 entry(
-    index = 1710,
+    index = 1338,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)H",
     group = 
 """
@@ -37270,7 +31378,7 @@ entry(
 )
 
 entry(
-    index = 1711,
+    index = 1339,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)H",
     group = 
 """
@@ -37293,7 +31401,7 @@ entry(
 )
 
 entry(
-    index = 1712,
+    index = 1340,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
@@ -37315,7 +31423,7 @@ entry(
 )
 
 entry(
-    index = 1713,
+    index = 1341,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -37339,7 +31447,7 @@ entry(
 )
 
 entry(
-    index = 1714,
+    index = 1342,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37363,7 +31471,7 @@ entry(
 )
 
 entry(
-    index = 1715,
+    index = 1343,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37387,7 +31495,7 @@ entry(
 )
 
 entry(
-    index = 1716,
+    index = 1344,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)H",
     group = 
 """
@@ -37409,7 +31517,7 @@ entry(
 )
 
 entry(
-    index = 1717,
+    index = 1345,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H",
     group = 
 """
@@ -37436,7 +31544,7 @@ entry(
 )
 
 entry(
-    index = 1718,
+    index = 1346,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)H",
     group = 
 """
@@ -37458,7 +31566,7 @@ entry(
 )
 
 entry(
-    index = 1719,
+    index = 1347,
     label = "Cs-CdCd(CCO)H",
     group = 
 """
@@ -37488,7 +31596,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1720,
+    index = 1348,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -37511,7 +31619,7 @@ entry(
 )
 
 entry(
-    index = 1721,
+    index = 1349,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37534,7 +31642,7 @@ entry(
 )
 
 entry(
-    index = 1722,
+    index = 1350,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
@@ -37556,7 +31664,7 @@ entry(
 )
 
 entry(
-    index = 1723,
+    index = 1351,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -37580,7 +31688,7 @@ entry(
 )
 
 entry(
-    index = 1724,
+    index = 1352,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37604,7 +31712,7 @@ entry(
 )
 
 entry(
-    index = 1725,
+    index = 1353,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -37628,7 +31736,7 @@ entry(
 )
 
 entry(
-    index = 1726,
+    index = 1354,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37652,7 +31760,7 @@ entry(
 )
 
 entry(
-    index = 1727,
+    index = 1355,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37676,7 +31784,7 @@ entry(
 )
 
 entry(
-    index = 1728,
+    index = 1356,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
@@ -37698,7 +31806,7 @@ entry(
 )
 
 entry(
-    index = 1729,
+    index = 1357,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group = 
 """
@@ -37723,7 +31831,7 @@ entry(
 )
 
 entry(
-    index = 1730,
+    index = 1358,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37748,7 +31856,7 @@ entry(
 )
 
 entry(
-    index = 1731,
+    index = 1359,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37773,7 +31881,7 @@ entry(
 )
 
 entry(
-    index = 1732,
+    index = 1360,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -37798,7 +31906,7 @@ entry(
 )
 
 entry(
-    index = 1733,
+    index = 1361,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37823,7 +31931,7 @@ entry(
 )
 
 entry(
-    index = 1734,
+    index = 1362,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37848,7 +31956,7 @@ entry(
 )
 
 entry(
-    index = 1735,
+    index = 1363,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -37873,7 +31981,7 @@ entry(
 )
 
 entry(
-    index = 1736,
+    index = 1364,
     label = "Cs-CtCdsCdsH",
     group = 
 """
@@ -37892,7 +32000,7 @@ entry(
 )
 
 entry(
-    index = 1737,
+    index = 1365,
     label = "Cs-(Cds-O2d)(Cds-O2d)CtH",
     group = 
 """
@@ -37913,7 +32021,7 @@ entry(
 )
 
 entry(
-    index = 1738,
+    index = 1366,
     label = "Cs-(Cds-O2d)(Cds-Cd)CtH",
     group = 
 """
@@ -37934,7 +32042,7 @@ entry(
 )
 
 entry(
-    index = 1739,
+    index = 1367,
     label = "Cs-(Cds-O2d)(Cds-Cds)CtH",
     group = 
 """
@@ -37955,7 +32063,7 @@ entry(
 )
 
 entry(
-    index = 1740,
+    index = 1368,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtH",
     group = 
 """
@@ -37976,7 +32084,7 @@ entry(
 )
 
 entry(
-    index = 1741,
+    index = 1369,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtH",
     group = 
 """
@@ -37998,7 +32106,7 @@ entry(
 )
 
 entry(
-    index = 1742,
+    index = 1370,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -38020,7 +32128,7 @@ entry(
 )
 
 entry(
-    index = 1743,
+    index = 1371,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtH",
     group = 
 """
@@ -38041,7 +32149,7 @@ entry(
 )
 
 entry(
-    index = 1744,
+    index = 1372,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtH",
     group = 
 """
@@ -38067,7 +32175,7 @@ entry(
 )
 
 entry(
-    index = 1745,
+    index = 1373,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtH",
     group = 
 """
@@ -38088,7 +32196,7 @@ entry(
 )
 
 entry(
-    index = 1746,
+    index = 1374,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtH",
     group = 
 """
@@ -38110,7 +32218,7 @@ entry(
 )
 
 entry(
-    index = 1747,
+    index = 1375,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtH",
     group = 
 """
@@ -38132,7 +32240,7 @@ entry(
 )
 
 entry(
-    index = 1748,
+    index = 1376,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtH",
     group = 
 """
@@ -38154,7 +32262,7 @@ entry(
 )
 
 entry(
-    index = 1749,
+    index = 1377,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtH",
     group = 
 """
@@ -38175,7 +32283,7 @@ entry(
 )
 
 entry(
-    index = 1750,
+    index = 1378,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtH",
     group = 
 """
@@ -38198,7 +32306,7 @@ entry(
 )
 
 entry(
-    index = 1751,
+    index = 1379,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -38221,7 +32329,7 @@ entry(
 )
 
 entry(
-    index = 1752,
+    index = 1380,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtH",
     group = 
 """
@@ -38244,7 +32352,7 @@ entry(
 )
 
 entry(
-    index = 1753,
+    index = 1381,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -38267,7 +32375,7 @@ entry(
 )
 
 entry(
-    index = 1754,
+    index = 1382,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -38290,7 +32398,7 @@ entry(
 )
 
 entry(
-    index = 1755,
+    index = 1383,
     label = "Cs-CbCdsCdsH",
     group = 
 """
@@ -38309,7 +32417,7 @@ entry(
 )
 
 entry(
-    index = 1756,
+    index = 1384,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbH",
     group = 
 """
@@ -38330,7 +32438,7 @@ entry(
 )
 
 entry(
-    index = 1757,
+    index = 1385,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbH",
     group = 
 """
@@ -38351,7 +32459,7 @@ entry(
 )
 
 entry(
-    index = 1758,
+    index = 1386,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbH",
     group = 
 """
@@ -38372,7 +32480,7 @@ entry(
 )
 
 entry(
-    index = 1759,
+    index = 1387,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbH",
     group = 
 """
@@ -38393,7 +32501,7 @@ entry(
 )
 
 entry(
-    index = 1760,
+    index = 1388,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbH",
     group = 
 """
@@ -38415,7 +32523,7 @@ entry(
 )
 
 entry(
-    index = 1761,
+    index = 1389,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -38437,7 +32545,7 @@ entry(
 )
 
 entry(
-    index = 1762,
+    index = 1390,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbH",
     group = 
 """
@@ -38458,7 +32566,7 @@ entry(
 )
 
 entry(
-    index = 1763,
+    index = 1391,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbH",
     group = 
 """
@@ -38484,7 +32592,7 @@ entry(
 )
 
 entry(
-    index = 1764,
+    index = 1392,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbH",
     group = 
 """
@@ -38505,7 +32613,7 @@ entry(
 )
 
 entry(
-    index = 1765,
+    index = 1393,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbH",
     group = 
 """
@@ -38527,7 +32635,7 @@ entry(
 )
 
 entry(
-    index = 1766,
+    index = 1394,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbH",
     group = 
 """
@@ -38549,7 +32657,7 @@ entry(
 )
 
 entry(
-    index = 1767,
+    index = 1395,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbH",
     group = 
 """
@@ -38571,7 +32679,7 @@ entry(
 )
 
 entry(
-    index = 1768,
+    index = 1396,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbH",
     group = 
 """
@@ -38592,7 +32700,7 @@ entry(
 )
 
 entry(
-    index = 1769,
+    index = 1397,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbH",
     group = 
 """
@@ -38615,7 +32723,7 @@ entry(
 )
 
 entry(
-    index = 1770,
+    index = 1398,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -38638,7 +32746,7 @@ entry(
 )
 
 entry(
-    index = 1771,
+    index = 1399,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbH",
     group = 
 """
@@ -38661,7 +32769,7 @@ entry(
 )
 
 entry(
-    index = 1772,
+    index = 1400,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -38684,7 +32792,7 @@ entry(
 )
 
 entry(
-    index = 1773,
+    index = 1401,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -38707,7 +32815,7 @@ entry(
 )
 
 entry(
-    index = 1774,
+    index = 1402,
     label = "Cs-CtCtCdsH",
     group = 
 """
@@ -38726,7 +32834,7 @@ entry(
 )
 
 entry(
-    index = 1775,
+    index = 1403,
     label = "Cs-CtCt(Cds-O2d)H",
     group = 
 """
@@ -38746,7 +32854,7 @@ entry(
 )
 
 entry(
-    index = 1776,
+    index = 1404,
     label = "Cs-CtCt(Cds-Cd)H",
     group = 
 """
@@ -38766,7 +32874,7 @@ entry(
 )
 
 entry(
-    index = 1777,
+    index = 1405,
     label = "Cs-CtCt(Cds-Cds)H",
     group = 
 """
@@ -38791,7 +32899,7 @@ entry(
 )
 
 entry(
-    index = 1778,
+    index = 1406,
     label = "Cs-CtCt(Cds-Cdd)H",
     group = 
 """
@@ -38811,7 +32919,7 @@ entry(
 )
 
 entry(
-    index = 1779,
+    index = 1407,
     label = "Cs-CtCt(Cds-Cdd-O2d)H",
     group = 
 """
@@ -38832,7 +32940,7 @@ entry(
 )
 
 entry(
-    index = 1780,
+    index = 1408,
     label = "Cs-CtCt(Cds-Cdd-S2d)H",
     group = 
 """
@@ -38853,7 +32961,7 @@ entry(
 )
 
 entry(
-    index = 1781,
+    index = 1409,
     label = "Cs-CtCt(Cds-Cdd-Cd)H",
     group = 
 """
@@ -38874,7 +32982,7 @@ entry(
 )
 
 entry(
-    index = 1782,
+    index = 1410,
     label = "Cs-CbCtCdsH",
     group = 
 """
@@ -38893,7 +33001,7 @@ entry(
 )
 
 entry(
-    index = 1783,
+    index = 1411,
     label = "Cs-CbCt(Cds-O2d)H",
     group = 
 """
@@ -38913,7 +33021,7 @@ entry(
 )
 
 entry(
-    index = 1784,
+    index = 1412,
     label = "Cs-CbCt(Cds-Cd)H",
     group = 
 """
@@ -38933,7 +33041,7 @@ entry(
 )
 
 entry(
-    index = 1785,
+    index = 1413,
     label = "Cs-CbCt(Cds-Cds)H",
     group = 
 """
@@ -38953,7 +33061,7 @@ entry(
 )
 
 entry(
-    index = 1786,
+    index = 1414,
     label = "Cs-CbCt(Cds-Cdd)H",
     group = 
 """
@@ -38973,7 +33081,7 @@ entry(
 )
 
 entry(
-    index = 1787,
+    index = 1415,
     label = "Cs-CbCt(Cds-Cdd-O2d)H",
     group = 
 """
@@ -38994,7 +33102,7 @@ entry(
 )
 
 entry(
-    index = 1788,
+    index = 1416,
     label = "Cs-CbCt(Cds-Cdd-S2d)H",
     group = 
 """
@@ -39015,7 +33123,7 @@ entry(
 )
 
 entry(
-    index = 1789,
+    index = 1417,
     label = "Cs-CbCt(Cds-Cdd-Cd)H",
     group = 
 """
@@ -39036,7 +33144,7 @@ entry(
 )
 
 entry(
-    index = 1790,
+    index = 1418,
     label = "Cs-CbCbCdsH",
     group = 
 """
@@ -39055,7 +33163,7 @@ entry(
 )
 
 entry(
-    index = 1791,
+    index = 1419,
     label = "Cs-CbCb(Cds-O2d)H",
     group = 
 """
@@ -39075,7 +33183,7 @@ entry(
 )
 
 entry(
-    index = 1792,
+    index = 1420,
     label = "Cs-CbCb(Cds-Cd)H",
     group = 
 """
@@ -39095,7 +33203,7 @@ entry(
 )
 
 entry(
-    index = 1793,
+    index = 1421,
     label = "Cs-CbCb(Cds-Cds)H",
     group = 
 """
@@ -39115,7 +33223,7 @@ entry(
 )
 
 entry(
-    index = 1794,
+    index = 1422,
     label = "Cs-CbCb(Cds-Cdd)H",
     group = 
 """
@@ -39135,7 +33243,7 @@ entry(
 )
 
 entry(
-    index = 1795,
+    index = 1423,
     label = "Cs-CbCb(Cds-Cdd-O2d)H",
     group = 
 """
@@ -39156,7 +33264,7 @@ entry(
 )
 
 entry(
-    index = 1796,
+    index = 1424,
     label = "Cs-CbCb(Cds-Cdd-S2d)H",
     group = 
 """
@@ -39177,7 +33285,7 @@ entry(
 )
 
 entry(
-    index = 1797,
+    index = 1425,
     label = "Cs-CbCb(Cds-Cdd-Cd)H",
     group = 
 """
@@ -39198,7 +33306,7 @@ entry(
 )
 
 entry(
-    index = 1798,
+    index = 1426,
     label = "Cs-CtCtCtH",
     group = 
 """
@@ -39222,7 +33330,7 @@ entry(
 )
 
 entry(
-    index = 1799,
+    index = 1427,
     label = "Cs-CbCtCtH",
     group = 
 """
@@ -39241,7 +33349,7 @@ entry(
 )
 
 entry(
-    index = 1800,
+    index = 1428,
     label = "Cs-CbCbCtH",
     group = 
 """
@@ -39260,7 +33368,7 @@ entry(
 )
 
 entry(
-    index = 1801,
+    index = 1429,
     label = "Cs-CbCbCbH",
     group = 
 """
@@ -39284,7 +33392,7 @@ entry(
 )
 
 entry(
-    index = 1802,
+    index = 1430,
     label = "Cs-C=SC=SCbH",
     group = 
 """
@@ -39305,7 +33413,7 @@ entry(
 )
 
 entry(
-    index = 1803,
+    index = 1431,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)H",
     group = 
 """
@@ -39327,7 +33435,7 @@ entry(
 )
 
 entry(
-    index = 1804,
+    index = 1432,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)H",
     group = 
 """
@@ -39349,7 +33457,7 @@ entry(
 )
 
 entry(
-    index = 1805,
+    index = 1433,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)H",
     group = 
 """
@@ -39372,7 +33480,7 @@ entry(
 )
 
 entry(
-    index = 1806,
+    index = 1434,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)H",
     group = 
 """
@@ -39395,7 +33503,7 @@ entry(
 )
 
 entry(
-    index = 1807,
+    index = 1435,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)H",
     group = 
 """
@@ -39417,7 +33525,7 @@ entry(
 )
 
 entry(
-    index = 1808,
+    index = 1436,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
@@ -39439,7 +33547,7 @@ entry(
 )
 
 entry(
-    index = 1809,
+    index = 1437,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -39463,7 +33571,7 @@ entry(
 )
 
 entry(
-    index = 1810,
+    index = 1438,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group = 
 """
@@ -39487,7 +33595,7 @@ entry(
 )
 
 entry(
-    index = 1811,
+    index = 1439,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group = 
 """
@@ -39511,7 +33619,7 @@ entry(
 )
 
 entry(
-    index = 1812,
+    index = 1440,
     label = "Cs-C=S(Cds-Cd)CtH",
     group = 
 """
@@ -39532,7 +33640,7 @@ entry(
 )
 
 entry(
-    index = 1813,
+    index = 1441,
     label = "Cs-C=S(Cds-Cdd)CtH",
     group = 
 """
@@ -39553,7 +33661,7 @@ entry(
 )
 
 entry(
-    index = 1814,
+    index = 1442,
     label = "Cs-C=S(Cds-Cdd-S2d)CtH",
     group = 
 """
@@ -39575,7 +33683,7 @@ entry(
 )
 
 entry(
-    index = 1815,
+    index = 1443,
     label = "Cs-C=S(Cds-Cdd-Cd)CtH",
     group = 
 """
@@ -39597,7 +33705,7 @@ entry(
 )
 
 entry(
-    index = 1816,
+    index = 1444,
     label = "Cs-C=S(Cds-Cds)CtH",
     group = 
 """
@@ -39618,7 +33726,7 @@ entry(
 )
 
 entry(
-    index = 1817,
+    index = 1445,
     label = "Cs-C=SC=SCtH",
     group = 
 """
@@ -39639,7 +33747,7 @@ entry(
 )
 
 entry(
-    index = 1818,
+    index = 1446,
     label = "Cs-C=SCtCsH",
     group = 
 """
@@ -39659,7 +33767,7 @@ entry(
 )
 
 entry(
-    index = 1819,
+    index = 1447,
     label = "Cs-C=SC=SCsH",
     group = 
 """
@@ -39680,7 +33788,7 @@ entry(
 )
 
 entry(
-    index = 1820,
+    index = 1448,
     label = "Cs-C=S(Cds-Cd)CbH",
     group = 
 """
@@ -39701,7 +33809,7 @@ entry(
 )
 
 entry(
-    index = 1821,
+    index = 1449,
     label = "Cs-C=S(Cds-Cds)CbH",
     group = 
 """
@@ -39722,7 +33830,7 @@ entry(
 )
 
 entry(
-    index = 1822,
+    index = 1450,
     label = "Cs-C=S(Cds-Cdd)CbH",
     group = 
 """
@@ -39743,7 +33851,7 @@ entry(
 )
 
 entry(
-    index = 1823,
+    index = 1451,
     label = "Cs-C=S(Cds-Cdd-S2d)CbH",
     group = 
 """
@@ -39765,7 +33873,7 @@ entry(
 )
 
 entry(
-    index = 1824,
+    index = 1452,
     label = "Cs-C=S(Cds-Cdd-Cd)CbH",
     group = 
 """
@@ -39787,7 +33895,7 @@ entry(
 )
 
 entry(
-    index = 1825,
+    index = 1453,
     label = "Cs-C=S(Cds-Cd)CsH",
     group = 
 """
@@ -39808,7 +33916,7 @@ entry(
 )
 
 entry(
-    index = 1826,
+    index = 1454,
     label = "Cs-C=S(Cds-Cds)CsH",
     group = 
 """
@@ -39829,7 +33937,7 @@ entry(
 )
 
 entry(
-    index = 1827,
+    index = 1455,
     label = "Cs-C=S(Cds-Cdd)CsH",
     group = 
 """
@@ -39850,7 +33958,7 @@ entry(
 )
 
 entry(
-    index = 1828,
+    index = 1456,
     label = "Cs-C=S(Cds-Cdd-Cd)CsH",
     group = 
 """
@@ -39872,7 +33980,7 @@ entry(
 )
 
 entry(
-    index = 1829,
+    index = 1457,
     label = "Cs-C=S(Cds-Cdd-S2d)CsH",
     group = 
 """
@@ -39894,7 +34002,7 @@ entry(
 )
 
 entry(
-    index = 1830,
+    index = 1458,
     label = "Cs-CbCtC=SH",
     group = 
 """
@@ -39914,7 +34022,7 @@ entry(
 )
 
 entry(
-    index = 1831,
+    index = 1459,
     label = "Cs-C=SC=SC=SH",
     group = 
 """
@@ -39936,7 +34044,7 @@ entry(
 )
 
 entry(
-    index = 1832,
+    index = 1460,
     label = "Cs-C=SCsCsH",
     group = 
 """
@@ -39961,7 +34069,7 @@ entry(
 )
 
 entry(
-    index = 1833,
+    index = 1461,
     label = "Cs-CtCtC=SH",
     group = 
 """
@@ -39981,7 +34089,7 @@ entry(
 )
 
 entry(
-    index = 1834,
+    index = 1462,
     label = "Cs-CbCbC=SH",
     group = 
 """
@@ -40001,7 +34109,7 @@ entry(
 )
 
 entry(
-    index = 1835,
+    index = 1463,
     label = "Cs-C=SC=S(Cds-Cd)H",
     group = 
 """
@@ -40023,7 +34131,7 @@ entry(
 )
 
 entry(
-    index = 1836,
+    index = 1464,
     label = "Cs-C=SC=S(Cds-Cds)H",
     group = 
 """
@@ -40045,7 +34153,7 @@ entry(
 )
 
 entry(
-    index = 1837,
+    index = 1465,
     label = "Cs-C=SC=S(Cds-Cdd)H",
     group = 
 """
@@ -40067,7 +34175,7 @@ entry(
 )
 
 entry(
-    index = 1838,
+    index = 1466,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)H",
     group = 
 """
@@ -40090,7 +34198,7 @@ entry(
 )
 
 entry(
-    index = 1839,
+    index = 1467,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)H",
     group = 
 """
@@ -40113,7 +34221,7 @@ entry(
 )
 
 entry(
-    index = 1840,
+    index = 1468,
     label = "Cs-CCCC",
     group = 
 """
@@ -40132,7 +34240,7 @@ entry(
 )
 
 entry(
-    index = 1841,
+    index = 1469,
     label = "Cs-CsCsCsCs",
     group = 
 """
@@ -40156,7 +34264,7 @@ entry(
 )
 
 entry(
-    index = 1842,
+    index = 1470,
     label = "Cs-CdsCsCsCs",
     group = 
 """
@@ -40175,7 +34283,7 @@ entry(
 )
 
 entry(
-    index = 1843,
+    index = 1471,
     label = "Cs-(Cds-O2d)CsCsCs",
     group = 
 """
@@ -40202,7 +34310,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1844,
+    index = 1472,
     label = "Cs-(Cds-Cd)CsCsCs",
     group = 
 """
@@ -40222,7 +34330,7 @@ entry(
 )
 
 entry(
-    index = 1845,
+    index = 1473,
     label = "Cs-(Cds-Cds)CsCsCs",
     group = 
 """
@@ -40247,7 +34355,7 @@ entry(
 )
 
 entry(
-    index = 1846,
+    index = 1474,
     label = "Cs-(Cds-Cdd)CsCsCs",
     group = 
 """
@@ -40267,7 +34375,7 @@ entry(
 )
 
 entry(
-    index = 1847,
+    index = 1475,
     label = "Cs-(Cds-Cdd-O2d)CsCsCs",
     group = 
 """
@@ -40295,7 +34403,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1848,
+    index = 1476,
     label = "Cs-(Cds-Cdd-S2d)CsCsCs",
     group = 
 """
@@ -40316,7 +34424,7 @@ entry(
 )
 
 entry(
-    index = 1849,
+    index = 1477,
     label = "Cs-(Cds-Cdd-Cd)CsCsCs",
     group = 
 """
@@ -40337,7 +34445,7 @@ entry(
 )
 
 entry(
-    index = 1850,
+    index = 1478,
     label = "Cs-CtCsCsCs",
     group = 
 """
@@ -40361,7 +34469,7 @@ entry(
 )
 
 entry(
-    index = 1851,
+    index = 1479,
     label = "Cs-CbCsCsCs",
     group = 
 """
@@ -40385,7 +34493,7 @@ entry(
 )
 
 entry(
-    index = 1852,
+    index = 1480,
     label = "Cs-CdsCdsCsCs",
     group = 
 """
@@ -40404,7 +34512,7 @@ entry(
 )
 
 entry(
-    index = 1853,
+    index = 1481,
     label = "Cs-(Cds-O2d)(Cds-O2d)CsCs",
     group = 
 """
@@ -40432,7 +34540,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1854,
+    index = 1482,
     label = "Cs-(Cds-O2d)(Cds-Cd)CsCs",
     group = 
 """
@@ -40460,7 +34568,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1855,
+    index = 1483,
     label = "Cs-(Cds-O2d)(Cds-Cds)CsCs",
     group = 
 """
@@ -40481,7 +34589,7 @@ entry(
 )
 
 entry(
-    index = 1856,
+    index = 1484,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsCs",
     group = 
 """
@@ -40502,7 +34610,7 @@ entry(
 )
 
 entry(
-    index = 1857,
+    index = 1485,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsCs",
     group = 
 """
@@ -40524,7 +34632,7 @@ entry(
 )
 
 entry(
-    index = 1858,
+    index = 1486,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -40546,7 +34654,7 @@ entry(
 )
 
 entry(
-    index = 1859,
+    index = 1487,
     label = "Cs-(Cds-Cd)(Cds-Cd)CsCs",
     group = 
 """
@@ -40567,7 +34675,7 @@ entry(
 )
 
 entry(
-    index = 1860,
+    index = 1488,
     label = "Cs-(Cds-Cds)(Cds-Cds)CsCs",
     group = 
 """
@@ -40593,7 +34701,7 @@ entry(
 )
 
 entry(
-    index = 1861,
+    index = 1489,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsCs",
     group = 
 """
@@ -40614,7 +34722,7 @@ entry(
 )
 
 entry(
-    index = 1862,
+    index = 1490,
     label = "Cs-CsCsCd(CCO)",
     group = 
 """
@@ -40643,7 +34751,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1863,
+    index = 1491,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsCs",
     group = 
 """
@@ -40665,7 +34773,7 @@ entry(
 )
 
 entry(
-    index = 1864,
+    index = 1492,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsCs",
     group = 
 """
@@ -40687,7 +34795,7 @@ entry(
 )
 
 entry(
-    index = 1865,
+    index = 1493,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsCs",
     group = 
 """
@@ -40708,7 +34816,7 @@ entry(
 )
 
 entry(
-    index = 1866,
+    index = 1494,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsCs",
     group = 
 """
@@ -40736,7 +34844,7 @@ entry(
 )
 
 entry(
-    index = 1867,
+    index = 1495,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -40759,7 +34867,7 @@ entry(
 )
 
 entry(
-    index = 1868,
+    index = 1496,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsCs",
     group = 
 """
@@ -40782,7 +34890,7 @@ entry(
 )
 
 entry(
-    index = 1869,
+    index = 1497,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -40805,7 +34913,7 @@ entry(
 )
 
 entry(
-    index = 1870,
+    index = 1498,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -40828,7 +34936,7 @@ entry(
 )
 
 entry(
-    index = 1871,
+    index = 1499,
     label = "Cs-CtCdsCsCs",
     group = 
 """
@@ -40847,7 +34955,7 @@ entry(
 )
 
 entry(
-    index = 1872,
+    index = 1500,
     label = "Cs-(Cds-O2d)CtCsCs",
     group = 
 """
@@ -40867,7 +34975,7 @@ entry(
 )
 
 entry(
-    index = 1873,
+    index = 1501,
     label = "Cs-(Cds-Cd)CtCsCs",
     group = 
 """
@@ -40887,7 +34995,7 @@ entry(
 )
 
 entry(
-    index = 1874,
+    index = 1502,
     label = "Cs-(Cds-Cds)CtCsCs",
     group = 
 """
@@ -40912,7 +35020,7 @@ entry(
 )
 
 entry(
-    index = 1875,
+    index = 1503,
     label = "Cs-(Cds-Cdd)CtCsCs",
     group = 
 """
@@ -40932,7 +35040,7 @@ entry(
 )
 
 entry(
-    index = 1876,
+    index = 1504,
     label = "Cs-(Cds-Cdd-O2d)CtCsCs",
     group = 
 """
@@ -40953,7 +35061,7 @@ entry(
 )
 
 entry(
-    index = 1877,
+    index = 1505,
     label = "Cs-(Cds-Cdd-S2d)CtCsCs",
     group = 
 """
@@ -40974,7 +35082,7 @@ entry(
 )
 
 entry(
-    index = 1878,
+    index = 1506,
     label = "Cs-(Cds-Cdd-Cd)CtCsCs",
     group = 
 """
@@ -40995,7 +35103,7 @@ entry(
 )
 
 entry(
-    index = 1879,
+    index = 1507,
     label = "Cs-CbCdsCsCs",
     group = 
 """
@@ -41014,7 +35122,7 @@ entry(
 )
 
 entry(
-    index = 1880,
+    index = 1508,
     label = "Cs-(Cds-O2d)CbCsCs",
     group = 
 """
@@ -41034,7 +35142,7 @@ entry(
 )
 
 entry(
-    index = 1881,
+    index = 1509,
     label = "Cs-(Cds-Cd)CbCsCs",
     group = 
 """
@@ -41054,7 +35162,7 @@ entry(
 )
 
 entry(
-    index = 1882,
+    index = 1510,
     label = "Cs-(Cds-Cds)CbCsCs",
     group = 
 """
@@ -41079,7 +35187,7 @@ entry(
 )
 
 entry(
-    index = 1883,
+    index = 1511,
     label = "Cs-(Cds-Cdd)CbCsCs",
     group = 
 """
@@ -41099,7 +35207,7 @@ entry(
 )
 
 entry(
-    index = 1884,
+    index = 1512,
     label = "Cs-(Cds-Cdd-O2d)CbCsCs",
     group = 
 """
@@ -41120,7 +35228,7 @@ entry(
 )
 
 entry(
-    index = 1885,
+    index = 1513,
     label = "Cs-(Cds-Cdd-S2d)CbCsCs",
     group = 
 """
@@ -41141,7 +35249,7 @@ entry(
 )
 
 entry(
-    index = 1886,
+    index = 1514,
     label = "Cs-(Cds-Cdd-Cd)CbCsCs",
     group = 
 """
@@ -41162,7 +35270,7 @@ entry(
 )
 
 entry(
-    index = 1887,
+    index = 1515,
     label = "Cs-CtCtCsCs",
     group = 
 """
@@ -41186,7 +35294,7 @@ entry(
 )
 
 entry(
-    index = 1888,
+    index = 1516,
     label = "Cs-CbCtCsCs",
     group = 
 """
@@ -41210,7 +35318,7 @@ entry(
 )
 
 entry(
-    index = 1889,
+    index = 1517,
     label = "Cs-CbCbCsCs",
     group = 
 """
@@ -41234,7 +35342,7 @@ entry(
 )
 
 entry(
-    index = 1890,
+    index = 1518,
     label = "Cs-CdsCdsCdsCs",
     group = 
 """
@@ -41253,7 +35361,7 @@ entry(
 )
 
 entry(
-    index = 1891,
+    index = 1519,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Cs",
     group = 
 """
@@ -41275,7 +35383,7 @@ entry(
 )
 
 entry(
-    index = 1892,
+    index = 1520,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Cs",
     group = 
 """
@@ -41304,7 +35412,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 1893,
+    index = 1521,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Cs",
     group = 
 """
@@ -41326,7 +35434,7 @@ entry(
 )
 
 entry(
-    index = 1894,
+    index = 1522,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Cs",
     group = 
 """
@@ -41348,7 +35456,7 @@ entry(
 )
 
 entry(
-    index = 1895,
+    index = 1523,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -41371,7 +35479,7 @@ entry(
 )
 
 entry(
-    index = 1896,
+    index = 1524,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41394,7 +35502,7 @@ entry(
 )
 
 entry(
-    index = 1897,
+    index = 1525,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Cs",
     group = 
 """
@@ -41416,7 +35524,7 @@ entry(
 )
 
 entry(
-    index = 1898,
+    index = 1526,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cs",
     group = 
 """
@@ -41438,7 +35546,7 @@ entry(
 )
 
 entry(
-    index = 1899,
+    index = 1527,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Cs",
     group = 
 """
@@ -41460,7 +35568,7 @@ entry(
 )
 
 entry(
-    index = 1900,
+    index = 1528,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Cs",
     group = 
 """
@@ -41483,7 +35591,7 @@ entry(
 )
 
 entry(
-    index = 1901,
+    index = 1529,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Cs",
     group = 
 """
@@ -41506,7 +35614,7 @@ entry(
 )
 
 entry(
-    index = 1902,
+    index = 1530,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
@@ -41528,7 +35636,7 @@ entry(
 )
 
 entry(
-    index = 1903,
+    index = 1531,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -41552,7 +35660,7 @@ entry(
 )
 
 entry(
-    index = 1904,
+    index = 1532,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41576,7 +35684,7 @@ entry(
 )
 
 entry(
-    index = 1905,
+    index = 1533,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41600,7 +35708,7 @@ entry(
 )
 
 entry(
-    index = 1906,
+    index = 1534,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Cs",
     group = 
 """
@@ -41622,7 +35730,7 @@ entry(
 )
 
 entry(
-    index = 1907,
+    index = 1535,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs",
     group = 
 """
@@ -41649,7 +35757,7 @@ entry(
 )
 
 entry(
-    index = 1908,
+    index = 1536,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cs",
     group = 
 """
@@ -41671,7 +35779,7 @@ entry(
 )
 
 entry(
-    index = 1909,
+    index = 1537,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -41694,7 +35802,7 @@ entry(
 )
 
 entry(
-    index = 1910,
+    index = 1538,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -41717,7 +35825,7 @@ entry(
 )
 
 entry(
-    index = 1911,
+    index = 1539,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41740,7 +35848,7 @@ entry(
 )
 
 entry(
-    index = 1912,
+    index = 1540,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
@@ -41762,7 +35870,7 @@ entry(
 )
 
 entry(
-    index = 1913,
+    index = 1541,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -41786,7 +35894,7 @@ entry(
 )
 
 entry(
-    index = 1914,
+    index = 1542,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41810,7 +35918,7 @@ entry(
 )
 
 entry(
-    index = 1915,
+    index = 1543,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -41834,7 +35942,7 @@ entry(
 )
 
 entry(
-    index = 1916,
+    index = 1544,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41858,7 +35966,7 @@ entry(
 )
 
 entry(
-    index = 1917,
+    index = 1545,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41882,7 +35990,7 @@ entry(
 )
 
 entry(
-    index = 1918,
+    index = 1546,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
@@ -41904,7 +36012,7 @@ entry(
 )
 
 entry(
-    index = 1919,
+    index = 1547,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group = 
 """
@@ -41929,7 +36037,7 @@ entry(
 )
 
 entry(
-    index = 1920,
+    index = 1548,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41954,7 +36062,7 @@ entry(
 )
 
 entry(
-    index = 1921,
+    index = 1549,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -41979,7 +36087,7 @@ entry(
 )
 
 entry(
-    index = 1922,
+    index = 1550,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -42004,7 +36112,7 @@ entry(
 )
 
 entry(
-    index = 1923,
+    index = 1551,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -42029,7 +36137,7 @@ entry(
 )
 
 entry(
-    index = 1924,
+    index = 1552,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -42054,7 +36162,7 @@ entry(
 )
 
 entry(
-    index = 1925,
+    index = 1553,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -42079,7 +36187,7 @@ entry(
 )
 
 entry(
-    index = 1926,
+    index = 1554,
     label = "Cs-CtCdsCdsCs",
     group = 
 """
@@ -42098,7 +36206,7 @@ entry(
 )
 
 entry(
-    index = 1927,
+    index = 1555,
     label = "Cs-(Cds-O2d)(Cds-O2d)CtCs",
     group = 
 """
@@ -42119,7 +36227,7 @@ entry(
 )
 
 entry(
-    index = 1928,
+    index = 1556,
     label = "Cs-(Cds-O2d)(Cds-Cd)CtCs",
     group = 
 """
@@ -42140,7 +36248,7 @@ entry(
 )
 
 entry(
-    index = 1929,
+    index = 1557,
     label = "Cs-(Cds-O2d)(Cds-Cds)CtCs",
     group = 
 """
@@ -42161,7 +36269,7 @@ entry(
 )
 
 entry(
-    index = 1930,
+    index = 1558,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtCs",
     group = 
 """
@@ -42182,7 +36290,7 @@ entry(
 )
 
 entry(
-    index = 1931,
+    index = 1559,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtCs",
     group = 
 """
@@ -42204,7 +36312,7 @@ entry(
 )
 
 entry(
-    index = 1932,
+    index = 1560,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -42226,7 +36334,7 @@ entry(
 )
 
 entry(
-    index = 1933,
+    index = 1561,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtCs",
     group = 
 """
@@ -42247,7 +36355,7 @@ entry(
 )
 
 entry(
-    index = 1934,
+    index = 1562,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtCs",
     group = 
 """
@@ -42268,7 +36376,7 @@ entry(
 )
 
 entry(
-    index = 1935,
+    index = 1563,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtCs",
     group = 
 """
@@ -42289,7 +36397,7 @@ entry(
 )
 
 entry(
-    index = 1936,
+    index = 1564,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtCs",
     group = 
 """
@@ -42311,7 +36419,7 @@ entry(
 )
 
 entry(
-    index = 1937,
+    index = 1565,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtCs",
     group = 
 """
@@ -42333,7 +36441,7 @@ entry(
 )
 
 entry(
-    index = 1938,
+    index = 1566,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCs",
     group = 
 """
@@ -42355,7 +36463,7 @@ entry(
 )
 
 entry(
-    index = 1939,
+    index = 1567,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtCs",
     group = 
 """
@@ -42376,7 +36484,7 @@ entry(
 )
 
 entry(
-    index = 1940,
+    index = 1568,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtCs",
     group = 
 """
@@ -42399,7 +36507,7 @@ entry(
 )
 
 entry(
-    index = 1941,
+    index = 1569,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -42422,7 +36530,7 @@ entry(
 )
 
 entry(
-    index = 1942,
+    index = 1570,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtCs",
     group = 
 """
@@ -42445,7 +36553,7 @@ entry(
 )
 
 entry(
-    index = 1943,
+    index = 1571,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -42468,7 +36576,7 @@ entry(
 )
 
 entry(
-    index = 1944,
+    index = 1572,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -42491,7 +36599,7 @@ entry(
 )
 
 entry(
-    index = 1945,
+    index = 1573,
     label = "Cs-CbCdsCdsCs",
     group = 
 """
@@ -42510,7 +36618,7 @@ entry(
 )
 
 entry(
-    index = 1946,
+    index = 1574,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCs",
     group = 
 """
@@ -42531,7 +36639,7 @@ entry(
 )
 
 entry(
-    index = 1947,
+    index = 1575,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCs",
     group = 
 """
@@ -42552,7 +36660,7 @@ entry(
 )
 
 entry(
-    index = 1948,
+    index = 1576,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCs",
     group = 
 """
@@ -42573,7 +36681,7 @@ entry(
 )
 
 entry(
-    index = 1949,
+    index = 1577,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCs",
     group = 
 """
@@ -42594,7 +36702,7 @@ entry(
 )
 
 entry(
-    index = 1950,
+    index = 1578,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCs",
     group = 
 """
@@ -42616,7 +36724,7 @@ entry(
 )
 
 entry(
-    index = 1951,
+    index = 1579,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -42638,7 +36746,7 @@ entry(
 )
 
 entry(
-    index = 1952,
+    index = 1580,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCs",
     group = 
 """
@@ -42659,7 +36767,7 @@ entry(
 )
 
 entry(
-    index = 1953,
+    index = 1581,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCs",
     group = 
 """
@@ -42680,7 +36788,7 @@ entry(
 )
 
 entry(
-    index = 1954,
+    index = 1582,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCs",
     group = 
 """
@@ -42701,7 +36809,7 @@ entry(
 )
 
 entry(
-    index = 1955,
+    index = 1583,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCs",
     group = 
 """
@@ -42723,7 +36831,7 @@ entry(
 )
 
 entry(
-    index = 1956,
+    index = 1584,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCs",
     group = 
 """
@@ -42745,7 +36853,7 @@ entry(
 )
 
 entry(
-    index = 1957,
+    index = 1585,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCs",
     group = 
 """
@@ -42767,7 +36875,7 @@ entry(
 )
 
 entry(
-    index = 1958,
+    index = 1586,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCs",
     group = 
 """
@@ -42788,7 +36896,7 @@ entry(
 )
 
 entry(
-    index = 1959,
+    index = 1587,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCs",
     group = 
 """
@@ -42811,7 +36919,7 @@ entry(
 )
 
 entry(
-    index = 1960,
+    index = 1588,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -42834,7 +36942,7 @@ entry(
 )
 
 entry(
-    index = 1961,
+    index = 1589,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCs",
     group = 
 """
@@ -42857,7 +36965,7 @@ entry(
 )
 
 entry(
-    index = 1962,
+    index = 1590,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -42880,7 +36988,7 @@ entry(
 )
 
 entry(
-    index = 1963,
+    index = 1591,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -42903,7 +37011,7 @@ entry(
 )
 
 entry(
-    index = 1964,
+    index = 1592,
     label = "Cs-CtCtCdsCs",
     group = 
 """
@@ -42922,7 +37030,7 @@ entry(
 )
 
 entry(
-    index = 1965,
+    index = 1593,
     label = "Cs-(Cds-O2d)CtCtCs",
     group = 
 """
@@ -42942,7 +37050,7 @@ entry(
 )
 
 entry(
-    index = 1966,
+    index = 1594,
     label = "Cs-(Cds-Cd)CtCtCs",
     group = 
 """
@@ -42962,7 +37070,7 @@ entry(
 )
 
 entry(
-    index = 1967,
+    index = 1595,
     label = "Cs-(Cds-Cds)CtCtCs",
     group = 
 """
@@ -42987,7 +37095,7 @@ entry(
 )
 
 entry(
-    index = 1968,
+    index = 1596,
     label = "Cs-(Cds-Cdd)CtCtCs",
     group = 
 """
@@ -43007,7 +37115,7 @@ entry(
 )
 
 entry(
-    index = 1969,
+    index = 1597,
     label = "Cs-(Cds-Cdd-O2d)CtCtCs",
     group = 
 """
@@ -43028,7 +37136,7 @@ entry(
 )
 
 entry(
-    index = 1970,
+    index = 1598,
     label = "Cs-(Cds-Cdd-S2d)CtCtCs",
     group = 
 """
@@ -43049,7 +37157,7 @@ entry(
 )
 
 entry(
-    index = 1971,
+    index = 1599,
     label = "Cs-(Cds-Cdd-Cd)CtCtCs",
     group = 
 """
@@ -43070,7 +37178,7 @@ entry(
 )
 
 entry(
-    index = 1972,
+    index = 1600,
     label = "Cs-CbCtCdsCs",
     group = 
 """
@@ -43089,7 +37197,7 @@ entry(
 )
 
 entry(
-    index = 1973,
+    index = 1601,
     label = "Cs-(Cds-O2d)CbCtCs",
     group = 
 """
@@ -43109,7 +37217,7 @@ entry(
 )
 
 entry(
-    index = 1974,
+    index = 1602,
     label = "Cs-(Cds-Cd)CbCtCs",
     group = 
 """
@@ -43129,7 +37237,7 @@ entry(
 )
 
 entry(
-    index = 1975,
+    index = 1603,
     label = "Cs-(Cds-Cds)CbCtCs",
     group = 
 """
@@ -43154,7 +37262,7 @@ entry(
 )
 
 entry(
-    index = 1976,
+    index = 1604,
     label = "Cs-(Cds-Cdd)CbCtCs",
     group = 
 """
@@ -43174,7 +37282,7 @@ entry(
 )
 
 entry(
-    index = 1977,
+    index = 1605,
     label = "Cs-(Cds-Cdd-O2d)CbCtCs",
     group = 
 """
@@ -43195,7 +37303,7 @@ entry(
 )
 
 entry(
-    index = 1978,
+    index = 1606,
     label = "Cs-(Cds-Cdd-S2d)CbCtCs",
     group = 
 """
@@ -43216,7 +37324,7 @@ entry(
 )
 
 entry(
-    index = 1979,
+    index = 1607,
     label = "Cs-(Cds-Cdd-Cd)CbCtCs",
     group = 
 """
@@ -43242,7 +37350,7 @@ entry(
 )
 
 entry(
-    index = 1980,
+    index = 1608,
     label = "Cs-CbCbCdsCs",
     group = 
 """
@@ -43261,7 +37369,7 @@ entry(
 )
 
 entry(
-    index = 1981,
+    index = 1609,
     label = "Cs-(Cds-O2d)CbCbCs",
     group = 
 """
@@ -43281,7 +37389,7 @@ entry(
 )
 
 entry(
-    index = 1982,
+    index = 1610,
     label = "Cs-(Cds-Cd)CbCbCs",
     group = 
 """
@@ -43301,7 +37409,7 @@ entry(
 )
 
 entry(
-    index = 1983,
+    index = 1611,
     label = "Cs-(Cds-Cds)CbCbCs",
     group = 
 """
@@ -43326,7 +37434,7 @@ entry(
 )
 
 entry(
-    index = 1984,
+    index = 1612,
     label = "Cs-(Cds-Cdd)CbCbCs",
     group = 
 """
@@ -43346,7 +37454,7 @@ entry(
 )
 
 entry(
-    index = 1985,
+    index = 1613,
     label = "Cs-(Cds-Cdd-O2d)CbCbCs",
     group = 
 """
@@ -43367,7 +37475,7 @@ entry(
 )
 
 entry(
-    index = 1986,
+    index = 1614,
     label = "Cs-(Cds-Cdd-S2d)CbCbCs",
     group = 
 """
@@ -43388,7 +37496,7 @@ entry(
 )
 
 entry(
-    index = 1987,
+    index = 1615,
     label = "Cs-(Cds-Cdd-Cd)CbCbCs",
     group = 
 """
@@ -43409,7 +37517,7 @@ entry(
 )
 
 entry(
-    index = 1988,
+    index = 1616,
     label = "Cs-CtCtCtCs",
     group = 
 """
@@ -43433,7 +37541,7 @@ entry(
 )
 
 entry(
-    index = 1989,
+    index = 1617,
     label = "Cs-CbCtCtCs",
     group = 
 """
@@ -43457,7 +37565,7 @@ entry(
 )
 
 entry(
-    index = 1990,
+    index = 1618,
     label = "Cs-CbCbCtCs",
     group = 
 """
@@ -43481,7 +37589,7 @@ entry(
 )
 
 entry(
-    index = 1991,
+    index = 1619,
     label = "Cs-CbCbCbCs",
     group = 
 """
@@ -43505,7 +37613,7 @@ entry(
 )
 
 entry(
-    index = 1992,
+    index = 1620,
     label = "Cs-CdsCdsCdsCds",
     group = 
 """
@@ -43524,7 +37632,7 @@ entry(
 )
 
 entry(
-    index = 1993,
+    index = 1621,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -43547,7 +37655,7 @@ entry(
 )
 
 entry(
-    index = 1994,
+    index = 1622,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cd)",
     group = 
 """
@@ -43570,7 +37678,7 @@ entry(
 )
 
 entry(
-    index = 1995,
+    index = 1623,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cds)",
     group = 
 """
@@ -43593,7 +37701,7 @@ entry(
 )
 
 entry(
-    index = 1996,
+    index = 1624,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd)",
     group = 
 """
@@ -43616,7 +37724,7 @@ entry(
 )
 
 entry(
-    index = 1997,
+    index = 1625,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -43640,7 +37748,7 @@ entry(
 )
 
 entry(
-    index = 1998,
+    index = 1626,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -43664,7 +37772,7 @@ entry(
 )
 
 entry(
-    index = 1999,
+    index = 1627,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -43694,7 +37802,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2000,
+    index = 1628,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -43717,7 +37825,7 @@ entry(
 )
 
 entry(
-    index = 2001,
+    index = 1629,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -43740,7 +37848,7 @@ entry(
 )
 
 entry(
-    index = 2002,
+    index = 1630,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)",
     group = 
 """
@@ -43764,7 +37872,7 @@ entry(
 )
 
 entry(
-    index = 2003,
+    index = 1631,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -43788,7 +37896,7 @@ entry(
 )
 
 entry(
-    index = 2004,
+    index = 1632,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -43811,7 +37919,7 @@ entry(
 )
 
 entry(
-    index = 2005,
+    index = 1633,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -43836,7 +37944,7 @@ entry(
 )
 
 entry(
-    index = 2006,
+    index = 1634,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -43861,7 +37969,7 @@ entry(
 )
 
 entry(
-    index = 2007,
+    index = 1635,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -43886,7 +37994,7 @@ entry(
 )
 
 entry(
-    index = 2008,
+    index = 1636,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -43909,7 +38017,7 @@ entry(
 )
 
 entry(
-    index = 2009,
+    index = 1637,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -43932,7 +38040,7 @@ entry(
 )
 
 entry(
-    index = 2010,
+    index = 1638,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group = 
 """
@@ -43955,7 +38063,7 @@ entry(
 )
 
 entry(
-    index = 2011,
+    index = 1639,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)",
     group = 
 """
@@ -43979,7 +38087,7 @@ entry(
 )
 
 entry(
-    index = 2012,
+    index = 1640,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44003,7 +38111,7 @@ entry(
 )
 
 entry(
-    index = 2013,
+    index = 1641,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -44026,7 +38134,7 @@ entry(
 )
 
 entry(
-    index = 2014,
+    index = 1642,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -44051,7 +38159,7 @@ entry(
 )
 
 entry(
-    index = 2015,
+    index = 1643,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44076,7 +38184,7 @@ entry(
 )
 
 entry(
-    index = 2016,
+    index = 1644,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44101,7 +38209,7 @@ entry(
 )
 
 entry(
-    index = 2017,
+    index = 1645,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -44124,7 +38232,7 @@ entry(
 )
 
 entry(
-    index = 2018,
+    index = 1646,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -44150,7 +38258,7 @@ entry(
 )
 
 entry(
-    index = 2019,
+    index = 1647,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44176,7 +38284,7 @@ entry(
 )
 
 entry(
-    index = 2020,
+    index = 1648,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44202,7 +38310,7 @@ entry(
 )
 
 entry(
-    index = 2021,
+    index = 1649,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44228,7 +38336,7 @@ entry(
 )
 
 entry(
-    index = 2022,
+    index = 1650,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -44251,7 +38359,7 @@ entry(
 )
 
 entry(
-    index = 2023,
+    index = 1651,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -44274,7 +38382,7 @@ entry(
 )
 
 entry(
-    index = 2024,
+    index = 1652,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group = 
 """
@@ -44297,7 +38405,7 @@ entry(
 )
 
 entry(
-    index = 2025,
+    index = 1653,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)",
     group = 
 """
@@ -44321,7 +38429,7 @@ entry(
 )
 
 entry(
-    index = 2026,
+    index = 1654,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)",
     group = 
 """
@@ -44345,7 +38453,7 @@ entry(
 )
 
 entry(
-    index = 2027,
+    index = 1655,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44369,7 +38477,7 @@ entry(
 )
 
 entry(
-    index = 2028,
+    index = 1656,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -44392,7 +38500,7 @@ entry(
 )
 
 entry(
-    index = 2029,
+    index = 1657,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -44417,7 +38525,7 @@ entry(
 )
 
 entry(
-    index = 2030,
+    index = 1658,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44442,7 +38550,7 @@ entry(
 )
 
 entry(
-    index = 2031,
+    index = 1659,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -44467,7 +38575,7 @@ entry(
 )
 
 entry(
-    index = 2032,
+    index = 1660,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44492,7 +38600,7 @@ entry(
 )
 
 entry(
-    index = 2033,
+    index = 1661,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44517,7 +38625,7 @@ entry(
 )
 
 entry(
-    index = 2034,
+    index = 1662,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -44540,7 +38648,7 @@ entry(
 )
 
 entry(
-    index = 2035,
+    index = 1663,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -44566,7 +38674,7 @@ entry(
 )
 
 entry(
-    index = 2036,
+    index = 1664,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44592,7 +38700,7 @@ entry(
 )
 
 entry(
-    index = 2037,
+    index = 1665,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44618,7 +38726,7 @@ entry(
 )
 
 entry(
-    index = 2038,
+    index = 1666,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -44644,7 +38752,7 @@ entry(
 )
 
 entry(
-    index = 2039,
+    index = 1667,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44670,7 +38778,7 @@ entry(
 )
 
 entry(
-    index = 2040,
+    index = 1668,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44696,7 +38804,7 @@ entry(
 )
 
 entry(
-    index = 2041,
+    index = 1669,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44722,7 +38830,7 @@ entry(
 )
 
 entry(
-    index = 2042,
+    index = 1670,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -44745,7 +38853,7 @@ entry(
 )
 
 entry(
-    index = 2043,
+    index = 1671,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group = 
 """
@@ -44772,7 +38880,7 @@ entry(
 )
 
 entry(
-    index = 2044,
+    index = 1672,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44799,7 +38907,7 @@ entry(
 )
 
 entry(
-    index = 2045,
+    index = 1673,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44826,7 +38934,7 @@ entry(
 )
 
 entry(
-    index = 2046,
+    index = 1674,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44853,7 +38961,7 @@ entry(
 )
 
 entry(
-    index = 2047,
+    index = 1675,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -44880,7 +38988,7 @@ entry(
 )
 
 entry(
-    index = 2048,
+    index = 1676,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44907,7 +39015,7 @@ entry(
 )
 
 entry(
-    index = 2049,
+    index = 1677,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44934,7 +39042,7 @@ entry(
 )
 
 entry(
-    index = 2050,
+    index = 1678,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44961,7 +39069,7 @@ entry(
 )
 
 entry(
-    index = 2051,
+    index = 1679,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -44988,7 +39096,7 @@ entry(
 )
 
 entry(
-    index = 2052,
+    index = 1680,
     label = "Cs-CtCdsCdsCds",
     group = 
 """
@@ -45007,7 +39115,7 @@ entry(
 )
 
 entry(
-    index = 2053,
+    index = 1681,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Ct",
     group = 
 """
@@ -45029,7 +39137,7 @@ entry(
 )
 
 entry(
-    index = 2054,
+    index = 1682,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Ct",
     group = 
 """
@@ -45051,7 +39159,7 @@ entry(
 )
 
 entry(
-    index = 2055,
+    index = 1683,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Ct",
     group = 
 """
@@ -45073,7 +39181,7 @@ entry(
 )
 
 entry(
-    index = 2056,
+    index = 1684,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Ct",
     group = 
 """
@@ -45095,7 +39203,7 @@ entry(
 )
 
 entry(
-    index = 2057,
+    index = 1685,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -45118,7 +39226,7 @@ entry(
 )
 
 entry(
-    index = 2058,
+    index = 1686,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45141,7 +39249,7 @@ entry(
 )
 
 entry(
-    index = 2059,
+    index = 1687,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Ct",
     group = 
 """
@@ -45163,7 +39271,7 @@ entry(
 )
 
 entry(
-    index = 2060,
+    index = 1688,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Ct",
     group = 
 """
@@ -45185,7 +39293,7 @@ entry(
 )
 
 entry(
-    index = 2061,
+    index = 1689,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Ct",
     group = 
 """
@@ -45207,7 +39315,7 @@ entry(
 )
 
 entry(
-    index = 2062,
+    index = 1690,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Ct",
     group = 
 """
@@ -45230,7 +39338,7 @@ entry(
 )
 
 entry(
-    index = 2063,
+    index = 1691,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Ct",
     group = 
 """
@@ -45253,7 +39361,7 @@ entry(
 )
 
 entry(
-    index = 2064,
+    index = 1692,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
@@ -45275,7 +39383,7 @@ entry(
 )
 
 entry(
-    index = 2065,
+    index = 1693,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -45299,7 +39407,7 @@ entry(
 )
 
 entry(
-    index = 2066,
+    index = 1694,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45323,7 +39431,7 @@ entry(
 )
 
 entry(
-    index = 2067,
+    index = 1695,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45347,7 +39455,7 @@ entry(
 )
 
 entry(
-    index = 2068,
+    index = 1696,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Ct",
     group = 
 """
@@ -45369,7 +39477,7 @@ entry(
 )
 
 entry(
-    index = 2069,
+    index = 1697,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct",
     group = 
 """
@@ -45391,7 +39499,7 @@ entry(
 )
 
 entry(
-    index = 2070,
+    index = 1698,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Ct",
     group = 
 """
@@ -45413,7 +39521,7 @@ entry(
 )
 
 entry(
-    index = 2071,
+    index = 1699,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -45436,7 +39544,7 @@ entry(
 )
 
 entry(
-    index = 2072,
+    index = 1700,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -45459,7 +39567,7 @@ entry(
 )
 
 entry(
-    index = 2073,
+    index = 1701,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45482,7 +39590,7 @@ entry(
 )
 
 entry(
-    index = 2074,
+    index = 1702,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
@@ -45504,7 +39612,7 @@ entry(
 )
 
 entry(
-    index = 2075,
+    index = 1703,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -45528,7 +39636,7 @@ entry(
 )
 
 entry(
-    index = 2076,
+    index = 1704,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45552,7 +39660,7 @@ entry(
 )
 
 entry(
-    index = 2077,
+    index = 1705,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -45576,7 +39684,7 @@ entry(
 )
 
 entry(
-    index = 2078,
+    index = 1706,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45600,7 +39708,7 @@ entry(
 )
 
 entry(
-    index = 2079,
+    index = 1707,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45624,7 +39732,7 @@ entry(
 )
 
 entry(
-    index = 2080,
+    index = 1708,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
@@ -45646,7 +39754,7 @@ entry(
 )
 
 entry(
-    index = 2081,
+    index = 1709,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group = 
 """
@@ -45671,7 +39779,7 @@ entry(
 )
 
 entry(
-    index = 2082,
+    index = 1710,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45696,7 +39804,7 @@ entry(
 )
 
 entry(
-    index = 2083,
+    index = 1711,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45721,7 +39829,7 @@ entry(
 )
 
 entry(
-    index = 2084,
+    index = 1712,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -45746,7 +39854,7 @@ entry(
 )
 
 entry(
-    index = 2085,
+    index = 1713,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45771,7 +39879,7 @@ entry(
 )
 
 entry(
-    index = 2086,
+    index = 1714,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45796,7 +39904,7 @@ entry(
 )
 
 entry(
-    index = 2087,
+    index = 1715,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -45821,7 +39929,7 @@ entry(
 )
 
 entry(
-    index = 2088,
+    index = 1716,
     label = "Cs-CbCdsCdsCds",
     group = 
 """
@@ -45840,7 +39948,7 @@ entry(
 )
 
 entry(
-    index = 2089,
+    index = 1717,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Cb",
     group = 
 """
@@ -45862,7 +39970,7 @@ entry(
 )
 
 entry(
-    index = 2090,
+    index = 1718,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Cb",
     group = 
 """
@@ -45884,7 +39992,7 @@ entry(
 )
 
 entry(
-    index = 2091,
+    index = 1719,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Cb",
     group = 
 """
@@ -45906,7 +40014,7 @@ entry(
 )
 
 entry(
-    index = 2092,
+    index = 1720,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Cb",
     group = 
 """
@@ -45928,7 +40036,7 @@ entry(
 )
 
 entry(
-    index = 2093,
+    index = 1721,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -45951,7 +40059,7 @@ entry(
 )
 
 entry(
-    index = 2094,
+    index = 1722,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -45974,7 +40082,7 @@ entry(
 )
 
 entry(
-    index = 2095,
+    index = 1723,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Cb",
     group = 
 """
@@ -45996,7 +40104,7 @@ entry(
 )
 
 entry(
-    index = 2096,
+    index = 1724,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cb",
     group = 
 """
@@ -46018,7 +40126,7 @@ entry(
 )
 
 entry(
-    index = 2097,
+    index = 1725,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Cb",
     group = 
 """
@@ -46040,7 +40148,7 @@ entry(
 )
 
 entry(
-    index = 2098,
+    index = 1726,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Cb",
     group = 
 """
@@ -46063,7 +40171,7 @@ entry(
 )
 
 entry(
-    index = 2099,
+    index = 1727,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Cb",
     group = 
 """
@@ -46086,7 +40194,7 @@ entry(
 )
 
 entry(
-    index = 2100,
+    index = 1728,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
@@ -46108,7 +40216,7 @@ entry(
 )
 
 entry(
-    index = 2101,
+    index = 1729,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -46132,7 +40240,7 @@ entry(
 )
 
 entry(
-    index = 2102,
+    index = 1730,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46156,7 +40264,7 @@ entry(
 )
 
 entry(
-    index = 2103,
+    index = 1731,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46180,7 +40288,7 @@ entry(
 )
 
 entry(
-    index = 2104,
+    index = 1732,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Cb",
     group = 
 """
@@ -46202,7 +40310,7 @@ entry(
 )
 
 entry(
-    index = 2105,
+    index = 1733,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb",
     group = 
 """
@@ -46224,7 +40332,7 @@ entry(
 )
 
 entry(
-    index = 2106,
+    index = 1734,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cb",
     group = 
 """
@@ -46246,7 +40354,7 @@ entry(
 )
 
 entry(
-    index = 2107,
+    index = 1735,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -46269,7 +40377,7 @@ entry(
 )
 
 entry(
-    index = 2108,
+    index = 1736,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -46292,7 +40400,7 @@ entry(
 )
 
 entry(
-    index = 2109,
+    index = 1737,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46315,7 +40423,7 @@ entry(
 )
 
 entry(
-    index = 2110,
+    index = 1738,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
@@ -46337,7 +40445,7 @@ entry(
 )
 
 entry(
-    index = 2111,
+    index = 1739,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -46361,7 +40469,7 @@ entry(
 )
 
 entry(
-    index = 2112,
+    index = 1740,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46385,7 +40493,7 @@ entry(
 )
 
 entry(
-    index = 2113,
+    index = 1741,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -46409,7 +40517,7 @@ entry(
 )
 
 entry(
-    index = 2114,
+    index = 1742,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46433,7 +40541,7 @@ entry(
 )
 
 entry(
-    index = 2115,
+    index = 1743,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46457,7 +40565,7 @@ entry(
 )
 
 entry(
-    index = 2116,
+    index = 1744,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
@@ -46479,7 +40587,7 @@ entry(
 )
 
 entry(
-    index = 2117,
+    index = 1745,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group = 
 """
@@ -46504,7 +40612,7 @@ entry(
 )
 
 entry(
-    index = 2118,
+    index = 1746,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46529,7 +40637,7 @@ entry(
 )
 
 entry(
-    index = 2119,
+    index = 1747,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46554,7 +40662,7 @@ entry(
 )
 
 entry(
-    index = 2120,
+    index = 1748,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -46579,7 +40687,7 @@ entry(
 )
 
 entry(
-    index = 2121,
+    index = 1749,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46604,7 +40712,7 @@ entry(
 )
 
 entry(
-    index = 2122,
+    index = 1750,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46629,7 +40737,7 @@ entry(
 )
 
 entry(
-    index = 2123,
+    index = 1751,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -46654,7 +40762,7 @@ entry(
 )
 
 entry(
-    index = 2124,
+    index = 1752,
     label = "Cs-CtCtCdsCds",
     group = 
 """
@@ -46673,7 +40781,7 @@ entry(
 )
 
 entry(
-    index = 2125,
+    index = 1753,
     label = "Cs-(Cds-O2d)(Cds-O2d)CtCt",
     group = 
 """
@@ -46694,7 +40802,7 @@ entry(
 )
 
 entry(
-    index = 2126,
+    index = 1754,
     label = "Cs-(Cds-O2d)(Cds-Cd)CtCt",
     group = 
 """
@@ -46715,7 +40823,7 @@ entry(
 )
 
 entry(
-    index = 2127,
+    index = 1755,
     label = "Cs-(Cds-O2d)(Cds-Cds)CtCt",
     group = 
 """
@@ -46736,7 +40844,7 @@ entry(
 )
 
 entry(
-    index = 2128,
+    index = 1756,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtCt",
     group = 
 """
@@ -46757,7 +40865,7 @@ entry(
 )
 
 entry(
-    index = 2129,
+    index = 1757,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtCt",
     group = 
 """
@@ -46779,7 +40887,7 @@ entry(
 )
 
 entry(
-    index = 2130,
+    index = 1758,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -46801,7 +40909,7 @@ entry(
 )
 
 entry(
-    index = 2131,
+    index = 1759,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtCt",
     group = 
 """
@@ -46822,7 +40930,7 @@ entry(
 )
 
 entry(
-    index = 2132,
+    index = 1760,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtCt",
     group = 
 """
@@ -46848,7 +40956,7 @@ entry(
 )
 
 entry(
-    index = 2133,
+    index = 1761,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtCt",
     group = 
 """
@@ -46869,7 +40977,7 @@ entry(
 )
 
 entry(
-    index = 2134,
+    index = 1762,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtCt",
     group = 
 """
@@ -46891,7 +40999,7 @@ entry(
 )
 
 entry(
-    index = 2135,
+    index = 1763,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtCt",
     group = 
 """
@@ -46913,7 +41021,7 @@ entry(
 )
 
 entry(
-    index = 2136,
+    index = 1764,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCt",
     group = 
 """
@@ -46935,7 +41043,7 @@ entry(
 )
 
 entry(
-    index = 2137,
+    index = 1765,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtCt",
     group = 
 """
@@ -46956,7 +41064,7 @@ entry(
 )
 
 entry(
-    index = 2138,
+    index = 1766,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtCt",
     group = 
 """
@@ -46979,7 +41087,7 @@ entry(
 )
 
 entry(
-    index = 2139,
+    index = 1767,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -47002,7 +41110,7 @@ entry(
 )
 
 entry(
-    index = 2140,
+    index = 1768,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtCt",
     group = 
 """
@@ -47025,7 +41133,7 @@ entry(
 )
 
 entry(
-    index = 2141,
+    index = 1769,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -47048,7 +41156,7 @@ entry(
 )
 
 entry(
-    index = 2142,
+    index = 1770,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -47071,7 +41179,7 @@ entry(
 )
 
 entry(
-    index = 2143,
+    index = 1771,
     label = "Cs-CbCtCdsCds",
     group = 
 """
@@ -47090,7 +41198,7 @@ entry(
 )
 
 entry(
-    index = 2144,
+    index = 1772,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCt",
     group = 
 """
@@ -47111,7 +41219,7 @@ entry(
 )
 
 entry(
-    index = 2145,
+    index = 1773,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCt",
     group = 
 """
@@ -47132,7 +41240,7 @@ entry(
 )
 
 entry(
-    index = 2146,
+    index = 1774,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCt",
     group = 
 """
@@ -47153,7 +41261,7 @@ entry(
 )
 
 entry(
-    index = 2147,
+    index = 1775,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCt",
     group = 
 """
@@ -47174,7 +41282,7 @@ entry(
 )
 
 entry(
-    index = 2148,
+    index = 1776,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCt",
     group = 
 """
@@ -47196,7 +41304,7 @@ entry(
 )
 
 entry(
-    index = 2149,
+    index = 1777,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -47218,7 +41326,7 @@ entry(
 )
 
 entry(
-    index = 2150,
+    index = 1778,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCt",
     group = 
 """
@@ -47239,7 +41347,7 @@ entry(
 )
 
 entry(
-    index = 2151,
+    index = 1779,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCt",
     group = 
 """
@@ -47265,7 +41373,7 @@ entry(
 )
 
 entry(
-    index = 2152,
+    index = 1780,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCt",
     group = 
 """
@@ -47286,7 +41394,7 @@ entry(
 )
 
 entry(
-    index = 2153,
+    index = 1781,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCt",
     group = 
 """
@@ -47308,7 +41416,7 @@ entry(
 )
 
 entry(
-    index = 2154,
+    index = 1782,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCt",
     group = 
 """
@@ -47330,7 +41438,7 @@ entry(
 )
 
 entry(
-    index = 2155,
+    index = 1783,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCt",
     group = 
 """
@@ -47352,7 +41460,7 @@ entry(
 )
 
 entry(
-    index = 2156,
+    index = 1784,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCt",
     group = 
 """
@@ -47373,7 +41481,7 @@ entry(
 )
 
 entry(
-    index = 2157,
+    index = 1785,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCt",
     group = 
 """
@@ -47396,7 +41504,7 @@ entry(
 )
 
 entry(
-    index = 2158,
+    index = 1786,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -47419,7 +41527,7 @@ entry(
 )
 
 entry(
-    index = 2159,
+    index = 1787,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCt",
     group = 
 """
@@ -47442,7 +41550,7 @@ entry(
 )
 
 entry(
-    index = 2160,
+    index = 1788,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -47465,7 +41573,7 @@ entry(
 )
 
 entry(
-    index = 2161,
+    index = 1789,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -47488,7 +41596,7 @@ entry(
 )
 
 entry(
-    index = 2162,
+    index = 1790,
     label = "Cs-CbCbCdsCds",
     group = 
 """
@@ -47507,7 +41615,7 @@ entry(
 )
 
 entry(
-    index = 2163,
+    index = 1791,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCb",
     group = 
 """
@@ -47528,7 +41636,7 @@ entry(
 )
 
 entry(
-    index = 2164,
+    index = 1792,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCb",
     group = 
 """
@@ -47549,7 +41657,7 @@ entry(
 )
 
 entry(
-    index = 2165,
+    index = 1793,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCb",
     group = 
 """
@@ -47570,7 +41678,7 @@ entry(
 )
 
 entry(
-    index = 2166,
+    index = 1794,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCb",
     group = 
 """
@@ -47591,7 +41699,7 @@ entry(
 )
 
 entry(
-    index = 2167,
+    index = 1795,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCb",
     group = 
 """
@@ -47613,7 +41721,7 @@ entry(
 )
 
 entry(
-    index = 2168,
+    index = 1796,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -47635,7 +41743,7 @@ entry(
 )
 
 entry(
-    index = 2169,
+    index = 1797,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCb",
     group = 
 """
@@ -47656,7 +41764,7 @@ entry(
 )
 
 entry(
-    index = 2170,
+    index = 1798,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCb",
     group = 
 """
@@ -47682,7 +41790,7 @@ entry(
 )
 
 entry(
-    index = 2171,
+    index = 1799,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCb",
     group = 
 """
@@ -47703,7 +41811,7 @@ entry(
 )
 
 entry(
-    index = 2172,
+    index = 1800,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCb",
     group = 
 """
@@ -47725,7 +41833,7 @@ entry(
 )
 
 entry(
-    index = 2173,
+    index = 1801,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCb",
     group = 
 """
@@ -47747,7 +41855,7 @@ entry(
 )
 
 entry(
-    index = 2174,
+    index = 1802,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCb",
     group = 
 """
@@ -47769,7 +41877,7 @@ entry(
 )
 
 entry(
-    index = 2175,
+    index = 1803,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCb",
     group = 
 """
@@ -47790,7 +41898,7 @@ entry(
 )
 
 entry(
-    index = 2176,
+    index = 1804,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCb",
     group = 
 """
@@ -47813,7 +41921,7 @@ entry(
 )
 
 entry(
-    index = 2177,
+    index = 1805,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -47836,7 +41944,7 @@ entry(
 )
 
 entry(
-    index = 2178,
+    index = 1806,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCb",
     group = 
 """
@@ -47859,7 +41967,7 @@ entry(
 )
 
 entry(
-    index = 2179,
+    index = 1807,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -47882,7 +41990,7 @@ entry(
 )
 
 entry(
-    index = 2180,
+    index = 1808,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -47905,7 +42013,7 @@ entry(
 )
 
 entry(
-    index = 2181,
+    index = 1809,
     label = "Cs-CtCtCtCds",
     group = 
 """
@@ -47924,7 +42032,7 @@ entry(
 )
 
 entry(
-    index = 2182,
+    index = 1810,
     label = "Cs-(Cds-O2d)CtCtCt",
     group = 
 """
@@ -47944,7 +42052,7 @@ entry(
 )
 
 entry(
-    index = 2183,
+    index = 1811,
     label = "Cs-(Cds-Cd)CtCtCt",
     group = 
 """
@@ -47964,7 +42072,7 @@ entry(
 )
 
 entry(
-    index = 2184,
+    index = 1812,
     label = "Cs-(Cds-Cds)CtCtCt",
     group = 
 """
@@ -47984,7 +42092,7 @@ entry(
 )
 
 entry(
-    index = 2185,
+    index = 1813,
     label = "Cs-(Cds-Cdd)CtCtCt",
     group = 
 """
@@ -48004,7 +42112,7 @@ entry(
 )
 
 entry(
-    index = 2186,
+    index = 1814,
     label = "Cs-(Cds-Cdd-O2d)CtCtCt",
     group = 
 """
@@ -48025,7 +42133,7 @@ entry(
 )
 
 entry(
-    index = 2187,
+    index = 1815,
     label = "Cs-(Cds-Cdd-S2d)CtCtCt",
     group = 
 """
@@ -48046,7 +42154,7 @@ entry(
 )
 
 entry(
-    index = 2188,
+    index = 1816,
     label = "Cs-(Cds-Cdd-Cd)CtCtCt",
     group = 
 """
@@ -48067,7 +42175,7 @@ entry(
 )
 
 entry(
-    index = 2189,
+    index = 1817,
     label = "Cs-CbCtCtCds",
     group = 
 """
@@ -48086,7 +42194,7 @@ entry(
 )
 
 entry(
-    index = 2190,
+    index = 1818,
     label = "Cs-(Cds-O2d)CbCtCt",
     group = 
 """
@@ -48106,7 +42214,7 @@ entry(
 )
 
 entry(
-    index = 2191,
+    index = 1819,
     label = "Cs-(Cds-Cd)CbCtCt",
     group = 
 """
@@ -48126,7 +42234,7 @@ entry(
 )
 
 entry(
-    index = 2192,
+    index = 1820,
     label = "Cs-(Cds-Cds)CbCtCt",
     group = 
 """
@@ -48146,7 +42254,7 @@ entry(
 )
 
 entry(
-    index = 2193,
+    index = 1821,
     label = "Cs-(Cds-Cdd)CbCtCt",
     group = 
 """
@@ -48166,7 +42274,7 @@ entry(
 )
 
 entry(
-    index = 2194,
+    index = 1822,
     label = "Cs-(Cds-Cdd-O2d)CbCtCt",
     group = 
 """
@@ -48187,7 +42295,7 @@ entry(
 )
 
 entry(
-    index = 2195,
+    index = 1823,
     label = "Cs-(Cds-Cdd-S2d)CbCtCt",
     group = 
 """
@@ -48208,7 +42316,7 @@ entry(
 )
 
 entry(
-    index = 2196,
+    index = 1824,
     label = "Cs-(Cds-Cdd-Cd)CbCtCt",
     group = 
 """
@@ -48229,7 +42337,7 @@ entry(
 )
 
 entry(
-    index = 2197,
+    index = 1825,
     label = "Cs-CbCbCtCds",
     group = 
 """
@@ -48248,7 +42356,7 @@ entry(
 )
 
 entry(
-    index = 2198,
+    index = 1826,
     label = "Cs-(Cds-O2d)CbCbCt",
     group = 
 """
@@ -48268,7 +42376,7 @@ entry(
 )
 
 entry(
-    index = 2199,
+    index = 1827,
     label = "Cs-(Cds-Cd)CbCbCt",
     group = 
 """
@@ -48288,7 +42396,7 @@ entry(
 )
 
 entry(
-    index = 2200,
+    index = 1828,
     label = "Cs-(Cds-Cds)CbCbCt",
     group = 
 """
@@ -48308,7 +42416,7 @@ entry(
 )
 
 entry(
-    index = 2201,
+    index = 1829,
     label = "Cs-(Cds-Cdd)CbCbCt",
     group = 
 """
@@ -48328,7 +42436,7 @@ entry(
 )
 
 entry(
-    index = 2202,
+    index = 1830,
     label = "Cs-(Cds-Cdd-O2d)CbCbCt",
     group = 
 """
@@ -48349,7 +42457,7 @@ entry(
 )
 
 entry(
-    index = 2203,
+    index = 1831,
     label = "Cs-(Cds-Cdd-S2d)CbCbCt",
     group = 
 """
@@ -48370,7 +42478,7 @@ entry(
 )
 
 entry(
-    index = 2204,
+    index = 1832,
     label = "Cs-(Cds-Cdd-Cd)CbCbCt",
     group = 
 """
@@ -48391,7 +42499,7 @@ entry(
 )
 
 entry(
-    index = 2205,
+    index = 1833,
     label = "Cs-CbCbCbCds",
     group = 
 """
@@ -48410,7 +42518,7 @@ entry(
 )
 
 entry(
-    index = 2206,
+    index = 1834,
     label = "Cs-(Cds-O2d)CbCbCb",
     group = 
 """
@@ -48430,7 +42538,7 @@ entry(
 )
 
 entry(
-    index = 2207,
+    index = 1835,
     label = "Cs-(Cds-Cd)CbCbCb",
     group = 
 """
@@ -48450,7 +42558,7 @@ entry(
 )
 
 entry(
-    index = 2208,
+    index = 1836,
     label = "Cs-(Cds-Cds)CbCbCb",
     group = 
 """
@@ -48470,7 +42578,7 @@ entry(
 )
 
 entry(
-    index = 2209,
+    index = 1837,
     label = "Cs-(Cds-Cdd)CbCbCb",
     group = 
 """
@@ -48490,7 +42598,7 @@ entry(
 )
 
 entry(
-    index = 2210,
+    index = 1838,
     label = "Cs-(Cds-Cdd-O2d)CbCbCb",
     group = 
 """
@@ -48511,7 +42619,7 @@ entry(
 )
 
 entry(
-    index = 2211,
+    index = 1839,
     label = "Cs-(Cds-Cdd-S2d)CbCbCb",
     group = 
 """
@@ -48532,7 +42640,7 @@ entry(
 )
 
 entry(
-    index = 2212,
+    index = 1840,
     label = "Cs-(Cds-Cdd-Cd)CbCbCb",
     group = 
 """
@@ -48553,7 +42661,7 @@ entry(
 )
 
 entry(
-    index = 2213,
+    index = 1841,
     label = "Cs-CtCtCtCt",
     group = 
 """
@@ -48572,7 +42680,7 @@ entry(
 )
 
 entry(
-    index = 2214,
+    index = 1842,
     label = "Cs-CbCtCtCt",
     group = 
 """
@@ -48591,7 +42699,7 @@ entry(
 )
 
 entry(
-    index = 2215,
+    index = 1843,
     label = "Cs-CbCbCtCt",
     group = 
 """
@@ -48610,7 +42718,7 @@ entry(
 )
 
 entry(
-    index = 2216,
+    index = 1844,
     label = "Cs-CbCbCbCt",
     group = 
 """
@@ -48629,7 +42737,7 @@ entry(
 )
 
 entry(
-    index = 2217,
+    index = 1845,
     label = "Cs-CbCbCbCb",
     group = 
 """
@@ -48648,7 +42756,7 @@ entry(
 )
 
 entry(
-    index = 2218,
+    index = 1846,
     label = "Cs-C=SCbCtCt",
     group = 
 """
@@ -48668,7 +42776,7 @@ entry(
 )
 
 entry(
-    index = 2219,
+    index = 1847,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -48691,7 +42799,7 @@ entry(
 )
 
 entry(
-    index = 2220,
+    index = 1848,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group = 
 """
@@ -48714,7 +42822,7 @@ entry(
 )
 
 entry(
-    index = 2221,
+    index = 1849,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
@@ -48738,7 +42846,7 @@ entry(
 )
 
 entry(
-    index = 2222,
+    index = 1850,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)",
     group = 
 """
@@ -48762,7 +42870,7 @@ entry(
 )
 
 entry(
-    index = 2223,
+    index = 1851,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -48785,7 +42893,7 @@ entry(
 )
 
 entry(
-    index = 2224,
+    index = 1852,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -48811,7 +42919,7 @@ entry(
 )
 
 entry(
-    index = 2225,
+    index = 1853,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -48837,7 +42945,7 @@ entry(
 )
 
 entry(
-    index = 2226,
+    index = 1854,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -48863,7 +42971,7 @@ entry(
 )
 
 entry(
-    index = 2227,
+    index = 1855,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -48889,7 +42997,7 @@ entry(
 )
 
 entry(
-    index = 2228,
+    index = 1856,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -48912,7 +43020,7 @@ entry(
 )
 
 entry(
-    index = 2229,
+    index = 1857,
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -48935,7 +43043,7 @@ entry(
 )
 
 entry(
-    index = 2230,
+    index = 1858,
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -48960,7 +43068,7 @@ entry(
 )
 
 entry(
-    index = 2231,
+    index = 1859,
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -48985,7 +43093,7 @@ entry(
 )
 
 entry(
-    index = 2232,
+    index = 1860,
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -49010,7 +43118,7 @@ entry(
 )
 
 entry(
-    index = 2233,
+    index = 1861,
     label = "Cs-C=S(Cds-Cd)CtCt",
     group = 
 """
@@ -49031,7 +43139,7 @@ entry(
 )
 
 entry(
-    index = 2234,
+    index = 1862,
     label = "Cs-C=S(Cds-Cds)CtCt",
     group = 
 """
@@ -49052,7 +43160,7 @@ entry(
 )
 
 entry(
-    index = 2235,
+    index = 1863,
     label = "Cs-C=S(Cds-Cdd)CtCt",
     group = 
 """
@@ -49073,7 +43181,7 @@ entry(
 )
 
 entry(
-    index = 2236,
+    index = 1864,
     label = "Cs-C=S(Cds-Cdd-S2d)CtCt",
     group = 
 """
@@ -49095,7 +43203,7 @@ entry(
 )
 
 entry(
-    index = 2237,
+    index = 1865,
     label = "Cs-C=S(Cds-Cdd-Cd)CtCt",
     group = 
 """
@@ -49117,7 +43225,7 @@ entry(
 )
 
 entry(
-    index = 2238,
+    index = 1866,
     label = "Cs-C=S(Cds-Cd)CtCs",
     group = 
 """
@@ -49138,7 +43246,7 @@ entry(
 )
 
 entry(
-    index = 2239,
+    index = 1867,
     label = "Cs-C=S(Cds-Cds)CtCs",
     group = 
 """
@@ -49159,7 +43267,7 @@ entry(
 )
 
 entry(
-    index = 2240,
+    index = 1868,
     label = "Cs-C=S(Cds-Cdd)CtCs",
     group = 
 """
@@ -49180,7 +43288,7 @@ entry(
 )
 
 entry(
-    index = 2241,
+    index = 1869,
     label = "Cs-C=S(Cds-Cdd-S2d)CtCs",
     group = 
 """
@@ -49202,7 +43310,7 @@ entry(
 )
 
 entry(
-    index = 2242,
+    index = 1870,
     label = "Cs-C=S(Cds-Cdd-Cd)CtCs",
     group = 
 """
@@ -49224,7 +43332,7 @@ entry(
 )
 
 entry(
-    index = 2243,
+    index = 1871,
     label = "Cs-C=SCbCbCt",
     group = 
 """
@@ -49244,7 +43352,7 @@ entry(
 )
 
 entry(
-    index = 2244,
+    index = 1872,
     label = "Cs-C=SCbCsCs",
     group = 
 """
@@ -49264,7 +43372,7 @@ entry(
 )
 
 entry(
-    index = 2245,
+    index = 1873,
     label = "Cs-C=SCbCbCs",
     group = 
 """
@@ -49284,7 +43392,7 @@ entry(
 )
 
 entry(
-    index = 2246,
+    index = 1874,
     label = "Cs-C=SCtCtCt",
     group = 
 """
@@ -49304,7 +43412,7 @@ entry(
 )
 
 entry(
-    index = 2247,
+    index = 1875,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Cs",
     group = 
 """
@@ -49326,7 +43434,7 @@ entry(
 )
 
 entry(
-    index = 2248,
+    index = 1876,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
@@ -49348,7 +43456,7 @@ entry(
 )
 
 entry(
-    index = 2249,
+    index = 1877,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -49372,7 +43480,7 @@ entry(
 )
 
 entry(
-    index = 2250,
+    index = 1878,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -49396,7 +43504,7 @@ entry(
 )
 
 entry(
-    index = 2251,
+    index = 1879,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -49420,7 +43528,7 @@ entry(
 )
 
 entry(
-    index = 2252,
+    index = 1880,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Cs",
     group = 
 """
@@ -49442,7 +43550,7 @@ entry(
 )
 
 entry(
-    index = 2253,
+    index = 1881,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Cs",
     group = 
 """
@@ -49464,7 +43572,7 @@ entry(
 )
 
 entry(
-    index = 2254,
+    index = 1882,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Cs",
     group = 
 """
@@ -49487,7 +43595,7 @@ entry(
 )
 
 entry(
-    index = 2255,
+    index = 1883,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cs",
     group = 
 """
@@ -49510,7 +43618,7 @@ entry(
 )
 
 entry(
-    index = 2256,
+    index = 1884,
     label = "Cs-C=SC=SCtCt",
     group = 
 """
@@ -49531,7 +43639,7 @@ entry(
 )
 
 entry(
-    index = 2257,
+    index = 1885,
     label = "Cs-C=SCsCsCs",
     group = 
 """
@@ -49556,7 +43664,7 @@ entry(
 )
 
 entry(
-    index = 2258,
+    index = 1886,
     label = "Cs-C=SCtCtCs",
     group = 
 """
@@ -49576,7 +43684,7 @@ entry(
 )
 
 entry(
-    index = 2259,
+    index = 1887,
     label = "Cs-C=SC=SC=SCt",
     group = 
 """
@@ -49598,7 +43706,7 @@ entry(
 )
 
 entry(
-    index = 2260,
+    index = 1888,
     label = "Cs-C=SC=SC=SCs",
     group = 
 """
@@ -49620,7 +43728,7 @@ entry(
 )
 
 entry(
-    index = 2261,
+    index = 1889,
     label = "Cs-C=SC=SC=SC=S",
     group = 
 """
@@ -49643,7 +43751,7 @@ entry(
 )
 
 entry(
-    index = 2262,
+    index = 1890,
     label = "Cs-C=SCtCsCs",
     group = 
 """
@@ -49663,7 +43771,7 @@ entry(
 )
 
 entry(
-    index = 2263,
+    index = 1891,
     label = "Cs-C=SC=SC=SCb",
     group = 
 """
@@ -49685,7 +43793,7 @@ entry(
 )
 
 entry(
-    index = 2264,
+    index = 1892,
     label = "Cs-C=SC=SC=S(Cds-Cd)",
     group = 
 """
@@ -49708,7 +43816,7 @@ entry(
 )
 
 entry(
-    index = 2265,
+    index = 1893,
     label = "Cs-C=SC=SC=S(Cds-Cdd)",
     group = 
 """
@@ -49731,7 +43839,7 @@ entry(
 )
 
 entry(
-    index = 2266,
+    index = 1894,
     label = "Cs-C=SC=SC=S(Cds-Cdd-Cd)",
     group = 
 """
@@ -49755,7 +43863,7 @@ entry(
 )
 
 entry(
-    index = 2267,
+    index = 1895,
     label = "Cs-C=SC=SC=S(Cds-Cdd-S2d)",
     group = 
 """
@@ -49779,7 +43887,7 @@ entry(
 )
 
 entry(
-    index = 2268,
+    index = 1896,
     label = "Cs-C=SC=SC=S(Cds-Cds)",
     group = 
 """
@@ -49802,7 +43910,7 @@ entry(
 )
 
 entry(
-    index = 2269,
+    index = 1897,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Ct",
     group = 
 """
@@ -49824,7 +43932,7 @@ entry(
 )
 
 entry(
-    index = 2270,
+    index = 1898,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
@@ -49846,7 +43954,7 @@ entry(
 )
 
 entry(
-    index = 2271,
+    index = 1899,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -49870,7 +43978,7 @@ entry(
 )
 
 entry(
-    index = 2272,
+    index = 1900,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -49894,7 +44002,7 @@ entry(
 )
 
 entry(
-    index = 2273,
+    index = 1901,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -49918,7 +44026,7 @@ entry(
 )
 
 entry(
-    index = 2274,
+    index = 1902,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Ct",
     group = 
 """
@@ -49940,7 +44048,7 @@ entry(
 )
 
 entry(
-    index = 2275,
+    index = 1903,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Ct",
     group = 
 """
@@ -49962,7 +44070,7 @@ entry(
 )
 
 entry(
-    index = 2276,
+    index = 1904,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ct",
     group = 
 """
@@ -49985,7 +44093,7 @@ entry(
 )
 
 entry(
-    index = 2277,
+    index = 1905,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Ct",
     group = 
 """
@@ -50008,7 +44116,7 @@ entry(
 )
 
 entry(
-    index = 2278,
+    index = 1906,
     label = "Cs-C=SC=SCtCs",
     group = 
 """
@@ -50029,7 +44137,7 @@ entry(
 )
 
 entry(
-    index = 2279,
+    index = 1907,
     label = "Cs-C=SC=SCbCb",
     group = 
 """
@@ -50050,7 +44158,7 @@ entry(
 )
 
 entry(
-    index = 2280,
+    index = 1908,
     label = "Cs-C=S(Cds-Cd)CsCs",
     group = 
 """
@@ -50071,7 +44179,7 @@ entry(
 )
 
 entry(
-    index = 2281,
+    index = 1909,
     label = "Cs-C=S(Cds-Cds)CsCs",
     group = 
 """
@@ -50092,7 +44200,7 @@ entry(
 )
 
 entry(
-    index = 2282,
+    index = 1910,
     label = "Cs-C=S(Cds-Cdd)CsCs",
     group = 
 """
@@ -50113,7 +44221,7 @@ entry(
 )
 
 entry(
-    index = 2283,
+    index = 1911,
     label = "Cs-C=S(Cds-Cdd-Cd)CsCs",
     group = 
 """
@@ -50135,7 +44243,7 @@ entry(
 )
 
 entry(
-    index = 2284,
+    index = 1912,
     label = "Cs-C=S(Cds-Cdd-S2d)CsCs",
     group = 
 """
@@ -50157,7 +44265,7 @@ entry(
 )
 
 entry(
-    index = 2285,
+    index = 1913,
     label = "Cs-C=SC=SCbCt",
     group = 
 """
@@ -50178,7 +44286,7 @@ entry(
 )
 
 entry(
-    index = 2286,
+    index = 1914,
     label = "Cs-C=S(Cds-Cd)CbCt",
     group = 
 """
@@ -50199,7 +44307,7 @@ entry(
 )
 
 entry(
-    index = 2287,
+    index = 1915,
     label = "Cs-C=S(Cds-Cds)CbCt",
     group = 
 """
@@ -50220,7 +44328,7 @@ entry(
 )
 
 entry(
-    index = 2288,
+    index = 1916,
     label = "Cs-C=S(Cds-Cdd)CbCt",
     group = 
 """
@@ -50241,7 +44349,7 @@ entry(
 )
 
 entry(
-    index = 2289,
+    index = 1917,
     label = "Cs-C=S(Cds-Cdd-S2d)CbCt",
     group = 
 """
@@ -50263,7 +44371,7 @@ entry(
 )
 
 entry(
-    index = 2290,
+    index = 1918,
     label = "Cs-C=S(Cds-Cdd-Cd)CbCt",
     group = 
 """
@@ -50285,7 +44393,7 @@ entry(
 )
 
 entry(
-    index = 2291,
+    index = 1919,
     label = "Cs-C=SC=SCsCs",
     group = 
 """
@@ -50306,7 +44414,7 @@ entry(
 )
 
 entry(
-    index = 2292,
+    index = 1920,
     label = "Cs-C=S(Cds-Cd)CbCb",
     group = 
 """
@@ -50327,7 +44435,7 @@ entry(
 )
 
 entry(
-    index = 2293,
+    index = 1921,
     label = "Cs-C=S(Cds-Cds)CbCb",
     group = 
 """
@@ -50348,7 +44456,7 @@ entry(
 )
 
 entry(
-    index = 2294,
+    index = 1922,
     label = "Cs-C=S(Cds-Cdd)CbCb",
     group = 
 """
@@ -50369,7 +44477,7 @@ entry(
 )
 
 entry(
-    index = 2295,
+    index = 1923,
     label = "Cs-C=S(Cds-Cdd-S2d)CbCb",
     group = 
 """
@@ -50391,7 +44499,7 @@ entry(
 )
 
 entry(
-    index = 2296,
+    index = 1924,
     label = "Cs-C=S(Cds-Cdd-Cd)CbCb",
     group = 
 """
@@ -50413,7 +44521,7 @@ entry(
 )
 
 entry(
-    index = 2297,
+    index = 1925,
     label = "Cs-C=SC=S(Cds-Cd)Ct",
     group = 
 """
@@ -50435,7 +44543,7 @@ entry(
 )
 
 entry(
-    index = 2298,
+    index = 1926,
     label = "Cs-C=SC=S(Cds-Cds)Ct",
     group = 
 """
@@ -50457,7 +44565,7 @@ entry(
 )
 
 entry(
-    index = 2299,
+    index = 1927,
     label = "Cs-C=SC=S(Cds-Cdd)Ct",
     group = 
 """
@@ -50479,7 +44587,7 @@ entry(
 )
 
 entry(
-    index = 2300,
+    index = 1928,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Ct",
     group = 
 """
@@ -50502,7 +44610,7 @@ entry(
 )
 
 entry(
-    index = 2301,
+    index = 1929,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Ct",
     group = 
 """
@@ -50525,7 +44633,7 @@ entry(
 )
 
 entry(
-    index = 2302,
+    index = 1930,
     label = "Cs-C=SC=S(Cds-Cd)Cs",
     group = 
 """
@@ -50547,7 +44655,7 @@ entry(
 )
 
 entry(
-    index = 2303,
+    index = 1931,
     label = "Cs-C=SC=S(Cds-Cds)Cs",
     group = 
 """
@@ -50569,7 +44677,7 @@ entry(
 )
 
 entry(
-    index = 2304,
+    index = 1932,
     label = "Cs-C=SC=S(Cds-Cdd)Cs",
     group = 
 """
@@ -50591,7 +44699,7 @@ entry(
 )
 
 entry(
-    index = 2305,
+    index = 1933,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Cs",
     group = 
 """
@@ -50614,7 +44722,7 @@ entry(
 )
 
 entry(
-    index = 2306,
+    index = 1934,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Cs",
     group = 
 """
@@ -50637,7 +44745,7 @@ entry(
 )
 
 entry(
-    index = 2307,
+    index = 1935,
     label = "Cs-C=SC=S(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -50660,7 +44768,7 @@ entry(
 )
 
 entry(
-    index = 2308,
+    index = 1936,
     label = "Cs-C=SC=S(Cds-Cdd)(Cds-Cds)",
     group = 
 """
@@ -50683,7 +44791,7 @@ entry(
 )
 
 entry(
-    index = 2309,
+    index = 1937,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cds)",
     group = 
 """
@@ -50707,7 +44815,7 @@ entry(
 )
 
 entry(
-    index = 2310,
+    index = 1938,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
@@ -50731,7 +44839,7 @@ entry(
 )
 
 entry(
-    index = 2311,
+    index = 1939,
     label = "Cs-C=SC=S(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
@@ -50754,7 +44862,7 @@ entry(
 )
 
 entry(
-    index = 2312,
+    index = 1940,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group = 
 """
@@ -50779,7 +44887,7 @@ entry(
 )
 
 entry(
-    index = 2313,
+    index = 1941,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group = 
 """
@@ -50804,7 +44912,7 @@ entry(
 )
 
 entry(
-    index = 2314,
+    index = 1942,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
@@ -50829,7 +44937,7 @@ entry(
 )
 
 entry(
-    index = 2315,
+    index = 1943,
     label = "Cs-C=SC=S(Cds-Cds)(Cds-Cds)",
     group = 
 """
@@ -50852,7 +44960,7 @@ entry(
 )
 
 entry(
-    index = 2316,
+    index = 1944,
     label = "Cs-C=SC=S(Cds-Cd)Cb",
     group = 
 """
@@ -50874,7 +44982,7 @@ entry(
 )
 
 entry(
-    index = 2317,
+    index = 1945,
     label = "Cs-C=SC=S(Cds-Cdd)Cb",
     group = 
 """
@@ -50896,7 +45004,7 @@ entry(
 )
 
 entry(
-    index = 2318,
+    index = 1946,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -50919,7 +45027,7 @@ entry(
 )
 
 entry(
-    index = 2319,
+    index = 1947,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -50942,7 +45050,7 @@ entry(
 )
 
 entry(
-    index = 2320,
+    index = 1948,
     label = "Cs-C=SC=S(Cds-Cds)Cb",
     group = 
 """
@@ -50964,7 +45072,7 @@ entry(
 )
 
 entry(
-    index = 2321,
+    index = 1949,
     label = "Cs-C=SCbCtCs",
     group = 
 """
@@ -50984,7 +45092,7 @@ entry(
 )
 
 entry(
-    index = 2322,
+    index = 1950,
     label = "Cs-C=S(Cds-Cd)CbCs",
     group = 
 """
@@ -51005,7 +45113,7 @@ entry(
 )
 
 entry(
-    index = 2323,
+    index = 1951,
     label = "Cs-C=S(Cds-Cds)CbCs",
     group = 
 """
@@ -51026,7 +45134,7 @@ entry(
 )
 
 entry(
-    index = 2324,
+    index = 1952,
     label = "Cs-C=S(Cds-Cdd)CbCs",
     group = 
 """
@@ -51047,7 +45155,7 @@ entry(
 )
 
 entry(
-    index = 2325,
+    index = 1953,
     label = "Cs-C=S(Cds-Cdd-S2d)CbCs",
     group = 
 """
@@ -51069,7 +45177,7 @@ entry(
 )
 
 entry(
-    index = 2326,
+    index = 1954,
     label = "Cs-C=S(Cds-Cdd-Cd)CbCs",
     group = 
 """
@@ -51091,7 +45199,7 @@ entry(
 )
 
 entry(
-    index = 2327,
+    index = 1955,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Cb",
     group = 
 """
@@ -51113,7 +45221,7 @@ entry(
 )
 
 entry(
-    index = 2328,
+    index = 1956,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
@@ -51135,7 +45243,7 @@ entry(
 )
 
 entry(
-    index = 2329,
+    index = 1957,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -51159,7 +45267,7 @@ entry(
 )
 
 entry(
-    index = 2330,
+    index = 1958,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
@@ -51183,7 +45291,7 @@ entry(
 )
 
 entry(
-    index = 2331,
+    index = 1959,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group = 
 """
@@ -51207,7 +45315,7 @@ entry(
 )
 
 entry(
-    index = 2332,
+    index = 1960,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Cb",
     group = 
 """
@@ -51229,7 +45337,7 @@ entry(
 )
 
 entry(
-    index = 2333,
+    index = 1961,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Cb",
     group = 
 """
@@ -51251,7 +45359,7 @@ entry(
 )
 
 entry(
-    index = 2334,
+    index = 1962,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Cb",
     group = 
 """
@@ -51274,7 +45382,7 @@ entry(
 )
 
 entry(
-    index = 2335,
+    index = 1963,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cb",
     group = 
 """
@@ -51297,7 +45405,7 @@ entry(
 )
 
 entry(
-    index = 2336,
+    index = 1964,
     label = "Cs-C=SCbCbCb",
     group = 
 """
@@ -51317,7 +45425,7 @@ entry(
 )
 
 entry(
-    index = 2337,
+    index = 1965,
     label = "Cs-C=SC=SCbCs",
     group = 
 """
@@ -51338,7 +45446,7 @@ entry(
 )
 
 entry(
-    index = 2338,
+    index = 1966,
     label = "Cs-CCCOs",
     group = 
 """
@@ -51357,7 +45465,7 @@ entry(
 )
 
 entry(
-    index = 2339,
+    index = 1967,
     label = "Cs-CsCsCsOs",
     group = 
 """
@@ -51383,7 +45491,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2340,
+    index = 1968,
     label = "Cs-CdsCsCsOs",
     group = 
 """
@@ -51402,7 +45510,7 @@ entry(
 )
 
 entry(
-    index = 2341,
+    index = 1969,
     label = "Cs-(Cds-O2d)CsCsOs",
     group = 
 """
@@ -51429,7 +45537,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2342,
+    index = 1970,
     label = "Cs-(Cds-Cd)CsCsOs",
     group = 
 """
@@ -51456,7 +45564,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2343,
+    index = 1971,
     label = "Cs-(Cds-Cds)CsCsOs",
     group = 
 """
@@ -51481,7 +45589,7 @@ entry(
 )
 
 entry(
-    index = 2344,
+    index = 1972,
     label = "Cs-(Cds-Cdd)CsCsOs",
     group = 
 """
@@ -51501,7 +45609,7 @@ entry(
 )
 
 entry(
-    index = 2345,
+    index = 1973,
     label = "Cs-(Cds-Cdd-O2d)CsCsOs",
     group = 
 """
@@ -51527,7 +45635,7 @@ entry(
 )
 
 entry(
-    index = 2346,
+    index = 1974,
     label = "Cs-(Cds-Cdd-Cd)CsCsOs",
     group = 
 """
@@ -51548,7 +45656,7 @@ entry(
 )
 
 entry(
-    index = 2347,
+    index = 1975,
     label = "Cs-OsCtCsCs",
     group = 
 """
@@ -51567,7 +45675,7 @@ entry(
 )
 
 entry(
-    index = 2348,
+    index = 1976,
     label = "Cs-CbCsCsOs",
     group = 
 """
@@ -51591,7 +45699,7 @@ entry(
 )
 
 entry(
-    index = 2349,
+    index = 1977,
     label = "Cs-CdsCdsCsOs",
     group = 
 """
@@ -51610,7 +45718,7 @@ entry(
 )
 
 entry(
-    index = 2350,
+    index = 1978,
     label = "Cs-(Cds-O2d)(Cds-O2d)CsOs",
     group = 
 """
@@ -51631,7 +45739,7 @@ entry(
 )
 
 entry(
-    index = 2351,
+    index = 1979,
     label = "Cs-(Cds-O2d)(Cds-Cd)CsOs",
     group = 
 """
@@ -51659,7 +45767,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2352,
+    index = 1980,
     label = "Cs-(Cds-O2d)(Cds-Cds)CsOs",
     group = 
 """
@@ -51680,7 +45788,7 @@ entry(
 )
 
 entry(
-    index = 2353,
+    index = 1981,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsOs",
     group = 
 """
@@ -51701,7 +45809,7 @@ entry(
 )
 
 entry(
-    index = 2354,
+    index = 1982,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsOs",
     group = 
 """
@@ -51723,7 +45831,7 @@ entry(
 )
 
 entry(
-    index = 2355,
+    index = 1983,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsOs",
     group = 
 """
@@ -51745,7 +45853,7 @@ entry(
 )
 
 entry(
-    index = 2356,
+    index = 1984,
     label = "Cs-(Cds-Cd)(Cds-Cd)CsOs",
     group = 
 """
@@ -51766,7 +45874,7 @@ entry(
 )
 
 entry(
-    index = 2357,
+    index = 1985,
     label = "Cs-(Cds-Cds)(Cds-Cds)CsOs",
     group = 
 """
@@ -51792,7 +45900,7 @@ entry(
 )
 
 entry(
-    index = 2358,
+    index = 1986,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsOs",
     group = 
 """
@@ -51813,7 +45921,7 @@ entry(
 )
 
 entry(
-    index = 2359,
+    index = 1987,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CsOs",
     group = 
 """
@@ -51835,7 +45943,7 @@ entry(
 )
 
 entry(
-    index = 2360,
+    index = 1988,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsOs",
     group = 
 """
@@ -51857,7 +45965,7 @@ entry(
 )
 
 entry(
-    index = 2361,
+    index = 1989,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsOs",
     group = 
 """
@@ -51878,7 +45986,7 @@ entry(
 )
 
 entry(
-    index = 2362,
+    index = 1990,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsOs",
     group = 
 """
@@ -51901,7 +46009,7 @@ entry(
 )
 
 entry(
-    index = 2363,
+    index = 1991,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsOs",
     group = 
 """
@@ -51924,7 +46032,7 @@ entry(
 )
 
 entry(
-    index = 2364,
+    index = 1992,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsOs",
     group = 
 """
@@ -51947,7 +46055,7 @@ entry(
 )
 
 entry(
-    index = 2365,
+    index = 1993,
     label = "Cs-CtCdsCsOs",
     group = 
 """
@@ -51966,7 +46074,7 @@ entry(
 )
 
 entry(
-    index = 2366,
+    index = 1994,
     label = "Cs-(Cds-O2d)CtCsOs",
     group = 
 """
@@ -51986,7 +46094,7 @@ entry(
 )
 
 entry(
-    index = 2367,
+    index = 1995,
     label = "Cs-(Cds-Cd)CtCsOs",
     group = 
 """
@@ -52006,7 +46114,7 @@ entry(
 )
 
 entry(
-    index = 2368,
+    index = 1996,
     label = "Cs-(Cds-Cds)CtCsOs",
     group = 
 """
@@ -52026,7 +46134,7 @@ entry(
 )
 
 entry(
-    index = 2369,
+    index = 1997,
     label = "Cs-(Cds-Cdd)CtCsOs",
     group = 
 """
@@ -52046,7 +46154,7 @@ entry(
 )
 
 entry(
-    index = 2370,
+    index = 1998,
     label = "Cs-(Cds-Cdd-O2d)CtCsOs",
     group = 
 """
@@ -52067,7 +46175,7 @@ entry(
 )
 
 entry(
-    index = 2371,
+    index = 1999,
     label = "Cs-(Cds-Cdd-Cd)CtCsOs",
     group = 
 """
@@ -52088,7 +46196,7 @@ entry(
 )
 
 entry(
-    index = 2372,
+    index = 2000,
     label = "Cs-CbCdsCsOs",
     group = 
 """
@@ -52107,7 +46215,7 @@ entry(
 )
 
 entry(
-    index = 2373,
+    index = 2001,
     label = "Cs-(Cds-O2d)CbCsOs",
     group = 
 """
@@ -52127,7 +46235,7 @@ entry(
 )
 
 entry(
-    index = 2374,
+    index = 2002,
     label = "Cs-(Cds-Cd)CbCsOs",
     group = 
 """
@@ -52147,7 +46255,7 @@ entry(
 )
 
 entry(
-    index = 2375,
+    index = 2003,
     label = "Cs-(Cds-Cds)CbCsOs",
     group = 
 """
@@ -52167,7 +46275,7 @@ entry(
 )
 
 entry(
-    index = 2376,
+    index = 2004,
     label = "Cs-(Cds-Cdd)CbCsOs",
     group = 
 """
@@ -52187,7 +46295,7 @@ entry(
 )
 
 entry(
-    index = 2377,
+    index = 2005,
     label = "Cs-(Cds-Cdd-O2d)CbCsOs",
     group = 
 """
@@ -52208,7 +46316,7 @@ entry(
 )
 
 entry(
-    index = 2378,
+    index = 2006,
     label = "Cs-(Cds-Cdd-Cd)CbCsOs",
     group = 
 """
@@ -52229,7 +46337,7 @@ entry(
 )
 
 entry(
-    index = 2379,
+    index = 2007,
     label = "Cs-CtCtCsOs",
     group = 
 """
@@ -52248,7 +46356,7 @@ entry(
 )
 
 entry(
-    index = 2380,
+    index = 2008,
     label = "Cs-CbCtCsOs",
     group = 
 """
@@ -52267,7 +46375,7 @@ entry(
 )
 
 entry(
-    index = 2381,
+    index = 2009,
     label = "Cs-CbCbCsOs",
     group = 
 """
@@ -52286,7 +46394,7 @@ entry(
 )
 
 entry(
-    index = 2382,
+    index = 2010,
     label = "Cs-CdsCdsCdsOs",
     group = 
 """
@@ -52305,7 +46413,7 @@ entry(
 )
 
 entry(
-    index = 2383,
+    index = 2011,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)O2s",
     group = 
 """
@@ -52327,7 +46435,7 @@ entry(
 )
 
 entry(
-    index = 2384,
+    index = 2012,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)O2s",
     group = 
 """
@@ -52349,7 +46457,7 @@ entry(
 )
 
 entry(
-    index = 2385,
+    index = 2013,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)O2s",
     group = 
 """
@@ -52371,7 +46479,7 @@ entry(
 )
 
 entry(
-    index = 2386,
+    index = 2014,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)O2s",
     group = 
 """
@@ -52393,7 +46501,7 @@ entry(
 )
 
 entry(
-    index = 2387,
+    index = 2015,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -52416,7 +46524,7 @@ entry(
 )
 
 entry(
-    index = 2388,
+    index = 2016,
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52439,7 +46547,7 @@ entry(
 )
 
 entry(
-    index = 2389,
+    index = 2017,
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)O2s",
     group = 
 """
@@ -52468,7 +46576,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2390,
+    index = 2018,
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)O2s",
     group = 
 """
@@ -52490,7 +46598,7 @@ entry(
 )
 
 entry(
-    index = 2391,
+    index = 2019,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)O2s",
     group = 
 """
@@ -52512,7 +46620,7 @@ entry(
 )
 
 entry(
-    index = 2392,
+    index = 2020,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)O2s",
     group = 
 """
@@ -52535,7 +46643,7 @@ entry(
 )
 
 entry(
-    index = 2393,
+    index = 2021,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)O2s",
     group = 
 """
@@ -52558,7 +46666,7 @@ entry(
 )
 
 entry(
-    index = 2394,
+    index = 2022,
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)O2s",
     group = 
 """
@@ -52580,7 +46688,7 @@ entry(
 )
 
 entry(
-    index = 2395,
+    index = 2023,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -52604,7 +46712,7 @@ entry(
 )
 
 entry(
-    index = 2396,
+    index = 2024,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52628,7 +46736,7 @@ entry(
 )
 
 entry(
-    index = 2397,
+    index = 2025,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52652,7 +46760,7 @@ entry(
 )
 
 entry(
-    index = 2398,
+    index = 2026,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)O2s",
     group = 
 """
@@ -52674,7 +46782,7 @@ entry(
 )
 
 entry(
-    index = 2399,
+    index = 2027,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s",
     group = 
 """
@@ -52696,7 +46804,7 @@ entry(
 )
 
 entry(
-    index = 2400,
+    index = 2028,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)O2s",
     group = 
 """
@@ -52718,7 +46826,7 @@ entry(
 )
 
 entry(
-    index = 2401,
+    index = 2029,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -52741,7 +46849,7 @@ entry(
 )
 
 entry(
-    index = 2402,
+    index = 2030,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52764,7 +46872,7 @@ entry(
 )
 
 entry(
-    index = 2403,
+    index = 2031,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)O2s",
     group = 
 """
@@ -52786,7 +46894,7 @@ entry(
 )
 
 entry(
-    index = 2404,
+    index = 2032,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -52810,7 +46918,7 @@ entry(
 )
 
 entry(
-    index = 2405,
+    index = 2033,
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52834,7 +46942,7 @@ entry(
 )
 
 entry(
-    index = 2406,
+    index = 2034,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52858,7 +46966,7 @@ entry(
 )
 
 entry(
-    index = 2407,
+    index = 2035,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)O2s",
     group = 
 """
@@ -52880,7 +46988,7 @@ entry(
 )
 
 entry(
-    index = 2408,
+    index = 2036,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group = 
 """
@@ -52905,7 +47013,7 @@ entry(
 )
 
 entry(
-    index = 2409,
+    index = 2037,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52930,7 +47038,7 @@ entry(
 )
 
 entry(
-    index = 2410,
+    index = 2038,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52955,7 +47063,7 @@ entry(
 )
 
 entry(
-    index = 2411,
+    index = 2039,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group = 
 """
@@ -52980,7 +47088,7 @@ entry(
 )
 
 entry(
-    index = 2412,
+    index = 2040,
     label = "Cs-CtCdsCdsOs",
     group = 
 """
@@ -52999,7 +47107,7 @@ entry(
 )
 
 entry(
-    index = 2413,
+    index = 2041,
     label = "Cs-(Cds-O2d)(Cds-O2d)CtOs",
     group = 
 """
@@ -53020,7 +47128,7 @@ entry(
 )
 
 entry(
-    index = 2414,
+    index = 2042,
     label = "Cs-(Cds-O2d)(Cds-Cd)CtOs",
     group = 
 """
@@ -53041,7 +47149,7 @@ entry(
 )
 
 entry(
-    index = 2415,
+    index = 2043,
     label = "Cs-(Cds-O2d)(Cds-Cds)CtOs",
     group = 
 """
@@ -53062,7 +47170,7 @@ entry(
 )
 
 entry(
-    index = 2416,
+    index = 2044,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtOs",
     group = 
 """
@@ -53083,7 +47191,7 @@ entry(
 )
 
 entry(
-    index = 2417,
+    index = 2045,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtOs",
     group = 
 """
@@ -53105,7 +47213,7 @@ entry(
 )
 
 entry(
-    index = 2418,
+    index = 2046,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtOs",
     group = 
 """
@@ -53127,7 +47235,7 @@ entry(
 )
 
 entry(
-    index = 2419,
+    index = 2047,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtOs",
     group = 
 """
@@ -53148,7 +47256,7 @@ entry(
 )
 
 entry(
-    index = 2420,
+    index = 2048,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtOs",
     group = 
 """
@@ -53169,7 +47277,7 @@ entry(
 )
 
 entry(
-    index = 2421,
+    index = 2049,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtOs",
     group = 
 """
@@ -53190,7 +47298,7 @@ entry(
 )
 
 entry(
-    index = 2422,
+    index = 2050,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtOs",
     group = 
 """
@@ -53212,7 +47320,7 @@ entry(
 )
 
 entry(
-    index = 2423,
+    index = 2051,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtOs",
     group = 
 """
@@ -53234,7 +47342,7 @@ entry(
 )
 
 entry(
-    index = 2424,
+    index = 2052,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtOs",
     group = 
 """
@@ -53255,7 +47363,7 @@ entry(
 )
 
 entry(
-    index = 2425,
+    index = 2053,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtOs",
     group = 
 """
@@ -53278,7 +47386,7 @@ entry(
 )
 
 entry(
-    index = 2426,
+    index = 2054,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtOs",
     group = 
 """
@@ -53301,7 +47409,7 @@ entry(
 )
 
 entry(
-    index = 2427,
+    index = 2055,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtOs",
     group = 
 """
@@ -53324,7 +47432,7 @@ entry(
 )
 
 entry(
-    index = 2428,
+    index = 2056,
     label = "Cs-CbCdsCdsOs",
     group = 
 """
@@ -53343,7 +47451,7 @@ entry(
 )
 
 entry(
-    index = 2429,
+    index = 2057,
     label = "Cs-(Cds-O2d)(Cds-O2d)CbOs",
     group = 
 """
@@ -53364,7 +47472,7 @@ entry(
 )
 
 entry(
-    index = 2430,
+    index = 2058,
     label = "Cs-(Cds-O2d)(Cds-Cd)CbOs",
     group = 
 """
@@ -53385,7 +47493,7 @@ entry(
 )
 
 entry(
-    index = 2431,
+    index = 2059,
     label = "Cs-(Cds-O2d)(Cds-Cds)CbOs",
     group = 
 """
@@ -53406,7 +47514,7 @@ entry(
 )
 
 entry(
-    index = 2432,
+    index = 2060,
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbOs",
     group = 
 """
@@ -53427,7 +47535,7 @@ entry(
 )
 
 entry(
-    index = 2433,
+    index = 2061,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbOs",
     group = 
 """
@@ -53449,7 +47557,7 @@ entry(
 )
 
 entry(
-    index = 2434,
+    index = 2062,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbOs",
     group = 
 """
@@ -53471,7 +47579,7 @@ entry(
 )
 
 entry(
-    index = 2435,
+    index = 2063,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbOs",
     group = 
 """
@@ -53492,7 +47600,7 @@ entry(
 )
 
 entry(
-    index = 2436,
+    index = 2064,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbOs",
     group = 
 """
@@ -53513,7 +47621,7 @@ entry(
 )
 
 entry(
-    index = 2437,
+    index = 2065,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbOs",
     group = 
 """
@@ -53534,7 +47642,7 @@ entry(
 )
 
 entry(
-    index = 2438,
+    index = 2066,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbOs",
     group = 
 """
@@ -53556,7 +47664,7 @@ entry(
 )
 
 entry(
-    index = 2439,
+    index = 2067,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbOs",
     group = 
 """
@@ -53578,7 +47686,7 @@ entry(
 )
 
 entry(
-    index = 2440,
+    index = 2068,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbOs",
     group = 
 """
@@ -53599,7 +47707,7 @@ entry(
 )
 
 entry(
-    index = 2441,
+    index = 2069,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbOs",
     group = 
 """
@@ -53622,7 +47730,7 @@ entry(
 )
 
 entry(
-    index = 2442,
+    index = 2070,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbOs",
     group = 
 """
@@ -53645,7 +47753,7 @@ entry(
 )
 
 entry(
-    index = 2443,
+    index = 2071,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbOs",
     group = 
 """
@@ -53668,7 +47776,7 @@ entry(
 )
 
 entry(
-    index = 2444,
+    index = 2072,
     label = "Cs-CtCtCdsOs",
     group = 
 """
@@ -53687,7 +47795,7 @@ entry(
 )
 
 entry(
-    index = 2445,
+    index = 2073,
     label = "Cs-(Cds-O2d)CtCtOs",
     group = 
 """
@@ -53707,7 +47815,7 @@ entry(
 )
 
 entry(
-    index = 2446,
+    index = 2074,
     label = "Cs-(Cds-Cd)CtCtOs",
     group = 
 """
@@ -53727,7 +47835,7 @@ entry(
 )
 
 entry(
-    index = 2447,
+    index = 2075,
     label = "Cs-(Cds-Cds)CtCtOs",
     group = 
 """
@@ -53747,7 +47855,7 @@ entry(
 )
 
 entry(
-    index = 2448,
+    index = 2076,
     label = "Cs-(Cds-Cdd)CtCtOs",
     group = 
 """
@@ -53767,7 +47875,7 @@ entry(
 )
 
 entry(
-    index = 2449,
+    index = 2077,
     label = "Cs-(Cds-Cdd-O2d)CtCtOs",
     group = 
 """
@@ -53788,7 +47896,7 @@ entry(
 )
 
 entry(
-    index = 2450,
+    index = 2078,
     label = "Cs-(Cds-Cdd-Cd)CtCtOs",
     group = 
 """
@@ -53809,7 +47917,7 @@ entry(
 )
 
 entry(
-    index = 2451,
+    index = 2079,
     label = "Cs-CbCtCdsOs",
     group = 
 """
@@ -53828,7 +47936,7 @@ entry(
 )
 
 entry(
-    index = 2452,
+    index = 2080,
     label = "Cs-(Cds-O2d)CbCtOs",
     group = 
 """
@@ -53848,7 +47956,7 @@ entry(
 )
 
 entry(
-    index = 2453,
+    index = 2081,
     label = "Cs-(Cds-Cd)CbCtOs",
     group = 
 """
@@ -53868,7 +47976,7 @@ entry(
 )
 
 entry(
-    index = 2454,
+    index = 2082,
     label = "Cs-(Cds-Cds)CbCtOs",
     group = 
 """
@@ -53888,7 +47996,7 @@ entry(
 )
 
 entry(
-    index = 2455,
+    index = 2083,
     label = "Cs-(Cds-Cdd)CbCtOs",
     group = 
 """
@@ -53908,7 +48016,7 @@ entry(
 )
 
 entry(
-    index = 2456,
+    index = 2084,
     label = "Cs-(Cds-Cdd-O2d)CbCtOs",
     group = 
 """
@@ -53929,7 +48037,7 @@ entry(
 )
 
 entry(
-    index = 2457,
+    index = 2085,
     label = "Cs-(Cds-Cdd-Cd)CbCtOs",
     group = 
 """
@@ -53950,7 +48058,7 @@ entry(
 )
 
 entry(
-    index = 2458,
+    index = 2086,
     label = "Cs-CbCbCdsOs",
     group = 
 """
@@ -53969,7 +48077,7 @@ entry(
 )
 
 entry(
-    index = 2459,
+    index = 2087,
     label = "Cs-(Cds-O2d)CbCbOs",
     group = 
 """
@@ -53989,7 +48097,7 @@ entry(
 )
 
 entry(
-    index = 2460,
+    index = 2088,
     label = "Cs-(Cds-Cd)CbCbOs",
     group = 
 """
@@ -54009,7 +48117,7 @@ entry(
 )
 
 entry(
-    index = 2461,
+    index = 2089,
     label = "Cs-(Cds-Cds)CbCbOs",
     group = 
 """
@@ -54029,7 +48137,7 @@ entry(
 )
 
 entry(
-    index = 2462,
+    index = 2090,
     label = "Cs-(Cds-Cdd)CbCbOs",
     group = 
 """
@@ -54049,7 +48157,7 @@ entry(
 )
 
 entry(
-    index = 2463,
+    index = 2091,
     label = "Cs-(Cds-Cdd-O2d)CbCbOs",
     group = 
 """
@@ -54070,7 +48178,7 @@ entry(
 )
 
 entry(
-    index = 2464,
+    index = 2092,
     label = "Cs-(Cds-Cdd-Cd)CbCbOs",
     group = 
 """
@@ -54091,7 +48199,7 @@ entry(
 )
 
 entry(
-    index = 2465,
+    index = 2093,
     label = "Cs-CtCtCtOs",
     group = 
 """
@@ -54110,7 +48218,7 @@ entry(
 )
 
 entry(
-    index = 2466,
+    index = 2094,
     label = "Cs-CbCtCtOs",
     group = 
 """
@@ -54129,7 +48237,7 @@ entry(
 )
 
 entry(
-    index = 2467,
+    index = 2095,
     label = "Cs-CbCbCtOs",
     group = 
 """
@@ -54148,7 +48256,7 @@ entry(
 )
 
 entry(
-    index = 2468,
+    index = 2096,
     label = "Cs-CbCbCbOs",
     group = 
 """
@@ -54167,7 +48275,7 @@ entry(
 )
 
 entry(
-    index = 2469,
+    index = 2097,
     label = "Cs-CCOsOs",
     group = 
 """
@@ -54186,7 +48294,7 @@ entry(
 )
 
 entry(
-    index = 2470,
+    index = 2098,
     label = "Cs-CsCsOsOs",
     group = 
 """
@@ -54212,7 +48320,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2471,
+    index = 2099,
     label = "Cs-CdsCsOsOs",
     group = 
 """
@@ -54231,7 +48339,7 @@ entry(
 )
 
 entry(
-    index = 2472,
+    index = 2100,
     label = "Cs-(Cds-O2d)CsOsOs",
     group = 
 """
@@ -54251,7 +48359,7 @@ entry(
 )
 
 entry(
-    index = 2473,
+    index = 2101,
     label = "Cs-(Cds-Cd)CsOsOs",
     group = 
 """
@@ -54278,7 +48386,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2474,
+    index = 2102,
     label = "Cs-(Cds-Cds)CsOsOs",
     group = 
 """
@@ -54298,7 +48406,7 @@ entry(
 )
 
 entry(
-    index = 2475,
+    index = 2103,
     label = "Cs-(Cds-Cdd)CsOsOs",
     group = 
 """
@@ -54318,7 +48426,7 @@ entry(
 )
 
 entry(
-    index = 2476,
+    index = 2104,
     label = "Cs-(Cds-Cdd-O2d)CsOsOs",
     group = 
 """
@@ -54339,7 +48447,7 @@ entry(
 )
 
 entry(
-    index = 2477,
+    index = 2105,
     label = "Cs-(Cds-Cdd-Cd)CsOsOs",
     group = 
 """
@@ -54360,7 +48468,7 @@ entry(
 )
 
 entry(
-    index = 2478,
+    index = 2106,
     label = "Cs-CdsCdsOsOs",
     group = 
 """
@@ -54379,7 +48487,7 @@ entry(
 )
 
 entry(
-    index = 2479,
+    index = 2107,
     label = "Cs-(Cds-O2d)(Cds-O2d)OsOs",
     group = 
 """
@@ -54400,7 +48508,7 @@ entry(
 )
 
 entry(
-    index = 2480,
+    index = 2108,
     label = "Cs-(Cds-O2d)(Cds-Cd)OsOs",
     group = 
 """
@@ -54421,7 +48529,7 @@ entry(
 )
 
 entry(
-    index = 2481,
+    index = 2109,
     label = "Cs-(Cds-O2d)(Cds-Cds)OsOs",
     group = 
 """
@@ -54442,7 +48550,7 @@ entry(
 )
 
 entry(
-    index = 2482,
+    index = 2110,
     label = "Cs-(Cds-O2d)(Cds-Cdd)OsOs",
     group = 
 """
@@ -54463,7 +48571,7 @@ entry(
 )
 
 entry(
-    index = 2483,
+    index = 2111,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)OsOs",
     group = 
 """
@@ -54485,7 +48593,7 @@ entry(
 )
 
 entry(
-    index = 2484,
+    index = 2112,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)OsOs",
     group = 
 """
@@ -54507,7 +48615,7 @@ entry(
 )
 
 entry(
-    index = 2485,
+    index = 2113,
     label = "Cs-(Cds-Cd)(Cds-Cd)OsOs",
     group = 
 """
@@ -54535,7 +48643,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2486,
+    index = 2114,
     label = "Cs-(Cds-Cds)(Cds-Cds)OsOs",
     group = 
 """
@@ -54556,7 +48664,7 @@ entry(
 )
 
 entry(
-    index = 2487,
+    index = 2115,
     label = "Cs-(Cds-Cdd)(Cds-Cds)OsOs",
     group = 
 """
@@ -54577,7 +48685,7 @@ entry(
 )
 
 entry(
-    index = 2488,
+    index = 2116,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)OsOs",
     group = 
 """
@@ -54599,7 +48707,7 @@ entry(
 )
 
 entry(
-    index = 2489,
+    index = 2117,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)OsOs",
     group = 
 """
@@ -54621,7 +48729,7 @@ entry(
 )
 
 entry(
-    index = 2490,
+    index = 2118,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)OsOs",
     group = 
 """
@@ -54642,7 +48750,7 @@ entry(
 )
 
 entry(
-    index = 2491,
+    index = 2119,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)OsOs",
     group = 
 """
@@ -54665,7 +48773,7 @@ entry(
 )
 
 entry(
-    index = 2492,
+    index = 2120,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)OsOs",
     group = 
 """
@@ -54688,7 +48796,7 @@ entry(
 )
 
 entry(
-    index = 2493,
+    index = 2121,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsOs",
     group = 
 """
@@ -54711,7 +48819,7 @@ entry(
 )
 
 entry(
-    index = 2494,
+    index = 2122,
     label = "Cs-CtCsOsOs",
     group = 
 """
@@ -54730,7 +48838,7 @@ entry(
 )
 
 entry(
-    index = 2495,
+    index = 2123,
     label = "Cs-CtCdsOsOs",
     group = 
 """
@@ -54749,7 +48857,7 @@ entry(
 )
 
 entry(
-    index = 2496,
+    index = 2124,
     label = "Cs-(Cds-O2d)CtOsOs",
     group = 
 """
@@ -54769,7 +48877,7 @@ entry(
 )
 
 entry(
-    index = 2497,
+    index = 2125,
     label = "Cs-(Cds-Cd)CtOsOs",
     group = 
 """
@@ -54789,7 +48897,7 @@ entry(
 )
 
 entry(
-    index = 2498,
+    index = 2126,
     label = "Cs-(Cds-Cds)CtOsOs",
     group = 
 """
@@ -54809,7 +48917,7 @@ entry(
 )
 
 entry(
-    index = 2499,
+    index = 2127,
     label = "Cs-(Cds-Cdd)CtOsOs",
     group = 
 """
@@ -54829,7 +48937,7 @@ entry(
 )
 
 entry(
-    index = 2500,
+    index = 2128,
     label = "Cs-(Cds-Cdd-O2d)CtOsOs",
     group = 
 """
@@ -54850,7 +48958,7 @@ entry(
 )
 
 entry(
-    index = 2501,
+    index = 2129,
     label = "Cs-(Cds-Cdd-Cd)CtOsOs",
     group = 
 """
@@ -54871,7 +48979,7 @@ entry(
 )
 
 entry(
-    index = 2502,
+    index = 2130,
     label = "Cs-CtCtOsOs",
     group = 
 """
@@ -54890,7 +48998,7 @@ entry(
 )
 
 entry(
-    index = 2503,
+    index = 2131,
     label = "Cs-CbCsOsOs",
     group = 
 """
@@ -54909,7 +49017,7 @@ entry(
 )
 
 entry(
-    index = 2504,
+    index = 2132,
     label = "Cs-CbCdsOsOs",
     group = 
 """
@@ -54928,7 +49036,7 @@ entry(
 )
 
 entry(
-    index = 2505,
+    index = 2133,
     label = "Cs-(Cds-O2d)CbOsOs",
     group = 
 """
@@ -54948,7 +49056,7 @@ entry(
 )
 
 entry(
-    index = 2506,
+    index = 2134,
     label = "Cs-(Cds-Cd)CbOsOs",
     group = 
 """
@@ -54968,7 +49076,7 @@ entry(
 )
 
 entry(
-    index = 2507,
+    index = 2135,
     label = "Cs-(Cds-Cds)CbOsOs",
     group = 
 """
@@ -54988,7 +49096,7 @@ entry(
 )
 
 entry(
-    index = 2508,
+    index = 2136,
     label = "Cs-(Cds-Cdd)CbOsOs",
     group = 
 """
@@ -55008,7 +49116,7 @@ entry(
 )
 
 entry(
-    index = 2509,
+    index = 2137,
     label = "Cs-(Cds-Cdd-O2d)CbOsOs",
     group = 
 """
@@ -55029,7 +49137,7 @@ entry(
 )
 
 entry(
-    index = 2510,
+    index = 2138,
     label = "Cs-(Cds-Cdd-Cd)CbOsOs",
     group = 
 """
@@ -55050,7 +49158,7 @@ entry(
 )
 
 entry(
-    index = 2511,
+    index = 2139,
     label = "Cs-CbCtOsOs",
     group = 
 """
@@ -55069,7 +49177,7 @@ entry(
 )
 
 entry(
-    index = 2512,
+    index = 2140,
     label = "Cs-CbCbOsOs",
     group = 
 """
@@ -55088,7 +49196,7 @@ entry(
 )
 
 entry(
-    index = 2513,
+    index = 2141,
     label = "Cs-COsOsOs",
     group = 
 """
@@ -55107,7 +49215,7 @@ entry(
 )
 
 entry(
-    index = 2514,
+    index = 2142,
     label = "Cs-CsOsOsOs",
     group = 
 """
@@ -55131,7 +49239,7 @@ entry(
 )
 
 entry(
-    index = 2515,
+    index = 2143,
     label = "Cs-CdsOsOsOs",
     group = 
 """
@@ -55150,7 +49258,7 @@ entry(
 )
 
 entry(
-    index = 2516,
+    index = 2144,
     label = "Cs-(Cds-O2d)OsOsOs",
     group = 
 """
@@ -55170,7 +49278,7 @@ entry(
 )
 
 entry(
-    index = 2517,
+    index = 2145,
     label = "Cs-(Cds-Cd)OsOsOs",
     group = 
 """
@@ -55190,7 +49298,7 @@ entry(
 )
 
 entry(
-    index = 2518,
+    index = 2146,
     label = "Cs-(Cds-Cds)OsOsOs",
     group = 
 """
@@ -55210,7 +49318,7 @@ entry(
 )
 
 entry(
-    index = 2519,
+    index = 2147,
     label = "Cs-(Cds-Cdd)OsOsOs",
     group = 
 """
@@ -55230,7 +49338,7 @@ entry(
 )
 
 entry(
-    index = 2520,
+    index = 2148,
     label = "Cs-(Cds-Cdd-O2d)OsOsOs",
     group = 
 """
@@ -55251,7 +49359,7 @@ entry(
 )
 
 entry(
-    index = 2521,
+    index = 2149,
     label = "Cs-(Cds-Cdd-Cd)OsOsOs",
     group = 
 """
@@ -55272,7 +49380,7 @@ entry(
 )
 
 entry(
-    index = 2522,
+    index = 2150,
     label = "Cs-CtOsOsOs",
     group = 
 """
@@ -55291,7 +49399,7 @@ entry(
 )
 
 entry(
-    index = 2523,
+    index = 2151,
     label = "Cs-CbOsOsOs",
     group = 
 """
@@ -55310,7 +49418,7 @@ entry(
 )
 
 entry(
-    index = 2524,
+    index = 2152,
     label = "Cs-OsOsOsOs",
     group = 
 """
@@ -55334,7 +49442,7 @@ entry(
 )
 
 entry(
-    index = 2525,
+    index = 2153,
     label = "Cs-COsOsH",
     group = 
 """
@@ -55353,7 +49461,7 @@ entry(
 )
 
 entry(
-    index = 2526,
+    index = 2154,
     label = "Cs-CsOsOsH",
     group = 
 """
@@ -55377,7 +49485,7 @@ entry(
 )
 
 entry(
-    index = 2527,
+    index = 2155,
     label = "Cs-CdsOsOsH",
     group = 
 """
@@ -55396,7 +49504,7 @@ entry(
 )
 
 entry(
-    index = 2528,
+    index = 2156,
     label = "Cs-(Cds-O2d)OsOsH",
     group = 
 """
@@ -55416,7 +49524,7 @@ entry(
 )
 
 entry(
-    index = 2529,
+    index = 2157,
     label = "Cs-(Cds-Cd)OsOsH",
     group = 
 """
@@ -55436,7 +49544,7 @@ entry(
 )
 
 entry(
-    index = 2530,
+    index = 2158,
     label = "Cs-(Cds-Cds)OsOsH",
     group = 
 """
@@ -55456,7 +49564,7 @@ entry(
 )
 
 entry(
-    index = 2531,
+    index = 2159,
     label = "Cs-(Cds-Cdd)OsOsH",
     group = 
 """
@@ -55476,7 +49584,7 @@ entry(
 )
 
 entry(
-    index = 2532,
+    index = 2160,
     label = "Cs-(Cds-Cdd-O2d)OsOsH",
     group = 
 """
@@ -55497,7 +49605,7 @@ entry(
 )
 
 entry(
-    index = 2533,
+    index = 2161,
     label = "Cs-(Cds-Cdd-Cd)OsOsH",
     group = 
 """
@@ -55518,7 +49626,7 @@ entry(
 )
 
 entry(
-    index = 2534,
+    index = 2162,
     label = "Cs-CtOsOsH",
     group = 
 """
@@ -55537,7 +49645,7 @@ entry(
 )
 
 entry(
-    index = 2535,
+    index = 2163,
     label = "Cs-CbOsOsH",
     group = 
 """
@@ -55556,7 +49664,7 @@ entry(
 )
 
 entry(
-    index = 2536,
+    index = 2164,
     label = "Cs-COsSH",
     group = 
 """
@@ -55575,7 +49683,7 @@ entry(
 )
 
 entry(
-    index = 2537,
+    index = 2165,
     label = "Cs-CsOsSH",
     group = 
 """
@@ -55594,7 +49702,7 @@ entry(
 )
 
 entry(
-    index = 2538,
+    index = 2166,
     label = "Cs-CsOsS2H",
     group = 
 """
@@ -55618,7 +49726,7 @@ entry(
 )
 
 entry(
-    index = 2539,
+    index = 2167,
     label = "Cs-CsOsS4H",
     group = 
 """
@@ -55642,7 +49750,7 @@ entry(
 )
 
 entry(
-    index = 2540,
+    index = 2168,
     label = "Cs-CdsOsSsH",
     group = 
 """
@@ -55666,7 +49774,7 @@ entry(
 )
 
 entry(
-    index = 2541,
+    index = 2169,
     label = "Cs-CtOsSsH",
     group = 
 """
@@ -55685,7 +49793,7 @@ entry(
 )
 
 entry(
-    index = 2542,
+    index = 2170,
     label = "Cs-CbOsSsH",
     group = 
 """
@@ -55709,7 +49817,7 @@ entry(
 )
 
 entry(
-    index = 2543,
+    index = 2171,
     label = "Cs-CCOsSs",
     group = 
 """
@@ -55728,7 +49836,7 @@ entry(
 )
 
 entry(
-    index = 2544,
+    index = 2172,
     label = "Cs-CsCsOsSs",
     group = 
 """
@@ -55752,7 +49860,7 @@ entry(
 )
 
 entry(
-    index = 2545,
+    index = 2173,
     label = "Cs-COsOsSs",
     group = 
 """
@@ -55771,7 +49879,7 @@ entry(
 )
 
 entry(
-    index = 2546,
+    index = 2174,
     label = "Cs-CsOsOsSs",
     group = 
 """
@@ -55795,7 +49903,7 @@ entry(
 )
 
 entry(
-    index = 2547,
+    index = 2175,
     label = "Cs-CCOsH",
     group = 
 """
@@ -55814,7 +49922,7 @@ entry(
 )
 
 entry(
-    index = 2548,
+    index = 2176,
     label = "Cs-CsCsOsH",
     group = 
 """
@@ -55840,7 +49948,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2549,
+    index = 2177,
     label = "Cs-CdsCsOsH",
     group = 
 """
@@ -55859,7 +49967,7 @@ entry(
 )
 
 entry(
-    index = 2550,
+    index = 2178,
     label = "Cs-(Cds-O2d)CsOsH",
     group = 
 """
@@ -55884,7 +49992,7 @@ entry(
 )
 
 entry(
-    index = 2551,
+    index = 2179,
     label = "Cs-(Cds-Cd)CsOsH",
     group = 
 """
@@ -55911,7 +50019,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2552,
+    index = 2180,
     label = "Cs-(Cds-Cds)CsOsH",
     group = 
 """
@@ -55936,7 +50044,7 @@ entry(
 )
 
 entry(
-    index = 2553,
+    index = 2181,
     label = "Cs-(Cds-Cdd)CsOsH",
     group = 
 """
@@ -55956,7 +50064,7 @@ entry(
 )
 
 entry(
-    index = 2554,
+    index = 2182,
     label = "Cs-(Cds-Cdd-O2d)CsOsH",
     group = 
 """
@@ -55982,7 +50090,7 @@ entry(
 )
 
 entry(
-    index = 2555,
+    index = 2183,
     label = "Cs-(Cds-Cdd-Cd)CsOsH",
     group = 
 """
@@ -56003,7 +50111,7 @@ entry(
 )
 
 entry(
-    index = 2556,
+    index = 2184,
     label = "Cs-CdsCdsOsH",
     group = 
 """
@@ -56022,7 +50130,7 @@ entry(
 )
 
 entry(
-    index = 2557,
+    index = 2185,
     label = "Cs-(Cds-O2d)(Cds-O2d)OsH",
     group = 
 """
@@ -56043,7 +50151,7 @@ entry(
 )
 
 entry(
-    index = 2558,
+    index = 2186,
     label = "Cs-(Cds-O2d)(Cds-Cd)OsH",
     group = 
 """
@@ -56064,7 +50172,7 @@ entry(
 )
 
 entry(
-    index = 2559,
+    index = 2187,
     label = "Cs-(Cds-O2d)(Cds-Cds)OsH",
     group = 
 """
@@ -56085,7 +50193,7 @@ entry(
 )
 
 entry(
-    index = 2560,
+    index = 2188,
     label = "Cs-(Cds-O2d)(Cds-Cdd)OsH",
     group = 
 """
@@ -56106,7 +50214,7 @@ entry(
 )
 
 entry(
-    index = 2561,
+    index = 2189,
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)OsH",
     group = 
 """
@@ -56128,7 +50236,7 @@ entry(
 )
 
 entry(
-    index = 2562,
+    index = 2190,
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)OsH",
     group = 
 """
@@ -56150,7 +50258,7 @@ entry(
 )
 
 entry(
-    index = 2563,
+    index = 2191,
     label = "Cs-(Cds-Cd)(Cds-Cd)OsH",
     group = 
 """
@@ -56178,7 +50286,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2564,
+    index = 2192,
     label = "Cs-(Cds-Cds)(Cds-Cds)OsH",
     group = 
 """
@@ -56204,7 +50312,7 @@ entry(
 )
 
 entry(
-    index = 2565,
+    index = 2193,
     label = "Cs-(Cds-Cdd)(Cds-Cds)OsH",
     group = 
 """
@@ -56225,7 +50333,7 @@ entry(
 )
 
 entry(
-    index = 2566,
+    index = 2194,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)OsH",
     group = 
 """
@@ -56247,7 +50355,7 @@ entry(
 )
 
 entry(
-    index = 2567,
+    index = 2195,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)OsH",
     group = 
 """
@@ -56269,7 +50377,7 @@ entry(
 )
 
 entry(
-    index = 2568,
+    index = 2196,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)OsH",
     group = 
 """
@@ -56290,7 +50398,7 @@ entry(
 )
 
 entry(
-    index = 2569,
+    index = 2197,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)OsH",
     group = 
 """
@@ -56313,7 +50421,7 @@ entry(
 )
 
 entry(
-    index = 2570,
+    index = 2198,
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)OsH",
     group = 
 """
@@ -56336,7 +50444,7 @@ entry(
 )
 
 entry(
-    index = 2571,
+    index = 2199,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsH",
     group = 
 """
@@ -56359,7 +50467,7 @@ entry(
 )
 
 entry(
-    index = 2572,
+    index = 2200,
     label = "Cs-CtCsOsH",
     group = 
 """
@@ -56378,7 +50486,7 @@ entry(
 )
 
 entry(
-    index = 2573,
+    index = 2201,
     label = "Cs-CtCdsOsH",
     group = 
 """
@@ -56397,7 +50505,7 @@ entry(
 )
 
 entry(
-    index = 2574,
+    index = 2202,
     label = "Cs-(Cds-O2d)CtOsH",
     group = 
 """
@@ -56417,7 +50525,7 @@ entry(
 )
 
 entry(
-    index = 2575,
+    index = 2203,
     label = "Cs-(Cds-Cd)CtOsH",
     group = 
 """
@@ -56437,7 +50545,7 @@ entry(
 )
 
 entry(
-    index = 2576,
+    index = 2204,
     label = "Cs-(Cds-Cds)CtOsH",
     group = 
 """
@@ -56457,7 +50565,7 @@ entry(
 )
 
 entry(
-    index = 2577,
+    index = 2205,
     label = "Cs-(Cds-Cdd)CtOsH",
     group = 
 """
@@ -56477,7 +50585,7 @@ entry(
 )
 
 entry(
-    index = 2578,
+    index = 2206,
     label = "Cs-(Cds-Cdd-O2d)CtOsH",
     group = 
 """
@@ -56498,7 +50606,7 @@ entry(
 )
 
 entry(
-    index = 2579,
+    index = 2207,
     label = "Cs-(Cds-Cdd-Cd)CtOsH",
     group = 
 """
@@ -56519,7 +50627,7 @@ entry(
 )
 
 entry(
-    index = 2580,
+    index = 2208,
     label = "Cs-CtCtOsH",
     group = 
 """
@@ -56538,7 +50646,7 @@ entry(
 )
 
 entry(
-    index = 2581,
+    index = 2209,
     label = "Cs-CbCsOsH",
     group = 
 """
@@ -56562,7 +50670,7 @@ entry(
 )
 
 entry(
-    index = 2582,
+    index = 2210,
     label = "Cs-CbCdsOsH",
     group = 
 """
@@ -56581,7 +50689,7 @@ entry(
 )
 
 entry(
-    index = 2583,
+    index = 2211,
     label = "Cs-(Cds-O2d)CbOsH",
     group = 
 """
@@ -56601,7 +50709,7 @@ entry(
 )
 
 entry(
-    index = 2584,
+    index = 2212,
     label = "Cs-(Cds-Cd)CbOsH",
     group = 
 """
@@ -56621,7 +50729,7 @@ entry(
 )
 
 entry(
-    index = 2585,
+    index = 2213,
     label = "Cs-(Cds-Cds)CbOsH",
     group = 
 """
@@ -56641,7 +50749,7 @@ entry(
 )
 
 entry(
-    index = 2586,
+    index = 2214,
     label = "Cs-(Cds-Cdd)CbOsH",
     group = 
 """
@@ -56661,7 +50769,7 @@ entry(
 )
 
 entry(
-    index = 2587,
+    index = 2215,
     label = "Cs-(Cds-Cdd-O2d)CbOsH",
     group = 
 """
@@ -56682,7 +50790,7 @@ entry(
 )
 
 entry(
-    index = 2588,
+    index = 2216,
     label = "Cs-(Cds-Cdd-Cd)CbOsH",
     group = 
 """
@@ -56703,7 +50811,7 @@ entry(
 )
 
 entry(
-    index = 2589,
+    index = 2217,
     label = "Cs-CbCtOsH",
     group = 
 """
@@ -56722,7 +50830,7 @@ entry(
 )
 
 entry(
-    index = 2590,
+    index = 2218,
     label = "Cs-CbCbOsH",
     group = 
 """
@@ -56741,7 +50849,7 @@ entry(
 )
 
 entry(
-    index = 2591,
+    index = 2219,
     label = "Cs-COsHH",
     group = 
 """
@@ -56760,7 +50868,7 @@ entry(
 )
 
 entry(
-    index = 2592,
+    index = 2220,
     label = "Cs-CsOsHH",
     group = 
 """
@@ -56786,7 +50894,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2593,
+    index = 2221,
     label = "Cs-CdsOsHH",
     group = 
 """
@@ -56805,7 +50913,7 @@ entry(
 )
 
 entry(
-    index = 2594,
+    index = 2222,
     label = "Cs-(Cds-O2d)OsHH",
     group = 
 """
@@ -56832,7 +50940,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2595,
+    index = 2223,
     label = "Cs-(Cds-Cd)OsHH",
     group = 
 """
@@ -56859,7 +50967,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2596,
+    index = 2224,
     label = "Cs-(Cds-Cds)OsHH",
     group = 
 """
@@ -56884,7 +50992,7 @@ entry(
 )
 
 entry(
-    index = 2597,
+    index = 2225,
     label = "Cs-(Cds-Cdd)OsHH",
     group = 
 """
@@ -56904,7 +51012,7 @@ entry(
 )
 
 entry(
-    index = 2598,
+    index = 2226,
     label = "Cs-(Cds-Cdd-O2d)OsHH",
     group = 
 """
@@ -56930,7 +51038,7 @@ entry(
 )
 
 entry(
-    index = 2599,
+    index = 2227,
     label = "Cs-(Cds-Cdd-Cd)OsHH",
     group = 
 """
@@ -56951,7 +51059,7 @@ entry(
 )
 
 entry(
-    index = 2600,
+    index = 2228,
     label = "Cs-CtOsHH",
     group = 
 """
@@ -56975,7 +51083,7 @@ entry(
 )
 
 entry(
-    index = 2601,
+    index = 2229,
     label = "Cs-CbOsHH",
     group = 
 """
@@ -56994,7 +51102,7 @@ entry(
 )
 
 entry(
-    index = 2602,
+    index = 2230,
     label = "Cs-CCCS",
     group = 
 """
@@ -57013,7 +51121,7 @@ entry(
 )
 
 entry(
-    index = 2603,
+    index = 2231,
     label = "Cs-CsCsCsS",
     group = 
 """
@@ -57032,7 +51140,7 @@ entry(
 )
 
 entry(
-    index = 2604,
+    index = 2232,
     label = "Cs-CsCsCsS2",
     group = 
 """
@@ -57056,7 +51164,7 @@ entry(
 )
 
 entry(
-    index = 2605,
+    index = 2233,
     label = "Cs-CsCsCsS4",
     group = 
 """
@@ -57080,7 +51188,7 @@ entry(
 )
 
 entry(
-    index = 2606,
+    index = 2234,
     label = "Cs-CdsCsCsSs",
     group = 
 """
@@ -57099,7 +51207,7 @@ entry(
 )
 
 entry(
-    index = 2607,
+    index = 2235,
     label = "Cs-(Cds-Cd)CsCsSs",
     group = 
 """
@@ -57119,7 +51227,7 @@ entry(
 )
 
 entry(
-    index = 2608,
+    index = 2236,
     label = "Cs-(Cds-Cds)CsCsSs",
     group = 
 """
@@ -57139,7 +51247,7 @@ entry(
 )
 
 entry(
-    index = 2609,
+    index = 2237,
     label = "Cs-(Cds-Cdd)CsCsSs",
     group = 
 """
@@ -57159,7 +51267,7 @@ entry(
 )
 
 entry(
-    index = 2610,
+    index = 2238,
     label = "Cs-(Cds-Cdd-S2d)CsCsSs",
     group = 
 """
@@ -57180,7 +51288,7 @@ entry(
 )
 
 entry(
-    index = 2611,
+    index = 2239,
     label = "Cs-(Cds-Cdd-Cd)CsCsSs",
     group = 
 """
@@ -57201,7 +51309,7 @@ entry(
 )
 
 entry(
-    index = 2612,
+    index = 2240,
     label = "Cs-SsCtCsCs",
     group = 
 """
@@ -57220,7 +51328,7 @@ entry(
 )
 
 entry(
-    index = 2613,
+    index = 2241,
     label = "Cs-CbCsCsSs",
     group = 
 """
@@ -57239,7 +51347,7 @@ entry(
 )
 
 entry(
-    index = 2614,
+    index = 2242,
     label = "Cs-CdsCdsCsSs",
     group = 
 """
@@ -57258,7 +51366,7 @@ entry(
 )
 
 entry(
-    index = 2615,
+    index = 2243,
     label = "Cs-(Cds-Cd)(Cds-Cd)CsSs",
     group = 
 """
@@ -57279,7 +51387,7 @@ entry(
 )
 
 entry(
-    index = 2616,
+    index = 2244,
     label = "Cs-(Cds-Cds)(Cds-Cds)CsSs",
     group = 
 """
@@ -57300,7 +51408,7 @@ entry(
 )
 
 entry(
-    index = 2617,
+    index = 2245,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsSs",
     group = 
 """
@@ -57321,7 +51429,7 @@ entry(
 )
 
 entry(
-    index = 2618,
+    index = 2246,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsSs",
     group = 
 """
@@ -57343,7 +51451,7 @@ entry(
 )
 
 entry(
-    index = 2619,
+    index = 2247,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsSs",
     group = 
 """
@@ -57365,7 +51473,7 @@ entry(
 )
 
 entry(
-    index = 2620,
+    index = 2248,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsSs",
     group = 
 """
@@ -57386,7 +51494,7 @@ entry(
 )
 
 entry(
-    index = 2621,
+    index = 2249,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsSs",
     group = 
 """
@@ -57409,7 +51517,7 @@ entry(
 )
 
 entry(
-    index = 2622,
+    index = 2250,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsSs",
     group = 
 """
@@ -57432,7 +51540,7 @@ entry(
 )
 
 entry(
-    index = 2623,
+    index = 2251,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsSs",
     group = 
 """
@@ -57455,7 +51563,7 @@ entry(
 )
 
 entry(
-    index = 2624,
+    index = 2252,
     label = "Cs-CtCdsCsSs",
     group = 
 """
@@ -57474,7 +51582,7 @@ entry(
 )
 
 entry(
-    index = 2625,
+    index = 2253,
     label = "Cs-(Cds-Cd)CtCsSs",
     group = 
 """
@@ -57494,7 +51602,7 @@ entry(
 )
 
 entry(
-    index = 2626,
+    index = 2254,
     label = "Cs-(Cds-Cds)CtCsSs",
     group = 
 """
@@ -57514,7 +51622,7 @@ entry(
 )
 
 entry(
-    index = 2627,
+    index = 2255,
     label = "Cs-(Cds-Cdd)CtCsSs",
     group = 
 """
@@ -57534,7 +51642,7 @@ entry(
 )
 
 entry(
-    index = 2628,
+    index = 2256,
     label = "Cs-(Cds-Cdd-S2d)CtCsSs",
     group = 
 """
@@ -57555,7 +51663,7 @@ entry(
 )
 
 entry(
-    index = 2629,
+    index = 2257,
     label = "Cs-(Cds-Cdd-Cd)CtCsSs",
     group = 
 """
@@ -57576,7 +51684,7 @@ entry(
 )
 
 entry(
-    index = 2630,
+    index = 2258,
     label = "Cs-CbCdsCsSs",
     group = 
 """
@@ -57595,7 +51703,7 @@ entry(
 )
 
 entry(
-    index = 2631,
+    index = 2259,
     label = "Cs-(Cds-Cd)CbCsSs",
     group = 
 """
@@ -57615,7 +51723,7 @@ entry(
 )
 
 entry(
-    index = 2632,
+    index = 2260,
     label = "Cs-(Cds-Cds)CbCsSs",
     group = 
 """
@@ -57635,7 +51743,7 @@ entry(
 )
 
 entry(
-    index = 2633,
+    index = 2261,
     label = "Cs-(Cds-Cdd)CbCsSs",
     group = 
 """
@@ -57655,7 +51763,7 @@ entry(
 )
 
 entry(
-    index = 2634,
+    index = 2262,
     label = "Cs-(Cds-Cdd-S2d)CbCsSs",
     group = 
 """
@@ -57676,7 +51784,7 @@ entry(
 )
 
 entry(
-    index = 2635,
+    index = 2263,
     label = "Cs-(Cds-Cdd-Cd)CbCsSs",
     group = 
 """
@@ -57697,7 +51805,7 @@ entry(
 )
 
 entry(
-    index = 2636,
+    index = 2264,
     label = "Cs-CtCtCsSs",
     group = 
 """
@@ -57716,7 +51824,7 @@ entry(
 )
 
 entry(
-    index = 2637,
+    index = 2265,
     label = "Cs-CbCtCsSs",
     group = 
 """
@@ -57735,7 +51843,7 @@ entry(
 )
 
 entry(
-    index = 2638,
+    index = 2266,
     label = "Cs-CbCbCsSs",
     group = 
 """
@@ -57754,7 +51862,7 @@ entry(
 )
 
 entry(
-    index = 2639,
+    index = 2267,
     label = "Cs-CdsCdsCdsSs",
     group = 
 """
@@ -57773,7 +51881,7 @@ entry(
 )
 
 entry(
-    index = 2640,
+    index = 2268,
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)S2s",
     group = 
 """
@@ -57795,7 +51903,7 @@ entry(
 )
 
 entry(
-    index = 2641,
+    index = 2269,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)S2s",
     group = 
 """
@@ -57817,7 +51925,7 @@ entry(
 )
 
 entry(
-    index = 2642,
+    index = 2270,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)S2s",
     group = 
 """
@@ -57839,7 +51947,7 @@ entry(
 )
 
 entry(
-    index = 2643,
+    index = 2271,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -57862,7 +51970,7 @@ entry(
 )
 
 entry(
-    index = 2644,
+    index = 2272,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -57885,7 +51993,7 @@ entry(
 )
 
 entry(
-    index = 2645,
+    index = 2273,
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
@@ -57907,7 +52015,7 @@ entry(
 )
 
 entry(
-    index = 2646,
+    index = 2274,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -57931,7 +52039,7 @@ entry(
 )
 
 entry(
-    index = 2647,
+    index = 2275,
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -57955,7 +52063,7 @@ entry(
 )
 
 entry(
-    index = 2648,
+    index = 2276,
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -57979,7 +52087,7 @@ entry(
 )
 
 entry(
-    index = 2649,
+    index = 2277,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
@@ -58001,7 +52109,7 @@ entry(
 )
 
 entry(
-    index = 2650,
+    index = 2278,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -58026,7 +52134,7 @@ entry(
 )
 
 entry(
-    index = 2651,
+    index = 2279,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -58051,7 +52159,7 @@ entry(
 )
 
 entry(
-    index = 2652,
+    index = 2280,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -58076,7 +52184,7 @@ entry(
 )
 
 entry(
-    index = 2653,
+    index = 2281,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -58101,7 +52209,7 @@ entry(
 )
 
 entry(
-    index = 2654,
+    index = 2282,
     label = "Cs-CtCdsCdsSs",
     group = 
 """
@@ -58120,7 +52228,7 @@ entry(
 )
 
 entry(
-    index = 2655,
+    index = 2283,
     label = "Cs-(Cds-Cd)(Cds-Cd)CtSs",
     group = 
 """
@@ -58141,7 +52249,7 @@ entry(
 )
 
 entry(
-    index = 2656,
+    index = 2284,
     label = "Cs-(Cds-Cds)(Cds-Cds)CtSs",
     group = 
 """
@@ -58162,7 +52270,7 @@ entry(
 )
 
 entry(
-    index = 2657,
+    index = 2285,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtSs",
     group = 
 """
@@ -58183,7 +52291,7 @@ entry(
 )
 
 entry(
-    index = 2658,
+    index = 2286,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtSs",
     group = 
 """
@@ -58205,7 +52313,7 @@ entry(
 )
 
 entry(
-    index = 2659,
+    index = 2287,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtSs",
     group = 
 """
@@ -58227,7 +52335,7 @@ entry(
 )
 
 entry(
-    index = 2660,
+    index = 2288,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtSs",
     group = 
 """
@@ -58248,7 +52356,7 @@ entry(
 )
 
 entry(
-    index = 2661,
+    index = 2289,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtSs",
     group = 
 """
@@ -58271,7 +52379,7 @@ entry(
 )
 
 entry(
-    index = 2662,
+    index = 2290,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtSs",
     group = 
 """
@@ -58294,7 +52402,7 @@ entry(
 )
 
 entry(
-    index = 2663,
+    index = 2291,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtSs",
     group = 
 """
@@ -58317,7 +52425,7 @@ entry(
 )
 
 entry(
-    index = 2664,
+    index = 2292,
     label = "Cs-CbCdsCdsSs",
     group = 
 """
@@ -58336,7 +52444,7 @@ entry(
 )
 
 entry(
-    index = 2665,
+    index = 2293,
     label = "Cs-(Cds-Cd)(Cds-Cd)CbSs",
     group = 
 """
@@ -58357,7 +52465,7 @@ entry(
 )
 
 entry(
-    index = 2666,
+    index = 2294,
     label = "Cs-(Cds-Cds)(Cds-Cds)CbSs",
     group = 
 """
@@ -58378,7 +52486,7 @@ entry(
 )
 
 entry(
-    index = 2667,
+    index = 2295,
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbSs",
     group = 
 """
@@ -58399,7 +52507,7 @@ entry(
 )
 
 entry(
-    index = 2668,
+    index = 2296,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbSs",
     group = 
 """
@@ -58421,7 +52529,7 @@ entry(
 )
 
 entry(
-    index = 2669,
+    index = 2297,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbSs",
     group = 
 """
@@ -58443,7 +52551,7 @@ entry(
 )
 
 entry(
-    index = 2670,
+    index = 2298,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbSs",
     group = 
 """
@@ -58464,7 +52572,7 @@ entry(
 )
 
 entry(
-    index = 2671,
+    index = 2299,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbSs",
     group = 
 """
@@ -58487,7 +52595,7 @@ entry(
 )
 
 entry(
-    index = 2672,
+    index = 2300,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbSs",
     group = 
 """
@@ -58510,7 +52618,7 @@ entry(
 )
 
 entry(
-    index = 2673,
+    index = 2301,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbSs",
     group = 
 """
@@ -58533,7 +52641,7 @@ entry(
 )
 
 entry(
-    index = 2674,
+    index = 2302,
     label = "Cs-CtCtCdsSs",
     group = 
 """
@@ -58552,7 +52660,7 @@ entry(
 )
 
 entry(
-    index = 2675,
+    index = 2303,
     label = "Cs-(Cds-Cd)CtCtSs",
     group = 
 """
@@ -58572,7 +52680,7 @@ entry(
 )
 
 entry(
-    index = 2676,
+    index = 2304,
     label = "Cs-(Cds-Cds)CtCtSs",
     group = 
 """
@@ -58592,7 +52700,7 @@ entry(
 )
 
 entry(
-    index = 2677,
+    index = 2305,
     label = "Cs-(Cds-Cdd)CtCtSs",
     group = 
 """
@@ -58612,7 +52720,7 @@ entry(
 )
 
 entry(
-    index = 2678,
+    index = 2306,
     label = "Cs-(Cds-Cdd-S2d)CtCtSs",
     group = 
 """
@@ -58633,7 +52741,7 @@ entry(
 )
 
 entry(
-    index = 2679,
+    index = 2307,
     label = "Cs-(Cds-Cdd-Cd)CtCtSs",
     group = 
 """
@@ -58654,7 +52762,7 @@ entry(
 )
 
 entry(
-    index = 2680,
+    index = 2308,
     label = "Cs-CbCtCdsSs",
     group = 
 """
@@ -58673,7 +52781,7 @@ entry(
 )
 
 entry(
-    index = 2681,
+    index = 2309,
     label = "Cs-(Cds-Cd)CbCtSs",
     group = 
 """
@@ -58693,7 +52801,7 @@ entry(
 )
 
 entry(
-    index = 2682,
+    index = 2310,
     label = "Cs-(Cds-Cds)CbCtSs",
     group = 
 """
@@ -58713,7 +52821,7 @@ entry(
 )
 
 entry(
-    index = 2683,
+    index = 2311,
     label = "Cs-(Cds-Cdd)CbCtSs",
     group = 
 """
@@ -58733,7 +52841,7 @@ entry(
 )
 
 entry(
-    index = 2684,
+    index = 2312,
     label = "Cs-(Cds-Cdd-S2d)CbCtSs",
     group = 
 """
@@ -58754,7 +52862,7 @@ entry(
 )
 
 entry(
-    index = 2685,
+    index = 2313,
     label = "Cs-(Cds-Cdd-Cd)CbCtSs",
     group = 
 """
@@ -58775,7 +52883,7 @@ entry(
 )
 
 entry(
-    index = 2686,
+    index = 2314,
     label = "Cs-CbCbCdsSs",
     group = 
 """
@@ -58794,7 +52902,7 @@ entry(
 )
 
 entry(
-    index = 2687,
+    index = 2315,
     label = "Cs-(Cds-Cd)CbCbSs",
     group = 
 """
@@ -58814,7 +52922,7 @@ entry(
 )
 
 entry(
-    index = 2688,
+    index = 2316,
     label = "Cs-(Cds-Cds)CbCbSs",
     group = 
 """
@@ -58834,7 +52942,7 @@ entry(
 )
 
 entry(
-    index = 2689,
+    index = 2317,
     label = "Cs-(Cds-Cdd)CbCbSs",
     group = 
 """
@@ -58854,7 +52962,7 @@ entry(
 )
 
 entry(
-    index = 2690,
+    index = 2318,
     label = "Cs-(Cds-Cdd-S2d)CbCbSs",
     group = 
 """
@@ -58875,7 +52983,7 @@ entry(
 )
 
 entry(
-    index = 2691,
+    index = 2319,
     label = "Cs-(Cds-Cdd-Cd)CbCbSs",
     group = 
 """
@@ -58896,7 +53004,7 @@ entry(
 )
 
 entry(
-    index = 2692,
+    index = 2320,
     label = "Cs-CtCtCtSs",
     group = 
 """
@@ -58915,7 +53023,7 @@ entry(
 )
 
 entry(
-    index = 2693,
+    index = 2321,
     label = "Cs-CbCtCtSs",
     group = 
 """
@@ -58934,7 +53042,7 @@ entry(
 )
 
 entry(
-    index = 2694,
+    index = 2322,
     label = "Cs-CbCbCtSs",
     group = 
 """
@@ -58953,7 +53061,7 @@ entry(
 )
 
 entry(
-    index = 2695,
+    index = 2323,
     label = "Cs-CbCbCbSs",
     group = 
 """
@@ -58972,7 +53080,7 @@ entry(
 )
 
 entry(
-    index = 2696,
+    index = 2324,
     label = "Cs-C=SCbCsSs",
     group = 
 """
@@ -58992,7 +53100,7 @@ entry(
 )
 
 entry(
-    index = 2697,
+    index = 2325,
     label = "Cs-C=SCsCsSs",
     group = 
 """
@@ -59012,7 +53120,7 @@ entry(
 )
 
 entry(
-    index = 2698,
+    index = 2326,
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)S2s",
     group = 
 """
@@ -59034,7 +53142,7 @@ entry(
 )
 
 entry(
-    index = 2699,
+    index = 2327,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
@@ -59056,7 +53164,7 @@ entry(
 )
 
 entry(
-    index = 2700,
+    index = 2328,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -59080,7 +53188,7 @@ entry(
 )
 
 entry(
-    index = 2701,
+    index = 2329,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -59104,7 +53212,7 @@ entry(
 )
 
 entry(
-    index = 2702,
+    index = 2330,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -59128,7 +53236,7 @@ entry(
 )
 
 entry(
-    index = 2703,
+    index = 2331,
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)S2s",
     group = 
 """
@@ -59150,7 +53258,7 @@ entry(
 )
 
 entry(
-    index = 2704,
+    index = 2332,
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)S2s",
     group = 
 """
@@ -59173,7 +53281,7 @@ entry(
 )
 
 entry(
-    index = 2705,
+    index = 2333,
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)S2s",
     group = 
 """
@@ -59196,7 +53304,7 @@ entry(
 )
 
 entry(
-    index = 2706,
+    index = 2334,
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)S2s",
     group = 
 """
@@ -59218,7 +53326,7 @@ entry(
 )
 
 entry(
-    index = 2707,
+    index = 2335,
     label = "Cs-C=S(Cds-Cd)CtSs",
     group = 
 """
@@ -59239,7 +53347,7 @@ entry(
 )
 
 entry(
-    index = 2708,
+    index = 2336,
     label = "Cs-C=S(Cds-Cds)CtSs",
     group = 
 """
@@ -59260,7 +53368,7 @@ entry(
 )
 
 entry(
-    index = 2709,
+    index = 2337,
     label = "Cs-C=S(Cds-Cdd)CtSs",
     group = 
 """
@@ -59281,7 +53389,7 @@ entry(
 )
 
 entry(
-    index = 2710,
+    index = 2338,
     label = "Cs-C=S(Cds-Cdd-S2d)CtSs",
     group = 
 """
@@ -59303,7 +53411,7 @@ entry(
 )
 
 entry(
-    index = 2711,
+    index = 2339,
     label = "Cs-C=S(Cds-Cdd-Cd)CtSs",
     group = 
 """
@@ -59325,7 +53433,7 @@ entry(
 )
 
 entry(
-    index = 2712,
+    index = 2340,
     label = "Cs-C=SCtCsSs",
     group = 
 """
@@ -59345,7 +53453,7 @@ entry(
 )
 
 entry(
-    index = 2713,
+    index = 2341,
     label = "Cs-C=SC=SC=SSs",
     group = 
 """
@@ -59367,7 +53475,7 @@ entry(
 )
 
 entry(
-    index = 2714,
+    index = 2342,
     label = "Cs-C=SC=S(Cds-Cd)S2s",
     group = 
 """
@@ -59389,7 +53497,7 @@ entry(
 )
 
 entry(
-    index = 2715,
+    index = 2343,
     label = "Cs-C=SC=S(Cds-Cds)S2s",
     group = 
 """
@@ -59411,7 +53519,7 @@ entry(
 )
 
 entry(
-    index = 2716,
+    index = 2344,
     label = "Cs-C=SC=S(Cds-Cdd)S2s",
     group = 
 """
@@ -59433,7 +53541,7 @@ entry(
 )
 
 entry(
-    index = 2717,
+    index = 2345,
     label = "Cs-C=SC=S(Cds-Cdd-S2d)S2s",
     group = 
 """
@@ -59456,7 +53564,7 @@ entry(
 )
 
 entry(
-    index = 2718,
+    index = 2346,
     label = "Cs-C=SC=S(Cds-Cdd-Cd)S2s",
     group = 
 """
@@ -59479,7 +53587,7 @@ entry(
 )
 
 entry(
-    index = 2719,
+    index = 2347,
     label = "Cs-C=SCbCbSs",
     group = 
 """
@@ -59499,7 +53607,7 @@ entry(
 )
 
 entry(
-    index = 2720,
+    index = 2348,
     label = "Cs-C=SC=SCbSs",
     group = 
 """
@@ -59520,7 +53628,7 @@ entry(
 )
 
 entry(
-    index = 2721,
+    index = 2349,
     label = "Cs-C=SC=SCsSs",
     group = 
 """
@@ -59541,7 +53649,7 @@ entry(
 )
 
 entry(
-    index = 2722,
+    index = 2350,
     label = "Cs-C=SCtCtSs",
     group = 
 """
@@ -59561,7 +53669,7 @@ entry(
 )
 
 entry(
-    index = 2723,
+    index = 2351,
     label = "Cs-C=S(Cds-Cd)CbSs",
     group = 
 """
@@ -59582,7 +53690,7 @@ entry(
 )
 
 entry(
-    index = 2724,
+    index = 2352,
     label = "Cs-C=S(Cds-Cdd)CbSs",
     group = 
 """
@@ -59603,7 +53711,7 @@ entry(
 )
 
 entry(
-    index = 2725,
+    index = 2353,
     label = "Cs-C=S(Cds-Cdd-Cd)CbSs",
     group = 
 """
@@ -59625,7 +53733,7 @@ entry(
 )
 
 entry(
-    index = 2726,
+    index = 2354,
     label = "Cs-C=S(Cds-Cdd-S2d)CbSs",
     group = 
 """
@@ -59647,7 +53755,7 @@ entry(
 )
 
 entry(
-    index = 2727,
+    index = 2355,
     label = "Cs-C=S(Cds-Cds)CbSs",
     group = 
 """
@@ -59668,7 +53776,7 @@ entry(
 )
 
 entry(
-    index = 2728,
+    index = 2356,
     label = "Cs-C=SCbCtSs",
     group = 
 """
@@ -59688,7 +53796,7 @@ entry(
 )
 
 entry(
-    index = 2729,
+    index = 2357,
     label = "Cs-C=SC=SCtSs",
     group = 
 """
@@ -59709,7 +53817,7 @@ entry(
 )
 
 entry(
-    index = 2730,
+    index = 2358,
     label = "Cs-C=S(Cds-Cd)CsSs",
     group = 
 """
@@ -59730,7 +53838,7 @@ entry(
 )
 
 entry(
-    index = 2731,
+    index = 2359,
     label = "Cs-C=S(Cds-Cds)CsSs",
     group = 
 """
@@ -59751,7 +53859,7 @@ entry(
 )
 
 entry(
-    index = 2732,
+    index = 2360,
     label = "Cs-C=S(Cds-Cdd)CsSs",
     group = 
 """
@@ -59772,7 +53880,7 @@ entry(
 )
 
 entry(
-    index = 2733,
+    index = 2361,
     label = "Cs-C=S(Cds-Cdd-S2d)CsSs",
     group = 
 """
@@ -59794,7 +53902,7 @@ entry(
 )
 
 entry(
-    index = 2734,
+    index = 2362,
     label = "Cs-C=S(Cds-Cdd-Cd)CsSs",
     group = 
 """
@@ -59816,7 +53924,7 @@ entry(
 )
 
 entry(
-    index = 2735,
+    index = 2363,
     label = "Cs-CCSS",
     group = 
 """
@@ -59835,7 +53943,7 @@ entry(
 )
 
 entry(
-    index = 2736,
+    index = 2364,
     label = "Cs-CsCsSS",
     group = 
 """
@@ -59854,7 +53962,7 @@ entry(
 )
 
 entry(
-    index = 2737,
+    index = 2365,
     label = "Cs-CsCsS2S2",
     group = 
 """
@@ -59878,7 +53986,7 @@ entry(
 )
 
 entry(
-    index = 2738,
+    index = 2366,
     label = "Cs-CsCsS6S2",
     group = 
 """
@@ -59902,7 +54010,7 @@ entry(
 )
 
 entry(
-    index = 2739,
+    index = 2367,
     label = "Cs-CdsCsSsSs",
     group = 
 """
@@ -59921,7 +54029,7 @@ entry(
 )
 
 entry(
-    index = 2740,
+    index = 2368,
     label = "Cs-(Cds-Cd)CsSsSs",
     group = 
 """
@@ -59941,7 +54049,7 @@ entry(
 )
 
 entry(
-    index = 2741,
+    index = 2369,
     label = "Cs-(Cds-Cds)CsSsSs",
     group = 
 """
@@ -59961,7 +54069,7 @@ entry(
 )
 
 entry(
-    index = 2742,
+    index = 2370,
     label = "Cs-(Cds-Cdd)CsSsSs",
     group = 
 """
@@ -59981,7 +54089,7 @@ entry(
 )
 
 entry(
-    index = 2743,
+    index = 2371,
     label = "Cs-(Cds-Cdd-S2d)CsSsSs",
     group = 
 """
@@ -60002,7 +54110,7 @@ entry(
 )
 
 entry(
-    index = 2744,
+    index = 2372,
     label = "Cs-(Cds-Cdd-Cd)CsSsSs",
     group = 
 """
@@ -60023,7 +54131,7 @@ entry(
 )
 
 entry(
-    index = 2745,
+    index = 2373,
     label = "Cs-CdsCdsSsSs",
     group = 
 """
@@ -60042,7 +54150,7 @@ entry(
 )
 
 entry(
-    index = 2746,
+    index = 2374,
     label = "Cs-(Cds-Cd)(Cds-Cd)SsSs",
     group = 
 """
@@ -60063,7 +54171,7 @@ entry(
 )
 
 entry(
-    index = 2747,
+    index = 2375,
     label = "Cs-(Cds-Cds)(Cds-Cds)SsSs",
     group = 
 """
@@ -60084,7 +54192,7 @@ entry(
 )
 
 entry(
-    index = 2748,
+    index = 2376,
     label = "Cs-(Cds-Cdd)(Cds-Cds)SsSs",
     group = 
 """
@@ -60105,7 +54213,7 @@ entry(
 )
 
 entry(
-    index = 2749,
+    index = 2377,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)SsSs",
     group = 
 """
@@ -60127,7 +54235,7 @@ entry(
 )
 
 entry(
-    index = 2750,
+    index = 2378,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)SsSs",
     group = 
 """
@@ -60149,7 +54257,7 @@ entry(
 )
 
 entry(
-    index = 2751,
+    index = 2379,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)SsSs",
     group = 
 """
@@ -60170,7 +54278,7 @@ entry(
 )
 
 entry(
-    index = 2752,
+    index = 2380,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)SsSs",
     group = 
 """
@@ -60193,7 +54301,7 @@ entry(
 )
 
 entry(
-    index = 2753,
+    index = 2381,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)SsSs",
     group = 
 """
@@ -60216,7 +54324,7 @@ entry(
 )
 
 entry(
-    index = 2754,
+    index = 2382,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsSs",
     group = 
 """
@@ -60239,7 +54347,7 @@ entry(
 )
 
 entry(
-    index = 2755,
+    index = 2383,
     label = "Cs-CtCsSsSs",
     group = 
 """
@@ -60258,7 +54366,7 @@ entry(
 )
 
 entry(
-    index = 2756,
+    index = 2384,
     label = "Cs-CtCdsSsSs",
     group = 
 """
@@ -60277,7 +54385,7 @@ entry(
 )
 
 entry(
-    index = 2757,
+    index = 2385,
     label = "Cs-(Cds-Cd)CtSsSs",
     group = 
 """
@@ -60297,7 +54405,7 @@ entry(
 )
 
 entry(
-    index = 2758,
+    index = 2386,
     label = "Cs-(Cds-Cds)CtSsSs",
     group = 
 """
@@ -60317,7 +54425,7 @@ entry(
 )
 
 entry(
-    index = 2759,
+    index = 2387,
     label = "Cs-(Cds-Cdd)CtSsSs",
     group = 
 """
@@ -60337,7 +54445,7 @@ entry(
 )
 
 entry(
-    index = 2760,
+    index = 2388,
     label = "Cs-(Cds-Cdd-S2d)CtSsSs",
     group = 
 """
@@ -60358,7 +54466,7 @@ entry(
 )
 
 entry(
-    index = 2761,
+    index = 2389,
     label = "Cs-(Cds-Cdd-Cd)CtSsSs",
     group = 
 """
@@ -60379,7 +54487,7 @@ entry(
 )
 
 entry(
-    index = 2762,
+    index = 2390,
     label = "Cs-CtCtSsSs",
     group = 
 """
@@ -60398,7 +54506,7 @@ entry(
 )
 
 entry(
-    index = 2763,
+    index = 2391,
     label = "Cs-CbCsSsSs",
     group = 
 """
@@ -60417,7 +54525,7 @@ entry(
 )
 
 entry(
-    index = 2764,
+    index = 2392,
     label = "Cs-CbCdsSsSs",
     group = 
 """
@@ -60436,7 +54544,7 @@ entry(
 )
 
 entry(
-    index = 2765,
+    index = 2393,
     label = "Cs-(Cds-Cd)CbSsSs",
     group = 
 """
@@ -60456,7 +54564,7 @@ entry(
 )
 
 entry(
-    index = 2766,
+    index = 2394,
     label = "Cs-(Cds-Cds)CbSsSs",
     group = 
 """
@@ -60476,7 +54584,7 @@ entry(
 )
 
 entry(
-    index = 2767,
+    index = 2395,
     label = "Cs-(Cds-Cdd)CbSsSs",
     group = 
 """
@@ -60496,7 +54604,7 @@ entry(
 )
 
 entry(
-    index = 2768,
+    index = 2396,
     label = "Cs-(Cds-Cdd-S2d)CbSsSs",
     group = 
 """
@@ -60517,7 +54625,7 @@ entry(
 )
 
 entry(
-    index = 2769,
+    index = 2397,
     label = "Cs-(Cds-Cdd-Cd)CbSsSs",
     group = 
 """
@@ -60538,7 +54646,7 @@ entry(
 )
 
 entry(
-    index = 2770,
+    index = 2398,
     label = "Cs-CbCtSsSs",
     group = 
 """
@@ -60557,7 +54665,7 @@ entry(
 )
 
 entry(
-    index = 2771,
+    index = 2399,
     label = "Cs-CbCbSsSs",
     group = 
 """
@@ -60576,7 +54684,7 @@ entry(
 )
 
 entry(
-    index = 2772,
+    index = 2400,
     label = "Cs-C=SCsSsSs",
     group = 
 """
@@ -60596,7 +54704,7 @@ entry(
 )
 
 entry(
-    index = 2773,
+    index = 2401,
     label = "Cs-C=S(Cds-Cd)SsSs",
     group = 
 """
@@ -60617,7 +54725,7 @@ entry(
 )
 
 entry(
-    index = 2774,
+    index = 2402,
     label = "Cs-C=S(Cds-Cdd)SsSs",
     group = 
 """
@@ -60638,7 +54746,7 @@ entry(
 )
 
 entry(
-    index = 2775,
+    index = 2403,
     label = "Cs-C=S(Cds-Cdd-Cd)SsSs",
     group = 
 """
@@ -60660,7 +54768,7 @@ entry(
 )
 
 entry(
-    index = 2776,
+    index = 2404,
     label = "Cs-C=S(Cds-Cdd-S2d)SsSs",
     group = 
 """
@@ -60682,7 +54790,7 @@ entry(
 )
 
 entry(
-    index = 2777,
+    index = 2405,
     label = "Cs-C=S(Cds-Cds)SsSs",
     group = 
 """
@@ -60703,7 +54811,7 @@ entry(
 )
 
 entry(
-    index = 2778,
+    index = 2406,
     label = "Cs-C=SC=SSsSs",
     group = 
 """
@@ -60724,7 +54832,7 @@ entry(
 )
 
 entry(
-    index = 2779,
+    index = 2407,
     label = "Cs-C=SCbSsSs",
     group = 
 """
@@ -60744,7 +54852,7 @@ entry(
 )
 
 entry(
-    index = 2780,
+    index = 2408,
     label = "Cs-C=SCtSsSs",
     group = 
 """
@@ -60764,7 +54872,7 @@ entry(
 )
 
 entry(
-    index = 2781,
+    index = 2409,
     label = "Cs-CSsSsSs",
     group = 
 """
@@ -60783,7 +54891,7 @@ entry(
 )
 
 entry(
-    index = 2782,
+    index = 2410,
     label = "Cs-CsSsSsSs",
     group = 
 """
@@ -60807,7 +54915,7 @@ entry(
 )
 
 entry(
-    index = 2783,
+    index = 2411,
     label = "Cs-CdsSsSsSs",
     group = 
 """
@@ -60826,7 +54934,7 @@ entry(
 )
 
 entry(
-    index = 2784,
+    index = 2412,
     label = "Cs-(Cds-Cd)SsSsSs",
     group = 
 """
@@ -60846,7 +54954,7 @@ entry(
 )
 
 entry(
-    index = 2785,
+    index = 2413,
     label = "Cs-(Cds-Cds)SsSsSs",
     group = 
 """
@@ -60866,7 +54974,7 @@ entry(
 )
 
 entry(
-    index = 2786,
+    index = 2414,
     label = "Cs-(Cds-Cdd)SsSsSs",
     group = 
 """
@@ -60886,7 +54994,7 @@ entry(
 )
 
 entry(
-    index = 2787,
+    index = 2415,
     label = "Cs-(Cds-Cdd-S2d)SsSsSs",
     group = 
 """
@@ -60907,7 +55015,7 @@ entry(
 )
 
 entry(
-    index = 2788,
+    index = 2416,
     label = "Cs-(Cds-Cdd-Cd)SsSsSs",
     group = 
 """
@@ -60928,7 +55036,7 @@ entry(
 )
 
 entry(
-    index = 2789,
+    index = 2417,
     label = "Cs-CtSsSsSs",
     group = 
 """
@@ -60947,7 +55055,7 @@ entry(
 )
 
 entry(
-    index = 2790,
+    index = 2418,
     label = "Cs-CbSsSsSs",
     group = 
 """
@@ -60966,7 +55074,7 @@ entry(
 )
 
 entry(
-    index = 2791,
+    index = 2419,
     label = "Cs-C=SSsSsSs",
     group = 
 """
@@ -60986,7 +55094,7 @@ entry(
 )
 
 entry(
-    index = 2792,
+    index = 2420,
     label = "Cs-SsSsSsSs",
     group = 
 """
@@ -61010,7 +55118,7 @@ entry(
 )
 
 entry(
-    index = 2793,
+    index = 2421,
     label = "Cs-CSSH",
     group = 
 """
@@ -61029,7 +55137,7 @@ entry(
 )
 
 entry(
-    index = 2794,
+    index = 2422,
     label = "Cs-CsSSH",
     group = 
 """
@@ -61048,7 +55156,7 @@ entry(
 )
 
 entry(
-    index = 2795,
+    index = 2423,
     label = "Cs-CsS2S2H",
     group = 
 """
@@ -61072,7 +55180,7 @@ entry(
 )
 
 entry(
-    index = 2796,
+    index = 2424,
     label = "Cs-CsS4S2H",
     group = 
 """
@@ -61096,7 +55204,7 @@ entry(
 )
 
 entry(
-    index = 2797,
+    index = 2425,
     label = "Cs-CsS6S2H",
     group = 
 """
@@ -61120,7 +55228,7 @@ entry(
 )
 
 entry(
-    index = 2798,
+    index = 2426,
     label = "Cs-CdsSsSsH",
     group = 
 """
@@ -61139,7 +55247,7 @@ entry(
 )
 
 entry(
-    index = 2799,
+    index = 2427,
     label = "Cs-(Cds-Cd)SsSsH",
     group = 
 """
@@ -61159,7 +55267,7 @@ entry(
 )
 
 entry(
-    index = 2800,
+    index = 2428,
     label = "Cs-(Cds-Cds)SsSsH",
     group = 
 """
@@ -61179,7 +55287,7 @@ entry(
 )
 
 entry(
-    index = 2801,
+    index = 2429,
     label = "Cs-(Cds-Cdd)SsSsH",
     group = 
 """
@@ -61199,7 +55307,7 @@ entry(
 )
 
 entry(
-    index = 2802,
+    index = 2430,
     label = "Cs-(Cds-Cdd-S2d)SsSsH",
     group = 
 """
@@ -61220,7 +55328,7 @@ entry(
 )
 
 entry(
-    index = 2803,
+    index = 2431,
     label = "Cs-(Cds-Cdd-Cd)SsSsH",
     group = 
 """
@@ -61241,7 +55349,7 @@ entry(
 )
 
 entry(
-    index = 2804,
+    index = 2432,
     label = "Cs-CtSsSsH",
     group = 
 """
@@ -61260,7 +55368,7 @@ entry(
 )
 
 entry(
-    index = 2805,
+    index = 2433,
     label = "Cs-CbSsSsH",
     group = 
 """
@@ -61279,7 +55387,7 @@ entry(
 )
 
 entry(
-    index = 2806,
+    index = 2434,
     label = "Cs-C=SSsSsH",
     group = 
 """
@@ -61299,7 +55407,7 @@ entry(
 )
 
 entry(
-    index = 2807,
+    index = 2435,
     label = "Cs-CCSH",
     group = 
 """
@@ -61318,7 +55426,7 @@ entry(
 )
 
 entry(
-    index = 2808,
+    index = 2436,
     label = "Cs-CsCsSH",
     group = 
 """
@@ -61337,7 +55445,7 @@ entry(
 )
 
 entry(
-    index = 2809,
+    index = 2437,
     label = "Cs-CsCsS2H",
     group = 
 """
@@ -61361,7 +55469,7 @@ entry(
 )
 
 entry(
-    index = 2810,
+    index = 2438,
     label = "Cs-CsCsS4H",
     group = 
 """
@@ -61385,7 +55493,7 @@ entry(
 )
 
 entry(
-    index = 2811,
+    index = 2439,
     label = "Cs-CsCsS6H",
     group = 
 """
@@ -61409,7 +55517,7 @@ entry(
 )
 
 entry(
-    index = 2812,
+    index = 2440,
     label = "Cs-CdsCsSH",
     group = 
 """
@@ -61428,7 +55536,7 @@ entry(
 )
 
 entry(
-    index = 2813,
+    index = 2441,
     label = "Cs-CdsCsS4H",
     group = 
 """
@@ -61452,7 +55560,7 @@ entry(
 )
 
 entry(
-    index = 2814,
+    index = 2442,
     label = "Cs-(Cds-Cd)CsSsH",
     group = 
 """
@@ -61472,7 +55580,7 @@ entry(
 )
 
 entry(
-    index = 2815,
+    index = 2443,
     label = "Cs-(Cds-Cds)CsSsH",
     group = 
 """
@@ -61497,7 +55605,7 @@ entry(
 )
 
 entry(
-    index = 2816,
+    index = 2444,
     label = "Cs-(Cds-Cdd)CsSsH",
     group = 
 """
@@ -61517,7 +55625,7 @@ entry(
 )
 
 entry(
-    index = 2817,
+    index = 2445,
     label = "Cs-(Cds-Cdd-S2d)CsSsH",
     group = 
 """
@@ -61538,7 +55646,7 @@ entry(
 )
 
 entry(
-    index = 2818,
+    index = 2446,
     label = "Cs-(Cds-Cdd-Cd)CsSsH",
     group = 
 """
@@ -61559,7 +55667,7 @@ entry(
 )
 
 entry(
-    index = 2819,
+    index = 2447,
     label = "Cs-CdsCdsSsH",
     group = 
 """
@@ -61578,7 +55686,7 @@ entry(
 )
 
 entry(
-    index = 2820,
+    index = 2448,
     label = "Cs-(Cds-Cd)(Cds-Cd)SsH",
     group = 
 """
@@ -61599,7 +55707,7 @@ entry(
 )
 
 entry(
-    index = 2821,
+    index = 2449,
     label = "Cs-(Cds-Cds)(Cds-Cds)SsH",
     group = 
 """
@@ -61620,7 +55728,7 @@ entry(
 )
 
 entry(
-    index = 2822,
+    index = 2450,
     label = "Cs-(Cds-Cdd)(Cds-Cds)SsH",
     group = 
 """
@@ -61641,7 +55749,7 @@ entry(
 )
 
 entry(
-    index = 2823,
+    index = 2451,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)SsH",
     group = 
 """
@@ -61663,7 +55771,7 @@ entry(
 )
 
 entry(
-    index = 2824,
+    index = 2452,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)SsH",
     group = 
 """
@@ -61685,7 +55793,7 @@ entry(
 )
 
 entry(
-    index = 2825,
+    index = 2453,
     label = "Cs-(Cds-Cdd)(Cds-Cdd)SsH",
     group = 
 """
@@ -61706,7 +55814,7 @@ entry(
 )
 
 entry(
-    index = 2826,
+    index = 2454,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)SsH",
     group = 
 """
@@ -61729,7 +55837,7 @@ entry(
 )
 
 entry(
-    index = 2827,
+    index = 2455,
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)SsH",
     group = 
 """
@@ -61752,7 +55860,7 @@ entry(
 )
 
 entry(
-    index = 2828,
+    index = 2456,
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsH",
     group = 
 """
@@ -61775,7 +55883,7 @@ entry(
 )
 
 entry(
-    index = 2829,
+    index = 2457,
     label = "Cs-CtCsSsH",
     group = 
 """
@@ -61799,7 +55907,7 @@ entry(
 )
 
 entry(
-    index = 2830,
+    index = 2458,
     label = "Cs-CtCdsSsH",
     group = 
 """
@@ -61818,7 +55926,7 @@ entry(
 )
 
 entry(
-    index = 2831,
+    index = 2459,
     label = "Cs-(Cds-Cd)CtSsH",
     group = 
 """
@@ -61838,7 +55946,7 @@ entry(
 )
 
 entry(
-    index = 2832,
+    index = 2460,
     label = "Cs-(Cds-Cds)CtSsH",
     group = 
 """
@@ -61858,7 +55966,7 @@ entry(
 )
 
 entry(
-    index = 2833,
+    index = 2461,
     label = "Cs-(Cds-Cdd)CtSsH",
     group = 
 """
@@ -61878,7 +55986,7 @@ entry(
 )
 
 entry(
-    index = 2834,
+    index = 2462,
     label = "Cs-(Cds-Cdd-S2d)CtSsH",
     group = 
 """
@@ -61899,7 +56007,7 @@ entry(
 )
 
 entry(
-    index = 2835,
+    index = 2463,
     label = "Cs-(Cds-Cdd-Cd)CtSsH",
     group = 
 """
@@ -61920,7 +56028,7 @@ entry(
 )
 
 entry(
-    index = 2836,
+    index = 2464,
     label = "Cs-CtCtSsH",
     group = 
 """
@@ -61939,7 +56047,7 @@ entry(
 )
 
 entry(
-    index = 2837,
+    index = 2465,
     label = "Cs-CbCsSsH",
     group = 
 """
@@ -61963,7 +56071,7 @@ entry(
 )
 
 entry(
-    index = 2838,
+    index = 2466,
     label = "Cs-CbCdsSsH",
     group = 
 """
@@ -61982,7 +56090,7 @@ entry(
 )
 
 entry(
-    index = 2839,
+    index = 2467,
     label = "Cs-(Cds-Cd)CbSsH",
     group = 
 """
@@ -62002,7 +56110,7 @@ entry(
 )
 
 entry(
-    index = 2840,
+    index = 2468,
     label = "Cs-(Cds-Cds)CbSsH",
     group = 
 """
@@ -62022,7 +56130,7 @@ entry(
 )
 
 entry(
-    index = 2841,
+    index = 2469,
     label = "Cs-(Cds-Cdd)CbSsH",
     group = 
 """
@@ -62042,7 +56150,7 @@ entry(
 )
 
 entry(
-    index = 2842,
+    index = 2470,
     label = "Cs-(Cds-Cdd-S2d)CbSsH",
     group = 
 """
@@ -62063,7 +56171,7 @@ entry(
 )
 
 entry(
-    index = 2843,
+    index = 2471,
     label = "Cs-(Cds-Cdd-Cd)CbSsH",
     group = 
 """
@@ -62084,7 +56192,7 @@ entry(
 )
 
 entry(
-    index = 2844,
+    index = 2472,
     label = "Cs-CbCtSsH",
     group = 
 """
@@ -62103,7 +56211,7 @@ entry(
 )
 
 entry(
-    index = 2845,
+    index = 2473,
     label = "Cs-CbCbSsH",
     group = 
 """
@@ -62122,7 +56230,7 @@ entry(
 )
 
 entry(
-    index = 2846,
+    index = 2474,
     label = "Cs-C=SCbSsH",
     group = 
 """
@@ -62142,7 +56250,7 @@ entry(
 )
 
 entry(
-    index = 2847,
+    index = 2475,
     label = "Cs-C=SC=SSsH",
     group = 
 """
@@ -62163,7 +56271,7 @@ entry(
 )
 
 entry(
-    index = 2848,
+    index = 2476,
     label = "Cs-C=SCsSsH",
     group = 
 """
@@ -62188,7 +56296,7 @@ entry(
 )
 
 entry(
-    index = 2849,
+    index = 2477,
     label = "Cs-C=SCtSsH",
     group = 
 """
@@ -62208,7 +56316,7 @@ entry(
 )
 
 entry(
-    index = 2850,
+    index = 2478,
     label = "Cs-C=S(Cds-Cd)SsH",
     group = 
 """
@@ -62229,7 +56337,7 @@ entry(
 )
 
 entry(
-    index = 2851,
+    index = 2479,
     label = "Cs-C=S(Cds-Cdd)SsH",
     group = 
 """
@@ -62250,7 +56358,7 @@ entry(
 )
 
 entry(
-    index = 2852,
+    index = 2480,
     label = "Cs-C=S(Cds-Cdd-Cd)SsH",
     group = 
 """
@@ -62272,7 +56380,7 @@ entry(
 )
 
 entry(
-    index = 2853,
+    index = 2481,
     label = "Cs-C=S(Cds-Cdd-S2d)SsH",
     group = 
 """
@@ -62294,7 +56402,7 @@ entry(
 )
 
 entry(
-    index = 2854,
+    index = 2482,
     label = "Cs-C=S(Cds-Cds)SsH",
     group = 
 """
@@ -62315,7 +56423,7 @@ entry(
 )
 
 entry(
-    index = 2855,
+    index = 2483,
     label = "Cs-CSHH",
     group = 
 """
@@ -62334,7 +56442,7 @@ entry(
 )
 
 entry(
-    index = 2856,
+    index = 2484,
     label = "Cs-CsSHH",
     group = 
 """
@@ -62353,7 +56461,7 @@ entry(
 )
 
 entry(
-    index = 2857,
+    index = 2485,
     label = "Cs-CsS2HH",
     group = 
 """
@@ -62377,7 +56485,7 @@ entry(
 )
 
 entry(
-    index = 2858,
+    index = 2486,
     label = "Cs-CsS4HH",
     group = 
 """
@@ -62401,7 +56509,7 @@ entry(
 )
 
 entry(
-    index = 2859,
+    index = 2487,
     label = "Cs-CsS6HH",
     group = 
 """
@@ -62425,7 +56533,7 @@ entry(
 )
 
 entry(
-    index = 2860,
+    index = 2488,
     label = "Cs-CdsSsHH",
     group = 
 """
@@ -62449,7 +56557,7 @@ entry(
 )
 
 entry(
-    index = 2861,
+    index = 2489,
     label = "Cs-(Cds-Cd)SsHH",
     group = 
 """
@@ -62469,7 +56577,7 @@ entry(
 )
 
 entry(
-    index = 2862,
+    index = 2490,
     label = "Cs-(Cds-Cds)SsHH",
     group = 
 """
@@ -62489,7 +56597,7 @@ entry(
 )
 
 entry(
-    index = 2863,
+    index = 2491,
     label = "Cs-(Cds-Cdd)SsHH",
     group = 
 """
@@ -62509,7 +56617,7 @@ entry(
 )
 
 entry(
-    index = 2864,
+    index = 2492,
     label = "Cs-(Cds-Cdd-S2d)SsHH",
     group = 
 """
@@ -62530,7 +56638,7 @@ entry(
 )
 
 entry(
-    index = 2865,
+    index = 2493,
     label = "Cs-(Cds-Cdd-Cd)SsHH",
     group = 
 """
@@ -62551,7 +56659,7 @@ entry(
 )
 
 entry(
-    index = 2866,
+    index = 2494,
     label = "Cs-CtSsHH",
     group = 
 """
@@ -62575,7 +56683,7 @@ entry(
 )
 
 entry(
-    index = 2867,
+    index = 2495,
     label = "Cs-CbSsHH",
     group = 
 """
@@ -62599,7 +56707,7 @@ entry(
 )
 
 entry(
-    index = 2868,
+    index = 2496,
     label = "Cs-C=SSsHH",
     group = 
 """
@@ -62624,7 +56732,7 @@ entry(
 )
 
 entry(
-    index = 2869,
+    index = 2497,
     label = "Cs-CIHH",
     group = 
 """
@@ -62649,7 +56757,7 @@ Cpdata at 1500K = Cpdata at 1000K + 1.4
 )
 
 entry(
-    index = 2870,
+    index = 2498,
     label = "Cs-CIIH",
     group = 
 """
@@ -62674,7 +56782,7 @@ Cpdata from 600 to 1500K estimated (base on entry 2088)
 )
 
 entry(
-    index = 2871,
+    index = 2499,
     label = "Cs-CCIH",
     group = 
 """
@@ -62699,7 +56807,7 @@ Cpdata at 1500K = Cpdata at 1000K + 0.6
 )
 
 entry(
-    index = 2872,
+    index = 2500,
     label = "Cs-CCCI",
     group = 
 """
@@ -62724,7 +56832,7 @@ Cpdata from 400 to 1500K estimated (base on entry 2092)
 )
 
 entry(
-    index = 2873,
+    index = 2501,
     label = "Cs-HHNN",
     group = 
 """
@@ -62751,7 +56859,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 2874,
+    index = 2502,
     label = "Cs-HNNN",
     group = 
 """
@@ -62778,7 +56886,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 2875,
+    index = 2503,
     label = "Cs-NNNN",
     group = 
 """
@@ -62804,7 +56912,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 2876,
+    index = 2504,
     label = "Cs-N3sdN3sdN3sdN3sd",
     group = 
 """
@@ -62830,7 +56938,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2877,
+    index = 2505,
     label = "Cs-HHNO",
     group = 
 """
@@ -62856,7 +56964,7 @@ CHON_G4 |         64
 )
 
 entry(
-    index = 2878,
+    index = 2506,
     label = "Cs-HHO(NO)",
     group = 
 """
@@ -62883,7 +56991,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 2879,
+    index = 2507,
     label = "Cs-HNNO",
     group = 
 """
@@ -62909,7 +57017,7 @@ CHON_G4 |         9
 )
 
 entry(
-    index = 2880,
+    index = 2508,
     label = "Cs-NNNO",
     group = 
 """
@@ -62935,7 +57043,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2881,
+    index = 2509,
     label = "Cs-HNOO",
     group = 
 """
@@ -62961,7 +57069,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 2882,
+    index = 2510,
     label = "Cs-HOO(NO)",
     group = 
 """
@@ -62988,7 +57096,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2883,
+    index = 2511,
     label = "Cs-NNOO",
     group = 
 """
@@ -63014,7 +57122,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2884,
+    index = 2512,
     label = "Cs-CHHN",
     group = 
 """
@@ -63041,7 +57149,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 2885,
+    index = 2513,
     label = "Cs-N5dcCsHH",
     group = 
 """
@@ -63065,7 +57173,7 @@ entry(
 )
 
 entry(
-    index = 2886,
+    index = 2514,
     label = "Cs-(N5dcOdO0sc)CsHH",
     group = 
 """
@@ -63095,7 +57203,7 @@ CHON                    |         14
 )
 
 entry(
-    index = 2887,
+    index = 2515,
     label = "Cs-N3dCsHH",
     group = 
 """
@@ -63123,7 +57231,7 @@ CHON     |         2
 )
 
 entry(
-    index = 2888,
+    index = 2516,
     label = "Cs-(N3dCd)CsHH",
     group = 
 """
@@ -63150,7 +57258,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 2889,
+    index = 2517,
     label = "Cs-(N3dN3d)CsHH",
     group = 
 """
@@ -63177,7 +57285,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 2890,
+    index = 2518,
     label = "Cs-N3dCOHH",
     group = 
 """
@@ -63204,7 +57312,7 @@ CHON_G4 |         2
 )
 
 entry(
-    index = 2891,
+    index = 2519,
     label = "Cs-N3dCdHH",
     group = 
 """
@@ -63230,7 +57338,7 @@ CHON_G4 |         4
 )
 
 entry(
-    index = 2892,
+    index = 2520,
     label = "Cs-N3dCtHH",
     group = 
 """
@@ -63256,7 +57364,7 @@ CHON_G4 |         5
 )
 
 entry(
-    index = 2893,
+    index = 2521,
     label = "Cs-NCsHH",
     group = 
 """
@@ -63282,7 +57390,7 @@ CHON_G4 |         4
 )
 
 entry(
-    index = 2894,
+    index = 2522,
     label = "Cs-N3sCsHH",
     group = 
 """
@@ -63311,7 +57419,7 @@ CHON     |         9
 )
 
 entry(
-    index = 2895,
+    index = 2523,
     label = "Cs-CHNN",
     group = 
 """
@@ -63337,7 +57445,7 @@ CHON_G4 |         4
 )
 
 entry(
-    index = 2896,
+    index = 2524,
     label = "Cs-NNCsH",
     group = 
 """
@@ -63364,7 +57472,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 2897,
+    index = 2525,
     label = "Cs-CNNN",
     group = 
 """
@@ -63391,7 +57499,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 2898,
+    index = 2526,
     label = "Cs-CN3dsN3dsN3ds",
     group = 
 """
@@ -63417,7 +57525,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2899,
+    index = 2527,
     label = "Cs-CHNO",
     group = 
 """
@@ -63443,7 +57551,7 @@ CHON_G4 |         16
 )
 
 entry(
-    index = 2900,
+    index = 2528,
     label = "Cs-CNNO",
     group = 
 """
@@ -63469,7 +57577,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2901,
+    index = 2529,
     label = "Cs-CNOO",
     group = 
 """
@@ -63495,7 +57603,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2902,
+    index = 2530,
     label = "Cs-CCHN",
     group = 
 """
@@ -63514,7 +57622,7 @@ entry(
 )
 
 entry(
-    index = 2903,
+    index = 2531,
     label = "Cs-N3dCsCsH",
     group = 
 """
@@ -63540,7 +57648,7 @@ CHON_G4 |         2
 )
 
 entry(
-    index = 2904,
+    index = 2532,
     label = "Cs-(N3dN3d)CsCsH",
     group = 
 """
@@ -63567,7 +57675,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2905,
+    index = 2533,
     label = "Cs-NCsCsH",
     group = 
 """
@@ -63593,7 +57701,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2906,
+    index = 2534,
     label = "Cs-N5dcCsCsH",
     group = 
 """
@@ -63619,7 +57727,7 @@ CHON |         11
 )
 
 entry(
-    index = 2907,
+    index = 2535,
     label = "Cs-N3sCsCsH",
     group = 
 """
@@ -63647,7 +57755,7 @@ CHON    |         1
 )
 
 entry(
-    index = 2908,
+    index = 2536,
     label = "Cs-NCsCdtH",
     group = 
 """
@@ -63673,7 +57781,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 2909,
+    index = 2537,
     label = "Cs-CsN3sH(Cds-O2d)",
     group = 
 """
@@ -63702,7 +57810,7 @@ CHON     |         2
 )
 
 entry(
-    index = 2910,
+    index = 2538,
     label = "Cs-CsN3sH(Cds-N3d)",
     group = 
 """
@@ -63729,7 +57837,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2911,
+    index = 2539,
     label = "Cs-CCNN",
     group = 
 """
@@ -63748,7 +57856,7 @@ entry(
 )
 
 entry(
-    index = 2912,
+    index = 2540,
     label = "Cs-NNCsCs",
     group = 
 """
@@ -63774,7 +57882,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2913,
+    index = 2541,
     label = "Cs-N5dcN5dcCsCs",
     group = 
 """
@@ -63800,7 +57908,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 2914,
+    index = 2542,
     label = "Cs-CCNO",
     group = 
 """
@@ -63826,7 +57934,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 2915,
+    index = 2543,
     label = "Cs-CCCN",
     group = 
 """
@@ -63852,7 +57960,7 @@ CBS_QB3_1dHR |         1
 )
 
 entry(
-    index = 2916,
+    index = 2544,
     label = "Cs-N5dcCsCsCs",
     group = 
 """
@@ -63878,7 +57986,7 @@ CHON |         5
 )
 
 entry(
-    index = 2917,
+    index = 2545,
     label = "Cs-N3dCsCsCs",
     group = 
 """
@@ -63904,7 +58012,7 @@ CHON |         1
 )
 
 entry(
-    index = 2918,
+    index = 2546,
     label = "Cs-(N3dN3d)CsCsCs",
     group = 
 """
@@ -63929,7 +58037,7 @@ entry(
 )
 
 entry(
-    index = 2919,
+    index = 2547,
     label = "Cs-NCsCsCs",
     group = 
 """
@@ -63948,7 +58056,7 @@ entry(
 )
 
 entry(
-    index = 2920,
+    index = 2548,
     label = "Cs-N3sCsCsCs",
     group = 
 """
@@ -63976,7 +58084,7 @@ CHON    |         3
 )
 
 entry(
-    index = 2921,
+    index = 2549,
     label = "Cs-NCCtCt",
     group = 
 """
@@ -63995,7 +58103,7 @@ entry(
 )
 
 entry(
-    index = 2922,
+    index = 2550,
     label = "Cs-NHHH",
     group = 
 """
@@ -64014,7 +58122,7 @@ entry(
 )
 
 entry(
-    index = 2923,
+    index = 2551,
     label = "Cs-N3dHHH",
     group = 
 """
@@ -64041,7 +58149,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 2924,
+    index = 2552,
     label = "Cs-(N3dCd)HHH",
     group = 
 """
@@ -64068,7 +58176,7 @@ CHON_G4 |         33
 )
 
 entry(
-    index = 2925,
+    index = 2553,
     label = "Cs-(N3dN3d)HHH",
     group = 
 """
@@ -64095,7 +58203,7 @@ CHON_G4 |         17
 )
 
 entry(
-    index = 2926,
+    index = 2554,
     label = "Cs-N3sHHH",
     group = 
 """
@@ -64125,7 +58233,7 @@ CHON                    |         3
 )
 
 entry(
-    index = 2927,
+    index = 2555,
     label = "Cs-N5sdtcHHH",
     group = 
 """
@@ -64152,7 +58260,7 @@ thermo_DFT_CCSDTF12_BAC |         2
 )
 
 entry(
-    index = 2928,
+    index = 2556,
     label = "O",
     group = 
 """
@@ -64167,7 +58275,7 @@ entry(
 )
 
 entry(
-    index = 2929,
+    index = 2557,
     label = "O0sc",
     group = 
 """
@@ -64188,7 +58296,7 @@ neighbor at the center
 )
 
 entry(
-    index = 2930,
+    index = 2558,
     label = "Oa(S)",
     group = 
 """
@@ -64210,7 +58318,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 2931,
+    index = 2559,
     label = "O2d",
     group = 
 """
@@ -64225,7 +58333,7 @@ entry(
 )
 
 entry(
-    index = 2932,
+    index = 2560,
     label = "O2d-Cd",
     group = 
 """
@@ -64246,7 +58354,7 @@ entry(
 )
 
 entry(
-    index = 2933,
+    index = 2561,
     label = "O2d-O2d",
     group = 
 """
@@ -64267,7 +58375,7 @@ entry(
 )
 
 entry(
-    index = 2934,
+    index = 2562,
     label = "O2d-Sd",
     group = 
 """
@@ -64289,7 +58397,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 2935,
+    index = 2563,
     label = "O2d-N3d",
     group = 
 """
@@ -64310,7 +58418,7 @@ entry(
 )
 
 entry(
-    index = 2936,
+    index = 2564,
     label = "O2d-N5dc",
     group = 
 """
@@ -64331,7 +58439,7 @@ entry(
 )
 
 entry(
-    index = 2937,
+    index = 2565,
     label = "O2s",
     group = 
 """
@@ -64346,7 +58454,7 @@ entry(
 )
 
 entry(
-    index = 2938,
+    index = 2566,
     label = "O2sBrBr",
     group = 
 """
@@ -64356,21 +58464,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.0459,12.7195,13.0348,13.2663,13.5717,13.7245,13.7921],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (24.5169,'kcal/mol','+|-',2.95256),
-        S298 = (69.4385,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([12.0459,12.7195,13.0348,13.2663,13.5717,13.7245,13.7921],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (24.5169,'kcal/mol','+|-',2.68696),
+        S298 = (68.061,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOBr_G4 |         1
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2939,
+    index = 2567,
     label = "O2sBrCl",
     group = 
 """
@@ -64380,21 +58488,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.7044,12.5173,12.9194,13.1709,13.5059,13.6779,13.769],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (21.5156,'kcal/mol','+|-',2.95256),
-        S298 = (68.1197,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([11.7044,12.5173,12.9194,13.1709,13.5059,13.6779,13.769],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (21.5156,'kcal/mol','+|-',2.68696),
+        S298 = (68.1197,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library    | Number of Species
-CHOClBr_G4 |         1
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2940,
+    index = 2568,
     label = "O2sClCl",
     group = 
 """
@@ -64404,21 +58512,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3756,12.2778,12.7915,13.0774,13.4492,13.6409,13.7462],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (18.5768,'kcal/mol','+|-',2.95256),
-        S298 = (64.0303,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([11.3756,12.2778,12.7915,13.0774,13.4492,13.6409,13.7462],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (18.5768,'kcal/mol','+|-',2.68696),
+        S298 = (62.6529,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library  | Number of Species
-CHOCl_G4 |         1
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 2941,
+    index = 2569,
     label = "O2sBrF",
     group = 
 """
@@ -64428,21 +58536,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.0349,11.9306,12.4937,12.8325,13.2825,13.5298,13.7028],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (16.8651,'kcal/mol','+|-',2.95256),
-        S298 = (65.6233,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([11.0349,11.9306,12.4937,12.8325,13.2825,13.5298,13.7028],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (16.8651,'kcal/mol','+|-',2.68696),
+        S298 = (65.6233,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFBr_G4 |         1
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2942,
+    index = 2570,
     label = "O2sClF",
     group = 
 """
@@ -64452,21 +58560,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.7218,11.6511,12.3053,12.7133,13.2176,13.4926,13.6787],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (13.066,'kcal/mol','+|-',2.95256),
-        S298 = (62.8723,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([10.7218,11.6511,12.3053,12.7133,13.2176,13.4926,13.6787],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (13.066,'kcal/mol','+|-',2.68696),
+        S298 = (62.8723,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library   | Number of Species
-CHOFCl_G4 |         1
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 2943,
+    index = 2571,
     label = "O2sFF",
     group = 
 """
@@ -64476,21 +58584,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.0653,11.0782,11.7915,12.2528,12.8878,13.2676,13.6015],'cal/(mol*K)','+|-',[0.828227,0.951879,0.973053,0.958777,0.831389,0.717066,0.584393]),
-        H298 = (6.39712,'kcal/mol','+|-',2.95256),
-        S298 = (58.8752,'cal/(mol*K)','+|-',2.01235),
+        Cpdata = ([10.0653,11.0782,11.7915,12.2528,12.8878,13.2676,13.6015],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (6.39712,'kcal/mol','+|-',2.68696),
+        S298 = (57.4977,'cal/(mol*K)','+|-',2.32188),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library | Number of Species
-CHOF_G4 |         1
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 2944,
+    index = 2572,
     label = "O2sBrH",
     group = 
 """
@@ -64498,16 +58606,23 @@ entry(
 2   H   u0 {1,S}
 3   Br  u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.13406,9.76541,10.2406,10.6068,11.2023,11.6552,12.389],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-14.711,'kcal/mol','+|-',2.68696),
+        S298 = (59.1556,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2945,
+    index = 2573,
     label = "O2sClH",
     group = 
 """
@@ -64515,16 +58630,23 @@ entry(
 2   H   u0 {1,S}
 3   Cl  u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.89789,9.51248,10.0281,10.431,11.072,11.5614,12.3509],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-17.7584,'kcal/mol','+|-',2.68696),
+        S298 = (56.499,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 2946,
+    index = 2574,
     label = "O2sFH",
     group = 
 """
@@ -64532,16 +58654,23 @@ entry(
 2   H   u0 {1,S}
 3   F   u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.49023,9.00531,9.52919,10.0073,10.7617,11.3315,12.2569],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (-20.376,'kcal/mol','+|-',2.68696),
+        S298 = (54.0584,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 2947,
+    index = 2575,
     label = "O2sBrO",
     group = 
 """
@@ -64549,12 +58678,7 @@ entry(
 2   O   u0 {1,S}
 3   Br  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.31398,9.6066,9.69709,9.68989,9.52101,9.2884,9.23091],'cal/(mol*K)','+|-',[0.0892288,0.10255,0.104832,0.103294,0.0895695,0.0772529,0.0629594]),
-        H298 = (19.0958,'kcal/mol','+|-',0.318093),
-        S298 = (38.2922,'cal/(mol*K)','+|-',0.2168),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -64568,7 +58692,7 @@ CHOClBr_G4  |         21
 )
 
 entry(
-    index = 2948,
+    index = 2576,
     label = "O2sBrO_H",
     group = 
 """
@@ -64577,16 +58701,23 @@ entry(
 3   Br  u0 {1,S}
 4   H   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.8286,8.69074,9.06962,9.11478,9.40401,9.44187,9.22216],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (20.6382,'kcal/mol','+|-',2.68696),
+        S298 = (40.4854,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2949,
+    index = 2577,
     label = "O2sBrO_F",
     group = 
 """
@@ -64595,16 +58726,23 @@ entry(
 3   Br  u0 {1,S}
 4   F   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.47884,8.2902,8.7641,9.11215,9.58899,9.8448,9.96615],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (12.124,'kcal/mol','+|-',1.34348),
+        S298 = (37.0885,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2950,
+    index = 2578,
     label = "O2sBrO_Cl",
     group = 
 """
@@ -64613,16 +58751,23 @@ entry(
 3   Br  u0 {1,S}
 4   Cl  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.05734,8.82832,9.20669,9.46675,9.78169,9.89851,9.79107],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (17.685,'kcal/mol','+|-',1.34348),
+        S298 = (38.5505,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2951,
+    index = 2579,
     label = "O2sBrO_Br",
     group = 
 """
@@ -64631,16 +58776,23 @@ entry(
 3   Br  u0 {1,S}
 4   Br  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.22124,8.91209,9.25509,9.50258,9.79838,9.90271,9.78374],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (19.3046,'kcal/mol','+|-',1.34348),
+        S298 = (38.4329,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2952,
+    index = 2580,
     label = "O2sBrO_C",
     group = 
 """
@@ -64649,34 +58801,26 @@ entry(
 3   Br  u0 {1,S}
 4   C   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.31803,9.63675,9.71519,9.72792,9.60114,9.48713,9.40097],'cal/(mol*K)','+|-',[0.0971639,0.108599,0.109792,0.107984,0.0940718,0.0808496,0.0687754]),
+        H298 = (18.9322,'kcal/mol','+|-',0.330038),
+        S298 = (38.8335,'cal/(mol*K)','+|-',0.285196),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         21
+library:CHOFClBr_G4 |         9
+library:CHOFBr_G4   |         32
+library:CHOClBr_G4  |         20
 """,
 )
 
 entry(
-    index = 2953,
-    label = "O2sBrO_O",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   O   u0 {1,S} {4,S}
-3   Br  u0 {1,S}
-4   O   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2954,
+    index = 2581,
     label = "O2sClO",
     group = 
 """
@@ -64684,12 +58828,7 @@ entry(
 2   O   u0 {1,S}
 3   Cl  u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.99675,9.33066,9.43256,9.46127,9.41254,9.23488,9.16751],'cal/(mol*K)','+|-',[0.117276,0.134785,0.137783,0.135762,0.117724,0.101536,0.0827492]),
-        H298 = (15.7173,'kcal/mol','+|-',0.418079),
-        S298 = (35.5975,'cal/(mol*K)','+|-',0.284946),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -64702,7 +58841,7 @@ CHOClBr_G4 |         1
 )
 
 entry(
-    index = 2955,
+    index = 2582,
     label = "O2sClO_H",
     group = 
 """
@@ -64711,16 +58850,23 @@ entry(
 3   Cl  u0 {1,S}
 4   H   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.51135,8.45257,8.95602,9.05824,9.3891,9.44179,9.20979],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (16.684,'kcal/mol','+|-',2.68696),
+        S298 = (37.7202,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 2956,
+    index = 2583,
     label = "O2sClO_F",
     group = 
 """
@@ -64729,16 +58875,23 @@ entry(
 3   Cl  u0 {1,S}
 4   F   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.33181,8.19498,8.71243,9.07023,9.56267,9.83029,9.9709],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (10.7215,'kcal/mol','+|-',1.34348),
+        S298 = (35.0946,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 2957,
+    index = 2584,
     label = "O2sClO_Cl",
     group = 
 """
@@ -64747,16 +58900,23 @@ entry(
 3   Cl  u0 {1,S}
 4   Cl  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.89429,8.737,9.16177,9.43248,9.76354,9.89091,9.79425],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (16.043,'kcal/mol','+|-',1.34348),
+        S298 = (35.882,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library          | Number of Species
+library:CHOCl_G4 |         1
 """,
 )
 
 entry(
-    index = 2958,
+    index = 2585,
     label = "O2sClO_Br",
     group = 
 """
@@ -64765,16 +58925,23 @@ entry(
 3   Cl  u0 {1,S}
 4   Br  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.05734,8.82832,9.20669,9.46675,9.78169,9.89851,9.79107],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (17.685,'kcal/mol','+|-',1.34348),
+        S298 = (38.5505,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library            | Number of Species
+library:CHOClBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2959,
+    index = 2586,
     label = "O2sClO_C",
     group = 
 """
@@ -64783,34 +58950,24 @@ entry(
 3   Cl  u0 {1,S}
 4   C   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.10494,9.40132,9.46994,9.48936,9.43289,9.33739,9.27393],'cal/(mol*K)','+|-',[0.131476,0.146949,0.148563,0.146117,0.127292,0.1094,0.0930622]),
+        H298 = (15.3572,'kcal/mol','+|-',0.446585),
+        S298 = (35.7355,'cal/(mol*K)','+|-',0.385908),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         24
+library:CHOFCl_G4 |         20
 """,
 )
 
 entry(
-    index = 2960,
-    label = "O2sClO_O",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   O   u0 {1,S} {4,S}
-3   Cl  u0 {1,S}
-4   O   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2961,
+    index = 2587,
     label = "O2sFO",
     group = 
 """
@@ -64818,12 +58975,7 @@ entry(
 2   O   u0 {1,S}
 3   F   u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.29623,7.81191,8.31033,8.66847,9.13177,9.269,9.52277],'cal/(mol*K)','+|-',[0.150054,0.172456,0.176292,0.173706,0.150626,0.129914,0.105877]),
-        H298 = (6.82061,'kcal/mol','+|-',0.534929),
-        S298 = (32.8811,'cal/(mol*K)','+|-',0.364586),
-    ),
+    thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
@@ -64836,7 +58988,7 @@ CHOFBr_G4 |         1
 )
 
 entry(
-    index = 2962,
+    index = 2588,
     label = "O2sFO_H",
     group = 
 """
@@ -64845,16 +58997,23 @@ entry(
 3   F   u0 {1,S}
 4   H   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.31157,7.26728,8.0354,8.48474,9.32794,9.70217,9.73553],'cal/(mol*K)','+|-',[0.791045,0.884142,0.893857,0.879138,0.765872,0.658225,0.559925]),
+        H298 = (5.64598,'kcal/mol','+|-',2.68696),
+        S298 = (34.4745,'cal/(mol*K)','+|-',2.32188),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 2963,
+    index = 2589,
     label = "O2sFO_F",
     group = 
 """
@@ -64863,16 +59022,23 @@ entry(
 3   F   u0 {1,S}
 4   F   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.8054,7.72558,8.36191,8.76363,9.29728,9.615,9.90913],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (4.17629,'kcal/mol','+|-',1.34348),
+        S298 = (33.5355,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         1
 """,
 )
 
 entry(
-    index = 2964,
+    index = 2590,
     label = "O2sFO_Cl",
     group = 
 """
@@ -64881,16 +59047,23 @@ entry(
 3   F   u0 {1,S}
 4   Cl  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.33181,8.19498,8.71243,9.07023,9.56267,9.83029,9.9709],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (10.7215,'kcal/mol','+|-',1.34348),
+        S298 = (35.0946,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFCl_G4 |         1
 """,
 )
 
 entry(
-    index = 2965,
+    index = 2591,
     label = "O2sFO_Br",
     group = 
 """
@@ -64899,16 +59072,23 @@ entry(
 3   F   u0 {1,S}
 4   Br  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.47884,8.2902,8.7641,9.11215,9.58899,9.8448,9.96615],'cal/(mol*K)','+|-',[0.395523,0.442071,0.446929,0.439569,0.382936,0.329113,0.279962]),
+        H298 = (12.124,'kcal/mol','+|-',1.34348),
+        S298 = (37.0885,'cal/(mol*K)','+|-',1.16094),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOFBr_G4 |         1
 """,
 )
 
 entry(
-    index = 2966,
+    index = 2592,
     label = "O2sFO_C",
     group = 
 """
@@ -64917,34 +59097,23 @@ entry(
 3   F   u0 {1,S}
 4   C   u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.37224,7.8807,8.36715,8.72009,9.15048,9.31126,9.54072],'cal/(mol*K)','+|-',[0.177546,0.198441,0.200622,0.197318,0.171896,0.147735,0.125672]),
+        H298 = (6.95672,'kcal/mol','+|-',0.603074),
+        S298 = (32.5863,'cal/(mol*K)','+|-',0.521134),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library         | Number of Species
+library:CHOF_G4 |         24
 """,
 )
 
 entry(
-    index = 2967,
-    label = "O2sFO_O",
-    group = 
-"""
-1 * O2s u0 {2,S} {3,S}
-2   O   u0 {1,S} {4,S}
-3   F   u0 {1,S}
-4   O   u0 {2,S}
-""",
-    thermo = None,
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-entry(
-    index = 2968,
+    index = 2593,
     label = "O2sBrC",
     group = 
 """
@@ -64954,24 +59123,105 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.25839,8.58754,8.7708,8.94016,9.23695,9.39925,9.50708],'cal/(mol*K)','+|-',[0.0325225,0.037378,0.0382094,0.0376489,0.0326466,0.0281575,0.0229477]),
-        H298 = (-0.215186,'kcal/mol','+|-',0.11594),
-        S298 = (38.9333,'cal/(mol*K)','+|-',0.07902),
+        Cpdata = ([7.42772,7.56417,7.79896,8.04164,8.42572,8.66126,8.85408],'cal/(mol*K)','+|-',[0.223565,0.249876,0.252621,0.248462,0.21645,0.186027,0.158246]),
+        H298 = (3.55407,'kcal/mol','+|-',0.759386),
+        S298 = (39.6085,'cal/(mol*K)','+|-',0.656208),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOBr_G4    |         159
-CHOFClBr_G4 |         78
-CHOFBr_G4   |         307
-CHOClBr_G4  |         174
+Library             | Number of Species
+library:CHOBr_G4    |         5
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         7
+library:CHOClBr_G4  |         3
 """,
 )
 
 entry(
-    index = 2969,
+    index = 2594,
+    label = "O2sBrCs",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Cs  u0 {1,S}
+3   Br  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.35746,8.56326,8.63812,8.8472,9.25936,9.45801,9.61214],'cal/(mol*K)','+|-',[0.0565618,0.0632184,0.0639131,0.0628606,0.0547618,0.0470648,0.0400361]),
+        H298 = (-0.301877,'kcal/mol','+|-',0.192124),
+        S298 = (38.7283,'cal/(mol*K)','+|-',0.16602),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         102
+library:CHOFClBr_G4 |         55
+library:CHOFBr_G4   |         216
+library:CHOClBr_G4  |         116
+""",
+)
+
+entry(
+    index = 2595,
+    label = "O2sBrCd",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Cd  u0 {1,S}
+3   Br  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.88058,9.37823,9.54268,9.64417,9.71934,9.72506,9.59896],'cal/(mol*K)','+|-',[0.0711497,0.0795232,0.080397,0.0790731,0.0688855,0.0592034,0.0503618]),
+        H298 = (-1.4623,'kcal/mol','+|-',0.241675),
+        S298 = (38.0066,'cal/(mol*K)','+|-',0.208839),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         45
+library:CHOFClBr_G4 |         21
+library:CHOFBr_G4   |         77
+library:CHOClBr_G4  |         51
+""",
+)
+
+entry(
+    index = 2596,
+    label = "O2sBrCt",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Ct  u0 {1,S}
+3   Br  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.61624,7.71909,7.89201,7.60473,8.2877,8.66984,8.74404],'cal/(mol*K)','+|-',[0.169811,0.189796,0.191882,0.188722,0.164407,0.141299,0.120197]),
+        H298 = (6.41538,'kcal/mol','+|-',0.576801),
+        S298 = (42.8723,'cal/(mol*K)','+|-',0.498431),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOBr_G4    |         7
+library:CHOFClBr_G4 |         1
+library:CHOFBr_G4   |         7
+library:CHOClBr_G4  |         4
+""",
+)
+
+entry(
+    index = 2597,
     label = "O2sCCl",
     group = 
 """
@@ -64981,24 +59231,101 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.95062,8.32428,8.52309,8.72182,9.07901,9.28258,9.43221],'cal/(mol*K)','+|-',[0.0413581,0.0475327,0.0485901,0.0478772,0.041516,0.0358072,0.029182]),
-        H298 = (-2.55835,'kcal/mol','+|-',0.147438),
-        S298 = (35.9126,'cal/(mol*K)','+|-',0.100488),
+        Cpdata = ([7.43049,7.57699,7.78508,7.99746,8.31965,8.48836,8.60713],'cal/(mol*K)','+|-',[0.283787,0.317186,0.320671,0.315391,0.274756,0.236138,0.200873]),
+        H298 = (1.09138,'kcal/mol','+|-',0.963945),
+        S298 = (35.0434,'cal/(mol*K)','+|-',0.832974),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOCl_G4    |         214
-CHOFCl_G4   |         168
-CHOFClBr_G4 |         3
-CHOClBr_G4  |         33
+Library           | Number of Species
+library:CHOCl_G4  |         6
+library:CHOFCl_G4 |         4
 """,
 )
 
 entry(
-    index = 2970,
+    index = 2598,
+    label = "O2sCsCl",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Cs  u0 {1,S}
+3   Cl  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.00063,8.21057,8.30216,8.52623,8.99471,9.24827,9.47847],'cal/(mol*K)','+|-',[0.0709076,0.0792525,0.0801234,0.078804,0.068651,0.0590019,0.0501904]),
+        H298 = (-3.24518,'kcal/mol','+|-',0.240853),
+        S298 = (35.9344,'cal/(mol*K)','+|-',0.208128),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOCl_G4    |         150
+library:CHOFCl_G4   |         113
+library:CHOFClBr_G4 |         2
+library:CHOClBr_G4  |         25
+""",
+)
+
+entry(
+    index = 2599,
+    label = "O2sCdCl",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Cd  u0 {1,S}
+3   Cl  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.66582,9.16376,9.29425,9.39492,9.51958,9.55734,9.42239],'cal/(mol*K)','+|-',[0.0910168,0.101728,0.102846,0.101153,0.0881204,0.0757347,0.0644243]),
+        H298 = (-3.65701,'kcal/mol','+|-',0.309158),
+        S298 = (35.1452,'cal/(mol*K)','+|-',0.267153),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOCl_G4    |         53
+library:CHOFCl_G4   |         47
+library:CHOFClBr_G4 |         1
+library:CHOClBr_G4  |         8
+""",
+)
+
+entry(
+    index = 2600,
+    label = "O2sCtCl",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Ct  u0 {1,S}
+3   Cl  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.31462,7.47648,7.67114,7.43379,8.15573,8.56056,8.54395],'cal/(mol*K)','+|-',[0.266129,0.297449,0.300718,0.295766,0.25766,0.221445,0.188374]),
+        H298 = (6.38127,'kcal/mol','+|-',0.903964),
+        S298 = (39.4816,'cal/(mol*K)','+|-',0.781142),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOCl_G4  |         5
+library:CHOFCl_G4 |         4
+""",
+)
+
+entry(
+    index = 2601,
     label = "O2sCF",
     group = 
 """
@@ -65008,24 +59335,100 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.40519,7.85409,8.12951,8.39159,8.89407,9.19261,9.46834],'cal/(mol*K)','+|-',[0.0468839,0.0538835,0.0550822,0.0542741,0.0470629,0.0405914,0.0330811]),
-        H298 = (-6.87509,'kcal/mol','+|-',0.167137),
-        S298 = (33.7888,'cal/(mol*K)','+|-',0.113914),
+        Cpdata = ([7.89932,7.74028,7.58433,7.54452,7.62945,7.76796,8.06532],'cal/(mol*K)','+|-',[0.400098,0.447185,0.452099,0.444654,0.387366,0.33292,0.283201]),
+        H298 = (-0.0825091,'kcal/mol','+|-',1.35902),
+        S298 = (34.6839,'cal/(mol*K)','+|-',1.17437),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library     | Number of Species
-CHOF_G4     |         215
-CHOFCl_G4   |         34
-CHOFClBr_G4 |         12
-CHOFBr_G4   |         55
+Library         | Number of Species
+library:CHOF_G4 |         5
 """,
 )
 
 entry(
-    index = 2971,
+    index = 2602,
+    label = "O2sCsF",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Cs  u0 {1,S}
+3   F   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.56011,7.82729,7.94841,8.21626,8.79034,9.11981,9.43898],'cal/(mol*K)','+|-',[0.0814527,0.0910387,0.0920391,0.0905235,0.0788606,0.0677764,0.0576546]),
+        H298 = (-8.05675,'kcal/mol','+|-',0.276672),
+        S298 = (33.7244,'cal/(mol*K)','+|-',0.23908),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         150
+library:CHOFCl_G4   |         25
+library:CHOFClBr_G4 |         10
+library:CHOFBr_G4   |         42
+""",
+)
+
+entry(
+    index = 2603,
+    label = "O2sCdF",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Cd  u0 {1,S}
+3   F   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.80526,8.49144,8.81681,9.05207,9.37889,9.53727,9.50997],'cal/(mol*K)','+|-',[0.109602,0.122501,0.123847,0.121808,0.106114,0.0911993,0.0775794]),
+        H298 = (-10.0817,'kcal/mol','+|-',0.372287),
+        S298 = (32.4471,'cal/(mol*K)','+|-',0.321704),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library             | Number of Species
+library:CHOF_G4     |         52
+library:CHOFCl_G4   |         9
+library:CHOFClBr_G4 |         2
+library:CHOFBr_G4   |         12
+""",
+)
+
+entry(
+    index = 2604,
+    label = "O2sCtF",
+    group = 
+"""
+1 * O2s u0 {2,S} {3,S}
+2   Ct  u0 {1,S}
+3   F   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.25415,7.5599,7.86354,7.64679,8.4749,8.91271,9.27771],'cal/(mol*K)','+|-',[0.229935,0.256995,0.259819,0.255541,0.222617,0.191328,0.162754]),
+        H298 = (-9.24597,'kcal/mol','+|-',0.781022),
+        S298 = (35.1611,'cal/(mol*K)','+|-',0.674905),
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
+    longDesc = 
+"""
+Fitted using sklearn Ridge regression with alpha = 1e-06
+Library           | Number of Species
+library:CHOF_G4   |         8
+library:CHOFBr_G4 |         1
+""",
+)
+
+entry(
+    index = 2605,
     label = "O2s-HH",
     group = 
 """
@@ -65047,7 +59450,7 @@ entry(
 )
 
 entry(
-    index = 2972,
+    index = 2606,
     label = "O2s-OsH",
     group = 
 """
@@ -65069,7 +59472,7 @@ entry(
 )
 
 entry(
-    index = 2973,
+    index = 2607,
     label = "O2s-(Os-CdOd)H",
     group = 
 """
@@ -65094,7 +59497,7 @@ S298 taken from O2s-OsH
 )
 
 entry(
-    index = 2974,
+    index = 2608,
     label = "O2s-OsOs",
     group = 
 """
@@ -65116,7 +59519,7 @@ entry(
 )
 
 entry(
-    index = 2975,
+    index = 2609,
     label = "O2s-SsOs",
     group = 
 """
@@ -65138,7 +59541,7 @@ entry(
 )
 
 entry(
-    index = 2976,
+    index = 2610,
     label = "O2s-CH",
     group = 
 """
@@ -65155,7 +59558,7 @@ entry(
 )
 
 entry(
-    index = 2977,
+    index = 2611,
     label = "O2s-CtH",
     group = 
 """
@@ -65177,7 +59580,7 @@ entry(
 )
 
 entry(
-    index = 2978,
+    index = 2612,
     label = "O2s-CdsH",
     group = 
 """
@@ -65194,7 +59597,7 @@ entry(
 )
 
 entry(
-    index = 2979,
+    index = 2613,
     label = "O2s-(Cds-O2d)H",
     group = 
 """
@@ -65219,7 +59622,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2980,
+    index = 2614,
     label = "O2s-(Cds-Cd)H",
     group = 
 """
@@ -65244,7 +59647,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2981,
+    index = 2615,
     label = "O2s-(Cds-Nd)H",
     group = 
 """
@@ -65269,7 +59672,7 @@ CHON_G4 |         46
 )
 
 entry(
-    index = 2982,
+    index = 2616,
     label = "O2s-CsH",
     group = 
 """
@@ -65293,7 +59696,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 2983,
+    index = 2617,
     label = "O2s-CbH",
     group = 
 """
@@ -65315,7 +59718,7 @@ entry(
 )
 
 entry(
-    index = 2984,
+    index = 2618,
     label = "O2s-CSH",
     group = 
 """
@@ -65338,7 +59741,7 @@ entry(
 )
 
 entry(
-    index = 2985,
+    index = 2619,
     label = "O2s-OsC",
     group = 
 """
@@ -65355,7 +59758,7 @@ entry(
 )
 
 entry(
-    index = 2986,
+    index = 2620,
     label = "O2s-OsCt",
     group = 
 """
@@ -65377,7 +59780,7 @@ entry(
 )
 
 entry(
-    index = 2987,
+    index = 2621,
     label = "O2s-OsCds",
     group = 
 """
@@ -65394,7 +59797,7 @@ entry(
 )
 
 entry(
-    index = 2988,
+    index = 2622,
     label = "O2s-O2s(Cds-O2d)",
     group = 
 """
@@ -65420,7 +59823,7 @@ O=C(C)OO    -84.1 (Klipp_Glar)        -86.5              -83.5
 )
 
 entry(
-    index = 2989,
+    index = 2623,
     label = "O2s-O2s(Cds-Cd)",
     group = 
 """
@@ -65443,7 +59846,7 @@ entry(
 )
 
 entry(
-    index = 2990,
+    index = 2624,
     label = "O2s-OsCs",
     group = 
 """
@@ -65465,7 +59868,7 @@ entry(
 )
 
 entry(
-    index = 2991,
+    index = 2625,
     label = "O2s-OsCb",
     group = 
 """
@@ -65482,7 +59885,7 @@ entry(
 )
 
 entry(
-    index = 2992,
+    index = 2626,
     label = "O2s-CC",
     group = 
 """
@@ -65499,7 +59902,7 @@ entry(
 )
 
 entry(
-    index = 2993,
+    index = 2627,
     label = "O2s-CtCt",
     group = 
 """
@@ -65516,7 +59919,7 @@ entry(
 )
 
 entry(
-    index = 2994,
+    index = 2628,
     label = "O2s-CtCds",
     group = 
 """
@@ -65533,7 +59936,7 @@ entry(
 )
 
 entry(
-    index = 2995,
+    index = 2629,
     label = "O2s-Ct(Cds-O2d)",
     group = 
 """
@@ -65551,7 +59954,7 @@ entry(
 )
 
 entry(
-    index = 2996,
+    index = 2630,
     label = "O2s-Ct(Cds-Cd)",
     group = 
 """
@@ -65569,7 +59972,7 @@ entry(
 )
 
 entry(
-    index = 2997,
+    index = 2631,
     label = "O2s-CtCs",
     group = 
 """
@@ -65586,7 +59989,7 @@ entry(
 )
 
 entry(
-    index = 2998,
+    index = 2632,
     label = "O2s-CtCb",
     group = 
 """
@@ -65603,7 +60006,7 @@ entry(
 )
 
 entry(
-    index = 2999,
+    index = 2633,
     label = "O2s-CdsCds",
     group = 
 """
@@ -65620,7 +60023,7 @@ entry(
 )
 
 entry(
-    index = 3000,
+    index = 2634,
     label = "O2s-(Cds-O2d)(Cds-O2d)",
     group = 
 """
@@ -65646,7 +60049,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3001,
+    index = 2635,
     label = "O2s-(Cds-O2d)(Cds-Cd)",
     group = 
 """
@@ -65672,7 +60075,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3002,
+    index = 2636,
     label = "O2s-(Cds-Cd)(Cds-Cd)",
     group = 
 """
@@ -65694,7 +60097,7 @@ entry(
 )
 
 entry(
-    index = 3003,
+    index = 2637,
     label = "O2s-CdsCs",
     group = 
 """
@@ -65711,7 +60114,7 @@ entry(
 )
 
 entry(
-    index = 3004,
+    index = 2638,
     label = "O2s-Cs(Cds-O2d)",
     group = 
 """
@@ -65736,7 +60139,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3005,
+    index = 2639,
     label = "O2s-Cs(Cds-Cd)",
     group = 
 """
@@ -65761,7 +60164,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3006,
+    index = 2640,
     label = "O2s-CdsCb",
     group = 
 """
@@ -65778,7 +60181,7 @@ entry(
 )
 
 entry(
-    index = 3007,
+    index = 2641,
     label = "O2s-Cb(Cds-O2d)",
     group = 
 """
@@ -65796,7 +60199,7 @@ entry(
 )
 
 entry(
-    index = 3008,
+    index = 2642,
     label = "O2s-Cb(Cds-Cd)",
     group = 
 """
@@ -65814,7 +60217,7 @@ entry(
 )
 
 entry(
-    index = 3009,
+    index = 2643,
     label = "O2s-CsCs",
     group = 
 """
@@ -65838,7 +60241,7 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
-    index = 3010,
+    index = 2644,
     label = "O2s-CsCb",
     group = 
 """
@@ -65860,7 +60263,7 @@ entry(
 )
 
 entry(
-    index = 3011,
+    index = 2645,
     label = "O2s-CbCb",
     group = 
 """
@@ -65882,7 +60285,7 @@ entry(
 )
 
 entry(
-    index = 3012,
+    index = 2646,
     label = "O2s-Cs(Cds-S2d)",
     group = 
 """
@@ -65905,7 +60308,7 @@ entry(
 )
 
 entry(
-    index = 3013,
+    index = 2647,
     label = "O2s-CS",
     group = 
 """
@@ -65922,7 +60325,7 @@ entry(
 )
 
 entry(
-    index = 3014,
+    index = 2648,
     label = "O2s-CS2",
     group = 
 """
@@ -65944,7 +60347,7 @@ entry(
 )
 
 entry(
-    index = 3015,
+    index = 2649,
     label = "O2s-CS4",
     group = 
 """
@@ -65966,7 +60369,7 @@ entry(
 )
 
 entry(
-    index = 3016,
+    index = 2650,
     label = "O2s-CS6",
     group = 
 """
@@ -65988,7 +60391,7 @@ entry(
 )
 
 entry(
-    index = 3017,
+    index = 2651,
     label = "O2s-SH",
     group = 
 """
@@ -66005,7 +60408,7 @@ entry(
 )
 
 entry(
-    index = 3018,
+    index = 2652,
     label = "O2s-S_nonDeH",
     group = 
 """
@@ -66027,7 +60430,7 @@ entry(
 )
 
 entry(
-    index = 3019,
+    index = 2653,
     label = "O2s-S_DeH",
     group = 
 """
@@ -66049,7 +60452,7 @@ entry(
 )
 
 entry(
-    index = 3020,
+    index = 2654,
     label = "O2s-N",
     group = 
 """
@@ -66070,7 +60473,7 @@ entry(
 )
 
 entry(
-    index = 3021,
+    index = 2655,
     label = "O2s-N5tc",
     group = 
 """
@@ -66086,7 +60489,7 @@ entry(
 )
 
 entry(
-    index = 3022,
+    index = 2656,
     label = "O2s-N5tcH",
     group = 
 """
@@ -66110,7 +60513,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 3023,
+    index = 2657,
     label = "O2s-HN",
     group = 
 """
@@ -66134,7 +60537,7 @@ CHON_G4 |         2
 )
 
 entry(
-    index = 3024,
+    index = 2658,
     label = "O2s-HN5dc",
     group = 
 """
@@ -66158,7 +60561,7 @@ CHON_G4 |         6
 )
 
 entry(
-    index = 3025,
+    index = 2659,
     label = "O2s-HN5sc",
     group = 
 """
@@ -66182,7 +60585,7 @@ CHON_G4 |         4
 )
 
 entry(
-    index = 3026,
+    index = 2660,
     label = "O2s-HN3s",
     group = 
 """
@@ -66206,7 +60609,7 @@ CHON_G4 |         140
 )
 
 entry(
-    index = 3027,
+    index = 2661,
     label = "O2s-HN3d",
     group = 
 """
@@ -66230,7 +60633,7 @@ CHON_G4 |         53
 )
 
 entry(
-    index = 3028,
+    index = 2662,
     label = "O2s-NO",
     group = 
 """
@@ -66247,7 +60650,7 @@ entry(
 )
 
 entry(
-    index = 3029,
+    index = 2663,
     label = "O2s-OsN3d",
     group = 
 """
@@ -66272,7 +60675,7 @@ thermo_DFT_CCSDTF12_BAC |         2
 )
 
 entry(
-    index = 3030,
+    index = 2664,
     label = "O2s-ON",
     group = 
 """
@@ -66296,7 +60699,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 3031,
+    index = 2665,
     label = "O2s-OsN3s",
     group = 
 """
@@ -66320,7 +60723,7 @@ CHON_G4 |         27
 )
 
 entry(
-    index = 3032,
+    index = 2666,
     label = "O2s-OsNH2",
     group = 
 """
@@ -66346,7 +60749,7 @@ CHON_G4 |         13
 )
 
 entry(
-    index = 3033,
+    index = 2667,
     label = "O2s-OsN5dc",
     group = 
 """
@@ -66371,7 +60774,7 @@ thermo_DFT_CCSDTF12_BAC |         3
 )
 
 entry(
-    index = 3034,
+    index = 2668,
     label = "O2s-CN",
     group = 
 """
@@ -66396,7 +60799,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 3035,
+    index = 2669,
     label = "O2s-CsN3s",
     group = 
 """
@@ -66420,7 +60823,7 @@ CHON_G4 |         53
 )
 
 entry(
-    index = 3036,
+    index = 2670,
     label = "O2s-CsN3d",
     group = 
 """
@@ -66445,7 +60848,7 @@ NOx2018 |         1
 )
 
 entry(
-    index = 3037,
+    index = 2671,
     label = "O2s-CdN3d",
     group = 
 """
@@ -66469,7 +60872,7 @@ CHON_G4 |         5
 )
 
 entry(
-    index = 3038,
+    index = 2672,
     label = "O2s-CsN5dc",
     group = 
 """
@@ -66496,7 +60899,7 @@ CHON                    |         2
 )
 
 entry(
-    index = 3039,
+    index = 2673,
     label = "O2s-NN",
     group = 
 """
@@ -66521,7 +60924,7 @@ thermo_DFT_CCSDTF12_BAC |         2
 )
 
 entry(
-    index = 3040,
+    index = 2674,
     label = "O2s-N3sdN3sd",
     group = 
 """
@@ -66545,7 +60948,7 @@ CHON_G4 |         50
 )
 
 entry(
-    index = 3041,
+    index = 2675,
     label = "Si",
     group = 
 """
@@ -66560,7 +60963,7 @@ entry(
 )
 
 entry(
-    index = 3042,
+    index = 2676,
     label = "SiJ2(S)",
     group = 
 """
@@ -66575,7 +60978,7 @@ entry(
 )
 
 entry(
-    index = 3043,
+    index = 2677,
     label = "S",
     group = 
 """
@@ -66590,7 +60993,7 @@ entry(
 )
 
 entry(
-    index = 3044,
+    index = 2678,
     label = "Sc",
     group = 
 """
@@ -66610,7 +61013,7 @@ entry(
 )
 
 entry(
-    index = 3045,
+    index = 2679,
     label = "Sa(S)",
     group = 
 """
@@ -66631,7 +61034,7 @@ Singlet sulfur, thermo data copied from triplet sulfur, likely very incorrect (t
 )
 
 entry(
-    index = 3046,
+    index = 2680,
     label = "S2d",
     group = 
 """
@@ -66646,7 +61049,7 @@ entry(
 )
 
 entry(
-    index = 3047,
+    index = 2681,
     label = "S2d-C",
     group = 
 """
@@ -66667,7 +61070,7 @@ entry(
 )
 
 entry(
-    index = 3048,
+    index = 2682,
     label = "S2d-S",
     group = 
 """
@@ -66688,7 +61091,7 @@ entry(
 )
 
 entry(
-    index = 3049,
+    index = 2683,
     label = "S2d-O",
     group = 
 """
@@ -66709,7 +61112,7 @@ entry(
 )
 
 entry(
-    index = 3050,
+    index = 2684,
     label = "S2s",
     group = 
 """
@@ -66724,7 +61127,7 @@ entry(
 )
 
 entry(
-    index = 3051,
+    index = 2685,
     label = "S2s-HH",
     group = 
 """
@@ -66746,7 +61149,7 @@ entry(
 )
 
 entry(
-    index = 3052,
+    index = 2686,
     label = "S2s-CH",
     group = 
 """
@@ -66763,7 +61166,7 @@ entry(
 )
 
 entry(
-    index = 3053,
+    index = 2687,
     label = "S2s-CsH",
     group = 
 """
@@ -66785,7 +61188,7 @@ entry(
 )
 
 entry(
-    index = 3054,
+    index = 2688,
     label = "S2s-CdH",
     group = 
 """
@@ -66807,7 +61210,7 @@ entry(
 )
 
 entry(
-    index = 3055,
+    index = 2689,
     label = "S2s-CtH",
     group = 
 """
@@ -66829,7 +61232,7 @@ entry(
 )
 
 entry(
-    index = 3056,
+    index = 2690,
     label = "S2s-CbH",
     group = 
 """
@@ -66851,7 +61254,7 @@ entry(
 )
 
 entry(
-    index = 3057,
+    index = 2691,
     label = "S2s-(C=O)H",
     group = 
 """
@@ -66874,7 +61277,7 @@ entry(
 )
 
 entry(
-    index = 3058,
+    index = 2692,
     label = "S2s-(C=S2d)H",
     group = 
 """
@@ -66897,7 +61300,7 @@ entry(
 )
 
 entry(
-    index = 3059,
+    index = 2693,
     label = "S2s-SH",
     group = 
 """
@@ -66914,7 +61317,7 @@ entry(
 )
 
 entry(
-    index = 3060,
+    index = 2694,
     label = "S2s-S2sH",
     group = 
 """
@@ -66936,7 +61339,7 @@ entry(
 )
 
 entry(
-    index = 3061,
+    index = 2695,
     label = "S2s-S_DeH",
     group = 
 """
@@ -66958,7 +61361,7 @@ entry(
 )
 
 entry(
-    index = 3062,
+    index = 2696,
     label = "S2s-SS",
     group = 
 """
@@ -66975,7 +61378,7 @@ entry(
 )
 
 entry(
-    index = 3063,
+    index = 2697,
     label = "S2s-SsSs",
     group = 
 """
@@ -66997,7 +61400,7 @@ entry(
 )
 
 entry(
-    index = 3064,
+    index = 2698,
     label = "S2s-SO",
     group = 
 """
@@ -67014,7 +61417,7 @@ entry(
 )
 
 entry(
-    index = 3065,
+    index = 2699,
     label = "S2s-S2O",
     group = 
 """
@@ -67036,7 +61439,7 @@ entry(
 )
 
 entry(
-    index = 3066,
+    index = 2700,
     label = "S2s-S4O",
     group = 
 """
@@ -67058,7 +61461,7 @@ entry(
 )
 
 entry(
-    index = 3067,
+    index = 2701,
     label = "S2s-S6O",
     group = 
 """
@@ -67080,7 +61483,7 @@ entry(
 )
 
 entry(
-    index = 3068,
+    index = 2702,
     label = "S2s-SC",
     group = 
 """
@@ -67097,7 +61500,7 @@ entry(
 )
 
 entry(
-    index = 3069,
+    index = 2703,
     label = "S2s-S2sC",
     group = 
 """
@@ -67114,7 +61517,7 @@ entry(
 )
 
 entry(
-    index = 3070,
+    index = 2704,
     label = "S2s-S2sCs",
     group = 
 """
@@ -67136,7 +61539,7 @@ entry(
 )
 
 entry(
-    index = 3071,
+    index = 2705,
     label = "S2s-S2sCd",
     group = 
 """
@@ -67158,7 +61561,7 @@ entry(
 )
 
 entry(
-    index = 3072,
+    index = 2706,
     label = "S2s-S2sCt",
     group = 
 """
@@ -67180,7 +61583,7 @@ entry(
 )
 
 entry(
-    index = 3073,
+    index = 2707,
     label = "S2s-S2sCb",
     group = 
 """
@@ -67202,7 +61605,7 @@ entry(
 )
 
 entry(
-    index = 3074,
+    index = 2708,
     label = "S2s-S46C",
     group = 
 """
@@ -67224,7 +61627,7 @@ entry(
 )
 
 entry(
-    index = 3075,
+    index = 2709,
     label = "S2s-CC",
     group = 
 """
@@ -67241,7 +61644,7 @@ entry(
 )
 
 entry(
-    index = 3076,
+    index = 2710,
     label = "S2s-CsCs",
     group = 
 """
@@ -67263,7 +61666,7 @@ entry(
 )
 
 entry(
-    index = 3077,
+    index = 2711,
     label = "S2s-CsCd",
     group = 
 """
@@ -67285,7 +61688,7 @@ entry(
 )
 
 entry(
-    index = 3078,
+    index = 2712,
     label = "S2s-Cs(C=O)",
     group = 
 """
@@ -67308,7 +61711,7 @@ entry(
 )
 
 entry(
-    index = 3079,
+    index = 2713,
     label = "S2s-CsCt",
     group = 
 """
@@ -67330,7 +61733,7 @@ entry(
 )
 
 entry(
-    index = 3080,
+    index = 2714,
     label = "S2s-CsCb",
     group = 
 """
@@ -67352,7 +61755,7 @@ entry(
 )
 
 entry(
-    index = 3081,
+    index = 2715,
     label = "S2s-CdCd",
     group = 
 """
@@ -67374,7 +61777,7 @@ entry(
 )
 
 entry(
-    index = 3082,
+    index = 2716,
     label = "S2s-CdCt",
     group = 
 """
@@ -67396,7 +61799,7 @@ entry(
 )
 
 entry(
-    index = 3083,
+    index = 2717,
     label = "S2s-CdCb",
     group = 
 """
@@ -67418,7 +61821,7 @@ entry(
 )
 
 entry(
-    index = 3084,
+    index = 2718,
     label = "S2s-CtCt",
     group = 
 """
@@ -67440,7 +61843,7 @@ entry(
 )
 
 entry(
-    index = 3085,
+    index = 2719,
     label = "S2s-CtCb",
     group = 
 """
@@ -67462,7 +61865,7 @@ entry(
 )
 
 entry(
-    index = 3086,
+    index = 2720,
     label = "S2s-CbCb",
     group = 
 """
@@ -67484,7 +61887,7 @@ entry(
 )
 
 entry(
-    index = 3087,
+    index = 2721,
     label = "S2s-(C=S2d)Cs",
     group = 
 """
@@ -67507,7 +61910,7 @@ entry(
 )
 
 entry(
-    index = 3088,
+    index = 2722,
     label = "S2s-(C=S2d)(C=S2d)",
     group = 
 """
@@ -67531,7 +61934,7 @@ entry(
 )
 
 entry(
-    index = 3089,
+    index = 2723,
     label = "S2s-(C=S2d)Cmb",
     group = 
 """
@@ -67554,7 +61957,7 @@ entry(
 )
 
 entry(
-    index = 3090,
+    index = 2724,
     label = "S2s-OH",
     group = 
 """
@@ -67576,7 +61979,7 @@ entry(
 )
 
 entry(
-    index = 3091,
+    index = 2725,
     label = "S2s-OO",
     group = 
 """
@@ -67598,7 +62001,7 @@ entry(
 )
 
 entry(
-    index = 3092,
+    index = 2726,
     label = "S2s-OC",
     group = 
 """
@@ -67615,7 +62018,7 @@ entry(
 )
 
 entry(
-    index = 3093,
+    index = 2727,
     label = "S2s-OCs",
     group = 
 """
@@ -67637,7 +62040,7 @@ entry(
 )
 
 entry(
-    index = 3094,
+    index = 2728,
     label = "S4dd",
     group = 
 """
@@ -67652,7 +62055,7 @@ entry(
 )
 
 entry(
-    index = 3095,
+    index = 2729,
     label = "S4dd-OdOd",
     group = 
 """
@@ -67674,7 +62077,7 @@ entry(
 )
 
 entry(
-    index = 3096,
+    index = 2730,
     label = "S4dd-CdOd",
     group = 
 """
@@ -67696,7 +62099,7 @@ entry(
 )
 
 entry(
-    index = 3097,
+    index = 2731,
     label = "S4dd-CdCd",
     group = 
 """
@@ -67718,7 +62121,7 @@ entry(
 )
 
 entry(
-    index = 3098,
+    index = 2732,
     label = "S4dd-OdSd",
     group = 
 """
@@ -67735,7 +62138,7 @@ entry(
 )
 
 entry(
-    index = 3099,
+    index = 2733,
     label = "S4dd-OdS4d",
     group = 
 """
@@ -67757,7 +62160,7 @@ entry(
 )
 
 entry(
-    index = 3100,
+    index = 2734,
     label = "S4dd-OdS6d",
     group = 
 """
@@ -67779,7 +62182,7 @@ entry(
 )
 
 entry(
-    index = 3101,
+    index = 2735,
     label = "S4dd-SdCd",
     group = 
 """
@@ -67796,7 +62199,7 @@ entry(
 )
 
 entry(
-    index = 3102,
+    index = 2736,
     label = "S4dd-S2dCd",
     group = 
 """
@@ -67818,7 +62221,7 @@ entry(
 )
 
 entry(
-    index = 3103,
+    index = 2737,
     label = "S4dd-S46dCd",
     group = 
 """
@@ -67840,7 +62243,7 @@ entry(
 )
 
 entry(
-    index = 3104,
+    index = 2738,
     label = "S4d",
     group = 
 """
@@ -67855,7 +62258,7 @@ entry(
 )
 
 entry(
-    index = 3105,
+    index = 2739,
     label = "S4d-Od",
     group = 
 """
@@ -67871,7 +62274,7 @@ entry(
 )
 
 entry(
-    index = 3106,
+    index = 2740,
     label = "S4d-OdHH",
     group = 
 """
@@ -67894,7 +62297,7 @@ entry(
 )
 
 entry(
-    index = 3107,
+    index = 2741,
     label = "S4d-OdCC",
     group = 
 """
@@ -67913,7 +62316,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 3108,
+    index = 2742,
     label = "S4d-OdCsCs",
     group = 
 """
@@ -67936,7 +62339,7 @@ entry(
 )
 
 entry(
-    index = 3109,
+    index = 2743,
     label = "S4d-OdCdCd",
     group = 
 """
@@ -67959,7 +62362,7 @@ entry(
 )
 
 entry(
-    index = 3110,
+    index = 2744,
     label = "S4d-OdCH",
     group = 
 """
@@ -67978,7 +62381,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 3111,
+    index = 2745,
     label = "S4d-OdCsH",
     group = 
 """
@@ -68001,7 +62404,7 @@ entry(
 )
 
 entry(
-    index = 3112,
+    index = 2746,
     label = "S4d-OdCdH",
     group = 
 """
@@ -68024,7 +62427,7 @@ entry(
 )
 
 entry(
-    index = 3113,
+    index = 2747,
     label = "S4d-OdCS",
     group = 
 """
@@ -68047,7 +62450,7 @@ entry(
 )
 
 entry(
-    index = 3114,
+    index = 2748,
     label = "S4d-OdCO",
     group = 
 """
@@ -68065,7 +62468,7 @@ entry(
 )
 
 entry(
-    index = 3115,
+    index = 2749,
     label = "S4d-OdOsCs",
     group = 
 """
@@ -68088,7 +62491,7 @@ entry(
 )
 
 entry(
-    index = 3116,
+    index = 2750,
     label = "S4d-OdOsCd",
     group = 
 """
@@ -68111,7 +62514,7 @@ entry(
 )
 
 entry(
-    index = 3117,
+    index = 2751,
     label = "S4d-OdOO",
     group = 
 """
@@ -68134,7 +62537,7 @@ entry(
 )
 
 entry(
-    index = 3118,
+    index = 2752,
     label = "S4d-OdOH",
     group = 
 """
@@ -68157,7 +62560,7 @@ entry(
 )
 
 entry(
-    index = 3119,
+    index = 2753,
     label = "S4d-OdOS",
     group = 
 """
@@ -68180,7 +62583,7 @@ entry(
 )
 
 entry(
-    index = 3120,
+    index = 2754,
     label = "S4d-OdSS",
     group = 
 """
@@ -68203,7 +62606,7 @@ entry(
 )
 
 entry(
-    index = 3121,
+    index = 2755,
     label = "S4d-OdSH",
     group = 
 """
@@ -68226,7 +62629,7 @@ entry(
 )
 
 entry(
-    index = 3122,
+    index = 2756,
     label = "S4d-Cd",
     group = 
 """
@@ -68242,7 +62645,7 @@ entry(
 )
 
 entry(
-    index = 3123,
+    index = 2757,
     label = "S4d-CdCC",
     group = 
 """
@@ -68265,7 +62668,7 @@ entry(
 )
 
 entry(
-    index = 3124,
+    index = 2758,
     label = "S4d-CdCH",
     group = 
 """
@@ -68288,7 +62691,7 @@ entry(
 )
 
 entry(
-    index = 3125,
+    index = 2759,
     label = "S4d-CdHH",
     group = 
 """
@@ -68311,7 +62714,7 @@ entry(
 )
 
 entry(
-    index = 3126,
+    index = 2760,
     label = "S4d-CdOC",
     group = 
 """
@@ -68334,7 +62737,7 @@ entry(
 )
 
 entry(
-    index = 3127,
+    index = 2761,
     label = "S4d-CdOH",
     group = 
 """
@@ -68357,7 +62760,7 @@ entry(
 )
 
 entry(
-    index = 3128,
+    index = 2762,
     label = "S4d-Sd",
     group = 
 """
@@ -68373,7 +62776,7 @@ entry(
 )
 
 entry(
-    index = 3129,
+    index = 2763,
     label = "S4d-SdOC",
     group = 
 """
@@ -68396,7 +62799,7 @@ entry(
 )
 
 entry(
-    index = 3130,
+    index = 2764,
     label = "S4d-SdOH",
     group = 
 """
@@ -68419,7 +62822,7 @@ entry(
 )
 
 entry(
-    index = 3131,
+    index = 2765,
     label = "S4d-SdCH",
     group = 
 """
@@ -68442,7 +62845,7 @@ entry(
 )
 
 entry(
-    index = 3132,
+    index = 2766,
     label = "S4d-SdSC",
     group = 
 """
@@ -68465,7 +62868,7 @@ entry(
 )
 
 entry(
-    index = 3133,
+    index = 2767,
     label = "S4s",
     group = 
 """
@@ -68481,7 +62884,7 @@ Couldn't converge these geometries to calculate values and so I copied the S6s v
 )
 
 entry(
-    index = 3134,
+    index = 2768,
     label = "S4s-OCCH",
     group = 
 """
@@ -68505,7 +62908,7 @@ entry(
 )
 
 entry(
-    index = 3135,
+    index = 2769,
     label = "S4s-CCCH",
     group = 
 """
@@ -68529,7 +62932,7 @@ entry(
 )
 
 entry(
-    index = 3136,
+    index = 2770,
     label = "S4s-OOCC",
     group = 
 """
@@ -68553,7 +62956,7 @@ entry(
 )
 
 entry(
-    index = 3137,
+    index = 2771,
     label = "S4s-SOCH",
     group = 
 """
@@ -68577,7 +62980,7 @@ entry(
 )
 
 entry(
-    index = 3138,
+    index = 2772,
     label = "S4s-SOOH",
     group = 
 """
@@ -68601,7 +63004,7 @@ entry(
 )
 
 entry(
-    index = 3139,
+    index = 2773,
     label = "S4t",
     group = 
 """
@@ -68616,7 +63019,7 @@ entry(
 )
 
 entry(
-    index = 3140,
+    index = 2774,
     label = "S4t-CtC",
     group = 
 """
@@ -68638,7 +63041,7 @@ entry(
 )
 
 entry(
-    index = 3141,
+    index = 2775,
     label = "S4t-CtH",
     group = 
 """
@@ -68660,7 +63063,7 @@ entry(
 )
 
 entry(
-    index = 3142,
+    index = 2776,
     label = "S4t-CtO",
     group = 
 """
@@ -68682,7 +63085,7 @@ entry(
 )
 
 entry(
-    index = 3143,
+    index = 2777,
     label = "S6s",
     group = 
 """
@@ -68697,7 +63100,7 @@ entry(
 )
 
 entry(
-    index = 3144,
+    index = 2778,
     label = "S6s-CCCCCH",
     group = 
 """
@@ -68724,7 +63127,7 @@ Calculated at CBS-QB3, June 2017
 )
 
 entry(
-    index = 3145,
+    index = 2779,
     label = "S6s-OCCCCH",
     group = 
 """
@@ -68750,7 +63153,7 @@ entry(
 )
 
 entry(
-    index = 3146,
+    index = 2780,
     label = "S6s-SOOCCH",
     group = 
 """
@@ -68777,7 +63180,7 @@ Calculated at CBS-QB3, June 2017
 )
 
 entry(
-    index = 3147,
+    index = 2781,
     label = "S6d",
     group = 
 """
@@ -68792,7 +63195,7 @@ entry(
 )
 
 entry(
-    index = 3148,
+    index = 2782,
     label = "S6d-OdOCCH",
     group = 
 """
@@ -68817,7 +63220,7 @@ entry(
 )
 
 entry(
-    index = 3149,
+    index = 2783,
     label = "S6d-OdCCCH",
     group = 
 """
@@ -68842,7 +63245,7 @@ entry(
 )
 
 entry(
-    index = 3150,
+    index = 2784,
     label = "S6dd",
     group = 
 """
@@ -68857,7 +63260,7 @@ entry(
 )
 
 entry(
-    index = 3151,
+    index = 2785,
     label = "S6dd-OdOd",
     group = 
 """
@@ -68874,7 +63277,7 @@ entry(
 )
 
 entry(
-    index = 3152,
+    index = 2786,
     label = "S6dd-OdOdHH",
     group = 
 """
@@ -68898,7 +63301,7 @@ entry(
 )
 
 entry(
-    index = 3153,
+    index = 2787,
     label = "S6dd-OdOdCC",
     group = 
 """
@@ -68918,7 +63321,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 3154,
+    index = 2788,
     label = "S6dd-OdOdCsCs",
     group = 
 """
@@ -68942,7 +63345,7 @@ entry(
 )
 
 entry(
-    index = 3155,
+    index = 2789,
     label = "S6dd-OdOdCdCd",
     group = 
 """
@@ -68966,7 +63369,7 @@ entry(
 )
 
 entry(
-    index = 3156,
+    index = 2790,
     label = "S6dd-OdOdCH",
     group = 
 """
@@ -68986,7 +63389,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 3157,
+    index = 2791,
     label = "S6dd-OdOdCsH",
     group = 
 """
@@ -69010,7 +63413,7 @@ entry(
 )
 
 entry(
-    index = 3158,
+    index = 2792,
     label = "S6dd-OdOdCdH",
     group = 
 """
@@ -69034,7 +63437,7 @@ entry(
 )
 
 entry(
-    index = 3159,
+    index = 2793,
     label = "S6dd-OdOdCS",
     group = 
 """
@@ -69058,7 +63461,7 @@ entry(
 )
 
 entry(
-    index = 3160,
+    index = 2794,
     label = "S6dd-OdOdCO",
     group = 
 """
@@ -69078,7 +63481,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 )
 
 entry(
-    index = 3161,
+    index = 2795,
     label = "S6dd-OdOdCsOs",
     group = 
 """
@@ -69102,7 +63505,7 @@ entry(
 )
 
 entry(
-    index = 3162,
+    index = 2796,
     label = "S6dd-OdOdCdOs",
     group = 
 """
@@ -69126,7 +63529,7 @@ entry(
 )
 
 entry(
-    index = 3163,
+    index = 2797,
     label = "S6dd-OdOdOO",
     group = 
 """
@@ -69150,7 +63553,7 @@ entry(
 )
 
 entry(
-    index = 3164,
+    index = 2798,
     label = "S6dd-OdOdOH",
     group = 
 """
@@ -69174,7 +63577,7 @@ entry(
 )
 
 entry(
-    index = 3165,
+    index = 2799,
     label = "S6dd-OdOdOS",
     group = 
 """
@@ -69198,7 +63601,7 @@ entry(
 )
 
 entry(
-    index = 3166,
+    index = 2800,
     label = "S6dd-OdOdSS",
     group = 
 """
@@ -69222,7 +63625,7 @@ entry(
 )
 
 entry(
-    index = 3167,
+    index = 2801,
     label = "S6dd-OdOdSH",
     group = 
 """
@@ -69246,7 +63649,7 @@ entry(
 )
 
 entry(
-    index = 3168,
+    index = 2802,
     label = "S6dd-OdCd",
     group = 
 """
@@ -69263,7 +63666,7 @@ entry(
 )
 
 entry(
-    index = 3169,
+    index = 2803,
     label = "S6dd-OdCdCC",
     group = 
 """
@@ -69287,7 +63690,7 @@ entry(
 )
 
 entry(
-    index = 3170,
+    index = 2804,
     label = "S6dd-OdCdCH",
     group = 
 """
@@ -69311,7 +63714,7 @@ entry(
 )
 
 entry(
-    index = 3171,
+    index = 2805,
     label = "S6dd-OdCdOC",
     group = 
 """
@@ -69335,7 +63738,7 @@ entry(
 )
 
 entry(
-    index = 3172,
+    index = 2806,
     label = "S6dd-OdCdOO",
     group = 
 """
@@ -69359,7 +63762,7 @@ entry(
 )
 
 entry(
-    index = 3173,
+    index = 2807,
     label = "S6dd-OdCdOH",
     group = 
 """
@@ -69383,7 +63786,7 @@ entry(
 )
 
 entry(
-    index = 3174,
+    index = 2808,
     label = "S6dd-OdCdSH",
     group = 
 """
@@ -69407,7 +63810,7 @@ entry(
 )
 
 entry(
-    index = 3175,
+    index = 2809,
     label = "S6dd-OdCdOS",
     group = 
 """
@@ -69431,7 +63834,7 @@ entry(
 )
 
 entry(
-    index = 3176,
+    index = 2810,
     label = "S6dd-CdCd",
     group = 
 """
@@ -69448,7 +63851,7 @@ entry(
 )
 
 entry(
-    index = 3177,
+    index = 2811,
     label = "S6dd-CdCdCC",
     group = 
 """
@@ -69472,7 +63875,7 @@ entry(
 )
 
 entry(
-    index = 3178,
+    index = 2812,
     label = "S6dd-CdCdCH",
     group = 
 """
@@ -69496,7 +63899,7 @@ entry(
 )
 
 entry(
-    index = 3179,
+    index = 2813,
     label = "S6dd-CdCdOC",
     group = 
 """
@@ -69520,7 +63923,7 @@ entry(
 )
 
 entry(
-    index = 3180,
+    index = 2814,
     label = "S6dd-OdSd",
     group = 
 """
@@ -69537,7 +63940,7 @@ entry(
 )
 
 entry(
-    index = 3181,
+    index = 2815,
     label = "S6dd-OdSdOC",
     group = 
 """
@@ -69561,7 +63964,7 @@ entry(
 )
 
 entry(
-    index = 3182,
+    index = 2816,
     label = "S6dd-OdSdOH",
     group = 
 """
@@ -69585,7 +63988,7 @@ entry(
 )
 
 entry(
-    index = 3183,
+    index = 2817,
     label = "S6dd-OdSdCH",
     group = 
 """
@@ -69609,7 +64012,7 @@ entry(
 )
 
 entry(
-    index = 3184,
+    index = 2818,
     label = "S6ddd",
     group = 
 """
@@ -69624,7 +64027,7 @@ entry(
 )
 
 entry(
-    index = 3185,
+    index = 2819,
     label = "S6ddd-OdOdOd",
     group = 
 """
@@ -69647,7 +64050,7 @@ entry(
 )
 
 entry(
-    index = 3186,
+    index = 2820,
     label = "S6ddd-OdOdXd",
     group = 
 """
@@ -69670,7 +64073,7 @@ entry(
 )
 
 entry(
-    index = 3187,
+    index = 2821,
     label = "S6ddd-OdXdXd",
     group = 
 """
@@ -69693,7 +64096,7 @@ entry(
 )
 
 entry(
-    index = 3188,
+    index = 2822,
     label = "S6t",
     group = 
 """
@@ -69708,7 +64111,7 @@ entry(
 )
 
 entry(
-    index = 3189,
+    index = 2823,
     label = "S6t-CtCCC",
     group = 
 """
@@ -69732,7 +64135,7 @@ entry(
 )
 
 entry(
-    index = 3190,
+    index = 2824,
     label = "S6t-CtHHH",
     group = 
 """
@@ -69756,7 +64159,7 @@ entry(
 )
 
 entry(
-    index = 3191,
+    index = 2825,
     label = "S6t-CtOCC",
     group = 
 """
@@ -69780,7 +64183,7 @@ entry(
 )
 
 entry(
-    index = 3192,
+    index = 2826,
     label = "S6t-CtOCH",
     group = 
 """
@@ -69804,7 +64207,7 @@ entry(
 )
 
 entry(
-    index = 3193,
+    index = 2827,
     label = "S6td",
     group = 
 """
@@ -69819,7 +64222,7 @@ entry(
 )
 
 entry(
-    index = 3194,
+    index = 2828,
     label = "S6td-CtCdC",
     group = 
 """
@@ -69842,7 +64245,7 @@ entry(
 )
 
 entry(
-    index = 3195,
+    index = 2829,
     label = "S6td-CtOdC",
     group = 
 """
@@ -69865,7 +64268,7 @@ entry(
 )
 
 entry(
-    index = 3196,
+    index = 2830,
     label = "S6td-CtOdH",
     group = 
 """
@@ -69888,7 +64291,7 @@ entry(
 )
 
 entry(
-    index = 3197,
+    index = 2831,
     label = "Cl1s",
     group = 
 """
@@ -69908,7 +64311,7 @@ Dummy group for singly-bonded chlorine. Benson groups for chloroalkanes already 
 )
 
 entry(
-    index = 3198,
+    index = 2832,
     label = "Br1s",
     group = 
 """
@@ -69928,7 +64331,7 @@ Dummy group for singly-bonded bromine. Benson groups for chloroalkanes already a
 )
 
 entry(
-    index = 3199,
+    index = 2833,
     label = "F1s",
     group = 
 """
@@ -69948,7 +64351,7 @@ Dummy group for singly-bonded fluroine. Benson groups for chloroalkanes already 
 )
 
 entry(
-    index = 3200,
+    index = 2834,
     label = "I1s",
     group = 
 """
@@ -69969,7 +64372,7 @@ Benson groups for iodoalkanes already account for I in the Carbon-centered group
 )
 
 entry(
-    index = 3201,
+    index = 2835,
     label = "N",
     group = 
 """
@@ -69984,7 +64387,7 @@ entry(
 )
 
 entry(
-    index = 3202,
+    index = 2836,
     label = "N5sc-HHHN",
     group = 
 """
@@ -70010,7 +64413,7 @@ primaryNS |         1
 )
 
 entry(
-    index = 3203,
+    index = 2837,
     label = "N5sc-HHNN",
     group = 
 """
@@ -70036,7 +64439,7 @@ primaryNS |         3
 )
 
 entry(
-    index = 3204,
+    index = 2838,
     label = "N5sc-HHNO",
     group = 
 """
@@ -70062,7 +64465,7 @@ CHON_G4 |         27
 )
 
 entry(
-    index = 3205,
+    index = 2839,
     label = "N5sc-HNNO",
     group = 
 """
@@ -70088,7 +64491,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3206,
+    index = 2840,
     label = "N5sc-HHOO",
     group = 
 """
@@ -70114,7 +64517,7 @@ CHON_G4 |         9
 )
 
 entry(
-    index = 3207,
+    index = 2841,
     label = "N5sc-HNOO",
     group = 
 """
@@ -70140,7 +64543,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3208,
+    index = 2842,
     label = "N5sc-HOOO",
     group = 
 """
@@ -70166,7 +64569,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3209,
+    index = 2843,
     label = "N5sc-CHHO",
     group = 
 """
@@ -70192,7 +64595,7 @@ CHON_G4 |         42
 )
 
 entry(
-    index = 3210,
+    index = 2844,
     label = "N5sc-CHNO",
     group = 
 """
@@ -70218,7 +64621,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3211,
+    index = 2845,
     label = "N5sc-CHOO",
     group = 
 """
@@ -70244,7 +64647,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3212,
+    index = 2846,
     label = "N5sc-CCHO",
     group = 
 """
@@ -70270,7 +64673,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3213,
+    index = 2847,
     label = "N1s",
     group = 
 """
@@ -70285,7 +64688,7 @@ Nitrogen with two lone pairs and a single bond
 )
 
 entry(
-    index = 3214,
+    index = 2848,
     label = "N1s-H",
     group = 
 """
@@ -70306,7 +64709,7 @@ Data base on species NH(S), source: GRIMech3.0-N
 )
 
 entry(
-    index = 3215,
+    index = 2849,
     label = "N1s-Cs",
     group = 
 """
@@ -70330,7 +64733,7 @@ subtracting the Cs-N2sHHH group
 )
 
 entry(
-    index = 3216,
+    index = 2850,
     label = "N1s-Cd",
     group = 
 """
@@ -70353,7 +64756,7 @@ NOx2018 |         1
 )
 
 entry(
-    index = 3217,
+    index = 2851,
     label = "N1s-N1s",
     group = 
 """
@@ -70369,7 +64772,7 @@ Pointing to NH(S), so far no better alternative
 )
 
 entry(
-    index = 3218,
+    index = 2852,
     label = "N1s-O2s",
     group = 
 """
@@ -70385,7 +64788,7 @@ Pointing to NH(S), so far no better alternative
 )
 
 entry(
-    index = 3219,
+    index = 2853,
     label = "N1s-N3s",
     group = 
 """
@@ -70408,7 +64811,7 @@ subtracting the N3s-N3sFF group
 )
 
 entry(
-    index = 3220,
+    index = 2854,
     label = "N1dc",
     group = 
 """
@@ -70429,7 +64832,7 @@ entry(
 )
 
 entry(
-    index = 3221,
+    index = 2855,
     label = "N1sc",
     group = 
 """
@@ -70446,7 +64849,7 @@ Nitrogen with two lone pairs and two single bonds
 )
 
 entry(
-    index = 3222,
+    index = 2856,
     label = "N1sc-HN",
     group = 
 """
@@ -70471,7 +64874,7 @@ primaryNS |         3
 )
 
 entry(
-    index = 3223,
+    index = 2857,
     label = "N1sc-NN",
     group = 
 """
@@ -70496,7 +64899,7 @@ primaryNS |         2
 )
 
 entry(
-    index = 3224,
+    index = 2858,
     label = "N1sc-NO",
     group = 
 """
@@ -70520,7 +64923,7 @@ CHON_G4 |         5
 )
 
 entry(
-    index = 3225,
+    index = 2859,
     label = "N1sc-CH",
     group = 
 """
@@ -70544,7 +64947,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3226,
+    index = 2860,
     label = "N1sc-CN",
     group = 
 """
@@ -70568,7 +64971,7 @@ CHON_G4 |         6
 )
 
 entry(
-    index = 3227,
+    index = 2861,
     label = "N3s",
     group = 
 """
@@ -70583,7 +64986,7 @@ entry(
 )
 
 entry(
-    index = 3228,
+    index = 2862,
     label = "N3s-HHN",
     group = 
 """
@@ -70609,7 +65012,7 @@ primaryNS |         4
 )
 
 entry(
-    index = 3229,
+    index = 2863,
     label = "N3s-N3dHH",
     group = 
 """
@@ -70635,7 +65038,7 @@ primaryNS |         1
 )
 
 entry(
-    index = 3230,
+    index = 2864,
     label = "N3s-N3sHH",
     group = 
 """
@@ -70661,7 +65064,7 @@ primaryNS |         1
 )
 
 entry(
-    index = 3231,
+    index = 2865,
     label = "N3s-HNN",
     group = 
 """
@@ -70687,7 +65090,7 @@ primaryNS |         1
 )
 
 entry(
-    index = 3232,
+    index = 2866,
     label = "N3s-H(NO)(NO)",
     group = 
 """
@@ -70714,7 +65117,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 3233,
+    index = 2867,
     label = "N3s-NNN",
     group = 
 """
@@ -70739,7 +65142,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 3234,
+    index = 2868,
     label = "N3s-HNO",
     group = 
 """
@@ -70764,7 +65167,7 @@ CHON_G4 |         64
 )
 
 entry(
-    index = 3235,
+    index = 2869,
     label = "N3s-NNO",
     group = 
 """
@@ -70789,7 +65192,7 @@ CHON_G4 |         8
 )
 
 entry(
-    index = 3236,
+    index = 2870,
     label = "N3s-HOO",
     group = 
 """
@@ -70814,7 +65217,7 @@ CHON_G4 |         21
 )
 
 entry(
-    index = 3237,
+    index = 2871,
     label = "N3s-NOO",
     group = 
 """
@@ -70839,7 +65242,7 @@ CHON_G4 |         9
 )
 
 entry(
-    index = 3238,
+    index = 2872,
     label = "N3s-OOO",
     group = 
 """
@@ -70864,7 +65267,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 3239,
+    index = 2873,
     label = "N3s-CHO",
     group = 
 """
@@ -70889,7 +65292,7 @@ CHON_G4 |         32
 )
 
 entry(
-    index = 3240,
+    index = 2874,
     label = "N3s-CsHOs",
     group = 
 """
@@ -70914,7 +65317,7 @@ CHON_G4 |         47
 )
 
 entry(
-    index = 3241,
+    index = 2875,
     label = "N3s-CNN",
     group = 
 """
@@ -70940,7 +65343,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 3242,
+    index = 2876,
     label = "N3s-CNO",
     group = 
 """
@@ -70965,7 +65368,7 @@ CHON_G4 |         18
 )
 
 entry(
-    index = 3243,
+    index = 2877,
     label = "N3s-COO",
     group = 
 """
@@ -70990,7 +65393,7 @@ CHON_G4 |         9
 )
 
 entry(
-    index = 3244,
+    index = 2878,
     label = "N3s-CCO",
     group = 
 """
@@ -71015,7 +65418,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 3245,
+    index = 2879,
     label = "N3s-CsCsOs",
     group = 
 """
@@ -71040,7 +65443,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 3246,
+    index = 2880,
     label = "N3s-CHH",
     group = 
 """
@@ -71066,7 +65469,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 3247,
+    index = 2881,
     label = "N3s-CsHH",
     group = 
 """
@@ -71094,7 +65497,7 @@ CHON     |         7
 )
 
 entry(
-    index = 3248,
+    index = 2882,
     label = "N3s-CbHH",
     group = 
 """
@@ -71117,7 +65520,7 @@ entry(
 )
 
 entry(
-    index = 3249,
+    index = 2883,
     label = "N3s-(CO)HH",
     group = 
 """
@@ -71145,7 +65548,7 @@ CHON     |         1
 )
 
 entry(
-    index = 3250,
+    index = 2884,
     label = "N3s-CdHH",
     group = 
 """
@@ -71171,7 +65574,7 @@ BurcatNS |         2
 )
 
 entry(
-    index = 3251,
+    index = 2885,
     label = "N3s-CCH",
     group = 
 """
@@ -71196,7 +65599,7 @@ CHON_G4 |         31
 )
 
 entry(
-    index = 3252,
+    index = 2886,
     label = "N3s-CsCsH",
     group = 
 """
@@ -71223,7 +65626,7 @@ CHON    |         5
 )
 
 entry(
-    index = 3253,
+    index = 2887,
     label = "N3s-CbCsH",
     group = 
 """
@@ -71246,7 +65649,7 @@ entry(
 )
 
 entry(
-    index = 3254,
+    index = 2888,
     label = "N3s-CbCbH",
     group = 
 """
@@ -71269,7 +65672,7 @@ entry(
 )
 
 entry(
-    index = 3255,
+    index = 2889,
     label = "N3s-(CO)CsH",
     group = 
 """
@@ -71296,7 +65699,7 @@ CHON    |         1
 )
 
 entry(
-    index = 3256,
+    index = 2890,
     label = "N3s-(CO)CbH",
     group = 
 """
@@ -71320,7 +65723,7 @@ entry(
 )
 
 entry(
-    index = 3257,
+    index = 2891,
     label = "N3s-(CO)(CO)H",
     group = 
 """
@@ -71347,7 +65750,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3258,
+    index = 2892,
     label = "N3s-(CdCd)CsH",
     group = 
 """
@@ -71374,7 +65777,7 @@ CHON_G4 |         10
 )
 
 entry(
-    index = 3259,
+    index = 2893,
     label = "N3s-CCC",
     group = 
 """
@@ -71399,7 +65802,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 3260,
+    index = 2894,
     label = "N3s-CsCsCs",
     group = 
 """
@@ -71426,7 +65829,7 @@ CHON    |         2
 )
 
 entry(
-    index = 3261,
+    index = 2895,
     label = "N3s-CbCsCs",
     group = 
 """
@@ -71449,7 +65852,7 @@ entry(
 )
 
 entry(
-    index = 3262,
+    index = 2896,
     label = "N3s-(CO)CsCs",
     group = 
 """
@@ -71476,7 +65879,7 @@ CHON    |         1
 )
 
 entry(
-    index = 3263,
+    index = 2897,
     label = "N3s-(CO)(CO)Cs",
     group = 
 """
@@ -71496,7 +65899,7 @@ entry(
 )
 
 entry(
-    index = 3264,
+    index = 2898,
     label = "N3s-(CO)(CO)Cb",
     group = 
 """
@@ -71521,7 +65924,7 @@ entry(
 )
 
 entry(
-    index = 3265,
+    index = 2899,
     label = "N3s-(CdCd)CsCs",
     group = 
 """
@@ -71548,7 +65951,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3266,
+    index = 2900,
     label = "N3s-NCH",
     group = 
 """
@@ -71574,7 +65977,7 @@ BurcatNS |         2
 )
 
 entry(
-    index = 3267,
+    index = 2901,
     label = "N3s-N3sCbH",
     group = 
 """
@@ -71597,7 +66000,7 @@ entry(
 )
 
 entry(
-    index = 3268,
+    index = 2902,
     label = "N3s-N3sCsH",
     group = 
 """
@@ -71622,7 +66025,7 @@ CHON_G4 |         57
 )
 
 entry(
-    index = 3269,
+    index = 2903,
     label = "N3s-NCC",
     group = 
 """
@@ -71647,7 +66050,7 @@ CHON_G4 |         2
 )
 
 entry(
-    index = 3270,
+    index = 2904,
     label = "N3s-NCdCs",
     group = 
 """
@@ -71672,7 +66075,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3271,
+    index = 2905,
     label = "N3s-(CdCd)CsN3s",
     group = 
 """
@@ -71699,7 +66102,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3272,
+    index = 2906,
     label = "N3s-NCsCs",
     group = 
 """
@@ -71725,7 +66128,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 3273,
+    index = 2907,
     label = "N3s-CsCsN3s",
     group = 
 """
@@ -71750,7 +66153,7 @@ CHON_G4 |         7
 )
 
 entry(
-    index = 3274,
+    index = 2908,
     label = "N3s-OsHH",
     group = 
 """
@@ -71775,7 +66178,7 @@ CHON_G4 |         77
 )
 
 entry(
-    index = 3275,
+    index = 2909,
     label = "N3s-OsHH(Os)",
     group = 
 """
@@ -71799,7 +66202,7 @@ entry(
 )
 
 entry(
-    index = 3276,
+    index = 2910,
     label = "N3d",
     group = 
 """
@@ -71814,7 +66217,7 @@ entry(
 )
 
 entry(
-    index = 3277,
+    index = 2911,
     label = "N3dOd-C",
     group = 
 """
@@ -71831,7 +66234,7 @@ entry(
 )
 
 entry(
-    index = 3278,
+    index = 2912,
     label = "N3dOd-Cs",
     group = 
 """
@@ -71855,7 +66258,7 @@ CHON_G4 |         22
 )
 
 entry(
-    index = 3279,
+    index = 2913,
     label = "N3dOd-Cd",
     group = 
 """
@@ -71879,7 +66282,7 @@ CHON_G4 |         15
 )
 
 entry(
-    index = 3280,
+    index = 2914,
     label = "N3dOd-Ct",
     group = 
 """
@@ -71903,7 +66306,7 @@ CHON_G4 |         6
 )
 
 entry(
-    index = 3281,
+    index = 2915,
     label = "N3dOd-CO",
     group = 
 """
@@ -71928,7 +66331,7 @@ CHON_G4 |         4
 )
 
 entry(
-    index = 3282,
+    index = 2916,
     label = "N3dOd-N",
     group = 
 """
@@ -71945,7 +66348,7 @@ entry(
 )
 
 entry(
-    index = 3283,
+    index = 2917,
     label = "N3dOd-N3s",
     group = 
 """
@@ -71969,7 +66372,7 @@ CHON_G4 |         25
 )
 
 entry(
-    index = 3284,
+    index = 2918,
     label = "N3dOd-N3d",
     group = 
 """
@@ -71994,7 +66397,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 3285,
+    index = 2919,
     label = "N3dOd-N5sdtc",
     group = 
 """
@@ -72018,7 +66421,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 3286,
+    index = 2920,
     label = "N3dOd-N1sc",
     group = 
 """
@@ -72042,7 +66445,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3287,
+    index = 2921,
     label = "N3dOd-O",
     group = 
 """
@@ -72068,7 +66471,7 @@ NOx2018                 |         1
 )
 
 entry(
-    index = 3288,
+    index = 2922,
     label = "N3d-OdOH",
     group = 
 """
@@ -72093,7 +66496,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3289,
+    index = 2923,
     label = "N3d-HN",
     group = 
 """
@@ -72119,7 +66522,7 @@ primaryNS               |         1
 )
 
 entry(
-    index = 3290,
+    index = 2924,
     label = "N3d-N3dH",
     group = 
 """
@@ -72144,7 +66547,7 @@ primaryNS |         1
 )
 
 entry(
-    index = 3291,
+    index = 2925,
     label = "N3d-NN",
     group = 
 """
@@ -72169,7 +66572,7 @@ primaryNS |         2
 )
 
 entry(
-    index = 3292,
+    index = 2926,
     label = "N3d-N3dN3s",
     group = 
 """
@@ -72193,7 +66596,7 @@ CHON_G4 |         44
 )
 
 entry(
-    index = 3293,
+    index = 2927,
     label = "N3d-NO",
     group = 
 """
@@ -72217,7 +66620,7 @@ CHON_G4 |         42
 )
 
 entry(
-    index = 3294,
+    index = 2928,
     label = "N3d-OC",
     group = 
 """
@@ -72234,7 +66637,7 @@ entry(
 )
 
 entry(
-    index = 3295,
+    index = 2929,
     label = "N3d-OCd",
     group = 
 """
@@ -72258,7 +66661,7 @@ CHON_G4 |         43
 )
 
 entry(
-    index = 3296,
+    index = 2930,
     label = "N3d-OCdd",
     group = 
 """
@@ -72282,7 +66685,7 @@ CHON_G4 |         20
 )
 
 entry(
-    index = 3297,
+    index = 2931,
     label = "N3d-CN",
     group = 
 """
@@ -72308,7 +66711,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 3298,
+    index = 2932,
     label = "N3d-N3dCs",
     group = 
 """
@@ -72333,7 +66736,7 @@ CBS_QB3_1dHR |         1
 )
 
 entry(
-    index = 3299,
+    index = 2933,
     label = "N3d-N3dCs(CsCsCs)",
     group = 
 """
@@ -72358,7 +66761,7 @@ entry(
 )
 
 entry(
-    index = 3300,
+    index = 2934,
     label = "N3d-N3dCs(CsCsH)",
     group = 
 """
@@ -72383,7 +66786,7 @@ entry(
 )
 
 entry(
-    index = 3301,
+    index = 2935,
     label = "N3d-N3dCs(CsHH)",
     group = 
 """
@@ -72408,7 +66811,7 @@ entry(
 )
 
 entry(
-    index = 3302,
+    index = 2936,
     label = "N3d-N3dCs(HHH)",
     group = 
 """
@@ -72433,7 +66836,7 @@ entry(
 )
 
 entry(
-    index = 3303,
+    index = 2937,
     label = "N3d-NC",
     group = 
 """
@@ -72458,7 +66861,7 @@ BurcatNS |         2
 )
 
 entry(
-    index = 3304,
+    index = 2938,
     label = "N3d-N3sCd",
     group = 
 """
@@ -72482,7 +66885,7 @@ CHON_G4 |         50
 )
 
 entry(
-    index = 3305,
+    index = 2939,
     label = "N3d-N3sCdd",
     group = 
 """
@@ -72506,7 +66909,7 @@ CHON_G4 |         18
 )
 
 entry(
-    index = 3306,
+    index = 2940,
     label = "N3d-N3dCd",
     group = 
 """
@@ -72530,7 +66933,7 @@ CHON_G4 |         15
 )
 
 entry(
-    index = 3307,
+    index = 2941,
     label = "N3d-N3dCdd",
     group = 
 """
@@ -72554,7 +66957,7 @@ CHON_G4 |         9
 )
 
 entry(
-    index = 3308,
+    index = 2942,
     label = "N3d-CC",
     group = 
 """
@@ -72578,7 +66981,7 @@ CHON_G4 |         45
 )
 
 entry(
-    index = 3309,
+    index = 2943,
     label = "N3d-CdCs",
     group = 
 """
@@ -72603,7 +67006,7 @@ CHON    |         3
 )
 
 entry(
-    index = 3310,
+    index = 2944,
     label = "N3d-Cd(CsHHH)",
     group = 
 """
@@ -72628,7 +67031,7 @@ entry(
 )
 
 entry(
-    index = 3311,
+    index = 2945,
     label = "N3d-Cd(CsCsHH)",
     group = 
 """
@@ -72653,7 +67056,7 @@ entry(
 )
 
 entry(
-    index = 3312,
+    index = 2946,
     label = "N3d-CdH",
     group = 
 """
@@ -72678,7 +67081,7 @@ BurcatNS |         1
 )
 
 entry(
-    index = 3313,
+    index = 2947,
     label = "N3d-CddH",
     group = 
 """
@@ -72702,7 +67105,7 @@ CHON_G4 |         55
 )
 
 entry(
-    index = 3314,
+    index = 2948,
     label = "N3t",
     group = 
 """
@@ -72723,7 +67126,7 @@ entry(
 )
 
 entry(
-    index = 3315,
+    index = 2949,
     label = "N3t-CtH",
     group = 
 """
@@ -72745,7 +67148,7 @@ Calculated by subtracting the data for the Ct-CtCs group (Ct-Cs STEIN and FAHR; 
 )
 
 entry(
-    index = 3316,
+    index = 2950,
     label = "N3t-N",
     group = 
 """
@@ -72769,7 +67172,7 @@ primaryNS      |         1
 )
 
 entry(
-    index = 3317,
+    index = 2951,
     label = "N5dc",
     group = 
 """
@@ -72789,7 +67192,7 @@ entry(
 )
 
 entry(
-    index = 3318,
+    index = 2952,
     label = "N5dc-OdO0sc",
     group = 
 """
@@ -72806,7 +67209,7 @@ entry(
 )
 
 entry(
-    index = 3319,
+    index = 2953,
     label = "N5dc-OdO0scH",
     group = 
 """
@@ -72831,7 +67234,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3320,
+    index = 2954,
     label = "N5dc-OdO0scO",
     group = 
 """
@@ -72860,7 +67263,7 @@ CHON                    |         2
 )
 
 entry(
-    index = 3321,
+    index = 2955,
     label = "N5dc-OdO0scC",
     group = 
 """
@@ -72889,7 +67292,7 @@ CHON                    |         30
 )
 
 entry(
-    index = 3322,
+    index = 2956,
     label = "N5dc-OdO0scN",
     group = 
 """
@@ -72916,7 +67319,7 @@ thermo_DFT_CCSDTF12_BAC |         3
 )
 
 entry(
-    index = 3323,
+    index = 2957,
     label = "N5dc-OdOs",
     group = 
 """
@@ -72933,7 +67336,7 @@ entry(
 )
 
 entry(
-    index = 3324,
+    index = 2958,
     label = "N5dc-OdOsN",
     group = 
 """
@@ -72958,7 +67361,7 @@ CHON_G4 |         3
 )
 
 entry(
-    index = 3325,
+    index = 2959,
     label = "N5dc-CdO0sc",
     group = 
 """
@@ -72982,7 +67385,7 @@ CHON_G4 |         45
 )
 
 entry(
-    index = 3326,
+    index = 2960,
     label = "N5dc-CHH",
     group = 
 """
@@ -73007,7 +67410,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3327,
+    index = 2961,
     label = "N5dc-HNN",
     group = 
 """
@@ -73032,7 +67435,7 @@ primaryNS |         3
 )
 
 entry(
-    index = 3328,
+    index = 2962,
     label = "N5dc-HNO",
     group = 
 """
@@ -73057,7 +67460,7 @@ CHON_G4 |         6
 )
 
 entry(
-    index = 3329,
+    index = 2963,
     label = "N5dc-OdNH",
     group = 
 """
@@ -73082,7 +67485,7 @@ CHON_G4 |         18
 )
 
 entry(
-    index = 3330,
+    index = 2964,
     label = "N5dc-NNO",
     group = 
 """
@@ -73107,7 +67510,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3331,
+    index = 2965,
     label = "N5dc-CCH",
     group = 
 """
@@ -73132,7 +67535,7 @@ CHON_G4 |         2
 )
 
 entry(
-    index = 3332,
+    index = 2966,
     label = "N5dc-CNO",
     group = 
 """
@@ -73158,7 +67561,7 @@ thermo_DFT_CCSDTF12_BAC |         1
 )
 
 entry(
-    index = 3333,
+    index = 2967,
     label = "N5ddc",
     group = 
 """
@@ -73180,7 +67583,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3334,
+    index = 2968,
     label = "N5ddc-O2d",
     group = 
 """
@@ -73203,7 +67606,7 @@ CHON_G4 |         1
 )
 
 entry(
-    index = 3335,
+    index = 2969,
     label = "N5ddc-N1dc",
     group = 
 """
@@ -73228,7 +67631,7 @@ primaryNS               |         1
 )
 
 entry(
-    index = 3336,
+    index = 2970,
     label = "N5tc",
     group = 
 """
@@ -73253,7 +67656,6 @@ L1: R
     L2: C
         L3: CJ2_singlet
             L4: CJ2_singlet-F
-                L5: CJ2_singlet-FF
                 L5: CJ2_singlet-FC
                     L6: CJ2_singlet-FCs
                     L6: CJ2_singlet-FCO
@@ -73262,13 +67664,11 @@ L1: R
                 L5: CJ2_singlet-ClCl
                 L5: CJ2_singlet-ClC
                     L6: CJ2_singlet-ClCs
-                    L6: CJ2_singlet-ClCO
                 L5: CJ2_singlet-ClO
             L4: CJ2_singlet-Br
                 L5: CJ2_singlet-BrBr
                 L5: CJ2_singlet-BrC
                     L6: CJ2_singlet-BrCs
-                    L6: CJ2_singlet-BrCO
                 L5: CJ2_singlet-BrO
             L4: CsJ2_singlet-HH
             L4: CsJ2_singlet-OsH
@@ -73424,7 +67824,6 @@ L1: R
             L4: CdCFF
                 L5: CdCddFF
                     L6: Cd(Cdd-Od)FF
-            L4: COBrHO
             L4: CdBrCH
                 L5: CdBrCddH
                     L6: Cd(Cdd-Od)BrH
@@ -73438,20 +67837,13 @@ L1: R
                     L6: Cd(Cdd-Od)FH
             L4: COBrOO
                 L5: COBrOO_H
-                L5: COBrOO_F
-                L5: COBrOO_Cl
                 L5: COBrOO_Br
                 L5: COBrOO_C
-                L5: COBrOO_O
             L4: CdBrCO
                 L5: CdBrCddO
                     L6: Cd(Cdd-Od)BrO
                     L6: CdBrCddO_H
-                    L6: CdBrCddO_F
-                    L6: CdBrCddO_Cl
                     L6: CdBrCddO_Br
-                    L6: CdBrCddO_C
-                    L6: CdBrCddO_O
                 L5: CdBrCO_H
                 L5: CdBrCO_F
                 L5: CdBrCO_Cl
@@ -73460,20 +67852,15 @@ L1: R
                 L5: CdBrCO_O
             L4: COClOO
                 L5: COClOO_H
-                L5: COClOO_F
                 L5: COClOO_Cl
                 L5: COClOO_Br
                 L5: COClOO_C
-                L5: COClOO_O
             L4: CdCClO
                 L5: CdClCddO
                     L6: Cd(Cdd-Od)ClO
                     L6: CdClCddO_H
-                    L6: CdClCddO_F
                     L6: CdClCddO_Cl
                     L6: CdClCddO_Br
-                    L6: CdClCddO_C
-                    L6: CdClCddO_O
                 L5: CdCClO_H
                 L5: CdCClO_F
                 L5: CdCClO_Cl
@@ -73486,7 +67873,6 @@ L1: R
                 L5: COFOO_Cl
                 L5: COFOO_Br
                 L5: COFOO_C
-                L5: COFOO_O
             L4: CdCFO
                 L5: CdCddFO
                     L6: Cd(Cdd-Od)FO
@@ -73494,8 +67880,6 @@ L1: R
                     L6: CdCddFO_F
                     L6: CdCddFO_Cl
                     L6: CdCddFO_Br
-                    L6: CdCddFO_C
-                    L6: CdCddFO_O
                 L5: CdCFO_H
                 L5: CdCFO_F
                 L5: CdCFO_Cl
@@ -74100,63 +68484,48 @@ L1: R
             L4: CsFHHH
             L4: CsBrBrBrO
                 L5: CsBrBrBrO_H
-                L5: CsBrBrBrO_F
-                L5: CsBrBrBrO_Cl
                 L5: CsBrBrBrO_Br
                 L5: CsBrBrBrO_C
                 L5: CsBrBrBrO_O
             L4: CsBrBrClO
                 L5: CsBrBrClO_H
-                L5: CsBrBrClO_F
-                L5: CsBrBrClO_Cl
                 L5: CsBrBrClO_Br
                 L5: CsBrBrClO_C
                 L5: CsBrBrClO_O
             L4: CsBrClClO
                 L5: CsBrClClO_H
-                L5: CsBrClClO_F
-                L5: CsBrClClO_Cl
                 L5: CsBrClClO_Br
                 L5: CsBrClClO_C
                 L5: CsBrClClO_O
             L4: CsClClClO
                 L5: CsClClClO_H
-                L5: CsClClClO_F
                 L5: CsClClClO_Cl
                 L5: CsClClClO_Br
                 L5: CsClClClO_C
                 L5: CsClClClO_O
             L4: CsBrBrFO
                 L5: CsBrBrFO_H
-                L5: CsBrBrFO_F
-                L5: CsBrBrFO_Cl
                 L5: CsBrBrFO_Br
                 L5: CsBrBrFO_C
                 L5: CsBrBrFO_O
             L4: CsBrClFO
                 L5: CsBrClFO_H
-                L5: CsBrClFO_F
-                L5: CsBrClFO_Cl
                 L5: CsBrClFO_Br
                 L5: CsBrClFO_C
                 L5: CsBrClFO_O
             L4: CsClClFO
                 L5: CsClClFO_H
-                L5: CsClClFO_F
                 L5: CsClClFO_Cl
                 L5: CsClClFO_Br
                 L5: CsClClFO_C
                 L5: CsClClFO_O
             L4: CsBrFFO
                 L5: CsBrFFO_H
-                L5: CsBrFFO_F
-                L5: CsBrFFO_Cl
                 L5: CsBrFFO_Br
                 L5: CsBrFFO_C
                 L5: CsBrFFO_O
             L4: CsClFFO
                 L5: CsClFFO_H
-                L5: CsClFFO_F
                 L5: CsClFFO_Cl
                 L5: CsClFFO_Br
                 L5: CsClFFO_C
@@ -74170,35 +68539,27 @@ L1: R
                 L5: CsFFFO_O
             L4: CsBrBrHO
                 L5: CsBrBrHO_H
-                L5: CsBrBrHO_F
-                L5: CsBrBrHO_Cl
                 L5: CsBrBrHO_Br
                 L5: CsBrBrHO_C
                 L5: CsBrBrHO_O
             L4: CsBrClHO
                 L5: CsBrClHO_H
-                L5: CsBrClHO_F
-                L5: CsBrClHO_Cl
                 L5: CsBrClHO_Br
                 L5: CsBrClHO_C
                 L5: CsBrClHO_O
             L4: CsClClHO
                 L5: CsClClHO_H
-                L5: CsClClHO_F
                 L5: CsClClHO_Cl
                 L5: CsClClHO_Br
                 L5: CsClClHO_C
                 L5: CsClClHO_O
             L4: CsBrFHO
                 L5: CsBrFHO_H
-                L5: CsBrFHO_F
-                L5: CsBrFHO_Cl
                 L5: CsBrFHO_Br
                 L5: CsBrFHO_C
                 L5: CsBrFHO_O
             L4: CsClFHO
                 L5: CsClFHO_H
-                L5: CsClFHO_F
                 L5: CsClFHO_Cl
                 L5: CsClFHO_Br
                 L5: CsClFHO_C
@@ -74212,14 +68573,11 @@ L1: R
                 L5: CsFFHO_O
             L4: CsBrHHO
                 L5: CsBrHHO_H
-                L5: CsBrHHO_F
-                L5: CsBrHHO_Cl
                 L5: CsBrHHO_Br
                 L5: CsBrHHO_C
                 L5: CsBrHHO_O
             L4: CsClHHO
                 L5: CsClHHO_H
-                L5: CsClHHO_F
                 L5: CsClHHO_Cl
                 L5: CsClHHO_Br
                 L5: CsClHHO_C
@@ -74237,375 +68595,102 @@ L1: R
                 L5: CsBrBrOO_HCl
                 L5: CsBrBrOO_HBr
                 L5: CsBrBrOO_HC
-                L5: CsBrBrOO_HO
-                L5: CsBrBrOO_FF
-                L5: CsBrBrOO_FCl
                 L5: CsBrBrOO_FBr
-                L5: CsBrBrOO_FC
-                L5: CsBrBrOO_FO
-                L5: CsBrBrOO_ClCl
                 L5: CsBrBrOO_ClBr
-                L5: CsBrBrOO_ClC
-                L5: CsBrBrOO_ClO
                 L5: CsBrBrOO_BrBr
                 L5: CsBrBrOO_BrC
-                L5: CsBrBrOO_BrO
-                L5: CsBrBrOO_CC
-                L5: CsBrBrOO_CO
-                L5: CsBrBrOO_OO
             L4: CsBrClOO
                 L5: CsBrClOO_HH
                 L5: CsBrClOO_HF
                 L5: CsBrClOO_HCl
                 L5: CsBrClOO_HBr
                 L5: CsBrClOO_HC
-                L5: CsBrClOO_HO
-                L5: CsBrClOO_FF
-                L5: CsBrClOO_FCl
                 L5: CsBrClOO_FBr
-                L5: CsBrClOO_FC
-                L5: CsBrClOO_FO
-                L5: CsBrClOO_ClCl
                 L5: CsBrClOO_ClBr
-                L5: CsBrClOO_ClC
-                L5: CsBrClOO_ClO
-                L5: CsBrClOO_BrBr
                 L5: CsBrClOO_BrC
-                L5: CsBrClOO_BrO
-                L5: CsBrClOO_CC
-                L5: CsBrClOO_CO
-                L5: CsBrClOO_OO
             L4: CsClClOO
                 L5: CsClClOO_HH
                 L5: CsClClOO_HF
                 L5: CsClClOO_HCl
                 L5: CsClClOO_HBr
                 L5: CsClClOO_HC
-                L5: CsClClOO_HO
-                L5: CsClClOO_FF
                 L5: CsClClOO_FCl
                 L5: CsClClOO_FBr
-                L5: CsClClOO_FC
-                L5: CsClClOO_FO
                 L5: CsClClOO_ClCl
                 L5: CsClClOO_ClBr
                 L5: CsClClOO_ClC
-                L5: CsClClOO_ClO
-                L5: CsClClOO_BrBr
                 L5: CsClClOO_BrC
-                L5: CsClClOO_BrO
-                L5: CsClClOO_CC
-                L5: CsClClOO_CO
-                L5: CsClClOO_OO
             L4: CsBrFOO
                 L5: CsBrFOO_HH
                 L5: CsBrFOO_HF
-                L5: CsBrFOO_HCl
                 L5: CsBrFOO_HBr
                 L5: CsBrFOO_HC
-                L5: CsBrFOO_HO
-                L5: CsBrFOO_FF
-                L5: CsBrFOO_FCl
                 L5: CsBrFOO_FBr
-                L5: CsBrFOO_FC
-                L5: CsBrFOO_FO
-                L5: CsBrFOO_ClCl
-                L5: CsBrFOO_ClBr
-                L5: CsBrFOO_ClC
-                L5: CsBrFOO_ClO
-                L5: CsBrFOO_BrBr
                 L5: CsBrFOO_BrC
-                L5: CsBrFOO_BrO
-                L5: CsBrFOO_CC
-                L5: CsBrFOO_CO
-                L5: CsBrFOO_OO
             L4: CsClFOO
                 L5: CsClFOO_HH
                 L5: CsClFOO_HF
                 L5: CsClFOO_HCl
                 L5: CsClFOO_HBr
                 L5: CsClFOO_HC
-                L5: CsClFOO_HO
-                L5: CsClFOO_FF
                 L5: CsClFOO_FCl
                 L5: CsClFOO_FBr
-                L5: CsClFOO_FC
-                L5: CsClFOO_FO
-                L5: CsClFOO_ClCl
-                L5: CsClFOO_ClBr
                 L5: CsClFOO_ClC
-                L5: CsClFOO_ClO
-                L5: CsClFOO_BrBr
                 L5: CsClFOO_BrC
-                L5: CsClFOO_BrO
-                L5: CsClFOO_CC
-                L5: CsClFOO_CO
-                L5: CsClFOO_OO
             L4: CsFFOO
                 L5: CsFFOO_HH
                 L5: CsFFOO_HF
                 L5: CsFFOO_HCl
                 L5: CsFFOO_HBr
                 L5: CsFFOO_HC
-                L5: CsFFOO_HO
                 L5: CsFFOO_FF
                 L5: CsFFOO_FCl
                 L5: CsFFOO_FBr
                 L5: CsFFOO_FC
-                L5: CsFFOO_FO
-                L5: CsFFOO_ClCl
-                L5: CsFFOO_ClBr
                 L5: CsFFOO_ClC
-                L5: CsFFOO_ClO
-                L5: CsFFOO_BrBr
                 L5: CsFFOO_BrC
-                L5: CsFFOO_BrO
-                L5: CsFFOO_CC
-                L5: CsFFOO_CO
-                L5: CsFFOO_OO
             L4: CsBrHOO
                 L5: CsBrHOO_HH
                 L5: CsBrHOO_HF
                 L5: CsBrHOO_HCl
                 L5: CsBrHOO_HBr
                 L5: CsBrHOO_HC
-                L5: CsBrHOO_HO
-                L5: CsBrHOO_FF
-                L5: CsBrHOO_FCl
                 L5: CsBrHOO_FBr
-                L5: CsBrHOO_FC
-                L5: CsBrHOO_FO
-                L5: CsBrHOO_ClCl
                 L5: CsBrHOO_ClBr
-                L5: CsBrHOO_ClC
-                L5: CsBrHOO_ClO
                 L5: CsBrHOO_BrBr
                 L5: CsBrHOO_BrC
-                L5: CsBrHOO_BrO
-                L5: CsBrHOO_CC
-                L5: CsBrHOO_CO
-                L5: CsBrHOO_OO
             L4: CsClHOO
                 L5: CsClHOO_HH
                 L5: CsClHOO_HF
                 L5: CsClHOO_HCl
                 L5: CsClHOO_HBr
                 L5: CsClHOO_HC
-                L5: CsClHOO_HO
-                L5: CsClHOO_FF
                 L5: CsClHOO_FCl
                 L5: CsClHOO_FBr
-                L5: CsClHOO_FC
-                L5: CsClHOO_FO
                 L5: CsClHOO_ClCl
                 L5: CsClHOO_ClBr
                 L5: CsClHOO_ClC
-                L5: CsClHOO_ClO
-                L5: CsClHOO_BrBr
                 L5: CsClHOO_BrC
-                L5: CsClHOO_BrO
-                L5: CsClHOO_CC
-                L5: CsClHOO_CO
-                L5: CsClHOO_OO
             L4: CsFHOO
                 L5: CsFHOO_HH
                 L5: CsFHOO_HF
                 L5: CsFHOO_HCl
                 L5: CsFHOO_HBr
                 L5: CsFHOO_HC
-                L5: CsFHOO_HO
                 L5: CsFHOO_FF
                 L5: CsFHOO_FCl
                 L5: CsFHOO_FBr
                 L5: CsFHOO_FC
-                L5: CsFHOO_FO
-                L5: CsFHOO_ClCl
-                L5: CsFHOO_ClBr
                 L5: CsFHOO_ClC
-                L5: CsFHOO_ClO
-                L5: CsFHOO_BrBr
                 L5: CsFHOO_BrC
-                L5: CsFHOO_BrO
-                L5: CsFHOO_CC
-                L5: CsFHOO_CO
-                L5: CsFHOO_OO
             L4: CsBrOOO
-                L5: CsBrOOO_HHH
-                L5: CsBrOOO_HHF
-                L5: CsBrOOO_HHCl
-                L5: CsBrOOO_HHBr
-                L5: CsBrOOO_HHC
-                L5: CsBrOOO_HHO
-                L5: CsBrOOO_HFF
-                L5: CsBrOOO_HFCl
-                L5: CsBrOOO_HFBr
-                L5: CsBrOOO_HFC
-                L5: CsBrOOO_HFO
-                L5: CsBrOOO_HClCl
-                L5: CsBrOOO_HClBr
-                L5: CsBrOOO_HClC
-                L5: CsBrOOO_HClO
-                L5: CsBrOOO_HBrBr
-                L5: CsBrOOO_HBrC
-                L5: CsBrOOO_HBrO
-                L5: CsBrOOO_HCC
-                L5: CsBrOOO_HCO
-                L5: CsBrOOO_HOO
-                L5: CsBrOOO_FFF
-                L5: CsBrOOO_FFCl
-                L5: CsBrOOO_FFBr
-                L5: CsBrOOO_FFC
-                L5: CsBrOOO_FFO
-                L5: CsBrOOO_FClCl
-                L5: CsBrOOO_FClBr
-                L5: CsBrOOO_FClC
-                L5: CsBrOOO_FClO
-                L5: CsBrOOO_FBrBr
-                L5: CsBrOOO_FBrC
-                L5: CsBrOOO_FBrO
-                L5: CsBrOOO_FCC
-                L5: CsBrOOO_FCO
-                L5: CsBrOOO_FOO
-                L5: CsBrOOO_ClClCl
-                L5: CsBrOOO_ClClBr
-                L5: CsBrOOO_ClClC
-                L5: CsBrOOO_ClClO
-                L5: CsBrOOO_ClBrBr
-                L5: CsBrOOO_ClBrC
-                L5: CsBrOOO_ClBrO
-                L5: CsBrOOO_ClCC
-                L5: CsBrOOO_ClCO
-                L5: CsBrOOO_ClOO
-                L5: CsBrOOO_BrBrBr
-                L5: CsBrOOO_BrBrC
-                L5: CsBrOOO_BrBrO
-                L5: CsBrOOO_BrCC
-                L5: CsBrOOO_BrCO
-                L5: CsBrOOO_BrOO
-                L5: CsBrOOO_CCC
-                L5: CsBrOOO_CCO
-                L5: CsBrOOO_COO
-                L5: CsBrOOO_OOO
             L4: CsClOOO
-                L5: CsClOOO_HHH
-                L5: CsClOOO_HHF
-                L5: CsClOOO_HHCl
-                L5: CsClOOO_HHBr
-                L5: CsClOOO_HHC
-                L5: CsClOOO_HHO
-                L5: CsClOOO_HFF
-                L5: CsClOOO_HFCl
-                L5: CsClOOO_HFBr
-                L5: CsClOOO_HFC
-                L5: CsClOOO_HFO
-                L5: CsClOOO_HClCl
-                L5: CsClOOO_HClBr
-                L5: CsClOOO_HClC
-                L5: CsClOOO_HClO
-                L5: CsClOOO_HBrBr
-                L5: CsClOOO_HBrC
-                L5: CsClOOO_HBrO
-                L5: CsClOOO_HCC
-                L5: CsClOOO_HCO
-                L5: CsClOOO_HOO
-                L5: CsClOOO_FFF
-                L5: CsClOOO_FFCl
-                L5: CsClOOO_FFBr
-                L5: CsClOOO_FFC
-                L5: CsClOOO_FFO
-                L5: CsClOOO_FClCl
-                L5: CsClOOO_FClBr
-                L5: CsClOOO_FClC
-                L5: CsClOOO_FClO
-                L5: CsClOOO_FBrBr
-                L5: CsClOOO_FBrC
-                L5: CsClOOO_FBrO
-                L5: CsClOOO_FCC
-                L5: CsClOOO_FCO
-                L5: CsClOOO_FOO
-                L5: CsClOOO_ClClCl
-                L5: CsClOOO_ClClBr
-                L5: CsClOOO_ClClC
-                L5: CsClOOO_ClClO
-                L5: CsClOOO_ClBrBr
-                L5: CsClOOO_ClBrC
-                L5: CsClOOO_ClBrO
-                L5: CsClOOO_ClCC
-                L5: CsClOOO_ClCO
-                L5: CsClOOO_ClOO
-                L5: CsClOOO_BrBrBr
-                L5: CsClOOO_BrBrC
-                L5: CsClOOO_BrBrO
-                L5: CsClOOO_BrCC
-                L5: CsClOOO_BrCO
-                L5: CsClOOO_BrOO
-                L5: CsClOOO_CCC
-                L5: CsClOOO_CCO
-                L5: CsClOOO_COO
-                L5: CsClOOO_OOO
             L4: CsFOOO
-                L5: CsFOOO_HHH
-                L5: CsFOOO_HHF
-                L5: CsFOOO_HHCl
-                L5: CsFOOO_HHBr
-                L5: CsFOOO_HHC
-                L5: CsFOOO_HHO
-                L5: CsFOOO_HFF
-                L5: CsFOOO_HFCl
-                L5: CsFOOO_HFBr
-                L5: CsFOOO_HFC
-                L5: CsFOOO_HFO
-                L5: CsFOOO_HClCl
-                L5: CsFOOO_HClBr
-                L5: CsFOOO_HClC
-                L5: CsFOOO_HClO
-                L5: CsFOOO_HBrBr
-                L5: CsFOOO_HBrC
-                L5: CsFOOO_HBrO
-                L5: CsFOOO_HCC
-                L5: CsFOOO_HCO
-                L5: CsFOOO_HOO
-                L5: CsFOOO_FFF
-                L5: CsFOOO_FFCl
-                L5: CsFOOO_FFBr
-                L5: CsFOOO_FFC
-                L5: CsFOOO_FFO
-                L5: CsFOOO_FClCl
-                L5: CsFOOO_FClBr
-                L5: CsFOOO_FClC
-                L5: CsFOOO_FClO
-                L5: CsFOOO_FBrBr
-                L5: CsFOOO_FBrC
-                L5: CsFOOO_FBrO
-                L5: CsFOOO_FCC
-                L5: CsFOOO_FCO
-                L5: CsFOOO_FOO
-                L5: CsFOOO_ClClCl
-                L5: CsFOOO_ClClBr
-                L5: CsFOOO_ClClC
-                L5: CsFOOO_ClClO
-                L5: CsFOOO_ClBrBr
-                L5: CsFOOO_ClBrC
-                L5: CsFOOO_ClBrO
-                L5: CsFOOO_ClCC
-                L5: CsFOOO_ClCO
-                L5: CsFOOO_ClOO
-                L5: CsFOOO_BrBrBr
-                L5: CsFOOO_BrBrC
-                L5: CsFOOO_BrBrO
-                L5: CsFOOO_BrCC
-                L5: CsFOOO_BrCO
-                L5: CsFOOO_BrOO
-                L5: CsFOOO_CCC
-                L5: CsFOOO_CCO
-                L5: CsFOOO_COO
-                L5: CsFOOO_OOO
             L4: CsBrBrBrC
                 L5: CsBrBrBrCs
                 L5: CsBrBrBrCd
                 L5: CsBrBrBrCt
                 L5: CsBrBrBrCO
-                L5: CsC2sBrBrBr
             L4: CsBrBrCCl
             L4: CsBrCClCl
             L4: CsCClClCl
@@ -74664,7 +68749,6 @@ L1: R
             L4: CsBrCFO
                 L5: CsBrCFO_H
                 L5: CsBrCFO_F
-                L5: CsBrCFO_Cl
                 L5: CsBrCFO_Br
                 L5: CsBrCFO_C
                 L5: CsBrCFO_O
@@ -74705,70 +68789,26 @@ L1: R
                 L5: CsCFHO_O
             L4: CsBrCOO
                 L5: CsBrCOO_HH
-                L5: CsBrCOO_HF
-                L5: CsBrCOO_HCl
                 L5: CsBrCOO_HBr
-                L5: CsBrCOO_HC
-                L5: CsBrCOO_HO
-                L5: CsBrCOO_FF
-                L5: CsBrCOO_FCl
-                L5: CsBrCOO_FBr
-                L5: CsBrCOO_FC
-                L5: CsBrCOO_FO
-                L5: CsBrCOO_ClCl
-                L5: CsBrCOO_ClBr
-                L5: CsBrCOO_ClC
-                L5: CsBrCOO_ClO
                 L5: CsBrCOO_BrBr
-                L5: CsBrCOO_BrC
-                L5: CsBrCOO_BrO
-                L5: CsBrCOO_CC
-                L5: CsBrCOO_CO
-                L5: CsBrCOO_OO
             L4: CsCClOO
                 L5: CsCClOO_HH
-                L5: CsCClOO_HF
                 L5: CsCClOO_HCl
                 L5: CsCClOO_HBr
-                L5: CsCClOO_HC
-                L5: CsCClOO_HO
-                L5: CsCClOO_FF
-                L5: CsCClOO_FCl
-                L5: CsCClOO_FBr
-                L5: CsCClOO_FC
-                L5: CsCClOO_FO
                 L5: CsCClOO_ClCl
                 L5: CsCClOO_ClBr
-                L5: CsCClOO_ClC
-                L5: CsCClOO_ClO
                 L5: CsCClOO_BrBr
-                L5: CsCClOO_BrC
-                L5: CsCClOO_BrO
-                L5: CsCClOO_CC
-                L5: CsCClOO_CO
-                L5: CsCClOO_OO
             L4: CsCFOO
                 L5: CsCFOO_HH
                 L5: CsCFOO_HF
                 L5: CsCFOO_HCl
                 L5: CsCFOO_HBr
-                L5: CsCFOO_HC
-                L5: CsCFOO_HO
                 L5: CsCFOO_FF
                 L5: CsCFOO_FCl
                 L5: CsCFOO_FBr
-                L5: CsCFOO_FC
-                L5: CsCFOO_FO
                 L5: CsCFOO_ClCl
                 L5: CsCFOO_ClBr
-                L5: CsCFOO_ClC
-                L5: CsCFOO_ClO
                 L5: CsCFOO_BrBr
-                L5: CsCFOO_BrC
-                L5: CsCFOO_BrO
-                L5: CsCFOO_CC
-                L5: CsCFOO_CO
-                L5: CsCFOO_OO
             L4: CsBrBrCC
                 L5: CsBrBrCsCs
             L4: CsBrCCCl
@@ -74786,25 +68826,16 @@ L1: R
                 L5: CsCsCsFH
             L4: CsBrCCO
                 L5: CsBrCCO_H
-                L5: CsBrCCO_F
-                L5: CsBrCCO_Cl
                 L5: CsBrCCO_Br
-                L5: CsBrCCO_C
-                L5: CsBrCCO_O
             L4: CsCCClO
                 L5: CsCCClO_H
-                L5: CsCCClO_F
                 L5: CsCCClO_Cl
                 L5: CsCCClO_Br
-                L5: CsCCClO_C
-                L5: CsCCClO_O
             L4: CsCCFO
                 L5: CsCCFO_H
                 L5: CsCCFO_F
                 L5: CsCCFO_Cl
                 L5: CsCCFO_Br
-                L5: CsCCFO_C
-                L5: CsCCFO_O
             L4: CsBrCCC
             L4: CsCCCCl
             L4: CsCCCF
@@ -76202,24 +70233,30 @@ L1: R
                 L5: O2sBrO_Cl
                 L5: O2sBrO_Br
                 L5: O2sBrO_C
-                L5: O2sBrO_O
             L4: O2sClO
                 L5: O2sClO_H
                 L5: O2sClO_F
                 L5: O2sClO_Cl
                 L5: O2sClO_Br
                 L5: O2sClO_C
-                L5: O2sClO_O
             L4: O2sFO
                 L5: O2sFO_H
                 L5: O2sFO_F
                 L5: O2sFO_Cl
                 L5: O2sFO_Br
                 L5: O2sFO_C
-                L5: O2sFO_O
             L4: O2sBrC
+                L5: O2sBrCs
+                L5: O2sBrCd
+                L5: O2sBrCt
             L4: O2sCCl
+                L5: O2sCsCl
+                L5: O2sCdCl
+                L5: O2sCtCl
             L4: O2sCF
+                L5: O2sCsF
+                L5: O2sCdF
+                L5: O2sCtF
             L4: O2s-HH
             L4: O2s-OsH
                 L5: O2s-(Os-CdOd)H
