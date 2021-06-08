@@ -274,6 +274,342 @@ u"""
 )
 
 entry(
+    index = 235117,
+    label = "ThreeMember-CdVal7",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,D}
+2   R!H u0 {1,S} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,D} {5,S}
+5   Val7 u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 118,
+    label = 'ThreeMember-CdF',
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,D}
+2   R!H u0 {1,S} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,D} {5,S}
+5   F u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 119,
+    label = "ThreeMember-CdCl",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,D}
+2   R!H u0 {1,S} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,D} {5,S}
+5   Cl u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 120,
+    label = "ThreeMember-CdBr",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,D}
+2   R!H u0 {1,S} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,D} {5,S}
+5   Br u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 121,
+    label = "ThreeMember-CdF2",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,D}
+2   R!H u0 {1,S} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,D} {5,S} {6,S}
+5   F u0 {4,S}
+6   F u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 122,
+    label = "ThreeMember-CdCl2",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,D}
+2   R!H u0 {1,S} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,D} {5,S} {6,S}
+5   Cl u0 {4,S}
+6   Cl u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 123,
+    label = "ThreeMember-CdBr2",
+    group = 
+"""
+1 * R!H u0 {2,S} {3,S} {4,D}
+2   R!H u0 {1,S} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,D} {5,S} {6,S}
+5   Br u0 {4,S}
+6   Br u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 217,
+    label = "ThreeMember-CVal7",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S}
+5   Val7 u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 218,
+    label = "ThreeMember-CF",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S}
+5   F u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1111,
+    label = "ThreeMember-CCl",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S}
+5   Cl u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 117123,
+    label = "ThreeMember-CBr",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S}
+5   Br u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 417,
+    label = "ThreeMember-CF2",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S} {6,S}
+5   F u0 {4,S}
+6   F u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 517,
+    label = "ThreeMember-CCl2",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S} {6,S}
+5   Cl u0 {4,S}
+6   Cl u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 617,
+    label = "ThreeMember-CBr2",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S} {6,S}
+5   Br u0 {4,S}
+6   Br u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 717,
+    label = "ThreeMember-CF3",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S} {6,S} {7,S}
+5   F u0 {4,S}
+6   F u0 {4,S}
+7   F u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 817,
+    label = "ThreeMember-CCl3",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S} {6,S} {7,S}
+5   Cl u0 {4,S}
+6   Cl u0 {4,S}
+7   Cl u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 11700,
+    label = "ThreeMember-CBr3",
+    group = 
+"""
+1 * R!H u0 {2,[S,D]} {3,S} {4,S}
+2   R!H u0 {1,[S,D]} {3,S}
+3   R!H u0 {1,S} {2,S}
+4   C u0 {1,S} {5,S} {6,S} {7,S}
+5   Br u0 {4,S}
+6   Br u0 {4,S}
+7   Br u0 {4,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 22,
     label = "ThreeMember-Br2",
     group = 
@@ -444,6 +780,23 @@ L1: R
             L4: ThreeMember-Cl2
         L3: ThreeMember-Br
             L4: ThreeMember-Br2
+    L2: ThreeMember-CdVal7
+        L3: ThreeMember-CdF
+            L4: ThreeMember-CdF2
+        L3: ThreeMember-CdCl
+            L4: ThreeMember-CdCl2
+        L3: ThreeMember-CdBr
+            L4: ThreeMember-CdBr2
+    L2: ThreeMember-CVal7
+        L3: ThreeMember-CF
+            L4: ThreeMember-CF2
+                L5: ThreeMember-CF3
+        L3: ThreeMember-CCl
+            L4: ThreeMember-CCl2
+                L5: ThreeMember-CCl3
+        L3: ThreeMember-CBr
+            L4: ThreeMember-CBr2
+                L5: ThreeMember-CBr3
     L2: FourMember-Val7
         L3: FourMember-F
             L4: FourMember-F2
