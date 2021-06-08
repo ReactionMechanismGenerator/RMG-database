@@ -1709,7 +1709,7 @@ This is R109 in Appendix A
 )
 
 entry(
-    index = 63,
+    index = 69,
     label = "O* + H3NX <=> H2NX + OH_4*",
     degeneracy = 3.0,
     kinetics = SurfaceArrhenius(A=(2.33e21,'cm^2/(mol*s)'), n=0, Ea=(62718.5,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1735,7 +1735,7 @@ This is reaction (3) in Table S2
 )
 
 entry(
-    index = 64,
+    index = 70,
     label = "H2NX-2 + OH_2* <=> H2O* + HNX",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(2.33e21,'cm^2/(mol*s)'), n=0, Ea=(97454.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1761,7 +1761,7 @@ This is reaction (7) in Table S2
 )
 
 entry(
-    index = 65,
+    index = 71,
     label = "HNX-2 + OH_2* <=> H2O* + NX",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(2.33e21,'cm^2/(mol*s)'), n=0, Ea=(85876.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
@@ -1787,7 +1787,7 @@ This is reaction (8) in Table S2
 )
 
 entry(
-    index = 66,
+    index = 72,
     label = "OH_2* + OH_4* <=> H2O* + O*",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(2.33e21,'cm^2/(mol*s)'), n=0, Ea=(92630.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),

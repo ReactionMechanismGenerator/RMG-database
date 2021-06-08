@@ -274,7 +274,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 74,
+    index = 75,
     label = "HCOH* + HX_5 <=> CH2OH* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
