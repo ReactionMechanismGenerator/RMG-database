@@ -33,7 +33,7 @@ entry(
 entry(
     index = 1,
     label = "YJ",
-    group = "OR{HJ, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ}",
+    group = "OR{HJ, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ, SiJ}",
     kinetics = None,
 )
 
@@ -17616,6 +17616,16 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1212,
+    label = "SiJ",
+    group = 
+"""
+1 *3 Si u1 p0
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -18830,6 +18840,7 @@ L1: YJ
                 L5: N3dJ_C
                 L5: N3dJ_O
                 L5: N3dJ_N
+    L2: SiJ
 """
 )
 
