@@ -97,16 +97,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.0237077,0.1644,0.256666,0.293265,0.299715,0.280658,0.394394],'cal/(mol*K)','+|-',[0.185831,0.207701,0.209983,0.206526,0.179917,0.154629,0.131536]),
-        H298 = (4.00388,'kcal/mol','+|-',0.631215),
-        S298 = (0.542585,'cal/(mol*K)','+|-',0.545452),
+        Cpdata = ([-0.0259703,0.145361,0.228419,0.264736,0.272031,0.260902,0.386662],'cal/(mol*K)','+|-',[0.194532,0.223575,0.228548,0.225195,0.195275,0.168423,0.137261]),
+        H298 = (4.00851,'kcal/mol','+|-',0.69349),
+        S298 = (0.213049,'cal/(mol*K)','+|-',0.472655),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOFBr_G4 |         5
+Library   | Number of Species
+CHOFBr_G4 |         5
 """,
 )
 
@@ -126,16 +126,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.579455,0.432446,0.349853,0.288426,0.164176,0.0561215,0.00914887],'cal/(mol*K)','+|-',[0.407642,0.455616,0.460623,0.453038,0.394669,0.339197,0.288541]),
-        H298 = (4.02983,'kcal/mol','+|-',1.38464),
-        S298 = (-1.03837,'cal/(mol*K)','+|-',1.19651),
+        Cpdata = ([0.58395,0.422438,0.329857,0.265712,0.142862,0.039853,-0.000261073],'cal/(mol*K)','+|-',[0.426787,0.490505,0.501416,0.49406,0.428416,0.369505,0.301139]),
+        H298 = (4.083,'kcal/mol','+|-',1.52146),
+        S298 = (-0.560747,'cal/(mol*K)','+|-',1.03697),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         1
+Library  | Number of Species
+CHOCl_G4 |         1
 """,
 )
 
@@ -155,16 +155,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.130504,0.31238,0.328377,0.356799,0.395379,0.376677,0.301946],'cal/(mol*K)','+|-',[0.405035,0.452703,0.457678,0.450141,0.392146,0.337028,0.286696]),
-        H298 = (5.50479,'kcal/mol','+|-',1.37579),
-        S298 = (-1.4598,'cal/(mol*K)','+|-',1.18886),
+        Cpdata = ([0.120285,0.291299,0.303352,0.332491,0.374215,0.363645,0.297872],'cal/(mol*K)','+|-',[0.424053,0.487362,0.498204,0.490894,0.425672,0.367138,0.299209]),
+        H298 = (5.51679,'kcal/mol','+|-',1.51171),
+        S298 = (-0.927557,'cal/(mol*K)','+|-',1.03032),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library         | Number of Species
-library:CHOF_G4 |         1
+Library | Number of Species
+CHOF_G4 |         1
 """,
 )
 
@@ -206,19 +206,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.649432,-0.613998,-0.459804,-0.402124,-0.349373,-0.260931,0.272767],'cal/(mol*K)','+|-',[0.120322,0.134483,0.135961,0.133722,0.116493,0.10012,0.0851677]),
-        H298 = (4.62481,'kcal/mol','+|-',0.408701),
-        S298 = (2.4581,'cal/(mol*K)','+|-',0.353171),
+        Cpdata = ([-0.641264,-0.611657,-0.463313,-0.410666,-0.367564,-0.278016,0.26121],'cal/(mol*K)','+|-',[0.12583,0.144616,0.147833,0.145664,0.126311,0.108942,0.0887851]),
+        H298 = (4.63192,'kcal/mol','+|-',0.448574),
+        S298 = (1.83946,'cal/(mol*K)','+|-',0.30573),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         8
-library:CHOFClBr_G4 |         15
-library:CHOFBr_G4   |         20
-library:CHOClBr_G4  |         11
+Library     | Number of Species
+CHOFCl_G4   |         8
+CHOFClBr_G4 |         15
+CHOFBr_G4   |         20
+CHOClBr_G4  |         11
 """,
 )
 
@@ -238,16 +238,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.00372668,-0.254112,-0.263806,-0.231626,-0.181975,-0.0751458,0.42894],'cal/(mol*K)','+|-',[0.166232,0.185796,0.187838,0.184744,0.160942,0.138321,0.117664]),
-        H298 = (9.49979,'kcal/mol','+|-',0.564644),
-        S298 = (2.21743,'cal/(mol*K)','+|-',0.487926),
+        Cpdata = ([-0.0562964,-0.279006,-0.263713,-0.232479,-0.195939,-0.109275,0.408085],'cal/(mol*K)','+|-',[0.171967,0.197641,0.202038,0.199074,0.172624,0.148886,0.121339]),
+        H298 = (9.19951,'kcal/mol','+|-',0.613048),
+        S298 = (0.302736,'cal/(mol*K)','+|-',0.417829),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         40
+Library  | Number of Species
+CHOCl_G4 |         40
 """,
 )
 
@@ -267,16 +267,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.250048,-0.189885,-0.0500303,0.0311503,0.0713201,0.144045,0.436909],'cal/(mol*K)','+|-',[0.156494,0.174912,0.176834,0.173922,0.151514,0.130218,0.110771]),
-        H298 = (10.414,'kcal/mol','+|-',0.531566),
-        S298 = (3.40118,'cal/(mol*K)','+|-',0.459342),
+        Cpdata = ([-0.227608,-0.224725,-0.105533,-0.0413895,-0.021153,0.0368277,0.363019],'cal/(mol*K)','+|-',[0.162445,0.186697,0.19085,0.18805,0.163065,0.140642,0.11462]),
+        H298 = (10.1314,'kcal/mol','+|-',0.579102),
+        S298 = (1.73408,'cal/(mol*K)','+|-',0.394693),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library         | Number of Species
-library:CHOF_G4 |         41
+Library | Number of Species
+CHOF_G4 |         41
 """,
 )
 
@@ -296,16 +296,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.167718,-0.447111,-0.549533,-0.662454,-0.833597,-0.865357,-0.384133],'cal/(mol*K)','+|-',[0.802758,0.897233,0.907092,0.892155,0.777211,0.667971,0.568215]),
-        H298 = (4.96565,'kcal/mol','+|-',2.72674),
-        S298 = (2.6469,'cal/(mol*K)','+|-',2.35626),
+        Cpdata = ([-0.174914,-0.468033,-0.577286,-0.695076,-0.868638,-0.895252,-0.406172],'cal/(mol*K)','+|-',[0.840468,0.965947,0.987434,0.972947,0.843677,0.727664,0.59303]),
+        H298 = (5.01486,'kcal/mol','+|-',2.9962),
+        S298 = (2.35415,'cal/(mol*K)','+|-',2.04209),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOBr_G4 |         1
+Library  | Number of Species
+CHOBr_G4 |         1
 """,
 )
 
@@ -350,19 +350,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.310155,-0.32123,-0.239056,-0.184464,-0.121291,-0.0528434,0.297517],'cal/(mol*K)','+|-',[0.0903475,0.10098,0.10209,0.100409,0.0874724,0.0751778,0.0639506]),
-        H298 = (2.9397,'kcal/mol','+|-',0.306885),
-        S298 = (3.21398,'cal/(mol*K)','+|-',0.265188),
+        Cpdata = ([-0.272434,-0.28022,-0.208647,-0.165339,-0.112686,-0.0594042,0.277132],'cal/(mol*K)','+|-',[0.0940798,0.108126,0.110531,0.108909,0.094439,0.0814528,0.0663822]),
+        H298 = (2.92929,'kcal/mol','+|-',0.335387),
+        S298 = (1.94606,'cal/(mol*K)','+|-',0.228586),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         15
-library:CHOFClBr_G4 |         21
-library:CHOFBr_G4   |         63
-library:CHOClBr_G4  |         21
+Library     | Number of Species
+CHOFCl_G4   |         15
+CHOFClBr_G4 |         21
+CHOFBr_G4   |         63
+CHOClBr_G4  |         21
 """,
 )
 
@@ -382,16 +382,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.192711,-0.290667,-0.268575,-0.238512,-0.199744,-0.10067,0.303139],'cal/(mol*K)','+|-',[0.132753,0.148376,0.150006,0.147536,0.128528,0.110463,0.0939661]),
-        H298 = (5.57149,'kcal/mol','+|-',0.450923),
-        S298 = (3.36258,'cal/(mol*K)','+|-',0.389656),
+        Cpdata = ([-0.218209,-0.313114,-0.280043,-0.250572,-0.215988,-0.129575,0.282924],'cal/(mol*K)','+|-',[0.138023,0.158629,0.162158,0.159779,0.13855,0.119498,0.0973881]),
+        H298 = (5.43337,'kcal/mol','+|-',0.492039),
+        S298 = (1.24034,'cal/(mol*K)','+|-',0.335354),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         60
+Library  | Number of Species
+CHOCl_G4 |         60
 """,
 )
 
@@ -411,17 +411,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.073355,0.208602,0.246827,0.234723,0.186484,0.170508,0.290019],'cal/(mol*K)','+|-',[0.125188,0.139921,0.141458,0.139129,0.121204,0.104168,0.0886114]),
-        H298 = (6.65334,'kcal/mol','+|-',0.425227),
-        S298 = (3.22236,'cal/(mol*K)','+|-',0.367451),
+        Cpdata = ([0.0765787,0.195496,0.229714,0.210363,0.151387,0.122269,0.252817],'cal/(mol*K)','+|-',[0.129794,0.149171,0.15249,0.150253,0.130289,0.112373,0.0915817]),
+        H298 = (6.64698,'kcal/mol','+|-',0.462703),
+        S298 = (1.38455,'cal/(mol*K)','+|-',0.31536),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         62
-library:CHOFBr_G4 |         2
+Library   | Number of Species
+CHOF_G4   |         62
+CHOFBr_G4 |         2
 """,
 )
 
@@ -441,17 +441,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.433704,-0.571648,-0.592816,-0.639095,-0.678003,-0.565108,0.0871202],'cal/(mol*K)','+|-',[0.308366,0.344657,0.348444,0.342706,0.298553,0.25659,0.21827]),
-        H298 = (3.64152,'kcal/mol','+|-',1.04743),
-        S298 = (2.50793,'cal/(mol*K)','+|-',0.905116),
+        Cpdata = ([-0.468657,-0.616864,-0.632656,-0.67907,-0.720854,-0.606538,0.0468072],'cal/(mol*K)','+|-',[0.322295,0.370412,0.378652,0.373097,0.323525,0.279038,0.227409]),
+        H298 = (3.36394,'kcal/mol','+|-',1.14895),
+        S298 = (1.47743,'cal/(mol*K)','+|-',0.783081),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOBr_G4  |         7
-library:CHOFBr_G4 |         1
+Library   | Number of Species
+CHOBr_G4  |         7
+CHOFBr_G4 |         1
 """,
 )
 
@@ -470,19 +470,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0751243,0.473581,0.602548,0.648239,0.621319,0.560548,0.541552],'cal/(mol*K)','+|-',[0.155888,0.174234,0.176149,0.173248,0.150927,0.129714,0.110342]),
-        H298 = (4.37607,'kcal/mol','+|-',0.529508),
-        S298 = (2.89978,'cal/(mol*K)','+|-',0.457564),
+        Cpdata = ([0.0473653,0.373771,0.469393,0.502914,0.486225,0.452641,0.477837],'cal/(mol*K)','+|-',[0.162931,0.187256,0.191421,0.188613,0.163553,0.141063,0.114963]),
+        H298 = (4.68074,'kcal/mol','+|-',0.580835),
+        S298 = (1.5466,'cal/(mol*K)','+|-',0.395874),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         3
-library:CHOFClBr_G4 |         6
-library:CHOFBr_G4   |         21
-library:CHOClBr_G4  |         6
+Library     | Number of Species
+CHOFCl_G4   |         3
+CHOFClBr_G4 |         6
+CHOFBr_G4   |         21
+CHOClBr_G4  |         6
 """,
 )
 
@@ -501,16 +501,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.325899,0.0189191,0.213026,0.300168,0.372871,0.414767,0.517436],'cal/(mol*K)','+|-',[0.230996,0.258181,0.261018,0.25672,0.223644,0.19221,0.163505]),
-        H298 = (3.63586,'kcal/mol','+|-',0.784626),
-        S298 = (2.10133,'cal/(mol*K)','+|-',0.678019),
+        Cpdata = ([-0.333743,-0.0133789,0.172704,0.254693,0.327201,0.376529,0.492609],'cal/(mol*K)','+|-',[0.241749,0.277841,0.284022,0.279855,0.242672,0.209302,0.170577]),
+        H298 = (3.7534,'kcal/mol','+|-',0.861815),
+        S298 = (0.760007,'cal/(mol*K)','+|-',0.587379),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         19
+Library  | Number of Species
+CHOCl_G4 |         19
 """,
 )
 
@@ -529,16 +529,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.123102,0.00317034,0.0294552,0.0373139,0.0734727,0.123219,0.21547],'cal/(mol*K)','+|-',[0.228069,0.25491,0.257711,0.253468,0.220811,0.189775,0.161434]),
-        H298 = (6.08999,'kcal/mol','+|-',0.774686),
-        S298 = (3.06248,'cal/(mol*K)','+|-',0.66943),
+        Cpdata = ([-0.143786,-0.0464458,-0.0301482,-0.0290795,0.0102118,0.0731887,0.186089],'cal/(mol*K)','+|-',[0.238665,0.274297,0.280399,0.276285,0.239576,0.206633,0.168401]),
+        H298 = (6.2676,'kcal/mol','+|-',0.850821),
+        S298 = (1.75859,'cal/(mol*K)','+|-',0.579886),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library         | Number of Species
-library:CHOF_G4 |         19
+Library | Number of Species
+CHOF_G4 |         19
 """,
 )
 
@@ -557,17 +557,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0717925,0.513416,0.635187,0.670602,0.619926,0.524993,0.275934],'cal/(mol*K)','+|-',[0.58708,0.656172,0.663383,0.652459,0.568397,0.488507,0.415552]),
-        H298 = (3.80425,'kcal/mol','+|-',1.99414),
-        S298 = (3.8777,'cal/(mol*K)','+|-',1.7232),
+        Cpdata = ([0.0440436,0.466065,0.580598,0.605073,0.553519,0.469747,0.238252],'cal/(mol*K)','+|-',[0.614621,0.706382,0.722095,0.711501,0.616967,0.532129,0.433673]),
+        H298 = (3.94376,'kcal/mol','+|-',2.19107),
+        S298 = (1.81077,'cal/(mol*K)','+|-',1.49335),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOBr_G4  |         1
-library:CHOFBr_G4 |         1
+Library   | Number of Species
+CHOBr_G4  |         1
+CHOFBr_G4 |         1
 """,
 )
 
@@ -587,19 +587,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.284649,-0.409923,-0.37118,-0.347857,-0.290373,-0.201661,0.0672598],'cal/(mol*K)','+|-',[0.0479988,0.0536477,0.0542372,0.053344,0.0464713,0.0399396,0.0339749]),
-        H298 = (1.96415,'kcal/mol','+|-',0.163038),
-        S298 = (1.62492,'cal/(mol*K)','+|-',0.140886),
+        Cpdata = ([-0.287996,-0.400491,-0.353923,-0.331456,-0.281032,-0.201107,0.0592729],'cal/(mol*K)','+|-',[0.0499708,0.0574313,0.0587089,0.0578475,0.0501616,0.043264,0.0352592]),
+        H298 = (1.88891,'kcal/mol','+|-',0.178142),
+        S298 = (1.11734,'cal/(mol*K)','+|-',0.121414),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         12
-library:CHOFClBr_G4 |         18
-library:CHOFBr_G4   |         54
-library:CHOClBr_G4  |         18
+Library     | Number of Species
+CHOFCl_G4   |         12
+CHOFClBr_G4 |         18
+CHOFBr_G4   |         54
+CHOClBr_G4  |         18
 """,
 )
 
@@ -619,16 +619,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.478099,-0.542091,-0.466901,-0.418184,-0.3247,-0.165141,0.269073],'cal/(mol*K)','+|-',[0.0654694,0.0731743,0.0739784,0.0727602,0.0633859,0.0544768,0.0463411]),
-        H298 = (3.13266,'kcal/mol','+|-',0.222381),
-        S298 = (0.975081,'cal/(mol*K)','+|-',0.192166),
+        Cpdata = ([-0.504428,-0.552738,-0.463401,-0.415572,-0.331486,-0.179609,0.259167],'cal/(mol*K)','+|-',[0.0679688,0.0781163,0.079854,0.0786824,0.0682283,0.0588463,0.0479584]),
+        H298 = (3.08883,'kcal/mol','+|-',0.242303),
+        S298 = (0.151144,'cal/(mol*K)','+|-',0.165144),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         55
+Library  | Number of Species
+CHOCl_G4 |         55
 """,
 )
 
@@ -648,17 +648,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.287684,-0.32564,-0.246644,-0.205197,-0.174325,-0.104232,0.146018],'cal/(mol*K)','+|-',[0.0606915,0.0678342,0.0685796,0.0674503,0.0587601,0.0505011,0.0429592]),
-        H298 = (3.72987,'kcal/mol','+|-',0.206152),
-        S298 = (1.73568,'cal/(mol*K)','+|-',0.178142),
+        Cpdata = ([-0.293681,-0.334611,-0.249395,-0.210793,-0.189,-0.125573,0.129855],'cal/(mol*K)','+|-',[0.0631259,0.0725503,0.0741642,0.0730762,0.0633669,0.0546534,0.0445413]),
+        H298 = (3.74925,'kcal/mol','+|-',0.225038),
+        S298 = (1.0306,'cal/(mol*K)','+|-',0.153377),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         56
-library:CHOFBr_G4 |         2
+Library   | Number of Species
+CHOF_G4   |         56
+CHOFBr_G4 |         2
 """,
 )
 
@@ -678,17 +678,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.461224,-0.570172,-0.528765,-0.494455,-0.415179,-0.329415,-0.104976],'cal/(mol*K)','+|-',[0.158625,0.177293,0.179241,0.17629,0.153577,0.131991,0.112279]),
-        H298 = (1.77662,'kcal/mol','+|-',0.538804),
-        S298 = (0.955255,'cal/(mol*K)','+|-',0.465597),
+        Cpdata = ([-0.528564,-0.604058,-0.532782,-0.484116,-0.397119,-0.309744,-0.101087],'cal/(mol*K)','+|-',[0.165289,0.189966,0.194192,0.191343,0.16592,0.143104,0.116627]),
+        H298 = (1.48754,'kcal/mol','+|-',0.58924),
+        S298 = (0.529359,'cal/(mol*K)','+|-',0.401603),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOBr_G4  |         6
-library:CHOFBr_G4 |         1
+Library   | Number of Species
+CHOBr_G4  |         6
+CHOFBr_G4 |         1
 """,
 )
 
@@ -733,19 +733,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.41389,-0.396523,-0.302539,-0.260401,-0.200646,-0.100577,0.222751],'cal/(mol*K)','+|-',[0.0535507,0.0598529,0.0605106,0.0595142,0.0518465,0.0445593,0.0379047]),
-        H298 = (2.43816,'kcal/mol','+|-',0.181896),
-        S298 = (3.06667,'cal/(mol*K)','+|-',0.157182),
+        Cpdata = ([-0.405196,-0.351636,-0.24263,-0.206045,-0.159053,-0.0808746,0.215826],'cal/(mol*K)','+|-',[0.055396,0.0636665,0.0650827,0.0641279,0.0556075,0.047961,0.0390872]),
+        H298 = (2.3345,'kcal/mol','+|-',0.197482),
+        S298 = (1.69175,'cal/(mol*K)','+|-',0.134596),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         77
-library:CHOFClBr_G4 |         57
-library:CHOFBr_G4   |         172
-library:CHOClBr_G4  |         88
+Library     | Number of Species
+CHOFCl_G4   |         77
+CHOFClBr_G4 |         57
+CHOFBr_G4   |         172
+CHOClBr_G4  |         88
 """,
 )
 
@@ -765,18 +765,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.679258,-0.634445,-0.448961,-0.346821,-0.220663,-0.0212432,0.484401],'cal/(mol*K)','+|-',[0.0804473,0.0899149,0.090903,0.089406,0.0778871,0.0669398,0.0569429]),
-        H298 = (3.57066,'kcal/mol','+|-',0.273256),
-        S298 = (2.61355,'cal/(mol*K)','+|-',0.236129),
+        Cpdata = ([-0.715291,-0.645127,-0.434825,-0.333433,-0.221158,-0.035405,0.469835],'cal/(mol*K)','+|-',[0.0835745,0.0960519,0.0981886,0.0967481,0.0838936,0.0723575,0.0589698]),
+        H298 = (3.56967,'kcal/mol','+|-',0.297936),
+        S298 = (0.8342,'cal/(mol*K)','+|-',0.203061),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         123
-library:CHOFCl_G4  |         2
-library:CHOClBr_G4 |         4
+Library    | Number of Species
+CHOCl_G4   |         123
+CHOFCl_G4  |         2
+CHOClBr_G4 |         4
 """,
 )
 
@@ -796,18 +796,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.296002,-0.171172,-0.0220443,0.0351913,0.0558415,0.12462,0.339124],'cal/(mol*K)','+|-',[0.074347,0.0830968,0.0840099,0.0826265,0.0719811,0.0618638,0.052625]),
-        H298 = (4.58289,'kcal/mol','+|-',0.252536),
-        S298 = (3.1689,'cal/(mol*K)','+|-',0.218224),
+        Cpdata = ([-0.295076,-0.152037,0.0132143,0.0659162,0.0716455,0.123005,0.327998],'cal/(mol*K)','+|-',[0.0771622,0.0886823,0.090655,0.089325,0.0774568,0.0668058,0.0544453]),
+        H298 = (4.6743,'kcal/mol','+|-',0.275077),
+        S298 = (1.61147,'cal/(mol*K)','+|-',0.187481),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         126
-library:CHOFCl_G4 |         4
-library:CHOFBr_G4 |         31
+Library   | Number of Species
+CHOF_G4   |         126
+CHOFCl_G4 |         4
+CHOFBr_G4 |         31
 """,
 )
 
@@ -827,18 +827,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.50974,-0.479363,-0.315746,-0.214276,-0.123541,-0.0276579,0.214132],'cal/(mol*K)','+|-',[0.104905,0.117251,0.11854,0.116588,0.101567,0.0872913,0.0742551]),
-        H298 = (2.46493,'kcal/mol','+|-',0.356334),
-        S298 = (2.14605,'cal/(mol*K)','+|-',0.307919),
+        Cpdata = ([-0.533259,-0.489383,-0.315142,-0.21834,-0.131172,-0.0481284,0.187158],'cal/(mol*K)','+|-',[0.109197,0.125499,0.128291,0.126409,0.109614,0.0945408,0.0770486]),
+        H298 = (2.39313,'kcal/mol','+|-',0.389277),
+        S298 = (0.774199,'cal/(mol*K)','+|-',0.265316),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOBr_G4   |         50
-library:CHOFBr_G4  |         24
-library:CHOClBr_G4 |         6
+Library    | Number of Species
+CHOBr_G4   |         50
+CHOFBr_G4  |         24
+CHOClBr_G4 |         6
 """,
 )
 
@@ -857,19 +857,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.499807,-0.269605,-0.109785,-0.0288718,0.0553637,0.135258,0.451358],'cal/(mol*K)','+|-',[0.101668,0.113633,0.114882,0.11299,0.0984329,0.0845977,0.0719638]),
-        H298 = (3.28024,'kcal/mol','+|-',0.345338),
-        S298 = (2.96437,'cal/(mol*K)','+|-',0.298417),
+        Cpdata = ([-0.511483,-0.332273,-0.19635,-0.126282,-0.0451817,0.0556001,0.404346],'cal/(mol*K)','+|-',[0.105921,0.121735,0.124443,0.122617,0.106326,0.0917051,0.0747376]),
+        H298 = (3.57833,'kcal/mol','+|-',0.377601),
+        S298 = (1.83172,'cal/(mol*K)','+|-',0.257358),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         18
-library:CHOFClBr_G4 |         21
-library:CHOFBr_G4   |         41
-library:CHOClBr_G4  |         25
+Library     | Number of Species
+CHOFCl_G4   |         18
+CHOFClBr_G4 |         21
+CHOFBr_G4   |         41
+CHOClBr_G4  |         25
 """,
 )
 
@@ -888,18 +888,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.344059,-0.00952927,0.223041,0.334201,0.424109,0.470633,0.749599],'cal/(mol*K)','+|-',[0.157455,0.175986,0.17792,0.17499,0.152445,0.131018,0.111451]),
-        H298 = (2.79769,'kcal/mol','+|-',0.534831),
-        S298 = (1.79498,'cal/(mol*K)','+|-',0.462164),
+        Cpdata = ([-0.357494,-0.0502204,0.173519,0.285409,0.374694,0.435673,0.733549],'cal/(mol*K)','+|-',[0.164429,0.188978,0.193181,0.190347,0.165057,0.14236,0.11602]),
+        H298 = (2.93915,'kcal/mol','+|-',0.586175),
+        S298 = (0.37319,'cal/(mol*K)','+|-',0.399514),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         37
-library:CHOFCl_G4  |         1
-library:CHOClBr_G4 |         3
+Library    | Number of Species
+CHOCl_G4   |         37
+CHOFCl_G4  |         1
+CHOClBr_G4 |         3
 """,
 )
 
@@ -918,17 +918,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0443613,0.162268,0.173293,0.147865,0.137284,0.145904,0.401044],'cal/(mol*K)','+|-',[0.151951,0.169834,0.1717,0.168873,0.147116,0.126438,0.107556]),
-        H298 = (3.58466,'kcal/mol','+|-',0.516135),
-        S298 = (2.62263,'cal/(mol*K)','+|-',0.446008),
+        Cpdata = ([-0.00832893,0.0830613,0.0886107,0.0715734,0.0730917,0.104164,0.38665],'cal/(mol*K)','+|-',[0.158563,0.182236,0.18629,0.183557,0.159169,0.137282,0.111882]),
+        H298 = (3.9659,'kcal/mol','+|-',0.565266),
+        S298 = (1.36426,'cal/(mol*K)','+|-',0.385263),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         37
-library:CHOFBr_G4 |         6
+Library   | Number of Species
+CHOF_G4   |         37
+CHOFBr_G4 |         6
 """,
 )
 
@@ -947,18 +947,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.436242,-0.25018,-0.0645881,0.0558657,0.202503,0.228086,0.299509],'cal/(mol*K)','+|-',[0.203149,0.227057,0.229552,0.225772,0.196684,0.16904,0.143795]),
-        H298 = (1.6173,'kcal/mol','+|-',0.69004),
-        S298 = (3.30743,'cal/(mol*K)','+|-',0.596284),
+        Cpdata = ([-0.374639,-0.200608,-0.0350328,0.0673066,0.188527,0.21298,0.282395],'cal/(mol*K)','+|-',[0.212412,0.244124,0.249555,0.245894,0.213223,0.183903,0.149877]),
+        H298 = (1.7071,'kcal/mol','+|-',0.757231),
+        S298 = (1.73968,'cal/(mol*K)','+|-',0.516098),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOBr_G4   |         10
-library:CHOFBr_G4  |         8
-library:CHOClBr_G4 |         2
+Library    | Number of Species
+CHOBr_G4   |         10
+CHOFBr_G4  |         8
+CHOClBr_G4 |         2
 """,
 )
 
@@ -1001,19 +1001,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.15098,-0.139548,-0.112754,-0.102134,-0.0908677,-0.0532462,0.0631659],'cal/(mol*K)','+|-',[0.0354217,0.0395904,0.0400254,0.0393663,0.0342944,0.0294742,0.0250725]),
-        H298 = (1.2224,'kcal/mol','+|-',0.120317),
-        S298 = (1.87987,'cal/(mol*K)','+|-',0.10397),
+        Cpdata = ([-0.145298,-0.119167,-0.0859063,-0.0789092,-0.0736843,-0.0466396,0.0579328],'cal/(mol*K)','+|-',[0.0367635,0.0422522,0.0431921,0.0425584,0.0369039,0.0318293,0.0259401]),
+        H298 = (1.211,'kcal/mol','+|-',0.131059),
+        S298 = (1.08994,'cal/(mol*K)','+|-',0.0893245),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         51
-library:CHOFClBr_G4 |         28
-library:CHOFBr_G4   |         82
-library:CHOClBr_G4  |         53
+Library     | Number of Species
+CHOFCl_G4   |         51
+CHOFClBr_G4 |         28
+CHOFBr_G4   |         82
+CHOClBr_G4  |         53
 """,
 )
 
@@ -1033,18 +1033,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.212233,-0.151109,-0.0593742,0.00374713,0.0588283,0.108516,0.210587],'cal/(mol*K)','+|-',[0.0467129,0.0522104,0.0527841,0.0519149,0.0452263,0.0388695,0.0330647]),
-        H298 = (1.14474,'kcal/mol','+|-',0.15867),
-        S298 = (1.52173,'cal/(mol*K)','+|-',0.137112),
+        Cpdata = ([-0.212013,-0.139086,-0.0392286,0.0215442,0.0690026,0.110935,0.206044],'cal/(mol*K)','+|-',[0.0486499,0.0559131,0.0571569,0.0563184,0.0488356,0.0421203,0.0343271]),
+        H298 = (1.15744,'kcal/mol','+|-',0.173433),
+        S298 = (0.660503,'cal/(mol*K)','+|-',0.118205),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         74
-library:CHOFCl_G4  |         13
-library:CHOClBr_G4 |         19
+Library    | Number of Species
+CHOCl_G4   |         74
+CHOFCl_G4  |         13
+CHOClBr_G4 |         19
 """,
 )
 
@@ -1064,19 +1064,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.153589,-0.0933673,-0.0103177,0.0371537,0.066095,0.099934,0.179448],'cal/(mol*K)','+|-',[0.0420027,0.0469459,0.0474618,0.0466802,0.040666,0.0349503,0.0297307]),
-        H298 = (1.66609,'kcal/mol','+|-',0.142671),
-        S298 = (1.47616,'cal/(mol*K)','+|-',0.123286),
+        Cpdata = ([-0.148682,-0.0760222,0.0144627,0.0592617,0.0805109,0.10537,0.176623],'cal/(mol*K)','+|-',[0.043691,0.0502139,0.0513309,0.0505778,0.0438578,0.037827,0.0308281]),
+        H298 = (1.71275,'kcal/mol','+|-',0.155755),
+        S298 = (0.707187,'cal/(mol*K)','+|-',0.106156),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOF_G4     |         77
-library:CHOFCl_G4   |         18
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         46
+Library     | Number of Species
+CHOF_G4     |         77
+CHOFCl_G4   |         18
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         46
 """,
 )
 
@@ -1096,19 +1096,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.234257,-0.154171,-0.0495199,0.0156258,0.0703032,0.111296,0.201131],'cal/(mol*K)','+|-',[0.0477146,0.05333,0.0539161,0.0530282,0.0461962,0.0397031,0.0337738]),
-        H298 = (0.923421,'kcal/mol','+|-',0.162073),
-        S298 = (0.967614,'cal/(mol*K)','+|-',0.140052),
+        Cpdata = ([-0.241659,-0.152083,-0.0407121,0.0220502,0.0720941,0.108305,0.194193],'cal/(mol*K)','+|-',[0.0497753,0.0572066,0.0584791,0.0576212,0.0499653,0.0430947,0.0351212]),
+        H298 = (0.907176,'kcal/mol','+|-',0.177445),
+        S298 = (0.311152,'cal/(mol*K)','+|-',0.120939),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOBr_G4    |         49
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         37
-library:CHOClBr_G4  |         13
+Library     | Number of Species
+CHOBr_G4    |         49
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         37
+CHOClBr_G4  |         13
 """,
 )
 
@@ -1127,19 +1127,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.488249,-0.318101,-0.1909,-0.129265,-0.0182219,0.0550723,0.354748],'cal/(mol*K)','+|-',[0.107952,0.120657,0.121983,0.119974,0.104517,0.0898266,0.0764117]),
-        H298 = (1.72447,'kcal/mol','+|-',0.366683),
-        S298 = (3.38948,'cal/(mol*K)','+|-',0.316862),
+        Cpdata = ([-0.487245,-0.366436,-0.26625,-0.211496,-0.0949754,-0.000924551,0.319447],'cal/(mol*K)','+|-',[0.112622,0.129436,0.132315,0.130374,0.113052,0.0975059,0.0794652]),
+        H298 = (2.0618,'kcal/mol','+|-',0.401486),
+        S298 = (2.25071,'cal/(mol*K)','+|-',0.273637),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         21
-library:CHOFClBr_G4 |         16
-library:CHOFBr_G4   |         31
-library:CHOClBr_G4  |         22
+Library     | Number of Species
+CHOFCl_G4   |         21
+CHOFClBr_G4 |         16
+CHOFBr_G4   |         31
+CHOClBr_G4  |         22
 """,
 )
 
@@ -1158,18 +1158,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.364209,-0.101525,0.0554152,0.115861,0.184745,0.220096,0.466894],'cal/(mol*K)','+|-',[0.142291,0.159037,0.160785,0.158137,0.137763,0.1184,0.100718]),
-        H298 = (1.59754,'kcal/mol','+|-',0.483324),
-        S298 = (2.48235,'cal/(mol*K)','+|-',0.417654),
+        Cpdata = ([-0.370477,-0.128165,0.0193874,0.0781517,0.147875,0.195604,0.451944],'cal/(mol*K)','+|-',[0.148659,0.170854,0.174654,0.172092,0.149227,0.128707,0.104893]),
+        H298 = (1.80547,'kcal/mol','+|-',0.529958),
+        S298 = (1.18089,'cal/(mol*K)','+|-',0.361199),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         37
-library:CHOFCl_G4  |         8
-library:CHOClBr_G4 |         8
+Library    | Number of Species
+CHOCl_G4   |         37
+CHOFCl_G4  |         8
+CHOClBr_G4 |         8
 """,
 )
 
@@ -1188,19 +1188,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.214431,-0.0580059,0.0221815,0.0622322,0.126312,0.158286,0.448108],'cal/(mol*K)','+|-',[0.134571,0.150408,0.152061,0.149557,0.130288,0.111976,0.0952529]),
-        H298 = (2.04755,'kcal/mol','+|-',0.457098),
-        S298 = (2.6289,'cal/(mol*K)','+|-',0.394992),
+        Cpdata = ([-0.251678,-0.133366,-0.0656162,-0.0246591,0.0483949,0.101528,0.422424],'cal/(mol*K)','+|-',[0.140481,0.161454,0.165046,0.162624,0.141017,0.121626,0.0991226]),
+        H298 = (2.40802,'kcal/mol','+|-',0.500803),
+        S298 = (1.49949,'cal/(mol*K)','+|-',0.341327),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOF_G4     |         37
-library:CHOFCl_G4   |         6
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         16
+Library     | Number of Species
+CHOF_G4     |         37
+CHOFCl_G4   |         6
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         16
 """,
 )
 
@@ -1219,19 +1219,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.471998,-0.304533,-0.133164,-0.0307646,0.111438,0.175859,0.376174],'cal/(mol*K)','+|-',[0.137533,0.153719,0.155408,0.152849,0.133156,0.11444,0.0973496]),
-        H298 = (1.26769,'kcal/mol','+|-',0.46716),
-        S298 = (3.13421,'cal/(mol*K)','+|-',0.403686),
+        Cpdata = ([-0.452812,-0.282992,-0.116251,-0.0195095,0.116198,0.185973,0.374584],'cal/(mol*K)','+|-',[0.143709,0.165164,0.168838,0.166361,0.144257,0.124421,0.1014]),
+        H298 = (1.40742,'kcal/mol','+|-',0.51231),
+        S298 = (1.55969,'cal/(mol*K)','+|-',0.34917),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOBr_G4    |         24
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         20
-library:CHOClBr_G4  |         8
+Library     | Number of Species
+CHOBr_G4    |         24
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         20
+CHOClBr_G4  |         8
 """,
 )
 
@@ -1249,19 +1249,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.142598,0.000177485,0.138481,0.117533,0.0286904,-0.0166047,0.154016],'cal/(mol*K)','+|-',[0.124047,0.138645,0.140169,0.137861,0.120099,0.103219,0.0878038]),
-        H298 = (0.207797,'kcal/mol','+|-',0.421351),
-        S298 = (-0.447847,'cal/(mol*K)','+|-',0.364102),
+        Cpdata = ([-0.112012,0.0156248,0.139183,0.111374,0.0182027,-0.022415,0.149256],'cal/(mol*K)','+|-',[0.129797,0.149176,0.152494,0.150257,0.130293,0.112376,0.0915843]),
+        H298 = (0.238344,'kcal/mol','+|-',0.462717),
+        S298 = (-0.323271,'cal/(mol*K)','+|-',0.315369),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         3
-library:CHOFClBr_G4 |         6
-library:CHOFBr_G4   |         6
-library:CHOClBr_G4  |         5
+Library     | Number of Species
+CHOFCl_G4   |         3
+CHOFClBr_G4 |         6
+CHOFBr_G4   |         6
+CHOClBr_G4  |         5
 """,
 )
 
@@ -1279,18 +1279,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.16018,-0.106826,0.0234607,0.00711724,-0.0873311,-0.124167,0.113025],'cal/(mol*K)','+|-',[0.190637,0.213073,0.215414,0.211867,0.184571,0.158628,0.134939]),
-        H298 = (0.00140718,'kcal/mol','+|-',0.647541),
-        S298 = (-0.613282,'cal/(mol*K)','+|-',0.559559),
+        Cpdata = ([-0.143088,-0.103202,0.0161273,-0.00344062,-0.0986116,-0.130257,0.110146],'cal/(mol*K)','+|-',[0.199567,0.229361,0.234463,0.231023,0.200328,0.172782,0.140813]),
+        H298 = (0.0446388,'kcal/mol','+|-',0.711438),
+        S298 = (-0.247106,'cal/(mol*K)','+|-',0.484888),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         6
-library:CHOFCl_G4  |         1
-library:CHOClBr_G4 |         3
+Library    | Number of Species
+CHOCl_G4   |         6
+CHOFCl_G4  |         1
+CHOClBr_G4 |         3
 """,
 )
 
@@ -1308,19 +1308,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.0793163,-0.0366229,0.0783675,0.055825,-0.0323221,-0.0675522,0.123364],'cal/(mol*K)','+|-',[0.173278,0.193671,0.195799,0.192575,0.167764,0.144184,0.122651]),
-        H298 = (0.64848,'kcal/mol','+|-',0.588577),
-        S298 = (-0.560258,'cal/(mol*K)','+|-',0.508607),
+        Cpdata = ([-0.0595707,-0.0266998,0.078211,0.0517162,-0.0393958,-0.0704584,0.121822],'cal/(mol*K)','+|-',[0.181395,0.208477,0.213114,0.209988,0.182088,0.157049,0.127991]),
+        H298 = (0.675509,'kcal/mol','+|-',0.646659),
+        S298 = (-0.234891,'cal/(mol*K)','+|-',0.440737),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOF_G4     |         6
-library:CHOFCl_G4   |         1
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         4
+Library     | Number of Species
+CHOF_G4     |         6
+CHOFCl_G4   |         1
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         4
 """,
 )
 
@@ -1338,19 +1338,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.188062,-0.148187,0.00275799,0.0154253,-0.0148553,-0.0259878,0.167964],'cal/(mol*K)','+|-',[0.185576,0.207416,0.209695,0.206242,0.17967,0.154417,0.131356]),
-        H298 = (-0.0683126,'kcal/mol','+|-',0.630348),
-        S298 = (-0.879077,'cal/(mol*K)','+|-',0.544702),
+        Cpdata = ([-0.158306,-0.131038,0.00641817,0.0123105,-0.0231756,-0.0296819,0.16498],'cal/(mol*K)','+|-',[0.194245,0.223245,0.228211,0.224863,0.194987,0.168174,0.137058]),
+        H298 = (-0.0544731,'kcal/mol','+|-',0.692468),
+        S298 = (-0.698698,'cal/(mol*K)','+|-',0.471958),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOBr_G4    |         2
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         4
-library:CHOClBr_G4  |         3
+Library     | Number of Species
+CHOBr_G4    |         2
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         4
+CHOClBr_G4  |         3
 """,
 )
 
@@ -1368,19 +1368,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.184761,0.156906,0.101795,0.0779607,0.0262641,-0.0022401,-0.094175],'cal/(mol*K)','+|-',[0.0483455,0.0540352,0.0546289,0.0537294,0.046807,0.0402281,0.0342203]),
-        H298 = (1.74451,'kcal/mol','+|-',0.164216),
-        S298 = (0.222228,'cal/(mol*K)','+|-',0.141904),
+        Cpdata = ([0.192955,0.160487,0.102905,0.0777284,0.0301348,0.000628364,-0.0942518],'cal/(mol*K)','+|-',[0.0503904,0.0579135,0.0592018,0.0583333,0.0505828,0.0436272,0.0355552]),
+        H298 = (1.72557,'kcal/mol','+|-',0.179638),
+        S298 = (0.0587532,'cal/(mol*K)','+|-',0.122434),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         35
-library:CHOFClBr_G4 |         23
-library:CHOFBr_G4   |         50
-library:CHOClBr_G4  |         36
+Library     | Number of Species
+CHOFCl_G4   |         35
+CHOFClBr_G4 |         23
+CHOFBr_G4   |         50
+CHOClBr_G4  |         36
 """,
 )
 
@@ -1398,18 +1398,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.261934,0.228743,0.162619,0.121248,0.0370342,-0.00437144,-0.0966026],'cal/(mol*K)','+|-',[0.0657899,0.0735325,0.0743406,0.0731164,0.0636962,0.0547435,0.046568]),
-        H298 = (1.4249,'kcal/mol','+|-',0.22347),
-        S298 = (0.0940235,'cal/(mol*K)','+|-',0.193107),
+        Cpdata = ([0.275328,0.248766,0.186314,0.14346,0.0567248,0.00969829,-0.0904599],'cal/(mol*K)','+|-',[0.0687218,0.0789817,0.0807387,0.0795542,0.0689842,0.0594983,0.0484898]),
+        H298 = (1.36086,'kcal/mol','+|-',0.244988),
+        S298 = (-0.0401011,'cal/(mol*K)','+|-',0.166974),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         61
-library:CHOFCl_G4  |         5
-library:CHOClBr_G4 |         16
+Library    | Number of Species
+CHOCl_G4   |         61
+CHOFCl_G4  |         5
+CHOClBr_G4 |         16
 """,
 )
 
@@ -1427,19 +1427,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.135785,0.0663028,0.0248023,0.012661,-0.0107362,-0.018141,-0.0717221],'cal/(mol*K)','+|-',[0.0560374,0.0626323,0.0633206,0.0622778,0.0542541,0.0466285,0.0396649]),
-        H298 = (3.08514,'kcal/mol','+|-',0.190343),
-        S298 = (0.349813,'cal/(mol*K)','+|-',0.164481),
+        Cpdata = ([0.143061,0.084595,0.0485554,0.0373149,0.0157509,0.00236969,-0.0605414],'cal/(mol*K)','+|-',[0.0584833,0.0672147,0.0687098,0.0677018,0.0587066,0.0506339,0.0412655]),
+        H298 = (3.00962,'kcal/mol','+|-',0.208488),
+        S298 = (0.220095,'cal/(mol*K)','+|-',0.142097),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOF_G4     |         61
-library:CHOFCl_G4   |         14
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         38
+Library     | Number of Species
+CHOF_G4     |         61
+CHOFCl_G4   |         14
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         38
 """,
 )
 
@@ -1457,19 +1457,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.203748,0.143777,0.0917331,0.0890436,0.0463408,0.0210995,-0.0697324],'cal/(mol*K)','+|-',[0.0759135,0.0848476,0.0857799,0.0843674,0.0734976,0.0631673,0.0537337]),
-        H298 = (1.36489,'kcal/mol','+|-',0.257857),
-        S298 = (-0.0352288,'cal/(mol*K)','+|-',0.222821),
+        Cpdata = ([0.191068,0.135447,0.086284,0.0841781,0.0456014,0.0200424,-0.0716922],'cal/(mol*K)','+|-',[0.0792966,0.0911353,0.0931626,0.0917958,0.0795993,0.0686537,0.0559512]),
+        H298 = (1.36026,'kcal/mol','+|-',0.282686),
+        S298 = (-0.219487,'cal/(mol*K)','+|-',0.192667),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOBr_G4    |         36
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         16
-library:CHOClBr_G4  |         7
+Library     | Number of Species
+CHOBr_G4    |         36
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         16
+CHOClBr_G4  |         7
 """,
 )
 
@@ -1487,19 +1487,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.62041,0.54885,0.390576,0.334775,0.156668,0.0584541,-0.12133],'cal/(mol*K)','+|-',[0.0949969,0.106177,0.107344,0.105576,0.0919738,0.0790465,0.0672415]),
-        H298 = (4.22891,'kcal/mol','+|-',0.322677),
-        S298 = (0.668683,'cal/(mol*K)','+|-',0.278835),
+        Cpdata = ([0.673678,0.59465,0.424297,0.347296,0.147457,0.0428923,-0.140663],'cal/(mol*K)','+|-',[0.0986813,0.113414,0.115937,0.114236,0.099058,0.0854367,0.069629]),
+        H298 = (4.13515,'kcal/mol','+|-',0.35179),
+        S298 = (0.0907781,'cal/(mol*K)','+|-',0.239766),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         26
-library:CHOFClBr_G4 |         24
-library:CHOFBr_G4   |         54
-library:CHOClBr_G4  |         32
+Library     | Number of Species
+CHOFCl_G4   |         26
+CHOFClBr_G4 |         24
+CHOFBr_G4   |         54
+CHOClBr_G4  |         32
 """,
 )
 
@@ -1517,17 +1517,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.741676,0.632153,0.441937,0.331819,0.0750462,-0.0317226,-0.150782],'cal/(mol*K)','+|-',[0.162058,0.18113,0.183121,0.180105,0.156901,0.134848,0.114709]),
-        H298 = (4.55559,'kcal/mol','+|-',0.550465),
-        S298 = (0.557188,'cal/(mol*K)','+|-',0.475674),
+        Cpdata = ([0.808793,0.68909,0.477174,0.340111,0.058019,-0.0518429,-0.180425],'cal/(mol*K)','+|-',[0.169115,0.194364,0.198687,0.195772,0.169761,0.146418,0.119327]),
+        H298 = (4.48625,'kcal/mol','+|-',0.602883),
+        S298 = (-0.0854678,'cal/(mol*K)','+|-',0.410901),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         41
-library:CHOClBr_G4 |         3
+Library    | Number of Species
+CHOCl_G4   |         41
+CHOClBr_G4 |         3
 """,
 )
 
@@ -1545,18 +1545,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.578717,0.408499,0.278386,0.223224,0.0823162,0.00749726,-0.146829],'cal/(mol*K)','+|-',[0.141091,0.157695,0.159428,0.156803,0.136601,0.117401,0.0998679]),
-        H298 = (9.52668,'kcal/mol','+|-',0.479244),
-        S298 = (1.28946,'cal/(mol*K)','+|-',0.414129),
+        Cpdata = ([0.625181,0.428351,0.277535,0.202859,0.0484449,-0.0283805,-0.182571],'cal/(mol*K)','+|-',[0.147287,0.169276,0.173042,0.170503,0.147849,0.127519,0.103925]),
+        H298 = (9.53999,'kcal/mol','+|-',0.525066),
+        S298 = (0.805085,'cal/(mol*K)','+|-',0.357864),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         41
-library:CHOFCl_G4 |         2
-library:CHOFBr_G4 |         12
+Library   | Number of Species
+CHOF_G4   |         41
+CHOFCl_G4 |         2
+CHOFBr_G4 |         12
 """,
 )
 
@@ -1574,18 +1574,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.810598,0.739294,0.546141,0.499323,0.237356,0.0903159,-0.071499],'cal/(mol*K)','+|-',[0.217247,0.242814,0.245482,0.24144,0.210333,0.18077,0.153773]),
-        H298 = (3.50906,'kcal/mol','+|-',0.737925),
-        S298 = (0.204005,'cal/(mol*K)','+|-',0.637663),
+        Cpdata = ([0.931498,0.846831,0.626012,0.543721,0.243418,0.0913837,-0.0829819],'cal/(mol*K)','+|-',[0.226402,0.260203,0.265991,0.262089,0.227266,0.196015,0.159748]),
+        H298 = (3.28324,'kcal/mol','+|-',0.807104),
+        S298 = (-0.702183,'cal/(mol*K)','+|-',0.55009),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOBr_G4   |         18
-library:CHOFBr_G4  |         3
-library:CHOClBr_G4 |         1
+Library    | Number of Species
+CHOBr_G4   |         18
+CHOFBr_G4  |         3
+CHOClBr_G4 |         1
 """,
 )
 
@@ -1603,19 +1603,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.378665,0.39011,0.259112,0.220757,0.0572574,-0.0534602,-0.220215],'cal/(mol*K)','+|-',[0.123242,0.137746,0.13926,0.136966,0.11932,0.102549,0.0872342]),
-        H298 = (2.7133,'kcal/mol','+|-',0.418618),
-        S298 = (0.383951,'cal/(mol*K)','+|-',0.36174),
+        Cpdata = ([0.366857,0.381128,0.254896,0.214348,0.047758,-0.0649548,-0.228799],'cal/(mol*K)','+|-',[0.129014,0.148275,0.151574,0.14935,0.129506,0.111698,0.0910315]),
+        H298 = (2.69645,'kcal/mol','+|-',0.459924),
+        S298 = (0.209895,'cal/(mol*K)','+|-',0.313466),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         3
-library:CHOFClBr_G4 |         3
-library:CHOFBr_G4   |         3
-library:CHOClBr_G4  |         3
+Library     | Number of Species
+CHOFCl_G4   |         3
+CHOFClBr_G4 |         3
+CHOFBr_G4   |         3
+CHOClBr_G4  |         3
 """,
 )
 
@@ -1633,16 +1633,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.499042,0.40291,0.205764,0.135147,-0.0354983,-0.156485,-0.403602],'cal/(mol*K)','+|-',[0.40638,0.454206,0.459197,0.451635,0.393447,0.338147,0.287647]),
-        H298 = (2.29873,'kcal/mol','+|-',1.38036),
-        S298 = (-1.69197,'cal/(mol*K)','+|-',1.19281),
+        Cpdata = ([0.481327,0.388344,0.196757,0.1248,-0.0466783,-0.169316,-0.413763],'cal/(mol*K)','+|-',[0.42547,0.488991,0.499868,0.492535,0.427094,0.368365,0.300209]),
+        H298 = (2.30214,'kcal/mol','+|-',1.51676),
+        S298 = (-0.714443,'cal/(mol*K)','+|-',1.03377),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         1
+Library  | Number of Species
+CHOCl_G4 |         1
 """,
 )
 
@@ -1660,16 +1660,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.156954,0.238593,0.132126,0.0981617,0.0279164,-0.0260023,-0.177291],'cal/(mol*K)','+|-',[0.402879,0.450293,0.455242,0.447745,0.390058,0.335234,0.28517]),
-        H298 = (6.59153,'kcal/mol','+|-',1.36847),
-        S298 = (-1.75167,'cal/(mol*K)','+|-',1.18253),
+        Cpdata = ([0.139807,0.220789,0.119538,0.0837254,0.0120292,-0.0449158,-0.192433],'cal/(mol*K)','+|-',[0.421803,0.484776,0.49556,0.48829,0.423413,0.36519,0.297622]),
+        H298 = (6.56934,'kcal/mol','+|-',1.50369),
+        S298 = (-0.699783,'cal/(mol*K)','+|-',1.02486),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library         | Number of Species
-library:CHOF_G4 |         1
+Library | Number of Species
+CHOF_G4 |         1
 """,
 )
 
@@ -1687,16 +1687,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.480811,0.527827,0.377849,0.348437,0.127589,-0.0391841,-0.228514],'cal/(mol*K)','+|-',[0.41169,0.460141,0.465198,0.457537,0.398589,0.342566,0.291406]),
-        H298 = (2.04335,'kcal/mol','+|-',1.39839),
-        S298 = (-1.80825,'cal/(mol*K)','+|-',1.20839),
+        Cpdata = ([0.479747,0.529404,0.381618,0.348283,0.122474,-0.0464348,-0.235161],'cal/(mol*K)','+|-',[0.431033,0.495385,0.506405,0.498975,0.432679,0.373182,0.304135]),
+        H298 = (2.03071,'kcal/mol','+|-',1.5366),
+        S298 = (-0.870439,'cal/(mol*K)','+|-',1.04728),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOBr_G4 |         1
+Library  | Number of Species
+CHOBr_G4 |         1
 """,
 )
 
@@ -1730,18 +1730,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.08737,-1.21811,-0.939665,-0.780645,-0.609515,-0.368616,0.75594],'cal/(mol*K)','+|-',[0.284322,0.317783,0.321275,0.315984,0.275274,0.236583,0.201251]),
-        H298 = (1.08495,'kcal/mol','+|-',0.96576),
-        S298 = (-0.803826,'cal/(mol*K)','+|-',0.834542),
+        Cpdata = ([-1.06386,-1.20862,-0.943059,-0.789355,-0.620847,-0.373784,0.753352],'cal/(mol*K)','+|-',[0.297638,0.342074,0.349684,0.344554,0.298774,0.25769,0.210012]),
+        H298 = (1.12112,'kcal/mol','+|-',1.06106),
+        S298 = (-0.692179,'cal/(mol*K)','+|-',0.723173),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         6
-library:CHOFCl_G4 |         2
-library:CHOFBr_G4 |         3
+Library   | Number of Species
+CHOF_G4   |         6
+CHOFCl_G4 |         2
+CHOFBr_G4 |         3
 """,
 )
 
@@ -1757,19 +1757,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.433398,-0.74474,-0.605495,-0.555971,-0.547387,-0.377001,0.785247],'cal/(mol*K)','+|-',[0.270761,0.302626,0.305952,0.300914,0.262144,0.225299,0.191652]),
-        H298 = (1.45622,'kcal/mol','+|-',0.919698),
-        S298 = (-0.658435,'cal/(mol*K)','+|-',0.794739),
+        Cpdata = ([-0.422772,-0.744553,-0.613767,-0.56569,-0.556662,-0.380805,0.784709],'cal/(mol*K)','+|-',[0.283472,0.325794,0.333041,0.328155,0.284554,0.245426,0.200017]),
+        H298 = (1.50026,'kcal/mol','+|-',1.01055),
+        S298 = (-0.468017,'cal/(mol*K)','+|-',0.688754),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOCl_G4    |         6
-library:CHOFCl_G4   |         4
-library:CHOFClBr_G4 |         1
-library:CHOClBr_G4  |         2
+Library     | Number of Species
+CHOCl_G4    |         6
+CHOFCl_G4   |         4
+CHOFClBr_G4 |         1
+CHOClBr_G4  |         2
 """,
 )
 
@@ -1785,19 +1785,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.213007,-0.401698,-0.282564,-0.266493,-0.322718,-0.202174,0.913452],'cal/(mol*K)','+|-',[0.247562,0.276697,0.279738,0.275132,0.239684,0.205996,0.175232]),
-        H298 = (1.52842,'kcal/mol','+|-',0.840899),
-        S298 = (-1.89942,'cal/(mol*K)','+|-',0.726646),
+        Cpdata = ([-0.20967,-0.406407,-0.293647,-0.27708,-0.33155,-0.20493,0.914061],'cal/(mol*K)','+|-',[0.259182,0.297877,0.304504,0.300036,0.260172,0.224396,0.182878]),
+        H298 = (1.5797,'kcal/mol','+|-',0.923964),
+        S298 = (-1.67374,'cal/(mol*K)','+|-',0.629737),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOBr_G4    |         5
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         6
-library:CHOClBr_G4  |         4
+Library     | Number of Species
+CHOBr_G4    |         5
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         6
+CHOClBr_G4  |         4
 """,
 )
 
@@ -1815,19 +1815,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.013,0.869341,0.643358,0.420375,0.0611501,-0.179942,-0.189931],'cal/(mol*K)','+|-',[0.143836,0.160763,0.16253,0.159854,0.139258,0.119685,0.101811]),
-        H298 = (7.18331,'kcal/mol','+|-',0.488569),
-        S298 = (1.40285,'cal/(mol*K)','+|-',0.422187),
+        Cpdata = ([0.953551,0.775975,0.542237,0.323105,-0.028744,-0.256398,-0.244508],'cal/(mol*K)','+|-',[0.149905,0.172285,0.176117,0.173534,0.150477,0.129785,0.105772]),
+        H298 = (7.42177,'kcal/mol','+|-',0.534398),
+        S298 = (1.27642,'cal/(mol*K)','+|-',0.364224),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         8
-library:CHOFClBr_G4 |         6
-library:CHOFBr_G4   |         14
-library:CHOClBr_G4  |         8
+Library     | Number of Species
+CHOFCl_G4   |         8
+CHOFClBr_G4 |         6
+CHOFBr_G4   |         14
+CHOClBr_G4  |         8
 """,
 )
 
@@ -1920,19 +1920,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.04701,0.846094,0.641695,0.430531,0.130561,-0.0285996,0.00914967],'cal/(mol*K)','+|-',[0.118637,0.132599,0.134056,0.131848,0.114861,0.0987169,0.0839744]),
-        H298 = (5.10999,'kcal/mol','+|-',0.402975),
-        S298 = (0.715597,'cal/(mol*K)','+|-',0.348222),
+        Cpdata = ([1.00173,0.803673,0.610895,0.405257,0.098006,-0.0583939,-0.0230311],'cal/(mol*K)','+|-',[0.12325,0.141651,0.144802,0.142677,0.123721,0.106708,0.0869646]),
+        H298 = (5.35662,'kcal/mol','+|-',0.439376),
+        S298 = (0.478493,'cal/(mol*K)','+|-',0.299461),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         13
-library:CHOFClBr_G4 |         8
-library:CHOFBr_G4   |         18
-library:CHOClBr_G4  |         12
+Library     | Number of Species
+CHOFCl_G4   |         13
+CHOFClBr_G4 |         8
+CHOFBr_G4   |         18
+CHOClBr_G4  |         12
 """,
 )
 
@@ -1950,18 +1950,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.632355,0.415303,0.276497,0.125574,-0.0201702,-0.10415,0.0944342],'cal/(mol*K)','+|-',[0.149235,0.166798,0.168631,0.165854,0.144486,0.124178,0.105633]),
-        H298 = (5.33804,'kcal/mol','+|-',0.506909),
-        S298 = (0.286084,'cal/(mol*K)','+|-',0.438035),
+        Cpdata = ([0.553053,0.359619,0.23948,0.102061,-0.0455756,-0.126411,0.0661729],'cal/(mol*K)','+|-',[0.155178,0.178345,0.182313,0.179638,0.15577,0.134351,0.109493]),
+        H298 = (5.69302,'kcal/mol','+|-',0.553196),
+        S298 = (0.255621,'cal/(mol*K)','+|-',0.377037),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         19
-library:CHOFCl_G4 |         5
-library:CHOFBr_G4 |         9
+Library   | Number of Species
+CHOF_G4   |         19
+CHOFCl_G4 |         5
+CHOFBr_G4 |         9
 """,
 )
 
@@ -1979,18 +1979,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.08725,1.01885,0.858772,0.642795,0.360809,0.170742,0.209378],'cal/(mol*K)','+|-',[0.159691,0.178485,0.180446,0.177475,0.154609,0.132878,0.113034]),
-        H298 = (3.06523,'kcal/mol','+|-',0.542425),
-        S298 = (-0.958133,'cal/(mol*K)','+|-',0.468726),
+        Cpdata = ([1.03875,0.946333,0.783166,0.574621,0.293886,0.112986,0.159695],'cal/(mol*K)','+|-',[0.166226,0.191043,0.195292,0.192427,0.16686,0.143916,0.117288]),
+        H298 = (3.32449,'kcal/mol','+|-',0.592581),
+        S298 = (-1.03523,'cal/(mol*K)','+|-',0.403879),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         20
-library:CHOFCl_G4  |         3
-library:CHOClBr_G4 |         5
+Library    | Number of Species
+CHOCl_G4   |         20
+CHOFCl_G4  |         3
+CHOClBr_G4 |         5
 """,
 )
 
@@ -2008,18 +2008,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.697505,0.705171,0.624551,0.478532,0.293354,0.146137,0.140992],'cal/(mol*K)','+|-',[0.176391,0.19715,0.199317,0.196034,0.170778,0.146774,0.124855]),
-        H298 = (3.02429,'kcal/mol','+|-',0.599151),
-        S298 = (-0.326436,'cal/(mol*K)','+|-',0.517744),
+        Cpdata = ([0.72324,0.70693,0.609928,0.457264,0.256316,0.115386,0.119257],'cal/(mol*K)','+|-',[0.183887,0.211341,0.216042,0.212873,0.184589,0.159207,0.12975]),
+        H298 = (3.28059,'kcal/mol','+|-',0.655543),
+        S298 = (-0.42528,'cal/(mol*K)','+|-',0.446792),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOBr_G4   |         12
-library:CHOFBr_G4  |         9
-library:CHOClBr_G4 |         3
+Library    | Number of Species
+CHOBr_G4   |         12
+CHOFBr_G4  |         9
+CHOClBr_G4 |         3
 """,
 )
 
@@ -2057,19 +2057,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.80429,0.708677,0.600579,0.482871,0.34976,0.209865,0.2642],'cal/(mol*K)','+|-',[0.131486,0.14696,0.148575,0.146129,0.127302,0.109409,0.0930695]),
-        H298 = (2.44511,'kcal/mol','+|-',0.44662),
-        S298 = (-0.565233,'cal/(mol*K)','+|-',0.385938),
+        Cpdata = ([0.766257,0.642872,0.526694,0.407388,0.264391,0.129391,0.199383],'cal/(mol*K)','+|-',[0.136628,0.157026,0.160519,0.158164,0.13715,0.118291,0.0964042]),
+        H298 = (2.88294,'kcal/mol','+|-',0.487068),
+        S298 = (-0.429316,'cal/(mol*K)','+|-',0.331966),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOF_G4     |         20
-library:CHOFCl_G4   |         9
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         13
+Library     | Number of Species
+CHOF_G4     |         20
+CHOFCl_G4   |         9
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         13
 """,
 )
 
@@ -2087,19 +2087,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.960482,0.726648,0.526973,0.323138,0.0842669,-0.0819546,-0.0154854],'cal/(mol*K)','+|-',[0.135828,0.151814,0.153482,0.150955,0.131506,0.113022,0.0961433]),
-        H298 = (2.54653,'kcal/mol','+|-',0.461371),
-        S298 = (0.074418,'cal/(mol*K)','+|-',0.398684),
+        Cpdata = ([0.907799,0.657924,0.459162,0.259969,0.0188469,-0.137679,-0.0584824],'cal/(mol*K)','+|-',[0.141429,0.162544,0.16616,0.163722,0.141969,0.122447,0.0997915]),
+        H298 = (2.82528,'kcal/mol','+|-',0.504182),
+        S298 = (0.119868,'cal/(mol*K)','+|-',0.343631),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOCl_G4    |         20
-library:CHOFCl_G4   |         9
-library:CHOFClBr_G4 |         2
-library:CHOClBr_G4  |         9
+Library     | Number of Species
+CHOCl_G4    |         20
+CHOFCl_G4   |         9
+CHOFClBr_G4 |         2
+CHOClBr_G4  |         9
 """,
 )
 
@@ -2117,19 +2117,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.642396,0.434926,0.28201,0.122798,0.00211848,-0.0788144,0.0110401],'cal/(mol*K)','+|-',[0.130862,0.146263,0.14787,0.145435,0.126697,0.10889,0.0926278]),
-        H298 = (2.31991,'kcal/mol','+|-',0.444501),
-        S298 = (-0.111058,'cal/(mol*K)','+|-',0.384106),
+        Cpdata = ([0.623537,0.409917,0.257852,0.105523,-0.0121102,-0.0816768,0.0108625],'cal/(mol*K)','+|-',[0.136631,0.15703,0.160523,0.158168,0.137153,0.118293,0.0964061]),
+        H298 = (2.4411,'kcal/mol','+|-',0.487078),
+        S298 = (-0.19929,'cal/(mol*K)','+|-',0.331973),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOBr_G4    |         16
-library:CHOFClBr_G4 |         2
-library:CHOFBr_G4   |         17
-library:CHOClBr_G4  |         9
+Library     | Number of Species
+CHOBr_G4    |         16
+CHOFClBr_G4 |         2
+CHOFBr_G4   |         17
+CHOClBr_G4  |         9
 """,
 )
 
@@ -2167,19 +2167,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0497515,0.0783582,0.0939335,0.19816,0.382482,0.35478,0.480906],'cal/(mol*K)','+|-',[0.119581,0.133655,0.135123,0.132898,0.115776,0.0995031,0.0846431]),
-        H298 = (0.36966,'kcal/mol','+|-',0.406184),
-        S298 = (-0.994976,'cal/(mol*K)','+|-',0.350995),
+        Cpdata = ([0.0670598,0.0484804,0.0276092,0.140954,0.356983,0.353706,0.503953],'cal/(mol*K)','+|-',[0.124716,0.143335,0.146524,0.144374,0.125192,0.107977,0.0879988]),
+        H298 = (0.345464,'kcal/mol','+|-',0.444602),
+        S298 = (-1.2655,'cal/(mol*K)','+|-',0.303023),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         10
-library:CHOFClBr_G4 |         8
-library:CHOFBr_G4   |         24
-library:CHOClBr_G4  |         12
+Library     | Number of Species
+CHOFCl_G4   |         10
+CHOFClBr_G4 |         8
+CHOFBr_G4   |         24
+CHOClBr_G4  |         12
 """,
 )
 
@@ -2197,18 +2197,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.253983,0.46243,0.433558,0.453034,0.475246,0.36147,0.190065],'cal/(mol*K)','+|-',[0.163983,0.183282,0.185296,0.182245,0.158765,0.13645,0.116072]),
-        H298 = (3.26567,'kcal/mol','+|-',0.557004),
-        S298 = (-0.552766,'cal/(mol*K)','+|-',0.481324),
+        Cpdata = ([0.298108,0.432618,0.341545,0.365618,0.427909,0.349086,0.201933],'cal/(mol*K)','+|-',[0.170385,0.195823,0.200179,0.197242,0.171035,0.147517,0.120223]),
+        H298 = (2.90335,'kcal/mol','+|-',0.607408),
+        S298 = (-0.832571,'cal/(mol*K)','+|-',0.413985),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         19
-library:CHOFCl_G4 |         1
-library:CHOFBr_G4 |         6
+Library   | Number of Species
+CHOF_G4   |         19
+CHOFCl_G4 |         1
+CHOFBr_G4 |         6
 """,
 )
 
@@ -2226,17 +2226,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.244657,-0.0272253,0.105771,0.194017,0.284089,0.278936,0.361748],'cal/(mol*K)','+|-',[0.181729,0.203116,0.205348,0.201967,0.175946,0.151216,0.128633]),
-        H298 = (1.31798,'kcal/mol','+|-',0.617282),
-        S298 = (-0.182703,'cal/(mol*K)','+|-',0.533412),
+        Cpdata = ([-0.216391,-0.0684263,0.0158986,0.110809,0.248751,0.277267,0.388703],'cal/(mol*K)','+|-',[0.188979,0.217193,0.222024,0.218767,0.1897,0.163615,0.133343]),
+        H298 = (1.09963,'kcal/mol','+|-',0.673694),
+        S298 = (-0.532953,'cal/(mol*K)','+|-',0.459163),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         19
-library:CHOClBr_G4 |         1
+Library    | Number of Species
+CHOCl_G4   |         19
+CHOClBr_G4 |         1
 """,
 )
 
@@ -2254,17 +2254,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.132326,-0.100362,-0.088418,-0.0700958,0.0134247,0.0518882,0.397422],'cal/(mol*K)','+|-',[0.267728,0.299236,0.302524,0.297542,0.259208,0.222775,0.189505]),
-        H298 = (1.37496,'kcal/mol','+|-',0.909394),
-        S298 = (-1.12546,'cal/(mol*K)','+|-',0.785835),
+        Cpdata = ([-0.112183,-0.111612,-0.130547,-0.107409,0.00609917,0.0755697,0.431962],'cal/(mol*K)','+|-',[0.280107,0.321926,0.329087,0.324259,0.281176,0.242512,0.197642]),
+        H298 = (1.4366,'kcal/mol','+|-',0.998558),
+        S298 = (-1.22448,'cal/(mol*K)','+|-',0.680577),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOBr_G4  |         10
-library:CHOFBr_G4 |         1
+Library   | Number of Species
+CHOBr_G4  |         10
+CHOFBr_G4 |         1
 """,
 )
 
@@ -2282,19 +2282,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.20177,-0.21247,-0.244353,-0.0460469,0.157355,0.339933,0.781153],'cal/(mol*K)','+|-',[0.206466,0.230765,0.2333,0.229459,0.199896,0.1718,0.146143]),
-        H298 = (7.44325,'kcal/mol','+|-',0.701307),
-        S298 = (1.30018,'cal/(mol*K)','+|-',0.60602),
+        Cpdata = ([0.42524,0.0449695,-0.0076727,0.164389,0.288088,0.420841,0.797181],'cal/(mol*K)','+|-',[0.214423,0.246435,0.251917,0.248221,0.215241,0.185644,0.151296]),
+        H298 = (7.07575,'kcal/mol','+|-',0.764399),
+        S298 = (0.378738,'cal/(mol*K)','+|-',0.520984),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         2
-library:CHOFClBr_G4 |         4
-library:CHOFBr_G4   |         6
-library:CHOClBr_G4  |         4
+Library     | Number of Species
+CHOFCl_G4   |         2
+CHOFClBr_G4 |         4
+CHOFBr_G4   |         6
+CHOClBr_G4  |         4
 """,
 )
 
@@ -2312,17 +2312,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.346476,0.178464,0.127667,0.178184,0.112379,0.095405,0.263444],'cal/(mol*K)','+|-',[0.326238,0.364632,0.368639,0.362569,0.315856,0.271461,0.230921]),
-        H298 = (6.2014,'kcal/mol','+|-',1.10814),
-        S298 = (1.25035,'cal/(mol*K)','+|-',0.957575),
+        Cpdata = ([0.434852,0.304563,0.258223,0.298993,0.188632,0.134846,0.239834],'cal/(mol*K)','+|-',[0.339946,0.390699,0.39939,0.39353,0.341244,0.29432,0.239864]),
+        H298 = (5.41042,'kcal/mol','+|-',1.21188),
+        S298 = (0.422543,'cal/(mol*K)','+|-',0.825968),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         6
-library:CHOFBr_G4 |         1
+Library   | Number of Species
+CHOF_G4   |         6
+CHOFBr_G4 |         1
 """,
 )
 
@@ -2340,17 +2340,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0745819,0.0266297,0.151812,0.283541,0.313607,0.341311,0.51347],'cal/(mol*K)','+|-',[0.32828,0.366914,0.370946,0.364837,0.317833,0.27316,0.232366]),
-        H298 = (3.01916,'kcal/mol','+|-',1.11507),
-        S298 = (-0.399395,'cal/(mol*K)','+|-',0.963567),
+        Cpdata = ([0.281472,0.226703,0.308853,0.405078,0.369993,0.35266,0.465835],'cal/(mol*K)','+|-',[0.342844,0.39403,0.402795,0.396886,0.344153,0.296829,0.241909]),
+        H298 = (2.92725,'kcal/mol','+|-',1.22221),
+        S298 = (-1.01438,'cal/(mol*K)','+|-',0.833011),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         6
-library:CHOClBr_G4 |         1
+Library    | Number of Species
+CHOCl_G4   |         6
+CHOClBr_G4 |         1
 """,
 )
 
@@ -2368,17 +2368,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.455867,-0.0597096,-0.14324,-0.0927532,-0.107564,0.00679977,0.313697],'cal/(mol*K)','+|-',[0.582815,0.651405,0.658563,0.647718,0.564267,0.484957,0.412533]),
-        H298 = (6.14095,'kcal/mol','+|-',1.97966),
-        S298 = (1.12754,'cal/(mol*K)','+|-',1.71068),
+        Cpdata = ([0.269679,-0.339568,-0.437638,-0.371549,-0.316557,-0.150457,0.25956],'cal/(mol*K)','+|-',[0.609982,0.70105,0.716645,0.706131,0.612311,0.528113,0.4304]),
+        H298 = (6.86856,'kcal/mol','+|-',2.17453),
+        S298 = (0.944778,'cal/(mol*K)','+|-',1.48208),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOBr_G4  |         1
-library:CHOFBr_G4 |         1
+Library   | Number of Species
+CHOBr_G4  |         1
+CHOFBr_G4 |         1
 """,
 )
 
@@ -2395,19 +2395,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.453571,-1.28041,-1.50034,-1.30278,-0.887874,-0.531494,-0.284053],'cal/(mol*K)','+|-',[0.136266,0.152303,0.153976,0.151441,0.131929,0.113386,0.0964529]),
-        H298 = (5.91884,'kcal/mol','+|-',0.462857),
-        S298 = (1.4277,'cal/(mol*K)','+|-',0.399968),
+        Cpdata = ([-0.241633,-0.997631,-1.22081,-1.04804,-0.705697,-0.387207,-0.230067],'cal/(mol*K)','+|-',[0.141218,0.162301,0.165912,0.163478,0.141757,0.122264,0.0996426]),
+        H298 = (5.4645,'kcal/mol','+|-',0.50343),
+        S298 = (1.47032,'cal/(mol*K)','+|-',0.343118),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         11
-library:CHOFClBr_G4 |         6
-library:CHOFBr_G4   |         15
-library:CHOClBr_G4  |         11
+Library     | Number of Species
+CHOFCl_G4   |         11
+CHOFClBr_G4 |         6
+CHOFBr_G4   |         15
+CHOClBr_G4  |         11
 """,
 )
 
@@ -2424,18 +2424,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.494795,-1.24385,-1.35935,-1.13515,-0.696934,-0.330716,-0.0505083],'cal/(mol*K)','+|-',[0.152651,0.170616,0.17249,0.16965,0.147793,0.12702,0.10805]),
-        H298 = (9.52269,'kcal/mol','+|-',0.518511),
-        S298 = (2.1749,'cal/(mol*K)','+|-',0.44806),
+        Cpdata = ([-0.243726,-0.892465,-1.00432,-0.809524,-0.465755,-0.153704,-0.0076276],'cal/(mol*K)','+|-',[0.157399,0.180898,0.184922,0.182209,0.158,0.136274,0.11106]),
+        H298 = (8.49439,'kcal/mol','+|-',0.561115),
+        S298 = (1.84388,'cal/(mol*K)','+|-',0.382434),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         18
-library:CHOFCl_G4 |         6
-library:CHOFBr_G4 |         14
+Library   | Number of Species
+CHOF_G4   |         18
+CHOFCl_G4 |         6
+CHOFBr_G4 |         14
 """,
 )
 
@@ -2452,17 +2452,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.385662,-1.11567,-1.30982,-1.14563,-0.802146,-0.4834,-0.311198],'cal/(mol*K)','+|-',[0.186939,0.208939,0.211235,0.207757,0.18099,0.155551,0.132321]),
-        H298 = (5.9382,'kcal/mol','+|-',0.634978),
-        S298 = (1.96528,'cal/(mol*K)','+|-',0.548703),
+        Cpdata = ([-0.105823,-0.766456,-0.977777,-0.85146,-0.597257,-0.327485,-0.276673],'cal/(mol*K)','+|-',[0.193567,0.222465,0.227414,0.224078,0.194306,0.167587,0.13658]),
+        H298 = (5.42706,'kcal/mol','+|-',0.690049),
+        S298 = (1.79238,'cal/(mol*K)','+|-',0.47031),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library            | Number of Species
-library:CHOCl_G4   |         19
-library:CHOClBr_G4 |         6
+Library    | Number of Species
+CHOCl_G4   |         19
+CHOClBr_G4 |         6
 """,
 )
 
@@ -2479,16 +2479,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.509935,-1.07314,-1.25114,-1.01773,-0.642749,-0.349817,-0.236676],'cal/(mol*K)','+|-',[0.242505,0.271045,0.274023,0.269511,0.234787,0.201787,0.171652]),
-        H298 = (4.7386,'kcal/mol','+|-',0.82372),
-        S298 = (0.360208,'cal/(mol*K)','+|-',0.711801),
+        Cpdata = ([-0.239894,-0.712398,-0.893193,-0.690186,-0.406385,-0.16506,-0.163833],'cal/(mol*K)','+|-',[0.252131,0.289774,0.29622,0.291874,0.253094,0.218291,0.177903]),
+        H298 = (4.18013,'kcal/mol','+|-',0.898828),
+        S298 = (0.317992,'cal/(mol*K)','+|-',0.612605),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOBr_G4 |         14
+Library  | Number of Species
+CHOBr_G4 |         14
 """,
 )
 
@@ -2525,19 +2525,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.678754,-1.36075,-1.46251,-1.25875,-0.799514,-0.442528,-0.237204],'cal/(mol*K)','+|-',[0.106117,0.118606,0.119909,0.117935,0.10274,0.0882997,0.0751128]),
-        H298 = (7.73655,'kcal/mol','+|-',0.36045),
-        S298 = (1.91714,'cal/(mol*K)','+|-',0.311476),
+        Cpdata = ([-0.380226,-0.90248,-0.976221,-0.797113,-0.449641,-0.181964,-0.152742],'cal/(mol*K)','+|-',[0.106372,0.122253,0.124973,0.123139,0.106778,0.0920953,0.0750556]),
+        H298 = (6.39782,'kcal/mol','+|-',0.379208),
+        S298 = (1.32798,'cal/(mol*K)','+|-',0.258453),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOF_G4     |         30
-library:CHOFCl_G4   |         19
-library:CHOFClBr_G4 |         4
-library:CHOFBr_G4   |         29
+Library     | Number of Species
+CHOF_G4     |         30
+CHOFCl_G4   |         19
+CHOFClBr_G4 |         4
+CHOFBr_G4   |         29
 """,
 )
 
@@ -2554,19 +2554,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.83265,-1.52071,-1.62737,-1.40122,-0.856566,-0.450082,-0.259538],'cal/(mol*K)','+|-',[0.124031,0.138627,0.140151,0.137843,0.120084,0.103205,0.0877924]),
-        H298 = (5.96841,'kcal/mol','+|-',0.421297),
-        S298 = (1.9389,'cal/(mol*K)','+|-',0.364055),
+        Cpdata = ([-0.514656,-1.01793,-1.0856,-0.88761,-0.466709,-0.160292,-0.152415],'cal/(mol*K)','+|-',[0.123009,0.141374,0.144519,0.142398,0.123478,0.106499,0.0867944]),
+        H298 = (4.85599,'kcal/mol','+|-',0.438516),
+        S298 = (1.34987,'cal/(mol*K)','+|-',0.298875),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOCl_G4    |         30
-library:CHOFCl_G4   |         7
-library:CHOFClBr_G4 |         3
-library:CHOClBr_G4  |         19
+Library     | Number of Species
+CHOCl_G4    |         30
+CHOFCl_G4   |         7
+CHOFClBr_G4 |         3
+CHOClBr_G4  |         19
 """,
 )
 
@@ -2583,19 +2583,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.96471,-1.75494,-1.89773,-1.64427,-0.980527,-0.494077,-0.302675],'cal/(mol*K)','+|-',[0.139216,0.1556,0.15731,0.154719,0.134785,0.115841,0.0985409]),
-        H298 = (5.90028,'kcal/mol','+|-',0.472876),
-        S298 = (2.07085,'cal/(mol*K)','+|-',0.408626),
+        Cpdata = ([-0.734756,-1.3408,-1.43206,-1.19224,-0.627405,-0.225675,-0.182377],'cal/(mol*K)','+|-',[0.138319,0.15897,0.162506,0.160122,0.138847,0.119755,0.0975974]),
+        H298 = (5.01034,'kcal/mol','+|-',0.493097),
+        S298 = (1.41174,'cal/(mol*K)','+|-',0.336075),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOBr_G4    |         26
-library:CHOFClBr_G4 |         1
-library:CHOFBr_G4   |         12
-library:CHOClBr_G4  |         7
+Library     | Number of Species
+CHOBr_G4    |         26
+CHOFClBr_G4 |         1
+CHOFBr_G4   |         12
+CHOClBr_G4  |         7
 """,
 )
 
@@ -2664,16 +2664,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.0536953,0.0191018,0.140117,0.214366,0.247385,0.270068,0.324087],'cal/(mol*K)','+|-',[0.0851459,0.0951665,0.0962123,0.0946279,0.0824363,0.0708495,0.0602687]),
-        H298 = (1.9218,'kcal/mol','+|-',0.289216),
-        S298 = (-1.02994,'cal/(mol*K)','+|-',0.249921),
+        Cpdata = ([-0.0613148,0.014087,0.137551,0.213407,0.248535,0.276004,0.330381],'cal/(mol*K)','+|-',[0.0890383,0.102331,0.104608,0.103073,0.0893782,0.0770879,0.0628249]),
+        H298 = (1.96277,'kcal/mol','+|-',0.317414),
+        S298 = (-0.694615,'cal/(mol*K)','+|-',0.216337),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library         | Number of Species
-library:CHOF_G4 |         14
+Library | Number of Species
+CHOF_G4 |         14
 """,
 )
 
@@ -2695,16 +2695,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.423779,0.325903,0.268323,0.231788,0.168362,0.132954,0.106658],'cal/(mol*K)','+|-',[0.0872624,0.0975321,0.0986038,0.0969801,0.0844854,0.0726106,0.0617668]),
-        H298 = (5.27416,'kcal/mol','+|-',0.296405),
-        S298 = (-1.16713,'cal/(mol*K)','+|-',0.256133),
+        Cpdata = ([0.429706,0.325512,0.262386,0.223978,0.159683,0.128005,0.103564],'cal/(mol*K)','+|-',[0.0912424,0.104865,0.107197,0.105625,0.0915907,0.0789962,0.0643802]),
+        H298 = (5.36116,'kcal/mol','+|-',0.325272),
+        S298 = (-0.831813,'cal/(mol*K)','+|-',0.221692),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         14
+Library  | Number of Species
+CHOCl_G4 |         14
 """,
 )
 
@@ -2774,16 +2774,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.10085,-0.0376323,0.129194,0.173183,0.105408,0.117052,0.19886],'cal/(mol*K)','+|-',[0.140308,0.15682,0.158543,0.155933,0.135843,0.116749,0.0993138]),
-        H298 = (2.72867,'kcal/mol','+|-',0.476585),
-        S298 = (0.333882,'cal/(mol*K)','+|-',0.411832),
+        Cpdata = ([-0.124569,-0.0414804,0.137115,0.18829,0.127109,0.148913,0.223763],'cal/(mol*K)','+|-',[0.146487,0.168357,0.172102,0.169577,0.147046,0.126826,0.103361]),
+        H298 = (2.86687,'kcal/mol','+|-',0.522214),
+        S298 = (-0.0461551,'cal/(mol*K)','+|-',0.355921),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library         | Number of Species
-library:CHOF_G4 |         26
+Library | Number of Species
+CHOF_G4 |         26
 """,
 )
 
@@ -2805,16 +2805,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.189116,-0.0860562,-0.248296,-0.31494,-0.343759,-0.287109,-0.0861114],'cal/(mol*K)','+|-',[0.14199,0.1587,0.160444,0.157802,0.137471,0.118149,0.100504]),
-        H298 = (6.11769,'kcal/mol','+|-',0.482298),
-        S298 = (-0.18798,'cal/(mol*K)','+|-',0.416768),
+        Cpdata = ([0.211057,-0.0849622,-0.261928,-0.331928,-0.359998,-0.293467,-0.0908236],'cal/(mol*K)','+|-',[0.148192,0.170317,0.174106,0.171551,0.148758,0.128303,0.104564]),
+        H298 = (6.29532,'kcal/mol','+|-',0.528293),
+        S298 = (-0.542737,'cal/(mol*K)','+|-',0.360064),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         26
+Library  | Number of Species
+CHOCl_G4 |         26
 """,
 )
 
@@ -2886,18 +2886,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.360785,-0.0412382,0.208141,0.393838,0.560745,0.676692,0.927224],'cal/(mol*K)','+|-',[0.155578,0.173887,0.175798,0.172903,0.150627,0.129455,0.110122]),
-        H298 = (1.37525,'kcal/mol','+|-',0.528453),
-        S298 = (0.895676,'cal/(mol*K)','+|-',0.456652),
+        Cpdata = ([-0.432377,-0.382519,-0.280526,-0.140557,0.0752877,0.282769,0.68794],'cal/(mol*K)','+|-',[0.158593,0.182271,0.186325,0.183592,0.159199,0.137307,0.111903]),
+        H298 = (2.57853,'kcal/mol','+|-',0.565371),
+        S298 = (0.805811,'cal/(mol*K)','+|-',0.385335),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFClBr_G4 |         9
-library:CHOFBr_G4   |         15
-library:CHOClBr_G4  |         9
+Library     | Number of Species
+CHOFClBr_G4 |         9
+CHOFBr_G4   |         15
+CHOClBr_G4  |         9
 """,
 )
 
@@ -2917,16 +2917,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.520463,-0.260359,0.0245977,0.166647,0.196998,0.177119,0.236754],'cal/(mol*K)','+|-',[0.180888,0.202176,0.204398,0.201032,0.175132,0.150516,0.128038]),
-        H298 = (0.829319,'kcal/mol','+|-',0.614426),
-        S298 = (0.716855,'cal/(mol*K)','+|-',0.530944),
+        Cpdata = ([-0.602376,-0.448942,-0.211492,-0.0750071,-0.00521891,0.0217937,0.151667],'cal/(mol*K)','+|-',[0.188239,0.216342,0.221155,0.21791,0.188957,0.162974,0.13282]),
+        H298 = (1.33119,'kcal/mol','+|-',0.671056),
+        S298 = (0.806138,'cal/(mol*K)','+|-',0.457365),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library         | Number of Species
-library:CHOF_G4 |         24
+Library | Number of Species
+CHOF_G4 |         24
 """,
 )
 
@@ -2946,16 +2946,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.120592,0.114628,0.139861,0.141065,0.145024,0.168425,0.279768],'cal/(mol*K)','+|-',[0.182815,0.20433,0.206575,0.203173,0.176997,0.152119,0.129401]),
-        H298 = (2.11523,'kcal/mol','+|-',0.620969),
-        S298 = (0.0710461,'cal/(mol*K)','+|-',0.536598),
+        Cpdata = ([0.0789661,-0.00826368,-0.031511,-0.047384,-0.02161,0.0392074,0.200236],'cal/(mol*K)','+|-',[0.190162,0.218553,0.223415,0.220137,0.190888,0.16464,0.134178]),
+        H298 = (2.70883,'kcal/mol','+|-',0.677913),
+        S298 = (0.0802435,'cal/(mol*K)','+|-',0.462038),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         24
+Library  | Number of Species
+CHOCl_G4 |         24
 """,
 )
 
@@ -2997,16 +2997,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.0878905,0.209475,0.239065,0.19681,0.0199138,-0.0548582,0.00246089],'cal/(mol*K)','+|-',[0.410152,0.458422,0.463459,0.455827,0.397099,0.341285,0.290317]),
-        H298 = (2.4843,'kcal/mol','+|-',1.39317),
-        S298 = (2.44707,'cal/(mol*K)','+|-',1.20388),
+        Cpdata = ([-0.11987,0.154996,0.179495,0.136543,-0.0362734,-0.102538,-0.023355],'cal/(mol*K)','+|-',[0.429404,0.493513,0.504491,0.49709,0.431044,0.371771,0.302985]),
+        H298 = (2.51094,'kcal/mol','+|-',1.53079),
+        S298 = (1.71964,'cal/(mol*K)','+|-',1.04333),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOFBr_G4 |         4
+Library   | Number of Species
+CHOFBr_G4 |         4
 """,
 )
 
@@ -3026,16 +3026,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.711296,-0.546028,-0.309022,-0.156667,-0.124581,-0.143955,-0.0280199],'cal/(mol*K)','+|-',[0.26756,0.299048,0.302334,0.297356,0.259045,0.222635,0.189386]),
-        H298 = (1.75222,'kcal/mol','+|-',0.908824),
-        S298 = (-0.587698,'cal/(mol*K)','+|-',0.785342),
+        Cpdata = ([-0.774085,-0.642314,-0.412453,-0.260714,-0.21398,-0.217231,-0.0639702],'cal/(mol*K)','+|-',[0.280037,0.321846,0.329005,0.324178,0.281106,0.242452,0.197593]),
+        H298 = (1.96179,'kcal/mol','+|-',0.998309),
+        S298 = (-0.52294,'cal/(mol*K)','+|-',0.680408),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library         | Number of Species
-library:CHOF_G4 |         8
+Library | Number of Species
+CHOF_G4 |         8
 """,
 )
 
@@ -3055,16 +3055,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.305208,0.41396,0.423655,0.444474,0.412851,0.407651,0.483941],'cal/(mol*K)','+|-',[0.271242,0.303164,0.306495,0.301448,0.26261,0.225699,0.191993]),
-        H298 = (7.23178,'kcal/mol','+|-',0.921333),
-        S298 = (-1.56525,'cal/(mol*K)','+|-',0.796151),
+        Cpdata = ([0.245379,0.333856,0.340188,0.362121,0.345499,0.354879,0.459335],'cal/(mol*K)','+|-',[0.283918,0.326306,0.333565,0.328671,0.285002,0.245812,0.200331]),
+        H298 = (7.38508,'kcal/mol','+|-',1.01215),
+        S298 = (-1.56652,'cal/(mol*K)','+|-',0.689838),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         8
+Library  | Number of Species
+CHOCl_G4 |         8
 """,
 )
 
@@ -3105,19 +3105,19 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.28792,1.68908,1.71197,1.57447,1.10652,0.695355,0.232733],'cal/(mol*K)','+|-',[0.185964,0.20785,0.210134,0.206673,0.180046,0.15474,0.131631]),
-        H298 = (2.37584,'kcal/mol','+|-',0.631667),
-        S298 = (-0.115162,'cal/(mol*K)','+|-',0.545842),
+        Cpdata = ([1.28858,1.60873,1.59757,1.44213,0.990463,0.627,0.204681],'cal/(mol*K)','+|-',[0.192574,0.221324,0.226247,0.222928,0.193309,0.166727,0.135879]),
+        H298 = (2.34139,'kcal/mol','+|-',0.686509),
+        S298 = (-0.572184,'cal/(mol*K)','+|-',0.467897),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library             | Number of Species
-library:CHOFCl_G4   |         4
-library:CHOFClBr_G4 |         2
-library:CHOFBr_G4   |         10
-library:CHOClBr_G4  |         4
+Library     | Number of Species
+CHOFCl_G4   |         4
+CHOFClBr_G4 |         2
+CHOFBr_G4   |         10
+CHOClBr_G4  |         4
 """,
 )
 
@@ -3136,17 +3136,17 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.676581,0.737019,0.716671,0.627472,0.397746,0.228975,0.034705],'cal/(mol*K)','+|-',[0.254142,0.284051,0.287173,0.282444,0.246054,0.21147,0.179889]),
-        H298 = (1.9062,'kcal/mol','+|-',0.863247),
-        S298 = (0.0645047,'cal/(mol*K)','+|-',0.745958),
+        Cpdata = ([0.692902,0.748947,0.732154,0.654874,0.448645,0.294028,0.0858244],'cal/(mol*K)','+|-',[0.263555,0.302903,0.309641,0.305098,0.264561,0.228182,0.185963]),
+        H298 = (1.68467,'kcal/mol','+|-',0.939551),
+        S298 = (-0.143794,'cal/(mol*K)','+|-',0.640361),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library           | Number of Species
-library:CHOF_G4   |         8
-library:CHOFBr_G4 |         3
+Library   | Number of Species
+CHOF_G4   |         8
+CHOFBr_G4 |         3
 """,
 )
 
@@ -3165,16 +3165,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.758337,0.918714,0.955907,0.90391,0.687791,0.478327,0.216737],'cal/(mol*K)','+|-',[0.296711,0.331631,0.335275,0.329754,0.287269,0.246892,0.210021]),
-        H298 = (1.34802,'kcal/mol','+|-',1.00784),
-        S298 = (-0.785265,'cal/(mol*K)','+|-',0.870908),
+        Cpdata = ([0.815477,0.963953,0.996605,0.942743,0.729321,0.528441,0.248787],'cal/(mol*K)','+|-',[0.308984,0.355115,0.363014,0.357688,0.310164,0.267514,0.218018]),
+        H298 = (1.52396,'kcal/mol','+|-',1.1015),
+        S298 = (-0.764091,'cal/(mol*K)','+|-',0.750741),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOCl_G4 |         8
+Library  | Number of Species
+CHOCl_G4 |         8
 """,
 )
 
@@ -3193,16 +3193,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.59529,1.90393,1.87184,1.68818,1.1184,0.615772,-0.07249],'cal/(mol*K)','+|-',[0.568867,0.635816,0.642803,0.632218,0.550764,0.473352,0.402661]),
-        H298 = (3.63807,'kcal/mol','+|-',1.93228),
-        S298 = (-1.12272,'cal/(mol*K)','+|-',1.66974),
+        Cpdata = ([1.5681,1.85074,1.80473,1.61193,1.06923,0.615793,-0.054756],'cal/(mol*K)','+|-',[0.594067,0.682759,0.697947,0.687708,0.596335,0.514334,0.419171]),
+        H298 = (3.76862,'kcal/mol','+|-',2.1178),
+        S298 = (-1.1101,'cal/(mol*K)','+|-',1.44341),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
-Library          | Number of Species
-library:CHOBr_G4 |         2
+Library  | Number of Species
+CHOBr_G4 |         2
 """,
 )
 
