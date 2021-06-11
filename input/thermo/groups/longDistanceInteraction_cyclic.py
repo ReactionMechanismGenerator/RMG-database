@@ -2272,7 +2272,7 @@ entry(
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
-3    [C,H,N,O,S] ux {1,S} {2,S}
+3    [C,N,O,S] ux {1,S} {2,S}
 4    Val7        u0 {1,S}
 5    Val7        u0 {2,S}
 6    Val7        u0 {1,S}
@@ -2298,7 +2298,7 @@ entry(
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
-3    [C,H,N,O,S] ux {1,S} {2,S}
+3    [C,N,O,S] ux {1,S} {2,S}
 4    Cl1s        u0 {1,S}
 5    Cl1s        u0 {2,S}
 6    Cl1s        u0 {1,S}
@@ -2326,7 +2326,7 @@ entry(
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
-3    [C,H,N,O,S] ux {1,S} {2,S}
+3    [C,N,O,S] ux {1,S} {2,S}
 4    F1s         u0 {1,S}
 5    F1s         u0 {2,S}
 6    F1s         u0 {1,S}
@@ -2354,7 +2354,7 @@ entry(
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
-3    [C,H,N,O,S] ux {1,S} {2,S}
+3    [C,N,O,S] ux {1,S} {2,S}
 4    Br1s        u0 {1,S}
 5    Br1s        u0 {2,S}
 6    Br1s        u0 {1,S}
@@ -2380,12 +2380,11 @@ entry(
     label = "Cs(Val7)2-C(Val7)",
     group = 
 """
-1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
-2 *2 [Cs,Cd]     ux {1,S} {6,S}
+1 *1 Cs          ux {2,S} {3,S} {4,S}
+2 *2 [Cs,Cd]     ux {1,S} {5,S}
 3    Val7        u0 {1,S}
 4    Val7        u0 {1,S}
-5    [C,H,N,O,S] ux {1,S}
-6    Val7        u0 {2,S}
+5    Val7        u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2407,7 +2406,7 @@ entry(
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 [Cs,Cd]     ux {1,S} {3,[S,D]} {6,S}
-3    [C,H,N,O,S] ux {1,S} {2,[S,D]}
+3    [C,N,O,S] ux {1,S} {2,[S,D]}
 4    Val7        u0 {1,S}
 5    Val7        u0 {1,S}
 6    Val7        u0 {2,S}
@@ -2431,12 +2430,11 @@ entry(
     group = 
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
-2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
+2 *2 Cs          ux {1,S} {3,S} {5,S}
 3    [C,N,O,S]   ux {1,S} {2,S}
 4    Val7        u0 {1,S}
 5    Val7        u0 {2,S}
 6    Val7        u0 {1,S}
-7    [C,H,N,O,S] ux {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2457,12 +2455,11 @@ entry(
     group = 
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
-2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
+2 *2 Cs          ux {1,S} {3,S} {5,S}
 3    [C,N,O,S]   ux {1,S} {2,S}
 4    Cl1s        u0 {1,S}
 5    Cl1s        u0 {2,S}
 6    Cl1s        u0 {1,S}
-7    [C,H,N,O,S] ux {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2485,12 +2482,11 @@ entry(
     group = 
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
-2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
+2 *2 Cs          ux {1,S} {3,S} {5,S}
 3    [C,N,O,S]   ux {1,S} {2,S}
 4    F1s         u0 {1,S}
 5    F1s         u0 {2,S}
 6    F1s         u0 {1,S}
-7    [C,H,N,O,S] ux {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2513,12 +2509,11 @@ entry(
     group = 
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
-2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
+2 *2 Cs          ux {1,S} {3,S} {5,S}
 3    [C,N,O,S]   ux {1,S} {2,S}
 4    Br1s        u0 {1,S}
 5    Br1s        u0 {2,S}
 6    Br1s        u0 {1,S}
-7    [C,H,N,O,S] ux {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2646,14 +2641,11 @@ entry(
     label = "Cs(Val7)2-Cs(Val7)",
     group = 
 """
-1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
+1 *1 Cs          ux {2,S} {3,S} {5,S}
+2 *2 Cs          ux {1,S} {4,S}
 3    Val7        u0 {1,S}
 4    Val7        u0 {2,S}
 5    Val7        u0 {1,S}
-6    [C,H,N,O,S] ux {2,S}
-7    [C,H,N,O,S] ux {1,S}
-8    [C,H,N,O,S] ux {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2673,14 +2665,11 @@ entry(
     label = "Cs(Cl)2-Cs(Cl)",
     group = 
 """
-1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
+1 *1 Cs          ux {2,S} {3,S} {5,S}
+2 *2 Cs          ux {1,S} {4,S}
 3    Cl1s        u0 {1,S}
 4    Cl1s        u0 {2,S}
 5    Cl1s        u0 {1,S}
-6    [C,H,N,O,S] ux {2,S}
-7    [C,H,N,O,S] ux {1,S}
-8    [C,H,N,O,S] ux {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2702,14 +2691,11 @@ entry(
     label = "Cs(F)2-Cs(F)",
     group = 
 """
-1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
+1 *1 Cs          ux {2,S} {3,S} {5,S}
+2 *2 Cs          ux {1,S} {4,S}
 3    F1s         u0 {1,S}
 4    F1s         u0 {2,S}
 5    F1s         u0 {1,S}
-6    [C,H,N,O,S] ux {2,S}
-7    [C,H,N,O,S] ux {1,S}
-8    [C,H,N,O,S] ux {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2731,14 +2717,11 @@ entry(
     label = "Cs(Br)2-Cs(Br)",
     group = 
 """
-1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
-2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
+1 *1 Cs          ux {2,S} {3,S} {5,S}
+2 *2 Cs          ux {1,S} {4,S}
 3    Br1s        u0 {1,S}
 4    Br1s        u0 {2,S}
 5    Br1s        u0 {1,S}
-6    [C,H,N,O,S] ux {2,S}
-7    [C,H,N,O,S] ux {1,S}
-8    [C,H,N,O,S] ux {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
