@@ -4864,8 +4864,8 @@ entry(
     label = "Cd-Cd-O2s-Cs(F)",
     group = 
 """
-1   Cs  u0 p0 c0 {2,S} {3,S} {5,S}
-2 * O2s u0 p2 c0 {1,S} {4,S}
+1 * Cs  u0 p0 c0 {2,S} {3,S} {5,S}
+2   O2s u0 p2 c0 {1,S} {4,S}
 3   Cd  u0 p0 c0 {1,S} {4,D}
 4   Cd  u0 p0 c0 {2,S} {3,D}
 5   F1s u0 p3 c0 {1,S}
@@ -9772,9 +9772,10 @@ L1: Ring
         L3: 34methylenecyclobutene
         L3: dioxerene
         L3: Oxetene
-            L4: Cd-Cd-O2s-Cs(F)
         L3: four-inringonedouble
             L4: Cyclobutene
+                L5: Cd-Cd-O2s-Cs(F)
+                    L6: O2s-Cd-Cd-Cs(F)(F)
                 L5: Cs(Br)-Cd-Cd-O2s
                     L6: Cd-Cd-Cs(Br)(Br)-O2s
                 L5: Cs-Cd-Cd-Cs(Br)
@@ -9791,7 +9792,6 @@ L1: Ring
                     L6: Cd-Cs-Cs(Cl)(Cl)-Cd
                 L5: Cs-O2s-Cd-Cd(Cl)
                 L5: Cd-O2s-O2s-Cd(Cl)
-                L5: O2s-Cd-Cd-Cs(F)(F)
                 L5: Cs(F)-Cs-Cd-Cd
                     L6: Cd-Cs-Cs(F)(F)-Cd
                 L5: Cd(F)-Cd-Cs-Cs
