@@ -19,6 +19,29 @@ acetone_peracetic_criegee
 18    H u0 p0 c0 {9,S}
 19    H u0 p0 c0 {9,S}
 
+methyl_acetate
+1  *2 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+2  *5 O u0 p2 c0 {1,S} {3,S}
+3  *1 C u0 p0 c0 {2,S} {4,D} {5,S}
+4  *3 O u0 p2 c0 {3,D}
+5     C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+6     H u0 p0 c0 {1,S}
+7     H u0 p0 c0 {1,S}
+8     H u0 p0 c0 {1,S}
+9     H u0 p0 c0 {5,S}
+10    H u0 p0 c0 {5,S}
+11    H u0 p0 c0 {5,S}
+
+acetic_acid
+1    C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 *7 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 *6 O u0 p2 c0 {2,D}
+4 *8 O u0 p2 c0 {2,S} {8,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {1,S}
+7    H u0 p0 c0 {1,S}
+8 *4 H u0 p0 c0 {4,S}
+
 cyclohexanone_peracetic_criegee
 1     C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
 2  *7 C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -47,19 +70,6 @@ cyclohexanone_peracetic_criegee
 25    H u0 p0 c0 {12,S}
 26    H u0 p0 c0 {12,S}
 
-methyl_acetate
-1  *2 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  *5 O u0 p2 c0 {1,S} {3,S}
-3  *1 C u0 p0 c0 {2,S} {4,D} {5,S}
-4  *3 O u0 p2 c0 {3,D}
-5     C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-6     H u0 p0 c0 {1,S}
-7     H u0 p0 c0 {1,S}
-8     H u0 p0 c0 {1,S}
-9     H u0 p0 c0 {5,S}
-10    H u0 p0 c0 {5,S}
-11    H u0 p0 c0 {5,S}
-
 caprolactone
 1  *1 C u0 p0 c0 {2,D} {3,S} {8,S}
 2  *3 O u0 p2 c0 {1,D}
@@ -80,12 +90,3 @@ caprolactone
 17    H u0 p0 c0 {8,S}
 18    H u0 p0 c0 {8,S}
 
-acetic_acid
-1    C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 *7 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 *6 O u0 p2 c0 {2,D}
-4 *8 O u0 p2 c0 {2,S} {8,S}
-5    H u0 p0 c0 {1,S}
-6    H u0 p0 c0 {1,S}
-7    H u0 p0 c0 {1,S}
-8 *4 H u0 p0 c0 {4,S}
