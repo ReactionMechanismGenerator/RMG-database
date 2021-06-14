@@ -11,6 +11,11 @@ template(reactants=["S-RR_or_RRrad", "YJ"], products=["S-RR_or_RRrad", "YJ"], ow
 
 reversible = True
 
+reverseMap = {'*1': '*1', '*2': '*3', '*3': '*2'}
+reactantNum = 2
+productNum = 2
+
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['FORM_BOND', '*1', 1, '*3'],
@@ -21,16 +26,25 @@ recipe(actions=[
 entry(
     index = 0,
     label = "S-RR_or_RRrad",
-    group = "OR{S-RR, S-RRrad}",
+    group = 
+"""
+1 *1 S2s u0 p2 c0 {2,S} {3,S}
+2 *2 R   ux {1,S}
+3    R   u0 {1,S}
+""",
     kinetics = None,
 )
 
 entry(
     index = 1,
     label = "YJ",
-    group = "OR{Y_2centeradjbirad, HJ, CJ, O_rad, SJ, Y_1centerbirad}",
+    group = 
+"""
+1 *3 R u[1,2]
+""",
     kinetics = None,
 )
+
 
 entry(
     index = 2,
