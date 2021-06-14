@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Singlet_Val6_to_triplet/training"
-shortDesc = u"Reaction kinetics used to generate rate rules"
-longDesc = u"""
+shortDesc = "Reaction kinetics used to generate rate rules"
+longDesc = """
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
@@ -12,10 +12,10 @@ entry(
     label = "O2(S) => O2(T)",
     degeneracy = 1.0,
     reversible = False,
-    kinetics = Arrhenius(A=(4.5e+10, 's^-1'), n=0, Ea=(397, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(4.5e+10,'s^-1'), n=0, Ea=(397,'cal/mol'), T0=(1,'K')),
     rank = 1,
     longDesc = 
-u"""
+"""
 taken from:
 R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,
 Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry: Supplement IV.
@@ -35,10 +35,10 @@ entry(
     label = "SO(S) => SO(T)",
     degeneracy = 1.0,
     reversible = False,
-    kinetics = Arrhenius(A=(2.5e+17, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.5e+17,'s^-1'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
     longDesc = 
-u"""
+"""
 taken from:
 H2S oxidation at high pressures
 An Exploratory Flow Reactor Study of H2S Oxidation at 30-100 Bar

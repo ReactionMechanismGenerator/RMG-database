@@ -2,29 +2,52 @@
 # encoding: utf-8
 
 name = "Singlet_Val6_to_triplet/rules"
-shortDesc = u""
-longDesc = u"""
+shortDesc = ""
+longDesc = """
 
 """
 entry(
     index = 1,
-    label = "singlet",
-    kinetics = ArrheniusEP(A=(4.5e+10, 's^-1'), n=0, alpha=0, E0=(1661.05, 'J/mol')),
-    rank = 1,
-    shortDesc = u"""Default""",
+    label = "Root",
+    kinetics = ArrheniusBM(A=(4.15477e+13,'s^-1'), n=0.120255, w0=(152250,'J/mol'), E0=(15225,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0998889646871146, var=488.606175958841, Tref=1000.0, N=2, data_mean=0.0, correlation='Root',), comment="""BM rule fitted to 2 training reactions at node Root
+    Total Standard Deviation in ln(k): 44.56451937156995"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 2 training reactions at node Root
+Total Standard Deviation in ln(k): 44.56451937156995""",
     longDesc = 
-u"""
-taken from:
-R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,
-Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry: Supplement IV.
-IUPAC Subcommittee on Gas Kinetic Data Evaluation for Atmospheric Chemistry
-Journal of Physical and Chemical Reference Data 21, 1125 (1992)
-doi: 10.1063/1.555918
+"""
+BM rule fitted to 2 training reactions at node Root
+Total Standard Deviation in ln(k): 44.56451937156995
+""",
+)
 
-Adjusted to a first order reaction at 1 atm by alongd:
-n/V = P/RT = 1 bar / (83 cm^3 bar K^-1 mol^-1 * 300 K) = 4E-05 mol cm^-3
-1.81E+06 mol cm^-3 S^-1 / 4E-05 mol cm^-3 = 4.5E+10 s^-1
-Original reaction is O2(1D) + M => O2 + M
+entry(
+    index = 2,
+    label = "Root_1O2dS2d->O2d",
+    kinetics = ArrheniusBM(A=(4.5e+10,'s^-1'), n=0, w0=(176000,'J/mol'), E0=(17600,'J/mol'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_1O2dS2d->O2d',), comment="""BM rule fitted to 1 training reactions at node Root_1O2dS2d->O2d
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_1O2dS2d->O2d
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_1O2dS2d->O2d
+Total Standard Deviation in ln(k): 11.540182761524994
+""",
+)
+
+entry(
+    index = 3,
+    label = "Root_N-1O2dS2d->O2d",
+    kinetics = ArrheniusBM(A=(2.5e+17,'s^-1'), n=0, w0=(128500,'J/mol'), E0=(12850,'J/mol'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-1O2dS2d->O2d',), comment="""BM rule fitted to 1 training reactions at node Root_N-1O2dS2d->O2d
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-1O2dS2d->O2d
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_N-1O2dS2d->O2d
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
