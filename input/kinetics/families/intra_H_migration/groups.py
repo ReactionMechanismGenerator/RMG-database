@@ -20,6 +20,9 @@ recipe(actions=[
 
 reverseMap = {'*1':'*2','*2':'*1'}
 
+reactantNum = 1
+productNum = 1
+
 boundaryAtoms = ["*1", "*2"]
 
 entry(
