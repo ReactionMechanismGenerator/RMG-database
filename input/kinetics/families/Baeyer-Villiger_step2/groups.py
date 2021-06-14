@@ -10,7 +10,6 @@ longDesc = """
 template(reactants=["Root"], products=["ester", "acid"], ownReverse=False)
 
 reverse = "none"
-reversible = False
 
 reactantNum = 1
 
