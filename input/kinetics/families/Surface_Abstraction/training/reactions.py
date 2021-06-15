@@ -397,7 +397,7 @@ entry(
     index = 17,
     label = "HNX-2 + O* <=> OH* + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.832e22,'cm^2/(mol*s)'), n=0, Ea=(84911.2,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(8.32e21,'cm^2/(mol*s)'), n=0, Ea=(84911.2,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction""",
     longDesc = 

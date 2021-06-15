@@ -137,7 +137,7 @@ entry(
     index = 6,
     label = "HOX + H3NX <=> H2NX + H2OX",
     degeneracy = 3.0,
-    kinetics = SurfaceArrhenius(A=(1.727e21,'cm^2/(mol*s)'), n=0, Ea=(23157.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(7.27e20,'cm^2/(mol*s)'), n=0, Ea=(23157.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Abstraction_Single_vdW""",
     longDesc = 

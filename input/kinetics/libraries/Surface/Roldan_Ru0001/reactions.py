@@ -134,7 +134,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u""" Surface_Adsorption_vdW""",
+    shortDesc = u"""""",
     longDesc = u"""
 "Kinetic and mechanistic analysis of NH3 decomposition 
 on Ru(0001), Ru(111) and Ir(111) surfaces"

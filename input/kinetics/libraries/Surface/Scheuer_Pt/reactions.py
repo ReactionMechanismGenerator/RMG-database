@@ -235,7 +235,7 @@ This is R10 in Table 1
 #     kinetics = SurfaceArrhenius(
 #         A = (2.74E23, 'cm^2/(mol*s)'),  
 #         n = 0.0,
-#         Ea = (11500, 'J/mol'),  
+#         Ea = (115000, 'J/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),

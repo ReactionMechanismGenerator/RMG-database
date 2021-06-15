@@ -29,7 +29,7 @@ https://doi.org/10.1016/S1385-8947(02)00068-2
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = ((2e8 /atm)/(101325 Pa/atm)/s)*(2.483e-9(mol/cm^2))*sqrt(2*pi*(17(g/mol))*the molar gas constant*(298 kelvin))
 
-This is R1 in Table 1 
+This is R1 in Table 3 
 """,
     metal = "Pt",
     facet = "111",
@@ -39,9 +39,9 @@ This is R1 in Table 1
 #     index = 2,
 #     label = "NH3_X <=> NH3 + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1E9, '1/s'),  
+#         A = (1.9E13, '1/s'),  
 #         n = 0.0,
-#         Ea = (75200, 'J/mol'),  
+#         Ea = (96000, 'J/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
@@ -51,7 +51,7 @@ This is R1 in Table 1
 # Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 # https://doi.org/10.1016/S1385-8947(02)00068-2
 
-# This is R2 in Table 1 
+# This is R2 in Table 3 
 # """,
 #     metal = "Pt",
 #     facet = "111",
@@ -61,7 +61,7 @@ entry(
     index = 3,
     label = "O2 + X + X <=> O_X + O_X",
     kinetics = StickingCoefficient(
-        A = 0.01094,   
+        A = 0.0235189884,   
         n = 0.0,
         Ea = (0, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -74,9 +74,9 @@ Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = ((2e6 /atm)/(101325 Pa/atm)/s)*(2.483e-9(mol/cm^2))*sqrt(2*pi*(32(g/mol))*the molar gas constant*(298 kelvin))
+A = ((4.3e6 /atm)/(101325 Pa/atm)/s)*(2.483e-9(mol/cm^2))*sqrt(2*pi*(32(g/mol))*the molar gas constant*(298 kelvin))
 
-This is R4 in Table 1 
+This is R3 in Table 3 
 """,
 	metal = "Pt",
     facet = "111",
@@ -101,7 +101,7 @@ This is R4 in Table 1
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 # A = 1E13(1/s)/2.483E-9(mol/cm^2) = 4.03E21 cm^2/(mol*s)
 
-# This is R4 in Table 1 
+# This is R4 in Table 3 
 # """,
 # 	metal = "Pt",
 #     facet = "111",
@@ -186,9 +186,9 @@ entry(
     index = 8,
     label = "N_X + O_X <=> NO_X + X",
     kinetics = SurfaceArrhenius(
-        A = (4.03E21, 'cm^2/(mol*s)'),  
+        A = (8.46E21, 'cm^2/(mol*s)'),  
         n = 0.0,
-        Ea = (121200, 'J/mol'),  
+        Ea = (131000, 'J/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -199,9 +199,9 @@ Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A (298K) = 1E13(1/s)/2.483E-9(mol/cm^2) = 4.03E21 cm^2/(mol*s)
+A = 2.1E13(1/s)/2.483E-9(mol/cm^2) = 8.46E21 cm^2/(mol*s)
 
-This is R8 in Table 1 
+This is L10 in Table 3 
 """,
     metal = "Pt",
     facet = "111",
@@ -261,9 +261,9 @@ This is R10 in Table 1, it's from ref[52] where metal = Pt100.
 #     index = 11,
 #     label = "NO_X + X <=> N_X + O_X",
 #     kinetics = SurfaceArrhenius(
-#         A = (6.44E21, 'cm^2/(mol*s)'),  
+#         A = (4.03E21, 'cm^2/(mol*s)'),  
 #         n = 0.0,
-#         Ea = (116800, 'J/mol'),  
+#         Ea = (118000, 'J/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
@@ -274,9 +274,9 @@ This is R10 in Table 1, it's from ref[52] where metal = Pt100.
 # https://doi.org/10.1016/S1385-8947(02)00068-2
 
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-# A (298K) = 1.6E13(1/s)/2.483E-9(mol/cm^2) = 6.44E21 cm^2/(mol*s)
+# A = 1E13(1/s)/2.483E-9(mol/cm^2) = 4.03E21 cm^2/(mol*s)
 
-# This is R11 in Table 1 
+# This is L8 in Table 3 
 # """,
 #     metal = "Pt",
 #     facet = "111",
@@ -286,9 +286,9 @@ entry(
     index = 12,
     label = "N_X + N_X <=> N2 + X + X",
     kinetics = SurfaceArrhenius( 
-        A = (4.03E19, 'cm^2/(mol*s)'),  
+        A = (3.22E21, 'cm^2/(mol*s)'),  
         n = 0.0,
-        Ea = (79100, 'J/mol'),  
+        Ea = (124000, 'J/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -299,9 +299,9 @@ Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E11(1/s)/2.483E-9(mol/cm^2) = 4.03E19 cm^2/(mol*s)
+A = 8E12(1/s)/2.483E-9(mol/cm^2) = 3.22E21 cm^2/(mol*s)
 
-This is R12 in Table 1 
+This is L6 in Table 3 
 """,
     metal = "Pt",
     facet = "111",
@@ -311,22 +311,22 @@ entry(
     index = 13,
     label = "N_X + NO_X <=> N2O + X + X",
     kinetics = SurfaceArrhenius(
-        A = (4.03E19, 'cm^2/(mol*s)'),
+        A = (1.01E19, 'cm^2/(mol*s)'),
         n = 0,
-        Ea = (92900, 'J/mol'),
+        Ea = (98900, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""R13 in Table 1, doesn't match a family""",
+    shortDesc = u"""doesn't match a family""",
     longDesc = u"""
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1E11(1/s)/2.483E-9(mol/cm^2) = 4.03E19 cm^2/(mol*s)
+A = 2.5E10(1/s)/2.483E-9(mol/cm^2) = 1.01E19 cm^2/(mol*s)
 
-This is R13 in Table 1 
+This is L7 in Table 3
 """,
     metal = "Pt",
     facet = "111",
@@ -334,24 +334,24 @@ This is R13 in Table 1
 
 entry(
     index = 14,
-    label = "N2O_X + X <=> N2_X + O_X",
-    kinetics = SurfaceArrhenius(
-        A = (1.01E17, 'cm^2/(mol*s)'),
+    label = "N2O + X <=> N2 + O_X",
+    kinetics = StickingCoefficient(
+        A = 0.0160339874,
         n = 0,
         Ea = (72200, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Surface_Dissociation_Double_vdW""",
+    shortDesc = u"""""",
     longDesc = u"""
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 2.5E8(1/s)/2.483E-9(mol/cm^2) = 1.01E17 cm^2/(mol*s)
+A = ((2.5e6/atm)/s)*(2.483e-9(mol/cm2))*sqrt(2*pi*(44(g/mol))*the molar gas constant*(298 kelvin))
 
-This is R14 in Table 1 
+This is L13 in Table 3 
 """,
     metal = "Pt",
     facet = "111",
@@ -361,9 +361,9 @@ entry(
     index = 15,
     label = "NO_X <=> NO + X",
     kinetics = SurfaceArrhenius(
-        A = (1E16, '1/s'),  
+        A = (1.5E13, '1/s'),  
         n = 0.0,
-        Ea = (140000, 'J/mol'),  
+        Ea = (143000, 'J/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -373,7 +373,7 @@ entry(
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
 
-This is R15 in Table 1 
+This is L12 in Table 3 
 """,
     metal = "Pt",
     facet = "111",
@@ -407,11 +407,11 @@ This is R16 in Table 1
 #reverse reaction of R18
 # entry(
 #     index = 17,
-#     label = "OH_X + OH_X <=> O_X + H2O_X",
+#     label = "OH_X + OH_X <=> O_X + H2O + X",
 #     kinetics = SurfaceArrhenius(
 #         A = (4.03E21, 'cm^2/(mol*s)'),  
 #         n = 0.0,
-#         Ea = (75300, 'J/mol'),  
+#         Ea = (113000, 'J/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
@@ -424,7 +424,7 @@ This is R16 in Table 1
 # This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 # A = 1E13(1/s)/2.483E-9(mol/cm^2) = 4.03E21 cm^2/(mol*s)
 
-# This is R17 in Table 1 
+# This is L9 in Table 3 
 # """,
 #     metal = "Pt",
 #     facet = "111",
@@ -445,10 +445,8 @@ entry(
 "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
 Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
 https://doi.org/10.1016/S1385-8947(02)00068-2
-
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
 A = 1E11(1/s)/2.483E-9(mol/cm^2) = 4.03E19 cm^2/(mol*s)
-
 This is R18 in Table 1 
 """,
     metal = "Pt",
