@@ -28,7 +28,14 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "CPD_backbone",
-    group = "OR{fused_CPD_cyclopropane_bicyclic}",
+    group =
+"""
+1 *1 C  u0 {2,S} {5,S}
+2 *2 Cd u0 {1,S} {3,D}
+3 *3 Cd u0 {2,D} {4,S}
+4 *4 Cd u0 {3,S} {5,D}
+5 *5 Cd u0 {1,S} {4,D}
+""", 
     kinetics = None,
 )
 
