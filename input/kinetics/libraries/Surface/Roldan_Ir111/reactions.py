@@ -149,29 +149,29 @@ This is R6 in Table 3
 
 #Skip 7 
 
-entry(
-    index = 8,
-    label = "[Pt]NN[Pt] <=> N2H_X + H_X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
-        n = 0.0,
-        Ea = (67543, 'J/mol'),  
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = u"""
-"Mechanistic study of hydrazine decomposition on Ir(111)"
-Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
-DOI: 10.1039/c9cp06525c
+# entry(
+#     index = 8,
+#     label = "[Pt]NN[Pt] <=> N2H_X + H_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (67543, 'J/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc = u"""
+# "Mechanistic study of hydrazine decomposition on Ir(111)"
+# Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+# DOI: 10.1039/c9cp06525c
 
-Ea = 0.7eV = 67543J/mol
+# Ea = 0.7eV = 67543J/mol
 
-This is R8 in Table 3
-""",
-    metal = "Ir",
-    facet = "111",
-)
+# This is R8 in Table 3
+# """,
+#     metal = "Ir",
+#     facet = "111",
+# )
 
 #skip R9
 
@@ -310,29 +310,29 @@ This is R14 in Table 3
     facet = "111",
 )
 
-entry(
-    index = 15,
-    label = "[Pt]NN=[Pt] <=> NH_X + N_X",
-    kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
-        n = 0.0,
-        Ea = (137980.7, 'J/mol'),  
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Surface_Bidentate_Dissociation""",
-    longDesc = u"""
-"Mechanistic study of hydrazine decomposition on Ir(111)"
-Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
-DOI: 10.1039/c9cp06525c
+# entry(
+#     index = 15,
+#     label = "[Pt]NN=[Pt] <=> NH_X + N_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1E13, '1/s'),  
+#         n = 0.0,
+#         Ea = (137980.7, 'J/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Bidentate_Dissociation""",
+#     longDesc = u"""
+# "Mechanistic study of hydrazine decomposition on Ir(111)"
+# Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+# DOI: 10.1039/c9cp06525c
 
-Ea = 1.43eV = 137980.7J/mol
+# Ea = 1.43eV = 137980.7J/mol
 
-This is R15 in Table 3
-""",
-    metal = "Ir",
-    facet = "111",
-)
+# This is R15 in Table 3
+# """,
+#     metal = "Ir",
+#     facet = "111",
+# )
 
 entry(
     index = 16,
@@ -388,32 +388,32 @@ This is R17 in Table 3
     facet = "111",
 )
 
-entry(
-    index = 18,
-    label = "[Pt]NN[Pt] + NH2_X <=> [Pt]NN=[Pt] + NH3_X",
-    kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
-        n = 0.0,
-        Ea = (18333.1, 'J/mol'),  
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Surface_Abstraction_vdW""",
-    longDesc = u"""
-"Mechanistic study of hydrazine decomposition on Ir(111)"
-Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
-DOI: 10.1039/c9cp06525c
+# entry(
+#     index = 18,
+#     label = "[Pt]NN[Pt] + NH2_X <=> [Pt]NN=[Pt] + NH3_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (3.87E21, 'cm^2/(mol*s)'),  
+#         n = 0.0,
+#         Ea = (18333.1, 'J/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Abstraction_vdW""",
+#     longDesc = u"""
+# "Mechanistic study of hydrazine decomposition on Ir(111)"
+# Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+# DOI: 10.1039/c9cp06525c
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
-to estimate a default(1E13) A factor.
-A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
-Ea = 0.19eV = 18333.1J/mol
+# This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+# to estimate a default(1E13) A factor.
+# A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+# Ea = 0.19eV = 18333.1J/mol
 
-This is R18 in Table 3
-""",
-    metal = "Ir",
-    facet = "111",
-)
+# This is R18 in Table 3
+# """,
+#     metal = "Ir",
+#     facet = "111",
+# )
 
 entry(
     index = 19,
@@ -469,32 +469,32 @@ This is R20 in Table 3
     facet = "111",
 )
 
-entry(
-    index = 21,
-    label = "[Pt]NN=[Pt] + NH2_X <=> [Pt]=NN=[Pt] + NH3_X",
-    kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
-        n = 0.0,
-        Ea = (53069.5, 'J/mol'),  
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Surface_Abstraction_vdW""",
-    longDesc = u"""
-"Mechanistic study of hydrazine decomposition on Ir(111)"
-Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
-DOI: 10.1039/c9cp06525c
+# entry(
+#     index = 21,
+#     label = "[Pt]NN=[Pt] + NH2_X <=> [Pt]=NN=[Pt] + NH3_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (3.87E21, 'cm^2/(mol*s)'),  
+#         n = 0.0,
+#         Ea = (53069.5, 'J/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Abstraction_vdW""",
+#     longDesc = u"""
+# "Mechanistic study of hydrazine decomposition on Ir(111)"
+# Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
+# DOI: 10.1039/c9cp06525c
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
-to estimate a default(1E13) A factor.
-A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
-Ea = 0.55eV = 53069.5J/mol
+# This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2)
+# to estimate a default(1E13) A factor.
+# A = 1E13(1/s)/2.587E-9(mol/cm^2) = 3.87E21 cm^2/(mol*s)
+# Ea = 0.55eV = 53069.5J/mol
 
-This is R21 in Table 3
-""",
-    metal = "Ir",
-    facet = "111",
-)
+# This is R21 in Table 3
+# """,
+#     metal = "Ir",
+#     facet = "111",
+# )
 
 entry(
     index = 22,
@@ -631,32 +631,32 @@ This is R26 in Table 3
     facet = "111",
 )
 
-entry(
-    index = 27,
-    label = "N_X + N_X <=> [Pt]=NN=[Pt]",
-    kinetics = SurfaceArrhenius(
-        A = (3.55E21, 'cm^2/(mol*s)'), 
-        n = 0.0,
-        Ea = (187423.24, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Surface_Bidentate_Dissociation""",
-    longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
-on Ru(0001), Ru(111) and Ir(111) surfaces"
-Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
-DOI: 10.1039/d1na00015b
+# entry(
+#     index = 27,
+#     label = "N_X + N_X <=> [Pt]=NN=[Pt]",
+#     kinetics = SurfaceArrhenius(
+#         A = (3.55E21, 'cm^2/(mol*s)'), 
+#         n = 0.0,
+#         Ea = (187423.24, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Bidentate_Dissociation""",
+#     longDesc = u"""
+# "Kinetic and mechanistic analysis of NH3 decomposition 
+# on Ru(0001), Ru(111) and Ir(111) surfaces"
+# Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
+# DOI: 10.1039/d1na00015b
 
-This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to estimate A factor.
-A = 9.18E12(1/s)/2.587E-9(mol/cm^2) = 3.55E21 cm^2/(mol*s)
-Ea was calculated from A factor and k rate constant in Table 3
+# This reaction used RMG's surface site density of Ir111 = 2.587E-9(mol/cm^2) to estimate A factor.
+# A = 9.18E12(1/s)/2.587E-9(mol/cm^2) = 3.55E21 cm^2/(mol*s)
+# Ea was calculated from A factor and k rate constant in Table 3
 
-This is R7 in Table 3
-""",
-    metal = "Ir",
-    facet = "111",
-)
+# This is R7 in Table 3
+# """,
+#     metal = "Ir",
+#     facet = "111",
+# )
 
 entry(
     index = 28,
