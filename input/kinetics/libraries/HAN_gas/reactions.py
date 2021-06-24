@@ -9,6 +9,12 @@ Izato, Y., Shiota, K., & Miyake, A. (n.d.).
 A detailed kinetics model for the decomposition of aqueous hydroxylammonium nitrate. 
 212–221.
 
+reaction for ammonium nitrate decomp
+Feick, G., & Hainer, R. M. (1954). On the Thermal Decomposition of Ammonium Nitrate. 
+Steady-state Reaction Temperatures and Reaction Rate. 
+Journal of the American Chemical Society, 76(22), 
+5860–5863. https://doi.org/10.1021/ja01651a096
+
 """
 
 entry(
@@ -27,19 +33,19 @@ R1 in paper
     """,
 )
 
-# entry(
-#     index = 2,
-#     label = "NH2OH + HNO3 <=> HAN",
-#     kinetics = Arrhenius(
-#         A = (1e12, 'cm^3/(mol*s)'),
-#         n = 0,
-#         Ea=(0.0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Ammonium Nitrate Adsorption decomposition""",
-#     longDesc = u"""
-    
-#     """,
+entry(
+    index = 2,
+    label = "NH4NO3 <=> N2O + H2O + H2O",
+    kinetics = Arrhenius(
+        A = (6.309573445e13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea=(40.5, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Ammonium Nitrate Adsorption decomposition""",
+    longDesc = u"""
+    from Feick paper, temp range is much lower though (only to 200C)
+    """,
 
-# )
+)

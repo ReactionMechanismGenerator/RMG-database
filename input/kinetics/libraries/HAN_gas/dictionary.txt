@@ -66,3 +66,13 @@ HNO3
 3 O u0 p2 c0 {2,D}
 4 O u0 p3 c-1 {2,S}
 5 H u0 p0 c0 {1,S}
+
+N2O
+1 N u0 p2 c-1 {2,D}
+2 N u0 p0 c+1 {1,D} {3,D}
+3 O u0 p2 c0 {2,D}
+
+H2O
+1 O u0 p2 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
