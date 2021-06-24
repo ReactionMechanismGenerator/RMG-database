@@ -37,7 +37,7 @@ entry(
     index = 2,
     label = "NH4NO3 <=> N2O + H2O + H2O",
     kinetics = Arrhenius(
-        A = (6.309573445e13, 'cm^3/(mol*s)'),
+        A = (6.309573445e13, '1/s'),
         n = 0,
         Ea=(40.5, 'kcal/mol'),
         Tmin = (200, 'K'),
