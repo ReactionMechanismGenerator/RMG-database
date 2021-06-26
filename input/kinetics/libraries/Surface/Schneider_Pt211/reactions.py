@@ -14,7 +14,7 @@ entry(
     index = 1,
     label = "O2 + X + X <=> O_X + O_X",
     kinetics = StickingCoefficient(
-        A = 1,
+        A = 0.05,  #change from 1 to 0.05 and try
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -31,7 +31,7 @@ A = ((1.8E3 /pa) / s) * (2.634E-9 mol/cm2) * sqrt(2 * pi * 32 g/mol * molar gas 
 
 This is R1 in Table S2 and S4
 """,
-	  metal = "Pt",
+	metal = "Pt",
     facet = "211",
 )
 
@@ -39,7 +39,7 @@ entry(
     index = 2,
     label = "NH3 + X <=> NH3_X",
     kinetics = StickingCoefficient(
-        A = 1,
+        A = 0.8,       #change from 1 to 0.8(Rebrov's value of Pt111) and try
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -284,8 +284,8 @@ https://doi.org/10.1021/acscatal.8b04251
 
 This is R10 in Table S2 and S4
 """,
-      metal = "Pt",
-      facet = "211",
+    metal = "Pt",
+    facet = "211",
 )
 
 entry(
@@ -418,7 +418,7 @@ entry(
     index = 16,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (5.83E20, 'cm^2/(mol*s)'), 
+        A = (3.6E20, 'cm^2/(mol*s)'), 
         n = 0.0,
         Ea = (110963.5, 'J/mol'),
         Tmin = (200, 'K'),
@@ -442,7 +442,7 @@ entry(
     index = 17,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (2.29E21, 'cm^2/(mol*s)'), 
+        A = (3.26E21, 'cm^2/(mol*s)'), 
         n = 0.0,
         Ea = (155348.9, 'J/mol'),
         Tmin = (200, 'K'),
@@ -467,7 +467,7 @@ entry(
     index = 18,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (2.61E21, 'cm^2/(mol*s)'), 
+        A = (3.42E21, 'cm^2/(mol*s)'), 
         n = 0.0,
         Ea = (125437, 'J/mol'),
         Tmin = (200, 'K'),
@@ -492,7 +492,7 @@ entry(
     index = 19,
     label = "H_X + O_X <=> OH_X + X",
     kinetics = SurfaceArrhenius(
-        A = (2.80E21, 'cm^2/(mol*s)'), 
+        A = (1.21E21, 'cm^2/(mol*s)'), 
         n = 0.0,
         Ea = (48245, 'J/mol'),
         Tmin = (200, 'K'),
@@ -517,7 +517,7 @@ entry(
     index = 20,
     label = "H_X + OH_X <=> H2O_X + X",
     kinetics = SurfaceArrhenius(
-        A = (2.80E21, 'cm^2/(mol*s)'), 
+        A = (1.92E21, 'cm^2/(mol*s)'), 
         n = 0.0,
         Ea = (92630.4, 'J/mol'),
         Tmin = (200, 'K'),
