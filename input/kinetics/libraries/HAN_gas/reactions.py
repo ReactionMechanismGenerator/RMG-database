@@ -23,11 +23,12 @@ entry(
     kinetics = Arrhenius(
         A = (7.32e10, '1/s'),
         n = 0.49,
-        Ea=(17.492, 'kcal/mol'),
+        Ea=(40.492, 'kcal/mol'),
+        # Ea=(17.492, 'kcal/mol'), changed to higher Ea because it is occurring too frequently (rate is too high at low T)
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Ammonium Nitrate thermal decomp""",
+    shortDesc = u"""hydroxyl Ammonium Nitrate thermal decomp""",
     longDesc = u"""
 R1 in paper
     """,
@@ -43,7 +44,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Ammonium Nitrate Adsorption decomposition""",
+    shortDesc = u"""Ammonium Nitrate decomposition""",
     longDesc = u"""
     from Feick paper, temp range is much lower though (only to 200C)
     """,
