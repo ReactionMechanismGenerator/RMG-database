@@ -49,6 +49,27 @@ entry(
     metal = 'Ni',
 )
 
+#Reverse reaction of index = 3
+# entry(
+#     index = 4,
+#     label = "N_X + N_X <=> N2 + X + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (3.7e21, 'cm^2/(mol*s)'),  
+#         n = 0.0,
+#         Ea = (113.9, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
+#     longDesc = """
+# Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+# Deutschmann et al. (2009)
+# doi:10.1016/j.apcatb.2009.05.006
+# """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
 entry(
     index = 51,
     label = "NO_X + X <=> N_X + O_X",
@@ -71,3 +92,352 @@ entry(
     """,
     metal = 'Pt',
 )
+
+#Reverse reaction of index = 51
+# entry(
+#     index = 5,
+#     label = "N_X + O_X <=> NO_X + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1e21, 'cm^2/(mol*s)'),  
+#         n = 0.0,
+#         Ea = (122.6, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Nitrogen/51""",
+#     longDesc = """
+#   Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+#   Deutschmann et al. (2009)
+#   doi:10.1016/j.apcatb.2009.05.006
+#   """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
+entry(
+    index = 6,
+    label = "NO + X <=> NO_X",
+    kinetics = StickingCoefficient(
+        A = 0.85,
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_Single""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+    facet = "111",
+)
+
+#Reverse reaction of index = 6
+# entry(
+#     index = 7,
+#     label = "NO_X <=> NO + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (2.1e12, '1/s'),  
+#         n = 0.0,
+#         Ea = (80.7, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Single""",
+#     longDesc = """
+#   Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+#   Deutschmann et al. (2009)
+#   doi:10.1016/j.apcatb.2009.05.006
+#   """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
+entry(
+    index = 8,
+    label = "NO2 + X <=> NO2_X",
+    kinetics = StickingCoefficient(
+        A = 0.9,
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_Single""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+    facet = "111",
+)
+
+#Reverse reaction of index = 8
+# entry(
+#     index = 9,
+#     label = "NO2_X <=> NO2 + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1.4e13, '1/s'),  
+#         n = 0.0,
+#         Ea = (61, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Single""",
+#     longDesc = """
+    # Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    # Deutschmann et al. (2009)
+    # doi:10.1016/j.apcatb.2009.05.006
+    # """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
+entry(
+    index = 10,
+    label = "N2O + X <=> N2O_X",
+    kinetics = StickingCoefficient(
+        A = 0.025,
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Adsorption_Double""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+    facet = "111",
+)
+
+#Reverse reaction of index = 10
+# entry(
+#     index = 11,
+#     label = "N2O_X <=> N2O + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (1.2e10, '1/s'),  
+#         n = 0.0,
+#         Ea = (0.7, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Adsorption_Double/Surface_Adsorption_vdW""",
+#     longDesc = """
+    # Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    # Deutschmann et al. (2009)
+    # doi:10.1016/j.apcatb.2009.05.006
+    # """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
+#Reverse reaction of index = 13
+# entry(
+#     index = 12,
+#     label = "O_X + NO <=> NO2_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (2e13, 'cm^3/(mol*s)'),
+#         n = 0.0,
+#         Ea = (111.3, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc = """
+    # Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    # Deutschmann et al. (2009)
+    # doi:10.1016/j.apcatb.2009.05.006
+    # """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
+entry(
+    index = 13,
+    label = "NO2_X <=> O_X + NO",
+    kinetics = SurfaceArrhenius(
+        A = (3.3e14, '1/s'),  
+        n = 0.0,
+        Ea = (115.5, 'kJ/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 14,
+    label = "N_X + NO_X <=> N2O_X + X",
+    kinetics = SurfaceArrhenius(
+        A = (1e21, 'cm^2/(mol*s)'),   
+        n = 0.0,
+        Ea = (90.9, 'kJ/mol'), 
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Dissociation""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+    facet = "111",
+)
+
+#Reverse reaction of index = 14
+# entry(
+#     index = 15,
+#     label = "N2O_X + X <=> N_X + NO_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (2.9e24, 'cm^2/(mol*s)'),   
+#         n = 0.0,
+#         Ea = (133.1, 'kJ/mol'), 
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Dissociation""",
+#     longDesc = """
+    # Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    # Deutschmann et al. (2009)
+    # doi:10.1016/j.apcatb.2009.05.006
+    # """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
+entry(
+    index = 16,
+    label = "NO_X + O_X <=> NO2_X + X",
+    kinetics = SurfaceArrhenius(
+        A = (1.3e17, 'cm^2/(mol*s)'), 
+        n = 0.0,
+        Ea = (133, 'kJ/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Dissociation""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+    facet = "111",
+)
+
+#Reverse reaction of index = 16
+# entry(
+#     index = 17,
+#     label = "NO2_X + X <=> NO_X + O_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (8.1e18, 'cm^2/(mol*s)'), 
+#         n = 0.0,
+#         Ea = (58, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Surface_Dissociation""",
+#     longDesc = """
+    # Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    # Deutschmann et al. (2009)
+    # doi:10.1016/j.apcatb.2009.05.006
+    # """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
+entry(
+    index = 18,
+    label = "NO_X + H_X <=> N_X + OH_X",
+    kinetics = SurfaceArrhenius(
+        A = (1.2e21, 'cm^2/(mol*s)'),  
+        n = 0.0,
+        Ea = (25, 'kJ/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+    facet = "111",
+)
+
+#Reverse reaction of index = 18
+# entry(
+#     index = 19,
+#     label = "N_X + OH_X <=> NO_X + H_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (6.4e21, 'cm^2/(mol*s)'),  
+#         n = 0.0,
+#         Ea = (99, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc = """
+    # Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    # Deutschmann et al. (2009)
+    # doi:10.1016/j.apcatb.2009.05.006
+    # """,
+#     metal = "Pt",
+#     facet = "111",
+# )
+
+entry(
+    index = 20,
+    label = "NO2_X + H_X <=> NO_X + OH_X",
+    kinetics = SurfaceArrhenius(
+        A = (3.9e21, 'cm^2/(mol*s)'),  
+        n = 0.0,
+        Ea = (20, 'kJ/mol'),  
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+    facet = "111",
+)
+
+#Reverse reaction of index = 20
+# entry(
+#     index = 21,
+#     label = "NO_X + OH_X <=> NO2_X + H_X",
+#     kinetics = SurfaceArrhenius(
+#         A = (6.1e22, 'cm^2/(mol*s)'),  
+#         n = 0.0,
+#         Ea = (175.3, 'kJ/mol'),  
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc = """
+    # Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    # Deutschmann et al. (2009)
+    # doi:10.1016/j.apcatb.2009.05.006
+    # """,
+#     metal = "Pt",
+#     facet = "111",
+# )
