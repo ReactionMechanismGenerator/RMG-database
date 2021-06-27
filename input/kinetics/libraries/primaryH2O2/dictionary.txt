@@ -1,0 +1,54 @@
+H  
+multiplicity 2
+1 H u1 p0 c0
+
+H2 
+1 H u0 p0 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+O   
+multiplicity 3
+1 O u2 p2 c0
+
+O2    
+multiplicity 3
+1 O u1 p2 c0 {2,S}
+2 O u1 p2 c0 {1,S}
+
+H2O    
+1 O u0 p2 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+
+OH
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+H2O2  
+1 O u0 p2 c0 {2,S} {3,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
+
+HO2   
+multiplicity 2
+1 O u0 p2 c0 {2,S} {3,S}
+2 O u1 p2 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+
+O3
+1 O u0 p3 c-1 {2,S}
+2 O u0 p1 c+1 {1,S} {3,D}
+3 O u0 p2 c0 {2,D}
+
+Ar 
+1 Ar u0 p4 c0
+
+He 
+1 He u0 p1 c0
+
+N2  
+1 N u0 p1 c0 {2,T}
+2 N u0 p1 c0 {1,T}
+
