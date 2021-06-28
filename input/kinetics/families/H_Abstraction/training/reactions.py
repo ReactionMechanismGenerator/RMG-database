@@ -52324,3 +52324,17 @@ Original entry: F + CH2CO <=> HF + HCCO
 """,
 )
 
+entry(
+    index = 43065,
+    label = "CF3CH2OCH2CF3 + OH <=> CF3CHOCH2CF3 + H2O_p",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(7.407e+11,'cm^3/(mol*s)'), n=0, Ea=(1.35,'kcal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """M062X""",
+    longDesc = 
+"""
+M. Lily et al. / Journal of Fluorine Chemistry 161 (2014) 51–59
+http://dx.doi.org/10.1016/j.jfluchem.2014.02.009
+""",
+)
+

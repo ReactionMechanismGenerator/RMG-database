@@ -7734,3 +7734,36 @@ multiplicity 2
 7 *1 C  u1 p0 c0 {6,D} {8,S}
 8    H  u0 p0 c0 {7,S}
 
+CF3CH2OCH2CF3
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3  F u0 p3 c0 {2,S}
+4  F u0 p3 c0 {2,S}
+5  *1 C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
+6  O u0 p2 c0 {5,S} {7,S}
+7  C u0 p0 c0 {6,S} {8,S} {14,S} {15,S}
+8  C u0 p0 c0 {7,S} {9,S} {10,S} {11,S}
+9  F u0 p3 c0 {8,S}
+10 F u0 p3 c0 {8,S}
+11 F u0 p3 c0 {8,S}
+12 *2 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {5,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {7,S}
+
+CF3CHOCH2CF3
+multiplicity 2
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3  F u0 p3 c0 {2,S}
+4  F u0 p3 c0 {2,S}
+5  *1 C u1 p0 c0 {2,S} {6,S} {12,S}
+6  O u0 p2 c0 {5,S} {7,S}
+7  C u0 p0 c0 {6,S} {8,S} {13,S} {14,S}
+8  C u0 p0 c0 {7,S} {9,S} {10,S} {11,S}
+9  F u0 p3 c0 {8,S}
+10 F u0 p3 c0 {8,S}
+11 F u0 p3 c0 {8,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
