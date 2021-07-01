@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Deutschmann_Pt"
+name = "Deutschmann2006"
 shortDesc = u""
 longDesc = u"""
 test surface mechanism: based upon Olaf Deutschmann's work:
