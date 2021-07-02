@@ -807,13 +807,14 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 163,
         dGsolvMAE = (0.13,'kcal/mol'),
-        dHsolvCount = 7,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
     longDesc = 
 u"""
-Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
+Abraham: fitted by Chung et al. (manuscript in preparation)
+The source of the Mintz parameters is unknown.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
 )
@@ -978,7 +979,8 @@ entry(
     shortDesc = u""" """,
     longDesc = 
 u"""
-Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
+Abraham parameters: fitted by Chung et al. (manuscript in preparation)
+The source of the Mintz parameters is unknown.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
 )
@@ -1378,7 +1380,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 24,
         dGsolvMAE = (0.11,'kcal/mol'),
-        dHsolvCount = 7,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -1420,7 +1422,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 38,
         dGsolvMAE = (0.13,'kcal/mol'),
-        dHsolvCount = 6,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -1504,7 +1506,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 57,
         dGsolvMAE = (0.1,'kcal/mol'),
-        dHsolvCount = 6,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -1714,7 +1716,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 100,
         dGsolvMAE = (0.2,'kcal/mol'),
-        dHsolvCount = 6,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -1840,7 +1842,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 32,
         dGsolvMAE = (0.16,'kcal/mol'),
-        dHsolvCount = 6,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -2252,7 +2254,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 101,
         dGsolvMAE = (0.34,'kcal/mol'),
-        dHsolvCount = 7,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -2838,7 +2840,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 54,
         dGsolvMAE = (0.11,'kcal/mol'),
-        dHsolvCount = 6,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -2964,7 +2966,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 21,
         dGsolvMAE = (0.19,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -3258,7 +3260,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 19,
         dGsolvMAE = (0.06,'kcal/mol'),
-        dHsolvCount = 4,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -3550,7 +3552,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 18,
         dGsolvMAE = (0.05,'kcal/mol'),
-        dHsolvCount = 4,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -3634,7 +3636,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 129,
         dGsolvMAE = (0.15,'kcal/mol'),
-        dHsolvCount = 7,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -3844,7 +3846,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 87,
         dGsolvMAE = (0.19,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -4138,7 +4140,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 58,
         dGsolvMAE = (0.14,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -5494,7 +5496,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 57,
         dGsolvMAE = (0.12,'kcal/mol'),
-        dHsolvCount = 7,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -5744,7 +5746,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 10,
         dGsolvMAE = (0.04,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -5952,7 +5954,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 17,
         dGsolvMAE = (0.05,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -6036,7 +6038,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 16,
         dGsolvMAE = (0.03,'kcal/mol'),
-        dHsolvCount = 4,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -6118,7 +6120,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 8,
         dGsolvMAE = (0.05,'kcal/mol'),
-        dHsolvCount = 6,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -6160,7 +6162,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 21,
         dGsolvMAE = (0.04,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -6866,7 +6868,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 15,
         dGsolvMAE = (0.05,'kcal/mol'),
-        dHsolvCount = 4,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -6908,7 +6910,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 9,
         dGsolvMAE = (0.01,'kcal/mol'),
-        dHsolvCount = 6,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -7070,7 +7072,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 21,
         dGsolvMAE = (0.07,'kcal/mol'),
-        dHsolvCount = 7,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -7112,7 +7114,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 12,
         dGsolvMAE = (0.06,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -7154,7 +7156,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 23,
         dGsolvMAE = (0.05,'kcal/mol'),
-        dHsolvCount = 6,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -7562,7 +7564,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 22,
         dGsolvMAE = (0.12,'kcal/mol'),
-        dHsolvCount = 4,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -7768,7 +7770,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 16,
         dGsolvMAE = (0.04,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -7810,7 +7812,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 13,
         dGsolvMAE = (0.04,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -7850,7 +7852,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 9,
         dGsolvMAE = (0.04,'kcal/mol'),
-        dHsolvCount = 4,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -8014,7 +8016,7 @@ entry(
     dataCount = DataCountSolvent(
         dGsolvCount = 17,
         dGsolvMAE = (0.04,'kcal/mol'),
-        dHsolvCount = 5,
+        dHsolvCount = None,
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
@@ -8298,7 +8300,7 @@ entry(
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
-        dGsolvCount = 6,
+        dGsolvCount = None,
         dGsolvMAE = None,
         dHsolvCount = 59,
         dHsolvMAE = (0.42,'kcal/mol'),
