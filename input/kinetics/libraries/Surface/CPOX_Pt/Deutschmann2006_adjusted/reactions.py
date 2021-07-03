@@ -8,6 +8,10 @@ test surface mechanism: based upon Olaf Deutschmann's work:
 "Modeling the high-temperature catalytic partial oxidation of methane over platinum gauze: Detailed gas-phase and surface chemistries coupled with 3D flow field simulations"
 Quiceno et al
 Applied Catalysis, 2006, 303, 166-176
+
+In this "adjusted" library, eight of the reactions have had their barriers
+raised to match the endothermicity of the reaction, using our RMG-estimated thermochemistry.
+These are noted in the longDesc fields of the reactions.
 """
 
 # Reverse of R9
