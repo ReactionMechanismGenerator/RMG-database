@@ -14,7 +14,7 @@ entry(
     index = 1,
     label = "O2 + X + X <=> O_X + O_X",
     kinetics = StickingCoefficient(
-        A = 0.05,  #change from 1 to 0.05 and try
+        A = 0.9975,
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -39,7 +39,7 @@ entry(
     index = 2,
     label = "NH3 + X <=> NH3_X",
     kinetics = StickingCoefficient(
-        A = 0.8,       #change from 1 to 0.8(Rebrov's value of Pt111) and try
+        A = 1,
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -242,6 +242,7 @@ This is R9 in Table S2 and S4
     facet = "211",
 )
 
+#Endothermic, Deutschmann's paper: A=4.5E8, n=0, Ea=41800J/mol
 # entry(
 #     index = 10,
 #     label = "H2O_X <=> H2O + X",
@@ -265,28 +266,6 @@ This is R9 in Table S2 and S4
 #       metal = "Pt",
 #       facet = "211",
 # )
-
-entry(
-    index = 10,
-    label = "H2O + X <=> H2O_X",
-    kinetics = StickingCoefficient(
-        A = 1,
-        n = 0.0,
-        Ea = (0, 'J/mol'),  
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    shortDesc = u"""Surface_Adsorption_vdW""",
-    longDesc = u"""
-"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
-https://doi.org/10.1021/acscatal.8b04251
-
-This is R10 in Table S2 and S4
-""",
-    metal = "Pt",
-    facet = "211",
-)
 
 entry(
     index = 11,
@@ -430,8 +409,9 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.Using the method proposed by Campbell et al. to calculate A actor.
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
 Ea = 1.15eV = 110963.5J/mol
+
 This is reaction (1) in Table S3
 """,
     metal = "Pt",
@@ -454,7 +434,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.Using the method proposed by Campbell et al. to calculate A actor.
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
 Ea = 1.61eV = 155348.9J/mol
 
 This is reaction (2) in Table S3
@@ -479,7 +459,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.Using the method proposed by Campbell et al. to calculate A actor.
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
 Ea = 1.3eV = 125437J/mol
 
 This is reaction (3) in Table S3
@@ -504,7 +484,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.The A factor is calculated by equation (5) which assumed qTS/qIS = 1
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
 Ea = 0.5eV = 48245J/mol
 
 This is reaction (4) in Table S3
@@ -529,7 +509,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
-This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.The A factor is calculated by equation (5) which assumed qTS/qIS = 1
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
 Ea = 0.96eV = 92630.4J/mol
 
 This is reaction (5) in Table S3

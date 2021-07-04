@@ -138,7 +138,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (4.03E21, 'cm^2/(mol*s)'), 
         n = 0.0,
-        Ea = (0, 'J/mol'),   
+        Ea = (96490, 'J/mol'),   
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -455,24 +455,24 @@ This is R18 in Table 1
 )
 
 #endothermic, and Deutschmann's paper: A=4.5E8, n=0, Ea=41800J/mol
-entry(
-   index = 19,
-   label = "H2O_X <=> H2O + X",
-   kinetics = SurfaceArrhenius(
-       A = (1E13, '1/s'),  
-       n = 0.0,
-       Ea = (40300, 'J/mol'),  
-       Tmin = (200, 'K'),
-       Tmax = (3000, 'K'),
-   ),
-   shortDesc = u"""Surface_Adsorption_vdW""",
-    longDesc = u"""
-"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
-Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
-https://doi.org/10.1016/S1385-8947(02)00068-2
+# entry(
+#    index = 19,
+#    label = "H2O_X <=> H2O + X",
+#    kinetics = SurfaceArrhenius(
+#        A = (1E13, '1/s'),  
+#        n = 0.0,
+#        Ea = (40300, 'J/mol'),  
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#    ),
+#    shortDesc = u"""Surface_Adsorption_vdW""",
+#     longDesc = u"""
+# "Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
+# Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
+# https://doi.org/10.1016/S1385-8947(02)00068-2
 
-This is R19 in Table 1 
-""",
-	metal = "Pt",
-   facet = "111",
-)
+# This is R19 in Table 1 
+# """,
+# 	metal = "Pt",
+#    facet = "111",
+# )
