@@ -7,6 +7,50 @@ adjacency_list: |
   5 H u0 p0 c0 {3,S}
   6 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -51.08411623832498
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.7128286401
+          - -0.1708900048
+          - 0.0
+        - - 0.6552750383
+          - 0.3891818528
+          - -0.0
+        - - -0.6552839752
+          - -0.3892069499
+          - 0.0
+        - - -1.7128115951
+          - 0.1709127712
+          - -0.0
+        - - 0.5446090999
+          - 1.4901142001
+          - -0.0
+        - - -0.5446918384
+          - -1.4901457487
+          - 0.0
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - O
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -155,7 +199,7 @@ label: Glyoxal
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 58.03608332417324
+  value: 58.036026047830106
 multiplicity: 1
 reference_data:
   ATcT:

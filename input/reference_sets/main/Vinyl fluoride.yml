@@ -7,6 +7,50 @@ adjacency_list: |
   5 H u0 p0 c0 {2,S}
   6 H u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -33.71739602389497
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1735027083
+          - -0.197646277
+          - -0.0
+        - - 0.018854561
+          - 0.4315767795
+          - 0.0
+        - - -1.1499804771
+          - -0.223006973
+          - 0.0
+        - - 1.2265964564
+          - -1.2781247781
+          - -0.0
+        - - 2.0894907787
+          - 0.3751420253
+          - -0.0
+        - - -0.1204065568
+          - 1.506462494
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 19
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - F
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -155,7 +199,7 @@ label: Vinyl fluoride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 46.043627209426354
+  value: 46.04360089956142
 multiplicity: 1
 reference_data:
   ATcT:

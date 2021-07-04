@@ -3,6 +3,30 @@ adjacency_list: |
   1 H u0 p0 c0 {2,S}
   2 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.09503561001880052
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.37229296
+        - - 0.0
+          - 0.0
+          - -0.37229296
+      isotopes:
+      - 1
+      - 1
+      symbols:
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -91,7 +115,7 @@ label: Dihydrogen
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 2.0158802449594986
+  value: 2.015942177915895
 multiplicity: 1
 reference_data:
   ATcT:

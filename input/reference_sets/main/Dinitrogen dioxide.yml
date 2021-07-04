@@ -5,6 +5,40 @@ adjacency_list: |
   3 N u0 p1 c0 {1,D} {4,S}
   4 N u0 p1 c0 {2,D} {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 44.774523305308854
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.192314381
+          - -0.5200672943
+          - -1.7183e-05
+        - - 0.9329644568
+          - 0.5944850499
+          - 2.50908e-05
+        - - -0.9332118736
+          - 0.5944227333
+          - -2.50894e-05
+        - - -1.1920978913
+          - -0.520227016
+          - 1.71817e-05
+      isotopes:
+      - 16
+      - 14
+      - 14
+      - 16
+      symbols:
+      - O
+      - N
+      - N
+      - O
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -89,7 +123,7 @@ label: Dinitrogen dioxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 60.01228410185848
+  value: 60.01252252045754
 multiplicity: 1
 reference_data:
   ATcT:

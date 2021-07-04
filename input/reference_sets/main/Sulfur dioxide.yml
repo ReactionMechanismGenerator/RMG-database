@@ -4,6 +4,35 @@ adjacency_list: |
   2 O u0 p2 c0 {1,D}
   3 O u0 p2 c0 {1,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -72.83138792759166
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.22829121
+          - 0.0
+          - 0.362517445
+        - - 0.0
+          - -0.0
+          - -0.362517445
+        - - -1.22829121
+          - 0.0
+          - 0.362517445
+      isotopes:
+      - 16
+      - 32
+      - 16
+      symbols:
+      - O
+      - S
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -107,7 +136,7 @@ label: Sulfur dioxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 64.06380399883582
+  value: 64.07130300883435
 multiplicity: 1
 reference_data:
   CCCBDB:

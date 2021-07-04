@@ -187,7 +187,7 @@ label: Ethyl bromide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 108.96510693136717
+  value: 108.96514255445865
 multiplicity: 1
 reference_data:
   ATcT:

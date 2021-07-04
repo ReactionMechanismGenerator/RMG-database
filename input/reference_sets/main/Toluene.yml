@@ -16,6 +16,95 @@ adjacency_list: |
   14 H u0 p0 c0 {7,S}
   15 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 14.267814083153674
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8927418161
+          - 0.0037601014
+          - 0.0001081579
+        - - 1.1884914785
+          - 1.1999933027
+          - 2.78684e-05
+        - - -0.1962987259
+          - 1.1923321024
+          - -0.0001137862
+        - - -0.9071401062
+          - -0.0059451665
+          - -0.0001464749
+        - - -0.1897201379
+          - -1.196126645
+          - -0.0001091153
+        - - 1.1983470687
+          - -1.1945080552
+          - 2.40191e-05
+        - - -2.411967059
+          - -0.002175788
+          - 0.0001188259
+        - - 2.9760895376
+          - 0.0076721763
+          - 0.0001763225
+        - - 1.7220798869
+          - 2.1431886545
+          - 2.43566e-05
+        - - -0.7387931425
+          - 2.1321402941
+          - -0.0002316415
+        - - -0.7250639824
+          - -2.1396152221
+          - -0.0002335127
+        - - 1.7370117527
+          - -2.134865804
+          - 1.27355e-05
+        - - -2.8038077562
+          - 0.5161528537
+          - -0.8776374084
+        - - -2.8108114894
+          - -1.0166677025
+          - -0.0043956539
+        - - -2.8034308116
+          - 0.5080156396
+          - 0.8828278328
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -200,7 +289,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 26.999724071412924
+        value: 26.999724071412903
       class: ThermoData
     xyz_dict:
       coords:
@@ -299,7 +388,7 @@ label: Toluene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 92.1384285031357
+  value: 92.13825900241292
 multiplicity: 1
 reference_data:
   ATcT:

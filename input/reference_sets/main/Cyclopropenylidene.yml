@@ -6,6 +6,45 @@ adjacency_list: |
   4 H u0 p0 c0 {1,S}
   5 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 118.57286842297657
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.65917548
+          - 0.0
+          - 0.319813116
+        - - 0.0
+          - 0.0
+          - -0.925413084
+        - - -0.65917548
+          - 0.0
+          - 0.319813116
+        - - 1.59408446
+          - 0.0
+          - 0.857360556
+        - - -1.59408446
+          - 0.0
+          - 0.857360556
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -90,7 +129,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 124.00074635740174
+        value: 124.00074635740165
       class: ThermoData
     xyz_dict:
       coords:
@@ -139,7 +178,7 @@ label: Cyclopropenylidene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 38.04798346922994
+  value: 38.04786658823705
 multiplicity: 1
 reference_data:
   ATcT:

@@ -6,13 +6,47 @@ adjacency_list: |
   3 H u0 p0 c0 {1,S}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 98.44354075455908
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.8146607979
+          - -2.0992e-06
+          - -0.0
+        - - -0.4749696621
+          - -3.772e-07
+          - 0.0
+        - - -1.0190604838
+          - 0.9412349592
+          - -0.0
+        - - -1.0190863305
+          - -0.9412201008
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 117.97965966678844
+        value: 117.97965966678835
       class: ThermoData
     xyz_dict:
       coords:
@@ -124,7 +158,7 @@ label: Vinylidene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 26.037282394473127
+  value: 26.037225118129996
 multiplicity: 1
 reference_data:
   ATcT:

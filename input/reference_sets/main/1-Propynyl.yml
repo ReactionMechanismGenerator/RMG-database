@@ -156,7 +156,7 @@ label: 1-Propynyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 39.05592359170969
+  value: 39.055837677194994
 multiplicity: 2
 reference_data:
   ATcT:

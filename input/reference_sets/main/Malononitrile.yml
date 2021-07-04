@@ -8,6 +8,55 @@ adjacency_list: |
   6 H u0 p0 c0 {3,S}
   7 H u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 62.794924009413
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1859946304
+          - -0.5883545182
+          - -0.0
+        - - 1.2176548973
+          - 0.022614474
+          - 0.0
+        - - 4.948e-07
+          - 0.8348403268
+          - 0.0
+        - - -1.2176696528
+          - 0.0226419895
+          - -0.0
+        - - -2.1859834396
+          - -0.5883699382
+          - -0.0
+        - - 3.6141e-06
+          - 1.4782452268
+          - -0.88225063
+        - - 3.6141e-06
+          - 1.4782452268
+          - 0.88225063
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - N
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -112,7 +161,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 71.16873917494999
+        value: 71.16873917494993
       class: ThermoData
     xyz_dict:
       coords:
@@ -171,7 +220,7 @@ label: Malononitrile
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 66.06146664138832
+  value: 66.06158817899448
 multiplicity: 1
 reference_data:
   CCCBDB:

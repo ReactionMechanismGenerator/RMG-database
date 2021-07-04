@@ -5,6 +5,40 @@ adjacency_list: |
   3 O  u0 p2 c0 {1,S} {2,S}
   4 H  u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.18048451473113825
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.4937573367
+          - -0.3089672661
+          - -0.1226719864
+        - - 0.4837676119
+          - 0.6415589217
+          - 0.0273131677
+        - - -1.029453346
+          - -0.1233062226
+          - -0.0016979215
+        - - 1.6805072932
+          - -0.5645274603
+          - 0.791735215
+      isotopes:
+      - 16
+      - 16
+      - 35
+      - 1
+      symbols:
+      - O
+      - O
+      - Cl
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -79,7 +113,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 3.8871202226714643
+        value: 3.8871202226714616
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +157,7 @@ label: Peroxyhypochlorous acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 68.45974319446627
+  value: 68.4589136188135
 multiplicity: 1
 reference_data:
   ATcT:

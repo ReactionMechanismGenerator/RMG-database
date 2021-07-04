@@ -5,6 +5,40 @@ adjacency_list: |
   3 C  u0 p0 c0 {1,S} {4,T}
   4 C  u0 p0 c0 {2,S} {3,T}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 55.31176143988085
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.179e-07
+          - 2.68e-08
+          - 2.2314591437
+        - - 1.075e-06
+          - -7.12e-08
+          - 0.5975166337
+        - - -9.491e-07
+          - -8.38e-08
+          - -0.5975115263
+        - - 7.34e-08
+          - 2.8e-08
+          - -2.2314609463
+      isotopes:
+      - 35
+      - 12
+      - 12
+      - 35
+      symbols:
+      - Cl
+      - C
+      - C
+      - Cl
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -123,7 +157,7 @@ label: Dichloroacetylene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 94.92740643408645
+  value: 94.92556614052496
 multiplicity: 1
 reference_data:
   ATcT:

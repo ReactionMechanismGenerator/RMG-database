@@ -3,6 +3,30 @@ adjacency_list: |
   1 F u0 p3 c0 {2,S}
   2 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -65.24113422121528
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.091904165
+        - - 0.0
+          - 0.0
+          - -0.827137485
+      isotopes:
+      - 19
+      - 1
+      symbols:
+      - F
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -91,7 +115,7 @@ label: Hydrogen fluoride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 20.006344814953223
+  value: 20.006375781431423
 multiplicity: 1
 reference_data:
   ATcT:

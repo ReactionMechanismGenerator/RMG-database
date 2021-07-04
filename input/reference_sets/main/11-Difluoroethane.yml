@@ -9,6 +9,60 @@ adjacency_list: |
   7 H u0 p0 c0 {3,S}
   8 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -120.67633695729532
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.3687311011
+          - 2.47769e-05
+          - 0.0897940561
+        - - 0.0643071521
+          - -5.222e-07
+          - -0.355061363
+        - - 0.7102003069
+          - -1.0956827097
+          - 0.1353067797
+        - - 0.7102475794
+          - 1.0956589298
+          - 0.1353077929
+        - - -1.4090872555
+          - -0.000241597
+          - 1.1790324382
+        - - -1.8725151294
+          - -0.8878817735
+          - -0.2910476068
+        - - -1.8723429246
+          - 0.8882030828
+          - -0.2906347524
+        - - 0.1964580267
+          - -1.12219e-05
+          - -1.4412773901
+      isotopes:
+      - 12
+      - 12
+      - 19
+      - 19
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - F
+      - F
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -187,7 +241,7 @@ label: 1,1-Difluoroethane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 66.04997202437958
+  value: 66.04997668099283
 multiplicity: 1
 reference_data:
   ATcT:

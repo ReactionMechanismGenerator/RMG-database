@@ -6,6 +6,45 @@ adjacency_list: |
   4 H u0 p0 c0 {2,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 21.92350528793477
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.5833457958
+          - -0.0290525126
+          - -0.0
+        - - -0.6638340024
+          - 0.1541550505
+          - 0.0
+        - - 1.2427811245
+          - 0.8395486678
+          - 0.0
+        - - 1.068076453
+          - -1.0106339253
+          - -0.0
+        - - -1.1640943356
+          - -0.7336850203
+          - -0.0
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -139,7 +178,7 @@ label: Methanimine
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 29.041263028275246
+  value: 29.041415532359608
 multiplicity: 1
 reference_data:
   ATcT:

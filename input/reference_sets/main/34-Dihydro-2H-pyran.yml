@@ -15,6 +15,90 @@ adjacency_list: |
   13 H u0 p0 c0 {5,S}
   14 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -26.847505298339897
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.5149379445
+          - -1.2201459927
+          - 0.2915371833
+        - - -0.8618100421
+          - -1.0291839525
+          - -0.3201032367
+        - - -1.4404004711
+          - 0.3120048724
+          - 0.1253089582
+        - - -0.3691255485
+          - 1.3627143981
+          - 0.0625107132
+        - - 0.9150684539
+          - 1.0525571687
+          - -0.0811761532
+        - - 1.4222330389
+          - -0.2029803759
+          - -0.1146523053
+        - - 0.446841738
+          - -1.2059529309
+          - 1.3867980235
+        - - 0.9697251472
+          - -2.1615447421
+          - -0.0155512307
+        - - -0.7665016607
+          - -1.0510928205
+          - -1.409213519
+        - - -1.5089008662
+          - -1.8602634527
+          - -0.0320269671
+        - - -2.277560356
+          - 0.5936600833
+          - -0.5187782307
+        - - -1.8490868905
+          - 0.2353003331
+          - 1.1388229899
+        - - -0.6391602811
+          - 2.4103727004
+          - 0.0949158733
+        - - 1.6947568376
+          - 1.7956848721
+          - -0.1962132864
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -283,7 +367,7 @@ label: 3,4-Dihydro-2H-pyran
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 84.11642681847214
+  value: 84.11637652704889
 multiplicity: 1
 reference_data:
   CCCBDB:

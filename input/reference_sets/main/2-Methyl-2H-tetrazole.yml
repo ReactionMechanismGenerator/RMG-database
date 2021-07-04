@@ -11,13 +11,77 @@ adjacency_list: |
   9  H u0 p0 c0 {5,S}
   10 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 73.87063163260551
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.9936446445
+          - 0.0371986686
+          - 5.07409e-05
+        - - 0.5492410727
+          - 0.0176212973
+          - -9.64144e-05
+        - - -0.1906250689
+          - 1.1049069825
+          - -3.18112e-05
+        - - -1.4064016459
+          - 0.5921693545
+          - 5.2064e-05
+        - - -1.395355551
+          - -0.7511007232
+          - 2.40253e-05
+        - - -0.1419313904
+          - -1.0954328773
+          - -1.82764e-05
+        - - 2.3509322763
+          - 0.5485608179
+          - 0.8916563217
+        - - 2.3508507662
+          - 0.5525646304
+          - -0.8892580964
+        - - 2.3300663702
+          - -0.995800988
+          - -0.002223698
+        - - -2.3046108415
+          - 1.1865046466
+          - 6.59805e-05
+      isotopes:
+      - 12
+      - 14
+      - 14
+      - 12
+      - 14
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - N
+      - C
+      - N
+      - N
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 68.64112660093242
+        value: 68.64112660093241
       class: ThermoData
     xyz_dict:
       coords:
@@ -219,7 +283,7 @@ label: 2-Methyl-2H-tetrazole
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 84.08012898374936
+  value: 84.08061047756075
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -14,6 +14,85 @@ adjacency_list: |
   12 H u0 p0 c0 {1,S}
   13 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -9.475549396130734
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.988754609
+          - -0.6483111724
+          - 0.1921352785
+        - - -1.0127263666
+          - 0.500048449
+          - -0.8163632094
+        - - -0.0018134955
+          - 1.3439648503
+          - -0.0520069585
+        - - 1.0167079933
+          - 0.5641939475
+          - 0.7694116524
+        - - 2.0713041508
+          - -0.563639116
+          - -0.1822851493
+        - - -2.5761275658
+          - 0.2685931353
+          - 0.9712816204
+        - - -0.5003040595
+          - -0.1384993555
+          - -1.538494782
+        - - -1.6879817713
+          - 1.1398413149
+          - -1.3837030642
+        - - -0.5353145804
+          - 2.0231358246
+          - 0.6222663193
+        - - 0.5263388047
+          - 1.9709694924
+          - -0.7769629023
+        - - 0.5307400551
+          - -0.0038015067
+          - 1.5616148676
+        - - 1.707931995
+          - 1.2585038489
+          - 1.2486711368
+        - - 1.2009156667
+          - -1.5767816213
+          - -0.2685241708
+      isotopes:
+      - 32
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -267,7 +346,7 @@ label: 1,3-Propanedithiol
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 108.22563034237986
+  value: 108.24069728025322
 multiplicity: 1
 reference_data:
   CCCBDB:

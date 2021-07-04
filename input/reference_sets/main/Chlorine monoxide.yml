@@ -4,6 +4,30 @@ adjacency_list: |
   1 Cl u0 p3 c0 {2,S}
   2 O  u1 p2 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 24.740043180548003
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4984400064
+        - - 0.0
+          - 0.0
+          - -1.0591850136
+      isotopes:
+      - 35
+      - 16
+      symbols:
+      - Cl
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -92,7 +116,7 @@ label: Chlorine monoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 51.45240260713646
+  value: 51.45154206500549
 multiplicity: 2
 reference_data:
   ATcT:

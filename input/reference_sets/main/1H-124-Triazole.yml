@@ -9,6 +9,60 @@ adjacency_list: |
   7 H u0 p0 c0 {4,S}
   8 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 47.75566591601436
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.431338489
+          - -1.0980001595
+          - -0.0
+        - - -1.1133270378
+          - 0.0242831052
+          - -0.0
+        - - -0.3601249159
+          - 1.1530948017
+          - -0.0
+        - - 0.8637751734
+          - 0.6820599583
+          - 0.0
+        - - 0.8366227081
+          - -0.6575736724
+          - 0.0
+        - - -2.1923518763
+          - 0.0316599145
+          - -0.0
+        - - 1.7752915175
+          - 1.2594142311
+          - 0.0
+        - - 1.5982564238
+          - -1.3117793154
+          - 0.0
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - C
+      - N
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -187,7 +241,7 @@ label: 1H-1,2,4-Triazole
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 69.06544727519042
+  value: 69.0657785932241
 multiplicity: 1
 reference_data:
   CCCBDB:

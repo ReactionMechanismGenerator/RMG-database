@@ -5,13 +5,47 @@ adjacency_list: |
   3 C u0 p0 c0 {1,S} {2,T}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -2.622769457124266
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1088657602
+          - 0.1085250118
+          - 0.0
+        - - -0.180030999
+          - 0.0087281551
+          - 0.0
+        - - -1.3295549295
+          - -0.0222102703
+          - -0.0
+        - - 1.5161444188
+          - -0.7650971325
+          - -0.0
+      isotopes:
+      - 16
+      - 12
+      - 14
+      - 1
+      symbols:
+      - O
+      - C
+      - N
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 9.17927436962934
+        value: 9.179274369629333
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +157,7 @@ label: Cyanic acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 43.024783248165804
+  value: 43.02487381929377
 multiplicity: 1
 reference_data:
   ATcT:

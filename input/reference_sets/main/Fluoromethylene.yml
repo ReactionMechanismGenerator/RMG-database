@@ -5,6 +5,35 @@ adjacency_list: |
   2 C u0 p1 c0 {1,S} {3,S}
   3 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 34.41800578331393
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6959457999
+          - 0.188796225
+          - -0.0
+        - - -0.5882933606
+          - -0.0311862548
+          - 0.0
+        - - 1.1189654462
+          - -0.8521010563
+          - 0.0
+      isotopes:
+      - 12
+      - 19
+      - 1
+      symbols:
+      - C
+      - F
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -108,7 +137,7 @@ label: Fluoromethylene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 32.01704588971004
+  value: 32.01701725153847
 multiplicity: 1
 reference_data:
   ATcT:

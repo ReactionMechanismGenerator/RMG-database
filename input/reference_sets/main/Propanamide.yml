@@ -13,6 +13,80 @@ adjacency_list: |
   11 H u0 p0 c0 {2,S}
   12 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -59.772767614043275
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.9680407648
+          - -0.0391903738
+          - 0.0666204558
+        - - 0.6767526939
+          - 0.7445729993
+          - -0.0844298788
+        - - -0.5591279714
+          - -0.1372214018
+          - -0.0149339263
+        - - -1.7386656557
+          - 0.5376443345
+          - 0.059915471
+        - - -0.5130092494
+          - -1.3475431583
+          - -0.0348425684
+        - - 2.0479893841
+          - -0.8065078759
+          - -0.702645084
+        - - 2.0069429011
+          - -0.543214692
+          - 1.0325110189
+        - - 2.83045408
+          - 0.6243245816
+          - -0.0120028365
+        - - 0.6531494868
+          - 1.2650411826
+          - -1.0476780256
+        - - 0.5964296274
+          - 1.5202592774
+          - 0.6831594027
+        - - -2.5922917549
+          - 0.0094746516
+          - 0.0586723972
+        - - -1.781933063
+          - 1.5384904577
+          - 0.0437754736
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - N
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -251,7 +325,7 @@ label: Propanamide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 73.09382613255792
+  value: 73.09398329325555
 multiplicity: 1
 reference_data:
   CCCBDB:

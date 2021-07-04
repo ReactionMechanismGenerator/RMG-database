@@ -9,13 +9,67 @@ adjacency_list: |
   7 H u0 p0 c0 {2,S}
   8 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -19.47949205796333
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.7614981691
+          - 1.99634e-05
+          - 0.0001478035
+        - - 0.7614986447
+          - -1.92292e-05
+          - -0.0001475609
+        - - -1.1591176094
+          - -0.0501805836
+          - -1.0153912095
+        - - -1.1588782239
+          - -0.8546794733
+          - 0.5509761353
+        - - -1.1587443456
+          - 0.9048964111
+          - 0.4640953692
+        - - 1.1588784798
+          - 0.8545989164
+          - -0.5511036762
+        - - 1.1587422382
+          - -0.9049640501
+          - -0.4639640036
+        - - 1.1591166075
+          - 0.0503243743
+          - 1.0153859296
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -15.614441711941783
+        value: -15.614441711941772
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +177,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -20.133097458368102
+        value: -20.133097458368088
       class: ThermoData
     xyz_dict:
       coords:
@@ -187,7 +241,7 @@ label: Ethane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 30.06904288439213
+  value: 30.069109473961785
 multiplicity: 1
 reference_data:
   ATcT:

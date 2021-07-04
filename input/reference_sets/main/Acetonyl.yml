@@ -86,7 +86,7 @@ label: Acetonyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 57.07120430151925
+  value: 57.071180319960945
 multiplicity: 2
 reference_data:
   ATcT:

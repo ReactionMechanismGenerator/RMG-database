@@ -6,6 +6,45 @@ adjacency_list: |
   4 H u0 p0 c0 {3,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -90.28089673883025
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.1339317732
+          - -0.397876894
+          - -0.0
+        - - -1.1277763211
+          - 0.2637382616
+          - 0.0
+        - - 1.110680095
+          - 0.0897823416
+          - -0.0
+        - - -0.1060097991
+          - -1.4954828273
+          - -0.0
+        - - 1.046370247
+          - 1.0545793662
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - O
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -139,7 +178,7 @@ label: Formic acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 46.025382249416424
+  value: 46.02538457772306
 multiplicity: 1
 reference_data:
   ATcT:

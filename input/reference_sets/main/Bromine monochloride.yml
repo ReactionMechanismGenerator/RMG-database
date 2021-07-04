@@ -9,7 +9,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 0.9085038458849506
+        value: 0.9085038458849499
       class: ThermoData
     xyz_dict:
       coords:
@@ -91,7 +91,7 @@ label: Bromine monochloride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 115.35700631174122
+  value: 115.35614576961024
 multiplicity: 1
 reference_data:
   ATcT:

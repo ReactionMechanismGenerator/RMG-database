@@ -19,6 +19,110 @@ adjacency_list: |
   17 H u0 p0 c0 {1,S}
   18 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -15.289508129925297
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.5317635608
+          - 0.0912561768
+          - -0.2538538122
+        - - 1.2314664802
+          - 0.6992210245
+          - 0.2539827515
+        - - -0.0276569303
+          - -0.0366845548
+          - -0.2119702862
+        - - -0.107435359
+          - -1.437033863
+          - 0.1969515717
+        - - -1.2922858299
+          - 0.6792189416
+          - 0.2722929067
+        - - -2.5454654807
+          - 0.1335690527
+          - -0.216645932
+        - - 2.6751564253
+          - -0.9248939544
+          - 0.1204302663
+        - - 3.3944097092
+          - 0.6781393485
+          - 0.0654784293
+        - - 2.546299815
+          - 0.0490595316
+          - -1.3463568564
+        - - 1.1667431446
+          - 1.7421161389
+          - -0.0734633391
+        - - 1.2381240872
+          - 0.7245690093
+          - 1.3506908385
+        - - -0.0433480313
+          - -0.0332641872
+          - -1.3097838183
+        - - 0.0621089686
+          - -1.5272192483
+          - 1.1922561801
+        - - 0.5783661557
+          - -2.0055075671
+          - -0.2790186668
+        - - -1.2384984691
+          - 1.737000846
+          - 0.0007353638
+        - - -1.3065093053
+          - 0.6463681595
+          - 1.3691783943
+        - - -2.5204205576
+          - -0.8738733682
+          - -0.1070521152
+        - - -2.6418497489
+          - 0.3136894342
+          - -1.2079435128
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 14
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - N
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -347,7 +451,7 @@ label: 1,2-Butanediamine
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 88.15156894094262
+  value: 88.151940538681
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -7,6 +7,50 @@ adjacency_list: |
   5 H  u0 p0 c0 {3,S}
   6 H  u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.3115902857916799
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.93003e-05
+          - -1.7394196876
+          - -0.0
+        - - 8.442e-06
+          - -0.4203898777
+          - -0.0
+        - - -1.4446017868
+          - 0.5155486077
+          - 0.0
+        - - 1.4445919231
+          - 0.5155633369
+          - -0.0
+        - - 0.9328665647
+          - -2.2850494938
+          - -0.0
+        - - -0.9328653356
+          - -2.2849961717
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 35
+      - 35
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - Cl
+      - Cl
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -155,7 +199,7 @@ label: 1,1-Dichloroethene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 96.94328667904595
+  value: 96.94150831844087
 multiplicity: 1
 reference_data:
   ATcT:

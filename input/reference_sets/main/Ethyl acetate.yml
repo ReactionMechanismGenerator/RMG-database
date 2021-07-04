@@ -115,7 +115,7 @@ label: Ethyl acetate
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 88.10512620856537
+  value: 88.1051355217919
 multiplicity: 1
 reference_data:
   CCCBDB:

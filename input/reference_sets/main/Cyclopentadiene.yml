@@ -12,6 +12,75 @@ adjacency_list: |
   10 H u0 p0 c0 {4,S}
   11 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 33.46075639088873
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0163699283
+          - -1.2109538844
+          - 1.24386e-05
+        - - -1.1758561556
+          - -0.2638011081
+          - -9.1379e-06
+        - - -0.719577104
+          - 0.9945859973
+          - 6.7459e-06
+        - - 0.746251699
+          - 0.9749058466
+          - 6.7253e-06
+        - - 1.1684597293
+          - -0.2953656722
+          - -9.1027e-06
+        - - -0.025540764
+          - -1.8677977466
+          - -0.8773272281
+        - - -0.0255408595
+          - -1.8677808883
+          - 0.8773673718
+        - - -2.2112051802
+          - -0.5751888353
+          - -4.08061e-05
+        - - -1.3230486956
+          - 1.892518244
+          - -2.2669e-06
+        - - 1.3729955713
+          - 1.8566840611
+          - -2.4693e-06
+        - - 2.1948904855
+          - -0.6346619104
+          - -4.06165e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -156,7 +225,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 43.31142955715085
+        value: 43.311429557150824
       class: ThermoData
     xyz_dict:
       coords:
@@ -235,7 +304,7 @@ label: Cyclopentadiene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 66.10114610866256
+  value: 66.10103388428294
 multiplicity: 1
 reference_data:
   ATcT:

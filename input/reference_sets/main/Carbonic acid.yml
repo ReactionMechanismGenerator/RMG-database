@@ -7,6 +7,50 @@ adjacency_list: |
   5 H u0 p0 c0 {1,S}
   6 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -146.1193094025918
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.08363806
+          - 0.0
+          - 0.6750416288
+        - - 0.0
+          - 0.0
+          - -0.0977854513
+        - - 0.0
+          - 0.0
+          - -1.2978092113
+        - - -1.08363806
+          - 0.0
+          - 0.6750416287
+        - - 1.84406399
+          - 0.0
+          - 0.0842601688
+        - - -1.84406399
+          - 0.0
+          - 0.0842601687
+      isotopes:
+      - 16
+      - 12
+      - 16
+      - 16
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - O
+      - O
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -155,7 +199,7 @@ label: Carbonic acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 62.02478271426648
+  value: 62.024785042573114
 multiplicity: 1
 reference_data:
   ATcT:

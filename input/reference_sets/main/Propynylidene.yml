@@ -7,6 +7,45 @@ adjacency_list: |
   4 H u0 p0 c0 {2,S}
   5 H u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 130.82380891121005
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.765e-06
+          - -0.0001676961
+          - 1.2654953171
+        - - 4.8023e-05
+          - -1.4e-09
+          - -3.0e-09
+        - - -1.899e-06
+          - 0.0001681731
+          - -1.2654947331
+        - - -0.0001332954
+          - 0.0005459195
+          - 2.3296425967
+        - - -0.0001328586
+          - -0.0005487732
+          - -2.3296460827
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -101,7 +140,7 @@ label: Propynylidene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 38.04798346922994
+  value: 38.04786658823705
 multiplicity: 3
 reference_data:
   ATcT:

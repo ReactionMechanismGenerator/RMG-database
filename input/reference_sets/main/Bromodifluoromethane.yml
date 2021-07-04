@@ -139,7 +139,7 @@ label: Bromodifluoromethane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 130.9194547516383
+  value: 130.91942611346676
 multiplicity: 1
 reference_data:
   ATcT:

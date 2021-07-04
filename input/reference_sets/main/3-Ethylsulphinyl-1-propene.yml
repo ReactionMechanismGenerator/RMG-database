@@ -18,13 +18,112 @@ adjacency_list: |
   16 H u0 p0 c0 {7,S}
   17 H u0 p0 c0 {7,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -23.003813595117073
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.4338429037
+          - 1.1713476726
+          - 0.1736558175
+        - - 0.9812291494
+          - 0.9908691627
+          - -0.233570899
+        - - 0.6067888124
+          - -0.7689945038
+          - -0.3882905739
+        - - 0.7372454481
+          - -1.358819414
+          - 0.96464896
+        - - -1.1778599249
+          - -0.6200739162
+          - -0.730413332
+        - - -1.9453227549
+          - 0.0018354709
+          - 0.38579309
+        - - -2.6944330274
+          - 1.0868024024
+          - 0.2619420195
+        - - 2.6570913658
+          - 2.2302514063
+          - 0.3097611415
+        - - 3.1145090873
+          - 0.7751281796
+          - -0.582286248
+        - - 2.6299956597
+          - 0.6570496514
+          - 1.1148569906
+        - - 0.7686285269
+          - 1.4462120587
+          - -1.2047997748
+        - - 0.2999487244
+          - 1.408951686
+          - 0.509677307
+        - - -1.4870921368
+          - -1.6559175849
+          - -0.8906522831
+        - - -1.2871561831
+          - -0.0788444487
+          - -1.6731702022
+        - - -1.8524335872
+          - -0.4913701825
+          - 1.348421264
+        - - -2.80088285
+          - 1.6016540947
+          - -0.6875860813
+        - - -3.2339312654
+          - 1.4966677586
+          - 1.1067952128
+      isotopes:
+      - 12
+      - 12
+      - 32
+      - 16
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - S
+      - O
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 24.943976331910218
+        value: 24.943976331910196
       class: ThermoData
     xyz_dict:
       coords:
@@ -222,7 +321,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -12.128565818608736
+        value: -12.128565818608731
       class: ThermoData
     xyz_dict:
       coords:
@@ -331,7 +430,7 @@ label: 3-Ethylsulphinyl-1-propene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 118.19731013256734
+  value: 118.20482078409901
 multiplicity: 1
 reference_data:
   CATCH:

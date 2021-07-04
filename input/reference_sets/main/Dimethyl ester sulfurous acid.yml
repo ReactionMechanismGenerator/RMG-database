@@ -13,6 +13,80 @@ adjacency_list: |
   11 H u0 p0 c0 {6,S}
   12 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -113.10489693649032
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.5371292964
+          - 1.6964490008
+          - -0.223416137
+        - - 0.0179996807
+          - 0.4953845145
+          - 0.3668031125
+        - - 0.7608044309
+          - -0.7714610455
+          - -0.341108033
+        - - 2.1290123031
+          - -0.9231901435
+          - 0.0337982945
+        - - -1.379090541
+          - 0.237409421
+          - -0.3774145907
+        - - -2.1365252423
+          - -0.881240162
+          - 0.0856548927
+        - - 2.4496364925
+          - -1.8855960495
+          - -0.3579814685
+        - - 2.7349313931
+          - -0.126807254
+          - -0.4007428436
+        - - 2.243520983
+          - -0.921442345
+          - 1.1221260846
+        - - -2.1138381701
+          - -0.9471927659
+          - 1.1769766939
+        - - -3.159116908
+          - -0.713620398
+          - -0.243696544
+        - - -1.7487965379
+          - -1.8040905978
+          - -0.3467407602
+      isotopes:
+      - 16
+      - 32
+      - 16
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - S
+      - O
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -251,7 +325,7 @@ label: Dimethyl ester sulfurous acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 110.13224734807801
+  value: 110.13981294764619
 multiplicity: 1
 reference_data:
   CCCBDB:

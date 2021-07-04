@@ -8,6 +8,55 @@ adjacency_list: |
   6 H u0 p0 c0 {2,S}
   7 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 46.7319457910994
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2993501465
+          - -0.0001002252
+          - 0.0003336566
+        - - 1.0695e-06
+          - 0.0001608789
+          - 0.0001186689
+        - - -1.2993474882
+          - 0.0004345681
+          - -8.64613e-05
+        - - 1.8566024482
+          - -0.9292745122
+          - 0.0125831286
+        - - 1.856958201
+          - 0.9288235428
+          - -0.0144939369
+        - - -1.856926347
+          - 0.0122781878
+          - 0.9289004751
+        - - -1.8566566693
+          - -0.014798549
+          - -0.9291848521
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -171,7 +220,7 @@ label: Allene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 40.06386371418944
+  value: 40.063808766152945
 multiplicity: 1
 reference_data:
   ATcT:

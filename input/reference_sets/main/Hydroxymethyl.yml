@@ -7,6 +7,45 @@ adjacency_list: |
   4 H u0 p0 c0 {2,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -3.6265301304848423
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6802022427
+          - -0.027589408
+          - 0.0620575211
+        - - -0.6667200116
+          - 0.1254921451
+          - -0.021196773
+        - - 1.2343887143
+          - 0.884846347
+          - -0.0988015719
+        - - 1.1136409885
+          - -0.9950048091
+          - -0.1621754247
+        - - -1.095483066
+          - -0.7282422505
+          - 0.0582060541
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -140,7 +179,7 @@ label: Hydroxymethyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 31.033921907046118
+  value: 31.03395520183095
 multiplicity: 2
 reference_data:
   ATcT:

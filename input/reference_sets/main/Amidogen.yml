@@ -5,6 +5,35 @@ adjacency_list: |
   2 H u0 p0 c0 {1,S}
   3 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 44.93343590592259
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.1409978133
+        - - -0.80515649
+          - -0.0
+          - -0.4934923467
+        - - 0.80515649
+          - 0.0
+          - -0.4934923467
+      isotopes:
+      - 14
+      - 1
+      - 1
+      symbols:
+      - N
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -108,7 +137,7 @@ label: Amidogen
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 16.022621831038684
+  value: 16.02280297329461
 multiplicity: 2
 reference_data:
   ATcT:

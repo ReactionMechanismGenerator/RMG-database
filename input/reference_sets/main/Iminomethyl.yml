@@ -6,6 +6,40 @@ adjacency_list: |
   3 H u0 p0 c0 {2,S}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 70.26749641730433
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6318904114
+          - 0.123082957
+          - -0.0
+        - - -0.58487548
+          - 0.0996161538
+          - -0.0
+        - - 1.4069132322
+          - -0.6547589555
+          - 0.0
+        - - -1.1041273409
+          - -0.7810518631
+          - 0.0
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -124,7 +158,7 @@ label: Iminomethyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 28.033322905795497
+  value: 28.03344444340166
 multiplicity: 2
 reference_data:
   ATcT:

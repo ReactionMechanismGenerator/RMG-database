@@ -8,6 +8,55 @@ adjacency_list: |
   6 N u0 p0 c+1 {1,S} {2,S} {4,D}
   7 N u0 p0 c+1 {1,S} {3,S} {5,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 4.181438622690022
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1413698691
+          - -0.9893530753
+          - 0.7083768367
+        - - 1.2224373687
+          - 0.0149176966
+          - 0.0926268595
+        - - 2.1251317273
+          - 0.5670526831
+          - -0.426290337
+        - - 0.0007518134
+          - 0.815346965
+          - -0.0029547424
+        - - -1.2225067333
+          - 0.0157345111
+          - -0.0927798292
+        - - -1.1446213951
+          - -0.9885786256
+          - -0.7087380094
+        - - -2.1225713206
+          - 0.5687113711
+          - 0.4297401005
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - O
+      - N
+      - O
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -171,7 +220,7 @@ label: Dinitrogen pentoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 108.01048549640865
+  value: 108.0107239150077
 multiplicity: 1
 reference_data:
   ATcT:

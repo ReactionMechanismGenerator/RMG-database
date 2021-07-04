@@ -8,6 +8,55 @@ adjacency_list: |
   6 H u0 p0 c0 {4,S}
   7 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -14.2328366245621
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.6254041578
+          - -0.1323805379
+          - 0.0001062402
+        - - 0.3519850071
+          - 0.5044051397
+          - -0.0001448036
+        - - -0.6692507799
+          - -0.4323653363
+          - -0.0001917345
+        - - -1.7148556801
+          - 0.0806668433
+          - 0.0001655775
+        - - 2.1689483164
+          - 0.1772745948
+          - -0.8921827981
+        - - 1.497215495
+          - -1.2155213153
+          - 0.0008737715
+        - - 2.1691320855
+          - 0.1785114377
+          - 0.8918475363
+      isotopes:
+      - 12
+      - 16
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - N
+      - O
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -171,7 +220,7 @@ label: Methyl nitrite
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 61.04006395797536
+  value: 61.040216462059725
 multiplicity: 1
 reference_data:
   ATcT:

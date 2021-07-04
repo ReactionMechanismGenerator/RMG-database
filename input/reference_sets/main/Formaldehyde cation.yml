@@ -6,6 +6,40 @@ adjacency_list: |
   3 H u0 p0 c0 {1,S}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 224.68802114822037
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.5238253662
+        - - 0.0
+          - 0.0
+          - -0.6623137438
+        - - 0.97026151
+          - 0.0
+          - 1.0777788763
+        - - -0.97026151
+          - 0.0
+          - 1.0777788763
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -80,7 +114,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 224.8692318363415
+        value: 224.86923183634144
       class: ThermoData
     xyz_dict:
       coords:
@@ -124,7 +158,7 @@ label: Formaldehyde cation
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 30.02598178456637
+  value: 30.025984112873
 multiplicity: 2
 reference_data:
   ATcT:

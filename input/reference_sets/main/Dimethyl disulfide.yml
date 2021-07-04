@@ -11,6 +11,70 @@ adjacency_list: |
   9  H u0 p0 c0 {4,S}
   10 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -6.518984837929925
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8260610667
+          - -0.7930748109
+          - 0.3707080694
+        - - 0.8918147913
+          - 0.4936767923
+          - -0.4827003559
+        - - -0.8917988534
+          - 0.4936577481
+          - 0.4827125477
+        - - -1.8260780376
+          - -0.7930447788
+          - -0.3707258846
+        - - 2.808957482
+          - -0.8208197709
+          - -0.1026507956
+        - - 1.3519851299
+          - -1.7667381179
+          - 0.2565835937
+        - - 1.9405335634
+          - -0.5528325775
+          - 1.4260529049
+        - - -1.9404987938
+          - -0.5527929227
+          - -1.4260740694
+        - - -1.3521289987
+          - -1.7667692106
+          - -0.2565842278
+        - - -2.8090015635
+          - -0.820682509
+          - 0.1025844163
+      isotopes:
+      - 12
+      - 32
+      - 32
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - S
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -219,7 +283,7 @@ label: Dimethyl disulfide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 94.19904902266354
+  value: 94.21411363223027
 multiplicity: 1
 reference_data:
   CATCH:

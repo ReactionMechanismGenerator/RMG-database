@@ -8,6 +8,55 @@ adjacency_list: |
   6 H u0 p0 c0 {1,S}
   7 H u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 45.81323961136334
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2378035184
+          - -3.55474e-05
+          - -2.54371e-05
+        - - -0.219308961
+          - 0.0001391897
+          - -0.0001123616
+        - - -1.4162636122
+          - 1.01548e-05
+          - 3.28955e-05
+        - - 1.6224556904
+          - 0.1747406747
+          - 1.0056059822
+        - - 1.6229028026
+          - 0.7833827842
+          - -0.6539938532
+        - - 1.6218581631
+          - -0.95863121
+          - -0.3511333316
+        - - -2.4806023269
+          - -0.0001750318
+          - 0.0001506219
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -171,7 +220,7 @@ label: Propyne
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 40.06386371418944
+  value: 40.063808766152945
 multiplicity: 1
 reference_data:
   ATcT:

@@ -11,6 +11,70 @@ adjacency_list: |
   9  H u0 p0 c0 {4,S}
   10 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 24.306150990331922
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1439370876
+          - -0.2291927833
+          - -7.3853e-06
+        - - 0.6343652826
+          - 0.4308614324
+          - 2.3555e-06
+        - - 0.3856090313
+          - 1.7287664845
+          - 1.34118e-05
+        - - -0.6342557161
+          - -0.431177097
+          - 2.4171e-06
+        - - -0.3863947838
+          - -1.7292723769
+          - 1.32908e-05
+        - - -2.1434819167
+          - 0.2296103226
+          - -7.3921e-06
+        - - 1.1472764655
+          - 2.383223149
+          - 6.8088e-06
+        - - -0.5808722715
+          - 2.0321114148
+          - 3.3693e-06
+        - - 0.5797996395
+          - -2.0334578537
+          - 3.6132e-06
+        - - -1.1486436995
+          - -2.3831221041
+          - 7.0938e-06
+      isotopes:
+      - 32
+      - 12
+      - 14
+      - 12
+      - 14
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - N
+      - C
+      - N
+      - S
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -145,7 +209,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 24.80140146760761
+        value: 24.801401467607608
       class: ThermoData
     xyz_dict:
       coords:
@@ -219,7 +283,7 @@ label: Ethanedithioamide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 120.19665194986243
+  value: 120.21189304507179
 multiplicity: 1
 reference_data:
   CCCBDB:

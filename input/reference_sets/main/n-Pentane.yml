@@ -18,6 +18,105 @@ adjacency_list: |
   16 H u0 p0 c0 {5,S}
   17 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -33.87042488854104
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.5402422919
+          - -0.325287458
+          - -4.01095e-05
+        - - 1.2754218556
+          - 0.5233789061
+          - 3.8204e-06
+        - - 1.90848e-05
+          - -0.3111844635
+          - 9.42687e-05
+        - - -1.2754003245
+          - 0.5233585376
+          - 8.9461e-06
+        - - -2.5402503982
+          - -0.3252777679
+          - -4.08237e-05
+        - - 3.4399904292
+          - 0.2927628846
+          - -0.0002733871
+        - - 2.579894201
+          - -0.9699921311
+          - -0.8816909905
+        - - 2.5801513129
+          - -0.9697306555
+          - 0.8817908186
+        - - 1.2747720787
+          - 1.1815300404
+          - -0.875474564
+        - - 1.2748798131
+          - 1.1816151072
+          - 0.8754173756
+        - - -6.933e-07
+          - -0.9710959861
+          - 0.8759722321
+        - - -3.2032e-06
+          - -0.971240071
+          - -0.8756771384
+        - - -1.274879667
+          - 1.1815851841
+          - 0.8754282139
+        - - -1.2748021414
+          - 1.1815178064
+          - -0.8754637569
+        - - -2.5800761692
+          - -0.9698470211
+          - -0.8817883666
+        - - -2.5801544085
+          - -0.969858714
+          - 0.8816890739
+        - - -3.4399666094
+          - 0.2928270302
+          - -8.61225e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -331,7 +430,7 @@ label: n-Pentane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 72.14878684354106
+  value: 72.14886041803061
 multiplicity: 1
 reference_data:
   ATcT:

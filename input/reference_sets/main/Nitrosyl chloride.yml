@@ -4,13 +4,42 @@ adjacency_list: |
   2 O  u0 p2 c0 {3,D}
   3 N  u0 p1 c0 {1,S} {2,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 13.249883650700438
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0482917181
+          - -0.061724329
+          - -0.0
+        - - -0.7944798803
+          - 0.5242193179
+          - 0.0
+        - - -1.5324500057
+          - -0.3275277041
+          - -0.0
+      isotopes:
+      - 35
+      - 14
+      - 16
+      symbols:
+      - Cl
+      - N
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -3.0186824347021814
+        value: -3.018682434702179
       class: ThermoData
     xyz_dict:
       coords:
@@ -107,7 +136,7 @@ label: Nitrosyl chloride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 65.45914419321565
+  value: 65.4584028603842
 multiplicity: 1
 reference_data:
   ATcT:

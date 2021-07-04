@@ -6,13 +6,52 @@ adjacency_list: |
   4 F  u0 p3 c0 {5,S}
   5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -172.04054802033744
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.3495194094
+          - 0.0001816039
+          - -4.28641e-05
+        - - -0.8075323213
+          - -0.7575495591
+          - -0.9839424006
+        - - -0.8081200275
+          - 1.2308760095
+          - -0.1638873833
+        - - -0.8078473275
+          - -0.4736818231
+          - 1.1477326494
+        - - 1.406389032
+          - 0.000124043
+          - 6.65527e-05
+      isotopes:
+      - 12
+      - 19
+      - 19
+      - 19
+      - 35
+      symbols:
+      - C
+      - F
+      - F
+      - F
+      - Cl
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -161.2864381269907
+        value: -161.28643812699053
       class: ThermoData
     xyz_dict:
       coords:
@@ -139,7 +178,7 @@ label: Chlorotrifluoromethane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 104.45891729446365
+  value: 104.4579971476829
 multiplicity: 1
 reference_data:
   ATcT:

@@ -7,6 +7,50 @@ adjacency_list: |
   5 H u0 p0 c0 {1,S}
   6 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -47.65522881334496
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6602467185
+          - -0.0203041404
+          - 3.569e-07
+        - - -0.7439702064
+          - 0.1219180782
+          - 4.6e-07
+        - - 1.0244799838
+          - -0.5439609585
+          - 0.8912210195
+        - - 1.0831998121
+          - 0.9837158288
+          - -0.0001535333
+        - - 1.0244503693
+          - -0.5442212412
+          - -0.8910779631
+        - - -1.1418488254
+          - -0.7490534124
+          - 4.6554e-06
+      isotopes:
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -155,7 +199,7 @@ label: Methanol
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 32.04186202952587
+  value: 32.0419262907889
 multiplicity: 1
 reference_data:
   ATcT:

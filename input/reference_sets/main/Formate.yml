@@ -5,6 +5,40 @@ adjacency_list: |
   3 C u0 p0 c0 {1,S} {2,D} {4,S}
   4 H u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -111.38861418569952
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.3124635474
+        - - -1.13080016
+          - -0.0
+          - -0.2079223326
+        - - 1.13080016
+          - 0.0
+          - -0.2079223326
+        - - 0.0
+          - 0.0
+          - 1.4519760374
+      isotopes:
+      - 12
+      - 16
+      - 16
+      - 1
+      symbols:
+      - C
+      - O
+      - O
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -122,7 +156,7 @@ label: Formate
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 45.01744212693667
+  value: 45.017413488765115
 multiplicity: 1
 reference_data:
   ATcT:

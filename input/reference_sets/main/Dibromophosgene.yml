@@ -123,7 +123,7 @@ label: Dibromophosgene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 187.81810987851648
+  value: 187.81805027386673
 multiplicity: 1
 reference_data:
   ATcT:

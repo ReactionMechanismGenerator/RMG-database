@@ -7,13 +7,57 @@ adjacency_list: |
   5 H u0 p0 c0 {2,S}
   6 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 13.37021059093477
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.66098851
+          - 0.0
+          - -0.0
+        - - -0.66098851
+          - -0.0
+          - 0.0
+        - - 1.22937033
+          - 0.92311594
+          - -0.0
+        - - 1.22937033
+          - -0.92311594
+          - -0.0
+        - - -1.22937033
+          - 0.92311594
+          - 0.0
+        - - -1.22937033
+          - -0.92311594
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 24.704308205734524
+        value: 24.704308205734502
       class: ThermoData
     xyz_dict:
       coords:
@@ -101,7 +145,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 16.522738840915714
+        value: 16.522738840915707
       class: ThermoData
     xyz_dict:
       coords:
@@ -155,7 +199,7 @@ label: Ethylene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 28.053162639432628
+  value: 28.053167296045892
 multiplicity: 1
 reference_data:
   ATcT:
