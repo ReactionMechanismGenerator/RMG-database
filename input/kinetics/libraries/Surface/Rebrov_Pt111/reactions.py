@@ -454,7 +454,7 @@ This is R18 in Table 1
     facet = "111",
 )
 
-#endothermic, and Deutschmann's paper: A=4.5E8, n=0, Ea=41800J/mol
+#Endothermic, Deutschmann's paper: A=4.5E8, n=0, Ea=41800J/mol
 # entry(
 #    index = 19,
 #    label = "H2O_X <=> H2O + X",
