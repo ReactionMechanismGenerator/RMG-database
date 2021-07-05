@@ -253,7 +253,7 @@ entry(
 
 entry(
     index = 13,
-    label = "o-benzyne + toluene <=> 1_int",
+    label = "o-benzyne + toluene <=> int_1",
     degeneracy = 1,
     kinetics = Chebyshev(
         coeffs = [
@@ -274,7 +274,7 @@ entry(
 
 entry(
     index = 14,
-    label = "o-benzyne + toluene <=> 2_int",
+    label = "o-benzyne + toluene <=> int_2",
     degeneracy = 1,
     kinetics = Chebyshev(
         coeffs = [
@@ -295,7 +295,7 @@ entry(
 
 entry(
     index = 15,
-    label = "1_int <=> 1_methylnaphthalene + C2H2",
+    label = "int_1 <=> 1_methylnaphthalene + C2H2",
     degeneracy = 1,
     kinetics = Chebyshev(
         coeffs = [
@@ -337,7 +337,7 @@ entry(
 
 entry(
     index = 17,
-    label = "2_int <=> 2_methylnaphthalene + C2H2",
+    label = "int_2 <=> 2_methylnaphthalene + C2H2",
     degeneracy = 1,
     kinetics = Chebyshev(
         coeffs = [
@@ -379,7 +379,7 @@ entry(
 
 entry(
     index = 19,
-    label = "2_int <=> propyne + naphthalene",
+    label = "int_2 <=> propyne + naphthalene",
     degeneracy = 1,
     kinetics = Chebyshev(
         coeffs = [
