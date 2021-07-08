@@ -13,7 +13,7 @@ entry(
     label = "*nbutane <=> *nbutane2",
     degeneracy = 4,
     kinetics = SurfaceArrhenius(
-        A = (7.336e12, 's^-1'),
+        A = (1e13, 's^-1'),
         n = 0.,
         Ea = (59.33, 'kJ/mol'),
         Tmin = (200, 'K'),
@@ -23,9 +23,7 @@ entry(
     shortDesc = u"""n-butane migration from C1 to C2""",
     longDesc = u"""
 From Xu et al. Doi:10.1021/acscatal.7b03205
-
-Given Ea = 59.33 kJ/mol, and fwd rate of 1.22e4/s:
-A = 1.22e4/s / exp(-59.33 kJ/mol / R / 353 K) = 7.336e12/s
+Paper assumes 1e13 for A and fits Ea to experimental data
 """,
     metal = "Co",
 )
@@ -35,7 +33,7 @@ entry(
     label = "*nhexane <=> *nhexane2",
     degeneracy = 4,
     kinetics = SurfaceArrhenius(
-        A = (5.152e5, 's^-1'),
+        A = (1e13, 's^-1'),
         n = 0.,
         Ea = (58.93, 'kJ/mol'),
         Tmin = (200, 'K'),
@@ -45,9 +43,7 @@ entry(
     shortDesc = u"""n-hexane migration from C1 to C2""",
     longDesc = u"""
 From Xu et al. Doi:10.1021/acscatal.7b03205
-
-Given Ea = 58.93 kJ/mol, and fwd rate of 9.82e-4/s:
-A = 9.82e-4/s / exp(-58.93 kJ/mol / R / 353 K) = 5.152e5/s
+Paper assumes 1e13 for A and fits Ea to experimental data
 """,
     metal = "Co",
 )
@@ -57,7 +53,7 @@ entry(
     label = "*noctane <=> *noctane2",
     degeneracy = 4,
     kinetics = SurfaceArrhenius(
-        A = (2.334e19, 's^-1'),
+        A = (1e13, 's^-1'),
         n = 0.,
         Ea = (63.31, 'kJ/mol'),
         Tmin = (200, 'K'),
@@ -67,9 +63,7 @@ entry(
     shortDesc = u"""n-octane migration from C1 to C2""",
     longDesc = u"""
 From Xu et al. Doi:10.1021/acscatal.7b03205
-
-Given Ea = 63.31 kJ/mol, and fwd rate of 3.14e3/s:
-A = 1.0e10/s / exp(-63.31 kJ/mol / R / 353 K) = 2.334e19/s
+Paper assumes 1e13 for A and fits Ea to experimental data
 """,
     metal = "Co",
 )
