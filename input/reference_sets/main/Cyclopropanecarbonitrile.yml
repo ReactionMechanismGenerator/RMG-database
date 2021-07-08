@@ -75,6 +75,70 @@ calculated_data:
       - H
       - H
       - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 45.32745284259774
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -2.2333979637
+          - 0.2370654587
+          - -0.0
+        - - -1.1467270659
+          - -0.1337540783
+          - 0.0
+        - - 0.2198745144
+          - -0.5827586679
+          - 0.0
+        - - 1.2515196549
+          - 0.2271068293
+          - 0.74480935
+        - - 1.2515196549
+          - 0.2271068293
+          - -0.74480935
+        - - 0.3288086288
+          - -1.6591859637
+          - 0.0
+        - - 2.0198916045
+          - -0.3284272762
+          - 1.26447159
+        - - 0.9040366793
+          - 1.1151884153
+          - 1.25402209
+        - - 0.9040366793
+          - 1.1151884153
+          - -1.25402209
+        - - 2.0198916045
+          - -0.3284272762
+          - -1.26447159
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
