@@ -456,7 +456,7 @@ Viscosity parameters (A, B, C, D, E): the DIPPR
 
 entry(
     index = 11,
-    label = "dichloroethane",
+    label = "1,1-dichloroethane",
     molecule = "CC(Cl)Cl",
     solvent = SolventData(
         s_g = 1.436,
@@ -479,7 +479,7 @@ entry(
         alpha = 0.1,
         beta = 0.105,
         eps = 10.7,
-        name_in_coolprop = "Dichloroethane",
+        name_in_coolprop = None,
     ),
     dataCount = None,
     shortDesc = u""" """,
@@ -2123,7 +2123,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "Dichloroethane",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = 115,
@@ -2165,7 +2165,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "DiethylEther",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = 143,
@@ -2333,7 +2333,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "EthylBenzene",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = 33,
@@ -3631,7 +3631,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "p-Xylene",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = 129,
@@ -3799,7 +3799,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "Acetone",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = 116,
@@ -5365,7 +5365,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "m-Xylene",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = 81,
@@ -5407,7 +5407,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "o-Xylene",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = 61,
@@ -7397,7 +7397,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "D4",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = 8,
@@ -8297,7 +8297,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
-        name_in_coolprop = None,
+        name_in_coolprop = "DimethylCarbonate",
     ),
     dataCount = DataCountSolvent(
         dGsolvCount = None,
