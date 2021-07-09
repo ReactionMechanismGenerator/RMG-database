@@ -8,6 +8,11 @@ test surface mechanism: based upon Olaf Deutschmann's work:
 "Modeling the high-temperature catalytic partial oxidation of methane over platinum gauze: Detailed gas-phase and surface chemistries coupled with 3D flow field simulations"
 Quiceno et al
 Applied Catalysis, 2006, 303, 166-176
+
+https://www.detchem.com/public/files/mechanisms/11_CH4_O2_ReducedGas_Quiceno2006/gm_CH4_O2_Reduced_2006_chemkin.txt
+https://www.detchem.com/public/files/mechanisms/11_CH4_O2_ReducedGas_Quiceno2006/sm_CH4_O2_Ptwire_2006_chemkin.txt
+https://www.detchem.com/public/files/mechanisms/11_CH4_O2_ReducedGas_Quiceno2006/td_CH4_O2_Reduced_2006.txt
+
 """
 
 entry(
