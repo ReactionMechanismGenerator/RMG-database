@@ -162,3 +162,18 @@ Banning the doublebond within Benzene from reacting in 2+2 cycloaddition.
 """,
 )
 
+forbidden(
+    label = "2+2_cycloaddition_CdCd",
+    group = 
+"""
+1  *4 C u0 p0 c0 {2,S} {3,S}
+2  *3 C u0 p0 c0 {1,S} {4,S}
+3  *2 C u0 p0 c0 {1,S} {4,S}
+4  *1 C u0 p0 c0 {2,S} {3,S}
+""",
+    shortDesc = """2+2_cycloaddition_CdCd""",
+    longDesc = 
+"""
+Banning the 2pi + 2pi cycloaddition, as it is thermally forbidden
+"""
+)
