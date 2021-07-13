@@ -38,8 +38,8 @@ entry(
 """
 multiplicity [1]
 1 *1 Xv u0 p0 c0
-2 *2 R  u0 px cx {3,S}
-3 *3 R  u0 px cx {2,S}
+2 *2 R  ux px cx {3,S}
+3 *3 R  ux px cx {2,S}
 """,
     kinetics = None,
 )
@@ -123,7 +123,7 @@ entry(
 """
 multiplicity [1]
 1 *1 Xv u0 p0 c0
-2 *2 N  u0 px cx {3,S}
+2 *2 N  ux px cx {3,S}
 3 *3 R  u0 px cx {2,S}
 """,
     kinetics = None,
