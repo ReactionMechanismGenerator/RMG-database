@@ -94,11 +94,11 @@ entry(
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
-3 *3 Cd u0 {1,D} {7,[S,D,T,B]}
+3 *3 Cd u0 {1,D} {7,[S,D,T,B,Q]}
 4 *6 Cd u0 {2,D}
 5 *1 Cd u0 {6,[D,T]}
 6 *2 Cd u0 {5,[D,T]}
-7    C  ux {3,[S,D,T,B]}
+7    C  ux {3,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -110,12 +110,12 @@ entry(
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
-3 *3 Cd u0 {1,D} {7,[S,D,T,B]}
+3 *3 Cd u0 {1,D} {7,[S,D,T,B,Q]}
 4 *6 Cd u0 {2,D}
-5 *1 Cd u0 {6,[D,T]} {8,[S,D,T,B]}
+5 *1 Cd u0 {6,[D,T]} {8,[S,D,T,B,Q]}
 6 *2 Cd u0 {5,[D,T]}
-7    C  ux {3,[S,D,T,B]}
-8    C  ux {5,[S,D,T,B]}
+7    C  ux {3,[S,D,T,B,Q]}
+8    C  ux {5,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -129,10 +129,10 @@ entry(
 2 *5 Cd u0 {1,S} {4,D}
 3 *3 Cd u0 {1,D} {7,S}
 4 *6 Cd u0 {2,D}
-5 *1 Cd u0 {6,D} {8,[S,D,T,B]}
+5 *1 Cd u0 {6,D} {8,[S,D,T,B,Q]}
 6 *2 Cd u0 {5,D} {9,S}
 7    C  u0 {3,S}
-8    C  ux {5,[S,D,T,B]}
+8    C  ux {5,[S,D,T,B,Q]}
 9    C  u0 {6,S}
 """,
     kinetics = None,
@@ -147,12 +147,12 @@ entry(
 2  *5 Cd  u0 {1,S} {4,D}
 3  *3 Cd  u0 {1,D} {7,S}
 4  *6 Cd  u0 {2,D}
-5  *1 Cd  u0 {6,D} {8,[S,D,T,B]}
+5  *1 Cd  u0 {6,D} {8,[S,D,T,B,Q]}
 6  *2 Cd  u0 {5,D} {9,S}
 7     C   u0 r0 {3,S}
-8     C   ux {5,[S,D,T,B]} {10,[S,D,T,B]}
+8     C   ux {5,[S,D,T,B,Q]} {10,[S,D,T,B,Q]}
 9     C   u0 r0 {6,S}
-10    R!H ux {8,[S,D,T,B]}
+10    R!H ux {8,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -164,13 +164,13 @@ entry(
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 {1,S} {4,D}
-3 *3 Cd  u0 {1,D} {7,[S,D,T,B]}
+3 *3 Cd  u0 {1,D} {7,[S,D,T,B,Q]}
 4 *6 Cd  u0 {2,D}
-5 *1 Cd  u0 {6,[D,T]} {8,[S,D,T,B]}
+5 *1 Cd  u0 {6,[D,T]} {8,[S,D,T,B,Q]}
 6 *2 Cd  u0 {5,[D,T]}
-7    C   ux {3,[S,D,T,B]}
-8    C   ux {5,[S,D,T,B]} {9,[S,D,T,B]}
-9    R!H ux {8,[S,D,T,B]}
+7    C   ux {3,[S,D,T,B,Q]}
+8    C   ux {5,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
+9    R!H ux {8,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -204,8 +204,8 @@ entry(
 5 *1 Cd  u0 r0 {6,D}
 6 *2 Cd  u0 r0 {5,D} {8,S}
 7    C   u0 r0 {3,S}
-8    C   u0 r0 {6,S} {9,[S,D,T,B]}
-9    R!H ux {8,[S,D,T,B]}
+8    C   u0 r0 {6,S} {9,[S,D,T,B,Q]}
+9    R!H ux {8,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -219,9 +219,9 @@ entry(
 2 *5 Cd u0 {1,S} {4,D}
 3 *3 Cd u0 {1,D}
 4 *6 Cd u0 {2,D}
-5 *1 Cd u0 {6,[D,T]} {7,[S,D,T,B]}
+5 *1 Cd u0 {6,[D,T]} {7,[S,D,T,B,Q]}
 6 *2 Cd u0 {5,[D,T]}
-7    C  ux {5,[S,D,T,B]}
+7    C  ux {5,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -235,9 +235,9 @@ entry(
 2 *5 Cd u0 {1,S} {4,D}
 3 *3 Cd u0 {1,D}
 4 *6 Cd u0 {2,D}
-5 *1 Cd u0 {6,[D,T]} {7,[S,D,T,B]}
+5 *1 Cd u0 {6,[D,T]} {7,[S,D,T,B,Q]}
 6 *2 Cd u0 {5,[D,T]} {8,S}
-7    C  ux {5,[S,D,T,B]}
+7    C  ux {5,[S,D,T,B,Q]}
 8    C  u0 {6,S}
 """,
     kinetics = None,
@@ -252,11 +252,11 @@ entry(
 2 *5 Cd  u0 {1,S} {4,D}
 3 *3 Cd  u0 {1,D}
 4 *6 Cd  u0 {2,D}
-5 *1 Cd  u0 {6,[D,T]} {7,[S,D,T,B]}
+5 *1 Cd  u0 {6,[D,T]} {7,[S,D,T,B,Q]}
 6 *2 Cd  u0 {5,[D,T]} {8,S}
-7    C   ux {5,[S,D,T,B]} {9,[S,D,T,B]}
+7    C   ux {5,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
 8    C   u0 r0 {6,S}
-9    R!H ux {7,[S,D,T,B]}
+9    R!H ux {7,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -267,13 +267,13 @@ entry(
     group = 
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
-2 *5 Cd  u0 {1,S} {4,D} {8,[S,D,T,B]}
+2 *5 Cd  u0 {1,S} {4,D} {8,[S,D,T,B,Q]}
 3 *3 Cd  u0 {1,D}
 4 *6 Cd  u0 {2,D}
-5 *1 Cd  u0 {6,[D,T]} {7,[S,D,T,B]}
+5 *1 Cd  u0 {6,[D,T]} {7,[S,D,T,B,Q]}
 6 *2 Cd  u0 {5,[D,T]}
-7    C   ux {5,[S,D,T,B]}
-8    R!H ux {2,[S,D,T,B]}
+7    C   ux {5,[S,D,T,B,Q]}
+8    R!H ux {2,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -284,12 +284,12 @@ entry(
     group = 
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
-2 *5 Cd  u0 {1,S} {4,D} {7,[S,D,T,B]}
+2 *5 Cd  u0 {1,S} {4,D} {7,[S,D,T,B,Q]}
 3 *3 Cd  u0 {1,D}
 4 *6 Cd  u0 {2,D}
 5 *1 Cd  u0 {6,[D,T]}
 6 *2 Cd  u0 {5,[D,T]}
-7    R!H ux {2,[S,D,T,B]}
+7    R!H ux {2,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -320,9 +320,9 @@ entry(
 3 *3 Cd  u0 r0 {1,D}
 4 *6 Cd  u0 r0 {2,D}
 5 *1 Cd  u0 r0 {6,D}
-6 *2 Cd  u0 r0 {5,D} {8,[S,D,T,B]}
+6 *2 Cd  u0 r0 {5,D} {8,[S,D,T,B,Q]}
 7    C   u0 r0 {1,S}
-8    R!H ux {6,[S,D,T,B]}
+8    R!H ux {6,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -337,8 +337,8 @@ entry(
 3 *3 Cd  u0 {1,D}
 4 *6 Cd  u0 {2,D}
 5 *1 Cd  u0 {6,[D,T]}
-6 *2 Cd  u0 {5,[D,T]} {7,[S,D,T,B]}
-7    R!H ux {6,[S,D,T,B]}
+6 *2 Cd  u0 {5,[D,T]} {7,[S,D,T,B,Q]}
+7    R!H ux {6,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -352,7 +352,7 @@ entry(
 2 *5 Cd                                                                 u0 {1,S} {4,D}
 3 *3 Cd                                                                 u0 {1,D}
 4 *6 Cd                                                                 u0 {2,D}
-5 *1 [N5tc,CO,S6t,S6d,N5dc,S4t,CS,S2d,N3d,S6td,S4d,Cdd,S6tt,N3t,O2d,Ct] u0 {6,[D,T]}
+5 *1 [N5tc,CO,S6t,N5dc,S6d,S2d,S6td,S4t,N3d,CS,S4d,Cdd,S6tt,N3t,O2d,Ct] u0 {6,[D,T]}
 6 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc]  u0 {5,[D,T]}
 """,
     kinetics = None,
@@ -388,7 +388,6 @@ entry(
     kinetics = None,
 )
 
-    index = 22,
 tree(
 """
 L1: Root
@@ -443,6 +442,9 @@ forbidden(
     shortDesc = """""",
     longDesc = 
 """
+
+""",
+)
 
 forbidden(
     label = "benzene_diene2",
@@ -635,62 +637,6 @@ forbidden(
 )
 
 forbidden(
-    label = "benzyne_aryne_1",
-    group = 
-"""
-1 *1 C u0 {2,S} {3,D}
-2    C u0 {1,S} {4,D}
-3 *2 C u0 {1,D} {5,S}
-4    C u0 {2,D} {6,S}
-5    C u0 {3,S} {6,T}
-6    C u0 {4,S} {5,T}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Forbid double bonds in aryne form of benzyne
-Only allow the triple bond to participate
-""",
-)
-
-forbidden(
-    label = "benzyne_aryne_2",
-    group = 
-"""
-1 *2 C u0 {2,S} {3,D}
-2    C u0 {1,S} {4,D}
-3 *1 C u0 {1,D} {5,S}
-4    C u0 {2,D} {6,S}
-5    C u0 {3,S} {6,T}
-6    C u0 {4,S} {5,T}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Forbid double bonds in aryne form of benzyne
-Only allow the triple bond to participate
-""",
-)
-
-forbidden(
-    label = "benzyne_cumulene",
-    group = 
-"""
-1 C u0 {2,D} {3,S}
-2 C u0 {1,D} {4,S}
-3 C u0 {1,S} {5,D}
-4 C u0 {2,S} {6,D}
-5 C u0 {3,D} {6,D}
-6 C u0 {4,D} {5,D}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Completely forbid cumulene form of benzyne
-""",
-)
-
-forbidden(
     label = "threeMemberedRing_2342",
     group = 
 """
@@ -719,50 +665,6 @@ forbidden(
     longDesc = 
 """
 
-""",
-)
-
-forbidden(
-    label = "two_ring_pah_1",
-    group = 
-"""
-1  *4 C u0 {2,[S,B]} {3,[D,B]} {6,[S,B]}
-2     C u0 {1,[S,B]} {4,[D,B]} {5,[S,B]}
-3  *3 C u0 {1,[D,B]} {7,[S,B]}
-4     C u0 {2,[D,B]} {8,[S,B]}
-5     C u0 {2,[S,B]} {9,[D,B]}
-6  *5 C u0 {1,[S,B]} {10,[D,B]}
-7     C u0 {3,[S,B]} {8,[D,B]}
-8     C u0 {4,[S,B]} {7,[D,B]}
-9     C u0 {5,[D,B]} {10,[S,B]}
-10 *6 C u0 {6,[D,B]} {9,[S,B]}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Forbid addition across double bonds located on adjacent aromatic rings
-""",
-)
-
-forbidden(
-    label = "two_ring_pah_2",
-    group = 
-"""
-1  *5 C u0 {2,[S,B]} {3,[D,B]} {6,[S,B]}
-2     C u0 {1,[S,B]} {4,[D,B]} {5,[S,B]}
-3  *6 C u0 {1,[D,B]} {7,[S,B]}
-4     C u0 {2,[D,B]} {8,[S,B]}
-5     C u0 {2,[S,B]} {9,[D,B]}
-6  *4 C u0 {1,[S,B]} {10,[D,B]}
-7     C u0 {3,[S,B]} {8,[D,B]}
-8     C u0 {4,[S,B]} {7,[D,B]}
-9     C u0 {5,[D,B]} {10,[S,B]}
-10 *3 C u0 {6,[D,B]} {9,[S,B]}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Forbid addition across double bonds located on adjacent aromatic rings
 """,
 )
 

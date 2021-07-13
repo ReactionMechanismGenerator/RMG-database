@@ -43490,7 +43490,8 @@ entry(
     longDesc = 
 """
 CASPT2(2e,2o)/cc-pvdz (VRC-TST)
-"""
+""",
+)
 
 entry(
     index = 3108,
