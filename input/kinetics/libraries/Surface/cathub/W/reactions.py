@@ -11,7 +11,7 @@ entry(
     index = 0,
     label = "X + X + N2 <=> NX + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(-0.824935,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(-0.824935,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDMzMDUz""",
     longDesc = 
 """
@@ -21,7 +21,8 @@ dftFunctional : BEEF-vdW
 pubId: WangAchieving2021
 reactionEnergy: -4.322079935518559 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "W",
     facet = "211",
@@ -31,7 +32,7 @@ entry(
     index = 1,
     label = "HX + NX <=> X + NHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.26905,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.46209e+16,'m^2/(mol*s)'), n=0, Ea=(2.26905,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDMzMDU0""",
     longDesc = 
 """
@@ -41,7 +42,10 @@ dftFunctional : BEEF-vdW
 pubId: WangAchieving2021
 reactionEnergy: 0.42867394210770726 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for association
+A factor estimated from gas-phase smiles [NH] from Thermo library: primaryThermoLibrary and S298=43.26 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "W",
     facet = "211",
@@ -51,7 +55,7 @@ entry(
     index = 2,
     label = "HX + NHX <=> X + NH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(1.74919,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.14127e+16,'m^2/(mol*s)'), n=0, Ea=(1.74919,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDMzMDU1""",
     longDesc = 
 """
@@ -61,7 +65,10 @@ dftFunctional : BEEF-vdW
 pubId: WangAchieving2021
 reactionEnergy: 0.6058041401265655 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for association
+A factor estimated from gas-phase smiles [NH2] from Thermo library: primaryThermoLibrary and S298=46.52 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "W",
     facet = "211",
@@ -71,7 +78,7 @@ entry(
     index = 3,
     label = "HX + NH2X <=> X + NH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.1428,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.70555e+18,'m^2/(mol*s)'), n=0, Ea=(2.1428,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDMzMDU2""",
     longDesc = 
 """
@@ -81,49 +88,12 @@ dftFunctional : BEEF-vdW
 pubId: WangAchieving2021
 reactionEnergy: 1.0558742582506966 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for association
+A factor estimated from gas-phase smiles N from Thermo library: primaryThermoLibrary and S298=45.99 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "W",
     facet = "211",
 )
-
-# entry(
-#     index = 4,
-#     label = "HX <=> HX",
-#     degeneracy = 1.0,
-#     kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(0.05,'eV/molecule'), T0=(1,'K')),
-#     shortDesc = """cathub_id:UmVhY3Rpb246NjE3""",
-#     longDesc = 
-# """
-# equation : H** -> ** + H*
-# dft_code : DACAPO
-# dftFunctional : PW91
-# pubId: FerrinHydrogen2012
-# reactionEnergy: -1.81 eV
-
-# A factor estimation = kb*298/h/10 s^-1
-# """,
-#     metal = "W",
-#     facet = "110",
-# )
-
-# entry(
-#     index = 5,
-#     label = "H + X <=> HX",
-#     degeneracy = 1.0,
-#     kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^3/(mol*s)','*|/',100), n=0, Ea=(3.58,'eV/molecule'), T0=(1,'K')),
-#     shortDesc = """cathub_id:UmVhY3Rpb246NjA0""",
-#     longDesc = 
-# """
-# equation : H(g) + * -> H*
-# dft_code : DACAPO
-# dftFunctional : PW91
-# pubId: FerrinHydrogen2012
-# reactionEnergy: -3.58 eV
-
-# A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
-# """,
-#     metal = "W",
-#     facet = "100",
-# )
 

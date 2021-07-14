@@ -11,7 +11,7 @@ entry(
     index = 0,
     label = "X + X + N2 <=> NX + NX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(8.9784,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(8.9784,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDMzMDI5""",
     longDesc = 
 """
@@ -21,7 +21,8 @@ dftFunctional : BEEF-vdW
 pubId: WangAchieving2021
 reactionEnergy: 6.005774861492682 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
@@ -32,7 +33,7 @@ entry(
     label = "HX + NX <=> X + NHX",
     degeneracy = 1.0,
     duplicate = True,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(0.548958,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.46209e+16,'m^2/(mol*s)'), n=0, Ea=(0.548958,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDMzMDMw""",
     longDesc = 
 """
@@ -42,7 +43,10 @@ dftFunctional : BEEF-vdW
 pubId: WangAchieving2021
 reactionEnergy: -1.913205135409953 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for association
+A factor estimated from gas-phase smiles [NH] from Thermo library: primaryThermoLibrary and S298=43.26 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
@@ -53,7 +57,7 @@ entry(
     label = "HX + NHX <=> X + NH2X",
     degeneracy = 1.0,
     duplicate = True,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(0.825864,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.14127e+16,'m^2/(mol*s)'), n=0, Ea=(0.825864,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDMzMDMx""",
     longDesc = 
 """
@@ -63,7 +67,10 @@ dftFunctional : BEEF-vdW
 pubId: WangAchieving2021
 reactionEnergy: -1.9715859375428408 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for association
+A factor estimated from gas-phase smiles [NH2] from Thermo library: primaryThermoLibrary and S298=46.52 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
@@ -74,7 +81,7 @@ entry(
     label = "HX + NH2X <=> X + NH3X",
     degeneracy = 1.0,
     duplicate = True,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(0.925966,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.70555e+18,'m^2/(mol*s)'), n=0, Ea=(0.925966,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDMzMDMy""",
     longDesc = 
 """
@@ -84,57 +91,20 @@ dftFunctional : BEEF-vdW
 pubId: WangAchieving2021
 reactionEnergy: -1.2162486377928872 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for association
+A factor estimated from gas-phase smiles N from Thermo library: primaryThermoLibrary and S298=45.99 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
-# entry(
-#     index = 4,
-#     label = "H + X <=> HX",
-#     degeneracy = 1.0,
-#     kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^3/(mol*s)','*|/',100), n=0, Ea=(2.27,'eV/molecule'), T0=(1,'K')),
-#     shortDesc = """cathub_id:UmVhY3Rpb246NTc4""",
-#     longDesc = 
-# """
-# equation : H(g) + * -> H*
-# dft_code : DACAPO
-# dftFunctional : PW91
-# pubId: FerrinHydrogen2012
-# reactionEnergy: -2.27 eV
-
-# A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
-# """,
-#     metal = "Au",
-#     facet = "100",
-# )
-
-# entry(
-#     index = 5,
-#     label = "HX <=> HX",
-#     degeneracy = 1.0,
-#     kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(0.37,'eV/molecule'), T0=(1,'K')),
-#     shortDesc = """cathub_id:UmVhY3Rpb246NjQ5""",
-#     longDesc = 
-# """
-# equation : H** -> H** + **
-# dft_code : DACAPO
-# dftFunctional : PW91
-# pubId: FerrinHydrogen2012
-# reactionEnergy: -0.1 eV
-
-# A factor estimation = kb*298/h/10 s^-1
-# """,
-#     metal = "Au",
-#     facet = "111",
-# )
-
 entry(
-    index = 6,
+    index = 4,
     label = "CHX + X <=> CX + HX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.58,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.54179e+16,'m^2/(mol*s)'), n=0, Ea=(2.58,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246ODIx""",
     longDesc = 
 """
@@ -144,17 +114,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.714 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH] from Thermo library: DFT_QCI_thermo and S298=43.64 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 7,
+    index = 5,
     label = "CH2CH2X <=> HX + CCH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(2.50654,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'s^-1'), n=0, Ea=(2.50654,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246ODI1""",
     longDesc = 
 """
@@ -164,17 +137,17 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.95734 eV
 
-A factor estimation = kb*298/h/10 s^-1
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 8,
+    index = 6,
     label = "CH2X + X <=> HX + CHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.35,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(3.75303e+16,'m^2/(mol*s)'), n=0, Ea=(2.35,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246ODU2""",
     longDesc = 
 """
@@ -184,17 +157,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.3 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH2] from Thermo library: primaryThermoLibrary and S298=46.64 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 9,
+    index = 7,
     label = "CH3X + X <=> HX + CH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.1,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(3.43628e+16,'m^2/(mol*s)'), n=0, Ea=(2.1,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246ODkz""",
     longDesc = 
 """
@@ -204,17 +180,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.47 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH3] from Thermo library: DFT_QCI_thermo and S298=46.44 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 10,
+    index = 8,
     label = "CHCH2X <=> CHX + CH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(3.61,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'s^-1'), n=0, Ea=(3.61,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTA1""",
     longDesc = 
 """
@@ -224,17 +203,17 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 2.379 eV
 
-A factor estimation = kb*298/h/10 s^-1
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 11,
+    index = 9,
     label = "CH2CH3X + X + X <=> HX + CH2CH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^4/(mol^2*s)','*|/',100), n=0, Ea=(1.43073,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.00714e+22,'m^4/(mol^2*s)'), n=0, Ea=(1.43073,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTEy""",
     longDesc = 
 """
@@ -244,17 +223,18 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 0.55592 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=(2.483e-5 mol/m^2)^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 12,
+    index = 10,
     label = "CH3CH3 + X + X <=> HX + CH2CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(1.78931,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(1.78931,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTE3""",
     longDesc = 
 """
@@ -264,17 +244,18 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.24177 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 13,
+    index = 11,
     label = "CH3CH2CH3 + X + X <=> CH3X + CH2CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(3.979,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(3.979,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTIz""",
     longDesc = 
 """
@@ -284,17 +265,18 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.47775 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 14,
+    index = 12,
     label = "CH2CH3X + X <=> CH2X + CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.11325,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.34702e+17,'m^2/(mol*s)'), n=0, Ea=(2.11325,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTU5""",
     longDesc = 
 """
@@ -304,17 +286,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.39225 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles C[CH2] from Thermo library: DFT_QCI_thermo and S298=59.12 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 15,
+    index = 13,
     label = "CH4 + X + X <=> HX + CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(2.23,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(2.23,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTYw""",
     longDesc = 
 """
@@ -324,17 +309,18 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.52 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 16,
+    index = 14,
     label = "CHCH3X + X <=> CHX + CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.5,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.38494e+17,'m^2/(mol*s)'), n=0, Ea=(2.5,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTY2""",
     longDesc = 
 """
@@ -344,17 +330,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.534 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH]C from Thermo library: DFT_QCI_thermo and S298=59.11 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 17,
+    index = 15,
     label = "CCH3X + X <=> CX + CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.53,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.76652e+17,'m^2/(mol*s)'), n=0, Ea=(2.53,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTY3""",
     longDesc = 
 """
@@ -364,17 +353,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.592 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH2]C from Thermo library: DFT_QCI_thermo + radical(Cs_P) and S298=60.52 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 18,
+    index = 16,
     label = "OCHX <=> HX + COX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(0.41764,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'s^-1'), n=0, Ea=(0.41764,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTgx""",
     longDesc = 
 """
@@ -384,17 +376,17 @@ dftFunctional : RPBE
 pubId: Studt et al submitted
 reactionEnergy: -0.16232 eV
 
-A factor estimation = kb*298/h/10 s^-1
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 19,
+    index = 17,
     label = "CO2 + X + X <=> OX + COX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(3.38,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(3.38,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTk1""",
     longDesc = 
 """
@@ -404,17 +396,18 @@ dftFunctional : RPBE
 pubId: CatappTrends2008
 reactionEnergy: 3.29 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 20,
+    index = 18,
     label = "OHX + X <=> HX + OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.236,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.13337e+16,'m^2/(mol*s)'), n=0, Ea=(2.236,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTAyNA==""",
     longDesc = 
 """
@@ -424,18 +417,21 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.771 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [OH] from Thermo library: primaryThermoLibrary and S298=43.96 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 21,
+    index = 19,
     label = "NHX + X <=> HX + NX",
     degeneracy = 1.0,
     duplicate = True,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.59,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.13171e+16,'m^2/(mol*s)'), n=0, Ea=(2.59,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTA5NA==""",
     longDesc = 
 """
@@ -445,18 +441,21 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.66 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [NH] from Thermo library: primaryThermoLibrary and S298=43.26 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 22,
+    index = 20,
     label = "NH2X + X <=> HX + NHX",
     degeneracy = 1.0,
     duplicate = True,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.6,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(3.29883e+16,'m^2/(mol*s)'), n=0, Ea=(2.6,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTE0OA==""",
     longDesc = 
 """
@@ -466,17 +465,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.79 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [NH2] from Thermo library: primaryThermoLibrary and S298=46.52 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 23,
+    index = 21,
     label = "NH3 + X + X <=> HX + NH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(1.95,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(1.95,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTE5MQ==""",
     longDesc = 
 """
@@ -486,18 +488,19 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 0.73 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 24,
+    index = 22,
     label = "NH3X + X <=> HX + NH2X",
     degeneracy = 1.0,
     duplicate = True,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.24,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.89421e+16,'m^2/(mol*s)'), n=0, Ea=(2.24,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTE5NQ==""",
     longDesc = 
 """
@@ -507,17 +510,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.02 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles N from Thermo library: primaryThermoLibrary and S298=45.99 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 25,
+    index = 23,
     label = "NO + X + X <=> NX + OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(3.555,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(3.555,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTM1Ng==""",
     longDesc = 
 """
@@ -527,17 +533,18 @@ dftFunctional : RPBE
 pubId: FalsigOn2014
 reactionEnergy: 2.195 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 26,
+    index = 24,
     label = "NOX + X <=> NX + OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(3.6,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.8541e+16,'m^2/(mol*s)'), n=0, Ea=(3.6,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTM1Nw==""",
     longDesc = 
 """
@@ -547,17 +554,20 @@ dftFunctional : RPBE
 pubId: FalsigOn2014
 reactionEnergy: 2.24 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [N]=O from Thermo library: primaryThermoLibrary and S298=49.02 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 27,
+    index = 25,
     label = "OCHX <=> OX + CHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(4.622,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'s^-1'), n=0, Ea=(4.622,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTM2MQ==""",
     longDesc = 
 """
@@ -567,17 +577,17 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 3.382 eV
 
-A factor estimation = kb*298/h/10 s^-1
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 28,
+    index = 26,
     label = "CO + X + X <=> CX + OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(5.243,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(5.243,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTM2NA==""",
     longDesc = 
 """
@@ -587,17 +597,18 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 4.413 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 29,
+    index = 27,
     label = "COX + X <=> CX + OX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(5.61,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(7.83289e+16,'m^2/(mol*s)'), n=0, Ea=(5.61,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTM2NQ==""",
     longDesc = 
 """
@@ -607,17 +618,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 4.78 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [C]=O from Thermo library: DFT_QCI_thermo + radical(CdCdJ2_triplet) and S298=55.33 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "211",
 )
 
 entry(
-    index = 30,
+    index = 28,
     label = "H2O + X + X <=> HX + OHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(1.997,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(1.997,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTQxMA==""",
     longDesc = 
 """
@@ -627,17 +641,18 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.558 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 31,
+    index = 29,
     label = "H2OX + X <=> HX + OHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.023,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.4102e+16,'m^2/(mol*s)'), n=0, Ea=(2.023,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTQxMQ==""",
     longDesc = 
 """
@@ -647,17 +662,20 @@ dftFunctional : RPBE
 pubId: WangUniversal2011
 reactionEnergy: 1.584 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles O from Thermo library: primaryThermoLibrary and S298=45.08 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 32,
+    index = 30,
     label = "X + X + CH3CH3 <=> CH3X + CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(4.26984,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(4.26984,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTgy""",
     longDesc = 
 """
@@ -667,17 +685,18 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 1.551312217998202 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 33,
+    index = 31,
     label = "X + X + CH3CH3 <=> HX + CH2CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^5/(mol^2*s)','*|/',100), n=0, Ea=(2.04718,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(2.04718,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTgz""",
     longDesc = 
 """
@@ -687,17 +706,18 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 1.4054432074481156 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 34,
+    index = 32,
     label = "CCX <=> CX + CX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(3.98702,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'s^-1'), n=0, Ea=(3.98702,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTg0""",
     longDesc = 
 """
@@ -707,17 +727,17 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 3.026444802977494 eV
 
-A factor estimation = kb*298/h/10 s^-1
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 35,
+    index = 33,
     label = "H2 + CH2CH2X <=> HX + CH2CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^3/(mol*s)','*|/',100), n=0, Ea=(1.18554,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'m^3/(mol*s)'), n=0, Ea=(1.18554,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTg1""",
     longDesc = 
 """
@@ -727,17 +747,17 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 0.04833857652556617 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 36,
+    index = 34,
     label = "X + CH2CH2X <=> HX + CHCH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.1934,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(4.91881e+16,'m^2/(mol*s)'), n=0, Ea=(2.1934,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTg3""",
     longDesc = 
 """
@@ -747,17 +767,20 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 1.5931408107862808 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles C=C from Thermo library: DFT_QCI_thermo and S298=52.25 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 37,
+    index = 35,
     label = "X + CHCH2X <=> HX + CCH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(1.99526,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(8.63145e+16,'m^2/(mol*s)'), n=0, Ea=(1.99526,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTg4""",
     longDesc = 
 """
@@ -767,17 +790,20 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 1.275880687404424 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH]=C from Thermo library: DFT_QCI_thermo and S298=55.78 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 38,
+    index = 36,
     label = "X + CHCH2X <=> HX + CHCHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(1.96171,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(8.63145e+16,'m^2/(mol*s)'), n=0, Ea=(1.96171,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTkw""",
     longDesc = 
 """
@@ -787,17 +813,20 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 1.2384102700452786 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH]=C from Thermo library: DFT_QCI_thermo and S298=55.78 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 39,
+    index = 37,
     label = "CCH2X <=> CX + CH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(3.68195,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'s^-1'), n=0, Ea=(3.68195,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTkx""",
     longDesc = 
 """
@@ -807,17 +836,17 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 2.9649712228710996 eV
 
-A factor estimation = kb*298/h/10 s^-1
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 40,
+    index = 38,
     label = "X + CH2CH3X <=> HX + CHCH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.16988,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.34702e+17,'m^2/(mol*s)'), n=0, Ea=(2.16988,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTk1""",
     longDesc = 
 """
@@ -827,17 +856,20 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 1.7260147522902116 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles C[CH2] from Thermo library: DFT_QCI_thermo and S298=59.12 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 41,
+    index = 39,
     label = "X + CH2CH3X <=> CH2X + CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(3.68796,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.34702e+17,'m^2/(mol*s)'), n=0, Ea=(3.68796,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTk2""",
     longDesc = 
 """
@@ -847,17 +879,20 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 1.9160877734830137 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles C[CH2] from Thermo library: DFT_QCI_thermo and S298=59.12 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 42,
+    index = 40,
     label = "X + CHCH3X + X <=> HX + CHCH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^4/(mol^2*s)','*|/',100), n=0, Ea=(1.51279,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.00714e+22,'m^4/(mol^2*s)'), n=0, Ea=(1.51279,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTk4""",
     longDesc = 
 """
@@ -867,17 +902,18 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 0.5372573006316088 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=(2.483e-5 mol/m^2)^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 43,
+    index = 41,
     label = "X + CHCH3X <=> HX + CCH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(1.46076,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.38494e+17,'m^2/(mol*s)'), n=0, Ea=(1.46076,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MTk5""",
     longDesc = 
 """
@@ -887,17 +923,20 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 0.8861924286175054 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH]C from Thermo library: DFT_QCI_thermo and S298=59.11 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 44,
+    index = 42,
     label = "X + CCH3X + X <=> HX + CCH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.00714e+21,'m^4/(mol^2*s)','*|/',100), n=0, Ea=(2.1243,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.00714e+22,'m^4/(mol^2*s)'), n=0, Ea=(2.1243,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MjAx""",
     longDesc = 
 """
@@ -907,17 +946,18 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 0.9269455594185274 eV
 
-A factor estimation = kb*298/h/10 s^-1 / (2.483e-05 mol/m^2)^2 (surface site density for Pt111)
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+A/=(2.483e-5 mol/m^2)^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 45,
+    index = 43,
     label = "X + CCH3X <=> CX + CH3X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.80423,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(1.76652e+17,'m^2/(mol*s)'), n=0, Ea=(2.80423,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MjAy""",
     longDesc = 
 """
@@ -927,17 +967,20 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 2.1216980193566997 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH2]C from Thermo library: DFT_QCI_thermo + radical(Cs_P) and S298=60.52 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 46,
+    index = 44,
     label = "CHCHX <=> CHX + CHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(2.90466,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'s^-1'), n=0, Ea=(2.90466,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MjA4""",
     longDesc = 
 """
@@ -947,17 +990,17 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 2.211042316397652 eV
 
-A factor estimation = kb*298/h/10 s^-1
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 47,
+    index = 45,
     label = "X + CHCHX <=> HX + CCHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.50073e+16,'m^2/(mol*s)','*|/',100), n=0, Ea=(2.11764,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(2.64307e+16,'m^2/(mol*s)'), n=0, Ea=(2.11764,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MjA5""",
     longDesc = 
 """
@@ -967,17 +1010,20 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 1.159139695810154 eV
 
-A factor estimation = kb*298/h/10 s^-1 / 2.483e-05 mol/m^2 (surface site density for Pt111)
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles C#C from Thermo library: DFT_QCI_thermo and S298=47.73 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
 """,
     metal = "Au",
     facet = "111",
 )
 
 entry(
-    index = 48,
+    index = 46,
     label = "CCHX <=> CX + CHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(6.20932e+11,'s^-1','*|/',100), n=0, Ea=(3.69633,'eV/molecule'), T0=(1,'K')),
+    kinetics = SurfaceArrhenius(A=(6.20932e+12,'s^-1'), n=0, Ea=(3.69633,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MzM4MjEx""",
     longDesc = 
 """
@@ -987,7 +1033,7 @@ dftFunctional : BEEF-vdW
 pubId: HansenFirst2018
 reactionEnergy: 2.85651099588722 eV
 
-A factor estimation = kb*298/h/10 s^-1
+Could not determine reaction type estimating A = kb/298/h = 6.21e+12
 """,
     metal = "Au",
     facet = "111",
