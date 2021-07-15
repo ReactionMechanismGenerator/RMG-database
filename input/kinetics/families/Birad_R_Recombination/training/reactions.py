@@ -161,4 +161,17 @@ u"""
 Converted to training reaction from rate rule: Y_rad;N_R_birad
 """,
 )
+entry(
+    index = 7,
+    label = "O + C5H5 <=> C5H5O",
+    degeneracy = 5.0,
+    kinetics = Arrhenius(A=(1.12e-12,'cm^3/(mol*s)'), n=5.87, Ea=(-17310,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is C5H5 + O <=> C5H5O(2,4)""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: C5H5 + O <=> C5H5O(2,4)
+""",
+)
 
