@@ -12,6 +12,10 @@ template(reactants=["COS", "RR'"], products=["R_CO_R'"], ownReverse=False)
 reverse = "1,1_Elimination"
 reversible = True
 
+reactantNum = 2
+
+productNum = 1
+
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*4'],
     ['GAIN_PAIR', '*4', '1'],
@@ -35,7 +39,11 @@ entry(
 entry(
     index = 1,
     label = "RR'",
-    group = "OR{R_H, R_R'}",
+    group = 
+"""
+1 *2 [H,Cs,Cd,Cb,Ct,CO,O,Sis,Sid,N,S] u0 {2,S}
+2 *3 [H,Val7,Cs,Cd,Cb,Ct,Sis,Sid,N,S] u0 {1,S}
+""",
     kinetics = None,
 )
 
@@ -67,7 +75,7 @@ entry(
     group = 
 """
 1 *2 [H,Cs,Cd,Cb,Ct,CO,O,Sis,Sid,N,S] u0 {2,S}
-2 *3 H                                u0 {1,S}
+2 *3 [H,Val7]                     u0 {1,S}
 """,
     kinetics = None,
 )
