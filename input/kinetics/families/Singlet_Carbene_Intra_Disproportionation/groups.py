@@ -28,7 +28,7 @@ entry(
 """
 1 *1 C u0 p1 c0 {2,[S,D]}
 2 *2 C u0 {1,[S,D]} {3,S}
-3 *3 H u0 {2,S}
+3 *3 [H,Val7] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -49,13 +49,57 @@ entry(
     group = 
 """
 1 *2 C u0 {2,S}
-2 *3 H u0 {1,S}
+2 *3 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 3,
+    label = "CVal7",
+    group = 
+"""
+1 *2 C u0 {2,S}
+2 *3 Val7 u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
+    label = "CF",
+    group = 
+"""
+1 *2 C u0 {2,S}
+2 *3 F1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "CCl",
+    group = 
+"""
+1 *2 C u0 {2,S}
+2 *3 Cl1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "CBr",
+    group = 
+"""
+1 *2 C u0 {2,S}
+2 *3 Br1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
     label = "fulvene_backbone",
     group = 
 """
@@ -65,13 +109,13 @@ entry(
 4    C u0 {3,D} {6,S}
 5    C u0 {2,D}
 6 *1 C u0 p1 c0 {1,S} {4,S}
-7 *3 H u0 {1,S}
+7 *3 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 4,
+    index = 8,
     label = "benzene_backbone",
     group = 
 """
@@ -81,37 +125,37 @@ entry(
 4    C u0 {3,S} {5,D}
 5    C u0 {4,D} {6,S}
 6 *1 C u0 p1 c0 {1,S} {5,S}
-7 *3 H u0 {1,S}
+7 *3 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 5,
+    index = 9,
     label = "CsJ2-C",
     group = 
 """
 1 *1 C u0 p1 c0 {2,S}
 2 *2 C u0 {1,S} {3,S}
-3 *3 H u0 {2,S}
+3 *3 [H,Val7] u0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 6,
+    index = 10,
     label = "CdJ2=C",
     group = 
 """
 1 *1 C u0 p1 c0 {2,D}
 2 *2 C u0 {1,D} {3,S}
-3 *3 H u0 {2,S}
+3 *3 [H,Val7] u0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 7,
+    index = 11,
     label = "CdJ2",
     group = 
 """
@@ -121,18 +165,18 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 12,
     label = "CsJ2H",
     group = 
 """
 1 *1 C2s u0 p1 c0 {2,S}
-2    H   u0 {1,S}
+2    [H,Val7]   u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 9,
+    index = 13,
     label = "CsJ2C",
     group = 
 """
@@ -143,7 +187,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 14,
     label = "CsJ2(CsC)",
     group = 
 """
@@ -155,7 +199,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 15,
     label = "CsJ2(C=C)",
     group = 
 """
@@ -167,63 +211,63 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 16,
     label = "CdH2",
     group = 
 """
 1 *2 Cd u0 {2,S} {3,S}
-2 *3 H  u0 {1,S}
-3    H  u0 {1,S}
+2 *3 [H,Val7]  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 13,
+    index = 17,
     label = "CdHC",
     group = 
 """
 1 *2 Cd u0 {2,S} {3,S}
-2 *3 H  u0 {1,S}
+2 *3 [H,Val7]  u0 {1,S}
 3    C  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 14,
+    index = 18,
     label = "CH3",
     group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
-2 *3 H  u0 {1,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
+2 *3 [H,Val7]  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
+4    [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 15,
+    index = 19,
     label = "CH2(C)",
     group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
-2 *3 H  u0 {1,S}
-3    H  u0 {1,S}
+2 *3 [H,Val7]  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
 4    C  u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 16,
+    index = 20,
     label = "CH2(C=C)",
     group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
-2 *3 H  u0 {1,S}
-3    H  u0 {1,S}
+2 *3 [H,Val7]  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
 4    Cd u0 {1,S} {5,D}
 5    C  u0 {4,D}
 """,
@@ -231,12 +275,12 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 21,
     label = "CH(C)C",
     group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
-2 *3 H  u0 {1,S}
+2 *3 [H,Val7]  u0 {1,S}
 3    C  u0 {1,S}
 4    C  u0 {1,S}
 """,
@@ -244,12 +288,12 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 22,
     label = "CH=C",
     group = 
 """
 1 *2 Cd u0 {2,S} {3,D}
-2 *3 H  u0 {1,S}
+2 *3 [H,Val7]  u0 {1,S}
 3    C  u0 {1,D}
 """,
     kinetics = None,
@@ -269,6 +313,10 @@ L1: singletcarbene
         L3: CsJ2(CsC)
         L3: CsJ2(C=C)
 L1: CH
+    L2: CVal7
+        L3: CF
+        L3: CCl
+        L3: CBr
     L2: CdH2
     L2: CdHC
     L2: CH3
