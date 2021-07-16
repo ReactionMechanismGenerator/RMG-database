@@ -34,17 +34,17 @@ entry(
     label = "Birad",
     group = 
 """
-1 *2 R!H u2
+1 *2 R!H!Val7 u2
 """,
     kinetics = None,
 )
 
 entry(
     index = 2,
-    label = "H_rad",
+    label = "H/Val7_rad",
     group = 
 """
-1 *1 H u1
+1 *1 [H,Val7] u1
 """,
     kinetics = None,
 )
@@ -876,10 +876,32 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 71,
+    label = "Val7_rad",
+    group = 
+"""
+1 *1 Val7 u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 72,
+    label = "Hrad",
+    group = 
+"""
+1 *1 H u1
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Y_rad
-    L2: H_rad
+    L2: H/Val7_rad
+        L3: Val7_rad
+        L3: Hrad
     L2: Ct_rad
     L2: O_rad
         L3: O_pri_rad
