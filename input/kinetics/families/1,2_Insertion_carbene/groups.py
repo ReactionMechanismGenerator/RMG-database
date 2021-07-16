@@ -12,6 +12,11 @@ template(reactants=["carbene", "RR'"], products=["R_CO_R'"], ownReverse=False)
 reverse = "1,1_Elimination"
 
 reversible = True
+
+reactantNum = 2
+
+productNum = 1
+
 recipe(actions=[
     ['BREAK_BOND', '*2', 1, '*3'],
     ['FORM_BOND', '*1', 1, '*2'],
@@ -25,8 +30,8 @@ entry(
     group = 
 """
 1 *1 C2s u0 p1 {2,S} {3,S}
-2    H   u0 p0 {1,S}
-3    H   u0 p0 {1,S}
+2    [H,Val7]   u0 {1,S}
+3    [H,Val7]   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -34,7 +39,11 @@ entry(
 entry(
     index = 1,
     label = "RR'",
-    group = "OR{R_H, R_R'}",
+    group = 
+"""
+1 *2 [H,Val7,Cs,Cd,Cb,Ct,O,Sis,Sid,N,S] u0 {2,S}
+2 *3 [H,Val7,Cs,Cd,Cb,Ct,Sis,Sid,N,S] u0 {1,S}
+""",
     kinetics = None,
 )
 
@@ -43,8 +52,8 @@ entry(
     label = "R_H",
     group = 
 """
-1 *2 [H,Cs,Cd,Cb,Ct,O,Sis,Sid,N,S] u0 {2,S}
-2 *3 H                             u0 {1,S}
+1 *2 [H,Val7,Cs,Cd,Cb,Ct,O,Sis,Sid,N,S] u0 {2,S}
+2 *3 [H,Val7]                           u0 {1,S}
 """,
     kinetics = None,
 )
