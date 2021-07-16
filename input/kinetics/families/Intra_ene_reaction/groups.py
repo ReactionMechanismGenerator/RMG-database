@@ -10,6 +10,10 @@ longDesc = u"""
 template(reactants=["1_3_unsaturated_pentane_backbone"], products=["1_3_unsaturated_pentane_backbone"], ownReverse=True)
 
 reversible = True
+reactantNum = 1
+productNum = 1
+reverseMap = {'*1':'*2','*2':'*1','*3':'*5','*5':'*3'}
+
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*6'],
     ['FORM_BOND', '*2', 1, '*6'],
