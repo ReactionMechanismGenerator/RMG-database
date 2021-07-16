@@ -10,8 +10,10 @@ Reaction site *1 should always be a singlet in this family.
 template(reactants=["singletcarbene_CH"], products=["CH_C_unsaturated"], ownReverse=False)
 
 reverse = "SingletCarbenefromMultipleBond"
-
+reactantNum = 1
+productNum = 1
 reversible = True
+
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
     ['FORM_BOND', '*1', 1, '*3'],
