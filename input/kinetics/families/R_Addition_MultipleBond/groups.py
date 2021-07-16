@@ -11,6 +11,8 @@ template(reactants=["R_R", "YJ"], products=["RJ_R_Y"], ownReverse=False)
 
 reverse = "Beta_Scission"
 reversible = True
+reactantNum = 2
+productNum = 1
 
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
@@ -33,7 +35,10 @@ entry(
 entry(
     index = 1,
     label = "YJ",
-    group = "OR{HJ, Y_1centerquadrad, Y_1centertrirad, Y_1centerbirad, CJ, OJ, SJ, NJ}",
+    group =
+"""
+1 *3 R u[1,2,3,4]
+""",
     kinetics = None,
 )
 
@@ -17616,6 +17621,36 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1212,
+    label = "FJ",
+    group = 
+"""
+1 *3 F u1 p3
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1213,
+    label = "ClJ",
+    group = 
+"""
+1 *3 Cl u1 p3
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1214,
+    label = "BrJ",
+    group = 
+"""
+1 *3 Br u1 p3
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -18659,6 +18694,9 @@ L1: R_R
                 L5: Sd_Cds-C=SC=S
 L1: YJ
     L2: HJ
+    L2: FJ
+    L2: ClJ
+    L2: BrJ
     L2: Y_1centerquadrad
         L3: C_quintet
         L3: C_triplet
