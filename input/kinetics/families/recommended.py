@@ -96,6 +96,16 @@ surface = {
     'Surface_Adsorption_Dissociative_Double',
 }
 
+# reaction families for halogen chemistry only
+halogens = {
+    'Cl_Abstraction',
+    'F_Abstraction',
+    'Br_Abstraction',
+    'Disproportionation-Y',
+    'XY_Addition_MultipleBond',
+    '1,2_XY_interchange',
+}
+
 # Surface chemistry families that are under development and not yet working well.
 surface_development = {
     #'Surface_Adsorption_Double',
