@@ -19,6 +19,9 @@ template(reactants=["Y_rad_birad_trirad_quadrad", "HCO_HCS"], products=["Y_H", "
 reverse = "CO_Addition"
 
 reversible = True
+reactantNum = 2
+productNum = 2
+
 recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*3', 1, '*4'],
@@ -32,7 +35,10 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
+    group =
+"""
+1 *1 R u[1,2,3,4]
+""",
     kinetics = None,
 )
 
@@ -41,9 +47,9 @@ entry(
     label = "HCO_HCS",
     group = 
 """
-1 *3 C       u1 p0 c0 {2,S} {3,D}
-2 *4 H       u0 p0 c0 {1,S}
-3 *2 [O,S2d] u0 p2 c0 {1,D}
+1 *3 C        u1 p0 c0 {2,S} {3,D}
+2 *4 [H,Val7] u0 p[0,3] c0 {1,S}
+3 *2 [O,S2d]  u0 p2 c0 {1,D}
 """,
     kinetics = None,
 )
