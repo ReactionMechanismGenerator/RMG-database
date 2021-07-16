@@ -45,7 +45,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -56,7 +56,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,[S,D,T,B]}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,[S,D,T,B]} {4,S}
 4 *2 C   u0 {3,S} {5,D}
 5 *3 C   u0 {4,D}
@@ -70,7 +70,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,S} {4,S}
 4 *2 C   u0 {3,S} {5,D}
 5 *3 C   u0 {4,D}
@@ -84,7 +84,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,D}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cd  u0 {1,D} {4,S}
 4 *2 C   u0 {3,S} {5,D}
 5 *3 C   u0 {4,D}
@@ -98,7 +98,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,T}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Ct  u0 {1,T} {4,S}
 4 *2 C   u0 {3,S} {5,D}
 5 *3 C   u0 {4,D}
@@ -112,7 +112,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,B} {4,S}
 4 *2 C   u0 {3,S} {5,D}
 5 *3 C   u0 {4,D}
@@ -133,7 +133,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,S} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *2 C   u0 {4,S} {6,D}
@@ -148,7 +148,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,S} {4,D}
 4 *6 R!H u0 {3,D} {5,S}
 5 *2 C   u0 {4,S} {6,D}
@@ -163,7 +163,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,D}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cd  u0 {1,D} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *2 C   u0 {4,S} {6,D}
@@ -178,7 +178,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Ct  u0 {1,S} {4,T}
 4 *6 Ct  u0 {3,T} {5,S}
 5 *2 C   u0 {4,S} {6,D}
@@ -193,7 +193,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,T}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Ct  u0 {1,T} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *2 C   u0 {4,S} {6,D}
@@ -208,7 +208,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,S} {4,B}
 4 *6 Cb  u0 {3,B} {5,S}
 5 *2 C   u0 {4,S} {6,D}
@@ -223,7 +223,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,B} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *2 C   u0 {4,S} {6,D}
@@ -245,7 +245,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,[S,D,T,B]}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,[S,D,T,B]} {4,S}
 4 *6 R!H u0 {3,S} {5,[S,D,T,B]}
 5 *7 R!H u0 {4,[S,D,T,B]} {6,S}
@@ -261,7 +261,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,S} {4,S}
 4 *6 R!H u0 {3,S} {5,[S,D,T,B]}
 5 *7 R!H u0 {4,[S,D,T,B]} {6,S}
@@ -277,7 +277,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 R!H        u0 {1,S} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[S,D,T,B]}
 5 *7 [Cd,Ct,Cb] u0 {4,[S,D,T,B]} {6,S}
@@ -293,7 +293,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,S} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *7 R!H u0 {4,S} {6,S}
@@ -309,7 +309,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,D}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cd  u0 {1,D} {4,S}
 4 *6 R!H u0 {3,S} {5,[S,D,T,B]}
 5 *7 R!H u0 {4,[S,D,T,B]} {6,S}
@@ -325,7 +325,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,D}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cd  u0 {1,D} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *7 R!H u0 {4,S} {6,S}
@@ -341,7 +341,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,D}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Cd         u0 {1,D} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
 5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
@@ -357,7 +357,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,T}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Ct  u0 {1,T} {4,S}
 4 *6 R!H u0 {3,S} {5,[S,D,T,B]}
 5 *7 R!H u0 {4,[S,D,T,B]} {6,S}
@@ -373,7 +373,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,T}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Ct  u0 {1,T} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *7 R!H u0 {4,S} {6,S}
@@ -389,7 +389,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,T}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Ct         u0 {1,T} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
 5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
@@ -405,7 +405,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,B} {4,S}
 4 *6 R!H u0 {3,S} {5,[S,D,T,B]}
 5 *7 R!H u0 {4,[S,D,T,B]} {6,S}
@@ -421,7 +421,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,B} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *7 R!H u0 {4,S} {6,S}
@@ -437,7 +437,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,B}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Cb         u0 {1,B} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
 5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
@@ -453,7 +453,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
 4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
 5 *7 R!H        u0 {4,S} {6,S}
@@ -469,7 +469,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,S} {4,B}
 4 *6 Cbf u0 {3,B} {5,B}
 5 *7 Cb  u0 {4,B} {6,S}
@@ -485,7 +485,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cbf u0 {1,B} {4,B}
 4 *6 Cb  u0 {3,B} {5,S}
 5 *7 R!H u0 {4,S} {6,S}
@@ -508,7 +508,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,[S,D,T,B]}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,[S,D,T,B]} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,[S,D,T,B]}
@@ -525,7 +525,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,S} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,[S,D,T,B]}
@@ -542,7 +542,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,S} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,S}
@@ -559,7 +559,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 R!H        u0 {1,S} {4,S}
 4 *6 R!H        u0 {3,S} {5,S}
 5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
@@ -576,7 +576,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,D}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cd  u0 {1,D} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,[S,D,T,B]}
@@ -593,7 +593,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,D}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cd  u0 {1,D} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,S}
@@ -610,7 +610,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,D}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Cd         u0 {1,D} {4,S}
 4 *6 R!H        u0 {3,S} {5,S}
 5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
@@ -627,7 +627,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,T}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Ct  u0 {1,T} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,[S,D,T,B]}
@@ -644,7 +644,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,T}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Ct  u0 {1,T} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,S}
@@ -661,7 +661,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,T}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Ct         u0 {1,T} {4,S}
 4 *6 R!H        u0 {3,S} {5,S}
 5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
@@ -678,7 +678,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,B} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,[S,D,T,B]}
@@ -695,7 +695,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,B} {4,S}
 4 *6 R!H u0 {3,S} {5,S}
 5 *8 R!H u0 {4,S} {6,S}
@@ -712,7 +712,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,B}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Cb         u0 {1,B} {4,S}
 4 *6 R!H        u0 {3,S} {5,S}
 5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
@@ -729,7 +729,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,[S,D,T,B]}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 R!H        u0 {1,[S,D,T,B]} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
 5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
@@ -746,7 +746,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 R!H        u0 {1,S} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
 5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
@@ -763,7 +763,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,D}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Cd         u0 {1,D} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
 5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
@@ -780,7 +780,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,T}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Ct         u0 {1,T} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
 5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
@@ -797,7 +797,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,B}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Cb         u0 {1,B} {4,S}
 4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
 5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
@@ -814,7 +814,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
 4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
 5 *8 R!H        u0 {4,S} {6,[S,D,T,B]}
@@ -831,7 +831,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
 4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
 5 *8 R!H        u0 {4,S} {6,S}
@@ -848,7 +848,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
 4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
 5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
@@ -865,7 +865,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cbf u0 {1,B} {4,B}
 4 *6 Cb  u0 {3,B} {5,S}
 5 *8 R!H u0 {4,S} {6,[S,D,T,B]}
@@ -882,7 +882,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cbf u0 {1,B} {4,B}
 4 *6 Cb  u0 {3,B} {5,S}
 5 *8 R!H u0 {4,S} {6,S}
@@ -899,7 +899,7 @@ entry(
     group = 
 """
 1 *1 R!H        u0 {2,S} {3,B}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3 *5 Cbf        u0 {1,B} {4,B}
 4 *6 Cb         u0 {3,B} {5,S}
 5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
@@ -916,7 +916,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,[S,D,T,B]}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,[S,D,T,B]} {4,S}
 4 *6 Cb  u0 {3,S} {5,B}
 5 *8 Cbf u0 {4,B} {6,B}
@@ -933,7 +933,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 R!H u0 {1,S} {4,S}
 4 *6 Cb  u0 {3,S} {5,B}
 5 *8 Cbf u0 {4,B} {6,B}
@@ -950,7 +950,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,D}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cd  u0 {1,D} {4,S}
 4 *6 Cb  u0 {3,S} {5,B}
 5 *8 Cbf u0 {4,B} {6,B}
@@ -967,7 +967,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,T}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Ct  u0 {1,T} {4,S}
 4 *6 Cb  u0 {3,S} {5,B}
 5 *8 Cbf u0 {4,B} {6,B}
@@ -984,7 +984,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,B}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,B} {4,S}
 4 *6 Cb  u0 {3,S} {5,B}
 5 *8 Cbf u0 {4,B} {6,B}
@@ -1001,7 +1001,7 @@ entry(
     group = 
 """
 1 *1 R!H u0 {2,S} {3,S}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3 *5 Cb  u0 {1,S} {4,B}
 4 *6 Cbf u0 {3,B} {5,B}
 5 *8 Cb  u0 {4,B} {6,S}
@@ -1019,8 +1019,8 @@ entry(
 """
 1 *2 C u0 {2,D}
 2 *3 C u0 {1,D} {3,S} {4,S}
-3    H u0 {2,S}
-4    H u0 {2,S}
+3    [H,Val7] u0 {2,S}
+4    [H,Val7] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -1033,8 +1033,8 @@ entry(
 1 *2 C                u0 {2,D} {3,S}
 2 *3 C                u0 {1,D} {4,S} {5,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-4    H                u0 {2,S}
-5    H                u0 {2,S}
+4    [H,Val7]               u0 {2,S}
+5    [H,Val7]               u0 {2,S}
 """,
     kinetics = None,
 )
@@ -1047,8 +1047,8 @@ entry(
 1 *2 C        u0 {2,D} {3,S}
 2 *3 C        u0 {1,D} {4,S} {5,S}
 3    [Cs,O,S] u0 {1,S}
-4    H        u0 {2,S}
-5    H        u0 {2,S}
+4    [H,Val7]       u0 {2,S}
+5    [H,Val7]       u0 {2,S}
 """,
     kinetics = None,
 )
@@ -1060,9 +1060,9 @@ entry(
 """
 1 *2 C u0 {2,D} {3,S}
 2 *3 C u0 {1,D} {4,S} {5,S}
-3    H u0 {1,S}
-4    H u0 {2,S}
-5    H u0 {2,S}
+3    [H,Val7] u0 {1,S}
+4    [H,Val7] u0 {2,S}
+5    [H,Val7] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -1073,7 +1073,7 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S}
-2 *4 H  u0 {1,S}
+2 *4 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1084,7 +1084,7 @@ entry(
     group = 
 """
 1 *1 Cs         u0 {2,S} {3,S} {4,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3    [Cs,O,S2s] u0 {1,S}
 4    [Cs,O,S2s] u0 {1,S}
 """,
@@ -1097,7 +1097,7 @@ entry(
     group = 
 """
 1 *1 Cs               u0 {2,S} {3,S} {4,S}
-2 *4 H                u0 {1,S}
+2 *4 [H,Val7]               u0 {1,S}
 3    [Cs,O,S2s]       u0 {1,S}
 4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
@@ -1110,7 +1110,7 @@ entry(
     group = 
 """
 1 *1 Cs               u0 {2,S} {3,S} {4,S}
-2 *4 H                u0 {1,S}
+2 *4 [H,Val7]               u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
@@ -1123,8 +1123,8 @@ entry(
     group = 
 """
 1 *1 Cs u0 {2,S} {3,S}
-2 *4 H  u0 {1,S}
-3    H  u0 {1,S}
+2 *4 [H,Val7] u0 {1,S}
+3    [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1135,9 +1135,9 @@ entry(
     group = 
 """
 1 *1 Cs         u0 {2,S} {3,S} {4,S}
-2 *4 H          u0 {1,S}
+2 *4 [H,Val7]         u0 {1,S}
 3    [Cs,O,S2s] u0 {1,S}
-4    H          u0 {1,S}
+4    [H,Val7]         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1148,9 +1148,9 @@ entry(
     group = 
 """
 1 *1 Cs               u0 {2,S} {3,S} {4,S}
-2 *4 H                u0 {1,S}
+2 *4 [H,Val7]               u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-4    H                u0 {1,S}
+4    [H,Val7]               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1161,7 +1161,7 @@ entry(
     group = 
 """
 1 *1 O u0 {2,S}
-2 *4 H u0 {1,S}
+2 *4 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1172,7 +1172,7 @@ entry(
     group = 
 """
 1 *1 Cb u0 {2,S}
-2 *4 H  u0 {1,S}
+2 *4 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1183,7 +1183,7 @@ entry(
     group = 
 """
 1 *1 Cd u0 {2,S} {3,S}
-2 *4 H  u0 {1,S}
+2 *4 [H,Val7] u0 {1,S}
 3    R  u0 {1,S}
 """,
     kinetics = None,
@@ -1195,7 +1195,7 @@ entry(
     group = 
 """
 1 *1 Cd  u0 {2,S} {3,D}
-2 *4 H   u0 {1,S}
+2 *4 [H,Val7]  u0 {1,S}
 3    R!H u0 {1,D}
 """,
     kinetics = None,
@@ -1207,7 +1207,7 @@ entry(
     group = 
 """
 1 *1 CO u0 {2,S} {3,D}
-2 *4 H  u0 {1,S}
+2 *4 [H,Val7] u0 {1,S}
 3    O  u0 {1,D}
 """,
     kinetics = None,
@@ -1219,7 +1219,7 @@ entry(
     group = 
 """
 1 *1 Ct u0 {2,S}
-2 *4 H  u0 {1,S}
+2 *4 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1230,7 +1230,7 @@ entry(
     group = 
 """
 1 *1 CS u0 {2,S} {3,D}
-2 *4 H  u0 {1,S}
+2 *4 [H,Val7] u0 {1,S}
 3    S  u0 {1,D}
 """,
     kinetics = None,
