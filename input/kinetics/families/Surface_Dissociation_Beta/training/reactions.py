@@ -55,3 +55,81 @@ Erxn = 0.09 eV
 """,
     metal = "Cu",
 )
+entry(
+    index = 30,
+    label = "Cu + COH* <=> CO* + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(8.82294e+16,'m^2/(mol*s)'), n=0, Ea=(0.73658,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246OTgz""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/cathub/Cu
+Original entry: COHX + X <=> HX + COX
+equation : COH* -> CO* + H*
+dft_code : DACAPO
+dftFunctional : RPBE
+pubId: BehrensThe2012
+reactionEnergy: -1.38782 eV
+
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [C-]=[OH+] from Thermo library: DFT_QCI_thermo + radical(Cs_P) and S298=56.31 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Cu",
+    facet = "211",
+)
+
+entry(
+    index = 31,
+    label = "Cu + COH* <=> CO* + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(8.82294e+16,'m^2/(mol*s)'), n=0, Ea=(1.21464,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246NDA5Nw==""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/cathub/Rh
+Original entry: X + COHX <=> HX + COX
+equation : COH* + * -> CO* + H*
+dft_code : Quantum ESPRESSO 5.1
+dftFunctional : BEEF-vdW
+pubId: YangIntrinsic2016
+reactionEnergy: -0.733560028253 eV
+
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [C-]=[OH+] from Thermo library: DFT_QCI_thermo + radical(Cs_P) and S298=56.31 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Rh",
+    facet = "111",
+)
+
+entry(
+    index = 32,
+    label = "Cu + HCOH* <=> HCO* + H*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.16208e+17,'m^2/(mol*s)'), n=0, Ea=(0.833567,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246NDEyNw==""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/cathub/Rh
+Original entry: X + CHOHX <=> HX + CHOX
+equation : CHOH* + * -> CHO* + H*
+dft_code : Quantum ESPRESSO 5.1
+dftFunctional : BEEF-vdW
+pubId: YangIntrinsic2016
+reactionEnergy: -0.44748272351 eV
+
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH]O from Thermo library: DFT_QCI_thermo and S298=58.32 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Rh",
+    facet = "111",
+)
+
