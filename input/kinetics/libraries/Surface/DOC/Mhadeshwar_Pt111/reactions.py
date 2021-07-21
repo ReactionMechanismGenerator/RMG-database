@@ -50,6 +50,7 @@ This reaction is the least important ones for typical DOC conditions.
 #         Ea = (86, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(13.3, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Double""",
 #     longDesc = u"""
@@ -101,6 +102,7 @@ This is R3 in Appendix A
 #        Ea = (52.9, 'kcal/mol'),  
 #        Tmin = (200, 'K'),
 #        Tmax = (3000, 'K'),
+#        coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-26.6, 'kcal/mol')}},
 #    ),
 #    shortDesc = u"""O2 Surface_Adsorption_Dissociative""",
 #    longDesc = u"""
@@ -155,6 +157,7 @@ This is R5 in Appendix A
 #         Ea = (40, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(-8.3, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Double""",
 #     longDesc = u"""
@@ -316,6 +319,7 @@ This reaction is the least important ones for typical DOC conditions.
 #         Ea = (60.9, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'H_X': {'a':0.0, 'm':0.0, 'E':(-1.9, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Single""",
 #     longDesc = u"""
@@ -367,6 +371,7 @@ This is R13 in Appendix A
 #         Ea = (17.6, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'H_X': {'a':0.0, 'm':0.0, 'E':(-3.8, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""H2 Surface_Adsorption_Dissociative""",
 #     longDesc = u"""
@@ -470,6 +475,7 @@ This reaction is the least important ones for typical DOC conditions.
 #         Ea = (63, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-33, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Single""",
 #     longDesc = u"""
@@ -1190,6 +1196,7 @@ This is R43 in Appendix A
 #         Ea = (20.7, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'NH3_X': {'a':0.0, 'm':0.0, 'E':(-9.5, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_vdW""",
 #     longDesc = u"""
@@ -1842,6 +1849,8 @@ This is R67 in Appendix A
 #         Ea = (30.5, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'NO_X': {'a':0.0, 'm':0.0, 'E':(-8, 'kcal/mol')},
+#                                'O_X': {'a':0.0, 'm':0.0, 'E':(-16, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Single""",
 #     longDesc = u"""
