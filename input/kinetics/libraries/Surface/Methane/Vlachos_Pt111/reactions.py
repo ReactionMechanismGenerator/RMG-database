@@ -45,6 +45,7 @@ This is R1 in Table 1
 #         Ea = (50.9, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-32, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""O2 Surface_Adsorption_Dissociative""",
 #     longDesc = u"""
@@ -96,6 +97,7 @@ This is R3 in Table 1
 #         Ea = (85.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-16, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Double""",
 #     longDesc = u"""
@@ -144,6 +146,7 @@ This is R5 in Table 1
 #         Ea = (40, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(-15, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Double""",
 #     longDesc = u"""
@@ -294,6 +297,7 @@ This is R11 in Table 1
 #         Ea = (19.8, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'H_X': {'a':0.0, 'm':0.0, 'E':(-6, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""H2 Surface_Adsorption_Dissociative""",
 #     longDesc = u"""
@@ -507,6 +511,8 @@ This is R19 in Table 1
 #         Ea = (63.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-33, 'kcal/mol')}
+#                                'H2O_X': {'a':0.0, 'm':0.0, 'E':(25, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Single""",
 #     longDesc = u"""
@@ -555,6 +561,8 @@ This is R21 in Table 1
 #         Ea = (10, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'OH_X': {'a':0.0, 'm':0.0, 'E':(25, 'kcal/mol')}
+#                                'H2O_X': {'a':0.0, 'm':0.0, 'E':(-2.5, 'kcal/mol')}},        
 #     ),
 #     shortDesc = u"""Surface_Adsorption_vdW""",
 #     longDesc = u"""
@@ -603,6 +611,7 @@ This is R23 in Table 1
 #         Ea = (62.0, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'H_X': {'a':0.0, 'm':0.0, 'E':(-3, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Single""",
 #     longDesc = u"""
