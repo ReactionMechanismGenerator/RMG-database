@@ -67,3 +67,8 @@ OH_X
 H_X
 1 H u0 p0 c0 {2,S}
 2 X u0 p0 c0 {1,S}
+
+CO_X
+1 O u0 p2 c0 {2,D}
+2 C u0 p0 c0 {1,D} {3,D}
+3 X u0 p0 c0 {2,D}
