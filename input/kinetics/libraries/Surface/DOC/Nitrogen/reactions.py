@@ -59,6 +59,7 @@ entry(
 #         Ea = (113.9, 'kJ/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(-75, 'kJ/mol')}},
 #     ),
 #     shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
 #     longDesc = """
@@ -102,6 +103,7 @@ entry(
 #         Ea = (122.6, 'kJ/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-60, 'kJ/mol')}},
 #     ),
 #     shortDesc = u"""Nitrogen/51""",
 #     longDesc = """
@@ -239,6 +241,8 @@ entry(
 #         Ea = (111.3, 'kJ/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
+#         coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(75, 'kJ/mol')}
+#                                'O_X': {'a':0.0, 'm':0.0, 'E':(-60, 'kJ/mol')}},
 #     ),
 #     shortDesc = u"""""",
 #     longDesc = """
@@ -316,6 +320,7 @@ entry(
         Ea = (133, 'kJ/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
+        coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(75, 'kJ/mol')}},
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = """
