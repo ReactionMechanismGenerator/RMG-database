@@ -367,3 +367,129 @@ eErxn = 0.78
 """,
     metal = "Cu",
 )
+entry(
+    index = 17,
+    label = "X_4 + NH2_X <=> NHX_1 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(8.34e+19,'cm^2/(mol*s)'), n=0, Ea=(56929.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Duan_Ni111
+Original entry: NH2_X + X <=> NH_X + H_X
+"Ammonia decomposition on Fe(1 1 0), Co(1 1 1) and 
+Ni(1 1 1) surfaces: A density functional theory study"
+Duan et al. Journal of Molecular Catalysis A: Chemical 357 (2012) 81–86
+https://doi.org/10.1016/j.molcata.2012.01.023
+
+and
+
+"Structure sensitivity of ammonia decomposition 
+over Ni catalysts: A computational and experimental study"
+Duan et al. Fuel Processing Technology 108 (2013) 112–117
+https://doi.org/10.1016/j.fuproc.2012.05.030
+
+This reaction used RMG's surface site density of Ni111 = 3.148E-9(mol/cm^2) to calculate the A factor.
+A = k/exp(Ea/RT) = 1.03E8(1/s)/exp(-56929.1(J/mol)/8.314(J/mol/K)/873K) = 2.63E11/s
+  = (2.63E11/s)/3.148E-9(mol/cm^2) = 8.34E19cm^2/mol/s
+
+Ea = 0.59eV = 56929.1J/mol
+
+This is reaction 2 from Table 2
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 18,
+    label = "X_4 + NHX_2 <=> NX + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.46e+19,'cm^2/(mol*s)'), n=0, Ea=(107104,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Duan_Ni111
+Original entry: NH_X + X <=> N_X + H_X
+"Ammonia decomposition on Fe(1 1 0), Co(1 1 1) and 
+Ni(1 1 1) surfaces: A density functional theory study"
+Duan et al. Journal of Molecular Catalysis A: Chemical 357 (2012) 81–86
+https://doi.org/10.1016/j.molcata.2012.01.023
+
+and
+
+"Structure sensitivity of ammonia decomposition 
+over Ni catalysts: A computational and experimental study"
+Duan et al. Fuel Processing Technology 108 (2013) 112–117
+https://doi.org/10.1016/j.fuproc.2012.05.030
+
+This reaction used RMG's surface site density of Ni111 = 3.148E-9(mol/cm^2) to calculate the A factor.
+A = k/exp(-Ea/RT) = 3.02E4(1/s)/exp(-107103.9J/mol / 8.314(J/mol/K)/873K) =  7.74E10/s
+  = (7.74E10/s)/3.148E-9(mol/cm^2) = 2.46E19 cm^2/mol/s
+
+Ea = 1.11eV = 107103.9J/mol
+
+This is reaction 3 from Table 2
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 19,
+    label = "X_4 + NH2_X <=> NHX_1 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(2.31e+20,'cm^2/(mol*s)'), n=0, Ea=(86841,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Duan_Ni211
+Original entry: NH2_X + X <=> NH_X + H_X
+"Structure sensitivity of ammonia decomposition 
+over Ni catalysts: A computational and experimental study"
+Duan et al. Fuel Processing Technology 108 (2013) 112–117
+https://doi.org/10.1016/j.fuproc.2012.05.030
+
+This reaction used RMG's surface site density of Ni211 = 3.339E-9(mol/cm^2) to calculate the A factor.
+A = k/exp(-Ea/RT) = 4.91E6(1/s)/exp(-86841(J/mol)/8.314(J/mol/K)/873K) = 7.71E11/s
+  = (7.71E11/s)/3.339E-9(mol/cm^2) = 2.31E20 cm^2/mol/s
+
+Ea = 0.9eV = 86841J/mol
+
+This is reaction 2 from Table 2
+""",
+    metal = "Ni",
+    facet = "211",
+)
+
+entry(
+    index = 20,
+    label = "X_4 + NHX_2 <=> NX + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.36e+21,'cm^2/(mol*s)'), n=0, Ea=(100350,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Duan_Ni211
+Original entry: NH_X + X <=> N_X + H_X
+"Structure sensitivity of ammonia decomposition 
+over Ni catalysts: A computational and experimental study"
+Duan et al. Fuel Processing Technology 108 (2013) 112–117
+https://doi.org/10.1016/j.fuproc.2012.05.030
+
+This reaction used RMG's surface site density of Ni211 = 3.339E-9(mol/cm^2) to calculate the A factor.
+A = k/exp(-Ea/RT) = 1.11E7(1/s)/exp(-100349.6(J/mol)/8.314(J/mol/K)/873K) = 1.12E13/s
+  = (1.12E13/s)/3.339E-9(mol/cm^2) = 3.36E21 cm^2/mol/s
+
+Ea = 1.04eV = 100349.6J/mol
+
+This is reaction 3 from Table 2
+""",
+    metal = "Ni",
+    facet = "211",
+)
+

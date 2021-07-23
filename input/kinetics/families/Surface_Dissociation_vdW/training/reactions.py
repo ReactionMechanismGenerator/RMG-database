@@ -233,3 +233,66 @@ A factor from paper / surface site density of Cu
 """,
     metal = "Cu",
 )
+entry(
+    index = 11,
+    label = "X_4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(4.35e+15,'cm^2/(mol*s)'), n=0, Ea=(107104,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Duan_Ni111
+Original entry: NH3_X + X <=> NH2_X + H_X
+"Ammonia decomposition on Fe(1 1 0), Co(1 1 1) and 
+Ni(1 1 1) surfaces: A density functional theory study"
+Duan et al. Journal of Molecular Catalysis A: Chemical 357 (2012) 81–86
+https://doi.org/10.1016/j.molcata.2012.01.023
+
+and
+
+"Structure sensitivity of ammonia decomposition 
+over Ni catalysts: A computational and experimental study"
+Duan et al. Fuel Processing Technology 108 (2013) 112–117
+https://doi.org/10.1016/j.fuproc.2012.05.030
+
+This reaction used RMG's surface site density of Ni111 = 3.148E-9(mol/cm^2) to calculate the A factor.
+A = k/exp(-Ea/RT) = 5.35(1/s)/exp(-107103.9(J/mol)/8.314(J/mol/K)/873K) =  1.37E7/s
+  = (1.37E7/s)/3.148E-9(mol/cm^2) = 4.35E15 cm^2/mol/s
+
+Ea = 1.11eV = 107103.9J/mol
+
+This is reaction 1 from Table 2
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 12,
+    label = "X_4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(5.52e+19,'cm^2/(mol*s)'), n=0, Ea=(63683.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Duan_Ni211
+Original entry: NH3_X + X <=> NH2_X + H_X
+"Structure sensitivity of ammonia decomposition 
+over Ni catalysts: A computational and experimental study"
+Duan et al. Fuel Processing Technology 108 (2013) 112–117
+https://doi.org/10.1016/j.fuproc.2012.05.030
+
+This reaction used RMG's surface site density of Ni211 = 3.339E-9(mol/cm^2) to calculate the A factor.
+A = k/exp(-Ea/RT) = 2.85E7(1/s)/exp(-63683.4(J/mol)/8.314(J/mol/K)/873K) =  1.84E11/s
+  = (1.84E11/s)/3.339E-9(mol/cm^2) = 5.52E19 cm^2/mol/s
+
+Ea = 0.66eV = 63683.4J/mol
+
+This is reaction 1 from Table 2
+""",
+    metal = "Ni",
+    facet = "211",
+)
+
