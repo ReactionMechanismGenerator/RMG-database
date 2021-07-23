@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 48,
+    index = 1,
     label = "NO + Pt <=> NO_X",
     degeneracy = 1,
     kinetics = StickingCoefficient(

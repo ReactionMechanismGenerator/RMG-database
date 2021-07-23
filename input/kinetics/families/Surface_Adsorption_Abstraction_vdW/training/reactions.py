@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 43,
+    index = 1,
     label = "HCOOH* + HCO* <=> CH3O2* + CO*",
     kinetics = SurfaceArrhenius(
         A = (1.814e16, 'm^2/(mol*s)'),
@@ -32,7 +32,7 @@ Erxn = -0.68 eV
 )
 
 entry(
-    index = 44,
+    index = 2,
     label = "CH2O* + HCO* <=> CH3O* + CO*",
     kinetics = SurfaceArrhenius(
         A = (3.398e17, 'm^2/(mol*s)'),

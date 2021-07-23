@@ -53,7 +53,7 @@ entry(
 )
 
 # entry(
-#    index = 6,
+#    index = 3,
 #    label = "HX_4 + HOX_1 <=> H2O + Ni_3 + Ni_4",
 #    degeneracy = 1,
 #    kinetics = SurfaceArrhenius(

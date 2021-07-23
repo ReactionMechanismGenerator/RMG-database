@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 27,
+    index = 1,
     label = "CO* + H* <=> COH* + Cu",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -33,7 +33,7 @@ Erxn = 1.15 eV
 )
 
 entry(
-    index = 29,
+    index = 2,
     label = "HCO* + H* <=> HCOH* + Cu",
     degeneracy = 4,
     kinetics = SurfaceArrhenius(

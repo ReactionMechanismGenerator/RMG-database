@@ -8,9 +8,9 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 
-#reverse of 16, below
+#reverse of 2, below
 entry(
-    index = 34,
+    index = 1,
     label = "H2O* + O* <=> OH_2* + OH_4*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -30,10 +30,10 @@ entry(
 	  metal = "Ni",
 )
 
-# reverse of 34, above
+# reverse of 1, above
 # This entry is in reverse direction for family
 # entry(
-#     index = 16,
+#     index = 2,
 #     label = "OH_2* + OH_4* <=> H2O* + O*",
 #     degeneracy = 2,
 #     kinetics = SurfaceArrhenius(
@@ -56,7 +56,7 @@ entry(
 # )
 
 entry(
-    index = 21,
+    index = 3,
     label = "CH4* + O* <=> CH3* + OH_4*",
     degeneracy = 4,
     kinetics = SurfaceArrhenius(
@@ -77,7 +77,7 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 4,
     label = "OH_2* + HCO* <=> H2O* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -100,7 +100,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 41,
+    index = 5,
     label = "HCOO_1* + HCO* <=> HCOOH* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -123,7 +123,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 45,
+    index = 6,
     label = "CH3O* + HCO* <=> CH3OH* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -146,7 +146,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 46,
+    index = 7,
     label = "CH3O* + HCOO_5* <=> HCOOCH3* + O*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(

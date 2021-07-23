@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 12,
+    index = 1,
     label = "COOH* + OH* <=> CO2* + H2O*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(

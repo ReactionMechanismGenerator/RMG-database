@@ -51,7 +51,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 2,
     label = "CO2 + X <=> CO2X",
     kinetics = StickingCoefficient(
         A = 7.0E-6,
@@ -71,7 +71,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 3,
     label = "CH4 + X <=> CH4X",
     kinetics = StickingCoefficient(
         A = 8.0E-3,
