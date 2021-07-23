@@ -725,3 +725,55 @@ This is reaction 7 of TABLE VI.
     facet = "111",
 )
 
+entry(
+    index = 31,
+    label = "X_4 + NH2_X <=> NHX_1 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(1.52e+21,'cm^2/(mol*s)'), n=0, Ea=(62155,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
+Original entry: NH2_X + X <=> NH_X + H_X
+"Kinetic and mechanistic analysis of NH3 decomposition 
+on Ru(0001), Ru(111) and Ir(111) surfaces"
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
+DOI: 10.1039/d1na00015b
+
+This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
+A = 4.01E12(1/s)/2.630E-9(mol/cm^2) = 1.52E21 cm^2/(mol*s)
+Ea was calculated from A factor and k rate constant in Table 3
+
+This is R3 in Table 3
+""",
+    metal = "Ru",
+    facet = "0001",
+)
+
+entry(
+    index = 32,
+    label = "X_4 + NHX_2 <=> NX + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.71e+21,'cm^2/(mol*s)'), n=0, Ea=(99817.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
+Original entry: NH_X + X <=> N_X + H_X
+"Kinetic and mechanistic analysis of NH3 decomposition 
+on Ru(0001), Ru(111) and Ir(111) surfaces"
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
+DOI: 10.1039/d1na00015b
+
+This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
+A = 7.13E12(1/s)/2.630E-9(mol/cm^2) = 2.71E21 cm^2/(mol*s)
+Ea was calculated from A factor and k rate constant in Table 3
+
+This is R5 in Table 3
+""",
+    metal = "Ru",
+    facet = "0001",
+)
+

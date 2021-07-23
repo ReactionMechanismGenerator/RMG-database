@@ -51,3 +51,21 @@ H3N
 3    H u0 p0 c0 {1,S}
 4    H u0 p0 c0 {1,S}
 
+N2
+1 *1 N u0 p1 c0 {2,T}
+2    N u0 p1 c0 {1,T}
+
+N2X
+1 *1 N u0 p1 c0 {2,T}
+2    N u0 p1 c0 {1,T}
+3 *2 X u0 p0 c0
+
+H2X
+1 *1 H u0 p0 c0 {2,S}
+2    H u0 p0 c0 {1,S}
+3 *2 X u0 p0 c0
+
+H2
+1 *1 H u0 p0 c0 {2,S}
+2    H u0 p0 c0 {1,S}
+

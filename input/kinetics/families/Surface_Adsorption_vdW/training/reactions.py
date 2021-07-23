@@ -115,3 +115,75 @@ This is R1 in Table 3
     facet = "111",
 )
 
+entry(
+    index = 6,
+    label = "H3NX <=> H3N + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.29e+08,'1/s'), n=0, Ea=(72149.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
+Original entry: NH3_X <=> NH3 + X
+"Kinetic and mechanistic analysis of NH3 decomposition 
+on Ru(0001), Ru(111) and Ir(111) surfaces"
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
+DOI: 10.1039/d1na00015b
+
+Ea was calculated from A factor and k rate constant in Table 3
+
+This is D1 in Table 3
+""",
+    metal = "Ru",
+    facet = "0001",
+)
+
+entry(
+    index = 7,
+    label = "X + N2 <=> N2X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.29e+08,'cm^3/(mol*s)'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
+Original entry: N2 + X <=> N2_X
+"Kinetic and mechanistic analysis of NH3 decomposition 
+on Ru(0001), Ru(111) and Ir(111) surfaces"
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
+DOI: 10.1039/d1na00015b
+
+Ea was calculated from A factor and k rate constant in Table 3
+
+This is A2 in Table 3
+""",
+    metal = "Ru",
+    facet = "0001",
+)
+
+entry(
+    index = 8,
+    label = "H2X <=> H2 + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.29e+08,'1/s'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """H2 Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
+Original entry: H2_X <=> H2 + X
+"Kinetic and mechanistic analysis of NH3 decomposition 
+on Ru(0001), Ru(111) and Ir(111) surfaces"
+Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
+DOI: 10.1039/d1na00015b
+
+Ea was calculated from A factor and k rate constant in Table 3
+
+This is D3 in Table 3
+""",
+    metal = "Ru",
+    facet = "0001",
+)
+
