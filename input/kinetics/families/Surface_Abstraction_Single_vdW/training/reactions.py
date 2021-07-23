@@ -84,3 +84,28 @@ This is R6 in Table S2 and S4
     facet = "111",
 )
 
+entry(
+    index = 4,
+    label = "HOX + H3NX <=> H2NX + H2OX",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(3.11e+21,'cm^2/(mol*s)'), n=0, Ea=(80086.7,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
+Original entry: NH3_X + OH_X <=> NH2_X + H2O_X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
+A = 8.2E12(1/s)/2.634E-9(mol/cm^2) = 3.11E21 cm^2/(mol*s)
+Ea = 0.83eV = 80086.7J/mol
+
+This is R6 in Table S2 and S4
+""",
+    metal = "Pt",
+    facet = "211",
+)
+
