@@ -135,3 +135,18 @@ NX
 1 *1 N u0 p1 c0 {2,T}
 2 *3 X u0 p0 c0 {1,T}
 
+NOX
+1    O u0 p2 c0 {2,D}
+2 *2 N u0 p1 c0 {1,D} {3,S}
+3 *4 X u0 p0 c0 {2,S}
+
+N2OX
+1    O u0 p2 c0 {3,D}
+2 *1 N u0 p1 c0 {3,S} {4,D}
+3 *2 N u0 p1 c0 {1,D} {2,S}
+4 *3 X u0 p0 c0 {2,D}
+
+OX
+1 *1 O u0 p2 c0 {2,D}
+2 *3 X u0 p0 c0 {1,D}
+

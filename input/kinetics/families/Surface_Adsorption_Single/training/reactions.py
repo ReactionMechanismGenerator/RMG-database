@@ -73,3 +73,26 @@ This is L12 in Table 3
     facet = "111",
 )
 
+entry(
+    index = 4,
+    label = "NO_X <=> NO + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.6e+17,'1/s'), n=0, Ea=(184296,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
+Original entry: NO_X <=> NO + X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+Ea = 1.91eV = 184295.9J/mol
+
+This is R13 in Table S2 and S4
+""",
+    metal = "Pt",
+    facet = "111",
+)
+

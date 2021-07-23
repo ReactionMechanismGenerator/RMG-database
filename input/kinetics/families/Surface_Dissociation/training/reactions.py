@@ -777,3 +777,101 @@ This is R5 in Table 3
     facet = "0001",
 )
 
+entry(
+    index = 33,
+    label = "NOX + NX <=> N2OX + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.73e+20,'cm^2/(mol*s)'), n=0, Ea=(164998,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
+Original entry: N_X + NO_X <=> N2O_X + X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 4.3E12(1/s)/2.483E-9(mol/cm^2) = 1.73E21 cm^2/(mol*s)
+revised A from 1.73E21 to 1.73E20 based on the ammonia model
+
+Ea = 1.71eV = 164997.9J/mol
+
+This is R14 in Table S2 and S4
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 34,
+    label = "X_4 + NH2_X <=> NHX_1 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(3.45e+21,'cm^2/(mol*s)'), n=0, Ea=(131226,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
+Original entry: NH2_X + X <=> NH_X + H_X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+A factor is a mean value from other Pt111 libraries
+Ea = 1.36eV = 131226.4J/mol
+
+This is reaction (2) in Table S3
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 35,
+    label = "X_4 + NHX_2 <=> NX + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.63e+21,'cm^2/(mol*s)'), n=0, Ea=(134121,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
+Original entry: NH_X + X <=> N_X + H_X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+A factor is a mean value from other Pt111 libraries
+Ea = 1.39eV = 134121.1J/mol
+
+This is reaction (3) in Table S3
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 36,
+    label = "HX_5 + OX <=> HOX_1 + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.28e+21,'cm^2/(mol*s)'), n=0, Ea=(105174,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
+Original entry: H_X + O_X <=> OH_X + X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+
+A factor from CPOX/Deutschmann 
+Ea = 1.09eV = 105174.1J/mol
+
+This is reaction (4) in Table S3
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
