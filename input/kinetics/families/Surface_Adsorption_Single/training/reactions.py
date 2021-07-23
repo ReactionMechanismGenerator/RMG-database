@@ -119,3 +119,27 @@ This is R13 in Table S2 and S4
     facet = "211",
 )
 
+entry(
+    index = 6,
+    label = "NO_X <=> NO + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.6e+12,'1/s'), n=0, Ea=(221927,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd111
+Original entry: NO_X <=> NO + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+Ea = 2.3eV = 221927J/mol
+
+This is reaction (13) in Table S3
+""",
+    metal = "Pd",
+    facet = "111",
+)
+
