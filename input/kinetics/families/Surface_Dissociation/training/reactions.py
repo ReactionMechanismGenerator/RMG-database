@@ -1075,3 +1075,106 @@ This is reaction (4) in Table S5
     facet = "111",
 )
 
+entry(
+    index = 45,
+    label = "NOX + NX <=> N2OX + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.6e+20,'cm^2/(mol*s)'), n=0, Ea=(191050,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
+Original entry: N_X + NO_X <=> N2O_X + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+This reaction used RMG's surface site density of Pd211 = 2.688E-9(mol/cm^2) to calculate the A factor.
+A factor revised from 1.6E21 to A=1.6E20 base on the ammonia model
+Ea = 1.98eV = 191050.2J/mol
+
+This is reaction (14) in Table S2
+""",
+    metal = "Pd",
+    facet = "211",
+)
+
+entry(
+    index = 46,
+    label = "X_4 + NH2_X <=> NHX_1 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(3.19e+21,'cm^2/(mol*s)'), n=0, Ea=(152454,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
+Original entry: NH2_X + X <=> NH_X + H_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pd211
+
+Ea = 1.58eV = 152454.2J/mol
+
+This is reaction (2) in Table S4
+""",
+    metal = "Pd",
+    facet = "211",
+)
+
+entry(
+    index = 47,
+    label = "X_4 + NHX_2 <=> NX + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(3.35e+21,'cm^2/(mol*s)'), n=0, Ea=(118683,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
+Original entry: NH_X + X <=> N_X + H_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pd211
+
+Ea = 1.23eV = 118682.7J/mol
+
+This is reaction (3) in Table S4
+""",
+    metal = "Pd",
+    facet = "211",
+)
+
+entry(
+    index = 48,
+    label = "HX_5 + OX <=> HOX_1 + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.18e+21,'cm^2/(mol*s)'), n=0, Ea=(123507,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
+Original entry: H_X + O_X <=> OH_X + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pd211
+
+Ea = 1.28eV = 123507.2J/mol
+
+This is reaction (4) in Table S4
+""",
+    metal = "Pd",
+    facet = "211",
+)
+
