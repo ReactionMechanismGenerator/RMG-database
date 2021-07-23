@@ -362,3 +362,25 @@ The modified Arrhenius parameter is calculated from TABLE 4.
     facet = "111",
 )
 
+entry(
+    index = 16,
+    label = "X_4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(2.26e+20,'cm^2/(mol*s)'), n=0, Ea=(93000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Offermans_Pt111
+Original entry: NH3_X + X <=> NH2_X + H_X
+"Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
+Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
+https://doi.org/10.6100/IR630067
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A (at 300K)= 5.6E11(1/s)/2.483E-9(mol/cm^2) = 2.25E20 cm^2/(mol*s)
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
