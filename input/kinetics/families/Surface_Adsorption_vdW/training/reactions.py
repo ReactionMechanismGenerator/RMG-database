@@ -235,3 +235,27 @@ This is R2 in Table S2 and S4
     facet = "211",
 )
 
+entry(
+    index = 11,
+    label = "X + H3N <=> H3NX",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd111
+Original entry: NH3 + X <=> NH3_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+Scitcking coefficient from Schneider_Pt111
+
+This is reaction (2) in Table S3
+""",
+    metal = "Pd",
+    facet = "111",
+)
+

@@ -109,3 +109,28 @@ This is R6 in Table S2 and S4
     facet = "211",
 )
 
+entry(
+    index = 5,
+    label = "HOX + H3NX <=> H2NX + H2OX",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(1.93e+22,'cm^2/(mol*s)'), n=0, Ea=(44385.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_Single_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd111
+Original entry: NH3_X + OH_X <=> NH2_X + H2O_X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pd111
+Ea = 0.46eV = 44385.4J/mol
+
+This is reaction (6) in Table S3
+""",
+    metal = "Pd",
+    facet = "111",
+)
+
