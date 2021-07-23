@@ -135,6 +135,11 @@ NX
 1 *1 N u0 p1 c0 {2,T}
 2 *3 X u0 p0 c0 {1,T}
 
+NOX
+1    O u0 p2 c0 {2,D}
+2 *2 N u0 p1 c0 {1,D} {3,S}
+3 *4 X u0 p0 c0 {2,S}
+
 C3H7X
 1  *1 C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
 2     C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
@@ -147,6 +152,16 @@ C3H7X
 9     H u0 p0 c0 {3,S}
 10    H u0 p0 c0 {3,S}
 11 *3 X u0 p0 c0 {1,S}
+
+N2OX
+1    O u0 p2 c0 {3,D}
+2 *1 N u0 p1 c0 {3,S} {4,D}
+3 *2 N u0 p1 c0 {1,D} {2,S}
+4 *3 X u0 p0 c0 {2,D}
+
+OX
+1 *1 O u0 p2 c0 {2,D}
+2 *3 X u0 p0 c0 {1,D}
 
 C3H6X
 1     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
