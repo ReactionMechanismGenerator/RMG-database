@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 5,
+    index = 1,
     label = "H2O + X <=> H2OX",
     kinetics = StickingCoefficient(
         A = 1.0E-1,
@@ -29,7 +29,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 2,
     label = "CO2 + X <=> CO2X",
     kinetics = StickingCoefficient(
         A = 7.0E-6,
@@ -49,7 +49,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 3,
     label = "CH4 + X <=> CH4X",
     kinetics = StickingCoefficient(
         A = 8.0E-3,

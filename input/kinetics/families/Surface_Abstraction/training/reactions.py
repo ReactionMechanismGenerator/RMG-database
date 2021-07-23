@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 24,
+    index = 1,
     label = "CH2X_1 + HOX_3 <=> CH3X_4 + OX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -30,7 +30,7 @@ Catalysts, 2015, 5, 871-904. Reaction R24
 )
 
 entry(
-    index = 26,
+    index = 2,
     label = "CHX_1 + HOX_3 <=> CH2X_4 + OX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -52,7 +52,7 @@ Catalysts, 2015, 5, 871-904. Reaction R26
 
 #Delgado has this reaction as exothermic. However, our own thermo has this reaction as endothermic. removing and replacing with reverse direction, R28.
 #entry(
-#    index = 27,
+#    index = 3,
 #    label = "OX_5 + CHX_4 <=> HOX_3 + CX_1 ",
 #    degeneracy = 1,
 #    kinetics = SurfaceArrhenius(
@@ -73,7 +73,7 @@ Catalysts, 2015, 5, 871-904. Reaction R26
 #)
 
 entry(
-    index = 28,
+    index = 4,
     label = "HOX_3 + CX_1 <=> OX_5 + CHX_4 ",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -94,7 +94,7 @@ Catalysts, 2015, 5, 871-904. Reaction R28
 )
 
 entry(
-    index = 39,
+    index = 5,
     label = "O* + HCO* <=> OH* + CO*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(

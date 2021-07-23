@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 # entry(
-#     index = 11,
+#     index = 1,
 #     label = "COOH* + X_5 <=> CO2_2* + H*",
 #     degeneracy = 2,
 #     kinetics = SurfaceArrhenius(
@@ -34,7 +34,7 @@ training set for generating rate rules to populate this kinetics family.
 #reverse of 11
 # in the forward direction of family direction
 entry(
-    index = 45,
+    index = 2,
     label = "CO2_2* + H* <=> COOH* + X_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -55,7 +55,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 3,
     label = "CO2* + H* <=> HCOO* + X_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -78,7 +78,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 20,
+    index = 4,
     label = "HCOOH* + H* <=> CH3O2_2* + X_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -101,7 +101,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 23,
+    index = 5,
     label = "CH2O* + OH* <=> CH3O2* + X_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -126,7 +126,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 24,
+    index = 6,
     label = "CH2O* + H* <=> CH3O_1* + X_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -150,7 +150,7 @@ Erxn = -1.02 eV
 )
 
 entry(
-    index = 31,
+    index = 7,
     label = "CH2O_2* + H* <=> CH2OH* + X_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -174,7 +174,7 @@ Erxn = -0.06 eV
 )
 
 entry(
-    index = 47,
+    index = 8,
     label = "CH3O_5* + CH2O* <=> H2COOCH3* + X_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -198,7 +198,7 @@ Erxn = -0.78 eV
 )
 
 entry(
-    index = 48,
+    index = 9,
     label = "HCOOCH3* + H* <=> H2COOCH3_2* + X_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(

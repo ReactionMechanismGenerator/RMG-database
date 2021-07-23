@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
-    index = 7,
+    index = 1,
     label = "NH3_X + X_4 <=> NH2_X + H*",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
@@ -32,7 +32,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 2,
     label = "CH4* + X_4 <=> CH3* + H*",
     degeneracy = 4,
     kinetics = SurfaceArrhenius(
@@ -53,7 +53,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 3,
     label = "COOH* + H* <=> HCOOH* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -76,7 +76,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 14,
+    index = 4,
     label = "H2O* + X_4 <=> OH* + H*",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
@@ -98,9 +98,9 @@ A factor from paper / surface site density of Cu
     metal = "Cu",
 )
 
-#duplicate of 14
+#duplicate of 4
 # entry(
-#     index = 29,
+#     index = 5,
 #     label = "H2O* + X_4 <=> OH* + H*",
 #     kinetics = SurfaceArrhenius(
 #         A = (3.67E17, 'm^2/(mol*s)'),
@@ -120,7 +120,7 @@ A factor from paper / surface site density of Cu
 # )
 
 entry(
-    index = 19,
+    index = 6,
     label = "HCOO* + H* <=> HCOOH_1* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -143,7 +143,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 25,
+    index = 7,
     label = "CH3O* + H* <=> CH3OH_2* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -166,7 +166,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 30,
+    index = 8,
     label = "HCO* + H* <=> CH2O* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -189,7 +189,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 33,
+    index = 9,
     label = "CH2OH* + H* <=> CH3OH_1* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
@@ -212,7 +212,7 @@ A factor from paper / surface site density of Cu
 )
 
 entry(
-    index = 34,
+    index = 10,
     label = "HCOOH_2* + X_4 <=> HCO* + OH_2*",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
