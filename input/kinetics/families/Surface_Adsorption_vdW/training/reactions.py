@@ -91,3 +91,27 @@ Table 3, R1
     facet = "111",
 )
 
+entry(
+    index = 5,
+    label = "X + H3N <=> H3NX",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.79731, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Rebrov_Pt111
+Original entry: NH3 + X <=> NH3_X
+"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
+Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
+https://doi.org/10.1016/S1385-8947(02)00068-2
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = ((2e8 /atm)/(101325 Pa/atm)/s)*(2.483e-9(mol/cm^2))*sqrt(2*pi*(17(g/mol))*the molar gas constant*(298 kelvin))
+
+This is R1 in Table 3
+""",
+    metal = "Pt",
+    facet = "111",
+)
+

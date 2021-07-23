@@ -320,3 +320,97 @@ This is reaction 6a. of TABLE 5.
     facet = "111",
 )
 
+entry(
+    index = 14,
+    label = "O* + H3NX <=> H2NX + OH_4*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(6.85e+23,'cm^2/(mol*s)'), n=0, Ea=(157000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Rebrov_Pt111
+Original entry: NH3_X + O_X <=> NH2_X + OH_X
+"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
+Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
+https://doi.org/10.1016/S1385-8947(02)00068-2
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.7E15(1/s)/2.483E-9(mol/cm^2) = 6.85E23 cm^2/(mol*s)
+
+This is R5 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 15,
+    label = "O* + HNOX <=> NOX + OH_4*",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(8.05e+23,'cm^2/(mol*s)'), n=0, Ea=(118000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Rebrov_Pt111
+Original entry: NHO_X + O_X <=> NO_X + OH_X
+"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
+Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
+https://doi.org/10.1016/S1385-8947(02)00068-2
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 2E15(1/s)/2.483E-9(mol/cm^2) = 8.05E23 cm^2/(mol*s)
+
+This is R10 in Table 1, it's from ref[52] where metal = Pt100.
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 16,
+    label = "HNX-2 + OH_2* <=> H2O* + NX",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.03e+21,'cm^2/(mol*s)'), n=0, Ea=(46000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Rebrov_Pt111
+Original entry: NH_X + OH_X <=> N_X + H2O_X
+"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
+Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
+https://doi.org/10.1016/S1385-8947(02)00068-2
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1E13(1/s)/2.483E-9(mol/cm^2) = 4.03E21 cm^2/(mol*s)
+
+This is R16 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 17,
+    label = "O* + H2O* <=> OH_2* + OH_4*",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(4.03e+19,'cm^2/(mol*s)'), n=0, Ea=(52700,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Abstraction_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Rebrov_Pt111
+Original entry: O_X + H2O_X <=> OH_X + OH_X
+"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
+Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
+https://doi.org/10.1016/S1385-8947(02)00068-2
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1E11(1/s)/2.483E-9(mol/cm^2) = 4.03E19 cm^2/(mol*s)
+This is R18 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
