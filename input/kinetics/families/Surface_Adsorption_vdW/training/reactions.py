@@ -67,3 +67,27 @@ entry(
     Catalysts, 2015, 5, 871-904""",
 	metal = "Ni",
 )
+entry(
+    index = 4,
+    label = "H3NX <=> H3N + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.48e+09,'1/s'), n=0, Ea=(60900,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Kraehnert_Pt111
+Original entry: NH3_X <=> NH3 + X
+"Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
+Kraehnert et al.(2008) 
+Chemical Engineering Journal,137(2), 361-375
+https://doi.org/10.1016/j.cej.2007.05.005
+
+A = k/exp(-Ea/RT) = 2.17(1/s)/exp(-60900(J/mol)/8.314(J/mol/K)/658K) = 1.48E09 (1/s)
+
+Table 3, R1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+

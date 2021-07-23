@@ -1,6 +1,7 @@
 NO
-1 *1 N u1 p1 c0 {2,D}
-2    O u0 p2 c0 {1,D}
+multiplicity 2
+1    O u0 p2 c0 {2,D}
+2 *1 N u1 p1 c0 {1,D}
 
 X
 1 *2 X u0 p0 c0
@@ -9,3 +10,4 @@ NO_X
 1    O u0 p2 c0 {2,D}
 2 *1 N u0 p1 c0 {1,D} {3,S}
 3 *2 X u0 p0 c0 {2,S}
+
