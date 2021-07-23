@@ -10,7 +10,7 @@ training set for generating rate rules to populate this kinetics family.
 
 entry(
    index = 1,
-   label = "H2 + Ni_3 + Ni_4 <=> HX_3 + HX_4",
+   label = "H2 + X_3 + X_4 <=> HX_3 + HX_4",
    degeneracy = 2,
    kinetics = StickingCoefficient(
        A = 3e-2,
@@ -31,7 +31,7 @@ Catalysts, 2015, 5, 871-904
 
 entry(
    index = 2,
-   label = "H2 + Ni_3 + Ni_4 <=> HX_3 + HX_4",
+   label = "H2 + X_3 + X_4 <=> HX_3 + HX_4",
    degeneracy = 2,
    kinetics = StickingCoefficient(
        A = 0.046,
@@ -54,7 +54,7 @@ entry(
 
 # entry(
 #    index = 3,
-#    label = "HX_4 + HOX_1 <=> H2O + Ni_3 + Ni_4",
+#    label = "HX_4 + HOX_1 <=> H2O + X_3 + X_4",
 #    degeneracy = 1,
 #    kinetics = SurfaceArrhenius(
 #        A = (4.02e14, 'm^2/(mol*s)'),

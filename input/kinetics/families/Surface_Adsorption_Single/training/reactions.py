@@ -9,7 +9,7 @@ training set for generating rate rules to populate this kinetics family.
 """
 entry(
     index = 1,
-    label = "NO + Pt <=> NO_X",
+    label = "NO + X <=> NO_X",
     degeneracy = 1,
     kinetics = StickingCoefficient(
         A = 0.85,
