@@ -52,3 +52,24 @@ Table 3, R4
     facet = "111",
 )
 
+entry(
+    index = 3,
+    label = "NO_X <=> NO + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.5e+13,'1/s'), n=0, Ea=(143000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Rebrov_Pt111
+Original entry: NO_X <=> NO + X
+"Development of the kinetic model of platinum catalyzed ammonia oxidation in a microreactor"
+Rebrov et al. (2002). Chemical Engineering Journal, 90, 61–76.
+https://doi.org/10.1016/S1385-8947(02)00068-2
+
+This is L12 in Table 3
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
