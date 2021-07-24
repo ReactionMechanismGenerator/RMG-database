@@ -74,10 +74,52 @@ entry(
 #     """,
 #     metal = "Pt"
 # )
+entry(
+    index = 3,
+    label = "X_3 + X_4 + H2 <=> HX_3 + HX_4",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.773, n=0.9387, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """H2 Surface_Adsorption_Dissociative""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: H2 + X + X <=> H_X + H_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+This is R1 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 4,
+    label = "X_3 + X_4 + CH4 <=> CH3X_1 + HX_4",
+    degeneracy = 2.0,
+    kinetics = StickingCoefficient(A=0.572, n=0.7883, Ea=(14.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: CH4 + X + X <=> CH3_X + H_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+This is R55 in Table 4
+""",
+    metal = "Rh",
+)
+
 
 entry(
    index = 3,
-   label = "C2H6 + Ni_3 + Ni_4 <=> CH3X_1 + CH3X_2",
+   label = "C2H6 + X_3 + X_4 <=> CH3X_1 + CH3X_2",
    degeneracy = 2,
    kinetics = StickingCoefficient(
        A = 0.1,
@@ -104,7 +146,7 @@ entry(
 
 entry(
     index = 55,
-    label = "Ni_3 + Ni_4 + C2H6-2 <=> C2H5X + HX_4",
+    label = "X_3 + X_4 + C2H6-2 <=> C2H5X + HX_4",
     degeneracy = 3.0,
     kinetics = StickingCoefficient(
         A=0.1,
@@ -131,7 +173,7 @@ A is made up by Emily
 
 entry(
     index = 45,
-    label = "Ni_3 + Ni_4 + C3H8 <=> C2H5X + CH3X_2",
+    label = "X_3 + X_4 + C3H8 <=> C2H5X + CH3X_2",
     degeneracy = 2.0,
     kinetics = StickingCoefficient(
     A=0.1,

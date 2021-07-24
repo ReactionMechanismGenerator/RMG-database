@@ -1439,10 +1439,106 @@ Table S3. Reaction rate constant at different temperatures
     facet = "111",
 )
 
+entry(
+    index = 59,
+    label = "X_4 + HOCXO_1 <=> OCX_3 + HOX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.3e+20,'cm^2/(mol*s)'), n=-0.4123, Ea=(7.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: COOH_X + X <=> CO_X + OH_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 1.07E12(1/s)/2.49E-9(mol/cm^2) = 4.30E20 cm^2/(mol*s)
+
+This is R31 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 60,
+    label = "X_4 + CH3X_1 <=> CH2X_3 + HX_5",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(1e+19,'cm^2/(mol*s)'), n=0.0862, Ea=(12.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Dissociative""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: CH3_X + X <=> CH2_X + H_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 2.49E10(1/s)/2.49E-9(mol/cm^2) = 1.00E19 cm^2/(mol*s)
+
+This is R57 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 61,
+    label = "X_4 + CH2X_1 <=> CHX_3 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(2.21e+19,'cm^2/(mol*s)'), n=-0.1312, Ea=(21.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: CH2_X + X <=> CH_X + H_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 5.50E10(1/s)/2.49E-9(mol/cm^2) = 2.21E19 cm^2/(mol*s)
+
+This is R59 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 62,
+    label = "X_4 + CHX_1 <=> CX_3 + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.84e+21,'cm^2/(mol*s)'), n=-0.2464, Ea=(28.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: CH_X + X <=> C_X + H_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 4.58E12(1/s)/2.49E-9(mol/cm^2) = 1.84E21 cm^2/(mol*s)
+
+This is R61 in Table 4
+""",
+    metal = "Rh",
+)
+
 
 entry(
     index = 78,
-    label = "Ni_4 + C3H7X-2 <=> C3H6X-2 + HX_5",
+    label = "X_4 + C3H7X-2 <=> C3H6X-2 + HX_5",
     degeneracy = 2.0,
     kinetics = SurfaceArrhenius(A=(4.51174e+17,'m^2/(mol*s)'), n=0, Ea=(0.661272,'eV/molecule'), T0=(1,'K')),
     rank = 3,
@@ -1467,7 +1563,7 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
 
 entry(
     index = 79,
-    label = "Ni_4 + C3H7X <=> C3H6X + HX_5",
+    label = "X_4 + C3H7X <=> C3H6X + HX_5",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4.24607e+17,'m^2/(mol*s)'), n=0, Ea=(0.866629,'eV/molecule'), T0=(1,'K')),
     rank = 3,
@@ -1492,7 +1588,7 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
 
 entry(
     index = 81,
-    label = "Ni_4 + C3H6X-3 <=> C3H5X + HX_5",
+    label = "X_4 + C3H6X-3 <=> C3H5X + HX_5",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(4.832e+17,'m^2/(mol*s)'), n=0, Ea=(0.259606,'eV/molecule'), T0=(1,'K')),
     rank = 3,
@@ -1517,7 +1613,7 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
 
 entry(
     index = 88,
-    label = "Ni_4 + C2H4X-2 <=> C2H3X + HX_5",
+    label = "X_4 + C2H4X-2 <=> C2H3X + HX_5",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.38494e+17,'m^2/(mol*s)'), n=0, Ea=(0.269593,'eV/molecule'), T0=(1,'K')),
     rank = 3,
@@ -1542,7 +1638,7 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
 
 entry(
     index = 89,
-    label = "Ni_4 + C2H4X-3 <=> CHX_3 + CH3X",
+    label = "X_4 + C2H4X-3 <=> CHX_3 + CH3X",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.38494e+17,'m^2/(mol*s)'), n=0, Ea=(1.03948,'eV/molecule'), T0=(1,'K')),
     rank = 3,
@@ -1567,7 +1663,7 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
 
 entry(
     index = 90,
-    label = "Ni_4 + C2H3X-2 <=> CX_3 + CH3X",
+    label = "X_4 + C2H3X-2 <=> CX_3 + CH3X",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.76652e+17,'m^2/(mol*s)'), n=0, Ea=(2.33801,'eV/molecule'), T0=(1,'K')),
     rank = 3,
@@ -1592,7 +1688,7 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
 
 # entry(
 #     index = 231,
-#     label = "Ni_4 + C2H4X-3 <=> CHX_3 + CH3X",
+#     label = "X_4 + C2H4X-3 <=> CHX_3 + CH3X",
 #     degeneracy = 1.0,
 #     kinetics = SurfaceArrhenius(A=(1.38494e+17,'m^2/(mol*s)'), n=0, Ea=(2.07,'eV/molecule'), T0=(1,'K')),
 #     rank = 3,
