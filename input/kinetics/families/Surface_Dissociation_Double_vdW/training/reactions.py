@@ -100,3 +100,57 @@ This is R9 in Table 1
     facet = "111",
 )
 
+entry(
+    index = 5,
+    label = "X_4 + N2OX <=> O* + N2X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(9.12e+19,'cm^2/(mol*s)'), n=1.004, Ea=(63657,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_Double_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/DOC/Ishikawa_Rh111
+Original entry: N2O_X + X <=> N2_X + O_X
+"First-Principles Microkinetic Analysis of NO + CO Reactions on
+Rh(111) Surface toward Understanding NOx Reduction Pathways"
+Atsushi Ishikawa and Yoshitaka Tateyama
+J. Phys. Chem. C 2018, 122, 30, 17378–17388
+https://doi.org/10.1021/acs.jpcc.8b05906
+
+This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
+The modified Arrhenius parameters is calculed from 
+Table 2. Activation Energy (Ea) 
+and 
+Table S3. Reaction rate constant at different temperatures
+""",
+    metal = "Rh",
+    facet = "111",
+)
+
+entry(
+    index = 6,
+    label = "CO* + O* <=> CO2* + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.73e+20,'cm^2/(mol*s)'), n=1.001, Ea=(119598,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_Double_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/DOC/Ishikawa_Rh111
+Original entry: CO_X + O_X <=> CO2_X + X
+"First-Principles Microkinetic Analysis of NO + CO Reactions on
+Rh(111) Surface toward Understanding NOx Reduction Pathways"
+Atsushi Ishikawa and Yoshitaka Tateyama
+J. Phys. Chem. C 2018, 122, 30, 17378–17388
+https://doi.org/10.1021/acs.jpcc.8b05906
+
+This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
+The modified Arrhenius parameters is calculed from 
+Table 2. Activation Energy (Ea) 
+and 
+Table S3. Reaction rate constant at different temperatures
+""",
+    metal = "Rh",
+    facet = "111",
+)
+
