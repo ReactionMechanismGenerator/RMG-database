@@ -374,3 +374,25 @@ This is R21 in Table 4
     metal = "Rh",
 )
 
+entry(
+    index = 17,
+    label = "X + H3N <=> H3NX",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.00015, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Vlachos_Ru0001
+Original entry: NH3 + X <=> NH3_X
+"The role of adsorbate–adsorbate interactions in the rate controlling step 
+and the most abundant reaction intermediate of NH3 decomposition on Ru"
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+https://doi.org/10.1023/B:CATL.0000029523.22277.e1
+
+This is R11 in Table 2 (set A)
+""",
+    metal = "Ru",
+    facet = "0001",
+)
+

@@ -1535,3 +1535,69 @@ This is R61 in Table 4
     metal = "Rh",
 )
 
+entry(
+    index = 63,
+    label = "X_4 + NHX_2 <=> NX + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(
+        A=(7.22e+20,'cm^2/(mol*s)'),
+        n=0,
+        Ea=(5.3,'kcal/mol'),
+        T0=(1,'K'), Tmin=(200,'K'),
+        Tmax=(3000,'K'),
+        coverage_dependence = {'N_X': {'a':0.0, 'm':0.0, 'E':(15.5, 'kcal/mol')},
+                               'H_X': {'a':0.0, 'm':0.0, 'E':(1.0, 'kcal/mol')}}
+    ),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Vlachos_Ru0001
+Original entry: NH_X + X <=> N_X + H_X
+"The role of adsorbate–adsorbate interactions in the rate controlling step 
+and the most abundant reaction intermediate of NH3 decomposition on Ru"
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+https://doi.org/10.1023/B:CATL.0000029523.22277.e1
+
+This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
+A = 1.9E12(1/s)/2.630E-9(mol/cm^2) = 7.22E20 cm^2/(mol*s)
+
+This is R5 in Table 2 (set A)
+""",
+    metal = "Ru",
+    facet = "0001",
+)
+
+entry(
+    index = 64,
+    label = "X_4 + NH2_X <=> NHX_1 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(
+        A = (7.6e+20,'cm^2/(mol*s)'),
+        n = 0, 
+        Ea = (20.1,'kcal/mol'),
+        T0 = (1,'K'), 
+        Tmin=(200,'K'), 
+        Tmax=(3000,'K'),
+        coverage_dependence = {'H_X': {'a':0.0, 'm':0.0, 'E':(1.2, 'kcal/mol')}}
+    ),
+    rank = 3,
+    shortDesc = """Surface_Dissociation""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Vlachos_Ru0001
+Original entry: NH2_X + X <=> NH_X + H_X
+"The role of adsorbate–adsorbate interactions in the rate controlling step 
+and the most abundant reaction intermediate of NH3 decomposition on Ru"
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+https://doi.org/10.1023/B:CATL.0000029523.22277.e1
+
+This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
+A = 2E12(1/s)/2.630E-9(mol/cm^2) = 7.60E20 cm^2/(mol*s)
+
+This is R7 in Table 2 (set A)
+""",
+    metal = "Ru",
+    facet = "0001",
+)
+
