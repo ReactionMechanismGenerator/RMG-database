@@ -270,3 +270,32 @@ This is R7 in Table 1
     facet = "111",
 )
 
+entry(
+    index = 12,
+    label = "X + NO <=> NO_X",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.85, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = u"""Surface_Adsorption_Single""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+)
+
+entry(
+    index = 13,
+    label = "X + NO2 <=> NO2X",
+    degeneracy = 2.0,
+    kinetics = StickingCoefficient(A=0.9, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = u"""Surface_Adsorption_Single""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+)

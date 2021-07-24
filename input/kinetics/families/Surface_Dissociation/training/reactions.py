@@ -1601,3 +1601,26 @@ This is R7 in Table 2 (set A)
     facet = "0001",
 )
 
+entry(
+    index = 65,
+    label = "NOX + OX <=> NO2X + X_4",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(
+        A = (1.3e17, 'cm^2/(mol*s)'), 
+        n = 0.0,
+        Ea = (133, 'kJ/mol'),
+        T0=(1,'K'),   
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+        coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(75, 'kJ/mol')}},
+    ),
+    rank = 3,
+    shortDesc = u"""Surface_Dissociation""",
+    longDesc = """
+    Detailed surface reaction mechanism for Pt-catalyzed abatement of automotive exhaust gases
+    Deutschmann et al. (2009)
+    doi:10.1016/j.apcatb.2009.05.006
+    """,
+    metal = "Pt",
+)
+
