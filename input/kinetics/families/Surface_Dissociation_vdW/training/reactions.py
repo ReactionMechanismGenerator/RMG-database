@@ -741,3 +741,27 @@ This is reaction (5) in Table S4
     facet = "211",
 )
 
+entry(
+    index = 31,
+    label = "X_4 + H2O* <=> OH* + H*",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(2.31e+20,'cm^2/(mol*s)'), n=0.0281, Ea=(18.6,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: H2O_X + X <=> H_X + OH_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+Surface site density of Rh from the paper = 2.49E-9(mol/cm^2).
+A = 5.74E11(1/s)/2.49E-9(mol/cm^2) = 2.31E20 cm^2/(mol*s)
+
+This is R7 in Table 4
+""",
+    metal = "Rh",
+)
+

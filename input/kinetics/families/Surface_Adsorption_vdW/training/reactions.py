@@ -331,3 +331,45 @@ This is reaction (2) in Table S2
     facet = "211",
 )
 
+entry(
+    index = 15,
+    label = "X + H2O <=> H2OX",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.0772, n=1.4067, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: H2O + X <=> H2O_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+This is R13 in Table 4
+""",
+    metal = "Rh",
+)
+
+entry(
+    index = 16,
+    label = "X + CO2-2 <=> CO2X-2",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.367, n=-2.3294, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
+Original entry: CO2 + X <=> CO2_X
+"Steam and dry reforming of methane on Rh: Microkinetic analysis and hierarchy of kinetic models"
+Vlachos et al. (2008)
+Journal of Catalysis,259(2), 211-222, 0021-9517
+DOI: 10.1016/j.jcat.2008.08.008.D.G.
+
+This is R21 in Table 4
+""",
+    metal = "Rh",
+)
+

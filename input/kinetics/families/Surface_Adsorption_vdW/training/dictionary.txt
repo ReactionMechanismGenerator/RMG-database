@@ -69,3 +69,14 @@ H2
 1 *1 H u0 p0 c0 {2,S}
 2    H u0 p0 c0 {1,S}
 
+CO2-2
+1 *1 O u0 p2 c0 {3,D}
+2    O u0 p2 c0 {3,D}
+3    C u0 p0 c0 {1,D} {2,D}
+
+CO2X-2
+1 *1 O u0 p2 c0 {3,D}
+2    O u0 p2 c0 {3,D}
+3    C u0 p0 c0 {1,D} {2,D}
+4 *2 X u0 p0 c0
+
