@@ -196,3 +196,76 @@ This is reaction (13) in Table S3
     facet = "111",
 )
 
+entry(
+    index = 9,
+    label = "NO_X <=> NO + X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(2.6e+12,'1/s'), n=0, Ea=(270172,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh211
+Original entry: NO_X <=> NO + X
+"DFT and microkinetic comparison of Pt, Pd and Rh-catalyzed ammonia oxidation"
+Hanyu Ma, and William F.Schneider
+Journal of Catalysis 383 (2020) 322–330
+https://doi.org/10.1016/j.jcat.2020.01.029
+
+A factor from Schneider_Pt111 library and revise from 2.6E17 to 2.6E12 base on the model
+Ea = 2.8eV = 270172J/mol
+
+This is reaction (13) in Table S2
+""",
+    metal = "Rh",
+    facet = "211",
+)
+
+entry(
+    index = 10,
+    label = "X + NO <=> NO_X",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=1.4917e-06, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/DOC/Arevalo_Pt111
+Original entry: NO + X <=> NO_X
+"First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
+Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
+https://doi.org/10.1116/1.4903225
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = ((2.78E2/bar)/s)*(2.483E-9(mol/cm^2))*sqrt(2*pi*30(g/mol)*molar gas constant*298 kelvin)
+
+This is R3 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 11,
+    label = "X + NO2 <=> NO2X",
+    degeneracy = 2.0,
+    kinetics = StickingCoefficient(A=1.4884e-06, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/DOC/Arevalo_Pt111
+Original entry: NO2 + X  <=> NO2_X
+"First-principles study of nitric oxide oxidation on Pt(111) versus Pt overlayer on 3d transition metals"
+Ryan Lacdao Arevalo, Mary Clare Sison Escaño, and Hideaki Kasai. J. Vac. Sci. Technol. A 33, 021402 (2015)
+https://doi.org/10.1116/1.4903225
+
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = ((2.24E2/bar)/s)*(2.483E-9(mol/cm^2))*sqrt(2*pi*46(g/mol)*molar gas constant*298 kelvin)
+
+This is R7 in Table 1
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
