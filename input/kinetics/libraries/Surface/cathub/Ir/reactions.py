@@ -528,17 +528,10 @@ entry(
     index = 23,
     label = "H2O + X + X <=> HX + OHX",
     degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.679,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.712869,'eV/molecule'), T0=(1,'K'))]),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.712869,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTM4MQ==""",
     longDesc = 
 """
-equation : H2O(g) -> OH* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.262 eV
-
 equation : H2O(g) + 2.0* -> OH* + H*
 dft_code : Quantum ESPRESSO 5.1
 dftFunctional : BEEF-vdW

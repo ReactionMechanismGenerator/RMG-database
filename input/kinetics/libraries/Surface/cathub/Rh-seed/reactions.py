@@ -133,36 +133,36 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
     facet = "211",
 )
 
-entry(
-    index = 6,
-    label = "X + CHX <=> CX + HX",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.54179e+16,'m^2/(mol*s)'), n=0, Ea=(1.45798,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.54179e+16,'m^2/(mol*s)'), n=0, Ea=(1.35,'eV/molecule'), T0=(1,'K'))]),
-    shortDesc = """cathub_id:UmVhY3Rpb246NDEwNQ==""",
-    longDesc = 
-"""
-equation : CH* + * -> C* + H*
-dft_code : Quantum ESPRESSO 5.1
-dftFunctional : BEEF-vdW
-pubId: YangIntrinsic2016
-reactionEnergy: 0.459500019555 eV
+# entry(
+#     index = 6,
+#     label = "X + CHX <=> CX + HX",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.54179e+16,'m^2/(mol*s)'), n=0, Ea=(1.45798,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.54179e+16,'m^2/(mol*s)'), n=0, Ea=(1.35,'eV/molecule'), T0=(1,'K'))]),
+#     shortDesc = """cathub_id:UmVhY3Rpb246NDEwNQ==""",
+#     longDesc = 
+# """
+# equation : CH* + * -> C* + H*
+# dft_code : Quantum ESPRESSO 5.1
+# dftFunctional : BEEF-vdW
+# pubId: YangIntrinsic2016
+# reactionEnergy: 0.459500019555 eV
 
-equation : CH* -> C* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.424 eV
+# equation : CH* -> C* + H*
+# dft_code : DACAPO
+# dftFunctional : RPBE
+# pubId: WangUniversal2011
+# reactionEnergy: 0.424 eV
 
 
-A factor estimation:
-A factor estimate for dissociation
-A factor estimated from gas-phase smiles [CH] from Thermo library: DFT_QCI_thermo and S298=43.64 cal/mol/K
-A/=2.483e-5 mol/m^2 (Pt111 site density)
-""",
-    metal = "Rh",
-    facet = "111",
-)
+# A factor estimation:
+# A factor estimate for dissociation
+# A factor estimated from gas-phase smiles [CH] from Thermo library: DFT_QCI_thermo and S298=43.64 cal/mol/K
+# A/=2.483e-5 mol/m^2 (Pt111 site density)
+# """,
+#     metal = "Rh",
+#     facet = "111",
+# )
 
 entry(
     index = 7,
@@ -184,36 +184,36 @@ Could not determine reaction type estimating A = kb/298/h = 6.21e+12
     facet = "211",
 )
 
-entry(
-    index = 8,
-    label = "CH3X + X <=> HX + CH2X",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(3.43628e+16,'m^2/(mol*s)'), n=0, Ea=(0.6,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(3.43628e+16,'m^2/(mol*s)'), n=0, Ea=(0.606517,'eV/molecule'), T0=(1,'K'))]),
-    shortDesc = """cathub_id:UmVhY3Rpb246ODY5""",
-    longDesc = 
-"""
-equation : CH3* -> CH2* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.17 eV
+# entry(
+#     index = 8,
+#     label = "CH3X + X <=> HX + CH2X",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(3.43628e+16,'m^2/(mol*s)'), n=0, Ea=(0.6,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(3.43628e+16,'m^2/(mol*s)'), n=0, Ea=(0.606517,'eV/molecule'), T0=(1,'K'))]),
+#     shortDesc = """cathub_id:UmVhY3Rpb246ODY5""",
+#     longDesc = 
+# """
+# equation : CH3* -> CH2* + H*
+# dft_code : DACAPO
+# dftFunctional : RPBE
+# pubId: WangUniversal2011
+# reactionEnergy: 0.17 eV
 
-equation : CH3* + * -> CH2* + H*
-dft_code : Quantum ESPRESSO 5.1
-dftFunctional : BEEF-vdW
-pubId: SchumannSelectivity2018
-reactionEnergy: 0.179012545617 eV
+# equation : CH3* + * -> CH2* + H*
+# dft_code : Quantum ESPRESSO 5.1
+# dftFunctional : BEEF-vdW
+# pubId: SchumannSelectivity2018
+# reactionEnergy: 0.179012545617 eV
 
 
-A factor estimation:
-A factor estimate for dissociation
-A factor estimated from gas-phase smiles [CH3] from Thermo library: DFT_QCI_thermo and S298=46.44 cal/mol/K
-A/=2.483e-5 mol/m^2 (Pt111 site density)
-""",
-    metal = "Rh",
-    facet = "111",
-)
+# A factor estimation:
+# A factor estimate for dissociation
+# A factor estimated from gas-phase smiles [CH3] from Thermo library: DFT_QCI_thermo and S298=46.44 cal/mol/K
+# A/=2.483e-5 mol/m^2 (Pt111 site density)
+# """,
+#     metal = "Rh",
+#     facet = "111",
+# )
 
 entry(
     index = 9,
@@ -236,34 +236,34 @@ A/=(2.483e-5 mol/m^2)^2 (Pt111 site density)
     facet = "211",
 )
 
-entry(
-    index = 10,
-    label = "CH4 + X + X <=> HX + CH3X",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(1.08,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.884684,'eV/molecule'), T0=(1,'K'))]),
-    shortDesc = """cathub_id:UmVhY3Rpb246OTMz""",
-    longDesc = 
-"""
-equation : CH4(g) -> CH3* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.52 eV
+# entry(
+#     index = 10,
+#     label = "CH4 + X + X <=> HX + CH3X",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(1.08,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.884684,'eV/molecule'), T0=(1,'K'))]),
+#     shortDesc = """cathub_id:UmVhY3Rpb246OTMz""",
+#     longDesc = 
+# """
+# equation : CH4(g) -> CH3* + H*
+# dft_code : DACAPO
+# dftFunctional : RPBE
+# pubId: WangUniversal2011
+# reactionEnergy: 0.52 eV
 
-equation : CH4(g) + 2.0* -> CH3* + H*
-dft_code : Quantum ESPRESSO 5.1
-dftFunctional : BEEF-vdW
-pubId: SchumannSelectivity2018
-reactionEnergy: 0.303046392452 eV
+# equation : CH4(g) + 2.0* -> CH3* + H*
+# dft_code : Quantum ESPRESSO 5.1
+# dftFunctional : BEEF-vdW
+# pubId: SchumannSelectivity2018
+# reactionEnergy: 0.303046392452 eV
 
 
-Could not determine reaction type estimating A = kb/298/h = 6.21e+12
-A/=2.483e-5 mol/m^2 (Pt111 site density)
-""",
-    metal = "Rh",
-    facet = "111",
-)
+# Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+# A/=2.483e-5 mol/m^2 (Pt111 site density)
+# """,
+#     metal = "Rh",
+#     facet = "111",
+# )
 
 entry(
     index = 11,
@@ -394,34 +394,34 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
     facet = "211",
 )
 
-entry(
-    index = 17,
-    label = "H2O + X + X <=> HX + OHX",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.845,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.747743,'eV/molecule'), T0=(1,'K'))]),
-    shortDesc = """cathub_id:UmVhY3Rpb246MTM5MA==""",
-    longDesc = 
-"""
-equation : H2O(g) -> OH* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.111 eV
+# entry(
+#     index = 17,
+#     label = "H2O + X + X <=> HX + OHX",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.845,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.747743,'eV/molecule'), T0=(1,'K'))]),
+#     shortDesc = """cathub_id:UmVhY3Rpb246MTM5MA==""",
+#     longDesc = 
+# """
+# equation : H2O(g) -> OH* + H*
+# dft_code : DACAPO
+# dftFunctional : RPBE
+# pubId: WangUniversal2011
+# reactionEnergy: 0.111 eV
 
-equation : H2O(g) + 2.0* -> OH* + H*
-dft_code : Quantum ESPRESSO 5.1
-dftFunctional : BEEF-vdW
-pubId: SchumannSelectivity2018
-reactionEnergy: -0.11905627232 eV
+# equation : H2O(g) + 2.0* -> OH* + H*
+# dft_code : Quantum ESPRESSO 5.1
+# dftFunctional : BEEF-vdW
+# pubId: SchumannSelectivity2018
+# reactionEnergy: -0.11905627232 eV
 
 
-Could not determine reaction type estimating A = kb/298/h = 6.21e+12
-A/=2.483e-5 mol/m^2 (Pt111 site density)
-""",
-    metal = "Rh",
-    facet = "111",
-)
+# Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+# A/=2.483e-5 mol/m^2 (Pt111 site density)
+# """,
+#     metal = "Rh",
+#     facet = "111",
+# )
 
 entry(
     index = 18,

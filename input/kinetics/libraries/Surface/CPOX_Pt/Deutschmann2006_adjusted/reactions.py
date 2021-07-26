@@ -31,7 +31,7 @@ entry(
 	metal = "Pt",
 )
 
-#CFG: O2 is a special case: we need to treat it separately
+# CFG: O2 is a special case: we need to treat it separately
 # reverse of R10
 entry(
     index = 2,
@@ -129,20 +129,20 @@ entry(
 )
 
 #CFG: CO is a special case: we need to treat it separately
-# entry(
-#     index = 8,
-#     label = "CO + Pt <=> OCX",
-#     kinetics = StickingCoefficient(
-#         A = 8.4E-1,
-#         n = 0,
-#         Ea=(0, 'J/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Default""",
-#     longDesc = u"""R8""",
-# 	metal = "Pt",
-# )
+entry(
+    index = 8,
+    label = "CO + Pt <=> OCX",
+    kinetics = StickingCoefficient(
+        A = 8.4E-1,
+        n = 0,
+        Ea=(0, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Default""",
+    longDesc = u"""R8""",
+	metal = "Pt",
+)
 
 
 #endothermic - reverse of R1
@@ -197,22 +197,22 @@ entry(
 #)
 
 #endothermic - reverse of R8
-entry(
-   index = 12,
-   label = "OCX <=> CO + Pt",
-   kinetics = SurfaceArrhenius(
-       A=(1.0E11, '1/s'),
-       n = 0,
-       Ea=(169500.0, 'J/mol'),
-       Tmin = (200, 'K'),
-       Tmax = (3000, 'K'),
-       coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-33000, 'J/mol')}},
-   ),
-   shortDesc = u"""Default""",
-   longDesc = u"""R12. Ea raised from 146.0 to 169.5 kJ/mol to match
-   endothermicity of reaction.""",
-   metal = "Pt",
-)
+# entry(
+#    index = 12,
+#    label = "OCX <=> CO + Pt",
+#    kinetics = SurfaceArrhenius(
+#        A=(1.0E11, '1/s'),
+#        n = 0,
+#        Ea=(169500.0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-33000, 'J/mol')}},
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R12. Ea raised from 146.0 to 169.5 kJ/mol to match
+#    endothermicity of reaction.""",
+#    metal = "Pt",
+# )
 
 #endothermic - reverse of R7
 # entry(
