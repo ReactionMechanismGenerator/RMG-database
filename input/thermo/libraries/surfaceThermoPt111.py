@@ -1970,3 +1970,77 @@ entry(
     facet = "111",
 )
 
+entry(
+    index = 73,
+    label = "HOCO_ads",
+    molecule =  
+"""
+1 C u0 p0 {2,D} {3,S} {5,S}
+2 O u0 p2 {1,D}
+3 O u0 p2 {1,S} {4,S}
+4 H u0 p0 {3,S}
+5 X u0 p0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.31205276E-01, 2.52508528E-02, -3.15022526E-05, 2.06298002E-08, -5.50123141E-12, -5.25582617E+04, 3.92522783E+00], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[ 9.18932480E+00, -4.75778625E-03, 8.55195008E-06, -4.60796570E-09, 8.32851312E-13, -5.47208377E+04, -4.04538884E+01], Tmin=(1000,'K'), Tmax=(2000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (2000,'K'),
+    ),
+    longDesc =  u"""Based on DFT calculations by Bjarne Kreitz at TU Clausthal using VASP, exchange-correlation functional=RPBE, DFT-D3 method, spin-polarized, cutoff=400eV, 1/9 coverage,3x3 supercell, 1st order Methfessel-Paxton smearing 0.2eV, relaxed to 0.02eV/angstrom. For further information on the DFT calculations refer to Kreitz et al. 2021, DOI: 10.26434/chemrxiv.14376899.v1, 
+Thermochemistry properties derived according to the method used by Katrin Blondal""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 74,
+    label = "CO2_ads",
+    molecule =  
+"""
+1 O u0 p2 c0 {3,D}
+2 O u0 p2 c0 {3,D}
+3 C u0 p0 c0 {1,D} {2,D}
+4 X u0 p0 c0
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.58096845E+00, 1.17468964E-02, -1.42170308E-05, 9.80981628E-09, -2.87468487E-12, -4.79238099E+04, -3.62910971E+00 ], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[7.03246389E+00, -2.92948198E-03, 5.31879767E-06, -2.90644464E-09, 5.30630542E-13, -4.90510568E+04, -2.60830618E+01], Tmin=(1000,'K'), Tmax=(2000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (2000,'K'),
+    ),
+    longDesc =  u"""Based on DFT calculations by Bjarne Kreitz at TU Clausthal using VASP, exchange-correlation functional=RPBE, DFT-D3 method, spin-polarized, cutoff=400eV, 1/9 coverage,3x3 supercell, 1st order Methfessel-Paxton smearing 0.2eV, relaxed to 0.02eV/angstrom. For further information on the DFT calculations refer to Kreitz et al. 2021, DOI: 10.26434/chemrxiv.14376899.v1, 
+Thermochemistry properties derived according to the method used by Katrin Blondal""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 75,
+    label = "HCOO_ads",
+    molecule =  
+"""
+1 O u0 p2 c0 {3,D}
+2 O u0 p2 c0 {3,S} {5,S}
+3 C u0 p0 c0 {1,D} {2,S} {4,S}
+4 H u0 p0 c0 {3,S}
+5 X u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[1.70504373E+00, 1.90810850E-02, -1.55215727E-05, 5.10760993E-09, -1.85178262E-13, -4.62629143E+04, -7.53586361E+00], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[1.01687586E+01, -5.43626555E-03, 9.84407325E-06, -5.36890471E-09, 9.79326051E-13, -4.85369414E+04, -5.09655616E+01], Tmin=(1000,'K'), Tmax=(2000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (2000,'K'),
+    ),
+    longDesc =  u"""Based on DFT calculations by Bjarne Kreitz at TU Clausthal using VASP, exchange-correlation functional=RPBE, DFT-D3 method, spin-polarized, cutoff=400eV, 1/9 coverage,3x3 supercell, 1st order Methfessel-Paxton smearing 0.2eV, relaxed to 0.02eV/angstrom. For further information on the DFT calculations refer to Kreitz et al. 2021, DOI: 10.26434/chemrxiv.14376899.v1, 
+Thermochemistry properties derived according to the method used by Katrin Blondal""",
+    metal = "Pt",
+    facet = "111",
+)
+
