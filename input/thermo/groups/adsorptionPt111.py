@@ -3,6 +3,8 @@
 
 name = "Surface Adsorption Corrections Pt(111)"
 shortDesc = u"Surface adsorption Pt(111), Blondal 2018"
+metal = 'Pt'
+facet = '111'
 longDesc = u"""
 Changes due to adsorbing on a surface.
 Here, Pt(111)
@@ -35,9 +37,7 @@ but then it is identical with the R*vdW node, and the database tests
 do not like that. It should be OK, because things would check the
 tree in order, and if there *was* a bond it would match either
 R*bidentate or R*single_chemisorbed and thus not R*vdW.
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 #entry(
@@ -123,9 +123,7 @@ entry(
  RO-R
    :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -153,9 +151,7 @@ entry(
    O
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -184,9 +180,7 @@ entry(
  RO-OR
    :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -213,9 +207,7 @@ entry(
    O--O
    |  |
 ***** *****
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -244,9 +236,7 @@ entry(
    O
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -271,9 +261,7 @@ entry(
    O
    ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -303,9 +291,7 @@ entry(
    O
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -336,9 +322,7 @@ entry(
    O
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -366,9 +350,7 @@ entry(
  R2N-R
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -394,9 +376,7 @@ entry(
    NR2
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -422,9 +402,7 @@ entry(
      NR
     ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -449,9 +427,7 @@ entry(
     N
    |||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -481,9 +457,7 @@ entry(
  R2N-OR
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -510,9 +484,7 @@ entry(
   RN=O
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -540,9 +512,7 @@ entry(
  R-N-OR
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -570,9 +540,7 @@ entry(
    N
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -599,9 +567,7 @@ entry(
    N--O
   ||  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -630,9 +596,7 @@ entry(
    N
   ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -663,9 +627,7 @@ entry(
  R2N-NR2
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -693,9 +655,7 @@ entry(
  RN=NR
    :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 
@@ -752,9 +712,7 @@ entry(
  R-N-NR2
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -783,9 +741,7 @@ entry(
    N
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -815,9 +771,7 @@ entry(
    N
   ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -846,9 +800,7 @@ entry(
  RN--NR
   |  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -878,9 +830,7 @@ entry(
  R-N-CR3
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -910,9 +860,7 @@ entry(
    N
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -943,9 +891,7 @@ entry(
    N
   ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 ### Leads to AtomTypeError: Unable to determine atom type for atom O-, which has 3 single bonds, 0 double bonds to C, 0 double bonds to O, 0 double bonds to S, 0 triple bonds, 0 benzene bonds, 0 lone pairs, and 2 charge.
@@ -1001,9 +947,7 @@ entry(
    C
  ||||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1030,9 +974,7 @@ entry(
   C--C
   |  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1063,9 +1005,7 @@ entry(
 
 Because the C atom bonded to the surface only has one ligand
 not two, it is not a child of the C=*R2 node
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1096,9 +1036,7 @@ entry(
    C
   |||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1126,9 +1064,7 @@ entry(
    C
   |||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1157,9 +1093,7 @@ entry(
  R-C--C-R
   ||  ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1186,9 +1120,7 @@ entry(
  R-C-R
   ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1219,9 +1151,7 @@ entry(
  R2C--CR2
    |  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1248,9 +1178,7 @@ entry(
    CR3
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1283,9 +1211,7 @@ entry(
  R3C-CR3
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1315,9 +1241,7 @@ entry(
   R3C-R
      :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1344,9 +1268,7 @@ entry(
   C==N
  ||  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1375,9 +1297,7 @@ entry(
     C
    ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1407,9 +1327,7 @@ entry(
    C
   |||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 
@@ -1470,9 +1388,7 @@ entry(
    C
   |||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1502,9 +1418,7 @@ entry(
  R2C--CR
    |  ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1537,9 +1451,7 @@ entry(
  R-C-CR3
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1569,9 +1481,7 @@ entry(
  R2C=NR
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1603,9 +1513,7 @@ entry(
  R-C-NR2
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1633,9 +1541,7 @@ entry(
  R2C=O
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1666,9 +1572,7 @@ entry(
   R-C-OR
     |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1700,9 +1604,7 @@ entry(
  R3C-NR2
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1733,9 +1635,7 @@ entry(
  R3C-OR
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1763,9 +1663,7 @@ entry(
  RC--C
   |  ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1796,9 +1694,7 @@ entry(
    C-R
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1830,9 +1726,7 @@ entry(
    C-R
   ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1860,9 +1754,7 @@ entry(
  RC#N
    :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1892,9 +1784,7 @@ entry(
   C--N
  ||  ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1924,9 +1814,7 @@ entry(
    C-R
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1955,9 +1843,7 @@ entry(
  RC--NR
  ||  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -1988,9 +1874,7 @@ entry(
    C-R
   ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2019,9 +1903,7 @@ entry(
    C=O
    |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2051,9 +1933,7 @@ entry(
   C--O
  ||  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2083,9 +1963,7 @@ entry(
    C-R
   ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2138,9 +2016,7 @@ entry(
         H298=(-48.58, 'kcal/mol'),
         S298=(-38.17, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Average of C-*R3, N-*R2 and O-*R thermo. """,
-    metal = "Pt",
-    facet = "111",
+    shortDesc=u"""Average of C-*R3, N-*R2 and O-*R thermo. """
 )
 
 entry(
@@ -2214,9 +2090,7 @@ entry(
         H298=(-45.455, 'kcal/mol'),
         S298=(-43.39, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Average of C-*R2C-*R2, C=*RN-*R, C=*RO-* and N-*RN-*R thermo. """,
-    metal = "Pt",
-    facet = "111",
+    shortDesc=u"""Average of C-*R2C-*R2, C=*RN-*R, C=*RO-* and N-*RN-*R thermo. """
 )
 
 entry(
@@ -2233,9 +2107,7 @@ entry(
         H298=(-7.937, 'kcal/mol'),
         S298=(-20.48, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Average of (CR4)*, (NR3)* and (OR2)* thermo. """,
-    metal = "Pt",
-    facet = "111",
+    shortDesc=u"""Average of (CR4)*, (NR3)* and (OR2)* thermo. """
 )
 
 entry(
@@ -2249,9 +2121,7 @@ entry(
 4 O  u0 p2 c0 {2,[S,D]} {3,[S,D]}
 """,
     thermo=u'N=*O-*',
-    longDesc=u"""Is there really any way to do N*O* besides N=*O-* ?""",
-    metal = "Pt",
-    facet = "111",
+    longDesc=u"""Is there really any way to do N*O* besides N=*O-* ?"""
 )
 
 #entry(
@@ -2295,8 +2165,6 @@ entry(
 2 N  u0 p1 {1,T}
 """,
     thermo=u'N*',
-    metal = "Pt",
-    facet = "111",
 )
 entry(
     index = 80,
@@ -2311,8 +2179,6 @@ entry(
 """,
     thermo=u'(CR2CR)*',
     longDesc=u"""Perhaps should be an average?""",
-    metal = "Pt",
-    facet = "111",
 )
 
 entry(
@@ -2326,8 +2192,6 @@ entry(
 4 R   u0 {2,S}
 """,
     thermo=u'(CRN)*',
-    metal = "Pt",
-    facet = "111",
 )
 
 entry(
@@ -2341,9 +2205,7 @@ entry(
 4 R     u0 {2,S}
 """,
     thermo=u'(NRO)*',
-    longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?""",
-    metal = "Pt",
-    facet = "111",
+    longDesc=u"""Parent of (RN=O)* and (RN=NR)*. Should it be an average?"""
 )
 
 entry(
@@ -2371,9 +2233,7 @@ entry(
  RN--N
   |  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2402,9 +2262,7 @@ entry(
   RC#CR
     :
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2433,9 +2291,7 @@ entry(
  R2C--N
    |  ||
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2465,9 +2321,7 @@ entry(
  R2C--NR
    |  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2498,9 +2352,7 @@ entry(
 
 Because the C atom bonded to the surface only has one ligand
 not two, it is not a child of the C=*R2 node
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2530,9 +2382,7 @@ entry(
  R2C--O
    |  |
 ***********
-""",
-    metal = "Pt",
-    facet = "111",
+"""
 )
 
 entry(
@@ -2559,8 +2409,6 @@ entry(
     :
 ***********
 """,
-    metal = "Pt",
-    facet = "111",
 )
 
 
