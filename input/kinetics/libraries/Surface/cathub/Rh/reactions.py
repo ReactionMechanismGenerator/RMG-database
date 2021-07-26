@@ -438,8 +438,7 @@ entry(
     index = 19,
     label = "X + CHX <=> CX + HX",
     degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.54179e+16,'m^2/(mol*s)'), n=0, Ea=(1.45798,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.54179e+16,'m^2/(mol*s)'), n=0, Ea=(1.35,'eV/molecule'), T0=(1,'K'))]),
+    kinetics = SurfaceArrhenius(A=(2.54179e+16,'m^2/(mol*s)'), n=0, Ea=(1.45798,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246NDEwNQ==""",
     longDesc = 
 """
@@ -448,13 +447,6 @@ dft_code : Quantum ESPRESSO 5.1
 dftFunctional : BEEF-vdW
 pubId: YangIntrinsic2016
 reactionEnergy: 0.459500019555 eV
-
-equation : CH* -> C* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.424 eV
-
 
 A factor estimation:
 A factor estimate for dissociation
@@ -558,17 +550,10 @@ entry(
     index = 24,
     label = "CH3X + X <=> HX + CH2X",
     degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(3.43628e+16,'m^2/(mol*s)'), n=0, Ea=(0.6,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(3.43628e+16,'m^2/(mol*s)'), n=0, Ea=(0.606517,'eV/molecule'), T0=(1,'K'))]),
+    kinetics = SurfaceArrhenius(A=(3.43628e+16,'m^2/(mol*s)'), n=0, Ea=(0.606517,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246ODY5""",
     longDesc = 
 """
-equation : CH3* -> CH2* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.17 eV
-
 equation : CH3* + * -> CH2* + H*
 dft_code : Quantum ESPRESSO 5.1
 dftFunctional : BEEF-vdW
@@ -652,17 +637,10 @@ entry(
     index = 28,
     label = "CH4 + X + X <=> HX + CH3X",
     degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(1.08,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.884684,'eV/molecule'), T0=(1,'K'))]),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.884684,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246OTMz""",
     longDesc = 
 """
-equation : CH4(g) -> CH3* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.52 eV
-
 equation : CH4(g) + 2.0* -> CH3* + H*
 dft_code : Quantum ESPRESSO 5.1
 dftFunctional : BEEF-vdW
@@ -1312,17 +1290,10 @@ entry(
     index = 58,
     label = "H2O + X + X <=> HX + OHX",
     degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.845,'eV/molecule'), T0=(1,'K')), SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.747743,'eV/molecule'), T0=(1,'K'))]),
+    kinetics = SurfaceArrhenius(A=(2.50073e+17,'m^5/(mol^2*s)'), n=0, Ea=(0.747743,'eV/molecule'), T0=(1,'K')),
     shortDesc = """cathub_id:UmVhY3Rpb246MTM5MA==""",
     longDesc = 
 """
-equation : H2O(g) -> OH* + H*
-dft_code : DACAPO
-dftFunctional : RPBE
-pubId: WangUniversal2011
-reactionEnergy: 0.111 eV
-
 equation : H2O(g) + 2.0* -> OH* + H*
 dft_code : Quantum ESPRESSO 5.1
 dftFunctional : BEEF-vdW
