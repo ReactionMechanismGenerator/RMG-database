@@ -5,13 +5,71 @@ adjacency_list: |
   2 N u1 p1 c0 {1,D}
   3 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 60.31411551300998
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6543094924
+          - -0.0542584304
+          - -0.0
+        - - -0.4926921933
+          - 0.1517086258
+          - -0.0
+        - - -1.1313210941
+          - -0.6821513677
+          - 0.0
+      isotopes:
+      - 14
+      - 14
+      - 1
+      symbols:
+      - N
+      - N
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 60.04434781359226
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6543094924
+          - -0.0542584304
+          - -0.0
+        - - -0.4926921933
+          - 0.1517086258
+          - -0.0
+        - - -1.1313210941
+          - -0.6821513677
+          - 0.0
+      isotopes:
+      - 14
+      - 14
+      - 1
+      symbols:
+      - N
+      - N
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 49.630193056863575
+        value: 49.630193056863554
       class: ThermoData
     xyz_dict:
       coords:
@@ -108,7 +166,7 @@ label: Diazenyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 29.02142329463812
+  value: 29.021692679715375
 multiplicity: 2
 reference_data:
   ATcT:

@@ -15,13 +15,181 @@ adjacency_list: |
   13 H u0 p0 c0 {5,S}
   14 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 31.922456406726365
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8691564758
+          - -0.000343825
+          - 8.744e-07
+        - - 1.1331159723
+          - 1.190809944
+          - 8.29e-08
+        - - -0.2415474902
+          - 1.2058865646
+          - -9.28e-07
+        - - -1.0354397111
+          - 0.0003207409
+          - 1.14e-07
+        - - -0.2420532619
+          - -1.2054261592
+          - -9.265e-07
+        - - 1.1325318433
+          - -1.1910706289
+          - 7.44e-08
+        - - -2.4152751618
+          - 3.69776e-05
+          - -7.85e-08
+        - - 2.9529933984
+          - -0.0008424795
+          - 1.7842e-06
+        - - 1.6623688905
+          - 2.1425794757
+          - -1.719e-07
+        - - -0.7638129406
+          - 2.1596694994
+          - -1.9323e-06
+        - - -0.7647053918
+          - -2.1590657295
+          - -2.1096e-06
+        - - 1.6611186063
+          - -2.1432745349
+          - -1.693e-07
+        - - -2.9757410054
+          - 0.9287681554
+          - 3.4352e-06
+        - - -2.9751535552
+          - -0.9291160705
+          - 3.8867e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 29.605719900894734
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8691564758
+          - -0.000343825
+          - 8.744e-07
+        - - 1.1331159723
+          - 1.190809944
+          - 8.29e-08
+        - - -0.2415474902
+          - 1.2058865646
+          - -9.28e-07
+        - - -1.0354397111
+          - 0.0003207409
+          - 1.14e-07
+        - - -0.2420532619
+          - -1.2054261592
+          - -9.265e-07
+        - - 1.1325318433
+          - -1.1910706289
+          - 7.44e-08
+        - - -2.4152751618
+          - 3.69776e-05
+          - -7.85e-08
+        - - 2.9529933984
+          - -0.0008424795
+          - 1.7842e-06
+        - - 1.6623688905
+          - 2.1425794757
+          - -1.719e-07
+        - - -0.7638129406
+          - 2.1596694994
+          - -1.9323e-06
+        - - -0.7647053918
+          - -2.1590657295
+          - -2.1096e-06
+        - - 1.6611186063
+          - -2.1432745349
+          - -1.693e-07
+        - - -2.9757410054
+          - 0.9287681554
+          - 3.4352e-06
+        - - -2.9751535552
+          - -0.9291160705
+          - 3.8867e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 104.36600757016296
+        value: 104.36600757016292
       class: ThermoData
     xyz_dict:
       coords:
@@ -283,7 +451,7 @@ label: Benzylide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 91.13048838065595
+  value: 91.13028791345499
 multiplicity: 1
 reference_data:
   ATcT:

@@ -3,6 +3,54 @@ adjacency_list: |
   1 N u0 p1 c0 {2,T}
   2 N u0 p1 c0 {1,T}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.1434237135203179
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.54412348
+        - - 0.0
+          - 0.0
+          - -0.54412348
+      isotopes:
+      - 14
+      - 14
+      symbols:
+      - N
+      - N
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.3417705808371994
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.54412348
+        - - 0.0
+          - 0.0
+          - -0.54412348
+      isotopes:
+      - 14
+      - 14
+      symbols:
+      - N
+      - N
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -91,7 +139,7 @@ label: Dinitrogen
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 28.01348317215837
+  value: 28.013721590757427
 multiplicity: 1
 reference_data:
   ATcT:

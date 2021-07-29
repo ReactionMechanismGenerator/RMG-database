@@ -6,6 +6,74 @@ adjacency_list: |
   3 Cl u0 p3 c0 {4,S}
   4 C  u1 p0 c0 {1,S} {2,S} {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 15.380258799994758
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 3.15057e-05
+          - -0.0007803945
+          - 0.239127423
+        - - 1.4846082658
+          - -0.7874343462
+          - -0.0281473917
+        - - -0.05937467
+          - 1.6778395252
+          - -0.0281033824
+        - - -1.4252447154
+          - -0.8901297456
+          - -0.0281471399
+      isotopes:
+      - 12
+      - 35
+      - 35
+      - 35
+      symbols:
+      - C
+      - Cl
+      - Cl
+      - Cl
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 16.209095898965238
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 3.15057e-05
+          - -0.0007803945
+          - 0.239127423
+        - - 1.4846082658
+          - -0.7874343462
+          - -0.0281473917
+        - - -0.05937467
+          - 1.6778395252
+          - -0.0281033824
+        - - -1.4252447154
+          - -0.8901297456
+          - -0.0281471399
+      isotopes:
+      - 12
+      - 35
+      - 35
+      - 35
+      symbols:
+      - C
+      - Cl
+      - Cl
+      - Cl
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -124,7 +192,7 @@ label: Trichloromethyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 118.36970750161605
+  value: 118.36706627057335
 multiplicity: 2
 reference_data:
   ATcT:

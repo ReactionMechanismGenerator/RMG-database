@@ -6,6 +6,74 @@ adjacency_list: |
   3 C  u1 p0 c0 {1,S} {2,S} {4,S}
   4 H  u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 20.139912041505305
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0779204706
+          - -0.6766768236
+          - -0.0
+        - - -0.0075800572
+          - 0.1699025329
+          - -1.46213014
+        - - -0.0075800572
+          - 0.1699025329
+          - 1.46213014
+        - - -0.2098008787
+          - -1.7166251761
+          - -0.0
+      isotopes:
+      - 12
+      - 35
+      - 35
+      - 1
+      symbols:
+      - C
+      - Cl
+      - Cl
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 20.559039815903464
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0779204706
+          - -0.6766768236
+          - -0.0
+        - - -0.0075800572
+          - 0.1699025329
+          - -1.46213014
+        - - -0.0075800572
+          - 0.1699025329
+          - 1.46213014
+        - - -0.2098008787
+          - -1.7166251761
+          - -0.0
+      isotopes:
+      - 12
+      - 35
+      - 35
+      - 1
+      symbols:
+      - C
+      - Cl
+      - Cl
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -124,7 +192,7 @@ label: Dichloromethyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 83.92464548180938
+  value: 83.92289575937588
 multiplicity: 2
 reference_data:
   ATcT:

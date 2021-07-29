@@ -7,6 +7,94 @@ adjacency_list: |
   5 H u0 p0 c0 {3,S}
   6 H u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -83.769799532669
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.378156295
+        - - 0.0
+          - 0.0
+          - 0.064813605
+        - - 1.07503921
+          - 0.0
+          - -0.693381505
+        - - -1.07503921
+          - 0.0
+          - -0.693381505
+        - - 0.93687355
+          - 0.0
+          - 1.911523845
+        - - -0.93687355
+          - 0.0
+          - 1.911523845
+      isotopes:
+      - 12
+      - 12
+      - 19
+      - 19
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - F
+      - F
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -84.17918130022937
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.378156295
+        - - 0.0
+          - 0.0
+          - 0.064813605
+        - - 1.07503921
+          - 0.0
+          - -0.693381505
+        - - -1.07503921
+          - 0.0
+          - -0.693381505
+        - - 0.93687355
+          - 0.0
+          - 1.911523845
+        - - -0.93687355
+          - 0.0
+          - 1.911523845
+      isotopes:
+      - 12
+      - 12
+      - 19
+      - 19
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - F
+      - F
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -155,7 +243,7 @@ label: 1,1-Difluoroethene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 64.03409177942008
+  value: 64.03403450307694
 multiplicity: 1
 reference_data:
   ATcT:

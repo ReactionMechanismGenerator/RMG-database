@@ -5,6 +5,74 @@ adjacency_list: |
   3 H u0 p0 c0 {2,S}
   4 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 47.09330940238668
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4856898313
+        - - 0.0
+          - 0.0
+          - -0.7488910987
+        - - 0.92902259
+          - 0.0
+          - 1.1640493513
+        - - -0.92902259
+          - 0.0
+          - 1.1640493513
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 46.03676100342988
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4856898313
+        - - 0.0
+          - 0.0
+          - -0.7488910987
+        - - 0.92902259
+          - 0.0
+          - 1.1640493513
+        - - -0.92902259
+          - 0.0
+          - 1.1640493513
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -123,7 +191,7 @@ label: Methyleneamidogen anion
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 28.033322905795497
+  value: 28.03344444340166
 multiplicity: 1
 reference_data:
   ATcT:

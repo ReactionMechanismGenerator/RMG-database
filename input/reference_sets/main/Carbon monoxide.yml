@@ -3,6 +3,54 @@ adjacency_list: |
   1 C u0 p1 c-1 {2,T}
   2 O u0 p1 c+1 {1,T}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -27.587465032693256
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.6419460286
+        - - 0.0
+          - 0.0
+          - -0.4814595214
+      isotopes:
+      - 12
+      - 16
+      symbols:
+      - C
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -27.056367483196905
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.6419460286
+        - - 0.0
+          - 0.0
+          - -0.4814595214
+      isotopes:
+      - 12
+      - 16
+      symbols:
+      - C
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -91,7 +139,7 @@ label: Carbon monoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 28.010101539606868
+  value: 28.010041934957105
 multiplicity: 1
 reference_data:
   ATcT:

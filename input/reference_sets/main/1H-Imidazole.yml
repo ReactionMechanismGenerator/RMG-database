@@ -10,6 +10,124 @@ adjacency_list: |
   8 H u0 p0 c0 {4,S}
   9 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 33.33160709647649
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.9924762602
+          - 0.5169629815
+          - -0.0
+        - - -0.1066511929
+          - 1.2199842357
+          - 0.0
+        - - -1.1254387074
+          - 0.3022639047
+          - 0.0
+        - - -0.6266033429
+          - -0.965068951
+          - 0.0
+        - - 0.7362395633
+          - -0.8146696071
+          - -0.0
+        - - 1.9959744899
+          - 0.9145873933
+          - -0.0
+        - - -2.1602452794
+          - 0.6070716086
+          - 0.0
+        - - -1.1014251104
+          - -1.9315917277
+          - 0.0
+        - - 1.4159720477
+          - -1.5522172851
+          - -0.0
+      isotopes:
+      - 12
+      - 14
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 31.98449136643952
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.9924762602
+          - 0.5169629815
+          - -0.0
+        - - -0.1066511929
+          - 1.2199842357
+          - 0.0
+        - - -1.1254387074
+          - 0.3022639047
+          - 0.0
+        - - -0.6266033429
+          - -0.965068951
+          - 0.0
+        - - 0.7362395633
+          - -0.8146696071
+          - -0.0
+        - - 1.9959744899
+          - 0.9145873933
+          - -0.0
+        - - -2.1602452794
+          - 0.6070716086
+          - 0.0
+        - - -1.1014251104
+          - -1.9315917277
+          - 0.0
+        - - 1.4159720477
+          - -1.5522172851
+          - -0.0
+      isotopes:
+      - 12
+      - 14
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -203,7 +321,7 @@ label: 1H-Imidazole
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 68.07734688634781
+  value: 68.07753035691036
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -5,6 +5,74 @@ adjacency_list: |
   3 H u0 p0 c0 {1,S}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 143.67144662773885
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.68486e-05
+          - 2.405e-06
+          - 0.0693189045
+        - - 0.9415900298
+          - 0.0286029871
+          - -0.1848747499
+        - - -0.4460814383
+          - -0.8296427401
+          - -0.1848358848
+        - - -0.49564338
+          - 0.8010205132
+          - -0.1848406016
+      isotopes:
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 144.0165460581063
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.68486e-05
+          - 2.405e-06
+          - 0.0693189045
+        - - 0.9415900298
+          - 0.0286029871
+          - -0.1848747499
+        - - -0.4460814383
+          - -0.8296427401
+          - -0.1848358848
+        - - -0.49564338
+          - 0.8010205132
+          - -0.1848406016
+      isotopes:
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -79,7 +147,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 144.12094591953573
+        value: 144.1209459195357
       class: ThermoData
     xyz_dict:
       coords:
@@ -122,7 +190,7 @@ label: Oxonium
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 19.023220832289304
+  value: 19.023313731723896
 multiplicity: 1
 reference_data:
   ATcT:

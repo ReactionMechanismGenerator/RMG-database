@@ -107,7 +107,7 @@ label: Hypobromous acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 96.91134475678462
+  value: 96.91137572326281
 multiplicity: 1
 reference_data:
   ATcT:

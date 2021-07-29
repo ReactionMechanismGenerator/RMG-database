@@ -15,13 +15,181 @@ adjacency_list: |
   13 H u0 p0 c0 {6,S}
   14 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -75.07266976870677
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 9.52154e-05
+          - -1.3752432655
+          - -0.2906021927
+        - - -1.1624043732
+          - -0.733647315
+          - 0.191429177
+        - - -1.1624937775
+          - 0.7335027156
+          - -0.191418844
+        - - -8.06329e-05
+          - 1.3752690777
+          - 0.2905954333
+        - - 1.1624089943
+          - 0.733637349
+          - -0.1914410901
+        - - 1.1625032822
+          - -0.7335004167
+          - 0.1914515414
+        - - -1.2164020218
+          - -0.8284682397
+          - 1.285739301
+        - - -2.0180733192
+          - -1.2491506342
+          - -0.2474663892
+        - - -1.2164799292
+          - 0.828246175
+          - -1.285731594
+        - - -2.0182525013
+          - 1.2489036904
+          - 0.2474166942
+        - - 1.2162933576
+          - 0.8283477582
+          - -1.285760004
+        - - 2.0180848642
+          - 1.24918279
+          - 0.2473642744
+        - - 1.2164047638
+          - -0.8282755318
+          - 1.2857611606
+        - - 2.0182233716
+          - -1.2489465026
+          - -0.2473940739
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -75.972756780667
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 9.52154e-05
+          - -1.3752432655
+          - -0.2906021927
+        - - -1.1624043732
+          - -0.733647315
+          - 0.191429177
+        - - -1.1624937775
+          - 0.7335027156
+          - -0.191418844
+        - - -8.06329e-05
+          - 1.3752690777
+          - 0.2905954333
+        - - 1.1624089943
+          - 0.733637349
+          - -0.1914410901
+        - - 1.1625032822
+          - -0.7335004167
+          - 0.1914515414
+        - - -1.2164020218
+          - -0.8284682397
+          - 1.285739301
+        - - -2.0180733192
+          - -1.2491506342
+          - -0.2474663892
+        - - -1.2164799292
+          - 0.828246175
+          - -1.285731594
+        - - -2.0182525013
+          - 1.2489036904
+          - 0.2474166942
+        - - 1.2162933576
+          - 0.8283477582
+          - -1.285760004
+        - - 2.0180848642
+          - 1.24918279
+          - 0.2473642744
+        - - 1.2164047638
+          - -0.8282755318
+          - 1.2857611606
+        - - 2.0182233716
+          - -1.2489465026
+          - -0.2473940739
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -45.8353372879982
+        value: -45.835337287998136
       class: ThermoData
     xyz_dict:
       coords:
@@ -283,7 +451,7 @@ label: 1,4-Dioxane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 88.10512620856537
+  value: 88.1051355217919
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -5,6 +5,64 @@ adjacency_list: |
   2 O u0 p2 c0 {3,D}
   3 N u0 p1 c0 {1,S} {2,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 9.040623056579847
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.3177832417
+        - - -1.09055698
+          - -0.0
+          - -0.1390301683
+        - - 1.09055698
+          - 0.0
+          - -0.1390301683
+      isotopes:
+      - 14
+      - 16
+      - 16
+      symbols:
+      - N
+      - O
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 8.97219361677578
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.3177832417
+        - - -1.09055698
+          - -0.0
+          - -0.1390301683
+        - - 1.09055698
+          - 0.0
+          - -0.1390301683
+      isotopes:
+      - 14
+      - 16
+      - 16
+      symbols:
+      - N
+      - O
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -108,7 +166,7 @@ label: Nitrogen dioxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 46.0055425157793
+  value: 46.005661725078824
 multiplicity: 2
 reference_data:
   ATcT:

@@ -11,6 +11,134 @@ adjacency_list: |
   9  H u0 p0 c0 {4,S}
   10 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 10.243276368516318
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.7715826758
+          - -0.2876349111
+          - 0.1768561348
+        - - -0.5048570339
+          - 0.1567595172
+          - -0.5026825195
+        - - 1.0742862302
+          - -0.5271651761
+          - 0.0565481215
+        - - 0.3884339216
+          - 1.1378868825
+          - 0.1506783917
+        - - -1.6231899577
+          - -0.366493035
+          - 1.254732108
+        - - -2.5723046166
+          - 0.4320744144
+          - -0.0144690723
+        - - -2.0961494063
+          - -1.260743719
+          - -0.1935159049
+        - - -0.568362321
+          - 0.2325484229
+          - -1.5835660309
+        - - 0.8810751007
+          - 1.8821382145
+          - -0.4628845495
+        - - 0.1183862463
+          - 1.4730495889
+          - 1.1458214638
+      isotopes:
+      - 12
+      - 12
+      - 32
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - S
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 10.19861142497898
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.7715826758
+          - -0.2876349111
+          - 0.1768561348
+        - - -0.5048570339
+          - 0.1567595172
+          - -0.5026825195
+        - - 1.0742862302
+          - -0.5271651761
+          - 0.0565481215
+        - - 0.3884339216
+          - 1.1378868825
+          - 0.1506783917
+        - - -1.6231899577
+          - -0.366493035
+          - 1.254732108
+        - - -2.5723046166
+          - 0.4320744144
+          - -0.0144690723
+        - - -2.0961494063
+          - -1.260743719
+          - -0.1935159049
+        - - -0.568362321
+          - 0.2325484229
+          - -1.5835660309
+        - - 0.8810751007
+          - 1.8821382145
+          - -0.4628845495
+        - - 0.1183862463
+          - 1.4730495889
+          - 1.1458214638
+      isotopes:
+      - 12
+      - 12
+      - 32
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - S
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -219,7 +347,7 @@ label: Methylthiirane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 74.14474702828466
+  value: 74.15225302320307
 multiplicity: 1
 reference_data:
   CCCBDB:

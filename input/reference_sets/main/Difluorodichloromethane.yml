@@ -6,6 +6,84 @@ adjacency_list: |
   4 F  u0 p3 c0 {5,S}
   5 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -120.77480685413663
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - -0.3379924997
+        - - 0.0
+          - 1.07478301
+          - -1.1189381397
+        - - 0.0
+          - -1.07478301
+          - -1.1189381397
+        - - -1.45431195
+          - 0.0
+          - 0.6520247503
+        - - 1.45431195
+          - -0.0
+          - 0.6520247503
+      isotopes:
+      - 12
+      - 19
+      - 19
+      - 35
+      - 35
+      symbols:
+      - C
+      - F
+      - F
+      - Cl
+      - Cl
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -119.82606285889325
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - -0.3379924997
+        - - 0.0
+          - 1.07478301
+          - -1.1189381397
+        - - 0.0
+          - -1.07478301
+          - -1.1189381397
+        - - -1.45431195
+          - 0.0
+          - 0.6520247503
+        - - 1.45431195
+          - -0.0
+          - 0.6520247503
+      isotopes:
+      - 12
+      - 19
+      - 19
+      - 35
+      - 35
+      symbols:
+      - C
+      - F
+      - F
+      - Cl
+      - Cl
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -139,7 +217,7 @@ label: Difluorodichloromethane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 120.91351474427658
+  value: 120.91173405536486
 multiplicity: 1
 reference_data:
   ATcT:

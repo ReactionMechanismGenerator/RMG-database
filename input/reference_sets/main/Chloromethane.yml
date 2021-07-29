@@ -6,6 +6,84 @@ adjacency_list: |
   4 H  u0 p0 c0 {2,S}
   5 H  u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -20.075158363649155
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.1210193547
+          - 1.6726e-06
+          - -0.0001726113
+        - - 0.6547408772
+          - -9.639e-07
+          - -1.46643e-05
+        - - -1.4684281276
+          - 0.8937464792
+          - -0.5112538959
+        - - -1.468466578
+          - -0.8902706425
+          - -0.5172632158
+        - - -1.4675840787
+          - -0.0034694866
+          - 1.0298020732
+      isotopes:
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -19.947140971732257
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.1210193547
+          - 1.6726e-06
+          - -0.0001726113
+        - - 0.6547408772
+          - -9.639e-07
+          - -1.46643e-05
+        - - -1.4684281276
+          - 0.8937464792
+          - -0.5112538959
+        - - -1.468466578
+          - -0.8902706425
+          - -0.5172632158
+        - - -1.4675840787
+          - -0.0034694866
+          - 1.0298020732
+      isotopes:
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -139,7 +217,7 @@ label: Chloromethane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 50.487523584482474
+  value: 50.48669633713633
 multiplicity: 1
 reference_data:
   ATcT:

@@ -17,13 +17,201 @@ adjacency_list: |
   15 H u0 p0 c0 {1,S}
   16 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -21.91867065818262
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.7195635031
+          - -0.7844798037
+          - 0.0054699393
+        - - -0.4606295285
+          - 0.00417652
+          - -0.3402284621
+        - - -0.5870766256
+          - 1.4565186049
+          - 0.106366128
+        - - 0.76998334
+          - -0.6797904505
+          - 0.2694837901
+        - - 2.0723523111
+          - -0.1192963748
+          - -0.0524841252
+        - - -1.6509597385
+          - -1.8181701345
+          - -0.3413948594
+        - - -2.6069332925
+          - -0.3379422546
+          - -0.447726797
+        - - -1.8776993187
+          - -0.8073566333
+          - 1.0879951683
+        - - -0.3366597259
+          - -0.0090636616
+          - -1.4313508995
+        - - -1.4641845468
+          - 1.9304119155
+          - -0.3390595485
+        - - -0.6933814278
+          - 1.5193999142
+          - 1.1941104459
+        - - 0.2837988055
+          - 2.0494311278
+          - -0.1809793082
+        - - 0.7743214261
+          - -1.7307113328
+          - -0.0366316968
+        - - 0.6674962171
+          - -0.6839659427
+          - 1.360776172
+        - - 2.1703209305
+          - 0.8193523157
+          - 0.308787144
+        - - 2.2111323963
+          - -0.0748599142
+          - -1.0536853169
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -22.924723079036525
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.7195635031
+          - -0.7844798037
+          - 0.0054699393
+        - - -0.4606295285
+          - 0.00417652
+          - -0.3402284621
+        - - -0.5870766256
+          - 1.4565186049
+          - 0.106366128
+        - - 0.76998334
+          - -0.6797904505
+          - 0.2694837901
+        - - 2.0723523111
+          - -0.1192963748
+          - -0.0524841252
+        - - -1.6509597385
+          - -1.8181701345
+          - -0.3413948594
+        - - -2.6069332925
+          - -0.3379422546
+          - -0.447726797
+        - - -1.8776993187
+          - -0.8073566333
+          - 1.0879951683
+        - - -0.3366597259
+          - -0.0090636616
+          - -1.4313508995
+        - - -1.4641845468
+          - 1.9304119155
+          - -0.3390595485
+        - - -0.6933814278
+          - 1.5193999142
+          - 1.1941104459
+        - - 0.2837988055
+          - 2.0494311278
+          - -0.1809793082
+        - - 0.7743214261
+          - -1.7307113328
+          - -0.0366316968
+        - - 0.6674962171
+          - -0.6839659427
+          - 1.360776172
+        - - 2.1703209305
+          - 0.8193523157
+          - 0.308787144
+        - - 2.2111323963
+          - -0.0748599142
+          - -1.0536853169
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -6.3315454991330276
+        value: -6.331545499133023
       class: ThermoData
     xyz_dict:
       coords:
@@ -315,7 +503,7 @@ label: 2-Methyl-1-propanamine
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 73.13688723238369
+  value: 73.13710865434435
 multiplicity: 1
 reference_data:
   CCCBDB:

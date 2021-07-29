@@ -5,6 +5,74 @@ adjacency_list: |
   3 O u0 p2 c0 {4,D}
   4 N u0 p0 c+1 {1,S} {2,S} {3,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -71.8449803750259
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0788076653
+          - 0.6234546563
+          - -0.0
+        - - -2.991e-06
+          - 4.08728e-05
+          - -0.0
+        - - -1.0794066793
+          - 0.6224142392
+          - -0.0
+        - - 0.0006016311
+          - -1.2459046593
+          - 0.0
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -72.94334138584402
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0788076653
+          - 0.6234546563
+          - -0.0
+        - - -2.991e-06
+          - 4.08728e-05
+          - -0.0
+        - - -1.0794066793
+          - 0.6224142392
+          - -0.0
+        - - 0.0006016311
+          - -1.2459046593
+          - 0.0
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -123,7 +191,7 @@ label: Nitrate
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 62.00494298062935
+  value: 62.005062189928886
 multiplicity: 1
 reference_data:
   ATcT:

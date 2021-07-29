@@ -13,6 +13,154 @@ adjacency_list: |
   11 H u0 p0 c0 {4,S}
   12 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -16.725697175116583
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.4058032629
+          - -0.0746174042
+          - -0.015176017
+        - - 1.0002369461
+          - 0.5076716264
+          - 0.0729105662
+        - - -0.0718014674
+          - -0.5628314737
+          - -0.0696958313
+        - - -1.7711712947
+          - 0.0472040945
+          - 0.0730375794
+        - - 3.1621260508
+          - 0.704307157
+          - 0.0931331041
+        - - 2.577346858
+          - -0.8139594255
+          - 0.7709790068
+        - - 2.5709987855
+          - -0.568623713
+          - -0.9757208333
+        - - 0.8610742659
+          - 1.2609091373
+          - -0.7085367256
+        - - 0.8625308723
+          - 1.0253621999
+          - 1.0254834061
+        - - 0.0221036765
+          - -1.3016884227
+          - 0.7297807094
+        - - 0.0363640203
+          - -1.103155752
+          - -1.0118965129
+        - - -1.7592362641
+          - 0.8202468166
+          - -1.0200557322
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -16.490990061226967
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.4058032629
+          - -0.0746174042
+          - -0.015176017
+        - - 1.0002369461
+          - 0.5076716264
+          - 0.0729105662
+        - - -0.0718014674
+          - -0.5628314737
+          - -0.0696958313
+        - - -1.7711712947
+          - 0.0472040945
+          - 0.0730375794
+        - - 3.1621260508
+          - 0.704307157
+          - 0.0931331041
+        - - 2.577346858
+          - -0.8139594255
+          - 0.7709790068
+        - - 2.5709987855
+          - -0.568623713
+          - -0.9757208333
+        - - 0.8610742659
+          - 1.2609091373
+          - -0.7085367256
+        - - 0.8625308723
+          - 1.0253621999
+          - 1.0254834061
+        - - 0.0221036765
+          - -1.3016884227
+          - 0.7297807094
+        - - 0.0363640203
+          - -1.103155752
+          - -1.0118965129
+        - - -1.7592362641
+          - 0.8202468166
+          - -1.0200557322
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -251,7 +399,7 @@ label: 1-Propanethiol
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 76.16062727324416
+  value: 76.16819520111898
 multiplicity: 1
 reference_data:
   CCCBDB:

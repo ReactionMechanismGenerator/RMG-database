@@ -12,6 +12,144 @@ adjacency_list: |
   10 H u0 p0 c0 {4,S}
   11 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 56.66016369298555
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1683453445
+          - -0.7483393644
+          - -0.0
+        - - 1.1913457933
+          - 0.6463953354
+          - 0.0
+        - - -0.0001212278
+          - 1.362351855
+          - 0.0
+        - - -1.1914487947
+          - 0.6461902184
+          - 0.0
+        - - -1.1681800597
+          - -0.7485641348
+          - -0.0
+        - - 0.0001378576
+          - -1.544934181
+          - -0.0
+        - - 2.1447990227
+          - -1.2451127583
+          - -0.0
+        - - 2.1414245775
+          - 1.1816057788
+          - 0.0
+        - - -0.0003004786
+          - 2.4491605402
+          - 0.0
+        - - -2.1417160434
+          - 1.1812037586
+          - 0.0
+        - - -2.1446805578
+          - -1.2454556914
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 54.80503033162615
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1683453445
+          - -0.7483393644
+          - -0.0
+        - - 1.1913457933
+          - 0.6463953354
+          - 0.0
+        - - -0.0001212278
+          - 1.362351855
+          - 0.0
+        - - -1.1914487947
+          - 0.6461902184
+          - 0.0
+        - - -1.1681800597
+          - -0.7485641348
+          - -0.0
+        - - 0.0001378576
+          - -1.544934181
+          - -0.0
+        - - 2.1447990227
+          - -1.2451127583
+          - -0.0
+        - - 2.1414245775
+          - 1.1816057788
+          - 0.0
+        - - -0.0003004786
+          - 2.4491605402
+          - 0.0
+        - - -2.1417160434
+          - 1.1812037586
+          - 0.0
+        - - -2.1446805578
+          - -1.2454556914
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -235,7 +373,7 @@ label: Phenide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 77.10390706093963
+  value: 77.10370426543204
 multiplicity: 1
 reference_data:
   ATcT:

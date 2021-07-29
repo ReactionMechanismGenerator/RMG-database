@@ -10,6 +10,124 @@ adjacency_list: |
   8 H u0 p0 c0 {3,S}
   9 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -55.494994556546395
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2178383802
+          - -0.2207838213
+          - -3.3228e-06
+        - - -0.0847195033
+          - 0.54496969
+          - 6.9371e-06
+        - - -1.1467341414
+          - -0.3945736647
+          - 9.4683e-06
+        - - 1.2847790538
+          - -0.8559379773
+          - 0.8844994605
+        - - 1.2846376213
+          - -0.856102161
+          - -0.8843977607
+        - - 2.0672685739
+          - 0.4648888883
+          - -0.0001417021
+        - - -0.1410814766
+          - 1.1900954426
+          - 0.8864748156
+        - - -0.1410908762
+          - 1.1900988546
+          - -0.8864585763
+        - - -1.9793530263
+          - 0.0784310584
+          - -7.36693e-05
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -55.90797779149679
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2178383802
+          - -0.2207838213
+          - -3.3228e-06
+        - - -0.0847195033
+          - 0.54496969
+          - 6.9371e-06
+        - - -1.1467341414
+          - -0.3945736647
+          - 9.4683e-06
+        - - 1.2847790538
+          - -0.8559379773
+          - 0.8844994605
+        - - 1.2846376213
+          - -0.856102161
+          - -0.8843977607
+        - - 2.0672685739
+          - 0.4648888883
+          - -0.0001417021
+        - - -0.1410814766
+          - 1.1900954426
+          - 0.8864748156
+        - - -0.1410908762
+          - 1.1900988546
+          - -0.8864585763
+        - - -1.9793530263
+          - 0.0784310584
+          - -7.36693e-05
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -203,7 +321,7 @@ label: Ethanol
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 46.06844334924218
+  value: 46.06850993881184
 multiplicity: 1
 reference_data:
   ATcT:

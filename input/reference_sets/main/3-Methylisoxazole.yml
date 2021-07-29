@@ -12,13 +12,151 @@ adjacency_list: |
   10 H u0 p0 c0 {5,S}
   11 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 10.670270140935509
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1207178867
+          - 0.024958059
+          - 1.45017e-05
+        - - 0.6312230962
+          - 0.0269086088
+          - -3.00728e-05
+        - - -0.0299120925
+          - -1.0957940666
+          - -1.2788e-05
+        - - -1.3636678818
+          - -0.7620618919
+          - -6.8134e-06
+        - - -1.4760382128
+          - 0.5649367195
+          - 4.15295e-05
+        - - -0.2572697239
+          - 1.1406788707
+          - -2.45641e-05
+        - - 2.5069699739
+          - 0.5390747908
+          - -0.8813611726
+        - - 2.5069034122
+          - 0.5362624227
+          - 0.8830632572
+        - - 2.4900806999
+          - -0.9990150216
+          - -0.0015561366
+        - - -2.4812615923
+          - 0.9560449752
+          - 6.1372e-05
+        - - -0.0157630677
+          - 2.1897928861
+          - -7.16626e-05
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 9.601129814739405
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1207178867
+          - 0.024958059
+          - 1.45017e-05
+        - - 0.6312230962
+          - 0.0269086088
+          - -3.00728e-05
+        - - -0.0299120925
+          - -1.0957940666
+          - -1.2788e-05
+        - - -1.3636678818
+          - -0.7620618919
+          - -6.8134e-06
+        - - -1.4760382128
+          - 0.5649367195
+          - 4.15295e-05
+        - - -0.2572697239
+          - 1.1406788707
+          - -2.45641e-05
+        - - 2.5069699739
+          - 0.5390747908
+          - -0.8813611726
+        - - 2.5069034122
+          - 0.5362624227
+          - 0.8830632572
+        - - 2.4900806999
+          - -0.9990150216
+          - -0.0015561366
+        - - -2.4812615923
+          - 0.9560449752
+          - 6.1372e-05
+        - - -0.0157630677
+          - 2.1897928861
+          - -7.16626e-05
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 40.62344300222199
+        value: 40.62344300222198
       class: ThermoData
     xyz_dict:
       coords:
@@ -235,7 +373,7 @@ label: 3-Methylisoxazole
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 83.08864696235524
+  value: 83.0886825854467
 multiplicity: 1
 reference_data:
   CCCBDB:

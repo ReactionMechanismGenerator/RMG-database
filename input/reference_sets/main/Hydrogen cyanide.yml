@@ -4,6 +4,64 @@ adjacency_list: |
   2 C u0 p0 c0 {1,T} {3,S}
   3 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 31.568429852927938
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0
+          - 2.4838e-06
+          - -0.4954938664
+        - - 0.0
+          - -1.0283e-06
+          - 0.6481380636
+        - - 1.0e-10
+          - -7.7043e-06
+          - -1.5640032464
+      isotopes:
+      - 12
+      - 14
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 31.398267756557633
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0
+          - 2.4838e-06
+          - -0.4954938664
+        - - 0.0
+          - -1.0283e-06
+          - 0.6481380636
+        - - 1.0e-10
+          - -7.7043e-06
+          - -1.5640032464
+      isotopes:
+      - 12
+      - 14
+      - 1
+      symbols:
+      - C
+      - N
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -107,7 +165,7 @@ label: Hydrogen cyanide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 27.02538278331575
+  value: 27.02547335444371
 multiplicity: 1
 reference_data:
   ATcT:

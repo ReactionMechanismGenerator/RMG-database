@@ -67,7 +67,7 @@ label: Vinyl chloride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 62.49822465923929
+  value: 62.497337807243376
 multiplicity: 1
 reference_data:
   ATcT:

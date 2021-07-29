@@ -4,6 +4,64 @@ adjacency_list: |
   2 O  u0 p2 c0 {1,S} {3,S}
   3 H  u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -18.48971292630087
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0792132461
+          - 0.1176587979
+          - -0.0
+        - - -0.5890586248
+          - -0.0084648817
+          - 0.0
+        - - 1.3802906534
+          - -0.7973673944
+          - 0.0
+      isotopes:
+      - 16
+      - 35
+      - 1
+      symbols:
+      - O
+      - Cl
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -18.413564613370248
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.0792132461
+          - 0.1176587979
+          - -0.0
+        - - -0.5890586248
+          - -0.0084648817
+          - 0.0
+        - - 1.3802906534
+          - -0.7973673944
+          - 0.0
+      isotopes:
+      - 16
+      - 35
+      - 1
+      symbols:
+      - O
+      - Cl
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -107,7 +165,7 @@ label: Hypochlorous acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 52.460342729616215
+  value: 52.459513153963435
 multiplicity: 1
 reference_data:
   ATcT:

@@ -4,6 +4,64 @@ adjacency_list: |
   2 S u0 p2 c0 {3,D}
   3 C u0 p0 c0 {1,D} {2,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 26.0612247689475
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 5.9242e-06
+          - 0.0
+          - 1.5458886458
+        - - -3.15958e-05
+          - 0.0
+          - -4.2e-09
+        - - 5.9242e-06
+          - 0.0
+          - -1.5458886442
+      isotopes:
+      - 32
+      - 12
+      - 32
+      symbols:
+      - S
+      - C
+      - S
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 26.857137260721284
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 5.9242e-06
+          - 0.0
+          - 1.5458886458
+        - - -3.15958e-05
+          - 0.0
+          - -4.2e-09
+        - - 5.9242e-06
+          - 0.0
+          - -1.5458886442
+      isotopes:
+      - 32
+      - 12
+      - 32
+      symbols:
+      - S
+      - C
+      - S
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -107,7 +165,7 @@ label: Carbon disulfide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 76.14070721302824
+  value: 76.15564562837554
 multiplicity: 1
 reference_data:
   CATCH:

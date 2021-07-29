@@ -7,6 +7,94 @@ adjacency_list: |
   5 H u0 p0 c0 {1,S}
   6 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 180.13448939937868
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.6713621076
+        - - 0.0
+          - 0.0
+          - -0.5974517224
+        - - 0.94316587
+          - 0.0
+          - 1.2084692976
+        - - -0.94316587
+          - 0.0
+          - 1.2084692976
+        - - -0.86445652
+          - 0.0
+          - -1.1314745924
+        - - 0.86445652
+          - 0.0
+          - -1.1314745924
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 180.2435266551937
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.6713621076
+        - - 0.0
+          - 0.0
+          - -0.5974517224
+        - - 0.94316587
+          - 0.0
+          - 1.2084692976
+        - - -0.94316587
+          - 0.0
+          - 1.2084692976
+        - - -0.86445652
+          - 0.0
+          - -1.1314745924
+        - - 0.86445652
+          - 0.0
+          - -1.1314745924
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -155,7 +243,7 @@ label: Aminomethylium
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 30.049203150754995
+  value: 30.049386621317556
 multiplicity: 1
 reference_data:
   ATcT:

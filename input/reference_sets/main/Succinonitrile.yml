@@ -11,6 +11,134 @@ adjacency_list: |
   9  H u0 p0 c0 {4,S}
   10 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 51.782349030903184
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.9554633903
+          - -0.208019768
+          - -6.86794e-05
+        - - 1.8707531907
+          - 0.1628780377
+          - 9.3579e-06
+        - - 0.4782264225
+          - 0.6015151748
+          - 5.01141e-05
+        - - -0.4782437062
+          - -0.6015789851
+          - 5.06746e-05
+        - - -1.8707397051
+          - -0.1628614222
+          - 1.08307e-05
+        - - -2.9554344238
+          - 0.2080821962
+          - -6.93421e-05
+        - - 0.3060791851
+          - 1.2248580402
+          - -0.8787093601
+        - - 0.3061109595
+          - 1.2248426338
+          - 0.8788280699
+        - - -0.3061979112
+          - -1.2249149978
+          - 0.8788338088
+        - - -0.3061722099
+          - -1.2249395053
+          - -0.8787122312
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 50.77287856924378
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.9554633903
+          - -0.208019768
+          - -6.86794e-05
+        - - 1.8707531907
+          - 0.1628780377
+          - 9.3579e-06
+        - - 0.4782264225
+          - 0.6015151748
+          - 5.01141e-05
+        - - -0.4782437062
+          - -0.6015789851
+          - 5.06746e-05
+        - - -1.8707397051
+          - -0.1628614222
+          - 1.08307e-05
+        - - -2.9554344238
+          - 0.2080821962
+          - -6.93421e-05
+        - - 0.3060791851
+          - 1.2248580402
+          - -0.8787093601
+        - - 0.3061109595
+          - 1.2248426338
+          - 0.8788280699
+        - - -0.3061979112
+          - -1.2249149978
+          - 0.8788338088
+        - - -0.3061722099
+          - -1.2249395053
+          - -0.8787122312
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - C
+      - C
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -219,7 +347,7 @@ label: Succinonitrile
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 80.08804796110464
+  value: 80.08817182701742
 multiplicity: 1
 reference_data:
   CCCBDB:

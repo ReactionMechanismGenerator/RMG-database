@@ -8,6 +8,94 @@ adjacency_list: |
   5 H u0 p0 c0 {1,S}
   6 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 84.92022000536554
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.839005599
+          - 0.1486711396
+          - -1.4298e-05
+        - - -0.6125250478
+          - -0.0260740967
+          - 3.4454e-06
+        - - 1.6827026907
+          - -0.5288614785
+          - 0.0001076879
+        - - -0.9595377887
+          - -0.5757132921
+          - -0.88494091
+        - - -1.1220139655
+          - 0.9414654567
+          - -0.0018637771
+        - - -0.9600342436
+          - -0.5724729433
+          - 0.8867621146
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 84.70009871478092
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.839005599
+          - 0.1486711396
+          - -1.4298e-05
+        - - -0.6125250478
+          - -0.0260740967
+          - 3.4454e-06
+        - - 1.6827026907
+          - -0.5288614785
+          - 0.0001076879
+        - - -0.9595377887
+          - -0.5757132921
+          - -0.88494091
+        - - -1.1220139655
+          - 0.9414654567
+          - -0.0018637771
+        - - -0.9600342436
+          - -0.5724729433
+          - 0.8867621146
+      isotopes:
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -102,7 +190,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 84.77227924353019
+        value: 84.77227924353018
       class: ThermoData
     xyz_dict:
       coords:
@@ -156,7 +244,7 @@ label: Ethylidene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 28.053162639432628
+  value: 28.053167296045892
 multiplicity: 3
 reference_data:
   ATcT:

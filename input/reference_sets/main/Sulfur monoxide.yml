@@ -4,13 +4,61 @@ adjacency_list: |
   1 S u1 p2 c0 {2,S}
   2 O u1 p2 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.4200217638406208
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4921206967
+        - - 0.0
+          - 0.0
+          - -0.9842413933
+      isotopes:
+      - 32
+      - 16
+      symbols:
+      - S
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.1845112649854928
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4921206967
+        - - 0.0
+          - 0.0
+          - -0.9842413933
+      isotopes:
+      - 32
+      - 16
+      symbols:
+      - S
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 4.900815294188609
+        value: 4.900815294188607
       class: ThermoData
     xyz_dict:
       coords:
@@ -92,7 +140,7 @@ label: Sulfur monoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 48.06440353398577
+  value: 48.071902543984294
 multiplicity: 3
 reference_data:
   Thermochemistry and Kinetics of Sulfur-Containing Molecules and Radicals:

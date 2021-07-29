@@ -7,6 +7,94 @@ adjacency_list: |
   5 H u0 p0 c0 {3,S}
   6 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 111.5325437966512
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 8.6323e-06
+          - 1.887696275
+        - - -0.0
+          - -2.6155e-06
+          - 0.688508235
+        - - -0.0
+          - -2.21845e-05
+          - -0.688507245
+        - - 0.0
+          - 4.7377e-06
+          - -1.887696525
+        - - 0.0
+          - 1.31293e-05
+          - 2.952445275
+        - - 0.0
+          - 5.54507e-05
+          - -2.952449715
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 110.43672270925838
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 8.6323e-06
+          - 1.887696275
+        - - -0.0
+          - -2.6155e-06
+          - 0.688508235
+        - - -0.0
+          - -2.21845e-05
+          - -0.688507245
+        - - 0.0
+          - 4.7377e-06
+          - -1.887696525
+        - - 0.0
+          - 1.31293e-05
+          - 2.952445275
+        - - 0.0
+          - 5.54507e-05
+          - -2.952449715
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -155,7 +243,7 @@ label: 1,3-Butadiyne
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 50.05868454398676
+  value: 50.0585080583441
 multiplicity: 1
 reference_data:
   ATcT:

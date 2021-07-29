@@ -13,6 +13,154 @@ adjacency_list: |
   11 H u0 p0 c0 {6,S}
   12 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 53.32241927483625
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.0908749866
+          - 0.0001723551
+          - 0.0
+        - - 0.759275913
+          - 0.00049676
+          - 0.0
+        - - -0.1276752659
+          - 1.1746686498
+          - 0.0
+        - - -1.3954768564
+          - 0.7353850503
+          - 0.0
+        - - -1.3948079043
+          - -0.7362170737
+          - -0.0
+        - - -0.1266749011
+          - -1.1741629971
+          - -0.0
+        - - 2.6546400348
+          - 0.9256465356
+          - 0.0
+        - - 2.6537235107
+          - -0.9260242042
+          - -0.0
+        - - 0.2149158877
+          - 2.1992181085
+          - 0.0
+        - - -2.2873864344
+          - 1.3468302496
+          - 0.0
+        - - -2.2857893627
+          - -1.3491525207
+          - -0.0
+        - - 0.2168005329
+          - -2.1985746355
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 52.165491834456695
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.0908749866
+          - 0.0001723551
+          - 0.0
+        - - 0.759275913
+          - 0.00049676
+          - 0.0
+        - - -0.1276752659
+          - 1.1746686498
+          - 0.0
+        - - -1.3954768564
+          - 0.7353850503
+          - 0.0
+        - - -1.3948079043
+          - -0.7362170737
+          - -0.0
+        - - -0.1266749011
+          - -1.1741629971
+          - -0.0
+        - - 2.6546400348
+          - 0.9256465356
+          - 0.0
+        - - 2.6537235107
+          - -0.9260242042
+          - -0.0
+        - - 0.2149158877
+          - 2.1992181085
+          - 0.0
+        - - -2.2873864344
+          - 1.3468302496
+          - 0.0
+        - - -2.2857893627
+          - -1.3491525207
+          - -0.0
+        - - 0.2168005329
+          - -2.1985746355
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -167,7 +315,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 68.24995170995506
+        value: 68.24995170995503
       class: ThermoData
     xyz_dict:
       coords:
@@ -251,7 +399,7 @@ label: Fulvene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 78.11184718341939
+  value: 78.11167535438999
 multiplicity: 1
 reference_data:
   CCCBDB:

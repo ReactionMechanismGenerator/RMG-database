@@ -5,6 +5,74 @@ adjacency_list: |
   3 C u0 p0 c0 {1,T} {4,S}
   4 C u0 p0 c0 {2,T} {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 74.45906221140291
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 4.7447e-06
+          - 3.1966e-06
+          - 1.8402911523
+        - - -6.9845e-06
+          - -3.45787e-05
+          - 0.6930843023
+        - - -2.3354e-06
+          - 6.43952e-05
+          - -0.6930842377
+        - - 3.2439e-06
+          - -2.87536e-05
+          - -1.8402912077
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 14
+      symbols:
+      - N
+      - C
+      - C
+      - N
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 73.88633787867275
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 4.7447e-06
+          - 3.1966e-06
+          - 1.8402911523
+        - - -6.9845e-06
+          - -3.45787e-05
+          - 0.6930843023
+        - - -2.3354e-06
+          - 6.43952e-05
+          - -0.6930842377
+        - - 3.2439e-06
+          - -2.87536e-05
+          - -1.8402912077
+      isotopes:
+      - 14
+      - 12
+      - 12
+      - 14
+      symbols:
+      - N
+      - C
+      - C
+      - N
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -123,7 +191,7 @@ label: Cyanogen
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 52.034885321672
+  value: 52.035004530971534
 multiplicity: 1
 reference_data:
   ATcT:

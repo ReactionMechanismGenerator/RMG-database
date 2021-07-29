@@ -79,7 +79,7 @@ label: Chlorodioxidanyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 67.45180307198653
+  value: 67.45094252985555
 multiplicity: 2
 reference_data:
   ATcT:

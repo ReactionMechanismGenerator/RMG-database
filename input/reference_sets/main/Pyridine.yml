@@ -12,6 +12,144 @@ adjacency_list: |
   10 H u0 p0 c0 {5,S}
   11 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 35.25538463791885
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1371883222
+          - 0.7143214095
+          - -0.0
+        - - 0.0042578401
+          - 1.4092941434
+          - 0.0
+        - - -1.1327777253
+          - 0.721045182
+          - 0.0
+        - - -1.1921979096
+          - -0.6644463247
+          - 0.0
+        - - -0.0041511325
+          - -1.3758257021
+          - -0.0
+        - - 1.1881784916
+          - -0.6715623158
+          - -0.0
+        - - 2.0538723261
+          - 1.2963339656
+          - -0.0
+        - - -2.0462739162
+          - 1.3082146443
+          - 0.0
+        - - -2.1500376948
+          - -1.1691960117
+          - 0.0
+        - - -0.0076811177
+          - -2.4595410805
+          - -0.0
+        - - 2.1428752433
+          - -1.1820640146
+          - -0.0
+      isotopes:
+      - 12
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 33.8458214495472
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1371883222
+          - 0.7143214095
+          - -0.0
+        - - 0.0042578401
+          - 1.4092941434
+          - 0.0
+        - - -1.1327777253
+          - 0.721045182
+          - 0.0
+        - - -1.1921979096
+          - -0.6644463247
+          - 0.0
+        - - -0.0041511325
+          - -1.3758257021
+          - -0.0
+        - - 1.1881784916
+          - -0.6715623158
+          - -0.0
+        - - 2.0538723261
+          - 1.2963339656
+          - -0.0
+        - - -2.0462739162
+          - 1.3082146443
+          - 0.0
+        - - -2.1500376948
+          - -1.1691960117
+          - 0.0
+        - - -0.0076811177
+          - -2.4595410805
+          - -0.0
+        - - 2.1428752433
+          - -1.1820640146
+          - -0.0
+      isotopes:
+      - 12
+      - 14
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -156,7 +294,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 43.18686970220381
+        value: 43.186869702203786
       class: ThermoData
     xyz_dict:
       coords:
@@ -235,7 +373,7 @@ label: Pyridine
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 79.09994757226201
+  value: 79.09992359070371
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -5,6 +5,74 @@ adjacency_list: |
   3 N u0 p2 c-1 {2,D}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 71.63279121034965
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1120943289
+          - -0.1387869675
+          - 0.0
+        - - -0.1093437632
+          - 0.0162582023
+          - -0.0
+        - - -1.2276406482
+          - 0.0131221578
+          - -0.0
+        - - 1.5742305781
+          - 0.7658462516
+          - -0.0
+      isotopes:
+      - 14
+      - 14
+      - 14
+      - 1
+      symbols:
+      - N
+      - N
+      - N
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 70.85410879352116
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1120943289
+          - -0.1387869675
+          - 0.0
+        - - -0.1093437632
+          - 0.0162582023
+          - -0.0
+        - - -1.2276406482
+          - 0.0131221578
+          - -0.0
+        - - 1.5742305781
+          - 0.7658462516
+          - -0.0
+      isotopes:
+      - 14
+      - 14
+      - 14
+      - 1
+      symbols:
+      - N
+      - N
+      - N
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -123,7 +191,7 @@ label: Hydrazoic acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 43.028164880717306
+  value: 43.028553475094085
 multiplicity: 1
 reference_data:
   ATcT:

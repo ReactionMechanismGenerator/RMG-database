@@ -11,6 +11,134 @@ adjacency_list: |
   9  H u0 p0 c0 {5,S}
   10 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 26.250792665072076
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.2957674099
+          - 0.0001123749
+          - 0.0001287476
+        - - 0.6735404352
+          - 0.0001363408
+          - -2.19285e-05
+        - - -0.2788970347
+          - -1.4557799278
+          - -0.084605388
+        - - -1.875356962
+          - -0.6999909147
+          - 0.2935140517
+        - - -1.8757478193
+          - 0.6995325675
+          - -0.2931143256
+        - - -0.2793135196
+          - 1.455869791
+          - 0.0842561809
+        - - -2.6583838597
+          - -1.3181931644
+          - -0.1462118212
+        - - -2.0086753763
+          - -0.6751645653
+          - 1.3757341899
+        - - -2.6588510569
+          - 1.3173676488
+          - 0.1470063126
+        - - -2.0096133194
+          - 0.6746863096
+          - -1.3752681145
+      isotopes:
+      - 32
+      - 12
+      - 32
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - S
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 27.685123574091765
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.2957674099
+          - 0.0001123749
+          - 0.0001287476
+        - - 0.6735404352
+          - 0.0001363408
+          - -2.19285e-05
+        - - -0.2788970347
+          - -1.4557799278
+          - -0.084605388
+        - - -1.875356962
+          - -0.6999909147
+          - 0.2935140517
+        - - -1.8757478193
+          - 0.6995325675
+          - -0.2931143256
+        - - -0.2793135196
+          - 1.455869791
+          - 0.0842561809
+        - - -2.6583838597
+          - -1.3181931644
+          - -0.1462118212
+        - - -2.0086753763
+          - -0.6751645653
+          - 1.3757341899
+        - - -2.6588510569
+          - 1.3173676488
+          - 0.1470063126
+        - - -2.0096133194
+          - 0.6746863096
+          - -1.3752681145
+      isotopes:
+      - 32
+      - 12
+      - 32
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - S
+      - C
+      - S
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -219,7 +347,7 @@ label: 1,3-Dithiane-2-thione
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 136.25887292159658
+  value: 136.28131500355568
 multiplicity: 1
 reference_data:
   CATCH:

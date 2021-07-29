@@ -8,6 +8,104 @@ adjacency_list: |
   6 H  u0 p0 c0 {3,S}
   7 H  u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -58.21226091487428
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3181785109
+          - -0.9882923626
+          - 4.82284e-05
+        - - 0.4658275573
+          - 0.2411499086
+          - 0.0001385059
+        - - 0.8224306271
+          - 1.3643563236
+          - -3.2262e-05
+        - - -1.283804525
+          - -0.1501919418
+          - -7.6036e-06
+        - - 1.0890839905
+          - -1.5877094399
+          - -0.8813000066
+        - - 2.366944445
+          - -0.6996823768
+          - 0.0027502635
+        - - 1.085167064
+          - -1.5913410368
+          - 0.877816695
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - Cl
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -58.06961799603548
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.3181785109
+          - -0.9882923626
+          - 4.82284e-05
+        - - 0.4658275573
+          - 0.2411499086
+          - 0.0001385059
+        - - 0.8224306271
+          - 1.3643563236
+          - -3.2262e-05
+        - - -1.283804525
+          - -0.1501919418
+          - -7.6036e-06
+        - - 1.0890839905
+          - -1.5877094399
+          - -0.8813000066
+        - - 2.366944445
+          - -0.6996823768
+          - 0.0027502635
+        - - 1.085167064
+          - -1.5913410368
+          - 0.877816695
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 35
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - Cl
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -171,7 +269,7 @@ label: Acetyl chloride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 78.49762512408935
+  value: 78.49673827209344
 multiplicity: 1
 reference_data:
   ATcT:

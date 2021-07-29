@@ -155,7 +155,7 @@ label: Vinyl bromide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 106.94922668640768
+  value: 106.94920037654275
 multiplicity: 1
 reference_data:
   ATcT:

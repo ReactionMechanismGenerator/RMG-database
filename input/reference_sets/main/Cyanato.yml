@@ -5,6 +5,64 @@ adjacency_list: |
   2 N u0 p1 c0 {3,T}
   3 C u0 p0 c0 {1,S} {2,T}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 30.924573059291713
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -9.466e-07
+          - -1.2595732143
+        - - 0.0
+          - 2.2587e-06
+          - -0.0380199643
+        - - 0.0
+          - -8.658e-07
+          - 1.1306415357
+      isotopes:
+      - 14
+      - 12
+      - 16
+      symbols:
+      - N
+      - C
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 30.61533661139683
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -9.466e-07
+          - -1.2595732143
+        - - 0.0
+          - 2.2587e-06
+          - -0.0380199643
+        - - 0.0
+          - -8.658e-07
+          - 1.1306415357
+      isotopes:
+      - 14
+      - 12
+      - 16
+      symbols:
+      - N
+      - C
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -108,7 +166,7 @@ label: Cyanato
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 42.01684312568605
+  value: 42.016902730335815
 multiplicity: 2
 reference_data:
   ATcT:

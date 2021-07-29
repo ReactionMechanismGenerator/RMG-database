@@ -6,6 +6,84 @@ adjacency_list: |
   4 N u0 p0 c+1 {1,S} {2,S} {3,D}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -31.16295633903194
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1031314625
+          - 0.5643378138
+          - -0.0
+        - - -0.1421548988
+          - -0.0353343313
+          - 0.0
+        - - -0.1424277628
+          - -1.2363002568
+          - -0.0
+        - - -1.050600862
+          - 0.7262341434
+          - 0.0
+        - - 1.71426159
+          - -0.1868332841
+          - -0.0
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      - 1
+      symbols:
+      - O
+      - N
+      - O
+      - O
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -31.536956528127735
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1031314625
+          - 0.5643378138
+          - -0.0
+        - - -0.1421548988
+          - -0.0353343313
+          - 0.0
+        - - -0.1424277628
+          - -1.2363002568
+          - -0.0
+        - - -1.050600862
+          - 0.7262341434
+          - 0.0
+        - - 1.71426159
+          - -0.1868332841
+          - -0.0
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 16
+      - 1
+      symbols:
+      - O
+      - N
+      - O
+      - O
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -90,7 +168,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -32.75713275744167
+        value: -32.75713275744166
       class: ThermoData
     xyz_dict:
       coords:
@@ -139,7 +217,7 @@ label: Nitric acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 63.0128831031091
+  value: 63.01303327888682
 multiplicity: 1
 reference_data:
   ATcT:

@@ -5,13 +5,81 @@ adjacency_list: |
   3 O  u0 p2 c0 {4,D}
   4 N  u0 p0 c+1 {1,S} {2,S} {3,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 2.9127459978434365
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.2467405738
+        - - 0.0
+          - 0.0
+          - -0.5860022363
+        - - 1.0778907593
+          - 0.0
+          - -1.0682834302
+        - - -1.0778907593
+          - -0.0
+          - -1.0682834302
+      isotopes:
+      - 35
+      - 14
+      - 16
+      - 16
+      symbols:
+      - Cl
+      - N
+      - O
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.196856251516647
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.2467405738
+        - - 0.0
+          - 0.0
+          - -0.5860022363
+        - - 1.0778907593
+          - 0.0
+          - -1.0682834302
+        - - -1.0778907593
+          - -0.0
+          - -1.0682834302
+      isotopes:
+      - 35
+      - 14
+      - 16
+      - 16
+      symbols:
+      - Cl
+      - N
+      - O
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -18.004491604520883
+        value: -18.00449160452086
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +191,7 @@ label: Nitryl chloride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 81.4585446580657
+  value: 81.45780332523425
 multiplicity: 1
 reference_data:
   CCCBDB:
