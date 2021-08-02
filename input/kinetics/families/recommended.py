@@ -133,6 +133,8 @@ halogens = {
     'Disproportionation-Y',
     'XY_Addition_MultipleBond',
     '1,2_XY_interchange',
+    'halocarbene_recombination',
+    'halocarbene_recombination_double'
 }
 
 # Surface chemistry families that are under development and not yet working well.
