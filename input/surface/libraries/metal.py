@@ -11,17 +11,24 @@ entry(
     label = "Pt111",
     bindingEnergies = {
         'H': (-2.75368,'eV/molecule'),
-        'C': (-7.02516,'eV/molecule'),
+        'C': (-6.363636363636363,'eV/molecule'),
         'N': (-4.63225,'eV/molecule'),
-        'O': (-3.81153,'eV/molecule'),
+        'O': (-3.481481481481482,'eV/molecule'),
     },
     surfaceSiteDensity = (2.483e-09, 'mol/cm^2'),
     facet = "111",
     metal = "Pt",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -30,17 +37,24 @@ entry(
     label = "Ru0001",
     bindingEnergies = {
         'H': (-2.85192,'eV/molecule'),
-        'C': (-7.5979,'eV/molecule'),
+        'C': (-6.397727272727272,'eV/molecule'),
         'N': (-5.969,'eV/molecule'),
-        'O': (-5.4492,'eV/molecule'),
+        'O': (-5.104763568600047,'eV/molecule'),
     },
     surfaceSiteDensity = (2.6300000000000002e-09, 'mol/cm^2'),
     facet = "0001",
     metal = "Ru",
     shortDesc = """hcp""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -49,17 +63,24 @@ entry(
     label = "Rh111",
     bindingEnergies = {
         'H': (-2.83001,'eV/molecule'),
-        'C': (-7.33484,'eV/molecule'),
+        'C': (-6.5681818181818175,'eV/molecule'),
         'N': (-5.30055,'eV/molecule'),
-        'O': (-4.71419,'eV/molecule'),
+        'O': (-4.609771721406942,'eV/molecule'),
     },
     surfaceSiteDensity = (2.656e-09, 'mol/cm^2'),
     facet = "111",
     metal = "Rh",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -68,17 +89,24 @@ entry(
     label = "Ir111",
     bindingEnergies = {
         'H': (-2.67674,'eV/molecule'),
-        'C': (-7.25234,'eV/molecule'),
+        'C': (-6.613636363636363,'eV/molecule'),
         'N': (-5.06204,'eV/molecule'),
-        'O': (-4.35236,'eV/molecule'),
+        'O': (-5.94916142557652,'eV/molecule'),
     },
     surfaceSiteDensity = (2.587e-09, 'mol/cm^2'),
     facet = "111",
     metal = "Ir",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -87,17 +115,24 @@ entry(
     label = "Au111",
     bindingEnergies = {
         'H': (-2.20848,'eV/molecule'),
-        'C': (-4.5465,'eV/molecule'),
+        'C': (-3.7499999999999973,'eV/molecule'),
         'N': (-2.41078,'eV/molecule'),
-        'O': (-2.71822,'eV/molecule'),
+        'O': (-2.302236198462614,'eV/molecule'),
     },
     surfaceSiteDensity = (2.2700000000000002e-09, 'mol/cm^2'),
     facet = "111",
     metal = "Au",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -106,17 +141,24 @@ entry(
     label = "Pd111",
     bindingEnergies = {
         'H': (-2.92249,'eV/molecule'),
-        'C': (-7.16786,'eV/molecule'),
+        'C': (-6.0,'eV/molecule'),
         'N': (-4.78496,'eV/molecule'),
-        'O': (-4.13577,'eV/molecule'),
+        'O': (-3.517877940833916,'eV/molecule'),
     },
     surfaceSiteDensity = (2.534e-09, 'mol/cm^2'),
     facet = "111",
     metal = "Pd",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -125,17 +167,24 @@ entry(
     label = "Cu111",
     bindingEnergies = {
         'H': (-2.58383,'eV/molecule'),
-        'C': (-4.96034,'eV/molecule'),
+        'C': (-4.159090909090907,'eV/molecule'),
         'N': (-3.58447,'eV/molecule'),
-        'O': (-4.20764,'eV/molecule'),
+        'O': (-3.85272536687631,'eV/molecule'),
     },
     surfaceSiteDensity = (2.943e-09, 'mol/cm^2'),
     facet = "111",
     metal = "Cu",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -144,17 +193,24 @@ entry(
     label = "Ag111",
     bindingEnergies = {
         'H': (-2.10527,'eV/molecule'),
-        'C': (-3.50609,'eV/molecule'),
+        'C': (-2.9545454545454533,'eV/molecule'),
         'N': (-1.97974,'eV/molecule'),
-        'O': (-3.11159,'eV/molecule'),
+        'O': (-2.9282552993244817,'eV/molecule'),
     },
     surfaceSiteDensity = (2.2920000000000004e-09, 'mol/cm^2'),
     facet = "111",
     metal = "Ag",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -163,17 +219,24 @@ entry(
     label = "Ni111",
     bindingEnergies = {
         'H': (-2.89203,'eV/molecule'),
-        'C': (-6.79794,'eV/molecule'),
+        'C': (-6.045454545454545,'eV/molecule'),
         'N': (-5.16381,'eV/molecule'),
-        'O': (-4.98902,'eV/molecule'),
+        'O': (-4.711681807593758,'eV/molecule'),
     },
     surfaceSiteDensity = (3.148e-09, 'mol/cm^2'),
     facet = "111",
     metal = "Ni",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
+
+C and O from
+Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
+Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
+Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
+Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
+DOI: 10.1103/PhysRevLett.99.016105.
 """,
 )
 
@@ -190,7 +253,7 @@ entry(
     facet = "0001",
     metal = "Co",
     shortDesc = """hcp""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -209,7 +272,7 @@ entry(
     facet = "211",
     metal = "Pt",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -228,7 +291,7 @@ entry(
     facet = "211",
     metal = "Rh",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -247,7 +310,7 @@ entry(
     facet = "211",
     metal = "Ag",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -266,7 +329,7 @@ entry(
     facet = "211",
     metal = "Pd",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -285,7 +348,7 @@ entry(
     facet = "211",
     metal = "Au",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -304,7 +367,7 @@ entry(
     facet = "211",
     metal = "Ir",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -323,7 +386,7 @@ entry(
     facet = "211",
     metal = "Ru",
     shortDesc = """hcp""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -342,7 +405,7 @@ entry(
     facet = "211",
     metal = "Co",
     shortDesc = """hcp""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -361,7 +424,7 @@ entry(
     facet = "211",
     metal = "Ni",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
@@ -380,9 +443,8 @@ entry(
     facet = "211",
     metal = "Cu",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
 """,
 )
-
