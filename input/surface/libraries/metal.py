@@ -10,10 +10,10 @@ entry(
     index = 0,
     label = "Pt111",
     bindingEnergies = {
-        'H': (-2.75368,'eV/molecule'),
-        'C': (-6.363636363636363,'eV/molecule'),
-        'N': (-4.63225,'eV/molecule'),
-        'O': (-3.481481481481482,'eV/molecule'),
+        'H': (-2.67,'eV/molecule'),
+        'C': (-6.750,'eV/molecule'),
+        'N': (-4.08,'eV/molecule'),
+        'O': (-3.586,'eV/molecule'),
     },
     surfaceSiteDensity = (2.483e-09, 'mol/cm^2'),
     facet = "111",
@@ -21,14 +21,8 @@ entry(
     shortDesc = """fcc""",
     longDesc =
 """
-Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
-
-C and O from
-Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
-Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
-Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
-Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
-DOI: 10.1103/PhysRevLett.99.016105.
+From 2016 Hoffman et al.
+https://doi.org/10.1021/acs.jpcc.6b03375
 """,
 )
 
@@ -62,10 +56,10 @@ entry(
     index = 2,
     label = "Rh111",
     bindingEnergies = {
-        'H': (-2.83001,'eV/molecule'),
-        'C': (-6.5681818181818175,'eV/molecule'),
-        'N': (-5.30055,'eV/molecule'),
-        'O': (-4.609771721406942,'eV/molecule'),
+        'H': (-2.73,'eV/molecule'),
+        'C': (-6.78,'eV/molecule'),
+        'N': (-4.96,'eV/molecule'),
+        'O': (-5.02,'eV/molecule'),
     },
     surfaceSiteDensity = (2.656e-09, 'mol/cm^2'),
     facet = "111",
@@ -73,14 +67,9 @@ entry(
     shortDesc = """fcc""",
     longDesc =
 """
-Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
-
-C and O from
-Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
-Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
-Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
-Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
-DOI: 10.1103/PhysRevLett.99.016105.
+From
+2016 Hoffman et al.
+https://doi.org/10.1021/acs.jpcc.6b03375
 """,
 )
 
@@ -88,10 +77,10 @@ entry(
     index = 3,
     label = "Ir111",
     bindingEnergies = {
-        'H': (-2.67674,'eV/molecule'),
-        'C': (-6.613636363636363,'eV/molecule'),
-        'N': (-5.06204,'eV/molecule'),
-        'O': (-5.94916142557652,'eV/molecule'),
+        'H': (-2.60,'eV/molecule'),
+        'C': (-6.65,'eV/molecule'),
+        'N': (-4.76,'eV/molecule'),
+        'O': (-4.73,'eV/molecule'),
     },
     surfaceSiteDensity = (2.587e-09, 'mol/cm^2'),
     facet = "111",
@@ -99,14 +88,9 @@ entry(
     shortDesc = """fcc""",
     longDesc =
 """
-Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
-
-C and O from
-Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
-Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
-Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
-Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
-DOI: 10.1103/PhysRevLett.99.016105.
+From
+2016 Hoffman et al.
+https://doi.org/10.1021/acs.jpcc.6b03375
 """,
 )
 
@@ -140,10 +124,10 @@ entry(
     index = 5,
     label = "Pd111",
     bindingEnergies = {
-        'H': (-2.92249,'eV/molecule'),
-        'C': (-6.0,'eV/molecule'),
-        'N': (-4.78496,'eV/molecule'),
-        'O': (-3.517877940833916,'eV/molecule'),
+        'H': (-2.8,'eV/molecule'),
+        'C': (-6.58,'eV/molecule'),
+        'N': (-4.38,'eV/molecule'),
+        'O': (-4.38,'eV/molecule'),
     },
     surfaceSiteDensity = (2.534e-09, 'mol/cm^2'),
     facet = "111",
@@ -151,14 +135,9 @@ entry(
     shortDesc = """fcc""",
     longDesc =
 """
-Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
-
-C and O from
-Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
-Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
-Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
-Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
-DOI: 10.1103/PhysRevLett.99.016105.
+From
+2016 Hoffman et al.
+https://doi.org/10.1021/acs.jpcc.6b03375
 """,
 )
 
@@ -166,10 +145,10 @@ entry(
     index = 6,
     label = "Cu111",
     bindingEnergies = {
-        'H': (-2.58383,'eV/molecule'),
-        'C': (-4.159090909090907,'eV/molecule'),
-        'N': (-3.58447,'eV/molecule'),
-        'O': (-3.85272536687631,'eV/molecule'),
+        'H': (-2.35,'eV/molecule'),
+        'C': (-4.28,'eV/molecule'),
+        'N': (-3.17,'eV/molecule'),
+        'O': (-4.51,'eV/molecule'),
     },
     surfaceSiteDensity = (2.943e-09, 'mol/cm^2'),
     facet = "111",
@@ -177,14 +156,9 @@ entry(
     shortDesc = """fcc""",
     longDesc =
 """
-Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
-
-C and O from
-Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
-Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
-Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
-Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
-DOI: 10.1103/PhysRevLett.99.016105.
+From
+2016 Hoffman et al.
+https://doi.org/10.1021/acs.jpcc.6b03375
 """,
 )
 
@@ -192,10 +166,10 @@ entry(
     index = 7,
     label = "Ag111",
     bindingEnergies = {
-        'H': (-2.10527,'eV/molecule'),
-        'C': (-2.9545454545454533,'eV/molecule'),
-        'N': (-1.97974,'eV/molecule'),
-        'O': (-2.9282552993244817,'eV/molecule'),
+        'H': (-2.04,'eV/molecule'),
+        'C': (-2.91,'eV/molecule'),
+        'N': (-1.72,'eV/molecule'),
+        'O': (-3.55,'eV/molecule'),
     },
     surfaceSiteDensity = (2.2920000000000004e-09, 'mol/cm^2'),
     facet = "111",
@@ -203,14 +177,9 @@ entry(
     shortDesc = """fcc""",
     longDesc =
 """
-Calculated by Katrin Blondal and Bjarne Kreitz at Brown University
-
-C and O from
-Abild-Pedersen, F.; Greeley, J.; Studt, F.; Rossmeisl, J.; Munter, T. R.;
-Moses, P. G.; Skúlason, E.; Bligaard, T.; Norskov, J. K.
-Scaling Properties of Adsorption Energies for Hydrogen-Containing Molecules on
-Transition-Metal Surfaces. Phys. Rev. Lett. 2007, 99 (1), 016105
-DOI: 10.1103/PhysRevLett.99.016105.
+From
+2016 Hoffman et al.
+https://doi.org/10.1021/acs.jpcc.6b03375
 """,
 )
 
