@@ -361,207 +361,207 @@ entry(
     shortDesc = """The chemkin file reaction is HCO + HCO <=> CH2O + CO""",
 )
 
-entry(
-    index = 41,
-    label = "H + O <=> OH*",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(1.5e+13,'cm^6/(mol^2*s)'), n=0, Ea=(5975,'cal/mol'), T0=(1,'K')), efficiencies={'N#N': 0.4, 'O': 6.5, '[Ar]': 0.35, '[H][H]': 1.0, '[O][O]': 0.4}),
-    shortDesc = """The chemkin file reaction is H + O <=> OH*""",
-)
+# entry(
+#     index = 41,
+#     label = "H + O <=> OH*",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(1.5e+13,'cm^6/(mol^2*s)'), n=0, Ea=(5975,'cal/mol'), T0=(1,'K')), efficiencies={'N#N': 0.4, 'O': 6.5, '[Ar]': 0.35, '[H][H]': 1.0, '[O][O]': 0.4}),
+#     shortDesc = """The chemkin file reaction is H + O <=> OH*""",
+# )
 
-entry(
-    index = 42,
-    label = "OH* + H2O <=> OH + H2O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.93e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-860,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + H2O <=> OH + H2O""",
-)
+# entry(
+#     index = 42,
+#     label = "OH* + H2O <=> OH + H2O",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(5.93e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-860,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + H2O <=> OH + H2O""",
+# )
 
-entry(
-    index = 43,
-    label = "OH* + H2 <=> OH + H2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.95e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-444,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + H2 <=> OH + H2""",
-)
+# entry(
+#     index = 43,
+#     label = "OH* + H2 <=> OH + H2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.95e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-444,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + H2 <=> OH + H2""",
+# )
 
-entry(
-    index = 44,
-    label = "OH* + N2 <=> OH + N2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.08e+11,'cm^3/(mol*s)'), n=0.5, Ea=(-1242,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + N2 <=> OH + N2""",
-)
+# entry(
+#     index = 44,
+#     label = "OH* + N2 <=> OH + N2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.08e+11,'cm^3/(mol*s)'), n=0.5, Ea=(-1242,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + N2 <=> OH + N2""",
+# )
 
-entry(
-    index = 45,
-    label = "OH* + OH <=> OH + OH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.01e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-764,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + OH <=> OH + OH""",
-)
+# entry(
+#     index = 45,
+#     label = "OH* + OH <=> OH + OH",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(6.01e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-764,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + OH <=> OH + OH""",
+# )
 
-entry(
-    index = 46,
-    label = "OH* + H <=> OH + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.31e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-167,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + H <=> OH + H""",
-)
+# entry(
+#     index = 46,
+#     label = "OH* + H <=> OH + H",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.31e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-167,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + H <=> OH + H""",
+# )
 
-entry(
-    index = 47,
-    label = "OH* + AR <=> OH + AR",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.69e+12,'cm^3/(mol*s)'), n=0, Ea=(4135,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + AR <=> OH + AR""",
-)
+# entry(
+#     index = 47,
+#     label = "OH* + AR <=> OH + AR",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.69e+12,'cm^3/(mol*s)'), n=0, Ea=(4135,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + AR <=> OH + AR""",
+# )
 
-entry(
-    index = 48,
-    label = "OH* <=> OH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.45e+06,'s^-1'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* <=> OH""",
-)
+# entry(
+#     index = 48,
+#     label = "OH* <=> OH",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.45e+06,'s^-1'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* <=> OH""",
+# )
 
-entry(
-    index = 49,
-    label = "OH* + O2 <=> OH + O2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.1e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-478,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + O2 <=> OH + O2""",
-)
+# entry(
+#     index = 49,
+#     label = "OH* + O2 <=> OH + O2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.1e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-478,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + O2 <=> OH + O2""",
+# )
 
-entry(
-    index = 50,
-    label = "OH* + CO2 <=> OH + CO2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.75e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-968,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + CO2 <=> OH + CO2""",
-)
+# entry(
+#     index = 50,
+#     label = "OH* + CO2 <=> OH + CO2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.75e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-968,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + CO2 <=> OH + CO2""",
+# )
 
-entry(
-    index = 51,
-    label = "OH* + CO <=> OH + CO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.23e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-787,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + CO <=> OH + CO""",
-)
+# entry(
+#     index = 51,
+#     label = "OH* + CO <=> OH + CO",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(3.23e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-787,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + CO <=> OH + CO""",
+# )
 
-entry(
-    index = 52,
-    label = "OH* + CH4 <=> OH + CH4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.36e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-635,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is OH* + CH4 <=> OH + CH4""",
-)
+# entry(
+#     index = 52,
+#     label = "OH* + CH4 <=> OH + CH4",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(3.36e+12,'cm^3/(mol*s)'), n=0.5, Ea=(-635,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is OH* + CH4 <=> OH + CH4""",
+# )
 
-entry(
-    index = 53,
-    label = "CH + O2 <=> CO + OH*",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.04e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH + O2 <=> CO + OH*""",
-)
+# entry(
+#     index = 53,
+#     label = "CH + O2 <=> CO + OH*",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(4.04e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH + O2 <=> CO + OH*""",
+# )
 
-entry(
-    index = 54,
-    label = "C2H + O <=> CO + CH*",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(6.2e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')), Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'))]),
-    shortDesc = """The chemkin file reaction is C2H + O <=> CO + CH*""",
-)
+# entry(
+#     index = 54,
+#     label = "C2H + O <=> CO + CH*",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(6.2e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')), Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'))]),
+#     shortDesc = """The chemkin file reaction is C2H + O <=> CO + CH*""",
+# )
 
-entry(
-    index = 55,
-    label = "C + H <=> CH*",
-    degeneracy = 1.0,
-    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(6e+14,'cm^6/(mol^2*s)'), n=0, Ea=(6940,'cal/mol'), T0=(1,'K')), efficiencies={}),
-    shortDesc = """The chemkin file reaction is C + H <=> CH*""",
-)
+# entry(
+#     index = 55,
+#     label = "C + H <=> CH*",
+#     degeneracy = 1.0,
+#     kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(6e+14,'cm^6/(mol^2*s)'), n=0, Ea=(6940,'cal/mol'), T0=(1,'K')), efficiencies={}),
+#     shortDesc = """The chemkin file reaction is C + H <=> CH*""",
+# )
 
-entry(
-    index = 56,
-    label = "C2H + O2 <=> CO2 + CH*",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.17e+10,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is C2H + O2 <=> CO2 + CH*""",
-)
+# entry(
+#     index = 56,
+#     label = "C2H + O2 <=> CO2 + CH*",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.17e+10,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is C2H + O2 <=> CO2 + CH*""",
+# )
 
-entry(
-    index = 57,
-    label = "CH* + AR <=> CH + AR",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4e+11,'cm^3/(mol*s)'), n=0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* + AR <=> CH + AR""",
-)
+# entry(
+#     index = 57,
+#     label = "CH* + AR <=> CH + AR",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(4e+11,'cm^3/(mol*s)'), n=0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* + AR <=> CH + AR""",
+# )
 
-entry(
-    index = 58,
-    label = "CH* + H2O <=> CH + H2O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* + H2O <=> CH + H2O""",
-)
+# entry(
+#     index = 58,
+#     label = "CH* + H2O <=> CH + H2O",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(5.3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* + H2O <=> CH + H2O""",
+# )
 
-entry(
-    index = 59,
-    label = "CH* + CO <=> CH + CO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.44e+12,'cm^3/(mol*s)'), n=0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* + CO <=> CH + CO""",
-)
+# entry(
+#     index = 59,
+#     label = "CH* + CO <=> CH + CO",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.44e+12,'cm^3/(mol*s)'), n=0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* + CO <=> CH + CO""",
+# )
 
-entry(
-    index = 60,
-    label = "CH* + CO2 <=> CH + CO2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.241,'cm^3/(mol*s)'), n=4.3, Ea=(-1694,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* + CO2 <=> CH + CO2""",
-)
+# entry(
+#     index = 60,
+#     label = "CH* + CO2 <=> CH + CO2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(0.241,'cm^3/(mol*s)'), n=4.3, Ea=(-1694,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* + CO2 <=> CH + CO2""",
+# )
 
-entry(
-    index = 61,
-    label = "CH* + O2 <=> CH + O2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.48e+06,'cm^3/(mol*s)'), n=2.14, Ea=(-1720,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* + O2 <=> CH + O2""",
-)
+# entry(
+#     index = 61,
+#     label = "CH* + O2 <=> CH + O2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.48e+06,'cm^3/(mol*s)'), n=2.14, Ea=(-1720,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* + O2 <=> CH + O2""",
+# )
 
-entry(
-    index = 62,
-    label = "CH* + H2 <=> CH + H2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.47e+14,'cm^3/(mol*s)'), n=0, Ea=(1361,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* + H2 <=> CH + H2""",
-)
+# entry(
+#     index = 62,
+#     label = "CH* + H2 <=> CH + H2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.47e+14,'cm^3/(mol*s)'), n=0, Ea=(1361,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* + H2 <=> CH + H2""",
+# )
 
-entry(
-    index = 63,
-    label = "CH* + CH4 <=> CH + CH4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.73e+13,'cm^3/(mol*s)'), n=0, Ea=(167,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* + CH4 <=> CH + CH4""",
-)
+# entry(
+#     index = 63,
+#     label = "CH* + CH4 <=> CH + CH4",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.73e+13,'cm^3/(mol*s)'), n=0, Ea=(167,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* + CH4 <=> CH + CH4""",
+# )
 
-entry(
-    index = 64,
-    label = "CH* <=> CH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.86e+06,'s^-1'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* <=> CH""",
-)
+# entry(
+#     index = 64,
+#     label = "CH* <=> CH",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.86e+06,'s^-1'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* <=> CH""",
+# )
 
-entry(
-    index = 65,
-    label = "CH* + N2 <=> CH + N2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(303,'cm^3/(mol*s)'), n=3.4, Ea=(-381,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is CH* + N2 <=> CH + N2""",
-)
+# entry(
+#     index = 65,
+#     label = "CH* + N2 <=> CH + N2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(303,'cm^3/(mol*s)'), n=3.4, Ea=(-381,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is CH* + N2 <=> CH + N2""",
+# )
 
 entry(
     index = 66,
