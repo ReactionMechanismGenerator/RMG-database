@@ -8152,14 +8152,14 @@ entry(
     shortDesc = """The chemkin file reaction is HO2 + C5H5 => OH + CO + C4H5""",
 )
 
-entry(
-    index = 985,
-    label = "HO2 + C5H5 => OH + CO + C2H4 + C2H",
-    degeneracy = 1.0,
-    reversible = False,
-    kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is HO2 + C5H5 => OH + CO + C2H4 + C2H""",
-)
+# entry(
+#     index = 985,
+#     label = "HO2 + C5H5 => OH + CO + C2H4 + C2H",
+#     degeneracy = 1.0,
+#     reversible = False,
+#     kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is HO2 + C5H5 => OH + CO + C2H4 + C2H""",
+# )
 
 entry(
     index = 986,
@@ -8620,23 +8620,23 @@ entry(
     shortDesc = """The chemkin file reaction is C4H3 + C6H6 => H + C10H8""",
 )
 
-entry(
-    index = 1037,
-    label = "C4H71-4 + C6H6 => H2 + H2 + H + C10H8",
-    degeneracy = 1.0,
-    reversible = False,
-    kinetics = Arrhenius(A=(4.5e+11,'cm^3/(mol*s)'), n=0, Ea=(6000,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is C4H71-4 + C6H6 => H2 + H2 + H + C10H8""",
-)
+# entry(
+#     index = 1037,
+#     label = "C4H71-4 + C6H6 => H2 + H2 + H + C10H8",
+#     degeneracy = 1.0,
+#     reversible = False,
+#     kinetics = Arrhenius(A=(4.5e+11,'cm^3/(mol*s)'), n=0, Ea=(6000,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is C4H71-4 + C6H6 => H2 + H2 + H + C10H8""",
+# )
 
-entry(
-    index = 1038,
-    label = "C4H6 + C6H6 => H2 + H + H + C10H8",
-    degeneracy = 1.0,
-    reversible = False,
-    kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(30000,'cal/mol'), T0=(1,'K')),
-    shortDesc = """The chemkin file reaction is C4H6 + C6H6 => H2 + H + H + C10H8""",
-)
+# entry(
+#     index = 1038,
+#     label = "C4H6 + C6H6 => H2 + H + H + C10H8",
+#     degeneracy = 1.0,
+#     reversible = False,
+#     kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(30000,'cal/mol'), T0=(1,'K')),
+#     shortDesc = """The chemkin file reaction is C4H6 + C6H6 => H2 + H + H + C10H8""",
+# )
 
 entry(
     index = 1039,
