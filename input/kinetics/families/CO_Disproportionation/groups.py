@@ -48,7 +48,7 @@ entry(
     group = 
 """
 1 *3 C        u1 p0 c0 {2,S} {3,D}
-2 *4 [H,Val7] u0 p[0,3] c0 {1,S}
+2 *4 [H,F1s,Cl1s,Br1s,I1s] u0 p[0,3] c0 {1,S}
 3 *2 [O,S2d]  u0 p2 c0 {1,D}
 """,
     kinetics = None,

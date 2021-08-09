@@ -30,8 +30,8 @@ entry(
     group = 
 """
 1 *1 C2s u0 p1 {2,S} {3,S}
-2    [H,Val7]   u0 {1,S}
-3    [H,Val7]   u0 {1,S}
+2    [H,F1s,Cl1s,Br1s,I1s]   u0 {1,S}
+3    [H,F1s,Cl1s,Br1s,I1s]   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -41,8 +41,8 @@ entry(
     label = "RR'",
     group = 
 """
-1 *2 [H,Val7,Cs,Cd,Cb,Ct,O,Sis,Sid,N,S] u0 {2,S}
-2 *3 [H,Val7,Cs,Cd,Cb,Ct,Sis,Sid,N,S] u0 {1,S}
+1 *2 [H,F1s,Cl1s,Br1s,I1s,Cs,Cd,Cb,Ct,O,Sis,Sid,N,S] u0 {2,S}
+2 *3 [H,F1s,Cl1s,Br1s,I1s,Cs,Cd,Cb,Ct,Sis,Sid,N,S] u0 {1,S}
 """,
     kinetics = None,
 )

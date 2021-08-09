@@ -30,7 +30,7 @@ entry(
 """
 1 *1 C u0 p1 c0 {2,[S,D]}
 2 *2 C u0 {1,[S,D]} {3,S}
-3 *3 [H,Val7] u0 {2,S}
+3 *3 [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
     kinetics = None,
 )
