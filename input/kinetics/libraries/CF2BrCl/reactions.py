@@ -13546,7 +13546,8 @@ entry(
     label = "C2F4 + O <=> CF2 + CF2:O",
     degeneracy = 1.0,
     duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(1.9e+09,'cm^3/(mol*s)'), n=1, Ea=(0,'cal/mol'), T0=(1,'K')), Arrhenius(A=(3.93e+11,'cm^3/(mol*s)'), n=1.48, Ea=(0,'cal/mol'), T0=(1,'K'))]),
+    allow_max_rate_violation=True,
+    kinetics = Arrhenius(A=(3.93e+11,'cm^3/(mol*s)'), n=1.48, Ea=(0,'cal/mol'), T0=(1,'K')),
     shortDesc = """The chemkin file reaction is C2F4 + O <=> CF2 + CF2:O""",
 )
 
@@ -19156,6 +19157,7 @@ entry(
     index = 2370,
     label = "CF2BR + CF2BR <=> CF2BR2 + CF2",
     degeneracy = 1.0,
+    allow_max_rate_violation=True,
     kinetics = Arrhenius(A=(2.06e+16,'cm^3/(mol*s)'), n=0, Ea=(5720,'cal/mol'), T0=(1,'K')),
     shortDesc = """The chemkin file reaction is CF2BR + CF2BR <=> CF2BR2 + CF2""",
 )
@@ -19300,6 +19302,7 @@ entry(
     index = 2388,
     label = "C2F4 + O <=> CF3 + CF:O",
     degeneracy = 1.0,
+    allow_max_rate_violation=True,
     kinetics = Arrhenius(A=(6.9e+10,'cm^3/(mol*s)'), n=1.48, Ea=(0,'cal/mol'), T0=(1,'K')),
     shortDesc = """The chemkin file reaction is C2F4 + O <=> CF3 + CF:O""",
 )
