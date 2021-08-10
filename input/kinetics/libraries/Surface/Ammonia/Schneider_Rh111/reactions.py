@@ -202,7 +202,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (2.22E21, 'cm^2/(mol*s)'), 
         n = 0.0,
-        Ea = (39561, 'J/mol'),  
+        Ea = (63683.4, 'J/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
