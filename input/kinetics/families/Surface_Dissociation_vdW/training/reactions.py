@@ -450,7 +450,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: NH3_X + X <=> NH2_X + H_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor is a mean value from other Pt111 libraries
@@ -474,7 +474,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: H_X + OH_X <=> H2O_X + X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor from CPOX/Deutschmann 
@@ -498,7 +498,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: NH3_X + X <=> NH2_X + H_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
@@ -522,7 +522,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: H_X + OH_X <=> H2O_X + X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211

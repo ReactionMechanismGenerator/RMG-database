@@ -86,7 +86,7 @@ entry(
 # Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 # Original entry: NO_X <=> NO + X
 # "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-# DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+# Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 # https://doi.org/10.1021/acscatal.8b04251
 
 # Ea = 1.91eV = 184295.9J/mol
@@ -109,7 +109,7 @@ entry(
 # Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 # Original entry: NO_X <=> NO + X
 # "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-# DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+# Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 # https://doi.org/10.1021/acscatal.8b04251
 
 # Ea = 2.33eV = 224821.7J/mol
