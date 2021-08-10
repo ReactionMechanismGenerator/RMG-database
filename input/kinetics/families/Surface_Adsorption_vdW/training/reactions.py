@@ -200,7 +200,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: NH3 + X <=> NH3_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
@@ -224,7 +224,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: NH3 + X <=> NH3_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.

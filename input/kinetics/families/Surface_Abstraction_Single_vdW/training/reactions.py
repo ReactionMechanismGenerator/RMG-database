@@ -44,7 +44,7 @@ Original entry: NH3_X + OH_X <=> NH2_X + H2O_X
 Based primarily on 
 "Density-functional theory study of NHx oxidation 
 and reverse reactions on the Rh (111) surface."
-C. Popa, R. A. van Santen, and A. P. J. JansenJ.
+C. Popa, R. A. van Santen, and A. P. J. Jansen.
 Phys. Chem. C 2007, 111, 9839– 9852.
 https://doi.org/10.1021/jp071072g
 

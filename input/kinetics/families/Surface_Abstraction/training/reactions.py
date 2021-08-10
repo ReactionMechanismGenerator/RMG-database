@@ -173,7 +173,7 @@ Original entry: NH2_X +O_X <=> NH_X + OH_X
 Based primarily on 
 "Density-functional theory study of NHx oxidation 
 and reverse reactions on the Rh (111) surface."
-C. Popa, R. A. van Santen, and A. P. J. JansenJ.
+C. Popa, R. A. van Santen, and A. P. J. Jansen.
 Phys. Chem. C 2007, 111, 9839– 9852.
 https://doi.org/10.1021/jp071072g
 
@@ -202,7 +202,7 @@ Original entry: NH_X +O_X <=> N_X + OH_X
 Based primarily on 
 "Density-functional theory study of NHx oxidation 
 and reverse reactions on the Rh (111) surface."
-C. Popa, R. A. van Santen, and A. P. J. JansenJ.
+C. Popa, R. A. van Santen, and A. P. J. Jansen.
 Phys. Chem. C 2007, 111, 9839– 9852.
 https://doi.org/10.1021/jp071072g
 
@@ -277,7 +277,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: NH2_X +O_X <=> NH_X + OH_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
@@ -302,7 +302,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: NH_X + O_X <=> N_X + OH_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
@@ -327,7 +327,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: NH2_X +O_X <=> NH_X + OH_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
@@ -352,7 +352,7 @@ entry(
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: NH_X + O_X <=> N_X + OH_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
