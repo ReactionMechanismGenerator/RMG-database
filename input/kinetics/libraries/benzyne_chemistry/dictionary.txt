@@ -225,7 +225,7 @@ acetylene
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
 
-1_int
+int_1
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {14,S}
 3  C u0 p0 c0 {1,S} {15,S} {16,S} {17,S}
@@ -252,7 +252,7 @@ acetylene
 24 H u0 p0 c0 {13,S}
 25 H u0 p0 c0 {11,S}
 
-2_int
+int_2
 1  C u0 p0 c0 {4,S} {5,S} {9,S} {15,S}
 2  C u0 p0 c0 {6,S} {7,S} {8,S} {14,S}
 3  C u0 p0 c0 {4,S} {16,S} {17,S} {18,S}
