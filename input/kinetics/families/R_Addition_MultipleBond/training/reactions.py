@@ -58265,3 +58265,452 @@ J. Phys. Chem. A 1999, 103 (45), 9036–9041.
 """,
 )
 
+entry(
+    index = 2902,
+    label = "CH3 + C2H4 <=> C3H7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (861, 'cm^3/(mol*s)'),
+        n = 2.988,
+        Ea = (7.238, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2903,
+    label = "C2H5 + C2H4 <=> C4H9-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (36.28, 'cm^3/(mol*s)'),
+        n = 2.997,
+        Ea = (6.866, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2904,
+    label = "C3H7-5 + C2H4 <=> C5H11-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (20.13, 'cm^3/(mol*s)'),
+        n = 3.003,
+        Ea = (6.486, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2905,
+    label = "C4H9-1 + C2H4 <=> C6H13-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (27.08, 'cm^3/(mol*s)'),
+        n = 2.995,
+        Ea = (6.503, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2906,
+    label = "C5H11-10 + C2H4 <=> C7H15-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (25.8, 'cm^3/(mol*s)'),
+        n = 3.014,
+        Ea = (6.441, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+entry(
+    index = 2907,
+    label = "C6H13-11 + C2H4 <=> C8H17-7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (19.35, 'cm^3/(mol*s)'),
+        n = 3.009,
+        Ea = (6.429, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2908,
+    label = "C7H15-10 + C2H4 <=> C9H19-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (21.89, 'cm^3/(mol*s)'),
+        n = 3.015,
+        Ea = (6.396, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2909,
+    label = "C8H17-8 + C2H4 <=> C10H21-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (18.44, 'cm^3/(mol*s)'),
+        n = 3.009,
+        Ea = (6.446, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2910,
+    label = "C10H21-3 + C2H4 <=> C12H25",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (17.9, 'cm^3/(mol*s)'),
+        n = 3.012,
+        Ea = (6.454, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2911,
+    label = "C9H19-5 + propene_1 <=> C12H25-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.808, 'cm^3/(mol*s)'),
+        n = 2.985,
+        Ea = (6.156, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2912,
+    label = "CH3 + C11H22 <=> C12H25-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (607.5, 'cm^3/(mol*s)'),
+        n = 2.969,
+        Ea = (6.95, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2913,
+    label = "C8H17-8 + butene1_1 <=> C12H25-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.15, 'cm^3/(mol*s)'),
+        n = 2.992,
+        Ea = (6.26, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2914,
+    label = "C2H5 + C10H20 <=> C12H25-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.816, 'cm^3/(mol*s)'),
+        n = 2.961,
+        Ea = (6.743, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2915,
+    label = "C7H15-10 + C5H10-3 <=> C12H25-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.836, 'cm^3/(mol*s)'),
+        n = 2.984,
+        Ea = (6.311, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2916,
+    label = "C3H7-5 + C9H18 <=> C12H25-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.773, 'cm^3/(mol*s)'),
+        n = 2.984,
+        Ea = (6.363, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2917,
+    label = "C6H13-11 + C6H12-2 <=> C12H25-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.462, 'cm^3/(mol*s)'),
+        n = 2.987,
+        Ea = (6.32, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2918,
+    label = "C4H9-1 + C8H16 <=> C12H25-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.406, 'cm^3/(mol*s)'),
+        n = 2.971,
+        Ea = (6.43, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2919,
+    label = "C5H11-10 + C7H14 <=> C12H25-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.915, 'cm^3/(mol*s)'),
+        n = 2.977,
+        Ea = (6.365, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
