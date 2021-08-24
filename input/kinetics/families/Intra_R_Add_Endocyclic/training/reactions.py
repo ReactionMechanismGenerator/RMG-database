@@ -17466,6 +17466,19 @@ Level of Theory: CBS-QB3 with 1-D Hindered Rotors at B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
 """,
 )
+entry(
+    index = 843,
+    label = "C6H11O2 <=> C6H11O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.0626e+06,'s^-1'), n=1.53055, Ea=(97.6526,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.078, dn = +|- 0.00998007, dEa = +|- 0.0511205 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Intra_R_addition
+Original entry: CC(C)=C(C)CO[O] <=> C[C]1COOC1(C)C
+""",
+)
 
 entry(
     index = 843,
@@ -17590,6 +17603,49 @@ entry(
 u"""
 Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
 Original entry: 2-Vinylphenyl <=> W8
+""",
+)
+
+
+entry(
+    index = 851,
+    label = "C5H9O3 <=> C5H9O3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.87422e+08,'s^-1'), n=0.646298, Ea=(92.9799,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.21825, dn = +|- 0.0262331, dEa = +|- 0.134373 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Intra_R_addition
+Original entry: C=C(C)C(CO)O[O] <=> C[C]1COOC1CO
+""",
+)
+
+entry(
+    index = 852,
+    label = "C5H9O3-3 <=> C5H9O3-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.35689e+12,'s^-1'), n=-0.361975, Ea=(105.37,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.22732, dn = +|- 0.0272191, dEa = +|- 0.139423 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Intra_R_addition
+Original entry: CC(=CCO)CO[O] <=> C[C]1COOC1CO
+""",
+)
+
+entry(
+    index = 853,
+    label = "C5H9O3-5 <=> C5H9O3-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.41583e+08,'s^-1'), n=0.702792, Ea=(101.348,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02299, dn = +|- 0.00302102, dEa = +|- 0.0154744 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Intra_R_addition
+Original entry: CC(C)=CC(O)O[O] <=> CC1(C)[CH]C(O)OO1
 """,
 )
 
