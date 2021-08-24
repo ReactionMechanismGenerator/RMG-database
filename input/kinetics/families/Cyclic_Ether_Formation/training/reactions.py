@@ -505,7 +505,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.03087e+09,'s^-1'), n=0.954882, Ea=(126.689,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0422, dn = +|- 0.00549275, dEa = +|- 0.0281353 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -519,7 +519,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.38891e+10,'s^-1'), n=0.588176, Ea=(114.704,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02773, dn = +|- 0.00363438, dEa = +|- 0.0186163 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -533,7 +533,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.78705e+09,'s^-1'), n=0.83402, Ea=(101.595,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01578, dn = +|- 0.002081, dEa = +|- 0.0106594 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -547,7 +547,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.63578e+06,'s^-1'), n=1.14162, Ea=(44.4605,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.09413, dn = +|- 0.0119546, dEa = +|- 0.0612349 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -561,7 +561,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.41451e+08,'s^-1'), n=1.29418, Ea=(106.291,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02139, dn = +|- 0.00281178, dEa = +|- 0.0144027 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -575,7 +575,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.34238e+08,'s^-1'), n=1.1945, Ea=(45.4801,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02521, dn = +|- 0.00330887, dEa = +|- 0.0169489 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -589,7 +589,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.78488e+08,'s^-1'), n=1.3147, Ea=(52.3296,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03554, dn = +|- 0.00464121, dEa = +|- 0.0237735 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -603,7 +603,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.38223e+09,'s^-1'), n=0.839684, Ea=(36.1981,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01646, dn = +|- 0.00216885, dEa = +|- 0.0111094 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -617,7 +617,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.92676e+11,'s^-1'), n=0.225643, Ea=(123.232,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05079, dn = +|- 0.00658344, dEa = +|- 0.0337221 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -631,7 +631,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.7757e+10,'s^-1'), n=0.511744, Ea=(35.6076,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02652, dn = +|- 0.00347829, dEa = +|- 0.0178167 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -645,7 +645,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.67792e+10,'s^-1'), n=0.370445, Ea=(90.1509,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.09813, dn = +|- 0.0124387, dEa = +|- 0.0637142 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -659,7 +659,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.91622e+08,'s^-1'), n=0.896273, Ea=(131.268,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02386, dn = +|- 0.00313309, dEa = +|- 0.0160485 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -673,7 +673,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.10049e+09,'s^-1'), n=0.93255, Ea=(35.7581,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02603, dn = +|- 0.00341531, dEa = +|- 0.0174941 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -687,7 +687,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.69722e+09,'s^-1'), n=0.942572, Ea=(38.7169,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0153, dn = +|- 0.002018, dEa = +|- 0.0103368 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -701,7 +701,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.68408e+09,'s^-1'), n=0.88186, Ea=(47.0691,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03612, dn = +|- 0.00471472, dEa = +|- 0.0241501 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -715,7 +715,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.02182e+07,'s^-1'), n=1.14033, Ea=(75.0043,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03392, dn = +|- 0.00443305, dEa = +|- 0.0227072 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -729,7 +729,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.12077e+09,'s^-1'), n=0.58338, Ea=(77.122,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05338, dn = +|- 0.0069104, dEa = +|- 0.0353969 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -743,7 +743,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.62354e+07,'s^-1'), n=1.27837, Ea=(73.7629,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04105, dn = +|- 0.00534606, dEa = +|- 0.0273839 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -757,7 +757,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.14245e+08,'s^-1'), n=1.24018, Ea=(72.064,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01544, dn = +|- 0.00203621, dEa = +|- 0.01043 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -771,7 +771,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.78368e+07,'s^-1'), n=1.21142, Ea=(66.0469,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02043, dn = +|- 0.00268731, dEa = +|- 0.0137651 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -785,7 +785,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.14036e+08,'s^-1'), n=1.13262, Ea=(38.277,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04968, dn = +|- 0.00644356, dEa = +|- 0.0330056 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -799,7 +799,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.03087e+09,'s^-1'), n=0.954882, Ea=(126.689,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0422, dn = +|- 0.00549275, dEa = +|- 0.0281353 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -813,7 +813,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.63578e+06,'s^-1'), n=1.14162, Ea=(44.4605,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.09413, dn = +|- 0.0119546, dEa = +|- 0.0612349 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -827,7 +827,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.41451e+08,'s^-1'), n=1.29418, Ea=(106.291,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02139, dn = +|- 0.00281178, dEa = +|- 0.0144027 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -841,7 +841,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.34238e+08,'s^-1'), n=1.1945, Ea=(45.4801,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02521, dn = +|- 0.00330887, dEa = +|- 0.0169489 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -855,7 +855,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.78488e+08,'s^-1'), n=1.3147, Ea=(52.3296,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03554, dn = +|- 0.00464121, dEa = +|- 0.0237735 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -869,7 +869,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.38223e+09,'s^-1'), n=0.839684, Ea=(36.1981,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01646, dn = +|- 0.00216885, dEa = +|- 0.0111094 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -883,7 +883,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.92676e+11,'s^-1'), n=0.225643, Ea=(123.232,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05079, dn = +|- 0.00658344, dEa = +|- 0.0337221 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -897,7 +897,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.7757e+10,'s^-1'), n=0.511744, Ea=(35.6076,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02652, dn = +|- 0.00347829, dEa = +|- 0.0178167 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -924,7 +924,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.91622e+08,'s^-1'), n=0.896273, Ea=(131.268,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02386, dn = +|- 0.00313309, dEa = +|- 0.0160485 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -951,7 +951,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.69722e+09,'s^-1'), n=0.942572, Ea=(38.7169,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0153, dn = +|- 0.002018, dEa = +|- 0.0103368 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -965,7 +965,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.68408e+09,'s^-1'), n=0.88186, Ea=(47.0691,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03612, dn = +|- 0.00471472, dEa = +|- 0.0241501 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -979,7 +979,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.02182e+07,'s^-1'), n=1.14033, Ea=(75.0043,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03392, dn = +|- 0.00443305, dEa = +|- 0.0227072 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -993,7 +993,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.62354e+07,'s^-1'), n=1.27837, Ea=(73.7629,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04105, dn = +|- 0.00534606, dEa = +|- 0.0273839 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
@@ -1007,7 +1007,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.78368e+07,'s^-1'), n=1.21142, Ea=(66.0469,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02043, dn = +|- 0.00268731, dEa = +|- 0.0137651 kJ/mol"""),
     rank = 5,
-    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
     longDesc = 
 """
 Training reaction from kinetics library: CyclicEther
