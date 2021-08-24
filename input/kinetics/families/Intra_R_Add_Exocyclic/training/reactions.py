@@ -7966,3 +7966,31 @@ Original entry: 2-Phenylvinyl <=> W4
 """,
 )
 
+entry(
+    index = 373,
+    label = "C5H9O3 <=> C5H9O3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.09778e+16,'s^-1'), n=-1.50609, Ea=(113.655,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.27389, dn = +|- 0.0321676, dEa = +|- 0.164771 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Intra_R_addition
+Original entry: CC(=CCO)CO[O] <=> CC1([CH]CO)COO1
+""",
+)
+
+entry(
+    index = 374,
+    label = "C5H9O3-3 <=> C5H9O3-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.6158e+11,'s^-1'), n=0.294208, Ea=(94.3368,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05226, dn = +|- 0.00676897, dEa = +|- 0.0346725 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Intra_R_addition
+Original entry: CC(C)=CC(O)O[O] <=> C[C](C)C1OOC1O
+""",
+)
+
