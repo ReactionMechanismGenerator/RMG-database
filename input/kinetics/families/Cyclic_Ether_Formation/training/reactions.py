@@ -756,3 +756,519 @@ Converted to training reaction from rate rule: R2OO_S;C_rad/H/NonDeC_intra;OOJ
 """,
 )
 
+entry(
+    index = 37,
+    label = "C4H7O2-3 <=> C4H6O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.03087e+09,'s^-1'), n=0.954882, Ea=(126.689,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0422, dn = +|- 0.00549275, dEa = +|- 0.0281353 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C=C([CH]C)OO <=> CC=C1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 38,
+    label = "C3H5O3-2 <=> C3H4O2-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.38891e+10,'s^-1'), n=0.588176, Ea=(114.704,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02773, dn = +|- 0.00363438, dEa = +|- 0.0186163 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(=O)COO <=> O=C1COC1 + [OH]
+""",
+)
+
+entry(
+    index = 39,
+    label = "C6H11O2-2 <=> C6H10O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.78705e+09,'s^-1'), n=0.83402, Ea=(101.595,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01578, dn = +|- 0.002081, dEa = +|- 0.0106594 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C=C(C)[C](C)COO <=> CC1=C(C)COC1 + [OH]
+""",
+)
+
+entry(
+    index = 40,
+    label = "C4H9O2 <=> C4H8O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.63578e+06,'s^-1'), n=1.14162, Ea=(44.4605,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.09413, dn = +|- 0.0119546, dEa = +|- 0.0612349 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]CCCOO <=> C1CCOC1 + [OH]
+""",
+)
+
+entry(
+    index = 41,
+    label = "C4H7O2-4 <=> C4H6O-3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.41451e+08,'s^-1'), n=1.29418, Ea=(106.291,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02139, dn = +|- 0.00281178, dEa = +|- 0.0144027 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C=C[CH]COO <=> C1=CCOC1 + [OH]
+""",
+)
+
+entry(
+    index = 42,
+    label = "C3H7O2 <=> C3H6O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.34238e+08,'s^-1'), n=1.1945, Ea=(45.4801,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02521, dn = +|- 0.00330887, dEa = +|- 0.0169489 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(C)OO <=> CC1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 43,
+    label = "C2H5O2 <=> C2H4O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.78488e+08,'s^-1'), n=1.3147, Ea=(52.3296,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03554, dn = +|- 0.00464121, dEa = +|- 0.0237735 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]COO <=> C1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 44,
+    label = "C5H11O2 <=> C5H10O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.38223e+09,'s^-1'), n=0.839684, Ea=(36.1981,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01646, dn = +|- 0.00216885, dEa = +|- 0.0111094 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C[CH]C(C)(C)OO <=> CC1OC1(C)C + [OH]
+""",
+)
+
+entry(
+    index = 45,
+    label = "C6H11O2-3 <=> C6H10O-2 + OH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.92676e+11,'s^-1'), n=0.225643, Ea=(123.232,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05079, dn = +|- 0.00658344, dEa = +|- 0.0337221 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(=C)C(C)(C)OO <=> C=C1COC1(C)C + [OH]
+""",
+)
+
+entry(
+    index = 46,
+    label = "C6H13O2 <=> C6H12O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.7757e+10,'s^-1'), n=0.511744, Ea=(35.6076,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02652, dn = +|- 0.00347829, dEa = +|- 0.0178167 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C[C](C)C(C)(C)OO <=> CC1(C)OC1(C)C + [OH]
+""",
+)
+
+entry(
+    index = 47,
+    label = "C6H11O2-4 <=> C6H10O-3 + OH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.67792e+10,'s^-1'), n=0.370445, Ea=(90.1509,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.09813, dn = +|- 0.0124387, dEa = +|- 0.0637142 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(=C)C(C)COO <=> C=C1COCC1C + [OH]
+""",
+)
+
+entry(
+    index = 48,
+    label = "C4H7O2-5 <=> C4H6O-4 + OH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7.91622e+08,'s^-1'), n=0.896273, Ea=(131.268,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02386, dn = +|- 0.00313309, dEa = +|- 0.0160485 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(=C)COO <=> C=C1COC1 + [OH]
+""",
+)
+
+entry(
+    index = 49,
+    label = "C5H11O2-2 <=> C5H10O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.10049e+09,'s^-1'), n=0.93255, Ea=(35.7581,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02603, dn = +|- 0.00341531, dEa = +|- 0.0174941 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C[C](C)C(C)OO <=> CC1OC1(C)C + [OH]
+""",
+)
+
+entry(
+    index = 50,
+    label = "C4H9O2-2 <=> C4H8O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.69722e+09,'s^-1'), n=0.942572, Ea=(38.7169,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0153, dn = +|- 0.002018, dEa = +|- 0.0103368 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(C)(C)OO <=> CC1(C)CO1 + [OH]
+""",
+)
+
+entry(
+    index = 51,
+    label = "C4H7O2-6 <=> C4H6O-5 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.68408e+09,'s^-1'), n=0.88186, Ea=(47.0691,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03612, dn = +|- 0.00471472, dEa = +|- 0.0241501 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(C=C)OO <=> C=CC1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 52,
+    label = "C3H7O2-2 <=> C3H6O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.02182e+07,'s^-1'), n=1.14033, Ea=(75.0043,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03392, dn = +|- 0.00443305, dEa = +|- 0.0227072 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]CCOO <=> C1COC1 + [OH]
+""",
+)
+
+entry(
+    index = 53,
+    label = "C3H5O3-3 <=> C3H4O2-3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.12077e+09,'s^-1'), n=0.58338, Ea=(77.122,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05338, dn = +|- 0.0069104, dEa = +|- 0.0353969 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]CC(=O)OO <=> O=C1CCO1 + [OH]
+""",
+)
+
+entry(
+    index = 54,
+    label = "C4H7O2-7 <=> C4H6O-6 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.62354e+07,'s^-1'), n=1.27837, Ea=(73.7629,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04105, dn = +|- 0.00534606, dEa = +|- 0.0273839 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]CC(=C)OO <=> C=C1CCO1 + [OH]
+""",
+)
+
+entry(
+    index = 55,
+    label = "C4H7O2-8 <=> C4H6O-7 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.14245e+08,'s^-1'), n=1.24018, Ea=(72.064,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01544, dn = +|- 0.00203621, dEa = +|- 0.01043 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C=C[CH]COO <=> C=CC1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 56,
+    label = "C4H9O2-3 <=> C4H8O-3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.78368e+07,'s^-1'), n=1.21142, Ea=(66.0469,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02043, dn = +|- 0.00268731, dEa = +|- 0.0137651 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C[CH]CCOO <=> CC1CCO1 + [OH]
+""",
+)
+
+entry(
+    index = 57,
+    label = "C4H7O2-9 <=> C4H6O-8 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.14036e+08,'s^-1'), n=1.13262, Ea=(38.277,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04968, dn = +|- 0.00644356, dEa = +|- 0.0330056 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]CC=COO <=> C1=COCC1 + [OH]
+""",
+)
+
+entry(
+    index = 58,
+    label = "C4H7O2-3 <=> C4H6O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.03087e+09,'s^-1'), n=0.954882, Ea=(126.689,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0422, dn = +|- 0.00549275, dEa = +|- 0.0281353 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C=C([CH]C)OO <=> CC=C1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 59,
+    label = "C4H9O2 <=> C4H8O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.63578e+06,'s^-1'), n=1.14162, Ea=(44.4605,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.09413, dn = +|- 0.0119546, dEa = +|- 0.0612349 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]CCCOO <=> C1CCOC1 + [OH]
+""",
+)
+
+entry(
+    index = 60,
+    label = "C4H7O2-4 <=> C4H6O-3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.41451e+08,'s^-1'), n=1.29418, Ea=(106.291,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02139, dn = +|- 0.00281178, dEa = +|- 0.0144027 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C=C[CH]COO <=> C1=CCOC1 + [OH]
+""",
+)
+
+entry(
+    index = 61,
+    label = "C3H7O2 <=> C3H6O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.34238e+08,'s^-1'), n=1.1945, Ea=(45.4801,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02521, dn = +|- 0.00330887, dEa = +|- 0.0169489 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(C)OO <=> CC1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 62,
+    label = "C2H5O2 <=> C2H4O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.78488e+08,'s^-1'), n=1.3147, Ea=(52.3296,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03554, dn = +|- 0.00464121, dEa = +|- 0.0237735 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]COO <=> C1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 63,
+    label = "C5H11O2 <=> C5H10O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.38223e+09,'s^-1'), n=0.839684, Ea=(36.1981,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01646, dn = +|- 0.00216885, dEa = +|- 0.0111094 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C[CH]C(C)(C)OO <=> CC1OC1(C)C + [OH]
+""",
+)
+
+entry(
+    index = 64,
+    label = "C6H11O2-3 <=> C6H10O-2 + OH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.92676e+11,'s^-1'), n=0.225643, Ea=(123.232,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05079, dn = +|- 0.00658344, dEa = +|- 0.0337221 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(=C)C(C)(C)OO <=> C=C1COC1(C)C + [OH]
+""",
+)
+
+entry(
+    index = 65,
+    label = "C6H13O2 <=> C6H12O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.7757e+10,'s^-1'), n=0.511744, Ea=(35.6076,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02652, dn = +|- 0.00347829, dEa = +|- 0.0178167 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C[C](C)C(C)(C)OO <=> CC1(C)OC1(C)C + [OH]
+""",
+)
+
+entry(
+    index = 66,
+    label = "C6H11O2-4 <=> C6H10O-3 + OH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.67792e+10,'s^-1'), n=0.370445, Ea=(90.1509,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.09813, dn = +|- 0.0124387, dEa = +|- 0.0637142 kJ/mol"""),
+    rank = 5,
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(=C)C(C)COO <=> C=C1COCC1C + [OH]
+""",
+)
+
+entry(
+    index = 67,
+    label = "C4H7O2-5 <=> C4H6O-4 + OH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7.91622e+08,'s^-1'), n=0.896273, Ea=(131.268,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02386, dn = +|- 0.00313309, dEa = +|- 0.0160485 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(=C)COO <=> C=C1COC1 + [OH]
+""",
+)
+
+entry(
+    index = 68,
+    label = "C5H11O2-2 <=> C5H10O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.10049e+09,'s^-1'), n=0.93255, Ea=(35.7581,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02603, dn = +|- 0.00341531, dEa = +|- 0.0174941 kJ/mol"""),
+    rank = 5,
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C[C](C)C(C)OO <=> CC1OC1(C)C + [OH]
+""",
+)
+
+entry(
+    index = 69,
+    label = "C4H9O2-2 <=> C4H8O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.69722e+09,'s^-1'), n=0.942572, Ea=(38.7169,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0153, dn = +|- 0.002018, dEa = +|- 0.0103368 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(C)(C)OO <=> CC1(C)CO1 + [OH]
+""",
+)
+
+entry(
+    index = 70,
+    label = "C4H7O2-6 <=> C4H6O-5 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.68408e+09,'s^-1'), n=0.88186, Ea=(47.0691,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03612, dn = +|- 0.00471472, dEa = +|- 0.0241501 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]C(C=C)OO <=> C=CC1CO1 + [OH]
+""",
+)
+
+entry(
+    index = 71,
+    label = "C3H7O2-2 <=> C3H6O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.02182e+07,'s^-1'), n=1.14033, Ea=(75.0043,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03392, dn = +|- 0.00443305, dEa = +|- 0.0227072 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]CCOO <=> C1COC1 + [OH]
+""",
+)
+
+entry(
+    index = 72,
+    label = "C4H7O2-7 <=> C4H6O-6 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.62354e+07,'s^-1'), n=1.27837, Ea=(73.7629,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04105, dn = +|- 0.00534606, dEa = +|- 0.0273839 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: [CH2]CC(=C)OO <=> C=C1CCO1 + [OH]
+""",
+)
+
+entry(
+    index = 73,
+    label = "C4H9O2-3 <=> C4H8O-3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.78368e+07,'s^-1'), n=1.21142, Ea=(66.0469,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02043, dn = +|- 0.00268731, dEa = +|- 0.0137651 kJ/mol"""),
+    rank = 5,
+    shortDesc = u"""Xiaorui Dong, CBS-QB3 + 1DSHR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CyclicEther
+Original entry: C[CH]CCOO <=> CC1CCO1 + [OH]
+""",
+)
+
