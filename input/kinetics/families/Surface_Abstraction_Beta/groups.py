@@ -37,7 +37,7 @@ entry(
     group =
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
-2 *2 R   u0 px c0 {1,S} {3,S}
+2 *2 R!H u0 px c0 {1,S} {3,S}
 3 *3 R   u0 {2,S}
 4 *5 Xo  u0 {1,[D,T]}
 """,
@@ -61,9 +61,9 @@ entry(
     group =
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
-2 *2 C u0 px c0 {1,S} {3,S}
-3 *3 H   u0 {2,S}
-4 *5 Xo  u0 {1,[D,T]}
+2 *2 C   u0 px c0 {1,S} {3,S}
+3 *3 H   u0 c0 {2,S}
+4 *5 Xo  u0 c0 {1,[D,T]}
 """,
     kinetics = None,
 )
@@ -75,8 +75,8 @@ entry(
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
 2 *2 O   u0 p2 c0 {1,S} {3,S}
-3 *3 H   u0 {2,S}
-4 *5 Xo  u0 {1,[D,T]}
+3 *3 H   u0 c0 {2,S}
+4 *5 Xo  u0 c0 {1,[D,T]}
 """,
     kinetics = None,
 )
