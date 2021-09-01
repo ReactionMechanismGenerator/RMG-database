@@ -7522,3 +7522,98 @@ from the tip of the 5-member ring to the corner of the 4. Resonance form 3.
 """,
 )
 
+forbidden(
+    label = "bicyclic_self_ring_close",
+    group = 
+"""
+1     C u0 p0 c0 {3,B} {6,B} {7,B}
+2     C u0 p0 c0 {4,B} {5,B} {8,S}
+3     C u0 p0 c0 {1,B} {4,B} {12,B}
+4     C u0 p0 c0 {2,B} {3,B}
+5     C u0 p0 c0 {2,B} {6,B}
+6     C u0 p0 c0 {1,B} {5,B}
+7     C u0 p0 c0 {1,B} {9,B}
+8 *2  C u0 p0 c0 {2,S} {11,D}
+9     C u0 p0 c0 {7,B} {10,B}
+10    C u0 p0 c0 {9,B} {12,B}
+11 *3 C u0 p0 c0 {8,D}
+12 *1 C u1 p0 c0 {3,B} {10,B}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a bicyclic from undergoing a highly strained self-ring closure 
+from the tip of the 6-member ring to the extended double bond.
+""",
+)
+
+forbidden(
+    label = "bicyclic_self_ring_close_2",
+    group = 
+"""
+1     C u0 p0 c0 {2,B} {3,B} {7,B}
+2     C u0 p0 c0 {1,B} {4,B} {6,B}
+3     C u0 p0 c0 {1,B} {5,B} {11,S}
+4     C u0 p0 c0 {2,B} {8,B}
+5     C u0 p0 c0 {3,B} {8,B}
+6     C u0 p0 c0 {2,B} {10,B}
+7     C u0 p0 c0 {1,B} {9,B}
+8     C u0 p0 c0 {4,B} {5,B}
+9 *3  C u0 p0 c0 {7,B} {10,B}
+10    C u0 p0 c0 {6,B} {9,B} 
+11 *2 C u0 p0 c0 {3,S} {12,D}
+12 *1 C u1 p0 c0 {11,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a bicyclic from undergoing a highly strained self-ring closure 
+from the side of the 6-member ring to the extended double bond.
+""",
+)
+
+forbidden(
+    label = "tricyclic_ring_closure",
+    group = 
+"""
+1     C u0 p0 c0 {2,B} {3,B} {7,B}
+2     C u0 p0 c0 {1,B} {4,B} {6,B}
+3     C u0 p0 c0 {1,B} {5,B} {11,S}
+4     C u0 p0 c0 {2,B} {8,B}
+5     C u0 p0 c0 {3,B} {8,B}
+6     C u0 p0 c0 {2,B} {10,B}
+7  *2 C u0 p0 c0 {1,B} {9,B}
+8     C u0 p0 c0 {4,B} {5,B}
+9  *3 C u0 p0 c0 {7,B} {10,B}
+10    C u0 p0 c0 {6,B} {9,B}
+11    C u0 p0 c0 {3,S} {12,D}
+12 *1 C u1 p0 c0 {11,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Prevent a from undergoing a highly strained ring closure 
+from the tip of the branch with radical to the outer edge of the ring.
+""",
+)
+
+forbidden(
+    label = "para-methyl-ethenyl-benzene",
+    group =
+"""
+1 *1 C u1 p0 c0 {2,S}
+2    C u0 p0 c0 {1,S} {3,[D,B]} {9,[S,B]}
+3    C u0 p0 c0 {2,[D,B]} {4,[S,B]}
+4    C u0 p0 c0 {3,[S,B]} {5,[D,B]}
+5    C u0 p0 c0 {4,[D,B]} {6,S} {8,[S,B]}
+6 *2 C u0 p0 c0 {5,S} {7,D}
+7 *3 C u0 p0 c0 {6,D}
+8    C u0 p0 c0 {5,[S,B]} {9,[D,B]}
+9    C u0 p0 c0 {2,[S,B]} {8,[D,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Prevent strained addition between para-related methyl and ethylene side-groups on a benzene ring.
+""",
+)

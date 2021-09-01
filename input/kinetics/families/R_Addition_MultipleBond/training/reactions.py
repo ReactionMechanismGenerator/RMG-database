@@ -58036,3 +58036,1384 @@ H      -0.72607400   -1.53484200   -0.46005200
 pivots: [1, 2], dihedral: [6, 1, 2, 7], rotor symmetry: 1, max scan energy: 21.39 kJ/mol
 """,
 )
+
+entry(
+    index = 2894,
+    label = "C22H13 + C2H2 <=> C24H15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (426900, 'cm^3/(mol*s)'),
+        n = 2.28,
+        Ea = (1.214, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: R1 + C2H2 <=> W1
+""",
+)
+
+entry(
+    index = 2895,
+    label = "H + C24H14 <=> C24H15-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.547e+09, 'cm^3/(mol*s)'),
+        n = 1.439,
+        Ea = (5.682, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: Pentacyl-C2H + H <=> W1
+""",
+)
+
+entry(
+    index = 2896,
+    label = "C14H9 + C2H2 <=> C16H11",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (74980, 'cm^3/(mol*s)'),
+        n = 2.362,
+        Ea = (4.389, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: R1 + C2H2 <=> W1
+""",
+)
+
+entry(
+    index = 2897,
+    label = "H + C16H10 <=> C16H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.088e+09, 'cm^3/(mol*s)'),
+        n = 1.419,
+        Ea = (5.862, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Phenanthryl-C2H + H <=> W1
+""",
+)
+
+entry(
+    index = 2898,
+    label = "H + C16H10-2 <=> C16H11-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.034e+08, 'cm^3/(mol*s)'),
+        n = 1.546,
+        Ea = (3.446, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Phenanthryl-C2H + H <=> W3
+""",
+)
+
+entry(
+    index = 2899,
+    label = "H + C16H10-3 <=> C16H11-4",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (3.732e+08, 'cm^3/(mol*s)'),
+        n = 1.656,
+        Ea = (8.022, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Pyrene + H <=> W2
+""",
+)
+
+entry(
+    index = 2900,
+    label = "H + C16H10-4 <=> C16H11-5",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (2.016e+09, 'cm^3/(mol*s)'),
+        n = 1.538,
+        Ea = (3.436, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: Pyrene + H <=> W5
+""",
+)
+
+entry(
+    index = 2901,
+    label = "C6H5 + C6H6-2 <=> C12H11-16",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (9.55e+11, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (2.52, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (1330, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Fitted to experimental data for phenyl + benzene""",
+    longDesc = 
+u"""
+Park, J.; Burova, S.; Rodgers, A. S.; Lin, M. C. 
+Experimental and Theoretical Studies of the C6H5 + C6H6 Reaction. 
+J. Phys. Chem. A 1999, 103 (45), 9036–9041. 
+""",
+)
+
+entry(
+    index = 2902,
+    label = "CH3 + C2H4 <=> C3H7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (861, 'cm^3/(mol*s)'),
+        n = 2.988,
+        Ea = (7.238, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2903,
+    label = "C2H5 + C2H4 <=> C4H9-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (36.28, 'cm^3/(mol*s)'),
+        n = 2.997,
+        Ea = (6.866, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2904,
+    label = "C3H7-5 + C2H4 <=> C5H11-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (20.13, 'cm^3/(mol*s)'),
+        n = 3.003,
+        Ea = (6.486, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2905,
+    label = "C4H9-1 + C2H4 <=> C6H13-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (27.08, 'cm^3/(mol*s)'),
+        n = 2.995,
+        Ea = (6.503, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2906,
+    label = "C5H11-10 + C2H4 <=> C7H15-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (25.8, 'cm^3/(mol*s)'),
+        n = 3.014,
+        Ea = (6.441, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+entry(
+    index = 2907,
+    label = "C6H13-11 + C2H4 <=> C8H17-7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (19.35, 'cm^3/(mol*s)'),
+        n = 3.009,
+        Ea = (6.429, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2908,
+    label = "C7H15-10 + C2H4 <=> C9H19-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (21.89, 'cm^3/(mol*s)'),
+        n = 3.015,
+        Ea = (6.396, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2909,
+    label = "C8H17-8 + C2H4 <=> C10H21-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (18.44, 'cm^3/(mol*s)'),
+        n = 3.009,
+        Ea = (6.446, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2910,
+    label = "C10H21-3 + C2H4 <=> C12H25",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (17.9, 'cm^3/(mol*s)'),
+        n = 3.012,
+        Ea = (6.454, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2911,
+    label = "C9H19-5 + propene_1 <=> C12H25-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.808, 'cm^3/(mol*s)'),
+        n = 2.985,
+        Ea = (6.156, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2912,
+    label = "CH3 + C11H22 <=> C12H25-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (607.5, 'cm^3/(mol*s)'),
+        n = 2.969,
+        Ea = (6.95, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2913,
+    label = "C8H17-8 + butene1_1 <=> C12H25-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.15, 'cm^3/(mol*s)'),
+        n = 2.992,
+        Ea = (6.26, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2914,
+    label = "C2H5 + C10H20 <=> C12H25-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.816, 'cm^3/(mol*s)'),
+        n = 2.961,
+        Ea = (6.743, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2915,
+    label = "C7H15-10 + C5H10-3 <=> C12H25-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.836, 'cm^3/(mol*s)'),
+        n = 2.984,
+        Ea = (6.311, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2916,
+    label = "C3H7-5 + C9H18 <=> C12H25-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.773, 'cm^3/(mol*s)'),
+        n = 2.984,
+        Ea = (6.363, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2917,
+    label = "C6H13-11 + C6H12-2 <=> C12H25-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.462, 'cm^3/(mol*s)'),
+        n = 2.987,
+        Ea = (6.32, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2918,
+    label = "C4H9-1 + C8H16 <=> C12H25-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.406, 'cm^3/(mol*s)'),
+        n = 2.971,
+        Ea = (6.43, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2919,
+    label = "C5H11-10 + C7H14 <=> C12H25-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.915, 'cm^3/(mol*s)'),
+        n = 2.977,
+        Ea = (6.365, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Joao Marcelo Ribeiro','Daniel Belisario-Lara','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. II: n‑Dodecane (n‑C12H26)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1281-1297',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K
+""",
+)
+
+entry(
+    index = 2920,
+    label = "C3H7-4 <=> propene_2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.95e+30, 's^-1'), n=-5.3, Ea=(43000, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2921,
+    label = "C4H9-8 <=> butene1_2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.86e+33, 's^-1'), n=-5.98, Ea=(44880, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2922,
+    label = "C5H11-11 <=> C5H10-4 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.87e+31, 's^-1'), n=-5.55, Ea=(44230, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2923,
+    label = "C5H11-2 <=> propene_1 + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.24e+30, 's^-1'), n=-4.86, Ea=(38050, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2924,
+    label = "C6H13-12 <=> C6H12-3 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.85e+29, 's^-1'), n=-5.03, Ea=(43290, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2925,
+    label = "C6H13-13 <=> propene_1 + C3H7-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.77e+29, 's^-1'), n=-4.6, Ea=(38210, 'cal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['Long Zhao','Tao Yang','Ralf I. Kaiser','Tyler P. Troy','Musahid Ahmed','Daniel Belisario-Lara','Joao Marcelo Ribeiro','Alexander M. Mebel'],
+        title = 'Combined Experimental and Computational Study on the Unimolecular Decomposition of JP‑8 Jet Fuel Surrogates. I. n‑Decane (n‑C10H22)',
+        journal = 'J. Phys. Chem. A',
+        pages = '1261-1280',
+        year = '2017',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered; however, the error bar is estimated to be 8−41% at 1000 K and by only 2−25% at 1600 K. Kinetics are reported in the reverse (B-scission) direction.
+""",
+)
+
+entry(
+    index = 2926,
+    label = "H + propene_1 <=> C3H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.602e+09, 'cm^3/(mol*s)'),
+        n = 1.284,
+        Ea = (2.819, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2927,
+    label = "H + C4H8 <=> C4H9-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.691e+10, 'cm^3/(mol*s)'),
+        n = 1.168,
+        Ea = (2.996, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2928,
+    label = "H + C4H8-2 <=> C4H9-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.383e+08, 'cm^3/(mol*s)'),
+        n = 1.538,
+        Ea = (2.871, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2929,
+    label = "CH3 + propene_2 <=> C4H9-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(158, 'cm^3/(mol*s)'), n=2.966, Ea=(6.337, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2930,
+    label = "CH3 + C4H8-2 <=> C5H11-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (82.04, 'cm^3/(mol*s)'),
+        n = 2.904,
+        Ea = (7.557, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2931,
+    label = "C3H7-2 + C4H8 <=> C7H15-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (557.5, 'cm^3/(mol*s)'),
+        n = 2.47,
+        Ea = (3.895, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2932,
+    label = "H + C7H14-2 <=> C7H15-11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.174e+12, 'cm^3/(mol*s)'),
+        n = 0.464,
+        Ea = (7.387, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2933,
+    label = "H + C7H14-3 <=> C7H15-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.066e+11, 'cm^3/(mol*s)'),
+        n = 0.481,
+        Ea = (7.426, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2934,
+    label = "C4H9 + propene_1 <=> C7H15",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(108.8, 'cm^3/(mol*s)'), n=2.63, Ea=(2.47, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2935,
+    label = "H + C7H14-4 <=> C7H15-13",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.892e+09, 'cm^3/(mol*s)'),
+        n = 1.073,
+        Ea = (2.175, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2936,
+    label = "H + C7H14-5 <=> C7H15-14",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.137e+11, 'cm^3/(mol*s)'),
+        n = 0.557,
+        Ea = (6.066, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+entry(
+    index = 2937,
+    label = "CH3 + C6H12-4 <=> C7H15-15",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.735, 'cm^3/(mol*s)'),
+        n = 3.077,
+        Ea = (10.378, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2938,
+    label = "C4H9-9 + propene_2 <=> C7H15-16",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.502, 'cm^3/(mol*s)'),
+        n = 3.105,
+        Ea = (5.819, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2939,
+    label = "CH3 + C6H12-5 <=> C7H15-17",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.72, 'cm^3/(mol*s)'),
+        n = 3.079,
+        Ea = (7.209, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2940,
+    label = "C3H7-5 + C4H8-2 <=> C7H15-18",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.6732, 'cm^3/(mol*s)'),
+        n = 3.106,
+        Ea = (6.936, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2941,
+    label = "CH3 + C7H14-6 <=> C8H17-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3292, 'cm^3/(mol*s)'),
+        n = 2.35,
+        Ea = (11.582, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2942,
+    label = "C4H9-9 + C4H8-2 <=> C8H17-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (511.3, 'cm^3/(mol*s)'),
+        n = 2.189,
+        Ea = (8.596, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2943,
+    label = "H + C8H16-2 <=> C8H17-11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.602e+10, 'cm^3/(mol*s)'),
+        n = 0.841,
+        Ea = (2.517, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2944,
+    label = "CH3 + C7H14-7 <=> C8H17-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (32410, 'cm^3/(mol*s)'),
+        n = 2.171,
+        Ea = (6.632, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2945,
+    label = "CH3 + C7H14-8 <=> C8H17-13",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (24460, 'cm^3/(mol*s)'),
+        n = 2.18,
+        Ea = (7.469, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2946,
+    label = "C4H9 + C4H8 <=> C8H17",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1238, 'cm^3/(mol*s)'), n=2.31, Ea=(2.516, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2947,
+    label = "H + C8H16-3 <=> C8H17-14",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.215e+12, 'cm^3/(mol*s)'),
+        n = 0.201,
+        Ea = (3.912, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+entry(
+    index = 2948,
+    label = "CH3 + C7H14-9 <=> C8H17-15",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (20560, 'cm^3/(mol*s)'),
+        n = 2.169,
+        Ea = (7.027, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2949,
+    label = "C5H11-12 + propene_2 <=> C8H17-16",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (334.3, 'cm^3/(mol*s)'),
+        n = 2.203,
+        Ea = (7.151, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered.
+""",
+)
+
+entry(
+    index = 2950,
+    label = "H + C24H14-2 <=> C24H15-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.937e+10, 'cm^3/(mol*s)'),
+        n = 0.925,
+        Ea = (0.634, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: Acepentacyl + H <=> W2
+""",
+)
+
+entry(
+    index = 2951,
+    label = "H + C24H14-3 <=> C24H15-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.375e+10, 'cm^3/(mol*s)'),
+        n = 0.849,
+        Ea = (-0.195, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: Acepentacyl + H <=> W4
+""",
+)
+

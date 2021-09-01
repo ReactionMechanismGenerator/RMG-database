@@ -77,37 +77,38 @@ u"""
 """,
 )
 
-entry(
-    index = 2,
-    label = "C5H5_2",
-    molecule = 
-"""
-multiplicity 2
-1  C u1 p0 c0 {2,S} {5,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {4,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,D} {9,S}
-5  C u0 p0 c0 {1,S} {4,D} {10,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-2.46619,0.0438111,-2.13798e-05,-6.21693e-09,6.50358e-12,30712,33.7787], Tmin=(200,'K'), Tmax=(902.09,'K')),
-            NASAPolynomial(coeffs=[3.75767,0.0281847,-1.53019e-05,4.00234e-09,-4.05487e-13,29102,1.69376], Tmin=(902.09,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 2,
+#     label = "C5H5_2",
+#     molecule =
+# """
+# multiplicity 2
+# 1  C u1 p0 c0 {2,S} {5,S} {6,S}
+# 2  C u0 p0 c0 {1,S} {3,D} {7,S}
+# 3  C u0 p0 c0 {2,D} {4,S} {8,S}
+# 4  C u0 p0 c0 {3,S} {5,D} {9,S}
+# 5  C u0 p0 c0 {1,S} {4,D} {10,S}
+# 6  H u0 p0 c0 {1,S}
+# 7  H u0 p0 c0 {2,S}
+# 8  H u0 p0 c0 {3,S}
+# 9  H u0 p0 c0 {4,S}
+# 10 H u0 p0 c0 {5,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-2.46619,0.0438111,-2.13798e-05,-6.21693e-09,6.50358e-12,30712,33.7787], Tmin=(200,'K'), Tmax=(902.09,'K')),
+#             NASAPolynomial(coeffs=[3.75767,0.0281847,-1.53019e-05,4.00234e-09,-4.05487e-13,29102,1.69376], Tmin=(902.09,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 3,
@@ -1033,40 +1034,41 @@ u"""
 """,
 )
 
-entry(
-    index = 30,
-    label = "C6H5O2_26",
-    molecule = 
-"""
-multiplicity 2
-1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {4,S} {9,D}
-3  C u0 p0 c0 {1,S} {5,S} {10,D}
-4  C u1 p0 c0 {2,S} {6,S} {11,S}
-5  C u0 p0 c0 {3,S} {6,D} {13,S}
-6  C u0 p0 c0 {4,S} {5,D} {12,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  O u0 p2 c0 {2,D}
-10 O u0 p2 c0 {3,D}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {5,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.381453,0.0453571,-7.19241e-06,-2.10057e-08,1.04661e-11,-15654.2,24.7405], Tmin=(200,'K'), Tmax=(1002.9,'K')),
-            NASAPolynomial(coeffs=[7.248,0.0359389,-1.99806e-05,5.35961e-09,-5.59349e-13,-17935.1,-12.9117], Tmin=(1002.9,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 30,
+#     label = "C6H5O2_26",
+#     molecule =
+# """
+# multiplicity 2
+# 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+# 2  C u0 p0 c0 {1,S} {4,S} {9,D}
+# 3  C u0 p0 c0 {1,S} {5,S} {10,D}
+# 4  C u1 p0 c0 {2,S} {6,S} {11,S}
+# 5  C u0 p0 c0 {3,S} {6,D} {13,S}
+# 6  C u0 p0 c0 {4,S} {5,D} {12,S}
+# 7  H u0 p0 c0 {1,S}
+# 8  H u0 p0 c0 {1,S}
+# 9  O u0 p2 c0 {2,D}
+# 10 O u0 p2 c0 {3,D}
+# 11 H u0 p0 c0 {4,S}
+# 12 H u0 p0 c0 {6,S}
+# 13 H u0 p0 c0 {5,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[0.381453,0.0453571,-7.19241e-06,-2.10057e-08,1.04661e-11,-15654.2,24.7405], Tmin=(200,'K'), Tmax=(1002.9,'K')),
+#             NASAPolynomial(coeffs=[7.248,0.0359389,-1.99806e-05,5.35961e-09,-5.59349e-13,-17935.1,-12.9117], Tmin=(1002.9,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 31,
@@ -3452,43 +3454,44 @@ u"""
 """,
 )
 
-entry(
-    index = 92,
-    label = "C9H8_7",
-    molecule = 
-"""
-1  C u0 p0 c0 {8,S} {10,S} {11,S} {12,S}
-2  C u0 p0 c0 {3,B} {4,B} {9,S}
-3  C u0 p0 c0 {2,B} {5,B} {13,S}
-4  C u0 p0 c0 {2,B} {7,B} {17,S}
-5  C u0 p0 c0 {3,B} {6,B} {14,S}
-6  C u0 p0 c0 {5,B} {7,B} {15,S}
-7  C u0 p0 c0 {4,B} {6,B} {16,S}
-8  C u0 p0 c0 {1,S} {9,T}
-9  C u0 p0 c0 {2,S} {8,T}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {4,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-1.02533,0.0692007,-3.35804e-05,-3.34318e-09,5.62539e-12,30740.4,33.5562], Tmin=(200,'K'), Tmax=(995.92,'K')),
-            NASAPolynomial(coeffs=[7.77421,0.0488771,-2.55905e-05,6.45017e-09,-6.339e-13,28242.8,-12.5999], Tmin=(995.92,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 92,
+#     label = "C9H8_7",
+#     molecule =
+# """
+# 1  C u0 p0 c0 {8,S} {10,S} {11,S} {12,S}
+# 2  C u0 p0 c0 {3,B} {4,B} {9,S}
+# 3  C u0 p0 c0 {2,B} {5,B} {13,S}
+# 4  C u0 p0 c0 {2,B} {7,B} {17,S}
+# 5  C u0 p0 c0 {3,B} {6,B} {14,S}
+# 6  C u0 p0 c0 {5,B} {7,B} {15,S}
+# 7  C u0 p0 c0 {4,B} {6,B} {16,S}
+# 8  C u0 p0 c0 {1,S} {9,T}
+# 9  C u0 p0 c0 {2,S} {8,T}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {3,S}
+# 14 H u0 p0 c0 {5,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {4,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-1.02533,0.0692007,-3.35804e-05,-3.34318e-09,5.62539e-12,30740.4,33.5562], Tmin=(200,'K'), Tmax=(995.92,'K')),
+#             NASAPolynomial(coeffs=[7.77421,0.0488771,-2.55905e-05,6.45017e-09,-6.339e-13,28242.8,-12.5999], Tmin=(995.92,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 93,
@@ -4616,46 +4619,47 @@ u"""
 """,
 )
 
-entry(
-    index = 121,
-    label = "C10H10_50",
-    molecule = 
-"""
-1  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
-2  C u0 p0 c0 {4,S} {6,S} {13,S} {14,S}
-3  C u0 p0 c0 {1,S} {4,S} {7,D}
-4  C u0 p0 c0 {2,S} {3,S} {8,D}
-5  C u0 p0 c0 {1,S} {9,D} {15,S}
-6  C u0 p0 c0 {2,S} {10,D} {16,S}
-7  C u0 p0 c0 {3,D} {10,S} {18,S}
-8  C u0 p0 c0 {4,D} {9,S} {20,S}
-9  C u0 p0 c0 {5,D} {8,S} {17,S}
-10 C u0 p0 c0 {6,D} {7,S} {19,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {9,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {10,S}
-20 H u0 p0 c0 {8,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-0.868362,0.0589476,1.63157e-05,-5.40034e-08,2.20423e-11,28611.8,30.3432], Tmin=(200,'K'), Tmax=(1003.21,'K')),
-            NASAPolynomial(coeffs=[4.75659,0.065431,-3.66065e-05,9.89195e-09,-1.03919e-12,26028.3,-4.06294], Tmin=(1003.21,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 121,
+#     label = "C10H10_50",
+#     molecule =
+# """
+# 1  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
+# 2  C u0 p0 c0 {4,S} {6,S} {13,S} {14,S}
+# 3  C u0 p0 c0 {1,S} {4,S} {7,D}
+# 4  C u0 p0 c0 {2,S} {3,S} {8,D}
+# 5  C u0 p0 c0 {1,S} {9,D} {15,S}
+# 6  C u0 p0 c0 {2,S} {10,D} {16,S}
+# 7  C u0 p0 c0 {3,D} {10,S} {18,S}
+# 8  C u0 p0 c0 {4,D} {9,S} {20,S}
+# 9  C u0 p0 c0 {5,D} {8,S} {17,S}
+# 10 C u0 p0 c0 {6,D} {7,S} {19,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {2,S}
+# 14 H u0 p0 c0 {2,S}
+# 15 H u0 p0 c0 {5,S}
+# 16 H u0 p0 c0 {6,S}
+# 17 H u0 p0 c0 {9,S}
+# 18 H u0 p0 c0 {7,S}
+# 19 H u0 p0 c0 {10,S}
+# 20 H u0 p0 c0 {8,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-0.868362,0.0589476,1.63157e-05,-5.40034e-08,2.20423e-11,28611.8,30.3432], Tmin=(200,'K'), Tmax=(1003.21,'K')),
+#             NASAPolynomial(coeffs=[4.75659,0.065431,-3.66065e-05,9.89195e-09,-1.03919e-12,26028.3,-4.06294], Tmin=(1003.21,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 122,
@@ -4904,46 +4908,47 @@ u"""
 """,
 )
 
-entry(
-    index = 128,
-    label = "C10H10_57",
-    molecule = 
-"""
-1  C u0 p0 c0 {3,S} {4,S} {11,S} {12,S}
-2  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
-3  C u0 p0 c0 {1,S} {2,S} {10,D}
-4  C u0 p0 c0 {1,S} {5,B} {6,B}
-5  C u0 p0 c0 {2,S} {4,B} {7,B}
-6  C u0 p0 c0 {4,B} {8,B} {15,S}
-7  C u0 p0 c0 {5,B} {9,B} {18,S}
-8  C u0 p0 c0 {6,B} {9,B} {16,S}
-9  C u0 p0 c0 {7,B} {8,B} {17,S}
-10 C u0 p0 c0 {3,D} {19,S} {20,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {8,S}
-17 H u0 p0 c0 {9,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {10,S}
-20 H u0 p0 c0 {10,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-0.855428,0.0584441,1.79004e-05,-5.54675e-08,2.24469e-11,15638.4,28.3474], Tmin=(200,'K'), Tmax=(1007.64,'K')),
-            NASAPolynomial(coeffs=[4.80769,0.0656409,-3.69915e-05,1.00785e-08,-1.0671e-12,12990.4,-6.49306], Tmin=(1007.64,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 128,
+#     label = "C10H10_57",
+#     molecule =
+# """
+# 1  C u0 p0 c0 {3,S} {4,S} {11,S} {12,S}
+# 2  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
+# 3  C u0 p0 c0 {1,S} {2,S} {10,D}
+# 4  C u0 p0 c0 {1,S} {5,B} {6,B}
+# 5  C u0 p0 c0 {2,S} {4,B} {7,B}
+# 6  C u0 p0 c0 {4,B} {8,B} {15,S}
+# 7  C u0 p0 c0 {5,B} {9,B} {18,S}
+# 8  C u0 p0 c0 {6,B} {9,B} {16,S}
+# 9  C u0 p0 c0 {7,B} {8,B} {17,S}
+# 10 C u0 p0 c0 {3,D} {19,S} {20,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {2,S}
+# 14 H u0 p0 c0 {2,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {8,S}
+# 17 H u0 p0 c0 {9,S}
+# 18 H u0 p0 c0 {7,S}
+# 19 H u0 p0 c0 {10,S}
+# 20 H u0 p0 c0 {10,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-0.855428,0.0584441,1.79004e-05,-5.54675e-08,2.24469e-11,15638.4,28.3474], Tmin=(200,'K'), Tmax=(1007.64,'K')),
+#             NASAPolynomial(coeffs=[4.80769,0.0656409,-3.69915e-05,1.00785e-08,-1.0671e-12,12990.4,-6.49306], Tmin=(1007.64,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 129,
@@ -5438,87 +5443,89 @@ u"""
 """,
 )
 
-entry(
-    index = 141,
-    label = "C10H10_70",
-    molecule = 
-"""
-1  C u0 p0 c0 {3,S} {7,S} {13,S} {14,S}
-2  C u0 p0 c0 {5,S} {6,S} {11,S} {12,S}
-3  C u0 p0 c0 {1,S} {4,S} {9,D}
-4  C u0 p0 c0 {3,S} {5,D} {8,S}
-5  C u0 p0 c0 {2,S} {4,D} {16,S}
-6  C u0 p0 c0 {2,S} {10,D} {15,S}
-7  C u0 p0 c0 {1,S} {8,D} {17,S}
-8  C u0 p0 c0 {4,S} {7,D} {19,S}
-9  C u0 p0 c0 {3,D} {10,S} {20,S}
-10 C u0 p0 c0 {6,D} {9,S} {18,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {7,S}
-18 H u0 p0 c0 {10,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-0.845347,0.0587413,1.64701e-05,-5.39989e-08,2.20311e-11,32127,29.3161], Tmin=(200,'K'), Tmax=(1001.61,'K')),
-            NASAPolynomial(coeffs=[4.62176,0.0655435,-3.6601e-05,9.86863e-09,-1.03453e-12,29595.5,-4.23868], Tmin=(1001.61,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 141,
+#     label = "C10H10_70",
+#     molecule =
+# """
+# 1  C u0 p0 c0 {3,S} {7,S} {13,S} {14,S}
+# 2  C u0 p0 c0 {5,S} {6,S} {11,S} {12,S}
+# 3  C u0 p0 c0 {1,S} {4,S} {9,D}
+# 4  C u0 p0 c0 {3,S} {5,D} {8,S}
+# 5  C u0 p0 c0 {2,S} {4,D} {16,S}
+# 6  C u0 p0 c0 {2,S} {10,D} {15,S}
+# 7  C u0 p0 c0 {1,S} {8,D} {17,S}
+# 8  C u0 p0 c0 {4,S} {7,D} {19,S}
+# 9  C u0 p0 c0 {3,D} {10,S} {20,S}
+# 10 C u0 p0 c0 {6,D} {9,S} {18,S}
+# 11 H u0 p0 c0 {2,S}
+# 12 H u0 p0 c0 {2,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {5,S}
+# 17 H u0 p0 c0 {7,S}
+# 18 H u0 p0 c0 {10,S}
+# 19 H u0 p0 c0 {8,S}
+# 20 H u0 p0 c0 {9,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-0.845347,0.0587413,1.64701e-05,-5.39989e-08,2.20311e-11,32127,29.3161], Tmin=(200,'K'), Tmax=(1001.61,'K')),
+#             NASAPolynomial(coeffs=[4.62176,0.0655435,-3.6601e-05,9.86863e-09,-1.03453e-12,29595.5,-4.23868], Tmin=(1001.61,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
-""",
-)
-
-entry(
-    index = 142,
-    label = "C10H10_71",
-    molecule = 
-"""
-1  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
-2  C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}
-3  C u0 p0 c0 {1,S} {4,D} {8,S}
-4  C u0 p0 c0 {3,D} {9,S} {10,S}
-5  C u0 p0 c0 {2,S} {9,D} {15,S}
-6  C u0 p0 c0 {1,S} {10,D} {16,S}
-7  C u0 p0 c0 {2,S} {8,D} {17,S}
-8  C u0 p0 c0 {3,S} {7,D} {20,S}
-9  C u0 p0 c0 {4,S} {5,D} {18,S}
-10 C u0 p0 c0 {4,S} {6,D} {19,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {7,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
-20 H u0 p0 c0 {8,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-0.906102,0.0595773,1.50892e-05,-5.31488e-08,2.18499e-11,31358.3,29.5296], Tmin=(200,'K'), Tmax=(1001.64,'K')),
-            NASAPolynomial(coeffs=[4.91356,0.0651387,-3.63708e-05,9.80876e-09,-1.02867e-12,28747.6,-5.7688], Tmin=(1001.64,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 142,
+#     label = "C10H10_71",
+#     molecule =
+# """
+# 1  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
+# 2  C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}
+# 3  C u0 p0 c0 {1,S} {4,D} {8,S}
+# 4  C u0 p0 c0 {3,D} {9,S} {10,S}
+# 5  C u0 p0 c0 {2,S} {9,D} {15,S}
+# 6  C u0 p0 c0 {1,S} {10,D} {16,S}
+# 7  C u0 p0 c0 {2,S} {8,D} {17,S}
+# 8  C u0 p0 c0 {3,S} {7,D} {20,S}
+# 9  C u0 p0 c0 {4,S} {5,D} {18,S}
+# 10 C u0 p0 c0 {4,S} {6,D} {19,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {2,S}
+# 14 H u0 p0 c0 {2,S}
+# 15 H u0 p0 c0 {5,S}
+# 16 H u0 p0 c0 {6,S}
+# 17 H u0 p0 c0 {7,S}
+# 18 H u0 p0 c0 {9,S}
+# 19 H u0 p0 c0 {10,S}
+# 20 H u0 p0 c0 {8,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-0.906102,0.0595773,1.50892e-05,-5.31488e-08,2.18499e-11,31358.3,29.5296], Tmin=(200,'K'), Tmax=(1001.64,'K')),
+#             NASAPolynomial(coeffs=[4.91356,0.0651387,-3.63708e-05,9.80876e-09,-1.02867e-12,28747.6,-5.7688], Tmin=(1001.64,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 143,
@@ -5561,46 +5568,47 @@ u"""
 """,
 )
 
-entry(
-    index = 144,
-    label = "C10H10_73",
-    molecule = 
-"""
-1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
-2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
-3  C u0 p0 c0 {2,S} {5,B} {6,B}
-4  C u0 p0 c0 {1,S} {5,S} {10,D}
-5  C u0 p0 c0 {3,B} {4,S} {7,B}
-6  C u0 p0 c0 {3,B} {8,B} {15,S}
-7  C u0 p0 c0 {5,B} {9,B} {18,S}
-8  C u0 p0 c0 {6,B} {9,B} {16,S}
-9  C u0 p0 c0 {7,B} {8,B} {17,S}
-10 C u0 p0 c0 {4,D} {19,S} {20,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {8,S}
-17 H u0 p0 c0 {9,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {10,S}
-20 H u0 p0 c0 {10,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-0.831694,0.0581082,1.8342e-05,-5.56733e-08,2.24707e-11,14265.2,29.2674], Tmin=(200,'K'), Tmax=(1008.01,'K')),
-            NASAPolynomial(coeffs=[4.72437,0.0656813,-3.70055e-05,1.00836e-08,-1.06792e-12,11640.2,-5.04622], Tmin=(1008.01,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 144,
+#     label = "C10H10_73",
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+# 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
+# 3  C u0 p0 c0 {2,S} {5,B} {6,B}
+# 4  C u0 p0 c0 {1,S} {5,S} {10,D}
+# 5  C u0 p0 c0 {3,B} {4,S} {7,B}
+# 6  C u0 p0 c0 {3,B} {8,B} {15,S}
+# 7  C u0 p0 c0 {5,B} {9,B} {18,S}
+# 8  C u0 p0 c0 {6,B} {9,B} {16,S}
+# 9  C u0 p0 c0 {7,B} {8,B} {17,S}
+# 10 C u0 p0 c0 {4,D} {19,S} {20,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {2,S}
+# 14 H u0 p0 c0 {2,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {8,S}
+# 17 H u0 p0 c0 {9,S}
+# 18 H u0 p0 c0 {7,S}
+# 19 H u0 p0 c0 {10,S}
+# 20 H u0 p0 c0 {10,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-0.831694,0.0581082,1.8342e-05,-5.56733e-08,2.24707e-11,14265.2,29.2674], Tmin=(200,'K'), Tmax=(1008.01,'K')),
+#             NASAPolynomial(coeffs=[4.72437,0.0656813,-3.70055e-05,1.00836e-08,-1.06792e-12,11640.2,-5.04622], Tmin=(1008.01,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 145,
@@ -8122,44 +8130,45 @@ u"""
 """,
 )
 
-entry(
-    index = 204,
-    label = "C10H8_11",
-    molecule = 
-"""
-1  C u0 p0 c0 {2,B} {3,B} {7,S}
-2  C u0 p0 c0 {1,B} {4,B} {9,S}
-3  C u0 p0 c0 {1,B} {6,B} {14,S}
-4  C u0 p0 c0 {2,B} {5,B} {11,S}
-5  C u0 p0 c0 {4,B} {6,B} {12,S}
-6  C u0 p0 c0 {3,B} {5,B} {13,S}
-7  C u0 p0 c0 {1,S} {8,D} {15,S}
-8  C u0 p0 c0 {7,D} {16,S} {17,S}
-9  C u0 p0 c0 {2,S} {10,T}
-10 C u0 p0 c0 {9,T} {18,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {7,S}
-16 H u0 p0 c0 {8,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {10,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-1.66952,0.0754157,-3.61741e-05,-6.54169e-09,7.71844e-12,43636.2,32.9132], Tmin=(200,'K'), Tmax=(995.24,'K')),
-            NASAPolynomial(coeffs=[10.1331,0.0480879,-2.52935e-05,6.47138e-09,-6.50054e-13,40291,-28.9747], Tmin=(995.24,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 204,
+#     label = "C10H8_11",
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,B} {3,B} {7,S}
+# 2  C u0 p0 c0 {1,B} {4,B} {9,S}
+# 3  C u0 p0 c0 {1,B} {6,B} {14,S}
+# 4  C u0 p0 c0 {2,B} {5,B} {11,S}
+# 5  C u0 p0 c0 {4,B} {6,B} {12,S}
+# 6  C u0 p0 c0 {3,B} {5,B} {13,S}
+# 7  C u0 p0 c0 {1,S} {8,D} {15,S}
+# 8  C u0 p0 c0 {7,D} {16,S} {17,S}
+# 9  C u0 p0 c0 {2,S} {10,T}
+# 10 C u0 p0 c0 {9,T} {18,S}
+# 11 H u0 p0 c0 {4,S}
+# 12 H u0 p0 c0 {5,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {3,S}
+# 15 H u0 p0 c0 {7,S}
+# 16 H u0 p0 c0 {8,S}
+# 17 H u0 p0 c0 {8,S}
+# 18 H u0 p0 c0 {10,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-1.66952,0.0754157,-3.61741e-05,-6.54169e-09,7.71844e-12,43636.2,32.9132], Tmin=(200,'K'), Tmax=(995.24,'K')),
+#             NASAPolynomial(coeffs=[10.1331,0.0480879,-2.52935e-05,6.47138e-09,-6.50054e-13,40291,-28.9747], Tmin=(995.24,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 205,
@@ -9331,46 +9340,47 @@ u"""
 """,
 )
 
-entry(
-    index = 234,
-    label = "C10H9_29",
-    molecule = 
-"""
-multiplicity 2
-1  C u0 p0 c0 {2,B} {4,B} {7,S}
-2  C u0 p0 c0 {1,B} {3,B} {8,S}
-3  C u0 p0 c0 {2,B} {5,B} {11,S}
-4  C u0 p0 c0 {1,B} {6,B} {14,S}
-5  C u0 p0 c0 {3,B} {6,B} {12,S}
-6  C u0 p0 c0 {4,B} {5,B} {13,S}
-7  C u0 p0 c0 {1,S} {10,D} {15,S}
-8  C u1 p0 c0 {2,S} {16,S} {17,S}
-9  C u0 p0 c0 {10,D} {18,S} {19,S}
-10 C u0 p0 c0 {7,D} {9,D}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {7,S}
-16 H u0 p0 c0 {8,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {9,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-2.00388,0.0795701,-3.6803e-05,-8.52456e-09,8.71646e-12,47433.5,34.8988], Tmin=(200,'K'), Tmax=(994.76,'K')),
-            NASAPolynomial(coeffs=[10.445,0.051292,-2.70044e-05,6.91861e-09,-6.96157e-13,43879.1,-30.511], Tmin=(994.76,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 234,
+#     label = "C10H9_29",
+#     molecule =
+# """
+# multiplicity 2
+# 1  C u0 p0 c0 {2,B} {4,B} {7,S}
+# 2  C u0 p0 c0 {1,B} {3,B} {8,S}
+# 3  C u0 p0 c0 {2,B} {5,B} {11,S}
+# 4  C u0 p0 c0 {1,B} {6,B} {14,S}
+# 5  C u0 p0 c0 {3,B} {6,B} {12,S}
+# 6  C u0 p0 c0 {4,B} {5,B} {13,S}
+# 7  C u0 p0 c0 {1,S} {10,D} {15,S}
+# 8  C u1 p0 c0 {2,S} {16,S} {17,S}
+# 9  C u0 p0 c0 {10,D} {18,S} {19,S}
+# 10 C u0 p0 c0 {7,D} {9,D}
+# 11 H u0 p0 c0 {3,S}
+# 12 H u0 p0 c0 {5,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {4,S}
+# 15 H u0 p0 c0 {7,S}
+# 16 H u0 p0 c0 {8,S}
+# 17 H u0 p0 c0 {8,S}
+# 18 H u0 p0 c0 {9,S}
+# 19 H u0 p0 c0 {9,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-2.00388,0.0795701,-3.6803e-05,-8.52456e-09,8.71646e-12,47433.5,34.8988], Tmin=(200,'K'), Tmax=(994.76,'K')),
+#             NASAPolynomial(coeffs=[10.445,0.051292,-2.70044e-05,6.91861e-09,-6.96157e-13,43879.1,-30.511], Tmin=(994.76,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 235,
@@ -11516,52 +11526,53 @@ u"""
 """,
 )
 
-entry(
-    index = 284,
-    label = "C12H13_2",
-    molecule = 
-"""
-multiplicity 2
-1  C u0 p0 c0 {3,S} {4,S} {13,S} {14,S}
-2  C u0 p0 c0 {4,S} {7,S} {15,S} {16,S}
-3  C u0 p0 c0 {1,S} {17,S} {18,S} {19,S}
-4  C u1 p0 c0 {1,S} {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,B} {10,B}
-6  C u0 p0 c0 {5,B} {8,S} {9,B}
-7  C u0 p0 c0 {2,S} {8,D} {20,S}
-8  C u0 p0 c0 {6,S} {7,D} {21,S}
-9  C u0 p0 c0 {6,B} {11,B} {22,S}
-10 C u0 p0 c0 {5,B} {12,B} {25,S}
-11 C u0 p0 c0 {9,B} {12,B} {23,S}
-12 C u0 p0 c0 {10,B} {11,B} {24,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {2,S}
-16 H u0 p0 c0 {2,S}
-17 H u0 p0 c0 {3,S}
-18 H u0 p0 c0 {3,S}
-19 H u0 p0 c0 {3,S}
-20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {8,S}
-22 H u0 p0 c0 {9,S}
-23 H u0 p0 c0 {11,S}
-24 H u0 p0 c0 {12,S}
-25 H u0 p0 c0 {10,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-2.8754,0.0873812,-6.46837e-06,-4.65581e-08,2.19369e-11,22156.4,39.7563], Tmin=(200,'K'), Tmax=(984.82,'K')),
-            NASAPolynomial(coeffs=[7.14785,0.0788755,-4.25657e-05,1.10834e-08,-1.12503e-12,18620.4,-16.3758], Tmin=(984.82,'K'), Tmax=(3200,'K')),
-        ],
-        Tmin = (200,'K'),
-        Tmax = (3200,'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Optimized geometry had 1 imaginary frequency
+# entry(
+#     index = 284,
+#     label = "C12H13_2",
+#     molecule =
+# """
+# multiplicity 2
+# 1  C u0 p0 c0 {3,S} {4,S} {13,S} {14,S}
+# 2  C u0 p0 c0 {4,S} {7,S} {15,S} {16,S}
+# 3  C u0 p0 c0 {1,S} {17,S} {18,S} {19,S}
+# 4  C u1 p0 c0 {1,S} {2,S} {5,S}
+# 5  C u0 p0 c0 {4,S} {6,B} {10,B}
+# 6  C u0 p0 c0 {5,B} {8,S} {9,B}
+# 7  C u0 p0 c0 {2,S} {8,D} {20,S}
+# 8  C u0 p0 c0 {6,S} {7,D} {21,S}
+# 9  C u0 p0 c0 {6,B} {11,B} {22,S}
+# 10 C u0 p0 c0 {5,B} {12,B} {25,S}
+# 11 C u0 p0 c0 {9,B} {12,B} {23,S}
+# 12 C u0 p0 c0 {10,B} {11,B} {24,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {2,S}
+# 16 H u0 p0 c0 {2,S}
+# 17 H u0 p0 c0 {3,S}
+# 18 H u0 p0 c0 {3,S}
+# 19 H u0 p0 c0 {3,S}
+# 20 H u0 p0 c0 {7,S}
+# 21 H u0 p0 c0 {8,S}
+# 22 H u0 p0 c0 {9,S}
+# 23 H u0 p0 c0 {11,S}
+# 24 H u0 p0 c0 {12,S}
+# 25 H u0 p0 c0 {10,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[-2.8754,0.0873812,-6.46837e-06,-4.65581e-08,2.19369e-11,22156.4,39.7563], Tmin=(200,'K'), Tmax=(984.82,'K')),
+#             NASAPolynomial(coeffs=[7.14785,0.0788755,-4.25657e-05,1.10834e-08,-1.12503e-12,18620.4,-16.3758], Tmin=(984.82,'K'), Tmax=(3200,'K')),
+#         ],
+#         Tmin = (200,'K'),
+#         Tmax = (3200,'K'),
+#     ),
+#     shortDesc = u"""""",
+#     longDesc =
+# u"""
+#
+# """,
+# )
 
 entry(
     index = 285,

@@ -7940,3 +7940,29 @@ coefficient computed using TST with Eckart Tunnelling"
 """,
 )
 
+entry(
+    index = 371,
+    label = "C8H7-3 <=> C8H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.08e+10, 's^-1'), n=0.67, Ea=(28.56, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc =
+u"""
+Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Phenylvinyl <=> W4
+""",
+)
+
+entry(
+    index = 372,
+    label = "C8H7-3 <=> C8H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.08e+10, 's^-1'), n=0.67, Ea=(28.56, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc =
+u"""
+Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Phenylvinyl <=> W4
+""",
+)
+
