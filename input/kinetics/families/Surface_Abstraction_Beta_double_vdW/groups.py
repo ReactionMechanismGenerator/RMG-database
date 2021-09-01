@@ -25,12 +25,10 @@ productNum=2
 
 recipe(actions=[
     ['FORM_BOND', '*3', 1, '*4'],
-    ['BREAK_BOND', '*1', 1, '*5'],
+    ['CHANGE_BOND', '*1', -1, '*5'],
     ['CHANGE_BOND', '*1', 1, '*2'],
     ['BREAK_BOND', '*2', 1, '*3'],
-    ['FORM_BOND','*1', 0, '*5'], 
-    ['BREAK_BOND', '*4',1,'*6'],
-    ['FORM_BOND', '*4',0,'*6']
+    ['CHANGE_BOND', '*4',-1,'*6'],
 ])
 
 entry(
