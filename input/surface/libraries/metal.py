@@ -388,3 +388,22 @@ Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice 
 """,
 )
 
+entry(
+    index = 20,
+    label = "Li",
+    bindingEnergies = {
+        'H': (-0.91,'eV/molecule'),
+        'C': (-0.5,'eV/molecule'),
+        'N': (-1,'eV/molecule'),
+        'O': (-1.88,'eV/molecule'),
+        'F': (-4.33,'eV/molecule'),
+    },
+    surfaceSiteDensity = (3.1210000000000003e-09, 'mol/cm^2'),
+    facet = "110",
+    metal = "Li",
+    shortDesc = """fcc""",
+    longDesc = 
+"""
+
+""",
+)
