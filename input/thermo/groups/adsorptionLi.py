@@ -72,8 +72,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-0.07,1.05,1.77,2.43,2.8,3.08,3.39],'cal/(mol*K)'),
         H298 = (-2,'eV/molecule'),
-        #S298 = (-38.17,'cal/(mol*K)'),
-        S298 = (-5,'cal/(mol*K)'),
+        S298 = (-38.17,'cal/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
@@ -94,8 +93,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-0.45,0.61,1.42,2.02,2.81,3.26,3.73],'cal/(mol*K)'),
         H298 = (-0.5,'eV/molecule'),
-        # S298 = (-32.73,'cal/(mol*K)'),
-        S298 = (-5,'cal/(mol*K)'),
+        S298 = (-32.73,'cal/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
@@ -118,8 +116,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
         H298 = (-1.88,'eV/molecule'),
-        # S298 = (-33.89,'cal/(mol*K)'),
-        S298 = (-5,'cal/(mol*K)'),
+        S298 = (-33.89,'cal/(mol*K)'),
     ),
     shortDesc = """Came from OH single-bonded on Pt(111)""",
     longDesc = 
@@ -144,8 +141,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
         H298 = (-4.33,'eV/molecule'),
-        # S298 = (-26,'cal/(mol*K)'),
-        S298 = (-5,'cal/(mol*K)'),
+        S298 = (-26,'cal/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
@@ -169,8 +165,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
         H298 = (-0.9,'eV/molecule'),
-        # S298 = (-26,'cal/(mol*K)'),
-        S298 = (-5,'cal/(mol*K)'),
+        S298 = (-26,'cal/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
@@ -194,8 +189,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
         H298 = (-2.77,'eV/molecule'),
-        # S298 = (-34,'cal/(mol*K)'),
-        S298 = (-5,'cal/(mol*K)'),
+        S298 = (-34,'cal/(mol*K)'),
     ),
     shortDesc = """Came from OH single-bonded on Pt(111)""",
     longDesc = 
@@ -220,8 +214,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.23,1.71,2,2.19,2.39,2.5,2.61],'cal/(mol*K)'),
         H298 = (-0.5,'eV/molecule'),
-        # S298 = (-20.48,'cal/(mol*K)'),
-        S298 = (-5,'cal/(mol*K)'),
+        S298 = (-20.48,'cal/(mol*K)'),
     ),
     shortDesc = """Average of (CR4)*, (NR3)* and (OR2)* thermo.""",
     longDesc = 
@@ -244,8 +237,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([0.71,1.22,1.49,1.65,1.81,1.9,1.98],'cal/(mol*K)'),
         H298 = (-0.8,'eV/molecule'),
-        # S298 = (-22.53,'cal/(mol*K)'),
-        S298 = (-5,'cal/(mol*K)'),
+        S298 = (-22.53,'cal/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
