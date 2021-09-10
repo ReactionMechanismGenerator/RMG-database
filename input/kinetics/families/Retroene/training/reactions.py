@@ -851,3 +851,54 @@ Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui
 """,
 )
 
+entry(
+    index = 65,
+    label = "C2H4N2O2 <=> CH3NO + CHNO",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.3103e+06,'s^-1'), n=1.91844, Ea=(215.344,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.14216, dn = +|- 0.101085, dEa = +|- 0.521248 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indicies that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001091 <=> p001091_0 + p001091_1
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 66,
+    label = "C2H4N2O2-2 <=> CH3NO-2 + CHNO",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.91827e+10,'s^-1'), n=0.736578, Ea=(60.3985,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14366, dn = +|- 0.0178114, dEa = +|- 0.0918447 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indicies that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001689 <=> p001689_0 + p001689_1
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 67,
+    label = "C2H4N2O <=> CH3NO + CHN",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.96843e+10,'s^-1'), n=0.78544, Ea=(151.759,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12608, dn = +|- 0.0157564, dEa = +|- 0.0812481 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indicies that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005591 <=> p005591_0 + p005591_1
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
