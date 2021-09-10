@@ -197,6 +197,18 @@ multiplicity [1]
     kinetics = None,
 )
 
+entry(
+    index = 15,
+    label = "C-C",
+    group =
+"""
+multiplicity [1]
+1 *1 C u0 p0 c0 {2,S}
+2 *2 C u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Adsorbate
@@ -210,6 +222,7 @@ L1: Adsorbate
         L3: N-C
         L3: N-H
     L2: C-H
+    L2: C-C
 L1: VacantSite1
 
 L1: VacantSite2
