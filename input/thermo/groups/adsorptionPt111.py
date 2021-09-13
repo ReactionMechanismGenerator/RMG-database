@@ -2309,7 +2309,7 @@ entry(
 4 R   u0 {2,S}
 5 R   u0 {2,S}
 """,
-    thermo=u'(CR2NR)*',
+    thermo=u'(CR2CR)*',
     longDesc=u"""Perhaps should be an average?""",
     metal = "Pt",
     facet = "111",
@@ -2535,7 +2535,33 @@ entry(
     facet = "111",
 )
 
-
+entry(
+    index = 89,
+    label = "(CR2CR)*",
+    group =
+"""
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,D} {4,S} {5,S}
+3 C  u0 p0 c0 {2,D} {6,S}
+4 R  u0 p0 c0 {2,S}
+5 R  u0 p0 c0 {2,S}
+6 R  u0 p0 c0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([0.5, 1.37, 1.81, 2.02, 2.14, 2.13, 2.08], 'cal/(mol*K)'),
+        H298=(-1.0, 'kcal/mol'),
+        S298=(-33.14, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Made up by Emily""",
+    longDesc=u"""
+ R2C=CR
+    :
+***********
+""",
+    metal = "Pt",
+    facet = "111",
+)
 
 
 tree(
@@ -2610,6 +2636,7 @@ L1: R*
             L4: (CR3OR)*
         L3: (CR3)*
             L4: (CR2NR)*
+            L4: (CR2CR)*
             L4: (CR2O)*
         L3: (CR2)*
             L4: (CRN)*
