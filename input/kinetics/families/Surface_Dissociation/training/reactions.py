@@ -367,3 +367,178 @@ eErxn = 0.78
 """,
     metal = "Cu",
 )
+
+entry(
+    index = 78,
+    label = "Ni_4 + C3H7X-2 <=> C3H6X-2 + HX_5",
+    degeneracy = 2.0,
+    kinetics = SurfaceArrhenius(A=(4.51174e+17,'m^2/(mol*s)'), n=0, Ea=(0.661272,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246NDMyNTcw""",
+    longDesc =
+"""
+Training reaction from kinetics library: Surface/cathub/Ni
+Original entry: X + CH3CH2CH2X <=> HX + CH3CH2CHX
+equation : CH3CH2CH2* + * -> CH3CH2CH* + H*,
+dft_code : Quantum Espresso,
+dftFunctional : BEEF-vdW,
+pubId: WangTheory-aided2020,
+reactionEnergy: -0.02355594263644889 eV
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH2]CC from Thermo library: DFT_QCI_thermo and S298=69.30 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 79,
+    label = "Ni_4 + C3H7X <=> C3H6X + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.24607e+17,'m^2/(mol*s)'), n=0, Ea=(0.866629,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246NDMyNTcz""",
+    longDesc =
+"""
+Training reaction from kinetics library: Surface/cathub/Ni
+Original entry: X + CH3CHCH3X <=> HX + CH3CCH3X
+equation : CH3CHCH3* + * -> CH3CCH3* + H*,
+dft_code : Quantum Espresso,
+dftFunctional : BEEF-vdW,
+pubId: WangTheory-aided2020,
+reactionEnergy: 0.16559174715075642 eV
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles C[CH]C from Thermo library: DFT_QCI_thermo and S298=68.90 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 81,
+    label = "Ni_4 + C3H6X-3 <=> C3H5X + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(4.832e+17,'m^2/(mol*s)'), n=0, Ea=(0.259606,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246NDMyNjcw""",
+    longDesc =
+"""
+Training reaction from kinetics library: Surface/cathub/Ni
+Original entry: X + CH3CH2CHX <=> HX + CH3CH2CX
+equation : CH3CH2CH* + * -> CH3CH2C* + H*,
+dft_code : Quantum Espresso,
+dftFunctional : BEEF-vdW,
+pubId: WangTheory-aided2020,
+reactionEnergy: -0.5122143005137332 eV
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH]CC from Thermo library: DFT_QCI_thermo + radical(CCJ2_triplet) and S298=69.63 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 88,
+    label = "Ni_4 + C2H4X-2 <=> C2H3X + HX_5",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.38494e+17,'m^2/(mol*s)'), n=0, Ea=(0.269593,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246MzM4NTAy""",
+    longDesc =
+"""
+Training reaction from kinetics library: Surface/cathub/Ni
+Original entry: X + CH3CHX <=> HX + CH3CX
+equation : CH3CH* + * -> CH3C* + H*,
+dft_code : Quantum ESPRESSO 5.1,
+dftFunctional : BEEF-vdW,
+pubId: HansenFirst2018,
+reactionEnergy: -0.4990681626368314 eV
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH]C from Thermo library: DFT_QCI_thermo and S298=59.11 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 89,
+    label = "Ni_4 + C2H4X-3 <=> CHX_3 + CH3X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.38494e+17,'m^2/(mol*s)'), n=0, Ea=(1.03948,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246MzM4NTAz""",
+    longDesc =
+"""
+Training reaction from kinetics library: Surface/cathub/Ni
+Original entry: X + CH3CHX <=> CHX + CH3X
+equation : CH3CH* + * -> CH3* + CH*,
+dft_code : Quantum ESPRESSO 5.1,
+dftFunctional : BEEF-vdW,
+pubId: HansenFirst2018,
+reactionEnergy: 0.21834258898161352 eV
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH]C from Thermo library: DFT_QCI_thermo and S298=59.11 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 90,
+    label = "Ni_4 + C2H3X-2 <=> CX_3 + CH3X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.76652e+17,'m^2/(mol*s)'), n=0, Ea=(2.33801,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """cathub_id:UmVhY3Rpb246MzM4NTA1""",
+    longDesc =
+"""
+Training reaction from kinetics library: Surface/cathub/Ni
+Original entry: X + CH3CX <=> CX + CH3X
+equation : CH3C* + * -> CH3* + C*,
+dft_code : Quantum ESPRESSO 5.1,
+dftFunctional : BEEF-vdW,
+pubId: HansenFirst2018,
+reactionEnergy: 1.3264034537714906 eV
+A factor estimation:
+A factor estimate for dissociation
+A factor estimated from gas-phase smiles [CH2]C from Thermo library: DFT_QCI_thermo + radical(Cs_P) and S298=60.52 cal/mol/K
+A/=2.483e-5 mol/m^2 (Pt111 site density)
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+# entry(
+#     index = 231,
+#     label = "Ni_4 + C2H4X-3 <=> CHX_3 + CH3X",
+#     degeneracy = 1.0,
+#     kinetics = SurfaceArrhenius(A=(1.38494e+17,'m^2/(mol*s)'), n=0, Ea=(2.07,'eV/molecule'), T0=(1,'K')),
+#     rank = 3,
+#     shortDesc = """cathub_id:UmVhY3Rpb246OTU4""",
+#     longDesc =
+# """
+# Training reaction from kinetics library: Surface/cathub/Pt
+# Original entry: CHCH3X + X <=> CHX + CH3X
+# equation : CHCH3* -> CH3* + CH*,
+# dft_code : DACAPO,
+# dftFunctional : RPBE,
+# pubId: WangUniversal2011,
+# reactionEnergy: 0.294 eV
+# A factor estimation:
+# A factor estimate for dissociation
+# A factor estimated from gas-phase smiles [CH]C from Thermo library: DFT_QCI_thermo and S298=59.11 cal/mol/K
+# A/=2.483e-5 mol/m^2 (Pt111 site density)
+# """,
+#     metal = "Pt",
+#     facet = "211",
+# )

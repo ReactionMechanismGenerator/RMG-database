@@ -163,7 +163,7 @@ entry(
 
 entry(
     index = 12,
-    label = "CH",
+    label = "*#CH",
     group =
 """
 1 *1 C   u0 {2,S} {3,T}
@@ -175,27 +175,25 @@ entry(
 
 entry(
     index = 13,
-    label = "CH2",
+    label = "*=CHR",
     group =
 """
 1 *1 C   u0 {2,S} {3,D} {4,S}
 2 *2 H   u0 {1,S}
 3 *3 Xo  u0 {1,D}
-4    H   u0 {1,S}
+4    R   u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 14,
-    label = "CH3",
+    label = "*-CHR2",
     group =
 """
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
+1 *1 C   u0 {2,S} {3,S}
 2 *2 H   u0 {1,S}
 3 *3 Xo  u0 {1,S}
-4    H   u0 {1,S}
-5    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -263,17 +261,215 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 20,
+    label = "C-C",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,[S,D,T]}
+2 *2 C   u0 {1,S}
+3 *3 Xo  u0 {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 21,
+    label = "*=CH2",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,D} {4,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,D}
+4    H   u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 22,
+    label = "*=CHC",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,D} {4,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,D}
+4    C   u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 23,
+    label = "*-CH=R",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,D}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    R!H u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 24,
+    label = "*-CH-R2",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    R   u0 {1,S}
+5    R   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 25,
+    label = "*-CH3",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    H   u0 p0 c0 {1,S}
+5    H   u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 26,
+    label = "*-CH2R",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    H   u0 p0 c0 {1,S}
+5    R!H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 27,
+    label = "*-CH2C",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    H   u0 p0 c0 {1,S}
+5    C   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 28,
+    label = "*-CH-RR",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    R!H u0 {1,S}
+5    R!H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 29,
+    label = "*-CHCC",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    C   u0 p0 c0 {1,S}
+5    C   u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 30,
+    label = "*=CHCC",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,D} {4,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,D}
+4    C   u0 p0 c0 {1,S} {5,S}
+5    C   u0 p0 c0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 31,
+    label = "*=CC",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,D}
+2 *2 C   u0 {1,S}
+3 *3 Xo  u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 32,
+    label = "*-CC",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,S}
+2 *2 C   u0 {1,S}
+3 *3 Xo  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 33,
+    label = "*#CC",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,T}
+2 *2 C   u0 {1,S}
+3 *3 Xo  u0 {1,T}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: Combined
     L2: C
         L3: C-H
-            L4: CH
-            L4: CH2
-            L4: CH3
+            L4: *#CH
+            L4: *=CHR
+                L5: *=CH2
+                L5: *=CHC
+                    L6: *=CHCC
+            L4: *-CHR2
+                L5: *-CH=R
+                L5: *-CH-R2
+                    L6: *-CH3
+                    L6: *-CH2R
+                        L7: *-CH2C
+                    L6: *-CH-RR
+                        L7: *-CHCC
         L3: C-O
             L4: C-OH
+        L3: C-C
+            L4: *#CC
+            L4: *=CC
+            L4: *-CC
     L2: O
         L3: O-H
         L3: O-C
