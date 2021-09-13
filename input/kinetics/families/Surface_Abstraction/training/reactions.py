@@ -9,6 +9,27 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
+    index = 1,
+    label = "CHX_1 + H2CCHCCH2X <=> H2CCX + H2CHCHX",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A=(1e18, 'm^2/(mol*s)'),
+        n = 0.,
+        Ea=(500., 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 1,
+    shortDesc = u"""Made up by Emily""",
+    longDesc = u"""
+    There isn't much data for this, and *4 should really only be hydrogen,
+    but I wanted to leave it open for other things just in case. Either way,
+    the barrier for this will be super high and probably not happen often.
+""",
+    metal = "Pt",
+)
+
+entry(
     index = 24,
     label = "CH2X_1 + HOX_3 <=> CH3X_4 + OX_5",
     degeneracy = 1,
