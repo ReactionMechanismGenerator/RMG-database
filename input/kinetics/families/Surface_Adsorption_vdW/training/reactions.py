@@ -9,6 +9,28 @@ training set for generating rate rules to populate this kinetics family.
 """
 
 entry(
+    index = 1,
+    label = "C2H2 + X <=> C2H2X",
+    kinetics = StickingCoefficient(
+        A = 1.0E-25,
+        n = 0,
+        Ea = (0, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Made up by Emily""",
+    longDesc = u"""
+    Ethylene only adsorbs via chemisorption
+
+    doi.org/10.1016/S0039-6028(96)00974-0
+    "The calculations support the picture of strongly distorted adsorbates
+    suggested by various surface experimental studies"
+    """,
+	metal = "Ni",
+)
+
+entry(
     index = 5,
     label = "H2O + X <=> H2OX",
     kinetics = StickingCoefficient(

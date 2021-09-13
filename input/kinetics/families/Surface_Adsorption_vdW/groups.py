@@ -266,7 +266,7 @@ entry(
     group =
 """
 multiplicity [1]
-1    N u0 p1 c0 {2,T} 
+1    N u0 p1 c0 {2,T}
 2 *1 C u0 p0 c0 {1,T} {3,S}
 3    H u0 p0 c0 {2,S}
 """,
