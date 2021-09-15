@@ -416,19 +416,6 @@ L1: Root
 )
 
 forbidden(
-    label = "allene_avoid_doublecounting",
-    group = 
-"""
-1 *2 Cdd u0
-""",
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-)
-
-forbidden(
     label = "benzene_diene1",
     group = 
 """
