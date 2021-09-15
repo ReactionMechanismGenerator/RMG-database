@@ -31,7 +31,7 @@ entry(
 1 *1 [Cd,Cdd,CO,CS]         u0 {2,D}
 2 *2 [Cd,Cdd,CO,CS,O2d,S2d] u0 {1,D}
 3 *3 [Cd,Cdd,CO,CS]         u0 {4,D}
-4 *4 [Cdd,CO,CS,O2d,S2d]    u0 {3,D}
+4 *4 [Cd,Cdd,CO,CS,O2d,S2d]    u0 {3,D}
 """,
     kinetics = None,
 )
@@ -163,13 +163,29 @@ Banning the doublebond within Benzene from reacting in 2+2 cycloaddition.
 )
 
 forbidden(
-    label = "2+2_cycloaddition_CdCd",
+    label = "2+2_cycloaddition_CdCd_product",
     group = 
 """
 1  *4 C u0 p0 c0 {2,S} {3,S}
 2  *3 C u0 p0 c0 {1,S} {4,S}
 3  *2 C u0 p0 c0 {1,S} {4,S}
 4  *1 C u0 p0 c0 {2,S} {3,S}
+""",
+    shortDesc = """2+2_cycloaddition_CdCd""",
+    longDesc = 
+"""
+Banning the 2pi + 2pi cycloaddition, as it is thermally forbidden
+"""
+)
+
+forbidden(
+    label = "2+2_cycloaddition_CdCd_reactant",
+    group = 
+"""
+1  *4 Cd u0 p0 c0 {2,D}
+2  *3 Cd u0 p0 c0 {1,D}
+3  *2 Cd u0 p0 c0 {4,D}
+4  *1 Cd u0 p0 c0 {3,D}
 """,
     shortDesc = """2+2_cycloaddition_CdCd""",
     longDesc = 

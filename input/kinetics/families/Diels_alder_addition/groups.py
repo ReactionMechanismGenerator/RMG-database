@@ -37,7 +37,7 @@ entry(
 3 *3 Cd                                                                    u0 {1,D}
 4 *6 Cd                                                                    u0 {2,D}
 5 *1 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {6,[D,T]}
-6 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc]     u0 {5,[D,T]}
+6 *2 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {5,[D,T]}
 """,
     kinetics = None,
 )
@@ -413,19 +413,6 @@ L1: Root
         L3: Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct
         L3: Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct
 """
-)
-
-forbidden(
-    label = "allene_avoid_doublecounting",
-    group = 
-"""
-1 *2 Cdd u0
-""",
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
 )
 
 forbidden(
