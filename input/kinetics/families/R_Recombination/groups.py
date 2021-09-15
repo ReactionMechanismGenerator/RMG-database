@@ -2739,19 +2739,6 @@ L1: Root
 )
 
 forbidden(
-    label = "Cl",
-    group = 
-"""
-1 * Cl u1
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-forbidden(
     label = "O4",
     group = 
 """
