@@ -37,7 +37,7 @@ entry(
 3 *3 Cd                                                                    u0 {1,D}
 4 *6 Cd                                                                    u0 {2,D}
 5 *1 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {6,[D,T]}
-6 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc]     u0 {5,[D,T]}
+6 *2 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {5,[D,T]}
 """,
     kinetics = None,
 )
