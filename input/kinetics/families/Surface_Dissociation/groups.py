@@ -446,6 +446,32 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 34,
+    label = "*-CH=O",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,D}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    O   u0 p2 c0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 35,
+    label = "*-CH=C",
+    group =
+"""
+1 *1 C   u0 p0 c0 {2,S} {3,S} {4,D}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xo  u0 p0 c0 {1,S}
+4    C   u0 p0 c0 {1,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Combined
@@ -458,6 +484,8 @@ L1: Combined
                     L6: *=CHCC
             L4: *-CHR2
                 L5: *-CH=R
+                    L6: *-CH=O
+                    L6: *-CH=C
                 L5: *-CH-R2
                     L6: *-CH3
                     L6: *-CH2R
