@@ -223,6 +223,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
+    rank = 10,
     shortDesc = u"""Surface_Abstraction_Single_vdW""",
     longDesc = u"""
 "A detailed microkinetic model for diesel engine emissions oxidation
