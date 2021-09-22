@@ -374,18 +374,18 @@ entry(
     kinetics = SurfaceArrhenius(A=(8.34e+19,'cm^2/(mol*s)'), n=0, Ea=(56929.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Duan_Ni111
 Original entry: NH2_X + X <=> NH_X + H_X
-"Ammonia decomposition on Fe(1 1 0), Co(1 1 1) and 
+"Ammonia decomposition on Fe(1 1 0), Co(1 1 1) and
 Ni(1 1 1) surfaces: A density functional theory study"
 Duan et al. Journal of Molecular Catalysis A: Chemical 357 (2012) 81–86
 https://doi.org/10.1016/j.molcata.2012.01.023
 
 and
 
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -409,18 +409,18 @@ entry(
     kinetics = SurfaceArrhenius(A=(2.46e+19,'cm^2/(mol*s)'), n=0, Ea=(107104,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Duan_Ni111
 Original entry: NH_X + X <=> N_X + H_X
-"Ammonia decomposition on Fe(1 1 0), Co(1 1 1) and 
+"Ammonia decomposition on Fe(1 1 0), Co(1 1 1) and
 Ni(1 1 1) surfaces: A density functional theory study"
 Duan et al. Journal of Molecular Catalysis A: Chemical 357 (2012) 81–86
 https://doi.org/10.1016/j.molcata.2012.01.023
 
 and
 
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -444,11 +444,11 @@ entry(
     kinetics = SurfaceArrhenius(A=(2.31e+20,'cm^2/(mol*s)'), n=0, Ea=(86841,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Duan_Ni211
 Original entry: NH2_X + X <=> NH_X + H_X
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -472,11 +472,11 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.36e+21,'cm^2/(mol*s)'), n=0, Ea=(100350,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Duan_Ni211
 Original entry: NH_X + X <=> N_X + H_X
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -500,7 +500,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.8e+19,'cm^2/(mol*s)'), n=0.783, Ea=(86000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Novell_Pd111
 Original entry: NH2_X + X <=> NH_X + H_X
@@ -522,7 +522,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(8.14e+17,'cm^2/(mol*s)'), n=1.445, Ea=(113000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Novell_Pd111
 Original entry: NH_X + X <=> N_X + H_X
@@ -544,7 +544,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(4.43e+21,'cm^2/(mol*s)'), n=0, Ea=(101000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Novell_Pt111
 Original entry: NH2_X + X <=> NH_X + H_X
@@ -566,7 +566,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(5.236e+21,'cm^2/(mol*s)'), n=0, Ea=(116000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Novell_Pt111
 Original entry: NH_X + X <=> N_X + H_X
@@ -588,7 +588,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.23e+19,'cm^2/(mol*s)'), n=0.902, Ea=(84000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Novell_Rh111
 Original entry: NH2_X + X <=> NH_X + H_X
@@ -610,7 +610,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.1e+19,'cm^2/(mol*s)'), n=0.965, Ea=(98000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Novell_Rh111
 Original entry: NH_X + X <=> N_X + H_X
@@ -632,12 +632,12 @@ entry(
     kinetics = SurfaceArrhenius(A=(2.01e+21,'cm^2/(mol*s)'), n=0, Ea=(110000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Offermans_Pt111
 Original entry: NH2_X + X <=> NH_X + H_X
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
-Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
+Offermans, W. K. (2007). Technische Universiteit Eindhoven.
 https://doi.org/10.6100/IR630067
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
@@ -654,12 +654,12 @@ entry(
     kinetics = SurfaceArrhenius(A=(2.9e+21,'cm^2/(mol*s)'), n=0, Ea=(118000,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Offermans_Pt111
 Original entry: NH_X + X <=> N_X + H_X
 "Ammonia oxidation on platinum : a density functional theory study of surface reactivity."
-Offermans, W. K. (2007). Technische Universiteit Eindhoven. 
+Offermans, W. K. (2007). Technische Universiteit Eindhoven.
 https://doi.org/10.6100/IR630067
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
@@ -676,11 +676,11 @@ entry(
     kinetics = SurfaceArrhenius(A=(6.33e+21,'cm^2/(mol*s)'), n=0, Ea=(92630.4,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Popa_Rh111
 Original entry: NH2_X + X <=> NH_X + H_X
-Based primarily on "Ab initio density-functional theory study of 
+Based primarily on "Ab initio density-functional theory study of
 NHx dehydrogenation and reverse reactions on the Rh(111) surface"
 C. Popa, W. K. Offermans, R. A. van Santen, and A. P. J. Jansen
 American Physical Society Vol. 74, Iss. 15—15, 2006
@@ -704,11 +704,11 @@ entry(
     kinetics = SurfaceArrhenius(A=(7.94e+21,'cm^2/(mol*s)'), n=0, Ea=(97454.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Popa_Rh111
 Original entry: NH_X + X <=> N_X + H_X
-Based primarily on "Ab initio density-functional theory study of 
+Based primarily on "Ab initio density-functional theory study of
 NHx dehydrogenation and reverse reactions on the Rh(111) surface"
 C. Popa, W. K. Offermans, R. A. van Santen, and A. P. J. Jansen
 American Physical Society Vol. 74, Iss. 15—15, 2006
@@ -732,11 +732,11 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.52e+21,'cm^2/(mol*s)'), n=0, Ea=(62155,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
 Original entry: NH2_X + X <=> NH_X + H_X
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -758,11 +758,11 @@ entry(
     kinetics = SurfaceArrhenius(A=(2.71e+21,'cm^2/(mol*s)'), n=0, Ea=(99817.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
 Original entry: NH_X + X <=> N_X + H_X
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -783,12 +783,12 @@ entry(
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.73e+20,'cm^2/(mol*s)'), n=0, Ea=(164998,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: N_X + NO_X <=> N2O_X + X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
@@ -810,12 +810,12 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.45e+21,'cm^2/(mol*s)'), n=0, Ea=(131226,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: NH2_X + X <=> NH_X + H_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor is a mean value from other Pt111 libraries
@@ -834,12 +834,12 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.63e+21,'cm^2/(mol*s)'), n=0, Ea=(134121,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: NH_X + X <=> N_X + H_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor is a mean value from other Pt111 libraries
@@ -858,15 +858,15 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.28e+21,'cm^2/(mol*s)'), n=0, Ea=(105174,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: H_X + O_X <=> OH_X + X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
-A factor from CPOX/Deutschmann 
+A factor from CPOX/Deutschmann
 Ea = 1.09eV = 105174.1J/mol
 
 This is reaction (4) in Table S3
@@ -881,12 +881,12 @@ entry(
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(2.32e+21,'cm^2/(mol*s)'), n=0, Ea=(156314,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: N_X + NO_X <=> N2O_X + X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
@@ -906,12 +906,12 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.26e+21,'cm^2/(mol*s)'), n=0, Ea=(155349,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: NH2_X + X <=> NH_X + H_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
@@ -930,12 +930,12 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.42e+21,'cm^2/(mol*s)'), n=0, Ea=(125437,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: NH_X + X <=> N_X + H_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
@@ -954,12 +954,12 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.21e+21,'cm^2/(mol*s)'), n=0, Ea=(48245,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: H_X + O_X <=> OH_X + X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 A factor from Schneider_Pt111 library and scale up by RMG's surface site density of Pt211
@@ -977,7 +977,7 @@ entry(
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.7e+19,'cm^2/(mol*s)'), n=0, Ea=(186226,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd111
 Original entry: N_X + NO_X <=> N2O_X + X
@@ -1004,7 +1004,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.38e+21,'cm^2/(mol*s)'), n=0, Ea=(85876.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd111
 Original entry: NH2_X + X <=> NH_X + H_X
@@ -1030,7 +1030,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.56e+20,'cm^2/(mol*s)'), n=0, Ea=(113858,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd111
 Original entry: NH_X + X <=> N_X + H_X
@@ -1056,7 +1056,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.25e+21,'cm^2/(mol*s)'), n=0, Ea=(97454.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd111
 Original entry: H_X + O_X <=> OH_X + X
@@ -1081,7 +1081,7 @@ entry(
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.6e+20,'cm^2/(mol*s)'), n=0, Ea=(191050,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
 Original entry: N_X + NO_X <=> N2O_X + X
@@ -1107,7 +1107,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.19e+21,'cm^2/(mol*s)'), n=0, Ea=(152454,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
 Original entry: NH2_X + X <=> NH_X + H_X
@@ -1133,7 +1133,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.35e+21,'cm^2/(mol*s)'), n=0, Ea=(118683,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
 Original entry: NH_X + X <=> N_X + H_X
@@ -1159,7 +1159,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.18e+21,'cm^2/(mol*s)'), n=0, Ea=(123507,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
 Original entry: H_X + O_X <=> OH_X + X
@@ -1184,7 +1184,7 @@ entry(
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.62e+22,'cm^2/(mol*s)'), n=0, Ea=(206489,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh111
 Original entry: N_X + NO_X <=> N2O_X + X
@@ -1211,7 +1211,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.23e+21,'cm^2/(mol*s)'), n=0, Ea=(83946.3,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh111
 Original entry: NH2_X + X <=> NH_X + H_X
@@ -1237,7 +1237,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.4e+21,'cm^2/(mol*s)'), n=0, Ea=(98419.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh111
 Original entry: NH_X + X <=> N_X + H_X
@@ -1263,7 +1263,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.2e+21,'cm^2/(mol*s)'), n=0, Ea=(61753.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh111
 Original entry: H_X + O_X <=> OH_X + X
@@ -1288,7 +1288,7 @@ entry(
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(A=(1.54e+20,'cm^2/(mol*s)'), n=0, Ea=(211313,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh211
 Original entry: N_X + NO_X <=> N2O_X + X
@@ -1315,7 +1315,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.04e+21,'cm^2/(mol*s)'), n=0, Ea=(117718,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh211
 Original entry: NH2_X + X <=> NH_X + H_X
@@ -1341,7 +1341,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(3.2e+21,'cm^2/(mol*s)'), n=0, Ea=(88770.8,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh211
 Original entry: NH_X + X <=> N_X + H_X
@@ -1367,7 +1367,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.13e+21,'cm^2/(mol*s)'), n=0, Ea=(85876.1,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh211
 Original entry: H_X + O_X <=> OH_X + X
@@ -1393,7 +1393,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.776e+22,'cm^2/(mol*s)'), n=0, Ea=(115788,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/DOC/Arevalo_Pt111
 Original entry: NO_X + O_X <=> NO2_X + X
@@ -1419,7 +1419,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(6.52e+19,'cm^2/(mol*s)'), n=1.015, Ea=(155285,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/DOC/Ishikawa_Rh111
 Original entry: NO_X + O_X <=> NO2_X + X
@@ -1430,9 +1430,9 @@ J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
 
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
-The modified Arrhenius parameters is calculed from 
-Table 2. Activation Energy (Ea) 
-and 
+The modified Arrhenius parameters is calculed from
+Table 2. Activation Energy (Ea)
+and
 Table S3. Reaction rate constant at different temperatures
 """,
     metal = "Rh",
@@ -1446,7 +1446,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(4.3e+20,'cm^2/(mol*s)'), n=-0.4123, Ea=(7.5,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
 Original entry: COOH_X + X <=> CO_X + OH_X
@@ -1470,7 +1470,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1e+19,'cm^2/(mol*s)'), n=0.0862, Ea=(12.2,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_Dissociative""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
 Original entry: CH3_X + X <=> CH2_X + H_X
@@ -1494,7 +1494,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(2.21e+19,'cm^2/(mol*s)'), n=-0.1312, Ea=(21.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
 Original entry: CH2_X + X <=> CH_X + H_X
@@ -1518,7 +1518,7 @@ entry(
     kinetics = SurfaceArrhenius(A=(1.84e+21,'cm^2/(mol*s)'), n=-0.2464, Ea=(28.9,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
 Original entry: CH_X + X <=> C_X + H_X
@@ -1550,13 +1550,13 @@ entry(
     ),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Vlachos_Ru0001
 Original entry: NH_X + X <=> N_X + H_X
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -1574,22 +1574,22 @@ entry(
     degeneracy = 2.0,
     kinetics = SurfaceArrhenius(
         A = (7.6e+20,'cm^2/(mol*s)'),
-        n = 0, 
+        n = 0,
         Ea = (20.1,'kcal/mol'),
-        T0 = (1,'K'), 
-        Tmin=(200,'K'), 
+        T0 = (1,'K'),
+        Tmin=(200,'K'),
         Tmax=(3000,'K'),
         coverage_dependence = {'H_X': {'a':0.0, 'm':0.0, 'E':(1.2, 'kcal/mol')}}
     ),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Vlachos_Ru0001
 Original entry: NH2_X + X <=> NH_X + H_X
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -1606,10 +1606,10 @@ entry(
     label = "NOX + OX <=> NO2X + X_4",
     degeneracy = 1.0,
     kinetics = SurfaceArrhenius(
-        A = (1.3e17, 'cm^2/(mol*s)'), 
+        A = (1.3e17, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (133, 'kJ/mol'),
-        T0=(1,'K'),   
+        T0=(1,'K'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
         coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(75, 'kJ/mol')}},
@@ -1798,3 +1798,18 @@ A/=2.483e-5 mol/m^2 (Pt111 site density)
 #     metal = "Pt",
 #     facet = "211",
 # )
+
+entry(
+    index = 91,
+    label = "X_4 + CHCH2X <=> HX_5 + CCH2X",
+    degeneracy = 1.0,
+    kinetics = SurfaceArrhenius(A=(1.0e+17,'m^2/(mol*s)'), n=0, Ea=(0.2,'eV/molecule'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Made up by Emily""",
+    longDesc =
+"""
+
+""",
+    metal = "Pt",
+    facet = "111",
+)
