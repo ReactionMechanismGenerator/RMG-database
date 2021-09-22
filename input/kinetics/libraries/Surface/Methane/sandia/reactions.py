@@ -20,11 +20,11 @@ i.e. their lateral translation was represented as an ideal gas with a reference 
 
 entry(
     index = 1,
-    label = "H* + H2CO* -> H2* + HCO*",
+    label = "H* + H2CO* <=> H2* + HCO*",
     kinetics = SurfaceArrhenius(
-        A = 1.599845633664351e+17,
+        A = (1.599845633664351e+17,"m^2/(mol*s)"),
         n = 0,
-        Ea=(1.537, 'eV'),
+        Ea=(1.537, 'eV/molecule'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
