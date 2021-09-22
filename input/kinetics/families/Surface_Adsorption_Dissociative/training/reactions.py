@@ -81,7 +81,7 @@ entry(
     kinetics = StickingCoefficient(A=0.773, n=0.9387, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """H2 Surface_Adsorption_Dissociative""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
 Original entry: H2 + X + X <=> H_X + H_X
@@ -102,7 +102,7 @@ entry(
     kinetics = StickingCoefficient(A=0.572, n=0.7883, Ea=(14.7,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Dissociation""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
 Original entry: CH4 + X + X <=> CH3_X + H_X
@@ -123,13 +123,13 @@ entry(
     kinetics = StickingCoefficient(A=0.87, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """H2 Surface_Adsorption_Dissociative""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Vlachos_Ru0001
 Original entry: H2 + X + X <=> H_X + H_X
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This is R1 in Table 2 (set A)
@@ -140,7 +140,7 @@ This is R1 in Table 2 (set A)
 
 
 entry(
-   index = 3,
+   index = 6,
    label = "C2H6 + X_3 + X_4 <=> CH3X_1 + CH3X_2",
    degeneracy = 2,
    kinetics = StickingCoefficient(

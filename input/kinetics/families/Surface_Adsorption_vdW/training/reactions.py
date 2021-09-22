@@ -31,26 +31,6 @@ entry(
 )
 
 entry(
-    index = 5,
-    label = "H2O + X <=> H2OX",
-    kinetics = StickingCoefficient(
-        A = 1.0E-1,
-        n = 0,
-        Ea = (0, 'J/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 10,
-    shortDesc = u"""Default""",
-    longDesc = u"""R5
-    test surface mechanism: based upon Olaf Deutschmann's work:
-    "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
-    Delgado et al
-    Catalysts, 2015, 5, 871-904""",
-	metal = "Ni",
-)
-
-entry(
     index = 2,
     label = "CO2 + X <=> CO2X",
     kinetics = StickingCoefficient(
@@ -97,12 +77,12 @@ entry(
 #     kinetics = SurfaceArrhenius(A=(1.48e+09,'1/s'), n=0, Ea=(60900,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
 #     rank = 3,
 #     shortDesc = """Surface_Adsorption_vdW""",
-#     longDesc = 
+#     longDesc =
 # """
 # Training reaction from kinetics library: Surface/Ammonia/Kraehnert_Pt111
 # Original entry: NH3_X <=> NH3 + X
 # "Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
-# Kraehnert et al.(2008) 
+# Kraehnert et al.(2008)
 # Chemical Engineering Journal,137(2), 361-375
 # https://doi.org/10.1016/j.cej.2007.05.005
 
@@ -121,7 +101,7 @@ entry(
     kinetics = StickingCoefficient(A=0.79731, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Rebrov_Pt111
 Original entry: NH3 + X <=> NH3_X
@@ -145,11 +125,11 @@ This is R1 in Table 3
 #     kinetics = SurfaceArrhenius(A=(1.29e+08,'1/s'), n=0, Ea=(72149.6,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
 #     rank = 3,
 #     shortDesc = """Surface_Adsorption_vdW""",
-#     longDesc = 
+#     longDesc =
 # """
 # Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
 # Original entry: NH3_X <=> NH3 + X
-# "Kinetic and mechanistic analysis of NH3 decomposition 
+# "Kinetic and mechanistic analysis of NH3 decomposition
 # on Ru(0001), Ru(111) and Ir(111) surfaces"
 # Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 # DOI: 10.1039/d1na00015b
@@ -169,11 +149,11 @@ This is R1 in Table 3
 #     kinetics = SurfaceArrhenius(A=(1.29e+08,'cm^3/(mol*s)'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
 #     rank = 3,
 #     shortDesc = """Surface_Adsorption_vdW""",
-#     longDesc = 
+#     longDesc =
 # """
 # Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
 # Original entry: N2 + X <=> N2_X
-# "Kinetic and mechanistic analysis of NH3 decomposition 
+# "Kinetic and mechanistic analysis of NH3 decomposition
 # on Ru(0001), Ru(111) and Ir(111) surfaces"
 # Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 # DOI: 10.1039/d1na00015b
@@ -193,11 +173,11 @@ This is R1 in Table 3
 #     kinetics = SurfaceArrhenius(A=(1.29e+08,'1/s'), n=0, Ea=(24483,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
 #     rank = 3,
 #     shortDesc = """H2 Surface_Adsorption_vdW""",
-#     longDesc = 
+#     longDesc =
 # """
 # Training reaction from kinetics library: Surface/Ammonia/Roldan_Ru0001
 # Original entry: H2_X <=> H2 + X
-# "Kinetic and mechanistic analysis of NH3 decomposition 
+# "Kinetic and mechanistic analysis of NH3 decomposition
 # on Ru(0001), Ru(111) and Ir(111) surfaces"
 # Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 # DOI: 10.1039/d1na00015b
@@ -217,12 +197,12 @@ entry(
     kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt111
 Original entry: NH3 + X <=> NH3_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
@@ -241,17 +221,17 @@ entry(
     kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pt211
 Original entry: NH3 + X <=> NH3_X
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
-Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+Ma, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414.
 https://doi.org/10.1021/acscatal.8b04251
 
 This reaction used RMG's surface site density of Pt211 = 2.634E-9(mol/cm^2) to calculate the A factor.
 A = ((2.5E3 /pa) / s) * (2.634E-9 mol/cm2) * sqrt(2 * pi * 17 g/mol * molar gas constant * 298 kelvin)
- 
+
 This is R2 in Table S2 and S4
 """,
     metal = "Pt",
@@ -265,7 +245,7 @@ entry(
     kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd111
 Original entry: NH3 + X <=> NH3_X
@@ -289,7 +269,7 @@ entry(
     kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Pd211
 Original entry: NH3 + X <=> NH3_X
@@ -313,7 +293,7 @@ entry(
     kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh111
 Original entry: NH3 + X <=> NH3_X
@@ -337,7 +317,7 @@ entry(
     kinetics = StickingCoefficient(A=1, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Schneider_Rh211
 Original entry: NH3 + X <=> NH3_X
@@ -361,7 +341,7 @@ entry(
     kinetics = StickingCoefficient(A=0.0772, n=1.4067, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
 Original entry: H2O + X <=> H2O_X
@@ -382,7 +362,7 @@ entry(
     kinetics = StickingCoefficient(A=0.367, n=-2.3294, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Methane/Vlachos_Rh
 Original entry: CO2 + X <=> CO2_X
@@ -403,13 +383,13 @@ entry(
     kinetics = StickingCoefficient(A=0.00015, n=0, Ea=(0,'kcal/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
     shortDesc = """Surface_Adsorption_vdW""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: Surface/Ammonia/Vlachos_Ru0001
 Original entry: NH3 + X <=> NH3_X
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This is R11 in Table 2 (set A)
@@ -418,3 +398,22 @@ This is R11 in Table 2 (set A)
     facet = "0001",
 )
 
+entry(
+    index = 18,
+    label = "H2O + X <=> H2OX",
+    kinetics = StickingCoefficient(
+        A = 1.0E-1,
+        n = 0,
+        Ea = (0, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""Default""",
+    longDesc = u"""R5
+    test surface mechanism: based upon Olaf Deutschmann's work:
+    "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
+    Delgado et al
+    Catalysts, 2015, 5, 871-904""",
+	metal = "Ni",
+)
