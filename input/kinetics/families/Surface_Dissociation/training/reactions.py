@@ -1803,8 +1803,8 @@ entry(
     index = 91,
     label = "X_4 + CHCH2X <=> HX_5 + CCH2X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.0e+17,'m^2/(mol*s)'), n=0, Ea=(0.2,'eV/molecule'), T0=(1,'K')),
-    rank = 3,
+    kinetics = SurfaceArrhenius(A=(1.0e+17,'m^2/(mol*s)'), n=0, Ea=(0.3,'eV/molecule'), T0=(1,'K')),
+    rank = 10,
     shortDesc = """Made up by Emily""",
     longDesc =
 """
