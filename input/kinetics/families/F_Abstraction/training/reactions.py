@@ -124,14 +124,14 @@ entry(
     shortDesc = """From NIST CH2F2 model""",
 )
 
-entry(
-    index = 13,
-    label = "CFO + F2 <=> CF2O + F_p1",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """From NIST CH2F2 model""",
-)
+# entry(
+#     index = 13,
+#     label = "CFO + F2 <=> CF2O + F_p1",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     rank = 10,
+#     shortDesc = """From NIST CH2F2 model""",
+# )
 
 entry(
     index = 14,
@@ -646,61 +646,61 @@ Original entry: F2 + H <=> F + HF
 """,
 )
 
-entry(
-    index = 66,
-    label = "CFO + F2 <=> CF2O-2 + F_p1",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """The chemkin file reaction is CF:O + F2 <=> CF2:O + F""",
-    longDesc = 
-"""
-Training reaction from kinetics library: 2-BTP
-Original entry: CF:O + F2 <=> CF2:O + F
-""",
-)
+# entry(
+#     index = 66,
+#     label = "CFO + F2 <=> CF2O-2 + F_p1",
+#     degeneracy = 2.0,
+#     kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     rank = 10,
+#     shortDesc = """The chemkin file reaction is CF:O + F2 <=> CF2:O + F""",
+#     longDesc = 
+# """
+# Training reaction from kinetics library: 2-BTP
+# Original entry: CF:O + F2 <=> CF2:O + F
+# """,
+# )
 
-entry(
-    index = 67,
-    label = "CF-2 + F2 <=> CF2-2 + F_p1",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(2.4e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """The chemkin file reaction is CF + F2 <=> CF2 + F""",
-    longDesc = 
-"""
-Training reaction from kinetics library: 2-BTP
-Original entry: CF + F2 <=> CF2 + F
-""",
-)
+# entry(
+#     index = 67,
+#     label = "CF-2 + F2 <=> CF2-2 + F_p1",
+#     degeneracy = 2.0,
+#     kinetics = Arrhenius(A=(2.4e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     rank = 10,
+#     shortDesc = """The chemkin file reaction is CF + F2 <=> CF2 + F""",
+#     longDesc = 
+# """
+# Training reaction from kinetics library: 2-BTP
+# Original entry: CF + F2 <=> CF2 + F
+# """,
+# )
 
-entry(
-    index = 68,
-    label = "CHF + H <=> CH + FH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    shortDesc = """The chemkin file reaction is CHF + H <=> CH + HF""",
-    longDesc = 
-"""
-Training reaction from kinetics library: CF2BrCl
-Original entry: CHF + H <=> CH + HF
-""",
-)
+# entry(
+#     index = 68,
+#     label = "CHF + H <=> CH + FH",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(6.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+#     rank = 3,
+#     shortDesc = """The chemkin file reaction is CHF + H <=> CH + HF""",
+#     longDesc = 
+# """
+# Training reaction from kinetics library: CF2BrCl
+# Original entry: CHF + H <=> CH + HF
+# """,
+# )
 
-entry(
-    index = 69,
-    label = "CF2 + H <=> CF + FH",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(3.98e+13,'cm^3/(mol*s)'), n=0, Ea=(4540,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    shortDesc = """The chemkin file reaction is CF2 + H <=> CF + HF""",
-    longDesc = 
-"""
-Training reaction from kinetics library: CF2BrCl
-Original entry: CF2 + H <=> CF + HF
-""",
-)
+# entry(
+#     index = 69,
+#     label = "CF2 + H <=> CF + FH",
+#     degeneracy = 2.0,
+#     kinetics = Arrhenius(A=(3.98e+13,'cm^3/(mol*s)'), n=0, Ea=(4540,'cal/mol'), T0=(1,'K')),
+#     rank = 3,
+#     shortDesc = """The chemkin file reaction is CF2 + H <=> CF + HF""",
+#     longDesc = 
+# """
+# Training reaction from kinetics library: CF2BrCl
+# Original entry: CF2 + H <=> CF + HF
+# """,
+# )
 
 entry(
     index = 70,
@@ -727,6 +727,19 @@ entry(
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: FCL + H <=> HF + CL
+""",
+)
+
+entry(
+    index = 72,
+    label = "H2CCFCF3+ CF3 <=> H2CCFCF2 + CF4_p23",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A = (1.15503, 'cm^3/(mol*s)'), n = 3.92844, Ea = (168.206, 'kJ/mol'),T0 = (1, 'K')),
+    rank = 3,
+    shortDesc = """M062X-D3/Jun-cc-pvtz Gaussian16""",
+    longDesc = 
+"""
+Fitted to 50 data points; dA = *|/ 1.53415, dn = +|- 0.0562276, dEa = +|- 0.305988 kJ/mol
 """,
 )
 

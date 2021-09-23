@@ -676,3 +676,25 @@ Cl
 multiplicity 2
 1 *1 Cl u1 p3 c0
 
+H2CCFCF2
+multiplicity 2
+1 C u0 p0 c0 {2,D} {7,S} {8,S}
+2 C u0 p0 c0 {1,D} {3,S} {4,S}
+3 F u0 p3 c0 {2,S}
+4 *1 C u1 p0 c0 {2,S} {5,S} {6,S}
+5 F u0 p3 c0 {4,S}
+6 F u0 p3 c0 {4,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {1,S}
+
+H2CCFCF3
+1 C u0 p0 c0 {2,D} {8,S} {9,S}
+2 C u0 p0 c0 {1,D} {3,S} {4,S}
+3 F u0 p3 c0 {2,S}
+4 *1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5 *2 F u0 p3 c0 {4,S}
+6 F u0 p3 c0 {4,S}
+7 F u0 p3 c0 {4,S}
+8 H u0 p0 c0 {1,S}
+9 H u0 p0 c0 {1,S}
+
