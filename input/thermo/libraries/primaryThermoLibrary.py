@@ -1182,3 +1182,26 @@ u"""
 HarmonicOscillator(frequencies = ([55.6209, 577.002, 595.072, 598.128, 598.906, 801.916, 1644.01, 2280.9, 2412.53], 'cm^-1'))
 """,
 )
+
+entry(
+    index = 47,
+    label = "C(Q)",
+    molecule =
+"""
+multiplicity 5
+1 C u4 p0 c0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
+        H298 = (1120.106,'kJ/mol'),
+        S298 = (35.576,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+H298: ATcT version 1.110
+ATcT id: 7440-44-0*3
+entropy and heat capacity taken from "C(T)"
+""",
+)
