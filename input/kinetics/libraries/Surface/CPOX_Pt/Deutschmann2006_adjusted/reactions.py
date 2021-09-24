@@ -510,7 +510,7 @@ entry(
         Ea=(90500, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        coverage_dependence = {'OX': {'a': 0.0, 'm': 0.0, 'E': (-240580, 'J/mol')}},
+        coverage_dependence = {'OX': {'a': 0.0, 'm': 0.0, 'E': (240580, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""R30. H2OX is vdW H2O. Ea raised from 43.1 to 90.5 kJ/mol to
