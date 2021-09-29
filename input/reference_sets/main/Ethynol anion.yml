@@ -11,7 +11,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -7.0877504842073416
+        value: -9.94351119593171
       class: ThermoData
     xyz_dict:
       coords:
@@ -181,75 +181,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 1.6041806575760245
-      class: ThermoData
-    xyz_dict:
-      coords:
-        class: np_array
-        object:
-        - - 1.247175
-          - -0.100848
-          - 0.0
-        - - 0.001671
-          - 0.021635
-          - 0.0
-        - - -1.213743
-          - 0.006162
-          - 0.0
-        - - 2.150294
-          - 0.469101
-          - 0.0
-      isotopes:
-      - 12
-      - 12
-      - 16
-      - 1
-      symbols:
-      - C
-      - C
-      - O
-      - H
-  LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
-    class: CalculatedDataEntry
-    thermo_data:
-      H298:
-        class: ScalarQuantity
-        units: kcal/mol
-        value: -3.9386618543126053
-      class: ThermoData
-    xyz_dict:
-      coords:
-        class: np_array
-        object:
-        - - 1.253007
-          - -0.113896
-          - 0.0
-        - - 0.004568
-          - 0.023755
-          - 0.0
-        - - -1.215398
-          - 0.009475
-          - 0.0
-        - - 2.143221
-          - 0.476716
-          - 0.0
-      isotopes:
-      - 12
-      - 12
-      - 16
-      - 1
-      symbols:
-      - C
-      - C
-      - O
-      - H
-  LevelOfTheory(method='cbsqb3g16',software='gaussian'):
-    class: CalculatedDataEntry
-    thermo_data:
-      H298:
-        class: ScalarQuantity
-        units: kcal/mol
-        value: -16.422721622796676
+        value: -10.819994895576885
       class: ThermoData
     xyz_dict:
       coords:
@@ -453,7 +385,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -2.1396502715905896
+        value: -1.5792746066883379
       class: ThermoData
     xyz_dict:
       coords:
