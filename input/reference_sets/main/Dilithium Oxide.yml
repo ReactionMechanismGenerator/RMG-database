@@ -1,0 +1,114 @@
+RMG_version: 3.1.0
+adjacency_list: |
+  1 Li u0 p0 c0 {2,S}
+  2 O  u0 p2 c0 {1,S} {3,S}
+  3 Li u0 p0 c0 {2,S}
+calculated_data:
+  # ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  # : class: CalculatedDataEntry
+  #   thermo_data:
+  #     H298:
+  #       class: ScalarQuantity
+  #       units: kcal/mol
+  #       value: -35.983204118464926
+  #     class: ThermoData
+  #   xyz_dict:
+  #     coords:
+  #       class: np_array
+  #       object:
+  #       - - -0.0
+  #         - -0.0002298
+  #         - 1.61588839
+  #       - - 0.0
+  #         - 0.00017235
+  #         - -3.0e-08
+  #       - - -0.0
+  #         - -0.0002298
+  #         - -1.61588831
+  #     isotopes:
+  #     - 7
+  #     - 16
+  #     - 7
+  #     symbols:
+  #     - Li
+  #     - O
+  #     - Li
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -31.34597418576132
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -0.0002411
+          - 1.61588149
+        - - 0.0
+          - 0.00016106
+          - -6.93e-06
+        - - 0.0
+          - -0.00024108
+          - -1.61589521
+      isotopes:
+      - 7
+      - 16
+      - 7
+      symbols:
+      - Li
+      - O
+      - Li
+charge: 0
+class: ReferenceSpecies
+datetime: 2021-09-25 15:51
+default_xyz_chemistry:
+  basis: def2tzvp
+  class: LevelOfTheory
+  method: wb97xd3
+  software: qchem
+formula: Li2O
+inchi: InChI=1/2Li.O/rLi2O/c1-3-2
+inchi_key: XZIUWXMPQBQHMC-UHFFFAOYSA-N
+index: 429
+label: Dilithium Oxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 29.881401626166074
+multiplicity: 1
+preferred_reference: CCCBDB
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: -166.94
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 1.606
+        - - 0.0
+          - 0.0
+          - -1.606
+      isotopes:
+      - 16
+      - 7
+      - 7
+      symbols:
+      - O
+      - Li
+      - Li
+smiles: '[Li]O[Li]'

@@ -1,0 +1,108 @@
+RMG_version: 3.1.0
+adjacency_list: |
+  1 Li u0 p0 c0 {2,S}
+  2 Cl u0 p3 c0 {1,S}
+calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -44.9452605890313
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.7276818055
+        - - 0.0
+          - 0.0
+          - -0.3048850245
+      isotopes:
+      - 7
+      - 35
+      symbols:
+      - Li
+      - Cl
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -45.09770626360069
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.7274915
+        - - 0.0
+          - 0.0
+          - -0.30507533
+      isotopes:
+      - 7
+      - 35
+      symbols:
+      - Li
+      - Cl
+charge: 0
+class: ReferenceSpecies
+datetime: 2021-09-25 15:51
+default_xyz_chemistry:
+  basis: def2tzvp
+  class: LevelOfTheory
+  method: wb97xd3
+  software: qchem
+formula: ClLi
+inchi: InChI=1S/ClH.Li/h1H;/q;+1/p-1
+inchi_key: KWGKDLIKAYFUFQ-UHFFFAOYSA-M
+index: 431
+label: Lithium Chloride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 42.39314218081344
+multiplicity: 1
+preferred_reference: CCCBDB
+reference_data:
+  CCCBDB:
+    atomization_energy:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 472.93
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 12.6
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -195.72
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 2.0207
+      isotopes:
+      - 7
+      - 35
+      symbols:
+      - Li
+      - Cl
+    zpe:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 3.8346283324654964
+smiles: '[Li]Cl'

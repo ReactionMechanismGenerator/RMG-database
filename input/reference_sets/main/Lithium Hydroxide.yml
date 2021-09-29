@@ -1,0 +1,126 @@
+RMG_version: 3.1.0
+adjacency_list: |
+  1 Li u0 p0 c0 {2,S}
+  2 O  u0 p2 c0 {1,S} {3,S}
+  3 H  u0 p0 c0 {2,S}
+calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -56.333029772892836
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -0.0001962384
+          - 1.2677313558
+        - - 0.0
+          - 0.0001967227
+          - -0.3173225242
+        - - -0.0
+          - -0.0009850666
+          - -1.2646138742
+      isotopes:
+      - 7
+      - 16
+      - 1
+      symbols:
+      - Li
+      - O
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -52.31866107779808
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -0.00019624
+          - 1.26773132
+        - - 0.0
+          - 0.0001967
+          - -0.31732256
+        - - 0.0
+          - -0.00098511
+          - -1.26461391
+      isotopes:
+      - 7
+      - 16
+      - 1
+      symbols:
+      - Li
+      - O
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2021-09-25 15:51
+default_xyz_chemistry:
+  basis: def2tzvp
+  class: LevelOfTheory
+  method: wb97xd3
+  software: qchem
+formula: HLiO
+inchi: InChI=1S/Li.H2O/h;1H2/q+1;/p-1
+inchi_key: WMFOQBRAJBCJND-UHFFFAOYSA-M
+index: 428
+label: Lithium Hydroxide
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 23.948372134466013
+multiplicity: 1
+preferred_reference: CCCBDB
+reference_data:
+  CCCBDB:
+    atomization_energy:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 847.74
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 5.0
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -229.0
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - -1.5816
+        - - 0.0
+          - 0.0
+          - 0.9691
+      isotopes:
+      - 16
+      - 7
+      - 1
+      symbols:
+      - O
+      - Li
+      - H
+    zpe:
+      class: ScalarQuantity
+      uncertainty: 0.9
+      uncertainty_type: +|-
+      units: kJ/mol
+      value: 30.332511723758184
+smiles: '[Li]O'
