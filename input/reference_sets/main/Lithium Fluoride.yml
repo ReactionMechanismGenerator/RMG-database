@@ -1,0 +1,108 @@
+RMG_version: 3.1.0
+adjacency_list: |
+  1 Li u0 p0 c0 {2,S}
+  2 F  u0 p3 c0 {1,S}
+calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -80.93420076075435
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.1802479025
+        - - 0.0
+          - 0.0
+          - -0.3934159675
+      isotopes:
+      - 7
+      - 19
+      symbols:
+      - Li
+      - F
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -79.09873121311651
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.18030521
+        - - 0.0
+          - 0.0
+          - -0.39335866
+      isotopes:
+      - 7
+      - 19
+      symbols:
+      - Li
+      - F
+charge: 0
+class: ReferenceSpecies
+datetime: 2021-09-25 15:51
+default_xyz_chemistry:
+  basis: def2tzvp
+  class: LevelOfTheory
+  method: wb97xd3
+  software: qchem
+formula: FLi
+inchi: InChI=1S/FH.Li/h1H;/q;+1/p-1
+inchi_key: PQXKHYXIUOZZFA-UHFFFAOYSA-M
+index: 430
+label: Lithium Fluoride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 25.939405273131484
+multiplicity: 1
+preferred_reference: CCCBDB
+reference_data:
+  CCCBDB:
+    atomization_energy:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 575.57
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 8.4
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -340.79
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 1.5639
+      isotopes:
+      - 19
+      - 7
+      symbols:
+      - F
+      - Li
+    zpe:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 5.42754815276786
+smiles: '[Li]F'
