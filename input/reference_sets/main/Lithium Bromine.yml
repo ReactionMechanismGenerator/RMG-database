@@ -1,0 +1,74 @@
+RMG_version: 3.1.0
+adjacency_list: |
+  1 Li u0 p0 c0 {2,S}
+  2 Br u0 p3 c0 {1,S}
+calculated_data:
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -36.55107098761214
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 2.01859144
+        - - 0.0
+          - 0.0
+          - -0.17312375
+      isotopes:
+      - 7
+      - 79
+      symbols:
+      - Li
+      - Br
+charge: 0
+class: ReferenceSpecies
+datetime: 2021-09-25 15:51
+default_xyz_chemistry:
+  basis: def2tzvp
+  class: LevelOfTheory
+  method: wb97xd3
+  software: qchem
+formula: BrLi
+inchi: InChI=1S/BrH.Li/h1H;/q;+1/p-1
+inchi_key: AMXOYNBUYSYVKV-UHFFFAOYSA-M
+index: 432
+label: Lithium Bromine
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 86.84500475011282
+multiplicity: 1
+preferred_reference: CCCBDB
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kJ/mol
+        value: -153.97
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 2.1704
+      isotopes:
+      - 7
+      - 79
+      symbols:
+      - Li
+      - Br
+smiles: '[Li]Br'

@@ -1,0 +1,108 @@
+RMG_version: 3.1.0
+adjacency_list: |
+  1 Li u0 p0 c0 {2,S}
+  2 H  u0 p0 c0 {1,S}
+calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 32.95874649939025
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.40144624
+        - - 0.0
+          - 0.0
+          - -1.20433872
+      isotopes:
+      - 7
+      - 1
+      symbols:
+      - Li
+      - H
+  LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 31.14747211169462
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.40139697
+        - - 0.0
+          - 0.0
+          - -1.20438799
+      isotopes:
+      - 7
+      - 1
+      symbols:
+      - Li
+      - H
+charge: 0
+class: ReferenceSpecies
+datetime: 2021-09-25 15:51
+default_xyz_chemistry:
+  basis: def2tzvp
+  class: LevelOfTheory
+  method: wb97xd3
+  software: qchem
+formula: HLi
+inchi: InChI=1S/Li.H
+inchi_key: SIAPCJWMELPYOE-UHFFFAOYSA-N
+index: 427
+label: Lithium Hydride
+molecular_weight:
+  class: ScalarQuantity
+  units: amu
+  value: 7.9489716696159585
+multiplicity: 1
+preferred_reference: CCCBDB
+reference_data:
+  CCCBDB:
+    atomization_energy:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 232.97
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.04
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 140.62
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 1.5949
+      isotopes:
+      - 7
+      - 1
+      symbols:
+      - Li
+      - H
+    zpe:
+      class: ScalarQuantity
+      units: kJ/mol
+      value: 8.34936359140795
+smiles: '[Li][H]'
