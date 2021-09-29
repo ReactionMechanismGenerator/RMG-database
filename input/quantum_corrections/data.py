@@ -303,10 +303,17 @@ atom_energies = {
     },
 
     # We are assuming that SOC is included in the Bond Energy Corrections
-    "LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro')": {
-        'H': -0.499811124128, 'N': -54.526406291655, 'O': -74.995458316117,
-        'C': -37.788203485235, 'S': -397.663040369707
-    },
+
+	"LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro')": {
+    'H': -0.5000661101027939,
+    'Li': -7.432035855815204,
+    'C': -37.78408124102734,
+    'N': -54.52312161024411,
+    'O': -74.99317732030451,
+    'F': -99.6509822474291,
+    'S': -397.66253080739585,
+    'Cl': -459.68886182498704
+	},
 
     "LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro')": {
         'H': -0.499946213243, 'N': -54.53000909621, 'O': -75.004127673424,
