@@ -8354,3 +8354,44 @@ Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
 """,
 )
 
+entry(
+    index = 202,
+    label = "ethylene carbonate dimethyl carbonate 50:50",
+    molecule =["C1COC(=O)O1","COC(=O)OC"],
+    solvent = SolventData(
+        s_g = 2.188307427867902,
+        b_g = 0.7125301394001279,
+        e_g = -0.1710058347720579,
+        l_g = 0.6377882973324467,
+        a_g = 2.697474547463486,
+        c_g = 0.06647341697233096,
+        s_h = -12.431587555584011,
+        b_h = -6.223881560780934,
+        e_h = 2.487369126559545,
+        l_h = -6.062005468468399,
+        a_h = -30.13057976797578,
+        c_h = -6.445498781025442,
+        A = -47.078,
+        B = 2783.2,
+        C = 5.3617,
+        D = 0,
+        E = 0,
+        alpha = None,
+        beta = None,
+        eps = None,
+        name_in_coolprop = None,
+    ),
+    dataCount = DataCountSolvent(
+        dGsolvCount = 3080,
+        dGsolvMAE = (0.5578,'kcal/mol'),
+        dHsolvCount = 3080,
+        dHsolvMAE = (0.8275,'kcal/mol'),
+    ),
+    shortDesc = u""" """,
+    longDesc =
+u"""
+Abraham and Mintz parameters: fitted by Matt Johnson
+Viscosity parameters are those of diethyl carbonate from (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+""",
+)
