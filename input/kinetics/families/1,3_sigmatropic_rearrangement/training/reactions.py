@@ -110,7 +110,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001084 <=> p001084_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001084
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -127,7 +127,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001085 <=> p001085_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001085
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -144,7 +144,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001089 <=> p001089_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001089
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -161,7 +161,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001691 <=> p001691_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001691
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -178,7 +178,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r002774 <=> p002774_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn002774
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -195,7 +195,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r003183 <=> p003183_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn003183
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -212,7 +212,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r003454 <=> p003454_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn003454
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -229,7 +229,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r004749 <=> p004749_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn004749
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -246,7 +246,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005032 <=> p005032_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005032
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -263,7 +263,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005432 <=> p005432_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005432
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -280,7 +280,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005588 <=> p005588_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005588
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -297,7 +297,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005826 <=> p005826_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005826
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -314,7 +314,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001086 <=> p001086_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001086
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -331,7 +331,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001088 <=> p001088_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001088
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -348,7 +348,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001958 <=> p001958_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001958
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -365,7 +365,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r004202 <=> p004202_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn004202
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -382,7 +382,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005036 <=> p005036_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005036
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -399,7 +399,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005593 <=> p005593_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005593
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -416,7 +416,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005763 <=> p005763_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005763
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -433,7 +433,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r011506 <=> p011506_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn011506
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -450,7 +450,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001235 <=> p001235_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001235
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -467,7 +467,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r004142 <=> p004142_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn004142
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -484,7 +484,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r004745 <=> p004745_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn004745
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -501,7 +501,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005598 <=> p005598_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005598
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -518,7 +518,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r006539 <=> p006539_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn006539
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -535,7 +535,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r007269 <=> p007269_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn007269
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
@@ -552,7 +552,7 @@ entry(
     longDesc = 
 """
 Calculated by Kevin Spiekermann
-Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r009176 <=> p009176_0
+Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn009176
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12/cc-pVDZ-F12
 Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
