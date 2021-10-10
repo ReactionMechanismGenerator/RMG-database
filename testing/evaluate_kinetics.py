@@ -20,14 +20,14 @@ from rmgpy.kinetics import *
 from rmgpy.data.reference import *
 from rmgpy.data.base import Entry
 from rmgpy.data.thermo import ThermoDatabase
-from rmgpy.data.kinetics import saveEntry
 from rmgpy.molecule import Molecule
 from rmgpy.species import Species
 from rmgpy.reaction import Reaction
 from rmgpy.data.rmg import RMGDatabase
-from rmgpy.data.kinetics.common import UndeterminableKineticsError
+from rmgpy.data.kinetics.common import save_entry
+from rmgpy.exceptions import UndeterminableKineticsError
 
-def getKineticsDepository(FullDatabase, family, depositoryLabel):
+def get_kinetics_depository(FullDatabase, family, depositoryLabel):
     """
     Retrieve dictionaries of exact kinetics from NIST depository and approximated kinetics 
     for those same reactions from RMG.  
@@ -41,19 +41,19 @@ def getKineticsDepository(FullDatabase, family, depositoryLabel):
             depository=tempDepository
             break
     else:
-        print 'Depository {} not found in {} family.'.format(depositoryLabel, family.label)
+        print('Depository {} not found in {} family.'.format(depositoryLabel, family.label))
         return
             
     
-    exactKinetics={}
-    approxKinetics={}
+    exact_kinetics={}
+    approx_kinetics={}
     
     for key, entry in depository.entries.iteritems():
         try:
             reaction=entry.item
             template=family.getReactionTemplate(reaction)
-            exactKinetics[key]=entry.data
-            approxKinetics[key]=family.rules.estimateKinetics(template)[0]
+            exact_kinetics[key]=entry.data
+            approx_kinetics[key]=family.rules.estimateKinetics(template)[0]
         except UndeterminableKineticsError:
             # See if the reaction was written in the reverse direction
             reaction = Reaction(reactants = copy.deepcopy(entry.item.products),
@@ -71,12 +71,12 @@ def getKineticsDepository(FullDatabase, family, depositoryLabel):
             reverseKinetics = reaction.generateReverseRateCoefficient()
             reaction.kinetics = reverseKinetics
             
-            exactKinetics[key]=reaction.kinetics
-            approxKinetics[key]=family.rules.estimateKinetics(template)[0]
+            exact_kinetics[key]=reaction.kinetics
+            approx_kinetics[key]=family.rules.estimateKinetics(template)[0]
 
-    return exactKinetics, approxKinetics
+    return exact_kinetics, approx_kinetics
         
-def getKineticsLeaveOneOut(family, averaging=True):
+def get_kinetics_leave_one_out(family, averaging=True):
     """
     Performs the leave one out test on a family. It returns a dictionary of 
     the original exact nodes and a dictionary of the new averaged nodes. 
@@ -100,27 +100,27 @@ def getKineticsLeaveOneOut(family, averaging=True):
     estimate to use a more general node that still incorporates the data
     from the original exact entry. Speed of this test is fast.
     """   
-    exactKinetics={}
-    approxKinetics={}
+    exact_kinetics={}
+    approx_kinetics={}
 
-    rootTemplate = family.getRootTemplate()
+    root_template = family.getRootTemplate()
 
     for entryKey in family.rules.entries.keys():
         template = family.retrieveTemplate(entryKey.split(';'))
-        exactKineticsEntry=family.rules.getRule(template)  # fetch the best matched rule
-        if exactKineticsEntry.rank == 0:
+        exact_kinetics_entry=family.rules.getRule(template)  # fetch the best matched rule
+        if exact_kinetics_entry.rank == 0:
             # Skip rank zero entries, because they are replaced by averaged values
             # during model generation
             continue
 
-        exactKineticsData = exactKineticsEntry.data
-        if exactKineticsData.comment:
-            if 'training' not in exactKineticsData.comment:
+        exact_kinetics_data = exact_kinetics_entry.data
+        if exact_kinetics_data.comment:
+            if 'training' not in exact_kinetics_data.comment:
                 # Averaged nodes have kinetics data comments, so skip them unless 
                 # They were created from training reactions
                 continue
 
-        exactKinetics[entryKey] = exactKineticsData
+        exact_kinetics[entryKey] = exact_kinetics_data
 
         if averaging:
             # In this scheme, we remove the data fully and try to pretend the database 
@@ -128,7 +128,7 @@ def getKineticsLeaveOneOut(family, averaging=True):
             familyCopy=copy.deepcopy(family)
             familyCopy.rules.entries.pop(entryKey)
             familyCopy.fillKineticsRulesByAveragingUp()
-            approxKinetics[entryKey], approxKineticsEntry=familyCopy.rules.estimateKinetics(template)
+            approx_kinetics[entryKey], approx_kinetics_entry=familyCopy.rules.estimateKinetics(template)
         else:
             # In this scheme, do not re-average the tree, just try to see if the nearest
             # best node provides a good estimate for the original kinetics.  
@@ -137,68 +137,68 @@ def getKineticsLeaveOneOut(family, averaging=True):
 
             # Skip the top node in this scheme, because nothing can predict it if removed
 
-            if template == rootTemplate:
+            if template == root_template:
                 continue
 
-            originalEntry = family.rules.entries[entryKey]
+            original_entry = family.rules.entries[entryKey]
             family.rules.entries.pop(entryKey)
-            approxKinetics[entryKey], approxKineticsEntry=family.rules.estimateKinetics(template)
+            approx_kinetics[entryKey], approx_kinetics_entry=family.rules.estimateKinetics(template)
             # Re-add the data back into the original family
-            family.rules.entries[entryKey] = originalEntry
+            family.rules.entries[entryKey] = original_entry
 
 
         
         
 
-    return exactKinetics, approxKinetics
+    return exact_kinetics, approx_kinetics
 
         
 
-def calculateParity(exactKineticModel, approxKineticModel, T):
+def calculate_parity(exact_kinetic_model, approx_kinetic_model, T):
     '''
     Calculates the parity values between two sets of kinetics evaluated at temperature T
     '''
-    exact = exactKineticModel.getRateCoefficient(T)
-    approx = approxKineticModel.getRateCoefficient(T)
+    exact = exact_kinetic_model.getRateCoefficient(T)
+    approx = approx_kinetic_model.getRateCoefficient(T)
     
     return float(approx)/float(exact)
 
 
-def analyzeForParity(exactKinetics, approxKinetics, T=1000.0):
+def analyze_for_parity(exact_kinetics, approx_kinetics, T=1000.0):
     """
-    Creates a parity plot from the exactKinetics and approxKinetics (dictionarys with 
+    Creates a parity plot from the exact_kinetics and approx_kinetics (dictionarys with 
     kineticModels are entries). Uses the user specified temperature T to 
-    compare the two sets of kinetics k(T). Returns the parityData in a dictionary with
+    compare the two sets of kinetics k(T). Returns the parity_data in a dictionary with
     {key: [exactCoefficient(T), approxCoefficient(T)}
     """
-    parityData={}
-    for key in approxKinetics:
+    parity_data={}
+    for key in approx_kinetics:
             
-        exact=exactKinetics[key].getRateCoefficient(T)
-        approx=approxKinetics[key].getRateCoefficient(T)
+        exact=exact_kinetics[key].getRateCoefficient(T)
+        approx=approx_kinetics[key].getRateCoefficient(T)
         dataPoint=[exact, approx]
-        parityData[key]=dataPoint
+        parity_data[key]=dataPoint
 
-    return parityData
+    return parity_data
 
 
-def calculateQ(parityData):
+def calculateQ(parity_data):
     """
     Calculates the predicted root mean square error
     """
     Q=0.0
-    for key, value in parityData.iteritems():
+    for key, value in parity_data.iteritems():
         Q+=(math.log10(value[0]/value[1]))**2
-    return (Q/len(parityData))**0.5
+    return (Q/len(parity_data))**0.5
 
-def createParityPlot(parityData):
+def createParityPlot(parity_data):
     
-    keyList=parityData.keys()
+    keyList=parity_data.keys()
     xAxis=[]
     yAxis=[]
     for key in keyList:
-        xAxis.append(parityData[key][0])
-        yAxis.append(parityData[key][1])
+        xAxis.append(parity_data[key][0])
+        yAxis.append(parity_data[key][1])
     
     plt.loglog(xAxis,yAxis, 'ks')
     
@@ -268,12 +268,12 @@ def obtainKineticsFamilyStatistics(FullDatabase, trialDir):
         
         for familyName in allFamilyNames: 
             family=FullDatabase.kinetics.families[familyName]
-            print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)'
+            print("Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)')
             # Save to csv file
             csvwriter.writerow(countNodes(family))
 
 
-def compareNIST(FullDatabase, trialDir, pruneForExact=False):
+def compare_NIST(FullDatabase, trialDir, pruneForExact=False):
     """
     Compare NIST reaction kinetics with estimates from RMG.  Creates parity plot and
     calculates the predicted root mean square error from the families.
@@ -283,7 +283,7 @@ def compareNIST(FullDatabase, trialDir, pruneForExact=False):
     if pruneForExact=True, only the comparisons again exact match kinetics from RMG are returned
     otherwise, estimated and exact matches are all included in the parity data.
     """
-    trialDir=os.path.join(trialDir, 'compareNIST')
+    trialDir=os.path.join(trialDir, 'compare_NIST')
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
     
@@ -297,41 +297,41 @@ def compareNIST(FullDatabase, trialDir, pruneForExact=False):
         csvwriter=csv.writer(csvfile)
         for familyName in allFamilyNames: 
             family=FullDatabase.kinetics.families[familyName]
-            print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)'
+            print("Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)')
             if len(family.rules.entries) < 2:
-                print '    Skipping', familyName, ': only has one rate rule...'
+                print('    Skipping', familyName, ': only has one rate rule...')
             else:
-                exactKinetics, approxKinetics = getKineticsDepository(FullDatabase, family, 'NIST')
+                exact_kinetics, approx_kinetics = get_kinetics_depository(FullDatabase, family, 'NIST')
                 
                 
                 if pruneForExact:
                     # prune for exact matches only
-                    keysToRemove=[]
-                    for key, kinetics in approxKinetics.iteritems():
+                    keys_to_remove=[]
+                    for key, kinetics in approx_kinetics.iteritems():
                         if not re.search('Exact', kinetics.comment):
-                            keysToRemove.append(key)
+                            keys_to_remove.append(key)
                     
-                    for key in keysToRemove:
-                        del approxKinetics[key]
+                    for key in keys_to_remove:
+                        del approx_kinetics[key]
                 
-                parityData=analyzeForParity(exactKinetics, approxKinetics)
+                parity_data=analyze_for_parity(exact_kinetics, approx_kinetics)
 
-                if len(parityData)<2:
-                    print '    Skipping', familyName, ': {} reactions were compared...'.format(len(parityData))
+                if len(parity_data)<2:
+                    print('    Skipping', familyName, ': {} reactions were compared...'.format(len(parity_data)))
                     continue
-                QDict[familyName]=calculateQ(parityData)
-                createParityPlot(parityData)
+                QDict[familyName]=calculateQ(parity_data)
+                createParityPlot(parity_data)
                 plt.title(familyName)
                 plt.savefig(os.path.join(trialDir, familyName +'.png'))
                 plt.clf()
                    
-                if not os.path.exists(os.path.join(os.path.join(trialDir, 'ParityData'))):
-                    os.makedirs(os.path.join(trialDir, 'ParityData'))
+                if not os.path.exists(os.path.join(os.path.join(trialDir, 'Parity_data'))):
+                    os.makedirs(os.path.join(trialDir, 'Parity_data'))
                    
-                with open(os.path.join(trialDir, 'ParityData', familyName + '.csv'), 'wb') as paritycsvfile:
+                with open(os.path.join(trialDir, 'Parity_data', familyName + '.csv'), 'wb') as paritycsvfile:
                     paritycsvwriter=csv.writer(paritycsvfile)
-                    for key, value in parityData.iteritems():
-                        paritycsvwriter.writerow([key, value[0]/value[1], approxKinetics[key].comment]) 
+                    for key, value in parity_data.iteritems():
+                        paritycsvwriter.writerow([key, value[0]/value[1], approx_kinetics[key].comment]) 
             
                 # Save data to csv file
                 csvwriter.writerow([familyName, QDict[familyName]])
@@ -340,7 +340,7 @@ def compareNIST(FullDatabase, trialDir, pruneForExact=False):
 
 
 
-def leaveOneOut(FullDatabase, trialDir, averaging=True):
+def leave_one_out(FullDatabase, trialDir, averaging=True):
     """
     Performs leave one out analysis on all the kinetics families.
     The algorithm deletes a single entry in the family, and then re-averages the tree
@@ -352,7 +352,7 @@ def leaveOneOut(FullDatabase, trialDir, averaging=True):
     be performed so as to not perform the leave one out test on rate rules that were averaged.
     """
     
-    trialDir=os.path.join(trialDir, 'leaveOneOut')
+    trialDir=os.path.join(trialDir, 'leave_one_out')
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
     
@@ -366,32 +366,32 @@ def leaveOneOut(FullDatabase, trialDir, averaging=True):
 
         for familyName in allFamilyNames: 
             family=FullDatabase.kinetics.families[familyName]
-            print "Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)'
+            print("Processing", familyName + '...', '(' + str(len(family.rules.entries)) + ' rate rules)')
             if len(family.rules.entries) < 2:
-                print '    Skipping', familyName, ': only has one rate rule...'
+                print('    Skipping', familyName, ': only has one rate rule...')
             else:
                 if not averaging:
                     # Pre-average the family if averaging is not turned on
                     family.fillKineticsRulesByAveragingUp()
-                exactKinetics, approxKinetics = getKineticsLeaveOneOut(family, averaging)
-                parityData=analyzeForParity(exactKinetics, approxKinetics)
+                exact_kinetics, approx_kinetics = get_kinetics_leave_one_out(family, averaging)
+                parity_data=analyze_for_parity(exact_kinetics, approx_kinetics)
 
-                if len(parityData)<2:
-                    print '    Skipping', familyName, ': {} rate rules were compared...'.format(len(parityData))
+                if len(parity_data)<2:
+                    print('    Skipping', familyName, ': {} rate rules were compared...'.format(len(parity_data)))
                     continue
-                QDict[familyName]=calculateQ(parityData)
-                createParityPlot(parityData)
+                QDict[familyName]=calculateQ(parity_data)
+                createParityPlot(parity_data)
                 plt.title(familyName)
                 plt.savefig(os.path.join(trialDir, familyName +'.png'))
                 plt.clf()
                   
-                if not os.path.exists(os.path.join(os.path.join(trialDir, 'ParityData'))):
-                    os.makedirs(os.path.join(trialDir, 'ParityData'))
+                if not os.path.exists(os.path.join(os.path.join(trialDir, 'Parity_data'))):
+                    os.makedirs(os.path.join(trialDir, 'Parity_data'))
                   
-                with open(os.path.join(trialDir, 'ParityData', familyName + '.csv'), 'wb') as paritycsvfile:
+                with open(os.path.join(trialDir, 'Parity_data', familyName + '.csv'), 'wb') as paritycsvfile:
                     paritycsvwriter=csv.writer(paritycsvfile)
-                    for key, value in parityData.iteritems():
-                        paritycsvwriter.writerow([key, value[0]/value[1], approxKinetics[key].comment]) 
+                    for key, value in parity_data.iteritems():
+                        paritycsvwriter.writerow([key, value[0]/value[1], approx_kinetics[key].comment]) 
 
                 # Save to csv file
                 csvwriter.writerow([familyName, QDict[familyName]])
@@ -407,35 +407,35 @@ if __name__ == '__main__':
     if not os.path.exists(trialDir):
         os.makedirs(trialDir)
         
-    print 'Loading the RMG database...'
+    print('Loading the RMG database...')
     FullDatabase=RMGDatabase()
     FullDatabase.load(settings['database.directory'], 
-                      kineticsFamilies='all', 
-                      kineticsDepositories='all',
-                      thermoLibraries=['primaryThermoLibrary'],   # Use just the primary thermo library, which contains necessary small molecular thermo
-                      reactionLibraries=[],
+                      kinetics_families='all', 
+                      kinetics_depositories='all',
+                      thermo_libraries=['primaryThermoLibrary'],   # Use just the primary thermo library, which contains necessary small molecular thermo
+                      reaction_libraries=[],
                       )
 
     # Prepare the database by loading training reactions but not averaging the rate rules
     for family in FullDatabase.kinetics.families.values():
-        family.addKineticsRulesFromTrainingSet(thermoDatabase=FullDatabase.thermo)
+        family.add_rules_from_training(thermo_database=FullDatabase.thermo)
     
-    print '--------------------------------------------'
-    print 'Obtaining statistics for the families...'
+    print('--------------------------------------------')
+    print('Obtaining statistics for the families...')
     obtainKineticsFamilyStatistics(FullDatabase, trialDir)
     
-    print '--------------------------------------------'
-    print 'Performing the leave on out test on the kinetics families...'
-    leaveOneOut(FullDatabase, trialDir, averaging=False)
+    print('--------------------------------------------')
+    print('Performing the leave on out test on the kinetics families...')
+    leave_one_out(FullDatabase, trialDir, averaging=False)
     
-    print '--------------------------------------------'
-    print 'Filling up the family rate rules by averaging... Expect larger number of rate rules in subsequent tests'
+    print('--------------------------------------------')
+    print('Filling up the family rate rules by averaging... Expect larger number of rate rules in subsequent tests')
     # Fill in the rate rules by averaging when we are ready to compare real kinetics
     for family in FullDatabase.kinetics.families.values():
         family.fillKineticsRulesByAveragingUp()
     
 
-    print '--------------------------------------------'
-    print 'Evaluating the NIST Kinetics against the RMG estimates...'
-    compareNIST(FullDatabase, trialDir)
+    print('--------------------------------------------')
+    print('Evaluating the NIST Kinetics against the RMG estimates...')
+    compare_NIST(FullDatabase, trialDir)
     
