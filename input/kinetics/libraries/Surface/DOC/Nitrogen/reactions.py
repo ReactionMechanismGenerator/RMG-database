@@ -241,7 +241,7 @@ entry(
 #         Ea = (111.3, 'kJ/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(75, 'kJ/mol')}
+#         coverage_dependence = {'CO_X': {'a':0.0, 'm':0.0, 'E':(75, 'kJ/mol')},
 #                                'O_X': {'a':0.0, 'm':0.0, 'E':(-60, 'kJ/mol')}},
 #     ),
 #     shortDesc = u"""""",
