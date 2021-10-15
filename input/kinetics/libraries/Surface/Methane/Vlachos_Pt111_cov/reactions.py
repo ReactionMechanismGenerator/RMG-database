@@ -12,40 +12,15 @@ Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 DOI: 10.1021/ie070322c
 """
 
-# entry(
-#     index = 1,
-#     label = "O2 + X + X <=> O_X + O_X",
-#     kinetics = StickingCoefficient(
-#         A = 0.0542,
-#         n = 0.766,
-#         Ea = (0, 'kcal/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""O2 Surface_Adsorption_Dissociative""",
-#     longDesc = u"""
-# "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times,
-# Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
-# D.G. Vlachos et al. (2007)
-# Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
-# DOI: 10.1021/ie070322c
-#
-# This is R1 in Table 1
-# """,
-# 	metal = "Pt",
-#     facet = "111",
-# )
-
 entry(
-    index = 2,
-    label = "O_X + O_X <=> O2 + X + X",
-    kinetics = SurfaceArrhenius(
-        A = (3.39E21, 'cm^2/(mol*s)'),
-        n = -0.796,
-        Ea = (50.9, 'kcal/mol'),
+    index = 1,
+    label = "O2 + X + X <=> O_X + O_X",
+    kinetics = StickingCoefficient(
+        A = 0.0542,
+        n = 0.766,
+        Ea = (0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-32, 'kcal/mol')}},
     ),
     shortDesc = u"""O2 Surface_Adsorption_Dissociative""",
     longDesc = u"""
@@ -55,14 +30,39 @@ D.G. Vlachos et al. (2007)
 Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
 DOI: 10.1021/ie070322c
 
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 8.41E12(1/s)/2.483E-9(mol/cm^2) = 3.39E21 cm^2/(mol*s)
-
-This is R2 in Table 1
+This is R1 in Table 1
 """,
 	metal = "Pt",
     facet = "111",
 )
+
+# entry(
+#     index = 2,
+#     label = "O_X + O_X <=> O2 + X + X",
+#     kinetics = SurfaceArrhenius(
+#         A = (3.39E21, 'cm^2/(mol*s)'),
+#         n = -0.796,
+#         Ea = (50.9, 'kcal/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#         coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-32, 'kcal/mol')}},
+#     ),
+#     shortDesc = u"""O2 Surface_Adsorption_Dissociative""",
+#     longDesc = u"""
+# "A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times,
+# Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+# D.G. Vlachos et al. (2007)
+# Industrial & Engineering Chemistry Research, 46(16), 5310-5324.
+# DOI: 10.1021/ie070322c
+#
+# This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+# A = 8.41E12(1/s)/2.483E-9(mol/cm^2) = 3.39E21 cm^2/(mol*s)
+#
+# This is R2 in Table 1
+# """,
+# 	metal = "Pt",
+#     facet = "111",
+# )
 
 # entry(
 #     index = 3,
