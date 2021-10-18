@@ -8,7 +8,7 @@ jobs:
     strategy:
       max-parallel: 5
     env: # update this if needed to match a pull request on the RMG-database
-      RMG_PY_BRANCH: main
+      RMG_PY_BRANCH: update_atom_enthalpies
     defaults:
       run:
         shell: bash -l {0}
