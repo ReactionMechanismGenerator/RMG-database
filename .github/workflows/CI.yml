@@ -8,7 +8,7 @@ jobs:
     strategy:
       max-parallel: 5
     env: # update this if needed to match a pull request on the RMG-database
-      RMG_PY_BRANCH: master
+      RMG_PY_BRANCH: main
     defaults:
       run:
         shell: bash -l {0}
@@ -42,7 +42,7 @@ jobs:
           cd ../RMG-Py
           make
       - name: Trigger RMG-tests
-        if: ${{ github.event_name == 'push' && github.ref != 'refs/heads/master' && github.ref != 'refs/heads/stable' }} # only push events to branches other than master and stable
+        if: ${{ github.event_name == 'push' && github.ref != 'refs/heads/main' && github.ref != 'refs/heads/stable' }} # only push events to branches other than main and stable
         env:
           GH_TOKEN: ${{ secrets.RMG_DEV_TOKEN }}
         run: ./trigger-rmg-tests.sh
