@@ -304,3 +304,139 @@ Species have no rotatable bonds and any rings are planar (either aromatic or 3-m
 """,
 )
 
+entry(
+    index = 19,
+    label = "C2H4N2O2-11 <=> C2H4N2O2-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.88124e+11,'s^-1'), n=0.620515, Ea=(129.787,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.21005, dn = +|- 0.0252993, dEa = +|- 0.130456 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001086 <=> p001086_0
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 20,
+    label = "C2H4N2O2-13 <=> C2H4N2O2-14",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.93892e+11,'s^-1'), n=0.308436, Ea=(89.6821,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09084, dn = +|- 0.0115367, dEa = +|- 0.0594892 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001088 <=> p001088_0
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 21,
+    label = "C2H3NO2-3 <=> C2H3NO2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.38956e+11,'s^-1'), n=0.419065, Ea=(103.611,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11238, dn = +|- 0.0141314, dEa = +|- 0.0728687 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r001958 <=> p001958_0
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 22,
+    label = "C2H2N2O-3 <=> C2H2N2O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.0435e+11,'s^-1'), n=1.01704, Ea=(242.812,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.32691, dn = +|- 0.0375319, dEa = +|- 0.193534 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r004202 <=> p004202_0
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 23,
+    label = "C2H3NO2-3 <=> C2H3NO2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.65585e+11,'s^-1'), n=0.379761, Ea=(99.6869,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.1015, dn = +|- 0.0128273, dEa = +|- 0.0661441 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005036 <=> p005036_0
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 24,
+    label = "C2H4N2O-3 <=> C2H4N2O-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(9.71203e+09,'s^-1'), n=0.739985, Ea=(158.599,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.21759, dn = +|- 0.0261233, dEa = +|- 0.134705 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005593 <=> p005593_0
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 25,
+    label = "C3H3NO-3 <=> C3H3NO-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.6259e+11,'s^-1'), n=1.19107, Ea=(359.894,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.39462, dn = +|- 0.0441353, dEa = +|- 0.227585 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r005763 <=> p005763_0
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
+entry(
+    index = 26,
+    label = "C4H4N2O <=> C4H4N2O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.1761e+10,'s^-1'), n=0.996245, Ea=(380.451,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.27748, dn = +|- 0.0324947, dEa = +|- 0.16756 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+Reaction indices that correspond to the raw QM log files from the kinetics dataset from Spiekermann et al.: r011506 <=> p011506_0
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12/cc-pVDZ-F12
+Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+""",
+)
+
