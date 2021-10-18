@@ -1,18 +1,24 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "ketoenol/groups"
+name = "1,3_sigmatropic_rearrangement/groups"
 shortDesc = ""
 longDesc = """
-Sulfur was added to this family, and is treated the same as oxygen.
+20211010: The ketoenol family was generalized to accept R!H rather than previously only accepting O or S.
+The family name was also updated to 1,3_sigmatropic_rearrangement to reflect the newly extended reaction template.
+
+
+20180202: Sulfur was added to this family and is treated the same as oxygen.
+https://github.com/ReactionMechanismGenerator/RMG-database/commit/9e9d300b3a0fce1bbb9aa138b2990b264fb1e37b
 Ideally we would like to branch this into a new family "R=RSR <=> RRR=S"
 once relevant kinetic data is available
 """
 
-template(reactants=["Root"], products=["ketone"], ownReverse=False)
+template(reactants=["Root"], products=["R4-R1-R2=R3"], ownReverse=True)
 
-reverse = "Ketone_To_Enol"
 reversible = True
+
+reverseMap = {'*1': '*3', '*3': '*1'}
 
 reactantNum = 1
 
@@ -35,7 +41,7 @@ entry(
     group = 
 """
 1 *2 R!H   u0 {2,S} {3,D}
-2 *3 [O,S] u0 {1,S} {4,S}
+2 *3 R!H   u0 {1,S} {4,S}
 3 *1 R!H   u0 {1,D}
 4 *4 R     u0 {2,S}
 """,

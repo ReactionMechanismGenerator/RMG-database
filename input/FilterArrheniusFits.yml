@@ -854,7 +854,7 @@ bimol:
       class: ScalarQuantity
       value: 1.2857274295511825
   intra_substitutionS_isomerization: null
-  ketoenol: null
+  1,3_sigmatropic_rearrangement: null
   lone_electron_pair_bond: null
 class: FilterLimitFits
 unimol:
@@ -2025,7 +2025,7 @@ unimol:
     n:
       class: ScalarQuantity
       value: 1.7166803824148895
-  ketoenol:
+  1,3_sigmatropic_rearrangement:
     A:
       class: ScalarQuantity
       units: s^-1

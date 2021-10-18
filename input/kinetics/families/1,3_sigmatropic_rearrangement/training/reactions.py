@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "ketoenol/training"
+name = "1,3_sigmatropic_rearrangement/training"
 shortDesc = "Reaction kinetics used to generate rate rules"
 longDesc = """
 Put kinetic parameters for specific reactions in this file to use as a

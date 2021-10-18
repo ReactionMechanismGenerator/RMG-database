@@ -42,7 +42,7 @@ default = {
     'intra_substitutionCS_isomerization',
     'intra_substitutionS_cyclization',
     'intra_substitutionS_isomerization',
-    'ketoenol',
+    '1,3_sigmatropic_rearrangement',
     'Singlet_Carbene_Intra_Disproportionation',
     'Singlet_Val6_to_triplet',
     'Intra_5_membered_conjugated_C=C_C=C_addition',
