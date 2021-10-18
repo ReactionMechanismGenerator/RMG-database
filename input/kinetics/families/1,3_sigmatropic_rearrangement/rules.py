@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "ketoenol/rules"
+name = "1,3_sigmatropic_rearrangement/rules"
 shortDesc = ""
 longDesc = """
 
