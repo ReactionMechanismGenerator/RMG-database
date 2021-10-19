@@ -559,3 +559,37 @@ Species have no rotatable bonds and any rings are planar (either aromatic or 3-m
 """,
 )
 
+entry(
+    index = 34,
+    label = "C6H6O <=> C6H6O-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7.24e+09,'s^-1'), n=0.863, Ea=(213.802,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """Zhu, Li, and Joseph W. Bozzelli. "Kinetics and Thermochemistry for the Gas-Phase Keto− Enol Tautomerism of Phenol <=> 2,4-Cyclohexadienone." The Journal of Physical Chemistry A 107.19 (2003): 3696-3703.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2003_Zhu_et_al
+Calculated by Zhu et al.
+opt, freq: B3LYP/6-31G(d,p)
+sp: CBS-QB3
+Zhu, Li, and Joseph W. Bozzelli. "Kinetics and Thermochemistry for the Gas-Phase Keto− Enol Tautomerism of Phenol <=> 2,4-Cyclohexadienone." The Journal of Physical Chemistry A 107.19 (2003): 3696-3703.
+""",
+)
+
+entry(
+    index = 35,
+    label = "C6H6O-3 <=> C6H6O-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7.77e+08,'s^-1'), n=1.289, Ea=(439.738,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """Zhu, Li, and Joseph W. Bozzelli. "Kinetics and Thermochemistry for the Gas-Phase Keto− Enol Tautomerism of Phenol <=> 2,4-Cyclohexadienone." The Journal of Physical Chemistry A 107.19 (2003): 3696-3703.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2003_Zhu_et_al
+Calculated by Zhu et al.
+opt, freq: B3LYP/6-31G(d,p)
+sp: CBS-QB3
+Zhu, Li, and Joseph W. Bozzelli. "Kinetics and Thermochemistry for the Gas-Phase Keto− Enol Tautomerism of Phenol <=> 2,4-Cyclohexadienone." The Journal of Physical Chemistry A 107.19 (2003): 3696-3703.
+""",
+)
+
