@@ -4475,19 +4475,6 @@ Converted to training reaction from rate rule: X_H;C_methyl
 )
 
 entry(
-    index = 284,
-    label = "H2-2 + O2 <=> HO2-3 + H-2",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(52.9694,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
-    rank = 11,
-    shortDesc = """Estimate [W.H. Green]""",
-    longDesc = 
-"""
-Converted to training reaction from rate rule: X_H;O2b
-""",
-)
-
-entry(
     index = 285,
     label = "HO + C2H6 <=> H2O + C2H5",
     degeneracy = 6.0,
