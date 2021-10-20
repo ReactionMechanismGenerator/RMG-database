@@ -10,7 +10,7 @@ training set for generating rate rules to populate this kinetics family.
 
 entry(
     index = 1,
-    label = "CH3OCH2O2 + CH3OCH2O2 <=> CH3OCH2O + O2 + CH3OCH2O",
+    label = "CH3OCH2O2-1 + CH3OCH2O2-2 <=> CH3OCH2O + O2 + CH3OCH2O",
     degeneracy = 0.5,
     kinetics=Arrhenius(
         A = (1.547e+23, 'cm^3/(mol*s)'),
@@ -32,7 +32,7 @@ Because it is not evident how exactly this rate was obtained, a lower rank is as
 
 entry(
     index = 2,
-    label = "CH3O2 + CH3O2 <=> CH3O + O2 + CH3O",
+    label = "CH3O2-1 + CH3O2-2 <=> CH3O + O2 + CH3O",
     degeneracy = 0.5,
     kinetics = Arrhenius(
         A = (1.4e+16, 'cm^3/(mol*s)'),
@@ -54,7 +54,7 @@ different reaction, but was used due to its similarity to this one.
 
 entry(
     index = 3,
-    label = "C2H5O2 + C2H5O2 <=> C2H5O + O2 + C2H5O",
+    label = "C2H5O2-1 + C2H5O2-2 <=> C2H5O + O2 + C2H5O",
     degeneracy = 0.5,
     kinetics = Arrhenius(
         A = (2.9e+11, 'cm^3/(mol*s)'),
@@ -75,7 +75,7 @@ in Atmos. Environ. A 1992 (https://doi.org/10.1016/0960-1686(92)90423-I).
 
 entry(
     index = 4,
-    label = "C2H3O3 + CH3O2 <=> C2H3O2 + O2 + CH3O",
+    label = "C2H3O3-1 + CH3O2-2 <=> C2H3O2 + O2 + CH3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+12, 'cm^3/(mol*s)'), n=0, Ea=(-1000, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
@@ -90,7 +90,7 @@ which is based on the experimental rates from Atkinson et al. in Atmos. Chem. Ph
 
 entry(
     index = 5,
-    label = "C2H3O3 + HO2 <=> C2H3O2 + O2 + OH",
+    label = "C2H3O3-1 + HO2 <=> C2H3O2 + O2 + OH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1950, 'cal/mol'), T0=(1, 'K')),
     rank = 3,
@@ -106,7 +106,7 @@ in Atmos. Chem. Phys. (2006) (https://doi.org/10.5194/acp-6-3625-2006).
 
 entry(
     index = 6,
-    label = "CtCOO + CtCOO <=> CtCO + CtCO + O2",
+    label = "CtCOO-1 + CtCOO-2 <=> CtCO + CtCO + O2",
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(1.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(31.4, 'kJ/mol'), T0=(1, 'K'), Tmin=(243, 'K'),
                          Tmax=(293, 'K')),
@@ -123,7 +123,7 @@ https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rat
 
 entry(
     index = 7,
-    label = "CbMeEtCOO + CbMeEtCOO <=> CbMeEtCO + CbMeEtCO + O2",
+    label = "CbMeEtCOO-1 + CbMeEtCOO-2 <=> CbMeEtCO + CbMeEtCO + O2",
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(2.0e+12, 'cm^3/(mol*s)'), n=0, Ea=(37.7, 'kJ/mol'), T0=(1, 'K'), Tmin=(303, 'K'),
                          Tmax=(329, 'K')),
@@ -140,7 +140,7 @@ https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rat
 
 entry(
     index = 8,
-    label = "CbMe2COO + CbMe2COO <=> CbMe2CO + CbMe2CO + O2",
+    label = "CbMe2COO-1 + CbMe2COO-2 <=> CbMe2CO + CbMe2CO + O2",
     degeneracy = 0.5,
     kinetics = Arrhenius(A=(1.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(25.1, 'kJ/mol'), T0=(1, 'K'), Tmin=(164, 'K'),
                          Tmax=(243, 'K')),
