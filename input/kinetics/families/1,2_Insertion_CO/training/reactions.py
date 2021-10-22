@@ -165,3 +165,17 @@ Converted to training reaction from rate rule: CO;CsO_H
 """,
 )
 
+entry(
+    index = 8,
+    label = "CHClO <=> CO + ClH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.1e+30,'s^-1'), n=-5.19, Ea=(92960,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is CLCHO <=> CO + HCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CH3Cl
+Original entry: CLCHO <=> CO + HCL
+""",
+)
+
