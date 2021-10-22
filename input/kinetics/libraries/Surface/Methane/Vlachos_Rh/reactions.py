@@ -42,7 +42,7 @@ This is R1 in Table 4
 #        Ea = (12.3, 'kcal/mol'),  
 #        Tmin = (200, 'K'),
 #        Tmax = (3000, 'K'),
-#        coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-5, 'kcal/mol')}
+#        coverage_dependence = {'O_X': {'a':0.0, 'm':0.0, 'E':(-5, 'kcal/mol')},
 #                               'CO_X': {'a':0.0, 'm':0.0, 'E':(-7.4, 'kcal/mol')}},
 #    ),
 #    shortDesc = u"""H2 Surface_Adsorption_Dissociative""",
@@ -141,7 +141,7 @@ This is R13 in Table 4
 #         Ea = (7.5, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         coverage_dependence = {'H2O_X': {'a':0.0, 'm':0.0, 'E':(-4.5, 'kcal/mol')}
+#         coverage_dependence = {'H2O_X': {'a':0.0, 'm':0.0, 'E':(-4.5, 'kcal/mol')},
 #                                'OH_X': {'a':0.0, 'm':0.0, 'E':(25, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_vdW""",
@@ -187,7 +187,7 @@ This is R19 in Table 4
 #         Ea = (32.8, 'kcal/mol'),  
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         coverage_dependence = {'H_X': {'a':0.0, 'm':0.0, 'E':(-3.7, 'kcal/mol')}
+#         coverage_dependence = {'H_X': {'a':0.0, 'm':0.0, 'E':(-3.7, 'kcal/mol')},
 #                                'CO_X': {'a':0.0, 'm':0.0, 'E':(-15, 'kcal/mol')}},
 #     ),
 #     shortDesc = u"""Surface_Adsorption_Double""",
