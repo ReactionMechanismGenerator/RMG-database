@@ -162,3 +162,17 @@ Converted to training reaction from rate rule: Y_rad;N_R_birad
 """,
 )
 
+entry(
+    index = 7,
+    label = "O + CH2Cl <=> CH2ClO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.29e+15,'cm^3/(mol*s)'), n=-1.98, Ea=(1100,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is CH2CL + O <=> CH2CLO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CH3Cl
+Original entry: CH2CL + O <=> CH2CLO
+""",
+)
+

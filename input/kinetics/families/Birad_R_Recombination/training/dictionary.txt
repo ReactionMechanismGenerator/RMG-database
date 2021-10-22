@@ -85,3 +85,18 @@ multiplicity 2
 2 *1 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
 
+CH2Cl
+multiplicity 2
+1    Cl u0 p3 c0 {2,S}
+2 *1 C  u1 p0 c0 {1,S} {3,S} {4,S}
+3    H  u0 p0 c0 {2,S}
+4    H  u0 p0 c0 {2,S}
+
+CH2ClO
+multiplicity 2
+1    Cl u0 p3 c0 {3,S}
+2 *2 O  u1 p2 c0 {3,S}
+3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4    H  u0 p0 c0 {3,S}
+5    H  u0 p0 c0 {3,S}
+
