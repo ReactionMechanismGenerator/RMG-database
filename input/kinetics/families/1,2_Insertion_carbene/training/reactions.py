@@ -331,3 +331,162 @@ Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hin
 """,
 )
 
+entry(
+    index = 12,
+    label = "CHF_r1 + H2_r23 <=> CF_p123",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.25e+17,'cm^3/(mol*s)'), n=-2.85, Ea=(13000,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 13,
+    label = "CF2_r1 + H2_r23 <=> FCF_p123",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.7e+06,'cm^3/(mol*s)'), n=-0.71, Ea=(40900,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 14,
+    label = "CH2Cl2 <=> CHCl + ClH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.82e+37,'s^-1'), n=-7.43, Ea=(85730,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is CH2CL2 <=> CHCL + HCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CH3Cl
+Original entry: CH2CL2 <=> CHCL + HCL
+""",
+)
+
+entry(
+    index = 15,
+    label = "Br2 + CF2_r1 <=> CBr2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.2e+09,'cm^3/(mol*s)'), n=0, Ea=(1030,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CF2 + BR2 <=> CF2BR2""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CF2 + BR2 <=> CF2BR2
+""",
+)
+
+entry(
+    index = 16,
+    label = "CHClF2 <=> CF2_r1 + ClH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.41e+13,'s^-1'), n=0, Ea=(53465,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CHF2CL <=> CF2 + HCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CHF2CL <=> CF2 + HCL
+""",
+)
+
+entry(
+    index = 17,
+    label = "BrH + CF2_r1 <=> CHBrF2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.14e+11,'cm^3/(mol*s)'), n=0, Ea=(9560,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CF2 + HBR <=> CHF2BR""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CF2 + HBR <=> CHF2BR
+""",
+)
+
+entry(
+    index = 18,
+    label = "CF4 + CF2_r1 => C2F6",
+    degeneracy = 4.0,
+    reversible = False,
+    kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(51000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CF4 + CF2 => CF3-CF3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CF4 + CF2 => CF3-CF3
+""",
+)
+
+entry(
+    index = 19,
+    label = "CH3Cl <=> CH2 + ClH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.1e+28,'s^-1'), n=-5.15, Ea=(109670,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CH3CL <=> CH2(S) + HCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CH3CL <=> CH2(S) + HCL
+""",
+)
+
+entry(
+    index = 20,
+    label = "CHCl3 <=> CCl2 + ClH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.2e+12,'s^-1'), n=0, Ea=(51500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CHCL3 <=> CCL2 + HCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CHCL3 <=> CCL2 + HCL
+""",
+)
+
+entry(
+    index = 21,
+    label = "Cl2 + CCl2 <=> CCl4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(6000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CCL2 + CL2 <=> CCL4""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CCL2 + CL2 <=> CCL4
+""",
+)
+
+entry(
+    index = 22,
+    label = "Cl2 + CF2_r1 <=> CCl2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.21e+08,'cm^3/(mol*s)'), n=0, Ea=(2110,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CF2 + CL2 <=> CF2CL2""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CF2 + CL2 <=> CF2CL2
+""",
+)
+
+entry(
+    index = 23,
+    label = "CHCl3-2 + CCl2 <=> C2HCl5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.39e+11,'cm^3/(mol*s)'), n=0, Ea=(11900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CCL2 + CHCL3 <=> C2HCL5""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CCL2 + CHCL3 <=> C2HCL5
+""",
+)
+
