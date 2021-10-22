@@ -233,3 +233,264 @@ entry(
     shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/j100296a057""",
 )
 
+entry(
+    index = 13,
+    label = "HCO + CH2F <=> CO + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 14,
+    label = "HCO + CHF2 <=> CO + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 15,
+    label = "HCO + CF3 <=> CO + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 16,
+    label = "HCO + F <=> CO + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """From NIST CH2F2 model""",
+)
+
+entry(
+    index = 17,
+    label = "HCO + Br <=> BrH + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.7e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is BR + HCO <=> HBR + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: BR + HCO <=> HBR + CO
+""",
+)
+
+entry(
+    index = 18,
+    label = "HCO + BrO <=> BrHO + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is HCO + BRO <=> CO + BROH""",
+    longDesc = 
+"""
+Training reaction from kinetics library: 2-BTP
+Original entry: HCO + BRO <=> CO + BROH
+""",
+)
+
+entry(
+    index = 19,
+    label = "HCO + ClO <=> ClHO + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.2e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is HCO + CLO <=> CO + HOCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CH3Cl
+Original entry: HCO + CLO <=> CO + HOCL
+""",
+)
+
+entry(
+    index = 20,
+    label = "CClO + H <=> ClH + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is H + CLCO <=> CO + HCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CH3Cl
+Original entry: H + CLCO <=> CO + HCL
+""",
+)
+
+entry(
+    index = 21,
+    label = "CClO + O <=> ClO-2 + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is O + CLCO <=> CO + CLO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CH3Cl
+Original entry: O + CLCO <=> CO + CLO
+""",
+)
+
+entry(
+    index = 22,
+    label = "CClO + [OH]_r1 <=> ClHO-2 + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.3e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is OH + CLCO <=> CO + HOCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CH3Cl
+Original entry: OH + CLCO <=> CO + HOCL
+""",
+)
+
+entry(
+    index = 23,
+    label = "CClO + Cl <=> Cl2 + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.6e+13,'cm^3/(mol*s)'), n=0, Ea=(1400,'cal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """The chemkin file reaction is CL + CLCO <=> CO + CL2""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CH3Cl
+Original entry: CL + CLCO <=> CO + CL2
+""",
+)
+
+entry(
+    index = 24,
+    label = "CFO + H <=> FH-2 + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CF:O + H <=> CO + HF""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CF:O + H <=> CO + HF
+""",
+)
+
+entry(
+    index = 25,
+    label = "HCO + CF => CHF-2 + CO",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CF + HCO => CHF + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CF + HCO => CHF + CO
+""",
+)
+
+entry(
+    index = 26,
+    label = "CFO-2 + CFO <=> CF2O + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.23e+13,'cm^3/(mol*s)'), n=0, Ea=(318,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CF:O + CF:O <=> CO + CF2:O""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CF:O + CF:O <=> CO + CF2:O
+""",
+)
+
+entry(
+    index = 27,
+    label = "CO + F2 <=> F + CFO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.7e+11,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is F2 + CO <=> CF:O + F""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: F2 + CO <=> CF:O + F
+""",
+)
+
+entry(
+    index = 28,
+    label = "HCO + Cl <=> ClH-2 + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.7e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CL + HCO <=> CO + HCL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CL + HCO <=> CO + HCL
+""",
+)
+
+entry(
+    index = 29,
+    label = "CClO + Cl <=> Cl2 + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4e+14,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CCLO + CL <=> CO + CL2""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CCLO + CL <=> CO + CL2
+""",
+)
+
+entry(
+    index = 30,
+    label = "HCO + C2Cl2F3 <=> C2HCl2F3 + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(1500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CF3CCL2 + HCO <=> CF3CCL2H + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CF3CCL2 + HCO <=> CF3CCL2H + CO
+""",
+)
+
+entry(
+    index = 31,
+    label = "CFO-2 + CClO <=> CClFO + CO",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(2000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CCLO + CF:O <=> CFCLO + CO""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CCLO + CF:O <=> CFCLO + CO
+""",
+)
+
+entry(
+    index = 32,
+    label = "HCO + CCl2F <=> CHCl2F + CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CFCL2 + HCO <=> CO + CHFCL2""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CFCL2 + HCO <=> CO + CHFCL2
+""",
+)
+
