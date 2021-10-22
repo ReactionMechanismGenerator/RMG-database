@@ -634,3 +634,121 @@ Frequencies (cm^-1) = 432.9,724.3,1235.0
 """,
     rank = 5,
 )
+
+entry(
+    index = 23,
+    label = "C6H5F",
+    molecule = 
+"""
+1 F u0 p3 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,D}
+3 C u0 p0 c0 {2,S} {4,D} {8,S}
+4 C u0 p0 c0 {3,D} {5,S} {9,S}
+5 C u0 p0 c0 {4,S} {6,D} {10,S}
+6 C u0 p0 c0 {5,D} {7,S} {11,S}
+7 C u0 p0 c0 {2,D} {6,S} {12,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials=[
+            NASAPolynomial(coeffs=[4.144,-0.013576,0.00021967,-3.82379e-07,2.12897e-10,-15718.5,9.89288], Tmin=(10,'K'), Tmax=(575.024,'K')), 
+            NASAPolynomial(coeffs=[-0.246923,0.0500332,-3.25125e-05,9.9937e-09,-1.16863e-12,-15760.2,23.8936], Tmin=(575.024,'K'), Tmax=(3000,'K'))
+            ], 
+        Tmin=(10,'K'), 
+        Tmax=(3000,'K'), 
+        Cp0=(33.2579,'J/(mol*K)'), 
+        CpInf=(282.692,'J/(mol*K)')
+    ),
+    shortDesc = """ATct v1.122r + G4""",
+    longDesc = 
+"""
+H298 from ATcT version 1.122r ATcT ID 462-06-6*0 
+S and Cp from G4 calculation
+
+H298: -114.76 kJ/mol
+S298: 301.453 J/mol/K
+""",
+)
+
+entry(
+    index = 24,
+    label = "C6H5Cl",
+    molecule = 
+"""
+1 Cl u0 p3 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,D}
+3 C u0 p0 c0 {2,S} {4,D} {8,S}
+4 C u0 p0 c0 {3,D} {5,S} {9,S}
+5 C u0 p0 c0 {4,S} {6,D} {10,S}
+6 C u0 p0 c0 {5,D} {7,S} {11,S}
+7 C u0 p0 c0 {2,D} {6,S} {12,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials=[
+            NASAPolynomial(coeffs=[3.93394,0.00379949,0.000132529,-2.31181e-07,1.25418e-10,4164.96,10.0304], Tmin=(10,'K'), Tmax=(561.624,'K')), 
+            NASAPolynomial(coeffs=[-1.25831,0.0540087,-3.69033e-05,1.18818e-08,-1.44743e-12,4539.54,30.227], Tmin=(561.624,'K'), Tmax=(3000,'K'))
+            ], 
+        Tmin=(10,'K'), 
+        Tmax=(3000,'K'),
+        Cp0=(33.2579,'J/(mol*K)'), 
+        CpInf=(282.692,'J/(mol*K)')
+    ),
+    shortDesc = """ATct v1.122r + G4""",
+    longDesc = 
+"""
+H298 from ATcT version 1.122r ATcT ID 108-90-7*0 
+S and Cp from G4 calculation
+
+H298: 52.2 kJ/mol
+S298: 313.183 J/mol/K
+""",
+)
+
+entry(
+    index = 25,
+    label = "C6H5Br",
+    molecule = 
+"""
+1 Br u0 p3 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,D}
+3 C u0 p0 c0 {2,S} {4,D} {8,S}
+4 C u0 p0 c0 {3,D} {5,S} {9,S}
+5 C u0 p0 c0 {4,S} {6,D} {10,S}
+6 C u0 p0 c0 {5,D} {7,S} {11,S}
+7 C u0 p0 c0 {2,D} {6,S} {12,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials=[
+            NASAPolynomial(coeffs=[3.92273,0.00446979,0.000135475,-2.42908e-07,1.3465e-10,10433.6,11.2665], Tmin=(10,'K'), Tmax=(563,'K')), 
+            NASAPolynomial(coeffs=[-0.424236,0.0519026,-3.49897e-05,1.11533e-08,-1.34899e-12,10660.8,27.4117], Tmin=(563,'K'), Tmax=(3000,'K'))
+            ], 
+        Tmin=(10,'K'), 
+        Tmax=(3000,'K'),
+        Cp0=(33.2579,'J/(mol*K)'), 
+        CpInf=(282.692,'J/(mol*K)')
+    ),
+    shortDesc = """ATct v1.122r + G4""",
+    longDesc = 
+"""
+H298 from ATcT version 1.122r ATcT ID 108-86-1*0
+S and Cp from G4 calculation
+
+H298: 104.6 kJ/mol
+S298: 324.969 J/mol/K
+""",
+)
+
