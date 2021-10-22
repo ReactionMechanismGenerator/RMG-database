@@ -59231,6 +59231,48 @@ entry(
 """,
 )
 
+entry(
+    index = 2659,
+    label = "Cb-F",
+    group = 
+"""
+1 * Cb  u0 {2,S}
+2   F1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.13964,7.28758,8.03688,8.39453,9.21743,9.8138,9.89767],'cal/(mol*K)'),
+        H298 = (-43.9283,'kcal/mol'),
+        S298 = (15.7765,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Derived from C6H5F in halogens thermo library
+""",
+)
+
+entry(
+    index = 2660,
+    label = "Cb-Br",
+    group = 
+"""
+1 * Cb   u0 {2,S}
+2   Br1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.62376,8.17957,8.62571,8.95022,9.71948,10.1996,10.0043],'cal/(mol*K)'),
+        H298 = (8.50001,'kcal/mol'),
+        S298 = (21.3969,'cal/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Derived from C6H5Br in halogens thermo library
+""",
+)
+
 tree(
 """
 L1: R
@@ -59291,7 +59333,9 @@ L1: R
                 L5: Cb-Ct
                     L6: Cb-(CtN3t)
                 L5: Cb-Cb
+            L4: Cb-F
             L4: Cb-Cl
+            L4: Cb-Br
             L4: Cb-I
             L4: Cb-N3s
         L3: Ct
