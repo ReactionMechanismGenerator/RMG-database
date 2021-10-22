@@ -1248,14 +1248,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.4,8.4,9.2,9.7,10.2,10.4,10.4],'cal/(mol*K)'),
-        H298 = (-3.8,'kcal/mol'),
-        S298 = (18.9,'cal/(mol*K)'),
+        Cpdata = ([7.20014,7.75414,8.28478,8.72226,9.63755,10.1767,9.9642],'cal/(mol*K)'),
+        H298 = (-4.0239,'kcal/mol'),
+        S298 = (18.5799,'cal/(mol*K)'),
     ),
-    shortDesc = """Cb-Cl BENSON""",
+    shortDesc = """""",
     longDesc = 
 """
-Thermochemical Kinetics 2nd Ed., by Sidney Benson
+Derived from C6H5Cl in halogens thermo library
 """,
 )
 
