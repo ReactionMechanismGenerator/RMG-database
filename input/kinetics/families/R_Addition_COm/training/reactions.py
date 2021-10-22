@@ -531,3 +531,17 @@ where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
+entry(
+    index = 15,
+    label = "CClO <=> CO + Cl",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.3e+14,'s^-1'), n=0, Ea=(8000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """The chemkin file reaction is CCLO <=> CO + CL""",
+    longDesc = 
+"""
+Training reaction from kinetics library: CF2BrCl
+Original entry: CCLO <=> CO + CL
+""",
+)
+
