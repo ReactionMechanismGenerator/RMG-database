@@ -440,3 +440,19 @@ u"""
 Geometry could not converge at wB97x-D3/6-311++G(3df,3pd) (alongd ref - xq1492)
 """,
 )
+
+entry(
+    label = "C2_triplebond",
+    species =
+"""
+1 C u0 p1 c-1 {2,T}
+2 C u0 p0 c+1 {1,T}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+https://pubs.acs.org/doi/pdf/10.1021/ct400867h discusses complex wavefunction for C2
+and that it cannot be assigned definitive bond order. We are forbidding the C2 triple bond
+becuase we do not have good thermo for `Ctc` (C u0 p0 c+1 {1,T}) atomtype
+""",
+)
