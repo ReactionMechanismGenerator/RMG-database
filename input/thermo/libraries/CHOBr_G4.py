@@ -115433,3 +115433,46 @@ Frequencies (cm^-1) = 32.4,75.6,89.5,90.3,109.3,119.9,148.0,201.9,218.7,325.0,36
     rank = 5,
 )
 
+entry(
+    index = 2078,
+    label = "ODCBr",
+    molecule = 
+"""
+1 Br u0 p3 c0 {3,S}
+2 O u0 p2 c0 {3,D}
+3 C u0 p0 c0 {1,S} {2,D} {4,S}
+4 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs = [3.98413, 0.000960969, 2.76074e-05, -5.27359e-08, 3.14237e-11, -17014.4, 8.81363], Tmin = (10, 'K'), Tmax = (524.952, 'K')),
+            NASAPolynomial(coeffs = [3.29539, 0.00947469, -6.05095e-06, 1.85909e-09, -2.19792e-13, -16987.1, 11.264], Tmin = (524.952, 'K'), Tmax = (3000, 'K')),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (83.1447, 'J/(mol*K)'),
+    ),
+    reference = 'G4 / RRHO',
+    referenceType = "Theory",
+    shortDesc = """G4 / RRHO""",
+    longDesc = 
+"""
+H298: -31.06 kcal/mol
+S298: 64.824 cal/mol/K
+
+Coordinates (Angstoms):
+Br 0.000000 0.7150590 0.00000
+O -0.463756 -2.043832 0.00000
+C 0.374653 -1.218152 0.00000
+H 1.462131 -1.367490 0.00000
+
+modes:
+IdealGasTranslation
+NonlinearRotor
+HarmonicOscillator
+Frequencies (cm^-1) = 351.761,634.907,913.186,1296.49,1882.28,3049.14
+""",
+    rank = 5,
+)
+
