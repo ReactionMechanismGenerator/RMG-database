@@ -3844,11 +3844,16 @@ entry(
 3   Br u0 {1,S}
 4   O  u0 {1,D}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'), 
+        Cpdata = ([46.4592,51.6749,56.0267,59.6558,65.388,69.4959,75.2835],'J/(mol*K)'), 
+        H298 = (-129.956,'kJ/mol'), 
+        S298 = (271.223,'J/(mol*K)'), 
+    ),
+    shortDesc = """G4 calc""",
     longDesc = 
 """
-
+ODCBr in CHOBr_G4 thermo library
 """,
 )
 
