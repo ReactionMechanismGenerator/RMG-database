@@ -18052,11 +18052,16 @@ entry(
 4   O  u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata=([300,400,500,600,800,1000,1500],'K'), 
+        Cpdata=([11.9169,15.3667,16.5941,16.8867,16.7723,16.117,14.086],'cal/(mol*K)'), 
+        H298=(-21.5933,'kcal/mol'), 
+        S298=(-8.38973,'cal/(mol*K)')
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+library:CHOBr_G4 label:OC(O)(O)Br smiles:OC(O)(O)Br H298:-140.04 kcal/mol
 """,
 )
 
@@ -18071,11 +18076,16 @@ entry(
 4   O  u0 {1,S}
 5   Cl u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata=([300,400,500,600,800,1000,1500],'K'), 
+        Cpdata=([12.328,14.7653,15.296,15.4042,15.1769,14.6381,13.2612],'cal/(mol*K)'), 
+        H298=(-34.3228,'kcal/mol'), 
+        S298=(-9.60223,'cal/(mol*K)')
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+library:CHOCl_G4 label:OC(O)(O)Cl smiles:OC(O)(O)Cl H298:-152.77 kcal/mol
 """,
 )
 
@@ -18090,11 +18100,16 @@ entry(
 4   O  u0 {1,S}
 5   F  u0 {1,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata=([300,400,500,600,800,1000,1500],'K'), 
+        Cpdata=([8.97097,11.1967,12.478,13.3169,14.153,14.2521,13.3172],'cal/(mol*K)'),
+        H298=(-86.4118,'kcal/mol'), 
+        S298=(-11.6373,'cal/(mol*K)')
+    ),
+    shortDesc = """Derived from RMG Thermo Libraries""",
     longDesc = 
 """
-
+library:CHOF_G4 label:OC(O)(O)F smiles:OC(O)(O)F H298:-204.86 kcal/mol
 """,
 )
 
