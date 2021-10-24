@@ -18256,7 +18256,7 @@ entry(
 4   Br u0 {1,S}
 5   Br u0 {1,S}
 """,
-    thermo = None,
+    thermo = "CsBrBrBrCs",
     shortDesc = """""",
     longDesc = 
 """
