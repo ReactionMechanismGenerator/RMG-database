@@ -2606,7 +2606,7 @@ entry(
 """
 1 *1 [Cs,Cd,CO] u0 {2,[S,D]} {4,S}
 2    R!H        ux {1,[S,D]} {3,[S,D]}
-3 *2 [Cs,Cd,CO] u0 {2,[S,D]}
+3 *2 [Cs,Cd,CO] ux {2,[S,D]}
 4    Val7       u0 {1,S}
 """,
     thermo = ThermoData(
@@ -4251,6 +4251,61 @@ Half Value!!!
 """,
 )
 
+entry(
+    index = 152,
+    label = "Cs(Val7)2-Cs(Val7)2-Cs(Val7)2",
+    group = 
+"""
+1  *1 Cs   u0 {3,S} {4,S} {6,S}
+2  *2 Cs   ux {3,S} {5,S} {7,S}
+3     R!H  ux {1,S} {2,S} {8,S} {9,S}
+4     Val7 u0 {1,S}
+5     Val7 u0 {2,S}
+6     Val7 u0 {1,S}
+7     Val7 u0 {2,S}
+8     Val7 u0 {3,S}
+9     Val7 u0 {3,S}
+""",
+    thermo = "CsF2-CsF2-CsF2",
+    shortDesc = """heavy halogen interaction""",
+    longDesc = 
+"""
+""",
+)
+
+entry(
+    index = 153,
+    label = "CsF2-CsF2-CsF2",
+    group = 
+"""
+1  *1 Cs   u0 {3,S} {4,S} {6,S}
+2  *2 Cs   ux {3,S} {5,S} {7,S}
+3     R!H  ux {1,S} {2,S} {8,S} {9,S}
+4     F1s u0 {1,S}
+5     F1s u0 {2,S}
+6     F1s u0 {1,S}
+7     F1s u0 {2,S}
+8     F1s u0 {3,S}
+9     F1s u0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.5,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """heavy fluorine interaction""",
+    longDesc = 
+"""
+Estimated from burcat thermo (http://garfield.chem.elte.hu/Burcat/BURCAT.THR)
+H298 in kcal/mol
+molecule | burcat | GAV before | GAV after
+  C5F12    -607.86    -621.61      -611.61
+  C6F14    -704.87    -724.17      -709.17
+  C7F16    -808.70    -826.74      -806.74
+""",
+)
+
 tree(
 """
 L1: R
@@ -4365,6 +4420,8 @@ L1: R
             L4: Cs(F)3-R-CO
             L4: Cs(Cl)3-R-CO
             L4: Cs(Br)3-R-CO
+        L3: Cs(Val7)2-Cs(Val7)2-Cs(Val7)2
+            L4: CsF2-CsF2-CsF2
     L2: int14_gauche
         L3: CsCs
             L4: CsCs-P
