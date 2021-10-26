@@ -266,3 +266,209 @@ Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 """,
 )
 
+entry(
+    index = 8,
+    label = "CH3CH(OH)CH2CH2F <=> C2H4 + HF + CH3CHO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.13544e+09, 's^-1'),
+        n = 1.07219,
+        Ea = (220.082, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 50 data points; dA = *|/ 1.28453, dn = +|- 0.0328971, dEa = +|- 0.179025 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
+    longDesc = 
+"""
+Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
+# Coordinates for TS in Input Orientation (angstroms):
+#   F    1.7600   -0.9125   -0.2789
+#   C    1.4122    1.0894    0.0362
+#   C    0.0615    1.3739    0.1241
+#   C   -0.8577   -0.2773   -0.2930
+#   O   -0.3906   -1.2037    0.4809
+#   H    2.0094    0.9095    0.9153
+#   H    1.9581    1.2489   -0.8809
+#   H   -0.3538    1.5333    1.1103
+#   H   -0.3697    1.9623   -0.6758
+#   H    0.6772   -1.2615    0.1736
+#   C   -2.2986    0.0895   -0.0878
+#   H   -2.8988   -0.7606   -0.4177
+#   H   -2.5842    0.9647   -0.6663
+#   H   -2.4994    0.2558    0.9684
+#   H   -0.5200   -0.3000   -1.3308
+""",
+)
+
+entry(
+    index = 9,
+    label = 'CH2C(OH)CH2CH2F <=> C2H4 + HF + CH2CO',
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.52349e+10, 's^-1'),
+        n = 1.11612,
+        Ea = (246.995, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 50 data points; dA = *|/ 1.24468, dn = +|- 0.0287562, dEa = +|- 0.15649 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
+    longDesc = 
+"""
+Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
+# Coordinates for TS in Input Orientation (angstroms):
+#   F    1.4462   -1.0912    0.2511
+#   C    1.3971    1.0389    0.1686
+#   C    0.1871    1.4644   -0.3802
+#   C   -0.9826    0.1545   -0.2400
+#   O   -0.5963   -0.8810   -0.8307
+#   H    1.5516    1.0670    1.2383
+#   H    2.2601    0.8090   -0.4356
+#   H   -0.3257    2.1960    0.2312
+#   H    0.1950    1.6694   -1.4442
+#   H    0.5378   -1.1617   -0.2793
+#   C   -2.0782    0.5191    0.4245
+#   H   -2.8634   -0.2170    0.5207
+#   H   -2.2184    1.5036    0.8309
+""",
+)
+
+entry(
+    index = 10,
+    label = 'CH2(OH)CH2CH2F <=> C2H4 + HF + CH2O-2',
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.83092e+09, 's^-1'),
+        n = 1.14718,
+        Ea = (230.441, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 50 data points; dA = *|/ 1.29992, dn = +|- 0.0344614, dEa = +|- 0.187538 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
+    longDesc = 
+"""
+Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
+# Coordinates for TS in Input Orientation (angstroms):
+#   F    1.5095   -1.0080   -0.3332
+#   C    1.2575    1.0695   -0.0995
+#   C   -0.0578    1.4054    0.1639
+#   C   -1.0195   -0.1945   -0.1093
+#   O   -0.5589   -1.1303    0.6515
+#   H    1.9665    0.8849    0.6909
+#   H    1.6664    1.1460   -1.0957
+#   H   -0.3251    1.6112    1.1916
+#   H   -0.5753    1.9884   -0.5889
+#   H    0.4816   -1.2726    0.2328
+#   H   -2.0006    0.1989    0.1540
+#   H   -0.8381   -0.2799   -1.1817
+""",
+)
+
+entry(
+    index = 11,
+    label = 'CH2C(OH)OCH2F <=> CH2O + HF + CH2CO',
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.29418e+10, 's^-1'),
+        n = 0.745914,
+        Ea = (145.547, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 50 data points; dA = *|/ 1.0985, dn = +|- 0.0123427, dEa = +|- 0.0671686 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
+    longDesc = 
+"""
+Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
+# Coordinates for TS in Input Orientation (angstroms):
+#   F   -1.8202   -0.7806    0.6417
+#   C   -1.1968    0.9386   -0.2359
+#   O   -0.0204    0.9830    0.1698
+#   C    0.8817   -0.1990   -0.2927
+#   O    0.1873   -1.2334   -0.4659
+#   H   -1.4531    0.3973   -1.1400
+#   H   -1.9009    1.6285    0.2151
+#   H   -0.9267   -1.1661    0.1972
+#   C    2.1520    0.1723   -0.3615
+#   H    2.8915   -0.5700   -0.6103
+#   H    2.4362    1.1901   -0.1626
+""",
+)
+
+entry(
+    index = 12,
+    label = 'F2C(OH)CH2CH2F <=> C2H4 + HF + CF2O',
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.98542e+10, 's^-1'),
+        n = 0.978818,
+        Ea = (232.512, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 50 data points; dA = *|/ 1.21021, dn = +|- 0.0250664, dEa = +|- 0.13641 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
+    longDesc = 
+"""
+Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
+# Coordinates for TS in Input Orientation (angstroms):
+#   F    1.6320   -1.0022   -0.1166
+#   C    1.2776    1.0646   -0.1422
+#   C   -0.0408    1.3026    0.2427
+#   C   -1.0220   -0.1637   -0.0764
+#   O   -0.6009   -1.1628    0.5314
+#   H    2.0900    1.0372    0.5667
+#   H    1.5489    1.0652   -1.1884
+#   H   -0.2170    1.5072    1.2905
+#   H   -0.5925    1.9260   -0.4545
+#   H    0.6668   -1.2468    0.1920
+#   F   -2.2399    0.2879    0.2676
+#   F   -0.9960   -0.1964   -1.4364
+""",
+)
+
+entry(
+    index = 13,
+    label = 'F2C(OH)OCH2F <=> CH2O + HF + CF2O',
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.14547e+10, 's^-1'),
+        n = 0.631481,
+        Ea = (131.332, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 50 data points; dA = *|/ 1.07555, dn = +|- 0.00956901, dEa = +|- 0.0520742 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
+    longDesc = 
+"""
+Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
+# Coordinates for TS in Input Orientation (angstroms):
+#   F   -2.0440   -0.7770   -0.5350
+#   C   -1.3863    0.9640    0.0713
+#   O   -0.2619    1.0109   -0.4684
+#   C    0.7325   -0.1342    0.0642
+#   O    0.2237   -1.2432   -0.1813
+#   H   -2.1787    1.5525   -0.3773
+#   H   -1.4985    0.5833    1.0827
+#   H   -1.0611   -1.1532   -0.4135
+#   F    1.8466    0.2114   -0.5596
+#   F    0.8779    0.2197    1.3583
+""",
+)
+
+
