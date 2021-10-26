@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "XY_elimination_carboxyl/training"
+name = "XY_elimination_hydroxyl/training"
 shortDesc = "Kinetics used to train group additivity values"
 longDesc = """
 Put kinetic parameters for reactions to use as a training set for fitting

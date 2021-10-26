@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "XY_elimination_carboxyl/groups"
+name = "XY_elimination_hydroxyl/groups"
 shortDesc = ""
 longDesc = """
-                O
-                ||
-R - R*2 - R*3 - C*4     <-->  R-R*2=R*3 + X*1-Y*6 + O*5=C*4=O 
+                R
+                |
+R - R*2 - R*3 - C*4     <-->  R - R*2 = R*3  +  X*1 - Y*6  +  O*5 = C*4 - R
     |           |
     X*1   Y*6 - O*5
 
@@ -42,10 +42,9 @@ entry(
 1 *1 [H,F1s,Cl1s,Br1s] u0 {2,S}
 2 *2 R!H               u0 {1,S} {3,S}
 3 *3 R!H               u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 [H,F1s,Cl1s,Br1s] u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -58,10 +57,9 @@ entry(
 1 *1 H                 u0 {2,S}
 2 *2 R!H               u0 {1,S} {3,S}
 3 *3 R!H               u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -74,10 +72,9 @@ entry(
 1 *1 F1s               u0 {2,S}
 2 *2 R!H               u0 {1,S} {3,S}
 3 *3 R!H               u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 [H,F1s,Cl1s,Br1s] u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -90,10 +87,9 @@ entry(
 1 *1 Cl1s              u0 {2,S}
 2 *2 R!H               u0 {1,S} {3,S}
 3 *3 R!H               u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 [H,F1s,Cl1s,Br1s] u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -106,10 +102,9 @@ entry(
 1 *1 Br1s              u0 {2,S}
 2 *2 R!H               u0 {1,S} {3,S}
 3 *3 R!H               u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 [H,F1s,Cl1s,Br1s] u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -122,10 +117,9 @@ entry(
 1 *1 F1s               u0 {2,S}
 2 *2 R!H               u0 {1,S} {3,S}
 3 *3 R!H               u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -138,10 +132,9 @@ entry(
 1 *1 Cl1s              u0 {2,S}
 2 *2 R!H               u0 {1,S} {3,S}
 3 *3 R!H               u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -154,10 +147,9 @@ entry(
 1 *1 Br1s              u0 {2,S}
 2 *2 R!H               u0 {1,S} {3,S}
 3 *3 R!H               u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -171,10 +163,9 @@ entry(
 1 *1 F1s               u0 {2,S}
 2 *2 C                 u0 {1,S} {3,S}
 3 *3 C                 u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -187,10 +178,9 @@ entry(
 1 *1 F1s               u0 {2,S}
 2 *2 C                 u0 {1,S} {3,S}
 3 *3 O                 u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -203,10 +193,9 @@ entry(
 1 *1 Cl1s              u0 {2,S}
 2 *2 C                 u0 {1,S} {3,S}
 3 *3 C                 u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -219,10 +208,9 @@ entry(
 1 *1 Cl1s              u0 {2,S}
 2 *2 C                 u0 {1,S} {3,S}
 3 *3 O                 u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -235,10 +223,9 @@ entry(
 1 *1 Br1s              u0 {2,S}
 2 *2 C                 u0 {1,S} {3,S}
 3 *3 C                 u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -251,10 +238,9 @@ entry(
 1 *1 Br1s              u0 {2,S}
 2 *2 C                 u0 {1,S} {3,S}
 3 *3 O                 u0 {2,S} {4,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
 """,
     kinetics = None,
 )
@@ -266,13 +252,12 @@ entry(
 """
 1 *1 F1s               u0 {2,S}
 2 *2 C                 u0 {1,S} {3,S}
-3 *3 C                 u0 {2,S} {4,S} {8,S} {9,S}
-4 *4 C                 u0 {3,S} {5,S} {7,D}
+3 *3 C                 u0 {2,S} {4,S} {7,S} {8,S}
+4 *4 C                 u0 {3,S} {5,S}
 5 *5 O                 u0 {4,S} {6,S}
 6 *6 H                 u0 {5,S}
-7  O                   u0 {4,D}
+7  F1s                 u0 {3,S}
 8  F1s                 u0 {3,S}
-9  F1s                 u0 {3,S}
 """,
     kinetics = None,
 )
@@ -297,21 +282,48 @@ L1: XRRCOOY
 """
 )
 
-# forbidden(
-#     label = "H2_elimination",
-#     group = 
-# """
-# 1 *1 H                 u0 p0 {2,S}
-# 2 *2 R!H                u0 p0 {1,S} {3,S}
-# 3 *3 R!H                u0 p0 {2,S} {4,S}
-# 4 *4 C                 u0 p0 {3,S} {5,S} {7,D}
-# 5 *5 O                 u0 p2 {4,S} {6,S}
-# 6 *6 H                 u0 p0 {5,S}
-# 7  O                   u0 p2 {4,D}
-# """,
-#     shortDesc = u"""""",
-#     longDesc = 
-# u"""
-# This group forbids H2 elimination where X = Y = H.
-# """,
-# )
+forbidden(
+    label = "H2_elimination",
+    group = 
+"""
+1 *1 H                 u0 {2,S}
+2 *2 R!H               u0 {1,S} {3,S}
+3 *3 R!H               u0 {2,S} {4,S}
+4 *4 C                 u0 {3,S} {5,S}
+5 *5 O                 u0 {4,S} {6,S}
+6 *6 H                 u0 {5,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+This group forbids H2 elimination where X = Y = H.
+
+The barrier is too high
+
+CH3CH2COOH <=> C2H4 + H2 + CO2
+kinetics = Arrhenius(
+    A = (205359, 's^-1'),
+    n = 2.17099,
+    Ea = (342.051, 'kJ/mol'),
+    T0 = (1, 'K'),
+    Tmin = (298, 'K'),
+    Tmax = (2500, 'K'),
+    comment = 'Fitted to 50 data points; dA = *|/ 2.11965, dn = +|- 0.0986994, dEa = +|- 0.537118 kJ/mol',
+)
+
+Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
+Coordinates for TS in Input Orientation (angstroms):
+  H    1.6460   -0.6292   -0.0004
+  C    1.3976    0.9388    0.0003
+  C    0.0496    1.2643   -0.0002
+  C   -1.1556   -0.2720    0.0001
+  O   -2.2477    0.1918    0.0002
+  O   -0.5321   -1.3076    0.0001
+  H    1.9759    0.9869    0.9145
+  H    1.9768    0.9876   -0.9131
+  H   -0.3684    1.6608    0.9146
+  H   -0.3678    1.6604   -0.9156
+  H    0.9157   -1.0188   -0.0001
+""",
+)
+
