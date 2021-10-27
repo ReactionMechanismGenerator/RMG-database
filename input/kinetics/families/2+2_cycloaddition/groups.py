@@ -31,7 +31,7 @@ entry(
 1 *1 [Cd,Cdd,CO,CS]         u0 {2,D}
 2 *2 [Cd,Cdd,CO,CS,O2d,S2d] u0 {1,D}
 3 *3 [Cd,Cdd,CO,CS]         u0 {4,D}
-4 *4 [Cdd,CO,CS,O2d,S2d]    u0 {3,D}
+4 *4 [Cd,Cdd,CO,CS,O2d,S2d] u0 {3,D}
 """,
     kinetics = None,
 )
