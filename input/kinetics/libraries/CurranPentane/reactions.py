@@ -14105,13 +14105,13 @@ entry(
     shortDesc = u"""""",
 )
 
-entry(
-    index = 847,
-    label = "C3H2(S) + H <=> C3H2(S) + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""""",
-)
+#entry(
+#    index = 847,
+#    label = "C3H2(S) + H <=> C3H2(S) + H",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+#    shortDesc = u"""""",
+#)
 
 entry(
     index = 848,
