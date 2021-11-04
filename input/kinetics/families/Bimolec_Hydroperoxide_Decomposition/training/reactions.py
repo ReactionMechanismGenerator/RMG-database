@@ -7,10 +7,9 @@ longDesc = u"""
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
-
 entry(
     index = 1,
-    label = "HOOH + HOOH <=> HOOrad + HOrad + H2O",
+    label = "HOOH-1 + HOOH-2 <=> HOOrad + HOrad + H2O",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(6.918e6, 'm^3/(mol*s)'), n=0.0, Ea=(121.7, 'kJ/mol'), T0=(1, 'K')),
     rank = 6,
@@ -30,7 +29,7 @@ by Evgeny T. Denisov and Igor B. Afanas'ev (2005)
 
 entry(
     index = 2,
-    label = "Me3COOH + Me3COOH <=> Me3COOrad + Me3COrad + H2O",
+    label = "Me3COOH-1 + Me3COOH-2 <=> Me3COOrad + Me3COrad + H2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.096e5, 'm^3/(mol*s)'), n=0.0, Ea=(96.1, 'kJ/mol'), T0=(1, 'K')),
     rank = 6,
@@ -50,7 +49,7 @@ by Evgeny T. Denisov and Igor B. Afanas'ev (2005)
 
 entry(
     index = 3,
-    label = "EtMe2COOH + EtMe2COOH <=> EtMe2COOrad + EtMe2COrad + H2O",
+    label = "EtMe2COOH-1 + EtMe2COOH-2 <=> EtMe2COOrad + EtMe2COrad + H2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.31e4, 'm^3/(mol*s)'), n=0.0, Ea=(100.0, 'kJ/mol'), T0=(1, 'K')),
     rank = 6,
@@ -70,7 +69,7 @@ by Evgeny T. Denisov and Igor B. Afanas'ev (2005)
 
 entry(
     index = 4,
-    label = "Me/MecychexOOH + Me/MecychexOOH <=> Me/MecychexOOrad + Me/MecychexOrad + H2O",
+    label = "Me/MecychexOOH-1 + Me/MecychexOOH-2 <=> Me/MecychexOOrad + Me/MecychexOrad + H2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.512e8, 'm^3/(mol*s)'), n=0.0, Ea=(120, 'kJ/mol'), T0=(1, 'K')),
     rank = 6,
