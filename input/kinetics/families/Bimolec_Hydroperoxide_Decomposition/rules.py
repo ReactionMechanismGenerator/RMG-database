@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 0,
-    label = "ROOH;ROOH",
+    label = "Root",
     kinetics = ArrheniusEP(
         A = (1.096e5, 'm^3/(mol*s)'),
         n = 0,

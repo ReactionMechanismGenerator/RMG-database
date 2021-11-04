@@ -7,9 +7,13 @@ longDesc = u"""
 
 """
 
-template(reactants=["ROOH", "ROOH"], products=["ROOrad", "ROrad", "H2O"], ownReverse=False)
+template(reactants=["Root"], products=["ROOrad", "ROrad", "H2O"], ownReverse=False)
 
 reverse = "Peroxyl_alkoxy_association"
+reversible = True
+
+reactantNum = 2
+productNum = 3
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
@@ -21,13 +25,17 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "ROOH",
+    label = "Root",
     group =
 """
 1    R u0 {2,S}
 2 *1 O u0 {1,S} {3,S}
 3 *2 O u0 {2,S} {4,S}
-4 *3 H u0 {3,S}
+4    H u0 {3,S}
+5    R u0 {6,S}
+6    O u0 {5,S} {7,S}
+7 *4 O u0 {6,S} {8,S}
+8 *3 H u0 {7,S}
 """,
     kinetics = None,
 )
@@ -121,7 +129,7 @@ entry(
 
 tree(
 """
-L1: ROOH
+L1: Root
     L2: C_sec_OOH
         L3: ringOOH
     L2: C_ter_OOH
