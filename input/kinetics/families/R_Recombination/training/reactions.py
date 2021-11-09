@@ -4365,7 +4365,7 @@ entry(
     label = "CH3 + C9H19 <=> C10H22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (4.91e+12, 'cm^3/(mole*s)'),
+        A = (4.91e+12, 'cm^3/(mol*s)'),
         n = 0.217,
         Ea = (-0.007, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4390,7 +4390,7 @@ entry(
     label = "C8H17 + C2H5 <=> C10H22-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (2.059e+12, 'cm^3/(mole*s)'),
+        A = (2.059e+12, 'cm^3/(mol*s)'),
         n = 0.226,
         Ea = (-0.024, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4415,7 +4415,7 @@ entry(
     label = "C7H15 + C3H7 <=> C10H22-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.912e+12, 'cm^3/(mole*s)'),
+        A = (1.912e+12, 'cm^3/(mol*s)'),
         n = 0.218,
         Ea = (-0.008, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4440,7 +4440,7 @@ entry(
     label = "C6H13 + C4H9-2 <=> C10H22-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.832e+12, 'cm^3/(mole*s)'),
+        A = (1.832e+12, 'cm^3/(mol*s)'),
         n = 0.216,
         Ea = (-0.003, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4465,7 +4465,7 @@ entry(
     label = "C5H11 + C5H11 <=> C10H22-5",
     degeneracy = 0.5,
     kinetics = Arrhenius(
-        A = (1.808e+12, 'cm^3/(mole*s)'),
+        A = (1.808e+12, 'cm^3/(mol*s)'),
         n = 0.215,
         Ea = (-0.001, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4490,7 +4490,7 @@ entry(
     label = "H + C10H21 <=> C10H22-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mole*s)'),
+        A = (3.252e+13, 'cm^3/(mol*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4515,7 +4515,7 @@ entry(
     label = "H + C10H21-2 <=> C10H22-7",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mole*s)'),
+        A = (3.252e+13, 'cm^3/(mol*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4540,7 +4540,7 @@ entry(
     label = "H + C10H21-3 <=> C10H22-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mole*s)'),
+        A = (3.252e+13, 'cm^3/(mol*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4565,7 +4565,7 @@ entry(
     label = "H + C10H21-4 <=> C10H22-9",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mole*s)'),
+        A = (3.252e+13, 'cm^3/(mol*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4590,7 +4590,7 @@ entry(
     label = "H + C10H21-5 <=> C10H22-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mole*s)'),
+        A = (3.252e+13, 'cm^3/(mol*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
