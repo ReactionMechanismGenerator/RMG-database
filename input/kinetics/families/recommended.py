@@ -135,7 +135,8 @@ halogens = {
     '1,2_XY_interchange',
     'halocarbene_recombination',
     'halocarbene_recombination_double',
-    'XY_elimination_hydroxyl'
+    'XY_elimination_hydroxyl',
+    'intra_halogen_migration'
 }
 
 # Surface chemistry families that are under development and not yet working well.
