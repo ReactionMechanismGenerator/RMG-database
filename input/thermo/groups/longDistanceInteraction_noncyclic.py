@@ -2638,11 +2638,17 @@ entry(
 9     Val7 u0 {2,S}
 10    R!H  u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.66,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """H298 average of children""",
     longDesc = 
 """
-
+H298 = (Cs(F)3-R-Cs(F)3 + Cs(Cl)3-R-Cs(Cl)3) / 2
+H298 = (1.96 + 5.36) / 2 =  3.66 kcal/mol
 """,
 )
 
@@ -2748,11 +2754,17 @@ entry(
 9     [C,H,N,O,S] u0 {2,S}
 10    R!H         u0 {3,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.56,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = """H298 average of children""",
     longDesc = 
 """
-
+H298 = (Cs(F)3-R-Cs(F)2+ Cs(Cl)3-R-Cs(Cl)2) / 2
+H298 = (2.87 + 6.30) / 2 =  4.56 kcal/mol
 """,
 )
 
