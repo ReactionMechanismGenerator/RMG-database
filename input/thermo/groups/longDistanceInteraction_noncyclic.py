@@ -4318,6 +4318,114 @@ molecule | burcat | GAV before | GAV after
 """,
 )
 
+entry(
+    index = 154,
+    label = "Cs(Val7)3-Cd-Cd-Cs(Val7)3",
+    group = 
+"""
+1     Val7 u0 {2,S}
+2     C u0 {1,S} {3,S} {4,S} {5,S}
+3     Val7 u0 {2,S}
+4     Val7 u0 {2,S}
+5  *1 C u0 {2,S} {6,S} {10,D}
+6     C u0 {5,S} {7,S} {8,S} {9,S}
+7     Val7 u0 {6,S}
+8     Val7 u0 {6,S}
+9     Val7 u0 {6,S}
+10 *2 C ux {5,D} {11,S}
+11    C u0 {10,S} {12,S} {13,S} {14,S}
+12    Val7 u0 {11,S}
+13    Val7 u0 {11,S}
+14    Val7 u0 {11,S}
+""",
+    thermo = "Cs(Val7)3-Cs(Val7)3",
+    shortDesc = """cis C(Val3)C=CC(Val3) correction""",
+    longDesc = 
+"""
+""",
+)
+
+entry(
+    index = 155,
+    label = "Cs(F)3-Cd-Cd-Cs(F)3",
+    group = 
+"""
+1     F1s u0 {2,S}
+2     C u0 {1,S} {3,S} {4,S} {5,S}
+3     F1s u0 {2,S}
+4     F1s u0 {2,S}
+5  *1 C u0 {2,S} {6,S} {10,D}
+6     C u0 {5,S} {7,S} {8,S} {9,S}
+7     F1s u0 {6,S}
+8     F1s u0 {6,S}
+9     F1s u0 {6,S}
+10 *2 C ux {5,D} {11,S}
+11    C u0 {10,S} {12,S} {13,S} {14,S}
+12    F1s u0 {11,S}
+13    F1s u0 {11,S}
+14    F1s u0 {11,S}
+""",
+    thermo = "Cs(F)3-Cs(F)3",
+    shortDesc = """cis CF3C=CCF3 correction""",
+    longDesc = 
+"""
+""",
+)
+
+entry(
+    index = 156,
+    label = "Cs(Cl)3-Cd-Cd-Cs(Cl)3",
+    group = 
+"""
+1     Cl1s u0 {2,S}
+2     C u0 {1,S} {3,S} {4,S} {5,S}
+3     Cl1s u0 {2,S}
+4     Cl1s u0 {2,S}
+5  *1 C u0 {2,S} {6,S} {10,D}
+6     C u0 {5,S} {7,S} {8,S} {9,S}
+7     Cl1s u0 {6,S}
+8     Cl1s u0 {6,S}
+9     Cl1s u0 {6,S}
+10 *2 C ux {5,D} {11,S}
+11    C u0 {10,S} {12,S} {13,S} {14,S}
+12    Cl1s u0 {11,S}
+13    Cl1s u0 {11,S}
+14    Cl1s u0 {11,S}
+""",
+    thermo = "Cs(Cl)3-Cs(Cl)3",
+    shortDesc = """cis CCl3C=CCCl3 correction""",
+    longDesc = 
+"""
+""",
+)
+
+entry(
+    index = 157,
+    label = "Cs(Br)3-Cd-Cd-Cs(Br)3",
+    group = 
+"""
+1     Br1s u0 {2,S}
+2     C u0 {1,S} {3,S} {4,S} {5,S}
+3     Br1s u0 {2,S}
+4     Br1s u0 {2,S}
+5  *1 C u0 {2,S} {6,S} {10,D}
+6     C u0 {5,S} {7,S} {8,S} {9,S}
+7     Br1s u0 {6,S}
+8     Br1s u0 {6,S}
+9     Br1s u0 {6,S}
+10 *2 C ux {5,D} {11,S}
+11    C u0 {10,S} {12,S} {13,S} {14,S}
+12    Br1s u0 {11,S}
+13    Br1s u0 {11,S}
+14    Br1s u0 {11,S}
+""",
+    thermo = "Cs(Br)3-Cs(Br)3",
+    shortDesc = """cis CBr3C=CCBr3 correction""",
+    longDesc = 
+"""
+""",
+)
+
 tree(
 """
 L1: R
@@ -4434,6 +4542,10 @@ L1: R
             L4: Cs(Br)3-R-CO
         L3: Cs(Val7)2-Cs(Val7)2-Cs(Val7)2
             L4: CsF2-CsF2-CsF2
+    L2: Cs(Val7)3-Cd-Cd-Cs(Val7)3
+        L3: Cs(F)3-Cd-Cd-Cs(F)3
+        L3: Cs(Cl)3-Cd-Cd-Cs(Cl)3
+        L3: Cs(Br)3-Cd-Cd-Cs(Br)3
     L2: int14_gauche
         L3: CsCs
             L4: CsCs-P
