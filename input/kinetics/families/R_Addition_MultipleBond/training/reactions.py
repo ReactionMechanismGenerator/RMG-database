@@ -59417,3 +59417,804 @@ Original entry: Acepentacyl + H <=> W4
 """,
 )
 
+entry(
+    index = 2952,
+    label = "HO2 + C2H4 <=> C2H5O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(71.2,'cm^3/(mol*s)'), n=3.22, Ea=(11.1,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al. A is multiplied by 2 as the reported value is per additional site.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C2H4 + HO2 <=> CJCOOH
+""",
+)
+
+entry(
+    index = 2953,
+    label = "HO2 + propene_1 <=> C3H7O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2560,'cm^3/(mol*s)'), n=2.62, Ea=(9.7,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C3H6 + HO2 <=> CCJCOOH
+""",
+)
+
+entry(
+    index = 2954,
+    label = "HO2 + butene1_1 <=> C4H9O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2560,'cm^3/(mol*s)'), n=2.62, Ea=(9.7,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C4H8-1 + HO2 <=> CCCJCOOH
+""",
+)
+
+entry(
+    index = 2955,
+    label = "HO2 + C5H10-5 <=> C5H11O2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(301,'cm^3/(mol*s)'), n=2.86, Ea=(9.5,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: isopentene + HO2 <=> CC(C)[CH]COO
+""",
+)
+
+entry(
+    index = 2956,
+    label = "HO2 + C4H8 <=> C4H9O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(16400,'cm^3/(mol*s)'), n=2.43, Ea=(8.3,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC4H8 + HO2 <=> C[C](C)COO
+""",
+)
+
+entry(
+    index = 2957,
+    label = "HO2 + C5H10-6 <=> C5H11O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2990,'cm^3/(mol*s)'), n=2.55, Ea=(7.8,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H10-1 + HO2 <=> CC[C](C)COO
+""",
+)
+
+entry(
+    index = 2958,
+    label = "HO2 + C6H12-6 <=> C6H13O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1120,'cm^3/(mol*s)'), n=2.65, Ea=(8,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCCC(C)=C + HO2 <=> CCC[C](C)COO
+""",
+)
+
+entry(
+    index = 2959,
+    label = "HO2 + butene1_2 <=> C4H9O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(20.9,'cm^3/(mol*s)'), n=3.21, Ea=(9.2,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C4H8-1 + HO2 <=> CCC([CH2])OO
+""",
+)
+
+entry(
+    index = 2960,
+    label = "HO2 + C5H10-7 <=> C5H11O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(25.1,'cm^3/(mol*s)'), n=3.74, Ea=(8.8,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: isopentene + HO2 <=> CC(C)C([CH2])OO
+""",
+)
+
+entry(
+    index = 2961,
+    label = "HO2 + C5H10-4 <=> C5H11O2-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(19.5,'cm^3/(mol*s)'), n=3.22, Ea=(9.1,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C5H10-1 + HO2 <=> CCCC([CH2])OO
+""",
+)
+
+entry(
+    index = 2962,
+    label = "HO2 + butene2 <=> C4H9O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(774,'cm^3/(mol*s)'), n=2.89, Ea=(7.5,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al. A is multiplied by 2 as the reported value is per additional site.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C4H8-2 + HO2 <=> C[CH]C(C)OO
+""",
+)
+
+entry(
+    index = 2963,
+    label = "HO2 + C5H10-8 <=> C5H11O2-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(171,'cm^3/(mol*s)'), n=2.94, Ea=(7.4,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C5H10-2 + HO2 <=> C[CH]C(CC)OO
+""",
+)
+
+entry(
+    index = 2964,
+    label = "HO2 + C5H10-9 <=> C5H11O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(49.5,'cm^3/(mol*s)'), n=3.13, Ea=(7.3,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C5H10-2 + HO2 <=> CC[CH]C(C)OO
+""",
+)
+
+entry(
+    index = 2965,
+    label = "HO2 + C6H12-7 <=> C6H13O2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(32.7,'cm^3/(mol*s)'), n=3.16, Ea=(5.2,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC6H12-2 + HO2 <=> C[C](C)C(CC)OO
+""",
+)
+
+entry(
+    index = 2966,
+    label = "HO2 + C5H10 <=> C5H11O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3090,'cm^3/(mol*s)'), n=2.61, Ea=(5.8,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H10-2 + HO2 <=> C[C](C)C(C)OO
+""",
+)
+
+entry(
+    index = 2967,
+    label = "HO2 + C6H12-8 <=> C6H13O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(314,'cm^3/(mol*s)'), n=2.9, Ea=(5.8,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC(C)=CC + HO2 <=> CC[C](C)C(C)OO
+""",
+)
+
+entry(
+    index = 2968,
+    label = "HO2 + C4H8-2 <=> C4H9O2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.19,'cm^3/(mol*s)'), n=3.28, Ea=(7.9,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC4H8 + HO2 <=> CC(C)([CH2])OO
+""",
+)
+
+entry(
+    index = 2969,
+    label = "HO2 + C5H10-10 <=> C5H11O2-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.949,'cm^3/(mol*s)'), n=3.54, Ea=(7.3,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H10-1 + HO2 <=> CCC(C)([CH2])OO
+""",
+)
+
+entry(
+    index = 2970,
+    label = "HO2 + C6H12-9 <=> C6H13O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.000881,'cm^3/(mol*s)'), n=4.38, Ea=(6.1,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC(CC)=C + HO2 <=> CCC(CC)([CH2])OO
+""",
+)
+
+entry(
+    index = 2971,
+    label = "HO2 + C5H10-2 <=> C5H11O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.31,'cm^3/(mol*s)'), n=3.44, Ea=(5.2,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H10-2 + HO2 <=> C[CH]C(C)(C)OO
+""",
+)
+
+entry(
+    index = 2972,
+    label = "HO2 + C6H12-10 <=> C6H13O2-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.107,'cm^3/(mol*s)'), n=3.81, Ea=(4.5,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC(C)=CC + HO2 <=> C[CH]C(CC)(C)OO
+""",
+)
+
+entry(
+    index = 2973,
+    label = "HO2 + C6H12 <=> C6H13O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(39.2,'cm^3/(mol*s)'), n=3.18, Ea=(3,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al. A is multiplied by 2 as the reported value is per additional site.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CC(C)=C(C)C + HO2 <=> C[C](C)C(C)(C)OO
+""",
+)
+
+entry(
+    index = 2974,
+    label = "HO2 + C7H14-10 <=> C7H15O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.497,'cm^3/(mol*s)'), n=3.6, Ea=(2.5,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC(C)=C(C)C + HO2 <=> CC[C](C)C(C)(C)OO
+""",
+)
+
+entry(
+    index = 2975,
+    label = "HO2 + C7H14-11 <=> C7H15O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.316,'cm^3/(mol*s)'), n=3.62, Ea=(2.5,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC(C)=C(C)C + HO2 <=> C[C](C)C(CC)(C)OO
+""",
+)
+
+entry(
+    index = 2976,
+    label = "HO2 + C6H12-11 <=> C6H13O2-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.586,'cm^3/(mol*s)'), n=3.53, Ea=(5,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at CBS-QB3 1DHR from [2] by Villano et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC6H12-2 + HO2 <=> CC[CH]C(C)(C)OO
+""",
+)
+
+entry(
+    index = 2977,
+    label = "OH + C2H4 <=> C2H5O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.31244e+06,'cm^3/(mol*s)'), n=2.03, Ea=(-7.97,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) G09 Hindered rotor approximation from [3] by Xiao et al.
+A is multiplied by 2 as the reported value is per additional site.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C2H4 + OH <=> [CH2]CO
+""",
+)
+
+entry(
+    index = 2978,
+    label = "OH + propene_2 <=> C3H7O-11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(175240,'cm^3/(mol*s)'), n=2.05, Ea=(-10.02,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C3H6 + OH <=> [CH2]C(C)O
+""",
+)
+
+entry(
+    index = 2979,
+    label = "OH + butene1_2 <=> C4H9O-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(66844.2,'cm^3/(mol*s)'), n=2.12, Ea=(-10.18,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C4H8-1 + OH <=> CCC([CH2])O
+""",
+)
+
+entry(
+    index = 2980,
+    label = "OH + C5H10-4 <=> C5H11O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(337.834,'cm^3/(mol*s)'), n=3.03, Ea=(-11.31,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C5H10-1 + OH <=> CCCC([CH2])O
+""",
+)
+
+entry(
+    index = 2981,
+    label = "OH + C4H8-2 <=> C4H9O-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.58772e+06,'cm^3/(mol*s)'), n=2.06, Ea=(-10.45,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC4H8 + OH <=> CC(C)([CH2])O
+""",
+)
+
+entry(
+    index = 2982,
+    label = "OH + C5H10-10 <=> C5H11O-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(62628.8,'cm^3/(mol*s)'), n=2.04, Ea=(-8.18,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H10-1 + OH <=> CCC(C)([CH2])O
+""",
+)
+
+entry(
+    index = 2983,
+    label = "OH + C6H12-5 <=> C6H13O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(31133.7,'cm^3/(mol*s)'), n=2.06, Ea=(-10.27,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCCC(C)=C + OH <=> CCCC(C)([CH2])O
+""",
+)
+
+entry(
+    index = 2984,
+    label = "OH + butene2 <=> C4H9O-8",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.34893e+06,'cm^3/(mol*s)'), n=1.84, Ea=(-13.36,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.
+A is multiplied by 2 as the reported value is per additional site.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C4H8-2 + OH <=> C[CH]C(C)O
+""",
+)
+
+entry(
+    index = 2985,
+    label = "OH + C5H10-8 <=> C5H11O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(19.6317,'cm^3/(mol*s)'), n=3.36, Ea=(-13.6,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C5H10-2 + OH <=> C[CH]C(CC)O
+""",
+)
+
+entry(
+    index = 2986,
+    label = "OH + C5H10-9 <=> C5H11O-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.42119e+07,'cm^3/(mol*s)'), n=1.44, Ea=(-11.24,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C5H10-2 + OH <=> CC[CH]C(C)O
+""",
+)
+
+entry(
+    index = 2987,
+    label = "OH + C4H8 <=> C4H9O-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(37757.9,'cm^3/(mol*s)'), n=2.45, Ea=(-13.15,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC4H8 + OH <=> C[C](C)CO
+""",
+)
+
+entry(
+    index = 2988,
+    label = "OH + C5H10-6 <=> C5H11O-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.46728e+07,'cm^3/(mol*s)'), n=1.28, Ea=(-10.79,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H10-1 + OH <=> CC[C](C)CO
+""",
+)
+
+entry(
+    index = 2989,
+    label = "OH + C6H12-6 <=> C6H13O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5588.42,'cm^3/(mol*s)'), n=2.48, Ea=(-13.58,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCCC(C)=C + OH <=> CCC[C](C)CO
+""",
+)
+
+entry(
+    index = 2990,
+    label = "OH + propene_1 <=> C3H7O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(175240,'cm^3/(mol*s)'), n=2.05, Ea=(-10.02,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C3H6 + OH <=> C[CH]CO
+""",
+)
+
+entry(
+    index = 2991,
+    label = "OH + butene1_1 <=> C4H9O-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.88419e+07,'cm^3/(mol*s)'), n=1.37, Ea=(-8.5,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C4H8-1 + OH <=> CC[CH]CO
+""",
+)
+
+entry(
+    index = 2992,
+    label = "OH + C5H10-3 <=> C5H11O-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.35993e+07,'cm^3/(mol*s)'), n=1.35, Ea=(-8.66,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C5H10-1 + OH <=> CCC[CH]CO
+""",
+)
+
+entry(
+    index = 2993,
+    label = "OH + C5H10-2 <=> C5H11O-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.24655e+07,'cm^3/(mol*s)'), n=1.58, Ea=(-13.35,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H10-2 + OH <=> C[CH]C(C)(C)O
+""",
+)
+
+entry(
+    index = 2994,
+    label = "OH + C6H12-11 <=> C6H13O-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(28664.7,'cm^3/(mol*s)'), n=2.45, Ea=(-15.78,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC6H12-2 + OH <=> CC[CH]C(C)(C)O
+""",
+)
+
+entry(
+    index = 2995,
+    label = "OH + C5H10 <=> C5H11O-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(698.552,'cm^3/(mol*s)'), n=2.98, Ea=(-17.43,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H10-2 + OH <=> C[C](C)C(C)O
+""",
+)
+
+entry(
+    index = 2996,
+    label = "OH + C6H12-7 <=> C6H13O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(32699.5,'cm^3/(mol*s)'), n=2.41, Ea=(-16.23,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC6H12-2 + OH <=> C[C](C)C(CC)O
+""",
+)
+
+entry(
+    index = 2997,
+    label = "OH + C7H14-12 <=> C7H15O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(23365.4,'cm^3/(mol*s)'), n=2.41, Ea=(-15.52,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CC=C(CC)CC + OH <=> CC[C](CC)C(C)O
+""",
+)
+
+entry(
+    index = 2998,
+    label = "OH + C6H12 <=> C6H13O-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(42635.8,'cm^3/(mol*s)'), n=2.39, Ea=(-19.2,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.
+A is multiplied by 2 as the reported value is per additional site.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CC(C)=C(C)C + OH <=> C[C](C)C(C)(C)O
+""",
+)
+
+entry(
+    index = 2999,
+    label = "OH + C7H14-10 <=> C7H15O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(18427.3,'cm^3/(mol*s)'), n=2.39, Ea=(-18.27,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC(C)=C(C)C + OH <=> CC[C](C)C(C)(C)O
+""",
+)
+
+entry(
+    index = 3000,
+    label = "OH + C7H14-11 <=> C7H15O-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(77683.8,'cm^3/(mol*s)'), n=2.39, Ea=(-18.58,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC(C)=C(C)C + OH <=> C[C](C)C(C)(CC)O
+""",
+)
+
+entry(
+    index = 3001,
+    label = "H + C2H4 <=> C2H5-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.15e+15,'cm^3/(mol*s)'), n=-0.41, Ea=(14.73,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) from [6] by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C2H4 <=> [CH2]C
+""",
+)
+
+entry(
+    index = 3002,
+    label = "H + propene_2 <=> C3H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.25e+15,'cm^3/(mol*s)'), n=-0.73, Ea=(19.34,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) from [6] by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C3H6 <=> [CH2]CC
+""",
+)
+
+entry(
+    index = 3003,
+    label = "H + propene_1 <=> C3H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.02e+14,'cm^3/(mol*s)'), n=-0.03, Ea=(11.43,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) from [6] by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C3H6 <=> C[CH]C
+""",
+)
+
+entry(
+    index = 3004,
+    label = "H + butene1_2 <=> C4H9-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.23e+14,'cm^3/(mol*s)'), n=-0.27, Ea=(18.47,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) from [6] by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C4H8-1 <=> [CH2]CCC
+""",
+)
+
+entry(
+    index = 3005,
+    label = "H + butene1_1 <=> C4H9-10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.06e+15,'cm^3/(mol*s)'), n=-0.6, Ea=(14.59,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) from [6] by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C4H8-1 <=> C[CH]CC
+""",
+)
+
+entry(
+    index = 3006,
+    label = "H + butene2 <=> C4H9-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.56e+15,'cm^3/(mol*s)'), n=-0.42, Ea=(15.68,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) from [6] by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C4H8-2 <=> C[CH]CC
+""",
+)
+
+entry(
+    index = 3007,
+    label = "H + C4H8-2 <=> C4H9-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.67e+13,'cm^3/(mol*s)'), n=-0.21, Ea=(22.08,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) from [6] by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + iC4H8 <=> [CH2]C(C)C
+""",
+)
+
+entry(
+    index = 3008,
+    label = "H + C4H8 <=> C4H9-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.89e+15,'cm^3/(mol*s)'), n=-0.53, Ea=(11.98,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) from [6] by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + iC4H8 <=> C[C](C)C
+""",
+)
+
