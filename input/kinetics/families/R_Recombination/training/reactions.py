@@ -4710,3 +4710,59 @@ Species are optimized and calculated by the CBS-QB3 method, no hindered rotors c
 """,
 )
 
+entry(
+    index = 177,
+    label = "O2 + C5H11-3 <=> C5H11O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.63729e+10,'cm^3/(mol*s)'), n=0.61, Ea=(0.469,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at MRCI(7e,5o)/CBS//CASSCF(7e,5o)/cc-pVDZ from [4] by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H11J-1 + O2 <=> iC5H11OOJ-1
+""",
+)
+
+entry(
+    index = 178,
+    label = "O2 + C5H11-4 <=> C5H11O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.71557e+09,'cm^3/(mol*s)'), n=0.83, Ea=(0.279,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at MRCI(7e,5o)/CBS//CASSCF(7e,5o)/cc-pVDZ 1DHR from [4] by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H11J-4 + O2 <=> C2CCCOO
+""",
+)
+
+entry(
+    index = 179,
+    label = "O2 + C5H11-5 <=> C5H11O2-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.11303e+12,'cm^3/(mol*s)'), n=-0.47, Ea=(-1.239,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at MRCI(7e,5o)/CBS//CASSCF(7e,5o)/cc-pVDZ 1DHR from [4] by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H11J-3 + O2 <=> iC5H11OOJ-3
+""",
+)
+
+entry(
+    index = 180,
+    label = "O2 + C5H11-6 <=> C5H11O2-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.49948e+13,'cm^3/(mol*s)'), n=-0.6, Ea=(-1.531,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 3,
+    shortDesc = """calculated at MRCI(7e,5o)/CBS//CASSCF(7e,5o)/cc-pVDZ) 1DHR from [4] by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC5H11J-2 + O2 <=> iC5H11OOJ-2
+""",
+)
+
