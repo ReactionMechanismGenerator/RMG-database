@@ -448,3 +448,47 @@ C2HCl5
 7 *1 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 8    H  u0 p0 c0 {6,S}
 
+CH3Cl-2
+1    Cl u0 p3 c0 {2,S}
+2 *1 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3    H  u0 p0 c0 {2,S}
+4 *3 H  u0 p0 c0 {2,S}
+5 *2 H  u0 p0 c0 {2,S}
+
+CHBr
+1    Br u0 p3 c0 {2,S}
+2 *1 C  u0 p1 c0 {1,S} {3,S}
+3    H  u0 p0 c0 {2,S}
+
+CH2Br2
+1    Br u0 p3 c0 {3,S}
+2 *2 Br u0 p3 c0 {3,S}
+3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4    H  u0 p0 c0 {3,S}
+5 *3 H  u0 p0 c0 {3,S}
+
+FH
+1 *2 F u0 p3 c0 {2,S}
+2 *3 H u0 p0 c0 {1,S}
+
+CHF3
+1    F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3 *2 F u0 p3 c0 {4,S}
+4 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 *3 H u0 p0 c0 {4,S}
+
+CH2F2
+1    F u0 p3 c0 {3,S}
+2 *2 F u0 p3 c0 {3,S}
+3 *1 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4    H u0 p0 c0 {3,S}
+5 *3 H u0 p0 c0 {3,S}
+
+CH3Br
+1    Br u0 p3 c0 {2,S}
+2 *1 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3    H  u0 p0 c0 {2,S}
+4 *3 H  u0 p0 c0 {2,S}
+5 *2 H  u0 p0 c0 {2,S}
+
