@@ -137,7 +137,7 @@ halogens = {
     '1,2_XY_interchange',
     'halocarbene_recombination',
     'halocarbene_recombination_double',
-    'halocarbene_CO_dimerization'
+    'halocarbene_CO_dimerization',
     'XY_elimination_hydroxyl',
     'intra_halogen_migration',
 }
