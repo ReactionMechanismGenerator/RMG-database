@@ -4,6 +4,11 @@
 name = "1,3_sigmatropic_rearrangement/groups"
 shortDesc = ""
 longDesc = """
+20211127: The 1,3_sigmatropic_rearrangement family was too generalized and did a poor job of estimating ketoenol 
+reactions that matched the root node. Thus, this family was broken up into two families:
+1) ketoenol tautomerization reactions
+2) 1,3 sigmatropic rearrangement (this file)
+
 20211010: The ketoenol family was generalized to accept R!H rather than previously only accepting O or S.
 The family name was also updated to 1,3_sigmatropic_rearrangement to reflect the newly extended reaction template.
 
@@ -43,7 +48,7 @@ entry(
 1 *2 R!H u0 {2,S} {3,D}
 2 *3 R!H u0 {1,S} {4,S}
 3 *1 R!H u0 {1,D}
-4 *4 R   u0 {2,S}
+4 *4 R!H u0 {2,S}
 """,
     kinetics = None,
 )
