@@ -23647,11 +23647,11 @@ entry(
     molecule = 
 """
 multiplicity 3
-1 C u0 p0 c0 {2,D} {3,S} {4,S}
-2 C u0 p0 c0 {1,D} {5,D}
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {5,S}
 3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {1,S}
-5 C u2 p0 c0 {2,D}
+4 H u0 p0 c0 {5,S}
+5 C u2 p0 c0 {2,S} {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23664,8 +23664,7 @@ multiplicity 3
     shortDesc = u"""""",
     longDesc = 
 u"""
-T12/00.
-[C]=C=C
+[CH]C#C
 """,
 )
 
@@ -23674,11 +23673,11 @@ entry(
     label = "C3H2(S)",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {3,S} {4,S}
-2 C u0 p0 c0 {1,D} {5,D}
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {5,S}
 3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {1,S}
-5 C u0 p1 c0 {2,D}
+4 H u0 p0 c0 {5,S}
+5 C u0 p1 c0 {2,S} {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23691,7 +23690,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-singlet[C]=C=C
+singlet[CH]C#C
 """,
 )
 
@@ -25118,3 +25117,29 @@ C=CCOO
 """,
 )
 
+
+entry(
+    index = 678,
+    label = "H2CCC(S)",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,D}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 C u0 p1 c0 {2,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7229726,9.2589854e-03,-2.3006191e-06,-1.0200808e-09,4.5374357e-13,64877.289,5.6865936], Tmin=(200,'K'), Tmax=(1500,'K')),
+            NASAPolynomial(coeffs=[6.4888762,5.3112789e-03,-1.780949e-06,2.7252642e-10,-1.561959e-14,63661.864,-10.064283], Tmin=(1500,'K'), Tmax=(5000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (5000,'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+singlet[C]=C=C
+""",
+)
