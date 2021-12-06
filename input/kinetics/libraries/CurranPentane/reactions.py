@@ -13925,7 +13925,7 @@ entry(
 
 entry(
     index = 837,
-    label = "C3H3 + H <=> C3H2(S) + H2",
+    label = "C3H3 + H <=> H2CCC(S) + H2",
     degeneracy = 1,
     duplicate = True,
     kinetics = PDepArrhenius(
@@ -14099,7 +14099,7 @@ entry(
 
 entry(
     index = 846,
-    label = "C3H2(S) + O2 <=> CO2 + C2H2",
+    label = "H2CCC(S) + O2 <=> CO2 + C2H2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""""",
@@ -14107,7 +14107,7 @@ entry(
 
 entry(
     index = 847,
-    label = "C3H2(S) + H <=> C3H2(S) + H",
+    label = "C3H2(S) + H <=> H2CCC(S) + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""""",
@@ -14699,14 +14699,7 @@ entry(
     index = 859,
     label = "C3H3 + OH <=> C3H2 + H2O",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(8000, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(8000, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""""",
 )
 
@@ -38580,3 +38573,18 @@ entry(
     shortDesc = u"""""",
 )
 
+entry(
+    index = 3091,
+    label = "C3H3 + OH <=> C3H2(S) + H2O",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""""",
+)
+
+entry(
+    index = 3092,
+    label = "C3H3 + OH <=> H2CCC(S) + H2O",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""""",
+)
