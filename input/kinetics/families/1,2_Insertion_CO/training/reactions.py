@@ -170,7 +170,7 @@ entry(
     label = "CF4 + CO <=> C2F4O",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(10782.4,'cm^3/(mol*s)'), n=2.93313, Ea=(397.886,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13366, dn = +|- 0.016482, dEa = +|- 0.0896944 kJ/mol"""),
-    rank = 5,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -193,7 +193,7 @@ entry(
     label = "CH3Cl + CO <=> C2H3ClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7341.96,'cm^3/(mol*s)'), n=2.97843, Ea=(311.689,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.19217, dn = +|- 0.0230932, dEa = +|- 0.125672 kJ/mol"""),
-    rank = 5,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -216,7 +216,7 @@ entry(
     label = "ClH + CO <=> CHClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6108,'cm^3/(mol*s)'), n=2.57909, Ea=(159.246,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.43991, dn = +|- 0.0478989, dEa = +|- 0.260664 kJ/mol"""),
-    rank = 5,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -236,7 +236,7 @@ entry(
     label = "BrH + CO <=> CHBrO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(15238.4,'cm^3/(mol*s)'), n=2.47236, Ea=(142.16,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.36179, dn = +|- 0.0405705, dEa = +|- 0.220783 kJ/mol"""),
-    rank = 5,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -256,7 +256,7 @@ entry(
     label = "CHF3 + CO <=> C2HF3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.81927e-10,'cm^3/(mol*s)'), n=6.80628, Ea=(325.917,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 33.5544, dn = +|- 0.46156, dEa = +|- 2.51179 kJ/mol"""),
-    rank = 5,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -279,7 +279,7 @@ entry(
     label = "FH + CO <=> CHFO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.66811e-05,'cm^3/(mol*s)'), n=4.88105, Ea=(180.508,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 11.5455, dn = +|- 0.321395, dEa = +|- 1.74902 kJ/mol"""),
-    rank = 5,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -299,7 +299,7 @@ entry(
     label = "CH3Br + CO <=> C2H3BrO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(16318.9,'cm^3/(mol*s)'), n=2.90186, Ea=(300.412,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.16266, dn = +|- 0.0198, dEa = +|- 0.107751 kJ/mol"""),
-    rank = 5,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -322,7 +322,7 @@ entry(
     label = "CH3F + CO <=> C2H3FO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(614.234,'cm^3/(mol*s)'), n=3.16963, Ea=(318.436,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.27036, dn = +|- 0.0314397, dEa = +|- 0.171094 kJ/mol"""),
-    rank = 5,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
