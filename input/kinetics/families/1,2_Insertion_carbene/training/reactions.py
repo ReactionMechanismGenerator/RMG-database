@@ -351,7 +351,7 @@ entry(
     label = "Br2 + CF2_r1 <=> CBr2F2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.2e+09,'cm^3/(mol*s)'), n=0, Ea=(1030,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CF2 + BR2 <=> CF2BR2""",
     longDesc = 
 """
@@ -365,7 +365,7 @@ entry(
     label = "CHClF2 <=> CF2_r1 + ClH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.41e+13,'s^-1'), n=0, Ea=(53465,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CHF2CL <=> CF2 + HCL""",
     longDesc = 
 """
@@ -379,7 +379,7 @@ entry(
     label = "BrH + CF2_r1 <=> CHBrF2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.14e+11,'cm^3/(mol*s)'), n=0, Ea=(9560,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CF2 + HBR <=> CHF2BR""",
     longDesc = 
 """
@@ -393,7 +393,7 @@ entry(
     label = "CH3Cl <=> CH2 + ClH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+28,'s^-1'), n=-5.15, Ea=(109670,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CH3CL <=> CH2(S) + HCL""",
     longDesc = 
 """
@@ -407,7 +407,7 @@ entry(
     label = "CHCl3 <=> CCl2 + ClH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.2e+12,'s^-1'), n=0, Ea=(51500,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CHCL3 <=> CCL2 + HCL""",
     longDesc = 
 """
@@ -421,7 +421,7 @@ entry(
     label = "Cl2 + CCl2 <=> CCl4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(6000,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CCL2 + CL2 <=> CCL4""",
     longDesc = 
 """
@@ -435,7 +435,7 @@ entry(
     label = "Cl2 + CF2_r1 <=> CCl2F2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.21e+08,'cm^3/(mol*s)'), n=0, Ea=(2110,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CF2 + CL2 <=> CF2CL2""",
     longDesc = 
 """
@@ -449,7 +449,7 @@ entry(
     label = "CHCl3-2 + CCl2 <=> C2HCl5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.39e+11,'cm^3/(mol*s)'), n=0, Ea=(11900,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CCL2 + CHCL3 <=> C2HCL5""",
     longDesc = 
 """
@@ -463,7 +463,7 @@ entry(
     label = "CHCl + ClH <=> CH2Cl2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment=""""""),
-    rank = 10,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -484,12 +484,10 @@ entry(
     label = "CHCl + H2_r23 <=> CH3Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.39739e+06,'cm^3/(mol*s)'), n=2.08325, Ea=(9.93074,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.18262, dn = +|- 0.0220362, dEa = +|- 0.11992 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene
-Original entry: [CH]Cl + [H][H] <=> CCl
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 19.586 kJ/mol
 
@@ -506,12 +504,10 @@ entry(
     label = "CF2_r1 + CF4_r23 <=> FC(F)(F)C(F)(F)F_p123",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(5.34327,'cm^3/(mol*s)'), n=3.3552, Ea=(272.197,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.1212, dn = +|- 0.0150298, dEa = +|- 0.0817915 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene
-Original entry: F[C]F + FC(F)(F)F <=> FC(F)(F)C(F)(F)F
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 279.045 kJ/mol
 
@@ -531,7 +527,7 @@ entry(
     label = "CHBr + BrH <=> CH2Br2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e13,'cm^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment=""""""),
-    rank = 10,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -545,12 +541,10 @@ entry(
     label = "CF2_r1 + FH <=> CHF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00398081,'cm^3/(mol*s)'), n=4.16158, Ea=(55.7474,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.20446, dn = +|- 0.152998, dEa = +|- 0.832608 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene
-Original entry: F[C]F + F <=> FC(F)F
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 83.554 kJ/mol
 
@@ -567,12 +561,10 @@ entry(
     label = "CHF_r1 + FH <=> CH2F2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9488.44,'cm^3/(mol*s)'), n=2.40423, Ea=(-1.8086,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15696, dn = +|- 0.019155, dEa = +|- 0.104241 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene
-Original entry: [CH]F + F <=> FCF
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 10.871 kJ/mol
 
@@ -589,12 +581,10 @@ entry(
     label = "CHF_r1 + H2_r23 <=> CF_p123",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.13948e+06,'cm^3/(mol*s)'), n=1.96174, Ea=(10.3842,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.23287, dn = +|- 0.0275038, dEa = +|- 0.149675 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene
-Original entry: [CH]F + [H][H] <=> CF
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 20.698 kJ/mol
 
@@ -611,12 +601,10 @@ entry(
     label = "CF2_r1 + H2_r23 <=> FCF_p123",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00326413,'cm^3/(mol*s)'), n=4.30786, Ea=(109.478,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 6.37258, dn = +|- 0.243316, dEa = +|- 1.32412 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene
-Original entry: F[C]F + [H][H] <=> FCF
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 143.899 kJ/mol
 
@@ -633,12 +621,10 @@ entry(
     label = "CHBr + H2_r23 <=> CH3Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.50896e+06,'cm^3/(mol*s)'), n=2.11145, Ea=(7.35429,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.17058, dn = +|- 0.0206925, dEa = +|- 0.112608 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene
-Original entry: [CH]Br + [H][H] <=> CBr
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 16.373 kJ/mol
 
@@ -655,7 +641,7 @@ entry(
     label = "C2H4ClF <=> C2H3F + ClH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.39e+15,'s^-1'), n=0, Ea=(73,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """MP2/6-311+G(2d,p)""",
     longDesc = 
 """
@@ -671,7 +657,7 @@ entry(
     label = "C2H4ClF-2 <=> C2H3Cl + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.97e+14,'s^-1'), n=0, Ea=(75.5,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """MP2/6-311+G(2d,p)""",
     longDesc = 
 """
@@ -687,12 +673,10 @@ entry(
     label = "C2H4BrF <=> C2H3F + BrH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.39e+15,'s^-1'), n=0, Ea=(65.8,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """MP2/6-311+G(2d,p)""",
     longDesc = 
 """
-Training reaction from kinetics library: HY_elim
-Original entry: CH3CHFBr <=> CH3CF + HBr
 Ea taken from Table 3 in [2]
 A factor taken for CH3CHFCl <=> CH3CF + HCl in [1]
 """,
@@ -703,7 +687,7 @@ entry(
     label = "C2H3BrF2 <=> C2H2F2 + BrH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.39e+15,'s^-1'), n=0, Ea=(70.7,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """MP2/6-311+G(2d,p)""",
     longDesc = 
 """
@@ -719,12 +703,10 @@ entry(
     label = "C2H2BrF3 <=> C2HF3 + BrH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.39e+15,'s^-1'), n=0, Ea=(75.5,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """MP2/6-311+G(2d,p)""",
     longDesc = 
 """
-Training reaction from kinetics library: HY_elim
-Original entry: CHF2CHFBr <=> CHF2CF + HBr
 Ea taken from Table 3 in [2]
 A factor taken for CH3CHFCl <=> CH3CF + HCl in [1]
 """,
@@ -735,12 +717,10 @@ entry(
     label = "C2HBrF4 <=> C2F4 + BrH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.39e+15,'s^-1'), n=0, Ea=(77.3,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """MP2/6-311+G(2d,p)""",
     longDesc = 
 """
-Training reaction from kinetics library: HY_elim
-Original entry: CF3CHFBr <=> CF3CF + HBr
 Ea taken from Table 3 in [2]
 A factor taken for CH3CHFCl <=> CH3CF + HCl in [1]
 """,
@@ -751,12 +731,10 @@ entry(
     label = "C3H6BrF <=> C3H5F + BrH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.39e+15,'s^-1'), n=0, Ea=(66,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """MP2/6-311+G(2d,p)""",
     longDesc = 
 """
-Training reaction from kinetics library: HY_elim
-Original entry: CH3CH2CHFBr <=> CH3CH2CF + HBr
 Ea taken from Table 3 in [2]
 A factor taken for CH3CHFCl <=> CH3CF + HCl in [1]
 """,
@@ -767,12 +745,10 @@ entry(
     label = "C2H4F2 <=> C2H3F + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.97e+14,'s^-1'), n=0, Ea=(74,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """experimental""",
     longDesc = 
 """
-Training reaction from kinetics library: HY_elim
-Original entry: CH3CHF2 <=> CH3CF + HF
 Ea taken from Table 2 in [3]
 A factor taken for CH3CHFCl <=> CH3CCl + HF in [1]
 """,
@@ -783,12 +759,10 @@ entry(
     label = "C2H3F3 <=> C2H2F2 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.97e+14,'s^-1'), n=0, Ea=(77,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """experimental""",
     longDesc = 
 """
-Training reaction from kinetics library: HY_elim
-Original entry: CH2FCHF2 <=> CH2FCF + HF
 Ea taken from Table 2 in [3]
 A factor taken for CH3CHFCl <=> CH3CCl + HF in [1]
 """,
@@ -799,12 +773,10 @@ entry(
     label = "C2H2F4 <=> C2HF3 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.97e+14,'s^-1'), n=0, Ea=(84,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X/6-311G(2d,p)""",
     longDesc = 
 """
-Training reaction from kinetics library: HY_elim
-Original entry: CHF2CHF2 <=> CHF2CF + HF
 Ea taken from Table 2 in [3]
 A factor taken for CH3CHFCl <=> CH3CCl + HF in [1]
 """,
@@ -815,12 +787,10 @@ entry(
     label = "C2HF5 <=> C2F4 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.97e+14,'s^-1'), n=0, Ea=(85,'kcal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X/6-311G(2d,p)""",
     longDesc = 
 """
-Training reaction from kinetics library: HY_elim
-Original entry: CF3CHF2 <=> CF3CF + HF
 Ea taken from Table 2 in [3]
 A factor taken for CH3CHFCl <=> CH3CCl + HF in [1]
 """,
@@ -831,12 +801,10 @@ entry(
     label = "C2H3Br + CH4 <=> C3H7Br",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(11.7012,'cm^3/(mol*s)'), n=3.16987, Ea=(35.1917,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0603, dn = +|- 0.00769279, dEa = +|- 0.0418639 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_2
-Original entry: C[C]Br + C <=> CC(Br)C
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 46.031 kJ/mol
 
@@ -859,12 +827,10 @@ entry(
     label = "C2H3Cl + CH4 <=> C3H7Cl",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(8.96195,'cm^3/(mol*s)'), n=3.20888, Ea=(40.549,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04063, dn = +|- 0.00523243, dEa = +|- 0.0284747 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_2
-Original entry: C[C]Cl + C <=> CC(Cl)C
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 51.879 kJ/mol
 
@@ -887,12 +853,10 @@ entry(
     label = "C2H3F + CH4 <=> C3H7F",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1.33549,'cm^3/(mol*s)'), n=3.38172, Ea=(55.0573,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07084, dn = +|- 0.008992, dEa = +|- 0.0489341 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_2
-Original entry: C[C]F + C <=> CC(F)C
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 68.906 kJ/mol
 
@@ -915,12 +879,10 @@ entry(
     label = "CHF_r1 + CH3Br-2 <=> C2H4BrF-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(30.1249,'cm^3/(mol*s)'), n=3.17037, Ea=(120.81,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07904, dn = +|- 0.00999483, dEa = +|- 0.0543915 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: [CH]F + CBr <=> CC(F)Br
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 129.617 kJ/mol
 
@@ -940,12 +902,10 @@ entry(
     label = "CF2_r1 + CH3Br-2 <=> C2H3BrF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.43831,'cm^3/(mol*s)'), n=3.35156, Ea=(209.26,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14968, dn = +|- 0.0183253, dEa = +|- 0.0997254 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: F[C]F + CBr <=> CC(F)(F)Br
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 216.094 kJ/mol
 
@@ -965,12 +925,10 @@ entry(
     label = "CHF_r1 + CH3F <=> C2H4F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.96165,'cm^3/(mol*s)'), n=3.30609, Ea=(133.548,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14157, dn = +|- 0.0173948, dEa = +|- 0.0946619 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: [CH]F + CF <=> CC(F)F
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 144.869 kJ/mol
 
@@ -990,12 +948,10 @@ entry(
     label = "CHF_r1 + CH3Cl-3 <=> C2H4ClF-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(17.8425,'cm^3/(mol*s)'), n=3.22746, Ea=(130.179,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.10739, dn = +|- 0.0134011, dEa = +|- 0.0729283 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: [CH]F + CCl <=> CC(F)Cl
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 139.785 kJ/mol
 
@@ -1015,7 +971,7 @@ entry(
     label = "CF2_r1 + CH4 <=> C2H4F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.000267207,'cm^3/(mol*s)'), n=4.72997, Ea=(129.265,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.00906, dn = +|- 0.144732, dEa = +|- 0.787625 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -1038,12 +994,10 @@ entry(
     label = "CF2_r1 + H2O <=> CH2F2O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.52789e-06,'cm^3/(mol*s)'), n=5.02686, Ea=(72.5674,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.96429, dn = +|- 0.180953, dEa = +|- 0.98474 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: F[C]F + O <=> OC(F)F
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 103.723 kJ/mol
 
@@ -1061,7 +1015,7 @@ entry(
     label = "CHF_r1 + CH4 <=> C2H5F",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(111.983,'cm^3/(mol*s)'), n=3.10993, Ea=(26.3876,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0698, dn = +|- 0.00886387, dEa = +|- 0.0482369 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
@@ -1088,8 +1042,6 @@ entry(
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: F[C]F + CF <=> CC(F)(F)F
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 205.134 kJ/mol
 
@@ -1109,12 +1061,10 @@ entry(
     label = "CHF_r1 + H2O <=> CH3FO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.34896,'cm^3/(mol*s)'), n=3.15288, Ea=(2.84581,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0433, dn = +|- 0.00556916, dEa = +|- 0.0303072 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: [CH]F + O <=> OCF
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 19.372 kJ/mol
 
@@ -1132,12 +1082,10 @@ entry(
     label = "CF2_r1 + CH3Cl-3 <=> C2H3ClF2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.42311,'cm^3/(mol*s)'), n=3.42841, Ea=(214.884,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.17954, dn = +|- 0.0216936, dEa = +|- 0.118056 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: F[C]F + CCl <=> CC(F)(F)Cl
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 222.631 kJ/mol
 
@@ -1157,12 +1105,10 @@ entry(
     label = "CHF_r1 + C2H6 <=> C3H7F-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.7066,'cm^3/(mol*s)'), n=3.19155, Ea=(216.984,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08847, dn = +|- 0.0111371, dEa = +|- 0.0606078 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: [CH]F + CC <=> CC(F)C
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 228.586 kJ/mol
 
@@ -1185,12 +1131,10 @@ entry(
     label = "CF2_r1 + C2H6 <=> C3H6F2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.222791,'cm^3/(mol*s)'), n=3.59921, Ea=(320.496,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.26384, dn = +|- 0.0307635, dEa = +|- 0.167414 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: F[C]F + CC <=> CC(C)(F)F
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 332.008 kJ/mol
 
@@ -1213,12 +1157,10 @@ entry(
     label = "CHF_r1 + CH4O <=> C2H5FO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.212553,'cm^3/(mol*s)'), n=3.34134, Ea=(111.339,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.16803, dn = +|- 0.0204062, dEa = +|- 0.11105 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: [CH]F + CO <=> CC(O)F
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 125.610 kJ/mol
 
@@ -1239,12 +1181,10 @@ entry(
     label = "CF2_r1 + CH4O <=> C2H4F2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.140908,'cm^3/(mol*s)'), n=3.45227, Ea=(176.699,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12809, dn = +|- 0.0158346, dEa = +|- 0.0861712 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: F[C]F + CO <=> CC(O)(F)F
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 188.137 kJ/mol
 
@@ -1265,12 +1205,10 @@ entry(
     label = "CH2 + CH4O <=> C2H6O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(12.6474,'cm^3/(mol*s)'), n=2.95311, Ea=(59.8071,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06041, dn = +|- 0.00770604, dEa = +|- 0.041936 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: [CH2] + CO <=> CCO
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 74.961 kJ/mol
 
@@ -1291,12 +1229,10 @@ entry(
     label = "CH2 + C2H6 <=> C3H8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(166.864,'cm^3/(mol*s)'), n=2.82973, Ea=(154.574,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02266, dn = +|- 0.00294339, dEa = +|- 0.0160178 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: [CH2] + CC <=> CCC
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 166.986 kJ/mol
 
@@ -1319,12 +1255,10 @@ entry(
     label = "CBr2 + H2O <=> CH2Br2O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00335251,'cm^3/(mol*s)'), n=4.20006, Ea=(44.8276,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.81103, dn = +|- 0.078026, dEa = +|- 0.424615 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: Br[C]Br + O <=> OC(Br)Br
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 67.126 kJ/mol
 
@@ -1342,12 +1276,10 @@ entry(
     label = "CBr2 + CH4 <=> C2H4Br2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(2.19874,'cm^3/(mol*s)'), n=3.52855, Ea=(62.1777,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0862, dn = +|- 0.0108628, dEa = +|- 0.0591152 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: Br[C]Br + C <=> CC(Br)Br
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 74.539 kJ/mol
 
@@ -1367,12 +1299,10 @@ entry(
     label = "CCl2 + CH4 <=> C2H4Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1.33592,'cm^3/(mol*s)'), n=3.60759, Ea=(71.667,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14661, dn = +|- 0.0179743, dEa = +|- 0.0978154 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: Cl[C]Cl + C <=> CC(Cl)Cl
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 85.075 kJ/mol
 
@@ -1392,12 +1322,10 @@ entry(
     label = "CCl2 + H2O <=> CH2Cl2O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00446709,'cm^3/(mol*s)'), n=4.16722, Ea=(48.7822,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.78868, dn = +|- 0.0763947, dEa = +|- 0.415737 kJ/mol"""),
-    rank = 3,
+    rank = 7,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
-Training reaction from kinetics library: autotst/1,2_Insertion_carbene_3
-Original entry: Cl[C]Cl + O <=> OC(Cl)Cl
 Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
 barrier = 71.077 kJ/mol
 

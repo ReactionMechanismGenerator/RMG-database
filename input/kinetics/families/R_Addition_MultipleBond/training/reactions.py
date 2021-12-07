@@ -39982,7 +39982,7 @@ entry(
     label = "CH2ClO <=> CH2O + Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.53e+31,'s^-1'), n=-6.41, Ea=(22560,'cal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CH2CLO <=> CH2O + CL""",
     longDesc = 
 """
@@ -39999,7 +39999,7 @@ entry(
     label = "C2H3Cl2 <=> C2H3Cl + Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.5e+13,'s^-1'), n=0, Ea=(19800,'cal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CLCH2CHCL <=> C2H3CL + CL""",
     longDesc = 
 """
@@ -40014,7 +40014,7 @@ entry(
     label = "Cl + C2H4 <=> C2H4Cl-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.8e+10,'cm^3/(mol*s)'), n=1.31, Ea=(-1029,'cal/mol'), T0=(1,'K')),
-    rank = 3,
+    rank = 10,
     shortDesc = """The chemkin file reaction is C2H4 + CL <=> CH2CLCH2""",
     longDesc = 
 """
@@ -40029,7 +40029,7 @@ entry(
     label = "C2H3Cl2 <=> C2H3Cl + Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.72e+14,'s^-1'), n=0, Ea=(27300,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CH2CLCHCL <=> C2H3CL + CL""",
     longDesc = 
 """
@@ -40043,7 +40043,7 @@ entry(
     label = "C2H2Cl3 <=> C2H2Cl2 + Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.35e+14,'s^-1'), n=0, Ea=(19400,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CH2CCL3 <=> CH2CCL2 + CL""",
     longDesc = 
 """
@@ -40057,7 +40057,7 @@ entry(
     label = "C2HCl4-3 <=> C2HCl3 + Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.51e+13,'s^-1'), n=0, Ea=(15500,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CHCL2CCL2 <=> C2HCL3 + CL""",
     longDesc = 
 """
@@ -40071,7 +40071,7 @@ entry(
     label = "C2Cl5 <=> C2Cl4 + Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.51e+13,'s^-1'), n=0, Ea=(15500,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is C2CL5 <=> C2CL4 + CL""",
     longDesc = 
 """
@@ -40085,7 +40085,7 @@ entry(
     label = "C2HCl2 <=> C2HCl-2 + Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.72e+14,'s^-1'), n=0, Ea=(19600,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CHCCL2 <=> C2HCL + CL""",
     longDesc = 
 """
@@ -40099,7 +40099,7 @@ entry(
     label = "C2HCl2-2 <=> C2HCl + Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.35e+14,'s^-1'), n=0, Ea=(19200,'cal/mol'), T0=(1,'K')),
-    rank = 5,
+    rank = 10,
     shortDesc = """The chemkin file reaction is CHCLCCL <=> C2HCL + CL""",
     longDesc = 
 """
@@ -40113,8 +40113,8 @@ entry(
     label = "CF3 + C2H3F <=> C3H3F4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(28.0321,'cm^3/(mol*s)'), n=3.23913, Ea=(8.38262,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05657, dn = +|- 0.00722941, dEa = +|- 0.0393422 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40140,8 +40140,8 @@ entry(
     label = "C2HF4 + CH2O <=> C3H3F4O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(12.2525,'cm^3/(mol*s)'), n=2.9005, Ea=(21.5856,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06894, dn = +|- 0.00875918, dEa = +|- 0.0476671 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40169,8 +40169,8 @@ entry(
     label = "CH2 + C2F4O <=> C3H2F4O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(39.2683,'cm^3/(mol*s)'), n=3.02759, Ea=(13.4925,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02776, dn = +|- 0.00359797, dEa = +|- 0.01958 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40197,8 +40197,8 @@ entry(
     label = "H + C2Cl4 <=> C2HCl4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.41408e+08,'cm^3/(mol*s)'), n=1.71182, Ea=(5.63798,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0801, dn = +|- 0.010123, dEa = +|- 0.0550891 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40222,8 +40222,8 @@ entry(
     label = "CH3 + C2F4O <=> C3H3F4O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(120.113,'cm^3/(mol*s)'), n=2.79634, Ea=(10.1172,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11001, dn = +|- 0.013712, dEa = +|- 0.0746202 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40250,8 +40250,8 @@ entry(
     label = "H + C3H2BrF3 <=> C3H3BrF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5122e+07,'cm^3/(mol*s)'), n=1.804, Ea=(21.2699,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14025, dn = +|- 0.0172432, dEa = +|- 0.093837 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40277,8 +40277,8 @@ entry(
     label = "H + C3HF3 <=> C3H2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.97234e+09,'cm^3/(mol*s)'), n=1.64652, Ea=(8.61616,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05452, dn = +|- 0.00697497, dEa = +|- 0.0379575 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40303,8 +40303,8 @@ entry(
     label = "C3H2F4O-4 <=> C2H2FO + CF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.3142e+12,'s^-1'), n=0.146031, Ea=(29.6242,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08339, dn = +|- 0.0105223, dEa = +|- 0.0572621 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40331,8 +40331,8 @@ entry(
     label = "H + C2HCl3-2 <=> C2H2Cl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.52012e+07,'cm^3/(mol*s)'), n=1.82718, Ea=(11.5338,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.1471, dn = +|- 0.0180304, dEa = +|- 0.0981207 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40356,8 +40356,8 @@ entry(
     label = "H + C2H3Cl <=> C2H4Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.11097e+08,'cm^3/(mol*s)'), n=1.55956, Ea=(1.94861,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01559, dn = +|- 0.00203305, dEa = +|- 0.0110638 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40381,8 +40381,8 @@ entry(
     label = "H + C3H2F4 <=> C3H3F4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.64171e+08,'cm^3/(mol*s)'), n=1.61036, Ea=(10.6326,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0423, dn = +|- 0.00544253, dEa = +|- 0.029618 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40408,8 +40408,8 @@ entry(
     label = "H + C2HCl3 <=> C2H2Cl3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.60353e+08,'cm^3/(mol*s)'), n=1.57781, Ea=(1.02326,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0187, dn = +|- 0.00243446, dEa = +|- 0.0132482 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40433,8 +40433,8 @@ entry(
     label = "OH + C3H2F4 <=> C3H3F4O-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(106369,'cm^3/(mol*s)'), n=2.37611, Ea=(-3.28169,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05622, dn = +|- 0.00718555, dEa = +|- 0.0391035 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40461,8 +40461,8 @@ entry(
     label = "CF3 + C2HF <=> C3HF4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(20.2591,'cm^3/(mol*s)'), n=3.6068, Ea=(10.6776,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01551, dn = +|- 0.00202271, dEa = +|- 0.0110075 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40486,8 +40486,8 @@ entry(
     label = "O + C3H2F4 <=> C3H2F4O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.61464e+08,'cm^3/(mol*s)'), n=1.57399, Ea=(4.46091,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01481, dn = +|- 0.00193145, dEa = +|- 0.0105109 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40514,8 +40514,8 @@ entry(
     label = "H + C2H3Cl-2 <=> C2H4Cl-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.74364e+07,'cm^3/(mol*s)'), n=1.76515, Ea=(11.9318,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11306, dn = +|- 0.014073, dEa = +|- 0.0765846 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40539,8 +40539,8 @@ entry(
     label = "H + C2HCl <=> C2H2Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.25384e+08,'cm^3/(mol*s)'), n=2.03877, Ea=(8.60544,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01614, dn = +|- 0.00210321, dEa = +|- 0.0114456 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40562,8 +40562,8 @@ entry(
     label = "CF3 + C2HF-2 <=> C3HF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(105.193,'cm^3/(mol*s)'), n=3.55802, Ea=(13.3707,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.00525, dn = +|- 0.000687429, dEa = +|- 0.00374097 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40587,8 +40587,8 @@ entry(
     label = "H + C3H2F4-2 <=> C3H3F4-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.50881e+07,'cm^3/(mol*s)'), n=1.74121, Ea=(13.5074,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0977, dn = +|- 0.0122465, dEa = +|- 0.0666447 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40615,8 +40615,8 @@ entry(
     label = "O + C3H2F4-2 <=> C3H2F4O-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.12219e+07,'cm^3/(mol*s)'), n=1.70304, Ea=(9.38391,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05605, dn = +|- 0.00716468, dEa = +|- 0.0389899 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40643,8 +40643,8 @@ entry(
     label = "H + CHClO <=> CH2ClO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.51747e+07,'cm^3/(mol*s)'), n=1.78723, Ea=(21.8113,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13144, dn = +|- 0.016224, dEa = +|- 0.0882903 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40666,8 +40666,8 @@ entry(
     label = "CF3 + C2H3FO <=> C3H3F4O-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(68.8073,'cm^3/(mol*s)'), n=3.19085, Ea=(4.86744,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0433, dn = +|- 0.00556922, dEa = +|- 0.0303075 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40695,8 +40695,8 @@ entry(
     label = "OH + C3H2F4-2 <=> C3H3F4O-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(11616.7,'cm^3/(mol*s)'), n=2.45061, Ea=(-2.68149,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03301, dn = +|- 0.0042666, dEa = +|- 0.0232187 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40723,8 +40723,8 @@ entry(
     label = "CF3 + C2H3FO-2 <=> C3H3F4O-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.4291,'cm^3/(mol*s)'), n=3.20779, Ea=(32.5964,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03889, dn = +|- 0.00501223, dEa = +|- 0.0272763 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST m062x/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
@@ -40751,8 +40751,8 @@ entry(
     label = "H + C3HF4O <=> C3H2F4O-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.4545e+07,'cm^3/(mol*s)'), n=1.71558, Ea=(25.2757,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09795, dn = +|- 0.0122769, dEa = +|- 0.0668106 kJ/mol"""),
-    rank = 3,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
+    rank = 7,
+    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ RRHO""",
     longDesc = 
 """
 Training reaction from kinetics library: autotst/R_Addition_MultipleBond
