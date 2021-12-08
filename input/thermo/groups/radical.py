@@ -54702,6 +54702,28 @@ entry(
 """,
 )
 
+entry(
+    index = 1999,
+    label = "CsOOOring",
+    group =
+"""
+1 * C u1 p0 c0 r1 {2,S} {3,S} {4,S}
+2 O u0 p2 c0 {1,S}
+3 O u0 p2 c0 {1,S}
+4 O u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(Tdata=([300,400,500,600,800,1000,1500],'K'),
+                        Cpdata=([6.26292,6.76781,9.69622,10.7399,13.0866,16.6815,21.0262],'J/(mol*K)'),
+                        H298=(-38534.5,'J/mol'), S298=(16.6252,'J/(mol*K)'),
+                        Tmin=(10,'K'), Tmax=(3000,'K')),
+    shortDesc = """Derived from LithiumPrimaryThermo""",
+    longDesc =
+"""
+Fitted to species deltas with group additivity from LithiumPrimaryThermo:
+['[Li]O[C]1OCCO1', '[Li]O[C]1OC(F)C(F)O1', '[Li]O[C]1OC=CO1', '[Li]O[C]1OCC(C)O1', '[Li]O[C]1OCC(F)O1']
+""",
+)
+
 tree(
 """
 L1: Radical
@@ -56069,6 +56091,7 @@ L1: Radical
                 L5: CCsJN
                     L6: CdCsJN
                 L5: C2CsJN
+                L5: CsOOOring
             L4: CdsJ
                 L5: CdBr1sCdd
                     L6: Cdj(Cdd-Cd)(Br1s)
