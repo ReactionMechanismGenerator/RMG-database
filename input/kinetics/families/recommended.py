@@ -133,7 +133,6 @@ halogens = {
     'Cl_Abstraction',
     'F_Abstraction',
     'Br_Abstraction',
-    'Disproportionation-Y',
     'XY_Addition_MultipleBond',
     '1,2_XY_interchange',
     'halocarbene_recombination',
