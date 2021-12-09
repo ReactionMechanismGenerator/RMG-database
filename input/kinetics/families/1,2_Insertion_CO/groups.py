@@ -72,7 +72,7 @@ entry(
     group = 
 """
 1 *2 Cs                u0 {2,S}
-2 *3 [Cl1s,F1s,H,Br1s] u0 {1,S}
+2 *3 [F1s,H,Cl1s,Br1s] u0 {1,S}
 3 *1 C                 u0 p1 c-1 {4,T}
 4 *4 O                 u0 p1 c+1 {3,T}
 """,
@@ -85,7 +85,7 @@ entry(
     group = 
 """
 1 *2 Cs                u0 {2,S} {5,[S,D,T,B,Q]}
-2 *3 [Cl1s,F1s,H,Br1s] u0 {1,S}
+2 *3 [F1s,H,Cl1s,Br1s] u0 {1,S}
 3 *1 C                 u0 p1 c-1 {4,T}
 4 *4 O                 u0 p1 c+1 {3,T}
 5    R!H               ux {1,[S,D,T,B,Q]}
@@ -95,7 +95,21 @@ entry(
 
 entry(
     index = 5,
-    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H",
+    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->F1s",
+    group = 
+"""
+1 *2 Cs  u0 {2,S} {5,S}
+2 *3 F1s u0 {1,S}
+3 *1 C   u0 p1 c-1 {4,T}
+4 *4 O   u0 p1 c+1 {3,T}
+5    R!H u0 r0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s",
     group = 
 """
 1 *2 Cs  u0 {2,S} {5,[S,D,T,B,Q]}
@@ -108,8 +122,8 @@ entry(
 )
 
 entry(
-    index = 6,
-    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H_5R!H->C",
+    index = 7,
+    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s_5R!H->C",
     group = 
 """
 1 *2 Cs u0 {2,S} {5,[S,D,T,B,Q]}
@@ -122,8 +136,8 @@ entry(
 )
 
 entry(
-    index = 7,
-    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H_5R!H->C_Ext-1Cs-R",
+    index = 8,
+    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s_5R!H->C_Ext-1Cs-R",
     group = 
 """
 1 *2 Cs  u0 {2,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
@@ -137,8 +151,8 @@ entry(
 )
 
 entry(
-    index = 8,
-    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H_5R!H->C_Ext-1Cs-R_Ext-1Cs-R",
+    index = 9,
+    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s_5R!H->C_Ext-1Cs-R_Ext-1Cs-R",
     group = 
 """
 1 *2 Cs  u0 r0 {2,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
@@ -153,8 +167,8 @@ entry(
 )
 
 entry(
-    index = 9,
-    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H_N-5R!H->C",
+    index = 10,
+    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s_N-5R!H->C",
     group = 
 """
 1 *2 Cs u0 r0 {2,S} {5,[S,D,T,B,Q]}
@@ -162,20 +176,6 @@ entry(
 3 *1 C  u0 p1 c-1 r0 {4,T}
 4 *4 O  u0 p1 c+1 r0 {3,T}
 5    F  ux {1,[S,D,T,B,Q]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10,
-    label = "Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->H",
-    group = 
-"""
-1 *2 Cs              u0 {2,S} {5,S}
-2 *3 [Cl1s,Br1s,F1s] u0 {1,S}
-3 *1 C               u0 p1 c-1 {4,T}
-4 *4 O               u0 p1 c+1 {3,T}
-5    R!H             u0 r0 {1,S}
 """,
     kinetics = None,
 )
@@ -199,7 +199,7 @@ entry(
     group = 
 """
 1 *2 Cs              u0 {2,S}
-2 *3 [Cl1s,Br1s,F1s] u0 {1,S}
+2 *3 [F1s,Cl1s,Br1s] u0 {1,S}
 3 *1 C               u0 p1 c-1 {4,T}
 4 *4 O               u0 p1 c+1 {3,T}
 """,
@@ -263,7 +263,7 @@ entry(
     label = "Root_N-1COCbCdCsCtHNOSSidSis->Cs",
     group = 
 """
-1 *2 [O,H,S,N,CO,Sid,Cd,Cb,Sis,Ct]                 u0 {2,S}
+1 *2 [O,H,S,N,CO,Sis,Sid,Cd,Cb,Ct]                 u0 {2,S}
 2 *3 [H,F1s,Cl1s,Br1s,I1s,Cs,Cd,Cb,Ct,Sis,Sid,N,S] u0 {1,S}
 3 *1 C                                             u0 p1 c-1 {4,T}
 4 *4 O                                             u0 p1 c+1 {3,T}
@@ -276,7 +276,7 @@ entry(
     label = "Root_N-1COCbCdCsCtHNOSSidSis->Cs_2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H",
     group = 
 """
-1 *2 [O,H,S,N,CO,Sid,Cd,Cb,Sis,Ct] u0 {2,S}
+1 *2 [O,H,S,N,CO,Sis,Sid,Cd,Cb,Ct] u0 {2,S}
 2 *3 H                             u0 {1,S}
 3 *1 C                             u0 p1 c-1 {4,T}
 4 *4 O                             u0 p1 c+1 {3,T}
@@ -382,12 +382,12 @@ L1: Root
         L3: Root_1COCbCdCsCtHNOSSidSis->Cs_2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs
         L3: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs
             L4: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R
-                L5: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H
-                    L6: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H_5R!H->C
-                        L7: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H_5R!H->C_Ext-1Cs-R
-                            L8: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H_5R!H->C_Ext-1Cs-R_Ext-1Cs-R
-                    L6: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->H_N-5R!H->C
-                L5: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->H
+                L5: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_2Br1sCl1sF1sH->F1s
+                L5: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s
+                    L6: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s_5R!H->C
+                        L7: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s_5R!H->C_Ext-1Cs-R
+                            L8: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s_5R!H->C_Ext-1Cs-R_Ext-1Cs-R
+                    L6: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_Ext-1Cs-R_N-2Br1sCl1sF1sH->F1s_N-5R!H->C
             L4: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_2Br1sCl1sF1sH->H
             L4: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_N-2Br1sCl1sF1sH->H
                 L5: Root_1COCbCdCsCtHNOSSidSis->Cs_N-2Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->Cs_N-2Br1sCl1sF1sH->H_2Br1sCl1sF1s->F1s
