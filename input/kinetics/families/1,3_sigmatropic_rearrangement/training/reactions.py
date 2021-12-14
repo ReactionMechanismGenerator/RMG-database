@@ -209,3 +209,75 @@ Systematic conformer search was done with ACS
 """,
 )
 
+entry(
+    index = 12,
+    label = "C3H2BrF3 <=> C3H2BrF3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.5058e+11,'s^-1'), n=0.533491, Ea=(191.066,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.20251, dn = +|- 0.0242278, dEa = +|- 0.131847 kJ/mol"""),
+    rank = 7,
+    shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
+    longDesc = 
+"""
+Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
+barrier = 190.947 kJ/mol
+
+F    1.142374    1.421228    0.222554
+Br    0.2998    -1.605588    1.808404
+F    1.456428    -0.394382    -0.864311
+F    -1.495381    1.139496    0.19698
+C    0.623179    0.355554    -0.24947
+C    -0.75609    0.170015    -0.333055
+C    -1.230603    -1.082411    -0.525959
+H    -0.591708    -1.846995    -0.93513
+H    -2.272469    -1.300136    -0.341214
+""",
+)
+
+entry(
+    index = 13,
+    label = "C3H2F4 <=> C3H2F4-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.11883e+10,'s^-1'), n=0.811585, Ea=(262.426,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.30388, dn = +|- 0.0348607, dEa = +|- 0.18971 kJ/mol"""),
+    rank = 7,
+    shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
+    longDesc = 
+"""
+Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
+barrier = 264.035 kJ/mol
+
+F    -1.409595    -0.339058    0.651867
+F    0.031141    1.950039    0.295275
+F    -0.713349    0.215038    -1.287548
+F    1.050515    -0.733828    1.595137
+C    -0.402184    -0.015656    -0.064327
+C    0.910623    -0.232565    0.357283
+C    1.654059    0.843553    -0.050262
+H    1.589195    1.206386    -1.0617
+H    2.466716    1.19485    0.571355
+""",
+)
+
+entry(
+    index = 14,
+    label = "C3H2ClF3 <=> C3H2ClF3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.69656e+11,'s^-1'), n=0.593389, Ea=(209.675,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.22321, dn = +|- 0.0264708, dEa = +|- 0.144053 kJ/mol"""),
+    rank = 7,
+    shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
+    longDesc = 
+"""
+Calculated with Gaussian 16 using M062X with D3 dispersion and jun-cc-pVTZ basis set
+barrier = 209.649 kJ/mol
+
+F    1.142199    1.390146    0.27194
+Cl    0.26597    -1.535971    1.658129
+F    1.459617    -0.40383    -0.845094
+F    -1.499556    1.14815    0.173539
+C    0.621457    0.342527    -0.234896
+C    -0.757234    0.174741    -0.348122
+C    -1.218927    -1.089509    -0.498158
+H    -0.582957    -1.855179    -0.908855
+H    -2.255039    -1.314295    -0.289684
+""",
+)
+

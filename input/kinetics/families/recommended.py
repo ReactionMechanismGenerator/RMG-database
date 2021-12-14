@@ -133,13 +133,13 @@ halogens = {
     'Cl_Abstraction',
     'F_Abstraction',
     'Br_Abstraction',
-    'Disproportionation-Y',
     'XY_Addition_MultipleBond',
     '1,2_XY_interchange',
     'halocarbene_recombination',
     'halocarbene_recombination_double',
+    'halocarbene_CO_dimerization'
     'XY_elimination_hydroxyl',
-    'intra_halogen_migration'
+    'intra_halogen_migration',
 }
 
 # Surface chemistry families that are under development and not yet working well.
