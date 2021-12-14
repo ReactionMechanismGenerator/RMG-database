@@ -53,19 +53,6 @@ entry(
 
 entry(
     index = 2,
-    label = "CCHY",
-    group = 
-"""
-1 *2 C               u0 {2,S} {3,[S,D]} {4,S}
-2 *3 H               u0 {1,S}
-3 *1 C               u0 p1 c0 {1,[S,D]}
-4    [F1s,Cl1s,Br1s] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 3,
     label = "CCH_Ext-3C-R_4R!H->Br",
     group = 
 """
@@ -78,7 +65,7 @@ entry(
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "CCH_Ext-3C-R_N-4R!H->Br",
     group = 
 """
@@ -91,7 +78,7 @@ entry(
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CCH_Ext-3C-R_N-4R!H->Br_4CClFINOPSSi->F",
     group = 
 """
@@ -104,7 +91,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "CCH_Ext-3C-R_N-4R!H->Br_N-4CClFINOPSSi->F",
     group = 
 """
@@ -117,7 +104,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "CCH_Ext-3C-R_N-4R!H->Br_N-4CClFINOPSSi->F_1C-inRing",
     group = 
 """
@@ -130,7 +117,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "CCH_Ext-3C-R_N-4R!H->Br_N-4CClFINOPSSi->F_1C-inRing_Ext-4CCl-R_Ext-5R!H-R_Sp-5R!H-1C",
     group = 
 """
@@ -144,7 +131,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CCH_Ext-3C-R_N-4R!H->Br_N-4CClFINOPSSi->F_1C-inRing_Ext-4CCl-R_Ext-5R!H-R_Sp-5R!H-1C_Ext-5R!H-R_Ext-5R!H-R",
     group = 
 """
@@ -160,7 +147,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "CCH_Ext-3C-R_N-4R!H->Br_N-4CClFINOPSSi->F_1C-inRing_Ext-4CCl-R_Ext-5R!H-R_N-Sp-5R!H-1C",
     group = 
 """
@@ -174,7 +161,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 10,
     label = "CCH_Ext-3C-R_N-4R!H->Br_N-4CClFINOPSSi->F_1C-inRing_Ext-4CCl-R_Ext-5R!H-R_N-Sp-5R!H-1C_Ext-5R!H-R_Ext-6R!H-R_Sp-6R!H-4CCl",
     group = 
 """
@@ -189,7 +176,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 11,
     label = "CCH_Ext-3C-R_N-4R!H->Br_N-4CClFINOPSSi->F_1C-inRing_Ext-4CCl-R_Ext-5R!H-R_N-Sp-5R!H-1C_Ext-5R!H-R_Ext-6R!H-R_N-Sp-6R!H-4CCl",
     group = 
 """
@@ -204,7 +191,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 12,
     label = "CCH_Ext-3C-R_N-4R!H->Br_N-4CClFINOPSSi->F_N-1C-inRing",
     group = 
 """
@@ -217,7 +204,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 13,
     label = "CCY",
     group = 
 """
@@ -232,7 +219,6 @@ tree(
 """
 L1: Root
     L2: CCH
-        L3: CCHY
         L3: CCH_Ext-3C-R_4R!H->Br
         L3: CCH_Ext-3C-R_N-4R!H->Br
             L4: CCH_Ext-3C-R_N-4R!H->Br_4CClFINOPSSi->F
