@@ -1204,8 +1204,8 @@ entry(
     group = 
 """
 1 *4 O2s                 u0 {2,S} {3,S}
-2 *3 H                   u0 {1,S}
-3    [H,Cs,Cd,Sis,Sid,N] u0 {1,S}
+2 *3 [H,Val7]           u0 {1,S}
+3    [H,Val7,Cs,Cd,Sis,Sid,N] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1216,8 +1216,8 @@ entry(
     group = 
 """
 1 *4 O2s u0 {2,S} {3,S}
-2 *3 H   u0 {1,S}
-3    H   u0 {1,S}
+2 *3 [H,Val7]   u0 {1,S}
+3    [H,Val7]   u0 {1,S}
 """,
     kinetics = None,
 )

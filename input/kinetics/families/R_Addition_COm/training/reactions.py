@@ -531,3 +531,45 @@ where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
+entry(
+    index = 15,
+    label = "CO + Cl <=> CClO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0,'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (2500, 'K'),
+        ),
+    rank = 10,
+    shortDesc = """""",
+    longDesc = 
+"""
+Barrier is submerged with M062X/JUN-CC-PVTZ
+Assuming the reaction is barrierless
+""",
+)
+
+entry(
+    index = 16,
+    label = "CO + Br <=> CBrO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1e13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0,'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (298, 'K'),
+        Tmax = (2500, 'K'),
+        ),
+    rank = 10,
+    shortDesc = """""",
+    longDesc = 
+"""
+Could not locate TS with M062X/JUN-CC-PVTZ
+Assuming the reaction is barrierless
+""",
+)
+
