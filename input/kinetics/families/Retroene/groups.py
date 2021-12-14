@@ -37,7 +37,7 @@ entry(
 3 *2 R!H u0 {1,[S,D]} {5,[D,T,B]}
 4 *5 R!H u0 {2,[S,D]} {6,S}
 5 *1 R!H u0 {3,[D,T,B]}
-6 *6 H   u0 {4,S}
+6 *6 [H,Li] u0 {4,S}
 """,
     kinetics = None,
 )
