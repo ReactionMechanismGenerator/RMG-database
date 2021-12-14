@@ -5531,7 +5531,6 @@ multiplicity 2
 15    H u0 p0 c0 {4,S}
 16    H u0 p0 c0 {5,S}
 
-
 C6H5-3
 multiplicity 2
 1     C u0 p0 c0 {2,B} {3,B} {8,S}
@@ -5907,3 +5906,11 @@ multiplicity 2
 33    H u0 p0 c0 {13,S}
 34    H u0 p0 c0 {14,S}
 35    H u0 p0 c0 {18,S}
+
+HLi
+1 *1 Li u0 p0 c0 {2,S}
+2 *2 H  u0 p0 c0 {1,S}
+
+Li
+multiplicity 2
+1 *3 Li u1 p0 c0
