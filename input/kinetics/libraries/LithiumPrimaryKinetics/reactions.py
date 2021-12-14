@@ -11,8 +11,8 @@ entry(
     index = 0,
     label = "[Li]O[C]1OCCO1 <=> [Li]OC[=O]OC[CH2]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.99833e+12,'s^-1'), n=0.39066, Ea=(59.4863,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(4.99833e+12,'s^-1'), n=0.39066, Ea=(59.4863,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.140536907525525,B=1.0466026029403899,E=-0.4141994326786929,L=4.770587031445122,A=0.9093778018261982,comment='')),
+    longDesc =
 """
 TS method summary for TS1 in [Li]O[C]1OCCO1 <=> [Li]OC(=O)C[CH2]:
 
@@ -36,7 +36,14 @@ H      -2.08512500    0.87165400    1.03518700
 
 1D rotors:
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1477.9928602794778 J/mol
 """,
 )
 
@@ -44,8 +51,8 @@ entry(
     index = 1,
     label = "[Li]O[C]1OCCO1 <=> [Li]OCCO[C]=O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.57285e+17,'s^-1'), n=-0.785762, Ea=(69.0722,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(4.57285e+17,'s^-1'), n=-0.785762, Ea=(69.0722,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=3.0810004035910854,B=2.1395342731524263,E=1.574243739442836,L=12.72791320115644,A=0.4805246849919219,comment='')),
+    longDesc =
 """
 TS method summary for TS2 in [Li]O[C]1OCCO1 <=> [Li]OCCO[C]=O:
 
@@ -72,7 +79,14 @@ pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 38.3
 pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 11.02 kJ/mol
 * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: Could not read energies
 pivots: [5, 6], dihedral: [4, 5, 6, 7], rotor symmetry: 1, max scan energy: 0.22 kJ/mol (set as a FreeRotor)
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1716.0525411150861 J/mol
 """,
 )
 
@@ -80,8 +94,8 @@ entry(
     index = 2,
     label = "[Li]O[C](OC)OC <=> [Li]OC(=O)OC + [CH3]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.52475e+12,'s^-1'), n=0.485524, Ea=(74.6365,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(7.52475e+12,'s^-1'), n=0.485524, Ea=(74.6365,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.3491379528127108,B=1.0160698056746285,E=0.42818292849726036,L=5.830949166037544,A=0.6662179817376498,comment='')),
+    longDesc =
 """
 TS method summary for TS4 in [Li]O[C](OC)OC <=> [Li]OC(=O)OC + [CH3]:
 
@@ -116,7 +130,14 @@ D 1 2 3 4 F
 D 2 3 4 5 F
 D 2 3 6 7 F
 D 3 4 5 8 F
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1650.2595639812773 J/mol
 """,
 )
 
@@ -124,8 +145,8 @@ entry(
     index = 3,
     label = "[Li]OC1OCC1 <=> O=CCCO[Li]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.22949e+12,'s^-1'), n=0.0425752, Ea=(-0.0643594,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(6.22949e+12,'s^-1'), n=0.0425752, Ea=(-0.0643594,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.6463081864477556,B=1.3642592064572354,E=2.83101426768693,L=6.499926586799369,A=1.3639449338060428,comment='')),
+    longDesc =
 """
 TS method summary for TS7 in [Li]OC1OCC1 <=> O=CCCO[Li]:
 
@@ -151,7 +172,14 @@ H       0.90847788    2.01537435    0.18857794
 * Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points are inconsistent by more than 0.39 kJ/mol
 * Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 3], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 383.9871972817142 J/mol
 """,
 )
 
@@ -159,8 +187,8 @@ entry(
     index = 4,
     label = "O=CCCO[Li] <=> [Li]OC=C + C=O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.46545e+14,'s^-1'), n=0.20628, Ea=(62.2385,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(2.46545e+14,'s^-1'), n=0.20628, Ea=(62.2385,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.7509029646949823,B=2.006218503247397,E=1.143393868363932,L=8.571412669855551,A=0.5404851704510933,comment='')),
+    longDesc =
 """
 TS method summary for TS10 in O=CCCO[Li] <=> [Li]OC=C + C=O:
 
@@ -185,7 +213,14 @@ H      -2.27676986    1.89077262    0.11390132
 1D rotors:
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points are inconsistent by more than 6.68 kJ/mol
 * Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 10], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1179.836010787957 J/mol
 """,
 )
 
@@ -193,8 +228,8 @@ entry(
     index = 5,
     label = "[Li]N[CH2] <=> [Li] + N=C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.3493e+15,'s^-1'), n=-0.259789, Ea=(57.8699,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(5.3493e+15,'s^-1'), n=-0.259789, Ea=(57.8699,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-2.65419313965326,B=1.2542197583042969,E=-0.21990942778263972,L=-9.14111680402368,A=3.645314481406821,comment='')),
+    longDesc =
 """
 TS method summary for TS5 in [Li]N[CH2] <=> [Li] + N=C:
 
@@ -213,7 +248,14 @@ H      -1.36253440   -1.42264825   -0.30947313
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 9225.750515830967 J/mol
 """,
 )
 
@@ -221,8 +263,8 @@ entry(
     index = 6,
     label = "[Li]O[CH]O <=> O=[CH] + [Li]O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.59528e+12,'s^-1'), n=0.518458, Ea=(46.6821,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(8.59528e+12,'s^-1'), n=0.518458, Ea=(46.6821,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.7137053723954238,B=2.3116450623393274,E=-0.028001584137479975,L=6.399784910596449,A=1.0368467911904864,comment='')),
+    longDesc =
 """
 TS method summary for TS3 in [Li]O[CH]O <=> O=[CH] + [Li]O:
 
@@ -241,7 +283,14 @@ H       5.29067900    0.34100400    0.85554700
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1999.2439277651972 J/mol
 """,
 )
 
@@ -249,8 +298,8 @@ entry(
     index = 7,
     label = "[Li]OC1OCCC1 <=> O=CCCCO[Li]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.92231e+16,'s^-1'), n=-0.357468, Ea=(90.256,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(3.92231e+16,'s^-1'), n=-0.357468, Ea=(90.256,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.8258378208381454,B=2.5221250810295626,E=1.614714374506913,L=12.761980701907916,A=0.608203513102231,comment='')),
+    longDesc =
 """
 TS method summary for TS5 in [Li]OC1OCCC1 <=> O=CCCCO[Li]:
 
@@ -280,7 +329,14 @@ pivots: [3, 7], dihedral: [2, 3, 7, 6], rotor symmetry: 1, max scan energy: 7.20
 * Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 6], invalidation reason: Could not read energies
 * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 pivots: [6, 7], dihedral: [5, 6, 7, 3], rotor symmetry: 1, max scan energy: 25.95 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1791.841785505636 J/mol
 """,
 )
 
@@ -288,8 +344,8 @@ entry(
     index = 8,
     label = "[Li]OC(=O)OC[CH2] + [Li] <=> C=C + [Li]OC(=O)O[Li]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.23949e+06,'cm^3/(mol*s)'), n=2.34337, Ea=(16.2698,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(2.23949e+06,'cm^3/(mol*s)'), n=2.34337, Ea=(16.2698,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-1.3791416734787092,B=0.9825775784337702,E=1.344561385839825,L=1.6867692078977448,A=2.9918711355986547,comment='')),
+    longDesc =
 """
 TS method summary for TS1 in [Li]OC(=O)OC[CH2] + [Li] <=> C=C + [Li]OC(=O)O[Li]:
 
@@ -316,7 +372,14 @@ H       5.29429900   -2.51368000   -1.84205000
 * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 1], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points are inconsistent by more than 1.98 kJ/mol
 * Invalidated! pivots: [7, 8], dihedral: [11, 7, 8, 9], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 8067.650715137258 J/mol
 """,
 )
 
@@ -325,7 +388,7 @@ entry(
     label = "N#CCC[CH2] + [Li] <=> C=C + [Li]N=C=C",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(162517,'cm^3/(mol*s)'), n=2.55635, Ea=(59.4607,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS4 in N#CCC[CH2] + [Li] <=> C=C + [Li]N=C=C:
 
@@ -358,8 +421,8 @@ entry(
     index = 10,
     label = "O=COC[CH2] + [Li] <=> C=C + [Li]OC=O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(419384,'cm^3/(mol*s)'), n=2.21898, Ea=(48.2832,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(419384,'cm^3/(mol*s)'), n=2.21898, Ea=(48.2832,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.0247091484586592,B=2.5777645372278832,E=0.3431344611927818,L=9.346538089381045,A=0.8860009592023523,comment='')),
+    longDesc =
 """
 TS method summary for TS5 in O=COC[CH2] + [Li] <=> C=C + [Li]OC=O:
 
@@ -384,7 +447,14 @@ H       4.67644000    1.88053200    1.42227500
 1D rotors:
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [5, 6], dihedral: [10, 5, 6, 7], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2119.3556871894884 J/mol
 """,
 )
 
@@ -392,8 +462,8 @@ entry(
     index = 11,
     label = "O=CCC[O] + [Li] <=> O=C + [Li]OC=C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.74272e+07,'cm^3/(mol*s)'), n=2.05933, Ea=(-27.3358,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.74272e+07,'cm^3/(mol*s)'), n=2.05933, Ea=(-27.3358,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=3.2490249849978214,B=2.6960753668589854,E=2.1706425235190108,L=14.985510873166351,A=0.7334126588566799,comment='')),
+    longDesc =
 """
 TS method summary for TS6 in O=CCC[O] + [Li] <=> O=C + [Li]OC=C:
 
@@ -418,7 +488,14 @@ H       4.98321600   -1.36209900   -1.63871500
 1D rotors:
 pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 0.15 kJ/mol (set as a FreeRotor)
 * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 8], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1868.0308622468697 J/mol
 """,
 )
 
@@ -427,7 +504,7 @@ entry(
     label = "N=CCN[CH2] + [Li] <=> N=C + [Li]NC=C",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.45437e+09,'cm^3/(mol*s)'), n=0.869935, Ea=(-36.817,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS9 in N=CCN[CH2] + [Li] <=> N=C + [Li]NC=C:
 
@@ -464,8 +541,8 @@ entry(
     index = 13,
     label = "[Li]O[CH2] <=> [Li] + C=O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.12946e+16,'s^-1'), n=-0.125312, Ea=(91.4067,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(5.12946e+16,'s^-1'), n=-0.125312, Ea=(91.4067,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-0.4735938637413528,B=2.67486764340657,E=-5.09678040094995,L=-4.876934525239067,A=3.9944267641274602,comment='')),
+    longDesc =
 """
 TS method summary for TS2 in [Li]O[CH2] <=> [Li] + C=O:
 
@@ -483,7 +560,14 @@ H       0.21655881   -0.80519630    0.51008017
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 9134.820807836515 J/mol
 """,
 )
 
@@ -492,7 +576,7 @@ entry(
     label = "[Li]OC + C[CH2] <=> [Li] + COCC",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00266112,'cm^3/(mol*s)'), n=4.54216, Ea=(65.2952,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS2 in [Li]OC + C[CH2] <=> [Li] + COCC:
 
@@ -527,8 +611,8 @@ entry(
     index = 15,
     label = "[Li]NC + [CH3] <=> [Li] + CNC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(514.959,'cm^3/(mol*s)'), n=2.75171, Ea=(19.1236,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(514.959,'cm^3/(mol*s)'), n=2.75171, Ea=(19.1236,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=5.9720845035693655,B=-11.11835148496454,E=1.2672065293713617,L=34.51723438776737,A=-10.461680798130194,comment='')),
+    longDesc =
 """
 TS method summary for TS4 in [Li]NC + [CH3] <=> [Li] + CNC:
 
@@ -552,7 +636,14 @@ H       3.12222700   -0.17403500   -0.20975200
 
 1D rotors:
 pivots: [3, 4], dihedral: [1, 3, 4, 9], rotor symmetry: 3, max scan energy: 8.43 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 8.029132914089132e-10 J/mol
 """,
 )
 
@@ -560,8 +651,8 @@ entry(
     index = 16,
     label = "[Li]N(C)C + [H] <=> [Li] + CNC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.98085e+08,'cm^3/(mol*s)'), n=1.22191, Ea=(-78.8037,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(8.98085e+08,'cm^3/(mol*s)'), n=1.22191, Ea=(-78.8037,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.996332219215656,B=1.029302623121347,E=1.007550487792502,L=7.3685642232941575,A=0.4814345945968402,comment='')),
+    longDesc =
 """
 TS method summary for TS5 in [Li]N(C)C + [H] <=> [Li] + CNC:
 
@@ -586,7 +677,14 @@ H       1.19338693    1.08020408   -0.92156070
 1D rotors:
 * Invalidated! pivots: [1, 3], dihedral: [6, 1, 3, 2], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [2, 3], dihedral: [9, 2, 3, 1], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1057.5062115419946 J/mol
 """,
 )
 
@@ -594,8 +692,8 @@ entry(
     index = 17,
     label = "[Li]NC + C[CH2] <=> [Li] + CNCC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(57.4636,'cm^3/(mol*s)'), n=2.93295, Ea=(29.2672,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(57.4636,'cm^3/(mol*s)'), n=2.93295, Ea=(29.2672,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.9175438008860265,B=1.1395826064596657,E=0.4944811262263229,L=5.415263196320309,A=0.6943364764189893,comment='')),
+    longDesc =
 """
 TS method summary for TS6 in [Li]NC + C[CH2] <=> [Li] + CNCC:
 
@@ -623,7 +721,14 @@ H       3.48948500   -6.25526200    0.40261200
 1D rotors:
 pivots: [2, 3], dihedral: [6, 2, 3, 1], rotor symmetry: 3, max scan energy: 7.27 kJ/mol
 pivots: [4, 5], dihedral: [10, 4, 5, 12], rotor symmetry: 1, max scan energy: 4.84 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1827.7398650288437 J/mol
 """,
 )
 
@@ -631,8 +736,8 @@ entry(
     index = 18,
     label = "[Li]NCC + [CH3] <=> [Li] + CNCC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(563.399,'cm^3/(mol*s)'), n=2.71918, Ea=(25.4344,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(563.399,'cm^3/(mol*s)'), n=2.71918, Ea=(25.4344,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.877486735996646,B=0.6916407047808263,E=0.748415650862252,L=5.385263016210897,A=0.5210754074032086,comment='')),
+    longDesc =
 """
 TS method summary for TS7 in [Li]NCC + [CH3] <=> [Li] + CNCC:
 
@@ -660,7 +765,14 @@ H       3.65797100   -6.35433100    0.83047600
 1D rotors:
 pivots: [3, 4], dihedral: [1, 3, 4, 5], rotor symmetry: 1, max scan energy: 23.37 kJ/mol
 pivots: [4, 5], dihedral: [3, 4, 5, 12], rotor symmetry: 3, max scan energy: 13.57 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1425.8896370647562 J/mol
 """,
 )
 
@@ -668,8 +780,8 @@ entry(
     index = 19,
     label = "[Li]N(C)CC + [H] <=> [Li] + CNCC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.33693e+09,'cm^3/(mol*s)'), n=1.12822, Ea=(-71.4349,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(2.33693e+09,'cm^3/(mol*s)'), n=1.12822, Ea=(-71.4349,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.1131935806214712,B=1.1556454917670655,E=1.2169728270193971,L=7.839572648134702,A=0.31656236651087616,comment='')),
+    longDesc =
 """
 TS method summary for TS8 in [Li]N(C)CC + [H] <=> [Li] + CNCC:
 
@@ -698,7 +810,14 @@ H       3.45557400   -6.33643600    0.85626200
 * Invalidated! pivots: [1, 3], dihedral: [7, 1, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molCould not read energies
 pivots: [2, 4], dihedral: [10, 2, 4, 3], rotor symmetry: 1, max scan energy: 26.26 kJ/mol
 * Invalidated! pivots: [3, 4], dihedral: [1, 3, 4, 2], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molCould not read energies
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1071.2824706634553 J/mol
 """,
 )
 
@@ -706,8 +825,8 @@ entry(
     index = 20,
     label = "[Li]O + [H] <=> [Li] + O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.03649e+11,'cm^3/(mol*s)'), n=0.812216, Ea=(-21.6525,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(2.03649e+11,'cm^3/(mol*s)'), n=0.812216, Ea=(-21.6525,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.6576610150461983,B=2.4435784684265482,E=0.404796645816695,L=7.698368077501874,A=0.9750486732350473,comment='')),
+    longDesc =
 """
 TS method summary for TS9 in [Li]O + [H] <=> [Li] + O:
 
@@ -724,7 +843,14 @@ H      -1.27901258   -0.17912694    0.00905353
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2114.547977695349 J/mol
 """,
 )
 
@@ -732,8 +858,8 @@ entry(
     index = 21,
     label = "[Li]N + [H] <=> [Li] + N",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.12322e+09,'cm^3/(mol*s)'), n=1.12657, Ea=(-57.4909,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(4.12322e+09,'cm^3/(mol*s)'), n=1.12657, Ea=(-57.4909,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.9471505265788214,B=1.7274624400621788,E=0.6115119617819315,L=6.871072605917964,A=0.6704069036466952,comment='')),
+    longDesc =
 """
 TS method summary for TS10 in [Li]N + [H] <=> [Li] + N:
 
@@ -751,7 +877,14 @@ H       1.91839100   -0.20073000    0.19609500
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1435.1628987975923 J/mol
 """,
 )
 
@@ -759,8 +892,8 @@ entry(
     index = 22,
     label = "[Li]OC + [H] <=> [Li] + CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.47113e+11,'cm^3/(mol*s)'), n=0.774968, Ea=(-24.6724,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(2.47113e+11,'cm^3/(mol*s)'), n=0.774968, Ea=(-24.6724,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.4067121409688057,B=1.4628968939845368,E=0.9656443938025181,L=7.661570379273675,A=0.443175955652443,comment='')),
+    longDesc =
 """
 TS method summary for TS11 in [Li]OC + [H] <=> [Li] + CO:
 Methods that successfully generated a TS guess:
@@ -781,7 +914,14 @@ H      -1.35623697   -0.54719021   -0.89107706
 
 1D rotors:
 pivots: [2, 3], dihedral: [1, 2, 3, 5], rotor symmetry: 1, max scan energy: 0.65 kJ/mol (set as a FreeRotor)
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1321.823066484516 J/mol
 """,
 )
 
@@ -789,8 +929,8 @@ entry(
     index = 23,
     label = "[Li]O + [CH3] <=> [Li] + CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.07712e+06,'cm^3/(mol*s)'), n=2.28023, Ea=(85.5904,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.07712e+06,'cm^3/(mol*s)'), n=2.28023, Ea=(85.5904,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.4173362998736376,B=2.357499252462657,E=0.5167298959343533,L=7.9017680525604375,A=1.0064038665607862,comment='')),
+    longDesc =
 """
 TS method summary for TS12 in [Li]O + [CH3] <=> [Li] + CO:
 
@@ -810,7 +950,14 @@ H       2.43978600   -1.23892300    0.72228500
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2046.4105178239631 J/mol
 """,
 )
 
@@ -818,8 +965,8 @@ entry(
     index = 24,
     label = "[Li]NC + [H] <=> [Li] + CN",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.62458e+07,'cm^3/(mol*s)'), n=1.49444, Ea=(-71.5589,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(7.62458e+07,'cm^3/(mol*s)'), n=1.49444, Ea=(-71.5589,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-5.4761368991675985,B=-6.829449919467144,E=14.43663245128814,L=28.957970295010895,A=0.4259943743771139,comment='')),
+    longDesc =
 """
 TS method summary for TS13 in [Li]NC + [H] <=> [Li] + CN:
 
@@ -840,7 +987,14 @@ H       1.72952400   -0.48126300    1.34115700
 
 1D rotors:
 * Invalidated! pivots: [1, 2], dihedral: [5, 1, 2, 8], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 4708.787281816518 J/mol
 """,
 )
 
@@ -848,8 +1002,8 @@ entry(
     index = 25,
     label = "[Li]O + C[CH2] <=> [Li] + CCO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(26.5507,'cm^3/(mol*s)'), n=3.72095, Ea=(84.1068,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(26.5507,'cm^3/(mol*s)'), n=3.72095, Ea=(84.1068,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.9913576154323054,B=3.1755887609180435,E=-0.2623364392566645,L=7.244831699370673,A=0.5572363451823703,comment='')),
+    longDesc =
 """
 TS method summary for TS15 in [Li]O + C[CH2] <=> [Li] + CCO:
 
@@ -872,7 +1026,14 @@ H      -1.09958300   -1.00876300    0.87538500
 
 1D rotors:
 pivots: [2, 3], dihedral: [5, 2, 3, 8], rotor symmetry: 3, max scan energy: 5.59 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1614.986893512281 J/mol
 """,
 )
 
@@ -880,8 +1041,8 @@ entry(
     index = 26,
     label = "[Li]OCC + [H] <=> [Li] + CCO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.77483e+09,'cm^3/(mol*s)'), n=1.18598, Ea=(-23.16,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(6.77483e+09,'cm^3/(mol*s)'), n=1.18598, Ea=(-23.16,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-8.623486006056842,B=14.917486429580572,E=-5.719694357458241,L=40.120001635540106,A=-6.502228345652631,comment='')),
+    longDesc =
 """
 TS method summary for TS16 in [Li]OCC + [H] <=> [Li] + CCO:
 
@@ -905,7 +1066,14 @@ H       1.34235779    0.48281906    1.16520496
 1D rotors:
 pivots: [2, 3], dihedral: [5, 2, 3, 4], rotor symmetry: 3, max scan energy: 13.87 kJ/mol
 pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 0.52 kJ/mol (set as a FreeRotor)
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1.736364652060729e-05 J/mol
 """,
 )
 
@@ -913,8 +1081,8 @@ entry(
     index = 27,
     label = "[Li]N + C[CH2] <=> [Li] + CCN",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.337329,'cm^3/(mol*s)'), n=3.54967, Ea=(34.4127,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(0.337329,'cm^3/(mol*s)'), n=3.54967, Ea=(34.4127,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.6195332200790409,B=2.120893670736446,E=10.142480436000628,L=-0.8781474558081529,A=3.410407959634951,comment='')),
+    longDesc =
 """
 TS method summary for TS17 in [Li]N + C[CH2] <=> [Li] + CCN:
 
@@ -938,7 +1106,14 @@ H       1.01858967   -1.18352112    0.80784057
 
 1D rotors:
 pivots: [2, 3], dihedral: [5, 2, 3, 8], rotor symmetry: 3, max scan energy: 4.88 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2191.6345368658176 J/mol
 """,
 )
 
@@ -946,8 +1121,8 @@ entry(
     index = 28,
     label = "[Li]OC + [CH3] <=> [Li] + COC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3026.56,'cm^3/(mol*s)'), n=2.80221, Ea=(80.834,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(3026.56,'cm^3/(mol*s)'), n=2.80221, Ea=(80.834,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.223920620501668,B=0.8264175269682525,E=0.40415741933873844,L=5.605210034978575,A=0.4397271958947774,comment='')),
+    longDesc =
 """
 TS method summary for TS1 in [Li]OC + [CH3] <=> [Li] + COC:
 
@@ -970,7 +1145,14 @@ H       6.14543300    1.23014000   -0.86797000
 
 1D rotors:
 * Invalidated! pivots: [3, 4], dihedral: [1, 3, 4, 8], invalidation reason: Two consecutive points are inconsistent by more than 1.40 kJ/molTwo consecutive points are inconsistent by more than 1.52 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1526.5386694571223 J/mol
 """,
 )
 
@@ -978,8 +1160,8 @@ entry(
     index = 29,
     label = "[Li]OCC + [CH3] <=> [Li] + COCC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.09569,'cm^3/(mol*s)'), n=3.2546, Ea=(82.2788,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(7.09569,'cm^3/(mol*s)'), n=3.2546, Ea=(82.2788,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.091886494292463,B=0.5254418313743373,E=1.2963729646265112,L=5.721969023897385,A=0.6575614317431779,comment='')),
+    longDesc =
 """
 TS method summary for TS3 in [Li]OCC + [CH3] <=> [Li] + COCC:
 
@@ -1006,7 +1188,14 @@ H      -4.16500100   -4.39266700   -4.68634200
 1D rotors:
 pivots: [2, 3], dihedral: [6, 2, 3, 4], rotor symmetry: 3, max scan energy: 15.23 kJ/mol
 * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 1], invalidation reason: Two consecutive points are inconsistent by more than 6.75 kJ/molTwo consecutive points are inconsistent by more than 6.75 kJ/molTwo consecutive points are inconsistent by more than 6.64 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1616.2708289398845 J/mol
 """,
 )
 
@@ -1014,8 +1203,8 @@ entry(
     index = 30,
     label = "[Li]N + [CH3] <=> [Li] + CN",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5347.09,'cm^3/(mol*s)'), n=2.59727, Ea=(34.8806,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(5347.09,'cm^3/(mol*s)'), n=2.59727, Ea=(34.8806,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.8306578175990244,B=1.956506108230911,E=0.011774617070094268,L=6.100850860272114,A=1.0441801517777485,comment='')),
+    longDesc =
 """
 TS method summary for TS14 in [Li]N + [CH3] <=> [Li] + CN:
 
@@ -1036,7 +1225,14 @@ H       1.49690500   -0.50092000    1.18138200
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 3733.7594052313543 J/mol
 """,
 )
 
@@ -1044,8 +1240,8 @@ entry(
     index = 31,
     label = "[Li]NCC + [H] <=> [Li] + CCN",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.89074e+07,'cm^3/(mol*s)'), n=1.63253, Ea=(-67.2986,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.89074e+07,'cm^3/(mol*s)'), n=1.63253, Ea=(-67.2986,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.9852422925798727,B=1.2991389460904967,E=1.413033851489418,L=7.445245509701895,A=0.5371087291175491,comment='')),
+    longDesc =
 """
 TS method summary for TS18 in [Li]NCC + [H] <=> [Li] + CCN:
 
@@ -1070,7 +1266,14 @@ H       3.45414500    0.04969200   -0.35434500
 1D rotors:
 pivots: [1, 2], dihedral: [6, 1, 2, 3], rotor symmetry: 3, max scan energy: 14.10 kJ/mol
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 11], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1260.011897897355 J/mol
 """,
 )
 
@@ -1078,8 +1281,8 @@ entry(
     index = 32,
     label = "[CH3] + [Li][H] <=> [Li] + C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(79732.1,'cm^3/(mol*s)'), n=2.61156, Ea=(12.1363,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(79732.1,'cm^3/(mol*s)'), n=2.61156, Ea=(12.1363,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=3.39470212956669,B=1.6022203760198037,E=1.4946262264125265,L=10.49010693814182,A=0.4943151788298517,comment='')),
+    longDesc =
 """
 TS method summary for TS1 in [CH3] + [Li][H] <=> [Li] + C:
 
@@ -1098,7 +1301,14 @@ H      -1.11679945   -0.37438412    1.00313346
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1724.5822620152626 J/mol
 """,
 )
 
@@ -1106,8 +1316,8 @@ entry(
     index = 33,
     label = "[CH3] + [Li]F <=> [Li] + CF",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.14134e+06,'cm^3/(mol*s)'), n=2.18948, Ea=(140.779,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(4.14134e+06,'cm^3/(mol*s)'), n=2.18948, Ea=(140.779,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.8681935378213759,B=2.373498032935028,E=0.32859248603303737,L=5.004153890392606,A=0.8849787213003473,comment='')),
+    longDesc =
 """
 TS method summary for TS2 in [CH3] + [Li]F <=> [Li] + CF:
 
@@ -1126,7 +1336,14 @@ H       1.79999200    0.45924600   -0.91097200
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2138.0682833668507 J/mol
 """,
 )
 
@@ -1134,8 +1351,8 @@ entry(
     index = 34,
     label = "[CH3] + [Li]Cl <=> [Li] + CCl",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.57736e+07,'cm^3/(mol*s)'), n=1.91726, Ea=(119.96,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.57736e+07,'cm^3/(mol*s)'), n=1.91726, Ea=(119.96,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.40096476096442,B=0.7611537028291462,E=0.36695032193123533,L=5.182274882516309,A=0.578711830957878,comment='')),
+    longDesc =
 """
 TS method summary for TS3 in [CH3] + [Li]Cl <=> [Li] + CCl:
 
@@ -1154,7 +1371,14 @@ H       0.86741800    0.32211300   -0.52269700
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1761.0833142781657 J/mol
 """,
 )
 
@@ -1162,8 +1386,8 @@ entry(
     index = 35,
     label = "[Li]O + C=C <=> [Li] + OC[CH2]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(51497.3,'cm^3/(mol*s)'), n=2.83384, Ea=(366.661,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(51497.3,'cm^3/(mol*s)'), n=2.83384, Ea=(366.661,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.8538812901233412,B=2.675568430768142,E=-6.952996746174581,L=1.5707766756804364,A=-0.4046889575036062,comment='')),
+    longDesc =
 """
 TS method summary for TS4 in [Li]O + C=C <=> [Li] + OC[CH2]:
 
@@ -1185,7 +1409,14 @@ H       2.45117000    0.02306900   -2.42348300
 
 1D rotors:
 pivots: [2, 4], dihedral: [3, 2, 4, 7], rotor symmetry: 2, max scan energy: 17.83 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 4980.414430298042 J/mol
 """,
 )
 
@@ -1193,8 +1424,8 @@ entry(
     index = 36,
     label = "[Li]OC(=O)OC[CH2] <=> [Li]OC[CH2] + O=C=O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.8039e+12,'s^-1'), n=0.472198, Ea=(80.6393,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(6.8039e+12,'s^-1'), n=0.472198, Ea=(80.6393,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.697605152955986,B=2.4862812293190593,E=-4.1974148204255775,L=2.872587466227873,A=0.9296666032597313,comment='')),
+    longDesc =
 """
 TS method summary for TS5 in [Li]OC(=O)OC[CH2] <=> [Li]OC[CH2] + O=C=O:
 
@@ -1219,7 +1450,14 @@ H       2.17387800    0.59315200    0.90679500
 1D rotors:
 * Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 7], invalidation reason: Could not read energies
 pivots: [6, 7], dihedral: [5, 6, 7, 8], rotor symmetry: 6, max scan energy: 2.96 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2756.9521557186627 J/mol
 """,
 )
 
@@ -1228,7 +1466,7 @@ entry(
     label = "[Li]OC(=O)OC <=> [Li]OC + O=C=O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.20441e+16,'s^-1'), n=0.126298, Ea=(88.7875,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS6 in [Li]OC(=O)OC <=> [Li]OC + O=C=O:
 
@@ -1258,8 +1496,8 @@ entry(
     index = 38,
     label = "[Li]OCO <=> [Li]O + C=O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.67089e+11,'s^-1'), n=0.423598, Ea=(30.5741,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(8.67089e+11,'s^-1'), n=0.423598, Ea=(30.5741,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-0.3926746359480871,B=2.430874130082185,E=1.0969664301003625,L=5.26139300991494,A=1.5271891998852951,comment='')),
+    longDesc =
 """
 TS method summary for TS1 in [Li]OCO <=> [Li]O + C=O:
 
@@ -1279,7 +1517,14 @@ H      -1.80092200   -1.09439000   -0.31740600
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2852.7605391591824 J/mol
 """,
 )
 
@@ -1287,8 +1532,8 @@ entry(
     index = 39,
     label = "[Li]OCF <=> [Li]F + C=O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.47928e+13,'s^-1'), n=0.0523532, Ea=(1.77399,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(2.47928e+13,'s^-1'), n=0.0523532, Ea=(1.77399,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.2544775378071295,B=3.8435703486608483,E=0.6208281974105191,L=9.542895814948176,A=0.874941113523824,comment='')),
+    longDesc =
 """
 TS method summary for TS8 in [Li]OCF <=> [Li]F + C=O:
 
@@ -1307,7 +1552,14 @@ H      -1.33358500    1.29011400   -0.74570300
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2167.4878926153538 J/mol
 """,
 )
 
@@ -1315,8 +1567,8 @@ entry(
     index = 40,
     label = "[Li]OCCl <=> [Li]Cl + C=O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.03509e+13,'s^-1'), n=-0.00858289, Ea=(0.072948,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.03509e+13,'s^-1'), n=-0.00858289, Ea=(0.072948,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.49973283735009,B=-1.363801515776159,E=11.671483182052631,L=9.85481016575309,A=1.7632374622781073,comment='')),
+    longDesc =
 """
 TS method summary for TS9 in [Li]OCCl <=> [Li]Cl + C=O:
 
@@ -1335,7 +1587,14 @@ H      -1.07809033    1.15217907    0.94055248
 
 1D rotors:
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 3473.2666466033193 J/mol
 """,
 )
 
@@ -1344,7 +1603,7 @@ entry(
     label = "O=S(=O)(C)CC[CH2] + [Li] <=> C=C + [Li]OS(=O)(=C)C",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(312580,'cm^3/(mol*s)'), n=2.72776, Ea=(68.0852,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS1 in O=S(=O)(C)CC[CH2] + [Li] <=> C=C + [Li]OS(=O)(=C)C:
 
@@ -1373,7 +1632,7 @@ H       3.46456700   -0.41452700    2.64278500
 H       5.05211100   -0.65010600    1.73396300
 
 1D rotors:
-* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason:
 pivots: [3, 6], dihedral: [2, 3, 6, 14], rotor symmetry: 1, max scan energy: 14.75 kJ/mol
 pivots: [3, 5], dihedral: [2, 3, 5, 11], rotor symmetry: 3, max scan energy: 10.77 kJ/mol
 * Invalidated! pivots: [7, 8], dihedral: [16, 7, 8, 9], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
@@ -1385,8 +1644,8 @@ entry(
     index = 42,
     label = "O=CCC[CH2] + C[CH2] <=> C=C + CCOC=C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.00014888,'cm^3/(mol*s)'), n=4.19462, Ea=(96.1568,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(0.00014888,'cm^3/(mol*s)'), n=4.19462, Ea=(96.1568,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.249762479827305,B=0.15073926135565738,E=0.365495135486543,L=3.0529218751533116,A=-0.05234289083492228,comment='')),
+    longDesc =
 """
 TS method summary for TS2 in O=CCC[CH2] + C[CH2] <=> C=C + CCOC=C:
 
@@ -1422,7 +1681,14 @@ pivots: [2, 5], dihedral: [1, 2, 5, 6], rotor symmetry: 1, max scan energy: 21.6
 pivots: [5, 6], dihedral: [2, 5, 6, 7], rotor symmetry: 3, max scan energy: 30.90 kJ/mol
 * Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 16], invalidation reason: Two consecutive points are inconsistent by more than 10.51 kJ/molTwo consecutive points are inconsistent by more than 10.51 kJ/molTwo consecutive points are inconsistent by more than 10.60 kJ/mol
 * Invalidated! pivots: [8, 9], dihedral: [18, 8, 9, 10], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 195.65591478399634 J/mol
 """,
 )
 
@@ -1430,8 +1696,8 @@ entry(
     index = 43,
     label = "CCOC(=O)OC[CH2] + [Li] <=> C=C + [Li]OC(=O)OCC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9.5603e+07,'cm^3/(mol*s)'), n=1.70021, Ea=(38.7352,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(9.5603e+07,'cm^3/(mol*s)'), n=1.70021, Ea=(38.7352,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.1943783976602214,B=0.894154843812189,E=5.394280864555017,L=8.956244842828797,A=0.23494209646668668,comment='')),
+    longDesc =
 """
 TS method summary for TS3 in CCOC(=O)OC[CH2] + [Li] <=> C=C + [Li]OC(=O)OCC:
 
@@ -1466,7 +1732,14 @@ pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 32.2
 pivots: [4, 5], dihedral: [3, 4, 5, 6], rotor symmetry: 2, max scan energy: 33.94 kJ/mol
 * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 1], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 pivots: [8, 9], dihedral: [17, 8, 9, 10], rotor symmetry: 2, max scan energy: 7.62 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 14583.764309070988 J/mol
 """,
 )
 
@@ -1474,8 +1747,8 @@ entry(
     index = 44,
     label = "CCOC(=O)OC[CH2] + C[CH2] <=> C=C + CCOC(=O)OCC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(20.523,'cm^3/(mol*s)'), n=2.58803, Ea=(182.358,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(20.523,'cm^3/(mol*s)'), n=2.58803, Ea=(182.358,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.7109399685673664,B=0.5561097043959204,E=0.394916410780481,L=4.3126161018203115,A=-0.0721543234535927,comment='')),
+    longDesc =
 """
 TS method summary for TS4 in CCOC(=O)OC[CH2] + C[CH2] <=> C=C + CCOC(=O)OCC:
 
@@ -1512,13 +1785,20 @@ H       4.75944600   -2.88035100   -3.78232500
 
 1D rotors:
 * Invalidated! pivots: [1, 2], dihedral: [13, 1, 2, 15], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason:
 * Invalidated! pivots: [4, 8], dihedral: [3, 4, 8, 9], invalidation reason: Another conformer for TS4 exists which is 7.80 kJ/mol lower.Another conformer for TS4 exists which is 7.80 kJ/mol lower. But unable to propose troubleshooting methods.
 pivots: [5, 6], dihedral: [4, 5, 6, 7], rotor symmetry: 1, max scan energy: 14.36 kJ/mol
 pivots: [6, 7], dihedral: [5, 6, 7, 19], rotor symmetry: 3, max scan energy: 13.46 kJ/mol
 pivots: [8, 9], dihedral: [4, 8, 9, 10], rotor symmetry: 1, max scan energy: 20.65 kJ/mol
 pivots: [9, 10], dihedral: [8, 9, 10, 11], rotor symmetry: 3, max scan energy: 12.05 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 250.18842050131107 J/mol
 """,
 )
 
@@ -1526,8 +1806,8 @@ entry(
     index = 45,
     label = "[Li]OC(=O)OC[CH2] + C[CH2] <=> C=C + [Li]OC(=O)OCC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.734475,'cm^3/(mol*s)'), n=3.69312, Ea=(202.73,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(0.734475,'cm^3/(mol*s)'), n=3.69312, Ea=(202.73,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.4561557547476465,B=2.2803199654633044,E=1.3183361925504222,L=11.121493210990602,A=0.5459030628779227,comment='')),
+    longDesc =
 """
 TS method summary for TS5 in [Li]OC(=O)OC[CH2] + C[CH2] <=> C=C + [Li]OC(=O)OCC:
 
@@ -1562,7 +1842,14 @@ pivots: [1, 2], dihedral: [14, 1, 2, 8], rotor symmetry: 3, max scan energy: 14.
 * Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 8], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points are inconsistent by more than 0.24 kJ/mol
 * Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 2], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points are inconsistent by more than 0.08 kJ/mol
 * Invalidated! pivots: [10, 11], dihedral: [17, 10, 11, 12], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1431.1465293831595 J/mol
 """,
 )
 
@@ -1570,8 +1857,8 @@ entry(
     index = 46,
     label = "[Li]O[Li] + O=C <=> [Li]OCO[Li]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(60668.5,'cm^3/(mol*s)'), n=2.48558, Ea=(-44.9325,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(60668.5,'cm^3/(mol*s)'), n=2.48558, Ea=(-44.9325,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-6.237601960913579,B=9.474105452618263,E=1.6329134231750524,L=15.17499274807221,A=3.5783211118513525,comment='')),
+    longDesc =
 """
 TS method summary for TS7 in [Li]O[Li] + O=C <=> [Li]OCO[Li]:
 
@@ -1591,7 +1878,14 @@ H       2.37777900   -0.26233900    0.19860600
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 6992.493889350707 J/mol
 """,
 )
 
@@ -1599,8 +1893,8 @@ entry(
     index = 47,
     label = "[Li]OC[CH2] <=> [Li][O] + C=C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.73118e+09,'s^-1'), n=1.05672, Ea=(124.537,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.73118e+09,'s^-1'), n=1.05672, Ea=(124.537,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-0.7587541172343483,B=4.554524422792835,E=0.35143960938889907,L=9.719910916870246,A=2.0308080570391414,comment='')),
+    longDesc =
 """
 TS method summary for TS8 in [Li]OC[CH2] <=> [Li][O] + C=C:
 
@@ -1621,7 +1915,14 @@ H       0.34306501    1.31089605   -0.91186830
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 6207.138255494839 J/mol
 """,
 )
 
@@ -1629,8 +1930,8 @@ entry(
     index = 48,
     label = "[Li]OC(=O)OC[CH2] <=> [Li]OC(=O)[O] + C=C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.75254e+10,'s^-1'), n=0.859471, Ea=(102.084,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.75254e+10,'s^-1'), n=0.859471, Ea=(102.084,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.874468711820343,B=1.5429946013135403,E=3.7953459556664635,L=10.74627656346647,A=0.9238437970987374,comment='')),
+    longDesc =
 """
 TS method summary for TS9 in [Li]OC(=O)OC[CH2] <=> [Li]OC(=O)[O] + C=C:
 
@@ -1655,7 +1956,14 @@ H       5.10136800    1.17151600    3.23479500
 1D rotors:
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [6, 7], dihedral: [10, 6, 7, 8], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1178.0314401999576 J/mol
 """,
 )
 
@@ -1663,8 +1971,8 @@ entry(
     index = 49,
     label = "[Li]OC[CH2] <=> [Li] + O1CC1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.79548e+09,'s^-1'), n=0.676137, Ea=(127.392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(7.79548e+09,'s^-1'), n=0.676137, Ea=(127.392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.9429002183123382,B=0.4142522035781646,E=0.9271382422782674,L=0.5080999191526422,A=1.2701035125702795,comment='')),
+    longDesc =
 """
 TS method summary for TS1 in [Li]OC[CH2] <=> [Li] + O1CC1:
 
@@ -1685,7 +1993,14 @@ H      -1.35302600   -0.74247900   -1.01915400
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2253.8360605095613 J/mol
 """,
 )
 
@@ -1693,8 +2008,8 @@ entry(
     index = 50,
     label = "[Li]NCCC[CH2] <=> [Li] + N1CCCC1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.41052e+13,'s^-1'), n=-0.0966111, Ea=(37.9728,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.41052e+13,'s^-1'), n=-0.0966111, Ea=(37.9728,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.7063184659079954,B=0.6546888841685338,E=1.4167685288377097,L=7.086460323740072,A=0.6763993010322846,comment='')),
+    longDesc =
 """
 TS method summary for TS8 in [Li]NCCC[CH2] <=> [Li] + N1CCCC1:
 
@@ -1725,7 +2040,14 @@ H       1.41475700   -1.48698600   -0.70029100
 * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 14], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 5600.017004537509 J/mol
 """,
 )
 
@@ -1733,8 +2055,8 @@ entry(
     index = 51,
     label = "[Li]O[C]1OCCO1 <=> [Li] + O=C1OCCO1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.54076e+14,'s^-1'), n=-0.182294, Ea=(23.9219,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.54076e+14,'s^-1'), n=-0.182294, Ea=(23.9219,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-2.018725993417632,B=4.93569039446143,E=-4.315782362402726,L=-1.68464261284562,A=3.5698295734222367,comment='')),
+    longDesc =
 """
 TS method summary for TS2 in [Li]O[C]1OCCO1 <=> [Li] + O=C1OCCO1:
 
@@ -1758,7 +2080,14 @@ H      -2.38753000    0.59754200    0.61515000
 
 
 No rotors considered for this TS.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 10990.041834280188 J/mol
 """,
 )
 
@@ -1766,8 +2095,8 @@ entry(
     index = 52,
     label = "[Li]OCCCCC[CH2] <=> [Li] + O1CCCCCC1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(685907,'s^-1'), n=0.809304, Ea=(91.8794,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(685907,'s^-1'), n=0.809304, Ea=(91.8794,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.8745309700808286,B=0.6489379258617733,E=0.27349172242979114,L=6.280608540134562,A=0.35178208431790287,comment='')),
+    longDesc =
 """
 TS method summary for TS4 in [Li]OCCCCC[CH2] <=> [Li] + O1CCCCCC1:
 
@@ -1805,7 +2134,14 @@ H      -1.01299600    0.74101900    1.91000900
 * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 8], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol
 * Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 19], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 648.5792529213884 J/mol
 """,
 )
 
@@ -1813,8 +2149,8 @@ entry(
     index = 53,
     label = "[Li]OCCC[CH2] <=> [Li] + O1CCCC1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9.68382e+12,'s^-1'), n=-0.0538311, Ea=(99.5874,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(9.68382e+12,'s^-1'), n=-0.0538311, Ea=(99.5874,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.975919765798433,B=0.5933221434562257,E=0.10249027371088437,L=4.734916369654065,A=0.4382337255257122,comment='')),
+    longDesc =
 """
 TS method summary for TS5 in [Li]OCCC[CH2] <=> [Li] + O1CCCC1:
 
@@ -1844,7 +2180,14 @@ H       0.97428300    6.92366500    0.92199700
 * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1463.7250120069011 J/mol
 """,
 )
 
@@ -1852,8 +2195,8 @@ entry(
     index = 54,
     label = "[Li]CC <=> C=C + [Li][H]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.20882e+11,'s^-1'), n=0.349755, Ea=(9.42179,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(8.20882e+11,'s^-1'), n=0.349755, Ea=(9.42179,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.7309852404322288,B=2.3232904077453425,E=0.8831500260776306,L=9.72969334125182,A=0.8794516433866466,comment='')),
+    longDesc =
 """
 TS method summary for TS1 in [Li]CC <=> C=C + [Li][H]:
 
@@ -1874,7 +2217,14 @@ H       2.69158000    0.15525900    1.63951800
 
 1D rotors:
 * Invalidated! pivots: [1, 2], dihedral: [4, 1, 2, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2061.526158269488 J/mol
 """,
 )
 
@@ -1882,8 +2232,8 @@ entry(
     index = 55,
     label = "[Li]NC <=> N=C + [Li][H]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.20406e+11,'s^-1'), n=0.395823, Ea=(4.40595,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(1.20406e+11,'s^-1'), n=0.395823, Ea=(4.40595,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.708205772421329,B=2.5356143801240445,E=0.23679859997568953,L=9.472880397262012,A=1.0783864304846873,comment='')),
+    longDesc =
 """
 TS method summary for TS3 in [Li]NC <=> N=C + [Li][H]:
 
@@ -1903,7 +2253,14 @@ H      -1.65482009    0.66025357    0.00967177
 
 1D rotors:
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2139.3398223085746 J/mol
 """,
 )
 
@@ -1912,7 +2269,7 @@ entry(
     label = "[Li]O[CH]OC <=> O=[CH] + [Li]OC",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.54823e+14,'s^-1'), n=0.356617, Ea=(65.3953,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS4 in [Li]O[CH]OC <=> O=[CH] + [Li]OC:
 
@@ -1942,8 +2299,8 @@ entry(
     index = 57,
     label = "[Li]OC1OCCCC1 <=> O=CCCCCO[Li]",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.20531e+14,'s^-1'), n=0.219161, Ea=(98.9886,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    kinetics = Arrhenius(A=(3.20531e+14,'s^-1'), n=0.219161, Ea=(98.9886,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.959149780060317,B=2.5380295864101,E=2.0257428425399984,L=13.738628302899908,A=0.411629130549155,comment='')),
+    longDesc =
 """
 TS method summary for TS6 in [Li]OC1OCCCC1 <=> O=CCCCCO[Li]:
 Methods that successfully generated a TS guess:
@@ -1973,12 +2330,18 @@ H       1.96556900    1.17143800   -3.44430700
 H       2.82865100    0.08557500   -2.37989200
 
 1D rotors:
-* Invalidated! pivots: [3, 8], dihedral: [2, 3, 8, 7], invalidation reason: 
-* Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 6], invalidation reason: 
-* Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: 
+* Invalidated! pivots: [3, 8], dihedral: [2, 3, 8, 7], invalidation reason:
+* Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 6], invalidation reason:
+* Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason:
 * Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 8], invalidation reason: Another conformer for TS6 exists which is 7.66 kJ/mol lower.
 * Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 3], invalidation reason:
-ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1729.1474107981676 J/mol
 """,
 )
-
