@@ -17,26 +17,26 @@ allowChargedSpecies = True
 electrons = -1
 
 recipe(actions=[
-    ['LOSE_CHARGE', '*3', 1],
-    ['CHANGE_BOND', '*1', -1, '*2'],
-    ['FORM_BOND', '*1', 1, '*3'],
-    ['BREAK_BOND', '*4', 1, '*5'],
-    ['CHANGE_BOND', '*5', 1, '*6'],
-    ['CHANGE_BOND', '*2', 1, '*4'],
-    ['LOSE_RADICAL', '*6', 1],
-])
+     ['GAIN_RADICAL', '*6', 1],
+     ['CHANGE_BOND', '*2', '-1', '*4'],
+     ['CHANGE_BOND', '*5', '-1', '*6'],
+     ['FORM_BOND', '*4', 1, '*5'],
+     ['BREAK_BOND', '*1', 1, '*3'],
+     ['CHANGE_BOND', '*1', '1', '*2'],
+     ['GAIN_CHARGE', '*3', 1]
+     ])
 
 entry(
     index = 0,
     label = "Root",
     group =
 """
-1 *1 R!H u0 {2,[D,T,B]}
-2 *2 R!H u0 {1,[D,T,B]} {3,[S,D]}
-3 *4 R!H u0 {2,[S,D]} {4,S}
-4 *5 R!H u0 {5,[S,D]} {3,S}
-5 *6 R!H u1 {4,[S,D]}
-6 *3 Li+ u0 p0 c+1
+1 *3 Li  u0 p0 c0 {2,S}
+2 *1 R!H u0 {1,S} {3,[S,D,B]}
+3 *2 R!H u0 {2,[S,D,B]} {4,[B,D,T]}
+4 *4 R!H u0 {3,[B,D,T]}
+5 *5 R!H u0 {6,[B,D,T]}
+6 *6 R!H u0 {5,[B,D,T]}
 """,
     kinetics = None,
 )
