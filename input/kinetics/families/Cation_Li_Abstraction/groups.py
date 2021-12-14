@@ -17,20 +17,20 @@ allowChargedSpecies = True
 electrons = -1
 
 recipe(actions=[
-    ['LOSE_CHARGE', '*3', 1],
-    ['BREAK_BOND', '*1', 1, '*2'],
-    ['FORM_BOND', '*2', 1, '*3'],
-    ['GAIN_RADICAL', '*1', 1],
-])
+ ['LOSE_RADICAL', '*1', 1],
+ ['BREAK_BOND', '*2', 1, '*3'],
+ ['FORM_BOND', '*1', 1, '*2'],
+ ['GAIN_CHARGE', '*3', 1]
+ ])
 
 entry(
     index = 0,
     label = "Root",
     group =
 """
-1 *1 R u0 {2,S}
-2 *2 [H,F,Cl] u0 {1,S}
-3 *3 Li+ u0 p0 c+1
+1 *1 R u1
+2 *3 Li       u0 p0 c0 {3,S}
+3 *2 [Cl,F,H] u0 2,S}
 """,
     kinetics = None,
 )
