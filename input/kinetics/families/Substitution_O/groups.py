@@ -34,7 +34,7 @@ entry(
 1 *1 O           u0     {2,S} {3,S}
 2 *2 R           u[0,1] {1,S}
 3    R           u0     {1,S}
-4 *3 [H,C,O,N,S] u[1,2]
+4 *3 [H,C,O,N,S,Li] u[1,2]
 """,
     kinetics = None,
 )
