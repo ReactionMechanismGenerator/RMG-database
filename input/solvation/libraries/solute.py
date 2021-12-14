@@ -6294,7 +6294,7 @@ MAE error: 3854.4292307632704 J/mol
 entry(
     index = 319,
     label = "CCN(C)[Li]",
-    molecule = "[Li]N(C)CC",
+    molecule = "CCN(C)[Li]",
     solute = SoluteData(
         S = 2.2322720327170735,
         B = 0.6217799911632743,
@@ -6348,7 +6348,7 @@ MAE error: 2144.7276101817033 J/mol
 entry(
     index = 321,
     label = "CCOC",
-    molecule = "COCC",
+    molecule = "CCOC",
     solute = SoluteData(
         S = 0.2677585080335532,
         B = 0.3879113744556529,
@@ -6510,7 +6510,7 @@ MAE error: 732.2196459313031 J/mol
 entry(
     index = 327,
     label = "[LiH]",
-    molecule = "[Li][H]",
+    molecule = "[LiH]",
     solute = SoluteData(
         S = 3.0354290212304944,
         B = 2.5811942997996247,
@@ -6564,7 +6564,7 @@ MAE error: 252.09377538380627 J/mol
 entry(
     index = 329,
     label = "C=O",
-    molecule = "O=C",
+    molecule = "C=O",
     solute = SoluteData(
         S = 0.592452944129597,
         B = 0.20646273505395457,
@@ -6591,7 +6591,7 @@ MAE error: 223.7375802956106 J/mol
 entry(
     index = 330,
     label = "C=N",
-    molecule = "N=C",
+    molecule = "C=N",
     solute = SoluteData(
         S = -0.9494593034548461,
         B = 3.9296217306910415,
@@ -6644,33 +6644,6 @@ MAE error: 15736.41689329623 J/mol
 
 entry(
     index = 332,
-    label = "[Li]OO",
-    molecule = "[Li]OO",
-    solute = SoluteData(
-        S = 1.2266128822908635,
-        B = 3.3733419219414635,
-        E = -0.19325992719387985,
-        L = 9.197002738968207,
-        A = 1.6874907527521896,
-        V = 0.36119999999999997,
-    ),
-    shortDesc = """COSMO fit""",
-    longDesc =
-"""
-Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
-used COSMO TZPD-Fine with energy files
-fit to dGsolv298 for library solvents:
-["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
- "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-MAE error: 4024.3956055975714 J/mol
-""",
-)
-
-entry(
-    index = 333,
     label = "[Li]O[O]",
     molecule = "[Li]O[O]",
     solute = SoluteData(
@@ -6697,9 +6670,9 @@ MAE error: 5547.208825774742 J/mol
 )
 
 entry(
-    index = 334,
+    index = 333,
     label = "O=C1OCCOC(=O)O1",
-    molecule = "O1C(=O)OC(=O)OCC1",
+    molecule = "O=C1OCCOC(=O)O1",
     solute = SoluteData(
         S = 1.7351832307494854,
         B = 0.6566907191797258,
@@ -6724,7 +6697,7 @@ MAE error: 881.8190829791696 J/mol
 )
 
 entry(
-    index = 335,
+    index = 334,
     label = "[Li]O[Li]",
     molecule = "[Li]O[Li]",
     solute = SoluteData(
@@ -6751,7 +6724,7 @@ MAE error: 6747.9387909328225 J/mol
 )
 
 entry(
-    index = 336,
+    index = 335,
     label = "[Li]OCCCCC=O",
     molecule = "[Li]OCCCCC=O",
     solute = SoluteData(
@@ -6778,7 +6751,7 @@ MAE error: 2356.869627132027 J/mol
 )
 
 entry(
-    index = 337,
+    index = 336,
     label = "[Li]O[CH]O",
     molecule = "[Li]O[CH]O",
     solute = SoluteData(
@@ -6805,7 +6778,7 @@ MAE error: 1804.2715068353687 J/mol
 )
 
 entry(
-    index = 338,
+    index = 337,
     label = "[Li]OCCCC=O",
     molecule = "[Li]OCCCC=O",
     solute = SoluteData(
@@ -6832,7 +6805,7 @@ MAE error: 3945.3056396818647 J/mol
 )
 
 entry(
-    index = 339,
+    index = 338,
     label = "[Li]OC(=O)OCCO",
     molecule = "[Li]OC(=O)OCCO",
     solute = SoluteData(
@@ -6859,7 +6832,7 @@ MAE error: 1422.7401934413053 J/mol
 )
 
 entry(
-    index = 340,
+    index = 339,
     label = "[Li]OCC(C)O[C]=O",
     molecule = "[Li]OCC(C)O[C]=O",
     solute = SoluteData(
@@ -6886,7 +6859,7 @@ MAE error: 2517.6222640596384 J/mol
 )
 
 entry(
-    index = 341,
+    index = 340,
     label = "[Li]OC=CO[C]=O",
     molecule = "[Li]OC=CO[C]=O",
     solute = SoluteData(
@@ -6913,7 +6886,7 @@ MAE error: 1422.677700906106 J/mol
 )
 
 entry(
-    index = 342,
+    index = 341,
     label = "[Li]OC(=O)OC([CH2])C",
     molecule = "[Li]OC(=O)OC([CH2])C",
     solute = SoluteData(
@@ -6940,7 +6913,7 @@ MAE error: 1499.170707588487 J/mol
 )
 
 entry(
-    index = 343,
+    index = 342,
     label = "[Li]OC(F)[CH]F",
     molecule = "[Li]OC(F)[CH]F",
     solute = SoluteData(
@@ -6967,7 +6940,7 @@ MAE error: 3574.219755760116 J/mol
 )
 
 entry(
-    index = 344,
+    index = 343,
     label = "[Li]NCCCC[CH2]",
     molecule = "[Li]NCCCC[CH2]",
     solute = SoluteData(
@@ -6994,7 +6967,7 @@ MAE error: 1726.6343371414637 J/mol
 )
 
 entry(
-    index = 345,
+    index = 344,
     label = "[CH2]CCCCCN[Li]",
     molecule = "[CH2]CCCCCN[Li]",
     solute = SoluteData(
@@ -7021,7 +6994,7 @@ MAE error: 2746.928295895225 J/mol
 )
 
 entry(
-    index = 346,
+    index = 345,
     label = "[Li][O]",
     molecule = "[Li][O]",
     solute = SoluteData(
@@ -7048,7 +7021,7 @@ MAE error: 11884.509855602739 J/mol
 )
 
 entry(
-    index = 347,
+    index = 346,
     label = "[Li]C",
     molecule = "[Li]C",
     solute = SoluteData(
@@ -7075,7 +7048,7 @@ MAE error: 1488.1864853913735 J/mol
 )
 
 entry(
-    index = 348,
+    index = 347,
     label = "[Li]Cl",
     molecule = "[Li]Cl",
     solute = SoluteData(
@@ -7102,9 +7075,9 @@ MAE error: 4969.011336486932 J/mol
 )
 
 entry(
-    index = 349,
+    index = 348,
     label = "C1CO1",
-    molecule = "C1OC1",
+    molecule = "C1CO1",
     solute = SoluteData(
         S = 0.4835632501968204,
         B = 0.2777511438597002,
@@ -7129,9 +7102,9 @@ MAE error: 133.34498503282876 J/mol
 )
 
 entry(
-    index = 350,
+    index = 349,
     label = "N1CC1",
-    molecule = "C1NC1",
+    molecule = "N1CC1",
     solute = SoluteData(
         S = 0.3922747060803342,
         B = 0.7128316452790046,
@@ -7156,7 +7129,7 @@ MAE error: 360.1201664190635 J/mol
 )
 
 entry(
-    index = 351,
+    index = 350,
     label = "O=C1CCCCC1",
     molecule = "O=C1CCCCC1",
     solute = SoluteData(
@@ -7183,7 +7156,7 @@ MAE error: 4528.191235901193 J/mol
 )
 
 entry(
-    index = 352,
+    index = 351,
     label = "O=C1CC1",
     molecule = "O=C1CC1",
     solute = SoluteData(
@@ -7210,7 +7183,7 @@ MAE error: 198.50374621231458 J/mol
 )
 
 entry(
-    index = 353,
+    index = 352,
     label = "[Li]O[C]1CC1",
     molecule = "[Li]O[C]1CC1",
     solute = SoluteData(
@@ -7237,7 +7210,7 @@ MAE error: 1742.8842404976288 J/mol
 )
 
 entry(
-    index = 354,
+    index = 353,
     label = "O=C1OCCO1",
     molecule = "O=C1OCCO1",
     solute = SoluteData(
@@ -7264,7 +7237,7 @@ MAE error: 792.6877315698252 J/mol
 )
 
 entry(
-    index = 355,
+    index = 354,
     label = "[Li]O[C]1CCCCC1",
     molecule = "[Li]O[C]1CCCCC1",
     solute = SoluteData(
@@ -7291,7 +7264,7 @@ MAE error: 1866.330993202906 J/mol
 )
 
 entry(
-    index = 356,
+    index = 355,
     label = "[Li]O[C]1OCCO1",
     molecule = "[Li]O[C]1OCCO1",
     solute = SoluteData(
@@ -7318,9 +7291,9 @@ MAE error: 1617.776094934204 J/mol
 )
 
 entry(
-    index = 357,
+    index = 356,
     label = "[Li]OC1CCCO1",
-    molecule = "[Li]OC1OCCC1",
+    molecule = "[Li]OC1CCCO1",
     solute = SoluteData(
         S = 1.1532165806630683,
         B = 2.8210489899914353,
@@ -7345,9 +7318,9 @@ MAE error: 2335.939034133507 J/mol
 )
 
 entry(
-    index = 358,
+    index = 357,
     label = "[Li]OC1CCCCO1",
-    molecule = "[Li]OC1OCCCC1",
+    molecule = "[Li]OC1CCCCO1",
     solute = SoluteData(
         S = 0.902863386057042,
         B = 2.8466755686221323,
@@ -7372,9 +7345,9 @@ MAE error: 2581.015841806696 J/mol
 )
 
 entry(
-    index = 359,
+    index = 358,
     label = "[Li]OC1CCO1",
-    molecule = "[Li]OC1OCC1",
+    molecule = "[Li]OC1CCO1",
     solute = SoluteData(
         S = 1.3980849556776456,
         B = 2.5440469049798846,
@@ -7399,9 +7372,9 @@ MAE error: 1768.2107934171386 J/mol
 )
 
 entry(
-    index = 360,
+    index = 359,
     label = "[Li]OCCC=O",
-    molecule = "O=CCCO[Li]",
+    molecule = "[Li]OCCC=O",
     solute = SoluteData(
         S = 1.014878268355191,
         B = 3.6275988208429886,
@@ -7426,9 +7399,9 @@ MAE error: 1958.622181298166 J/mol
 )
 
 entry(
-    index = 361,
+    index = 360,
     label = "[Li]OC1CO1",
-    molecule = "[Li]OC1OC1",
+    molecule = "[Li]OC1CO1",
     solute = SoluteData(
         S = 0.5225027347087636,
         B = -0.9203414194983078,
@@ -7453,9 +7426,9 @@ MAE error: 6811.03817737812 J/mol
 )
 
 entry(
-    index = 362,
+    index = 361,
     label = "[Li]OCC=O",
-    molecule = "O=CCO[Li]",
+    molecule = "[Li]OCC=O",
     solute = SoluteData(
         S = 0.7540150549430052,
         B = 2.7497910016249767,
@@ -7480,7 +7453,7 @@ MAE error: 2598.8410402041477 J/mol
 )
 
 entry(
-    index = 363,
+    index = 362,
     label = "[Li]OC(=O)OC",
     molecule = "[Li]OC(=O)OC",
     solute = SoluteData(
@@ -7507,7 +7480,7 @@ MAE error: 1529.4092651626129 J/mol
 )
 
 entry(
-    index = 364,
+    index = 363,
     label = "[Li][CH2]",
     molecule = "[Li][CH2]",
     solute = SoluteData(
@@ -7534,7 +7507,7 @@ MAE error: 7478.715767885991 J/mol
 )
 
 entry(
-    index = 365,
+    index = 364,
     label = "[Li][CH]C",
     molecule = "[Li][CH]C",
     solute = SoluteData(
@@ -7561,34 +7534,7 @@ MAE error: 1543.494733950569 J/mol
 )
 
 entry(
-    index = 366,
-    label = "[Li]N=C",
-    molecule = "[Li]N=C",
-    solute = SoluteData(
-        S = 2.4667621508602293,
-        B = 2.1432941770316907,
-        E = 1.095580034772144,
-        L = 10.186083842963011,
-        A = 0.7299006477174779,
-        V = 0.44150000000000006,
-    ),
-    shortDesc = """COSMO fit""",
-    longDesc =
-"""
-Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
-used COSMO TZPD-Fine with energy files
-fit to dGsolv298 for library solvents:
-["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
- "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-MAE error: 5800.796367363674 J/mol
-""",
-)
-
-entry(
-    index = 367,
+    index = 365,
     label = "[Li]N=[CH]",
     molecule = "[Li]N=[CH]",
     solute = SoluteData(
@@ -7615,7 +7561,7 @@ MAE error: 2263.634495488247 J/mol
 )
 
 entry(
-    index = 368,
+    index = 366,
     label = "[Li][S]",
     molecule = "[Li][S]",
     solute = SoluteData(
@@ -7642,7 +7588,7 @@ MAE error: 2323.479076601207 J/mol
 )
 
 entry(
-    index = 369,
+    index = 367,
     label = "[Li][N]C",
     molecule = "[Li][N]C",
     solute = SoluteData(
@@ -7669,7 +7615,7 @@ MAE error: 1778.4581243535522 J/mol
 )
 
 entry(
-    index = 370,
+    index = 368,
     label = "[Li]OC=C",
     molecule = "[Li]OC=C",
     solute = SoluteData(
@@ -7696,7 +7642,7 @@ MAE error: 2033.6071741416345 J/mol
 )
 
 entry(
-    index = 371,
+    index = 369,
     label = "[Li]N[Li]",
     molecule = "[Li]N[Li]",
     solute = SoluteData(
@@ -7723,7 +7669,7 @@ MAE error: 10373.935899173728 J/mol
 )
 
 entry(
-    index = 372,
+    index = 370,
     label = "[Li]N([Li])[Li]",
     molecule = "[Li]N([Li])[Li]",
     solute = SoluteData(
@@ -7750,7 +7696,7 @@ MAE error: 17825.699661946306 J/mol
 )
 
 entry(
-    index = 373,
+    index = 371,
     label = "[Li]S[Li]",
     molecule = "[Li]S[Li]",
     solute = SoluteData(
@@ -7777,7 +7723,7 @@ MAE error: 14074.624412572062 J/mol
 )
 
 entry(
-    index = 374,
+    index = 372,
     label = "[Li][N][Li]",
     molecule = "[Li][N][Li]",
     solute = SoluteData(
@@ -7804,7 +7750,7 @@ MAE error: 10328.611066654714 J/mol
 )
 
 entry(
-    index = 375,
+    index = 373,
     label = "[Li+]",
     molecule = "[Li+]",
     solute = SoluteData(
@@ -7831,7 +7777,7 @@ MAE error: 7438.656080524757 J/mol
 )
 
 entry(
-    index = 376,
+    index = 374,
     label = "[Li]O[CH]OC",
     molecule = "[Li]O[CH]OC",
     solute = SoluteData(
@@ -7858,7 +7804,7 @@ MAE error: 1588.9549457850856 J/mol
 )
 
 entry(
-    index = 377,
+    index = 375,
     label = "[Li]OCCC[CH2]",
     molecule = "[Li]OCCC[CH2]",
     solute = SoluteData(
@@ -7885,7 +7831,7 @@ MAE error: 1874.4812343067877 J/mol
 )
 
 entry(
-    index = 378,
+    index = 376,
     label = "[Li]S",
     molecule = "[Li]S",
     solute = SoluteData(
@@ -7912,7 +7858,7 @@ MAE error: 2364.4878644823566 J/mol
 )
 
 entry(
-    index = 379,
+    index = 377,
     label = "[Li]O[C]1CCCC1",
     molecule = "[Li]O[C]1CCCC1",
     solute = SoluteData(
@@ -7939,7 +7885,7 @@ MAE error: 1695.5397159638671 J/mol
 )
 
 entry(
-    index = 380,
+    index = 378,
     label = "[Li]O[C]1CCC1",
     molecule = "[Li]O[C]1CCC1",
     solute = SoluteData(
@@ -7966,7 +7912,7 @@ MAE error: 1707.8490919801459 J/mol
 )
 
 entry(
-    index = 381,
+    index = 379,
     label = "[Li]N[C]1CCC1",
     molecule = "[Li]N[C]1CCC1",
     solute = SoluteData(
@@ -7993,7 +7939,7 @@ MAE error: 1763.5139810965288 J/mol
 )
 
 entry(
-    index = 382,
+    index = 380,
     label = "[Li]N[C]1CC1",
     molecule = "[Li]N[C]1CC1",
     solute = SoluteData(
@@ -8020,7 +7966,7 @@ MAE error: 1882.3339060590101 J/mol
 )
 
 entry(
-    index = 383,
+    index = 381,
     label = "[Li]O[C]1OC(F)C(F)O1",
     molecule = "[Li]O[C]1OC(F)C(F)O1",
     solute = SoluteData(
@@ -8047,7 +7993,7 @@ MAE error: 1752.5103882751587 J/mol
 )
 
 entry(
-    index = 384,
+    index = 382,
     label = "[Li]O[C]1OC=CO1",
     molecule = "[Li]O[C]1OC=CO1",
     solute = SoluteData(
@@ -8074,7 +8020,7 @@ MAE error: 1653.9657058387363 J/mol
 )
 
 entry(
-    index = 385,
+    index = 383,
     label = "[Li]O[C]1OCC(C)O1",
     molecule = "[Li]O[C]1OCC(C)O1",
     solute = SoluteData(
@@ -8101,7 +8047,7 @@ MAE error: 1974.8837690790238 J/mol
 )
 
 entry(
-    index = 386,
+    index = 384,
     label = "[Li]O[C]1OCC(F)O1",
     molecule = "[Li]O[C]1OCC(F)O1",
     solute = SoluteData(
@@ -8128,7 +8074,7 @@ MAE error: 675.646551174844 J/mol
 )
 
 entry(
-    index = 387,
+    index = 385,
     label = "[Li]OC(=O)O[Li]",
     molecule = "[Li]OC(=O)O[Li]",
     solute = SoluteData(
@@ -8155,7 +8101,7 @@ MAE error: 4900.3742843270475 J/mol
 )
 
 entry(
-    index = 388,
+    index = 386,
     label = "[Li]OC(=O)OC=[CH]",
     molecule = "[Li]OC(=O)OC=[CH]",
     solute = SoluteData(
@@ -8182,9 +8128,9 @@ MAE error: 1612.9187243887168 J/mol
 )
 
 entry(
-    index = 389,
+    index = 387,
     label = "[Li]OC([CH2])C",
-    molecule = "[Li]OC(C)[CH2]",
+    molecule = "[Li]OC([CH2])C",
     solute = SoluteData(
         S = 2.474361072729989,
         B = 0.9913735035140631,
@@ -8209,7 +8155,7 @@ MAE error: 1348.14961500153 J/mol
 )
 
 entry(
-    index = 390,
+    index = 388,
     label = "[Li]OC=[CH]",
     molecule = "[Li]OC=[CH]",
     solute = SoluteData(
@@ -8236,9 +8182,9 @@ MAE error: 1366.5752005604725 J/mol
 )
 
 entry(
-    index = 391,
+    index = 389,
     label = "[Li]OC(F)C(F)O[C]=O",
-    molecule = "O=[C]OC(F)C(F)O[Li]",
+    molecule = "[Li]OC(F)C(F)O[C]=O",
     solute = SoluteData(
         S = 2.58270803120634,
         B = 1.6321581750688223,
@@ -8263,7 +8209,7 @@ MAE error: 1470.948987689809 J/mol
 )
 
 entry(
-    index = 392,
+    index = 390,
     label = "O=[C]OC(F)C=O",
     molecule = "O=[C]OC(F)C=O",
     solute = SoluteData(
@@ -8290,9 +8236,9 @@ MAE error: 467.87858951903075 J/mol
 )
 
 entry(
-    index = 393,
+    index = 391,
     label = "[Li]OCC(F)O[C]=O",
-    molecule = "O=[C]OC(F)CO[Li]",
+    molecule = "[Li]OCC(F)O[C]=O",
     solute = SoluteData(
         S = 3.1470503741480083,
         B = 2.557731704003467,
@@ -8317,9 +8263,9 @@ MAE error: 1909.548724646434 J/mol
 )
 
 entry(
-    index = 394,
+    index = 392,
     label = "[Li]OC(C)CO[C]=O",
-    molecule = "O=[C]OCC(C)O[Li]",
+    molecule = "[Li]OC(C)CO[C]=O",
     solute = SoluteData(
         S = 3.1691543249659886,
         B = 1.420269442042431,
@@ -8344,7 +8290,7 @@ MAE error: 1850.6825065110665 J/mol
 )
 
 entry(
-    index = 395,
+    index = 393,
     label = "[Li]OC(=O)OC[CH]C",
     molecule = "[Li]OC(=O)OC[CH]C",
     solute = SoluteData(
@@ -8371,7 +8317,7 @@ MAE error: 1517.5557793128646 J/mol
 )
 
 entry(
-    index = 396,
+    index = 394,
     label = "[Li]OC(=O)OC[CH]F",
     molecule = "[Li]OC(=O)OC[CH]F",
     solute = SoluteData(
@@ -8398,7 +8344,7 @@ MAE error: 2677.3986447794455 J/mol
 )
 
 entry(
-    index = 397,
+    index = 395,
     label = "[Li]OC(=O)OC(F)[CH]F",
     molecule = "[Li]OC(=O)OC(F)[CH]F",
     solute = SoluteData(
@@ -8425,9 +8371,9 @@ MAE error: 1796.719042792082 J/mol
 )
 
 entry(
-    index = 398,
+    index = 396,
     label = "[Li]OC(=O)OC([CH2])F",
-    molecule = "[Li]OC(=O)OC(F)[CH2]",
+    molecule = "[Li]OC(=O)OC([CH2])F",
     solute = SoluteData(
         S = 2.8053798857366523,
         B = 2.339792668935524,
@@ -8452,7 +8398,7 @@ MAE error: 2177.320320555762 J/mol
 )
 
 entry(
-    index = 399,
+    index = 397,
     label = "[Li]OC[CH]C",
     molecule = "[Li]OC[CH]C",
     solute = SoluteData(
@@ -8479,7 +8425,7 @@ MAE error: 1876.7580965533498 J/mol
 )
 
 entry(
-    index = 400,
+    index = 398,
     label = "[Li]OC[CH]F",
     molecule = "[Li]OC[CH]F",
     solute = SoluteData(
@@ -8506,9 +8452,9 @@ MAE error: 2885.636594382007 J/mol
 )
 
 entry(
-    index = 401,
+    index = 399,
     label = "[Li]OC([CH2])F",
-    molecule = "[Li]OC(F)[CH2]",
+    molecule = "[Li]OC([CH2])F",
     solute = SoluteData(
         S = 0.3366684965169991,
         B = 2.8697536667510146,
@@ -8533,9 +8479,9 @@ MAE error: 2725.1295161891144 J/mol
 )
 
 entry(
-    index = 402,
+    index = 400,
     label = "[Li]OC(F)CO[C]=O",
-    molecule = "O=[C]OCC(F)O[Li]",
+    molecule = "[Li]OC(F)CO[C]=O",
     solute = SoluteData(
         S = 2.688942896676623,
         B = 1.2399627500274106,
@@ -8560,7 +8506,7 @@ MAE error: 1434.6812764843457 J/mol
 )
 
 entry(
-    index = 403,
+    index = 401,
     label = "[Li]OCC[CH2]",
     molecule = "[Li]OCC[CH2]",
     solute = SoluteData(
@@ -8587,7 +8533,7 @@ MAE error: 3926.5664001170994 J/mol
 )
 
 entry(
-    index = 404,
+    index = 402,
     label = "[Li]OCCCC[CH2]",
     molecule = "[Li]OCCCC[CH2]",
     solute = SoluteData(
@@ -8614,7 +8560,7 @@ MAE error: 3102.1841388311627 J/mol
 )
 
 entry(
-    index = 405,
+    index = 403,
     label = "[Li]OCCCCC[CH2]",
     molecule = "[Li]OCCCCC[CH2]",
     solute = SoluteData(
@@ -8641,7 +8587,7 @@ MAE error: 1547.3660042562685 J/mol
 )
 
 entry(
-    index = 406,
+    index = 404,
     label = "[Li]NCC[CH2]",
     molecule = "[Li]NCC[CH2]",
     solute = SoluteData(
@@ -8668,7 +8614,7 @@ MAE error: 2074.7441136711905 J/mol
 )
 
 entry(
-    index = 407,
+    index = 405,
     label = "[Li]NCCC[CH2]",
     molecule = "[Li]NCCC[CH2]",
     solute = SoluteData(
@@ -8695,7 +8641,7 @@ MAE error: 2342.2892582144814 J/mol
 )
 
 entry(
-    index = 408,
+    index = 406,
     label = "[Li]O[S](=O)(C)C",
     molecule = "[Li]O[S](=O)(C)C",
     solute = SoluteData(
@@ -8722,9 +8668,9 @@ MAE error: 988.2498882629342 J/mol
 )
 
 entry(
-    index = 409,
+    index = 407,
     label = "[Li]OC=O",
-    molecule = "[Li]OC(=O)",
+    molecule = "[Li]OC=O",
     solute = SoluteData(
         S = 2.600238722956337,
         B = 2.17115813736515,
@@ -8749,7 +8695,7 @@ MAE error: 1503.8612392319003 J/mol
 )
 
 entry(
-    index = 410,
+    index = 408,
     label = "[Li]OC1OCCO1",
     molecule = "[Li]OC1OCCO1",
     solute = SoluteData(
@@ -8776,7 +8722,7 @@ MAE error: 2026.5145786532623 J/mol
 )
 
 entry(
-    index = 411,
+    index = 409,
     label = "C",
     molecule = "C",
     solute = SoluteData(
@@ -8803,7 +8749,7 @@ MAE error: 4689.699795146863 J/mol
 )
 
 entry(
-    index = 412,
+    index = 410,
     label = "CF",
     molecule = "CF",
     solute = SoluteData(
@@ -8830,7 +8776,7 @@ MAE error: 179.42050439551653 J/mol
 )
 
 entry(
-    index = 413,
+    index = 411,
     label = "CCl",
     molecule = "CCl",
     solute = SoluteData(
@@ -8857,7 +8803,7 @@ MAE error: 181.12632448440593 J/mol
 )
 
 entry(
-    index = 414,
+    index = 412,
     label = "O=C=O",
     molecule = "O=C=O",
     solute = SoluteData(
@@ -8884,7 +8830,7 @@ MAE error: 270.7342364979162 J/mol
 )
 
 entry(
-    index = 415,
+    index = 413,
     label = "[Li]OCO",
     molecule = "[Li]OCO",
     solute = SoluteData(
@@ -8911,9 +8857,9 @@ MAE error: 2493.6642777457128 J/mol
 )
 
 entry(
-    index = 416,
+    index = 414,
     label = "[CH2]CCS(=O)(=O)C",
-    molecule = "O=S(=O)(C)CC[CH2]",
+    molecule = "[CH2]CCS(=O)(=O)C",
     solute = SoluteData(
         S = 1.6567473534908763,
         B = 1.0380386748146124,
@@ -8938,7 +8884,7 @@ MAE error: 1815.932613448308 J/mol
 )
 
 entry(
-    index = 417,
+    index = 415,
     label = "[Li]OS(=O)(=C)C",
     molecule = "[Li]OS(=O)(=C)C",
     solute = SoluteData(
@@ -8965,9 +8911,9 @@ MAE error: 1413.8716382877265 J/mol
 )
 
 entry(
-    index = 418,
+    index = 416,
     label = "[CH2]CCC=O",
-    molecule = "O=CCC[CH2]",
+    molecule = "[CH2]CCC=O",
     solute = SoluteData(
         S = 0.657997340477045,
         B = 0.3752051495183913,
@@ -8992,9 +8938,9 @@ MAE error: 137.59185550321067 J/mol
 )
 
 entry(
-    index = 419,
+    index = 417,
     label = "C=COCC",
-    molecule = "CCOC=C",
+    molecule = "C=COCC",
     solute = SoluteData(
         S = 0.37502421823595655,
         B = 0.19029478748373274,
@@ -9019,7 +8965,7 @@ MAE error: 101.933301400903 J/mol
 )
 
 entry(
-    index = 420,
+    index = 418,
     label = "CCOC(=O)OCC",
     molecule = "CCOC(=O)OCC",
     solute = SoluteData(
@@ -9046,7 +8992,7 @@ MAE error: 195.85269952789312 J/mol
 )
 
 entry(
-    index = 421,
+    index = 419,
     label = "[Li]OCO[Li]",
     molecule = "[Li]OCO[Li]",
     solute = SoluteData(
@@ -9073,9 +9019,9 @@ MAE error: 4374.801931714737 J/mol
 )
 
 entry(
-    index = 422,
+    index = 420,
     label = "[Li]OC([O])=O",
-    molecule = "[Li]OC(=O)[O]",
+    molecule = "[Li]OC([O])=O",
     solute = SoluteData(
         S = 3.840078717400686,
         B = 1.1704621762379464,
@@ -9100,7 +9046,7 @@ MAE error: 2215.3862115331976 J/mol
 )
 
 entry(
-    index = 423,
+    index = 421,
     label = "[Li]OC",
     molecule = "[Li]OC",
     solute = SoluteData(
@@ -9127,7 +9073,7 @@ MAE error: 1864.5411742329293 J/mol
 )
 
 entry(
-    index = 424,
+    index = 422,
     label = "[Li]NC",
     molecule = "[Li]NC",
     solute = SoluteData(
@@ -9154,7 +9100,7 @@ MAE error: 2335.385458338196 J/mol
 )
 
 entry(
-    index = 425,
+    index = 423,
     label = "CNC",
     molecule = "CNC",
     solute = SoluteData(
@@ -9181,7 +9127,7 @@ MAE error: 396.0031268099676 J/mol
 )
 
 entry(
-    index = 426,
+    index = 424,
     label = "CO",
     molecule = "CO",
     solute = SoluteData(
@@ -9208,7 +9154,7 @@ MAE error: 469.6089538317632 J/mol
 )
 
 entry(
-    index = 427,
+    index = 425,
     label = "CN",
     molecule = "CN",
     solute = SoluteData(
@@ -9235,7 +9181,7 @@ MAE error: 811.3706176779143 J/mol
 )
 
 entry(
-    index = 428,
+    index = 426,
     label = "[Li]CC",
     molecule = "[Li]CC",
     solute = SoluteData(
@@ -9262,7 +9208,7 @@ MAE error: 1871.764694430902 J/mol
 )
 
 entry(
-    index = 429,
+    index = 427,
     label = "[Li]OC[CH2]",
     molecule = "[Li]OC[CH2]",
     solute = SoluteData(
@@ -9289,7 +9235,7 @@ MAE error: 4592.807071031406 J/mol
 )
 
 entry(
-    index = 430,
+    index = 428,
     label = "[Li]OC(=O)OCCOC(=O)O[Li]",
     molecule = "[Li]OC(=O)OCCOC(=O)O[Li]",
     solute = SoluteData(
@@ -9316,7 +9262,7 @@ MAE error: 1996.8260608697303 J/mol
 )
 
 entry(
-    index = 431,
+    index = 429,
     label = "[Li]OCCO[C]=O",
     molecule = "[Li]OCCO[C]=O",
     solute = SoluteData(
@@ -9343,7 +9289,7 @@ MAE error: 1891.0525119253166 J/mol
 )
 
 entry(
-    index = 432,
+    index = 430,
     label = "[Li][NH]",
     molecule = "[Li][NH]",
     solute = SoluteData(
@@ -9370,7 +9316,7 @@ MAE error: 4127.405057868225 J/mol
 )
 
 entry(
-    index = 433,
+    index = 431,
     label = "[Li]OCF",
     molecule = "[Li]OCF",
     solute = SoluteData(
@@ -9397,7 +9343,7 @@ MAE error: 2000.6193898551735 J/mol
 )
 
 entry(
-    index = 434,
+    index = 432,
     label = "[Li]F",
     molecule = "[Li]F",
     solute = SoluteData(
@@ -9424,7 +9370,7 @@ MAE error: 5712.553232543548 J/mol
 )
 
 entry(
-    index = 435,
+    index = 433,
     label = "[Li]OCCl",
     molecule = "[Li]OCCl",
     solute = SoluteData(
@@ -9451,7 +9397,7 @@ MAE error: 1425.7947129716952 J/mol
 )
 
 entry(
-    index = 436,
+    index = 434,
     label = "[Li]O[CH2]",
     molecule = "[Li]O[CH2]",
     solute = SoluteData(
@@ -9478,7 +9424,7 @@ MAE error: 2020.2331200330404 J/mol
 )
 
 entry(
-    index = 437,
+    index = 435,
     label = "[Li]N[CH2]",
     molecule = "[Li]N[CH2]",
     solute = SoluteData(
@@ -9505,7 +9451,7 @@ MAE error: 2174.0738857672663 J/mol
 )
 
 entry(
-    index = 438,
+    index = 436,
     label = "[Li]NC[CH2]",
     molecule = "[Li]NC[CH2]",
     solute = SoluteData(
@@ -9532,7 +9478,7 @@ MAE error: 3039.0797324349082 J/mol
 )
 
 entry(
-    index = 439,
+    index = 437,
     label = "[Li]OC(=O)OC[CH2]",
     molecule = "[Li]OC(=O)OC[CH2]",
     solute = SoluteData(
@@ -9559,7 +9505,7 @@ MAE error: 1566.4078076199085 J/mol
 )
 
 entry(
-    index = 440,
+    index = 438,
     label = "[Li]O[C](OC)OC",
     molecule = "[Li]O[C](OC)OC",
     solute = SoluteData(
@@ -9586,9 +9532,9 @@ MAE error: 9363.4540737332 J/mol
 )
 
 entry(
-    index = 441,
+    index = 439,
     label = "[CH2]CO",
-    molecule = "OC[CH2]",
+    molecule = "[CH2]CO",
     solute = SoluteData(
         S = 0.5015557418739555,
         B = 0.3670658803053081,
@@ -9609,5 +9555,275 @@ fit to dGsolv298 for library solvents:
 "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
 "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
 MAE error: 323.5829169621791 J/mol
+""",
+)
+
+entry(
+    index = 440,
+    label = "[Li]OO",
+    molecule = "[Li]OO",
+    solute = SoluteData(
+        S = 1.0890885327566928,
+        B = 2.220477091727068,
+        E = 2.8855363620588586,
+        L = 8.186856137979111,
+        A = 2.4946402837380584,
+        V = 0.36119999999999997,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 3568.8207356703847 J/mol
+""",
+)
+
+entry(
+    index = 441,
+    label = "O=C1O[CH]C(F)O1",
+    molecule = "O=C1OC(F)[CH]O1",
+    solute = SoluteData(
+        S = 0.9344145893213571,
+        B = 0.247623024547937,
+        E = 0.7362532956173921,
+        L = 3.267239075882746,
+        A = 0.0640835949200346,
+        V = 0.5519000000000002,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 458.58006346007124 J/mol
+""",
+)
+
+entry(
+    index = 442,
+    label = "O=C1O[C](F)C(F)O1",
+    molecule = "O=C1O[C](F)C(F)O1",
+    solute = SoluteData(
+        S = 0.7655251840604846,
+        B = 0.1101364231969707,
+        E = 0.48907772098055147,
+        L = 2.6877948102593137,
+        A = 0.07996832416474363,
+        V = 0.5695000000000002,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 363.1742659556204 J/mol
+""",
+)
+
+entry(
+    index = 443,
+    label = "[CH2]OC(=O)OC",
+    molecule = "O=C(OC)O[CH2]",
+    solute = SoluteData(
+        S = 0.6070331164714177,
+        B = 0.22660763205977227,
+        E = 0.32609262906807057,
+        L = 2.2655467978691646,
+        A = 0.03436290833230774,
+        V = 0.6428999999999999,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 159.07778592074789 J/mol
+""",
+)
+
+entry(
+    index = 444,
+    label = "CC#N",
+    molecule = "CC#N",
+    solute = SoluteData(
+        S = 0.9208351564613124,
+        B = 0.4350580464677394,
+        E = 0.2900111501581211,
+        L = 2.134473367509988,
+        A = 0.09146615143401224,
+        V = 0.4042,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 338.24106930860614 J/mol
+""",
+)
+
+entry(
+    index = 445,
+    label = "[CH2]C#N",
+    molecule = "[CH2]C#N",
+    solute = SoluteData(
+        S = 0.7226294628586785,
+        B = 0.275263364146514,
+        E = 0.36098612048535306,
+        L = 1.6565672899562982,
+        A = 0.08638404095819292,
+        V = 0.38270000000000004,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 327.26695136535136 J/mol
+""",
+)
+
+entry(
+    index = 446,
+    label = "[Li]N=[C]C",
+    molecule = "[Li]N=[C]C",
+    solute = SoluteData(
+        S = 1.4513173966915625,
+        B = -0.27835764694942744,
+        E = -1.2673127438243226,
+        L = -2.6006955393353177,
+        A = 0.7770304835469325,
+        V = 0.5609000000000001,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 2241.244088637031 J/mol
+""",
+)
+
+entry(
+    index = 447,
+    label = "[Li]N=CC",
+    molecule = "[Li]N=CC",
+    solute = SoluteData(
+        S = 2.3911832766581886,
+        B = 1.0992931819767824,
+        E = 5.293383956077945,
+        L = 10.95579513481804,
+        A = 1.180528540913622,
+        V = 0.5824,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 1736.8183201862364 J/mol
+""",
+)
+
+entry(
+    index = 448,
+    label = "[Li]N=C",
+    molecule = "[Li]N=C",
+    solute = SoluteData(
+        S = 2.4252244262290703,
+        B = 1.9065820586546751,
+        E = 1.3360802721467124,
+        L = 9.310291553059947,
+        A = 1.0115361254972879,
+        V = 0.44150000000000006,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 1758.8412270840297 J/mol
+""",
+)
+
+entry(
+    index = 449,
+    label = "COCCOC",
+    molecule = "COCCOC",
+    solute = SoluteData(
+        S = 0.6922832073165028,
+        B = 0.6043092756084932,
+        E = 0.37153850418665363,
+        L = 2.5907705659920097,
+        A = -0.024079786061062106,
+        V = 0.7896000000000004,
+    ),
+    shortDesc = """COSMO fit""",
+    longDesc =
+"""
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+MAE error: 209.3206888575568 J/mol
 """,
 )
