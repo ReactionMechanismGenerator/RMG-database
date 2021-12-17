@@ -129,7 +129,7 @@ entry(
     group = 
 """
 1 *1 C2s                     u0 p1 r0 {2,S} {3,S}
-2    [F1s,Br1s,Cl1s,I1s]     u0 r0 {1,S}
+2    [F1s,Cl1s,Br1s,I1s]     u0 r0 {1,S}
 3    [H,F1s,Cl1s,Br1s,I1s,C] u0 r0 {1,S}
 4 *2 H                       u0 r0 {5,S}
 5 *3 H                       u0 r0 {4,S}
@@ -241,7 +241,7 @@ entry(
     group = 
 """
 1 *1 C2s                 u0 p1 {2,S} {3,S}
-2    [Cl1s,H,Br1s]       u0 {1,S}
+2    [Cl1s,Br1s,H]       u0 {1,S}
 3    F1s                 u0 {1,S}
 4 *2 [F1s,Cl1s,Br1s,I1s] u0 {5,S}
 5 *3 H                   u0 {4,S}
@@ -647,7 +647,7 @@ entry(
     group = 
 """
 1 *1 C2s                     u0 p1 r0 {2,S} {3,S}
-2    [Br1s,H,Cl1s,I1s]       u0 r0 {1,S}
+2    [H,Cl1s,Br1s,I1s]       u0 r0 {1,S}
 3    [H,F1s,Cl1s,Br1s,I1s,C] u0 r0 {1,S}
 4 *2 [Cl1s,Br1s,I1s]         u0 r0 {5,S}
 5 *3 [Cl1s,Br1s,I1s]         u0 r0 {4,S}
@@ -1006,7 +1006,7 @@ entry(
     group = 
 """
 1 *1 C2s           u0 p1 r0 {2,S} {3,S}
-2    [Cl1s,H,Br1s] u0 r0 {1,S}
+2    [Cl1s,Br1s,H] u0 r0 {1,S}
 3    F1s           u0 r0 {1,S}
 4 *2 Cs            u0 {5,S}
 5 *3 H             u0 r0 {4,S}
@@ -1021,7 +1021,7 @@ entry(
 """
 1 *1 C2s                   u0 p1 {2,S} {3,S}
 2    [H,F1s,Cl1s,Br1s,I1s] u0 {1,S}
-3    [C,H,Cl1s,Br1s]       u0 {1,S}
+3    [C,Cl1s,Br1s,H]       u0 {1,S}
 4 *2 Cs                    u0 {5,S}
 5 *3 H                     u0 {4,S}
 """,
@@ -1049,7 +1049,7 @@ entry(
 """
 1 *1 C2s                   u0 p1 {2,S} {3,S}
 2    [H,F1s,Cl1s,Br1s,I1s] u0 {1,S}
-3    [C,H,Br1s]            u0 {1,S}
+3    [C,Br1s,H]            u0 {1,S}
 4 *2 Cs                    u0 {5,S}
 5 *3 H                     u0 {4,S}
 """,
@@ -1063,7 +1063,7 @@ entry(
 """
 1 *1 C2s        u0 p1 {2,S} {3,S}
 2    F1s        u0 {1,S}
-3    [C,H,Br1s] u0 {1,S}
+3    [C,Br1s,H] u0 {1,S}
 4 *2 Cs         u0 r0 {5,S}
 5 *3 H          u0 {4,S}
 """,
@@ -1077,7 +1077,7 @@ entry(
 """
 1 *1 C2s         u0 p1 {2,S} {3,S}
 2    [Cl1s,Br1s] u0 {1,S}
-3    [C,H,Br1s]  u0 {1,S}
+3    [C,Br1s,H]  u0 {1,S}
 4 *2 Cs          u0 {5,S}
 5 *3 H           u0 {4,S}
 """,
@@ -1240,7 +1240,7 @@ entry(
 
 entry(
     index = 83,
-    label = "CY_N-2Br1sCl1sF1sHI1s->H_Ext-4CbCdCsCt-R",
+    label = "CY_N-2Br1sCl1sF1sHI1s->H_Ext-4Cs-R",
     group = 
 """
 1 *1 C2s                 u0 p1 {2,S} {3,S}
@@ -1288,7 +1288,7 @@ entry(
 """
 1 *1 C2s u0 p1 r0 {2,S} {3,S}
 2    F1s u0 r0 {1,S}
-3    F1s u0 r0 {1,S}
+3    F1s u0 {1,S}
 4 *2 Cs  u0 r0 {5,S}
 5 *3 F1s u0 r0 {4,S}
 """,
@@ -1302,7 +1302,7 @@ entry(
 """
 1 *1 C2s  u0 p1 r0 {2,S} {3,S}
 2    F1s  u0 r0 {1,S}
-3    F1s  u0 r0 {1,S}
+3    F1s  u0 {1,S}
 4 *2 Cs   u0 r0 {5,S}
 5 *3 Br1s u0 r0 {4,S}
 """,
@@ -1357,7 +1357,7 @@ entry(
     group = 
 """
 1 *1 C2s                     u0 p1 {2,S} {3,S}
-2    [F1s,Br1s,Cl1s,I1s]     u0 {1,S}
+2    [F1s,Cl1s,Br1s,I1s]     u0 {1,S}
 3    [H,F1s,Cl1s,Br1s,I1s,C] u0 {1,S}
 4 *2 O                       u0 {5,S}
 5 *3 H                       u0 {4,S}
@@ -1483,7 +1483,7 @@ entry(
     group = 
 """
 1 *1 C2s                     u0 p1 r0 {2,S} {3,S}
-2    [F1s,Br1s,Cl1s,I1s]     u0 r0 {1,S}
+2    [F1s,Cl1s,Br1s,I1s]     u0 r0 {1,S}
 3    [H,F1s,Cl1s,Br1s,I1s,C] u0 r0 {1,S}
 4 *2 Cs                      u0 r0 {5,S}
 5 *3 Cs                      u0 r0 {4,S}
@@ -1553,7 +1553,7 @@ entry(
     group = 
 """
 1 *1 C2s                     u0 p1 r0 {2,S} {3,S}
-2    [Br1s,H,Cl1s,I1s]       u0 r0 {1,S}
+2    [H,Cl1s,Br1s,I1s]       u0 r0 {1,S}
 3    [H,F1s,Cl1s,Br1s,I1s,C] u0 r0 {1,S}
 4 *2 O                       u0 r0 {5,S}
 5 *3 Cs                      u0 r0 {4,S}
@@ -1646,7 +1646,7 @@ L1: Root
                 L5: CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_5Cl1sF1s->F1s
                 L5: CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_N-5Cl1sF1s->F1s
         L3: CY_N-2Br1sCl1sF1sHI1s->H
-            L4: CY_N-2Br1sCl1sF1sHI1s->H_Ext-4CbCdCsCt-R
+            L4: CY_N-2Br1sCl1sF1sHI1s->H_Ext-4Cs-R
             L4: CY_N-2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Cl1s
             L4: CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s
                 L5: CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_5Br1sF1s->F1s
