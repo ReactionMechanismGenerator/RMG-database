@@ -95,22 +95,6 @@ entry(
 )
 
 entry(
-    index = 4,
-    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_Ext-1C-R",
-    group = 
-"""
-1 *3 C               u0 r0 {2,S} {3,S} {7,[S,D,T,B,Q]}
-2 *4 C               u0 r0 {1,S} {4,S}
-3 *2 C               u0 r0 {1,S} {5,S}
-4 *5 O               u0 r0 {2,S} {6,S}
-5 *1 [Cl1s,Br1s]     u0 r0 {3,S}
-6 *6 H               u0 r0 {4,S}
-7    R!H             ux {1,[S,D,T,B,Q]}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 5,
     label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s",
     group = 
@@ -397,7 +381,6 @@ L1: Root
     L2: Root_1R!H->C
         L3: Root_1R!H->C_5Br1sCl1sF1sH->H
         L3: Root_1R!H->C_N-5Br1sCl1sF1sH->H
-            L4: Root_1R!H->C_N-5Br1sCl1sF1sH->H_Ext-1C-R
             L4: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s
                 L5: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R
                     L6: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_7R!H->O
