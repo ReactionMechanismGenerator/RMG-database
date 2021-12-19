@@ -37,10 +37,11 @@ entry(
     label = "Root",
     group = 
 """
-1 *1 C               u0 {2,D} {4,S}
+1 *1 C               u0 {2,D} {4,S} {5,S}
 2 *2 C               u0 {1,D} {3,D}
 3 *3 O               u0 {2,D}
 4    [F1s,Cl1s,Br1s] u0 p3 {1,S}
+5    R               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -50,10 +51,11 @@ entry(
     label = "RFC=C=O",
     group = 
 """
-1 *1 C   u0 {2,D} {4,S}
+1 *1 C   u0 {2,D} {4,S} {5,S}
 2 *2 C   u0 {1,D} {3,D}
 3 *3 O   u0 {2,D}
 4    F1s u0 p3 {1,S}
+5    R   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -63,10 +65,11 @@ entry(
     label = "RClC=C=O",
     group = 
 """
-1 *1 C    u0 {2,D} {4,S}
+1 *1 C    u0 {2,D} {4,S} {5,S}
 2 *2 C    u0 {1,D} {3,D}
 3 *3 O    u0 {2,D}
 4    Cl1s u0 p3 {1,S}
+5    R    u0 {1,S}
 """,
     kinetics = None,
 )
@@ -76,10 +79,11 @@ entry(
     label = "RBrC=C=O",
     group = 
 """
-1 *1 C    u0 {2,D} {4,S}
+1 *1 C    u0 {2,D} {4,S} {5,S}
 2 *2 C    u0 {1,D} {3,D}
 3 *3 O    u0 {2,D}
 4    Br1s u0 p3 {1,S}
+5    R    u0 {1,S}
 """,
     kinetics = None,
 )
