@@ -30,7 +30,7 @@ cd $TARGET_DIR
 
 # create a new branch in RMG-tests with the name equal to
 # the branch name of the tested RMG-database branch:
-if [ "$RMG_PY_BRANCH" == "master" ]
+if [ "$RMG_PY_BRANCH" == "main" ]
 then
   RMGTESTSBRANCH=rmgdb-$BRANCH
 else
