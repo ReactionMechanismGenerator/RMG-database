@@ -77,42 +77,97 @@ multiplicity [1]
     kinetics = None,
 )
 
+
 entry(
     index = 5,
-    label = "O",
+    label = "CH4",
     group =
 """
 multiplicity [1]
-1 *1 O u0 p2 c0 {2,S}
-2 *2 R u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 6,
-    label = "O-H",
-    group =
-"""
-multiplicity [1]
-1 *1 O u0 p2 c0 {2,S}
-2 *2 H u0 p0 c0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 7,
-    label = "H2O",
-    group =
-"""
-multiplicity [1]
-1 *1 O u0 p2 c0 {2,S} {3,S}
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
 """,
     kinetics = None,
 )
+
+entry(
+    index = 5,
+    label = "C2H6",
+    group =
+"""
+multiplicity [1]
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {2,S}
+7    H u0 p0 c0 {2,S}
+8    H u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "C3H8",
+    group =
+"""
+multiplicity [1]
+1  *1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3     C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+4  *2 H u0 p0 c0 {1,S}
+5     H u0 p0 c0 {1,S}
+6     H u0 p0 c0 {1,S}
+7     H u0 p0 c0 {2,S}
+8     H u0 p0 c0 {2,S}
+9     H u0 p0 c0 {3,S}
+10    H u0 p0 c0 {3,S}
+11    H u0 p0 c0 {3,S}
+""",
+    kinetics = None,
+)
+
+#entry(
+#    index = 5,
+#    label = "O",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 O u0 p2 c0 {2,S}
+#2 *2 R u0 {1,S}
+#""",
+#    kinetics = None,
+#)
+
+#entry(
+#    index = 6,
+#    label = "O-H",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 O u0 p2 c0 {2,S}
+#2 *2 H u0 p0 c0 {1,S}
+#""",
+#    kinetics = None,
+#)
+
+#entry(
+#    index = 7,
+#    label = "H2O",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 O u0 p2 c0 {2,S} {3,S}
+#2 *2 H u0 p0 c0 {1,S}
+#3    H u0 p0 c0 {1,S}
+#""",
+#    kinetics = None,
+#)
 
 # entry(
 #     index = 8,
@@ -125,94 +180,98 @@ multiplicity [1]
 #     kinetics = None,
 # )
 
-entry(
-    index = 9,
-    label = "O-N",
-    group =
-"""
-multiplicity [1]
-1 *1 O u0 p2 c0 {2,S}
-2 *2 N u0 p1 c0 {1,S}
-""",
-    kinetics = None,
-)
+#entry(
+#    index = 9,
+#    label = "O-N",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 O u0 p2 c0 {2,S}
+#2 *2 N u0 p1 c0 {1,S}
+#""",
+#    kinetics = None,
+#)
 
-entry(
-    index = 10,
-    label = "O-C",
-    group =
-"""
-multiplicity [1]
-1 *1 O u0 p2 c0 {2,S}
-2 *2 C u0 p0 c0 {1,S}
-""",
-    kinetics = None,
-)
+#entry(
+#    index = 10,
+#    label = "O-C",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 O u0 p2 c0 {2,S}
+#2 *2 C u0 p0 c0 {1,S}
+#""",
+#    kinetics = None,
+#)
 
-entry(
-    index = 11,
-    label = "N",
-    group =
-"""
-multiplicity [1]
-1 *1 N u0 px cx {2,S}
-2 *2 R u0 {1,S}
-""",
-    kinetics = None,
-)
+#entry(
+#    index = 11,
+#    label = "N",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 N u0 px cx {2,S}
+#2 *2 R u0 {1,S}
+#""",
+#    kinetics = None,
+#)
 
-entry(
-    index = 12,
-    label = "N-C",
-    group =
-"""
-multiplicity [1]
-1 *1 N u0 p2 c0 {2,S}
-2 *2 C u0 p0 c0 {1,S}
-""",
-    kinetics = None,
-)
+#entry(
+#    index = 12,
+#    label = "N-C",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 N u0 p2 c0 {2,S}
+#2 *2 C u0 p0 c0 {1,S}
+#""",
+#    kinetics = None,
+#)
 
-entry(
-    index = 13,
-    label = "N-H",
-    group =
-"""
-multiplicity [1]
-1 *1 N u0 p2 c0 {2,S}
-2 *2 H u0 p0 c0 {1,S}
-""",
-    kinetics = None,
-)
+#entry(
+#    index = 13,
+#    label = "N-H",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 N u0 p2 c0 {2,S}
+#2 *2 H u0 p0 c0 {1,S}
+#""",
+#    kinetics = None,
+#)
 
-entry(
-    index = 14,
-    label = "C-H",
-    group =
-"""
-multiplicity [1]
-1 *1 C u0 p0 c0 {2,S}
-2 *2 H u0 p0 c0 {1,S}
-""",
-    kinetics = None,
-)
+#entry(
+#    index = 14,
+#    label = "C-H",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 C u0 p0 c0 {2,S}
+#2 *2 H u0 p0 c0 {1,S}
+#""",
+#    kinetics = None,
+#)
 
 tree(
 """
 L1: Adsorbate
     L2: H2
-    L2: O
-        L3: O-H
-            L4: H2O
-        L3: O-N
-        L3: O-C
-    L2: N
-        L3: N-C
-        L3: N-H
-    L2: C-H
+    L2: CH4
+    L2: C2H6
+    L2: C3H8
 L1: VacantSite1
-
 L1: VacantSite2
+"""
+)
+
+forbidden(
+    label = "H2O",
+    group =
+"""
+multiplicity [1]
+1 *1 O u0 p2 c0 {2,S} {3,S}
+2 *2 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
 """
 )
 

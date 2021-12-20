@@ -9,46 +9,98 @@ entry(
     index = 1,
     label = "Abstracting;Donating",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e15, 'm^2/(mol*s)'),
+        A = (3.2e17, 'm^2/(mol*s)'),
         n = 0,
-        alpha = 0,
-        E0 = (80., 'kJ/mol'),
+        alpha = 0.37,
+        E0 = (99.3, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-"Arrhenius preexponential values for surface recombination...reactions are, in the SI system,... 10^13 - 10^14 m2/mol/s ...for bimolecular reactions"
-from page 54 of "Silicon epitaxy"
-Author:	Danilo Crippa; Daniel L Rode; Maurizio Masi
-Publisher:	San Diego : Academic Press, 2001.
-Series:	Semiconductors and semimetals, v. 72.
-
-Ea made up.
-
-CFG: I bumped the prefactor from E13 to E15. The Delgado mechanism has pre-exponential factors
-on the order of 1E17 for H abstraction. This rule is specific for non-H abstraction.
-There is no instance of non-H abstraction in Delgado, so I reduced it from 1E17 to 1E15. Completely arbitrary!
-    """,
+These numbers for the general BEP are from the abstraction reaction of C-H to C.
+BEP values from "Quantifying the Impact of Parametric Uncertainty on Automatic Mechanism Generation for CO2 Hydrogenation on Ni(111)", Kreitz et al., JACS Au, 2021, 1, 10, 1656-1673 DOI:10.1021/jacsau.1c00276
+From Table 7 includes beta and alpha position. Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 3.16e-9 mol cm^-2 (Kreitz et al. 2021, DOI: 10.1021/jacsau.1c00276)
+    """
 )
 
 entry(
-    index = 1,
+    index = 2,
     label = "Abstracting;*R-H",
     kinetics = SurfaceArrheniusBEP(
-        A = (5.0e17, 'm^2/(mol*s)'),
+        A = (3.2e17, 'm^2/(mol*s)'),
         n = 0,
-        alpha = 0.0, #0.26
-        E0 = (40.0, 'kJ/mol'), #34.3
+        alpha = 0.37, 
+        E0 = (99.3, 'kJ/mol'), 
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Made up""",
     longDesc = u"""
-CFG increased the pre-exponential factor from 1E13, which is what we originally had,
-based upon the above citation, to 1E17, to bring it closer to the values in the
-Deutschmann_Ni (Delgado) mechanism
+These numbers for the general BEP are from the abstraction reaction of C-H to C.
+BEP values from "Quantifying the Impact of Parametric Uncertainty on Automatic Mechanism Generation for CO2 Hydrogenation on Ni(111)", Kreitz et al., JACS Au, 2021, 1, 10, 1656-1673 DOI:10.1021/jacsau.1c00276
+From Table 7 includes beta and alpha position. Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 3.16e-9 mol cm^-2 (Kreitz et al. 2021, DOI: 10.1021/jacsau.1c00276)
+    """
+)
+
+entry(
+    index = 3,
+    label = "O;*C-H",
+    kinetics = SurfaceArrheniusBEP(
+        A = (3.2e17, 'm^2/(mol*s)'),
+        n = 0,
+        alpha = 0.94,
+        E0 = (129.3, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Made up""",
+    longDesc = u"""
+These numbers for the BEP are from the abstraction reaction of C-H to O.
+BEP values from "Combined DFT, Microkinetic, and Experimental Study of Ethanol Steam Reforming on Pt", Sutton et al., The Journal of Physical Chemistry C, 2013, 117, 4691-4706, DOI:10.1021/jp312593u
+From Table 7 includes beta and alpha position. Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 3.16e-9 mol cm^-2 (Kreitz et al. 2021, DOI: 10.1021/jacsau.1c00276)
+    """
+)
+
+entry(
+    index = 4,
+    label = "O;*OH",
+    kinetics = SurfaceArrheniusBEP(
+        A = (3.2e17, 'm^2/(mol*s)'),
+        n = 0,
+        alpha = 0.65, 
+        E0 = (15.4, 'kJ/mol'), 
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Made up""",
+    longDesc = u"""
+These numbers for the BEP are from the abstraction reaction of O-H to O.
+BEP values from "Combined DFT, Microkinetic, and Experimental Study of Ethanol Steam Reforming on Pt", Sutton et al., The Journal of Physical Chemistry C, 2013, 117, 4691-4706, DOI:10.1021/jp312593u
+From Table 7 includes beta and alpha position. Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 3.16e-9 mol cm^-2 (Kreitz et al. 2021, DOI: 10.1021/jacsau.1c00276)
+    """
+)
+
+entry(
+    index = 5,
+    label = "C;*C-H",
+    kinetics = SurfaceArrheniusBEP(
+        A = (3.2e17, 'm^2/(mol*s)'),
+        n = 0,
+        alpha = 0.37,
+        E0 = (99.3, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Made up""",
+    longDesc = u"""
+These numbers are from the abstraction reaction of C-H to C.
+BEP values from "Quantifying the Impact of Parametric Uncertainty on Automatic Mechanism Generation for CO2 Hydrogenation on Ni(111)", Kreitz et al., JACS Au, 2021, 1, 10, 1656-1673 DOI:10.1021/jacsau.1c00276
+From Table 7 includes beta and alpha position. Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 3.16e-9 mol cm^-2 (Kreitz et al. 2021, DOI: 10.1021/jacsau.1c00276)
     """
 )

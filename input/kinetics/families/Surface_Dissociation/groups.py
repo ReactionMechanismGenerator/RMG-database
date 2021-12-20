@@ -5,7 +5,7 @@ name = "Surface_Dissociation/groups"
 shortDesc = u""
 longDesc = u"""
 Surface bond fission of one species into two distinct adsorbates. Atom *1 is bonded to the surface (*3). The image below shows a single bond, but single, double, and triple are possible. What matters is that the bond between *1 and *2 must be single.
-    # NOTE: we should probably include vdW, too!
+
 
  *1--*2                 *1     *2
   |            ---->    ||      |
@@ -94,7 +94,7 @@ entry(
     group =
 """
 1 *1 C   u0 {2,S} {3,[S,D,T]}
-2 *2 O   u0 {1,S}
+2 *2 O   u0 {1,S} 
 3 *3 Xo  u0 {1,[S,D,T]}
 """,
     kinetics = None,
@@ -163,102 +163,25 @@ entry(
 
 entry(
     index = 12,
-    label = "CH",
+    label = "C-C",
     group =
 """
-1 *1 C   u0 {2,S} {3,T}
-2 *2 H   u0 {1,S}
-3 *3 Xo  u0 {1,T}
+1 *1 C   u0 {2,S} {3,[S,D,T]}
+2 *2 C   u0 {1,S}
+3 *3 Xo  u0 {1,[S,D,T]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 13,
-    label = "CH2",
-    group =
-"""
-1 *1 C   u0 {2,S} {3,D} {4,S}
-2 *2 H   u0 {1,S}
-3 *3 Xo  u0 {1,D}
-4    H   u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 14,
-    label = "CH3",
-    group =
-"""
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H   u0 {1,S}
-3 *3 Xo  u0 {1,S}
-4    H   u0 {1,S}
-5    H   u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 15,
     label = "C-OH",
     group =
 """
-1 *1 C   u0 {2,S} {3,S}
-2 *2 O   u0 {1,S} {4,S}
-3 *3 Xo  u0 {1,S}
+1 *1 C   u0 {2,S} {3,[S,D,T]}
+2 *2 O   u0 p2 {1,S} {4,S}
+3 *3 Xo  u0 {1,[S,D,T]}
 4    H   u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 16,
-    label = "O-C=O",
-    group =
-"""
-1 *1 O   u0 {2,S} {3,S}
-2 *2 C   u0 {1,S} {4,D}
-3 *3 Xo  u0 {1,S}
-4    O   u0 {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 17,
-    label = "O-N",
-    group =
-"""
-1 *1 O  u0 {2,S} {3,S}
-2 *2 N  u0 {1,S}
-3 *3 Xo u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 18,
-    label = "O-N=O",
-    group =
-"""
-1 *1 O  u0 {2,S} {3,S}
-2 *2 N  u0 {1,S} {4,D}
-3 *3 Xo u0 {1,S}
-4    O  u0 {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 19,
-    label = "N-N",
-    group =
-"""
-1 *1 N  u0 {2,S} {3,D}
-2 *2 N  u0 {1,S}
-3 *3 Xo u0 {1,D}
 """,
     kinetics = None,
 )
@@ -269,21 +192,15 @@ tree(
 L1: Combined
     L2: C
         L3: C-H
-            L4: CH
-            L4: CH2
-            L4: CH3
         L3: C-O
-            L4: C-OH
+		L4: C-OH
+	L3: C-C
     L2: O
         L3: O-H
         L3: O-C
-            L4: O-C=O
-        L3: O-N
-            L4: O-N=O
     L2: N
         L3: N-H2
         L3: N-H
-        L3: N-N
 L1: VacantSite
 """
 )

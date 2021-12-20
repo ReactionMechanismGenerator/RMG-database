@@ -18,17 +18,19 @@ so k should be in (m2/mol/s).
 
 template(reactants=["Combined", "Adsorbate1"], products=["Adsorbate2","Adsorbate3"], ownReverse=False)
 
-reverse = "Surface_Abstraction_reverse_Beta_vdW"
+reverse = "Surface_Abstraction_reverse_Beta_double_vdW"
 
 reactantNum=2
 productNum=2
 
 recipe(actions=[
     ['FORM_BOND', '*3', 1, '*4'],
-    ['CHANGE_BOND', '*1', -1, '*5'],
+    ['BREAK_BOND', '*1', 1, '*5'],
+    ['FORM_BOND', '*1', 0, '*5'],
     ['CHANGE_BOND', '*1', 1, '*2'],
     ['BREAK_BOND', '*2', 1, '*3'],
-    ['CHANGE_BOND', '*4',-1,'*6'],
+    ['BREAK_BOND', '*4',1,'*6'],
+    ['FORM_BOND', '*4',0,'*6'],
 ])
 
 entry(
@@ -101,4 +103,20 @@ L1: Combined
 L1: Adsorbate1
     L2: OH
 """
+)
+
+forbidden(
+    label = "CH3X",
+    group =
+"""
+1 *4 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5 *6 Xo u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""CH4 adsorbs on Ni but doesn't lead to anything, that's why it is forbidden BK""",
+    longDesc =
+u"""
+""",
 )

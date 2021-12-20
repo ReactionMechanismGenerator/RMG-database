@@ -8,8 +8,8 @@ Surface abstraction of one atom to another adsorbate. The bond fission occurs no
 
 
  *1-*2--*3  *4            *1=*2   *3-*4
-  |         ||       ---->   :        |
-~*5~ +    ~*6~~           ~*5~   +  ~*6~~
+  |         ||       ---->   :      |
+~*5~ +    ~*6~~           ~*5~ +  ~*6~~
 
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m2) * (mol/m3)

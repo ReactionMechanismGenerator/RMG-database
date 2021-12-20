@@ -35,8 +35,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H u0 px cx {2,S}
-2 *2 R   u0 px cx {1,S}
+1 *1 R!H ux px cx {2,S}
+2 *2 R   ux px cx {1,S}
 3 *3 Xv  u0 p0 c0
 """,
     kinetics = None,
@@ -54,13 +54,13 @@ entry(
 
 entry(
     index = 3,
-    label = "R-H",
+    label = "C-OH",
     group =
 """
-multiplicity [1]
-1 *1 R!H u0 px cx {2,S}
-2 *2 H   u0 p0 c0 {1,S}
+1 *1 C   u0 p0 c0 {2,S}
+2 *2 O   u0 p2 c0 {1,S} {4,S}
 3 *3 Xv  u0 p0 c0
+4    H   u0 p0 c0 {2,S}
 """,
     kinetics = None,
 )
@@ -70,36 +70,23 @@ entry(
     label = "C-H",
     group =
 """
-multiplicity [1]
-1 *1 C  u0 px cx {2,S}
-2 *2 H  u0 p0 c0 {1,S}
-3 *3 Xv u0 p0 c0
+1 *1 C   u0 p0 c0 {2,S}
+2 *2 H   u0 p0 c0 {1,S}
+3 *3 Xv  u0 p0 c0
 """,
     kinetics = None,
 )
 
 entry(
     index = 5,
-    label = "O-H",
+    label = "H2O",
     group =
 """
 multiplicity [1]
-1 *1 O  u0 px cx {2,S}
+1 *1 O  u0 p2 c0 {2,S} {3,S}
 2 *2 H  u0 p0 c0 {1,S}
-3 *3 Xv u0 p0 c0
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 6,
-    label = "N-H",
-    group =
-"""
-multiplicity [1]
-1 *1 N  u0 px cx {2,S}
-2 *2 H  u0 p0 c0 {1,S}
-3 *3 Xv u0 p0 c0
+3    H  u0 p0 c0 {1,S}
+4 *3 Xv u0 p0 c0
 """,
     kinetics = None,
 )
@@ -107,10 +94,27 @@ multiplicity [1]
 tree(
 """
 L1: Combined
-    L2: R-H
-        L3: C-H
-        L3: O-H
-        L3: N-H
+	L2: C-H
+	L2: C-OH
+	L2: H2O
 L1: VacantSite
 """
 )
+
+#forbidden(
+#    label = "CH4",
+#    group =
+#"""
+#multiplicity [1]
+#1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+#2 *2 H u0 p0 c0 {1,S}
+#3    H u0 p0 c0 {1,S}
+#4    H u0 p0 c0 {1,S}
+#5    H u0 p0 c0 {1,S}
+#6 *3 Xv u0 p0 c0
+#""",
+#    shortDesc = u"""CH4 adsorbs on Ni but doesn't lead to anything, that's why it is forbidden BK""",
+#    longDesc =
+#u"""
+#""",
+#)

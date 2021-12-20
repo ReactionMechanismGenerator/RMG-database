@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface_Abstraction_Beta_vdW/groups"
+name = "Surface_Abstraction_Beta/groups"
 shortDesc = u""
 longDesc = u"""
 Surface abstraction of one atom to another adsorbate. The bond fission occurs not at the binding atom, but in the beta position of the adsorbate, that is the bond between Atom *2 and *3 is broken. Atom *1 is bonded to the surface (*5). The bond order between *1/*3 and the surface decreases. An example for this reaction is: COH* + CH2* = CO* + CH3*. The bond between *2 and *3 must be single.
 
 
- *1-*2--*3  *4             *1=*2   *3-*4
-  ||        ||      ---->   |       |
+ *1-*2--*3  *4            *1=*2   *3-*4
+  |         ||       ---->   |      |
 ~*5~ +    ~*6~~           ~*5~ +  ~*6~~
 
 The rate, which should be in mol/m2/s,
@@ -18,7 +18,7 @@ so k should be in (m2/mol/s).
 
 template(reactants=["Combined", "Adsorbate1"], products=["Adsorbate2","Adsorbate3"], ownReverse=False)
 
-reverse = "Surface_Abstraction_reverse_Beta_vdW"
+reverse = "Surface_Abstraction_reverse_Beta"
 
 reactantNum=2
 productNum=2
@@ -36,8 +36,8 @@ entry(
     label = "Combined",
     group =
 """
-1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
-2 *2 R!H u0 px c0 {1,S} {3,S}
+1 *1 R!H u0 px cx {2,S} {4,[D,T]}
+2 *2 R!H u0 px cx {1,S} {3,S}
 3 *3 R   u0 {2,S}
 4 *5 Xo  u0 {1,[D,T]}
 """,
@@ -50,7 +50,7 @@ entry(
     group =
 """
 1 *6 Xo  u0 {2,D}
-2 *4 R!H u0 px c0 {1,D}	
+2 *4 R!H u0 px cx {1,D}	
 """,
     kinetics = None,
 )
@@ -60,8 +60,8 @@ entry(
     label = "C-H",
     group =
 """
-1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
-2 *2 C u0 px c0 {1,S} {3,S}
+1 *1 R!H u0 px cx {2,S} {4,[D,T]}
+2 *2 C u0 px cx {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *5 Xo  u0 {1,[D,T]}
 """,
@@ -73,8 +73,8 @@ entry(
     label = "O-H",
     group =
 """
-1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
-2 *2 O   u0 p2 c0 {1,S} {3,S}
+1 *1 R!H u0 px cx {2,S} {4,[D,T]}
+2 *2 O   u0 p2 cx {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *5 Xo  u0 {1,[D,T]}
 """,

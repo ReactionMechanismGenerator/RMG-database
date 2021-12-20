@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface_Abstraction_Beta_vdW/rules"
+name = "Surface_Abstraction_Beta/rules"
 shortDesc = u""
 longDesc = u"""
 """

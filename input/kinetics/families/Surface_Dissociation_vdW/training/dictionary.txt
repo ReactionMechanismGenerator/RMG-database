@@ -15,7 +15,7 @@ CH2O*
 4 *2 H u0 p0 c0 {2,S}
 5 *3 X u0 p0 c0
 
-X_4
+Cu4
 1 *4 X u0 p0 c0
 
 H2O*
@@ -119,18 +119,3 @@ CH3OH_2*
 5    H u0 p0 c0 {2,S}
 6 *2 H u0 p0 c0 {1,S}
 7 *3 X u0 p0 c0
-
-CH4*
-1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H u0 p0 c0 {1,S}
-3    H u0 p0 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-5    H u0 p0 c0 {1,S}
-6 *3 X u0 p0 c0
-
-CH3*
-1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    H u0 p0 c0 {1,S}
-3    H u0 p0 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-5 *3 X u0 p0 c0 {1,S}
