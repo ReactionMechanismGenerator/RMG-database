@@ -38,7 +38,7 @@ entry(
     group =
 """
 1 *1 R!H u0 px cx {2,S} {4,S}
-2 *2 R   u0 px cx {1,S} {3,S}
+2 *2 R!H u0 px c0 {1,S} {3,S}
 3 *3 R   u0 {2,S}
 4 *5 Xo  u0 {1,S}
 """,
@@ -62,7 +62,7 @@ entry(
     group =
 """
 1 *1 R!H u0 px cx {2,S} {4,S}
-2 *2 C u0 px cx {1,S} {3,S}
+2 *2 C u0 px c0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *5 Xo  u0 {1,S}
 """,
@@ -75,7 +75,7 @@ entry(
     group =
 """
 1 *1 R!H u0 px cx {2,S} {4,S}
-2 *2 O   u0 p2 cx {1,S} {3,S}
+2 *2 O   u0 p2 c0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *5 Xo  u0 {1,S}
 """,
@@ -102,4 +102,5 @@ L1: Adsorbate1
     L2: O
 """
 )
+
 

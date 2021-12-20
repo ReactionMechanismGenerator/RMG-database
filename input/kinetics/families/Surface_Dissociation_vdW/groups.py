@@ -57,6 +57,7 @@ entry(
     label = "C-OH",
     group =
 """
+multiplicity [1]
 1 *1 C   u0 p0 c0 {2,S}
 2 *2 O   u0 p2 c0 {1,S} {4,S}
 3 *3 Xv  u0 p0 c0
@@ -70,6 +71,7 @@ entry(
     label = "C-H",
     group =
 """
+multiplicity [1]
 1 *1 C   u0 p0 c0 {2,S}
 2 *2 H   u0 p0 c0 {1,S}
 3 *3 Xv  u0 p0 c0
