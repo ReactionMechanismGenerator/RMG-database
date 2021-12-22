@@ -58,7 +58,7 @@ entry(
     label = "carbene",
     group = 
 """
-1 *3 C u0 p1 {2,S} {3,S}
+1 *3 C2s u0 p1 {2,S} {3,S}
 2 [H,Val7] u0 {1,S}
 3 [H,Val7] u0 {1,S}
 """,
@@ -71,7 +71,7 @@ entry(
     group = 
 """
 1    Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C  u0 p1 {1,S} {6,S}
+2 *3 C2s  u0 p1 {1,S} {6,S}
 3    [H,Val7]  u0 {1,S}
 4    [H,Val7]  u0 {1,S}
 5    [H,Val7]  u0 {1,S}
@@ -85,7 +85,7 @@ entry(
     label = "ph_carbene",
     group = 
 """
-1 *3 C  u0 p1 {2,S} {3,S}
+1 *3 C2s  u0 p1 {2,S} {3,S}
 2    Cb u0 {1,S} {4,B} {5,B}
 3    [H,Val7]  u0 {1,S}
 4    Cb u0 {2,B} {6,B}
@@ -104,7 +104,7 @@ entry(
 """
 1    Cs u0 {3,S} {4,S} {5,S} {6,S}
 2    Cs u0 {3,S} {7,S} {8,S} {9,S}
-3 *3 C  u0 p1 {1,S} {2,S}
+3 *3 C2s  u0 p1 {1,S} {2,S}
 4    [H,Val7]  u0 {1,S}
 5    [H,Val7]  u0 {1,S}
 6    [H,Val7]  u0 {1,S}
