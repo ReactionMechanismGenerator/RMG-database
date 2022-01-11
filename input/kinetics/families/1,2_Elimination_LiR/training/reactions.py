@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "CH2LiO2 <=> CHO + HLiO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.59528e+12,'s^-1'), n=0.518458, Ea=(46.6821,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.7137053723954238,B=2.3116450623393274,E=-0.028001584137479975,L=6.399784910596449,A=1.0368467911904864,comment='')),
@@ -46,7 +46,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy fil
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C3H4LiO3 <=> CO2 + C2H4LiO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.8039e+12,'s^-1'), n=0.472198, Ea=(80.6393,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.697605152955986,B=2.4862812293190593,E=-4.1974148204255775,L=2.872587466227873,A=0.9296666032597313,comment='')),
@@ -90,7 +90,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy fil
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C2H3LiO3 <=> CO2 + CH3LiO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.20441e+16,'s^-1'), n=0.126298, Ea=(88.7875,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
@@ -124,7 +124,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "CH3LiO2 <=> CH2O + HLiO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.67089e+11,'s^-1'), n=0.423598, Ea=(30.5741,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-0.3926746359480871,B=2.430874130082185,E=1.0969664301003625,L=5.26139300991494,A=1.5271891998852951,comment='')),
@@ -163,7 +163,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy fil
 )
 
 entry(
-    index = 5,
+    index = 4,
     label = "CH2FLiO <=> CH2O + FLi",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.47928e+13,'s^-1'), n=0.0523532, Ea=(1.77399,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.2544775378071295,B=3.8435703486608483,E=0.6208281974105191,L=9.542895814948176,A=0.874941113523824,comment='')),
@@ -201,7 +201,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy fil
 )
 
 entry(
-    index = 6,
+    index = 5,
     label = "CH2ClLiO <=> CH2O + ClLi",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.03509e+13,'s^-1'), n=-0.00858289, Ea=(0.072948,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.49973283735009,B=-1.363801515776159,E=11.671483182052631,L=9.85481016575309,A=1.7632374622781073,comment='')),
@@ -239,7 +239,7 @@ ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy file
 )
 
 entry(
-    index = 7,
+    index = 6,
     label = "Li2O + CH2O <=> CH2Li2O2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(60668.5,'cm^3/(mol*s)'), n=2.48558, Ea=(-44.9325,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-6.237601960913579,B=9.474105452618263,E=1.6329134231750524,L=15.17499274807221,A=3.5783211118513525,comment='')),
@@ -278,7 +278,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy fil
 )
 
 entry(
-    index = 8,
+    index = 7,
     label = "C2H5Li <=> C2H4 + HLi",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.20882e+11,'s^-1'), n=0.349755, Ea=(9.42179,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.7309852404322288,B=2.3232904077453425,E=0.8831500260776306,L=9.72969334125182,A=0.8794516433866466,comment='')),
@@ -318,7 +318,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy fil
 )
 
 entry(
-    index = 9,
+    index = 8,
     label = "CH4LiN <=> CH3N + HLi",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.20406e+11,'s^-1'), n=0.395823, Ea=(4.40595,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.708205772421329,B=2.5356143801240445,E=0.23679859997568953,L=9.472880397262012,A=1.0783864304846873,comment='')),
@@ -357,7 +357,7 @@ ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy file
 )
 
 entry(
-    index = 10,
+    index = 9,
     label = "C2H4LiO2 <=> CHO + CH3LiO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.54823e+14,'s^-1'), n=0.356617, Ea=(65.3953,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
