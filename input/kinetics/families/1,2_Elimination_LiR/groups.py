@@ -7,8 +7,9 @@ longDesc = """
 If a birad, the reacting site *3 must be a triplet instead of singlet for this reaction family.
 """
 
-template(reactants=["Root"], products=["YJ","R2"], ownReverse=False)
+template(reactants=["Root"], products=["YJ", "R2"], ownReverse=False)
 
+reverse = "1,2_Elimination_LiR_reverse"
 reversible = True
 
 reactantNum = 1
@@ -27,20 +28,250 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group =
+    group = 
 """
 1 *1 R!H u[0,1] {2,[S,D,B]} {4,S}
 2 *2 R!H u[0,1] {1,[S,D,B]} {3,S}
-3 *3 R u[0,1] {2,S}
-4 *4 Li u0 {1,S}
+3 *3 R   u[0,1] {2,S}
+4 *4 Li  u0     {1,S}
 """,
     kinetics = None,
 )
 
+entry(
+    index = 1,
+    label = "Root_Ext-3R-R",
+    group = 
+"""
+1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C   u[0,1] {1,[S,D,B]} {3,S}
+3 *3 O   u[0,1] {2,S} {5,[S,D,T,B,Q]}
+4 *4 Li  u0     {1,S}
+5    R!H ux     {3,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
 
+entry(
+    index = 2,
+    label = "Root_Ext-3R-R_5R!H->C",
+    group = 
+"""
+1 *1 O  u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C  u[0,1] {1,[S,D,B]} {3,S}
+3 *3 O  u[0,1] {2,S} {5,[S,D,T,B,Q]}
+4 *4 Li u0     {1,S}
+5    C  ux     {3,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 3,
+    label = "Root_Ext-3R-R_5R!H->C_Ext-5C-R",
+    group = 
+"""
+1 *1 O   u0     r0 {2,S} {4,S}
+2 *2 C   u[0,1] r0 {1,S} {3,S}
+3 *3 O   u0     r0 {2,S} {5,[S,D,T,B,Q]}
+4 *4 Li  u0     r0 {1,S}
+5    C   ux     {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+6    R!H ux     {5,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
+    label = "Root_Ext-3R-R_5R!H->C_2R!H-u0",
+    group = 
+"""
+1 *1 O  u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C  u0     {1,[S,D,B]} {3,S}
+3 *3 O  u[0,1] {2,S} {5,[S,D,T,B,Q]}
+4 *4 Li u0     {1,S}
+5    C  ux     {3,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "Root_Ext-3R-R_5R!H->C_N-2R!H-u0",
+    group = 
+"""
+1 *1 O  u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C  u1     {1,[S,D,B]} {3,S}
+3 *3 O  u[0,1] {2,S} {5,[S,D,T,B,Q]}
+4 *4 Li u0     {1,S}
+5    C  ux     {3,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "Root_Ext-3R-R_N-5R!H->C",
+    group = 
+"""
+1 *1 O                         u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C                         u[0,1] {1,[S,D,B]} {3,S}
+3 *3 O                         u[0,1] {2,S} {5,S}
+4 *4 Li                        u0     {1,S}
+5    [I,P,Br,Cl,N,Si,S,F,Li,O] u0     r0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
+    label = "Root_3R->F",
+    group = 
+"""
+1 *1 R!H u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C   u[0,1] {1,[S,D,B]} {3,S}
+3 *3 F   u[0,1] {2,S}
+4 *4 Li  u0     {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
+    label = "Root_N-3R->F",
+    group = 
+"""
+1 *1 R!H      u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C        u[0,1] {1,[S,D,B]} {3,S}
+3 *3 [Cl,O,H] u[0,1] {2,S}
+4 *4 Li       u0     {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9,
+    label = "Root_N-3R->F_3ClHO->Cl",
+    group = 
+"""
+1 *1 R!H u0     r0 {2,S} {4,S}
+2 *2 C   u[0,1] r0 {1,S} {3,S}
+3 *3 Cl  u0     r0 {2,S}
+4 *4 Li  u0     r0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10,
+    label = "Root_N-3R->F_N-3ClHO->Cl",
+    group = 
+"""
+1 *1 R!H   u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C     u[0,1] {1,[S,D,B]} {3,S}
+3 *3 [O,H] u[0,1] {2,S}
+4 *4 Li    u0     {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "Root_N-3R->F_N-3ClHO->Cl_2R!H-u0",
+    group = 
+"""
+1 *1 R!H   u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C     u0     {1,[S,D,B]} {3,S}
+3 *3 [O,H] u[0,1] {2,S}
+4 *4 Li    u0     {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 12,
+    label = "Root_N-3R->F_N-3ClHO->Cl_2R!H-u0_1R!H->C",
+    group = 
+"""
+1 *1 C     u0 r0 {2,S} {4,S}
+2 *2 C     u0 r0 {1,S} {3,S}
+3 *3 [O,H] u0 r0 {2,S}
+4 *4 Li    u0 r0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "Root_N-3R->F_N-3ClHO->Cl_2R!H-u0_N-1R!H->C",
+    group = 
+"""
+1 *1 [O,N] u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C     u0     {1,[S,D,B]} {3,S}
+3 *3 [O,H] u[0,1] {2,S}
+4 *4 Li    u0     {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "Root_N-3R->F_N-3ClHO->Cl_2R!H-u0_N-1R!H->C_1NO->O",
+    group = 
+"""
+1 *1 O     u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C     u0     {1,[S,D,B]} {3,S}
+3 *3 [O,H] u[0,1] {2,S}
+4 *4 Li    u0     {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 15,
+    label = "Root_N-3R->F_N-3ClHO->Cl_2R!H-u0_N-1R!H->C_N-1NO->O",
+    group = 
+"""
+1 *1 N     u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C     u0     {1,[S,D,B]} {3,S}
+3 *3 [O,H] u[0,1] {2,S}
+4 *4 Li    u0     {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 16,
+    label = "Root_N-3R->F_N-3ClHO->Cl_N-2R!H-u0",
+    group = 
+"""
+1 *1 R!H   u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C     u1     {1,[S,D,B]} {3,S}
+3 *3 [O,H] u[0,1] {2,S}
+4 *4 Li    u0     {1,S}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: Root
+    L2: Root_Ext-3R-R
+        L3: Root_Ext-3R-R_5R!H->C
+            L4: Root_Ext-3R-R_5R!H->C_Ext-5C-R
+            L4: Root_Ext-3R-R_5R!H->C_2R!H-u0
+            L4: Root_Ext-3R-R_5R!H->C_N-2R!H-u0
+        L3: Root_Ext-3R-R_N-5R!H->C
+    L2: Root_3R->F
+    L2: Root_N-3R->F
+        L3: Root_N-3R->F_3ClHO->Cl
+        L3: Root_N-3R->F_N-3ClHO->Cl
+            L4: Root_N-3R->F_N-3ClHO->Cl_2R!H-u0
+                L5: Root_N-3R->F_N-3ClHO->Cl_2R!H-u0_1R!H->C
+                L5: Root_N-3R->F_N-3ClHO->Cl_2R!H-u0_N-1R!H->C
+                    L6: Root_N-3R->F_N-3ClHO->Cl_2R!H-u0_N-1R!H->C_1NO->O
+                    L6: Root_N-3R->F_N-3ClHO->Cl_2R!H-u0_N-1R!H->C_N-1NO->O
+            L4: Root_N-3R->F_N-3ClHO->Cl_N-2R!H-u0
 """
 )
+

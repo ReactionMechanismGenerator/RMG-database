@@ -1,14 +1,3 @@
-HLi
-1 *3 Li u0 p0 c0 {2,S}
-2 *2 H  u0 p0 c0 {1,S}
-
-CH3
-multiplicity 2
-1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2    H u0 p0 c0 {1,S}
-3    H u0 p0 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-
 CH4
 1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H u0 p0 c0 {1,S}
@@ -19,9 +8,16 @@ CH4
 Li
 1 *3 Li u0 p0 c+1
 
-FLi
-1 *2 F  u0 p3 c0 {2,S}
-2 *3 Li u0 p0 c0 {1,S}
+CH3
+multiplicity 2
+1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+
+HLi
+1 *3 Li u0 p0 c0 {2,S}
+2 *2 H  u0 p0 c0 {1,S}
 
 CH3F
 1 *2 F u0 p3 c0 {2,S}
@@ -30,8 +26,8 @@ CH3F
 4    H u0 p0 c0 {2,S}
 5    H u0 p0 c0 {2,S}
 
-ClLi
-1 *2 Cl u0 p3 c0 {2,S}
+FLi
+1 *2 F  u0 p3 c0 {2,S}
 2 *3 Li u0 p0 c0 {1,S}
 
 CH3Cl
@@ -40,4 +36,8 @@ CH3Cl
 3    H  u0 p0 c0 {2,S}
 4    H  u0 p0 c0 {2,S}
 5    H  u0 p0 c0 {2,S}
+
+ClLi
+1 *2 Cl u0 p3 c0 {2,S}
+2 *3 Li u0 p0 c0 {1,S}
 
