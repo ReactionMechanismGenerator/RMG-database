@@ -156,11 +156,21 @@ surface_development = {
 
 # Electrochemical families!
 electrochem = {
-    'Surface_Proton_Electron_Reduction_Alpha',
-    'Surface_Proton_Electron_Reduction_Alpha_vdW',
-    'Surface_Proton_Electron_Reduction_Beta',
-    'Surface_Proton_Electron_Reduction_Beta_vdW',
-    'Surface_Proton_Electron_Reduction_Beta_Dissociation',
+    # 'Surface_Proton_Electron_Reduction_Alpha',
+    # 'Surface_Proton_Electron_Reduction_Alpha_vdW',
+    # 'Surface_Proton_Electron_Reduction_Beta',
+    # 'Surface_Proton_Electron_Reduction_Beta_vdW',
+    # 'Surface_Proton_Electron_Reduction_Beta_Dissociation',
+    '1,2_Elimination_LiR',
+    '1,2_Intra_Elimination_LiR',
+    'Cation_Addition_MultipleBond',
+    'Cation_NO_Substitution',
+    'Cation_NO_Ring_Opening',
+    'Cation_Li_Abstraction',
+    'Cation_R_Recombination',
+    'Cation_Addition_MultipleBond_Disprop',
+    'Li_Abstraction',
+    'R_Addition_MultipleBond_Disprop',
 }
 
 electrochem_development = {
