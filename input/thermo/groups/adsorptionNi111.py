@@ -2,6 +2,8 @@
 # encoding: utf-8
 
 name = "Surface Adsorption Corrections Ni(111)"
+metal = 'Ni'
+facet = '111'
 shortDesc = u"Surface adsorption Ni(111), Goldsmith 2016"
 longDesc = u"""
 Changes due to adsorbing on a surface.
@@ -23,9 +25,7 @@ entry(
    x
 ***********
 This node should be empty, ensuring that one of the nodes below is used.
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -48,9 +48,7 @@ entry(
    x  <--(single, double, triple, or quadruple bond)
 ********
 Data made up. Do not use!
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -78,9 +76,7 @@ The average loss in entropy is -16.7 J/mol-K, so call it -4. cal/mol-K
 
 This binds too strongly and won't desorb until ~2500K, so we're trying
 -2 kcal/mol and -15 cal/mol/K
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 
@@ -99,9 +95,7 @@ entry(
    C
    x
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -118,9 +112,7 @@ entry(
    O
    x
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 
@@ -144,9 +136,7 @@ entry(
   R-C
    |||
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -170,9 +160,7 @@ entry(
   R-C-R
    ||
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -199,9 +187,7 @@ entry(
  R-C-R
    |
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -222,9 +208,7 @@ entry(
  R2-C-R2
     :
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -243,9 +227,7 @@ entry(
   R-O-R
     :
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -269,9 +251,7 @@ entry(
 R--C--R
    || |
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -322,9 +302,7 @@ entry(
 R2--C--R
     |  |
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -407,9 +385,7 @@ entry(
  R-C-OR
    |
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -433,9 +409,7 @@ entry(
    O-R
    :
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 entry(
@@ -461,9 +435,7 @@ entry(
 RO--C--R
     || |
 ***********
-""",
-    metal = "Ni",
-    facet = "111",
+"""
 )
 
 tree(

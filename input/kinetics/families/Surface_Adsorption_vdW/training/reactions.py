@@ -67,3 +67,27 @@ entry(
     Catalysts, 2015, 5, 871-904""",
 	metal = "Ni",
 )
+
+# entry(
+#     index = 12,
+#     label = "X + H3N <=> H3NX",
+#     degeneracy = 1.0,
+#     kinetics = SurfaceArrhenius(A=(6.20932e+12,'m^3/(mol*s)'), n=0, Ea=(0.42,'eV/molecule'), T0=(1,'K')),
+#     rank = 3,
+#     shortDesc = """cathub_id:UmVhY3Rpb246ODA1""",
+#     longDesc = 
+# """
+# Training reaction from kinetics library: Surface/cathub/Ru
+# Original entry: X + NH3 <=> NH3X
+# equation : NH3(g) + * -> NH3*
+# dft_code : DACAPO
+# dftFunctional : RPBE
+# pubId: LogadottirAmmonia2003
+# reactionEnergy: -0.42 eV
+
+# Could not determine reaction type estimating A = kb/298/h = 6.21e+12
+# """,
+#     metal = "Ru",
+#     facet = "1",
+# )
+
