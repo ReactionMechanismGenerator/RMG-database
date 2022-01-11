@@ -8,7 +8,7 @@ Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
 entry(
-    index = 1,
+    index = 0,
     label = "C3H4LiO3 <=> C3H4LiO3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.57285e+17,'s^-1'), n=-0.785762, Ea=(69.0722,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=3.0810004035910854,B=2.1395342731524263,E=1.574243739442836,L=12.72791320115644,A=0.4805246849919219,comment='')),
@@ -54,7 +54,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy fil
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C3H5LiO2 <=> C3H5LiO2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.22949e+12,'s^-1'), n=0.0425752, Ea=(-0.0643594,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.6463081864477556,B=1.3642592064572354,E=2.83101426768693,L=6.499926586799369,A=1.3639449338060428,comment='')),
@@ -99,7 +99,7 @@ ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy file
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C4H7LiO2 <=> C4H7LiO2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.92231e+16,'s^-1'), n=-0.357468, Ea=(90.256,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.8258378208381454,B=2.5221250810295626,E=1.614714374506913,L=12.761980701907916,A=0.608203513102231,comment='')),
@@ -148,7 +148,7 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy fil
 )
 
 entry(
-    index = 4,
+    index = 3,
     label = "C5H9LiO2 <=> C5H9LiO2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.20531e+14,'s^-1'), n=0.219161, Ea=(98.9886,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.959149780060317,B=2.5380295864101,E=2.0257428425399984,L=13.738628302899908,A=0.411629130549155,comment='')),
