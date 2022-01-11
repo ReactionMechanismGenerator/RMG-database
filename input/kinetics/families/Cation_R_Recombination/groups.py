@@ -24,7 +24,7 @@ electrons = -1
 recipe(actions=[
     ['LOSE_CHARGE', '*1', 1],
     ['FORM_BOND', '*1', 1, '*2'],
-    ['LOSE_RADICAL', '*2', '1'],
+    ['LOSE_RADICAL', '*2', 1],
 ])
 
 entry(

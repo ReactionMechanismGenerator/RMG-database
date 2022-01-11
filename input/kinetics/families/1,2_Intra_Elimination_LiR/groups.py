@@ -4,10 +4,12 @@
 name = "1,2_Intra_Elimination_LiR/groups"
 shortDesc = ""
 longDesc = """
+
 """
 
 template(reactants=["Root"], products=["YJ"], ownReverse=False)
 
+reverse = "1,2_Intra_Elimination_LiR_reverse"
 reversible = True
 
 reactantNum = 1
@@ -26,20 +28,88 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group =
+    group = 
 """
 1 *1 R!H u[0,1] {2,[S,D,B]} {4,S}
 2 *2 R!H u[0,1] r1 {1,[S,D,B]} {3,S}
-3 *3 R u[0,1] r1 {2,S}
-4 *4 Li u0 {1,S}
+3 *3 R   u[0,1] r1 {2,S}
+4 *4 Li  u0     {1,S}
 """,
     kinetics = None,
 )
 
+entry(
+    index = 1,
+    label = "Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R",
+    group = 
+"""
+1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C   u[0,1] r1 {1,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}
+3 *3 O   u[0,1] r1 {2,S} {7,[S,D,T,B,Q]}
+4 *4 Li  u0     {1,S}
+5    R!H ux     {2,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+6    C   ux     {5,[S,D,T,B,Q]}
+7    C   ux     {3,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
 
+entry(
+    index = 2,
+    label = "Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_Ext-6R!H-R",
+    group = 
+"""
+1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C   u[0,1] r1 {1,[S,D,B]} {3,S} {5,S}
+3 *3 O   u[0,1] r1 {2,S} {7,S}
+4 *4 Li  u0     {1,S}
+5    R!H u0     r1 {2,S} {6,[S,D,T,B,Q]}
+6    C   ux     r1 {5,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
+7    C   u0     r1 {3,S}
+8    R!H ux     {6,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 3,
+    label = "Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_2R!H-u0",
+    group = 
+"""
+1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C   u0     r1 {1,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}
+3 *3 O   u[0,1] r1 {2,S} {7,[S,D,T,B,Q]}
+4 *4 Li  u0     {1,S}
+5    R!H ux     r1 {2,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+6    C   ux     r1 {5,[S,D,T,B,Q]}
+7    C   ux     r1 {3,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
+    label = "Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_N-2R!H-u0",
+    group = 
+"""
+1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
+2 *2 C   u1     r1 {1,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}
+3 *3 O   u[0,1] r1 {2,S} {7,[S,D,T,B,Q]}
+4 *4 Li  u0     {1,S}
+5    R!H ux     r1 {2,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+6    C   ux     r1 {5,[S,D,T,B,Q]}
+7    C   ux     r1 {3,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
 
 tree(
 """
 L1: Root
+    L2: Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R
+        L3: Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_Ext-6R!H-R
+        L3: Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_2R!H-u0
+        L3: Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_N-2R!H-u0
 """
 )
+
