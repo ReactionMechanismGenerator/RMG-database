@@ -1768,38 +1768,41 @@ entry(
     facet = "111",
 )
 
-entry(
-    index = 57,
-    label = "C-*RCR2",
-    group =
-"""
-1 * X u0  p0 c0 {2,S}
-2 C  u0  p0 c0 {1,S} {3,D} {4,S}
-3 C  u0  p0 c0 {2,D} {5,S} {6,S}
-4 R  u0  p0 c0 {2,S}
-5 R  u0  p0 c0 {3,S}
-6 R  u0  p0 c0 {3,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.18, 1.6, 2.46, 2.99, 3.55, 3.79, 3.99], 'cal/(mol*K)'),
-        H298=(-75.37, 'kcal/mol'),
-        S298=(-48.91, 'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Came from HC-CH2 single-bonded on Pt(111)""",
-    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -2.790 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.09643 eV, gamma_C(X) = 0.250.
 
-   CR2
-  ||
-   C-R
-   |
-***********
-""",
-    metal = "Pt",
-    facet = "111",
-)
+###Vinyl only converged as bidentate on Pt111, so this input is not consistent with the underlying geometry. I am commenting it out for that reason, 
+### and since we already have bidentate vinyl in this library (index 48). -- KB 
+#entry(
+#    index = 57,
+#    label = "C-*RCR2",
+#    group =
+#"""
+#1 * X u0  p0 c0 {2,S}
+#2 C  u0  p0 c0 {1,S} {3,D} {4,S}
+#3 C  u0  p0 c0 {2,D} {5,S} {6,S}
+#4 R  u0  p0 c0 {2,S}
+#5 R  u0  p0 c0 {3,S}
+#6 R  u0  p0 c0 {3,S}
+#""",
+#    thermo=ThermoData(
+#        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+#        Cpdata=([0.18, 1.6, 2.46, 2.99, 3.55, 3.79, 3.99], 'cal/(mol*K)'),
+#        H298=(-75.37, 'kcal/mol'),
+#        S298=(-48.91, 'cal/(mol*K)'),
+#    ),
+#    shortDesc=u"""Came from HC-CH2 single-bonded on Pt(111)""",
+#    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+#            DFT binding energy: -2.790 eV.
+#            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.09643 eV, gamma_C(X) = 0.250.
+#
+#   CR2
+#  ||
+#   C-R
+#   |
+#***********
+#""",
+#    metal = "Pt",
+#    facet = "111",
+#)
 
 entry(
     index = 58,
@@ -2607,7 +2610,6 @@ L1: R*
                 L5: C-*R2CR3
                 L5: C-*R2NR2
                 L5: C-*R2OR
-                L5: C-*RCR2
                 L5: C-*RNR
                 L5: C-*RO
         L3: N*
