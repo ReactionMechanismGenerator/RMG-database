@@ -59678,3 +59678,239 @@ H    0.173034    -0.236244    0.1014
 """,
 )
 
+entry(
+    index = 3785,
+    label = "Cl + CH4 <=> ClH-2 + CH3-3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(1.36534e-19,'cm^3/(molecule*s)'), n=2.6, Ea=(3201.07,'J/mol'), T0=(1,'K')),
+    rank = 1,
+    shortDesc = """Cl + CH4 <=> HCl + CH3""",
+    longDesc = 
+"""
+Kinetics of Cl atom reactions with methane, ethane, and propane from 292 to 800 K
+J. S. Pilgrim, A. McIlroy, and C. A. Taatjes, J. Phys. Chem. A 101, 1873 (1997)
+PLP-LIF Measurement from 292-800 K
+""",
+)
+
+entry(
+    index = 3786,
+    label = "Cl + CH4O-2 <=> ClH-2 + CH3O-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.65431e-19,'cm^3/(molecule*s)'), n=2.5, Ea=(30470,'J/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """Cl + CH3OH <=> HCl + CH3O""",
+    longDesc = 
+"""
+Theoretical study of the kinetics of the hydrogen abstraction from methanol. 2. Reaction of methanol with chlorine and bromine atoms
+Jodkowski, J.T.; Rayez, M-T.; Rayez, J-C.; Berces, T.; Dobe, S., JPCA, 102, 9230-9243, 1998
+300-1000 K, Theoretical Predictions
+""",
+)
+
+entry(
+    index = 3787,
+    label = "Cl + H2O-2 <=> ClH-2 + HO",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.79e-11,'cm^3/(molecule*s)'), n=0, Ea=(72086.5,'J/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """Cl + H2O <=> HCl + OH""",
+    longDesc = 
+"""
+Evaluated kinetic data for high temperature reactions. Volume 4 Homogeneous gas phase reactions of halogen- and cyanide- containing species
+Baulch, D.L.; Duxbury, J.; Grant, S.J.; Montague, D.C., J. Phys. Chem. Ref. Data, 10, 1981.
+210-500 K
+""",
+)
+
+entry(
+    index = 3788,
+    label = "Cl + H2O2 <=> ClH-2 + HO2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.1e-11,'cm^3/(molecule*s)'), n=0, Ea=(8148.18,'J/mol'), T0=(1,'K')),
+    rank = 1,
+    shortDesc = """Cl + H2O2 <=> HCl + HO2""",
+    longDesc = 
+"""
+Evaluated kinetic and photochemical data for atmospheric chemistry: Volume III - gas phase reactions of inorganic halogens
+Atkinson, R.;Baulch, D.L.;Cox, R.A.;Crowley, J.N.;Hampson, R.F.;Hynes, R.G.;Jenkin, M.E.;Rossi, M.J.;Troe, J., Atmos. Chem. Phys., 7, 981-1191, 2007
+260-430 K
+""",
+)
+
+entry(
+    index = 3789,
+    label = "Cl + H2-2 <=> ClH-2 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.59e-16,'cm^3/(molecule*s)'), n=1.588, Ea=(13984.9,'J/mol'), T0=(1,'K')),
+    rank = 1,
+    shortDesc = """Cl + H2 <=> HCl + H""",
+    longDesc = 
+"""
+Thermal rate constants for the Cl+H2 and Cl+D2 reactions between 296 and 3000 K
+Kumaran, S.S.; Lim, K.P.; Michael, J.V., J. Chem. Phys., 101, 9487 - 9498, 1994
+200-2950 K, from fit to experimental data
+""",
+)
+
+entry(
+    index = 3790,
+    label = "C6H6 + H <=> H2 + C6H5",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(5.38e+09,'cm^3/(mol*s)'), n=1.582, Ea=(15.689,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Dingyu Hou', 'Xiaoqing You'],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19',
+        pages = '30772-30780',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+CCSD(T)/cc-pV(D,T)Z//B3LYP/6-311g(d,p)
+Rate calculations using conventional TST, done with Multiwell 2016
+1D Eckart tunneling corrections
+""",
+)
+
+entry(
+    index = 3791,
+    label = "C10H8 + H <=> H2 + C10H7",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(2.47e+09,'cm^3/(mol*s)'), n=1.619, Ea=(15.572,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Dingyu Hou', 'Xiaoqing You'],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19',
+        pages = '30772-30780',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+"""
+CCSD(T)/cc-pV(D,T)Z//B3LYP/6-311g(d,p)
+Rate calculations using conventional TST, done with Multiwell 2016
+1D Eckart tunneling corrections
+""",
+)
+
+entry(
+    index = 3792,
+    label = "C14H10 + H <=> H2 + C14H9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(8.33e+08,'cm^3/(mol*s)'), n=1.658, Ea=(16.676,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Dingyu Hou', 'Xiaoqing You'],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19',
+        pages = '30772-30780',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+"""
+M06-2X/6-311g(d,p)//B3LYP/6-311g(d,p)
+Rate calculations using conventional TST, done with Multiwell 2016
+1D Eckart tunneling corrections
+""",
+)
+
+entry(
+    index = 3793,
+    label = "C14H10-2 + H <=> H2 + C14H9-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.63e+08,'cm^3/(mol*s)'), n=1.692, Ea=(16.133,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Dingyu Hou', 'Xiaoqing You'],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19',
+        pages = '30772-30780',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+"""
+M06-2X/6-311g(d,p)//B3LYP/6-311g(d,p)
+Rate calculations using conventional TST, done with Multiwell 2016
+1D Eckart tunneling corrections
+""",
+)
+
+entry(
+    index = 3794,
+    label = "C18H12 + H <=> H2 + C18H11",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(1.03e+09,'cm^3/(mol*s)'), n=1.716, Ea=(16.304,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Dingyu Hou', 'Xiaoqing You'],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19',
+        pages = '30772-30780',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+"""
+M06-2X/6-311g(d,p)//B3LYP/6-311g(d,p)
+Rate calculations using conventional TST, done with Multiwell 2016
+1D Eckart tunneling corrections
+""",
+)
+
+entry(
+    index = 3795,
+    label = "C16H10 + H <=> H2 + C16H9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(9.08e+08,'cm^3/(mol*s)'), n=1.665, Ea=(16.222,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Dingyu Hou', 'Xiaoqing You'],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19',
+        pages = '30772-30780',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+"""
+M06-2X/6-311g(d,p)//B3LYP/6-311g(d,p)
+Rate calculations using conventional TST, done with Multiwell 2016
+1D Eckart tunneling corrections
+""",
+)
+
+entry(
+    index = 3796,
+    label = "C22H14 + H <=> H2 + C22H13",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.89e+09,'cm^3/(mol*s)'), n=1.508, Ea=(19.882,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Dingyu Hou', 'Xiaoqing You'],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '19',
+        pages = '30772-30780',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+"""
+M06-2X/6-311g(d,p)//B3LYP/6-311g(d,p)
+Rate calculations using conventional TST, done with Multiwell 2016
+1D Eckart tunneling corrections
+""",
+)
+
