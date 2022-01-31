@@ -168,7 +168,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -226.86509106760192
+        value: -226.84394639870715
       class: ThermoData
     xyz_dict:
       coords:
