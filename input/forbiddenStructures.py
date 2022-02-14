@@ -154,6 +154,23 @@ u"""
 """,
 )
 
+
+entry(
+    label = "LiCONSFCl",
+    group =
+"""
+1 Li u0 p0 c0 {2,S}
+2 C ux px c0 {3,[S,D,T]} {1,S}
+3 [O,N,S,F,Cl] ux px c0 {2,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+In these species the other atom tends to take most of the charge from the Li
+so it isn't really bonded to C
+""",
+)
+
 entry(
     label = "CO_birad",
     species =
