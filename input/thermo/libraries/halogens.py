@@ -752,3 +752,41 @@ S298: 324.969 J/mol/K
 """,
 )
 
+entry(
+    index = 26,
+    label = "C2F",
+    molecule = 
+"""
+multiplicity 2
+1 C  u1 p0 c0 {2,T}
+2 C  u0 p0 c0 {1,T} {3,S}
+3 Br u0 p3 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.81236, 0.0213694, -0.000129618, 3.30825e-07, -2.89499e-10, 52803.9, 5.3484],
+                Tmin = (10, 'K'),
+                Tmax = (375.518, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [4.02651, 0.00433281, -2.62518e-06, 7.31474e-10, -7.71719e-14, 52891.9, 5.91025],
+                Tmin = (375.518, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (58.2013, 'J/(mol*K)'),
+    ),
+    shortDesc = """G4""",
+    longDesc = 
+"""
+#   Enthalpy of formation (0 K)     =   106.475 kcal/mol
+#   Enthalpy of formation (298 K)   =   107.829 kcal/mol
+#   Entropy of formation (298 K)    =    59.672 cal/(mol*K)
+""",
+)
+
+
