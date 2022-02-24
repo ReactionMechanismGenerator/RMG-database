@@ -45,7 +45,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -17.862177647568952
+        value: -17.862177647568934
       class: ThermoData
     xyz_dict:
       coords:
@@ -96,6 +96,108 @@ calculated_data:
           - -0.0
         - - 0.9508483893
           - 1.0473467569
+          - 0.0
+      isotopes:
+      - 14
+      - 16
+      - 16
+      - 1
+      symbols:
+      - N
+      - O
+      - O
+      - H
+  LevelOfTheory(method='cbsqb3rmg',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -19.181683078311096
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.169124
+          - -0.52261
+          - 0.0
+        - - -1.060905
+          - 0.250816
+          - 0.0
+        - - 1.084823
+          - 0.073336
+          - 0.0
+        - - 0.922205
+          - 1.039223
+          - 0.0
+      isotopes:
+      - 14
+      - 16
+      - 16
+      - 1
+      symbols:
+      - N
+      - O
+      - O
+      - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -18.482228816339454
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.164035
+          - -0.522424
+          - 0.0
+        - - -1.056483
+          - 0.256092
+          - 0.0
+        - - 1.084377
+          - 0.070909
+          - 0.0
+        - - 0.91314
+          - 1.036188
+          - 0.0
+      isotopes:
+      - 14
+      - 16
+      - 16
+      - 1
+      symbols:
+      - N
+      - O
+      - O
+      - H
+  LevelOfTheory(method='g4mp2',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -19.045403064581947
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.547232
+          - 0.0
+        - - 1.08432
+          - 0.070995
+          - 0.0
+        - - -1.014048
+          - -0.392066
+          - 0.0
+        - - -0.56217
+          - -1.262061
           - 0.0
       isotopes:
       - 14

@@ -219,6 +219,213 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='cbsqb3rmg',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 6.206423370139845
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.128468
+          - 0.026516
+          - -1.0e-06
+        - - 0.632623
+          - 0.025279
+          - -0.00013
+        - - -0.025258
+          - -1.108347
+          - -0.000916
+        - - -1.381242
+          - -0.766338
+          - -0.000812
+        - - -1.487038
+          - 0.571204
+          - 4.0e-05
+        - - -0.25906
+          - 1.143107
+          - 0.000514
+        - - 2.517432
+          - 0.541501
+          - -0.882536
+        - - 2.51728
+          - 0.540375
+          - 0.883256
+        - - 2.500492
+          - -0.997976
+          - -0.000623
+        - - -2.490647
+          - 0.966266
+          - 0.000209
+        - - -0.012295
+          - 2.19163
+          - 0.00121
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 9.948382770086202
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.127006
+          - 0.025614
+          - -2.0e-06
+        - - 0.63195
+          - 0.026743
+          - -0.000129
+        - - -0.02928
+          - -1.107702
+          - -0.000916
+        - - -1.380339
+          - -0.765126
+          - -0.000811
+        - - -1.485498
+          - 0.570259
+          - 4.0e-05
+        - - -0.257903
+          - 1.143951
+          - 0.000514
+        - - 2.518723
+          - 0.54226
+          - -0.88223
+        - - 2.518571
+          - 0.541131
+          - 0.882954
+        - - 2.500902
+          - -0.999796
+          - -0.000626
+        - - -2.490764
+          - 0.962921
+          - 0.000207
+        - - -0.012615
+          - 2.192964
+          - 0.001211
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+  LevelOfTheory(method='g4mp2',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 7.305934331082029
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.129748
+          - 0.024285
+          - 0.0
+        - - 0.634694
+          - 0.026921
+          - 0.0
+        - - -0.02768
+          - -1.106856
+          - 0.0
+        - - -1.378393
+          - -0.762917
+          - 0.0
+        - - -1.482204
+          - 0.572574
+          - 0.0
+        - - -0.254032
+          - 1.145028
+          - 0.0
+        - - 2.52191
+          - 0.539967
+          - -0.882594
+        - - 2.521909
+          - 0.539975
+          - 0.88259
+        - - 2.50261
+          - -1.001502
+          - 4.0e-06
+        - - -2.487074
+          - 0.96625
+          - 0.0
+        - - -0.007685
+          - 2.193792
+          - 0.0
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:

@@ -107,6 +107,108 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='cbsqb3rmg',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -9.934432457227128
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2e-05
+          - -2.4e-05
+          - -0.120277
+        - - 0.171543
+          - -0.923795
+          - 0.265769
+        - - 0.714251
+          - 0.610356
+          - 0.265866
+        - - -0.885716
+          - 0.313279
+          - 0.265904
+      isotopes:
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - H
+      - H
+      - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -9.966572862508144
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.0e-06
+          - -2.0e-05
+          - -0.131959
+        - - 0.170641
+          - -0.918863
+          - 0.269665
+        - - 0.710448
+          - 0.607087
+          - 0.269763
+        - - -0.881002
+          - 0.311611
+          - 0.269793
+      isotopes:
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - H
+      - H
+      - H
+  LevelOfTheory(method='g4mp2',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -9.61596164284228
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.0e-06
+          - -2.0e-05
+          - -0.131959
+        - - 0.170641
+          - -0.918863
+          - 0.269665
+        - - 0.710448
+          - 0.607087
+          - 0.269763
+        - - -0.881002
+          - 0.311611
+          - 0.269793
+      isotopes:
+      - 14
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:

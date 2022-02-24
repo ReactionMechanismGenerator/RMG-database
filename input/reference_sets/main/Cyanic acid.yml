@@ -45,7 +45,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -3.1434957013727294
+        value: -3.1434957013727285
       class: ThermoData
     xyz_dict:
       coords:
@@ -97,6 +97,108 @@ calculated_data:
         - - 1.5284476551
           - -0.7825686887
           - 0.0
+      isotopes:
+      - 16
+      - 12
+      - 14
+      - 1
+      symbols:
+      - O
+      - C
+      - N
+      - H
+  LevelOfTheory(method='cbsqb3rmg',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -4.875734424375926
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.11353
+          - 0.109805
+          - 0.0
+        - - -0.180163
+          - 0.007491
+          - 0.0
+        - - -1.33524
+          - -0.02176
+          - -0.0
+        - - 1.518135
+          - -0.769027
+          - -0.0
+      isotopes:
+      - 16
+      - 12
+      - 14
+      - 1
+      symbols:
+      - O
+      - C
+      - N
+      - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -3.656307763277893
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.114013
+          - 0.109097
+          - 0.0
+        - - -0.18017
+          - 0.006801
+          - 0.0
+        - - -1.33851
+          - -0.020537
+          - 0.0
+        - - 1.520929
+          - -0.768851
+          - 0.0
+      isotopes:
+      - 16
+      - 12
+      - 14
+      - 1
+      symbols:
+      - O
+      - C
+      - N
+      - H
+  LevelOfTheory(method='g4mp2',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -4.535898808111437
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.114013
+          - 0.109097
+          - 0.0
+        - - -0.18017
+          - 0.006801
+          - 0.0
+        - - -1.33851
+          - -0.020537
+          - -0.0
+        - - 1.520929
+          - -0.768851
+          - -0.0
       isotopes:
       - 16
       - 12

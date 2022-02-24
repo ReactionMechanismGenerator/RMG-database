@@ -107,6 +107,108 @@ calculated_data:
       - C
       - C
       - F
+  LevelOfTheory(method='cbsqb3rmg',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -2.151808655748216
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -0.0
+          - 1.878712
+        - - 0.0
+          - -0.0
+          - 0.592363
+        - - 0.0
+          - -0.0
+          - -0.592363
+        - - 0.0
+          - -0.0
+          - -1.878712
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 19
+      symbols:
+      - F
+      - C
+      - C
+      - F
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.9316957109967887
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.872026
+        - - 0.0
+          - 0.0
+          - 0.59243
+        - - 0.0
+          - 0.0
+          - -0.59243
+        - - 0.0
+          - 0.0
+          - -1.872026
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 19
+      symbols:
+      - F
+      - C
+      - C
+      - F
+  LevelOfTheory(method='g4mp2',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.03361036186461258
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -0.0
+          - 1.872026
+        - - 0.0
+          - -0.0
+          - 0.59243
+        - - 0.0
+          - -0.0
+          - -0.59243
+        - - 0.0
+          - -0.0
+          - -1.872026
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 19
+      symbols:
+      - F
+      - C
+      - C
+      - F
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:

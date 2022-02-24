@@ -27,6 +27,78 @@ calculated_data:
       symbols:
       - Br
       - Br
+  LevelOfTheory(method='cbsqb3rmg',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 5.156847054405254
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.171566
+        - - 0.0
+          - 0.0
+          - -1.171566
+      isotopes:
+      - 79
+      - 79
+      symbols:
+      - Br
+      - Br
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 4.051972946706968
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.158491
+        - - 0.0
+          - 0.0
+          - -1.158491
+      isotopes:
+      - 79
+      - 79
+      symbols:
+      - Br
+      - Br
+  LevelOfTheory(method='g4mp2',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 4.200345256320606
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 1.158491
+        - - 0.0
+          - 0.0
+          - -1.158491
+      isotopes:
+      - 79
+      - 79
+      symbols:
+      - Br
+      - Br
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:

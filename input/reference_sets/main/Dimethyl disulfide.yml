@@ -203,6 +203,198 @@ calculated_data:
       - H
       - H
       - H
+  LevelOfTheory(method='cbsqb3rmg',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -6.020342753353796
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.870214
+          - -0.807726
+          - 0.385854
+        - - 0.915087
+          - 0.483732
+          - -0.492334
+        - - -0.915081
+          - 0.48374
+          - 0.49233
+        - - -1.870226
+          - -0.807696
+          - -0.38587
+        - - 2.869846
+          - -0.790054
+          - -0.055499
+        - - 1.431343
+          - -1.793918
+          - 0.237746
+        - - 1.938127
+          - -0.575214
+          - 1.447529
+        - - -1.938135
+          - -0.575172
+          - -1.447543
+        - - -1.431369
+          - -1.793895
+          - -0.237772
+        - - -2.869857
+          - -0.790013
+          - 0.055483
+      isotopes:
+      - 12
+      - 32
+      - 32
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - S
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  LevelOfTheory(method='g4',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -6.030268733782687
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.868887
+          - -0.806574
+          - 0.38733
+        - - 0.908538
+          - 0.481377
+          - -0.488107
+        - - -0.908531
+          - 0.481385
+          - 0.488103
+        - - -1.868899
+          - -0.806543
+          - -0.387346
+        - - 2.86708
+          - -0.791481
+          - -0.05997
+        - - 1.427362
+          - -1.79406
+          - 0.244613
+        - - 1.942048
+          - -0.572443
+          - 1.449858
+        - - -1.942057
+          - -0.572401
+          - -1.449872
+        - - -1.427388
+          - -1.794037
+          - -0.244639
+        - - -2.867091
+          - -0.79144
+          - 0.059954
+      isotopes:
+      - 12
+      - 32
+      - 32
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - S
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  LevelOfTheory(method='g4mp2',software='gaussian'):
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -7.150995395795683
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.868728
+          - -0.806568
+          - 0.387434
+        - - 0.908605
+          - 0.481512
+          - -0.488034
+        - - -0.908599
+          - 0.48152
+          - 0.48803
+        - - -1.86874
+          - -0.806537
+          - -0.38745
+        - - 2.866755
+          - -0.792048
+          - -0.060255
+        - - 1.426708
+          - -1.793895
+          - 0.245157
+        - - 1.942384
+          - -0.57218
+          - 1.449872
+        - - -1.942393
+          - -0.572138
+          - -1.449886
+        - - -1.426734
+          - -1.793872
+          - -0.245182
+        - - -2.866767
+          - -0.792008
+          - 0.060238
+      isotopes:
+      - 12
+      - 32
+      - 32
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - S
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
