@@ -11,6 +11,8 @@ PhD Thesis, Massachusetts Institute of Technology: Cambridge, MA, 1984.
 
 Note the Pc contributions are all the negative of what is in Table 3 of Joback's thesis.
 The Tb contributions are from table 13.
+
+`structureIndex` is 0 if linear, 1 if makes molecule nonlinear
 """
 entry(
     index = 0,
@@ -748,6 +750,122 @@ entry(
     longDesc = u"""Tb from https://doi.org/10.1021/ie00008a029""",
 )
 
+entry(
+    index = 36,
+    label = "N_centered",
+    group =
+"""
+1 * N ux
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 37,
+    label = "NsH2R",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0243,
+        Pc = 0.0109,
+        Vc = 38,
+        Tb = 73.23,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for NsH2R""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 38,
+    label = "NsHR2",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S}
+3   R!H u0 {1,S}
+4   H   u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0295,
+        Pc = 0.0077,
+        Vc = 35,
+        Tb = 50.17,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for NsHR2""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 39,
+    label = "NsR3",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S}
+3   R!H u0 {1,S}
+4   R!H u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0169,
+        Pc = 0.0074,
+        Vc = 9,
+        Tb = 11.74,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for NsR3""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 40,
+    label = "Nt-CtR",
+    group =
+"""
+1 * N3t u0 p1 {2,T}
+2   Ct  u0 {1,T} {3,S}
+3   R!H u0 {2,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0496,
+        Pc = -0.0101,
+        Vc = 91,
+        Tb = 125.66,
+        structureIndex = 0,
+    ),
+    shortDesc = u"""nonring_library value for Nt-CtR""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 41,
+    label = "NsOs2R",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   O   u0 {1,S}
+3   O   u0 {1,S}
+4   R!H u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0437,
+        Pc = 0.0064,
+        Vc = 91,
+        Tb = 152.54,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for NsOs2R""",
+    longDesc = u"""""",
+)
+
 tree(
 """
 L1: R
@@ -787,6 +905,12 @@ L1: R
         L3: F-Cs
     L2: Cl
     L2: Br
+    L2: N_centered
+        L3: NsH2R
+        L3: NsHR2
+        L3: NsR3
+            L4: NsOs2R
+        L3: Nt-CtR
 """
 )
 
