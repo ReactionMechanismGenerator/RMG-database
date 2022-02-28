@@ -2768,17 +2768,13 @@ u"""
 )
 
 forbidden(
-    label = "Ethylenecarbonaterecomb",
+    label = "carbonaterecomb",
     group =
 """
 1 * C u1 {2,S} {3,S} {4,S}
 2 O u0 {1,S}
 3 O u0 {1,S}
 4 O u0 {1,S}
-5 * C u1 {6,S} {7,S} {8,S}
-6 O u0 {5,S}
-7 O u0 {5,S}
-8 O u0 {5,S}
 """,
     shortDesc = u"""""",
     longDesc =
