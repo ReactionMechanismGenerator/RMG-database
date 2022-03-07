@@ -5868,7 +5868,6 @@ C22H14
 35    H u0 p0 c0 {14,S}
 36    H u0 p0 c0 {18,S}
 
-
 C22H13
 multiplicity 2
 1     C u0 p0 c0 {8,B} {9,B} {15,B}
@@ -5906,6 +5905,7 @@ multiplicity 2
 33    H u0 p0 c0 {13,S}
 34    H u0 p0 c0 {14,S}
 35    H u0 p0 c0 {18,S}
+
 C6H12-2
 1     C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2     C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
