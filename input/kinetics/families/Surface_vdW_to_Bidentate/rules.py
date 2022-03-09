@@ -9,16 +9,14 @@ entry(
     index = 1,
     label = "Combined;VacantSite",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e15, 'm^2/(mol*s)'),
+        A = (1.0e17, 'm^2/(mol*s)'),
         n = 0,
         alpha = 0.0,
-        E0 = (0, 'kcal/mol'),
+        E0 = (7, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = u"""
-    These values are made up.
-    """
+    longDesc = u"""These values are made up."""
 )
