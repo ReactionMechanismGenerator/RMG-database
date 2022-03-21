@@ -5885,18 +5885,22 @@ entry(
     label = "C7H11-15 <=> C7H11-16",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (4.11e+10, 's^-1'),
-        n = 0.19,
-        Ea = (96.1065, 'kJ/mol'),
+        A = (5.28784e+10, 's^-1'),
+        n = 0.330268,
+        Ea = (93.693, 'kJ/mol'),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
+        Tmax = (2000, 'K'),
+        comment = 'Fitted to 50 data points; dA = *|/ 1.10622, dn = +|- 0.0133944, dEa = +|- 0.0690683 kJ/mol',
     ),
-    rank = 0,
-    shortDesc = u"""Aaron Vandeputte small GA method""",
+    rank = 4,
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
     longDesc = 
 u"""
-Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_pri_2H;radadd_intra_csHCd
+Calculated by Kevin Spiekermann
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
 """,
 )
 
