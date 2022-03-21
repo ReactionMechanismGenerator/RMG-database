@@ -7966,3 +7966,19 @@ Original entry: 2-Phenylvinyl <=> W4
 """,
 )
 
+entry(
+    index = 373,
+    label = "C7H11-19 <=> C7H11-20",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.5578e+10,'s^-1'), n=0.210583, Ea=(78.2741,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03863, dn = +|- 0.00502888, dEa = +|- 0.0259315 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Calculated by Kevin Spiekermann
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
+""",
+)
+
