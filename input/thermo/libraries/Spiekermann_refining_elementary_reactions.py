@@ -50,6 +50,174 @@ These values are similar to those from other published works:
 """
 entry(
     index = 0,
+    label = "p000017",
+    molecule = 
+"""
+1 O u0 p2 c0 {5,D}
+2 N u0 p1 c0 {5,S} {6,S} {7,S}
+3 N u0 p1 c0 {4,S} {5,S} {9,S}
+4 N u0 p1 c0 {3,S} {6,D}
+5 C u0 p0 c0 {1,D} {2,S} {3,S}
+6 C u0 p0 c0 {2,S} {4,D} {8,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {6,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.08315,-0.00834958,0.00015685,-2.81708e-07,1.60589e-10,-3863.8,9.73083], Tmin=(10,'K'), Tmax=(568.266,'K')),
+            NASAPolynomial(coeffs=[1.5925,0.0344212,-2.26705e-05,7.0561e-09,-8.33299e-13,-3988.25,16.7535], Tmin=(568.266,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-32.1451,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 1,
+    label = "p000314",
+    molecule = 
+"""
+1 O u0 p2 c0 {3,S} {6,S}
+2 O u0 p2 c0 {4,D}
+3 N u0 p1 c0 {1,S} {4,S} {8,S}
+4 C u0 p0 c0 {2,D} {3,S} {5,S}
+5 C u0 p0 c0 {4,S} {6,D} {7,S}
+6 C u0 p0 c0 {1,S} {5,D} {9,S}
+7 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.10247,-0.0101348,0.000168818,-3.04704e-07,1.75036e-10,-11128.5,9.78109], Tmin=(10,'K'), Tmax=(564.253,'K')),
+            NASAPolynomial(coeffs=[1.54673,0.0350531,-2.32712e-05,7.27411e-09,-8.61354e-13,-11271,16.8299], Tmin=(564.253,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-92.548,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 2,
+    label = "p000399",
+    molecule = 
+"""
+1 O u0 p3 c-1 {6,S}
+2 N u0 p0 c+1 {5,D} {6,S} {8,S}
+3 N u0 p1 c0 {4,S} {5,S} {9,S}
+4 N u0 p1 c0 {3,S} {6,D}
+5 C u0 p0 c0 {2,D} {3,S} {7,S}
+6 C u0 p0 c0 {1,S} {2,S} {4,D}
+7 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.13164,-0.0124889,0.000177785,-3.16891e-07,1.80337e-10,5043.18,9.73761], Tmin=(10,'K'), Tmax=(570.396,'K')),
+            NASAPolynomial(coeffs=[1.51597,0.0348951,-2.31945e-05,7.2699e-09,-8.62857e-13,4869.14,16.747], Tmin=(570.396,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (41.9129,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 3,
+    label = "p000401",
+    molecule = 
+"""
+1 O u0 p2 c0 {5,D}
+2 N u0 p1 c0 {3,S} {5,S} {7,S}
+3 N u0 p1 c0 {2,S} {6,S} {8,S}
+4 N u0 p1 c0 {5,S} {6,D}
+5 C u0 p0 c0 {1,D} {2,S} {4,S}
+6 C u0 p0 c0 {3,S} {4,D} {9,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.1036,-0.00984831,0.000159384,-2.79814e-07,1.56573e-10,4040.08,9.73985], Tmin=(10,'K'), Tmax=(576.554,'K')),
+            NASAPolynomial(coeffs=[1.29232,0.0349484,-2.29648e-05,7.12335e-09,-8.38528e-13,3943.87,18.1088], Tmin=(576.554,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (33.5744,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 4,
+    label = "p000842",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,D}
+2  N u0 p1 c0 {1,D} {3,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4  C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+5  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+6  H u0 p0 c0 {3,S}
+7  H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93846,0.00746404,0.000362497,-2.43626e-06,5.88578e-09,-1497.43,9.00632], Tmin=(10,'K'), Tmax=(103.642,'K')),
+            NASAPolynomial(coeffs=[3.25927,0.0336765,-1.68703e-05,3.96667e-09,-3.52153e-13,-1483.36,10.7434], Tmin=(103.642,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-9.71827,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (270.22,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 5,
     label = "p001085",
     molecule = 
 """
@@ -83,7 +251,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 1,
+    index = 6,
     label = "p001088",
     molecule = 
 """
@@ -117,7 +285,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 2,
+    index = 7,
     label = "p001089",
     molecule = 
 """
@@ -151,7 +319,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 3,
+    index = 8,
     label = "p001235",
     molecule = 
 """
@@ -183,7 +351,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 4,
+    index = 9,
     label = "p001958",
     molecule = 
 """
@@ -215,7 +383,38 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 5,
+    index = 10,
+    label = "p002513",
+    molecule = 
+"""
+1 O u0 p2 c0 {4,S} {5,S}
+2 O u0 p2 c0 {6,D}
+3 N u0 p0 c+1 {5,D} {6,S} {7,S}
+4 N u0 p2 c-1 {1,S} {6,S}
+5 N u0 p1 c0 {1,S} {3,D}
+6 C u0 p0 c0 {2,D} {3,S} {4,S}
+7 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.09657,-0.00907939,0.000135813,-2.38726e-07,1.32296e-10,19122.4,9.71784], Tmin=(10,'K'), Tmax=(593.188,'K')),
+            NASAPolynomial(coeffs=[2.40613,0.0272365,-1.9027e-05,6.10616e-09,-7.33056e-13,18884.5,13.2953], Tmin=(593.188,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (158.977,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 11,
     label = "p002774",
     molecule = 
 """
@@ -246,7 +445,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 6,
+    index = 12,
     label = "p003183",
     molecule = 
 """
@@ -278,7 +477,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 7,
+    index = 13,
     label = "p003454",
     molecule = 
 """
@@ -314,7 +513,71 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 8,
+    index = 14,
+    label = "p004006",
+    molecule = 
+"""
+1 O u0 p3 c-1 {6,S}
+2 N u0 p0 c+1 {5,D} {6,S} {7,S}
+3 N u0 p1 c0 {4,S} {5,S} {8,S}
+4 N u0 p1 c0 {3,S} {6,D}
+5 N u0 p1 c0 {2,D} {3,S}
+6 C u0 p0 c0 {1,S} {2,S} {4,D}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.10691,-0.00968671,0.000141912,-2.42133e-07,1.31199e-10,21199.9,9.69375], Tmin=(10,'K'), Tmax=(598.956,'K')),
+            NASAPolynomial(coeffs=[1.63057,0.0310738,-2.083e-05,6.52701e-09,-7.71966e-13,21062,16.7443], Tmin=(598.956,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (176.254,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 15,
+    label = "p004007",
+    molecule = 
+"""
+1 O u0 p2 c0 {6,D}
+2 N u0 p1 c0 {3,S} {6,S} {7,S}
+3 N u0 p1 c0 {2,S} {4,S} {8,S}
+4 N u0 p1 c0 {3,S} {5,D}
+5 N u0 p1 c0 {4,D} {6,S}
+6 C u0 p0 c0 {1,D} {2,S} {5,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.08633,-0.00876052,0.000151467,-2.77042e-07,1.60533e-10,24999.5,9.7236], Tmin=(10,'K'), Tmax=(563.232,'K')),
+            NASAPolynomial(coeffs=[2.12198,0.0305244,-2.06272e-05,6.51774e-09,-7.77103e-13,24819,14.5055], Tmin=(563.232,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (207.838,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 16,
     label = "p004142",
     molecule = 
 """
@@ -347,7 +610,105 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 9,
+    index = 17,
+    label = "p004295",
+    molecule = 
+"""
+1  O u0 p2 c0 {4,D}
+2  N u0 p1 c0 {4,S} {5,S} {7,S}
+3  N u0 p1 c0 {4,S} {6,S} {10,S}
+4  C u0 p0 c0 {1,D} {2,S} {3,S}
+5  C u0 p0 c0 {2,S} {6,D} {8,S}
+6  C u0 p0 c0 {3,S} {5,D} {9,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94212,0.00327142,0.000103808,-1.79634e-07,9.58448e-11,-12872.5,8.41273], Tmin=(10,'K'), Tmax=(582.737,'K')),
+            NASAPolynomial(coeffs=[0.0763484,0.0423709,-2.91775e-05,9.50459e-09,-1.17035e-12,-12635.3,23.1448], Tmin=(582.737,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-107.054,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 18,
+    label = "p004717",
+    molecule = 
+"""
+1 O u0 p2 c0 {3,S} {6,S}
+2 O u0 p2 c0 {5,D}
+3 N u0 p1 c0 {1,S} {5,S} {7,S}
+4 N u0 p1 c0 {5,S} {6,D}
+5 C u0 p0 c0 {2,D} {3,S} {4,S}
+6 C u0 p0 c0 {1,S} {4,D} {8,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.08042,-0.00779049,0.000138331,-2.43168e-07,1.3531e-10,-10427.9,9.73178], Tmin=(10,'K'), Tmax=(583.22,'K')),
+            NASAPolynomial(coeffs=[1.78109,0.0310328,-2.08113e-05,6.51853e-09,-7.71045e-13,-10551.8,16.2237], Tmin=(583.22,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-86.7186,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 19,
+    label = "p004719",
+    molecule = 
+"""
+1 O u0 p2 c0 {4,S} {6,S}
+2 O u0 p3 c-1 {5,S}
+3 N u0 p0 c+1 {5,S} {6,D} {7,S}
+4 N u0 p1 c0 {1,S} {5,D}
+5 C u0 p0 c0 {2,S} {3,S} {4,D}
+6 C u0 p0 c0 {1,S} {3,D} {8,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.11098,-0.0107656,0.000160722,-2.8983e-07,1.65966e-10,-5405.64,9.752], Tmin=(10,'K'), Tmax=(570.433,'K')),
+            NASAPolynomial(coeffs=[2.04089,0.0310762,-2.11601e-05,6.71421e-09,-8.02345e-13,-5614.05,14.68], Tmin=(570.433,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-44.964,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 20,
     label = "p004749",
     molecule = 
 """
@@ -382,7 +743,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 10,
+    index = 21,
     label = "p005032",
     molecule = 
 """
@@ -414,7 +775,40 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 11,
+    index = 22,
+    label = "p005102",
+    molecule = 
+"""
+1 O u0 p2 c0 {5,D}
+2 N u0 p1 c0 {3,S} {5,S} {7,S}
+3 N u0 p1 c0 {2,S} {4,S} {8,S}
+4 N u0 p1 c0 {3,S} {6,D}
+5 C u0 p0 c0 {1,D} {2,S} {6,S}
+6 C u0 p0 c0 {4,D} {5,S} {9,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.10625,-0.010297,0.000165783,-2.95888e-07,1.68331e-10,14198.6,9.76357], Tmin=(10,'K'), Tmax=(568.519,'K')),
+            NASAPolynomial(coeffs=[1.43938,0.0348626,-2.30121e-05,7.16751e-09,-8.46661e-13,14075.2,17.372], Tmin=(568.519,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (118.035,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 23,
     label = "p005432",
     molecule = 
 """
@@ -448,7 +842,41 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 12,
+    index = 24,
+    label = "p005546",
+    molecule = 
+"""
+1  O u0 p2 c0 {4,D}
+2  N u0 p1 c0 {3,S} {4,S} {7,S}
+3  N u0 p1 c0 {2,S} {5,S} {8,S}
+4  C u0 p0 c0 {1,D} {2,S} {6,S}
+5  C u0 p0 c0 {3,S} {6,D} {9,S}
+6  C u0 p0 c0 {4,S} {5,D} {10,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.13036,-0.0123963,0.000187244,-3.31879e-07,1.88303e-10,2393.39,9.79119], Tmin=(10,'K'), Tmax=(567.709,'K')),
+            NASAPolynomial(coeffs=[0.931998,0.0391285,-2.54905e-05,7.8851e-09,-9.27888e-13,2289.38,19.2963], Tmin=(567.709,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (19.8809,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 25,
     label = "p005588",
     molecule = 
 """
@@ -481,7 +909,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 13,
+    index = 26,
     label = "p005763",
     molecule = 
 """
@@ -513,7 +941,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 14,
+    index = 27,
     label = "p005826",
     molecule = 
 """
@@ -545,7 +973,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 15,
+    index = 28,
     label = "p007269",
     molecule = 
 """
@@ -579,7 +1007,186 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 16,
+    index = 29,
+    label = "p007945",
+    molecule = 
+"""
+1  O u0 p2 c0 {5,D}
+2  N u0 p1 c0 {5,S} {7,S} {8,S}
+3  N u0 p1 c0 {4,S} {6,D}
+4  N u0 p1 c0 {3,S} {7,D}
+5  C u0 p0 c0 {1,D} {2,S} {6,S}
+6  C u0 p0 c0 {3,D} {5,S} {9,S}
+7  C u0 p0 c0 {2,S} {4,D} {10,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {7,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94087,0.00338192,0.000109386,-1.91888e-07,1.03994e-10,12268.1,10.164], Tmin=(10,'K'), Tmax=(570.3,'K')),
+            NASAPolynomial(coeffs=[-0.0951325,0.0441247,-3.04821e-05,9.8469e-09,-1.19947e-12,12526.3,25.5959], Tmin=(570.3,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (101.976,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 30,
+    label = "p008828",
+    molecule = 
+"""
+1  O u0 p2 c0 {7,D}
+2  N u0 p1 c0 {3,S} {5,S} {13,S}
+3  N u0 p1 c0 {2,S} {7,S} {12,S}
+4  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+5  C u0 p0 c0 {2,S} {4,S} {6,D}
+6  C u0 p0 c0 {5,D} {7,S} {11,S}
+7  C u0 p0 c0 {1,D} {3,S} {6,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9144,0.0053403,0.000153976,-3.05374e-07,1.89912e-10,-3569.97,11.3176], Tmin=(10,'K'), Tmax=(500.057,'K')),
+            NASAPolynomial(coeffs=[0.338625,0.0506842,-3.22579e-05,9.85772e-09,-1.15629e-12,-3421.66,23.9977], Tmin=(500.057,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-29.7079,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (303.478,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 31,
+    label = "p009513",
+    molecule = 
+"""
+1  O u0 p2 c0 {6,S} {7,S}
+2  O u0 p2 c0 {7,D}
+3  N u0 p1 c0 {5,S} {7,S} {11,S}
+4  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+5  C u0 p0 c0 {3,S} {4,S} {6,D}
+6  C u0 p0 c0 {1,S} {5,D} {12,S}
+7  C u0 p0 c0 {1,S} {2,D} {3,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87221,0.0095011,0.000138178,-3.05118e-07,2.07869e-10,-36800.1,10.6838], Tmin=(10,'K'), Tmax=(464.216,'K')),
+            NASAPolynomial(coeffs=[1.56818,0.0452889,-2.89505e-05,8.8418e-09,-1.03376e-12,-36757.9,18.182], Tmin=(464.216,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-305.991,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (278.535,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 32,
+    label = "p010419",
+    molecule = 
+"""
+1  O u0 p2 c0 {7,D}
+2  N u0 p1 c0 {5,S} {7,S} {13,S}
+3  N u0 p1 c0 {6,S} {7,S} {12,S}
+4  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+5  C u0 p0 c0 {2,S} {4,S} {6,D}
+6  C u0 p0 c0 {3,S} {5,D} {11,S}
+7  C u0 p0 c0 {1,D} {2,S} {3,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.8763,0.00907103,0.000167954,-3.96278e-07,2.93654e-10,-18030.6,10.6775], Tmin=(10,'K'), Tmax=(421.203,'K')),
+            NASAPolynomial(coeffs=[1.39064,0.0488014,-3.09602e-05,9.44747e-09,-1.10672e-12,-17964.3,18.8222], Tmin=(421.203,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-149.919,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (303.478,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 33,
+    label = "p011443",
+    molecule = 
+"""
+1  O u0 p2 c0 {7,D}
+2  N u0 p1 c0 {6,S} {7,S} {8,S}
+3  N u0 p1 c0 {5,S} {7,S} {9,S}
+4  N u0 p1 c0 {6,S} {10,S} {11,S}
+5  N u0 p1 c0 {3,S} {6,D}
+6  C u0 p0 c0 {2,S} {4,S} {5,D}
+7  C u0 p0 c0 {1,D} {2,S} {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85954,0.00890907,0.000147401,-3.30894e-07,2.2109e-10,-5241.36,11.1283], Tmin=(10,'K'), Tmax=(507.172,'K')),
+            NASAPolynomial(coeffs=[3.70601,0.0387889,-2.5762e-05,8.18029e-09,-9.89393e-13,-5594.5,8.12972], Tmin=(507.172,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-43.6181,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (253.591,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 34,
     label = "p011506",
     molecule = 
 """
@@ -614,7 +1221,178 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 17,
+    index = 35,
+    label = "p011937",
+    molecule = 
+"""
+1  O u0 p2 c0 {7,D}
+2  N u0 p1 c0 {5,S} {7,S} {10,S}
+3  N u0 p1 c0 {6,S} {7,S} {9,S}
+4  N u0 p1 c0 {5,S} {11,S} {12,S}
+5  C u0 p0 c0 {2,S} {4,S} {6,D}
+6  C u0 p0 c0 {3,S} {5,D} {8,S}
+7  C u0 p0 c0 {1,D} {2,S} {3,S}
+8  H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85694,0.00927896,0.000160381,-3.65786e-07,2.51062e-10,-11389.5,11.5195], Tmin=(10,'K'), Tmax=(488.227,'K')),
+            NASAPolynomial(coeffs=[3.26256,0.0422679,-2.73641e-05,8.54373e-09,-1.02191e-12,-11666.6,10.5288], Tmin=(488.227,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-94.7307,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (278.535,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 36,
+    label = "r000017",
+    molecule = 
+"""
+1 O u0 p2 c0 {5,S} {9,S}
+2 N u0 p1 c0 {4,S} {5,S} {7,S}
+3 N u0 p1 c0 {5,D} {6,S}
+4 N u0 p1 c0 {2,S} {6,D}
+5 C u0 p0 c0 {1,S} {2,S} {3,D}
+6 C u0 p0 c0 {3,S} {4,D} {8,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {6,S}
+9 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.0803,-0.00732929,0.000143859,-2.38332e-07,1.23504e-10,-1052.96,9.63266], Tmin=(10,'K'), Tmax=(629.654,'K')),
+            NASAPolynomial(coeffs=[1.2622,0.0371665,-2.54934e-05,8.0517e-09,-9.53182e-13,-1225.24,17.7386], Tmin=(629.654,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-8.76833,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (203.705,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 37,
+    label = "r000314",
+    molecule = 
+"""
+1 O u0 p2 c0 {3,S} {6,S}
+2 O u0 p2 c0 {4,S} {9,S}
+3 N u0 p1 c0 {1,S} {4,D}
+4 C u0 p0 c0 {2,S} {3,D} {5,S}
+5 C u0 p0 c0 {4,S} {6,D} {7,S}
+6 C u0 p0 c0 {1,S} {5,D} {8,S}
+7 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {6,S}
+9 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.14314,-0.012772,0.000180682,-3.07049e-07,1.63711e-10,-13839.9,9.74514], Tmin=(10,'K'), Tmax=(620.774,'K')),
+            NASAPolynomial(coeffs=[2.06582,0.0366733,-2.59275e-05,8.40936e-09,-1.01588e-12,-14276.8,13.1803], Tmin=(620.774,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-115.088,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (203.705,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 38,
+    label = "r000399",
+    molecule = 
+"""
+1 O u0 p2 c0 {5,S} {9,S}
+2 N u0 p1 c0 {3,S} {6,S} {7,S}
+3 N u0 p1 c0 {2,S} {5,D}
+4 N u0 p1 c0 {5,S} {6,D}
+5 C u0 p0 c0 {1,S} {3,D} {4,S}
+6 C u0 p0 c0 {2,S} {4,D} {8,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {6,S}
+9 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94235,0.00320109,9.25409e-05,-1.59438e-07,8.37365e-11,-701.018,9.51065], Tmin=(10,'K'), Tmax=(601.582,'K')),
+            NASAPolynomial(coeffs=[0.616382,0.0382592,-2.71471e-05,8.96348e-09,-1.10926e-12,-535.058,21.9197], Tmin=(601.582,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-5.85576,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (203.705,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 39,
+    label = "r000842",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {12,S}
+2  N u0 p1 c0 {1,S} {5,D}
+3  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
+4  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+5  C u0 p0 c0 {2,D} {3,S} {4,S}
+6  H u0 p0 c0 {4,S}
+7  H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78182,0.0200174,3.34314e-05,-5.56058e-08,2.29537e-11,-9877.45,10.0198], Tmin=(10,'K'), Tmax=(836.558,'K')),
+            NASAPolynomial(coeffs=[2.29376,0.0391789,-2.25263e-05,6.20113e-09,-6.61012e-13,-10050,14.4139], Tmin=(836.558,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-82.1344,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (270.22,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 40,
     label = "r001085",
     molecule = 
 """
@@ -648,7 +1426,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 18,
+    index = 41,
     label = "r001235",
     molecule = 
 """
@@ -680,7 +1458,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 19,
+    index = 42,
     label = "r001958",
     molecule = 
 """
@@ -712,7 +1490,38 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 20,
+    index = 43,
+    label = "r002513",
+    molecule = 
+"""
+1 O u0 p2 c0 {3,S} {5,S}
+2 O u0 p2 c0 {6,S} {7,S}
+3 N u0 p1 c0 {1,S} {6,D}
+4 N u0 p1 c0 {5,D} {6,S}
+5 N u0 p1 c0 {1,S} {4,D}
+6 C u0 p0 c0 {2,S} {3,D} {4,S}
+7 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94217,0.00316915,7.51695e-05,-1.32801e-07,6.98018e-11,9290.77,9.79178], Tmin=(10,'K'), Tmax=(624.801,'K')),
+            NASAPolynomial(coeffs=[2.05328,0.0294963,-2.2209e-05,7.56521e-09,-9.52665e-13,9248.97,15.7928], Tmin=(624.801,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (77.2205,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (153.818,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 44,
     label = "r002774",
     molecule = 
 """
@@ -743,7 +1552,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 21,
+    index = 45,
     label = "r003183",
     molecule = 
 """
@@ -775,7 +1584,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 22,
+    index = 46,
     label = "r003454",
     molecule = 
 """
@@ -811,7 +1620,39 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 23,
+    index = 47,
+    label = "r004006",
+    molecule = 
+"""
+1 O u0 p2 c0 {6,S} {8,S}
+2 N u0 p1 c0 {3,S} {5,S} {7,S}
+3 N u0 p1 c0 {2,S} {6,D}
+4 N u0 p1 c0 {5,D} {6,S}
+5 N u0 p1 c0 {2,S} {4,D}
+6 C u0 p0 c0 {1,S} {3,D} {4,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93535,0.00361396,8.57411e-05,-1.54366e-07,8.34006e-11,17018.1,9.28743], Tmin=(10,'K'), Tmax=(605.304,'K')),
+            NASAPolynomial(coeffs=[1.96967,0.0320645,-2.30753e-05,7.6792e-09,-9.54767e-13,16972.8,15.4443], Tmin=(605.304,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (141.467,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (178.761,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 48,
     label = "r004142",
     molecule = 
 """
@@ -844,7 +1685,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 24,
+    index = 49,
     label = "r004202",
     molecule = 
 """
@@ -875,7 +1716,73 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 25,
+    index = 50,
+    label = "r004295",
+    molecule = 
+"""
+1  O u0 p2 c0 {4,S} {10,S}
+2  N u0 p1 c0 {4,S} {5,S} {8,S}
+3  N u0 p1 c0 {4,D} {6,S}
+4  C u0 p0 c0 {1,S} {2,S} {3,D}
+5  C u0 p0 c0 {2,S} {6,D} {7,S}
+6  C u0 p0 c0 {3,S} {5,D} {9,S}
+7  H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.10371,-0.00995022,0.000179042,-3.1189e-07,1.71401e-10,-8788.3,9.67848], Tmin=(10,'K'), Tmax=(592.645,'K')),
+            NASAPolynomial(coeffs=[1.1941,0.0406697,-2.7494e-05,8.65291e-09,-1.02607e-12,-8987.51,17.6032], Tmin=(592.645,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-73.0911,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (228.648,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 51,
+    label = "r004717",
+    molecule = 
+"""
+1 O u0 p2 c0 {4,S} {6,S}
+2 O u0 p2 c0 {5,S} {8,S}
+3 N u0 p1 c0 {5,S} {6,D}
+4 N u0 p1 c0 {1,S} {5,D}
+5 C u0 p0 c0 {2,S} {3,S} {4,D}
+6 C u0 p0 c0 {1,S} {3,D} {7,S}
+7 H u0 p0 c0 {6,S}
+8 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.05867,-0.00575043,0.000127057,-2.17279e-07,1.15784e-10,-13240,10.1523], Tmin=(10,'K'), Tmax=(616.588,'K')),
+            NASAPolynomial(coeffs=[2.07328,0.0312434,-2.16031e-05,6.88285e-09,-8.20981e-13,-13453.5,15.0535], Tmin=(616.588,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-110.1,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (178.761,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 52,
     label = "r004749",
     molecule = 
 """
@@ -910,7 +1817,40 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 26,
+    index = 53,
+    label = "r005102",
+    molecule = 
+"""
+1 O u0 p2 c0 {5,S} {9,S}
+2 N u0 p1 c0 {3,S} {4,S} {8,S}
+3 N u0 p1 c0 {2,S} {5,D}
+4 N u0 p1 c0 {2,S} {6,D}
+5 C u0 p0 c0 {1,S} {3,D} {6,S}
+6 C u0 p0 c0 {4,D} {5,S} {7,S}
+7 H u0 p0 c0 {6,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92648,0.00402319,9.66004e-05,-1.69272e-07,8.86746e-11,8097.7,8.94156], Tmin=(10,'K'), Tmax=(626.05,'K')),
+            NASAPolynomial(coeffs=[1.50069,0.0376978,-2.76315e-05,9.39358e-09,-1.19e-12,8045.25,16.6638], Tmin=(626.05,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (67.2932,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (203.705,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 54,
     label = "r005432",
     molecule = 
 """
@@ -944,7 +1884,41 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 27,
+    index = 55,
+    label = "r005546",
+    molecule = 
+"""
+1  O u0 p2 c0 {4,S} {10,S}
+2  N u0 p1 c0 {3,S} {6,S} {9,S}
+3  N u0 p1 c0 {2,S} {4,D}
+4  C u0 p0 c0 {1,S} {3,D} {5,S}
+5  C u0 p0 c0 {4,S} {6,D} {8,S}
+6  C u0 p0 c0 {2,S} {5,D} {7,S}
+7  H u0 p0 c0 {6,S}
+8  H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.1478,-0.0144462,0.00021733,-3.96703e-07,2.28328e-10,-1593.28,9.76824], Tmin=(10,'K'), Tmax=(575.688,'K')),
+            NASAPolynomial(coeffs=[2.40645,0.0383892,-2.6478e-05,8.55121e-09,-1.03673e-12,-2067.81,11.3449], Tmin=(575.688,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-13.276,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (228.648,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 56,
     label = "r005588",
     molecule = 
 """
@@ -977,7 +1951,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 28,
+    index = 57,
     label = "r005763",
     molecule = 
 """
@@ -1009,7 +1983,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 29,
+    index = 58,
     label = "r005826",
     molecule = 
 """
@@ -1041,7 +2015,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 30,
+    index = 59,
     label = "r007269",
     molecule = 
 """
@@ -1075,7 +2049,186 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 )
 
 entry(
-    index = 31,
+    index = 60,
+    label = "r007945",
+    molecule = 
+"""
+1  O u0 p2 c0 {5,S} {10,S}
+2  N u0 p1 c0 {5,D} {7,S}
+3  N u0 p1 c0 {4,S} {6,D}
+4  N u0 p1 c0 {3,S} {7,D}
+5  C u0 p0 c0 {1,S} {2,D} {6,S}
+6  C u0 p0 c0 {3,D} {5,S} {8,S}
+7  C u0 p0 c0 {2,S} {4,D} {9,S}
+8  H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {7,S}
+10 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.05946,-0.00587327,0.000156843,-2.60839e-07,1.35022e-10,12448.8,10.4065], Tmin=(10,'K'), Tmax=(627.735,'K')),
+            NASAPolynomial(coeffs=[0.5839,0.0444161,-3.05737e-05,9.62021e-09,-1.13378e-12,12330.7,21.1391], Tmin=(627.735,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (103.487,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (228.648,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 61,
+    label = "r008828",
+    molecule = 
+"""
+1  O u0 p2 c0 {7,S} {13,S}
+2  N u0 p1 c0 {3,S} {5,S} {12,S}
+3  N u0 p1 c0 {2,S} {7,D}
+4  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+5  C u0 p0 c0 {2,S} {4,S} {6,D}
+6  C u0 p0 c0 {5,D} {7,S} {11,S}
+7  C u0 p0 c0 {1,S} {3,D} {6,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88411,0.0066883,0.000151633,-2.84874e-07,1.61745e-10,-6689.67,11.4162], Tmin=(10,'K'), Tmax=(577.29,'K')),
+            NASAPolynomial(coeffs=[1.24109,0.0518102,-3.52678e-05,1.14056e-08,-1.39788e-12,-6831.23,18.846], Tmin=(577.29,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-55.671,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (299.321,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 62,
+    label = "r009513",
+    molecule = 
+"""
+1  O u0 p2 c0 {6,S} {7,S}
+2  O u0 p2 c0 {7,S} {12,S}
+3  N u0 p1 c0 {5,S} {7,D}
+4  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+5  C u0 p0 c0 {3,S} {4,S} {6,D}
+6  C u0 p0 c0 {1,S} {5,D} {11,S}
+7  C u0 p0 c0 {1,S} {2,S} {3,D}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87493,0.00750804,0.000149483,-3.02275e-07,1.83747e-10,-32247.6,10.7883], Tmin=(10,'K'), Tmax=(546.719,'K')),
+            NASAPolynomial(coeffs=[2.44098,0.0455985,-3.07462e-05,9.8305e-09,-1.19268e-12,-32503.3,13.0682], Tmin=(546.719,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-268.168,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (274.378,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 63,
+    label = "r010419",
+    molecule = 
+"""
+1  O u0 p2 c0 {7,S} {13,S}
+2  N u0 p1 c0 {6,S} {7,S} {12,S}
+3  N u0 p1 c0 {5,S} {7,D}
+4  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+5  C u0 p0 c0 {3,S} {4,S} {6,D}
+6  C u0 p0 c0 {2,S} {5,D} {11,S}
+7  C u0 p0 c0 {1,S} {2,S} {3,D}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89746,0.00662895,0.00016815,-3.54398e-07,2.32905e-10,-13964.6,10.9654], Tmin=(10,'K'), Tmax=(477.67,'K')),
+            NASAPolynomial(coeffs=[0.681258,0.0523493,-3.44211e-05,1.06664e-08,-1.25531e-12,-13871.7,21.8618], Tmin=(477.67,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-116.132,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (299.321,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 64,
+    label = "r011443",
+    molecule = 
+"""
+1  O u0 p2 c0 {7,S} {11,S}
+2  N u0 p1 c0 {5,S} {7,S} {8,S}
+3  N u0 p1 c0 {6,S} {9,S} {10,S}
+4  N u0 p1 c0 {6,S} {7,D}
+5  N u0 p1 c0 {2,S} {6,D}
+6  C u0 p0 c0 {3,S} {4,S} {5,D}
+7  C u0 p0 c0 {1,S} {2,S} {4,D}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88601,0.0066499,0.000138399,-2.68846e-07,1.56178e-10,-2924.99,11.4773], Tmin=(10,'K'), Tmax=(570.545,'K')),
+            NASAPolynomial(coeffs=[2.05084,0.0455458,-3.22948e-05,1.05687e-08,-1.29351e-12,-3139.24,15.5883], Tmin=(570.545,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-24.3672,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (249.434,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 65,
     label = "r011506",
     molecule = 
 """
@@ -1101,6 +2254,42 @@ entry(
         E0 = (88.8977,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
+    ),
+    shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
+    longDesc = 
+"""
+Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
+""",
+)
+
+entry(
+    index = 66,
+    label = "r011937",
+    molecule = 
+"""
+1  O u0 p2 c0 {7,S} {12,S}
+2  N u0 p1 c0 {6,S} {7,S} {9,S}
+3  N u0 p1 c0 {5,S} {10,S} {11,S}
+4  N u0 p1 c0 {5,S} {7,D}
+5  C u0 p0 c0 {3,S} {4,S} {6,D}
+6  C u0 p0 c0 {2,S} {5,D} {8,S}
+7  C u0 p0 c0 {1,S} {2,S} {4,D}
+8  H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85666,0.00880064,0.00015955,-3.37865e-07,2.13526e-10,-8362.51,11.2149], Tmin=(10,'K'), Tmax=(530.936,'K')),
+            NASAPolynomial(coeffs=[2.96574,0.0459772,-3.15492e-05,1.01596e-08,-1.23353e-12,-8697.3,10.9054], Tmin=(530.936,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-69.5783,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
     longDesc = 
