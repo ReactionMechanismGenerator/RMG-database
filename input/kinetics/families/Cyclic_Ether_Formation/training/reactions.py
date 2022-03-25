@@ -1050,3 +1050,224 @@ Original entry: [CH2]CC=COO <=> C1=COCC1 + [OH]
 """,
 )
 
+entry(
+    index = 58,
+    label = "C5H11O2-3 <=> C5H10O-3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.29e+09,'s^-1'), n=0.67, Ea=(18.154,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 59,
+    label = "C5H11O2-4 <=> C5H10O-4 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.4e+10,'s^-1'), n=0.73, Ea=(12.459,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CC[C](C)COO <=> OH + C1OC1(C)CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 60,
+    label = "C5H11O2-5 <=> C5H10O-5 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.3e+09,'s^-1'), n=0.84, Ea=(17.137,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CC[C](C)COO <=> OH + C1OC1(C)CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 61,
+    label = "C5H11O2-6 <=> C5H10O-6 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.41e+08,'s^-1'), n=0.84, Ea=(11.715,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CC[C](C)COO <=> OH + C1OC1(C)CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 62,
+    label = "C5H11O2-7 <=> C5H10O-7 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.56e+11,'s^-1'), n=0.59, Ea=(13.83,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CC[C](C)COO <=> OH + C1OC1(C)CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 63,
+    label = "C5H11O2-8 <=> C5H10O-8 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.33e+07,'s^-1'), n=1.16, Ea=(15.287,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 64,
+    label = "C5H11O2-9 <=> C5H10O-9 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.63e+08,'s^-1'), n=0.89, Ea=(11.911,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 65,
+    label = "C5H11O2-10 <=> C5H10O-10 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.98e+09,'s^-1'), n=1.03, Ea=(13.191,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 66,
+    label = "C5H11O2-2 <=> C5H10O-2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.04e+12,'s^-1'), n=0.42, Ea=(10.506,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 67,
+    label = "C5H11O2-11 <=> C5H10O-11 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.79e+09,'s^-1'), n=0.85, Ea=(16.351,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 68,
+    label = "C5H11O2-12 <=> C5H10O-12 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.43e+10,'s^-1'), n=0.75, Ea=(12.588,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 69,
+    label = "C5H11O2-13 <=> C5H10O-13 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.36e+08,'s^-1'), n=1.01, Ea=(17.108,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
+entry(
+    index = 70,
+    label = "C5H11O2 <=> C5H10O + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.21e+10,'s^-1'), n=0.69, Ea=(11.244,'kcal/mol'), T0=(1,'K'), Tmin=(400,'K'), Tmax=(1500,'K')),
+    rank = 5,
+    shortDesc = """calculated at QCISD(T)/CBS//B3LYP/6-311++G(d,p) 1DHR by Ye et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCC([CH2])COO <=> OH + C1OCC1CC
+
+Ye, Lili, Lidong Zhang, and Fei Qi. "Ab initio kinetics on low temperature
+oxidation of iso-pentane: the first oxygen addition." Combustion and Flame 190 (2018): 119-132. 
+""",
+)
+
