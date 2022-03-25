@@ -46922,3 +46922,255 @@ A, 119(24), 6377-6390.
 """,
 )
 
+entry(
+    index = 3292,
+    label = "HO2_r3 + C6H12O2-10 <=> H2O2-2 + C6H11O2-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(9.58233e-05,'cm^3/(mol*s)'), n=4.92033, Ea=(41.628,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.2454, dn = +|- 0.0291624, dEa = +|- 0.149378 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CC(=O)OCC(C)C + [O]O <=> CC(=O)O[CH]C(C)C + OO
+""",
+)
+
+entry(
+    index = 3293,
+    label = "OH + C6H12O2-10 <=> H2O_p + C6H11O2-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(15.0667,'cm^3/(mol*s)'), n=3.39586, Ea=(-17.2663,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.07024, dn = +|- 0.0090204, dEa = +|- 0.0462049 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CC(=O)OCC(C)C + [OH] <=> CC(=O)O[CH]C(C)C + O
+""",
+)
+
+entry(
+    index = 3294,
+    label = "OH + C6H12O2-11 <=> H2O_p + C6H11O2-11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(22.326,'cm^3/(mol*s)'), n=3.27057, Ea=(-19.3775,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03525, dn = +|- 0.00460338, dEa = +|- 0.0235797 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CC(=O)OCC(C)C + [OH] <=> C[C](C)COC(C)=O + O
+""",
+)
+
+entry(
+    index = 3295,
+    label = "OH + C6H12O2-12 <=> H2O_p + C6H11O2-12",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(945.446,'cm^3/(mol*s)'), n=3.04932, Ea=(0.228708,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05378, dn = +|- 0.00696118, dEa = +|- 0.035657 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CC(=O)OCC(C)C + [OH] <=> O + [CH2]C(=O)OCC(C)C
+""",
+)
+
+entry(
+    index = 3296,
+    label = "OH + C6H12O2-13 <=> H2O_p + C6H11O2-13",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(4.27249e-06,'cm^3/(mol*s)'), n=5.36313, Ea=(-21.2065,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.21871, dn = +|- 0.0262836, dEa = +|- 0.134632 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CC(=O)OCC(C)C + [OH] <=> O + [CH2]C(C)COC(C)=O
+""",
+)
+
+entry(
+    index = 3297,
+    label = "HO2_r3 + C6H12O2-4 <=> H2O2-2 + C6H11O2-14",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.13294e-06,'cm^3/(mol*s)'), n=5.23368, Ea=(39.7385,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.24115, dn = +|- 0.0287085, dEa = +|- 0.147053 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCCCOC(C)=O + [O]O <=> CCC[CH]OC(C)=O + OO
+""",
+)
+
+entry(
+    index = 3298,
+    label = "OH + C6H12O2-4 <=> H2O_p + C6H11O2-14",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(82.8014,'cm^3/(mol*s)'), n=3.17994, Ea=(-16.1473,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.08094, dn = +|- 0.0103431, dEa = +|- 0.0529803 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCCCOC(C)=O + [OH] <=> CCC[CH]OC(C)=O + O
+""",
+)
+
+entry(
+    index = 3299,
+    label = "OH + C6H12O2-3 <=> H2O_p + C6H11O2-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.656415,'cm^3/(mol*s)'), n=3.81408, Ea=(-17.9205,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.14008, dn = +|- 0.0174209, dEa = +|- 0.0892347 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCCCOC(C)=O + [OH] <=> CC[CH]COC(C)=O + O
+""",
+)
+
+entry(
+    index = 3300,
+    label = "OH + C6H12O2 <=> H2O_p + C6H11O2-16",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.06165e-07,'cm^3/(mol*s)'), n=5.77048, Ea=(-18.7,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.16084, dn = +|- 0.0198186, dEa = +|- 0.101516 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCCCOC(C)=O + [OH] <=> O + [CH2]CCCOC(C)=O
+""",
+)
+
+entry(
+    index = 3301,
+    label = "OH + C6H12O2-14 <=> H2O_p + C6H11O2-17",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1662.76,'cm^3/(mol*s)'), n=2.95419, Ea=(0.267608,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04142, dn = +|- 0.00539335, dEa = +|- 0.0276262 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCCCOC(C)=O + [OH] <=> O + [CH2]C(=O)OCCCC
+""",
+)
+
+entry(
+    index = 3302,
+    label = "OH + C6H12O2-2 <=> H2O_p + C6H11O2-18",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.48389e-05,'cm^3/(mol*s)'), n=5.11217, Ea=(-23.8697,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.18942, dn = +|- 0.0230509, dEa = +|- 0.118073 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCCCOC(C)=O + [OH] <=> C[CH]CCOC(C)=O + O
+""",
+)
+
+entry(
+    index = 3303,
+    label = "OH + C6H12O2-15 <=> H2O_p + C6H11O2-19",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(915.237,'cm^3/(mol*s)'), n=2.79265, Ea=(-18.4301,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03616, dn = +|- 0.00471985, dEa = +|- 0.0241763 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCC(C)OC(C)=O + [OH] <=> CC[C](C)OC(C)=O + O
+""",
+)
+
+entry(
+    index = 3304,
+    label = "OH + C6H12O2-16 <=> H2O_p + C6H11O2-20",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.88381,'cm^3/(mol*s)'), n=3.58073, Ea=(-15.489,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.08506, dn = +|- 0.0108482, dEa = +|- 0.0555675 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCC(C)OC(C)=O + [OH] <=> C[CH]C(C)OC(C)=O + O
+""",
+)
+
+entry(
+    index = 3305,
+    label = "OH + C6H12O2-17 <=> H2O_p + C6H11O2-21",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(10.0556,'cm^3/(mol*s)'), n=3.61276, Ea=(-11.5338,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.11468, dn = +|- 0.0144264, dEa = +|- 0.0738957 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCC(C)OC(C)=O + [OH] <=> O + [CH2]C(CC)OC(C)=O
+""",
+)
+
+entry(
+    index = 3306,
+    label = "OH + C6H12O2-18 <=> H2O_p + C6H11O2-22",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(937.658,'cm^3/(mol*s)'), n=3.06576, Ea=(0.647058,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.08022, dn = +|- 0.0102542, dEa = +|- 0.0525247 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCC(C)OC(C)=O + [OH] <=> O + [CH2]C(=O)OC(C)CC
+""",
+)
+
+entry(
+    index = 3307,
+    label = "OH + C6H12O2-19 <=> H2O_p + C6H11O2-23",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(9.1266e-05,'cm^3/(mol*s)'), n=4.96903, Ea=(-21.3375,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.1227, dn = +|- 0.01538, dEa = +|- 0.0787803 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CCC(C)OC(C)=O + [OH] <=> O + [CH2]CC(C)OC(C)=O
+""",
+)
+
+entry(
+    index = 3308,
+    label = "OH + C6H12O2-20 <=> H2O_p + C6H11O2-24",
+    degeneracy = 9.0,
+    kinetics = Arrhenius(A=(2.6383,'cm^3/(mol*s)'), n=3.91157, Ea=(-8.54858,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.1733, dn = +|- 0.0212382, dEa = +|- 0.108788 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CC(=O)OC(C)(C)C + [OH] <=> O + [CH2]C(C)(C)OC(C)=O
+""",
+)
+
+entry(
+    index = 3309,
+    label = "OH + C6H12O2-21 <=> H2O_p + C6H11O2-25",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1981.73,'cm^3/(mol*s)'), n=2.96995, Ea=(-0.871665,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04405, dn = +|- 0.00572861, dEa = +|- 0.0293434 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: BA_habs
+Original entry: CC(=O)OC(C)(C)C + [OH] <=> O + [CH2]C(=O)OC(C)(C)C
+""",
+)
+
