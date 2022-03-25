@@ -9123,3 +9123,59 @@ Species are optimized and calculated by the CBS-QB3 method, no hindered rotors c
 """,
 )
 
+entry(
+    index = 440,
+    label = "C6H13O-11 <=> C6H13O-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.39788e-06,'s^-1'), n=5.23859, Ea=(51.7426,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 4.14562, dn = +|- 0.188969, dEa = +|- 0.967947 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)C(C)(C)[O] <=> C[C](C)C(C)(C)O
+""",
+)
+
+entry(
+    index = 441,
+    label = "C6H11O2 <=> C6H11O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00510888,'s^-1'), n=3.75222, Ea=(46.2937,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.29282, dn = +|- 0.110265, dEa = +|- 0.564808 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=C(COO)[C](C)C <=> CC(C)=C(C)CO[O]
+""",
+)
+
+entry(
+    index = 442,
+    label = "C6H13O2 <=> C6H13O2-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.0933e-06,'s^-1'), n=5.11352, Ea=(72.5149,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.81603, dn = +|- 0.137579, dEa = +|- 0.704717 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)C(C)(C)O[O] <=> C[C](C)C(C)(C)OO
+""",
+)
+
+entry(
+    index = 443,
+    label = "C6H11O2-3 <=> C6H11O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00102212,'s^-1'), n=3.83547, Ea=(46.0919,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.286, dn = +|- 0.109869, dEa = +|- 0.56278 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=C(C)[C](C)COO <=> CC(C)=C(C)CO[O]
+""",
+)
+
