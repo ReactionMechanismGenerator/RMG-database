@@ -59417,3 +59417,157 @@ Original entry: Acepentacyl + H <=> W4
 """,
 )
 
+entry(
+    index = 2952,
+    label = "C3H5 + C3H6O-10 <=> C6H11O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(32.0598,'cm^3/(mol*s)'), n=3.06709, Ea=(40.4924,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00664, dn = +|- 0.000879941, dEa = +|- 0.00450729 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=[C]C + CC(C)=O <=> C=C(C)O[C](C)C
+""",
+)
+
+entry(
+    index = 2953,
+    label = "HO2 + butene1_2 <=> C4H9O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.14672,'cm^3/(mol*s)'), n=3.38145, Ea=(35.6684,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03036, dn = +|- 0.00397459, dEa = +|- 0.0203589 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=CCC + [O]O <=> [CH2]C(CC)OO
+""",
+)
+
+entry(
+    index = 2954,
+    label = "O + C6H12 <=> C6H12O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.15365e+08,'cm^3/(mol*s)'), n=2.01982, Ea=(-22.3771,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00382, dn = +|- 0.000506173, dEa = +|- 0.00259275 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=C(C)C + [O] <=> C[C](C)C(C)(C)[O]
+""",
+)
+
+entry(
+    index = 2955,
+    label = "C3H7-2 + C3H6O <=> C6H13O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.000101833,'cm^3/(mol*s)'), n=3.76645, Ea=(23.7882,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.08647, dn = +|- 0.0110202, dEa = +|- 0.0564482 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=O + C[CH]C <=> CC(C)C(C)(C)[O]
+""",
+)
+
+entry(
+    index = 2956,
+    label = "H + C6H12 <=> C6H13-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.64069e+11,'cm^3/(mol*s)'), n=1.49791, Ea=(2.20559,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00267, dn = +|- 0.000354366, dEa = +|- 0.00181516 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=C(C)C + [H] <=> C[C](C)C(C)C
+""",
+)
+
+entry(
+    index = 2957,
+    label = "HO2 + C2H2O-2 <=> C2H3O3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(419.513,'cm^3/(mol*s)'), n=2.95453, Ea=(48.7674,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.06638, dn = +|- 0.00853984, dEa = +|- 0.0437433 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=C=O + [O]O <=> O=[C]COO
+""",
+)
+
+entry(
+    index = 2958,
+    label = "HO2 + butene1_1 <=> C4H9O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(91.2504,'cm^3/(mol*s)'), n=3.044, Ea=(37.933,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00597, dn = +|- 0.000791454, dEa = +|- 0.00405404 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=CCC + [O]O <=> CC[CH]COO
+""",
+)
+
+entry(
+    index = 2959,
+    label = "C3H7O-11 + C3H6O-10 <=> C6H13O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0843228,'cm^3/(mol*s)'), n=3.45799, Ea=(32.5403,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03847, dn = +|- 0.00501609, dEa = +|- 0.0256938 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=O + C[C](C)O <=> C[C](C)OC(C)(C)O
+""",
+)
+
+entry(
+    index = 2960,
+    label = "HO2 + C2H2O-3 <=> C2H3O3-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(41.5959,'cm^3/(mol*s)'), n=2.65806, Ea=(-0.589407,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.07429, dn = +|- 0.009523, dEa = +|- 0.0487793 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=C=O + [O]O <=> [CH2]C(=O)OO
+""",
+)
+
+entry(
+    index = 2961,
+    label = "HO2 + C5H10O <=> C5H11O3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.93051e-06,'cm^3/(mol*s)'), n=4.59696, Ea=(5.33691,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0905, dn = +|- 0.0115122, dEa = +|- 0.0589684 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=CCO + [O]O <=> C[C](C)C(CO)OO
+""",
+)
+
+entry(
+    index = 2962,
+    label = "O2 + C6H12 <=> C6H12O2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(2988.09,'cm^3/(mol*s)'), n=2.95272, Ea=(100.132,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.0764, dn = +|- 0.00978287, dEa = +|- 0.0501104 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=C(C)C + [O][O] <=> C[C](C)C(C)(C)O[O]
+""",
+)
+
