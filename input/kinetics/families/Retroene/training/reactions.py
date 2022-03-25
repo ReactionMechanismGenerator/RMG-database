@@ -855,50 +855,33 @@ entry(
     index = 65,
     label = "C2H4N2O2 <=> CH3NO + CHNO",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(2.3103e+06,'s^-1'), n=1.91844, Ea=(215.344,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.14216, dn = +|- 0.101085, dEa = +|- 0.521248 kJ/mol"""),
+    kinetics = Arrhenius(A=(3.86302e+06,'s^-1'), n=1.81611, Ea=(228.248,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.23831, dn = +|- 0.155918, dEa = +|- 0.803992 kJ/mol"""),
     rank = 4,
-    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
     longDesc = 
 """
+Original entry: r001085 <=> p001091_0 + p001091_1
 Calculated by Kevin Spiekermann
-Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001091
 opt, freq: wB97X-D3/def2-TZVP
-sp: CCSD(T)-F12/cc-pVDZ-F12
-Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
 """,
 )
 
 entry(
     index = 66,
-    label = "C2H4N2O2-2 <=> CH3NO-2 + CHNO",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.91827e+10,'s^-1'), n=0.736578, Ea=(60.3985,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14366, dn = +|- 0.0178114, dEa = +|- 0.0918447 kJ/mol"""),
-    rank = 4,
-    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
-"""
-Calculated by Kevin Spiekermann
-Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn001689
-opt, freq: wB97X-D3/def2-TZVP
-sp: CCSD(T)-F12/cc-pVDZ-F12
-Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
-""",
-)
-
-entry(
-    index = 67,
     label = "C2H4N2O <=> CH3NO + CHN",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.96843e+10,'s^-1'), n=0.78544, Ea=(151.759,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12608, dn = +|- 0.0157564, dEa = +|- 0.0812481 kJ/mol"""),
+    kinetics = Arrhenius(A=(9.54463e+09,'s^-1'), n=0.829688, Ea=(151.966,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.298, dn = +|- 0.034609, dEa = +|- 0.178462 kJ/mol"""),
     rank = 4,
-    shortDesc = """CCSD(T)-F12/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
     longDesc = 
 """
+Original entry: r005588 <=> p005591_0 + p001091_1
 Calculated by Kevin Spiekermann
-Reaction index that corresponds to the raw QM log files from the kinetics dataset from Spiekermann et al.: rxn005591
 opt, freq: wB97X-D3/def2-TZVP
-sp: CCSD(T)-F12/cc-pVDZ-F12
-Species have no rotatable bonds and any rings are planar (either aromatic or 3-membered)
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
 """,
 )
 
