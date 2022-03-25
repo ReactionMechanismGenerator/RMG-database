@@ -43809,3 +43809,343 @@ Original entry: CC1(C)OC1(C)C + [OH] <=> O + [CH2]C1(C)OC1(C)C
 """,
 )
 
+entry(
+    index = 3123,
+    label = "OH + C6H12-3 <=> H2O_p + C6H11-3",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(83705.8,'cm^3/(mol*s)'), n=2.59, Ea=(3.27,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//BHandHLYP/6-311G(d,p) by Yang et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: hexene-3 + OH <=> hex-3-enyl-1 + H2O
+
+Yang, Feiyu, et al. "Kinetics of hydrogen abstraction and addition reactions of 3-hexene by
+OH radicals." The Journal of Physical Chemistry A 121.9 (2017): 1877-1889.
+""",
+)
+
+entry(
+    index = 3124,
+    label = "OH + C6H12-4 <=> H2O_p + C6H11-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1445.28,'cm^3/(mol*s)'), n=3.14, Ea=(3.36,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//BHandHLYP/6-311G(d,p) by Yang et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: hexene-3 + OH <=> hex-3-enyl-3 + H2O
+
+Yang, Feiyu, et al. "Kinetics of hydrogen abstraction and addition reactions of 3-hexene by
+OH radicals." The Journal of Physical Chemistry A 121.9 (2017): 1877-1889.
+""",
+)
+
+entry(
+    index = 3125,
+    label = "O2 + C3H6 <=> HO2_p23 + CH2CHCH2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(17.7,'cm^3/(mol*s)'), n=3.64, Ea=(37.3,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C3H6 + O2 <=> [CH2]C=C + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3126,
+    label = "O2 + C4H8 <=> HO2_p23 + C4H7-7",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(1030,'cm^3/(mol*s)'), n=3.19, Ea=(37.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: iC4H8 + O2 <=> [CH2]C(C)=C + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3127,
+    label = "O2 + C4H8-2 <=> HO2_p23 + aC4H7",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(77.4,'cm^3/(mol*s)'), n=3.52, Ea=(36.2,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C4H8-2 + O2 <=> [CH2]C=CC + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3128,
+    label = "O2 + C5H6O <=> HO2_p23 + C5H5O",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.981,'cm^3/(mol*s)'), n=3.98, Ea=(37.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: O1C(C)=CC=C1 + O2 <=> O1C([CH2])=CC=C1 + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3129,
+    label = "O2 + C4H8-4 <=> HO2_p23 + CH2CHCHCH3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(48.8,'cm^3/(mol*s)'), n=3.48, Ea=(34.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C4H8-1 + O2 <=> [CH2]C=CC + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3130,
+    label = "O2 + C5H10-5 <=> HO2_p23 + C5H9-6",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(60.6,'cm^3/(mol*s)'), n=3.45, Ea=(34.6,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C5H10-1 + O2 <=> C=C[CH]CC + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3131,
+    label = "O2 + C6H8O <=> HO2_p23 + C6H7O",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(19.5,'cm^3/(mol*s)'), n=3.52, Ea=(35.1,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: O1C(CC)=CC=C1 + O2 <=> O1C([CH]C)=CC=C1 + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3132,
+    label = "O2 + C9H12-2 <=> HO2_p23 + C9H11-2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(1800,'cm^3/(mol*s)'), n=2.9, Ea=(37.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: CCCC1=CC=CC=C1 + O2 <=> CC[CH]C1=CC=CC=C1 + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3133,
+    label = "O2 + C5H10-3 <=> HO2_p23 + C5H9-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(6020,'cm^3/(mol*s)'), n=3.03, Ea=(32.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: isopentene + O2 <=> C[C](C)C=C + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3134,
+    label = "O2 + C7H10O <=> HO2_p23 + C7H9O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2980,'cm^3/(mol*s)'), n=2.75, Ea=(32.5,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: O1C(C(C)C)=CC=C1 + O2 <=> O1C([C](C)C)=CC=C1 + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3135,
+    label = "O2 + C5H8-2 <=> HO2_p23 + C5H7-4",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(0.482,'cm^3/(mol*s)'), n=4.16, Ea=(29.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: C=CCC=C + O2 <=> C=C[CH]C=C + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3136,
+    label = "H + C3H6-3 <=> H2_p + vC3H5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.12e+06,'cm^3/(mol*s)'), n=2.43, Ea=(53.96,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C3H6 <=> [CH]=CC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3137,
+    label = "H + C4H8-5 <=> H2_p + C4H7-8",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.01e+06,'cm^3/(mol*s)'), n=2.44, Ea=(54.53,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C4H8-1 <=> [CH]=CCC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3138,
+    label = "H + C4H8-4 <=> H2_p + CH2CHCHCH3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(237000,'cm^3/(mol*s)'), n=2.56, Ea=(12.24,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C4H8-1 <=> [CH2]C=CC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3139,
+    label = "H + C4H8-7 <=> H2_p + pC4H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(123000,'cm^3/(mol*s)'), n=2.71, Ea=(29.03,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C4H8-1 <=> C=CC[CH2] + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3140,
+    label = "H + C4H8-2 <=> H2_p + aC4H7",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(26000,'cm^3/(mol*s)'), n=2.95, Ea=(15.36,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C4H8-2 <=> [CH2]C=CC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3141,
+    label = "H + C4H8-3 <=> H2_p + C4H7-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(12100,'cm^3/(mol*s)'), n=2.41, Ea=(43.19,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + C4H8-2 <=> C[C]=CC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3142,
+    label = "H + C4H8-9 <=> H2_p + C4H7-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.6e+06,'cm^3/(mol*s)'), n=2.34, Ea=(57.34,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: alkene_chemistry
+Original entry: H + iC4H8 <=> [CH]=C(C)C + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
