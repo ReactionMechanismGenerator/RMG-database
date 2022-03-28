@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "2-BTP/full"
+name = "2-BTP"
 shortDesc = "2-BTP"
 longDesc = """
 Burgess, D. R., Babushok, V. I., Linteris, G. T., & Manion, J. A. (2015). 
