@@ -1862,12 +1862,12 @@ entry(
     label = "p004006",
     molecule = 
 """
-1 O u0 p3 c-1 {6,S}
-2 N u0 p0 c+1 {5,D} {6,S} {7,S}
-3 N u0 p1 c0 {4,S} {5,S} {8,S}
-4 N u0 p1 c0 {3,S} {6,D}
-5 N u0 p1 c0 {2,D} {3,S}
-6 C u0 p0 c0 {1,S} {2,S} {4,D}
+1 O u0 p2 c0 {6,D}
+2 N u0 p1 c0 {5,S} {6,S} {7,S}
+3 N u0 p0 c+1 {4,S} {5,D} {8,S}
+4 N u0 p2 c-1 {3,S} {6,S}
+5 N u0 p1 c0 {2,S} {3,D}
+6 C u0 p0 c0 {1,D} {2,S} {4,S}
 7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {3,S}
 """,
