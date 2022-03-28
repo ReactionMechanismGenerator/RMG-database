@@ -7,6 +7,9 @@ multiplicity 3
 1 O u1 p2 c0 {2,S}
 2 O u1 p2 c0 {1,S}
 
+HE
+1 He u0 p1 c0
+
 O
 multiplicity 3
 1 O u2 p2 c0
