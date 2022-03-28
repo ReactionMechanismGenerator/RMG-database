@@ -2,15 +2,13 @@
 # encoding: utf-8
 
 name = "halocarbene_CO_dimerization/training"
-shortDesc = u"Reaction kinetics used to generate rate rules"
-longDesc = u"""
+shortDesc = "Reaction kinetics used to generate rate rules"
+longDesc = """
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
-
-
 entry(
-    index = 1,
+    index = 0,
     label = "C3H3BrO <=> C2H3Br + CO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.3531e+12,'s^-1'), n=0.729529, Ea=(237.53,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.21767, dn = +|- 0.025874, dEa = +|- 0.140805 kJ/mol"""),
@@ -35,7 +33,7 @@ H    1.804145    -0.980936    -1.110967
 )
 
 entry(
-    index = 2,
+    index = 1,
     label = "C3H3ClO <=> C2H3Cl + CO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.43849e+12,'s^-1'), n=0.705824, Ea=(225.715,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.2099, dn = +|- 0.0250331, dEa = +|- 0.136229 kJ/mol"""),
@@ -60,7 +58,7 @@ H    1.794956    -0.968363    -1.112464
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "C3H3FO <=> C2H3F + CO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.62099e+12,'s^-1'), n=0.640083, Ea=(177.782,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.18906, dn = +|- 0.0227498, dEa = +|- 0.123804 kJ/mol"""),
