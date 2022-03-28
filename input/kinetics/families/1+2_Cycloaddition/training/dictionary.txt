@@ -281,3 +281,104 @@ C5H8-2
 12    H u0 p0 c0 {5,S}
 13    H u0 p0 c0 {5,S}
 
+CF2
+1    F u0 p3 c0 {3,S}
+2    F u0 p3 c0 {3,S}
+3 *3 C u0 p1 c0 {1,S} {2,S}
+
+C2H2F2
+1    F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3 *1 C u0 p0 c0 {4,D} {5,S} {6,S}
+4 *2 C u0 p0 c0 {1,S} {2,S} {3,D}
+5    H u0 p0 c0 {3,S}
+6    H u0 p0 c0 {3,S}
+
+C3H2F4
+1    F u0 p3 c0 {5,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {7,S}
+4    F u0 p3 c0 {7,S}
+5 *3 C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+6 *1 C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+7 *2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8    H u0 p0 c0 {6,S}
+9    H u0 p0 c0 {6,S}
+
+C3H4F2
+1    F u0 p3 c0 {3,S}
+2    F u0 p3 c0 {3,S}
+3 *3 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 *1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 *2 C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6    H u0 p0 c0 {4,S}
+7    H u0 p0 c0 {4,S}
+8    H u0 p0 c0 {5,S}
+9    H u0 p0 c0 {5,S}
+
+CCl2
+1    Cl u0 p3 c0 {3,S}
+2    Cl u0 p3 c0 {3,S}
+3 *3 C  u0 p1 c0 {1,S} {2,S}
+
+C3H4Cl2
+1    Cl u0 p3 c0 {3,S}
+2    Cl u0 p3 c0 {3,S}
+3 *3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 *1 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 *2 C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6    H  u0 p0 c0 {4,S}
+7    H  u0 p0 c0 {4,S}
+8    H  u0 p0 c0 {5,S}
+9    H  u0 p0 c0 {5,S}
+
+C2F4
+1    F u0 p3 c0 {5,S}
+2    F u0 p3 c0 {5,S}
+3    F u0 p3 c0 {6,S}
+4    F u0 p3 c0 {6,S}
+5 *1 C u0 p0 c0 {1,S} {2,S} {6,D}
+6 *2 C u0 p0 c0 {3,S} {4,S} {5,D}
+
+C3F6
+1    F u0 p3 c0 {7,S}
+2    F u0 p3 c0 {7,S}
+3    F u0 p3 c0 {8,S}
+4    F u0 p3 c0 {8,S}
+5    F u0 p3 c0 {9,S}
+6    F u0 p3 c0 {9,S}
+7 *3 C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+8 *1 C u0 p0 c0 {3,S} {4,S} {7,S} {9,S}
+9 *2 C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+
+CBr2
+1    Br u0 p3 c0 {3,S}
+2    Br u0 p3 c0 {3,S}
+3 *3 C  u0 p1 c0 {1,S} {2,S}
+
+C3H4Br2
+1    Br u0 p3 c0 {3,S}
+2    Br u0 p3 c0 {3,S}
+3 *3 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 *1 C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+5 *2 C  u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+6    H  u0 p0 c0 {4,S}
+7    H  u0 p0 c0 {4,S}
+8    H  u0 p0 c0 {5,S}
+9    H  u0 p0 c0 {5,S}
+
+CH2O
+1 *2 O u0 p2 c0 {2,D}
+2 *1 C u0 p0 c0 {1,D} {3,S} {4,S}
+3    H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+
+C2H2F2O
+1    F u0 p3 c0 {4,S}
+2    F u0 p3 c0 {4,S}
+3 *2 O u0 p2 c0 {4,S} {5,S}
+4 *3 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+5 *1 C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+6    H u0 p0 c0 {5,S}
+7    H u0 p0 c0 {5,S}
+

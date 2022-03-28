@@ -58,9 +58,9 @@ entry(
     label = "carbene",
     group = 
 """
-1 *3 C u0 p1 {2,S} {3,S}
-2    H u0 {1,S}
-3    H u0 {1,S}
+1 *3 C2s u0 p1 {2,S} {3,S}
+2 [H,Val7] u0 {1,S}
+3 [H,Val7] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -71,11 +71,11 @@ entry(
     group = 
 """
 1    Cs u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 C  u0 p1 {1,S} {6,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-5    H  u0 {1,S}
-6    H  u0 {2,S}
+2 *3 C2s  u0 p1 {1,S} {6,S}
+3    [H,Val7]  u0 {1,S}
+4    [H,Val7]  u0 {1,S}
+5    [H,Val7]  u0 {1,S}
+6    [H,Val7]  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -85,9 +85,9 @@ entry(
     label = "ph_carbene",
     group = 
 """
-1 *3 C  u0 p1 {2,S} {3,S}
+1 *3 C2s  u0 p1 {2,S} {3,S}
 2    Cb u0 {1,S} {4,B} {5,B}
-3    H  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
 4    Cb u0 {2,B} {6,B}
 5    Cb u0 {2,B} {7,B}
 6    Cb u0 {4,B} {8,B}
@@ -104,13 +104,13 @@ entry(
 """
 1    Cs u0 {3,S} {4,S} {5,S} {6,S}
 2    Cs u0 {3,S} {7,S} {8,S} {9,S}
-3 *3 C  u0 p1 {1,S} {2,S}
-4    H  u0 {1,S}
-5    H  u0 {1,S}
-6    H  u0 {1,S}
-7    H  u0 {2,S}
-8    H  u0 {2,S}
-9    H  u0 {2,S}
+3 *3 C2s  u0 p1 {1,S} {2,S}
+4    [H,Val7]  u0 {1,S}
+5    [H,Val7]  u0 {1,S}
+6    [H,Val7]  u0 {1,S}
+7    [H,Val7]  u0 {2,S}
+8    [H,Val7]  u0 {2,S}
+9    [H,Val7]  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -144,8 +144,8 @@ entry(
 """
 1 *1 CO u0 {2,D} {3,S} {4,S}
 2 *2 O  u0 {1,D}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
+4    [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -157,7 +157,7 @@ entry(
 """
 1 *1 CO     u0 {2,D} {3,S} {4,S}
 2 *2 O      u0 {1,D}
-3    H      u0 {1,S}
+3    [H,Val7]      u0 {1,S}
 4    [Cs,O] u0 {1,S}
 """,
     kinetics = None,
@@ -170,7 +170,7 @@ entry(
 """
 1 *1 CO            u0 {2,D} {3,S} {4,S}
 2 *2 O             u0 {1,D}
-3    H             u0 {1,S}
+3    [H,Val7]             u0 {1,S}
 4    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
     kinetics = None,
@@ -222,8 +222,8 @@ entry(
 """
 1 *1 CS u0 {2,D} {3,S} {4,S}
 2 *2 S  u0 {1,D}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
+3    [H,Val7]  u0 {1,S}
+4    [H,Val7]  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -235,7 +235,7 @@ entry(
 """
 1 *1 CS       u0 {2,D} {3,S} {4,S}
 2 *2 S        u0 {1,D}
-3    H        u0 {1,S}
+3    [H,Val7]        u0 {1,S}
 4    [Cs,O,S] u0 {1,S}
 """,
     kinetics = None,
@@ -248,7 +248,7 @@ entry(
 """
 1 *1 CS               u0 {2,D} {3,S} {4,S}
 2 *2 S                u0 {1,D}
-3    H                u0 {1,S}
+3    [H,Val7]                u0 {1,S}
 4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
@@ -323,10 +323,10 @@ entry(
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-5    H  u0 {2,S}
-6    H  u0 {2,S}
+3    [H,Val7]  u0 {1,S}
+4    [H,Val7]  u0 {1,S}
+5    [H,Val7]  u0 {2,S}
+6    [H,Val7]  u0 {2,S}
 """,
     kinetics = None,
 )
@@ -338,9 +338,9 @@ entry(
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
-3    H   u0 {1,S}
-4    H   u0 {1,S}
-5    H   u0 {2,S}
+3    [H,Val7]   u0 {1,S}
+4    [H,Val7]   u0 {1,S}
+5    [H,Val7]   u0 {2,S}
 6    R!H u0 {2,S}
 """,
     kinetics = None,
@@ -353,9 +353,9 @@ entry(
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
-3    H        u0 {1,S}
-4    H        u0 {1,S}
-5    H        u0 {2,S}
+3    [H,Val7]        u0 {1,S}
+4    [H,Val7]        u0 {1,S}
+5    [H,Val7]        u0 {2,S}
 6    [Cs,O,S] u0 {2,S}
 """,
     kinetics = None,
@@ -368,9 +368,9 @@ entry(
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
-3    H                u0 {1,S}
-4    H                u0 {1,S}
-5    H                u0 {2,S}
+3    [H,Val7]                u0 {1,S}
+4    [H,Val7]                u0 {1,S}
+5    [H,Val7]                u0 {2,S}
 6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
@@ -383,8 +383,8 @@ entry(
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
-3    H   u0 {1,S}
-4    H   u0 {1,S}
+3    [H,Val7]   u0 {1,S}
+4    [H,Val7]   u0 {1,S}
 5    R!H u0 {2,S}
 6    R!H u0 {2,S}
 """,
@@ -782,12 +782,109 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 56,
+    label = "CH2",
+    group = 
+"""
+1 *3 C2s u0 p1 {2,S} {3,S}
+2    H u0 p0 {1,S}
+3    H u0 p0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 57,
+    label = "CF2",
+    group = 
+"""
+1 *3 C2s u0 p1 {2,S} {3,S}
+2    F1s u0 p3 {1,S}
+3    F1s u0 p3 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 58,
+    label = "CCl2",
+    group = 
+"""
+1 *3 C2s u0 p1 {2,S} {3,S}
+2    Cl1s u0 p3 {1,S}
+3    Cl1s u0 p3 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 59,
+    label = "CBr2",
+    group = 
+"""
+1 *3 C2s u0 p1 {2,S} {3,S}
+2    Br1s u0 p3 {1,S}
+3    Br1s u0 p3 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 60,
+    label = "C2H4",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3     H u0 {1,S}
+4     H u0 {1,S}
+5     H u0 {2,S}
+6     H u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 61,
+    label = "CH2CF2",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3     H u0 {1,S}
+4     H u0 {1,S}
+5     F u0 {2,S}
+6     F u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 62,
+    label = "CF2CF2",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3     F u0 {1,S}
+4     F u0 {1,S}
+5     F u0 {2,S}
+6     F u0 {2,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: elec_def
     L2: o_atom_singlet
     L2: S_atom_singlet
     L2: carbene
+        L3: CH2
+        L3: CF2 
+        L3: CCl2
+        L3: CBr2
     L2: me_carbene
     L2: ph_carbene
     L2: dime_carbene
@@ -809,6 +906,9 @@ L1: multiplebond
     L2: mb_db
         L3: mb_db_dbSub
         L3: mb_db_unsub
+            L4: C2H4
+            L4: CH2CF2
+            L4: CF2CF2
         L3: mb_db_monosub
             L4: mb_db_monosub_Nd
             L4: mb_db_monosub_De

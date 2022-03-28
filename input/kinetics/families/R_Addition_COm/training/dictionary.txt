@@ -220,3 +220,22 @@ multiplicity 2
 12    H u0 p0 c0 {6,S}
 13    H u0 p0 c0 {7,S}
 
+CClO
+multiplicity 2
+1 *2 Cl u0 p3 c0 {3,S}
+2 *3 O  u0 p2 c0 {3,D}
+3 *1 C  u1 p0 c0 {1,S} {2,D}
+
+Cl
+multiplicity 2
+1 *2 Cl u1 p3 c0
+
+CBrO
+multiplicity 2
+1 *2 Br u0 p3 c0 {3,S}
+2 *3 O  u0 p2 c0 {3,D}
+3 *1 C  u1 p0 c0 {1,S} {2,D}
+
+Br
+multiplicity 2
+1 *2 Br u1 p3 c0

@@ -6,6 +6,16 @@ shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
+Sources:
+[1] Characterization of the 1,1-HCl Elimination Reaction of Vibrationally Excited CD3CHFCl Molecules and Assignment of Threshold Energies for 1,1-HCl and 1,2-DCl plus 1,1-HF and 1,2-DF Elimination Reactions
+    Timothy M. Brown, Matthew J. Nestler, Samuel M. Rossabi, George L. Heard, D. W. Setser, and Bert E. Holmes
+    The Journal of Physical Chemistry A 2015 119 (36), 9441-9451
+    DOI: 10.1021/acs.jpca.5b06638
+
+[2] Unimolecular HBr and HF Elimination Reactions of Vibrationally Excited C2H5CH2Br and C2D5CHFBr: Identification of the 1,1-HBr Elimination Reaction from C2D5CHFBr and Search for the C2D5(F)C:HBr Adduct
+    Timothy M. Brown, Blanton R. Gillespie, Mallory M. Rothrock, Anthony J. Ranieri, Melinda K. Schueneman, George L. Heard, Donald W. Setser, and Bert E. Holmes
+    The Journal of Physical Chemistry A 2019 123 (41), 8776-8786
+    DOI: 10.1021/acs.jpca.9b07029
 """
 entry(
     index = 0,
@@ -56,6 +66,62 @@ entry(
     longDesc = 
 u"""
 Taken from entry: X <=> XI
+""",
+)
+
+entry(
+    index = 4,
+    label = "C2F4 <=> C2F4-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.731e+10,'s^-1'), n=0.827, Ea=(35644,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CF3CF <=> CF2:CF2""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CF3CF <=> CF2:CF2
+""",
+)
+
+entry(
+    index = 5,
+    label = "CH3CF <=> CH2CHF",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1e13,'s^-1'), n=0, Ea=(15,'kcal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """MP2/6-311+G(2d,p)""",
+    longDesc = 
+"""
+Ea is threshold energy for CD3CF -> CD2=CDF from Figure 1 in [1]
+A factor estimated
+""",
+)
+
+entry(
+    index = 6,
+    label = "CH3CCl <=> CH2CHCl",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1e13,'s^-1'), n=0, Ea=(10,'kcal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """MP2/6-311+G(2d,p)""",
+    longDesc = 
+"""
+Ea is threshold energy for CD3CCl -> CD2=CDCl from Figure 1 in [1]
+A factor estimated
+""",
+)
+
+entry(
+    index = 7,
+    label = "CH3CH2CBr <=> CH3CHCHBr",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1e13,'s^-1'), n=0, Ea=(4.2,'kcal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """MP2/6-311+G(2d,p)""",
+    longDesc = 
+"""
+Ea is threshold energy for CD3CD2CCl -> CD3CD=CDCl from Figure 6 in [2]
+A factor estimated
 """,
 )
 
