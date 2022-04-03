@@ -28,6 +28,9 @@ git clone ${REPO} ${TARGET_DIR}
 # go inside the newly created folder:
 cd $TARGET_DIR
 
+#temp chang rmg-tests branch
+git checkout -b primaryH2O2 origin/primaryH2O2
+
 # create a new branch in RMG-tests with the name equal to
 # the branch name of the tested RMG-database branch:
 if [ "$RMG_PY_BRANCH" == "main" ]
