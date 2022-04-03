@@ -4,9 +4,9 @@
 name = "Solvent Descriptors"
 shortDesc = u""
 longDesc = u"""
-Most of the Abraham (s_g, b_g, e_g, l_g, a_g, c_g) and Mintz solvent parameters (s_h, b_h, e_h, l_h, a_h, c_h) 
-are fitted by Yunsie Chung and Pierre Walker using experimental solute parameter, solvation free energy, 
-and solvation enthalpy data (manuscript in preparation). Abraham solvent parameters are used for solvation 
+Most of the Abraham (s_g, b_g, e_g, l_g, a_g, c_g) and Mintz solvent parameters (s_h, b_h, e_h, l_h, a_h, c_h)
+are fitted by Yunsie Chung and Pierre Walker using experimental solute parameter, solvation free energy,
+and solvation enthalpy data (manuscript in preparation). Abraham solvent parameters are used for solvation
 free energy (dGsolv) calculations, and Mintz solvent parameters are used for solvation enthalpy (dHsolv) calculations.
 
 The majority of the viscosity parameters (A, B, C, D, E) are obtained from:
@@ -14,7 +14,7 @@ The majority of the viscosity parameters (A, B, C, D, E) are obtained from:
     Springer, The Netherlands: Dordrecht.
 The rest of the viscosity parameters are found from the DIPPR.
 
-'alpha' and 'beta' are the SOLUTE parameters A and B that can be potentially used for intrinsic rate correction 
+'alpha' and 'beta' are the SOLUTE parameters A and B that can be potentially used for intrinsic rate correction
 in H-abstraction rxns. But these parameters are currently not used in RMG.
 
 'eps' is the dielectric constant of a solvent. It is currently not used in RMG.
@@ -22,7 +22,7 @@ in H-abstraction rxns. But these parameters are currently not used in RMG.
 'name_in_coolprop' represents the solvent's name used in the external package CoolProp. CoolProp is used for
 fluid property calculation. If the solvent is not available in CoolProp, 'name_in_coolprop' is set to None.
 
-'dataCount' stores the information on the number of data used to fit the Abraham and Mintz solvent parameters and 
+'dataCount' stores the information on the number of data used to fit the Abraham and Mintz solvent parameters and
 their associated solvation free energy and solvation enthalpy mean absolute error (MAE).
 
 Reference legend:
@@ -75,7 +75,7 @@ entry(
         dHsolvMAE = (1.04,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -116,7 +116,7 @@ entry(
         dHsolvMAE = (0.5,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 alpha = 0.328, #primary alcohols
 beta = 0.45, #primary alcohols,
@@ -159,7 +159,7 @@ entry(
         dHsolvMAE = (0.35,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -200,7 +200,7 @@ entry(
         dHsolvMAE = (0.31,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -241,7 +241,7 @@ entry(
         dHsolvMAE = (0.27,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -282,7 +282,7 @@ entry(
         dHsolvMAE = (0.29,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -323,7 +323,7 @@ entry(
         dHsolvMAE = (0.47,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -364,7 +364,7 @@ entry(
         dHsolvMAE = (0.37,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 beta = 0.05, # Note 24 in Snelgrove et al. 2001
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
@@ -406,7 +406,7 @@ entry(
         dHsolvMAE = (0.39,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -447,7 +447,7 @@ entry(
         dHsolvMAE = (0.35,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -483,7 +483,7 @@ entry(
     ),
     dataCount = None,
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 The source of the Abarham and Mintz parameters is unknown.
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -524,7 +524,7 @@ entry(
         dHsolvMAE = (0.71,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -565,7 +565,7 @@ entry(
         dHsolvMAE = (0.53,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -606,7 +606,7 @@ entry(
         dHsolvMAE = (0.3,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -647,7 +647,7 @@ entry(
         dHsolvMAE = (0.53,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -688,7 +688,7 @@ entry(
         dHsolvMAE = (0.34,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -729,7 +729,7 @@ entry(
         dHsolvMAE = (0.38,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -770,7 +770,7 @@ entry(
         dHsolvMAE = (0.29,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -811,7 +811,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham: fitted by Chung et al. (manuscript in preparation)
 The source of the Mintz parameters is unknown.
@@ -853,7 +853,7 @@ entry(
         dHsolvMAE = (0.28,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -894,7 +894,7 @@ entry(
         dHsolvMAE = (0.26,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -935,7 +935,7 @@ entry(
         dHsolvMAE = (0.36,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 eps = 2.2 # aerage of range 2.0-2.4
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
@@ -977,7 +977,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 The source of the Mintz parameters is unknown.
@@ -1019,7 +1019,7 @@ entry(
         dHsolvMAE = (0.51,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -1060,7 +1060,7 @@ entry(
         dHsolvMAE = (0.4,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -1101,7 +1101,7 @@ entry(
         dHsolvMAE = (0.57,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 [Abraham2012]: Michael H. Abraham and William E. Acree Jr Phys. Chem. Chem. Phys., 2012,14, 7433–7440
 [Mohsen-Nia2012]: DOI: 10.1016/j.jct.2012.08.009
@@ -1140,7 +1140,7 @@ entry(
     ),
     dataCount = None,
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 [Abraham2016]: Michael H. Abraham and William E. Acree Jr J Solution Chem (2016) 45:861–874
 [Mohsen-Nia2012]: DOI: 10.1016/j.jct.2012.08.009
@@ -1178,7 +1178,7 @@ entry(
     ),
     dataCount = None,
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 [JIRKAL2016]: DOI: 10.1556/1326.2016.28.1.06
 [Gagliardi2007]: DOI: 10.1021/je700055p
@@ -1216,7 +1216,7 @@ entry(
     ),
     dataCount = None,
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 [JIRKAL2016]: DOI: 10.1556/1326.2016.28.1.06
 [Gagliardi2007]: DOI: 10.1021/je700055p
@@ -1258,7 +1258,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1300,7 +1300,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1342,7 +1342,7 @@ entry(
         dHsolvMAE = (0.41,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1384,7 +1384,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1426,7 +1426,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1468,7 +1468,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1510,7 +1510,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1552,7 +1552,7 @@ entry(
         dHsolvMAE = (0.06,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1594,7 +1594,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1636,7 +1636,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1678,7 +1678,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1720,7 +1720,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1762,7 +1762,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1804,7 +1804,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1846,7 +1846,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1888,7 +1888,7 @@ entry(
         dHsolvMAE = (0.31,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -1930,7 +1930,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -1970,7 +1970,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -2010,7 +2010,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -2050,7 +2050,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2092,7 +2092,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -2132,7 +2132,7 @@ entry(
         dHsolvMAE = (0.34,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2174,7 +2174,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2216,7 +2216,7 @@ entry(
         dHsolvMAE = (0.1,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2258,7 +2258,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2300,7 +2300,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2342,7 +2342,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2384,7 +2384,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2426,7 +2426,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2468,7 +2468,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -2508,7 +2508,7 @@ entry(
         dHsolvMAE = (0.44,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2550,7 +2550,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2592,7 +2592,7 @@ entry(
         dHsolvMAE = (0.41,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2634,7 +2634,7 @@ entry(
         dHsolvMAE = (0.48,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2676,7 +2676,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2718,7 +2718,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2760,7 +2760,7 @@ entry(
         dHsolvMAE = (0.3,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2802,7 +2802,7 @@ entry(
         dHsolvMAE = (0.4,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2844,7 +2844,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2886,7 +2886,7 @@ entry(
         dHsolvMAE = (0.27,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2928,7 +2928,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -2970,7 +2970,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3012,7 +3012,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3054,7 +3054,7 @@ entry(
         dHsolvMAE = (0.31,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3096,7 +3096,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3138,7 +3138,7 @@ entry(
         dHsolvMAE = (0.46,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3180,7 +3180,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3222,7 +3222,7 @@ entry(
         dHsolvMAE = (0.55,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3264,7 +3264,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3306,7 +3306,7 @@ entry(
         dHsolvMAE = (0.46,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3348,7 +3348,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3390,7 +3390,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3432,7 +3432,7 @@ entry(
         dHsolvMAE = (0.39,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3474,7 +3474,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3516,7 +3516,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -3556,7 +3556,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3598,7 +3598,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3640,7 +3640,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3682,7 +3682,7 @@ entry(
         dHsolvMAE = (0.41,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3724,7 +3724,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3766,7 +3766,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3808,7 +3808,7 @@ entry(
         dHsolvMAE = (0.46,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3850,7 +3850,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3892,7 +3892,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3934,7 +3934,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -3976,7 +3976,7 @@ entry(
         dHsolvMAE = (0.36,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4018,7 +4018,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4060,7 +4060,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4102,7 +4102,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4144,7 +4144,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4186,7 +4186,7 @@ entry(
         dHsolvMAE = (0.05,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4228,7 +4228,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4270,7 +4270,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4312,7 +4312,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4354,7 +4354,7 @@ entry(
         dHsolvMAE = (0.3,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4396,7 +4396,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4438,7 +4438,7 @@ entry(
         dHsolvMAE = (0.3,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4480,7 +4480,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -4520,7 +4520,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -4560,7 +4560,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -4600,7 +4600,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -4640,7 +4640,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4682,7 +4682,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4724,7 +4724,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4766,7 +4766,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4808,7 +4808,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -4848,7 +4848,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -4888,7 +4888,7 @@ entry(
         dHsolvMAE = (0.62,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -4930,7 +4930,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -4970,7 +4970,7 @@ entry(
         dHsolvMAE = (0.18,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5010,7 +5010,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5050,7 +5050,7 @@ entry(
         dHsolvMAE = (0.41,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5092,7 +5092,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5132,7 +5132,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5172,7 +5172,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5212,7 +5212,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5252,7 +5252,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5292,7 +5292,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5332,7 +5332,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5374,7 +5374,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5416,7 +5416,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5458,7 +5458,7 @@ entry(
         dHsolvMAE = (0.36,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5500,7 +5500,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5542,7 +5542,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5584,7 +5584,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5626,7 +5626,7 @@ entry(
         dHsolvMAE = (0.1,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5668,7 +5668,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5708,7 +5708,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5750,7 +5750,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5792,7 +5792,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5834,7 +5834,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -5874,7 +5874,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5916,7 +5916,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -5958,7 +5958,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6000,7 +6000,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6042,7 +6042,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6084,7 +6084,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -6124,7 +6124,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6166,7 +6166,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6208,7 +6208,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6250,7 +6250,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6292,7 +6292,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6334,7 +6334,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6376,7 +6376,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6418,7 +6418,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6460,7 +6460,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6502,7 +6502,7 @@ entry(
         dHsolvMAE = (0.06,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6544,7 +6544,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -6584,7 +6584,7 @@ entry(
         dHsolvMAE = (0.44,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -6624,7 +6624,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -6664,7 +6664,7 @@ entry(
         dHsolvMAE = (0.17,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6706,7 +6706,7 @@ entry(
         dHsolvMAE = (0.54,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6748,7 +6748,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -6788,7 +6788,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6830,7 +6830,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6872,7 +6872,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -6914,7 +6914,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -6954,7 +6954,7 @@ entry(
         dHsolvMAE = (0.12,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -6994,7 +6994,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7034,7 +7034,7 @@ entry(
         dHsolvMAE = (0.78,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7076,7 +7076,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7118,7 +7118,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7160,7 +7160,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7200,7 +7200,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7242,7 +7242,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7284,7 +7284,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7324,7 +7324,7 @@ entry(
         dHsolvMAE = (0.33,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7366,7 +7366,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7406,7 +7406,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7446,7 +7446,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7486,7 +7486,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7526,7 +7526,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7568,7 +7568,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7610,7 +7610,7 @@ entry(
         dHsolvMAE = (0.46,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7650,7 +7650,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7692,7 +7692,7 @@ entry(
         dHsolvMAE = (0.04,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7734,7 +7734,7 @@ entry(
         dHsolvMAE = (0.18,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7774,7 +7774,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7816,7 +7816,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7856,7 +7856,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -7896,7 +7896,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7938,7 +7938,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -7980,7 +7980,7 @@ entry(
         dHsolvMAE = (0.06,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -8020,7 +8020,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -8060,7 +8060,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -8100,7 +8100,7 @@ entry(
         dHsolvMAE = (0.05,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -8142,7 +8142,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -8182,7 +8182,7 @@ entry(
         dHsolvMAE = (0.09,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -8224,7 +8224,7 @@ entry(
         dHsolvMAE = (0.16,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham and Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -8264,7 +8264,7 @@ entry(
         dHsolvMAE = None,
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Abraham parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -8306,7 +8306,7 @@ entry(
         dHsolvMAE = (0.42,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 """,
@@ -8346,7 +8346,7 @@ entry(
         dHsolvMAE = (0.29,'kcal/mol'),
     ),
     shortDesc = u""" """,
-    longDesc = 
+    longDesc =
 u"""
 Mintz parameters: fitted by Chung et al. (manuscript in preparation)
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
@@ -8386,6 +8386,48 @@ entry(
         dGsolvMAE = (0.5578,'kcal/mol'),
         dHsolvCount = 3080,
         dHsolvMAE = (0.8275,'kcal/mol'),
+    ),
+    shortDesc = u""" """,
+    longDesc =
+u"""
+Abraham and Mintz parameters: fitted by Matt Johnson
+Viscosity parameters are those of diethyl carbonate from (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+""",
+)
+
+entry(
+    index = 203,
+    label = "ethylene carbonate",
+    molecule = "C1COC(=O)O1",
+    solvent = SolventData(
+        s_g = 2.4387439563279862,
+        b_g = 0.8969589830673789,
+        e_g = -0.030733777813237134,
+        l_g = 0.5133206782899853,
+        a_g = 2.8036876740752743,
+        c_g = -0.09419329380137183,
+        s_h = -15.543715466931483,
+        b_h = -5.857711062713695,
+        e_h = 2.2564688777791893,
+        l_h = -5.402241881627756,
+        a_h = -29.551645315399217,
+        c_h = -4.180841258478225,
+        A = -47.078,
+        B = 2783.2,
+        C = 5.3617,
+        D = 0,
+        E = 0,
+        alpha = None,
+        beta = None,
+        eps = None,
+        name_in_coolprop = None,
+    ),
+    dataCount = DataCountSolvent(
+        dGsolvCount = 3080,
+        dGsolvMAE = (0.5840,'kcal/mol'),
+        dHsolvCount = 3080,
+        dHsolvMAE = (0.8473,'kcal/mol'),
     ),
     shortDesc = u""" """,
     longDesc =
