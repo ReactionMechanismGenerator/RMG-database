@@ -265,11 +265,11 @@ entry(
 
 entry(
     index = 20,
-    label = "Bidentate",
+    label = "C-H_Bidentate",
     group =
 """
-1 *1 R!H u0 {2,S} {3,[S,D]} {4,[S,D]}
-2 *2 R   u0 {1,S}
+1 *1 C   u0 {2,S} {3,[S,D]} {4,[S,D]}
+2 *2 H   u0 {1,S}
 3 *3 Xo  u0 {1,[S,D]}
 4    R!H u0 {1,[S,D]} {5,[S,D,T]}
 5    Xo  u0 {4,[S,D,T]}
@@ -286,26 +286,19 @@ L1: Combined
             L4: CH
             L4: CH2
             L4: CH3
-            L4: Bidentate
+            L4: C-H_Bidentate
         L3: C-O
             L4: C-OH
-            L4: Bidentate
     L2: O
         L3: O-H
-            L4: Bidentate
         L3: O-C
             L4: O-C=O
-            L4: Bidentate
         L3: O-N
             L4: O-N=O
-            L4: Bidentate
     L2: N
         L3: N-H2
-            L4: Bidentate
         L3: N-H
-            L4: Bidentate
         L3: N-N
-            L4: Bidentate
 L1: VacantSite
 """
 )

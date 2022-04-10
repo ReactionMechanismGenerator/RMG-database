@@ -35,7 +35,7 @@ DOI 10.1007/s10562-010-0477-y
 
 entry(
     index = 2,
-    label = "Bidentate;VacantSite",
+    label = "C-H_Bidentate;VacantSite",
     kinetics = SurfaceArrheniusBEP(
         A = (4.163e15, 'm^2/(mol*s)'), 
         n = 0.279,
