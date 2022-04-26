@@ -46,5 +46,43 @@ L1: Root
 """
 )
 
+forbidden(
+    label = "R3_rad",
+    group = 
+"""
+1 *1 R!H u0 p0 c0 {2,S}
+2 *4 H   u0 p0 c0 {1,S}
+3 *2 R!H u0 p0 c0 {4,D}
+4 *3 R!H u0 p0 c0 {3,D} {5,S}
+5    R!H u1 p0 c0 {4,S}
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+Prevent R3 from being connected to a radical. 
+As an example, it prevents the reactant from this reaction from matching the template.
+rsmi: [C:1](=[C:2]([C:3]([C:4]([C:5](=[C:6]([C:7]([H:17])[H:18])[H:16])[H:15])([H:13])[H:14])([H:11])[H:12])[H:10])([H:8])[H:9]
+psmi: [C:1]1([H:9])=[C:2]([H:10])[C:3]([H:11])([H:12])[C:4]([H:13])([H:14])[C:5]([H:8])([H:15])[C:6]1([C:7]([H:17])[H:18])[H:16]
+""",
+)
 
+forbidden(
+    label = "R3_rad_rev",
+    group = 
+"""
+1 *1 R!H u0 p0 c0 {2,S}
+2 *3 R!H u0 p0 c0 {1,S} {3,S} {4,S}
+3    R!H u1 p0 c0 {2,S}
+4 *2 R!H u0 p0 c0 {2,S} {5,S}
+5 *4 H   u0 p0 c0 {4,S}
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+Prevent R3 from being connected to a radical. 
+As an example, it prevents the product from this reaction from matching the template.
+rsmi: [C:1](=[C:2]([C:3]([C:4]([C:5](=[C:6]([C:7]([H:17])[H:18])[H:16])[H:15])([H:13])[H:14])([H:11])[H:12])[H:10])([H:8])[H:9]
+psmi: [C:1]1([H:9])=[C:2]([H:10])[C:3]([H:11])([H:12])[C:4]([H:13])([H:14])[C:5]([H:8])([H:15])[C:6]1([C:7]([H:17])[H:18])[H:16]
+""",
+)
 
