@@ -13,6 +13,7 @@ template(reactants=["R2OO"], products=["R=R", "OOH"], ownReverse=False)
 
 reverse = "HO2_concerted_addition"
 reversible = True
+only_forward = True
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*5'],
