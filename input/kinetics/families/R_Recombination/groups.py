@@ -11,6 +11,7 @@ template(reactants=["Root"], products=["Y_Y"], ownReverse=False)
 
 reverse = "Bond_Dissociation"
 reversible = True
+only_forward = True
 
 reactantNum = 2
 
