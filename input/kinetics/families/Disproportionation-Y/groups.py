@@ -13,6 +13,7 @@ template(reactants=["Root"], products=["Y_H", "X_R"], ownReverse=False)
 
 reverse = "Molecular_Addition"
 reversible = True
+only_forward = True
 
 reactantNum = 2
 
