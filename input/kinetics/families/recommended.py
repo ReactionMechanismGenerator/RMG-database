@@ -102,6 +102,72 @@ liquid_peroxide = {
     'Baeyer-Villiger_step2_cat',
 }
 
+apideg = {
+    '1+2_Cycloaddition',
+    '1,2-Birad_to_alkene',
+    '1,2_Insertion_CO',
+    '1,2_Insertion_carbene',
+    '1,2_shiftS',
+    '1,3_Insertion_CO2',
+    '1,3_Insertion_ROR',
+    '1,3_Insertion_RSR',
+    '1,4_Cyclic_birad_scission',
+    '1,4_Linear_birad_scission',
+    '2+2_cycloaddition',
+    'Birad_recombination',
+    'CO_Disproportionation',
+    'Birad_R_Recombination',
+    'Cyclic_Ether_Formation',
+    'Cyclic_Thioether_Formation',
+    'Diels_alder_addition',
+    'Diels_alder_addition_Aromatic',
+    'Disproportionation',
+    'HO2_Elimination_from_PeroxyRadical',
+    'H_Abstraction',
+    'Intra_Retro_Diels_alder_bicyclic',
+    'Intra_Disproportionation',
+    'Intra_R_Add_Endocyclic',
+    'Intra_R_Add_Exocyclic',
+    'R_Addition_COm',
+    'R_Addition_MultipleBond',
+    'R_Recombination',
+    'intra_H_migration',
+    'intra_NO2_ONO_conversion',
+    'intra_OH_migration',
+    'intra_substitutionCS_cyclization',
+    'intra_substitutionCS_isomerization',
+    'intra_substitutionS_cyclization',
+    'intra_substitutionS_isomerization',
+    '1,3_sigmatropic_rearrangement',
+    # 'Singlet_Carbene_Intra_Disproportionation',  # not recommended for APIs
+    'Singlet_Val6_to_triplet',
+    'Intra_5_membered_conjugated_C=C_C=C_addition',
+    'Intra_Diels_alder_monocyclic',
+    'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH',
+    'Intra_2+2_cycloaddition_Cd',
+    'Intra_ene_reaction',
+    'Cyclopentadiene_scission',
+    '6_membered_central_C-C_shift',
+    'Intra_R_Add_Exo_scission',
+    '1,2_shiftC',
+    '1,2_NH3_elimination',
+    '1,3_NH3_elimination',
+    'Retroene',
+    'Ketoenol',
+    'acetal_hydrolysis',  # API-specific
+    'alcohol_dehydrogenation',  # API-specific
+    'amide_alcoholysis',  # API-specific
+    'amine_COH_HCN',  # API-specific
+    'amine_hydrolysis',  # API-specific
+    'hemiacetal_hydrolysis',  # API-specific
+    'hemiaminal_hydrolysis',  # API-specific
+    'HOCK_rearrangement',  # API-specific
+    'hydroperoxide_to_alcohol',  # API-specific
+    'imine_hydrolysis',  # API-specific
+    'methanoate_hydrolysis',  # API-specific
+    'thione_ketone',  # API-specific
+}
+
 # Surface chemistry for heterogeneous catalysis.
 surface = {
     'Surface_Adsorption_Single',
