@@ -19,5 +19,8 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""
+    Made up
+    flagged for uncertainty perturbation
+    """
 )

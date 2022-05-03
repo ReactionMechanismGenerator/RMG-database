@@ -12,7 +12,7 @@ entry(
     index = 1,
     label = "AdsorbateVdW;Adsorbate1",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e13, 'm^2/(mol*s)'),
+        A = (3.2e+17, 'm^2/(mol*s)'),
         n = 0,
         alpha = 0.5,
         E0 = (0, 'kcal/mol'),
@@ -21,5 +21,8 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = u"""Made up"""
+    longDesc = u"""
+    Made up
+    flagged for uncertainty perturbation
+    """
 )
