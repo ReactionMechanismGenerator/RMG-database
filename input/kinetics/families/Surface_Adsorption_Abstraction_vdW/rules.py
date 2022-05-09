@@ -7,7 +7,7 @@ longDesc = u"""
 Adsorbtion of a vdw species to the surface with a surface species."""
 
 entry(
-    index = 43,
+    index = 1,
     label = "AdsorbateVdW;Adsorbate1",
     kinetics = SurfaceArrheniusBEP(
         A = (3.2e+17, 'm^2/(mol*s)'),
