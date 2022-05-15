@@ -10036,6 +10036,37 @@ Fitted from molecule s4_6_8_diene_7_9 from Bicyclics_QM_190_isomorphic library.
 """,
 )
 
+entry(
+    index = 394,
+    label = "Benzazepine",
+    group =
+"""
+1    Cb u0 {2,B} {3,B} {6,[S,D,T,B]}
+2    Cb u0 {1,B} {4,B} {5,[S,D,T,B]}
+3    Cb u0 {1,B} {9,B}
+4    Cb u0 {2,B} {7,B}
+5    [Cs,Cb] u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+6    N3s u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+7 *  Cb u0 {4,B} {9,B}
+8    [Cs,Cb] u0 {5,[S,D,T,B]} {11,[S,D,T,B]}
+9    Cb u0 {3,B} {7,B}
+10   [Cs,Cb] u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
+11   [Cs,Cb] u0 {10,[S,D,T,B]} {8,[S,D,T,B]}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-9.1, -8.22, -5.08, 0.66, 13.05, 23.31, 33.83], 'J/(mol*K)'),
+        H298=(15.58, 'kJ/mol'),
+        S298=(45.51, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u""""
+Calculations from api library, Oscar Wu
+Based on 6 CBS-QB3 calculations
+""",
+)
+
 tree(
 """
 L1: PolycyclicRing
@@ -10338,6 +10369,7 @@ L1: PolycyclicRing
             L4: s2_6_7_ben_ene
                 L5: s2_6_7_ben_ene_1
                     L6: s2_6_7_ben_diene_1_3
+            L4: Benzazepine
     L2: s3_4_4
         L3: s3_4_4_ane
         L3: s3_4_4_ene
