@@ -60191,6 +60191,31 @@ Fitted from following species using Ridge regression
 """,
 )
 
+entry(
+    index = 2695,
+    label = "N3s-CbCbCs",
+    group =
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cb  u0 {1,S}
+3   Cb  u0 {1,S}
+4   Cs  u0 {1,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([4.3, 37.8, 32.84, 27.89, 22.89, 19.05, 10.85], 'J/(mol*K)'),
+        H298=(156.04, 'kJ/mol'),
+        S298=(-34.90, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Fitted by calculating GAV thermo for imipramine_rings_CH3, SMILES CN1C2C=CC=CC=2CCC2=C1C=CC=C2,
+and comparing to the library values calculated at CBS-QB3 with rotors
+this is the difference (lib - GAV) for this missing group
+""",
+)
+
 tree(
 """
 L1: R
@@ -62811,6 +62836,7 @@ L1: R
                 L5: N3s-(CO)(CO)Cs
                 L5: N3s-(CO)(CO)Cb
                 L5: N3s-(CdCd)CsCs
+                L5: N3s-CbCbCs
             L4: N3s-NCH
                 L5: N3s-N3sCbH
                 L5: N3s-N3sCsH
