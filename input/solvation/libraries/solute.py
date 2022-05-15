@@ -6050,3 +6050,21 @@ From in-house database received from Prof. Abraham
 """,
 )
 
+entry(
+    index = 99995,
+    label = "imipramine",
+    molecule = "OCN(CCCN1C2C=CC=CC=2CCC2=C1C=CC=C2)C",
+    solute = SoluteData(
+        S = 1.6578886088821498,
+        B = 1.42879134748728,
+        E = 1.85158408766579,
+        L = 11.632113746145402,
+        A = 0.20514976229906898,
+        V = 0,
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+predicted by the Abraham ML model
+""",
+)
