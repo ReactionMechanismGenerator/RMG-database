@@ -4710,3 +4710,48 @@ Species are optimized and calculated by the CBS-QB3 method, no hindered rotors c
 """,
 )
 
+entry(
+    index = 177,
+    label = "O2 + C4H9 <=> C4H9O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (4.90e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+experimental in solution
+in c-C6H12
+10.1063/1.555854
+R3.3
+""",
+)
+
+entry(
+    index = 178,
+    label = "O2 + CH2OH <=> OHCH2OO",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (4.90e+12, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 11,
+    shortDesc = u"""""",
+    longDesc =
+u"""
+experimental in solution
+pH 7 (pH 10 also available from the same source)
+10.1063/1.555854
+R3.12
+""",
+)
