@@ -43711,3 +43711,491 @@ Rate calculations using conventional TST, done with Multiwell 2016
 """,
 )
 
+entry(
+    index=3116,
+    label="imipramine_r1 + OHCH2OO_r <=> imipramine_1_rad + OHCH2OOH_p",
+    degeneracy=4.0,
+    kinetics = Arrhenius(A=(85.9968,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(22.9212,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.05754, dn = +|- 0, dEa = +|- 0.144274 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3117,
+    label="imipramine_1_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    degeneracy=1.0,
+    kinetics = Arrhenius(A=(85.9968,'m^3/(mol*s)'),
+                         n=0, Ea=(22.9212,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.05754, dn = +|- 0, dEa = +|- 0.144274 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""MS-TST rate based on fragment, reverse 1001000""",
+    longDesc=
+    u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3118,
+    label="imipramine_r2 + OHCH2OO_r <=> imipramine_2_rad + OHCH2OOH_p",
+    degeneracy=2.0,
+    kinetics = Arrhenius(A=(8.07986,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(27.7183,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.05306, dn = +|- 0, dEa = +|- 0.133341 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3119,
+    label="imipramine_2_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    degeneracy=1.0,
+    kinetics=Arrhenius(A=(1.80383,'m^3/(mol*s)'),
+                       n=0,
+                       Ea=(10.9144,'kJ/mol'),
+                       T0=(1,'K'),
+                       Tmin=(275,'K'),
+                       Tmax=(350,'K'),
+                       comment="""Fitted to 76 data points; dA = *|/ 1.04796, dn = +|- 0, dEa = +|- 0.120814 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""MS-TST rate based on fragment, reverse 1001001""",
+    longDesc=
+u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3120,
+    label="imipramine_r3 + OHCH2OO_r <=> imipramine_3_rad + OHCH2OOH_p",
+    degeneracy=2.0,
+    kinetics = Arrhenius(A=(179.049,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(59.466,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.0447, dn = +|- 0, dEa = +|- 0.11279 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3121,
+    label="imipramine_3_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    degeneracy=1.0,
+    kinetics = Arrhenius(A=(28.8673,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(15.657,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.03941, dn = +|- 0, dEa = +|- 0.0996986 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""MS-TST rate based on fragment, reverse 1001002""",
+    longDesc=
+u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3122,
+    label="imipramine_r4 + OHCH2OO_r <=> imipramine_4_rad + OHCH2OOH_p",
+    degeneracy=2.0,
+    kinetics = Arrhenius(A=(9416.35,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(43.8278,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.02193, dn = +|- 0, dEa = +|- 0.0559449 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3123,
+    label="imipramine_4_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    degeneracy=1.0,
+    kinetics = Arrhenius(A=(1803.78,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(30.3123,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.01715, dn = +|- 0, dEa = +|- 0.0438601 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""MS-TST rate based on fragment, reverse 1001003""",
+    longDesc=
+u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3124,
+    label="imipramine_r5 + OHCH2OO_r <=> imipramine_5_rad + OHCH2OOH_p",
+    degeneracy=6.0,
+    kinetics = Arrhenius(A=(134.27,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(26.6523,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.02551, dn = +|- 0, dEa = +|- 0.0649776 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3125,
+    label="imipramine_5_rad_r + OHCH2OOH <=> imipramine + OHCH2OO",
+    degeneracy=1.0,
+    kinetics = Arrhenius(A=(21.8962,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(11.7686,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.02061, dn = +|- 0, dEa = +|- 0.0526003 kJ/mol"""),
+    rank=1,
+    shortDesc=u"""MS-TST rate based on fragment, reverse 1001004""",
+    longDesc=
+u"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index = 3126,
+    label = "imipramine_2_oo_r + CH4O <=> imipramine_2_ooh_p + CH2OH_p",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.02654,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(39.3944,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.27364, dn = +|- 0, dEa = +|- 0.623798 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine 
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index = 3127,
+    label = "imipramine_2_ooh_r + CH3O <=> imipramine_2_oo_p + CH3OH_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(14.6235,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(12.0987,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.22106, dn = +|- 0, dEa = +|- 0.515067 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment, reverse 1001005""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index = 3128,
+    label = "imipramine_5_oo_r + CH4O <=> imipramine_5_ooh_p + CH2OH_p",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(73.3098,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(50.8673,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.2162, dn = +|- 0, dEa = +|- 0.504781 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index = 3129,
+    label = "imipramine_5_ooh_r + CH3O <=> imipramine_5_oo_p + CH3OH_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(99.1133,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(16.5445,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.18077, dn = +|- 0, dEa = +|- 0.428541 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment, reverse 1001006""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index = 3130,
+    label = "imipramine_4_oo_r + CH4O <=> imipramine_4_ooh_p + CH2OH_p",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(558.874,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(60.2925,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.27528, dn = +|- 0, dEa = +|- 0.627125 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index = 3131,
+    label = "imipramine_4_ooh_r + CH3O <=> imipramine_4_oo_p + CH3OH_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(90.6903,'m^3/(mol*s)'),
+                         n=0,
+                         Ea=(15.2956,'kJ/mol'),
+                         T0=(1,'K'),
+                         Tmin=(275,'K'),
+                         Tmax=(350,'K'),
+                         comment="""Fitted to 76 data points; dA = *|/ 1.27095, dn = +|- 0, dEa = +|- 0.618349 kJ/mol"""),
+    rank=1,
+    shortDesc = u"""MS-TST rate based on fragment, reverse 1001007""",
+    longDesc =
+"""
+Calculated by ACS using multiple-structure local-harmonic
+conventional transition state theory with Eckart tunneling (MS-LH-CTST/Eckart).
+Optfreq: wb97xd/def2svp in vacuum (freq scale factor: 0.986)
+SP: dlpno-ccsd(t)/def2-tzvp normalPNO + Cosmo-RS TZVPD-Fine
+Solvent: H2O:MeOH = 0.7:0.3 (mol%)
+""",
+)
+
+entry(
+    index=3132,
+    label="H2O + CH3OCH2OO <=> OH_p1 + CH3OCH2OOH",
+    degeneracy=1.0,
+    rank=2,
+    kinetics=Arrhenius(A=(1.02901e+10, 'cm^3/(mol*s)'), n=0, Ea=(137.202, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.01273, dn = +|- 0, 
+                         dEa = +|- 0.0326164 kJ/mol"""),
+    longDesc=
+    """
+    CBS-QB3 SMD water
+    TS external symmetry: 1, TS optical isomers: 2
+    Optimized TS geometry:
+    C       0.98277800   -1.03895700   -0.11961800
+    H       1.77495300   -1.31849800    0.58390200
+    H       0.92899400   -1.72222000   -0.96690400
+    O       1.14859100    0.24653000   -0.63512000
+    O      -0.19876500   -1.17500600    0.67803600
+    O      -1.34777000   -1.07183400   -0.15480200
+    H      -1.38986300   -0.08403100   -0.42895300
+    O      -1.95805700    1.26056600   -0.30588900
+    C       1.47651700    1.23378200    0.35506400
+    H       1.58841900    2.17844400   -0.17503200
+    H       0.68259200    1.32897800    1.09991800
+    H       2.41746600    0.97764200    0.85360000
+    H      -1.59459300    1.58275300    0.53959600
+    1D rotors:
+    pivots: [1, 4], dihedral: [5, 1, 4, 9], rotor symmetry: 1, max scan energy: 37.14 kJ/mol
+    pivots: [1, 5], dihedral: [4, 1, 5, 6], rotor symmetry: 1, max scan energy: 36.89 kJ/mol
+    pivots: [4, 9], dihedral: [1, 4, 9, 10], rotor symmetry: 3, max scan energy: 5.19 kJ/mol
+    * Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 7], invalidation reason:
+    """,
+)
+
+entry(
+    index=3133,
+    label="CH3O + OHCH2OOH <=> CH3OH_p + OHCH2OO",
+    degeneracy=1.0,
+    rank=2,
+    kinetics=Arrhenius(A=(3.87252e+09, 'cm^3/(mol*s)'), n=0, Ea=(24.6093, 'kJ/mol'), T0=(1, 'K'), Tmin=(275, 'K'),
+                       Tmax=(350, 'K'), comment="""Fitted to 100 data points; dA = *|/ 1.03866, dn = +|- 0, 
+                         dEa = +|- 0.0978258 kJ/mol"""),
+
+    longDesc=
+    """
+    CBS-QB3 SMD water
+    TS external symmetry: 1, TS optical isomers: 2
+    Optimized TS geometry:
+    C       1.57679800    0.01805400    0.10381800
+    H       2.02580100   -0.20817100    1.07380500
+    H       2.30395100   -0.03089000   -0.70538300
+    O       0.96690200    1.27182400    0.05314700
+    H       0.46256500    1.40214300    0.86696600
+    O       0.64243200   -1.07140100   -0.06044400
+    O       0.11002600   -1.05971600   -1.35373900
+    H      -0.71627700   -0.32934800   -1.33240900
+    O      -1.85835100    0.20979600   -1.16793200
+    C      -2.21505300    0.23441100    0.18115500
+    H      -3.19972700   -0.21121800    0.35451000
+    H      -1.46058400   -0.33005700    0.76299600
+    H      -2.17098400    1.26107500    0.57311000
+    1D rotors:
+    pivots: [1, 4], dihedral: [6, 1, 4, 5], rotor symmetry: 1, max scan energy: 18.31 kJ/mol
+    pivots: [1, 6], dihedral: [4, 1, 6, 7], rotor symmetry: 1, max scan energy: 23.10 kJ/mol
+    pivots: [6, 7], dihedral: [1, 6, 7, 8], rotor symmetry: 1, max scan energy: 30.02 kJ/mol
+    """,
+)
+
+entry(
+    index = 31134,
+    label = 'OHCHOH + OHCH2OOH <=> OHCH2OH + OHCH2OO',
+    degeneracy = 1.0,
+    rank=1,
+    kinetics = Arrhenius(A=(5.04944e+07,'cm^3/(mol*s)'), n=0, Ea=(17.4814,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    longDesc =
+"""
+dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction (TS1052) 
+""",
+)
+
+entry(
+    index = 100114,
+    label = 'OHCHOH + cyanoisopropylOOH <=> OHCH2OH + cyanoisopropylOO',
+    degeneracy = 1.0,
+    rank=1,
+    kinetics = Arrhenius(A=(8.90093e+07,'cm^3/(mol*s)'), n=0, Ea=(23.8264,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    longDesc =
+"""
+dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction (TS1053) 
+""",
+)
+
+entry(
+    index = 100115,
+    label = 'CH2O + cyanoisopropylOO_r <=> CHO_p1 + cyanoisopropylOOH_p',
+    degeneracy = 2.0,
+    rank=1,
+    kinetics = Arrhenius(A=(9.25121e+08,'cm^3/(mol*s)'), n=0, Ea=(41.2887,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    longDesc =
+"""
+dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction (TS1055) 
+""",
+)
+
+entry(
+    index = 100116,
+    label = 'H2O2 + OHCH2OO_r <=> HO2 + OHCH2OOH_p',
+    degeneracy = 2.0,
+    rank=1,
+    kinetics = Arrhenius(A=(221744,'cm^3/(mol*s)'), n=0, Ea=(31.4438,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'),
+                         Tmax=(350,'K')),
+    longDesc =
+"""
+dlpno-ccsd(T)/def2tzvp//wb97xd/def2tzvp with APFD SMD water for solvation sp correction (TS1058) 
+""",
+)
