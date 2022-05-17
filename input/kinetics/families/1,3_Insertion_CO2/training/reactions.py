@@ -109,3 +109,54 @@ Converted to training reaction from rate rule: CO2_Od;C_methyl_C_pri
 """,
 )
 
+entry(
+    index = 6,
+    label = "CH3N + CO2-2 <=> C2H3NO2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(2.04107e-05,'cm^3/(mol*s)'), n=5.03741, Ea=(330.096,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.75369, dn = +|- 0.0745346, dEa = +|- 0.384339 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: p001956_0 + p010048_1 <=> r001958
+Calculated by Kevin Spiekermann
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
+""",
+)
+
+entry(
+    index = 7,
+    label = "C2H5N + CO2-2 <=> C3H5NO2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(0.00462404,'cm^3/(mol*s)'), n=4.43694, Ea=(287.389,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15053, dn = +|- 0.0186065, dEa = +|- 0.0959448 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: p002395_0 + p010048_1 <=> r002395
+Calculated by Kevin Spiekermann
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
+""",
+)
+
+entry(
+    index = 8,
+    label = "C3H9N + CO2-2 <=> C4H9NO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0798156,'cm^3/(mol*s)'), n=3.39053, Ea=(304.609,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.33054, dn = +|- 0.0378939, dEa = +|- 0.195401 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: p010048_0 + p010048_1 <=> r010048
+Calculated by Kevin Spiekermann
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
+""",
+)
+
