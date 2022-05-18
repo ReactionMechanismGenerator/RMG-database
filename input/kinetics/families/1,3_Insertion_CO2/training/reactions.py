@@ -91,7 +91,7 @@ Converted to training reaction from rate rule: CO2_Cdd;C/H2/NonDeC
 
 entry(
     index = 5,
-    label = "C3H8-2 + CO2-2 <=> C4H8O2-2",
+    label = "C3H8-2 + CO2 <=> C4H8O2-2",
     degeneracy = 4.0,
     kinetics = Arrhenius(
         A = (292, 'cm^3/(mol*s)'),
@@ -111,7 +111,7 @@ Converted to training reaction from rate rule: CO2_Od;C_methyl_C_pri
 
 entry(
     index = 6,
-    label = "CH3N + CO2-2 <=> C2H3NO2",
+    label = "CH3N + CO2 <=> C2H3NO2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(2.04107e-05,'cm^3/(mol*s)'), n=5.03741, Ea=(330.096,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.75369, dn = +|- 0.0745346, dEa = +|- 0.384339 kJ/mol"""),
     rank = 4,
@@ -128,7 +128,7 @@ All species include systematic conformer search and 1D rotor scans
 
 entry(
     index = 7,
-    label = "C2H5N + CO2-2 <=> C3H5NO2",
+    label = "C2H5N + CO2 <=> C3H5NO2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.00462404,'cm^3/(mol*s)'), n=4.43694, Ea=(287.389,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15053, dn = +|- 0.0186065, dEa = +|- 0.0959448 kJ/mol"""),
     rank = 4,
@@ -145,7 +145,7 @@ All species include systematic conformer search and 1D rotor scans
 
 entry(
     index = 8,
-    label = "C3H9N + CO2-2 <=> C4H9NO2",
+    label = "C3H9N + CO2 <=> C4H9NO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0798156,'cm^3/(mol*s)'), n=3.39053, Ea=(304.609,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.33054, dn = +|- 0.0378939, dEa = +|- 0.195401 kJ/mol"""),
     rank = 4,
