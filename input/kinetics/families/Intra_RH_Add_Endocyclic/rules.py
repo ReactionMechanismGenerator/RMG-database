@@ -7,8 +7,8 @@ longDesc = u"""
 
 """
 entry(
-    index = 807,
-    label = "Rn;multiplebond_intra;radadd_intra",
+    index = 0,
+    label = "Root",
     kinetics = ArrheniusEP(
         A = (1e+10, 's^-1'),
         n = 0,
