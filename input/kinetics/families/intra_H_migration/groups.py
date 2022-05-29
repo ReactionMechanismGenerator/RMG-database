@@ -23,7 +23,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "RnH",
-    group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall, R8Hall}",
+    group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall, R8Hall, R9Hall, R10Hall}",
     kinetics = None,
 )
 
@@ -4555,6 +4555,115 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 313,
+    label = "R9Hall",
+    group =
+"""
+1  *7  R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+2  *8  R!H ux {1,[S,D,T,B]} {3,[S,D,T,B]}
+3  *9  R!H ux {2,[S,D,T,B]} {5,[S,D,T,B]}
+4  *6  R!H ux {1,[S,D,T,B]} {6,[S,D,T,B]}
+5  *5  R!H ux {3,[S,D,T,B]} {8,[S,D,T,B]}
+6  *4  R!H ux {4,[S,D,T,B]} {7,[S,D,T,B]}
+7  *10 R!H ux {6,[S,D,T,B]} {9,[S,D,T,B]}
+8  *2  R!H u0 {5,[S,D,T,B]} {10,S}
+9  *1  R!H u1 {7,[S,D,T,B]}
+10 *3  H   u0 {8,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 314,
+    label = "R9H",
+    group =
+"""
+1  *7  R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+2  *8  R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
+3  *9  R!H u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
+4  *6  R!H u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+5  *5  R!H u0 {3,[S,D,T,B]} {8,[S,D,T,B]}
+6  *4  R!H u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+7  *10 R!H u0 {6,[S,D,T,B]} {9,[S,D,T,B]}
+8  *2  R!H u0 {5,[S,D,T,B]} {10,S}
+9  *1  R!H u1 {7,[S,D,T,B]}
+10 *3  H   u0 {8,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 315,
+    label = "imipramine_rad",
+    group =
+"""
+1  *2  C u0 p0 c0 {2,S} {22,S}
+2  *5  N u0 p1 c0 {1,S} {3,S} {21,S}
+3  *9  C u0 p0 c0 {2,S} {4,S}
+4  *8  C u0 p0 c0 {3,S} {5,S}
+5  *7  C u0 p0 c0 {4,S} {6,S}
+6  *6  N u0 p1 c0 {5,S} {7,S} {16,S}
+7      C u0 p0 c0 {6,S} {8,S} {12,D}
+8      C u0 p0 c0 {7,S} {9,D}
+9      C u0 p0 c0 {8,D} {10,S}
+10     C u0 p0 c0 {9,S} {11,D}
+11     C u0 p0 c0 {10,D} {12,S}
+12     C u0 p0 c0 {7,D} {11,S} {13,S}
+13     C u0 p0 c0 {12,S} {14,S}
+14 *1  C u1 p0 c0 {13,S} {15,S}
+15 *10 C u0 p0 c0 {14,S} {16,S} {20,D}
+16 *4  C u0 p0 c0 {6,S} {15,S} {17,D}
+17     C u0 p0 c0 {16,D} {18,S}
+18     C u0 p0 c0 {17,S} {19,D}
+19     C u0 p0 c0 {18,D} {20,S}
+20     C u0 p0 c0 {15,D} {19,S}
+21     C u0 p0 c0 {2,S}
+22 *3  H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 316,
+    label = "R10Hall",
+    group =
+"""
+1  *7  R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
+2  *8  R!H ux {1,[S,D,T,B]} {3,[S,D,T,B]}
+3  *9  R!H ux {2,[S,D,T,B]} {5,[S,D,T,B]}
+4  *6  R!H ux {1,[S,D,T,B]} {6,[S,D,T,B]}
+5  *5  R!H ux {3,[S,D,T,B]} {9,[S,D,T,B]}
+6  *4  R!H ux {4,[S,D,T,B]} {7,[S,D,T,B]}
+7  *10 R!H ux {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *11 R!H ux {7,[S,D,T,B]} {10,[S,D,T,B]}
+9  *2  R!H u0 {5,[S,D,T,B]} {11,S}
+10 *1  R!H u1 {8,[S,D,T,B]}
+11 *3  H   u0 {9,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 316,
+    label = "R10H",
+    group =
+"""
+1  *7  R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+2  *8  R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
+3  *9  R!H u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
+4  *6  R!H u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+5  *5  R!H u0 {3,[S,D,T,B]} {9,[S,D,T,B]}
+6  *4  R!H u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+7  *10 R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+8  *11 R!H u0 {7,[S,D,T,B]} {10,[S,D,T,B]}
+9  *2  R!H u0 {5,[S,D,T,B]} {11,S}
+10 *1  R!H u1 {8,[S,D,T,B]}
+11 *3  H   u0 {9,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnH
@@ -4765,6 +4874,11 @@ L1: RnH
     L2: R8Hall
         L3: R8H
             L4: R8H_SDSDSD
+    L2: R9Hall
+        L3: R9H
+            L4: imipramine_rad
+    L2: R10Hall
+        L3: R10H
 L1: Y_rad_out
     L2: O_rad_out
     L2: S_rad_out
