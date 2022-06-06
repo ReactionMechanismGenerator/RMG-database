@@ -4718,3 +4718,23 @@ rotors: B3LYP/6-311++G(3df,3pd)
 Fitted to 51 data points; dA = *|/ 1.10125, dn = +|- 0.0117499, dEa = +|- 0.117226 kJ/mol
 """,
 )
+
+entry(
+    index = 266,
+    label = 'H2NN(S) + O <=> NH2 + NO',
+    kinetics = Arrhenius(A=(3.2e09,'cm^3/(mol*s)'), n=1.03, Ea=(684.4, 'cal/mol'),
+                         T0=(1, 'K')),
+    shortDesc = u"""""",
+    longDesc = u"""From 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), 
+    chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. p. 243 k d1""",
+)
+
+entry(
+    index = 267,
+    label = 'H2NN(S) + O <=> OH + NNH',
+    kinetics = Arrhenius(A=(3.3e08,'cm^3/(mol*s)'), n=1.5, Ea=(-226.5, 'cal/mol'),
+                         T0=(1, 'K')),
+    shortDesc = u"""""",
+    longDesc = u"""From 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), 
+    chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. p. 243 k d2""",
+)
