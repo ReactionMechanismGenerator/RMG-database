@@ -92,13 +92,13 @@ entry(
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R",
     group = 
 """
-1 *4 Cd u0 r0 {2,S} {3,D}
-2 *5 Cd u0 {1,S} {4,D}
-3 *3 Cd u0 {1,D} {7,[S,D,T,B,Q]}
-4 *6 Cd u0 {2,D}
-5 *1 Cd u0 {6,[D,T]}
-6 *2 Cd u0 {5,[D,T]}
-7    C  ux {3,[S,D,T,B,Q]}
+1 *4 Cd  u0 r0 {2,S} {3,D}
+2 *5 Cd  u0 {1,S} {4,D}
+3 *3 Cd  u0 {1,D} {7,[S,D,T,B,Q]}
+4 *6 Cd  u0 {2,D}
+5 *1 Cd  u0 {6,[D,T]}
+6 *2 Cd  u0 {5,[D,T]}
+7    R!H ux {3,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
@@ -122,7 +122,7 @@ entry(
 
 entry(
     index = 6,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
     group = 
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
@@ -140,7 +140,7 @@ entry(
 
 entry(
     index = 7,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R",
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R",
     group = 
 """
 1  *4 Cd  u0 r0 {2,S} {3,D}
@@ -177,7 +177,7 @@ entry(
 
 entry(
     index = 9,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
     group = 
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
@@ -194,7 +194,7 @@ entry(
 
 entry(
     index = 10,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R",
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R",
     group = 
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
@@ -212,90 +212,23 @@ entry(
 
 entry(
     index = 11,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R",
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-4Cd-R",
     group = 
 """
-1 *4 Cd u0 r0 {2,S} {3,D}
-2 *5 Cd u0 {1,S} {4,D}
-3 *3 Cd u0 {1,D}
-4 *6 Cd u0 {2,D}
-5 *1 Cd u0 {6,[D,T]} {7,[S,D,T,B,Q]}
-6 *2 Cd u0 {5,[D,T]}
-7    C  ux {5,[S,D,T,B,Q]}
+1 *4 Cd  u0 r0 {2,S} {3,D}
+2 *5 Cd  u0 {1,S} {4,D}
+3 *3 Cd  u0 {1,D} {7,[S,D,T,B,Q]}
+4 *6 Cd  u0 {2,D} {8,[S,D,T,B,Q]}
+5 *1 Cd  u0 {6,[D,T]}
+6 *2 Cd  u0 {5,[D,T]}
+7    R!H ux {3,[S,D,T,B,Q]}
+8    R!H ux {4,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 12,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
-    group = 
-"""
-1 *4 Cd u0 r0 {2,S} {3,D}
-2 *5 Cd u0 {1,S} {4,D}
-3 *3 Cd u0 {1,D}
-4 *6 Cd u0 {2,D}
-5 *1 Cd u0 {6,[D,T]} {7,[S,D,T,B,Q]}
-6 *2 Cd u0 {5,[D,T]} {8,S}
-7    C  ux {5,[S,D,T,B,Q]}
-8    C  u0 {6,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 13,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-7R!H-R",
-    group = 
-"""
-1 *4 Cd  u0 r0 {2,S} {3,D}
-2 *5 Cd  u0 {1,S} {4,D}
-3 *3 Cd  u0 {1,D}
-4 *6 Cd  u0 {2,D}
-5 *1 Cd  u0 {6,[D,T]} {7,[S,D,T,B,Q]}
-6 *2 Cd  u0 {5,[D,T]} {8,S}
-7    C   ux {5,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
-8    C   u0 r0 {6,S}
-9    R!H ux {7,[S,D,T,B,Q]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 14,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R_Ext-2CdN3dN5dcS4dS6d-R",
-    group = 
-"""
-1 *4 Cd  u0 r0 {2,S} {3,D}
-2 *5 Cd  u0 {1,S} {4,D} {8,[S,D,T,B,Q]}
-3 *3 Cd  u0 {1,D}
-4 *6 Cd  u0 {2,D}
-5 *1 Cd  u0 {6,[D,T]} {7,[S,D,T,B,Q]}
-6 *2 Cd  u0 {5,[D,T]}
-7    C   ux {5,[S,D,T,B,Q]}
-8    R!H ux {2,[S,D,T,B,Q]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 15,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-2CdN3dN5dcS4dS6d-R",
-    group = 
-"""
-1 *4 Cd  u0 r0 {2,S} {3,D}
-2 *5 Cd  u0 {1,S} {4,D} {7,[S,D,T,B,Q]}
-3 *3 Cd  u0 {1,D}
-4 *6 Cd  u0 {2,D}
-5 *1 Cd  u0 {6,[D,T]}
-6 *2 Cd  u0 {5,[D,T]}
-7    R!H ux {2,[S,D,T,B,Q]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 16,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-1CdN3dN5dcS4dS6d-R",
     group = 
 """
@@ -311,8 +244,8 @@ entry(
 )
 
 entry(
-    index = 17,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-1CdN3dN5dcS4dS6d-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
+    index = 13,
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-1CdN3dN5dcS4dS6d-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
     group = 
 """
 1 *4 Cd  u0 r0 {2,S} {3,D} {7,S}
@@ -328,62 +261,176 @@ entry(
 )
 
 entry(
-    index = 18,
-    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
+    index = 14,
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
+    group = 
+"""
+1 *4 Cd u0 r0 {2,S} {3,D}
+2 *5 Cd u0 {1,S} {4,D}
+3 *3 Cd u0 {1,D}
+4 *6 Cd u0 {2,D}
+5 *1 Cd u0 {6,[D,T]}
+6 *2 Cd u0 {5,[D,T]} {7,[S,D,T,B,Q]}
+7    C  ux {6,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 15,
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-5Cd-R",
+    group = 
+"""
+1 *4 Cd u0 r0 {2,S} {3,D}
+2 *5 Cd u0 {1,S} {4,D}
+3 *3 Cd u0 {1,D}
+4 *6 Cd u0 {2,D}
+5 *1 Cd u0 {6,[D,T]} {8,S}
+6 *2 Cd u0 {5,[D,T]} {7,[S,D,T,B,Q]}
+7    C  ux {6,[S,D,T,B,Q]}
+8    C  u0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 16,
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-5Cd-R_Ext-7R!H-R",
     group = 
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 {1,S} {4,D}
 3 *3 Cd  u0 {1,D}
 4 *6 Cd  u0 {2,D}
-5 *1 Cd  u0 {6,[D,T]}
+5 *1 Cd  u0 {6,[D,T]} {8,S}
 6 *2 Cd  u0 {5,[D,T]} {7,[S,D,T,B,Q]}
-7    R!H ux {6,[S,D,T,B,Q]}
+7    C   ux {6,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
+8    C   u0 r0 {5,S}
+9    R!H ux {7,[S,D,T,B,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 17,
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-2CdN3dN5dcS4dS6d-R",
+    group = 
+"""
+1 *4 Cd u0 r0 {2,S} {3,D}
+2 *5 Cd u0 {1,S} {4,D} {7,S}
+3 *3 Cd u0 {1,D}
+4 *6 Cd u0 {2,D}
+5 *1 Cd u0 {6,D}
+6 *2 Cd u0 {5,D}
+7    C  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 18,
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-2CdN3dN5dcS4dS6d-R_Ext-5Cd-R",
+    group = 
+"""
+1 *4 Cd  u0 r0 {2,S} {3,D}
+2 *5 Cd  u0 r0 {1,S} {4,D} {7,S}
+3 *3 Cd  u0 r0 {1,D}
+4 *6 Cd  u0 r0 {2,D}
+5 *1 Cd  u0 r0 {6,D} {8,[S,D,T,B,Q]}
+6 *2 Cd  u0 r0 {5,D}
+7    C   u0 r0 {2,S}
+8    R!H ux {5,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 19,
-    label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd",
+    label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R",
     group = 
 """
-1 *4 Cd                                                                 u0 {2,S} {3,D}
-2 *5 Cd                                                                 u0 {1,S} {4,D}
-3 *3 Cd                                                                 u0 {1,D}
-4 *6 Cd                                                                 u0 {2,D}
-5 *1 [N5tc,CO,S6t,N5dc,S6d,S2d,S6td,S4t,N3d,CS,S4d,Cdd,S6tt,N3t,O2d,Ct] u0 {6,[D,T]}
-6 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc]  u0 {5,[D,T]}
+1 *4 Cd  u0 r0 {2,S} {3,D}
+2 *5 Cd  u0 {1,S} {4,D}
+3 *3 Cd  u0 {1,D}
+4 *6 Cd  u0 {2,D}
+5 *1 Cd  u0 {6,[D,T]} {7,[S,D,T,B,Q]}
+6 *2 Cd  u0 {5,[D,T]}
+7    R!H ux {5,[S,D,T,B,Q]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 20,
-    label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct",
+    label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd",
     group = 
 """
-1 *4 Cd                                                                u0 r0 {2,S} {3,D}
-2 *5 Cd                                                                u0 r0 {1,S} {4,D}
-3 *3 Cd                                                                u0 r0 {1,D}
-4 *6 Cd                                                                u0 r0 {2,D}
-5 *1 Ct                                                                u0 {6,[D,T]}
-6 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {5,[D,T]}
+1 *4 Cd                                                                    u0 {2,S} {3,D}
+2 *5 Cd                                                                    u0 {1,S} {4,D}
+3 *3 Cd                                                                    u0 {1,D}
+4 *6 Cd                                                                    u0 {2,D}
+5 *1 [CS,S6t,N5dc,S6d,Cdd,S2d,N3d,S4t,S6td,S4d,N3t,S6tt,Ct,O2d,N5tc,CO]    u0 {6,[D,T]}
+6 *2 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {5,[D,T]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 21,
+    label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct",
+    group = 
+"""
+1 *4 Cd                                                                    u0 r0 {2,S} {3,D}
+2 *5 Cd                                                                    u0 r0 {1,S} {4,D}
+3 *3 Cd                                                                    u0 r0 {1,D}
+4 *6 Cd                                                                    u0 r0 {2,D}
+5 *1 Ct                                                                    u0 {6,[D,T]}
+6 *2 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {5,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 22,
     label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct",
     group = 
 """
-1 *4 Cd                                                                u0 r0 {2,S} {3,D}
-2 *5 Cd                                                                u0 r0 {1,S} {4,D}
-3 *3 Cd                                                                u0 r0 {1,D}
-4 *6 Cd                                                                u0 r0 {2,D}
-5 *1 Cdd                                                               u0 {6,[D,T]}
-6 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {5,[D,T]}
+1 *4 Cd                                                                    u0 {2,S} {3,D}
+2 *5 Cd                                                                    u0 {1,S} {4,D}
+3 *3 Cd                                                                    u0 {1,D}
+4 *6 Cd                                                                    u0 {2,D}
+5 *1 [Cdd,CO]                                                              u0 {6,D}
+6 *2 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 23,
+    label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct_5COCdd->Cdd",
+    group = 
+"""
+1 *4 Cd                                                                    u0 {2,S} {3,D}
+2 *5 Cd                                                                    u0 {1,S} {4,D}
+3 *3 Cd                                                                    u0 {1,D}
+4 *6 Cd                                                                    u0 {2,D}
+5 *1 Cdd                                                                   u0 r0 {6,D}
+6 *2 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 r0 {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 24,
+    label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct_N-5COCdd->Cdd",
+    group = 
+"""
+1 *4 Cd                                                                    u0 {2,S} {3,D}
+2 *5 Cd                                                                    u0 {1,S} {4,D}
+3 *3 Cd                                                                    u0 {1,D}
+4 *6 Cd                                                                    u0 {2,D}
+5 *1 CO                                                                    u0 r0 {6,D}
+6 *2 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 r0 {5,D}
 """,
     kinetics = None,
 )
@@ -396,22 +443,25 @@ L1: Root
         L3: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing
             L4: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R
                 L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R
-                    L6: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
-                        L7: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R
+                    L6: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
+                        L7: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R
                     L6: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-8R!H-R
-                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
-                    L6: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R
-            L4: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R
-                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
-                    L6: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-7R!H-R
-                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R_Ext-2CdN3dN5dcS4dS6d-R
-            L4: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-2CdN3dN5dcS4dS6d-R
+                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
+                    L6: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R
+                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-4Cd-R
             L4: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-1CdN3dN5dcS4dS6d-R
-                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-1CdN3dN5dcS4dS6d-R_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
-            L4: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
+                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-1CdN3dN5dcS4dS6d-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
+            L4: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R
+                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-5Cd-R
+                    L6: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-5Cd-R_Ext-7R!H-R
+            L4: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-2CdN3dN5dcS4dS6d-R
+                L5: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-2CdN3dN5dcS4dS6d-R_Ext-5Cd-R
+            L4: Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R
     L2: Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
         L3: Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct
         L3: Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct
+            L4: Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct_5COCdd->Cdd
+            L4: Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct_N-5COCdd->Cdd
 """
 )
 
