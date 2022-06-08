@@ -43,7 +43,7 @@ default = {
     'intra_substitutionS_cyclization',
     'intra_substitutionS_isomerization',
     '1,3_sigmatropic_rearrangement',
-    'Singlet_Carbene_Intra_Disproportionation',
+    # 'Singlet_Carbene_Intra_Disproportionation',  # not recommended for APIs
     'Singlet_Val6_to_triplet',
     'Intra_5_membered_conjugated_C=C_C=C_addition',
     'Intra_Diels_alder_monocyclic',
@@ -58,6 +58,24 @@ default = {
     '1,3_NH3_elimination',
     'Retroene',
     'Ketoenol',
+    'acetal_hydrolysis',  # API-specific
+    'alcohol_dehydrogenation',  # API-specific
+    'amide_alcoholysis',  # API-specific
+    'amine_COH_HCN',  # API-specific
+    'amine_hydrolysis',  # API-specific
+    'hemiacetal_hydrolysis',  # API-specific
+    'hemiaminal_hydrolysis',  # API-specific
+    'HOCK_rearrangement',  # API-specific
+    'hydroperoxide_to_alcohol',  # API-specific
+    'imine_hydrolysis',  # API-specific
+    'methanoate_hydrolysis',  # API-specific
+    'thione_ketone',  # API-specific
+    '2#_Oxidative_degradation_of_ethers_to_acid', # May
+    '2#_Oxidative_degradation_of_ethers_to_aldehyde', # May
+    'amide_hydrolysis', # May
+    'hydroxylamine_to_nitroso', # May
+    'nitroso_to_oxime', # May
+    'oxidation_of_phenols', # May
 }
 
 # Families for pyrolysis of C/H systems
@@ -166,33 +184,39 @@ apideg = {
     'imine_hydrolysis',  # API-specific
     'methanoate_hydrolysis',  # API-specific
     'thione_ketone',  # API-specific
+    '2#_Oxidative_degradation_of_ethers_to_acid', # May
+    '2#_Oxidative_degradation_of_ethers_to_aldehyde', # May
+    'amide_hydrolysis', # May
+    'hydroxylamine_to_nitroso', # May
+    'nitroso_to_oxime', # May
+    'oxidation_of_phenols', # May
 }
 
-# Surface chemistry for heterogeneous catalysis.
-surface = {
-    'Surface_Adsorption_Single',
-    'Surface_Adsorption_vdW',
-    'Surface_Adsorption_Dissociative',
-    'Surface_Dissociation',
-    'Surface_Abstraction',
-    'Surface_EleyRideal_Addition_Multiple_Bond',
-    'Surface_Migration',
-    'Surface_Dissociation_Double_vdW',
-    'Surface_Addition_Single_vdW',
-    'Surface_Dissociation_vdW',
-    'Surface_Abstraction_vdW',
-    'Surface_Dual_Adsorption_vdW',
-    'Surface_Dissociation_Beta',
-    'Surface_Adsorption_Abstraction_vdW',
-    'Surface_Adsorption_Bidentate',
-    'Surface_Bidentate_Dissociation',
-    'Surface_DoubleBond_to_Bidentate', 
-    'Surface_vdW_to_Bidentate',
-    'Surface_Abstraction_Single_vdW',
-    'Surface_Adsorption_Dissociative_Double',
-    'Surface_Abstraction_Beta',
-    'Surface_Abstraction_Beta_double_vdW',
-}
+# # Surface chemistry for heterogeneous catalysis.
+# surface = {
+#     'Surface_Adsorption_Single',
+#     'Surface_Adsorption_vdW',
+#     'Surface_Adsorption_Dissociative',
+#     'Surface_Dissociation',
+#     'Surface_Abstraction',
+#     'Surface_EleyRideal_Addition_Multiple_Bond',
+#     'Surface_Migration',
+#     'Surface_Dissociation_Double_vdW',
+#     'Surface_Addition_Single_vdW',
+#     'Surface_Dissociation_vdW',
+#     'Surface_Abstraction_vdW',
+#     'Surface_Dual_Adsorption_vdW',
+#     'Surface_Dissociation_Beta',
+#     'Surface_Adsorption_Abstraction_vdW',
+#     'Surface_Adsorption_Bidentate',
+#     'Surface_Bidentate_Dissociation',
+#     'Surface_DoubleBond_to_Bidentate',
+#     'Surface_vdW_to_Bidentate',
+#     'Surface_Abstraction_Single_vdW',
+#     'Surface_Adsorption_Dissociative_Double',
+#     'Surface_Abstraction_Beta',
+#     'Surface_Abstraction_Beta_double_vdW',
+# }
 
 # reaction families for halogen chemistry only
 halogens = {
