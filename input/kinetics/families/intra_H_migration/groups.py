@@ -4593,39 +4593,10 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 315,
-    label = "imipramine_rad",
-    group =
-"""
-1  *2  C u0 p0 c0 {2,S} {22,S}
-2  *5  N u0 p1 c0 {1,S} {3,S} {21,S}
-3  *9  C u0 p0 c0 {2,S} {4,S}
-4  *8  C u0 p0 c0 {3,S} {5,S}
-5  *7  C u0 p0 c0 {4,S} {6,S}
-6  *6  N u0 p1 c0 {5,S} {7,S} {16,S}
-7      C u0 p0 c0 {6,S} {8,S} {12,D}
-8      C u0 p0 c0 {7,S} {9,D}
-9      C u0 p0 c0 {8,D} {10,S}
-10     C u0 p0 c0 {9,S} {11,D}
-11     C u0 p0 c0 {10,D} {12,S}
-12     C u0 p0 c0 {7,D} {11,S} {13,S}
-13     C u0 p0 c0 {12,S} {14,S}
-14 *1  C u1 p0 c0 {13,S} {15,S}
-15 *10 C u0 p0 c0 {14,S} {16,S} {20,D}
-16 *4  C u0 p0 c0 {6,S} {15,S} {17,D}
-17     C u0 p0 c0 {16,D} {18,S}
-18     C u0 p0 c0 {17,S} {19,D}
-19     C u0 p0 c0 {18,D} {20,S}
-20     C u0 p0 c0 {15,D} {19,S}
-21     C u0 p0 c0 {2,S}
-22 *3  H u0 p0 c0 {1,S}
-""",
-    kinetics = None,
-)
+
 
 entry(
-    index = 316,
+    index = 315,
     label = "R10Hall",
     group =
 """
@@ -4663,6 +4634,7 @@ entry(
 """,
     kinetics = None,
 )
+
 
 tree(
 """
@@ -4876,7 +4848,6 @@ L1: RnH
             L4: R8H_SDSDSD
     L2: R9Hall
         L3: R9H
-            L4: imipramine_rad
     L2: R10Hall
         L3: R10H
 L1: Y_rad_out
