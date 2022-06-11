@@ -64,10 +64,10 @@ default = {
     'amine_COH_HCN',  # API-specific
     'amine_hydrolysis',  # API-specific
     'hemiacetal_hydrolysis',  # API-specific
-    'hemiaminal_hydrolysis',  # API-specific
+    'hemiaminal_to_amine+aldehyde',  # May
     'HOCK_rearrangement',  # API-specific
     'hydroperoxide_to_alcohol',  # API-specific
-    'imine_hydrolysis',  # API-specific
+    'benzen_amino_to_cyclic_aldehyde+imine',  # May
     'methanoate_hydrolysis',  # API-specific
     'thione_ketone',  # API-specific
     '2#_Oxidative_degradation_of_ethers_to_acid', # May
@@ -76,6 +76,7 @@ default = {
     'hydroxylamine_to_nitroso', # May
     'nitroso_to_oxime', # May
     'oxidation_of_phenols', # May
+    'imine_to_hemiaminal', # May
 }
 
 # Families for pyrolysis of C/H systems
@@ -181,7 +182,7 @@ apideg = {
     'hemiaminal_hydrolysis',  # API-specific
     'HOCK_rearrangement',  # API-specific
     'hydroperoxide_to_alcohol',  # API-specific
-    'imine_hydrolysis',  # API-specific
+    'benzen_amino_to_cyclic_aldehyde+imine',  # May
     'methanoate_hydrolysis',  # API-specific
     'thione_ketone',  # API-specific
     '2#_Oxidative_degradation_of_ethers_to_acid', # May
@@ -190,6 +191,7 @@ apideg = {
     'hydroxylamine_to_nitroso', # May
     'nitroso_to_oxime', # May
     'oxidation_of_phenols', # May
+    'imine_to_hemiaminal', # May
 }
 
 # # Surface chemistry for heterogeneous catalysis.
