@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "hemiaminal_hydrolysis/groups"
+name = "hemiaminal_to_amine+aldehyde/groups"
 shortDesc = u""
 longDesc = u"""
 This family describes solution-phase hydrolysis of hemiaminal groups:
@@ -34,10 +34,15 @@ entry(
     label="hemiaminal",
     group=
 """
-1 *2 O u0 p2 c0 {2,S} {4,S}
-2 *1 C u0 p0 c0 {1,S} {3,S}
-3 *4 N3s u0 p1 c0 {2,S}
-4 *3 H u0 p0 c0 {1,S}
+1     R ux px cx {2,S}
+2  *1 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+3  *2 O u0 p2 c0 {2,S} {8,S}
+4  *4 N u0 p1 c0 {2,S} {5,S} {6,S}
+5     R ux px cx {4,S}
+6     R ux px cx {4,S}
+7     H u0 p0 c0 {2,S}
+8  *3 H u0 p0 c0 {3,S}
+
 """,
     kinetics=None,
 )
