@@ -4,13 +4,12 @@
 name = "hemiaminal_to_amine+aldehyde/rules"
 shortDesc = u""
 longDesc = u"""
-
 """
 
 entry(
     index=0,
-    label="CdN;H2O",
-    kinetics=ArrheniusEP(A=(3e+10, 'cm^3/(mol*s)'), n=0, alpha=0, E0=(0, 'kcal/mol')),
+    label="hemiaminal",
+    kinetics=ArrheniusEP(A=(1e+3, 'cm^3/(mol*s)'), n=0, alpha=0, E0=(0, 'kcal/mol')),
     rank=0,
     shortDesc=u"""Default""",
 )

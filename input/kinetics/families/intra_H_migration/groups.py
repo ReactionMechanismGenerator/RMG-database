@@ -4,7 +4,6 @@
 name = "intra_H_migration/groups"
 shortDesc = u""
 longDesc = u"""
-
 """
 
 template(reactants=["RnH"], products=["RnH"], ownReverse=True)
@@ -4594,7 +4593,6 @@ entry(
 )
 
 
-
 entry(
     index = 315,
     label = "R10Hall",
@@ -4634,7 +4632,6 @@ entry(
 """,
     kinetics = None,
 )
-
 
 tree(
 """
@@ -5429,7 +5426,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5450,7 +5446,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5471,7 +5466,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5491,7 +5485,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5511,7 +5504,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5531,7 +5523,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5551,7 +5542,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5571,7 +5561,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5591,7 +5580,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5611,7 +5599,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5672,7 +5659,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5693,7 +5679,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5714,7 +5699,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5735,7 +5719,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5756,7 +5739,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5777,7 +5759,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5798,7 +5779,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5819,7 +5799,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5840,7 +5819,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5861,7 +5839,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5882,7 +5859,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5903,7 +5879,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5924,7 +5899,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5945,7 +5919,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5966,7 +5939,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -5988,7 +5960,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6010,7 +5981,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6032,7 +6002,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6054,7 +6023,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6076,7 +6044,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6098,7 +6065,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6120,7 +6086,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6142,7 +6107,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6164,7 +6128,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6186,7 +6149,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6208,7 +6170,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6230,7 +6191,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6252,7 +6212,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6274,7 +6233,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6296,7 +6254,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6318,7 +6275,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6340,7 +6296,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6362,7 +6317,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6384,7 +6338,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6406,7 +6359,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6429,7 +6381,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6452,7 +6403,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6475,7 +6425,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6498,7 +6447,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6521,7 +6469,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6544,7 +6491,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 """,
 )
 
@@ -6565,7 +6511,6 @@ forbidden(
     shortDesc = u"""""",
     longDesc =
 u"""
-
 """,
 )
 
