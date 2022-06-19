@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index=0,
     label="hemiaminal",
-    kinetics=ArrheniusEP(A=(1e+3, 'cm^3/(mol*s)'), n=0, alpha=0, E0=(0, 'kcal/mol')),
+    kinetics=ArrheniusEP(A=(1e+11, 's^-1'), n=0, alpha=0, E0=(0, 'cal/mol')),
     rank=0,
     shortDesc=u"""Default""",
 )

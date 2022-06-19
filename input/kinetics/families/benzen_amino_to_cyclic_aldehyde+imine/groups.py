@@ -72,6 +72,39 @@ entry(
     kinetics=None,
 )
 
+#entry(
+#    index=1,
+#    label="adrenaline",
+#    group=
+#"""
+#1  *5  N u0 p1 c0 {2,S} {13,S} {14,S}
+#2  *4  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
+#3  *1  C u0 p0 c0 {2,S} {4,S} {12,S} {17,S}
+#4  *9  C u0 p0 c0 {3,S} {5,B} {9,B}
+#5  *12 C u0 p0 c0 {4,B} {6,B} {18,S}
+#6  *8 C u0 p0 c0 {5,B} {7,B} {11,S}
+#7  *7  C u0 p0 c0 {6,B} {8,B} {10,S}
+#8  *11 C u0 p0 c0 {7,B} {9,B} {19,S}
+#9  *10 C u0 p0 c0 {4,B} {8,B} {20,S}
+#10     O u0 p2 c0 {7,S} {21,S}
+#11     O u0 p2 c0 {6,S} {22,S}
+#12 *2  O u0 p2 c0 {3,S} {23,S}
+#13     H u0 p0 c0 {1,S}
+#14 *6  H u0 p0 c0 {1,S}
+#15     H u0 p0 c0 {2,S}
+#16     H u0 p0 c0 {2,S}
+#17     H u0 p0 c0 {3,S}
+#18     H u0 p0 c0 {5,S}
+#19     H u0 p0 c0 {8,S}
+#20     H u0 p0 c0 {9,S}
+#21     H u0 p0 c0 {10,S}
+#22     H u0 p0 c0 {11,S}
+#23 *3  H u0 p0 c0 {12,S}
+#
+#""",
+#    kinetics=None,
+#)
+
 tree(
 """
 L1: benzen_amino

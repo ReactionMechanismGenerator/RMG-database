@@ -10,7 +10,7 @@ entry(
     index = 1,
     label = "CdN;H2O",
     kinetics = ArrheniusEP(
-        A = (1e+12, 'cm^3/(mol*s)'),
+        A = (1e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
