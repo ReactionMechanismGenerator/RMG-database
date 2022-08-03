@@ -6,8 +6,9 @@ shortDesc = "Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin
 longDesc = """
 This library is made by Kevin Spiekermann and contains the thermochemistry for a subset of the species from 
 Spiekermann, K. A.; Pattanaik, L.; Green, W. H. 
-Refining elementary reactions with a highly accurate quantum method. 
-Sci. data. (In preparation)
+High accuracy barrier heights, enthalpies, and rate coefficients for chemical reactions.
+Sci. data 9, 1-12 (2022).
+https://www.nature.com/articles/s41597-022-01529-6
 
 This published work reports nearly 12,000 reactions, with over 1,000 reactions matching RMG templates. 
 The species included in this file represent a subset of the species participating in these RMG reactions.
