@@ -12525,3 +12525,129 @@ Original entry: 2-Vinylphenyl <=> W8
 """,
 )
 
+entry(
+    index = 851,
+    label = "C5H9O3 <=> C5H9O3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.36503e+12,'s^-1'), n=-0.362271, Ea=(105.371,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.22736, dn = +|- 0.0272231, dEa = +|- 0.139444 kJ/mol"""),
+    rank = 3,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(=CCO)CO[O] <=> C[C]1COOC1CO
+""",
+)
+
+entry(
+    index = 852,
+    label = "C4H7O2 <=> C4H7O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.11317e+08,'s^-1'), n=0.942601, Ea=(105.623,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01041, dn = +|- 0.0013767, dEa = +|- 0.00705182 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=CC(C)O[O] <=> CC1[CH]COO1
+""",
+)
+
+entry(
+    index = 853,
+    label = "C5H9O3-3 <=> C5H9O3-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.39857e+08,'s^-1'), n=0.703046, Ea=(101.349,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.02296, dn = +|- 0.00301673, dEa = +|- 0.0154525 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=CC(O)O[O] <=> CC1(C)[CH]C(O)OO1
+""",
+)
+
+entry(
+    index = 854,
+    label = "C6H11O2 <=> C6H11O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.06377e+06,'s^-1'), n=1.53051, Ea=(97.6528,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.07799, dn = +|- 0.00997991, dEa = +|- 0.0511198 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=C(C)CO[O] <=> C[C]1COOC1(C)C
+""",
+)
+
+entry(
+    index = 855,
+    label = "C4H7O2-3 <=> C4H7O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.30459e+09,'s^-1'), n=0.692636, Ea=(102.449,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04635, dn = +|- 0.00602118, dEa = +|- 0.0308421 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=C(C)CO[O] <=> C[C]1COOC1
+""",
+)
+
+entry(
+    index = 856,
+    label = "C4H7O2-5 <=> C4H7O2-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.04009e+07,'s^-1'), n=0.774489, Ea=(54.201,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.09094, dn = +|- 0.0115664, dEa = +|- 0.0592464 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=CCCO[O] <=> [CH]1CCOOC1
+""",
+)
+
+entry(
+    index = 857,
+    label = "C4H7O2-7 <=> C4H7O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.61633e+08,'s^-1'), n=0.771918, Ea=(101.264,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04549, dn = +|- 0.005911, dEa = +|- 0.0302777 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC=CCO[O] <=> CC1[CH]COO1
+""",
+)
+
+entry(
+    index = 858,
+    label = "C3H5O2 <=> C3H5O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.01966e+08,'s^-1'), n=1.01748, Ea=(106.366,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01159, dn = +|- 0.00153075, dEa = +|- 0.00784091 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=CCO[O] <=> [CH]1COOC1
+""",
+)
+
+entry(
+    index = 859,
+    label = "C5H9O3-5 <=> C5H9O3-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.86922e+08,'s^-1'), n=0.646489, Ea=(92.9778,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.21827, dn = +|- 0.0262361, dEa = +|- 0.134388 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc = 
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: C=C(C)C(CO)O[O] <=> C[C]1COOC1CO
+""",
+)
+
