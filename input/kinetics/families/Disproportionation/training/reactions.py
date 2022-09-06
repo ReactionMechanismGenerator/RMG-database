@@ -3696,3 +3696,131 @@ CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
 )
 
+entry(
+    index = 137,
+    label = "H2NO + HN <=> H2N-2 + HNO-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.042867,'cm^3/(mol*s)'), n=3.82365, Ea=(2.70365,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 0.45283, dn = +|- 0.0406526, dEa = +|- 0.209626 kJ/mol"""),
+    rank = 3,
+    shortDesc = """CCSD(T)-F12a/cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r000000_0 + r000000_1 <=> p000000_0 + p000000_1
+Calculated by Angiras Menon and Kevin Spiekermann
+opt, freq: B2PLYP-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVTZ-F12
+""",
+)
+
+entry(
+    index = 138,
+    label = "H2NO-3 + HN <=> H2N-2 + HNO-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.61333,'cm^3/(mol*s)'), n=3.391, Ea=(8.10609,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 0.394163, dn = +|- 0.0222423, dEa = +|- 0.114693 kJ/mol"""),
+    rank = 3,
+    shortDesc = """CCSD(T)-F12a/cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r000000_0 + r000001_1 <=> p000000_0 + p000000_1
+Calculated by Angiras Menon and Kevin Spiekermann
+opt, freq: B2PLYP-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVTZ-F12
+""",
+)
+
+entry(
+    index = 139,
+    label = "H2NO-3 + NO <=> HNO + HNO-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0749208,'cm^3/(mol*s)'), n=4.04714, Ea=(69.0226,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.5783, dn = +|- 0.0605526, dEa = +|- 0.312241 kJ/mol"""),
+    rank = 3,
+    shortDesc = """CCSD(T)-F12a/cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r000002_0 + r000001_1 <=> p000000_1 + p000000_1
+Calculated by Angiras Menon and Kevin Spiekermann
+opt, freq: B2PLYP-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVTZ-F12
+""",
+)
+
+entry(
+    index = 140,
+    label = "H2NO-2 + H2NO <=> H3NO + HNO-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.083506,'cm^3/(mol*s)'), n=3.29239, Ea=(15.0137,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03881, dn = +|- 0.0050521, dEa = +|- 0.0260513 kJ/mol"""),
+    rank = 3,
+    shortDesc = """CCSD(T)-F12a/cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r000003_0 + r000003_0 <=> p000003_0 + p000003_1
+Calculated by Angiras Menon and Kevin Spiekermann
+opt, freq: B2PLYP-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVTZ-F12
+""",
+)
+
+entry(
+    index = 141,
+    label = "H2NO-4 + H2NO <=> H3NO-2 + HNO-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.77573,'cm^3/(mol*s)'), n=3.21489, Ea=(-5.86977,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12715, dn = +|- 0.0158822, dEa = +|- 0.0818969 kJ/mol"""),
+    rank = 3,
+    shortDesc = """CCSD(T)-F12a/cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r000000_1 + r000001_1 <=> p000004_0 + p000000_1
+Calculated by Angiras Menon and Kevin Spiekermann
+opt, freq: B2PLYP-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVTZ-F12
+""",
+)
+
+entry(
+    index = 142,
+    label = "H3N2-3 + O2 <=> HO2 + H2N2-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.474e-05,'cm^3/(mol*s)'), n=4.72018, Ea=(125.067,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 0.765973, dn = +|- 0.110399, dEa = +|- 0.569274 kJ/mol"""),
+    rank = 3,
+    shortDesc = """CCSD(T)-F12a/cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r000006_0 + r000006_1 <=> p000006_0 + p000006_1
+Calculated by Angiras Menon and Kevin Spiekermann
+opt, freq: B2PLYP-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVTZ-F12
+""",
+)
+
+entry(
+    index = 143,
+    label = "H3N2-3 + NO <=> HNO + H2N2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.71959,'cm^3/(mol*s)'), n=3.45108, Ea=(100.142,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.1402, dn = +|- 0.0174092, dEa = +|- 0.089771 kJ/mol"""),
+    rank = 3,
+    shortDesc = """CCSD(T)-F12a/cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r000006_0 + r000002_0 <=> p000006_0 + p000000_1
+Calculated by Angiras Menon and Kevin Spiekermann
+opt, freq: B2PLYP-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVTZ-F12
+""",
+)
+
+entry(
+    index = 144,
+    label = "H2NO-3 + H2N2-4 <=> H3N2-4 + HNO-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.02884,'cm^3/(mol*s)'), n=3.73641, Ea=(19.2119,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 0.388973, dn = +|- 0.0204832, dEa = +|- 0.105622 kJ/mol"""),
+    rank = 3,
+    shortDesc = """CCSD(T)-F12a/cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r000009_0 + r000001_1 <=> p000009_0 + p000000_1
+Calculated by Angiras Menon and Kevin Spiekermann
+opt, freq: B2PLYP-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVTZ-F12
+""",
+)
+
